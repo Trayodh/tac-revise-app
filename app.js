@@ -2396,7 +2396,26 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
     : '';
 
-
+  let chapterImagesHtml = '';
+  if (typeof window.DIAGRAM_MAPPINGS !== 'undefined') {
+      const images = window.DIAGRAM_MAPPINGS.filter(m => m.mapped_chapter_id === chapterId);
+      if (images.length > 0) {
+          chapterImagesHtml = `<div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08);">
+            <div style="color: var(--text-muted); font-size: 0.75rem; font-family: var(--font-mono); margin-bottom: 14px; letter-spacing: 1px; text-transform: uppercase; display: flex; align-items: center; gap: 8px;">
+              <svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#4ade80' stroke-width='2'><rect x='3' y='3' width='18' height='18' rx='2'/><circle cx='8.5' cy='8.5' r='1.5'/><polyline points='21 15 16 10 5 21'/></svg>
+              Related Subject Diagrams
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 24px;">
+              ${images.map(img => `
+                <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+                  <img src="${img.image_path}" alt="Diagram" style="max-width: 100%; border-radius: 4px; display: block; margin: 0 auto;">
+                  ${img.reasoning ? `<div style="margin-top: 12px; font-size: 0.8rem; color: var(--text-secondary); line-height: 1.4;">${img.reasoning}</div>` : ''}
+                </div>
+              `).join('')}
+            </div>
+          </div>`;
+      }
+  }
 
   const tabsHtml = `
 
@@ -2470,6 +2489,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
           </div>
 
           ${chapterDiagramHtml}
+          ${chapterImagesHtml}
 
           ${(() => {
 
@@ -5551,7 +5571,69 @@ function submitCbtExam() {
 
   }
 
+  // Radar Chart Analytics Generation
+  const ctxRadar = document.getElementById('report-radar-chart');
+  if (ctxRadar) {
+    if (window.radarChartInstance) {
+      window.radarChartInstance.destroy();
+    }
+    
+    // Calculate performance per micro-topic
+    const topicStats = {};
+    exam.questions.forEach((q, idx) => {
+      const topic = q.topicId || 'General';
+      if (!topicStats[topic]) topicStats[topic] = { correct: 0, total: 0 };
+      topicStats[topic].total += 1;
+      if (CBT_SESSION.answers[idx] === q.correct) {
+        topicStats[topic].correct += 1;
+      }
+    });
 
+    const labels = Object.keys(topicStats).map(t => t.toUpperCase().replace(/-/g, ' '));
+    const dataPoints = Object.values(topicStats).map(stat => Math.round((stat.correct / stat.total) * 100));
+
+    window.radarChartInstance = new Chart(ctxRadar, {
+      type: 'radar',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Micro-Topic Accuracy (%)',
+          data: dataPoints,
+          backgroundColor: 'rgba(34, 197, 94, 0.2)',
+          borderColor: '#22c55e',
+          pointBackgroundColor: '#22c55e',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: '#22c55e',
+          borderWidth: 2
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          r: {
+            angleLines: { color: 'rgba(255, 255, 255, 0.1)' },
+            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+            pointLabels: {
+              color: '#94a3b8',
+              font: { family: "'Inter', sans-serif", size: 10, weight: 'bold' }
+            },
+            ticks: {
+              color: '#64748b',
+              backdropColor: 'transparent',
+              stepSize: 20,
+              min: 0,
+              max: 100
+            }
+          }
+        },
+        plugins: {
+          legend: { display: false }
+        }
+      }
+    });
+  }
 
   // 2. AI Error Reconciliation Analysis
 
@@ -10045,7 +10127,7 @@ function renderCaVisitsTable() {
 
 
 
-  wrapper.innerHTML = `<table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.9rem; border: 1px solid var(--border);">${headerRow}${rows}</table>`;
+  wrapper.innerHTML = `<table style="width:max(100%, 600px); border-collapse:collapse; margin-top:12px; font-size:0.9rem; border: 1px solid var(--border);">${headerRow}${rows}</table>`;
 
 }
 
@@ -10105,7 +10187,7 @@ function renderCaAwardsTable() {
 
 
 
-  wrapper.innerHTML = `<table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.9rem; border: 1px solid var(--border);">${headerRow}${rows}</table>`;
+  wrapper.innerHTML = `<table style="width:max(100%, 600px); border-collapse:collapse; margin-top:12px; font-size:0.9rem; border: 1px solid var(--border);">${headerRow}${rows}</table>`;
 
 }
 
@@ -10185,7 +10267,7 @@ function renderCaFtaTable() {
 
 
 
-  wrapper.innerHTML = `<table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.88rem; border: 1px solid var(--border);">${headerRow}${rows}</table>`;
+  wrapper.innerHTML = `<table style="width:max(100%, 600px); border-collapse:collapse; margin-top:12px; font-size:0.88rem; border: 1px solid var(--border);">${headerRow}${rows}</table>`;
 
 }
 
@@ -10289,7 +10371,7 @@ function renderCaDatesTable() {
 
 
 
-  wrapper.innerHTML = `<table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.9rem; border: 1px solid var(--border);">${headerRow}${rows}</table>`;
+  wrapper.innerHTML = `<table style="width:max(100%, 600px); border-collapse:collapse; margin-top:12px; font-size:0.9rem; border: 1px solid var(--border);">${headerRow}${rows}</table>`;
 
 }
 
@@ -16967,3 +17049,50 @@ function applyGoalGetterTheme() {
   };
   document.addEventListener('click', startAudio);
 }
+
+// --- Geography Map Modal Interaction ---
+document.addEventListener('click', function(e) {
+  if (e.target && e.target.classList && e.target.classList.contains('geo-tag')) {
+    const lat = e.target.getAttribute('data-lat');
+    const lng = e.target.getAttribute('data-lng');
+    const desc = e.target.getAttribute('data-desc');
+    const title = e.target.innerText || 'Location';
+    
+    document.getElementById('geo-map-title').innerText = title;
+    document.getElementById('geo-map-description').innerText = desc || `Coordinates: ${lat}, ${lng}`;
+    
+    // Using a simple static map provider as a placeholder (Yandex Static Maps)
+    document.getElementById('geo-map-image').src = `https://static-maps.yandex.ru/1.x/?ll=${lng},${lat}&size=600,400&z=6&l=map&pt=${lng},${lat},pm2rdl`;
+    document.getElementById('geo-map-modal').style.display = 'flex';
+  }
+});
+
+// --- Multi-Statement Checkpoint Interaction ---
+document.addEventListener('click', function(e) {
+  if (e.target && e.target.classList && e.target.classList.contains('msc-option')) {
+    const optionBtn = e.target;
+    if (optionBtn.classList.contains('selected-correct') || optionBtn.classList.contains('selected-wrong')) {
+      return;
+    }
+    
+    const checkpointContainer = optionBtn.closest('.msc-checkpoint');
+    const isCorrect = optionBtn.getAttribute('data-correct') === 'true';
+    
+    const allOptions = checkpointContainer.querySelectorAll('.msc-option');
+    allOptions.forEach(btn => {
+      btn.style.pointerEvents = 'none';
+      if (btn.getAttribute('data-correct') === 'true') {
+        btn.classList.add('selected-correct');
+      }
+    });
+    
+    if (!isCorrect) {
+      optionBtn.classList.add('selected-wrong');
+    }
+    
+    const explanationDiv = checkpointContainer.querySelector('.msc-explanation');
+    if (explanationDiv) {
+      explanationDiv.style.display = 'block';
+    }
+  }
+});

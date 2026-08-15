@@ -45,12 +45,6 @@ window.CA_META = {
 // =============================================================================
 window.CA_VISITS_DATA = [
   {
-    visit: "Agni-4 Ballistic Missile Test",
-    period: "September 2026",
-    purpose: "India successfully test-fired the Agni-4 Intermediate-Range Ballistic Missile (IRBM) from APJ Abdul Kalam Island, Odisha.",
-    deals: "The successful test reaffirms India's credible minimum deterrence capability. Agni-4 is a nuclear-capable missile with a range of around 4,000 km, strengthening India's strategic strike capabilities and reinforcing national defence.",
-  },
-  {
     visit: "MALABAR Naval Exercise 2026",
     period: "August 2026",
     purpose: "Quad nations (India, US, Japan, Australia) conducted the MALABAR 2026 maritime exercise in the Indian Ocean Region.",

@@ -1073,6 +1073,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "TROPEX 2026 saw participation from India, the United States and Japan."
+      },
+      "upscHighlights": [
+        "India conducts joint tri-service exercise TROPEX 2026",
+        "Amphibious and cyber warfare capabilities showcased",
+        "Interoperability among Indian Army, Navy, and Air Force"
+      ],
+      "institutionalContext": "TROPEX 2026 was conducted by the Indian Armed Forces, involving the Indian Army, Navy, and Air Force, along with the United States and Japan.",
+      "strategicImportance": "This exercise highlights India's commitment to strengthening its military capabilities and interoperability with international partners, making it a significant event for UPSC/Defence aspirants.",
+      "quickSummary": "The Tri-Service Exercise (TROPEX) 2026 was a joint amphibious operation and cyber-warfare drill conducted by the Indian Armed Forces, along with the United States and Japan, showcasing interoperability among the three services.",
+      "detailedAnalysis": "TROPEX 2026 was a significant exercise that demonstrated the Indian Armed Forces' capabilities in joint amphibious operations and cyber-warfare. The involvement of international partners, including the United States and Japan, highlights India's commitment to strengthening its military relationships and interoperability with global partners.",
+      "backgroundContext": "The Indian Armed Forces have been conducting tri-service exercises to enhance their capabilities and interoperability. TROPEX 2026 was the latest in this series, building on the success of previous exercises.",
+      "stakeholders": [
+        "Indian Armed Forces",
+        "United States",
+        "Japan"
+      ],
+      "relatedTopics": [
+        "Indian Defence",
+        "Tri-Service Exercises",
+        "Amphibious Operations"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of TROPEX 2026?",
+          "How does TROPEX 2026 demonstrate interoperability among the Indian Armed Forces?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of joint amphibious operations in modern warfare?",
+          "How does India's participation in TROPEX 2026 enhance its military relationships with international partners?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of tri-service exercises in enhancing military capabilities",
+          "The importance of interoperability among international partners in modern warfare"
+        ]
       }
     },
     {
@@ -1095,6 +1134,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "France and Australia were the two foreign navies that participated."
+      },
+      "upscHighlights": [
+        "India hosts Exercise Shakti 2026 in Indian Ocean",
+        "Multilateral naval exercise showcases ASW and carrier ops",
+        "India strengthens maritime ties with France and Australia"
+      ],
+      "institutionalContext": "The Indian Navy, French Navy, and Royal Australian Navy conducted Exercise Shakti 2026, a multilateral maritime exercise focusing on anti-submarine warfare (ASW) and carrier battle group operations.",
+      "strategicImportance": "Exercise Shakti 2026 demonstrates India's commitment to strengthening maritime cooperation with key partners, enhancing interoperability, and showcasing its capabilities in ASW and carrier operations.",
+      "quickSummary": "Exercise Shakti 2026, a multilateral naval exercise, was conducted by the Indian Navy in collaboration with the French Navy and Royal Australian Navy from 15-21 April 2026 in the Indian Ocean. The exercise focused on anti-submarine warfare and carrier battle group operations.",
+      "detailedAnalysis": "Exercise Shakti 2026 is a significant development in India's maritime diplomacy, highlighting its efforts to strengthen ties with key partners and enhance interoperability. The exercise demonstrates India's capabilities in ASW and carrier operations, showcasing its commitment to regional security and stability.",
+      "backgroundContext": "Exercise Shakti 2026 is part of India's ongoing efforts to strengthen its maritime relationships with key partners, including France and Australia. The exercise builds on previous bilateral and multilateral exercises, such as the Malabar series, which have enhanced interoperability and cooperation among participating navies.",
+      "stakeholders": [
+        "Indian Navy",
+        "French Navy",
+        "Royal Australian Navy"
+      ],
+      "relatedTopics": [
+        "Maritime Security",
+        "India-France Relations",
+        "India-Australia Relations"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key objectives of Exercise Shakti 2026?",
+          "How does Exercise Shakti 2026 enhance India's maritime relationships with key partners?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the significance of Exercise Shakti 2026 in India's maritime diplomacy?",
+          "How does Exercise Shakti 2026 demonstrate India's capabilities in ASW and carrier operations?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of multilateral exercises in enhancing maritime cooperation",
+          "The importance of ASW and carrier operations in regional security"
+        ]
       }
     },
     {
@@ -1117,6 +1195,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "Akash‑IX is designed for a 70 km operational range."
+      },
+      "upscHighlights": [
+        "India inducts Akash-IX surface-to-air missile system",
+        "Next-generation variant with 70 km range and dual-mode seeker",
+        "Enhances Army air-defence capability in northern sector"
+      ],
+      "institutionalContext": "The Indian Army is inducting the Akash-IX surface-to-air missile system, a next-generation variant with a range of 70 km and dual-mode seeker, to enhance its air-defence capability in the northern sector.",
+      "strategicImportance": "This induction is significant for UPSC/Defence as it showcases India's advancements in missile technology and its commitment to enhancing its air-defence capabilities.",
+      "quickSummary": "The Indian Army has inducted the Akash-IX surface-to-air missile system, a next-generation variant with a range of 70 km and dual-mode seeker, to enhance its air-defence capability in the northern sector.",
+      "detailedAnalysis": "The Akash-IX surface-to-air missile system is a significant addition to the Indian Army's air-defence capabilities. With a range of 70 km and dual-mode seeker, it can detect and engage targets at long ranges, making it an effective system for defending against aerial threats. The induction of this system is a testament to India's advancements in missile technology and its commitment to enhancing its air-defence capabilities.",
+      "backgroundContext": "The Akash missile system is a family of surface-to-air missiles developed by the Defence Research and Development Organisation (DRDO) and manufactured by Bharat Dynamics Limited (BDL). The Akash-IX variant is a next-generation variant with improved range and seeker capabilities.",
+      "stakeholders": [
+        "Indian Army",
+        "Defence Research and Development Organisation (DRDO)",
+        "Bharat Dynamics Limited (BDL)"
+      ],
+      "relatedTopics": [
+        "Indian Defence",
+        "Missile Technology",
+        "Air-Defence Capabilities"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the range of the Akash-IX surface-to-air missile system?",
+          "What are the key features of the Akash-IX surface-to-air missile system?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of the Akash-IX surface-to-air missile system for the Indian Army?",
+          "How does the Akash-IX surface-to-air missile system enhance the Indian Army's air-defence capabilities?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of missile technology in enhancing air-defence capabilities",
+          "The importance of surface-to-air missile systems in modern warfare"
+        ]
       }
     },
     {
@@ -1139,6 +1256,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "Satish Dhawan Space Centre (Sriharikota) was the launch site."
+      },
+      "upscHighlights": [
+        "ISRO successfully launches Gaganyaan-2 mission",
+        "Indian astronauts complete 7-day space mission",
+        "Re-entry technology demonstrated for future lunar missions"
+      ],
+      "institutionalContext": "The Indian Space Research Organisation (ISRO) is the primary space agency of the Government of India, responsible for the country's space program.",
+      "strategicImportance": "This mission showcases India's capabilities in space exploration and re-entry technology, which is crucial for future crewed lunar missions.",
+      "quickSummary": "ISRO launched Gaganyaan-2 on 12 April 2026, sending two Indian astronauts into a 300-km low Earth orbit for a 7-day mission, demonstrating re-entry technology for future lunar missions.",
+      "detailedAnalysis": "The Gaganyaan-2 mission is a significant milestone in India's space program, marking the second crewed mission after the successful launch of Gaganyaan-1 in 2024. The mission validates re-entry and orbital operations, paving the way for future crewed lunar missions. The successful demonstration of re-entry technology is crucial for India's plans to send humans to the Moon in the near future.",
+      "backgroundContext": "India's space program has made significant strides in recent years, with the successful launch of several satellites and spacecraft. The Gaganyaan program is a key component of India's space program, aimed at developing capabilities for human spaceflight.",
+      "stakeholders": [
+        "Indian Space Research Organisation (ISRO)",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Indian Space Program",
+        "Gaganyaan Program",
+        "Space Exploration"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Gaganyaan-2 mission?",
+          "What is the re-entry technology demonstrated by the Gaganyaan-2 mission?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of the Gaganyaan program in India's space program?",
+          "How does the Gaganyaan-2 mission contribute to India's plans for human spaceflight?"
+        ],
+        "ssbDiscussionTopics": [
+          "Space exploration and its relevance to national security",
+          "The role of space technology in achieving national objectives"
+        ]
       }
     },
     {
@@ -1152,7 +1307,46 @@ window.CURRENT_AFFAIRS_DB = {
         "D) Cyber‑security treaty signing"
       ],
       "answer": "A",
-      "explanation": "The Quad drill emphasized maritime security and anti‑piracy operations."
+      "explanation": "The Quad drill emphasized maritime security and anti‑piracy operations.",
+      "upscHighlights": [
+        "India and US strengthen strategic ties through joint exercises",
+        "India's diplomatic efforts to counter China's growing influence",
+        "Enhanced cooperation between India and other major world powers"
+      ],
+      "institutionalContext": "The Indian Ministry of External Affairs (MEA) played a key role in facilitating the diplomatic efforts.",
+      "strategicImportance": "This development highlights India's efforts to strengthen its strategic partnerships and counterbalance China's growing influence in the region.",
+      "quickSummary": "India and the US have strengthened their strategic ties through joint military exercises, marking a significant development in their bilateral relations. This move is seen as a counter to China's growing influence in the region.",
+      "detailedAnalysis": "The recent joint military exercises between India and the US are a testament to the growing strategic partnership between the two nations. This partnership is a result of India's efforts to diversify its foreign policy and reduce its dependence on any single country. The exercises are also seen as a way to counter China's growing influence in the region, particularly in the Indian Ocean.",
+      "backgroundContext": "India's foreign policy has undergone significant changes in recent years, with a focus on strengthening strategic partnerships and diversifying its diplomatic efforts. The country has been actively engaging with major world powers, including the US, to counterbalance China's growing influence.",
+      "stakeholders": [
+        "India",
+        "United States",
+        "China"
+      ],
+      "relatedTopics": [
+        "India-US Relations",
+        "China's Growing Influence",
+        "Indian Foreign Policy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key takeaways from the recent joint military exercises between India and the US?",
+          "How does this development impact India's foreign policy?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the strategic significance of the India-US joint military exercises?",
+          "How does this partnership impact India's relations with other major world powers?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of diplomacy in strengthening strategic partnerships",
+          "The impact of China's growing influence on India's foreign policy"
+        ]
+      }
     },
     {
       "id": "rbi-repo-rate",
@@ -1174,6 +1368,55 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The repo rate remained at 6.5 %."
+      },
+      "upscHighlights": [
+        "RBI maintains repo rate at 6.5% on April 4, 2026.",
+        "Decision driven by stable 4.2% inflation and robust growth outlook.",
+        "Monetary policy aims to balance price stability and economic expansion."
+      ],
+      "institutionalContext": "The Reserve Bank of India (RBI) is India's central bank, responsible for formulating and implementing monetary policy to maintain price stability while keeping in mind the objective of growth. Its Monetary Policy Committee (MPC) makes key interest rate decisions.",
+      "strategicImportance": "Understanding the RBI's monetary policy decisions, such as repo rate changes, is crucial for defence exam aspirants. These decisions reflect the economic health of the nation, influence inflation, growth, and employment, all of which have direct implications for national security and strategic planning. A stable economy is fundamental for a strong defence.",
+      "quickSummary": "On April 4, 2026, the Reserve Bank of India's Monetary Policy Committee decided to keep the benchmark repo rate unchanged at 6.5%. This decision was primarily influenced by a stable inflation rate of 4.2% and a positive growth outlook for the first quarter of FY2026-27, indicating the RBI's confidence in the current economic trajectory and its commitment to balancing price stability with economic expansion.",
+      "detailedAnalysis": "The repo rate, or repurchase rate, is the rate at which the RBI lends money to commercial banks. It is a key tool in the central bank's monetary policy arsenal to control inflation and manage liquidity in the economy. By keeping the repo rate unchanged at 6.5%, the RBI signaled its assessment that the current monetary stance is appropriate given the prevailing economic conditions. The decision was underpinned by two critical factors: stable inflation, which at 4.2% is within the RBI's target band (typically 2-6%), and a robust growth outlook for Q1 FY2026-27. This indicates that the RBI believes the economy is on a sustainable growth path without significant inflationary pressures, thus not requiring further tightening or easing of monetary policy. The stability in rates provides predictability for businesses and consumers, fostering investment and consumption.",
+      "backgroundContext": "The Reserve Bank of India operates under a flexible inflation targeting framework, with the primary objective of maintaining price stability while supporting economic growth. The repo rate is the most important policy rate, influencing all other interest rates in the economy. Decisions regarding the repo rate are made by the six-member Monetary Policy Committee (MPC), which meets at least four times a year. The MPC considers various domestic and global economic indicators, including inflation, GDP growth, industrial production, and global commodity prices, before arriving at a consensus on the policy rate.",
+      "stakeholders": [
+        "Reserve Bank of India (RBI)",
+        "Commercial Banks",
+        "Government of India",
+        "Businesses and Industries",
+        "Consumers and Households",
+        "Investors"
+      ],
+      "relatedTopics": [
+        "Monetary Policy",
+        "Inflation Targeting",
+        "Economic Growth",
+        "Fiscal Policy",
+        "Central Banking",
+        "Interest Rates",
+        "Liquidity Management"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the repo rate and its significance?",
+          "Why did the RBI keep the repo rate unchanged on April 4, 2026?",
+          "What is the primary objective of the RBI's monetary policy?"
+        ],
+        "interviewQuestions": [
+          "Discuss the implications of an unchanged repo rate on the Indian economy, particularly for businesses and consumers.",
+          "How does the RBI balance the objectives of inflation control and economic growth?",
+          "What are the key factors that influence the Monetary Policy Committee's decisions?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Reserve Bank of India in maintaining India's economic stability.",
+          "Impact of global economic trends on India's domestic monetary policy decisions.",
+          "Balancing economic growth and inflation: A continuous challenge for India's central bank."
+        ]
       }
     },
     {
@@ -1196,6 +1439,54 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The reported growth was 7.2 %."
+      },
+      "upscHighlights": [
+        "India's Q1 FY2026-27 GDP grew 7.2% YoY.",
+        "Growth driven by strong manufacturing and services sectors.",
+        "Surpassed government's 6.8% target, indicating economic resilience."
+      ],
+      "institutionalContext": "The National Statistical Office (NSO) under the Ministry of Statistics and Programme Implementation (MoSPI) is responsible for compiling and releasing GDP data. The Reserve Bank of India (RBI) and the Ministry of Finance use this data for monetary and fiscal policy formulation.",
+      "strategicImportance": "Robust economic growth is crucial for national security, enabling increased defence spending, modernization of armed forces, and maintaining geopolitical influence. A strong economy provides the fiscal space for strategic investments and ensures stability, which is vital for internal security and external posture. Understanding economic indicators is essential for officers to grasp the broader strategic environment.",
+      "quickSummary": "India's Gross Domestic Product (GDP) recorded a significant year-on-year growth of 7.2% in the first quarter of Fiscal Year 2026-27 (January-March 2026). This performance exceeded the government's initial target of 6.8%, primarily propelled by robust output from the manufacturing sector and substantial expansion within the services sector. This higher-than-expected growth signals a resilient and dynamic Indian economy.",
+      "detailedAnalysis": "The 7.2% GDP growth in Q1 FY2026-27 (Jan-Mar 2026) reflects a strong economic rebound and sustained momentum. This growth rate is particularly noteworthy as it surpassed the government's own projections, indicating underlying strengths in key economic pillars. The manufacturing sector's strong performance suggests healthy industrial activity, possibly driven by increased domestic demand, investment, and favorable policy environments. Simultaneously, the services sector, a major contributor to India's GDP, continued its expansion, reflecting resilience in areas like IT, financial services, and trade. This robust growth trajectory is critical for job creation, poverty reduction, and overall economic development, providing a strong foundation for future fiscal and monetary policy decisions by the RBI and the government.",
+      "backgroundContext": "Gross Domestic Product (GDP) is the total monetary value of all finished goods and services produced within a country's borders in a specific time period. It is a key indicator of economic health. India's economy has shown resilience in recent years, navigating global economic headwinds. The government and RBI have implemented various reforms and policies aimed at boosting manufacturing (e.g., PLI schemes) and strengthening the services sector. Consistent high growth rates are essential for India to achieve its developmental goals and become a major global economic power.",
+      "stakeholders": [
+        "National Statistical Office (NSO)",
+        "Ministry of Finance, Government of India",
+        "Reserve Bank of India (RBI)",
+        "Indian Businesses and Industries",
+        "Indian Consumers",
+        "International Investors and Rating Agencies"
+      ],
+      "relatedTopics": [
+        "Indian Economy",
+        "Macroeconomic Indicators",
+        "Fiscal Policy",
+        "Monetary Policy",
+        "Economic Reforms",
+        "National Income Accounting"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What was India's GDP growth rate in Q1 FY2026-27?",
+          "Which sectors primarily drove India's economic growth in Q1 FY2026-27?",
+          "What is the full form of GDP and who releases its data in India?"
+        ],
+        "interviewQuestions": [
+          "How does sustained economic growth impact India's national security and defence capabilities?",
+          "Discuss the role of the manufacturing and services sectors in India's economic trajectory.",
+          "What are the potential challenges and opportunities for India's economy in the coming years, given its current growth rate?"
+        ],
+        "ssbDiscussionTopics": [
+          "Impact of India's economic growth on its geopolitical standing.",
+          "Balancing economic growth with environmental sustainability in India.",
+          "The role of government policies in fostering a resilient economy."
+        ]
       }
     },
     {
@@ -1218,6 +1509,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The Kupwara sector witnessed the exchange of fire."
+      },
+      "upscHighlights": [
+        "Cease-fire violation reported along LoC in Kupwara sector",
+        "Renewed LoC clashes underscore ongoing border volatility",
+        "Two casualties on each side in recent LoC skirmish"
+      ],
+      "institutionalContext": "The Line of Control (LoC) is a military demarcation line between India and Pakistan, established in 1972.",
+      "strategicImportance": "This event highlights the ongoing tensions and volatility along the LoC, which is a critical area of concern for the Indian Armed Forces.",
+      "quickSummary": "A cease-fire violation was reported along the Line of Control (LoC) in the Kupwara sector on 12 April 2026, resulting in two casualties on each side. This incident underscores the ongoing border volatility between India and Pakistan.",
+      "detailedAnalysis": "The recent LoC skirmish is a manifestation of the long-standing tensions between India and Pakistan. The Line of Control has been a contentious issue since the Indo-Pakistani War of 1947, and the cease-fire violations are a recurring phenomenon. The Indian Armed Forces have been vigilant in maintaining the security of the LoC, while also engaging in diplomatic efforts to resolve the issue through dialogue.",
+      "backgroundContext": "The Line of Control was established in 1972 as a military demarcation line between India and Pakistan. Since then, there have been numerous cease-fire violations, with both sides accusing each other of aggression. The recent skirmish is a reminder of the ongoing tensions and the need for sustained diplomatic efforts to resolve the issue.",
+      "stakeholders": [
+        "Indian Armed Forces",
+        "Pakistani Military"
+      ],
+      "relatedTopics": [
+        "India-Pakistan Relations",
+        "Line of Control (LoC)",
+        "Cease-fire Violations"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the implications of the recent LoC skirmish on India-Pakistan relations?",
+          "How has the Indian Armed Forces responded to the cease-fire violations along the LoC?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the current security situation along the Line of Control?",
+          "How do you assess the impact of the recent LoC skirmish on regional stability?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of diplomacy in resolving the LoC issue",
+          "The security implications of the recent LoC skirmish for India"
+        ]
       }
     },
     {
@@ -1240,6 +1569,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The scheme provides a 15 % incentive."
+      },
+      "upscHighlights": [
+        "Boost to indigenous defence manufacturing",
+        "15% cash incentive for capital investments",
+        "Make in India initiative gains momentum"
+      ],
+      "institutionalContext": "The Defence Production Incentive Scheme 2026 is a government initiative aimed at promoting self-reliance in defence manufacturing under the 'Make in India' programme.",
+      "strategicImportance": "This scheme is crucial for UPSC/Defence as it highlights the government's efforts to reduce dependence on foreign defence equipment and promote indigenous manufacturing.",
+      "quickSummary": "The Defence Production Incentive Scheme 2026 offers a 15% cash incentive on capital investments for indigenous weapon systems up to ₹25,000 crore, aiming to boost self-reliance under 'Make in India'.",
+      "detailedAnalysis": "The Defence Production Incentive Scheme 2026 is a significant step towards achieving self-reliance in defence manufacturing. The scheme offers a 15% cash incentive on capital investments for indigenous weapon systems up to ₹25,000 crore, which is expected to boost domestic defence production. This initiative is in line with the government's 'Make in India' programme, which aims to promote domestic manufacturing and reduce dependence on foreign defence equipment. The scheme is expected to have a positive impact on the Indian defence industry, creating new opportunities for domestic manufacturers and reducing the country's reliance on foreign defence suppliers.",
+      "backgroundContext": "The Indian defence industry has been growing rapidly in recent years, driven by increasing defence spending and a growing focus on self-reliance. The government has been promoting indigenous defence manufacturing through various initiatives, including the 'Make in India' programme. The Defence Production Incentive Scheme 2026 is a key component of this effort, aiming to provide a boost to indigenous defence manufacturing and reduce dependence on foreign defence equipment.",
+      "stakeholders": [
+        "Government of India",
+        "Indian Defence Industry",
+        "Domestic Defence Manufacturers"
+      ],
+      "relatedTopics": [
+        "Make in India",
+        "Defence Production",
+        "Indigenous Manufacturing"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the Defence Production Incentive Scheme 2026 and its objectives?",
+          "How will the scheme benefit the Indian defence industry?"
+        ],
+        "interviewQuestions": [
+          "Explain the significance of the Defence Production Incentive Scheme 2026 in promoting self-reliance in defence manufacturing.",
+          "How will the scheme impact the Indian defence industry and its stakeholders?"
+        ],
+        "ssbDiscussionTopics": [
+          "Self-reliance in defence manufacturing: challenges and opportunities",
+          "The role of government initiatives in promoting indigenous defence manufacturing"
+        ]
       }
     },
     {
@@ -1262,6 +1630,43 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "He received the PVSM for his contributions."
+      },
+      "upscHighlights": [
+        "Air Marshal R. Singh receives Param Vishisht Seva Medal.",
+        "IAF modernization leadership recognized with PVSM.",
+        "Highest peacetime award conferred on Air Marshal R. Singh."
+      ],
+      "institutionalContext": "The Indian Air Force (IAF) is the air arm of the Indian Armed Forces, responsible for aerial warfare and air defence.",
+      "strategicImportance": "This award highlights the IAF's efforts in modernizing its fighter aircraft fleet, a crucial aspect of national security and a key area of focus for UPSC/Defence exams.",
+      "quickSummary": "Air Marshal R. Singh was conferred the Param Vishisht Seva Medal (PVSM) on 25 April 2026 for his distinguished service in modernizing the Indian Air Force's fleet of fighter aircraft.",
+      "detailedAnalysis": "The Param Vishisht Seva Medal is the highest peacetime award recognizing exceptional service and leadership in the Indian Armed Forces. Air Marshal R. Singh's achievement is a testament to his dedication and expertise in modernizing the IAF's fighter aircraft fleet, which is critical for national security and a key area of focus for UPSC/Defence exams.",
+      "backgroundContext": "The Indian Air Force has been undergoing modernization efforts to enhance its capabilities and stay ahead of emerging threats. This includes the induction of new fighter aircraft, upgrades to existing fleets, and the development of advanced air defence systems.",
+      "stakeholders": [
+        "Indian Air Force",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Indian Armed Forces Modernization",
+        "National Security"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Param Vishisht Seva Medal?",
+          "How does the modernization of the IAF's fighter aircraft fleet impact national security?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the role of the IAF in national security?",
+          "How does the modernization of the IAF's fighter aircraft fleet align with the government's defence priorities?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of air power in modern warfare",
+          "The challenges and opportunities of modernizing the IAF's fighter aircraft fleet"
+        ]
       }
     },
     {
@@ -1284,6 +1689,47 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The focus was on maritime climate resilience."
+      },
+      "upscHighlights": [
+        "India hosts UN Climate Summit 2026 in New Delhi",
+        "Maritime climate resilience crucial for naval operations",
+        "Climate change impacts naval operational readiness"
+      ],
+      "institutionalContext": "The UN Climate Summit 2026 was hosted by the Government of India in collaboration with the United Nations, bringing together global leaders to discuss climate change and its impact on naval operations in the Indian Ocean Region.",
+      "strategicImportance": "This event highlights the importance of climate resilience for naval operations, which is crucial for India's national security and its role in the Indian Ocean Region.",
+      "quickSummary": "The UN Climate Summit 2026 was held in New Delhi from 2-5 April, where the Ministry of Defence emphasized the significance of maritime climate resilience for naval operations in the Indian Ocean Region. The summit linked climate change to naval operational readiness, underscoring the need for climate-resilient naval strategies.",
+      "detailedAnalysis": "The UN Climate Summit 2026 marked a significant event in the global fight against climate change, with a focus on its impact on naval operations in the Indian Ocean Region. The Ministry of Defence highlighted the importance of maritime climate resilience, which is critical for India's naval operations and national security. The summit brought together global leaders to discuss climate change and its implications for naval operational readiness, emphasizing the need for climate-resilient naval strategies.",
+      "backgroundContext": "Climate change has become a pressing concern for naval operations worldwide, with rising sea levels, increased extreme weather events, and changing ocean currents posing significant challenges to naval readiness. In the Indian Ocean Region, climate change is expected to have a disproportionate impact on naval operations, making maritime climate resilience a critical aspect of national security.",
+      "stakeholders": [
+        "Government of India",
+        "United Nations",
+        "Ministry of Defence",
+        "Indian Navy"
+      ],
+      "relatedTopics": [
+        "Climate Change",
+        "Naval Operations",
+        "Indian Ocean Region",
+        "National Security"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of maritime climate resilience for naval operations in the Indian Ocean Region?",
+          "How does climate change impact naval operational readiness?"
+        ],
+        "interviewQuestions": [
+          "Explain the importance of climate resilience for naval operations in the Indian Ocean Region.",
+          "Discuss the implications of climate change on naval operational readiness."
+        ],
+        "ssbDiscussionTopics": [
+          "Climate change and its impact on naval operations in the Indian Ocean Region.",
+          "Maritime climate resilience and its significance for national security."
+        ]
       }
     },
     {
@@ -1306,6 +1752,43 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "India clinched three gold medals."
+      },
+      "upscHighlights": [
+        "India secures 3 gold, 5 silver, 4 bronze medals",
+        "Strong performance in World Military Games 2026",
+        "Notable victories in shooting and archery"
+      ],
+      "institutionalContext": "The World Military Games is an international multi-sport event organized by the International Military Sports Council (CISM), which aims to promote military sports and camaraderie among nations.",
+      "strategicImportance": "This event showcases India's military prowess and sportsmanship, highlighting its capabilities and potential for international cooperation.",
+      "quickSummary": "India's impressive performance at the World Military Games 2026 has earned the country 3 gold, 5 silver, and 4 bronze medals, with notable victories in shooting and archery disciplines.",
+      "detailedAnalysis": "The World Military Games 2026, held in Moscow from 10-18 April, saw India emerge as a strong contender, securing a total of 12 medals. This achievement is a testament to the country's growing interest in military sports and its commitment to promoting international cooperation. The notable victories in shooting and archery disciplines demonstrate India's expertise in these areas and its potential for future success.",
+      "backgroundContext": "The World Military Games have a rich history, dating back to 1995, when the first edition was held in Rome, Italy. The event has since grown in popularity, with over 100 countries participating in the 2026 edition.",
+      "stakeholders": [
+        "Indian Armed Forces",
+        "International Military Sports Council (CISM)"
+      ],
+      "relatedTopics": [
+        "Indian Defence Expenditure",
+        "Military Diplomacy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of India's performance at the World Military Games 2026?",
+          "How does India's participation in military sports impact its international relations?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on India's strategy for promoting military sports and international cooperation?",
+          "How does India's performance at the World Military Games 2026 reflect its military capabilities?"
+        ],
+        "ssbDiscussionTopics": [
+          "Importance of military sports in promoting national unity and international cooperation",
+          "Role of the Indian Armed Forces in promoting military sports and international relations"
+        ]
       }
     },
     {
@@ -1328,6 +1811,43 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The HGV reached Mach 7 in the test."
+      },
+      "upscHighlights": [
+        "India successfully tests hypersonic glide vehicle.",
+        "Achieves Mach 7 speed and 1,200 km range.",
+        "Major step in India's strategic missile capabilities."
+      ],
+      "institutionalContext": "The Defence Research and Development Organisation (DRDO) is a premier agency responsible for the development of defence technology in India.",
+      "strategicImportance": "This achievement demonstrates India's growing capabilities in developing advanced strike systems, enhancing its national security and strategic prowess.",
+      "quickSummary": "DRDO successfully tested a hypersonic glide vehicle (HGV) on 28 April 2026, achieving a speed of Mach 7 and a range of 1,200 km. This marks a significant milestone in India's strategic missile capabilities.",
+      "detailedAnalysis": "The successful test of the HGV is a culmination of years of research and development by the DRDO. This achievement showcases India's capabilities in developing advanced strike systems, which will enhance its national security and strategic prowess. The HGV's ability to achieve Mach 7 speed and a range of 1,200 km makes it a formidable asset for India's military.",
+      "backgroundContext": "India has been actively pursuing the development of hypersonic technologies to enhance its military capabilities. The DRDO has been working on various projects related to hypersonic systems, including the HGV.",
+      "stakeholders": [
+        "Defence Research and Development Organisation (DRDO)",
+        "Indian Armed Forces"
+      ],
+      "relatedTopics": [
+        "Hypersonic Technology",
+        "Strategic Missile Capabilities"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is a hypersonic glide vehicle and its significance in military capabilities?",
+          "Describe the achievements of the DRDO in developing advanced strike systems."
+        ],
+        "interviewQuestions": [
+          "How does the development of hypersonic technologies impact India's national security?",
+          "What are the potential applications of the HGV in military operations?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the DRDO in enhancing India's military capabilities.",
+          "The implications of hypersonic technologies on international relations."
+        ]
       }
     },
     {
@@ -1350,6 +1870,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The summit took place in Thimphu, Bhutan."
+      },
+      "upscHighlights": [
+        "India, China, Bhutan hold trilateral summit in Thimphu.",
+        "Border management mechanisms reinforced between nations.",
+        "Quarterly military confidence-building meetings agreed upon."
+      ],
+      "institutionalContext": "The trilateral summit involved the governments of India, China, and Bhutan, with a focus on strengthening diplomatic ties and addressing border management issues.",
+      "strategicImportance": "This summit holds strategic importance as it aims to reduce border tensions and promote regional stability, which is crucial for India's national security and defense.",
+      "quickSummary": "A trilateral summit was held in Thimphu, bringing together India, China, and Bhutan to discuss border management and reinforce existing mechanisms. The nations agreed to hold quarterly military confidence-building meetings to reduce tensions.",
+      "detailedAnalysis": "The trilateral summit between India, China, and Bhutan is a significant development in regional diplomacy. The agreement to reinforce existing border management mechanisms and hold quarterly military confidence-building meetings is a step towards reducing tensions and promoting regional stability. This is particularly important for India, as it shares a border with China and has had historical disputes over the Doklam plateau. The summit also highlights the importance of Bhutan's role as a mediator in regional affairs.",
+      "backgroundContext": "The Doklam plateau dispute between India and China has been a longstanding issue, with both nations having competing claims over the region. Bhutan has traditionally been a neutral party in the dispute, but has recently taken a more active role in regional diplomacy.",
+      "stakeholders": [
+        "India",
+        "China",
+        "Bhutan"
+      ],
+      "relatedTopics": [
+        "India-China relations",
+        "Bhutan's role in regional diplomacy",
+        "Border management mechanisms"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key outcomes of the trilateral summit between India, China, and Bhutan?",
+          "How does the agreement to hold quarterly military confidence-building meetings impact regional stability?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the significance of the trilateral summit in the context of India-China relations?",
+          "How does Bhutan's role in regional diplomacy impact the region's security dynamics?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of diplomacy in resolving border disputes",
+          "The importance of regional stability in national security"
+        ]
       }
     },
     {
@@ -1364,7 +1923,48 @@ window.CURRENT_AFFAIRS_DB = {
         "event": "Port Call",
         "cooperation_details": "Kenya received INSAS rifles and ammunition from Indian Navy; handover by senior naval officials; strengthens bilateral defence cooperation; aligns with MAHASAGAR vision."
       },
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "India strengthens bilateral defence cooperation with Kenya",
+        "INS Trikand concludes port call at Mombasa, Kenya",
+        "India's MAHASAGAR vision takes shape through defence cooperation"
+      ],
+      "institutionalContext": "The Indian Navy is the naval branch of the Indian Armed Forces, responsible for the country's maritime security and defence.",
+      "strategicImportance": "This event highlights India's commitment to strengthening its defence ties with African nations, enhancing regional security and promoting its MAHASAGAR vision.",
+      "quickSummary": "INS Trikand, a frontline guided missile frigate of the Indian Navy, concluded its port call at Mombasa, Kenya, on 10 April 2026. During the visit, Kenya received INSAS rifles and ammunition from the Indian Navy, strengthening bilateral defence cooperation.",
+      "detailedAnalysis": "The port call by INS Trikand marks a significant step in India's efforts to enhance its defence cooperation with Kenya and other African nations. This initiative aligns with India's MAHASAGAR vision, which aims to promote mutual and holistic advancement for security and growth across regions. The handover of INSAS rifles and ammunition to Kenya reflects India's commitment to strengthening its defence ties with African nations and enhancing regional security.",
+      "backgroundContext": "India's defence cooperation with African nations has been gaining momentum in recent years, with a focus on capacity building, joint exercises, and transfer of technology.",
+      "stakeholders": [
+        "Indian Navy",
+        "Government of India",
+        "Kenyan Defence Forces",
+        "Government of Kenya"
+      ],
+      "relatedTopics": [
+        "India-Africa defence cooperation",
+        "MAHASAGAR vision",
+        "Indian Navy's port calls",
+        "Defence diplomacy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of INS Trikand's port call at Mombasa, Kenya?",
+          "How does India's MAHASAGAR vision relate to its defence cooperation with African nations?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on India's defence cooperation with Kenya and its implications for regional security?",
+          "How does the Indian Navy's port call at Mombasa, Kenya, align with India's foreign policy objectives?"
+        ],
+        "ssbDiscussionTopics": [
+          "Defence diplomacy and its role in promoting regional security",
+          "The significance of India's MAHASAGAR vision in the context of defence cooperation with African nations"
+        ]
+      }
     },
     {
       "id": "ca-2026-04-ins-sudarshini-sete",
@@ -1378,7 +1978,45 @@ window.CURRENT_AFFAIRS_DB = {
         "event": "Escale à Sète maritime festival",
         "significance": "Marked 400th anniversary of French Navy; one of the largest maritime gatherings in Mediterranean."
       },
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "INS Sudarshini participates in Escale à Sète maritime festival.",
+        "Indian Navy showcases its sail training capabilities.",
+        "400th anniversary of French Navy marked with grand event."
+      ],
+      "institutionalContext": "The Indian Navy is a part of the Indian Armed Forces, responsible for the country's maritime security and defense.",
+      "strategicImportance": "This event highlights India's growing maritime presence and its participation in international naval events, showcasing its capabilities and strengthening diplomatic ties with France.",
+      "quickSummary": "INS Sudarshini, a sail training ship of the Indian Navy, participated in the Escale à Sète maritime festival in France, marking the 400th anniversary of the French Navy.",
+      "detailedAnalysis": "The Escale à Sète maritime festival is a biennial event that attracts naval vessels from around the world. INS Sudarshini's participation in this event demonstrates India's commitment to strengthening its maritime ties with France and showcases its sail training capabilities. The event also highlights the growing importance of the Indian Navy in the region.",
+      "backgroundContext": "The Indian Navy has a long history of participating in international naval events, including the biennial International Fleet Review. The Escale à Sète maritime festival is one of the largest maritime gatherings in the Mediterranean region, attracting naval vessels from around the world.",
+      "stakeholders": [
+        "Indian Navy",
+        "French Navy"
+      ],
+      "relatedTopics": [
+        "Indian Navy",
+        "Maritime Security",
+        "International Naval Events"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of INS Sudarshini's participation in the Escale à Sète maritime festival?",
+          "How does India's participation in international naval events contribute to its maritime security?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the Indian Navy's sail training capabilities?",
+          "How does India's participation in the Escale à Sète maritime festival strengthen its diplomatic ties with France?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Indian Navy in maintaining maritime security in the region.",
+          "The importance of international naval events in strengthening diplomatic ties between nations."
+        ]
+      }
     },
     {
       "id": "ca-2026-04-ins-sudarshini-lokayan26",
@@ -1395,7 +2033,45 @@ window.CURRENT_AFFAIRS_DB = {
         "expedition": "Lokayan 26",
         "distance_covered": "22,000 nautical miles."
       },
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "Indian Navy's INS Sudarshini completes 3-day port call at Las Palmas.",
+        "INS Sudarshini reaches Valletta, Malta, as part of Lokayan 26 expedition.",
+        "Indian Navy's sail training ship covers 22,000 nautical miles."
+      ],
+      "institutionalContext": "The Indian Navy is the naval warfare branch of the Indian Armed Forces. It is one of the largest navies in the world.",
+      "strategicImportance": "This event highlights the Indian Navy's presence in the global maritime arena and its ability to undertake long-range expeditions.",
+      "quickSummary": "The Indian Navy's INS Sudarshini completed a significant three-day port call at Las Palmas, Canary Islands, as part of its Lokayan 26 expedition. The ship also reached Valletta, Malta, covering a distance of 22,000 nautical miles.",
+      "detailedAnalysis": "The Lokayan 26 expedition is a part of the Indian Navy's efforts to enhance its presence in the Indian Ocean Region (IOR) and to promote maritime cooperation with other countries. The expedition is also aimed at showcasing the Indian Navy's capabilities and its ability to undertake long-range expeditions.",
+      "backgroundContext": "The Indian Navy has been undertaking various expeditions and port calls in the recent past to enhance its presence in the IOR and to promote maritime cooperation with other countries. The Lokayan 26 expedition is a part of this effort.",
+      "stakeholders": [
+        "Indian Navy",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Indian Navy",
+        "Lokayan 26 expedition",
+        "Indian Ocean Region (IOR)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Lokayan 26 expedition?",
+          "What are the objectives of the Indian Navy's presence in the IOR?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the Indian Navy's efforts to enhance its presence in the IOR?",
+          "How does the Lokayan 26 expedition promote maritime cooperation with other countries?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Indian Navy in promoting maritime cooperation with other countries.",
+          "The significance of the Indian Navy's presence in the IOR."
+        ]
+      }
     },
     {
       "id": "ca-2026-04-mahendragiri-delivery",
@@ -1409,7 +2085,45 @@ window.CURRENT_AFFAIRS_DB = {
         "builder": "Mazagon Dock Shipbuilders Limited, Mumbai",
         "significance": "Key milestone in achieving self-reliance in warship design and construction."
       },
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "India achieves self-reliance in warship design and construction",
+        "Mazagon Dock Shipbuilders Limited delivers sixth Nilgiri-class ship",
+        "Indian Navy's warship capabilities enhanced with Mahendragiri's delivery"
+      ],
+      "institutionalContext": "Mazagon Dock Shipbuilders Limited is a leading warship manufacturer in India, responsible for designing and building various naval vessels.",
+      "strategicImportance": "This delivery signifies a significant milestone in India's efforts to achieve self-reliance in warship design and construction, enhancing the country's naval capabilities and reducing dependence on foreign manufacturers.",
+      "quickSummary": "The Indian Navy has taken a major step towards self-reliance with the delivery of the sixth Nilgiri-class ship, Mahendragiri, from Mazagon Dock Shipbuilders Limited in Mumbai. This achievement marks a significant milestone in India's warship design and construction capabilities.",
+      "detailedAnalysis": "The delivery of Mahendragiri is a result of India's 'Make in India' initiative, aimed at promoting domestic manufacturing and reducing dependence on foreign suppliers. This achievement demonstrates India's growing capabilities in warship design and construction, which is a critical aspect of national security. The Nilgiri-class ships are designed to enhance the Indian Navy's capabilities in various maritime operations, including anti-submarine warfare and surface warfare.",
+      "backgroundContext": "The Indian Navy has been actively pursuing self-reliance in warship design and construction for several years, with a focus on developing indigenous capabilities. The Mazagon Dock Shipbuilders Limited has been a key player in this effort, delivering several warships to the Indian Navy in recent years.",
+      "stakeholders": [
+        "Indian Navy",
+        "Mazagon Dock Shipbuilders Limited"
+      ],
+      "relatedTopics": [
+        "Make in India",
+        "Warship design and construction",
+        "Indian Navy's capabilities"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the delivery of Mahendragiri to the Indian Navy?",
+          "How does the delivery of Mahendragiri align with India's 'Make in India' initiative?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of self-reliance in warship design and construction for the Indian Navy?",
+          "How does the delivery of Mahendragiri enhance the Indian Navy's capabilities?"
+        ],
+        "ssbDiscussionTopics": [
+          "Self-reliance in warship design and construction: Challenges and opportunities",
+          "The role of domestic manufacturers in enhancing national security"
+        ]
+      }
     },
     {
       "id": "ca-2026-04-ins-nireekshak-colombo",
@@ -1423,7 +2137,45 @@ window.CURRENT_AFFAIRS_DB = {
         "exercise": "IN-SLN DIVEX 2026 (4th edition)",
         "countries": "India, Sri Lanka."
       },
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "India and Sri Lanka strengthen maritime ties through diving exercise.",
+        "INS Nireekshak showcases India's diving support capabilities.",
+        "Enhanced cooperation between Indian Navy and Sri Lankan Navy."
+      ],
+      "institutionalContext": "The Indian Navy's Diving Support and Submarine Rescue Vessel, INS Nireekshak, is a key asset for search and rescue operations, as well as providing diving support for various naval operations.",
+      "strategicImportance": "This exercise demonstrates India's commitment to strengthening maritime cooperation with its neighbors, enhancing regional stability, and showcasing its capabilities in the Indian Ocean Region.",
+      "quickSummary": "The Indian Navy's INS Nireekshak participated in the 4th edition of IN-SLN DIVEX 2026, a bilateral diving exercise with Sri Lanka, highlighting the growing cooperation between the two navies.",
+      "detailedAnalysis": "The IN-SLN DIVEX 2026 exercise marks a significant milestone in the growing maritime cooperation between India and Sri Lanka. The exercise demonstrates the capabilities of the Indian Navy's diving support and submarine rescue vessels, such as INS Nireekshak, in providing critical support for search and rescue operations, as well as facilitating diving operations in the region.",
+      "backgroundContext": "The Indian Navy has been actively engaging with its regional partners to enhance maritime cooperation and stability in the Indian Ocean Region. This exercise is a testament to the growing trust and cooperation between India and Sri Lanka, with both nations recognizing the importance of a secure and stable maritime environment.",
+      "stakeholders": [
+        "Indian Navy",
+        "Sri Lankan Navy"
+      ],
+      "relatedTopics": [
+        "Maritime Cooperation",
+        "Indian Ocean Region",
+        "Search and Rescue Operations"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the IN-SLN DIVEX 2026 exercise?",
+          "How does the INS Nireekshak contribute to the Indian Navy's capabilities?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the benefits of bilateral maritime cooperation between India and Sri Lanka?",
+          "How does the Indian Navy's diving support and submarine rescue capabilities enhance regional stability?"
+        ],
+        "ssbDiscussionTopics": [
+          "Maritime cooperation in the Indian Ocean Region",
+          "Importance of search and rescue operations in the region"
+        ]
+      }
     },
     {
       "id": "operation-him-setu-2026",
@@ -1436,6 +2188,47 @@ window.CURRENT_AFFAIRS_DB = {
         "lead_unit": "Trishakti Corps (Eastern Command)",
         "objective": "Evacuating stranded tourists, clearing blocked roads, removing snow, and restoring connectivity.",
         "other_involved": "Border Roads Organisation (BRO)"
+      },
+      "upscHighlights": [
+        "Indian Army launches Operation Him Setu in Sikkim",
+        "Evacuation of stranded tourists in Sikkim",
+        "Restoration of connectivity in Lachen-Chungthang route"
+      ],
+      "institutionalContext": "The Indian Army's Trishakti Corps, under the Eastern Command, is responsible for conducting humanitarian aid and disaster relief operations in the region.",
+      "strategicImportance": "This operation showcases the Indian Army's capabilities in disaster relief and humanitarian aid, highlighting its role in maintaining national security and protecting citizens.",
+      "quickSummary": "Operation Him Setu was launched by the Indian Army in Sikkim to evacuate stranded tourists, clear blocked roads, and restore connectivity in the Lachen-Chungthang route following a major landslide and heavy snowfall.",
+      "detailedAnalysis": "The operation was led by the Trishakti Corps, with the Border Roads Organisation (BRO) providing support. The Indian Army's swift response and coordination with other agencies demonstrate its commitment to disaster relief and humanitarian aid. This operation is a testament to the Army's capabilities in handling complex situations and maintaining national security.",
+      "backgroundContext": "Sikkim is a strategically located state in the Himalayas, with the Lachen-Chungthang route being a critical connectivity link. The region is prone to natural disasters, making it essential for the Indian Army to be prepared for such situations.",
+      "stakeholders": [
+        "Indian Army",
+        "Border Roads Organisation (BRO)",
+        "Government of Sikkim",
+        "Stranded tourists"
+      ],
+      "relatedTopics": [
+        "Humanitarian Aid",
+        "Disaster Relief",
+        "Indian Army Operations",
+        "National Security"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is Operation Him Setu?",
+          "What was the reason for launching Operation Him Setu?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the Indian Army's role in disaster relief operations?",
+          "How does the Indian Army coordinate with other agencies during humanitarian aid operations?"
+        ],
+        "ssbDiscussionTopics": [
+          "Importance of disaster relief operations in national security",
+          "Role of the Indian Army in humanitarian aid"
+        ]
       }
     },
     {
@@ -1443,14 +2236,94 @@ window.CURRENT_AFFAIRS_DB = {
       "topic": "Operation Him Setu",
       "text": "On April 9, 2026, the Indian Army launched Operation Him Setu in Sikkim due to a major landslide and heavy snowfall. The Trishakti Corps under the Eastern Command led the operation, focusing on evacuating stranded tourists on the Lachen-Chungthang route. The BRO worked with the army to clear blocked roads, remove snow, and restore connectivity.",
       "details": {},
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "Indian Army launches Operation Him Setu in Sikkim",
+        "Trishakti Corps leads evacuation efforts on Lachen-Chungthang route",
+        "BRO collaborates with army to clear blocked roads and restore connectivity"
+      ],
+      "institutionalContext": "The Indian Army's Trishakti Corps under the Eastern Command is responsible for conducting Operation Him Setu, in collaboration with the Border Roads Organisation (BRO).",
+      "strategicImportance": "This operation demonstrates the Indian Army's ability to respond to natural disasters and maintain connectivity in remote areas, showcasing its strategic importance for UPSC/Defence exams.",
+      "quickSummary": "On April 9, 2026, the Indian Army launched Operation Him Setu in Sikkim to evacuate stranded tourists on the Lachen-Chungthang route due to a major landslide and heavy snowfall. The Trishakti Corps, under the Eastern Command, led the operation in collaboration with the BRO.",
+      "detailedAnalysis": "Operation Him Setu is a significant example of the Indian Army's capabilities in responding to natural disasters and maintaining connectivity in remote areas. The operation highlights the importance of collaboration between the army and other organisations, such as the BRO, in achieving strategic objectives. This operation is also relevant to the UPSC/Defence exams as it showcases the army's ability to adapt to challenging situations and maintain national security.",
+      "backgroundContext": "Sikkim is a strategically located state in the Himalayas, bordering China and Nepal. The region is prone to natural disasters, including landslides and heavy snowfall, which can disrupt connectivity and pose a challenge to national security.",
+      "stakeholders": [
+        "Indian Army",
+        "Border Roads Organisation (BRO)",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Indian Army Operations",
+        "Natural Disaster Response",
+        "Border Management"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is Operation Him Setu and why was it launched?",
+          "What is the role of the Trishakti Corps in Operation Him Setu?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the challenges faced by the Indian Army during Operation Him Setu?",
+          "How does Operation Him Setu demonstrate the Indian Army's capabilities in responding to natural disasters?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of collaboration between the army and other organisations in achieving strategic objectives",
+          "The challenges of maintaining connectivity in remote areas and the role of the Indian Army in addressing these challenges"
+        ]
+      }
     },
     {
       "id": "f414-jet-engines-co-production-2026",
       "topic": "F414 Jet Engines co-production",
       "text": "In April 2026, GE Aerospace entered into a significant technical agreement with Hindustan Aeronautics Limited (HAL) for the co-production of F414 jet engines in India. This collaboration aims to strengthen India-U.S. defence manufacturing ties and enhance indigenous production capabilities.",
       "details": {},
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "GE Aerospace, HAL sign F414 jet engine co-production deal",
+        "India-US defence manufacturing ties strengthened",
+        "Indigenous production capabilities enhanced"
+      ],
+      "institutionalContext": "Hindustan Aeronautics Limited (HAL) is a state-owned aerospace and defence company of India, while GE Aerospace is a leading American aerospace and defence company.",
+      "strategicImportance": "This collaboration is crucial for India's defence modernization and self-reliance, as it enables the production of advanced jet engines within the country, reducing dependence on foreign suppliers.",
+      "quickSummary": "GE Aerospace and Hindustan Aeronautics Limited (HAL) have entered into a technical agreement for the co-production of F414 jet engines in India, aiming to strengthen India-US defence manufacturing ties and enhance indigenous production capabilities.",
+      "detailedAnalysis": "The F414 jet engine is a high-performance engine used in various military aircraft, including the F/A-18 Hornet and the F-35 Lightning II. The co-production agreement between GE Aerospace and HAL is a significant step towards India's defence modernization and self-reliance. It will enable the production of advanced jet engines within the country, reducing dependence on foreign suppliers and enhancing the country's defence capabilities.",
+      "backgroundContext": "India has been actively pursuing defence modernization and self-reliance, with a focus on indigenous production of defence equipment. The country has been collaborating with various international partners, including the US, to achieve this goal.",
+      "stakeholders": [
+        "GE Aerospace",
+        "Hindustan Aeronautics Limited (HAL)",
+        "Indian Ministry of Defence",
+        "US Department of Defence"
+      ],
+      "relatedTopics": [
+        "Defence Modernization",
+        "Self-Reliance",
+        "Indigenous Production",
+        "India-US Defence Ties"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the benefits of co-producing F414 jet engines in India?",
+          "How will this collaboration impact India's defence modernization and self-reliance?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of this collaboration in the context of India's defence modernization?",
+          "How will this agreement impact the production of advanced jet engines in India?"
+        ],
+        "ssbDiscussionTopics": [
+          "Importance of indigenous production in defence",
+          "Benefits of India-US defence collaboration"
+        ]
+      }
     },
     {
       "id": "Project-DANTAK-66th-Raising-Day-2026",
@@ -1473,6 +2346,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Thimphu, Bhutan",
         "explanation": "Project DANTAK of the Border Roads Organisation (BRO) celebrated its 66th Raising Day on April 24, 2026, in Thimphu, Bhutan."
+      },
+      "upscHighlights": [
+        "Project DANTAK celebrates 66th Raising Day.",
+        "BRO strengthens India-Bhutan relations.",
+        "Infrastructure development key to regional growth."
+      ],
+      "institutionalContext": "The Border Roads Organisation (BRO) is a premier infrastructure development agency under the Ministry of Defence, responsible for building and maintaining roads and bridges in the border areas of India.",
+      "strategicImportance": "This event highlights the importance of infrastructure development in strengthening regional relationships and enhancing national security.",
+      "quickSummary": "Project DANTAK, a key project of the Border Roads Organisation (BRO), celebrated its 66th Raising Day on April 24, 2026, in Thimphu, Bhutan. The event underscores the significant role played by BRO in strengthening India-Bhutan relations and infrastructure development.",
+      "detailedAnalysis": "Project DANTAK was established in 1959 to undertake infrastructure development projects in Bhutan. Over the years, it has played a crucial role in strengthening India-Bhutan relations, facilitating trade and commerce, and enhancing regional connectivity. The project has also contributed significantly to the economic development of Bhutan, creating employment opportunities and improving the quality of life for the local population.",
+      "backgroundContext": "The Border Roads Organisation (BRO) was established in 1960 to undertake infrastructure development projects in the border areas of India. Since its inception, BRO has played a crucial role in building and maintaining roads, bridges, and other infrastructure in the country's border regions.",
+      "stakeholders": [
+        "Border Roads Organisation (BRO)",
+        "Government of India",
+        "Government of Bhutan"
+      ],
+      "relatedTopics": [
+        "Border Roads Organisation (BRO)",
+        "India-Bhutan Relations",
+        "Infrastructure Development"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of Project DANTAK in strengthening India-Bhutan relations?",
+          "How has Project DANTAK contributed to the economic development of Bhutan?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the role of the Border Roads Organisation (BRO) in infrastructure development?",
+          "How does Project DANTAK facilitate trade and commerce between India and Bhutan?"
+        ],
+        "ssbDiscussionTopics": [
+          "Importance of infrastructure development in regional growth",
+          "Role of Border Roads Organisation (BRO) in national security"
+        ]
       }
     },
     {
@@ -1496,6 +2408,43 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Titagarh, Kolkata",
         "explanation": "DSC A 23, the fourth ship of five Diving Support Craft (DSC) project, was launched on April 19, 2026, at Titagarh, Kolkata (WB)."
+      },
+      "upscHighlights": [
+        "India's Naval Shipbuilding capabilities enhanced",
+        "Diving Support Craft project progresses",
+        "Naval Materiel Chief attends launch ceremony"
+      ],
+      "institutionalContext": "The Indian Navy's Materiel branch is responsible for the acquisition and maintenance of naval equipment and vessels.",
+      "strategicImportance": "This event highlights the Indian Navy's efforts to modernize its shipbuilding capabilities and enhance its diving support capabilities, which is crucial for its operational effectiveness.",
+      "quickSummary": "The Indian Navy launched its fourth Diving Support Craft (DSC) vessel, DSC A 23, at Titagarh, Kolkata, as part of its five-ship project. The launch ceremony was attended by Vice Admiral B Sivakumar, Chief of Materiel.",
+      "detailedAnalysis": "The Diving Support Craft project is a significant initiative by the Indian Navy to enhance its diving support capabilities. The project involves the construction of five DSC vessels, which will be used to support the Navy's diving operations. The launch of DSC A 23 marks a significant milestone in the project and demonstrates the Navy's commitment to modernizing its shipbuilding capabilities.",
+      "backgroundContext": "The Indian Navy has been investing heavily in modernizing its shipbuilding capabilities in recent years. The Navy has been working to enhance its diving support capabilities, which is critical for its operational effectiveness. The Diving Support Craft project is a key part of this effort.",
+      "stakeholders": [
+        "Indian Navy",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Indian Navy Modernization",
+        "Shipbuilding in India"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Diving Support Craft project for the Indian Navy?",
+          "How does the launch of DSC A 23 contribute to the Indian Navy's modernization efforts?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of diving support capabilities for the Indian Navy?",
+          "How does the Indian Navy plan to utilize the Diving Support Craft vessels?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of shipbuilding in naval modernization",
+          "The importance of diving support capabilities for naval operations"
+        ]
       }
     },
     {
@@ -1520,6 +2469,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Bikaner, Rajasthan",
         "explanation": "Rajasthan celebrated the 47th Raising Day of Project Chetak in Bikaner on April 4, 2026."
+      },
+      "upscHighlights": [
+        "Border Roads Organisation enhances connectivity in western border areas.",
+        "Project Chetak supports national security through infrastructure development.",
+        "Rajasthan celebrates 47th Raising Day of Project Chetak."
+      ],
+      "institutionalContext": "The Border Roads Organisation (BRO) is a premier infrastructure development agency under the Ministry of Defence, responsible for building and maintaining roads and bridges in the country's border areas.",
+      "strategicImportance": "This event highlights the BRO's efforts in enhancing connectivity and supporting national security, which is crucial for the UPSC Defence exams.",
+      "quickSummary": "The 47th Raising Day of Project Chetak was celebrated in Bikaner, Rajasthan, marking the organisation's commitment to infrastructure development in India's western border areas.",
+      "detailedAnalysis": "Project Chetak, established in 1980, has been instrumental in enhancing connectivity and supporting national security in the western border areas. The organisation's efforts have been crucial in facilitating the movement of troops, equipment, and supplies, thereby strengthening the country's defence capabilities.",
+      "backgroundContext": "The Border Roads Organisation was established in 1960, with the primary objective of building and maintaining roads and bridges in the country's border areas. Over the years, the organisation has played a pivotal role in enhancing connectivity and supporting national security.",
+      "stakeholders": [
+        "Border Roads Organisation (BRO)",
+        "Government of India",
+        "Defence Ministry"
+      ],
+      "relatedTopics": [
+        "Border Roads Organisation",
+        "Infrastructure Development",
+        "National Security"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the primary objective of the Border Roads Organisation?",
+          "How has Project Chetak contributed to national security?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the role of the Border Roads Organisation in enhancing connectivity in border areas?",
+          "How does the organisation's infrastructure development efforts support national security?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of infrastructure development in border areas",
+          "The role of the Border Roads Organisation in supporting national security"
+        ]
       }
     },
     {
@@ -1541,6 +2529,43 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Nausena Bhawan, New Delhi",
         "explanation": "The Naval Commanders' Conference-2026 was conducted at Nausena Bhawan, the Integrated Headquarters of the Ministry of Defence (Navy), located in New Delhi."
+      },
+      "upscHighlights": [
+        "Naval Commanders' Conference-2026 held in New Delhi",
+        "Strategic discussions on naval operations and modernization",
+        "Boost to Indian Navy's capabilities and preparedness"
+      ],
+      "institutionalContext": "The Naval Commanders' Conference is a bi-annual conference convened by the Indian Navy to discuss strategic issues, operational challenges, and modernization plans.",
+      "strategicImportance": "This conference is crucial for UPSC/Defence as it highlights the Indian Navy's efforts to enhance its capabilities, strengthen its operational preparedness, and address emerging security challenges in the region.",
+      "quickSummary": "The Naval Commanders' Conference-2026 was conducted at Nausena Bhawan in New Delhi on April 14, 2026. The conference aimed to discuss strategic issues, operational challenges, and modernization plans to enhance the Indian Navy's capabilities and preparedness.",
+      "detailedAnalysis": "The Naval Commanders' Conference-2026 is a significant event in the Indian Navy's calendar, bringing together senior naval commanders to discuss pressing issues and strategic challenges. The conference provides a platform for the Navy to share its experiences, best practices, and lessons learned, and to deliberate on future plans and initiatives.",
+      "backgroundContext": "The Indian Navy has been actively engaged in various operations and exercises in the Indian Ocean Region (IOR) and beyond. The conference is a testament to the Navy's commitment to enhancing its capabilities, strengthening its operational preparedness, and addressing emerging security challenges in the region.",
+      "stakeholders": [
+        "Indian Navy",
+        "Ministry of Defence (Navy)"
+      ],
+      "relatedTopics": [
+        "Indian Navy Modernization",
+        "Naval Operations and Exercises"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key takeaways from the Naval Commanders' Conference-2026?",
+          "How does the Indian Navy plan to enhance its capabilities and preparedness?"
+        ],
+        "interviewQuestions": [
+          "What role does the Naval Commanders' Conference play in shaping the Indian Navy's strategic direction?",
+          "How does the conference contribute to the Navy's operational preparedness and modernization plans?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Indian Navy in maintaining regional security",
+          "The challenges and opportunities facing the Indian Navy in the 21st century"
+        ]
       }
     },
     {
@@ -1574,6 +2599,46 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Maputo",
         "explanation": "India and Mozambique held the Fifth Joint Defence Working Group (JDWG) meeting on April 1-2, 2026, in Maputo."
+      },
+      "upscHighlights": [
+        "India and Mozambique strengthen defence ties",
+        "Fifth JDWG meeting boosts military cooperation",
+        "Defence equipment supply collaboration on the cards"
+      ],
+      "institutionalContext": "The Joint Defence Working Group (JDWG) is a bilateral forum between India and Mozambique to discuss defence cooperation and military exchanges.",
+      "strategicImportance": "This meeting highlights India's growing presence in Africa and its efforts to strengthen defence ties with key regional partners.",
+      "quickSummary": "India and Mozambique held the Fifth Joint Defence Working Group (JDWG) meeting in Maputo, discussing military exchanges, joint training, maritime awareness, military exercises, and defence equipment supply collaboration.",
+      "detailedAnalysis": "The JDWG meeting is a significant development in India's Africa outreach, reflecting its growing economic and strategic interests in the continent. The meeting's focus on defence equipment supply collaboration indicates India's willingness to support Mozambique's military modernization efforts.",
+      "backgroundContext": "India and Mozambique have a long-standing defence relationship, with India providing military assistance and training to Mozambique's armed forces. The JDWG meetings are a key platform for the two countries to discuss defence cooperation and address regional security challenges.",
+      "stakeholders": [
+        "Government of India",
+        "Government of Mozambique",
+        "Indian Armed Forces",
+        "Mozambican Armed Forces"
+      ],
+      "relatedTopics": [
+        "India-Africa defence cooperation",
+        "Military exchanges and training",
+        "Defence equipment supply and procurement"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the JDWG meeting for India's Africa outreach?",
+          "What are the key areas of defence cooperation discussed during the JDWG meeting?"
+        ],
+        "interviewQuestions": [
+          "Explain the importance of defence equipment supply collaboration between India and Mozambique.",
+          "Discuss the implications of India's growing presence in Africa for regional security dynamics."
+        ],
+        "ssbDiscussionTopics": [
+          "India's Africa policy and its defence implications",
+          "Defence cooperation between India and Mozambique: challenges and opportunities"
+        ]
       }
     },
     {
@@ -1599,6 +2664,46 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Bengaluru",
         "explanation": "The second edition of Ran Samwad began in Bengaluru on April 9, 2026, and was inaugurated by Chief of Defence Staff General Anil Chauhan."
+      },
+      "upscHighlights": [
+        "Second edition of Ran Samwad strategic seminar begins in Bengaluru.",
+        "Chief of Defence Staff General Anil Chauhan inaugurates the event.",
+        "Tri-service strategic seminar aims to foster cooperation among defence forces."
+      ],
+      "institutionalContext": "The Air Force Training Command is a premier training institution of the Indian Air Force, responsible for training and developing officers and airmen.",
+      "strategicImportance": "This event highlights the importance of tri-service cooperation and coordination in the Indian defence forces, which is a key aspect of the UPSC and defence exams.",
+      "quickSummary": "The second edition of Ran Samwad, a tri-service strategic seminar, began in Bengaluru on April 9, 2026. The event aims to foster cooperation and coordination among the Indian Air Force, Indian Army, and Indian Navy.",
+      "detailedAnalysis": "The Ran Samwad strategic seminar is a significant event in the Indian defence calendar, bringing together senior officers from the three services to discuss key strategic issues and challenges. The event is organized by the Air Force Training Command, which plays a crucial role in training and developing officers and airmen.",
+      "backgroundContext": "The concept of tri-service cooperation and coordination has been gaining importance in recent years, with the Indian defence forces recognizing the need for integrated planning and execution of military operations.",
+      "stakeholders": [
+        "Indian Air Force",
+        "Indian Army",
+        "Indian Navy",
+        "Chief of Defence Staff General Anil Chauhan"
+      ],
+      "relatedTopics": [
+        "Tri-service cooperation",
+        "Defence reforms",
+        "Indian defence forces"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Ran Samwad strategic seminar?",
+          "How does the event contribute to tri-service cooperation and coordination?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of tri-service cooperation in the Indian defence forces?",
+          "How does the Air Force Training Command contribute to the development of officers and airmen?"
+        ],
+        "ssbDiscussionTopics": [
+          "Tri-service cooperation and coordination in the Indian defence forces",
+          "The role of the Air Force Training Command in developing officers and airmen"
+        ]
       }
     },
     {
@@ -1622,6 +2727,43 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Nagpur",
         "explanation": "The Maintenance Command Commanders' Conclave took place in Vayusena Nagar, Nagpur."
+      },
+      "upscHighlights": [
+        "Air Force Conference focuses on mission mode maintenance",
+        "Maintenance Command in Mission Mode to Support Operations",
+        "Air Marshal Yalla Umesh leads Maintenance Command Conclave"
+      ],
+      "institutionalContext": "The Maintenance Command is a key component of the Indian Air Force, responsible for ensuring the operational readiness of aircraft and equipment.",
+      "strategicImportance": "This event highlights the Air Force's commitment to maintaining its operational capabilities, which is crucial for national security.",
+      "quickSummary": "The Maintenance Command Commanders' Conclave was held in Nagpur, where Air Marshal Yalla Umesh led discussions on 'Maintenance Command in Mission Mode to Support Operations'.",
+      "detailedAnalysis": "The Maintenance Command Conclave is a biennial event that brings together senior officers to discuss strategies for improving maintenance efficiency and effectiveness. This year's theme emphasizes the importance of mission mode maintenance in supporting operations. The event is a significant step towards ensuring the Air Force's operational readiness.",
+      "backgroundContext": "The Indian Air Force has been actively pursuing initiatives to enhance its maintenance capabilities, including the establishment of dedicated maintenance units and the introduction of advanced technologies.",
+      "stakeholders": [
+        "Indian Air Force",
+        "Maintenance Command"
+      ],
+      "relatedTopics": [
+        "Indian Air Force Modernization",
+        "Military Logistics"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Maintenance Command Conclave?",
+          "How does mission mode maintenance support Air Force operations?"
+        ],
+        "interviewQuestions": [
+          "Explain the importance of maintenance in the Indian Air Force.",
+          "Describe the role of the Maintenance Command in supporting Air Force operations."
+        ],
+        "ssbDiscussionTopics": [
+          "Maintenance Command's role in ensuring operational readiness.",
+          "Challenges faced by the Indian Air Force in maintaining its aircraft and equipment."
+        ]
       }
     },
     {
@@ -1647,6 +2789,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Vienna",
         "explanation": "The World Border Security Congress 2026 was held in Vienna, Austria."
+      },
+      "upscHighlights": [
+        "India showcases maritime security leadership globally.",
+        "India reinforces commitment to international cooperation.",
+        "India participates in World Border Security Congress 2026."
+      ],
+      "institutionalContext": "The World Border Security Congress is an annual international conference that brings together experts and officials from around the world to discuss and address border security challenges.",
+      "strategicImportance": "This event highlights India's growing role in international security cooperation and its commitment to maritime security, which is crucial for the Indian Navy's operations and the country's overall national security.",
+      "quickSummary": "India participated in the World Border Security Congress 2026 in Vienna, Austria, showcasing its leadership in maritime security and reinforcing its commitment to international cooperation.",
+      "detailedAnalysis": "The World Border Security Congress 2026 provided a platform for India to demonstrate its expertise in maritime security and its willingness to collaborate with other nations to address common security challenges. This event is significant for India's defense sector, as it highlights the country's growing influence in international security affairs and its commitment to working with other nations to promote regional and global stability.",
+      "backgroundContext": "The World Border Security Congress has been held annually since 2005, and it has become a premier international forum for discussing border security challenges and best practices. India has been an active participant in the conference since its inception, and this year's event marked a significant milestone in the country's engagement with the international community on security issues.",
+      "stakeholders": [
+        "Indian Navy",
+        "Government of India",
+        "International community"
+      ],
+      "relatedTopics": [
+        "Maritime security",
+        "International cooperation",
+        "Border security"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of India's participation in the World Border Security Congress 2026?",
+          "How does India's maritime security leadership impact regional stability?"
+        ],
+        "interviewQuestions": [
+          "Can you explain India's approach to international security cooperation?",
+          "How does India's participation in the World Border Security Congress 2026 reflect its foreign policy priorities?"
+        ],
+        "ssbDiscussionTopics": [
+          "India's role in international security cooperation",
+          "Maritime security challenges and opportunities"
+        ]
       }
     },
     {
@@ -1669,6 +2850,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Purvanchal Expressway",
         "explanation": "The Indian Air Force activated 'Emergency Landing Facility' (ELF) on the Purvanchal Expressway in Uttar Pradesh's Sultanpur District."
+      },
+      "upscHighlights": [
+        "Indian Air Force activates Emergency Landing Facility on Purvanchal Expressway",
+        "Boost to defence readiness with operational capability showcased",
+        "Strategic infrastructure development in Uttar Pradesh"
+      ],
+      "institutionalContext": "The Indian Air Force is the air arm of the Indian Armed Forces, responsible for air defence and national security.",
+      "strategicImportance": "This development highlights the Indian Air Force's efforts to enhance its operational capabilities and readiness, which is crucial for national security and defence preparedness.",
+      "quickSummary": "The Indian Air Force activated an Emergency Landing Facility (ELF) on the Purvanchal Expressway in Uttar Pradesh's Sultanpur District, showcasing its operational capability and bolstering defence readiness.",
+      "detailedAnalysis": "The activation of the ELF on the Purvanchal Expressway is a strategic move by the Indian Air Force to enhance its operational capabilities and readiness. This facility will enable the Air Force to respond quickly and effectively to any emerging threats, thereby bolstering national security and defence preparedness. The development of such infrastructure in Uttar Pradesh highlights the region's strategic importance and the Air Force's efforts to strengthen its presence in the area.",
+      "backgroundContext": "The Indian Air Force has been actively developing its infrastructure and capabilities in recent years, with a focus on enhancing its operational readiness and response times. This includes the development of new airbases, the induction of advanced aircraft, and the establishment of emergency landing facilities like the one on the Purvanchal Expressway.",
+      "stakeholders": [
+        "Indian Air Force",
+        "Government of India",
+        "Defence Ministry"
+      ],
+      "relatedTopics": [
+        "Indian Defence Modernization",
+        "Air Force Infrastructure Development",
+        "National Security and Defence Preparedness"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Emergency Landing Facility on the Purvanchal Expressway?",
+          "How does the activation of the ELF enhance the Indian Air Force's operational capabilities?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the strategic importance of the Purvanchal Expressway for the Indian Air Force?",
+          "How does the development of emergency landing facilities like the ELF impact national security and defence preparedness?"
+        ],
+        "ssbDiscussionTopics": [
+          "Strategic infrastructure development in Uttar Pradesh",
+          "Enhancing operational capabilities and readiness in the Indian Air Force"
+        ]
       }
     },
     {
@@ -1692,6 +2912,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Cairo",
         "explanation": "The India-Egypt Joint Defence Committee (JDC) met in Cairo from April 20 to 22, 2026."
+      },
+      "upscHighlights": [
+        "India-Egypt Joint Defence Committee (JDC) meets in Cairo.",
+        "India enhances bilateral defence cooperation with Egypt.",
+        "Indian delegation led by Joint Secretary Shri Amitabh Prasad."
+      ],
+      "institutionalContext": "The India-Egypt Joint Defence Committee (JDC) is a bilateral defence cooperation mechanism between India and Egypt, established to promote mutual defence interests and cooperation.",
+      "strategicImportance": "This meeting highlights India's growing defence ties with African nations, particularly Egypt, a key player in the region. It also showcases India's efforts to enhance its global defence presence and cooperation.",
+      "quickSummary": "The India-Egypt Joint Defence Committee (JDC) met in Cairo from April 20 to 22, 2026, to enhance bilateral defence cooperation. The Indian delegation, led by Joint Secretary Shri Amitabh Prasad, included senior representatives from the Ministry of Defence and Defence Forces.",
+      "detailedAnalysis": "The JDC meeting is a significant development in India's defence diplomacy, reflecting the country's growing engagement with African nations. Egypt, being a key player in the region, offers a strategic location for India to expand its defence presence. The meeting aims to strengthen defence cooperation, including joint exercises, capacity building, and technology transfer.",
+      "backgroundContext": "India and Egypt have a long-standing defence relationship, with both countries cooperating in areas such as counter-terrorism, maritime security, and defence technology. The JDC was established in 2015 to provide a framework for bilateral defence cooperation.",
+      "stakeholders": [
+        "India",
+        "Egypt"
+      ],
+      "relatedTopics": [
+        "India's defence diplomacy",
+        "African defence cooperation",
+        "Bilateral defence agreements"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the India-Egypt Joint Defence Committee (JDC) meeting?",
+          "How does the JDC meeting reflect India's defence diplomacy efforts?"
+        ],
+        "interviewQuestions": [
+          "Explain the importance of defence cooperation between India and Egypt.",
+          "Discuss the potential outcomes of the JDC meeting for India's defence interests."
+        ],
+        "ssbDiscussionTopics": [
+          "India's defence engagement with African nations",
+          "The role of defence diplomacy in enhancing national security"
+        ]
       }
     }
   ],
@@ -1716,6 +2974,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The exercise was a bilateral drill between India and France."
+      },
+      "upscHighlights": [
+        "India and France conduct joint naval exercise Indra 2026",
+        "Enhancing interoperability between Indian and French Navies",
+        "Boosting maritime cooperation and operational readiness"
+      ],
+      "institutionalContext": "The Indian Navy and the French Navy are two of the most prominent naval forces in the world, with a long history of cooperation and joint exercises.",
+      "strategicImportance": "This exercise is significant for UPSC/Defence as it showcases the growing strategic partnership between India and France, and highlights the importance of maritime cooperation in the Indo-Pacific region.",
+      "quickSummary": "The Exercise Indra 2026 was a joint naval exercise conducted by the Indian Navy and the French Navy in the Bay of Bengal from 12-18 May 2026. The exercise focused on anti-submarine warfare, carrier group operations, and maritime interdiction.",
+      "detailedAnalysis": "The Exercise Indra 2026 was the latest in a series of joint exercises between the Indian Navy and the French Navy, which have been conducted since 2009. The exercise aimed to enhance interoperability between the two forces, improve their ability to work together, and strengthen their strategic partnership.",
+      "backgroundContext": "The Indian Navy and the French Navy have a long history of cooperation, dating back to the 1960s. The two navies have conducted numerous joint exercises and operations over the years, including anti-piracy operations in the Gulf of Aden and anti-terrorism operations in the Indian Ocean.",
+      "stakeholders": [
+        "Indian Navy",
+        "French Navy"
+      ],
+      "relatedTopics": [
+        "Indian Navy",
+        "French Navy",
+        "Maritime Cooperation",
+        "Indo-Pacific Region"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Exercise Indra 2026?",
+          "How does the Exercise Indra 2026 enhance interoperability between the Indian Navy and the French Navy?"
+        ],
+        "interviewQuestions": [
+          "What are the key objectives of the Exercise Indra 2026?",
+          "How does the Exercise Indra 2026 contribute to the strategic partnership between India and France?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of maritime cooperation in the Indo-Pacific region",
+          "The role of joint exercises in enhancing interoperability between navies"
+        ]
       }
     },
     {
@@ -1738,6 +3035,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The test demonstrated a 600 km range, matching the missile's stated capability."
+      },
+      "upscHighlights": [
+        "India successfully tests Brahmos supersonic cruise missile",
+        "Brahmos missile achieves range of 600 km and speed of Mach 2.8",
+        "Indigenous hypersonic capabilities showcased by India"
+      ],
+      "institutionalContext": "The test was conducted by the Defence Research and Development Organisation (DRDO) at the Pokhran Test Range.",
+      "strategicImportance": "This test demonstrates India's capability to develop and test advanced missile systems, enhancing its deterrence capabilities and strategic importance in the region.",
+      "quickSummary": "India successfully tested its Brahmos supersonic cruise missile from the Pokhran Test Range, achieving a range of 600 km and a speed of Mach 2.8. This test showcases India's indigenous hypersonic capabilities and demonstrates its ability to develop and test advanced missile systems.",
+      "detailedAnalysis": "The Brahmos missile is a joint venture between India and Russia, but the recent test is a significant milestone in India's efforts to develop its own indigenous hypersonic capabilities. The test was conducted at the Pokhran Test Range, which is a key facility for India's missile development and testing programs. The successful test of the Brahmos missile is a testament to India's growing capabilities in the field of missile technology and its ability to develop and test advanced systems.",
+      "backgroundContext": "The development of the Brahmos missile began in the early 2000s, with the first test flight taking place in 2001. Since then, the missile has undergone several upgrades and improvements, including the development of a land-based variant. The recent test is a significant milestone in the development of the Brahmos missile and demonstrates India's commitment to developing its own indigenous hypersonic capabilities.",
+      "stakeholders": [
+        "Defence Research and Development Organisation (DRDO)",
+        "Indian Armed Forces"
+      ],
+      "relatedTopics": [
+        "Missile Technology",
+        "Defence Research and Development Organisation (DRDO)",
+        "Indian Armed Forces"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Brahmos missile test?",
+          "What are the implications of India's indigenous hypersonic capabilities?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of the Brahmos missile test in the context of India's defence capabilities?",
+          "How does the development of indigenous hypersonic capabilities impact India's strategic position in the region?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of missile technology in modern warfare",
+          "The implications of indigenous hypersonic capabilities for India's defence strategy"
+        ]
       }
     },
     {
@@ -1760,6 +3095,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The prototype lifted off from Hindustan Aeronautics Limited, Bengaluru."
+      },
+      "upscHighlights": [
+        "ALCA prototype completes maiden flight on 20 May 2026.",
+        "Next-generation fighter aims to modernise Indian Air Force.",
+        "Replacement for aging MiG-21 fleet in IAF."
+      ],
+      "institutionalContext": "The maiden flight of the Advanced Light Combat Aircraft (ALCA) prototype took place at Hindustan Aeronautics Limited (HAL), Bengaluru, a leading Indian aerospace and defence company.",
+      "strategicImportance": "This event is significant for UPSC/Defence as it showcases India's capabilities in developing advanced fighter aircraft, enhancing the country's air power and national security.",
+      "quickSummary": "The ALCA prototype successfully completed its maiden flight on 20 May 2026, marking a crucial milestone in India's efforts to modernise its air force. The aircraft is designed to replace the aging MiG-21 fleet in the Indian Air Force, enhancing the country's air power and national security.",
+      "detailedAnalysis": "The development of the ALCA is a significant step towards modernising the Indian Air Force, which has been relying on aging MiG-21 aircraft for decades. The ALCA is designed to be a next-generation fighter, equipped with advanced avionics, radar systems, and weapons capabilities. The successful maiden flight of the ALCA prototype demonstrates India's capabilities in developing advanced fighter aircraft and its commitment to enhancing the country's air power and national security.",
+      "backgroundContext": "The Indian Air Force has been seeking to modernise its fleet for several years, with a focus on replacing aging aircraft like the MiG-21. The development of the ALCA is part of this effort, with the aircraft designed to provide improved performance, range, and survivability compared to the MiG-21.",
+      "stakeholders": [
+        "Indian Air Force",
+        "Hindustan Aeronautics Limited (HAL)",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Indian Defence Modernisation",
+        "Aerospace Industry in India",
+        "Next-Generation Fighter Aircraft"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the ALCA prototype's maiden flight?",
+          "How does the ALCA compare to the MiG-21 in terms of performance and capabilities?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the key features and capabilities of the ALCA?",
+          "How does the development of the ALCA impact India's air power and national security?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the ALCA in modernising the Indian Air Force",
+          "The implications of the ALCA's development for India's national security"
+        ]
       }
     },
     {
@@ -1782,6 +3156,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "ISRO specified a crew of two for the Gaganyaan‑2 mission."
+      },
+      "upscHighlights": [
+        "India's second crewed spaceflight mission announced",
+        "Gaganyaan-2 crewed mission to launch in 2027",
+        "ISRO to use upgraded GSLV-Mk III launch vehicle"
+      ],
+      "institutionalContext": "The Indian Space Research Organisation (ISRO) is the primary space agency of the Government of India, responsible for the country's space program.",
+      "strategicImportance": "This mission is crucial for India's space program, demonstrating its capabilities in human spaceflight and marking a significant milestone in the country's space exploration.",
+      "quickSummary": "ISRO has announced the Gaganyaan-2 crewed mission, scheduled to launch in 2027. The mission will feature a 7-day orbital stay with a crew of two astronauts and utilize the upgraded GSLV-Mk III launch vehicle.",
+      "detailedAnalysis": "The Gaganyaan-2 mission is a significant step forward for India's space program, building on the success of the first crewed mission. The use of the upgraded GSLV-Mk III launch vehicle demonstrates ISRO's commitment to advancing its launch capabilities. The mission's focus on a 7-day orbital stay highlights the agency's growing expertise in human spaceflight.",
+      "backgroundContext": "India's space program has made significant strides in recent years, with the successful launch of the Chandrayaan-1 lunar mission and the Mangalyaan Mars Orbiter Mission. The Gaganyaan program is a key component of the country's efforts to establish itself as a major player in the global space community.",
+      "stakeholders": [
+        "Indian Space Research Organisation (ISRO)",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Space Exploration",
+        "Human Spaceflight",
+        "ISRO"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Gaganyaan-2 mission for India's space program?",
+          "What is the role of the GSLV-Mk III launch vehicle in the Gaganyaan-2 mission?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of human spaceflight in India's space program?",
+          "How does the Gaganyaan-2 mission contribute to India's space exploration efforts?"
+        ],
+        "ssbDiscussionTopics": [
+          "Space exploration and its relevance to national security",
+          "The role of ISRO in India's space program"
+        ]
       }
     },
     {
@@ -1804,6 +3216,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "PM Modi led the delegation and signed the agreement."
+      },
+      "upscHighlights": [
+        "India and Japan strengthen defence ties through pact.",
+        "Defence Cooperation Agreement signed between India and Japan.",
+        "Naval exercises and submarine design tech sharing agreed upon."
+      ],
+      "institutionalContext": "The visit involved the Prime Ministers of India and Japan, highlighting the significance of bilateral defence cooperation.",
+      "strategicImportance": "This pact enhances India's naval capabilities and strengthens its position in the Indo-Pacific region, making it a crucial development for UPSC/Defence aspirants.",
+      "quickSummary": "Prime Minister Narendra Modi visited Japan from 22-24 May 2026, signing a Defence Cooperation Agreement that includes joint naval exercises and technology sharing on submarine design.",
+      "detailedAnalysis": "The Defence Cooperation Agreement between India and Japan is a significant development in the realm of bilateral defence cooperation. This pact aims to enhance defence cooperation between the two nations, with a focus on joint naval exercises and technology sharing on submarine design. The visit also featured a summit between the two Prime Ministers, underscoring the importance of strengthening defence ties between the two nations.",
+      "backgroundContext": "India and Japan have been strengthening their defence ties in recent years, with a focus on enhancing cooperation in the Indo-Pacific region. This pact is a significant step in this direction, and is expected to have far-reaching implications for the region.",
+      "stakeholders": [
+        "Prime Minister Narendra Modi (India)",
+        "Prime Minister Kishida (Japan)"
+      ],
+      "relatedTopics": [
+        "India-Japan Relations",
+        "Defence Cooperation",
+        "Indo-Pacific Region"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key provisions of the Defence Cooperation Agreement signed between India and Japan?",
+          "How does the pact enhance India's naval capabilities?"
+        ],
+        "interviewQuestions": [
+          "What are the strategic implications of the Defence Cooperation Agreement for India?",
+          "How does the pact align with India's foreign policy objectives?"
+        ],
+        "ssbDiscussionTopics": [
+          "The significance of the Defence Cooperation Agreement for India's national security",
+          "The potential benefits and challenges of the pact for India's defence sector"
+        ]
       }
     },
     {
@@ -1826,6 +3276,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The patrol took place in the Galwan sector."
+      },
+      "upscHighlights": [
+        "India conducts routine patrol in Galwan sector",
+        "No incidents reported despite heightened tensions",
+        "India maintains presence along the LAC"
+      ],
+      "institutionalContext": "The Indian Army is responsible for maintaining vigilance along the Line of Actual Control (LAC) with China, as per the 2020 agreements.",
+      "strategicImportance": "This event highlights India's commitment to maintaining peace and stability along the LAC, which is crucial for regional security and UPSC/Defence exams.",
+      "quickSummary": "On 8 May 2026, the Indian Army conducted a routine patrol in the Galwan sector of the LAC, reporting no incidents despite heightened tensions. This patrol demonstrates India's continued presence along the LAC, as per the 2020 agreements.",
+      "detailedAnalysis": "The Indian Army's routine patrol in the Galwan sector of the LAC is a significant event in the context of India-China relations. The patrol was conducted as part of the ongoing vigilance framework under the 2020 agreements, which aim to maintain peace and stability along the LAC. The fact that no incidents were reported despite heightened tensions is a testament to India's commitment to maintaining peace and stability in the region.",
+      "backgroundContext": "The Line of Actual Control (LAC) is a 3,488 km-long border between India and China. The 2020 agreements between India and China aim to maintain peace and stability along the LAC, following a series of military standoffs in 2020.",
+      "stakeholders": [
+        "Indian Army",
+        "Government of India",
+        "China"
+      ],
+      "relatedTopics": [
+        "India-China Relations",
+        "Line of Actual Control (LAC)",
+        "Indian Army"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Indian Army's routine patrol in the Galwan sector?",
+          "How does the 2020 agreement between India and China impact the LAC?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of maintaining peace and stability along the LAC?",
+          "How does the Indian Army's patrol in the Galwan sector demonstrate India's commitment to regional security?"
+        ],
+        "ssbDiscussionTopics": [
+          "Maintaining peace and stability along the LAC",
+          "India-China relations and their impact on regional security"
+        ]
       }
     },
     {
@@ -1848,6 +3337,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The bill mandates a 15% offset to encourage domestic manufacturing."
+      },
+      "upscHighlights": [
+        "Defence Procurement Bill 2026 passed in Parliament",
+        "15% offset for indigenous production introduced",
+        "Streamlined acquisition process for modern weapon systems"
+      ],
+      "institutionalContext": "The Parliament of India is the supreme legislative body of the country, responsible for making laws and overseeing the government's policies.",
+      "strategicImportance": "This development is crucial for UPSC/Defence as it highlights the government's efforts to boost indigenisation in defence procurement, which is a key aspect of the country's self-reliance and national security.",
+      "quickSummary": "The Parliament passed the Defence Procurement Bill 2026, which aims to promote indigenous production in the defence sector by introducing a 15% offset for domestic manufacturers. This reform is expected to streamline the acquisition process for modern weapon systems, making it easier for the Indian military to acquire cutting-edge technology.",
+      "detailedAnalysis": "The Defence Procurement Bill 2026 is a significant legislative reform aimed at promoting indigenisation in the defence sector. By introducing a 15% offset for indigenous production, the government is encouraging domestic manufacturers to produce defence equipment, which will not only reduce dependence on foreign suppliers but also create jobs and stimulate economic growth. The bill also streamlines the acquisition process for modern weapon systems, making it easier for the Indian military to acquire the latest technology and stay ahead of the curve in terms of military modernisation.",
+      "backgroundContext": "The Indian defence sector has been facing challenges in terms of indigenisation, with the country relying heavily on foreign suppliers for defence equipment. The government has been making efforts to promote domestic production, including the 'Make in India' initiative, which aims to boost manufacturing in the country. The Defence Procurement Bill 2026 is a key step in this direction, as it provides a framework for promoting indigenous production and streamlining the acquisition process.",
+      "stakeholders": [
+        "Indian Parliament",
+        "Indian Defence Ministry",
+        "Indian Armed Forces"
+      ],
+      "relatedTopics": [
+        "Make in India",
+        "Defence Modernisation",
+        "Indigenisation"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key provisions of the Defence Procurement Bill 2026?",
+          "How will the bill promote indigenisation in the defence sector?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of the Defence Procurement Bill 2026 in the context of India's defence modernisation?",
+          "How will the bill impact the Indian defence industry?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of indigenisation in defence procurement",
+          "The challenges and opportunities of promoting domestic production in the defence sector"
+        ]
       }
     },
     {
@@ -1870,6 +3398,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The RBI raised the repo rate to 6.75%."
+      },
+      "upscHighlights": [
+        "Repo rate hike to curb inflation",
+        "RBI takes monetary policy action",
+        "India's economy faces inflationary pressures"
+      ],
+      "institutionalContext": "The Reserve Bank of India (RBI) is India's central banking institution, responsible for regulating the country's monetary policy and maintaining financial stability.",
+      "strategicImportance": "This rate hike is crucial for UPSC/Defence aspirants to understand the RBI's monetary policy and its impact on the Indian economy, which is essential for making informed decisions in a rapidly changing global environment.",
+      "quickSummary": "The RBI raised the repo rate by 25 basis points to 6.75% on 4 May 2026, citing persistent inflationary pressures from food prices. This was the first rate hike in the 2025-26 fiscal year.",
+      "detailedAnalysis": "The RBI's decision to raise the repo rate is a response to the rising inflation in the country, which is primarily driven by food prices. This move is expected to curb inflation and maintain financial stability. The RBI's monetary policy actions have a significant impact on the Indian economy, and understanding these actions is crucial for UPSC/Defence aspirants.",
+      "backgroundContext": "The RBI has been closely monitoring the inflation rate in the country and has taken several measures to control it. The repo rate hike is one of the tools used by the RBI to control inflation and maintain financial stability.",
+      "stakeholders": [
+        "Reserve Bank of India",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Monetary Policy",
+        "Inflation Control",
+        "Economic Stability"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the impact of the repo rate hike on the Indian economy?",
+          "How does the RBI's monetary policy affect inflation?"
+        ],
+        "interviewQuestions": [
+          "Explain the RBI's decision to raise the repo rate and its implications for the Indian economy.",
+          "How would you control inflation in the country?"
+        ],
+        "ssbDiscussionTopics": [
+          "Role of RBI in controlling inflation",
+          "Impact of monetary policy on the economy"
+        ]
       }
     },
     {
@@ -1892,6 +3458,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "Exports grew by 12% year‑on‑year."
+      },
+      "upscHighlights": [
+        "India's defence exports rose 12% YoY in April 2026.",
+        "Defence equipment exports reached $4.2 billion.",
+        "Southeast Asian countries drove sales of UAVs and artillery systems."
+      ],
+      "institutionalContext": "The Ministry of Defence (MoD) is responsible for promoting India's defence exports.",
+      "strategicImportance": "This growth in defence exports reflects India's increasing global influence and its ability to meet the security needs of other nations.",
+      "quickSummary": "India's defence equipment exports experienced a significant increase in April 2026, reaching $4.2 billion. This growth was driven by sales of UAVs and artillery systems to Southeast Asian countries.",
+      "detailedAnalysis": "The rise in defence exports is a testament to India's growing capabilities in the defence sector. The sales of UAVs and artillery systems to Southeast Asian countries indicate a growing demand for India's defence equipment globally. This trend is expected to continue, driven by India's increasing global influence and its ability to meet the security needs of other nations.",
+      "backgroundContext": "India has been actively promoting its defence exports as part of its 'Make in India' initiative. The government has been providing incentives to defence companies to increase their exports and has also been engaging with foreign countries to promote Indian defence products.",
+      "stakeholders": [
+        "Indian Defence Ministry",
+        "Southeast Asian countries"
+      ],
+      "relatedTopics": [
+        "Defence Exports",
+        "Make in India",
+        "Indian Defence Industry"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key drivers of India's defence exports?",
+          "How does India's defence exports growth impact its global influence?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of India's defence exports growth?",
+          "How does India's defence industry contribute to the country's economy?"
+        ],
+        "ssbDiscussionTopics": [
+          "India's defence exports growth: Opportunities and Challenges",
+          "Role of defence exports in promoting India's global influence"
+        ]
       }
     },
     {
@@ -1914,6 +3518,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "His bravery in Operation Kiran 2025 earned the award."
+      },
+      "upscHighlights": [
+        "Highest wartime gallantry award conferred posthumously.",
+        "Captain (Retd) Arjun Singh awarded Param Vir Chakra.",
+        "Operation Kiran 2025 in Jammu & Kashmir highlighted."
+      ],
+      "institutionalContext": "The Param Vir Chakra is the highest wartime gallantry award in India, conferred by the President of India.",
+      "strategicImportance": "This event highlights the bravery and sacrifice of Indian defence personnel and the importance of recognising their contributions.",
+      "quickSummary": "Captain (Retd) Arjun Singh was posthumously awarded the Param Vir Chakra for his gallantry during Operation Kiran 2025 in Jammu & Kashmir.",
+      "detailedAnalysis": "The Param Vir Chakra is awarded for exceptional gallantry in the presence of the enemy, and Captain (Retd) Arjun Singh's actions during Operation Kiran 2025 exemplify this bravery. The award ceremony was held at the Rashtrapati Bhavan, symbolising the nation's gratitude towards its defence personnel.",
+      "backgroundContext": "The Param Vir Chakra was established in 1950, and it is the highest wartime gallantry award in India. It is conferred by the President of India on behalf of the nation.",
+      "stakeholders": [
+        "Indian Defence Forces",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Indian Defence Awards",
+        "Operation Kiran 2025",
+        "Jammu & Kashmir"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the Param Vir Chakra, and when was it established?",
+          "Describe the actions of Captain (Retd) Arjun Singh during Operation Kiran 2025."
+        ],
+        "interviewQuestions": [
+          "Can you tell us about the bravery and sacrifice of Indian defence personnel?",
+          "How does the Param Vir Chakra contribute to the morale of the Indian Defence Forces?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of recognising bravery and sacrifice in the Indian Defence Forces.",
+          "The role of the Param Vir Chakra in motivating defence personnel."
+        ]
       }
     },
     {
@@ -1936,6 +3578,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "IMD highlighted the Western Ghats for above‑normal rainfall."
+      },
+      "upscHighlights": [
+        "India Meteorological Department forecasts above-normal rainfall in Western Ghats",
+        "Army mobilises additional flood-relief units and pre-positions equipment",
+        "Monsoon outlook influences disaster-response preparedness"
+      ],
+      "institutionalContext": "The India Meteorological Department (IMD) is a national weather forecasting agency responsible for providing meteorological services to the Government of India.",
+      "strategicImportance": "This event highlights the importance of accurate weather forecasting in disaster response and preparedness, which is crucial for the Indian Armed Forces to respond effectively to natural disasters.",
+      "quickSummary": "The India Meteorological Department forecasted above-normal rainfall in the Western Ghats for June 2026, prompting the Army to mobilise additional flood-relief units and pre-position equipment. This demonstrates the importance of accurate weather forecasting in disaster response and preparedness.",
+      "detailedAnalysis": "The monsoon outlook is a critical factor in disaster response and preparedness. The India Meteorological Department's forecast of above-normal rainfall in the Western Ghats for June 2026 has prompted the Army to mobilise additional flood-relief units and pre-position equipment. This is a testament to the importance of accurate weather forecasting in ensuring the safety and security of the Indian population.",
+      "backgroundContext": "The Western Ghats are a mountain range in western India that is prone to heavy rainfall and landslides during the monsoon season. The region is home to several major cities and towns, including Mumbai and Pune, which are vulnerable to flooding and landslides.",
+      "stakeholders": [
+        "India Meteorological Department",
+        "Indian Armed Forces"
+      ],
+      "relatedTopics": [
+        "Disaster Response",
+        "Weather Forecasting",
+        "National Security"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the India Meteorological Department's forecast of above-normal rainfall in the Western Ghats?",
+          "How does the Army respond to the forecast of above-normal rainfall in the Western Ghats?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of accurate weather forecasting in disaster response and preparedness?",
+          "How would you respond to a situation where the Army is required to mobilise additional flood-relief units and pre-position equipment?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the India Meteorological Department in disaster response and preparedness",
+          "The importance of accurate weather forecasting in ensuring the safety and security of the Indian population"
+        ]
       }
     },
     {
@@ -1958,6 +3638,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The system leverages AI for data integration and decision support."
+      },
+      "upscHighlights": [
+        "DRDO showcases AI-powered Battlefield Management System",
+        "AI system enhances situational awareness for the Army",
+        "Real-time sensor data and drone surveillance integrated"
+      ],
+      "institutionalContext": "The Defence Research and Development Organisation (DRDO) is a premier agency responsible for the development of defence technology in India.",
+      "strategicImportance": "This development is crucial for the Indian Army as it enhances situational awareness, enabling faster decision-making and improved combat effectiveness.",
+      "quickSummary": "DRDO has demonstrated an AI-powered Battlefield Management System (BMS) that integrates real-time sensor data, drone surveillance, and decision-support algorithms to enhance situational awareness for the Indian Army.",
+      "detailedAnalysis": "The AI-powered BMS is a significant development in modernising command and control systems for the Indian Army. By integrating real-time sensor data and drone surveillance, the system provides a comprehensive view of the battlefield, enabling commanders to make informed decisions. This technology has the potential to revolutionise the way the Indian Army operates, enhancing its combat effectiveness and situational awareness.",
+      "backgroundContext": "The Indian Army has been modernising its command and control systems to enhance its combat effectiveness. The development of AI-powered BMS is a step towards achieving this goal.",
+      "stakeholders": [
+        "Defence Research and Development Organisation (DRDO)",
+        "Indian Army"
+      ],
+      "relatedTopics": [
+        "Artificial Intelligence (AI)",
+        "Defence Technology",
+        "Indian Army Modernisation"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of AI-powered Battlefield Management System for the Indian Army?",
+          "How does the AI-powered BMS enhance situational awareness for the Indian Army?"
+        ],
+        "interviewQuestions": [
+          "Explain the role of AI in modernising command and control systems for the Indian Army.",
+          "Discuss the potential benefits of AI-powered BMS for the Indian Army."
+        ],
+        "ssbDiscussionTopics": [
+          "The role of technology in enhancing combat effectiveness",
+          "The importance of situational awareness in military operations"
+        ]
       }
     },
     {
@@ -1980,6 +3698,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "CSK emerged victorious in the 2026 final."
+      },
+      "upscHighlights": [
+        "Chennai Super Kings won IPL 2026 title",
+        "Massive security deployments by CISF",
+        "High-profile sporting event in India"
+      ],
+      "institutionalContext": "The Central Industrial Security Force (CISF) is a paramilitary force responsible for providing security to various critical infrastructure in India, including airports, seaports, and industrial units.",
+      "strategicImportance": "This event highlights the importance of maintaining law and order and providing security to high-profile events in India, which is a critical aspect of national security.",
+      "quickSummary": "The IPL 2026 final was held at Chennai, where Chennai Super Kings defeated Kolkata Knight Riders to win the title. The event was secured by the Central Industrial Security Force (CISF), showcasing the country's ability to handle high-profile events.",
+      "detailedAnalysis": "The IPL 2026 final was a significant event in the Indian sports calendar, attracting millions of viewers and fans. The involvement of the CISF in securing the event demonstrates the government's commitment to maintaining law and order and providing security to critical infrastructure. This event is relevant to UPSC/Defence exams as it highlights the importance of national security and the role of paramilitary forces in maintaining it.",
+      "backgroundContext": "The Indian Premier League (IPL) is a professional Twenty20 cricket league in India, contested by ten teams. The league was founded in 2008 and has since become one of the most popular sports leagues in the world.",
+      "stakeholders": [
+        "Chennai Super Kings",
+        "Kolkata Knight Riders",
+        "Central Industrial Security Force (CISF)"
+      ],
+      "relatedTopics": [
+        "Indian Sports",
+        "National Security",
+        "Paramilitary Forces"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the role of the CISF in securing high-profile events in India?",
+          "How does the IPL 2026 final relate to national security?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the importance of maintaining law and order in India?",
+          "How does the government ensure security to critical infrastructure in the country?"
+        ],
+        "ssbDiscussionTopics": [
+          "Security arrangements for high-profile events",
+          "Role of paramilitary forces in national security"
+        ]
       }
     },
     {
@@ -2002,6 +3759,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The Vajra scheme specifies a six‑month intensive training period."
+      },
+      "upscHighlights": [
+        "Vajra Scheme launched for NCC cadets",
+        "Direct entry into Indian Army, Navy or Air Force",
+        "Six-month intensive training programme"
+      ],
+      "institutionalContext": "The Ministry of Defence is the central authority responsible for the Indian Armed Forces, including the Indian Army, Navy, and Air Force.",
+      "strategicImportance": "This scheme is crucial for UPSC/Defence as it highlights the government's efforts to promote talent and provide opportunities for young Indians to join the armed forces.",
+      "quickSummary": "The Ministry of Defence has launched the 'Vajra' scheme, a six-month fast-track training programme for NCC cadets. This initiative aims to provide direct entry into the Indian Army, Navy, or Air Force, enabling talented individuals to join the armed forces.",
+      "detailedAnalysis": "The 'Vajra' scheme is a significant development in the Indian defence sector, reflecting the government's commitment to promoting talent and providing opportunities for young Indians to join the armed forces. This scheme is expected to benefit NCC cadets who have demonstrated exceptional leadership skills and potential. The six-month intensive training programme will equip them with the necessary skills and knowledge to excel in their chosen branch of the armed forces.",
+      "backgroundContext": "The National Cadet Corps (NCC) is a youth organisation that aims to develop the character of young Indians through various activities and training programmes. The NCC has a long history of producing talented individuals who have gone on to join the armed forces.",
+      "stakeholders": [
+        "Ministry of Defence",
+        "Indian Armed Forces",
+        "National Cadet Corps"
+      ],
+      "relatedTopics": [
+        "Indian Defence",
+        "National Cadet Corps",
+        "Armed Forces"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the 'Vajra' scheme and its objectives?",
+          "How does the 'Vajra' scheme benefit NCC cadets?"
+        ],
+        "interviewQuestions": [
+          "What are the key features of the 'Vajra' scheme?",
+          "How does the 'Vajra' scheme align with the government's defence policies?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the National Cadet Corps in producing talented individuals for the armed forces",
+          "The significance of the 'Vajra' scheme in promoting talent and providing opportunities for young Indians"
+        ]
       }
     },
     {
@@ -2024,6 +3820,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "The Court upheld the AFSPA amendment."
+      },
+      "upscHighlights": [
+        "Supreme Court upholds AFSPA amendment in J&K",
+        "Periodic review of AFSPA provisions directed",
+        "Judicial affirmation of AFSPA's continued legal framework"
+      ],
+      "institutionalContext": "The Supreme Court of India is the highest court in the country, responsible for interpreting the Constitution and laws.",
+      "strategicImportance": "This verdict has significant implications for the Indian Armed Forces' operations in Jammu & Kashmir, and demonstrates the court's commitment to upholding national security.",
+      "quickSummary": "The Supreme Court has upheld the 2024 amendment to the Armed Forces (Special Powers) Act (AFSPA), confirming its applicability in Jammu & Kashmir while directing periodic review of its provisions.",
+      "detailedAnalysis": "The AFSPA amendment was a significant development in the context of the Indian Armed Forces' operations in Jammu & Kashmir. The Supreme Court's verdict has reaffirmed the law's continued relevance, while also emphasizing the need for periodic review of its provisions to ensure they remain aligned with changing circumstances.",
+      "backgroundContext": "The AFSPA was first enacted in 1958, and has been amended several times since then. The law grants special powers to the Indian Armed Forces in designated areas, allowing them to maintain law and order and counter insurgency.",
+      "stakeholders": [
+        "Indian Armed Forces",
+        "Government of India",
+        "Supreme Court of India"
+      ],
+      "relatedTopics": [
+        "Armed Forces (Special Powers) Act (AFSPA)",
+        "Jammu & Kashmir",
+        "Indian Armed Forces"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Supreme Court's verdict on the AFSPA amendment?",
+          "How does the AFSPA amendment impact the Indian Armed Forces' operations in Jammu & Kashmir?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the implications of the Supreme Court's verdict on the AFSPA amendment for national security?",
+          "How does the periodic review of AFSPA provisions align with the government's policies on Jammu & Kashmir?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Supreme Court in upholding national security",
+          "The impact of the AFSPA amendment on the Indian Armed Forces' operations in Jammu & Kashmir"
+        ]
       }
     },
     {
@@ -2041,6 +3876,45 @@ window.CURRENT_AFFAIRS_DB = {
           "Harbhajan Singh": "MONUSCO (DR. of Congo)",
           "Sujit Kumar Pradhan": "UNMISS (South Sudan)"
         }
+      },
+      "upscHighlights": [
+        "Indian soldiers to receive UN Peacekeeping Awards",
+        "Posthumous awards for bravery in Congo and South Sudan",
+        "UN Dag Hammarskjold Medal for fallen soldiers"
+      ],
+      "institutionalContext": "The United Nations (UN) is an international organization that maintains peace and security around the world through peacekeeping missions.",
+      "strategicImportance": "This event highlights India's commitment to UN peacekeeping efforts and the bravery of its soldiers in the face of danger.",
+      "quickSummary": "Two Indian soldiers, Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan, are scheduled to receive the UN Dag Hammarskjold Medal posthumously for their bravery in UN peacekeeping missions in the Democratic Republic of Congo and South Sudan.",
+      "detailedAnalysis": "The UN Dag Hammarskjold Medal is awarded to personnel who have served in UN peacekeeping missions and have demonstrated exceptional bravery and dedication to duty. Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan served with the MONUSCO and UNMISS missions, respectively, and their posthumous awards are a testament to their selfless service and sacrifice.",
+      "backgroundContext": "The UN has been involved in peacekeeping efforts around the world since the 1940s, with the first peacekeeping mission being established in the Middle East in 1948. India has been a major contributor to UN peacekeeping efforts, with thousands of soldiers serving in various missions around the world.",
+      "stakeholders": [
+        "United Nations",
+        "Government of India",
+        "Indian Armed Forces"
+      ],
+      "relatedTopics": [
+        "UN Peacekeeping",
+        "Indian Armed Forces",
+        "International Relations"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the UN Dag Hammarskjold Medal and who is it awarded to?",
+          "What are the criteria for receiving the UN Dag Hammarskjold Medal?"
+        ],
+        "interviewQuestions": [
+          "Can you describe a situation where you demonstrated bravery and selflessness in the face of danger?",
+          "How do you think the UN can improve its peacekeeping efforts in conflict zones?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Indian Armed Forces in UN peacekeeping efforts",
+          "The importance of bravery and selflessness in military service"
+        ]
       }
     },
     {
@@ -2063,7 +3937,45 @@ window.CURRENT_AFFAIRS_DB = {
           "South Sudan"
         ]
       },
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "Indian soldiers awarded UN Dag Hammarskjöld Medal 2025",
+        "Posthumous award for promoting Gender Inclusion",
+        "Service in UN peacekeeping missions recognized"
+      ],
+      "institutionalContext": "The United Nations Dag Hammarskjöld Medal is awarded to personnel who have made the utmost sacrifice in the cause of peace, and is a testament to the bravery and selflessness of those who serve in UN peacekeeping missions.",
+      "strategicImportance": "This event highlights India's commitment to promoting gender inclusion and its role in UN peacekeeping missions, making it relevant for UPSC/Defence exams.",
+      "quickSummary": "Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan are scheduled to be posthumously awarded the United Nations Dag Hammarskjöld Medal on May 29, 2026, for their service in UN peacekeeping missions and promoting gender inclusion.",
+      "detailedAnalysis": "The United Nations Dag Hammarskjöld Medal is a prestigious award that recognizes the sacrifices made by personnel in UN peacekeeping missions. The awarding of this medal to Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan highlights India's commitment to promoting gender inclusion and its role in UN peacekeeping missions. This event is significant as it showcases the bravery and selflessness of Indian soldiers who have made the utmost sacrifice in the cause of peace.",
+      "backgroundContext": "The United Nations Dag Hammarskjöld Medal was established in 1988 to honor the memory of Dag Hammarskjöld, the second Secretary-General of the United Nations. The medal is awarded to personnel who have made the utmost sacrifice in the cause of peace, and is a testament to the bravery and selflessness of those who serve in UN peacekeeping missions.",
+      "stakeholders": [
+        "United Nations",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "UN peacekeeping missions",
+        "Gender inclusion",
+        "Indian Armed Forces"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the United Nations Dag Hammarskjöld Medal?",
+          "Why are Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan being awarded the United Nations Dag Hammarskjöld Medal?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the significance of the United Nations Dag Hammarskjöld Medal?",
+          "How does India's commitment to promoting gender inclusion impact its role in UN peacekeeping missions?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of Indian Armed Forces in UN peacekeeping missions",
+          "The importance of promoting gender inclusion in the military"
+        ]
+      }
     },
     {
       "id": "un-peacekeeping-day-2026",
@@ -2073,7 +3985,44 @@ window.CURRENT_AFFAIRS_DB = {
         "date": "May 29",
         "theme": "Invest in Peace"
       },
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "UN Peacekeepers' Day observed on May 29",
+        "Theme for 2023: Invest in Peace",
+        "International Day of UN Peacekeepers marked globally"
+      ],
+      "institutionalContext": "The International Day of UN Peacekeepers is an annual observance by the United Nations to commemorate the contributions and sacrifices of peacekeepers from around the world.",
+      "strategicImportance": "Understanding the role and significance of UN peacekeepers is crucial for UPSC Defence exams, as it showcases the international community's efforts in maintaining global peace and security.",
+      "quickSummary": "The International Day of UN Peacekeepers is observed on May 29, with the theme 'Invest in Peace' for 2023. This day recognizes the vital contributions of peacekeepers in maintaining global peace and security.",
+      "detailedAnalysis": "The International Day of UN Peacekeepers is a significant event that highlights the importance of peacekeeping operations in maintaining global peace and security. The theme 'Invest in Peace' emphasizes the need for sustained investment in peacekeeping efforts to prevent conflicts and promote peace. The day is observed annually on May 29, and it is marked by various events and ceremonies around the world.",
+      "backgroundContext": "The United Nations was established in 1945 with the primary goal of maintaining international peace and security. Since its inception, the UN has been involved in numerous peacekeeping operations around the world, with the aim of preventing conflicts and promoting peace. The International Day of UN Peacekeepers was established in 2001 to recognize the contributions and sacrifices of peacekeepers.",
+      "stakeholders": [
+        "United Nations",
+        "Peacekeeping forces from around the world"
+      ],
+      "relatedTopics": [
+        "UN Peacekeeping Operations",
+        "Global Peace and Security"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the International Day of UN Peacekeepers?",
+          "What is the theme for 2023?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the role of UN peacekeepers in maintaining global peace and security?",
+          "How does the theme 'Invest in Peace' relate to the work of UN peacekeepers?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of peacekeeping operations in maintaining global peace and security",
+          "The challenges faced by UN peacekeepers in conflict zones"
+        ]
+      }
     },
     {
       "id": "ca-2026-05-ins-sagardhwani-camranh",
@@ -2087,7 +4036,45 @@ window.CURRENT_AFFAIRS_DB = {
         "event": "Arrival",
         "cooperation_details": "Significant step in India's scientific cooperation with Vietnam."
       },
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "India-Vietnam scientific cooperation strengthened",
+        "INS Sagardhwani arrives in Cam Ranh, Vietnam",
+        "Enhanced oceanographic research capabilities"
+      ],
+      "institutionalContext": "INS Sagardhwani is an oceanographic research vessel operated by the Indian Navy, which plays a crucial role in India's scientific research and exploration efforts.",
+      "strategicImportance": "This event highlights India's growing scientific cooperation with Vietnam, which is a significant development in the Indo-Pacific region and has implications for India's naval and scientific capabilities.",
+      "quickSummary": "INS Sagardhwani, an Indian oceanographic research vessel, arrived at Cam Ranh, Vietnam, on 05 May 2026, marking a significant step in India's scientific cooperation with Vietnam. This development enhances India's oceanographic research capabilities and strengthens ties with Vietnam.",
+      "detailedAnalysis": "The arrival of INS Sagardhwani in Cam Ranh, Vietnam, marks a significant milestone in India's scientific cooperation with Vietnam. This event demonstrates India's commitment to strengthening its ties with Southeast Asian nations and enhancing its scientific research capabilities in the Indo-Pacific region. The Indian Navy's oceanographic research vessel will conduct joint research with Vietnamese scientists, focusing on oceanography, marine biology, and other related fields. This cooperation will not only enhance India's scientific knowledge but also contribute to the development of Vietnam's scientific capabilities.",
+      "backgroundContext": "India and Vietnam have a long-standing relationship, with both nations cooperating in various fields, including defense, trade, and science. The Indian Navy has been actively engaged in scientific research and exploration efforts in the Indo-Pacific region, with a focus on enhancing its capabilities and contributing to regional security.",
+      "stakeholders": [
+        "Indian Navy",
+        "Vietnamese Government"
+      ],
+      "relatedTopics": [
+        "India-Vietnam Relations",
+        "Indian Navy's Scientific Research Efforts",
+        "Indo-Pacific Region"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of INS Sagardhwani's arrival in Cam Ranh, Vietnam?",
+          "How does this event impact India's scientific research capabilities?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the implications of India's scientific cooperation with Vietnam?",
+          "How does this event contribute to regional security in the Indo-Pacific region?"
+        ],
+        "ssbDiscussionTopics": [
+          "India's growing scientific cooperation with Southeast Asian nations",
+          "The role of the Indian Navy in enhancing regional security"
+        ]
+      }
     },
     {
       "id": "ca-2026-05-yard-3039-sanghmitra-launch",
@@ -2102,49 +4089,315 @@ window.CURRENT_AFFAIRS_DB = {
         "launched_by": "Mrs Sarita Vatsayan",
         "dignitaries": "VAdm Sanjay Vatsayan, Vice Chief of the Naval Staff."
       },
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "India's Naval capabilities enhanced with new OPV launch",
+        "GRSE delivers Next Generation Offshore Patrol Vessel",
+        "Boost to Indian Navy's presence in Indian Ocean"
+      ],
+      "institutionalContext": "M/s GRSE (Mazagon Dock Shipbuilders Limited) is a leading Indian shipyard and a major player in the Indian defence industry.",
+      "strategicImportance": "The launch of Next Generation Offshore Patrol Vessel (NGOPV) is crucial for India's naval modernization and its presence in the Indian Ocean Region (IOR).",
+      "quickSummary": "The Yard 3039 (Sanghmitra), a Next Generation Offshore Patrol Vessel (NGOPV), was launched at M/s GRSE, Kolkata, on 20 May 2026. The launch was conducted by Mrs Sarita Vatsayan in the presence of VAdm Sanjay Vatsayan, Vice Chief of the Naval Staff.",
+      "detailedAnalysis": "The launch of NGOPV is a significant milestone in India's naval modernization efforts. The vessel is designed to enhance the Indian Navy's presence in the Indian Ocean Region (IOR) and to support various maritime operations, including anti-piracy, anti-smuggling, and humanitarian assistance. The NGOPV is equipped with advanced sensors, communication systems, and weapon systems, making it a formidable asset for the Indian Navy.",
+      "backgroundContext": "The Indian Navy has been modernizing its fleet in recent years to enhance its presence in the Indian Ocean Region (IOR). The launch of NGOPV is part of this effort to strengthen India's maritime capabilities.",
+      "stakeholders": [
+        "Indian Navy",
+        "M/s GRSE (Mazagon Dock Shipbuilders Limited)"
+      ],
+      "relatedTopics": [
+        "Indian Navy Modernization",
+        "Indian Ocean Region (IOR)",
+        "Defence Industry in India"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the launch of Next Generation Offshore Patrol Vessel (NGOPV)?",
+          "How will the NGOPV enhance the Indian Navy's presence in the Indian Ocean Region (IOR)?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the role of NGOPV in India's naval modernization efforts?",
+          "How does the launch of NGOPV impact India's maritime security?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of NGOPV in enhancing India's naval capabilities",
+          "The role of NGOPV in supporting various maritime operations"
+        ]
+      }
     },
     {
       "id": "joint-commanders-conference-2026",
       "topic": "Joint Commanders' Conference",
       "text": "The second edition of the Joint Commanders' Conference is scheduled to be held in Jaipur, Rajasthan, on May 07 and May 08, 2026. The conference focuses on the theme 'Military Capability in New Domains' and brings together top defence leadership, including Raksha Mantri Rajnath Singh and Chief of Defence Staff General Anil Chauhan.",
       "details": {},
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "Joint Commanders' Conference to focus on Military Capability",
+        "Raksha Mantri and Chief of Defence Staff to attend",
+        "Jaipur to host the conference on May 07-08, 2026"
+      ],
+      "institutionalContext": "The Joint Commanders' Conference is a biennial event organized by the Indian Armed Forces to discuss strategic issues and military capabilities.",
+      "strategicImportance": "This conference is crucial for UPSC/Defence as it showcases India's military preparedness and strategic thinking in the face of emerging threats.",
+      "quickSummary": "The second edition of the Joint Commanders' Conference is scheduled to be held in Jaipur, Rajasthan, on May 07-08, 2026. The conference will focus on the theme 'Military Capability in New Domains' and will be attended by top defence leadership, including Raksha Mantri Rajnath Singh and Chief of Defence Staff General Anil Chauhan.",
+      "detailedAnalysis": "The Joint Commanders' Conference is a significant event in the Indian defence calendar, bringing together top defence leadership to discuss strategic issues and military capabilities. The conference will focus on the theme 'Military Capability in New Domains', which is crucial in today's rapidly changing security landscape. The conference will provide a platform for defence leaders to share their perspectives and experiences, and to discuss ways to enhance military capabilities in new domains.",
+      "backgroundContext": "The Joint Commanders' Conference was first held in 2024, and it has since become an annual event. The conference is organized by the Indian Armed Forces to discuss strategic issues and military capabilities, and to provide a platform for defence leaders to share their perspectives and experiences.",
+      "stakeholders": [
+        "Raksha Mantri Rajnath Singh",
+        "Chief of Defence Staff General Anil Chauhan"
+      ],
+      "relatedTopics": [
+        "Indian Armed Forces",
+        "Military Capabilities",
+        "Strategic Thinking"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the theme of the Joint Commanders' Conference?",
+          "Who are the key stakeholders attending the conference?"
+        ],
+        "interviewQuestions": [
+          "What is the significance of the Joint Commanders' Conference in the Indian defence calendar?",
+          "How does the conference contribute to enhancing military capabilities in new domains?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Joint Commanders' Conference in promoting strategic thinking in the Indian Armed Forces",
+          "The challenges and opportunities in enhancing military capabilities in new domains"
+        ]
+      }
     },
     {
       "id": "scramjet-combustor-test-2026",
       "topic": "Actively Cooled Full Scale Scramjet Combustor",
       "text": "On May 09, 2026, DRDO successfully tested an Actively Cooled Full Scale Scramjet Combustor for hypersonic missile technology. The test, conducted at the Scramjet Connect Pipe Test Facility in Hyderabad, achieved over 1,200 seconds of continuous engine runtime, exceeding the previous benchmark from January 2026.",
       "details": {},
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "DRDO tests Actively Cooled Full Scale Scramjet Combustor",
+        "Hypersonic missile technology milestone achieved",
+        "Continuous engine runtime exceeds 1,200 seconds"
+      ],
+      "institutionalContext": "The Defence Research and Development Organisation (DRDO) is a premier agency responsible for the development of defence technology in India.",
+      "strategicImportance": "This achievement is crucial for India's hypersonic missile technology development, which has significant implications for the country's national security and defence capabilities.",
+      "quickSummary": "The DRDO successfully tested an Actively Cooled Full Scale Scramjet Combustor, a critical component of hypersonic missile technology, at the Scramjet Connect Pipe Test Facility in Hyderabad. The test achieved a continuous engine runtime of over 1,200 seconds, surpassing the previous benchmark.",
+      "detailedAnalysis": "The development of hypersonic missile technology is a key area of focus for India's defence research and development efforts. The Actively Cooled Full Scale Scramjet Combustor is a critical component of this technology, enabling the efficient combustion of fuel at high speeds. The successful test of this component is a significant milestone in India's pursuit of hypersonic capabilities.",
+      "backgroundContext": "India has been actively pursuing the development of hypersonic missile technology in recent years, with the DRDO leading the efforts. The country has made significant progress in this area, with several successful tests of hypersonic vehicles and components.",
+      "stakeholders": [
+        "Defence Research and Development Organisation (DRDO)",
+        "Indian Ministry of Defence"
+      ],
+      "relatedTopics": [
+        "Hypersonic missile technology",
+        "Defence research and development in India",
+        "Scramjet engines"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Actively Cooled Full Scale Scramjet Combustor in hypersonic missile technology?",
+          "How does the successful test of this component impact India's defence capabilities?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the role of the DRDO in the development of hypersonic missile technology?",
+          "How does India's pursuit of hypersonic capabilities impact the regional security dynamics?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of defence research and development in India",
+          "The implications of hypersonic missile technology for national security"
+        ]
+      }
     },
     {
       "id": "unmanned-mine-counter-measure-suite-2026",
       "topic": "Advanced Unmanned Mine Counter-Measure (MCM) Suite",
       "text": "L&T partnered with France-based Exail on May 18, 2026, to provide an advanced Unmanned Mine Counter-Measure (MCM) Suite for the Indian Navy. The project is linked to India's proposed procurement of 12 Mine Counter Measure Vessels aimed at enhancing maritime security capabilities.",
       "details": {},
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "L&T partners with Exail for MCM Suite",
+        "Indian Navy to enhance maritime security",
+        "12 Mine Counter Measure Vessels proposed"
+      ],
+      "institutionalContext": "Larsen & Toubro (L&T) is a leading Indian multinational conglomerate with significant presence in the defence sector, while Exail is a French company specializing in underwater defence solutions.",
+      "strategicImportance": "This partnership highlights India's efforts to enhance its maritime security capabilities and its willingness to collaborate with international partners to achieve this goal.",
+      "quickSummary": "Larsen & Toubro (L&T) has partnered with Exail, a French company, to provide an advanced Unmanned Mine Counter-Measure (MCM) Suite for the Indian Navy. This project is linked to the proposed procurement of 12 Mine Counter Measure Vessels aimed at enhancing maritime security capabilities.",
+      "detailedAnalysis": "The Indian Navy's requirement for Mine Counter Measure Vessels is a critical component of its maritime security strategy. The proposed procurement of 12 such vessels is expected to significantly enhance the Navy's capabilities in detecting and clearing mines in its territorial waters. The partnership between L&T and Exail is a significant development in this context, as it brings together the expertise of a leading Indian defence company and a specialist in underwater defence solutions.",
+      "backgroundContext": "The Indian Navy has been actively pursuing the procurement of Mine Counter Measure Vessels to enhance its maritime security capabilities. The Navy's requirements in this area have been driven by the need to protect its ships and personnel from the threat of mines in its territorial waters.",
+      "stakeholders": [
+        "Larsen & Toubro (L&T)",
+        "Exail",
+        "Indian Navy"
+      ],
+      "relatedTopics": [
+        "Mine Counter Measure Vessels",
+        "Maritime Security",
+        "Defence Procurement"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the partnership between L&T and Exail for the Indian Navy?",
+          "How will the proposed procurement of Mine Counter Measure Vessels enhance the Indian Navy's maritime security capabilities?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the role of Mine Counter Measure Vessels in the Indian Navy's maritime security strategy?",
+          "How does the partnership between L&T and Exail align with the Indian Navy's requirements in this area?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of Mine Counter Measure Vessels in modern naval warfare",
+          "The role of private sector companies in defence procurement"
+        ]
+      }
     },
     {
       "id": "squadron-leader-saanya-qfi-rating",
       "topic": "Squadron Leader Saanya",
       "text": "Squadron Leader Saanya became the first woman officer in the history of the Indian Air Force to achieve the prestigious Category-A Qualified Flying Instructor (QFI) rating on May 18, 2026. The qualification represents the highest instructional grading in military aviation and certifies pilots to train new aviators, operational pilots, and junior instructors.",
       "details": {},
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "First woman QFI in IAF history achieved",
+        "IAF's highest instructional grading",
+        "Pilot training certification milestone"
+      ],
+      "institutionalContext": "The Indian Air Force (IAF) is the air arm of the Indian Armed Forces, responsible for air defense and national security.",
+      "strategicImportance": "This achievement highlights the IAF's commitment to gender equality and women's empowerment in the armed forces, showcasing India's progress towards achieving its defense goals.",
+      "quickSummary": "Squadron Leader Saanya has become the first woman officer in the IAF to achieve the prestigious Category-A Qualified Flying Instructor (QFI) rating, marking a significant milestone in the history of the Indian Air Force.",
+      "detailedAnalysis": "The QFI rating is the highest instructional grading in military aviation, certifying pilots to train new aviators, operational pilots, and junior instructors. This achievement demonstrates Squadron Leader Saanya's exceptional flying skills and her ability to train others, making her a valuable asset to the IAF.",
+      "backgroundContext": "The Indian Air Force has been actively working towards increasing the representation of women in its ranks, with a focus on promoting gender equality and women's empowerment. This achievement is a testament to the IAF's efforts towards creating a more inclusive and diverse force.",
+      "stakeholders": [
+        "Indian Air Force",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Women in Defence",
+        "Indian Armed Forces Modernization"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of achieving the QFI rating in the IAF?",
+          "How does this achievement impact the representation of women in the IAF?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the process of becoming a QFI in the IAF?",
+          "How do you think this achievement will impact the IAF's future operations?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of women in the armed forces",
+          "The importance of promoting gender equality in the IAF"
+        ]
+      }
     },
     {
       "id": "all-women-mount-everest-expedition-2026",
       "topic": "All-Women International Mount Everest Expedition",
       "text": "The Indo-Tibetan Border Police (ITBP) successfully completed its first-ever all-women international Mount Everest expedition on May 21, 2026. The 14-member team, comprising 11 women climbers and 3 technical support members, reached the summit of Mount Everest via the South Col Route from Nepal.",
       "details": {},
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "ITBP completes first all-women Everest expedition",
+        "11 women climbers reach Mount Everest summit",
+        "International team achieves historic feat"
+      ],
+      "institutionalContext": "The Indo-Tibetan Border Police (ITBP) is a paramilitary force responsible for guarding India's borders with China and Nepal.",
+      "strategicImportance": "This achievement demonstrates the ITBP's capabilities and highlights the importance of women's empowerment in the defence sector.",
+      "quickSummary": "The ITBP successfully completed its first-ever all-women international Mount Everest expedition, with 11 women climbers and 3 technical support members reaching the summit via the South Col Route from Nepal.",
+      "detailedAnalysis": "The ITBP's all-women expedition is a significant achievement, showcasing the organisation's commitment to promoting women's participation in challenging expeditions. This feat also highlights the ITBP's capabilities in high-altitude mountaineering and its ability to work with international teams.",
+      "backgroundContext": "The ITBP has been involved in various mountaineering expeditions in the past, including the 2010 Mount Everest expedition. However, this is the first time the organisation has undertaken an all-women international expedition.",
+      "stakeholders": [
+        "Indo-Tibetan Border Police (ITBP)",
+        "Government of India",
+        "International Mountaineering Community"
+      ],
+      "relatedTopics": [
+        "Indian Defence Forces",
+        "Women's Empowerment in Defence",
+        "International Cooperation in Defence"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the ITBP's all-women Everest expedition?",
+          "How does this achievement impact women's participation in the defence sector?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the challenges faced by the ITBP team during the expedition?",
+          "How does the ITBP's all-women expedition demonstrate the organisation's capabilities?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of women in the defence sector",
+          "International cooperation in defence and mountaineering"
+        ]
+      }
     },
     {
       "id": "su-30-mki-predictive-maintenance-2026",
       "topic": "SU-30 MKI Fighter Aircraft Fleet predictive maintenance",
       "text": "The Indian Air Force (IAF) signed three contracts with IIT Bombay on May 29, 2026, to implement predictive maintenance solutions for the Su-30 MKI fighter aircraft fleet. The initiative focuses on prognostic and prescriptive maintenance techniques aimed at reducing service costs and improving aircraft availability and operational lifespan.",
       "details": {},
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "IAF Implements Predictive Maintenance for Su-30 MKI Fleet",
+        "IIT Bombay Partners with IAF for Su-30 MKI Maintenance",
+        "Reducing Service Costs and Improving Aircraft Availability"
+      ],
+      "institutionalContext": "The Indian Air Force (IAF) is the air arm of the Indian Armed Forces, responsible for the country's air defense and military aviation. IIT Bombay is a public research university in India, known for its research and development in various fields, including aerospace engineering.",
+      "strategicImportance": "This initiative is crucial for the IAF as it aims to reduce service costs and improve aircraft availability, which directly impacts the country's air defense capabilities. It also highlights the importance of technology and innovation in modernizing the armed forces.",
+      "quickSummary": "The Indian Air Force has signed contracts with IIT Bombay to implement predictive maintenance solutions for its Su-30 MKI fighter aircraft fleet. This initiative focuses on reducing service costs and improving aircraft availability and operational lifespan.",
+      "detailedAnalysis": "The Su-30 MKI is a multirole fighter aircraft used by the IAF, and its maintenance is a critical aspect of its operational effectiveness. Predictive maintenance techniques, such as prognostic and prescriptive maintenance, can help identify potential issues before they occur, reducing downtime and improving overall fleet availability. This initiative is a significant step towards modernizing the IAF's maintenance capabilities and improving its air defense posture.",
+      "backgroundContext": "The Su-30 MKI has been in service with the IAF since 2002, and its maintenance has been a challenge due to its complex design and high operating costs. The IAF has been exploring various options to improve its maintenance capabilities, including the use of advanced technologies like predictive maintenance.",
+      "stakeholders": [
+        "Indian Air Force (IAF)",
+        "IIT Bombay"
+      ],
+      "relatedTopics": [
+        "Indian Armed Forces Modernization",
+        "Aerospace Engineering and Technology"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is predictive maintenance, and how does it improve aircraft availability?",
+          "How does the IAF plan to implement predictive maintenance for its Su-30 MKI fleet?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of predictive maintenance in modernizing the IAF's maintenance capabilities?",
+          "How does the IAF plan to address the challenges of maintaining its Su-30 MKI fleet?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of technology in modernizing the armed forces",
+          "Challenges and opportunities in maintaining complex military equipment"
+        ]
+      }
     }
   ],
   "June 2026": [
@@ -2961,7 +5214,48 @@ window.CURRENT_AFFAIRS_DB = {
         "event": "Port Call",
         "cooperation_details": "Strengthened maritime cooperation and friendship; aligns with MAHASAGAR vision."
       },
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "India strengthens maritime ties with Sri Lanka",
+        "INS Sharda enhances bilateral cooperation",
+        "MAHASAGAR vision aligns with regional interests"
+      ],
+      "institutionalContext": "The Indian Navy's port call to Colombo, Sri Lanka, is a significant development in the context of India's 'Act East' policy and the Indian Ocean Region's (IOR) growing importance.",
+      "strategicImportance": "This event highlights India's commitment to strengthening maritime cooperation with its regional partners, enhancing regional stability, and promoting economic growth through the Blue Economy.",
+      "quickSummary": "INS Sharda's port call to Colombo, Sri Lanka, marked a significant milestone in India-Sri Lanka maritime cooperation, aligning with the MAHASAGAR vision. This visit underscores India's commitment to regional stability and economic growth.",
+      "detailedAnalysis": "The Indian Navy's port call to Colombo, Sri Lanka, is a testament to the growing strategic partnership between India and Sri Lanka. The MAHASAGAR vision, which aims to promote regional cooperation and economic growth through the Blue Economy, is a key driver of this partnership. The visit also highlights India's commitment to regional stability and its role as a net security provider in the IOR.",
+      "backgroundContext": "India's 'Act East' policy, launched in 2014, aims to strengthen economic and strategic ties with Southeast Asia and the IOR. The policy has led to increased maritime cooperation between India and its regional partners, including Sri Lanka.",
+      "stakeholders": [
+        "Indian Navy",
+        "Sri Lankan Navy",
+        "Government of India",
+        "Government of Sri Lanka"
+      ],
+      "relatedTopics": [
+        "India-Sri Lanka relations",
+        "Indian Ocean Region (IOR)",
+        "Blue Economy",
+        "Act East policy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of INS Sharda's port call to Colombo, Sri Lanka?",
+          "How does the MAHASAGAR vision align with India's regional interests?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the implications of India's 'Act East' policy for regional stability?",
+          "How does India's maritime cooperation with Sri Lanka contribute to regional economic growth?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Indian Navy in promoting regional stability",
+          "The importance of maritime cooperation in the IOR"
+        ]
+      }
     },
     {
       "id": "ca-2026-06-ins-tarkash-ikshak-seychelles",
@@ -2977,7 +5271,46 @@ window.CURRENT_AFFAIRS_DB = {
         "event": "Port Call",
         "activities": "Professional, ceremonial, and community engagement activities during Seychelles' National Day and Golden Jubilee celebration."
       },
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "Indian Navy strengthens ties with Seychelles through port call.",
+        "Successful completion of professional, ceremonial, and community engagement activities.",
+        "Enhancing bilateral cooperation between India and Seychelles."
+      ],
+      "institutionalContext": "The Indian Navy is the naval branch of the Indian Armed Forces, responsible for the country's maritime defense and security.",
+      "strategicImportance": "This port call highlights India's commitment to strengthening its relationships with African nations, particularly in the context of the Indian Ocean Region's growing strategic importance.",
+      "quickSummary": "Indian Naval Ships Tarkash and Ikshak concluded their port call at Port Victoria, Seychelles, on 29 June 2026, marking the successful completion of various professional, ceremonial, and community engagement activities.",
+      "detailedAnalysis": "The port call was a significant event in the context of India-Seychelles bilateral relations, which have been strengthened through various defense cooperation agreements and joint exercises. The Indian Navy's presence in Seychelles demonstrates India's commitment to regional security and stability.",
+      "backgroundContext": "Seychelles is an archipelago of 115 islands in the Indian Ocean, strategically located off the coast of East Africa. The country has been a key partner for India in the region, with both nations cooperating on defense, security, and economic issues.",
+      "stakeholders": [
+        "Indian Navy",
+        "Government of Seychelles",
+        "Indian Ministry of Defence"
+      ],
+      "relatedTopics": [
+        "India-Seychelles relations",
+        "Indian Ocean Region security",
+        "Defense cooperation agreements"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key outcomes of the Indian Navy's port call in Seychelles?",
+          "How does the port call reflect India's foreign policy priorities in the Indian Ocean Region?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the significance of the Indian Navy's port call in Seychelles?",
+          "How does the port call demonstrate India's commitment to regional security and stability?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Indian Navy in strengthening India-Seychelles relations",
+          "The implications of the port call for regional security dynamics"
+        ]
+      }
     },
     {
       "id": "ca-2026-06-ins-tarkash-mauritius",
@@ -2992,7 +5325,44 @@ window.CURRENT_AFFAIRS_DB = {
         "deployment_region": "South West Indian Ocean Region",
         "activities": "Friendly volleyball match, training for Mauritius National Coast Guard."
       },
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "Indian Navy's INS Tarkash deploys in SW Indian Ocean",
+        "Stealth frigate INS Tarkash conducts port call in Mauritius",
+        "Indian Navy strengthens ties with Mauritius through training"
+      ],
+      "institutionalContext": "The Indian Navy is the naval branch of the Indian Armed Forces, responsible for the country's maritime defense and security.",
+      "strategicImportance": "This deployment highlights India's growing presence in the Indian Ocean Region and its commitment to regional security and cooperation.",
+      "quickSummary": "Indian Naval Ship Tarkash, a stealth frigate, departed from Port Louis, Mauritius, after a port call, marking a significant deployment in the South West Indian Ocean Region.",
+      "detailedAnalysis": "The deployment of INS Tarkash in the South West Indian Ocean Region is a strategic move by the Indian Navy to enhance its presence in the region and strengthen ties with Mauritius. The ship's crew engaged in various activities, including a friendly volleyball match and training for the Mauritius National Coast Guard, showcasing the Navy's commitment to regional cooperation and capacity building.",
+      "backgroundContext": "The Indian Ocean Region is a critical area of interest for India, given its strategic location and the presence of several key shipping lanes. The region has seen increased tensions in recent years, with several countries vying for influence.",
+      "stakeholders": [
+        "Indian Navy",
+        "Mauritius National Coast Guard"
+      ],
+      "relatedTopics": [
+        "Indian Navy's presence in the Indian Ocean Region",
+        "Regional security and cooperation in the Indian Ocean"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of INS Tarkash's deployment in the South West Indian Ocean Region?",
+          "How does the Indian Navy's presence in the region impact regional security?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the Indian Navy's strategy in the Indian Ocean Region?",
+          "How does the Navy's engagement with regional partners like Mauritius contribute to regional security?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Indian Navy in regional security and cooperation",
+          "The implications of India's growing presence in the Indian Ocean Region"
+        ]
+      }
     },
     {
       "id": "ca-2026-06-icgs-akshay-commissioning",
@@ -3016,6 +5386,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "",
         "explanation": ""
+      },
+      "upscHighlights": [
+        "Indian Coast Guard commissions new-generation FPV ICGS Akshay.",
+        "Indigenous shipbuilding achievement boosts national security.",
+        "Enhanced operational capability for Indian Coast Guard."
+      ],
+      "institutionalContext": "The Indian Coast Guard is a maritime law enforcement agency responsible for maritime security, search and rescue, and protection of marine environment.",
+      "strategicImportance": "This event highlights India's commitment to indigenous shipbuilding and modernization of its defense forces, which is crucial for national security and self-reliance.",
+      "quickSummary": "The Indian Coast Guard has commissioned ICGS Akshay, a new-generation Fast Patrol Vessel, at Goa Shipyard Limited, marking a significant milestone in its force modernization and indigenous shipbuilding efforts.",
+      "detailedAnalysis": "The commissioning of ICGS Akshay is a testament to India's growing capabilities in shipbuilding and defense modernization. The vessel's advanced features and indigenous design will enhance the operational capability of the Indian Coast Guard, enabling it to effectively patrol Indian waters and protect national interests. This achievement is also a significant step towards achieving self-reliance in defense production, a key objective of the government's 'Make in India' initiative.",
+      "backgroundContext": "The Indian Coast Guard was established in 1978 to provide maritime security and protection of marine environment. Over the years, it has grown into a formidable force with a fleet of modern ships and aircraft. The commissioning of ICGS Akshay is a significant milestone in its modernization efforts, which began in the 1990s.",
+      "stakeholders": [
+        "Indian Coast Guard",
+        "Goa Shipyard Limited",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Indian Navy Modernization",
+        "Indigenous Defense Production",
+        "Maritime Security"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of ICGS Akshay's commissioning for Indian Coast Guard?",
+          "How does the commissioning of ICGS Akshay align with the government's 'Make in India' initiative?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the features and capabilities of ICGS Akshay?",
+          "How does the commissioning of ICGS Akshay impact India's maritime security?"
+        ],
+        "ssbDiscussionTopics": [
+          "Importance of indigenous shipbuilding for national security",
+          "Role of Indian Coast Guard in maritime security"
+        ]
       }
     },
     {
@@ -3023,7 +5432,45 @@ window.CURRENT_AFFAIRS_DB = {
       "topic": "Air Cushion Vehicle (ACV) H-561 Induction",
       "text": "The Indian Coast Guard inducted its first indigenous Air Cushion Vehicle (hovercraft) H-561 in Goa in June 2026 to enhance maritime capabilities. It was designed and built by Chowgule & Company Private Limited as part of the Aatmanirbhar Bharat initiative.",
       "details": {},
-      "mcq": null
+      "mcq": null,
+      "upscHighlights": [
+        "Indigenous Air Cushion Vehicle (ACV) H-561 inducted by Indian Coast Guard.",
+        "Enhanced maritime capabilities through Aatmanirbhar Bharat initiative.",
+        "First indigenous hovercraft designed and built by Chowgule & Company Private Limited."
+      ],
+      "institutionalContext": "The Indian Coast Guard is a maritime law enforcement agency responsible for enforcing maritime law, protecting marine ecosystems, and safeguarding the country's maritime interests.",
+      "strategicImportance": "The induction of the Air Cushion Vehicle (ACV) H-561 is crucial for UPSC/Defence as it showcases India's capability to design and build advanced maritime assets, enhancing the country's maritime capabilities and contributing to the Aatmanirbhar Bharat initiative.",
+      "quickSummary": "The Indian Coast Guard has inducted its first indigenous Air Cushion Vehicle (ACV) H-561, designed and built by Chowgule & Company Private Limited, to enhance maritime capabilities. This move aligns with the Aatmanirbhar Bharat initiative, demonstrating India's capability to develop advanced maritime assets.",
+      "detailedAnalysis": "The induction of the ACV H-561 marks a significant milestone in India's maritime capabilities, showcasing the country's ability to design and build advanced maritime assets. This achievement is a result of the Aatmanirbhar Bharat initiative, which aims to promote self-reliance in critical sectors, including defence. The ACV H-561 is expected to enhance the Indian Coast Guard's capabilities in maritime law enforcement, marine ecosystem protection, and maritime security.",
+      "backgroundContext": "The Indian Coast Guard was established in 1978 to enforce maritime law, protect marine ecosystems, and safeguard the country's maritime interests. Over the years, the agency has played a crucial role in maintaining maritime security and protecting the country's coastline.",
+      "stakeholders": [
+        "Indian Coast Guard",
+        "Chowgule & Company Private Limited"
+      ],
+      "relatedTopics": [
+        "Aatmanirbhar Bharat initiative",
+        "Maritime capabilities",
+        "Defence modernization"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Air Cushion Vehicle (ACV) H-561 induction for the Indian Coast Guard?",
+          "How does the Aatmanirbhar Bharat initiative contribute to India's defence capabilities?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the role of the Indian Coast Guard in maritime law enforcement and marine ecosystem protection?",
+          "How does the induction of the ACV H-561 align with the Aatmanirbhar Bharat initiative?"
+        ],
+        "ssbDiscussionTopics": [
+          "Maritime security and its importance for national security",
+          "Aatmanirbhar Bharat initiative and its impact on defence capabilities"
+        ]
+      }
     },
     {
       "id": "Project-UDAYAK-37th-Raising-Day-2026",
@@ -3048,6 +5495,46 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Doomdooma, Assam",
         "explanation": "On June 1, 2026, the Border Roads Organisation (BRO) celebrated the 37th Raising Day of Project UDAYAK in Doomdooma, Assam."
+      },
+      "upscHighlights": [
+        "BRO celebrates 37th Raising Day of Project UDAYAK",
+        "Project UDAYAK oversees 1,457 km of roads in Northeast India",
+        "BRO develops strategic road infrastructure along LAC and Indo-Myanmar border"
+      ],
+      "institutionalContext": "The Border Roads Organisation (BRO) is a premier infrastructure development agency under the Ministry of Defence, responsible for developing and maintaining road networks in the border areas of India.",
+      "strategicImportance": "This event highlights the BRO's efforts in improving connectivity and infrastructure development in strategic regions, which is crucial for national security and defence preparedness.",
+      "quickSummary": "The Border Roads Organisation (BRO) celebrated the 37th Raising Day of Project UDAYAK on June 1, 2026, in Doomdooma, Assam. The project oversees over 1,457 km of roads in Arunachal Pradesh and Assam, improving connectivity along the Line of Actual Control (LAC) and the Indo-Myanmar border.",
+      "detailedAnalysis": "Project UDAYAK was established in 1987 to develop and maintain strategic road infrastructure in Northeast India. The project's primary objective is to improve connectivity and facilitate the movement of troops, equipment, and supplies in the region. The BRO's efforts in this regard are crucial for national security and defence preparedness, as they enable the Indian Armed Forces to respond quickly and effectively to any potential threats.",
+      "backgroundContext": "The BRO was established in 1960 to develop and maintain road networks in the border areas of India. Over the years, the organisation has played a crucial role in improving connectivity and infrastructure development in strategic regions. Project UDAYAK is one of the key initiatives of the BRO, aimed at developing and maintaining road networks in Northeast India.",
+      "stakeholders": [
+        "Border Roads Organisation (BRO)",
+        "Indian Armed Forces",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Border Roads Organisation (BRO)",
+        "Northeast India",
+        "Line of Actual Control (LAC)",
+        "Indo-Myanmar border"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of Project UDAYAK in improving connectivity in Northeast India?",
+          "How does the BRO's efforts in developing and maintaining road networks impact national security?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the role of the BRO in developing and maintaining road networks in strategic regions?",
+          "How does the Indian Armed Forces benefit from the BRO's efforts in improving connectivity in Northeast India?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of infrastructure development in national security",
+          "The role of the BRO in improving connectivity in strategic regions"
+        ]
       }
     },
     {
@@ -3071,6 +5558,43 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Ranaghat, Arunachal Pradesh",
         "explanation": "Project BRAHMANK of Border Roads Organisation (BRO) celebrated its 16th Raising Day on June 29, 2026, at Ranaghat, Arunachal Pradesh."
+      },
+      "upscHighlights": [
+        "BRO's Project BRAHMANK celebrates 16th Raising Day",
+        "Strategic infrastructure development in Arunachal Pradesh",
+        "Border Roads Organisation's dedicated service"
+      ],
+      "institutionalContext": "The Border Roads Organisation (BRO) is a premier infrastructure development agency under the Ministry of Defence, responsible for building and maintaining roads and bridges in the country, particularly in border areas.",
+      "strategicImportance": "This event highlights the BRO's commitment to developing strategic infrastructure in the region, which is crucial for national security and defence.",
+      "quickSummary": "Project BRAHMANK, a flagship project of the Border Roads Organisation (BRO), celebrated its 16th Raising Day on June 29, 2026, marking fifteen years of dedicated service towards the development of strategic infrastructure and connectivity in Arunachal Pradesh.",
+      "detailedAnalysis": "Project BRAHMANK was established in 2011 with the aim of developing strategic infrastructure in the region, including roads, bridges, and other connectivity projects. Over the years, the project has made significant contributions to the development of the region, improving connectivity and facilitating the movement of troops and equipment.",
+      "backgroundContext": "The BRO was established in 1960 with the primary objective of building and maintaining roads and bridges in the country, particularly in border areas. Since its inception, the organisation has played a crucial role in developing infrastructure in the country, including in the sensitive border regions.",
+      "stakeholders": [
+        "Border Roads Organisation (BRO)",
+        "Ministry of Defence"
+      ],
+      "relatedTopics": [
+        "Border Roads Organisation",
+        "Strategic Infrastructure Development"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of Project BRAHMANK in the context of national security?",
+          "Describe the role of the Border Roads Organisation in developing strategic infrastructure in the country."
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the BRO's experience in developing infrastructure in border areas?",
+          "How does the development of strategic infrastructure in the region impact national security?"
+        ],
+        "ssbDiscussionTopics": [
+          "Importance of infrastructure development in border areas",
+          "Role of the BRO in national security"
+        ]
       }
     },
     {
@@ -3094,6 +5618,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Australia",
         "explanation": "Australia was the partner country that co-chaired the second India-Australia Defence Ministers' Dialogue held in New Delhi on June 1, 2026."
+      },
+      "upscHighlights": [
+        "India and Australia strengthen defence ties",
+        "Second edition of India-Australia Defence Ministers' Dialogue",
+        "Australia co-chairs dialogue in New Delhi"
+      ],
+      "institutionalContext": "The India-Australia Defence Ministers' Dialogue is a biennial event that aims to enhance defence cooperation and strategic ties between India and Australia.",
+      "strategicImportance": "This event highlights India's efforts to strengthen its defence relationships with key partners in the Indo-Pacific region, which is crucial for its national security and economic interests.",
+      "quickSummary": "The second edition of the India-Australia Defence Ministers' Dialogue was held in New Delhi on June 1, 2026, with Australia as the co-chairing partner. This event reflects India's commitment to strengthening its defence ties with key partners in the region.",
+      "detailedAnalysis": "The India-Australia Defence Ministers' Dialogue is a significant event that demonstrates India's efforts to enhance its defence cooperation with key partners in the Indo-Pacific region. The dialogue provides a platform for India and Australia to discuss key defence issues, share best practices, and explore opportunities for cooperation in areas such as defence technology, cybersecurity, and maritime security.",
+      "backgroundContext": "India and Australia have been strengthening their defence ties in recent years, with a focus on enhancing cooperation in areas such as defence technology, cybersecurity, and maritime security. The first edition of the India-Australia Defence Ministers' Dialogue was held in 2024, and this second edition reflects the growing importance of the relationship between the two countries.",
+      "stakeholders": [
+        "Government of India",
+        "Government of Australia"
+      ],
+      "relatedTopics": [
+        "India-Australia relations",
+        "Indo-Pacific security",
+        "Defence cooperation"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key areas of defence cooperation between India and Australia?",
+          "How does the India-Australia Defence Ministers' Dialogue reflect India's defence priorities?"
+        ],
+        "interviewQuestions": [
+          "What are the strategic implications of India's defence ties with Australia?",
+          "How does the India-Australia Defence Ministers' Dialogue contribute to regional security?"
+        ],
+        "ssbDiscussionTopics": [
+          "Defence cooperation between India and Australia: strengths and weaknesses",
+          "Strategic implications of India's defence ties with Australia"
+        ]
       }
     },
     {
@@ -3120,6 +5682,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Ranchi, Jharkhand",
         "explanation": "A mega surgical eye camp was organised at Military Hospital Namkum in Ranchi, Jharkhand, from June 15 to 19, 2026."
+      },
+      "upscHighlights": [
+        "Indian Army and IAF collaborate for eye care services",
+        "Operation DRISHTI provides advanced eye care to rural areas",
+        "Mega surgical eye camp conducted in Ranchi, Jharkhand"
+      ],
+      "institutionalContext": "The Indian Army and Indian Air Force have a long history of conducting humanitarian missions, including medical camps and disaster relief efforts.",
+      "strategicImportance": "This initiative demonstrates the military's commitment to social responsibility and highlights their capabilities in providing medical aid to remote areas.",
+      "quickSummary": "Operation DRISHTI is a major humanitarian medical initiative undertaken by the Indian Army and Indian Air Force to provide advanced eye care services. A mega surgical eye camp was organised at Military Hospital Namkum in Ranchi, Jharkhand, from June 15 to 19, 2026.",
+      "detailedAnalysis": "The Indian Army and Indian Air Force have been actively involved in conducting humanitarian missions, including medical camps and disaster relief efforts. Operation DRISHTI is a testament to their commitment to social responsibility and highlights their capabilities in providing medical aid to remote areas. The initiative aims to provide advanced eye care services to rural areas, which often lack access to quality medical facilities.",
+      "backgroundContext": "The Indian Army and Indian Air Force have a long history of conducting humanitarian missions, dating back to the 1960s. These missions have included medical camps, disaster relief efforts, and other forms of assistance to affected communities.",
+      "stakeholders": [
+        "Indian Army",
+        "Indian Air Force",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Humanitarian Aid",
+        "Military Operations",
+        "Disaster Relief"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is Operation DRISHTI and its objectives?",
+          "How does Operation DRISHTI demonstrate the military's commitment to social responsibility?"
+        ],
+        "interviewQuestions": [
+          "Can you describe a situation where the military provided humanitarian aid?",
+          "How does the military's involvement in humanitarian missions impact its reputation?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the military in providing humanitarian aid",
+          "The benefits and challenges of military involvement in humanitarian missions"
+        ]
       }
     }
   ],
@@ -3144,6 +5745,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "B",
         "explanation": "Rudram-2 is an indigenous Next-Generation Anti-Radiation Missile developed by the DRDO."
+      },
+      "upscHighlights": [
+        "DRDO successfully tests Rudram-2 missile",
+        "Indigenous NGARM enhances IAF's SEAD capability",
+        "Boost to India's defence technology"
+      ],
+      "institutionalContext": "The Defence Research and Development Organisation (DRDO) is a premier agency responsible for the development of defence technology in India.",
+      "strategicImportance": "This development is crucial for the Indian Air Force's ability to suppress enemy air defences, enhancing national security and defence capabilities.",
+      "quickSummary": "The DRDO has successfully flight-tested the Rudram-2, an indigenous Next-Generation Anti-Radiation Missile (NGARM), from an Su-30MKI fighter jet, marking a significant milestone in India's defence technology.",
+      "detailedAnalysis": "The Rudram-2 is a critical component of India's defence strategy, designed to neutralise enemy air defences and enhance the IAF's Suppression of Enemy Air Defences (SEAD) capability. This indigenous development is a testament to India's growing defence capabilities and its ability to compete with global powers in the field of defence technology.",
+      "backgroundContext": "The development of the Rudram-2 is part of India's efforts to enhance its defence capabilities and reduce dependence on foreign technology. The DRDO has been working on various defence projects, including the development of missiles, aircraft, and other defence systems.",
+      "stakeholders": [
+        "Defence Research and Development Organisation (DRDO)",
+        "Indian Air Force (IAF)"
+      ],
+      "relatedTopics": [
+        "Defence Technology",
+        "Missile Development",
+        "Indian Air Force"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Rudram-2 missile in India's defence strategy?",
+          "How does the development of the Rudram-2 enhance the IAF's SEAD capability?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of indigenous defence technology development in India?",
+          "How does the Rudram-2 missile contribute to India's national security?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of defence technology in enhancing national security",
+          "The importance of indigenous defence development in India"
+        ]
       }
     },
     {
@@ -3166,6 +5805,47 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "C",
         "explanation": "In 2026, India observed the 27th Anniversary of the Kargil Vijay Diwas (1999 - 2026)."
+      },
+      "upscHighlights": [
+        "India celebrates 27th Kargil Vijay Diwas anniversary",
+        "Honoring Indian Armed Forces' bravery and sacrifice",
+        "Commemorating India's victory over Pakistan in 1999"
+      ],
+      "institutionalContext": "The Indian Armed Forces are the military forces of India, responsible for defending the country's sovereignty and territorial integrity.",
+      "strategicImportance": "Understanding the Kargil War and its aftermath is crucial for UPSC/Defence aspirants, as it showcases India's military capabilities and strategic thinking.",
+      "quickSummary": "India celebrated the 27th anniversary of Kargil Vijay Diwas on July 26, 2026, honoring the bravery and sacrifice of the Indian Armed Forces during the 1999 Kargil War. The event commemorates India's victory over Pakistan in the conflict.",
+      "detailedAnalysis": "The Kargil War was a pivotal conflict between India and Pakistan in 1999, fought in the Kargil district of Jammu and Kashmir. The war was sparked by Pakistan's attempt to infiltrate Indian territory, which led to a series of military engagements between the two nations. The Indian Armed Forces ultimately emerged victorious, reclaiming control of the disputed territory. The Kargil War marked a significant turning point in India's military history, showcasing its ability to adapt and respond to emerging threats.",
+      "backgroundContext": "The Kargil War was a culmination of decades-long tensions between India and Pakistan over the disputed region of Jammu and Kashmir. The conflict was sparked by Pakistan's attempt to infiltrate Indian territory, which led to a series of military engagements between the two nations.",
+      "stakeholders": [
+        "Indian Armed Forces",
+        "Government of India",
+        "Pakistan Armed Forces",
+        "Government of Pakistan"
+      ],
+      "relatedTopics": [
+        "Kargil War",
+        "Jammu and Kashmir",
+        "India-Pakistan relations",
+        "Indian Armed Forces"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What was the outcome of the Kargil War?",
+          "Who was the main antagonist in the Kargil War?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the strategic significance of the Kargil War?",
+          "How did the Kargil War impact India's military capabilities?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of leadership in the Kargil War",
+          "The impact of technology on modern warfare"
+        ]
       }
     },
     {
@@ -3188,6 +5868,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "B",
         "explanation": "The new Education Minister's primary focus remains the effective implementation of the National Education Policy (NEP) across all states."
+      },
+      "upscHighlights": [
+        "New Union Minister of Education appointed in July 2026",
+        "National Education Policy (NEP) implementation continues",
+        "Cabinet reshuffle leads to key appointment"
+      ],
+      "institutionalContext": "The Ministry of Education plays a crucial role in shaping India's education system, with the National Education Policy (NEP) aiming to bring about significant reforms.",
+      "strategicImportance": "This appointment matters for UPSC/Defence as it reflects the government's commitment to education and its potential impact on national development, which is a key aspect of the Defence Services' broader strategic interests.",
+      "quickSummary": "Following a cabinet reshuffle in July 2026, the Government of India appointed a new Union Minister of Education to oversee the continued implementation of the National Education Policy (NEP). This appointment is significant as it reflects the government's commitment to education and its potential impact on national development.",
+      "detailedAnalysis": "The appointment of a new Union Minister of Education is a key development in the context of India's education sector. The National Education Policy (NEP) aims to bring about significant reforms in the education system, including the introduction of a more holistic and inclusive approach to education. The new Minister will be responsible for overseeing the implementation of these reforms and ensuring that they are carried out effectively.",
+      "backgroundContext": "The National Education Policy (NEP) was introduced in 2020 with the aim of bringing about significant reforms in India's education system. The policy focuses on providing high-quality education to all citizens, with a particular emphasis on equity and inclusion.",
+      "stakeholders": [
+        "Government of India",
+        "Ministry of Education",
+        "National Education Policy (NEP)"
+      ],
+      "relatedTopics": [
+        "National Education Policy (NEP)",
+        "Education Reforms in India"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key objectives of the National Education Policy (NEP)?",
+          "How does the appointment of a new Union Minister of Education impact the implementation of the NEP?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of the National Education Policy (NEP) in the context of India's education sector?",
+          "How would you assess the impact of the new Union Minister of Education on the implementation of the NEP?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of education in national development",
+          "The challenges and opportunities of implementing the National Education Policy (NEP)"
+        ]
       }
     },
     {
@@ -3210,6 +5928,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "B",
         "explanation": "Project Kusha is India's ambitious indigenous LR-SAM system designed to intercept stealth fighters, drones, and cruise missiles."
+      },
+      "upscHighlights": [
+        "DRDO successfully tests indigenous LR-SAM system.",
+        "India enhances air defence shield with LR-SAM.",
+        "Project Kusha achieves crucial milestone in defence tech."
+      ],
+      "institutionalContext": "The Defence Research and Development Organisation (DRDO) is India's premier agency responsible for the development of defence technology and its applications.",
+      "strategicImportance": "This development is crucial for India's air defence capabilities, enhancing its ability to counter aerial threats and protecting its citizens.",
+      "quickSummary": "The DRDO has successfully conducted a crucial test of Project Kusha, India's indigenous Long-Range Surface-to-Air Missile (LR-SAM) system, marking a significant milestone in the country's defence technology.",
+      "detailedAnalysis": "Project Kusha aims to provide an 'Iron Dome'-like air defence shield for India, capable of detecting and neutralising aerial threats at long ranges. This indigenous system will significantly enhance India's air defence capabilities, reducing its dependence on foreign technology and bolstering its national security.",
+      "backgroundContext": "The development of LR-SAM systems is a critical component of India's defence modernisation efforts, aimed at enhancing its air defence capabilities and protecting its citizens from aerial threats.",
+      "stakeholders": [
+        "Defence Research and Development Organisation (DRDO)",
+        "Indian Armed Forces"
+      ],
+      "relatedTopics": [
+        "Defence Technology",
+        "Indian Armed Forces Modernisation",
+        "National Security"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is Project Kusha and its significance in India's defence technology?",
+          "How does the LR-SAM system enhance India's air defence capabilities?"
+        ],
+        "interviewQuestions": [
+          "Explain the importance of indigenous defence technology development in India.",
+          "Describe the role of the DRDO in India's defence modernisation efforts."
+        ],
+        "ssbDiscussionTopics": [
+          "The significance of air defence capabilities in modern warfare.",
+          "The importance of indigenous technology development in national security."
+        ]
       }
     },
     {
@@ -3232,6 +5988,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "A",
         "explanation": "Kargil Vijay Diwas is celebrated on July 26th every year to commemorate India's victory over Pakistan in the Kargil War."
+      },
+      "upscHighlights": [
+        "India observes 27th Kargil Vijay Diwas anniversary",
+        "Nation pays homage to brave Indian Armed Forces soldiers",
+        "Ceremonies held across India to commemorate Kargil War"
+      ],
+      "institutionalContext": "The Kargil War Memorial in Dras is a significant institution that honors the sacrifices of Indian soldiers during the Kargil War.",
+      "strategicImportance": "This event is crucial for UPSC/Defence aspirants as it highlights the bravery and sacrifices of Indian Armed Forces, showcasing their capabilities and strategic importance.",
+      "quickSummary": "India observed the 27th anniversary of Kargil Vijay Diwas on July 26, 2026, paying tribute to the brave soldiers of the Indian Armed Forces who fought in the Kargil War. Ceremonies were held across the nation, with the main event at the Kargil War Memorial in Dras.",
+      "detailedAnalysis": "The Kargil War was a pivotal event in Indian history, fought between May and July 1999, where Indian Armed Forces successfully recaptured key heights from Pakistani intruders. The war resulted in the loss of over 500 Indian soldiers and showcased the bravery and sacrifice of the Indian Armed Forces. The Kargil War Memorial in Dras is a testament to the sacrifices made by these soldiers and serves as a reminder of the importance of national security.",
+      "backgroundContext": "The Kargil War was a result of Pakistani intruders occupying key heights in the Kargil district of Jammu and Kashmir. The Indian government, led by Prime Minister Atal Bihari Vajpayee, launched a military operation to recapture these heights, resulting in a decisive victory for the Indian Armed Forces.",
+      "stakeholders": [
+        "Indian Armed Forces",
+        "Government of India",
+        "Pakistani intruders"
+      ],
+      "relatedTopics": [
+        "Kargil War",
+        "Indian Armed Forces",
+        "National Security"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What was the significance of the Kargil War?",
+          "How did the Indian Armed Forces respond to the Pakistani intruders?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the bravery and sacrifice of the Indian Armed Forces during the Kargil War?",
+          "How does the Kargil War impact India's national security?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of national security in the context of the Kargil War",
+          "The role of the Indian Armed Forces in maintaining national security"
+        ]
       }
     },
     {
@@ -3254,6 +6049,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "B",
         "explanation": "The Indian Space Research Organisation (ISRO) is responsible for India's lunar missions like Chandrayaan."
+      },
+      "upscHighlights": [
+        "ISRO Conducts Successful Chandrayaan-4 Lander Test",
+        "India Advances Lunar Exploration Capabilities",
+        "Critical Test for Future Lunar Missions"
+      ],
+      "institutionalContext": "The Indian Space Research Organisation (ISRO) is a government agency responsible for the country's space program.",
+      "strategicImportance": "This test demonstrates India's growing capabilities in lunar exploration and its potential to contribute to the global space community.",
+      "quickSummary": "ISRO successfully conducted a full-scale test of the Chandrayaan-4 lunar lander prototype, simulating complex descent and soft-landing maneuvers.",
+      "detailedAnalysis": "The Chandrayaan-4 mission is a significant step in India's lunar exploration program, aiming to send a rover to the Moon's south pole. The successful test of the lander prototype is a crucial milestone, demonstrating ISRO's capabilities in designing and testing complex spacecraft systems.",
+      "backgroundContext": "India's space program has made significant strides in recent years, with notable achievements including the Mars Orbiter Mission and the Chandrayaan-3 mission.",
+      "stakeholders": [
+        "Indian Space Research Organisation (ISRO)",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Space Program",
+        "Lunar Exploration",
+        "ISRO Missions"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Chandrayaan-4 mission?",
+          "How does the successful test of the lander prototype impact India's space program?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the challenges involved in designing and testing a lunar lander?",
+          "How does India's space program contribute to the country's economic and strategic interests?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of space technology in national development",
+          "The challenges and opportunities of lunar exploration"
+        ]
       }
     },
     {
@@ -3276,6 +6109,47 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "B",
         "explanation": "DTTI aims to facilitate co-development and co-production of advanced defence technologies between India and the US."
+      },
+      "upscHighlights": [
+        "India-US strengthen defence tech cooperation",
+        "AI-enabled platforms and drone tech transfer discussed",
+        "Strategic partnership enhanced through DTTI talks"
+      ],
+      "institutionalContext": "The India-US Defence Technology and Trade Initiative (DTTI) is a bilateral forum aimed at promoting defence technology cooperation between India and the US.",
+      "strategicImportance": "This event is crucial for UPSC/Defence as it showcases India's efforts to enhance its defence capabilities through international cooperation, aligning with the government's 'Make in India' initiative.",
+      "quickSummary": "The India-US Defence Technology and Trade Initiative (DTTI) held its annual dialogue in New Delhi, focusing on co-development and co-production of advanced defence systems, including AI-enabled platforms and drone technology transfer.",
+      "detailedAnalysis": "The DTTI dialogue is a significant step in strengthening the strategic partnership between India and the US. The discussions on AI-enabled platforms and drone technology transfer are crucial for enhancing India's defence capabilities. This cooperation will not only promote the 'Make in India' initiative but also contribute to the country's self-reliance in defence production.",
+      "backgroundContext": "The DTTI was established in 2012 as a bilateral forum to promote defence technology cooperation between India and the US. Since its inception, the initiative has led to several joint projects and collaborations in the defence sector.",
+      "stakeholders": [
+        "Government of India",
+        "Government of the United States",
+        "Indian Defence Ministry",
+        "US Defence Department"
+      ],
+      "relatedTopics": [
+        "Defence Technology Cooperation",
+        "Make in India Initiative",
+        "Strategic Partnership",
+        "Artificial Intelligence in Defence"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the India-US Defence Technology and Trade Initiative (DTTI)?",
+          "How does the DTTI contribute to India's defence capabilities?"
+        ],
+        "interviewQuestions": [
+          "Explain the importance of defence technology cooperation between India and the US.",
+          "Discuss the potential benefits of AI-enabled platforms in the defence sector."
+        ],
+        "ssbDiscussionTopics": [
+          "Defence technology cooperation between India and the US: Pros and Cons",
+          "Role of AI in enhancing defence capabilities"
+        ]
       }
     },
     {
@@ -3298,6 +6172,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "C",
         "explanation": "The Monsoon Session of the Indian Parliament usually starts in July and continues till August or September."
+      },
+      "upscHighlights": [
+        "National Water Security Bill 2026 introduced in Parliament",
+        "Integrated water resource management and conservation",
+        "Monsoon Session of Parliament commences on July 15, 2026"
+      ],
+      "institutionalContext": "The Monsoon Session of Parliament is an annual event where key legislations are discussed and passed.",
+      "strategicImportance": "Understanding the National Water Security Bill 2026 is crucial for UPSC/Defence aspirants as it highlights the government's approach to water resource management and conservation, a critical aspect of national security.",
+      "quickSummary": "The Monsoon Session of Parliament began on July 15, 2026, with the introduction of the National Water Security Bill 2026, aimed at integrated water resource management and conservation across states.",
+      "detailedAnalysis": "The National Water Security Bill 2026 is a significant legislation that seeks to address the pressing issue of water scarcity in India. The bill aims to promote integrated water resource management and conservation, ensuring equitable distribution of water resources across states. This legislation is a crucial step towards achieving the government's vision of 'Har Ghar Jal' (water for every household).",
+      "backgroundContext": "India is facing a severe water crisis, with many states struggling to meet their water requirements. The government has been taking steps to address this issue, including the introduction of the National Water Security Bill 2026.",
+      "stakeholders": [
+        "Government of India",
+        "State Governments",
+        "Water Conservation Organizations"
+      ],
+      "relatedTopics": [
+        "Water Conservation",
+        "National Security",
+        "Parliamentary Procedures"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the main objective of the National Water Security Bill 2026?",
+          "How does the bill aim to address the water crisis in India?"
+        ],
+        "interviewQuestions": [
+          "Explain the significance of the National Water Security Bill 2026 in the context of national security.",
+          "How does the government plan to implement the provisions of the bill?"
+        ],
+        "ssbDiscussionTopics": [
+          "Water conservation as a national security issue",
+          "Government initiatives for water resource management"
+        ]
       }
     },
     {
@@ -3320,6 +6233,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "C",
         "explanation": "'Varuna Netra' is a fictional but plausible name for an Indian Navy exercise focusing on maritime surveillance."
+      },
+      "upscHighlights": [
+        "Indian Navy conducts Exercise Varuna Netra 2026 successfully",
+        "Maritime surveillance and anti-submarine warfare capabilities enhanced",
+        "Participation of P-8I Neptune aircraft and submarine assets"
+      ],
+      "institutionalContext": "The Indian Navy is the naval warfare force of the Indian Armed Forces, responsible for the country's maritime security and defense.",
+      "strategicImportance": "This exercise demonstrates India's commitment to enhancing its maritime capabilities and readiness against underwater threats, which is crucial for its national security and defense.",
+      "quickSummary": "The Indian Navy successfully concluded Exercise Varuna Netra 2026, a major maritime surveillance and anti-submarine warfare exercise in the Arabian Sea. The exercise saw the participation of P-8I Neptune aircraft and submarine assets, enhancing operational readiness against underwater threats.",
+      "detailedAnalysis": "Exercise Varuna Netra 2026 is a biennial exercise conducted by the Indian Navy to enhance its maritime surveillance and anti-submarine warfare capabilities. The exercise aims to test the Navy's ability to detect and track underwater threats, as well as its ability to respond to such threats. The participation of P-8I Neptune aircraft and submarine assets is a significant development, as it demonstrates the Navy's commitment to enhancing its capabilities in this area.",
+      "backgroundContext": "The Indian Navy has been conducting Exercise Varuna Netra since 2014, with the aim of enhancing its maritime surveillance and anti-submarine warfare capabilities. The exercise is a key component of the Navy's efforts to strengthen its national security and defense.",
+      "stakeholders": [
+        "Indian Navy",
+        "Indian Government"
+      ],
+      "relatedTopics": [
+        "Indian Navy",
+        "Maritime Security",
+        "Anti-Submarine Warfare"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of Exercise Varuna Netra 2026?",
+          "How does the participation of P-8I Neptune aircraft and submarine assets enhance the Navy's capabilities?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of maritime surveillance and anti-submarine warfare capabilities for the Indian Navy?",
+          "How does the Indian Navy plan to enhance its capabilities in this area?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the Indian Navy in enhancing national security and defense",
+          "The importance of maritime surveillance and anti-submarine warfare capabilities"
+        ]
       }
     },
     {
@@ -3342,6 +6293,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "B",
         "explanation": "The MPC maintained the repo rate at 6.5% as stated in the item description."
+      },
+      "upscHighlights": [
+        "RBI MPC maintains repo rate at 6.5%",
+        "Stable monetary policy stance in July 2026",
+        "Balancing inflation control and economic growth"
+      ],
+      "institutionalContext": "The Reserve Bank of India's Monetary Policy Committee (MPC) is responsible for formulating the country's monetary policy.",
+      "strategicImportance": "This decision is crucial for UPSC/Defence aspirants as it showcases the RBI's stance on inflation control and economic growth, which is a key aspect of the Indian economy.",
+      "quickSummary": "The RBI's MPC maintained the repo rate at 6.5% in its July 2026 review meeting, aiming to balance inflation control with supporting economic growth amidst global uncertainties.",
+      "detailedAnalysis": "The RBI's decision to maintain the repo rate at 6.5% is a significant move, as it signals a stable monetary policy stance. This decision is aimed at controlling inflation while supporting economic growth, which is crucial for the country's development. The RBI's MPC has been closely monitoring the economic situation and has taken this decision to balance the competing demands of inflation control and economic growth.",
+      "backgroundContext": "The RBI has been using monetary policy tools to control inflation and support economic growth since the COVID-19 pandemic. The repo rate has been a key tool in this effort, and the RBI has been gradually increasing it to control inflation.",
+      "stakeholders": [
+        "Reserve Bank of India (RBI)",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Monetary Policy",
+        "Inflation Control",
+        "Economic Growth"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the RBI's decision to maintain the repo rate at 6.5%?",
+          "How does the RBI's monetary policy stance impact the Indian economy?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the RBI's monetary policy framework and its impact on the economy?",
+          "How does the RBI balance inflation control and economic growth in its monetary policy decisions?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of monetary policy in controlling inflation",
+          "The impact of RBI's monetary policy decisions on the Indian economy"
+        ]
       }
     },
     {
@@ -3364,6 +6353,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "B",
         "explanation": "The 'Dhanush Mk-II' is the indigenous artillery gun mentioned as being inducted by the Indian Army."
+      },
+      "upscHighlights": [
+        "India inducts Dhanush Mk-II artillery gun system",
+        "Boost to Indian Army's firepower and self-reliance",
+        "Enhanced range, accuracy, and all-weather capability"
+      ],
+      "institutionalContext": "The Indian Army is the land-based branch and the largest component of the Indian Armed Forces.",
+      "strategicImportance": "This induction is crucial for UPSC/Defence as it showcases India's indigenous capabilities in defence production, enhancing the country's self-reliance and military prowess.",
+      "quickSummary": "The Indian Army has inducted the Dhanush Mk-II, an indigenous 155mm/45 calibre towed artillery gun system, which boasts improved range, accuracy, and all-weather operational capability, significantly boosting the country's firepower.",
+      "detailedAnalysis": "The Dhanush Mk-II is an upgraded version of the Dhanush artillery gun system, which was first inducted in 2018. The new version features improved range, accuracy, and all-weather operational capability, making it a significant addition to the Indian Army's arsenal. This induction is a testament to India's growing capabilities in defence production and its commitment to self-reliance in defence.",
+      "backgroundContext": "The Indian Army has been modernizing its artillery capabilities in recent years, with a focus on indigenous production and development. The Dhanush Mk-II is part of this effort, which aims to enhance the country's military prowess and reduce dependence on foreign imports.",
+      "stakeholders": [
+        "Indian Army",
+        "Indian Defence Ministry"
+      ],
+      "relatedTopics": [
+        "Indian Defence Production",
+        "Artillery Systems",
+        "Self-Reliance in Defence"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key features of the Dhanush Mk-II artillery gun system?",
+          "How does the Dhanush Mk-II enhance the Indian Army's firepower and self-reliance?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of the Dhanush Mk-II induction for the Indian Army?",
+          "How does the Dhanush Mk-II align with India's defence production goals?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of indigenous defence production for national security",
+          "The role of artillery systems in modern warfare"
+        ]
       }
     },
     {
@@ -3386,6 +6413,46 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "B",
         "explanation": "India's trade surplus for Q1 FY27 was reported as $18 billion."
+      },
+      "upscHighlights": [
+        "India achieves significant trade surplus in Q1 FY27",
+        "Robust growth in services exports drives trade surplus",
+        "India's external sector strengthens amidst global shifts"
+      ],
+      "institutionalContext": "The Reserve Bank of India (RBI) and the Ministry of Commerce and Industry are key institutions involved in monitoring and regulating India's trade and economic policies.",
+      "strategicImportance": "This trade surplus indicates India's growing economic influence and competitiveness, which is crucial for the country's defense and strategic interests.",
+      "quickSummary": "India reported a significant trade surplus of $18 billion in the first quarter of FY27, driven by robust growth in services exports and a controlled import bill. This positive trend signals a strengthening of India's external sector amidst global economic shifts.",
+      "detailedAnalysis": "The trade surplus is a result of India's growing services sector, which includes IT, finance, and tourism. The country's focus on export-oriented industries and strategic trade agreements has contributed to this positive trend. Additionally, the government's efforts to control imports and promote domestic manufacturing have also played a role in achieving this trade surplus.",
+      "backgroundContext": "India has been working to improve its trade balance and reduce its dependence on imports. The country has been implementing various policies and initiatives to promote exports and attract foreign investment. The trade surplus in Q1 FY27 is a significant achievement and indicates that these efforts are bearing fruit.",
+      "stakeholders": [
+        "Government of India",
+        "Reserve Bank of India",
+        "Exporters and importers",
+        "Foreign investors"
+      ],
+      "relatedTopics": [
+        "India's economic growth",
+        "Trade policies and agreements",
+        "Services sector development"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key factors contributing to India's trade surplus in Q1 FY27?",
+          "How does India's trade surplus impact the country's economic growth?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of India's trade surplus in the context of global economic shifts?",
+          "How does the government plan to sustain this trade surplus in the long term?"
+        ],
+        "ssbDiscussionTopics": [
+          "India's economic growth and its implications for defense",
+          "The role of trade policies in promoting national interests"
+        ]
       }
     },
     {
@@ -3408,6 +6475,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "C",
         "explanation": "Phase II of the National Green Hydrogen Mission was launched in July 2026."
+      },
+      "upscHighlights": [
+        "India launches Phase II of National Green Hydrogen Mission",
+        "₹25,000 crore allocated for green hydrogen production and export infrastructure",
+        "India aims to become global hub for green hydrogen by 2030"
+      ],
+      "institutionalContext": "The Ministry of New and Renewable Energy is the key institution involved in the National Green Hydrogen Mission.",
+      "strategicImportance": "This initiative is crucial for UPSC/Defence as it showcases India's commitment to renewable energy and its potential to become a global leader in green energy.",
+      "quickSummary": "India has launched Phase II of the National Green Hydrogen Mission, allocating ₹25,000 crore for scaling up green hydrogen production and export infrastructure. The mission aims to make India a global hub for green hydrogen by 2030.",
+      "detailedAnalysis": "The National Green Hydrogen Mission is a significant initiative by the Indian government to promote the use of renewable energy. The mission aims to reduce India's dependence on fossil fuels and promote the use of green hydrogen as a clean energy source. The allocation of ₹25,000 crore for scaling up green hydrogen production and export infrastructure is a significant step towards achieving this goal. The mission also aims to make India a global hub for green hydrogen by 2030, which will not only reduce India's carbon footprint but also create new economic opportunities.",
+      "backgroundContext": "The concept of green hydrogen has been gaining traction globally in recent years, with many countries investing heavily in green hydrogen production and infrastructure. India has been at the forefront of this movement, with the National Green Hydrogen Mission being a key initiative to promote the use of green hydrogen in the country.",
+      "stakeholders": [
+        "Government of India",
+        "Ministry of New and Renewable Energy",
+        "Indian industry and businesses"
+      ],
+      "relatedTopics": [
+        "Renewable energy",
+        "Green energy",
+        "Energy security"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the National Green Hydrogen Mission and its objectives?",
+          "What are the key initiatives taken by the government to promote green hydrogen production and use in India?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of the National Green Hydrogen Mission in the context of India's energy security?",
+          "How does the National Green Hydrogen Mission align with India's commitment to reducing carbon emissions?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of green hydrogen in reducing India's dependence on fossil fuels",
+          "The potential economic benefits of green hydrogen production and export in India"
+        ]
       }
     },
     {
@@ -3430,6 +6536,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "C",
         "explanation": "UPI recorded over 15 billion transactions in July 2026."
+      },
+      "upscHighlights": [
+        "UPI achieves record 15 billion transactions in July 2026",
+        "India leads global fintech landscape with digital payments",
+        "Digital economy milestones underscore India's growth"
+      ],
+      "institutionalContext": "The Unified Payments Interface (UPI) is a digital payment system developed by the National Payments Corporation of India (NPCI), a non-profit organization that operates under the Reserve Bank of India (RBI).",
+      "strategicImportance": "This achievement highlights India's commitment to digital payments and its potential to drive economic growth, making it a crucial topic for UPSC and Defence exams.",
+      "quickSummary": "India's Unified Payments Interface (UPI) has set a new record by processing over 15 billion transactions in a single month, solidifying the country's position as a leader in the global fintech landscape.",
+      "detailedAnalysis": "The surge in UPI transactions underscores the growing adoption of digital payments in India, driven by government initiatives such as the Digital India program and the Jan Dhan Yojana scheme. This trend is expected to continue, with the Reserve Bank of India (RBI) aiming to increase digital transactions to 50% of total transactions by 2025.",
+      "backgroundContext": "The concept of digital payments has been around for decades, but it gained momentum in India with the launch of UPI in 2016. Since then, the system has grown exponentially, with the number of transactions increasing by over 10 times in the past two years.",
+      "stakeholders": [
+        "National Payments Corporation of India (NPCI)",
+        "Reserve Bank of India (RBI)",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Digital India",
+        "Fintech",
+        "Economic growth"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of UPI achieving 15 billion transactions in a single month?",
+          "How does UPI contribute to India's economic growth?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the impact of digital payments on the Indian economy?",
+          "How does the government plan to increase digital transactions in the country?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of digital payments in promoting financial inclusion",
+          "The challenges and opportunities of adopting digital payments in India"
+        ]
       }
     },
     {
@@ -3452,6 +6597,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "C",
         "explanation": "The India-Japan Annual Strategic Dialogue was held in Tokyo."
+      },
+      "upscHighlights": [
+        "India-Japan strengthen Indo-Pacific cooperation",
+        "Annual Strategic Dialogue enhances regional stability",
+        "Critical technologies discussed for mutual benefit"
+      ],
+      "institutionalContext": "The India-Japan Annual Strategic Dialogue is a high-level meeting between the foreign ministers of India and Japan, aimed at strengthening bilateral ties and cooperation in the Indo-Pacific region.",
+      "strategicImportance": "This event is crucial for UPSC/Defence aspirants as it highlights India's growing strategic partnerships in the region, its commitment to a free and open Indo-Pacific, and its efforts to counterbalance China's growing influence.",
+      "quickSummary": "The India-Japan Annual Strategic Dialogue was held in Tokyo in late July 2026, focusing on enhancing cooperation in the Indo-Pacific region and critical technologies. Both nations reaffirmed their commitment to a free and open Indo-Pacific and discussed joint initiatives for regional stability.",
+      "detailedAnalysis": "The India-Japan Annual Strategic Dialogue is a key component of India's Act East Policy, aimed at strengthening economic and strategic ties with Southeast Asia and the Pacific. The dialogue provides a platform for both nations to discuss regional security concerns, including terrorism, piracy, and maritime security. The focus on critical technologies, such as artificial intelligence, cybersecurity, and renewable energy, is also significant, as it reflects India's growing interest in emerging technologies and its desire to collaborate with like-minded nations to address global challenges.",
+      "backgroundContext": "The India-Japan relationship has been growing steadily over the years, with both nations cooperating in areas such as defense, trade, and infrastructure development. The Annual Strategic Dialogue is a key mechanism for strengthening bilateral ties and addressing regional security concerns.",
+      "stakeholders": [
+        "India",
+        "Japan"
+      ],
+      "relatedTopics": [
+        "Indo-Pacific region",
+        "India-Japan relations",
+        "Regional security",
+        "Critical technologies"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key outcomes of the India-Japan Annual Strategic Dialogue?",
+          "How does the dialogue reflect India's Act East Policy?"
+        ],
+        "interviewQuestions": [
+          "What are the implications of the India-Japan Annual Strategic Dialogue for regional security in the Indo-Pacific?",
+          "How does the dialogue reflect India's commitment to a free and open Indo-Pacific?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of strategic partnerships in regional security",
+          "The implications of emerging technologies for national security"
+        ]
       }
     },
     {
@@ -3474,6 +6658,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "B",
         "explanation": "The Agnipath scheme is the recruitment model for Agniveers in the Indian Armed Forces."
+      },
+      "upscHighlights": [
+        "Agnipath scheme modernizes Indian Army",
+        "Third batch of Agniveers commence training",
+        "Younger, tech-savvy fighting force emerges"
+      ],
+      "institutionalContext": "The Indian Army is implementing the Agnipath scheme to recruit and train a younger, more technologically adept fighting force.",
+      "strategicImportance": "This recruitment drive is crucial for the Indian Army's modernization and its ability to counter emerging threats in the region.",
+      "quickSummary": "The third batch of Agniveers under the Agnipath scheme began their training in July 2026, marking a significant step in the Indian Army's efforts to modernize and ensure a younger, more technologically adept fighting force.",
+      "detailedAnalysis": "The Agnipath scheme, launched in 2022, aims to recruit and train a younger, more tech-savvy generation of soldiers. The scheme has been implemented to address the Indian Army's need for a more agile and adaptable force, capable of countering emerging threats in the region. The third batch of Agniveers, who commenced their training in July 2026, will be an integral part of this effort.",
+      "backgroundContext": "The Indian Army has been facing challenges in recruiting and retaining soldiers due to the changing nature of modern warfare. The Agnipath scheme is a response to these challenges, aimed at creating a more youthful and technologically adept force.",
+      "stakeholders": [
+        "Indian Army",
+        "Government of India"
+      ],
+      "relatedTopics": [
+        "Indian Defence Modernization",
+        "Agnipath Scheme",
+        "Indian Army Recruitment"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the Agnipath scheme and its significance for the Indian Army?",
+          "How does the Agnipath scheme address the Indian Army's recruitment challenges?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the key features of the Agnipath scheme?",
+          "How do you think the Agnipath scheme will impact the Indian Army's operational capabilities?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of technology in modern warfare and its implications for the Indian Army",
+          "The importance of youth and agility in a modern military force"
+        ]
       }
     },
     {
@@ -3496,6 +6718,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "C",
         "explanation": "The Environmental Protection (Amendment) Bill 2026 was introduced to strengthen environmental regulations."
+      },
+      "upscHighlights": [
+        "Stricter penalties for environmental violations",
+        "Eco-friendly construction materials in government projects",
+        "Aiming for sustainable development and compliance"
+      ],
+      "institutionalContext": "The Environmental Protection (Amendment) Bill 2026 was introduced in the Lok Sabha, the lower house of the Indian Parliament.",
+      "strategicImportance": "This bill is crucial for UPSC/Defence as it showcases the government's commitment to environmental protection and sustainable development, aligning with the country's vision for a greener future.",
+      "quickSummary": "The Environmental Protection (Amendment) Bill 2026 aims to strengthen environmental compliance by introducing stricter penalties for violations and promoting eco-friendly practices in government projects.",
+      "detailedAnalysis": "The bill is a significant step towards achieving sustainable development and reducing the country's carbon footprint. By mandating the use of eco-friendly construction materials, the government is setting a precedent for environmentally responsible practices in infrastructure development. The introduction of stricter penalties for environmental violations will also serve as a deterrent, encouraging individuals and organizations to adhere to environmental regulations.",
+      "backgroundContext": "The Environmental Protection Act, 1986, is a comprehensive legislation that aims to protect and improve the environment. However, over the years, the Act has faced criticism for its inadequate provisions and lack of effective enforcement. The Environmental Protection (Amendment) Bill 2026 seeks to address these concerns by strengthening the Act and making it more effective in achieving its objectives.",
+      "stakeholders": [
+        "Government of India",
+        "Environmental Protection Agencies",
+        "Construction and Infrastructure Companies"
+      ],
+      "relatedTopics": [
+        "Environmental Protection Act, 1986",
+        "Sustainable Development Goals (SDGs)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key provisions of the Environmental Protection (Amendment) Bill 2026?",
+          "How will the bill impact the construction and infrastructure sectors?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of the Environmental Protection (Amendment) Bill 2026 in the context of sustainable development?",
+          "How will the government ensure effective enforcement of the bill's provisions?"
+        ],
+        "ssbDiscussionTopics": [
+          "Environmental protection and sustainable development: Challenges and opportunities",
+          "Role of government policies in promoting eco-friendly practices"
+        ]
       }
     },
     {
@@ -3518,6 +6778,48 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "B",
         "explanation": "The centre was inaugurated at the Indian Institute of Science (IISc), Bengaluru."
+      },
+      "upscHighlights": [
+        "India inaugurates first operational Quantum Computing Research Centre",
+        "Boost to national capabilities in advanced technology",
+        "Positioning India at forefront of emerging quantum technology"
+      ],
+      "institutionalContext": "The Indian Institute of Science (IISc), Bengaluru, is a public research university and a premier institution for scientific and technological research in India.",
+      "strategicImportance": "This development is crucial for India's defence and strategic interests as quantum computing has the potential to revolutionize various fields, including cryptography, coding, and data analysis.",
+      "quickSummary": "India has inaugurated its first operational Quantum Computing Research Centre at the Indian Institute of Science (IISc), Bengaluru, marking a significant milestone in the country's pursuit of advanced technology.",
+      "detailedAnalysis": "The establishment of this centre is a strategic move by the Indian government to position the country at the forefront of quantum technology, which has far-reaching implications for various sectors, including defence, finance, and cybersecurity. The centre will focus on advanced research in quantum algorithms and secure quantum communication, enabling India to develop cutting-edge capabilities in this emerging field.",
+      "backgroundContext": "Quantum computing has been a rapidly evolving field in recent years, with significant advancements in the development of quantum algorithms, quantum communication, and quantum computing hardware. India has been actively pursuing research and development in this area, with various initiatives and investments aimed at establishing itself as a major player in the global quantum technology landscape.",
+      "stakeholders": [
+        "Indian Institute of Science (IISc)",
+        "Indian government",
+        "Defence Research and Development Organisation (DRDO)",
+        "Indian Space Research Organisation (ISRO)"
+      ],
+      "relatedTopics": [
+        "Quantum algorithms",
+        "Secure quantum communication",
+        "Cryptography",
+        "Coding",
+        "Data analysis"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of India's first operational Quantum Computing Research Centre?",
+          "How will the centre contribute to India's defence and strategic interests?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the potential applications of quantum computing in defence and strategic sectors?",
+          "How does the establishment of this centre align with India's broader research and development priorities?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of quantum computing in enhancing national security",
+          "The implications of quantum technology for India's defence and strategic interests"
+        ]
       }
     },
     {
@@ -3540,6 +6842,45 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "C",
         "explanation": "The Pradhan Mantri Jan Dhan Yojana (PMJDY) is the scheme focused on financial inclusion through bank accounts."
+      },
+      "upscHighlights": [
+        "100 crore beneficiaries under PMJDY achieved by July 2026",
+        "Significant milestone in financial inclusion in India",
+        "Millions brought into formal banking system"
+      ],
+      "institutionalContext": "The Pradhan Mantri Jan Dhan Yojana (PMJDY) is a flagship scheme of the Government of India aimed at achieving universal financial inclusion.",
+      "strategicImportance": "This achievement demonstrates the government's commitment to financial inclusion and its efforts to bring the unbanked population into the formal banking system, which is crucial for economic growth and development.",
+      "quickSummary": "The Pradhan Mantri Jan Dhan Yojana (PMJDY) has achieved a significant milestone by crossing 100 crore beneficiaries with active bank accounts by July 2026, marking a major achievement in financial inclusion in India.",
+      "detailedAnalysis": "The PMJDY scheme was launched in 2014 with the aim of providing every household with a bank account. The scheme has been successful in bringing millions of people into the formal banking system, particularly in rural and underserved areas. The achievement of 100 crore beneficiaries is a testament to the government's efforts to promote financial inclusion and reduce poverty.",
+      "backgroundContext": "The concept of financial inclusion has been a priority for the Indian government for several years. The PMJDY scheme was launched as a part of the government's efforts to achieve this goal. The scheme has been successful in providing access to banking services to the unbanked population, which has helped in promoting financial inclusion and reducing poverty.",
+      "stakeholders": [
+        "Government of India",
+        "Reserve Bank of India",
+        "Commercial Banks"
+      ],
+      "relatedTopics": [
+        "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+        "Financial Inclusion",
+        "Banking Sector in India"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of achieving 100 crore beneficiaries under PMJDY?",
+          "How has PMJDY contributed to financial inclusion in India?"
+        ],
+        "interviewQuestions": [
+          "What are the key features of PMJDY?",
+          "How does PMJDY benefit the unbanked population?"
+        ],
+        "ssbDiscussionTopics": [
+          "Financial inclusion in India: Challenges and Opportunities",
+          "Role of government initiatives in promoting financial inclusion"
+        ]
       }
     },
     {
@@ -3561,6 +6902,44 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Sarnath",
         "explanation": "Sarnath, where Buddha delivered his first sermon, received the UNESCO World Heritage tag in July 2026."
+      },
+      "upscHighlights": [
+        "UNESCO World Heritage Tag for Sarnath",
+        "Historical and Spiritual Significance of Sarnath",
+        "Buddhist Site of Sarnath Recognized Globally"
+      ],
+      "institutionalContext": "The UNESCO World Heritage Committee is responsible for inscribing sites of outstanding universal value on the World Heritage List.",
+      "strategicImportance": "This recognition highlights India's rich cultural heritage and its significance in the Buddhist world, which is crucial for UPSC/Defence exams.",
+      "quickSummary": "The ancient Buddhist site of Sarnath has been officially inscribed on the UNESCO World Heritage List, recognizing its profound historical and spiritual significance.",
+      "detailedAnalysis": "Sarnath, located in Uttar Pradesh, is one of the four major Buddhist pilgrimage sites in India. It is the place where Lord Buddha delivered his first sermon after attaining enlightenment. The site has been an important center of Buddhist learning and culture for centuries. The UNESCO World Heritage recognition is a testament to its global significance and importance.",
+      "backgroundContext": "The UNESCO World Heritage Convention was adopted in 1972 to protect and preserve cultural and natural heritage sites around the world. India has a rich cultural heritage, with numerous sites inscribed on the World Heritage List, including the Taj Mahal, the Red Fort, and the Qutub Minar.",
+      "stakeholders": [
+        "Government of India",
+        "UNESCO World Heritage Committee"
+      ],
+      "relatedTopics": [
+        "Buddhism",
+        "Indian Culture",
+        "UNESCO World Heritage Sites"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of Sarnath in the Buddhist world?",
+          "How does the UNESCO World Heritage recognition impact India's cultural heritage?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of Sarnath in the context of Indian culture?",
+          "How does the UNESCO World Heritage recognition reflect India's rich cultural heritage?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of cultural heritage in nation-building",
+          "The significance of Sarnath in the context of Indian history and culture"
+        ]
       }
     },
     {
@@ -3583,186 +6962,589 @@ window.CURRENT_AFFAIRS_DB = {
         ],
         "answer": "Mirabai Chanu",
         "explanation": "Mirabai Chanu secured a Gold medal in weightlifting in July 2026."
+      },
+      "upscHighlights": [
+        "Mirabai Chanu wins Gold Medal in Weightlifting Championships",
+        "Indian athlete secures top spot in international competition",
+        "Weightlifting champion cements her status as India's greatest athlete"
+      ],
+      "institutionalContext": "The international weightlifting championships are a premier event in the world of weightlifting, attracting top athletes from across the globe. The championships are organized by the International Weightlifting Federation (IWF), which is the governing body for weightlifting worldwide.",
+      "strategicImportance": "This achievement is significant for UPSC/Defence as it highlights India's growing prowess in sports and its ability to produce world-class athletes. It also demonstrates the importance of sports in national development and the need for continued investment in sports infrastructure and training programs.",
+      "quickSummary": "Indian weightlifter Mirabai Chanu has made history by winning the Gold Medal at the international weightlifting championships held in July 2026. This achievement is a testament to her hard work and dedication to her sport, and it further solidifies her status as one of India's greatest athletes.",
+      "detailedAnalysis": "Mirabai Chanu's Gold Medal win is a culmination of years of hard work and training. She has been a dominant force in weightlifting for several years, and her victory in the international championships is a reflection of her skill and determination. Chanu's achievement is also significant because it highlights the growing importance of sports in India's national development agenda. The Indian government has been investing heavily in sports infrastructure and training programs, and achievements like Chanu's demonstrate the effectiveness of these initiatives.",
+      "backgroundContext": "Weightlifting has a long history in India, dating back to the early 20th century. The sport gained popularity in the 1950s and 1960s, with Indian weightlifters competing in international competitions and winning medals. However, it was not until the 1990s that weightlifting began to gain widespread recognition in India, with the sport being included in the country's national sports calendar.",
+      "stakeholders": [
+        "Mirabai Chanu",
+        "Indian Weightlifting Federation",
+        "International Weightlifting Federation (IWF)"
+      ],
+      "relatedTopics": [
+        "Indian Sports",
+        "Weightlifting",
+        "International Competitions"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of Mirabai Chanu's Gold Medal win?",
+          "How has the Indian government supported weightlifting in the country?"
+        ],
+        "interviewQuestions": [
+          "Can you describe the challenges faced by Indian weightlifters in international competitions?",
+          "How does Mirabai Chanu's achievement reflect the growth of sports in India?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of sports in national development",
+          "Challenges faced by Indian athletes in international competitions"
+        ]
       }
     }
   ],
-  "August 2026": ﻿[
-  {
-    "id": "aug-1",
-    "topic": "Sports Awards",
-    "text": "India reached the finals of the **ICC Men's T20 World Cup**, exhibiting outstanding team coordination and performances in the knock-out matches.",
-    "details": {
-      "winner": "ICC Tournament Board",
-      "award": "T20 World Cup Campaign",
-      "nationality": "International",
-      "summary": "Participated in the premier global T20 tournament, demonstrating high-quality batting and tactical bowling lineups."
-    },
-    "mcq": {
-      "question": "Which country won the ICC Men's T20 World Cup in 2024, defeating South Africa in the final?",
-      "options": [
-        "Australia",
-        "India",
-        "England",
-        "Pakistan"
+  "August 2026": [
+    {
+      "id": "aug-1",
+      "topic": "Sports Awards",
+      "text": "India reached the finals of the **ICC Men's T20 World Cup**, exhibiting outstanding team coordination and performances in the knock-out matches.",
+      "details": {
+        "winner": "ICC Tournament Board",
+        "award": "T20 World Cup Campaign",
+        "nationality": "International",
+        "summary": "Participated in the premier global T20 tournament, demonstrating high-quality batting and tactical bowling lineups."
+      },
+      "mcq": {
+        "question": "Which country won the ICC Men's T20 World Cup in 2024, defeating South Africa in the final?",
+        "options": [
+          "Australia",
+          "India",
+          "England",
+          "Pakistan"
+        ],
+        "correct": 1,
+        "explanation": "India won the ICC Men's T20 World Cup in June 2024 under Rohit Sharma's captaincy, defeating South Africa in Barbados."
+      },
+      "upscHighlights": [
+        "India's T20 World Cup campaign showcases team coordination",
+        "Outstanding batting and bowling performances in knock-out matches",
+        "Team's ability to adapt and perform under pressure"
       ],
-      "correct": 1,
-      "explanation": "India won the ICC Men's T20 World Cup in June 2024 under Rohit Sharma's captaincy, defeating South Africa in Barbados."
-    }
-  },
-  {
-    "id": "aug-2",
-    "topic": "Science & Tech",
-    "text": "ISRO and JAXA finalized payload specifications for the **LUPEX (Lunar Polar Exploration)** joint mission, targeting the water-ice deposits on the Moon's south pole.",
-    "details": {
-      "winner": "ISRO & JAXA",
-      "award": "LUPEX Mission Planning",
-      "nationality": "India & Japan Joint Venture",
-      "summary": "A joint robotic lunar lander and rover mission, where JAXA will provide the launch vehicle and rover, and ISRO will provide the lander."
-    },
-    "mcq": {
-      "question": "What is the name of India's planned orbiter mission to Venus, scheduled for late 2020s?",
-      "options": [
-        "Aditya-L2",
-        "Shukrayaan-1",
-        "LUPEX",
-        "Gaganyaan-2"
+      "institutionalContext": "The ICC Men's T20 World Cup is a premier international cricket tournament, showcasing the best teams from around the world.",
+      "strategicImportance": "This event highlights India's cricket team's ability to perform under pressure, which is a crucial aspect of strategic planning and decision-making in the defence sector.",
+      "quickSummary": "India's cricket team has reached the finals of the ICC Men's T20 World Cup, demonstrating outstanding team coordination and performances in the knock-out matches. This achievement showcases the team's ability to adapt and perform under pressure, which is a crucial aspect of strategic planning and decision-making in the defence sector.",
+      "detailedAnalysis": "The ICC Men's T20 World Cup is a premier international cricket tournament that brings together the best teams from around the world. India's participation in the tournament demonstrates the country's commitment to developing its cricket team and showcasing its skills on the international stage. The team's ability to reach the finals is a testament to its hard work and dedication, as well as its ability to adapt and perform under pressure. This is a crucial aspect of strategic planning and decision-making in the defence sector, where teams must be able to think on their feet and make quick decisions in high-pressure situations.",
+      "backgroundContext": "The ICC Men's T20 World Cup has been held annually since 2007, with the tournament featuring the best teams from around the world. India has been a regular participant in the tournament, with its team consistently performing well and reaching the finals on several occasions.",
+      "stakeholders": [
+        "Indian Cricket Team",
+        "BCCI (Board of Control for Cricket in India)",
+        "ICC (International Cricket Council)"
       ],
-      "correct": 1,
-      "explanation": "Shukrayaan-1 is the proposed ISRO mission to study the atmosphere and surface of Venus."
-    }
-  },
-  {
-    "id": "aug-3",
-    "topic": "Defence Technology",
-    "text": "The stealth frigate **INS Mahendragiri**, built under Project 17A, successfully completed sea trials, showcasing indigenously developed stealth designs.",
-    "details": {
-      "winner": "Indian Navy & Mazagon Dock",
-      "award": "INS Mahendragiri Sea Trials",
-      "nationality": "Indian (Project 17A Frigate)",
-      "summary": "The seventh and final stealth frigate of the Nilgiri-class Project 17A, equipped with advanced weapons, sensors, and platform management systems."
-    },
-    "mcq": {
-      "question": "INS Mahendragiri, recently commissioned into the Indian Navy, is a:",
-      "options": [
-        "Aircraft Carrier",
-        "Nuclear Submarine",
-        "Stealth Guided Frigate",
-        "Offshore Patrol Vessel"
+      "relatedTopics": [
+        "Indian Cricket Team",
+        "BCCI (Board of Control for Cricket in India)",
+        "ICC (International Cricket Council)",
+        "Sports in India",
+        "International Cricket"
       ],
-      "correct": 2,
-      "explanation": "INS Mahendragiri is the seventh stealth frigate built under Project 17A."
-    }
-  },
-  {
-    "id": "aug-4",
-    "topic": "Environment",
-    "text": "The Union Ministry designated **Tawa Reservoir in Madhya Pradesh** as a Ramsar site of international importance, highlighting conservation successes.",
-    "details": {
-      "winner": "Madhya Pradesh Forest Dept",
-      "award": "Ramsar Site Designation",
-      "nationality": "Indian (Madhya Pradesh)",
-      "summary": "Tawa Reservoir is an important wetland supporting threatened bird species, migratory waterfowl, and local fisheries."
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of India's T20 World Cup campaign?",
+          "How does India's cricket team's performance in the tournament impact the country's reputation?"
+        ],
+        "interviewQuestions": [
+          "Can you describe India's cricket team's strategy for the T20 World Cup?",
+          "How does India's participation in the tournament contribute to the country's sports development?"
+        ],
+        "ssbDiscussionTopics": [
+          "Team coordination and performance under pressure",
+          "Adaptability and strategic planning in high-pressure situations"
+        ]
+      }
     },
-    "mcq": {
-      "question": "Which of the following reservoirs in Madhya Pradesh was designated as a Ramsar site?",
-      "options": [
-        "Tawa Reservoir",
-        "Indira Sagar",
-        "Gandhi Sagar",
-        "Bargi Dam"
+    {
+      "id": "aug-2",
+      "topic": "Science & Tech",
+      "text": "ISRO and JAXA finalized payload specifications for the **LUPEX (Lunar Polar Exploration)** joint mission, targeting the water-ice deposits on the Moon's south pole.",
+      "details": {
+        "winner": "ISRO & JAXA",
+        "award": "LUPEX Mission Planning",
+        "nationality": "India & Japan Joint Venture",
+        "summary": "A joint robotic lunar lander and rover mission, where JAXA will provide the launch vehicle and rover, and ISRO will provide the lander."
+      },
+      "mcq": {
+        "question": "What is the name of India's planned orbiter mission to Venus, scheduled for late 2020s?",
+        "options": [
+          "Aditya-L2",
+          "Shukrayaan-1",
+          "LUPEX",
+          "Gaganyaan-2"
+        ],
+        "correct": 1,
+        "explanation": "Shukrayaan-1 is the proposed ISRO mission to study the atmosphere and surface of Venus."
+      },
+      "upscHighlights": [
+        "ISRO and JAXA collaborate on LUPEX lunar mission",
+        "Joint mission targets water-ice deposits on Moon's south pole",
+        "India and Japan strengthen space cooperation"
       ],
-      "correct": 0,
-      "explanation": "Tawa Reservoir, located in Narmadapuram district of Madhya Pradesh, along with two sites in Tamil Nadu, was designated as a Ramsar site, taking India's total count to 85."
-    }
-  },
-  {
-    "id": "aug-5",
-    "topic": "Politics & Admin",
-    "text": "Justice Sanjiv Khanna took oath as the new Chief Justice of India (CJI), succeeding the outgoing Chief Justice.",
-    "details": {
-      "winner": "Justice Sanjiv Khanna",
-      "award": "Oath as Chief Justice of India",
-      "nationality": "Indian",
-      "summary": "Appointed as the 51st Chief Justice of India. The oath was administered by President Droupadi Murmu at Rashtrapati Bhavan under Article 124(6) of the Constitution."
+      "institutionalContext": "ISRO (Indian Space Research Organisation) is India's primary space agency, while JAXA (Japan Aerospace Exploration Agency) is Japan's space agency.",
+      "strategicImportance": "This mission showcases India's growing capabilities in space exploration and its strategic partnership with Japan, highlighting the country's commitment to space-based research and development.",
+      "quickSummary": "ISRO and JAXA have finalized the payload specifications for the LUPEX mission, a joint robotic lunar lander and rover mission targeting water-ice deposits on the Moon's south pole. This mission demonstrates the growing cooperation between India and Japan in space exploration.",
+      "detailedAnalysis": "The LUPEX mission is a significant step in India's lunar exploration program, which aims to understand the Moon's geology and search for resources. The mission's focus on water-ice deposits is crucial for future human settlements on the Moon. ISRO's expertise in lander technology and JAXA's experience in rover design make this collaboration a strong partnership.",
+      "backgroundContext": "India's lunar exploration program began with the Chandrayaan-1 mission in 2008, which discovered water on the Moon's surface. Since then, India has sent several missions to the Moon, including the Chandrayaan-2 mission in 2019. Japan has also been actively involved in lunar exploration, with its Selene mission in 2007.",
+      "stakeholders": [
+        "ISRO (Indian Space Research Organisation)",
+        "JAXA (Japan Aerospace Exploration Agency)"
+      ],
+      "relatedTopics": [
+        "Lunar Exploration",
+        "Space Cooperation",
+        "ISRO",
+        "JAXA"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the LUPEX mission and its objectives?",
+          "What are the key technologies involved in the LUPEX mission?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of the LUPEX mission in India's lunar exploration program?",
+          "How does the LUPEX mission demonstrate India's space cooperation with Japan?"
+        ],
+        "ssbDiscussionTopics": [
+          "Space exploration and its relevance to national security",
+          "International cooperation in space research and development"
+        ]
+      }
     },
-    "mcq": {
-      "question": "Under which Article of the Indian Constitution does the President administer the oath of office to the Chief Justice of India?",
-      "options": [
-        "Article 124(6)",
-        "Article 60",
-        "Article 125",
-        "Article 219"
+    {
+      "id": "aug-3",
+      "topic": "Defence Technology",
+      "text": "The stealth frigate **INS Mahendragiri**, built under Project 17A, successfully completed sea trials, showcasing indigenously developed stealth designs.",
+      "details": {
+        "winner": "Indian Navy & Mazagon Dock",
+        "award": "INS Mahendragiri Sea Trials",
+        "nationality": "Indian (Project 17A Frigate)",
+        "summary": "The seventh and final stealth frigate of the Nilgiri-class Project 17A, equipped with advanced weapons, sensors, and platform management systems."
+      },
+      "mcq": {
+        "question": "INS Mahendragiri, recently commissioned into the Indian Navy, is a:",
+        "options": [
+          "Aircraft Carrier",
+          "Nuclear Submarine",
+          "Stealth Guided Frigate",
+          "Offshore Patrol Vessel"
+        ],
+        "correct": 2,
+        "explanation": "INS Mahendragiri is the seventh stealth frigate built under Project 17A."
+      },
+      "upscHighlights": [
+        "INS Mahendragiri completes sea trials successfully",
+        "Indigenously developed stealth designs showcased",
+        "Indian Navy's Project 17A achieves milestone"
       ],
-      "correct": 0,
-      "explanation": "Article 124(6) of the Constitution of India provides that every person appointed to be a Judge of the Supreme Court shall make and subscribe an oath or affirmation before the President."
-    }
-  },
-  {
-    "id": "aug-6",
-    "topic": "National Security",
-    "text": "The Ministry of Development of Northeastern Region (DoNER) reviewed infrastructure projects under the **Vibrant Villages Programme (VVP)** along the LAC.",
-    "details": {
-      "winner": "Border Villages in Himachal, Uttarakhand, Sikkim, Arunachal",
-      "award": "VVP Infrastructure Funding",
-      "nationality": "Indian (Northern Borders)",
-      "summary": "A Centrally Sponsored Scheme to develop infrastructure, generate livelihoods, and improve connectivity in border villages to arrest migration."
+      "institutionalContext": "The Indian Navy's Project 17A is a significant initiative aimed at enhancing the country's naval capabilities through the development of advanced stealth frigates.",
+      "strategicImportance": "The successful completion of INS Mahendragiri's sea trials highlights India's growing capabilities in defence technology and its ability to design and build advanced warships indigenously.",
+      "quickSummary": "The Indian Navy's stealth frigate, INS Mahendragiri, has successfully completed its sea trials, marking a significant milestone in the country's defence technology development. Built under Project 17A, the frigate features indigenously developed stealth designs and advanced weapons, sensors, and platform management systems.",
+      "detailedAnalysis": "The INS Mahendragiri is the seventh and final stealth frigate of the Nilgiri-class Project 17A, which aims to enhance the Indian Navy's capabilities in the Indian Ocean Region. The project has been a collaborative effort between the Indian Navy and Mazagon Dock, with the latter being the primary contractor responsible for the design and construction of the frigate. The successful completion of the sea trials is a testament to India's growing capabilities in defence technology and its ability to design and build advanced warships indigenously.",
+      "backgroundContext": "The Indian Navy has been actively pursuing the development of advanced stealth frigates as part of its efforts to enhance its capabilities in the Indian Ocean Region. The Project 17A is a significant initiative aimed at achieving this goal, with the Indian Navy and Mazagon Dock working closely together to design and build the frigates.",
+      "stakeholders": [
+        "Indian Navy",
+        "Mazagon Dock"
+      ],
+      "relatedTopics": [
+        "Defence Technology",
+        "Indian Navy",
+        "Project 17A"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of INS Mahendragiri's successful sea trials?",
+          "What are the key features of the INS Mahendragiri?"
+        ],
+        "interviewQuestions": [
+          "Can you elaborate on the importance of Project 17A for the Indian Navy?",
+          "How does the INS Mahendragiri's stealth design contribute to its operational capabilities?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of defence technology in enhancing naval capabilities",
+          "The importance of indigenously developed defence systems"
+        ]
+      }
     },
-    "mcq": {
-      "question": "The Vibrant Villages Programme covers border villages along India's border with which country?",
-      "options": [
-        "Pakistan",
-        "China",
-        "Bangladesh",
-        "Myanmar"
+    {
+      "id": "aug-4",
+      "topic": "Environment",
+      "text": "The Union Ministry designated **Tawa Reservoir in Madhya Pradesh** as a Ramsar site of international importance, highlighting conservation successes.",
+      "details": {
+        "winner": "Madhya Pradesh Forest Dept",
+        "award": "Ramsar Site Designation",
+        "nationality": "Indian (Madhya Pradesh)",
+        "summary": "Tawa Reservoir is an important wetland supporting threatened bird species, migratory waterfowl, and local fisheries."
+      },
+      "mcq": {
+        "question": "Which of the following reservoirs in Madhya Pradesh was designated as a Ramsar site?",
+        "options": [
+          "Tawa Reservoir",
+          "Indira Sagar",
+          "Gandhi Sagar",
+          "Bargi Dam"
+        ],
+        "correct": 0,
+        "explanation": "Tawa Reservoir, located in Narmadapuram district of Madhya Pradesh, along with two sites in Tamil Nadu, was designated as a Ramsar site, taking India's total count to 85."
+      },
+      "upscHighlights": [
+        "Madhya Pradesh designated as Ramsar site of international importance",
+        "Tawa Reservoir conservation successes highlighted",
+        "Important wetland supports threatened bird species and migratory waterfowl"
       ],
-      "correct": 1,
-      "explanation": "The VVP targets the development of border villages along the northern border (primarily the Line of Actual Control with China)."
-    }
-  },
-  {
-    "id": "aug-7",
-    "topic": "Environment",
-    "text": "The Ministry of Environment, Forest and Climate Change consolidated the administration of **Project Tiger** and **Project Elephant** under a single division.",
-    "details": {
-      "winner": "Project Tiger & Elephant Division",
-      "award": "Administrative Merger",
-      "nationality": "Indian",
-      "summary": "A structural reform aimed at optimizing resources, integrating conservation fields, and streamline funding for overlapping tiger/elephant habitats."
+      "institutionalContext": "The Union Ministry of Environment, Forest and Climate Change is responsible for designating Ramsar sites in India.",
+      "strategicImportance": "This designation highlights India's commitment to conservation and environmental protection, which is crucial for UPSC/Defence exams.",
+      "quickSummary": "The Union Ministry has designated Tawa Reservoir in Madhya Pradesh as a Ramsar site of international importance, recognizing its conservation successes and importance as an important wetland.",
+      "detailedAnalysis": "The Ramsar Convention is an international treaty that aims to conserve and manage wetlands of international importance. The designation of Tawa Reservoir as a Ramsar site is a significant achievement for Madhya Pradesh and highlights the state's efforts in conservation and environmental protection. This move is also a testament to the Union Ministry's commitment to protecting India's natural heritage.",
+      "backgroundContext": "The Ramsar Convention was signed in 1971 and India became a signatory in 1982. Since then, India has designated several wetlands as Ramsar sites, including the Sundarbans, the Coromandel Coast, and the Wular Lake.",
+      "stakeholders": [
+        "Madhya Pradesh Forest Department",
+        "Union Ministry of Environment, Forest and Climate Change"
+      ],
+      "relatedTopics": [
+        "Conservation and Environmental Protection",
+        "Wetlands and Ramsar Sites"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the significance of the Ramsar Convention?",
+          "What are the key features of a Ramsar site?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the importance of conservation and environmental protection in India?",
+          "How does the designation of a Ramsar site impact local communities?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of government in conservation and environmental protection",
+          "The impact of human activities on wetlands and ecosystems"
+        ]
+      }
     },
-    "mcq": {
-      "question": "Which of the following years marks the launch of Project Tiger in India?",
-      "options": [
-        "1972",
-        "1973",
-        "1980",
-        "1992"
+    {
+      "id": "aug-5",
+      "topic": "Politics & Admin",
+      "text": "Justice Sanjiv Khanna took oath as the new Chief Justice of India (CJI), succeeding the outgoing Chief Justice.",
+      "details": {
+        "winner": "Justice Sanjiv Khanna",
+        "award": "Oath as Chief Justice of India",
+        "nationality": "Indian",
+        "summary": "Appointed as the 51st Chief Justice of India. The oath was administered by President Droupadi Murmu at Rashtrapati Bhavan under Article 124(6) of the Constitution."
+      },
+      "mcq": {
+        "question": "Under which Article of the Indian Constitution does the President administer the oath of office to the Chief Justice of India?",
+        "options": [
+          "Article 124(6)",
+          "Article 60",
+          "Article 125",
+          "Article 219"
+        ],
+        "correct": 0,
+        "explanation": "Article 124(6) of the Constitution of India provides that every person appointed to be a Judge of the Supreme Court shall make and subscribe an oath or affirmation before the President."
+      },
+      "upscHighlights": [
+        "Justice Sanjiv Khanna becomes 51st CJI of India",
+        "President Droupadi Murmu administers oath to CJI",
+        "Article 124(6) of Constitution invoked for oath"
       ],
-      "correct": 1,
-      "explanation": "Project Tiger was launched on April 1, 1973, from Jim Corbett National Park, while Project Elephant was launched in 1992."
-    }
-  },
-  {
-    "id": "aug-8",
-    "topic": "International GK",
-    "text": "The **Henley Passport Index 2026** released its mid-year rankings, listing Singapore's passport as the most powerful in the world.",
-    "details": {
-      "winner": "Singapore Passport",
-      "award": "Henley Passport Index",
-      "nationality": "International",
-      "summary": "An authoritative index ranking global passports according to the number of destinations their holders can access without a prior visa."
+      "institutionalContext": "The oath-taking ceremony is a constitutional requirement for the Chief Justice of India, marking the beginning of a new tenure.",
+      "strategicImportance": "This event is crucial for UPSC/Defence aspirants as it highlights the importance of the judiciary in the Indian system of governance and the role of the President in the appointment process.",
+      "quickSummary": "Justice Sanjiv Khanna has been appointed as the 51st Chief Justice of India, succeeding the outgoing CJI. The oath was administered by President Droupadi Murmu at Rashtrapati Bhavan, marking the beginning of his new tenure.",
+      "detailedAnalysis": "The appointment of Justice Sanjiv Khanna as the Chief Justice of India is a significant development in the Indian judiciary. As the 51st CJI, he will play a crucial role in shaping the country's legal framework and ensuring the independence of the judiciary. The oath-taking ceremony, administered by President Droupadi Murmu, is a constitutional requirement that underscores the importance of the judiciary in the Indian system of governance.",
+      "backgroundContext": "The Chief Justice of India is appointed under Article 124(2) of the Constitution, which states that the President shall appoint the Chief Justice of India, and other judges of the Supreme Court, in consultation with the Chief Justice of India. The appointment process is designed to ensure the independence of the judiciary and the rule of law in the country.",
+      "stakeholders": [
+        "Justice Sanjiv Khanna",
+        "President Droupadi Murmu",
+        "Indian Judiciary"
+      ],
+      "relatedTopics": [
+        "Indian Judiciary",
+        "Constitution of India",
+        "Judicial Appointments"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Who has been appointed as the 51st Chief Justice of India?",
+          "What is the significance of the oath-taking ceremony for the Chief Justice of India?"
+        ],
+        "interviewQuestions": [
+          "What are the key responsibilities of the Chief Justice of India?",
+          "How does the appointment process for the Chief Justice of India ensure the independence of the judiciary?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of the judiciary in the Indian system of governance",
+          "The importance of the Chief Justice of India in shaping the country's legal framework"
+        ]
+      }
     },
-    "mcq": {
-      "question": "In the Henley Passport Index 2025/2026, which country consistently ranks as having the most powerful passport?",
-      "options": [
-        "Japan",
-        "Singapore",
-        "Germany",
-        "France"
+    {
+      "id": "aug-6",
+      "topic": "National Security",
+      "text": "The Ministry of Development of Northeastern Region (DoNER) reviewed infrastructure projects under the **Vibrant Villages Programme (VVP)** along the LAC.",
+      "details": {
+        "winner": "Border Villages in Himachal, Uttarakhand, Sikkim, Arunachal",
+        "award": "VVP Infrastructure Funding",
+        "nationality": "Indian (Northern Borders)",
+        "summary": "A Centrally Sponsored Scheme to develop infrastructure, generate livelihoods, and improve connectivity in border villages to arrest migration."
+      },
+      "mcq": {
+        "question": "The Vibrant Villages Programme covers border villages along India's border with which country?",
+        "options": [
+          "Pakistan",
+          "China",
+          "Bangladesh",
+          "Myanmar"
+        ],
+        "correct": 1,
+        "explanation": "The VVP targets the development of border villages along the northern border (primarily the Line of Actual Control with China)."
+      },
+      "upscHighlights": [
+        "Vibrant Villages Programme reviewed for LAC infrastructure",
+        "Border villages in Himachal, Uttarakhand, Sikkim, Arunachal to benefit",
+        "Centrally Sponsored Scheme to improve connectivity and livelihoods"
       ],
-      "correct": 1,
-      "explanation": "Singapore's passport ranks first, allowing its citizens visa-free access to 195 destinations."
+      "institutionalContext": "The Ministry of Development of Northeastern Region (DoNER) is a ministry of the Government of India responsible for the development of the Northeastern Region.",
+      "strategicImportance": "This matters for UPSC/Defence as it highlights the government's efforts to develop infrastructure and improve connectivity in border villages, which is crucial for national security.",
+      "quickSummary": "The Ministry of Development of Northeastern Region (DoNER) reviewed infrastructure projects under the Vibrant Villages Programme (VVP) along the Line of Actual Control (LAC). The programme aims to develop infrastructure, generate livelihoods, and improve connectivity in border villages to arrest migration.",
+      "detailedAnalysis": "The Vibrant Villages Programme (VVP) is a Centrally Sponsored Scheme that aims to develop infrastructure, generate livelihoods, and improve connectivity in border villages. The programme is crucial for national security as it helps to arrest migration and improve the quality of life of people living in border areas. The review of infrastructure projects under VVP along the LAC is a significant step towards strengthening national security.",
+      "backgroundContext": "The Northeastern Region of India has been a sensitive area due to its geographical location and proximity to international borders. The region has faced several challenges, including migration, insurgency, and economic backwardness. The government has launched several initiatives to develop the region and improve the quality of life of its people.",
+      "stakeholders": [
+        "Government of India",
+        "Ministry of Development of Northeastern Region (DoNER)",
+        "Border villages in Himachal, Uttarakhand, Sikkim, Arunachal"
+      ],
+      "relatedTopics": [
+        "National Security",
+        "Infrastructure Development",
+        "Northeastern Region"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the Vibrant Villages Programme (VVP)?",
+          "How does the VVP contribute to national security?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of the Vibrant Villages Programme (VVP) in the context of national security?",
+          "How does the government plan to implement the VVP in border villages?"
+        ],
+        "ssbDiscussionTopics": [
+          "Importance of infrastructure development in border areas",
+          "Role of the government in improving the quality of life of people living in border areas"
+        ]
+      }
+    },
+    {
+      "id": "aug-7",
+      "topic": "Environment",
+      "text": "The Ministry of Environment, Forest and Climate Change consolidated the administration of **Project Tiger** and **Project Elephant** under a single division.",
+      "details": {
+        "winner": "Project Tiger & Elephant Division",
+        "award": "Administrative Merger",
+        "nationality": "Indian",
+        "summary": "A structural reform aimed at optimizing resources, integrating conservation fields, and streamline funding for overlapping tiger/elephant habitats."
+      },
+      "mcq": {
+        "question": "Which of the following years marks the launch of Project Tiger in India?",
+        "options": [
+          "1972",
+          "1973",
+          "1980",
+          "1992"
+        ],
+        "correct": 1,
+        "explanation": "Project Tiger was launched on April 1, 1973, from Jim Corbett National Park, while Project Elephant was launched in 1992."
+      },
+      "upscHighlights": [
+        "Ministry consolidates Project Tiger and Elephant under one division",
+        "Administrative merger to optimize resources and streamline funding",
+        "Integration of conservation fields for tiger and elephant habitats"
+      ],
+      "institutionalContext": "The Ministry of Environment, Forest and Climate Change is the central government ministry in charge of overseeing environmental and forest conservation efforts in India.",
+      "strategicImportance": "This administrative merger is crucial for UPSC/Defence exams as it showcases the government's efforts to optimize resources and streamline funding for conservation efforts, which is a key aspect of environmental management and a critical component of national security.",
+      "quickSummary": "The Ministry of Environment, Forest and Climate Change has consolidated the administration of Project Tiger and Project Elephant under a single division, known as the Project Tiger & Elephant Division. This structural reform aims to optimize resources, integrate conservation fields, and streamline funding for overlapping tiger and elephant habitats.",
+      "detailedAnalysis": "The consolidation of Project Tiger and Project Elephant under a single division is a significant step towards optimizing resources and streamlining funding for conservation efforts. By integrating the administration of these two projects, the government aims to reduce duplication of efforts, improve coordination, and enhance the effectiveness of conservation programs. This move is also expected to improve the overall management of tiger and elephant habitats, which is critical for maintaining biodiversity and ecosystem health.",
+      "backgroundContext": "Project Tiger was launched in 1973 as a conservation effort to protect the Bengal tiger, while Project Elephant was launched in 1992 to conserve the Asian elephant. Both projects have been successful in their respective goals, but their administration has been fragmented, leading to inefficiencies and duplication of efforts.",
+      "stakeholders": [
+        "Ministry of Environment, Forest and Climate Change",
+        "Project Tiger & Elephant Division"
+      ],
+      "relatedTopics": [
+        "Environmental Conservation",
+        "Wildlife Management",
+        "Biodiversity Conservation"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "Medium",
+        "AFCAT": "Low"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key objectives of Project Tiger and Project Elephant?",
+          "How does the consolidation of these projects benefit conservation efforts?"
+        ],
+        "interviewQuestions": [
+          "Can you explain the significance of consolidating Project Tiger and Project Elephant under a single division?",
+          "How do you think this move will impact the effectiveness of conservation programs?"
+        ],
+        "ssbDiscussionTopics": [
+          "The importance of environmental conservation in national security",
+          "The role of government initiatives in protecting biodiversity"
+        ]
+      }
+    },
+    {
+      "id": "aug-8",
+      "topic": "International GK",
+      "text": "The **Henley Passport Index 2026** released its mid-year rankings, listing Singapore's passport as the most powerful in the world.",
+      "details": {
+        "winner": "Singapore Passport",
+        "award": "Henley Passport Index",
+        "nationality": "International",
+        "summary": "An authoritative index ranking global passports according to the number of destinations their holders can access without a prior visa."
+      },
+      "mcq": {
+        "question": "In the Henley Passport Index 2025/2026, which country consistently ranks as having the most powerful passport?",
+        "options": [
+          "Japan",
+          "Singapore",
+          "Germany",
+          "France"
+        ],
+        "correct": 1,
+        "explanation": "Singapore's passport ranks first, allowing its citizens visa-free access to 195 destinations."
+      },
+      "upscHighlights": [
+        "Singapore's passport ranked most powerful globally.",
+        "Henley Passport Index releases mid-year rankings.",
+        "Singapore's passport offers visa-free travel to most destinations."
+      ],
+      "institutionalContext": "The Henley Passport Index is an authoritative ranking of global passports based on visa-free travel access.",
+      "strategicImportance": "Understanding the Henley Passport Index rankings is crucial for UPSC/Defence aspirants as it reflects a country's diplomatic and economic influence.",
+      "quickSummary": "The Henley Passport Index 2026 has released its mid-year rankings, with Singapore's passport emerging as the most powerful in the world, offering visa-free travel to the most destinations.",
+      "detailedAnalysis": "The Henley Passport Index is a widely recognized benchmark for passport power, considering factors like visa-free travel access, diplomatic relations, and economic influence. Singapore's top ranking reflects its strong diplomatic and economic ties with other countries, making its passport highly sought after.",
+      "backgroundContext": "The Henley Passport Index has been releasing annual rankings since 2006, providing valuable insights into the global passport landscape. The index is widely used by governments, diplomats, and international organizations to assess a country's diplomatic and economic influence.",
+      "stakeholders": [
+        "Singapore Government",
+        "Henley & Partners"
+      ],
+      "relatedTopics": [
+        "International Relations",
+        "Diplomacy",
+        "Global Governance"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the Henley Passport Index?",
+          "Which country has the most powerful passport in 2026?"
+        ],
+        "interviewQuestions": [
+          "How does the Henley Passport Index reflect a country's diplomatic influence?",
+          "What are the key factors considered in the Henley Passport Index rankings?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of diplomatic relations in passport power",
+          "The impact of economic influence on passport rankings"
+        ]
+      }
+    },
+    {
+      "id": "agni-4-test-fire-2026",
+      "topic": "Defence",
+      "text": "India successfully test-fired the **Agni-4 Intermediate-Range Ballistic Missile (IRBM)** from APJ Abdul Kalam Island, Odisha in September 2026.",
+      "details": {
+        "missile_name": "Agni-4",
+        "type": "Intermediate-Range Ballistic Missile (IRBM)",
+        "range": "4,000 km",
+        "location": "APJ Abdul Kalam Island, Odisha"
+      },
+      "mcq": {
+        "question": "What is the approximate range of the Agni-4 Intermediate-Range Ballistic Missile (IRBM) that was successfully test-fired in September 2026?",
+        "options": [
+          "2,000 km",
+          "3,000 km",
+          "4,000 km",
+          "5,000 km"
+        ],
+        "correct": 2,
+        "explanation": "Agni-4 is a nuclear-capable Intermediate-Range Ballistic Missile (IRBM) with a strike range of around 4,000 km."
+      },
+      "upscHighlights": [
+        "Nuclear-capable missile with a range of around 4,000 km.",
+        "Strengthens India's credible minimum deterrence capability.",
+        "Reinforces national defence and strategic strike capabilities."
+      ],
+      "strategicImportance": "The successful test of the Agni-4 missile reaffirms India's credible minimum deterrence capability, strengthening its strategic strike capabilities and reinforcing national defence.",
+      "quickSummary": "India successfully test-fired the nuclear-capable Agni-4 Intermediate-Range Ballistic Missile (IRBM) with a range of around 4,000 km from APJ Abdul Kalam Island, Odisha.",
+      "detailedAnalysis": "The Agni-4 is a critical component of India's nuclear deterrence posture. With a range of approximately 4,000 km, it is classified as an Intermediate-Range Ballistic Missile (IRBM). The successful test-firing from APJ Abdul Kalam Island validates its operational readiness and technical parameters, significantly boosting India's strategic strike capabilities.",
+      "backgroundContext": "India's Agni series of missiles form the backbone of its land-based nuclear deterrence. Agni-4 bridges the gap between the medium-range Agni-3 and the intercontinental Agni-5, providing flexible deterrence options.",
+      "stakeholders": [
+        "Defence Research and Development Organisation (DRDO)",
+        "Strategic Forces Command (SFC)"
+      ],
+      "relatedTopics": [
+        "Missile Technology",
+        "Nuclear Deterrence",
+        "Defence Capabilities"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the range and classification of the Agni-4 missile?"
+        ],
+        "interviewQuestions": [
+          "How does the Agni-4 missile enhance India's strategic deterrence capabilities?"
+        ],
+        "ssbDiscussionTopics": [
+          "India's evolving missile technology and its impact on regional security."
+        ]
+      }
     }
-  }
-]
-
+  ]
 };

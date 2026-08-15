@@ -2573,8 +2573,249 @@ h2 {
   gap: 14px;
 }
 
-.lm-bullet {
-  /* opacity starts at 0, set by JS */
+.lm-bullet .history-term { border-bottom: 1px dashed var(--accent); color: var(--accent); cursor: help; position: relative; } 
+.history-term:hover::after { content: attr(data-definition); position: absolute; bottom: 120%; left: 50%; transform: translateX(-50%); width: max-content; max-width: 250px; background: #1e293b; color: #f8fafc; padding: 8px 12px; border-radius: 6px; font-size: 0.8rem; z-index: 1000; box-shadow: 0 4px 6px rgba(0,0,0,0.3); border: 1px solid var(--border); text-align: center; white-space: normal; pointer-events: none; } 
+.history-term:hover::before { content: ''; position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); border-width: 6px; border-style: solid; border-color: var(--border) transparent transparent transparent; pointer-events: none; }
+
+.geo-tag { border-bottom: 1px dashed var(--accent); color: var(--accent); cursor: pointer; position: relative; } 
+.geo-tag:hover { background-color: rgba(168, 85, 247, 0.1); }
+
+/* Multi-Statement Checkpoint UI */ 
+.msc-checkpoint { background: var(--bg-secondary); border-left: 4px solid var(--accent); border-radius: 6px; padding: 20px; margin: 24px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.2); } 
+.msc-title { font-family: var(--font-logo); color: var(--accent); font-size: 1.1rem; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; display: flex; align-items: center; gap: 8px; } 
+.msc-statements { margin-bottom: 16px; padding-left: 12px; border-left: 2px solid rgba(255,255,255,0.1); } 
+.msc-statements p { margin-bottom: 8px; font-size: 0.95rem; } 
+.msc-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 16px; } 
+.msc-option { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; padding: 12px; cursor: pointer; transition: all 0.2s ease; text-align: center; font-weight: 600; } 
+.msc-option:hover { background: rgba(168, 85, 247, 0.15); border-color: var(--accent); } 
+.msc-option.selected-correct { background: rgba(34, 197, 94, 0.2); border-color: #22c55e; color: #22c55e; } 
+.msc-option.selected-wrong { background: rgba(239, 68, 68, 0.2); border-color: #ef4444; color: #ef4444; } 
+.msc-explanation { display: none; background: rgba(255,255,255,0.02); padding: 16px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.9rem; color: var(--text-secondary); }
+
+/* Memory Hack Box UI */
+.memory-hack-box {
+  background-color: rgba(168, 85, 247, 0.1);
+  border-left: 4px solid #a855f7;
+  padding: 12px;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.memory-hack-box strong {
+  color: #c084fc;
+  font-weight: bold;
+}
+
+/* Dronacharya AI Tutor UI */
+#dronacharya-fab {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #a855f7, #6366f1);
+  box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 9999;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s;
+}
+#dronacharya-fab:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(168, 85, 247, 0.6);
+}
+#dronacharya-fab svg {
+  width: 32px;
+  height: 32px;
+  fill: white;
+}
+#dronacharya-panel {
+  position: fixed;
+  bottom: 100px;
+  right: 24px;
+  width: 380px;
+  height: 500px;
+  max-height: 80vh;
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  z-index: 9998;
+  transform: translateY(20px);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden;
+}
+#dronacharya-panel.active {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: all;
+}
+.drona-header {
+  background: linear-gradient(135deg, #a855f7, #6366f1);
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.drona-header-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.drona-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.drona-title {
+  font-family: var(--font-logo);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.drona-subtitle {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+.drona-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.drona-close:hover {
+  opacity: 1;
+}
+.drona-chat-area {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: rgba(15, 23, 42, 0.95);
+}
+.drona-message {
+  max-width: 85%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+.drona-message.user {
+  align-self: flex-end;
+  background: var(--accent);
+  color: white;
+  border-bottom-right-radius: 2px;
+}
+.drona-message.ai {
+  align-self: flex-start;
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  border-bottom-left-radius: 2px;
+  border: 1px solid var(--border);
+}
+.drona-message.ai strong {
+  color: #c084fc;
+}
+.drona-message.system {
+  align-self: center;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-style: italic;
+  max-width: 100%;
+  text-align: center;
+}
+.drona-input-area {
+  padding: 12px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-secondary);
+  display: flex;
+  gap: 8px;
+}
+.drona-input-area input {
+  flex: 1;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  border-radius: 20px;
+  padding: 10px 16px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.drona-input-area input:focus {
+  border-color: #a855f7;
+}
+.drona-send {
+  background: #a855f7;
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.drona-send:hover {
+  background: #9333ea;
+}
+.drona-typing {
+  display: none;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 16px;
+  background: var(--bg-tertiary);
+  border-radius: 12px;
+  align-self: flex-start;
+  border-bottom-left-radius: 2px;
+  width: fit-content;
+}
+.drona-typing.active {
+  display: flex;
+}
+.drona-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--text-muted);
+  border-radius: 50%;
+  animation: drona-bounce 1.4s infinite ease-in-out both;
+}
+.drona-dot:nth-child(1) { animation-delay: -0.32s; }
+.drona-dot:nth-child(2) { animation-delay: -0.16s; }
+@keyframes drona-bounce {
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
+}
+
+@media (max-width: 480px) {
+  #dronacharya-panel {
+    width: 100%;
+    height: 100%;
+    max-height: 100vh;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+  }
 }
 
 .lm-bullet-main {
@@ -4749,3 +4990,7 @@ body.locked-mode .main-content {
   background-color: rgba(34, 197, 94, 0.1);
   border-bottom: 1px solid var(--accent);
 }
+. h i s t o r y - t e r m   {   b o r d e r - b o t t o m :   1 p x   d a s h e d   v a r ( - - a c c e n t ) ;   c o l o r :   v a r ( - - a c c e n t ) ;   c u r s o r :   h e l p ;   p o s i t i o n :   r e l a t i v e ;   }   . h i s t o r y - t e r m : h o v e r : : a f t e r   {   c o n t e n t :   a t t r ( d a t a - d e f i n i t i o n ) ;   p o s i t i o n :   a b s o l u t e ;   b o t t o m :   1 2 0 % ;   l e f t :   5 0 % ;   t r a n s f o r m :   t r a n s l a t e X ( - 5 0 % ) ;   w i d t h :   m a x - c o n t e n t ;   m a x - w i d t h :   2 5 0 p x ;   b a c k g r o u n d :   # 1 e 2 9 3 b ;   c o l o r :   # f 8 f a f c ;   p a d d i n g :   8 p x   1 2 p x ;   b o r d e r - r a d i u s :   6 p x ;   f o n t - s i z e :   0 . 8 r e m ;   z - i n d e x :   1 0 0 0 ;   b o x - s h a d o w :   0   4 p x   6 p x   r g b a ( 0 , 0 , 0 , 0 . 3 ) ;   b o r d e r :   1 p x   s o l i d   v a r ( - - b o r d e r ) ;   t e x t - a l i g n :   c e n t e r ;   w h i t e - s p a c e :   n o r m a l ;   p o i n t e r - e v e n t s :   n o n e ;   }   . h i s t o r y - t e r m : h o v e r : : b e f o r e   {   c o n t e n t :   ' ' ;   p o s i t i o n :   a b s o l u t e ;   b o t t o m :   1 0 0 % ;   l e f t :   5 0 % ;   t r a n s f o r m :   t r a n s l a t e X ( - 5 0 % ) ;   b o r d e r - w i d t h :   6 p x ;   b o r d e r - s t y l e :   s o l i d ;   b o r d e r - c o l o r :   v a r ( - - b o r d e r )   t r a n s p a r e n t   t r a n s p a r e n t   t r a n s p a r e n t ;   p o i n t e r - e v e n t s :   n o n e ;   }  
+ . g e o - t a g   {   b o r d e r - b o t t o m :   1 p x   d a s h e d   v a r ( - - a c c e n t ) ;   c o l o r :   v a r ( - - a c c e n t ) ;   c u r s o r :   p o i n t e r ;   p o s i t i o n :   r e l a t i v e ;   }   . g e o - t a g : h o v e r   {   b a c k g r o u n d - c o l o r :   r g b a ( 1 6 8 ,   8 5 ,   2 4 7 ,   0 . 1 ) ;   }  
+ / *   M u l t i - S t a t e m e n t   C h e c k p o i n t   U I   * /   . m s c - c h e c k p o i n t   {   b a c k g r o u n d :   v a r ( - - b g - s e c o n d a r y ) ;   b o r d e r - l e f t :   4 p x   s o l i d   v a r ( - - a c c e n t ) ;   b o r d e r - r a d i u s :   6 p x ;   p a d d i n g :   2 0 p x ;   m a r g i n :   2 4 p x   0 ;   b o x - s h a d o w :   0   2 p x   1 0 p x   r g b a ( 0 , 0 , 0 , 0 . 2 ) ;   }   . m s c - t i t l e   {   f o n t - f a m i l y :   v a r ( - - f o n t - l o g o ) ;   c o l o r :   v a r ( - - a c c e n t ) ;   f o n t - s i z e :   1 . 1 r e m ;   m a r g i n - b o t t o m :   1 2 p x ;   t e x t - t r a n s f o r m :   u p p e r c a s e ;   l e t t e r - s p a c i n g :   0 . 5 p x ;   d i s p l a y :   f l e x ;   a l i g n - i t e m s :   c e n t e r ;   g a p :   8 p x ;   }   . m s c - s t a t e m e n t s   {   m a r g i n - b o t t o m :   1 6 p x ;   p a d d i n g - l e f t :   1 2 p x ;   b o r d e r - l e f t :   2 p x   s o l i d   r g b a ( 2 5 5 , 2 5 5 , 2 5 5 , 0 . 1 ) ;   }   . m s c - s t a t e m e n t s   p   {   m a r g i n - b o t t o m :   8 p x ;   f o n t - s i z e :   0 . 9 5 r e m ;   }   . m s c - o p t i o n s   {   d i s p l a y :   g r i d ;   g r i d - t e m p l a t e - c o l u m n s :   r e p e a t ( a u t o - f i t ,   m i n m a x ( 2 0 0 p x ,   1 f r ) ) ;   g a p :   1 2 p x ;   m a r g i n - b o t t o m :   1 6 p x ;   }   . m s c - o p t i o n   {   b a c k g r o u n d :   r g b a ( 2 5 5 , 2 5 5 , 2 5 5 , 0 . 0 5 ) ;   b o r d e r :   1 p x   s o l i d   r g b a ( 2 5 5 , 2 5 5 , 2 5 5 , 0 . 1 ) ;   b o r d e r - r a d i u s :   6 p x ;   p a d d i n g :   1 2 p x ;   c u r s o r :   p o i n t e r ;   t r a n s i t i o n :   a l l   0 . 2 s   e a s e ;   t e x t - a l i g n :   c e n t e r ;   f o n t - w e i g h t :   6 0 0 ;   }   . m s c - o p t i o n : h o v e r   {   b a c k g r o u n d :   r g b a ( 1 6 8 ,   8 5 ,   2 4 7 ,   0 . 1 5 ) ;   b o r d e r - c o l o r :   v a r ( - - a c c e n t ) ;   }   . m s c - o p t i o n . s e l e c t e d - c o r r e c t   {   b a c k g r o u n d :   r g b a ( 3 4 ,   1 9 7 ,   9 4 ,   0 . 2 ) ;   b o r d e r - c o l o r :   # 2 2 c 5 5 e ;   c o l o r :   # 2 2 c 5 5 e ;   }   . m s c - o p t i o n . s e l e c t e d - w r o n g   {   b a c k g r o u n d :   r g b a ( 2 3 9 ,   6 8 ,   6 8 ,   0 . 2 ) ;   b o r d e r - c o l o r :   # e f 4 4 4 4 ;   c o l o r :   # e f 4 4 4 4 ;   }   . m s c - e x p l a n a t i o n   {   d i s p l a y :   n o n e ;   b a c k g r o u n d :   r g b a ( 2 5 5 , 2 5 5 , 2 5 5 , 0 . 0 2 ) ;   p a d d i n g :   1 6 p x ;   b o r d e r - r a d i u s :   6 p x ;   b o r d e r :   1 p x   s o l i d   r g b a ( 2 5 5 , 2 5 5 , 2 5 5 , 0 . 0 5 ) ;   f o n t - s i z e :   0 . 9 r e m ;   c o l o r :   v a r ( - - t e x t - s e c o n d a r y ) ;   }  
+ 

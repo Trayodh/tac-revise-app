@@ -1,2 +1,6 @@
-const opts = ['k. p. krishnan', 'ketan dalal', 'j. ranganayakulu', 'bobby parikh'];
-console.log(opts.filter(o => /[\u03c0\u221a\u00b2\u00b3\u2074\u00b9]/.test(o) || /\d+[a-z]\d*/.test(o.toLowerCase().trim())).length);
+const term = 'Primary Source';
+const escaped = term.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+const regex = new RegExp('\\b(' + escaped + ')\\b', 'gi');
+console.log('regex:', regex);
+console.log('Match in "Primary Sources":', 'Primary Sources'.match(regex));
+console.log('Match in "interpretations":', 'interpretations'.match(regex));

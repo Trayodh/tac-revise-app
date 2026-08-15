@@ -1,0 +1,346 @@
+{
+  "mathematics": [
+    {
+      "id": "trigonometry",
+      "title": "Trigonometry",
+      "key_topics": "Trigonometric Identities & Values, Inverse Trigonometric Functions"
+    },
+    {
+      "id": "algebra-complex",
+      "title": "Algebra & Complex Numbers",
+      "key_topics": "Quadratic Equations, Complex Numbers"
+    },
+    {
+      "id": "2d-geometry",
+      "title": "Coordinate Geometry (2D & 3D)",
+      "key_topics": "Straight Lines"
+    },
+    {
+      "id": "statistics-prob",
+      "title": "Statistics & Probability",
+      "key_topics": "Measures of Central Tendency, Data Interpretation: Tables, Bar & Pie Charts"
+    },
+    {
+      "id": "calculus",
+      "title": "Calculus",
+      "key_topics": "Limits & Continuity, Differentiation Rules, Standard Integration Methods"
+    },
+    {
+      "id": "algebra-matrices",
+      "title": "Algebra & Matrices",
+      "key_topics": "Matrices and Determinants"
+    },
+    {
+      "id": "probability-stats",
+      "title": "Probability & Statistics",
+      "key_topics": "Probability Theory & Bayes Theorem"
+    },
+    {
+      "id": "geometry",
+      "title": "Geometry",
+      "key_topics": "Lines, Angles & Triangles, Circles & Polygons"
+    },
+    {
+      "id": "mensuration",
+      "title": "Mensuration",
+      "key_topics": "2D Figures: Area & Perimeter, 3D Solids: Surface Area & Volume"
+    },
+    {
+      "id": "arithmetic",
+      "title": "Arithmetic",
+      "key_topics": "Percentages, Profit & Loss, Ratios, Proportions & Averages, Time, Speed, Distance & Work"
+    },
+    {
+      "id": "quantitative-aptitude",
+      "title": "Numerical Aptitude",
+      "key_topics": "Time, Speed & Distance Formulas, Ratios, Proportions & Percentages"
+    }
+  ],
+  "english": [
+    {
+      "id": "grammar-rules",
+      "title": "Grammar & Usage",
+      "key_topics": "Parts of Speech, Tenses & Consistency, Subject-Verb Agreement, Sentence Structure & Parallelism, Active & Passive Voice, Direct & Indirect Speech, Modifiers: Misplaced & Dangling, Punctuation Basics, "
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary & Comprehension",
+      "key_topics": "High-Frequency Synonyms/Antonyms, One Word Substitutions, Idioms & Phrases, Phrasal Verbs, Reading Comprehension"
+    },
+    {
+      "id": "exam-patterns",
+      "title": "UPSC Exam Practice Patterns",
+      "key_topics": "Spotting Errors, Sentence Improvement, Ordering of Words & Sentences, Fill in the Blanks & Cloze Test"
+    }
+  ],
+  "polity": [
+    {
+      "id": "constitution-basics",
+      "title": "Constitutional Framework",
+      "key_topics": "Preamble & Sources, Schedules of the Constitution, Fundamental Rights (Art 12-35), DPSP & Fundamental Duties (Art 36-51A), Citizenship (Art 5-11)"
+    },
+    {
+      "id": "union-executive",
+      "title": "Union Government",
+      "key_topics": "The President of India (Art 52-62), Parliament of India (Art 79-122), Executives: PM, CM & Governor, Integrated Judiciary: SC & HC, Local Self-Govt & Panchayati Raj"
+    },
+    {
+      "id": "polity-advanced",
+      "title": "Advanced Polity Structures & Bodies",
+      "key_topics": "Constitutional Amendments, Parts & Schedules, High-Yield Special Articles Cheat Sheet, Elections, Appointments & Terms of Office, Constitutional & Non-Constitutional Bodies, Emergency Provisions"
+    },
+    {
+      "id": "federal-rpa",
+      "title": "Federal Structure & Election Law",
+      "key_topics": "Federal Structure & Centre-State Relations, Representation of People Act & Election Commission"
+    }
+  ],
+  "history": [
+    {
+      "id": "historiography",
+      "title": "1. Historiography & Historical Foundations",
+      "key_topics": "What is History?, Sources of Indian History, Dating Systems"
+    },
+    {
+      "id": "prehistoric-india",
+      "title": "2. Prehistoric India",
+      "key_topics": "Stone Age, Chalcolithic Age, Rock Art"
+    },
+    {
+      "id": "ancient-india-tree",
+      "title": "3. Ancient India",
+      "key_topics": "Indus Valley Civilization, Vedic Age, Mahajanapadas, Magadha Expansion, Buddhism & Jainism, Mauryan Period, Post-Mauryan India, Gupta Period, South Indian Kingdoms, Ancient Indian Culture"
+    },
+    {
+      "id": "medieval-india-tree",
+      "title": "4. Medieval India",
+      "key_topics": "Early Medieval India, Delhi Sultanate, Vijayanagara Empire, Bahmani Kingdom & Deccan Sultanates, Mughal Empire, Marathas, Bhakti Movement, Sufi Movement, Sikh History"
+    },
+    {
+      "id": "modern-india-tree",
+      "title": "5. Modern India (Highest Priority)",
+      "key_topics": "European Arrival, British Expansion, Economic Impact of British Rule, Socio-Religious Reform Movements, Revolt of 1857, Governor-Generals & Viceroys, Constitutional Development, Freedom Movement, Post"
+    },
+    {
+      "id": "world-history-tree",
+      "title": "6. World History",
+      "key_topics": "Revolutions, World War I, Interwar Period, World War II, Cold War, International Institutions"
+    },
+    {
+      "id": "art-culture-heritage",
+      "title": "7. Art, Culture & Heritage",
+      "key_topics": "Architecture, Paintings, Dance & Music, Literature, Religion & Festivals, Heritage Sites"
+    },
+    {
+      "id": "history-pyq-trends",
+      "title": "PYQ Trend Analysis",
+      "key_topics": "History PYQ Trends (NDA/CDS)"
+    }
+  ],
+  "geography": [
+    {
+      "id": "physical-geography",
+      "title": "Physical & World Geography",
+      "key_topics": "The Universe & Solar System, Earth Structure & Atmosphere, Climatology: Climatic Zones & Clouds, Geomorphology: Rocks, Plate Tectonics & Volcanism, World Geography: Mountains, Forests & Rivers, Strait"
+    },
+    {
+      "id": "geography-details",
+      "title": "Indian Geography",
+      "key_topics": "Indian Geography (Rivers, Passes & Soils), Forests, Trees & Wetlands of India, Mineral Resources & Types of Farming, Transport Routes: Highways & Waterways, National Parks of India (Map Guide), Border"
+    },
+    {
+      "id": "industrics-geopolitics",
+      "title": "Industries & Geopolitics",
+      "key_topics": "Major Industries & Industrial Corridors of India, Geopolitical Flashpoints & Indo-Pacific"
+    },
+    {
+      "id": "geography-pyq-trends",
+      "title": "PYQ Trend Analysis",
+      "key_topics": "Geography PYQ Trends (NDA/CDS)"
+    }
+  ],
+  "economics": [
+    {
+      "id": "economics-basics",
+      "title": "Introduction to Economics",
+      "key_topics": "Core Economic Concepts & Sectors, Poverty, Employment & Agriculture"
+    },
+    {
+      "id": "monetary-fiscal",
+      "title": "Monetary & Fiscal System",
+      "key_topics": "RBI & Monetary Policy Tools"
+    },
+    {
+      "id": "budget-trade-reforms",
+      "title": "Budgets, Trade & Economic Reforms",
+      "key_topics": "Government Budget, GST & Fiscal Policy, Trade Policy & Balance of Payments, LPG Reforms, NITI Aayog & Financial Institutions, Economic Planning & Five-Year Plans, IMF, WTO & Balance of Payments"
+    },
+    {
+      "id": "govt-schemes",
+      "title": "Government Schemes & Welfare Programs",
+      "key_topics": "Key Welfare Schemes & Financial Inclusion"
+    }
+  ],
+  "physics": [
+    {
+      "id": "physics-optics",
+      "title": "Optics & Light",
+      "key_topics": "Reflection, Refraction & Lenses"
+    },
+    {
+      "id": "physics-mechanics",
+      "title": "Mechanics & Motion",
+      "key_topics": "Newton's Laws of Motion"
+    },
+    {
+      "id": "energy-power-mechanics",
+      "title": "Energy & Gravitation",
+      "key_topics": "Work, Power, Energy & Gravitation"
+    },
+    {
+      "id": "physics-waves",
+      "title": "Waves & Acoustics",
+      "key_topics": "Sound Waves & Acoustics, Electromagnetic Waves & Spectrum"
+    },
+    {
+      "id": "physics-thermodynamics",
+      "title": "Heat & Thermodynamics",
+      "key_topics": "Thermodynamics & Heat Transfer"
+    },
+    {
+      "id": "physics-electromagnetism",
+      "title": "Electricity & Magnetism",
+      "key_topics": "Electricity, Circuits & Magnetism"
+    },
+    {
+      "id": "physics-modern",
+      "title": "Modern Physics & Units",
+      "key_topics": "Nuclear Physics & Radioactivity, SI Units & Everyday Physics"
+    },
+    {
+      "id": "physics-pyq-trends",
+      "title": "PYQ Trend Analysis",
+      "key_topics": "Physics PYQ Trends (NDA/CDS)"
+    }
+  ],
+  "chemistry": [
+    {
+      "id": "chemistry-substances",
+      "title": "Acids, Bases & Salts",
+      "key_topics": "Acids, Bases & pH Indicators"
+    },
+    {
+      "id": "chemistry-bonding",
+      "title": "Chemical Bonding",
+      "key_topics": "Chemical Bonding & Periodic Table"
+    },
+    {
+      "id": "chemistry-metallurgy",
+      "title": "Metals & Metallurgy",
+      "key_topics": "Metals, Ores, Alloys & Metallurgy, Reactivity Series & Displacement"
+    },
+    {
+      "id": "chemistry-carbon-numericals",
+      "title": "Carbon Compounds & Numericals",
+      "key_topics": "Carbon & its Compounds, Mole Concept & Concentration Terms"
+    },
+    {
+      "id": "chemistry-everyday-env",
+      "title": "Everyday & Environmental Chemistry",
+      "key_topics": "Everyday Chemistry, Fertilisers & Fuels, Environmental Chemistry & Pollution"
+    }
+  ],
+  "biology": [
+    {
+      "id": "biology-cell",
+      "title": "Cell Biology & Genetics",
+      "key_topics": "Cell Structure & Cell Division"
+    },
+    {
+      "id": "biology-physiology",
+      "title": "Human Physiology",
+      "key_topics": "Vital Human Systems & Organs"
+    },
+    {
+      "id": "biology-diseases",
+      "title": "Health, Diseases & Nutrition",
+      "key_topics": "Human Diseases & Pathogens, Immunity & Vaccines"
+    },
+    {
+      "id": "biology-kingdoms",
+      "title": "Plant & Animal Kingdoms",
+      "key_topics": "Plant Kingdom Classification, Animal Kingdom Classification"
+    },
+    {
+      "id": "biology-botany",
+      "title": "Plant Physiology & Reproduction",
+      "key_topics": "Plant Reproduction & Hormones"
+    },
+    {
+      "id": "biology-ecology",
+      "title": "Ecology & Ecosystems",
+      "key_topics": "Ecology Basics & Pyramids"
+    }
+  ],
+  "military-aptitude": [
+    {
+      "id": "armed-forces-equipment-db",
+      "title": "Armed Forces Equipment Database",
+      "key_topics": "Comprehensive Equipment Database"
+    },
+    {
+      "id": "defence-structures",
+      "title": "Command Structures & Ranks",
+      "key_topics": "Equivalent Officer Ranks (Tri-Services), Operational Commands of Services, Defence Organisations, Weapons & Agreements"
+    },
+    {
+      "id": "tactical-defence-gk",
+      "title": "Exercises & Missile Systems",
+      "key_topics": "Joint Military Exercises of India, Integrated Guided Missile Program (IGMDP)"
+    },
+    {
+      "id": "reasoning-oir",
+      "title": "Reasoning & OIR (SSB)",
+      "key_topics": "Verbal Reasoning & OIR, Non-Verbal Reasoning & OIR, Spatial & Non-Verbal Reasoning (AFCAT)"
+    },
+    {
+      "id": "afcat-verbal-reasoning",
+      "title": "Verbal Reasoning (AFCAT)",
+      "key_topics": "Ch.1 — Analogy (Verbal Reasoning), Ch.2 — Classification / Odd One Out (Verbal), Ch.3 — Series Completion (Verbal), Ch.4 — Coding and Decoding (Verbal), Ch.5 — Direction Sense Test (Verbal), Ch.6 — Cl"
+    },
+    {
+      "id": "afcat-nonverbal-reasoning",
+      "title": "Non-Verbal Reasoning (AFCAT)",
+      "key_topics": "Ch.11 — Figure Analogy (Non-Verbal), Ch.12&13 — Figure Classification & Series (Non-Verbal), Ch.14 — Figure/Pattern Completion (Non-Verbal), Ch.15 — Embedded Figures (Non-Verbal), Ch.16 — Dot Situatio"
+    }
+  ],
+  "current-affairs": [
+    {
+      "id": "schemes-policies",
+      "title": "Schemes, Policies & Summits",
+      "key_topics": "Major Government Schemes, India's International Relations & Forums, National Policies & Missions, Major International Summits"
+    },
+    {
+      "id": "reports-awards-judgments",
+      "title": "Reports, Awards & Judgments",
+      "key_topics": "Important Reports & Indices, Landmark SC & HC Judgments, National Awards & Honours, Economic Measures & Policy Packages, Science, Tech & Space Missions, UPSC Core Current Affairs Syllabus Map"
+    },
+    {
+      "id": "global-events-defence",
+      "title": "Global Events & Strategic Updates",
+      "key_topics": "Global Geopolitical Flashpoints, Bilateral Defence Cooperation & Deals, Red Sea Crisis & Maritime Security Ops, Indo-Pacific Security & Quad Dynamics, India-US Tech Cooperation & MQ-9B Drones, Strateg"
+    }
+  ],
+  "environment": [
+    {
+      "id": "biodiversity-conservation",
+      "title": "Biodiversity & Wildlife Conservation",
+      "key_topics": "Biodiversity Hotspots & Biosphere Reserves, Wildlife Protection & Conservation Projects, Species in News & IUCN Red List"
+    },
+    {
+      "id": "climate-laws-energy",
+      "title": "Climate, Laws & Renewable Energy",
+      "key_topics": "Climate Change Treaties & India's NDCs, Environmental Legislation & EIA, Renewable Energy & Green Initiatives, Pollution Control & Clean India Missions"
+    }
+  ]
+}
