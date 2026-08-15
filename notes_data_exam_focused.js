@@ -10553,18 +10553,30 @@ const NOTES_DATABASE = {
       }
     ]
   },
-  "Military Aptitude": {
-    "military_chiefs_timeline": {
-      "title": "Chiefs Timeline (Army, Navy, Air Force)",
-      "notes": "\n<h2>Commanders-in-Chief & Chiefs of Staff</h2>\n<p>The timeline of all military chiefs is a frequent topic in AFCAT and CDS matches.</p>\n<div class=\"ncert-box\" style=\"background-color: rgba(69, 170, 242, 0.1); border-left: 4px solid #45aaf2; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n<strong>💡 Fun Fact time!</strong><br>\nThe first Indian Commander-in-Chief of the Indian Army was Field Marshal K. M. Cariappa, who took over from Sir Francis Roy Bucher on 15 January 1949. This day is celebrated as Army Day!\n</div>\n<table border=\"1\" style=\"width:100%; border-collapse: collapse; text-align: left; margin-bottom: 20px;\">\n<tr><th>Service</th><th>First Indian Chief</th><th>Current Chief (2024-25)</th></tr>\n<tr><td>Indian Army</td><td>Field Marshal K.M. Cariappa</td><td>General Upendra Dwivedi</td></tr>\n<tr><td>Indian Navy</td><td>Admiral R.D. Katari</td><td>Admiral Dinesh K Tripathi</td></tr>\n<tr><td>Indian Air Force</td><td>Air Marshal Subroto Mukerjee</td><td>Air Chief Marshal Amar Preet Singh</td></tr>\n</table>\n"
-    },
-    "military_dedicated_branches": {
-      "title": "Dedicated Branches (Army, Navy, IAF, ICG)",
-      "notes": "\n<h2>Structure of the Armed Forces</h2>\n<p>India maintains four primary armed branches under the Ministry of Defence.</p>\n<h3>1. Indian Army</h3>\n<p>Divided into 7 commands. The fighting arms include Infantry, Armoured Corps, and Artillery.</p>\n<h3>2. Indian Air Force</h3>\n<p>Divided into 7 commands. Operates fighters like the Su-30MKI, Rafale, and LCA Tejas.</p>\n<h3>3. Indian Navy</h3>\n<p>Divided into 3 commands (Western, Eastern, Southern). Operates Aircraft Carriers like INS Vikramaditya and INS Vikrant.</p>\n<h3>4. Indian Coast Guard (ICG)</h3>\n<p>Established in 1978. Protects India's maritime interests and enforces maritime law over territorial waters and the EEZ.</p>\n<div class=\"memory-hack-box\" style=\"background-color: rgba(162, 155, 254, 0.1); border-left: 4px solid #a29bfe; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n<strong>💡 Memory Hack!</strong><br>\nNavy Commands: WES (West, East, South). There is NO Northern Command in the Navy (obviously, no ocean there!).\n</div>\n"
-    },
-    "military_allied_agencies": {
-      "title": "Allied Agencies (Intelligence, BRO, ISRO, CAPF)",
-      "notes": "\n<h2>Allied Defence & Intelligence Agencies</h2>\n<p>UPSC frequently tests the mandates of various allied agencies.</p>\n<ul>\n<li><strong>RAW (Research and Analysis Wing):</strong> India's primary foreign intelligence agency.</li>\n<li><strong>IB (Intelligence Bureau):</strong> India's internal intelligence agency.</li>\n<li><strong>BRO (Border Roads Organisation):</strong> Develops and maintains road networks in India's border areas.</li>\n<li><strong>ISRO (Indian Space Research Organisation):</strong> Provides critical defence satellite capabilities (e.g., GSAT-7 'Rukmini' for the Navy).</li>\n</ul>\n<h3>Central Armed Police Forces (CAPF)</h3>\n<p>Includes CRPF, BSF, ITBP, CISF, and SSB. They operate under the Ministry of Home Affairs, NOT the Ministry of Defence.</p>\n"
-    }
+  "military_aptitude": {
+    "title": "Military Aptitude",
+    "icon": "fas fa-fighter-jet",
+    "chapters": [
+      {
+        "chapterTitle": "Military Knowledge",
+        "topics": [
+          {
+            "id": "military_chiefs_timeline",
+            "title": "Chiefs Timeline (Army, Navy, Air Force)",
+            "notes": "\n<h2>Commanders-in-Chief & Chiefs of Staff</h2>\n<p>The timeline of all military chiefs is a frequent topic in AFCAT and CDS matches.</p>\n<div class=\"ncert-box\" style=\"background-color: rgba(69, 170, 242, 0.1); border-left: 4px solid #45aaf2; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n<strong>💡 Fun Fact time!</strong><br>\nThe first Indian Commander-in-Chief of the Indian Army was Field Marshal K. M. Cariappa, who took over from Sir Francis Roy Bucher on 15 January 1949. This day is celebrated as Army Day!\n</div>\n<table border=\"1\" style=\"width:100%; border-collapse: collapse; text-align: left; margin-bottom: 20px;\">\n<tr><th>Service</th><th>First Indian Chief</th><th>Current Chief (2024-25)</th></tr>\n<tr><td>Indian Army</td><td>Field Marshal K.M. Cariappa</td><td>General Upendra Dwivedi</td></tr>\n<tr><td>Indian Navy</td><td>Admiral R.D. Katari</td><td>Admiral Dinesh K Tripathi</td></tr>\n<tr><td>Indian Air Force</td><td>Air Marshal Subroto Mukerjee</td><td>Air Chief Marshal Amar Preet Singh</td></tr>\n</table>\n"
+          },
+          {
+            "id": "military_dedicated_branches",
+            "title": "Dedicated Branches (Army, Navy, IAF, ICG)",
+            "notes": "\n<h2>Structure of the Armed Forces</h2>\n<p>India maintains four primary armed branches under the Ministry of Defence.</p>\n<h3>1. Indian Army</h3>\n<p>Divided into 7 commands. The fighting arms include Infantry, Armoured Corps, and Artillery.</p>\n<h3>2. Indian Air Force</h3>\n<p>Divided into 7 commands. Operates fighters like the Su-30MKI, Rafale, and LCA Tejas.</p>\n<h3>3. Indian Navy</h3>\n<p>Divided into 3 commands (Western, Eastern, Southern). Operates Aircraft Carriers like INS Vikramaditya and INS Vikrant.</p>\n<h3>4. Indian Coast Guard (ICG)</h3>\n<p>Established in 1978. Protects India's maritime interests and enforces maritime law over territorial waters and the EEZ.</p>\n<div class=\"memory-hack-box\" style=\"background-color: rgba(162, 155, 254, 0.1); border-left: 4px solid #a29bfe; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n<strong>💡 Memory Hack!</strong><br>\nNavy Commands: WES (West, East, South). There is NO Northern Command in the Navy (obviously, no ocean there!).\n</div>\n"
+          },
+          {
+            "id": "military_allied_agencies",
+            "title": "Allied Agencies (Intelligence, BRO, ISRO, CAPF)",
+            "notes": "\n<h2>Allied Defence & Intelligence Agencies</h2>\n<p>UPSC frequently tests the mandates of various allied agencies.</p>\n<ul>\n<li><strong>RAW (Research and Analysis Wing):</strong> India's primary foreign intelligence agency.</li>\n<li><strong>IB (Intelligence Bureau):</strong> India's internal intelligence agency.</li>\n<li><strong>BRO (Border Roads Organisation):</strong> Develops and maintains road networks in India's border areas.</li>\n<li><strong>ISRO (Indian Space Research Organisation):</strong> Provides critical defence satellite capabilities (e.g., GSAT-7 'Rukmini' for the Navy).</li>\n</ul>\n<h3>Central Armed Police Forces (CAPF)</h3>\n<p>Includes CRPF, BSF, ITBP, CISF, and SSB. They operate under the Ministry of Home Affairs, NOT the Ministry of Defence.</p>\n"
+          }
+        ]
+      }
+    ]
   }
 };
