@@ -1582,39 +1582,7 @@
       </div>
     </div>
   </div>
-  <!-- AI DRONACHARYA CHATBOT DRAWER -->
-  <div class="ai-chatbot-launcher" id="chatbot-launcher" onclick="toggleChatbot()">
-    <span class="launcher-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
-    <span class="launcher-text">Ask Dronacharya AI</span>
-  </div>
-
-  <div class="ai-chatbot-drawer" id="chatbot-drawer">
-    <div class="chatbot-header">
-      <div style="display: flex; align-items: center; gap: 8px;">
-        <span style="font-size: 1.4rem;">TAC</span>
-        <div>
-          <div class="chatbot-title">Ask Dronacharya AI</div>
-          <div class="chatbot-subtitle">Dronacharya</div>
-        </div>
-      </div>
-      <button class="chatbot-close-btn" onclick="toggleChatbot()">&times;</button>
-    </div>
-    
-    <div class="chatbot-messages" id="chatbot-messages-container">
-      <div class="chat-message system">
-        Hello Cadet! I am Dronacharya, your AI guide. Ask me any conceptual doubt about NDA Mathematics, CDS General Knowledge, or AFCAT Aptitude, and I will explain it in detail!
-      </div>
-    </div>
-    
-    <div class="chatbot-input-area">
-      <input type="text" id="chatbot-user-input" placeholder="Type your doubt here..." onkeydown="if(event.key === 'Enter') sendChatbotMessage()">
-      <button class="chatbot-send-btn" onclick="sendChatbotMessage()">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width: 18px; height: 18px;">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-        </svg>
-      </button>
-    </div>
-  </div>
+  <!-- Ask Dronacharya is now the FAB panel at the end of body -->
 
   <!-- THEME SELECTOR MODAL -->
   <div class="cbt-overlay" id="theme-selector-modal" style="display: none; align-items: center; justify-content: center; z-index: 10000; background: rgba(0,0,0,0.8);">
@@ -2042,7 +2010,7 @@
 
   <!-- Dronacharya AI Tutor UI -->
   <div id="dronacharya-fab" onclick="toggleDronaPanel()" title="Ask Dronacharya (AI Tutor)">
-    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.76.46 3.4 1.25 4.84L2 22l5.16-1.25C8.6 21.54 10.24 22 12 22c5.52 22 10-4.48 10-10S17.52 2 12 2zm0 18c-1.46 0-2.84-.34-4.08-.94l-.29-.14-3.03.73.74-2.96-.15-.3A7.95 7.95 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm3-9h-2V7h2v4zm-4 0H9V7h2v4zm4 4h-6v-2h6v2z"/></svg>
+    🏹
   </div>
 
   <div id="dronacharya-panel">
@@ -2057,7 +2025,7 @@
       <button class="drona-close" onclick="toggleDronaPanel()">×</button>
     </div>
     <div class="drona-chat-area" id="drona-chat-area">
-      <div class="drona-message system">Welcome, Cadet. I am Dronacharya. I can read the specific chapter you are currently studying. What do you need help with?</div>
+      <div class="drona-message ai">🏹 Welcome, Cadet! I am <strong>Dronacharya</strong>, your context-aware AI Tutor. I can see the chapter you are currently studying. Ask me any doubt — conceptual, mathematical, or exam-oriented — and I will solve it exhaustively!</div>
     </div>
     <div class="drona-typing" id="drona-typing">
       <div class="drona-dot"></div>

@@ -152,10 +152,10 @@ function launchCbtPlayer(examId) {
   document.getElementById("cbt-player-overlay").style.display = "flex";
   
   // Hide Ask Dronacharya Chatbot during test
-  const launcher = document.getElementById("chatbot-launcher");
+  const launcher = document.getElementById("dronacharya-fab");
   if (launcher) launcher.style.display = "none";
-  const drawer = document.getElementById("chatbot-drawer");
-  if (drawer) drawer.style.display = "none";
+  const panel = document.getElementById("dronacharya-panel");
+  if (panel) panel.classList.remove("active");
 
   document.getElementById("cbt-active-title").innerText = exam.title;
   
@@ -314,7 +314,7 @@ document.getElementById("cbt-btn-submit-exam").addEventListener("click", () => {
     const confirmSubmit = confirm("You have completed all questions. Are you sure you want to end the test and view the performance report?");
     if (confirmSubmit) {
       // Restore chatbot icon
-      const launcher = document.getElementById("chatbot-launcher");
+      const launcher = document.getElementById("dronacharya-fab");
       if (launcher) launcher.style.display = "flex";
       submitCbtExam();
     }
@@ -324,7 +324,7 @@ document.getElementById("cbt-btn-submit-exam").addEventListener("click", () => {
       if (CBT_SESSION.timerId) clearInterval(CBT_SESSION.timerId);
       document.getElementById("cbt-player-overlay").style.display = "none";
       // Restore chatbot icon
-      const launcher = document.getElementById("chatbot-launcher");
+      const launcher = document.getElementById("dronacharya-fab");
       if (launcher) launcher.style.display = "flex";
       switchScreen("dashboard");
     }

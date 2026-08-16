@@ -4933,13 +4933,13 @@ function launchCbtPlayer(examId) {
 
   // Hide Ask Dronacharya Chatbot during test
 
-  const launcher = document.getElementById("chatbot-launcher");
+  const launcher = document.getElementById("dronacharya-fab");
 
   if (launcher) launcher.style.display = "none";
 
-  const drawer = document.getElementById("chatbot-drawer");
+  const panel = document.getElementById("dronacharya-panel");
 
-  if (drawer) drawer.style.display = "none";
+  if (panel) panel.classList.remove("active");
 
 
 
@@ -5257,7 +5257,7 @@ document.getElementById("cbt-btn-submit-exam").addEventListener("click", () => {
 
       // Restore chatbot icon
 
-      const launcher = document.getElementById("chatbot-launcher");
+      const launcher = document.getElementById("dronacharya-fab");
 
       if (launcher) launcher.style.display = "flex";
 
@@ -5277,7 +5277,7 @@ document.getElementById("cbt-btn-submit-exam").addEventListener("click", () => {
 
       // Restore chatbot icon
 
-      const launcher = document.getElementById("chatbot-launcher");
+      const launcher = document.getElementById("dronacharya-fab");
 
       if (launcher) launcher.style.display = "flex";
 
@@ -7247,25 +7247,29 @@ function updateSyllabusTopicStatus(topicId, newStatus) {
 
 
 
-function toggleChatbot() {
+function toggleDronaPanel() {
 
-  const drawer = document.getElementById("chatbot-drawer");
+  const panel = document.getElementById("dronacharya-panel");
 
-  if (drawer) {
+  if (panel) {
 
-    drawer.classList.toggle("open");
+    panel.classList.toggle("active");
 
   }
 
 }
 
+// Alias for backward compatibility
+window.toggleChatbot = toggleDronaPanel;
+window.sendChatbotMessage = sendDronaQuery;
 
 
-async function sendChatbotMessage() {
 
-  const inputEl = document.getElementById("chatbot-user-input");
+async function sendDronaQuery() {
 
-  const container = document.getElementById("chatbot-messages-container");
+  const inputEl = document.getElementById("drona-input");
+
+  const container = document.getElementById("drona-chat-area");
 
   if (!inputEl || !container) return;
 
@@ -7289,7 +7293,7 @@ async function sendChatbotMessage() {
 
   const userMsgEl = document.createElement("div");
 
-  userMsgEl.className = "chat-message user";
+  userMsgEl.className = "drona-message user";
 
   userMsgEl.textContent = text;
 
@@ -7301,7 +7305,7 @@ async function sendChatbotMessage() {
 
   const loadingEl = document.createElement("div");
 
-  loadingEl.className = "chat-message system";
+  loadingEl.className = "drona-message ai";
 
   loadingEl.style.opacity = "0.7";
 
@@ -7459,7 +7463,7 @@ Doubt to solve: ${text}`;
 
     const replyEl = document.createElement("div");
 
-    replyEl.className = "chat-message system";
+    replyEl.className = "drona-message ai";
 
     
 
@@ -7529,7 +7533,7 @@ Doubt to solve: ${text}`;
 
     const replyEl = document.createElement("div");
 
-    replyEl.className = "chat-message system";
+    replyEl.className = "drona-message ai";
 
     replyEl.textContent = "An error occurred. Please try again.";
 
@@ -7893,23 +7897,23 @@ function initAiPaperSolver() {
 
       
 
-      const drawer = document.getElementById("chatbot-drawer");
+      const panel = document.getElementById("dronacharya-panel");
 
-      if (drawer && !drawer.classList.contains("open")) {
+      if (panel && !panel.classList.contains("active")) {
 
-        drawer.classList.add("open");
+        panel.classList.add("active");
 
       }
 
       
 
-      const chatbotInput = document.getElementById("chatbot-user-input");
+      const chatbotInput = document.getElementById("drona-input");
 
       if (chatbotInput) {
 
         chatbotInput.value = `Can you explain: ${inputVal}`;
 
-        sendChatbotMessage();
+        sendDronaQuery();
 
       }
 
@@ -15414,11 +15418,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // 1. Open Chatbot Drawer
 
-      const drawer = document.getElementById("chatbot-drawer");
+      const panel = document.getElementById("dronacharya-panel");
 
-      if (drawer && !drawer.classList.contains("open") && typeof window.toggleChatbot === 'function') {
+      if (panel && !panel.classList.contains("active") && typeof window.toggleDronaPanel === 'function') {
 
-        window.toggleChatbot();
+        window.toggleDronaPanel();
 
       }
 
@@ -15426,15 +15430,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // 2. Set the input text and send message
 
-      const chatbotInput = document.getElementById('chatbot-user-input');
+      const chatbotInput = document.getElementById('drona-input');
 
       if (chatbotInput) {
 
         chatbotInput.value = `Can you explain: ${selectedText}`;
 
-        if (typeof window.sendChatbotMessage === 'function') {
+        if (typeof window.sendDronaQuery === 'function') {
 
-          window.sendChatbotMessage();
+          window.sendDronaQuery();
 
         }
 

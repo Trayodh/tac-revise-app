@@ -45,6 +45,13 @@ window.CA_META = {
 // =============================================================================
 window.CA_VISITS_DATA = [
   {
+    visit: "India-France Joint Maritime Exercise 'Varuna'",
+    period: "June 2026",
+    purpose: "To enhance interoperability, strengthen maritime security cooperation, and share best practices in advanced naval operations between India and France.",
+    deals: "The 'Varuna' exercise is a cornerstone of the strategic partnership between India and France, demonstrating their commitment to a free and open Indo-Pacific. It significantly boosts naval cooperation, enabling both navies to refine tactics in areas like anti-submarine warfare and maritime surveillance, crucial for regional stability and security.",
+  },
+
+  {
     visit: "MALABAR Naval Exercise 2026",
     period: "August 2026",
     purpose: "Quad nations (India, US, Japan, Australia) conducted the MALABAR 2026 maritime exercise in the Indian Ocean Region.",

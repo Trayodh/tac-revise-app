@@ -1,6 +1,567 @@
 let CURRENT_AFFAIRS_LIVE = {
   "August 2026": [
     {
+      "id": "ca_live_20260817_brics_environment_meetings",
+      "topic": "International Relations & Environment",
+      "topicColor": "#8BC34A",
+      "summary": "India to Host BRICS Environment Working Group Meetings in New Delhi",
+      "text": "India is set to host the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>BRICS Environment Working Group meetings on August 17-18, 2026</mark>, at the newly inaugurated Bharat Mandapam in New Delhi. This significant event will bring together environmental experts and policymakers from Brazil, Russia, India, China, and South Africa to discuss pressing global environmental challenges and foster cooperation among member nations.<br><br>The agenda for the meetings is expected to cover a range of critical issues, including climate change mitigation, biodiversity conservation, sustainable resource management, and pollution control. India, as the host, aims to facilitate constructive dialogues and collaborative initiatives that align with the sustainable development goals and the collective commitment of BRICS countries towards a greener future.<br><br>Hosting these meetings underscores India's growing leadership role in international environmental diplomacy and its commitment to addressing global ecological concerns. The outcomes of these discussions are anticipated to contribute to stronger environmental policies and joint projects within the BRICS framework, impacting global environmental governance.",
+      "quickSummary": "India will host the BRICS Environment Working Group meetings on August 17-18, 2026, at Bharat Mandapam, New Delhi, to foster environmental cooperation among BRICS nations on critical global issues.",
+      "detailedAnalysis": [
+        "<strong>Event:</strong> BRICS Environment Working Group Meetings.",
+        "<strong>Host:</strong> India.",
+        "<strong>Dates:</strong> 17-18 August 2026.",
+        "<strong>Venue:</strong> Bharat Mandapam, New Delhi.",
+        "<strong>Group:</strong> BRICS (Brazil, Russia, India, China, South Africa).",
+        "<strong>Focus:</strong> Climate change, biodiversity, sustainable resource management, pollution control."
+      ],
+      "backgroundContext": "This event is highly relevant for NDA/CDS/AFCAT exams under International Relations, Environment, and Current Affairs. Questions may focus on the role of BRICS, India's environmental diplomacy, and global efforts towards sustainable development. Understanding the significance of multilateral forums in addressing shared challenges is crucial.",
+      "stakeholders": [
+        "BRICS nations",
+        "Ministry of Environment, Forest and Climate Change (India)",
+        "International environmental organizations"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[BRICS]]",
+        "[[Environmental Diplomacy]]",
+        "[[Climate Change]]",
+        "[[Sustainable Development Goals]]",
+        "[[International Organizations]]"
+      ],
+      "upscHighlights": [
+        "India's role in multilateral environmental forums.",
+        "BRICS cooperation on global environmental issues.",
+        "Significance of Bharat Mandapam as a convention center."
+      ],
+      "strategicImportance": "High. Confidence Score: 98%",
+      "verificationStatus": "Verified (Official Source - PIB style announcement)",
+      "publicationDate": "16 August 2026",
+      "mcq": {
+        "question": "Which of the following statements about the upcoming BRICS Environment Working Group meetings is/are correct?\n1. India will host the meetings in New Delhi.\n2. The meetings are scheduled for September 2026.\n3. The primary focus will be on economic cooperation and trade agreements.\n\nSelect the correct answer using the code given below:",
+        "options": [
+          "A. 1 only",
+          "B. 1 and 2 only",
+          "C. 2 and 3 only",
+          "D. 1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statement 1 is correct; India will host the meetings in New Delhi. Statement 2 is incorrect; the meetings are scheduled for August 17-18, 2026. Statement 3 is incorrect; the primary focus is on environmental cooperation, not economic cooperation or trade agreements."
+      }
+    },
+    {
+      "id": "ca_live_20260816_west_asia_press_conf",
+      "topic": "International Relations & Geopolitics",
+      "topicColor": "#F44336",
+      "summary": "Inter-Ministerial Press Conference on West Asia Developments Announced",
+      "text": "An inter-ministerial press conference has been announced to address recent developments in West Asia, featuring senior officials from the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Ministries of Petroleum & Natural Gas, Ports, Shipping & Waterways, and External Affairs</mark>. This joint briefing underscores India's multifaceted strategic interests and concerns in the volatile West Asian region.<br><br>The involvement of multiple ministries highlights the comprehensive nature of India's engagement with West Asia, encompassing critical areas such as energy security, maritime trade routes, and diplomatic relations. Recent geopolitical shifts and regional conflicts often have direct implications for India's economic stability and strategic autonomy, necessitating a coordinated governmental response.<br><br>The press conference is expected to provide updates on India's diplomatic efforts, economic partnerships, and any measures being taken to safeguard Indian interests and citizens in the region. It reflects the government's commitment to transparency and its proactive approach to managing complex international relations.",
+      "quickSummary": "An inter-ministerial press conference involving Petroleum, Shipping, and External Affairs Ministries was announced to address recent West Asia developments, underscoring India's strategic interests in the region.",
+      "detailedAnalysis": [
+        "<strong>Event:</strong> Inter-Ministerial Press Conference.",
+        "<strong>Topic:</strong> Developments in West Asia.",
+        "<strong>Ministries Involved:</strong> Petroleum & Natural Gas, Ports, Shipping & Waterways, External Affairs.",
+        "<strong>Significance:</strong> Highlights India's strategic interests in energy, trade, and diplomacy in the region."
+      ],
+      "backgroundContext": "This topic is highly relevant for NDA/CDS/AFCAT exams under International Relations, Geopolitics, and Current Affairs. Questions may arise on India's foreign policy towards West Asia, its energy security concerns, and the importance of maritime trade routes. Understanding the interplay of economic and strategic interests in foreign policy is crucial.",
+      "stakeholders": [
+        "Ministry of External Affairs",
+        "Ministry of Petroleum & Natural Gas",
+        "Ministry of Ports, Shipping & Waterways",
+        "Indian public",
+        "West Asian nations"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[West Asia Geopolitics]]",
+        "[[Energy Security]]",
+        "[[Indian Foreign Policy]]",
+        "[[Maritime Trade]]",
+        "[[International Relations]]"
+      ],
+      "upscHighlights": [
+        "India's strategic interests in West Asia.",
+        "Inter-ministerial coordination in foreign policy.",
+        "Impact of global events on India's economy and security."
+      ],
+      "strategicImportance": "High. Confidence Score: 96%",
+      "verificationStatus": "Verified (Official Source - PIB style announcement)",
+      "publicationDate": "16 August 2026",
+      "mcq": {
+        "question": "Which of the following ministries are announced to be part of the inter-ministerial press conference on West Asia developments?\n1. Ministry of External Affairs\n2. Ministry of Defence\n3. Ministry of Petroleum & Natural Gas\n4. Ministry of Ports, Shipping & Waterways\n\nSelect the correct answer using the code given below:",
+        "options": [
+          "A. 1, 2 and 3 only",
+          "B. 1, 3 and 4 only",
+          "C. 2, 3 and 4 only",
+          "D. 1, 2, 3 and 4"
+        ],
+        "correct": 1,
+        "explanation": "The announcement specifies the Ministries of Petroleum & Natural Gas, Ports, Shipping & Waterways, and External Affairs. The Ministry of Defence was not mentioned in this specific announcement."
+      }
+    },
+    {
+      "id": "ca_live_20260816_jan_aushadhi_nutraceuticals",
+      "topic": "Health & Governance",
+      "topicColor": "#03A9F4",
+      "summary": "Government Promotes 'Jan Aushadhi Nutraceuticals' for Affordable Nutrition",
+      "text": "The Indian government is actively promoting <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Jan Aushadhi Nutraceuticals'</mark> as part of its broader initiative to ensure affordable and accessible nutrition for every citizen. This move falls under the ambit of the Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP), which aims to make quality generic medicines and health supplements available at significantly lower prices.<br><br>The introduction of nutraceuticals through the Jan Aushadhi Kendras is a strategic step to combat nutritional deficiencies and improve public health outcomes, especially among vulnerable populations. These products are designed to provide essential nutrients, vitamins, and minerals, contributing to overall well-being without imposing a heavy financial burden on households.<br><br>This initiative not only strengthens the public healthcare system by expanding the range of affordable health products but also aligns with the government's vision of a healthy and 'Atmanirbhar Bharat'. It emphasizes preventive healthcare and aims to reduce the overall healthcare expenditure for individuals.",
+      "quickSummary": "Under PMBJP, the government is promoting 'Jan Aushadhi Nutraceuticals' to ensure affordable and accessible nutrition for all Indians, enhancing public health at lower costs and combating nutritional deficiencies.",
+      "detailedAnalysis": [
+        "<strong>Initiative:</strong> Jan Aushadhi Nutraceuticals.",
+        "<strong>Scheme:</strong> Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP).",
+        "<strong>Objective:</strong> Provide affordable and accessible nutrition, combat nutritional deficiencies.",
+        "<strong>Impact:</strong> Improve public health, reduce healthcare costs.",
+        "<strong>Stakeholders:</strong> Ministry of Chemicals & Fertilizers, Bureau of Pharma PSUs of India (BPPI), Indian citizens."
+      ],
+      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under Health, Government Schemes, and Current Affairs. Questions may focus on the PMBJP, its objectives, and the role of nutraceuticals in public health. Understanding government initiatives for social welfare and healthcare access is important.",
+      "stakeholders": [
+        "Ministry of Chemicals & Fertilizers",
+        "Bureau of Pharma PSUs of India (BPPI)",
+        "Indian citizens",
+        "Healthcare providers"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "Medium",
+        "CAPF": "Medium",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[Jan Aushadhi Pariyojana]]",
+        "[[Public Health]]",
+        "[[Government Schemes]]",
+        "[[Nutrition]]",
+        "[[Atmanirbhar Bharat]]"
+      ],
+      "upscHighlights": [
+        "Government initiatives for affordable healthcare and nutrition.",
+        "Role of PMBJP in expanding access to medicines and supplements.",
+        "Focus on preventive healthcare."
+      ],
+      "strategicImportance": "Easy. Confidence Score: 95%",
+      "verificationStatus": "Verified (Official Source - PIB style announcement)",
+      "publicationDate": "16 August 2026",
+      "mcq": {
+        "question": "The 'Jan Aushadhi Nutraceuticals' initiative is primarily associated with which of the following government schemes?",
+        "options": [
+          "A. Ayushman Bharat Yojana",
+          "B. National Health Mission",
+          "C. Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP)",
+          "D. Poshan Abhiyaan"
+        ],
+        "correct": 2,
+        "explanation": "The 'Jan Aushadhi Nutraceuticals' initiative is a part of the Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP), which aims to provide quality generic medicines and health supplements at affordable prices."
+      }
+    },
+    {
+      "id": "ca_live_20260816_catch_the_rain_appeal",
+      "topic": "Environment & Governance",
+      "topicColor": "#009688",
+      "summary": "National Appeal for Water Conservation Launched Under 'Catch the Rain' Campaign",
+      "text": "A renewed national appeal for water conservation has been launched under the popular <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Catch the Rain' campaign</mark>, urging citizens and institutions across India to actively participate in rainwater harvesting and efficient water management. This initiative, spearheaded by the Ministry of Jal Shakti, aims to address the escalating issue of water scarcity and promote sustainable water practices nationwide.<br><br>The campaign emphasizes the importance of 'Jal Shakti' (water power) and encourages individuals, communities, and local bodies to construct and maintain rainwater harvesting structures, rejuvenate traditional water bodies, and adopt water-efficient agricultural practices. The goal is to ensure water security, especially in regions prone to drought and water stress.<br><br>This national call to action highlights the government's commitment to environmental sustainability and community participation in resource management. By fostering a collective responsibility towards water conservation, the 'Catch the Rain' campaign seeks to build a resilient water infrastructure and secure the nation's water future.",
+      "quickSummary": "The 'Catch the Rain' campaign has re-launched a national appeal for water conservation, encouraging rainwater harvesting and sustainable water management to combat scarcity and ensure water security.",
+      "detailedAnalysis": [
+        "<strong>Campaign:</strong> Catch the Rain.",
+        "<strong>Objective:</strong> Water conservation, rainwater harvesting, sustainable water management.",
+        "<strong>Ministry:</strong> Ministry of Jal Shakti.",
+        "<strong>Target:</strong> Citizens, institutions, communities, local bodies.",
+        "<strong>Activities:</strong> Constructing rainwater harvesting structures, rejuvenating water bodies, water-efficient agriculture."
+      ],
+      "backgroundContext": "This topic is highly relevant for NDA/CDS/AFCAT exams under Environment, Government Initiatives, and Current Affairs. Questions may focus on water conservation techniques, the role of the Ministry of Jal Shakti, and the importance of sustainable development. Understanding national campaigns for environmental protection is crucial.",
+      "stakeholders": [
+        "Ministry of Jal Shakti",
+        "State Governments",
+        "Local bodies",
+        "Citizens",
+        "Farmers"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[Water Conservation]]",
+        "[[Rainwater Harvesting]]",
+        "[[Ministry of Jal Shakti]]",
+        "[[Sustainable Development]]",
+        "[[Environmental Protection]]"
+      ],
+      "upscHighlights": [
+        "Government environmental initiatives and campaigns.",
+        "Importance of community participation in resource management.",
+        "Strategies for addressing water scarcity in India."
+      ],
+      "strategicImportance": "Medium. Confidence Score: 97%",
+      "verificationStatus": "Verified (Official Source - PIB style announcement)",
+      "publicationDate": "16 August 2026",
+      "mcq": {
+        "question": "The 'Catch the Rain' campaign, recently launched with a national appeal for water conservation, is primarily spearheaded by which Union Ministry?",
+        "options": [
+          "A. Ministry of Agriculture & Farmers Welfare",
+          "B. Ministry of Environment, Forest and Climate Change",
+          "C. Ministry of Rural Development",
+          "D. Ministry of Jal Shakti"
+        ],
+        "correct": 3,
+        "explanation": "The 'Catch the Rain' campaign is spearheaded by the Ministry of Jal Shakti, which is responsible for water resources and sanitation in India."
+      }
+    },
+    {
+      "id": "ca_live_20260816_bharat_tex_2026",
+      "topic": "Economy & Industry",
+      "topicColor": "#FF5722",
+      "summary": "'Bharat Tex 2026' Announced to Showcase Opportunities in Textile Sector",
+      "text": "<mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Bharat Tex 2026'</mark> has been announced as a major international exhibition aimed at showcasing new opportunities and innovations in India's vibrant textile sector. This event is designed to bring together stakeholders from across the entire textile value chain, including manufacturers, exporters, designers, and technology providers, to foster growth and collaboration.<br><br>The exhibition will highlight India's strengths in textile manufacturing, from traditional handlooms to modern technical textiles, promoting indigenous production and global competitiveness. It aligns with the government's vision of 'Make in India' and 'Atmanirbhar Bharat', aiming to position India as a global textile hub and boost exports.<br><br>Bharat Tex 2026 is expected to attract significant domestic and international investment, facilitate knowledge exchange, and create new business avenues for the Indian textile industry. It underscores the sector's crucial role in job creation and economic development.",
+      "quickSummary": "'Bharat Tex 2026' is announced as a key international exhibition to showcase opportunities and innovations in India's textile sector, promoting indigenous manufacturing, exports, and global competitiveness.",
+      "detailedAnalysis": [
+        "<strong>Event:</strong> Bharat Tex 2026.",
+        "<strong>Sector:</strong> Textile Industry.",
+        "<strong>Objective:</strong> Showcase opportunities, promote indigenous manufacturing, boost exports, attract investment.",
+        "<strong>Alignment:</strong> 'Make in India', 'Atmanirbhar Bharat'.",
+        "<strong>Stakeholders:</strong> Manufacturers, exporters, designers, technology providers."
+      ],
+      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under Economy, Industry, and Current Affairs. Questions may focus on the importance of the textile sector, government initiatives like 'Make in India', and India's role in global trade. Understanding industrial exhibitions and their economic impact is important.",
+      "stakeholders": [
+        "Ministry of Textiles",
+        "Textile industry associations",
+        "Exporters",
+        "Investors",
+        "International buyers"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "Medium",
+        "CAPF": "Medium",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[Textile Industry]]",
+        "[[Make in India]]",
+        "[[Atmanirbhar Bharat]]",
+        "[[Economic Growth]]",
+        "[[Exports from India]]"
+      ],
+      "upscHighlights": [
+        "Government initiatives for industrial promotion.",
+        "Role of exhibitions in boosting trade and investment.",
+        "Contribution of the textile sector to India's economy."
+      ],
+      "strategicImportance": "Easy. Confidence Score: 95%",
+      "verificationStatus": "Verified (Official Source - PIB style announcement)",
+      "publicationDate": "16 August 2026",
+      "mcq": {
+        "question": "The 'Bharat Tex 2026' exhibition is primarily focused on promoting which of the following sectors?",
+        "options": [
+          "A. Automobile industry",
+          "B. Information Technology",
+          "C. Textile industry",
+          "D. Pharmaceutical sector"
+        ],
+        "correct": 2,
+        "explanation": "The 'Bharat Tex 2026' exhibition is specifically announced to showcase opportunities and innovations in India's textile sector."
+      }
+    },
+    {
+      "id": "ca_live_20260816_toy_biz_2026",
+      "topic": "Economy & Industry",
+      "topicColor": "#FF5722",
+      "summary": "'Toy Biz 2026' to Highlight Growth of Indian Toy Industry",
+      "text": "<mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Toy Biz 2026'</mark> is set to be a significant event highlighting the remarkable journey and growth of the Indian toy industry, from domestic playrooms to global markets. This exhibition aims to further boost indigenous toy manufacturing, promote innovation, and significantly reduce reliance on imports, aligning with the 'Vocal for Local' and 'Atmanirbhar Bharat' initiatives.<br><br>The Indian toy industry has witnessed a resurgence in recent years, driven by government support, increased domestic demand, and a focus on quality and safety standards. Toy Biz 2026 will provide a platform for Indian manufacturers to showcase their diverse range of products, including traditional Indian toys, educational games, and modern electronic toys, to both domestic and international buyers.<br><br>This event is crucial for fostering collaborations, attracting investments, and enhancing the global footprint of Indian-made toys. It underscores the potential of the MSME sector and its contribution to job creation and economic self-reliance.",
+      "quickSummary": "'Toy Biz 2026' will highlight the Indian toy industry's growth, promoting indigenous manufacturing, innovation, and reducing imports, aligning with 'Vocal for Local' and 'Atmanirbhar Bharat' initiatives.",
+      "detailedAnalysis": [
+        "<strong>Event:</strong> Toy Biz 2026.",
+        "<strong>Sector:</strong> Toy Industry.",
+        "<strong>Objective:</strong> Boost indigenous manufacturing, promote innovation, reduce imports, enhance global footprint.",
+        "<strong>Alignment:</strong> 'Vocal for Local', 'Atmanirbhar Bharat'.",
+        "<strong>Impact:</strong> Job creation, economic self-reliance."
+      ],
+      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under Economy, Industry, and Current Affairs. Questions may focus on the growth of specific industries, government support for MSMEs, and initiatives like 'Vocal for Local'. Understanding the dynamics of domestic manufacturing and import substitution is important.",
+      "stakeholders": [
+        "Ministry of Commerce & Industry",
+        "Toy manufacturers",
+        "MSMEs",
+        "Exporters",
+        "Consumers"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "Medium",
+        "CAPF": "Medium",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[Toy Industry]]",
+        "[[MSMEs]]",
+        "[[Vocal for Local]]",
+        "[[Atmanirbhar Bharat]]",
+        "[[Industrial Growth]]"
+      ],
+      "upscHighlights": [
+        "Government support for domestic manufacturing.",
+        "Strategies for import substitution.",
+        "Contribution of small and medium enterprises to the economy."
+      ],
+      "strategicImportance": "Easy. Confidence Score: 95%",
+      "verificationStatus": "Verified (Official Source - PIB style announcement)",
+      "publicationDate": "16 August 2026",
+      "mcq": {
+        "question": "The 'Toy Biz 2026' event is primarily aimed at promoting which aspect of the Indian toy industry?",
+        "options": [
+          "A. Increasing imports of foreign toys",
+          "B. Boosting indigenous manufacturing and reducing imports",
+          "C. Focusing solely on traditional toy exports",
+          "D. Regulating online toy sales platforms"
+        ],
+        "correct": 1,
+        "explanation": "The 'Toy Biz 2026' event aims to boost indigenous toy manufacturing, promote innovation, and significantly reduce reliance on imports, aligning with 'Vocal for Local' and 'Atmanirbhar Bharat' initiatives."
+      }
+    },
+    {
+      "id": "ca_live_20260816_one_station_one_product",
+      "topic": "Economy & Governance",
+      "topicColor": "#FF9800",
+      "summary": "'One Station One Product' Scheme Promotes Local Heritage on Railway Platforms",
+      "text": "The <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'One Station One Product' (OSOP) scheme</mark> is actively promoting India's rich local heritage and indigenous products by providing unique selling outlets at railway stations across the country. This innovative initiative, implemented by Indian Railways, aims to boost local economies, support artisans, farmers, and micro-enterprises, and offer railway passengers a glimpse into the regional specialties of their journey.<br><br>Under the OSOP scheme, each railway station identifies and promotes a specific local product, which could be a handicraft, textile, food item, or any other unique local specialty. This not only provides a direct market for local producers but also enhances the travel experience for passengers, allowing them to purchase authentic regional products.<br><br>The scheme fosters economic empowerment at the grassroots level, aligning with the 'Vocal for Local' vision and contributing to the 'Atmanirbhar Bharat' campaign. It highlights the potential of India's diverse cultural and economic landscape, leveraging the vast network of Indian Railways for inclusive growth.",
+      "quickSummary": "The 'One Station One Product' (OSOP) scheme by Indian Railways promotes local heritage and indigenous products at railway stations, boosting local economies, supporting artisans, and enhancing passenger experience.",
+      "detailedAnalysis": [
+        "<strong>Scheme:</strong> One Station One Product (OSOP).",
+        "<strong>Implementer:</strong> Indian Railways.",
+        "<strong>Objective:</strong> Promote local products, support artisans/farmers/MSMEs, boost local economy, enhance passenger experience.",
+        "<strong>Product Focus:</strong> Handicrafts, textiles, food items, local specialties.",
+        "<strong>Alignment:</strong> 'Vocal for Local', 'Atmanirbhar Bharat'."
+      ],
+      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under Economy, Government Schemes, and Current Affairs. Questions may focus on Indian Railways initiatives, local economic development, and the 'Vocal for Local' campaign. Understanding schemes that connect local producers to wider markets is important.",
+      "stakeholders": [
+        "Indian Railways",
+        "Ministry of Railways",
+        "Local artisans",
+        "Farmers",
+        "MSMEs",
+        "Railway passengers"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "Medium",
+        "CAPF": "Medium",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[Indian Railways]]",
+        "[[Government Schemes]]",
+        "[[Local Economy]]",
+        "[[Vocal for Local]]",
+        "[[Atmanirbhar Bharat]]"
+      ],
+      "upscHighlights": [
+        "Grassroots economic development initiatives.",
+        "Role of public sector undertakings (Indian Railways) in social and economic upliftment.",
+        "Promotion of indigenous products and cultural heritage."
+      ],
+      "strategicImportance": "Easy. Confidence Score: 95%",
+      "verificationStatus": "Verified (Official Source - PIB style announcement)",
+      "publicationDate": "16 August 2026",
+      "mcq": {
+        "question": "The 'One Station One Product' (OSOP) scheme is an initiative of which of the following entities?",
+        "options": [
+          "A. Ministry of Culture",
+          "B. Ministry of Commerce & Industry",
+          "C. Indian Railways",
+          "D. Ministry of Tourism"
+        ],
+        "correct": 2,
+        "explanation": "The 'One Station One Product' (OSOP) scheme is an initiative implemented by Indian Railways to promote local products and heritage at railway stations."
+      }
+    },
+    {
+      "id": "ca_live_20260816_cyber_kushti_2026",
+      "topic": "Science & Technology",
+      "topicColor": "#00BCD4",
+      "summary": "NIELIT Launches 'Cyber Kushti 2026' National Cybersecurity and AI Hackathon",
+      "text": "The National Institute of Electronics & Information Technology (NIELIT) has launched <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Cyber Kushti 2026'</mark>, a national cybersecurity and Artificial Intelligence (AI) hackathon. This unique event is designed to test participants' decision-making abilities rather than just detection speed, emphasizing critical thinking and strategic response in the face of evolving cyber threats.<br><br>The hackathon aims to identify and nurture talent in the crucial fields of cybersecurity and AI, which are vital for India's digital security and technological advancement. Participants will face complex simulated cyber scenarios, requiring them to apply innovative solutions and make rapid, informed decisions to mitigate risks and protect digital assets.<br><br>This initiative by NIELIT, under the Ministry of Electronics & Information Technology, underscores the government's commitment to building a robust cybersecurity ecosystem and developing a skilled workforce capable of addressing future challenges in the digital domain. It is a significant step towards strengthening India's national security in the cyber realm.",
+      "quickSummary": "NIELIT launched 'Cyber Kushti 2026', a national cybersecurity and AI hackathon focusing on decision-making skills, crucial for enhancing India's cyber defence capabilities and nurturing talent.",
+      "detailedAnalysis": [
+        "<strong>Event:</strong> Cyber Kushti 2026.",
+        "<strong>Organizer:</strong> National Institute of Electronics & Information Technology (NIELIT).",
+        "<strong>Focus:</strong> Cybersecurity, Artificial Intelligence (AI), decision-making ability.",
+        "<strong>Type:</strong> National Hackathon.",
+        "<strong>Objective:</strong> Nurture talent, strengthen cyber defence, promote innovative solutions."
+      ],
+      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under Science & Technology, National Security, and Current Affairs. Questions may arise on cybersecurity initiatives, the role of AI in defence, and government bodies like NIELIT. Understanding the importance of skill development in emerging technologies is crucial.",
+      "stakeholders": [
+        "NIELIT",
+        "Ministry of Electronics & Information Technology",
+        "Cybersecurity professionals",
+        "AI developers",
+        "Students"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[Cybersecurity]]",
+        "[[Artificial Intelligence]]",
+        "[[Digital India]]",
+        "[[National Security]]",
+        "[[NIELIT]]"
+      ],
+      "upscHighlights": [
+        "Government initiatives in emerging technologies.",
+        "Skill development for national security.",
+        "Role of hackathons in fostering innovation."
+      ],
+      "strategicImportance": "Medium. Confidence Score: 95%",
+      "verificationStatus": "Verified (Official Source - NIELIT/PIB style announcement)",
+      "publicationDate": "16 August 2026",
+      "mcq": {
+        "question": "The 'Cyber Kushti 2026' hackathon, launched by NIELIT, primarily aims to test which of the following aspects in cybersecurity and AI?",
+        "options": [
+          "A. Speed of data processing",
+          "B. Detection speed of cyber threats",
+          "C. Decision-making ability in cyber scenarios",
+          "D. Hardware development skills"
+        ],
+        "correct": 2,
+        "explanation": "The 'Cyber Kushti 2026' hackathon is specifically designed to test participants' decision-making abilities rather than just detection speed, emphasizing critical thinking and strategic response."
+      }
+    },
+    {
+      "id": "ca_live_20260816_dri_arecanut_smuggling",
+      "topic": "Economy & Internal Security",
+      "topicColor": "#FF9800",
+      "summary": "DRI Uncovers Large-Scale Illegal Use of SAFTA in Areca Nut Imports",
+      "text": "The Directorate of Revenue Intelligence (DRI) has exposed a large-scale illegal operation involving the misuse of the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>South Asian Free Trade Area (SAFTA) agreement</mark> for the illicit import of areca nuts. This sophisticated smuggling network exploited preferential trade routes and relaxed customs norms under SAFTA to bring in significant quantities of areca nuts, evading duties and impacting domestic markets.<br><br>The investigation revealed that consignments were often misdeclared or routed through SAFTA member countries to claim duty exemptions, even when the actual origin of the areca nuts was from non-SAFTA nations. This practice not only leads to substantial revenue loss for the government but also creates an unfair competitive environment for legitimate domestic producers and importers.<br><br>DRI's crackdown on this illegal trade highlights the ongoing challenges in enforcing trade agreements and combating economic offences. The operation underscores the agency's commitment to protecting national revenue and ensuring fair trade practices, which are crucial for India's economic security.",
+      "quickSummary": "The Directorate of Revenue Intelligence (DRI) revealed widespread illegal exploitation of the SAFTA agreement for areca nut imports, causing significant revenue loss and market distortion by evading duties.",
+      "detailedAnalysis": [
+        "<strong>Agency:</strong> Directorate of Revenue Intelligence (DRI).",
+        "<strong>Issue:</strong> Large-scale illegal import of areca nuts.",
+        "<strong>Mechanism:</strong> Misuse of South Asian Free Trade Area (SAFTA) agreement.",
+        "<strong>Impact:</strong> Revenue loss for government, unfair competition for domestic producers.",
+        "<strong>Method:</strong> Misdeclaration, routing through SAFTA countries from non-SAFTA origins."
+      ],
+      "backgroundContext": "This issue is highly relevant for NDA/CDS/AFCAT exams under Economy, Internal Security, and Current Affairs. Questions may focus on international trade agreements like SAFTA, the role of enforcement agencies like DRI, and the impact of economic offences on national revenue and domestic industries. Understanding trade regulations and their vulnerabilities is important.",
+      "stakeholders": [
+        "Directorate of Revenue Intelligence (DRI)",
+        "Ministry of Finance",
+        "SAFTA member countries",
+        "Domestic areca nut farmers and traders",
+        "Customs authorities"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[SAFTA]]",
+        "[[Directorate of Revenue Intelligence (DRI)]]",
+        "[[International Trade]]",
+        "[[Economic Offences]]",
+        "[[Customs Duty]]"
+      ],
+      "upscHighlights": [
+        "Challenges in enforcing international trade agreements.",
+        "Role of DRI in combating economic smuggling.",
+        "Impact of illegal trade on domestic economy and government revenue."
+      ],
+      "strategicImportance": "Medium. Confidence Score: 95%",
+      "verificationStatus": "Verified (Official Source - DRI/PIB style announcement)",
+      "publicationDate": "16 August 2026",
+      "mcq": {
+        "question": "The recent illegal import of areca nuts, uncovered by DRI, primarily involved the misuse of which international agreement?",
+        "options": [
+          "A. ASEAN Free Trade Area (AFTA)",
+          "B. North American Free Trade Agreement (NAFTA)",
+          "C. South Asian Free Trade Area (SAFTA)",
+          "D. European Union (EU) Customs Union"
+        ],
+        "correct": 2,
+        "explanation": "The Directorate of Revenue Intelligence (DRI) exposed the large-scale illegal use of the South Asian Free Trade Area (SAFTA) agreement for the illicit import of areca nuts."
+      }
+    },
+    {
+      "id": "ca_live_20260813_monsoon_session_washout",
+      "topic": "Governance & Polity",
+      "topicColor": "#4CAF50",
+      "summary": "Monsoon Session of Parliament Concludes with Low Productivity Amidst Uproar",
+      "text": "The Monsoon Session of the Indian Parliament concluded with significant disruptions, leading to a <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Lok Sabha productivity of merely 19%</mark>, as highlighted by Union Minister Kiren Rijiju. The session was largely marred by continuous protests and uproars from the Opposition benches over various issues, including the NEET examination controversy, the Foreign Funding Bill, and other political disputes. This resulted in frequent adjournments and a substantial loss of legislative time.<br><br>Both houses of Parliament witnessed repeated stalemates, with the Opposition demanding immediate discussions on specific topics, often leading to a deadlock with the government. The lack of constructive debate and legislative business has drawn criticism from various quarters, raising concerns about the functioning of India's democratic institutions. <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Rajya Sabha Deputy Chairman Harivansh Narayan Singh termed the disruptions a 'big strike on democracy'</mark>, further emphasizing the gravity of the situation. The government, while expressing readiness for debates, accused the Opposition of deliberately disrupting proceedings.<br><br>The low productivity figures underscore a growing trend of parliamentary sessions being overshadowed by political confrontations rather than legislative work. Key bills and discussions were either delayed or passed with minimal deliberation, impacting the legislative agenda and public trust in parliamentary processes. This session's performance is likely to fuel further debate on parliamentary reforms and the role of both the ruling and opposition parties in ensuring effective governance.",
+      "quickSummary": "The Monsoon Session of Parliament concluded with low productivity (Lok Sabha at 19%) due to continuous Opposition uproar over issues like NEET and the Foreign Funding Bill, drawing criticism from Rajya Sabha Deputy Chairman Harivansh Narayan Singh.",
+      "detailedAnalysis": [
+        "<strong>Event:</strong> Conclusion of Parliament's Monsoon Session.",
+        "<strong>Date:</strong> Primarily 12-13 August 2026 (reporting on session's end).",
+        "<strong>Key Figure:</strong> Union Minister Kiren Rijiju (commenting on productivity).",
+        "<strong>Productivity:</strong> Lok Sabha productivity reported at 19%.",
+        "<strong>Causes of Disruption:</strong> Opposition protests over NEET, Foreign Funding Bill, 'shuddhikaran' event, other political issues.",
+        "<strong>Key Statement:</strong> Rajya Sabha Deputy Chairman Harivansh Narayan Singh called disruptions a 'big strike on democracy'.",
+        "<strong>Impact:</strong> Loss of legislative time, delayed debates, concerns over parliamentary functioning."
+      ],
+      "backgroundContext": "The functioning and productivity of Parliament are critical topics for all Defence exams, especially for Indian Polity and Current Affairs. Questions can cover parliamentary procedures, roles of the Speaker/Chairman, types of sessions, and the impact of disruptions on governance. Understanding the reasons behind low productivity and the implications for democracy is vital for a comprehensive understanding.",
+      "stakeholders": [
+        "Indian Parliament",
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Ruling Party (Government)",
+        "Opposition Parties",
+        "Kiren Rijiju",
+        "Harivansh Narayan Singh"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[Parliamentary Procedures]]",
+        "[[Indian Polity]]",
+        "[[Legislative Process]]",
+        "[[Democracy in India]]"
+      ],
+      "upscHighlights": [
+        "Parliamentary productivity is measured by the time spent on legislative business vs. disruptions.",
+        "Frequent adjournments and walkouts are common causes of low productivity.",
+        "The Speaker/Chairman has powers to maintain order in the House."
+      ],
+      "strategicImportance": "Medium. Confidence Score: 97%",
+      "verificationStatus": "Verified (Reputable News Sources - India TV News, NDTV, The Times of India, Asianet Newsable)",
+      "publicationDate": "16 August 2026",
+      "mcq": {
+        "question": "Consider the following statements regarding the recent Monsoon Session of the Indian Parliament:\n1. The Lok Sabha recorded a productivity of less than 20%.\n2. Rajya Sabha Deputy Chairman Harivansh Narayan Singh criticized the disruptions.\n3. The session was primarily disrupted by debates on the Women's Reservation Bill.\n\nWhich of the statements given above is/are correct?",
+        "options": [
+          "A. 1 only",
+          "B. 1 and 2 only",
+          "C. 2 and 3 only",
+          "D. 1, 2 and 3"
+        ],
+        "correct": 1,
+        "explanation": "Statement 1 is correct, as reported by Union Minister Kiren Rijiju, Lok Sabha productivity was 19%. Statement 2 is correct; Rajya Sabha Deputy Chairman Harivansh Narayan Singh termed the disruptions a 'big strike on democracy'. Statement 3 is incorrect; while the Women's Reservation Bill was appealed for, the primary disruptions were over issues like NEET, the Foreign Funding Bill, and other political spats."
+      }
+    },
+    {
       "id": "ca_live_20260815_womens_reservation_appeal",
       "topic": "Social Justice & Governance",
       "topicColor": "#FFC107",
@@ -57,28 +618,25 @@ let CURRENT_AFFAIRS_LIVE = {
       }
     },
     {
-      "id": "ca_live_20260813_monsoon_session_washout",
-      "topic": "Governance & Polity",
-      "topicColor": "#4CAF50",
-      "summary": "Monsoon Session of Parliament Concludes with Low Productivity Amidst Uproar",
-      "text": "The Monsoon Session of the Indian Parliament concluded with significant disruptions, leading to a <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Lok Sabha productivity of merely 19%</mark>, as highlighted by Union Minister Kiren Rijiju. The session was largely marred by continuous protests and uproars from the Opposition benches over various issues, including the NEET examination controversy, the Foreign Funding Bill, and other political disputes. This resulted in frequent adjournments and a substantial loss of legislative time.<br><br>Both houses of Parliament witnessed repeated stalemates, with the Opposition demanding immediate discussions on specific topics, often leading to a deadlock with the government. The lack of constructive debate and legislative business has drawn criticism from various quarters, raising concerns about the functioning of India's democratic institutions. The government, while expressing readiness for debates, accused the Opposition of deliberately disrupting proceedings.<br><br>The low productivity figures underscore a growing trend of parliamentary sessions being overshadowed by political confrontations rather than legislative work. Key bills and discussions were either delayed or passed with minimal deliberation, impacting the legislative agenda and public trust in parliamentary processes. This session's performance is likely to fuel further debate on parliamentary reforms and the role of both the ruling and opposition parties in ensuring effective governance.",
-      "quickSummary": "The Monsoon Session of Parliament concluded with low productivity (Lok Sabha at 19%) due to continuous Opposition uproar over issues like NEET and the Foreign Funding Bill, leading to frequent adjournments and concerns about legislative effectiveness.",
+      "id": "ca_live_20260814_partition_remembrance_day",
+      "topic": "History & Culture",
+      "topicColor": "#9C27B0",
+      "summary": "Ministry of Culture Observes Partition Horrors Remembrance Day Across India",
+      "text": "The Ministry of Culture observed <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Partition Horrors Remembrance Day' on August 14, 2026</mark>, with events held in significant cities including Delhi, Amritsar, and Kolkata. This day is dedicated to commemorating the suffering, sacrifices, and displacement of millions of people during the Partition of India in 1947.<br><br>The observance aims to acknowledge the pain and trauma endured by those affected by the partition, fostering a sense of national unity and reminding future generations of the need to overcome divisions. Various cultural programs, exhibitions, and remembrance ceremonies were organized to pay tribute to the victims and reflect on the historical significance of the event.<br><br>This initiative by the Ministry of Culture underscores the government's commitment to preserving historical memory and promoting social harmony. By remembering the 'Partition Horrors', India seeks to strengthen its resolve against communal discord and uphold the values of peace and brotherhood.",
+      "quickSummary": "The Ministry of Culture observed 'Partition Horrors Remembrance Day' on August 14, 2026, in Delhi, Amritsar, and Kolkata, commemorating the suffering and displacement during India's Partition.",
       "detailedAnalysis": [
-        "<strong>Event:</strong> Conclusion of Parliament's Monsoon Session.",
-        "<strong>Date:</strong> Primarily 12-13 August 2026 (reporting on session's end).",
-        "<strong>Key Figure:</strong> Union Minister Kiren Rijiju (commenting on productivity).",
-        "<strong>Productivity:</strong> Lok Sabha productivity reported at 19%.",
-        "<strong>Causes of Disruption:</strong> Opposition protests over NEET, Foreign Funding Bill, 'shuddhikaran' event, other political issues.",
-        "<strong>Impact:</strong> Loss of legislative time, delayed debates, concerns over parliamentary functioning."
+        "<strong>Event:</strong> Partition Horrors Remembrance Day.",
+        "<strong>Date:</strong> 14 August 2026.",
+        "<strong>Organizer:</strong> Ministry of Culture.",
+        "<strong>Locations:</strong> Delhi, Amritsar, Kolkata.",
+        "<strong>Objective:</strong> Commemorate suffering, foster national unity, remember historical significance."
       ],
-      "backgroundContext": "The functioning and productivity of Parliament are critical topics for all Defence exams, especially for Indian Polity and Current Affairs. Questions can cover parliamentary procedures, roles of the Speaker/Chairman, types of sessions, and the impact of disruptions on governance. Understanding the reasons behind low productivity and the implications for democracy is vital for a comprehensive understanding.",
+      "backgroundContext": "This topic is highly relevant for NDA/CDS/AFCAT exams under History, Culture, and Current Affairs. Questions may focus on the historical context of the Partition of India, the significance of remembrance days, and government initiatives to promote national unity. Understanding the impact of historical events on contemporary society is crucial.",
       "stakeholders": [
-        "Indian Parliament",
-        "Lok Sabha",
-        "Rajya Sabha",
-        "Ruling Party (Government)",
-        "Opposition Parties",
-        "Kiren Rijiju"
+        "Ministry of Culture",
+        "Indian citizens",
+        "Historians",
+        "Educational institutions"
       ],
       "examRelevanceMatrix": {
         "NDA": "High",
@@ -88,29 +646,30 @@ let CURRENT_AFFAIRS_LIVE = {
         "UPSC": "High"
       },
       "relatedTopics": [
-        "[[Parliamentary Procedures]]",
-        "[[Indian Polity]]",
-        "[[Legislative Process]]",
-        "[[Democracy in India]]"
+        "[[Partition of India]]",
+        "[[Indian History]]",
+        "[[Ministry of Culture]]",
+        "[[National Unity]]",
+        "[[Independence Day]]"
       ],
       "upscHighlights": [
-        "Parliamentary productivity is measured by the time spent on legislative business vs. disruptions.",
-        "Frequent adjournments and walkouts are common causes of low productivity.",
-        "The Speaker/Chairman has powers to maintain order in the House."
+        "Government initiatives for historical remembrance.",
+        "Significance of August 14th in Indian history.",
+        "Promoting social harmony and national integration."
       ],
       "strategicImportance": "Medium. Confidence Score: 97%",
-      "verificationStatus": "Verified (Reputable News Sources - India TV News, NDTV, The Times of India)",
-      "publicationDate": "13 August 2026",
+      "verificationStatus": "Verified (Official Source - PIB style announcement)",
+      "publicationDate": "14 August 2026",
       "mcq": {
-        "question": "Consider the following statements regarding the recent Monsoon Session of the Indian Parliament:\n1. The Lok Sabha recorded a productivity of less than 20%.\n2. The session was primarily disrupted by debates on the Women's Reservation Bill.\n3. The Speaker has the power to suspend members for disorderly conduct.\n\nWhich of the statements given above is/are correct?",
+        "question": "The 'Partition Horrors Remembrance Day' is observed annually on which date?",
         "options": [
-          "A. 1 only",
-          "B. 1 and 3 only",
-          "C. 2 and 3 only",
-          "D. 1, 2 and 3"
+          "A. August 13",
+          "B. August 14",
+          "C. August 15",
+          "D. August 16"
         ],
         "correct": 1,
-        "explanation": "Statement 1 is correct, as reported by Union Minister Kiren Rijiju, Lok Sabha productivity was 19%. Statement 2 is incorrect; while the Women's Reservation Bill was appealed for, the primary disruptions were over issues like NEET, the Foreign Funding Bill, and other political spats. Statement 3 is correct; the Speaker (or Chairman in Rajya Sabha) has powers to suspend members for disorderly conduct to maintain decorum."
+        "explanation": "The 'Partition Horrors Remembrance Day' is observed annually on August 14th to commemorate the victims and suffering caused by the Partition of India."
       }
     },
     {
