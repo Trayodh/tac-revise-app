@@ -10228,7 +10228,7 @@ const NOTES_DATABASE = {
           {
             "id": "ca-defense-acquisitions",
             "title": "India-US Tech Cooperation & MQ-9B Drones",
-            "notes": "",
+            "notes": "<div class=\"revision-card\"><h3>India-US Defence Tech Cooperation & MQ-9B Drone Procurement</h3><p>India and the United States have significantly deepened strategic defence technology collaboration under the <strong>Initiative on Critical and Emerging Technology (iCET)</strong> and the <strong>INDUS-X</strong> (India-U.S. Defence Acceleration Ecosystem) framework.</p><h4>1. MQ-9B SkyGuardian & SeaGuardian Deal</h4><ul><li><strong>Procurement:</strong> 31 MQ-9B High-Altitude Long-Endurance (HALE) Remotely Piloted Aircraft Systems (15 SeaGuardians for Indian Navy, 8 SkyGuardians each for Army & Air Force).</li><li><strong>Capability:</strong> Over 35 hours endurance, multi-domain ISR (Intelligence, Surveillance, Reconnaissance), and strike capability with AGM-114 Hellfire missiles and GBU-39 precision-guided bombs.</li></ul><h4>2. GE F414 Jet Engine Co-Production</h4><ul><li>Co-production of General Electric (GE) F414 jet engines in India by HAL with 80% technology transfer for Tejas Mk2 fighters.</li></ul></div>",
             "formulas": "iCET: Initiative on Critical and Emerging Technology\nGE F414: Jet engine co-production in India\nMQ-9B: 31 Predator drones (15 SeaGuardian, 16 SkyGuardian)",
             "mindmap": {
               "root": "India-US Tech",

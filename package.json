@@ -7,6 +7,9 @@
     "start": "node server.js",
     "dev": "node server.js",
     "pipeline": "node run_pipeline.js",
+    "lint:notes": "node validate_notes.js",
+    "test:render": "node tests/render.test.js",
+    "build:ssg": "node build_ssg.js",
     "vercel-build": "echo 'Static build bypass'"
   },
   "keywords": [
