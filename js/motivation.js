@@ -63,7 +63,148 @@ const BRAVERY_STORIES = [
     unit: "INS Khukri, Indian Navy",
     year: "1971 (Indo-Pak War)",
     story: "During the 1971 war, the anti-submarine frigate INS Khukri was struck by torpedoes fired by a Pakistani submarine. As the ship sank rapidly in the Arabian Sea, Captain Mulla calmly supervised rescue operations, helping sailors to safety. When he noticed a junior sailor without a life jacket, he handed over his own. Upholding the highest naval traditions, he refused to abandon his ship, going down with the INS Khukri while ensuring the survival of many crewmen."
-  }
+  },
+
+  // ── PARAM VIR CHAKRA ADDITIONAL HEROES ────────────────────────────────
+  {
+    hero: "Lance Naik Albert Ekka, PVC",
+    award: "Param Vir Chakra (Posthumous)",
+    unit: "14 Guards",
+    year: "1971 (Liberation of Bangladesh)",
+    story: "During the assault on Gangasagar in East Pakistan, Lance Naik Ekka's platoon came under intense fire from a well-fortified bunker. Ignoring his own wounds, he single-handedly attacked the bunker, bayoneted the machine-gun crew, and silenced the weapon. He then led the charge on a second fortified post, saving his company — but succumbed to multiple bullet wounds before the battle ended. He is the only PVC recipient from Jharkhand."
+  },
+  {
+    hero: "Havildar Abdul Hamid, PVC",
+    award: "Param Vir Chakra (Posthumous)",
+    unit: "4 Grenadiers",
+    year: "1965 (Battle of Asal Uttar)",
+    story: "During the 1965 war, Pakistan's feared Patton tank column advanced towards Khem Karan. Havildar Abdul Hamid single-handedly knocked out seven Pakistani Patton tanks using a jeep-mounted recoilless gun, often exposing himself to direct fire to get better angles. While destroying the seventh tank, he was killed by enemy fire. His bravery turned 'Asal Uttar' — meaning 'fitting reply' — into the graveyard of Patton tanks."
+  },
+  {
+    hero: "Company Quartermaster Havildar Piru Singh Shekhawat, PVC",
+    award: "Param Vir Chakra (Posthumous)",
+    unit: "6 Rajputana Rifles",
+    year: "1948 (Tithwal, J&K)",
+    story: "During an attack on heavily defended positions at Tithwal, CQMH Piru Singh's company was pinned down by enemy fire. He charged alone at enemy machine-gun positions, throwing grenades and fighting hand-to-hand. Even after being severely wounded in the head, he continued to advance and silence enemy posts. He was found dead atop the third post he single-handedly captured."
+  },
+  {
+    hero: "Naik Jadunath Singh, PVC",
+    award: "Param Vir Chakra (Posthumous)",
+    unit: "1 Rajput Regiment",
+    year: "1948 (Naushera, J&K)",
+    story: "At Taindhar near Naushera, Naik Jadunath Singh was guarding an outpost when Pakistani raiders launched a massive assault. He repelled three consecutive waves of attackers on his own after his comrades fell. Charging the enemy on the final wave with grenades and bayonet, he drove them back before being overwhelmed. India observes 6 February as 'Infantry Day' in his honour."
+  },
+  {
+    hero: "Captain Manoj Kumar Pandey, PVC",
+    award: "Param Vir Chakra (Posthumous)",
+    unit: "1/11 Gorkha Rifles",
+    year: "1999 (Kargil War, Jubar Top)",
+    story: "Captain Pandey's mission was to capture the key feature 'Khalubar' in Batalik. He led his platoon through three successive assaults on enemy bunkers, each time the first man through. Severely wounded in the last assault, he still charged the final post shouting the Gorkha war cry 'Jai Maa Kali! Ayo Gorkhali!', capturing it before collapsing. His diary found after death read: 'Some goals are so worthy, it is glorious even to fail.'"
+  },
+  {
+    hero: "Naib Subedar Sanjay Kumar, PVC",
+    award: "Param Vir Chakra",
+    unit: "13 Jammu & Kashmir Rifles",
+    year: "1999 (Kargil War, Area Flat Top)",
+    story: "Naib Subedar Sanjay Kumar volunteered to lead the assault on 'Area Flat Top' during Kargil. Single-handedly charging enemy positions, he was shot through the forearm and chest. He still overpowered the enemy gunner, snatched his weapon, and continued to fight, clearing a second position. Bleeding heavily, he refused evacuation until the objective was captured. He is one of only three Kargil PVC recipients to survive."
+  },
+  // ── INDIAN AIR FORCE ─────────────────────────────────────────────────────
+  {
+    hero: "Flying Officer Nirmal Jit Singh Sekhon, PVC",
+    award: "Param Vir Chakra (Posthumous)",
+    unit: "18 Squadron, Indian Air Force",
+    year: "1971 (Defence of Srinagar Airbase)",
+    story: "On 14 December 1971, six Pakistani Sabre jets attacked Srinagar airbase. Flying Officer Sekhon scrambled alone in his Gnat fighter — his wingman's aircraft was unserviceable. Outnumbered 6 to 1, he shot down two Pakistani jets before his own aircraft was hit. He is the only IAF officer to receive the Param Vir Chakra. The Gnat was nicknamed 'Sabre Slayer' after this war."
+  },
+  {
+    hero: "Wing Commander Abhinandan Varthaman, VrC",
+    award: "Vir Chakra",
+    unit: "No. 51 Squadron, IAF",
+    year: "2019 (Post-Balakot Air Engagement)",
+    story: "After India's Balakot air strikes, Wing Commander Abhinandan engaged multiple modern Pakistani F-16s in a MiG-21 Bison — a 1960s aircraft. He shot down a Pakistani F-16 before his aircraft was struck by a missile. He ejected over Pakistani territory, was captured, disclosed nothing under interrogation, and was repatriated 60 hours later as a national hero. He proved that warrior spirit defeats technology every time."
+  },
+  {
+    hero: "Flight Lieutenant K. Nachiketa, VrC",
+    award: "Vir Chakra",
+    unit: "Indian Air Force",
+    year: "1999 (Kargil War)",
+    story: "Flight Lieutenant Nachiketa's MiG-27 was shot down by a Stinger missile over Pakistan-Occupied Kashmir on 27 May 1999. He ejected safely but was captured by Pakistani forces. Despite eight days of intense interrogation, he disclosed no classified information and made no statements that would embarrass India. He was repatriated after intense diplomatic pressure and is celebrated as a symbol of IAF's indomitable spirit."
+  },
+  // ── INDIAN NAVY ──────────────────────────────────────────────────────────
+  {
+    hero: "INS Vinash Crew — Operation Trident",
+    award: "Collective Gallantry",
+    unit: "INS Vinash (P33), Indian Navy",
+    year: "1971 (Karachi Port Attack)",
+    story: "On the night of 4-5 December 1971, India executed 'Operation Trident' — the first combat use of anti-ship missiles in the Indian subcontinent. Three Vidyut-class missile boats, led by INS Vinash, fired Styx missiles at Karachi harbour, sinking the destroyer PNS Khyber and multiple fuel tankers. The oil fires lit up Karachi for a week. Operation Trident is celebrated every year as 'Navy Day' on December 4."
+  },
+  // ── LEGENDARY LEADERSHIP ────────────────────────────────────────────────
+  {
+    hero: "Field Marshal Sam Manekshaw, MC",
+    award: "Field Marshal, PVSM, MC",
+    unit: "Chief of Army Staff — 1971 War",
+    year: "1971 (Liberation of Bangladesh)",
+    story: "Field Marshal Sam Manekshaw's strategic genius delivered a 13-day victory in 1971. When PM Indira Gandhi pressured him to attack in April, he calmly told her: 'If you want me to go to war right now, I guarantee you a catastrophe.' His meticulous 8-month preparation delivered the surrender of 93,000 Pakistani troops — the largest military surrender since World War II. He became India's first Field Marshal in 1973."
+  },
+  // ── ANTI-TERROR & COUNTER-INSURGENCY ────────────────────────────────────
+  {
+    hero: "Major Mohit Sharma, AC",
+    award: "Ashoka Chakra (Posthumous)",
+    unit: "1 Para SF (Special Forces)",
+    year: "2009 (Counter-Terror, J&K)",
+    story: "Major Mohit Sharma was operating undercover with the alias 'Iftikhar Bhatt' to infiltrate a militant network in J&K. When his cover was blown during a critical operation in Shopian, he drew the militants' fire upon himself to protect his team and was killed in the exchange. His bravery saved his entire covert unit. He was awarded India's highest peacetime gallantry award — the Ashoka Chakra — posthumously."
+  },
+  {
+    hero: "Havildar Hangpan Dada, AC",
+    award: "Ashoka Chakra (Posthumous)",
+    unit: "35 Rashtriya Rifles",
+    year: "2016 (Counter-Terror, Arunachal Pradesh)",
+    story: "Havildar Hangpan Dada tracked a group of heavily armed militants in dense Arunachal Pradesh jungle. Mortally wounded in the firefight, he continued to engage the militants, ensuring his team escaped and the threat was neutralized. His last act was to keep firing while bleeding out to protect his patrol. He was the first Indian soldier to receive the Ashoka Chakra for operations in Arunachal Pradesh."
+  },
+  {
+    hero: "Captain Saurabh Kalia",
+    award: "Served with Honour",
+    unit: "4 Jat Regiment",
+    year: "1999 (Kargil — First to Detect Intrusion)",
+    story: "Captain Saurabh Kalia and his patrol of five soldiers were the first to detect Pakistani Army regulars occupying Indian posts in Kargil in May 1999. His patrol was captured and subjected to brutal torture for 22 days in captivity. They disclosed no military information. His case remains before the Supreme Court of India. Captain Kalia is a symbol of every soldier's dignity in the face of inhumanity."
+  },
+  // ── GALWAN 2020 ───────────────────────────────────────────────────────────
+  {
+    hero: "Lieutenant Colonel Santosh Babu, MVC",
+    award: "Maha Vir Chakra (Posthumous)",
+    unit: "16 Bihar Regiment",
+    year: "2020 (Galwan Valley Clash)",
+    story: "On the night of 15-16 June 2020, Colonel Santosh Babu led his patrol to challenge a Chinese PLA build-up in the Galwan River Valley. Outnumbered and ambushed in freezing river waters at 14,000 feet with clubs and barbed-wire-wrapped weapons, he stood his ground in hand-to-hand combat. He was killed defending India's territory. His regiment's battle cry as they fought: 'Jai Bihar! Jai Hind!'"
+  },
+  {
+    hero: "Naib Subedar Nuduram Soren, MVC",
+    award: "Maha Vir Chakra (Posthumous)",
+    unit: "16 Bihar Regiment",
+    year: "2020 (Galwan Valley Clash)",
+    story: "Naib Subedar Nuduram Soren was part of Colonel Santosh Babu's patrol at Galwan on 15 June 2020. Fighting hand-to-hand with PLA troops in a frozen river at night, grievously injured, he continued to fight — allowing wounded comrades to be pulled to safety before succumbing to his wounds. He was posthumously awarded the Maha Vir Chakra for his extraordinary courage."
+  },
+  {
+    hero: "Lieutenant Balwan Singh, MVC",
+    award: "Maha Vir Chakra",
+    unit: "18 Grenadiers",
+    year: "1999 (Kargil War, Tiger Hill Summit)",
+    story: "On the night of 3-4 July 1999, Lieutenant Balwan Singh led the 'Ghatak' commando platoon that finally captured Tiger Hill after weeks of failed attempts. He personally destroyed three enemy bunkers in hand-to-hand combat and bayonet charges, securing the summit before dawn. The capture of Tiger Hill was the decisive breakthrough that ended Pakistan's grip on Kargil. Lieutenant Singh later rose to Lieutenant General."
+  },
+  // ── SIACHEN & HIGH-ALTITUDE WARFARE ─────────────────────────────────────
+  {
+    hero: "Major Siachen Warriors (Collective)",
+    award: "Multiple Gallantry Awards",
+    unit: "Indian Army — Siachen Brigade",
+    year: "1984–Present (Operation Meghdoot)",
+    story: "Since 1984, India has held the world's highest battlefield — the Siachen Glacier at 21,000 feet — through Operation Meghdoot. Temperatures drop to -50°C; more soldiers have been lost to avalanches and altitude sickness than to enemy fire. Yet Indian troops hold these positions 24x7x365. Every soldier posted to Siachen is a hero simply for reporting for duty. As Field Marshal Manekshaw said: 'If a man says he is not afraid of dying, he is either lying or he is a Gurkha.'"
+  },
+  {
+    hero: "Squadron Leader Rakesh Sharma, AC",
+    award: "Ashoka Chakra",
+    unit: "Indian Air Force / Cosmonaut",
+    year: "1984 (India's First Space Mission)",
+    story: "When Prime Minister Indira Gandhi asked Squadron Leader Rakesh Sharma — India's first man in space — how India looked from orbit, his reply became immortal: 'Saare Jahan Se Accha.' As an IAF test pilot trained in the most demanding conditions, he carried the tricolour into space aboard Soyuz T-11. He proved that the Indian uniform has no ceiling — its reach extends to the stars."
+  },
 ];
 
 let currentMotivationIndex = 0;
