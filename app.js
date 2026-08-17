@@ -17045,7 +17045,7 @@ function applyGoalGetterTheme() {
   // Background music via YouTube (hidden)
   const startAudio = () => {
     const iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/gkSO4JmJ8L4?autoplay=1&loop=1&playlist=gkSO4JmJ8L4';
+    iframe.src = 'https://www.youtube.com/embed/Kr1ncWYhof8?autoplay=1&loop=1&playlist=Kr1ncWYhof8';
     iframe.style.display = 'none';
     iframe.allow = 'autoplay';
     document.body.appendChild(iframe);
