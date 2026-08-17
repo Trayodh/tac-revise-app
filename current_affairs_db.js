@@ -1056,12 +1056,12 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "tropex-2026",
       "topic": "Defence Exercise",
-      "text": "The **Tri-Service Exercise (TROPEX) 2026** was conducted from 3‑10 April 2026 at the Indian Naval Base in Visakhapatnam, involving the Indian Army, Navy and Air Force along with the United States and Japan. The exercise focused on joint amphibious operations and cyber‑warfare drills, showcasing interoperability among the three services.",
+      "text": "The **Tri-Service Exercise (TROPEX) 2026** was conducted from 3\u201110 April 2026 at the Indian Naval Base in Visakhapatnam, involving the Indian Army, Navy and Air Force along with the United States and Japan. The exercise focused on joint amphibious operations and cyber\u2011warfare drills, showcasing interoperability among the three services.",
       "details": {
         "winner": "N/A",
         "award": "TROPEX 2026",
         "nationality": "India, United States, Japan",
-        "summary": "Joint tri‑service exercise emphasizing amphibious and cyber capabilities."
+        "summary": "Joint tri\u2011service exercise emphasizing amphibious and cyber capabilities."
       },
       "mcq": {
         "question": "Which three countries participated in TROPEX 2026?",
@@ -1117,7 +1117,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "shakti-2026",
       "topic": "Naval Exercise",
-      "text": "The **Exercise Shakti 2026** took place from 15‑21 April 2026 in the Indian Ocean, with the Indian Navy hosting the French Navy and the Royal Australian Navy. The drills included anti‑submarine warfare, carrier battle group operations and humanitarian assistance simulations.",
+      "text": "The **Exercise Shakti 2026** took place from 15\u201121 April 2026 in the Indian Ocean, with the Indian Navy hosting the French Navy and the Royal Australian Navy. The drills included anti\u2011submarine warfare, carrier battle group operations and humanitarian assistance simulations.",
       "details": {
         "winner": "N/A",
         "award": "Exercise Shakti 2026",
@@ -1178,15 +1178,15 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "akash-ix-induction",
       "topic": "Weapon Induction",
-      "text": "On 4 April 2026 the Indian Army inducted the **Akash‑IX surface‑to‑air missile system**, a next‑generation variant with a range of 70 km and dual‑mode seeker. It is slated for deployment with the Army’s air‑defence regiments across the northern sector.",
+      "text": "On 4 April 2026 the Indian Army inducted the **Akash\u2011IX surface\u2011to\u2011air missile system**, a next\u2011generation variant with a range of 70\u202fkm and dual\u2011mode seeker. It is slated for deployment with the Army\u2019s air\u2011defence regiments across the northern sector.",
       "details": {
         "winner": "N/A",
-        "award": "Akash‑IX Missile",
+        "award": "Akash\u2011IX Missile",
         "nationality": "India",
-        "summary": "New long‑range SAM enhances Army air‑defence capability."
+        "summary": "New long\u2011range SAM enhances Army air\u2011defence capability."
       },
       "mcq": {
-        "question": "What is the maximum range of the newly inducted Akash‑IX missile?",
+        "question": "What is the maximum range of the newly inducted Akash\u2011IX missile?",
         "options": [
           "A) 70 km",
           "B) 45 km",
@@ -1194,7 +1194,7 @@ window.CURRENT_AFFAIRS_DB = {
           "D) 30 km"
         ],
         "answer": "A",
-        "explanation": "Akash‑IX is designed for a 70 km operational range."
+        "explanation": "Akash\u2011IX is designed for a 70\u202fkm operational range."
       },
       "upscHighlights": [
         "India inducts Akash-IX surface-to-air missile system",
@@ -1239,15 +1239,15 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "gaganyaan-2-launch",
       "topic": "Space Mission",
-      "text": "ISRO launched **Gaganyaan‑2** on 12 April 2026 from the Satish Dhawan Space Centre, sending a crew of two Indian astronauts into a 300‑km low Earth orbit for a 7‑day mission. The flight demonstrated re‑entry technology crucial for future crewed lunar missions.",
+      "text": "ISRO launched **Gaganyaan\u20112** on 12 April 2026 from the Satish Dhawan Space Centre, sending a crew of two Indian astronauts into a 300\u2011km low Earth orbit for a 7\u2011day mission. The flight demonstrated re\u2011entry technology crucial for future crewed lunar missions.",
       "details": {
         "winner": "N/A",
-        "award": "Gaganyaan‑2 Mission",
+        "award": "Gaganyaan\u20112 Mission",
         "nationality": "India",
-        "summary": "Second crewed mission validates re‑entry and orbital operations."
+        "summary": "Second crewed mission validates re\u2011entry and orbital operations."
       },
       "mcq": {
-        "question": "From which launch site was Gaganyaan‑2 launched?",
+        "question": "From which launch site was Gaganyaan\u20112 launched?",
         "options": [
           "A) Satish Dhawan Space Centre",
           "B) Sriharikota",
@@ -1301,13 +1301,13 @@ window.CURRENT_AFFAIRS_DB = {
       "topic": "Diplomacy",
       "question": "What was the primary focus of the Quad naval drill held in Dubai in April 2026?",
       "options": [
-        "A) Maritime security and anti‑piracy",
+        "A) Maritime security and anti\u2011piracy",
         "B) Joint missile development",
         "C) Space exploration cooperation",
-        "D) Cyber‑security treaty signing"
+        "D) Cyber\u2011security treaty signing"
       ],
       "answer": "A",
-      "explanation": "The Quad drill emphasized maritime security and anti‑piracy operations.",
+      "explanation": "The Quad drill emphasized maritime security and anti\u2011piracy operations.",
       "upscHighlights": [
         "India and US strengthen strategic ties through joint exercises",
         "India's diplomatic efforts to counter China's growing influence",
@@ -1351,7 +1351,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "rbi-repo-rate",
       "topic": "Economic Policy",
-      "text": "The Reserve Bank of India kept the **repo rate unchanged at 6.5 %** on its 4 April 2026 monetary policy meeting, citing stable inflation of 4.2 % and a robust Q1 FY2026‑27 growth outlook.",
+      "text": "The Reserve Bank of India kept the **repo rate unchanged at 6.5\u202f%** on its 4 April 2026 monetary policy meeting, citing stable inflation of 4.2\u202f% and a robust Q1 FY2026\u201127 growth outlook.",
       "details": {
         "winner": "N/A",
         "award": "Repo Rate Decision",
@@ -1361,13 +1361,13 @@ window.CURRENT_AFFAIRS_DB = {
       "mcq": {
         "question": "What was the RBI repo rate after the April 2026 meeting?",
         "options": [
-          "A) 6.5 %",
-          "B) 7.0 %",
-          "C) 5.5 %",
-          "D) 6.0 %"
+          "A) 6.5\u202f%",
+          "B) 7.0\u202f%",
+          "C) 5.5\u202f%",
+          "D) 6.0\u202f%"
         ],
         "answer": "A",
-        "explanation": "The repo rate remained at 6.5 %."
+        "explanation": "The repo rate remained at 6.5\u202f%."
       },
       "upscHighlights": [
         "RBI maintains repo rate at 6.5% on April 4, 2026.",
@@ -1422,23 +1422,23 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "gdp-q1-2026-27",
       "topic": "Economic Data",
-      "text": "India’s **GDP grew 7.2 % YoY in Q1 FY2026‑27** (Jan‑Mar 2026), driven by strong manufacturing output and services sector expansion, surpassing the government’s target of 6.8 %.",
+      "text": "India\u2019s **GDP grew 7.2\u202f% YoY in Q1 FY2026\u201127** (Jan\u2011Mar 2026), driven by strong manufacturing output and services sector expansion, surpassing the government\u2019s target of 6.8\u202f%.",
       "details": {
         "winner": "N/A",
         "award": "Q1 GDP Growth",
         "nationality": "India",
-        "summary": "Higher‑than‑target growth signals a resilient economy."
+        "summary": "Higher\u2011than\u2011target growth signals a resilient economy."
       },
       "mcq": {
-        "question": "What was India’s YoY GDP growth rate for Q1 FY2026‑27?",
+        "question": "What was India\u2019s YoY GDP growth rate for Q1 FY2026\u201127?",
         "options": [
-          "A) 7.2 %",
-          "B) 6.8 %",
-          "C) 5.5 %",
-          "D) 8.0 %"
+          "A) 7.2\u202f%",
+          "B) 6.8\u202f%",
+          "C) 5.5\u202f%",
+          "D) 8.0\u202f%"
         ],
         "answer": "A",
-        "explanation": "The reported growth was 7.2 %."
+        "explanation": "The reported growth was 7.2\u202f%."
       },
       "upscHighlights": [
         "India's Q1 FY2026-27 GDP grew 7.2% YoY.",
@@ -1492,7 +1492,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "pakistan-skirmish-12april",
       "topic": "Border Tension",
-      "text": "On **12 April 2026**, a cease‑fire violation was reported along the Line of Control (LoC) in the Kupwara sector, with both Indian and Pakistani forces exchanging fire, resulting in two casualties on each side.",
+      "text": "On **12 April 2026**, a cease\u2011fire violation was reported along the Line of Control (LoC) in the Kupwara sector, with both Indian and Pakistani forces exchanging fire, resulting in two casualties on each side.",
       "details": {
         "winner": "N/A",
         "award": "LoC Skirmish",
@@ -1552,7 +1552,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "defence-production-scheme-2026",
       "topic": "Government Scheme",
-      "text": "The **Defence Production Incentive Scheme 2026** was announced on 20 April 2026, offering a **15 % cash incentive** on capital investments for indigenous weapon systems up to ₹25,000 crore, aiming to boost self‑reliance under ‘Make in India’.",
+      "text": "The **Defence Production Incentive Scheme 2026** was announced on 20 April 2026, offering a **15\u202f% cash incentive** on capital investments for indigenous weapon systems up to \u20b925,000\u202fcrore, aiming to boost self\u2011reliance under \u2018Make in India\u2019.",
       "details": {
         "winner": "N/A",
         "award": "Defence Production Incentive Scheme",
@@ -1562,13 +1562,13 @@ window.CURRENT_AFFAIRS_DB = {
       "mcq": {
         "question": "What cash incentive percentage was offered under the 2026 Defence Production Incentive Scheme?",
         "options": [
-          "A) 15 %",
-          "B) 10 %",
-          "C) 20 %",
-          "D) 5 %"
+          "A) 15\u202f%",
+          "B) 10\u202f%",
+          "C) 20\u202f%",
+          "D) 5\u202f%"
         ],
         "answer": "A",
-        "explanation": "The scheme provides a 15 % incentive."
+        "explanation": "The scheme provides a 15\u202f% incentive."
       },
       "upscHighlights": [
         "Boost to indigenous defence manufacturing",
@@ -1577,8 +1577,8 @@ window.CURRENT_AFFAIRS_DB = {
       ],
       "institutionalContext": "The Defence Production Incentive Scheme 2026 is a government initiative aimed at promoting self-reliance in defence manufacturing under the 'Make in India' programme.",
       "strategicImportance": "This scheme is crucial for UPSC/Defence as it highlights the government's efforts to reduce dependence on foreign defence equipment and promote indigenous manufacturing.",
-      "quickSummary": "The Defence Production Incentive Scheme 2026 offers a 15% cash incentive on capital investments for indigenous weapon systems up to ₹25,000 crore, aiming to boost self-reliance under 'Make in India'.",
-      "detailedAnalysis": "The Defence Production Incentive Scheme 2026 is a significant step towards achieving self-reliance in defence manufacturing. The scheme offers a 15% cash incentive on capital investments for indigenous weapon systems up to ₹25,000 crore, which is expected to boost domestic defence production. This initiative is in line with the government's 'Make in India' programme, which aims to promote domestic manufacturing and reduce dependence on foreign defence equipment. The scheme is expected to have a positive impact on the Indian defence industry, creating new opportunities for domestic manufacturers and reducing the country's reliance on foreign defence suppliers.",
+      "quickSummary": "The Defence Production Incentive Scheme 2026 offers a 15% cash incentive on capital investments for indigenous weapon systems up to \u20b925,000 crore, aiming to boost self-reliance under 'Make in India'.",
+      "detailedAnalysis": "The Defence Production Incentive Scheme 2026 is a significant step towards achieving self-reliance in defence manufacturing. The scheme offers a 15% cash incentive on capital investments for indigenous weapon systems up to \u20b925,000 crore, which is expected to boost domestic defence production. This initiative is in line with the government's 'Make in India' programme, which aims to promote domestic manufacturing and reduce dependence on foreign defence equipment. The scheme is expected to have a positive impact on the Indian defence industry, creating new opportunities for domestic manufacturers and reducing the country's reliance on foreign defence suppliers.",
       "backgroundContext": "The Indian defence industry has been growing rapidly in recent years, driven by increasing defence spending and a growing focus on self-reliance. The government has been promoting indigenous defence manufacturing through various initiatives, including the 'Make in India' programme. The Defence Production Incentive Scheme 2026 is a key component of this effort, aiming to provide a boost to indigenous defence manufacturing and reduce dependence on foreign defence equipment.",
       "stakeholders": [
         "Government of India",
@@ -1613,7 +1613,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "pvs-medal-ram-singh",
       "topic": "Award",
-      "text": "Air Marshal R. Singh was conferred the **Param Vishisht Seva Medal (PVSM)** on 25 April 2026 for his distinguished service in modernising the Indian Air Force’s fleet of fighter aircraft.",
+      "text": "Air Marshal R.\u202fSingh was conferred the **Param Vishisht Seva Medal (PVSM)** on 25 April 2026 for his distinguished service in modernising the Indian Air Force\u2019s fleet of fighter aircraft.",
       "details": {
         "winner": "Air Marshal R. Singh",
         "award": "Param Vishisht Seva Medal",
@@ -1621,7 +1621,7 @@ window.CURRENT_AFFAIRS_DB = {
         "summary": "Highest peacetime award recognizing IAF modernization leadership."
       },
       "mcq": {
-        "question": "Which award was given to Air Marshal R. Singh on 25 April 2026?",
+        "question": "Which award was given to Air Marshal R.\u202fSingh on 25 April 2026?",
         "options": [
           "A) Param Vishisht Seva Medal",
           "B) Maha Vir Chakra",
@@ -1672,7 +1672,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "un-climate-summit-delhi-2026",
       "topic": "Environment",
-      "text": "India hosted the **UN Climate Summit 2026** from 2‑5 April in New Delhi, where the Ministry of Defence highlighted the importance of **maritime climate resilience** for naval operations in the Indian Ocean Region.",
+      "text": "India hosted the **UN Climate Summit 2026** from 2\u20115 April in New Delhi, where the Ministry of Defence highlighted the importance of **maritime climate resilience** for naval operations in the Indian Ocean Region.",
       "details": {
         "winner": "N/A",
         "award": "UN Climate Summit",
@@ -1684,7 +1684,7 @@ window.CURRENT_AFFAIRS_DB = {
         "options": [
           "A) Maritime climate resilience",
           "B) Space debris mitigation",
-          "C) Cyber‑security",
+          "C) Cyber\u2011security",
           "D) Nuclear disarmament"
         ],
         "answer": "A",
@@ -1735,12 +1735,12 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "world-military-games-2026",
       "topic": "Sports",
-      "text": "India secured **3 gold, 5 silver and 4 bronze medals** at the **World Military Games 2026** held in Moscow from 10‑18 April, with notable victories in shooting and archery disciplines.",
+      "text": "India secured **3 gold, 5 silver and 4 bronze medals** at the **World Military Games 2026** held in Moscow from 10\u201118 April, with notable victories in shooting and archery disciplines.",
       "details": {
         "winner": "India",
         "award": "World Military Games 2026",
         "nationality": "India, Russia",
-        "summary": "Strong performance enhances India’s image in military sports."
+        "summary": "Strong performance enhances India\u2019s image in military sports."
       },
       "mcq": {
         "question": "How many gold medals did India win at the World Military Games 2026?",
@@ -1794,7 +1794,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "hypersonic-glv-test-drdo",
       "topic": "Science/Tech",
-      "text": "DRDO successfully test‑fired a **hypersonic glide vehicle (HGV)** on 28 April 2026 from the Integrated Test Range, achieving a speed of **Mach 7** and a range of **1,200 km**, marking a major step in India’s strategic missile capabilities.",
+      "text": "DRDO successfully test\u2011fired a **hypersonic glide vehicle (HGV)** on 28 April 2026 from the Integrated Test Range, achieving a speed of **Mach\u202f7** and a range of **1,200\u202fkm**, marking a major step in India\u2019s strategic missile capabilities.",
       "details": {
         "winner": "N/A",
         "award": "Hypersonic Glide Vehicle Test",
@@ -1804,13 +1804,13 @@ window.CURRENT_AFFAIRS_DB = {
       "mcq": {
         "question": "What speed did the DRDO hypersonic glide vehicle achieve during the April 2026 test?",
         "options": [
-          "A) Mach 7",
-          "B) Mach 5",
-          "C) Mach 9",
-          "D) Mach 3"
+          "A) Mach\u202f7",
+          "B) Mach\u202f5",
+          "C) Mach\u202f9",
+          "D) Mach\u202f3"
         ],
         "answer": "A",
-        "explanation": "The HGV reached Mach 7 in the test."
+        "explanation": "The HGV reached Mach\u202f7 in the test."
       },
       "upscHighlights": [
         "India successfully tests hypersonic glide vehicle.",
@@ -1853,15 +1853,15 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "india-china-bhutan-summit-april",
       "topic": "Diplomacy",
-      "text": "A trilateral summit between **India, China and Bhutan** was held on 18 April 2026 in Thimphu, where the three nations agreed to **reinforce the existing border management mechanisms** and to hold quarterly military confidence‑building meetings.",
+      "text": "A trilateral summit between **India, China and Bhutan** was held on 18 April 2026 in Thimphu, where the three nations agreed to **reinforce the existing border management mechanisms** and to hold quarterly military confidence\u2011building meetings.",
       "details": {
         "winner": "N/A",
-        "award": "India‑China‑Bhutan Summit",
+        "award": "India\u2011China\u2011Bhutan Summit",
         "nationality": "India, China, Bhutan",
         "summary": "Summit aims to reduce border tensions through regular military dialogues."
       },
       "mcq": {
-        "question": "Where was the India‑China‑Bhutan summit conducted in April 2026?",
+        "question": "Where was the India\u2011China\u2011Bhutan summit conducted in April 2026?",
         "options": [
           "A) Thimphu",
           "B) New Delhi",
@@ -1969,26 +1969,26 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "ca-2026-04-ins-sudarshini-sete",
       "topic": "International Maritime Festival Participation",
-      "text": "INS Sudarshini, a sail training ship of the Indian Navy, departed Sète, France, on 07 April 2026, after participating in the biennial 'Escale à Sète' maritime festival. The event marked the 400th anniversary of the French Navy and is considered one of the largest maritime gatherings in the Mediterranean region.",
+      "text": "INS Sudarshini, a sail training ship of the Indian Navy, departed S\u00e8te, France, on 07 April 2026, after participating in the biennial 'Escale \u00e0 S\u00e8te' maritime festival. The event marked the 400th anniversary of the French Navy and is considered one of the largest maritime gatherings in the Mediterranean region.",
       "details": {
         "ship_name": "INS Sudarshini",
         "type": "Sail training ship",
-        "location": "Sète, France",
+        "location": "S\u00e8te, France",
         "date": "07 April 2026",
-        "event": "Escale à Sète maritime festival",
+        "event": "Escale \u00e0 S\u00e8te maritime festival",
         "significance": "Marked 400th anniversary of French Navy; one of the largest maritime gatherings in Mediterranean."
       },
       "mcq": null,
       "upscHighlights": [
-        "INS Sudarshini participates in Escale à Sète maritime festival.",
+        "INS Sudarshini participates in Escale \u00e0 S\u00e8te maritime festival.",
         "Indian Navy showcases its sail training capabilities.",
         "400th anniversary of French Navy marked with grand event."
       ],
       "institutionalContext": "The Indian Navy is a part of the Indian Armed Forces, responsible for the country's maritime security and defense.",
       "strategicImportance": "This event highlights India's growing maritime presence and its participation in international naval events, showcasing its capabilities and strengthening diplomatic ties with France.",
-      "quickSummary": "INS Sudarshini, a sail training ship of the Indian Navy, participated in the Escale à Sète maritime festival in France, marking the 400th anniversary of the French Navy.",
-      "detailedAnalysis": "The Escale à Sète maritime festival is a biennial event that attracts naval vessels from around the world. INS Sudarshini's participation in this event demonstrates India's commitment to strengthening its maritime ties with France and showcases its sail training capabilities. The event also highlights the growing importance of the Indian Navy in the region.",
-      "backgroundContext": "The Indian Navy has a long history of participating in international naval events, including the biennial International Fleet Review. The Escale à Sète maritime festival is one of the largest maritime gatherings in the Mediterranean region, attracting naval vessels from around the world.",
+      "quickSummary": "INS Sudarshini, a sail training ship of the Indian Navy, participated in the Escale \u00e0 S\u00e8te maritime festival in France, marking the 400th anniversary of the French Navy.",
+      "detailedAnalysis": "The Escale \u00e0 S\u00e8te maritime festival is a biennial event that attracts naval vessels from around the world. INS Sudarshini's participation in this event demonstrates India's commitment to strengthening its maritime ties with France and showcases its sail training capabilities. The event also highlights the growing importance of the Indian Navy in the region.",
+      "backgroundContext": "The Indian Navy has a long history of participating in international naval events, including the biennial International Fleet Review. The Escale \u00e0 S\u00e8te maritime festival is one of the largest maritime gatherings in the Mediterranean region, attracting naval vessels from around the world.",
       "stakeholders": [
         "Indian Navy",
         "French Navy"
@@ -2005,12 +2005,12 @@ window.CURRENT_AFFAIRS_DB = {
       },
       "potentialQuestions": {
         "shortAnswers": [
-          "What is the significance of INS Sudarshini's participation in the Escale à Sète maritime festival?",
+          "What is the significance of INS Sudarshini's participation in the Escale \u00e0 S\u00e8te maritime festival?",
           "How does India's participation in international naval events contribute to its maritime security?"
         ],
         "interviewQuestions": [
           "Can you describe the Indian Navy's sail training capabilities?",
-          "How does India's participation in the Escale à Sète maritime festival strengthen its diplomatic ties with France?"
+          "How does India's participation in the Escale \u00e0 S\u00e8te maritime festival strengthen its diplomatic ties with France?"
         ],
         "ssbDiscussionTopics": [
           "The role of the Indian Navy in maintaining maritime security in the region.",
@@ -2957,7 +2957,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "exercise-indra-2026",
       "topic": "Defence Exercise",
-      "text": "The **Exercise Indra 2026** naval drill was conducted from **12‑18 May 2026** in the Bay of Bengal, involving the Indian Navy and the French Navy. It focused on anti‑submarine warfare, carrier group operations and maritime interdiction, enhancing interoperability between the two forces.",
+      "text": "The **Exercise Indra 2026** naval drill was conducted from **12\u201118 May 2026** in the Bay of Bengal, involving the Indian Navy and the French Navy. It focused on anti\u2011submarine warfare, carrier group operations and maritime interdiction, enhancing interoperability between the two forces.",
       "details": {
         "winner": "N/A",
         "award": "Exercise Indra 2026",
@@ -3018,7 +3018,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "missile-brahmos-2026",
       "topic": "Weapons/Missile",
-      "text": "On **5 May 2026**, the **Brahmos supersonic cruise missile** was successfully test‑fired from the Pokhran Test Range, achieving a range of **600 km** and a speed of **Mach 2.8**. This underscored India's indigenous hypersonic capabilities.",
+      "text": "On **5 May 2026**, the **Brahmos supersonic cruise missile** was successfully test\u2011fired from the Pokhran Test Range, achieving a range of **600 km** and a speed of **Mach 2.8**. This underscored India's indigenous hypersonic capabilities.",
       "details": {
         "winner": "N/A",
         "award": "Brahmos Test Flight",
@@ -3078,12 +3078,12 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "alca-prototype-2026",
       "topic": "Science/Tech",
-      "text": "The **Advanced Light Combat Aircraft (ALCA) prototype** completed its maiden flight on **20 May 2026** from Hindustan Aeronautics Limited, Bengaluru. The aircraft is designed to replace the aging fleet of MiG‑21s in the Indian Air Force.",
+      "text": "The **Advanced Light Combat Aircraft (ALCA) prototype** completed its maiden flight on **20 May 2026** from Hindustan Aeronautics Limited, Bengaluru. The aircraft is designed to replace the aging fleet of MiG\u201121s in the Indian Air Force.",
       "details": {
         "winner": "N/A",
         "award": "ALCA First Flight",
         "nationality": "India",
-        "summary": "First flight of a next‑generation fighter aimed at modernising the IAF."
+        "summary": "First flight of a next\u2011generation fighter aimed at modernising the IAF."
       },
       "mcq": {
         "question": "From which city did the ALCA prototype take off on its maiden flight?",
@@ -3139,15 +3139,15 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "gaganyaan-2-announcement-2026",
       "topic": "Space Mission",
-      "text": "On **15 May 2026**, ISRO announced the **Gaganyaan‑2 crewed mission**, slated for launch in 2027, with a crew of two astronauts and a 7‑day orbital stay. The mission will use the upgraded GSLV‑Mk III launch vehicle.",
+      "text": "On **15 May 2026**, ISRO announced the **Gaganyaan\u20112 crewed mission**, slated for launch in 2027, with a crew of two astronauts and a 7\u2011day orbital stay. The mission will use the upgraded GSLV\u2011Mk\u202fIII launch vehicle.",
       "details": {
         "winner": "N/A",
-        "award": "Gaganyaan‑2 Mission",
+        "award": "Gaganyaan\u20112 Mission",
         "nationality": "India",
         "summary": "Announcement of India's second crewed spaceflight, marking progress in human spaceflight."
       },
       "mcq": {
-        "question": "What is the planned crew size for the Gaganyaan‑2 mission announced in May 2026?",
+        "question": "What is the planned crew size for the Gaganyaan\u20112 mission announced in May 2026?",
         "options": [
           "A) Two astronauts",
           "B) One astronaut",
@@ -3155,7 +3155,7 @@ window.CURRENT_AFFAIRS_DB = {
           "D) Four astronauts"
         ],
         "answer": "A",
-        "explanation": "ISRO specified a crew of two for the Gaganyaan‑2 mission."
+        "explanation": "ISRO specified a crew of two for the Gaganyaan\u20112 mission."
       },
       "upscHighlights": [
         "India's second crewed spaceflight mission announced",
@@ -3199,12 +3199,12 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "modi-japan-visit-2026",
       "topic": "Diplomacy",
-      "text": "Prime Minister **Narendra Modi** visited **Japan** from **22‑24 May 2026**, signing a **Defence Cooperation Agreement** that includes joint naval exercises and technology sharing on submarine design. The visit also featured a summit with Japanese PM Kishida.",
+      "text": "Prime Minister **Narendra Modi** visited **Japan** from **22\u201124 May 2026**, signing a **Defence Cooperation Agreement** that includes joint naval exercises and technology sharing on submarine design. The visit also featured a summit with Japanese PM Kishida.",
       "details": {
         "winner": "N/A",
         "award": "Defence Cooperation Agreement",
         "nationality": "India, Japan",
-        "summary": "Strengthening Indo‑Japanese defence ties through a new cooperation pact."
+        "summary": "Strengthening Indo\u2011Japanese defence ties through a new cooperation pact."
       },
       "mcq": {
         "question": "Which Indian official signed a Defence Cooperation Agreement with Japan in May 2026?",
@@ -3258,7 +3258,7 @@ window.CURRENT_AFFAIRS_DB = {
     },
     {
       "id": "lac-patrol-galwan-2026",
-      "topic": "India‑China LAC",
+      "topic": "India\u2011China LAC",
       "text": "On **8 May 2026**, the Indian Army conducted a routine **patrol in the Galwan sector of the LAC**, reporting **no incidents** despite heightened tensions. The patrol was part of the ongoing vigilance framework under the 2020 agreements.",
       "details": {
         "winner": "N/A",
@@ -3381,7 +3381,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "rbi-repo-rate-2026",
       "topic": "Economy",
-      "text": "The **Reserve Bank of India** raised the **repo rate by 25 basis points to 6.75%** on **4 May 2026**, citing persistent inflationary pressures from food prices. This was the first rate hike in 2025‑26 fiscal year.",
+      "text": "The **Reserve Bank of India** raised the **repo rate by 25 basis points to 6.75%** on **4 May 2026**, citing persistent inflationary pressures from food prices. This was the first rate hike in 2025\u201126 fiscal year.",
       "details": {
         "winner": "N/A",
         "award": "Repo Rate Hike",
@@ -3441,7 +3441,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "defence-exports-april-2026",
       "topic": "Economic Policy",
-      "text": "India's **defence equipment exports rose 12% YoY in April 2026**, reaching **$4.2 billion**, driven by sales of UAVs and artillery systems to Southeast Asian countries.",
+      "text": "India's **defence equipment exports rose 12% YoY in April 2026**, reaching **$4.2\u202fbillion**, driven by sales of UAVs and artillery systems to Southeast Asian countries.",
       "details": {
         "winner": "N/A",
         "award": "Export Growth",
@@ -3457,7 +3457,7 @@ window.CURRENT_AFFAIRS_DB = {
           "D) 8%"
         ],
         "answer": "A",
-        "explanation": "Exports grew by 12% year‑on‑year."
+        "explanation": "Exports grew by 12% year\u2011on\u2011year."
       },
       "upscHighlights": [
         "India's defence exports rose 12% YoY in April 2026.",
@@ -3561,23 +3561,23 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "imf-monsoon-forecast-2026",
       "topic": "Environment",
-      "text": "The **India Meteorological Department** forecasted **above‑normal rainfall in the Western Ghats for June 2026** on **28 May 2026**, prompting the Army to mobilise additional flood‑relief units and pre‑position equipment.",
+      "text": "The **India Meteorological Department** forecasted **above\u2011normal rainfall in the Western Ghats for June 2026** on **28 May 2026**, prompting the Army to mobilise additional flood\u2011relief units and pre\u2011position equipment.",
       "details": {
         "winner": "N/A",
         "award": "Monsoon Forecast",
         "nationality": "India",
-        "summary": "Monsoon outlook influencing disaster‑response preparedness."
+        "summary": "Monsoon outlook influencing disaster\u2011response preparedness."
       },
       "mcq": {
-        "question": "Which region was predicted to receive above‑normal rainfall in June 2026?",
+        "question": "Which region was predicted to receive above\u2011normal rainfall in June 2026?",
         "options": [
           "A) Western Ghats",
           "B) Thar Desert",
-          "C) Indo‑Gangetic Plain",
+          "C) Indo\u2011Gangetic Plain",
           "D) Deccan Plateau"
         ],
         "answer": "A",
-        "explanation": "IMD highlighted the Western Ghats for above‑normal rainfall."
+        "explanation": "IMD highlighted the Western Ghats for above\u2011normal rainfall."
       },
       "upscHighlights": [
         "India Meteorological Department forecasts above-normal rainfall in Western Ghats",
@@ -3621,10 +3621,10 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "drdo-ai-bms-2026",
       "topic": "Science/Tech",
-      "text": "DRDO showcased an **AI‑powered Battlefield Management System (BMS)** on **27 May 2026**, integrating real‑time sensor data, drone surveillance and decision‑support algorithms to enhance situational awareness for the Army.",
+      "text": "DRDO showcased an **AI\u2011powered Battlefield Management System (BMS)** on **27 May 2026**, integrating real\u2011time sensor data, drone surveillance and decision\u2011support algorithms to enhance situational awareness for the Army.",
       "details": {
         "winner": "N/A",
-        "award": "AI‑BMS Demo",
+        "award": "AI\u2011BMS Demo",
         "nationality": "India",
         "summary": "Advanced AI system demonstrated to modernise command and control."
       },
@@ -3686,7 +3686,7 @@ window.CURRENT_AFFAIRS_DB = {
         "winner": "Chennai Super Kings",
         "award": "IPL 2026 Champion",
         "nationality": "India",
-        "summary": "High‑profile sporting event with extensive security arrangements."
+        "summary": "High\u2011profile sporting event with extensive security arrangements."
       },
       "mcq": {
         "question": "Which team won the IPL 2026 final?",
@@ -3742,12 +3742,12 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "vajra-ncc-scheme-2026",
       "topic": "Important Scheme",
-      "text": "The Ministry of Defence launched the **‘Vajra’ fast‑track training scheme for NCC cadets** on **18 May 2026**, offering a **six‑month intensive programme** leading to direct entry as officers in the Indian Army, Navy or Air Force.",
+      "text": "The Ministry of Defence launched the **\u2018Vajra\u2019 fast\u2011track training scheme for NCC cadets** on **18 May 2026**, offering a **six\u2011month intensive programme** leading to direct entry as officers in the Indian Army, Navy or Air Force.",
       "details": {
         "winner": "N/A",
         "award": "Vajra Scheme",
         "nationality": "India",
-        "summary": "New scheme to fast‑track NCC cadets into officer cadres."
+        "summary": "New scheme to fast\u2011track NCC cadets into officer cadres."
       },
       "mcq": {
         "question": "What is the duration of the Vajra training programme announced for NCC cadets?",
@@ -3758,7 +3758,7 @@ window.CURRENT_AFFAIRS_DB = {
           "D) Nine months"
         ],
         "answer": "A",
-        "explanation": "The Vajra scheme specifies a six‑month intensive training period."
+        "explanation": "The Vajra scheme specifies a six\u2011month intensive training period."
       },
       "upscHighlights": [
         "Vajra Scheme launched for NCC cadets",
@@ -3919,10 +3919,10 @@ window.CURRENT_AFFAIRS_DB = {
     },
     {
       "id": "un-dag-hammarskjold-medal-2025",
-      "topic": "UN Dag Hammarskjöld Medal 2025",
-      "text": "Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan are scheduled to be posthumously awarded the United Nations Dag Hammarskjöld Medal on May 29, 2026. This award is given for promoting Gender Inclusion and recognizes their service in UN peacekeeping missions, specifically mentioning contexts like UNIFIL (Lebanon), Congo, and South Sudan.",
+      "topic": "UN Dag Hammarskj\u00f6ld Medal 2025",
+      "text": "Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan are scheduled to be posthumously awarded the United Nations Dag Hammarskj\u00f6ld Medal on May 29, 2026. This award is given for promoting Gender Inclusion and recognizes their service in UN peacekeeping missions, specifically mentioning contexts like UNIFIL (Lebanon), Congo, and South Sudan.",
       "details": {
-        "award_name": "United Nations Dag Hammarskjöld Medal",
+        "award_name": "United Nations Dag Hammarskj\u00f6ld Medal",
         "award_year": 2025,
         "recipients": [
           "Lance Havildar Harbhajan Singh",
@@ -3939,15 +3939,15 @@ window.CURRENT_AFFAIRS_DB = {
       },
       "mcq": null,
       "upscHighlights": [
-        "Indian soldiers awarded UN Dag Hammarskjöld Medal 2025",
+        "Indian soldiers awarded UN Dag Hammarskj\u00f6ld Medal 2025",
         "Posthumous award for promoting Gender Inclusion",
         "Service in UN peacekeeping missions recognized"
       ],
-      "institutionalContext": "The United Nations Dag Hammarskjöld Medal is awarded to personnel who have made the utmost sacrifice in the cause of peace, and is a testament to the bravery and selflessness of those who serve in UN peacekeeping missions.",
+      "institutionalContext": "The United Nations Dag Hammarskj\u00f6ld Medal is awarded to personnel who have made the utmost sacrifice in the cause of peace, and is a testament to the bravery and selflessness of those who serve in UN peacekeeping missions.",
       "strategicImportance": "This event highlights India's commitment to promoting gender inclusion and its role in UN peacekeeping missions, making it relevant for UPSC/Defence exams.",
-      "quickSummary": "Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan are scheduled to be posthumously awarded the United Nations Dag Hammarskjöld Medal on May 29, 2026, for their service in UN peacekeeping missions and promoting gender inclusion.",
-      "detailedAnalysis": "The United Nations Dag Hammarskjöld Medal is a prestigious award that recognizes the sacrifices made by personnel in UN peacekeeping missions. The awarding of this medal to Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan highlights India's commitment to promoting gender inclusion and its role in UN peacekeeping missions. This event is significant as it showcases the bravery and selflessness of Indian soldiers who have made the utmost sacrifice in the cause of peace.",
-      "backgroundContext": "The United Nations Dag Hammarskjöld Medal was established in 1988 to honor the memory of Dag Hammarskjöld, the second Secretary-General of the United Nations. The medal is awarded to personnel who have made the utmost sacrifice in the cause of peace, and is a testament to the bravery and selflessness of those who serve in UN peacekeeping missions.",
+      "quickSummary": "Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan are scheduled to be posthumously awarded the United Nations Dag Hammarskj\u00f6ld Medal on May 29, 2026, for their service in UN peacekeeping missions and promoting gender inclusion.",
+      "detailedAnalysis": "The United Nations Dag Hammarskj\u00f6ld Medal is a prestigious award that recognizes the sacrifices made by personnel in UN peacekeeping missions. The awarding of this medal to Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan highlights India's commitment to promoting gender inclusion and its role in UN peacekeeping missions. This event is significant as it showcases the bravery and selflessness of Indian soldiers who have made the utmost sacrifice in the cause of peace.",
+      "backgroundContext": "The United Nations Dag Hammarskj\u00f6ld Medal was established in 1988 to honor the memory of Dag Hammarskj\u00f6ld, the second Secretary-General of the United Nations. The medal is awarded to personnel who have made the utmost sacrifice in the cause of peace, and is a testament to the bravery and selflessness of those who serve in UN peacekeeping missions.",
       "stakeholders": [
         "United Nations",
         "Government of India"
@@ -3964,11 +3964,11 @@ window.CURRENT_AFFAIRS_DB = {
       },
       "potentialQuestions": {
         "shortAnswers": [
-          "What is the United Nations Dag Hammarskjöld Medal?",
-          "Why are Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan being awarded the United Nations Dag Hammarskjöld Medal?"
+          "What is the United Nations Dag Hammarskj\u00f6ld Medal?",
+          "Why are Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan being awarded the United Nations Dag Hammarskj\u00f6ld Medal?"
         ],
         "interviewQuestions": [
-          "Can you describe the significance of the United Nations Dag Hammarskjöld Medal?",
+          "Can you describe the significance of the United Nations Dag Hammarskj\u00f6ld Medal?",
           "How does India's commitment to promoting gender inclusion impact its role in UN peacekeeping missions?"
         ],
         "ssbDiscussionTopics": [
@@ -4449,7 +4449,7 @@ window.CURRENT_AFFAIRS_DB = {
         "Signifies increased focus on <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>space infrastructure for national development and security</mark>."
       ],
       "institutionalContext": "Department of Space (DoS), under the Prime Minister's Office.",
-      "strategicImportance": "This news is highly relevant for UPSC under <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>GS Paper III: Science and Technology – Developments and their applications and effects in everyday life; Achievements of Indians in science & technology; Indigenization of technology and developing new technology</mark>. It also touches upon <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>GS Paper II: Government policies and interventions for development in various sectors</mark> and <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>GS Paper III: Security challenges and their management in border areas</mark> (due to strategic implications).",
+      "strategicImportance": "This news is highly relevant for UPSC under <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>GS Paper III: Science and Technology \u2013 Developments and their applications and effects in everyday life; Achievements of Indians in science & technology; Indigenization of technology and developing new technology</mark>. It also touches upon <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>GS Paper II: Government policies and interventions for development in various sectors</mark> and <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>GS Paper III: Security challenges and their management in border areas</mark> (due to strategic implications).",
       "originalSource": "Department of Space (Government of India)",
       "publicationDate": "2026-06-17",
       "lastUpdatedDate": "2026-06-17",
@@ -4748,7 +4748,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "jun-7",
       "topic": "International GK",
-      "text": "The **Global Peace Summit on Ukraine** was hosted in BÃ¼rgenstock, Switzerland, with representatives from over 90 countries discussing sovereignty and nuclear security.",
+      "text": "The **Global Peace Summit on Ukraine** was hosted in B\u00c3\u00bcrgenstock, Switzerland, with representatives from over 90 countries discussing sovereignty and nuclear security.",
       "mcq": {
         "question": "Which of the following major international powers did NOT attend the Swiss peace summit in June 2024?",
         "options": [
@@ -4897,10 +4897,10 @@ window.CURRENT_AFFAIRS_DB = {
       "id": "jun-10",
       "topic": "International Relations",
       "topicColor": "#7c3aed",
-      "summary": "Prime Minister Narendra Modi is scheduled to attend the 52nd G7 Summit in Évian-les-Bains, France, from June 15-17, 2026, as an outreach participant.",
-      "text": "Prime Minister Narendra Modi will participate in the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>52nd G7 Summit</mark> in <strong>Évian-les-Bains, France</strong>, from <strong>June 15–17, 2026</strong>. India attends as an invited partner nation, focusing on global supply chains, maritime security, and energy transition.",
+      "summary": "Prime Minister Narendra Modi is scheduled to attend the 52nd G7 Summit in \u00c9vian-les-Bains, France, from June 15-17, 2026, as an outreach participant.",
+      "text": "Prime Minister Narendra Modi will participate in the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>52nd G7 Summit</mark> in <strong>\u00c9vian-les-Bains, France</strong>, from <strong>June 15\u201317, 2026</strong>. India attends as an invited partner nation, focusing on global supply chains, maritime security, and energy transition.",
       "quickSummary": "India has been invited as an outreach country to the 52nd G7 Summit in France. PM Modi will represent India, highlighting maritime security and global governance reforms.",
-      "detailedAnalysis": "The G7 (Group of Seven) consists of the world's leading advanced economies: the US, UK, France, Germany, Italy, Japan, and Canada, along with the European Union. India is not a member but is regularly invited as a guest nation. The 52nd G7 Summit in Évian-les-Bains, France, is occurring against a backdrop of geopolitical challenges, including disruptions to maritime trade in the Red Sea (Bab el-Mandeb) and the Strait of Hormuz. India's outreach participation will highlight the global South's perspective on climate finance, supply chain resilience, and digital public infrastructure. Prime Minister Modi's agenda includes bilateral meetings with President Emmanuel Macron and other world leaders, advancing strategic partnerships in defence, technology transfer, and space cooperation.",
+      "detailedAnalysis": "The G7 (Group of Seven) consists of the world's leading advanced economies: the US, UK, France, Germany, Italy, Japan, and Canada, along with the European Union. India is not a member but is regularly invited as a guest nation. The 52nd G7 Summit in \u00c9vian-les-Bains, France, is occurring against a backdrop of geopolitical challenges, including disruptions to maritime trade in the Red Sea (Bab el-Mandeb) and the Strait of Hormuz. India's outreach participation will highlight the global South's perspective on climate finance, supply chain resilience, and digital public infrastructure. Prime Minister Modi's agenda includes bilateral meetings with President Emmanuel Macron and other world leaders, advancing strategic partnerships in defence, technology transfer, and space cooperation.",
       "backgroundContext": "The G7 was established in the 1970s to facilitate shared macroeconomic management. Over time, it has evolved to address security, environment, and development. India's persistent invitation to the summit reflects its growing status as a major global power and its role as a bridge between the developed world and the Global South.",
       "stakeholders": [
         "G7 Member Nations",
@@ -4933,7 +4933,7 @@ window.CURRENT_AFFAIRS_DB = {
       },
       "upscHighlights": [
         "The G7 was originally the G8 until Russia's membership was suspended in 2014 following the annexation of Crimea.",
-        "The 52nd G7 Summit is hosted by France at Évian-les-Bains.",
+        "The 52nd G7 Summit is hosted by France at \u00c9vian-les-Bains.",
         "Key outreach discussions center on artificial intelligence, security of sea lines of communication, and food security."
       ],
       "institutionalContext": "G7 Presidency (France) & Ministry of External Affairs",
@@ -4960,7 +4960,7 @@ window.CURRENT_AFFAIRS_DB = {
       "topic": "Economy & Finance",
       "topicColor": "#0891b2",
       "summary": "The RBI Monetary Policy Committee maintained the policy repo rate at 5.25% in its June 2026 meeting, focusing on inflation control.",
-      "text": "The Reserve Bank of India’s <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Monetary Policy Committee (MPC)</mark> concluded its bi-monthly meeting on <strong>June 5, 2026</strong>, keeping the policy <strong>repo rate unchanged at 5.25%</strong>. The decision reflects a balanced approach to supporting GDP growth while steering retail inflation toward the 4% target.",
+      "text": "The Reserve Bank of India\u2019s <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Monetary Policy Committee (MPC)</mark> concluded its bi-monthly meeting on <strong>June 5, 2026</strong>, keeping the policy <strong>repo rate unchanged at 5.25%</strong>. The decision reflects a balanced approach to supporting GDP growth while steering retail inflation toward the 4% target.",
       "quickSummary": "The RBI kept the repo rate steady at 5.25% in its June 2026 meeting. The committee decided to continue with its stance of withdrawal of accommodation.",
       "detailedAnalysis": "The Monetary Policy Committee (MPC) of the Reserve Bank of India (RBI) voted to keep the policy repo rate unchanged at 5.25% during its meeting from June 3-5, 2026. The marginal standing facility (MSF) rate and the bank rate were also maintained at 5.50%, and the standing deposit facility (SDF) rate remained at 5.00%. The committee's stance remains focused on the 'withdrawal of accommodation' to align inflation with the medium-term target of 4.0% while supporting growth. Food inflation risks and global supply chain volatility continue to require close monitoring, although core inflation has shown signs of moderation. RBI projected real GDP growth for the financial year 2026-27 at 7.2%, supported by robust domestic economic activity, rural demand recovery, and sustained private sector investment.",
       "backgroundContext": "The MPC is a statutory body constituted under Section 45ZB of the amended RBI Act, 1934. It is a 6-member committee (3 from RBI, 3 appointed by the Government) chaired by the RBI Governor. The primary goal is to maintain price stability while keeping inflation within the target band of 4% +/- 2%.",
@@ -5084,9 +5084,9 @@ window.CURRENT_AFFAIRS_DB = {
       "topic": "International Relations",
       "topicColor": "#7c3aed",
       "summary": "PM Narendra Modi visited France and the Slovak Republic, marking the first-ever state visit by an Indian Prime Minister to Slovakia.",
-      "text": "Prime Minister Narendra Modi undertook a state visit to <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>France and the Slovak Republic</mark> from <strong>June 13–15, 2026</strong>. This marks the <strong>first-ever state visit</strong> by an Indian Prime Minister to Slovakia, establishing new trade and security ties.",
+      "text": "Prime Minister Narendra Modi undertook a state visit to <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>France and the Slovak Republic</mark> from <strong>June 13\u201315, 2026</strong>. This marks the <strong>first-ever state visit</strong> by an Indian Prime Minister to Slovakia, establishing new trade and security ties.",
       "quickSummary": "PM Modi visited France and Slovak Republic, marking a historic diplomatic milestone as the first state visit by an Indian PM to Slovakia, enhancing bilateral and economic cooperation.",
-      "detailedAnalysis": "Prime Minister Narendra Modi's visit to France and the Slovak Republic from June 13–15, 2026, represents a significant diplomatic outreach in Central Europe. In Nice, France, PM Modi and President Emmanuel Macron co-inaugurated the 'Bharat Innovates' event, promoting startups, tech partnerships, and collaborative research. Subsequently, the Prime Minister proceeded to Bratislava, Slovakia, marking a historic first state visit by an Indian PM to the Central European country. The visit focused on expanding economic cooperation, semiconductor supply chains, defense manufacturing, and bilateral trade. Agreements were signed in sectors including renewable energy, cyber security, and cultural exchange, elevating India's diplomatic footprint in Central and Eastern Europe.",
+      "detailedAnalysis": "Prime Minister Narendra Modi's visit to France and the Slovak Republic from June 13\u201315, 2026, represents a significant diplomatic outreach in Central Europe. In Nice, France, PM Modi and President Emmanuel Macron co-inaugurated the 'Bharat Innovates' event, promoting startups, tech partnerships, and collaborative research. Subsequently, the Prime Minister proceeded to Bratislava, Slovakia, marking a historic first state visit by an Indian PM to the Central European country. The visit focused on expanding economic cooperation, semiconductor supply chains, defense manufacturing, and bilateral trade. Agreements were signed in sectors including renewable energy, cyber security, and cultural exchange, elevating India's diplomatic footprint in Central and Eastern Europe.",
       "backgroundContext": "The Slovak Republic (Slovakia) became an independent state after the peaceful dissolution of Czechoslovakia in 1993. India was one of the first countries to recognize Slovakia. The visit aims to diversify India's partnerships within the European Union beyond traditional Western European allies.",
       "stakeholders": [
         "Ministry of External Affairs",
@@ -5138,7 +5138,7 @@ window.CURRENT_AFFAIRS_DB = {
           "Poland"
         ],
         "correct": 0,
-        "explanation": "Prime Minister Narendra Modi visited the Slovak Republic from June 13–15, 2026, marking the first-ever state visit by an Indian PM to Slovakia."
+        "explanation": "Prime Minister Narendra Modi visited the Slovak Republic from June 13\u201315, 2026, marking the first-ever state visit by an Indian PM to Slovakia."
       }
     },
     {
@@ -5190,7 +5190,7 @@ window.CURRENT_AFFAIRS_DB = {
       "publicationDate": "2026-06-13",
       "lastUpdatedDate": "2026-06-13",
       "verificationStatus": "Verified (Official Primary Source)",
-      "relatedOfficialDocuments": "NITI Aayog Governing Council Official Communiqué, June 2026",
+      "relatedOfficialDocuments": "NITI Aayog Governing Council Official Communiqu\u00e9, June 2026",
       "mcq": {
         "question": "Which of the following statements is/are correct regarding NITI Aayog?\n1. It was established by an Act of Parliament in 2015.\n2. The Governing Council of NITI Aayog is chaired by the Prime Minister and includes all State Chief Ministers.",
         "options": [
@@ -6458,7 +6458,7 @@ window.CURRENT_AFFAIRS_DB = {
     {
       "id": "national-green-hydrogen-mission-phase-ii",
       "topic": "Environment & Energy",
-      "text": "The Ministry of New and Renewable Energy launched **Phase II of the National Green Hydrogen Mission** in July 2026, allocating an additional **₹25,000 crore** for scaling up green hydrogen production and export infrastructure. The initiative targets India becoming a global hub for green hydrogen by 2030.",
+      "text": "The Ministry of New and Renewable Energy launched **Phase II of the National Green Hydrogen Mission** in July 2026, allocating an additional **\u20b925,000 crore** for scaling up green hydrogen production and export infrastructure. The initiative targets India becoming a global hub for green hydrogen by 2030.",
       "details": {
         "winner": "N/A",
         "award": "National Green Hydrogen Mission Phase II",
@@ -6478,13 +6478,13 @@ window.CURRENT_AFFAIRS_DB = {
       },
       "upscHighlights": [
         "India launches Phase II of National Green Hydrogen Mission",
-        "₹25,000 crore allocated for green hydrogen production and export infrastructure",
+        "\u20b925,000 crore allocated for green hydrogen production and export infrastructure",
         "India aims to become global hub for green hydrogen by 2030"
       ],
       "institutionalContext": "The Ministry of New and Renewable Energy is the key institution involved in the National Green Hydrogen Mission.",
       "strategicImportance": "This initiative is crucial for UPSC/Defence as it showcases India's commitment to renewable energy and its potential to become a global leader in green energy.",
-      "quickSummary": "India has launched Phase II of the National Green Hydrogen Mission, allocating ₹25,000 crore for scaling up green hydrogen production and export infrastructure. The mission aims to make India a global hub for green hydrogen by 2030.",
-      "detailedAnalysis": "The National Green Hydrogen Mission is a significant initiative by the Indian government to promote the use of renewable energy. The mission aims to reduce India's dependence on fossil fuels and promote the use of green hydrogen as a clean energy source. The allocation of ₹25,000 crore for scaling up green hydrogen production and export infrastructure is a significant step towards achieving this goal. The mission also aims to make India a global hub for green hydrogen by 2030, which will not only reduce India's carbon footprint but also create new economic opportunities.",
+      "quickSummary": "India has launched Phase II of the National Green Hydrogen Mission, allocating \u20b925,000 crore for scaling up green hydrogen production and export infrastructure. The mission aims to make India a global hub for green hydrogen by 2030.",
+      "detailedAnalysis": "The National Green Hydrogen Mission is a significant initiative by the Indian government to promote the use of renewable energy. The mission aims to reduce India's dependence on fossil fuels and promote the use of green hydrogen as a clean energy source. The allocation of \u20b925,000 crore for scaling up green hydrogen production and export infrastructure is a significant step towards achieving this goal. The mission also aims to make India a global hub for green hydrogen by 2030, which will not only reduce India's carbon footprint but also create new economic opportunities.",
       "backgroundContext": "The concept of green hydrogen has been gaining traction globally in recent years, with many countries investing heavily in green hydrogen production and infrastructure. India has been at the forefront of this movement, with the National Green Hydrogen Mission being a key initiative to promote the use of green hydrogen in the country.",
       "stakeholders": [
         "Government of India",
@@ -7027,44 +7027,49 @@ window.CURRENT_AFFAIRS_DB = {
         "explanation": "India won the ICC Men's T20 World Cup in June 2024 under Rohit Sharma's captaincy, defeating South Africa in Barbados."
       },
       "upscHighlights": [
-        "India's T20 World Cup campaign showcases team coordination",
-        "Outstanding batting and bowling performances in knock-out matches",
-        "Team's ability to adapt and perform under pressure"
+        "India's T20 World Cup final appearance",
+        "Exemplary team coordination and performance",
+        "Impact on national pride and soft power"
       ],
-      "institutionalContext": "The ICC Men's T20 World Cup is a premier international cricket tournament, showcasing the best teams from around the world.",
-      "strategicImportance": "This event highlights India's cricket team's ability to perform under pressure, which is a crucial aspect of strategic planning and decision-making in the defence sector.",
-      "quickSummary": "India's cricket team has reached the finals of the ICC Men's T20 World Cup, demonstrating outstanding team coordination and performances in the knock-out matches. This achievement showcases the team's ability to adapt and perform under pressure, which is a crucial aspect of strategic planning and decision-making in the defence sector.",
-      "detailedAnalysis": "The ICC Men's T20 World Cup is a premier international cricket tournament that brings together the best teams from around the world. India's participation in the tournament demonstrates the country's commitment to developing its cricket team and showcasing its skills on the international stage. The team's ability to reach the finals is a testament to its hard work and dedication, as well as its ability to adapt and perform under pressure. This is a crucial aspect of strategic planning and decision-making in the defence sector, where teams must be able to think on their feet and make quick decisions in high-pressure situations.",
-      "backgroundContext": "The ICC Men's T20 World Cup has been held annually since 2007, with the tournament featuring the best teams from around the world. India has been a regular participant in the tournament, with its team consistently performing well and reaching the finals on several occasions.",
+      "institutionalContext": "The International Cricket Council (ICC) is the global governing body for cricket, responsible for organizing and governing major international tournaments like the T20 World Cup. The Board of Control for Cricket in India (BCCI) is the governing body for cricket in India, managing the national team's participation and domestic cricket structures.",
+      "strategicImportance": "India's performance in prestigious global sporting events like the ICC Men's T20 World Cup significantly boosts national morale, fosters unity, and projects the nation's soft power on the international stage. For defence aspirants, it highlights critical leadership qualities, strategic planning, teamwork, and mental resilience, all of which are essential attributes in military service. Such achievements also inspire youth and reinforce a positive national image.",
+      "quickSummary": "India recently made it to the finals of the ICC Men's T20 World Cup, demonstrating exceptional team coordination and strong performances throughout the tournament, particularly in crucial knock-out matches. The team's campaign was marked by high-quality batting and tactically sound bowling lineups, showcasing their prowess in this premier global T20 cricket event.",
+      "detailedAnalysis": "The ICC Men's T20 World Cup is a premier global cricket tournament, attracting immense viewership and highly competitive teams. India's journey to the final underscores its consistent strength in international cricket, reflecting a robust cricketing infrastructure, a vast talent pool, and strategic investment by the BCCI. Performing well in such high-pressure environments requires not only individual skill but also cohesive teamwork, adaptable strategies, and strong leadership from the captain and coaching staff. A deep run in the tournament generates significant fan engagement, economic activity through sponsorships and broadcasting, and reinforces India's position as a dominant force in world cricket.",
+      "backgroundContext": "India has a significant history in the ICC T20 World Cup, having won the inaugural edition in 2007. Since then, T20 cricket has evolved rapidly, becoming a central part of the international cricketing calendar. India, with its enormous fan base and substantial financial influence, is a crucial stakeholder in global cricket. The nation's performance in these tournaments carries immense expectations and is closely followed, reflecting India's status as a cricketing superpower.",
       "stakeholders": [
-        "Indian Cricket Team",
-        "BCCI (Board of Control for Cricket in India)",
-        "ICC (International Cricket Council)"
+        "International Cricket Council (ICC)",
+        "Board of Control for Cricket in India (BCCI)",
+        "Indian Cricket Team (players, coaches, support staff)",
+        "Global Cricket Fans",
+        "Indian Government (Ministry of Youth Affairs and Sports)",
+        "Sponsors and Advertisers",
+        "Media and Broadcasters"
       ],
       "relatedTopics": [
-        "Indian Cricket Team",
-        "BCCI (Board of Control for Cricket in India)",
-        "ICC (International Cricket Council)",
-        "Sports in India",
-        "International Cricket"
+        "Sports Diplomacy",
+        "National Sports Policy",
+        "International Sports Governance",
+        "Youth Empowerment through Sports",
+        "Economic Impact of Sports",
+        "Leadership and Teamwork"
       ],
       "examRelevanceMatrix": {
-        "NDA": "High",
+        "NDA": "Medium",
         "CDS": "Medium",
-        "AFCAT": "Low"
+        "AFCAT": "High"
       },
       "potentialQuestions": {
         "shortAnswers": [
-          "What is the significance of India's T20 World Cup campaign?",
-          "How does India's cricket team's performance in the tournament impact the country's reputation?"
+          "Which international cricket tournament did India recently reach the final of?",
+          "What two key aspects of India's performance were highlighted in their T20 World Cup campaign?"
         ],
         "interviewQuestions": [
-          "Can you describe India's cricket team's strategy for the T20 World Cup?",
-          "How does India's participation in the tournament contribute to the country's sports development?"
+          "How do major international sporting achievements contribute to a nation's soft power and global standing?",
+          "Discuss the importance of teamwork and leadership exemplified by sports teams in achieving success in high-stakes environments."
         ],
         "ssbDiscussionTopics": [
-          "Team coordination and performance under pressure",
-          "Adaptability and strategic planning in high-pressure situations"
+          "Sports as a unifier: India's performance in global events and its impact on national unity.",
+          "The role of sports in national image building and youth inspiration in India."
         ]
       }
     },
@@ -7090,42 +7095,53 @@ window.CURRENT_AFFAIRS_DB = {
         "explanation": "Shukrayaan-1 is the proposed ISRO mission to study the atmosphere and surface of Venus."
       },
       "upscHighlights": [
-        "ISRO and JAXA collaborate on LUPEX lunar mission",
-        "Joint mission targets water-ice deposits on Moon's south pole",
-        "India and Japan strengthen space cooperation"
+        "ISRO-JAXA LUPEX payload specifications finalized.",
+        "Joint mission targeting Moon's south pole water-ice.",
+        "India (lander) and Japan (rover, launch vehicle) collaboration."
       ],
-      "institutionalContext": "ISRO (Indian Space Research Organisation) is India's primary space agency, while JAXA (Japan Aerospace Exploration Agency) is Japan's space agency.",
-      "strategicImportance": "This mission showcases India's growing capabilities in space exploration and its strategic partnership with Japan, highlighting the country's commitment to space-based research and development.",
-      "quickSummary": "ISRO and JAXA have finalized the payload specifications for the LUPEX mission, a joint robotic lunar lander and rover mission targeting water-ice deposits on the Moon's south pole. This mission demonstrates the growing cooperation between India and Japan in space exploration.",
-      "detailedAnalysis": "The LUPEX mission is a significant step in India's lunar exploration program, which aims to understand the Moon's geology and search for resources. The mission's focus on water-ice deposits is crucial for future human settlements on the Moon. ISRO's expertise in lander technology and JAXA's experience in rover design make this collaboration a strong partnership.",
-      "backgroundContext": "India's lunar exploration program began with the Chandrayaan-1 mission in 2008, which discovered water on the Moon's surface. Since then, India has sent several missions to the Moon, including the Chandrayaan-2 mission in 2019. Japan has also been actively involved in lunar exploration, with its Selene mission in 2007.",
+      "institutionalContext": "The Indian Space Research Organisation (ISRO) is India's premier space agency, renowned for its cost-effective and successful missions like Chandrayaan and Mangalyaan. The Japan Aerospace Exploration Agency (JAXA) is Japan's national aerospace and space agency, known for its advanced robotics, asteroid sample-return missions, and expertise in lunar exploration technologies.",
+      "strategicImportance": "This mission holds significant strategic importance for India's growing space power and geopolitical influence. It enhances bilateral ties with Japan, a key strategic partner, in a critical domain. The search for water-ice on the lunar south pole is vital for future lunar bases, providing potential resources for propellant and life support, making India a stakeholder in future lunar resource utilization. It showcases India's advanced technological capabilities in lunar exploration, building upon the successes of Chandrayaan missions, and positions India at the forefront of deep space exploration.",
+      "quickSummary": "ISRO and JAXA have successfully finalized the payload specifications for their joint Lunar Polar Exploration (LUPEX) mission. This collaborative robotic mission aims to investigate the crucial water-ice deposits believed to be present in the permanently shadowed regions of the Moon's south pole. Under the agreement, JAXA will be responsible for providing the launch vehicle and the lunar rover, while ISRO will contribute the lander module for this ambitious international venture.",
+      "detailedAnalysis": "The LUPEX mission represents a significant leap in international space collaboration, combining the complementary strengths of ISRO and JAXA. The Moon's south pole is of immense scientific interest due to the presence of permanently shadowed regions (PSRs) where water-ice is thought to exist in substantial quantities. This water-ice is a critical resource, not just for scientific study of lunar geology and the history of the solar system, but also as a potential source for rocket propellant, breathable oxygen, and drinking water for future long-duration human missions and lunar bases. JAXA's expertise in precision landing and advanced rover technology complements ISRO's proven capability in lunar lander development, demonstrated by Chandrayaan-3. The finalization of payload specifications is a crucial step, moving the mission closer to its targeted launch, showcasing a shared vision for future lunar exploration and potential resource utilization.",
+      "backgroundContext": "The interest in the Moon's polar regions intensified after India's Chandrayaan-1 mission in 2008 confirmed the presence of water molecules on the lunar surface. Subsequent missions, including NASA's LCROSS, further supported the presence of water-ice in shadowed craters. India's recent Chandrayaan-3 mission successfully landed a rover near the lunar south pole, making India the first nation to achieve this feat and generating renewed global interest in this region. LUPEX builds upon these advancements, aiming for more detailed in-situ analysis of the water-ice deposits, which is critical for understanding their origin, distribution, and potential for extraction.",
       "stakeholders": [
         "ISRO (Indian Space Research Organisation)",
-        "JAXA (Japan Aerospace Exploration Agency)"
+        "JAXA (Japan Aerospace Exploration Agency)",
+        "Government of India",
+        "Government of Japan"
       ],
       "relatedTopics": [
-        "Lunar Exploration",
-        "Space Cooperation",
-        "ISRO",
-        "JAXA"
+        "Space Exploration",
+        "Lunar Missions",
+        "International Space Cooperation",
+        "Space Technology",
+        "Lunar Resources",
+        "Science & Technology Policy",
+        "Geopolitics of Space"
       ],
       "examRelevanceMatrix": {
         "NDA": "High",
-        "CDS": "Medium",
-        "AFCAT": "Low"
+        "CDS": "High",
+        "AFCAT": "High"
       },
       "potentialQuestions": {
         "shortAnswers": [
-          "What is the LUPEX mission and its objectives?",
-          "What are the key technologies involved in the LUPEX mission?"
+          "What is the primary objective of the LUPEX mission?",
+          "Which two space agencies are collaborating on the LUPEX mission?",
+          "What contributions will ISRO and JAXA make to the LUPEX mission respectively?",
+          "Why is the Moon's south pole a key target for lunar missions?"
         ],
         "interviewQuestions": [
-          "Can you explain the significance of the LUPEX mission in India's lunar exploration program?",
-          "How does the LUPEX mission demonstrate India's space cooperation with Japan?"
+          "Discuss the strategic importance of international collaborations like LUPEX for India's space program and its global standing.",
+          "How does the LUPEX mission build upon the successes of previous lunar missions like Chandrayaan-3?",
+          "What are the potential long-term benefits of discovering and utilizing water-ice on the Moon for future space exploration?",
+          "Analyze the role of space diplomacy in fostering such joint ventures between nations."
         ],
         "ssbDiscussionTopics": [
-          "Space exploration and its relevance to national security",
-          "International cooperation in space research and development"
+          "International Space Cooperation: A necessity for sustainable future space exploration?",
+          "The 'Race' for Lunar Resources: Opportunities and challenges for India and its partners.",
+          "India's evolving role in global space exploration: From independent missions to collaborative ventures.",
+          "Should India prioritize manned missions over robotic missions for lunar exploration?"
         ]
       }
     },
@@ -7151,41 +7167,51 @@ window.CURRENT_AFFAIRS_DB = {
         "explanation": "INS Mahendragiri is the seventh stealth frigate built under Project 17A."
       },
       "upscHighlights": [
-        "INS Mahendragiri completes sea trials successfully",
-        "Indigenously developed stealth designs showcased",
-        "Indian Navy's Project 17A achieves milestone"
+        "INS Mahendragiri completes Project 17A sea trials.",
+        "Boosts indigenous stealth frigate capabilities.",
+        "Signifies major step in naval self-reliance."
       ],
-      "institutionalContext": "The Indian Navy's Project 17A is a significant initiative aimed at enhancing the country's naval capabilities through the development of advanced stealth frigates.",
-      "strategicImportance": "The successful completion of INS Mahendragiri's sea trials highlights India's growing capabilities in defence technology and its ability to design and build advanced warships indigenously.",
-      "quickSummary": "The Indian Navy's stealth frigate, INS Mahendragiri, has successfully completed its sea trials, marking a significant milestone in the country's defence technology development. Built under Project 17A, the frigate features indigenously developed stealth designs and advanced weapons, sensors, and platform management systems.",
-      "detailedAnalysis": "The INS Mahendragiri is the seventh and final stealth frigate of the Nilgiri-class Project 17A, which aims to enhance the Indian Navy's capabilities in the Indian Ocean Region. The project has been a collaborative effort between the Indian Navy and Mazagon Dock, with the latter being the primary contractor responsible for the design and construction of the frigate. The successful completion of the sea trials is a testament to India's growing capabilities in defence technology and its ability to design and build advanced warships indigenously.",
-      "backgroundContext": "The Indian Navy has been actively pursuing the development of advanced stealth frigates as part of its efforts to enhance its capabilities in the Indian Ocean Region. The Project 17A is a significant initiative aimed at achieving this goal, with the Indian Navy and Mazagon Dock working closely together to design and build the frigates.",
+      "institutionalContext": "The Indian Navy is the primary end-user, driving modernization and indigenization. Mazagon Dock Shipbuilders Limited (MDL), a Public Sector Undertaking under the Ministry of Defence, is a premier shipyard responsible for constructing warships, including these advanced frigates, showcasing collaboration between the Navy's design bureau and India's shipbuilding industry.",
+      "strategicImportance": "This event underscores India's growing self-reliance in defence manufacturing ('Atmanirbhar Bharat') and significantly enhances the Indian Navy's blue-water capabilities. Stealth frigates like INS Mahendragiri are crucial for power projection, protecting maritime interests, and maintaining regional stability in the Indian Ocean Region (IOR). Their advanced capabilities strengthen India's deterrence posture against potential adversaries and contribute to national security.",
+      "quickSummary": "INS Mahendragiri, the seventh and final stealth frigate of the Nilgiri-class (Project 17A), has successfully completed its sea trials. Built by Mazagon Dock Shipbuilders Limited (MDL), this warship showcases advanced indigenously developed stealth designs, state-of-the-art weapons, sensors, and platform management systems. Its successful trials mark a significant milestone for the Indian Navy's modernization drive and India's commitment to self-reliance in defence shipbuilding.",
+      "detailedAnalysis": "Project 17A, a follow-on to the successful Project 17 (Shivalik-class) frigates, emphasizes enhanced stealth features, advanced weapon systems, and improved survivability. The INS Mahendragiri incorporates cutting-edge technologies, including a significantly reduced radar cross-section, improved propulsion, and advanced combat management systems. These frigates are designed to operate in multi-threat environments across the spectrum of naval operations, from anti-surface and anti-air warfare to anti-submarine warfare. The project involves multiple public and private sector firms, contributing to job creation and technological absorption within India. The successful completion of sea trials indicates the warship's readiness for commissioning, further bolstering the Indian Navy's capabilities to secure vital sea lanes and protect India's expansive maritime interests.",
+      "backgroundContext": "Project 17A was sanctioned by the Government of India to build seven stealth frigates for the Indian Navy. Four of these frigates are being built at Mazagon Dock Shipbuilders Limited (MDL) in Mumbai, and three at Garden Reach Shipbuilders & Engineers (GRSE) in Kolkata. These frigates are successors to the Shivalik-class (Project 17) frigates and incorporate significant design improvements and higher levels of indigenisation. The project aligns with the broader 'Make in India' and 'Atmanirbhar Bharat' initiatives in the defence sector, aiming to reduce reliance on foreign imports and foster domestic defence industrial growth. The Nilgiri-class frigates are designed by the Indian Navy\u2019s Directorate of Naval Design.",
       "stakeholders": [
         "Indian Navy",
-        "Mazagon Dock"
+        "Mazagon Dock Shipbuilders Limited (MDL)",
+        "Garden Reach Shipbuilders & Engineers (GRSE)",
+        "Defence Research and Development Organisation (DRDO)",
+        "Ministry of Defence (MoD)",
+        "Various Indian private sector defence manufacturers and suppliers"
       ],
       "relatedTopics": [
-        "Defence Technology",
-        "Indian Navy",
-        "Project 17A"
+        "Naval Indigenisation",
+        "Project 17A Frigates",
+        "Stealth Technology in Warfare",
+        "Indian Ocean Region (IOR) Security",
+        "'Make in India' in Defence",
+        "Maritime Security Strategy"
       ],
       "examRelevanceMatrix": {
         "NDA": "High",
         "CDS": "High",
-        "AFCAT": "Medium"
+        "AFCAT": "High"
       },
       "potentialQuestions": {
         "shortAnswers": [
-          "What is the significance of INS Mahendragiri's successful sea trials?",
-          "What are the key features of the INS Mahendragiri?"
+          "What is the primary objective of Project 17A?",
+          "Which Indian shipyard built INS Mahendragiri?",
+          "Mention two key advanced features of Project 17A frigates."
         ],
         "interviewQuestions": [
-          "Can you elaborate on the importance of Project 17A for the Indian Navy?",
-          "How does the INS Mahendragiri's stealth design contribute to its operational capabilities?"
+          "Discuss the strategic implications of India's indigenous shipbuilding program for its role in the Indian Ocean Region.",
+          "How does stealth technology enhance the operational capabilities of a warship?",
+          "What are the challenges and opportunities for India in achieving complete self-reliance in naval defence production?"
         ],
         "ssbDiscussionTopics": [
-          "The role of defence technology in enhancing naval capabilities",
-          "The importance of indigenously developed defence systems"
+          "India's ambition to be a net security provider in the Indian Ocean Region: Challenges and Opportunities.",
+          "The balance between acquiring advanced foreign defence technology and fostering indigenous development.",
+          "The role of advanced stealth frigates in modern naval warfare and deterring regional threats."
         ]
       }
     },
@@ -7211,40 +7237,55 @@ window.CURRENT_AFFAIRS_DB = {
         "explanation": "Tawa Reservoir, located in Narmadapuram district of Madhya Pradesh, along with two sites in Tamil Nadu, was designated as a Ramsar site, taking India's total count to 85."
       },
       "upscHighlights": [
-        "Madhya Pradesh designated as Ramsar site of international importance",
-        "Tawa Reservoir conservation successes highlighted",
-        "Important wetland supports threatened bird species and migratory waterfowl"
+        "Tawa Reservoir (MP) designated Ramsar site",
+        "India expands internationally recognized wetlands",
+        "Boosts wetland conservation and biodiversity"
       ],
-      "institutionalContext": "The Union Ministry of Environment, Forest and Climate Change is responsible for designating Ramsar sites in India.",
-      "strategicImportance": "This designation highlights India's commitment to conservation and environmental protection, which is crucial for UPSC/Defence exams.",
-      "quickSummary": "The Union Ministry has designated Tawa Reservoir in Madhya Pradesh as a Ramsar site of international importance, recognizing its conservation successes and importance as an important wetland.",
-      "detailedAnalysis": "The Ramsar Convention is an international treaty that aims to conserve and manage wetlands of international importance. The designation of Tawa Reservoir as a Ramsar site is a significant achievement for Madhya Pradesh and highlights the state's efforts in conservation and environmental protection. This move is also a testament to the Union Ministry's commitment to protecting India's natural heritage.",
-      "backgroundContext": "The Ramsar Convention was signed in 1971 and India became a signatory in 1982. Since then, India has designated several wetlands as Ramsar sites, including the Sundarbans, the Coromandel Coast, and the Wular Lake.",
+      "institutionalContext": "The Union Ministry of Environment, Forest and Climate Change (MoEFCC) is the nodal agency in India responsible for implementing the Ramsar Convention, an intergovernmental treaty for the conservation and sustainable use of wetlands. This designation is a result of their collaboration with state forest departments.",
+      "strategicImportance": "This event holds strategic importance for Defence Exams and UPSC due to several reasons: \n1.  **Environmental Security:** Wetlands are crucial for ecological balance, water security, and disaster mitigation, all vital aspects of national security.\n2.  **International Relations & Governance:** Understanding India's commitment to multilateral environmental agreements like the Ramsar Convention is crucial for UPSC General Studies and understanding India's global role.\n3.  **Biodiversity Conservation:** It directly relates to India's efforts in preserving its rich flora and fauna, a key component of sustainable development and a recurring theme in competitive exams.\n4.  **Geography & Current Affairs:** Knowledge of significant geographical locations (Madhya Pradesh, Tawa River) and recent environmental developments is essential for all defence exams' General Awareness sections.\n5.  **Officer Awareness:** Future officers are expected to be well-informed about national policies and international commitments related to environmental protection.",
+      "quickSummary": "The Union Ministry of Environment, Forest and Climate Change has officially designated Tawa Reservoir in Madhya Pradesh as a Ramsar site, recognizing it as a wetland of international importance. This significant move underscores India's dedication to conserving vital ecosystems and highlights the reservoir's critical ecological role in supporting threatened bird species, providing habitat for migratory waterfowl, and sustaining local livelihoods through its fisheries.",
+      "detailedAnalysis": "Tawa Reservoir, situated in the Narmadapuram district of Madhya Pradesh, is a large man-made reservoir built across the Tawa River, a prominent tributary of the Narmada. Its recent designation as a Ramsar site is based on specific ecological criteria, primarily its role in supporting a diverse population of threatened resident and migratory bird species, functioning as a vital stopover point for migratory waterfowl, and sustaining robust local fisheries that are integral to the regional economy. This international recognition under the Ramsar Convention will attract enhanced conservation funding, lead to the implementation of more rigorous management plans, and elevate its global profile. The inclusion of Tawa Reservoir reflects India's proactive stance in expanding its network of Ramsar sites, demonstrating a strong commitment to fulfilling its obligations under the Convention and integrating environmental protection with developmental goals. It signifies a collective success in identifying and preserving critical natural assets for future generations.",
+      "backgroundContext": "The Ramsar Convention on Wetlands of International Importance Especially as Waterfowl Habitat is an intergovernmental treaty adopted on February 2, 1971, in Ramsar, Iran, and came into force in 1975. India became a signatory to the Convention in 1982. Its primary mission is 'the conservation and wise use of all wetlands through local, regional and national actions and international cooperation, as a contribution towards achieving sustainable development throughout the world.' Wetlands are critical ecosystems often referred to as 'the kidneys of the earth' for their invaluable ecological services, including water purification, flood control, groundwater recharge, provision of habitat for diverse species, and mitigation of climate change impacts.",
       "stakeholders": [
-        "Madhya Pradesh Forest Department",
-        "Union Ministry of Environment, Forest and Climate Change"
+        "Union Ministry of Environment, Forest and Climate Change (MoEFCC)",
+        "Madhya Pradesh Forest Department and State Government",
+        "Ramsar Secretariat (international governing body)",
+        "Local communities (fishermen, farmers, tourism operators)",
+        "Wildlife conservation organizations and NGOs",
+        "Environmental researchers and scientists"
       ],
       "relatedTopics": [
-        "Conservation and Environmental Protection",
-        "Wetlands and Ramsar Sites"
+        "Ramsar Convention",
+        "Wetland Conservation and Management",
+        "Biodiversity Conservation",
+        "Environmental Governance",
+        "Geography of Madhya Pradesh (Rivers, Reservoirs)",
+        "Sustainable Development Goals (SDGs)",
+        "Man-made Wetlands"
       ],
       "examRelevanceMatrix": {
         "NDA": "High",
-        "CDS": "Medium",
-        "AFCAT": "Low"
+        "CDS": "High",
+        "AFCAT": "High"
       },
       "potentialQuestions": {
         "shortAnswers": [
-          "What is the significance of the Ramsar Convention?",
-          "What are the key features of a Ramsar site?"
+          "What is the primary objective of the Ramsar Convention?",
+          "Name the latest Ramsar site designated in Madhya Pradesh.",
+          "Mention two ecological services provided by wetlands.",
+          "In which district of Madhya Pradesh is Tawa Reservoir located?"
         ],
         "interviewQuestions": [
-          "Can you explain the importance of conservation and environmental protection in India?",
-          "How does the designation of a Ramsar site impact local communities?"
+          "How does the designation of a wetland as a Ramsar site benefit India's environmental conservation efforts and its international standing?",
+          "Discuss the potential challenges and opportunities that arise for local communities once a wetland is declared a Ramsar site.",
+          "In your opinion, what role do armed forces play in environmental protection and disaster management, especially in regions with significant ecological importance?",
+          "How can India balance its developmental aspirations with its commitments to international environmental treaties like the Ramsar Convention?"
         ],
         "ssbDiscussionTopics": [
-          "The role of government in conservation and environmental protection",
-          "The impact of human activities on wetlands and ecosystems"
+          "Balancing economic development with environmental conservation: A critical challenge for India.",
+          "The effectiveness of international environmental treaties in addressing global climate change and biodiversity loss.",
+          "Is community participation essential for successful environmental conservation projects in India and why?",
+          "The role of man-made wetlands (like reservoirs) in supporting biodiversity and local livelihoods."
         ]
       }
     },
@@ -7270,42 +7311,51 @@ window.CURRENT_AFFAIRS_DB = {
         "explanation": "Article 124(6) of the Constitution of India provides that every person appointed to be a Judge of the Supreme Court shall make and subscribe an oath or affirmation before the President."
       },
       "upscHighlights": [
-        "Justice Sanjiv Khanna becomes 51st CJI of India",
-        "President Droupadi Murmu administers oath to CJI",
-        "Article 124(6) of Constitution invoked for oath"
+        "Justice Sanjiv Khanna new CJI.",
+        "Oath administered by President Droupadi Murmu.",
+        "Appointment under Article 124(6) of Constitution."
       ],
-      "institutionalContext": "The oath-taking ceremony is a constitutional requirement for the Chief Justice of India, marking the beginning of a new tenure.",
-      "strategicImportance": "This event is crucial for UPSC/Defence aspirants as it highlights the importance of the judiciary in the Indian system of governance and the role of the President in the appointment process.",
-      "quickSummary": "Justice Sanjiv Khanna has been appointed as the 51st Chief Justice of India, succeeding the outgoing CJI. The oath was administered by President Droupadi Murmu at Rashtrapati Bhavan, marking the beginning of his new tenure.",
-      "detailedAnalysis": "The appointment of Justice Sanjiv Khanna as the Chief Justice of India is a significant development in the Indian judiciary. As the 51st CJI, he will play a crucial role in shaping the country's legal framework and ensuring the independence of the judiciary. The oath-taking ceremony, administered by President Droupadi Murmu, is a constitutional requirement that underscores the importance of the judiciary in the Indian system of governance.",
-      "backgroundContext": "The Chief Justice of India is appointed under Article 124(2) of the Constitution, which states that the President shall appoint the Chief Justice of India, and other judges of the Supreme Court, in consultation with the Chief Justice of India. The appointment process is designed to ensure the independence of the judiciary and the rule of law in the country.",
+      "institutionalContext": "The Supreme Court of India is the apex judicial body and the final court of appeal in the country. The Chief Justice of India (CJI) is the head of the Indian judiciary, leading the Supreme Court and playing a crucial role in judicial administration and constitutional interpretation.",
+      "strategicImportance": "This event is highly relevant for UPSC and Defence exams as it pertains to a key constitutional appointment within the Indian Polity section. Understanding the role of the CJI, the appointment process, and the constitutional articles involved (Article 124) is fundamental for questions on governance, judiciary, and current affairs. It highlights the functioning of democratic institutions and the rule of law.",
+      "quickSummary": "Justice Sanjiv Khanna has taken oath as the 51st Chief Justice of India (CJI), succeeding the outgoing Chief Justice. The oath of office was administered by President Droupadi Murmu at a ceremony held at Rashtrapati Bhavan, in accordance with Article 124(6) of the Constitution of India.",
+      "detailedAnalysis": "Justice Sanjiv Khanna's elevation to the post of Chief Justice of India follows the well-established convention where the seniormost judge of the Supreme Court is recommended by the outgoing CJI as their successor. This appointment signifies a crucial transition in the leadership of the Indian judiciary, which is a cornerstone of India's democratic structure. The CJI is not only the administrative head of the Supreme Court, responsible for allocating cases and constituting benches, but also leads the Collegium system for the appointment and transfer of judges. The ceremony at Rashtrapati Bhavan, with the President administering the oath, underscores the constitutional gravitas and solemnity associated with this high office. His tenure will be watched for its impact on various constitutional and public interest matters.",
+      "backgroundContext": "The office of the Chief Justice of India and the Supreme Court itself were established with the promulgation of the Constitution of India in 1950. The CJI's role has evolved significantly, from merely presiding over the court to becoming a pivotal figure in safeguarding fundamental rights, interpreting the Constitution, and upholding the rule of law. The appointment process, involving recommendations from the Collegium and final approval by the President, is a testament to the checks and balances inherent in India's governance structure.",
       "stakeholders": [
-        "Justice Sanjiv Khanna",
-        "President Droupadi Murmu",
+        "President of India",
+        "Chief Justice of India (Incumbent and Outgoing)",
+        "Supreme Court of India",
+        "Union Government (Ministry of Law and Justice)",
         "Indian Judiciary"
       ],
       "relatedTopics": [
         "Indian Judiciary",
-        "Constitution of India",
-        "Judicial Appointments"
+        "Constitutional Law",
+        "Powers of the President of India",
+        "Appointment of Judges",
+        "Collegium System",
+        "Judicial Independence",
+        "Article 124 of the Indian Constitution"
       ],
       "examRelevanceMatrix": {
-        "NDA": "High",
+        "NDA": "Medium",
         "CDS": "High",
         "AFCAT": "Medium"
       },
       "potentialQuestions": {
         "shortAnswers": [
-          "Who has been appointed as the 51st Chief Justice of India?",
-          "What is the significance of the oath-taking ceremony for the Chief Justice of India?"
+          "Who has recently been sworn in as the 51st Chief Justice of India?",
+          "By whom is the oath of office for the Chief Justice of India administered?",
+          "Which Article of the Indian Constitution deals with the oath or affirmation by Judges of the Supreme Court?"
         ],
         "interviewQuestions": [
-          "What are the key responsibilities of the Chief Justice of India?",
-          "How does the appointment process for the Chief Justice of India ensure the independence of the judiciary?"
+          "Discuss the significance of the Chief Justice of India's role in upholding judicial independence and constitutional values.",
+          "What are the key responsibilities of the Chief Justice of India beyond presiding over the Supreme Court?",
+          "Critically analyze the Collegium system for judicial appointments in India."
         ],
         "ssbDiscussionTopics": [
-          "The role of the judiciary in the Indian system of governance",
-          "The importance of the Chief Justice of India in shaping the country's legal framework"
+          "\"Judicial activism vs. judicial restraint: Striking the right balance in India.\"",
+          "\"The role of the judiciary in strengthening India's democratic framework.\"",
+          "\"Reforms needed in the Indian judicial system to ensure speedy justice.\""
         ]
       }
     },
@@ -7331,24 +7381,32 @@ window.CURRENT_AFFAIRS_DB = {
         "explanation": "The VVP targets the development of border villages along the northern border (primarily the Line of Actual Control with China)."
       },
       "upscHighlights": [
-        "Vibrant Villages Programme reviewed for LAC infrastructure",
-        "Border villages in Himachal, Uttarakhand, Sikkim, Arunachal to benefit",
-        "Centrally Sponsored Scheme to improve connectivity and livelihoods"
+        "Vibrant Villages Programme (VVP) along LAC reviewed.",
+        "DoNER Ministry's role in border infrastructure.",
+        "Strategic development to arrest migration.",
+        "Enhancing national security in northern borders."
       ],
-      "institutionalContext": "The Ministry of Development of Northeastern Region (DoNER) is a ministry of the Government of India responsible for the development of the Northeastern Region.",
-      "strategicImportance": "This matters for UPSC/Defence as it highlights the government's efforts to develop infrastructure and improve connectivity in border villages, which is crucial for national security.",
-      "quickSummary": "The Ministry of Development of Northeastern Region (DoNER) reviewed infrastructure projects under the Vibrant Villages Programme (VVP) along the Line of Actual Control (LAC). The programme aims to develop infrastructure, generate livelihoods, and improve connectivity in border villages to arrest migration.",
-      "detailedAnalysis": "The Vibrant Villages Programme (VVP) is a Centrally Sponsored Scheme that aims to develop infrastructure, generate livelihoods, and improve connectivity in border villages. The programme is crucial for national security as it helps to arrest migration and improve the quality of life of people living in border areas. The review of infrastructure projects under VVP along the LAC is a significant step towards strengthening national security.",
-      "backgroundContext": "The Northeastern Region of India has been a sensitive area due to its geographical location and proximity to international borders. The region has faced several challenges, including migration, insurgency, and economic backwardness. The government has launched several initiatives to develop the region and improve the quality of life of its people.",
+      "institutionalContext": "The Ministry of Development of Northeastern Region (DoNER) is a Union Government ministry responsible for the planning, execution and monitoring of development schemes in the North Eastern Region of India. Its involvement in reviewing projects like the Vibrant Villages Programme (VVP) along the LAC underscores its crucial role in promoting socio-economic development in strategically significant border areas, often overlapping with its geographical mandate.",
+      "strategicImportance": "This topic holds high strategic importance for UPSC and Defence exams due to its direct link to India's national security and border management. The Vibrant Villages Programme aims to prevent the depopulation of border villages, which can create security vulnerabilities. By enhancing infrastructure, connectivity, and livelihood opportunities, it strengthens the 'first line of defence,' supports border guarding forces, and counters potential external influences (especially from China along the LAC). It signifies a holistic approach to national security, integrating socio-economic development with territorial integrity.",
+      "quickSummary": "The Ministry of Development of Northeastern Region (DoNER) recently conducted a review of infrastructure projects being implemented under the Vibrant Villages Programme (VVP) along India's Line of Actual Control (LAC). VVP is a Centrally Sponsored Scheme designed to provide comprehensive development in select border villages across Himachal Pradesh, Uttarakhand, Sikkim, and Arunachal Pradesh. Its core objectives include improving infrastructure, generating sustainable livelihoods, and enhancing connectivity to curb out-migration and bolster national security in these strategically vital regions.",
+      "detailedAnalysis": "The Vibrant Villages Programme (VVP) represents a proactive and multi-faceted strategy by the Indian government to secure its northern land borders. The depopulation of border villages due to a lack of amenities and economic opportunities has long been a concern, potentially creating security vacuums and hindering intelligence gathering. VVP aims to reverse this trend by transforming these villages into self-sufficient, vibrant communities. The review by the DoNER Ministry, which is responsible for development in a critical part of India's eastern border, highlights the government's commitment to expedite and effectively implement these projects. This programme is not merely about physical infrastructure; it's about integrating border populations into the national mainstream, fostering a sense of belonging, and empowering them to act as partners in national security. Its success is crucial for maintaining territorial integrity and stability, especially in the context of ongoing geopolitical tensions along the LAC.",
+      "backgroundContext": "Historically, India's border regions, particularly in the Himalayas, have faced challenges of geographical isolation, harsh climatic conditions, and limited economic avenues, leading to significant out-migration. This 'empty border' phenomenon raises strategic concerns. The Vibrant Villages Programme, approved in February 2023 with an outlay of \u20b94,800 crore, was conceptualized to address these issues directly. It is modelled on the idea that strong, well-developed border communities are vital for national security, providing essential support to security forces and acting as 'eyes and ears' on the ground. The programme covers 2,967 villages in 46 blocks of 19 districts in four states and one UT along the northern land border.",
       "stakeholders": [
-        "Government of India",
         "Ministry of Development of Northeastern Region (DoNER)",
-        "Border villages in Himachal, Uttarakhand, Sikkim, Arunachal"
+        "Ministry of Home Affairs (MHA)",
+        "Ministry of Finance",
+        "State Governments (Himachal Pradesh, Uttarakhand, Sikkim, Arunachal Pradesh)",
+        "Border guarding forces (e.g., ITBP, Indian Army)",
+        "Local Village Panchayats and Communities",
+        "Various implementing agencies at state and district level"
       ],
       "relatedTopics": [
-        "National Security",
+        "Border Area Development Programme (BADP)",
+        "National Security Policy",
         "Infrastructure Development",
-        "Northeastern Region"
+        "Regional Development (North East India)",
+        "Line of Actual Control (LAC)",
+        "Rural Development Schemes"
       ],
       "examRelevanceMatrix": {
         "NDA": "High",
@@ -7357,16 +7415,22 @@ window.CURRENT_AFFAIRS_DB = {
       },
       "potentialQuestions": {
         "shortAnswers": [
-          "What is the Vibrant Villages Programme (VVP)?",
-          "How does the VVP contribute to national security?"
+          "What is the primary objective of the Vibrant Villages Programme (VVP)?",
+          "Name any two states covered under the VVP along the LAC.",
+          "Which Union Ministry recently reviewed the VVP projects along the LAC?",
+          "How does VVP contribute to national security?"
         ],
         "interviewQuestions": [
-          "Can you explain the significance of the Vibrant Villages Programme (VVP) in the context of national security?",
-          "How does the government plan to implement the VVP in border villages?"
+          "Discuss the strategic importance of the Vibrant Villages Programme for India's border security, especially in the context of the LAC.",
+          "How can socio-economic development schemes like VVP help in addressing the challenges of border management and national integration?",
+          "What are the potential challenges in implementing a programme like VVP in remote and sensitive border areas, and how can they be overcome?",
+          "Beyond infrastructure, what other aspects are crucial for making border villages truly 'vibrant' and preventing out-migration?"
         ],
         "ssbDiscussionTopics": [
-          "Importance of infrastructure development in border areas",
-          "Role of the government in improving the quality of life of people living in border areas"
+          "The Vibrant Villages Programme is a critical step towards securing India's northern borders.",
+          "Discuss the role of socio-economic development as a tool for enhancing national security and border management.",
+          "India's approach to border area development: integrating security, economy, and community.",
+          "The impact of infrastructure development on the lives of people in remote border areas."
         ]
       }
     },
@@ -7392,41 +7456,53 @@ window.CURRENT_AFFAIRS_DB = {
         "explanation": "Project Tiger was launched on April 1, 1973, from Jim Corbett National Park, while Project Elephant was launched in 1992."
       },
       "upscHighlights": [
-        "Ministry consolidates Project Tiger and Elephant under one division",
-        "Administrative merger to optimize resources and streamline funding",
-        "Integration of conservation fields for tiger and elephant habitats"
+        "Project Tiger, Project Elephant administration merged",
+        "MoEFCC streamlines wildlife conservation efforts",
+        "Aims for resource optimization, habitat management"
       ],
-      "institutionalContext": "The Ministry of Environment, Forest and Climate Change is the central government ministry in charge of overseeing environmental and forest conservation efforts in India.",
-      "strategicImportance": "This administrative merger is crucial for UPSC/Defence exams as it showcases the government's efforts to optimize resources and streamline funding for conservation efforts, which is a key aspect of environmental management and a critical component of national security.",
-      "quickSummary": "The Ministry of Environment, Forest and Climate Change has consolidated the administration of Project Tiger and Project Elephant under a single division, known as the Project Tiger & Elephant Division. This structural reform aims to optimize resources, integrate conservation fields, and streamline funding for overlapping tiger and elephant habitats.",
-      "detailedAnalysis": "The consolidation of Project Tiger and Project Elephant under a single division is a significant step towards optimizing resources and streamlining funding for conservation efforts. By integrating the administration of these two projects, the government aims to reduce duplication of efforts, improve coordination, and enhance the effectiveness of conservation programs. This move is also expected to improve the overall management of tiger and elephant habitats, which is critical for maintaining biodiversity and ecosystem health.",
-      "backgroundContext": "Project Tiger was launched in 1973 as a conservation effort to protect the Bengal tiger, while Project Elephant was launched in 1992 to conserve the Asian elephant. Both projects have been successful in their respective goals, but their administration has been fragmented, leading to inefficiencies and duplication of efforts.",
+      "institutionalContext": "The Ministry of Environment, Forest and Climate Change (MoEFCC) is the nodal agency in the Union Government for planning, promotion, coordination, and overseeing the implementation of environmental and forestry policies and programmes in India. It is responsible for conservation of the country's natural resources including its flora and fauna, forests and wildlife.",
+      "strategicImportance": "This administrative merger represents a significant structural reform in India's environmental governance and wildlife conservation strategy. For UPSC and Defence exams, understanding such reforms is crucial as they reflect the government's approach to resource management, policy integration, and commitment to biodiversity. It tests candidates' knowledge of administrative efficiency, environmental policy evolution, and the national effort to protect endangered species and their habitats, often featuring in General Studies papers and current affairs sections.",
+      "quickSummary": "The Ministry of Environment, Forest and Climate Change (MoEFCC) has consolidated the administrative functions of its two major wildlife conservation initiatives, Project Tiger and Project Elephant, into a single, unified division. This merger is designed to optimize resources, enhance operational efficiency, and facilitate a more integrated and holistic approach to conservation, especially in regions where the habitats of tigers and elephants overlap, thereby streamlining policy implementation and funding mechanisms.",
+      "detailedAnalysis": "The consolidation of Project Tiger and Project Elephant administration under a single division is a strategic move aimed at leveraging synergies and overcoming the fragmented approach often seen in large-scale conservation programs. Project Tiger, launched in 1973, focuses on tiger conservation, while Project Elephant, initiated in 1992, targets elephant protection. Both are flagship programs, but operating separately sometimes led to duplication of efforts, resource silos, and challenges in managing shared landscapes. The merger seeks to create a more cohesive framework for habitat management, anti-poaching efforts, human-wildlife conflict mitigation, and scientific research. By integrating these operations, the MoEFCC expects to enhance inter-departmental coordination, streamline decision-making processes, and ensure more efficient allocation and utilization of financial and human resources across critical wildlife corridors and protected areas.",
+      "backgroundContext": "Project Tiger, initiated in 1973, is a landmark conservation program that has been instrumental in increasing India's tiger population and protecting their ecosystems. Project Elephant, launched in 1992, focuses on conserving elephants, their habitats, and migration corridors, while also addressing human-elephant conflict. Both projects have historically operated as distinct entities, albeit with overlapping goals and geographical areas. The administrative merger reflects an evolving understanding in conservation science, advocating for a landscape-level approach rather than species-specific silos, recognizing that many threats and solutions are common to large mammals sharing the same environment.",
       "stakeholders": [
-        "Ministry of Environment, Forest and Climate Change",
-        "Project Tiger & Elephant Division"
+        "Ministry of Environment, Forest and Climate Change (MoEFCC)",
+        "National Tiger Conservation Authority (NTCA)",
+        "Project Elephant Division",
+        "State Forest Departments",
+        "Wildlife Institute of India (WII)",
+        "Local Communities residing near wildlife habitats",
+        "Conservation NGOs (e.g., WWF India, WCS India)",
+        "Researchers and Scientists"
       ],
       "relatedTopics": [
-        "Environmental Conservation",
-        "Wildlife Management",
-        "Biodiversity Conservation"
+        "Wildlife Conservation in India",
+        "Environmental Governance",
+        "Biodiversity Protection",
+        "Administrative Reforms in India",
+        "Forest Management",
+        "Human-Wildlife Conflict Mitigation",
+        "Ecology and Environment Policies"
       ],
       "examRelevanceMatrix": {
         "NDA": "High",
-        "CDS": "Medium",
-        "AFCAT": "Low"
+        "CDS": "High",
+        "AFCAT": "High"
       },
       "potentialQuestions": {
         "shortAnswers": [
-          "What are the key objectives of Project Tiger and Project Elephant?",
-          "How does the consolidation of these projects benefit conservation efforts?"
+          "Which two major conservation projects were recently merged by the MoEFCC?",
+          "What is the stated primary objective of consolidating Project Tiger and Project Elephant?",
+          "When were Project Tiger and Project Elephant originally launched, respectively?"
         ],
         "interviewQuestions": [
-          "Can you explain the significance of consolidating Project Tiger and Project Elephant under a single division?",
-          "How do you think this move will impact the effectiveness of conservation programs?"
+          "Discuss the potential advantages and disadvantages of merging the administrative functions of Project Tiger and Project Elephant.",
+          "How does this administrative reform contribute to India's broader environmental conservation goals and international commitments?",
+          "In your opinion, what challenges might arise from this merger, and how can they be effectively addressed?"
         ],
         "ssbDiscussionTopics": [
-          "The importance of environmental conservation in national security",
-          "The role of government initiatives in protecting biodiversity"
+          "\"Administrative reforms are crucial for effective wildlife conservation in India.\"",
+          "\"The balance between human development and wildlife protection: India's path forward.\""
         ]
       }
     },
@@ -7452,82 +7528,107 @@ window.CURRENT_AFFAIRS_DB = {
         "explanation": "Singapore's passport ranks first, allowing its citizens visa-free access to 195 destinations."
       },
       "upscHighlights": [
-        "Singapore's passport ranked most powerful globally.",
-        "Henley Passport Index releases mid-year rankings.",
-        "Singapore's passport offers visa-free travel to most destinations."
+        "Singapore passport tops Henley Passport Index 2026.",
+        "Index ranks passports by visa-free access destinations.",
+        "Measures global mobility and a nation's soft power."
       ],
-      "institutionalContext": "The Henley Passport Index is an authoritative ranking of global passports based on visa-free travel access.",
-      "strategicImportance": "Understanding the Henley Passport Index rankings is crucial for UPSC/Defence aspirants as it reflects a country's diplomatic and economic influence.",
-      "quickSummary": "The Henley Passport Index 2026 has released its mid-year rankings, with Singapore's passport emerging as the most powerful in the world, offering visa-free travel to the most destinations.",
-      "detailedAnalysis": "The Henley Passport Index is a widely recognized benchmark for passport power, considering factors like visa-free travel access, diplomatic relations, and economic influence. Singapore's top ranking reflects its strong diplomatic and economic ties with other countries, making its passport highly sought after.",
-      "backgroundContext": "The Henley Passport Index has been releasing annual rankings since 2006, providing valuable insights into the global passport landscape. The index is widely used by governments, diplomats, and international organizations to assess a country's diplomatic and economic influence.",
+      "institutionalContext": "Henley & Partners is a global leader in residence and citizenship planning, based in London. It publishes the Henley Passport Index annually, in collaboration with the International Air Transport Association (IATA), using their data to provide the most comprehensive and reliable ranking of global passports according to the number of destinations their holders can access without a prior visa.",
+      "strategicImportance": "This index is crucial for understanding geopolitical landscapes, international relations, and a nation's soft power and diplomatic influence. For UPSC and Defence aspirants, it highlights global mobility trends, the economic and strategic advantages of strong passports, and the implications for India's foreign policy and trade relations. It can also prompt discussions on national identity, visa policies, and the ease of doing business internationally.",
+      "quickSummary": "The Henley Passport Index 2026, a highly respected global ranking, has released its mid-year findings, identifying Singapore's passport as the most powerful worldwide. This designation means Singaporean citizens enjoy visa-free or visa-on-arrival access to the highest number of destinations globally, underscoring the nation's strong diplomatic ties and international standing.",
+      "detailedAnalysis": "The Henley Passport Index is recognized as an authoritative reference, evaluating passports based on the number of destinations their holders can access without requiring a prior visa. This includes visa-free travel and visa-on-arrival options. A higher ranking on the index signifies not only greater travel freedom for citizens but also robust diplomatic relations, economic stability, and strong international trust in the issuing nation. Singapore topping the 2026 mid-year rankings reflects its proactive foreign policy, strategic alliances, and economic prowess, which facilitate extensive global access for its citizens. For nations like India, improving passport strength involves intricate diplomatic negotiations, reciprocal visa agreements, and strengthening bilateral and multilateral relations, which directly impacts citizens' global mobility and the nation's perceived global influence.",
+      "backgroundContext": "The concept of passport power has gained significant traction in the era of globalization, reflecting more than just travel convenience. Since its inception, the Henley Passport Index has become a benchmark for assessing a country's global standing, offering a snapshot of its geopolitical landscape and its citizens' ease of movement across borders. This index essentially quantifies the freedom of travel, providing a proxy for diplomatic relations, economic engagement, and the trust that other nations place in a country's citizens and governance.",
       "stakeholders": [
-        "Singapore Government",
-        "Henley & Partners"
+        "Singaporean Citizens",
+        "Henley & Partners (publisher)",
+        "International Air Transport Association (IATA)",
+        "Governments worldwide (especially those highly ranked/low ranked)",
+        "Global travelers and businesses",
+        "Visa policy makers"
       ],
       "relatedTopics": [
+        "Geopolitics",
         "International Relations",
-        "Diplomacy",
-        "Global Governance"
+        "Global Mobility",
+        "Diplomatic Relations",
+        "Economic Indicators",
+        "Soft Power",
+        "Visa Policies"
       ],
       "examRelevanceMatrix": {
-        "NDA": "High",
+        "NDA": "Medium",
         "CDS": "High",
-        "AFCAT": "Medium"
+        "AFCAT": "High"
       },
       "potentialQuestions": {
         "shortAnswers": [
-          "What is the Henley Passport Index?",
-          "Which country has the most powerful passport in 2026?"
+          "Which country's passport was ranked most powerful in the Henley Passport Index 2026?",
+          "What is the primary criterion used by the Henley Passport Index for ranking?",
+          "How does a country's passport strength reflect its international standing?"
         ],
         "interviewQuestions": [
-          "How does the Henley Passport Index reflect a country's diplomatic influence?",
-          "What are the key factors considered in the Henley Passport Index rankings?"
+          "Discuss the geopolitical implications of a country having a highly ranked passport versus a lowly ranked one.",
+          "What steps can India take to improve its passport ranking on global indices like Henley's?",
+          "How does global mobility, as indicated by passport power, impact a nation's economy and soft power?"
         ],
         "ssbDiscussionTopics": [
-          "The role of diplomatic relations in passport power",
-          "The impact of economic influence on passport rankings"
+          "Passport Power as a Determinant of a Nation's Global Influence.",
+          "The Role of Visa Policies in Strengthening Bilateral Relations and Trade.",
+          "Global Mobility vs. National Security: Striking the Right Balance."
         ]
       }
     },
     {
-      "id": "agni-4-test-fire-2026",
-      "topic": "Defence",
-      "text": "India successfully test-fired the **Agni-4 Intermediate-Range Ballistic Missile (IRBM)** from APJ Abdul Kalam Island, Odisha in September 2026.",
+      "id": "aug-pm-speech-2026",
+      "topic": "National Affairs",
+      "text": "During the 80th Independence Day speech at the Red Fort, PM Modi laid out the **'Viksit Bharat @ 2047'** roadmap, highlighting significant progress in poverty alleviation, defence, and electronics manufacturing.",
       "details": {
-        "missile_name": "Agni-4",
-        "type": "Intermediate-Range Ballistic Missile (IRBM)",
-        "range": "4,000 km",
-        "location": "APJ Abdul Kalam Island, Odisha"
+        "winner": "Government of India",
+        "award": "Viksit Bharat Highlights",
+        "nationality": "Indian",
+        "summary": "Key announcements included AI skill training for 1 crore youth, 200 GW nuclear capacity target, and a 4x increase in defence production. The national song 'Vande Mataram' was also rendered at the Red Fort for the first time since Independence."
       },
       "mcq": {
-        "question": "What is the approximate range of the Agni-4 Intermediate-Range Ballistic Missile (IRBM) that was successfully test-fired in September 2026?",
+        "question": "In the PM's 2026 Independence Day speech, what major announcement was made for the youth?",
         "options": [
-          "2,000 km",
-          "3,000 km",
-          "4,000 km",
-          "5,000 km"
+          "Laptops for 1 crore students",
+          "AI skill training for 1 crore youth",
+          "Free internet for 5 crore youth",
+          "Start-up funding for 10 lakh youth"
         ],
-        "correct": 2,
-        "explanation": "Agni-4 is a nuclear-capable Intermediate-Range Ballistic Missile (IRBM) with a strike range of around 4,000 km."
+        "correct": 1,
+        "explanation": "PM Modi announced a major initiative to provide AI skill training to 1 crore (10 million) youth to prepare them for a tech-driven future."
       },
       "upscHighlights": [
-        "Nuclear-capable missile with a range of around 4,000 km.",
-        "Strengthens India's credible minimum deterrence capability.",
-        "Reinforces national defence and strategic strike capabilities."
+        "PM unveils 'Viksit Bharat @ 2047' roadmap",
+        "Major progress in defence, electronics, poverty alleviation",
+        "Targets: 1 Cr youth AI training, 200 GW nuclear capacity"
       ],
-      "strategicImportance": "The successful test of the Agni-4 missile reaffirms India's credible minimum deterrence capability, strengthening its strategic strike capabilities and reinforcing national defence.",
-      "quickSummary": "India successfully test-fired the nuclear-capable Agni-4 Intermediate-Range Ballistic Missile (IRBM) with a range of around 4,000 km from APJ Abdul Kalam Island, Odisha.",
-      "detailedAnalysis": "The Agni-4 is a critical component of India's nuclear deterrence posture. With a range of approximately 4,000 km, it is classified as an Intermediate-Range Ballistic Missile (IRBM). The successful test-firing from APJ Abdul Kalam Island validates its operational readiness and technical parameters, significantly boosting India's strategic strike capabilities.",
-      "backgroundContext": "India's Agni series of missiles form the backbone of its land-based nuclear deterrence. Agni-4 bridges the gap between the medium-range Agni-3 and the intercontinental Agni-5, providing flexible deterrence options.",
+      "institutionalContext": "The Prime Minister's Independence Day speech from the Red Fort serves as a significant platform for the Government of India to articulate its vision, policies, and achievements, setting the national agenda for the coming years.",
+      "strategicImportance": "This initiative directly impacts India's national power, strategic autonomy, and defence capabilities. Increased defence production enhances self-reliance (Atmanirbhar Bharat) and reduces import dependency, crucial for national security. The focus on AI skills and nuclear energy also contributes to technological superiority, energy security, and overall strategic strength, vital components of a robust defence posture and India's global standing.",
+      "quickSummary": "During his 80th Independence Day address from the Red Fort, Prime Minister Modi detailed the ambitious 'Viksit Bharat @ 2047' roadmap, underscoring substantial achievements in poverty alleviation, defence, and electronics manufacturing. Key future commitments included providing AI skill training to 1 crore youth, setting a target of 200 GW nuclear capacity, and aiming for a four-fold increase in defence production. The address also marked a historic moment with the rendition of the national song 'Vande Mataram' at the Red Fort for the first time since Independence.",
+      "detailedAnalysis": "The 'Viksit Bharat @ 2047' roadmap represents a comprehensive vision for India's centenary of independence, aiming to transform the nation into a developed economy and a global power. The explicit emphasis on a four-fold increase in defence production signifies a strong, sustained push towards indigenization and reducing reliance on foreign suppliers, aligning perfectly with the 'Atmanirbhar Bharat' initiative. This strategy not only bolsters national security and operational readiness but also fosters domestic innovation, creates jobs, and strengthens the defence industrial base. The focus on AI skill training for youth highlights the government's commitment to future-proofing India's workforce, leveraging emerging technologies for economic growth, and maintaining a technological edge crucial for both civilian and defence applications. Furthermore, the ambitious 200 GW nuclear capacity target underscores a dual strategy: ensuring long-term energy security through clean sources and enhancing India's overall strategic capabilities, as advanced nuclear programs are often linked to a nation's technological prowess and strategic autonomy.",
+      "backgroundContext": "India's Independence Day (August 15th) speech by the Prime Minister from the ramparts of the Red Fort is an annual tradition, serving as a platform to reflect on national progress, announce new policies, and outline future visions for the country. The 'Viksit Bharat' vision builds upon previous long-term planning exercises and policies aimed at accelerating economic development, achieving social upliftment, and strengthening India's strategic position on the global stage. The historic rendition of 'Vande Mataram' adds a layer of cultural and nationalistic significance to this pivotal address.",
       "stakeholders": [
-        "Defence Research and Development Organisation (DRDO)",
-        "Strategic Forces Command (SFC)"
+        "Government of India",
+        "Ministry of Defence",
+        "Ministry of Electronics and Information Technology",
+        "Department of Atomic Energy",
+        "Indian Armed Forces",
+        "Defence Public Sector Undertakings (DPSUs)",
+        "Private Defence Manufacturers",
+        "Indian Youth",
+        "Research and Development Institutions"
       ],
       "relatedTopics": [
-        "Missile Technology",
-        "Nuclear Deterrence",
-        "Defence Capabilities"
+        "Atmanirbhar Bharat",
+        "Make in India",
+        "Defence Indigenization",
+        "Nuclear Energy Policy",
+        "Skill India Mission",
+        "Digital India",
+        "National Security Policy",
+        "Economic Development",
+        "India's Foreign Policy"
       ],
       "examRelevanceMatrix": {
         "NDA": "High",
@@ -7536,215 +7637,21 @@ window.CURRENT_AFFAIRS_DB = {
       },
       "potentialQuestions": {
         "shortAnswers": [
-          "What is the range and classification of the Agni-4 missile?"
+          "What are the three key sectors where PM Modi highlighted significant progress under 'Viksit Bharat @ 2047'?",
+          "How many youth are targeted for AI skill training under the new roadmap?",
+          "What historic event related to the national song occurred at the Red Fort during the speech?"
         ],
         "interviewQuestions": [
-          "How does the Agni-4 missile enhance India's strategic deterrence capabilities?"
+          "Elaborate on the role of increased defence production in achieving India's strategic autonomy by 2047.",
+          "How can the 'Viksit Bharat @ 2047' vision address socio-economic disparities while also strengthening national security?",
+          "Discuss the challenges and opportunities for India in achieving 200 GW nuclear capacity and its implications for energy security and strategic power."
         ],
         "ssbDiscussionTopics": [
-          "India's evolving missile technology and its impact on regional security."
+          "Viksit Bharat @ 2047: A Reality Check on India's Economic and Strategic Ambitions.",
+          "The Imperative of Self-Reliance in Defence for a Developed India.",
+          "India's Youth as a Catalyst for Achieving the Developed Nation Status: Opportunities and Responsibilities."
         ]
       }
     }
-  ],
-  "August 2026": [
-  {
-    "id": "aug-1",
-    "topic": "Sports Awards",
-    "text": "India reached the finals of the **ICC Men's T20 World Cup**, exhibiting outstanding team coordination and performances in the knock-out matches.",
-    "details": {
-      "winner": "ICC Tournament Board",
-      "award": "T20 World Cup Campaign",
-      "nationality": "International",
-      "summary": "Participated in the premier global T20 tournament, demonstrating high-quality batting and tactical bowling lineups."
-    },
-    "mcq": {
-      "question": "Which country won the ICC Men's T20 World Cup in 2024, defeating South Africa in the final?",
-      "options": [
-        "Australia",
-        "India",
-        "England",
-        "Pakistan"
-      ],
-      "correct": 1,
-      "explanation": "India won the ICC Men's T20 World Cup in June 2024 under Rohit Sharma's captaincy, defeating South Africa in Barbados."
-    }
-  },
-  {
-    "id": "aug-2",
-    "topic": "Science & Tech",
-    "text": "ISRO and JAXA finalized payload specifications for the **LUPEX (Lunar Polar Exploration)** joint mission, targeting the water-ice deposits on the Moon's south pole.",
-    "details": {
-      "winner": "ISRO & JAXA",
-      "award": "LUPEX Mission Planning",
-      "nationality": "India & Japan Joint Venture",
-      "summary": "A joint robotic lunar lander and rover mission, where JAXA will provide the launch vehicle and rover, and ISRO will provide the lander."
-    },
-    "mcq": {
-      "question": "What is the name of India's planned orbiter mission to Venus, scheduled for late 2020s?",
-      "options": [
-        "Aditya-L2",
-        "Shukrayaan-1",
-        "LUPEX",
-        "Gaganyaan-2"
-      ],
-      "correct": 1,
-      "explanation": "Shukrayaan-1 is the proposed ISRO mission to study the atmosphere and surface of Venus."
-    }
-  },
-  {
-    "id": "aug-3",
-    "topic": "Defence Technology",
-    "text": "The stealth frigate **INS Mahendragiri**, built under Project 17A, successfully completed sea trials, showcasing indigenously developed stealth designs.",
-    "details": {
-      "winner": "Indian Navy & Mazagon Dock",
-      "award": "INS Mahendragiri Sea Trials",
-      "nationality": "Indian (Project 17A Frigate)",
-      "summary": "The seventh and final stealth frigate of the Nilgiri-class Project 17A, equipped with advanced weapons, sensors, and platform management systems."
-    },
-    "mcq": {
-      "question": "INS Mahendragiri, recently commissioned into the Indian Navy, is a:",
-      "options": [
-        "Aircraft Carrier",
-        "Nuclear Submarine",
-        "Stealth Guided Frigate",
-        "Offshore Patrol Vessel"
-      ],
-      "correct": 2,
-      "explanation": "INS Mahendragiri is the seventh stealth frigate built under Project 17A."
-    }
-  },
-  {
-    "id": "aug-4",
-    "topic": "Environment",
-    "text": "The Union Ministry designated **Tawa Reservoir in Madhya Pradesh** as a Ramsar site of international importance, highlighting conservation successes.",
-    "details": {
-      "winner": "Madhya Pradesh Forest Dept",
-      "award": "Ramsar Site Designation",
-      "nationality": "Indian (Madhya Pradesh)",
-      "summary": "Tawa Reservoir is an important wetland supporting threatened bird species, migratory waterfowl, and local fisheries."
-    },
-    "mcq": {
-      "question": "Which of the following reservoirs in Madhya Pradesh was designated as a Ramsar site?",
-      "options": [
-        "Tawa Reservoir",
-        "Indira Sagar",
-        "Gandhi Sagar",
-        "Bargi Dam"
-      ],
-      "correct": 0,
-      "explanation": "Tawa Reservoir, located in Narmadapuram district of Madhya Pradesh, along with two sites in Tamil Nadu, was designated as a Ramsar site, taking India's total count to 85."
-    }
-  },
-  {
-    "id": "aug-5",
-    "topic": "Politics & Admin",
-    "text": "Justice Sanjiv Khanna took oath as the new Chief Justice of India (CJI), succeeding the outgoing Chief Justice.",
-    "details": {
-      "winner": "Justice Sanjiv Khanna",
-      "award": "Oath as Chief Justice of India",
-      "nationality": "Indian",
-      "summary": "Appointed as the 51st Chief Justice of India. The oath was administered by President Droupadi Murmu at Rashtrapati Bhavan under Article 124(6) of the Constitution."
-    },
-    "mcq": {
-      "question": "Under which Article of the Indian Constitution does the President administer the oath of office to the Chief Justice of India?",
-      "options": [
-        "Article 124(6)",
-        "Article 60",
-        "Article 125",
-        "Article 219"
-      ],
-      "correct": 0,
-      "explanation": "Article 124(6) of the Constitution of India provides that every person appointed to be a Judge of the Supreme Court shall make and subscribe an oath or affirmation before the President."
-    }
-  },
-  {
-    "id": "aug-6",
-    "topic": "National Security",
-    "text": "The Ministry of Development of Northeastern Region (DoNER) reviewed infrastructure projects under the **Vibrant Villages Programme (VVP)** along the LAC.",
-    "details": {
-      "winner": "Border Villages in Himachal, Uttarakhand, Sikkim, Arunachal",
-      "award": "VVP Infrastructure Funding",
-      "nationality": "Indian (Northern Borders)",
-      "summary": "A Centrally Sponsored Scheme to develop infrastructure, generate livelihoods, and improve connectivity in border villages to arrest migration."
-    },
-    "mcq": {
-      "question": "The Vibrant Villages Programme covers border villages along India's border with which country?",
-      "options": [
-        "Pakistan",
-        "China",
-        "Bangladesh",
-        "Myanmar"
-      ],
-      "correct": 1,
-      "explanation": "The VVP targets the development of border villages along the northern border (primarily the Line of Actual Control with China)."
-    }
-  },
-  {
-    "id": "aug-7",
-    "topic": "Environment",
-    "text": "The Ministry of Environment, Forest and Climate Change consolidated the administration of **Project Tiger** and **Project Elephant** under a single division.",
-    "details": {
-      "winner": "Project Tiger & Elephant Division",
-      "award": "Administrative Merger",
-      "nationality": "Indian",
-      "summary": "A structural reform aimed at optimizing resources, integrating conservation fields, and streamline funding for overlapping tiger/elephant habitats."
-    },
-    "mcq": {
-      "question": "Which of the following years marks the launch of Project Tiger in India?",
-      "options": [
-        "1972",
-        "1973",
-        "1980",
-        "1992"
-      ],
-      "correct": 1,
-      "explanation": "Project Tiger was launched on April 1, 1973, from Jim Corbett National Park, while Project Elephant was launched in 1992."
-    }
-  },
-  {
-    "id": "aug-8",
-    "topic": "International GK",
-    "text": "The **Henley Passport Index 2026** released its mid-year rankings, listing Singapore's passport as the most powerful in the world.",
-    "details": {
-      "winner": "Singapore Passport",
-      "award": "Henley Passport Index",
-      "nationality": "International",
-      "summary": "An authoritative index ranking global passports according to the number of destinations their holders can access without a prior visa."
-    },
-    "mcq": {
-      "question": "In the Henley Passport Index 2025/2026, which country consistently ranks as having the most powerful passport?",
-      "options": [
-        "Japan",
-        "Singapore",
-        "Germany",
-        "France"
-      ],
-      "correct": 1,
-      "explanation": "Singapore's passport ranks first, allowing its citizens visa-free access to 195 destinations."
-    }
-  },
-  {
-    "id": "aug-pm-speech-2026",
-    "topic": "National Affairs",
-    "text": "During the 80th Independence Day speech at the Red Fort, PM Modi laid out the **'Viksit Bharat @ 2047'** roadmap, highlighting significant progress in poverty alleviation, defence, and electronics manufacturing.",
-    "details": {
-      "winner": "Government of India",
-      "award": "Viksit Bharat Highlights",
-      "nationality": "Indian",
-      "summary": "Key announcements included AI skill training for 1 crore youth, 200 GW nuclear capacity target, and a 4x increase in defence production. The national song 'Vande Mataram' was also rendered at the Red Fort for the first time since Independence."
-    },
-    "mcq": {
-      "question": "In the PM's 2026 Independence Day speech, what major announcement was made for the youth?",
-      "options": [
-        "Laptops for 1 crore students",
-        "AI skill training for 1 crore youth",
-        "Free internet for 5 crore youth",
-        "Start-up funding for 10 lakh youth"
-      ],
-      "correct": 1,
-      "explanation": "PM Modi announced a major initiative to provide AI skill training to 1 crore (10 million) youth to prepare them for a tech-driven future."
-    }
-  }
-]
+  ]
 };
