@@ -7652,6 +7652,28 @@ window.CURRENT_AFFAIRS_DB = {
           "India's Youth as a Catalyst for Achieving the Developed Nation Status: Opportunities and Responsibilities."
         ]
       }
+    },
+    {
+      "id": "aug-gen-dhiraj-seth-2026",
+      "topic": "International Relations / Defence",
+      "text": "Chief of the Army Staff of the Indian Army, **General Dhiraj Seth**, was conferred the rank of **Honorary General of the Nepal Army** by the President of Nepal, Ramchandra Paudel.",
+      "details": {
+        "winner": "General Dhiraj Seth",
+        "award": "Honorary General of the Nepal Army",
+        "nationality": "Indian",
+        "summary": "This conferment is part of a long-standing, unique military tradition between India and Nepal that dates back to 1950, reflecting mutual trust and professional respect."
+      },
+      "mcq": {
+        "question": "In August 2026, the Chief of the Army Staff of the Indian Army, General Dhiraj Seth, was conferred the honorary rank of General of which country's army?",
+        "options": [
+          "Bangladesh",
+          "Bhutan",
+          "Nepal",
+          "Sri Lanka"
+        ],
+        "correct": 2,
+        "explanation": "General Dhiraj Seth was conferred the rank of Honorary General of the Nepal Army by the President of Nepal, continuing a historical tradition."
+      }
     }
   ]
 };
