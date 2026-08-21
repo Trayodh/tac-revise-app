@@ -45,38 +45,47 @@ window.CA_META = {
 // =============================================================================
 window.CA_VISITS_DATA = [
   {
-    visit: "India-France Joint Maritime Exercise 'Varuna'",
-    period: "June 2026",
-    purpose: "To enhance interoperability, strengthen maritime security cooperation, and practice advanced naval operations between the Indian and French Navies.",
-    deals: "The 'Varuna' exercise is a significant bilateral defence engagement, fostering strategic partnership and mutual understanding between India and France. For UPSC aspirants, it highlights India's commitment to maritime security in the Arabian Sea and its deepening defence ties with key strategic partners like France, impacting regional stability and naval capabilities.",
-  },
-
-  {
-    visit: "India-France Joint Maritime Exercise 'Varuna'",
-    period: "June 2026",
-    purpose: "To enhance interoperability, strengthen maritime security cooperation, and share best practices in advanced naval operations between India and France.",
-    deals: "The 'Varuna' exercise is a cornerstone of the strategic partnership between India and France, demonstrating their commitment to a free and open Indo-Pacific. It significantly boosts naval cooperation, enabling both navies to refine tactics in areas like anti-submarine warfare and maritime surveillance, crucial for regional stability and security.",
-  },
-
-  {
-    visit: "MALABAR Naval Exercise 2026",
-    period: "August 2026",
-    purpose: "Quad nations (India, US, Japan, Australia) conducted the MALABAR 2026 maritime exercise in the Indian Ocean Region.",
-    deals: "Focused on advanced anti-submarine warfare (ASW), surface warfare, and maritime interdiction operations. The exercise significantly boosts interoperability among the Quad navies, acting as a strategic deterrent and ensuring a free, open, and inclusive Indo-Pacific.",
+    "visit": "Defence Secretary Rajesh Singh's visit to Armenia",
+    "period": "August 2026",
+    "purpose": "To boost and strengthen defence cooperation, exploring new areas and potential defence procurements.",
+    "deals": "During the visit, India and Armenia signed an MoU to enhance defence sector cooperation. Discussions reportedly included the potential export of India's 'Pralay' tactical ballistic missiles, marking a significant step in diversifying India's defence exports and strengthening strategic ties with Armenia."
   },
   {
-    visit: "Joint Military Exercise KAZIND-2026",
-    period: "August 2026",
-    purpose: "8th Edition of joint military exercise KAZIND between India and Kazakhstan, focusing on counter-terrorism operations under UN mandate.",
-    deals: "Troops practiced sub-conventional operations, raid drills, and sniper training in semi-urban and mountainous terrain. The exercise deepened bilateral military ties and shared best practices in tactical operations, enhancing regional security.",
+    "visit": "PM Modi’s Visit to Indonesia",
+    "period": "August 2026",
+    "purpose": "To foster defence cooperation and achieve strategic convergence between the two nations.",
+    "deals": "The high-level visit by PM Modi focused on deepening bilateral defence ties, likely involving discussions on joint exercises, defence technology sharing, and maritime security, crucial for India's Act East policy and regional stability in the Indo-Pacific."
   },
   {
-    visit: "India and France joint maritime exercise 'Varuna'",
-    period: "June 2026",
-    purpose: "To enhance interoperability, strengthen maritime security cooperation, and share best practices in advanced naval operations, particularly anti-submarine warfare.",
-    deals: "This bilateral naval exercise deepens the strategic partnership between India and France, crucial for regional maritime security in the Indian Ocean Region. It showcases mutual commitment to a free and open Indo-Pacific and builds trust and coordination for potential future joint operations or defence procurements, impacting India's strategic autonomy and defence diplomacy.",
+    "visit": "Koizumi’s India visit and broader India-Japan defence initiatives",
+    "period": "August 2026",
+    "purpose": "To boost overall defence cooperation, advance maritime collaboration, and promote the 'Make in India' initiative in the defence sector.",
+    "deals": "Discussions during Koizumi's visit focused on advancing maritime cooperation, which includes joint naval exercises and information sharing. Additionally, broader bilateral talks aimed at boosting defence cooperation emphasized the 'Make in India' initiative, potentially leading to joint development and manufacturing of defence equipment."
   },
-
+  {
+    "visit": "IAF Chief's visit to Vietnam",
+    "period": "August 2026",
+    "purpose": "To boost and deepen defence cooperation, particularly in the air force domain.",
+    "deals": "The IAF Chief's three-day visit aimed at enhancing military-to-military ties, sharing best practices, and exploring avenues for advanced defence training and technology exchange, reinforcing India's strategic partnership with Vietnam in the Indo-Pacific region."
+  },
+  {
+    "visit": "Indian Army Chief Dhiraj Seth's visit to Nepal",
+    "period": "August 2026",
+    "purpose": "To discuss and strengthen bilateral defence cooperation and military ties with a key neighbor.",
+    "deals": "The visit by the Indian Army Chief focused on traditional military exchanges, training cooperation, and addressing shared security concerns, vital for maintaining strong defence relations and regional stability along the India-Nepal border."
+  },
+  {
+    "visit": "MALABAR Naval Exercise 2026",
+    "period": "August 2026",
+    "purpose": "Quad nations (India, US, Japan, Australia) conducted the MALABAR 2026 maritime exercise in the Indian Ocean Region.",
+    "deals": "Focused on advanced anti-submarine warfare (ASW), surface warfare, and maritime interdiction operations. The exercise significantly boosts interoperability among the Quad navies, acting as a strategic deterrent and ensuring a free, open, and inclusive Indo-Pacific."
+  },
+  {
+    "visit": "Joint Military Exercise KAZIND-2026",
+    "period": "August 2026",
+    "purpose": "8th Edition of joint military exercise KAZIND between India and Kazakhstan, focusing on counter-terrorism operations under UN mandate.",
+    "deals": "Troops practiced sub-conventional operations, raid drills, and sniper training in semi-urban and mountainous terrain. The exercise deepened bilateral military ties and shared best practices in tactical operations, enhancing regional security."
+  },
   {
     "visit": "Skyroot Rocket Milestone",
     "period": "July 2026",
@@ -124,18 +133,6 @@ window.CA_VISITS_DATA = [
     "period": "July 2026",
     "purpose": "16th India-Japan Annual Summit (July 1–3). First official visit by PM Takaichi (in office since Oct 2025) to India.",
     "deals": "Japan pledged US$62 billion investment in India over 10 years. Joint Statement on AI cooperation (Japan precision technology + India software capabilities). First-ever India-Japan co-development project in defence technology (naval systems). 'India-Japan Cooperative Biogas for Growth (CBG) Initiative' — 1,000 biogas plants. 2027 declared 'India-Japan Year of Shared Horizons' (75th anniversary of diplomatic ties)."
-  },
-  {
-    "visit": "PM Modi's State Visit to Seychelles",
-    "period": "June 2026",
-    "purpose": "State Visit (June 27–29) — Guest of Honour at Seychelles' Golden Jubilee National Day celebrations.",
-    "deals": "Conferred with the 'Guardian of the Blue Horizon' award by Seychelles. Strengthened maritime security and Indian Ocean Region capacity building under the Neighbourhood First policy."
-  },
-  {
-    "visit": "PM Modi to France and Slovakia",
-    "period": "June 2026",
-    "purpose": "State visits (June 13–18): France (bilateral + G7 Summit in Evian, June 16–17; VivaTech 2026 summit in Paris) and Slovakia (first-ever visit by an Indian PM since Slovakia's independence in 1993).",
-    "deals": "Slovakia: Talks with PM Robert Fico and President Peter Pellegrini; discussions on trade, investment, and manufacturing. Inaugurated 'Bharat Innovates' event with French President Macron in Nice. France remains key strategic partner (Rafale jets, nuclear cooperation)."
   },
   {
     "visit": "PM Modi to Malaysia",

@@ -3,21 +3,22 @@ const fs = require('fs');
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
+const Parser = require('rss-parser');
+const parser = new Parser();
+
 async function fetchPIB() {
-  console.log("[Phase 4] PIB WAF currently blocks automated scraping. Using fallback latest Defence RSS data to demonstrate pipeline...");
-  return `
-Title: Ministry of Defence signs Rs 5,336 crore contract with BEL for artillery fuses
-Date: Wed, 12 Jun 2026
-Description: The Ministry of Defence signed a landmark contract with Bharat Electronics Limited (BEL) for the procurement of electronic fuses for artillery guns, boosting the Make in India initiative.
----
-Title: India and France conduct joint maritime exercise 'Varuna' in the Arabian Sea
-Date: Mon, 15 Jun 2026
-Description: The Indian Navy and the French Navy conducted the 21st edition of the bilateral naval exercise 'Varuna', focusing on advanced anti-submarine warfare and maritime security.
----
-Title: DRDO successfully flight tests indigenous New Generation Akash Missile
-Date: Fri, 19 Jun 2026
-Description: Defence Research and Development Organisation (DRDO) successfully test-fired the New Generation Akash (Akash-NG) missile from the Integrated Test Range (ITR) off the coast of Odisha.
----`;
+  console.log("[Phase 4] PIB WAF currently blocks automated scraping. Using Google News RSS fallback for latest defence news...");
+  try {
+    const feed = await parser.parseURL('https://news.google.com/rss/search?q=India+defence+deal+visit&hl=en-IN&gl=IN&ceid=IN:en');
+    let feedText = '';
+    feed.items.slice(0, 10).forEach(item => {
+      feedText += `Title: ${item.title}\nDate: ${item.pubDate}\nDescription: ${item.contentSnippet || item.content || ''}\n---\n`;
+    });
+    return feedText;
+  } catch (err) {
+    console.error("Error fetching RSS:", err);
+    return "";
+  }
 }
 
 async function synthesizeWithGemini(feedText) {
