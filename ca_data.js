@@ -47,6 +47,13 @@ window.CA_VISITS_DATA = [
   {
     visit: "India-France Joint Maritime Exercise 'Varuna'",
     period: "June 2026",
+    purpose: "To enhance interoperability, strengthen maritime security cooperation, and practice advanced naval operations between the Indian and French Navies.",
+    deals: "The 'Varuna' exercise is a significant bilateral defence engagement, fostering strategic partnership and mutual understanding between India and France. For UPSC aspirants, it highlights India's commitment to maritime security in the Arabian Sea and its deepening defence ties with key strategic partners like France, impacting regional stability and naval capabilities.",
+  },
+
+  {
+    visit: "India-France Joint Maritime Exercise 'Varuna'",
+    period: "June 2026",
     purpose: "To enhance interoperability, strengthen maritime security cooperation, and share best practices in advanced naval operations between India and France.",
     deals: "The 'Varuna' exercise is a cornerstone of the strategic partnership between India and France, demonstrating their commitment to a free and open Indo-Pacific. It significantly boosts naval cooperation, enabling both navies to refine tactics in areas like anti-submarine warfare and maritime surveillance, crucial for regional stability and security.",
   },
