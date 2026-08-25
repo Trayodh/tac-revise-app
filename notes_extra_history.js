@@ -1743,7 +1743,7 @@ EXPANDED_NOTES_DATA["buddhism-jainism"] = `
 
 
     <br><hr><br>
-    <h2 style="color: #f59e0b; text-align: center;">🔥 Pathfinder General Studies - Extra Revision</h2>
+    
 <h2>Teachings of Buddha</h2><ul><li><h3>Four Noble Truths (Arya Satyas)</h3><ul><li>The world is full of sorrows (Sabbam Dukham).</li><li>The cause of sorrow is desire (Dwadash Nidan/Pratitya Samutpada).</li><li>If desires are conquered, all sorrows can be removed (Nirvana).</li><li>This can be achieved by following the Eight-Fold Path (Ashtangika Marga).</li><li>The second truth is based on Buddha's doctrine of Paticheha samutpada or Pratitya samutpada, which is the law of dependent origination or causation.</li></ul></li><li><h3>Eight-Fold Path (Ashtangika Marga)</h3><ol><li>Right understanding</li><li>Right thought</li><li>Right speech</li><li>Right action</li><li>Right livelihood</li><li>Right effort</li><li>Right mindfulness</li><li>Right concentration</li></ol></li><li><h3>Three Jewels (Triratnas)</h3><ol><li>Buddha (the enlightened)</li><li>Dhamma (doctrine)</li><li>Sangha (order)</li></ol></li><li><h3>Code of Conduct</h3><ol><li>Do not convert the property of others</li><li>Do not commit violence</li><li>Do not use intoxicants</li><li>Do not speak a lie</li><li>Do not indulge in corrupt practices</li></ol></li><li><h3>Key Beliefs</h3><ul><li><b>Nirvana:</b> Also known as moksha or salvation. It refers to the concept of ultimate bliss, whereby a person gets freedom from the cycle of birth and death.</li><li><b>Ahimsa:</b> Non-violence.</li><li><b>Law of Karma:</b> Actions and their consequences.</li><li><b>Madhya Marga/Madhyama Pratipada:</b> The middle path.</li></ul></li><li><h3>Terminology</h3><ul><li><b>Kutagorshala:</b> A place where Buddhist monks discuss religious issues.</li></ul></li></ul>
 <h2>Division of Buddhism</h2><p>Buddhism was divided into the following sects:</p><ul><li><b>Hinayana or Lesser Wheel:</b><ul><li>Followers believed in the original teachings of Buddha.</li><li>Believed in individual salvation.</li><li>Did not believe in idol-worship.</li></ul></li><li><b>Mahayana or Greater Wheel:</b><ul><li>Followers believed in the heavenliness of Buddha.</li><li>Sought salvation through the grace and help of Buddha and Bodhisattvas.</li><li>Came into existence during the reign of Kanishka.</li></ul></li><li><b>Vajrayana or Vehicle of Thunderbolt:</b><ul><li>Followers believed that salvation could be attained by acquiring magical powers (Vajra).</li><li>The chief divinities of this sect were Taras.</li><li>Vajrayana became popular in the Eastern part of India, particularly in Bengal and Bihar.</li></ul></li></ul>
 <h2>Buddhist Texts</h2><ul><li><h3>Tripitakas (Buddhist Scriptures)</h3><ul><li><b>Vinaya Pitaka:</b> Contains the rules and regulations of monastic discipline for monks. Also includes an account of the life and teaching of the Buddha.</li><li><b>Sutta Pitaka:</b> Contains discourses delivered by Buddhist scholars like Sariputta, Ananda, and others. It lays down the principles of Buddhism and is a collection of Buddha's sermons, divided into five groups.</li><li><b>Abhidhamma Pitaka:</b> Contains the philosophy of Buddha's teachings, investigating mind and matter to help understand things as they truly are.</li></ul></li><li><b>Jatak Stories:</b> Narrates about 550 previous births of Buddha.</li><li><b>Milindapanho:</b> A conversation between the Greco-Bactrian king Menander and the Buddhist monk Nagasena, written in a question-and-answer format.</li><li><b>Kathavastu:</b> A Hinayana granth, it is noted as the first book written in Sanskrit language in Buddhist religion.</li><li><b>Mahavibhashashastra:</b> Written by Vasumitra, it is considered an encyclopedia of the Buddhist religion.</li><li><b>Dipavamsha and Mahavamsha:</b> Written in Pali language, these texts provide historical accounts of Sri Lanka.</li></ul>
@@ -2809,7 +2809,7 @@ EXPANDED_NOTES_DATA["delhi-sultanate"] = `
 
 
     <br><hr><br>
-    <h2 style="color: #f59e0b; text-align: center;">🔥 Pathfinder General Studies - Extra Revision</h2>
+    
 <h2>Shams-ud-din Iltutmish (c. 1211-1236 AD)</h2>
 <ul>
   <li>Considered the <b>real founder of the Delhi Sultanate</b>.</li>
@@ -5305,7 +5305,7 @@ EXPANDED_NOTES_DATA["governor-generals-viceroys"] = `
 
 
     <br><hr><br>
-    <h2 style="color: #f59e0b; text-align: center;">🔥 Pathfinder General Studies - Extra Revision</h2>
+    
 <h2>Lord Irwin (AD 1926-1931)</h2>
 <ul>
   <li><strong>Harcourt Butler Indian States Commission:</strong> Appointed in 1927.</li>
@@ -6654,7 +6654,7 @@ EXPANDED_NOTES_DATA["freedom-movement"] = `
 
 
     <br><hr><br>
-    <h2 style="color: #f59e0b; text-align: center;">🔥 Pathfinder General Studies - Extra Revision</h2>
+    
 <h2>Important Events (1922-1925)</h2>
 <ul>
   <li><strong>Chauri Chaura Incident:</strong> Occurred on 5th February, 1922, leading to the subsequent withdrawal of the Non-Cooperation Movement.</li>
