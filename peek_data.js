@@ -1,1 +1,0 @@
-const fs = require('fs'); const content = fs.readFileSync('data.js', 'utf8'); eval(content.replace(/const NOTES_DATABASE/, 'var NOTES_DATABASE').replace(/let CURRENT_AFFAIRS_LIVE/, 'var CURRENT_AFFAIRS_LIVE')); console.log('Has NOTES_DATABASE:', typeof NOTES_DATABASE !== 'undefined');
