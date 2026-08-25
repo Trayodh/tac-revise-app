@@ -45,6 +45,37 @@ window.CA_META = {
 // =============================================================================
 window.CA_VISITS_DATA = [
   {
+    visit: "India-Armenia Defence Secretary Visit and MoU Signing",
+    period: "August 2026",
+    purpose: "To strengthen defence cooperation and explore new areas of partnership between India and Armenia.",
+    deals: "The signing of an MoU during the visit formalizes and expands defence ties, potentially leading to increased Indian defence exports to Armenia, such as artillery systems or radars. This reflects India's strategic interest in diversifying its defence partnerships and establishing a foothold in the South Caucasus, enhancing its geopolitical influence and defence industry outreach.",
+  },
+  {
+    visit: "Defence Minister Rajnath Singh's Visit to Sri Lanka",
+    period: "September 2026",
+    purpose: "To review, expedite, and enhance existing defence cooperation and agreements between India and Sri Lanka.",
+    deals: "This visit underscores India's \"Neighbourhood First\" policy and its commitment to regional security in the Indian Ocean, crucial for maritime domain awareness and counter-terrorism. It is expected to expedite existing defence agreements and potentially involve discussions on defence equipment sales or joint exercises, strengthening India's strategic influence in its immediate vicinity.",
+  },
+  {
+    visit: "PM Modi's Visit to Indonesia for Defence Cooperation",
+    period: "August 2026",
+    purpose: "To enhance defence cooperation and strategic convergence between India and Indonesia.",
+    deals: "This visit strengthens India's \"Act East\" policy and its engagement with key ASEAN partners, crucial for maritime security in the Indo-Pacific region. Discussions likely covered joint exercises, maritime domain awareness, and potential defence equipment sales, reinforcing India's strategic presence and counterbalancing regional influences.",
+  },
+  {
+    visit: "Indian Air Chief Marshal AP Singh's Visit to Vietnam",
+    period: "August 2026",
+    purpose: "To deepen and strengthen defence cooperation between India and Vietnam.",
+    deals: "This visit is vital for India's \"Act East\" policy, strengthening ties with a crucial partner in the South China Sea region. It likely involved discussions on military training, technology transfer, and potential defence exports like BrahMos missiles, enhancing Vietnam's capabilities and India's strategic influence in the Indo-Pacific.",
+  },
+  {
+    visit: "Potential India-Russia Sukhoi-57 Fighter Acquisition and Su-30MKI Upgrade",
+    period: "August 2026",
+    purpose: "To modernize India's air force capabilities by acquiring advanced fifth-generation fighters and upgrading existing fleets.",
+    deals: "This potential major defence deal highlights India's continued reliance on Russian defence technology for high-end platforms, despite diversification efforts. The acquisition of Sukhoi-57 would significantly boost India's air superiority, while the Su-30MKI upgrades would extend the operational life and combat effectiveness of a crucial fleet, impacting India's strategic air power balance and indigenous defence capabilities.",
+  },
+
+  {
     "visit": "Defence Secretary Rajesh Singh's visit to Armenia",
     "period": "August 2026",
     "purpose": "To boost and strengthen defence cooperation, exploring new areas and potential defence procurements.",

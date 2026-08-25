@@ -23,7 +23,8 @@ const dbFiles = [
     'notes_data.js',
     'notes_extra_history.js',
     'notes_extra_geography.js',
-    'notes_extra_polity.js'
+    'notes_extra_polity.js',
+    'notes_data_exam_focused.js'
 ];
 
 let totalInjected = 0; let missedInjections = [];
