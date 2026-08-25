@@ -2,7 +2,18 @@
 
 // Dependencies: data.js (which contains NOTES_DATABASE, window.CURRENT_AFFAIRS_DB, etc.)
 
-
+// Configure Marked.js to parse Mermaid code blocks into div.mermaid so mermaid.init() can find them.
+if (typeof marked !== 'undefined') {
+  const renderer = {
+    code(code, infostring, escaped) {
+      if (infostring === 'mermaid') {
+        return '<div class="mermaid">' + code + '</div>';
+      }
+      return false; // use default renderer for other code blocks
+    }
+  };
+  marked.use({ renderer });
+}
 
 // ==========================================
 
