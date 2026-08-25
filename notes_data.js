@@ -1933,8 +1933,9 @@ const NOTES_DATABASE = {
     "title": "Mathematics (NDA/CDS)",
     "chapters": [
       {
-        "id": "trigonometry",
-        "title": "Trigonometry",
+        "id": "trig-identities",
+        "title": "Trigonometric Identities & Values",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "trig-identities",
@@ -1978,7 +1979,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "inverse-trig",
+        "title": "Inverse Trigonometric Functions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "inverse-trig",
             "title": "Inverse Trigonometric Functions",
@@ -2025,15 +2033,23 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "algebra-complex",
-        "title": "Algebra & Complex Numbers",
+        "id": "quadratic-eq",
+        "title": "Quadratic Equations",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "quadratic-eq",
             "title": "Quadratic Equations",
             "notes": "\n\n<!-- VISUAL INJECTION -->\n<div class=\"visual-summary text-center my-6\"><img src=\"images/algebra_quadratic_complex.png\" alt=\"Visual Summary\" class=\"max-w-full h-auto rounded-lg shadow-md border border-slate-700 mx-auto\" /></div>\n\n<h3>1. Nature of Roots</h3>\n              <p>For ax2 + bx + c = 0, the discriminant D = b2 - 4ac decides the roots:</p>\n              <ul>\n                <li>D > 0: Real and distinct roots.</li>\n                <li>D = 0: Real and equal roots.</li>\n                <li>D < 0: Complex conjugate roots.</li>\n              </ul>\n            \n<div class=\"expanded-notes\" style=\"margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);\">\n  <div style=\"color: var(--accent); font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;\">\n    [ Advanced Revision Data ]\n  </div>\n  \n<div class= String.raw\"revision-card\" style= String.raw\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style= String.raw\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;\">\n    Quadratic Equations\n  </h3>\n\n  <h4>1. Definition and Standard Form</h4>\n  <p>A <strong>quadratic equation</strong> is any polynomial equation of degree two. In its most compact representation it is written as</p>\n  $$ax^{2}+bx+c= String.raw0$$\n  <ul>\n    <li><strong>a</strong> – the <em>leading coefficient</em>; must satisfy <strong>a\\neq0</strong> for the equation to remain quadratic.</li>\n    <li><strong>b</strong> – the <em>linear coefficient</em>; can be any real (or complex) number.</li>\n    <li><strong>c</strong> – the <em>constant term</em>; also any real (or complex) number.</li>\n  </ul>\n  <p>When <strong>a</strong>, <strong>b</strong>, <strong>c</strong> are integers, the equation is often called an [[Integral Quadratic]]. The set of all solutions (roots) is denoted by <strong>α</strong> and <strong>β</strong>.</p>\n\n  <h4>2. Derivation of the Quadratic Formula from First Principles</h4>\n  <p>Starting from the standard form, we can complete the square:</p>\n  $$ax^{2}+bx+c= String.raw0\\quad\\Longrightarrow\\quad x^{2}+\\frac{b}{a}x+\\frac{c}{a}= String.raw0$$\n  <p>Move the constant term to the right side:</p>\n  $$x^{2}+\\frac{b}{a}x= String.raw-\\frac{c}{a}$$\n  <p>Add $\\left(\\frac{b}{2a}\\right)^{2}$ to both sides to form a perfect square:</p>\n  $$x^{2}+\\frac{b}{a}x+\\left(\\frac{b}{2a}\\right)^{2}= String.raw\\left(\\frac{b}{2a}\\right)^{2}-\\frac{c}{a}$$\n  <p>The left–hand side becomes $\\left(x+\\frac{b}{2a}\\right)^{2}$, giving:</p>\n  $$\\left(x+\\frac{b}{2a}\\right)^{2}= String.raw\\frac{b^{2}-4ac}{4a^{2}}$$\n  <p>Taking square roots (both $+$ and $-$) yields:</p>\n  $$x+\\frac{b}{2a}= String.raw\\pm\\frac{\\sqrt{b^{2}-4ac}}{2a}$$\n  <p>Finally, isolate $x$:</p>\n  $$\\boxed{x= String.raw\\frac{-b\\pm\\sqrt{b^{2}-4ac}}{2a}}$$\n  <p>Here the expression $Δ= String.rawb^{2}-4ac$ is called the <strong>discriminant</strong>. Its sign determines the nature of the roots:</p>\n  <ul>\n    <li><strong>Δ>0</strong> – two distinct real roots.</li>\n    <li><strong>Δ= String.raw0</strong> – a repeated real root (double root).</li>\n    <li><strong>Δ<0</strong> – two complex conjugate roots.</li>\n  </ul>\n\n  <h4>3. Vieta’s Relations – Connecting Coefficients and Roots</h4>\n  <p>For any quadratic $ax^{2}+bx+c= String.raw0$ with roots $α$ and $β$, the following identities hold (known as [[Vieta's formulas]]):</p>\n  $$\\begin{aligned}\n  α+β &= String.raw-\\frac{b}{a}\\\\[4pt]\n  αβ   &= String.raw\\frac{c}{a}\n  \\end{aligned}$$\n  <p>These relations are extremely useful for problems that ask for sums or products of roots without explicitly solving the equation.</p>\n\n  <h4>4. Classification of Roots – Real vs. Complex</h4>\n  <div class= String.raw\"important-box\" style= String.raw\"background:#202030; padding:10px; margin:12px 0; border-left:4px solid var(--accent);\">\n    <strong>Critical Distinction:</strong> The discriminant $Δ$ governs not only the count of real solutions but also the magnitude of the imaginary part when $Δ<0$. If $Δ<0$, the roots can be expressed as\n    $$x= String.raw\\frac{-b}{2a}\\pm i\\frac{\\sqrt{|Δ|}}{2a}$$\n    where $i= String.raw\\sqrt{-1}$ is the <strong>imaginary unit</strong>.\n  </div>\n\n  <h4>5. Special Cases and Edge Conditions</h4>\n  <ol>\n    <li><strong>Pure Quadratic (b= String.raw0)</strong>: $ax^{2}+c= String.raw0\\;\\Longrightarrow\\;x= String.raw\\pm\\sqrt{-\\frac{c}{a}}$. Real roots exist only if $ac<0$.</li>\n    <li><strong>Linear Degeneration (c= String.raw0)</strong>: $ax^{2}+bx= String.raw0\\;\\Longrightarrow\\;x(ax+b)= String.raw0\\;\\Longrightarrow\\;x= String.raw0\\;$ or $\\;x= String.raw-\\frac{b}{a}$. This demonstrates the <em>factor theorem</em> in action.</li>\n    <li><strong>Monic Quadratic (a= String.raw1)</strong>: Simplifies Vieta’s relations to $α+β= String.raw-b$ and $αβ= String.rawc$, and the formula reduces to $x= String.raw\\frac{-b\\pm\\sqrt{b^{2}-4c}}{2}$.</li>\n    <li><strong>Parametric Quadratics</strong>: When coefficients depend on a parameter $k$, discriminant analysis yields conditions on $k$ for real/complex roots. Example: $x^{2}+kx+1= String.raw0$ has real roots iff $k^{2}\\ge4$.</li>\n  </ol>\n\n  <h4>6. Methods of Solving Quadratics</h4>\n  <table style= String.raw\"width:100%; border-collapse:collapse; margin:12px 0;\">\n    <thead style= String.raw\"background:#2a2a3a;\">\n      <tr>\n        <th style= String.raw\"border:1px solid #444;padding:6px;\">Method</th>\n        <th style= String.raw\"border:1px solid #444;padding:6px;\">When to Use</th>\n        <th style= String.raw\"border:1px solid #444;padding:6px;\">Key Steps</th>\n        <th style= String.raw\"border:1px solid #444;padding:6px;\">Time Complexity (exam)</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\"><strong>Quadratic Formula</strong></td>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\">All generic cases</td>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\">Compute $Δ$, take square root, substitute</td>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\">O(1)</td>\n      </tr>\n      <tr>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\"><strong>Completing the Square</strong></td>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\">When $a= String.raw1$ or $a$ is a perfect square</td>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\">Rewrite as $(x+h)^{2}= String.rawk$</td>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\">O(1)</td>\n      </tr>\n      <tr>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\"><strong>Factorisation</strong></td>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\">When integer roots are expected (e.g., in NDA)</td>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\">Find two numbers multiplying to $ac$ and adding to $b$</td>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\">Best case O(√|ac|)</td>\n      </tr>\n      <tr>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\"><strong>Graphical Insight</strong></td>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\">Quick sign‑check for root existence</td>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\">Analyse parabola opening direction (sign of $a$) and vertex</td>\n        <td style= String.raw\"border:1px solid #444;padding:6px;\">Negligible</td>\n      </tr>\n    </tbody>\n  </table>\n\n  <h4>7. Worked Example 1 – Standard Quadratic</h4>\n  <p><strong>Problem:</strong> Solve $3x^{2}-7x+2= String.raw0$.</p>\n  <ol>\n    <li>Identify coefficients: $a= String.raw3$, $b= String.raw-7$, $c= String.raw2$.</li>\n    <li>Compute discriminant:\n      $$Δ= String.rawb^{2}-4ac= String.raw(-7)^{2}-4\\cdot3\\cdot2= String.raw49-24= String.raw25.$$</li>\n    <li>Since $Δ>0$, there are two distinct real roots.</li>\n    <li>Apply quadratic formula:\n      $$x= String.raw\\frac{-b\\pm\\sqrt{Δ}}{2a}= String.raw\\frac{-(-7)\\pm\\sqrt{25}}{2\\cdot3}\n      = String.raw\\frac{7\\pm5}{6}.$$\n    </li>\n    <li>Separate the two possibilities:\n      <ul>\n        <li>$x_{1}= String.raw\\dfrac{7+5}{6}= String.raw\\dfrac{12}{6}= String.raw2$</li>\n        <li>$x_{2}= String.raw\\dfrac{7-5}{6}= String.raw\\dfrac{2}{6}= String.raw\\dfrac13$</li>\n      </ul>\n    </li>\n    <li>Verify using Vieta’s relations:\n      $$α+β= String.raw2+\\frac13= String.raw\\frac{7}{3}= String.raw-\\frac{b}{a}= String.raw-\\frac{-7}{3}= String.raw\\frac{7}{3}$$\n      $$αβ= String.raw2\\cdot\\frac13= String.raw\\frac23= String.raw\\frac{c}{a}= String.raw\\frac{2}{3}$$\n      Both checks hold, confirming the solution.</li>\n  </ol>\n\n  <h4>8. Worked Example 2 – Quadratic with Complex Roots</h4>\n  <p><strong>Problem:</strong> Find the roots of $x^{2}+4x+8= String.raw0$ and express them in the form $p\\pm qi$.</p>\n  <ol>\n    <li>Coefficients: $a= String.raw1$, $b= String.raw4$, $c= String.raw8$.</li>\n    <li>Discriminant:\n      $$Δ= String.rawb^{2}-4ac= String.raw4^{2}-4\\cdot1\\cdot8= String.raw16-32= String.raw-16.$$\n    </li>\n    <li>Since $Δ<0$, roots are complex conjugates.</li>\n    <li>Quadratic formula:\n      $$x= String.raw\\frac{-b\\pm\\sqrt{Δ}}{2a}= String.raw\\frac{-4\\pm\\sqrt{-16}}{2}\n      = String.raw\\frac{-4\\pm4i}{2}.$$\n    </li>\n    <li>Simplify:\n      $$x_{1}= String.raw\\frac{-4+4i}{2}= String.raw-2+2i,\\qquad\n      x_{2}= String.raw\\frac{-4-4i}{2}= String.raw-2-2i.$$\n    </li>\n    <li>Thus the roots are $-2\\pm2i$, i.e., $p= String.raw-2$, $q= String.raw2$.</li>\n    <li>Check with Vieta’s:\n      $$α+β= String.raw(-2+2i)+(-2-2i)= String.raw-4= String.raw-\\frac{b}{a}= String.raw-4,$$\n      $$αβ= String.raw(-2+2i)(-2-2i)= String.raw(-2)^{2}-(2i)^{2}= String.raw4-(-4)= String.raw8= String.raw\\frac{c}{a}= String.raw8.$$\n      The relations are satisfied, confirming correctness.</li>\n  </ol>\n\n  <h4>9. Common Mistakes</h4>\n  <ul>\n    <li><strong>Dropping the negative sign of $b$</strong> while applying the formula – leads to $x= String.raw\\frac{b\\pm\\sqrt{Δ}}{2a}$ instead of $\\frac{-b\\pm\\sqrt{Δ}}{2a}$.</li>\n    <li><strong>Mis‑computing the discriminant</strong> by forgetting to square $b$ or by using $4ac$ instead of $4\\cdot a\\cdot c$ when $a$ or $c$ are not 1.</li>\n    <li><strong>Forgetting to simplify $\\sqrt{Δ}$</strong> when $Δ$ is a perfect square – this wastes time and can cause arithmetic errors.</li>\n    <li><strong>Assuming $Δ= String.raw0$ always yields a single root</strong> without checking multiplicity; the double root must be written as $x= String.raw-\\frac{b}{2a}$, not as two distinct numbers.</li>\n  </ul>\n\n  <h4>10. Shortcuts & Tricks for Competitive Exams</h4>\n  <ul>\n    <li><strong>“Δ‑quick test”</strong>: For integer coefficients, compute $Δ$ modulo small primes (e.g., mod 4) to instantly rule out perfect squares, saving time on unnecessary square‑root calculations.</li>\n    <li><strong>“Sum‑Product Method”</strong>: When the question asks for $α+β$ or $αβ$, directly use Vieta’s formulas without solving the equation.</li>\n    <li><strong>“Factor‑by‑Grouping”</strong> for monic quadratics: Look for two numbers $m,n$ such that $m+n= String.rawb$ and $mn= String.rawc$. This avoids the formula entirely.</li>\n    <li><strong>“Half‑Coefficient Trick”</strong>: If $b$ is even, rewrite $x^{2}+bx+c$ as $\\left(x+\\frac{b}{2}\\right)^{2}= String.raw\\frac{b^{2}}{4}-c$, then take square roots – often quicker than full formula.</li>\n    <li><strong>“Complex‑Root Shortcut”</strong>: When $Δ$ is negative, directly write roots as $-\\frac{b}{2a}\\pm i\\frac{\\sqrt{|Δ|}}{2a}$ without expanding $\\sqrt{-Δ}$.</li>\n    <li><strong>“Parameter Discriminant”</strong>: For equations like $x^{2}+kx+1= String.raw0$, set $Δ= String.rawk^{2}-4$ and analyse sign of $Δ$ to answer root‑nature questions without solving.</li>\n  </ul>\n\n  <h4>11. Advanced Topics – Connection to Higher Algebra</h4>\n  <p>The quadratic equation is a gateway to the [[Fundamental Theorem of Algebra]], which asserts that every non‑constant polynomial of degree $n$ has exactly $n$ complex roots (counted with multiplicity). In the case $n= String.raw2$, the discriminant provides a complete classification.</p>\n  <p>Moreover, the coefficients $a,b,c$ can be expressed in terms of the roots via [[Newton's Identities]] (a special case of Vieta’s relations). This perspective is useful when dealing with symmetric functions of roots in more advanced problems.</p>\n\n  <h4>12. Frequently Used Notations in NDA/ CDS/ AFCAT</h4>\n  <ul>\n    <li><strong>Δ</strong> – Discriminant $b^{2}-4ac$.</li>\n    <li><strong>α,β</strong> – Roots of the quadratic.</li>\n    <li><strong>i</strong> – Imaginary unit $\\sqrt{-1}$.</li>\n    <li><strong>R</strong> – Set of real numbers; when $Δ\\ge0$, $α,β\\in R$.</li>\n    <li><strong>C</strong> – Set of complex numbers; when $Δ<0$, $α,β\\in C$.</li>\n  </ul>\n\n  <h4>13. Quick Reference Table</h4>\n  <table style= String.raw\"width:100%; border-collapse:collapse;\">\n    <thead style= String.raw\"background:#2a2a3a;\">\n      <tr>\n        <th style= String.raw\"border:1px solid #444;padding:5px;\">Δ</th>\n        <th style= String.raw\"border:1px solid #444;padding:5px;\">Root Nature</th>\n        <th style= String.raw\"border:1px solid #444;padding:5px;\">Typical Form</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style= String.raw\"border:1px solid #444;padding:5px;\">$>0$</td>\n        <td style= String.raw\"border:1px solid #444;padding:5px;\">Two distinct real</td>\n        <td style= String.raw\"border:1px solid #444;padding:5px;\">$\\displaystyle \\frac{-b\\pm\\sqrt{Δ}}{2a}$</td>\n      </tr>\n      <tr>\n        <td style= String.raw\"border:1px solid #444;padding:5px;\">$= String.raw0$</td>\n        <td style= String.raw\"border:1px solid #444;padding:5px;\">One repeated real</td>\n        <td style= String.raw\"border:1px solid #444;padding:5px;\">$\\displaystyle -\\frac{b}{2a}$</td>\n      </tr>\n      <tr>\n        <td style= String.raw\"border:1px solid #444;padding:5px;\">$<0$</td>\n        <td style= String.raw\"border:1px solid #444;padding:5px;\">Two complex conjugates</td>\n        <td style= String.raw\"border:1px solid #444;padding:5px;\">$\\displaystyle -\\frac{b}{2a}\\pm i\\frac{\\sqrt{|Δ|}}{2a}$</td>\n      </tr>\n    </tbody>\n  </table>\n\n  <h4>14. Practical Applications in Defense Exams</h4>\n  <p>Quadratic equations appear in ballistic trajectory calculations, where the time of flight $t$ satisfies $-\\,\\frac{1}{2}gt^{2}+v_{0y}t+y_{0}= String.raw0$. Recognising the coefficients and quickly applying the discriminant determines whether a projectile reaches a target altitude.</p>\n  <p>Another recurring theme is the analysis of resonant frequencies in mechanical systems, leading to equations of the form $k x^{2}+2ζω_{n}x+ω_{n}^{2}= String.raw0$. Mastery of the quadratic solution enables rapid evaluation of damping conditions.</p>\n\n  <h4>15. Summary of Key Points</h4>\n  <ul>\n    <li>Always rewrite the equation in standard form $ax^{2}+bx+c= String.raw0$ before proceeding.</li>\n    <li>Compute discriminant $Δ= String.rawb^{2}-4ac$ first; it dictates the solving path.</li>\n    <li>Use Vieta’s relations for sum/product questions – they save time.</li>\n    <li>Check for factorable forms (especially when $a= String.raw1$) before invoking the formula.</li>\n    <li>When $Δ<0$, remember the compact complex‑root expression to avoid sign errors.</li>\n  </ul>\n\n  <div class= String.raw\"exam-tip\" style= String.raw\"background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;\">\n    <strong style= String.raw\"color: var(--accent);\">⚡ High-Yield Exam Facts (NDA/CDS/AFCAT)</strong>\n    <ul style= String.raw\"margin-top: 8px;\">\n      <li>For any quadratic $ax^{2}+bx+c= String.raw0$, the discriminant $Δ= String.rawb^{2}-4ac$ alone decides real vs. complex roots.</li>\n      <li>If $Δ$ is a perfect square, the roots are rational; otherwise they are irrational (unless $Δ<0$).</li>\n      <li>When $a= String.raw1$, the sum of roots $= String.raw-b$ and product $= String.rawc$ – memorize for quick Vieta applications.</li>\n      <li>In integer‑coefficient quadratics, the Rational Root Theorem limits possible rational roots to factors of $c$ over factors of $a$.</li>\n      <li>For $ax^{2}+bx= String.raw0$, factor out $x$ to get $x(ax+b)= String.raw0$ – a common shortcut in time‑pressured papers.</li>\n      <li>Complex roots always appear as conjugate pairs $p\\pm qi$; the real part is $-\\frac{b}{2a}$.</li>\n      <li>In trajectory problems, replace $g$ with $9.8$ (or $10$ for approximation) and treat the time variable as the unknown quadratic.</li>\n      <li>When $b$ is even, compute $\\frac{b}{2a}$ first; this halves the arithmetic in the quadratic formula.</li>\n      <li>For $Δ<0$, you can directly write the answer as $-\\frac{b}{2a}\\pm i\\frac{\\sqrt{|Δ|}}{2a}$ without extracting the square root of a negative number.</li>\n      <li>Always verify solutions by substituting back; a single arithmetic slip often leads to a wrong sign in $Δ$.</li>\n    </ul>\n  </div>\n</div>\n\n</div>",
             "formulas": "\n              <li>**Sum of roots:** alpha + \beta = -b/a</li>\n              <li>**Product of roots:** alpha\beta = c/a</li>\n            "
-          },
+          }
+        ]
+      },
+      {
+        "id": "complex-numbers",
+        "title": "Complex Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "complex-numbers",
             "title": "Complex Numbers",
@@ -2043,8 +2059,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "2d-geometry",
-        "title": "Coordinate Geometry (2D & 3D)",
+        "id": "straight-lines",
+        "title": "Straight Lines",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "straight-lines",
@@ -2055,15 +2072,23 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "statistics-prob",
-        "title": "Statistics & Probability",
+        "id": "central-tendency",
+        "title": "Measures of Central Tendency",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "central-tendency",
             "title": "Measures of Central Tendency",
             "notes": "<h3>1. Mean, Median, Mode</h3>\n              <ul>\n                <li>**Mean:** Sum of observations / Number of observations.</li>\n                <li>**Median:** Middle value when sorted.</li>\n                <li>**Empirical Relation:** Mode = 3*Median - 2*Mean</li>\n              </ul>\n            \n<div class=\"expanded-notes\" style=\"margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);\">\n  <div style=\"color: var(--accent); font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;\">\n    [ Advanced Revision Data ]\n  </div>\n  \n<div class= String.raw\"revision-card\" style= String.raw\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style= String.raw\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;\">\n    Measures of Central Tendency\n  </h3>\n\n  <p>\n    In the realm of [[Statistics]], a primary objective is to condense large datasets into meaningful summaries. [[Measures of Central Tendency]] are statistical values that represent the \"center\" or \"typical\" value of a dataset. They provide a single value that attempts to describe a set of data by identifying the central position within that set. These measures are crucial for understanding the distribution of data and making informed decisions. The three most commonly used measures of central tendency are the <strong>Arithmetic Mean</strong>, <strong>Median</strong>, and <strong>Mode</strong>. Additionally, the <strong>Geometric Mean</strong> and <strong>Harmonic Mean</strong> are important for specific types of data.\n  </p>\n\n  <h4>1. The Arithmetic Mean (AM)</h4>\n  <p>\n    The <strong>Arithmetic Mean</strong>, often simply called the \"mean\" or \"average,\" is the most widely used measure of central tendency. It is calculated by summing all the observations in a dataset and dividing by the total number of observations. The arithmetic mean is sensitive to every value in the dataset and is therefore influenced by extreme values or [[outliers]].\n  </p>\n\n  <h5>1.1. Calculation for Ungrouped Data</h5>\n  <p>\n    For a set of $N$ observations, $X_1, X_2, \\dots, X_N$, the arithmetic mean is given by:\n    $$ \\bar{X} = String.raw\\frac{X_1 + X_2 + \\dots + X_N}{N} = String.raw\\frac{\\sum_{i= String.raw1}^{N} X_i}{N} $$\n    Where:\n    <ul>\n      <li>$ \\bar{X} $ (read as \"X-bar\") is the symbol for the sample arithmetic mean.</li>\n      <li>$ \\sum $ (sigma) denotes the sum of the observations.</li>\n      <li>$ X_i $ represents the $i^{th}$ observation in the dataset.</li>\n      <li>$ N $ is the total number of observations.</li>\n    </ul>\n  </p>\n\n  <h5>1.2. Calculation for Grouped Data</h5>\n  <p>\n    When data is presented in a [[frequency distribution]] (grouped data), the calculation of the mean involves using the frequencies of each class.\n  </p>\n  <h6>1.2.1. Direct Method</h6>\n  <p>\n    If we have $k$ classes with class marks $X_1, X_2, \\dots, X_k$ and corresponding frequencies $f_1, f_2, \\dots, f_k$, the mean is:\n    $$ \\bar{X} = String.raw\\frac{f_1 X_1 + f_2 X_2 + \\dots + f_k X_k}{f_1 + f_2 + \\dots + f_k} = String.raw\\frac{\\sum_{i= String.raw1}^{k} f_i X_i}{\\sum_{i= String.raw1}^{k} f_i} $$\n    Where:\n    <ul>\n      <li>$ X_i $ is the <strong>class mark</strong> (midpoint) of the $i^{th}$ class interval. It is calculated as $ \\frac{\\text{Lower Limit} + \\text{Upper Limit}}{2} $.</li>\n      <li>$ f_i $ is the frequency of the $i^{th}$ class.</li>\n      <li>$ \\sum f_i $ is the total number of observations, typically denoted as $N$.</li>\n    </ul>\n  </p>\n  <h6>1.2.2. Assumed Mean Method (Short-Cut Method)</h6>\n  <p>\n    This method simplifies calculations, especially when class marks are large. We choose an arbitrary value (the \"assumed mean\") from the class marks, usually near the center.\n    $$ \\bar{X} = String.rawA + \\frac{\\sum f_i d_i}{\\sum f_i} $$\n    Where:\n    <ul>\n      <li>$ A $ is the <strong>assumed mean</strong>.</li>\n      <li>$ d_i = String.rawX_i - A $ is the deviation of the $i^{th}$ class mark from the assumed mean.</li>\n    </ul>\n  </p>\n  <h6>1.2.3. Step-Deviation Method</h6>\n  <p>\n    This is an extension of the assumed mean method, used when class intervals are of equal width. It further simplifies calculations by dividing deviations by the class width.\n    $$ \\bar{X} = String.rawA + \\left( \\frac{\\sum f_i u_i}{\\sum f_i} \\right) \\times h $$\n    Where:\n    <ul>\n      <li>$ A $ is the assumed mean.</li>\n      <li>$ u_i = String.raw\\frac{X_i - A}{h} $ is the step-deviation.</li>\n      <li>$ h $ is the <strong>class width</strong> (or class size) of the class intervals.</li>\n    </ul>\n    This method is particularly useful for manual calculations in competitive exams.\n  </p>\n\n  <h5>1.3. Properties of Arithmetic Mean</h5>\n  <ul>\n    <li>The sum of the deviations of all observations from the arithmetic mean is always zero: $ \\sum (X_i - \\bar{X}) = String.raw0 $. This is a fundamental property often tested.</li>\n    <li>If each observation in a series is increased or decreased by a constant $k$, the new mean will also be increased or decreased by $k$.</li>\n    <li>If each observation in a series is multiplied or divided by a constant $k$, the new mean will also be multiplied or divided by $k$.</li>\n    <li>The arithmetic mean is a rigidly defined measure, meaning there's only one possible value for a given dataset.</li>\n    <li>It is based on all observations, making it a representative measure.</li>\n    <li>It is highly affected by extreme values (outliers).</li>\n    <li>The mean of a combined series: If two series have means $ \\bar{X}_1, \\bar{X}_2 $ and number of observations $ N_1, N_2 $ respectively, their combined mean is:\n      $$ \\bar{X}_{12} = String.raw\\frac{N_1 \\bar{X}_1 + N_2 \\bar{X}_2}{N_1 + N_2} $$\n      This property can be extended to more than two series.</li>\n  </ul>\n\n  <div class= String.raw\"important-box\" style= String.raw\"background: rgba(255,165,0,0.1); border-left: 3px solid #FFA500; padding: 12px 16px; margin-top: 15px; border-radius: 0 6px 6px 0;\">\n    <strong>Important Distinction:</strong> The arithmetic mean is suitable for data that is symmetrically distributed and does not contain significant outliers. For skewed distributions, Median is often preferred.\n  </div>\n\n  <h5>1.4. Weighted Arithmetic Mean</h5>\n  <p>\n    When different observations have different levels of importance or influence, a <strong>weighted arithmetic mean</strong> is used. Each observation is assigned a weight, $W_i$.\n    $$ \\bar{X}_w = String.raw\\frac{\\sum W_i X_i}{\\sum W_i} $$\n    Where:\n    <ul>\n      <li>$ W_i $ is the weight assigned to the $i^{th}$ observation $X_i$.</li>\n    </ul>\n    This is commonly used in calculating [[Grade Point Average]] (GPA) or average prices where quantities differ.\n  </p>\n\n  <h4>2. Geometric Mean (GM)</h4>\n  <p>\n    The <strong>Geometric Mean</strong> is defined as the $N^{th}$ root of the product of $N$ observations. It is particularly useful for averaging ratios, rates of change, or growth rates.\n  </p>\n\n  <h5>2.1. Calculation for Ungrouped Data</h5>\n  <p>\n    For a set of $N$ positive observations, $X_1, X_2, \\dots, X_N$:\n    $$ GM = String.raw\\sqrt[N]{X_1 \\times X_2 \\times \\dots \\times X_N} $$\n    Alternatively, using logarithms (which is often more practical for calculation):\n    $$ \\log GM = String.raw\\frac{\\sum \\log X_i}{N} \\implies GM = String.raw\\text{antilog}\\left( \\frac{\\sum \\log X_i}{N} \\right) $$\n    <strong>Condition:</strong> The geometric mean is only defined for positive observations. If any observation is zero or negative, the GM cannot be computed.\n  </p>\n\n  <h5>2.2. Properties of Geometric Mean</h5>\n  <ul>\n    <li>Less affected by extreme values compared to the arithmetic mean.</li>\n    <li>Used for averaging percentage changes, index numbers, and compound interest rates.</li>\n    <li>It is always less than or equal to the arithmetic mean for positive data ($GM \\le AM$).</li>\n  </ul>\n\n  <h4>3. Harmonic Mean (HM)</h4>\n  <p>\n    The <strong>Harmonic Mean</strong> is the reciprocal of the arithmetic mean of the reciprocals of the observations. It gives greater weight to smaller values and is especially useful for averaging rates (like speed, time, or work rates).\n  </p>\n\n  <h5>3.1. Calculation for Ungrouped Data</h5>\n  <p>\n    For a set of $N$ positive observations, $X_1, X_2, \\dots, X_N$:\n    $$ HM = String.raw\\frac{N}{\\frac{1}{X_1} + \\frac{1}{X_2} + \\dots + \\frac{1}{X_N}} = String.raw\\frac{N}{\\sum \\frac{1}{X_i}} $$\n    <strong>Condition:</strong> The harmonic mean is only defined for positive observations. If any observation is zero, the HM cannot be computed.\n  </p>\n\n  <h5>3.2. Properties of Harmonic Mean</h5>\n  <ul>\n    <li>Gives more weight to smaller values in the dataset.</li>\n    <li>Used in situations involving averages of rates, such as average speed when distances are constant, or average price per unit.</li>\n    <li>It is always less than or equal to the geometric mean for positive data ($HM \\le GM$).</li>\n  </ul>\n\n  <h5>3.3. Relationship between AM, GM, HM</h5>\n  <p>\n    For any set of positive numbers, the relationship between the three means is:\n    $$ AM \\ge GM \\ge HM $$\n    Equality holds only if all observations are identical. Also, for two positive numbers $a$ and $b$, $GM^2 = String.rawAM \\times HM$. This is a crucial relationship for competitive exams.\n  </p>\n\n  <h4>4. Median</h4>\n  <p>\n    The <strong>Median</strong> is the middle value of a dataset when the data is arranged in ascending or descending order. It divides the data into two equal halves, with 50% of the observations falling below it and 50% falling above it. The median is a position-based average and is not affected by extreme values.\n  </p>\n\n  <h5>4.1. Calculation for Ungrouped Data</h5>\n  <p>\n    First, arrange the data in ascending or descending order.\n    <ol>\n      <li>If $N$ (total number of observations) is <strong>odd</strong>:\n        The median is the value of the $ \\left( \\frac{N+1}{2} \\right)^{th} $ observation.</li>\n      <li>If $N$ is <strong>even</strong>:\n        The median is the arithmetic mean of the $ \\left( \\frac{N}{2} \\right)^{th} $ and $ \\left( \\frac{N}{2} + 1 \\right)^{th} $ observations.</li>\n    </ol>\n  </p>\n\n  <h5>4.2. Calculation for Grouped Data</h5>\n  <p>\n    For grouped data, the median is calculated using the following formula after determining the [[median class]]. The median class is the class interval where the cumulative frequency first exceeds $ \\frac{N}{2} $.\n    $$ \\text{Median} = String.rawL + \\left( \\frac{\\frac{N}{2} - cf}{f} \\right) \\times h $$\n    Where:\n    <ul>\n      <li>$ L $ is the <strong>lower limit</strong> of the median class.</li>\n      <li>$ N $ is the total number of observations ($ \\sum f_i $).</li>\n      <li>$ cf $ is the <strong>cumulative frequency</strong> of the class <em>preceding</em> the median class.</li>\n      <li>$ f $ is the frequency of the median class.</li>\n      <li>$ h $ is the <strong>class width</strong> of the median class.</li>\n    </ul>\n    <strong>Steps:</strong>\n    <ol>\n      <li>Construct a [[cumulative frequency distribution]] table.</li>\n      <li>Calculate $ \\frac{N}{2} $.</li>\n      <li>Identify the median class: the class interval whose cumulative frequency is just greater than or equal to $ \\frac{N}{2} $.</li>\n      <li>Apply the formula.</li>\n    </ol>\n  </p>\n\n  <h5>4.3. Properties of Median</h5>\n  <ul>\n    <li>It is not affected by extreme values, making it robust for [[skewed distributions]].</li>\n    <li>Can be calculated for data with [[open-ended classes]].</li>\n    <li>It is the most appropriate measure of central tendency when dealing with qualitative data that can be ordered (e.g., rankings).</li>\n    <li>The sum of absolute deviations from the median is a minimum: $ \\sum |X_i - \\text{Median}| $ is minimum.</li>\n    <li>Not based on all observations (only the middle ones), hence less stable than the mean for sampling fluctuations.</li>\n    <li>Can be determined graphically using an [[Ogive]] (cumulative frequency curve) by finding the value on the x-axis corresponding to $ \\frac{N}{2} $ on the y-axis.</li>\n  </ul>\n\n  <h4>5. Mode</h4>\n  <p>\n    The <strong>Mode</strong> is the value that appears most frequently in a dataset. It represents the most common observation. A dataset can have one mode (unimodal), two modes (bimodal), more than two modes (multimodal), or no mode at all if all observations appear with the same frequency.\n  </p>\n\n  <h5>5.1. Calculation for Ungrouped Data</h5>\n  <p>\n    For ungrouped data, the mode is found by simple inspection – identify the value with the highest frequency.\n  </p>\n\n  <h5>5.2. Calculation for Grouped Data</h5>\n  <p>\n    For grouped data, the mode is calculated using the following formula after determining the [[modal class]]. The modal class is the class interval with the highest frequency.\n    $$ \\text{Mode} = String.rawL + \\left( \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\right) \\times h $$\n    Where:\n    <ul>\n      <li>$ L $ is the <strong>lower limit</strong> of the modal class.</li>\n      <li>$ f_1 $ is the frequency of the modal class.</li>\n      <li>$ f_0 $ is the frequency of the class <em>preceding</em> the modal class.</li>\n      <li>$ f_2 $ is the frequency of the class <em>succeeding</em> the modal class.</li>\n      <li>$ h $ is the <strong>class width</strong> of the modal class.</li>\n    </ul>\n    <strong>Steps:</strong>\n    <ol>\n      <li>Identify the modal class (the class with the highest frequency).</li>\n      <li>Apply the formula.</li>\n    </ol>\n  </p>\n\n  <h5>5.3. Properties of Mode</h5>\n  <ul>\n    <li>It is not affected by extreme values.</li>\n    <li>Can be used for both quantitative and [[qualitative data]] (e.g., favorite colour).</li>\n    <li>May not exist or may not be unique (e.g., bimodal distribution).</li>\n    <li>Not based on all observations.</li>\n    <li>It is the most unstable measure of central tendency.</li>\n    <li>Can be determined graphically using a [[Histogram]] by drawing lines from the top corners of the modal bar to the adjacent bars.</li>\n  </ul>\n\n  <div class= String.raw\"important-box\" style= String.raw\"background: rgba(255,165,0,0.1); border-left: 3px solid #FFA500; padding: 12px 16px; margin-top: 15px; border-radius: 0 6px 6px 0;\">\n    <strong>Empirical Relationship:</strong> For moderately skewed distributions (like a bell-shaped curve that's slightly off-center), there is an approximate relationship between the mean, median, and mode:\n    $$ \\text{Mode} \\approx 3 \\times \\text{Median} - 2 \\times \\text{Mean} $$\n    This formula is often useful for quick estimations or when one measure is missing.\n  </div>\n\n  <h4>6. Comparison of Measures of Central Tendency</h4>\n  <p>\n    Choosing the appropriate measure depends on the nature of the data and the purpose of the analysis.\n  </p>\n  <table border= String.raw\"1\" style= String.raw\"width:100%; border-collapse: collapse; margin-top: 15px;\">\n    <thead>\n      <tr style= String.raw\"background-color: #333; color: var(--accent);\">\n        <th>Feature</th>\n        <th>Arithmetic Mean</th>\n        <th>Median</th>\n        <th>Mode</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td><strong>Definition</strong></td>\n        <td>Sum of values / Number of values</td>\n        <td>Middle value of ordered data</td>\n        <td>Most frequent value</td>\n      </tr>\n      <tr>\n        <td><strong>Effect of Outliers</strong></td>\n        <td>Highly affected</td>\n        <td>Not affected</td>\n        <td>Not affected</td>\n      </tr>\n      <tr>\n        <td><strong>Uniqueness</strong></td>\n        <td>Always unique</td>\n        <td>Always unique</td>\n        <td>May not exist or be unique</td>\n      </tr>\n      <tr>\n        <td><strong>Based on all values?</strong></td>\n        <td>Yes</td>\n        <td>No (positional)</td>\n        <td>No (frequency-based)</td>\n      </tr>\n      <tr>\n        <td><strong>Suitability for Skewed Data</strong></td>\n        <td>Poor</td>\n        <td>Good</td>\n        <td>Good</td>\n      </tr>\n      <tr>\n        <td><strong>Suitability for Open-ended Classes</strong></td>\n        <td>Requires assumption of midpoint</td>\n        <td>Good</td>\n        <td>Good</td>\n      </tr>\n      <tr>\n        <td><strong>Suitability for Qualitative Data</strong></td>\n        <td>No</td>\n        <td>Yes (if ordinally scaled)</td>\n        <td>Yes</td>\n      </tr>\n      <tr>\n        <td><strong>Mathematical Treatment</strong></td>\n        <td>Best for further analysis</td>\n        <td>Limited</td>\n        <td>Limited</td>\n      </tr>\n    </tbody>\n  </table>\n\n  <h4>7. Common Mistakes to Avoid</h4>\n  <ol>\n    <li><strong>Not Ordering Data for Median:</strong> A frequent error is to calculate the median without first arranging the data in ascending or descending order. The median is a positional average.</li>\n    <li><strong>Incorrect Identification of $f_0, f_1, f_2$ for Mode:</strong> For grouped data, ensure $f_1$ is the frequency of the modal class, $f_0$ is the frequency of the class *before* it, and $f_2$ is the frequency of the class *after* it. Misplacing these leads to incorrect results.</li>\n    <li><strong>Using Wrong Formula for Grouped vs. Ungrouped Data:</strong> Students often mix up formulas. Remember that grouped data requires class marks ($X_i$) and frequencies ($f_i$) for mean, and specific formulas for median and mode.</li>\n    <li><strong>Ignoring Class Width ($h$) or Cumulative Frequency ($cf$) in Grouped Formulas:</strong> For median and mode of grouped data, $h$ and $cf$ (for median) are crucial components. Forgetting them or using incorrect values is common.</li>\n    <li><strong>Assuming Equal Class Widths for Mode:</strong> The mode formula for grouped data assumes equal class widths. If class widths are unequal, a frequency density adjustment is required (though less common in basic competitive exams).</li>\n    <li><strong>Arithmetic Mean with Qualitative Data:</strong> Attempting to calculate the mean for non-numerical or qualitative data (e.g., average colour) which is logically impossible.</li>\n  </ol>\n\n  <h4>8. Shortcuts & Tricks for Competitive Exams</h4>\n  <ol>\n    <li><strong>Assumed Mean Method for Mean:</strong> For large numbers or many observations, the assumed mean and step-deviation methods drastically reduce calculation time. Choose an assumed mean close to the actual mean for smaller deviations.</li>\n    <li><strong>Estimating from Graphs:</strong> Quickly estimate median from an ogive and mode from a histogram. For a histogram, the mode corresponds to the tallest bar. For an ogive, find $N/2$ on the y-axis and read the corresponding x-value.</li>\n    <li><strong>Empirical Formula for Verification:</strong> Use $ \\text{Mode} \\approx 3 \\times \\text{Median} - 2 \\times \\text{Mean} $ to quickly check if your calculated values are in the correct ballpark, especially if you have calculated two of the three.</li>\n    <li><strong>Checking Properties:</strong> Remember the property $ \\sum (X_i - \\bar{X}) = String.raw0 $. If you're given a dataset and a value claimed to be the mean, you can quickly verify this property.</li>\n    <li><strong>Relationship AM, GM, HM:</strong> For positive data, $AM \\ge GM \\ge HM$. This inequality is a powerful tool for eliminating options or verifying results in objective questions. If you calculate values that violate this, you've made a mistake.</li>\n    <li><strong>Median's Robustness:</strong> When faced with data containing extreme values, choose the median as the most representative measure without performing lengthy calculations.</li>\n  </ol>\n\n  <h4>9. Worked Examples</h4>\n\n  <h5>Example 1: Grouped Data - Mean, Median, Mode</h5>\n  <p>\n    Calculate the Mean, Median, and Mode for the following frequency distribution of marks:\n  </p>\n  <table border= String.raw\"1\" style= String.raw\"width:50%; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px;\">\n    <thead>\n      <tr style= String.raw\"background-color: #333; color: var(--accent);\">\n        <th>Marks (Class Interval)</th>\n        <th>Number of Students (Frequency, $f_i$)</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>0-10</td><td>5</td></tr>\n      <tr><td>10-20</td><td>8</td></tr>\n      <tr><td>20-30</td><td>15</td></tr>\n      <tr><td>30-40</td><td>16</td></tr>\n      <tr><td>40-50</td><td>6</td></tr>\n    </tbody>\n  </table>\n\n  <h6>Solution:</h6>\n  <p>\n    First, we create an extended table to calculate class marks, cumulative frequencies, and other required values. $N = String.raw\\sum f_i = String.raw5+8+15+16+6 = String.raw50$.\n  </p>\n  <table border= String.raw\"1\" style= String.raw\"width:100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px;\">\n    <thead>\n      <tr style= String.raw\"background-color: #333; color: var(--accent);\">\n        <th>Class Interval</th>\n        <th>$f_i$</th>\n        <th>$X_i$ (Class Mark)</th>\n        <th>$f_i X_i$</th>\n        <th>$cf$ (Cumulative Frequency)</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td>0-10</td><td>5</td><td>5</td><td>25</td><td>5</td></tr>\n      <tr><td>10-20</td><td>8</td><td>15</td><td>120</td><td>13</td></tr>\n      <tr><td>20-30</td><td>15</td><td>25</td><td>375</td><td>28</td></tr>\n      <tr><td>30-40</td><td>16</td><td>35</td><td>560</td><td>44</td></tr>\n      <tr><td>40-50</td><td>6</td><td>45</td><td>270</td><td>50</td></tr>\n      <tr><td><strong>Total</strong></td><td><strong>N= String.raw50</strong></td><td></td><td><strong>$\\sum f_i X_i = String.raw1350$</strong></td><td></td></tr>\n    </tbody>\n  </table>\n\n  <ol>\n    <li><strong>Mean ($\\bar{X}$):</strong>\n      Using the Direct Method:\n      $$ \\bar{X} = String.raw\\frac{\\sum f_i X_i}{\\sum f_i} = String.raw\\frac{1350}{50} = String.raw27 $$\n      The mean mark is <strong>27</strong>.\n    </li>\n    <li><strong>Median:</strong>\n      <p>\n        First, find $ \\frac{N}{2} = String.raw\\frac{50}{2} = String.raw25 $.\n        The cumulative frequency just greater than 25 is 28, which corresponds to the class interval 20-30.\n        So, the <strong>median class</strong> is <strong>20-30</strong>.\n      </p>\n      From the median class:\n      <ul>\n        <li>$ L = String.raw20 $ (lower limit of median class)</li>\n        <li>$ cf = String.raw13 $ (cumulative frequency of class preceding median class)</li>\n        <li>$ f = String.raw15 $ (frequency of median class)</li>\n        <li>$ h = String.raw10 $ (class width)</li>\n      </ul>\n      Applying the formula:\n      $$ \\text{Median} = String.rawL + \\left( \\frac{\\frac{N}{2} - cf}{f} \\right) \\times h $$\n      $$ \\text{Median} = String.raw20 + \\left( \\frac{25 - 13}{15} \\right) \\times 10 $$\n      $$ \\text{Median} = String.raw20 + \\left( \\frac{12}{15} \\right) \\times 10 $$\n      $$ \\text{Median} = String.raw20 + \\frac{120}{15} = String.raw20 + 8 = String.raw28 $$\n      The median\n\n</div>",
             "formulas": "\n              <li>**Variance:** sigma2 = \fracsum (xi - mu)2N</li>\n              <li>**Standard Deviation:** sigma = sqrtVariance</li>\n            "
-          },
+          }
+        ]
+      },
+      {
+        "id": "data-interpretation",
+        "title": "Data Interpretation: Tables, Bar & Pie Charts",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "data-interpretation",
             "title": "Data Interpretation: Tables, Bar & Pie Charts",
@@ -2094,8 +2119,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "calculus",
-        "title": "Calculus",
+        "id": "limits-continuity",
+        "title": "Limits & Continuity",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "limits-continuity",
@@ -2139,7 +2165,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "differentiation",
+        "title": "Differentiation Rules",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "differentiation",
             "title": "Differentiation Rules",
@@ -2182,7 +2215,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "integration",
+        "title": "Standard Integration Methods",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "integration",
             "title": "Standard Integration Methods",
@@ -2229,8 +2269,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "algebra-matrices",
-        "title": "Algebra & Matrices",
+        "id": "syl-matrices",
+        "title": "Matrices and Determinants",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "syl-matrices",
@@ -2278,8 +2319,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "probability-stats",
-        "title": "Probability & Statistics",
+        "id": "syl-probability",
+        "title": "Probability Theory & Bayes Theorem",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "syl-probability",
@@ -2327,8 +2369,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "geometry",
-        "title": "Geometry",
+        "id": "lines-angles-triangles",
+        "title": "Lines, Angles & Triangles",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "lines-angles-triangles",
@@ -2355,7 +2398,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "circles-polygons",
+        "title": "Circles & Polygons",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "circles-polygons",
             "title": "Circles & Polygons",
@@ -2385,8 +2435,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "mensuration",
-        "title": "Mensuration",
+        "id": "area-perimeter",
+        "title": "2D Figures: Area & Perimeter",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "area-perimeter",
@@ -2421,7 +2472,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "surface-area-volume",
+        "title": "3D Solids: Surface Area & Volume",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "surface-area-volume",
             "title": "3D Solids: Surface Area & Volume",
@@ -2459,8 +2517,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "arithmetic",
-        "title": "Arithmetic",
+        "id": "percentages-profit-loss",
+        "title": "Percentages, Profit & Loss",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "percentages-profit-loss",
@@ -2487,7 +2546,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ratios-averages",
+        "title": "Ratios, Proportions & Averages",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ratios-averages",
             "title": "Ratios, Proportions & Averages",
@@ -2512,7 +2578,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "time-distance",
+        "title": "Time, Speed, Distance & Work",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "time-distance",
             "title": "Time, Speed, Distance & Work",
@@ -2542,8 +2615,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "quantitative-aptitude",
-        "title": "Numerical Aptitude",
+        "id": "syl-numerical-speed",
+        "title": "Time, Speed & Distance Formulas",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "syl-numerical-speed",
@@ -2584,7 +2658,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "syl-numerical-ratios",
+        "title": "Ratios, Proportions & Percentages",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "syl-numerical-ratios",
             "title": "Ratios, Proportions & Percentages",
@@ -2634,8 +2715,9 @@ const NOTES_DATABASE = {
     "title": "English (NDA/CDS/AFCAT)",
     "chapters": [
       {
-        "id": "grammar-rules",
-        "title": "Grammar & Usage",
+        "id": "parts-of-speech",
+        "title": "Parts of Speech",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "parts-of-speech",
@@ -2671,7 +2753,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "tenses-complete",
+        "title": "Tenses & Consistency",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "tenses-complete",
             "title": "Tenses & Consistency",
@@ -2704,7 +2793,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "subject-verb-agreement",
+        "title": "Subject-Verb Agreement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "subject-verb-agreement",
             "title": "Subject-Verb Agreement",
@@ -2739,7 +2835,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "sentence-structure",
+        "title": "Sentence Structure & Parallelism",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "sentence-structure",
             "title": "Sentence Structure & Parallelism",
@@ -2773,7 +2876,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "voice-conversion",
+        "title": "Active & Passive Voice",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "voice-conversion",
             "title": "Active & Passive Voice",
@@ -2800,7 +2910,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "narration-speech",
+        "title": "Direct & Indirect Speech",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "narration-speech",
             "title": "Direct & Indirect Speech",
@@ -2835,7 +2952,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "modifiers",
+        "title": "Modifiers: Misplaced & Dangling",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "modifiers",
             "title": "Modifiers: Misplaced & Dangling",
@@ -2860,7 +2984,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "punctuation-basics",
+        "title": "Punctuation Basics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "punctuation-basics",
             "title": "Punctuation Basics",
@@ -2891,7 +3022,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "transformation-sentences",
+        "title": "Transformation of Sentences",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "transformation-sentences",
             "title": "Transformation of Sentences",
@@ -2929,8 +3067,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "vocabulary",
-        "title": "Vocabulary & Comprehension",
+        "id": "synonyms-antonyms-detailed",
+        "title": "High-Frequency Synonyms/Antonyms",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "synonyms-antonyms-detailed",
@@ -2959,7 +3098,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "one-word-substitution",
+        "title": "One Word Substitutions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "one-word-substitution",
             "title": "One Word Substitutions",
@@ -2989,7 +3135,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "idioms-phrases",
+        "title": "Idioms & Phrases",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "idioms-phrases",
             "title": "Idioms & Phrases",
@@ -3015,7 +3168,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "phrasal-verbs",
+        "title": "Phrasal Verbs",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "phrasal-verbs",
             "title": "Phrasal Verbs",
@@ -3050,7 +3210,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "reading-comprehension",
+        "title": "Reading Comprehension",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "reading-comprehension",
             "title": "Reading Comprehension",
@@ -3090,8 +3257,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "exam-patterns",
-        "title": "UPSC Exam Practice Patterns",
+        "id": "error-detection",
+        "title": "Spotting Errors",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "error-detection",
@@ -3126,7 +3294,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "sentence-improvement",
+        "title": "Sentence Improvement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "sentence-improvement",
             "title": "Sentence Improvement",
@@ -3158,7 +3333,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ordering-rearrangement",
+        "title": "Ordering of Words & Sentences",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ordering-rearrangement",
             "title": "Ordering of Words & Sentences",
@@ -3185,7 +3367,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "fill-blanks-cloze",
+        "title": "Fill in the Blanks & Cloze Test",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "fill-blanks-cloze",
             "title": "Fill in the Blanks & Cloze Test",
@@ -3221,8 +3410,9 @@ const NOTES_DATABASE = {
     "title": "Indian Polity (CDS/NDA)",
     "chapters": [
       {
-        "id": "constitution-basics",
-        "title": "Constitutional Framework",
+        "id": "preamble",
+        "title": "Preamble & Sources",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "preamble",
@@ -3267,7 +3457,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "schedules",
+        "title": "Schedules of the Constitution",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "schedules",
             "title": "Schedules of the Constitution",
@@ -3310,7 +3507,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "fundamental-rights",
+        "title": "Fundamental Rights (Art 12-35)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "fundamental-rights",
             "title": "Fundamental Rights (Art 12-35)",
@@ -3353,7 +3557,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "dpsp",
+        "title": "DPSP & Fundamental Duties (Art 36-51A)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "dpsp",
             "title": "DPSP & Fundamental Duties (Art 36-51A)",
@@ -3380,7 +3591,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "citizenship",
+        "title": "Citizenship (Art 5-11)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "citizenship",
             "title": "Citizenship (Art 5-11)",
@@ -3421,8 +3639,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "union-executive",
-        "title": "Union Government",
+        "id": "president",
+        "title": "The President of India (Art 52-62)",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "president",
@@ -3466,7 +3685,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "parliament",
+        "title": "Parliament of India (Art 79-122)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "parliament",
             "title": "Parliament of India (Art 79-122)",
@@ -3509,7 +3735,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "goverment-executives",
+        "title": "Executives: PM, CM & Governor",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "goverment-executives",
             "title": "Executives: PM, CM & Governor",
@@ -3543,7 +3776,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "judiciary",
+        "title": "Integrated Judiciary: SC & HC",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "judiciary",
             "title": "Integrated Judiciary: SC & HC",
@@ -3580,7 +3820,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "panchayati-raj",
+        "title": "Local Self-Govt & Panchayati Raj",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "panchayati-raj",
             "title": "Local Self-Govt & Panchayati Raj",
@@ -3619,8 +3866,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "polity-advanced",
-        "title": "Advanced Polity Structures & Bodies",
+        "id": "amendments-parts",
+        "title": "Constitutional Amendments, Parts & Schedules",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "amendments-parts",
@@ -3651,7 +3899,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "important-articles",
+        "title": "High-Yield Special Articles Cheat Sheet",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "important-articles",
             "title": "High-Yield Special Articles Cheat Sheet",
@@ -3680,7 +3935,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "positions-tenures",
+        "title": "Elections, Appointments & Terms of Office",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "positions-tenures",
             "title": "Elections, Appointments & Terms of Office",
@@ -3709,7 +3971,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "constitutional-bodies",
+        "title": "Constitutional & Non-Constitutional Bodies",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "constitutional-bodies",
             "title": "Constitutional & Non-Constitutional Bodies",
@@ -3732,7 +4001,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "governance-emergency",
+        "title": "Emergency Provisions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "governance-emergency",
             "title": "Emergency Provisions",
@@ -3770,8 +4046,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "federal-rpa",
-        "title": "Federal Structure & Election Law",
+        "id": "polity-federal-structure",
+        "title": "Federal Structure & Centre-State Relations",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "polity-federal-structure",
@@ -3813,7 +4090,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "polity-rpa",
+        "title": "Representation of People Act & Election Commission",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "polity-rpa",
             "title": "Representation of People Act & Election Commission",
@@ -3863,8 +4147,9 @@ const NOTES_DATABASE = {
     "title": "History (CDS/NDA)",
     "chapters": [
       {
-        "id": "historiography",
-        "title": "1. Historiography & Historical Foundations",
+        "id": "what-is-history",
+        "title": "What is History?",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "what-is-history",
@@ -3884,7 +4169,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "sources-indian-history",
+        "title": "Sources of Indian History",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "sources-indian-history",
             "title": "Sources of Indian History",
@@ -3911,7 +4203,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "dating-systems",
+        "title": "Dating Systems",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "dating-systems",
             "title": "Dating Systems",
@@ -3941,8 +4240,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "prehistoric-india",
-        "title": "2. Prehistoric India",
+        "id": "stone-age",
+        "title": "Stone Age",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "stone-age",
@@ -3978,7 +4278,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "chalcolithic-age",
+        "title": "Chalcolithic Age",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "chalcolithic-age",
             "title": "Chalcolithic Age",
@@ -4005,7 +4312,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "rock-art",
+        "title": "Rock Art",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "rock-art",
             "title": "Rock Art",
@@ -4028,8 +4342,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "ancient-india-tree",
-        "title": "3. Ancient India",
+        "id": "indus-valley-civilization",
+        "title": "Indus Valley Civilization",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "indus-valley-civilization",
@@ -4073,7 +4388,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "vedic-age",
+        "title": "Vedic Age",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "vedic-age",
             "title": "Vedic Age",
@@ -4108,7 +4430,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "mahajanapadas",
+        "title": "Mahajanapadas",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "mahajanapadas",
             "title": "Mahajanapadas",
@@ -4135,7 +4464,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "magadha-expansion",
+        "title": "Magadha Expansion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "magadha-expansion",
             "title": "Magadha Expansion",
@@ -4154,7 +4490,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "buddhism-jainism",
+        "title": "Buddhism & Jainism",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "buddhism-jainism",
             "title": "Buddhism & Jainism",
@@ -4181,7 +4524,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "mauryan-period",
+        "title": "Mauryan Period",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "mauryan-period",
             "title": "Mauryan Period",
@@ -4216,7 +4566,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "post-mauryan-india",
+        "title": "Post-Mauryan India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "post-mauryan-india",
             "title": "Post-Mauryan India",
@@ -4243,7 +4600,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "gupta-period",
+        "title": "Gupta Period",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "gupta-period",
             "title": "Gupta Period",
@@ -4270,7 +4634,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "south-indian-kingdoms",
+        "title": "South Indian Kingdoms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "south-indian-kingdoms",
             "title": "South Indian Kingdoms",
@@ -4303,7 +4674,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ancient-indian-culture",
+        "title": "Ancient Indian Culture",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ancient-indian-culture",
             "title": "Ancient Indian Culture",
@@ -4313,8 +4691,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "medieval-india-tree",
-        "title": "4. Medieval India",
+        "id": "early-medieval-india",
+        "title": "Early Medieval India",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "early-medieval-india",
@@ -4334,7 +4713,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "delhi-sultanate",
+        "title": "Delhi Sultanate",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "delhi-sultanate",
             "title": "Delhi Sultanate",
@@ -4353,7 +4739,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "vijayanagara-empire",
+        "title": "Vijayanagara Empire",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "vijayanagara-empire",
             "title": "Vijayanagara Empire",
@@ -4372,7 +4765,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "bahmani-deccan-sultanates",
+        "title": "Bahmani Kingdom & Deccan Sultanates",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "bahmani-deccan-sultanates",
             "title": "Bahmani Kingdom & Deccan Sultanates",
@@ -4398,7 +4798,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "mughal-empire",
+        "title": "Mughal Empire",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "mughal-empire",
             "title": "Mughal Empire",
@@ -4417,7 +4824,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "marathas",
+        "title": "Marathas",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "marathas",
             "title": "Marathas",
@@ -4444,7 +4858,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "bhakti-movement",
+        "title": "Bhakti Movement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "bhakti-movement",
             "title": "Bhakti Movement",
@@ -4463,7 +4884,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "sufi-movement",
+        "title": "Sufi Movement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "sufi-movement",
             "title": "Sufi Movement",
@@ -4481,7 +4909,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "sikh-history",
+        "title": "Sikh History",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "sikh-history",
             "title": "Sikh History",
@@ -4512,8 +4947,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "modern-india-tree",
-        "title": "5. Modern India (Highest Priority)",
+        "id": "european-arrival",
+        "title": "European Arrival",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "european-arrival",
@@ -4540,7 +4976,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "british-expansion",
+        "title": "British Expansion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "british-expansion",
             "title": "British Expansion",
@@ -4559,7 +5002,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "economic-impact-british",
+        "title": "Economic Impact of British Rule",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "economic-impact-british",
             "title": "Economic Impact of British Rule",
@@ -4586,7 +5036,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "socio-religious-reform",
+        "title": "Socio-Religious Reform Movements",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "socio-religious-reform",
             "title": "Socio-Religious Reform Movements",
@@ -4605,7 +5062,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "revolt-1857",
+        "title": "Revolt of 1857",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "revolt-1857",
             "title": "Revolt of 1857",
@@ -4640,7 +5104,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "governor-generals-viceroys",
+        "title": "Governor-Generals & Viceroys",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "governor-generals-viceroys",
             "title": "Governor-Generals & Viceroys",
@@ -4673,7 +5144,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "constitutional-development",
+        "title": "Constitutional Development",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "constitutional-development",
             "title": "Constitutional Development",
@@ -4700,7 +5178,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "freedom-movement",
+        "title": "Freedom Movement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "freedom-movement",
             "title": "Freedom Movement",
@@ -4727,7 +5212,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "post-independence-consolidation",
+        "title": "Post-Independence Consolidation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "post-independence-consolidation",
             "title": "Post-Independence Consolidation",
@@ -4758,8 +5250,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "world-history-tree",
-        "title": "6. World History",
+        "id": "revolutions",
+        "title": "Revolutions",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "revolutions",
@@ -4803,7 +5296,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "world-war-i",
+        "title": "World War I",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "world-war-i",
             "title": "World War I",
@@ -4830,7 +5330,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "interwar-period",
+        "title": "Interwar Period",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "interwar-period",
             "title": "Interwar Period",
@@ -4849,7 +5356,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "world-war-ii",
+        "title": "World War II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "world-war-ii",
             "title": "World War II",
@@ -4876,7 +5390,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "cold-war",
+        "title": "Cold War",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "cold-war",
             "title": "Cold War",
@@ -4902,7 +5423,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "international-institutions",
+        "title": "International Institutions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "international-institutions",
             "title": "International Institutions",
@@ -4932,8 +5460,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "art-culture-heritage",
-        "title": "7. Art, Culture & Heritage",
+        "id": "architecture",
+        "title": "Architecture",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "architecture",
@@ -4969,7 +5498,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "paintings",
+        "title": "Paintings",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "paintings",
             "title": "Paintings",
@@ -4995,7 +5531,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "dance-music",
+        "title": "Dance & Music",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "dance-music",
             "title": "Dance & Music",
@@ -5021,7 +5564,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "literature",
+        "title": "Literature",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "literature",
             "title": "Literature",
@@ -5040,7 +5590,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "religion-festivals",
+        "title": "Religion & Festivals",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "religion-festivals",
             "title": "Religion & Festivals",
@@ -5067,7 +5624,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "heritage-sites",
+        "title": "Heritage Sites",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "heritage-sites",
             "title": "Heritage Sites",
@@ -5090,8 +5654,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "history-pyq-trends",
-        "title": "PYQ Trend Analysis",
+        "id": "history-pyq-trends-topic",
+        "title": "History PYQ Trends (NDA/CDS)",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "history-pyq-trends-topic",
@@ -5136,8 +5701,9 @@ const NOTES_DATABASE = {
     "title": "Geography (CDS/NDA)",
     "chapters": [
       {
-        "id": "physical-geography",
-        "title": "Physical & World Geography",
+        "id": "universe-solar-system",
+        "title": "The Universe & Solar System",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "universe-solar-system",
@@ -5164,7 +5730,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "earth-atmosphere",
+        "title": "Earth Structure & Atmosphere",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "earth-atmosphere",
             "title": "Earth Structure & Atmosphere",
@@ -5192,7 +5765,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "climatology-clouds",
+        "title": "Climatology: Climatic Zones & Clouds",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "climatology-clouds",
             "title": "Climatology: Climatic Zones & Clouds",
@@ -5220,7 +5800,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "geomorphology-rocks",
+        "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "geomorphology-rocks",
             "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
@@ -5254,7 +5841,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "world-geography-mountains",
+        "title": "World Geography: Mountains, Forests & Rivers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "world-geography-mountains",
             "title": "World Geography: Mountains, Forests & Rivers",
@@ -5290,7 +5884,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "world-geography-straits-deserts",
+        "title": "Straits, Canals, Deserts & Seas",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "world-geography-straits-deserts",
             "title": "Straits, Canals, Deserts & Seas",
@@ -5322,8 +5923,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "geography-details",
-        "title": "Indian Geography",
+        "id": "syl-geog",
+        "title": "Indian Geography (Rivers, Passes & Soils)",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "syl-geog",
@@ -5359,7 +5961,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "india-forests-wetlands",
+        "title": "Forests, Trees & Wetlands of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "india-forests-wetlands",
             "title": "Forests, Trees & Wetlands of India",
@@ -5386,7 +5995,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "india-resources-farming",
+        "title": "Mineral Resources & Types of Farming",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "india-resources-farming",
             "title": "Mineral Resources & Types of Farming",
@@ -5414,7 +6030,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "india-transport-routes",
+        "title": "Transport Routes: Highways & Waterways",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "india-transport-routes",
             "title": "Transport Routes: Highways & Waterways",
@@ -5440,7 +6063,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "india-national-parks",
+        "title": "National Parks of India (Map Guide)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "india-national-parks",
             "title": "National Parks of India (Map Guide)",
@@ -5480,7 +6110,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "mapping-borders-capitals",
+        "title": "Borders, Capitals & Mapping",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "mapping-borders-capitals",
             "title": "Borders, Capitals & Mapping",
@@ -5519,8 +6156,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "industrics-geopolitics",
-        "title": "Industries & Geopolitics",
+        "id": "geog-industries",
+        "title": "Major Industries & Industrial Corridors of India",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "geog-industries",
@@ -5564,7 +6202,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "geog-geopolitics",
+        "title": "Geopolitical Flashpoints & Indo-Pacific",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "geog-geopolitics",
             "title": "Geopolitical Flashpoints & Indo-Pacific",
@@ -5605,8 +6250,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "geography-pyq-trends",
-        "title": "PYQ Trend Analysis",
+        "id": "geography-pyq-trends-topic",
+        "title": "Geography PYQ Trends (NDA/CDS)",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "geography-pyq-trends-topic",
@@ -5651,8 +6297,9 @@ const NOTES_DATABASE = {
     "title": "Economics (CDS/NDA)",
     "chapters": [
       {
-        "id": "economics-basics",
-        "title": "Introduction to Economics",
+        "id": "econ-concepts",
+        "title": "Core Economic Concepts & Sectors",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "econ-concepts",
@@ -5680,7 +6327,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "econ-poverty-employment",
+        "title": "Poverty, Employment & Agriculture",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "econ-poverty-employment",
             "title": "Poverty, Employment & Agriculture",
@@ -5719,8 +6373,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "monetary-fiscal",
-        "title": "Monetary & Fiscal System",
+        "id": "rbi-monetary-policy",
+        "title": "RBI & Monetary Policy Tools",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "rbi-monetary-policy",
@@ -5752,8 +6407,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "budget-trade-reforms",
-        "title": "Budgets, Trade & Economic Reforms",
+        "id": "econ-budget-fiscal",
+        "title": "Government Budget, GST & Fiscal Policy",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "econ-budget-fiscal",
@@ -5796,7 +6452,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "econ-trade-bop",
+        "title": "Trade Policy & Balance of Payments",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "econ-trade-bop",
             "title": "Trade Policy & Balance of Payments",
@@ -5832,7 +6495,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "econ-reforms",
+        "title": "LPG Reforms, NITI Aayog & Financial Institutions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "econ-reforms",
             "title": "LPG Reforms, NITI Aayog & Financial Institutions",
@@ -5868,7 +6538,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "five-year-plans",
+        "title": "Economic Planning & Five-Year Plans",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "five-year-plans",
             "title": "Economic Planning & Five-Year Plans",
@@ -5902,7 +6579,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "external-sector-institutions",
+        "title": "IMF, WTO & Balance of Payments",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "external-sector-institutions",
             "title": "IMF, WTO & Balance of Payments",
@@ -5941,8 +6625,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "govt-schemes",
-        "title": "Government Schemes & Welfare Programs",
+        "id": "econ-govt-schemes",
+        "title": "Key Welfare Schemes & Financial Inclusion",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "econ-govt-schemes",
@@ -5987,8 +6672,9 @@ const NOTES_DATABASE = {
     "title": "Physics (NDA/CDS)",
     "chapters": [
       {
-        "id": "physics-optics",
-        "title": "Optics & Light",
+        "id": "reflection-refraction",
+        "title": "Reflection, Refraction & Lenses",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "reflection-refraction",
@@ -6036,8 +6722,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-mechanics",
-        "title": "Mechanics & Motion",
+        "id": "newtons-laws",
+        "title": "Newton's Laws of Motion",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "newtons-laws",
@@ -6085,8 +6772,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "energy-power-mechanics",
-        "title": "Energy & Gravitation",
+        "id": "syl-exercises",
+        "title": "Work, Power, Energy & Gravitation",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "syl-exercises",
@@ -6134,8 +6822,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-waves",
-        "title": "Waves & Acoustics",
+        "id": "physics-sound",
+        "title": "Sound Waves & Acoustics",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "physics-sound",
@@ -6179,7 +6868,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "physics-em-waves",
+        "title": "Electromagnetic Waves & Spectrum",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "physics-em-waves",
             "title": "Electromagnetic Waves & Spectrum",
@@ -6214,8 +6910,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-thermodynamics",
-        "title": "Heat & Thermodynamics",
+        "id": "physics-heat",
+        "title": "Thermodynamics & Heat Transfer",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "physics-heat",
@@ -6255,8 +6952,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-electromagnetism",
-        "title": "Electricity & Magnetism",
+        "id": "physics-electricity-magnetism",
+        "title": "Electricity, Circuits & Magnetism",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "physics-electricity-magnetism",
@@ -6296,8 +6994,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-modern",
-        "title": "Modern Physics & Units",
+        "id": "physics-nuclear-basics",
+        "title": "Nuclear Physics & Radioactivity",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "physics-nuclear-basics",
@@ -6325,7 +7024,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "physics-units-everyday",
+        "title": "SI Units & Everyday Physics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "physics-units-everyday",
             "title": "SI Units & Everyday Physics",
@@ -6356,8 +7062,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-pyq-trends",
-        "title": "PYQ Trend Analysis",
+        "id": "physics-pyq-trends-topic",
+        "title": "Physics PYQ Trends (NDA/CDS)",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "physics-pyq-trends-topic",
@@ -6402,8 +7109,9 @@ const NOTES_DATABASE = {
     "title": "Chemistry (NDA/CDS)",
     "chapters": [
       {
-        "id": "chemistry-substances",
-        "title": "Acids, Bases & Salts",
+        "id": "acids-bases",
+        "title": "Acids, Bases & pH Indicators",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "acids-bases",
@@ -6451,8 +7159,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "chemistry-bonding",
-        "title": "Chemical Bonding",
+        "id": "syl-numerical",
+        "title": "Chemical Bonding & Periodic Table",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "syl-numerical",
@@ -6500,8 +7209,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "chemistry-metallurgy",
-        "title": "Metals & Metallurgy",
+        "id": "metals-alloys",
+        "title": "Metals, Ores, Alloys & Metallurgy",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "metals-alloys",
@@ -6540,7 +7250,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "reactivity-series",
+        "title": "Reactivity Series & Displacement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "reactivity-series",
             "title": "Reactivity Series & Displacement",
@@ -6578,8 +7295,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "chemistry-carbon-numericals",
-        "title": "Carbon Compounds & Numericals",
+        "id": "carbon-compounds",
+        "title": "Carbon & its Compounds",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "carbon-compounds",
@@ -6615,7 +7333,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "chemistry-numericals",
+        "title": "Mole Concept & Concentration Terms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "chemistry-numericals",
             "title": "Mole Concept & Concentration Terms",
@@ -6655,8 +7380,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "chemistry-everyday-env",
-        "title": "Everyday & Environmental Chemistry",
+        "id": "chemistry-everyday-fertilisers",
+        "title": "Everyday Chemistry, Fertilisers & Fuels",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "chemistry-everyday-fertilisers",
@@ -6690,7 +7416,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "environmental-chemistry",
+        "title": "Environmental Chemistry & Pollution",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "environmental-chemistry",
             "title": "Environmental Chemistry & Pollution",
@@ -6725,8 +7458,9 @@ const NOTES_DATABASE = {
     "title": "Biology (NDA/CDS)",
     "chapters": [
       {
-        "id": "biology-cell",
-        "title": "Cell Biology & Genetics",
+        "id": "cell-structure",
+        "title": "Cell Structure & Cell Division",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "cell-structure",
@@ -6765,8 +7499,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "biology-physiology",
-        "title": "Human Physiology",
+        "id": "human-systems",
+        "title": "Vital Human Systems & Organs",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "human-systems",
@@ -6806,8 +7541,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "biology-diseases",
-        "title": "Health, Diseases & Nutrition",
+        "id": "diseases",
+        "title": "Human Diseases & Pathogens",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "diseases",
@@ -6844,7 +7580,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "immunity-vaccines",
+        "title": "Immunity & Vaccines",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "immunity-vaccines",
             "title": "Immunity & Vaccines",
@@ -6882,8 +7625,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "biology-kingdoms",
-        "title": "Plant & Animal Kingdoms",
+        "id": "plant-kingdom",
+        "title": "Plant Kingdom Classification",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "plant-kingdom",
@@ -6917,7 +7661,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "animal-kingdom",
+        "title": "Animal Kingdom Classification",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "animal-kingdom",
             "title": "Animal Kingdom Classification",
@@ -6960,8 +7711,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "biology-botany",
-        "title": "Plant Physiology & Reproduction",
+        "id": "plant-reproduction",
+        "title": "Plant Reproduction & Hormones",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "plant-reproduction",
@@ -7001,8 +7753,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "biology-ecology",
-        "title": "Ecology & Ecosystems",
+        "id": "biology-ecology-basics",
+        "title": "Ecology Basics & Pyramids",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "biology-ecology-basics",
@@ -7046,8 +7799,9 @@ const NOTES_DATABASE = {
     "title": "Military GK & Aptitude",
     "chapters": [
       {
-        "id": "armed-forces-equipment-db",
-        "title": "Armed Forces Equipment Database",
+        "id": "all-equipment",
+        "title": "Comprehensive Equipment Database",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "all-equipment",
@@ -7087,8 +7841,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "defence-structures",
-        "title": "Command Structures & Ranks",
+        "id": "rank-equivalence",
+        "title": "Equivalent Officer Ranks (Tri-Services)",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "rank-equivalence",
@@ -7130,7 +7885,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "commands",
+        "title": "Operational Commands of Services",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "commands",
             "title": "Operational Commands of Services",
@@ -7172,7 +7934,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "defence-organisations-weapons",
+        "title": "Defence Organisations, Weapons & Agreements",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "defence-organisations-weapons",
             "title": "Defence Organisations, Weapons & Agreements",
@@ -7211,8 +7980,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "tactical-defence-gk",
-        "title": "Exercises & Missile Systems",
+        "id": "bilateral-exercises",
+        "title": "Joint Military Exercises of India",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "bilateral-exercises",
@@ -7255,7 +8025,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "missiles-systems",
+        "title": "Integrated Guided Missile Program (IGMDP)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "missiles-systems",
             "title": "Integrated Guided Missile Program (IGMDP)",
@@ -7300,8 +8077,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "reasoning-oir",
-        "title": "Reasoning & OIR (SSB)",
+        "id": "syl-verbal-reasoning",
+        "title": "Verbal Reasoning & OIR",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "syl-verbal-reasoning",
@@ -7337,7 +8115,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "syl-nonverbal-reasoning",
+        "title": "Non-Verbal Reasoning & OIR",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "syl-nonverbal-reasoning",
             "title": "Non-Verbal Reasoning & OIR",
@@ -7372,7 +8157,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "syl-afcat-spatial",
+        "title": "Spatial & Non-Verbal Reasoning (AFCAT)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "syl-afcat-spatial",
             "title": "Spatial & Non-Verbal Reasoning (AFCAT)",
@@ -7402,8 +8194,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "afcat-verbal-reasoning",
-        "title": "Verbal Reasoning (AFCAT)",
+        "id": "afcat-r-analogy",
+        "title": "Ch.1 — Analogy (Verbal Reasoning)",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "afcat-r-analogy",
@@ -7439,7 +8232,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-classification",
+        "title": "Ch.2 — Classification / Odd One Out (Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-classification",
             "title": "Ch.2 — Classification / Odd One Out (Verbal)",
@@ -7472,7 +8272,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-series",
+        "title": "Ch.3 — Series Completion (Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-series",
             "title": "Ch.3 — Series Completion (Verbal)",
@@ -7507,7 +8314,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-coding",
+        "title": "Ch.4 — Coding and Decoding (Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-coding",
             "title": "Ch.4 — Coding and Decoding (Verbal)",
@@ -7546,7 +8360,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-directions",
+        "title": "Ch.5 — Direction Sense Test (Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-directions",
             "title": "Ch.5 — Direction Sense Test (Verbal)",
@@ -7579,7 +8400,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-clock-calendar",
+        "title": "Ch.6 — Clock and Calendar (Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-clock-calendar",
             "title": "Ch.6 — Clock and Calendar (Verbal)",
@@ -7613,7 +8441,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-venn",
+        "title": "Ch.7 — Logical Venn Diagrams (Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-venn",
             "title": "Ch.7 — Logical Venn Diagrams (Verbal)",
@@ -7648,7 +8483,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-syllogism",
+        "title": "Ch.8 — Syllogism (Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-syllogism",
             "title": "Ch.8 — Syllogism (Verbal)",
@@ -7684,7 +8526,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-conclusions",
+        "title": "Ch.9 — Statements and Conclusions (Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-conclusions",
             "title": "Ch.9 — Statements and Conclusions (Verbal)",
@@ -7711,7 +8560,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-assumptions",
+        "title": "Ch.10 — Statements and Assumptions (Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-assumptions",
             "title": "Ch.10 — Statements and Assumptions (Verbal)",
@@ -7742,8 +8598,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "afcat-nonverbal-reasoning",
-        "title": "Non-Verbal Reasoning (AFCAT)",
+        "id": "afcat-r-fig-analogy",
+        "title": "Ch.11 — Figure Analogy (Non-Verbal)",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "afcat-r-fig-analogy",
@@ -7772,7 +8629,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-fig-class-series",
+        "title": "Ch.12&13 — Figure Classification & Series (Non-Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-fig-class-series",
             "title": "Ch.12&13 — Figure Classification & Series (Non-Verbal)",
@@ -7801,7 +8665,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-fig-completion",
+        "title": "Ch.14 — Figure/Pattern Completion (Non-Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-fig-completion",
             "title": "Ch.14 — Figure/Pattern Completion (Non-Verbal)",
@@ -7829,7 +8700,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-embedded",
+        "title": "Ch.15 — Embedded Figures (Non-Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-embedded",
             "title": "Ch.15 — Embedded Figures (Non-Verbal)",
@@ -7855,7 +8733,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-dot",
+        "title": "Ch.16 — Dot Situation (Non-Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-dot",
             "title": "Ch.16 — Dot Situation (Non-Verbal)",
@@ -7880,7 +8765,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-cube-dice",
+        "title": "Ch.17 — Cube and Dice (Non-Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-cube-dice",
             "title": "Ch.17 — Cube and Dice (Non-Verbal)",
@@ -7908,7 +8800,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afcat-r-fig-coding",
+        "title": "Ch.18 — Figure Coding (Non-Verbal)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "afcat-r-fig-coding",
             "title": "Ch.18 — Figure Coding (Non-Verbal)",
@@ -7946,8 +8845,9 @@ const NOTES_DATABASE = {
     "title": "Current Affairs & GK",
     "chapters": [
       {
-        "id": "schemes-policies",
-        "title": "Schemes, Policies & Summits",
+        "id": "ca-schemes",
+        "title": "Major Government Schemes",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "ca-schemes",
@@ -7984,7 +8884,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-relations",
+        "title": "India's International Relations & Forums",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-relations",
             "title": "India's International Relations & Forums",
@@ -8022,7 +8929,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-policies",
+        "title": "National Policies & Missions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-policies",
             "title": "National Policies & Missions",
@@ -8057,7 +8971,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-summits",
+        "title": "Major International Summits",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-summits",
             "title": "Major International Summits",
@@ -8096,8 +9017,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "reports-awards-judgments",
-        "title": "Reports, Awards & Judgments",
+        "id": "ca-reports",
+        "title": "Important Reports & Indices",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "ca-reports",
@@ -8126,7 +9048,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-judgments",
+        "title": "Landmark SC & HC Judgments",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-judgments",
             "title": "Landmark SC & HC Judgments",
@@ -8161,7 +9090,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-awards",
+        "title": "National Awards & Honours",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-awards",
             "title": "National Awards & Honours",
@@ -8194,7 +9130,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-economic-measures",
+        "title": "Economic Measures & Policy Packages",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-economic-measures",
             "title": "Economic Measures & Policy Packages",
@@ -8229,7 +9172,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-science-tech-space",
+        "title": "Science, Tech & Space Missions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-science-tech-space",
             "title": "Science, Tech & Space Missions",
@@ -8264,7 +9214,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-upsc-master-framework",
+        "title": "UPSC Core Current Affairs Syllabus Map",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-upsc-master-framework",
             "title": "UPSC Core Current Affairs Syllabus Map",
@@ -8306,8 +9263,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "global-events-defence",
-        "title": "Global Events & Strategic Updates",
+        "id": "ca-geopolitical-flashpoints",
+        "title": "Global Geopolitical Flashpoints",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "ca-geopolitical-flashpoints",
@@ -8343,7 +9301,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-defence-cooperation",
+        "title": "Bilateral Defence Cooperation & Deals",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-defence-cooperation",
             "title": "Bilateral Defence Cooperation & Deals",
@@ -8378,7 +9343,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-red-sea-crisis",
+        "title": "Red Sea Crisis & Maritime Security Ops",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-red-sea-crisis",
             "title": "Red Sea Crisis & Maritime Security Ops",
@@ -8413,7 +9385,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-quad-indopacific",
+        "title": "Indo-Pacific Security & Quad Dynamics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-quad-indopacific",
             "title": "Indo-Pacific Security & Quad Dynamics",
@@ -8448,7 +9427,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-defense-acquisitions",
+        "title": "India-US Tech Cooperation & MQ-9B Drones",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-defense-acquisitions",
             "title": "India-US Tech Cooperation & MQ-9B Drones",
@@ -8483,7 +9469,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca-space-nuclear",
+        "title": "Strategic Space & Missile Advancements",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "ca-space-nuclear",
             "title": "Strategic Space & Missile Advancements",
@@ -8527,8 +9520,9 @@ const NOTES_DATABASE = {
     "title": "Environment & Ecology",
     "chapters": [
       {
-        "id": "biodiversity-conservation",
-        "title": "Biodiversity & Wildlife Conservation",
+        "id": "env-hotspots",
+        "title": "Biodiversity Hotspots & Biosphere Reserves",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "env-hotspots",
@@ -8557,7 +9551,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "env-conservation",
+        "title": "Wildlife Protection & Conservation Projects",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "env-conservation",
             "title": "Wildlife Protection & Conservation Projects",
@@ -8591,7 +9592,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "env-species",
+        "title": "Species in News & IUCN Red List",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "env-species",
             "title": "Species in News & IUCN Red List",
@@ -8628,8 +9636,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "climate-laws-energy",
-        "title": "Climate, Laws & Renewable Energy",
+        "id": "env-treaties",
+        "title": "Climate Change Treaties & India's NDCs",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "env-treaties",
@@ -8667,7 +9676,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "env-laws",
+        "title": "Environmental Legislation & EIA",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "env-laws",
             "title": "Environmental Legislation & EIA",
@@ -8703,7 +9719,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "env-renewable",
+        "title": "Renewable Energy & Green Initiatives",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "env-renewable",
             "title": "Renewable Energy & Green Initiatives",
@@ -8737,7 +9760,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "env-pollution",
+        "title": "Pollution Control & Clean India Missions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "env-pollution",
             "title": "Pollution Control & Clean India Missions",
@@ -8778,3 +9808,4 @@ const NOTES_DATABASE = {
     ]
   }
 };
+

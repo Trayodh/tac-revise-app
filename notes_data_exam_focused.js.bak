@@ -3709,9 +3709,8 @@ const NOTES_DATABASE = {
     "title": "Mathematics (NDA/CDS)",
     "chapters": [
       {
-        "id": "trig-identities",
-        "title": "Trigonometric Identities & Values",
-        "icon": "fa-solid fa-book-open",
+        "id": "trigonometry",
+        "title": "Trigonometry",
         "topics": [
           {
             "id": "trig-identities",
@@ -3755,14 +3754,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "inverse-trig",
-        "title": "Inverse Trigonometric Functions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "inverse-trig",
             "title": "Inverse Trigonometric Functions",
@@ -3809,23 +3801,15 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "quadratic-eq",
-        "title": "Quadratic Equations",
-        "icon": "fa-solid fa-book-open",
+        "id": "algebra-complex",
+        "title": "Algebra & Complex Numbers",
         "topics": [
           {
             "id": "quadratic-eq",
             "title": "Quadratic Equations",
             "notes": "<!-- VISUAL INJECTION -->\n<div class=\"visual-summary text-center my-6\"><img src=\"images/algebra_quadratic_complex.png\" alt=\"Visual Summary\" class=\"max-w-full h-auto rounded-lg shadow-md border border-slate-700 mx-auto\" /></div>\n\n<h3>1. Nature of Roots</h3>\n<p>For any quadratic equation $ax^2 + bx + c = 0$, the discriminant $D = b^2 - 4ac$ dictates the character of the roots. UPSC frequently tests the theoretical nuances of this classification, especially in statement-based questions in the NDA and CDS papers.</p>\n\n<div class=\"expanded-notes\" style=\"margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);\">\n  <div style=\"color: var(--accent); font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;\">\n    [ Advanced Revision Data ]\n  </div>\n  \n<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;\">\n    Quadratic Equations\n  </h3>\n\n  <h4>1. Definition and Standard Form</h4>\n  <p>A <strong>quadratic equation</strong> is a polynomial equation of degree two. In its standard mathematical representation, it is written as:</p>\n  $$ax^{2}+bx+c=0$$\n  <ul>\n    <li><strong>a</strong> – The <em>leading coefficient</em>; must satisfy <strong>$a \\neq 0$</strong> to preserve the quadratic nature. In recent UPSC papers, check if a parameter makes $a = 0$, which degenerates the equation into a linear one.</li>\n    <li><strong>b</strong> – The <em>linear coefficient</em>; can be any real (or complex) number.</li>\n    <li><strong>c</strong> – The <em>constant term</em>; can also be any real (or complex) number.</li>\n  </ul>\n  <p>When the coefficients <strong>a</strong>, <strong>b</strong>, and <strong>c</strong> are restricted to integers, the equation is called an <strong>Integral Quadratic</strong>. NDA/CDS papers frequently exploit this constraint to ask questions about the integer values of roots ($\\alpha$ and $\\beta$).</p>\n\n  <div class=\"ncert-box\" style=\"background-color: rgba(69, 170, 242, 0.1); border-left: 4px solid #45aaf2; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n    <strong>💡 Fun Fact time!</strong><br>\n    Did you know that in recent 2024-2026 papers, UPSC has repeatedly set traps using equations that <em>look</em> quadratic but are actually masked? For example, equations like $|x|^2 - 3|x| + 2 = 0$ or $e^{2x} - 5e^x + 6 = 0$. By substituting $t = |x|$ or $t = e^x$, you solve a standard quadratic first, but must then filter the real values of $x$ based on the constraints of the domain (such as $e^x > 0$ and $|x| \\ge 0$). Always verify the validity of your substituted variable!\n  </div>\n\n  <h4>2. Derivation of the Quadratic Formula from First Principles</h4>\n  <p>To deeply understand how parameters affect roots, we derive the quadratic formula by completing the square:</p>\n  $$ax^{2}+bx+c=0\\quad\\Longrightarrow\\quad x^{2}+\\frac{b}{a}x+\\frac{c}{a}=0$$\n  <p>Isolate the variable terms:</p>\n  $$x^{2}+\\frac{b}{a}x=-\\frac{c}{a}$$\n  <p>Add the square of half the linear coefficient, $\\left(\\frac{b}{2a}\\right)^{2}$, to both sides of the equation to form a perfect square trinomial:</p>\n  $$x^{2}+\\frac{b}{a}x+\\left(\\frac{b}{2a}\\right)^{2}=\\left(\\frac{b}{2a}\\right)^{2}-\\frac{c}{a}$$\n  <p>Condense the left-hand side into a binomial square:</p>\n  $$\\left(x+\\frac{b}{2a}\\right)^{2}=\\frac{b^{2}-4ac}{4a^{2}}$$\n  <p>Extracting the square root from both sides yields:</p>\n  $$x+\\frac{b}{2a}=\\pm\\frac{\\sqrt{b^{2}-4ac}}{2a}$$\n  <p>Isolating $x$ provides the standard quadratic formula:</p>\n  $$\\boxed{x=\\frac{-b\\pm\\sqrt{b^{2}-4ac}}{2a}}$$\n  <p>The radicand expression $\\Delta = b^{2}-4ac$ is the <strong>discriminant</strong>. Its sign and algebraic property (such as being a perfect square) determine the nature of the roots.</p>\n\n  <h4>3. Vieta’s Relations – Connecting Coefficients and Roots</h4>\n  <p>For any quadratic equation $ax^{2}+bx+c=0$ with roots $\\alpha$ and $\\beta$, the following relationships exist between the roots and coefficients:</p>\n  $$\\begin{aligned}\n  \\alpha+\\beta &= -\\frac{b}{a}\\\\[4pt]\n  \\alpha\\beta   &= \\frac{c}{a}\n  \\end{aligned}$$\n  <p>UPSC questions rarely ask you to find the roots directly. Instead, they require you to manipulate Vieta’s relations to find symmetric values such as $\\alpha^2 + \\beta^2 = (\\alpha+\\beta)^2 - 2\\alpha\\beta$, $\\alpha^3 + \\beta^3 = (\\alpha+\\beta)^3 - 3\\alpha\\beta(\\alpha+\\beta)$, or $\\frac{1}{\\alpha} + \\frac{1}{\\beta} = \\frac{\\alpha+\\beta}{\\alpha\\beta}$.</p>\n\n  <h4>4. Comparison of Root Types (The Ultimate Discriminant Breakdown)</h4>\n  <p>The table below highlights the differences between root classifications under various conditions, which is crucial for answering modern statement-based questions.</p>\n\n  <table style=\"width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9rem; text-align:left;\">\n    <thead>\n      <tr style=\"background-color: #2a2a3a; border-bottom: 2px solid #45aaf2;\">\n        <th style=\"padding: 10px; border: 1px solid #444;\">Discriminant Condition</th>\n        <th style=\"padding: 10px; border: 1px solid #444;\">Coefficient Constraints</th>\n        <th style=\"padding: 10px; border: 1px solid #444;\">Nature of Roots</th>\n        <th style=\"padding: 10px; border: 1px solid #444;\">Mathematical Representation</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style=\"padding: 10px; border: 1px solid #444;\"><strong>$\\Delta > 0$ (Perfect Square)</strong></td>\n        <td style=\"padding: 10px; border: 1px solid #444;\">$a, b, c \\in \\mathbb{Q}$ (Rational)</td>\n        <td style=\"padding: 10px; border: 1px solid #444; color: #2ecc71;\">Real, Distinct, and Rational</td>\n        <td style=\"padding: 10px; border: 1px solid #444;\">$x_1, x_2 \\in \\mathbb{Q}$</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 10px; border: 1px solid #444;\"><strong>$\\Delta > 0$ (Not a Perfect Square)</strong></td>\n        <td style=\"padding: 10px; border: 1px solid #444;\">$a, b, c \\in \\mathbb{Q}$ (Rational)</td>\n        <td style=\"padding: 10px; border: 1px solid #444; color: #f1c40f;\">Real, Distinct, and Irrational Conjugate Pairs</td>\n        <td style=\"padding: 10px; border: 1px solid #444;\">$p \\pm \\sqrt{q}$</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 10px; border: 1px solid #444;\"><strong>$\\Delta = 0$</strong></td>\n        <td style=\"padding: 10px; border: 1px solid #444;\">$a, b, c \\in \\mathbb{R}$ (Real)</td>\n        <td style=\"padding: 10px; border: 1px solid #444; color: #3498db;\">Real, Equal (Repeated/Double Root)</td>\n        <td style=\"padding: 10px; border: 1px solid #444;\">$x_1 = x_2 = -\\frac{b}{2a}$</td>\n      </tr>\n      <tr>\n        <td style=\"padding: 10px; border: 1px solid #444;\"><strong>$\\Delta < 0$</strong></td>\n        <td style=\"padding: 10px; border: 1px solid #444;\">$a, b, c \\in \\mathbb{R}$ (Real)</td>\n        <td style=\"padding: 10px; border: 1px solid #444; color: #e74c3c;\">Complex Conjugate Pairs</td>\n        <td style=\"padding: 10px; border: 1px solid #444;\">$p \\pm iq$ (where $q = \\frac{\\sqrt{|\\Delta|}}{2a}$)</td>\n      </tr>\n    </tbody>\n  </table>\n\n  <div class=\"ncert-box\" style=\"background-color: rgba(69, 170, 242, 0.1); border-left: 4px solid #45aaf2; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n    <strong>💡 Fun Fact time!</strong><br>\n    UPSC loves testing the conditional nature of conjugate roots. A common trap is assuming that complex or irrational roots <em>always</em> occur in conjugate pairs. This is only true if the coefficients of the equation are real (for complex roots) or rational (for irrational roots). If an equation has complex coefficients, its roots do not have to be conjugates!\n  </div>\n\n  <h4>5. Special Coefficient Configurations and Shortcuts</h4>\n  <p>In a time-pressured exam like the NDA or CDS, solving the quadratic formula should be your last resort. Instead, memorize how specific coefficient patterns instantly reveal the roots.</p>\n\n  <div class=\"memory-hack-box\" style=\"background-color: rgba(46, 204, 113, 0.1); border-left: 4px solid #2ecc71; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n    <strong>💡 Memory Hack!</strong><br>\n    Remember the acronym <strong>\"O-R-C-1\"</strong> to instantly decode special roots:\n    <ul style=\"margin-top: 5px; margin-bottom: 0;\">\n      <li><strong>O (Opposite in Sign, Equal Magnitude)</strong>: If $b = 0$, the roots are equal and opposite ($x = \\pm \\alpha$).</li>\n      <li><strong>R (Reciprocal Roots)</strong>: If $a = c$, the roots are reciprocals of each other ($\\alpha$ and $\\frac{1}{\\alpha}$).</li>\n      <li><strong>C-1 (Coefficient Sum is Zero)</strong>: If $a + b + c = 0$, the roots are <strong>always</strong> $1$ and $\\frac{c}{a}$. This is a massive time-saver in exam questions!</li>\n    </ul>\n  </div>\n\n  <ol>\n    <li><strong>Pure Quadratic ($b=0$)</strong>: $ax^{2}+c=0 \\implies x=\\pm\\sqrt{-\\frac{c}{a}}$. Real roots exist if and only if $a$ and $c$ have opposite signs ($ac<0$).</li>\n    <li><strong>No Constant Term ($c=0$)</strong>: $ax^{2}+bx=0 \\implies x(ax+b)=0 \\implies x=0$ or $x=-\\frac{b}{a}$.</li>\n    <li><strong>Monic Quadratic ($a=1$)</strong>: Simplifies Vieta’s relations to $\\alpha+\\beta=-b$ and $\\alpha\\beta=c$, and the formula reduces to $x=\\frac{-b\\pm\\sqrt{b^{2}-4c}}{2}$.</li>\n    <li><strong>Parametric Quadratics</strong>: When coefficients depend on a parameter $k$, discriminant analysis yields conditions on $k$ for real/complex roots. Example: $x^{2}+kx+1=0$ has real roots if and only if $k \\le -2$ or $k \\ge 2$ (i.e., $|k| \\ge 2$).</li>\n  </ol>\n\n  <h4>6. Methods of Solving Quadratics</h4>\n  <table style=\"width:100%; border-collapse:collapse; margin:12px 0;\">\n    <thead style=\"background:#2a2a3a;\">\n      <tr>\n        <th style=\"border:1px solid #444;padding:8px;\">Method</th>\n        <th style=\"border:1px solid #444;padding:8px;\">When to Use</th>\n        <th style=\"border:1px solid #444;padding:8px;\">Key Steps</th>\n        <th style=\"border:1px solid #444;padding:8px;\">Exam Utility</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style=\"border:1px solid #444;padding:8px;\"><strong>Quadratic Formula</strong></td>\n        <td style=\"border:1px solid #444;padding:8px;\">All generic cases</td>\n        <td style=\"border:1px solid #444;padding:8px;\">Compute $\\Delta$, take square root, substitute</td>\n        <td style=\"border:1px solid #444;padding:8px; color:#e74c3c;\">Slow but reliable (Fallback only)</td>\n      </tr>\n      <tr>\n        <td style=\"border:1px solid #444;padding:8px;\"><strong>Completing the Square</strong></td>\n        <td style=\"border:1px solid #444;padding:8px;\">When finding maximum/minimum values of a quadratic expression</td>\n        <td style=\"border:1px solid #444;padding:8px;\">Rewrite as $a\\left(x+\\frac{b}{2a}\\right)^{2} + \\left(c - \\frac{b^2}{4a}\\right)$</td>\n        <td style=\"border:1px solid #444;padding:8px; color:#3498db;\">Highly useful for range-based questions</td>\n      </tr>\n      <tr>\n        <td style=\"border:1px solid #444;padding:8px;\"><strong>Factorisation</strong></td>\n        <td style=\"border:1px solid #444;padding:8px;\">When integer roots are expected</td>\n        <td style=\"border:1px solid #444;padding:8px;\">Find two numbers multiplying to $ac$ and adding to $b$</td>\n        <td style=\"border:1px solid #444;padding:8px; color:#2ecc71;\">Fastest analytical method</td>\n      </tr>\n      <tr>\n        <td style=\"border:1px solid #444;padding:8px;\"><strong>Graphical Insight</strong></td>\n        <td style=\"border:1px solid #444;padding:8px;\">Location of roots or intervals of sign change</td>\n        <td style=\"border:1px solid #444;padding:8px;\">Analyze parabola direction ($a>0$ opens up, $a<0$ opens down) and vertex $(-\\frac{b}{2a}, -\\frac{\\Delta}{4a})$</td>\n        <td style=\"border:1px solid #444;padding:8px; color:#f1c40f;\">Crucial for advanced inequality questions</td>\n      </tr>\n    </tbody>\n  </table>\n\n  <h4>7. Worked Example 1 – Applying Vieta's Shortcuts</h4>\n  <p><strong>Problem:</strong> Solve the quadratic equation $3x^{2}-7x+4=0$ and find the value of $\\alpha^2 + \\beta^2$.</p>\n  <ol>\n    <li>Identify coefficients: $a=3$, $b=-7$, $c=4$.</li>\n    <li><strong>Apply the \"O-R-C-1\" Shortcut first:</strong> Notice that $a+b+c = 3 + (-7) + 4 = 0$.</li>\n    <li>Therefore, the roots are immediately:\n      <ul>\n        <li>$\\alpha = 1$</li>\n        <li>$\\beta = \\frac{c}{a} = \\frac{4}{3}$</li>\n      </ul>\n    </li>\n    <li>Compute the required symmetric expression:\n      $$\\alpha^2 + \\beta^2 = (1)^2 + \\left(\\frac{4}{3}\\right)^2 = 1 + \\frac{16}{9} = \\frac{25}{9}$$\n    </li>\n    <li>Let's verify this using the standard Vieta formula:\n      $$\\alpha^2 + \\beta^2 = (\\alpha+\\beta)^2 - 2\\alpha\\beta = \\left(\\frac{7}{3}\\right)^2 - 2\\left(\\frac{4}{3}\\right) = \\frac{49}{9} - \\frac{8}{3} = \\frac{49-24}{9} = \\frac{25}{9}$$\n      The shortcut yields the exact same answer in half the time!</li>\n  </ol>\n\n  <h4>8. Worked Example 2 – Complex Conjugate Roots</h4>\n  <p><strong>Problem:</strong> Find the roots of $x^{2}+4x+8=0$ and express them in conjugate form.</p>\n  <ol>\n    <li>Coefficients: $a=1$, $b=4$, $c=8$.</li>\n    <li>Discriminant:\n      $$\\Delta=b^{2}-4ac=4^{2}-4\\cdot1\\cdot8=16-32=-16$$\n    </li>\n    <li>Since $\\Delta<0$ and coefficients are real, the roots are complex conjugates.</li>\n    <li>Apply the quadratic formula directly:\n      $$x=\\frac{-b\\pm\\sqrt{\\Delta}}{2a}=\\frac{-4\\pm\\sqrt{-16}}{2}=\\frac{-4\\pm4i}{2} = -2\\pm2i$$\n    </li>\n    <li>The conjugate roots are $-2+2i$ and $-2-2i$.</li>\n  </ol>\n\n  <h4>9. Common Exam Traps to Avoid</h4>\n  <ul>\n    <li><strong>Sign errors in the Discriminant:</strong> Forgetting that $4ac$ changes sign when $c$ is negative (e.g., in $x^2 - 5x - 6 = 0$, $\\Delta = 25 - 4(1)(-6) = 25 + 24 = 49$, not $25 - 24 = 1$).</li>\n    <li><strong>Blindly assuming conjugate pairs:</strong> If a question says \"one root of an equation is $2 + \\sqrt{3}$\", do not assume the other root is $2 - \\sqrt{3}$ unless the question explicitly states that the coefficients of the quadratic equation are <strong>rational</strong>.</li>\n    <li><strong>Forgetting to check the leading coefficient constraint:</strong> If a quadratic equation is written as $(k-2)x^2 + 5x + 6 = 0$, you must always state $k \\neq 2$ as a basic condition before applying any quadratic theorems.</li>\n  </ul>\n\n  <h4>10. Advanced NDA/CDS Shortcuts</h4>\n  <ul>\n    <li><strong>Forming a new equation with reciprocal roots:</strong> If roots of $ax^2 + bx + c = 0$ are $\\alpha, \\beta$, then the quadratic equation with roots $\\frac{1}{\\alpha}, \\frac{1}{\\beta}$ is obtained by swapping $a$ and $c$, giving $cx^2 + bx + a = 0$.</li>\n    <li><strong>Forming a new equation with roots opposite in sign:</strong> To find the equation with roots $-\\alpha, -\\beta$, simply change the sign of the linear coefficient ($b \\to -b$), giving $ax^2 - bx + c = 0$.</li>\n    <li><strong>Range of $y = ax^2 + bx + c$ ($a>0$):</strong> The minimum value of this expression always occurs at the vertex $x = -\\frac{b}{2a}$, and the minimum value is $-\\frac{\\Delta}{4a}$. The range is $\\left[-\\frac{\\Delta}{4a}, \\infty\\right)$.</li>\n  </ul>\n\n  <h4>11. Connection to Higher Algebra</h4>\n  <p>Every quadratic equation is a direct manifestation of the <strong>Fundamental Theorem of Algebra</strong>, which dictates that a polynomial of degree $n$ has exactly $n$ complex roots. In quadratic equations, the discriminant is the algebraic gatekeeper that classifies these roots. This concept also serves as a foundation for solving higher-degree equations through synthetic division and symmetric root reductions.</p>\n\n  <h4>12. Frequently Used Notations in UPSC Exams</h4>\n  <ul>\n    <li><strong>$\\Delta$ or $D$</strong> – The Discriminant ($b^2 - 4ac$).</li>\n    <li><strong>$\\alpha, \\beta$</strong> – The roots of the quadratic equation.</li>\n    <li><strong>$\\mathbb{R}$</strong> – Real numbers; when $\\Delta \\ge 0$, roots belong to this set.</li>\n    <li><strong>$\\mathbb{C}$</strong> – Complex numbers; when $\\Delta < 0$, roots belong to this set.</li>\n  </ul>\n\n  <h4>13. Practical Applications in Defense Exams</h4>\n  <p>Quadratic equations are widely used to solve mechanics and kinematics problems in the NDA/CDS exams:</p>\n  <ul>\n    <li><strong>Ballistics and Projectile Motion:</strong> The vertical displacement equation $h = u_y t - \\frac{1}{2}gt^2$ is a quadratic equation in terms of time ($t$). Evaluating the discriminant tells you if a projectile can reach a specific target height ($h$).</li>\n    <li><strong>Alternating Current and Resonant Circuits:</strong> The calculation of resonant frequencies and bandwidth dampening relies on solving equations of the form $L\\omega^2 - R\\omega - \\frac{1}{C} = 0$.</li>\n  </ul>\n\n  <div class=\"exam-tip\" style=\"background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;\">\n    <strong style=\"color: var(--accent);\">⚡ High-Yield Exam Facts (NDA/CDS)</strong>\n    <ul style=\"margin-top: 8px;\">\n      <li>For the roots of $ax^2 + bx + c = 0$ to be real and equal, the discriminant must be zero ($\\Delta = 0$).</li>\n      <li>If $a, b, c$ are rational and $\\Delta$ is a perfect square, the roots are rational; if $\\Delta$ is not a perfect square, the roots are irrational.</li>\n      <li>If one root is $p + iq$, the other root is $p - iq$ (provided the coefficients are real).</li>\n      <li>If one root is $p + \\sqrt{q}$, the other root is $p - \\sqrt{q}$ (provided the coefficients are rational).</li>\n      <li>If $a$ and $c$ have opposite signs ($ac < 0$), the discriminant $\\Delta = b^2 - 4ac$ is guaranteed to be positive, meaning the equation will always have real and distinct roots.</li>\n      <li>To find the sum of the squares of the roots, use the identity $\\alpha^2 + \\beta^2 = (\\alpha+\\beta)^2 - 2\\alpha\\beta$. This is one of the most frequently asked calculation formats.</li>\n      <li>To find the sum of the cubes of the roots, use $\\alpha^3 + \\beta^3 = (\\alpha+\\beta)(\\alpha^2 + \\beta^2 - \\alpha\\beta)$.</li>\n    </ul>\n  </div>\n</div>\n\n</div>",
             "formulas": "\n              <li>**Sum of roots:** alpha + \beta = -b/a</li>\n              <li>**Product of roots:** alpha\beta = c/a</li>\n            "
-          }
-        ]
-      },
-      {
-        "id": "complex-numbers",
-        "title": "Complex Numbers",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "complex-numbers",
             "title": "Complex Numbers",
@@ -3835,9 +3819,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "straight-lines",
-        "title": "Straight Lines",
-        "icon": "fa-solid fa-book-open",
+        "id": "2d-geometry",
+        "title": "Coordinate Geometry (2D & 3D)",
         "topics": [
           {
             "id": "straight-lines",
@@ -3848,23 +3831,15 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "central-tendency",
-        "title": "Measures of Central Tendency",
-        "icon": "fa-solid fa-book-open",
+        "id": "statistics-prob",
+        "title": "Statistics & Probability",
         "topics": [
           {
             "id": "central-tendency",
             "title": "Measures of Central Tendency",
             "notes": "<h3>1. Mean, Median, Mode</h3>\n<ul>\n  <li><strong>Mean:</strong> Sum of observations / Number of observations. <em>Exam Insight: UPSC frequently tests this via combined mean formulas and scaling/shifting properties.</em></li>\n  <li><strong>Median:</strong> Middle value when sorted. <em>Exam Insight: Highly tested for its property of minimizing absolute deviations.</em></li>\n  <li><strong>Empirical Relation:</strong> Mode = 3 × Median - 2 × Mean. <em>Exam Insight: UPSC frequently rearranges this algebraically to test your speed under pressure.</em></li>\n</ul>\n\n<div class=\"memory-hack-box\" style=\"background-color: rgba(46, 204, 113, 0.1); border-left: 4px solid #2ecc71; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n  <strong>💡 Memory Hack!</strong><br>\n  To never confuse the coefficients in the Empirical Formula, use the <strong>\"Word-Length Countdown\"</strong>:\n  <br><br>\n  $$\\text{Mode} = 3 \\times \\text{Median} - 2 \\times \\text{Mean}$$\n  <br>\n  • <strong>3</strong> goes with <strong>Median</strong> (6 letters - longer word)<br>\n  • <strong>2</strong> goes with <strong>Mean</strong> (4 letters - shorter word)<br>\n  • Just count down: 3 (longer) $\\rightarrow$ 2 (shorter).\n</div>\n\n<div class=\"expanded-notes\" style=\"margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);\">\n  <div style=\"color: var(--accent); font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;\">\n    [ Advanced Revision Data ]\n  </div>\n  \n<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;\">\n    Measures of Central Tendency\n  </h3>\n\n  <p>\n    In the realm of <strong>Statistics</strong>, a primary objective is to condense large datasets into meaningful summaries. <strong>Measures of Central Tendency</strong> are statistical values that represent the \"center\" or \"typical\" value of a dataset. They provide a single value that attempts to describe a set of data by identifying the central position within that set. \n    <br><br>\n    <em>CDS & NDA Trend Shift:</em> In the 2024-2026 cycles, UPSC has shifted from simple computational questions to conceptual, statement-based questions testing the mathematical properties and constraints of these measures.\n  </p>\n\n  <h4>1. The Arithmetic Mean (AM)</h4>\n  <p>\n    The <strong>Arithmetic Mean</strong>, often simply called the \"mean\" or \"average,\" is the most widely used measure of central tendency. It is calculated by summing all the observations in a dataset and dividing by the total number of observations. The arithmetic mean is sensitive to every value in the dataset and is therefore heavily influenced by extreme values or <strong>outliers</strong>.\n  </p>\n\n  <h5>1.1. Calculation for Ungrouped Data</h5>\n  <p>\n    For a set of $N$ observations, $X_1, X_2, \\dots, X_N$, the arithmetic mean is given by:\n    $$ \\bar{X} = \\frac{X_1 + X_2 + \\dots + X_N}{N} = \\frac{\\sum_{i=1}^{N} X_i}{N} $$\n    Where:\n    <ul>\n      <li>$ \\bar{X} $ (read as \"X-bar\") is the symbol for the sample arithmetic mean.</li>\n      <li>$ \\sum $ (sigma) denotes the sum of the observations.</li>\n      <li>$ X_i $ represents the $i^{th}$ observation in the dataset.</li>\n      <li>$ N $ is the total number of observations.</li>\n    </ul>\n  </p>\n\n  <h5>1.2. Calculation for Grouped Data</h5>\n  <p>\n    When data is presented in a <strong>frequency distribution</strong> (grouped data), the calculation of the mean involves using the frequencies of each class.\n  </p>\n  <h6>1.2.1. Direct Method</h6>\n  <p>\n    If we have $k$ classes with class marks $X_1, X_2, \\dots, X_k$ and corresponding frequencies $f_1, f_2, \\dots, f_k$, the mean is:\n    $$ \\bar{X} = \\frac{f_1 X_1 + f_2 X_2 + \\dots + f_k X_k}{f_1 + f_2 + \\dots + f_k} = \\frac{\\sum_{i=1}^{k} f_i X_i}{\\sum_{i=1}^{k} f_i} $$\n    Where:\n    <ul>\n      <li>$ X_i $ is the <strong>class mark</strong> (midpoint) of the $i^{th}$ class interval. It is calculated as $ \\frac{\\text{Lower Limit} + \\text{Upper Limit}}{2} $.</li>\n      <li>$ f_i $ is the frequency of the $i^{th}$ class.</li>\n      <li>$ \\sum f_i $ is the total number of observations, typically denoted as $N$.</li>\n    </ul>\n  </p>\n  <h6>1.2.2. Assumed Mean Method (Short-Cut Method)</h6>\n  <p>\n    This method simplifies calculations, especially when class marks are large. We choose an arbitrary value (the \"assumed mean\") from the class marks, usually near the center.\n    $$ \\bar{X} = A + \\frac{\\sum f_i d_i}{\\sum f_i} $$\n    Where:\n    <ul>\n      <li>$ A $ is the <strong>assumed mean</strong>.</li>\n      <li>$ d_i = X_i - A $ is the deviation of the $i^{th}$ class mark from the assumed mean.</li>\n    </ul>\n  </p>\n  <h6>1.2.3. Step-Deviation Method</h6>\n  <p>\n    This is an extension of the assumed mean method, used when class intervals are of equal width. It further simplifies calculations by dividing deviations by the class width.\n    $$ \\bar{X} = A + \\left( \\frac{\\sum f_i u_i}{\\sum f_i} \\right) \\times h $$\n    Where:\n    <ul>\n      <li>$ A $ is the assumed mean.</li>\n      <li>$ u_i = \\frac{X_i - A}{h} $ is the step-deviation.</li>\n      <li>$ h $ is the <strong>class width</strong> (or class size) of the class intervals.</li>\n    </ul>\n  </p>\n\n  <div class=\"ncert-box\" style=\"background-color: rgba(69, 170, 242, 0.1); border-left: 4px solid #45aaf2; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n    <strong>💡 Fun Fact time!</strong><br>\n    In recent 2024-2026 papers, UPSC has targeted step-deviation conceptual questions. They ask whether changing the class width ($h$) affects the computed mean. Mathematically, $h$ acts as a scaling factor that gets neutralized in the final step, meaning the final mean remains invariant of the computational method chosen. Use this to bypass tedious calculations!\n  </div>\n\n  <h5>1.3. Properties of Arithmetic Mean (High-Yield for CDS/NDA)</h5>\n  <ul>\n    <li>The sum of the deviations of all observations from their arithmetic mean is always zero: $ \\sum (X_i - \\bar{X}) = 0 $. <em>UPSC loves to frame this in algebraic notations to confuse students.</em></li>\n    <li><strong>Linear Transformation (Shifting & Scaling):</strong> If each observation in a series is multiplied by a constant $a$ and then increased by a constant $b$, the new mean ($\\bar{X}_{\\text{new}}$) is related to the old mean ($\\bar{X}_{\\text{old}}$) by:\n      $$ \\bar{X}_{\\text{new}} = a\\bar{X}_{\\text{old}} + b $$\n    </li>\n    <li>The arithmetic mean is a rigidly defined measure, meaning there's only one possible value for a given dataset.</li>\n    <li>It is based on all observations, making it a representative measure.</li>\n    <li>It is highly affected by extreme values (outliers).</li>\n    <li>The mean of a combined series: If two series have means $ \\bar{X}_1, \\bar{X}_2 $ and number of observations $ N_1, N_2 $ respectively, their combined mean is:\n      $$ \\bar{X}_{12} = \\frac{N_1 \\bar{X}_1 + N_2 \\bar{X}_2}{N_1 + N_2} $$\n    </li>\n  </ul>\n\n  <div class=\"important-box\" style=\"background: rgba(255,165,0,0.1); border-left: 3px solid #FFA500; padding: 12px 16px; margin-top: 15px; border-radius: 0 6px 6px 0;\">\n    <strong>Important Distinction:</strong> The arithmetic mean is suitable for data that is symmetrically distributed and does not contain significant outliers. For skewed distributions, the Median is often preferred.\n  </div>\n\n  <h5>1.4. Weighted Arithmetic Mean</h5>\n  <p>\n    When different observations have different levels of importance or influence, a <strong>weighted arithmetic mean</strong> is used. Each observation is assigned a weight, $W_i$.\n    $$ \\bar{X}_w = \\frac{\\sum W_i X_i}{\\sum W_i} $$\n  </p>\n\n  <h4>2. Geometric Mean (GM)</h4>\n  <p>\n    The <strong>Geometric Mean</strong> is defined as the $N^{th}$ root of the product of $N$ observations. It is particularly useful for averaging ratios, rates of change, or growth rates.\n  </p>\n\n  <h5>2.1. Calculation for Ungrouped Data</h5>\n  <p>\n    For a set of $N$ positive observations, $X_1, X_2, \\dots, X_N$:\n    $$ GM = \\sqrt[N]{X_1 \\times X_2 \\times \\dots \\times X_N} $$\n    Alternatively, using logarithms:\n    $$ \\log GM = \\frac{\\sum \\log X_i}{N} \\implies GM = \\text{antilog}\\left( \\frac{\\sum \\log X_i}{N} \\right) $$\n    <strong>Condition:</strong> The geometric mean is only defined for positive observations. If any observation is zero or negative, the GM cannot be computed.\n  </p>\n\n  <h5>2.2. Properties of Geometric Mean</h5>\n  <ul>\n    <li>Less affected by extreme values compared to the arithmetic mean.</li>\n    <li>Used for averaging percentage changes, index numbers, and compound interest rates.</li>\n    <li>It is always less than or equal to the arithmetic mean for positive data ($GM \\le AM$).</li>\n  </ul>\n\n  <h4>3. Harmonic Mean (HM)</h4>\n  <p>\n    The <strong>Harmonic Mean</strong> is the reciprocal of the arithmetic mean of the reciprocals of the observations. It gives greater weight to smaller values and is especially useful for averaging rates (like speed, time, or work rates).\n  </p>\n\n  <h5>3.1. Calculation for Ungrouped Data</h5>\n  <p>\n    For a set of $N$ positive observations, $X_1, X_2, \\dots, X_N$:\n    $$ HM = \\frac{N}{\\frac{1}{X_1} + \\frac{1}{X_2} + \\dots + \\frac{1}{X_N}} = \\frac{N}{\\sum \\frac{1}{X_i}} $$\n    <strong>Condition:</strong> The harmonic mean is only defined for positive observations. If any observation is zero, the HM cannot be computed.\n  </p>\n\n  <h5>3.2. Properties of Harmonic Mean</h5>\n  <ul>\n    <li>Gives more weight to smaller values in the dataset.</li>\n    <li>Used in situations involving averages of rates, such as average speed when distances are constant, or average price per unit.</li>\n    <li>It is always less than or equal to the geometric mean for positive data ($HM \\le GM$).</li>\n  </ul>\n\n  <h5>3.3. Relationship between AM, GM, HM</h5>\n  <p>\n    For any set of positive numbers, the relationship between the three means is:\n    $$ AM \\ge GM \\ge HM $$\n    Equality holds only if all observations in the dataset are identical.\n    <br><br>\n    <strong>The Two-Variable Special Case (Extremely High-Yield for NDA/CDS):</strong><br>\n    For exactly two positive numbers $a$ and $b$:\n    $$ GM^2 = AM \\times HM $$\n    <em>UPSC Trap Alert:</em> Do not apply $GM^2 = AM \\times HM$ for datasets with more than two values; it is only guaranteed to be true for exactly two observations!\n  </p>\n\n  <div class=\"ncert-box\" style=\"background-color: rgba(69, 170, 242, 0.1); border-left: 4px solid #45aaf2; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n    <strong>💡 Fun Fact time!</strong><br>\n    UPSC loves speed-distance problems testing the Harmonic Mean. If a vehicle travels from point A to B at speed $v_1$ and returns from B to A at speed $v_2$, the average speed of the entire journey is the <strong>Harmonic Mean</strong> of the two speeds: $\\frac{2v_1v_2}{v_1 + v_2}$. They often present this as a statistics question disguised as a mechanics/arithmetic problem!\n  </div>\n\n  <!-- COMPARATIVE VERSUS TABLE: AM vs GM vs HM -->\n  <h4 style=\"margin-top: 30px; color: var(--accent);\">Direct Contrast: AM vs. GM vs. HM</h4>\n  <div style=\"overflow-x: auto;\">\n    <table style=\"width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 0.95rem; text-align: left; border: 1px solid rgba(255,255,255,0.1);\">\n      <thead>\n        <tr style=\"background-color: rgba(255,255,255,0.05); border-bottom: 2px solid var(--accent);\">\n          <th style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1); color: var(--accent);\">Parameter</th>\n          <th style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1); color: var(--accent);\">Arithmetic Mean (AM)</th>\n          <th style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1); color: var(--accent);\">Geometric Mean (GM)</th>\n          <th style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1); color: var(--accent);\">Harmonic Mean (HM)</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1); font-weight: bold;\">Mathematical Focus</td>\n          <td style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1);\">Sum-based center of gravity</td>\n          <td style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1);\">Product-based exponential growth</td>\n          <td style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1);\">Reciprocal-based rate/work averaging</td>\n        </tr>\n        <tr style=\"background-color: rgba(255,255,255,0.02);\">\n          <td style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1); font-weight: bold;\">Value Restrictions</td>\n          <td style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1);\">Works for any real numbers</td>\n          <td style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1);\">Strictly positive values ($X_i > 0$)</td>\n          <td style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1);\">Strictly positive values ($X_i > 0$)</td>\n        </tr>\n        <tr>\n          <td style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1); font-weight: bold;\">Sensitivity to Outliers</td>\n          <td style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1);\">Highly sensitive to large values</td>\n          <td style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1);\">Moderately sensitive</td>\n          <td style=\"padding: 12px; border: 1px solid rgba(255,255,255,0.1);\">Highly sensitive to small/zero values</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n\n  <h4>4. Median</h4>\n  <p>\n    The <strong>Median</strong> is the middle value of a dataset when the data is arranged in ascending or descending order. It divides the data into two equal halves, with 50% of the observations falling below it and 50% falling above it. The median is a position-based average and is not affected by extreme values.\n  </p>\n\n  <h5>4.1. Calculation for Ungrouped Data</h5>\n  <p>\n    First, arrange the data in ascending or descending order.\n    <ol>\n      <li>If $N$ (total number of observations) is <strong>odd</strong>:\n        The median is the value of the $ \\left( \\frac{N+1}{2} \\right)^{th} $ observation.</li>\n      <li>If $N$ is <strong>even</strong>:\n        The median is the arithmetic mean of the $ \\left( \\frac{N}{2} \\right)^{th} $ and $ \\left( \\frac{N}{2} + 1 \\right)^{th} $ observations.</li>\n    </ol>\n  </p>\n\n  <h5>4.2. Calculation for Grouped Data</h5>\n  <p>\n    For grouped data, the median is calculated using the following formula after determining the <strong>median class</strong>. The median class is the class interval where the cumulative frequency first exceeds $ \\frac{N}{2} $.\n    $$ \\text{Median} = L + \\left( \\frac{\\frac{N}{2} - cf}{f} \\right) \\times h $$\n    Where:\n    <ul>\n      <li>$ L $ is the <strong>lower limit</strong> of the median class.</li>\n      <li>$ N $ is the total number of observations ($ \\sum f_i $).</li>\n      <li>$ cf $ is the <strong>cumulative frequency</strong> of the class <em>preceding</em> the median class.</li>\n      <li>$ f $ is the frequency of the median class.</li>\n      <li>$ h $ is the <strong>class width</strong> of the median class.</li>\n    </ul>\n  </p>\n\n  <h5>4.3. Properties of Median (Crucial conceptual check)</h5>\n  <ul>\n    <li>It is not affected by extreme values, making it robust for <strong>skewed distributions</strong>.</li>\n    <li>Can be calculated for data with <strong>open-ended classes</strong>.</li>\n    <li><strong>The Minimization Property:</strong> The sum of absolute deviations is minimized when taken about the median. That is, $ \\sum |X_i - A| $ is minimum <em>if and only if</em> $A = \\text{Median}$. (This theoretical point is tested frequently in the NDA exams).</li>\n    <li>Can be determined graphically using an <strong>Ogive</strong> (cumulative frequency curve) by finding the value on the x-axis corresponding to $ \\frac{N}{2} $ on the y-axis.</li>\n  </ul>\n\n  <div class=\"ncert-box\" style=\"background-color: rgba(69, 170, 242, 0.1); border-left: 4px solid #45aaf2; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n    <strong>💡 Fun Fact time!</strong><br>\n    UPSC routinely tests graphical intersections. The intersection point of the \"less than ogive\" and \"more than ogive\" has an x-coordinate exactly equal to the <strong>Median</strong>. They will try to trick you by stating it is equal to the Mean or Mode in a statement question!\n  </div>\n\n  <h4>5. Mode</h4>\n  <p>\n    The <strong>Mode</strong> is the value that appears most frequently in a dataset. It represents the most common observation. A dataset can have one mode (unimodal), two modes (bimodal), more than two modes (multimodal), or no mode at all if all observations appear with the same frequency.\n  </p>\n\n  <h5>5.1. Calculation for Ungrouped Data</h5>\n  <p>\n    For ungrouped data, the mode is found by simple inspection – identify the value with the highest frequency.\n  </p>\n\n  <h5>5.2. Calculation for Grouped Data</h5>\n  <p>\n    For grouped data, the mode is calculated using the following formula after determining the <strong>modal class</strong>. The modal class is the class interval with the highest frequency.\n    $$ \\text{Mode} = L + \\left( \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\right) \\times h $$\n    Where:\n    <ul>\n      <li>$ L $ is the <strong>lower limit</strong> of the modal class.</li>\n      <li>$ f_1 $ is the frequency of the modal class.</li>\n      <li>$ f_0 $ is the frequency of the class <em>preceding</em> the modal class.</li>\n      <li>$ f_2 $ is the frequency of the class <em>succeeding</em> the modal class.</li>\n      <li>$ h $ is the <strong>class width</strong> of the modal class.</li>\n    </ul>\n  </p>\n\n  <h5>5.3. Properties of Mode</h5>\n  <ul>\n    <li>It is not affected by extreme values.</li>\n    <li>Can be used for both quantitative and qualitative data (e.g., finding the most popular flavor/color).</li>\n    <li>May not exist or may not be unique.</li>\n    <li>Can be determined graphically using a <strong>Histogram</strong> by drawing lines from the top corners of the modal bar to the adjacent bars.</li>\n  </ul>\n\n  <div class=\"important-box\" style=\"background: rgba(255,165,0,0.1); border-left: 3px solid #FFA500; padding: 12px 16px; margin-top: 15px; border-radius: 0 6px 6px 0;\">\n    <strong>Empirical Relationship Algebraic Manipulations:</strong><br>\n    The standard formula is:\n    $$ \\text{Mode} \\approx 3 \\times \\text{Median} - 2 \\times \\text{Mean} $$\n    UPSC often asks for this rearranged as:\n    $$ \\text{Mean} - \\text{Mode} = 3(\\text{Mean} - \\text{Median}) $$\n    Make sure you can dynamically rewrite this equation in the exam!\n  </div>\n\n  <h4>6. Comparison of Measures of Central Tendency</h4>\n  <p>\n    Choosing the appropriate measure depends on the nature of the data and the purpose of the analysis.\n  </p>\n\n  <!-- REFACTORED SCANNABLE COMPARISON TABLE -->\n  <div style=\"overflow-x: auto;\">\n    <table border=\"1\" style=\"width:100%; border-collapse: collapse; margin-top: 15px; border: 1px solid rgba(255,255,255,0.1);\">\n      <thead>\n        <tr style=\"background-color: #333; color: var(--accent);\">\n          <th style=\"padding: 10px;\">Feature</th>\n          <th style=\"padding: 10px;\">Arithmetic Mean</th>\n          <th style=\"padding: 10px;\">Median</th>\n          <th style=\"padding: 10px;\">Mode</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td style=\"padding: 10px; font-weight: bold;\">Definition</td>\n          <td style=\"padding: 10px;\">Sum of values / Number of values</td>\n          <td style=\"padding: 10px;\">Middle value of ordered data</td>\n          <td style=\"padding: 10px;\">Most frequent value</td>\n        </tr>\n        <tr style=\"background-color: rgba(255,255,255,0.02);\">\n          <td style=\"padding: 10px; font-weight: bold;\">Effect of Outliers</td>\n          <td style=\"padding: 10px; color: #ff6b6b; font-weight: bold;\">Highly affected</td>\n          <td style=\"padding: 10px; color: #2ecc71; font-weight: bold;\">Not affected</td>\n          <td style=\"padding: 10px; color: #2ecc71; font-weight: bold;\">Not affected</td>\n        </tr>\n        <tr>\n          <td style=\"padding: 10px; font-weight: bold;\">Uniqueness</td>\n          <td style=\"padding: 10px;\">Always unique</td>\n          <td style=\"padding: 10px;\">Always unique</td>\n          <td style=\"padding: 10px;\">May not exist or be unique</td>\n        </tr>\n        <tr style=\"background-color: rgba(255,255,255,0.02);\">\n          <td style=\"padding: 10px; font-weight: bold;\">Based on all values?</td>\n          <td style=\"padding: 10px; color: #2ecc71;\">Yes</td>\n          <td style=\"padding: 10px;\">No (positional)</td>\n          <td style=\"padding: 10px;\">No (frequency-based)</td>\n        </tr>\n        <tr>\n          <td style=\"padding: 10px; font-weight: bold;\">Graphical Method</td>\n          <td style=\"padding: 10px;\">None</td>\n          <td style=\"padding: 10px; font-weight: bold;\">Ogive intersection</td>\n          <td style=\"padding: 10px; font-weight: bold;\">Histogram</td>\n        </tr>\n        <tr style=\"background-color: rgba(255,255,255,0.02);\">\n          <td style=\"padding: 10px; font-weight: bold;\">Mathematical Treatment</td>\n          <td style=\"padding: 10px; color: #2ecc71; font-weight: bold;\">Best for further analysis</td>\n          <td style=\"padding: 10px;\">Limited</td>\n          <td style=\"padding: 10px;\">Limited</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n\n  <h4>7. Common Mistakes to Avoid (2024-2026 PYQ-Aligned Warnings)</h4>\n  <ol>\n    <li><strong>Not Ordering Data for Median:</strong> Calculating the median without arranging raw data in ascending order first is a classic time-trap error.</li>\n    <li><strong>Incorrect Cumulative Frequency ($cf$) in Median:</strong> In the grouped median formula, $cf$ is the cumulative frequency of the class <em>preceding</em> the median class, not the median class itself.</li>\n    <li><strong>Assuming Linear Effects on SD and Variance:</strong> While adding a constant $k$ shifts the Mean, Median, and Mode by $k$, it has <strong>zero effect</strong> on Dispersion metrics like Standard Deviation or Variance. UPSC heavily blends these concepts to confuse candidates.</li>\n    <li><strong>Arithmetic Mean with Qualitative Data:</strong> Attempting to calculate a mean for qualitative attributes (e.g., eye color or ranking scales) which is algebraically meaningless. Use Median or Mode instead!</li>\n  </ol>\n\n  <h4>8. Shortcuts & Tricks for UPSC Competitive Exams</h4>\n  <ol>\n    <li><strong>Assumed Mean Simplification:</strong> When classes are evenly spaced, use the middle class mark as $A$ to make step-deviation calculations instantaneous.</li>\n    <li><strong>Graphical Speed Runs:</strong> If a question asks for the mode from a graphical representation, look for the peak of the Histogram; for median, look for the intersection of Ogives.</li>\n    <li><strong>Inequality checks for elimination:</strong> For any positive, non-identical data, check if $AM > GM > HM$. If any option violates this inequality, immediately eliminate it.</li>\n  </ol>\n\n  <h4>9. Worked Examples</h4>\n\n  <h5>Example 1: Grouped Data - Mean, Median, Mode</h5>\n  <p>\n    Calculate the Mean, Median, and Mode for the following frequency distribution of marks:\n  </p>\n  <table border=\"1\" style=\"width:50%; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px;\">\n    <thead>\n      <tr style=\"background-color: #333; color: var(--accent);\">\n        <th style=\"padding: 8px;\">Marks (Class Interval)</th>\n        <th style=\"padding: 8px;\">Number of Students (Frequency, $f_i$)</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td style=\"padding: 8px;\">0-10</td><td style=\"padding: 8px;\">5</td></tr>\n      <tr><td style=\"padding: 8px;\">10-20</td><td style=\"padding: 8px;\">8</td></tr>\n      <tr><td style=\"padding: 8px;\">20-30</td><td style=\"padding: 8px;\">15</td></tr>\n      <tr><td style=\"padding: 8px;\">30-40</td><td style=\"padding: 8px;\">16</td></tr>\n      <tr><td style=\"padding: 8px;\">40-50</td><td style=\"padding: 8px;\">6</td></tr>\n    </tbody>\n  </table>\n\n  <h6>Solution:</h6>\n  <p>\n    First, we construct an extended table to calculate class marks ($X_i$), cumulative frequencies ($cf$), and products ($f_i X_i$). Here, $N = \\sum f_i = 5+8+15+16+6 = 50$.\n  </p>\n  <table border=\"1\" style=\"width:100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px;\">\n    <thead>\n      <tr style=\"background-color: #333; color: var(--accent);\">\n        <th style=\"padding: 8px;\">Class Interval</th>\n        <th style=\"padding: 8px;\">$f_i$</th>\n        <th style=\"padding: 8px;\">$X_i$ (Class Mark)</th>\n        <th style=\"padding: 8px;\">$f_i X_i$</th>\n        <th style=\"padding: 8px;\">$cf$ (Cumulative Frequency)</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td style=\"padding: 8px;\">0-10</td><td style=\"padding: 8px;\">5</td><td style=\"padding: 8px;\">5</td><td style=\"padding: 8px;\">25</td><td style=\"padding: 8px;\">5</td></tr>\n      <tr><td style=\"padding: 8px;\">10-20</td><td style=\"padding: 8px;\">8</td><td style=\"padding: 8px;\">15</td><td style=\"padding: 8px;\">120</td><td style=\"padding: 8px;\">13</td></tr>\n      <tr><td style=\"padding: 8px;\">20-30</td><td style=\"padding: 8px;\">15</td><td style=\"padding: 8px;\">25</td><td style=\"padding: 8px;\">375</td><td style=\"padding: 8px;\">28</td></tr>\n      <tr><td style=\"padding: 8px;\">30-40</td><td style=\"padding: 8px;\">16</td><td style=\"padding: 8px;\">35</td><td style=\"padding: 8px;\">560</td><td style=\"padding: 8px;\">44</td></tr>\n      <tr><td style=\"padding: 8px;\">40-50</td><td style=\"padding: 8px;\">6</td><td style=\"padding: 8px;\">45</td><td style=\"padding: 8px;\">270</td><td style=\"padding: 8px;\">50</td></tr>\n      <tr style=\"background-color: rgba(255,255,255,0.05);\"><td style=\"padding: 8px;\"><strong>Total</strong></td><td style=\"padding: 8px;\"><strong>N=50</strong></td><td style=\"padding: 8px;\"></td><td style=\"padding: 8px;\"><strong>$\\sum f_i X_i = 1350$</strong></td><td style=\"padding: 8px;\"></td></tr>\n    </tbody>\n  </table>\n\n  <ol>\n    <li><strong>Mean ($\\bar{X}$):</strong>\n      Using the Direct Method:\n      $$ \\bar{X} = \\frac{\\sum f_i X_i}{\\sum f_i} = \\frac{1350}{50} = 27 $$\n      The mean mark is <strong>27</strong>.\n    </li>\n    <li><strong>Median:</strong>\n      <p>\n        First, find $ \\frac{N}{2} = \\frac{50}{2} = 25 $.\n        The cumulative frequency just greater than or equal to 25 is 28, which corresponds to the class interval 20-30.\n        So, the <strong>median class</strong> is <strong>20-30</strong>.\n      </p>\n      From the median class:\n      <ul>\n        <li>$ L = 20 $ (lower limit of median class)</li>\n        <li>$ cf = 13 $ (cumulative frequency of class preceding median class)</li>\n        <li>$ f = 15 $ (frequency of median class)</li>\n        <li>$ h = 10 $ (class width)</li>\n      </ul>\n      Applying the formula:\n      $$ \\text{Median} = L + \\left( \\frac{\\frac{N}{2} - cf}{f} \\right) \\times h $$\n      $$ \\text{Median} = 20 + \\left( \\frac{25 - 13}{15} \\right) \\times 10 $$\n      $$ \\text{Median} = 20 + \\left( \\frac{12}{15} \\right) \\times 10 = 20 + 8 = 28 $$\n      The median mark is <strong>28</strong>.\n    </li>\n  </ol>\n</div>\n</div>",
             "formulas": "\n              <li>**Variance:** sigma2 = \fracsum (xi - mu)2N</li>\n              <li>**Standard Deviation:** sigma = sqrtVariance</li>\n            "
-          }
-        ]
-      },
-      {
-        "id": "data-interpretation",
-        "title": "Data Interpretation: Tables, Bar & Pie Charts",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "data-interpretation",
             "title": "Data Interpretation: Tables, Bar & Pie Charts",
@@ -3895,9 +3870,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "limits-continuity",
-        "title": "Limits & Continuity",
-        "icon": "fa-solid fa-book-open",
+        "id": "calculus",
+        "title": "Calculus",
         "topics": [
           {
             "id": "limits-continuity",
@@ -3941,14 +3915,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "differentiation",
-        "title": "Differentiation Rules",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "differentiation",
             "title": "Differentiation Rules",
@@ -3991,14 +3958,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "integration",
-        "title": "Standard Integration Methods",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "integration",
             "title": "Standard Integration Methods",
@@ -4045,9 +4005,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-matrices",
-        "title": "Matrices and Determinants",
-        "icon": "fa-solid fa-book-open",
+        "id": "algebra-matrices",
+        "title": "Algebra & Matrices",
         "topics": [
           {
             "id": "syl-matrices",
@@ -4095,9 +4054,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-probability",
-        "title": "Probability Theory & Bayes Theorem",
-        "icon": "fa-solid fa-book-open",
+        "id": "probability-stats",
+        "title": "Probability & Statistics",
         "topics": [
           {
             "id": "syl-probability",
@@ -4145,9 +4103,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "lines-angles-triangles",
-        "title": "Lines, Angles & Triangles",
-        "icon": "fa-solid fa-book-open",
+        "id": "geometry",
+        "title": "Geometry",
         "topics": [
           {
             "id": "lines-angles-triangles",
@@ -4174,14 +4131,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "circles-polygons",
-        "title": "Circles & Polygons",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "circles-polygons",
             "title": "Circles & Polygons",
@@ -4211,9 +4161,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "area-perimeter",
-        "title": "2D Figures: Area & Perimeter",
-        "icon": "fa-solid fa-book-open",
+        "id": "mensuration",
+        "title": "Mensuration",
         "topics": [
           {
             "id": "area-perimeter",
@@ -4248,14 +4197,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "surface-area-volume",
-        "title": "3D Solids: Surface Area & Volume",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "surface-area-volume",
             "title": "3D Solids: Surface Area & Volume",
@@ -4293,9 +4235,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "percentages-profit-loss",
-        "title": "Percentages, Profit & Loss",
-        "icon": "fa-solid fa-book-open",
+        "id": "arithmetic",
+        "title": "Arithmetic",
         "topics": [
           {
             "id": "percentages-profit-loss",
@@ -4322,14 +4263,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ratios-averages",
-        "title": "Ratios, Proportions & Averages",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ratios-averages",
             "title": "Ratios, Proportions & Averages",
@@ -4354,14 +4288,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "time-distance",
-        "title": "Time, Speed, Distance & Work",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "time-distance",
             "title": "Time, Speed, Distance & Work",
@@ -4391,9 +4318,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-numerical-speed",
-        "title": "Time, Speed & Distance Formulas",
-        "icon": "fa-solid fa-book-open",
+        "id": "quantitative-aptitude",
+        "title": "Numerical Aptitude",
         "topics": [
           {
             "id": "syl-numerical-speed",
@@ -4434,14 +4360,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "syl-numerical-ratios",
-        "title": "Ratios, Proportions & Percentages",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "syl-numerical-ratios",
             "title": "Ratios, Proportions & Percentages",
@@ -4491,9 +4410,8 @@ const NOTES_DATABASE = {
     "title": "English (NDA/CDS/AFCAT)",
     "chapters": [
       {
-        "id": "parts-of-speech",
-        "title": "Parts of Speech",
-        "icon": "fa-solid fa-book-open",
+        "id": "grammar-rules",
+        "title": "Grammar & Usage",
         "topics": [
           {
             "id": "parts-of-speech",
@@ -4529,14 +4447,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "tenses-complete",
-        "title": "Tenses & Consistency",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "tenses-complete",
             "title": "Tenses & Consistency",
@@ -4569,14 +4480,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "subject-verb-agreement",
-        "title": "Subject-Verb Agreement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "subject-verb-agreement",
             "title": "Subject-Verb Agreement",
@@ -4611,14 +4515,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "sentence-structure",
-        "title": "Sentence Structure & Parallelism",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "sentence-structure",
             "title": "Sentence Structure & Parallelism",
@@ -4652,14 +4549,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "voice-conversion",
-        "title": "Active & Passive Voice",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "voice-conversion",
             "title": "Active & Passive Voice",
@@ -4686,14 +4576,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "narration-speech",
-        "title": "Direct & Indirect Speech",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "narration-speech",
             "title": "Direct & Indirect Speech",
@@ -4728,14 +4611,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "modifiers",
-        "title": "Modifiers: Misplaced & Dangling",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "modifiers",
             "title": "Modifiers: Misplaced & Dangling",
@@ -4760,14 +4636,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "punctuation-basics",
-        "title": "Punctuation Basics",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "punctuation-basics",
             "title": "Punctuation Basics",
@@ -4798,14 +4667,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "transformation-sentences",
-        "title": "Transformation of Sentences",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "transformation-sentences",
             "title": "Transformation of Sentences",
@@ -4843,9 +4705,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "synonyms-antonyms-detailed",
-        "title": "High-Frequency Synonyms/Antonyms",
-        "icon": "fa-solid fa-book-open",
+        "id": "vocabulary",
+        "title": "Vocabulary & Comprehension",
         "topics": [
           {
             "id": "synonyms-antonyms-detailed",
@@ -4874,14 +4735,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "one-word-substitution",
-        "title": "One Word Substitutions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "one-word-substitution",
             "title": "One Word Substitutions",
@@ -4911,14 +4765,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "idioms-phrases",
-        "title": "Idioms & Phrases",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "idioms-phrases",
             "title": "Idioms & Phrases",
@@ -4944,14 +4791,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "phrasal-verbs",
-        "title": "Phrasal Verbs",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "phrasal-verbs",
             "title": "Phrasal Verbs",
@@ -4986,14 +4826,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "reading-comprehension",
-        "title": "Reading Comprehension",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "reading-comprehension",
             "title": "Reading Comprehension",
@@ -5033,9 +4866,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "error-detection",
-        "title": "Spotting Errors",
-        "icon": "fa-solid fa-book-open",
+        "id": "exam-patterns",
+        "title": "UPSC Exam Practice Patterns",
         "topics": [
           {
             "id": "error-detection",
@@ -5070,14 +4902,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "sentence-improvement",
-        "title": "Sentence Improvement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "sentence-improvement",
             "title": "Sentence Improvement",
@@ -5109,14 +4934,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ordering-rearrangement",
-        "title": "Ordering of Words & Sentences",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ordering-rearrangement",
             "title": "Ordering of Words & Sentences",
@@ -5143,14 +4961,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "fill-blanks-cloze",
-        "title": "Fill in the Blanks & Cloze Test",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "fill-blanks-cloze",
             "title": "Fill in the Blanks & Cloze Test",
@@ -5186,9 +4997,8 @@ const NOTES_DATABASE = {
     "title": "Indian Polity (CDS/NDA)",
     "chapters": [
       {
-        "id": "preamble",
-        "title": "Preamble & Sources",
-        "icon": "fa-solid fa-book-open",
+        "id": "constitution-basics",
+        "title": "Constitutional Framework",
         "topics": [
           {
             "id": "preamble",
@@ -5233,14 +5043,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "schedules",
-        "title": "Schedules of the Constitution",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "schedules",
             "title": "Schedules of the Constitution",
@@ -5283,14 +5086,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "fundamental-rights",
-        "title": "Fundamental Rights (Art 12-35)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "fundamental-rights",
             "title": "Fundamental Rights (Art 12-35)",
@@ -5333,14 +5129,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "dpsp",
-        "title": "DPSP & Fundamental Duties (Art 36-51A)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "dpsp",
             "title": "DPSP & Fundamental Duties (Art 36-51A)",
@@ -5367,14 +5156,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "citizenship",
-        "title": "Citizenship (Art 5-11)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "citizenship",
             "title": "Citizenship (Art 5-11)",
@@ -5415,9 +5197,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "president",
-        "title": "The President of India (Art 52-62)",
-        "icon": "fa-solid fa-book-open",
+        "id": "union-executive",
+        "title": "Union Government",
         "topics": [
           {
             "id": "president",
@@ -5461,14 +5242,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "parliament",
-        "title": "Parliament of India (Art 79-122)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "parliament",
             "title": "Parliament of India (Art 79-122)",
@@ -5511,14 +5285,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "goverment-executives",
-        "title": "Executives: PM, CM & Governor",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "goverment-executives",
             "title": "Executives: PM, CM & Governor",
@@ -5552,14 +5319,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "judiciary",
-        "title": "Integrated Judiciary: SC & HC",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "judiciary",
             "title": "Integrated Judiciary: SC & HC",
@@ -5596,14 +5356,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "panchayati-raj",
-        "title": "Local Self-Govt & Panchayati Raj",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "panchayati-raj",
             "title": "Local Self-Govt & Panchayati Raj",
@@ -5642,9 +5395,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "amendments-parts",
-        "title": "Constitutional Amendments, Parts & Schedules",
-        "icon": "fa-solid fa-book-open",
+        "id": "polity-advanced",
+        "title": "Advanced Polity Structures & Bodies",
         "topics": [
           {
             "id": "amendments-parts",
@@ -5675,14 +5427,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "important-articles",
-        "title": "High-Yield Special Articles Cheat Sheet",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "important-articles",
             "title": "High-Yield Special Articles Cheat Sheet",
@@ -5711,14 +5456,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "positions-tenures",
-        "title": "Elections, Appointments & Terms of Office",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "positions-tenures",
             "title": "Elections, Appointments & Terms of Office",
@@ -5747,14 +5485,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "constitutional-bodies",
-        "title": "Constitutional & Non-Constitutional Bodies",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "constitutional-bodies",
             "title": "Constitutional & Non-Constitutional Bodies",
@@ -5777,14 +5508,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "governance-emergency",
-        "title": "Emergency Provisions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "governance-emergency",
             "title": "Emergency Provisions",
@@ -5822,9 +5546,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "polity-federal-structure",
-        "title": "Federal Structure & Centre-State Relations",
-        "icon": "fa-solid fa-book-open",
+        "id": "federal-rpa",
+        "title": "Federal Structure & Election Law",
         "topics": [
           {
             "id": "polity-federal-structure",
@@ -5866,14 +5589,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "polity-rpa",
-        "title": "Representation of People Act & Election Commission",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "polity-rpa",
             "title": "Representation of People Act & Election Commission",
@@ -5923,9 +5639,8 @@ const NOTES_DATABASE = {
     "title": "History (CDS/NDA)",
     "chapters": [
       {
-        "id": "what-is-history",
-        "title": "What is History?",
-        "icon": "fa-solid fa-book-open",
+        "id": "historiography",
+        "title": "1. Historiography & Historical Foundations",
         "topics": [
           {
             "id": "what-is-history",
@@ -5945,14 +5660,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "sources-indian-history",
-        "title": "Sources of Indian History",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "sources-indian-history",
             "title": "Sources of Indian History",
@@ -5979,14 +5687,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "dating-systems",
-        "title": "Dating Systems",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "dating-systems",
             "title": "Dating Systems",
@@ -6016,9 +5717,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "stone-age",
-        "title": "Stone Age",
-        "icon": "fa-solid fa-book-open",
+        "id": "prehistoric-india",
+        "title": "2. Prehistoric India",
         "topics": [
           {
             "id": "stone-age",
@@ -6054,14 +5754,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "chalcolithic-age",
-        "title": "Chalcolithic Age",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "chalcolithic-age",
             "title": "Chalcolithic Age",
@@ -6088,14 +5781,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "rock-art",
-        "title": "Rock Art",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "rock-art",
             "title": "Rock Art",
@@ -6118,9 +5804,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "indus-valley-civilization",
-        "title": "Indus Valley Civilization",
-        "icon": "fa-solid fa-book-open",
+        "id": "ancient-india-tree",
+        "title": "3. Ancient India",
         "topics": [
           {
             "id": "indus-valley-civilization",
@@ -6164,14 +5849,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "vedic-age",
-        "title": "Vedic Age",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "vedic-age",
             "title": "Vedic Age",
@@ -6206,14 +5884,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "mahajanapadas",
-        "title": "Mahajanapadas",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "mahajanapadas",
             "title": "Mahajanapadas",
@@ -6240,14 +5911,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "magadha-expansion",
-        "title": "Magadha Expansion",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "magadha-expansion",
             "title": "Magadha Expansion",
@@ -6266,14 +5930,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "buddhism-jainism",
-        "title": "Buddhism & Jainism",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "buddhism-jainism",
             "title": "Buddhism & Jainism",
@@ -6300,14 +5957,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "mauryan-period",
-        "title": "Mauryan Period",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "mauryan-period",
             "title": "Mauryan Period",
@@ -6342,14 +5992,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "post-mauryan-india",
-        "title": "Post-Mauryan India",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "post-mauryan-india",
             "title": "Post-Mauryan India",
@@ -6376,14 +6019,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "gupta-period",
-        "title": "Gupta Period",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "gupta-period",
             "title": "Gupta Period",
@@ -6410,14 +6046,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "south-indian-kingdoms",
-        "title": "South Indian Kingdoms",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "south-indian-kingdoms",
             "title": "South Indian Kingdoms",
@@ -6450,14 +6079,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ancient-indian-culture",
-        "title": "Ancient Indian Culture",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ancient-indian-culture",
             "title": "Ancient Indian Culture",
@@ -6467,9 +6089,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "early-medieval-india",
-        "title": "Early Medieval India",
-        "icon": "fa-solid fa-book-open",
+        "id": "medieval-india-tree",
+        "title": "4. Medieval India",
         "topics": [
           {
             "id": "early-medieval-india",
@@ -6489,14 +6110,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "delhi-sultanate",
-        "title": "Delhi Sultanate",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "delhi-sultanate",
             "title": "Delhi Sultanate",
@@ -6515,14 +6129,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "vijayanagara-empire",
-        "title": "Vijayanagara Empire",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "vijayanagara-empire",
             "title": "Vijayanagara Empire",
@@ -6541,14 +6148,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "bahmani-deccan-sultanates",
-        "title": "Bahmani Kingdom & Deccan Sultanates",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "bahmani-deccan-sultanates",
             "title": "Bahmani Kingdom & Deccan Sultanates",
@@ -6574,14 +6174,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "mughal-empire",
-        "title": "Mughal Empire",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "mughal-empire",
             "title": "Mughal Empire",
@@ -6600,14 +6193,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "marathas",
-        "title": "Marathas",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "marathas",
             "title": "Marathas",
@@ -6634,14 +6220,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "bhakti-movement",
-        "title": "Bhakti Movement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "bhakti-movement",
             "title": "Bhakti Movement",
@@ -6660,14 +6239,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "sufi-movement",
-        "title": "Sufi Movement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "sufi-movement",
             "title": "Sufi Movement",
@@ -6685,14 +6257,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "sikh-history",
-        "title": "Sikh History",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "sikh-history",
             "title": "Sikh History",
@@ -6723,9 +6288,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "european-arrival",
-        "title": "European Arrival",
-        "icon": "fa-solid fa-book-open",
+        "id": "modern-india-tree",
+        "title": "5. Modern India (Highest Priority)",
         "topics": [
           {
             "id": "european-arrival",
@@ -6752,14 +6316,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "british-expansion",
-        "title": "British Expansion",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "british-expansion",
             "title": "British Expansion",
@@ -6778,14 +6335,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "economic-impact-british",
-        "title": "Economic Impact of British Rule",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "economic-impact-british",
             "title": "Economic Impact of British Rule",
@@ -6812,14 +6362,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "socio-religious-reform",
-        "title": "Socio-Religious Reform Movements",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "socio-religious-reform",
             "title": "Socio-Religious Reform Movements",
@@ -6838,14 +6381,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "revolt-1857",
-        "title": "Revolt of 1857",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "revolt-1857",
             "title": "Revolt of 1857",
@@ -6880,14 +6416,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "governor-generals-viceroys",
-        "title": "Governor-Generals & Viceroys",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "governor-generals-viceroys",
             "title": "Governor-Generals & Viceroys",
@@ -6920,14 +6449,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "constitutional-development",
-        "title": "Constitutional Development",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "constitutional-development",
             "title": "Constitutional Development",
@@ -6954,14 +6476,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "freedom-movement",
-        "title": "Freedom Movement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "freedom-movement",
             "title": "Freedom Movement",
@@ -6988,14 +6503,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "post-independence-consolidation",
-        "title": "Post-Independence Consolidation",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "post-independence-consolidation",
             "title": "Post-Independence Consolidation",
@@ -7026,9 +6534,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "revolutions",
-        "title": "Revolutions",
-        "icon": "fa-solid fa-book-open",
+        "id": "world-history-tree",
+        "title": "6. World History",
         "topics": [
           {
             "id": "revolutions",
@@ -7072,14 +6579,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "world-war-i",
-        "title": "World War I",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "world-war-i",
             "title": "World War I",
@@ -7106,14 +6606,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "interwar-period",
-        "title": "Interwar Period",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "interwar-period",
             "title": "Interwar Period",
@@ -7132,14 +6625,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "world-war-ii",
-        "title": "World War II",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "world-war-ii",
             "title": "World War II",
@@ -7166,14 +6652,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "cold-war",
-        "title": "Cold War",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "cold-war",
             "title": "Cold War",
@@ -7199,14 +6678,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "international-institutions",
-        "title": "International Institutions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "international-institutions",
             "title": "International Institutions",
@@ -7236,9 +6708,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "architecture",
-        "title": "Architecture",
-        "icon": "fa-solid fa-book-open",
+        "id": "art-culture-heritage",
+        "title": "7. Art, Culture & Heritage",
         "topics": [
           {
             "id": "architecture",
@@ -7274,14 +6745,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "paintings",
-        "title": "Paintings",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "paintings",
             "title": "Paintings",
@@ -7307,14 +6771,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "dance-music",
-        "title": "Dance & Music",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "dance-music",
             "title": "Dance & Music",
@@ -7340,14 +6797,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "literature",
-        "title": "Literature",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "literature",
             "title": "Literature",
@@ -7366,14 +6816,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "religion-festivals",
-        "title": "Religion & Festivals",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "religion-festivals",
             "title": "Religion & Festivals",
@@ -7400,14 +6843,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "heritage-sites",
-        "title": "Heritage Sites",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "heritage-sites",
             "title": "Heritage Sites",
@@ -7430,9 +6866,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "history-pyq-trends-topic",
-        "title": "History PYQ Trends (NDA/CDS)",
-        "icon": "fa-solid fa-book-open",
+        "id": "history-pyq-trends",
+        "title": "PYQ Trend Analysis",
         "topics": [
           {
             "id": "history-pyq-trends-topic",
@@ -7477,9 +6912,8 @@ const NOTES_DATABASE = {
     "title": "Geography (CDS/NDA)",
     "chapters": [
       {
-        "id": "universe-solar-system",
-        "title": "The Universe & Solar System",
-        "icon": "fa-solid fa-book-open",
+        "id": "physical-geography",
+        "title": "Physical & World Geography",
         "topics": [
           {
             "id": "universe-solar-system",
@@ -7506,14 +6940,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "earth-atmosphere",
-        "title": "Earth Structure & Atmosphere",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "earth-atmosphere",
             "title": "Earth Structure & Atmosphere",
@@ -7541,14 +6968,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "climatology-clouds",
-        "title": "Climatology: Climatic Zones & Clouds",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "climatology-clouds",
             "title": "Climatology: Climatic Zones & Clouds",
@@ -7576,14 +6996,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "geomorphology-rocks",
-        "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "geomorphology-rocks",
             "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
@@ -7617,14 +7030,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "world-geography-mountains",
-        "title": "World Geography: Mountains, Forests & Rivers",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "world-geography-mountains",
             "title": "World Geography: Mountains, Forests & Rivers",
@@ -7660,14 +7066,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "world-geography-straits-deserts",
-        "title": "Straits, Canals, Deserts & Seas",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "world-geography-straits-deserts",
             "title": "Straits, Canals, Deserts & Seas",
@@ -7699,9 +7098,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-geog",
-        "title": "Indian Geography (Rivers, Passes & Soils)",
-        "icon": "fa-solid fa-book-open",
+        "id": "geography-details",
+        "title": "Indian Geography",
         "topics": [
           {
             "id": "syl-geog",
@@ -7737,14 +7135,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "india-forests-wetlands",
-        "title": "Forests, Trees & Wetlands of India",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "india-forests-wetlands",
             "title": "Forests, Trees & Wetlands of India",
@@ -7771,14 +7162,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "india-resources-farming",
-        "title": "Mineral Resources & Types of Farming",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "india-resources-farming",
             "title": "Mineral Resources & Types of Farming",
@@ -7806,14 +7190,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "india-transport-routes",
-        "title": "Transport Routes: Highways & Waterways",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "india-transport-routes",
             "title": "Transport Routes: Highways & Waterways",
@@ -7839,14 +7216,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "india-national-parks",
-        "title": "National Parks of India (Map Guide)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "india-national-parks",
             "title": "National Parks of India (Map Guide)",
@@ -7886,14 +7256,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "mapping-borders-capitals",
-        "title": "Borders, Capitals & Mapping",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "mapping-borders-capitals",
             "title": "Borders, Capitals & Mapping",
@@ -7932,9 +7295,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "geog-industries",
-        "title": "Major Industries & Industrial Corridors of India",
-        "icon": "fa-solid fa-book-open",
+        "id": "industrics-geopolitics",
+        "title": "Industries & Geopolitics",
         "topics": [
           {
             "id": "geog-industries",
@@ -7978,14 +7340,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "geog-geopolitics",
-        "title": "Geopolitical Flashpoints & Indo-Pacific",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "geog-geopolitics",
             "title": "Geopolitical Flashpoints & Indo-Pacific",
@@ -8026,9 +7381,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "geography-pyq-trends-topic",
-        "title": "Geography PYQ Trends (NDA/CDS)",
-        "icon": "fa-solid fa-book-open",
+        "id": "geography-pyq-trends",
+        "title": "PYQ Trend Analysis",
         "topics": [
           {
             "id": "geography-pyq-trends-topic",
@@ -8073,9 +7427,8 @@ const NOTES_DATABASE = {
     "title": "Economics (CDS/NDA)",
     "chapters": [
       {
-        "id": "econ-concepts",
-        "title": "Core Economic Concepts & Sectors",
-        "icon": "fa-solid fa-book-open",
+        "id": "economics-basics",
+        "title": "Introduction to Economics",
         "topics": [
           {
             "id": "econ-concepts",
@@ -8103,14 +7456,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "econ-poverty-employment",
-        "title": "Poverty, Employment & Agriculture",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "econ-poverty-employment",
             "title": "Poverty, Employment & Agriculture",
@@ -8149,9 +7495,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "rbi-monetary-policy",
-        "title": "RBI & Monetary Policy Tools",
-        "icon": "fa-solid fa-book-open",
+        "id": "monetary-fiscal",
+        "title": "Monetary & Fiscal System",
         "topics": [
           {
             "id": "rbi-monetary-policy",
@@ -8183,9 +7528,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "econ-budget-fiscal",
-        "title": "Government Budget, GST & Fiscal Policy",
-        "icon": "fa-solid fa-book-open",
+        "id": "budget-trade-reforms",
+        "title": "Budgets, Trade & Economic Reforms",
         "topics": [
           {
             "id": "econ-budget-fiscal",
@@ -8228,14 +7572,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "econ-trade-bop",
-        "title": "Trade Policy & Balance of Payments",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "econ-trade-bop",
             "title": "Trade Policy & Balance of Payments",
@@ -8271,14 +7608,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "econ-reforms",
-        "title": "LPG Reforms, NITI Aayog & Financial Institutions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "econ-reforms",
             "title": "LPG Reforms, NITI Aayog & Financial Institutions",
@@ -8314,14 +7644,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "five-year-plans",
-        "title": "Economic Planning & Five-Year Plans",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "five-year-plans",
             "title": "Economic Planning & Five-Year Plans",
@@ -8355,14 +7678,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "external-sector-institutions",
-        "title": "IMF, WTO & Balance of Payments",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "external-sector-institutions",
             "title": "IMF, WTO & Balance of Payments",
@@ -8401,9 +7717,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "econ-govt-schemes",
-        "title": "Key Welfare Schemes & Financial Inclusion",
-        "icon": "fa-solid fa-book-open",
+        "id": "govt-schemes",
+        "title": "Government Schemes & Welfare Programs",
         "topics": [
           {
             "id": "econ-govt-schemes",
@@ -8448,9 +7763,8 @@ const NOTES_DATABASE = {
     "title": "Physics (NDA/CDS)",
     "chapters": [
       {
-        "id": "reflection-refraction",
-        "title": "Reflection, Refraction & Lenses",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-optics",
+        "title": "Optics & Light",
         "topics": [
           {
             "id": "reflection-refraction",
@@ -8498,9 +7812,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "newtons-laws",
-        "title": "Newton's Laws of Motion",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-mechanics",
+        "title": "Mechanics & Motion",
         "topics": [
           {
             "id": "newtons-laws",
@@ -8548,9 +7861,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-exercises",
-        "title": "Work, Power, Energy & Gravitation",
-        "icon": "fa-solid fa-book-open",
+        "id": "energy-power-mechanics",
+        "title": "Energy & Gravitation",
         "topics": [
           {
             "id": "syl-exercises",
@@ -8598,9 +7910,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-sound",
-        "title": "Sound Waves & Acoustics",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-waves",
+        "title": "Waves & Acoustics",
         "topics": [
           {
             "id": "physics-sound",
@@ -8644,14 +7955,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "physics-em-waves",
-        "title": "Electromagnetic Waves & Spectrum",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "physics-em-waves",
             "title": "Electromagnetic Waves & Spectrum",
@@ -8686,9 +7990,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-heat",
-        "title": "Thermodynamics & Heat Transfer",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-thermodynamics",
+        "title": "Heat & Thermodynamics",
         "topics": [
           {
             "id": "physics-heat",
@@ -8728,9 +8031,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-electricity-magnetism",
-        "title": "Electricity, Circuits & Magnetism",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-electromagnetism",
+        "title": "Electricity & Magnetism",
         "topics": [
           {
             "id": "physics-electricity-magnetism",
@@ -8770,9 +8072,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-nuclear-basics",
-        "title": "Nuclear Physics & Radioactivity",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-modern",
+        "title": "Modern Physics & Units",
         "topics": [
           {
             "id": "physics-nuclear-basics",
@@ -8800,14 +8101,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "physics-units-everyday",
-        "title": "SI Units & Everyday Physics",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "physics-units-everyday",
             "title": "SI Units & Everyday Physics",
@@ -8838,9 +8132,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-pyq-trends-topic",
-        "title": "Physics PYQ Trends (NDA/CDS)",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-pyq-trends",
+        "title": "PYQ Trend Analysis",
         "topics": [
           {
             "id": "physics-pyq-trends-topic",
@@ -8885,9 +8178,8 @@ const NOTES_DATABASE = {
     "title": "Chemistry (NDA/CDS)",
     "chapters": [
       {
-        "id": "acids-bases",
-        "title": "Acids, Bases & pH Indicators",
-        "icon": "fa-solid fa-book-open",
+        "id": "chemistry-substances",
+        "title": "Acids, Bases & Salts",
         "topics": [
           {
             "id": "acids-bases",
@@ -8935,9 +8227,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-numerical",
-        "title": "Chemical Bonding & Periodic Table",
-        "icon": "fa-solid fa-book-open",
+        "id": "chemistry-bonding",
+        "title": "Chemical Bonding",
         "topics": [
           {
             "id": "syl-numerical",
@@ -8985,9 +8276,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "metals-alloys",
-        "title": "Metals, Ores, Alloys & Metallurgy",
-        "icon": "fa-solid fa-book-open",
+        "id": "chemistry-metallurgy",
+        "title": "Metals & Metallurgy",
         "topics": [
           {
             "id": "metals-alloys",
@@ -9026,14 +8316,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "reactivity-series",
-        "title": "Reactivity Series & Displacement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "reactivity-series",
             "title": "Reactivity Series & Displacement",
@@ -9071,9 +8354,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "carbon-compounds",
-        "title": "Carbon & its Compounds",
-        "icon": "fa-solid fa-book-open",
+        "id": "chemistry-carbon-numericals",
+        "title": "Carbon Compounds & Numericals",
         "topics": [
           {
             "id": "carbon-compounds",
@@ -9109,14 +8391,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "chemistry-numericals",
-        "title": "Mole Concept & Concentration Terms",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "chemistry-numericals",
             "title": "Mole Concept & Concentration Terms",
@@ -9156,9 +8431,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "chemistry-everyday-fertilisers",
-        "title": "Everyday Chemistry, Fertilisers & Fuels",
-        "icon": "fa-solid fa-book-open",
+        "id": "chemistry-everyday-env",
+        "title": "Everyday & Environmental Chemistry",
         "topics": [
           {
             "id": "chemistry-everyday-fertilisers",
@@ -9192,14 +8466,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "environmental-chemistry",
-        "title": "Environmental Chemistry & Pollution",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "environmental-chemistry",
             "title": "Environmental Chemistry & Pollution",
@@ -9234,9 +8501,8 @@ const NOTES_DATABASE = {
     "title": "Biology (NDA/CDS)",
     "chapters": [
       {
-        "id": "cell-structure",
-        "title": "Cell Structure & Cell Division",
-        "icon": "fa-solid fa-book-open",
+        "id": "biology-cell",
+        "title": "Cell Biology & Genetics",
         "topics": [
           {
             "id": "cell-structure",
@@ -9275,9 +8541,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "human-systems",
-        "title": "Vital Human Systems & Organs",
-        "icon": "fa-solid fa-book-open",
+        "id": "biology-physiology",
+        "title": "Human Physiology",
         "topics": [
           {
             "id": "human-systems",
@@ -9317,9 +8582,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "diseases",
-        "title": "Human Diseases & Pathogens",
-        "icon": "fa-solid fa-book-open",
+        "id": "biology-diseases",
+        "title": "Health, Diseases & Nutrition",
         "topics": [
           {
             "id": "diseases",
@@ -9356,14 +8620,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "immunity-vaccines",
-        "title": "Immunity & Vaccines",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "immunity-vaccines",
             "title": "Immunity & Vaccines",
@@ -9401,9 +8658,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "plant-kingdom",
-        "title": "Plant Kingdom Classification",
-        "icon": "fa-solid fa-book-open",
+        "id": "biology-kingdoms",
+        "title": "Plant & Animal Kingdoms",
         "topics": [
           {
             "id": "plant-kingdom",
@@ -9437,14 +8693,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "animal-kingdom",
-        "title": "Animal Kingdom Classification",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "animal-kingdom",
             "title": "Animal Kingdom Classification",
@@ -9487,9 +8736,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "plant-reproduction",
-        "title": "Plant Reproduction & Hormones",
-        "icon": "fa-solid fa-book-open",
+        "id": "biology-botany",
+        "title": "Plant Physiology & Reproduction",
         "topics": [
           {
             "id": "plant-reproduction",
@@ -9529,9 +8777,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "biology-ecology-basics",
-        "title": "Ecology Basics & Pyramids",
-        "icon": "fa-solid fa-book-open",
+        "id": "biology-ecology",
+        "title": "Ecology & Ecosystems",
         "topics": [
           {
             "id": "biology-ecology-basics",
@@ -9575,9 +8822,8 @@ const NOTES_DATABASE = {
     "title": "Military GK & Aptitude",
     "chapters": [
       {
-        "id": "all-equipment",
-        "title": "Comprehensive Equipment Database",
-        "icon": "fa-solid fa-book-open",
+        "id": "armed-forces-equipment-db",
+        "title": "Armed Forces Equipment Database",
         "topics": [
           {
             "id": "all-equipment",
@@ -9617,9 +8863,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "rank-equivalence",
-        "title": "Equivalent Officer Ranks (Tri-Services)",
-        "icon": "fa-solid fa-book-open",
+        "id": "defence-structures",
+        "title": "Command Structures & Ranks",
         "topics": [
           {
             "id": "rank-equivalence",
@@ -9661,14 +8906,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "commands",
-        "title": "Operational Commands of Services",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "commands",
             "title": "Operational Commands of Services",
@@ -9710,14 +8948,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "defence-organisations-weapons",
-        "title": "Defence Organisations, Weapons & Agreements",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "defence-organisations-weapons",
             "title": "Defence Organisations, Weapons & Agreements",
@@ -9756,9 +8987,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "bilateral-exercises",
-        "title": "Joint Military Exercises of India",
-        "icon": "fa-solid fa-book-open",
+        "id": "tactical-defence-gk",
+        "title": "Exercises & Missile Systems",
         "topics": [
           {
             "id": "bilateral-exercises",
@@ -9801,14 +9031,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "missiles-systems",
-        "title": "Integrated Guided Missile Program (IGMDP)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "missiles-systems",
             "title": "Integrated Guided Missile Program (IGMDP)",
@@ -9853,9 +9076,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-verbal-reasoning",
-        "title": "Verbal Reasoning & OIR",
-        "icon": "fa-solid fa-book-open",
+        "id": "reasoning-oir",
+        "title": "Reasoning & OIR (SSB)",
         "topics": [
           {
             "id": "syl-verbal-reasoning",
@@ -9891,14 +9113,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "syl-nonverbal-reasoning",
-        "title": "Non-Verbal Reasoning & OIR",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "syl-nonverbal-reasoning",
             "title": "Non-Verbal Reasoning & OIR",
@@ -9933,14 +9148,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "syl-afcat-spatial",
-        "title": "Spatial & Non-Verbal Reasoning (AFCAT)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "syl-afcat-spatial",
             "title": "Spatial & Non-Verbal Reasoning (AFCAT)",
@@ -9970,9 +9178,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "afcat-r-analogy",
-        "title": "Ch.1 — Analogy (Verbal Reasoning)",
-        "icon": "fa-solid fa-book-open",
+        "id": "afcat-verbal-reasoning",
+        "title": "Verbal Reasoning (AFCAT)",
         "topics": [
           {
             "id": "afcat-r-analogy",
@@ -10008,14 +9215,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-classification",
-        "title": "Ch.2 — Classification / Odd One Out (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-classification",
             "title": "Ch.2 — Classification / Odd One Out (Verbal)",
@@ -10048,14 +9248,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-series",
-        "title": "Ch.3 — Series Completion (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-series",
             "title": "Ch.3 — Series Completion (Verbal)",
@@ -10090,14 +9283,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-coding",
-        "title": "Ch.4 — Coding and Decoding (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-coding",
             "title": "Ch.4 — Coding and Decoding (Verbal)",
@@ -10136,14 +9322,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-directions",
-        "title": "Ch.5 — Direction Sense Test (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-directions",
             "title": "Ch.5 — Direction Sense Test (Verbal)",
@@ -10176,14 +9355,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-clock-calendar",
-        "title": "Ch.6 — Clock and Calendar (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-clock-calendar",
             "title": "Ch.6 — Clock and Calendar (Verbal)",
@@ -10217,14 +9389,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-venn",
-        "title": "Ch.7 — Logical Venn Diagrams (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-venn",
             "title": "Ch.7 — Logical Venn Diagrams (Verbal)",
@@ -10259,14 +9424,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-syllogism",
-        "title": "Ch.8 — Syllogism (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-syllogism",
             "title": "Ch.8 — Syllogism (Verbal)",
@@ -10302,14 +9460,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-conclusions",
-        "title": "Ch.9 — Statements and Conclusions (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-conclusions",
             "title": "Ch.9 — Statements and Conclusions (Verbal)",
@@ -10336,14 +9487,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-assumptions",
-        "title": "Ch.10 — Statements and Assumptions (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-assumptions",
             "title": "Ch.10 — Statements and Assumptions (Verbal)",
@@ -10374,9 +9518,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "afcat-r-fig-analogy",
-        "title": "Ch.11 — Figure Analogy (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
+        "id": "afcat-nonverbal-reasoning",
+        "title": "Non-Verbal Reasoning (AFCAT)",
         "topics": [
           {
             "id": "afcat-r-fig-analogy",
@@ -10405,14 +9548,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-fig-class-series",
-        "title": "Ch.12&13 — Figure Classification & Series (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-fig-class-series",
             "title": "Ch.12&13 — Figure Classification & Series (Non-Verbal)",
@@ -10441,14 +9577,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-fig-completion",
-        "title": "Ch.14 — Figure/Pattern Completion (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-fig-completion",
             "title": "Ch.14 — Figure/Pattern Completion (Non-Verbal)",
@@ -10476,14 +9605,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-embedded",
-        "title": "Ch.15 — Embedded Figures (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-embedded",
             "title": "Ch.15 — Embedded Figures (Non-Verbal)",
@@ -10509,14 +9631,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-dot",
-        "title": "Ch.16 — Dot Situation (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-dot",
             "title": "Ch.16 — Dot Situation (Non-Verbal)",
@@ -10541,14 +9656,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-cube-dice",
-        "title": "Ch.17 — Cube and Dice (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-cube-dice",
             "title": "Ch.17 — Cube and Dice (Non-Verbal)",
@@ -10576,14 +9684,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-fig-coding",
-        "title": "Ch.18 — Figure Coding (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-fig-coding",
             "title": "Ch.18 — Figure Coding (Non-Verbal)",
@@ -10621,9 +9722,8 @@ const NOTES_DATABASE = {
     "title": "Current Affairs & GK",
     "chapters": [
       {
-        "id": "ca-schemes",
-        "title": "Major Government Schemes",
-        "icon": "fa-solid fa-book-open",
+        "id": "schemes-policies",
+        "title": "Schemes, Policies & Summits",
         "topics": [
           {
             "id": "ca-schemes",
@@ -10660,14 +9760,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-relations",
-        "title": "India's International Relations & Forums",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-relations",
             "title": "India's International Relations & Forums",
@@ -10705,14 +9798,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-policies",
-        "title": "National Policies & Missions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-policies",
             "title": "National Policies & Missions",
@@ -10747,14 +9833,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-summits",
-        "title": "Major International Summits",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-summits",
             "title": "Major International Summits",
@@ -10793,9 +9872,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "ca-reports",
-        "title": "Important Reports & Indices",
-        "icon": "fa-solid fa-book-open",
+        "id": "reports-awards-judgments",
+        "title": "Reports, Awards & Judgments",
         "topics": [
           {
             "id": "ca-reports",
@@ -10824,14 +9902,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-judgments",
-        "title": "Landmark SC & HC Judgments",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-judgments",
             "title": "Landmark SC & HC Judgments",
@@ -10866,14 +9937,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-awards",
-        "title": "National Awards & Honours",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-awards",
             "title": "National Awards & Honours",
@@ -10906,14 +9970,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-economic-measures",
-        "title": "Economic Measures & Policy Packages",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-economic-measures",
             "title": "Economic Measures & Policy Packages",
@@ -10948,14 +10005,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-science-tech-space",
-        "title": "Science, Tech & Space Missions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-science-tech-space",
             "title": "Science, Tech & Space Missions",
@@ -10990,14 +10040,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-upsc-master-framework",
-        "title": "UPSC Core Current Affairs Syllabus Map",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-upsc-master-framework",
             "title": "UPSC Core Current Affairs Syllabus Map",
@@ -11039,9 +10082,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "ca-geopolitical-flashpoints",
-        "title": "Global Geopolitical Flashpoints",
-        "icon": "fa-solid fa-book-open",
+        "id": "global-events-defence",
+        "title": "Global Events & Strategic Updates",
         "topics": [
           {
             "id": "ca-geopolitical-flashpoints",
@@ -11077,14 +10119,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-defence-cooperation",
-        "title": "Bilateral Defence Cooperation & Deals",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-defence-cooperation",
             "title": "Bilateral Defence Cooperation & Deals",
@@ -11119,14 +10154,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-red-sea-crisis",
-        "title": "Red Sea Crisis & Maritime Security Ops",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-red-sea-crisis",
             "title": "Red Sea Crisis & Maritime Security Ops",
@@ -11161,14 +10189,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-quad-indopacific",
-        "title": "Indo-Pacific Security & Quad Dynamics",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-quad-indopacific",
             "title": "Indo-Pacific Security & Quad Dynamics",
@@ -11203,14 +10224,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-defense-acquisitions",
-        "title": "India-US Tech Cooperation & MQ-9B Drones",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-defense-acquisitions",
             "title": "India-US Tech Cooperation & MQ-9B Drones",
@@ -11245,14 +10259,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-space-nuclear",
-        "title": "Strategic Space & Missile Advancements",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-space-nuclear",
             "title": "Strategic Space & Missile Advancements",
@@ -11296,9 +10303,8 @@ const NOTES_DATABASE = {
     "title": "Environment & Ecology",
     "chapters": [
       {
-        "id": "env-hotspots",
-        "title": "Biodiversity Hotspots & Biosphere Reserves",
-        "icon": "fa-solid fa-book-open",
+        "id": "biodiversity-conservation",
+        "title": "Biodiversity & Wildlife Conservation",
         "topics": [
           {
             "id": "env-hotspots",
@@ -11327,14 +10333,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "env-conservation",
-        "title": "Wildlife Protection & Conservation Projects",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "env-conservation",
             "title": "Wildlife Protection & Conservation Projects",
@@ -11368,14 +10367,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "env-species",
-        "title": "Species in News & IUCN Red List",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "env-species",
             "title": "Species in News & IUCN Red List",
@@ -11412,9 +10404,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "env-treaties",
-        "title": "Climate Change Treaties & India's NDCs",
-        "icon": "fa-solid fa-book-open",
+        "id": "climate-laws-energy",
+        "title": "Climate, Laws & Renewable Energy",
         "topics": [
           {
             "id": "env-treaties",
@@ -11452,14 +10443,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "env-laws",
-        "title": "Environmental Legislation & EIA",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "env-laws",
             "title": "Environmental Legislation & EIA",
@@ -11495,14 +10479,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "env-renewable",
-        "title": "Renewable Energy & Green Initiatives",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "env-renewable",
             "title": "Renewable Energy & Green Initiatives",
@@ -11536,14 +10513,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "env-pollution",
-        "title": "Pollution Control & Clean India Missions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "env-pollution",
             "title": "Pollution Control & Clean India Missions",
@@ -11588,34 +10558,18 @@ const NOTES_DATABASE = {
     "icon": "fas fa-fighter-jet",
     "chapters": [
       {
-        "id": "military_chiefs_timeline",
-        "title": "Chiefs Timeline (Army, Navy, Air Force)",
-        "icon": "fa-solid fa-book-open",
+        "chapterTitle": "Military Knowledge",
         "topics": [
           {
             "id": "military_chiefs_timeline",
             "title": "Chiefs Timeline (Army, Navy, Air Force)",
             "notes": "<style>\n  /* Basic styling for table cells for elegance, as requested */\n  table th, table td {\n    padding: 8px;\n    border: 1px solid #ddd;\n  }\n  table th {\n    background-color: #f2f2f2;\n    font-weight: bold;\n  }\n</style>\n\n<h2>Commanders-in-Chief & Chiefs of Staff</h2>\n<p>The timeline of all military chiefs from 1947 to 2024.</p>\n<div class=\"ncert-box\" style=\"background-color: rgba(69, 170, 242, 0.1); border-left: 4px solid #45aaf2; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n  <strong>💡 Fun Fact time!</strong><br>\n  The first Indian Commander-in-Chief of the Indian Army was Field Marshal K. M. Cariappa, who took over from Sir Francis Roy Bucher on 15 January 1949. This day is celebrated as Army Day!\n</div>\n\n<h3>Chiefs of Army Staff of India</h3>\n<table border=\"1\" style=\"width:100%; border-collapse: collapse; text-align: left; margin-bottom: 20px;\">\n  <thead>\n    <tr>\n      <th>S.No</th>\n      <th>Name</th>\n      <th>Tenure</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>General Sir Robert Lockhart</td><td>15 Aug 1947 – 31 Dec 1947</td></tr>\n    <tr><td>2</td><td>General Sir Roy Bucher</td><td>01 Jan 1948 – 14 Jan 1949</td></tr>\n    <tr><td>3</td><td>Field Marshal K. M. Cariappa</td><td>15 Jan 1949 – 14 Jan 1953</td></tr>\n    <tr><td>4</td><td>General Maharaj Shri Rajendrasinhji Jadeja</td><td>15 Jan 1953 – 14 May 1955</td></tr>\n    <tr><td>5</td><td>General S. M. Shrinagesh</td><td>15 May 1955 – 07 May 1957</td></tr>\n    <tr><td>6</td><td>General K. S. Thimayya</td><td>08 May 1957 – 07 May 1961</td></tr>\n    <tr><td>7</td><td>General P. N. Thapar</td><td>08 May 1961 – 19 Nov 1962</td></tr>\n    <tr><td>8</td><td>General J. N. Chaudhuri</td><td>20 Nov 1962 – 07 Jun 1966</td></tr>\n    <tr><td>9</td><td>General P. P. Kumaramangalam</td><td>08 Jun 1966 – 07 Jun 1969</td></tr>\n    <tr><td>10</td><td>Field Marshal S. H. F. J. Manekshaw</td><td>08 Jun 1969 – 14 Jan 1973</td></tr>\n    <tr><td>11</td><td>General G. G. Bewoor</td><td>15 Jan 1973 – 31 May 1975</td></tr>\n    <tr><td>12</td><td>General T. N. Raina</td><td>01 Jun 1975 – 31 May 1978</td></tr>\n    <tr><td>13</td><td>General O. P. Malhotra</td><td>01 Jun 1978 – 31 May 1981</td></tr>\n    <tr><td>14</td><td>General K. V. Krishna Rao</td><td>01 Jun 1981 – 31 Jul 1983</td></tr>\n    <tr><td>15</td><td>General A. S. Vaidya</td><td>01 Aug 1983 – 31 Jan 1986</td></tr>\n    <tr><td>16</td><td>General K. Sundarji</td><td>01 Feb 1986 – 30 Jun 1988</td></tr>\n    <tr><td>17</td><td>General V. N. Sharma</td><td>01 Jul 1988 – 30 Jun 1990</td></tr>\n    <tr><td>18</td><td>General S. F. Rodrigues</td><td>01 Jul 1990 – 30 Jun 1993</td></tr>\n    <tr><td>19</td><td>General B. C. Joshi</td><td>01 Jul 1993 – 18 Nov 1994</td></tr>\n    <tr><td>20</td><td>General S. P. P. Malhotra</td><td>19 Nov 1994 – 30 Sep 1997</td></tr>\n    <tr><td>21</td><td>General V. P. Malik</td><td>01 Oct 1997 – 30 Sep 2000</td></tr>\n    <tr><td>22</td><td>General S. Padmanabhan</td><td>01 Oct 2000 – 31 Dec 2002</td></tr>\n    <tr><td>23</td><td>General N. C. Vij</td><td>01 Jan 2003 – 31 Jan 2005</td></tr>\n    <tr><td>24</td><td>General J. J. Singh</td><td>01 Feb 2005 – 30 Sep 2007</td></tr>\n    <tr><td>25</td><td>General Deepak Kapoor</td><td>01 Oct 2007 – 31 Mar 2010</td></tr>\n    <tr><td>26</td><td>General V. K. Singh</td><td>01 Apr 2010 – 31 May 2012</td></tr>\n    <tr><td>27</td><td>General Bikram Singh</td><td>01 Jun 2012 – 31 Jul 2014</td></tr>\n    <tr><td>28</td><td>General Dalbir Singh Suhag</td><td>01 Aug 2014 – 31 Dec 2016</td></tr>\n    <tr><td>29</td><td>General Bipin Rawat</td><td>01 Jan 2017 – 31 Dec 2019</td></tr>\n    <tr><td>30</td><td>General Manoj Mukund Naravane</td><td>01 Jan 2020 – 30 Apr 2022</td></tr>\n    <tr><td>31</td><td>General Manoj Pande</td><td>01 May 2022 – 30 Jun 2024</td></tr>\n    <tr><td>32</td><td>General Upendra Dwivedi</td><td>01 Jul 2024 – Present</td></tr>\n  </tbody>\n</table>\n\n<h3>Chiefs of Naval Staff of India</h3>\n<table border=\"1\" style=\"width:100%; border-collapse: collapse; text-align: left; margin-bottom: 20px;\">\n  <thead>\n    <tr>\n      <th>S.No</th>\n      <th>Name</th>\n      <th>Tenure</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>Rear Admiral John Talbot S. Hall</td><td>15 Aug 1947 – 14 Aug 1948</td></tr>\n    <tr><td>2</td><td>Vice Admiral Sir W. Edward Parry</td><td>15 Aug 1948 – 09 Aug 1951</td></tr>\n    <tr><td>3</td><td>Vice Admiral N. V. Bhagwat</td><td>10 Aug 1951 – 11 May 1955</td></tr>\n    <tr><td>4</td><td>Vice Admiral Sir Stephen Hope Carlill</td><td>12 May 1955 – 21 Apr 1958</td></tr>\n    <tr><td>5</td><td>Vice Admiral R. D. Katari</td><td>22 Apr 1958 – 21 Apr 1962</td></tr>\n    <tr><td>6</td><td>Vice Admiral B. S. Soman</td><td>22 Apr 1962 – 21 Feb 1966</td></tr>\n    <tr><td>7</td><td>Admiral A. K. Chatterji</td><td>22 Feb 1966 – 28 Feb 1970</td></tr>\n    <tr><td>8</td><td>Admiral S. M. Nanda</td><td>01 Mar 1970 – 28 Feb 1973</td></tr>\n    <tr><td>9</td><td>Admiral S. N. Kohli</td><td>01 Mar 1973 – 29 Feb 1976</td></tr>\n    <tr><td>10</td><td>Admiral J. Cursetji</td><td>01 Mar 1976 – 28 Feb 1979</td></tr>\n    <tr><td>11</td><td>Admiral R. L. Pereira</td><td>01 Mar 1979 – 28 Feb 1982</td></tr>\n    <tr><td>12</td><td>Admiral O. S. Dawson</td><td>01 Mar 1982 – 30 Nov 1984</td></tr>\n    <tr><td>13</td><td>Admiral R. H. Tahiliani</td><td>01 Dec 1984 – 30 Nov 1987</td></tr>\n    <tr><td>14</td><td>Admiral J. G. Nadkarni</td><td>01 Dec 1987 – 30 Nov 1990</td></tr>\n    <tr><td>15</td><td>Admiral L. Ramdas</td><td>01 Dec 1990 – 30 Sep 1993</td></tr>\n    <tr><td>16</td><td>Admiral V. S. Shekhawat</td><td>01 Oct 1993 – 30 Sep 1996</td></tr>\n    <tr><td>17</td><td>Admiral V. P. Singh</td><td>01 Oct 1996 – 31 Dec 1998</td></tr>\n    <tr><td>18</td><td>Admiral Sushil Kumar</td><td>01 Jan 1999 – 29 Dec 2001</td></tr>\n    <tr><td>19</td><td>Admiral Madhvendra Singh</td><td>30 Dec 2001 – 31 Jul 2004</td></tr>\n    <tr><td>20</td><td>Admiral Arun Prakash</td><td>01 Aug 2004 – 31 Oct 2006</td></tr>\n    <tr><td>21</td><td>Admiral Sureesh Mehta</td><td>01 Nov 2006 – 31 Aug 2009</td></tr>\n    <tr><td>22</td><td>Admiral Nirmal Kumar Verma</td><td>01 Sep 2009 – 31 Aug 2012</td></tr>\n    <tr><td>23</td><td>Admiral D. K. Joshi</td><td>01 Sep 2012 – 26 Feb 2014</td></tr>\n    <tr><td>24</td><td>Admiral R. K. Dhowan</td><td>17 Apr 2014 – 31 May 2016</td></tr>\n    <tr><td>25</td><td>Admiral Sunil Lanba</td><td>31 May 2016 – 31 May 2019</td></tr>\n    <tr><td>26</td><td>Admiral Karambir Singh</td><td>31 May 2019 – 30 Nov 2021</td></tr>\n    <tr><td>27</td><td>Admiral R. Hari Kumar</td><td>30 Nov 2021 – 30 Apr 2024</td></tr>\n    <tr><td>28</td><td>Admiral Dinesh K. Tripathi</td><td>30 Apr 2024 – Present</td></tr>\n  </tbody>\n</table>\n\n<h3>Chiefs of Air Staff of India</h3>\n<table border=\"1\" style=\"width:100%; border-collapse: collapse; text-align: left; margin-bottom: 20px;\">\n  <thead>\n    <tr>\n      <th>S.No</th>\n      <th>Name</th>\n      <th>Tenure</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>Air Marshal Sir Thomas Elmhirst</td><td>15 Aug 1947 – 22 Feb 1950</td></tr>\n    <tr><td>2</td><td>Air Marshal Sir Ronald Ivelaw-Chapman</td><td>23 Feb 1950 – 09 Dec 1951</td></tr>\n    <tr><td>3</td><td>Air Marshal G. E. Gibbs</td><td>10 Dec 1951 – 31 Aug 1954</td></tr>\n    <tr><td>4</td><td>Air Marshal S. Mukerjee</td><td>01 Sep 1954 – 08 Nov 1960</td></tr>\n    <tr><td>5</td><td>Air Marshal A. M. Engineer</td><td>09 Nov 1960 – 30 Nov 1964</td></tr>\n    <tr><td>6</td><td>Air Chief Marshal Arjan Singh</td><td>01 Aug 1964 – 15 Jul 1969</td></tr>\n    <tr><td>7</td><td>Air Chief Marshal P. C. Lal</td><td>16 Jul 1969 – 15 Jan 1973</td></tr>\n    <tr><td>8</td><td>Air Chief Marshal O. P. Mehra</td><td>16 Jan 1973 – 31 Jan 1976</td></tr>\n    <tr><td>9</td><td>Air Chief Marshal H. Moolgavkar</td><td>01 Feb 1976 – 31 Aug 1978</td></tr>\n    <tr><td>10</td><td>Air Chief Marshal I. H. Latif</td><td>01 Sep 1978 – 31 Aug 1981</td></tr>\n    <tr><td>11</td><td>Air Chief Marshal D. A. La Fontaine</td><td>01 Sep 1981 – 03 Sep 1985</td></tr>\n    <tr><td>12</td><td>Air Chief Marshal L. M. Katre</td><td>04 Sep 1985 – 31 Jul 1988</td></tr>\n    <tr><td>13</td><td>Air Chief Marshal S. K. Mehra</td><td>01 Aug 1988 – 31 Jul 1991</td></tr>\n    <tr><td>14</td><td>Air Chief Marshal N. C. Suri</td><td>01 Aug 1991 – 31 Jul 1993</td></tr>\n    <tr><td>15</td><td>Air Chief Marshal S. K. Kaul</td><td>01 Aug 1993 – 31 Dec 1995</td></tr>\n    <tr><td>16</td><td>Air Chief Marshal S. K. Sareen</td><td>01 Jan 1996 – 31 Dec 1998</td></tr>\n    <tr><td>17</td><td>Air Chief Marshal A. Y. Tipnis</td><td>01 Jan 1999 – 31 Dec 2001</td></tr>\n    <tr><td>18</td><td>Air Chief Marshal S. Krishnaswamy</td><td>01 Jan 2002 – 31 Dec 2004</td></tr>\n    <tr><td>19</td><td>Air Chief Marshal S. P. Tyagi</td><td>01 Jan 2005 – 31 Mar 2007</td></tr>\n    <tr><td>20</td><td>Air Chief Marshal F. H. Major</td><td>01 Apr 2007 – 31 Jul 2009</td></tr>\n    <tr><td>21</td><td>Air Chief Marshal P. V. Naik</td><td>01 Aug 2009 – 31 Jul 2012</td></tr>\n    <tr><td>22</td><td>Air Chief Marshal N. A. K. Browne</td><td>01 Aug 2012 – 31 Dec 2013</td></tr>\n    <tr><td>23</td><td>Air Chief Marshal Arup Raha</td><td>01 Jan 2014 – 31 Dec 2016</td></tr>\n    <tr><td>24</td><td>Air Chief Marshal B. S. Dhanoa</td><td>01 Jan 2017 – 30 Sep 2019</td></tr>\n    <tr><td>25</td><td>Air Chief Marshal R. K. S. Bhadauria</td><td>30 Sep 2019 – 30 Sep 2021</td></tr>\n    <tr><td>26</td><td>Air Chief Marshal Vivek Ram Chaudhari</td><td>30 Sep 2021 – 30 Jun 2024</td></tr>\n    <tr><td>27</td><td>Air Chief Marshal Amar Preet Singh</td><td>01 Jul 2024 – Present</td></tr>\n  </tbody>\n</table>"
-          }
-        ]
-      },
-      {
-        "id": "military_dedicated_branches",
-        "title": "Dedicated Branches (Army, Navy, IAF, ICG)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "military_dedicated_branches",
             "title": "Dedicated Branches (Army, Navy, IAF, ICG)",
             "notes": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Indian Armed Forces & Coast Guard</title>\n    <style>\n        body { \n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; \n            line-height: 1.7; \n            color: #333; \n            margin: 0; \n            padding: 20px; \n            background-color: #f0f2f5; \n            -webkit-font-smoothing: antialiased;\n            -moz-osx-font-smoothing: grayscale;\n        }\n        .container {\n            max-width: 1000px;\n            margin: 20px auto;\n            background-color: #ffffff;\n            padding: 30px 40px;\n            border-radius: 10px;\n            box-shadow: 0 6px 20px rgba(0,0,0,0.08);\n        }\n        h1 { \n            color: #1a5276; \n            text-align: center; \n            margin-bottom: 40px; \n            font-size: 2.8em;\n            padding-bottom: 15px;\n            border-bottom: 3px solid #1a5276;\n        }\n        h2 { \n            color: #2c7bb1; \n            border-bottom: 2px solid #2c7bb1; \n            padding-bottom: 10px; \n            margin-top: 40px; \n            font-size: 2.2em;\n        }\n        h3 { \n            color: #3f90d0; \n            margin-top: 25px; \n            font-size: 1.6em;\n        }\n        ul { \n            list-style-type: disc; \n            margin-left: 25px; \n            padding-left: 0;\n            margin-bottom: 15px;\n        }\n        li { \n            margin-bottom: 8px; \n            line-height: 1.5;\n        }\n        p {\n            margin-bottom: 15px;\n        }\n        strong {\n            color: #000;\n        }\n        .ncert-box {\n            background-color: rgba(69, 170, 242, 0.1);\n            border-left: 4px solid #45aaf2;\n            padding: 18px 20px;\n            margin: 25px 0;\n            border-radius: 6px;\n            font-style: italic;\n            font-size: 1.05em;\n            color: #2a6a9b;\n        }\n        .ncert-box strong { \n            color: #45aaf2; \n            font-weight: bold;\n        }\n    </style>\n</head>\n<body>\n\n    <div class=\"container\">\n        <h1>Guardians of India: Armed Forces & Coast Guard</h1>\n\n        <!-- Indian Army Section -->\n        <section id=\"indian-army\">\n            <h2>Indian Army</h2>\n            \n            <h3>Brief History & Motto</h3>\n            <p>The Indian Army traces its origins to the armies of the East India Company, which later became the British Indian Army. After India gained independence in 1947, the modern Indian Army was formed, reorganizing the existing forces. It has since played a pivotal role in protecting national interests, participating in wars like 1947, 1965, 1971, and Kargil (1999), as well as numerous peacekeeping missions globally.</p>\n            <p><strong>Motto:</strong> \"Service Before Self\" (सेवा परमो धर्मः)</p>\n\n            <h3>Commands & Headquarters</h3>\n            <ul>\n                <li><strong>Northern Command:</strong> Udhampur</li>\n                <li><strong>Western Command:</strong> Chandimandir</li>\n                <li><strong>South Western Command:</strong> Jaipur</li>\n                <li><strong>Southern Command:</strong> Pune</li>\n                <li><strong>Eastern Command:</strong> Kolkata</li>\n                <li><strong>Central Command:</strong> Lucknow</li>\n                <li><strong>Training Command:</strong> Shimla</li>\n            </ul>\n\n            <h3>Combat Arms / Branches</h3>\n            <ul>\n                <li>Infantry</li>\n                <li>Armoured Corps</li>\n                <li>Regiment of Artillery</li>\n                <li>Corps of Engineers</li>\n                <li>Corps of Signals</li>\n                <li>Army Aviation Corps</li>\n                <li>Mechanized Infantry</li>\n                <li>Special Forces</li>\n                <li>And various Service Corps (ASC, AMC, AOC, EME, etc.)</li>\n            </ul>\n\n            <h3>Key Equipment</h3>\n            <ul>\n                <li><strong>Main Battle Tanks:</strong> Arjun MBT, T-90 Bhishma, T-72 Ajeya</li>\n                <li><strong>Artillery Systems:</strong> Bofors FH-77B, M777 Howitzer, K9 Vajra-T, Pinaka MLRS, Dhanush</li>\n                <li><strong>Aircraft (Army Aviation):</strong> HAL Dhruv, HAL Rudra, Chetak, Cheetah Helicopters</li>\n                <li><strong>Infantry Weapons:</strong> INSAS rifle, AK-203 (replacing INSAS), Tavor TAR-21, Negev LMG</li>\n            </ul>\n            <div class=\"ncert-box\" style=\"background-color: rgba(69, 170, 242, 0.1); border-left: 4px solid #45aaf2; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n                <strong>💡 Fun Fact time!</strong> The Indian Army maintains the world's highest active battlefield, the Siachen Glacier, where troops operate at altitudes over 20,000 feet, facing extreme weather conditions and glacial terrain.\n            </div>\n        </section>\n\n        <!-- Indian Navy Section -->\n        <section id=\"indian-navy\">\n            <h2>Indian Navy</h2>\n\n            <h3>Brief History & Motto</h3>\n            <p>The Indian Navy traces its lineage back to the East India Company's Marine, established in 1612. After various name changes, it became the Royal Indian Navy in 1934 and finally the Indian Navy in 1950 after independence. It played a decisive role in the 1971 Indo-Pak war, particularly with Operation Trident, and is now a potent blue-water navy.</p>\n            <p><strong>Motto:</strong> \"Sham No Varunah\" (शं नो वरुणः - May the Lord of the Oceans be auspicious unto us)</p>\n\n            <h3>Commands & Headquarters</h3>\n            <ul>\n                <li><strong>Western Naval Command:</strong> Mumbai</li>\n                <li><strong>Eastern Naval Command:</strong> Visakhapatnam</li>\n                <li><strong>Southern Naval Command:</strong> Kochi</li>\n            </ul>\n\n            <h3>Combat Arms / Branches</h3>\n            <ul>\n                <li>Executive Branch (Surface, Submarine, Aviation, Hydrography, Provost)</li>\n                <li>Engineering Branch</li>\n                <li>Electrical Branch</li>\n                <li>Education Branch</li>\n                <li>Medical Branch</li>\n                <li>Logistics Branch</li>\n            </ul>\n\n            <h3>Key Equipment</h3>\n            <ul>\n                <li><strong>Aircraft Carriers:</strong> INS Vikramaditya, INS Vikrant (Indigenous)</li>\n                <li><strong>Destroyers:</strong> Kolkata-class, Visakhapatnam-class, Delhi-class</li>\n                <li><strong>Frigates:</strong> Shivalik-class, Talwar-class, Nilgiri-class (under construction)</li>\n                <li><strong>Submarines:</strong> Kalvari-class (Scorpene), Arihant-class (SSBN), Sindhughosh-class (Kilo)</li>\n                <li><strong>Naval Aircraft:</strong> MiG-29K, P-8I Neptune, Dornier Do 228, Sea King, ALH Dhruv, Kamov Ka-31</li>\n            </ul>\n        </section>\n\n        <!-- Indian Air Force Section -->\n        <section id=\"indian-air-force\">\n            <h2>Indian Air Force</h2>\n\n            <h3>Brief History & Motto</h3>\n            <p>Established on 8 October 1932 as the Royal Indian Air Force (RIAF), it played a significant role in World War II. Post-independence, the \"Royal\" prefix was dropped in 1950. The IAF has been instrumental in all major conflicts involving India, including the 1965, 1971, and Kargil wars, becoming one of the largest and most professional air forces in the world.</p>\n            <p><strong>Motto:</strong> \"Nabhah Sprisham Deeptam\" (नभः स्पृशं दीप्तम् - Touch the Sky with Glory)</p>\n\n            <h3>Commands & Headquarters</h3>\n            <ul>\n                <li><strong>Western Air Command:</strong> New Delhi</li>\n                <li><strong>Eastern Air Command:</strong> Shillong</li>\n                <li><strong>Central Air Command:</strong> Prayagraj (Allahabad)</li>\n                <li><strong>South Western Air Command:</strong> Gandhinagar</li>\n                <li><strong>Southern Air Command:</strong> Thiruvananthapuram</li>\n                <li><strong>Training Command:</strong> Bengaluru</li>\n                <li><strong>Maintenance Command:</strong> Nagpur</li>\n            </ul>\n\n            <h3>Combat Arms / Branches</h3>\n            <ul>\n                <li>Flying Branch (Fighter, Transport, Helicopter Pilots)</li>\n                <li>Ground Duty Branches (Administration, Logistics, Accounts, Education, Meteorology, ATC, Technical, etc.)</li>\n            </ul>\n\n            <h3>Key Equipment</h3>\n            <ul>\n                <li><strong>Fighter Aircraft:</strong> Dassault Rafale, Sukhoi Su-30MKI, Tejas LCA, Mirage 2000, MiG-29, Jaguar</li>\n                <li><strong>Transport Aircraft:</strong> C-17 Globemaster III, C-130J Super Hercules, Il-76, An-32, Dornier Do 228</li>\n                <li><strong>Helicopters:</strong> Boeing AH-64E Apache, Boeing CH-47F Chinook, Mi-17, HAL Dhruv, HAL Rudra</li>\n                <li><strong>AEW&C / Refuelling:</strong> Phalcon (IL-76 based), Embraer EMB-145, Il-78 Midas</li>\n            </ul>\n            <div class=\"ncert-box\" style=\"background-color: rgba(69, 170, 242, 0.1); border-left: 4px solid #45aaf2; padding: 12px; margin: 20px 0; border-radius: 4px;\">\n                <strong>💡 Fun Fact time!</strong> The Indian Air Force's motto, \"Nabhah Sprisham Deeptam,\" is derived from a verse in the Bhagavad Gita (Chapter 11, Verse 24). It's part of Arjuna's vision of Lord Krishna's cosmic form, symbolizing awe and majesty.\n            </div>\n        </section>\n\n        <!-- Indian Coast Guard Section -->\n        <section id=\"indian-coast-guard\">\n            <h2>Indian Coast Guard</h2>\n\n            <h3>Brief History & Motto</h3>\n            <p>The Indian Coast Guard (ICG) was established on 19 August 1978 under the Coast Guard Act, 1978, as an independent armed force. Its primary role is to protect India's maritime interests, enforce maritime law, and ensure the safety and security of the Indian coastline and Exclusive Economic Zone (EEZ).</p>\n            <p><strong>Motto:</strong> \"Vayam Rakshamah\" (वयं रक्षामः - We Protect)</p>\n\n            <h3>Regions & Headquarters</h3>\n            <ul>\n                <li><strong>Western Seaboard:</strong> Mumbai</li>\n                <li><strong>Eastern Seaboard:</strong> Chennai</li>\n                <li><strong>Andaman & Nicobar:</strong> Port Blair</li>\n                <li><strong>North-East:</strong> Kolkata</li>\n                <li><strong>North-West:</strong> Gandhinagar</li>\n            </ul>\n\n            <h3>Branches</h3>\n            <ul>\n                <li>General Duty (Operations)</li>\n                <li>Technical Branch</li>\n                <li>Air Wing</li>\n                <li>Logistics Branch</li>\n                <li>Law & Secretariat</li>\n                <li>Medical Branch</li>\n            </ul>\n\n            <h3>Key Equipment</h3>\n            <ul>\n                <li><strong>Offshore Patrol Vessels (OPVs):</strong> Saksham-class, Samarth-class, Sankalp-class</li>\n                <li><strong>Fast Patrol Vessels (FPVs):</strong> Rajshree-class, Sarang-class</li>\n                <li><strong>Inshore Patrol Vessels (IPVs):</strong> Priyadarshini-class</li>\n                <li><strong>Hovercraft:</strong> H-187 class</li>\n                <li><strong>Aircraft:</strong> Dornier Do 228 (fixed-wing), HAL Dhruv, Chetak/Cheetah Helicopters</li>\n                <li><strong>Pollution Control Vessels:</strong> Samudra-class</li>\n            </ul>\n        </section>\n\n    </div>\n\n</body>\n</html>"
-          }
-        ]
-      },
-      {
-        "id": "military_allied_agencies",
-        "title": "Allied Agencies (Intelligence, BRO, ISRO, CAPF)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "military_allied_agencies",
             "title": "Allied Agencies (Intelligence, BRO, ISRO, CAPF)",
@@ -11624,6 +10578,5 @@ const NOTES_DATABASE = {
         ]
       }
     ]
-  }
+  },
 };
-

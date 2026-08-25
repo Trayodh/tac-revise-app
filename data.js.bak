@@ -1121,6 +1121,10 @@ let CURRENT_AFFAIRS_LIVE = {
   ]
 };
 
+let CURRENT_AFFAIRS_ARCHIVE = {
+  "August 2026": []
+};
+
 const CBT_EXAMS_DATABASE = [
   {
     "id": "nda-math-v2-1",
@@ -138325,14 +138329,15 @@ const CBT_EXAMS_DATABASE = [
   }
 ];
 
+const QUESTION_BANK_DATABASE = undefined;
+
 const NOTES_DATABASE = {
   "mathematics": {
     "title": "Mathematics (NDA/CDS)",
     "chapters": [
       {
-        "id": "trig-identities",
-        "title": "Trigonometric Identities & Values",
-        "icon": "fa-solid fa-book-open",
+        "id": "trigonometry",
+        "title": "Trigonometry",
         "topics": [
           {
             "id": "trig-identities",
@@ -138376,14 +138381,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "inverse-trig",
-        "title": "Inverse Trigonometric Functions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "inverse-trig",
             "title": "Inverse Trigonometric Functions",
@@ -138430,23 +138428,15 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "quadratic-eq",
-        "title": "Quadratic Equations",
-        "icon": "fa-solid fa-book-open",
+        "id": "algebra-complex",
+        "title": "Algebra & Complex Numbers",
         "topics": [
           {
             "id": "quadratic-eq",
             "title": "Quadratic Equations",
             "notes": "\n              <h3>1. Nature of Roots</h3>\n              <p>For ax2 + bx + c = 0, the discriminant D = b2 - 4ac decides the roots:</p>\n              <ul>\n                <li>D > 0: Real and distinct roots.</li>\n                <li>D = 0: Real and equal roots.</li>\n                <li>D < 0: Complex conjugate roots.</li>\n              </ul>\n            ",
             "formulas": "\n              <li>**Sum of roots:** alpha + \beta = -b/a</li>\n              <li>**Product of roots:** alpha\beta = c/a</li>\n            "
-          }
-        ]
-      },
-      {
-        "id": "complex-numbers",
-        "title": "Complex Numbers",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "complex-numbers",
             "title": "Complex Numbers",
@@ -138456,9 +138446,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "straight-lines",
-        "title": "Straight Lines",
-        "icon": "fa-solid fa-book-open",
+        "id": "2d-geometry",
+        "title": "Coordinate Geometry (2D & 3D)",
         "topics": [
           {
             "id": "straight-lines",
@@ -138469,23 +138458,15 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "central-tendency",
-        "title": "Measures of Central Tendency",
-        "icon": "fa-solid fa-book-open",
+        "id": "statistics-prob",
+        "title": "Statistics & Probability",
         "topics": [
           {
             "id": "central-tendency",
             "title": "Measures of Central Tendency",
             "notes": "\n              <h3>1. Mean, Median, Mode</h3>\n              <ul>\n                <li>**Mean:** Sum of observations / Number of observations.</li>\n                <li>**Median:** Middle value when sorted.</li>\n                <li>**Empirical Relation:** Mode = 3*Median - 2*Mean</li>\n              </ul>\n            ",
             "formulas": "\n              <li>**Variance:** sigma2 = \fracsum (xi - mu)2N</li>\n              <li>**Standard Deviation:** sigma = sqrtVariance</li>\n            "
-          }
-        ]
-      },
-      {
-        "id": "data-interpretation",
-        "title": "Data Interpretation: Tables, Bar & Pie Charts",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "data-interpretation",
             "title": "Data Interpretation: Tables, Bar & Pie Charts",
@@ -138516,9 +138497,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "limits-continuity",
-        "title": "Limits & Continuity",
-        "icon": "fa-solid fa-book-open",
+        "id": "calculus",
+        "title": "Calculus",
         "topics": [
           {
             "id": "limits-continuity",
@@ -138562,14 +138542,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "differentiation",
-        "title": "Differentiation Rules",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "differentiation",
             "title": "Differentiation Rules",
@@ -138612,14 +138585,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "integration",
-        "title": "Standard Integration Methods",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "integration",
             "title": "Standard Integration Methods",
@@ -138666,9 +138632,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-matrices",
-        "title": "Matrices and Determinants",
-        "icon": "fa-solid fa-book-open",
+        "id": "algebra-matrices",
+        "title": "Algebra & Matrices",
         "topics": [
           {
             "id": "syl-matrices",
@@ -138716,9 +138681,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-probability",
-        "title": "Probability Theory & Bayes Theorem",
-        "icon": "fa-solid fa-book-open",
+        "id": "probability-stats",
+        "title": "Probability & Statistics",
         "topics": [
           {
             "id": "syl-probability",
@@ -138766,9 +138730,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "lines-angles-triangles",
-        "title": "Lines, Angles & Triangles",
-        "icon": "fa-solid fa-book-open",
+        "id": "geometry",
+        "title": "Geometry",
         "topics": [
           {
             "id": "lines-angles-triangles",
@@ -138795,14 +138758,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "circles-polygons",
-        "title": "Circles & Polygons",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "circles-polygons",
             "title": "Circles & Polygons",
@@ -138832,9 +138788,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "area-perimeter",
-        "title": "2D Figures: Area & Perimeter",
-        "icon": "fa-solid fa-book-open",
+        "id": "mensuration",
+        "title": "Mensuration",
         "topics": [
           {
             "id": "area-perimeter",
@@ -138869,14 +138824,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "surface-area-volume",
-        "title": "3D Solids: Surface Area & Volume",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "surface-area-volume",
             "title": "3D Solids: Surface Area & Volume",
@@ -138914,9 +138862,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "percentages-profit-loss",
-        "title": "Percentages, Profit & Loss",
-        "icon": "fa-solid fa-book-open",
+        "id": "arithmetic",
+        "title": "Arithmetic",
         "topics": [
           {
             "id": "percentages-profit-loss",
@@ -138943,14 +138890,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ratios-averages",
-        "title": "Ratios, Proportions & Averages",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ratios-averages",
             "title": "Ratios, Proportions & Averages",
@@ -138975,14 +138915,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "time-distance",
-        "title": "Time, Speed, Distance & Work",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "time-distance",
             "title": "Time, Speed, Distance & Work",
@@ -139012,9 +138945,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-numerical-speed",
-        "title": "Time, Speed & Distance Formulas",
-        "icon": "fa-solid fa-book-open",
+        "id": "quantitative-aptitude",
+        "title": "Numerical Aptitude",
         "topics": [
           {
             "id": "syl-numerical-speed",
@@ -139055,14 +138987,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "syl-numerical-ratios",
-        "title": "Ratios, Proportions & Percentages",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "syl-numerical-ratios",
             "title": "Ratios, Proportions & Percentages",
@@ -139112,9 +139037,8 @@ const NOTES_DATABASE = {
     "title": "English (NDA/CDS/AFCAT)",
     "chapters": [
       {
-        "id": "parts-of-speech",
-        "title": "Parts of Speech",
-        "icon": "fa-solid fa-book-open",
+        "id": "grammar-rules",
+        "title": "Grammar & Usage",
         "topics": [
           {
             "id": "parts-of-speech",
@@ -139150,14 +139074,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "tenses-complete",
-        "title": "Tenses & Consistency",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "tenses-complete",
             "title": "Tenses & Consistency",
@@ -139190,14 +139107,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "subject-verb-agreement",
-        "title": "Subject-Verb Agreement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "subject-verb-agreement",
             "title": "Subject-Verb Agreement",
@@ -139232,14 +139142,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "sentence-structure",
-        "title": "Sentence Structure & Parallelism",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "sentence-structure",
             "title": "Sentence Structure & Parallelism",
@@ -139273,14 +139176,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "voice-conversion",
-        "title": "Active & Passive Voice",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "voice-conversion",
             "title": "Active & Passive Voice",
@@ -139307,14 +139203,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "narration-speech",
-        "title": "Direct & Indirect Speech",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "narration-speech",
             "title": "Direct & Indirect Speech",
@@ -139349,14 +139238,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "modifiers",
-        "title": "Modifiers: Misplaced & Dangling",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "modifiers",
             "title": "Modifiers: Misplaced & Dangling",
@@ -139381,14 +139263,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "punctuation-basics",
-        "title": "Punctuation Basics",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "punctuation-basics",
             "title": "Punctuation Basics",
@@ -139419,14 +139294,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "transformation-sentences",
-        "title": "Transformation of Sentences",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "transformation-sentences",
             "title": "Transformation of Sentences",
@@ -139464,9 +139332,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "synonyms-antonyms-detailed",
-        "title": "High-Frequency Synonyms/Antonyms",
-        "icon": "fa-solid fa-book-open",
+        "id": "vocabulary",
+        "title": "Vocabulary & Comprehension",
         "topics": [
           {
             "id": "synonyms-antonyms-detailed",
@@ -139495,14 +139362,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "one-word-substitution",
-        "title": "One Word Substitutions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "one-word-substitution",
             "title": "One Word Substitutions",
@@ -139532,14 +139392,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "idioms-phrases",
-        "title": "Idioms & Phrases",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "idioms-phrases",
             "title": "Idioms & Phrases",
@@ -139565,14 +139418,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "phrasal-verbs",
-        "title": "Phrasal Verbs",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "phrasal-verbs",
             "title": "Phrasal Verbs",
@@ -139607,14 +139453,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "reading-comprehension",
-        "title": "Reading Comprehension",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "reading-comprehension",
             "title": "Reading Comprehension",
@@ -139654,9 +139493,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "error-detection",
-        "title": "Spotting Errors",
-        "icon": "fa-solid fa-book-open",
+        "id": "exam-patterns",
+        "title": "UPSC Exam Practice Patterns",
         "topics": [
           {
             "id": "error-detection",
@@ -139691,14 +139529,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "sentence-improvement",
-        "title": "Sentence Improvement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "sentence-improvement",
             "title": "Sentence Improvement",
@@ -139730,14 +139561,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ordering-rearrangement",
-        "title": "Ordering of Words & Sentences",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ordering-rearrangement",
             "title": "Ordering of Words & Sentences",
@@ -139764,14 +139588,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "fill-blanks-cloze",
-        "title": "Fill in the Blanks & Cloze Test",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "fill-blanks-cloze",
             "title": "Fill in the Blanks & Cloze Test",
@@ -139807,9 +139624,8 @@ const NOTES_DATABASE = {
     "title": "Indian Polity (CDS/NDA)",
     "chapters": [
       {
-        "id": "preamble",
-        "title": "Preamble & Sources",
-        "icon": "fa-solid fa-book-open",
+        "id": "constitution-basics",
+        "title": "Constitutional Framework",
         "topics": [
           {
             "id": "preamble",
@@ -139854,14 +139670,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "schedules",
-        "title": "Schedules of the Constitution",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "schedules",
             "title": "Schedules of the Constitution",
@@ -139904,14 +139713,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "fundamental-rights",
-        "title": "Fundamental Rights (Art 12-35)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "fundamental-rights",
             "title": "Fundamental Rights (Art 12-35)",
@@ -139954,14 +139756,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "dpsp",
-        "title": "DPSP & Fundamental Duties (Art 36-51A)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "dpsp",
             "title": "DPSP & Fundamental Duties (Art 36-51A)",
@@ -139988,14 +139783,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "citizenship",
-        "title": "Citizenship (Art 5-11)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "citizenship",
             "title": "Citizenship (Art 5-11)",
@@ -140036,9 +139824,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "president",
-        "title": "The President of India (Art 52-62)",
-        "icon": "fa-solid fa-book-open",
+        "id": "union-executive",
+        "title": "Union Government",
         "topics": [
           {
             "id": "president",
@@ -140082,14 +139869,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "parliament",
-        "title": "Parliament of India (Art 79-122)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "parliament",
             "title": "Parliament of India (Art 79-122)",
@@ -140132,14 +139912,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "goverment-executives",
-        "title": "Executives: PM, CM & Governor",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "goverment-executives",
             "title": "Executives: PM, CM & Governor",
@@ -140173,14 +139946,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "judiciary",
-        "title": "Integrated Judiciary: SC & HC",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "judiciary",
             "title": "Integrated Judiciary: SC & HC",
@@ -140217,14 +139983,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "panchayati-raj",
-        "title": "Local Self-Govt & Panchayati Raj",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "panchayati-raj",
             "title": "Local Self-Govt & Panchayati Raj",
@@ -140263,9 +140022,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "amendments-parts",
-        "title": "Constitutional Amendments, Parts & Schedules",
-        "icon": "fa-solid fa-book-open",
+        "id": "polity-advanced",
+        "title": "Advanced Polity Structures & Bodies",
         "topics": [
           {
             "id": "amendments-parts",
@@ -140296,14 +140054,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "important-articles",
-        "title": "High-Yield Special Articles Cheat Sheet",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "important-articles",
             "title": "High-Yield Special Articles Cheat Sheet",
@@ -140332,14 +140083,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "positions-tenures",
-        "title": "Elections, Appointments & Terms of Office",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "positions-tenures",
             "title": "Elections, Appointments & Terms of Office",
@@ -140368,14 +140112,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "constitutional-bodies",
-        "title": "Constitutional & Non-Constitutional Bodies",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "constitutional-bodies",
             "title": "Constitutional & Non-Constitutional Bodies",
@@ -140398,14 +140135,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "governance-emergency",
-        "title": "Emergency Provisions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "governance-emergency",
             "title": "Emergency Provisions",
@@ -140443,9 +140173,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "polity-federal-structure",
-        "title": "Federal Structure & Centre-State Relations",
-        "icon": "fa-solid fa-book-open",
+        "id": "federal-rpa",
+        "title": "Federal Structure & Election Law",
         "topics": [
           {
             "id": "polity-federal-structure",
@@ -140487,14 +140216,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "polity-rpa",
-        "title": "Representation of People Act & Election Commission",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "polity-rpa",
             "title": "Representation of People Act & Election Commission",
@@ -140544,9 +140266,8 @@ const NOTES_DATABASE = {
     "title": "History (CDS/NDA)",
     "chapters": [
       {
-        "id": "what-is-history",
-        "title": "What is History?",
-        "icon": "fa-solid fa-book-open",
+        "id": "historiography",
+        "title": "1. Historiography & Historical Foundations",
         "topics": [
           {
             "id": "what-is-history",
@@ -140566,14 +140287,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "sources-indian-history",
-        "title": "Sources of Indian History",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "sources-indian-history",
             "title": "Sources of Indian History",
@@ -140600,14 +140314,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "dating-systems",
-        "title": "Dating Systems",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "dating-systems",
             "title": "Dating Systems",
@@ -140637,9 +140344,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "stone-age",
-        "title": "Stone Age",
-        "icon": "fa-solid fa-book-open",
+        "id": "prehistoric-india",
+        "title": "2. Prehistoric India",
         "topics": [
           {
             "id": "stone-age",
@@ -140675,14 +140381,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "chalcolithic-age",
-        "title": "Chalcolithic Age",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "chalcolithic-age",
             "title": "Chalcolithic Age",
@@ -140709,14 +140408,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "rock-art",
-        "title": "Rock Art",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "rock-art",
             "title": "Rock Art",
@@ -140739,9 +140431,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "indus-valley-civilization",
-        "title": "Indus Valley Civilization",
-        "icon": "fa-solid fa-book-open",
+        "id": "ancient-india-tree",
+        "title": "3. Ancient India",
         "topics": [
           {
             "id": "indus-valley-civilization",
@@ -140785,14 +140476,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "vedic-age",
-        "title": "Vedic Age",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "vedic-age",
             "title": "Vedic Age",
@@ -140827,14 +140511,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "mahajanapadas",
-        "title": "Mahajanapadas",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "mahajanapadas",
             "title": "Mahajanapadas",
@@ -140861,14 +140538,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "magadha-expansion",
-        "title": "Magadha Expansion",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "magadha-expansion",
             "title": "Magadha Expansion",
@@ -140887,14 +140557,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "buddhism-jainism",
-        "title": "Buddhism & Jainism",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "buddhism-jainism",
             "title": "Buddhism & Jainism",
@@ -140921,14 +140584,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "mauryan-period",
-        "title": "Mauryan Period",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "mauryan-period",
             "title": "Mauryan Period",
@@ -140963,14 +140619,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "post-mauryan-india",
-        "title": "Post-Mauryan India",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "post-mauryan-india",
             "title": "Post-Mauryan India",
@@ -140997,14 +140646,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "gupta-period",
-        "title": "Gupta Period",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "gupta-period",
             "title": "Gupta Period",
@@ -141031,14 +140673,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "south-indian-kingdoms",
-        "title": "South Indian Kingdoms",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "south-indian-kingdoms",
             "title": "South Indian Kingdoms",
@@ -141071,14 +140706,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ancient-indian-culture",
-        "title": "Ancient Indian Culture",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ancient-indian-culture",
             "title": "Ancient Indian Culture",
@@ -141100,9 +140728,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "early-medieval-india",
-        "title": "Early Medieval India",
-        "icon": "fa-solid fa-book-open",
+        "id": "medieval-india-tree",
+        "title": "4. Medieval India",
         "topics": [
           {
             "id": "early-medieval-india",
@@ -141122,14 +140749,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "delhi-sultanate",
-        "title": "Delhi Sultanate",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "delhi-sultanate",
             "title": "Delhi Sultanate",
@@ -141148,14 +140768,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "vijayanagara-empire",
-        "title": "Vijayanagara Empire",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "vijayanagara-empire",
             "title": "Vijayanagara Empire",
@@ -141174,14 +140787,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "bahmani-deccan-sultanates",
-        "title": "Bahmani Kingdom & Deccan Sultanates",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "bahmani-deccan-sultanates",
             "title": "Bahmani Kingdom & Deccan Sultanates",
@@ -141207,14 +140813,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "mughal-empire",
-        "title": "Mughal Empire",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "mughal-empire",
             "title": "Mughal Empire",
@@ -141233,14 +140832,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "marathas",
-        "title": "Marathas",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "marathas",
             "title": "Marathas",
@@ -141267,14 +140859,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "bhakti-movement",
-        "title": "Bhakti Movement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "bhakti-movement",
             "title": "Bhakti Movement",
@@ -141293,14 +140878,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "sufi-movement",
-        "title": "Sufi Movement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "sufi-movement",
             "title": "Sufi Movement",
@@ -141318,14 +140896,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "sikh-history",
-        "title": "Sikh History",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "sikh-history",
             "title": "Sikh History",
@@ -141356,9 +140927,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "european-arrival",
-        "title": "European Arrival",
-        "icon": "fa-solid fa-book-open",
+        "id": "modern-india-tree",
+        "title": "5. Modern India (Highest Priority)",
         "topics": [
           {
             "id": "european-arrival",
@@ -141385,14 +140955,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "british-expansion",
-        "title": "British Expansion",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "british-expansion",
             "title": "British Expansion",
@@ -141411,14 +140974,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "economic-impact-british",
-        "title": "Economic Impact of British Rule",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "economic-impact-british",
             "title": "Economic Impact of British Rule",
@@ -141445,14 +141001,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "socio-religious-reform",
-        "title": "Socio-Religious Reform Movements",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "socio-religious-reform",
             "title": "Socio-Religious Reform Movements",
@@ -141471,14 +141020,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "revolt-1857",
-        "title": "Revolt of 1857",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "revolt-1857",
             "title": "Revolt of 1857",
@@ -141513,14 +141055,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "governor-generals-viceroys",
-        "title": "Governor-Generals & Viceroys",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "governor-generals-viceroys",
             "title": "Governor-Generals & Viceroys",
@@ -141553,14 +141088,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "constitutional-development",
-        "title": "Constitutional Development",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "constitutional-development",
             "title": "Constitutional Development",
@@ -141587,14 +141115,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "freedom-movement",
-        "title": "Freedom Movement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "freedom-movement",
             "title": "Freedom Movement",
@@ -141621,14 +141142,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "post-independence-consolidation",
-        "title": "Post-Independence Consolidation",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "post-independence-consolidation",
             "title": "Post-Independence Consolidation",
@@ -141659,9 +141173,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "revolutions",
-        "title": "Revolutions",
-        "icon": "fa-solid fa-book-open",
+        "id": "world-history-tree",
+        "title": "6. World History",
         "topics": [
           {
             "id": "revolutions",
@@ -141705,14 +141218,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "world-war-i",
-        "title": "World War I",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "world-war-i",
             "title": "World War I",
@@ -141739,14 +141245,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "interwar-period",
-        "title": "Interwar Period",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "interwar-period",
             "title": "Interwar Period",
@@ -141765,14 +141264,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "world-war-ii",
-        "title": "World War II",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "world-war-ii",
             "title": "World War II",
@@ -141799,14 +141291,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "cold-war",
-        "title": "Cold War",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "cold-war",
             "title": "Cold War",
@@ -141832,14 +141317,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "international-institutions",
-        "title": "International Institutions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "international-institutions",
             "title": "International Institutions",
@@ -141869,9 +141347,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "architecture",
-        "title": "Architecture",
-        "icon": "fa-solid fa-book-open",
+        "id": "art-culture-heritage",
+        "title": "7. Art, Culture & Heritage",
         "topics": [
           {
             "id": "architecture",
@@ -141907,14 +141384,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "paintings",
-        "title": "Paintings",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "paintings",
             "title": "Paintings",
@@ -141940,14 +141410,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "dance-music",
-        "title": "Dance & Music",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "dance-music",
             "title": "Dance & Music",
@@ -141973,14 +141436,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "literature",
-        "title": "Literature",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "literature",
             "title": "Literature",
@@ -141999,14 +141455,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "religion-festivals",
-        "title": "Religion & Festivals",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "religion-festivals",
             "title": "Religion & Festivals",
@@ -142033,14 +141482,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "heritage-sites",
-        "title": "Heritage Sites",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "heritage-sites",
             "title": "Heritage Sites",
@@ -142063,9 +141505,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "history-pyq-trends-topic",
-        "title": "History PYQ Trends (NDA/CDS)",
-        "icon": "fa-solid fa-book-open",
+        "id": "history-pyq-trends",
+        "title": "PYQ Trend Analysis",
         "topics": [
           {
             "id": "history-pyq-trends-topic",
@@ -142110,9 +141551,8 @@ const NOTES_DATABASE = {
     "title": "Geography (CDS/NDA)",
     "chapters": [
       {
-        "id": "universe-solar-system",
-        "title": "The Universe & Solar System",
-        "icon": "fa-solid fa-book-open",
+        "id": "physical-geography",
+        "title": "Physical & World Geography",
         "topics": [
           {
             "id": "universe-solar-system",
@@ -142139,14 +141579,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "earth-atmosphere",
-        "title": "Earth Structure & Atmosphere",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "earth-atmosphere",
             "title": "Earth Structure & Atmosphere",
@@ -142174,14 +141607,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "climatology-clouds",
-        "title": "Climatology: Climatic Zones & Clouds",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "climatology-clouds",
             "title": "Climatology: Climatic Zones & Clouds",
@@ -142209,14 +141635,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "geomorphology-rocks",
-        "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "geomorphology-rocks",
             "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
@@ -142250,14 +141669,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "world-geography-mountains",
-        "title": "World Geography: Mountains, Forests & Rivers",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "world-geography-mountains",
             "title": "World Geography: Mountains, Forests & Rivers",
@@ -142293,14 +141705,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "world-geography-straits-deserts",
-        "title": "Straits, Canals, Deserts & Seas",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "world-geography-straits-deserts",
             "title": "Straits, Canals, Deserts & Seas",
@@ -142332,9 +141737,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-geog",
-        "title": "Indian Geography (Rivers, Passes & Soils)",
-        "icon": "fa-solid fa-book-open",
+        "id": "geography-details",
+        "title": "Indian Geography",
         "topics": [
           {
             "id": "syl-geog",
@@ -142370,14 +141774,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "india-forests-wetlands",
-        "title": "Forests, Trees & Wetlands of India",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "india-forests-wetlands",
             "title": "Forests, Trees & Wetlands of India",
@@ -142404,14 +141801,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "india-resources-farming",
-        "title": "Mineral Resources & Types of Farming",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "india-resources-farming",
             "title": "Mineral Resources & Types of Farming",
@@ -142439,14 +141829,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "india-transport-routes",
-        "title": "Transport Routes: Highways & Waterways",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "india-transport-routes",
             "title": "Transport Routes: Highways & Waterways",
@@ -142472,14 +141855,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "india-national-parks",
-        "title": "National Parks of India (Map Guide)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "india-national-parks",
             "title": "National Parks of India (Map Guide)",
@@ -142519,14 +141895,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "mapping-borders-capitals",
-        "title": "Borders, Capitals & Mapping",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "mapping-borders-capitals",
             "title": "Borders, Capitals & Mapping",
@@ -142565,9 +141934,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "geog-industries",
-        "title": "Major Industries & Industrial Corridors of India",
-        "icon": "fa-solid fa-book-open",
+        "id": "industrics-geopolitics",
+        "title": "Industries & Geopolitics",
         "topics": [
           {
             "id": "geog-industries",
@@ -142611,14 +141979,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "geog-geopolitics",
-        "title": "Geopolitical Flashpoints & Indo-Pacific",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "geog-geopolitics",
             "title": "Geopolitical Flashpoints & Indo-Pacific",
@@ -142659,9 +142020,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "geography-pyq-trends-topic",
-        "title": "Geography PYQ Trends (NDA/CDS)",
-        "icon": "fa-solid fa-book-open",
+        "id": "geography-pyq-trends",
+        "title": "PYQ Trend Analysis",
         "topics": [
           {
             "id": "geography-pyq-trends-topic",
@@ -142706,9 +142066,8 @@ const NOTES_DATABASE = {
     "title": "Economics (CDS/NDA)",
     "chapters": [
       {
-        "id": "econ-concepts",
-        "title": "Core Economic Concepts & Sectors",
-        "icon": "fa-solid fa-book-open",
+        "id": "economics-basics",
+        "title": "Introduction to Economics",
         "topics": [
           {
             "id": "econ-concepts",
@@ -142736,14 +142095,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "econ-poverty-employment",
-        "title": "Poverty, Employment & Agriculture",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "econ-poverty-employment",
             "title": "Poverty, Employment & Agriculture",
@@ -142782,9 +142134,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "rbi-monetary-policy",
-        "title": "RBI & Monetary Policy Tools",
-        "icon": "fa-solid fa-book-open",
+        "id": "monetary-fiscal",
+        "title": "Monetary & Fiscal System",
         "topics": [
           {
             "id": "rbi-monetary-policy",
@@ -142816,9 +142167,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "econ-budget-fiscal",
-        "title": "Government Budget, GST & Fiscal Policy",
-        "icon": "fa-solid fa-book-open",
+        "id": "budget-trade-reforms",
+        "title": "Budgets, Trade & Economic Reforms",
         "topics": [
           {
             "id": "econ-budget-fiscal",
@@ -142861,14 +142211,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "econ-trade-bop",
-        "title": "Trade Policy & Balance of Payments",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "econ-trade-bop",
             "title": "Trade Policy & Balance of Payments",
@@ -142904,14 +142247,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "econ-reforms",
-        "title": "LPG Reforms, NITI Aayog & Financial Institutions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "econ-reforms",
             "title": "LPG Reforms, NITI Aayog & Financial Institutions",
@@ -142947,14 +142283,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "five-year-plans",
-        "title": "Economic Planning & Five-Year Plans",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "five-year-plans",
             "title": "Economic Planning & Five-Year Plans",
@@ -142988,14 +142317,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "external-sector-institutions",
-        "title": "IMF, WTO & Balance of Payments",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "external-sector-institutions",
             "title": "IMF, WTO & Balance of Payments",
@@ -143034,9 +142356,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "econ-govt-schemes",
-        "title": "Key Welfare Schemes & Financial Inclusion",
-        "icon": "fa-solid fa-book-open",
+        "id": "govt-schemes",
+        "title": "Government Schemes & Welfare Programs",
         "topics": [
           {
             "id": "econ-govt-schemes",
@@ -143081,9 +142402,8 @@ const NOTES_DATABASE = {
     "title": "Physics (NDA/CDS)",
     "chapters": [
       {
-        "id": "reflection-refraction",
-        "title": "Reflection, Refraction & Lenses",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-optics",
+        "title": "Optics & Light",
         "topics": [
           {
             "id": "reflection-refraction",
@@ -143131,9 +142451,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "newtons-laws",
-        "title": "Newton's Laws of Motion",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-mechanics",
+        "title": "Mechanics & Motion",
         "topics": [
           {
             "id": "newtons-laws",
@@ -143181,9 +142500,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-exercises",
-        "title": "Work, Power, Energy & Gravitation",
-        "icon": "fa-solid fa-book-open",
+        "id": "energy-power-mechanics",
+        "title": "Energy & Gravitation",
         "topics": [
           {
             "id": "syl-exercises",
@@ -143231,9 +142549,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-sound",
-        "title": "Sound Waves & Acoustics",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-waves",
+        "title": "Waves & Acoustics",
         "topics": [
           {
             "id": "physics-sound",
@@ -143277,14 +142594,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "physics-em-waves",
-        "title": "Electromagnetic Waves & Spectrum",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "physics-em-waves",
             "title": "Electromagnetic Waves & Spectrum",
@@ -143319,9 +142629,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-heat",
-        "title": "Thermodynamics & Heat Transfer",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-thermodynamics",
+        "title": "Heat & Thermodynamics",
         "topics": [
           {
             "id": "physics-heat",
@@ -143361,9 +142670,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-electricity-magnetism",
-        "title": "Electricity, Circuits & Magnetism",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-electromagnetism",
+        "title": "Electricity & Magnetism",
         "topics": [
           {
             "id": "physics-electricity-magnetism",
@@ -143403,9 +142711,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-nuclear-basics",
-        "title": "Nuclear Physics & Radioactivity",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-modern",
+        "title": "Modern Physics & Units",
         "topics": [
           {
             "id": "physics-nuclear-basics",
@@ -143433,14 +142740,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "physics-units-everyday",
-        "title": "SI Units & Everyday Physics",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "physics-units-everyday",
             "title": "SI Units & Everyday Physics",
@@ -143471,9 +142771,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "physics-pyq-trends-topic",
-        "title": "Physics PYQ Trends (NDA/CDS)",
-        "icon": "fa-solid fa-book-open",
+        "id": "physics-pyq-trends",
+        "title": "PYQ Trend Analysis",
         "topics": [
           {
             "id": "physics-pyq-trends-topic",
@@ -143518,9 +142817,8 @@ const NOTES_DATABASE = {
     "title": "Chemistry (NDA/CDS)",
     "chapters": [
       {
-        "id": "acids-bases",
-        "title": "Acids, Bases & pH Indicators",
-        "icon": "fa-solid fa-book-open",
+        "id": "chemistry-substances",
+        "title": "Acids, Bases & Salts",
         "topics": [
           {
             "id": "acids-bases",
@@ -143568,9 +142866,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-numerical",
-        "title": "Chemical Bonding & Periodic Table",
-        "icon": "fa-solid fa-book-open",
+        "id": "chemistry-bonding",
+        "title": "Chemical Bonding",
         "topics": [
           {
             "id": "syl-numerical",
@@ -143618,9 +142915,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "metals-alloys",
-        "title": "Metals, Ores, Alloys & Metallurgy",
-        "icon": "fa-solid fa-book-open",
+        "id": "chemistry-metallurgy",
+        "title": "Metals & Metallurgy",
         "topics": [
           {
             "id": "metals-alloys",
@@ -143659,14 +142955,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "reactivity-series",
-        "title": "Reactivity Series & Displacement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "reactivity-series",
             "title": "Reactivity Series & Displacement",
@@ -143704,9 +142993,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "carbon-compounds",
-        "title": "Carbon & its Compounds",
-        "icon": "fa-solid fa-book-open",
+        "id": "chemistry-carbon-numericals",
+        "title": "Carbon Compounds & Numericals",
         "topics": [
           {
             "id": "carbon-compounds",
@@ -143742,14 +143030,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "chemistry-numericals",
-        "title": "Mole Concept & Concentration Terms",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "chemistry-numericals",
             "title": "Mole Concept & Concentration Terms",
@@ -143789,9 +143070,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "chemistry-everyday-fertilisers",
-        "title": "Everyday Chemistry, Fertilisers & Fuels",
-        "icon": "fa-solid fa-book-open",
+        "id": "chemistry-everyday-env",
+        "title": "Everyday & Environmental Chemistry",
         "topics": [
           {
             "id": "chemistry-everyday-fertilisers",
@@ -143825,14 +143105,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "environmental-chemistry",
-        "title": "Environmental Chemistry & Pollution",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "environmental-chemistry",
             "title": "Environmental Chemistry & Pollution",
@@ -143867,9 +143140,8 @@ const NOTES_DATABASE = {
     "title": "Biology (NDA/CDS)",
     "chapters": [
       {
-        "id": "cell-structure",
-        "title": "Cell Structure & Cell Division",
-        "icon": "fa-solid fa-book-open",
+        "id": "biology-cell",
+        "title": "Cell Biology & Genetics",
         "topics": [
           {
             "id": "cell-structure",
@@ -143908,9 +143180,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "human-systems",
-        "title": "Vital Human Systems & Organs",
-        "icon": "fa-solid fa-book-open",
+        "id": "biology-physiology",
+        "title": "Human Physiology",
         "topics": [
           {
             "id": "human-systems",
@@ -143950,9 +143221,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "diseases",
-        "title": "Human Diseases & Pathogens",
-        "icon": "fa-solid fa-book-open",
+        "id": "biology-diseases",
+        "title": "Health, Diseases & Nutrition",
         "topics": [
           {
             "id": "diseases",
@@ -143989,14 +143259,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "immunity-vaccines",
-        "title": "Immunity & Vaccines",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "immunity-vaccines",
             "title": "Immunity & Vaccines",
@@ -144034,9 +143297,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "plant-kingdom",
-        "title": "Plant Kingdom Classification",
-        "icon": "fa-solid fa-book-open",
+        "id": "biology-kingdoms",
+        "title": "Plant & Animal Kingdoms",
         "topics": [
           {
             "id": "plant-kingdom",
@@ -144070,14 +143332,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "animal-kingdom",
-        "title": "Animal Kingdom Classification",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "animal-kingdom",
             "title": "Animal Kingdom Classification",
@@ -144120,9 +143375,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "plant-reproduction",
-        "title": "Plant Reproduction & Hormones",
-        "icon": "fa-solid fa-book-open",
+        "id": "biology-botany",
+        "title": "Plant Physiology & Reproduction",
         "topics": [
           {
             "id": "plant-reproduction",
@@ -144162,9 +143416,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "biology-ecology-basics",
-        "title": "Ecology Basics & Pyramids",
-        "icon": "fa-solid fa-book-open",
+        "id": "biology-ecology",
+        "title": "Ecology & Ecosystems",
         "topics": [
           {
             "id": "biology-ecology-basics",
@@ -144208,9 +143461,8 @@ const NOTES_DATABASE = {
     "title": "Military GK & Aptitude",
     "chapters": [
       {
-        "id": "rank-equivalence",
-        "title": "Equivalent Officer Ranks (Tri-Services)",
-        "icon": "fa-solid fa-book-open",
+        "id": "defence-structures",
+        "title": "Command Structures & Ranks",
         "topics": [
           {
             "id": "rank-equivalence",
@@ -144252,14 +143504,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "commands",
-        "title": "Operational Commands of Services",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "commands",
             "title": "Operational Commands of Services",
@@ -144301,14 +143546,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "defence-organisations-weapons",
-        "title": "Defence Organisations, Weapons & Agreements",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "defence-organisations-weapons",
             "title": "Defence Organisations, Weapons & Agreements",
@@ -144347,9 +143585,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "bilateral-exercises",
-        "title": "Joint Military Exercises of India",
-        "icon": "fa-solid fa-book-open",
+        "id": "tactical-defence-gk",
+        "title": "Exercises & Missile Systems",
         "topics": [
           {
             "id": "bilateral-exercises",
@@ -144392,14 +143629,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "missiles-systems",
-        "title": "Integrated Guided Missile Program (IGMDP)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "missiles-systems",
             "title": "Integrated Guided Missile Program (IGMDP)",
@@ -144444,9 +143674,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "syl-verbal-reasoning",
-        "title": "Verbal Reasoning & OIR",
-        "icon": "fa-solid fa-book-open",
+        "id": "reasoning-oir",
+        "title": "Reasoning & OIR (SSB)",
         "topics": [
           {
             "id": "syl-verbal-reasoning",
@@ -144482,14 +143711,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "syl-nonverbal-reasoning",
-        "title": "Non-Verbal Reasoning & OIR",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "syl-nonverbal-reasoning",
             "title": "Non-Verbal Reasoning & OIR",
@@ -144524,14 +143746,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "syl-afcat-spatial",
-        "title": "Spatial & Non-Verbal Reasoning (AFCAT)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "syl-afcat-spatial",
             "title": "Spatial & Non-Verbal Reasoning (AFCAT)",
@@ -144561,9 +143776,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "afcat-r-analogy",
-        "title": "Ch.1 — Analogy (Verbal Reasoning)",
-        "icon": "fa-solid fa-book-open",
+        "id": "afcat-verbal-reasoning",
+        "title": "Verbal Reasoning (AFCAT)",
         "topics": [
           {
             "id": "afcat-r-analogy",
@@ -144599,14 +143813,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-classification",
-        "title": "Ch.2 — Classification / Odd One Out (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-classification",
             "title": "Ch.2 — Classification / Odd One Out (Verbal)",
@@ -144639,14 +143846,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-series",
-        "title": "Ch.3 — Series Completion (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-series",
             "title": "Ch.3 — Series Completion (Verbal)",
@@ -144681,14 +143881,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-coding",
-        "title": "Ch.4 — Coding and Decoding (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-coding",
             "title": "Ch.4 — Coding and Decoding (Verbal)",
@@ -144727,14 +143920,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-directions",
-        "title": "Ch.5 — Direction Sense Test (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-directions",
             "title": "Ch.5 — Direction Sense Test (Verbal)",
@@ -144767,14 +143953,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-clock-calendar",
-        "title": "Ch.6 — Clock and Calendar (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-clock-calendar",
             "title": "Ch.6 — Clock and Calendar (Verbal)",
@@ -144808,14 +143987,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-venn",
-        "title": "Ch.7 — Logical Venn Diagrams (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-venn",
             "title": "Ch.7 — Logical Venn Diagrams (Verbal)",
@@ -144850,14 +144022,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-syllogism",
-        "title": "Ch.8 — Syllogism (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-syllogism",
             "title": "Ch.8 — Syllogism (Verbal)",
@@ -144893,14 +144058,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-conclusions",
-        "title": "Ch.9 — Statements and Conclusions (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-conclusions",
             "title": "Ch.9 — Statements and Conclusions (Verbal)",
@@ -144927,14 +144085,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-assumptions",
-        "title": "Ch.10 — Statements and Assumptions (Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-assumptions",
             "title": "Ch.10 — Statements and Assumptions (Verbal)",
@@ -144965,9 +144116,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "afcat-r-fig-analogy",
-        "title": "Ch.11 — Figure Analogy (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
+        "id": "afcat-nonverbal-reasoning",
+        "title": "Non-Verbal Reasoning (AFCAT)",
         "topics": [
           {
             "id": "afcat-r-fig-analogy",
@@ -144996,14 +144146,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-fig-class-series",
-        "title": "Ch.12&13 — Figure Classification & Series (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-fig-class-series",
             "title": "Ch.12&13 — Figure Classification & Series (Non-Verbal)",
@@ -145032,14 +144175,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-fig-completion",
-        "title": "Ch.14 — Figure/Pattern Completion (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-fig-completion",
             "title": "Ch.14 — Figure/Pattern Completion (Non-Verbal)",
@@ -145067,14 +144203,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-embedded",
-        "title": "Ch.15 — Embedded Figures (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-embedded",
             "title": "Ch.15 — Embedded Figures (Non-Verbal)",
@@ -145100,14 +144229,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-dot",
-        "title": "Ch.16 — Dot Situation (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-dot",
             "title": "Ch.16 — Dot Situation (Non-Verbal)",
@@ -145132,14 +144254,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-cube-dice",
-        "title": "Ch.17 — Cube and Dice (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-cube-dice",
             "title": "Ch.17 — Cube and Dice (Non-Verbal)",
@@ -145167,14 +144282,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "afcat-r-fig-coding",
-        "title": "Ch.18 — Figure Coding (Non-Verbal)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "afcat-r-fig-coding",
             "title": "Ch.18 — Figure Coding (Non-Verbal)",
@@ -145212,9 +144320,8 @@ const NOTES_DATABASE = {
     "title": "Current Affairs & GK",
     "chapters": [
       {
-        "id": "ca-schemes",
-        "title": "Major Government Schemes",
-        "icon": "fa-solid fa-book-open",
+        "id": "schemes-policies",
+        "title": "Schemes, Policies & Summits",
         "topics": [
           {
             "id": "ca-schemes",
@@ -145251,14 +144358,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-relations",
-        "title": "India's International Relations & Forums",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-relations",
             "title": "India's International Relations & Forums",
@@ -145296,14 +144396,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-policies",
-        "title": "National Policies & Missions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-policies",
             "title": "National Policies & Missions",
@@ -145338,14 +144431,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-summits",
-        "title": "Major International Summits",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-summits",
             "title": "Major International Summits",
@@ -145384,9 +144470,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "ca-reports",
-        "title": "Important Reports & Indices",
-        "icon": "fa-solid fa-book-open",
+        "id": "reports-awards-judgments",
+        "title": "Reports, Awards & Judgments",
         "topics": [
           {
             "id": "ca-reports",
@@ -145415,14 +144500,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-judgments",
-        "title": "Landmark SC & HC Judgments",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-judgments",
             "title": "Landmark SC & HC Judgments",
@@ -145457,14 +144535,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-awards",
-        "title": "National Awards & Honours",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-awards",
             "title": "National Awards & Honours",
@@ -145497,14 +144568,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-economic-measures",
-        "title": "Economic Measures & Policy Packages",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-economic-measures",
             "title": "Economic Measures & Policy Packages",
@@ -145539,14 +144603,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-science-tech-space",
-        "title": "Science, Tech & Space Missions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-science-tech-space",
             "title": "Science, Tech & Space Missions",
@@ -145581,14 +144638,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-upsc-master-framework",
-        "title": "UPSC Core Current Affairs Syllabus Map",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-upsc-master-framework",
             "title": "UPSC Core Current Affairs Syllabus Map",
@@ -145630,9 +144680,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "ca-geopolitical-flashpoints",
-        "title": "Global Geopolitical Flashpoints",
-        "icon": "fa-solid fa-book-open",
+        "id": "global-events-defence",
+        "title": "Global Events & Strategic Updates",
         "topics": [
           {
             "id": "ca-geopolitical-flashpoints",
@@ -145668,14 +144717,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-defence-cooperation",
-        "title": "Bilateral Defence Cooperation & Deals",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-defence-cooperation",
             "title": "Bilateral Defence Cooperation & Deals",
@@ -145710,14 +144752,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-red-sea-crisis",
-        "title": "Red Sea Crisis & Maritime Security Ops",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-red-sea-crisis",
             "title": "Red Sea Crisis & Maritime Security Ops",
@@ -145752,14 +144787,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-quad-indopacific",
-        "title": "Indo-Pacific Security & Quad Dynamics",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-quad-indopacific",
             "title": "Indo-Pacific Security & Quad Dynamics",
@@ -145794,14 +144822,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-defense-acquisitions",
-        "title": "Key Strategic Defense Acquisitions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-defense-acquisitions",
             "title": "Key Strategic Defense Acquisitions",
@@ -145835,14 +144856,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-icet-drones",
-        "title": "India-US Tech Cooperation & MQ-9B Drones",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-icet-drones",
             "title": "India-US Tech Cooperation & MQ-9B Drones",
@@ -145877,25 +144891,11 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "ca-spain-c295",
-        "title": "India-Spain Aerospace Cooperation & C-295 Project",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-spain-c295",
             "title": "India-Spain Aerospace Cooperation & C-295 Project"
-          }
-        ]
-      },
-      {
-        "id": "ca-space-nuclear",
-        "title": "Strategic Space & Missile Advancements",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "ca-space-nuclear",
             "title": "Strategic Space & Missile Advancements",
@@ -145939,9 +144939,8 @@ const NOTES_DATABASE = {
     "title": "Environment & Ecology",
     "chapters": [
       {
-        "id": "env-hotspots",
-        "title": "Biodiversity Hotspots & Biosphere Reserves",
-        "icon": "fa-solid fa-book-open",
+        "id": "biodiversity-conservation",
+        "title": "Biodiversity & Wildlife Conservation",
         "topics": [
           {
             "id": "env-hotspots",
@@ -145970,14 +144969,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "env-conservation",
-        "title": "Wildlife Protection & Conservation Projects",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "env-conservation",
             "title": "Wildlife Protection & Conservation Projects",
@@ -146011,14 +145003,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "env-species",
-        "title": "Species in News & IUCN Red List",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "env-species",
             "title": "Species in News & IUCN Red List",
@@ -146055,9 +145040,8 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "env-treaties",
-        "title": "Climate Change Treaties & India's NDCs",
-        "icon": "fa-solid fa-book-open",
+        "id": "climate-laws-energy",
+        "title": "Climate, Laws & Renewable Energy",
         "topics": [
           {
             "id": "env-treaties",
@@ -146095,14 +145079,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "env-laws",
-        "title": "Environmental Legislation & EIA",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "env-laws",
             "title": "Environmental Legislation & EIA",
@@ -146138,14 +145115,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "env-renewable",
-        "title": "Renewable Energy & Green Initiatives",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "env-renewable",
             "title": "Renewable Energy & Green Initiatives",
@@ -146179,14 +145149,7 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          }
-        ]
-      },
-      {
-        "id": "env-pollution",
-        "title": "Pollution Control & Clean India Missions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
+          },
           {
             "id": "env-pollution",
             "title": "Pollution Control & Clean India Missions",
@@ -146228,4 +145191,12 @@ const NOTES_DATABASE = {
   }
 };
 
-module.exports = { CBT_EXAMS_DATABASE, NOTES_DATABASE, CURRENT_AFFAIRS_DB };
+if (typeof window !== 'undefined') {
+    window.CBT_EXAMS_DATABASE = CBT_EXAMS_DATABASE;
+    window.NOTES_DATABASE = NOTES_DATABASE;
+    window.CURRENT_AFFAIRS_DB = CURRENT_AFFAIRS_DB;
+}
+
+if (typeof module !== 'undefined') {
+    module.exports = { CBT_EXAMS_DATABASE, NOTES_DATABASE, CURRENT_AFFAIRS_DB };
+}
