@@ -17063,6 +17063,16 @@ function applyGoalGetterTheme() {
     document.removeEventListener('click', startAudio);
   };
   document.addEventListener('click', startAudio);
+
+  // Inject Operation Clean-Up Banner dynamically
+  const banner = document.createElement('div');
+  banner.id = 'op-cleanup-banner';
+  banner.style.cssText = 'position: fixed; top: 0; left: 0; width: 100%; background: #ef4444; color: white; padding: 12px; text-align: center; z-index: 10000; font-weight: bold; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);';
+  banner.innerHTML = `
+    <span style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); cursor: pointer; font-size: 20px;" onclick="document.getElementById('op-cleanup-banner').style.display='none'">&times;</span>
+    Operation Clean-Up is ON
+  `;
+  document.body.appendChild(banner);
 }
 
 // --- Geography Map Modal Interaction ---
