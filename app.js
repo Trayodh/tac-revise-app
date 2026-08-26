@@ -2427,285 +2427,150 @@ function renderTopicView(subjectId, chapterId, topicId) {
       }
   }
 
-  const tabsHtml = `
+    const tabsHtml = '';
 
-    <div class="topic-tab-bar" style="display: flex; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 2px;">
-
-      <button class="tab-btn ${activeNotesTab === 'notes' ? 'active' : ''}" onclick="setNotesTab('notes')" style="white-space: nowrap; flex-shrink: 0;">
-
-        📝 Concept Notes
-
-      </button>
-
-      <button class="tab-btn ${activeNotesTab === 'formulas' ? 'active' : ''}" onclick="setNotesTab('formulas')" style="white-space: nowrap; flex-shrink: 0;">
-
-        ⚡ High-Yield Formulas
-
-      </button>
-
-      <button class="tab-btn ${activeNotesTab === 'mindmap' ? 'active' : ''}" onclick="setNotesTab('mindmap')" style="white-space: nowrap; flex-shrink: 0; display: ${topic.mindmap ? 'block' : 'none'};">
-
-        🗺️ Mind Map
-
-      </button>
-
-    </div>
-
-  `;
-
+  let tabContentHtml = `
+    <div class="tab-pane-content fade-in" style="height: 100%;">
+      <div id="dynamic-notes-container" class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
+        
+        <div id="markdown-injection-point">
+                  ${topicId === 'all-equipment' ? '<div id="armed-forces-equipment-container"></div>' : (() => {
+            let content = '';
+            let visualInjection = '';
+            if (topic.notes && topic.notes.includes('visual-summary')) {
+               const match = topic.notes.match(/(<div class="visual-summary[^>]*>[\s\S]*?<\/div>)/i);
+               if (match) {
+                 visualInjection = match[1] + '\n\n';
+               }
+            }
   
-
-  // Tab content selection
-
-  let tabContentHtml = '';
-
-  if (activeNotesTab === 'notes') {
-
-    tabContentHtml = `
-
-      <div class="tab-pane-content fade-in" style="height: 100%;">
-
-        <div id="dynamic-notes-container" class="notes-text scroll-y" style="height: 100%; padding-bottom: 30px; box-sizing: border-box; overflow-y: auto;">
-
-          <div id="markdown-injection-point">
-          ${topicId === 'all-equipment' ? '<div id="armed-forces-equipment-container"></div>' : (() => {
-
             const expandedHtml = (typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id]) ? window.EXPANDED_NOTES_DATA[topic.id] : null;
-
+  
             if (expandedHtml) {
-
-              // Strip full HTML doc wrapper — extract only <body> inner content
-
               const bodyMatch = expandedHtml.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
-
-              const bodyContent = bodyMatch ? bodyMatch[1] : expandedHtml;
-              return `<div class="expanded-notes-content">${parseWikiLinks(bodyContent)}</div>`;
-
-            }
-
-            let rawNotes = topic.notes || '';
-            // If the notes already contain HTML tags, inject directly — do NOT run through marked.parse
-            // because marked treats indented HTML as a <pre><code> block.
-            const isHtmlNotes = rawNotes.trim().startsWith('<') || /<(h[1-6]|ul|ol|li|p|div|table|section)\b/.test(rawNotes);
-            let parsedNotes;
-            if (isHtmlNotes) {
-              parsedNotes = rawNotes;
+              content = bodyMatch ? bodyMatch[1] : expandedHtml;
+              // Remove any corrupted or unstyled h1/h2 at the beginning
+              content = content.replace(/^\s*<h[1-2][^>]*>.*?<\/h[1-2]>/i, '').trim();
             } else {
-              parsedNotes = typeof marked !== 'undefined' ? marked.parse(rawNotes) : rawNotes;
+              let rawNotes = topic.notes || '';
+              if (visualInjection) {
+                rawNotes = rawNotes.replace(/(<!-- VISUAL INJECTION -->\s*)?<div class="visual-summary[^>]*>[\s\S]*?<\/div>/i, '').trim();
+              }
+              const isHtmlNotes = rawNotes.trim().startsWith('<') || /<(h[1-6]|ul|ol|li|p|div|table|section)\b/.test(rawNotes);
+              content = isHtmlNotes ? rawNotes : (typeof marked !== 'undefined' ? marked.parse(rawNotes) : rawNotes);
             }
-            return `<div class="expanded-notes-content">${parseWikiLinks(parsedNotes)}</div>`;
-
+  
+            content = `<h2 style="color: var(--accent); margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid var(--border);">${topic.title}</h2>\n` + visualInjection + content;
+  
+            return `<div class="expanded-notes-content">${parseWikiLinks(content)}</div>`;
           })()}
-          </div>
+        </div>
 
-          ${chapterDiagramHtml}
-          ${chapterImagesHtml}
+        ${chapterDiagramHtml}
+        ${chapterImagesHtml}
 
-          ${(() => {
-
-            if (typeof window.GEOGRAPHY_VISUALS_DB === 'undefined') return '';
-
-            const tTitle = topic.title.toLowerCase();
-
-            const visuals = window.GEOGRAPHY_VISUALS_DB.filter(v => v.topic && v.topic.toLowerCase() === tTitle || (v.chapter && v.chapter.toLowerCase() === chapter.title.toLowerCase()));
-
-            if (visuals.length === 0) return '';
-
-            
-
-            let html = '<div class="geography-visuals-container" style="margin-top: 24px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.1);">';
-
-            html += '<div style="color: #60a5fa; font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;">[ GEOGRAPHY VISUALS ]</div>';
-
-            
-
-            visuals.forEach(vis => {
-
-              html += '<div class="visual-card" style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; margin-bottom: 16px; border: 1px solid rgba(255,255,255,0.05);">';
-
-              html += '<h4 style="margin: 0 0 8px 0; color: #e2e8f0; font-size: 0.95rem;">' + vis.title + '</h4>';
-
-              if (vis.description) {
-
-                html += '<p style="font-size: 0.8rem; color: #94a3b8; margin-bottom: 12px;">' + vis.description + '</p>';
-
-              }
-
-              if (vis.format === 'Mermaid' && vis.mermaidCode) {
-
-                html += '<pre class="mermaid" style="background: transparent;">' + vis.mermaidCode + '</pre>';
-
-              } else if (vis.format === 'RealMap' && vis.imgPath) {
-
-                html += '<img src="assets/geography' + vis.imgPath + '" alt="' + vis.title + '" style="width:100%; border-radius: 6px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">';
-
-              }
-
-              html += '</div>';
-
-            });
-
+        ${(() => {
+          if (typeof window.GEOGRAPHY_VISUALS_DB === 'undefined') return '';
+          const tTitle = topic.title.toLowerCase();
+          const visuals = window.GEOGRAPHY_VISUALS_DB.filter(v => v.topic && v.topic.toLowerCase() === tTitle || (v.chapter && v.chapter.toLowerCase() === chapter.title.toLowerCase()));
+          if (visuals.length === 0) return '';
+          let html = '<div class="geography-visuals-container" style="margin-top: 24px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.1);">';
+          html += '<div style="color: #60a5fa; font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;">[ GEOGRAPHY VISUALS ]</div>';
+          visuals.forEach(vis => {
+            html += '<div class="visual-card" style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; margin-bottom: 16px; border: 1px solid rgba(255,255,255,0.05);">';
+            html += '<h4 style="margin: 0 0 8px 0; color: #e2e8f0; font-size: 0.95rem;">' + vis.title + '</h4>';
+            if (vis.description) {
+              html += '<p style="font-size: 0.8rem; color: #94a3b8; margin-bottom: 12px;">' + vis.description + '</p>';
+            }
+            if (vis.format === 'Mermaid' && vis.mermaidCode) {
+              html += '<pre class="mermaid" style="background: transparent;">' + vis.mermaidCode + '</pre>';
+            } else if (vis.format === 'RealMap' && vis.imgPath) {
+              html += '<img src="assets/geography' + vis.imgPath + '" alt="' + vis.title + '" style="width:100%; border-radius: 6px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">';
+            }
             html += '</div>';
+          });
+          html += '</div>';
+          setTimeout(() => {
+            if (window.mermaid) {
+              mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+            }
+          }, 100);
+          return html;
+        })()}
 
-            // Schedule mermaid init after rendering
-
-            setTimeout(() => {
-
-              if (window.mermaid) {
-
-                mermaid.init(undefined, document.querySelectorAll('.mermaid'));
-
-              }
-
-            }, 100);
-
-            return html;
-
-          })()}
-
-        </div>
-
-      </div>
-
-    `;
-
-  } else if (activeNotesTab === 'formulas') {
-
-    tabContentHtml = `
-
-      <div class="tab-pane-content fade-in" style="display: flex; flex-direction: column; height: 100%;">
-
-        <div class="concept-formula-box scroll-y" style="flex: 1; white-space: pre-line; margin: 0 0 16px 0; overflow-y: auto;">
-
-          ${topic.formulas}
-
-        </div>
-
-        <div style="display:flex; justify-content:flex-end;">
-
-          <button class="action-btn ${isFormulaSaved ? 'active-green' : ''}" onclick="toggleFormulaReadStatus('${topic.id}', this)" style="padding: 10px 20px;">
-
-             ${isFormulaSaved ? 'Formula Memorized' : 'Mark Formula as Memorized'}
-
-          </button>
-
-        </div>
-
-      </div>
-
-    `;
-
-  } else if (activeNotesTab === 'mindmap' && topic.mindmap) {
-
-    let branchesHtml = '';
-
-    
-
-    // Generate Mermaid Code Dynamically
-
-    let mmdCode = `mindmap\n  root((${topic.mindmap.root.replace(/[\(\)\[\]\{\}\"\n]/g, ' ')}))\n`;
-
-    topic.mindmap.branches.forEach(branch => {
-
-      mmdCode += `    ${branch.title.replace(/[\(\)\[\]\{\}\"\n]/g, ' ')}\n`;
-
-      if (branch.subnodes) {
-
-        branch.subnodes.forEach(sub => {
-
-          mmdCode += `      ::icon(fas fa-check)\n`;
-
-          mmdCode += `      ${sub.replace(/[\(\)\[\]\{\}\"\n]/g, ' ')}\n`;
-
-        });
-
-      }
-
-    });
-
-    
-
-    topic.mindmap.branches.forEach(branch => {
-
-      let subnodesHtml = '';
-
-      branch.subnodes.forEach(sub => {
-
-        const cleanSub = sub.replace(/'/g, "\\'");
-
-        subnodesHtml += `<div class="mindmap-subnode" onclick="triggerDoubtExplain('${cleanSub}')" style="cursor: pointer; padding: 8px 16px; margin: 4px; background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 6px; transition: all 0.2s ease; display: inline-block; color: var(--text-primary); font-size: 0.82rem; font-weight: 500;" onmouseover="this.style.background='rgba(34, 197, 94, 0.1)'; this.style.borderColor='var(--accent)'; this.style.transform='scale(1.02)'" onmouseout="this.style.background='rgba(255,255,255,0.03)'; this.style.borderColor='var(--border)'; this.style.transform='scale(1)'">${sub}</div>`;
-
-      });
-
-      const cleanBranch = branch.title.replace(/'/g, "\\'");
-
-      branchesHtml += `
-
-        <div class="mindmap-branch" style="display: flex; flex-direction: column; align-items: center; border: 1px dashed rgba(255,255,255,0.08); border-radius: 12px; padding: 12px; background: rgba(0,0,0,0.15); min-width: 180px;">
-
-          <div class="mindmap-node" onclick="triggerDoubtExplain('${cleanBranch}')" style="cursor: pointer; padding: 10px 20px; background: linear-gradient(135deg, rgba(37, 99, 235, 0.2) 0%, rgba(34, 197, 94, 0.1) 100%); border: 1px solid rgba(37, 99, 235, 0.4); border-radius: 8px; font-weight: 700; font-family: var(--font-logo); font-size: 0.9rem; text-align: center; color: #fff; width: 100%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: all 0.2s ease;" onmouseover="this.style.boxShadow='0 0 15px rgba(37,99,235,0.3)'; this.style.transform='scale(1.03)';" onmouseout="this.style.boxShadow='none'; this.style.transform='scale(1)';">${branch.title}</div>
-
-          <div class="mindmap-subnodes" style="display: flex; flex-direction: column; gap: 6px; width: 100%; margin-top: 10px;">
-
-            ${subnodesHtml}
-
+        ${topic.formulas && topic.formulas.trim() ? `
+        <div class="concept-formula-box" style="margin: 32px 0 16px 0; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;">
+          <div style="color: #4ade80; font-size: 0.85rem; font-family: var(--font-mono); margin-bottom: 16px; letter-spacing: 1px; text-transform: uppercase; font-weight: bold;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            High-Yield Formulas & Short Notes
           </div>
-
+          <div style="white-space: pre-line;">${topic.formulas}</div>
+          <div style="display:flex; justify-content:flex-end; margin-top: 16px;">
+            <button class="action-btn ${isFormulaSaved ? 'active-green' : ''}" onclick="toggleFormulaReadStatus('${topic.id}', this)" style="padding: 10px 20px;">
+               ${isFormulaSaved ? 'Formula Memorized' : 'Mark Formula as Memorized'}
+            </button>
+          </div>
         </div>
+        ` : ''}
 
-      `;
-
-    });
-
-    
-
-    const cleanRoot = topic.mindmap.root.replace(/'/g, "\\'");
-
-    tabContentHtml = `
-
-      <div class="tab-pane-content fade-in" style="height: 100%; display: flex; flex-direction: column;">
-
-        <div class="mindmap-tree scroll-x" style="padding: 24px; height: 100%; overflow-y: auto; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; gap: 24px;">
-
+        ${(() => {
+          if (!topic.mindmap) return '';
+          let branchesHtml = '';
+          let mmdCode = `mindmap\n  root((${topic.mindmap.root.replace(/[\(\)\[\]\{\}\"\n]/g, ' ')}))\n`;
+          topic.mindmap.branches.forEach(branch => {
+            mmdCode += `    ${branch.title.replace(/[\(\)\[\]\{\}\"\n]/g, ' ')}\n`;
+            if (branch.subnodes) {
+              branch.subnodes.forEach(sub => {
+                mmdCode += `      ::icon(fas fa-check)\n`;
+                mmdCode += `      ${sub.replace(/[\(\)\[\]\{\}\"\n]/g, ' ')}\\n`;
+              });
+            }
+          });
           
-
-          <!-- Gen AI Diagram SVG Integration (Client-Side Rendering) -->
-
-          <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 20px; background: rgba(0,0,0,0.4); padding: 20px; border-radius: 12px; border: 1px dashed var(--accent); box-shadow: 0 4px 20px rgba(0,0,0,0.5) inset;">
-
-            <div class="mermaid" style="max-width: 100%; overflow-x: auto; text-align: center;">
-
-              ${mmdCode}
-
+          topic.mindmap.branches.forEach(branch => {
+            let subnodesHtml = '';
+            branch.subnodes.forEach(sub => {
+              const cleanSub = sub.replace(/'/g, "\\'");
+              subnodesHtml += `<div class="mindmap-subnode" onclick="triggerDoubtExplain('${cleanSub}')" style="cursor: pointer; padding: 8px 16px; margin: 4px; background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 6px; transition: all 0.2s ease; display: inline-block; color: var(--text-primary); font-size: 0.82rem; font-weight: 500;" onmouseover="this.style.background='rgba(34, 197, 94, 0.1)'; this.style.borderColor='var(--accent)'; this.style.transform='scale(1.02)'" onmouseout="this.style.background='rgba(255,255,255,0.03)'; this.style.borderColor='var(--border)'; this.style.transform='scale(1)'">${sub}</div>`;
+            });
+            const cleanBranch = branch.title.replace(/'/g, "\\'");
+            branchesHtml += `
+              <div class="mindmap-branch" style="display: flex; flex-direction: column; align-items: center; border: 1px dashed rgba(255,255,255,0.08); border-radius: 12px; padding: 12px; background: rgba(0,0,0,0.15); min-width: 180px;">
+                <div class="mindmap-node" onclick="triggerDoubtExplain('${cleanBranch}')" style="cursor: pointer; padding: 10px 20px; background: linear-gradient(135deg, rgba(37, 99, 235, 0.2) 0%, rgba(34, 197, 94, 0.1) 100%); border: 1px solid rgba(37, 99, 235, 0.4); border-radius: 8px; font-weight: 700; font-family: var(--font-logo); font-size: 0.9rem; text-align: center; color: #fff; width: 100%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: all 0.2s ease;" onmouseover="this.style.boxShadow='0 0 15px rgba(37,99,235,0.3)'; this.style.transform='scale(1.03)';" onmouseout="this.style.boxShadow='none'; this.style.transform='scale(1)';">${branch.title}</div>
+                <div class="mindmap-subnodes" style="display: flex; flex-direction: column; gap: 6px; width: 100%; margin-top: 10px;">
+                  ${subnodesHtml}
+                </div>
+              </div>
+            `;
+          });
+          
+          const cleanRoot = topic.mindmap.root.replace(/'/g, "\\'");
+          return `
+            <div style="margin-top: 32px; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;">
+              <div style="color: #4ade80; font-size: 0.85rem; font-family: var(--font-mono); margin-bottom: 16px; letter-spacing: 1px; text-transform: uppercase; font-weight: bold;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                Topic Mind Map
+              </div>
+              <div class="mindmap-tree scroll-x" style="padding: 24px; overflow-y: auto; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; gap: 24px;">
+                <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 20px; background: rgba(0,0,0,0.4); padding: 20px; border-radius: 12px; border: 1px dashed var(--accent); box-shadow: 0 4px 20px rgba(0,0,0,0.5) inset;">
+                  <div class="mermaid" style="max-width: 100%; overflow-x: auto; text-align: center;">
+                    ${mmdCode}
+                  </div>
+                </div>
+                <div class="mindmap-root" onclick="triggerDoubtExplain('${cleanRoot}')" style="cursor: pointer; padding: 14px 28px; background: linear-gradient(135deg, var(--accent-dark) 0%, var(--accent) 100%); border-radius: 12px; font-weight: 800; font-family: var(--font-logo); font-size: 1.15rem; color: var(--bg-primary); text-shadow: 0 1px 2px rgba(0,0,0,0.2); box-shadow: 0 0 20px rgba(34, 197, 94, 0.35); text-align: center; transition: all 0.3s ease; letter-spacing: 0.5px;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 28px rgba(34, 197, 94, 0.55)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px rgba(34, 197, 94, 0.35)';">${topic.mindmap.root}</div>
+                <div style="width: 2px; height: 20px; background: linear-gradient(to bottom, var(--accent), rgba(255,255,255,0.1));"></div>
+                <div class="mindmap-branches" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; width: 100%;">
+                  ${branchesHtml}
+                </div>
+              </div>
+              <div style="font-size: 0.72rem; color: var(--text-muted); text-align: center; font-family: var(--font-mono); margin-top: 8px; letter-spacing: 0.5px;">* CLICK ANY NODE IN THE GRAPH TO ASK GURU DRONACHARYA DIRECTLY *</div>
             </div>
-
-          </div>
-
-
-
-          <div class="mindmap-root" onclick="triggerDoubtExplain('${cleanRoot}')" style="cursor: pointer; padding: 14px 28px; background: linear-gradient(135deg, var(--accent-dark) 0%, var(--accent) 100%); border-radius: 12px; font-weight: 800; font-family: var(--font-logo); font-size: 1.15rem; color: var(--bg-primary); text-shadow: 0 1px 2px rgba(0,0,0,0.2); box-shadow: 0 0 20px rgba(34, 197, 94, 0.35); text-align: center; transition: all 0.3s ease; letter-spacing: 0.5px;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 28px rgba(34, 197, 94, 0.55)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px rgba(34, 197, 94, 0.35)';">${topic.mindmap.root}</div>
-
-          <div style="width: 2px; height: 20px; background: linear-gradient(to bottom, var(--accent), rgba(255,255,255,0.1));"></div>
-
-          <div class="mindmap-branches" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; width: 100%;">
-
-            ${branchesHtml}
-
-          </div>
-
-        </div>
-
-        <div style="font-size: 0.72rem; color: var(--text-muted); text-align: center; font-family: var(--font-mono); margin-top: 8px; letter-spacing: 0.5px;">* CLICK ANY NODE IN THE GRAPH TO ASK GURU DRONACHARYA DIRECTLY *</div>
+          `;
+        })()}
 
       </div>
-
-    `;
-
-  } else {
-
-    tabContentHtml = `<p style="color:var(--text-secondary)">Content not available.</p>`;
-
-  }
+    </div>
+  `;
 
   
 
