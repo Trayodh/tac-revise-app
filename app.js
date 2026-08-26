@@ -2010,9 +2010,7 @@ function renderNotesBrowser() {
 
         const matchesQuery = topic.title.toLowerCase().includes(query) ||
 
-                             (topic.notes && topic.notes.toLowerCase().includes(query)) ||
-
-                             (topic.formulas && topic.formulas.toLowerCase().includes(query));
+                             (topic.notes && topic.notes.toLowerCase().includes(query));
 
         const matchesExam = currentExamTagFilter === "all" || exams.includes(currentExamTagFilter);
 
@@ -2497,21 +2495,6 @@ function renderTopicView(subjectId, chapterId, topicId) {
           }, 100);
           return html;
         })()}
-
-        ${topic.formulas && topic.formulas.trim() ? `
-        <div class="concept-formula-box" style="margin: 32px 0 16px 0; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;">
-          <div style="color: #4ade80; font-size: 0.85rem; font-family: var(--font-mono); margin-bottom: 16px; letter-spacing: 1px; text-transform: uppercase; font-weight: bold;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-            High-Yield Formulas & Short Notes
-          </div>
-          <div style="white-space: pre-line;">${topic.formulas}</div>
-          <div style="display:flex; justify-content:flex-end; margin-top: 16px;">
-            <button class="action-btn ${isFormulaSaved ? 'active-green' : ''}" onclick="toggleFormulaReadStatus('${topic.id}', this)" style="padding: 10px 20px;">
-               ${isFormulaSaved ? 'Formula Memorized' : 'Mark Formula as Memorized'}
-            </button>
-          </div>
-        </div>
-        ` : ''}
 
         ${(() => {
           if (!topic.mindmap) return '';
