@@ -2389,8 +2389,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
   const chapterDiagramId = `${subjectKey}__${(chapter.id || chapter.title.replace(/[^a-z0-9]/gi, '-').toLowerCase())}`;
 
-  const chapterDiagramHtml = (typeof window.DIAGRAMS_DB !== 'undefined' && window.DIAGRAMS_DB[chapterDiagramId] && subjectId !== 'geography')
-
+  const chapterDiagramHtml = (typeof window.DIAGRAMS_DB !== 'undefined' && window.DIAGRAMS_DB[chapterDiagramId])
     ? `<div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08);">
 
         <div style="color: var(--text-muted); font-size: 0.75rem; font-family: var(--font-mono); margin-bottom: 14px; letter-spacing: 1px; text-transform: uppercase; display: flex; align-items: center; gap: 8px;">
@@ -2504,7 +2503,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
           ${(() => {
 
-            if (typeof window.GEOGRAPHY_VISUALS_DB === 'undefined' || subjectId !== 'geography') return '';
+            if (typeof window.GEOGRAPHY_VISUALS_DB === 'undefined') return '';
 
             const tTitle = topic.title.toLowerCase();
 

@@ -4,19 +4,19 @@ let content = fs.readFileSync('diagrams_db.js', 'utf8');
 
 const replacements = [
   {
-    key: "geography__physical-geography",
+    key: "general-knowledge__syl-geog",
     file: "map_physical_geography_1784178968525.png"
   },
   {
-    key: "geography__geography-details",
+    key: "general-knowledge__earth-atmosphere",
     file: "map_geography_details_1784178979944.png"
   },
   {
-    key: "geography__industrics-geopolitics",
+    key: "general-knowledge__mapping-borders-capitals",
     file: "map_industries_geopolitics_1784179000256.png"
   },
   {
-    key: "geography__geography-pyq-trends",
+    key: "general-knowledge__world-geography-straits-deserts",
     file: "map_geography_pyq_1784179012067.png"
   }
 ];
