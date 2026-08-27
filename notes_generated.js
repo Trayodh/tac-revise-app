@@ -16732,3 +16732,3252 @@ window.EXPANDED_NOTES_DATA["important-indian-military-operations"] = `
   <h2>Operation Amistad</h2><ul><li><strong>Type:</strong> Humanitarian mission</li><li><strong>Objective:</strong> Aid Venezuela after an earthquake.</li><li><strong>Details:</strong> Included relief supplies, medical equipment, portable hospitals, and rescue teams under a HADR (Humanitarian Assistance and Disaster Relief) framework.</li><li><strong>Aircraft Used:</strong> Indian Air Force C-17 Globemaster.</li></ul><h2>Operation Urja Suraksha</h2><ul><li><strong>Branch:</strong> Indian Navy</li><li><strong>Objective:</strong> Protect India's energy supply routes in the strategically important Strait of Hormuz amid rising geopolitical tensions in West Asia.</li><li><strong>Keywords:</strong> Navy, Safe transit.</li></ul><h2>Operation Polo</h2><ul><li><strong>Location:</strong> Hyderabad</li><li><strong>Year:</strong> 1948</li><li><strong>Context:</strong> Integration of princely states (Dhar Commission, JVK Committee, Fazl Ali Commission).</li></ul><h2>Operation Sankat Mochan</h2><ul><li><strong>Year:</strong> 2016</li><li><strong>Location:</strong> South Sudan</li></ul><h2>Operation Vijay (Goa Liberation)</h2><ul><li><strong>Context:</strong> Liberation of Goa</li></ul><h2>Operation Black Tornado</h2><ul><li><strong>Year:</strong> 2008</li><li><strong>Context:</strong> Mumbai attacks (26/11)</li></ul><h2>Operation Cactus</h2><ul><li><strong>Year:</strong> 1988</li><li><strong>Location:</strong> Maldives</li></ul><h2>Operation Vijay (Kargil War)</h2><ul><li><strong>Year:</strong> 1999</li><li><strong>Context:</strong> Kargil War</li></ul><h2>Operation Meghdoot</h2><ul><li><strong>Year:</strong> 1984</li><li><strong>Location:</strong> Siachen</li></ul><h2>Operation Smiling Buddha</h2><ul><li><strong>Year:</strong> 1974 (implied, first nuclear test)</li></ul><h2>Operation Balakot Strike</h2><ul><li><strong>Context:</strong> Balakot Airstrike</li></ul><h2>Operation Trident</h2><ul><li><strong>Year:</strong> 1971</li><li><strong>Branch:</strong> Indian Navy</li></ul><h2>Operation Cactus Lily</h2><ul><li><strong>Year:</strong> 1971</li><li><strong>Branch:</strong> Indian Army</li><li><strong>Context:</strong> Bangladesh Liberation War</li></ul><h2>Operation Sindhu</h2><ul><li><strong>Location:</strong> Iran & Israel</li></ul><h2>Operation Brahma</h2><ul><li><strong>Location:</strong> Myanmar</li></ul><h2>Operation Kaveri</h2><ul><li><strong>Location:</strong> Sudan</li></ul><h2>Operation Ajay</h2><ul><li><strong>Location:</strong> Israel</li></ul><h2>Operation Indravati</h2><ul><li><strong>Location:</strong> Haiti</li></ul>
 </div>
 `;
+
+window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
+<h3>1. Core Trigonometric Identities: The Pythagorean Foundation</h3>
+              <p>The Pythagorean identities stand as the fundamental bedrock upon which much of trigonometry is built. Derived directly from the Pythagorean theorem applied to a unit circle, these identities establish intrinsic relationships between the sine, cosine, tangent, cotangent, secant, and cosecant functions. Understanding their origin and various forms is paramount for simplification, proving other identities, and solving trigonometric equations, making them indispensable for any defence examination aspirant.</p>
+              <p>Historically, the concept of relating sides of a right-angled triangle dates back to ancient civilizations, notably the Babylonians and Egyptians. However, it was the Greek mathematician Pythagoras (c. 570 – c. 495 BC) who is credited with the formal proof of the theorem that bears his name. Later, Indian mathematicians like Aryabhata (5th century AD) made significant contributions to trigonometry, developing sine tables and laying groundwork for modern trigonometric functions. The unit circle interpretation, where a point (x, y) on the circle corresponds to (cos θ, sin θ), directly translates the Pythagorean theorem (x² + y² = 1) into the primary trigonometric identity.</p>
+              <ul>
+                <li>**sin²θ + cos²θ = 1**:
+                  <ul>
+                    <li>**WHAT**: This is the most fundamental Pythagorean identity, stating that the square of the sine of an angle plus the square of the cosine of the same angle always equals one.</li>
+                    <li>**WHY**: It directly stems from the Pythagorean theorem (a² + b² = c²) applied to a right-angled triangle inscribed in a unit circle (radius = 1). If the opposite side is sin θ and the adjacent side is cos θ, then (sin θ)² + (cos θ)² = 1².</li>
+                    <li>**HOW**: It allows for the interconversion between sine and cosine functions.
+                      <ul>
+                        <li>**sin²θ = 1 - cos²θ**: Useful when you need to express sin²θ in terms of cos θ, often to simplify expressions or solve equations involving only one trigonometric function.</li>
+                        <li>**cos²θ = 1 - sin²θ**: Similarly, this form is used to express cos²θ in terms of sin θ, facilitating simplification or solving equations.</li>
+                      </ul>
+                    </li>
+                    <li>**EFFECT**: Simplifies complex trigonometric expressions, aids in proving other identities, and is crucial for solving equations by reducing the number of distinct trigonometric functions.</li>
+                    <li>**EXAMPLE**: If cos θ = 3/5, then sin²θ = 1 - (3/5)² = 1 - 9/25 = 16/25, so sin θ = ±4/5.</li>
+                  </ul>
+                </li>
+                <li>**sec²θ - tan²θ = 1** (Condition: θ ≠ (2n+1)π/2, where n is an integer):
+                  <ul>
+                    <li>**WHAT**: This identity relates the secant and tangent functions.</li>
+                    <li>**WHY**: It is derived by dividing the primary identity (sin²θ + cos²θ = 1) by cos²θ. Since division by zero is undefined, this identity holds true only when cos θ ≠ 0, which means θ cannot be odd multiples of π/2 (90°, 270°, etc.). At these angles, tan θ and sec θ are undefined.</li>
+                    <li>**HOW**: Provides alternative forms for sec²θ and tan²θ.
+                      <ul>
+                        <li>**sec²θ = 1 + tan²θ**: Frequently used to replace sec²θ with an expression involving tan θ, especially in calculus for integration or in simplifying algebraic expressions.</li>
+                        <li>**tan²θ = sec²θ - 1**: Useful for expressing tan²θ in terms of sec θ, often to simplify or solve equations.</li>
+                      </ul>
+                    </li>
+                    <li>**EFFECT**: Essential for problems involving secant and tangent, particularly in integration techniques and solving specific types of trigonometric equations.</li>
+                    <li>**EXAMPLE**: If tan θ = √3, then sec²θ = 1 + (√3)² = 1 + 3 = 4, so sec θ = ±2.</li>
+                  </ul>
+                </li>
+                <li>**cosec²θ - cot²θ = 1** (Condition: θ ≠ nπ, where n is an integer):
+                  <ul>
+                    <li>**WHAT**: This identity connects the cosecant and cotangent functions.</li>
+                    <li>**WHY**: It is derived by dividing the primary identity (sin²θ + cos²θ = 1) by sin²θ. This identity is valid only when sin θ ≠ 0, meaning θ cannot be integer multiples of π (0°, 180°, 360°, etc.). At these angles, cot θ and cosec θ are undefined.</li>
+                    <li>**HOW**: Offers interchangeable forms for cosec²θ and cot²θ.
+                      <ul>
+                        <li>**cosec²θ = 1 + cot²θ**: Employed to substitute cosec²θ with an expression involving cot θ, often in simplifying expressions or solving equations.</li>
+                        <li>**cot²θ = cosec²θ - 1**: Useful for expressing cot²θ in terms of cosec θ, aiding in simplification and equation solving.</li>
+                      </ul>
+                    </li>
+                    <li>**EFFECT**: Crucial for problems involving cosecant and cotangent, especially in simplifying complex fractions and solving trigonometric equations.</li>
+                    <li>**EXAMPLE**: If cot θ = 1, then cosec²θ = 1 + (1)² = 2, so cosec θ = ±√2.</li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <h3>2. Sum & Difference Formulas: Expanding Angular Relationships</h3>
+              <p>The sum and difference formulas are powerful tools that allow us to express trigonometric functions of sums or differences of angles in terms of trigonometric functions of the individual angles. These identities are fundamental for calculating exact trigonometric values for angles that are not standard (like 30°, 45°, 60°) but can be expressed as sums or differences of standard angles. They also form the basis for deriving many other advanced trigonometric identities, including multiple angle and half-angle formulas, and are critical in fields like physics for analyzing wave phenomena.</p>
+              <p>The derivation of these formulas can be approached geometrically using the distance formula between two points on a unit circle, or through matrix rotations. While the detailed proofs are typically beyond the scope of direct examination questions for defence exams, understanding their application and the logic behind them is vital. They allow us to break down complex angular problems into simpler components, making them indispensable for both theoretical understanding and practical problem-solving.</p>
+              <ul>
+                <li>**sin(A ± B) = sin A cos B ± cos A sin B**:
+                  <ul>
+                    <li>**WHAT**: This pair of formulas expresses the sine of a sum or difference of two angles.</li>
+                    <li>**WHY**: It allows us to compute the sine of angles like 75° (45° + 30°) or 15° (45° - 30°) using known values.</li>
+                    <li>**HOW**:
+                      <ul>
+                        <li>**sin(A + B) = sin A cos B + cos A sin B**: Used when adding angles.</li>
+                        <li>**sin(A - B) = sin A cos B - cos A sin B**: Used when subtracting angles.</li>
+                      </ul>
+                    </li>
+                    <li>**EFFECT**: Enables calculation of exact values for a wider range of angles and is crucial in wave superposition (e.g., in physics, combining two waves of different frequencies).</li>
+                    <li>**EXAMPLE**: sin 75° = sin(45° + 30°) = sin 45° cos 30° + cos 45° sin 30° = (√2/2)(√3/2) + (√2/2)(1/2) = (√6 + √2)/4.</li>
+                  </ul>
+                </li>
+                <li>**cos(A ± B) = cos A cos B ∓ sin A sin B**:
+                  <ul>
+                    <li>**WHAT**: This pair of formulas expresses the cosine of a sum or difference of two angles. Note the sign change: plus in the argument corresponds to minus in the expansion, and vice versa.</li>
+                    <li>**WHY**: Similar to sine formulas, they help in finding exact cosine values for non-standard angles.</li>
+                    <li>**HOW**:
+                      <ul>
+                        <li>**cos(A + B) = cos A cos B - sin A sin B**: Used when adding angles.</li>
+                        <li>**cos(A - B) = cos A cos B + sin A sin B**: Used when subtracting angles.</li>
+                      </ul>
+                    </li>
+                    <li>**EFFECT**: Facilitates calculation of exact cosine values and is essential in vector projections and rotational transformations.</li>
+                    <li>**EXAMPLE**: cos 15° = cos(45° - 30°) = cos 45° cos 30° + sin 45° sin 30° = (√2/2)(√3/2) + (√2/2)(1/2) = (√6 + √2)/4.</li>
+                  </ul>
+                </li>
+                <li>**tan(A ± B) = (tan A ± tan B) / (1 ∓ tan A tan B)**:
+                  <ul>
+                    <li>**WHAT**: These formulas provide the tangent of a sum or difference of two angles.</li>
+                    <li>**WHY**: Derived from sin(A ± B) / cos(A ± B), they are useful when working directly with tangent functions.</li>
+                    <li>**HOW**:
+                      <ul>
+                        <li>**tan(A + B) = (tan A + tan B) / (1 - tan A tan B)**: For sum of angles.</li>
+                        <li>**tan(A - B) = (tan A - tan B) / (1 + tan A tan B)**: For difference of angles.</li>
+                      </ul>
+                    </li>
+                    <li>**EFFECT**: Simplifies expressions involving tangent of compound angles and is useful in finding angles between lines.</li>
+                    <li>**EXAMPLE**: tan 105° = tan(60° + 45°) = (tan 60° + tan 45°) / (1 - tan 60° tan 45°) = (√3 + 1) / (1 - √3 * 1) = (√3 + 1) / (1 - √3).</li>
+                  </ul>
+                </li>
+                <li>**cot(A ± B) = (cot A cot B ∓ 1) / (cot B ± cot A)**:
+                  <ul>
+                    <li>**WHAT**: These formulas express the cotangent of a sum or difference of two angles.</li>
+                    <li>**WHY**: While less frequently used than tangent formulas, they are useful in specific problems involving cotangent, especially when tan A or tan B might be undefined.</li>
+                    <li>**HOW**:
+                      <ul>
+                        <li>**cot(A + B) = (cot A cot B - 1) / (cot B + cot A)**: For sum of angles.</li>
+                        <li>**cot(A - B) = (cot A cot B + 1) / (cot B - cot A)**: For difference of angles.</li>
+                      </ul>
+                    </li>
+                    <li>**EFFECT**: Offers an alternative for problems where cotangent is more convenient, or where tangent might lead to undefined terms.</li>
+                    <li>**EXAMPLE**: cot 75° = cot(45° + 30°) = (cot 45° cot 30° - 1) / (cot 30° + cot 45°) = (1 * √3 - 1) / (√3 + 1) = (√3 - 1) / (√3 + 1).</li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <h3>3. Multiple Angle Identities: Simplifying Powers and Expanding Angles</h3>
+              <p>Multiple angle identities are crucial for expressing trigonometric functions of an angle 'nA' (where 'n' is an integer, typically 2 or 3) in terms of trigonometric functions of 'A'. These identities are indispensable in calculus, particularly for reducing powers of trigonometric functions in integration, and for solving trigonometric equations where angles are multiples of each other. They are derived directly from the sum formulas by setting the angles equal (e.g., sin 2A = sin(A + A)).</p>
+              <p>The ability to transform expressions involving multiple angles into single-angle functions simplifies complex problems and reveals underlying relationships. For instance, expressing cos 2A in multiple forms provides flexibility in choosing the most convenient form for a given problem, often to eliminate a specific trigonometric function or to simplify algebraic manipulation.</p>
+              <ul>
+                <li>**sin 2A = 2 sin A cos A**:
+                  <ul>
+                    <li>**WHAT**: Expresses the sine of double an angle in terms of sine and cosine of the single angle.</li>
+                    <li>**WHY**: Derived from sin(A+A) = sin A cos A + cos A sin A. It's fundamental for reducing double angles.</li>
+                    <li>**HOW**:
+                      <ul>
+                        <li>**2 sin A cos A**: The primary form, useful for differentiation and integration where a product can be converted.</li>
+                        <li>**2tan A / (1 + tan² A)**: This form is derived by dividing the numerator and denominator by cos²A and using the identity sec²A = 1 + tan²A. It's particularly useful when the problem involves tangent functions.</li>
+                      </ul>
+                    </li>
+                    <li>**EFFECT**: Simplifies expressions, helps in solving equations, and is vital in calculus for integration (e.g., ∫sin 2x dx).</li>
+                    <li>**EXAMPLE**: If sin A = 3/5 and cos A = 4/5, then sin 2A = 2(3/5)(4/5) = 24/25.</li>
+                  </ul>
+                </li>
+                <li>**cos 2A = cos² A - sin² A**:
+                  <ul>
+                    <li>**WHAT**: The cosine of double an angle has four primary forms, offering great flexibility.</li>
+                    <li>**WHY**: Derived from cos(A+A) = cos A cos A - sin A sin A. The multiple forms arise from substituting the Pythagorean identity (sin²A + cos²A = 1).</li>
+                    <li>**HOW**:
+                      <ul>
+                        <li>**cos² A - sin² A**: The direct derivation, useful when both sin²A and cos²A are present.</li>
+                        <li>**2cos² A - 1**: Derived by substituting sin² A = 1 - cos² A. Useful when you want to express cos 2A solely in terms of cos A.</li>
+                        <li>**1 - 2sin² A**: Derived by substituting cos² A = 1 - sin² A. Useful when you want to express cos 2A solely in terms of sin A. This form is particularly important for deriving half-angle formulas.</li>
+                        <li>**(1 - tan² A)/(1 + tan² A)**: Derived by dividing the numerator and denominator of (cos² A - sin² A) by cos² A and using sec²A = 1 + tan²A. Useful when the problem involves tangent functions.</li>
+                      </ul>
+                    </li>
+                    <li>**EFFECT**: Provides flexibility in simplifying expressions, solving equations, and is crucial for power reduction in calculus (e.g., cos²A = (1 + cos 2A)/2).</li>
+                    <li>**EXAMPLE**: If cos A = 1/2, then cos 2A = 2(1/2)² - 1 = 2(1/4) - 1 = 1/2 - 1 = -1/2.</li>
+                  </ul>
+                </li>
+                <li>**tan 2A = 2tan A / (1 - tan² A)**:
+                  <ul>
+                    <li>**WHAT**: Expresses the tangent of double an angle in terms of the tangent of the single angle.</li>
+                    <li>**WHY**: Derived from tan(A+A) = (tan A + tan A) / (1 - tan A tan A).</li>
+                    <li>**HOW**: Directly applied when dealing with tangent functions of double angles.</li>
+                    <li>**EFFECT**: Simplifies expressions involving tan 2A and is useful in solving equations where tangent is involved.</li>
+                    <li>**EXAMPLE**: If tan A = 1, then tan 2A = 2(1) / (1 - 1²) = 2 / 0, which is undefined, consistent with tan 90°.</li>
+                  </ul>
+                </li>
+                <li>**sin 3A = 3sin A - 4sin³ A**:
+                  <ul>
+                    <li>**WHAT**: Expresses the sine of triple an angle in terms of the sine of the single angle.</li>
+                    <li>**WHY**: Derived from sin(2A + A) using sum and double angle formulas.</li>
+                    <li>**HOW**: Useful for reducing powers of sin A (e.g., sin³ A = (3sin A - sin 3A)/4) in calculus or solving cubic trigonometric equations.</li>
+                    <li>**EFFECT**: Simplifies expressions and helps in solving higher-order trigonometric equations.</li>
+                  </ul>
+                </li>
+                <li>**cos 3A = 4cos³ A - 3cos A**:
+                  <ul>
+                    <li>**WHAT**: Expresses the cosine of triple an angle in terms of the cosine of the single angle.</li>
+                    <li>**WHY**: Derived from cos(2A + A) using sum and double angle formulas.</li>
+                    <li>**HOW**: Useful for reducing powers of cos A (e.g., cos³ A = (3cos A + cos 3A)/4) in calculus or solving cubic trigonometric equations.</li>
+                    <li>**EFFECT**: Simplifies expressions and aids in solving higher-order trigonometric equations.</li>
+                  </ul>
+                </li>
+                <li>**tan 3A = (3tan A - tan³ A) / (1 - 3tan² A)**:
+                  <ul>
+                    <li>**WHAT**: Expresses the tangent of triple an angle in terms of the tangent of the single angle.</li>
+                    <li>**WHY**: Derived from tan(2A + A).</li>
+                    <li>**HOW**: Applied directly in problems involving tan 3A.</li>
+                    <li>**EFFECT**: Simplifies expressions and helps in solving specific trigonometric equations.</li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <h3>4. Product-to-Sum & Sum-to-Product Formulas: Transforming Expressions</h3>
+              <p>These sets of formulas are vital for transforming trigonometric expressions from products into sums (or differences) and vice versa. This transformation is incredibly useful in various mathematical contexts, particularly in calculus for integration (converting products into sums makes them easier to integrate) and in solving trigonometric equations by factoring. In physics, they are fundamental for understanding phenomena like beats in sound waves or interference patterns in optics, where the superposition of waves often results in product-to-sum type expressions.</p>
+              <p>The product-to-sum formulas are derived by adding or subtracting the sum and difference formulas. Conversely, the sum-to-product formulas are derived by setting C = A+B and D = A-B, then solving for A and B, and substituting these back into the product-to-sum identities. Mastery of these transformations significantly enhances problem-solving capabilities in advanced trigonometry.</p>
+              <ul>
+                <li>**Product-to-Sum Formulas**:
+                  <p>These identities convert products of sines and cosines into sums or differences, making them easier to integrate or differentiate.</p>
+                  <ul>
+                    <li>**2 sin A cos B = sin(A + B) + sin(A - B)**:
+                      <ul>
+                        <li>**WHAT**: Converts a product of sine and cosine into a sum of sines.</li>
+                        <li>**WHY**: Derived by adding sin(A+B) and sin(A-B).</li>
+                        <li>**HOW**: Used to simplify integrals of the form ∫sin(ax)cos(bx) dx.</li>
+                        <li>**EFFECT**: Simplifies integration and helps in solving certain types of trigonometric equations.</li>
+                      </ul>
+                    </li>
+                    <li>**2 cos A sin B = sin(A + B) - sin(A - B)**:
+                      <ul>
+                        <li>**WHAT**: Converts a product of cosine and sine into a difference of sines.</li>
+                        <li>**WHY**: Derived by subtracting sin(A-B) from sin(A+B).</li>
+                        <li>**HOW**: Similar to the above, useful for integrals and solving equations.</li>
+                        <li>**EFFECT**: Facilitates integration and algebraic manipulation.</li>
+                      </ul>
+                    </li>
+                    <li>**2 cos A cos B = cos(A + B) + cos(A - B)**:
+                      <ul>
+                        <li>**WHAT**: Converts a product of two cosines into a sum of cosines.</li>
+                        <li>**WHY**: Derived by adding cos(A+B) and cos(A-B).</li>
+                        <li>**HOW**: Essential for integrating products of cosines, e.g., ∫cos(ax)cos(bx) dx.</li>
+                        <li>**EFFECT**: Simplifies integration and helps in analyzing wave interactions.</li>
+                      </ul>
+                    </li>
+                    <li>**2 sin A sin B = cos(A - B) - cos(A + B)**:
+                      <ul>
+                        <li>**WHAT**: Converts a product of two sines into a difference of cosines. Note the order of subtraction (A-B first).</li>
+                        <li>**WHY**: Derived by subtracting cos(A+B) from cos(A-B).</li>
+                        <li>**HOW**: Crucial for integrating products of sines, e.g., ∫sin(ax)sin(bx) dx.</li>
+                        <li>**EFFECT**: Simplifies integration and is used in Fourier series analysis.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Sum-to-Product Formulas**:
+                  <p>These identities convert sums or differences of sines and cosines into products. This is particularly useful for factoring expressions, finding roots of trigonometric equations, and simplifying fractions.</p>
+                  <ul>
+                    <li>**sin C + sin D = 2 sin((C+D)/2) cos((C-D)/2)**:
+                      <ul>
+                        <li>**WHAT**: Converts a sum of two sines into a product of sine and cosine.</li>
+                        <li>**WHY**: Derived by setting C = A+B and D = A-B in the product-to-sum formula for 2 sin A cos B.</li>
+                        <li>**HOW**: Used to factor trigonometric expressions, solve equations (e.g., sin 3x + sin x = 0), and simplify fractions.</li>
+                        <li>**EFFECT**: Facilitates solving equations by converting sums into factors, which can then be set to zero.</li>
+                      </ul>
+                    </li>
+                    <li>**sin C - sin D = 2 cos((C+D)/2) sin((C-D)/2)**:
+                      <ul>
+                        <li>**WHAT**: Converts a difference of two sines into a product of cosine and sine.</li>
+                        <li>**WHY**: Derived similarly from the product-to-sum formula for 2 cos A sin B.</li>
+                        <li>**HOW**: Applied for factoring and solving equations.</li>
+                        <li>**EFFECT**: Useful in finding roots and simplifying expressions.</li>
+                      </ul>
+                    </li>
+                    <li>**cos C + cos D = 2 cos((C+D)/2) cos((C-D)/2)**:
+                      <ul>
+                        <li>**WHAT**: Converts a sum of two cosines into a product of two cosines.</li>
+                        <li>**WHY**: Derived from the product-to-sum formula for 2 cos A cos B.</li>
+                        <li>**HOW**: Essential for factoring and solving equations involving sums of cosines.</li>
+                        <li>**EFFECT**: Simplifies expressions and aids in solving equations.</li>
+                      </ul>
+                    </li>
+                    <li>**cos C - cos D = -2 sin((C+D)/2) sin((C-D)/2)**:
+                      <ul>
+                        <li>**WHAT**: Converts a difference of two cosines into a product of two sines, with a negative sign.</li>
+                        <li>**WHY**: Derived from the product-to-sum formula for 2 sin A sin B. The negative sign is crucial and often a point of error.</li>
+                        <li>**HOW**: Used for factoring and solving equations, particularly when dealing with differences of cosines.</li>
+                        <li>**EFFECT**: Important for solving equations and simplifying expressions, especially in wave interference analysis.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["inverse-trig"] = String.raw`
+<h3>1. Principal Value Branches (PVB) of Inverse Trigonometric Functions</h3>
+              <p>
+                Inverse Trigonometric Functions (ITFs), often denoted as arc-functions (e.g., arcsin x, arccos x), are the inverses of the standard trigonometric functions. For a function to have an inverse, it must be both one-to-one (injective) and onto (surjective). However, trigonometric functions like sin x, cos x, and tan x are periodic, meaning they repeat their values over infinite intervals, making them many-to-one functions. To define their inverses, we must restrict their domains to specific intervals where they become one-to-one and retain their entire range. The range of the inverse trigonometric function, corresponding to this restricted domain of the original trigonometric function, is known as its **Principal Value Branch (PVB)**. Understanding and memorizing these domains and PVBs is absolutely critical for solving equations, simplifying expressions, and ensuring correct answers in competitive examinations like NDA, CDS, and AFCAT.
+              </p>
+              <p>
+                The concept of a PVB is a mathematical convention established to ensure that for any given input 'x' within the domain of the inverse function, there is a unique output angle. This uniqueness is fundamental to the definition of a function. Historically, mathematicians like Euler and Cotes laid foundational work for understanding inverse functions, which later evolved into the standardized PVBs we use today. Let's delve into the specifics for each inverse trigonometric function:
+              </p>
+              <ul>
+                <li>
+`;
+
+window.EXPANDED_NOTES_DATA["quadratic-eq"] = String.raw`
+<h3>1. Nature of Roots of a Quadratic Equation</h3>
+<p>
+  The study of quadratic equations forms a fundamental cornerstone in algebra, with profound applications across various scientific and engineering disciplines. A quadratic equation is a polynomial equation of the second degree, meaning it contains at least one term in which the unknown variable is raised to the power of two. Its standard form is given by <b>ax² + bx + c = 0</b>, where 'x' represents the unknown variable, and 'a', 'b', and 'c' are coefficients, with 'a' being a non-zero constant (a ≠ 0). If 'a' were zero, the equation would reduce to a linear equation, bx + c = 0.
+</p>
+<p>
+  The solutions to a quadratic equation are known as its 'roots' or 'zeros'. These roots represent the values of 'x' for which the equation holds true. Geometrically, if we plot the function y = ax² + bx + c, the roots correspond to the x-intercepts, i.e., the points where the parabola crosses or touches the x-axis. The nature of these roots – whether they are real or complex, distinct or equal – is entirely determined by a crucial component derived from the quadratic formula, known as the <b>discriminant</b>.
+</p>
+
+<h3>2. The Quadratic Formula and the Discriminant</h3>
+<p>
+  The general solution for the roots of a quadratic equation ax² + bx + c = 0 is provided by the quadratic formula, which can be derived by the method of 'completing the square'. This formula is attributed to ancient Indian mathematicians like Brahmagupta and Sridhara, and later refined and popularized by Persian mathematician Al-Khwarizmi. The formula states that the roots 'x' are given by:
+</p>
+<p style="text-align: center; font-weight: bold;">
+  x = [-b ± √(b² - 4ac)] / 2a
+</p>
+<p>
+  Within this formula, the expression under the square root sign, <b>b² - 4ac</b>, is of paramount importance. This expression is called the <b>discriminant</b>, commonly denoted by the Greek letter Delta (Δ) or 'D'.
+</p>
+<ul>
+  <li><b>Definition:</b> The discriminant D = b² - 4ac.</li>
+  <li><b>Purpose:</b> It 'discriminates' or distinguishes between the different types of roots a quadratic equation can possess without actually calculating the roots themselves. By evaluating D, we can predict the characteristics of the roots.</li>
+  <li><b>Derivation Insight:</b> The term b² - 4ac arises directly from the algebraic manipulation involved in completing the square. When solving x² + (b/a)x + (c/a) = 0, we add (b/2a)² to both sides, leading to (x + b/2a)² = (b/2a)² - c/a = (b² - 4ac) / 4a². The square root of the right side then directly involves √(b² - 4ac).</li>
+  <li><b>Historical Context:</b> While the quadratic formula's origins are ancient, the explicit term "discriminant" and its systematic use to classify roots became more prominent with the development of modern algebra in the 17th and 18th centuries, solidifying its role as a key analytical tool.</li>
+</ul>
+
+<h3>3. Classification of Roots based on the Discriminant (D)</h3>
+<p>
+  The value of the discriminant D = b² - 4ac dictates the fundamental characteristics of the roots of the quadratic equation ax² + bx + c = 0. There are three primary cases, each with distinct implications for the nature and graphical representation of the roots:
+</p>
+
+<ul>
+  <li>
+    <b>D > 0: Real and Distinct Roots</b>
+    <ul>
+      <li><b>WHAT:</b> When the discriminant is a positive value (D > 0), the quadratic equation has two roots that are both real numbers and are distinct from each other. This means the equation has two unique numerical solutions that belong to the set of real numbers.</li>
+      <li><b>WHY:</b> The square root of any positive real number (√D) yields a real, non-zero value. Because of the '±' sign in the quadratic formula, this positive square root is both added to and subtracted from -b, resulting in two different real numbers.</li>
+      <li><b>HOW:</b>
+        <ul>
+          <li>The two roots are explicitly given by:</li>
+          <li>x₁ = [-b + √D] / 2a</li>
+          <li>x₂ = [-b - √D] / 2a</li>
+          <li>Since √D is a non-zero real number, x₁ will always be different from x₂.</li>
+        </ul>
+      </li>
+      <li><b>EFFECT (Graphical Interpretation):</b> The parabola represented by the function y = ax² + bx + c intersects the x-axis at two distinct points. These two points are the real and distinct roots of the equation, indicating where the function's value is zero.</li>
+      <li><b>EXAMPLE:</b> Consider the equation x² - 5x + 6 = 0.
+        <ul>
+          <li>Here, the coefficients are a=1, b=-5, c=6.</li>
+          <li>Calculate the discriminant: D = (-5)² - 4(1)(6) = 25 - 24 = 1.</li>
+          <li>Since D = 1 > 0, the roots are real and distinct.</li>
+          <li>Using the quadratic formula: x = [5 ± √1] / 2 = [5 ± 1] / 2.</li>
+          <li>The roots are x₁ = (5+1)/2 = 3 and x₂ = (5-1)/2 = 2. Both are real and distinct integers.</li>
+        </ul>
+      </li>
+      <li><b>Sub-cases for D > 0:</b>
+        <ul>
+          <li><b>If D is a perfect square (e.g., 1, 4, 9, 16, 25...):</b> The roots will be <b>rational and distinct</b>. This means they can be expressed as a ratio of two integers (p/q, where q ≠ 0). The example x² - 5x + 6 = 0 (D=1) yields rational roots (3, 2). This also implies that the quadratic expression can be factored into two linear factors with rational coefficients.</li>
+          <li><b>If D is not a perfect square (e.g., 2, 3, 5, 6, 7, 8, 10, 11, 12...):</b> The roots will be <b>irrational and distinct</b>. These roots will typically appear in the form of conjugate surds (p + √q and p - √q), provided the coefficients a, b, c are rational. For instance, if x² - 4x + 1 = 0, D = (-4)² - 4(1)(1) = 16 - 4 = 12. Roots are x = [4 ± √12] / 2 = [4 ± 2√3] / 2 = 2 ± √3. These are irrational and distinct.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <b>D = 0: Real and Equal Roots (Coincident Roots)</b>
+    <ul>
+      <li><b>WHAT:</b> When the discriminant is exactly zero (D = 0), the quadratic equation has two roots that are both real numbers and are identical or equal to each other. They are often referred to as coincident roots, meaning they coincide at a single point.</li>
+      <li><b>WHY:</b> The square root of zero (√0) is zero. In the quadratic formula, the '± √D' term becomes '± 0', which effectively vanishes. This leaves only one unique value for x, as adding or subtracting zero does not change the value.</li>
+      <li><b>HOW:</b>
+        <ul>
+          <li>The quadratic formula simplifies to: x = [-b ± √0] / 2a</li>
+          <li>Therefore, both roots are equal to: x = -b / 2a</li>
+          <li>This indicates that the quadratic expression is a perfect square trinomial, i.e., it can be factored into a form like a(x - r)², where r is the repeated root.</li>
+        </ul>
+      </li>
+      <li><b>EFFECT (Graphical Interpretation):</b> The parabola represented by the function y = ax² + bx + c touches the x-axis at exactly one point. This point is the vertex of the parabola, and it lies precisely on the x-axis. The x-axis is tangent to the parabola at this point.</li>
+      <li><b>EXAMPLE:</b> Consider the equation x² - 4x + 4 = 0.
+        <ul>
+          <li>Here, a=1, b=-4, c=4.</li>
+          <li>Calculate the discriminant: D = (-4)² - 4(1)(4) = 16 - 16 = 0.</li>
+          <li>Since D = 0, the roots are real and equal.</li>
+          <li>Using the quadratic formula: x = [4 ± √0] / 2 = 4 / 2.</li>
+          <li>The roots are x₁ = 2 and x₂ = 2. Both are real and equal. This equation can also be factored as (x-2)² = 0.</li>
+        </ul>
+      </li>
+      <li><b>Relevance:</b> This condition is crucial in problems involving tangency, finding maximum/minimum points where a curve just touches an axis, or in scenarios where a system has a critical damping condition (e.g., in mechanical or electrical oscillations, where it represents the fastest return to equilibrium without oscillation).</li>
+    </ul>
+  </li>
+
+  <li>
+    <b>D < 0: Complex Conjugate Roots (Non-Real Roots)</b>
+    <ul>
+      <li><b>WHAT:</b> When the discriminant is a negative value (D < 0), the quadratic equation has two roots that are complex numbers and are conjugates of each other. These roots are not real numbers, meaning there are no solutions within the real number system.</li>
+      <li><b>WHY:</b> The square root of a negative number cannot be a real number. To resolve this, we introduce the imaginary unit 'i', where i = √(-1) and i² = -1. Thus, the term √D becomes an imaginary number.</li>
+      <li><b>HOW:</b>
+        <ul>
+          <li>Let D = -k, where k is a positive number (k = |D|).</li>
+          <li>Then, √D = √(-k) = √(-1 * k) = √(-1) * √k = i√k.</li>
+          <li>The roots become: x = [-b ± i√k] / 2a = [-b ± i√|D|] / 2a.</li>
+          <li>These roots are of the form p + iq and p - iq, where p = -b/2a (the real part) and q = √|D|/2a (the imaginary part). This pair (p + iq, p - iq) is known as a pair of complex conjugates.</li>
+        </ul>
+      </li>
+      <li><b>Introduction to Complex Numbers:</b>
+        <ul>
+          <li>A complex number is generally expressed in the form a + bi, where 'a' is the real part and 'b' is the imaginary part, and 'i' is the imaginary unit (i² = -1).</li>
+          <li>The conjugate of a complex number (a + bi) is (a - bi). Complex conjugates always have the same real part but opposite imaginary parts.</li>
+          <li>Complex numbers extend the real number system, allowing solutions to equations that have no real solutions, thereby completing the algebraic closure of the number system.</li>
+        </ul>
+      </li>
+      <li><b>EFFECT (Graphical Interpretation):</b> The parabola represented by the function y = ax² + bx + c does not intersect the x-axis at all. If 'a' > 0, the parabola opens upwards and lies entirely above the x-axis (never touching or crossing it). If 'a' < 0, the parabola opens downwards and lies entirely below the x-axis.</li>
+      <li><b>EXAMPLE:</b> Consider the equation x² + x + 1 = 0.
+        <ul>
+          <li>Here, a=1, b=1, c=1.</li>
+          <li>Calculate the discriminant: D = (1)² - 4(1)(1) = 1 - 4 = -3.</li>
+          <li>Since D = -3 < 0, the roots are complex conjugates.</li>
+          <li>Using the quadratic formula: x = [-1 ± √(-3)] / 2 = [-1 ± i√3] / 2.</li>
+          <li>The roots are x₁ = (-1 + i√3)/2 and x₂ = (-1 - i√3)/2. These are complex conjugate roots.</li>
+        </ul>
+      </li>
+      <li><b>Relevance:</b> Complex roots are fundamental in fields like electrical engineering (AC circuits, where 'i' represents phase shifts), quantum mechanics, signal processing, and control systems, where oscillatory or wave-like phenomena are modeled and analyzed. They provide a complete mathematical description of such systems.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>4. Relationship Between Roots and Coefficients (Vieta's Formulas)</h3>
+<p>
+  Beyond just their nature, the roots of a quadratic equation also bear a specific relationship
+`;
+
+window.EXPANDED_NOTES_DATA["complex-numbers"] = String.raw`
+<h3>1. Polar Form and Modulus: A Comprehensive Analysis for Defence Aspirants</h3>
+            <p>
+              Complex numbers represent a fundamental extension of the real number system, introduced to solve algebraic equations that have no solutions within the realm of real numbers, such as x² + 1 = 0. A complex number, conventionally denoted as 'z', is expressed in its rectangular or Cartesian form as **z = x + iy**, where 'x' is the real part (Re(z)) and 'y' is the imaginary part (Im(z)). The 'i' represents the imaginary unit, defined as &radic;(-1). While the Cartesian form is intuitive for basic arithmetic operations like addition and subtraction, the polar form offers a powerful alternative, particularly for multiplication, division, powers, and roots, by leveraging the geometric interpretation of complex numbers.
+            </p>
+            <p>
+              The geometric representation of complex numbers is facilitated by the **Argand Plane** (also known as the Complex Plane), named after Jean-Robert Argand. In this plane, a complex number z = x + iy is mapped to a unique point (x, y), where the x-axis represents the real part and the y-axis represents the imaginary part. This geometric perspective is crucial for understanding the polar form, which describes the position of this point not by its Cartesian coordinates (x, y) but by its distance from the origin and the angle it makes with the positive real axis.
+            </p>
+            <p>
+              The **modulus** of a complex number z = x + iy, denoted as |z| or 'r', is defined as the distance of the point (x, y) from the origin (0, 0) in the Argand Plane.
+            </p>
+            <ul>
+              <li>
+                <strong>WHAT is Modulus?</strong> The modulus, |z|, is the magnitude or the absolute value of the complex number. It is a non-negative real number.
+              </li>
+              <li>
+                <strong>WHY is Modulus Important?</strong> It quantifies the "size" or "strength" of a complex number, analogous to the magnitude of a vector. In physical applications, such as electrical engineering (impedance, voltage, current), it represents the amplitude.
+              </li>
+              <li>
+                <strong>HOW is Modulus Calculated?</strong> Using the Pythagorean theorem, the distance from the origin to (x, y) is given by the formula:
+                <p><strong>|z| = &radic;(x&sup2; + y&sup2;)</strong></p>
+                For example, if z = 3 + 4i, then |z| = &radic;(3&sup2; + 4&sup2;) = &radic;(9 + 16) = &radic;25 = 5.
+              </li>
+              <li>
+                <strong>EFFECT and Properties of Modulus:</strong>
+                <ul>
+                  <li>It is always non-negative: |z| &ge; 0.</li>
+                  <li>|z| = 0 if and only if z = 0.</li>
+                  <li>|z| = |-z| = |z̅| (where z̅ is the conjugate x - iy).</li>
+                  <li>|z&sup2;| = z * z̅ = x&sup2; + y&sup2;.</li>
+                  <li>Multiplication property: |z₁ * z₂| = |z₁| * |z₂|. This simplifies calculations involving products of complex numbers.</li>
+                  <li>Division property: |z₁ / z₂| = |z₁| / |z₂| (provided z₂ &ne; 0).</li>
+                  <li>Power property: |zⁿ| = |z|ⁿ.</li>
+                  <li>Triangle Inequality: ||z₁| - |z₂|| &le; |z₁ + z₂| &le; |z₁| + |z₂|. This property is fundamental in complex analysis and has wide applications in geometry and inequalities.</li>
+                </ul>
+              </li>
+            </ul>
+
+            <h3>2. Argument of a Complex Number</h3>
+            <ul>
+              <li>
+                <strong>WHAT is Argument?</strong> The argument of a complex number z = x + iy, denoted as arg(z) or &theta;, is the angle (in radians) that the line segment connecting the origin to the point (x, y) makes with the positive x-axis in the Argand Plane.
+              </li>
+              <li>
+                <strong>WHY is Argument Important?</strong> While the modulus gives the magnitude, the argument provides the direction or orientation of the complex number. Together, the modulus and argument uniquely define a complex number in its polar form.
+              </li>
+              <li>
+                <strong>HOW is Argument Calculated?</strong> The primary formula derived from trigonometry is:
+                <p><strong>&theta; = tan⁻&sup1;(y/x)</strong></p>
+                However, this formula alone is insufficient as the `tan⁻&sup1;` function typically returns values only in the range (-&pi;/2, &pi;/2). The correct quadrant of the complex number (x, y) must be considered to determine the accurate argument.
+                <p>Let &alpha; = tan⁻&sup1;(|y/x|) be the reference angle (always positive and acute).</p>
+                <ul>
+                  <li><strong>Quadrant I (x > 0, y > 0):</strong> &theta; = &alpha;</li>
+                  <li><strong>Quadrant II (x < 0, y > 0):</strong> &theta; = &pi; - &alpha;</li>
+                  <li><strong>Quadrant III (x < 0, y < 0):</strong> &theta; = -&pi; + &alpha; (or &pi; + &alpha; if the range is [0, 2&pi;))</li>
+                  <li><strong>Quadrant IV (x > 0, y < 0):</strong> &theta; = -&alpha; (or 2&pi; - &alpha; if the range is [0, 2&pi;))</li>
+                  <li><strong>Special Cases:</strong>
+                    <ul>
+                      <li>If x = 0, y > 0 (purely imaginary positive): &theta; = &pi;/2</li>
+                      <li>If x = 0, y < 0 (purely imaginary negative): &theta; = -&pi;/2 (or 3&pi;/2)</li>
+                      <li>If x > 0, y = 0 (purely real positive): &theta; = 0</li>
+                      <li>If x < 0, y = 0 (purely real negative): &theta; = &pi;</li>
+                    </ul>
+                  </li>
+                </ul>
+                The **Principal Argument**, denoted as Arg(z), is the unique value of &theta; such that -&pi; < &theta; &le; &pi;. The general argument is given by arg(z) = Arg(z) + 2n&pi;, where n is an integer.
+                <p><strong>Example:</strong> For z = -1 + i:</p>
+                <ul>
+                  <li>x = -1, y = 1. This is in Quadrant II.</li>
+                  <li>&alpha; = tan⁻&sup1;(|1/-1|) = tan⁻&sup1;(1) = &pi;/4.</li>
+                  <li>Therefore, &theta; = &pi; - &pi;/4 = 3&pi;/4.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>EFFECT: Polar Form (Trigonometric Form)</strong>
+                <p>Once the modulus 'r' and argument '&theta;' are determined, the complex number z = x + iy can be expressed in its polar form:</p>
+                <p><strong>z = r(cos &theta; + i sin &theta;)</strong></p>
+                This form is derived directly from the relationships x = r cos &theta; and y = r sin &theta;.
+              </li>
+            </ul>
+
+            <h3>3. Euler's Formula and Exponential Form</h3>
+            <p>
+              A crucial connection between complex numbers, trigonometry, and exponential functions was established by Leonhard Euler in the 18th century. **Euler's Formula** states:
+            </p>
+            <p><strong>e^(i&theta;) = cos &theta; + i sin &theta;</strong></p>
+            <ul>
+              <li>
+                <strong>WHAT is Euler's Formula?</strong> It is a mathematical identity that links the complex exponential function with trigonometric functions. It is considered one of the most beautiful formulas in mathematics.
+              </li>
+              <li>
+                <strong>WHY is Euler's Formula Important?</strong> It provides an incredibly compact and powerful way to represent complex numbers in polar form, simplifying many operations and revealing deep mathematical symmetries.
+              </li>
+              <li>
+                <strong>HOW does it relate to Polar Form?</strong> By substituting Euler's formula into the polar form z = r(cos &theta; + i sin &theta;), we get the **Exponential Form** of a complex number:
+                <p><strong>z = r * e^(i&theta;)</strong></p>
+                This form is particularly advantageous for operations like multiplication, division, and exponentiation.
+              </li>
+              <li>
+                <strong>EFFECT: Simplified Operations in Exponential Form:</strong>
+                <ul>
+                  <li><strong>Multiplication:</strong> If z₁ = r₁e^(i&theta;₁) and z₂ = r₂e^(i&theta;₂), then z₁z₂ = r₁r₂e^(i(&theta;₁ + &theta;₂)). This means moduli multiply, and arguments add.</li>
+                  <li><strong>Division:</strong> z₁/z₂ = (r₁/r₂)e^(i(&theta;₁ - &theta;₂)). Moduli divide, and arguments subtract.</li>
+                  <li><strong>Powers:</strong> zⁿ = (re^(i&theta;))ⁿ = rⁿe^(in&theta;). This directly leads to De Moivre's Theorem.</li>
+                </ul>
+              </li>
+            </ul>
+
+            <h3>4. De Moivre's Theorem</h3>
+            <p>
+              Named after the French mathematician Abraham de Moivre, this theorem is a cornerstone for working with powers and roots of complex numbers in polar form. It directly follows from the properties of the exponential form.
+            </p>
+            <ul>
+              <li>
+                <strong>WHAT is De Moivre's Theorem?</strong> For any real number &theta; and any integer 'n', the theorem states:
+                <p><strong>(cos &theta; + i sin &theta;)ⁿ = cos(n&theta;) + i sin(n&theta;)</strong></p>
+                This can also be written as (e^(i&theta;))ⁿ = e^(in&theta;).
+              </li>
+              <li>
+                <strong>WHY is De Moivre's Theorem Important?</strong> It provides a straightforward method to raise a complex number (in polar form with unit modulus) to an integer power. It is also fundamental for finding the roots of complex numbers and deriving trigonometric identities.
+              </li>
+              <li>
+                <strong>HOW is it Applied?</strong>
+                <ul>
+                  <li><strong>Powers of Complex Numbers:</strong> If z = r(cos &theta; + i sin &theta;), then zⁿ = rⁿ(cos(n&theta;) + i sin(n&theta;)). This means you raise the modulus to the power 'n' and multiply the argument by 'n'.
+                    <p><strong>Example:</strong> Calculate (1 + i)&sup3;.</p>
+                    <p>First, convert 1 + i to polar form:</p>
+                    <ul>
+                      <li>r = &radic;(1&sup2; + 1&sup2;) = &radic;2</li>
+                      <li>&theta; = tan⁻&sup1;(1/1) = &pi;/4 (Quadrant I)</li>
+                    </ul>
+                    <p>So, 1 + i = &radic;2(cos(&pi;/4) + i sin(&pi;/4)).</p>
+                    <p>Applying De Moivre's Theorem:</p>
+                    <p>(1 + i)&sup3; = (&radic;2)&sup3;(cos(3 * &pi;/4) + i sin(3 * &pi;/4))</p>
+                    <p>= 2&radic;2(cos(3&pi;/4) + i sin(3&pi;/4))</p>
+                    <p>= 2&radic;2(-&radic;2/2 + i &radic;2/2)</p>
+                    <p>= -2 + 2i</p>
+                  </li>
+                  <li><strong>Finding Roots of Complex Numbers (n-th Roots):</strong> De Moivre's Theorem is extended to find the 'n' distinct n-th roots of a complex number. If z = r(cos &theta; + i sin &theta;), then its 'n' roots are given by:
+                    <p><strong>z^(1/n) = r^(1/n) [cos((&theta; + 2k&pi;)/n) + i sin((&theta; + 2k&pi;)/n)]</strong></p>
+                    where k = 0, 1, 2, ..., n-1. Each value of 'k' yields a distinct root. Geometrically, these 'n' roots are equally spaced on a circle of radius r^(1/n) centered at the origin in the Argand Plane.
+                    <p><strong>Example:</strong> Find the cube roots of 1 (roots of unity).</p>
+                    <p>1 = 1(cos(0) + i sin(0)). Here r = 1, &theta; = 0, n = 3.</p>
+                    <p>The roots are 1^(1/3) [cos((0 + 2k&pi;)/3) + i sin((0 + 2k&pi;)/3)] for k = 0, 1, 2.</p>
+                    <ul>
+                      <li>k = 0: 1(cos(0) + i sin(0)) = 1</li>
+                      <li>k = 1: 1(cos(2&pi;/3) + i sin(2&pi;/3)) = -1/2 + i&radic;3/2</li>
+                      <li>k = 2: 1(cos(4&pi;/3) + i sin(4&pi;/3)) = -1/2 - i&radic;3/2</li>
+                    </ul>
+                  </li>
+                  <li><strong>Derivation of Trigonometric Identities:</strong> De Moivre's Theorem can be used to derive formulas for cos(n&theta;) and sin(n&theta;) in terms of powers of cos &theta; and sin &theta;. For instance, for n=3:
+                    <p>cos(3&theta;) + i sin(3&theta;) = (cos &theta; + i sin &theta;)&sup3;</p>
+                    <p>= cos&sup3;&theta; + 3cos&sup2;&theta;(i sin &theta;) + 3cos &theta;(i sin &theta;)&sup2; + (i sin &theta;)&sup3;</p>
+                    <p>= cos&sup3;&theta; + 3i cos&sup2;&theta; sin &theta; - 3cos &theta; sin&sup2;&theta; - i sin&sup3;&theta;</p>
+                    <p>Equating real and imaginary parts:</p>
+                    <p>cos(3&theta;) = cos&sup3;&theta; - 3cos &theta; sin&sup2;&theta;</p>
+                    <p>sin(3&theta;) = 3cos&sup2;&theta; sin &theta; - sin&sup3;&theta;</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <h3>5. Applications in Defence and Engineering</h3>
+            <p>
+              The concepts of polar form, modulus, argument, and De Moivre's Theorem are not merely academic exercises but have profound practical applications in various fields critical for defence and technology:
+            </p>
+            <ul>
+              <li>
+                <strong>Electrical Engineering:</strong> In AC circuit analysis, voltages, currents, and impedances are represented as complex numbers (phasors). The modulus represents the amplitude, and the argument represents the phase angle. Operations like impedance calculation, power factor correction, and filter design heavily rely on complex number arithmetic in polar form.
+              </li>
+              <li>
+                <strong>Signal Processing:</strong> Fourier analysis, which decomposes signals into their constituent frequencies, uses complex exponentials (e^(i&omega;t)). The modulus of the Fourier transform indicates the amplitude of a frequency component, and the argument indicates its phase. This is vital for radar signal processing, communication systems, and image processing.
+              </li>
+              <li>
+                <strong>Control Systems:</strong> Stability analysis of control systems often involves examining the poles and zeros of transfer functions in the complex plane. The location of these poles and zeros (their modulus and argument) dictates system response and stability.
+              </li>
+              <li>
+                <strong>Quantum Mechanics:</strong> Wave functions in quantum mechanics are inherently complex-valued. The modulus squared of a wave function gives the probability density of finding a particle at a certain location, while the argument relates to the phase of the wave.
+              </li>
+              <li>
+                <strong>Fluid Dynamics and Aerodynamics:</strong> Conformal mapping using complex functions is employed to analyze fluid flow around objects, which is crucial for aircraft and naval vessel design.
+              </li>
+              <li>
+                <strong>Navigation and Guidance Systems:</strong> While not directly using complex numbers in their final output, the underlying mathematical principles for vector rotations, transformations, and signal processing in GPS, inertial navigation systems, and missile guidance often leverage the efficiency and elegance offered by complex number theory.
+              </li>
+            </ul>
+            <p>
+              Understanding these concepts thoroughly is essential for aspiring defence personnel, as they form the mathematical backbone for advanced topics encountered in engineering, physics, and technology-driven military applications. Mastery of these fundamental principles ensures a strong foundation for tackling complex problems in real-world scenarios.
+            </p>
+`;
+
+window.EXPANDED_NOTES_DATA["straight-lines"] = String.raw`
+<h3>1. Equations of a Line: A Comprehensive Study for Defence Aspirants</h3>
+<p>Coordinate geometry, a fundamental branch of mathematics, bridges the gap between algebra and geometry, allowing geometric problems to be solved using algebraic methods. At its core lies the study of straight lines, which are the simplest yet most ubiquitous geometric figures. Understanding the various forms of equations of a line is paramount for success in competitive examinations like NDA, CDS, and AFCAT, as these concepts form the bedrock for advanced topics in 2D and 3D geometry, calculus, and vector algebra.</p>
+<p>Historically, the development of coordinate geometry is often attributed to French mathematicians René Descartes and Pierre de Fermat in the 17th century. Descartes, in particular, introduced the Cartesian coordinate system, which revolutionized mathematics by providing a systematic way to describe points, lines, and curves using numerical coordinates. This innovation transformed geometry from a purely synthetic discipline into an analytic one, opening doors for unprecedented advancements in science and engineering. For defence aspirants, this analytical approach is crucial for understanding navigation, trajectory analysis, and various engineering principles.</p>
+
+<h4>1.1. Fundamental Concepts: Slope and Intercepts</h4>
+<ul>
+    <li>**Slope (Gradient):** Denoted by 'm', the slope of a line is a measure of its steepness or inclination with respect to the positive x-axis. It represents the ratio of the change in the y-coordinate to the change in the x-coordinate between any two distinct points on the line.
+        <ul>
+            <li>**Definition:** For two points (x1, y1) and (x2, y2) on a line, the slope m = (y2 - y1) / (x2 - x1), provided x1 ≠ x2. This ratio quantifies how much 'rise' there is for a given 'run'.</li>
+            <li>**Angle of Inclination (θ):** The slope 'm' is also equal to the tangent of the angle (θ) that the line makes with the positive direction of the x-axis, i.e., m = tan θ. The angle θ is measured counter-clockwise from the positive x-axis.
+                <ul>
+                    <li>If θ is acute (0° &lt; θ &lt; 90°), m &gt; 0, indicating an upward slope.</li>
+                    <li>If θ is obtuse (90° &lt; θ &lt; 180°), m &lt; 0, indicating a downward slope.</li>
+                    <li>If θ = 0° (horizontal line), m = 0. Such lines are parallel to the x-axis and have equations of the form y = constant.</li>
+                    <li>If θ = 90° (vertical line), m is undefined. Such lines are parallel to the y-axis and have equations of the form x = constant.</li>
+                </ul>
+            </li>
+            <li>**Significance:** The slope dictates the direction and steepness of the line. A positive slope indicates an upward trend from left to right, while a negative slope indicates a downward trend. A larger absolute value of the slope implies a steeper line. This concept is vital in physics for understanding velocity-time graphs where slope represents acceleration.</li>
+        </ul>
+    </li>
+    <li>**Intercepts:** These are the points where the line crosses the coordinate axes.
+        <ul>
+            <li>**Y-intercept (c):** The y-coordinate of the point where the line intersects the y-axis (i.e., when x = 0). The point is (0, c).</li>
+            <li>**X-intercept (a):** The x-coordinate of the point where the line intersects the x-axis (i.e., when y = 0). The point is (a, 0).</li>
+            <li>**Importance:** Intercepts provide crucial reference points for graphing a line and are often used in problems involving areas of triangles formed by the line and the axes.</li>
+        </ul>
+    </li>
+</ul>
+
+<h4>1.2. Standard Forms of the Equation of a Line</h4>
+
+<ul>
+    <li>**Slope-Intercept Form: y = mx + c**
+        <ul>
+            <li>**WHAT:** This form directly expresses the relationship between the y-coordinate, the slope 'm', and the y-intercept 'c'. It is one of the most intuitive and frequently used forms, especially when the line's steepness and its crossing point on the y-axis are known or easily determined.</li>
+            <li>**WHY:** It is particularly useful for quickly understanding the basic characteristics of a line – its steepness and where it crosses the y-axis. It simplifies graphing and comparison of lines, making it easy to identify parallel lines (same 'm') or to visualize the effect of changing 'c' (vertical shift).</li>
+            <li>**HOW:**
+                <ul>
+                    <li>**Derivation:** Consider a line passing through the point (0, c) (the y-intercept) and having a slope 'm'. For any other point (x, y) on the line, the slope is given by the definition: m = (y - c) / (x - 0). Rearranging this equation by multiplying both sides by 'x' gives y - c = mx, which simplifies to **y = mx + c**.</li>
+                    <li>**Mechanism:** The 'mx' term represents the vertical change (rise) for a given horizontal change (run) from the y-intercept, while 'c' sets the starting vertical position on the y-axis. Every point (x, y) on the line satisfies this linear relationship.</li>
+                </ul>
+            </li>
+            <li>**EFFECT:**
+                <ul>
+                    <li>If 'm' is positive, 'y' increases as 'x' increases, indicating an upward trend.</li>
+                    <li>If 'm' is negative, 'y' decreases as 'x' increases, indicating a downward trend.</li>
+                    <li>If 'm' is zero, the equation becomes y = c, which is a horizontal line parallel to the x-axis.</li>
+                    <li>A vertical line (of the form x = k) cannot be represented in this form because its slope is undefined (division by zero).</li>
+                </ul>
+            </li>
+            <li>**EXAMPLE:** The line y = 2x + 3 has a slope of 2 and a y-intercept of 3. This means for every unit increase in x, y increases by 2 units, and it crosses the y-axis at the point (0, 3). In a real-world scenario, if 'y' represents distance and 'x' represents time, this could model an object moving with a constant speed of 2 units/time, starting at a position of 3 units.</li>
+        </ul>
+    </li>
+    <li>**Point-Slope Form: y - y1 = m(x - x1)**
+        <ul>
+            <li>**WHAT:** This form defines a line given its slope 'm' and a specific point (x1, y1) that lies on the line. It is a direct algebraic representation of the geometric definition of slope.</li>
+            <li>**WHY:** It is arguably the most fundamental and versatile form for constructing the equation of a line when a point and its slope are known. Many other forms, including the slope
+`;
+
+window.EXPANDED_NOTES_DATA["central-tendency"] = String.raw`
+<h3>1. Measures of Central Tendency: Mean, Median, Mode</h3>
+            <p>
+              Measures of central tendency are fundamental statistical tools used to summarize a dataset by identifying a single value that accurately describes the center of the distribution. They provide a concise way to understand the 'typical' or 'average' value within a set of observations, making complex data more interpretable. In the context of defence, these measures are crucial for analyzing operational data, performance metrics, logistical requirements, and personnel statistics, aiding in informed decision-making and strategic planning.
+            </p>
+            <p>
+              Historically, the concept of finding a 'middle' or 'average' value dates back centuries, with early astronomers and navigators seeking to reduce errors in observations. The formalization of these measures gained prominence with the development of probability theory and statistics in the 17th and 18th centuries, driven by figures like Carl Friedrich Gauss and Adolphe Quetelet, who sought to understand variations in human and natural phenomena.
+            </p>
+
+            <h4>1.1. The Arithmetic Mean (AM)</h4>
+            <ul>
+              <li>
+                **Definition:** The arithmetic mean, often simply referred to as the 'mean,' is the most common measure of central tendency. It is calculated by summing all the values in a dataset and then dividing by the total number of observations. It represents the 'balancing point' of the data.
+                <ul>
+                  <li>**Formula for Ungrouped Data:**
+                    <p>Mean (x̄) = (Σx) / n</p>
+                    <p>Where: Σx = Sum of all observations, n = Total number of observations.</p>
+                  </li>
+                  <li>**Formula for Grouped Data (Frequency Distribution):**
+                    <p>Mean (x̄) = (Σfx) / Σf</p>
+                    <p>Where: f = Frequency of each class, x = Mid-point of each class, Σf = Total frequency (n).</p>
+                  </li>
+                  <li>**Assumed Mean Method (for Grouped Data):**
+                    <p>x̄ = A + (Σfd) / Σf</p>
+                    <p>Where: A = Assumed Mean, d = (x - A) = Deviation of mid-point from assumed mean.</p>
+                    <p>This method simplifies calculations, especially when dealing with large numbers, by shifting the origin.</p>
+                  </li>
+                  <li>**Step-Deviation Method (for Grouped Data):**
+                    <p>x̄ = A + [(Σfu) / Σf] * h</p>
+                    <p>Where: A = Assumed Mean, u = (x - A) / h = Step deviation, h = Class interval width.</p>
+                    <p>This method further simplifies calculations by scaling the deviations, particularly useful when class intervals are equal.</p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                **Properties of the Mean:**
+                <ul>
+                  <li>**Based on All Observations:** Every value in the dataset contributes to the calculation of the mean.</li>
+                  <li>**Affected by Extreme Values:** The mean is highly sensitive to outliers or extreme values. A single very large or very small observation can significantly pull the mean towards it.</li>
+                  <li>**Sum of Deviations is Zero:** The sum of the deviations of all observations from their arithmetic mean is always zero (Σ(x - x̄) = 0). This property highlights its 'balancing point' nature.</li>
+                  <li>**Least Squares Property:** The sum of the squares of the deviations of items from the arithmetic mean is minimum (Σ(x - x̄)² is minimum). This makes it a preferred measure in many statistical models, including regression analysis.</li>
+                  <li>**Algebraic Treatment:** The mean is amenable to algebraic manipulation. For example, the mean of a combined group can be calculated from the means and sizes of individual groups.</li>
+                </ul>
+              </li>
+              <li>
+                **Advantages:**
+                <ul>
+                  <li>**Easy to Understand and Calculate:** Its definition is intuitive, and computation is straightforward.</li>
+                  <li>**Based on All Observations:** Utilizes all available data, making it a comprehensive measure.</li>
+                  <li>**Suitable for Further Mathematical Treatment:** Its algebraic properties make it ideal for use in more advanced statistical analyses.</li>
+                  <li>**Stable:** Less subject to sampling fluctuations than the median or mode for normally distributed data.</li>
+                </ul>
+              </li>
+              <li>
+                **Disadvantages:**
+                <ul>
+                  <li>**Sensitive to Outliers:** As noted, extreme values can distort the mean, making it unrepresentative of the typical value in skewed distributions.</li>
+                  <li>**Cannot be Calculated for Open-Ended Distributions:** If the first or last class interval in a frequency distribution is open-ended (e.g., "less than 10" or "100 and above"), the exact mid-point cannot be determined, preventing mean calculation.</li>
+                  <li>**May Not Represent Actual Value:** The mean can be a fractional value even if all observations are integers (e.g., average number of personnel per squad might be 8.5, even though no squad has half a person).</li>
+                </ul>
+              </li>
+              <li>
+                **Relevance in Defence:**
+                <ul>
+                  <li>Calculating average fuel consumption of a fleet of vehicles.</li>
+                  <li>Determining the average response time of emergency units.</li>
+                  <li>Analyzing average scores in physical fitness tests or marksmanship.</li>
+                  <li>Estimating average logistical supply requirements per operational day.</li>
+                </ul>
+              </li>
+            </ul>
+
+            <h4>1.2. The Median</h4>
+            <ul>
+              <li>
+                **Definition:** The median is the middle value in a dataset when the data is arranged in ascending or descending order. It divides the dataset into two equal halves, with 50% of the observations falling below it and 50% above it. Unlike the mean, it is a positional average.
+              </li>
+              <li>
+                **Calculation:**
+                <ul>
+                  <li>**For Ungrouped Data:**
+                    <ol>
+                      <li>**Sort the Data:** Arrange all observations in ascending or descending order.</li>
+                      <li>**Identify Position:**
+                        <ul>
+                          <li>If 'n' (number of observations) is odd, the median is the value at the ((n+1)/2)th position.</li>
+                          <li>If 'n' is even, the median is the average of the values at the (n/2)th and ((n/2)+1)th positions.</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </li>
+                  <li>**For Grouped Data (Frequency Distribution):**
+                    <p>Median = L + [((n/2) - cf) / f] * h</p>
+                    <p>Where:</p>
+                    <ul>
+                      <li>L = Lower boundary of the median class.</li>
+                      <li>n = Total number of observations (Σf).</li>
+                      <li>cf = Cumulative frequency of the class preceding the median class.</li>
+                      <li>f = Frequency of the median class.</li>
+                      <li>h = Class width of the median class.</li>
+                    </ul>
+                    <p>The median class is the class interval where (n/2)th observation falls, identified by cumulative frequency.</p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                **Properties of the Median:**
+                <ul>
+                  <li>**Not Affected by Extreme Values:** Since it's a positional average, the median is robust to outliers. Extreme values at the ends of the distribution do not significantly alter its value.</li>
+                  <li>**Minimizes Absolute Deviations:** The sum of the absolute deviations of observations from the median is minimum (Σ|x - Median| is minimum).</li>
+                  <li>**Can be Calculated for Open-Ended Distributions:** As long as the median class can be identified, the median can be calculated even with open-ended class intervals.</li>
+                  <li>**Can be Used for Qualitative Data (Ordinal Scale):** Applicable to data that can be ranked, such as satisfaction ratings (e.g., 'good', 'better', 'best').</li>
+                </ul>
+              </li>
+              <li>
+                **Advantages:**
+                <ul>
+                  <li>**Robust to Outliers:** Provides a more representative measure of central tendency in skewed distributions or datasets with extreme values.</li>
+                  <li>**Easy to Understand:** The concept of the 'middle' value is intuitive.</li>
+                  <li>**Can be Found for Qualitative Data:** Useful for ordinal data where the mean is not meaningful.</li>
+                  <li>**Can be Calculated for Open-Ended Distributions:** Overcomes a limitation of the mean.</li>
+                </ul>
+              </li>
+              <li>
+                **Disadvantages:**
+                <ul>
+                  <li>**Not Based on All Observations:** Only the middle values directly determine the median, potentially ignoring information from other data points.</li>
+                  <li>**Less Amenable to Algebraic Treatment:** Not as suitable for advanced mathematical operations as the mean.</li>
+                  <li>**Requires Sorting:** Data must be ordered, which can be time-consuming for large datasets.</li>
+                  <li>**Less Stable:** For small samples, the median can be more subject to sampling variability than the mean.</li>
+                </ul>
+              </li>
+              <li>
+                **Relevance in Defence:**
+                <ul>
+                  <li>Determining the median age of recruits or personnel in a specific unit.</li>
+                  <li>Analyzing median income levels for different ranks.</li>
+                  <li>Assessing the median time required for equipment maintenance, which is less affected by unusually long repair times.</li>
+                  <li>Evaluating the median response time for intelligence gathering, where extreme delays might occur but shouldn't skew the typical time.</li>
+                </ul>
+              </li>
+            </ul>
+
+            <h4>1.3. The Mode</h4>
+            <ul>
+              <li>
+                **Definition:** The mode is the value that appears most frequently in a dataset. It represents the most common or typical observation. A dataset can have one mode (unimodal), two modes (bimodal), or more than two modes (multimodal). If all values appear with the same frequency, there is no mode.
+              </li>
+              <li>
+                **Calculation:**
+                <ul>
+                  <li>**For Ungrouped Data:** Simply count the frequency of each observation and identify the value(s) with the highest frequency.</li>
+                  <li>**For Grouped Data (Frequency Distribution):**
+                    <p>Mode = L + [(f_m - f_1) / (2f_m - f_1 - f_2)] * h</p>
+                    <p>Where:</p>
+                    <ul>
+                      <li>L = Lower boundary of the modal class (the class with the highest frequency).</li>
+                      <li>f_m = Frequency of the modal class.</li>
+                      <li>f_1 = Frequency of the class preceding the modal class.</li>
+                      <li>f_2 = Frequency of the class succeeding the modal class.</li>
+                      <li>h = Class width of the modal class.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                **Properties of the Mode:**
+                <ul>
+                  <li>**Not Affected by Extreme Values:** Like the median, the mode is robust to outliers as it only depends on the frequency of values.</li>
+                  <li>**Can be Used for Nominal Data:** It is the only measure of central tendency applicable to qualitative data at the nominal scale (e.g., favorite color, type of weapon).</li>
+                  <li>**May Not Be Unique or May Not Exist:** A dataset can have multiple modes or no mode at all.</li>
+                  <li>**Can be Calculated for Open-Ended Distributions:** Similar to the median, if the modal class can be identified, the mode can be calculated.</li>
+                </ul>
+              </li>
+              <li>
+                **Advantages:**
+                <ul>
+                  <li>**Easy to Understand and Calculate:** Conceptually simple and often identifiable by inspection.</li>
+                  <li>**Can be Used for Qualitative Data:** Indispensable for nominal and ordinal data.</li>
+                  <li>**Not Affected by Outliers:** Provides a stable measure in the presence of extreme values.</li>
+                  <li>**Represents the Most Typical Value:** Directly indicates the most common occurrence, which can be very useful for practical decisions.</li>
+                </ul>
+              </li>
+              <li>
+                **Disadvantages:**
+                <ul>
+                  <li>**May Not Be Unique:** Multiple modes can make interpretation ambiguous.</li>
+                  <li>**May Not Exist:** If all values have the same frequency, there is no mode.</li>
+                  <li>**Not Based on All Observations:** Only focuses on the most frequent value(s), potentially ignoring other data characteristics.</li>
+                  <li>**Less Amenable to Algebraic Treatment:** Difficult to use in further mathematical or statistical analysis.</li>
+                  <li>**Unstable for Small Samples:** Can vary significantly with minor changes in data for small datasets.</li>
+                </ul>
+              </li>
+              <li>
+                **Relevance in Defence:**
+                <ul>
+                  <li>Identifying the most common type of equipment failure.</li>
+                  <li>Determining the most popular weapon system among soldiers.</li>
+                  <li>Finding the most frequent rank in a particular unit.</li>
+                  <li>Identifying the most common cause of accidents or injuries.</li>
+                </ul>
+              </li>
+            </ul>
+
+            <h4>1.4. Empirical Relation Between Mean, Median, Mode</h4>
+            <ul>
+              <li>
+                **Formula:** **Mode ≈ 3 * Median - 2 * Mean**
+              </li>
+              <li>
+                **Explanation:** This is an empirical relationship, also known as Karl Pearson's empirical formula, which holds approximately true for moderately skewed, unimodal distributions. It is not a mathematical identity that holds for all distributions but serves as a useful approximation.
+              </li>
+              <li>
+                **Why it's Useful:**
+                <ul>
+                  <li>**Estimation:** If two of the measures are known, the third can be estimated, which can be helpful if direct calculation of one measure is difficult or time-consuming (e.g., mode for grouped data can be complex).</li>
+                  <li>**Understanding Skewness:** The relationship between these measures provides insight into the skewness of a distribution:
+                    <ul>
+                      <li>**Symmetrical Distribution (e.g., Normal Distribution):** Mean = Median = Mode.</li>
+                      <li>**Positively Skewed (Right-Skewed) Distribution:** Mean > Median > Mode. The tail extends to the right, pulling the mean in that direction.</li>
+                      <li>**Negatively Skewed (Left-Skewed) Distribution:** Mean < Median < Mode. The tail extends to the left, pulling the mean in that direction.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                **Limitations:**
+                <ul>
+                  <li>**Approximation:** It is an approximation, not an exact mathematical rule. It may not hold precisely for all distributions, especially those that are highly skewed, bimodal, or multimodal.</li>
+                  <li>**Unimodal Requirement:** It is primarily applicable to unimodal distributions.</li>
+                  <li>**Continuous Data:** Works best for continuous data distributions.</li>
+                </ul>
+              </li>
+              <li>
+                **Relevance in Defence:**
+                <ul>
+                  <li>Quickly estimating one measure of central tendency if others are known, for instance, in preliminary data analysis of operational reports.</li>
+                  <li>Providing a rough check on calculations of mean, median, and mode.</li>
+                  <li>Gaining a rapid understanding of the skewness of a distribution (e.g., distribution of mission completion times, where a positive skew might indicate occasional significant delays).</li>
+                </ul>
+              </li>
+            </ul>
+
+            <h3>2. Choosing the Right Measure of Central Tendency</h3>
+            <p>
+              The selection of the appropriate measure of central tendency depends on the nature of the data, the shape of its distribution, and the objective of the analysis.
+            </p>
+            <ul>
+              <li>**Use Mean when:**
+                <ul>
+                  <li>The data is symmetrical or approximately normally distributed.</li>
+                  <li>There are no significant outliers.</li>
+                  <li>Further statistical analysis requiring algebraic properties is intended.</li>
+                  <li>The data is quantitative (interval or ratio scale).</li>
+                </ul>
+              </li>
+              <li>**Use Median when:**
+                <ul>
+                  <li>The data is skewed or contains extreme outliers.</li>
+                  <li>The data is qualitative and ordinal (can be ranked).</li>
+                  <li>The distribution is open-ended.</li>
+                  <li>A robust measure, unaffected by extremes, is desired.</li>
+                </ul>
+              </li>
+              <li>**Use Mode when:**
+                <ul>
+                  <li>The data is qualitative (nominal or ordinal scale).</li>
+                  <li>Identifying the most frequent or popular category/value is the primary goal.</li>
+                  <li>The data has distinct peaks (modal values).</li>
+                  <li>The distribution is open-ended.</li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              In defence applications, understanding these nuances is critical. For example, when analyzing the average weight carried by soldiers, the mean might be appropriate if the distribution is normal. However, when examining the distribution of salaries, the median would be a better indicator of the 'typical' salary, as high-ranking officers' salaries could heavily skew the mean. For identifying the most common type of weapon used in a specific theatre, the mode would be the most relevant measure. A comprehensive understanding of mean, median, and mode allows for more accurate interpretation of data and, consequently, more effective decision-making in complex military environments.
+            </p>
+`;
+
+window.EXPANDED_NOTES_DATA["data-interpretation"] = String.raw`
+<h3>**Atmospheric Pressure**</h3>
+<p>Atmospheric pressure is fundamentally the force exerted by the weight of the column of air above a given point on the Earth's surface. This force is a direct consequence of gravity acting upon the mass of air molecules in the atmosphere. Imagine a vast, invisible ocean of air extending hundreds of kilometers upwards; the pressure at any point within this ocean is due to the cumulative weight of all the air above it. It's a critical meteorological parameter influencing weather patterns globally.</p>
+<ul>
+    <li>**Measurement**: Atmospheric pressure is primarily measured using a **barometer**.
+        <ul>
+            <li>**Mercury Barometer**: Invented by Evangelista Torricelli in 1643, it measures pressure by the height of a column of mercury that the atmosphere can support. A higher mercury column indicates higher atmospheric pressure. Standard atmospheric pressure at sea level supports a column of mercury approximately 760 mm high.</li>
+            <li>**Aneroid Barometer**: This device uses a small, flexible metal box called an aneroid cell, which is sealed and partially evacuated. Changes in atmospheric pressure cause the cell to expand or contract, and these movements are mechanically amplified and displayed on a dial. Aneroid barometers are more portable and robust than mercury barometers.</li>
+            <li>**Barographs**: These are recording aneroid barometers that provide a continuous trace of pressure changes over time, crucial for forecasting.</li>
+        </ul>
+    </li>
+    <li>**Units**: The standard units for measuring atmospheric pressure are:
+        <ul>
+            <li>**Millibars (mb)**: A unit of pressure equal to one-thousandth of a bar. It is widely used in meteorology.</li>
+            <li>**Hectopascals (hPa)**: This unit is numerically equivalent to the millibar (1 hPa = 1 mb) and is the internationally preferred unit, part of the SI system.</li>
+            <li>**Inches of Mercury (inHg)**: Commonly used in aviation and some countries, particularly the United States.</li>
+            <li>**Pounds per Square Inch (psi)**: Used in engineering, though less common for atmospheric pressure itself.</li>
+            <li>**Standard Atmospheric Pressure**: At mean sea level, the average atmospheric pressure is 1013.25 mb or 1013.25 hPa, which is also equivalent to 760 mm of mercury or 29.92 inches of mercury.</li>
+        </ul>
+    </li>
+    <li>**Variation**: Atmospheric pressure is not constant; it varies significantly due to several factors:
+        <ul>
+            <li>**Altitude**: Pressure **decreases exponentially with increasing altitude**. This is because as you ascend, the column of air above you becomes shorter and contains less mass. For every 100 meters increase in altitude, the pressure decreases by approximately 10 hPa in the lower atmosphere. This rapid decrease is why mountaineers and pilots experience reduced oxygen levels at higher elevations.</li>
+            <li>**Temperature**: There is an **inverse relationship** between temperature and pressure.
+                <ul>
+                    <li>**Mechanism**: When air is heated, its molecules become more energetic, move faster, and spread out, causing the air to expand and become less dense. This lighter, warmer air exerts less pressure on the surface below and tends to rise, leading to **low-pressure systems**.</li>
+                    <li>Conversely, when air is cooled, its molecules slow down, become more compact, and the air contracts, becoming denser. This heavier, colder air sinks, exerting more pressure on the surface, leading to **high-pressure systems**.</li>
+                </ul>
+            </li>
+            <li>**Humidity**: Surprisingly, **humid air is lighter than dry air** at the same temperature and pressure.
+                <ul>
+                    <li>**Mechanism**: Water vapor (H₂O) has a molecular weight of approximately 18 g/mol. The primary constituents of dry air, nitrogen (N₂) and oxygen (O₂), have molecular weights of approximately 28 g/mol and 32 g/mol, respectively. When water vapor replaces nitrogen or oxygen molecules in a given volume of air, the average molecular weight of that air parcel decreases, making it less dense and thus exerting less pressure.</li>
+                    <li>Therefore, areas with high humidity tend to have slightly lower atmospheric pressure compared to dry areas, all other factors being equal.</li>
+                </ul>
+            </li>
+            <li>**Earth's Rotation (Coriolis Effect)**: While not directly affecting the *weight* of the air, the Coriolis effect influences the distribution of air masses and thus the formation and movement of pressure systems, indirectly leading to pressure variations.</li>
+            <li>**Diurnal and Seasonal Variations**: Pressure also exhibits daily (diurnal) and seasonal cycles. Diurnal variations are typically small, with two high-pressure peaks and two low-pressure troughs over a 24-hour period, especially in tropical regions. Seasonal variations are more pronounced, with landmasses developing low pressure in summer and high pressure in winter due to differential heating.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>**Pressure Systems**</h3>
+<p>Pressure systems are large-scale atmospheric circulations characterized by areas of relatively high or low atmospheric pressure compared to their surroundings. They are fundamental drivers of global weather patterns and are crucial for understanding wind direction and intensity, as well as precipitation and cloud formation.</p>
+<ul>
+    <li>**High-Pressure System (Anticyclone)**:
+        <ul>
+            <li>**Characteristics**: Associated with **clear skies, calm conditions, and stable weather**. Air in a high-pressure system is typically dry.</li>
+            <li>**Mechanism**:
+                <ul>
+                    <li>**Air Descends**: In the upper atmosphere, air converges and then **descends** towards the Earth's surface. This descending motion is known as subsidence.</li>
+                    <li>**Adiabatic Warming**: As the air descends, it is compressed and **warms adiabatically** (without heat exchange with the surroundings). This warming increases the air's capacity to hold moisture, preventing condensation and cloud formation.</li>
+                    <li>**Divergence Outwards**: Upon reaching the surface, the air **diverges outwards** in a clockwise direction in the Northern Hemisphere and an anti-clockwise direction in the Southern Hemisphere due to the Coriolis effect.</li>
+                    <li>**Stability**: The descending, warming air creates a stable atmospheric layer, inhibiting vertical air movement and thus suppressing cloud development and precipitation.</li>
+                </ul>
+            </li>
+            <li>**Weather Impact**: Leads to prolonged periods of fair weather, often sunny days, and can contribute to heatwaves in summer or cold, clear nights with frost in winter. Drought conditions can persist under stationary high-pressure systems.</li>
+            <li>**Formation**: Can be thermally induced (e.g., cold, dense air over polar regions) or dynamically induced (e.g., subsidence associated with the descending branch of the Hadley and Ferrel cells, forming subtropical high-pressure belts).</li>
+        </ul>
+    </li>
+    <li>**Low-Pressure System (Cyclone)**:
+        <ul>
+            <li>**Characteristics**: Associated with **cloudy skies, precipitation, and unstable weather**. Low-pressure systems are often precursors to storms and significant weather events.</li>
+            <li>**Mechanism**:
+                <ul>
+                    <li>**Air Ascends**: At the Earth's surface, air **converges inwards** towards the center of the low-pressure area (anti-clockwise in the Northern Hemisphere, clockwise in the Southern Hemisphere). This converging air has nowhere to go but up.</li>
+                    <li>**Adiabatic Cooling**: As the air **ascends**, it expands and **cools adiabatically**. When the rising air cools to its dew point, water vapor condenses, leading to the formation of clouds.</li>
+                    <li>**Condensation and Precipitation**: Further ascent and cooling lead to the growth of cloud droplets and ice crystals, eventually resulting in **precipitation** (rain, snow, etc.).</li>
+                    <li>**Instability**: The rising air creates an unstable atmosphere, promoting further vertical development of clouds and often leading to turbulent weather.</li>
+                </ul>
+            </li>
+            <li>**Weather Impact**: Brings unsettled weather, including strong winds, heavy rainfall, thunderstorms, and can escalate into tropical cyclones (hurricanes/typhoons) or mid-latitude cyclones (extratropical cyclones), which are responsible for much of the day-to-day weather variability in temperate regions.</li>
+            <li>**Formation**: Can be thermally induced (e.g., warm, rising air over the equator) or dynamically induced (e.g., interaction of air masses along fronts, leading to cyclogenesis).</li>
+        </ul>
+    </li>
+    <li>**Global Pressure Belts**: These are semi-permanent zones of high and low pressure that encircle the Earth, largely dictating the planet's major wind systems.
+        <ul>
+            <li>**Equatorial Low-Pressure Belt (Doldrums)**: A thermally induced belt of low pressure near the equator (0-5° N/S) due to intense solar heating and rising air. Characterized by calm winds and heavy convectional rainfall.</li>
+            <li>**Subtropical High-Pressure Belts (Horse Latitudes)**: Dynamically induced belts of high pressure around 30-35° N/S, formed by the descending air of the Hadley cells. Characterized by clear skies, dry conditions, and calm winds. Many of the world's deserts are located here.</li>
+            <li>**Subpolar Low-Pressure Belts**: Dynamically induced belts of low pressure around 60-65° N/S, formed by the convergence of the polar easterlies and westerlies, leading to rising air. Associated with stormy weather and the formation of mid-latitude cyclones.</li>
+            <li>**Polar High-Pressure Belts**: Thermally induced belts of high pressure near the poles (80-90° N/S) due to intense cold and subsidence of very dense, cold air. Characterized by extremely cold, dry conditions.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>**Winds**</h3>
+<p>Winds are defined as the horizontal movement of air from areas of relatively high atmospheric pressure to areas of relatively low atmospheric pressure. This movement is a fundamental mechanism for redistributing heat and moisture across the globe, playing a vital role in the Earth's climate system and daily weather. The direction and speed of wind are determined by the interplay of several forces.</p>
+<ul>
+    <li>**Pressure Gradient Force (PGF)**: This is the **primary force driving wind**.
+        <ul>
+            <li>**Mechanism**: The PGF arises from differences in atmospheric pressure over a horizontal distance. Air naturally flows from an area of higher pressure to an area of lower pressure to equalize the pressure difference.</li>
+            <li>**Direction**: It acts perpendicular to isobars (lines connecting points of equal pressure) and is directed from high pressure to low pressure.</li>
+            <li>**Magnitude**: The strength of the PGF is directly proportional to the pressure gradient – the closer the isobars are to each other, the steeper the pressure gradient, and thus the stronger the PGF and the faster the wind speed.</li>
+        </ul>
+    </li>
+    <li>**Coriolis Effect**: This is an **apparent force** that deflects moving objects (including wind and ocean currents) due to the Earth's rotation.
+        <ul>
+            <li>**Mechanism**: Because the Earth rotates, points at different latitudes move at different tangential speeds (faster at the equator, slower at the poles). As air moves from one latitude to another, it retains its initial momentum, but the ground beneath it moves at a different speed, causing a perceived deflection.</li>
+            <li>**Direction of Deflection**: It **deflects winds to the right in the Northern Hemisphere (NH)** and **to the left in the Southern Hemisphere (SH)**.</li>
+            <li>**Factors Affecting**: The strength of the Coriolis effect increases with latitude (zero at the equator, maximum at the poles) and with the speed of the moving object (faster winds experience greater deflection). It does not affect wind speed, only direction.</li>
+            <li>**Impact**: The Coriolis effect is crucial for the large-scale circulation patterns of the atmosphere and oceans, influencing the paths of hurricanes, the direction of trade winds, and the gyres in the oceans.</li>
+        </ul>
+    </li>
+    <li>**Frictional Force**: This force **slows down wind near the Earth's surface**.
+        <ul>
+            <li>**Mechanism**: Friction arises from the drag exerted by the Earth's surface and its features (mountains, forests, buildings, water bodies) on the moving air. The rougher the surface, the greater the friction.</li>
+            <li>**Impact**: Friction reduces wind speed, especially in the lowest few hundred meters of the atmosphere (the planetary boundary layer). By reducing wind speed, friction also **reduces the Coriolis effect**, allowing the PGF to dominate more. This causes surface winds to blow across isobars at an angle (typically 10-30 degrees) towards lower pressure, rather than parallel to them.</li>
+            <li>**Variation**: Friction is strongest over rough land surfaces and weakest over smooth ocean surfaces. Its influence diminishes rapidly with height, becoming negligible above the friction layer (typically 1-2 km above the surface).</li>
+        </ul>
+    </li>
+    <li>**Centripetal Force**: While not always listed as a primary force, it is important in curved flow.
+        <ul>
+            <li>**Mechanism**: When air flows in a curved path (e.g., around a high or low-pressure center), a centripetal force is required to keep it moving along that curve. This force is the net inward force resulting from the imbalance between the PGF and Coriolis force.</li>
+            <li>**Impact**: It explains why winds around cyclones and anticyclones follow curved paths rather than straight lines.</li>
+        </ul>
+    </li>
+    <li>**Geostrophic Wind**: This is a theoretical wind that results from a perfect balance between the **Pressure Gradient Force** and the **Coriolis Effect**. It occurs in the upper atmosphere (above the friction layer) where friction is negligible. Geostrophic winds blow parallel to the isobars.</li>
+    <li>**Gradient Wind**: This is an extension of the geostrophic wind concept, accounting for the centripetal force when winds follow a curved path around pressure centers. It represents the actual wind in the upper atmosphere where friction is minimal but curvature is present.</li>
+</ul>
+
+<h3>**Types of Winds**</h3>
+<p>Winds are categorized based on their scale, duration, and the mechanisms driving them. Understanding these classifications is crucial for meteorological analysis and forecasting.</p>
+<ul>
+    <li>**Permanent Winds (Planetary Winds)**: These are large-scale, global wind systems that blow consistently in a particular direction throughout the year. They are driven by the global pressure belts and the Earth's rotation, forming the basis of the general atmospheric circulation. These winds are integral to the three-cell model of atmospheric circulation: the Hadley cell, Ferrel cell, and Polar cell.
+        <ul>
+            <li>**Trade Winds**:
+                <ul>
+                    <li>**Origin**: Blow from the subtropical high-pressure belts (Horse Latitudes) towards the equatorial low-pressure belt (Doldrums).</li>
+                    <li>**Direction**: Due to the Coriolis effect, they are deflected to become **Northeast Trade Winds** in the Northern Hemisphere and **Southeast Trade Winds** in the Southern Hemisphere.</li>
+                    <li>**Characteristics**: These are steady, reliable winds, historically vital for sailing ships (hence "trade"). They converge at the Intertropical Convergence Zone (ITCZ) near the equator, leading to rising air, cloud formation, and heavy rainfall.</li>
+                    <li>**Significance**: They transport warm, moist air towards the equator, contributing to tropical weather patterns.</li>
+                </ul>
+            </li>
+            <li>**Westerlies**:
+                <ul>
+                    <li>**Origin**: Blow from the subtropical high-pressure belts towards the subpolar low-pressure belts.</li>
+                    <li>**Direction**: Deflected by the Coriolis effect to become **Southwesterly Westerlies** in the Northern Hemisphere and **Northwesterly Westerlies** in the Southern Hemisphere.</li>
+                    <li>**Characteristics**: These winds are highly variable in strength and direction, especially in the Northern Hemisphere due to large landmasses. They are stronger and more consistent in the Southern Hemisphere ("Roaring Forties," "Furious Fifties," "Shrieking Sixties") due to fewer land obstructions.</li>
+                    <li>**Significance**: They are responsible for much of the day-to-day weather in the mid-latitudes, bringing cyclonic storms and frontal activity. They also drive major ocean currents.</li>
+                </ul>
+            </li>
+            <li>**Polar Easterlies**:
+                <ul>
+                    <li>**Origin**: Blow from the polar high-pressure belts towards the subpolar low-pressure belts.</li>
+                    <li>**Direction**: Deflected by the Coriolis effect to become **Northeasterly Polar Easterlies** in the Northern Hemisphere and **Southeasterly Polar Easterlies** in the Southern Hemisphere.</li>
+                    <li>**Characteristics**: These are cold, dry, and relatively weak winds, carrying frigid air from the poles towards the mid-latitudes.</li>
+                    <li>**Significance**: They meet the westerlies at the polar front, contributing to the formation of subpolar low-pressure systems and mid-latitude cyclones.</li>
+                </ul>
+            </li>
+            <li>**Intertropical Convergence Zone (ITCZ)**: This is a narrow zone near the equator where the Northeast and Southeast Trade Winds converge. It is characterized by intense solar heating, rising air, deep convection, and frequent thunderstorms, often referred to as the "doldrums" due to calm surface winds. Its seasonal migration influences monsoon patterns.</li>
+        </ul>
+    </li>
+    <li>**Periodic Winds (Seasonal Winds)**: These winds change direction periodically, typically with the seasons or over a daily cycle, due to differential heating of land and water.
+        <ul>
+            <li>**Monsoons**:
+                <ul>
+                    <li>**Mechanism**: Monsoons are large-scale seasonal reversals of wind direction, primarily caused by the differential heating and cooling of landmasses and adjacent oceans. Land heats up and cools down much faster than water.</li>
+                    <li>**Summer Monsoon (e.g., Southwest Monsoon in India)**: During summer, large landmasses (like the Indian subcontinent) heat up intensely, creating a strong low-pressure center. The adjacent ocean remains relatively cooler, forming a high-pressure area. This pressure gradient draws moist, stable air from the ocean towards the land, bringing heavy rainfall.</li>
+                    <li>**Winter Monsoon (e.g., Northeast Monsoon in India)**: In winter, the land cools rapidly, developing a high-pressure system, while the ocean remains relatively warmer, forming a low-pressure area. Winds blow from the cold, dry land towards the warmer ocean, bringing dry conditions to most of the subcontinent, though coastal areas (like Tamil Nadu) may receive rainfall from winds picking up moisture over the Bay of Bengal.</li>
+                    <li>**Impact**: Monsoons are crucial for the agriculture, economy, and water resources of many regions, particularly in South and Southeast Asia.</li>
+                </ul>
+            </li>
+            <li>**Land and Sea Breezes**:
+                <ul>
+                    <li>**Mechanism**: These are local, daily winds caused by the differential heating and cooling of land and sea over a 24-hour cycle.</li>
+                    <li>**Sea Breeze (Daytime)**: During the day, land heats up faster than the sea, creating a low-pressure area over land and a relatively high-pressure area over the cooler sea. This pressure gradient causes cooler, moist air to blow from the sea towards the land. Sea breezes are common along coastlines and can moderate coastal temperatures.</li>
+                    <li>**Land Breeze (Nighttime)**: At night, land cools down faster than the sea, leading to a high-pressure area over the land and a relatively low-pressure area over the warmer sea. This reverses the pressure gradient, causing cooler, dry air to blow from the land towards the sea.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Local Winds**: These are small-scale winds that occur over specific regions due to local topography, temperature differences, or other localized effects.
+        <ul>
+            <li>**Loo**:
+                <ul>
+                    <li>**Characteristics**: A hot, dry, and often dusty wind that blows across the Indo-Gangetic Plain of Northern India and Pakistan during the late spring and summer months (May-June).</li>
+                    <li>**Mechanism**: It originates from the hot, arid deserts of Rajasthan and Balochistan, gaining heat as it travels over the intensely heated plains.</li>
+                    <li>**Impact**: Known for its extreme heat (temperatures often exceeding 45°C) and desiccating effect, which can cause heatstroke and dehydration.</li>
+                </ul>
+            </li>
+            <li>**Chinook**:
+                <ul>
+                    <li>**Characteristics**: A warm, dry, and often strong wind that descends the leeward (downwind) side of mountain ranges, particularly in the Rocky Mountains of North America. It is famously known as the "snow-eater."</li>
+                    <li>**Mechanism (Foehn Effect)**: Moist air is forced to rise over the windward side of mountains, cools adiabatically, condenses, and releases latent heat, forming clouds and precipitation. As this now-dry air descends the leeward side, it is compressed and warms adiabatically at a higher rate (dry adiabatic lapse rate), resulting in significantly warmer and drier air at the base of the mountain.</li>
+                    <li>**Impact**: Can cause rapid temperature increases (sometimes by 20-30°C in a few hours), quickly melting snow and ice, and leading to sudden thaws. Similar winds include the **Foehn** in the Alps, **Zonda** in the Andes, and **Santa Ana** in Southern California.</li>
+                </ul>
+            </li>
+            <li>**Mistral**: A cold, dry, and strong northerly wind that blows from the central plateau of France down the Rhône River valley to the Mediterranean coast. It is often associated with clear, sunny weather but can be bitterly cold.</li>
+            <li>**Bora**: A cold, dry, and gusty northeasterly wind that blows from the continental interior over the mountains to the Adriatic coast, particularly in Croatia. It is similar to the Mistral.</li>
+            <li>**Sirocco**: A hot, humid, and dusty wind that originates in the Sahara Desert and blows northward across the Mediterranean Sea towards Southern Europe. It picks up moisture over the sea, bringing oppressive, humid conditions and sometimes "blood rain" (rain mixed with desert dust).</li>
+            <li>**Harmattan**: A dry, dusty northeasterly trade wind that blows from the Sahara Desert over West Africa. It is known for its high dust content, which can severely reduce visibility, and its cooling effect due to evaporation, earning it the nickname "the doctor" in some regions, despite its dryness.</li>
+        </ul>
+    </li>
+</ul>
+`;
+
+window.EXPANDED_NOTES_DATA["limits-continuity"] = String.raw`
+<h3>1. Standard Limits: Foundations of Limit Evaluation</h3>
+              <p>Limits form the bedrock of differential and integral calculus, providing the framework to understand the behavior of functions as their input approaches a certain value. Often, direct substitution into a function yields an 'indeterminate form' such as 0/0, ∞/∞, 0·∞, ∞-∞, 1^∞, 0^0, or ∞^0. Standard limits are a set of fundamental results that allow us to resolve these common indeterminate forms efficiently, particularly when the variable approaches zero or infinity. Mastery of these limits is crucial for solving complex problems in calculus, especially in competitive examinations like NDA, CDS, and AFCAT.</p>
+              <p>These standard limits are not merely memorized formulas; they are derived from fundamental principles, often using geometric arguments, Taylor series expansions, or L'Hopital's Rule. Understanding their derivation enhances problem-solving capabilities and provides deeper insight into the nature of functions.</p>
+              <ul>
+                <li>**lim (x→0) sin(x)/x = 1**
+                  <p><strong>Explanation:</strong> This is one of the most fundamental limits in calculus, often derived using the Squeeze Theorem (or Sandwich Theorem) by comparing the areas of a sector, a triangle, and another triangle within a unit circle. As 'x' (in radians) approaches 0, the value of sin(x) becomes approximately equal to x. This limit is critical for evaluating limits involving trigonometric functions and for deriving derivatives of trigonometric functions. It also forms the basis for the Taylor series expansion of sin(x).</p>
+                  <p><strong>Example:</strong> lim (x→0) sin(3x)/x = lim (x→0) (sin(3x)/(3x)) * 3 = 1 * 3 = 3.</p>
+                </li>
+                <li>**lim (x→0) tan(x)/x = 1**
+                  <p><strong>Explanation:</strong> This limit can be easily derived from the previous one. Since tan(x) = sin(x)/cos(x), we have lim (x→0) tan(x)/x = lim (x→0) (sin(x)/x) * (1/cos(x)). As x→0, sin(x)/x approaches 1 and 1/cos(x) approaches 1/1 = 1. Hence, the limit is 1 * 1 = 1.</p>
+                  <p><strong>Example:</strong> lim (x→0) tan(5x)/(2x) = lim (x→0) (tan(5x)/(5x)) * (5x)/(2x) = 1 * (5/2) = 5/2.</p>
+                </li>
+                <li>**lim (x→0) (e^x - 1)/x = 1**
+                  <p><strong>Explanation:</strong> This limit is directly related to the definition of the derivative of e^x at x=0. If f(x) = e^x, then f'(0) = lim (x→0) (e^x - e^0)/(x - 0) = lim (x→0) (e^x - 1)/x. Since the derivative of e^x is e^x, f'(0) = e^0 = 1. This limit is also a key component in the Taylor series expansion of e^x.</p>
+                  <p><strong>Example:</strong> lim (x→0) (e^(2x) - 1)/x = lim (x→0) (e^(2x) - 1)/(2x) * 2 = 1 * 2 = 2.</p>
+                </li>
+                <li>**lim (x→0) ln(1 + x)/x = 1**
+                  <p><strong>Explanation:</strong> This limit is related to the derivative of ln(1+x) at x=0. If f(x) = ln(1+x), then f'(0) = lim (x→0) (ln(1+x) - ln(1+0))/(x - 0) = lim (x→0) ln(1+x)/x. Since the derivative of ln(u) is 1/u, f'(x) = 1/(1+x), so f'(0) = 1/(1+0) = 1. This limit is crucial for evaluating limits involving logarithmic functions and is part of the Taylor series for ln(1+x).</p>
+                  <p><strong>Example:</strong> lim (x→0) ln(1 + 4x)/(3x) = lim (x→0) (ln(1 + 4x)/(4x)) * (4x)/(3x) = 1 * (4/3) = 4/3.</p>
+                </li>
+                <li>**lim (x→a) (xⁿ - aⁿ)/(x - a) = n·aⁿ⁻¹**
+                  <p><strong>Explanation:</strong> This limit is the direct definition of the derivative of the function f(x) = xⁿ at the point x = a. By the power rule of differentiation, if f(x) = xⁿ, then f'(x) = nxⁿ⁻¹. Therefore, f'(a) = naⁿ⁻¹. This formula is incredibly useful for simplifying limits of algebraic expressions that would otherwise require factorization or L'Hopital's Rule multiple times.</p>
+                  <p><strong>Example:</strong> lim (x→2) (x⁵ - 32)/(x - 2) = lim (x→2) (x⁵ - 2⁵)/(x - 2) = 5 * 2^(5-1) = 5 * 2⁴ = 5 * 16 = 80.</p>
+                </li>
+                <li>**lim (x→0) (1 + x)^(1/x) = e**
+                  <p><strong>Explanation:</strong> This is one of the fundamental definitions of the mathematical constant 'e' (Euler's number), which is approximately 2.71828. It arises naturally in contexts like compound interest, exponential growth, and the definition of the natural logarithm. This limit often appears in problems involving indeterminate forms of type 1^∞.</p>
+                  <p><strong>Example:</strong> lim (x→0) (1 + 2x)^(1/x) = lim (x→0) [(1 + 2x)^(1/(2x))]² = e².</p>
+                </li>
+                <li>**lim (x→∞) (1 + 1/x)ˣ = e**
+                  <p><strong>Explanation:</strong> This is an alternative and equivalent definition of 'e', particularly useful when the variable approaches infinity. It can be derived from the previous limit by substituting y = 1/x, so as x→∞, y→0. This form is particularly relevant in financial mathematics for continuous compounding and in probability theory.</p>
+                  <p><strong>Example:</strong> lim (x→∞) (1 + 3/x)ˣ = lim (x→∞) [(1 + 3/x)^(x/3)]³ = e³.</p>
+                </li>
+                <li>**Additional Standard Limits for Defence Exams:**
+                  <ul>
+                    <li>**lim (x→0) (a^x - 1)/x = ln(a)** (where a > 0, a ≠ 1)
+                      <p><strong>Explanation:</strong> This is a generalization of lim (x→0) (e^x - 1)/x. It can be derived using L'Hopital's Rule or by substituting a^x = e^(x ln a).</p>
+                      <p><strong>Example:</strong> lim (x→0) (2^x - 1)/x = ln(2).</p>
+                    </li>
+                    <li>**lim (x→0) (log_a(1 + x))/x = 1/ln(a)** (where a > 0, a ≠ 1)
+                      <p><strong>Explanation:</strong> This is a generalization of lim (x→0) ln(1 + x)/x. It can be derived using the change of base formula for logarithms: log_a(1+x) = ln(1+x)/ln(a).</p>
+                      <p><strong>Example:</strong> lim (x→0) (log₁₀(1 + x))/x = 1/ln(10).</p>
+                    </li>
+                    <li>**lim (x→0) (1 - cos(x))/x² = 1/2**
+                      <p><strong>Explanation:</strong> This limit is frequently encountered in problems involving trigonometric functions. It can be derived using the half-angle identity (1 - cos(x) = 2 sin²(x/2)) and the standard limit sin(x)/x = 1, or by applying L'Hopital's Rule twice.</p>
+                      <p><strong>Example:</strong> lim (x→0) (1 - cos(4x))/x² = lim (x→0) (1 - cos(4x))/((4x)²) * 16 = (1/2) * 16 = 8.</p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <h3>2. L'Hopital's Rule: A Powerful Tool for Indeterminate Forms</h3>
+              <p>L'Hopital's Rule is an indispensable theorem in calculus that provides a method for evaluating limits of indeterminate forms, specifically 0/0 or ∞/∞. Named after the 17th-century French mathematician Guillaume de l'Hôpital, who published it in his 1696 textbook, though it was originally discovered by Johann Bernoulli. This rule simplifies the process of finding limits that would otherwise be very difficult or impossible to evaluate using algebraic manipulation alone.</p>
+              <p>The essence of L'Hopital's Rule lies in the idea that if the ratio of two functions approaches an indeterminate form, the limit of their ratio is equal to the limit of the ratio of their derivatives, provided certain conditions are met. This allows us to transform a complex limit into a potentially simpler one.</p>
+              <ul>
+                <li>**Core Principle for 0/0 or ∞/∞ Forms:**
+                  <p>If lim (x→c) f(x) = 0 and lim (x→c) g(x) = 0, OR if lim (x→c) f(x) = ±∞ and lim (x→c) g(x) = ±∞, then:</p>
+                  <p>**lim (x→c) f(x)/g(x) = lim (x→c) f'(x)/g'(x)**</p>
+                  <p><strong>Conditions for Application:</strong></p>
+                  <ul>
+                    <li>The limit must be of the form 0/0 or ∞/∞.</li>
+                    <li>Both f(x) and g(x) must be differentiable in an open interval containing 'c' (except possibly at 'c' itself).</li>
+                    <li>g'(x) must not be zero in that interval (except possibly at 'c').</li>
+                    <li>The limit of the ratio of the derivatives, lim (x→c) f'(x)/g'(x), must exist (or be ±∞). If this limit does not exist, L'Hopital's Rule cannot be applied or does not yield a result.</li>
+                  </ul>
+                  <p><strong>Mechanism (WHAT -> WHY -> HOW -> EFFECT -> EXAMPLE):</strong></p>
+                  <ul>
+                    <li>**WHAT:** L'Hopital's Rule allows us to evaluate limits of ratios of functions that yield indeterminate forms.</li>
+                    <li>**WHY:** It works because, near the point 'c', the ratio of the functions f(x)/g(x) behaves similarly to the ratio of their linear approximations (tangent lines) at 'c'. The slopes of these tangent lines are f'(c) and g'(c), respectively.</li>
+                    <li>**HOW:** You differentiate the numerator and the denominator separately with respect to 'x', and then re-evaluate the limit of this new ratio.</li>
+                    <li>**EFFECT:** This process often simplifies the expression, resolving the indeterminate form and leading to a definite limit value.</li>
+                    <li>**Example:** lim (x→0) (sin(x) - x)/x³
+                      <p>This is 0/0. Apply L'Hopital's Rule:</p>
+                      <p>lim (x→0) (cos(x) - 1)/(3x²) (Still 0/0. Apply again)</p>
+                      <p>lim (x→0) (-sin(x))/(6x) (Still 0/0. Apply again)</p>
+                      <p>lim (x→0) (-cos(x))/6 = -1/6.</p>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Handling Other Indeterminate Forms:**
+                  <p>L'Hopital's Rule is strictly for 0/0 or ∞/∞. However, other indeterminate forms can often be converted into one of these two forms through algebraic manipulation or logarithmic transformation.</p>
+                  <ul>
+                    <li>**0 · ∞:** Convert to 0/0 or ∞/∞.
+                      <p>If lim f(x) = 0 and lim g(x) = ∞, then f(x)g(x) can be written as f(x) / (1/g(x)) (form 0/0) or g(x) / (1/f(x)) (form ∞/∞).</p>
+                      <p><strong>Example:</strong> lim (x→0⁺) x ln(x)
+                        <p>This is 0 · (-∞). Rewrite as lim (x→0⁺) ln(x) / (1/x) (form -∞/∞).</p>
+                        <p>Apply L'Hopital's: lim (x→0⁺) (1/x) / (-1/x²) = lim (x→0⁺) -x = 0.</p>
+                      </p>
+                    </li>
+                    <li>**∞ - ∞:** Convert to 0/0 by finding a common denominator or factoring.
+                      <p><strong>Example:</strong> lim (x→0) (1/x - 1/sin(x))
+                        <p>This is ∞ - ∞. Find common denominator: lim (x→0) (sin(x) - x)/(x sin(x)) (form 0/0).</p>
+                        <p>Apply L'Hopital's: lim (x→0) (cos(x) - 1)/(sin(x) + x cos(x)) (Still 0/0. Apply again).</p>
+                        <p>lim (x→0) (-sin(x))/(cos(x) + cos(x) - x sin(x)) = lim (x→0) (-sin(x))/(2cos(x) - x sin(x)) = 0/(2-0) = 0.</p>
+                      </p>
+                    </li>
+                    <li>**1^∞, 0^0, ∞^0:** Use logarithms.
+                      <p>If lim y = lim f(x)^g(x) results in one of these forms, take the natural logarithm: ln(y) = g(x) ln(f(x)). This converts the problem into a 0 · ∞ form, which can then be converted to 0/0 or ∞/∞.</p>
+                      <p><strong>Example:</strong> lim (x→0⁺) x^x
+                        <p>This is 0^0. Let y = x^x. Then ln(y) = x ln(x).</p>
+                        <p>We already evaluated lim (x→0⁺) x ln(x) = 0.</p>
+                        <p>So, lim (x→0⁺) ln(y) = 0, which means lim (x→0⁺) y = e⁰ = 1.</p>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Important Cautions and Pitfalls:**
+                  <ul>
+                    <li>**Do not apply if not indeterminate:** Always check the form first. If the limit is not indeterminate, direct substitution or other methods should be used.</li>
+                    <li>**Differentiate numerator and denominator separately:** Do not apply the quotient rule for differentiation to f(x)/g(x). Differentiate f(x) and g(x) independently.</li>
+                    <li>**Ensure the limit of derivatives exists:** L'Hopital's Rule only works if lim f'(x)/g'(x) exists. If it doesn't, the rule cannot be used to conclude anything about the original limit.</li>
+                    <li>**Sometimes algebraic manipulation is simpler:** For some limits, especially those involving standard limits, algebraic simplification might be faster and less prone to error than L'Hopital's Rule.</li>
+                  </ul>
+                </li>
+              </ul>
+
+              <h3>3. Continuity & Differentiability: Smoothness and Tangents</h3>
+              <p>Continuity and differentiability are two fundamental properties of functions that describe their "smoothness" and "well-behavedness." These concepts are crucial for understanding the behavior of functions, particularly in applications ranging from physics and engineering to economics, and are frequently tested in defence examinations.</p>
+
+              <h4>3.1. Continuity of a Function</h4>
+              <p>Intuitively, a function is continuous if its graph can be drawn without lifting the pen from the paper; there are no breaks, jumps, or holes. Mathematically, continuity at a point means that the function's value at that point is consistent with the values it approaches from both the left and the right.</p>
+              <ul>
+                <li>**Formal Definition of Continuity at a Point x = c:**
+                  <p>A function f(x) is said to be continuous at a point x = c if and only if all three of the following conditions are met:</p>
+                  <ol>
+                    <li>**f(c) is defined:** The function must have a finite value at x = c.</li>
+                    <li>**lim (x→c) f(x) exists:** The limit of the function as x approaches c must exist. This implies that the left-hand limit (LHL) and the right-hand limit (RHL) are equal: **lim (x→c⁻) f(x) = lim (x→c⁺) f(x)**.</li>
+                    <li>**lim (x→c) f(x) = f(c):** The value of the limit must be equal to the actual function value at x = c.</li>
+                  </ol>
+                  <p>Combining these, the condition for continuity at x = c is: **lim (x→c⁻) f(x) = lim (x→c⁺) f(x) = f(c)**.</p>
+                </li>
+                <li>**Types of Discontinuities:**
+                  <ul>
+                    <li>**Removable Discontinuity (Hole):** Occurs when lim (x→c) f(x) exists, but either f(c) is undefined or f(c) ≠ lim (x→c) f(x). This can be "removed" by redefining f(c).
+                      <p><strong>Example:</strong> f(x) = (x² - 4)/(x - 2) at x = 2. The limit is 4, but f(2) is undefined.</p>
+                    </li>
+                    <li>**Jump Discontinuity:** Occurs when the left-hand limit and the right-hand limit at x = c exist but are not equal (lim (x→c⁻) f(x) ≠ lim (x→c⁺) f(x)).
+                      <p><strong>Example:</strong> f(x) = |x|/x (signum function) at x = 0. LHL = -1, RHL = 1.</p>
+                    </li>
+                    <li>**Infinite Discontinuity:** Occurs when either the left-hand limit or the right-hand limit (or both) approaches ±∞ at x = c. This typically happens at vertical asymptotes.
+                      <p><strong>Example:</strong> f(x) = 1/x at x = 0.</p>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Properties of Continuous Functions:**
+                  <ul>
+                    <li>If f and g are continuous at x = c, then f ± g, f · g, and f/g (if g(c) ≠ 0) are also continuous at x = c.</li>
+                    <li>If f is continuous at x = c and g is continuous at f(c), then the composite function (g o f)(x) = g(f(x)) is continuous at x = c.</li>
+                    <li>Polynomials, exponential functions (e^x, a^x), logarithmic functions (ln x, log_a x for x > 0), and trigonometric functions (sin x, cos x) are continuous in their respective domains.</li>
+                  </ul>
+                </li>
+                <li>**Important Theorems related to Continuity:**
+                  <ul>
+                    <li>**Intermediate Value Theorem (IVT):** If f is a continuous function on a closed interval [a, b] and k is any number between f(a) and f(b), then there exists at least one number c in (a, b) such that f(c) = k. This theorem guarantees the existence of roots for equations.</li>
+                    <li>**Extreme Value Theorem (EVT):** If f is a continuous function on a closed interval [a, b], then f must attain both a maximum and a minimum value on that interval.</li>
+                  </ul>
+                </li>
+              </ul>
+
+              <h4>3.2. Differentiability of a Function</h4>
+              <p>Differentiability is a stronger condition than continuity. A function is differentiable at a point if it has a well-defined, unique tangent line at that point. Geometrically, this means the graph of the function is "smooth" at that point, without any sharp corners, cusps, or vertical tangents. Physically, differentiability implies that the instantaneous rate of change (velocity, acceleration, etc.) is well-defined.</p>
+              <ul>
+                <li>**Formal Definition of Differentiability at a Point x = c:**
+                  <p>A function f(x) is said to be differentiable at a point x = c if the limit of the difference quotient exists and is finite:</p>
+                  <p>**f'(c) = lim (h→0) [f(c + h) - f(c)] / h**</p>
+                  <p>This limit must exist and be the same whether h approaches 0 from the positive side (Right Hand Derivative, RHD) or the negative side (Left Hand Derivative, LHD).</p>
+                  <p>Thus, for differentiability at x = c: **LHD = RHD**</p>
+                  <ul>
+                    <li>**LHD = lim (h→0⁻) [f(c + h) - f(c)] / h**</li>
+                    <li>**RHD = lim (h→0⁺) [f(c + h) - f(c)] / h**</li>
+                  </ul>
+                </li>
+                <li>**Geometric Interpretation:**
+                  <p>The derivative f'(c) represents the slope of the tangent line to the graph of f(x) at the point (c, f(c)). Differentiability ensures that there is a unique, non-vertical tangent line at that point.</p>
+                </li>
+                <li>**Physical Interpretation:**
+                  <p>If f(t) represents the position of an object at time t, then f'(t) represents its instantaneous velocity at time t.</p>
+                </li>
+                <li>**Points of Non-Differentiability:**
+                  <p>A function may fail to be differentiable at a point x = c if:</p>
+                  <ul>
+                    <li>**It is discontinuous at x = c:** Differentiability implies continuity, so if a function is discontinuous, it cannot be differentiable.</li>
+                    <li>**It has a sharp corner (or kink) at x = c:** At a sharp corner, the tangent line is not unique; the slope changes abruptly.
+                      <p><strong>Example:</strong> f(x) = |x| at x = 0. LHD = -1, RHD = 1.</p>
+                    </li>
+                    <li>**It has a cusp at x = c:** Similar to a sharp corner, but the tangents approach a vertical line from both sides.
+                      <p><strong>Example:</strong> f(x) = x^(2/3) at x = 0.</p>
+                    </li>
+                    <li>**It has a vertical tangent at x = c:** The slope of the tangent line is infinite.
+                      <p><strong>Example:</strong> f(x) = x^(1/3) at x = 0. f'(x) = (1/3)x^(-2/3), which approaches ∞ as x→0.</p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <h4>3.3. Relationship Between Continuity and Differentiability</h4>
+              <p>The relationship between continuity and differentiability is a fundamental concept in calculus, often tested in defence exams due to its conceptual importance.</p>
+              <ul>
+                <li>**Differentiability Implies Continuity:**
+                  <p>If a function f(x) is differentiable at a point x = c, then it must also be continuous at x = c.</p>
+                  <p><strong>Proof Sketch:</strong> To show continuity, we need to show lim (x→c) f(x) = f(c), or equivalently, lim (x→c) [f(x) - f(c)] = 0.</p>
+                  <p>We can write f(x) - f(c) = [(f(x) - f(c))/(x - c)] * (x - c).<br>
+                  Taking the limit as x→c: lim (x→c) [f(x) - f(c)] = lim (x→c) [(f(x) - f(c))/(x - c)] * lim (x→c) (x - c).<br>
+                  Since f(x) is differentiable at c, lim (x→c) [(f(x) - f(c))/(x - c)] = f'(c) (a finite value).<br>
+                  And lim (x→c) (x - c) = 0.<br>
+                  So, lim (x→c) [f(x) - f(c)] = f'(c) * 0 = 0. This implies lim (x→c) f(x) = f(c), proving continuity.</p>
+                  <p><strong>Effect:</strong> This means that if you can find a unique tangent line at every point on a curve, the curve must be unbroken and without jumps or holes at those points.</p>
+                </li>
+                <li>**Continuity Does NOT Imply Differentiability:**
+                  <p>The converse is NOT true. A function can be continuous at a point but not differentiable at that point.</p>
+                  <p><strong>Example:</strong> The absolute value function, f(x) = |x|, is continuous at x = 0.
+                    <ul>
+                      <li>f(0) = |0| = 0.</li>
+                      <li>lim (x→0⁻) |x| = lim (x→0⁻) -x = 0.</li>
+                      <li>lim (x→0⁺) |x| = lim (x→0⁺) x = 0.</li>
+                      <li>Since LHL = RHL = f(0), f(x) = |x| is continuous at x = 0.</li>
+                    </ul>
+                  </p>
+                  <p>However, f(x) = |x| is NOT differentiable at x = 0.
+                    <ul>
+                      <li>LHD at x = 0: lim (h→0⁻) [|0 + h| - |0|] / h = lim (h→0⁻) |h| / h = lim (h→0⁻) -h / h = -1.</li>
+                      <li>RHD at x = 0: lim (h→0⁺) [|0 + h| - |0|] / h = lim (h→0⁺) |h| / h = lim (
+`;
+
+window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
+<h3>Introduction to Differentiation: The Foundation of Calculus</h3>
+<p>Differentiation is a fundamental concept in calculus that deals with the rate at which a quantity changes with respect to another. At its core, it provides a precise method for determining the instantaneous rate of change of a function, which can be visualized as the slope of the tangent line to the function's graph at any given point. This powerful mathematical tool was independently developed by Sir Isaac Newton in England and Gottfried Wilhelm Leibniz in Germany during the 17th century, laying the groundwork for modern science and engineering.</p>
+<p>For defence aspirants, understanding differentiation is crucial not just for solving direct mathematical problems but also for grasping the underlying principles of physics, engineering mechanics, and even operational research, where concepts like optimization and rates of change are paramount. It allows us to model dynamic systems, predict future states, and design efficient solutions to complex problems.</p>
+
+<h3>1. General Differentiation Rules</h3>
+<ul>
+  <li>**Product Rule**: d/dx(u·v) = u'v + uv'
+    <ul>
+      <li>**What it is**: This rule is used to find the derivative of a product of two differentiable functions, say u(x) and v(x). It states that the derivative of the product is the first function times the derivative of the second, plus the second function times the derivative of the first.</li>
+      <li>**Why it's needed**: When two functions are multiplied, their combined rate of change isn't simply the product of their individual rates. The product rule accounts for how changes in both functions simultaneously contribute to the overall change of their product.</li>
+      <li>**How it works (Intuition)**: Imagine a rectangle with sides u and v. If u changes by Δu and v changes by Δv, the new area is (u+Δu)(v+Δv) = uv + uΔv + vΔu + ΔuΔv. The change in area is uΔv + vΔu + ΔuΔv. As Δx (and thus Δu, Δv) approaches zero, the ΔuΔv term becomes negligible, leaving uΔv + vΔu, which translates to u(dv/dx) + v(du/dx) in derivative form.</li>
+      <li>**Example**: If f(x) = x² sin x, then u = x² (u' = 2x) and v = sin x (v' = cos x).
+        d/dx(x² sin x) = (x²)(cos x) + (sin x)(2x) = x² cos x + 2x sin x.</li>
+    </ul>
+  </li>
+  <li>**Quotient Rule**: d/dx(u/v) = (u'v - uv') / v²
+    <ul>
+      <li>**What it is**: This rule is applied when finding the derivative of a function that is expressed as the ratio (quotient) of two other differentiable functions, u(x) and v(x), where v(x) ≠ 0.</li>
+      <li>**Why it's needed**: Similar to the product rule, the rate of change of a ratio is not straightforward. The quotient rule systematically accounts for the interplay of changes in the numerator and denominator.</li>
+      <li>**How it works (Derivation Insight)**: The quotient rule can be derived from the product rule and chain rule. Consider u/v as u * v⁻¹. Applying the product rule: d/dx(u * v⁻¹) = u'v⁻¹ + u * d/dx(v⁻¹). Using the chain rule for d/dx(v⁻¹) = -1 * v⁻² * v', we get u'v⁻¹ + u(-v⁻²v') = u'/v - uv'/v² = (u'v - uv') / v².</li>
+      <li>**Example**: If f(x) = tan x = sin x / cos x, then u = sin x (u' = cos x) and v = cos x (v' = -sin x).
+        d/dx(tan x) = (cos x)(cos x) - (sin x)(-sin x) / (cos x)² = (cos² x + sin² x) / cos² x = 1 / cos² x = sec² x.</li>
+    </ul>
+  </li>
+  <li>**Chain Rule**: d/dx(f(g(x))) = f'(g(x)) · g'(x)
+    <ul>
+      <li>**What it is**: This is arguably the most crucial rule for differentiating composite functions, i.e., functions within functions. It states that the derivative of a composite function is the derivative of the outer function (evaluated at the inner function) multiplied by the derivative of the inner function.</li>
+      <li>**Why it's needed**: Many real-world phenomena are modeled by composite functions. For instance, the velocity of a projectile might depend on time, and time itself might depend on another variable. The chain rule allows us to break down the differentiation of such complex functions into manageable steps.</li>
+      <li>**How it works (Analogy)**: Think of peeling an onion. You differentiate the outermost layer first, then the next inner layer, and so on, multiplying the results at each step. If y = f(u) and u = g(x), then dy/dx = (dy/du) * (du/dx). This represents a chain of dependencies.</li>
+      <li>**Effect**: It simplifies the differentiation of complex expressions, making it possible to find derivatives of functions like sin(x²), e^(3x), or (2x+1)⁵.</li>
+      <li>**Example**: If h(x) = sin(x²), let f(u) = sin u and u = g(x) = x². Then f'(u) = cos u and g'(x) = 2x.
+        d/dx(sin(x²)) = cos(x²) · 2x = 2x cos(x²).</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>2. Derivatives of Algebraic & Exponential Functions</h3>
+<ul>
+  <li>d/dx(xⁿ) = n·xⁿ⁻¹
+    <ul>
+      <li>**What it is**: The Power Rule is used for differentiating any function of the form x raised to a constant power n. This rule is fundamental and applies to all real values of n (positive, negative, fractional).</li>
+      <li>**Special Cases**:
+        <ul>
+          <li>d/dx(c) = 0: The derivative of a constant (c) is always zero, as a constant does not change with respect to any variable.</li>
+          <li>d/dx(x) = 1: Applying the power rule with n=1, we get 1·x¹⁻¹ = 1·x⁰ = 1.</li>
+          <li>d/dx(√x) = d/dx(x^(1/2)) = (1/2)x^(-1/2) = 1 / (2√x).</li>
+          <li>d/dx(1/x) = d/dx(x⁻¹) = -1·x⁻² = -1/x².</li>
+        </ul>
+      </li>
+      <li>**Effect**: This rule is the backbone for differentiating polynomials and many rational functions.</li>
+    </ul>
+  </li>
+  <li>d/dx(eˣ) = eˣ
+    <ul>
+      <li>**What it is**: The derivative of the natural exponential function, eˣ, is itself. This unique property makes eˣ incredibly significant in mathematics and science.</li>
+      <li>**Why it's unique**: The number 'e' (Euler's number, approximately 2.71828) is defined in such a way that the slope of the tangent to the curve y = eˣ at any point (x, eˣ) is exactly eˣ. It represents continuous growth at a rate equal to the current amount.</li>
+      <li>**Applications**: Models of natural growth and decay (population growth, radioactive decay, compound interest), solutions to differential equations.</li>
+    </ul>
+  </li>
+  <li>d/dx(aˣ) = aˣ ln a (a > 0)
+    <ul>
+      <li>**What it is**: This is the generalized form for differentiating an exponential function with any positive base 'a'.</li>
+      <li>**How it works**: This can be derived using the chain rule and the property that aˣ = e^(x ln a).
+        d/dx(e^(x ln a)) = e^(x ln a) * d/dx(x ln a) = e^(x ln a) * ln a = aˣ ln a.</li>
+      <li>**Relevance**: Used when dealing with exponential functions that do not have 'e' as their base, common in various scientific and engineering contexts.</li>
+    </ul>
+  </li>
+  <li>d/dx(ln x) = 1/x
+    <ul>
+      <li>**What it is**: The derivative of the natural logarithm function, ln x (logarithm to base e).</li>
+      <li>**Domain**: Valid for x > 0, as the natural logarithm is only defined for positive real numbers.</li>
+      <li>**Relationship to eˣ**: Since ln x is the inverse of eˣ, their derivatives are reciprocally related. If y = ln x, then x = eʸ. Differentiating implicitly with respect to x: 1 = eʸ (dy/dx), so dy/dx = 1/eʸ = 1/x.</li>
+      <li>**Applications**: Crucial for logarithmic differentiation, especially when dealing with functions involving products, quotients, or powers of many terms, or functions where both base and exponent are variables (e.g., x^x).</li>
+    </ul>
+  </li>
+  <li>d/dx(logₐ x) = 1 / (x ln a)
+    <ul>
+      <li>**What it is**: The derivative of a logarithm function with an arbitrary base 'a'.</li>
+      <li>**How it works**: This is derived using the change of base formula for logarithms: logₐ x = ln x / ln a.
+        d/dx(ln x / ln a) = (1/ln a) * d/dx(ln x) = (1/ln a) * (1/x) = 1 / (x ln a).</li>
+      <li>**Relevance**: Generalizes the natural logarithm derivative to any base, useful in fields like information theory and signal processing where non-natural log bases might be used.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>3. Trigonometric Derivatives</h3>
+<p>The derivatives of trigonometric functions are essential for analyzing periodic phenomena, waves, oscillations, and rotations in physics and engineering. They are typically derived from first principles using limits, or from other known derivatives and trigonometric identities.</p>
+<ul>
+  <li>d/dx(sin x) = cos x
+    <ul>
+      <li>**Interpretation**: The rate of change of the sine function is the cosine function. This reflects the phase shift between position (sine) and velocity (cosine) in simple harmonic motion.</li>
+      <li>**Derivation Hint**: Using the limit definition: lim (h->0) [(sin(x+h) - sin x) / h] and trigonometric identities.</li>
+    </ul>
+  </li>
+  <li>d/dx(cos x) = -sin x
+    <ul>
+      <li>**Interpretation**: The rate of change of the cosine function is the negative of the sine function. The negative sign indicates that as cosine increases, sine decreases, and vice-versa, maintaining the cyclical nature.</li>
+      <li>**Derivation Hint**: Can be derived from sin x using the identity cos x = sin(π/2 - x) and the chain rule.</li>
+    </ul>
+  </li>
+  <li>d/dx(tan x) = sec² x
+    <ul>
+      <li>**Derivation**: As shown in the Quotient Rule example, d/dx(sin x / cos x) = sec² x.</li>
+      <li>**Domain**: Defined for x ≠ (nπ + π/2), where n is an integer, as tan x is undefined at these points.</li>
+    </ul>
+  </li>
+  <li>d/dx(sec x) = sec x tan x
+    <ul>
+      <li>**Derivation**: Can be derived using the quotient rule on 1/cos x or the chain rule on (cos x)⁻¹.</li>
+      <li>**Domain**: Defined for x ≠ (nπ + π/2).</li>
+    </ul>
+  </li>
+  <li>d/dx(cosec x) = -cosec x cot x
+    <ul>
+      <li>**Derivation**: Can be derived using the quotient rule on 1/sin x or the chain rule on (sin x)⁻¹.</li>
+      <li>**Domain**: Defined for x ≠ nπ.</li>
+    </ul>
+  </li>
+  <li>d/dx(cot x) = -cosec² x
+    <ul>
+      <li>**Derivation**: Can be derived using the quotient rule on cos x / sin x.</li>
+      <li>**Domain**: Defined for x ≠ nπ.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>4. Inverse Trigonometric Derivatives</h3>
+<p>Inverse trigonometric functions (also known as arc functions) are used to find the angle when a trigonometric ratio is known. Their derivatives are crucial in integration, particularly when dealing with integrals that result in these forms, and in problems involving angles and geometry.</p>
+<p>The derivatives of inverse trigonometric functions are typically found using implicit differentiation or the inverse function theorem. For example, if y = sin⁻¹ x, then x = sin y. Differentiating implicitly with respect to x: 1 = cos y (dy/dx), so dy/dx = 1/cos y. Using the identity cos y = √(1 - sin² y) and substituting sin y = x, we get dy/dx = 1/√(1 - x²).</p>
+<ul>
+  <li>d/dx(sin⁻¹ x) = 1 / √(1 - x²)
+    <ul>
+      <li>**Domain**: Valid for -1 < x < 1. The derivative is undefined at x = ±1, corresponding to vertical tangents on the graph of sin⁻¹ x.</li>
+      <li>**Range of sin⁻¹ x**: [-π/2, π/2].</li>
+    </ul>
+  </li>
+  <li>d/dx(cos⁻¹ x) = -1 / √(1 - x²)
+    <ul>
+      <li>**Domain**: Valid for -1 < x < 1.</li>
+      <li>**Range of cos⁻¹ x**: [0, π]. Note the negative sign, which distinguishes it from sin⁻¹ x.</li>
+    </ul>
+  </li>
+  <li>d/dx(tan⁻¹ x) = 1 / (1 + x²)
+    <ul>
+      <li>**Domain**: Valid for all real numbers x. This derivative is particularly important in integration, as it's the integral of 1/(1+x²).</li>
+      <li>**Range of tan⁻¹ x**: (-π/2, π/2).</li>
+    </ul>
+  </li>
+  <li>d/dx(cot⁻¹ x) = -1 / (1 + x²)
+    <ul>
+      <li>**Domain**: Valid for all real numbers x.</li>
+      <li>**Range of cot⁻¹ x**: (0, π). Note the negative sign.</li>
+    </ul>
+  </li>
+  <li>d/dx(sec⁻¹ x) = 1 / (|x|√(x² - 1))
+    <ul>
+      <li>**Domain**: Valid for |x| > 1. The absolute value of x in the denominator ensures the derivative is positive for x > 1 and negative for x < -1, consistent with the graph.</li>
+      <li>**Range of sec⁻¹ x**: [0, π/2) U (π/2, π].</li>
+    </ul>
+  </li>
+  <li>d/dx(cosec⁻¹ x) = -1 / (|x|√(x² - 1))
+    <ul>
+      <li>**Domain**: Valid for |x| > 1.</li>
+      <li>**Range of cosec⁻¹ x**: [-π/2, 0) U (0, π/2]. Note the negative sign.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>5. Fundamental Concepts and Interpretations of Derivatives</h3>
+<ul>
+  <li>**Rate of Change**:
+    <ul>
+      <li>**Average Rate of Change**: For a function f(x) over an interval [a, b], it's (f(b) - f(a)) / (b - a). This represents the slope of the secant line connecting two points on the curve.</li>
+      <li>**Instantaneous Rate of Change**: This is the derivative, f'(x), defined as the limit of the average rate of change as the interval shrinks to zero. It represents the slope of the tangent line at a single point.</li>
+      <li>**Physical Interpretation**:
+        <ul>
+          <li>If y = position (s), then dy/dx = velocity (v).</li>
+          <li>If y = velocity (v), then dy/dx = acceleration (a).</li>
+          <li>If y = temperature, then dy/dx = rate of temperature change.</li>
+          <li>If y = cost, then dy/dx = marginal cost.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>**Geometric Interpretation (Slope of Tangent)**:
+    <ul>
+      <li>The derivative f'(x) at a point x=c gives the slope of the tangent line to the curve y=f(x) at the point (c, f(c)).</li>
+      <li>A positive derivative indicates the function is increasing at that point.</li>
+      <li>A negative derivative indicates the function is decreasing.</li>
+      <li>A zero derivative indicates a horizontal tangent, often corresponding to local maxima, minima, or points of inflection.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>6. Advanced Differentiation Techniques</h3>
+<ul>
+  <li>**Implicit Differentiation**:
+    <ul>
+      <li>**What it is**: A technique used to differentiate functions that are not explicitly defined in the form y = f(x), but rather implicitly defined by an equation relating x and y (e.g., x² + y² = r²).</li>
+      <li>**Why it's needed**: When it's difficult or impossible to solve for y explicitly in terms of x, implicit differentiation allows us to find dy/dx.</li>
+      <li>**How it works**: Differentiate both sides of the equation with respect to x, treating y as a function of x and applying the chain rule whenever a term involving y is differentiated. Then, solve the resulting equation for dy/dx.</li>
+      <li>**Example**: For x² + y² = 25 (a circle), differentiating with respect to x gives 2x + 2y(dy/dx) = 0. Solving for dy/dx yields dy/dx = -x/y.</li>
+    </ul>
+  </li>
+  <li>**Logarithmic Differentiation**:
+    <ul>
+      <li>**What it is**: A method that uses logarithms to simplify the differentiation of complex functions, especially those involving products, quotients, or powers of many terms, or functions of the form f(x)ᵍ(ˣ) (where both base and exponent are variables).</li>
+      <li>**Why it's needed**: It transforms products into sums and powers into products, making differentiation easier.</li>
+      <li>**How it works**:
+        <ol>
+          <li>Take the natural logarithm of both sides of the equation y = f(x).</li>
+          <li>Use logarithm properties to expand and simplify the right-hand side.</li>
+          <li>Differentiate both sides implicitly with respect to x.</li>
+          <li>Solve for dy/dx.</li>
+        </ol>
+      </li>
+      <li>**Example**: For y = x^x, take ln on both sides: ln y = x ln x. Differentiate implicitly: (1/y)(dy/dx) = 1·ln x + x·(1/x) = ln x + 1. So, dy/dx = y(ln x + 1) = x^x(ln x + 1).</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>7. Higher Order Derivatives</h3>
+<ul>
+  <li>**Second Derivative**: f''(x) or d²y/dx²
+    <ul>
+      <li>**What it is**: The derivative of the first derivative. It measures the rate of change of the rate of change.</li>
+      <li>**Physical Interpretation**: If f(x) is position, f'(x) is velocity, then f''(x) is acceleration. It describes how velocity is changing.</li>
+      <li>**Geometric Interpretation**: Relates to the concavity of the function.
+        <ul>
+          <li>If f''(x) > 0, the function is concave up (like a cup).</li>
+          <li>If f''(x) < 0, the function is concave down (like a frown).</li>
+          <li>If f''(x) = 0, it may indicate a point of inflection where concavity changes.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>**Third Derivative**: f'''(x) or d³y/dx³
+    <ul>
+      <li>**What it is**: The derivative of the second derivative.</li>
+      <li>**Physical Interpretation**: If f(x) is position, f'''(x) is jerk (or jolt). It measures the rate of change of acceleration, which is important in fields like mechanical engineering and ride comfort analysis.</li>
+    </ul>
+  </li>
+  <li>**N-th Derivative**: fⁿ(x) or dⁿy/dxⁿ
+    <ul>
+      <li>**What it is**: The result of differentiating a function n times.</li>
+      <li>**Relevance**: Used in Taylor series expansions, solving higher-order differential equations, and advanced physics models.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>8. Key Applications of Derivatives</h3>
+<ul>
+  <li>**Optimization Problems**:
+    <ul>
+      <li>**Concept**: Finding the maximum or minimum values of a function. This is achieved by finding critical points where the first derivative is zero or undefined, and then using the first or second derivative test to classify these points as local maxima, minima, or saddle points.</li>
+      <li>**Relevance for Defence**: Maximizing efficiency, minimizing costs, optimizing trajectories, resource allocation, and operational planning. For example, determining the optimal angle for projectile launch to achieve maximum range.</li>
+    </ul>
+  </li>
+  <li>**Related Rates**:
+    <ul>
+      <li>**Concept**: Problems where two or more quantities are changing with respect to time, and we need to find the rate of change of one quantity given the rate of change of another.</li>
+      <li>**How it works**: Involves finding an equation relating the quantities, then differentiating implicitly with respect to time (t) and substituting known rates.</li>
+      <li>**Relevance for Defence**: Analyzing scenarios like the rate at which the distance between two moving aircraft changes, the rate of change of water level in a leaking tank, or the speed of a shadow cast by a moving object.</li>
+    </ul>
+  </li>
+  <li>**Curve Sketching**:
+    <ul>
+      <li>**Concept**: Using derivatives to analyze the shape of a function's graph.</li>
+      <li>**Tools**:
+        <ul>
+          <li>First derivative (f'(x)): Determines intervals of increase/decrease and identifies local extrema.</li>
+          <li>Second derivative (f''(x)): Determines intervals of concavity and identifies inflection points.</li>
+        </ul>
+      </li>
+      <li>**Relevance**: Visualizing complex data, understanding the behavior of physical systems, and predicting trends.</li>
+    </ul>
+  </li>
+  <li>**L'Hôpital's Rule**:
+    <ul>
+      <li>**Concept**: A powerful technique for evaluating limits of indeterminate forms (0/0 or ∞/∞).</li>
+      <li>**How it works**: If lim (x->c) f(x)/g(x) results in an indeterminate form, then lim (x->c) f(x)/g(x) = lim (x->c) f'(x)/g'(x), provided the latter limit exists.</li>
+      <li>**Relevance**: Essential for solving advanced limit problems, which often appear in higher-level mathematics and physics.</li>
+    </ul>
+  </li>
+</ul>
+`;
+
+window.EXPANDED_NOTES_DATA["integration"] = String.raw`
+<h3>Introduction to Integral Calculus: The Foundation of Accumulation</h3>
+            <p>Integral calculus, a cornerstone of advanced mathematics alongside differential calculus, is fundamentally concerned with the process of accumulation and finding the total quantity when the rate of change is known. It is the inverse operation of differentiation. While differentiation helps us determine the rate of change of a function at any given point, integration allows us to find the original function given its rate of change, or to calculate the area under a curve, volume of solids, and other cumulative quantities. Developed independently by Sir Isaac Newton and Gottfried Wilhelm Leibniz in the 17th century, integral calculus provides indispensable tools for solving problems across various scientific and engineering disciplines, including physics (motion, work, energy), economics (total cost, revenue), and defence applications (trajectory analysis, signal processing, fluid dynamics).</p>
+            <p>For defence examinations like NDA, CDS, and AFCAT, a robust understanding of integral calculus is paramount. It forms the basis for understanding advanced physics concepts, engineering principles, and even statistical analysis. Mastery of fundamental formulas, special integral forms, and properties of definite integrals is crucial for success.</p>
+
+            <h3>1. Fundamental Indefinite Integrals</h3>
+            <p>Indefinite integration, also known as antidifferentiation, yields a family of functions whose derivative is the given integrand. The arbitrary constant 'C' (constant of integration) signifies this family, as the derivative of any constant is zero. These fundamental formulas are the building blocks for solving more complex integrals.</p>
+            <ul>
+                <li>
+                    <p><strong>∫ xⁿ dx = xⁿ⁺¹/(n+1) + C (n ≠ -1)</strong></p>
+                    <p><strong>WHAT:</strong> This is the power rule for integration, a direct inverse of the power rule for differentiation. It applies to any real number 'n' except -1.</p>
+                    <p><strong>WHY:</strong> If we differentiate the result, d/dx [xⁿ⁺¹/(n+1) + C] = (n+1)xⁿ/(n+1) + 0 = xⁿ. The condition n ≠ -1 is critical because if n were -1, the denominator (n+1) would become zero, rendering the expression undefined. This specific case is handled by the logarithmic integral.</p>
+                    <p><strong>HOW:</strong> To apply, simply increase the power of 'x' by one and divide by the new power. This rule is extensively used for integrating polynomial functions and terms involving powers of variables.</p>
+                    <p><strong>EFFECT:</strong> Essential for integrating algebraic expressions, crucial in kinematics (e.g., finding displacement from velocity, or velocity from acceleration) and calculating moments of inertia in engineering.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ x⁵ dx = x⁶/6 + C; ∫ √x dx = ∫ x^(1/2) dx = x^(3/2)/(3/2) + C = (2/3)x^(3/2) + C.</p>
+                </li>
+                <li>
+                    <p><strong>∫ 1/x dx = ln|x| + C</strong></p>
+                    <p><strong>WHAT:</strong> This integral handles the special case of the power rule where n = -1. The result is the natural logarithm of the absolute value of x.</p>
+                    <p><strong>WHY:</strong> The derivative of ln(x) is 1/x for x > 0, and the derivative of ln(-x) is 1/x for x < 0. Therefore, to encompass both positive and negative values of x for which 1/x is defined, we use ln|x|. The absolute value ensures that the argument of the logarithm is always positive, as logarithms are only defined for positive numbers.</p>
+                    <p><strong>HOW:</strong> Recognize expressions where the numerator is the derivative of the denominator, or simply terms of the form 1/x. This often arises from substitution methods.</p>
+                    <p><strong>EFFECT:</strong> Fundamental in solving differential equations, particularly those involving exponential decay or growth, and in probability distributions.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ (1/(x+2)) dx = ln|x+2| + C (using substitution u = x+2).</p>
+                </li>
+                <li>
+                    <p><strong>∫ eˣ dx = eˣ + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of the exponential function eˣ is itself.</p>
+                    <p><strong>WHY:</strong> This is a unique property of the natural exponential function. Its derivative, d/dx (eˣ), is eˣ. This self-reproducing nature makes it incredibly important in calculus.</p>
+                    <p><strong>HOW:</strong> Directly apply this formula. For more complex exponential functions like e^(ax+b), use substitution.</p>
+                    <p><strong>EFFECT:</strong> Central to modelling processes involving continuous growth or decay, such as radioactive decay (crucial in nuclear physics for defence applications), population dynamics, and compound interest.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ e^(2x) dx = (1/2)e^(2x) + C (using substitution u = 2x).</p>
+                </li>
+                <li>
+                    <p><strong>∫ aˣ dx = aˣ/ln a + C (a > 0, a ≠ 1)</strong></p>
+                    <p><strong>WHAT:</strong> This is the integral of a general exponential function with base 'a'.</p>
+                    <p><strong>WHY:</strong> The derivative of aˣ is aˣ ln a. To reverse this, we must divide by ln a. The conditions a > 0 and a ≠ 1 ensure that the base is valid for exponential functions and that ln a is defined and non-zero.</p>
+                    <p><strong>HOW:</strong> Apply directly for exponential functions with a base other than 'e'.</p>
+                    <p><strong>EFFECT:</strong> Useful in scenarios involving exponential growth or decay with a base other than 'e', though often converted to base 'e' for simplification (aˣ = e^(x ln a)).</p>
+                    <p><strong>EXAMPLE:</strong> ∫ 2ˣ dx = 2ˣ/ln 2 + C.</p>
+                </li>
+                <li>
+                    <p><strong>∫ sin x dx = -cos x + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of the sine function.</p>
+                    <p><strong>WHY:</strong> The derivative of cos x is -sin x. Therefore, to get sin x, we need to integrate -d/dx (cos x), which leads to -cos x.</p>
+                    <p><strong>HOW:</strong> A direct application. Remember the negative sign.</p>
+                    <p><strong>EFFECT:</strong> Essential for solving problems involving periodic phenomena, oscillations, wave mechanics, and alternating currents, which are fundamental in signal processing and radar technology in defence.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ sin(3x) dx = -(1/3)cos(3x) + C.</p>
+                </li>
+                <li>
+                    <p><strong>∫ cos x dx = sin x + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of the cosine function.</p>
+                    <p><strong>WHY:</strong> The derivative of sin x is cos x. This is a direct inverse relationship.</p>
+                    <p><strong>HOW:</strong> A direct application.</p>
+                    <p><strong>EFFECT:</strong> Similar to sin x, crucial for analyzing harmonic motion, wave propagation, and any system exhibiting sinusoidal behavior.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ cos(x/2) dx = 2sin(x/2) + C.</p>
+                </li>
+                <li>
+                    <p><strong>∫ sec² x dx = tan x + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of secant squared x.</p>
+                    <p><strong>WHY:</strong> This is a direct consequence of the differentiation rule: d/dx (tan x) = sec² x.</p>
+                    <p><strong>HOW:</strong> Recognize this form directly. Often appears after trigonometric identities or substitutions.</p>
+                    <p><strong>EFFECT:</strong> Useful in problems involving slopes of tangents and certain types of geometric calculations.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ (tan²x + 1) dx = ∫ sec²x dx = tan x + C.</p>
+                </li>
+                <li>
+                    <p><strong>∫ cosec² x dx = -cot x + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of cosecant squared x.</p>
+                    <p><strong>WHY:</strong> From differentiation, d/dx (cot x) = -cosec² x. Thus, integrating cosec² x yields -cot x.</p>
+                    <p><strong>HOW:</strong> Direct application, remembering the negative sign.</p>
+                    <p><strong>EFFECT:</strong> Similar to sec² x, relevant in specific trigonometric contexts.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ (cot²x + 1) dx = ∫ cosec²x dx = -cot x + C.</p>
+                </li>
+                <li>
+                    <p><strong>∫ sec x tan x dx = sec x + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of the product of secant x and tangent x.</p>
+                    <p><strong>WHY:</strong> This is the direct inverse of the differentiation rule: d/dx (sec x) = sec x tan x.</p>
+                    <p><strong>HOW:</strong> Identify this specific product form.</p>
+                    <p><strong>EFFECT:</strong> Appears in problems involving rates of change of secant functions.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ sec(2x) tan(2x) dx = (1/2)sec(2x) + C.</p>
+                </li>
+                <li>
+                    <p><strong>∫ cosec x cot x dx = -cosec x + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of the product of cosecant x and cotangent x.</p>
+                    <p><strong>WHY:</strong> This is the direct inverse of the differentiation rule: d/dx (cosec x) = -cosec x cot x.</p>
+                    <p><strong>HOW:</strong> Identify this specific product form, remembering the negative sign.</p>
+                    <p><strong>EFFECT:</strong> Similar to sec x tan x, useful in specific trigonometric integrations.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ cosec(x/3) cot(x/3) dx = -3cosec(x/3) + C.</p>
+                </li>
+            </ul>
+            
+            <h3>2. Logarithmic Trigonometric Integrals</h3>
+            <p>These integrals are not direct antiderivatives of simple trigonometric functions but are derived using substitution methods, often involving the logarithmic function. They are frequently encountered and must be memorized for efficiency in competitive exams.</p>
+            <ul>
+                <li>
+                    <p><strong>∫ tan x dx = ln|sec x| + C = -ln|cos x| + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of the tangent function.</p>
+                    <p><strong>WHY:</strong> This is derived by rewriting tan x as sin x / cos x. Let u = cos x, then du = -sin x dx. The integral becomes ∫ (-1/u) du = -ln|u| + C = -ln|cos x| + C. Using logarithm properties, -ln|cos x| = ln|(cos x)⁻¹| = ln|1/cos x| = ln|sec x|.</p>
+                    <p><strong>HOW:</strong> Apply either form directly. The choice often depends on the desired final expression or context.</p>
+                    <p><strong>EFFECT:</strong> Frequently used in solving differential equations involving trigonometric functions and in various engineering applications.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ tan(x/2) dx = 2ln|sec(x/2)| + C.</p>
+                </li>
+                <li>
+                    <p><strong>∫ cot x dx = ln|sin x| + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of the cotangent function.</p>
+                    <p><strong>WHY:</strong> Similar to tan x, rewrite cot x as cos x / sin x. Let u = sin x, then du = cos x dx. The integral becomes ∫ (1/u) du = ln|u| + C = ln|sin x| + C.</p>
+                    <p><strong>HOW:</strong> Direct application.</p>
+                    <p><strong>EFFECT:</strong> Useful in problems involving rates of change of sine functions and in certain physical models.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ cot(4x) dx = (1/4)ln|sin(4x)| + C.</p>
+                </li>
+                <li>
+                    <p><strong>∫ sec x dx = ln|sec x + tan x| + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of the secant function.</p>
+                    <p><strong>WHY:</strong> This integral is derived by a clever trick: multiply the integrand by (sec x + tan x) / (sec x + tan x). This yields ∫ (sec² x + sec x tan x) / (sec x + tan x) dx. Now, let u = sec x + tan x, then du = (sec x tan x + sec² x) dx. The integral becomes ∫ (1/u) du = ln|u| + C = ln|sec x + tan x| + C.</p>
+                    <p><strong>HOW:</strong> This is a standard formula that must be memorized due to its non-obvious derivation.</p>
+                    <p><strong>EFFECT:</strong> Appears in advanced trigonometric problems, particularly in the calculation of arc lengths and surface areas of revolution, which have applications in engineering design.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ sec(x/3) dx = 3ln|sec(x/3) + tan(x/3)| + C.</p>
+                </li>
+                <li>
+                    <p><strong>∫ cosec x dx = ln|cosec x - cot x| + C = ln|tan(x/2)| + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of the cosecant function.</p>
+                    <p><strong>WHY:</strong> Similar to sec x, multiply by (cosec x - cot x) / (cosec x - cot x). This yields ∫ (cosec² x - cosec x cot x) / (cosec x - cot x) dx. Let u = cosec x - cot x, then du = (-cosec x cot x + cosec² x) dx. The integral becomes ∫ (1/u) du = ln|u| + C = ln|cosec x - cot x| + C. The alternative form ln|tan(x/2)| + C is derived using half-angle identities and is often more convenient in certain contexts.</p>
+                    <p><strong>HOW:</strong> Both forms are valid; choose the one that simplifies the problem or matches the required answer format.</p>
+                    <p><strong>EFFECT:</strong> Important in problems involving hyperbolic functions and specific geometric calculations.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ cosec(5x) dx = (1/5)ln|tan(5x/2)| + C.</p>
+                </li>
+            </ul>
+            
+            <h3>3. Special Integrals (Substitution Helper Forms)</h3>
+            <p>These are a set of standard integral forms that frequently arise, especially when using trigonometric or hyperbolic substitutions, or completing the square. Recognizing these forms can significantly speed up the integration process and are vital for solving a wide range of problems in competitive exams.</p>
+            <ul>
+                <li>
+                    <p><strong>∫ 1/(x² + a²) dx = (1/a) tan⁻¹(x/a) + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of a rational function where the denominator is a sum of squares.</p>
+                    <p><strong>WHY:</strong> This form is typically derived using trigonometric substitution. Let x = a tan θ, so dx = a sec² θ dθ. Then x² + a² = a² tan² θ + a² = a²(tan² θ + 1) = a² sec² θ. Substituting these into the integral gives ∫ (a sec² θ) / (a² sec² θ) dθ = ∫ (1/a) dθ = (1/a)θ + C. Since x = a tan θ, θ = tan⁻¹(x/a), leading to the result.</p>
+                    <p><strong>HOW:</strong> Identify denominators that are sums of squares (x² + a²). Ensure the numerator is a constant. If the numerator is a linear term, a different approach (like substitution) might be needed.</p>
+                    <p><strong>EFFECT:</strong> Crucial in electrical engineering (e.g., impedance calculations), physics (e.g., electric fields), and solving certain types of differential equations.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ 1/(x² + 9) dx = ∫ 1/(x² + 3²) dx = (1/3) tan⁻¹(x/3) + C.</p>
+                </li>
+                <li>
+                    <p><strong>∫ 1/√(a² - x²) dx = sin⁻¹(x/a) + C</strong></p>
+                    <p><strong>WHAT:</strong> The integral of a function involving the square root of a difference of squares in the denominator, where the constant term is positive.</p>
+                    <p><strong>WHY:</strong> This form is derived using trigonometric substitution. Let x = a sin θ, so dx = a cos θ dθ. Then √(a² - x²) = √(a² - a² sin² θ) = √(a²(1 - sin² θ)) = √(a² cos² θ) = a cos θ (assuming a cos θ > 0). Substituting gives ∫ (a cos θ) / (a cos θ) dθ = ∫ 1 dθ = θ + C. Since x = a sin θ, θ = sin⁻¹(x/a), leading to the result. Note that for sin⁻¹(x/a) to be defined, -a ≤ x ≤ a.</p>
+                    <p><strong>HOW:</strong> Recognize the form √(a² - x²) in the denominator. This is a direct inverse of the derivative of sin⁻¹(x/a).</p>
+                    <p><strong>EFFECT:</strong> Widely used in physics for problems involving oscillations, simple harmonic motion, and calculating areas of circular segments, relevant in optics and wave mechanics.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ 1/√(25 - x²) dx = ∫ 1/√(5² - x²) dx = sin⁻¹(x/5) + C.</p>
+                </li>
+                <li>
+                    <p><strong>∫ 1/√(x² ± a²) dx = ln|x + √(x² ± a²)| + C</strong></p>
+                    <p><strong>WHAT:</strong> Integrals involving the square root of a sum or difference of squares in the denominator, where x² is the leading term.</p>
+                    <p><strong>WHY:</strong> These integrals are typically derived using hyperbolic substitutions (e.g., x = a sinh θ for x² + a² or x = a cosh θ for x² - a²) or by direct algebraic manipulation. The absolute value ensures the argument of the logarithm is positive. These forms are the antiderivatives of the inverse hyperbolic functions, but they are often expressed using natural logarithms for practical calculation.</p>
+                    <p><strong>HOW:</strong> Identify denominators with √(x² + a²) or √(x² - a²). These are standard forms that should be memorized.</p>
+                    <p><strong>EFFECT:</strong> Essential in advanced physics and engineering, particularly in problems involving hyperbolic geometry, relativistic mechanics, and certain types of potential theory. The form √(x² - a²) is also crucial for calculating arc lengths of parabolas and other curves.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ 1/√(x² + 16) dx = ln|x + √(x² + 16)| + C; ∫ 1/√(x² - 4) dx = ln|x + √(x² - 4)| + C.</p>
+                </li>
+                <li>
+                    <p><strong>Additional Special Integral: ∫ 1/(x² - a²) dx = (1/(2a)) ln|(x-a)/(x+a)| + C</strong></p>
+                    <p><strong>WHAT:</strong> Integral of a rational function with a difference of squares in the denominator.</p>
+                    <p><strong>WHY:</strong> Derived using partial fraction decomposition. 1/(x² - a²) = 1/((x-a)(x+a)) = A/(x-a) + B/(x+a). Solving for A and B yields A = 1/(2a) and B = -1/(2a). Integrating the partial fractions gives (1/(2a))∫ (1/(x-a) - 1/(x+a)) dx = (1/(2a)) [ln|x-a| - ln|x+a|] + C = (1/(2a)) ln|(x-a)/(x+a)| + C.</p>
+                    <p><strong>HOW:</strong> Recognize the form, apply directly. Note the absolute value and the (1/(2a)) factor.</p>
+                    <p><strong>EFFECT:</strong> Important in solving problems in fluid dynamics, electrical circuits, and certain types of differential equations.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ 1/(x² - 9) dx = (1/6) ln|(x-3)/(x+3)| + C.</p>
+                </li>
+                <li>
+                    <p><strong>Additional Special Integral: ∫ 1/(a² - x²) dx = (1/(2a)) ln|(a+x)/(a-x)| + C</strong></p>
+                    <p><strong>WHAT:</strong> Similar to the previous one, but with the constant term first in the difference of squares.</p>
+                    <p><strong>WHY:</strong> Also derived via partial fraction decomposition. 1/(a² - x²) = 1/((a-x)(a+x)) = A/(a-x) + B/(a+x). Solving for A and B yields A = 1/(2a) and B = 1/(2a). Integrating gives (1/(2a))∫ (1/(a-x) + 1/(a+x)) dx = (1/(2a)) [-ln|a-x| + ln|a+x|] + C = (1/(2a)) ln|(a+x)/(a-x)| + C.</p>
+                    <p><strong>HOW:</strong> Distinguish carefully between 1/(x² - a²) and 1/(a² - x²). The order of terms in the logarithm changes.</p>
+                    <p><strong>EFFECT:</strong> Similar applications to the previous form, often encountered when dealing with specific physical models where the constant term dominates.</p>
+                    <p><strong>EXAMPLE:</strong> ∫ 1/(4 - x²) dx = (1/4) ln|(2+x)/(2-x)| + C.</p>
+                </li>
+            </ul>
+            
+            <h3>4. Integration by Parts & Definite Integral Properties</h3>
+            <p>These techniques and properties are crucial for handling more complex integrals and for evaluating definite integrals efficiently. Integration by Parts is a powerful method for integrating products of functions, while definite integral properties simplify calculations over specific intervals.</p>
+            <ul>
+                <li>
+                    <p><strong>**∫ u·v dx = u ∫ v dx - ∫ [ u' ∫ v dx ] dx** (Choose u based on **ILATE** priority).</p>
+                    <p><strong>WHAT:</strong> This is the formula for Integration by Parts, a technique used to integrate products of two functions.</p>
+                    <p><strong>WHY:</strong> It is derived directly from the product rule of differentiation: d/dx (uv) = u(dv/dx) + v(du/dx). Integrating both sides with respect to x gives ∫ d/dx (uv) dx = ∫ u(dv/dx) dx + ∫ v(du/dx) dx, which simplifies to uv = ∫ u dv + ∫ v du. Rearranging for ∫ u dv gives ∫ u dv = uv - ∫ v du. Here, dv is equivalent to v dx, and du is equivalent to u' dx.</p>
+                    <p><strong>HOW:</strong> The key is to correctly choose 'u' (the function to be differentiated) and 'dv' (the function to be integrated). The **ILATE** rule serves as a heuristic for this choice:
+                        <ul>
+                            <li><strong>I</strong>nverse trigonometric functions (e.g., sin⁻¹x, tan⁻¹x)</li>
+                            <li><strong>L</strong>ogarithmic functions (e.g., ln x)</li>
+                            <li><strong>A</strong>lgebraic functions (e.g., xⁿ, polynomials)</li>
+                            <li><strong>T</strong>rigonometric functions (e.g., sin x, cos x)</li>
+                            <li><strong>E</strong>xponential functions (e.g., eˣ, aˣ)</li>
+                        </ul>
+                        The function that appears earlier in the ILATE sequence should generally be chosen as 'u'. This choice aims to simplify the integral ∫ v du, making it easier to solve than the original integral.</p>
+                    <p><strong>EFFECT:</strong> Enables the integration of products of functions that cannot be integrated directly or by simple substitution. It's indispensable for integrals like ∫ x sin x dx, ∫ x eˣ dx, or ∫ ln x dx.</p>
+                    <p><strong>EXAMPLE:</strong> To evaluate ∫ x eˣ dx, let u = x (Algebraic) and dv = eˣ dx (Exponential). According to ILATE, A comes before E, so u=x is a good choice. Then du = dx and v = ∫ eˣ dx = eˣ. Applying the formula: ∫ x eˣ dx = x eˣ - ∫ eˣ dx = x eˣ - eˣ + C.</p>
+                </li>
+                <li>
+`;
+
+window.EXPANDED_NOTES_DATA["syl-matrices"] = String.raw`
+<h3>1. Matrix Classifications: A Comprehensive Overview</h3>
+<p>Matrices are fundamental mathematical objects used to represent linear transformations, store data, and solve systems of linear equations. Their classification is crucial for understanding their properties and applications across various fields, including physics, engineering, computer graphics, and economics. For defence examinations like NDA, CDS, and AFCAT, a deep understanding of these classifications and their implications is paramount, as they form the bedrock for advanced topics in linear algebra.</p>
+<ul>
+  <li>
+    <strong>Symmetric Matrix</strong>: A square matrix A is called symmetric if its transpose is equal to itself, i.e., **Aᵀ = A**.
+    <ul>
+      <li><strong>What it means</strong>: The elements of the matrix are symmetric with respect to the main diagonal. Specifically, for all i, j, the element aᵢⱼ is equal to aⱼᵢ. This creates a mirror image effect across the principal diagonal.</li>
+      <li><strong>Why it's important</strong>: Symmetric matrices appear naturally in many areas. For instance, in physics, the inertia tensor (describing an object's resistance to angular acceleration), stress tensor (describing forces within a material), and strain tensor are often symmetric. In statistics, covariance matrices (describing the variance and covariance between random variables) are inherently symmetric. They represent self-adjoint operators in linear algebra, which have significant implications in quantum mechanics and functional analysis.</li>
+      <li><strong>How to identify</strong>: Simply compare aᵢⱼ with aⱼᵢ. If they are equal for all pairs, the matrix is symmetric. The
+`;
+
+window.EXPANDED_NOTES_DATA["syl-probability"] = String.raw`
+<h3>1. Basic Laws of Probability</h3>
+              <p>Probability is a fundamental concept in mathematics that quantifies the likelihood of an event occurring. It is a value between 0 and 1, where 0 indicates impossibility and 1 indicates certainty. Understanding these basic laws is crucial for analyzing uncertain situations, a skill highly valued in strategic planning and risk assessment within defence contexts.</p>
+              <ul>
+                <li>**Addition Rule: P(A ∪ B) = P(A) + P(B) - P(A ∩ B)**
+                  <ul>
+                    <li>**WHAT:** This rule calculates the probability that at least one of two events, A or B, will occur. The symbol '∪' denotes the union of events, meaning 'A or B or both'.</li>
+                    <li>**WHY:** When calculating P(A) + P(B), the probability of both events occurring simultaneously, P(A ∩ B), is counted twice (once in P(A) and once in P(B)). To correct for this double-counting, the probability of the intersection (A and B) must be subtracted.</li>
+                    <li>**HOW:** Sum the individual probabilities of event A and event B, then subtract the probability of their simultaneous occurrence.</li>
+                    <li>**EFFECT:** Provides an accurate measure of the likelihood of either event happening, preventing overestimation.</li>
+                    <li>**EXAMPLE:** Consider drawing a single card from a standard 52-card deck. Let A be the event of drawing a King, and B be the event of drawing a Heart.
+                      <ul>
+                        <li>P(A) = 4/52 (4 Kings in the deck)</li>
+                        <li>P(B) = 13/52 (13 Hearts in the deck)</li>
+                        <li>P(A ∩ B) = 1/52 (There is one King of Hearts)</li>
+                        <li>P(A ∪ B) = P(King) + P(Heart) - P(King of Heart) = 4/52 + 13/52 - 1/52 = 16/52 = 4/13.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**If events are mutually exclusive: P(A ∩ B) = 0 ⇒ P(A ∪ B) = P(A) + P(B)**
+                  <ul>
+                    <li>**WHAT:** Mutually exclusive events are those that cannot occur at the same time. If one event happens, the other cannot. The intersection of such events is an empty set, meaning their joint probability is zero.</li>
+                    <li>**WHY:** Since there is no overlap between mutually exclusive events, there is no need to subtract any common probability. The term P(A ∩ B) becomes zero.</li>
+                    <li>**HOW:** Simply sum the individual probabilities of the events.</li>
+                    <li>**EFFECT:** Simplifies the addition rule significantly for scenarios where events are distinct and non-overlapping.</li>
+                    <li>**EXAMPLE:** Tossing a fair coin. Let A be the event of getting a Head, and B be the event of getting a Tail. These are mutually exclusive.
+                      <ul>
+                        <li>P(A) = 1/2</li>
+                        <li>P(B) = 1/2</li>
+                        <li>P(A ∩ B) = 0 (You cannot get both a Head and a Tail on a single toss)</li>
+                        <li>P(A ∪ B) = P(Head) + P(Tail) = 1/2 + 1/2 = 1. This means it is certain to get either a Head or a Tail.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Conditional Probability: P(A|B) = P(A ∩ B) / P(B) (where P(B) > 0)**
+                  <ul>
+                    <li>**WHAT:** Conditional probability measures the probability of an event A occurring, given that another event B has already occurred. It is denoted as P(A|B), read as "the probability of A given B".</li>
+                    <li>**WHY:** This concept is crucial for understanding how the occurrence of one event influences the likelihood of another. It effectively reduces the sample space to only those outcomes where event B has happened.</li>
+                    <li>**HOW:** It is calculated as the ratio of the probability of both A and B occurring (their intersection) to the probability of event B occurring. The condition P(B) > 0 is necessary to avoid division by zero.</li>
+                    <li>**EFFECT:** Allows for dynamic updating of probabilities based on new information or observed conditions, which is vital in intelligence analysis, target assessment, and operational planning.</li>
+                    <li>**EXAMPLE:** From a deck of 52 cards, what is the probability of drawing a King (event A) given that the card drawn is a face card (event B)?
+                      <ul>
+                        <li>P(A ∩ B) = Probability of drawing a King and a Face Card = 4/52 (all Kings are face cards).</li>
+                        <li>P(B) = Probability of drawing a Face Card = 12/52 (Jack, Queen, King of all four suits).</li>
+                        <li>P(A|B) = (4/52) / (12/52) = 4/12 = 1/3.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Independent Events: P(A ∩ B) = P(A) · P(B) ⇒ P(A|B) = P(A)**
+                  <ul>
+                    <li>**WHAT:** Two events A and B are considered independent if the occurrence of one does not affect the probability of the other occurring.</li>
+                    <li>**WHY:** When events are independent, the knowledge that one event has occurred provides no information about the likelihood of the other event. This simplifies the calculation of their joint probability.</li>
+                    <li>**HOW:** The probability of both independent events occurring is simply the product of their individual probabilities. A direct consequence is that the conditional probability of A given B is just the probability of A, as B's occurrence doesn't change A's likelihood.</li>
+                    <li>**EFFECT:** Simplifies complex probability calculations and is a foundational assumption in many statistical models.</li>
+                    <li>**EXAMPLE:** Tossing two fair coins. Let A be the event of getting a Head on the first toss, and B be the event of getting a Head on the second toss.
+                      <ul>
+                        <li>P(A) = 1/2</li>
+                        <li>P(B) = 1/2</li>
+                        <li>P(A ∩ B) = P(A) * P(B) = (1/2) * (1/2) = 1/4 (Probability of getting two Heads).</li>
+                        <li>P(A|B) = P(A) = 1/2 (The outcome of the second toss does not influence the probability of the first toss).</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <h3>2. Bayes' Theorem</h3>
+              <p>Bayes' Theorem, named after the 18th-century British statistician and philosopher Thomas Bayes, is a powerful mathematical formula used to update the probability of a hypothesis as more evidence or information becomes available. It is a cornerstone of inferential statistics and is widely applied in fields ranging from medical diagnosis and spam filtering to machine learning and military intelligence analysis, where the ability to update assessments based on new data is critical.</p>
+              <p>It allows us to calculate the **posterior probability** of an event (Eᵢ) given some evidence (A), by using the **prior probability** of the event and the **likelihood** of observing the evidence under that event.</p>
+              <ul>
+                <li>**P(Eᵢ|A) = [ P(Eᵢ) · P(A|Eᵢ) ] / [ Σ[j=1 to n] P(Eⱼ) · P(A|Eⱼ) ]**
+                  <ul>
+                    <li>**WHAT:** This formula calculates the posterior probability P(Eᵢ|A), which is the probability of a specific event Eᵢ occurring given that event A has been observed. The events E₁, E₂,...Eₙ represent a partition of the sample space (they are mutually exclusive and collectively exhaustive), meaning one of them must occur.</li>
+                    <li>**WHY:** Bayes' Theorem is crucial for inverse probability problems – determining the probability of a cause given an effect. It provides a formal mechanism for updating our beliefs or hypotheses in light of new evidence, moving from a prior probability to a more informed posterior probability.</li>
+                    <li>**HOW:**
+                      <ul>
+                        <li>**P(Eᵢ):** This is the **prior probability** of event Eᵢ. It represents our initial belief or knowledge about the probability of Eᵢ before any evidence A is considered.</li>
+                        <li>**P(A|Eᵢ):** This is the **likelihood**. It is the conditional probability of observing the evidence A, given that event Eᵢ is true. It quantifies how well Eᵢ explains A.</li>
+                        <li>**P(A):** This is the **marginal probability of evidence A**, which appears in the denominator. It acts as a normalizing constant and can be expanded using the Law of Total Probability: P(A) = Σ[j=1 to n] P(Eⱼ) · P(A|Eⱼ). This sum accounts for the probability of A occurring under all possible events Eⱼ.</li>
+                        <li>**P(Eᵢ|A):** This is the **posterior probability**. It is the updated probability of event Eᵢ after observing evidence A.</li>
+                      </ul>
+                    </li>
+                    <li>**EFFECT:** Enables sophisticated probabilistic reasoning, allowing for dynamic risk assessment, predictive analytics, and decision-making under uncertainty. In defence, it can be used for target identification, threat assessment, and evaluating the effectiveness of intelligence gathering.</li>
+                    <li>**EXAMPLE:** A rare disease affects 1% of the population (P(Disease) = 0.01). A test for the disease has a 90% true positive rate (P(Positive|Disease) = 0.90) and a 5% false positive rate (P(Positive|No Disease) = 0.05). If a person tests positive, what is the probability they actually have the disease?
+                      <ul>
+                        <li>E₁ = Disease, E₂ = No Disease</li>
+                        <li>A = Positive Test</li>
+                        <li>P(E₁) = 0.01, P(E₂) = 0.99</li>
+                        <li>P(A|E₁) = 0.90, P(A|E₂) = 0.05</li>
+                        <li>P(E₁|A) = [ P(E₁) · P(A|E₁) ] / [ P(E₁) · P(A|E₁) + P(E₂) · P(A|E₂) ]</li>
+                        <li>P(E₁|A) = [ 0.01 · 0.90 ] / [ 0.01 · 0.90 + 0.99 · 0.05 ]</li>
+                        <li>P(E₁|A) = 0.009 / [ 0.009 + 0.0495 ] = 0.009 / 0.0585 ≈ 0.1538 or 15.38%.</li>
+                        <li>This shows that even with a positive test, the probability of having the rare disease is still relatively low, due to the low prior probability and the false positive rate.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <h3>3. Statistics & Measures of Central Tendency</h3>
+              <p>Statistics is the science of collecting, analyzing, interpreting, presenting, and organizing data. Measures of central tendency are single values that attempt to describe a set of data by identifying the central position within that set. They are often referred to as averages and provide a concise summary of the typical value in a dataset, which is essential for understanding data distributions in various defence applications, from logistics to personnel management.</p>
+              <ul>
+                <li>**Mean (x̄)**: Average value. x̄ = (Σ xᵢ)/n.
+                  <ul>
+                    <li>**WHAT:** The arithmetic mean is the sum of all values in a dataset divided by the number of values. It is the most commonly used measure of central tendency.</li>
+                    <li>**WHY:** It represents the "balancing point" of the data, where the sum of deviations from the mean is zero. It incorporates every value in the dataset.</li>
+                    <li>**HOW:** Add all the observations (xᵢ) together and divide by the total number of observations (n). For grouped data, a weighted mean is often used: x̄ = (Σ fᵢxᵢ) / (Σ fᵢ), where fᵢ is the frequency of each class.</li>
+                    <li>**EFFECT:** Highly sensitive to extreme values (outliers), which can pull the mean significantly in one direction. It is best suited for symmetrically distributed data without extreme outliers.</li>
+                    <li>**TYPES:**
+                      <ul>
+                        <li>**Arithmetic Mean:** As described above.</li>
+                        <li>**Weighted Mean:** Used when different data points contribute differently to the average.</li>
+                        <li>**Geometric Mean:** Used for data that grows exponentially, like rates of return or population growth. GM = (x₁ * x₂ * ... * xₙ)^(1/n).</li>
+                        <li>**Harmonic Mean:** Used for rates or ratios, particularly when averaging speeds or prices over distances/amounts. HM = n / Σ(1/xᵢ).</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Median**: Middle value. If n is odd: ((n+1)/2)th term. If n is even: Mean of (n/2)th and (n/2 + 1)th terms.
+                  <ul>
+                    <li>**WHAT:** The median is the middle value in a dataset when the data is arranged in ascending or descending order. It divides the dataset into two equal halves.</li>
+                    <li>**WHY:** It is a robust measure of central tendency, meaning it is not affected by extreme outliers. It represents the true "middle" of the data, making it suitable for skewed distributions.</li>
+                    <li>**HOW:** First, arrange the data points in order. If the number of observations (n) is odd, the median is the value at the ((n+1)/2)th position. If n is even, the median is the average of the values at the (n/2)th and (n/2 + 1)th positions.</li>
+                    <li>**EFFECT:** Provides a better representation of the typical value in skewed distributions (e.g., income distribution) compared to the mean.</li>
+                  </ul>
+                </li>
+                <li>**Mode**: Element with highest frequency.
+                  <ul>
+                    <li>**WHAT:** The mode is the value that appears most frequently in a dataset.</li>
+                    <li>**WHY:** It identifies the most common or popular item or category. It is the only measure of central tendency that can be used for nominal (categorical) data.</li>
+                    <li>**HOW:** Count the frequency of each distinct value in the dataset. The value with the highest frequency is the mode. A dataset can have one mode (unimodal), two modes (bimodal), more than two modes (multimodal), or no mode if all values appear with the same frequency.</li>
+                    <li>**EFFECT:** Useful for understanding preferences, common occurrences, or typical categories. It is not affected by extreme values.</li>
+                  </ul>
+                </li>
+                <li>**Empirical Relation**: **Mode = 3 Median - 2 Mean**
+                  <ul>
+                    <li>**WHAT:** This is an approximate relationship between the mean, median, and mode that holds true for moderately skewed distributions (unimodal distributions that are not perfectly symmetrical).</li>
+                    <li>**WHY:** It provides a quick way to estimate one measure if the other two are known, or to check the consistency of calculated measures. It also gives an indication of the skewness of the distribution:
+                      <ul>
+                        <li>If Mean > Median > Mode, the distribution is positively (right) skewed.</li>
+                        <li>If Mean < Median < Mode, the distribution is negatively (left) skewed.</li>
+                        <li>If Mean ≈ Median ≈ Mode, the distribution is approximately symmetrical.</li>
+                      </ul>
+                    </li>
+                    <li>**HOW:** The formula is derived from observations of the relative positions of these measures in various types of distributions.</li>
+                    <li>**EFFECT:** A practical tool for quick analysis and understanding the shape of a distribution without needing to plot it.</li>
+                  </ul>
+                </li>
+              </ul>
+
+              <h3>3.1. Types of Data and Frequency Distribution</h3>
+              <p>Before applying statistical measures, it's crucial to understand the nature of the data. Data can be broadly classified, and its organization into frequency distributions is a preliminary step for meaningful analysis.</p>
+              <ul>
+                <li>**Types of Data:**
+                  <ul>
+                    <li>**Qualitative (Categorical) Data:** Describes qualities or characteristics that cannot be measured numerically.
+                      <ul>
+                        <li>**Nominal:** Categories without any inherent order (e.g., gender, blood type, military branch).</li>
+                        <li>**Ordinal:** Categories with a meaningful order but unequal intervals between them (e.g., rank (Pvt, Cpl, Sgt), satisfaction ratings (low, medium, high)).</li>
+                      </ul>
+                    </li>
+                    <li>**Quantitative (Numerical) Data:** Represents quantities that can be measured or counted.
+                      <ul>
+                        <li>**Discrete:** Data that can only take specific, distinct values, often counts (e.g., number of tanks, number of casualties, number of successful missions).</li>
+                        <li>**Continuous:** Data that can take any value within a given range, often measurements (e.g., height, weight, temperature, time taken for a task).</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Frequency Distribution:** A table or graph that displays the frequency of various outcomes in a sample. It's a way to organize raw data.
+                  <ul>
+                    <li>**Ungrouped Frequency Distribution:** Lists each individual data point and its frequency. Suitable for small datasets or discrete variables with few unique values.</li>
+                    <li>**Grouped Frequency Distribution:** Data is organized into classes or intervals, and the frequency of observations falling into each class is recorded. Essential for large datasets and continuous variables.
+                      <ul>
+                        <li>**Class Interval:** The range of values within each group (e.g., 0-10, 10-20).</li>
+                        <li>**Class Mark (Mid-point):** The average of the upper and lower limits of a class interval, used for calculations like the mean of grouped data.</li>
+                        <li>**Cumulative Frequency:** The sum of frequencies up to a particular class interval.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <h3>4. Measures of Dispersion</h3>
+              <p>While measures of central tendency describe the typical value, measures of dispersion (or variability) quantify the extent to which data points are spread out or clustered around the central value. Understanding dispersion is critical for assessing the consistency, reliability, and risk associated with data, whether it's the spread of firing accuracy, variations in equipment performance, or the consistency of operational outcomes.</p>
+              <ul>
+                <li>**Variance (σ²)**: σ² = Σ(xᵢ - x̄)² / n = (Σ xᵢ² / n) - (x̄)²
+                  <ul>
+                    <li>**WHAT:** Variance is the average of the squared differences from the mean. It provides a numerical value that describes how far data points are from the mean.</li>
+                    <li>**WHY:** Squaring the differences ensures that negative and positive deviations do not cancel each other out, and it gives more weight to larger deviations, highlighting significant spread.</li>
+                    <li>**HOW:**
+                      <ol>
+                        <li>Calculate the mean (x̄) of the dataset.</li>
+                        <li>Subtract the mean from each data point (xᵢ - x̄).</li>
+                        <li>Square each of these differences.</li>
+                        <li>Sum all the squared differences.</li>
+                        <li>Divide the sum by the total number of data points (n) for population variance, or by (n-1) for sample variance (to provide an unbiased estimate of the population variance).</li>
+                      </ol>
+                      The alternative formula (Σ xᵢ² / n) - (x̄)² is often computationally easier.</li>
+                    <li>**EFFECT:** The units of variance are the square of the original data units, which can make direct interpretation difficult. It is primarily used as an intermediate step to calculate standard deviation.</li>
+                  </ul>
+                </li>
+                <li>**Standard Deviation (σ)**: σ = √Variance
+                  <ul>
+                    <li>**WHAT:** The standard deviation is the square root of the variance. It is the most widely used measure of dispersion.</li>
+                    <li>**WHY:** By taking the square root of the variance, the standard deviation returns the measure of spread to the original units of the data, making it much more interpretable and relatable to the actual data values.</li>
+                    <li>**HOW:** Calculate the variance, then take its positive square root.</li>
+                    <li>**EFFECT:** Provides a clear and intuitive understanding of the typical distance of data points from the mean. A small standard deviation indicates that data points are clustered closely around the mean, while a large standard deviation indicates that data points are spread out over a wider range.</li>
+                    <li>**EMPIRICAL RULE (for Normal Distributions):** For data that follows a normal (bell-shaped) distribution:
+                      <ul>
+                        <li>Approximately 68% of the data falls within ±1 standard deviation of the mean.</li>
+                        <li>Approximately 95% of the data falls within ±2 standard deviations of the mean.</li>
+                        <li>Approximately 99.7% of the data falls within ±3 standard deviations of the mean.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Coefficient of Variation (CV)**: CV = (σ / x̄) * 100 (measures relative consistency).
+                  <ul>
+                    <li>**WHAT:** The Coefficient of Variation is a dimensionless measure of relative variability. It expresses the standard deviation as a percentage of the mean.</li>
+                    <li>**WHY:** It is particularly useful for comparing the consistency or variability of two or more datasets that have different units of measurement or vastly different means. For example, comparing the variability of heights (in cm) and weights (in kg), or comparing the consistency of two different weapon systems with different average accuracies.</li>
+                    <li>**HOW:** Divide the standard deviation (σ) by the mean (x̄) and multiply by 100 to express it as a percentage.</li>
+                    <li>**EFFECT:** A lower CV indicates greater consistency or less relative variability in the data, making it a valuable metric for performance comparison and risk assessment.</li>
+                  </ul>
+                </li>
+                <li>**Range**:
+                  <ul>
+                    <li>**WHAT:** The simplest measure of dispersion, calculated as the difference between the maximum and minimum values in a dataset.</li>
+                    <li>**WHY:** Provides a quick, albeit rough, estimate of the spread of data.</li>
+                    <li>**HOW:** Range = Maximum Value - Minimum Value.</li>
+                    <li>**EFFECT:** Highly sensitive to outliers, as it only considers the two extreme values and ignores the distribution of data in between.</li>
+                  </ul>
+                </li>
+                <li>**Interquartile Range (IQR)**:
+                  <ul>
+                    <li>**WHAT:** The IQR is the range of the middle 50% of the data. It is calculated as the difference between the third quartile (Q₃) and the first quartile (Q₁).</li>
+                    <li>**WHY:** Unlike the range, the IQR is robust to outliers, as it focuses on the central portion of the data. It provides a good measure of spread for skewed distributions.</li>
+                    <li>**HOW:**
+                      <ol>
+                        <li>Order the data from smallest to largest.</li>
+                        <li>Find the median (Q₂).</li>
+                        <li>Q₁ is the median of the lower half of the data.</li>
+                        <li>Q₃ is the median of the upper half of the data.</li>
+                        <li>IQR = Q₃ - Q₁.</li>
+                      </ol>
+                    </li>
+                    <li>**EFFECT:** A reliable measure of spread, often used in conjunction with the median for describing non-symmetrical distributions and for identifying potential outliers (values beyond 1.5 * IQR from Q₁ or Q₃).</li>
+                  </ul>
+                </li>
+              </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
+<h3>**Types of Forces**</h3>
+<p>Forces are fundamental interactions that cause changes in motion or shape. In physics, a force is defined as any interaction that, when unopposed, will change the motion of an object. It is a vector quantity, possessing both magnitude and direction, and is typically measured in Newtons (N) in the International System of Units (SI). The dimensional formula for force is [MLT<sup>-2</sup>]. Understanding the various types of forces is crucial for analyzing the dynamics of objects, from subatomic particles to celestial bodies, and forms the bedrock of classical mechanics. Forces are broadly categorized into contact and non-contact forces based on whether physical touch is required for their interaction.</p>
+<ul>
+    <li>**Contact Forces:** These forces arise when two objects are physically in direct contact with each other, meaning their surfaces are touching. The interaction occurs at the point or area of contact, involving molecular interactions at the interface.
+        <ul>
+            <li>**Frictional Force:**
+                <ul>
+                    <li>**WHAT:** Frictional force is a resistive force that opposes the relative motion or tendency of motion between two surfaces in contact. It always acts parallel to the surfaces at the interface.</li>
+                    <li>**WHY:** It arises primarily due to the microscopic irregularities (interlocking of asperities) on the surfaces and, to a lesser extent, from adhesive forces (intermolecular attractions) between the molecules of the two materials in contact.</li>
+                    <li>**HOW:**
+                        <ul>
+                            <li>**Static Friction (f<sub>s</sub>):** This type of friction acts when objects are at rest relative to each other, preventing the initiation of motion. Its magnitude is variable, ranging from zero up to a maximum value (f<sub>s,max</sub> = μ<sub>s</sub>N), where μ<sub>s</sub> is the coefficient of static friction (a dimensionless constant dependent on the nature of the surfaces) and N is the normal force. Once the applied force exceeds f<sub>s,max</sub>, the object begins to move.</li>
+                            <li>**Kinetic Friction (f<sub>k</sub>):** Also known as dynamic friction, this force acts when objects are in relative motion. Its magnitude is generally constant and less than the maximum static friction (f<sub>k</sub> = μ<sub>k</sub>N), where μ<sub>k</sub> is the coefficient of kinetic friction. Typically, μ<sub>k</sub> < μ<sub>s</sub>.</li>
+                            <li>**Rolling Friction:** A much smaller resistive force that occurs when an object rolls over a surface. It is significantly less than sliding (kinetic) friction, which is why wheels are highly efficient for transportation.</li>
+                        </ul>
+                    </li>
+                    <li>**EFFECT:** Friction can be both beneficial and detrimental. It is essential for locomotion (walking, driving), braking, and gripping objects. However, it also causes wear and tear, generates heat, and leads to energy loss in machinery. Lubrication is a common method to reduce friction by introducing a fluid layer between surfaces.</li>
+                    <li>**EXAMPLE:** A vehicle's tires gripping the road, brakes stopping a car, the resistance encountered when pushing a heavy box across the floor. In defence, friction is critical in weapon mechanisms (e.g., bolt action, magazine feeding), vehicle traction on varied terrain, and the stability of projectiles (e.g., rifling imparting spin).</li>
+                </ul>
+            </li>
+            <li>**Normal Force:**
+                <ul>
+                    <li>**WHAT:** The normal force is the component of a contact force perpendicular to the surface of contact that prevents two objects from penetrating each other. It always acts outwards from the surface.</li>
+                    <li>**WHY:** It is a reaction force, arising from the elastic deformation of the surface at the point of contact, as per Newton's Third Law. The surface resists being compressed.</li>
+                    <li>**HOW:** Its magnitude is equal and opposite to the component of the applied force (often the weight of the object) that is perpendicular to the surface. For an object resting on a horizontal surface, N = mg (where m is mass, g is acceleration due to gravity). On an inclined plane, the normal force is N = mg cosθ, where θ is the angle of inclination.</li>
+                    <li>**EFFECT:** It supports objects, prevents collapse, and is a crucial factor in determining the maximum static friction and the kinetic friction. It also accounts for the "apparent weight" experienced in accelerating elevators or during flight maneuvers.</li>
+                    <li>**EXAMPLE:** A book resting on a table, a person standing on the ground, the force exerted by a wall on a ladder leaning against it. Essential for structural integrity in engineering, bridge design, and vehicle suspension systems.</li>
+                </ul>
+            </li>
+            <li>**Tension Force:**
+                <ul>
+                    <li>**WHAT:** Tension is the pulling force transmitted axially through a flexible medium, such as a string, rope, cable, or wire, when it is pulled tight by forces acting from opposite ends. It always acts along the length of the medium.</li>
+                    <li>**WHY:** It arises from the intermolecular forces within the material of the rope/string, which resist stretching and tend to restore the material to its original length.</li>
+                    <li>**HOW:** For an ideal (massless and inextensible) string or rope, the tension is uniform throughout its length. It is always a pulling force and cannot push. Pulleys are often used to change the direction of tension force without changing its magnitude in ideal systems.</li>
+                    <li>**EFFECT:** Enables lifting, pulling, and suspending objects. It is crucial in systems involving ropes, cables, and pulleys, allowing for the transmission of force over distances or around obstacles.</li>
+                    <li>**EXAMPLE:** A rope lifting a bucket from a well, a cable supporting a suspension bridge, the tension in the string of a pendulum. Used extensively in cranes, parachutes, climbing gear, and various military rigging and recovery operations.</li>
+                </ul>
+            </li>
+            <li>**Applied Force:**
+                <ul>
+                    <li>**WHAT:** An applied force is a general term for a force that is directly exerted on an object by a person or another object through direct physical contact.</li>
+                    <li>**WHY:** It originates from a direct physical push or pull, often resulting from muscular effort or mechanical action.</li>
+                    <li>**HOW:** It can be of any magnitude and direction, depending on the source and intent of the interaction. It is the initial force in many dynamic scenarios.</li>
+                    <li>**EFFECT:** Causes acceleration, deformation, or changes in the state of motion of the object upon which it acts. It can overcome inertia or other resistive forces.</li>
+                    <li>**EXAMPLE:** Pushing a door open, kicking a football, a person pulling a cart. In military contexts, this could be the force applied by a soldier to operate equipment, the impact force of a projectile on a target, or the thrust generated by an engine.</li>
+                </ul>
+            </li>
+            <li>**Air Resistance:**
+                <ul>
+                    <li>**WHAT:** Air resistance, also known as drag, is a type of frictional force that opposes the motion of an object through the air (or any fluid). It is a specific form of fluid resistance.</li>
+                    <li>**WHY:** It arises from two primary mechanisms: (1) the constant collisions between the moving object and the air molecules, transferring momentum, and (2) pressure differences created by the object's movement through the fluid, leading to a wake behind the object.</li>
+                    <li>**HOW:** Its magnitude depends on several factors: the object's speed (often proportional to v for low speeds, and v<sup>2</sup> for high speeds), its shape (aerodynamics/hydrodynamics), its size (cross-sectional area), and the density of the fluid. The drag coefficient (C<sub>d</sub>) quantifies the object's aerodynamic efficiency.</li>
+                    <li>**EFFECT:** Slows down moving objects, converts kinetic energy into heat, and limits the maximum speed (terminal velocity) of falling objects when the drag force equals the gravitational force. It significantly impacts range and accuracy for projectiles.</li>
+                    <li>**EXAMPLE:** A skydiver reaching terminal velocity, the resistance felt by a cyclist, the drag on an aircraft or a submarine. Crucial in projectile motion, ballistics (e.g., artillery shells, bullets), aircraft design, and missile guidance systems for defence applications.</li>
+                </ul>
+            </li>
+            <li>**Spring Force:**
+                <ul>
+                    <li>**WHAT:** The spring force is the restoring force exerted by a stretched or compressed elastic spring or any elastic material. It always acts to return the spring to its equilibrium (natural) length.</li>
+                    <li>**WHY:** It arises from the elastic properties of the material, specifically the intermolecular forces that resist deformation and tend to restore the material to its original configuration.</li>
+                    <li>**HOW:** According to Hooke's Law (for ideal springs within their elastic limit), the spring force (F<sub>s</sub>) is directly proportional to the displacement (x) from its equilibrium position and acts in the opposite direction to the displacement: F<sub>s</sub> = -kx, where 'k' is the spring constant (a measure of the spring's stiffness, in N/m). The negative sign indicates it's a restoring force.</li>
+                    <li>**EFFECT:** Causes oscillations (e.g., Simple Harmonic Motion), stores potential energy (elastic potential energy = ½kx<sup>2</sup>), and acts as a shock absorber or energy storage device.</li>
+                    <li>**EXAMPLE:** Car suspension systems, spring scales, recoil mechanisms in firearms (to absorb recoil energy and return components to position), watch
+`;
+
+window.EXPANDED_NOTES_DATA["circles-polygons"] = String.raw`
+<h3>**1. Types of Waves**</h3>
+<ul>
+    <li>**Transverse Waves:**
+        <p>These are waves in which the particles of the medium oscillate perpendicular to the direction of wave propagation. Imagine a ripple on a pond: the water molecules move up and down, while the wave itself travels horizontally across the surface. The energy is transferred through the medium, but the medium itself does not move along with the wave. They are characterized by crests (points of maximum upward displacement) and troughs (points of maximum downward displacement), which represent the maximum positive and negative displacements from the equilibrium position, respectively.</p>
+        <ul>
+            <li>**Mechanism:** The disturbance causes particles to move perpendicular to the wave's energy transfer. This motion creates a restoring force that pulls adjacent particles, propagating the disturbance without any net transport of matter. The medium's elasticity and inertia are key factors in their propagation.</li>
+            <li>**Examples:**
+                <ul>
+                    <li>**Electromagnetic Waves:** All forms of light, including radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays, are transverse waves. They are unique because they do not require a material medium for propagation and can travel through the vacuum of space.</li>
+                    <li>**Waves on a String:** When a string (like a guitar string) is plucked, the vibrations travel along the string as transverse waves. The particles of the string move up and down, while the wave propagates horizontally.</li>
+                    <li>**Surface Water Waves:** While having a complex motion, the dominant component of surface water waves is transverse
+`;
+
+window.EXPANDED_NOTES_DATA["area-perimeter"] = String.raw`
+<h3>**Atmospheric Layers**</h3>
+<p>The Earth's atmosphere is a vital gaseous envelope surrounding our planet, held in place by gravity. It is a dynamic system, crucial for sustaining life, regulating temperature, and protecting the surface from harmful solar radiation and meteoroids. This complex blanket of air is not uniform but is stratified into several distinct layers, each possessing unique characteristics regarding temperature profiles, pressure variations, and atmospheric composition. A thorough understanding of these layers is fundamental for various disciplines, including meteorology, climatology, aviation, space exploration, and even defence applications like missile trajectories and satellite operations.</p>
+<p>The atmosphere is primarily composed of Nitrogen (approximately 78%), Oxygen (about 21%), Argon (around 0.93%), Carbon Dioxide (about 0.04%), and trace amounts of other gases like Neon, Helium, Methane, Krypton, and Hydrogen. Water vapor, though highly variable, also plays a critical role, especially in the lower layers. The density of the atmosphere decreases rapidly with altitude, meaning that most of the atmospheric mass is concentrated closer to the Earth's surface.</p>
+<ul>
+    <li>**Troposphere:**
+        <ul>
+            <li>**WHAT:** This is the lowest and densest layer of the Earth's atmosphere, extending from the surface up to an average altitude of about 8 to 15 kilometers. Its height varies, being thicker at the equator (around 18 km) due to greater solar heating and convection, and thinner at the poles (around 8 km).</li>
+            <li>**WHY:** It is the region where almost all weather phenomena occur. This is because it contains the vast majority of the atmospheric water vapor, dust particles, and aerosols, which are essential for cloud formation and precipitation. Intense convection currents, driven by solar heating of the Earth's surface, constantly mix the air in this layer.</li>
+            <li>**HOW:** A defining characteristic is the **temperature lapse rate**, where temperature generally decreases with increasing altitude. On average, the temperature drops by about 6.5°C per kilometer (or 3.5°F per 1,000 feet). This cooling occurs because the troposphere is primarily heated from below by the Earth's surface, which absorbs solar radiation and re-radiates it as longwave infrared radiation.</li>
+            <li>**EFFECT:** This layer is responsible for the air we breathe, the formation of clouds, rain, snow, storms, and all other meteorological events. Air pollution, primarily generated at the surface, is also largely confined to the troposphere.</li>
+            <li>**EXAMPLE:** Commercial passenger aircraft typically fly in the upper parts of the troposphere, or just below the tropopause, to avoid turbulence and benefit from more stable air. Mount Everest's peak is well within the troposphere.</li>
+            <li>**Tropopause:** This is the boundary layer between the troposphere and the stratosphere. It marks where the temperature decrease with altitude ceases and begins to stabilize or even increase. It acts as a lid, largely preventing vertical mixing between the troposphere and the stratosphere.</li>
+        </ul>
+    </li>
+    <li>**Stratosphere:**
+        <ul>
+            <li>**WHAT:** Located directly above the troposphere, the stratosphere extends from the tropopause up to an altitude of about 50 kilometers. It is a much drier and less dense layer than the troposphere, with very little vertical air movement.</li>
+            <li>**WHY:** The most significant feature of the stratosphere is the **ozone layer**, a region with a high concentration of ozone molecules (O3). This layer is crucial for life on Earth as it absorbs most of the Sun's harmful ultraviolet (UV) radiation, particularly UV-B and UV-C rays, preventing them from reaching the surface.</li>
+            <li>**HOW:** Unlike the troposphere, the temperature in the stratosphere **increases with altitude**. This temperature inversion is primarily due to the absorption of UV radiation by the ozone layer. As ozone molecules absorb UV energy, they break apart and then reform, releasing heat in the process. This heating is most intense at the top of the stratosphere where UV radiation is strongest.</li>
+            <li>**EFFECT:** The stable, calm air and lack of turbulence make the lower stratosphere ideal for long-distance jet aircraft flights. The ozone layer's protective function is vital for preventing skin cancer, cataracts, and damage to plant and marine life. Depletion of this layer, famously by CFCs, is a significant environmental concern.</li>
+            <li>**EXAMPLE:** High-altitude reconnaissance aircraft (like the U-2 spy plane), supersonic jets (like the Concorde, now retired), and weather balloons operate within the stratosphere.</li>
+            <li>**Stratopause:** This is the boundary at the top of the stratosphere, where the temperature reaches its maximum for this layer (around 0°C or 32°F) and then begins to decrease with further altitude.</li>
+        </ul>
+    </li>
+    <li>**Mesosphere:**
+        <ul>
+            <li>**WHAT:** Situated above the stratosphere, the mesosphere extends from the stratopause (around 50 km) to approximately 85 kilometers above the Earth's surface. It is characterized by extremely thin air.</li>
+            <li>**WHY:** This layer is significant because it is where most meteors, or "shooting stars," burn up upon entering Earth's atmosphere. The friction generated as these space rocks encounter the increasing density of atmospheric gases causes them to heat up and disintegrate, protecting the Earth's surface from constant bombardment.</li>
+            <li>**HOW:** Temperature in the mesosphere **decreases significantly with altitude**, reaching the coldest temperatures in the entire atmosphere, often dropping to -90°C (-130°F) at the mesopause. This cooling occurs because there is very little ozone to absorb solar radiation, and the air density is too low for significant heating from below.</li>
+            <li>**EFFECT:** The burning of meteors creates visible streaks of light. Rare, high-altitude clouds called noctilucent clouds (or polar mesospheric clouds) can sometimes be observed in this layer during twilight hours, especially at high latitudes.</li>
+            <li>**EXAMPLE:** Scientific research rockets, known as sounding rockets, are often launched to study the conditions within the mesosphere.</li>
+            <li>**Mesopause:** This is the coldest region of the Earth's atmosphere and marks the boundary between the mesosphere and the thermosphere.</li>
+        </ul>
+    </li>
+    <li>**Thermosphere:**
+        <ul>
+            <li>**WHAT:** The thermosphere is a very thick layer, extending from the mesopause (around 85 km) up to about 600 kilometers or more, gradually merging into the exosphere. Despite its vast extent, the air density is extremely low.</li>
+            <li>**WHY:** This layer directly absorbs high-energy solar radiation, including X-rays and extreme ultraviolet (EUV) radiation. This absorption causes the few molecules present to become highly energized and ionized.</li>
+            <li>**HOW:** The temperature in the thermosphere **increases significantly with altitude**, potentially reaching thousands of degrees Celsius (e.g., 1500°C or 2700°F). However, because the air is so incredibly thin, these high temperatures refer to the kinetic energy of the individual molecules, not the heat content. A thermometer would register very cold temperatures due to the sparse number of molecules to transfer heat.</li>
+            <li>**EFFECT:** The ionization of gases in the thermosphere creates the **ionosphere**, a region crucial for radio communication. The ionosphere reflects radio waves back to Earth, enabling long-distance communication. It is also the layer where the spectacular **auroras** (Aurora Borealis in the Northern Hemisphere and Aurora Australis in the Southern Hemisphere) occur. These vibrant light displays are caused by charged particles from the solar wind interacting with atmospheric gases (oxygen and nitrogen) at high altitudes, exciting them to emit light.</li>
+            <li>**EXAMPLE:** The International Space Station (ISS) and many low Earth orbit (LEO) satellites orbit within the thermosphere, experiencing minimal atmospheric drag.</li>
+            <li>**Ionosphere:** This is not a distinct layer but rather a region within the thermosphere (and parts of the mesosphere) where solar radiation ionizes atoms and molecules, creating a plasma of free electrons and ions. It is subdivided into D, E, F1, and F2 layers, each reflecting different frequencies of radio waves and varying in density with time of day and solar activity.</li>
+        </ul>
+    </li>
+    <li>**Exosphere:**
+        <ul>
+            <li>**WHAT:** The exosphere is the outermost layer of the Earth's atmosphere, starting from about 600 kilometers and gradually fading into the vacuum of outer space. There is no clear upper boundary.</li>
+            <li>**WHY:** It represents the transition zone where the Earth's atmosphere becomes so thin that individual gas molecules can escape into space.</li>
+            <li>**HOW:** The atmosphere here is extremely tenuous, with molecules widely spaced. The primary constituents are light gases like hydrogen and helium. These molecules, moving at high speeds, can overcome Earth's gravitational pull and escape.</li>
+            <li>**EFFECT:** This layer is where most of Earth's satellites orbit, experiencing virtually no atmospheric drag. It is also the region where the Earth's magnetosphere interacts with the solar wind.</li>
+            <li>**EXAMPLE:** Many weather and communication satellites operate in the exosphere.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>**Atmospheric Pressure**</h3>
+<p>Atmospheric pressure is a fundamental meteorological variable defined as the force exerted by the weight of the air molecules above a given surface. Imagine a column of air extending from the Earth's surface to the top of the atmosphere; the weight of all the air in that column exerts pressure on the surface below. It is a scalar quantity, meaning it has magnitude but no specific direction, acting equally in all directions. Understanding atmospheric pressure is critical for forecasting weather, ensuring aviation safety, and even for designing structures.</p>
+<ul>
+    <li>**Measurement:**
+        <ul>
+            <li>**Instruments:** Atmospheric pressure is primarily measured using a **barometer**. The earliest and most fundamental type is the **mercury barometer**, invented by Evangelista Torricelli, which measures pressure based on the height of a mercury column. More commonly used today are **aneroid barometers**, which use a sealed metal chamber that expands or contracts with changes in pressure, and **barographs**, which continuously record pressure changes.</li>
+            <li>**Units:** The standard international unit for pressure is the Pascal (Pa), but in meteorology, more practical units are used:
+                <ul>
+                    <li>**Millibars (mb):** 1 millibar = 100 Pascals.</li>
+                    <li>**Hectopascals (hPa):** 1 hectopascal = 100 Pascals, so 1 hPa = 1 mb. This is the preferred unit by the World Meteorological Organization (WMO).</li>
+                    <li>**Inches of Mercury (inHg):** Commonly used in aviation and some countries (e.g., USA).</li>
+                    <li>**Standard Atmospheric Pressure:** At sea level, the average atmospheric pressure is 1013.25 mb (or hPa), which is equivalent to 29.92 inches of mercury or 760 millimeters of mercury.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Factors Affecting Pressure:**
+        <ul>
+            <li>**Altitude:** Pressure **decreases exponentially with increasing altitude**. This is because as you go higher, there is less air above you, and thus less weight pressing down. Approximately half of the Earth's atmospheric mass is below 5.5 km (18,000 ft). This principle is vital for aviation, as aircraft altimeters measure altitude based on pressure changes.</li>
+            <li>**Temperature:** Temperature significantly influences air density, which in turn affects pressure.
+                <ul>
+                    <li>**Warmer air:** Air molecules gain kinetic energy, move faster, and spread out, making the air less dense. Less dense air exerts less pressure, leading to **lower atmospheric pressure**.</li>
+                    <li>**Colder air:** Air molecules lose kinetic energy, move slower, and pack closer together, making the air denser. Denser air exerts more pressure, leading to **higher atmospheric pressure**.</li>
+                    <li>**Mechanism:** This is why warm regions often have low-pressure systems and cold regions have high-pressure systems, though other factors also play a role.</li>
+                </ul>
+            </li>
+            <li>**Humidity:** The amount of water vapor in the air also affects its density and, consequently, pressure.
+                <ul>
+                    <li>**Moist air:** Water vapor (H2O) molecules are lighter than the average molecular weight of dry air (which is predominantly N2 and O2). For example, N2 has a molecular weight of 28, O2 is 32, while H2O is 18. When water vapor replaces heavier nitrogen and oxygen molecules, the overall density of the air parcel decreases.</li>
+                    <li>**Effect:** Therefore, moist air is less dense than dry air at the same temperature and pressure, leading to **lower atmospheric pressure**. This is a crucial factor in the development of tropical cyclones, where abundant moisture contributes to low surface pressure.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Pressure Systems:**
+        <ul>
+            <li>**High-Pressure System (Anticyclone):**
+                <ul>
+                    <li>**WHAT:** Characterized by descending air, which diverges horizontally at the Earth's surface. In the Northern Hemisphere, surface winds rotate clockwise around a high-pressure center; in the Southern Hemisphere, they rotate counter-clockwise.</li>
+                    <li>**WHY:** High-pressure systems typically form when air cools and becomes denser, causing it to sink. This subsidence can be dynamically induced by upper-level atmospheric flow or by radiative cooling of the surface.</li>
+                    <li>**HOW:** As air descends, it is compressed and warms adiabatically (without heat exchange with the surroundings). This warming causes the relative humidity to decrease, leading to the evaporation of clouds.</li>
+                    <li>**EFFECT:** High-pressure systems are generally associated with **clear skies, calm winds, stable weather conditions**, and often bring fair weather. They can lead to prolonged periods of either cold (in winter) or hot (in summer) weather due to the lack of cloud cover.</li>
+                </ul>
+            </li>
+            <li>**Low-Pressure System (Cyclone):**
+                <ul>
+                    <li>**WHAT:** Characterized by ascending air, which converges horizontally at the Earth's surface. In the Northern Hemisphere, surface winds rotate counter-clockwise around a low-pressure center; in the Southern Hemisphere, they rotate clockwise.</li>
+                    <li>**WHY:** Low-pressure systems typically form when air warms and becomes less dense, causing it to rise. This uplift can be due to intense solar heating, convergence of air masses, or frontal activity.</li>
+                    <li>**HOW:** As air ascends, it expands and cools adiabatically. This cooling causes the relative humidity to increase, leading to condensation, cloud formation, and eventually precipitation.</li>
+                    <li>**EFFECT:** Low-pressure systems are generally associated with **cloudy skies, strong winds, precipitation, and unstable weather conditions**, often bringing storms, rain, or snow. They are the engines of most significant weather events.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Global Pressure Belts:**
+        <ul>
+            <li>**Equatorial Low-Pressure Belt (Doldrums):** Located between 5°N and 5°S, formed by intense solar heating causing air to rise. Associated with convection, heavy rainfall, and calm winds.</li>
+            <li>**Subtropical High-Pressure Belts (Horse Latitudes):** Located around 25°-35°N and S, formed by the descent of air from the Hadley cells. Associated with clear skies, stable conditions, and deserts (e.g., Sahara, Arabian, Atacama).</li>
+            <li>**Subpolar Low-Pressure Belts:** Located around 60°-70°N and S, formed by the convergence of warm westerlies and cold polar easterlies, leading to uplift. Associated with cyclonic storms and variable weather.</li>
+            <li>**Polar High-Pressure Belts:** Located around the poles (80°-90°N and S), formed by intense cooling and subsidence of air. Associated with extremely cold, dry, and stable conditions.</li>
+            <li>**Significance:** These belts shift seasonally with the apparent movement of the sun, influencing global wind patterns and climate zones.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>**Winds**</h3>
+<p>Winds are essentially the horizontal movement of air, driven primarily by differences in atmospheric pressure. Air naturally flows from areas of higher pressure to areas of lower pressure, much like water flows downhill. This fundamental principle, combined with other forces, creates the complex and dynamic wind patterns that shape our weather and distribute heat and moisture across the globe. Winds are crucial for understanding weather forecasting, climate distribution, ocean currents, and even the spread of pollutants or airborne diseases.</p>
+<ul>
+    <li>**Forces Influencing Wind:**
+        <ul>
+            <li>**Pressure Gradient Force (PGF):**
+                <ul>
+                    <li>**WHAT:** This is the primary force that initiates air movement. It is the force that results from differences in atmospheric pressure over a horizontal distance.</li>
+                    <li>**WHY:** Air always seeks to equalize pressure differences. The greater the pressure difference over a given distance (i.e., the steeper the pressure gradient), the stronger the PGF.</li>
+                    <li>**HOW:** The PGF acts perpendicular to isobars (lines of equal pressure) on a weather map, always directed from higher pressure towards lower pressure. Closely spaced isobars indicate a strong pressure gradient and thus strong winds, while widely spaced isobars indicate a weak gradient and light winds.</li>
+                    <li>**EFFECT:** Without the PGF, there would be no wind. It dictates the initial direction and speed of air movement.</li>
+                </ul>
+            </li>
+            <li>**Coriolis Effect:**
+                <ul>
+                    <li>**WHAT:** An apparent deflecting force that acts on moving objects (including air and water) on a rotating planet like Earth. It is not a true force but an inertial effect observed from a rotating frame of reference.</li>
+                    <li>**WHY:** Due to the Earth's rotation, objects moving freely across its surface appear to be deflected. This deflection is to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.</li>
+                    <li>**HOW:** The strength of the Coriolis effect depends on the speed of the moving object, the latitude, and the Earth's rotation rate. It is strongest at the poles and weakest (zero) at the equator. It only affects the direction of motion, not the speed.</li>
+                    <li>**EFFECT:** The Coriolis effect is crucial in shaping global wind patterns, ocean currents, and the rotational direction of cyclones and anticyclones. It causes winds in the upper atmosphere to blow nearly parallel to isobars, creating geostrophic winds.</li>
+                </ul>
+            </li>
+            <li>**Frictional Force:**
+                <ul>
+                    <li>**WHAT:** The resistance to airflow caused by the Earth's surface and obstacles on it (e.g., mountains, forests, buildings).</li>
+                    <li>**WHY:** The roughness of the terrain creates drag, slowing down the air molecules in contact with it.</li>
+                    <li>**HOW:** Friction is strongest near the surface and decreases rapidly with altitude, becoming negligible above the planetary boundary layer (typically 1-2 km). It acts in the opposite direction of the wind flow.</li>
+                    <li>**EFFECT:** By slowing down the wind, friction reduces the Coriolis effect (which is proportional to wind speed). This allows the PGF to have a greater influence, causing surface winds to blow across isobars at an angle, towards lower pressure, rather than parallel to them.</li>
+                </ul>
+            </li>
+            <li>**Centrifugal Force:**
+                <ul>
+                    <li>**WHAT:** An apparent outward force experienced by an object moving in a curved path.</li>
+                    <li>**WHY:** It arises from the inertia of the moving air parcel trying to continue in a straight line while being forced into a curve by other forces (PGF, Coriolis).</li>
+                    <li>**HOW:** In curved flow (e.g., around a low-pressure system), the centrifugal force acts outwards from the center of curvature.</li>
+                    <li>**EFFECT:** It slightly modifies the balance of forces, especially in tightly curved flows like those in intense cyclones, influencing the exact path and speed of the wind.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Types of Winds:**
+        <ul>
+            <li>**Global Winds (Planetary Winds):** These are large-scale, persistent wind systems that cover vast areas of the Earth, driven by global pressure belts and the Coriolis effect. They are part of the Earth's general atmospheric circulation, which consists of three major cells in each hemisphere: the Hadley Cell, Ferrel Cell, and Polar Cell.
+                <ul>
+                    <li>**Trade Winds:**
+                        <ul>
+                            <li>**WHAT:** Steady, easterly winds blowing from the subtropical high-pressure belts (around 30°N/S) towards the equatorial low-pressure belt (Doldrums).</li>
+                            <li>**WHY:** Formed as air descends in the subtropical highs and flows towards the low pressure at the equator. The Coriolis effect deflects them.</li>
+                            <li>**HOW:** In the Northern Hemisphere, they are the **Northeast Trade Winds** (blowing from the northeast); in the Southern Hemisphere, they are the **Southeast Trade Winds** (blowing from the southeast). They converge near the equator at the Intertropical Convergence Zone (ITCZ).</li>
+                            <li>**EFFECT:** Historically vital for sailing ships (hence "trade"). They bring warm, moist air to tropical regions, contributing to rainfall.</li>
+                        </ul>
+                    </li>
+                    <li>**Westerlies:**
+                        <ul>
+                            <li>**WHAT:** Prevailing winds blowing from the subtropical high-pressure belts towards the subpolar low-pressure belts (around 60°N/S).</li>
+                            <li>**WHY:** Formed as air descends in the subtropical highs and flows towards the subpolar lows. Deflected by the Coriolis effect.</li>
+                            <li>**HOW:** In the Northern Hemisphere, they blow predominantly from the southwest; in the Southern Hemisphere, they blow from the northwest. They are stronger and more consistent in the Southern Hemisphere due to fewer landmasses.</li>
+                            <li>**EFFECT:** Responsible for much of the weather in the mid-latitudes (e.g., Europe, North America). Strong westerlies in the Southern Ocean are known as the "Roaring Forties," "Furious Fifties," and "Shrieking Sixties" due to their intensity.</li>
+                        </ul>
+                    </li>
+                    <li>**Polar Easterlies:**
+                        <ul>
+                            <li>**WHAT:** Cold, dry winds blowing from the polar high-pressure belts (around 90°N/S) towards the subpolar low-pressure belts.</li>
+                            <li>**WHY:** Formed by the outflow of cold, dense air from the poles. Deflected by the Coriolis effect.</li>
+                            <li>**HOW:** In the Northern Hemisphere, they blow from the northeast; in the Southern Hemisphere, they blow from the southeast.</li>
+                            <li>**EFFECT:** Bring extremely cold air from the polar regions towards the mid-latitudes, contributing to the formation of the polar front.</li>
+                        </ul>
+                    </li>
+                    <li>**Jet Streams:**
+                        <ul>
+                            <li>**WHAT:** Narrow, fast-flowing, meandering air currents found in the upper troposphere and lower stratosphere (typically 7-12 km altitude).</li>
+                            <li>**WHY:** Formed due to significant temperature differences between air masses (creating strong pressure gradients) and the Coriolis effect.</li>
+                            <li>**HOW:** There are two main types: the **Polar Front Jet Stream** (stronger, found around 50°-60° latitude, separating polar and mid-latitude air) and the **Subtropical Jet Stream** (weaker, found around 20°-30° latitude). They flow predominantly from west to east.</li>
+                            <li>**EFFECT:** Jet streams significantly influence global weather patterns, steering weather systems (cyclones and anticyclones), and affecting the speed and duration of air travel. Their meandering patterns (Rossby waves) can bring cold air south or warm air north.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Local Winds:** These winds are influenced by local topography and differential heating/cooling of small-scale surfaces.
+                <ul>
+                    <li>**Land Breeze/Sea Breeze:**
+                        <ul>
+                            <li>**WHAT:** A diurnal (daily) cycle of winds occurring near coastlines.</li>
+                            <li>**WHY:** Caused by the differential heating and cooling rates of land and water. Land heats up and cools down faster than water due to its lower specific
+`;
+
+window.EXPANDED_NOTES_DATA["surface-area-volume"] = String.raw`
+<h3>**Atmospheric Pressure**</h3>
+<p>Atmospheric pressure is fundamentally defined as the force exerted by the weight of the air column above a given surface area. This invisible blanket of gases, extending hundreds of kilometers into space, constantly presses down on everything on Earth. The magnitude of this pressure is a direct consequence of the mass of the air molecules and the gravitational pull acting upon them. It is a crucial meteorological parameter influencing weather patterns globally.</p>
+<p>A fundamental characteristic of atmospheric pressure is its inverse relationship with altitude. As one ascends to higher elevations, the column of air above decreases, leading to a reduction in the total weight of the air and consequently, lower atmospheric pressure. This decrease is not linear but rather exponential, meaning the pressure drops more rapidly at lower altitudes than at higher ones, reflecting the denser concentration of air molecules closer to the Earth's surface.</p>
+<ul>
+    <li>**Measurement:**
+        <ul>
+            <li>**Instrument:** The primary instrument for measuring atmospheric pressure is the **barometer**.</li>
+            <li>**Types of Barometers:**
+                <ul>
+                    <li>**Mercury Barometer:** Invented by Evangelista Torricelli, it measures pressure by the height of a mercury column that the atmosphere can support. Standard atmospheric pressure at sea level supports a column of mercury approximately 760 mm (29.92 inches) high.</li>
+                    <li>**Aneroid Barometer:** A more compact and portable device, it uses a sealed metal chamber (aneroid cell) from which most of the air has been removed. Changes in atmospheric pressure cause the cell to expand or contract, and these movements are mechanically amplified to move a pointer on a dial.</li>
+                </ul>
+            </li>
+            <li>**Units of Measurement:**
+                <ul>
+                    <li>**Millibars (mb):** The most common unit in meteorology. One millibar is equal to 100 Pascals.</li>
+                    <li>**Hectopascals (hPa):** Equivalent to millibars (1 hPa = 1 mb). This is the SI unit for pressure.</li>
+                    <li>**Inches of Mercury (inHg):** Still used in some contexts, particularly in aviation and older weather reports.</li>
+                    <li>**Pascals (Pa):** The SI unit of pressure, though often too small for atmospheric measurements. Kilopascals (kPa) are sometimes used.</li>
+                </ul>
+            </li>
+            <li>**Standard Atmospheric Pressure:** At mean sea level, the average atmospheric pressure is 1013.25 mb (or hPa), 760 mm of mercury, or 29.92 inches of mercury.</li>
+        </ul>
+    </li>
+    <li>**Factors Affecting Atmospheric Pressure:**
+        <ul>
+            <li>**Temperature:**
+                <ul>
+                    <li>**Mechanism:** Air expands when heated, becoming less dense. Conversely, when air cools, it contracts and becomes denser.</li>
+                    <li>**Effect:** Warm air, being less dense, exerts less pressure (low pressure). Cold air, being denser, exerts more pressure (high pressure). This differential heating is a primary driver of global wind patterns and pressure systems.</li>
+                    <li>**Example:** Equatorial regions, receiving direct solar radiation, typically experience lower pressure due to consistently warm air, while polar regions, with their cold air, tend to have higher pressure.</li>
+                </ul>
+            </li>
+            <li>**Altitude:**
+                <ul>
+                    <li>**Mechanism:** As explained, the higher the altitude, the shorter the column of air above a given point, and thus, the less the weight of the air.</li>
+                    <li>**Effect:** Atmospheric pressure decreases significantly with increasing altitude. This is why mountaineers experience reduced oxygen levels and require supplemental oxygen at very high elevations.</li>
+                    <li>**Rate of Decrease:** Approximately 1 mb for every 10 meters increase in altitude in the lower troposphere, though this rate varies.</li>
+                </ul>
+            </li>
+            <li>**Humidity (Water Vapour Content):**
+                <ul>
+                    <li>**Mechanism:** Water vapour (H₂O) molecules are lighter than the average molecular weight of dry air (which is primarily Nitrogen (N₂) and Oxygen (O₂)). The molecular weight of H₂O is about 18 g/mol, while N₂ is about 28 g/mol and O₂ is about 32 g/mol.</li>
+                    <li>**Effect:** When water vapour replaces an equal volume of dry air, the overall density of the air parcel decreases. Therefore, humid air is less dense than dry air at the same temperature and pressure, and consequently, exerts less pressure.</li>
+                    <li>**Implication:** Moist air is associated with lower pressure, contributing to the instability often seen in humid environments.</li>
+                </ul>
+            </li>
+            <li>**Earth's Rotation (Coriolis Effect):** While not directly affecting the *magnitude* of pressure, the Coriolis effect significantly influences the *distribution* of pressure systems and the resulting wind patterns, especially at larger scales.</li>
+        </ul>
+    </li>
+    <li>**Pressure Systems:** These are large-scale atmospheric phenomena characterized by regions of relatively high or low pressure, which profoundly influence local and regional weather.
+        <ul>
+            <li>**High Pressure System (Anticyclone):**
+                <ul>
+                    <li>**Formation:** Characterized by descending air. As air sinks, it warms adiabatically (without heat exchange with surroundings), increasing its capacity to hold moisture.</li>
+                    <li>**Weather:** This warming inhibits cloud formation and precipitation. Consequently, high-pressure systems are typically associated with **clear skies, calm winds, stable atmospheric conditions, and often fair weather**.</li>
+                    <li>**Circulation:** In the Northern Hemisphere, winds circulate clockwise and outward from the center. In the Southern Hemisphere, they circulate anti-clockwise and outward.</li>
+                    <li>**Symbol:** Represented by a large 'H' on weather maps.</li>
+                </ul>
+            </li>
+            <li>**Low Pressure System (Cyclone/Depression):**
+                <ul>
+                    <li>**Formation:** Characterized by ascending air. As air rises, it cools adiabatically, causing water vapour to condense and form clouds.</li>
+                    <li>**Weather:** This cooling and condensation lead to **cloudy skies, unstable atmospheric conditions, strong winds, and a high likelihood of precipitation** (rain, snow, etc.).</li>
+                    <li>**Circulation:** In the Northern Hemisphere, winds circulate anti-clockwise and inward towards the center. In the Southern Hemisphere, they circulate clockwise and inward.</li>
+                    <li>**Symbol:** Represented by a large 'L' on weather maps.</li>
+                    <li>**Types:** Can range from small, localized thermal lows to vast, powerful tropical cyclones or mid-latitude temperate cyclones.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<h3>**Winds**</h3>
+<p>Winds are defined as the horizontal movement of air from areas of relatively high atmospheric pressure to areas of relatively low atmospheric pressure. This movement is fundamentally driven by the **Pressure Gradient Force (PGF)**, which is the force that results from differences in air pressure across a surface. The greater the pressure difference over a given distance (i.e., the steeper the pressure gradient), the stronger the pressure gradient force and, consequently, the faster the wind speed. While the PGF initiates wind movement, other forces like the Coriolis effect and friction modify its direction and speed.</p>
+<ul>
+    <li>**Coriolis Effect:**
+        <ul>
+            <li>**Mechanism:** This is an apparent force that results from the Earth's rotation. It does not actually push air (or any moving object) but rather deflects its path relative to the Earth's surface. As the Earth rotates, points at different latitudes move at different speeds (faster at the equator, slower towards the poles). An object moving freely across the Earth's surface maintains its initial momentum, but the ground beneath it shifts, causing the object's path to appear curved.</li>
+            <li>**Effect on Winds:**
+                <ul>
+                    <li>In the **Northern Hemisphere**, the Coriolis effect deflects moving winds (and ocean currents) to the **right** of their initial direction.</li>
+                    <li>In the **Southern Hemisphere**, it deflects moving winds to the **left** of their initial direction.</li>
+                </ul>
+            </li>
+            <li>**Factors Influencing Coriolis Effect:**
+                <ul>
+                    <li>**Wind Speed:** The Coriolis effect is stronger for faster-moving winds.</li>
+                    <li>**Latitude:** It is strongest at the poles and progressively weakens towards the equator, becoming **zero at the equator**. This is why tropical cyclones (hurricanes, typhoons) cannot form directly on the equator.</li>
+                </ul>
+            </li>
+            <li>**Significance:** The Coriolis effect is crucial for understanding global wind patterns (like trade winds, westerlies), the rotation of large-scale weather systems (cyclones and anticyclones), and ocean currents.</li>
+        </ul>
+    </li>
+    <li>**Types of Winds:** Winds are broadly classified based on their scale, duration, and driving mechanisms.
+        <ul>
+            <li>**Permanent Winds (Planetary or Global Winds):** These winds blow almost continuously in a particular direction throughout the year, driven by global pressure belts and the Coriolis effect. They are part of the Earth's general atmospheric circulation.
+                <ul>
+                    <li>**Trade Winds (Tropical Easterlies):**
+                        <ul>
+                            <li>**Location:** Blow from the Subtropical High-Pressure Belts (around 30-35° N and S) towards the Equatorial Low-Pressure Belt (Doldrums).</li>
+                            <li>**Direction:** North-easterly in the Northern Hemisphere and South-easterly in the Southern Hemisphere (due to Coriolis deflection).</li>
+                            <li>**Characteristics:** Steady, reliable winds, historically vital for sailing ships (hence "trade"). They converge at the Intertropical Convergence Zone (ITCZ), leading to rising air and often heavy rainfall.</li>
+                        </ul>
+                    </li>
+                    <li>**Westerlies (Prevailing Westerlies):**
+                        <ul>
+                            <li>**Location:** Blow from the Subtropical High-Pressure Belts towards the Subpolar Low-Pressure Belts (around 60-65° N and S).</li>
+                            <li>**Direction:** South-westerly in the Northern Hemisphere and North-westerly in the Southern Hemisphere.</li>
+                            <li>**Characteristics:** These winds are highly variable in strength and direction, especially in the Northern Hemisphere due to landmass distribution. They are responsible for much of the weather in the mid-latitudes and are particularly strong and consistent in the Southern Hemisphere (e.g., "Roaring Forties," "Furious Fifties," "Shrieking Sixties").</li>
+                        </ul>
+                    </li>
+                    <li>**Polar Easterlies:**
+                        <ul>
+                            <li>**Location:** Blow from the Polar High-Pressure areas (around 90° N and S) towards the Subpolar Low-Pressure Belts.</li>
+                            <li>**Direction:** North-easterly in the Northern Hemisphere and South-easterly in the Southern Hemisphere.</li>
+                            <li>**Characteristics:** Cold, dry, and relatively weak winds, carrying frigid air from the poles.</li>
+                        </ul>
+                    </li>
+                    <li>**Global Circulation Cells:** These permanent winds are part of a larger system of atmospheric circulation cells: the Hadley Cell (tropics), Ferrel Cell (mid-latitudes), and Polar Cell (polar regions).</li>
+                </ul>
+            </li>
+            <li>**Seasonal Winds (Periodic Winds):** These winds change their direction periodically with the seasons, primarily due to the differential heating of land and sea.
+                <ul>
+                    <li>**Monsoons:**
+                        <ul>
+                            <li>**Mechanism:** The most prominent example. During summer, land heats up faster and more intensely than the sea, creating a low-pressure area over land and a relatively high-pressure area over the adjacent ocean. This pressure gradient draws moist winds from the sea towards the land. In winter, the land cools faster, creating a high-pressure area, and winds blow from land to sea.</li>
+                            <li>**Indian Monsoon:** A classic example. The **Southwest Monsoon** (summer) brings heavy rainfall to India and Southeast Asia, crucial for agriculture. The **Northeast Monsoon** (winter) is generally dry, but brings some rainfall to parts of South India (e.g., Tamil Nadu coast).</li>
+                            <li>**Impact:** Monsoons are vital for the economies and ecosystems of many tropical and subtropical regions.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Local Winds:** These are small-scale winds that blow over a limited area and are influenced by local topography and temperature differences.
+                <ul>
+                    <li>**Land and Sea Breezes:**
+                        <ul>
+                            <li>**Mechanism:** A diurnal cycle driven by the differential heating and cooling of land and sea over a 24-hour period. During the day, land heats faster than the sea, creating a low-pressure area over land and a **sea breeze** (cool, moist air from sea to land). At night, land cools faster, creating a high-pressure area, and a **land breeze** (cool, dry air from land to sea) develops.</li>
+                            <li>**Effect:** Moderates coastal climates.</li>
+                        </ul>
+                    </li>
+                    <li>**Loo:**
+                        <ul>
+                            <li>**Characteristics:** A hot, dry, and often dusty wind blowing from the west in the Indo-Gangetic Plain of North India and Pakistan during late spring and summer.</li>
+                            <li>**Effect:** Can cause heatstroke and dehydration due to its extreme heat and dryness.</li>
+                        </ul>
+                    </li>
+                    <li>**Chinook (North America) / Foehn (Alps):**
+                        <ul>
+                            <li>**Mechanism:** Warm, dry, downslope winds that occur on the leeward side of mountain ranges. As moist air rises on the windward side, it cools, condenses, and precipitates. After crossing the ridge, the now dry air descends, warming adiabatically (at the dry adiabatic lapse rate, which is faster than the moist adiabatic lapse rate).</li>
+                            <li>**Effect:** Known as "snow-eaters" because they can rapidly melt snow. They can cause significant temperature increases in a short period.</li>
+                            <li>**Examples:** Eastern slopes of the Rocky Mountains (Chinook), Alps (Foehn).</li>
+                        </ul>
+                    </li>
+                    <li>**Mistral:**
+                        <ul>
+                            <li>**Characteristics:** A strong, cold, dry northerly wind that blows down the Rhône Valley in southern France towards the Mediterranean Sea.</li>
+                            <li>**Cause:** Associated with high pressure over France and low pressure over the Mediterranean.</li>
+                            <li>**Effect:** Can cause significant cooling and clear skies.</li>
+                        </ul>
+                    </li>
+                    <li>**Bora:**
+                        <ul>
+                            <li>**Characteristics:** A cold, dry, and often violent katabatic wind that blows from the continental interior over the mountains to the Adriatic Sea, particularly along the coast of Croatia.</li>
+                            <li>**Cause:** Similar to Mistral, driven by cold, dense air flowing down mountain slopes.</li>
+                        </ul>
+                    </li>
+                    <li>**Sirocco:**
+                        <ul>
+                            <li>**Characteristics:** A hot, humid, and dusty wind that originates in the Sahara Desert and blows northward across the Mediterranean Sea, affecting Southern Europe (Italy, Greece).</li>
+                            <li>**Effect:** Can bring oppressive heat and dust.</li>
+                        </ul>
+                    </li>
+                    <li>**Harmattan:**
+                        <ul>
+                            <li>**Characteristics:** A dry, dusty trade wind that blows from the Sahara Desert over West Africa.</li>
+                            <li>**Effect:** Brings cooler temperatures but also dust and haze, often referred to as "the doctor" because it brings relief from the humid tropical heat, despite the dust.</li>
+                        </ul>
+                    </li>
+                    <li>**Blizzard:** A severe snowstorm characterized by strong winds (typically over 56 km/h or 35 mph) and low visibility due to falling or blowing snow.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<h3>**Humidity**</h3>
+<p>Humidity refers to the amount of water vapour present in the atmosphere. Water vapour is a gaseous state of water and is one of the most crucial components of the atmosphere, playing a vital role in weather phenomena, energy transfer, and the Earth's climate system. It is invisible to the naked eye and varies significantly in concentration from near zero in arid regions to about 4% by volume in humid tropical areas. The primary source of atmospheric water vapour is evaporation from oceans, lakes, rivers, and soil, as well as transpiration from plants.</p>
+<ul>
+    <li>**Absolute Humidity:**
+        <ul>
+            <li>**Definition:** It is the mass of water vapour contained in a unit volume of air.</li>
+            <li>**Formula/Units:** Typically expressed in grams of water vapour per cubic meter of air (g/m³).</li>
+            <li>**Limitation:** Absolute humidity changes if the volume of air changes (e.g., due to expansion or contraction from temperature changes), even if the actual amount of water vapour remains constant. This makes it less practical for meteorological calculations involving rising or sinking air parcels.</li>
+        </ul>
+    </li>
+    <li>**Relative Humidity (RH):**
+        <ul>
+            <li>**Definition:** Relative humidity is the ratio of the actual amount of water vapour present in the air to the maximum amount of water vapour the air can hold at a given temperature and pressure. It is a measure of how close the air is to saturation.</li>
+            <li>**Expression:** Always expressed as a percentage (%).</li>
+            <li>**Formula:** RH = (Actual water vapour content / Maximum water vapour capacity at that temperature) × 100%.</li>
+            <li>**Significance:**
+                <ul>
+                    <li>**Indicator of Saturation:** A relative humidity of 100% means the air is completely saturated and cannot hold any more water vapour at that temperature. This is the point where condensation typically begins.</li>
+                    <li>**Comfort Level:** High relative humidity makes hot temperatures feel even hotter because it inhibits the evaporation of sweat from the skin, which is the body's primary cooling mechanism. Low relative humidity can cause dryness and discomfort.</li>
+                    <li>**Cloud and Precipitation Likelihood:** High relative humidity indicates a greater likelihood of cloud formation, fog, dew, and precipitation.</li>
+                </ul>
+            </li>
+            <li>**Inverse Relationship with Temperature:** For a fixed amount of water vapour, if the air temperature increases, its capacity to hold water vapour also increases, thus relative humidity decreases. Conversely, if the air cools, its capacity decreases, and relative humidity increases, potentially leading to saturation.</li>
+            <li>**Measurement:** Measured using a **hygrometer** or psychrometer.</li>
+        </ul>
+    </li>
+    <li>**Specific Humidity:**
+        <ul>
+            <li>**Definition:** It is the ratio of the mass of water vapour to the total mass of the air parcel (including both dry air and water vapour).</li>
+            <li>**Formula/Units:** Expressed in grams of water vapour per kilogram of air (g/kg).</li>
+            <li>**Advantage:** Unlike absolute humidity, specific humidity is not affected by changes in air volume due to temperature or pressure variations, making it a more stable and useful measure in atmospheric science.</li>
+        </ul>
+    </li>
+    <li>**Dew Point:**
+        <ul>
+            <li>**Definition:** The dew point is the temperature to which a parcel of air must be cooled, at constant pressure and water vapour content, for it to become saturated. At this temperature, the air can no longer hold all of its water vapour, and condensation begins.</li>
+            <li>**Mechanism:** When air cools to its dew point, excess water vapour condenses into liquid water droplets (forming dew, fog, or clouds) or freezes into ice crystals (forming frost).</li>
+            <li>**Significance:**
+                <ul>
+                    <li>**Predictor of Condensation:** A high dew point indicates a large amount of moisture in the air and a greater likelihood of fog, dew, or cloud formation when temperatures drop.</li>
+                    <li>**Comfort Indicator:** A high dew point (e.g., above 20°C or 68°F) indicates very humid air, which can feel oppressive and sticky.</li>
+                    <li>**Aviation:** Crucial for pilots, as the difference between air temperature and dew point determines the likelihood of fog or cloud formation.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<h3>**Precipitation**</h3>
+<p>Precipitation is any form of water, liquid or solid, that falls from the atmosphere to the Earth's surface. It is the final stage in the atmospheric water cycle, following evaporation, condensation, and cloud formation. For precipitation to occur, cloud droplets or ice crystals must grow large enough to overcome atmospheric resistance and fall under gravity. This growth typically happens through two main processes: the collision-coalescence process (in warm clouds) and the Bergeron-Findeisen process (in cold clouds involving ice crystals).</p>
+<ul>
+    <li>**Forms of Precipitation:** The form of precipitation depends largely on the temperature profile of the atmosphere through which it falls.
+        <ul>
+            <li>**Rain:**
+                <ul>
+                    <li>**Description:** Liquid water droplets, typically with a diameter greater than 0.5 mm.</li>
+                    <li>**Formation:** Forms when water vapour condenses into cloud droplets, which then grow by collision and coalescence (in warm clouds) or by melting of ice crystals (in cold clouds) as they fall through an atmosphere with temperatures above freezing point.</li>
+                </ul>
+            </li>
+            <li>**Drizzle:**
+                <ul>
+                    <li>**Description:** Very fine, numerous, and uniformly dispersed water droplets, typically with diameters less than 0.5 mm.</li>
+                    <li>**Characteristics:** Falls slowly and often appears to float in the air. Usually associated with stratus clouds.</li>
+                </ul>
+            </li>
+            <li>**Snow:**
+                <ul>
+                    <li>**Description:** Precipitation in the form of ice crystals, usually hexagonal in shape, that have not melted.</li>
+                    <li>**Formation:** Forms in clouds where the temperature is below freezing (0°C or 32°F) throughout the entire column of air from the cloud to the ground. Water vapour sublimates directly into ice crystals, which then grow by accretion or aggregation.</li>
+                </ul>
+            </li>
+            <li>**Sleet (Ice Pellets):**
+                <ul>
+                    <li>**Description:** Small, transparent or translucent pellets of ice, typically less than 5 mm in diameter.</li>
+                    <li>**Formation:** Occurs when raindrops fall through a layer of freezing air (below 0°C) near the surface, causing the raindrops to freeze into ice pellets before reaching the ground. This requires a specific temperature inversion.</li>
+                </ul>
+            </li>
+            <li>**Freezing Rain:**
+                <ul>
+                    <li>**Description:** Rain that falls as liquid but freezes on contact with surfaces (trees, power lines, roads) that are at or below freezing temperature.</li>
+                    <li>**Effect:** Creates a dangerous glaze of ice, known as an ice storm, which can cause significant damage and hazardous conditions.</li>
+                </ul>
+            </li>
+            <li>**Hail:**
+                <ul>
+                    <li>**Description:** Lumps or balls of ice, ranging from pea-sized to golf ball-sized or larger, often with a layered structure.</li>
+                    <li>**Formation:** Forms in strong cumulonimbus (thunderstorm) clouds with powerful updrafts and downdrafts. Raindrops or ice crystals are carried aloft by updrafts into extremely cold regions of the cloud, where they freeze. They then fall, collect more supercooled water, and are lifted again, adding layers of ice, until they become too heavy for the updraft to support and fall to the ground.</li>
+                    <li>**Effect:** Can cause severe damage to crops, vehicles, and property.</li>
+                </ul>
+            </li>
+            <li>**Frost:**
+                <ul>
+                    <li>**Description:** Ice crystals that form on surfaces when the surface temperature is below freezing and the dew point is also below freezing.</li>
+                    <li>**Formation:** Water vapour directly sublimates onto the cold surface without first forming liquid dew.</li>
+                </ul>
+            </li>
+            <li>**Dew:**
+                <ul>
+                    <li>**Description:** Tiny droplets of water that form on surfaces when the surface cools below the dew point of the surrounding air, but above freezing.</li>
+                    <li>**Formation:** Water vapour condenses directly onto the cold surface.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Types of Precipitation (Based on Mechanism of Lifting):**
+        <ul>
+            <li>**Convectional Precipitation:**
+                <ul>
+                    <li>**Mechanism:** Occurs when the ground is intensely heated, causing the air above it to warm, expand, and rise rapidly (convection). As this warm, moist air ascends, it cools adiabatically, reaches its dew point, condenses, and forms towering cumulonimbus clouds.</li>
+                    <li>**Characteristics:** Typically short-lived, high intensity, localized downpours, often accompanied by thunder and lightning (thunderstorms).</li>
+                    <li>**Regions:** Common in equatorial regions (e.g., Amazon Basin, Congo Basin) where insolation is high, and in continental interiors during summer (e.g., North Indian plains).</li>
+                </ul>
+            </li>
+            <li>**Orographic Precipitation (Relief Precipitation):**
+                <ul>
+                    <li>**Mechanism:** Occurs when moist air masses are forced to rise over topographic barriers, such as mountains or hills. As the air is lifted, it cools adiabatically, leading to condensation, cloud formation, and precipitation on the **windward side** (the side facing the incoming wind) of the mountain.</li>
+                    <li>**Rain Shadow Effect:** After crossing the mountain crest, the now dry air descends on the **leeward side** (the side sheltered from the wind). As it descends, it warms adiabatically, inhibiting cloud formation and creating a dry, arid region known as a **rain shadow**.</li>
+                    <li>**Examples:** The Western Ghats in India receive heavy orographic rainfall on their western slopes, while the Deccan Plateau to their east lies in a rain shadow. The Himalayas also cause significant orographic precipitation.</li>
+                </ul>
+            </li>
+            <li>**Cyclonic Precipitation (Frontal Precipitation):**
+                <ul>
+                    <li>**Mechanism:** Associated with the convergence of different air masses, particularly at weather fronts (boundaries between air masses with different temperatures and densities). When a warmer, less dense air mass is forced to rise over a colder, denser air mass, it cools, condenses, and leads to widespread cloud formation and precipitation.</li>
+                    <li>**Types of Fronts:**
+                        <ul>
+                            <li>**Warm Front:** Warm air gently glides over cold air, leading to widespread, prolonged, and light to moderate precipitation.</li>
+                            <li>**Cold Front:** Cold air rapidly undercuts and lifts warm air, resulting in intense, short-duration precipitation, often with thunderstorms.</li>
+                            <li>**Occluded Front:** Forms when a faster-moving cold front overtakes a warm front, lifting the warm air completely off the ground.</li>
+                        </ul>
+                    </li>
+                    <li>**Characteristics:** Typically widespread, prolonged, and of moderate intensity, covering large areas.</li>
+                    <li>**Regions:** Common in mid-latitude regions, associated with temperate cyclones (extratropical cyclones).</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Artificial Precipitation (Cloud Seeding):** A modern technique involving the introduction of substances (like silver iodide or dry ice) into clouds to stimulate or enhance precipitation. While its effectiveness is debated, it's used in some regions for drought mitigation or increasing water supply.</li>
+</ul>
+`;
+
+window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
+<h3>The Indian Armed Forces: A Comprehensive Overview of Structure, Roles, and Evolution</h3>
+<p>The Indian Armed Forces represent the unified military might of the Republic of India, constitutionally mandated to safeguard the nation's sovereignty, territorial integrity, and national interests against both external aggression and internal threats. As the world's second-largest standing army, fourth-largest air force, and seventh-largest navy, they are a formidable force, deeply rooted in a rich history and continuously evolving to meet contemporary security challenges. The President of India serves as the Supreme Commander of the Indian Armed Forces, underscoring the democratic civilian control over the military, a cornerstone of India's governance.</p>
+<p>Comprising three professional uniformed services – the Indian Army, the Indian Navy, and the Indian Air Force – along with various inter-service institutions and support organizations, the Armed Forces operate under the administrative control of the Ministry of Defence (MoD). Their roles extend beyond conventional warfare to include counter-insurgency operations, humanitarian assistance and disaster relief (HADR), anti-piracy missions, and significant contributions to United Nations peacekeeping operations globally, reflecting India's commitment to international peace and security.</p>
+
+<h3>Indian Army: The Sentinel of the Land Borders</h3>
+<p>The Indian Army is the land-based branch of the Indian Armed Forces, responsible for offensive and defensive operations across India's vast and diverse land frontiers, from the high Himalayas to the deserts of Rajasthan and the plains of Punjab. Its doctrine emphasizes a proactive defence posture, deterrence, and the capability for rapid mobilization and offensive action.</p>
+<ul>
+    <li>**Historical Evolution:**
+        <ul>
+            <li>**Pre-Independence:** Traces its lineage to the armies of princely states and, more directly, to the British Indian Army, which played a significant role in both World Wars.</li>
+            <li>**Post-1947:** Following India's independence and partition, the British Indian Army was divided, forming the core of the new Indian Army. It immediately faced challenges, including the Indo-Pakistani War of 1947-48 over Kashmir.</li>
+        </ul>
+    </li>
+    <li>**Role and Doctrine:**
+        <ul>
+            <li>**Primary Role:** To defend the nation from external aggression and internal threats, including counter-terrorism and counter-insurgency operations.</li>
+            <li>**Defensive-Offensive Doctrine:** Designed to hold ground defensively while possessing the capability to launch swift, decisive offensive operations into enemy territory.</li>
+            <li>**Counter-Insurgency (COIN):** Extensive experience in tackling various insurgencies in Jammu & Kashmir, North-East India, and other regions, adapting tactics for asymmetric warfare.</li>
+            <li>**Humanitarian Assistance and Disaster Relief (HADR):** A crucial secondary role, providing aid during natural calamities like floods, earthquakes, and landslides, both domestically and internationally (e.g., Nepal earthquake 2015).</li>
+        </ul>
+    </li>
+    <li>**Structure:**
+        <ul>
+            <li>**Commands:** Organized into seven operational commands (Northern, Western, South Western, Southern, Central, Eastern, Army Training Command - ARTRAC), each headed by a General Officer Commanding-in-Chief (GOC-in-C) of Lieutenant General rank.</li>
+            <li>**Corps:** The primary field formation, typically comprising 3-4 divisions, responsible for a specific sector or theatre of operations. There are 14 Corps, including three Strike Corps.</li>
+            <li>**Divisions:** Comprising 3-4 brigades, specialized for infantry, armoured, or mountain warfare.</li>
+            <li>**Brigades:** Formed of 3-4 battalions, the smallest tactical formation capable of independent operations.</li>
+            <li>**Battalions/Regiments:** The basic fighting unit, typically 800-1000 soldiers. Infantry regiments are primarily administrative groupings, while armoured and artillery regiments are tactical units.</li>
+            <li>**Arms and Services:**
+                <ul>
+                    <li>**Combat Arms:** Infantry (e.g., Gorkha Rifles, Sikh Regiment), Armoured Corps (tanks), Artillery (guns, rockets, missiles), Mechanised Infantry (ICVs).</li>
+                    <li>**Combat Support Arms:** Engineers (combat engineering, bridging), Signals (communications), Army Air Defence (air defence systems).</li>
+                    <li>**Services:** Army Service Corps (logistics), Army Medical Corps (medical support), Corps of Electronics and Mechanical Engineers (equipment maintenance), Ordnance Corps (supply of stores), Intelligence Corps.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Key Operations and Conflicts:**
+        <ul>
+            <li>**1947-48 Indo-Pakistani War:** Defence of Kashmir.</li>
+            <li>**1962 Sino-Indian War:** Border conflict with China.</li>
+            <li>**1965 Indo-Pakistani War:** Major tank battles, capture of Haji Pir Pass.</li>
+            <li>**1971 Bangladesh Liberation War:** Decisive victory, creation of Bangladesh, capture of 93,000 Pakistani POWs.</li>
+            <li>**Operation Meghdoot (1984):** Securing the Siachen Glacier, the world's highest battlefield.</li>
+            <li>**Kargil War (1999):** Successful eviction of Pakistani infiltrators from high-altitude posts.</li>
+            <li>**UN Peacekeeping Missions:** Significant contributions to UN missions in Congo, Somalia, Rwanda, Sierra Leone, South Sudan, etc., earning global recognition.</li>
+        </ul>
+    </li>
+    <li>**Modernization and Future Outlook:**
+        <ul>
+            <li>**Focus Areas:** Network-centric warfare, indigenous development of weaponry (e.g., Arjun MBT, Pinaka MLRS), upgrading infantry combat systems, enhancing surveillance capabilities (drones, sensors), and improving mobility and logistics in diverse terrains.</li>
+            <li>**Challenges:** Managing a vast border with two nuclear-armed adversaries, adapting to hybrid warfare, and integrating advanced technologies while maintaining a large, manpower-intensive force.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Indian Navy: Guardians of the Blue Waters</h3>
+<p>The Indian Navy is the maritime arm of the Indian Armed Forces, responsible for safeguarding India's extensive coastline, island territories, and maritime interests. Its doctrine emphasizes a 'blue-water' capability, projecting power across the Indian Ocean Region (IOR) and beyond, ensuring freedom of navigation, and protecting vital sea lanes of communication (SLOCs).</p>
+<ul>
+    <li>**Historical Evolution:**
+        <ul>
+            <li>**Ancient Roots:** India has a rich maritime history, with evidence of seafaring and naval power dating back to the Indus Valley Civilization and Chola dynasty.</li>
+            <li>**Colonial Era:** The Royal Indian Navy (RIN) was established under British rule. Its significant role in WWII and the 1946 RIN Mutiny are notable.</li>
+            <li>**Post-1947:** Renamed the Indian Navy, it inherited a small fleet but rapidly expanded, acquiring its first aircraft carrier, INS Vikrant, in 1961.</li>
+        </ul>
+    </li>
+    <li>**Role and Doctrine:**
+        <ul>
+            <li>**Primary Role:** Deterrence and defence against maritime threats, protecting India's Exclusive Economic Zone (EEZ) and offshore assets.</li>
+            <li>**Power Projection:** Capability to operate far from Indian shores, influencing events in the IOR and supporting national foreign policy objectives.</li>
+            <li>**SAGAR (Security and Growth for All in the Region):** India's vision for maritime cooperation and security in the IOR, with the Navy playing a central role.</li>
+            <li>**Anti-Piracy Operations:** Active participation in international anti-piracy efforts in the Gulf of Aden and off the coast of Somalia.</li>
+            <li>**HADR:** Providing relief and assistance during maritime disasters, search and rescue operations, and evacuation of Indian citizens from conflict zones (e.g., Operation Rahat in Yemen).</li>
+        </ul>
+    </li>
+    <li>**Structure:**
+        <ul>
+            <li>**Commands:** Organized into three operational commands (Western Naval Command - Mumbai, Eastern Naval Command - Visakhapatnam, Southern Naval Command - Kochi) and the Andaman and Nicobar Command (ANC), a tri-service command. Each is headed by a Flag Officer Commanding-in-Chief (FOC-in-C) of Vice Admiral rank.</li>
+            <li>**Fleets:** Each operational command has a fleet (e.g., Western Fleet, Eastern Fleet) comprising various warships.</li>
+            <li>**Naval Air Arm:** Operates carrier-borne aircraft, maritime patrol aircraft, and helicopters.</li>
+            <li>**Submarine Arm:** Operates conventional and nuclear submarines.</li>
+            <li>**Marine Commandos (MARCOS):** Elite special operations force for maritime special operations, counter-terrorism, and amphibious warfare.</li>
+        </ul>
+    </li>
+    <li>**Key Assets:**
+        <ul>
+            <li>**Aircraft Carriers:** INS Vikramaditya (modified Kiev-class), INS Vikrant (India's first indigenous aircraft carrier). These are central to carrier battle groups, providing air power at sea.</li>
+            <li>**Submarines:**
+                <ul>
+                    <li>**Conventional (Diesel-Electric):** Kalvari (Scorpene) class, Shishumar (Type 209) class, Sindhughosh (Kilo) class.</li>
+                    <li>**Nuclear:** Arihant class (SSBN - Nuclear-powered ballistic missile submarine), Chakra class (SSN - Nuclear-powered attack submarine, leased). These form the sea-based leg of India's nuclear triad.</li>
+                </ul>
+            </li>
+            <li>**Destroyers:** Visakhapatnam class, Kolkata class, Delhi class, Rajput class (guided-missile destroyers).</li>
+            <li>**Frigates:** Shivalik class, Talwar class (stealth frigates).</li>
+            <li>**Corvettes:** Kamorta class (anti-submarine warfare), Kora class (missile corvettes).</li>
+            <li>**Naval Aviation:** MiG-29K (carrier-borne fighters), P-8I Neptune (maritime reconnaissance and anti-submarine warfare), Dornier 228, Kamov, Seaking, Dhruv, Chetak helicopters.</li>
+        </ul>
+    </li>
+    <li>**Key Operations and Conflicts:**
+        <ul>
+            <li>**1971 Bangladesh Liberation War:** Operation Trident and Operation Python, devastating attacks on Karachi port, sinking of PNS Ghazi (submarine).</li>
+            <li>**Operation Cactus (1988):** Intervention in the Maldives coup attempt.</li>
+            <li>**Anti-Piracy Patrols:** Continuous deployment in the Gulf of Aden since 2008.</li>
+            <li>**HADR Missions:** Operation Tsunami Relief (2004), Operation Rahat (Yemen 2015).</li>
+        </ul>
+    </li>
+    <li>**Modernization and Future Outlook:**
+        <ul>
+            <li>**Indigenization:** Strong emphasis on 'Make in India' for warship construction (e.g., Project 75I for submarines, Project 17A for frigates).</li>
+            <li>**Nuclear Triad:** Strengthening the sea-based deterrent with more Arihant-class SSBNs.</li>
+            <li>**Maritime Domain Awareness (MDA):** Enhancing surveillance capabilities through satellites, UAVs, and coastal radar networks.</li>
+            <li>**Network-Centric Warfare:** Integrating platforms and sensors for enhanced operational efficiency.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Indian Air Force: Dominance of the Skies</h3>
+<p>The Indian Air Force (IAF) is the air arm of the Indian Armed Forces, tasked with defending Indian airspace, conducting strategic air operations, providing close air support to ground forces, and executing strategic airlift missions. It is the fourth-largest air force in the world, known for its professionalism and operational prowess.</p>
+<ul>
+    <li>**Historical Evolution:**
+        <ul>
+            <li>**Formation:** Established on 8 October 1932 as the Royal Indian Air Force (RIAF) under British rule.</li>
+            <li>**World War II:** Played a crucial role in Burma Campaign.</li>
+            <li>**Post-1947:** Renamed the Indian Air Force. Participated in all major conflicts, evolving from a tactical air force to a strategic one.</li>
+        </ul>
+    </li>
+    <li>**Role and Doctrine:**
+        <ul>
+            <li>**Air Superiority:** Gaining and maintaining control of the air to enable other forces to operate.</li>
+            <li>**Air Defence:** Protecting Indian airspace and critical assets from enemy air attacks.</li>
+            <li>**Offensive Air Operations:** Strategic bombing, interdiction, close air support (CAS) for ground troops.</li>
+            <li>**Strategic Airlift:** Transporting troops, equipment, and humanitarian aid over long distances.</li>
+            <li>**Reconnaissance and Surveillance:** Gathering intelligence using various aerial platforms.</li>
+            <li>**HADR:** Providing aerial support during disasters, including search and rescue, air-dropping supplies, and evacuation.</li>
+        </ul>
+    </li>
+    <li>**Structure:**
+        <ul>
+            <li>**Commands:** Organized into seven commands (Western, Eastern, Central, South Western, Southern, Training, Maintenance), each headed by an Air Marshal.</li>
+            <li>**Squadrons:** The basic fighting unit, typically comprising 12-18 aircraft of a specific type.</li>
+            <li>**Air Bases:** A network of airfields strategically located across the country.</li>
+        </ul>
+    </li>
+    <li>**Key Aircraft:**
+        <ul>
+            <li>**Fighter Aircraft:**
+                <ul>
+                    <li>**Rafale:** Multi-role combat aircraft, acquired from France, enhancing strategic strike and air superiority capabilities.</li>
+                    <li>**Sukhoi-30 MKI:** India's primary air superiority fighter, licensed-produced in India, capable of long-range missions.</li>
+                    <li>**Mirage 2000:** Highly capable multi-role fighter, known for its precision strike capability (e.g., Balakot Airstrike).</li>
+                    <li>**Tejas LCA (Light Combat Aircraft):** Indigenous multi-role fighter, a testament to India's growing aerospace capabilities.</li>
+                    <li>**MiG-21 Bison:** Older, but upgraded interceptor, still in service.</li>
+                </ul>
+            </li>
+            <li>**Transport Aircraft:**
+                <ul>
+                    <li>**C-17 Globemaster III:** Heavy-lift strategic transport aircraft.</li>
+                    <li>**C-130J Super Hercules:** Tactical airlift aircraft, used for special operations and rapid deployment.</li>
+                    <li>**An-32, IL-76:** Medium and heavy transport aircraft.</li>
+                </ul>
+            </li>
+            <li>**Helicopters:**
+                <ul>
+                    <li>**Apache AH-64E:** Attack helicopter, providing critical close air support.</li>
+                    <li>**Chinook CH-47F:** Heavy-lift tandem rotor helicopter for troop and cargo transport in challenging terrains.</li>
+                    <li>**Mi-17 V5:** Medium-lift utility helicopter, versatile for troop transport, VIP movement, and HADR.</li>
+                    <li>**Dhruv (ALH):** Indigenous Advanced Light Helicopter.</li>
+                </ul>
+            </li>
+            <li>**Special Mission Aircraft:**
+                <ul>
+                    <li>**AWACS (Airborne Warning and Control System):** Phalcon (IL-76 based), Netra (Embraer based), providing airborne surveillance and command & control.</li>
+                    <li>**Flight Refuelling Aircraft (FRA):** IL-78 MKI.</li>
+                    <li>**UAVs/Drones:** Heron, Searcher, and indigenous drones for surveillance and reconnaissance.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Key Operations and Conflicts:**
+        <ul>
+            <li>**1965 Indo-Pakistani War:** Limited but significant air battles.</li>
+            <li>**1971 Bangladesh Liberation War:** Achieved air superiority, conducted strategic strikes, and provided close air support, contributing significantly to the victory.</li>
+            <li>**Kargil War (1999):** Operation Safed Sagar, precision strikes against enemy positions at high altitudes.</li>
+            <li>**Balakot Airstrike (2019):** Non-military pre-emptive strike against a terrorist training camp in Pakistan.</li>
+            <li>**HADR Missions:** Operation Rahat (Uttarakhand floods), Operation Maitri (Nepal earthquake).</li>
+        </ul>
+    </li>
+    <li>**Modernization and Future Outlook:**
+        <ul>
+            <li>**Fifth-Generation Fighters:** Plans for acquiring or developing advanced fighter aircraft.</li>
+            <li>**Space-Based Assets:** Increasing reliance on satellite communication, navigation, and surveillance for enhanced operational capabilities.</li>
+            <li>**Network-Centric Warfare:** Integrating air assets with ground and naval forces for a unified battlespace picture.</li>
+            <li>**Cyber Warfare Capabilities:** Developing robust cyber defence and offence capabilities to protect and project power in the digital domain.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Inter-Service Integration and Higher Defence Organisation</h3>
+<p>Recognizing the imperative for seamless coordination and synergy among the three services, India has embarked on significant reforms in its higher defence organization.</p>
+<ul>
+    <li>**Chief of Defence Staff (CDS):**
+        <ul>
+            <li>**Establishment:** Post created in 2019, following recommendations from the Kargil Review Committee and the Shekatkar Committee.</li>
+            <li>**Role:** Principal Military Advisor to the Defence Minister, Permanent Chairman of the Chiefs of Staff Committee (COSC), and head of the Department of Military Affairs (DMA) within the MoD.</li>
+            <li>**Objective:** To foster greater jointness in operations, logistics, training, and procurement among the Army, Navy, and Air Force, leading to optimal utilization of resources and enhanced operational efficiency.</li>
+        </ul>
+    </li>
+    <li>**Theatre Commands:**
+        <ul>
+            <li>**Concept:** Proposal to reorganize the existing single-service commands into unified theatre commands, each responsible for a specific geographical area or operational domain (e.g., Western Theatre Command, Eastern Theatre Command, Maritime Theatre Command, Air Defence Command).</li>
+            <li>**Aim:** To integrate the resources and capabilities of all three services under a single commander, enabling a more cohesive and rapid response to threats, eliminating duplication, and improving interoperability.</li>
+            <li>**Current Status:** Under active discussion and implementation planning, representing a transformative shift in India's military strategy and structure.</li>
+        </ul>
+    </li>
+    <li>**Ministry of Defence (MoD):**
+        <ul>
+            <li>**Civilian Control:** The MoD, headed by the Defence Minister, exercises civilian control over the Armed Forces.</li>
+            <li>**Key Departments:** Department of Defence, Department of Defence Production, Department of Defence Research and Development, Department of Ex-Servicemen Welfare, and the Department of Military Affairs (DMA) headed by the CDS.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Paramilitary Forces and Central Armed Police Forces (CAPFs)</h3>
+<p>While distinct from the Indian Armed Forces, these forces play a critical role in assisting the military and maintaining internal security, border management, and law and order. They operate under the Ministry of Home Affairs (MHA), except for the Assam Rifles, which is under the administrative control of MHA but operational control of the Army.</p>
+<ul>
+    <li>**Border Guarding Forces:**
+        <ul>
+            <li>**Border Security Force (BSF):** Guards India's land borders with Pakistan and Bangladesh.</li>
+            <li>**Indo-Tibetan Border Police (ITBP):** Guards the border with China in the Himalayas.</li>
+            <li>**Sashastra Seema Bal (SSB):** Guards borders with Nepal and Bhutan.</li>
+        </ul>
+    </li>
+    <li>**Internal Security Forces:**
+        <ul>
+            <li>**Central Reserve Police Force (CRPF):** Primary force for internal security, counter-insurgency, and law and order duties.</li>
+            <li>**Central Industrial Security Force (CISF):** Protects critical infrastructure, airports, public sector undertakings.</li>
+            <li>**National Security Guard (NSG):** Elite counter-terrorism force.</li>
+            <li>**Assam Rifles:** Oldest paramilitary force, primarily responsible for border security along the Indo-Myanmar border and counter-insurgency operations in the North-East.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Challenges and Future Outlook</h3>
+<p>The Indian Armed Forces face a complex and evolving security landscape. Key challenges include:</p>
+<ul>
+    <li>**Two-Front Threat:** Managing simultaneous threats from China and Pakistan.</li>
+    <li>**Technological Asymmetry:** Bridging gaps in advanced military technology, particularly with China.</li>
+    <li>**Budgetary Constraints:** Balancing modernization needs with fiscal realities.</li>
+    <li>**Human Resource Management:** Attracting and retaining talent, ensuring welfare, and managing a large force.</li>
+    <li>**Hybrid Warfare:** Countering conventional, sub-conventional, and cyber threats simultaneously.</li>
+    <li>**Climate Change:** Adapting to new operational challenges posed by environmental shifts (e.g., melting glaciers, extreme weather events).</li>
+</ul>
+<p>Despite these challenges, the Indian Armed Forces are committed to continuous modernization, indigenization, and fostering greater jointness to remain a potent and credible force, capable of safeguarding India's national interests in a dynamic global environment.</p>
+`;
+
+window.EXPANDED_NOTES_DATA["ratios-averages"] = String.raw`
+<h3>**Atmosphere**</h3>
+<ul>
+    <li>**Definition**: The atmosphere is a vast, dynamic envelope of gases that surrounds a planet or other celestial body, held in place by the force of gravity. On Earth, this gravitational pull prevents the gases from escaping into space, creating a vital protective layer. This gaseous blanket is not static; it is constantly in motion, driven by solar energy and Earth's rotation, leading to complex weather patterns and climate systems. Historically, Earth's early atmosphere was vastly different, primarily composed of volcanic gases like water vapor, carbon dioxide, and nitrogen, with very little free oxygen. Over billions of years, through processes like photosynthesis by early life forms, the atmosphere evolved into its current life-sustaining composition.</li>
+    <li>**Composition**: The Earth's atmosphere is a mixture of several gases, with a relatively stable composition up to about 80 km altitude, known as the homosphere.
+        <ul>
+            <li>**Major Constituents**:
+                <ul>
+                    <li>**Nitrogen (N₂) - Approximately 78%**: The most abundant gas. While chemically inert for most biological processes in its gaseous form, it is crucial for life through the nitrogen cycle, where it is fixed by bacteria into usable forms for plants and animals. It also acts as a diluent for oxygen, preventing rapid oxidation.</li>
+                    <li>**Oxygen (O₂) - Approximately 21%**: The second most abundant gas, absolutely essential for aerobic respiration in most living organisms. It is produced primarily through photosynthesis. Oxygen is also vital for combustion processes.</li>
+                    <li>**Argon (Ar) - Approximately 0.9%**: An inert noble gas, largely unreactive. It is a product of radioactive decay of potassium-40 within the Earth's crust and mantle.</li>
+                    <li>**Carbon Dioxide (CO₂) - Approximately 0.04% (variable)**: Though a minor component, it is critically important. It is a primary greenhouse gas, trapping outgoing longwave radiation and helping to regulate Earth's temperature. It is also essential for photosynthesis by plants. Its concentration has been increasing due to human activities (burning fossil fuels, deforestation), leading to concerns about global warming.</li>
+                </ul>
+            </li>
+            <li>**Trace Gases**: Include Neon (Ne), Helium (He), Krypton (Kr), Xenon (Xe), Hydrogen (H₂), and Methane (CH₄). Methane is another potent greenhouse gas, though present in much smaller concentrations than CO₂.</li>
+            <li>**Variable Components**:
+                <ul>
+                    <li>**Water Vapor (H₂O) - 0% to 4%**: The most variable component, concentrated in the lower atmosphere. It is the source of all clouds and precipitation and is a powerful greenhouse gas. The amount of water vapor determines humidity.</li>
+                    <li>**Aerosols**: Tiny solid or liquid particles suspended in the atmosphere, such as dust, pollen, sea salt, volcanic ash, and pollutants. They play a role in cloud formation (as condensation nuclei) and scatter/absorb solar radiation, influencing atmospheric visibility and temperature.</li>
+                    <li>**Ozone (O₃) - Variable**: Concentrated in the stratosphere (ozone layer), where it absorbs harmful ultraviolet (UV) radiation from the sun, protecting life on Earth. Near the surface (tropospheric ozone), it is a pollutant harmful to human health and vegetation.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Importance**: The Earth's atmosphere performs multiple critical functions:
+        <ul>
+            <li>**Essential for Life**: Provides oxygen for respiration and carbon dioxide for photosynthesis. The nitrogen cycle, facilitated by atmospheric nitrogen, is fundamental for biological processes.</li>
+            <li>**Regulates Temperature**: Through the greenhouse effect, certain atmospheric gases (water vapor, CO₂, methane) trap heat, preventing extreme temperature fluctuations between day and night, making Earth habitable. Without it, Earth's average temperature would be around -18°C.</li>
+            <li>**Protects from Radiation**: The ozone layer in the stratosphere absorbs most of the sun's harmful ultraviolet (UV-B and UV-C) radiation, which can cause skin cancer, cataracts, and damage to ecosystems. The atmosphere also shields us from cosmic rays.</li>
+            <li>**Protects from Meteoroids**: Most meteoroids entering Earth's atmosphere burn up due to friction with air molecules (ablation) in the mesosphere and thermosphere, preventing frequent impacts on the surface.</li>
+            <li>**Hydrological Cycle**: Water vapor in the atmosphere is a crucial component of the hydrological cycle, facilitating evaporation, condensation, cloud formation, and precipitation, which distributes fresh water across the globe.</li>
+            <li>**Weather and Climate**: The atmosphere is the medium where all weather phenomena occur, driven by differential heating and pressure gradients. It dictates regional climates and global circulation patterns.</li>
+            <li>**Sound Transmission**: Air is the medium through which sound waves travel, enabling communication.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>**Layers of the Atmosphere**</h3>
+<p>The Earth's atmosphere is divided into several distinct layers based on temperature variations with altitude, each with unique characteristics and phenomena.</p>
+<ul>
+    <li>**Troposphere**:
+        <ul>
+            <li>**Description**: This is the lowest and densest layer, extending from the Earth's surface up to an average height of about 8-15 km (thinner at the poles, thicker at the equator). It contains roughly 75-80% of the total atmospheric mass and almost all of the water vapor and aerosols.</li>
+            <li>**Temperature Profile**: Temperature generally decreases with increasing altitude at an average rate of about 6.5°C per kilometer, known as the environmental lapse rate. This cooling occurs because the troposphere is primarily heated from below by the Earth's surface, which absorbs solar radiation and re-radiates it as longwave infrared radiation.</li>
+            <li>**Key Phenomena**: All significant weather phenomena – clouds, rain, snow, storms, winds – occur within the troposphere. This is due to the presence of water vapor, dust particles, and vigorous vertical mixing (convection).</li>
+            <li>**Human Activities**: Virtually all human activities, including aviation (commercial flights typically operate near the top of this layer), occur within the troposphere.</li>
+            <li>**Tropopause**: The boundary between the troposphere and the stratosphere, characterized by a cessation of temperature decrease with height. It acts as a lid, largely preventing vertical mixing between the two layers.</li>
+        </ul>
+    </li>
+    <li>**Stratosphere**:
+        <ul>
+            <li>**Description**: Extends from the tropopause up to about 50 km above the Earth's surface. It is much drier and less dense than the troposphere.</li>
+            <li>**Temperature Profile**: Unlike the troposphere, temperature increases with altitude in the stratosphere, reaching near 0°C at its top. This temperature inversion is a defining characteristic.</li>
+            <li>**Ozone Layer**: The primary reason for the temperature increase is the presence of the ozone layer (O₃), concentrated between 15-35 km. Ozone molecules absorb highly energetic ultraviolet (UV) radiation from the sun (specifically UV-B and UV-C), converting it into heat. This absorption protects life on Earth from harmful radiation. The formation and destruction of ozone occur through the Chapman Cycle, involving oxygen molecules and UV radiation.</li>
+            <li>**Stability**: Due to the temperature inversion, the stratosphere is very stable, with little vertical air movement. This is why commercial aircraft often fly in the lower stratosphere to avoid turbulence.</li>
+            <li>**Stratopause**: The boundary marking the top of the stratosphere, where the temperature reaches its maximum for this layer.</li>
+        </ul>
+    </li>
+    <li>**Mesosphere**:
+        <ul>
+            <li>**Description**: Extends from the stratopause (50 km) up to about 85 km.</li>
+            <li>**Temperature Profile**: Temperature decreases with increasing altitude in the mesosphere, reaching the coldest temperatures in the Earth's atmosphere, often below -90°C, at the mesopause. This cooling is due to decreasing absorption of solar radiation and increasing radiative cooling by CO₂.</li>
+            <li>**Key Phenomena**: This is the layer where most meteors burn up upon entering the Earth's atmosphere, creating visible streaks of light (shooting stars) due to friction and heating. Noctilucent clouds, composed of ice crystals, can sometimes be observed near the mesopause during summer twilight at high latitudes.</li>
+            <li>**Mesopause**: The coldest point in the Earth's atmosphere, marking the boundary between the mesosphere and the thermosphere.</li>
+        </ul>
+    </li>
+    <li>**Thermosphere**:
+        <ul>
+            <li>**Description**: Extends from the mesopause (85 km) up to about 600 km, though its exact upper boundary is ill-defined as it gradually merges with outer space.</li>
+            <li>**Temperature Profile**: Temperature increases dramatically with altitude in the thermosphere, reaching extremely high values (up to 2000°C or more). However, it's crucial to understand that "temperature" here refers to the kinetic energy of individual gas molecules. Due to the extremely low density of air in this layer, there are very few molecules, so the total heat content is very low. A thermometer would register well below freezing.</li>
+            <li>**Ionosphere**: A significant portion of the thermosphere (and parts of the mesosphere) is ionized by solar radiation, forming the ionosphere. This layer contains free electrons and ions, which are crucial for radio communication as they reflect radio waves back to Earth, enabling long-distance communication.</li>
+            <li>**Aurora**: The spectacular light displays known as the aurora borealis (Northern Lights) and aurora australis (Southern Lights) occur in the thermosphere. They are caused by energetic charged particles from the sun interacting with atmospheric gases, exciting them and causing them to emit light.</li>
+            <li>**Orbital Region**: The International Space Station (ISS) and many low Earth orbit (LEO) satellites orbit within the thermosphere, experiencing some atmospheric drag.</li>
+            <li>**Thermopause**: The theoretical upper boundary of the thermosphere, where atmospheric properties gradually transition into the exosphere.</li>
+        </ul>
+    </li>
+    <li>**Exosphere**:
+        <ul>
+            <li>**Description**: The outermost layer of Earth's atmosphere, extending from the thermopause (around 600 km) upwards for tens of thousands of kilometers, gradually fading into the vacuum of space.</li>
+            <li>**Composition**: Primarily composed of extremely sparse hydrogen and helium atoms.</li>
+            <li>**Gas Escape**: Molecules in the exosphere are so far apart and moving so fast that they can escape Earth's gravitational pull and drift into outer space, especially lighter gases like hydrogen and helium. This is where the atmosphere "leaks" into space.</li>
+            <li>**Satellite Orbits**: Many satellites orbit within the exosphere, experiencing minimal atmospheric drag.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>**Atmospheric Pressure**</h3>
+<ul>
+    <li>**Definition**: Atmospheric pressure is defined as the force exerted by the weight of the air column above a given point on the Earth's surface. It is essentially the weight of the entire atmosphere pressing down on everything below it. This force is exerted in all directions, not just downwards. At sea level, the average atmospheric pressure is approximately 1013.25 millibars (hPa), which is equivalent to the weight of a column of mercury 760 mm (29.92 inches) high.</li>
+    <li>**Measurement**:
+        <ul>
+            <li>**Instruments**:
+                <ul>
+                    <li>**Mercury Barometer**: A classic instrument that measures atmospheric pressure by the height of a column of mercury supported by the air pressure. The height of the mercury column directly indicates the pressure.</li>
+                    <li>**Aneroid Barometer**: A more compact and portable instrument that uses a sealed metal box (aneroid cell) from which air has been removed. The cell expands or contracts with changes in atmospheric pressure, and this movement is mechanically amplified to move a needle on a dial.</li>
+                    <li>**Barograph**: A recording aneroid barometer that continuously plots pressure changes over time on a rotating drum.</li>
+                    <li>**Altimeter**: An aneroid barometer calibrated to show altitude rather than pressure, commonly used in aircraft and by mountaineers.</li>
+                </ul>
+            </li>
+            <li>**Units**:
+                <ul>
+                    <li>**Millibars (mb)**: A common unit in meteorology (1 mb = 100 Pascals).</li>
+                    <li>**Hectopascals (hPa)**: The SI unit, numerically equivalent to millibars (1 hPa = 1 mb).</li>
+                    <li>**Inches of Mercury (inHg)**: Often used in aviation and some weather reports, particularly in the United States.</li>
+                    <li>**Pounds per Square Inch (psi)**: More common in engineering, but 1 atmosphere is approximately 14.7 psi.</li>
+                </ul>
+            </li>
+            <li>**Standard Atmospheric Pressure**: At mean sea level, the standard atmospheric pressure is 1013.25 hPa (or mb), 29.92 inHg, or 760 mm of mercury.</li>
+        </ul>
+    </li>
+    <li>**Factors Affecting Atmospheric Pressure**:
+        <ul>
+            <li>**Altitude (Height)**: Atmospheric pressure decreases exponentially with increasing altitude. This is because as you go higher, there is less air above you, and thus less weight pressing down. At 5.5 km (about 18,000 ft), pressure is roughly half of that at sea level. This has significant implications for aviation (need for pressurized cabins) and mountaineering (reduced oxygen availability).</li>
+            <li>**Temperature**:
+                <ul>
+                    <li>**Mechanism**: Warm air is less dense than cold air. When air is heated, its molecules move faster and spread out, causing the air to expand and become lighter.</li>
+                    <li>**Effect**: Less dense warm air exerts lower pressure on the surface, leading to the formation of **low-pressure systems**. Conversely, cold air is denser and heavier, leading to **high-pressure systems**.</li>
+                    <li>**Example**: Equatorial regions, with high temperatures, generally experience lower pressure, while polar regions, with low temperatures, tend to have higher pressure.</li>
+                </ul>
+            </li>
+            <li>**Humidity (Moisture Content)**:
+                <ul>
+                    <li>**Mechanism**: Moist air is less dense than dry air at the same temperature and pressure. This is because water vapor (H₂O) molecules have a lower molecular weight (approx. 18 g/mol) than the average molecular weight of dry air (approx. 29 g/mol, primarily N₂ at 28 g/mol and O₂ at 32 g/mol). When water vapor replaces heavier nitrogen and oxygen molecules, the overall density of the air decreases.</li>
+                    <li>**Effect**: Higher humidity generally leads to slightly lower atmospheric pressure. This is why low-pressure systems are often associated with humid, unstable air and precipitation.</li>
+                </ul>
+            </li>
+            <li>**Dynamic Factors (Air Movement)**:
+                <ul>
+                    <li>**Convergence**: When air flows horizontally inward towards a central point, it piles up, increasing the mass of air above the surface and leading to higher pressure.</li>
+                    <li>**Divergence**: When air flows horizontally outward from a central point, it reduces the mass of air above the surface, leading to lower pressure.</li>
+                    <li>**Vertical Motion**: Rising air (associated with low pressure) and sinking air (associated with high pressure) also dynamically influence surface pressure.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Pressure Systems and Weather**:
+        <ul>
+            <li>**High-Pressure System (Anticyclone)**: Characterized by sinking air, which warms adiabatically and becomes drier. This typically leads to clear skies, calm winds, and stable weather conditions.</li>
+            <li>**Low-Pressure System (Cyclone/Depression)**: Characterized by rising air, which cools adiabatically, condenses, and forms clouds and precipitation. This typically leads to cloudy skies, strong winds, and unsettled weather.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>**Winds**</h3>
+<ul>
+    <li>**Definition**: Wind is the natural movement of air, primarily horizontal, from an area of high atmospheric pressure to an area of low atmospheric pressure. This movement is driven by the **Pressure Gradient Force (PGF)**, which is the difference in pressure between two points. The greater the pressure difference over a given distance, the stronger the PGF and thus the stronger the wind. Vertical air movements are generally referred to as updrafts or downdrafts.</li>
+    <li>**Forces Influencing Wind**:
+        <ul>
+            <li>**Pressure Gradient Force (PGF)**: Acts perpendicular to isobars (lines of equal pressure) from high to low pressure. It is the primary force initiating wind.</li>
+            <li>**Coriolis Effect**: An apparent force resulting from Earth's rotation, deflecting moving objects (including wind) to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. It acts perpendicular to the direction of motion.</li>
+            <li>**Frictional Force**: Acts to slow down wind, especially near the Earth's surface (up to about 1-3 km). It reduces wind speed and thus the Coriolis effect, causing winds to blow across isobars towards lower pressure.</li>
+            <li>**Centrifugal Force**: Relevant in curved flow, such as around high and low-pressure centers, acting outward from the center of rotation.</li>
+        </ul>
+    </li>
+    <li>**Types of Winds**:
+        <ul>
+            <li>**Prevailing (Planetary/Global) Winds**: These are large-scale, consistent wind patterns that blow over vast regions of the Earth, driven by global pressure belts and the Coriolis effect. They are part of the general atmospheric circulation.
+                <ul>
+                    <li>**Trade Winds**: Blow from the subtropical high-pressure belts (around 30° N/S) towards the equatorial low-pressure belt (Intertropical Convergence Zone - ITCZ). They blow from the northeast in the Northern Hemisphere and from the southeast in the Southern Hemisphere, due to the Coriolis effect. Historically crucial for sailing ships.</li>
+                    <li>**Westerlies**: Blow from the subtropical high-pressure belts towards the subpolar low-pressure belts (around 60° N/S). They blow predominantly from the west (southwest in the Northern Hemisphere, northwest in the Southern Hemisphere). These are the dominant winds in the mid-latitudes, influencing weather in many populated regions.</li>
+                    <li>**Polar Easterlies**: Blow from the polar high-pressure areas (around 90° N/S) towards the subpolar low-pressure belts. They blow predominantly from the east (northeast in the Northern Hemisphere, southeast in the Southern Hemisphere).</li>
+                    <li>**Jet Streams**: Narrow bands of strong, fast-moving winds (typically 100-200 knots, sometimes exceeding 400 knots) found in the upper troposphere and lower stratosphere (around 7-12 km altitude). They flow from west to east and are caused by large temperature differences between air masses. The two main types are the Polar Jet Stream and the Subtropical Jet Stream, significantly influencing weather systems and air travel.</li>
+                </ul>
+            </li>
+            <li>**Local Winds**: Influenced by local topography, differential heating/cooling of land and water, and specific geographic features. They are typically smaller in scale and have diurnal (daily) or seasonal variations.
+                <ul>
+                    <li>**Land and Sea Breezes**:
+                        <ul>
+                            <li>**Sea Breeze (Day)**: During the day, land heats up faster than water. This creates a low-pressure area over land and a relatively high-pressure area over the cooler sea. Air flows from the sea to the land, bringing cooler, moist air inland.</li>
+                            <li>**Land Breeze (Night)**: At night, land cools faster than water. This creates a high-pressure area over land and a relatively low-pressure area over the warmer sea. Air flows from the land to the sea.</li>
+                        </ul>
+                    </li>
+                    <li>**Mountain and Valley Breezes**:
+                        <ul>
+                            <li>**Valley Breeze (Day)**: During the day, mountain slopes heat up faster than the valley floor. This causes air to rise along the slopes, creating a low-pressure area, and air from the valley floor flows upwards into the mountains.</li>
+                            <li>**Mountain Breeze (Night)**: At night, mountain slopes cool faster, causing dense, cool air to flow down into the valley, creating a mountain breeze.</li>
+                        </ul>
+                    </li>
+                    <li>**Foehn/Chinook Winds**: Warm, dry winds that blow down the leeward side of mountains. As moist air rises on the windward side, it cools and precipitates. As the now dry air descends on the leeward side, it warms adiabatically (due to compression), leading to significantly higher temperatures and lower humidity. Examples include the Chinook in the Rockies and the Foehn in the Alps.</li>
+                    <li>**Monsoon Winds**: Large-scale seasonal reversal of winds, most prominent in South Asia. Caused by the differential heating of land and ocean.
+                        <ul>
+                            <li>**Summer Monsoon**: Land heats up intensely, creating a strong low-pressure system. Moist air from the ocean flows inland, bringing heavy rainfall.</li>
+                            <li>**Winter Monsoon**: Land cools rapidly, creating a high-pressure system. Dry, cold air flows from land to sea.</li>
+                        </ul>
+                    </li>
+                    <li>**Other Local Winds**: Bora (cold, dry, downslope wind in the Adriatic), Mistral (cold, strong wind in southern France), Sirocco (hot, humid wind from North Africa to Southern Europe), Loo (hot, dry wind in the Indian subcontinent).</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Coriolis Effect**:
+        <ul>
+            <li>**Mechanism**: The Coriolis effect is an apparent force (a pseudo-force) that deflects moving objects (like air and ocean currents) due to the Earth's rotation. It is strongest at the poles and zero at the equator. It acts perpendicular to the direction of motion.</li>
+            <li>**Deflection**:
+                <ul>
+                    <li>**Northern Hemisphere**: Deflects winds and currents to the **right** of their initial direction of motion.</li>
+                    <li>**Southern Hemisphere**: Deflects winds and currents to the **left** of their initial direction of motion.</li>
+                </ul>
+            </li>
+            <li>**Impact**:
+                <ul>
+                    <li>**Global Wind Patterns**: Crucial in shaping the global circulation cells (Hadley, Ferrel, Polar cells) and the direction of prevailing winds.</li>
+                    <li>**Cyclones and Anticyclones**: Causes the characteristic spiral patterns of low-pressure systems (cyclones) to rotate counter-clockwise in the Northern Hemisphere and clockwise in the Southern Hemisphere, and vice-versa for high-pressure systems (anticyclones).</li>
+                    <li>**Ocean Currents**: Significantly influences the direction of major ocean currents.</li>
+                    <li>**Ballistics and Aviation**: Must be accounted for in long-range artillery fire and long-distance flight planning.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Measurement of Winds**:
+        <ul>
+            <li>**Wind Vane**: Measures wind direction, indicating the direction from which the wind is blowing.</li>
+            <li>**Anemometer**: Measures wind speed, typically using rotating cups or propeller blades.</li>
+            <li>**Rawinsonde/Radiosonde**: Weather balloons equipped with instruments that measure wind speed and direction at various altitudes.</li>
+            <li>**Doppler Radar**: Can detect wind speed and direction within storms by measuring the Doppler shift of radar signals reflected by precipitation.</li>
+        </ul>
+    </li>
+    <li>**Wind Shear**: A sudden change in wind speed or direction over a short distance, either horizontally or vertically. It is a significant hazard in aviation.</li>
+</ul>
+
+<h3>**Humidity**</h3>
+<ul>
+    <li>**Definition**: Humidity refers to the amount of water vapor present in the atmosphere. Water vapor is an invisible gaseous form of water and is one of the most crucial variable components of the atmosphere, playing a vital role in weather, climate, and the Earth's energy balance (as a powerful greenhouse gas and through latent heat transfer).</li>
+    <li>**Types of Humidity**:
+        <ul>
+            <li>**Absolute Humidity**:
+                <ul>
+                    <li>**Definition**: The mass of water vapor contained in a unit volume of air, typically expressed in grams of water vapor per cubic meter of air (g/m³).</li>
+                    <li>**Characteristics**: It varies with temperature and pressure. As air expands or contracts, its volume changes, affecting absolute humidity even if the actual amount of water vapor remains constant. It is not commonly used in meteorology due to this variability.</li>
+                </ul>
+            </li>
+            <li>**Relative Humidity (RH)**:
+                <ul>
+                    <li>**Definition**: The ratio of the actual amount of water vapor present in the air to the maximum amount of water vapor the air can hold at a given temperature and pressure (i.e., its saturation point). It is expressed as a percentage.</li>
+                    <li>**Formula**: RH = (Actual Water Vapor Content / Saturation Water Vapor Content) × 100%.</li>
+                    <li>**Significance**: A high RH (e.g., 90%) means the air is nearly saturated and close to its dew point, indicating a high likelihood of condensation and precipitation. A low RH (e.g., 20%) means the air is dry.</li>
+                    <li>**Temperature Dependence**: As temperature increases, the air's capacity to hold water vapor increases, so if the actual water vapor content remains constant, RH will decrease. Conversely, if temperature decreases, RH will increase, potentially leading to saturation and condensation.</li>
+                    <li>**Human Comfort**: High RH combined with high temperatures makes it feel hotter and more uncomfortable because sweat evaporates less readily.</li>
+                </ul>
+            </li>
+            <li>**Specific Humidity**:
+                <ul>
+                    <li>**Definition**: The mass of water vapor per unit mass of moist air (including water vapor), typically expressed in grams of water vapor per kilogram of moist air (g/kg).</li>
+                    <li>**Characteristics**: It is a more conservative measure than absolute humidity because it is not affected by changes in air volume due to temperature or pressure variations. It remains constant as long as no water vapor is added or removed from the air parcel.</li>
+                </ul>
+            </li>
+            <li>**Mixing Ratio**:
+                <ul>
+                    <li>**Definition**: The mass of water vapor per unit mass of dry air, typically expressed in grams of water vapor per kilogram of dry air (g/kg).</li>
+                    <li>**Characteristics**: Similar to specific humidity in its conservative nature, it is also unaffected by changes in air volume. It is often preferred in atmospheric thermodynamics.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Measurement**:
+        <ul>
+            <li>**Hygrometer**: A general term for instruments used to measure humidity.</li>
+            <li>**Psychrometer**: Consists of two thermometers: a dry-bulb thermometer (measures ambient air temperature) and a wet-bulb thermometer (has its bulb wrapped in a wet cloth). The difference in temperature between the two (wet-bulb depression) is used to calculate relative humidity. The drier the air, the faster the evaporation from the wet bulb, and thus the greater the temperature difference.</li>
+            <li>**Hair Hygrometer**: Uses human or horse hair, which expands and contracts with changes in relative humidity, to move a needle on a dial.</li>
+            <li>**Electronic Hygrometers**: Utilize sensors that change electrical resistance or capacitance in response to humidity changes.</li>
+        </ul>
+    </li>
+    <li>**Condensation**: The process by which water vapor in the air changes into liquid water or ice. This occurs when the air becomes saturated (reaches 100% relative humidity).
+        <ul>
+            <li>**Dew Point**: The temperature to which air must be cooled at constant pressure and water vapor content for saturation to occur. When air cools to its dew point, condensation begins.</li>
+            <li>**Dew**: Forms when surface objects cool by radiation to below the dew point of the surrounding air, causing water vapor to condense directly onto surfaces.</li>
+            <li>**Frost**: Forms when the dew point is below freezing (0°C), and water vapor sublimates directly into ice crystals on surfaces.</li>
+            <li>**Fog**: A cloud that forms at or near the Earth's surface when air cools to its dew point, and water vapor condenses around microscopic particles (condensation nuclei).</li>
+            <li>**Clouds**: Visible masses of tiny water droplets or ice crystals suspended in the atmosphere, formed when moist air rises, cools adiabatically, and reaches saturation.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>**Precipitation**</h3>
+<ul>
+    <li>**Definition**: Precipitation is any form of water, liquid or solid, that falls from the atmosphere to the Earth's surface. It is a crucial component of the global hydrological cycle, replenishing surface and groundwater sources. For precipitation to occur, cloud droplets or ice crystals must grow large enough to overcome atmospheric resistance and fall to the ground.</li>
+    <li>
+`;
