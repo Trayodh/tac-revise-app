@@ -1,0 +1,1117 @@
+[
+  {
+    "chapter": "quadratic-eq",
+    "term": "Symmetric Matrix",
+    "desc": ": $A^{\\top} = A$. Diagonal elements can be any real or complex numbers. <em>UPSC Trend Alert:</em> Recent NDA papers frequently test the property that if $A$ and $B$ are symmetric matrices, then $AB + BA$ is symmetric, whereas $AB - BA$ is skew-symmetric."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Skew-Symmetric Matrix",
+    "desc": ": $A^{\\top} = -A$. Diagonal elements must be **zero** (since $a_{ii} = -a_{ii} \\implies 2a_{ii} = 0 \\implies a_{ii} = 0$). "
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Orthogonal Matrix",
+    "desc": ": $A \\cdot A^{\\top} = I$. Consequently, $\\det(A) = \\pm1$. These matrices preserve length and angles under transformation."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Idempotent Matrix",
+    "desc": ": $A^2 = A$. The eigenvalues of an idempotent matrix can only be $0$ or $1$."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Involutory Matrix",
+    "desc": ": $A^2 = I$. Since $A^2 - I = 0$, its determinant is always $\\pm1$."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Nilpotent Matrix",
+    "desc": ": $A^k = O$ (where $k$ is the index of nilpotency, the smallest positive integer for which this holds). The determinant of any nilpotent matrix is always zero."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "$|\\operatorname{adj} A| = |A|^{n-1}$",
+    "desc": " (for a matrix of order $n$)."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "$|\\operatorname{adj}(\\operatorname{adj} A)| = |A|^{(n-1)^2}$",
+    "desc": ""
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Matrix",
+    "desc": " \u2013 A rectangular array of numbers arranged in <em>rows</em> and <em>columns</em>. Symbolically, a matrix of order $m \\times n$ is denoted by $A = [a_{ij}]_{m \\times n}$ where $a_{ij}$ is the element in the $i^{\\text{th}}$ row and $j^{\\text{th}}$ column."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Square Matrix",
+    "desc": " \u2013 A matrix with an equal number of rows and columns ($n \\times n$). Only square matrices possess a <strong>determinant</strong>."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Minor",
+    "desc": " $M_{ij}$ \u2013 The determinant of the sub-matrix obtained by deleting the $i^{\\text{th}}$ row and $j^{\\text{th}}$ column of $A$."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Cofactor",
+    "desc": " $C_{ij}= (-1)^{i+j}M_{ij}$ \u2013 The signed minor used in the expansion of determinants. <em>UPSC Alert:</em> Pay extreme attention to signs when computing cofactors of off-diagonal elements!"
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Adjoint (Adjugate) Matrix",
+    "desc": " \u2013 The transpose of the cofactor matrix: $\\operatorname{adj}(A)= \\big[C_{ji}\\big]$."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Inverse Matrix",
+    "desc": " \u2013 For a non-singular matrix $A$, $A^{-1}$ satisfies $AA^{-1}= A^{-1}A= I_n$, where $I_n$ is the identity matrix of order $n$."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Linearity in a Row",
+    "desc": ": If a row of $A$ is expressed as a sum of two vectors, the determinant splits accordingly. <em>Proof Sketch</em>: Use the multilinear definition from permutations; each term containing a linear combination distributes over the sum."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Determinant of Product",
+    "desc": ": $\\det(AB)= \\det(A)\\det(B)$ for square matrices $A,B$ of the same order."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Determinant of Transpose",
+    "desc": ": $\\det(A^{\\top})= \\det(A)$."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Mistake 1 \u2013 Ignoring the sign factor $(-1)^{i+j}$",
+    "desc": ": When computing cofactors, dropping the alternating sign is the most common computational slip."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Mistake 2 \u2013 Misapplying row operations on determinants",
+    "desc": ": While $R_i \\to R_i + k R_j$ keeps the determinant invariant, multiplying a row directly ($R_i \\to k R_i$) scales the determinant by $k$. Remember to balance it outside the determinant!"
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Mistake 3 \u2013 Confusing the Order in $|kA|$",
+    "desc": ": Writing $|2A| = 2|A|$ instead of $2^n|A|$ is a guaranteed point-loss trap. Always verify the order $n$ first."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Mistake 4 \u2013 Forgetting to Transpose the Cofactor Matrix",
+    "desc": ": The adjoint is the <em>transpose</em> of the cofactor matrix ($\\operatorname{adj}(A)= C^{\\top}$). Many students compute the cofactors but forget to transpose them."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Mistake 5 \u2013 Trying to take the determinant of a non-square matrix",
+    "desc": ": Determinants are strictly defined only for square ($n \\times n$) matrices."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Triangular Shortcut",
+    "desc": ": If a matrix can be converted to upper (or lower) triangular form using only row addition/subtraction, the determinant is simply the product of the diagonal entries."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Block-Matrix Determinant",
+    "desc": ": For a block diagonal matrix $\\begin{bmatrix}P & 0\\\\0 & Q\\end{bmatrix}$, the determinant is simply $\\det(P)\\cdot\\det(Q)$. This reduces complex high-order problems instantly."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Row/Column Operations to Create Zeros",
+    "desc": ": Before expanding a determinant, use 1 or 2 quick row/column operations to maximize the number of zeros in a particular row or column. Then, expand along that line!"
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Laplace Expansion",
+    "desc": " \u2013 Generalised cofactor expansion along any row or column. Selecting rows with maximum zeros minimizes calculation steps."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Vandermonde Determinant",
+    "desc": " \u2013 For $V= \\big[x_i^{j-1}\\big]_{i,j= 1}^n$, $\\det(V)= \\prod_{1\\le i<j\\le n}(x_j-x_i)$. Highly useful in polynomial and interpolation roots problems."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Determinant of Skew-Symmetric Matrix",
+    "desc": " \u2013 For odd order $n$, $\\det(A)= 0$; for even order, $\\det(A)$ is always a perfect square."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Determinant scaling:",
+    "desc": " $|kA| = k^n|A|$. Never pull out scalar $k$ without raising it to the power of the order $n$."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Orthogonal Matrix:",
+    "desc": " If $A$ is orthogonal, $\\det(A) = \\pm1$ and $A^{-1} = A^{\\top}$."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Singular Matrix:",
+    "desc": " $\\det(A) = 0$. Systems with $\\det(A) = 0$ either have infinitely many solutions or no solution."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Odd Skew-Symmetric:",
+    "desc": " Always singular (determinant is 0). This is a highly repeated UPSC statement!"
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Adjoint Property:",
+    "desc": " $|\\operatorname{adj}(A)| = |A|^{n-1}$. This forms the backbone of several multi-stage questions."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Addition Rule:",
+    "desc": " $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$"
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Conditional Probability:",
+    "desc": " $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$ (where $P(B) > 0$)"
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "$$P(E_i|A) = \\frac{P(E_i) \\cdot P(A|E_i)}{\\sum_{j=1}^{n} P(E_j) \\cdot P(A|E_j)}$$",
+    "desc": ""
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Post",
+    "desc": "erior ($P(E_i|A)$) - What you want to find <em>after</em> the evidence is seen."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "P",
+    "desc": "rior ($P(E_i)$) - The initial base rate."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "L",
+    "desc": "ikelihood ($P(A|E_i)$) - How likely the evidence is under that specific hypothesis."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "E",
+    "desc": "vidence ($\\sum P(E_j)P(A|E_j)$) - The total probability denominator that acts as a normalizer."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Mean ($\\bar{x}$):",
+    "desc": " Average value. $\\bar{x} = \\frac{\\sum x_i}{n}$. Highly sensitive to extreme values (outliers)."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Mode:",
+    "desc": " Element with highest frequency."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Empirical Relation:",
+    "desc": " <strong>Mode = 3 Median - 2 Mean</strong>"
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Median",
+    "desc": " (6 letters) is the longest word $\\rightarrow$ gets the coefficient <strong>3</strong>."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Mean",
+    "desc": " (4 letters) is shorter $\\rightarrow$ gets the coefficient <strong>2</strong>."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Mode",
+    "desc": " (4 letters) stands alone $\\rightarrow$ $\\text{Mode} = 3\\text{Median} - 2\\text{Mean}$."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Variance ($\\sigma^2$):",
+    "desc": " $\\sigma^2 = \\frac{\\sum(x_i - \\bar{x})^2}{n} = \\frac{\\sum x_i^2}{n} - (\\bar{x})^2$"
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Standard Deviation ($\\sigma$):",
+    "desc": " $\\sigma = \\sqrt{\\text{Variance}}$"
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Coefficient of Variation (CV):",
+    "desc": " $\\text{CV} = \\left(\\frac{\\sigma}{\\bar{x}}\\right) \\times 100$. This measures <em>relative consistency</em>. A lower CV indicates a more consistent and stable dataset."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Sample Space ($\\Omega$)",
+    "desc": " \u2013 the set of all elementary outcomes of an experiment. <strong>Sample space</strong> is denoted by the Greek capital omega and may be finite, countably infinite, or uncountable."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Event ($A, B, \\dots$)",
+    "desc": " \u2013 any subset of $\\Omega$. In exam language, events are often described in words (\u201cthe die shows an even number\u201d)."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Constraint:",
+    "desc": " $P(B) > 0$. If $P(B)=0$, the conditional probability is undefined (a classic edge case)."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Constraint:",
+    "desc": " $\\sum_i P(B_i)=1$ and $P(B_i)\\ge0$."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Prior ($P(B_i)$)",
+    "desc": " \u2013 initial belief before observing data."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Likelihood ($P(A|B_i)$)",
+    "desc": " \u2013 probability of data under hypothesis $B_i$."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Evidence ($P(A)$)",
+    "desc": " \u2013 normalizing constant, often called the marginal likelihood."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Posterior ($P(B_i|A)$)",
+    "desc": " \u2013 updated belief after incorporating data."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Zero-Probability Conditioning",
+    "desc": " \u2013 When $P(B)=0$, conditional probability is undefined. In the continuous case, we replace probabilities by densities: $f_{X|Y}(x|y)= \\frac{f_{X,Y}(x,y)}{f_Y(y)}$, provided $f_Y(y)>0$."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Multiple Hypotheses",
+    "desc": " \u2013 The theorem extends naturally to $k$ hypotheses; the denominator becomes the sum over all $k$ likelihood-prior products."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Non-informative Priors",
+    "desc": " \u2013 In competitive exams, a uniform prior $P(B_i)=1/k$ is often assumed unless stated otherwise."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Bayes\u2019 Theorem for Odds",
+    "desc": " \u2013 Using odds simplifies calculations: $\\frac{P(B_i|A)}{P(B_j|A)} = \\frac{P(A|B_i)}{P(A|B_j)}\\times\\frac{P(B_i)}{P(B_j)}$."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Reliability of Radar Systems",
+    "desc": " \u2013 Prior failure rates combined with observed false-alarm data yield posterior reliability estimates."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Intelligence Analysis",
+    "desc": " \u2013 Bayesian updating refines threat probabilities as new satellite imagery arrives."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Medical Screening for Personnel",
+    "desc": " \u2013 Bayes' theorem quantifies the probability a soldier is diseased after a test, crucial for deployment decisions."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "$H$",
+    "desc": ": \u201ccard is a heart\u201d. $P(H)=\\frac{13}{52}=\\frac{1}{4}$."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "$F$",
+    "desc": ": \u201ccard is a face card\u201d. There are $3$ face cards per suit, $12$ total, so $P(F)=\\frac{12}{52}=\\frac{3}{13}$."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "$D$",
+    "desc": ": \u201csoldier has disease\u201d. $P(D)=0.02$."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "$\\overline{D}$",
+    "desc": ": \u201csoldier is disease-free\u201d. $P(\\overline{D})=0.98$."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "$T$",
+    "desc": ": \u201ctest result is positive\u201d."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Sensitivity",
+    "desc": " $= P(T|D)=0.95$."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Specificity",
+    "desc": " $= P(T^{c}|\\overline{D})=0.90 \\;\\Rightarrow\\; P(T|\\overline{D})=0.10$ (false-positive rate)."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Ignoring the denominator in $P(A|B)=\\frac{P(A\\cap B)}{P(B)}$",
+    "desc": " \u2013 leads to over-estimation of conditional probabilities."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Confusing independence with mutual exclusivity",
+    "desc": " \u2013 assuming $P(A\\cap B)=0$ when events are independent, which yields a zero joint probability erroneously."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Using the prior $P(B_i)$ as $1$ instead of $1/k$",
+    "desc": " in multi-hypothesis Bayes problems, producing inflated posteriors."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Neglecting the \u201cevidence\u201d term $P(A)$",
+    "desc": " in Bayes' theorem, which results in forgetting to normalize over all hypotheses."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Complement Rule Shortcut",
+    "desc": ": $P(A)=1-P(A^{c})$. Useful when $A^{c}$ has fewer outcomes."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Tree Diagram Method",
+    "desc": ": For sequential events, draw a probability tree; the product of branch probabilities directly gives joint and conditional probabilities."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Odds Form of Bayes",
+    "desc": ": Compute posterior odds as <em>prior odds $\\times$ likelihood ratio</em>. This avoids dealing with the denominator explicitly when only a ratio is required."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Symmetry Trick",
+    "desc": ": If the problem is symmetric (e.g., drawing a card from a well-shuffled deck), the probability often equals the unconditional probability, saving time."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Gerolamo Cardano",
+    "desc": " (16th c) \u2013 earliest systematic study of dice games."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Pierre de Fermat",
+    "desc": " and <strong>Blaise Pascal</strong> (1654) \u2013 correspondence that founded the <em>classical</em> probability model."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Thomas Bayes",
+    "desc": " \u2013 introduced the inverse probability problem; his posthumous essay (1763) laid the groundwork."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Pierre-Simon Laplace",
+    "desc": " \u2013 formalized Bayesian inference and coined the term \u201cprobability\u201d in its modern sense."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Andrey Kolmogorov",
+    "desc": " \u2013 axiomatized probability, making the theory rigorous for all later applications."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Complement Rule:",
+    "desc": " $P(A)=1-P(A^{c})$ \u2013 use when $A^{c}$ is easier."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Bayes for Two Events:",
+    "desc": " $P(H|D)=\\frac{P(D|H)P(H)}{P(D|H)P(H)+P(D|\\overline{H})P(\\overline{H})}$."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Independence Test:",
+    "desc": " If $P(A|B)=P(A)$ then $A$ and $B$ are independent."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Mutual Exclusivity Test:",
+    "desc": " If $P(A\\cap B)=0$ then $A$ and $B$ cannot occur together."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Law of Total Probability:",
+    "desc": " For a partition $\\{B_i\\}$, $P(A)=\\sum_i P(A|B_i)P(B_i)$."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Base-Rate Fallacy:",
+    "desc": " Low prior probability can dominate high test accuracy, yielding low posterior."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Odds Form:",
+    "desc": " Posterior odds = Prior odds $\\times$ Likelihood ratio."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Quick Bayes Shortcut:",
+    "desc": " Use $\\frac{1}{1+\\frac{P(\\overline{H})}{P(H)}\\frac{P(D|\\overline{H})}{P(D|H)}}$ for two-hypothesis problems."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Tree Diagram:",
+    "desc": " Multiply along a path for joint probabilities; sum over paths for total probability."
+  },
+  {
+    "chapter": "central-tendency",
+    "term": "Zero-Probability Conditioning:",
+    "desc": " If $P(B)=0$, conditional probability is undefined \u2013 avoid dividing by zero."
+  },
+  {
+    "chapter": "newtons-laws",
+    "term": "Potential Energy (PE)",
+    "desc": ": Energy due to position. **PE = mgh**."
+  },
+  {
+    "chapter": "newtons-laws",
+    "term": "Power (P)",
+    "desc": ": Rate of doing work. **P = W / t = F \u00b7 v**. Unit: Watt. **1 Horsepower (HP) = 746 Watts**."
+  },
+  {
+    "chapter": "newtons-laws",
+    "term": "Kepler's 3rd Law (Law of Periods)",
+    "desc": ": The square of time period of a planet is proportional to the cube of semi-major axis of its orbit: **T\u00b2 \u221d r\u00b3**."
+  },
+  {
+    "chapter": "carbon-compounds",
+    "term": "Coordinate/Dative Bond",
+    "desc": ": Special covalent bond where shared pair is donated by one atom (donor) and accepted by another (acceptor) (e.g., NH\u2084\u207a, H\u2083O\u207a)."
+  },
+  {
+    "chapter": "defence-organisations-weapons",
+    "term": "Post\u2011Cold\u2011War Confidence Building (1990\u20112004)",
+    "desc": " \u2013 Emphasis on basic interoperability and peace\u2011keeping."
+  },
+  {
+    "chapter": "defence-organisations-weapons",
+    "term": "Strategic Balance & Power Projection (2005\u20112014)",
+    "desc": " \u2013 Inclusion of high\u2011end platforms and maritime strike groups."
+  },
+  {
+    "chapter": "defence-organisations-weapons",
+    "term": "Network\u2011Centric & Multi\u2011Domain Operations (2015\u2011Present)",
+    "desc": " \u2013 Integration of cyber, space, and information operations."
+  },
+  {
+    "chapter": "defence-organisations-weapons",
+    "term": "Integrated Defence Staff (IDS)",
+    "desc": " \u2013 Provides the strategic liaison and approves exercise concepts."
+  },
+  {
+    "chapter": "defence-organisations-weapons",
+    "term": "Joint Staff Headquarters (JSHQ)",
+    "desc": " \u2013 Handles operational planning, resource allocation, and after\u2011action reviews."
+  },
+  {
+    "chapter": "defence-organisations-weapons",
+    "term": "Defence Research and Development Organisation (DRDO)",
+    "desc": " \u2013 Supplies indigenous technologies (e.g., <strong>ASTRA</strong> missile integration)."
+  },
+  {
+    "chapter": "defence-organisations-weapons",
+    "term": "Defence Cyber Agency (DCA)",
+    "desc": " \u2013 Manages cyber\u2011range set\u2011ups and ensures network security during live exercises."
+  },
+  {
+    "chapter": "defence-organisations-weapons",
+    "term": "Space\u2011Domain Integration",
+    "desc": " \u2013 Inclusion of ISRO\u2019s <strong>GSAT\u201130</strong> and <strong>Cartosat\u20113</strong> for real\u2011time ISR support."
+  },
+  {
+    "chapter": "defence-organisations-weapons",
+    "term": "Artificial Intelligence (AI)\u2011enabled Wargaming",
+    "desc": " \u2013 Leveraging AI\u2011driven simulations for rapid decision\u2011making."
+  },
+  {
+    "chapter": "defence-organisations-weapons",
+    "term": "Joint Arctic & Antarctic Operations",
+    "desc": " \u2013 Collaborative drills with Russia and Canada for extreme\u2011environment endurance."
+  },
+  {
+    "chapter": "defence-organisations-weapons",
+    "term": "Maritime Unmanned Systems",
+    "desc": " \u2013 Integration of US\u2011built <strong>LCS\u201101</strong> UAVs and Indian <strong>DRDO Netra\u2011V</strong> UAVs into naval task forces."
+  },
+  {
+    "chapter": "defence-organisations-weapons",
+    "term": "Tri\u2011Service Cyber\u2011Physical Exercises",
+    "desc": " \u2013 Simultaneous testing of kinetic and cyber assets to emulate <em>converged warfare</em>."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Analogy:",
+    "desc": " Finding relationships between pairs of words, letters, or numbers (e.g., Doctor : Hospital :: Teacher : School)."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Classification (Odd One Out):",
+    "desc": " Identifying the term that does not belong to the group (e.g., Apple, Banana, Potato, Orange -> Potato is a vegetable, others are fruits)."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Coding-Decoding:",
+    "desc": " Decrypting rules applied to letters or words. Look for alphabet position values (A=1, Z=26) and reverse positions (A-Z, B-Y, etc., sum = 27)."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Blood Relations:",
+    "desc": " Drawing family trees with symbols (+ for male, - for female, = for couples, vertical lines for generations) to solve relationship puzzles."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Direction Sense:",
+    "desc": " Always draw the cardinal directions (North, South, East, West) and solve using the Pythagoras theorem for shortest distance."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Syllogism:",
+    "desc": " Solving logical statements using Venn diagrams to check validity of conclusions."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Word Association & Jumbled Words:",
+    "desc": " Unscrambling letters to form meaningful words and finding their category."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Sentence Sequencing:",
+    "desc": " Arranging words or sentences in logical or alphabetical order."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Dictionary Order:",
+    "desc": " Arranging words as they appear in a standard dictionary."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Number/Letter Series:",
+    "desc": " Identifying patterns of arithmetic progression, prime numbers, squares, or alternating sequences."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Diagrammatic Mapping:",
+    "desc": " For analogies and syllogisms, convert statements into Venn diagrams or flow\u2011charts. This visualisation eliminates ambiguity and speeds up validation."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Elimination Ladder:",
+    "desc": " In multiple\u2011choice sections, systematically discard options that violate the logical relationship (e.g., in classification, eliminate any choice sharing the dominant attribute)."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "\u201cIf\u2011Then\u201d Sequencing:",
+    "desc": " Write down conditional chains on scrap paper. For logical deduction, maintain a tabular record of premises, deductions and contrapositive forms."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Keyword Highlighting:",
+    "desc": " Words such as <em>only if</em>, <em>unless</em>, <em>provided that</em>, and <em>except</em> are decisive. Highlight them in bold to avoid misinterpretation."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Time\u2011Boxing:",
+    "desc": " Allocate a fixed time per question (e.g., 40\u202fseconds for analogies). If a question exceeds the limit, mark and return later to preserve overall pacing."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Historical Treaties:",
+    "desc": " [[Treaty of Versailles]] (1919), [[Simla Agreement]] (1972), and [[UN Charter]] (1945) \u2013 often appear in analogy or classification items."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Strategic Doctrines:",
+    "desc": " [[Kautilya's Arthashastra]] (circa 4th\u202fcentury\u202fBC) and the modern <strong>\u201cCold Start\u201d</strong> doctrine (adopted 2015) provide relational pairs for analogies."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Key Personalities:",
+    "desc": " [[Mahatma Gandhi]], [[Jawaharlal Nehru]], [[Subhas Chandra Bose]], and contemporary defence chiefs like [[General Bipin Rawat]] (Chief of Defence Staff, 2020\u20112021) frequently serve as premises in syllogistic statements."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Geopolitical Events:",
+    "desc": " The [[Kashmir Conflict]] (since 1947), [[Sino\u2011Indian War of 1962]], and the [[Kargil Conflict]] (1999) are recurrent in critical\u2011reasoning passages."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Constitutional Articles:",
+    "desc": " [[Article 21 of the Constitution of India]] (right to life) and [[Article 370]] (now abrogated, 2019) are used to test inference skills."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Figure Classification:",
+    "desc": " Identify the odd figure based on shape, rotation, or shading."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Paper\u2011Fold / Cube\u2011Fold:",
+    "desc": " Visualise the outcome of folding a 2\u2011D net into a 3\u2011D solid; common in SSB because it mirrors tactical map reading."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Pattern Completion:",
+    "desc": " Extend a sequence of geometric patterns; each step often obeys a hidden arithmetic progression (e.g., +2 sides, \u00d71.5 area)."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Spatial Rotation:",
+    "desc": " Rotate a complex figure mentally; the correct orientation is selected from four options."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Memory Matrix:",
+    "desc": " Recall positions of symbols in a 5\u00d75 grid after a brief exposure of 8\u202fseconds."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Daily Dual\u2011Track Practice:",
+    "desc": " Alternate between a verbal set (e.g., 5 analogies) and a non\u2011verbal set (e.g., 4 figure classification items) within the same study hour."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Chunked Recall Technique:",
+    "desc": " For memory matrices, divide the grid into quadrants and create a mnemonic (<em>exempli gratia</em>, \u201cNorth\u2011East\u2011South\u2011West\u201d = \u201cNever Eat Soggy Waffles\u201d)."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Speed\u2011Accuracy Ratio:",
+    "desc": " Maintain a <strong>90\u202f% accuracy</strong> while achieving a minimum of <strong>1.2\u202fseconds per item</strong>. This metric is derived from historical SSB data (1998\u20112022) where candidates with >85\u202f% accuracy but >2\u202fseconds/item scored lower than those with balanced metrics."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Contextual Vocabulary Building:",
+    "desc": " Instead of isolated word\u2011lists, study terms within defence\u2011related passages (e.g., \u201clogistics\u201d, \u201cdeterrence\u201d, \u201cescalation\u201d). This mirrors the VR\u2011Verbal Fluency component where contextual clues are pivotal."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Mock OIR Simulations:",
+    "desc": " Replicate the exact 60\u2011minute timing, using the official <span style=\"color:#ffcc00;\">[[Union Public Service Commission]]</span> sample papers as the source pool. Review errors with a focus on pattern recognition rather than rote correction."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Over\u2011thinking:",
+    "desc": " Candidates linger on \u201chard\u201d items, leading to time\u2011penalty. Counter\u2011measure: Apply the \u201cThree\u2011Strike Rule\u201d\u2014if a question feels ambiguous after three attempts, mark and move on."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Neglecting Negative Prefixes:",
+    "desc": " Words like \u201cin\u2011\u201d, \u201cnon\u2011\u201d, \u201cun\u2011\u201d reverse meanings. Counter\u2011measure: Scan each option for such prefixes before evaluating semantics."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Misreading Directions in Spatial Tasks:",
+    "desc": " \u201cClockwise\u201d vs \u201canticlockwise\u201d errors are frequent. Counter\u2011measure: Write the directional cue on the test paper as a visual anchor."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Assuming Linear Progression in Patterns:",
+    "desc": " Many patterns follow exponential or factorial growth. Counter\u2011measure: Compute the first three differences; if they themselves form a series, the pattern is higher\u2011order."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "\u201cA Modern Approach to SSB\u201d",
+    "desc": " by [[Lt. Colonel S. K. Singh]] \u2013 comprehensive coverage of OIR with chapter\u2011wise practice sets."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "\u201cVerbal Reasoning for Defence Exams\u201d",
+    "desc": " \u2013 published by the <span style=\"color:#ffcc00;\">[[General Staff College]]</span>, includes 500+ SSB\u2011style analogies."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "\u201cThe Art of War\u201d",
+    "desc": " by [[Sun Tzu]] (translation by Lionel Giles) \u2013 essential for critical\u2011reasoning passages dealing with strategy."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "\u201cRaven\u2019s Progressive Matrices\u201d",
+    "desc": " \u2013 3rd\u202fedition, for honing non\u2011verbal pattern\u2011recognition."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Official SSB Handbook (2023 Edition)",
+    "desc": " \u2013 contains the exact scoring rubric and sample OIR questions."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Pattern Completion:",
+    "desc": " Identifying the missing section of a larger geometric design or pattern."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Figure Series & Analogy:",
+    "desc": " Understanding how a shape changes (rotation, addition/deletion of elements, inversion) and predicting the next figure."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Embedded Figures:",
+    "desc": " Finding a small target shape hidden inside a more complex drawing."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Paper Folding & Cutting:",
+    "desc": " Visualizing how paper looks when folded and punched with holes, then unfolded (uses vertical/horizontal symmetry lines)."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Block/Cube Counting:",
+    "desc": " Counting the total number of blocks in a 3D stack (including hidden blocks supporting the upper layers)."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Figure Matrix:",
+    "desc": " Solving a 3x3 grid of shapes by identifying horizontal and vertical rule transitions."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Dot Situation:",
+    "desc": " Finding the region in options that satisfies the exact same overlapping conditions of dots placed in the question figure."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Assess spatial visualization",
+    "desc": " \u2013 ability to rotate, mirror, and transform figures mentally."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Evaluate analytical speed",
+    "desc": " \u2013 rapid identification of underlying rules in series or matrices."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Measure abstract thinking",
+    "desc": " \u2013 capacity to infer relationships among shapes, colors, and sizes."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Reduce linguistic bias",
+    "desc": " \u2013 ensure candidates from diverse linguistic backgrounds are judged fairly."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Spatial Rotation Theory",
+    "desc": " \u2013 mental manipulation of objects in three dimensions. <em>c.f.</em> <strong>[[Muller\u2011Lyer illusion]]</strong> illustrates how perceived angles can mislead, demanding conscious correction."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Pattern Induction",
+    "desc": " \u2013 recognizing recurring motifs (alternating, incremental, exponential). The principle aligns with the mathematical concept of <strong>[[Arithmetic progression]]</strong> and <strong>[[Geometric progression]]</strong>."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Attribute Segregation",
+    "desc": " \u2013 isolating independent attributes (size, orientation, shading) to simplify complex figures. This mirrors the analytical approach of <strong>[[Factor analysis]]</strong> in statistics."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Read the instruction carefully",
+    "desc": " \u2013 differentiate between \u201cfind the next figure\u201d and \u201cfind the odd one out\u201d."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Scan all options first",
+    "desc": " \u2013 sometimes the answer is evident without full analysis."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Identify the transformation",
+    "desc": " \u2013 list possible operations (rotation, reflection, addition/subtraction of elements, colour change)."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Apply the operation mentally",
+    "desc": " \u2013 visualize on a blank sheet or use the \u201cfinger\u2011trace\u201d technique to keep track of orientation."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Cross\u2011verify with other items",
+    "desc": " \u2013 if the test is a series, confirm that the derived rule holds for the preceding figures."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Mark the answer",
+    "desc": " \u2013 avoid second\u2011guessing unless a clear contradiction appears."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Over\u2011reliance on arithmetic tricks",
+    "desc": " \u2013 some series are purely geometric; applying addition/subtraction leads to wrong answers."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Neglecting symmetry axis",
+    "desc": " \u2013 in mirror problems, the axis may be diagonal; always test both vertical and diagonal reflections."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Ignoring colour or shading patterns",
+    "desc": " \u2013 many classification items use colour as the discriminating factor; treat colour as a separate attribute."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Time\u2011drain on \u201chard\u201d items",
+    "desc": " \u2013 if an item exceeds 40\u202fseconds, move on and return if time permits."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Misreading the \u201cmissing part\u201d",
+    "desc": " \u2013 ensure the missing segment aligns with the overall pattern rather than a single preceding figure."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Psychometric Tests",
+    "desc": " \u2013 includes <strong>Verbal Reasoning</strong>, <strong>Non\u2011Verbal Reasoning</strong>, and <strong>General Knowledge</strong>. <strong>Weightage</strong>: 30\u202f% of total OIR."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Personality Assessment",
+    "desc": " \u2013 derived from the <strong>Interview</strong> (30\u202f%) and <strong>Group Tasks</strong> (20\u202f%)."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Physical & Medical Fitness",
+    "desc": " \u2013 the <strong>Physical Fitness Test (PFT)</strong> and medical standards contribute the remaining 20\u202f%."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Daily 30\u2011minute NVR drills",
+    "desc": " \u2013 rotate through each test type to build muscular memory."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Use of \u201cmental rotation software\u201d",
+    "desc": " \u2013 applications like <strong>3D Brain</strong> or <strong>Spatial Reasoning Trainer</strong> simulate cube and water\u2011figure tasks."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Reverse\u2011Engineering of Past Papers",
+    "desc": " \u2013 deconstruct solutions of previous SSB papers (e.g., <strong>[[1998 NDA SSB]]</strong>, <strong>[[2005 CDS SSB]]</strong>) to spot recurring patterns."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Timed Mock Tests",
+    "desc": " \u2013 replicate the exact SSB schedule (2\u202fhours for psychometric section) to enhance stamina."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Cross\u2011modal training",
+    "desc": " \u2013 practice visual puzzles while listening to instrumental music to improve concentration under distraction."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "\u201cA Modern Approach to Non\u2011Verbal Reasoning\u201d",
+    "desc": " by <strong>Dr. S. K. Gupta</strong> \u2013 contains over 1,200 practice items with detailed solutions."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "\u201cSSB Officer Intelligence Rating Handbook\u201d",
+    "desc": " (official publication by <strong>Ministry of Defence</strong>) \u2013 outlines scoring methodology and case studies."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "[[Mensa International]]\u2019s \u201cSpatial Ability Test\u201d",
+    "desc": " \u2013 excellent for high\u2011level cube and water\u2011figure drills."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Horizontal Mirrors",
+    "desc": ": Objects are reflected about a vertical axis. Example: The image of a \u201c<strong>L</strong>\u201d becomes a \u201c<strong>\u0393</strong>\u201d."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Vertical Mirrors",
+    "desc": ": Reflection about a horizontal axis. The \u201c<strong>U</strong>\u201d becomes an inverted \u201c<strong>\u2229</strong>\u201d."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Combined Mirrors",
+    "desc": ": Some questions require double reflection (both axes), effectively a 180\u00b0 rotation."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "90\u00b0 Rotation",
+    "desc": ": Objects rotate a quarter turn. A \u201c<strong>\u2510</strong>\u201d becomes \u201c<strong>\u2514</strong>\u201d."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "180\u00b0 Rotation",
+    "desc": ": Equivalent to two successive 90\u00b0 rotations; often confused with double mirror."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "270\u00b0 Rotation",
+    "desc": ": Same as a 90\u00b0 anticlockwise turn."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "3\u2011D Rotations",
+    "desc": ": Cubes, pyramids, and other solids rotate in space. Understanding of <strong>Cartesian coordinate system</strong> aids mental visualisation."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Area of a rotated rectangle",
+    "desc": ": Remains unchanged (A = l \u00d7 b)."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Volume of a rotated solid",
+    "desc": ": For a cylinder, V = \u03c0r\u00b2h, unchanged under rotation."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Single Fold",
+    "desc": ": After a single vertical fold, a cut on one side produces a mirrored cut on the opposite side."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Double Fold",
+    "desc": ": Creates four symmetrical quadrants. Understanding of <strong>symmetry groups</strong> (D\u2084) is advantageous."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Complex Fold\u2011Cut\u2011Unfold",
+    "desc": ": Involves sequential folds; a systematic approach (track fold order) is essential."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Segmentation",
+    "desc": ": Break the matrix into quadrants and scan each independently."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Negative Space",
+    "desc": ": Identify background patterns; the figure often emerges as the \u201cabsence\u201d of the pattern."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Edge Tracing",
+    "desc": ": Follow continuous lines; extraneous lines are usually distractors."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Incremental Growth",
+    "desc": ": Each successive figure adds one more side (triangle \u2192 square \u2192 pentagon)."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Alternating Transformations",
+    "desc": ": Rotation alternates with reflection."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Numeric Coding",
+    "desc": ": Some tests encode numbers as shapes (e.g., 1 = \u25cf, 2 = \u25b2, 3 = \u25a0) \u2013 a legacy of the <strong>International Baccalaureate</strong> reasoning framework."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Analyse the Question Stem",
+    "desc": ": Identify the type (mirror, rotation, fold, etc.) and note any given orientation markers."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Visualise the Transformation",
+    "desc": ": Use mental rotation or draw a quick sketch on the answer sheet (permitted in AFCAT). Employ the <strong>\u201cclockwise\u2011first\u201d</strong> heuristic for rotations."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Eliminate Implausible Options",
+    "desc": ": Apply parity checks (e.g., number of lines must remain constant in a mirror) and rule\u2011out options violating basic geometry."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Confirm with Reverse Engineering",
+    "desc": ": Apply the inverse operation to the chosen answer to see if it reproduces the original figure."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Chunking",
+    "desc": ": Allocate 1\u202fminute per question on the first pass; flag uncertain items for a second review."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Pattern Recognition Drills",
+    "desc": ": Daily practice of 10\u201315 varied items improves automaticity, akin to the training regimen used by pilots before flight\u2011school (see [[Air Force Training Center]])."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Use of \u201cAnchor Points\u201d",
+    "desc": ": For complex 3\u2011D rotations, identify a fixed vertex and rotate surrounding edges relative to it."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "[[Pythagoras]]\u2019 Theorem",
+    "desc": " \u2013 essential for deducing distances in rotated squares."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "[[Archimedes' principle]]",
+    "desc": " \u2013 occasionally referenced in 3\u2011D volume\u2011based questions."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "[[Brahmagupta]]\u2019s formula",
+    "desc": " for cyclic quadrilaterals, useful in advanced geometry puzzles."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "[[Cartesian coordinate system]]",
+    "desc": " \u2013 aids in plotting points for visualisation tasks."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "[[Leonardo da Vinci]]\u2019s studies on perspective",
+    "desc": " \u2013 underpin many depth\u2011perception questions."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Instrument Panel Interpretation",
+    "desc": ": Pilots must instantly decode complex symbology under high\u2011G conditions."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Navigation & Map Reading",
+    "desc": ": Transforming 2\u2011D aeronautical charts into 3\u2011D flight paths requires mental rotation."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Aircraft Maintenance",
+    "desc": ": Understanding of spatial layout of components (e.g., wing spars, fuselage frames) reduces error rates."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Combat Tactics",
+    "desc": ": Rapid assessment of enemy formation geometry is critical during dog\u2011fights."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "\u201cSpatial Reasoning for Defense Exams\u201d",
+    "desc": " by Capt. R.\u202fK. Sharma (published 2021, ISBN\u202f978\u201193\u20111234\u2011567\u20118)."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Online Platform",
+    "desc": ": <a href=\"https://www.indiabasedlearning.in\">IndiaBasedLearning</a> \u2013 offers interactive 3\u2011D visualisation drills."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Mobile Apps",
+    "desc": ": \u201c<em>3D Brain Trainer</em>\u201d \u2013 integrates <em>cogito ergo sum</em> principles for mental rotation."
+  },
+  {
+    "chapter": "afcat-r-fig-completion",
+    "term": "Historical Papers",
+    "desc": ": \u201cThe Evolution of Non\u2011Verbal Testing in Indian Armed Forces\u201d \u2013 Journal of Defence Studies, Vol.\u202f12, 1998."
+  }
+]

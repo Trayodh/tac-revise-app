@@ -24524,3 +24524,1192 @@ window.EXPANDED_NOTES_DATA["preamble"] = String.raw`
                 </li>
               </ul>
 `;
+
+window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
+<h3>**SI Units & Everyday Physics: A Comprehensive Guide for Defence Aspirants**</h3>
+
+<p>The International System of Units, universally known by its abbreviation **SI** (from its official French name, <em>Système international d'unités</em>), represents the modern, coherent, and globally adopted form of the metric system. It stands as the world's most widely used and officially recognized system of measurement, serving as the bedrock for scientific research, technological innovation, industrial production, and everyday commerce across nearly every nation. For defence aspirants, a profound understanding of SI units is not merely academic; it is fundamental to comprehending the principles governing military technology, logistics, navigation, and operational planning.</p>
+
+<p>The establishment of the SI was a monumental achievement in standardisation, driven by the need to overcome the inconsistencies and ambiguities that plagued earlier measurement systems. The International Bureau of Weights and Measures (BIPM - <em>Bureau international des poids et mesures</em>), an intergovernmental organisation established by the Metre Convention of 1875, plays a pivotal role in coordinating the SI, ensuring its continuous development and global uniformity. The system, formally published in 1960, evolved from the metre–kilogram–second (MKS) system, incorporating lessons from the earlier centimetre–gram–second (CGS) systems, which suffered from a diversity of units and a lack of coordination between different scientific disciplines.</p>
+
+<p>A key philosophical shift in the evolution of SI has been the move towards defining units based on fundamental physical constants rather than physical artefacts. This ensures that the definitions are universal, immutable, and can be realized with ever-increasing precision as science and technology advance, without the risk of loss, damage, or drift associated with physical prototypes. This robust framework is crucial for high-stakes applications like those found in defence, where precision and reliability are paramount.</p>
+
+<ul>
+    <li>**The Foundational Principles of SI:**
+        <ul>
+            <li>**Universality:** SI units provide a common language for measurement, facilitating international collaboration in science, engineering, and defence operations.</li>
+            <li>**Coherence:** The system is designed such that derived units are formed from base units without the need for numerical factors other than one, simplifying calculations and ensuring consistency.</li>
+            <li>**Reproducibility:** Modern SI definitions are based on fundamental physical constants, allowing for highly accurate and reproducible measurements anywhere in the world, independent of specific artefacts.</li>
+            <li>**Decimal Nature:** The use of decimal multiples and submultiples (prefixes) simplifies conversions and calculations, making the system highly practical.</li>
+            <li>**Adaptability:** The SI is a living system, continually refined and updated by the General Conference on Weights and Measures (CGPM) to reflect advancements in scientific understanding and measurement technology.</li>
+        </ul>
+    </li>
+    <li>**Base Units: The Pillars of Measurement**
+        <p>The SI comprises seven meticulously defined base units, each representing a fundamental physical quantity. These units are independent of each other and form the basis for all other derived units.</p>
+        <ul>
+            <li>**Metre (m): Unit of Length**
+                <ul>
+                    <li>**WHAT:** The metre is the SI unit of length.</li>
+                    <li>**WHY (Historical Context):** Initially defined in 1799 as one ten-millionth of the distance from the North Pole to the Equator along the meridian through Paris. Later, it was defined by a physical platinum-iridium bar (the International Prototype Metre). The limitations of an artefact (susceptibility to damage, difficulty in precise replication) led to more fundamental definitions. In 1960, it was redefined based on the wavelength of light emitted by a krypton-86 atom.</li>
+                    <li>**HOW (Modern Definition):** Since 1983, the metre is defined as the length of the path travelled by light in vacuum during a time interval of 1/299,792,458 of a second. This definition links length directly to the speed of light (c), a fundamental constant of nature, ensuring extreme precision.</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Navigation & Mapping:** Essential for accurate topographical maps, GPS coordinates, and flight paths for aircraft and missiles.</li>
+                            <li>**Ballistics:** Precise measurement of projectile trajectories, range, and target distances.</li>
+                            <li>**Engineering & Construction:** Design and fabrication of military vehicles, infrastructure (bunkers, airfields), and weapon systems.</li>
+                            <li>**Radar & Sonar:** Determining distances to targets based on the time taken for electromagnetic or sound waves to travel.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Kilogram (kg): Unit of Mass**
+                <ul>
+                    <li>**WHAT:** The kilogram is the SI unit of mass.</li>
+                    <li>**WHY (Historical Context):** For over a century, the kilogram was the only SI base unit still defined by a physical artefact – the International Prototype Kilogram (IPK), a platinum-iridium cylinder stored at the BIPM. This definition posed problems: the IPK's mass could drift over time (it was found to have lost about 50 micrograms relative to its copies), and its physical nature made it susceptible to damage or loss.</li>
+                    <li>**HOW (Modern Definition):** As of May 20, 2019, the kilogram is defined by fixing the numerical value of the Planck constant (h) to 6.626 070 15 × 10⁻³⁴ J⋅s (or kg⋅m²⋅s⁻¹). This definition allows for the realization of the kilogram using instruments like the Kibble balance, which relates mechanical power to electrical power.</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Payload Capacity:** Determining the maximum weight an aircraft, ship, or vehicle can carry (e.g., ammunition, fuel, troops).</li>
+                            <li>**Ammunition & Explosives:** Precise measurement of propellant and warhead mass for consistent performance and safety.</li>
+                            <li>**Material Science:** Assessing the density and structural integrity of materials used in armour, aircraft, and weapons.</li>
+                            <li>**Logistics:** Managing the weight of supplies, equipment, and personnel for transportation and deployment.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Second (s): Unit of Time**
+                <ul>
+                    <li>**WHAT:** The second is the SI unit of time.</li>
+                    <li>**WHY (Historical Context):** Historically, the second was defined as a fraction of the mean solar day (1/86,400 of a day). However, the Earth's rotation is not perfectly uniform. This led to a definition based on the tropical year in 1956. The advent of atomic clocks provided a far more stable and precise standard.</li>
+                    <li>**HOW (Modern Definition):** Since 1967, the second is defined as the duration of 9,192,631,770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium-133 atom. This definition leverages the extremely stable and reproducible quantum mechanical properties of atoms.</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Global Positioning Systems (GPS):** The accuracy of GPS relies on extremely precise timing signals from atomic clocks, crucial for navigation, targeting, and synchronisation of military operations.</li>
+                            <li>**Radar & Sonar:** Calculating distances and velocities of targets based on the time delay of reflected signals.</li>
+                            <li>**Communication Systems:** Synchronisation of secure digital communication networks.</li>
+                            <li>**Ballistics & Trajectory Calculations:** Timing of projectile flight, fuse delays, and weapon system firing sequences.</li>
+                            <li>**High-Speed Photography & Analysis:** Capturing rapid events in ballistics, explosions, and material stress tests.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Ampere (A): Unit of Electric Current**
+                <ul>
+                    <li>**WHAT:** The ampere is the SI unit of electric current.</li>
+                    <li>**WHY (Historical Context):** Originally defined in terms of the force between two infinitely long, parallel conductors carrying current. While practical, this definition was difficult to realize with high precision.</li>
+                    <li>**HOW (Modern Definition):** As of May 20, 2019, the ampere is defined by fixing the numerical value of the elementary charge (e) to 1.602 176 634 × 10⁻¹⁹ C (or A⋅s). This definition links the ampere directly to the fundamental charge of an electron, making it more robust and precise.</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Electronics & Avionics:** Powering and controlling complex electronic systems in aircraft, ships, and ground vehicles.</li>
+                            <li>**Weapon Systems:** Operation of guided missiles, smart munitions, and advanced targeting systems.</li>
+                            <li>**Power Generation & Distribution:** Design and maintenance of electrical grids in military bases and field operations.</li>
+                            <li>**Sensors & Communication:** Driving various sensors (e.g., thermal, optical) and radio communication equipment.</li>
+                            <li>**Electromagnetic Warfare:** Understanding and manipulating electromagnetic signals.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Kelvin (K): Unit of Thermodynamic Temperature**
+                <ul>
+                    <li>**WHAT:** The kelvin is the SI unit of thermodynamic temperature.</li>
+                    <li>**WHY (Historical Context):** Named after Lord Kelvin, this scale is an absolute thermodynamic temperature scale. It was initially defined by taking the triple point of water (the unique temperature and pressure at which water, ice, and water vapour coexist in thermodynamic equilibrium) as 273.16 K.</li>
+                    <li>**HOW (Modern Definition):** As of May 20, 2019, the kelvin is defined by fixing the numerical value of the Boltzmann constant (k) to 1.380 649 × 10⁻²³ J⋅K⁻¹ (or kg⋅m²⋅s⁻²⋅K⁻¹). This links temperature to the kinetic energy of particles, making it a more fundamental definition.</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Material Science:** Understanding how materials behave under extreme temperatures (e.g., jet engine components, re-entry vehicles, armour).</li>
+                            <li>**Cryogenics:** Storage of propellants (e.g., liquid oxygen/hydrogen for rockets), cooling of sensitive electronic components, and infrared sensors.</li>
+                            <li>**Thermal Imaging:** Detection of heat signatures from personnel, vehicles, and equipment, crucial for surveillance and targeting.</li>
+                            <li>**Engine Performance:** Optimising combustion efficiency and cooling systems in military engines.</li>
+                            <li>**Environmental Monitoring:** Assessing operational conditions in extreme climates.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Mole (mol): Unit of Amount of Substance**
+                <ul>
+                    <li>**WHAT:** The mole is the SI unit of amount of substance.</li>
+                    <li>**WHY (Historical Context):** The concept of the mole emerged from the need to quantify the vast number of atoms or molecules involved in chemical reactions. It was historically defined as the amount of substance that contains as many elementary entities (atoms, molecules, ions, electrons, etc.) as there are atoms in 0.012 kilogram of carbon-12.</li>
+                    <li>**HOW (Modern Definition):** As of May 20, 2019, the mole is defined by fixing the numerical value of the Avogadro constant (NA) to 6.022 140 76 × 10²³ mol⁻¹. This means one mole of any substance contains exactly this number of elementary entities.</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Chemistry & Explosives:** Calculating precise stoichiometric ratios for propellants, explosives, and pyrotechnics to ensure optimal performance and safety.</li>
+                            <li>**Fuel Technology:** Understanding combustion processes and energy release from various fuels.</li>
+                            <li>**Material Composition:** Analysing the chemical composition of alloys, composites, and other materials used in defence applications.</li>
+                            <li>**Environmental Protection:** Monitoring and mitigating chemical hazards in military operations.</li>
+                            <li>**Nuclear Science:** Quantifying radioactive substances and their decay products.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Candela (cd): Unit of Luminous Intensity**
+                <ul>
+                    <li>**WHAT:** The candela is the SI unit of luminous intensity.</li>
+                    <li>**WHY (Historical Context):** Early standards for luminous intensity were based on the light emitted by a "standard candle" of specific composition. This was imprecise and irreproducible. Later, it was linked to the light emitted by a black body radiator at the freezing point of platinum.</li>
+                    <li>**HOW (Modern Definition):** Since 1979, the candela is defined as the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540 × 10¹² hertz and that has a radiant intensity in that direction of 1/683 watt per steradian. This definition connects luminous intensity to radiant power and frequency, reflecting human eye sensitivity.</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Lighting Systems:** Design of aircraft cockpit lighting, vehicle headlamps, searchlights, and tactical illumination.</li>
+                            <li>**Night Vision & Optics:** Calibration and performance assessment of night vision goggles, scopes, and optical sensors.</li>
+                            <li>**Display Technology:** Ensuring adequate brightness and contrast for displays in command centres, cockpits, and vehicle dashboards.</li>
+                            <li>**Signalling & Communication:** Effectiveness of visual signals, flares, and beacons.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**Derived Units: Building Blocks of Complex Physics**
+        <p>Derived units are formed by mathematically combining the seven base units through multiplication and/or division. The SI system is coherent, meaning that these combinations do not require any numerical factors other than one. There are 22 coherent derived units that have been given special names and symbols, simplifying their use.</p>
+        <ul>
+            <li>**Newton (N): Unit of Force**
+                <ul>
+                    <li>**WHAT:** The Newton is the SI unit of force.</li>
+                    <li>**HOW (Derivation):** Defined as the force required to accelerate a mass of one kilogram by one metre per second squared (1 N = 1 kg·m/s²). This directly stems from Newton's Second Law of Motion (F=ma).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Ballistics:** Calculating the force exerted on a projectile by propellant gases, or the impact force of a warhead.</li>
+                            <li>**Aerodynamics:** Analysing lift, drag, and thrust forces on aircraft and missiles.</li>
+                            <li>**Structural Engineering:** Determining stress and strain on military vehicles, bridges, and fortifications.</li>
+                            <li>**Weapon Recoil:** Quantifying the force experienced by a weapon system during firing.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Joule (J): Unit of Energy, Work, Heat**
+                <ul>
+                    <li>**WHAT:** The Joule is the SI unit of energy, work, and heat.</li>
+                    <li>**HOW (Derivation):** Defined as the work done when a force of one Newton displaces an object by one metre (1 J = 1 N·m = 1 kg·m²/s²).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Explosives:** Measuring the energy yield of conventional and nuclear weapons.</li>
+                            <li>**Fuel Efficiency:** Quantifying the energy content of fuels and the energy consumed by engines.</li>
+                            <li>**Impact Resistance:** Assessing the energy absorption capabilities of armour and protective materials.</li>
+                            <li>**Thermodynamics:** Calculating heat transfer in engines, cooling systems, and environmental control units.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Watt (W): Unit of Power**
+                <ul>
+                    <li>**WHAT:** The Watt is the SI unit of power, which is the rate at which energy is transferred or work is done.</li>
+                    <li>**HOW (Derivation):** Defined as one Joule per second (1 W = 1 J/s = 1 kg·m²/s³).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Engine Output:** Measuring the power output of aircraft engines, vehicle engines, and power generators.</li>
+                            <li>**Radar & Communication:** Quantifying the power of transmitted signals.</li>
+                            <li>**Laser Systems:** Specifying the power of directed energy weapons or rangefinders.</li>
+                            <li>**Electrical Systems:** Rating the power consumption or output of military electronic equipment.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Pascal (Pa): Unit of Pressure, Stress**
+                <ul>
+                    <li>**WHAT:** The Pascal is the SI unit of pressure and stress.</li>
+                    <li>**HOW (Derivation):** Defined as one Newton per square metre (1 Pa = 1 N/m² = 1 kg/(m·s²)).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Hydrodynamics & Aerodynamics:** Calculating pressure exerted by fluids on submarines, ships, and aircraft.</li>
+                            <li>**Explosive Blast Waves:** Measuring the overpressure generated by explosions, crucial for assessing damage and personnel safety.</li>
+                            <li>**Tyre Pressure:** Maintaining optimal pressure in vehicle tyres for off-road mobility and load bearing.</li>
+                            <li>**Hydraulic Systems:** Design and operation of hydraulic brakes, steering, and lifting mechanisms in heavy military equipment.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Hertz (Hz): Unit of Frequency**
+                <ul>
+                    <li>**WHAT:** The Hertz is the SI unit of frequency.</li>
+                    <li>**HOW (Derivation):** Defined as one cycle per second (1 Hz = 1 s⁻¹).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Radar & Sonar:** Operating frequencies of detection systems.</li>
+                            <li>**Radio Communication:** Specifying broadcast and reception frequencies for secure military communications.</li>
+                            <li>**Engine RPM:** Measuring the rotational speed of engines (revolutions per minute, converted to Hz for scientific analysis).</li>
+                            <li>**Vibration Analysis:** Detecting structural fatigue or impending failure in vehicles and aircraft.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Volt (V): Unit of Electric Potential, Electromotive Force**
+                <ul>
+                    <li>**WHAT:** The Volt is the SI unit of electric potential difference (voltage) and electromotive force.</li>
+                    <li>**HOW (Derivation):** Defined as the potential difference between two points that imparts one Joule of energy per Coulomb of charge (1 V = 1 J/C = 1 kg·m²/(A·s³)).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Battery Systems:** Rating the voltage of batteries used in vehicles, radios, and portable equipment.</li>
+                            <li>**Circuit Design:** Ensuring correct voltage levels for sensitive electronic components in weapon systems and avionics.</li>
+                            <li>**Power Supplies:** Regulating voltage for military equipment in various operational environments.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Ohm (Ω): Unit of Electrical Resistance**
+                <ul>
+                    <li>**WHAT:** The Ohm is the SI unit of electrical resistance.</li>
+                    <li>**HOW (Derivation):** Defined as the resistance between two points of a conductor when a constant potential difference of one Volt, applied to these points, produces a current of one Ampere (1 Ω = 1 V/A = 1 kg·m²/(A²·s³)).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Circuit Protection:** Designing circuits with appropriate resistors to prevent damage from excessive current.</li>
+                            <li>**Sensor Technology:** Resistance changes in sensors (e.g., thermistors, strain gauges) are used to measure physical quantities.</li>
+                            <li>**Cable Design:** Selecting cables with minimal resistance for efficient power transmission in military vehicles and installations.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Farad (F): Unit of Electrical Capacitance**
+                <ul>
+                    <li>**WHAT:** The Farad is the SI unit of electrical capacitance.</li>
+                    <li>**HOW (Derivation):** Defined as the capacitance of a capacitor that stores one Coulomb of charge when a potential difference of one Volt is applied across it (1 F = 1 C/V = 1 A²·s⁴/(kg·m²)).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Energy Storage:** Capacitors are used in power supplies, pulse power systems (e.g., for railguns), and electronic filters.</li>
+                            <li>**Timing Circuits:** Essential components in electronic timers and oscillators for weapon systems and communication.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Weber (Wb): Unit of Magnetic Flux**
+                <ul>
+                    <li>**WHAT:** The Weber is the SI unit of magnetic flux.</li>
+                    <li>**HOW (Derivation):** Defined as the magnetic flux that, linking a circuit of one turn, produces in it an electromotive force of one Volt as it is reduced to zero at a uniform rate in one second (1 Wb = 1 V·s = 1 kg·m²/(A·s²)).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Electromagnetic Induction:** Principles behind generators, transformers, and electric motors used in military vehicles and equipment.</li>
+                            <li>**Magnetic Sensors:** Detection of magnetic anomalies (e.g., submarines, mines).</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Tesla (T): Unit of Magnetic Flux Density**
+                <ul>
+                    <li>**WHAT:** The Tesla is the SI unit of magnetic flux density (magnetic field strength).</li>
+                    <li>**HOW (Derivation):** Defined as one Weber per square metre (1 T = 1 Wb/m² = 1 kg/(A·s²)).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Magnetic Resonance Imaging (MRI):** Used in military medicine for diagnostics.</li>
+                            <li>**Electromagnetic Launchers:** High magnetic fields are central to the operation of railguns and coilguns.</li>
+                            <li>**Geomagnetic Navigation:** Understanding Earth's magnetic field for navigation systems.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Becquerel (Bq): Unit of Radioactivity**
+                <ul>
+                    <li>**WHAT:** The Becquerel is the SI unit of radioactivity.</li>
+                    <li>**HOW (Derivation):** Defined as one disintegration or transformation per second (1 Bq = 1 s⁻¹).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Nuclear Warfare & CBRN Defence:** Measuring the activity of radioactive sources, crucial for assessing contamination and radiation hazards.</li>
+                            <li>**Radiological Monitoring:** Detecting and quantifying radioactive materials in the environment or on personnel.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Gray (Gy): Unit of Absorbed Dose (Radiation)**
+                <ul>
+                    <li>**WHAT:** The Gray is the SI unit of absorbed dose of ionising radiation.</li>
+                    <li>**HOW (Derivation):** Defined as the absorption of one Joule of radiation energy per kilogram of matter (1 Gy = 1 J/kg = 1 m²/s²).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Radiation Protection:** Quantifying the amount of radiation absorbed by biological tissue or materials, vital for personnel safety and equipment hardening.</li>
+                            <li>**Nuclear Medicine:** Used in radiotherapy for military personnel.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>**Sievert (Sv): Unit of Equivalent Dose (Radiation)**
+                <ul>
+                    <li>**WHAT:** The Sievert is the SI unit of equivalent dose, used to assess the biological effect of radiation.</li>
+                    <li>**HOW (Derivation):** Defined as one Joule per kilogram, weighted by a radiation weighting factor (WR) that accounts for the biological effectiveness of different types of radiation (1 Sv = 1 J/kg).</li>
+                    <li>**EFFECT & EXAMPLE (Defence Relevance):**
+                        <ul>
+                            <li>**Radiation Safety:** Crucial for setting exposure limits and assessing the health risks to military personnel exposed to radiation.</li>
+                            <li>**CBRN Defence:** Guiding protective measures and medical responses in radiological incidents.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>**SI Prefixes: Scaling Measurements for Practicality**
+        <p>The SI system incorporates a set of 24 prefixes that can be added to the names of units to produce decimal multiples and submultiples. These prefixes allow for the expression of extremely large or small quantities without resorting to cumbersome powers of ten, making measurements more convenient and intuitive.</p>
+        <ul>
+            <li>**Common Multiples:**
+                <ul>
+                    <li>**Deca (da):** 10¹ (e.g., decametre)</li>
+                    <li>**Hecto (h):** 10² (e.g., hectopascal)</li>
+                    <li>**Kilo (k):** 10³ (e.g., **kilometre** for distances, **kilogram** for mass, **kilowatt** for power)</li>
+                    <li>**Mega (M):** 10⁶ (e.g., **megahertz** for radio frequencies, **megawatt** for large power plants)</li>
+                    <li>**Giga (G):** 10⁹ (e.g., **gigabyte** for data storage, **gigahertz** for high-frequency communication)</li>
+                    <li>**Tera (T):** 10¹² (e.g., **terabyte** for massive data storage)</li>
+                    <li>**Peta (P):** 10¹⁵ (e.g., petabyte)</li>
+                    <li>**Exa (E):** 10¹⁸ (e.g., exabyte)</li>
+                    <li>**Zetta (Z):** 10²¹</li>
+                    <li>**Yotta (Y):** 10²⁴</li>
+                </ul>
+            </li>
+            <li>**Common Submultiples:**
+                <ul>
+                    <li>**Deci (d):** 10⁻¹ (e.g., decibel, though not strictly an SI unit, uses the prefix)</li>
+                    <li>**Centi (c):** 10⁻² (e.g., centimetre)</li>
+                    <li>**Milli (m):** 10⁻³ (e.g., **millimetre** for precision engineering, **millisecond** for timing)</li>
+                    <li>**Micro (µ):** 10⁻⁶ (e.g., **micrometre** for microscopic measurements, **microsecond** for very short time intervals)</li>
+                    <li>**Nano (n):** 10⁻⁹ (e.g., **nanometre** for wavelengths of light, **nanosecond** for extremely precise timing in electronics)</li>
+                    <li>**Pico (p):** 10⁻¹² (e.g., picofarad for small capacitances)</li>
+                    <li>**Femto (f):** 10⁻¹⁵ (e.g., femtosecond lasers)</li>
+                    <li>**At
+`;
+
+window.EXPANDED_NOTES_DATA["physics-pyq-trends-topic"] = String.raw`
+<h3> Physics PYQ Analysis & Recurring Themes</h3>
+              <p>Analysis of UPSC NDA & CDS question papers from the past 5-10 years consistently reveals high-yield themes in Physics. Mastering these core concepts is paramount for maximizing scores and achieving success in the competitive defence examinations. The questions often test conceptual understanding, practical applications, and sometimes direct formulas or numerical problem-solving. A thorough grasp of the underlying principles, historical context, and modern relevance is crucial.</p>
+              
+              <h3>1. Optics & Light (Highest Questions)</h3>
+              <ul>
+                <li>**Total Internal Reflection (TIR):** This phenomenon is a perennial favorite in defence exams. It occurs when a ray of light traveling from a optically denser medium to an optically rarer medium is incident at the interface at an angle greater than the critical angle for that pair of media. Instead of refracting, the light ray is completely reflected back into the denser medium.
+                    <ul>
+                        <li>**Conditions for TIR:**
+                            <ol>
+                                <li>Light must travel from an optically denser medium to an optically rarer medium (e.g., from glass to air, or water to air).</li>
+                                <li>The angle of incidence (the angle between the incident ray and the normal to the surface) must be greater than the critical angle (C) for the given pair of media. The critical angle is defined by Snell's Law: sin C = n_rarer / n_denser.</li>
+                            </ol>
+                        </li>
+                        <li>**Applications of TIR:** Questions frequently revolve around its practical uses.
+                            <ul>
+                                <li>***Optical Fibers:*** Utilized extensively in telecommunications for high-speed data transmission and in medical endoscopes for internal body imaging. Light signals travel through the core of the fiber, undergoing repeated TIR at the core-cladding interface, ensuring minimal signal loss over long distances.</li>
+                                <li>***Mirage in Deserts:*** An atmospheric optical phenomenon caused by the refraction of light through layers of air at different temperatures and thus different refractive indices. Hot air near the ground is rarer, causing light from distant objects (like the sky) to undergo TIR and appear as a reflection on the ground, mimicking a water body.</li>
+                                <li>***Sparkling of Diamonds:*** Diamonds have a very high refractive index (approximately 2.42) and a correspondingly small critical angle (around 24.4°). When light enters a diamond, it undergoes multiple internal reflections before exiting, giving it its characteristic brilliant sparkle.</li>
+                                <li>***Prisms in Binoculars/Periscopes:*** Right-angled isosceles prisms are used to deviate light by 90° or 180° through TIR, providing brighter images than mirrors due to no absorption losses.</li>
+                                <li>***Retroreflectors:*** Devices that reflect light back to its source, often using corner cubes that employ TIR. Found in road signs, bicycle reflectors, and safety vests.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>**Refractive Index & Speed of Light:** This fundamental concept is tested both conceptually and numerically.
+                    <ul>
+                        <li>**Definition:** The refractive index (n) of a medium is a dimensionless quantity that describes how fast light travels through the medium. It is defined as the ratio of the speed of light in vacuum (c) to the speed of light in the medium (v): **n = c/v**.</li>
+                        <li>**Key Principle:** The speed of light is highest in a vacuum (approximately 3 x 10^8 m/s) and decreases as it passes through denser optical media. For example, the speed of light in water (n ≈ 1.33) is slower than in air (n ≈ 1.0003), and even slower in glass (n ≈ 1.5). This reduction in speed causes light to bend or refract when it crosses the boundary between two media with different refractive indices.</li>
+                        <li>**Consequences:** Refraction leads to phenomena like the apparent bending of a stick partially immersed in water, the apparent shallowing of a swimming pool, and the dispersion of white light into its constituent colors by a prism.</li>
+                        <li>**Snell's Law:** n1 sin θ1 = n2 sin θ2, where n1 and n2 are the refractive indices of the first and second media, and θ1 and θ2 are the angles of incidence and refraction, respectively.</li>
+                    </ul>
+                </li>
+                <li>**Mirrors & Lenses:** Understanding image formation by spherical mirrors and lenses, along with their applications and human eye defects, is crucial.
+                    <ul>
+                        <li>**Convex Mirrors:** Always form virtual, erect, and diminished images, regardless of the object's position. This property provides a wide field of view, making them ideal for use as **rear-view mirrors in vehicles** (a standard UPSC question). They are also used as security mirrors in shops.</li>
+                        <li>**Concave Mirrors:** Can form both real and virtual images, depending on the object's position. Applications include shaving mirrors (magnified virtual image), dentist mirrors, solar furnaces (converging light to a focal point), and vehicle headlights (producing a parallel beam of light).</li>
+                        <li>**Lenses:**
+                            <ul>
+                                <li>**Convex Lenses (Converging Lenses):** Thicker at the center, converge parallel rays of light. Used in magnifying glasses, cameras, projectors, and the human eye.</li>
+                                <li>**Concave Lenses (Diverging Lenses):** Thinner at the center, diverge parallel rays of light.</li>
+                            </ul>
+                        </li>
+                        <li>**Human Eye Defects:** These are almost invariably tested.
+                            <ul>
+                                <li>***Myopia (Nearsightedness):*** The eyeball is too long, or the lens is too powerful, causing light to focus in front of the retina. Distant objects appear blurred. Corrected by using a **concave lens** (diverging lens) of appropriate power to diverge the light rays slightly before they enter the eye, ensuring they focus correctly on the retina.</li>
+                                <li>***Hypermetropia (Farsightedness):*** The eyeball is too short, or the lens is too weak, causing light to focus behind the retina. Near objects appear blurred. Corrected by using a **convex lens** (converging lens) of appropriate power to converge the light rays slightly before they enter the eye, bringing the focal point onto the retina.</li>
+                                <li>***Presbyopia:*** An age-related condition where the eye's natural lens loses its flexibility, making it difficult to focus on near objects. Often corrected with bifocal lenses (upper part concave for distant vision, lower part convex for near vision).</li>
+                                <li>***Astigmatism:*** Caused by an irregularly shaped cornea or lens, leading to blurred vision at all distances. Corrected by **cylindrical lenses**.</li>
+                            </ul>
+                        </li>
+                        <li>**Lens Formula & Power:** The lens formula (1/f = 1/v - 1/u) and the power of a lens (P = 1/f, where f is in meters, power in Dioptres) are also important for numerical problems.</li>
+                    </ul>
+                </li>
+                <li>**Scattering of Light:** This phenomenon explains various natural optical effects.
+                    <ul>
+                        <li>**Definition:** Scattering is the process by which light or other radiation is deflected in different directions as it passes through a medium containing particles or inhomogeneities.</li>
+                        <li>**Rayleigh Scattering:** Occurs when the size of the scattering particles is much smaller than the wavelength of the incident light (e.g., air molecules). The intensity of scattered light is inversely proportional to the fourth power of the wavelength (I ∝ 1/λ^4). This means shorter wavelengths (blue/violet) are scattered much more strongly than longer wavelengths (red).
+                            <ul>
+                                <li>***Blue Color of the Sky:*** As sunlight passes through Earth's atmosphere, the tiny nitrogen and oxygen molecules scatter the shorter wavelength blue and violet light more effectively than the longer wavelength red and yellow light. This scattered blue light reaches our eyes from all directions, making the sky appear blue.</li>
+                                <li>***Reddish Appearance of the Sun at Sunrise/Sunset:*** When the sun is near the horizon, its light travels a much longer path through the atmosphere. Most of the shorter wavelength blue light gets scattered away, leaving the longer wavelength red and orange light to reach our eyes directly, making the sun appear reddish.</li>
+                            </ul>
+                        </li>
+                        <li>**Mie Scattering:** Occurs when the scattering particles are comparable in size to the wavelength of light (e.g., water droplets, dust particles). It is less wavelength-dependent, which is why clouds (composed of water droplets) appear white (all wavelengths are scattered almost equally).</li>
+                        <li>**Tyndall Effect:** The scattering of light by colloidal particles, making the path of the light beam visible (e.g., light beam in a smoky room).</li>
+                    </ul>
+                </li>
+              </ul>
+              
+              <h3>2. Mechanics & Motion</h3>
+              <ul>
+                <li>**Newton's Laws of Motion & Inertia:** These foundational laws govern the motion of objects and are frequently tested through conceptual questions and practical examples.
+                    <ul>
+                        <li>**Newton's First Law (Law of Inertia):** States that an object at rest will stay at rest, and an object in motion will stay in motion with the same speed and in the same direction, unless acted upon by an unbalanced external force. Inertia is the inherent property of a body to resist changes in its state of motion.
+                            <ul>
+                                <li>***Inertia of Rest:*** A passenger falling backward when a bus suddenly starts, a coin placed on a card falling into a glass when the card is flicked, dusting a carpet by beating it (dust particles tend to remain at rest).</li>
+                                <li>***Inertia of Motion:*** A passenger falling forward when a moving bus suddenly stops, an athlete continuing to run for some distance after crossing the finish line.</li>
+                                <li>***Inertia of Direction:*** Mud flying tangentially off a rotating wheel, sparks from a grinding wheel flying tangentially.</li>
+                            </ul>
+                        </li>
+                        <li>**Newton's Second Law:** States that the rate of change of momentum of a body is directly proportional to the applied force and takes place in the direction of the force (F = dp/dt). For a constant mass, this simplifies to **F = ma** (Force = mass × acceleration). This law quantifies the relationship between force and motion.</li>
+                        <li>**Newton's Third Law:** States that for every action, there is an equal and opposite reaction. It's crucial to remember that action and reaction forces always act on two different bodies. Examples include rocket propulsion (exhaust gases pushed down, rocket moves up), recoil of a gun, walking (pushing ground backward, ground pushes us forward).</li>
+                        <li>**Momentum:** Defined as the product of mass and velocity (p = mv). Impulse is the change in momentum (J = FΔt = Δp).</li>
+                    </ul>
+                </li>
+                <li>**Work, Power, and Energy:** These concepts are fundamental to understanding energy transformations and are often tested with numerical and conceptual problems.
+                    <ul>
+                        <li>**Work (W):** Work is done when a force causes a displacement of an object in the direction of the force. It is a scalar quantity.
+                            <ul>
+                                <li>**Formula:** W = F ⋅ d = Fd cos θ, where F is the force, d is the displacement, and θ is the angle between the force and displacement vectors.</li>
+                                <li>**Important Case:** Work done is **zero** when the force is perpendicular to the displacement (θ = 90°, cos 90° = 0). For example, a coolie carrying a load on his head and walking horizontally performs zero work against gravity, or a satellite orbiting Earth in a circular path (gravitational force is perpendicular to displacement).</li>
+                                <li>**Units:** Joules (J).</li>
+                            </ul>
+                        </li>
+                        <li>**Power (P):** The rate at which work is done or energy is transferred. It is also a scalar quantity.
+                            <ul>
+                                <li>**Formula:** P = W/t = F ⋅ v (Force times velocity).</li>
+                                <li>**Units:** Watts (W). Commercial unit is horsepower (1 hp = 746 W).</li>
+                            </ul>
+                        </li>
+                        <li>**Energy (E):** The capacity to do work. Energy exists in various forms (kinetic, potential, thermal, chemical, electrical, nuclear, etc.).
+                            <ul>
+                                <li>***Kinetic Energy (KE):*** Energy possessed by an object due to its motion. **KE = 1/2 mv^2**. It can also be expressed in terms of momentum (p): **K = p²/2m**.</li>
+                                <li>***Potential Energy (PE):*** Energy stored in an object due to its position or configuration.
+                                    <ul>
+                                        <li>**Gravitational Potential Energy:** PE = mgh (mass × acceleration due to gravity × height).</li>
+                                        <li>**Elastic Potential Energy:** PE = 1/2 kx^2 (for a spring, where k is spring constant and x is extension/compression).</li>
+                                    </ul>
+                                </li>
+                                <li>**Conservation of Mechanical Energy:** In the absence of non-conservative forces (like friction or air resistance), the total mechanical energy (Potential Energy + Kinetic Energy) of a system remains constant. (PE + KE = constant). This principle is demonstrated by a swinging pendulum or a roller coaster.</li>
+                                <li>**Work-Energy Theorem:** The net work done on an object is equal to the change in its kinetic energy (W_net = ΔKE).</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>**Gravitation:** Newton's Law of Universal Gravitation and the concept of acceleration due to gravity are frequently examined.
+                    <ul>
+                        <li>**Newton's Law of Universal Gravitation:** States that every particle in the universe attracts every other particle with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers. **F = G m1 m2 / r^2**.
+                            <ul>
+                                <li>**G:** Universal Gravitational Constant (6.674 × 10^-11 N m^2/kg^2). This value is constant throughout the universe.</li>
+                            </ul>
+                        </li>
+                        <li>**Acceleration due to Gravity (g):** The acceleration experienced by an object due to the gravitational pull of a celestial body (like Earth). Its value is approximately 9.8 m/s^2 on Earth's surface, but it varies significantly with location and altitude/depth.
+                            <ul>
+                                <li>**Variation with Latitude:**
+                                    <ul>
+                                        <li>**Maximum at Poles:** The Earth is flattened at the poles and bulges at the equator. Objects at the poles are closer to the Earth's center.</li>
+                                        <li>**Minimum at Equator:** Objects at the equator are farther from the Earth's center, and the centrifugal force due to Earth's rotation also reduces the effective 'g'.</li>
+                                    </ul>
+                                </li>
+                                <li>**Variation with Altitude (Height above surface):** The value of 'g' **decreases** as we go above the Earth's surface. (g' = g (R/(R+h))^2).</li>
+                                <li>**Variation with Depth (Below surface):** The value of 'g' **decreases** as we go below the Earth's surface. (g' = g (1 - d/R)).</li>
+                                <li>**At the Center of the Earth:** The value of 'g' is **zero**.</li>
+                            </ul>
+                        </li>
+                        <li>**Escape Velocity:** The minimum speed an object needs to escape the gravitational pull of a massive body (like Earth) and move into space, never to return. For Earth, it's approximately 11.2 km/s. (v_e = sqrt(2GM/R)).</li>
+                        <li>**Orbital Velocity:** The speed required for an object to maintain a stable orbit around another body. (v_o = sqrt(GM/R)).</li>
+                        <li>**Weightlessness:** Occurs when an object is in a state of continuous freefall, such as astronauts in an orbiting spacecraft. They are not truly weightless, but rather constantly falling around the Earth.</li>
+                    </ul>
+                </li>
+              </ul>
+
+              <h3>3. Electricity & Magnetism</h3>
+              <ul>
+                <li>**Ohm's Law & Resistance:** These are fundamental concepts for understanding electrical circuits.
+                    <ul>
+                        <li>**Ohm's Law:** States that the current (I) flowing through a conductor between two points is directly proportional to the voltage (V) across the two points, and inversely proportional to the resistance (R) between them. **V = IR**. This law holds true for ohmic conductors under constant physical conditions (temperature, strain).</li>
+                        <li>**Electrical Resistance (R):** The opposition offered by a conductor to the flow of electric current. Its unit is Ohm (Ω).
+                            <ul>
+                                <li>**Factors Affecting Resistance:**
+                                    <ol>
+                                        <li>**Length (L):** Resistance is **directly proportional** to the length of the conductor (R ∝ L). Longer wires have more resistance.</li>
+                                        <li>**Area of Cross-section (A):** Resistance is **inversely proportional** to the area of cross-section of the conductor (R ∝ 1/A). Thicker wires have less resistance.</li>
+                                        <li>**Material (Resistivity, ρ):** Resistance depends on the nature of the material. Resistivity (ρ) is an intrinsic property of the material. **R = ρL/A**. Good conductors have low resistivity, insulators have high resistivity.</li>
+                                        <li>**Temperature:** For most metallic conductors, resistance **increases** with an increase in temperature. For semiconductors and electrolytes, resistance generally decreases with increasing temperature.</li>
+                                    </ol>
+                                </li>
+                                <li>**Combinations of Resistors:**
+                                    <ul>
+                                        <li>***Series Combination:*** Resistors are connected end-to-end. The equivalent resistance is the sum of individual resistances (R_eq = R1 + R2 + ...). The current is the same through each resistor, but the voltage divides.</li>
+                                        <li>***Parallel Combination:*** Resistors are connected across the same two points. The reciprocal of the equivalent resistance is the sum of the reciprocals of individual resistances (1/R_eq = 1/R1 + 1/R2 + ...). The voltage is the same across each resistor, but the current divides.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>**Joule's Heating & Safety Fuse:** These concepts relate to the practical aspects of electricity and circuit protection.
+                    <ul>
+                        <li>**Joule's Heating Effect:** When electric current flows through a resistor, electrical energy is converted into heat energy due to collisions between electrons and the atoms of the conductor. This is known as the heating effect of electric current.
+                            <ul>
+                                <li>**Formula:** The heat produced (H) is given by **H = I^2 Rt** (where I is current, R is resistance, t is time). Other forms include H = VIt and H = V^2 t / R.</li>
+                                <li>**Applications:** Electric heaters, geysers, toasters, electric bulbs (incandescent bulbs use the heating effect to produce light).</li>
+                            </ul>
+                        </li>
+                        <li>**Commercial Unit of Electrical Energy:** The commercial unit for measuring electrical energy consumption is the kilowatt-hour (kWh).
+                            <ul>
+                                <li>**Conversion:** **1 kWh = 3.6 x 10^6 Joules**. This conversion is frequently asked.</li>
+                            </ul>
+                        </li>
+                        <li>**Safety Fuse:** A crucial safety device in electrical circuits designed to protect appliances and wiring from damage due to overcurrents or short circuits.
+                            <ul>
+                                <li>**Construction:** A fuse wire is typically made of an alloy of lead and tin.</li>
+                                <li>**Key Properties:** A safety fuse wire has two critical properties:
+                                    <ol>
+                                        <li>**Low Melting Point:** It melts quickly when the current exceeds its rated value, breaking the circuit.</li>
+                                        <li>**High Resistance:** This ensures that it heats up significantly (due to I^2R heating) even with a moderate overcurrent, leading to its rapid melting.</li>
+                                    </ol>
+                                </li>
+                                <li>**Function:** When an excessive current flows through the circuit, the fuse wire heats up rapidly, melts, and breaks the circuit, thereby preventing damage to the appliances and potential fire hazards. Modern alternatives include Miniature Circuit Breakers (MCBs) and Earth Leakage Circuit Breakers (ELCBs).</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>**Earth's Magnetism:** The Earth itself behaves like a giant magnet, generating a magnetic field that extends far into space.
+                    <ul>
+                        <li>**Origin:** The Earth's magnetic field is believed to be generated by the convection currents of molten iron and nickel in the Earth's outer core, a process known as the
+`;
+
+window.EXPANDED_NOTES_DATA["acids-bases"] = String.raw`
+<h3>1. Theories of Acids and Bases: A Comprehensive Overview</h3>
+              <p>The understanding of acids and bases has evolved significantly over time, with various theories providing increasingly broader and more fundamental definitions. These theories are crucial for comprehending chemical reactions and properties, forming a cornerstone of chemistry for defence examinations.</p>
+              <ul>
+                <li>**Arrhenius Theory (1884): The Aqueous Solution Perspective**
+                  <ul>
+                    <li>**Proponent:** Svante Arrhenius, a Swedish chemist, proposed this theory in 1884, for which he later received the Nobel Prize in Chemistry.</li>
+                    <li>**Core Concept - Acid:** An Arrhenius acid is a substance that, when dissolved in an aqueous solution, increases the concentration of hydrogen ions (H⁺) or, more accurately, hydronium ions (H₃O⁺).
+                      <ul>
+                        <li>**Mechanism:** Acids dissociate in water to release H⁺ ions. These H⁺ ions are highly reactive and immediately combine with water molecules to form hydronium ions (H₃O⁺). For example, HCl(aq) → H⁺(aq) + Cl⁻(aq), and H⁺(aq) + H₂O(l) → H₃O⁺(aq).</li>
+                        <li>**Examples:** Hydrochloric acid (HCl), Nitric acid (HNO₃), Sulfuric acid (H₂SO₄). These are strong acids, meaning they dissociate almost completely in water.</li>
+                      </ul>
+                    </li>
+                    <li>**Core Concept - Base:** An Arrhenius base is a substance that, when dissolved in an aqueous solution, increases the concentration of hydroxyl ions (OH⁻).
+                      <ul>
+                        <li>**Mechanism:** Bases dissociate in water to release OH⁻ ions. For example, NaOH(aq) → Na⁺(aq) + OH⁻(aq).</li>
+                        <li>**Examples:** Sodium hydroxide (NaOH), Potassium hydroxide (KOH), Calcium hydroxide (Ca(OH)₂). These are strong bases.</li>
+                      </ul>
+                    </li>
+                    <li>**Limitations:**
+                      <ul>
+                        <li>**Aqueous Restriction:** This theory is limited to aqueous solutions and cannot explain acid-base reactions occurring in non-aqueous solvents or in the gas phase.</li>
+                        <li>**Absence of H⁺/OH⁻:** It fails to explain the acidic nature of compounds like carbon dioxide (CO₂) or sulfur dioxide (SO₂), which do not contain hydrogen but form acidic solutions in water. Similarly, it cannot explain the basic nature of ammonia (NH₃), which does not contain a hydroxyl group.</li>
+                        <li>**Direct Dissociation:** It assumes direct dissociation of H⁺ and OH⁻, whereas in reality, H⁺ ions are solvated by water molecules to form H₃O⁺.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Bronsted-Lowry Theory (1923): The Proton Transfer Perspective**
+                  <ul>
+                    <li>**Proponents:** Independently proposed by Johannes Nicolaus Brønsted (Danish) and Thomas Martin Lowry (English) in 1923, addressing the limitations of the Arrhenius theory.</li>
+                    <li>**Core Concept - Acid:** A Brønsted-Lowry acid is defined as a **proton (H⁺) donor**.
+                      <ul>
+                        <li>**Mechanism:** An acid donates a proton to another substance. For example, in the reaction HCl + H₂O → H₃O⁺ + Cl⁻, HCl donates a proton to H₂O, making HCl the acid.</li>
+                      </ul>
+                    </li>
+                    <li>**Core Concept - Base:** A Brønsted-Lowry base is defined as a **proton (H⁺) acceptor**.
+                      <ul>
+                        <li>**Mechanism:** A base accepts a proton from another substance. In the example above, H₂O accepts a proton from HCl, making H₂O the base.</li>
+                      </ul>
+                    </li>
+                    <li>**Conjugate Acid-Base Pairs:**
+                      <ul>
+                        <li>When an acid donates a proton, the species remaining is called its **conjugate base**. (e.g., Cl⁻ is the conjugate base of HCl).</li>
+                        <li>When a base accepts a proton, the species formed is called its **conjugate acid**. (e.g., H₃O⁺ is the conjugate acid of H₂O).</li>
+                        <li>**Example Reaction:** HCl (acid) + H₂O (base) ⇌ Cl⁻ (conjugate base) + H₃O⁺ (conjugate acid).</li>
+                        <li>**Another Example:** NH₃ (base) + H₂O (acid) ⇌ NH₄⁺ (conjugate acid) + OH⁻ (conjugate base). Here, water acts as an acid.</li>
+                      </ul>
+                    </li>
+                    <li>**Amphoteric Substances:** Substances that can act as both a Brønsted-Lowry acid (donating a proton) and a Brønsted-Lowry base (accepting a proton) are called amphoteric. Water (H₂O) is a classic example.</li>
+                    <li>**Advantages:**
+                      <ul>
+                        <li>**Broader Applicability:** This theory is not restricted to aqueous solutions and can explain acid-base reactions in non-aqueous solvents (e.g., liquid ammonia) and in the gas phase.</li>
+                        <li>**Explains Ammonia's Basicity:** It successfully explains why ammonia (NH₃) is a base (it accepts a proton).</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Lewis Theory (1923): The Electron Pair Perspective**
+                  <ul>
+                    <li>**Proponent:** Gilbert N. Lewis, an American chemist, proposed this most general theory of acids and bases in 1923.</li>
+                    <li>**Core Concept - Acid:** A Lewis acid is an **electron-pair acceptor**.
+                      <ul>
+                        <li>**Characteristics:** Lewis acids are typically electron-deficient species, often having an incomplete octet, positive charge, or empty orbitals to accommodate electron pairs. They are also known as electrophiles.</li>
+                        <li>**Examples:** Boron trifluoride (BF₃), Aluminum chloride (AlCl₃), Hydrogen ion (H⁺), metal cations (Fe³⁺, Cu²⁺), carbon dioxide (CO₂).</li>
+                      </ul>
+                    </li>
+                    <li>**Core Concept - Base:** A Lewis base is an **electron-pair donor**.
+                      <ul>
+                        <li>**Characteristics:** Lewis bases possess at least one lone pair of electrons that can be donated. They are also known as nucleophiles.</li>
+                        <li>**Examples:** Ammonia (NH₃), Water (H₂O), Fluoride ion (F⁻), Hydroxyl ion (OH⁻), cyanide ion (CN⁻).</li>
+                      </ul>
+                    </li>
+                    <li>**Mechanism:** A Lewis acid-base reaction involves the formation of a coordinate covalent bond (or dative bond) between the electron-pair donor (Lewis base) and the electron-pair acceptor (Lewis acid). The product is often called an adduct.
+                      <ul>
+                        <li>**Example:** NH₃ (Lewis base) + BF₃ (Lewis acid) → H₃N:BF₃ (adduct). Here, the nitrogen in ammonia donates its lone pair to the boron in boron trifluoride.</li>
+                      </ul>
+                    </li>
+                    <li>**Advantages:**
+                      <ul>
+                        <li>**Most General:** This is the most comprehensive theory, encompassing all Arrhenius and Brønsted-Lowry acids and bases, as well as reactions that do not involve protons or hydroxyl ions.</li>
+                        <li>**Explains Complex Formation:** It explains the formation of coordination compounds (complexes) where metal ions act as Lewis acids and ligands act as Lewis bases.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <h3>2. pH Scale & Indicators: Quantifying Acidity and Basicity</h3>
+              <p>The pH scale provides a convenient way to express the acidity or basicity of a solution quantitatively. pH indicators are crucial tools that allow for visual determination of pH changes, widely used in laboratories, industries, and environmental monitoring.</p>
+              <ul>
+                <li>**The pH Scale: Potential of Hydrogen**
+                  <ul>
+                    <li>**Definition:** pH stands for 'potential of Hydrogen' (or 'power of Hydrogen'). It is a measure of the hydrogen ion concentration in an aqueous solution, indicating its acidity or alkalinity. The concept was introduced by Danish biochemist Søren Peder Lauritz Sørensen in 1909.</li>
+                    <li>**Formula:** The pH of a solution is defined as the negative logarithm (base 10) of the molar concentration of hydrogen ions [H⁺] or hydronium ions [H₃O⁺].
+                      <p style="text-align:center; font-weight:bold; margin-top:10px;">**pH = -log[H⁺]** or **pH = -log[H₃O⁺]**</p>
+                      <p>The logarithmic nature means that a change of one pH unit represents a tenfold change in hydrogen ion concentration. For example, a solution with pH 3 is ten times more acidic than a solution with pH 4.</p>
+                    </li>
+                    <li>**pOH:** Similarly, pOH is the negative logarithm of the hydroxyl ion concentration [OH⁻]:
+                      <p style="text-align:center; font-weight:bold; margin-top:10px;">**pOH = -log[OH⁻]**</p>
+                    </li>
+                    <li>**Relationship between pH and pOH:** At 298 K (25 °C), the ion product of water (Kw) is 1.0 x 10⁻¹⁴ M². Since Kw = [H⁺][OH⁻], taking the negative logarithm of both sides gives:
+                      <p style="text-align:center; font-weight:bold; margin-top:10px;">**pH + pOH = 14** (at 25 °C)</p>
+                      This fundamental relationship allows for easy conversion between pH and pOH.</li>
+                    <li>**Acidity, Neutrality, and Basicity (at 298 K / 25 °C):**
+                      <ul>
+                        <li>**pH < 7:** The solution is **acidic** (meaning [H⁺] > [OH⁻]).</li>
+                        <li>**pH = 7:** The solution is **neutral** (meaning [H⁺] = [OH⁻]). Pure water at 25 °C has a pH of 7.</li>
+                        <li>**pH > 7:** The solution is **basic** or **alkaline** (meaning [H⁺] < [OH⁻]).</li>
+                      </ul>
+                    </li>
+                    <li>**Temperature Dependence:** It's crucial to note that the neutral pH of 7 is specific to 25 °C. The autoionization constant of water (Kw) changes with temperature. For instance, at 0 °C, Kw is lower, and the neutral pH is approximately 7.47. At 60 °C, Kw is higher, and the neutral pH is approximately 6.51. This is an important detail for UPSC exams.</li>
+                    <li>**Strong vs. Weak Acids/Bases:**
+                      <ul>
+                        <li>**Strong Acids/Bases:** Dissociate completely in water (e.g., HCl, NaOH). Their pH can be directly calculated from their initial concentration.</li>
+                        <li>**Weak Acids/Bases:** Dissociate only partially in water (e.g., CH₃COOH, NH₃). Their pH calculation requires considering their acid dissociation constant (Ka) or base dissociation constant (Kb) and equilibrium expressions.</li>
+                      </ul>
+                    </li>
+                    <li>**Importance of pH:** pH plays a vital role in numerous fields:
+                      <ul>
+                        <li>**Biology:** Maintaining a narrow pH range is critical for biological systems (e.g., blood pH 7.35-7.45, enzyme activity).</li>
+                        <li>**Agriculture:** Soil pH affects nutrient availability and crop growth.</li>
+                        <li>**Environmental Science:** pH of water bodies indicates pollution levels (acid rain).</li>
+                        <li>**Industry:** Crucial in food processing, pharmaceuticals, chemical manufacturing, and water treatment.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**pH Indicators: Visual Detectors of pH**
+                  <ul>
+                    <li>**Definition:** A pH indicator is a halochromic chemical compound added in small amounts to a solution. It changes color depending on the pH (acidity or basicity) of the solution. Essentially, it's a chemical detector for hydronium ions (H₃O⁺) or hydrogen ions (H⁺) in the Arrhenius model.</li>
+                    <li>**Mechanism of Action:** Most pH indicators are weak organic acids or bases. They exist in two tautomeric forms (acidic and basic forms) that have different colors. The equilibrium between these two forms shifts depending on the pH of the solution, following Le Chatelier's Principle.
+                      <p style="text-align:center; margin-top:10px;">HIn (acidic form, Color 1) ⇌ H⁺ + In⁻ (basic form, Color 2)</p>
+                      In acidic solutions, the equilibrium shifts to the left, favoring the acidic form (Color 1). In basic solutions, H⁺ ions are consumed, shifting the equilibrium to the right, favoring the basic form (Color 2).</li>
+                    <li>**Color Change Range:** Indicators do not change color at a single pH point but rather over a specific pH range (typically 1-2 pH units) where both forms are present in significant concentrations. The midpoint of this range is often close to the pKa of the indicator.</li>
+                    <li>**Types of Indicators:**
+                      <ul>
+                        <li>**Universal Indicator:** A mixture of several indicators designed to give a continuous range of color changes over a wide pH range (e.g., pH 1-14), allowing for an approximate pH determination.</li>
+                        <li>**Olfactory Indicators:** These indicators show a change in their odor in acidic or basic media. They are particularly useful for visually impaired individuals. Examples include:
+                          <ul>
+                            <li>**Onion:** Has a characteristic smell that diminishes in basic solutions and remains in acidic solutions.</li>
+                            <li>**Vanilla Extract:** Loses its characteristic smell in basic solutions but retains it in acidic solutions.</li>
+                            <li>**Clove Oil:** Behaves similarly to vanilla extract.</li>
+                          </ul>
+                        </li>
+                        <li>**Other Indicator Types (for advanced analysis):** While pH indicators are the most common, chemical analysis also uses complexometric indicators (for metal cations) and redox indicators (for redox titrations).</li>
+                      </ul>
+                    </li>
+                    <li>**Applications of pH Indicators:**
+                      <ul>
+                        <li>**Titration:** Used to determine the equivalence point (or end point) of an acid-base neutralization reaction, where the acid and base have completely reacted.</li>
+                        <li>**Soil Testing:** Farmers use indicators to determine soil pH and adjust it for optimal crop growth.</li>
+                        <li>**Water Quality Monitoring:** Used to check the pH of drinking water, aquarium water, and industrial effluents.</li>
+                        <li>**Biological Experiments:** To monitor pH changes in biochemical reactions.</li>
+                        <li>**Everyday Life:** In swimming pool testing kits, certain food products, and even some cosmetics.</li>
+                      </ul>
+                    </li>
+                    <li>**Indicators Table:**
+                      <table style="width:100%; border-collapse:collapse; margin-top:8px; font-size:0.85rem;">
+                        <tr style="background-color:var(--bg-tertiary);">
+                          <th style="padding:6px; border:1px solid var(--border);">Indicator</th>
+                          <th style="padding:6px; border:1px solid var(--border);">pH Range</th>
+                          <th style="padding:6px; border:1px solid var(--border);">Acidic Color</th>
+                          <th style="padding:6px; border:1px solid var(--border);">Basic Color</th>
+                        </tr>
+                        <tr>
+                          <td style="padding:6px; border:1px solid var(--border);">Litmus</td>
+                          <td style="padding:6px; border:1px solid var(--border);">5.5 - 8.0</td>
+                          <td style="padding:6px; border:1px solid var(--border); color:var(--danger)">Red</td>
+                          <td style="padding:6px; border:1px solid var(--border); color: var(--accent)">Blue</td>
+                        </tr>
+                        <tr>
+                          <td style="padding:6px; border:1px solid var(--border);">Phenolphthalein</td>
+                          <td style="padding:6px; border:1px solid var(--border);">8.2 - 10.0</td>
+                          <td style="padding:6px; border:1px solid var(--border);">Colorless</td>
+                          <td style="padding:6px; border:1px solid var(--border); color:var(--danger)">Deep Pink</td>
+                        </tr>
+                        <tr>
+                          <td style="padding:6px; border:1px solid var(--border);">Methyl Orange</td>
+                          <td style="padding:6px; border:1px solid var(--border);">3.1 - 4.4</td>
+                          <td style="padding:6px; border:1px solid var(--border); color:var(--danger)">Red/Orange</td>
+                          <td style="padding:6px; border:1px solid var(--border); color:var(--warning)">Yellow</td>
+                        </tr>
+                        <tr>
+                          <td style="padding:6px; border:1px solid var(--border);">Methyl Red</td>
+                          <td style="padding:6px; border:1px solid var(--border);">4.4 - 6.2</td>
+                          <td style="padding:6px; border:1px solid var(--border); color:var(--danger)">Red</td>
+                          <td style="padding:6px; border:1px solid var(--border);">Yellow</td>
+                        </tr>
+                        <tr>
+                          <td style="padding:6px; border:1px solid var(--border);">Bromothymol Blue</td>
+                          <td style="padding:6px; border:1px solid var(--border);">6.0 - 7.6</td>
+                          <td style="padding:6px; border:1px solid var(--border); color:var(--warning)">Yellow</td>
+                          <td style="padding:6px; border:1px solid var(--border); color: var(--accent)">Blue</td>
+                        </tr>
+                      </table>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Buffer Solutions: Resisting pH Change**
+                  <ul>
+                    <li>**Definition:** A buffer solution is an aqueous solution consisting of a mixture of a weak acid and its conjugate base, or a weak base and its conjugate acid. Its distinctive property is its ability to resist changes in pH upon the addition of small amounts of acid or base.</li>
+                    <li>**Mechanism:**
+                      <ul>
+                        <li>If a small amount of strong acid (H⁺) is added, the conjugate base component of the buffer reacts with it, neutralizing the H⁺ and preventing a significant drop in pH.</li>
+                        <li>If a small amount of strong base (OH⁻) is added, the weak acid component of the buffer reacts with it, neutralizing the OH⁻ and preventing a significant rise in pH.</li>
+                      </ul>
+                    </li>
+                    <li>**Importance:** Buffers are vital in biological systems (e.g., the bicarbonate buffer system in human blood maintains pH between 7.35 and 7.45, crucial for enzyme function), chemical research, industrial processes, and pharmaceutical formulations.</li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <h3>3. Key Chemical Salts and Formulas: Properties and Applications</h3>
+              <p>Salts are ionic compounds formed from the neutralization reaction of an acid and a base. They are ubiquitous in nature and find extensive applications in various industries and daily life. Understanding their properties and preparation methods is essential for defence examinations.</p>
+              <ul>
+                <li>**Baking Soda (Sodium Hydrogen Carbonate - NaHCO₃)**
+                  <ul>
+                    <li>**Common Name:** Sodium Bicarbonate, Bicarbonate of Soda.</li>
+                    <li>**Preparation:** Primarily prepared by the **Solvay process (Ammonia-soda process)**. This industrial process involves reacting concentrated brine (NaCl solution) with ammonia (NH₃) and carbon dioxide (CO₂).
+                      <ol>
+                        <li>Ammonia reacts with water and carbon dioxide to form ammonium bicarbonate: NH₃ + H₂O + CO₂ → NH₄HCO₃</li>
+                        <li>Ammonium bicarbonate then reacts with sodium chloride (brine) to precipitate sodium hydrogen carbonate due to its lower solubility: NH₄HCO₃ + NaCl → NaHCO₃↓ + NH₄Cl</li>
+                      </ol>
+                    </li>
+                    <li>**Properties:**
+                      <ul>
+                        <li>White crystalline solid.</li>
+                        <li>Mild, non-corrosive base.</li>
+                        <li>Decomposes on heating (above 100°C) to produce sodium carbonate, water, and carbon dioxide gas: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g). This property is key to its use in baking.</li>
+                      </ul>
+                    </li>
+                    <li>**Uses:**
+                      <ul>
+                        <li>**Baking Industry:** Used as a leavening agent in cakes, bread, and pastries. The CO₂ gas produced upon heating causes the dough to rise, making the products soft and spongy.</li>
+                        <li>**Antacid:** Its mild alkaline nature helps neutralize excess stomach acid, providing relief from indigestion and heartburn.</li>
+                        <li>**Soda-Acid Fire Extinguishers:** Reacts with an acid (e.g., sulfuric acid) to produce a large volume of CO₂ gas, which smothers the fire by cutting off the oxygen supply.</li>
+                        <li>**Mild Antiseptic:** Used in some mouthwashes and as a mild disinfectant.</li>
+                        <li>**Cleaning Agent:** Used for cleaning various surfaces due to its mild abrasive and deodorizing properties.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Washing Soda (Sodium Carbonate Decahydrate - Na₂CO₃ · 10H₂O)**
+                  <ul>
+                    <li>**Common Name:** Soda Ash (anhydrous form, Na₂CO₃).</li>
+                    <li>**Preparation:** Obtained from sodium hydrogen carbonate.
+                      <ol>
+                        <li>Sodium hydrogen carbonate is heated to produce anhydrous sodium carbonate (soda ash): 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g).</li>
+                        <li>The anhydrous sodium carbonate is then recrystallized from water to form washing soda (decahydrate): Na₂CO₃ + 10H₂O → Na₂CO₃ · 10H₂O.</li>
+                      </ol>
+                    </li>
+                    <li>**Properties:**
+                      <ul>
+                        <li>White crystalline solid.</li>
+                        <li>It is an efflorescent substance, meaning it loses its water of crystallization when exposed to air (Na₂CO₃ · 10H₂O → Na₂CO₃ · H₂O + 9H₂O).</li>
+                        <li>Its aqueous solution is alkaline due to hydrolysis of the carbonate ion: CO₃²⁻ + H₂O ⇌ HCO₃⁻ + OH⁻.</li>
+                      </ul>
+                    </li>
+                    <li>**Uses:**
+                      <ul>
+                        <li>**Glass, Soap, and Paper Industries:** A key raw material in the manufacturing of glass (reduces melting point of silica), soaps, and detergents, and in the paper industry.</li>
+                        <li>**Cleaning Agent:** Used as a powerful cleaning agent for domestic purposes and in laundries.</li>
+                        <li>**Removal of Permanent Hardness of Water:** This is a crucial application. Permanent hardness in water is caused by the presence of soluble salts of calcium (Ca²⁺) and magnesium (Mg²⁺) in the form of chlorides and sulfates. Washing soda precipitates these metal ions as insoluble carbonates:
+                          <p style="text-align:center; margin-top:10px;">CaSO₄(aq) + Na₂CO₃(aq) → CaCO₃(s)↓ + Na₂SO₄(aq)</p>
+                          <p style="text-align:center;">MgCl₂(aq) + Na₂CO₃(aq) → Mg
+`;
+
+window.EXPANDED_NOTES_DATA["syl-numerical"] = String.raw`
+<h3>1. Types of Chemical Bonds: The Fundamental Forces of Matter</h3>
+              <p>Chemical bonds are the attractive forces that hold atoms together in molecules and compounds. They are responsible for the vast diversity of substances in the universe, dictating their physical and chemical properties. Understanding these bonds is crucial for comprehending chemical reactions, material science, and biological processes. The formation of chemical bonds is primarily driven by the tendency of atoms to achieve a more stable electron configuration, typically a full outer electron shell (octet rule for main group elements, or duplet for hydrogen and helium), thereby lowering their potential energy.</p>
+              <ul>
+                <li>**Electrovalent/Ionic Bond**:
+                  <p>An ionic bond is formed by the complete transfer of one or more electrons from a highly electropositive atom (typically a metal) to a highly electronegative atom (typically a non-metal). This transfer results in the formation of oppositely charged ions – a positively charged cation (formed by the metal losing electrons) and a negatively charged anion (formed by the non-metal gaining electrons). The strong electrostatic force of attraction between these oppositely charged ions constitutes the ionic bond.</p>
+                  <ul>
+                    <li>**Mechanism of Formation**:
+                      <ul>
+                        <li>**Electron Transfer**: For example, in the formation of Sodium Chloride (NaCl), a sodium atom (Na), which has one valence electron (electron configuration [Ne]3s¹), readily loses this electron to achieve a stable neon-like configuration, forming a Na⁺ cation.</li>
+                        <li>A chlorine atom (Cl), with seven valence electrons ([Ne]3s²3p⁵), readily accepts this electron to complete its octet, forming a stable chloride ion (Cl⁻) with an argon-like configuration.</li>
+                        <li>The resulting Na⁺ and Cl⁻ ions are then held together by strong electrostatic forces, forming an ionic lattice structure.</li>
+                        <li>**Examples**: Common examples include Sodium Chloride (NaCl), Calcium Chloride (CaCl₂), Magnesium Oxide (MgO), Potassium Iodide (KI). In CaCl₂, one calcium atom (Ca) loses two electrons to form Ca²⁺, and these two electrons are accepted by two separate chlorine atoms to form two Cl⁻ ions.</li>
+                      </ul>
+                    </li>
+                    <li>**Factors Favoring Ionic Bond Formation**:
+                      <ul>
+                        <li>**Low Ionization Energy**: The metal atom should have a low ionization energy, making it easy to remove electrons.</li>
+                        <li>**High Electron Affinity**: The non-metal atom should have a high electron affinity, meaning it readily accepts electrons.</li>
+                        <li>**High Lattice Energy**: The energy released when gaseous ions combine to form a crystal lattice. A high lattice energy indicates a strong ionic bond and contributes significantly to the stability of the ionic compound.</li>
+                      </ul>
+                    </li>
+                    <li>**Properties of Ionic Compounds**:
+                      <ul>
+                        <li>**High Melting and Boiling Points**: Due to the strong electrostatic forces holding the ions in a rigid crystal lattice, a significant amount of thermal energy is required to overcome these forces and break down the structure.</li>
+                        <li>**Solubility in Water**: Many ionic compounds are soluble in polar solvents like water. Water molecules, being polar, can surround and separate the individual ions (hydration), overcoming the lattice energy. "Like dissolves like" principle applies here.</li>
+                        <li>**Electrical Conductivity**: Ionic compounds are poor conductors in their solid state because the ions are fixed in the lattice. However, they become excellent conductors of electricity in their molten (liquid) state or when dissolved in water, as the ions become mobile and can carry charge.</li>
+                        <li>**Hard and Brittle**: The strong, non-directional electrostatic forces make them hard. However, if a stress is applied, it can cause layers of ions to shift, bringing like-charged ions into proximity, leading to strong repulsion and shattering (brittleness).</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Covalent Bond**:
+                  <p>A covalent bond is formed by the mutual sharing of one or more pairs of electrons between two atoms, typically non-metals. This sharing allows each atom to achieve a stable electron configuration, often fulfilling the octet rule, by effectively counting the shared electrons as part of their own valence shell. The attraction of each nucleus for the shared electron pair holds the atoms together.</p>
+                  <ul>
+                    <li>**Mechanism of Formation**:
+                      <ul>
+                        <li>**Electron Sharing**: Atoms approach each other, and their atomic orbitals overlap, allowing valence electrons to be shared between the nuclei. This overlap leads to a region of increased electron density between the nuclei, creating an attractive force.</li>
+                        <li>**Types of Covalent Bonds**:
+                          <ul>
+                            <li>**Single Bond**: Sharing of one pair of electrons (e.g., H-H in H₂, Cl-Cl in Cl₂).</li>
+                            <li>**Double Bond**: Sharing of two pairs of electrons (e.g., O=O in O₂, C=O in CO₂).</li>
+                            <li>**Triple Bond**: Sharing of three pairs of electrons (e.g., N≡N in N₂, C≡C in C₂H₂).</li>
+                          </ul>
+                        </li>
+                        <li>**Polar vs. Non-polar Covalent Bonds**:
+                          <ul>
+                            <li>**Non-polar Covalent Bond**: Occurs when electrons are shared equally between two atoms of the same electronegativity (e.g., H₂, O₂, Cl₂).</li>
+                            <li>**Polar Covalent Bond**: Occurs when electrons are shared unequally between two atoms with different electronegativities, leading to partial positive (δ⁺) and partial negative (δ⁻) charges on the atoms (e.g., H₂O, HCl, NH₃). The greater the electronegativity difference, the more polar the bond.</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>**Examples**: Hydrogen (H₂), Oxygen (O₂), Nitrogen (N₂), Water (H₂O), Methane (CH₄), Carbon Dioxide (CO₂).</li>
+                    <li>**Properties of Covalent Compounds**:
+                      <ul>
+                        <li>**Low Melting and Boiling Points**: Covalent compounds typically exist as discrete molecules. The forces holding these molecules together (intermolecular forces) are much weaker than the intramolecular covalent bonds. Less energy is required to overcome these weak forces, leading to lower melting and boiling points compared to ionic compounds.</li>
+                        <li>**Solubility**: Generally insoluble in water (unless they are polar and can form hydrogen bonds with water, like ethanol or sugar). They are often soluble in non-polar organic solvents (e.g., benzene, carbon tetrachloride) following the "like dissolves like" principle.</li>
+                        <li>**Poor Electrical Conductors**: Covalent compounds do not have free electrons or mobile ions to carry an electric current, making them poor conductors of electricity in all states.</li>
+                        <li>**Variable States**: Can exist as gases (H₂, O₂, CO₂), liquids (H₂O, ethanol), or solids (sugar, plastics) at room temperature.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Coordinate/Dative Bond**:
+                  <p>A coordinate covalent bond, also known as a dative bond, is a special type of covalent bond where both of the shared electrons in the bond are donated by only one of the two participating atoms. The atom donating the electron pair is called the 'donor' atom, and it typically possesses a lone pair of electrons. The atom accepting the electron pair is called the 'acceptor' atom, and it must have an empty orbital to accommodate the shared pair.</p>
+                  <ul>
+                    <li>**Mechanism**:
+                      <ul>
+                        <li>One atom provides a lone pair of electrons.</li>
+                        <li>Another atom provides an empty orbital (e.g., a proton H⁺ has an empty 1s orbital).</li>
+                        <li>The lone pair is shared between the two atoms, forming a covalent bond. Once formed, a coordinate bond is indistinguishable from a regular covalent bond in terms of its properties and strength.</li>
+                      </ul>
+                    </li>
+                    <li>**Examples**:
+                      <ul>
+                        <li>**Ammonium Ion (NH₄⁺)**: Formed when ammonia (NH₃), which has a lone pair on the nitrogen atom, donates this pair to a proton (H⁺), which has an empty 1s orbital. The nitrogen acts as the donor, and the hydrogen ion acts as the acceptor.</li>
+                        <li>**Hydronium Ion (H₃O⁺)**: Formed when a water molecule (H₂O), with lone pairs on the oxygen atom, donates one pair to a proton (H⁺).</li>
+                        <li>**Complex Ions**: Many transition metal complexes involve coordinate bonds, where ligands (molecules or ions with lone pairs) donate electrons to the central metal ion (e.g., [Cu(NH₃)₄]²⁺, where NH₃ acts as a ligand donating electrons to Cu²⁺).</li>
+                        <li>**Boron Trifluoride-Ammonia Adduct (BF₃·NH₃)**: Boron in BF₃ is electron deficient (Lewis acid) and accepts a lone pair from nitrogen in NH₃ (Lewis base).</li>
+                      </ul>
+                    </li>
+                    <li>**Relevance**: Crucial in acid-base chemistry (Lewis acid-base theory), coordination chemistry, and biological systems involving metal ions.</li>
+                  </ul>
+                </li>
+                <li>**Hydrogen Bond**:
+                  <p>A hydrogen bond is a special type of intermolecular (or sometimes intramolecular) electrostatic force of attraction. It occurs when a hydrogen atom, which is covalently bonded to a highly electronegative atom (Fluorine (F), Oxygen (O), or Nitrogen (N)), is attracted to another highly electronegative atom in the same or a different molecule. This creates a dipole-dipole interaction, but it's significantly stronger than typical dipole-dipole forces due to the high polarity of the X-H bond (where X = F, O, N) and the small size of the hydrogen atom, allowing for close approach.</p>
+                  <ul>
+                    <li>**Mechanism**:
+                      <ul>
+                        <li>The highly electronegative atom (F, O, N) pulls the shared electron pair in the X-H bond strongly towards itself, leaving the hydrogen atom with a significant partial positive charge (δ⁺).</li>
+                        <li>This partially positive hydrogen atom is then attracted to a lone pair of electrons on another electronegative atom (F, O, N) in an adjacent molecule or within the same molecule, which carries a partial negative charge (δ⁻).</li>
+                        <li>The strength of hydrogen bonds is typically 5-30 kJ/mol, significantly weaker than covalent or ionic bonds (hundreds of kJ/mol) but stronger than other intermolecular forces like Van der Waals forces.</li>
+                      </ul>
+                    </li>
+                    <li>**Types of Hydrogen Bonding**:
+                      <ul>
+                        <li>**Intermolecular H-bonding**: Occurs between different molecules. This is the more common and significant type.
+                          <ul>
+                            <li>**Examples**:
+                              <ul>
+                                <li>**Water (H₂O)**: Each water molecule can form up to four hydrogen bonds with neighboring water molecules, leading to its unusually high boiling point (100°C) compared to other hydrides of Group 16 elements like H₂S (-60°C), which has much weaker intermolecular forces. This also explains water's high specific heat capacity, surface tension, and the fact that ice floats (due to an open cage-like structure formed by H-bonds, making it less dense than liquid water).</li>
+                                <li>**Hydrogen Fluoride (HF)**: Forms zig-zag chains of (HF)n molecules.</li>
+                                <li>**Ammonia (NH₃)**: Exhibits hydrogen bonding, contributing to its relatively higher boiling point compared to PH₃.</li>
+                                <li>**Alcohols (R-OH)** and **Carboxylic Acids (R-COOH)**: Show strong intermolecular hydrogen bonding, leading to higher boiling points and solubility in water.</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>**Intramolecular H-bonding**: Occurs within the same molecule, typically forming a stable ring structure (chelation).
+                          <ul>
+                            <li>**Examples**:
+                              <ul>
+                                <li>**o-nitrophenol**: The hydrogen atom of the hydroxyl group forms a hydrogen bond with an oxygen atom of the nitro group within the same molecule. This reduces its ability to form intermolecular hydrogen bonds, making it more volatile and less soluble in water compared to its meta- and para-isomers.</li>
+                                <li>**Salicylic acid**: The hydrogen of the carboxylic acid group forms a bond with the oxygen of the hydroxyl group.</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>**Significance**: Hydrogen bonding plays a vital role in numerous natural phenomena and technologies:
+                      <ul>
+                        <li>**Biological Systems**: Crucial for stabilizing the structures of proteins (α-helices and β-sheets), nucleic acids (DNA double helix, where base pairing is mediated by H-bonds), and enzymes.</li>
+                        <li>**Properties of Water**: Explains the unique properties of water essential for life on Earth.</li>
+                        <li>**Material Science**: Influences the properties of polymers, textiles, and other materials.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <h3>2. Modern Periodic Table & Periodic Trends: Organizing the Elements</h3>
+              <p>The periodic table, often referred to as the periodic table of the elements, is an iconic and indispensable tool in chemistry and related sciences. It is an ordered arrangement of chemical elements into rows (periods) and columns (groups), designed to highlight the periodic law. This law states that when elements are arranged in order of their increasing atomic numbers, their chemical and physical properties show an approximate recurrence. This systematic organization allows for the prediction of properties of unknown elements and provides a framework for understanding chemical behavior.</p>
+              <ul>
+                <li>**Historical Development of the Periodic Table**:
+                  <ul>
+                    <li>**Early Attempts (Pre-Mendeleev)**:
+                      <ul>
+                        <li>**Dobereiner's Triads (1829)**: Johann Wolfgang Dobereiner observed that certain groups of three elements (triads) had similar chemical properties, and the atomic mass of the middle element was approximately the average of the other two (e.g., Li, Na, K; Ca, Sr, Ba; Cl, Br, I).</li>
+                        <li>**Newlands' Law of Octaves (1864)**: John Newlands arranged elements in increasing order of atomic mass and noted that every eighth element exhibited properties similar to the first, likening it to musical octaves. This law worked well only for lighter elements.</li>
+                      </ul>
+                    </li>
+                    <li>**Mendeleev's Periodic Table (1869)**:
+                      <ul>
+                        <li>Dmitri Mendeleev, a Russian chemist, published the first widely accepted periodic table. He arranged elements primarily based on **Atomic Mass**.</li>
+                        <li>He formulated the periodic law as a dependence of chemical properties on atomic mass.</li>
+                        <li>**Key Achievement**: Mendeleev left deliberate gaps in his table for undiscovered elements and successfully predicted their properties (e.g., Eka-aluminium (Gallium), Eka-silicon (Germanium), Eka-boron (Scandium)). This predictive power was a major validation of his work.</li>
+                        <li>**Limitations**: Some elements were not in strict order of atomic mass to maintain chemical similarities (e.g., tellurium and iodine). The position of isotopes and noble gases (undiscovered at the time) was also a challenge.</li>
+                      </ul>
+                    </li>
+                    <li>**Moseley's Modern Periodic Law (1913)**:
+                      <ul>
+                        <li>Henry Moseley, through his work on X-ray spectroscopy, established that **Atomic Number** (the number of protons in the nucleus) is a more fundamental property of an element than atomic mass.</li>
+                        <li>He redefined the periodic law: "The physical and chemical properties of the elements are periodic functions of their atomic numbers."</li>
+                        <li>This resolved the anomalies in Mendeleev's table and led to the arrangement of elements in the modern periodic table.</li>
+                      </ul>
+                    </li>
+                    <li>**Glenn T. Seaborg (1945)**:
+                      <ul>
+                        <li>His discovery that the actinides (and later lanthanides) were f-block elements, rather than d-block elements, led to the modern placement of these series below the main body of the table, giving it a recognizably modern form.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Structure of the Modern Periodic Table**:
+                  <p>The modern periodic table, based on Henry Moseley's work, has 18 groups and 7 periods. It is divided into four roughly rectangular areas called blocks (s, p, d, f) based on the type of orbital being filled by the differentiating electron.</p>
+                  <ul>
+                    <li>**Periods (Rows)**: There are 7 horizontal rows.
+                      <ul>
+                        <li>Each period represents the principal quantum number (n) of the outermost electron shell being filled.</li>
+                        <li>As one moves from left to right across a period, the atomic number increases, and electrons are added to the same valence shell.</li>
+                        <li>Elements in the same period have the same number of electron shells.</li>
+                      </ul>
+                    </li>
+                    <li>**Groups (Columns)**: There are 18 vertical columns.
+                      <ul>
+                        <li>Elements within the same group tend to show similar chemical characteristics because they have the same number of valence electrons and thus similar outer electron configurations.</li>
+                        <li>**Group 1**: Alkali Metals (highly reactive metals).</li>
+                        <li>**Group 2**: Alkaline Earth Metals (reactive metals).</li>
+                        <li>**Groups 3-12**: Transition Metals (d-block elements, often form colored compounds, variable oxidation states).</li>
+                        <li>**Groups 13-16**: Main group elements (p-block, includes metals, non-metals, and metalloids).</li>
+                        <li>**Group 17**: Halogens (highly reactive non-metals).</li>
+                        <li>**Group 18**: Noble Gases (inert gases, stable electron configuration).</li>
+                      </ul>
+                    </li>
+                    <li>**Blocks**:
+                      <ul>
+                        <li>**s-block**: Groups 1 and 2. Characterized by the filling of the s-orbital. Highly metallic.</li>
+                        <li>**p-block**: Groups 13 to 18. Characterized by the filling of the p-orbital. Contains metals, non-metals, and metalloids.</li>
+                        <li>**d-block**: Groups 3 to 12. Transition metals. Characterized by the filling of the d-orbital.</li>
+                        <li>**f-block**: Lanthanides (4f series) and Actinides (5f series). Inner transition metals. Placed separately below the main table for convenience.</li>
+                      </ul>
+                    </li>
+                    <li>**Classification of Elements**:
+                      <ul>
+                        <li>**Metals**: Located on the left and center of the table (s-block, d-block, f-block, and some p-block). Tend to lose electrons, form positive ions, good conductors of heat and electricity, malleable, ductile.</li>
+                        <li>**Non-metals**: Located on the upper right side of the table (p-block). Tend to gain or share electrons, form negative ions or covalent bonds, poor conductors, brittle.</li>
+                        <li>**Metalloids**: Elements with properties intermediate between metals and non-metals (e.g., Boron, Silicon, Germanium, Arsenic, Antimony, Tellurium). Found along the "staircase" line separating metals and non-metals.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>**Periodic Trends**:
+                  <p>The periodic table allows us to observe and predict systematic variations in elemental properties, known as periodic trends. These trends are a direct consequence of the electronic configuration and nuclear charge of atoms.</p>
+                  <ul>
+                    <li>**Atomic Radius**:
+                      <ul>
+                        <li>**Definition**: The distance from the center of the nucleus to the outermost electron shell of an atom. For practical purposes, it's often defined as half the distance between the nuclei of two identical atoms bonded together.</li>
+                        <li>**Across a Period (Left to Right)**: **Decreases**.
+                          <ul>
+                            <li>**WHY**: As you move across a period, the number of protons in the nucleus (atomic number) increases, leading to an increase in the **effective nuclear charge (Zeff)**. Electrons are added to the same principal energy level (shell), and the increased positive charge of the nucleus pulls these valence electrons more strongly towards the center.</li>
+                            <li>**HOW**: The stronger attractive force from the nucleus overcomes the slight increase in electron-electron repulsion, causing the electron cloud to contract.</li>
+                            <li>**EFFECT**: The atomic size becomes smaller.</li>
+                          </ul>
+                        </li>
+                        <li>**Down a Group (Top to Bottom)**: **Increases**.
+                          <ul>
+                            <li>**WHY**: As you move down a group, new principal electron shells are added with each successive period.</li>
+                            <li>**HOW**: The outermost electrons are further away from the nucleus, and the inner electron shells provide a **shielding effect**, reducing the effective nuclear charge experienced by the valence electrons.</li>
+                            <li>**EFFECT**: The atomic size significantly increases due to the addition of these new, larger electron shells.</li>
+                          </ul>
+                        </li>
+                        <li>**Ionic Radius**: Cations are smaller than their parent atoms (due to loss of outer shell electrons and increased Zeff), while anions are larger than their parent atoms (due to increased electron-electron repulsion and decreased Zeff).</li>
+                      </ul>
+                    </li>
+                    <li>**Ionization Energy (IE)**:
+                      <ul>
+                        <li>**Definition**: The minimum amount of energy required to remove the most loosely bound electron from an isolated gaseous atom in its ground state to form a positive ion (cation). The first ionization energy (IE₁) removes the first electron, IE₂ removes the second, and so on. IE₂ > IE₁.</li>
+                        <li>**Across a Period (Left to Right)**: **Increases**.
+                          <ul>
+                            <li>**WHY**: As atomic radius decreases and effective nuclear charge increases across a period, the valence electrons are held more tightly by the nucleus.</li>
+                            <li>**HOW**: More energy is required to overcome this stronger electrostatic attraction and remove an electron.</li>
+                            <li>**EFFECT**: Ionization energy generally increases.</li>
+                            <li>**Exceptions**: Slight dips occur at Group 13 (e.g., B < Be) and Group 16 (e.g., O < N) due to electron pairing repulsion and extra stability of half-filled/fully-filled orbitals.</li>
+                          </ul>
+                        </li>
+                        <li>**Down a Group (Top to Bottom)**: **Decreases**.
+                          <ul>
+                            <li>**WHY**: As atomic size increases and shielding effect becomes more pronounced down a group, the outermost electron is further from the nucleus and experiences a weaker attractive force.</li>
+                            <li>**HOW**: Less energy is needed to remove this more loosely held electron.</li>
+                            <li>**EFFECT**: Ionization energy decreases.</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>**Electron Affinity (EA)**:
+                      <ul>
+                        <li>**Definition**: The energy change that occurs when an electron is added to a neutral gaseous atom to form a negative ion (anion). It can be positive (energy absorbed) or negative (energy released). A more negative EA indicates a greater tendency to accept an electron.</li>
+                        <li>**Across a Period (Left to Right)**: Generally **Increases** (becomes more negative).
+                          <ul>
+                            <li>**WHY**: Increasing effective nuclear charge and decreasing atomic size lead to a stronger attraction for an incoming electron.</li>
+                            <li>**EFFECT**: Atoms become more eager to accept an electron, releasing more energy (more negative EA).</li>
+                            <li>**Exceptions**: Group 2 (full s-orbital), Group 15 (half-filled p-orbital), and noble gases (full octet) have very low or even positive electron affinities, as adding an electron would disrupt their stable configurations. Halogens (Group 17) have the highest (most negative) electron affinities.</li>
+                          </ul>
+                        </li>
+                        <li>**Down a Group (Top to Bottom)**: Generally **Decreases** (becomes less negative).
+                          <ul>
+                            <li>**WHY**: Increasing atomic size and increased shielding reduce the attraction of the nucleus for an incoming electron.</li>
+                            <li>**EFFECT**: Less energy is released when an electron is added.</li>
+                            <li>**Exception**: Chlorine has a higher electron affinity than Fluorine, due to the very small size of fluorine leading to significant electron-electron repulsion in the compact 2p subshell when an extra electron is added.</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>**Electronegativity**:
+                      <ul>
+                        <li>**Definition**: The tendency of an atom to attract a shared pair of electrons towards itself in a chemical bond. It is a relative measure, not an energy value, typically measured on the Pauling scale.</li>
+                        <li>**Across a Period (Left to Right)**: **Increases**.
+                          <ul>
+                            <li>**WHY**: Increasing effective nuclear charge and decreasing atomic size mean the nucleus has a stronger pull on bonding electrons.</li>
+                            <li>**EFFECT**: Atoms become more electronegative. **Fluorine (F)** is the most electronegative element (Pauling scale value of 4.0).</li>
+                          </ul>
+                        </li>
+                        <li>**Down a Group (Top to Bottom)**: **Decreases**.
+                          <ul>
+                            <li>**WHY**: Increasing atomic size and increased shielding mean the nucleus has a weaker pull on bonding electrons.</li>
+                            <li>**EFFECT**: Atoms become less electronegative. **Francium (Fr)** and **Cesium (Cs)** are among the least electronegative elements.</li>
+                          </ul>
+                        </li>
+                        <li>**Relevance**: Electronegativity difference between two bonded atoms determines the polarity of the bond (ionic, polar covalent, non-polar covalent).</li>
+                      </ul>
+                    </li>
+                    <li>**Metallic Character (Electropositivity)**:
+                      <ul>
+                        <li>**Definition**: The tendency of an atom to lose electrons and form positive ions (cations). It is inversely related to ionization energy and electronegativity.</li>
+                        <li>**Across a Period (Left to Right)**: **Decreases**.
+                          <ul>
+                            <li>**WHY**: Ionization energy increases, making it harder for atoms to lose electrons. Electronegativity increases, favoring electron gain or sharing.</li>
+                            <li>**EFFECT**: Elements become less metallic and more non-metallic.</li>
+                          </ul>
+                        </li>
+                        <li>**Down a Group (Top to Bottom)**: **Increases**.
+                          <ul>
+                            <li>**WHY**: Ionization energy decreases, making it easier for atoms to lose electrons due to increased atomic size and shielding.</li>
+                            <li>**EFFECT**: Elements become more metallic. **Francium (Fr)** and **Cesium (Cs)** are highly metallic.</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>**Non-metallic Character**:
+                      <ul>
+                        <li>**Definition**: The tendency of an atom to gain electrons and form negative ions (anions) or to share electrons in covalent bonds. It is directly related to electronegativity and electron affinity.</li>
+                        <li>**Across a Period (Left to Right)**: **Increases**.</li>
+                        <li>**Down a Group (Top to Bottom)**: **Decreases**.</li>
+                        <li>**Overall Trend**: Non-metallic character increases from the bottom left to the top right of the periodic table.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+`;
+
+window.EXPANDED_NOTES_DATA["carbon-compounds"] = String.raw`
+<h3>Carbon and its Compounds: The Foundation of Organic Chemistry and Life</h3>
+<p>Carbon, a non-metallic element with atomic number 6 and atomic mass 12.01, stands as one of the most fundamental and versatile elements in the universe. Positioned in Group 14 of the periodic table, it is the cornerstone of organic chemistry and the very basis of all known life forms on Earth. Its unique atomic structure and bonding capabilities allow it to form an astonishing array of compounds, ranging from simple gases to complex macromolecules essential for biological processes and industrial applications. Understanding carbon and its compounds is crucial for defence examinations, as it underpins knowledge in materials science, fuels, explosives, and environmental chemistry.</p>
+
+<h3>I. Fundamental Properties of Carbon</h3>
+<ul>
+    <li><strong>Electronic Configuration and Valency:</strong>
+        <ul>
+            <li>Carbon's electronic configuration is 1s² 2s² 2p². It possesses four valence electrons in its outermost shell (n=2).</li>
+            <li>To achieve a stable octet configuration, carbon readily forms four covalent bonds by sharing these four electrons with other atoms. This inherent property is known as **tetravalency**.</li>
+            <li><strong>Mechanism of Bonding and Hybridization:</strong> Carbon's tetravalency is often explained through the concept of hybridization, where atomic orbitals mix to form new, equivalent hybrid orbitals that facilitate stronger and more stable bonds. The type of hybridization dictates the geometry of the resulting molecules:
+                <ul>
+                    <li><strong>sp³ Hybridization:</strong> Occurs when carbon forms four single bonds (
+`;
+
+window.EXPANDED_NOTES_DATA["syl-nonverbal-reasoning"] = String.raw`
+<h3>1. Core Non-Verbal Reasoning Topics</h3>
+              <p>Non-verbal reasoning is a critical component of aptitude tests designed to assess an individual's ability to analyze visual information, identify patterns, and solve problems without relying on language or numerical data. For defence examinations like NDA, CDS, and AFCAT, and especially the Services Selection Board (SSB) Officer Intelligence Rating (OIR) tests, this section is paramount. It evaluates a candidate's spatial awareness, logical deduction, abstract thinking, and problem-solving skills – qualities indispensable for effective military leadership and operational roles. The Air Force Common Admission Test (AFCAT), for instance, conducted by the Air Force Selection Board (AFSB), heavily features non-verbal reasoning to screen candidates for both flying and ground duties, ensuring they possess the cognitive agility required for demanding service environments. This section delves into the fundamental types of non-verbal reasoning questions encountered, explaining their mechanisms, importance, and effective strategies for solving them.</p>
+              <ul>
+                <li>**Pattern Completion:** This topic tests a candidate's ability to identify the underlying rule or sequence governing a series of figures and then predict the missing element that logically completes the pattern.
+                  <ul>
+                    <li>**WHAT it is:** It involves observing a larger geometric design or a sequence of figures where one part is missing, and selecting the correct option to fill that void. The patterns can be based on various transformations such as rotation (clockwise or anti-clockwise), reflection (mirroring), addition or deletion of elements, changes in size, alteration of shading patterns, or a complex combination of these transformations. The objective is to discern the consistent rule applied across the visible parts of the pattern.</li>
+                    <li>**WHY it's important:** This skill assesses observational acuity, logical extrapolation, and the ability to discern abstract relationships. In a defence context, these are crucial for tasks like tactical planning, interpreting complex operational diagrams, understanding enemy movements from reconnaissance imagery, and anticipating outcomes in dynamic, rapidly evolving situations where visual cues are primary.</li>
+                    <li>**HOW to approach:** Begin by systematically analyzing the given figures. Look for consistent changes across the sequence or within the larger design. Key aspects to observe include:
+                      <ul>
+                        <li>**Movement:** Do elements rotate, translate, or change position? By what degree or distance?</li>
+                        <li>**Number of Elements:** Are elements being added, removed, or changing in quantity?</li>
+                        <li>**Shading/Color:** Is there a pattern in how areas are shaded or colored?</li>
+                        <li>**Size/Shape:** Are figures growing, shrinking, or transforming into different shapes?</li>
+                        <li>**Interaction:** How do different elements within a figure interact or combine?</li>
+                      </ul>
+                      Often, the pattern follows a specific mathematical or geometric progression that needs to be identified.</li>
+                    <li>**EFFECT on skills:** Mastery of pattern completion significantly enhances analytical thinking, predictive capabilities, and attention to minute details, fostering a methodical approach to visual problem-solving.</li>
+                    <li>**EXAMPLE:** A series of squares, each containing a small dot that moves one corner clockwise in successive figures. The task would be to identify the square with the dot in its next logical position based on this rotational rule.</li>
+                  </ul>
+                </li>
+                <li>**Figure Series & Analogy:** These questions assess the ability to understand sequential transformations and relational similarities between figures, demanding a keen eye for dynamic visual reasoning.
+                  <ul>
+                    <li>**WHAT it is:**
+                      <ul>
+                        <li>**Figure Series:** A sequence of three or more figures is presented, where each figure transforms into the next according to a specific, consistent rule. The candidate's task is to identify this underlying rule and then predict the fifth or subsequent figure that logically continues the series from the given options.</li>
+                        <li>**Figure Analogy:** This presents a relationship between two figures (e.g., "Figure A is to Figure B as Figure C is to Figure D"). The candidate must first identify the exact transformation or relationship that converts Figure A into Figure B. Then, this identical relationship must be applied to Figure C to find its corresponding fourth figure (Figure D) from the given choices.</li>
+                      </ul>
+                    </li>
+                    <li>**WHY it's important:** This tests dynamic visual reasoning, the understanding of cause-and-effect in visual transformations, and the ability to apply learned rules to new, similar contexts. These skills are vital for understanding complex operational procedures, interpreting rapidly changing sensor data, adapting to evolving tactical scenarios, and even comprehending mechanical sequences in engineering.</li>
+                    <li>**HOW to approach:** Systematically analyze every aspect of the figures involved. Look for changes in:
+                      <ul>
+                        <li>**Position:** Absolute or relative movement of elements.</li>
+                        <li>**Orientation:** Rotations (e.g., 45°, 90°, 180° clockwise or anti-clockwise), flips, or inversions.</li>
+                        <li>**Size:** Enlargement or reduction of figures or their components.</li>
+                        <li>**Shading/Texture:** Changes in fill patterns or colors.</li>
+                        <li>**Number of Elements:** Addition, deletion, or modification of internal or external components.</li>
+                        <li>**Symmetry:** Changes in the axis of symmetry or overall symmetry of the figure.</li>
+                      </ul>
+                      Often, multiple rules operate simultaneously, requiring a layered analysis.</li>
+                    <li>**EFFECT on skills:** Develops strong pattern recognition, deductive reasoning, and the ability to visualize complex transformations over time, enhancing cognitive flexibility.</li>
+                    <li>**EXAMPLE:** In a series, a triangle rotates 90 degrees clockwise in each step, while a small circle inside it alternates between being shaded and unshaded. For an analogy, if a solid square becomes an outline square, then a solid circle would become an outline circle.</li>
+                  </ul>
+                </li>
+                <li>**Embedded Figures:** This category challenges a candidate's perceptual abilities to locate a simple geometric shape hidden within a more complex and distracting design, often requiring selective attention.
+                  <ul>
+                    <li>**WHAT it is:** A complex, intricate figure is presented, often composed of numerous overlapping lines and shapes. Alongside this, a smaller, simpler target figure is provided. The core task is to identify whether the target figure is present, exactly as it is, within the complex figure, and if so, to pinpoint its location. The target figure must not be rotated or resized unless explicitly stated.</li>
+                    <li>**WHY it's important:** This tests selective attention, figure-ground perception (the ability to distinguish an object from its background), and the capacity to disaggregate complex visual information into its constituent parts. Such a skill is crucial for tasks like identifying camouflaged objects in reconnaissance, interpreting intricate circuit diagrams, spotting critical details in cluttered maps, or discerning key features in complex machinery.</li>
+                    <li>**HOW to approach:** Focus intently on the target figure's unique features – its specific angles, the relative lengths of its lines, and its characteristic intersections. Mentally trace the target figure within the complex design, deliberately ignoring extraneous lines and distracting elements. Avoid the common pitfall of mentally rotating or altering the target figure unless the question explicitly permits it. A systematic scan of the complex figure, looking for the specific contours of the target, is often effective.</li>
+                    <li>**EFFECT on skills:** Enhances observational acuity, concentration, attention to detail, and the ability to filter out irrelevant visual noise, improving overall perceptual organization.</li>
+                  </ul>
+                </li>
+                <li>**Paper Folding & Cutting:** These questions require candidates to visualize the outcome of a multi-step process involving folding a piece of paper, making cuts or punching holes, and then mentally unfolding it.
+                  <ul>
+                    <li>**WHAT it is:** A sequence of diagrams illustrates a piece of paper being folded one or more times along specific lines (vertical, horizontal, or diagonal). Following the folds, a final diagram shows holes punched or cuts made on the folded paper. The candidate must then determine the exact appearance of the paper when it is completely unfolded.</li>
+                    <li>**WHY it's important:** This tests advanced spatial visualization, mental manipulation of two-dimensional objects in three-dimensional space, and a deep understanding of symmetry. Such skills are vital for engineers interpreting blueprints, pilots reading complex navigational charts, ground staff understanding mechanical assemblies, and anyone needing to visualize structural integrity or material usage.</li>
+`;

@@ -1,7 +1,6 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-EXPANDED_NOTES_DATA["what-is-history"] = `
-<!DOCTYPE html>
+EXPANDED_NOTES_DATA["what-is-history"] = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,34 +18,47 @@ EXPANDED_NOTES_DATA["what-is-history"] = `
 <body>
 
     <h2>📚 Meaning and Scope of History</h2>
-    <p>History is the systematic analysis of past human events, cultures, and structures. It is not a static list of dates; rather, it is a dynamic, interpretative science that examines cause‑and‑effect relationships over time, seeks patterns, and draws lessons for the present.</p>
+    <p>History is far more than a mere chronicle of past events; it is the systematic and critical analysis of past human experiences, societies, cultures, political structures, economic systems, and intellectual developments. It is not a static list of dates, names, or isolated incidents; rather, it is a dynamic, interpretative science that meticulously examines the intricate web of cause-and-effect relationships over vast stretches of time. By delving into the past, history seeks to identify recurring patterns, understand the evolution of human civilization, and draw profound lessons that are critically relevant for navigating the complexities of the present and shaping the trajectory of the future. For aspirants of defence examinations like NDA, CDS, and AFCAT, a robust understanding of history is indispensable, as it provides crucial insights into geopolitical strategies, national identity, cultural heritage, and the origins of contemporary conflicts and alliances.</p>
+    <p>The study of history equips individuals with critical thinking skills, the ability to analyze complex situations from multiple perspectives, and a deep appreciation for the forces that have shaped nations and civilizations. It fosters an understanding of the long-term consequences of decisions, the resilience of human spirit, and the constant interplay between continuity and change. In a defence context, this historical perspective is vital for strategic planning, understanding military doctrines, appreciating the sacrifices of past generations, and recognizing the historical roots of national security challenges.</p>
 
-    <h3>1. Core Foundations</h3>
+    <h3>1. Core Foundations of Historical Inquiry</h3>
 
-    <h4>1.1 Definition</h4>
+    <h4>1.1 Definition of History</h4>
     <ul>
-        <li><strong>Etymology:</strong> Derived from the Greek word <em>Historia</em> meaning “inquiry” or “knowledge acquired by investigation”.</li>
-        <li><strong>Scholarly definition (E. H. Carr):</strong> History is “an unending dialogue between the present and the past”, emphasizing the role of the historian’s perspective.</li>
-        <li><strong>Modern interpretation:</strong> A disciplined inquiry that reconstructs past realities using evidence, critical analysis, and theoretical frameworks.</li>
+        <li><strong>Etymology and Origin:</strong> The term "History" is derived from the ancient Greek word <em>Historia</em> (ἱστορία), which fundamentally means "inquiry," "knowledge acquired by investigation," or "learning by seeing." This etymological root highlights history's foundational emphasis on meticulous research and evidence-based understanding. The Greek historian Herodotus (c. 484–425 BCE), often hailed as the "Father of History," famously used this term for his monumental work, "The Histories," which chronicled the Greco-Persian Wars through extensive travel, interviews, and collection of diverse accounts. His approach laid the groundwork for systematic historical investigation.</li>
+        <li><strong>Scholarly Definition (E. H. Carr):</strong> One of the most influential modern definitions comes from the British historian E. H. Carr, who famously described history in his work "What is History?" as "an unending dialogue between the present and the past." This definition is crucial because it emphasizes that history is not a fixed, objective record but rather a dynamic process of interpretation. The historian, situated in their own present context, asks questions of the past, and the answers they derive are inevitably shaped by their contemporary concerns, perspectives, and available evidence. This dialogue implies a constant re-evaluation and re-interpretation of historical events.</li>
+        <li><strong>Modern Interpretation:</strong> In contemporary scholarship, history is understood as a disciplined and rigorous inquiry that aims to reconstruct past realities as accurately as possible. This reconstruction is achieved through the systematic collection, critical analysis, and interpretation of diverse forms of evidence, ranging from written documents and archaeological artifacts to oral traditions and environmental data. It involves the application of theoretical frameworks and methodologies borrowed from various social sciences to provide comprehensive and nuanced explanations of human actions and societal transformations. It moves beyond mere description to explain *why* events occurred and *how* they impacted subsequent developments.</li>
+        <li><strong>Beyond Rote Learning:</strong> For defence aspirants, understanding this definition is paramount. It means history is not about memorizing isolated facts but about comprehending complex processes, understanding motivations, and recognizing the long-term implications of historical events on national security, international relations, and societal resilience.</li>
     </ul>
 
     <h4>1.2 Importance of Chronology</h4>
     <ul>
-        <li><strong>Sequencing of events:</strong> Establishes the exact order in which events occurred, preventing anachronistic interpretations.</li>
-        <li><strong>Temporal context:</strong> Helps trace the evolutionary progression of societies, institutions, and ideas.</li>
-        <li><strong>Analytical tool:</strong> Enables historians to compare contemporaneous developments across regions and cultures.</li>
+        <li><strong>Sequencing of Events:</strong> Chronology, the arrangement of events in their order of occurrence, is the absolute backbone of historical study. It establishes the precise temporal order in which events unfolded, which is fundamental for understanding their logical progression and interconnections. Without accurate sequencing, it becomes impossible to discern cause-and-effect relationships or to trace the development of ideas, institutions, and technologies. For instance, understanding that the Battle of Plassey (1757) preceded the Battle of Buxar (1764) is crucial for grasping the gradual consolidation of British power in India. Preventing anachronistic interpretations – attributing customs, events, or objects to periods to which they do not belong – is a primary function of strict chronological adherence.</li>
+        <li><strong>Temporal Context and Evolution:</strong> Chronology provides the essential temporal context that allows historians to trace the evolutionary progression of societies, political systems, economic structures, and intellectual thought. It enables us to observe how early human settlements evolved into complex civilizations, how monarchies gave way to republics, how agrarian economies transformed into industrial ones, and how religious beliefs and philosophical ideas developed over millennia. For example, charting the evolution of military technology from ancient chariots to modern ballistic missiles requires a precise chronological framework to understand the incremental innovations and their impact on warfare.</li>
+        <li><strong>Analytical Tool for Comparison:</strong> Beyond mere sequencing, chronology serves as a powerful analytical tool. It enables historians to compare contemporaneous developments across different regions, cultures, and civilizations. By placing events on a shared timeline, one can identify parallel trends, divergent paths, and instances of cultural diffusion or independent invention. For example, comparing the rise of feudalism in medieval Europe with similar decentralized political structures in post-Gupta India, or contrasting the Enlightenment in Europe with intellectual movements in Mughal India, offers profound insights into universal human experiences and unique cultural trajectories.</li>
+        <li><strong>Dating Methods:</strong> Historians and archaeologists employ various scientific and historical dating methods to establish chronology accurately. These include:
+            <ul>
+                <li><strong>Radiocarbon Dating (C-14):</strong> Used for organic materials up to 50,000 years old, crucial for prehistoric periods.</li>
+                <li><strong>Dendrochronology:</strong> Tree-ring dating, providing precise dates for wooden artifacts and environmental data.</li>
+                <li><strong>Numismatics:</strong> The study of coins, which often bear dates, rulers' names, and symbols, providing absolute dates for reigns and economic conditions.</li>
+                <li><strong>Epigraphy:</strong> The study of inscriptions (on rocks, pillars, copper plates), which frequently include dates, royal edicts, and historical records.</li>
+                <li><strong>Stratigraphy:</strong> In archaeology, the study of layers of earth and artifacts, where deeper layers are generally older, establishing relative chronology.</li>
+                <li><strong>Astronomical Dating:</strong> References to celestial events in ancient texts can sometimes be correlated with known astronomical phenomena to fix dates.</li>
+            </ul>
+        </li>
     </ul>
 
-    <h4>1.3 Cause and Effect</h4>
-    <p>Every historical phenomenon is rooted in a complex web of causes—economic, social, political, geographical, and ideological—and generates consequences that shape subsequent eras. Understanding these linkages is essential for:</p>
+    <h4>1.3 Cause and Effect in Historical Analysis</h4>
+    <p>Every historical phenomenon, from the rise and fall of empires to major social reforms or technological breakthroughs, is rooted in a complex, multi-layered web of causes and invariably generates consequences that profoundly shape subsequent eras. Understanding these intricate linkages is not just about identifying a single trigger but about dissecting the interplay of various factors – economic, social, political, geographical, ideological, and even environmental. This analytical approach is essential for moving beyond superficial explanations and grasping the true dynamics of historical change.</p>
     <ul>
-        <li>Identifying long‑term trends versus short‑term contingencies.</li>
-        <li>Evaluating the impact of agency (individuals, groups) versus structure (systems, institutions).</li>
-        <li>Formulating nuanced explanations rather than simplistic “single‑cause” narratives.</li>
+        <li><strong>Identifying Long-Term Trends vs. Short-Term Contingencies:</strong> A crucial aspect of cause-and-effect analysis is distinguishing between deep-seated, underlying causes that develop over long periods (e.g., economic disparities, demographic pressures, ideological shifts) and immediate, proximate causes or "trigger events" that precipitate a particular outcome (e.g., an assassination, a specific policy decision, a natural disaster). For instance, the Indian Rebellion of 1857 had long-term causes like British economic exploitation, social reforms perceived as interference, and political annexations, while the immediate trigger was the greased cartridges controversy. Understanding this distinction allows for a more nuanced understanding of historical processes.</li>
+        <li><strong>Evaluating the Impact of Agency vs. Structure:</strong> Historical analysis often grapples with the relative importance of individual or group agency (the capacity of individuals or collective bodies to act independently and make their own free choices) versus structural forces (the overarching systems, institutions, societal norms, and material conditions that constrain or enable human action). For example, Mahatma Gandhi's leadership (agency) was undeniably pivotal in the Indian independence movement, but his success was also deeply intertwined with existing structural conditions like British colonial policies, the rise of nationalist consciousness, and global geopolitical shifts. Historians strive to understand how agency operates within and sometimes transforms existing structures.</li>
+        <li><strong>Formulating Nuanced Explanations:</strong> The goal of historical inquiry is to move beyond simplistic "single-cause" narratives, which often oversimplify complex realities. Instead, historians aim to formulate nuanced explanations that acknowledge the multi-causal nature of events. This involves considering the interplay of various factors, their relative weights, and how they combine to produce a specific outcome. For example, the decline of the Mughal Empire cannot be attributed solely to Aurangzeb's religious policies but must also consider factors like jagirdari crisis, succession wars, rise of regional powers, and economic strains. Such multi-dimensional analysis prevents deterministic views and embraces the contingency inherent in historical processes.</li>
+        <li><strong>The Ripple Effect:</strong> Consequences of historical events are rarely singular or immediate. They often create a "ripple effect," leading to further changes and setting the stage for future developments. The partition of India in 1947, for instance, had immediate consequences (mass migration, violence) but also long-term effects on regional geopolitics, national identity, and ongoing socio-political dynamics.</li>
     </ul>
 
     <h4>1.4 Periodisation of Indian History</h4>
-    <p>Periodisation provides a framework for organizing the vast temporal span of Indian history. It has evolved from colonial, communal classifications to scientifically grounded divisions.</p>
+    <p>Periodisation, the division of history into distinct, identifiable periods, is an essential heuristic device that provides a framework for organizing the vast temporal span of human history. It helps in managing and understanding the immense volume of historical data by grouping events, developments, and characteristics into manageable chunks. However, periodisation is not neutral; it reflects the perspectives and criteria of those who create it. In the context of Indian history, the process of periodisation has undergone significant evolution, moving from colonial and often communally-biased classifications to more scientifically grounded and socio-economic divisions.</p>
 
     <table>
         <thead>
@@ -54,62 +66,175 @@ EXPANDED_NOTES_DATA["what-is-history"] = `
                 <th>Traditional (Colonial) Division</th>
                 <th>Modern Scientific Division</th>
                 <th>Approximate Chronology</th>
-                <th>Key Characteristics</th>
+                <th>Key Characteristics and Developments</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Hindu Period</td>
-                <td>Ancient Period</td>
-                <td>c. 2500 BCE – 1200 CE</td>
-                <td>Indus‑Valley Civilization, Vedic culture, Mauryan & Gupta empires, early temple architecture.</td>
+                <td><strong>Ancient Period</strong></td>
+                <td>c. 2500 BCE – 750 CE (or 1200 CE in some classifications)</td>
+                <td>
+                    <ul>
+                        <li><strong>Indus Valley Civilization (Harappan Civilization):</strong> Urban planning, sophisticated drainage, trade, seals, undeciphered script (c. 2500-1900 BCE).</li>
+                        <li><strong>Vedic Culture:</strong> Arrival of Aryans, composition of Vedas, development of caste system, early state formations (c. 1500-600 BCE).</li>
+                        <li><strong>Mahajanapadas and Rise of Empires:</strong> Emergence of 16 great states, rise of Magadha, Jainism and Buddhism (c. 600-322 BCE).</li>
+                        <li><strong>Mauryan Empire:</strong> Chandragupta Maurya, Ashoka the Great, centralized administration, spread of Buddhism, monumental art (c. 322-185 BCE).</li>
+                        <li><strong>Post-Mauryan Period:</strong> Shungas, Satavahanas, Kushanas (Gandhara art), foreign invasions, rise of regional powers.</li>
+                        <li><strong>Gupta Empire (Golden Age):</strong> Classical Sanskrit literature (Kalidasa), scientific advancements (Aryabhata, Varahamihira), elaborate temple architecture, flourishing trade (c. 320-550 CE).</li>
+                        <li><strong>Post-Gupta/Early Medieval:</strong> Harshavardhana, rise of regional kingdoms (Pallavas, Chalukyas), beginning of Bhakti movement, development of distinct regional cultures.</li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td>Muslim Period</td>
-                <td>Medieval Period</td>
-                <td>c. 1200 CE – 1857 CE</td>
-                <td>Delhi Sultanate, Mughal Empire, regional kingdoms, syncretic art and architecture, rise of bhakti‑sufi movements.</td>
+                <td><strong>Medieval Period</strong></td>
+                <td>c. 750 CE (or 1200 CE) – 1757 CE (or 18th Century)</td>
+                <td>
+                    <ul>
+                        <li><strong>Early Medieval (c. 750-1200 CE):</strong> Tripartite struggle (Palas, Pratiharas, Rashtrakutas), Rajput kingdoms, Chola Empire (South India), Arab invasions of Sindh, Ghaznavid and Ghurid invasions.</li>
+                        <li><strong>Delhi Sultanate:</strong> Establishment of Turkish rule, Qutb al-Din Aibak, Iltutmish, Razia Sultan, Alauddin Khalji, Tughlaqs, Sayyids, Lodis. Introduction of Islamic architecture, administrative reforms (c. 1206-1526 CE).</li>
+                        <li><strong>Mughal Empire:</strong> Babur, Akbar, Shah Jahan, Aurangzeb. Zenith of Indo-Islamic art and architecture (Taj Mahal), sophisticated administration, flourishing trade, religious syncretism (Din-i Ilahi), later decline (c. 1526-1707 CE).</li>
+                        <li><strong>Regional Kingdoms:</strong> Vijayanagara Empire, Bahmani Sultanate, Marathas, Rajputs, Bengal Sultanate, Awadh, Mysore. Significant cultural and political diversity.</li>
+                        <li><strong>Bhakti and Sufi Movements:</strong> Major socio-religious reform movements emphasizing devotion, equality, and syncretism (Kabir, Nanak, Chaitanya, Mirabai).</li>
+                        <li><strong>European Arrival:</strong> Portuguese, Dutch, English, French trading companies establish presence, leading to economic and political competition.</li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td>British Period</td>
-                <td>Modern Period</td>
-                <td>c. 1857 CE – Present</td>
-                <td>Colonial administration, nationalist movements, socio‑economic reforms, post‑independence nation‑building.</td>
+                <td><strong>Modern Period</strong></td>
+                <td>c. 1757 CE (Battle of Plassey) – Present</td>
+                <td>
+                    <ul>
+                        <li><strong>Consolidation of British Rule:</strong> Company rule, Battle of Plassey, Buxar, Anglo-Mysore Wars, Anglo-Maratha Wars, Doctrine of Lapse, subsidiary alliance.</li>
+                        <li><strong>Indian Rebellion of 1857:</strong> Major uprising, transfer of power from Company to British Crown.</li>
+                        <li><strong>British Raj:</strong> Direct rule by the British Crown, administrative reforms, economic exploitation, development of railways, telegraphs, modern education.</li>
+                        <li><strong>Rise of Nationalism:</strong> Formation of Indian National Congress, moderate and extremist phases, Swadeshi movement, revolutionary nationalism.</li>
+                        <li><strong>Gandhian Era:</strong> Non-cooperation, Civil Disobedience, Quit India Movement, mass mobilization.</li>
+                        <li><strong>Partition and Independence (1947):</strong> End of colonial rule, creation of India and Pakistan, communal violence, mass migration.</li>
+                        <li><strong>Post-Independence Nation-Building:</strong> Integration of princely states, framing of Constitution, economic planning, non-alignment policy, wars with Pakistan and China, socio-economic reforms, globalization.</li>
+                    </ul>
+                </td>
             </tr>
         </tbody>
     </table>
+    <p><strong>Critique of Traditional Periodisation:</strong> The traditional "Hindu-Muslim-British" periodisation, popularized by James Mill in his "The History of British India" (1817), is largely rejected by modern historians. This colonial framework was problematic because:
+        <ul>
+            <li>It imposed a religious identity onto entire periods, overlooking the immense diversity and syncretism within Indian society.</li>
+            <li>It implicitly suggested that the arrival of Muslims marked a break from a "golden age" and that British rule brought enlightenment, serving a colonial agenda.</li>
+            <li>It ignored significant socio-economic and cultural continuities and changes that cut across religious lines.</li>
+        </ul>
+    </p>
+    <p><strong>Rationale for Modern Scientific Division:</strong> The modern periodisation (Ancient-Medieval-Modern) is preferred because it is based on broader socio-economic, political, and cultural transformations rather than solely on the religion of the ruling elite. While still imperfect and subject to debate (e.g., the exact cut-off dates for Medieval and Modern periods), it offers a more nuanced and less biased framework for understanding the complex evolution of Indian civilization.</p>
 
     <h4>1.5 Social, Economic & Cultural History</h4>
-    <p>Since the mid‑20th century, historiography has shifted from a narrow focus on dynastic politics to a broader, interdisciplinary approach.</p>
+    <p>Since the mid-20th century, historiography has witnessed a significant paradigm shift, moving away from a narrow, state-centric, and dynastic focus (often termed "kings and battles" history) towards a broader, more inclusive, and interdisciplinary approach. This shift was heavily influenced by schools of thought like the French Annales School, British Marxist historians, and later, Subaltern Studies, which sought to write history "from below" and incorporate the experiences of ordinary people. This expanded scope now encompasses social, economic, cultural, environmental, and gender histories, providing a much richer and more comprehensive understanding of the past.</p>
     <ul>
-        <li><strong>Social History:</strong> Examines structures such as caste, gender, family, and community; studies everyday life, migration, and demographic patterns.</li>
-        <li><strong>Economic History:</strong> Analyzes trade routes, agrarian systems, taxation, industrialisation, and the impact of global economic networks.</li>
-        <li><strong>Cultural History:</strong> Explores art, literature, religion, language, and intellectual movements, highlighting how ideas shape societies.</li>
+        <li><strong>Social History:</strong> This field examines the structures and dynamics of human societies, focusing on the lives of ordinary people, social groups, and their interactions. It delves into:
+            <ul>
+                <li><strong>Social Structures:</strong> Caste systems, class divisions, family structures (joint vs. nuclear), kinship networks, and their evolution over time. For instance, the impact of the Bhakti movement on challenging caste hierarchies in medieval India.</li>
+                <li><strong>Demographic Patterns:</strong> Population growth, migration (e.g., rural-urban, inter-regional), epidemics, and their effects on societal organization and resource distribution.</li>
+                <li><strong>Everyday Life:</strong> Food, clothing, housing, leisure activities, customs, and rituals of different social strata.</li>
+                <li><strong>Gender and Family:</strong> Roles of women and men, marriage practices, property rights, and the changing dynamics within households and communities. For example, the status of women in Vedic society versus later periods, or the impact of Sati and child marriage.</li>
+                <li><strong>Community and Identity:</strong> Formation of religious, ethnic, regional, and occupational communities, and the evolution of collective identities.</li>
+            </ul>
+        </li>
+        <li><strong>Economic History:</strong> This branch analyzes the production, distribution, and consumption of goods and services in past societies. It explores:
+            <ul>
+                <li><strong>Agrarian Systems:</strong> Land ownership patterns, agricultural techniques, crop production, revenue systems (e.g., Zamindari, Ryotwari, Mahalwari in British India), and peasant movements.</li>
+                <li><strong>Trade and Commerce:</strong> Internal and external trade routes (e.g., Silk Road, maritime trade networks), market structures, currencies, banking systems, and the role of merchants and guilds. The Spice Route and its impact on global exploration is a prime example.</li>
+                <li><strong>Industrialization and Technology:</strong> The development and impact of new technologies, the rise of industries, labor conditions, and the transition from agrarian to industrial economies. The de-industrialization of India under British rule is a key topic.</li>
+                <li><strong>Taxation and Revenue:</strong> Methods of state revenue collection, their impact on different social classes, and their role in state formation and maintenance.</li>
+                <li><strong>Global Economic Networks:</strong> How regional economies were integrated into or affected by broader global economic systems, such as colonial exploitation and mercantilism.</li>
+            </ul>
+        </li>
+        <li><strong>Cultural History:</strong> This field explores the ideas, beliefs, values, and artistic expressions that define societies. It encompasses:
+            <ul>
+                <li><strong>Art and Architecture:</strong> Styles, techniques, patronage, and symbolism in painting, sculpture, music, dance, and monumental structures (e.g., Buddhist stupas, Hindu temples, Mughal forts and tombs).</li>
+                <li><strong>Literature and Language:</strong> Development of languages, literary genres (poetry, drama, prose), philosophical texts, and their role in reflecting and shaping societal values. The evolution of Sanskrit, Pali, Prakrit, and regional languages is crucial.</li>
+                <li><strong>Religion and Philosophy:</strong> Evolution of religious beliefs, practices, sects, philosophical schools (e.g., Vedanta, Nyaya, Mimamsa), and their impact on social norms and political legitimacy. The rise of Buddhism, Jainism, and later the Bhakti and Sufi movements are central.</li>
+                <li><strong>Intellectual Movements:</strong> The emergence of new ideas, scientific discoveries, educational systems, and the role of scholars and institutions in disseminating knowledge.</li>
+                <li><strong>Customs and Traditions:</strong> Festivals, ceremonies, folklores, and the intangible heritage that binds communities.</li>
+            </ul>
+        </li>
+        <li><strong>Emerging Fields:</strong> Modern historiography continues to expand, incorporating fields like:
+            <ul>
+                <li><strong>Environmental History:</strong> Examines human interaction with the natural world, climate change, resource management, and ecological impacts.</li>
+                <li><strong>Urban History:</strong> Focuses on the development of cities, urban planning, social life in urban centers, and the relationship between cities and their hinterlands.</li>
+                <li><strong>History of Science and Technology:</strong> Traces the evolution of scientific thought, inventions, and their societal implications.</li>
+            </ul>
+        </li>
     </ul>
 
-    <h3>2. Methodological Pillars (Brief Overview)</h3>
+    <h3>2. Methodological Pillars of Historical Research</h3>
+    <p>Historical research is a rigorous academic discipline that relies on systematic methods to reconstruct and interpret the past. These methodological pillars ensure the reliability, accuracy, and depth of historical narratives.</p>
     <ul>
-        <li><strong>Source Criticism:</strong> Authentication, dating, and contextual analysis of primary sources (inscriptions, manuscripts, oral traditions).</li>
-        <li><strong>Interdisciplinary Integration:</strong> Utilising archaeology, anthropology, geography, linguistics, and environmental science to enrich historical narratives.</li>
-        <li><strong>Comparative History:</strong> Drawing parallels across regions to identify universal patterns and unique divergences.</li>
-        <li><strong>Revisionism:</strong> Re‑evaluating established narratives in light of new evidence or perspectives, ensuring a dynamic and self‑correcting discipline.</li>
+        <li><strong>Source Criticism:</strong> This is the cornerstone of historical methodology, involving the meticulous evaluation of historical sources to determine their authenticity, reliability, and relevance. It's a multi-step process:
+            <ul>
+                <li><strong>Authentication (External Criticism):</strong> Determining if a source is genuine and not a forgery. This involves examining the physical characteristics (paper, ink, script, material), language style, and consistency with known facts of the period. Techniques include paleography (study of ancient writing), diplomatics (study of official documents), and sometimes scientific analysis (e.g., carbon dating for manuscripts).</li>
+                <li><strong>Dating and Provenance:</strong> Establishing the exact time and place of a source's creation, and its origin or authorship. This helps in placing the source in its correct historical context.</li>
+                <li><strong>Internal Criticism:</strong> Evaluating the content of a source for its credibility and accuracy. This involves:
+                    <ul>
+                        <li><strong>Bias Detection:</strong> Identifying the author's perspective, motives, and potential prejudices (e.g., a court historian might glorify a king).</li>
+                        <li><strong>Corroboration:</strong> Cross-referencing information with other independent sources to verify facts.</li>
+                        <li><strong>Contextual Analysis:</strong> Understanding the historical, social, and political circumstances under which the source was created, which influences its meaning and reliability.</li>
+                        <li><strong>Purpose and Audience:</strong> Considering *why* the source was created and *for whom*, as this can affect its content (e.g., propaganda vs. private diary).</li>
+                    </ul>
+                </li>
+                <li><strong>Types of Sources:</strong>
+                    <ul>
+                        <li><strong>Primary Sources:</strong> First-hand accounts or direct evidence from the period under study (e.g., inscriptions, coins, archaeological remains, official documents, autobiographies, eyewitness accounts, contemporary literature). These are the raw materials of history.</li>
+                        <li><strong>Secondary Sources:</strong> Interpretations and analyses of primary sources by historians or scholars (e.g., textbooks, academic articles, biographies written later). They provide context and broader perspectives.</li>
+                        <li><strong>Oral Traditions:</strong> Stories, myths, legends, and historical accounts passed down verbally through generations, particularly important for pre-literate societies or marginalized communities.</li>
+                        <li><strong>Archaeological Evidence:</strong> Material remains like pottery, tools, buildings, settlements, and skeletal remains, crucial for reconstructing prehistoric and early historic periods.</li>
+                        <li><strong>Literary Sources:</strong> Indigenous texts (religious scriptures, epics, plays, chronicles) and foreign accounts (travelogues, diplomatic records) providing insights into societal norms, political events, and cultural practices.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><strong>Interdisciplinary Integration:</strong> History is not an isolated discipline; it thrives by integrating insights and methodologies from various other fields to enrich its narratives and fill gaps in evidence.
+            <ul>
+                <li><strong>Archaeology:</strong> Provides material evidence for periods without written records (prehistory) and corroborates or challenges textual accounts for historical periods.</li>
+                <li><strong>Anthropology:</strong> Helps understand social structures, cultural practices, belief systems, and human behavior in different contexts.</li>
+                <li><strong>Geography:</strong> Explains the impact of physical environment (rivers, mountains, climate) on human settlements, trade routes, military strategies, and resource distribution.</li>
+                <li><strong>Linguistics:</strong> Traces language evolution, migration patterns, and cultural contacts between different groups.</li>
+                <li><strong>Economics:</strong> Offers frameworks to analyze trade, production, consumption, and the economic drivers of historical change.</li>
+                <li><strong>Sociology and Political Science:</strong> Provide theoretical models for understanding social stratification, power dynamics, state formation, and political ideologies.</li>
+                <li><strong>Environmental Science:</strong> Helps reconstruct past climates, understand human impact on ecosystems, and the role of environmental factors in historical events (e.g., famines, migrations).</li>
+            </ul>
+        </li>
+        <li><strong>Comparative History:</strong> This approach involves drawing parallels and contrasts across different regions, cultures, or historical periods to identify universal patterns, unique divergences, and the specific factors that shape distinct historical trajectories.
+            <ul>
+                <li><strong>Benefits:</strong> It helps in formulating broader theories about human societies, avoiding ethnocentric biases, understanding the global context of local events, and identifying common challenges and diverse solutions across civilizations. For example, comparing the decline of the Roman Empire with that of the Gupta Empire can reveal common structural weaknesses.</li>
+                <li><strong>Mechanism:</strong> It involves selecting comparable units (e.g., empires, revolutions, social movements) and systematically analyzing their similarities and differences to derive deeper insights.</li>
+            </ul>
+        </li>
+        <li><strong>Historiography and Revisionism:</strong>
+            <ul>
+                <li><strong>Historiography:</strong> This is the study of historical writing itself – how history has been written, by whom, why, and with what methods. It examines the evolution of historical interpretation and the different schools of thought (e.g., nationalist, colonial, Marxist, subaltern, post-modernist). Understanding historiography is crucial for discerning the biases and perspectives embedded in historical narratives.</li>
+                <li><strong>Revisionism:</strong> History is a dynamic and self-correcting discipline. Revisionism refers to the process of re-evaluating established narratives, interpretations, or conclusions in light of new evidence, new methodologies, or new theoretical perspectives. It is a healthy and essential part of academic inquiry, ensuring that historical understanding remains vibrant and responsive to ongoing research. For example, the re-interpretation of the 1857 revolt from a "sepoy mutiny" to India's "First War of Independence" is a classic case of historical revisionism.</li>
+            </ul>
+        </li>
+        <li><strong>Objectivity vs. Subjectivity:</strong> Historians constantly grapple with the tension between striving for objectivity (presenting facts without bias) and acknowledging the inherent subjectivity of interpretation. While absolute objectivity may be unattainable, rigorous methodology, critical source analysis, and transparency about one's own perspectives are crucial for maintaining academic integrity.</li>
     </ul>
 
-    <h3>3. High‑Yield Takeaways for UPSC & Defence Exams</h3>
+    <h3>3. High-Yield Takeaways for UPSC & Defence Exams</h3>
+    <p>For success in competitive examinations like NDA, CDS, and AFCAT, a strategic approach to history is essential. Focus not just on memorization, but on understanding the underlying processes and connections.</p>
     <ul>
-        <li>History is a dialogue between past and present; always contextualise events.</li>
-        <li>Chronology is the backbone—master timelines to avoid anachronisms.</li>
-        <li>Cause‑and‑effect analysis must consider multi‑dimensional factors.</li>
-        <li>Modern periodisation (Ancient‑Medieval‑Modern) is the accepted framework for Indian history.</li>
-        <li>Shift from dynastic to social‑economic‑cultural lenses reflects contemporary historiographical trends.</li>
+        <li><strong>History as a Dialogue:</strong> Always remember E. H. Carr's dictum. History is not a dead subject but a living conversation between the past and the present. When studying an event, ask yourself: Why is this relevant today? How does it inform our understanding of current national or international affairs? Contextualize events within their broader historical, social, and political landscapes.</li>
+        <li><strong>Chronology is the Backbone:</strong> Master timelines, key dates, and the sequence of events. This is fundamental to avoid anachronisms and to correctly place developments in their temporal order. Create your own timelines for major periods (e.g., Mauryan, Gupta, Delhi Sultanate, Mughal, British India) and cross-reference events across different regions.</li>
+        <li><strong>Multi-Dimensional Cause-and-Effect Analysis:</strong> Never settle for simplistic explanations. For any significant historical phenomenon (e.g., the decline of an empire, the success of a movement, the outcome of a war), analyze its causes from multiple perspectives—economic, social, political, geographical, technological, and ideological. Understand the interplay of long-term factors, immediate triggers, and the roles of both individual agency and structural forces.</li>
+        <li><strong>Modern Periodisation is Key for Indian History:</strong> Adopt the Ancient-Medieval-Modern framework for Indian history. Understand the defining characteristics and major transitions within each period, and be aware of the limitations and biases of the older, communal periodisations. Focus on the socio-economic and cultural shifts that delineate these periods.</li>
+        <li><strong>Shift from Dynastic to Holistic Lenses:</strong> While knowing kings and battles is necessary, also delve into social, economic, and cultural history. Understand how everyday life, trade, caste, gender, religion, and art evolved. This reflects contemporary historiographical trends and provides a more comprehensive understanding, which is often tested in analytical questions.</li>
+        <li><strong>Source Awareness:</strong> Understand the different types of historical sources (primary, secondary, archaeological, literary) and their respective strengths and limitations. This helps in critically evaluating historical claims and understanding how historical knowledge is constructed.</li>
+        <li><strong>Relevance for Defence:</strong> Connect historical events to strategic thinking, geopolitical developments, military doctrines, and the evolution of warfare. History provides case studies for leadership, logistics, diplomacy, and understanding national interests. For instance, studying ancient Indian military strategies or the impact of colonial policies on India's defence capabilities.</li>
     </ul>
 
 </body>
-</html>
-`;
+</html>`;
 
-EXPANDED_NOTES_DATA["sources-indian-history"] = `
-<!DOCTYPE html>
+EXPANDED_NOTES_DATA["sources-indian-history"] = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -127,25 +252,84 @@ EXPANDED_NOTES_DATA["sources-indian-history"] = `
 <body>
 
     <h2>🏛️ Sources of Indian History</h2>
-    <p>Historians reconstruct the past by analysing two broad categories of sources – <strong>archaeological</strong> and <strong>literary</strong>. Both categories complement each other, allowing a multi‑dimensional understanding of political, economic, social and cultural developments.</p>
+    <p>Historians, much like detectives, meticulously reconstruct the intricate tapestry of the past by analysing a diverse array of evidence. For India, a land with a civilization stretching back millennia, this endeavour is particularly challenging yet rewarding due to the absence of a continuous, unbroken tradition of historical chronicles in the ancient period. To overcome this, scholars rely on two broad and complementary categories of sources: <strong>archaeological</strong> and <strong>literary</strong>. These categories, when cross-examined and critically evaluated, allow for a multi-dimensional and nuanced understanding of political, economic, social, cultural, and religious developments across various epochs. The interdisciplinary approach, combining insights from archaeology, epigraphy, numismatics, linguistics, and textual criticism, is crucial for building a comprehensive and accurate narrative of India's rich historical trajectory.</p>
+    <p>Understanding these sources is paramount for any aspirant preparing for defence examinations, as they form the bedrock of historical knowledge and provide direct insights into the evolution of statecraft, military strategies, societal structures, and cultural achievements that shaped the subcontinent.</p>
 
     <!-- ==================== Archaeological Sources ==================== -->
     <h3>1. Archaeological Sources (High‑Yield)</h3>
+    <p>Archaeological sources are tangible remains of human activity, excavated from the earth or found on its surface. They are considered highly reliable as they are direct, primary evidence, often contemporaneous with the events or periods they represent, and are less susceptible to later interpolations or biases compared to many literary accounts. They provide invaluable insights into prehistoric periods where written records are absent, and also corroborate or challenge literary narratives for historical periods.</p>
 
-    <!-- -------- Inscriptions -------- -->
     <ul>
-        <li><strong>Inscriptions (Epigraphy)</strong> – The most direct, contemporaneous record of events, royal patronage, religious endowments and administrative reforms.
+        <li><strong>Inscriptions (Epigraphy)</strong> – The study of inscriptions, known as Epigraphy, is arguably the most direct and reliable source for ancient Indian history. These are written records engraved on hard surfaces such as rocks, pillars, copper plates, temple walls, and images. They provide contemporaneous accounts of events, royal patronage, religious endowments, administrative reforms, and socio-economic conditions. The study of ancient scripts (Paleography) is integral to epigraphy.
             <ul>
-                <li><em>Ashokan Edicts</em> (c. 272–232 BCE) – Issued in four scripts (Brahmi, Kharosthi, Greek, Aramaic). Their decipherment by <strong>James Prinsep</strong> in 1837 unlocked the chronology of the Mauryan Empire.</li>
-                <li><em>Allahabad Pillar Inscription (Prasasti)</em> – Sanskrit composition by Harishena eulogising Gupta ruler <strong>Samudragupta</strong>. Provides a detailed list of conquered territories and the concept of “digvijaya”.</li>
-                <li><em>Aihole Inscription</em> (c. 634 CE) – Authored by poet‑minister Ravikirti, it celebrates Chalukya king <strong>Pulakeshin II</strong> and his victory over Harsha, offering insight into early medieval power dynamics.</li>
-                <li><em>Uttaramerur Inscription</em> (c. 1000 CE) – Records the self‑governing mechanisms of a Chola village, illustrating the decentralised administrative model of the later period.</li>
-                <li><em>Hathigumpha Inscription</em> (c. 2nd century BCE) – From King Kharavela of Kalinga, it blends royal propaganda with details of military campaigns, public works and religious patronage.</li>
+                <li><em>Ashokan Edicts</em> (c. 272–232 BCE) – These monumental inscriptions, spread across the Indian subcontinent, Afghanistan, and Pakistan, represent the earliest deciphered written records of India. Issued by Emperor Ashoka Maurya, they are found in four primary scripts: **Brahmi** (predominant in India), **Kharosthi** (north-western India), **Greek**, and **Aramaic** (Afghanistan). Their decipherment by the British antiquarian **James Prinsep** in 1837 CE was a watershed moment, unlocking the chronology and understanding of the vast Mauryan Empire.
+                    <ul>
+                        <li>**WHAT:** Royal proclamations, moral precepts (Dhamma), administrative instructions, and records of Ashoka's welfare activities.</li>
+                        <li>**WHY:** They offer direct insight into Ashoka's unique policy of Dhamma (moral law), his conversion to Buddhism, the geographical extent of his empire, and the Mauryan administrative system. They are crucial for establishing Mauryan chronology.</li>
+                        <li>**HOW:** Engraved on rocks (Major Rock Edicts, Minor Rock Edicts) and polished sandstone pillars (Pillar Edicts), often in Prakrit language.</li>
+                        <li>**EFFECT:** Revealed Ashoka as a benevolent ruler, provided evidence of state patronage of Buddhism, and showcased a sophisticated administrative machinery.</li>
+                        <li>**EXAMPLE:** The **Sarnath Lion Capital**, originally crowning an Ashokan pillar, now India's national emblem, symbolizes the power and ethical foundation of the Mauryan state.</li>
+                    </ul>
+                </li>
+                <li><em>Allahabad Pillar Inscription (Prasasti)</em> – This eloquent Sanskrit composition, authored by the court poet **Harishena**, eulogizes the military conquests and personal accomplishments of the mighty Gupta ruler **Samudragupta** (c. 335–375 CE).
+                    <ul>
+                        <li>**WHAT:** A panegyric (prasasti) detailing Samudragupta's military campaigns across North and South India, his administrative policies towards conquered territories (e.g., *Digvijaya* - conquest of all directions, *Dharmavijaya* - conquest for righteousness), and his personal virtues as a poet, musician, and scholar.</li>
+                        <li>**WHY:** It provides a detailed political geography of India during the 4th century CE, identifying numerous kings and kingdoms, and serves as a primary source for reconstructing the early history of the Gupta Empire, often termed the "Golden Age" of ancient India.</li>
+                        <li>**HOW:** Engraved on an Ashokan pillar, demonstrating the continuity of imperial power and the re-use of significant monuments.</li>
+                        <li>**EFFECT:** Establishes Samudragupta as one of India's greatest military strategists and cultural patrons.</li>
+                    </ul>
+                </li>
+                <li><em>Aihole Inscription</em> (c. 634 CE) – Located in Karnataka, this significant inscription was authored by the poet-minister **Ravikirti**, a Jain scholar in the court of the Chalukya king **Pulakeshin II** (c. 610–642 CE).
+                    <ul>
+                        <li>**WHAT:** A poetic eulogy celebrating Pulakeshin II's military victories, most notably his decisive defeat of the powerful North Indian emperor **Harsha** of Kannauj, thereby halting Harsha's southward expansion.</li>
+                        <li>**WHY:** It is a crucial source for understanding the political landscape of early medieval India, providing a rare contemporary account of the conflict between two major powers and helping to establish a firm chronology for both Harsha and the Chalukyas.</li>
+                        <li>**HOW:** Engraved on the wall of the Meguti Jain temple at Aihole, showcasing the patronage of Jainism by the Chalukyas.</li>
+                        <li>**EFFECT:** Offers insights into the military prowess and diplomatic relations of the Deccan powers.</li>
+                    </ul>
+                </li>
+                <li><em>Uttaramerur Inscription</em> (c. 10th century CE) – These two remarkable inscriptions from the village of Uttaramerur in Tamil Nadu date to the reign of the Chola king **Parantaka I** (c. 907–955 CE).
+                    <ul>
+                        <li>**WHAT:** They meticulously record the intricate details of the self-governing mechanisms of a Chola village, outlining the constitution of the *Sabha* (village assembly), the qualifications and disqualifications for its members, and the electoral process (the *Kudavolai* system, involving drawing names from a pot).</li>
+                        <li>**WHY:** It provides unparalleled insight into the highly sophisticated and decentralized administrative model of the Chola Empire, demonstrating a remarkable degree of local autonomy and democratic principles at the village level.</li>
+                        <li>**HOW:** Engraved on the walls of the Vaikuntha Perumal temple.</li>
+                        <li>**EFFECT:** Reveals the advanced nature of Chola local administration, which managed irrigation, justice, and land revenue.</li>
+                    </ul>
+                </li>
+                <li><em>Hathigumpha Inscription</em> (c. 2nd century BCE) – Found in the Udayagiri hills near Bhubaneswar, Odisha, this inscription belongs to King **Kharavela** of Kalinga.
+                    <ul>
+                        <li>**WHAT:** A lengthy record blending royal propaganda with detailed accounts of Kharavela's military campaigns against various kingdoms (including Magadha), his public works (e.g., irrigation canals), and his patronage of Jainism. It is dated by his regnal years.</li>
+                        <li>**WHY:** It is the primary source for the history of Kalinga after the Mauryan period, providing valuable chronological data and insights into the political and religious conditions of the post-Mauryan era.</li>
+                        <li>**HOW:** Engraved in Prakrit language and Brahmi script on a natural rock shelter.</li>
+                        <li>**EFFECT:** Illuminates the rise of independent regional powers and the flourishing of Jainism in eastern India.</li>
+                    </ul>
+                </li>
+                <li>**Other Notable Inscriptions:**
+                    <ul>
+                        <li><em>Besnagar Garuda Pillar Inscription</em> (c. 2nd century BCE) – Records the dedication of a Garuda pillar by **Heliodorus**, a Greek ambassador to the Sunga court, who declared himself a Bhagavata (devotee of Vishnu), indicating early interaction and religious syncretism.</li>
+                        <li><em>Nasik Cave Inscriptions</em> (c. 1st-2nd century CE) – Provide crucial information about the Satavahana dynasty, particularly the achievements of **Gautamiputra Satakarni**, detailing his conquests and the extent of his empire.</li>
+                        <li><em>Mandasor Inscription</em> (c. 5th century CE) – From the reign of **Kumaragupta I**, it details the migration of a guild of silk weavers from Lata (Gujarat) to Dasapura (Mandasor) and their construction of a sun temple, offering insights into economic guilds and urban development.</li>
+                        <li><em>Gwalior Prasasti</em> (c. 9th century CE) – A detailed account of the Pratihara dynasty, particularly the achievements of King Bhoja, highlighting their military prowess and territorial expansion.</li>
+                    </ul>
+                </li>
             </ul>
         </li>
 
-        <!-- -------- Coins -------- -->
-        <li><strong>Coins (Numismatics)</strong> – Provide evidence of economic health, trade networks, iconography, and political legitimacy.
+        <li><strong>Coins (Numismatics)</strong> – The systematic study of coins, known as Numismatics, offers a wealth of information that complements and often validates epigraphic and literary sources. Coins are crucial for understanding economic health, trade networks, iconography, and political legitimacy.
+            <ul>
+                <li>**WHAT:** Metallic pieces of standardized weight and value, issued by an authority (usually a ruler or state), used as a medium of exchange.</li>
+                <li>**WHY:** They provide evidence of:
+                    <ul>
+                        <li>**Chronology:** Often bear dates or regnal years, helping to establish sequences of rulers.</li>
+                        <li>**Political History:** Names of kings, queens, and dynasties, extent of empires (through discovery of coin hoards), and succession.</li>
+                        <li>**Economic Conditions:** Metal purity (gold, silver, copper, lead), denominations, and abundance indicate prosperity or decline, trade routes, and monetization levels.</li>
+                        <li>**Religious Beliefs:** Depiction of deities, religious symbols, and legends reveal the religious affiliations of rulers and popular cults.</li>
+                        <li>**Art & Iconography:** Portraits of rulers, artistic motifs, and symbols reflect contemporary artistic styles and cultural influences.</li>
+                        <li>**Scripts & Languages:** Legends on coins provide examples of ancient scripts (Brahmi, Kharosthi, Greek, Arabic) and languages.</li>
+                    </ul>
+                </li>
+                <li>**HOW:** Analysis of metal composition (e.g., through XRF), weight, legends, symbols, minting techniques (punch-marked, die-struck), and geographical distribution of hoards.</li>
+                <li>**EFFECT:** Can reveal unknown rulers, confirm the existence of obscure dynasties, shed light on trade links, and illustrate the evolution of artistic styles.</li>
+            </ul>
             <table>
                 <thead>
                     <tr>
@@ -157,120 +341,67 @@ EXPANDED_NOTES_DATA["sources-indian-history"] = `
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Punch‑marked Coins</td>
+                        <td>Punch‑marked Coins (Puranas)</td>
                         <td>c. 6th–2nd century BCE</td>
-                        <td>Silver & copper; irregular shapes</td>
-                        <td>Earliest Indian coinage; indicate emergence of monetised economy.</td>
+                        <td>Silver & copper; irregular shapes (Karshapana)</td>
+                        <td>Earliest indigenous Indian coinage. Marked with symbols (solar, animal, geometric) by punching dies. Indicate the emergence of a monetized economy and urban centers (Mahajanapadas). No legends or names of rulers.</td>
                     </tr>
                     <tr>
                         <td>Indo‑Greek Kingdoms</td>
                         <td>c. 2nd–1st century BCE</td>
-                        <td>Silver drachms, gold staters</td>
-                        <td>First Indian coins with realistic portraits and bilingual legends (Greek & Kharosthi).</td>
+                        <td>Silver drachms, gold staters, copper coins</td>
+                        <td>First Indian coins with realistic portraits of rulers and bilingual legends (Greek on one side, Kharosthi on the other). This bilingualism was crucial for **James Prinsep's** decipherment of Kharosthi. Reflect Hellenistic artistic influence and extensive trade. Menander (Milinda) is a notable issuer.</td>
                     </tr>
                     <tr>
                         <td>Kushana Empire</td>
                         <td>c. 1st century CE–3rd century CE</td>
-                        <td>Gold dinars, silver drachms</td>
-                        <td>Large‑scale gold issue; reflects extensive trade along the Silk Road.</td>
+                        <td>Large-scale gold dinars, silver drachms, copper coins</td>
+                        <td>Known for their extensive gold coinage, reflecting the prosperity from trade along the Silk Road. Depict a pantheon of deities (Indian, Greek, Iranian), showcasing religious syncretism. Rulers like Kanishka are frequently depicted. Roman influence in weight standards.</td>
                     </tr>
                     <tr>
                         <td>Gupta Dynasty</td>
                         <td>c. 4th–6th century CE</td>
-                        <td>Gold dinars, silver suvarnas, copper fanams</td>
-                        <td>Most prolific gold issue; Samudragupta’s “Veena‑playing” coin illustrates royal patronage of arts.</td>
+                        <td>Most prolific gold dinars, silver suvarnas, copper fanams</td>
+                        <td>Represent the zenith of ancient Indian coinage art. Highly artistic, depicting various aspects of royal life, religious beliefs, and achievements. Samudragupta's "Veena-playing" coin illustrates his patronage of arts. Chandragupta II issued silver coins after conquering Western Kshatrapas. Titles like *Parakramanka* (Samudragupta) and *Vikramaditya* (Chandragupta II) are found.</td>
                     </tr>
                     <tr>
                         <td>Chola Empire</td>
                         <td>c. 9th–13th century CE</td>
-                        <td>Gold “pattam”, silver “panam”</td>
-                        <td>Depicts temple motifs and royal titles; evidence of maritime trade with Southeast Asia.</td>
+                        <td>Gold "pattam", silver "panam", copper coins</td>
+                        <td>Distinctive designs, often depicting the Chola emblem (tiger) alongside symbols of other dynasties (fish for Pandyas, bow for Cheras) to signify their suzerainty. Legends often in Grantha or Tamil. Evidence of extensive maritime trade with Southeast Asia. Raja Raja I and Rajendra I issued numerous coins.</td>
+                    </tr>
+                    <tr>
+                        <td>Satavahana Dynasty</td>
+                        <td>c. 1st century BCE – 3rd century CE</td>
+                        <td>Lead, Potin, Copper; some silver</td>
+                        <td>Primarily used base metals. Ship motifs on some coins indicate their maritime trade and naval power. Names of rulers like Gautamiputra Satakarni and Vasishthiputra Pulumavi are found.</td>
+                    </tr>
+                    <tr>
+                        <td>Delhi Sultanate</td>
+                        <td>c. 13th–16th century CE</td>
+                        <td>Silver Tanka, Copper Jital, Gold Mohur</td>
+                        <td>Introduced Islamic coinage traditions with Arabic calligraphy and legends, often quoting from the Quran. Lacked human figures. Standardized currency system across a vast empire. Rulers like Iltutmish and Muhammad bin Tughlaq issued diverse coin types.</td>
+                    </tr>
+                    <tr>
+                        <td>Mughal Empire</td>
+                        <td>c. 16th–19th century CE</td>
+                        <td>Gold Mohur, Silver Rupee, Copper Dam</td>
+                        <td>Highly refined and artistic coinage, often with elaborate calligraphy, floral motifs, and mint names. Akbar standardized the currency. Jahangir issued coins with his own portrait and that of Nur Jahan. Shah Jahan's coins were known for their elegance.</td>
                     </tr>
                 </tbody>
             </table>
         </li>
 
-        <!-- -------- Monuments & Pottery -------- -->
-        <li><strong>Monuments & Pottery</strong> – Architectural remains and ceramic typologies serve as chronological anchors.
+        <li><strong>Monuments & Pottery</strong> – Architectural remains, sculptures, and ceramic typologies serve as crucial chronological anchors and provide a visual narrative of past societies.
             <ul>
-                <li><strong>Cave Temples</strong> – Ajanta (Mahayana Buddhist frescoes, 2nd century CE) and Ellora (Hindu, Buddhist & Jain monuments, 6th–9th century CE) illustrate religious patronage and artistic evolution.</li>
-                <li><strong>Stupas</strong> – Sanchi (Great Stupa, 3rd century BCE) provides insight into early Buddhist architecture and Mauryan stone‑working techniques.</li>
-                <li><strong>Pottery Sequences</strong> – Serve as relative dating tools:
+                <li><strong>Monuments & Architecture:</strong> These structures, ranging from religious edifices to secular buildings, offer insights into religious beliefs, artistic styles, technological advancements, and socio-political organization.
                     <ul>
-                        <li><em>Ochre Coloured Pottery (OCP)</em> – 2nd millennium BCE, associated with early Iron Age cultures of the Ganga‑Yamuna plains.</li>
-                        <li><em>Painted Grey Ware (PGW)</em> – 1100–600 BCE, linked to the emergence of the Mahajanapada states.</li>
-                        <li><em>Northern Black Polished Ware (NBPW)</em> – 700–200 BCE, contemporaneous with the rise of the Mauryan Empire; indicates urbanisation and trade.</li>
-                    </ul>
-                </li>
-                <li><strong>Urban Excavations</strong> – Sites such as Mohenjo‑Daro, Harappa, and Pataliputra reveal city planning, water management, and craft specialisation.</li>
-            </ul>
-        </li>
-    </ul>
+                        <li><strong>Cave Temples</strong> – Rock-cut architecture is a hallmark of ancient Indian art.
+                            <ul>
+                                <li><em>Ajanta Caves</em> (c. 2nd century BCE – 5th century CE) – Primarily Buddhist, featuring stunning frescoes depicting Jataka tales and the life of the Buddha. They illustrate the evolution of Buddhist thought from Hinayana to Mahayana and provide invaluable insights into Gupta and Vakataka period court life, costumes, and daily activities.</li>
+                                <li><em>Ellora Caves</em> (c. 6th–10th century CE) – Unique for housing Hindu, Buddhist, and Jain monuments side-by-`;
 
-    <!-- ==================== Literary Sources ==================== -->
-    <h3>2. Literary Sources</h3>
-    <ul>
-        <!-- -------- Religious Texts -------- -->
-        <li><strong>Religious Texts</strong> – Provide mythological frameworks, moral codes, and occasionally historical kernels.
-            <ul>
-                <li>Vedas (Rig, Yajur, Sama, Atharva) – Earliest Sanskrit corpus (c. 1500–500 BCE); contain hymns, rituals and nascent socio‑political ideas.</li>
-                <li>Puranas – Genealogical and cosmological narratives (c. 300–1000 CE) that preserve dynastic lists and legends of ancient kings.</li>
-                <li>Epics – <em>Ramayana</em> and <em>Mahabharata</em> – While primarily literary, they embed references to contemporary geography, warfare, and polity.</li>
-                <li>Buddhist Tripitakas (Pāli Canon) – Record the teachings of the Buddha and the early Sangha; also contain accounts of Ashokan patronage.</li>
-                <li>Jain Angas (Prakrit) – Provide insight into Jain monastic organisation and the socio‑religious milieu of early centuries CE.</li>
-            </ul>
-        </li>
-
-        <!-- -------- Secular Literature -------- -->
-        <li><strong>Secular Literature</strong>
-            <ul>
-                <li><em>Kautilya’s Arthashastra</em> (c. 3rd century BCE) – Treatise on statecraft, economics, law and espionage; reflects Mauryan administrative sophistication.</li>
-                <li><em>Pāṇini’s Ashtadhyayi</em> (c. 4th century BCE) – Foundational grammar of Sanskrit; its systematic approach influenced later linguistic and literary traditions.</li>
-                <li><em>Kalhana’s Rajatarangini</em> (12th century CE) – Chronological history of Kashmir; regarded as India’s first scientific historical narrative because of its critical use of sources and chronological ordering.</li>
-                <li><em>Banabhatta’s Harshacharita</em> (7th century CE) – Biography of Emperor Harsha; valuable for understanding early medieval court culture.</li>
-                <li><em>Al-Biruni’s Kitab‑ul‑Hind</em> (11th century CE) – Though a foreign account, it systematically documents Indian geography, sciences, and social customs.</li>
-            </ul>
-        </li>
-
-        <!-- -------- Foreign Accounts -------- -->
-        <li><strong>Foreign Accounts</strong> – Offer external perspectives, often corroborating indigenous records.
-            <ul>
-                <li><strong>Greek</strong>
-                    <ul>
-                        <li>Megasthenes (<em>Indica</em>) – Provides a detailed description of Mauryan administration, economy and geography (c. 300 BCE).</li>
-                        <li>Arrian’s <em>Indica</em> – Based on Megasthenes, adds observations on Indian customs and military organisation.</li>
-                    </ul>
-                </li>
-                <li><strong>Chinese</strong>
-                    <ul>
-                        <li>Fa‑Hien (c. 399–414 CE) – Pilgrimage account of Gupta‑era India; notes urban prosperity and Buddhist institutions.</li>
-                        <li>Hiuen Tsang (c. 629–645 CE) – Describes Harsha’s reign, Nalanda University and the political landscape of early medieval India.</li>
-                    </ul>
-                </li>
-                <li><strong>Arab/Persian</strong>
-                    <ul>
-                        <li>Al‑Biruni (<em>Kitab‑ul‑Hind</em>, 11th century) – Systematic study of Indian sciences, astronomy, and social structure.</li>
-                        <li>Ibn Battuta (<em>Rihla</em>, 14th century) – Travelogue covering the Tughlaq period; observations on administration, urban life and cultural practices.</li>
-                    </ul>
-                </li>
-                <li><strong>European</strong>
-                    <ul>
-                        <li>Marco Polo (13th century) – Brief references to the Delhi Sultanate and trade routes.</li>
-                        <li>Francis Bacon (<em>History of India</em>, 1625) – Early modern synthesis of earlier Persian and Portuguese sources.</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
-
-    <p>By cross‑examining archaeological evidence with literary testimonies, historians can construct a nuanced, multi‑layered narrative of India’s past, identifying continuities, transformations, and regional diversities.</p>
-
-</body>
-</html>
-`;
-
-EXPANDED_NOTES_DATA["dating-systems"] = `
-<!DOCTYPE html>
+EXPANDED_NOTES_DATA["dating-systems"] = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -288,58 +419,202 @@ EXPANDED_NOTES_DATA["dating-systems"] = `
 </head>
 <body>
 
-    <h2>📅 Dating Systems and Eras</h2>
-    <p>Chronology in Indian history is recorded through a variety of calendars and era systems. Mastery of these conventions is essential for interpreting inscriptions, literary sources, and modern historiography.</p>
+    <h2>📅 Dating Systems and Eras: Chronological Framework of Indian History</h2>
+    <p>Understanding the chronology of events is the bedrock of historical study, and for Indian history, this involves navigating a complex tapestry of dating systems and eras. From ancient inscriptions to modern administrative records, a variety of calendars have been employed, reflecting diverse cultural, religious, and political influences. Mastery of these conventions is not merely an academic exercise; it is essential for accurately interpreting primary sources, synchronizing historical narratives, and comprehending the socio-cultural evolution of the subcontinent. For Defence aspirants, a precise grasp of these dating systems is crucial for analyzing historical military campaigns, treaties, and the administrative structures of various empires, which often relied on specific chronological frameworks.</p>
+    <p>The multiplicity of eras in India stems from its vast geographical expanse, numerous independent kingdoms, and the absence of a single, universally adopted epoch for much of its ancient and medieval past. This chapter aims to provide a comprehensive overview of these systems, delving into their origins, mechanisms, and historical significance, equipping candidates with the necessary tools for UPSC and Defence examinations.</p>
 
-    <h3>1. General Terminology</h3>
+    <h3>1. General Terminology and Fundamental Concepts</h3>
+    <p>Before delving into specific calendars, it is vital to establish a clear understanding of the fundamental terms and concepts used in historical dating.</p>
     <ul>
-        <li><strong>BC (Before Christ) / BCE (Before Common Era)</strong>: Years are counted backward from the traditionally accepted birth year of Jesus Christ. Example: 500 BCE <em>precedes</em> 300 BCE.</li>
-        <li><strong>AD (Anno Domini) / CE (Common Era)</strong>: Years are counted forward from the same epoch. Example: 2024 CE follows 2023 CE.</li>
-        <li><strong>YA (Year of the Era)</strong>: Used when a specific regional era is the reference point (e.g., “Vikram Samvat 2077”).</li>
+        <li><strong>BC (Before Christ) / BCE (Before Common Era)</strong>:
+            <ul>
+                <li><strong>What:</strong> These terms denote years preceding the traditionally accepted birth year of Jesus Christ. The numbering system counts backward, meaning a larger BC/BCE number represents an earlier point in time.</li>
+                <li><strong>Why:</strong> The system originated in the 6th century CE with Dionysius Exiguus, a Scythian monk, who calculated the Anno Domini (AD) epoch. Its adoption became widespread in Europe during the Middle Ages.</li>
+                <li><strong>How:</strong> Years are counted backward from 1 CE (there is no year zero in this system; 1 BCE is immediately followed by 1 CE).</li>
+                <li><strong>Effect:</strong> Provides a universal baseline for dating events globally, especially for ancient history.</li>
+                <li><strong>Example:</strong> The Indus Valley Civilization flourished around 2500 BCE. Alexander the Great invaded India in 326 BCE.</li>
+                <li><strong>Modern Relevance:</strong> While 'BC' is traditional, 'BCE' (Before Common Era) is increasingly preferred in academic and secular contexts to avoid religious connotations, yet it refers to the exact same chronological point.</li>
+            </ul>
+        </li>
+        <li><strong>AD (Anno Domini) / CE (Common Era)</strong>:
+            <ul>
+                <li><strong>What:</strong> 'Anno Domini' (Latin for "in the year of the Lord") and 'Common Era' denote years following the traditionally accepted birth year of Jesus Christ. Years are counted forward.</li>
+                <li><strong>Why:</strong> Established by Dionysius Exiguus to date Easter, it gradually became the standard Christian calendar and, through European colonial expansion, a global standard.</li>
+                <li><strong>How:</strong> Years count forward from 1 CE.</li>
+                <li><strong>Effect:</strong> Forms the basis of the Gregorian calendar, the most widely used civil calendar today.</li>
+                <li><strong>Example:</strong> The Gupta Empire reached its zenith around 380 CE. India gained independence in 1947 CE.</li>
+                <li><strong>Modern Relevance:</strong> 'CE' is the secular equivalent of 'AD', widely used in academic, scientific, and international discourse for inclusivity.</li>
+            </ul>
+        </li>
+        <li><strong>YA (Year of the Era)</strong>:
+            <ul>
+                <li><strong>What:</strong> This abbreviation is used when a specific regional or historical era is the reference point, indicating the year within that particular era.</li>
+                <li><strong>Why:</strong> Different civilizations and kingdoms established their own starting points for chronological reckoning, often tied to significant events or the reign of a powerful ruler.</li>
+                <li><strong>How:</strong> The number precedes or follows the era's name (e.g., "Vikram Samvat 2077" or "Saka 1945 YA").</li>
+                <li><strong>Effect:</strong> Essential for interpreting indigenous historical documents, inscriptions, and religious texts.</li>
+                <li><strong>Example:</strong> An inscription might be dated "Gupta Era 100 YA," which corresponds to 419-420 CE.</li>
+            </ul>
+        </li>
+        <li><strong>Epoch</strong>:
+            <ul>
+                <li><strong>What:</strong> The starting point or beginning date of an era or calendar system. All subsequent dates are calculated from this fixed reference point.</li>
+                <li><strong>Why:</strong> An epoch provides a consistent baseline for chronological measurement within a specific system.</li>
+                <li><strong>How:</strong> It's usually a specific year, often associated with a significant historical, religious, or astronomical event.</li>
+                <li><strong>Example:</strong> The epoch of the Saka Era is 78 CE; the epoch of the Hijri Era is 622 CE.</li>
+            </ul>
+        </li>
     </ul>
 
-    <h3>2. Types of Calendars Used in India</h3>
+    <h3>2. Types of Calendars Used in India: Astronomical Basis</h3>
+    <p>Calendars are fundamentally astronomical tools designed to organize time by tracking celestial cycles. India has historically utilized a variety of calendar types, primarily driven by religious, agricultural, and administrative needs.</p>
     <ul>
-        <li><strong>Solar Calendars</strong>: Based on the tropical year (e.g., Gregorian, Julian). Used primarily for civil purposes after the British period.</li>
-        <li><strong>Lunar Calendars</strong>: Months are defined by the phases of the Moon (e.g., Islamic Hijri calendar).</li>
-        <li><strong>Lunisolar Calendars</strong>: Combine lunar months with solar adjustments (intercalary months) to keep seasons aligned. The majority of traditional Indian calendars, including the Saka and Vikram Samvat, belong to this category.</li>
+        <li><strong>Solar Calendars</strong>:
+            <ul>
+                <li><strong>What:</strong> These calendars are based on the tropical year, which is the time it takes for the Sun to return to the same position in the cycle of seasons (approximately 365.2422 days).</li>
+                <li><strong>Why:</strong> Ideal for agricultural societies as they accurately track seasons, crucial for planting and harvesting.</li>
+                <li><strong>How:</strong> Months typically have a fixed number of days, with adjustments (like a leap day every four years) to keep the calendar aligned with the tropical year. The Gregorian and Julian calendars are prime examples.</li>
+                <li><strong>Effect:</strong> Ensures that festivals tied to seasons (e.g., harvest festivals) occur at roughly the same time each solar year.</li>
+                <li><strong>Example:</strong> The Gregorian calendar, adopted globally for civil purposes, and the Tamil solar calendar. Ancient Indian astronomical texts like the *Surya Siddhanta* provided sophisticated solar calculations, though not always for civil calendars.</li>
+            </ul>
+        </li>
+        <li><strong>Lunar Calendars</strong>:
+            <ul>
+                <li><strong>What:</strong> These calendars define months based on the phases of the Moon, specifically the synodic month (the time from one new moon to the next, approximately 29.5 days). A lunar year consists of 12 lunar months, totaling about 354 days.</li>
+                <li><strong>Why:</strong> Simpler to observe and track for communities without advanced astronomical tools; often used for religious observances.</li>
+                <li><strong>How:</strong> Months alternate between 29 and 30 days. Because a lunar year is about 11 days shorter than a solar year, lunar calendars drift against the seasons.</li>
+                <li><strong>Effect:</strong> Religious festivals tied to lunar calendars will occur at different times of the solar year over a cycle of about 33 years.</li>
+                <li><strong>Example:</strong> The Islamic Hijri calendar is a purely lunar calendar.</li>
+            </ul>
+        </li>
+        <li><strong>Lunisolar Calendars</strong>:
+            <ul>
+                <li><strong>What:</strong> These calendars combine lunar months with periodic adjustments to keep them aligned with the solar year and thus with the seasons. They are the most common type of traditional Indian calendar.</li>
+                <li><strong>Why:</strong> They aim to reconcile the desire to track lunar phases (important for religious rituals and tithis) with the necessity of aligning with seasons (important for agriculture and seasonal festivals).</li>
+                <li><strong>How:</strong> A lunisolar year typically has 12 lunar months. To prevent drift from the solar year, an extra (intercalary) month, known as *Adhik Maas* or *Mala Maas*, is added approximately every 2½ to 3 years (specifically, when a solar month passes without a new moon). This ensures that festivals remain within their appropriate seasons.</li>
+                <li><strong>Effect:</strong> Provides a balance between lunar and solar cycles, making them suitable for both religious and agricultural purposes.</li>
+                <li><strong>Example:</strong> The Saka Samvat and Vikram Samvat are prominent lunisolar calendars. They use concepts like *Tithi* (lunar day), *Paksha* (fortnight – Shukla Paksha for waxing moon, Krishna Paksha for waning moon), *Amavasya* (new moon), and *Purnima* (full moon).</li>
+            </ul>
+        </li>
     </ul>
 
-    <h3>3. Indigenous Indian Calendars</h3>
+    <h3>3. Indigenous Indian Calendars: A Deep Dive</h3>
+    <p>India's rich cultural heritage is reflected in its diverse array of indigenous calendars, each with its unique origin, structure, and historical significance. These calendars are fundamental to understanding the subcontinent's past.</p>
     <ul>
         <li><strong>Saka (Shaka) Calendar</strong>
             <ul>
-                <li>Originated in 78 CE under the Kushana king Kanishka.</li>
-                <li>Adopted as the <em>National Calendar of India</em> in 1957 (officially called the Indian National Calendar).</li>
-                <li>Starts on <strong>Chaitra 1</strong> (21 March in a leap year, 22 March otherwise).</li>
-                <li>Months are lunisolar; each month has 30 days, with an intercalary month added roughly every 2½ years.</li>
+                <li><strong>Origin and Epoch:</strong> The Saka Era commences in 78 CE. Its origin is traditionally attributed to the Kushana king Kanishka I, marking his accession to the throne. However, some historians propose it was established by the Western Satraps or even a later ruler, retrospectively attributed to Kanishka due to his prominence. The theory of a "Mahashaka" era also exists, suggesting a larger, older Saka system.</li>
+                <li><strong>Adoption as National Calendar:</strong> In 1957, the Government of India officially adopted the reformed Saka Calendar as the <em>Indian National Calendar</em>, based on the recommendations of the Calendar Reform Committee (1952) headed by Dr. Meghnad Saha. The aim was to unify the diverse regional calendars for civil and administrative purposes.</li>
+                <li><strong>Structure and Months:</strong>
+                    <ul>
+                        <li>The year begins on <strong>Chaitra 1</strong>. This date falls on March 22 in a normal year and March 21 in a leap year (when the Gregorian year is a leap year).</li>
+                        <li>It is a lunisolar calendar, but for civil purposes, the National Calendar follows a fixed number of days for its months, aligning them closely with the Gregorian calendar.</li>
+                        <li>The first month, Chaitra, has 30 days in a normal year and 31 days in a leap year.</li>
+                        <li>The subsequent five months (Vaisakha, Jyaistha, Asadha, Sravana, Bhadra) each have 31 days.</li>
+                        <li>The remaining six months (Asvina, Kartika, Agrahayana, Pausa, Magha, Phalguna) each have 30 days.</li>
+                        <li>The *Adhik Maas* (intercalary month) concept is still present in the traditional astronomical Saka calendar used for religious purposes, ensuring alignment of festivals with seasons.</li>
+                    </ul>
+                </li>
+                <li><strong>Usage:</strong> Besides being the official civil calendar of India, it is widely used in traditional Hindu *Panchangs* (almanacs) for calculating auspicious dates, festivals, and astrological purposes. It is also prevalent in regions like Maharashtra, Goa, and parts of South India.</li>
+                <li><strong>Conversion:</strong> To convert a Saka year to CE, simply add 78 (e.g., Saka 1946 = 1946 + 78 = 2024 CE).</li>
             </ul>
         </li>
         <li><strong>Vikram Samvat (Vikram Era)</strong>
             <ul>
-                <li>Founded by King Vikramaditya of Ujjain in 57 BCE.</li>
-                <li>Celebrates the defeat of the Saka invaders.</li>
-                <li>Widely used in North India and Nepal; currently about 57 years ahead of the Gregorian calendar (e.g., 2024 CE = 2081 VS).</li>
-                <li>Months follow a lunisolar pattern similar to the Saka calendar.</li>
+                <li><strong>Origin and Epoch:</strong> The Vikram Samvat begins in 57 BCE. It is traditionally attributed to the legendary King Vikramaditya of Ujjain, who is said to have founded the era to commemorate his victory over the Saka invaders. While the historical identity of this Vikramaditya is debated (some link it to Chandragupta II Vikramaditya, though the era predates him), the legend is deeply ingrained in Indian folklore. It is also sometimes referred to as the *Malava Gana* era, suggesting its origin with the Malava tribe.</li>
+                <li><strong>Geographical Spread and Variants:</strong>
+                    <ul>
+                        <li>It is one of the most widely used traditional calendars in North India, Nepal, and parts of Western India (e.g., Rajasthan, Gujarat).</li>
+                        <li>There are two main variants:
+                            <ul>
+                                <li><strong>Amanta (or Purnimanta) Vikram Samvat:</strong> Used predominantly in North India, it begins with the month of Chaitra (March/April) and considers the month to end on a full moon (Purnima).</li>
+                                <li><strong>Kartikadi (or Amanta) Vikram Samvat:</strong> Used primarily in Gujarat and some parts of Maharashtra, it begins with the month of Kartika (October/November) and considers the month to end on a new moon (Amavasya). This variant is often used for financial years in traditional business.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><strong>Structure:</strong> It is a lunisolar calendar, with months determined by lunar phases. An *Adhik Maas* is added periodically to synchronize with the solar year. Each month typically has two *pakshas* (fortnights): *Shukla Paksha* (waxing moon) and *Krishna Paksha* (waning moon).</li>
+                <li><strong>Usage:</strong> It remains the official calendar of Nepal and is extensively used in India for Hindu religious festivals, astrological calculations, and traditional business accounting (especially the Kartikadi variant).</li>
+                <li><strong>Conversion:</strong> To convert a Vikram Samvat (VS) year to CE, subtract 57 (e.g., 2081 VS = 2081 - 57 = 2024 CE). This conversion is generally accurate if the VS year falls after Chaitra 1.</li>
             </ul>
         </li>
         <li><strong>Gupta Era</strong>
             <ul>
-                <li>Commenced with the accession of Chandragupta I (319‑320 CE).</li>
-                <li>Primarily used in epigraphic records of the Gupta Empire.</li>
-                <li>Serves as a reference point for dating many early medieval inscriptions.</li>
+                <li><strong>Origin and Epoch:</strong> The Gupta Era commenced with the accession of Chandragupta I, the founder of the imperial Gupta dynasty, in 319-320 CE. This era marks the beginning of what is often called the "Golden Age of India."</li>
+                <li><strong>Usage:</strong> Primarily used in epigraphic records (inscriptions on pillars, rocks, and copper plates) and numismatic evidence (coins) of the Gupta Empire and its immediate successors. It provides a crucial chronological framework for dating the political, cultural, and artistic achievements of this period.</li>
+                <li><strong>Historical Significance:</strong> The establishment of a distinct imperial era signifies the consolidation of power and the assertion of sovereignty by the Gupta rulers. It is indispensable for dating major architectural marvels, sculptures, and literary works of the Gupta period.</li>
+                <li><strong>Relationship to Valabhi Era:</strong> The Valabhi Era, used by the Maitraka dynasty of Valabhi (Gujarat), is often considered a continuation or closely related to the Gupta Era, starting around 310 CE.</li>
             </ul>
         </li>
         <li><strong>Harsha Era</strong>
             <ul>
-                <li>Inaugurated by Harshavardhana’s coronation in 606 CE.</li>
-                <li>Found in several North‑Indian copper‑plate grants.</li>
-                <li>Often combined with the Shaka or Vikram Samvat for precise dating.</li>
+                <li><strong>Origin and Epoch:</strong> The Harsha Era was inaugurated by Harshavardhana's coronation in 606 CE. Harsha was a powerful ruler of Kanauj who unified a significant portion of North India.</li>
+                <li><strong>Usage:</strong> Found in several North Indian copper-plate grants and literary works of the period, such as Bana's *Harshacharita*. It serves as a local or regional era, particularly in areas under Harsha's direct influence.</li>
+                <li><strong>Historical Significance:</strong> It highlights the political consolidation under Harsha and is vital for synchronizing regional chronologies during the early medieval period. Its limited geographical and temporal spread, however, makes it less pervasive than the Saka or Vikram eras.</li>
             </ul>
         </li>
     </ul>
 
-    <h3>4. Key Historical Eras of India</h3>
+    <h3>4. Other Significant Indigenous and Foreign Eras in India</h3>
+    <p>Beyond the major calendars, numerous other eras have played roles in specific regions or historical contexts, further complicating the chronological landscape of India.</p>
+    <ul>
+        <li><strong>Kollam Era (Malayalam Era)</strong>
+            <ul>
+                <li><strong>Epoch:</strong> 825 CE.</li>
+                <li><strong>Origin:</strong> Its origin is debated, with theories linking it to the founding of the city of Kollam, the renovation of a temple, or a significant astronomical event.</li>
+                <li><strong>Usage:</strong> Predominantly used in Kerala and parts of Tamil Nadu. It is a solar calendar, with months named after the zodiac signs.</li>
+                <li><strong>Significance:</strong> Essential for dating historical events, inscriptions, and literature from the Chera and later kingdoms of Kerala.</li>
+            </ul>
+        </li>
+        <li><strong>Kalachuri-Chedi Era (Traikutaka Era)</strong>
+            <ul>
+                <li><strong>Epoch:</strong> 248-249 CE.</li>
+                <li><strong>Origin:</strong> Attributed to the Abhiras or Traikutakas of Western Deccan.</li>
+                <li><strong>Usage:</strong> Used by the Traikutaka, Kalachuri, and Chedi dynasties in Western and Central India.</li>
+                <li><strong>Significance:</strong> Crucial for understanding the chronology of these powerful regional dynasties during the post-Gupta period.</li>
+            </ul>
+        </li>
+        <li><strong>Lakshmana Samvat</strong>
+            <ul>
+                <li><strong>Epoch:</strong> 1119 CE.</li>
+                <li><strong>Origin:</strong> Associated with King Lakshmana Sena of the Sena dynasty of Bengal.</li>
+                <li><strong>Usage:</strong> Primarily found in inscriptions and literary works from Bengal and surrounding regions during the Sena rule.</li>
+                <li><strong>Significance:</strong> Helps in dating the later medieval period in Eastern India.</li>
+            </ul>
+        </li>
+        <li><strong>Bengali San (Bangla San)</strong>
+            <ul>
+                <li><strong>Epoch:</strong> 593 CE (though its origin is complex and often linked to Mughal revenue reforms under Akbar, who adapted an existing solar calendar to facilitate tax collection).</li>
+                <li><strong>Usage:</strong> Widely used in Bengal and Bangladesh for cultural and agricultural purposes. It is a solar calendar.</li>
+                <li><strong>Significance:</strong> Deeply embedded in Bengali culture, used for festivals, harvest cycles, and traditional commerce.</li>
+            </ul>
+        </li>
+        <li><strong>Chalukya-Vikrama Era</strong>
+            <ul>
+                <li><strong>Epoch:</strong> 1076 CE.</li>
+                <li><strong>Origin:</strong> Established by the Western Chalukya king Vikramaditya VI.</li>
+                <li><strong>Usage:</strong> Found in inscriptions of the Western Chalukyas in the Deccan region.</li>
+                <li><strong>Significance:</strong> Marks a period of significant political and cultural flourishing under Vikramaditya VI.</li>
+            </ul>
+        </li>
+        <li><strong>Kali Yuga</strong>
+            <ul>
+                <li><strong>Epoch:</strong> 3102 BCE (specifically, the midnight between 17 and 18 February, 3102 BCE, according to the *Aryabhatiya*).</li>
+                <li><strong>Origin:</strong> A cosmological era from Hindu scriptures, representing the fourth and final age in a cycle of Yugas.</li>
+                <li><strong>Usage:</strong> Primarily used in Hindu astronomical calculations (*Jyotisha*), religious texts, and philosophical discourse, rather than for civil dating.</li>
+                <li><strong>Significance:</strong> Provides a mythical and astronomical baseline for ancient Hindu cosmology and time reckoning.</li>
+            </ul>
+        </li>
+        <li><strong>Buddhist Era (Buddha Nirvāṇa Era)</strong>
+            <ul>
+                <li><strong>Epoch:</strong> Varies, but commonly 544 BCE or 543 BCE in Southeast Asian countries like Sri Lanka, Thailand, Myanmar, marking the *parinirvana* (death and final nirvana) of Gautama Buddha.</li>
+                <li><strong>Usage:</strong> Predominantly in Buddhist countries and for dating Buddhist religious events and texts.</li>
+                <li><strong>Significance:</strong> The primary chronological reference for the history of Buddhism and Buddhist cultures.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>5. Key Historical Eras of India: A Comparative Overview</h3>
+    <p>The following table summarizes the most important eras, providing a quick reference for their origins, usage, and significance.</p>
     <table>
         <thead>
             <tr>
@@ -354,64 +629,61 @@ EXPANDED_NOTES_DATA["dating-systems"] = `
             <tr>
                 <td><strong>Vikram Samvat (Vikram Era)</strong></td>
                 <td>57 BCE</td>
-                <td>King Vikramaditya (Ujjain)</td>
-                <td>Traditional calendar in North India, Nepal, and parts of Rajasthan.</td>
-                <td>Marks the legendary victory over the Saka invaders; still used for Hindu festivals and regional administration.</td>
+                <td>King Vikramaditya (Ujjain), legendary victory over Sakas.</td>
+                <td>Traditional calendar in North India, Nepal, parts of Rajasthan, Gujarat; Hindu festivals, traditional business.</td>
+                <td>Marks a legendary victory over foreign invaders; deeply embedded in Hindu religious and cultural life; vital for dating medieval North Indian history.</td>
             </tr>
             <tr>
                 <td><strong>Saka Era (Shaka Calendar)</strong></td>
                 <td>78 CE</td>
-                <td>Kushan King Kanishka</td>
-                <td>National Calendar of India (official civil calendar); also used in astronomical calculations.</td>
-                <td>Provides a uniform civil calendar; aligns with Gregorian months for administrative convenience.</td>
+                <td>Kushan King Kanishka I (traditional view); debated origin.</td>
+                <td>National Calendar of India (official civil calendar); astronomical calculations, Hindu *Panchangs*, regional use (e.g., Maharashtra).</td>
+                <td>Provides a uniform civil calendar for modern India; crucial for dating Kushana and later periods; important for astronomical and religious calculations.</td>
             </tr>
             <tr>
                 <td><strong>Gupta Era</strong></td>
                 <td>319‑320 CE</td>
-                <td>Chandragupta I</td>
-                <td>Epigraphic dating in Gupta‑period inscriptions.</td>
-                <td>Reflects the rise of Gupta imperial power; crucial for dating early medieval art and architecture.</td>
+                <td>Chandragupta I (accession to the throne).</td>
+                <td>Epigraphic dating in Gupta-period inscriptions, coins, and literary references.</td>
+                <td>Reflects the rise of Gupta imperial power and the "Golden Age" of India; indispensable for dating early medieval art, architecture, and literature.</td>
             </tr>
             <tr>
                 <td><strong>Harsha Era</strong></td>
                 <td>606 CE</td>
-                <td>Harshavardhana (Kanauj)</td>
-                <td>North‑Indian copper‑plate grants and literary works.</td>
-                <td>Highlights the political consolidation of North India under Harsha; used to synchronize regional chronologies.</td>
+                <td>Harshavardhana (coronation as ruler of Kanauj).</td>
+                <td>North-Indian copper-plate grants and literary works (e.g., *Harshacharita*).</td>
+                <td>Highlights the political consolidation of North India under Harsha; used to synchronize regional chronologies during a transitional period.</td>
             </tr>
             <tr>
                 <td><strong>Islamic Hijri Era</strong></td>
                 <td>622 CE (Hijra)</td>
-                <td>Prophet Muhammad’s migration from Mecca to Medina</td>
-                <td>Administrative records of the Delhi Sultanate and Mughal Empire.</td>
-                <td>Introduced a purely lunar calendar; essential for interpreting Persian‑Arabic inscriptions and court documents.</td>
+                <td>Prophet Muhammad’s migration (Hijra) from Mecca to Medina.</td>
+                <td>Administrative records of the Delhi Sultanate, Mughal Empire, and other Islamic states; Islamic religious observances.</td>
+                <td>Introduced a purely lunar calendar to India; essential for interpreting Persian-Arabic inscriptions, court documents, and understanding Islamic cultural influence.</td>
             </tr>
             <tr>
                 <td><strong>Julian/Gregorian Era</strong></td>
-                <td>45 BCE (Julian) / 1582 CE (Gregorian)</td>
-                <td>Roman reforms; Pope Gregory XIII’s reform</td>
-                <td>British colonial administration and modern Indian legal documents.</td>
-                <td>Standardised civil dating post‑colonial period; used in contemporary scholarship.</td>
+                <td>45 BCE (Julian) / 1582 CE (Gregorian reform)</td>
+                <td>Roman reforms by Julius Caesar; Pope Gregory XIII’s reform.</td>
+                <td>British colonial administration, modern Indian legal documents, international commerce, and contemporary scholarship.</td>
+                <td>Standardised civil dating post-colonial period; global standard for timekeeping, enabling synchronization with world history.</td>
             </tr>
         </tbody>
     </table>
 
-    <h3>5. Converting Between Calendars – Quick Reference</h3>
+    <h3>6. Converting Between Calendars – Quick Reference and Complexities</h3>
+    <p>Converting dates between different calendar systems is a common requirement in historical research and can be crucial for competitive exams. While simple formulas provide good approximations, precise conversions often require careful consideration of specific rules.</p>
     <ul>
-        <li>To convert a <strong>Vikram Samvat (VS)</strong> year to CE: <code>CE = VS - 57</code> (if the VS year falls after Chaitra 1).</li>
-        <li>To convert a <strong>Saka (Shaka)</strong> year to CE: <code>CE = Saka + 78</code>.</li>
-        <li>Hijri to CE conversion (approximate): <code>CE = Hijri × 0.97 + 622</code>.</li>
-        <li>For precise conversion, consider intercalary months and leap‑year rules specific to each calendar.</li>
-    </ul>
+        <li><strong>To convert a Vikram Samvat (VS) year to CE:</strong>
+            <ul>
+                <li><code>CE = VS - 57</code></li>
+                <li><strong>Explanation:</strong> The Vikram Samvat starts 57 years before the Common Era. So, to find the CE year, you subtract 57 from the VS year.</li>
+                <li><strong>Important Note:</strong> This formula works best for dates after the beginning of the VS year (Chaitra 1, usually March/April). For dates in January-February-March, the VS year might be 58 years ahead of the CE year, as the VS year would have already begun while the CE year is still the previous one. For example, January 2024 CE would be Vikram Samvat 2080, while April 2024 CE would be Vikram Samvat 2081.</li>
+            </ul>
+        </li>
+        <li><strong>To convert a Saka (Shaka) year to CE:</strong>`;
 
-    <p class="note"><strong>Note:</strong> While the above formulas give a close estimate, scholarly work often requires consulting conversion tables or software (e.g., <em>Calendrica</em>) to account for regional variations and astronomical adjustments.</p>
-
-</body>
-</html>
-`;
-
-EXPANDED_NOTES_DATA["stone-age"] = `
-<!DOCTYPE html>
+EXPANDED_NOTES_DATA["stone-age"] = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -425,12 +697,15 @@ EXPANDED_NOTES_DATA["stone-age"] = `
     </style>
 </head>
 <body>
-    <h1>Prehistoric India: The Stone Age</h1>
-    <p>Prehistoric India is broadly divided into three chronological phases—Paleolithic, Mesolithic and Neolithic—based on advances in stone‑tool technology, subsistence patterns and settlement behaviour. The following sections provide a detailed, high‑yield overview of each phase, essential for UPSC and Defence examinations.</p>
+    <h1>Prehistoric India: The Stone Age – A Comprehensive Examination</h1>
+    <p>Prehistoric India, a vast and complex tapestry woven over millions of years, represents the foundational epoch of human existence and cultural development on the subcontinent. It is broadly divided into three chronological phases—Paleolithic (Old Stone Age), Mesolithic (Middle Stone Age), and Neolithic (New Stone Age)—each distinguished by profound advances in stone-tool technology, evolving subsistence patterns, and increasingly sophisticated settlement behaviour. This period, spanning from the earliest evidence of hominid activity to the dawn of the Metal Ages, is crucial for understanding the deep roots of Indian civilization. The study of Prehistoric India relies heavily on archaeological findings, including stone tools, pottery, skeletal remains, and environmental data, as written records are absent. This chapter provides a detailed, high-yield overview of each phase, essential for UPSC, CDS, AFCAT, and other Defence examinations, emphasizing the 'WHAT', 'WHY', 'HOW', 'EFFECT', and 'EXAMPLE' of key developments.</p>
 
-    <h2>The Stone Age</h2>
+    <h2>The Stone Age: An Epoch of Human Evolution and Adaptation</h2>
+    <p>The Stone Age in India is not merely a sequence of technological changes but a narrative of human adaptation to diverse ecological niches, cognitive development, and the gradual mastery over the environment. From the rugged quartzite tools of early hominids to the polished axes of settled farmers, each phase reflects a significant leap in human ingenuity and social organization. Understanding these transitions is vital for grasping the trajectory of human history in the subcontinent.</p>
 
     <h3>1. Paleolithic (Old Stone Age) – up to c. 10,000 BCE</h3>
+    <p>The Paleolithic period, the longest phase of human history, is characterized by the use of crude, unpolished stone tools and a nomadic hunter-gatherer lifestyle. It coincides with the Pleistocene epoch, marked by significant climatic fluctuations, including glacial and interglacial periods, which profoundly influenced human migration and adaptation.</p>
+
     <p><strong>Chronology & Sub‑phases</strong></p>
     <table>
         <thead>
@@ -438,6 +713,7 @@ EXPANDED_NOTES_DATA["stone-age"] = `
                 <th>Sub‑phase</th>
                 <th>Time Span (approx.)</th>
                 <th>Characteristic Tool Types</th>
+                <th>Associated Hominids/Key Features</th>
                 <th>Representative Sites (India)</th>
             </tr>
         </thead>
@@ -445,176 +721,181 @@ EXPANDED_NOTES_DATA["stone-age"] = `
             <tr>
                 <td>Lower Paleolithic</td>
                 <td>≈ 2.5 Myr – 300 kyr BCE</td>
-                <td>Hand‑axes, cleavers, choppers (large bifacial tools)</td>
-                <td>Soan Valley (Punjab, Pakistan), Bori (Maharashtra)</td>
+                <td>Hand‑axes, cleavers, choppers (large bifacial tools), scrapers</td>
+                <td>Early hominids (e.g., <em>Homo erectus</em>, possibly <em>Homo heidelbergensis</em>); Acheulean & Oldowan cultures</td>
+                <td>Soan Valley (Punjab, Pakistan), Bori (Maharashtra), Attirampakkam (Tamil Nadu), Hunsgi-Baichbal Valley (Karnataka), Didwana (Rajasthan), Bhimbetka (Madhya Pradesh)</td>
             </tr>
             <tr>
                 <td>Middle Paleolithic</td>
                 <td>≈ 300 kyr – 50 kyr BCE</td>
-                <td>Flake tools, Levallois technique</td>
-                <td>Narmada Valley, Nevasa (Maharashtra)</td>
+                <td>Flake tools (scrapers, borers, points), Levallois technique</td>
+                <td>Emergence of more advanced hominids, possibly archaic <em>Homo sapiens</em>; Mousterian-like cultures</td>
+                <td>Narmada Valley (Hathnora - hominid fossil), Nevasa (Maharashtra), Sanghao Cave (Pakistan), Patne (Maharashtra), Luni Valley (Rajasthan)</td>
             </tr>
             <tr>
                 <td>Upper Paleolithic</td>
                 <td>≈ 50 kyr – 10 kyr BCE</td>
-                <td>Blade & bone tools, microlithic precursors</td>
-                <td>Kurnool Caves (Andhra Pradesh – ash layers)</td>
+                <td>Blade & bone tools (burins, scrapers, points), microlithic precursors, harpoons, needles</td>
+                <td>Anatomically Modern Humans (<em>Homo sapiens sapiens</em>); Aurignacian-like cultures; early art</td>
+                <td>Kurnool Caves (Andhra Pradesh – ash layers, bone tools), Renigunta (Andhra Pradesh), Son Valley (Madhya Pradesh), Baghor I (Madhya Pradesh), Patne (Maharashtra)</td>
             </tr>
         </tbody>
     </table>
 
-    <p><strong>Way of Life</strong></p>
+    <p><strong>Way of Life: The Nomadic Foragers</strong></p>
     <ul>
-        <li>Nomadic hunter‑gatherers who exploited a wide range of fauna and flora.</li>
-        <li>Habitations were temporary caves or rock‑shelters; seasonal mobility was dictated by resource availability.</li>
-        <li>Control of fire was achieved, but evidence suggests limited use for cooking; fire was primarily used for warmth and protection.</li>
+        <li><strong>Subsistence Strategy:</strong> Paleolithic communities were entirely nomadic hunter‑gatherers. They exploited a wide range of fauna, including megafauna (e.g., wild cattle, elephants, rhinoceroses, hippopotamuses, deer), and flora, adapting their diet to seasonal availability. Hunting was primarily opportunistic, involving ambushes or driving animals into natural traps. Scavenging from predator kills was also a significant part of their diet.</li>
+        <li><strong>Social Organization:</strong> Small, egalitarian bands of 20-50 individuals formed the basic social unit. Cooperation was essential for survival, especially in hunting large game and defending against predators. There was likely a rudimentary division of labor based on age and gender.</li>
+        <li><strong>Habitations:</strong> Settlements were temporary, dictated by resource availability and climatic conditions. Natural caves and rock‑shelters, such as those found at Bhimbetka, provided protection from elements and predators. Open-air sites, often near water sources, were also utilized for short durations. Seasonal mobility was a defining characteristic, ensuring access to fresh food and water.</li>
+        <li><strong>Control of Fire:</strong> The mastery of fire was a monumental achievement, likely occurring during the Lower Paleolithic. While evidence suggests limited use for elaborate cooking in the earliest phases, fire was primarily used for warmth, protection from wild animals, clearing vegetation, and hardening wooden tools. Its controlled use also fostered social cohesion, providing a central point for group activities and communication. *Mechanism:* Fire provided heat, light, and a means to deter predators. *Why* it was crucial: Enhanced survival in colder climates, expanded foraging hours, improved safety. *Effect:* Contributed to dietary diversification (cooking made some foods digestible), social bonding, and territorial defense.</li>
+        <li><strong>Early Art and Symbolism (Upper Paleolithic):</strong> The Upper Paleolithic witnessed the emergence of symbolic thought. Evidence includes rock paintings (petroglyphs and pictographs) at sites like Bhimbetka and Daraki-Chattan, depicting animals, human figures, and geometric patterns. These represent early forms of communication, ritual, and aesthetic expression. Ostrich eggshell beads found at Patne and other sites indicate personal adornment and possibly early trade networks.</li>
     </ul>
 
-    <p><strong>Tool Technology</strong></p>
+    <p><strong>Tool Technology: From Core to Blade</strong></p>
     <ul>
-        <li>Predominantly large, unpolished stone implements fashioned from <em>quartzite</em>, giving rise to the term “Quartzite Men”.</li>
-        <li>Core‑and‑flake technique evolved into more refined bifacial hand‑axes and cleavers.</li>
-        <li>Upper Paleolithic introduced bone implements and slender blades, indicating cognitive advances and the arrival of anatomically modern humans (<em>Homo sapiens</em>).</li>
+        <li><strong>Raw Materials:</strong> Predominantly large, unpolished stone implements were fashioned from locally available hard rocks such as <em>quartzite</em>, chert, basalt, and dolerite. The abundance of quartzite tools led to the term “Quartzite Men” being associated with Paleolithic inhabitants of India.</li>
+        <li><strong>Lower Paleolithic Tools:</strong>
+            <ul>
+                <li><strong>Oldowan-like tools:</strong> Simple choppers and chopping tools, made by striking flakes from a core to create a sharp edge. These were multi-purpose tools for crushing, cutting, and scraping.</li>
+                <li><strong>Acheulean tools:</strong> Characterized by bifacial hand-axes and cleavers, meticulously shaped on both sides. The *core-and-flake technique* evolved into more refined methods, demonstrating greater cognitive planning and motor skills. Hand-axes were versatile, used for butchering large animals, digging for roots, and working wood. Cleavers, with a broad, straight cutting edge, were effective for skinning and dismembering.</li>
+                <li>*Mechanism:* Direct percussion (striking with a hammerstone) was the primary method. *Why* bifacial tools were superior: Increased cutting edge, better grip, more balanced for repeated use. *Effect:* Enhanced efficiency in processing resources, leading to better nutrition and survival rates.</li>
+            </ul>
+        </li>
+        <li><strong>Middle Paleolithic Tools:</strong>
+            <ul>
+                <li>A significant shift occurred towards flake tools, which were smaller and lighter. The *Levallois technique* (prepared core technique) became prominent. *How it works:* A core was carefully prepared by removing flakes from its surface to predetermine the shape of the final flake, which was then struck off. *Why it was advanced:* It allowed for the production of standardized, sharp, and efficient tools (scrapers, points, borers) with less raw material waste, indicating a more sophisticated understanding of stone fracture mechanics.</li>
+                <li>These tools were likely hafted onto wooden handles, increasing their leverage and utility.</li>
+            </ul>
+        </li>
+        <li><strong>Upper Paleolithic Tools:</strong>
+            <ul>
+                <li>This phase saw the dominance of *blade technology*. Blades are long, parallel-sided flakes, at least twice as long as they are wide. *How they were made:* Often produced using a punch technique, allowing for mass production of consistent, sharp blanks.</li>
+                <li>These blades were then retouched into various specialized tools like burins (for engraving bone, antler, and wood), scrapers (for hide processing), and points (for spears and arrows).</li>
+                <li>The introduction of *bone implements* (harpoons, needles, spear throwers) further indicates cognitive advances and the arrival of anatomically modern humans (<em>Homo sapiens sapiens</em>) with superior technological capabilities. *Why bone tools:* Bone and antler are strong, flexible, and can be shaped into fine, specialized tools not possible with stone. *Effect:* Improved hunting efficiency, ability to process hides for clothing, and potentially more complex shelters.</li>
+            </ul>
+        </li>
     </ul>
 
     <h3>2. Mesolithic (Middle Stone Age) – c. 10,000 BCE to 6,000 BCE</h3>
-    <p><strong>Environmental Context</strong></p>
+    <p>The Mesolithic period represents a transitional phase between the nomadic Paleolithic and the settled Neolithic. It is marked by significant environmental changes and corresponding human adaptations, leading to a more diversified economy and the beginnings of social complexity.</p>
+
+    <p><strong>Environmental Context: The Dawn of the Holocene</strong></p>
     <ul>
-        <li>Post‑glacial warming produced a warmer, drier climate, reshaping vegetation patterns and prompting the retreat of megafauna.</li>
-        <li>New ecological niches encouraged diversification of plant and animal species, setting the stage for early domestication.</li>
+        <li><strong>Post‑glacial Warming:</strong> The end of the Pleistocene Ice Age (around 10,000 BCE) ushered in the Holocene epoch, characterized by a warmer, wetter, and more stable climate. This global warming led to the retreat of glaciers and a rise in sea levels.</li>
+        <li><strong>Ecological Transformation:</strong> The changing climate profoundly reshaped vegetation patterns. Dense forests replaced tundra and grasslands in many regions, and new ecological niches emerged. This led to the extinction of some megafauna (e.g., woolly mammoths) and the proliferation of smaller, faster-moving animals like deer, antelope, wild boar, and various birds and fish.</li>
+        <li><strong>Impact on Human Adaptation:</strong> The shift in fauna necessitated new hunting strategies and tools. Humans began to exploit a broader spectrum of resources, including aquatic life (fish, shellfish), small game, and wild plant foods. This diversification of diet is often termed the "Broad Spectrum Revolution."</li>
     </ul>
 
-    <p><strong>Technological Innovations</strong></p>
+    <p><strong>Technological Innovations: The Age of Microliths</strong></p>
     <ul>
-        <li>Introduction of <strong>microliths</strong>—tiny, expertly retouched stone blades (1–5 cm) mounted on composite hafts of wood, bone or antler.</li>
-        <li>Microliths were employed in sophisticated hunting weapons such as barbed spears and multi‑arrow bows, reflecting a shift toward more efficient prey capture.</li>
+        <li><strong>Introduction of Microliths:</strong> The defining technological innovation of the Mesolithic was the widespread use of <strong>microliths</strong>—tiny, expertly retouched stone blades (typically 1–5 cm in length). *How they were made:* These were produced by a sophisticated *punch technique* or *pressure flaking*, often from fine-grained chert, chalcedony, and agate.</li>
+        <li><strong>Composite Tools:</strong> Microliths were rarely used individually. Instead, they were mounted (hafted) onto composite hafts of wood, bone, or antler using natural adhesives like resin or bitumen. *Why composite tools:* This allowed for the creation of highly efficient and specialized tools:
+            <ul>
+                <li><strong>Barbed Spears and Harpoons:</strong> Microliths were set into grooves along a spear shaft to create serrated edges, making hunting more effective and reducing prey escape.</li>
+                <li><strong>Multi-arrow Bows:</strong> The bow and arrow, likely invented in this period, revolutionized hunting by increasing range and accuracy. Microlithic points served as arrowheads.</li>
+                <li><strong>Sickles and Knives:</strong> Microliths were also used as cutting edges in sickles for harvesting wild grains and in knives for processing food.</li>
+            </ul>
+        </li>
+        <li><strong>Other Tools:</strong> Grinding stones, pestles, and mortars became common, indicating increased processing of plant foods, including wild grains and nuts. This suggests a more systematic approach to plant resource utilization.</li>
     </ul>
 
-    <p><strong>Socio‑Economic Changes</strong></p>
+    <p><strong>Socio‑Economic Changes: Towards Sedentism and Domestication</strong></p>
     <ul>
-        <li>Continued reliance on hunting‑gathering, but with emerging evidence of proto‑agricultural practices and animal management.</li>
-        <li>Domestication of the dog (Canis familiaris) is the earliest documented animal‑human partnership in the subcontinent.</li>
+        <li><strong>Continued Hunting-Gathering with Diversification:</strong> While hunting and gathering remained the primary subsistence strategy, there was a noticeable shift towards exploiting a wider range of resources (fish, fowl, small game, wild cereals). This led to more intensive exploitation of local environments.</li>
+        <li><strong>Proto-Agricultural Practices:</strong> Emerging evidence suggests early forms of plant management and proto-agricultural practices, such as the systematic harvesting of wild grains and possibly rudimentary cultivation. This laid the groundwork for the full-fledged agriculture of the Neolithic.</li>
+        <li><strong>Animal Management and Domestication:</strong> The domestication of the dog (<em>Canis familiaris</em>) is the earliest documented animal-human partnership in the subcontinent, crucial for hunting and protection. Evidence from sites like Bagor and Adamgarh also points to the early management or incipient domestication of sheep and goats. *Why domestication:* Provided a stable food source (meat, milk), wool, and labor, reducing reliance on unpredictable wild resources.</li>
+        <li><strong>Settlement Patterns:</strong> While still mobile, Mesolithic communities often established semi-permanent or seasonal camps, particularly in resource-rich areas. Some sites show evidence of more substantial dwellings, indicating longer stays.</li>
+        <li><strong>Burial Practices and Rituals:</strong> Mesolithic sites like Sarai Nahar Rai, Mahadaha, and Damdama in Uttar Pradesh have yielded numerous human burials, often with grave goods (microliths, shell ornaments, bone tools). These practices suggest developing belief systems, an awareness of the afterlife, and possibly early forms of social differentiation. Collective burials and evidence of violence (e.g., arrowheads embedded in bones) have also been found.</li>
+        <li><strong>Rock Art:</strong> The Mesolithic period is renowned for its extensive rock art, particularly in Central India (e.g., Bhimbetka, Adamgarh). These paintings depict scenes of hunting, dancing, rituals, animal figures, and daily life, offering invaluable insights into their culture, beliefs, and environment.</li>
     </ul>
 
     <p><strong>Key Archaeological Sites</strong></p>
     <ul>
-        <li><strong>Bagor (Rajasthan)</strong> – One of the oldest Mesolithic settlements (≈ 9,500 BCE); provides the earliest clear evidence of domesticated cattle and dogs.</li>
-        <li><strong>Adamgarh (Madhya Pradesh)</strong> – Rich microlith assemblages and shell ornaments indicating complex symbolic behaviour.</li>
-        <li><strong>Langhnaj (Gujarat)</strong> – Shows continuity from Paleolithic to Mesolithic with diverse toolkits and early evidence of plant processing.</li>
+        <li><strong>Bagor (Rajasthan):</strong> One of the largest and oldest Mesolithic settlements in India (≈ 9,500 BCE). It provides the earliest clear evidence of domesticated cattle and dogs in the subcontinent. The site shows three cultural phases, with the earliest phase characterized by a rich microlithic industry, animal bones, and circular stone-paved floors, suggesting semi-permanent habitations.</li>
+        <li><strong>Adamgarh (Madhya Pradesh):</strong> Known for its rich microlith assemblages and numerous rock shelters with paintings. It also provides early evidence of animal domestication, particularly cattle, sheep, and goats, dating back to around 7,000-5,000 BCE.</li>
+        <li><strong>Langhnaj (Gujarat):</strong> Shows continuity from Paleolithic to Mesolithic, with diverse toolkits, human skeletons, and early evidence of plant processing. The site has yielded microliths, animal bones, and even some pottery in later phases, suggesting interaction with early agricultural communities.</li>
+        <li><strong>Sarai Nahar Rai (Uttar Pradesh):</strong> A significant site known for its human burials (11 graves with 14 skeletons), unique bone artifacts (like arrowheads and rings), and hearths. Evidence of mass burials and trauma suggests possible inter-group conflict or specific ritualistic practices.</li>
+        <li><strong>Mahadaha (Uttar Pradesh):</strong> Another important site with multiple burials, bone tools, and evidence of specialized hunting and fishing. A notable finding includes a necklace made of deer antlers.</li>
+        <li><strong>Damdama (Uttar Pradesh):</strong> Similar to Sarai Nahar Rai and Mahadaha, with numerous burials, bone tools, and hearths. One grave contained three human skeletons buried together, along with grave goods.</li>
+        <li><strong>Tilwara (Rajasthan):</strong> A microlithic site with evidence of circular huts, animal bones, and hearths, indicating a semi-sedentary lifestyle.</li>
     </ul>
 
     <h3>3. Neolithic (New Stone Age) – c. 6,000 BCE to 1,000 BCE</h3>
-    <p><strong>Neolithic Revolution</strong></p>
+    <p>The Neolithic period marks one of the most transformative phases in human history, often termed the "Neolithic Revolution." It represents a fundamental shift from a nomadic foraging economy to a sedentary, food-producing one, laying the groundwork for complex societies and ultimately, civilizations.</p>
+
+    <p><strong>The Neolithic Revolution: A Paradigm Shift</strong></p>
     <ul>
-        <li>Fundamental shift from foraging to systematic <strong>food production</strong> (agriculture and animal husbandry).</li>
-        <li>Adoption of sedentary village life, leading to social stratification, craft specialization and trade networks.</li>
+        <li><strong>Fundamental Shift:</strong> This period witnessed a radical transformation from opportunistic foraging (hunting and gathering) to systematic <strong>food production</strong> through agriculture and animal husbandry. *Causes:* While debated, factors likely included climatic stability, increased population density leading to pressure on wild resources, and the cumulative knowledge of plant and animal behaviour gained during the Mesolithic.</li>
+        <li><strong>Adoption of Sedentary Village Life:</strong> The need to tend crops and manage domesticated animals necessitated permanent or semi-permanent settlements. This led to the establishment of fixed villages, often characterized by mud-brick houses and organized layouts. *Effect:* Increased population density, accumulation of surplus food, and a more predictable food supply.</li>
+        <li><strong>Socio-Economic Transformation:</strong> Sedentary life and food surplus led to significant societal changes:
+            <ul>
+                <li><strong>Social Stratification:</strong> The accumulation of wealth (land, livestock, surplus food) could have led to initial forms of social hierarchy and differentiation.</li>
+                <li><strong>Craft Specialization:</strong> With a stable food supply, not everyone needed to be directly involved in food production. This allowed for the emergence of specialized crafts like pottery making, tool manufacturing, weaving, and later, metallurgy.</li>
+                <li><strong>Trade Networks:</strong> Surplus production facilitated exchange of goods, leading to the development of rudimentary trade networks for raw materials (e.g., chert, obsidian, shells) and finished products.</li>
+                <li><strong>Population Growth:</strong> A more stable food supply and reduced mobility generally led to higher birth rates and lower mortality, resulting in significant population growth.</li>
+            </ul>
+        </li>
     </ul>
 
-    <p><strong>Major Innovations</strong></p>
+    <p><strong>Major Innovations: Pillars of a New Way of Life</strong></p>
     <ul>
-        <li>Domestication of major cereals: wheat (<em>Triticum</em>), barley (<em>Hordeum</em>), ragi (<em>Eleusine coracana</em>) and rice (<em>Oryza sativa</em>).</li>
-        <li>Animal husbandry of sheep, goats, cattle and later buffalo.</li>
-        <li>Invention of the wheel (≈ 4,500 BCE) and development of both hand‑made and wheel‑made pottery, indicating advances in ceramic technology.</li>
-        <li>Construction of permanent mud‑brick houses and organized settlement layouts.</li>
+        <li><strong>Domestication of Major Cereals:</strong> This was the cornerstone of the Neolithic Revolution. Key crops domesticated in India include:
+            <ul>
+                <li><strong>Wheat (<em>Triticum</em>) and Barley (<em>Hordeum</em>):</strong> Primarily cultivated in the North-Western regions (e.g., Mehrgarh), reflecting influences from the Fertile Crescent.</li>
+                <li><strong>Rice (<em>Oryza sativa</em>):</strong> Crucially, India is one of the independent centers of rice domestication, with early evidence from Koldihwa and Lahuradewa in the Ganga Valley.</li>
+                <li><strong>Millets (e.g., <em>Eleusine coracana</em> - Ragi):</strong> Important in South India.</li>
+                <li>Other crops included lentils, peas, and various pulses.</li>
+            </ul>
+            *Mechanism:* Selective breeding over generations, choosing plants with desirable traits (larger grains, non-shattering heads). *Why:* Provided a reliable, high-calorie food source that could be stored.
+        </li>
+        <li><strong>Animal Husbandry:</strong> Alongside crop cultivation, the domestication of animals provided meat, milk, hides, wool, and labor.
+            <ul>
+                <li><strong>Sheep, Goats, Cattle:</strong> These were among the earliest domesticated animals, providing a versatile resource base.</li>
+                <li><strong>Buffalo and Pigs:</strong> Also domesticated, contributing to the diverse agricultural economy.</li>
+            </ul>
+            *Effect:* Reduced hunting risk, provided renewable resources, and eventually facilitated plough agriculture.
+        </li>
+        <li><strong>Invention of the Wheel and Pottery:</strong>
+            <ul>
+                <li><strong>Pottery:</strong> The invention of pottery was crucial for storing surplus grains, cooking, and transporting water. Early pottery was hand-made (e.g., basket-impressed ware), but the *invention of the wheel* (≈ 4,500 BCE in some regions, though its widespread adoption in India might be later) revolutionized ceramic technology, allowing for mass production of standardized, finer vessels. Different types of pottery (e.g., Grey Ware, Black-and-Red Ware) emerged, reflecting regional variations and technological advancements.</li>
+                <li><strong>Wheel:</strong> Beyond pottery, the wheel eventually facilitated transport (carts) and other mechanical applications, though its earliest use was likely for pottery.</li>
+            </ul>
+        </li>
+        <li><strong>Polished Stone Tools:</strong> Neolithic tools were distinct from their Paleolithic and Mesolithic predecessors. Axes, adzes, chisels, and hoes were not only flaked but also ground and *polished*. *Why polishing:* Polishing made tools much stronger, sharper, and more durable, making them highly effective for felling trees (clearing land for agriculture) and working wood for construction.</li>
+        <li><strong>Construction of Permanent Houses:</strong> Settlements consisted of permanent structures, typically mud-brick houses (e.g., Mehrgarh), wattle-and-daub structures, or pit-dwellings (e.g., Burzahom). These organized settlement layouts signify communal planning and a commitment to a specific territory.</li>
+        <li><strong>Textile Production:</strong> Evidence of spindle whorls and bone needles suggests the beginnings of spinning and weaving, likely using cotton or wool, for clothing and other uses.</li>
     </ul>
 
-    <p><strong>Representative Sites</strong></p>
+    <p><strong>Representative Sites: Regional Manifestations of the Revolution</strong></p>
     <ul>
-        <li><strong>Mehrgarh (Balochistan, Pakistan)</strong> – Earliest Neolithic settlement (≈ 7,000 BCE). Notable for cultivated wheat and barley, mud‑brick architecture, and early evidence of bead‑making and metallurgy.</li>
-        <li><strong>Burzahom (Kashmir)</strong> – Distinctive pit‑dwelling habitations (sub‑surface houses) designed to mitigate cold; archaeological layers reveal dog burials alongside human occupants, suggesting ritualistic animal reverence.</li>
-        <li><strong>Koldihwa (Uttar Pradesh)</strong> – Provides the oldest securely dated evidence of rice cultivation worldwide (≈ 6,000 BCE), underscoring the subcontinent’s role in early rice domestication.</li>
-        <li><strong>Chirand (Bihar)</strong> – Abundant bone tools crafted from deer antlers, indicating specialized hunting and craft activities within a settled community.</li>
-    </ul>
+        <li><strong>Mehrgarh (Balochistan, Pakistan):</strong> Considered one of the earliest and most significant Neolithic settlements in South Asia (≈ 7,000 BCE). It provides continuous evidence of human occupation from the Neolithic to the Chalcolithic. Notable findings include:
+            <ul>
+                <li>Cultivation of wheat and barley, and domestication of sheep, goats, and cattle.</li>
+                <li>Sophisticated mud-brick architecture, including multi-roomed houses and granaries.</li>
+                <li>Early evidence of bead-making (lapis lazuli, turquoise) and dental drilling, indicating advanced craftsmanship and medical practices.</li>
+                <li>Proto-metallurgy (copper artifacts) in later phases, showing a transition towards the Chalcolithic.</li>
+                <li>Burials with grave goods, reflecting social status and belief systems.</li>
+            </ul>
+        </li>
+        <li><strong>Burzahom (Kashmir):</strong> A distinctive Neolithic site (≈ 2,700 BCE) known for its unique pit-dwelling habitations (sub-surface houses), designed to mitigate the cold climate of the Kashmir Valley.
+            <ul>
+                <li>Archaeological layers reveal dog burials alongside human occupants, suggesting a deep reverence for animals, possibly ritualistic.</li>
+                <li>Unique pottery (black burnished ware), polished stone tools, and bone tools (harpoons, needles, daggers) adapted for a cold, lacustrine environment.</li>
+                <li>Later phases show evidence of megalithic practices.</li>
+            </ul>
+        </li>
+        <li><strong>Koldihwa (Uttar Pradesh):</strong> Provides some of the oldest securely dated evidence of rice cultivation worldwide (≈ 6,000 BCE), along with evidence of cattle rearing and hand-made pottery. This site underscores the subcontinent’s independent role in early rice domestication.</li>
+        <li><strong>Lahuradewa (Uttar Pradesh):</strong> Even older evidence of rice cultivation (≈ 7,000-6,000 BCE) has been found here, pushing back the dates for rice domestication in the Ganga plain and challenging earlier assumptions about its origins.</li>
+        <li><strong>Chirand (Bihar):</strong> Located in the middle Ganga plain (≈ 2,500 BCE), this site is notable for its abundant bone tools crafted from deer antlers, indicating specialized hunting and craft activities within a settled agricultural community. It also shows evidence of rice, wheat, and barley cultivation, and wattle-and-daub houses.</li>
+        <li><strong>Daojali Hading (Assam):</strong> Represents the Neolithic culture of Northeast India. Findings include polished stone tools (celts), pottery, and grinding stones, suggesting a shift towards agriculture and settled life in the region, possibly with links to Southeast Asian Neolithic traditions.</li>
+        <li><strong>Southern Neolithic Sites (e.g., Maski, Brahmagiri, Piklihal, Utnur, Tekkalakota in`;
 
-    <h2>Comparative Overview of the Stone Age Phases</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Aspect</th>
-                <th>Paleolithic</th>
-                <th>Mesolithic</th>
-                <th>Neolithic</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Time Span</td>
-                <td>≈ 2.5 Myr – 10 kyr BCE</td>
-                <td>≈ 10 kyr – 6 kyr BCE</td>
-                <td>≈ 6 kyr – 1 kyr BCE</td>
-            </tr>
-            <tr>
-                <td>Primary Subsistence</td>
-                <td>Hunting‑gathering; opportunistic scavenging</td>
-                <td>Hunting‑gathering with early domestication</td>
-                <td>Agriculture + animal husbandry</td>
-            </tr>
-            <tr>
-                <td>Settlement Pattern</td>
-                <td>Nomadic; caves & rock shelters</td>
-                <td>Seasonal camps; semi‑permanent sites</td>
-                <td>Permanent villages; mud‑brick houses</td>
-            </tr>
-            <tr>
-                <td>Tool Material</td>
-                <td>Large quartzite & flake tools</td>
-                <td>Microlithic stone tools mounted on organic handles</td>
-                <td>Polished stone, bone, antler, early metal; pottery</td>
-            </tr>
-            <tr>
-                <td>Key Technological Advances</td>
-                <td>Control of fire, bifacial hand‑axes</td>
-                <td>Microlith production, composite weapons</td>
-                <td>Wheel, pottery, plough, domesticated crops/animals</td>
-            </tr>
-            <tr>
-                <td>Representative Sites (India)</td>
-                <td>Soan Valley, Bori, Kurnool Caves</td>
-                <td>Bagor, Adamgarh, Langhnaj</td>
-                <td>Mehrgarh, Burzahom, Koldihwa, Chirand</td>
-            </tr>
-        </tbody>
-    </table>
+EXPANDED_NOTES_DATA["chalcolithic-age"] = `<h2>️ The Chalcolithic & Pottery Cultures</h2>
+<p>The Chalcolithic period, often referred to as the Copper Age, represents a pivotal transitional phase in human history, bridging the gap between the Stone Age (specifically the Neolithic) and the Bronze Age. Characterized by the simultaneous and joint use of both copper and stone tools, this era marks humanity's first significant foray into metallurgy. The term itself is derived from Greek: 'chalco' meaning copper and 'lithos' meaning stone. This period is crucial for understanding the foundational developments that led to more complex societies, including the emergence of early urban centers and sophisticated craft production.</p>
+<p>Geographically, the Chalcolithic cultures in India flourished predominantly in regions like southeastern Rajasthan, western Madhya Pradesh, eastern Maharashtra, and parts of the Gangetic basin and South India. Chronologically, these cultures generally span from around 3000 BCE to 700 BCE, though specific timelines vary by region. The discovery and mastery of copper smelting was a revolutionary technological leap. While stone tools, particularly microliths and polished stone axes, continued to be widely used for everyday tasks, copper provided a material with superior properties for specific applications, such as weapons, ornaments, and certain agricultural implements. This dual-tool economy reflects a period of innovation and adaptation, laying the groundwork for the more advanced metal ages that followed.</p>
+<p>Pottery, an indispensable archaeological artifact, serves as a primary indicator for identifying and dating Chalcolithic cultures. The distinct styles, fabrics, shapes, and decorative motifs of pottery are unique to different cultural groups and periods. It provides invaluable insights into the daily lives, technological capabilities, aesthetic sensibilities, trade networks, and even dietary practices of these ancient communities. From coarse, hand-made wares to finely wheel-turned and painted vessels,`;
 
-    <p>This concise yet comprehensive synthesis equips aspirants with the essential facts, dates, terminologies and site‑specific evidence required for high‑scoring answers in the History component of UPSC and Defence examinations.</p>
-</body>
-</html>
-`;
-
-EXPANDED_NOTES_DATA["chalcolithic-age"] = `
-
-
-
-  <h2>️ The Chalcolithic & Pottery Cultures</h2>
-  <p>The transition period from the Stone Age to the Metal Age, characterized by the joint use of Copper and Stone.</p>
-
-  <h3>1. Prehistoric Pottery Cultures Timeline</h3>
-  <table style="width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;">
-    <tr style="background-color: rgba(255,255,255,0.15); font-weight: bold;">
-      <th style="padding:8px; border:1px solid var(--border);">Culture</th>
-      <th style="padding:8px; border:1px solid var(--border);">Period</th>
-      <th style="padding:8px; border:1px solid var(--border);">Pottery Types</th>
-    </tr>
-    <tr><td style="padding:8px; border:1px solid var(--border);">Mehrgarh Culture</td><td style="padding:8px; border:1px solid var(--border);">7000-2600 BCE</td><td style="padding:8px; border:1px solid var(--border);">Red Ware, Black-on-Red Ware</td></tr>
-    <tr><td style="padding:8px; border:1px solid var(--border);">Indus Valley Civilization</td><td style="padding:8px; border:1px solid var(--border);">2600-1900 BCE</td><td style="padding:8px; border:1px solid var(--border);">Painted Grey Ware, Black Polished Ware</td></tr>
-    <tr><td style="padding:8px; border:1px solid var(--border);">Ochre Coloured Pottery Culture</td><td style="padding:8px; border:1px solid var(--border);">2000-1500 BCE</td><td style="padding:8px; border:1px solid var(--border);">Ochre Coloured Pottery (OCP)</td></tr>
-    <tr><td style="padding:8px; border:1px solid var(--border);">Malwa Culture</td><td style="padding:8px; border:1px solid var(--border);">1500-500 BCE</td><td style="padding:8px; border:1px solid var(--border);">Malwa Ware (Red and black pottery)</td></tr>
-    <tr><td style="padding:8px; border:1px solid var(--border);">Early Iron Age Cultures</td><td style="padding:8px; border:1px solid var(--border);">1200-600 BCE</td><td style="padding:8px; border:1px solid var(--border);">Northern Black Polished Ware, Painted Grey Ware (PGW)</td></tr>
-    <tr><td style="padding:8px; border:1px solid var(--border);">Megalithic Cultures</td><td style="padding:8px; border:1px solid var(--border);">1000-300 BCE</td><td style="padding:8px; border:1px solid var(--border);">Black and Red Ware</td></tr>
-  </table>
-
-  <h3>2. Major Chalcolithic Cultures</h3>
-  <ul>
-    <li><strong>Ahar-Banas Culture (Rajasthan: 2500-1500 BCE):</strong> Sites like Ahar and Gilund. Houses made of stone and mud. Copper smelting furnaces found.</li>
-    <li><strong>Jorwe Culture (Maharashtra: 1400-700 BCE):</strong> Most extensive. Sites: Inamgaon and Daimabad. Highly settled, fortified villages.</li>
-  </ul>
-
-
-
-`;
-
-EXPANDED_NOTES_DATA["rock-art"] = `
-<!DOCTYPE html>
+EXPANDED_NOTES_DATA["rock-art"] = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -631,37 +912,89 @@ EXPANDED_NOTES_DATA["rock-art"] = `
 </head>
 <body>
 
-    <h2>🎨 Prehistoric Rock Art</h2>
-    <p>Prehistoric rock art is a primary source for reconstructing the socio‑cultural fabric of early humans. The motifs, techniques, and material choices reveal patterns of subsistence, ritual behaviour, and cognitive development spanning tens of millennia.</p>
+    <h2>🎨 Prehistoric Rock Art: A Window into Ancient Minds</h2>
+    <p>Prehistoric rock art, encompassing both **pictographs** (paintings) and **petroglyphs** (engravings), stands as an unparalleled primary source for reconstructing the socio-cultural fabric, cognitive evolution, and environmental adaptations of early humans across the globe. Unlike other archaeological finds such as tools or skeletal remains, rock art offers a direct, visual narrative from the minds of our ancestors, providing insights into their beliefs, daily lives, and artistic sensibilities.</p>
+    <p>The motifs, techniques, and material choices employed in these ancient galleries reveal intricate patterns of subsistence strategies, complex ritual behaviour, nascent religious thought, and remarkable cognitive development spanning hundreds of thousands of years. From the earliest abstract markings to elaborate multi-figure compositions, rock art serves as a universal testament to human creativity and our innate drive to communicate and leave a lasting mark on the world. Its study is crucial for understanding the trajectory of human cultural evolution, offering invaluable data to fields like archaeology, anthropology, art history, and cognitive science.</p>
 
-    <h3>1. Bhimbetka Caves (Madhya Pradesh)</h3>
+    <h3>1. Bhimbetka Caves (Madhya Pradesh): India's Oldest Art Gallery</h3>
+    <p>The Bhimbetka rock shelters, nestled within the Vindhya Range in the state of Madhya Pradesh, represent one of the most significant archaeological sites globally for understanding prehistoric human activity. This sprawling complex of natural rock shelters and caves showcases an extraordinary continuum of human habitation and artistic expression, stretching from the Lower Paleolithic period through the Mesolithic, Neolithic, Chalcolithic, and into historical times. It offers a unique chronological palimpsest of human history in the Indian subcontinent.</p>
 
     <h4>Discovery & UNESCO Recognition</h4>
     <ul>
-        <li><strong>Discoverer:</strong> Archaeologist <strong>V. S. Wakankar</strong> in 1957 while surveying the Vindhya Range.</li>
-        <li><strong>UNESCO World Heritage Site:</strong> Inscribed in 2003 under criteria (iii) and (vi) for its testimony to early human creativity and its continuing cultural relevance.</li>
+        <li><strong>Discoverer:</strong> The Bhimbetka rock shelters were formally discovered and brought to international attention by the eminent Indian archaeologist **Dr. Vishnu Shridhar Wakankar** in 1957. Dr. Wakankar, often hailed as the 'Father of Indian Rock Art,' was surveying the region while travelling by train and noticed striking similarities between the rock formations and those he had seen in Spain and France, particularly the famous Altamira and Lascaux caves. His meticulous research and dedication led to the systematic exploration and documentation of this vast site, revealing its immense archaeological potential. Wakankar's pioneering work established a robust framework for the study of Indian rock art.</li>
+        <li><strong>UNESCO World Heritage Site:</strong> Recognizing its outstanding universal value, the Bhimbetka rock shelters were inscribed as a UNESCO World Heritage Site in 2003. This prestigious designation was granted under two crucial criteria:
+            <ul>
+                <li>**Criterion (iii):** "to bear a unique or at least exceptional testimony to a cultural tradition or to a civilization which is living or which has disappeared." Bhimbetka perfectly embodies this by presenting an unbroken sequence of cultural traditions and artistic expressions from the Stone Age, offering an unparalleled insight into the life and thought of early human societies in India. The sheer volume and continuity of the art provide a profound testimony to a way of life that has largely disappeared but whose echoes persist in the region's indigenous communities.</li>
+                <li>**Criterion (vi):** "to be directly or tangibly associated with events or living traditions, with ideas, or with beliefs, with artistic and literary works of outstanding universal significance." The rock art at Bhimbetka is deeply intertwined with the spiritual beliefs, rituals, and cosmological views of its creators. Many motifs, such as animal worship, hunting rituals, and communal dances, resonate with the living traditions of the tribal communities (like the Bhils and Gonds) who still inhabit the surrounding areas, demonstrating a remarkable continuity of cultural practices and symbolic thought over millennia. The site thus serves as a powerful link between prehistoric past and living present.</li>
+            </ul>
+        </li>
+        <li><strong>Global Significance:</strong> Bhimbetka's inscription placed it alongside other globally renowned prehistoric art sites, highlighting India's rich archaeological heritage and its critical role in understanding the broader narrative of human artistic and cognitive evolution.</li>
     </ul>
 
-    <h4>Chronological Spectrum</h4>
-    <p>The cave complex exhibits uninterrupted artistic activity across several prehistoric phases:</p>
+    <h4>Chronological Spectrum of Artistic Activity</h4>
+    <p>The cave complex exhibits an extraordinary and uninterrupted artistic activity, allowing archaeologists to trace the evolution of human culture, technology, and belief systems across vast stretches of time. The superimposition of paintings from different periods on the same rock surfaces provides a unique chronological record, a visual palimpsest of human history.</p>
     <ul>
-        <li>Upper Paleolithic (≈ 30,000 – 12,000 BCE)</li>
-        <li>Mesolithic (≈ 12,000 – 8,000 BCE)</li>
-        <li>Neolithic (≈ 8,000 – 4,000 BCE)</li>
-        <li>Chalcolithic (≈ 4,000 – 2,000 BCE)</li>
-        <li>Historical periods (post‑2,000 BCE) – later additions by tribal groups.</li>
+        <li><strong>Upper Paleolithic (≈ 40,000 – 12,000 BCE):</strong>
+            <ul>
+                <li>**Artistic Characteristics:** This earliest phase is characterized by large, often solitary, and highly naturalistic depictions of megafauna. Animals like bison (gaur), tigers, rhinoceroses, and elephants are common. The colours are typically deep reds and greens, derived from hematite and glauconite respectively. The figures are often outlined and sometimes filled with geometric patterns or simple washes. The focus is primarily on the animal itself, suggesting a deep reverence or totemic significance.</li>
+                <li>**Societal Context:** Humans were primarily nomadic hunter-gatherers, relying on large game. The art likely reflects hunting magic, a desire to control or influence the hunt, or a spiritual connection with these powerful animals. It also provides valuable data on the fauna present in the region during that epoch.</li>
+            </ul>
+        </li>
+        <li><strong>Mesolithic (≈ 12,000 – 8,000 BCE):</strong>
+            <ul>
+                <li>**Artistic Characteristics:** This is the most prolific and diverse period of rock art at Bhimbetka. The scale of figures generally reduces, and the style becomes more schematic and dynamic. Human figures appear prominently, often in groups, engaged in various activities. Scenes depict communal hunting (with bows and arrows, spears), fishing, food gathering, dancing, singing, and early forms of warfare. Animals are still present but often integrated into human activities. The colour palette expands to include white, yellow, and black, alongside red and green.</li>
+                <li>**Societal Context:** A significant shift occurred towards a more settled or semi-settled lifestyle, with the development of microlithic tools. Social structures became more complex, leading to communal activities and possibly early forms of social stratification. The art reflects a greater emphasis on human interaction, social cohesion, and the challenges and triumphs of community life. Depictions of animals wounded or being hunted are common, reflecting the continued importance of hunting but with more sophisticated strategies.</li>
+            </ul>
+        </li>
+        <li><strong>Neolithic (≈ 8,000 – 4,000 BCE):</strong>
+            <ul>
+                <li>**Artistic Characteristics:** The art becomes even more stylized and symbolic. Themes shift to reflect the agricultural revolution. Depictions of early domesticated animals (cattle, sheep, goats) become common, often shown grazing or being herded. Scenes of farming activities, such as ploughing, sowing, and harvesting, emerge. Village life, with rudimentary shelters and communal gatherings, is also represented.</li>
+                <li>**Societal Context:** This period marks the transition to settled agricultural communities, the development of pottery, and a profound change in human-environment interaction. The art reflects this new relationship with nature, focusing on sustenance through cultivation and animal husbandry, and the establishment of permanent settlements.</li>
+            </ul>
+        </li>
+        <li><strong>Chalcolithic (≈ 4,000 – 2,000 BCE):</strong>
+            <ul>
+                <li>**Artistic Characteristics:** While continuing the stylization of the Neolithic, this phase introduces new elements reflecting the advent of metal technology (copper and bronze). Depictions of wheeled carts, possibly indicating trade or transport, and figures holding metal implements become visible. The art may also show more complex social hierarchies and symbols of authority.</li>
+                <li>**Societal Context:** This era saw the emergence of early village cultures, the development of metallurgy, and the expansion of trade networks. The art provides glimpses into the technological advancements and evolving socio-economic structures of these communities.</li>
+            </ul>
+        </li>
+        <li><strong>Historical periods (post-2,000 BCE):</strong>
+            <ul>
+                <li>**Artistic Characteristics:** The artistic quality generally declines, with figures becoming highly schematic and less detailed. The themes broaden to include religious symbols (e.g., Trishul, Swastika), horse riders, battle scenes with metal weapons (swords, shields), and processions. Some shelters also bear inscriptions in Brahmi script, indicating later usage by ascetics or travelers.</li>
+                <li>**Societal Context:** These later additions reflect the rise of organized religions, kingdoms, and urban centres. The rock shelters continued to be used by various groups, including tribal communities, hermits, and travelers, who added their own layers of artistic and symbolic expression, maintaining the site's cultural relevance over millennia.</li>
+            </ul>
+        </li>
     </ul>
 
     <h4>Artistic Styles & Themes</h4>
-    <p>The repertoire of motifs reflects both everyday life and symbolic expressions:</p>
+    <p>The repertoire of motifs at Bhimbetka is incredibly rich, reflecting both the pragmatic concerns of everyday life and profound symbolic and spiritual expressions. The evolution of styles from naturalistic to schematic provides a visual timeline of cognitive and cultural shifts.</p>
     <ul>
-        <li><strong>Faunal representations:</strong> Bison, tigers, elephants, deer, and other wild animals dominate the panels, indicating hunting priorities and reverence for fauna.</li>
-        <li><strong>Human activities:</strong> Hunting expeditions, communal dances, warfare scenes, and domestic gatherings are recurrent.</li>
-        <li><strong>Symbolic elements:</strong> Abstract patterns, geometric designs, and handprints suggest ritualistic or identity markers.</li>
+        <li><strong>Faunal representations:</strong>
+            <ul>
+                <li>**Dominance and Diversity:** Bison (gaur), tigers, elephants, rhinoceroses, deer (sambar, chital), wild boars, monkeys, antelopes, and various birds and fish dominate the panels. These depictions are not merely illustrative but often convey movement, power, and the essence of the animal.</li>
+                <li>**Hunting Priorities & Reverence:** The prominence of certain animals indicates their importance as prey, but also suggests a deep reverence, possibly totemic beliefs, or a spiritual connection. Animals are often depicted with great accuracy, showcasing the artists' keen observational skills and intimate knowledge of their environment. Some animals are shown wounded, pregnant, or in specific behavioural postures, adding narrative depth.</li>
+                <li>**Environmental Record:** The faunal art serves as a valuable paleo-environmental record, indicating the types of animals that inhabited the region during different prehistoric periods.</li>
+            </ul>
+        </li>
+        <li><strong>Human activities:</strong>
+            <ul>
+                <li>**Hunting Expeditions:** Detailed scenes illustrate group hunting strategies, use of various weapons (spears, bows, arrows, traps), and the pursuit of game. These depict early forms of strategic planning, cooperation, and division of labour within communities.</li>
+                <li>**Communal Dances & Rituals:** Figures adorned with ornaments, masks, or elaborate headgear are shown participating in rhythmic dances and ceremonies. These scenes provide insights into early forms of social cohesion, spiritual practices, and the role of music and movement in community life. They may represent initiation rites, fertility rituals, or celebrations of successful hunts.</li>
+                <li>**Warfare Scenes:** Especially prevalent in Mesolithic and later periods, these depict armed conflicts between groups, often with shields, spears, and bows. They reflect the emergence of territoriality, resource competition, and organized conflict.</li>
+                <li>**Domestic & Gathering Scenes:** Less common but present are depictions of women gathering food, processing resources, preparing meals, and caring for children, offering glimpses into gender roles and daily subsistence activities beyond hunting.</li>
+            </ul>
+        </li>
+        <li><strong>Symbolic elements:</strong>
+            <ul>
+                <li>**Abstract Patterns & Geometric Designs:** Circles, triangles, squares, spirals, zigzags, and other abstract forms are recurrent. These are often interpreted as representations of cosmological ideas, spiritual journeys (possibly shamanic trance states), clan symbols, or early forms of notation.</li>
+                <li>**Handprints & Footprints:** These personal marks may signify identity, presence, or a ritualistic connection to the rock shelter itself. They could be signatures, prayers, or symbols of protection.</li>
+                <li>**Cosmological & Shamanistic Interpretations:** Many scholars suggest that some abstract and animal-human hybrid figures relate to shamanistic beliefs, where shamans would enter altered states of consciousness to communicate with the spirit world, often represented by animals.</li>
+            </ul>
+        </li>
     </ul>
 
     <h4>Materials & Pigment Technology</h4>
-    <p>Artists employed locally sourced minerals, combined with organic binders, to create durable pigments. The table below summarises the principal pigments and their probable sources.</p>
+    <p>The remarkable preservation of Bhimbetka's rock art over tens of millennia is a testament to the ingenuity of its creators in sourcing, preparing, and applying durable pigments. Artists employed locally sourced minerals, combined with organic binders, to create a vibrant and long-lasting palette. The understanding of geological resources and basic chemistry demonstrated by these early artists is truly impressive.</p>
 
     <table>
         <thead>
@@ -670,58 +1003,74 @@ EXPANDED_NOTES_DATA["rock-art"] = `
                 <th>Primary Mineral Source</th>
                 <th>Typical Usage</th>
                 <th>Binding Medium</th>
+                <th>Chemical Properties & Significance</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><strong>Red</strong></td>
-                <td>Hematite (Fe₂O₃) – locally termed <em>geru</em></td>
-                <td>Depicts hunters, weapons, and blood symbolism</td>
-                <td>Water mixed with animal fat or plant gum</td>
+                <td>Hematite (Fe₂O₃) – locally termed <em>geru</em> or red ochre. Abundant in the Vindhyan hills.</td>
+                <td>Depicts hunters, weapons, blood symbolism, powerful animals, outlines, and full body fills. Symbolizes life, vitality, and power.</td>
+                <td>Water mixed with animal fat (from bone marrow or rendered fat), plant gum (e.g., acacia resin), or blood.</td>
+                <td>Iron oxide is chemically stable and resistant to weathering, contributing significantly to the longevity of the paintings. Grinding hematite to a fine powder increases its pigment strength and ease of application.</td>
             </tr>
             <tr>
                 <td><strong>Green</strong></td>
-                <td>Chalcedony (silica) ground to fine powder</td>
-                <td>Used for dancers, vegetation, and ceremonial motifs</td>
-                <td>Water‑based paste; occasional use of plant resin</td>
+                <td>Chalcedony (silica) ground to fine powder; sometimes Glauconite (iron potassium phyllosilicate) or Malachite (copper carbonate) in other sites.</td>
+                <td>Used for dancers, vegetation, ceremonial motifs, and specific animal species. Often used in combination with red.</td>
+                <td>Water-based paste; occasional use of plant resin or animal fat.</td>
+                <td>Green pigments are generally less common and less stable than reds or whites. The specific source (chalcedony) suggests local geological availability. Glauconite provides a duller green, while malachite offers a brighter hue.</td>
             </tr>
             <tr>
                 <td><strong>Yellow/Ochre</strong></td>
-                <td>Goethite and limonite</td>
-                <td>Background fills, sun symbols, and animal fur</td>
-                <td>Water or animal fat</td>
+                <td>Goethite (FeO(OH)) and Limonite (a mixture of hydrated iron oxides).</td>
+                <td>Background fills, sun symbols, animal fur, human figures, and specific ceremonial elements. Provides warmth and contrast.</td>
+                <td>Water or animal fat.</td>
+                <td>Like red ochre, yellow ochre is an iron oxide pigment, known for its stability and widespread availability. Different hydration levels of iron oxides produce varying shades of yellow and brown.</td>
             </tr>
             <tr>
                 <td><strong>Black</strong></td>
-                <td>Manganese oxides or charcoal</td>
-                <td>Outlines, hatching, and symbolic markings</td>
-                <td>Water or plant gum</td>
+                <td>Manganese oxides (e.g., Pyrolusite, MnO₂) or charcoal (from burnt wood, bone, or plant matter).</td>
+                <td>Outlines, hatching, symbolic markings, shadows, and depicting dark-coloured animals or night scenes. Used for strong contrasts.</td>
+                <td>Water or plant gum (e.g., tree sap).</td>
+                <td>Manganese oxides are highly stable and provide a deep, rich black. Charcoal, while effective, can be less durable over millennia unless well-bound. The choice depended on availability and desired effect.</td>
+            </tr>
+            <tr>
+                <td><strong>White</strong></td>
+                <td>Kaolin clay (hydrated aluminium silicate), Limestone (calcium carbonate), or Gypsum (hydrated calcium sulfate).</td>
+                <td>Outlines, filling figures, creating contrast against darker rock surfaces, and depicting spiritual purity or specific ceremonial attire.</td>
+                <td>Water mixed with animal fat, plant gum, or sometimes urine.</td>
+                <td>White pigments, particularly calcium carbonate, are generally stable. Their use highlights figures and creates a striking visual impact, especially in the dim light of the caves.</td>
             </tr>
         </tbody>
     </table>
+    <p>The preparation of these pigments involved grinding the raw mineral lumps into fine powders using stone pestles and mortars. These powders were then mixed with binding agents to create a paintable paste. The choice of binder was crucial for adhesion to the rock surface and for the durability of the paint. Animal fats provided excellent water resistance and flexibility, while plant gums offered good adhesion. The sophisticated understanding of these material properties underscores the advanced practical knowledge of prehistoric artists.</p>
 
     <h4>Techniques & Execution</h4>
+    <p>The artists of Bhimbetka employed a variety of sophisticated techniques, demonstrating not only artistic skill but also an understanding of material science and spatial composition.</p>
     <ul>
-        <li><strong>Surface preparation:</strong> Artists smoothed the rock surface with stone tools before applying pigments.</li>
-        <li><strong>Application methods:</strong> Direct painting with brushes made from plant fibres, finger painting, and blowing pigment through hollow reeds for stippling effects.</li>
-        <li><strong>Layering:</strong> Repeated re‑painting over centuries created superimposed scenes, offering a chronological palimpsest.</li>
+        <li><strong>Surface preparation:</strong> Before applying pigments, artists often prepared the rock surface. This might involve smoothing rough areas with stone tools, scraping away loose debris, or even applying a base layer of white pigment (like kaolin) to create a brighter canvas, especially on darker rock faces. This ensured better adhesion and visibility of the artwork.</li>
+        <li><strong>Application methods:</strong>
+            <ul>
+                <li>**Direct painting:** The most common method involved direct application of pigment. Brushes were likely fashioned from chewed twigs, plant fibres, animal hair, or even feathers, allowing for varying line thickness and detail.</li>
+                <li>**Finger painting:** For broader strokes, outlines, or filling larger areas, fingers were directly used, lending a raw, expressive quality to some figures.</li>
+                <li>**Blowing pigment:** For stippling effects, creating misty backgrounds, or covering large areas with a fine spray, artists may have blown pigment through hollow reeds or bones. This technique could also be used for creating stencils by placing a hand or leaf on the rock and blowing pigment around it.</li>
+                <li>**Engraving/Incising:** While primarily known for pictographs, some petroglyphs (engravings) are also present, created by incising or pecking the rock surface with harder stone tools. These often form outlines or complement painted figures.</li>
+            </ul>
+        </li>
+        <li><strong>Layering (Palimpsest):</strong> A striking feature of Bhimbetka is the frequent superimposition of paintings. Artists repeatedly painted over older scenes, sometimes centuries or even millennia apart. This layering created a chronological palimpsest, offering invaluable insights into the evolution of artistic styles, themes, and cultural practices over time. Archaeologists meticulously analyze these layers to establish relative chronologies. The reasons for superimposition could range from the sacredness of a particular rock face, limited suitable painting surfaces, or even intentional re-creation or modification of older narratives.</li>
+        <li><strong>Lighting:</strong> The execution of these artworks in often dimly lit or dark cave interiors suggests the use of rudimentary lighting, such as torches made from resinous wood or animal fat lamps, further highlighting the resourcefulness of the artists.</li>
     </ul>
 
     <h4>Interpretative Significance</h4>
-    <p>Bhimbetka’s rock art serves as a multidisciplinary bridge linking archaeology, anthropology, and cognitive science. Key insights include:</p>
+    <p>Bhimbetka’s rock art serves as a multidisciplinary bridge linking archaeology, anthropology, and cognitive science, offering profound insights into the human past.</p>
     <ul>
-        <li>Evidence of organized hunting strategies and social cooperation.</li>
-        <li>Early expressions of identity through dance and communal gatherings.</li>
-        <li>Continuity of symbolic thought from the Paleolithic to historic tribal societies.</li>
-        <li>Adaptation of pigment technology reflecting environmental resourcefulness.</li>
-    </ul>
+        <li><strong>Evidence of organized hunting strategies and social cooperation:</strong> The detailed hunting scenes, showing groups of individuals with various weapons and sometimes traps, provide compelling evidence for complex social organization, communication, and strategic planning among prehistoric hunter-gatherers. This indicates a high level of cognitive ability and collective action essential for survival.</li>
+        <li><strong>Early expressions of identity through dance and communal gatherings:</strong> The depictions of communal dances, rituals, and gatherings underscore the importance of social cohesion, shared cultural identity, and spiritual life. These activities likely played a crucial role in reinforcing group bonds, transmitting cultural knowledge, and expressing collective beliefs.</li>
+        <li><strong>Continuity of symbolic thought from the Paleolithic to historic tribal societies:</strong> The enduring presence of certain motifs and symbolic elements across different chronological layers, and their resonance with the living traditions of indigenous communities in the region, highlights a remarkable continuity of symbolic thought and cultural practices over vast periods. This connection offers a unique opportunity to understand the deep roots of Indian cultural heritage.</li>
+        <li><strong>Adaptation of pigment technology reflecting environmental resourcefulness:</strong> The sophisticated use of locally sourced minerals and`;
 
-</body>
-</html>
-`;
-
-EXPANDED_NOTES_DATA["indus-valley-civilization"] = `
-<!DOCTYPE html>
+EXPANDED_NOTES_DATA["indus-valley-civilization"] = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -740,50 +1089,127 @@ EXPANDED_NOTES_DATA["indus-valley-civilization"] = `
 </head>
 <body>
 
-    <h2>🌊 Indus Valley Civilization (IVC)</h2>
-    <p>The Indus Valley Civilization, also called the Harappan Civilization, represents the first urban revolution in the Indian sub‑continent. It flourished during the Bronze Age, roughly between <strong>2600 BCE and 1900 BCE</strong> (Mature Phase), and left a legacy of sophisticated town planning, standardized production, and long‑distance trade.</p>
+    <h2>🌊 Indus Valley Civilization (IVC) – A Comprehensive Study for Defence Exams</h2>
+    <p>The Indus Valley Civilization (IVC), often referred to as the Harappan Civilization due to the discovery of its first site, Harappa, stands as one of the world's three early and widespread cradles of civilization, alongside ancient Egypt and Mesopotamia. It represents the first significant urban revolution in the Indian subcontinent, marking a profound shift from rural, agrarian communities to complex, organized urban centers. Flourishing primarily during the Bronze Age, its mature phase is generally dated between <strong>2600 BCE and 1900 BCE</strong>, though its origins extend earlier and its decline lingered later. This civilization left an indelible legacy of sophisticated town planning, remarkable architectural prowess, standardized production systems, and extensive long-distance trade networks, demonstrating a highly advanced societal structure for its time.</p>
+    <p>Geographically, the IVC spanned a vast area, significantly larger than its contemporary civilizations. It extended from Balochistan in the west, to Uttar Pradesh in the east, and from Jammu in the north, to Maharashtra in the south. This extensive reach across modern-day Pakistan, Afghanistan, and India highlights its immense scale and influence. The civilization was primarily concentrated around the Indus River and its tributaries, as well as the now-dry Ghaggar-Hakra river system, which is often identified with the ancient Saraswati River. Its discovery fundamentally reshaped the understanding of India's ancient history, pushing back the timeline of organized human settlements by millennia and establishing a rich, indigenous foundation for subsequent Indian cultures.</p>
 
-    <h3>1. Discovery, Chronology & Phases</h3>
+    <h3>1. Discovery, Chronology & Phases of the IVC</h3>
+    <p>The existence of a major ancient civilization in the Indus Valley remained unknown until the early 20th century. Initial discoveries of unique seals by Alexander Cunningham in the 19th century were not fully understood until systematic excavations began.</p>
     <ul>
-        <li><strong>First discovery (1921):</strong> Excavations at <em>Harappa</em> led by <strong>Daya Ram Sahni</strong> under the direction of Sir John Marshall.</li>
-        <li><strong>Mohenjo‑daro (1922):</strong> Unearthed by <strong>R. D. Banerji</strong>, providing the most iconic Harappan remains.</li>
-        <li><strong>Chronological framework (Carbon‑14 dating):</strong>
+        <li><strong>Early Observations (1853-1873):</strong> Alexander Cunningham, the first Director-General of the Archaeological Survey of India (ASI), reported on some Harappan seals, but misinterpreted their significance, attributing them to a much later period. This initial oversight delayed the recognition of the civilization for several decades.</li>
+        <li><strong>First Official Discovery (1921):</strong> The monumental discovery of Harappa was made through excavations led by <strong>Daya Ram Sahni</strong>. These efforts were conducted under the overarching direction of Sir John Marshall, who was then the Director-General of the ASI. This excavation brought to light the first clear evidence of a previously unknown ancient urban culture.</li>
+        <li><strong>Mohenjo-daro Unveiled (1922):</strong> Just a year later, another equally significant site, Mohenjo-daro (meaning 'Mound of the Dead'), was unearthed by <strong>R. D. Banerji</strong>. This site, with its well-preserved structures and iconic artifacts, provided the most comprehensive and iconic Harappan remains, solidifying the evidence for a vast and sophisticated civilization. Subsequent excavations by Sir John Marshall himself and Ernest J. H. Mackay further revealed the grandeur of Mohenjo-daro.</li>
+        <li><strong>Official Proclamation (1924):</strong> Sir John Marshall officially announced the discovery of the Indus Valley Civilization to the world, recognizing it as a distinct civilization contemporary with Mesopotamia and Egypt, thereby adding a new chapter to world history.</li>
+        <li><strong>Chronological Framework (Carbon-14 dating & Archaeological Stratigraphy):</strong> The timeline of the IVC is broadly divided into three phases, primarily established through archaeological stratigraphy and refined by radiocarbon dating (Carbon-14 dating). This scientific method allows for precise dating of organic materials found at archaeological sites.
             <ul>
-                <li><em>Early Harappan (Pre‑Mature)</em>: 3300 – 2600 BCE – emergence of villages, early pottery, and nascent trade.</li>
-                <li><em>Mature Harappan</em>: 2600 – 1900 BCE – peak urbanism, standardized brickwork, extensive craft production.</li>
-                <li><em>Late Harappan (Post‑Mature)</em>: 1900 – 1300 BCE – regional diversification, decline of urban centers.</li>
+                <li><em>Early Harappan (Pre-Mature)</em>: 3300 – 2600 BCE. This formative period witnessed the emergence of settled agricultural villages, the development of early pottery styles (e.g., Kot Diji ware), and the beginnings of nascent trade networks. Key characteristics include:
+                    <ul>
+                        <li>Transition from nomadic pastoralism to settled agriculture.</li>
+                        <li>Development of proto-urban characteristics, with fortified settlements.</li>
+                        <li>Early forms of craft specialization and regional trade.</li>
+                        <li>Examples: Kot Diji, Amri, Kalibangan (Early Harappan phase).</li>
+                    </ul>
+                </li>
+                <li><em>Mature Harappan</em>: 2600 – 1900 BCE. This represents the zenith of the civilization, characterized by peak urbanism, highly standardized material culture, and extensive craft production and trade. This phase is defined by:
+                    <ul>
+                        <li>Well-planned cities with grid layouts and sophisticated drainage systems.</li>
+                        <li>Standardized burnt brick architecture (4:2:1 ratio).</li>
+                        <li>Distinctive pottery, seals, weights, and tools across a wide geographical area.</li>
+                        <li>Flourishing long-distance trade with Mesopotamia and other regions.</li>
+                        <li>Development of the undeciphered Harappan script.</li>
+                        <li>Examples: Harappa, Mohenjo-daro, Lothal, Dholavira, Rakhigarhi (during their peak).</li>
+                    </ul>
+                </li>
+                <li><em>Late Harappan (Post-Mature)</em>: 1900 – 1300 BCE. This period marks the decline of the major urban centers and a shift towards regional diversification. While some Harappan traditions persisted, the characteristic urban features began to fade. Key aspects include:
+                    <ul>
+                        <li>Decline in urban planning and standardization.</li>
+                        <li>Abandonment of major cities and migration to smaller, rural settlements.</li>
+                        <li>Emergence of regional cultures (e.g., Jhukar Culture in Sindh, Cemetery H Culture in Punjab).</li>
+                        <li>Loss of the Harappan script and standardized weights.</li>
+                        <li>Evidence of a gradual de-urbanization process rather than a sudden collapse.</li>
+                        <li>Examples: Rangpur, Daimabad, Bet Dwarka.</li>
+                    </ul>
+                </li>
             </ul>
         </li>
     </ul>
 
-    <h3>2. Urban Planning, Architecture & Infrastructure</h3>
+    <h3>2. Urban Planning, Architecture & Infrastructure – The Hallmark of Harappan Genius</h3>
+    <p>The most striking feature of the Indus Valley Civilization is its unparalleled urban planning and sophisticated infrastructure, which demonstrates a high degree of civic organization and engineering skill. Unlike the haphazard growth of many ancient cities, Harappan cities were meticulously planned, often decades or even centuries in advance.</p>
     <h4>2.1 Grid Layout & Zoning</h4>
     <ul>
-        <li><strong>Orthogonal grid:</strong> Streets intersect at right angles, creating rectangular blocks of uniform size.</li>
-        <li><strong>Citadel‑Lower Town division:</strong> Most sites feature a raised citadel (west) for public buildings and elite residences, and a lower town (east) for common dwellings. <em>Dholavira</em> uniquely exhibits a three‑zone layout – Citadel, Middle Town, and Lower Town.</li>
+        <li><strong>Orthogonal Grid System:</strong> Harappan cities, particularly the larger ones like Mohenjo-daro and Harappa, were laid out on a precise orthogonal grid. Major streets ran north-south and east-west, intersecting at perfect right angles, creating a series of rectangular blocks of uniform size. This systematic layout facilitated efficient movement, ventilation, and organization within the city.
+            <ul>
+                <li><strong>Purpose:</strong> This planning indicates a strong central authority capable of enforcing strict building codes and urban design principles. It also ensured optimal air circulation and sunlight penetration, crucial for public health in a hot climate.</li>
+                <li><strong>Execution:</strong> Streets were often paved with burnt bricks, and some even had central dividers. The consistency in street width across different cities suggests a shared architectural blueprint or administrative guidelines.</li>
+            </ul>
+        </li>
+        <li><strong>Citadel-Lower Town Division:</strong> A common and distinctive feature across most Harappan sites is the clear bipartite division of the city.
+            <ul>
+                <li><strong>Citadel (West):</strong> Typically located on the western side and built on a raised platform (often artificial mounds of mud brick), the Citadel housed important public buildings, administrative offices, and possibly elite residences. It was often fortified with massive walls, suggesting a protective or symbolic function. Examples include the Great Bath and Granary at Mohenjo-daro.</li>
+                <li><strong>Lower Town (East):</strong> Situated to the east of the Citadel, the Lower Town was larger in area and contained the residential quarters for the common populace, as well as workshops and marketplaces. Houses here were also built on standardized platforms to protect against floods.</li>
+                <li><strong>Unique Tripartite Layout (Dholavira):</strong> The site of Dholavira in Gujarat stands out with its unique three-zone layout: a fortified Citadel, a Middle Town, and a Lower Town. This suggests a more complex social or administrative hierarchy, or perhaps a regional variation in urban design. The Middle Town might have housed specialized artisans or a distinct social class.</li>
+            </ul>
+        </li>
     </ul>
 
-    <h4>2.2 Drainage & Sanitation</h4>
+    <h4>2.2 Drainage & Sanitation – An Engineering Marvel</h4>
+    <p>The Harappan drainage system was arguably one of the most advanced in the ancient world, far surpassing that of contemporary civilizations. It highlights a remarkable concern for public health and hygiene.</p>
     <ul>
-        <li>Underground covered drains constructed from burnt bricks, laid in a continuous network.</li>
-        <li>Manholes and soak pits placed at regular intervals for maintenance.</li>
-        <li>Individual house drains connected directly to main street drains, reflecting a city‑wide sanitation system.</li>
+        <li><strong>Underground Covered Drains:</strong> The cities featured an elaborate network of underground covered drains, meticulously constructed from precisely cut burnt bricks. These drains ran along the main streets and were designed with a gentle slope to ensure efficient wastewater flow.
+            <ul>
+                <li><strong>Construction:</strong> The bricks were often laid in mortar, and the drains were covered with stone slabs or more bricks, preventing foul odors and disease vectors.</li>
+                <li><strong>Functionality:</strong> This system effectively carried away sewage and stormwater from individual houses and public areas, maintaining a clean urban environment.</li>
+            </ul>
+        </li>
+        <li><strong>Manholes and Soak Pits:</strong> For maintenance and cleaning, manholes (inspection holes) were strategically placed at regular intervals along the main drains. Additionally, soak pits were used to filter and absorb wastewater, particularly from individual houses before it entered the main system. This demonstrates an understanding of waste management and environmental sanitation.</li>
+        <li><strong>Individual House Connections:</strong> A key aspect was that almost every house, regardless of its size, had its own private bathing area and toilet, with drains connected directly to the smaller street drains, which in turn fed into the larger main street drains. This city-wide, integrated sanitation system is a testament to the Harappans' advanced civic planning and collective responsibility for public health.
+            <ul>
+                <li><strong>Implication:</strong> This level of sanitation suggests a centralized municipal authority that enforced strict health regulations and provided public services, a concept far ahead of its time.</li>
+            </ul>
+        </li>
     </ul>
 
     <h4>2.3 Building Materials & Standardization</h4>
+    <p>The uniformity in construction materials and techniques across the vast expanse of the IVC is another indicator of its organized nature and centralized control over resources and production.</p>
     <ul>
-        <li>Standardized burnt bricks with a consistent proportion of <strong>4 : 2 : 1</strong> (length : breadth : thickness).</li>
-        <li>Use of baked mud bricks for walls, and stone for granaries and public structures.</li>
+        <li><strong>Standardized Burnt Bricks:</strong> The most common building material was burnt bricks, which were produced in remarkable consistency. They adhered to a strict proportion of <strong>4 : 2 : 1</strong> (length : breadth : thickness). This standardization facilitated mass production, efficient construction, and structural stability.
+            <ul>
+                <li><strong>Why Burnt Bricks?</strong> Burnt bricks are more durable and resistant to water and erosion than sun-dried bricks, making them ideal for long-lasting structures, especially in a region prone to floods. The process of firing bricks requires significant organization and fuel resources.</li>
+                <li><strong>Impact:</strong> This uniformity allowed for modular construction and easy repairs, contributing to the longevity and robustness of Harappan architecture.</li>
+            </ul>
+        </li>
+        <li><strong>Use of Baked Mud Bricks and Stone:</strong> While burnt bricks were prevalent, baked mud bricks (sun-dried) were also used, particularly for the core of platforms and walls, and in less critical structures. Stone was employed for specific purposes, such as foundations, some public structures, and in regions where it was readily available (e.g., Dholavira's use of dressed stone).</li>
+        <li><strong>Mortar and Plaster:</strong> Mud mortar was commonly used, sometimes reinforced with gypsum. Walls were often plastered with a layer of mud and lime, which provided a smooth finish and additional protection.</li>
     </ul>
 
-    <h4>2.4 Public Structures</h4>
+    <h4>2.4 Public Structures – Centers of Community Life and Administration</h4>
+    <p>Beyond residential areas, Harappan cities featured impressive public structures that served various community, administrative, and possibly ritualistic functions.</p>
     <ul>
-        <li><strong>Great Bath (Mohenjo‑daro):</strong> A large, watertight public pool with a sophisticated drainage system, possibly used for ritual bathing.</li>
-        <li><strong>Granaries:</strong> Massive, multi‑roomed storage facilities (e.g., six granaries at Harappa) indicating organized food surplus management.</li>
-        <li><strong>Water reservoirs (Dholavira):</strong> Large cisterns and step‑wells that ensured water supply during arid periods.</li>
+        <li><strong>Great Bath (Mohenjo-daro):</strong> This iconic structure is a large, rectangular watertight tank, measuring approximately 12 meters long, 7 meters wide, and 2.4 meters deep. It was constructed with finely fitted burnt bricks and sealed with natural tar (bitumen) to prevent water seepage.
+            <ul>
+                <li><strong>Features:</strong> It has flights of steps at the north and south leading into the tank, and a surrounding verandah with rooms. A large well in an adjacent room supplied water, and an efficient outlet drain allowed for emptying the tank.</li>
+                <li><strong>Purpose:</strong> While its exact purpose is debated, the most widely accepted theory is that it was used for ritualistic bathing, perhaps during religious ceremonies or purification rites, similar to later Hindu temple tanks. Its grand scale and meticulous construction suggest its immense importance.</li>
+            <li><strong>Significance:</strong> It reflects the Harappans' advanced engineering skills in water management and their potential religious beliefs centered around water purity.</li>
+            </ul>
+        </li>
+        <li><strong>Great Granary (Mohenjo-daro) and Granaries at Harappa:</strong> These were massive, multi-roomed storage facilities, indicating an organized system for managing agricultural surplus. The Great Granary at Mohenjo-daro was a colossal structure, though its exact form is debated due to later erosion. At Harappa, six granaries were found aligned in two rows, each measuring approximately 15 x 6 meters, with a working platform nearby for threshing grain.
+            <ul>
+                <li><strong>Economic Implications:</strong> The presence of such large granaries suggests a highly productive agricultural base, a system for collecting and redistributing food, and a centralized economic administration. This surplus was crucial for sustaining the urban population, supporting non-agricultural specialists, and facilitating trade.</li>
+                <li><strong>Construction:</strong> Granaries were typically built on raised platforms to protect stored grains from floods and pests, and often featured ventilation ducts to keep the grain dry.</li>
+            </ul>
+        </li>
+        <li><strong>Water Reservoirs (Dholavira):</strong> Dholavira is particularly renowned for its sophisticated water harvesting and management system. The city featured numerous large cisterns, rock-cut reservoirs, and step-wells designed to collect and store rainwater.
+            <ul>
+                <li><strong>Environmental Adaptation:</strong> Located in the arid Kutch region, Dholavira's elaborate system was crucial for ensuring a perennial water supply, especially during the long dry seasons and periods of drought. It demonstrates remarkable ingenuity in adapting to challenging environmental conditions.</li>
+                <li><strong>Engineering:</strong> The reservoirs were often interconnected and fed by channels that diverted water from seasonal streams. This system not only provided drinking water but also supported agriculture in the surrounding areas.</li>
+            </ul>
+        </li>
+        <li><strong>Assembly Hall/Pillared Hall (Mohenjo-daro):</strong> A large hall with twenty pillars arranged in four rows has been excavated in the Citadel area of Mohenjo-daro. Its purpose is debated, but it is often interpreted as an assembly hall for administrative meetings, a marketplace, or a religious congregation point.</li>
     </ul>
 
-    <h3>3. Major Harappan Sites – High‑Yield Facts</h3>
+    <h3>3. Major Harappan Sites – High-Yield Facts for Defence Exams</h3>
+    <p>Understanding the specific characteristics and key discoveries of prominent Harappan sites is crucial for competitive examinations. Each site offers unique insights into the civilization's diversity and specialized functions.</p>
     <table>
         <thead>
             <tr>
@@ -795,289 +1221,163 @@ EXPANDED_NOTES_DATA["indus-valley-civilization"] = `
         <tbody>
             <tr>
                 <td><strong>Harappa</strong></td>
-                <td>Punjab (Pakistan), Ravi River basin</td>
+                <td>Punjab (Pakistan), situated on the banks of the Ravi River (a tributary of the Indus).</td>
                 <td>
                     <ul class="highlight">
-                        <li>Six granaries aligned in a row.</li>
-                        <li>Stone lingam and yoni symbols.</li>
-                        <li>Coffin‑type burials (R‑37 cemetery).</li>
+                        <li><strong>First Discovered Site:</strong> Crucial for the initial identification of the civilization.</li>
+                        <li><strong>Six Granaries:</strong> Aligned in two rows, indicating organized food storage and distribution. Adjacent working platforms for threshing grain.</li>
+                        <li><strong>Stone Lingam and Yoni Symbols:</strong> Suggestive of early forms of Shiva worship and fertility cults, which have continuity in later Indian religions.</li>
+                        <li><strong>Coffin-type Burials (R-37 cemetery):</strong> A distinct burial practice, providing insights into funerary rituals and beliefs.</li>
+                        <li><strong>Terracotta Figurines:</strong> Including representations of the Mother Goddess.</li>
+                        <li><strong>Workmen's Quarters:</strong> Small, uniform dwellings near the granaries, suggesting a class of laborers.</li>
+                        <li><strong>Bronze Figure of a Cart:</strong> Depicting advanced metallurgy and transportation.</li>
                     </ul>
                 </td>
             </tr>
             <tr>
-                <td><strong>Mohenjo‑daro</strong></td>
-                <td>Sindh (Pakistan), Indus River</td>
+                <td><strong>Mohenjo-daro</strong></td>
+                <td>Sindh (Pakistan), located on the right bank of the Indus River.</td>
                 <td>
                     <ul class="highlight">
-                        <li>Great Bath and Great Granary.</li>
-                        <li>Bronze “Dancing Girl” statue.</li>
-                        <li>Pashupati seal depicting a proto‑Shiva figure.</li>
-                        <li>Bearded priest figurine.</li>
+                        <li><strong>Great Bath and Great Granary:</strong> Iconic public structures demonstrating advanced engineering and civic planning.</li>
+                        <li><strong>Bronze “Dancing Girl” Statue:</strong> A masterpiece of Harappan art, depicting a nude female figure in a confident pose, indicating knowledge of lost-wax casting (cire perdue) technique and artistic expression.</li>
+                        <li><strong>Pashupati Seal:</strong> Depicting a seated, three-faced deity surrounded by animals (elephant, tiger, rhino, buffalo, and two deer below), often interpreted as a proto-Shiva figure, highlighting early religious iconography.</li>
+                        <li><strong>Bearded Priest-King Figurine:</strong> A steatite sculpture of a male figure with a neatly trimmed beard, adorned with an embroidered robe, suggesting a priestly or administrative elite.</li>
+                        <li><strong>Assembly Hall/Pillared Hall:</strong> A large structure with twenty pillars, possibly for public gatherings or administration.</li>
+                        <li><strong>Well-planned Grid System:</strong> Exemplifies the best of Harappan urban planning, with wide streets and an elaborate drainage system.</li>
+                        <li><strong>Numerous Seals:</strong> Providing rich insights into their script, religious beliefs, and daily life.</li>
                     </ul>
                 </td>
             </tr>
             <tr>
                 <td><strong>Lothal</strong></td>
-                <td>Gujarat (India), Bhogava River (tributary of Sabarmati)</td>
+                <td>Gujarat (India), situated on the banks of the Bhogava River, a tributary of the Sabarmati, near the Gulf of Khambhat.</td>
                 <td>
                     <ul class="highlight">
-                        <li>Artificial dockyard – earliest known dock in the world, indicating maritime trade with Mesopotamia.</li>
-                        <li>Double burials (male & female) suggesting social customs.</li>
-                        <li>Evidence of rice husk – indicating rice cultivation.</li>
+                        <li><strong>Artificial Dockyard:</strong> Considered the earliest known dock in the world, indicating sophisticated maritime engineering and extensive overseas trade with Mesopotamia and other Persian Gulf regions. It was connected to the Gulf by a channel.</li>
+                        <li><strong>Double Burials (Male & Female):</strong> Unique burial practice where a male and female were buried together, possibly suggesting Sati (though debated) or specific social customs.</li>
+                        <li><strong>Evidence of Rice Husk:</strong> Indicating the cultivation of rice, which was less common in other Harappan sites.</li>
+                        <li><strong>Bead-making Factory:</strong> Significant evidence of specialized craft production, particularly carnelian beads, which were highly valued trade items.</li>
+                        <li><strong>Fire Altars:</strong> Suggesting ritualistic practices, similar to those found at Kalibangan.</li>
+                        <li><strong>Persian Gulf Seal:</strong> Found here, confirming trade links with the Middle East.</li>
+                        <li><strong>Terracotta Model of a Ship:</strong> Further evidence of maritime activities.</li>
                     </ul>
                 </td>
             </tr>
             <tr>
                 <td><strong>Kalibangan</strong></td>
-                <td>Rajasthan (India), Ghaggar River</td>
+                <td>Rajasthan (India), located on the banks of the Ghaggar River (identified with the ancient Saraswati River).</td>
                 <td>
                     <ul class="highlight">
-                        <li>Ploughed field surfaces – earliest evidence of systematic agriculture.</li>
-                        <li>Fire altars – possible ritualistic use.</li>
-                        <li>Camel bones – indicating domestication or trade.</li>
+                        <li><strong>Ploughed Field Surfaces:</strong> Earliest archaeological evidence of a systematically ploughed agricultural field, dating back to the Early Harappan phase, demonstrating advanced farming techniques.</li>
+                        <li><strong>Fire Altars:</strong> A series of seven rectangular fire altars, suggesting the practice of fire worship or sacrificial rituals, possibly proto-Vedic practices.</li>
+                        <li><strong>Camel Bones:</strong> Indicating the domestication or significant presence of camels, used for transport or agriculture.</li>
+                        <li><strong>Cylindrical Seals:</strong> Similar to Mesopotamian seals, suggesting cultural interaction or trade.</li>
+                        <li><strong>Unique City Plan:</strong> Featuring both a fortified Citadel and a Lower Town, with houses made of mud bricks (unlike the burnt bricks of Mohenjo-daro).</li>
+                        <li><strong>Evidence of Earthquakes:</strong> Suggesting tectonic activity might have played a role in its decline.</li>
                     </ul>
                 </td>
             </tr>
             <tr>
                 <td><strong>Dholavira</strong></td>
-                <td>Gujarat (India), Kutch region</td>
+                <td>Gujarat (India), located on Khadir Bet island in the Rann of Kutch.</td>
                 <td>
                     <ul class="highlight">
-                        <li>Tripartite city division (Citadel, Middle, Lower).</li>
-                        <li>Massive water reservoirs and step‑wells.</li>
-                        <li>Stadium‑like structure.</li>
-                        <li>Billboard with ten large Harappan signs – early example of public signage.</li>
+                        <li><strong>Tripartite City Division:</strong> Uniquely divided into three principal parts – the Citadel, a Middle Town, and a Lower Town, each fortified with massive stone walls.</li>
+                        <li><strong>Massive Water Reservoirs and Step-wells:</strong> An exceptionally sophisticated water harvesting and management system, crucial for survival in the arid Kutch region. This included elaborate channels and dams.</li>
+                        <li><strong>Stadium-like Structure:</strong> A large open area, possibly used for public gatherings, ceremonies, or sports.</li>
+                        <li><strong>"Billboard" with Ten Large Harappan Signs:</strong> A unique inscription made of ten large pictographic signs, possibly an early example of public signage or a ceremonial inscription, offering valuable insights into their script.</li>
+                        <li><strong>Use of Dressed Stone:</strong> Extensive use of local dressed stone in construction, alongside mud bricks.</li>
+                        <li><strong>Largest Harappan Inscription:</strong> The signboard is the longest known inscription of the IVC.</li>
+                        <li><strong>UNESCO World Heritage Site:</strong> Recognized for its outstanding universal value.</li>
                     </ul>
                 </td>
             </tr>
             <tr>
                 <td><strong>Chanhudaro</strong></td>
-                <td>Sindh (Pakistan), Indus River</td>
+                <td>Sindh (Pakistan), located south of Mohenjo-daro on the banks of the Indus River.</td>
                 <td>
                     <ul class="highlight">
-                        <li>Only Harappan city lacking a citadel.</li>
-                        <li>Bead‑making workshops – specialized craft production.</li>
-                        <li>Inkwell and lipstick imprint on brick – evidence of writing and personal grooming.</li>
+                        <li><strong>Only Harappan City Lacking a Citadel:</strong> This unique feature suggests it might have been primarily a specialized industrial center rather than an administrative or defensive hub.</li>
+                        <li><strong>Bead-making Workshops:</strong> Extensive evidence of specialized craft production, particularly for beads made from carnelian, lapis lazuli, and steatite. This site was a major hub for manufacturing ornaments.</li>
+                        <li><strong>Bronze Tools and Seals:</strong> Indicating metallurgical skills.</li>
+                        <li><strong>Inkwell and Lipstick Imprint on Brick:</strong> Evidence of writing instruments and personal grooming/cosmetics, providing glimpses into daily life.</li>
+                        <li><strong>Terracotta Model of a Bullock Cart:</strong> Suggesting modes of transport.</li>
+                        <li><strong>Footprints of a Dog Chasing a Cat:</strong> Preserved in a brick, offering a vivid snapshot of daily life.</li>
                     </ul>
                 </td>
             </tr>
             <tr>
                 <td><strong>Surkotada</strong></td>
-                <td>Gujarat (India)</td>
+                <td>Gujarat (India), located in the Kutch region.</td>
                 <td>
                     <ul class="highlight">
-                        <li>Only site with confirmed horse bones – crucial for debates on Indo‑Aryan migrations.</li>
-                        <li>Pot burials – distinct funerary practice.</li>
+                        <li><strong>Confirmed Horse Bones:</strong> The only site with definitive archaeological evidence of horse bones from the Mature Harappan phase, crucial for debates on the indigenous nature of the horse in India and its role in the context of Indo-Aryan migrations.</li>
+                        <li><strong>Pot Burials:</strong> A distinct funerary practice where human remains were interred in large earthen pots.</li>
+                        <li><strong>Stone Rubble Fortification:</strong> Unique use of stone rubble for fortifications.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Rakhigarhi</strong></td>
+                <td>Haryana (India), located on the Ghaggar-Hakra river plain.</td>
+                <td>
+                    <ul class="highlight">
+                        <li><strong>Largest Harappan Site in India:</strong> One of the largest overall Harappan sites, indicating a major urban center.</li>
+                        <li><strong>Extensive Mound Complex:</strong> Spread over several mounds, revealing a continuous occupation from Early to Late Harappan phases.</li>
+                        <li><strong>Evidence of Granaries, Drainage System, and Terracotta Bricks:</strong> All indicative of typical Harappan urban planning.</li>
+                        <li><strong>DNA Studies:</strong> Recent DNA analysis of skeletal remains from Rakhigarhi has provided significant insights into the genetic makeup of the Harappan people, suggesting indigenous origins and continuity.</li>
+                        <li><strong>Fire Altars and Sacrificial Pits:</strong> Similar to Kalibangan, suggesting ritualistic practices.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Banawali</strong></td>
+                <td>Haryana (India), located on the banks of the now-dry Saraswati River.</td>
+                <td>
+                    <ul class="highlight">
+                        <li><strong>Lack of Grid Pattern:</strong> Unlike other major Harappan cities, Banawali shows a more organic, radial street pattern, suggesting regional variations in urban planning.</li>
+                        <li><strong>Toy Plough:</strong> A terracotta model of a plough, providing evidence of agricultural tools.</li>
+                        <li><strong>Barley Cultivation:</strong> Strong evidence for the cultivation of barley.</li>
+                        <li><strong>Oval-shaped Settlement:</strong> Unique layout compared to the usual rectangular Harappan cities.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Daimabad</strong></td>
+                <td>Maharashtra (India), located on the left bank of the Pravara River, a tributary of the Godavari.</td>
+                <td>
+                    <ul class="highlight">
+                        <li><strong>Southernmost Site of IVC:</strong> Marks the southern extent of the Harappan influence.</li>
+                        <li><strong>Bronze Hoard:</strong> Famous for the discovery of a hoard of four bronze objects (rhinoceros, elephant, buffalo, and a chariot with a charioteer), demonstrating advanced metallurgy and potential cultural links.</li>
+                        <li><strong>Late Harappan Phase:</strong> Primarily represents the Late Harappan and post-Harappan Chalcolithic cultures.</li>
                     </ul>
                 </td>
             </tr>
         </tbody>
     </table>
 
-    <h3>4. Economy, Craft Production & Trade Networks</h3>
+    <h3>4. Economy, Craft Production & Trade Networks – The Engine of Civilization</h3>
+    <p>The Harappan economy was robust and diversified, based on a strong agricultural foundation, sophisticated craft production, and extensive internal and external trade networks. This economic complexity supported the large urban populations and specialized labor force.</p>
     <ul>
-        <li><strong>Agriculture:</strong> Predominantly wheat, barley, and millets; cotton was cultivated on a large scale – the world’s earliest known cotton production, later termed <em>Sindon</em> by Greek writers.</li>
-        <li><strong>Animal husbandry:</strong> Cattle, buffalo, goats, sheep, and at some sites, camels and horses.</li>
-        <li><strong>Crafts:</strong>
+        <li><strong>Agriculture:</strong> The backbone of the Harappan economy was its highly productive agriculture, supported by the fertile alluvial plains of the Indus and Ghaggar-Hakra rivers.
             <ul>
-                <li>Bead making (semi‑precious stones, faience, carnelian) – most sites have dedicated bead workshops.</li>
-                <li>Metallurgy – copper, bronze, and occasional gold artifacts.</li>
-                <li>Pottery – standardized shapes, painted motifs, and occasional terracotta figurines.</li>
-                <li>Textiles – evidence from spindle whorls and impressions on pottery.</li>
+                <li><strong>Major Crops:</strong> Predominantly wheat (especially bread wheat and club wheat), barley (a hardy crop), and various millets. Evidence from Lothal and Rangpur indicates rice cultivation, suggesting adaptation to regional conditions. Other crops included pulses, oilseeds (sesame, mustard), and dates.</li>
+                <li><strong>Cotton Cultivation:</strong> The Harappans were pioneers in cotton cultivation, being the world’s earliest known producers of cotton. This fiber was later termed <em>Sindon</em> by Greek writers, a term derived from 'Sindh', indicating its origin. This highlights their advanced textile technology.</li>
+                <li><strong>Agricultural Tools & Techniques:</strong> Evidence from Kalibangan shows ploughed fields, suggesting the use of wooden ploughs. Irrigation was likely practiced, utilizing river water and possibly small canals or reservoirs (as seen in Dholavira). Crop rotation might have been employed to maintain soil fertility.</li>
+                <li><strong>Surplus Production:</strong> The presence of large granaries at sites like Harappa and Mohenjo-daro confirms a significant agricultural surplus, which was essential for feeding the non-agricultural urban population and for trade.</li>
             </ul>
         </li>
-        <li><strong>Trade:</strong> Extensive long‑distance exchange with Mesopotamia (cuneiform references to “<em>Meluhha</em>”), Oman, and the Persian Gulf. Export items included cotton, beads, precious stones, and possibly timber.</li>
-    </ul>
-
-    <h3>5. Script, Seals & Administrative Aspects</h3>
-    <ul>
-        <li><strong>Script:</strong> Undeciphered pictographic system, written predominantly in <em>boustrophedon</em> (alternating direction) on seals, tablets, and pottery.</li>
-        <li><strong>Seals:</strong> Mostly crafted from steatite (soapstone); rectangular or square; depict animals, mythic figures, and geometric patterns. Served as administrative tokens for trade and possibly identity verification.</li>
-        <li><strong>Standardized Weights:</strong> Cubic stone weights in a decimal system (1 kg, 2 kg, 5 kg, etc.) indicating sophisticated commercial regulation.</li>
-    </ul>
-
-    <h3>6. Social Organization & Daily Life</h3>
-    <ul>
-        <li><strong>Social hierarchy:</strong> Inferred from spatial segregation – citadel elites, middle‑class artisans, and lower‑class laborers.</li>
-        <li><strong>Housing:</strong> Uniform brick houses with courtyards; some larger homes featured private wells and bathrooms.</li>
-        <li><strong>Burial practices:</strong> Varied across sites – pit graves, coffin burials, and pot burials; limited grave goods suggest a relatively egalitarian society.</li>
-        <li><strong>Diet:</strong> Evidence of wheat, barley, rice, legumes, dairy products, and fish; presence of domesticated animals indicates mixed farming.</li>
-    </ul>
-
-    <h3>7. Theories of Decline</h3>
-    <ul>
-        <li><strong>Aryan Invasion Theory:</strong> Proposed by Mortimer Wheeler; now largely discredited due to lack of archaeological evidence.</li>
-        <li><strong>Riverine Flooding:</strong> Suggested by Sir John Marshall and S. R. Rao – catastrophic floods may have damaged urban infrastructure.</li>
-        <li><strong>Ecological & Climatic Changes:</strong>
+        <li><strong>Animal Husbandry:</strong> Domestication of animals played a crucial role, providing food, labor, and raw materials.
             <ul>
-                <li>River drying and shift of the Ghaggar‑Hakra system (Sood & Agrawal).</li>
-                <li>Progressive aridification leading to water scarcity (Rafique Mughal).</li>
+                <li><strong>Primary Animals:</strong> Cattle (especially Zebu cattle, depicted on seals), buffalo, goats, and sheep were widely domesticated. These provided milk, meat, hides, and served as draught animals.</li>
+                <li><strong>Other Animals:</strong> Dogs and cats were domesticated (evidence from Chanhudaro). At some sites, evidence of camels (Kalibangan) and even confirmed horse bones (Surkotada) has been found, though the widespread use of horses is debated. Fowl were also raised.</li>
+                <li><strong>Pastoralism:</strong> Alongside settled agriculture, pastoralism (herding) was an important economic activity, especially in the peripheral regions.</li>
             </ul>
         </li>
-        <li><strong>Economic Disintegration:</strong> Collapse of long‑distance trade networks and over‑exploitation of resources.</li>
-    </ul>
+        <li><strong>Craft Production & Industries:</strong> The IVC was characterized by`;
 
-    <h3>8. Legacy & Significance</h3>
-    <p>The Indus Valley Civilization set a benchmark for urban planning, standardization, and early state formation in South Asia. Its sophisticated water management, craft specialization, and extensive trade links underscore a complex society that pre‑dated contemporary civilizations of Egypt and Mesopotamia. Understanding its rise and fall provides crucial insights into ancient environmental adaptation, social organization, and the early roots of Indian civilization.</p>
-
-
-
-    <br><hr><br>
-    
-<h2>Indus Valley Civilisation</h2>
-<h3>Script and Language</h3>
-<ul>
-  <li>The script and language are undeciphered.</li>
-  <li>The script is pictographic in nature.</li>
-  <li>The fish symbol is the most represented.</li>
-  <li>Overlapping of letters indicates writing from right to left in the first line and then left to right in the second line. This style is called <b>boustrophedon</b>.</li>
-  <li>A signboard inscription bearing 10 pictographs has been found from Dholavira in Gujarat.</li>
-</ul>
-<h3>Decline of Indus Valley Civilisation: Different Views</h3>
-<p>Historians believe many factors contributed to the decline of this ancient civilisation.</p>
-<table>
-  <thead>
-    <tr>
-      <th>Cause of Decline</th>
-      <th>Contribution of Thinkers</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>External Aggression</td>
-      <td>Wheeler, Piggot, Gordan-childe</td>
-    </tr>
-    <tr>
-      <td>Inundation</td>
-      <td>MR Sahani</td>
-    </tr>
-    <tr>
-      <td>Epidemic</td>
-      <td>KVR Kennedy</td>
-    </tr>
-    <tr>
-      <td>Tectonic Disturbances (e.g., Dholavira)</td>
-      <td>Marshall and Raikes</td>
-    </tr>
-    <tr>
-      <td>Sudden Decline</td>
-      <td>Wheeler</td>
-    </tr>
-    <tr>
-      <td>Climatic Change</td>
-      <td>RL Stein, AN Ghosh</td>
-    </tr>
-    <tr>
-      <td>Deforestation, scarcity of resources, ecological imbalances</td>
-      <td>Walter Fairservis</td>
-    </tr>
-    <tr>
-      <td>Flood (e.g., Mohenjodaro)</td>
-      <td>Marshal, SR Rao, Maickey</td>
-    </tr>
-    <tr>
-      <td>The destruction due to change in course of river Ghaggar</td>
-      <td>GF Holes</td>
-    </tr>
-  </tbody>
-</table>
-<h3>Contributions of Harappan Civilisation</h3>
-<ul>
-  <li>Flourished between 2600 BC and 1900 BC.</li>
-  <li>Major contributions include:</li>
-  <ul>
-    <li>Standardised weights and measures.</li>
-    <li>Planned city construction.</li>
-    <li>Public buildings like the Great Bath.</li>
-    <li>Worship of fire, Mother goddess, tree, and phallus, which was carried forward by the Aryans.</li>
-    <li>Agricultural practices.</li>
-    <li>Use of seals for trade.</li>
-    <li>Ornaments and dresses.</li>
-  </ul>
-  <li>The impact of Harappan civilisation could be seen on the socio, economic, political, and religious life of the people.</li>
-</ul>
-
-
-</body>
-</html>
-
-<hr style="margin: 20px 0; border-color: #ddd;">
-<h2>Detailed Expansion (Pathfinder Extracted)</h2>
-<h3>Indus Valley Civilisation</h3>
-<h3>Script and Language</h3>
-<ul>
-  <li>The script and language are undeciphered.</li>
-  <li>The script is pictographic in nature.</li>
-  <li>The fish symbol is the most represented.</li>
-  <li>Overlapping of letters indicates writing from right to left in the first line and then left to right in the second line. This style is called <b>boustrophedon</b>.</li>
-  <li>A signboard inscription bearing 10 pictographs has been found from Dholavira in Gujarat.</li>
-</ul>
-<h3>Decline of Indus Valley Civilisation: Different Views</h3>
-<p>Historians believe many factors contributed to the decline of this ancient civilisation.</p>
-<table>
-  <thead>
-    <tr>
-      <th>Cause of Decline</th>
-      <th>Contribution of Thinkers</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>External Aggression</td>
-      <td>Wheeler, Piggot, Gordan-childe</td>
-    </tr>
-    <tr>
-      <td>Inundation</td>
-      <td>MR Sahani</td>
-    </tr>
-    <tr>
-      <td>Epidemic</td>
-      <td>KVR Kennedy</td>
-    </tr>
-    <tr>
-      <td>Tectonic Disturbances (e.g., Dholavira)</td>
-      <td>Marshall and Raikes</td>
-    </tr>
-    <tr>
-      <td>Sudden Decline</td>
-      <td>Wheeler</td>
-    </tr>
-    <tr>
-      <td>Climatic Change</td>
-      <td>RL Stein, AN Ghosh</td>
-    </tr>
-    <tr>
-      <td>Deforestation, scarcity of resources, ecological imbalances</td>
-      <td>Walter Fairservis</td>
-    </tr>
-    <tr>
-      <td>Flood (e.g., Mohenjodaro)</td>
-      <td>Marshal, SR Rao, Maickey</td>
-    </tr>
-    <tr>
-      <td>The destruction due to change in course of river Ghaggar</td>
-      <td>GF Holes</td>
-    </tr>
-  </tbody>
-</table>
-<h3>Contributions of Harappan Civilisation</h3>
-<ul>
-  <li>Flourished between 2600 BC and 1900 BC.</li>
-  <li>Major contributions include:</li>
-  <ul>
-    <li>Standardised weights and measures.</li>
-    <li>Planned city construction.</li>
-    <li>Public buildings like the Great Bath.</li>
-    <li>Worship of fire, Mother goddess, tree, and phallus, which was carried forward by the Aryans.</li>
-    <li>Agricultural practices.</li>
-    <li>Use of seals for trade.</li>
-    <li>Ornaments and dresses.</li>
-  </ul>
-  <li>The impact of Harappan civilisation could be seen on the socio, economic, political, and religious life of the people.</li>
-</ul>`;
-
-EXPANDED_NOTES_DATA["vedic-age"] = `
-<!DOCTYPE html>
+EXPANDED_NOTES_DATA["vedic-age"] = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -1095,59 +1395,90 @@ EXPANDED_NOTES_DATA["vedic-age"] = `
 <body>
 
 <h2>The Vedic Age (c. 1500–600 BCE)</h2>
-<p>Reconstructed primarily from the <em>Vedas</em>, the period is conventionally divided into the Early (c. 1500–1000 BCE) and Later (c. 1000–600 BCE) Vedic phases. The transition marks profound changes in geography, polity, economy, social structure, and literary output.</p>
+<p>The Vedic Age represents a pivotal epoch in ancient Indian history, marking the transition from pre-historic cultures to the foundational stages of classical Indian civilization. Reconstructed primarily from the extensive corpus of the <em>Vedas</em> – a collection of sacred hymns, prayers, and philosophical treatises – this period is conventionally divided into two distinct yet interconnected phases: the Early Vedic Period (c. 1500–1000 BCE) and the Later Vedic Period (c. 1000–600 BCE). This chronological division is not arbitrary but reflects profound and transformative changes across various facets of life, including geographical settlement patterns, political organization, economic activities, social stratification, religious practices, and the evolution of literary output. Understanding these transitions is crucial for comprehending the subsequent development of Indian society, polity, and culture.</p>
+<p>The term 'Vedic' itself is derived from 'Veda', meaning 'knowledge' or 'wisdom', signifying the paramount importance of these sacred texts as the primary historical source. While archaeological evidence, such as Painted Grey Ware (PGW) pottery and iron artifacts, provides corroborative insights, the Vedas remain the bedrock of our understanding of this era. The period witnessed the migration and settlement of Indo-Aryan speaking communities, their interaction with indigenous populations, and the gradual shaping of a distinct cultural identity that laid the groundwork for future empires and philosophical traditions.</p>
 
 <h3>1. Early Vedic Period (c. 1500–1000 BCE)</h3>
+<p>This initial phase, often referred to as the Rigvedic Period due to the primacy of the Rigveda as its main source, is characterized by a semi-nomadic, pastoral lifestyle and a relatively egalitarian tribal society.</p>
 <ul>
-    <li><strong>Geographical Setting:</strong> Predominantly the <strong>Sapta‑Sindhu</strong> region—land of the seven rivers, including the Indus, Saraswati, and five tributaries of Punjab. Settlements were semi‑nomadic, located on riverine flood‑plains.</li>
-    <li><strong>Political Organization:</strong>
+    <li><strong>Geographical Setting:</strong> The Early Vedic people predominantly inhabited the <strong>Sapta‑Sindhu</strong> region, literally meaning "the land of the seven rivers." This vital geographical area encompassed the Indus River (Sindhu) and its five major eastern tributaries – Jhelum (Vitasta), Chenab (Asikni), Ravi (Parushni), Beas (Vipasa), and Sutlej (Sutudri) – along with the now-extinct or dried-up Saraswati River (Naditama), revered as the holiest river in the Rigveda.
         <ul>
-            <li>Tribal society led by a <strong>Rājā</strong> (king) whose authority was limited.</li>
-            <li>Decision‑making bodies:
-                <ul>
-                    <li><strong>Sabha</strong> – council of elders and senior warriors.</li>
-                    <li><strong>Samiti</strong> – general assembly of the tribe.</li>
-                    <li><strong>Vidhata</strong> – assembly of the oldest members; women could attend Sabha and Vidhata.</li>
-                </ul>
-            </li>
+            <li>**Significance of Rivers:** Settlements were typically semi‑nomadic, primarily located on riverine flood‑plains. The rivers provided essential water for humans and livestock, fertile pastures for cattle, and served as natural routes for movement and communication. The abundance of water and grazing land was critical for their pastoral economy.</li>
+            <li>**Interaction with Indigenous Cultures:** The Aryans, upon their arrival, encountered existing indigenous populations, often referred to as 'Dasas' or 'Dasyus' in the Rigveda. These interactions were complex, ranging from conflict, often over resources like cattle and land, to cultural exchange and assimilation.</li>
+            <li>**Archaeological Corroboration:** While direct archaeological evidence for early Rigvedic settlements is sparse, some scholars link this period to late Harappan or post-Harappan cultures and the Copper Hoard culture in certain regions, though definitive connections remain a subject of debate.</li>
         </ul>
     </li>
-    <li><strong>Society &amp; Economy:</strong>
+    <li><strong>Political Organization:</strong> The Early Vedic society was fundamentally tribal, with political structures designed to manage a mobile population and defend tribal interests.
         <ul>
-            <li>Pastoral‑based economy; cattle (<em>gau</em>) were the principal measure of wealth.</li>
-            <li>Warfare often centered on cattle raids, termed <em>Gāvisthī</em> (conflict for cows).</li>
-            <li>Early varna system was fluid, linked to occupation rather than birth; society exhibited relative egalitarianism.</li>
+            <li>Tribal society was led by a <strong>Rājā</strong> (king or chief), whose authority was primarily military and protective, rather than administrative or revenue-based. The Raja was essentially a tribal chief, often chosen for his valor and leadership in warfare, particularly cattle raids. His position was not hereditary in the strict sense, and he was accountable to the tribal assemblies.</li>
+            <li>Decision‑making bodies played a crucial role in governance, reflecting the democratic and egalitarian ethos of the early tribal structure:
+                <ul>
+                    <li><strong>Sabha</strong> – This was a council of elders, nobles, and senior warriors. It functioned as an advisory body to the Raja, deliberated on important tribal matters, and also had judicial functions, settling disputes. Its members were respected for their wisdom and experience.</li>
+                    <li><strong>Samiti</strong> – A general assembly of the entire tribe or the common people (Vis). The Samiti was a more inclusive body, where important matters of tribal welfare, including the election or re-election of the Raja, declaration of war or peace, and discussion of religious and philosophical issues, were debated. Its power was significant, as the Raja often sought its approval.</li>
+                    <li><strong>Vidhata</strong> – This was the oldest and perhaps the most important assembly in the early Vedic period, though its exact functions are debated. It dealt with a wide range of activities, including economic, social, military, and religious matters. It was a forum for distributing war booty and discussing communal issues. Significantly, women could attend both the Sabha and Vidhata, indicating a relatively higher status for women in public life compared to later periods.</li>
+                </ul>
+            </li>
+            <li>**Other Officials:** Besides the Raja, other important functionaries included the <strong>Purohita</strong> (chief priest), who advised the Raja on religious matters and performed sacrifices; the <strong>Senani</strong> (chief of the army); and the <strong>Gramani</strong> (head of the village or group of families), who led the villagers in battle and managed local affairs.</li>
+            <li>**Tribal Units:** The basic unit was the <strong>Kula</strong> (family), several Kulas formed a <strong>Grama</strong> (village), several Gramas formed a <strong>Vish</strong> (clan), and several Vishes formed a <strong>Jana</strong> (tribe). The Raja was the chief of the Jana.</li>
+        </ul>
+    </li>
+    <li><strong>Society &amp; Economy:</strong> The Early Vedic economy was predominantly pastoral, with agriculture playing a secondary role.
+        <ul>
+            <li>Pastoral‑based economy was central to their existence. Cattle (<em>gau</em>) were not merely animals but the principal measure of wealth, status, and prosperity. A person's wealth was often counted in the number of cows they possessed. Cows were also used for barter, as sacrificial offerings, and provided milk, ghee, and hides.</li>
+            <li>Warfare often centered on cattle raids, termed <em>Gāvisthī</em> (literally, "search for cows"). These conflicts were not just for economic gain but also for asserting tribal dominance and acquiring prestige. The Rigveda frequently praises Indra, the chief deity, for his role in helping Aryans win cattle and defeat their enemies.</li>
+            <li>Early varna system was fluid and largely linked to occupation (karma) rather than birth (janma). Society exhibited relative egalitarianism, meaning social distinctions were not rigid or hereditary. While there were priests (Brahmin), warriors (Kshatriya), and common people (Vish), these categories were permeable. A famous hymn in the Rigveda (IX.112) illustrates this fluidity: "I am a poet, my father is a physician, my mother grinds corn. With different occupations, seeking wealth, we live together." This indicates that members of the same family could belong to different occupational groups.</li>
+            <li>**Family Structure:** The family (Kula) was patriarchal, with the father (Kulapa) as the head. Joint family patterns were common. There was a strong preference for male children, who were valued for their role in warfare and cattle protection.</li>
+            <li>**Food and Drink:** Their diet included milk, ghee, cereals like barley (yava), and fruits. Soma, an intoxicating drink, was consumed during religious ceremonies, while Sura was another alcoholic beverage, often associated with pleasure and sometimes disapproved of.</li>
+            <li>**Dress and Ornaments:** Simple garments made of cotton or wool were common. Ornaments of gold, copper, and beads were worn by both men and women.</li>
         </ul>
     </li>
 </ul>
 
 <h3>2. Later Vedic Period (c. 1000–600 BCE)</h3>
+<p>This period witnessed significant transformations, driven primarily by technological advancements and geographical expansion, leading to a more complex and stratified society.</p>
 <ul>
-    <li><strong>Geographical Shift:</strong> Expansion eastward into the fertile Gangetic Valley, later known as <strong>Aryāvarta</strong>. The advent of iron (<em>Śyāma‑āyas</em>) facilitated forest clearance and agricultural intensification.</li>
-    <li><strong>Political Evolution:</strong>
+    <li><strong>Geographical Shift:</strong> The most significant change was the expansion eastward from the Sapta-Sindhu region into the fertile Gangetic Valley, a region that would later become known as <strong>Aryāvarta</strong> (the land of the Aryans).
         <ul>
-            <li>Emergence of territorial kingdoms called <strong>Janapadas</strong> and later <strong>Mahājanapadas</strong>.</li>
-            <li>Royal authority became more centralized; the Sabha and Samiti lost influence, and the Vidhata assembly was discontinued.</li>
-            <li>Women’s participation in public assemblies was curtailed.</li>
+            <li>The advent of iron (referred to as <em>Śyāma‑āyas</em> or <em>Krishna-ayas</em>, meaning "dark metal") around 1000 BCE was a revolutionary development. Iron tools, particularly axes and ploughshares, facilitated large-scale forest clearance in the dense Ganga-Yamuna Doab region. This enabled the conversion of vast forested lands into arable agricultural fields.</li>
+            <li>This shift led to agricultural intensification, allowing for settled village life and the production of surplus food. The availability of iron also aided in crafting better weapons, contributing to the rise of more powerful territorial states.</li>
+            <li>**Definition of Aryāvarta:** By the end of the Later Vedic period, Aryāvarta broadly referred to the region between the Himalayas in the north, the Vindhya mountains in the south, and extending from the western sea (Arabian Sea) to the eastern sea (Bay of Bengal), though initially it was more confined to the Ganga-Yamuna Doab.</li>
         </ul>
     </li>
-    <li><strong>Socio‑Economic Changes:</strong>
+    <li><strong>Political Evolution:</strong> The tribal polities of the Early Vedic period gradually gave way to more centralized and territorial states.
         <ul>
-            <li>Shift from pastoralism to a settled agrarian economy based on wheat, barley, and later rice.</li>
-            <li>Rigidification of the varna hierarchy into four hereditary groups:
+            <li>Emergence of territorial kingdoms called <strong>Janapadas</strong> (literally, "the foothold of a tribe") and later, larger ones known as <strong>Mahājanapadas</strong>. The concept of loyalty shifted from the tribe (Jana) to a specific territory (Janapada). Notable early Janapadas included Kuru, Panchala, Kosala, and Videha.</li>
+            <li>Royal authority became significantly more centralized and hereditary. The Raja's power increased dramatically, often legitimized through elaborate and expensive public sacrifices such as the <strong>Ashvamedha</strong> (horse sacrifice, asserting undisputed control over a territory), <strong>Rajasuya</strong> (consecration ceremony, granting supreme power), and <strong>Vajapeya</strong> (chariot race, symbolizing royal prowess and prosperity). These rituals elevated the Raja from a tribal chief to a divine ruler, often claiming divine descent.</li>
+            <li>The traditional decision‑making bodies like the Sabha and Samiti lost much of their influence and democratic character. They were either replaced by royal courts or became assemblies dominated by nobles and priests, serving the king's interests. The Vidhata assembly was entirely discontinued, reflecting the decline of tribal egalitarianism.</li>
+            <li>Women’s participation in public assemblies was severely curtailed, marking a significant decline in their social and political status. Their roles became increasingly confined to the domestic sphere.</li>
+        </ul>
+    </li>
+    <li><strong>Socio‑Economic Changes:</strong> The shift to settled agriculture brought about profound changes in the social and economic fabric.
+        <ul>
+            <li>Shift from pastoralism to a settled agrarian economy became dominant. Wheat and barley continued to be cultivated, but rice (<em>vrihi</em>) became a staple crop, particularly in the fertile Gangetic plains. The plough, often drawn by oxen, became an indispensable agricultural tool. This led to increased food production and supported a larger, more sedentary population.</li>
+            <li>Rigidification of the varna hierarchy into four hereditary groups became a defining feature of Later Vedic society. This system, though nascent in the Rigveda, solidified into a birth-based, hierarchical structure, often justified by religious texts and rituals. This stratification was crucial for maintaining social order in a more complex society with specialized labor.
                 <ol>
-                    <li>Brahmins – priests and scholars</li>
-                    <li>Kṣatriyas – warriors and rulers</li>
-                    <li>Vaiśyas – merchants and agriculturists</li>
-                    <li>Śūdras – service providers</li>
+                    <li><strong>Brahmins</strong> – The priestly class, responsible for performing rituals, sacrifices, and preserving sacred knowledge. They gained immense power and prestige due to the increasing complexity of religious ceremonies and their exclusive access to Vedic texts. They were considered the custodians of Dharma.</li>
+                    <li><strong>Kṣatriyas</strong> – The warrior and ruling class, responsible for administration, protection of the kingdom, and warfare. They were the political and military elite, often in a symbiotic relationship with the Brahmins for legitimacy.</li>
+                    <li><strong>Vaiśyas</strong> – The common people, primarily engaged in agriculture, cattle rearing, trade, and craft production. They were the primary taxpayers, supporting the Brahmins and Kshatriyas.</li>
+                    <li><strong>Śūdras</strong> – The service providers, performing manual labor and serving the other three varnas. They were generally excluded from Vedic rituals and considered of lower status. The concept of untouchability, though not fully developed, began to take root during this period.</li>
                 </ol>
             </li>
-            <li>Institution of the four <strong>Āśramas</strong> (stages of life): Brahmacarya, Grihastha, Vanaprastha, and Sannyasa.</li>
+            <li>Institution of the four <strong>Āśramas</strong> (stages of life) was formalized, outlining a structured life path for upper-caste males, primarily Brahmins, Kshatriyas, and Vaishyas. These stages were designed to ensure a balanced life encompassing learning, family responsibilities, spiritual contemplation, and renunciation.
+                <ul>
+                    <li><strong>Brahmacarya</strong> – The student stage (up to 25 years), dedicated to learning the Vedas and disciplines under a guru.</li>
+                    <li><strong>Grihastha</strong> – The householder stage (25-50 years), involving marriage, raising a family, and fulfilling social and economic duties.</li>
+                    <li><strong>Vanaprastha</strong> – The forest dweller or retiree stage (50-75 years), where one gradually withdraws from worldly affairs, living a life of contemplation and asceticism.</li>
+                    <li><strong>Sannyasa</strong> – The renunciate stage (75+ years), involving complete detachment from material possessions and worldly ties, seeking spiritual liberation (moksha).</li>
+                </ul>
+            </li>
+            <li>**Gotra System:** The concept of 'Gotra' emerged, signifying descent from a common male ancestor. It became important for regulating marriages, with exogamy (marrying outside one's Gotra) becoming a norm to prevent consanguineous unions.</li>
+            <li>**Economic Specialization:** With settled life and surplus production, various crafts and professions emerged, leading to specialized groups of carpenters, smiths (iron and copper), potters, weavers, jewelers, and merchants. Trade intensified, and while barter remained common, the use of *nishka* (a gold ornament) as a unit of value or early currency became more prevalent.</li>
         </ul>
     </li>
 </ul>
 
 <h3>3. Vedic Literature</h3>
+<p>The literary output of the Vedic Age is vast and forms the bedrock of Hindu religious and philosophical traditions. It is broadly categorized into Shruti (that which is heard/revealed) and Smriti (that which is remembered/tradition), with the Vedas and their associated texts falling under Shruti.</p>
 <table>
     <thead>
         <tr>
@@ -1162,31 +1493,61 @@ EXPANDED_NOTES_DATA["vedic-age"] = `
             <td>Rigveda, Samaveda, Yajurveda, Atharvaveda</td>
             <td>
                 <ul>
-                    <li><strong>Rigveda</strong> – collection of hymns (≈10,600 verses) addressed to deities.</li>
-                    <li><strong>Samaveda</strong> – liturgical chants derived mainly from Rigvedic verses, set to music.</li>
-                    <li><strong>Yajurveda</strong> – prose and verse formulas for sacrificial rites.</li>
-                    <li><strong>Atharvaveda</strong> – spells, charms, and practical prayers for daily life.</li>
+                    <li><strong>Rigveda</strong> – The oldest and most important Veda, a collection of 1028 hymns (<em>Suktas</em>) comprising approximately 10,600 verses, organized into 10 books (<em>Mandalas</em>). These hymns are addressed to various deities, primarily nature gods like Indra (god of thunder and war), Agni (fire god, intermediary between gods and humans), Varuna (cosmic order), Soma (plant deity and intoxicating drink), Surya (sun god), and Ushas (dawn goddess). The 10th Mandala contains the famous Purusha Sukta, which describes the cosmic man and the origin of the four varnas, though its dating is debated and often considered a later addition.</li>
+                    <li><strong>Samaveda</strong> – Known as the "Book of Chants" or "Melodies," it consists of 1549 verses, almost all of which are borrowed from the Rigveda. These verses are set to specific musical notations (saman) for chanting during Soma sacrifices. It is considered the foundation of Indian classical music and dance.</li>
+                    <li><strong>Yajurveda</strong> – The "Book of Sacrificial Prayers" or "Formulas," it provides detailed instructions and prose formulas (yajus) to be recited by the Adhvaryu priest during the performance of various sacrificial rites. It is divided into two main branches:
+                        <ul>
+                            <li><strong>Shukla (White) Yajurveda:</strong> Contains only mantras.</li>
+                            <li><strong>Krishna (Black) Yajurveda:</strong> Contains both mantras and prose commentaries.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Atharvaveda</strong> – The "Book of Magical Formulas," it is distinct from the other three Vedas. It contains about 730 hymns and 6000 verses, dealing with spells, charms, incantations, and practical prayers for daily life. Its themes include healing diseases, warding off evil spirits, ensuring prosperity, love charms, and even political spells for kings. It also contains philosophical speculation and reflects the popular beliefs and superstitions of the time.</li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td><strong>Brahmanas</strong></td>
-            <td>Prose commentaries on the rituals of each Veda</td>
-            <td>Explain procedural aspects of sacrifices; provide mythological background for rites.</td>
+            <td>Prose commentaries on the rituals and sacrificial rites of each Veda.</td>
+            <td>These texts explain the procedural aspects of sacrifices (<em>karma kanda</em>), their mystical significance, and provide mythological background stories (<em>Itihasa</em>) to justify the rites. They are crucial for understanding the elaborate ritualism of the Later Vedic period. Important Brahmanas include Aitareya (Rigveda), Satapatha (Yajurveda – the largest and most important), Tandya Maha Brahmana (Samaveda), and Gopatha (Atharvaveda). They detail the 'how' and 'why' of Vedic rituals.</td>
         </tr>
         <tr>
             <td><strong>Aranyakas</strong></td>
-            <td>‘Forest books’ dealing with meditative and philosophical aspects of the rituals</td>
-            <td>Transitionary texts between ritualistic Brahmanas and speculative Upanishads; emphasize inner contemplation.</td>
+            <td>‘Forest books’ dealing with meditative and philosophical aspects of the rituals.</td>
+            <td>These are transitionary texts, literally "belonging to the forest," meant to be studied in the solitude of forests by ascetics and hermits. They bridge the gap between the ritualistic Brahmanas and the speculative Upanishads. They emphasize inner contemplation and meditation over outward sacrificial rites, questioning the efficacy of elaborate rituals and focusing on the symbolic meaning of sacrifices. They mark a shift towards philosophical inquiry.</td>
         </tr>
         <tr>
             <td><strong>Upanishads</strong></td>
-            <td>Philosophical treatises (≈108) forming the basis of Vedānta</td>
+            <td>Philosophical treatises (approximately 108, though 10-13 are considered principal) forming the basis of Vedānta (the "end of the Vedas").</td>
             <td>
                 <ul>
-                    <li>Explore concepts of <em>Brahman</em> (ultimate reality) and <em>Ātman</em> (self).</li>
-                    <li>Introduce ideas of karma, moksha, and the unity of existence.</li>
-                    <li>“Satyameva Jayate” (Truth alone triumphs) appears in the <em>Mundaka Upanishad</em>.</li>
+                    <li>These texts represent the culmination of Vedic thought, focusing on profound philosophical questions (<em>jnana kanda</em>). They explore the core concepts of <em>Brahman</em> (the ultimate, impersonal, all-pervading reality of the universe) and <em>Ātman</em> (the individual self or soul), asserting their fundamental unity ("Tat Tvam Asi" - That thou art).</li>
+                    <li>They introduce and elaborate on key philosophical ideas that became central to Indian thought:
+                        <ul>
+                            <li><strong>Karma:</strong> The law of action and consequence, where every deed, good or bad, determines one's future.</li>
+                            <li><strong>Moksha:</strong> Liberation from the cycle of birth and death (samsara) and the attainment of ultimate spiritual freedom.</li>
+                            <li><strong>Samsara:</strong> The cycle of rebirth and transmigration of the soul.</li>
+                            <li>The unity of existence and the interconnectedness of all beings.</li>
+                        </ul>
+                    </li>
+                    <li>The famous dictum “Satyameva Jayate” (Truth alone triumphs), which is the national motto of India, appears in the <em>Mundaka Upanishad</em>. Other important Upanishads include Brihadaranyaka, Chandogya, Katha, Kena, Isha, and Prashna.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Vedangas</strong></td>
+            <td>Auxiliary sciences for the proper understanding and recitation of the Vedas.</td>
+            <td>
+                <ul>
+                    <li>These are six disciplines that evolved to ensure the correct preservation and interpretation of the Vedic texts:
+                        <ul>
+                            <li><strong>Shiksha (Phonetics):</strong> Rules for pronunciation.</li>
+                            <li><strong>Kalpa (Ritual Canon):</strong> Rules for performing sacrifices (Srauta Sutras, Grihya Sutras, Dharma Sutras).</li>
+                            <li><strong>Vyakarana (Grammar):</strong> Rules for language, Panini's Ashtadhyayi is the most famous work.</li>
+                            <li><strong>Nirukta (Etymology):</strong> Explanation of difficult Vedic words.</li>
+                            <li><strong>Chhanda (Metrics):</strong> Rules for poetic meter.</li>
+                            <li><strong>Jyotisha (Astronomy):</strong> Rules for auspicious times for rituals.</li>
+                        </ul>
+                    </li>
                 </ul>
             </td>
         </tr>
@@ -1194,6 +1555,7 @@ EXPANDED_NOTES_DATA["vedic-age"] = `
 </table>
 
 <h3>4. Chronological Overview</h3>
+<p>A concise summary of the major developments across the two phases of the Vedic Age, highlighting the evolutionary trajectory of this foundational period.</p>
 <table>
     <thead>
         <tr>
@@ -1206,166 +1568,59 @@ EXPANDED_NOTES_DATA["vedic-age"] = `
         <tr>
             <td>Early Vedic</td>
             <td>1500 – 1000</td>
-            <td>Pastoral economy, tribal polity, fluid varna, composition of Rigveda.</td>
+            <td>Pastoral economy, semi-nomadic lifestyle, tribal polity with democratic assemblies (Sabha, Samiti, Vidhata), fluid varna system based on occupation, worship of nature deities (Indra, Agni, Varuna), composition of the Rigveda. Geographical focus on Sapta-Sindhu region.</td>
         </tr>
         <tr>
             <td>Later Vedic</td>
             <td>1000 – 600</td>
-            <td>Iron technology, agrarian expansion, rise of Janapadas, codification of varna, composition of Upanishads.</td>
+            <td>Iron technology (Śyāma-āyas), agrarian expansion into the Gangetic Valley (Aryāvarta), rise of territorial Janapadas and Mahājanapadas, centralized and hereditary royal authority, decline of tribal assemblies, rigidification of the varna system into hereditary castes, formalization of the Āśramas, complex ritualism, rise of new deities (Prajapati, Vishnu, Rudra), composition of Samaveda, Yajurveda, Atharvaveda, Brahmanas, Aranyakas, and Upanishads.</td>
         </tr>
     </tbody>
 </table>
 
+<h3>5. Religious Practices and Deities</h3>
+<p>The religious landscape of the Vedic Age underwent significant evolution, reflecting the changing societal structures and philosophical outlooks.</p>
+<ul>
+    <li><strong>Early Vedic Religion:</strong>
+        <ul>
+            <li><strong>Nature Worship:</strong> Predominantly polytheistic, with deities personifying natural forces. Key gods included Indra (god of war, rain, and thunder, destroyer of Vritra), Agni (fire god, messenger between humans and gods), Varuna (guardian of cosmic order, Rita), Soma (deity of the Soma plant and its intoxicating juice), Surya (sun god), Ushas (dawn goddess), Vayu (wind god), and Prithvi (earth goddess).</li>
+            <li><strong>Sacrifices (Yajnas):</strong> Simple rituals involving offerings of milk, ghee, grain, and Soma to the gods, primarily to seek prosperity, cattle, sons, and victory in battles. The Purohita (priest) played a role, but rituals were less elaborate and accessible to common people.</li>
+            <li><strong>Absence of Idol Worship:</strong> No evidence of idol worship or temples in the Rigvedic period. Deities were invoked through hymns and offerings.</li>
+        </ul>
+    </li>
+    <li><strong>Later Vedic Religion:</strong>
+        <ul>
+            <li><strong>Shift in Pantheon:</strong> Older deities like Indra and Agni lost some of their prominence. New deities rose to prominence, reflecting the agrarian society's concerns:
+                <ul>
+                    <li><strong>Prajapati:</strong> The creator god, gained supreme status.</li>
+                    <li><strong>Vishnu:</strong> The preserver god, began to emerge as an important deity.</li>
+                    <li><strong>Rudra:</strong> The storm god, later identified with Shiva, also gained significance.</li>
+                </ul>
+            </li>
+            <li><strong>Elaborate Rituals:</strong> Sacrifices became far more complex, expensive, and protracted, often lasting for days or even years. These rituals (e.g., Ashvamedha, Rajasuya, Vajapeya) were performed by kings to assert their sovereignty and by wealthy patrons to gain merit and prosperity.</li>
+            <li><strong>Dominance of Brahmins:</strong> The increasing complexity of rituals elevated the status and power of the Brahmin priests, who became indispensable intermediaries between humans and gods. They alone possessed the knowledge to perform these intricate ceremonies correctly.</li>
+            <li><strong>Emergence of Philosophical Thought:</strong> Alongside ritualism, the Upanishads introduced a profound shift towards philosophical inquiry, emphasizing inner knowledge (jnana) and meditation over external rituals. This laid the foundation for later heterodox movements like Buddhism and Jainism.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>6. Legacy and Modern Relevance</h3>
+<p>The Vedic Age, despite being ancient, has left an indelible mark on Indian civilization, with many of its elements continuing to resonate in contemporary society.</p>
+<ul>
+    <li><strong>Foundation of Hinduism:</strong> The Vedas and Upanishads form the scriptural bedrock of Hinduism, influencing its theology, philosophy, and rituals. Concepts like Dharma, Karma, Moksha, and the Trimurti (Brahma, Vishnu, Shiva) have their roots in this period.</li>
+    <li><strong>Varna System:</strong> While the rigid caste system of later periods is a complex evolution, its origins can be traced to the varna divisions established in the Later Vedic Age. Understanding this historical context is crucial for analyzing social stratification in India.</li>
+    <li><strong>Sanskrit Language:</strong> Vedic Sanskrit is the ancestor of Classical Sanskrit, which became the language of classical Indian literature, science, and philosophy. Its influence on modern Indian languages is profound.</li>
+    <li><strong>Philosophical Traditions:</strong> The Upanishadic thought, particularly the concepts of Brahman and Atman, laid the groundwork for various schools of Indian philosophy, including Vedanta, Yoga, and Samkhya, which continue to be studied globally.</li>
+    <li><strong>Political Thought:</strong> The evolution from tribal assemblies to centralized monarchies provides insights into early state formation in India. Concepts of Raja Dharma (duties of a king) and the role of advisors (Purohita) have historical echoes.</li>
+    <li><strong>Cultural Identity:</strong> The Vedic heritage is often invoked in discussions of Indian cultural identity, though it's important to acknowledge the diversity and syncretism of Indian history.</li>
+</ul>
+
 <p><strong>Key Take‑aways for Examination:</strong></p>
 <ul>
-    <li>Distinguish the geographical shift from Sapta‑Sindhu to the Gangetic plain.</li>
-    <li>Remember the transformation of political institutions: tribal assemblies → centralized kingdoms.</li>
-    <li>Note the evolution of the varna system from occupational flexibility to hereditary rigidity.</li>
-    <li>Associate each Vedic text category with its primary purpose (hymns, chants, rituals, philosophy).</li>
-    <li>Link “Satyameva Jayate” to the <em>Mundaka Upanishad</em>, not to any later constitution.</li>
-</ul>
-
-
-
-    <br><hr><br>
-    
-<h2>The Vedic Age</h2>
-<p>The history of the Vedic Age is largely known through its religious texts, the Vedas, which gave the period its name. The Vedas recorded not only the religion but also details of the political, social, and economic patterns of the Vedic people.</p>
-<h3>The Aryans</h3>
-<ul>
-  <li>The word 'Aryan' is derived from 'Arya', meaning 'favourably disposed towards new corners', and later implied 'high birth'.</li>
-  <li>Generally, 'Aryan' refers to a language and not a race.</li>
-  <li>The most accepted view regarding their origin is that they lived in the great steppe land stretching from Poland to Central Asia.</li>
-  <li>They were semi-nomadic people.</li>
-  <li>In the 2nd millennium BC, they started moving from their original home, migrating Eastwards and Southwards.</li>
-  <li>The <b>Boghaz Koi inscriptions</b> (dated 1400 BC) provide information about a peace treaty between the Hittites and the Mittanis rulers.</li>
-  <li>These inscriptions mention the names of Vedic Gods: Indra, Mitra, Nasatya, and Varuna, supporting the Central Asian homeland theory for Aryans.</li>
-  <li>The Vedic Age is divided into two parts: Early Vedic or Rigvedic Age and Later Vedic Age.</li>
-</ul>
-<h3>Early Vedic or Rigvedic Age</h3>
-<ul>
-  <li>The main source of information for this period is the <b>Rigveda</b>.</li>
-  <li>The founders of the Vedic culture were the Aryans, probably immigrant people whose first arrival in India is dated around 2000-1500 BC.</li>
-  <li>The Rig Veda states that Aryans first settled in the region called 'Sapta Sindhu' or the 'land of seven rivers'.</li>
-  <li>This region corresponds to present-day East Afghanistan, Punjab, and West Uttar Pradesh, encompassing the rivers Indus, Jhelum, Ravi, Chenab, Beas, Sutlej, and Saraswati.</li>
-</ul>
-<h3>The Rig Vedic Economy</h3>
-<ul>
-  <li>Early Aryans were semi-nomadic and later became cultivators.</li>
-  <li>They gave great preference to cattle; hence, the ruling class consisted of warriors who fought for cattle.</li>
-  <li>'Cow' was particularly preferred among cattle.</li>
-  <li>The word 'Gauri' (cow) is mentioned 176 times in the Rig Veda.</li>
-  <li>Terms related to 'Gau' include 'Gavishti' (search for cows) and 'Godhuli' (for daughter).</li>
-  <li>The term 'Aghanya' (not to be killed) has been used for cows.</li>
-</ul>
-<h3>The Rig Vedic Society</h3>
-<ul>
-  <li>The Rig Vedic society was based on kinship.</li>
-  <li>Early Aryans were essentially tribal and egalitarian.</li>
-  <li>A tribe was called 'Jana'.</li>
-  <li>Society was patriarchal, with a preference for male children (who fought for cattle).</li>
-  <li>Existence of a joint family pattern.</li>
-  <li>The eldest male member of the family was known as 'Kulapa'.</li>
-  <li>'Varna' was the term used for colour, suggesting that Aryan language speakers were fair and indigenous inhabitants were dark.</li>
-  <li>No evidence of a caste system is found; members of the same family indulged in different occupations, as illustrated in a hymn of the 9th mandala.</li>
-  <li>Non-Aryans were called Dasas or Shudras.</li>
-</ul>
-
-<!-- SOURCE: chunk_002.txt | TOPIC: Ancient India - Buddhism -->
-
-</body>
-</html>
-
-<hr style="margin: 20px 0; border-color: #ddd;">
-<h2>Detailed Expansion (Pathfinder Extracted)</h2>
-<h3>The Vedic Age</h3>
-<p>The history of the Vedic Age is largely known through its religious texts, the Vedas, which gave the period its name. The Vedas recorded not only the religion but also details of the political, social, and economic patterns of the Vedic people.</p>
-<h3>The Aryans</h3>
-<ul>
-  <li>The word 'Aryan' is derived from 'Arya', meaning 'favourably disposed towards new corners', and later implied 'high birth'.</li>
-  <li>Generally, 'Aryan' refers to a language and not a race.</li>
-  <li>The most accepted view regarding their origin is that they lived in the great steppe land stretching from Poland to Central Asia.</li>
-  <li>They were semi-nomadic people.</li>
-  <li>In the 2nd millennium BC, they started moving from their original home, migrating Eastwards and Southwards.</li>
-  <li>The <b>Boghaz Koi inscriptions</b> (dated 1400 BC) provide information about a peace treaty between the Hittites and the Mittanis rulers.</li>
-  <li>These inscriptions mention the names of Vedic Gods: Indra, Mitra, Nasatya, and Varuna, supporting the Central Asian homeland theory for Aryans.</li>
-  <li>The Vedic Age is divided into two parts: Early Vedic or Rigvedic Age and Later Vedic Age.</li>
-</ul>
-<h3>Early Vedic or Rigvedic Age</h3>
-<ul>
-  <li>The main source of information for this period is the <b>Rigveda</b>.</li>
-  <li>The founders of the Vedic culture were the Aryans, probably immigrant people whose first arrival in India is dated around 2000-1500 BC.</li>
-  <li>The Rig Veda states that Aryans first settled in the region called 'Sapta Sindhu' or the 'land of seven rivers'.</li>
-  <li>This region corresponds to present-day East Afghanistan, Punjab, and West Uttar Pradesh, encompassing the rivers Indus, Jhelum, Ravi, Chenab, Beas, Sutlej, and Saraswati.</li>
-</ul>
-<h3>The Rig Vedic Economy</h3>
-<ul>
-  <li>Early Aryans were semi-nomadic and later became cultivators.</li>
-  <li>They gave great preference to cattle; hence, the ruling class consisted of warriors who fought for cattle.</li>
-  <li>'Cow' was particularly preferred among cattle.</li>
-  <li>The word 'Gauri' (cow) is mentioned 176 times in the Rig Veda.</li>
-  <li>Terms related to 'Gau' include 'Gavishti' (search for cows) and 'Godhuli' (for daughter).</li>
-  <li>The term 'Aghanya' (not to be killed) has been used for cows.</li>
-</ul>
-<h3>The Rig Vedic Society</h3>
-<ul>
-  <li>The Rig Vedic society was based on kinship.</li>
-  <li>Early Aryans were essentially tribal and egalitarian.</li>
-  <li>A tribe was called 'Jana'.</li>
-  <li>Society was patriarchal, with a preference for male children (who fought for cattle).</li>
-  <li>Existence of a joint family pattern.</li>
-  <li>The eldest male member of the family was known as 'Kulapa'.</li>
-  <li>'Varna' was the term used for colour, suggesting that Aryan language speakers were fair and indigenous inhabitants were dark.</li>
-  <li>No evidence of a caste system is found; members of the same family indulged in different occupations, as illustrated in a hymn of the 9th mandala.</li>
-  <li>Non-Aryans were called Dasas or Shudras.</li>
-</ul>
-
-<!-- SOURCE: chunk_002.txt | TOPIC: Ancient India - Buddhism -->
-<hr style="margin: 20px 0; border-color: #ddd;">
-<h2>Detailed Expansion (Pathfinder Extracted)</h2>
-<h3>The Vedic Age</h3>
-<p>The history of the Vedic Age is largely known through its religious texts, the Vedas, which gave the period its name. The Vedas recorded not only the religion but also details of the political, social, and economic patterns of the Vedic people.</p>
-<h3>The Aryans</h3>
-<ul>
-  <li>The word 'Aryan' is derived from 'Arya', meaning 'favourably disposed towards new corners', and later implied 'high birth'.</li>
-  <li>Generally, 'Aryan' refers to a language and not a race.</li>
-  <li>The most accepted view regarding their origin is that they lived in the great steppe land stretching from Poland to Central Asia.</li>
-  <li>They were semi-nomadic people.</li>
-  <li>In the 2nd millennium BC, they started moving from their original home, migrating Eastwards and Southwards.</li>
-  <li>The <b>Boghaz Koi inscriptions</b> (dated 1400 BC) provide information about a peace treaty between the Hittites and the Mittanis rulers.</li>
-  <li>These inscriptions mention the names of Vedic Gods: Indra, Mitra, Nasatya, and Varuna, supporting the Central Asian homeland theory for Aryans.</li>
-  <li>The Vedic Age is divided into two parts: Early Vedic or Rigvedic Age and Later Vedic Age.</li>
-</ul>
-<h3>Early Vedic or Rigvedic Age</h3>
-<ul>
-  <li>The main source of information for this period is the <b>Rigveda</b>.</li>
-  <li>The founders of the Vedic culture were the Aryans, probably immigrant people whose first arrival in India is dated around 2000-1500 BC.</li>
-  <li>The Rig Veda states that Aryans first settled in the region called 'Sapta Sindhu' or the 'land of seven rivers'.</li>
-  <li>This region corresponds to present-day East Afghanistan, Punjab, and West Uttar Pradesh, encompassing the rivers Indus, Jhelum, Ravi, Chenab, Beas, Sutlej, and Saraswati.</li>
-</ul>
-<h3>The Rig Vedic Economy</h3>
-<ul>
-  <li>Early Aryans were semi-nomadic and later became cultivators.</li>
-  <li>They gave great preference to cattle; hence, the ruling class consisted of warriors who fought for cattle.</li>
-  <li>'Cow' was particularly preferred among cattle.</li>
-  <li>The word 'Gauri' (cow) is mentioned 176 times in the Rig Veda.</li>
-  <li>Terms related to 'Gau' include 'Gavishti' (search for cows) and 'Godhuli' (for daughter).</li>
-  <li>The term 'Aghanya' (not to be killed) has been used for cows.</li>
-</ul>
-<h3>The Rig Vedic Society</h3>
-<ul>
-  <li>The Rig Vedic society was based on kinship.</li>
-  <li>Early Aryans were essentially tribal and egalitarian.</li>
-  <li>A tribe was called 'Jana'.</li>
-  <li>Society was patriarchal, with a preference for male children (who fought for cattle).</li>
-  <li>Existence of a joint family pattern.</li>
-  <li>The eldest male member of the family was known as 'Kulapa'.</li>
-  <li>'Varna' was the term used for colour, suggesting that Aryan language speakers were fair and indigenous inhabitants were dark.</li>
-  <li>No evidence of a caste system is found; members of the same family indulged in different occupations, as illustrated in a hymn of the 9th mandala.</li>
-  <li>Non-Aryans were called Dasas or Shudras.</li>
-</ul>
-
-<!-- SOURCE: chunk_002.txt | TOPIC: Ancient India - Buddhism -->`;
+    <li>Distinguish the geographical shift from the semi-nomadic, pastoral Sapta‑Sindhu region in the Early Vedic period to the settled, agrarian Gangetic plain (Aryāvarta) in the Later Vedic period, driven by iron technology.</li>
+    <li>Remember the transformation of political institutions: from relatively egalitarian tribal assemblies (Sabha, Samiti, Vidhata) with limited royal authority to centralized, hereditary kingdoms (Janapadas/Mahajanapadas) where royal power was enhanced by elaborate sacrifices and assemblies lost influence.</li>
+    <li>Note the evolution of the varna system from occupational flexibility and relative egalitarianism in the Early Vedic period to hereditary rigidity and hierarchical stratification in the Later Vedic period, with Brahmins and Kshatriyas at the apex.</li>
+    <li>Associate each Vedic text category with its primary purpose: Rigveda (hymns to nature deities), Samaveda (liturgical chants), Yajurveda (sacrificial formulas), Atharvaveda (spells and charms`;
 
 EXPANDED_NOTES_DATA["mahajanapadas"] = `
 

@@ -1,0 +1,16 @@
+dding-top: 30px;">
+  <h2 style="color: var(--accent); font-size: 1.8rem; margin-bottom: 20px;">
+    Part 2: Matrices and Determinants
+  </h2>
+</div>
+<h3>1. Matrix Classifications</h3>
+<ul>
+  <li>**Symmetric Matrix**: $A^{\top} = A$. Diagonal elements can be any real or complex numbers. <em>UPSC Trend Alert:</em> Recent NDA papers frequently test the property that if $A$ and $B$ are symmetric matrices, then $AB + BA$ is symmetric, whereas $AB - BA$ is skew-symmetric.</li>
+  <li>**Skew-Symmetric Matrix**: $A^{\top} = -A$. Diagonal elements must be **zero** (since $a_{ii} = -a_{ii} \implies 2a_{ii} = 0 \implies a_{ii} = 0$). </li>
+  <li>**Orthogonal Matrix**: $A \cdot A^{\top} = I$. Consequently, $\det(A) = \pm1$. These matrices preserve length and angles under transformation.</li>
+  <li>**Idempotent Matrix**: $A^2 = A$. The eigenvalues of an idempotent matrix can only be $0$ or $1$.</li>
+  <li>**Involutory Matrix**: $A^2 = I$. Since $A^2 - I = 0$, its determinant is always $\pm1$.</li>
+  <li>**Nilpotent Matrix**: $A^k = O$ (where $k$ is the index of nilpotency, the smallest positive integer for which this holds). The determinant of any nilpotent matrix is always zero.</li>
+</ul>
+
+<div class="ncert-box" style="background-color: rgba(69, 170, 242, 0.1); border-left: 4px solid #45aaf2; padding: 12px; margin: 20px 0; border-radius: 4px;"><strong>💡 Fun Fact time!</strong><br>In recent 2024-2026 UPSC papers, a favorite conceptual trap involves the determinant of an odd-order skew-symmetric matrix. Because $\det(A^{\top}) = \det(-A) = (-1)^n \det(A)$, if the order $n$ is odd, $\det(

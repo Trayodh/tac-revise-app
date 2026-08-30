@@ -3,7 +3,10 @@ import re
 import json
 import time
 import requests
+import urllib.request
+import urllib.parse
 from dotenv import load_dotenv
+from duckduckgo_search import DDGS
 
 load_dotenv()
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -12,10 +15,11 @@ SYSTEM_PROMPT = """You are an Expert Defence Examination Educator (NDA, CDS, AFC
 Your task is to DRASTICALLY EXPAND the existing revision notes into a comprehensive, highly detailed chapter.
 
 OBJECTIVES:
-1. EXPAND THE WORD COUNT: The final output MUST be at least 800 words. Do not be concise. Be exhaustive.
-2. USE INTERNAL KNOWLEDGE: If the provided text is too short, use your own internal knowledge base to fill in all the gaps. Add historical background, scientific mechanisms, causes, effects, notable figures, dates, formulas, and modern relevance. 
-3. Increase pedagogical depth (explain Mechanisms, WHAT -> WHY -> HOW -> EFFECT -> EXAMPLE).
-4. Ensure absolute accuracy for defence exams (UPSC standard).
+1. EXPAND THE WORD COUNT: The final output MUST be at least 1000 words. Be extremely thorough, exhaustive, and detailed.
+2. USE THE PROVIDED CONTEXT: I will provide you with Wikipedia context and existing notes. Integrate this seamlessly.
+3. USE INTERNAL KNOWLEDGE: Fill in all gaps. Add historical background, scientific mechanisms, causes, effects, notable figures, dates, formulas, and modern relevance. 
+4. Increase pedagogical depth (explain Mechanisms, WHAT -> WHY -> HOW -> EFFECT -> EXAMPLE).
+5. Ensure absolute accuracy for defence exams (UPSC standard).
 
 CRITICAL FORMATTING RULE:
 The input you receive is formatted in a specific HTML structure (using tags like <h3>, <p>, <ul>, <li>, and markdown **bold**).
@@ -24,18 +28,73 @@ You MUST heavily expand the content by adding massive amounts of new <li> points
 Do NOT wrap your final output in ```html or ``` blocks. Return ONLY the raw HTML string so it can be injected safely back into a JavaScript file.
 """
 
-def expand_notes_content(raw_html_string):
+def get_wiki_summary(term):
+    try:
+        clean_term = term.replace('_', ' ').strip()
+        search_url = f'https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch={urllib.parse.quote(clean_term)}&utf8=&format=json'
+        req1 = urllib.request.Request(search_url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req1) as response:
+            search_data = json.loads(response.read().decode('utf-8'))
+            if not search_data['query']['search']: return ""
+            title = search_data['query']['search'][0]['title']
+        
+        extract_url = f'https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro=1&explaintext=1&titles={urllib.parse.quote(title)}&format=json'
+        req2 = urllib.request.Request(extract_url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req2) as response:
+            extract_data = json.loads(response.read().decode('utf-8'))
+            pages = extract_data['query']['pages']
+            for page_id in pages:
+                return pages[page_id].get('extract', "")
+    except Exception:
+        return ""
+    return ""
+
+def get_web_summary(term):
+    """Scour the internet using DuckDuckGo to get broader context from various open sources."""
+    try:
+        results_text = []
+        # Search explicitly for defense exams context if possible, or just the term
+        query = f"{term} (NDA OR CDS OR AFCAT OR UPSC)"
+        with DDGS() as ddgs:
+            results = list(ddgs.text(query, max_results=3))
+            for r in results:
+                results_text.append(f"Source: {r.get('title', '')} - {r.get('body', '')}")
+                
+        # If no results with defense keywords, search just the term
+        if not results_text:
+            with DDGS() as ddgs:
+                results = list(ddgs.text(term, max_results=3))
+                for r in results:
+                    results_text.append(f"Source: {r.get('title', '')} - {r.get('body', '')}")
+                    
+        return "\n".join(results_text)
+    except Exception as e:
+        print(f"DDG Search error: {e}")
+        return ""
+
+def expand_notes_content(topic_title, raw_html_string):
     if not GEMINI_API_KEY:
         return None
         
+    # Scour the internet (Wikipedia)
+    wiki_context = get_wiki_summary(topic_title)
+    
+    # Scour the internet (Other open sources / Defense Portals)
+    web_context = get_web_summary(topic_title)
+    
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     headers = {"Content-Type": "application/json"}
     
     prompt_text = (
-        "Here are the existing notes (in HTML format). They are currently far too short. "
-        "Expand their depth and quantity to a MINIMUM of 800 words for Defence Exams, using your internal knowledge. "
-        "Return ONLY the expanded HTML string. DO NOT use markdown code blocks like ```html.\n\n"
-        f"{raw_html_string}"
+        f"TOPIC: {topic_title}\n\n"
+        "Here are the existing notes (in HTML format). They are currently far too short:\n"
+        f"{raw_html_string}\n\n"
+        "Here is additional context scoured from Wikipedia:\n"
+        f"{wiki_context}\n\n"
+        "Here is additional context scoured from the internet (Open source, Defence sites, etc.):\n"
+        f"{web_context}\n\n"
+        "Expand their depth and quantity to a MINIMUM of 1000 words for Defence Exams (NDA, CDS, AFCAT). "
+        "Return ONLY the expanded HTML string. DO NOT use markdown code blocks like ```html."
     )
     
     data = {
@@ -78,8 +137,6 @@ def expand_notes_content(raw_html_string):
             return None
         except Exception as e:
             print(f"API Error during expansion: {e}")
-            if hasattr(e, 'response') and e.response is not None:
-                print(e.response.text)
             if attempt < max_retries - 1:
                 time.sleep(5)
             else:
@@ -111,7 +168,6 @@ def main():
     except:
         generated_content = "window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};\n"
 
-    # Find already expanded topic IDs
     expanded_ids = set(re.findall(r'window\.EXPANDED_NOTES_DATA\["(.*?)"\]', generated_content))
     print(f"Found {len(expanded_ids)} already expanded topics.")
 
@@ -125,18 +181,13 @@ def main():
                         if 'notes' in topic and topic['notes'].strip():
                             topic_id = topic.get('id', '')
                             if not topic_id: continue
-                            
-                            # check if it needs expansion
-                            if topic_id in expanded_ids:
-                                continue
+                            if topic_id in expanded_ids: continue
                             
                             text_only = re.sub(r'<[^>]+>', ' ', topic['notes'])
-                            word_count = len(text_only.split())
-                            
-                            if word_count < 400:
+                            if len(text_only.split()) < 400:
                                 topics_to_process.append(topic)
 
-    print(f"Total topics needing expansion: {len(topics_to_process)}")
+    print(f"Total topics needing SUPER expansion: {len(topics_to_process)}")
 
     if not topics_to_process:
         print("All topics are fully expanded!")
@@ -145,17 +196,12 @@ def main():
     out_f = open(generated_file, 'a', encoding='utf-8')
     count = 0
     
-    # We might hit rate limits heavily if we do 170 requests instantly.
-    # Let's chunk it. Since this is an agent interaction, maybe we just do the first 5 for now to prove it works, or we do all of them slowly?
-    # I will process up to 30 topics now so it finishes in a reasonable timeframe for the user, 
-    # but the user wanted *all* of them. 
-    # Let's do ALL of them but add a sleep. 
-    
     for i, topic in enumerate(topics_to_process):
         topic_id = topic['id']
-        print(f"[{i+1}/{len(topics_to_process)}] Expanding {topic_id} (Current words: {len(topic['notes'].split())})...")
+        topic_title = topic.get('title', topic_id)
+        print(f"[{i+1}/{len(topics_to_process)}] SUPER Expanding {topic_id} (Fetching internet context & AI)...")
         
-        expanded_notes = expand_notes_content(topic['notes'])
+        expanded_notes = expand_notes_content(topic_title, topic['notes'])
         if expanded_notes:
             out_f.write(f'\nwindow.EXPANDED_NOTES_DATA["{topic_id}"] = String.raw`\n{expanded_notes}\n`;\n')
             out_f.flush()
@@ -163,14 +209,13 @@ def main():
         else:
             print("   -> Failed to expand.")
             
-        time.sleep(4.5) # 4.5 seconds between requests to avoid 429 (15 RPM limit)
+        time.sleep(4.5)
         count += 1
         
-        # Processing all topics. This will take a while.
-        if count % 10 == 0:
+        if count % 5 == 0:
             print(f"Processed {count} topics so far... Auto-committing.")
             os.system('git add notes_generated.js')
-            os.system('git commit -m "feat: expand 10 more notes via AI"')
+            os.system('git commit -m "feat: super-expand 5 more notes with internet context"')
             os.system('git push origin main')
 
     out_f.close()

@@ -1,0 +1,205 @@
+mathematics: Trigonometric Identities & Values
+mathematics: Inverse Trigonometric Functions
+mathematics: Quadratic Equations
+mathematics: Complex Numbers
+mathematics: Straight Lines
+mathematics: Measures of Central Tendency
+mathematics: Data Interpretation: Tables, Bar & Pie Charts
+mathematics: Limits & Continuity
+mathematics: Differentiation Rules
+mathematics: Standard Integration Methods
+mathematics: Matrices and Determinants
+mathematics: Probability Theory & Bayes Theorem
+mathematics: Lines, Angles & Triangles
+mathematics: Circles & Polygons
+mathematics: 2D Figures: Area & Perimeter
+mathematics: 3D Solids: Surface Area & Volume
+mathematics: Percentages, Profit & Loss
+mathematics: Ratios, Proportions & Averages
+mathematics: Time, Speed, Distance & Work
+mathematics: Time, Speed & Distance Formulas
+mathematics: Ratios, Proportions & Percentages
+english: Parts of Speech
+english: Tenses & Consistency
+english: Subject-Verb Agreement
+english: Sentence Structure & Parallelism
+english: Active & Passive Voice
+english: Direct & Indirect Speech
+english: Modifiers: Misplaced & Dangling
+english: Punctuation Basics
+english: Transformation of Sentences
+english: High-Frequency Synonyms/Antonyms
+english: One Word Substitutions
+english: Idioms & Phrases
+english: Phrasal Verbs
+english: Reading Comprehension
+english: Spotting Errors
+english: Sentence Improvement
+english: Ordering of Words & Sentences
+english: Fill in the Blanks & Cloze Test
+polity: Preamble & Sources
+polity: Schedules of the Constitution
+polity: Fundamental Rights (Art 12-35)
+polity: DPSP & Fundamental Duties (Art 36-51A)
+polity: Citizenship (Art 5-11)
+polity: The President of India (Art 52-62)
+polity: Parliament of India (Art 79-122)
+polity: Executives: PM, CM & Governor
+polity: Integrated Judiciary: SC & HC
+polity: Local Self-Govt & Panchayati Raj
+polity: Constitutional Amendments, Parts & Schedules
+polity: High-Yield Special Articles Cheat Sheet
+polity: Elections, Appointments & Terms of Office
+polity: Constitutional & Non-Constitutional Bodies
+polity: Emergency Provisions
+polity: Federal Structure & Centre-State Relations
+polity: Representation of People Act & Election Commission
+history: What is History?
+history: Sources of Indian History
+history: Dating Systems
+history: Stone Age
+history: Chalcolithic Age
+history: Rock Art
+history: Indus Valley Civilization
+history: Vedic Age
+history: Mahajanapadas
+history: Magadha Expansion
+history: Buddhism & Jainism
+history: Mauryan Period
+history: Post-Mauryan India
+history: Gupta Period
+history: South Indian Kingdoms
+history: Ancient Indian Culture
+history: Early Medieval India
+history: Delhi Sultanate
+history: Vijayanagara Empire
+history: Bahmani Kingdom & Deccan Sultanates
+history: Mughal Empire
+history: Marathas
+history: Bhakti Movement
+history: Sufi Movement
+history: Sikh History
+history: European Arrival
+history: British Expansion
+history: Economic Impact of British Rule
+history: Socio-Religious Reform Movements
+history: Revolt of 1857
+history: Governor-Generals & Viceroys
+history: Constitutional Development
+history: Freedom Movement
+history: Post-Independence Consolidation
+history: Revolutions
+history: World War I
+history: Interwar Period
+history: World War II
+history: Cold War
+history: International Institutions
+history: Architecture
+history: Paintings
+history: Dance & Music
+history: Literature
+history: Religion & Festivals
+history: Heritage Sites
+history: History PYQ Trends (NDA/CDS)
+geography: The Universe & Solar System
+geography: Earth Structure & Atmosphere
+geography: Climatology: Climatic Zones & Clouds
+geography: Geomorphology: Rocks, Plate Tectonics & Volcanism
+geography: World Geography: Mountains, Forests & Rivers
+geography: Straits, Canals, Deserts & Seas
+geography: Indian Geography (Rivers, Passes & Soils)
+geography: Forests, Trees & Wetlands of India
+geography: Mineral Resources & Types of Farming
+geography: Transport Routes: Highways & Waterways
+geography: National Parks of India (Map Guide)
+geography: Borders, Capitals & Mapping
+geography: Major Industries & Industrial Corridors of India
+geography: Geopolitical Flashpoints & Indo-Pacific
+geography: Geography PYQ Trends (NDA/CDS)
+economics: Core Economic Concepts & Sectors
+economics: Poverty, Employment & Agriculture
+economics: RBI & Monetary Policy Tools
+economics: Government Budget, GST & Fiscal Policy
+economics: Trade Policy & Balance of Payments
+economics: LPG Reforms, NITI Aayog & Financial Institutions
+economics: Economic Planning & Five-Year Plans
+economics: IMF, WTO & Balance of Payments
+economics: Key Welfare Schemes & Financial Inclusion
+physics: Reflection, Refraction & Lenses
+physics: Newton's Laws of Motion
+physics: Work, Power, Energy & Gravitation
+physics: Sound Waves & Acoustics
+physics: Electromagnetic Waves & Spectrum
+physics: Thermodynamics & Heat Transfer
+physics: Electricity, Circuits & Magnetism
+physics: Nuclear Physics & Radioactivity
+physics: SI Units & Everyday Physics
+physics: Physics PYQ Trends (NDA/CDS)
+chemistry: Acids, Bases & pH Indicators
+chemistry: Chemical Bonding & Periodic Table
+chemistry: Metals, Ores, Alloys & Metallurgy
+chemistry: Reactivity Series & Displacement
+chemistry: Carbon & its Compounds
+chemistry: Mole Concept & Concentration Terms
+chemistry: Everyday Chemistry, Fertilisers & Fuels
+chemistry: Environmental Chemistry & Pollution
+biology: Cell Structure & Cell Division
+biology: Vital Human Systems & Organs
+biology: Human Diseases & Pathogens
+biology: Immunity & Vaccines
+biology: Plant Kingdom Classification
+biology: Animal Kingdom Classification
+biology: Plant Reproduction & Hormones
+biology: Ecology Basics & Pyramids
+military-aptitude: Comprehensive Equipment Database
+military-aptitude: Equivalent Officer Ranks (Tri-Services)
+military-aptitude: Operational Commands of Services
+military-aptitude: Defence Organisations, Weapons & Agreements
+military-aptitude: Joint Military Exercises of India
+military-aptitude: Integrated Guided Missile Program (IGMDP)
+military-aptitude: Verbal Reasoning & OIR
+military-aptitude: Non-Verbal Reasoning & OIR
+military-aptitude: Spatial & Non-Verbal Reasoning (AFCAT)
+military-aptitude: Ch.1 — Analogy (Verbal Reasoning)
+military-aptitude: Ch.2 — Classification / Odd One Out (Verbal)
+military-aptitude: Ch.3 — Series Completion (Verbal)
+military-aptitude: Ch.4 — Coding and Decoding (Verbal)
+military-aptitude: Ch.5 — Direction Sense Test (Verbal)
+military-aptitude: Ch.6 — Clock and Calendar (Verbal)
+military-aptitude: Ch.7 — Logical Venn Diagrams (Verbal)
+military-aptitude: Ch.8 — Syllogism (Verbal)
+military-aptitude: Ch.9 — Statements and Conclusions (Verbal)
+military-aptitude: Ch.10 — Statements and Assumptions (Verbal)
+military-aptitude: Ch.11 — Figure Analogy (Non-Verbal)
+military-aptitude: Ch.12&13 — Figure Classification & Series (Non-Verbal)
+military-aptitude: Ch.14 — Figure/Pattern Completion (Non-Verbal)
+military-aptitude: Ch.15 — Embedded Figures (Non-Verbal)
+military-aptitude: Ch.16 — Dot Situation (Non-Verbal)
+military-aptitude: Ch.17 — Cube and Dice (Non-Verbal)
+military-aptitude: Ch.18 — Figure Coding (Non-Verbal)
+current-affairs: Major Government Schemes
+current-affairs: India's International Relations & Forums
+current-affairs: National Policies & Missions
+current-affairs: Major International Summits
+current-affairs: Important Reports & Indices
+current-affairs: Landmark SC & HC Judgments
+current-affairs: National Awards & Honours
+current-affairs: Economic Measures & Policy Packages
+current-affairs: Science, Tech & Space Missions
+current-affairs: UPSC Core Current Affairs Syllabus Map
+current-affairs: Global Geopolitical Flashpoints
+current-affairs: Bilateral Defence Cooperation & Deals
+current-affairs: Red Sea Crisis & Maritime Security Ops
+current-affairs: Indo-Pacific Security & Quad Dynamics
+current-affairs: India-US Tech Cooperation & MQ-9B Drones
+current-affairs: Strategic Space & Missile Advancements
+environment: Biodiversity Hotspots & Biosphere Reserves
+environment: Wildlife Protection & Conservation Projects
+environment: Species in News & IUCN Red List
+environment: Climate Change Treaties & India's NDCs
+environment: Environmental Legislation & EIA
+environment: Renewable Energy & Green Initiatives
+environment: Pollution Control & Clean India Missions
+military_aptitude: Chiefs Timeline (Army, Navy, Air Force)
+military_aptitude: Dedicated Branches (Army, Navy, IAF, ICG)
+military_aptitude: Allied Agencies (Intelligence, BRO, ISRO, CAPF)
