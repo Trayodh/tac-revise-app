@@ -1,9 +1,121 @@
 let CURRENT_AFFAIRS_DB = {
+  "July 2026": [
+    {
+      "id": "jul-1",
+      "topic": "Missile Technology",
+      "text": "On 23 July 2026, the Defence Research and Development Organisation (DRDO) successfully conducted the maiden flight-test of the 'Kusha' Long-Range Surface-to-Air Missile (LRSAM) from Dr. A.P.J. Abdul Kalam Island, Odisha. This cutting-edge system is designed to seamlessly bridge the gap in India’s long-range air defence capabilities by intercepting stealth fighters and ballistic missiles. By acting as a robust shield, Project Kusha significantly elevates the multi-layered air defence network, securing strategic assets against high-speed aerial threats.",
+      "details": {
+        "winner": "DRDO",
+        "award": "Project Kusha LRSAM",
+        "nationality": "Indian",
+        "summary": "Successful maiden test of the indigenous Long-Range Surface-to-Air Missile (LRSAM)."
+      },
+      "mcq": {
+        "question": "Which indigenous missile system, tested in July 2026 from Odisha, is designed to enhance India's long-range air defence capabilities?",
+        "options": [
+          "Astra Mk-2",
+          "Project Kusha LRSAM",
+          "Prithvi Air Defence (PAD)",
+          "BrahMos-NG"
+        ],
+        "correct": 1,
+        "explanation": "Project Kusha LRSAM is a long-range surface-to-air missile developed by DRDO to neutralize advanced aerial threats at extended ranges."
+      }
+    },
+    {
+      "id": "jul-2",
+      "topic": "Defence Technology",
+      "text": "In a major push for Atmanirbhar Bharat, the Ministry of Defence approved the unprecedented transfer of DRDO-developed technologies for all conventional missile systems to Indian defence companies. This strategic pivot ensures that indigenous systems transition rapidly from the R&D stage to industrial-scale manufacturing. Consequently, it slashes the armed forces' dependence on foreign imports and galvanizes the domestic defence-industrial base for global exports.",
+      "details": {
+        "winner": "Ministry of Defence & DRDO",
+        "award": "Technology Transfer Policy",
+        "nationality": "Indian",
+        "summary": "Approval of transfer of DRDO missile technologies to private Indian defence companies."
+      },
+      "mcq": {
+        "question": "What is the primary objective of the Ministry of Defence's July 2026 policy regarding DRDO missile technologies?",
+        "options": [
+          "To export complete missile systems to friendly foreign nations only.",
+          "To transfer conventional missile technologies to Indian defence companies for mass manufacturing.",
+          "To mandate the joint development of all future missiles with foreign vendors.",
+          "To centralize all missile manufacturing exclusively within Ordnance Factories."
+        ],
+        "correct": 1,
+        "explanation": "The policy enables the transfer of DRDO tech to domestic private companies to boost industrial-scale manufacturing and self-reliance."
+      }
+    },
+    {
+      "id": "jul-3",
+      "topic": "Naval Inductions",
+      "text": "The Indian Navy achieved a milestone in maritime surveillance by progressing with the procurement and platform commissioning of the Multi-Utility Long Endurance (MULE) drone project. Engineered for persistent intelligence, surveillance, and reconnaissance operations over the Indian Ocean Region, the MULE drone offers unparalleled loitering capabilities. This induction acts as a force multiplier, providing real-time situational awareness and significantly bolstering India's anti-piracy and coastal defence architectures.",
+      "details": {
+        "winner": "Indian Navy",
+        "award": "MULE Drone Project",
+        "nationality": "Indian",
+        "summary": "Advancement of the Multi-Utility Long Endurance drone for maritime surveillance."
+      },
+      "mcq": {
+        "question": "The MULE drone project, which saw significant progress in July 2026, is primarily designed for which operational role within the Indian Navy?",
+        "options": [
+          "Anti-Submarine Warfare (ASW) combat operations.",
+          "Multi-Utility Long Endurance maritime intelligence and surveillance.",
+          "Heavy airlift and logistical transport to aircraft carriers.",
+          "Direct fire support during amphibious landings."
+        ],
+        "correct": 1,
+        "explanation": "MULE stands for Multi-Utility Long Endurance, intended to provide extended surveillance and reconnaissance capabilities in maritime environments."
+      }
+    },
+    {
+      "id": "jul-4",
+      "topic": "National Security",
+      "text": "On 26 July 2026, India solemnly observed the 27th Kargil Vijay Diwas to pay tribute to the valiant soldiers who sacrificed their lives during the 1999 Kargil War (Operation Vijay). The national commemoration not only reinforced the martial legacy and unmatched courage of the Indian Armed Forces but also highlighted ongoing modernization efforts. By honoring past sacrifices, the event galvanized the nation's collective resolve to defend its territorial integrity against cross-border intrusions.",
+      "details": {
+        "winner": "Indian Armed Forces",
+        "award": "27th Kargil Vijay Diwas",
+        "nationality": "Indian",
+        "summary": "National commemoration of the victory in the 1999 Kargil War (Operation Vijay)."
+      },
+      "mcq": {
+        "question": "Kargil Vijay Diwas is observed annually on 26 July to commemorate the success of which Indian military operation?",
+        "options": [
+          "Operation Meghdoot",
+          "Operation Cactus",
+          "Operation Vijay",
+          "Operation Trident"
+        ],
+        "correct": 2,
+        "explanation": "Operation Vijay was the code name for the Indian operation to clear the Kargil sector of infiltrators in 1999."
+      }
+    },
+    {
+      "id": "jul-5",
+      "topic": "Science & Tech",
+      "text": "Developmental efforts for the Advanced Medium Combat Aircraft (AMCA) accelerated significantly in July 2026, with the critical avionics suite entering the certification-ready engineering stage. This fifth-generation stealth fighter jet is designed to incorporate advanced stealth capabilities, supercruise, and advanced sensors. The maturation of its avionics represents a pivotal step toward the prototype's maiden flight, ensuring the Indian Air Force maintains an unassailable technological edge in the region.",
+      "details": {
+        "winner": "Aeronautical Development Agency (ADA)",
+        "award": "AMCA Avionics Maturation",
+        "nationality": "Indian",
+        "summary": "AMCA's fifth-generation avionics suite entered the certification-ready engineering stage."
+      },
+      "mcq": {
+        "question": "The Advanced Medium Combat Aircraft (AMCA) program aims to develop which category of fighter aircraft for the Indian Air Force?",
+        "options": [
+          "Third-generation interceptor.",
+          "Fourth-generation multi-role fighter.",
+          "Fifth-generation stealth fighter.",
+          "Strategic heavy bomber."
+        ],
+        "correct": 2,
+        "explanation": "The AMCA is India's ambitious indigenous program to develop a fifth-generation stealth fighter jet."
+      }
+    }
+  ],
   "January 2026": [
     {
       "id": "jan-1",
       "topic": "Joint Exercises",
-      "text": "Joint Military Exercise **'Desert Cyclone'** was conducted between the armies of **India** and the **United Arab Emirates (UAE)** in Rajasthan, focusing on desert warfare operations.",
+      "text": "The inaugural Joint Military Exercise **'Desert Cyclone'** was conducted between the armies of **India** and the **United Arab Emirates (UAE)** in Rajasthan. This landmark bilateral exercise aimed to enhance military interoperability, share best practices in desert tactical operations, and execute urban counter-terrorism drills. By fostering closer tactical cooperation and shared combat techniques, it significantly reinforced the deepening strategic partnership and shared commitment to regional security between the two nations.",
       "details": {
         "winner": "India & UAE",
         "award": "Exercise Desert Cyclone",

@@ -48,9 +48,17 @@ module.exports = async function (req, res) {
       if (!GEMINI_KEY) {
           targetAI = 'cerebras'; // fallback
       } else {
-          const fetchRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`, {
+          const isOAuth = GEMINI_KEY.startsWith("AQ.") || GEMINI_KEY.startsWith("ya29.");
+          const url = isOAuth
+              ? 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent'
+              : `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`;
+              
+          const headers = { 'Content-Type': 'application/json' };
+          if (isOAuth) headers['Authorization'] = `Bearer ${GEMINI_KEY}`;
+
+          const fetchRes = await fetch(url, {
               method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
+              headers: headers,
               body: JSON.stringify(body)
           });
           
