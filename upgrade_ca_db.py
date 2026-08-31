@@ -9,8 +9,8 @@ client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=os.environ.get("OPENROUTER_API_KEY"),
 )
-model = "google/gemini-2.5-flash"
-filename = "notes_data_upgraded.js"
+model = "google/gemini-2.0-flash-exp:free"
+filename = "notes_data_exam_focused.js"
 
 prompt_template = """
 You are a subject matter expert for Indian Defence Exams (NDA, CDS, AFCAT).
@@ -108,9 +108,9 @@ def upgrade_db():
     for month, items in ca_db.items():
         print(f"Processing {month}...")
         for i, item in enumerate(items):
-            # Check if it already has the rich fields (e.g. August 2026 items)
-            if "detailedAnalysis" in item and item["detailedAnalysis"]:
-                continue
+            # Temporarily re-process the first 2 items to apply highlighter
+            if total_upgraded >= 2:
+                break
                 
             print(f"  Upgrading {item.get('id', 'Unknown')}...")
             rich_fields = generate_rich_fields(item)
@@ -124,6 +124,8 @@ def upgrade_db():
                     f.write(new_ca_db_str + split_str + nd_json_str)
                 
             time.sleep(1) # Small delay to avoid rate limits
+        if total_upgraded >= 2:
+            break
 
     print(f"Done! Upgraded {total_upgraded} items.")
 
