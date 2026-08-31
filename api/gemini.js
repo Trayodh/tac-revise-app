@@ -46,7 +46,7 @@ module.exports = async function (req, res) {
     if (targetAI === 'gemini') {
       const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
       if (!GEMINI_KEY) {
-          targetAI = 'cerebras'; // fallback
+          throw new Error('GEMINI_API_KEY is missing');
       } else {
           const isOAuth = GEMINI_KEY.startsWith("AQ.") || GEMINI_KEY.startsWith("ya29.");
           const url = isOAuth
@@ -63,8 +63,8 @@ module.exports = async function (req, res) {
           });
           
           if (!fetchRes.ok) {
-              console.warn("Gemini API Error, falling back to cerebras");
-              targetAI = 'cerebras';
+              const errText = await fetchRes.text();
+              throw new Error("Gemini API Error: " + errText);
           } else {
               const data = await fetchRes.json();
               if (data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts) {
