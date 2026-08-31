@@ -25,31 +25,31 @@ module.exports = async function (req, res) {
 
     const isJsonRequired = (body.generationConfig && body.generationConfig.responseMimeType === 'application/json');
     
-    const GROQ_KEY = process.env.GROQ_API_KEY || '';
-    if (!GROQ_KEY) {
-        throw new Error('GROQ_API_KEY is missing');
+    const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY || '';
+    if (!OPENROUTER_KEY) {
+        throw new Error('OPENROUTER_API_KEY is missing');
     }
 
-    const groqBody = {
-        model: 'llama-3.3-70b-versatile',
+    const openRouterBody = {
+        model: 'google/gemini-2.5-flash',
         messages: messages,
         temperature: body.generationConfig?.temperature || 0.7,
         max_tokens: 2000
     };
-    if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
+    if (isJsonRequired) openRouterBody.response_format = { type: 'json_object' };
 
-    const fetchRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+    const fetchRes = await fetch('https://openrouter.ai/api/v1/chat/completions', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${GROQ_KEY}`
+            'Authorization': `Bearer ${OPENROUTER_KEY}`
         },
-        body: JSON.stringify(groqBody)
+        body: JSON.stringify(openRouterBody)
     });
     
     if (!fetchRes.ok) {
        const errText = await fetchRes.text();
-       throw new Error("Groq API Error: " + errText);
+       throw new Error("OpenRouter API Error: " + errText);
     }
     
     const data = await fetchRes.json();
