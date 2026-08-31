@@ -9,7 +9,7 @@ client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=os.environ.get("OPENROUTER_API_KEY"),
 )
-model = "google/gemini-2.0-flash-exp:free"
+model = "openrouter/free"
 filename = "notes_data_exam_focused.js"
 
 prompt_template = """
@@ -86,7 +86,7 @@ def generate_rich_fields(item):
                 time.sleep(10)
             else:
                 print(f"Failed to generate for {item.get('id')} after {max_retries} attempts.")
-                raise e
+                return None
 
 def upgrade_db():
     with open(filename, 'r', encoding='utf-8') as f:
@@ -108,9 +108,9 @@ def upgrade_db():
     for month, items in ca_db.items():
         print(f"Processing {month}...")
         for i, item in enumerate(items):
-            # Temporarily re-process the first 2 items to apply highlighter
-            if total_upgraded >= 2:
-                break
+            if "upscHighlights" in item:
+                # Already upgraded
+                continue
                 
             print(f"  Upgrading {item.get('id', 'Unknown')}...")
             rich_fields = generate_rich_fields(item)
@@ -123,9 +123,7 @@ def upgrade_db():
                 with open(filename, 'w', encoding='utf-8') as f:
                     f.write(new_ca_db_str + split_str + nd_json_str)
                 
-            time.sleep(1) # Small delay to avoid rate limits
-        if total_upgraded >= 2:
-            break
+            time.sleep(0.5) # Small delay to avoid rate limits
 
     print(f"Done! Upgraded {total_upgraded} items.")
 

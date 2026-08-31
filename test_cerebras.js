@@ -1,23 +1,10 @@
-require('dotenv').config();
+const https = require('https');
 const fs = require('fs');
-const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY;
 
-async function testCerebras() {
-  const url = `https://api.cerebras.ai/v1/chat/completions`;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${CEREBRAS_API_KEY}`
-    },
-    body: JSON.stringify({
-      model: "gpt-oss-120b",
-      messages: [{ role: "user", content: "Say hello!" }],
-    })
-  });
-  
-  const data = await res.json();
-  console.log(data);
-}
+let key = fs.readFileSync('.env', 'utf-8').match(/CEREBRAS_API_KEY=(.+)/)[1].trim();
 
-testCerebras();
+https.get('https://api.cerebras.ai/v1/models', { headers: { 'Authorization': `Bearer ${key}` } }, (res) => {
+  let data = '';
+  res.on('data', chunk => data += chunk);
+  res.on('end', () => console.log(data));
+}).on('error', console.error);

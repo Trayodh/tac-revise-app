@@ -2459,7 +2459,26 @@ function renderTopicView(subjectId, chapterId, topicId) {
             }
   
             content = `<h2 style="color: var(--accent); margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid var(--border);">${topic.title}</h2>\n` + visualInjection + content;
-  
+            
+            // Inject upgraded notes fields if present
+            const upgradedFields = ['quickSummary', 'upscHighlights', 'detailedAnalysis', 'backgroundContext', 'recentDevelopments', 'examRelevance'];
+            let upgradeHtml = '';
+            for (const field of upgradedFields) {
+              if (topic[field] && Array.isArray(topic[field])) {
+                  upgradeHtml += `<div class="msc-checkpoint" style="margin-top: 24px;">
+                    <div class="msc-title">📚 ${field.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}</div>
+                    <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+                      ${topic[field].map(item => `<li style="margin-bottom: 8px;">${item}</li>`).join('')}
+                    </ul>
+                  </div>`;
+              } else if (topic[field] && typeof topic[field] === 'string') {
+                  upgradeHtml += `<div class="msc-checkpoint" style="margin-top: 24px;">
+                    <div class="msc-title">📚 ${field.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}</div>
+                    <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">${typeof marked !== 'undefined' ? marked.parse(topic[field]) : topic[field]}</div>
+                  </div>`;
+              }
+            }
+            content += upgradeHtml;  
             return `<div class="expanded-notes-content">${parseWikiLinks(content)}</div>`;
           })()}
         </div>

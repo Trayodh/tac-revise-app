@@ -72,7 +72,7 @@ module.exports = async function (req, res) {
   } catch (error) {
     console.error("[Vercel Proxy] Internal Error:", error);
     const fakeGeminiResponse = {
-        candidates: [{ content: { parts: [{ text: "```json\n[]\n```\n\n_AI uplink failed (" + error.message + "). Working in offline mode._" }] } }]
+        candidates: [{ content: { parts: [{ text: (body.generationConfig && body.generationConfig.responseMimeType === 'application/json') ? "```json\n[]\n```\n\n_AI uplink failed (" + error.message + "). Working in offline mode._" : "I apologize, but I encountered a connection error. (_AI uplink failed: " + error.message + "._)" }] } }]
     };
     res.status(200).json(fakeGeminiResponse);
   }

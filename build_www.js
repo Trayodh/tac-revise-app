@@ -36,6 +36,7 @@ const filesToCopy = [
 
 const patternsToCopy = [
   /^notes_extra.*\.js$/,
+  /^notes_generated.*\.js$/,
   /^.*\.pdf$/
 ];
 
