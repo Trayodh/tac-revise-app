@@ -1,13 +1,15 @@
 import os
 import json
 import time
-import google.generativeai as genai
+from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-
-model = genai.GenerativeModel('gemini-2.5-flash')
+client = OpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key=os.environ.get("OPENROUTER_API_KEY"),
+)
+model = "google/gemini-2.5-flash"
 filename = "notes_data_upgraded.js"
 
 prompt_template = """
@@ -20,13 +22,15 @@ ORIGINAL TEXT: {text}
 ORIGINAL DETAILS: {details}
 
 Output strictly as a JSON object (no markdown, no backticks).
+IMPORTANT HIGHLIGHTING INSTRUCTION: Throughout your output (especially in detailedAnalysis, quickSummary, and backgroundContext), you MUST wrap the most highly-tested, crucial exam facts and keywords inside a `<mark class="exam-target">` tag. This creates a neon yellow highlight for the student. For example: `The <mark class="exam-target">Desert Cyclone</mark> is a joint military exercise between...`
+
 Include ONLY the following keys in your JSON object (do not include id, topic, text, details, mcq):
 {{
   "upscHighlights": ["Highlight 1 (5-10 words)", "Highlight 2", "Highlight 3"],
   "institutionalContext": "Brief context about the institution involved.",
   "strategicImportance": "Why this matters for UPSC / Defence.",
-  "quickSummary": "A slightly longer paragraph summarizing the event.",
-  "detailedAnalysis": "Detailed background and analysis paragraph.",
+  "quickSummary": "A slightly longer paragraph summarizing the event. (Use <mark class=\"exam-target\"> for key facts!)",
+  "detailedAnalysis": "Detailed background and analysis paragraph. (Use <mark class=\"exam-target\"> for key facts!)",
   "backgroundContext": "Historical or contextual background.",
   "stakeholders": ["Entity A", "Entity B"],
   "relatedTopics": ["Topic 1", "Topic 2"],
@@ -54,8 +58,12 @@ def generate_rich_fields(item):
     attempt = 0
     while True:
         try:
-            response = model.generate_content(prompt)
-            output_text = response.text.strip()
+            response = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.7
+            )
+            output_text = response.choices[0].message.content.strip()
             
             if output_text.startswith("```json"):
                 output_text = output_text[7:]
