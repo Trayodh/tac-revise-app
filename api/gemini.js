@@ -10,13 +10,11 @@ module.exports = async function (req, res) {
       delete body.generationConfig.response_mime_type;
     }
     
-    // Parse Gemini request format
     let promptText = "";
     let systemInstructionText = "";
     const messages = [];
 
     if (body.systemInstruction && body.systemInstruction.parts && body.systemInstruction.parts[0] && body.systemInstruction.parts[0].text) {
-
         systemInstructionText = body.systemInstruction.parts[0].text;
         messages.push({ role: 'system', content: systemInstructionText });
     }
@@ -24,92 +22,41 @@ module.exports = async function (req, res) {
         promptText = body.contents[0].parts[0].text;
         messages.push({ role: 'user', content: promptText });
     }
+
+    const isJsonRequired = (body.generationConfig && body.generationConfig.responseMimeType === 'application/json');
     
-    const combinedText = (systemInstructionText + " " + promptText).toLowerCase();
-    let targetAI = 'gemini'; // Default fallback
-    
-    // Intelligent Routing
-    if (
-        combinedText.includes("chatbot") || 
-        combinedText.includes("dronacharya") ||
-        combinedText.includes("conversational") ||
-        combinedText.includes("educational preview")
-    ) {
-        targetAI = 'gemini';
-    } else {
-        targetAI = 'gemini'; // Default to gemini everywhere
+    const GROQ_KEY = process.env.GROQ_API_KEY || '';
+    if (!GROQ_KEY) {
+        throw new Error('GROQ_API_KEY is missing');
     }
 
-    let aiText = "";
-    const isJsonRequired = (body.generationConfig && body.generationConfig.response_mime_type === 'application/json');
+    const groqBody = {
+        model: 'llama3-70b-8192',
+        messages: messages,
+        temperature: body.generationConfig?.temperature || 0.7,
+        max_tokens: 2000
+    };
+    if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
 
-    if (targetAI === 'gemini') {
-      const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
-      if (!GEMINI_KEY) {
-          throw new Error('GEMINI_API_KEY is missing');
-      } else {
-          const isOAuth = GEMINI_KEY.startsWith("AQ.") || GEMINI_KEY.startsWith("ya29.");
-          const url = isOAuth
-              ? 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent'
-              : `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`;
-              
-          const headers = { 'Content-Type': 'application/json' };
-          if (isOAuth) headers['Authorization'] = `Bearer ${GEMINI_KEY}`;
-
-          const fetchRes = await fetch(url, {
-              method: 'POST',
-              headers: headers,
-              body: JSON.stringify(body)
-          });
-          
-          if (!fetchRes.ok) {
-              const errText = await fetchRes.text();
-              throw new Error("Gemini API Error: " + errText);
-          } else {
-              const data = await fetchRes.json();
-              if (data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts) {
-                  aiText = data.candidates[0].content.parts.map(p => p.text).join("");
-              } else {
-                  aiText = "";
-              }
-          }
-      }
-    }
-
-    if (targetAI === 'cerebras') {
-      const CEREBRAS_KEY = process.env.CEREBRAS_API_KEY || '';
-      if (!CEREBRAS_KEY) return res.status(500).json({ error: 'CEREBRAS_API_KEY is missing' });
-      
-      const cerebrasBody = {
-          model: 'gpt-oss-120b',
-          messages: messages,
-          temperature: body.generationConfig?.temperature || 0.7,
-          max_completion_tokens: 2000
-      };
-      if (isJsonRequired) cerebrasBody.response_format = { type: 'json_object' };
-
-      const fetchRes = await fetch('https://api.cerebras.ai/v1/chat/completions', {
-          method: 'POST',
-          headers: {
-              'Content-Type': 'application/json',
-              'Authorization': `Bearer ${CEREBRAS_KEY}`
-          },
-          body: JSON.stringify(cerebrasBody)
-      });
-      
-      if (!fetchRes.ok) {
-         const errText = await fetchRes.text();
-         throw new Error("Cerebras API Error: " + errText);
-      }
-      const data = await fetchRes.json();
-      aiText = data.choices?.[0]?.message?.content || "";
+    const fetchRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${GROQ_KEY}`
+        },
+        body: JSON.stringify(groqBody)
+    });
+    
+    if (!fetchRes.ok) {
+       const errText = await fetchRes.text();
+       throw new Error("Groq API Error: " + errText);
     }
     
-    // Reconstruct Gemini format for the frontend parsing logic
+    const data = await fetchRes.json();
+    const aiText = data.choices?.[0]?.message?.content || "";
+    
     const fakeGeminiResponse = {
-        candidates: [
-            { content: { parts: [{ text: aiText }] } }
-        ]
+        candidates: [{ content: { parts: [{ text: aiText }] } }]
     };
     
     if (body.stream === true) {
@@ -124,7 +71,6 @@ module.exports = async function (req, res) {
     }
   } catch (error) {
     console.error("[Vercel Proxy] Internal Error:", error);
-    // Fallback response if offline or errored
     const fakeGeminiResponse = {
         candidates: [{ content: { parts: [{ text: "```json\n[]\n```\n\n_AI uplink failed (" + error.message + "). Working in offline mode._" }] } }]
     };
