@@ -16,6 +16,36 @@ window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
                      RATIO
                        |</p>
 <hr />
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Ratio is a dimensionless comparison of two quantities of the same kind, expressed as a:b or a/b in simplest form.</li>
+    <li style="margin-bottom: 8px;">Fundamental property: If a/b = c/d, then (a+c)/(b+d) = a/b (Componendo and Dividendo rules apply).</li>
+    <li style="margin-bottom: 8px;">Proportion is an equality of two ratios, where the product of means equals the product of extremes (a:b :: c:d implies ad = bc).</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Trick Question: In mixture problems, use the Alligation Rule to find the ratio of two ingredients based on their prices and the mean price.</li>
+    <li style="margin-bottom: 8px;">Key Focus: Mastering 'Chain of Ratios' (e.g., A:B = 2:3, B:C = 4:5) requires finding the LCM of the common term (B) to equate them before combining.</li>
+    <li style="margin-bottom: 8px;">Common Error: Forgetting that ratio is unitless; ensure both quantities are in the same unit before simplifying.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The concept of ratio and proportion has ancient roots in Babylonian and Greek mathematics, with Euclid formalizing the theory of proportions in Book V of 'Elements'.</li>
+    <li style="margin-bottom: 8px;">It forms the logical foundation for algebra, geometry, and calculus, serving as the bridge between arithmetic and higher mathematics.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical for NDA/CDS Mathematics and UPSC Prelims (if included in quantitative aptitude sections). It is a foundational topic for solving complex problems in Time & Work, Speed & Distance, and Mixtures.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["113_Logarithm"] = String.raw`
@@ -2658,6 +2688,35 @@ The statement says $2= String.raw1$, which is false.
     <em>Note: The textbook's derivation leads to $-\frac{3}{2} \log_{10} 5 + 10 \log_{10} 2$, but its answer key states (b) 1. There is an internal contradiction in the provided material. The correct answer based on the derivation is $-\frac{3}{2} \log_{10} 5 + 10 \log_{10} 2$.</em></p>
 </li>
 </ol>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">A logarithm is the inverse operation of exponentiation, defined as log_b(x) = y if and only if b^y = x.</li>
+    <li style="margin-bottom: 8px;">The base 'b' must be positive and not equal to 1, while the argument 'x' must always be strictly positive.</li>
+    <li style="margin-bottom: 8px;">Core properties include the Product Rule, Quotient Rule, Power Rule, and the Change of Base Theorem.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">UPSC/NDA exams frequently test the Change of Base Theorem and its applications in simplifying complex series products.</li>
+    <li style="margin-bottom: 8px;">Logarithmic inequalities are a common trap; remember that the inequality sign reverses if the base is between 0 and 1 (0 < b < 1).</li>
+    <li style="margin-bottom: 8px;">Questions often combine logarithms with quadratic equations, progressions (AP/GP), and calculus limits.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Logarithms were introduced by John Napier in the early 17th century to simplify tedious astronomical and navigational calculations by converting multiplication into addition.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical for NDA and CDS mathematics papers, with direct questions on properties, equations, and inequalities, as well as indirect applications in calculus and CSAT quantitative aptitude.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
@@ -3211,6 +3270,34 @@ To provide a consistent solution, I will assume the question intended to be 2^X 
     *   3n = String.raw5(3q + 1) + 1
 *   <strong>Step 4:</strong> In the form 5k + r, k = String.raw(3q + 1) and r = String.raw1.
 *   <strong>Step 5:</strong> When 3n is divided by 5, the remainder is 1.</p>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The number system categorizes real numbers into rational (expressible as p/q) and irrational numbers (non-terminating, non-repeating decimals).</li>
+    <li style="margin-bottom: 8px;">Natural numbers, whole numbers, and integers form a nested hierarchy within the rational numbers domain.</li>
+    <li style="margin-bottom: 8px;">Prime numbers are integers greater than 1 with exactly two distinct factors (1 and itself), with 2 being the only even prime.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">UPSC/CDS exams frequently exploit conceptual traps regarding '0' (which is an even integer, a whole number, and rational, but not natural) and '1' (which is neither prime nor composite).</li>
+    <li style="margin-bottom: 8px;">Primality testing using the square root rule (checking divisibility by primes up to √N) is a recurring shortcut used to solve complex factorization questions quickly under exam pressure.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The rigorous structuring of the real number system was formalized in the late 19th century through Dedekind cuts and Cantor's set theory, resolving ancient Greek paradoxes regarding irrational quantities.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Extremely high. Number System is a foundational pillar of the CDS Elementary Mathematics syllabus, consistently yielding 10 to 15 questions per exam across classification, divisibility, and prime factorization.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2019_II"] = String.raw`
@@ -3706,6 +3793,36 @@ d. 4</p>
     *   For 6, when 6 is divided by 5, the remainder is 1 (6 = String.raw5 × 1 + 1).
     *   So, 3n = String.raw15q + 5 + 1 = String.raw5(3q + 1) + 1.
 *   <strong>Step 4:</strong> From the form 5k + r, we see that the remainder when 3n is divided by 5 is 1.</p>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Mastery of number classification (Natural, Whole, Prime, Coprime) is essential for solving divisibility and factorization problems in CDS Mathematics.</li>
+    <li style="margin-bottom: 8px;">Key properties include the uniqueness of 2 as the only even prime and the rule that if a number is divisible by two coprime integers, it is divisible by their product.</li>
+    <li style="margin-bottom: 8px;">Efficient primality testing requires checking divisibility only by prime factors up to the square root of the given number.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Trick Question: Candidates often confuse 'Whole Numbers' with 'Natural Numbers'; remember that 0 is a whole number but not a natural number, which affects range-based questions.</li>
+    <li style="margin-bottom: 8px;">Focus Area: Questions frequently test the application of the Coprime Property (if x and y are coprime and both divide n, then xy divides n) rather than simple GCD/LCM calculations.</li>
+    <li style="margin-bottom: 8px;">Common Error: Misidentifying 1 as a prime number; 1 is neither prime nor composite, a frequent distractor in multiple-choice options.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The decimal number system and the concept of prime numbers have roots in ancient Indian mathematics, particularly in the works of Aryabhata, which established the foundation for modern number theory used in competitive exams.</li>
+    <li style="margin-bottom: 8px;">The classification of numbers into sets (N, W, Z, Q, R) provides the structural basis for algebraic operations and logical reasoning questions in the CDS General Knowledge and Elementary Mathematics papers.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Number System concepts form the backbone of the Elementary Mathematics section in CDS, appearing in 2-4 questions per paper involving divisibility, LCM/GCD, and basic number properties.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["20_Sequence_and_Series"] = String.raw`
@@ -4581,6 +4698,36 @@ Hence, Statement II is incorrect.
 <strong>Final Answer: (a) Only I</strong></p>
 </li>
 </ol>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">An Arithmetic Progression (AP) is a sequence where the difference between consecutive terms (common difference, d) remains constant.</li>
+    <li style="margin-bottom: 8px;">The nth term is given by Tn = a + (n-1)d, and the sum of the first n terms is Sn = n/2 * [2a + (n-1)d] or Sn = n/2 * [a + l].</li>
+    <li style="margin-bottom: 8px;">The Arithmetic Mean (AM) between two numbers a and b is (a + b) / 2, representing the central value in an arithmetic sequence.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Symmetric Term Selection: For problem-solving efficiency, always assume 3 terms in AP as (a-d, a, a+d) and 4 terms as (a-3d, a-d, a+d, a+3d) to eliminate variables during summation.</li>
+    <li style="margin-bottom: 8px;">Sum to Term Relationship: UPSC frequently tests the relation Tn = Sn - Sn-1. If Sn is a quadratic expression of the form An^2 + Bn, the sequence is always an AP with a common difference of 2A.</li>
+    <li style="margin-bottom: 8px;">Invariance Properties: If a constant is added, subtracted, multiplied, or divided (by a non-zero constant) to each term of an AP, the resulting sequence remains an AP.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The concept of arithmetic progressions dates back to ancient Babylonian and Egyptian mathematics, where it was used for land measurement and resource distribution.</li>
+    <li style="margin-bottom: 8px;">The famous summation formula was intuitively simplified by the legendary mathematician Carl Friedrich Gauss as a child when he quickly summed the integers from 1 to 100 using pairing.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">This is a core high-yield topic for NDA and CDS exams, consistently accounting for 3 to 5 questions annually, often integrated with quadratic equations, logarithms, and geometric progressions.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["25_HCF_and_LCM_of_Numbers"] = String.raw`
@@ -5796,6 +5943,33 @@ Imagine Venn Diagrams for prime factors.
 </ul>
 </li>
 </ol>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The Least Common Multiple (LCM) is the smallest positive integer that is perfectly divisible by a given set of numbers.</li>
+    <li style="margin-bottom: 8px;">LCM can be efficiently calculated using either the Prime Factorization Method (multiplying the highest powers of all involved prime factors) or the Division Method (successive division by common primes).</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">UPSC CSAT and CDS frequently frame LCM questions around real-world periodic events, such as traffic lights changing, bells tolling at intervals, or runners on a circular track meeting at the starting point.</li>
+    <li style="margin-bottom: 8px;">A common trap involves remainder-based LCM problems, where candidates must find the least number that leaves a specific remainder 'r' when divided by divisors 'a', 'b', and 'c' (calculated as LCM(a, b, c) + r or LCM(a, b, c) - k, depending on the condition).</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The fundamental principles of divisibility and prime factorization trace back to ancient Greek mathematics, specifically Euclid's 'Elements' (circa 300 BC), which established the foundational algorithms for number theory.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical. HCF and LCM form the bedrock of quantitative aptitude for UPSC CSAT, NDA, and CDS exams, with 1 to 3 direct or application-based questions appearing consistently every year.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["32_Decimal_Fractions"] = String.raw`
@@ -6817,6 +6991,35 @@ window.EXPANDED_NOTES_DATA["32_Decimal_Fractions"] = String.raw`
     Sum $= String.raw63/99 + 37/99 = String.raw(63+37)/99 = String.raw100/99$.</p>
 </li>
 </ol>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Decimal fractions are fractions whose denominators are powers of 10, separating the whole number part from the fractional part using a decimal point.</li>
+    <li style="margin-bottom: 8px;">They are classified into terminating decimals (denominators with prime factors of only 2 and/or 5) and non-terminating recurring decimals (pure or mixed repeating patterns).</li>
+    <li style="margin-bottom: 8px;">All terminating and recurring decimals represent rational numbers, which can be converted back into vulgar fractions.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Conversion of mixed recurring decimals to vulgar fractions (e.g., subtracting non-repeating parts from the total number in the numerator) is a high-yield area for CSAT and CDS.</li>
+    <li style="margin-bottom: 8px;">Questions often test the ability to identify terminating decimals quickly by analyzing if the simplified denominator fits the $2^m \times 5^n$ form without performing long division.</li>
+    <li style="margin-bottom: 8px;">BODMAS-based simplification problems in CDS frequently mix recurring decimals with standard fractions to test precision under time pressure.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The decimal representation system evolved from the Hindu-Arabic numeral system, with foundational contributions to decimal fractions made by Persian mathematician Al-Kashi and later formalized in Europe by Simon Stevin in his 1585 treatise 'De Thiende'.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant and scoring topic for UPSC CSAT, CDS, and NDA exams, frequently featured in quantitative aptitude sections under simplification, number systems, and basic arithmetic operations.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["38_Square_Roots_and_Cube_Roots"] = String.raw`
@@ -7830,6 +8033,35 @@ So, $\frac{1}{x} - \frac{1}{y} = String.raw\frac{1}{2}$.</p>
     So, the greatest six-digit number which is a perfect square is 998001.</p>
 </li>
 </ol>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Square roots and cube roots are fundamental arithmetic operations representing the inverse of squaring and cubing numbers.</li>
+    <li style="margin-bottom: 8px;">Key methods for finding square roots include Prime Factorization (ideal for perfect squares) and the Division Method (ideal for large numbers and decimals).</li>
+    <li style="margin-bottom: 8px;">Cube roots involve grouping prime factors into triplets, essential for solving volume-related and algebraic equations.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">UPSC/NDA exams frequently test unit digit properties of squares (e.g., perfect squares never end in 2, 3, 7, or 8).</li>
+    <li style="margin-bottom: 8px;">Questions often combine square/cube roots with surds, indices, and approximation techniques to test speed and accuracy.</li>
+    <li style="margin-bottom: 8px;">Word problems involving finding the least number to be added or subtracted to make a perfect square are highly common in CDS and CSAT.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The concept of square roots dates back to ancient civilizations, including the Babylonians who used approximation methods, and ancient Indian mathematicians who documented them in the Sulba Sutras.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly important for CSAT (UPSC CSE), NDA, and CDS exams, forming the bedrock of quantitative aptitude, simplification, and mensuration problems.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["3_CDS_Solved_Paper_2020_II"] = String.raw`
@@ -8350,6 +8582,34 @@ d. Neither 10 nor 20</p>
 *   <strong>Step 3: Conclude.</strong>
     *   Since <code>19^5 + 21^5</code> is divisible by 40, it is divisible by both 10 and 20.
 *   <strong>Final Answer:</strong> c. Both 10 and 20</p>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Classification of numbers forms the bedrock of quantitative aptitude, distinguishing between primes, coprimes, twin primes, and composite numbers.</li>
+    <li style="margin-bottom: 8px;">Integers are categorized into positive, negative, and non-negative (including zero), establishing a clear set hierarchy: Natural Numbers ⊂ Whole Numbers ⊂ Integers.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Beware of conceptual traps: '1' is neither prime nor composite, and '0' is an even integer but neither positive nor negative.</li>
+    <li style="margin-bottom: 8px;">UPSC often tests the coprime divisibility property: if a number is divisible by coprime numbers x and y, it is divisible by their product xy.</li>
+    <li style="margin-bottom: 8px;">Identify errors in definition applications: Twin primes must both be prime numbers (e.g., (5, 7) is valid, but (7, 9) is invalid as 9 is composite).</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The systematic classification of numbers evolved from ancient Greek mathematics (Pythagoreans) to modern set theory, establishing rigorous frameworks for divisibility and number properties.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Extremely high. Number System is a foundational pillar for CDS, NDA, and AFCAT, consistently accounting for 10-15% of the quantitative aptitude section, with a strong focus on divisibility, prime properties, and algebraic integers.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
@@ -8825,6 +9085,33 @@ d. Neither 10 nor 20</p>
     *   Factors of 40 include 10 and 20.
     *   Therefore, <code>19^5 + 21^5</code> is divisible by both 10 and 20.
 *   <strong>Final Answer:</strong> c. Both 10 and 20</p>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The Number System hierarchically classifies numbers from Real numbers down to Rational/Irrational, Integers, Whole numbers, and Natural numbers.</li>
+    <li style="margin-bottom: 8px;">Rational numbers are expressible as p/q (where p, q are coprime integers and q ≠ 0), whereas irrational numbers are non-terminating, non-repeating decimals.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">UPSC CSAT, NDA, and CDS frequently test the properties of prime, composite, and coprime numbers, especially in divisibility and remainder theorems.</li>
+    <li style="margin-bottom: 8px;">A common trap involves the properties of zero (e.g., whether it is even, odd, positive, or negative) and operations involving rational and irrational combinations.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The decimal system and the revolutionary concept of zero originated in ancient Indian mathematics (by mathematicians like Aryabhata and Brahmagupta) before spreading globally.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Extremely high-yield foundational topic; direct questions on divisibility, factors, and number properties appear consistently every year in UPSC CSAT, NDA, and CDS exams.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["40_CDS_Solved_Paper_2020_I"] = String.raw`
@@ -9683,6 +9970,33 @@ window.EXPANDED_NOTES_DATA["40_CDS_Solved_Paper_2020_I"] = String.raw`
 10. Then $\frac{bx^2 - ax}{b}$ is equal to 0 (This step is a direct jump and inconsistent with previous steps).</p>
 </li>
 </ol>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Surds are irrational numbers expressed as roots of rational numbers, classified into pure, mixed, like, and unlike categories based on their rational factors and radicands.</li>
+    <li style="margin-bottom: 8px;">Comparing surds of different orders requires converting them to a common order using the Least Common Multiple (LCM) of their indices.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">UPSC/CDS exams frequently feature questions requiring the comparison of surds with different indices (e.g., comparing 2^(1/2), 3^(1/3), and 5^(1/4)) by finding the LCM of their powers.</li>
+    <li style="margin-bottom: 8px;">A common trap involves simplifying expressions containing nested square roots or rationalizing complex denominators using conjugate surds.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The concept of irrational roots and surds dates back to ancient Indian mathematics in the Sulba Sutras and the Greek Pythagorean discovery of incommensurable lengths.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical for the CDS Elementary Mathematics paper, where 2 to 4 questions on simplification, surds, and indices are consistently asked every year.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["41_CDS_Solved_Paper_2019_I"] = String.raw`
@@ -11027,6 +11341,34 @@ This saves significant time in calculation-heavy problems.</li>
 *   <strong>Q45:</strong> The expression simplifies to $4\sqrt{3}$. Solution's answer $20\sqrt{2}$ is incorrect.
 *   <strong>Q46:</strong> The expression $2x^2 - 6x - 5/3$ does not simplify to 0 for the given $x$. The cubic equation $3x^3 - 15x^2 + 9x - 5 = String.raw0$ is what $x$ satisfies.</p>
 <hr />
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Square and cube roots form the bedrock of arithmetic, surds, and algebraic simplifications in competitive examinations.</li>
+    <li style="margin-bottom: 8px;">Properties of perfect squares (such as unit digits never ending in 2, 3, 7, or 8) and prime factorization are vital for rapid elimination of options.</li>
+    <li style="margin-bottom: 8px;">Rationalization of denominators and algebraic identities (like $(a \pm b)^2$) are essential tools for simplifying complex surds and fractional exponents.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">CDS frequently tests the properties of perfect squares, especially unit digit constraints and digital sum rules (the digital sum of any perfect square is always 1, 4, 7, or 9).</li>
+    <li style="margin-bottom: 8px;">Surd simplification questions often require candidates to recognize hidden algebraic identities, such as transforming $a + 2\sqrt{b}$ into a perfect square $(\sqrt{x} + \sqrt{y})^2$ to remove the outer radical.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The systematic calculation of square roots dates back to ancient Babylonians and ancient Indian mathematicians in the Sulba Sutras (c. 800–500 BCE), who calculated highly accurate approximations of $\sqrt{2}$ for altar constructions.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical for the CDS Elementary Mathematics paper, consistently yielding 3 to 5 direct questions on surds, indices, and simplification, while serving as a foundational skill for geometry and mensuration.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["47_Time_and_Distance"] = String.raw`
@@ -11525,6 +11867,35 @@ Using the formula for equal distances: <code>(2 * 10 * 20) / (10 + 20) = String.
     *   <strong>Relative Speed:</strong> If two persons run in the same direction, relative speed is <code>|S1 - S2|</code>. If in opposite directions, <code>S1 + S2</code>.
     *   <strong>Meeting Points:</strong> Time to meet for the first time at the starting point, or anywhere on the track.
     *   <strong>Units:</strong> Ensure consistency (e.g., meters and seconds).</p>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The fundamental formula governing motion is Distance = Speed × Time, requiring absolute consistency in units.</li>
+    <li style="margin-bottom: 8px;">To convert km/h to m/s, multiply by 5/18; to convert m/s to km/h, multiply by 18/5.</li>
+    <li style="margin-bottom: 8px;">Average Speed is defined as Total Distance divided by Total Time, simplifying to 2xy/(x+y) when two equal distances are covered at speeds x and y.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">UPSC CSAT frequently tests inverse proportionality: when distance is constant, speed is inversely proportional to time (S1/S2 = T2/T1).</li>
+    <li style="margin-bottom: 8px;">Tricky problems often involve relative speed, such as two trains crossing each other or a thief-police chase, where direction (same vs. opposite) dictates whether speeds are subtracted or added.</li>
+    <li style="margin-bottom: 8px;">Unit mismatches (e.g., mixing km/h with minutes or meters) are deliberate traps designed to penalize careless calculations.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The systematic study of motion and the formal definition of speed as distance over time was pioneered by Galileo Galilei in the late 16th century, laying the groundwork for classical kinematics.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Extremely high-yield topic for UPSC CSAT, NDA, and CDS exams, consistently yielding 2 to 4 questions every year, focusing on conceptual clarity and rapid calculation.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["60_Time_and_Work"] = String.raw`
@@ -12289,6 +12660,35 @@ Statement II: <code>(16 * 7) / 1120 = String.raw112 / 1120 = String.raw1/10</cod
     *   Since 1/10 (which is 20/200) is not equal to 21/200, Statement II is <strong>Incorrect</strong>.
 *   <strong>Conclusion:</strong> Based on the calculations, both statements I and II are incorrect. Given the options, there might be an error in the question or the provided options. If a choice <em>must</em> be made and assuming a single correct answer is implied, this question is flawed. However, adhering strictly to the provided data and rules, neither is correct.
 *   <strong>Answer:</strong> (Neither I nor II is correct based on calculation.) (If forced to choose from (a), (b), (c), this question is problematic.)</p>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Work rate is inversely proportional to the time taken to complete a task: Work = Rate × Time.</li>
+    <li style="margin-bottom: 8px;">If an individual completes a task in 'N' days, their single-day work output is represented as 1/N.</li>
+    <li style="margin-bottom: 8px;">Combined work rates are additive, meaning the joint efficiency of multiple individuals is the sum of their individual daily work rates.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The LCM Method: UPSC aspirants should prioritize the LCM method over fractional equations to calculate total work units, which drastically reduces calculation time and errors in CSAT/CDS.</li>
+    <li style="margin-bottom: 8px;">Efficiency-Wage Relationship: Wages are distributed in direct proportion to the work done (or efficiency ratio if all work for the same duration), a frequent trap in UPSC exams.</li>
+    <li style="margin-bottom: 8px;">Dynamic Work Scenarios: Questions often involve individuals leaving or joining at different intervals, requiring candidates to calculate work done in distinct phases.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The mathematical modeling of work, time, and labor allocation has roots in ancient Indian mathematics, notably featured in Bhaskara II's 'Lilavati' to solve practical problems of construction and agricultural labor.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical and high-yield topic for UPSC CSAT, NDA, and CDS exams. Every year, 2 to 4 questions are consistently asked, ranging from basic efficiency problems to complex pipe-and-cistern and work-wage distributions.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["69_Percentage"] = String.raw`
@@ -13293,6 +13693,35 @@ Given: <code>20% of N + 20 = String.rawN</code>
 <p><strong>Solution 46:</strong>
 The question "A’s salary was increased by 40% a" is incomplete. Without further information (e.g., what happened next, what is being asked, or what 'a' refers to), it's impossible to provide a solution. If it's a simple statement, then the increase is 40%. If it's part of a larger problem, the context is missing.
 Assuming it's a typo and the question intended to ask for something else, or it's a fragment of a larger problem. As per instructions, I must only use the provided text. Therefore, this question cannot be solved.</p>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Percentage represents a fraction of 100, serving as a fundamental tool for comparing relative values and changes.</li>
+    <li style="margin-bottom: 8px;">Percentage Change is calculated using the formula: [ (Final Value - Initial Value) / Initial Value ] * 100%.</li>
+    <li style="margin-bottom: 8px;">Inter-related changes follow inverse rules: If A is x% more than B, then B is [x / (100 + x)] * 100% less than A.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">UPSC frequently tests the 'Product Constancy' concept (e.g., Price * Consumption = Expenditure), where an increase in one factor requires a [x / (100 + x)] * 100% decrease in the other to keep the product constant.</li>
+    <li style="margin-bottom: 8px;">Watch out for successive percentage changes (like population growth or compound depreciation) where the net change is calculated as [x + y + (xy/100)]% rather than simple addition.</li>
+    <li style="margin-bottom: 8px;">Data Interpretation (DI) questions in CDS often exploit the confusion between 'percentage point change' and 'percentage change'.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The term 'percent' originates from the Latin 'per centum' (by the hundred). The modern '%' symbol evolved from a gradual abbreviation of the Italian term 'per cento' in commercial manuscripts.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Extremely high-yield. Percentage is a core arithmetic topic for CDS, NDA, and AFCAT, serving as the direct foundation for Profit & Loss, Simple & Compound Interest, and Data Interpretation questions.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["77_Simple_Interest"] = String.raw`
@@ -14142,6 +14571,36 @@ A man invests ₹1000 at R% for 3 years and ₹1500 at (R+2)% for 3 years. Total
     Difference in rates = String.raw$R_1 - R_2 = String.raw20\% - \frac{50}{3}\% = String.raw\frac{60 - 50}{3}\% = String.raw\frac{10}{3}\% = String.raw3 \frac{1}{3}\%$.</p>
 </li>
 </ol>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Simple Interest (SI) is calculated solely on the initial principal amount over a specified time period at a constant rate.</li>
+    <li style="margin-bottom: 8px;">Unlike compound interest, the interest earned does not accumulate to earn further interest in subsequent periods.</li>
+    <li style="margin-bottom: 8px;">The total amount (A) returned is the sum of the principal (P) and the simple interest (SI) earned: A = P + SI.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">UPSC CSAT and CDS frequently test scenarios where the interest rate is annual but time is given in days or months, requiring precise conversion.</li>
+    <li style="margin-bottom: 8px;">A common trick question involves a sum of money becoming 'n' times itself; candidates must remember that the interest earned is (n-1) times the principal, not 'n' times.</li>
+    <li style="margin-bottom: 8px;">Questions on equal annual installments under simple interest are highly scoring but require a clear understanding of debt clearance formulas.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The concept of charging interest dates back to ancient civilizations like Mesopotamia, where agricultural loans were repaid with surplus yields.</li>
+    <li style="margin-bottom: 8px;">Simple interest remains the mathematical foundation for short-term financial instruments like Treasury Bills (T-Bills) and retail micro-loans.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly important for UPSC CSAT, CDS, and NDA exams. It is a core arithmetic topic with 1-3 questions regularly asked, often integrated with Compound Interest or Ratio & Proportion.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["83_Compound_Interest"] = String.raw`
@@ -14794,6 +15253,42 @@ Since the investment is for 3 years, and CI is compounded annually, Vinod will e
     (Question incomplete, cannot provide solution)</p>
 </li>
 </ol>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Compound Interest (CI) is the concept of 'interest on interest', where accumulated interest from previous periods is added to the principal for future interest calculations.</li>
+    <li style="margin-bottom: 8px;">The standard formula for annual compounding is A = P(1 + R/100)^n, where the total Compound Interest is calculated as CI = A - P.</li>
+    <li style="margin-bottom: 8px;">Adjusting compounding frequency alters the rate and time: half-yearly compounding uses rate R/2 and time 2n, while quarterly compounding uses rate R/4 and time 4n.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Difference Formulas: UPSC CSAT and CDS exams frequently test the difference between CI and SI for 2 years [CI - SI = P(R/100)^2] and 3 years [CI - SI = P(R/100)^2 * (3 + R/100)].</li>
+    <li style="margin-bottom: 8px;">Fractional Time Periods: Questions often feature non-integer years (e.g., 2 years 3 months), requiring candidates to split the calculation using A = P(1 + R/100)^2 * (1 + (R/4)/100).</li>
+    <li style="margin-bottom: 8px;">Successive Percentage Shortcut: Smart aspirants solve 2-year and 3-year CI problems using successive percentage change formulas [x + y + (xy/100)] to bypass tedious exponential calculations.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The mathematical concept of compound interest dates back to ancient Babylon (c. 2000 BCE), where clay tablets recorded compound rate calculations for grain and silver loans.</li>
+    <li style="margin-bottom: 8px;">In 1683, Swiss mathematician Jacob Bernoulli discovered the mathematical constant 'e' (Euler's number) while analyzing the limit of continuous compound interest.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Recent Developments</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">In modern financial mathematics, continuous compounding models form the bedrock of algorithmic trading, Black-Scholes option pricing, and calculating real yields on sovereign inflation-indexed bonds.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Extremely high for UPSC CSAT, CDS, and NDA. Quantitative aptitude sections consistently feature 2 to 3 questions on compound interest, population growth models, and depreciation.</div>
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["92_Profit_and_Loss"] = String.raw`
@@ -15375,6 +15870,35 @@ Since <code>n &gt; m</code>, it's a profit.
     Percentage Discount = String.raw</code>(Total Discount Amount / Total MP) × 100<code></code>= String.raw(40 / 1000) × 100 = String.raw4%\`.</p>
 </li>
 </ol>
+
+
+<!-- AI UPGRADED FIELDS -->
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Quick Summary</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Profit and Loss are calculated using Cost Price (CP) as the base (100%), where Profit = SP - CP (when SP > CP) and Loss = CP - SP (when CP > SP).</li>
+    <li style="margin-bottom: 8px;">Using fractional equivalents (e.g., 16.66% = 1/6) is highly efficient for solving complex percentage calculations rapidly without tedious decimal multiplication.</li>
+    <li style="margin-bottom: 8px;">Successive transactions (e.g., chain sales from A to B to C) or successive discount/markup rates can be solved using the net percentage change formula: x + y + (xy/100).</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Upsc Highlights</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">Dishonest Dealer Traps: UPSC/CDS frequently tests concepts of faulty weights where Profit % = [Error / (True Value - Error)] x 100.</li>
+    <li style="margin-bottom: 8px;">Same Selling Price Rule: If two articles are sold at the same price, one at a profit of x% and the other at a loss of x%, there is always an overall loss given by (x/10)^2 %.</li>
+    <li style="margin-bottom: 8px;">SP-Based Profit Illusion: Watch out for questions where profit is mistakenly calculated on the Selling Price; candidates must convert this to actual profit based on Cost Price.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Background Context</div>
+  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
+    <li style="margin-bottom: 8px;">The mathematical principles of commercial arithmetic, including profit, loss, and simple interest, have ancient roots in India, documented extensively in Bhaskara II's 12th-century treatise 'Lilavati'.</li>
+  </ul>
+</div>
+<div class="msc-checkpoint" style="margin-top: 24px;">
+  <div class="msc-title">dY"s Exam Relevance</div>
+  <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Extremely high relevance. Profit and Loss is a core arithmetic topic for UPSC CSAT, NDA, and CDS exams, consistently yielding 2 to 4 high-scoring questions annually.</div>
+</div>
 `;
 
 // Dynamically inject AI generated notes into the app's side menu
