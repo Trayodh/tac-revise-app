@@ -65,7 +65,7 @@ window.EXPANDED_NOTES_DATA["rank-equivalence"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> Do not confuse "Captain" in the Army with "Captain" in the Navy. An Army Captain is equivalent to a Navy Lieutenant. A Navy Captain is a much higher rank, equivalent to an Army Colonel!
 </div>
 `;
@@ -102,7 +102,7 @@ window.EXPANDED_NOTES_DATA["commands"] = String.raw`
   <li><strong>Southern Naval Command (Training):</strong> Kochi</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> India has only ONE Tri-Service Command, which is the <strong>Andaman and Nicobar Command (ANC)</strong> headquartered at Port Blair.
 </div>
 `;
@@ -232,7 +232,7 @@ window.EXPANDED_NOTES_DATA["env-species"] = String.raw`
   <li><strong>Vulnerable (VU):</strong> Olive Ridley Turtle (mass nesting 'Arribada' in Odisha), Greater One-Horned Rhinoceros (Kaziranga).</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> The Snow Leopard is now classified as <strong>Vulnerable</strong> (updated from Endangered), but the Asiatic Lion and Tiger remain Endangered. Always check recent status updates for UPSC exams.
 </div>
 `;

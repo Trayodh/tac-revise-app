@@ -18,7 +18,7 @@ window.EXPANDED_NOTES_DATA["reflection-refraction"] = String.raw`
   <li>When travelling from a <em>rarer</em> to a <em>denser</em> medium (e.g., air to water), light bends <strong>towards</strong> the normal.</li>
   <li>When travelling from a <em>denser</em> to a <em>rarer</em> medium, light bends <strong>away from</strong> the normal.</li>
 </ul>
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The twinkling of stars, the apparent shift in the position of the sun at sunrise/sunset, and a pencil looking bent in water are all examples of <strong>Atmospheric Refraction</strong>.
 </div>
 
@@ -63,7 +63,7 @@ window.EXPANDED_NOTES_DATA["physics-sound"] = String.raw`
 <h2>Nature of Sound</h2>
 <p>Sound is a <strong>longitudinal mechanical wave</strong>. It requires a material medium to propagate (cannot travel in a vacuum). Sound travels fastest in solids, then liquids, and slowest in gases.</p>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> The speed of sound is <em>independent</em> of the pressure of the gas. However, it increases with an increase in temperature and humidity.
 </div>
 
@@ -114,7 +114,7 @@ window.EXPANDED_NOTES_DATA["physics-heat"] = String.raw`
 <p><strong>Specific Heat Capacity ($c$):</strong> Amount of heat required to raise the temperature of 1 kg of a substance by 1°C. Water has a very high specific heat, making it an excellent coolant.</p>
 <p><strong>Latent Heat:</strong> Heat required to change the state of a substance at a constant temperature. Latent heat of vaporization of water (steam) is very high, which is why steam causes more severe burns than boiling water.</p>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The normal temperature of the human body is <strong>37°C</strong> or <strong>98.6°F</strong> or <strong>310 K</strong>.
 </div>
 `;
@@ -205,7 +205,7 @@ window.EXPANDED_NOTES_DATA["metals-alloys"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> An <strong>Amalgam</strong> is an alloy that essentially contains <strong>Mercury (Hg)</strong> as one of its components. (e.g., Dental amalgam).
 </div>
 `;
@@ -230,7 +230,7 @@ window.EXPANDED_NOTES_DATA["reactivity-series"] = String.raw`
   <li>Gold (Au) - Least reactive</li>
 </ol>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> A more reactive metal can displace a less reactive metal from its salt solution (Displacement Reaction). For example, Iron will displace Copper from Copper Sulphate ($Fe + CuSO_4 \rightarrow FeSO_4 + Cu$), but Copper cannot displace Iron.
 </div>
 `;
@@ -297,7 +297,7 @@ window.EXPANDED_NOTES_DATA["cell-structure"] = String.raw`
   <li><strong>Golgi Apparatus:</strong> Packaging and dispatching unit of the cell.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> <strong>Plant cells</strong> have a rigid Cell Wall (made of cellulose) and large central vacuoles, which are absent or very small in animal cells. Animal cells have centrioles (used in cell division) which are absent in higher plants.
 </div>
 `;
@@ -322,7 +322,7 @@ window.EXPANDED_NOTES_DATA["human-systems"] = String.raw`
   <li><strong>Pancreas:</strong> Mixed gland. Secretes <strong>Insulin</strong> (lowers blood sugar) and Glucagon (raises blood sugar).</li>
   <li><strong>Adrenal Gland:</strong> Secretes Adrenaline (fight or flight hormone).</li>
 </ul>
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> <strong>Insulin</strong> is produced by the Beta cells of the Islets of Langerhans in the pancreas, NOT the liver. The liver stores glucose as glycogen.
 </div>
 `;
@@ -391,7 +391,7 @@ window.EXPANDED_NOTES_DATA["animal-kingdom"] = String.raw`
   <li><strong>Chordata:</strong> Possess a notochord. Includes Pisces (Fishes), Amphibians, Reptiles, Aves (Birds), and Mammals.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> Mammals and Birds are <strong>Warm-blooded</strong> (Endotherms - can regulate body temp). Fishes, Amphibians, and Reptiles are <strong>Cold-blooded</strong> (Ectotherms - body temp changes with environment).
 </div>
 `;

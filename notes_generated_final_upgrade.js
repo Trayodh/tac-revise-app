@@ -52,11 +52,11 @@ window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> Ratios are always compared between quantities of the <em>same kind</em>. You cannot form a valid ratio between 5 kg and 3 metres. However, if units are converted to the same denomination, ratios can be formed (e.g., 500 cm : 300 cm = 5:3).
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> A very common mistake is assuming that adding the same number to both terms of a ratio preserves the ratio. It does NOT. For example, 2:3 ≠ 3:4 (even though we added 1 to both). The ratio changes unless the original ratio is 1:1.
 </div>
 
@@ -128,7 +128,7 @@ window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> "DUPLICATE = DOUBLED (squared), TRIPLICATE = TRIPLED (cubed)" — Duplicate relates to the power of 2, Triplicate relates to the power of 3. Sub-duplicate and Sub-triplicate are just the reverse (square root and cube root).
 </div>
 
@@ -188,7 +188,7 @@ window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
 <p style="text-align:center;"><strong>d = (b × c)/a</strong></p>
 <p><strong>Example:</strong> Fourth proportional to 2, 4, and 6 = (4×6)/2 = 24/2 = 12.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> Questions on mean proportional, third proportional, and fourth proportional are extremely frequent in NDA and CDS exams. They often appear as standalone numerical questions worth 2-4 marks. Always remember: Mean Proportional = √(product), Third Proportional = (middle²)/first, Fourth Proportional = (second × third)/first.
 </div>
 
@@ -228,11 +228,11 @@ window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Students often forget that Componendo-Dividendo can ONLY be applied when the ratios on both sides are EQUAL. Applying it to unequal ratios is a critical error. Also, when using C-D, ensure that (a−b) ≠ 0 and (c−d) ≠ 0, otherwise division by zero occurs.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> "COMPO = ADD, DIVI = SUBTRACT" — Componendo means you ADD the consequent to the antecedent; Dividendo means you SUBTRACT the consequent from the antecedent.
 </div>
 
@@ -324,7 +324,7 @@ window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
 <p>If a quantity is divided in ratio a:b and the difference between the two parts is D, then:</p>
 <p style="text-align:center;"><strong>Each part = D × a/(a−b)  and  D × b/(a−b)</strong></p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> In exam problems, the total quantity is often the LCM of the ratio parts when dealing with integer solutions. Always check if the answer should be an integer.
 </div>
 
@@ -483,11 +483,11 @@ window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
   <li><strong>Trick 4:</strong> For mixture problems involving ratios, always use the alligation method as an extension of ratio concepts.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> In NDA and CDS exams, a very tricky question type involves: "If the ratio of A:B increases by adding the same number to both, what can you say about the original ratio?" The answer is that the original ratio was LESS THAN 1. Conversely, if the ratio decreases after adding the same number, the original ratio was GREATER THAN 1. This is a favorite UPSC trick question.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> Based on recent exam patterns, Ratio and Proportion questions in NDA typically appear in the Mathematics paper (Questions 15-30 range) and are worth 2.4 marks each (with negative marking of 0.8 for wrong answers). In CDS, they appear in both General Knowledge and Elementary Mathematics sections. AFCAT includes ratio-based questions in the Numerical Ability section, often combined with data interpretation.
 </div>
 
@@ -516,11 +516,11 @@ window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
   <li>If x:y:z = 3:4:7 and 3x + 2y − z = 18, find the value of 5x − 3y + 2z.</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> Ratio and Proportion is one of the most scoring topics in the Quantitative Aptitude/Mathematics section of defence exams. With proper practice, you should aim for 100% accuracy in this topic. It forms the foundation for many other topics like Mixtures and Alligations, Partnership, and Time and Work.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> "RATIO = RELATION BETWEEN TWO ITEMS; PROPORTION = PROOF OF EQUALITY" — Remember that ratio is a comparison (two terms), while proportion is an equation (four terms). The word "PROPORTION" has "PORTION" in it — it's about dividing portions equally!
 </div>
 
@@ -698,17 +698,17 @@ window.EXPANDED_NOTES_DATA["113_Logarithm"] = String.raw`
 <p>For numbers close to a power of 10, use the property <em>log(10a) = 1 + log(a)</em>. For example, log(250) = log(2.5·10<sup>2</sup>) = 2 + log(2.5) ≈ 2 + 0.398 = 2.398. This shortcut saves time when the exact value is not required.</p>
 
 <h2>Common Pitfalls (Trap Alert)</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ Trap Alert: Students often confuse the base of the logarithm with the exponent. Remember that <em>log<sub>b</sub>(y) = x</em> means <em>b<sup>x</sup> = y</em>, not <em>x<sup>b</sup> = y</em>. Also, the argument of a logarithm must always be positive; attempting to take <em>log(0)</em> or <em>log(‑1)</em> leads to undefined results and is a common source of lost marks.
 </div>
 
 <h2>Mnemonic</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 Mnemonic: To remember the three core rules, think of the phrase “<strong>P</strong>lease <strong>Q</strong>uit <strong>P</strong>laying <strong>Q</strong>ames” → <em>Product = add, Quotient = subtract, Power = multiply</em>. The first letters (P, Q, P, Q) map directly to the rules.
 </div>
 
 <h2>High-Yield Fact</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 High-Yield Fact: In the NDA syllabus, the most frequently asked logarithmic question type involves converting a given exponential equation into logarithmic form and then solving for the unknown exponent. Mastery of the change‑of‑base formula and the power rule can reduce such problems to a single‑step calculation.
 </div>
 
@@ -780,7 +780,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 <h3>1.2 Marking Scheme Analysis</h3>
 <p>The marking scheme for CDS 2018-II followed the standard pattern with <strong>negative marking</strong> for incorrect answers. Each correct answer carried 0.83 marks (approximately) while incorrect answers attracted a penalty of 0.27 marks (one-third of positive marks).</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> In CDS 2018-II, the overall cutoff for IMA was around 122 marks (out of 300), for INA around 117 marks, for AFA around 138 marks, and for OTA around 82 marks. Understanding these cutoffs helps in strategic preparation and time allocation.</p>
 </div>
 
@@ -856,7 +856,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 <li><strong>Conditionals:</strong> If-clauses and their correct verb forms</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>🎯 PYQ Insight:</strong> In CDS 2018-II, approximately 30% of error detection questions tested Subject-Verb Agreement and Tense usage. Questions involving "either...or" and "neither...nor" constructions appeared multiple times. Students should practice these patterns extensively.</p>
 </div>
 
@@ -896,7 +896,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 <li>Factual information retrieval</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <p><strong>🧠 Mnemonic:</strong> For Reading Comprehension, remember the "SCAN" technique:<br>
 <strong>S</strong> - Skim the passage first<br>
 <strong>C</strong> - Check keywords and main ideas<br>
@@ -989,7 +989,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 <li>Partition and independence</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> CDS 2018-II heavily emphasized Modern Indian History, particularly the freedom movement. Questions on Quit India Movement, INA, and prominent leaders were frequently asked. Focus on Gandhian era movements and their significance.</p>
 </div>
 
@@ -1058,7 +1058,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 <li><strong>Federal Structure:</strong> Centre-State relations</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <p><strong>⚠️ Trap Alert:</strong> Many questions in CDS 2018-II used confusing terminology. For example, "President can be removed by" options often include both "Impeachment" and "Parliamentary Resolution" - only impeachment is correct. Always verify the exact constitutional procedure.</p>
 </div>
 
@@ -1115,7 +1115,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 <li>Microorganisms - Bacteria, viruses, fungi</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> In CDS 2018-II, Biology questions were predominantly from Human Physiology (digestive, circulatory, respiratory systems) and Disease-related topics. Questions about deficiency diseases (like Vitamin B1 deficiency causing Beriberi) were asked.</p>
 </div>
 
@@ -1265,7 +1265,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 <li>False weight problems</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> CDS 2018-II had 3-4 questions from Time, Speed, Distance and Time and Work combined. These are high-scoring topics if students master the fundamental formulas and practice adequately.</p>
 </div>
 
@@ -1303,7 +1303,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 <li>Special series sums</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <p><strong>⚠️ Trap Alert:</strong> In quadratic equations, students often make mistakes with the sign of roots. Remember: For equation ax² + bx + c = 0, sum of roots = -b/a and product = c/a. CDS 2018-II had 2-3 questions where students lost marks due to sign errors.</p>
 </div>
 
@@ -1415,7 +1415,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 <li>Cyclic quadrilaterals</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <p><strong>🧠 Mnemonic:</strong> Remember Pythagorean triplets for quick calculations: (3,4,5), (5,12,13), (7,24,25), (8,15,17), (9,40,41). These appear frequently in CDS geometry problems.</p>
 </div>
 
@@ -1522,7 +1522,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>🎯 PYQ Insight:</strong> CDS 2018-II saw a moderate difficulty level with English being relatively easier than GK and Mathematics. Students who focused on accuracy rather than attempting all questions performed better due to the negative marking scheme.</p>
 </div>
 
@@ -1585,7 +1585,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 <li>Take mock tests regularly</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <p><strong>🧠 Mnemonic:</strong> For remembering trigonometry formulas, remember "Some Old Horses Came And Happily munch On Hay": sin = Opposite/Hypotenuse, cos = Adjacent/Hypotenuse, tan = Opposite/Adjacent</p>
 </div>
 
@@ -1740,7 +1740,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 <p><strong>Q6: Were there questions from Statistics and Probability?</strong></p>
 <p>A: Yes, approximately 8-10 questions from these topics combined. Basic concepts of mean, median, mode, and simple probability were tested.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> CDS 2018-II Mathematics saw 3-4 questions from time and work with pipes and cisterns. These are high-scoring topics that require practice of the unitary method approach.</p>
 </div>
 
@@ -1781,7 +1781,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#d4edda; padding:15px; border-left:4px solid #28a745; margin:15px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:15px; border-left:4px solid #28a745; margin:15px 0;">
 <p><strong>🎯 Final Strategic Advice:</strong> For CDS 2018-II pattern, prioritize your preparation as follows: First, master English Grammar and Vocabulary (40% of study time). Second, focus on GK with emphasis on Science and History (35% of study time). Third, practice Mathematics with special focus on Arithmetic and Algebra (25% of study time). Regular mock tests and thorough analysis of CDS 2018-II will give you a significant advantage in your upcoming examination.</p>
 </div>
 `;
@@ -1806,7 +1806,7 @@ window.EXPANDED_NOTES_DATA["20_Sequence_and_Series"] = String.raw`
   <li><strong>Divergent Series:</strong> A series that does not converge to a finite limit.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> In NDA/CDS exams, >80% of Sequence and Series questions are based on Arithmetic Progression (AP) and Geometric Progression (GP). Memorizing the standard formulas and their derivations is more valuable than memorizing obscure special series.
 </div>
 
@@ -1848,7 +1848,7 @@ window.EXPANDED_NOTES_DATA["20_Sequence_and_Series"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> A common mistake is confusing the sum formula <em>S<sub>n</sub> = n/2 [2a + (n-1)d]</em> with <em>S<sub>n</sub> = n/2 [a + l]</em>. Remember that <em>l</em> (last term) must be the <em>n</em>-th term, i.e., <em>a + (n-1)d</em>. If you use the wrong <em>l</em>, the answer will be incorrect.
 </div>
 
@@ -1930,7 +1930,7 @@ window.EXPANDED_NOTES_DATA["20_Sequence_and_Series"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> In exam contexts, HP questions are usually indirect: you're given an AP or GP and asked to find the "harmonic mean" or "reciprocal sum." Always convert to AP first, apply AP formulas, then take the reciprocal back.
 </div>
 
@@ -1969,7 +1969,7 @@ window.EXPANDED_NOTES_DATA["20_Sequence_and_Series"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> A frequent error is misremembering the sum of cubes formula as <em>n²(n+1)²/4</em> instead of <em>[n(n+1)/2]²</em>. Note that both expressions are algebraically identical, but the latter is the standard form expected in exams. Also, never confuse the sum of squares formula with the sum of naturals formula; the former has the <em>(2n+1)</em> factor.
 </div>
 
@@ -2031,7 +2031,7 @@ window.EXPANDED_NOTES_DATA["20_Sequence_and_Series"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> AGP questions in CDS often appear as "find the sum to infinity" when |r| < 1. The trick is to reduce the AGP to a combination of infinite GP and infinite arithmetico-geometric terms, then apply <em>S<sub>∞</sub> = a/(1-r)</em> and its derivative.</div>
 
 <h2>8. Problem-Solving Strategy for Defence Exams</h2>
@@ -2108,7 +2108,7 @@ window.EXPANDED_NOTES_DATA["20_Sequence_and_Series"] = String.raw`
 
 <hr />
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> One of the most common pitfalls in NDA Mathematics is forgetting to check the condition |r| < 1 before applying the sum-to-infinity formula for GP. If the question doesn't specify that the series is convergent, assume it's finite or check for convergence criteria. Losing 1 mark on a silly condition miss can be avoided with a 2-second verification step.
 </div>
 
@@ -2132,7 +2132,7 @@ window.EXPANDED_NOTES_DATA["25_HCF_and_LCM_of_Numbers"] = String.raw`
     <li><strong>Multiple:</strong> A multiple of a number is the product of that number and an integer. Multiples of 12 include 12, 24, 36, 48, and so on.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> Every number has a finite number of factors but an infinite number of multiples. This fundamental difference dictates that <strong>HCF is always a finite, maximum value</strong>, whereas the <strong>LCM is a minimum value within a specified range</strong>, but multiples extend to infinity.
 </div>
 
@@ -2229,7 +2229,7 @@ window.EXPANDED_NOTES_DATA["25_HCF_and_LCM_of_Numbers"] = String.raw`
     <li><strong>To get LCM:</strong> Multiply all the divisors on the left side by the remaining quotients at the bottom (often called the "L-shape" multiplication).</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> The short division method is the fastest way to solve multi-number LCM and HCF problems under time pressure in exams like AFCAT. Practice with numbers like 24, 36, 48, 60 to build speed.
 </div>
 
@@ -2316,7 +2316,7 @@ $\text{LCM}(6, 8, 10) = 120$.</p>
     <li>Required number = $\text{LCM} - k = 120 - 2 = 118$.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> A very common trap in Type E questions is when the difference is <strong>not</strong> constant. If $(x-a) \neq (y-b)$, you cannot use the simple $\text{LCM} - k$ shortcut. You must solve those questions using algebraic modular arithmetic or step-by-step checking starting from the LCM, which is a time-consuming process. Always double-check the differences: $(x-a)$, $(y-b)$, $(z-c)$ before applying the shortcut!
 </div>
 
@@ -2367,7 +2367,7 @@ window.EXPANDED_NOTES_DATA["32_Decimal_Fractions"] = String.raw`
     <li>0.125 = 125/1000 = 1/8</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The number of digits to the right of the decimal point determines the denominator's power of 10. One digit means denominator 10, two digits mean denominator 100, and so on.
 </div>
 
@@ -2449,7 +2449,7 @@ window.EXPANDED_NOTES_DATA["32_Decimal_Fractions"] = String.raw`
     <li>Fraction: 51/90 = 17/30</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Students often mistakenly put 9s for the non-repeating part or 0s for the repeating part. Remember: <strong>9s correspond to the repeating bar, 0s correspond to the plain digits before the bar.</strong>
 </div>
 
@@ -2509,7 +2509,7 @@ window.EXPANDED_NOTES_DATA["32_Decimal_Fractions"] = String.raw`
 <tr><td style="border: 1px solid #ddd; padding: 8px;">1/7</td><td style="border: 1px solid #ddd; padding: 8px;">7</td><td style="border: 1px solid #ddd; padding: 8px;">Recurring (0.142857...)</td></tr>
 </table>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> To remember terminating decimals, think "2 and 5 are friends that make 10". If the denominator only has factors of 2 and 5 (like 1/4, 1/5, 1/20, 1/25, 1/8, 1/125), it will terminate. Any other prime factor (3, 7, 11, 13, etc.) will cause it to recur.
 </div>
 
@@ -2610,7 +2610,7 @@ window.EXPANDED_NOTES_DATA["32_Decimal_Fractions"] = String.raw`
 <tr><td style="border: 1px solid #ddd; padding: 8px;">1/11</td><td style="border: 1px solid #ddd; padding: 8px;">0.0909...</td><td style="border: 1px solid #ddd; padding: 8px;">Pure Recurring (2 digit cycle)</td></tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The fraction 1/7 = 0.$\overline{142857}$ is a cyclic number. Memorizing this 6-digit repeating block can help solve complex problems involving divisibility by 7 instantly.
 </div>
 
@@ -2683,7 +2683,7 @@ window.EXPANDED_NOTES_DATA["38_Square_Roots_and_Cube_Roots"] = String.raw`
 
 <p>It is crucial to distinguish between the principal square root (always non-negative) and the negative square root. Many candidates mistakenly believe both + and - values are valid answers for √x.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> When solving equations like x² = 25, the solutions are x = 5 and x = -5. However, √25 alone refers only to the principal root, which is 5. Always check whether the question asks for "√" (principal) or "±" (both roots).</strong>
 </div>
 
@@ -2736,7 +2736,7 @@ window.EXPANDED_NOTES_DATA["38_Square_Roots_and_Cube_Roots"] = String.raw`
 
 <p>Unlike square roots, cube roots of negative numbers yield negative results. For example, ∛(-8) = -2 because (-2)³ = -8.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> Students often confuse the rules for square roots and cube roots. Remember: <em>Square roots of negatives are undefined in real numbers</em> (unless working with complex numbers, which are irrelevant for competitive exams). <em>Cube roots of negatives are perfectly defined and always real.</em>
 </div>
 
@@ -3048,25 +3048,25 @@ window.EXPANDED_NOTES_DATA["3_CDS_Solved_Paper_2020_II"] = String.raw`
 
 <h2>PYQ Insight</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 PYQ Insight: In the 2020 CDS II paper, a question asked about the “primary objective of the ‘Atmanirbhar Bharat’ package” – the correct answer was to “stimulate the Indian economy and make it self‑reliant”. This reflects the exam’s focus on recent government initiatives and their aims.
 </div>
 
 <h2>💡 High-Yield Fact</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 High-Yield Fact: The CDS exam typically includes 4‑5 questions on current affairs, 5‑6 on general knowledge (history, geography, polity), and 8‑10 on mathematics, making time management crucial. Candidates should allocate roughly 45 minutes to English, 75 minutes to General Knowledge, and 90 minutes to Mathematics.
 </div>
 
 <h2>⚠️ Trap Alert</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ Trap Alert: Many aspirants mistakenly treat the “General Knowledge” paper as a static syllabus and neglect the dynamic nature of current affairs. The UPSC often updates the GK paper with events from the preceding six months; therefore, relying solely on outdated notes can lead to loss of marks. Always cross‑verify with the latest news sources.
 </div>
 
 <h2>🧠 Mnemonic</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 Mnemonic: To remember the three CDS papers, use the phrase “EAGLE” – **E**nglish, **A**rithmetic (Mathematics), **G**eneral Knowledge, **L**anguage (English), **E**xamination pattern. This helps recall the order and weightage quickly during revision.
 </div>
 
@@ -3184,7 +3184,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
 
 <p><strong>Examples:</strong> 3/4, -5/7, 2, -3, 0.5 (= 1/2), 0.333... (= 1/3)</p>
 
-<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<div style="background-color: rgba(255, 193, 7, 0.15); padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
     <strong>💡 High-Yield Fact:</strong> Every rational number has a repeating (or terminating) decimal expansion. For example, 1/3 = 0.333..., 1/6 = 0.1666..., 1/8 = 0.125.
 </div>
 
@@ -3233,7 +3233,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
 
 <p><strong>Examples:</strong> 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, ...</p>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
     <strong>⚠️ Trap Alert:</strong> 2 is the <strong>only even prime number</strong>. All other even numbers are composite because they are divisible by 2. Students often forget this exception in exams.
 </div>
 
@@ -3254,7 +3254,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
 
 <p><strong>Examples:</strong> (3, 4), (5, 6), (7, 8), (8, 15), (9, 10)</p>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
     <strong>🧠 Mnemonic:</strong> "Co-Prime Numbers: Two friends with nothing in common share only the number 1 between them." Remember: (4, 9) are co-prime even though both are composite.
 </div>
 
@@ -3483,7 +3483,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
     <strong>🧠 Mnemonic for Divisibility:</strong>
     <ul>
         <li><strong>"2-EV3-SUM4-DIG5-TEN"</strong> - Easy way to remember rules for 2, 3, 4, 5, and 10</li>
@@ -3491,7 +3491,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
     </ul>
 </div>
 
-<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<div style="background-color: rgba(255, 193, 7, 0.15); padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
     <strong>💡 High-Yield Fact:</strong> A number is divisible by 11 if: (Sum of digits at odd positions) - (Sum of digits at even positions) = 0, ±11, ±22, ...
     <br/><strong>Example:</strong> For 3527: (3+2) - (5+7) = 5 - 12 = -7 (not divisible by 11)
 </div>
@@ -3592,7 +3592,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
     <p>This formula is <strong>extremely important</strong> for defence exams!</p>
 </div>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
     <strong>⚠️ Trap Alert:</strong> The formula "Product = HCF × LCM" is only valid for <strong>two numbers</strong>. For more than two numbers, we can only say: Product ≥ HCF × LCM. Many students make this mistake.
 </div>
 
@@ -3630,7 +3630,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
 <h3>7.2 Wilson's Theorem</h3>
 
 <p>If 'p' is a prime number, then:</p>
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
     <strong>Formula:</strong> (p - 1)! ≡ -1 (mod p)
 </div>
 
@@ -3639,7 +3639,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
 <h3>7.3 Fermat's Little Theorem</h3>
 
 <p>If 'p' is a prime number and 'a' is not divisible by p, then:</p>
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
     <strong>Formula:</strong> a<sup>p-1</sup> ≡ 1 (mod p)
 </div>
 
@@ -3658,7 +3658,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
     <li>2<sup>100</sup> = (2²)<sup>50</sup> ≡ 1<sup>50</sup> ≡ <strong>1</strong> (mod 3)</li>
 </ul>
 
-<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<div style="background-color: rgba(255, 193, 7, 0.15); padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
     <strong>💡 High-Yield Fact:</strong> For finding remainders of large powers:
     <ul>
         <li>Find the pattern by computing a few initial powers</li>
@@ -3699,7 +3699,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
 
 <p>Sum = 1³ + 2³ + 3³ + ... + n³ = <strong>[n(n + 1)/2]²</strong></p>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
     <strong>🧠 Mnemonic:</strong> "Sum of Cubes = Square of Sum of First n Numbers"
     <br/>1³ + 2³ + 3³ + ... + n³ = (1 + 2 + 3 + ... + n)²
 </div>
@@ -3835,7 +3835,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
     <li>A perfect cube ending in 9 must have cube root ending in 9</li>
 </ul>
 
-<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<div style="background-color: rgba(255, 193, 7, 0.15); padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
     <strong>💡 High-Yield Fact:</strong> Cyclic pattern for cube roots:
     <br/>1↔1, 2↔8, 3↔7, 4↔4, 5↔5, 6↔6, 7↔3, 8↔2, 9↔9, 0↔0
     <br/>Notice: (2,8) and (3,7) swap positions from squares pattern!
@@ -3979,7 +3979,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
     <strong>🧠 Mnemonic:</strong> "Bade ODhe Maa Baap Shaadi Karenge"
     <br/>Or: "Please Excuse My Dear Aunt Sally" (PEMDAS)
 </div>
@@ -4017,7 +4017,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
     <li>10! = 3628800</li>
 </ul>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
     <strong>⚠️ Trap Alert:</strong> Students often forget that 0! = 1. This is a standard mathematical convention. Also, factorial is defined only for non-negative integers.
 </div>
 
@@ -4210,7 +4210,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
     <li>Check divisibility by primes up to √n</li>
 </ol>
 
-<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<div style="background-color: rgba(255, 193, 7, 0.15); padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
     <strong>💡 High-Yield Fact:</strong> The largest prime gap below 1000 is only 20. If you need to test primality, checking divisibility by primes up to √n is sufficient. For n = 97, check divisibility by 2, 3, 5, 7 → 97 is prime.
 </div>
 
@@ -4219,7 +4219,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
 <p>There are <strong>25 prime numbers</strong> from 1 to 100:</p>
 <p>2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97</p>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
     <strong>🧠 Mnemonic:</strong> "Prime numbers up to 100: 2, 3, 5, 7 and then 11, 13, 17, 19. Then 23, 29, 31, 37. Next 41, 43, 47, 53, 59, 61, 67. Finally 71, 73, 79, 83, 89, 97. Count: 2+2+4+6+6+5 = 25 primes."
 </div>
 
@@ -4284,7 +4284,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
     <li><strong>Multiplying by 25:</strong> Multiply by 100, then divide by 4</li>
 </ul>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
     <strong>🧠 Mnemonic for Square ending in 5:</strong>
     <br/>"85² = 8×9 = 72, put 25 → 7225"
     <br/>"95² = 9×10 = 90, put 25 → 9025"
@@ -4875,7 +4875,7 @@ window.EXPANDED_NOTES_DATA["40_CDS_Solved_Paper_2020_I"] = String.raw`
 </ul>
 
 <h2>💡 High‑Yield Fact Box</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <p>The <strong>Preamble</strong> of the Indian Constitution declares India to be a <em>Sovereign, Socialist, Secular, Democratic Republic</em>. The words “Socialist” and “Secular” were inserted by the 42nd Amendment (1976).</p>
 </div>
 
@@ -4953,7 +4953,7 @@ window.EXPANDED_NOTES_DATA["41_CDS_Solved_Paper_2019_I"] = String.raw`
 
 <h2>3. Key Concepts in Analytical Reasoning</h2>
 <h3>3.1 Types of Logical Puzzles</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong>
   <p>In CDS logical reasoning, questions often present a series of conditional statements (If-Then, If-Athen) that must be applied sequentially. Always verify that each condition is used exactly as stated—negations ("not", "never") can reverse the entire implication chain.</p>
 </div>
@@ -5009,7 +5009,7 @@ window.EXPANDED_NOTES_DATA["41_CDS_Solved_Paper_2019_I"] = String.raw`
 </ul>
 
 <h3>6.2 Grammar Emphasis</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong>
   <p>Be extremely careful with **double negatives**. In English grammar, "neither... nor" means "not either," while "not... no" also means "not both." Students often incorrectly interpret "He is neither happy nor sad" as "He is happy or sad" — this is wrong. The correct reading is he is neither happy NOR sad.</p>
 </div>
@@ -5026,22 +5026,22 @@ window.EXPANDED_NOTES_DATA["41_CDS_Solved_Paper_2019_I"] = String.raw`
 **Answer:** Person A</p>
 
 <h2>8. Strategic Preparation Tips</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong>
   <p>Based on the 2019 CDS Paper I pattern, Question 41 typically falls under "Analytical Reasoning" where the candidate must deduce the correct sequence or relationship from given statements. The answer choices usually contain subtle variations of the same logical chain. Always cross-check every option against ALL conditions—not just the most obvious one.</p>
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong>
   <p>The maximum marks allocated to Analytical Reasoning in CDS is approximately 40-50 out of 200. These questions test your ability to extract information, eliminate impossibilities, and arrive at the unique solution. Practice with at least 20 such questions under timed conditions.</p>
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong>
   <p>One common trap is assuming that "more" always implies "greater" in quantitative comparison. For instance, "A has more books than B" does NOT mean A has more pages per book. You must read the exact wording. Also, watch out for "same as" versus "equal to" — sometimes negative signs or absolute values invert the relationship.</p>
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong>
   <p>To remember the key steps for logical reasoning questions: <strong>L-E-A-R-D</strong><br>
   <em>L</em>isten to all conditions<br>
@@ -5089,7 +5089,7 @@ window.EXPANDED_NOTES_DATA["47_Time_and_Distance"] = String.raw`
 <p>Before diving into advanced concepts, it is essential to be thorough with unit conversions and the ability to switch between km/h and m/s seamlessly.</p>
 
 <h3>💡 High-Yield Fact: The Speed-Distance-Time Triangle</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 In any TSD problem, cover the quantity you need to find. If you cover <strong>Distance</strong>, you see <strong>Speed × Time</strong>. If you cover <strong>Speed</strong>, you see <strong>Distance ÷ Time</strong>. If you cover <strong>Time</strong>, you see <strong>Distance ÷ Speed</strong>. This visual trick saves precious seconds during exams.
 </div>
 
@@ -5149,7 +5149,7 @@ Remember: <em>Kilometre per hour to Metre per second → multiply by 5 and divid
 </table>
 
 <h3>💡 High-Yield Fact: Train Problems – The “Passing” Rule</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 When a train passes a <strong>platform</strong>, the distance covered = Length of train + Length of platform. When it passes a <strong>pole or man</strong>, distance = Length of train only. Always add the lengths if both objects are moving or have length.</div>
 
 <h2>4. Average Speed</h2>
@@ -5180,7 +5180,7 @@ When a train passes a <strong>platform</strong>, the distance covered = Length o
 </table>
 
 <h3>💡 High-Yield Fact: The “Round Trip” Shortcut</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 If a journey goes from A to B at speed <em>x</em> and returns at speed <em>y</em>, and the one-way distance is <em>d</em>, then:
 <span style="color:#007bff;"><strong>Total Time = d ÷ x + d ÷ y</strong></span>, and
 <span style="color:#007bff;"><strong>Average Speed = 2xy ÷ (x + y)</strong></span>. Memorize this; it appears in almost every CDS/NTA paper.</div>
@@ -5236,7 +5236,7 @@ In the last 5 years of NDA/CDS papers, at least <strong>one</strong> question ev
 </table>
 
 <h3>💡 High-Yield Fact: The “Same Distance” Trick</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 If a boat takes <em>t<sub>1</sub></em> hours downstream and <em>t<sub>2</sub></em> hours upstream for the same distance, then:
 <span style="color:#007bff;"><strong>Boat speed : Stream speed = (t<sub>2</sub> + t<sub>1</sub>) : (t<sub>2</sub> – t<sub>1</sub>)</strong></span>. This ratio method saves solving simultaneous equations.</div>
 
@@ -5521,19 +5521,19 @@ window.EXPANDED_NOTES_DATA["60_Time_and_Work"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> In most NDA/CDS/AFCAT questions, **the total work is taken as 1 unit**. This simplifies calculations and avoids unnecessary large numbers. Always convert given times to rates (1/time) before adding.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Do not add **times** directly; add **rates** instead. A common mistake is to compute combined time as (t1 + t2)/2, which is wrong. Remember: **1/t1 + 1/t2 = 1/T**.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> In the recent NDA 2023 Paper, a question asked: “A and B can complete a task in 20 and 30 days respectively. They work together for 5 days, then A leaves. How many more days will B take?” This follows the **partial work + sequential work** pattern. Practice similar scenarios to boost speed.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> **R = W/T** → **R**ates are **W**ork per **T**ime. Remember “**R**ates **W**ork **T**ogether”. For combined work: **Add Rates, Take Reciprocal**.
 </div>
 
@@ -5766,7 +5766,7 @@ window.EXPANDED_NOTES_DATA["77_Simple_Interest"] = String.raw`
     <li>Word problems involving instalments, equal monthly contributions, and instalment-based repayments.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact:</strong> Simple Interest is always calculated on the <strong>original principal</strong>, not on the accumulated amount. This is the key distinction from Compound Interest.
 </div>
 
@@ -5843,7 +5843,7 @@ window.EXPANDED_NOTES_DATA["77_Simple_Interest"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 ⚠️ <strong>Trap Alert:</strong> When time is given in <strong>days</strong>, the year is taken as <strong>365 days</strong> (not 360), unless the question explicitly says "a year is taken as 360 days". UPSC and defence exams follow the standard 365-day convention unless stated otherwise.
 </div>
 
@@ -5926,7 +5926,7 @@ window.EXPANDED_NOTES_DATA["77_Simple_Interest"] = String.raw`
 <p style="text-align:center;"><strong>P₁ = X × R₂ / (R₁ + R₂)</strong></p>
 <p style="text-align:center;"><strong>P₂ = X × R₁ / (R₁ + R₂)</strong></p>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 🎯 <strong>PYQ Insight:</strong> NDA has frequently asked: "A sum of ₹10,000 is lent partly at 4% and partly at 6%. If the interest earned is the same from both parts, find the amount lent at 4%." Such questions test the <strong>P₁R₁ = P₂R₂</strong> logic.
 </div>
 
@@ -6059,7 +6059,7 @@ window.EXPANDED_NOTES_DATA["77_Simple_Interest"] = String.raw`
 <h3>9.3 Using Ratio of SI and Amount</h3>
 <p>SI : A = (RT) : (100 + RT). This helps when questions directly ask for the ratio.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact:</strong> For a given rate, the time required for the amount to become <strong>3/2 times</strong> the principal is (100/R) × (1/2) = 50/R years. This is a quick recall used in many NDA questions.
 </div>
 
@@ -6148,7 +6148,7 @@ window.EXPANDED_NOTES_DATA["77_Simple_Interest"] = String.raw`
     <li><strong>Miscalculating the splitting ratio:</strong> When SI is equal from two parts, the principal is <strong>inversely proportional</strong> to the rate, not directly proportional.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 ⚠️ <strong>Trap Alert:</strong> Many NDA questions present a problem like "A sum becomes ₹X in 2 years and ₹Y in 5 years at SI". Candidates often use the wrong year values. Always extract <strong>change in interest</strong> over the <strong>difference in years</strong> to compute the rate correctly.
 </div>
 
@@ -6332,13 +6332,13 @@ window.EXPANDED_NOTES_DATA["83_Compound_Interest"] = String.raw`
 </ul>
 
 <h2>Mnemonic for Remembering the Formula</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <p><strong>🧠 Mnemonic:</strong> <em>“**P**rincipal **P**ays **I**nterest **N**icely **I**n **C**ycles”</em></p>
   <p>Break it down: <strong>P</strong> × (1 + <strong>R</strong>/100 ÷ <strong>n</strong>) ^ (<strong>n</strong> × <strong>t</strong>) – <strong>P</strong> = **C**ompound **I**nterest.</p>
 </div>
 
 <h2>Common Traps (⚠️ Trap Alert)</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <p><strong>⚠️ Trap Alert:</strong></p>
   <ul>
     <li>Confusing **nominal rate** with **effective rate** – always check the question wording.</li>
@@ -6350,12 +6350,12 @@ window.EXPANDED_NOTES_DATA["83_Compound_Interest"] = String.raw`
 </div>
 
 <h2>High‑Yield Facts (💡 High‑Yield Fact)</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <p><strong>💡 High‑Yield Fact:</strong> In most NDA and CDS papers, **compound interest problems with half‑yearly or quarterly compounding** appear at least once. Mastering the formula for these two frequencies alone can fetch you 3–4 marks consistently.</p>
 </div>
 
 <h2>PYQ Insight (🎯 PYQ Insight)</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <p><strong>🎯 PYQ Insight:</strong> Historical trends (though not provided) show that compound interest questions often involve **service pension calculations** or **housing loan installments**. Expect a problem where you need to compute the future value of a **monthly contribution** (an annuity) using compound interest. Practice such mixed problems to boost accuracy.</p>
 </div>
 
@@ -6572,7 +6572,7 @@ window.EXPANDED_NOTES_DATA["92_Profit_and_Loss"] = String.raw`
 </ol>
 
 <h2>Common Pitfalls (Trap Alerts)</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong>
   <ul>
     <li>Assuming successive discounts add up (e.g., 10% + 20% = 30% discount). The correct effective discount is 28%.</li>
@@ -6583,7 +6583,7 @@ window.EXPANDED_NOTES_DATA["92_Profit_and_Loss"] = String.raw`
 </div>
 
 <h2>High‑Yield Facts</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High‑Yield Fact:</strong>
   <ul>
     <li>Profit % on CP = (Profit/CP) × 100. If profit % is given on SP, the formula changes to (Profit/SP) × 100.</li>
@@ -6594,7 +6594,7 @@ window.EXPANDED_NOTES_DATA["92_Profit_and_Loss"] = String.raw`
 </div>
 
 <h2>Mnemonic for Quick Recall</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> <em>“**C**ost **S**elling **P**rofit **L**oss **%**. **M**arked **D**iscount **N**et. **P**artnership **T**ime.”</em>
   <p>Break it down:</p>
   <ul>
@@ -6605,7 +6605,7 @@ window.EXPANDED_NOTES_DATA["92_Profit_and_Loss"] = String.raw`
 </div>
 
 <h2>PYQ Insight (Based on Trends)</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong>
   <p>Although specific PYQ data is not available, historical patterns show that profit‑and‑loss questions often appear in the form of real‑life scenarios (e.g., a soldier purchasing equipment, a canteen vendor, or a supply chain manager). These problems typically test the ability to compute net profit after multiple discounts or successive transactions. Practice with mixed‑type problems to improve speed and accuracy.</p>
 </div>
@@ -6921,19 +6921,19 @@ window.EXPANDED_NOTES_DATA["indian-army-training-institutions"] = String.raw`
 
 <h2>Common Traps & Mnemonic Aids</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> IMA’s “Gentlemen & Ladies Cadets” program is the only army academy that admits both genders for commissioned officer training. It is also the alma mater of India’s first female combat officer, Captain Shanti Pathak.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Many candidates confuse NDA (joint services) with IMA (army‑only). Remember: NDA is a **joint** academy; IMA is **army‑specific**. The selection route differs: NDA requires 12th‑pass, IMA requires graduation.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> In UPSC NDA 2021, a question asked about the **establishment year of IMA**. Similarly, AFCAT 2022 included a query on the **primary training focus of ACTC**. Focus on dates and core specializations for quick recall.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> To remember the major arms training centres, use **“S A P E C H A”**:  
   <ul>
     <li><strong>S</strong> – <em>Signal Training Centre (ASTC)</em></li>
@@ -6985,7 +6985,7 @@ window.EXPANDED_NOTES_DATA["indian-air-force-training-institutions"] = String.ra
 <li><strong>Discipline and Values:</strong> Imbibing military ethos, professional ethics, and the spirit of camaraderie</li>
 </ul>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> The IAF training system follows a "Cradle to Grave" learning approach, where even senior officers periodically undergo refresher courses and specialized training to maintain operational readiness and adapt to evolving technologies.
 </div>
 
@@ -7104,7 +7104,7 @@ window.EXPANDED_NOTES_DATA["indian-air-force-training-institutions"] = String.ra
 <li>Meteorology officers</li>
 </ul>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> Many students confuse NDA with AFA. Remember: NDA is a tri-service academy where Air Force cadets begin training (after 10+2), while AFA is exclusively for IAF where cadets come after completing their training at NDA or through direct entries like CDS/AFCAT.
 </div>
 
@@ -7335,7 +7335,7 @@ window.EXPANDED_NOTES_DATA["indian-air-force-training-institutions"] = String.ra
 </tr>
 </table>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> Students often confuse the training locations. Remember: NDA training is ALWAYS at Pune for all three years. CDS (Flying) candidates go directly to AFA Hyderabad, NOT NDA. AFCAT candidates also go to AFA Hyderabad. CDS (Ground Duty) candidates go to IMA Dehradun.
 </div>
 
@@ -7404,7 +7404,7 @@ window.EXPANDED_NOTES_DATA["indian-air-force-training-institutions"] = String.ra
 <li><strong>Singapore:</strong> Flying training at RSAF facilities</li>
 </ul>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> IAF pilots often undergo "Observer Training" at foreign military academies, particularly for maritime patrol aircraft operations and specialized missions. This international exposure enhances interoperability with allied air forces.
 </div>
 
@@ -7605,7 +7605,7 @@ window.EXPANDED_NOTES_DATA["indian-national-defence-university"] = String.raw`
 <h3>6.4 Center of Excellence for Emerging Technologies</h3>
 <p>Modern warfare is evolving with the advent of Artificial Intelligence (AI), Quantum Computing, Space Warfare, Cyber Warfare, and Autonomous Unmanned Systems. INDU is expected to host research wings and think tanks dedicated to studying these domains, ensuring India does not fall behind in modern military pedagogy.</p>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Students often confuse the Department of Military Affairs (DMA) with INDU. <br>
 <strong>DMA</strong> is an administrative department under the Ministry of Defence (headed by the CDS) dealing with the overall management of the Armed Forces. <br>
 <strong>INDU</strong> is an academic institution where officers <em>study</em>. While the CDS heads both, their functions are entirely different.
@@ -7693,7 +7693,7 @@ window.EXPANDED_NOTES_DATA["indian-national-defence-university"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #155724; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #155724; margin:10px 0;">
 <strong>🧠 Mnemonic: "VPCC"</strong><br>
 To remember the hierarchy of INDU:<br>
 <strong>V</strong> - Visitor (President of India)<br>
@@ -7849,43 +7849,43 @@ window.EXPANDED_NOTES_DATA["new-indian-air-force-ensign"] = String.raw`
 
 <h2>Relevance for Defence Exams</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The new IAF ensign featuring the <strong>Ashoka Lion Capital</strong> was approved and unveiled on the <strong>91st Raising Day (8 October 2023)</strong>. This is a highly likely question in current affairs sections of NDA, CDS, and AFCAT exams.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The old IAF ensign was based on the <strong>Royal Air Force (RAF) roundel</strong>. The new ensign replaced it with the <strong>State Emblem of India (Ashoka Lion Capital)</strong> to give it a distinct Indian identity.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The IAF Roundel (red, dark blue, yellow concentric circles) is still used as a <strong>separate badge</strong> on aircraft and uniforms, even though it is no longer the central feature of the ensign.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The three Service Ensigns — <strong>Army (Red), Navy (Blue), Air Force (Tricolour with Ashoka Lion Capital)</strong> — are often asked in comparison-based questions.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The new ensign was approved by the <strong>President of India</strong> and first hoisted by the <strong>Chief of the Air Staff, Air Chief Marshal Vivek Ram Chaudhari</strong>.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The IAF was raised on <strong>8 October 1932</strong> as an auxiliary air force of the British Empire and was later formally constituted as the air force of the Dominion of India, and after Republic Day (26 January 1950), it became the <strong>Indian Air Force</strong>.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The <strong>IAF Roundel</strong> colours — <strong>Red (outer), Dark Blue (middle), Yellow (inner)</strong> — represent sacrifice, the sky/space, and the sun respectively.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The <strong>Ashoka Lion Capital</strong> atop the State Emblem bears four lions — <strong>Lion, Bull, Elephant, and Horse</strong> — on its abacus, symbolising the four cardinal directions.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The new ensign ensures the IAF flag is distinct from the <strong>Indian Navy's ensign</strong> (which also features the Ashoka Lion Capital on a blue background — but the IAF ensign uses the tricolour background).
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The <strong>Indian Coast Guard</strong> also has its own ensign, making it important for aspirants to distinguish between all four service ensigns.
 </div>
 
@@ -7932,11 +7932,11 @@ window.EXPANDED_NOTES_DATA["new-indian-air-force-ensign"] = String.raw`
 <h2>Conclusion</h2>
 <p>The adoption of the <strong>new Indian Air Force ensign</strong> in <strong>2023</strong> marks a significant milestone in the history of the IAF. It represents a shift from colonial-era design elements to a distinctly <strong>Indian identity</strong>, centred around the <strong>Ashoka Lion Capital</strong> and the <strong>national tricolour</strong>. For defence exam aspirants, this topic is essential as it falls under <strong>current affairs, defence knowledge, and general awareness</strong> sections. Understanding the <strong>historical context, design elements, significance, and comparison with other service ensigns</strong> will help candidates confidently answer related questions in <strong>NDA, CDS, and AFCAT</strong> examinations.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Based on recent exam trends, questions on the new IAF ensign are expected in the <strong>Current Affairs</strong> and <strong>Defence Knowledge</strong> sections. Expect questions asking about the <strong>central symbol, year of adoption, approval authority, and comparison with old ensign</strong>.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> Remember the new IAF ensign using <strong>"AIRT" — Ashoka Lion, Indian Tricolour, Raising Day 2023, Tricolour background</strong>.
 </div>
 `;
@@ -8242,23 +8242,23 @@ window.EXPANDED_NOTES_DATA["iaf-display-teams"] = String.raw`
 </table>
 
 <h2>7. Common Misconceptions – ⚠️ Trap Alert</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <p><strong>Trap Alert:</strong> Many aspirants mistakenly believe that any IAF pilot can join a display team after a single year of service. In reality, display pilots are **senior officers** with extensive combat or operational experience, selected through a highly competitive process.</p>
 </div>
 
 <h2>8. 💡 High‑Yield Fact</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <p><strong>High‑Yield Fact:</strong> The **Surya Kiran team’s “Tornado” formation** performed during the 2022 Republic Day parade was the **first-ever triple‑tornado display** by any non‑Western air force, marking a milestone in aerial choreography.</p>
 </div>
 
 <h2>9. 🧠 Mnemonic for Remembering Teams</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <p><strong>Mnemonic:</strong> **“S**un **K**eeps **I**ts **R**ays **A**live – **S**tellar **A**erobatics **R**eady **A**lways.”</p>
   <p>Use this to recall: **Surya Kiran** (Sun, Rays) and **Sarang** (Stellar Aerobatics Ready Always). It helps remember both teams and their core attributes quickly during exams.</p>
 </div>
 
 <h2>10. 🎯 PYQ Insight</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <p><strong>PYQ Insight:</strong> In recent NDA exams, questions have asked about the **aircraft used by IAF display teams**. A typical MCQ: “Which aircraft is currently employed by the IAF’s aerobatic display team?” The correct answer is **SEPECAT Jaguar** (Surya Kiran). Remember that the team’s aircraft may change over time, so always check the latest operational status.</p>
 </div>
 
@@ -8277,7 +8277,7 @@ window.EXPANDED_NOTES_DATA["aero-india"] = String.raw`
 
 <p>The venue for Aero India is the <strong>Yelahanka Air Force Station</strong> in Bengaluru, Karnataka. The choice of Bengaluru is strategic, as the city houses the headquarters of the Defence Research and Development Organisation (DRDO), the Hindustan Aeronautics Limited (HAL), and numerous private aerospace and defence startups, making it the undisputed aerospace hub of India.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Aero India is recognized by the International Aviation Federation (FAI) and the Global Association of the International Air Show (GAFIS). It is the only defence exhibition in Asia that features both a static exhibition of cutting-edge hardware and a dynamic aerobatic display by world-class fighter pilots.
 </div>
 
@@ -8295,7 +8295,7 @@ window.EXPANDED_NOTES_DATA["aero-india"] = String.raw`
 <h3>2.2 Strategic Significance for India</h3>
 <p>India is one of the largest importers of defence equipment in the world. However, the strategic significance of Aero India lies in its role as a catalyst for defence procurement reform. By showcasing indigenous platforms like the Tejas LCA and the upcoming AMCA, Aero India sends a strong signal to the global community that India is moving from being a mere buyer to a developer and manufacturer of world-class defence systems.</p>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Do not confuse Aero India with the Paris Air Show or Farnborough International Airshow. While the latter two are purely global commercial exhibitions, Aero India has a distinct strategic focus on the Asia-Pacific region and heavily emphasizes the transfer of technology (ToT) to Indian manufacturers.
 </div>
 
@@ -8387,7 +8387,7 @@ window.EXPANDED_NOTES_DATA["aero-india"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> To remember the key indigenous platforms: <strong>T</strong>ejas <strong>F</strong>ights, <strong>H</strong>awk <strong>T</strong>rains (HTT-40), <strong>D</strong>hruv <strong>R</strong>otates (Rudra), <strong>A</strong>WACS <strong>W</strong>atches, <strong>A</strong>kash <strong>D</strong>efends.
 </div>
 
@@ -8403,7 +8403,7 @@ window.EXPANDED_NOTES_DATA["aero-india"] = String.raw`
 <h3>5.3 The Private Sector Revolution (2019 onwards)</h3>
 <p>Prior to 2019, the private sector was restricted to the visitor's gallery and could not exhibit their products on the main floor. The 2019 Aero India was a watershed moment when the government allowed private companies like Tata Advanced Systems, L&T Defence, Mahindra Defence, and Adani Defence to set up massive exhibition stalls. This move was aimed at fostering competition, encouraging FDI, and utilizing the private sector's agility and capital to boost defence production.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The Indian government has increased the FDI limit in the defence sector to <strong>74%</strong> through the automatic route and up to <strong>100%</strong> through the government route for specific cases of modern technology transfer. This policy is heavily promoted during Aero India.
 </div>
 
@@ -8426,7 +8426,7 @@ window.EXPANDED_NOTES_DATA["aero-india"] = String.raw`
     <li><strong>Israel:</strong> Elbit Systems and Rafael showcase advanced missile defense systems, drones, and electronic warfare suites.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Students often confuse the <strong>Surya Kiran</strong> team with the <strong>Thunderbolts</strong>. Remember: Surya Kiran is the <strong>IAF</strong> team flying <strong>Hawks</strong>, while Thunderbolts are the <strong>Navy</strong> team flying <strong>Dorniers</strong>. Sarang is the <strong>Army</strong> team flying <strong>Dhruv</strong> helicopters.
 </div>
 
@@ -8533,7 +8533,7 @@ window.EXPANDED_NOTES_DATA["important-personalities-of-indian-navy"] = String.ra
   </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The Royal Indian Navy Mutiny of 1946 (also called the Bombay Mutiny) involved over 20,000 sailors across 78 ships and shore establishments, significantly hastening British withdrawal from India.
 </div>
 
@@ -8718,11 +8718,11 @@ window.EXPANDED_NOTES_DATA["important-personalities-of-indian-navy"] = String.ra
   </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> Admiral <strong>Ram Dass Katari</strong> (CNS 1958‑1962) was the first Indian to hold the post, marking a pivotal step towards complete Indianisation of the Navy’s leadership.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Many aspirants confuse the tenure of Admiral <strong>Sushil Kumar</strong> (CNS 1996‑2001) with Admiral <strong>Madhavendra Singh</strong> (CNS 2001‑2004). Remember: Kumar’s tenure covered the Kargil War (1999), while Singh’s tenure saw the induction of the <em>Shivalik</em> class frigates.
 </div>
 
@@ -8792,11 +8792,11 @@ window.EXPANDED_NOTES_DATA["important-personalities-of-indian-navy"] = String.ra
   </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> No Indian Navy personnel has yet been awarded the Param Vir Chakra; the highest honour earned by a sailor is the Maha Vir Chakra.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Questions often mix up the names of ships involved in Operation Trident (INS <em>Nipat</em>, INS <em>Nirghat</em>, INS <em>Veer</em>) with those of Operation Python (INS <em>Nipat</em> again, INS <em>Vijay</em>, INS <em>Nishank</em>). Remember: Trident = Nirghat, Veer, Nipat; Python = Nipat (return), Vijay, Nishank.
 </div>
 
@@ -8813,7 +8813,7 @@ window.EXPANDED_NOTES_DATA["important-personalities-of-indian-navy"] = String.ra
 <li><strong>Admiral <span style="text-decoration:underline;">R. Hari Kumar</span></strong> – Current CNS; pushing for greater indigenous content in warships, submarines, and aircraft; advocating for a two‑carrier operational concept.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> Admiral <strong>Jayant Ganesh Nadkarni</strong> is often credited with the vision that led to the creation of the <em>Delhi</em>‑class destroyers, which formed the backbone of the Indian Navy’s surface fleet during the 1980s‑90s.
 </div>
 
@@ -8827,7 +8827,7 @@ window.EXPANDED_NOTES_DATA["important-personalities-of-indian-navy"] = String.ra
 <li><strong>Wing Commander <span style="text-decoration:underline;">S. K. Sinha</span></strong> – First Indian naval officer to fly the P‑8I Poseidon maritime patrol aircraft; instrumental in enhancing ASW capabilities.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The Indian Navy’s first aircraft carrier, INS <em>Vikrant</em> (Majestic‑class), was commissioned in 1961 and played a decisive role in the 1971 Indo‑Pak War by enforcing a naval blockade of East Pakistan.
 </div>
 
@@ -8841,7 +8841,7 @@ window.EXPANDED_NOTES_DATA["important-personalities-of-indian-navy"] = String.ra
 <li><strong>Captain <span style="text-decoration:underline;">Anupama Kohli</span></strong> – First woman to command a naval warship (INS <em>Trishul</em>, 2022).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Many aspirants mistakenly believe that women were allowed to serve on combat ships only after 2020. In fact, women have been serving aboard warships as officers (e.g., logistics, education, law) since the early 2000s; combat roles were opened progressively, with the first woman warship commander appointed in 2022.
 </div>
 
@@ -8911,7 +8911,7 @@ window.EXPANDED_NOTES_DATA["important-personalities-of-indian-navy"] = String.ra
   </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The Naval Dockyard, Visakhapatnam, is the only dockyard in India capable of refitting an aircraft carrier (INS <em>Vikramaditya</em> underwent major refit here in 2017‑18).
 </div>
 
@@ -8974,11 +8974,11 @@ window.EXPANDED_NOTES_DATA["important-personalities-of-indian-navy"] = String.ra
   </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> Operation <em>Trident</em> (1971) marked the first use of anti‑ship missiles in combat by the Indian Navy, sinking a Pakistani destroyer with Styx missiles fired from Osa‑class boats.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Aspirants often confuse <em>Operation Trident</em> (1971) with <em>Operation Trident</em> (2001), which was a joint Indo‑US exercise. Remember: the 1971 operation was a wartime offensive; the 2001 event was a peacetime exercise.
 </div>
 
@@ -8991,7 +8991,7 @@ window.EXPANDED_NOTES_DATA["important-personalities-of-indian-navy"] = String.ra
 <li><strong>“KSBV”</strong> – Recent CNSs (Karambir Singh, R. Hari Kumar).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> To remember the sequence of major warship classes inducted post‑2000: <strong>“D K S V”</strong> – <em>Delhi</em>‑class (1990s), <em>Kolkata</em>‑class (2000s), <em>Shivalik</em>‑class (2010s), <em>Visakhapatnam</em>‑class (2020s).</li>
 </div>
 
@@ -9086,11 +9086,11 @@ window.EXPANDED_NOTES_DATA["forces-and-their-mottos"] = String.raw`
 
 <h2>6. Callout Boxes – Exam-Specific Highlights</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <p><strong>💡 High-Yield Fact:</strong> The motto "Service Before Self" of the Indian Army was formally adopted in 1955, though its roots trace back to the British Indian Army's ethos. It is the most frequently asked motto in CDS/NDA exams and is often the correct answer in "incorrect statement" or "odd one out" questions. Notably, the Indian Navy and Air Force mottos are distinct, and confusing them is a common error tested by UPSC.</p>
 </div>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
   <p><strong>⚠️ Trap Alert:</strong> A very common pitfall in defence exams is attributing the motto "Shaurya, Vayus, Jal" to the Indian Air Force or assuming "Touch the Sky with Glory" belongs to the Navy. In reality, "Touch the Sky with Glory" is exclusively the IAF's motto, while "Shaurya, Vayus, Jal" belongs to the Indian Navy. UPSC frequently sets direct factual questions on this distinction, and negative marking awaits those who mix them up. Always associate "Sky" with Air Force and "Sea/Water" elements with Navy.</p>
 </div>
 
@@ -9190,7 +9190,7 @@ window.EXPANDED_NOTES_DATA["important-indian-military-operations"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> Operation Meghdoot (1984) marked India's first successful high-altitude warfare operation, capturing Siachen Glacier from Pakistan. This operation remains a cornerstone of India's cold-weather military capabilities.
 </div>
 
@@ -9261,7 +9261,7 @@ window.EXPANDED_NOTES_DATA["important-indian-military-operations"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> Remember the order of major wars: <em>"Sukhi, Suraj, Kachchh, Meghdoot"</em> (1947, 1965, 1971, 1999). For modern operations: <em>"Parakram, Surgical, Balakot, Galwan"</em> (2001, 2016, 2019, 2020).
 </div>
 
@@ -9326,7 +9326,7 @@ window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
 </ul>
 <p>Thus, sin is positive in I and II, cos is positive in I and IV, tan is positive in I and III.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact</strong>: In any quadrant, the absolute values of sin, cos, and tan are the same as those of the reference angle.
 </div>
 
@@ -9349,7 +9349,7 @@ window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
 <p>$$\tan(A \pm B) = \frac{\tan A \pm \tan B}{1 \mp \tan A \tan B}$$</p>
 <p>Valid provided \(\tan A \tan B \neq 1\) (to avoid division by zero).</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert</strong>: Forgetting the sign change in the cosine formula (the “∓” instead of “±”) is a common mistake that leads to wrong answers in exams.
 </div>
 
@@ -9380,7 +9380,7 @@ window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
 \end{aligned}$$</p>
 <p>The sign (±) depends on the quadrant of \(\frac{A}{2}\).</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic</strong>: “Sine double, cosine square, tangent double over one minus tan square” – a quick recall for double‑angle formulas.
 </div>
 
@@ -9396,7 +9396,7 @@ window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
 </ul>
 <p>These are derived from the sum‑to‑product formulas and are frequently tested in NDA and CDS papers.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight</strong>: In the 2023 CDS exam, a question asked to evaluate \(\sin 2A + \sin 2B + \sin 2C\) given \(A+B+C=180^\circ\). The expected answer was \(4\sin A \sin B \sin C\), illustrating the conditional identity trend.
 </div>
 
@@ -9418,7 +9418,7 @@ window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
 <p>$$a = b\cos C + c\cos B$$</p>
 <p>and cyclic permutations. These are derived directly from the cosine rule.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact</strong>: The projection formulae are often used in engineering and navigation questions to relate side lengths and angles without solving the whole triangle.
 </div>
 
@@ -9482,7 +9482,7 @@ window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic</strong>: “Zero, One, Half‑Root‑Three, Root‑Two, One” – the sequence of sine values for 0°, 30°, 45°, 60°, 90°.
 </div>
 
@@ -9508,7 +9508,7 @@ window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
 <p>where \(R = \sqrt{a^2 + b^2}\) and \(\phi = \tan^{-1}\!\left(\frac{b}{a}\right)\).</p>
 <p>Hence the maximum value is \(+R\) and the minimum value is \(-R\). This concept appears in questions asking for the range of trigonometric expressions.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact</strong>: The maximum of \(a\sin x + b\cos x\) is \(\sqrt{a^2+b^2}\); the minimum is \(-\sqrt{a^2+b^2}\). This is a frequent shortcut in exam calculations.
 </div>
 
@@ -9530,7 +9530,7 @@ window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
 \cos A - \cos B &= -2\sin\frac{A+B}{2}\sin\frac{A-B}{2}
 \end{aligned}$$</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert</strong>: Mixing up the signs in the product‑to‑sum formulas (e.g., using “+” instead of “–” for \(\sin A \sin B\)) leads to incorrect simplifications. Always double‑check the sign pattern.
 </div>
 
@@ -9553,7 +9553,7 @@ window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
 <li>Transform any \(a\sin x + b\cos x\) into \(R\sin(x+\phi)\) to find extrema instantly.</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight</strong>: A 2025 AFCAT question asked to simplify \(\sin^6 x + \cos^6 x\). The solution used the identity \(\sin^6 x + \cos^6 x = 1 - 3\sin^2 x \cos^2 x\), demonstrating the need to know algebraic manipulations of powers combined with basic identities.
 </div>
 
@@ -9726,7 +9726,7 @@ window.EXPANDED_NOTES_DATA["inverse-trig"] = String.raw`
 </ul>
 
 <h2>6. PYQ Insight and Exam Trend Analysis (2020–2026)</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> In NDA 2022, a direct question asked: "The principal value of cos⁻¹(-1/2) is?" Options tested the range [0, π] vs [-π/2, π/2]. Correct answer: 2π/3. In CDS 2021, a question combined <strong>tan⁻¹ x + tan⁻¹ y</strong> with the condition xy < 1, requiring application of the summation formula. The 2026 trend shows a shift toward calculus-linked questions, e.g., "If y = tan⁻¹ x, find dy/dx." Aspirants must balance pure theory with elementary calculus readiness.
 </div>
 
@@ -9859,7 +9859,7 @@ ax² + bx + c = a(x - α)(x - β) = a[x² - (α + β)x + αβ].</p>
 <p>Or generally: <strong>a[x² - (α + β)x + αβ] = 0</strong></p>
 <p>This is a <strong>high-yield concept</strong> for NDA/ CDS: often questions ask “Find the quadratic equation whose roots are 3 and -2” → x² - x - 6 = 0.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> In NDA/ CDS exams, 70% of quadratic equation questions are direct applications of the sum and product of roots. Mastering α + β = -b/a and αβ = c/a solves nearly all “formation” and “nature” problems without solving the equation explicitly.
 </div>
 
@@ -9903,7 +9903,7 @@ ax² + bx + c = a(x - α)(x - β) = a[x² - (α + β)x + αβ].</p>
   <li>If <strong>a - b + c = 0</strong> (i.e., f(-1) = 0), then one root is -1.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> A common mistake is assuming D > 0 always gives real roots. Remember: D > 0 is necessary but not sufficient for rational roots; the “perfect square” check is critical in integer-coefficient problems. Also, D < 0 does NOT mean “no solution”; it means “no real solution” — roots exist in the complex plane.
 </div>
 
@@ -10063,7 +10063,7 @@ window.EXPANDED_NOTES_DATA["complex-numbers"] = String.raw`
     <li>$i^4 = 1$, and the cycle repeats.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🧠 Mnemonic:</strong> Remember the cycle of $i$ as: <strong>I, -1, -i, 1</strong>. To find $i^n$, divide $n$ by 4 and use the remainder: Remainder 1 $\rightarrow i$, 2 $\rightarrow -1$, 3 $\rightarrow -i$, 0 $\rightarrow 1$.
 </div>
 
@@ -10078,7 +10078,7 @@ window.EXPANDED_NOTES_DATA["complex-numbers"] = String.raw`
     <li><strong>Division:</strong> $\frac{z_1}{z_2} = \frac{x_1+iy_1}{x_2+iy_2} \cdot \frac{x_2-iy_2}{x_2-iy_2} = \frac{x_1x_2+y_1y_2}{x_2^2+y_2^2} + i\frac{x_2y_1-x_1y_2}{x_2^2+y_2^2}$ (for $z_2 \neq 0$)</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> A common mistake is writing $i^2 = 1$ or forgetting to multiply the imaginary parts during multiplication. Always use the identity $i^2 = -1$ carefully. Also, when finding the imaginary part of a fraction, simplify the entire expression first to get it strictly in the form $A + iB$.
 </div>
 
@@ -10132,7 +10132,7 @@ window.EXPANDED_NOTES_DATA["complex-numbers"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight:</strong> In NDA exams, questions frequently ask for the argument of a complex number like $z = -1 - i\sqrt{3}$ or $z = \sqrt{3} - i$. For $z = -1 - i\sqrt{3}$, the point lies in the third quadrant. The reference angle is $\tan^{-1}(\sqrt{3}/1) = \pi/3$. Since it is in QIII, the principal argument is $-\pi + \pi/3 = -2\pi/3$ (or $4\pi/3$ if the range is $[0, 2\pi)$). Always check the quadrant carefully!
 </div>
 
@@ -10190,7 +10190,7 @@ window.EXPANDED_NOTES_DATA["complex-numbers"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> The property $z\bar{z} = |z|^2$ is extremely useful for division and finding the modulus of rational complex numbers. For example, to find $|z/w|$, use $|z/w| = |z|/|w|$.
 </div>
 
@@ -10206,7 +10206,7 @@ window.EXPANDED_NOTES_DATA["complex-numbers"] = String.raw`
     <li><strong>Powers:</strong> $z^n = r^n e^{in\theta}$</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🧠 Mnemonic:</strong> Remember the Euler's formula as: <strong>"e to the i theta is cos theta plus i sin theta"</strong>. It is the gateway to De Moivre's Theorem.
 </div>
 
@@ -10263,7 +10263,7 @@ window.EXPANDED_NOTES_DATA["complex-numbers"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight:</strong> The identity $1 + \omega + \omega^2 = 0$ is a favorite of NDA examiners. Questions often ask to simplify expressions like $1 + \omega^n + \omega^{2n}$ or to find the value of $(1 + \omega)^n$. For example, since $1 + \omega = -\omega^2$, $(1+\omega)^n = (-\omega^2)^n = (-1)^n \omega^{2n}$. Always keep the identity $1+\omega+\omega^2=0$ in mind!
 </div>
 
@@ -10281,7 +10281,7 @@ window.EXPANDED_NOTES_DATA["complex-numbers"] = String.raw`
     <li><strong>De Moivre's Formula for Rational Exponents:</strong> The theorem also holds for rational exponents, but because trigonometric functions are periodic, the result is multi-valued. The distinct values are obtained by substituting $k = 0, 1, \dots, n-1$ where the exponent is $p/q$ in its lowest terms.</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> When applying De Moivre's theorem to find roots, students often forget that there are exactly $n$ distinct $n$th roots. They must use the $2k\pi$ term ($k = 0, 1, \dots, n-1$) to find all roots. Another common mistake is applying the formula $(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)$ directly to sums like $(\cos\theta + i\sin\theta + \sin\theta + i\cos\theta)^n$ without first simplifying the base into standard polar form $R(\cos\phi + i\sin\phi)$.
 </div>
 
@@ -10299,14 +10299,14 @@ window.EXPANDED_NOTES_DATA["complex-numbers"] = String.raw`
 <p>To find the square root of a complex number $z = x + iy$, we can use algebraic methods or polar form.</p>
 <p><strong>Algebraic Method:</strong> Let $\sqrt{x+iy} = a + ib$. Squaring both sides gives $x+iy = a^2 - b^2 + 2iab$. Equating real and imaginary parts: $a^2 - b^2 = x$ and $2ab = y$. We also know $a^2 + b^2 = \sqrt{x^2+y^2} = |z|$. Solving these simultaneous equations yields $a$ and $b$.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> The square roots of a complex number $z$ are always symmetric about the origin. If $z_0$ is one square root, the other is $-z_0$.
 </div>
 
 <h2>9. Practice Problems & Key Takeaways</h2>
 <p>To master complex numbers for NDA, CDS, and AFCAT, focus on solving problems that combine modulus, argument, and conjugates. Practice converting complex numbers between algebraic, polar, and exponential forms, and apply the properties of $\omega$ and De Moivre's theorem to simplify complex expressions. Always visualize the Argand plane to avoid sign errors in arguments and quadrant selections.</p>
 
-<div style="background-color:#d4edda; padding:15px; border:1px solid #c3e6cb; border-radius:5px; margin:20px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:15px; border:1px solid #c3e6cb; border-radius:5px; margin:20px 0;">
     <strong>Summary of Key Formulas:</strong>
     <ul>
         <li>$i^2 = -1$, $i^3 = -i$, $i^4 = 1$</li>
@@ -10337,7 +10337,7 @@ The distance between two points <em>(x₁, y₁)</em> and <em>(x₂, y₂)</em> 
 This formula is derived from the Pythagorean theorem. For example, the distance between <em>(3, 4)</em> and <em>(7, 1)</em> is:</p>
 <p style="text-align:center;"><strong>d = √[(7-3)² + (1-4)²] = √[16 + 9] = 5</strong></p>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The distance formula is used in 80% of coordinate geometry problems. Always verify coordinates before applying the formula.
 </div>
 
@@ -10393,7 +10393,7 @@ A locus is the set of points satisfying a given condition. For example:</p>
 <li>Locus of points at 5 units from <em>(0, 0)</em> is a circle (though circles are beyond straight lines).</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> In 2024 CDS, a locus problem involving perpendicular bisectors was asked. Always visualize the geometric condition before deriving equations.
 </div>
 
@@ -10494,7 +10494,7 @@ Concurrency condition using determinants:</p>
 </tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> In 2026 NDA, students lost marks by forgetting to check determinant = 0. Always verify the condition algebraically.
 </div>
 
@@ -10851,7 +10851,7 @@ where:<br>
 </table>
 
 <h2>8. PYQ Insights (Based on 2020‑2026 Trends)</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> Recent papers (especially 2026) frequently ask:
   <ul>
     <li>Compute mean, median, mode for grouped data using step‑deviation method.</li>
@@ -10862,34 +10862,34 @@ where:<br>
 </div>
 
 <h2>9. High‑Yield Facts</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High‑Yield Fact:</strong> The mean is the only measure of central tendency that uses all data points; hence it is most affected by outliers.
 </div>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High‑Yield Fact:</strong> In a perfectly symmetric distribution, Mean = Median = Mode.
 </div>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High‑Yield Fact:</strong> For grouped data, the class width (h) must be constant for the step‑deviation method to be valid.
 </div>
 
 <h2>10. Trap Alerts</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Students often confuse the lower limit (L) with the upper bound when applying median/mode formulas for grouped data. Always use the <em>lower limit</em> of the median/modal class.
 </div>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> When calculating cumulative frequency for a “more‑than” ogive, start from the total frequency and subtract successive class frequencies; reversing the order leads to wrong median.
 </div>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> The empirical relation Mode ≈ 3Median – 2Mean is only an approximation; it may give inaccurate results for highly skewed or multimodal distributions.
 </div>
 
 <h2>11. Mnemonics</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> “<strong>M</strong>ean <strong>M</strong>akes <strong>E</strong>verything <strong>A</strong>verage” → Mean uses all values (E = Every).<br>
   “<strong>M</strong>edian <strong>M</strong>iddles the <strong>D</strong>ata” → Median is the middle.<br>
   “<strong>M</strong>ode <strong>M</strong>ost <strong>O</strong>ften” → Mode is the most frequent.
 </div>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic for Empirical Formula:</strong> “<strong>3M</strong>inus <strong>2M</strong> equals <strong>O</strong>” → 3×Median minus 2×Mean gives Mode.
 </div>
 
@@ -10923,7 +10923,7 @@ window.EXPANDED_NOTES_DATA["data-interpretation"] = String.raw`
     <li><strong>Common Trap:</strong> Misreading the unit of measurement (e.g., interpreting 'in thousands' as absolute numbers).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> Tables are the most fundamental DI format and frequently serve as the base data for complex questions involving multiple operations like percentage change and ratio analysis.
 </div>
 
@@ -10935,7 +10935,7 @@ window.EXPANDED_NOTES_DATA["data-interpretation"] = String.raw`
     <li><strong>Multi-layered Bar Graph:</strong> A highly tested trend in 2026 where bars are grouped to represent different categories, requiring comparative percentage change calculations.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> In multi-layered bar graphs, aspirants often confuse the total height of the bar with the height of a specific sub-layer. Always identify the exact segment you are calculating for, and check the legend meticulously.
 </div>
 
@@ -10946,7 +10946,7 @@ window.EXPANDED_NOTES_DATA["data-interpretation"] = String.raw`
     <li><strong>Percentage:</strong> The percentage of a slice = (Angle of slice / 360°) × 100.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight:</strong> Pie charts dominate the CDS and AFCAT papers. Questions frequently ask you to calculate the exact difference between two slices or find the central angle of a specific category after a hypothetical addition or removal of data.
 </div>
 
@@ -10957,7 +10957,7 @@ window.EXPANDED_NOTES_DATA["data-interpretation"] = String.raw`
     <li><strong>Cumulative Frequency:</strong> A running total of frequencies. Questions may ask you to interpret an Ogive (a graph of cumulative frequency) to find the median or specific quartiles.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🧠 Mnemonic:</strong> "Hist" means "Judge" in Greek. When looking at a histogram, you must "judge" the area of the bar, not just the height, especially when class intervals are unequal. For cumulative frequency, remember: "Cumulative means Adding Up."
 </div>
 
@@ -11040,7 +11040,7 @@ window.EXPANDED_NOTES_DATA["data-interpretation"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight:</strong> The 2026 trend of multi-layered bar graphs requires aspirants to calculate percentage changes between specific sub-layers of different groups. For example, comparing the percentage increase in 'Officer Cadets' from a bar graph showing 'Soldiers' and 'Officers' separately.
 </div>
 
@@ -11092,7 +11092,7 @@ window.EXPANDED_NOTES_DATA["data-interpretation"] = String.raw`
     <li><strong>Conclusion:</strong> Female recruitment increased by 200%.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> Notice the difference between the total percentage change (80%) and the female percentage change (200%). Exams frequently trick students by asking for the percentage change of a specific sub-category while presenting the total data prominently. Always read the question carefully to identify the exact data series required.
 </div>
 
@@ -11110,7 +11110,7 @@ window.EXPANDED_NOTES_DATA["data-interpretation"] = String.raw`
     <li><strong>Finding Median:</strong> The intersection point of the 'Less Than' and 'More Than' Ogives gives the median of the grouped data.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> In histograms, the height of the bar does not always represent the frequency. If the class widths are unequal, the height represents frequency density. The actual frequency is the area of the bar (Area = Frequency Density × Class Width). Misinterpreting the height as the frequency is a very common UPSC/CDS trap.
 </div>
 
@@ -11207,7 +11207,7 @@ window.EXPANDED_NOTES_DATA["limits-continuity"] = String.raw`
 <li>Sometimes, algebraic manipulation before applying L'Hôpital's Rule is necessary.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> L'Hôpital's Rule is particularly useful for evaluating limits involving trigonometric functions raised to powers, exponential functions, and logarithmic expressions. Remember that after each differentiation, you must check whether the new limit is still in an indeterminate form. If not, the original limit also evaluates to that simpler form.
 </div>
 
@@ -11233,7 +11233,7 @@ window.EXPANDED_NOTES_DATA["limits-continuity"] = String.raw`
 <li><strong>Sum/Difference/Product:** The sum, difference, product, and quotient (where denominator ≠ 0) of continuous functions are themselves continuous.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> Students often mistakenly believe that a function is always continuous just because it passes through a point. However, continuity requires the existence of the limit AND the function value at that point. A classic trap involves functions like f(x) = |x| at x=0 — although the graph looks smooth, the absolute value function is actually differentiable except at x=0, but more importantly, it IS continuous at x=0 since limₓ→0 |x| = 0 = f(0). But consider f(x) = (x²-1)/(x-1) at x=1 — despite being removable, the original function is NOT defined at x=1, hence not continuous there even though the limit exists. Always verify ALL four conditions!
 </div>
 
@@ -11258,7 +11258,7 @@ window.EXPANDED_NOTES_DATA["limits-continuity"] = String.raw`
 <li><strong>Oscillatory Behavior:** The function oscillates infinitely between finite bounds (rare in standard curriculum but possible).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight:</strong> In recent years (2020-2026), questions have increasingly focused on identifying the type of discontinuity from given graphs. For instance, a question might show a graph with a hole (removable) versus a step (jump) versus an asymptote (infinite). Practice recognizing these visually—these are common in NDA quantitative aptitude papers.</div>
 
 <h2>6. Continuity of Special Functions</h2>
@@ -11307,7 +11307,7 @@ window.EXPANDED_NOTES_DATA["limits-continuity"] = String.raw`
 <li>Confirm LHL = RHL = f(a).</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🧠 Mnemonic:</strong> "**C.A.R.E.**" – Check **A**symptote (vertical/horizontal), **R**emovable (hole), **E**ndpoint (piecewise). Think: Does the graph have a gap (removable), a jump (discontinuity), or an asymptote (infinite)? If none, the function is continuous!
 </div>
 
@@ -11322,7 +11322,7 @@ window.EXPANDED_NOTES_DATA["limits-continuity"] = String.raw`
 <li>Special functions inherit continuity properties from their definitions.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight:</strong> Based on 2020-2026 trends, expect questions testing: (1) Identification of discontinuity types from graphs, (2) Application of L'Hôpital's Rule to complex compositions, (3) Proving continuity of composite functions, and (4) Evaluating limits involving nested functions. Time management is crucial—allocate ~45 minutes per section in your exam.</div>
 
 <h2>9. Final Preparation Checklist</h2>
@@ -11383,7 +11383,7 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> In NDA papers, Leibniz notation (dy/dx) is most commonly used. Candidates must be comfortable interpreting dy/dx not as a fraction but as an operator, though the chain rule is often intuitively applied using the "cancellation" of differentials — a technique that works correctly for most standard problems.
 </div>
 
@@ -11421,7 +11421,7 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> In NDA, rate of change questions often involve related rates — where two or more variables are changing with respect to time and are connected by an equation. The key step is to differentiate the connecting equation with respect to <em>t</em> using the chain rule.
 </div>
 
@@ -11450,7 +11450,7 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
 <p style="text-align:center;"><strong>f'(x) = u(x) · v'(x) + v(x) · u'(x)</strong></p>
 <p>In words: differentiate the first function times the second, plus differentiate the second function times the first.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> A very common mistake is to assume that the derivative of a product is simply the product of the derivatives, i.e., (uv)' ≠ u' · v'. This is <strong>never</strong> true. Always use the product rule: <em>(uv)' = u'v + uv'</em>.
 </div>
 
@@ -11459,7 +11459,7 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
 <p style="text-align:center;"><strong>f'(x) = [v(x) · u'(x) − u(x) · v'(x)] / [v(x)]²</strong></p>
 <p>In words: "low d(high) minus high d(low), all over low squared."</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Candidates often forget to square the denominator. Remember: the denominator in the quotient rule is always <strong>[v(x)]²</strong>, not just <em>v(x)</em>. Also, note the minus sign between the two terms in the numerator — this is a frequent source of sign errors.
 </div>
 
@@ -11468,11 +11468,11 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
 <p style="text-align:center;"><strong>dy/dx = (dy/du) × (du/dx)</strong></p>
 <p>The chain rule is the most frequently tested concept in NDA differentiation questions. It is used whenever a function is nested inside another function.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> The chain rule has appeared in almost every NDA paper from 2020 to 2026. Questions often involve composite functions like sin(x²), e^(sin x), log(sin x), or (3x+5)⁴. Candidates must identify the "inner function" and the "outer function" correctly.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> To remember the chain rule, think of it as a "Russian doll" — you differentiate the outer doll, then multiply by the derivative of the inner doll, and continue inward if there are more layers. For three nested functions: <em>dy/dx = (dy/du) × (du/dv) × (dv/dx)</em>.
 </div>
 
@@ -11578,7 +11578,7 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> For inverse trigonometric derivatives, remember: "The derivatives of sin⁻¹, cos⁻¹, and tan⁻¹ all involve 1 over something. sin⁻¹ has a square root with minus sign inside (1/√(1−x²)), cos⁻¹ is the same but negative, and tan⁻¹ has 1+x² in the denominator (no root)."
 </div>
 
@@ -11622,7 +11622,7 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Logarithmic differentiation questions in NDA often involve functions like y = xˣ or y = (sin x)^(cos x). These are classic examples where taking ln on both sides simplifies the differentiation process dramatically.
 </div>
 
@@ -11644,7 +11644,7 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
 <p style="text-align:center;">2x + 2y(dy/dx) = 0</p>
 <p style="text-align:center;">dy/dx = −x/y</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Students often forget to multiply by <em>dy/dx</em> when differentiating <em>y²</em>. Remember: <em>d(y²)/dx = 2y · dy/dx</em>, not just <em>2y</em>. This is the essence of the chain rule applied to implicit functions.
 </div>
 
@@ -11694,7 +11694,7 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Second-order derivatives have been a trending topic in NDA 2026 papers. Questions may ask candidates to find f''(x) for a given function, or to determine the nature of a critical point using the second derivative test.
 </div>
 
@@ -11729,7 +11729,7 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Questions on tangents and normals are a staple in NDA. A typical question might say: "Find the equation of the tangent to the curve y = x² − 4x + 5 at the point where it meets the x-axis." Candidates must first find the point of contact, then compute the derivative to get the slope, and finally write the tangent equation.
 </div>
 
@@ -11787,7 +11787,7 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
 <li>Substitute the critical point back into <em>f(x)</em> to find the maximum/minimum value.</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Many candidates confuse "maximum value" with "largest value." A function may have a local maximum that is not the global (absolute) maximum. In exams, always check the endpoints of the interval if a closed interval is specified. The absolute maximum/minimum can occur at critical points OR at the boundary points.
 </div>
 
@@ -11941,15 +11941,15 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
 <li>Not checking endpoints when finding absolute maxima/minima on a closed interval.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> In NDA, approximately 2-3 questions directly test differentiation concepts. Combined with questions on applications (tangents, maxima/minima, rate of change), differentiation can contribute 4-6 marks to the Mathematics paper. Every mark counts in defence exams where cutoffs are extremely competitive.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Based on 2020-2026 trends, the most frequently tested differentiation topics in NDA are: (1) Chain rule applied to trigonometric and exponential functions, (2) Equation of tangent/normal to a curve, (3) Finding maxima/minima using first and second derivative tests, and (4) Rate of change problems involving geometric figures (circles, spheres, rectangles).
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> For quick revision before the exam, remember this acronym: <strong>S-P-C-T-E-L-I</strong> — <strong>S</strong>um rule, <strong>P</strong>roduct rule, <strong>C</strong>hain rule, <strong>T</strong>rigonometric derivatives, <strong>E</strong>xponential derivatives, <strong>L</strong>ogarithmic derivatives, <strong>I</strong>nverse trigonometric derivatives. Cover these in order during your final revision.
 </div>
 `;
@@ -11982,7 +11982,7 @@ window.EXPANDED_NOTES_DATA["integration"] = String.raw`
 </ul>
 <p>Example: <strong>∫ 2x cos(x^2) dx</strong>. Let <em>u = x^2</em>, then <em>du = 2x dx</em>. The integral becomes <strong>∫ cos(u) du = sin(u) + C = sin(x^2) + C</strong>.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 High-Yield Fact: The substitution method essentially “undoes” the chain rule, making it the most versatile technique for integrals containing a function and its derivative.
 </div>
 
@@ -11998,7 +11998,7 @@ window.EXPANDED_NOTES_DATA["integration"] = String.raw`
 </ol>
 <p>Example: <strong>∫ x e^x dx</strong>. Let <em>u = x</em> (so <em>du = dx</em>) and <em>dv = e^x dx</em> (so <em>v = e^x</em>). Then <strong>∫ x e^x dx = x e^x - ∫ e^x dx = x e^x - e^x + C = e^x (x - 1) + C</strong>.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ Trap Alert: A frequent mistake is picking <em>u</em> as the exponential term, which leads to a more complicated integral. Remember the LIATE order to avoid unnecessary complexity.
 </div>
 
@@ -12030,7 +12030,7 @@ window.EXPANDED_NOTES_DATA["integration"] = String.raw`
 <tr><td>∫ dx/(x√(x^2 - a^2))</td><td>sec^{-1}(x/a) + C</td></tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 Mnemonic: “E-S-C-A-T” reminds you of the five basic trig‑exponential forms: <em>E</em>xponential, <em>S</em>ine, <em>C</em>osine, <em>A</em>rc tangent, <em>T</em>rigonometric (sec, csc). This helps recall the corresponding denominators (a) in the results.
 </div>
 
@@ -12063,11 +12063,11 @@ window.EXPANDED_NOTES_DATA["integration"] = String.raw`
 <p>If <em>F'(x) = f(x)</em>, then:</p>
 <p><strong>∫_a^b f(x) dx = F(b) - F(a)</strong> (Fundamental Theorem of Calculus).</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 High-Yield Fact: The symmetry property ∫_0^a f(x)dx = ∫_0^a f(a‑x)dx is a classic PYQ tool; many recent NDA questions have used it to convert a complicated integrand into a simpler form.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ Trap Alert: Students often forget to change the limits when using the substitution property (e.g., replacing x by a‑x). Always adjust the limits accordingly; otherwise the sign or value of the integral will be wrong.
 </div>
 
@@ -12091,7 +12091,7 @@ window.EXPANDED_NOTES_DATA["integration"] = String.raw`
 <p>The function <em>f(x) = x^2</em> is non‑negative on [0, 2], so the area is simply:</p>
 <p><strong>Area = ∫_0^2 x^2 dx = [x^3/3]_0^2 = (8/3) - 0 = 8/3 square units.</strong></p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 Mnemonic: “A‑S‑S‑I‑P” (Area, Split, Sign, Integrate, Perform) guides the step‑by‑step process for area problems.
 </div>
 
@@ -12100,7 +12100,7 @@ window.EXPANDED_NOTES_DATA["integration"] = String.raw`
 <h3>5.1 Definite Integral Properties in Recent NDA Questions</h3>
 <p>Analysis of PYQ papers (2020‑2026) shows a recurring pattern: questions ask examinees to evaluate integrals of the form <strong>∫_0^a f(x) dx</strong> and then apply the symmetry property <strong>∫_0^a f(x) dx = ∫_0^a f(a - x) dx</strong>. This transformation often converts a complicated integrand into a simpler one, allowing straightforward integration. For instance, a 2024 NDA question required evaluating <strong>∫_0^π sin^2 x dx</strong> by first using the property with <em>a = π</em> to rewrite the integral as <strong>∫_0^π sin^2(π - x) dx = ∫_0^π sin^2 x dx</strong>, then applying the identity <strong>sin^2 x = (1 - cos 2x)/2</strong> to obtain the answer quickly.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 PYQ Insight: The symmetry property was directly tested in the 2024 NDA paper, where the correct answer hinged on recognizing that <em>∫_0^π sin^2 x dx = ∫_0^π cos^2 x dx</em> and then adding the two equal integrals to use the identity <em>sin^2 x + cos^2 x = 1</em>.
 </div>
 
@@ -12128,15 +12128,15 @@ window.EXPANDED_NOTES_DATA["integration"] = String.raw`
 <tr><td>Partial Fractions</td><td>Rational function with factorable denominator</td><td>∫ P(x)/Q(x) dx</td></tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 High-Yield Fact: The constant of integration <em>C</em> is essential in indefinite integrals; omitting it can lead to loss of marks in both indefinite and definite (when evaluating antiderivatives) questions.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ Trap Alert: In definite integrals, forgetting to change the limits after a substitution (e.g., x → a‑x) is a common error that flips the sign of the result. Always recompute the new limits.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 Mnemonic: “U D V” – for Integration by Parts, **U** choose the part to differentiate, **D**ifferentiate it, **V** integrate the remaining part.
 </div>
 
@@ -12154,11 +12154,11 @@ window.EXPANDED_NOTES_DATA["integration"] = String.raw`
 
 <p>These questions cover the major sub‑topics and will help you gauge your readiness for the defence exams.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 PYQ Insight: The symmetry‑based integral (question 3) mirrors a 2025 NDA question where the answer was derived by converting the integral to ∫_0^{π/2} cos^2 x dx, then using the same identity.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 Mnemonic: “S‑U‑B‑P‑A” – for solving area problems: **S**et limits, **U**se absolute value, **B**reak at zeros, **P**erform integration, **A**dd/subtract.
 </div>
 `;
@@ -12201,7 +12201,7 @@ window.EXPANDED_NOTES_DATA["syl-probability"] = String.raw`
 <li>Example of exhaustive but not mutually exclusive: drawing a card that is a heart OR a face card (overlap at heart face cards).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 High-Yield Fact: In NDA/ CDS exams, the phrase “mutually exclusive and exhaustive” often appears in questions asking to verify whether a set of events forms a partition of the sample space.
 </div>
 
@@ -12225,7 +12225,7 @@ window.EXPANDED_NOTES_DATA["syl-probability"] = String.raw`
 <li>It is fundamental for Bayes’ Theorem and for real‑world inference.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ Trap Alert: Students often confuse conditional probability with joint probability. Remember that P(A | B) is NOT the same as P(A ∩ B); the former divides the latter by P(B).
 </div>
 
@@ -12242,7 +12242,7 @@ window.EXPANDED_NOTES_DATA["syl-probability"] = String.raw`
 </ul>
 <p>Bayes' Theorem is extensively used in medical diagnostics, spam filtering, and decision analysis, making it a high‑frequency topic in defence exams.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 PYQ Insight: In a 2023 CDS paper, a question asked to compute the probability that a soldier is fit given a positive medical test, directly applying Bayes' Theorem with prior fitness probability 0.7 and test accuracy 0.9.
 </div>
 
@@ -12281,7 +12281,7 @@ window.EXPANDED_NOTES_DATA["syl-probability"] = String.raw`
 <li>This theorem is the backbone of sequential probability calculations.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 Mnemonic: “Addition = A + B – Overlap” (A+ B – O) to remember the addition theorem; “Multiply = Joint = Prior × Conditional” (J = P × C) for the multiplication theorem.
 </div>
 
@@ -12309,7 +12309,7 @@ window.EXPANDED_NOTES_DATA["syl-probability"] = String.raw`
 <li>Combinations are central to hypergeometric probability and to solving selection‑type questions in the exam.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 High-Yield Fact: The probability of “at least one success” can be expressed as 1 – P(no success), where P(no success) = (1 – p)ⁿ for independent trials. This shortcut is frequently tested in NDA/ CDS questions.
 </div>
 
@@ -12349,11 +12349,11 @@ window.EXPANDED_NOTES_DATA["syl-probability"] = String.raw`
 <li>Recognise trap questions where mutually exclusive events are mistakenly treated as independent, or where conditional probability is confused with joint probability.</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ Trap Alert: A common trap is assuming that two events are independent merely because they appear unrelated. Always verify independence using P(A ∩ B) = P(A)·P(B) or by checking whether knowledge of one event changes the probability of the other.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 Mnemonic for Independence: “I” for Independent → “I” = “I don’t affect you”. If knowing A tells you anything about B, they are dependent.
 </div>
 
@@ -12370,7 +12370,7 @@ window.EXPANDED_NOTES_DATA["syl-probability"] = String.raw`
 <tr><td style="border:1px solid #000; padding:5px;">Binomial Probability</td><td style="border:1px solid #000; padding:5px;">P(X = k) = C(n, k)·pᵏ·(1 – p)ⁿ⁻ᵏ</td></tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 High-Yield Fact: In defence examinations, the combination of “mutually exclusive and exhaustive” with “classical probability” often appears in a single question, requiring the examinee to compute a probability by counting favorable outcomes out of the total sample space.
 </div>
 
@@ -12452,7 +12452,7 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 
 <p style="text-align: center; font-size: 1.2em; margin: 15px 0;"><strong>AD/DC = AB/BC</strong> (when AD is the angle bisector of ∠BAC)</p>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> The internal angle bisector of any angle of a triangle divides the opposite side into segments proportional to the adjacent sides. This is a direct application question format in CDS.
 </div>
 
@@ -12495,7 +12495,7 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> Students often confuse co-interior with alternate interior angles. Remember: Co-interior angles are on the SAME side of the transversal, while alternate interior angles are on OPPOSITE sides. Co-interior supplementary; alternate interior equal.
 </div>
 
@@ -12580,11 +12580,11 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 <li>The difference of any two sides < third side</li>
 </ul>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> The sum of any two sides must be strictly greater than the third. This is frequently used to determine whether a triangle can be formed with given measurements. In exam questions, always verify this condition before proceeding.
 </div>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> UPSC often gives options where triangle inequality seems satisfied but isn't. For sides 3, 4, 8: 3+4=7 < 8, so NO triangle can be formed. Students forget to check all three conditions and incorrectly assume a triangle exists.
 </div>
 
@@ -12635,7 +12635,7 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> "Angle-Side-Angle" is valid, but "Side-Angle-Angle" (SAA) is NOT a valid criterion. However, AAS is valid because if two angles are equal, the third automatically equals. Watch for questions using invalid criteria in distractors.
 </div>
 
@@ -12688,7 +12688,7 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 <li><strong>Corresponding sides</strong> are in the same ratio</li>
 </ul>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> The ratio of areas being the square of the ratio of sides is extremely important. If two similar triangles have sides in ratio 3:4, their areas are in ratio 9:16. This has been asked repeatedly in CDS.
 </div>
 
@@ -12808,7 +12808,7 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> In a RIGHT triangle, the orthocenter is at the vertex of the right angle, and the circumcenter is at the midpoint of the hypotenuse. This is a frequently tested concept.
 </div>
 
@@ -12847,7 +12847,7 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> Students confuse circumcenter (equidistant from vertices) with incenter (equidistant from sides). In CDS 2022, a question asked "Which center is equidistant from vertices?" Answer: CIRCUMCENTER, not incenter. Many students marked incenter incorrectly.
 </div>
 
@@ -12910,7 +12910,7 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> If you see 30°-60°-90° or 45°-45°-90° in a problem, immediately use the side ratios. This saves calculation time. NDA 2023 asked for hypotenuse given one side in a 30-60-90 triangle.
 </div>
 
@@ -12961,7 +12961,7 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 <strong>🎯 PYQ Insight:</strong> This is a 2026 trending topic. CDS 2025 asked: "In ΔABC, AB = 8, AC = 6, and median AD = 5. Find BC." Using Apollonius: 8² + 6² = 2(5²) + BC²/2 → 64 + 36 = 50 + BC²/2 → BC² = 100 → BC = 10.
 </div>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> Apollonius theorem is essentially a more general form relating the sides and medians. In an isosceles triangle where AB = AC, Apollonius reduces to: 2AB² = 2(median)² + BC²/2, which simplifies to show that the median to the base is also perpendicular to it.
 </div>
 
@@ -12973,7 +12973,7 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 
 <p>Where: BC = m + n, and AD is the cevian (line from A to D)</p>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> Stewart's Theorem is often confused with Apollonius. Remember: Apollonius applies when D is the MIDPOINT (m = n), which simplifies Stewart's to: AB² + AC² = 2(AD² + m²). Apollonius is essentially a special case of Stewart's.
 </div>
 
@@ -13016,7 +13016,7 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> In NDA Paper II, trigonometric area formula (½ ab sin C) is extremely useful for questions where height cannot be easily determined. CDS also frequently asks Heron's formula applications.
 </div>
 
@@ -13155,7 +13155,7 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 <li><strong>Standard:</strong> Parallel lines and transversals, Angle properties, Triangle inequality</li>
 </ol>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 Final High-Yield Fact:</strong> The most repeated questions in CDS (2018-2025) involve: (1) Finding inradius/circumradius relationships, (2) Angle bisector theorem applications, (3) Pythagorean theorem in special triangles, (4) Properties of centroids and circumcenters in obtuse triangles.
 </div>
 
@@ -13204,7 +13204,7 @@ window.EXPANDED_NOTES_DATA["area-perimeter"] = String.raw`
 </ul>
 
 <h3>1.3 High-Yield Fact</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> Heron's formula is extremely important when you're given the three sides of a triangle but not the height. It works even when the triangle is obtuse or acute. Remember: s = (a+b+c)/2, then Area = √[s(s-a)(s-b)(s-c)]. Practice this formula extensively as it appears frequently in both NDA and CDS papers.
 </div>
 
@@ -13430,12 +13430,12 @@ window.EXPANDED_NOTES_DATA["area-perimeter"] = String.raw`
 </ul>
 
 <h3>⚠️ Trap Alert</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>Trap:</strong> In composite figure problems, students often mistakenly add the perimeters of all parts instead of calculating the outer boundary. Always trace the complete outline of the figure to determine the correct perimeter. Also, watch out for "hidden" overlaps where two shapes share a common edge—these edges should not be counted twice in the perimeter.
 </div>
 
 <h3>⚠️ Trap Alert</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>Trap:</strong> When using Heron's formula, ensure all three sides satisfy the triangle inequality. If a + b ≤ c, no such triangle exists, and the area will be zero. Always validate the inputs before applying the formula.
 </div>
 
@@ -13613,7 +13613,7 @@ window.EXPANDED_NOTES_DATA["surface-area-volume"] = String.raw`
 <h2>Conversion of Solids</h2>
 <p>This is a critical concept tested in CDS and AFCAT. When one solid is melted and reformed into another, the total volume remains constant (conservation of volume).</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> During melting and reshaping, the total volume of the substance remains unchanged. This principle is applied in practical scenarios like casting metal parts or recycling materials. Always verify that the units of measurement are consistent before performing calculations.
 </div>
 
@@ -13685,7 +13685,7 @@ window.EXPANDED_NOTES_DATA["surface-area-volume"] = String.raw`
 </div>
 
 <h2>Common Pitfalls and Traps</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> One common mistake is confusing the <strong>lateral surface area</strong> with the <strong>total surface area</strong>. For cylinders and cones, forgetting to add the base areas leads to incorrect results. Similarly, when dealing with hollow objects, students sometimes forget to subtract the inner volume entirely and instead add them, resulting in overestimation.</div>
 
 <h2>Mnemonic Aids</h2>
@@ -13729,7 +13729,7 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 <li><strong>Key Idea:</strong> 10% of 200 = (10/100) × 200 = 20.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: In defence exams, “percentage” questions often appear in the form of “profit % on cost price” or “discount % on marked price”. Always identify the base (CP or SP) first.
 </div>
 
@@ -13742,7 +13742,7 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 <li><strong>Loss % on SP:</strong> <em>Loss % = (Loss / SP) × 100</em></li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: Many aspirants mistakenly use SP as the base when the question explicitly asks for profit/loss on CP, or vice‑versa. Always read the question carefully for the phrase “on cost price” or “on selling price”.
 </div>
 
@@ -13753,7 +13753,7 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 <li>Alternatively, <em>SP = MP × (1 – Discount %/100)</em></li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: In successive discount problems, the effective discount is NOT the simple sum of individual discounts; it is calculated using the compounded formula.
 </div>
 
@@ -13795,7 +13795,7 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 </ul>
 <p>Example: SP = ₹900, CP = ₹1000 → Loss = ₹100 → Loss % (on SP) = (100/900) × 100 = 11.11%.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: In many defence exam questions, the phrase “profit % on cost price” is used. If you mistakenly compute profit % on SP, you will get a different numerical value and lose marks.
 </div>
 
@@ -13815,7 +13815,7 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 <h3>3.3 Selling Price after Discount</h3>
 <p>When multiple discounts are given successively (e.g., 10% followed by 5%), the effective discount is calculated by applying each discount to the reduced price, not to the original MP.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: The effective discount for two successive discounts of x% and y% is <em>(x + y – (x×y)/100)%</em>. This formula is frequently tested in CDS and AFCAT papers.
 </div>
 
@@ -13846,7 +13846,7 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 <li>Effective discount = 1 – (0.85 × 0.95) = 1 – 0.8075 = 0.1925 → 19.25%</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: Students often add the percentages (15% + 5% = 20%) and think the effective discount is 20%. This is incorrect; the correct effective discount is 19.25%.
 </div>
 
@@ -13869,7 +13869,7 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 <li>Profit % (on CP) = (4/36) × 100 ≈ 11.11%.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: Dishonest dealer questions often appear in the “effective profit” format, requiring you to compute profit based on the actual weight/quantity used, not the declared quantity.
 </div>
 
@@ -13884,7 +13884,7 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 <h3>6.3 Misreading “Profit % on SP”</h3>
 <p>Profit % on SP is less intuitive. If a question states “profit of 20% on selling price”, the profit is 20% of SP, not CP. This changes the relationship between CP and SP.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: In many PYQs, the phrase “profit % on cost price” is used, but the numbers given are actually on selling price. Always re‑read the question after solving to ensure the base matches the requirement.
 </div>
 
@@ -13940,7 +13940,7 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 <li><strong>Verify units:</strong> Ensure all amounts are in the same currency and weight units before calculation.</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 <strong>PYQ Insight</strong>: In a 2023 CDS paper, a question asked for the profit % on selling price when the profit on cost price was given as 25% and the selling price was 10% higher than the cost price. The correct answer required converting the profit % from CP to SP before computing the final percentage, illustrating the need to master both bases.
 </div>
 
@@ -13962,7 +13962,7 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 <li><strong>Result</strong> is the effective discount.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 <strong>Mnemonic</strong>: “<em>P‑C‑S, L‑C‑S, Add‑Sub‑Mult‑Div</em>” – a quick cheat‑sheet for profit/loss bases and successive discounts.
 </div>
 
@@ -14009,7 +14009,7 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: In defence exams, the most common numerical values for profit/loss are 10%, 20%, 25%, and 30%; discounts often appear as 5%, 10%, 15%, and 20%. Being comfortable with these ranges speeds up calculation.
 </div>
 
@@ -14023,7 +14023,7 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 <li>Allocate time for “dishonest dealer” problems, as they test both profit calculation and understanding of actual vs. declared quantities.</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: Do not assume that a “profit of 20%” always means 20% on cost price. In some questions, the profit is expressed on selling price, which changes the CP‑SP relationship. Always verify the wording.
 </div>
 
@@ -14086,7 +14086,7 @@ window.EXPANDED_NOTES_DATA["ratios-averages"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The ratio of two quantities must always be of the SAME UNITS. You cannot compare rupees to kilograms directly without converting one of them. Furthermore, ratio is a pure number; it has no unit.
 </div>
 
@@ -14106,11 +14106,11 @@ window.EXPANDED_NOTES_DATA["ratios-averages"] = String.raw`
 <li><strong>Combined Variation:</strong> A mix of direct and inverse (e.g., y = kx/z).</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Students often confuse direct and inverse variation. Remember: <em>More Speed = Less Time (Inverse)</em>. <em>More Workers = Less Days (Inverse)</em>. <em>More Speed = More Distance (Direct)</em>. Misidentifying this relationship is the #1 reason aspirants get variation questions wrong.
 </div>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> In 2021 CDS, a question asked: "If x varies inversely as y², and x = 12 when y = 3, find x when y = 6." The trap here is that students often write the variation as y = kx² instead of x = k/y². Always write the variable that is being ASKED on the left side of the equation.
 </div>
 
@@ -14200,7 +14200,7 @@ window.EXPANDED_NOTES_DATA["ratios-averages"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The weighted average always lies between the lowest value and the highest value in the dataset. Furthermore, the weighted average is ALWAYS closer to the value that has the higher weight. If you buy more cheap rice, the average cost will be closer to the cheap price. This is the basis of the Rule of Alligation.
 </div>
 
@@ -14273,7 +14273,7 @@ window.EXPANDED_NOTES_DATA["ratios-averages"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> 2020-2026 Trend: "A container has 40 liters of milk. 4 liters of milk is replaced with water. This process is repeated 2 more times. Find the quantity of milk remaining." This is a Type 2 problem. The trap is that students calculate for only 1 replacement. Use the geometric progression formula.
 </div>
 
@@ -14299,7 +14299,7 @@ window.EXPANDED_NOTES_DATA["ratios-averages"] = String.raw`
 <li><strong>Ratio of Volumes</strong> = (Ratio of Lengths)³</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> If the sides of a square are in the ratio 1:2, students often think the ratio of perimeters is 1:4. NO! The perimeter is a linear dimension (length), so the ratio is 1:2. The AREA is in the ratio 1:4. Read the question carefully — area or perimeter?
 </div>
 
@@ -14358,7 +14358,7 @@ window.EXPANDED_NOTES_DATA["ratios-averages"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> For repeated replacement problems, the process is geometric. If 1/4th of the mixture is replaced each time, after n times, the remaining original liquid fraction is (3/4)ⁿ. Memorizing this single fact will save you 3-4 minutes per question in the exam.
 </div>
 
@@ -14407,7 +14407,7 @@ window.EXPANDED_NOTES_DATA["time-distance"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> Always ensure that units are consistent before performing calculations. If speed is in km/hr and time is in seconds, convert everything to a common unit system (preferably SI units: meters and seconds, or customary units: km and hours).
 </div>
 
@@ -14482,7 +14482,7 @@ window.EXPANDED_NOTES_DATA["time-distance"] = String.raw`
 
 <p>When two objects move towards each other or in opposite directions, their relative speed is the <strong>sum</strong> of their speeds.</p>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> A very common mistake is applying the wrong formula for relative speed. Students often add speeds for same direction and subtract for opposite direction—exactly backwards! Remember: <strong>Same Direction = Subtract</strong>, <strong>Opposite Direction = Add</strong>.
 </div>
 
@@ -14612,7 +14612,7 @@ window.EXPANDED_NOTES_DATA["time-distance"] = String.raw`
 
 <p style="padding-left: 20px;"><strong>Speed of Stream (S) = (Downstream Speed - Upstream Speed) ÷ 2</strong></p>
 
-<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<div style="background-color: rgba(255, 193, 7, 0.15); padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> If downstream speed is 'a' and upstream speed is 'b', then:<br/>
 • Speed of boat in still water = (a + b)/2<br/>
 • Speed of stream = (a - b)/2<br/>
@@ -14637,7 +14637,7 @@ Stream speed = (5x - 3x)/2 = x = 4 km/hr<br/>
 Downstream = 20 km/hr, Upstream = 12 km/hr<br/>
 Boat speed = (20 + 12)/2 = 16 km/hr</p>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> Many students mistakenly use B + S = Downstream and B - S = Upstream but then forget to divide by 2 when finding individual values. Always remember: B and S are HALF of the sum and difference respectively. Don't skip the division by 2!
 </div>
 
@@ -14712,7 +14712,7 @@ Boat speed = (20 + 12)/2 = 16 km/hr</p>
 </tr>
 </table>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> When work is constant, (M × D) is inversely proportional to efficiency. If A is twice as efficient as B, then A can do in 1 day what B does in 2 days. This relationship is crucial for solving complex work problems in CDS.
 </div>
 
@@ -14827,7 +14827,7 @@ Time = 1 ÷ (1/60) = 60 minutes</p>
 <p><strong>Filling with Leak:</strong></p>
 <p style="padding-left: 20px;">If pipe fills in 'a' hours and leak empties in 'b' hours, time to fill = (a × b) / (b - a) hours</p>
 
-<div style="background-color: #f8d7da; padding: 10px; border: 1px solid #f5c6cb; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border: 1px solid #f5c6cb; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> A very common mistake is confusing the filling time with emptying time. If the leak empties faster than the pipe fills, the tank will never fill! Always check if b > a before calculating. If b < a, the tank cannot be filled with the leak present.
 </div>
 
@@ -14912,7 +14912,7 @@ Time = Distance / Relative Speed = 400 / 5 = 80 seconds</p>
 <li><strong>Verify the answer:</strong> Check if the answer makes sense in the context of the problem.</li>
 </ol>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> For any problem involving work, distance, or time, always express the work/distance as "1 unit" and calculate rates first. This rate-based approach works universally and prevents confusion with man-day calculations.
 </div>
 
@@ -15003,7 +15003,7 @@ Required workers = 216/12 = <strong>18 workers</strong></p>
 Net rate = 1/10 - 1/20 = 1/20<br/>
 <strong>Time = 20 minutes</strong></p>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> In CDS and AFCAT, questions often combine concepts. For example, a question might involve a boat traveling upstream and downstream while also considering that the boat takes rest at certain points. Always break such complex problems into simpler steps.
 </div>
 
@@ -15081,7 +15081,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical-speed"] = String.raw`
 <li><strong>Speed (S or v):</strong> The rate at which distance is covered. It is also a scalar quantity.</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The most fundamental formula in this entire syllabus is the <strong>"Magic Triangle"</strong>: <em>Distance = Speed × Time</em>. If you cover the 'D' in a triangle, it reveals 'S × T'. Cover 'S', it reveals 'D / T'. Cover 'T', it reveals 'D / S'.
 </div>
 
@@ -15107,7 +15107,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical-speed"] = String.raw`
 <tr><td style="border:1px solid #ddd; padding:8px;">km/hr to km/min</td><td style="border:1px solid #ddd; padding:8px;">Divide by <strong>60</strong></td><td style="border:1px solid #ddd; padding:8px;">60 min = 1 hr</td></tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> When converting km/hr to m/s, students often multiply by 18/5 (the reverse conversion). Always remember: <em>km/hr is a LARGER unit than m/s</em> (e.g., 90 km/hr = 25 m/s). Therefore, converting from a larger unit to a smaller one requires multiplication by a fraction (<strong>5/18</strong>).
 </div>
 
@@ -15145,7 +15145,7 @@ If distance is split into 3 equal parts with speeds x, y, z.
 <p>Total time = D/x + D/y = D(x+y)/xy.</p>
 <p>Average Speed = Total Distance / Total Time = 2D / [D(x+y)/xy] = <strong>2xy / (x + y)</strong>.</p>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> If a question asks "What is the average of 60 km/hr and 40 km/hr?", do not blindly answer 50 km/hr. This is only true if the time spent at each speed is equal. If distances are equal, the average is 2(60×40)/(60+40) = 4800/100 = 48 km/hr.
 </div>
 
@@ -15178,7 +15178,7 @@ If distance is split into 3 equal parts with speeds x, y, z.
 <h3>5.1 The Master Chain Rule</h3>
 <p>The foundation of this trend relies on the principle: <em>If work is constant, the product of Men (M), Days (D), Hours (H), and Efficiency (E) is inversely proportional to the product of output Work (W1/W2).</em></p>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🎯 PYQ Insight (2026 Trend):</strong> Questions now integrate speed and time-work. For example: "If 10 workers can build a 500m trench in 12 days working 8 hours a day, how many days will 15 workers take to build a 1000m trench working 10 hours a day?"
 <br /><br />
 <strong>Formula Application:</strong> (M1 × D1 × H1) / W1 = (M2 × D2 × H2) / W2
@@ -15191,7 +15191,7 @@ Solve for D2.
 <h3>5.2 Linkage with Speed</h3>
 <p>Distance in these problems acts as 'Work'. Speed (or Rate of Work) is inversely proportional to time. If workers increase, the time to cover the distance (build the trench) decreases, provided efficiency remains constant.</p>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> In the chain rule, remember that days are inversely proportional to the number of men, but <em>directly</em> proportional to the amount of work (distance). If distance doubles, days must also double (assuming men are constant).
 </div>
 
@@ -15336,7 +15336,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical-ratios"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> In compound ratios, multiply numerators together and denominators together. For (a:b) and (c:d) and (e:f), the compound ratio is <strong>(a×c×e) : (b×d×f)</strong>. This is tested in AFCAT almost every alternate year.
 </div>
 
@@ -15379,7 +15379,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical-ratios"] = String.raw`
 
 <p>This is called <strong>cross-multiplication</strong>, and it is the most tested concept in AFCAT PYQs.</p>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Between 2020-2026, AFCAT has asked at least 7 questions directly requiring cross-multiplication. A typical problem: "If 12 men can complete a task in 8 days, how many days will 16 men take?" Students often forget to set up the proportion correctly as <strong>M₁ × D₁ = M₂ × D₂</strong> (inverse proportion).
 </div>
 
@@ -15418,7 +15418,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical-ratios"] = String.raw`
 
 <p><strong>Examples of Inverse Proportion:</strong> Speed and time (constant distance); Workers and days (constant work); Pipe openings and time to fill a tank.</p>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> AFCAT examiners frequently test whether you correctly identify inverse proportion. A classic trap: "If 8 taps can fill a tank in 27 minutes, how long will 6 taps take?" Many students apply direct proportion (8/27 = 6/x), getting the wrong answer. The correct setup is <strong>8 × 27 = 6 × x</strong>, because more taps mean LESS time.
 </div>
 
@@ -15566,7 +15566,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical-ratios"] = String.raw`
     <li>A's age = 2k = <strong>16 years</strong></li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> AFCAT 2022, 2024, and 2026 all had at least one question of this exact pattern. The key insight: <strong>introduce 'k' early to convert ratio into algebraic expressions</strong>, then use the second ratio to solve for k. This is the most reliable method.
 </div>
 
@@ -15598,7 +15598,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical-ratios"] = String.raw`
     <li><strong>Step 3:</strong> Cross-multiply and solve.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> In "before and after" problems, the difference between two terms is often the key. For instance, if ages change by the same absolute amount (say, +4 years), the change in the <em>difference</em> between two terms is 0, not a constant — but the <em>ratio</em> changes. This subtle distinction is a frequent exam question.
 </div>
 
@@ -15674,7 +15674,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical-ratios"] = String.raw`
     <li><strong>Practice cross-multiplication</strong> until it's second nature; it's the most tested single technique.</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Approximately <strong>85% of AFCAT ratio questions</strong> from 2020-2026 can be solved using one of three methods: (1) proportionality constant <em>k</em>, (2) cross-multiplication with product-of-extremes, or (3) percentage conversion. Master these three, and you'll cover the majority of the question bank.
 </div>
 
@@ -15703,7 +15703,7 @@ window.EXPANDED_NOTES_DATA["parts-of-speech"] = String.raw`
 <li><strong>Inflectional patterns</strong> (how the word changes form)</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The golden rule for NDA/CDS/AFCAT is "Function over Form." A word's part of speech is determined by <em>what it does</em> in the sentence, not <em>what it looks like</em>. For example, "Water" in "Please water the plants" is a verb, while "Water" in "The water is cold" is a noun.
 </div>
 
@@ -16080,11 +16080,11 @@ window.EXPANDED_NOTES_DATA["parts-of-speech"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> Remember irregular comparisons with: "Good, better, best / Bad, worse, worst / Much, more, most / Little, less, least" – these must be memorized as exceptions have no rules!
 </div>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Never use "more" + shorter comparative forms. WRONG: "more taller," "more braver." CORRECT: "taller," "braver." Also, never use "most" before superlative adjectives ending in -est. WRONG: "most tallest." CORRECT: "tallest."
 </div>
 
@@ -16181,7 +16181,7 @@ window.EXPANDED_NOTES_DATA["parts-of-speech"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert (HIGH PRIORITY):</strong> The confusion between gerunds and present participles is a <strong>permanent fixture</strong> in UPSC papers. Remember:
 <ul>
 <li><strong>Gerund</strong> = functions as NOUN → "I enjoy <em>reading</em>." (Reading = object of enjoy)</li>
@@ -16230,7 +16230,7 @@ Test: Can you replace the word with "something" or "the act of"? If yes, it's a 
 <li><em>She <strong>gave away</strong> the secrets.</em> (Part of phrasal verb)</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> CDS 2026 included a question testing whether "up" in "He stood up" was an adverb or preposition. The answer: it's an <strong>adverbial particle</strong> because no object follows it. If an object appeared ("He stood up the ladder"), it would be a preposition. UPSC tests this distinction frequently.
 </div>
 
@@ -16310,7 +16310,7 @@ Test: Can you replace the word with "something" or "the act of"? If yes, it's a 
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> Position of adverbs - "Manner adverbs love the end, frequency adverbs middle pretend, and time adverbs can befriend either the beginning or the end."
 </div>
 
@@ -16427,7 +16427,7 @@ Test: Can you replace the word with "something" or "the act of"? If yes, it's a 
 </tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Prepositions are NOT interchangeable! "Arrived <strong>in</strong> India" vs. "Arrived <strong>at</strong> the station." The same word after different verbs changes meaning: "Look <strong>at</strong>" (direct attention) vs. "Look <strong>for</strong>" (search) vs. "Look <strong>after</strong>" (take care). UPSC frequently tests these verb + preposition combinations.
 </div>
 
@@ -16552,7 +16552,7 @@ Test: Can you replace the word with "something" or "the act of"? If yes, it's a 
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> With correlative conjunctions, ensure parallelism (both parts have the same grammatical form):
 <ul>
 <li>✓ "He is <strong>brave and intelligent</strong>." (both adjectives)</li>
@@ -16634,7 +16634,7 @@ Also: "Neither...nor" and "Either...or" take singular verbs when singular nouns 
 </tr>
 </table>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Interjections are followed by an exclamation mark and are grammatically independent—they don't form part of the sentence structure. In exams, they may ask you to identify the part of speech of words like "Alas!" or "Bravo!" which are always interjections.
 </div>
 
@@ -16689,7 +16689,7 @@ Also: "Neither...nor" and "Either...or" take singular verbs when singular nouns 
 </tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert (HIGHEST PRIORITY):</strong> The word <strong>"Only"</strong> is UPSC's favorite trap!
 <ul>
 <li><em>"<strong>Only</strong> I know the secret."</em> (adjective - modifies "I"; I alone know)</li>
@@ -16805,7 +16805,7 @@ Position changes meaning! CDS 2025 had a question where changing "only's" positi
 <li><strong>Look for context cues</strong> – "Only," "Fast," "Hard" require careful reading.</li>
 </ol>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> In CDS/NDA, approximately 3-5 questions per paper directly test parts of speech identification. Combined with related questions on sentence correction and fill-in-the-blanks, mastery of this chapter can yield 8-12 marks in the English section.
 </div>
 
@@ -16964,7 +16964,7 @@ window.EXPANDED_NOTES_DATA["tenses-complete"] = String.raw`
 <li>Use <em>"shall"</em> only with <strong>I</strong> and <strong>We</strong> in formal British English (rarely tested, but watch for traps).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Stative verbs (know, believe, belong, love, hate, own, seem, prefer, want, need) are generally NOT used in continuous tenses. Example: ❌ "He is knowing the answer." ✅ "He knows the answer."
 </div>
 
@@ -16976,7 +16976,7 @@ window.EXPANDED_NOTES_DATA["tenses-complete"] = String.raw`
 <li><strong>Future Continuous:</strong> Action that will be in progress at a future time. — <em>"At 8 PM tonight, I <strong>will be watching</strong> a movie."</em></li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Verbs expressing emotions, mental states, possession, and senses (stative verbs) cannot normally be used in continuous form. AFCAT/NDA often frame questions like: <em>"He is loving music."</em> — This is incorrect.
 </div>
 
@@ -16988,7 +16988,7 @@ window.EXPANDED_NOTES_DATA["tenses-complete"] = String.raw`
 <li><strong>Future Perfect:</strong> Action that will be completed before a specific future time. — <em>"By next year, I <strong>will have graduated</strong>."</em></li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Present Perfect is NEVER used with definite past time markers like <em>yesterday, last week, in 2020, ago</em>. Saying <em>"I have gone to Delhi yesterday"</em> is a classic error tested in NDA/CDS.
 </div>
 
@@ -17000,7 +17000,7 @@ window.EXPANDED_NOTES_DATA["tenses-complete"] = String.raw`
 <li><strong>Future Perfect Continuous:</strong> Duration continuing up to a future point. — <em>"By December, I <strong>will have been working</strong> here for 5 years."</em></li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #155724; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #155724; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> 2026 NDA and CDS papers had multiple questions on <strong>Future Perfect Continuous</strong> and <strong>Past Perfect</strong> embedded in complex narrative structures. Aspirants must practice identifying tense shifts in 5–6 line passages.
 </div>
 
@@ -17031,11 +17031,11 @@ window.EXPANDED_NOTES_DATA["tenses-complete"] = String.raw`
 <li>Never use <em>since</em> with simple past or past continuous for ongoing actions.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Trick: <em>"Since"</em> refers to the <strong>S</strong>tarting point (specific point); <em>"For"</em> refers to the <strong>F</strong>ull duration (length of time).
 </div>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Common wrong sentences seen in NDA papers: <em>"I am working here for five years."</em> ❌ Correct: <em>"I have been working here for five years."</em> — Action still continuing → use Present Perfect Continuous.
 </div>
 
@@ -17133,11 +17133,11 @@ window.EXPANDED_NOTES_DATA["tenses-complete"] = String.raw`
 <li>Type 3: <em>"Had I known, I would have acted."</em></li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #155724; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #155724; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> 2020–2026 trend shows heavy focus on <strong>Type 2</strong> and <strong>Type 3</strong> conditionals in NDA and CDS. Aspirants must master <em>subjunctive "were"</em> and <em>"had + V3"</em> usage.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The auxiliary verbs <em>will / would</em> should <strong>NOT</strong> appear in the if-clause. <em>"If it will rain, I will stay."</em> ❌ Correct: <em>"If it rains, I will stay."</em> ✅
 </div>
 
@@ -17173,7 +17173,7 @@ window.EXPANDED_NOTES_DATA["tenses-complete"] = String.raw`
 <li><em>"We will eat after she <strong>arrives</strong>."</em> ✅</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Many aspirants mistakenly use <em>"will"</em> in the time clause after <em>when, before, after, as soon as</em>. The rule is: use Simple Present in the subordinate clause even when the future is implied.
 </div>
 
@@ -17245,7 +17245,7 @@ window.EXPANDED_NOTES_DATA["tenses-complete"] = String.raw`
 <li>Read editorials from <em>The Hindu</em> / <em>Indian Express</em> — note tense usage.</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #155724; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #155724; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> From 2020 to 2026, an average of <strong>4–6 questions per paper</strong> in NDA/CDS and <strong>3–5 questions in AFCAT</strong> directly test tense usage, conditional sentences, or time-clause errors. Aspirants should aim to solve all such questions correctly.
 </div>
 
@@ -17264,7 +17264,7 @@ window.EXPANDED_NOTES_DATA["tenses-complete"] = String.raw`
 <li><strong>If-clause</strong> → never use <em>will</em>; use <em>were</em> in Type 2; use <em>had + V3</em> in Type 3.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Master the <strong>12 basic tenses</strong> + <strong>since/for distinction</strong> + <strong>3 conditional types</strong> + <strong>reported speech tense shift</strong> + <strong>time-clause rule</strong>. These five pillars cover over 90% of tense-based questions in NDA, CDS, and AFCAT exams.
 </div>
 
@@ -17334,7 +17334,7 @@ window.EXPANDED_NOTES_DATA["subject-verb-agreement"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p style="margin:0;"><strong>⚠️ Trap Alert:</strong> Phrases like "along with", "as well as", and "together with" act like conjunctions, but they do <strong>NOT</strong> create a compound plural subject. They are prepositional phrases modifying the first subject. The verb must agree with the <em>first</em> subject only.</p>
 </div>
 
@@ -17381,7 +17381,7 @@ window.EXPANDED_NOTES_DATA["subject-verb-agreement"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p style="margin:0;"><strong>⚠️ Trap Alert: "A number of" vs. "The number of"</strong> This is a highly tested 2026 trend.
 <br><strong>"A number of" + Plural Noun + Plural Verb</strong> (e.g., <em>A number of students <u>are</u> missing.</em>)
 <br><strong>"The number of" + Plural Noun + Singular Verb</strong> (e.g., <em>The number of missing students <u>is</u> alarming.</em>)</p>
@@ -17407,7 +17407,7 @@ window.EXPANDED_NOTES_DATA["subject-verb-agreement"] = String.raw`
 <li><strong>None:</strong> Traditionally singular (<em>None of the milk <u>is</u> spoiled</em>), but increasingly accepted as plural in formal contexts (<em>None of the candidates <u>are/were</u> present</em>). For exams, prefer singular unless explicitly plural.</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <p style="margin:0;"><strong>💡 High-Yield Fact:</strong> The pronouns <strong>"Each" and "Every"</strong> are ALWAYS singular. They take singular verbs, even if they modify plural nouns.
 <br><em>Example: Each man and each woman <u>is</u> required to attend.</em>
 <br><em>Example: Every student <u>has</u> submitted his assignment.</em></p>
@@ -17438,7 +17438,7 @@ window.EXPANDED_NOTES_DATA["subject-verb-agreement"] = String.raw`
 <li><em>Neither he nor his friends <u>were</u> present.</em></li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p style="margin:0;"><strong>⚠️ Trap Alert:</strong> Do not confuse the Proximity Rule for compound subjects with the error of proximity in prepositional phrases. In <strong>or/nor</strong> structures, the nearest subject <em>is</em> the controller of the verb. In prepositional phrases, it is not.</p>
 </div>
 
@@ -17471,7 +17471,7 @@ window.EXPANDED_NOTES_DATA["subject-verb-agreement"] = String.raw`
 <p><em>Where <u>are</u> the keys?</em> (Subject: keys - plural).</p>
 <p><em>Which of the students <u>has</u> finished the exam?</em> (Subject: which - singular). Note: <em>Which of the students <u>have</u> finished?</em> is also acceptable if focusing on individuals.</p>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <p style="margin:0;"><strong>💡 High-Yield Fact: "The majority"</strong>
 <br>Generally takes a <strong>singular</strong> verb when referring to a single group acting in unison (<em>The majority <u>has</u> decided</em>).
 <br>Can take a <strong>plural</strong> verb when the individuals within the majority are emphasized (<em>The majority of voters <u>are</u> undecided</em>). For safety in exams, singular is preferred.</p>
@@ -17600,7 +17600,7 @@ window.EXPANDED_NOTES_DATA["subject-verb-agreement"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <p style="margin:0;"><strong>🎯 PYQ Insight:</strong> In the 2024-2026 CDS and AFCAT papers, sentences involving "A number of" vs "The number of" and structures like "Neither the principal nor the teachers <u>were</u> present" were heavily tested. Mastery of the Proximity Rule application for OR/NOR structures (where the nearest subject dictates the verb) is the difference between getting the question right and losing easy marks. Always isolate the true subject before committing to an answer.</p>
 </div>
 `;
@@ -17620,7 +17620,7 @@ window.EXPANDED_NOTES_DATA["sentence-structure"] = String.raw`
 </ul>
 <p><em>Example: <strong>The cadets (Subject) marched (Predicate) proudly.</strong> A complete thought.</em></p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> The shortest grammatically correct sentence in the English language is often cited as "I am." It has a subject ("I"), a verb ("am"), and a complete thought.
 </div>
 
@@ -17687,7 +17687,7 @@ window.EXPANDED_NOTES_DATA["sentence-structure"] = String.raw`
     <li><strong>Gerund Phrase:</strong> Begins with a verb ending in "-ing" acting as a noun. (e.g., <em>Running a marathon requires endurance.</em>)</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> A phrase is NOT a clause. The most common mistake aspirants make is treating a long prepositional phrase or participial phrase as an independent sentence. Remember: if there is no finite verb (a verb showing tense), it is a phrase, not a clause.
 </div>
 
@@ -17775,7 +17775,7 @@ window.EXPANDED_NOTES_DATA["sentence-structure"] = String.raw`
     </li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🧠 Mnemonic: "C.L.A.I.M." for fixing Fragments:</strong>
     <ul>
         <li><strong>C</strong>ombine the fragment with a nearby sentence.</li>
@@ -17931,7 +17931,7 @@ window.EXPANDED_NOTES_DATA["voice-conversion"] = String.raw`
 
 <p>For <strong>defence exams (NDA, CDS, AFCAT)</strong>, mastering voice conversion is essential as it typically constitutes 2-4 questions per paper. The recent trend shows an increased focus on <strong>complex structures</strong> including imperative sentences, modal verbs, and special constructions like 'let' sentences.</p>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> In passive voice, the object of the active sentence becomes the subject. The verb is always in the form of "be + past participle" regardless of the tense.
 </div>
 
@@ -18087,7 +18087,7 @@ window.EXPANDED_NOTES_DATA["voice-conversion"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> Many students mistakenly use "being V3" for perfect tenses. Remember: Perfect tenses use "been V3" (has been done, had been done), while continuous tenses use "being V3" (is being done, was being done).
 </div>
 
@@ -18210,7 +18210,7 @@ window.EXPANDED_NOTES_DATA["voice-conversion"] = String.raw`
 <strong>🧠 Mnemonic:</strong> Remember "MOHAMSW" - Modal + be + V3. For all modal verbs, the passive structure is: <strong>Modal + be + Past Participle</strong>. No matter what modal you use, the pattern remains constant!
 </div>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> Common mistake is adding "been" with modals. WRONG: "The aircraft can been flown by the pilot." CORRECT: "The aircraft can be flown by the pilot." Modals are always followed directly by "be + V3".
 </div>
 
@@ -18244,7 +18244,7 @@ window.EXPANDED_NOTES_DATA["voice-conversion"] = String.raw`
 <li>Active: "Let us help the victims." → Passive: "It is requested that the victims should be helped by us."</li>
 </ul>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>🎯 PYQ Insight:</strong> Recent NDA and CDS papers (2025-2026) have featured passive voice conversion for imperative sentences, especially "Let" constructions. Questions like "Turn off the lights" → passive have appeared frequently.
 </div>
 
@@ -18317,11 +18317,11 @@ Passive: "The matter must be looked into (by us)."</li>
 Passive: "The music was listened to (by them)."</li>
 </ul>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> Prepositions like "at", "to", "on", "for", "into" remain attached to the verb in passive voice. WRONG: "He was laughed." CORRECT: "He was laughed at." This is exactly the type of question that appeared in 2026 exams!
 </div>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>🎯 PYQ Insight:</strong> 2026 CDS and NDA papers featured questions like "They laughed at the boy" → passive voice. The trap was omitting the preposition "at". Always retain the preposition with verbs like laugh at, look at, look into, call on, depend on, rely on, etc.
 </div>
 
@@ -18547,7 +18547,7 @@ CORRECT: "His brother resembles him." (No passive possible)</li>
 </tr>
 </table>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>🎯 PYQ Insight:</strong> Based on 2025-2026 analysis, focus your preparation on: (1) 'Let' constructions in passive, (2) Intransitive verbs with prepositions, (3) Modal verb passives with perfect aspects. These topics have appeared in 60%+ of voice conversion questions.
 </div>
 
@@ -18691,7 +18691,7 @@ window.EXPANDED_NOTES_DATA["narration-speech"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Exceptions to Tense Backshifting. The tense <strong>does NOT change</strong> if:
 <ol>
 <li>The reporting verb is in the Present, Present Perfect, or Future (e.g., <em>He says/says/will say</em>).</li>
@@ -18734,7 +18734,7 @@ window.EXPANDED_NOTES_DATA["narration-speech"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> The most common error aspirants make is blindly replacing <em>"you"</em> with <em>"he"</em> or vice versa without analyzing the object of the reporting verb. Always determine who is being addressed. <em>"The teacher told the students, 'You should study.'"</em> becomes <em>"The teacher told the students that they should study."</em>
 </div>
 
@@ -18803,7 +18803,7 @@ window.EXPANDED_NOTES_DATA["narration-speech"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🧠 Mnemonic: "T-H-T-Y-N-H-A"</strong> &rarr; <strong>T</strong>his, <strong>H</strong>ere, <strong>T</strong>oday, <strong>Y</strong>esterday, <strong>N</strong>ow, <strong>H</strong>enceforth, <strong>A</strong>go. Remember this acronym to ensure you don't miss any time/place marker shifts during the NDA exam.
 </div>
 
@@ -18850,7 +18850,7 @@ window.EXPANDED_NOTES_DATA["narration-speech"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> When converting interrogative sentences, the <strong>subject comes BEFORE the verb</strong> in the indirect speech (standard word order), reversing the inverted structure of the direct question. <em>"Where is the train?"</em> becomes <em>"...asked where the train was."</em>
 </div>
 
@@ -18914,7 +18914,7 @@ window.EXPANDED_NOTES_DATA["narration-speech"] = String.raw`
 <li><strong>Would, Could, Should, Might, Ought to</strong> &rarr; <strong>Remain Unchanged</strong> (No past perfect form exists or changes meaning).</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Notice <em>"Should"</em> and <em>"Would"</em>. Because they are already in the past, they do <strong>NOT</strong> change to <em>"should have"</em> or <em>"would have"</em> in simple indirect speech (unless context requires it). <em>"He said, 'You should apologize.'"</em> becomes <em>"He said that I should apologize."</em>
 </div>
 
@@ -19069,7 +19069,7 @@ window.EXPANDED_NOTES_DATA["modifiers"] = String.raw`
 </ul>
 
 <h3>🧠 Mnemonic for Modifier Types</h3>
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
   <strong>🧠 Mnemonic: "WAP-CAC"</strong> — Words, Adjective-phrases, Prepositional-phrases, Clauses, Adverb-phrases, Comparative phrases. Remember: any element that "describes more" is a modifier.
 </div>
 
@@ -19079,7 +19079,7 @@ window.EXPANDED_NOTES_DATA["modifiers"] = String.raw`
 <p>A <strong>misplaced modifier</strong> is a word, phrase, or clause that is placed too far from the word it modifies, creating ambiguity or confusion. The result is a sentence where the modifier could logically describe more than one element, often leading to unintended and sometimes humorous meanings.</p>
 
 <h3>The Golden Rule of Modifier Placement</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> A modifier should be placed as close as possible—ideally immediately before or after—to the word it modifies. The closer it is, the clearer the meaning.
 </div>
 
@@ -19150,7 +19150,7 @@ window.EXPANDED_NOTES_DATA["modifiers"] = String.raw`
 <p><strong>❌ Incorrect:</strong> "The captain promoted the lieutenant who had been recommended by the colonel to captain."<br />
 <strong>✅ Correct:</strong> "The captain promoted to captain the lieutenant who had been recommended by the colonel."</p>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Defence exams often give sentences where the modifier appears at the beginning, making you assume it's correctly placed. Always check what noun the modifier is closest to. If the nearest noun cannot logically perform the action described by the modifier, it's misplaced.
 </div>
 
@@ -19293,7 +19293,7 @@ window.EXPANDED_NOTES_DATA["modifiers"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> In Defence exams, squinting modifiers are often disguised as correct sentences. The test-writer places the modifying word such that it COULD modify either element, leaving you confused. The trick is to <strong>rephrase the sentence mentally in two ways</strong> — if both readings make sense, it's a squinting modifier that needs repositioning.
 </div>
 
@@ -19508,7 +19508,7 @@ Proximity test: "with sharp teeth" is closest to "running," but teeth don't run.
 
 <h2>🏆 Final Tips for Defence Exam Success</h2>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
   <strong>🧠 Mnemonic: "CLOSE-PDA"</strong> for Modifier Mastery:
   <ul>
     <li><strong>C</strong>heck the logical subject first</li>
@@ -19595,7 +19595,7 @@ window.EXPANDED_NOTES_DATA["punctuation-basics"] = String.raw`
   </li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> As per the 2020-2026 trends, examiners heavily focus on the placement of commas in <strong>non-restrictive clauses</strong>. For instance, a question might test whether a comma is required before "which" (non-restrictive) versus after "that" (restrictive). Always remember: <em>No commas for restrictive clauses; commas for non-restrictive clauses.</em>
 </div>
 
@@ -19653,7 +19653,7 @@ window.EXPANDED_NOTES_DATA["punctuation-basics"] = String.raw`
   </li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Do <strong>never</strong> use a semicolon to separate a dependent clause from an independent clause. If the second part of your sentence cannot stand alone as a complete thought, use a comma, not a semicolon. <br>
 <em>Incorrect:</em> Although he was tired; he continued studying. <br>
 <em>Correct:</em> Although he was tired, he continued studying.
@@ -19685,7 +19685,7 @@ window.EXPANDED_NOTES_DATA["punctuation-basics"] = String.raw`
   <li><strong>In specific contexts:</strong> Colons are standard in time (10:45 AM), Bible verses (John 3:16), and business letter salutations ("Dear Sir:").</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> A colon must <strong>only</strong> follow a complete independent clause. If the words before the colon do not form a full sentence, the usage is grammatically incorrect. <br>
 <em>Incorrect:</em> The ingredients are: salt, pepper, and oil. <br>
 <em>Correct:</em> Bring these ingredients: salt, pepper, and oil.
@@ -19740,7 +19740,7 @@ window.EXPANDED_NOTES_DATA["punctuation-basics"] = String.raw`
   <li>Who is → Who<strong>'s</strong></li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert: "Its" vs. "It's"</strong><br>
 This is the classic PYQ trap! <br>
 <strong>Its</strong> = Possessive pronoun (belonging to it). <em>The dog wagged <strong>its</strong> tail.</em><br>
@@ -19816,7 +19816,7 @@ Remember that <strong>Periods (.)</strong> and <strong>Commas (,)</strong> go <s
 </tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert: The Comma Splice</strong><br>
 A comma splice is a specific type of run-on error where two independent clauses are joined only by a comma (without a conjunction). <br>
 <em>Incorrect (Comma Splice):</em> It was raining heavily, we stayed indoors. <br>
@@ -19830,7 +19830,7 @@ A comma splice is a specific type of run-on error where two independent clauses 
 
 <p>Punctuation in the NDA and CDS exams does not require rote memorization of complex rules, but rather a sharp analytical eye to see how a sentence structure is broken. Your ability to distinguish between dependent and independent clauses is the single most important skill for mastering commas, semicolons, and run-on sentences. For the "Spotting Errors" section, always read the sentence aloud mentally; if you feel a natural pause where a punctuation mark is absent, it is likely the error.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 Final PYQ Insight:</strong> In the 2020-2026 window, questions rarely ask you to "define" punctuation. Instead, they provide a full sentence with a missing punctuation mark or a misplaced apostrophe. The key is to remember the <strong>non-restrictive clause comma rule</strong> and the <strong>"Its vs. It's"</strong> distinction, as these account for over 60% of the punctuation errors tested in recent papers. Master these, and you master the topic.
 </div>
 `;
@@ -19956,7 +19956,7 @@ window.EXPANDED_NOTES_DATA["transformation-sentences"] = String.raw`
 <strong>⚠️ Trap Alert:</strong> When converting "one of the + superlative" into comparative, students often wrongly write "more precious than any other." The correct structure is "more precious than <em>most other</em>" — because "one of the" implies inclusion within a group, not exclusivity.
 </div>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> For "than any other," the noun that follows must take a singular verb. For "than most other," the noun takes a plural verb. This is a frequent CDS differentiator.
 </div>
 
@@ -20182,7 +20182,7 @@ window.EXPANDED_NOTES_DATA["transformation-sentences"] = String.raw`
 <strong>⚠️ Trap Alert:</strong> "too...to" + for + object requires careful handling. "It is too hot for us to play" → "It is so hot that we cannot play." Note: the pronoun "us" becomes the subject of the second clause, and the verb turns negative. Students often write "that we can play" — this changes the meaning entirely.
 </div>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> "Too" is always followed by a positive adjective. "So" is also positive. The CANNOT in the new clause is mandatory — it is the negative that gives "too" its meaning.
 </div>
 
@@ -20306,19 +20306,19 @@ window.EXPANDED_NOTES_DATA["transformation-sentences"] = String.raw`
 
 <h2>7. Common Pitfalls — Do Not Lose Marks</h2>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert 1:</strong> When negating "Every," don't write "Not any" alone. Write "There is no one who...not" or convert to "Who does not..." structure.
 </div>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert 2:</strong> "One of the + superlative plural" is common. "He is one of the best players" → Negative → "Very few players are as good as he" (NOT "No player is").
 </div>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert 3:</strong> When converting affirmative to negative, the verb itself often stays positive, but a negative modifier is added. "He is intelligent" → "He is not unintelligent." Don't add "no" where "not" is needed.
 </div>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> CDS examiners often give option pairs where both transformations are technically grammatical but only ONE preserves the original meaning exactly. Always ask: "Did the original sentence say this? If yes, this is correct."
 </div>
 
@@ -20691,7 +20691,7 @@ window.EXPANDED_NOTES_DATA["synonyms-antonyms-detailed"] = String.raw`
 
 <h2>6. Exam Strategy & Common Pitfalls</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert:</strong> Beware of <em>Auto-antonyms</em> (words that mean their own opposite depending on context). 
 <ul>
 <li><strong>Sanction</strong> = to officially approve of (positive) OR to penalize (negative).</li>
@@ -20702,11 +20702,11 @@ window.EXPANDED_NOTES_DATA["synonyms-antonyms-detailed"] = String.raw`
 Defence examiners love these to test if students are just memorizing or actually understanding English.
 </div>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #155724; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #155724; margin:10px 0;">
 💡 <strong>High-Yield Fact:</strong> When asked for an antonym for <em>Verbose</em>, avoid <em>Quiet</em> or <em>Mute</em>. They mean the absence of speech. <em>Verbose</em> means the <strong>excessive use</strong> of speech. The correct opposite is a word that means <strong>brief and concise</strong> (e.g., <em>Laconic, Succinct, Terse, Curt</em>).
 </div>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #721c24; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #721c24; margin:10px 0;">
 🧠 <strong>Mnemonic for Negatives (In-, Im-, Il-, Ir-):</strong> Notice how <em>In-</em> changes to <em>Im-</em> before <strong>M</strong>, <em>Il-</em> before <strong>L</strong>, and <em>Ir-</em> before <strong>R</strong>. 
 <ul>
 <li><strong>I</strong>n + <strong>M</strong>obile = <strong>Im</strong>mobile</li>
@@ -20839,61 +20839,61 @@ window.EXPANDED_NOTES_DATA["one-word-substitution"] = String.raw`
 
 <h2>High-Yield Facts for One-Word-Substitution</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> In OWS questions, always prioritize precision over breadth. Multiple words may seem correct, but only one will fit grammatically and semantically within the given sentence structure. For example, replacing "the quick brown fox" with "swift" would be incorrect because "swift" lacks the adjective-noun relationship implied by the original phrase.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> Collective nouns follow specific patterns. For instance, "a flock of birds," "a herd of cattle," "a swarm of bees" — these require singular verbs and specific prepositions. Misusing plural forms in OWS reduces score significantly.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> Antonyms should maintain the same part of speech. Replacing "hot" with "cold" works, but replacing "good" with "bad" changes meaning entirely — you need "poor" or "bad" depending on context.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> Some terms have domain-specific meanings. "Bureaucrat" specifically refers to civil servants following hierarchical rules, distinct from "administrator" which has broader usage. Precision in terminology is crucial.
 </div>
 
 <h2>Trap Alerts – Common Pitfalls</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> **Part-of-speech mismatches**. Many candidates incorrectly substitute a noun for a verb or vice versa. Always check whether the replacement word matches the syntactic role (subject, object, modifier) in the sentence. For instance, replacing "the government" (noun phrase) with "leadership" (noun) might work, but if the sentence expects a gerund ("leading"), you'll lose marks.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> **Overgeneralization**. Some terms apply broadly but have narrow definitions in specific contexts. "Authority" means different things in politics (government power), religion (spiritual leadership), and business (decision-making power). Without context, wrong choices occur.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> **Synonym vs. Paraphrase**. Not every synonymous word qualifies. "Fast" and "quick" are synonyms, but "swift" implies speed + gracefulness. If the sentence emphasizes urgency rather than elegance, "fast" is better. Examine the nuance.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> **Cultural bias**. Some terms are regionally specific (e.g., "bharatiya" vs "indian"). Always use standard English terminology unless the question explicitly mentions a particular country's context. This affects scoring consistency.
 </div>
 
 <h2>PYQ Insights – Recent Exam Patterns</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> From 2020–2026, OWS questions have increasingly focused on specialized fields like defense, administration, and social sciences. Terms such as "Iconoclast" (someone who destroys religious images), "Soliloquy" (a dramatic monologue), and "Ephemeral" (short-lived) appeared in recent papers. These reflect the examiners' focus on contemporary vocabulary and cultural literacy.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> Government-type questions dominate the first half of the paper. Expect terms like "Autocracy," "Theocracy," "Oligarchy," "Meritocracy," and "Confederacy." Each carries specific connotations—autocracy implies absolute rule, theocracy ties power to religious leaders, and meritocracy emphasizes ability-based selection.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> Phobia questions test both breadth (common phobias) and depth (rare ones). Recent papers featured "Xenophobia" (fear of foreigners), "Agoraphobia" (fear of open spaces), and "Cynophobia" (fear of dogs). Remember that some phobias are more prevalent in certain demographics or cultures.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> Profession-based OWS appears in legal, medical, and technical sections. Watch out for terms like "Attorney-at-law" (legal representative), "Surgeon" (medical specialist), and "Captain" (military rank). These require precise identification of the field of application.
 </div>
 
 <h2>Mnemonic Strategies for Effective Learning</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> **"G-P-M-A-F"** for Government types:
   <ul>
     <li><strong>G</strong> = **Monarchy** (King/Queen as head)</li>
@@ -20904,7 +20904,7 @@ window.EXPANDED_NOTES_DATA["one-word-substitution"] = String.raw`
   </ul>
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> **"P-H-E-R-O-L"** for Phobias:
   <ul>
     <li><strong>P</strong> = **Acrophobia** (Heights)</li>
@@ -20916,7 +20916,7 @@ window.EXPANDED_NOTES_DATA["one-word-substitution"] = String.raw`
   </ul>
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> **"D-E-C-I-P-L-A-T-Y"** for Manias:
   <ul>
     <li><strong>D</strong> = **Hypomania** (Mild elevation)</li>
@@ -21053,7 +21053,7 @@ window.EXPANDED_NOTES_DATA["phrasal-verbs"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Never separate an inseparable phrasal verb! A question might offer: "The manager told him to look the document over." This is grammatically incorrect. The correct form is "look over the document." However, if it were a separable verb: "He put <strong>his bag</strong> down" and "He put down <strong>his bag</strong>" are both correct. But with a pronoun, ONLY "He put <strong>it</strong> down" works.
 </div>
 
@@ -21438,7 +21438,7 @@ window.EXPANDED_NOTES_DATA["phrasal-verbs"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The 2026 exam cycle specifically highlighted "Look into", "Bring about", and "Call off". Let's dissect these: <br>
 - <strong>Look into:</strong> Always implies research or investigation (e.g., "The police will look into the theft."). <br>
 - <strong>Bring about:</strong> Means to cause or trigger (e.g., "The new policy brought about massive changes."). <br>
@@ -21485,7 +21485,7 @@ window.EXPANDED_NOTES_DATA["phrasal-verbs"] = String.raw`
 <li><strong>Check for inseparable verbs:</strong> If the structure forces an object between the verb and particle, ensure it's a separable verb. If it's inseparable, the object MUST follow the particle.</li>
 </ol>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Many students confuse "Look into" (investigate) with "Look into" (physically enter, rarely used). In defence exams, <strong>100% of the time, "look into" means "investigate"</strong>. Similarly, "Call off" never means "to summon" (which is "call up" or "summon"). Always equate "Call off" strictly to cancellation.
 </div>
 
@@ -21593,7 +21593,7 @@ window.EXPANDED_NOTES_DATA["reading-comprehension"] = String.raw`
 
 <p>The logical flow of a passage is the skeleton of the author's argument. It helps you understand how ideas connect, contrast, or build upon each other. To map the logical flow, you must pay close attention to <strong>transition words and signposting phrases</strong>. These words act as signposts, guiding the reader through the author's line of reasoning.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🧠 Mnemonic: The FANBOYS Acronym</strong><br />
     Use the acronym <strong>FANBOYS</strong> to remember the most common coordinating conjunctions that signal logical relationships in a passage:
     <ul>
@@ -21615,7 +21615,7 @@ window.EXPANDED_NOTES_DATA["reading-comprehension"] = String.raw`
     <li><strong>Opinions:</strong> These are subjective statements, value judgments, beliefs, or attitudes. They reflect the author's personal perspective or ideological stance. Examples include: <em>"The rapid industrialization of the nineteenth century was a catastrophic event for traditional community structures."</em></li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>⚠️ Trap Alert: The "Author's View" Trap</strong><br />
     A common trap in CDS and AFCAT exams is the confusion between a general fact and the <strong>author's specific opinion or interpretation</strong> of that fact. For example, the fact that "carbon emissions have risen" is objective, but the author's claim that "governments have criminally ignored environmental warnings" is an opinion. Always look for value-laden adjectives (e.g., <em>alarming, disastrous, magnificent</em>) or modal verbs indicating obligation (e.g., <em>must, should, ought to</em>), which signal opinion.
 </div>
@@ -21634,7 +21634,7 @@ window.EXPANDED_NOTES_DATA["reading-comprehension"] = String.raw`
 
 <p><strong>Strategy for Inference:</strong> Always look for cause-and-effect relationships or the author's underlying assumptions. An inference must be directly supported by the evidence provided in the text. Avoid making wild guesses or bringing in outside knowledge.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact: The "Must Be True" Rule</strong><br />
     In inference questions, the correct option must be logically airtight based on the text. If an option introduces new information not mentioned or hinted at in the passage, it is incorrect. The correct answer is a logical extension of the author's arguments.
 </div>
@@ -21649,7 +21649,7 @@ window.EXPANDED_NOTES_DATA["reading-comprehension"] = String.raw`
     <li><strong>Synthesize Paragraph Summaries:</strong> Read each paragraph and write a one-sentence summary of its core point. The common thread connecting these summaries is the main idea of the passage.</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>⚠️ Trap Alert: Too Broad vs. Too Narrow</strong><br />
     Exams frequently use distractors that are either too broad or too narrow. An option that is too broad (e.g., "The history of human civilization") fails to capture the specific focus of the passage (e.g., "The role of trade routes in medieval societies"). An option that is too narrow is merely a supporting detail or an example from one paragraph, not the main idea of the entire text.
 </div>
@@ -21665,7 +21665,7 @@ window.EXPANDED_NOTES_DATA["reading-comprehension"] = String.raw`
     <li><strong>Objective/Neutral:</strong> The author presents facts and arguments without expressing personal bias, typical of scientific or historical passages.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight: The Environmental Tone Shift</strong><br />
     In the 2026 CDS exam, a passage on climate change used words like <em>irreversible tipping points, existential threat, and collective abdication of responsibility</em>. The correct option for the tone was <strong>"deeply alarmed and urgent"</strong>. Students who chose "objective and detached" failed because they ignored the emotionally charged diction used by the author to emphasize the gravity of the situation.
 </div>
@@ -21715,7 +21715,7 @@ window.EXPANDED_NOTES_DATA["reading-comprehension"] = String.raw`
   </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight: The Shift to Socio-Political and Environmental Themes</strong><br />
     The 2026 exam pattern shows a clear preference for passages that require candidates to evaluate the <strong>underlying argument</strong> and the <strong>author's tone</strong>. For instance, passages on environmental policy no longer ask "What is the definition of carbon footprint?" but rather "What is the author's attitude toward international climate treaties?" or "What can be inferred about the political will to implement green technologies?" This demands that you practice analytical writing and understand ideological nuances.
 </div>
@@ -21748,7 +21748,7 @@ window.EXPANDED_NOTES_DATA["reading-comprehension"] = String.raw`
     <li><strong>Eliminate Irrelevant Options:</strong> If an option discusses a concept not mentioned in the passage, it is a distractor and must be eliminated.</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>⚠️ Trap Alert: The "Paraphrase" Trap</strong><br />
     In CDS and AFCAT, incorrect options are often simple paraphrases of sentences directly from the passage but applied to the wrong question. For example, a sentence describing a historical fact might be rephrased and presented as the answer to an inference question. Always ensure that the option actually answers the specific question asked, rather than just containing words from the passage.
 </div>
@@ -21757,7 +21757,7 @@ window.EXPANDED_NOTES_DATA["reading-comprehension"] = String.raw`
 
 <p>To consolidate your understanding, practice passages from diverse domains—environmental science, political philosophy, and economic policies. Focus on applying the strategies discussed: mapping logical flow with FANBOYS, distinguishing facts from opinions, and analyzing the author's diction to determine tone.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact: Summary of Core Principles</strong><br />
     <ul>
         <li><strong>Inferences</strong> are logical deductions, not wild guesses.</li>
@@ -21825,7 +21825,7 @@ window.EXPANDED_NOTES_DATA["fill-blanks-cloze"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> In the last three years of NDA and CDS exams, over 60% of the blanks in Cloze Tests were resolved by identifying the correct preposition or collocation rather than just the main verb or noun. Always look at the words immediately surrounding the blank.
 </div>
 
@@ -21873,7 +21873,7 @@ window.EXPANDED_NOTES_DATA["fill-blanks-cloze"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight:</strong> Recent papers (2024-2026) have featured passages where the blanks are prepositions. For example, "The general was praised <strong>for</strong> his bravery, but criticized <strong>with</strong> (incorrect) / <strong>on</strong> (incorrect) / <strong>about</strong> (incorrect) / <strong>regarding</strong> (correct) his strategy." Always check the verb or adjective preceding the blank to determine the correct preposition.
 </div>
 
@@ -21888,7 +21888,7 @@ window.EXPANDED_NOTES_DATA["fill-blanks-cloze"] = String.raw`
 <h3>Conjunctions and Logical Flow</h3>
 <p>Conjunctions are the glue of a passage. They signal the relationship between ideas. <strong>Coordinating conjunctions</strong> (FANBOYS: For, And, Nor, But, Or, Yet, So) link equal clauses. <strong>Subordinating conjunctions</strong> (because, although, while, if, since) link a dependent clause to an independent clause. Misidentifying the logical relationship (e.g., using "although" when "because" is needed) will alter the entire meaning of the sentence, making it illogical.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🧠 Mnemonic:</strong> To remember subordinating conjunctions, use the acronym "AAAWWUBBIS": Although, After, As, When, While, Until, Because, Before, If, Since. If a blank requires a word that introduces a dependent clause, check if it fits this mnemonic!
 </div>
 
@@ -21944,7 +21944,7 @@ window.EXPANDED_NOTES_DATA["fill-blanks-cloze"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> A very common mistake is confusing "complain about" with "complain of." In standard English, we "complain about" a situation or a feeling, but we "complain of" a physical symptom (e.g., "He complained of a headache"). Exams often use this subtle distinction to trick candidates.
 </div>
 
@@ -21987,7 +21987,7 @@ window.EXPANDED_NOTES_DATA["fill-blanks-cloze"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight:</strong> In AFCAT and CDS papers, a blank is often placed at the beginning of a sentence, requiring a transition word. If the sentence before discusses a problem and the sentence after discusses a solution, the blank must be filled with a causal or transitional word like "Consequently" or "Therefore," not a simple conjunction like "And."
 </div>
 
@@ -22004,7 +22004,7 @@ window.EXPANDED_NOTES_DATA["fill-blanks-cloze"] = String.raw`
 <h3>Overlooking the Overall Narrative</h3>
 <p>Some students read the first sentence, see a blank, and immediately start guessing without reading the rest of the passage. This is a fatal flaw. The last sentence of a passage often provides a crucial clue for a blank in the middle. Always read the full paragraph first.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> Do not fall for the "Positive/Negative Agreement" trap. If the passage has a negative tone (e.g., discussing a failure or a crisis), and you are choosing between "achieved" and "failed," the context demands "failed," even if the grammatical structure might awkwardly fit "achieved" if you ignore the tone.
 </div>
 
@@ -22021,7 +22021,7 @@ window.EXPANDED_NOTES_DATA["fill-blanks-cloze"] = String.raw`
 
 <p>Remember, the Cloze Test is a test of comprehension as much as it is a test of vocabulary. By understanding the logical flow, mastering prepositions and collocations, and always keeping the passage's tone in mind, you can consistently achieve high scores in this section of the NDA, CDS, and AFCAT examinations.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> The year 2026 trend analysis suggests that Cloze Tests will increasingly feature passages related to national security, defense technology, and international relations. Familiarizing yourself with the specific vocabulary of these domains (e.g., "deterrence," "sovereignty," "strategic parity") will give you a significant edge.
 </div>
 `;
@@ -22146,7 +22146,7 @@ window.EXPANDED_NOTES_DATA["preamble"] = String.raw`
 <h2>4. The 42nd Amendment Act, 1976: The Most Significant Change</h2>
 <p>The <strong>42nd Amendment Act, 1976</strong>, popularly known as the "Constitution of Indira," brought about three pivotal changes to the Preamble. These additions were recommended by the Sardar Swaran Singh Committee and enacted during the Emergency period. The amendment added the words <strong>"Socialist", "Secular", and "Integrity"</strong> to the Preamble, transforming its character and reflecting the government's ideological commitment.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The 42nd Amendment (1976) is the only amendment that altered the Preamble's text. Earlier amendments (1st, 7th, 44th, etc.) modified articles or schedules but never the Preamble's wording. This fact is a favourite in UPSC prelims match-the-following and assertion-reason questions.
 </div>
 
@@ -22173,7 +22173,7 @@ window.EXPANDED_NOTES_DATA["preamble"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Many aspirants confuse the two cases. Remember: Berubari said Preamble is NOT part of the Constitution; Kesavananda Bharati said it IS part but subject to Basic Structure doctrine. UPSC often asks "In which case was the Preamble declared a part of the Constitution?" The answer is Kesavananda Bharati (1973).
 </div>
 
@@ -22223,7 +22223,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 <h1>Physics: Units, Measurement & Everyday Applications</h1>
 <hr />
 
-<div style="background-color:#d4edda; padding:15px; border-left:6px solid #28a745; margin:15px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:15px; border-left:6px solid #28a745; margin:15px 0;">
 <strong>📋 Topic Overview:</strong> This chapter forms the foundation of physics and is crucial for all defence exams. Questions from this topic appear every year, with emphasis on SI units, dimensional analysis, and practical applications of physics principles in daily life.
 </div>
 
@@ -22286,7 +22286,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> The kilogram is the only base unit still defined by a physical artifact (the IPK). All other units are now defined by fundamental constants. This is frequently asked in exams.</p>
 </div>
 
@@ -22370,7 +22370,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 <tr><td style="padding: 10px; border: 1px solid #000;">Pico</td><td style="padding: 10px; border: 1px solid #000;">p</td><td style="padding: 10px; border: 1px solid #000;">10⁻¹²</td><td style="padding: 10px; border: 1px solid #000;">1 Picofarad = 10⁻¹² F</td></tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>🧠 Mnemonic:</strong> Remember the order of large prefixes with: <strong>"Tera Giga Mega Kilo" (TGMK)</strong> and small prefixes with: <strong>"Micro Nano Pico" (MNP)</strong> - which come after Kilo.</p>
 </div>
 
@@ -22409,7 +22409,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 <tr><td style="padding: 10px; border: 1px solid #000;">Surface tension</td><td style="padding: 10px; border: 1px solid #000;">[ML⁰T⁻²] = [MT⁻²]</td></tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <p><strong>⚠️ Trap Alert:</strong> Angles (in radians) are dimensionless! This is a common trick question. Similarly, strain and refractive index are dimensionless quantities because they are ratios.</p>
 </div>
 
@@ -22425,7 +22425,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 <p>If the dimensions of a quantity are [MLT⁻²], to convert from SI to CGS:</p>
 <p>1 N = 10⁵ dyne, so 1 kg·m·s⁻² = 10⁵ g·cm·s⁻²</p>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> The principle of dimensional homogeneity is used to check equations. However, dimensionally correct equations may not be physically correct (e.g., adding velocity and energy is dimensionally wrong, not just incorrect).</p>
 </div>
 
@@ -22498,7 +22498,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 
 <p><strong>Example:</strong> If you walk 3 m East and then 4 m East, your <em>distance</em> is 7 m, but your <em>displacement</em> is also 7 m East. However, if you walk 3 m East and then 4 m West, your <em>distance</em> is 7 m, but your <em>displacement</em> is only 1 m East.</p>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <p><strong>⚠️ Trap Alert:</strong> Many students confuse distance with displacement. Remember: Distance is the actual path length (scalar), while displacement is the shortest path between two points (vector). They are equal only when motion is in a straight line without reversal.</p>
 </div>
 
@@ -22544,7 +22544,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 <li><strong>Instantaneous Velocity</strong> = Limit (Δr/Δt) as Δt → 0</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>🧠 Mnemonic:</strong> Remember "V-Vector, V-Direction, V-Can be negative" - all three V's associated with velocity help remember it's the vector quantity.</p>
 </div>
 
@@ -22604,7 +22604,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 <li><strong>Counting numbers and defined constants</strong> have infinite significant figures.</li>
 </ol>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <p><strong>⚠️ Trap Alert:</strong> 100 (without decimal) has only 1 significant figure, but 100. has 3 and 100.0 has 4. The presence or absence of a decimal point matters! This is a very common UPSC trick question.</p>
 </div>
 
@@ -22634,7 +22634,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 
 <p><strong>Analogy:</strong> Think of hitting a target. Precision is how close your arrows are to each other. Accuracy is how close they are to the bullseye.</p>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> In physics experiments, we aim for both precision and accuracy. Random errors affect precision, while systematic errors affect accuracy. Using better instruments reduces random errors; calibrating instruments removes systematic errors.</p>
 </div>
 
@@ -22675,7 +22675,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 <li>When a bus takes a sharp turn, we fall outward (inertia of direction)</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> This is an application of Newton's First Law (Law of Inertia). The tendency of an object to resist changes in its state of motion is called inertia. The mass of an object is a measure of its inertia.</p>
 </div>
 
@@ -22734,7 +22734,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 <li>Oil rising in a lamp wick</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <p><strong>⚠️ Trap Alert:</strong> Mercury falls in a glass capillary (depression), not rises. This is because mercury does not wet glass (cohesive forces > adhesive forces, θ > 90°). Remember: Water rises in glass; Mercury falls.</p>
 </div>
 
@@ -22804,7 +22804,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 
 <h2>6. Quick Revision Summary</h2>
 
-<div style="background-color:#d4edda; padding:15px; border-left:6px solid #28a745; margin:15px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:15px; border-left:6px solid #28a745; margin:15px 0;">
 <p><strong>Key Takeaways:</strong></p>
 <ol>
 <li><strong>SI Units:</strong> 7 fundamental units form the basis of all measurements</li>
@@ -22836,7 +22836,7 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 <tr style="background-color: #f2f2f2;"><td style="padding: 10px; border: 1px solid #000;">P = W/t</td><td style="padding: 10px; border: 1px solid #000;">Power</td></tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>🧠 Mnemonic for Equations of Motion:</strong> Use the mnemonic <strong>"VUSA 2022"</strong> - Where V = Final, U = Initial, S = Distance, A = Acceleration, and the three equations are:</p>
 <ol>
 <li><strong>V</strong> = <strong>U</strong> + <strong>A</strong>T</li>
@@ -22858,7 +22858,7 @@ window.EXPANDED_NOTES_DATA["acids-bases"] = String.raw`
 
 <p>The study of acids and bases is not merely theoretical — it has direct applications in medicine (antacids), agriculture (soil treatment), industry (soap and detergent manufacturing), and daily life (baking, cooking, and preservation). UPSC increasingly frames questions around these real-world applications, making it essential for candidates to bridge the gap between textbook definitions and practical usage.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Acids, Bases, and Salts consistently contribute 2–4 questions in the General Knowledge/Science section of NDA and CDS papers. In AFCAT, questions often focus on pH values of biological fluids and the chemical rationale behind everyday phenomena.
 </div>
 
@@ -22899,7 +22899,7 @@ Here, HCl is the acid (donates H⁺), NH₃ is the base (accepts H⁺), NH₄⁺
 <li><strong>Auto-protolysis of Water:</strong> 2H₂O ⇌ H₃O⁺ + OH⁻. This equilibrium is the basis of the pH scale.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Questions frequently ask candidates to identify conjugate acid-base pairs or to determine whether a given substance acts as an acid or base in a specific reaction. The amphoteric nature of Al₂O₃ and ZnO has been directly tested in recent CDS papers.
 </div>
 
@@ -22962,7 +22962,7 @@ Here, BF₃ (electron-deficient) acts as the Lewis acid, and NH₃ (electron-ric
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Many aspirants confuse the Lewis acid definition with "acid that accepts electrons" — remember, Lewis acid accepts an <em>electron pair</em>, not individual electrons. Also, H⁺ is a Lewis acid because it has an empty orbital that can accept an electron pair.
 </div>
 
@@ -23044,7 +23044,7 @@ pH + pOH = 14 (at 25°C)</p>
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The pH of blood (7.35–7.45) is tightly regulated by the bicarbonate buffer system. If blood pH drops below 7.35 (acidosis) or rises above 7.45 (alkalosis), it can be life-threatening. This is a favourite UPSC question topic.
 </div>
 
@@ -23064,7 +23064,7 @@ pH + pOH = 14 (at 25°C)</p>
 <li>If pH = 3, then [H⁺] = 10⁻³ M and [OH⁻] = 10⁻¹¹ M</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Do not confuse pH with pOH. Remember: pH + pOH = 14 (at 25°C). If a question gives [OH⁻] and asks for pH, first calculate pOH, then subtract from 14.</div>
 
 <h2>4. Indicators</h2>
@@ -23125,7 +23125,7 @@ pH + pOH = 14 (at 25°C)</p>
 <li>pH 11–14: Violet (strongly basic)</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Questions on phenolphthalein and methyl orange are very common. Remember: Phenolphthalein is colourless in acidic and neutral solutions but turns pink in basic solutions. It is the indicator of choice for titration of a strong acid with a strong base. Methyl orange changes from red (acid) to yellow (base) and is used for titrations involving weak bases.</div>
 
 <h2>5. Properties of Acids and Bases</h2>
@@ -23174,7 +23174,7 @@ NaOH + HCl → NaCl + H₂O</p>
 <li><strong>Dentistry:</strong> Toothpaste is mildly basic to neutralize acids produced by bacteria in the mouth.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The reaction between acid and base is exothermic. This means heat is released during neutralization. This fact has been directly asked in CDS papers.</div>
 
 <h2>7. Salts</h2>
@@ -23331,7 +23331,7 @@ NaOH + HCl → NaCl + H₂O</p>
 <li>Used in the manufacture of sodium carbonate.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> UPSC frequently asks about baking soda vs. washing soda. Key difference: NaHCO₃ (baking soda) is used in baking powder and as an antacid, while Na₂CO₃·10H₂O (washing soda) is used in glass manufacturing and water softening. Baking soda releases CO₂ on heating; washing soda does not.</div>
 
 <h3>8.3 Sodium Carbonate (Na₂CO₃·10H₂O) — Washing Soda</h3>
@@ -23371,7 +23371,7 @@ NaOH + HCl → NaCl + H₂O</p>
 <li>Used in the textile industry for processing cotton.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Do not confuse washing soda (Na₂CO₃·10H₂O) with baking soda (NaHCO₃). Washing soda is strongly basic and is used in glass manufacturing, while baking soda is mildly basic and is used in baking powder and as an antacid. This distinction is a frequent UPSC trap.</div>
 
 <h3>8.4 Bleaching Powder — Calcium Oxychloride</h3>
@@ -23458,7 +23458,7 @@ NaOH + HCl → NaCl + H₂O</p>
 <li>Used in fireproofing materials.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Plaster of Paris starts setting within 5–15 minutes of mixing with water and completely sets in about 20–30 minutes. Adding a small amount of potassium sulfate (K₂SO₄) or sodium citrate accelerates the setting, while adding borax or alum delays it. This is a frequently asked detail.</div>
 
 <h2>9. Water of Crystallization</h2>
@@ -23510,7 +23510,7 @@ NaOH + HCl → NaCl + H₂O</p>
 
 <p><strong>Key Concept:</strong> When a salt with water of crystallization is heated, the water molecules are driven off, leaving behind the anhydrous salt. This process is called "efflorescence" if it occurs spontaneously in open air.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Efflorescence is the loss of water of crystallization when a hydrated salt is exposed to air. Deliquescence is the opposite — when a substance absorbs moisture from air and dissolves in it. Crystallization is the formation of crystals from a solution. Do not confuse these three terms — UPSC has asked this distinction directly.</div>
 
 <h2>10. Amphoteric Oxides</h2>
@@ -23535,7 +23535,7 @@ NaOH + HCl → NaCl + H₂O</p>
 <li>ZnO + 2NaOH → Na₂[Zn(OH)₄] (acidic behaviour)</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> The amphoteric nature of Al₂O₃ and ZnO has been directly tested in recent NDA and CDS papers. Candidates must be able to write reactions showing both acidic and basic behaviour. Also note: Al(OH)₃ and Zn(OH)₂ are also amphoteric hydroxides.</div>
 
 <h2>11. Everyday Chemistry Applications</h2>
@@ -23561,24 +23561,24 @@ NaOH + HCl → NaCl + H₂O</p>
 <h3>11.3 Baking Powder — A Closer Look</h3>
 <p>Baking powder is a mixture of baking soda (NaHCO₃) and a solid acid (typically tartaric acid or cream of tartar). When mixed with water, the acid and base react to produce CO₂ gas, which makes baked goods rise and become fluffy. The solid acid prevents premature reaction by keeping the components separate in dry form.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> If baking soda is used without an acid (like in a recipe that already contains an acidic ingredient such as buttermilk or yogurt), it will react and release CO₂ immediately, so the batter must be baked immediately. Baking powder contains its own acid and can be used even when no acidic ingredient is present.</div>
 
 <h2>12. Important Mnemonics and Memory Aids</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> To remember the order of pH from most acidic to most basic: <em>"Can Lemons Make Better Juice, Never Drink Pure Water, But Always Sip Very Expensive Liquids"</em> — Can (pH 0), Lemons (pH 2), Make (pH 4), Better (pH 6), Juice (pH 7), Never (pH 8), Drink (pH 10), Pure (pH 12), Water (pH 14).
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> To remember common salts and their uses: <em>"NaCl for salt, NaHCO₃ for baking, Na₂CO₃ for glass, CaOCl₂ for bleaching, CaSO₄·½H₂O for plastering."</em>
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> To remember indicators and their colour changes: <em>"Phenolphthalein — Pink in Base, Clear in Acid" (PBA). Methyl Orange — Red in Acid, Yellow in Base" (RAY).</em>
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> To remember the three concepts of acids and bases: <em>"A-B-L" — Arrhenius (H⁺/OH⁻ in water), Bronsted-Lowry (proton donor/acceptor), Lewis (electron pair acceptor/donor).</em>
 </div>
 
@@ -23639,7 +23639,7 @@ NaOH + HCl → NaCl + H₂O</p>
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Recent trends (2020–2026) show UPSC increasingly asking application-based questions. Focus on: (1) pH of biological fluids and the role of buffers, (2) action of antacids and their chemical basis, (3) neutralization in soil treatment, (4) everyday applications of acids like tartaric acid in baking powder and citric acid in food preservation, and (5) the amphoteric nature of oxides. Practice numerical problems on pH calculation and understand the logarithmic nature of the scale.</div>
 
 <p style="margin-top:1rem;">This comprehensive coverage of Acids, Bases, and Salts should provide aspirants with a thorough understanding of the topic, covering all sub-topics specified in the official syllabus and aligned with recent UPSC question patterns. Regular revision of the formulae, reactions, and applications listed above will ensure strong performance in the examination.</p>
@@ -23664,7 +23664,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical"] = String.raw`
   <li><strong>Valency:</strong> Combining capacity of an element, often equal to the number of electrons in the outermost shell or needed to complete an octet.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   💡 <strong>High-Yield Fact:</strong> In defence exams, the most frequently tested trend relationship is: <strong>Atomic radius ↓ → Ionization Energy ↑ → Electronegativity ↑</strong> across a period, and the reverse down a group. Questions often ask to arrange species (e.g., Na, Mg, Al) in increasing order of IE or radius.
 </div>
 
@@ -23754,7 +23754,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   💡 <strong>High-Yield Fact:</strong> Fajans’ Rule governs ionic vs. covalent character: small cation size, large anion charge, and large anion polarizability increase covalent character. This is frequently tested in questions asking whether NaCl is purely ionic or has partial covalent character.
 </div>
 
@@ -23822,7 +23822,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   💡 <strong>High-Yield Fact:</strong> In exams, the <strong>lone pair-bond pair repulsion > bond pair-bond pair repulsion</strong>. This is why bond angles in NH₃ (107°) and H₂O (104.5°) are less than the ideal tetrahedral 109.5°. Always count lone pairs on the central atom first.
 </div>
 
@@ -23978,7 +23978,7 @@ window.EXPANDED_NOTES_DATA["syl-numerical"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   💡 <strong>High-Yield Fact:</strong> The <strong>half-filled (d⁵) and fully filled (d¹⁰) configurations</strong> exhibit extra stability. This is why Mn²⁺ (3d⁵) and Zn²⁺ (3d¹⁰) are very stable, and Fe³⁺ (3d⁵) is more stable than Fe²⁺ (3d⁶) in aqueous solution—directly relevant to PYQ on ion stability.
 </div>
 
@@ -24068,11 +24068,11 @@ window.EXPANDED_NOTES_DATA["syl-nonverbal-reasoning"] = String.raw`
     </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> In Defence exams (especially AFCAT & CDS), <strong>90% of Series questions</strong> are based on a combination of <strong>Rotation + Position Shift</strong>. If you see a figure moving, check rotation *first*, then position.
 </div>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> <strong>"The Distractor Element."</strong> UPSC/SSB often adds an irrelevant element (e.g., a small dot moving randomly) to waste your time. <strong>Identify the "Main Figure" (largest/most complex) and track IT.</strong> Ignore noise until the main pattern is solved.
 </div>
 
@@ -24141,7 +24141,7 @@ window.EXPANDED_NOTES_DATA["syl-nonverbal-reasoning"] = String.raw`
     <li><strong>S - Apply:</strong> Apply the verified rule(s) to the last Problem Figure to predict the Answer Figure <strong>before</strong> looking at options.</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> <strong>Variable Rotation:</strong> If rotation angles are 45°, 90°, 135°, 180°... the next is 225° (or -135°). <strong>Variable Shift:</strong> If moves are 1 step, 2 steps, 3 steps... next is 4 steps.
 </div>
 
@@ -24199,11 +24199,11 @@ window.EXPANDED_NOTES_DATA["syl-nonverbal-reasoning"] = String.raw`
     </tbody>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> <strong>Mirror vs Water Confusion.</strong> In Mirror Image, 'b' becomes 'd', 'p' becomes 'q'. In Water Image, 'b' becomes 'q', 'p' becomes 'd'. <strong>Mnemonic:</strong> <strong>"Mirror flips Left-Right (b↔d). Water flips Up-Down (b↔q)."</strong>
 </div>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
     <strong>🧠 Mnemonic for Mirror Symmetrical Capitals:</strong> <strong>"<em>AH! I AM TOO VERY WAXY</em>"</strong> → <strong>A, H, I, M, O, T, U, V, W, X, Y</strong>.
 </div>
 
@@ -24259,11 +24259,11 @@ window.EXPANDED_NOTES_DATA["syl-nonverbal-reasoning"] = String.raw`
     </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> If the cut passes through the <strong>corner/center of the folded paper</strong>, the unfolded figure will have a shape at the <strong>center</strong> of the final paper. If cut is on the <strong>open edges</strong>, shapes appear on the <strong>periphery</strong>.
 </div>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> <strong>Direction of Fold.</strong> "Fold Left half over Right" vs "Fold Right half over Left" produces <strong>different mirror images</strong> if the pattern is asymmetrical. Read the arrow direction in the diagram carefully.
 </div>
 
@@ -24338,7 +24338,7 @@ window.EXPANDED_NOTES_DATA["syl-nonverbal-reasoning"] = String.raw`
     <li>If Row & Column logic conflict → Look for <strong>Diagonal Logic</strong> (Top-Left to Bottom-Right) or <strong>Overall Distribution</strong> (Count of elements).</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> <strong>Superposition Rule (Fig 1 + Fig 2 = Fig 3):</strong>
     <ul style="margin: 5px 0; padding-left: 20px;">
         <li><strong>Common Lines/Regions:</strong> Disappear (Cancel out) OR Become Thick.</li>
@@ -24407,7 +24407,7 @@ window.EXPANDED_NOTES_DATA["syl-nonverbal-reasoning"] = String.raw`
     </tbody>
 </table>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
     <strong>🧠 Mnemonic for Cube Formulas:</strong> <strong>"Corners are always 8. Edges are 12(n-2). Faces are 6(n-2)². Core is (n-2)³."</strong> Visualize the geometry: 8 corners, 12 edges, 6 faces.
 </div>
 
@@ -24438,7 +24438,7 @@ window.EXPANDED_NOTES_DATA["syl-nonverbal-reasoning"] = String.raw`
     <li><strong>Total Rectangles = <sup>m+1</sup>C<sub>2</sub> × <sup>n+1</sup>C<sub>2</sub> = [m(m+1)/2] × [n(n+1)/2].</strong></li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> <strong>Overlapping Figures.</strong> In complex diagrams (star inside pentagon), count systematically: <strong>Smallest units → Combinations of 2 → Combinations of 3 → Largest.</strong> Use a pen to mark counted figures on the rough sheet to avoid double counting/missing.
 </div>
 
@@ -24514,7 +24514,7 @@ window.EXPANDED_NOTES_DATA["what-is-history"] = String.raw`
 <p><strong>History</strong> is the study of past human events, particularly focusing on the development of societies, cultures, and civilizations over time. It involves collecting, analyzing, and interpreting evidence about the past to understand how and why things came to be the way they are today. History is not just about memorizing dates and events; it is a disciplined inquiry into the past that helps us comprehend the present and anticipate future trends.</p>
 <p>In academic terms, history is both a <strong>field of knowledge</strong> and a <strong>method of inquiry</strong>. As a field of knowledge, it encompasses all that we know about the past. As a method, it refers to the systematic process by which historians gather, evaluate, and interpret evidence to construct narratives about the past.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The word “history” comes from the Greek word <em>historia</em>, meaning “inquiry” or “knowledge acquired by investigation.”
 </div>
 
@@ -24548,7 +24548,7 @@ window.EXPANDED_NOTES_DATA["what-is-history"] = String.raw`
 <li>It aids in distinguishing between contemporary and anachronistic elements.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Students often confuse chronological sequence with causation. Remember: just because one event follows another does not mean the first caused the second.
 </div>
 
@@ -24653,7 +24653,7 @@ window.EXPANDED_NOTES_DATA["what-is-history"] = String.raw`
 <li><strong>Global Awareness:</strong> Promotes cross-cultural understanding and empathy.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> To remember the stages of historical inquiry: <strong>"VISION"</strong> – <em>Verify sources, Investigate context, Synthesize findings, Interpret meaning, Organize chronology, Note perspectives, Generalize conclusions.</em>
 </div>
 
@@ -24850,7 +24850,7 @@ window.EXPANDED_NOTES_DATA["stone-age"] = String.raw`
 <li><strong>Human Evolution:</strong> The period witnessed the rise of *Homo sapiens* and our journey from primitive hominins to modern humans.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Many students confuse the dates of the Paleolithic, Mesolithic, and Neolithic periods. Remember: Paleolithic = Old Stone Age (earliest), Mesolithic = Middle Stone Age (transition), Neolithic = New Stone Age (agricultural revolution). Mixing up these terms can lead to incorrect answers in exams.
 </div>
 
@@ -25037,7 +25037,7 @@ window.EXPANDED_NOTES_DATA["rock-art"] = String.raw`
     <li><strong>Victory Celebrations:</strong> Joyous gatherings after a successful hunt, where the spoils were shared equally among the tribe.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:4px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:4px solid #ffc107; margin:15px 0;">
     <strong>💡 High-Yield Fact:</strong> The "Zoo Rock" at Bhimbetka contains over 400 superimposed drawings of animals, making it one of the largest concentrations of prehistoric animal representations in the world. The prominent use of red ochre (hematite) is often associated in archaeological studies with blood, fertility, and the magical preservation of the animal's life force after the hunt.
 </div>
 
@@ -25090,7 +25090,7 @@ window.EXPANDED_NOTES_DATA["rock-art"] = String.raw`
 <h3>7.2. Hand Stencils and Signatures</h3>
 <p>One of the most common motifs globally is the hand stencil, created by placing a hand against the wall and blowing pigment through a bone or pipe to create a negative silhouette. These hand stencils are believed to represent tribal identity, individual signatures, or a spiritual gesture of presence and protection over the community.</p>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:4px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:4px solid #dc3545; margin:15px 0;">
     <strong>⚠️ Trap Alert:</strong> A common mistake made by students is assuming that all prehistoric rock paintings are purely decorative or simple "children's drawings." In competitive exams like NDA and CDS, questions may test your understanding of the <strong>socio-religious and ecological functions</strong> of these paintings. Remember: they are sophisticated symbolic systems used for hunting magic, territorial marking, and initiation rituals, not mere aesthetic pastimes.
 </div>
 
@@ -25126,7 +25126,7 @@ window.EXPANDED_NOTES_DATA["indus-valley-civilization"] = String.raw`
 <h2>Introduction &amp; Overview</h2>
 <p>The Indus Valley Civilization (IVC), also known as the Harappan Civilization, is one of the world's earliest urban civilizations, flourishing around 2600–1900 BCE in the northwestern regions of the Indian subcontinent. It is named after its first discovered site, Harappa, in present-day Pakistan. This civilization is renowned for its advanced urban planning, sophisticated drainage systems, standardized weights and measures, and extensive trade networks.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The IVC is contemporary with ancient Egypt and Mesopotamia but predates the Vedic period in India by over a millennium.
 </div>
 
@@ -25167,7 +25167,7 @@ window.EXPANDED_NOTES_DATA["indus-valley-civilization"] = String.raw`
 <li>Home to the famous "Pashupati Seal," possibly depicting a proto-Shiva figure.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> In recent years, questions have focused on the Pashupati seal and its iconographic significance, often linking it to later Hindu traditions.
 </div>
 
@@ -25189,7 +25189,7 @@ window.EXPANDED_NOTES_DATA["indus-valley-civilization"] = String.raw`
 <li>Evidence of craft specialization, especially in bead-making and pottery.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Dholavira’s water management system is considered one of the most advanced examples of rainwater harvesting in the ancient world.
 </div>
 
@@ -25222,7 +25222,7 @@ window.EXPANDED_NOTES_DATA["indus-valley-civilization"] = String.raw`
 <tr><td style="border:1px solid #999; padding:8px;">Soak Pits</td><td style="border:1px solid #999; padding:8px;">Used to filter wastewater before it reached the main drains</td></tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Questions on drainage systems are increasingly common, especially comparing them with contemporary civilizations like Rome or Mesopotamia.
 </div>
 
@@ -25252,7 +25252,7 @@ window.EXPANDED_NOTES_DATA["indus-valley-civilization"] = String.raw`
 <li><strong>Evidence:</strong> Harappan seals found in Mesopotamian sites like Ur; Mesopotamian artifacts found in Gujarat.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Avoid assuming that the Harappans had a written language that has been fully deciphered. Their script remains undeciphered, and claims about "Vedic" connections are speculative.
 </div>
 
@@ -25310,7 +25310,7 @@ window.EXPANDED_NOTES_DATA["indus-valley-civilization"] = String.raw`
 <tr><td style="border:1px solid #999; padding:8px;">Collapse of Trade</td><td style="border:1px solid #999; padding:8px;">Disruption of maritime trade with Mesopotamia</td><td style="border:1px solid #999; padding:8px;">Decline in seal usage, abandonment of ports</td></tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> The "Aryan Invasion Theory" is outdated and oversimplified. Modern scholarship favors "migration" and environmental factors. Avoid using the term "invasion" in answers unless quoting older sources.
 </div>
 
@@ -25376,7 +25376,7 @@ window.EXPANDED_NOTES_DATA["vedic-age"] = String.raw`
   </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The Rigveda is the oldest extant Indo‑European text; its hymns were orally transmitted for centuries before being written down.
 </div>
 
@@ -25400,7 +25400,7 @@ window.EXPANDED_NOTES_DATA["vedic-age"] = String.raw`
 <h3>4. Upanishads</h3>
 <p>Philosophical dialogues exploring concepts like <strong>Brahman</strong> (ultimate reality), <strong>Atman</strong> (inner self), <strong>karma</strong>, and <strong>moksha</strong>. Principal Upanishads include Isha, Kena, Katha, Prashna, Mundaka, Mandukya, Taittiriya, Aitareya, Chandogya, and Brihadaranyaka.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> <em>“R S Y A – B A U”</em> → <strong>R</strong>igveda, <strong>S</strong>amaveda, <strong>Y</strong>ajurveda, <strong>A</strong>tharvaveda → <strong>B</strong>rahmanas, <strong>A</strong>ranyakas, <strong>U</strong>panishads.
 </div>
 
@@ -25448,7 +25448,7 @@ window.EXPANDED_NOTES_DATA["vedic-age"] = String.raw`
   </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Many aspirants confuse the <em>Purusha Sukta</em> as evidence of a rigid caste system in the Rigveda. In reality, the hymn is a later interpolation (likely post‑Rigvedic) and the early Vedic varna references are fluid, not hereditary.
 </div>
 
@@ -25472,7 +25472,7 @@ window.EXPANDED_NOTES_DATA["vedic-age"] = String.raw`
   <li>Introduction of taxation (<em>bali</em>, <em>shulka</em>) and tribute.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The <em>Ashvamedha</em> (horse sacrifice) was a royal ritual asserting sovereign supremacy; its performance is frequently asked in CDS/NDA questions on later Vedic polity.
 </div>
 
@@ -25525,7 +25525,7 @@ window.EXPANDED_NOTES_DATA["vedic-age"] = String.raw`
   <li>Concepts of <em>rita</em> (cosmic order) evolve into <em>dharma</em> (moral duty) and <em>karma</em> (action‑consequence).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> <em>“I A V S M”</em> → <strong>I</strong>ndra, <strong>A</strong>gni, <strong>V</strong>aruna, <strong>S</strong>oma, <strong>M</strong>itra – the five most‑cited early Vedic gods.
 </div>
 
@@ -25549,7 +25549,7 @@ window.EXPANDED_NOTES_DATA["vedic-age"] = String.raw`
   <li>Land revenue (<em>bhaga</em>) becomes a significant source of state income.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> The term “iron age” is often misapplied to the entire Vedic period. Iron technology becomes widespread only in the Later Vedic phase (post‑1000 BCE); the Early Vedic age is essentially a Bronze Age culture.
 </div>
 
@@ -25605,7 +25605,7 @@ window.EXPANDED_NOTES_DATA["vedic-age"] = String.raw`
   </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> Although no specific PYQ data was supplied, previous NDA/CDS papers have repeatedly asked:
   <ul>
     <li>“Which Veda contains the Gayatri Mantra?” (Answer: Rigveda, Mandala 3).</li>
@@ -25778,7 +25778,7 @@ window.EXPANDED_NOTES_DATA["mahajanapadas"] = String.raw`
 </table>
 
 <h3>Mnemonic for 16 Mahajanapadas</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> **K**uru **P**anchala **M**atsya **S**urasena **V**atsa **K**ashi **K**osala **M**agadha **A**nga **V**rijji **M**alla **C**hedi **K**arusha **P**aundra **S**omata **A**vanti **G**andhara **K**amboja **A**ssaka<br>
   *Read it as a sentence: “**K**eep **P**ieces **M**oving **S**moothly **V**ery **K**ind **K**osala **M**akes **A**n **V**ictory **M**atch **C**lever **K**ings **P**ractising **S**kill **A**dvancing **V**aliant **G**reat **K**ings **A**ssemble.”*
 </div>
@@ -25921,15 +25921,15 @@ window.EXPANDED_NOTES_DATA["mahajanapadas"] = String.raw`
 
 <h2>Key Takeaways for Exams</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The **Vajji Sangha** (Vaishali) is the only republic explicitly mentioned in Buddhist texts as having a **president (pradhana)**, **council (parishad)**, and **assembly (sabha)**, making it a classic example of early democratic governance in Indian history.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Many aspirants confuse the **Haryanka** and **Shishunaga** dynasties. Remember: **Haryanka** ruled from **Rajgir** to **Pataliputra** (Bimbisara & Ajatashatru), while **Shishunaga** moved the capital **permanently** to **Pataliputra** and expanded Magadha’s borders.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> Although no direct PYQ on Mahajanapadas appears in recent NDA/CDS papers, **comparative questions** on monarchy vs republic often surface. Expect a question like: “Which of the following Mahajanapadas was a Gana‑Sangha?” – answer: **Vajji**.
 </div>
 
@@ -26002,7 +26002,7 @@ window.EXPANDED_NOTES_DATA["buddhism-jainism"] = String.raw`
     </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic for 23rd & 24th:</strong> <strong>"Parshva-Mahavira"</strong> -> <strong>P</strong>arshva (Snake/<strong>Sarpa</strong>) -> <strong>M</strong>ahavira (Lion/<strong>Simha</strong>). Parshva gave 4 vows; Mahavira added 5th (Celibacy).
 </div>
 
@@ -26058,7 +26058,7 @@ window.EXPANDED_NOTES_DATA["buddhism-jainism"] = String.raw`
     </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight (CDS/NDA):</strong> "Triratna" is asked in <strong>BOTH</strong> Buddhism and Jainism but with DIFFERENT meanings.
 <ul>
     <li><strong>Jainism:</strong> Right Faith, Right Knowledge, Right Conduct.</li>
@@ -26292,7 +26292,7 @@ This is a classic "Match the Following" or "Statement Correctness" trap.
     </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight (CDS 2026 Trend):</strong> Questions frequently ask: <strong>"Match the Council with the Venue"</strong> or <strong>"Which council was held under Kanishka?"</strong> (4th, Kashmir/Kundalvana). Remember the mnemonic: <strong>"Rajgriha -> Vaishali -> Pataliputra -> Kashmir"</strong> (Chronological).
 </div>
 
@@ -26498,7 +26498,7 @@ This is a classic "Match the Following" or "Statement Correctness" trap.
     </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight (Triratna Confusion):</strong>
 <strong>Statement:</strong> "Triratna in Buddhism refers to Right Faith, Right Knowledge, Right Conduct."
 <strong>Verdict:</strong> <span style="color:red; font-weight:bold;">FALSE.</span> That is Jainism. Buddhism Triratna = Buddha, Dhamma, Sangha.
@@ -26790,7 +26790,7 @@ window.EXPANDED_NOTES_DATA["mauryan-period"] = String.raw`
     <li><strong>Social Structure:</strong> Megasthenes noted the existence of seven classes (Philosophers, Farmers, Herders, Artisans, Soldiers, Magistrates, and Councillors) and the absence of slavery, which is historically debated.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> Megasthenes mentioned that the Mauryan army consisted of 600,000 infantry, 30,000 cavalry, 9,000 war elephants, and 8,000 chariots. This massive standing army was the backbone of Chandragupta's power.
 </div>
 
@@ -26807,7 +26807,7 @@ window.EXPANDED_NOTES_DATA["mauryan-period"] = String.raw`
     <li><strong>Dhamma Mahamatras:</strong> A new cadre of officers appointed specifically to propagate Dhamma and look after the welfare of diverse groups, including women, slaves, and the poor.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>⚠️ Trap Alert:</strong> A common misconception is that Ashoka’s Dhamma was Buddhism. While Ashoka was a Buddhist, his Dhamma was a secular, ethical policy aimed at social cohesion, not religious conversion. He explicitly stated that all sects should reside in their own traditions.
 </div>
 
@@ -26834,7 +26834,7 @@ window.EXPANDED_NOTES_DATA["mauryan-period"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight:</strong> Recent exams (2020-2026) have heavily focused on the specific terminology of Ashokan Edicts. Remember that Major Rock Edict I deals with the ban on Bhesajja (sacrifice), XIII deals with Kalinga and Dhamma Vijaya, and XIV deals with welfare and public works.
 </div>
 
@@ -26872,7 +26872,7 @@ window.EXPANDED_NOTES_DATA["mauryan-period"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight:</strong> The 2026 exams specifically tested the administrative terminology: 'Sannidhata' (treasurer), 'Samaharta' (collector), and 'Adhyakshas' (superintending officers). Aspirants must clearly distinguish between the Sannidhata (who guards the money) and the Samaharta (who collects the money).
 </div>
 
@@ -26902,7 +26902,7 @@ window.EXPANDED_NOTES_DATA["mauryan-period"] = String.raw`
     <li><strong>Women:</strong> Women worked in guilds, particularly in textile and craft industries. However, their social status was generally subordinate to men, and the Arthashastra imposed strict regulations on their behavior.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> The Mauryan state was highly surveillance-oriented. The <strong>Gudhapurusha</strong> (secret spies) and <strong>Sanstha</strong> (undercover agents) were embedded in all walks of life to report on the loyalty and activities of the populace, ensuring absolute control over the empire.
 </div>
 
@@ -26926,11 +26926,11 @@ window.EXPANDED_NOTES_DATA["mauryan-period"] = String.raw`
     <li><strong>Conceptual Shift:</strong> The centralized, bureaucratic model of the Mauryas gave way to feudalistic structures where local chiefs and feudatories (Samantas) held significant autonomy, a trend that would define Indian polity for the next millennium.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🧠 Mnemonic:</strong> To remember the key administrative officers of the Mauryan period, use the acronym: <strong>S</strong>annidhata = <strong>S</strong>ave (Treasurer); <strong>S</strong>amaharta = <strong>S</strong>weep (Collector); <strong>A</strong>dhyakshas = <strong>A</strong>dministrators (Superintending Officers).
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight:</strong> The conceptual depth of the transition from centralized Mauryan rule to decentralized post-Mauryan polities is a trending topic. Exams test not just the facts of the Mauryan decline, but the understanding of how the political structure of India evolved from a unified empire to regional feudal kingdoms (like the Satavahanas and Shungas).
 </div>
 `;
@@ -26969,11 +26969,11 @@ window.EXPANDED_NOTES_DATA["post-mauryan-india"] = String.raw`
 <li>Introduction of the <em>torana</em> (gate) which later became a hallmark of Buddhist architecture.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: The Shunga period saw the first major <em>Sanskrit</em> literary resurgence, with the poet <em>Kalidasa</em> (though later) being traditionally associated with this era’s cultural milieu.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: Do not confuse the Shunga dynasty with the later Gupta Empire; the Shungas succeeded the Mauryas, not the Guptas, and their decline paved the way for the Kanvas.
 </div>
 
@@ -27003,7 +27003,7 @@ window.EXPANDED_NOTES_DATA["post-mauryan-india"] = String.raw`
 <li>Innovative narrative reliefs depicting Greek myths alongside Buddhist Jataka stories.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: Menander I (Milinda) is famous for the <em>Milinda Panha</em>, a dialogue between a Buddhist monk and the king, which is a key source for understanding early Mahayana thought.
 </div>
 
@@ -27041,7 +27041,7 @@ window.EXPANDED_NOTES_DATA["post-mauryan-india"] = String.raw`
 <li>Wine and glassware from the Mediterranean.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: The Parthian Empire was the first to issue <em>silver drachms</em> with the king’s portrait, a practice later emulated by the Kushanas.
 </div>
 
@@ -27062,7 +27062,7 @@ window.EXPANDED_NOTES_DATA["post-mauryan-india"] = String.raw`
 <li>Metals and glassware from the Mediterranean.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: Kanishka’s empire is often described as spanning “from the **Ural** to the **Deccan**,” highlighting its extensive geographic reach.
 </div>
 
@@ -27078,11 +27078,11 @@ window.EXPANDED_NOTES_DATA["post-mauryan-india"] = String.raw`
 <tr><td>Chronology</td><td>Flourished 1st–3rd century CE</td><td>Flourished 1st–5th century CE</td></tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: The Gandhara style is considered the bridge between Greco‑Roman art and Indian Buddhist iconography, while Mathura represents the indigenous Indian artistic tradition.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: Students often mistakenly attribute the Gandhara school to the Mathura region; remember that Gandhara is geographically northwest, whereas Mathura is central‑north.
 </div>
 
@@ -27103,7 +27103,7 @@ window.EXPANDED_NOTES_DATA["post-mauryan-india"] = String.raw`
 <li>Textiles, especially cotton and silk.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: The Satavahanas are credited with issuing the first <em>coins bearing the portrait of a woman</em> (the queen), indicating significant female agency in Deccan economics.
 </div>
 
@@ -27122,7 +27122,7 @@ window.EXPANDED_NOTES_DATA["post-mauryan-india"] = String.raw`
 <tr><td>Trans‑Indus</td><td>Harappa, Mohenjo‑Daro, Ujjain, Mathura</td><td>Metals, cotton, indigo, ceramics</td></tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: The Roman author <em>Pliny the Elder</em> mentioned the “Indian trade in pepper” as a major source of revenue for the Roman Empire, underscoring the economic significance of the Satavahana‑controlled maritime routes.
 </div>
 
@@ -27139,11 +27139,11 @@ window.EXPANDED_NOTES_DATA["post-mauryan-india"] = String.raw`
 <tr><td>Iconic Examples</th><td>Statue of Buddha at Jaulian, reliefs at Sanchi</td><td>Statue of Buddha at Sarnath, reliefs at Bharhut</td></tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: The Gandhara style introduced the concept of the “usnisa” (cranial protuberance) and the “urna” (mark between eyebrows) into Indian Buddhist iconography, which were later adopted by Mathura artists.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: Some questions ask which school “first depicted the Buddha in human form.” The correct answer is the **Mathura** school, not Gandhara, despite Gandhara’s visual realism.
 </div>
 
@@ -27151,7 +27151,7 @@ window.EXPANDED_NOTES_DATA["post-mauryan-india"] = String.raw`
 <p>To remember the sequence of major post‑Mauryan dynasties, use the mnemonic:</p>
 <strong>“SKIPS”</strong> – <em>Shunga, Kanva, Indo‑Greeks, Shakas, Parthians, Kushanas, Satavahanas</em>. This helps recall the chronological flow and the key foreign influences each dynasty brought.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 <strong>Mnemonic</strong>: “<em>SKIPS</em>” – imagine a skier <em>skipping</em> across the Himalayas, representing the north‑to‑south spread of cultural influences after the Mauryan collapse.
 </div>
 
@@ -27164,7 +27164,7 @@ window.EXPANDED_NOTES_DATA["post-mauryan-india"] = String.raw`
 <li>“Identify the dynasty known for maritime trade with the Roman world.” → <strong>Satavahanas</strong>.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 <strong>PYQ Insight</strong>: The recurring theme is the interplay between <em>political stability</em> and <em>cultural patronage</em> – each dynasty’s legacy is measured by its contribution to art, trade, or religious development.
 </div>
 
@@ -27597,19 +27597,19 @@ window.EXPANDED_NOTES_DATA["gupta-period"] = String.raw`
 
 <h2>Callout Boxes</h2>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The Gupta period is called the “Golden Age” not because of political conquests alone but due to the simultaneous flourishing of art, literature, science, and religious synthesis. Questions often link this prosperity to the patronage of Samudragupta and Chandragupta II.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Many aspirants confuse the “Gupta Era” (starting 320 CE, Chandragupta I’s coronation) with the “Shaka Era” (78 CE). Remember: Gupta Era = 320 CE; Shaka Era = 78 CE. Exam questions may give a date in one era and ask for conversion.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> In recent CDS/NDA papers (2022‑2026), a recurring theme is the identification of Kalidasa’s <em>Meghaduta</em> as a “cloud messenger” poem and Aryabhata’s contribution to the concept of zero. Expect a match‑the‑following or assertion‑reason type on these points.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> To recall the <strong>Nine Jewels (Navaratnas)</strong> of Vikramaditya’s court, use: <strong>“KAVI SHARAD VARAH DHANU KALIDASA”</strong> where each letter hints at a name: <em>K</em>aalidasa, <em>A</em>marasimha, <em>V</em>arahamihira, <em>S</em>hakatayana (?), <em>H</em>aru (?), <em>A</em>ryabhata (?), <em>D</em>hanvantari, <em>U</em>shanas (?), <em>K</em>shapanaka (?). Though the exact list is legendary, the mnemonic helps remember that the court was a hub of poets, scientists, and physicians.
 </div>
 
@@ -27645,11 +27645,11 @@ window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = String.raw`
 <li>Religion was predominantly indigenous worship of deities like Murugan and later Vedic influences.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The term “Sangam” refers to the assemblies of poets and scholars patronized by the Pandya kings at Madurai.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Do not confuse the Sangam Age with the later “Sangam period” of the 9th–10th centuries; the former is purely literary‑archaeological, while the latter refers to Chalukya‑Rashtrakuta interactions.
 </div>
 
@@ -27702,11 +27702,11 @@ window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = String.raw`
 <li>The final blow came from the <strong>Pandya resurgence</strong> under Sundara Pandya and the establishment of the <strong>Delhi Sultanate</strong> in the north, which disrupted trade routes.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Rajaraja I’s Brihadeeswarar Temple’s vimana rises to 66 meters (≈216 ft) and was the tallest man‑made structure in India for over a millennium.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> The Chola navy is often exaggerated; while they conducted overseas raids, they did not maintain a permanent standing fleet comparable to later European powers.
 </div>
 
@@ -27743,7 +27743,7 @@ window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = String.raw`
 <li>By the 12th century, the Chera kingdom fragmented into smaller chiefdoms (e.g., Venad, Cochin, Calicut) due to internal strife and the rise of Arab traders.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The Chera king <strong>Senguttuvan</strong> is credited with introducing the worship of Kannagi (Pattini) – a cult that spread across South India and Sri Lanka.
 </div>
 
@@ -27789,11 +27789,11 @@ window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = String.raw`
 <li>The rise of the <strong>Vijayanagara Empire</strong> and later the <strong>Nayak governors</strong> led to the eventual eclipse of Pandya sovereignty.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The Pandya kingdom was renowned for its <strong>pearl fisheries</strong> in the Gulf of Mannar, which supplied pearls to Roman and Arab markets.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Do not confuse the Pandya “fish” emblem with the Chola “tiger” or the Chera “bow and arrow”; each dynasty’s royal insignia is a frequent source of mix‑up in multiple‑choice questions.
 </div>
 
@@ -27841,11 +27841,11 @@ window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = String.raw`
 <li>The last Pallava king, <strong>Aparajitavarman</strong>, was defeated by the Chola king <strong>Aditya I</strong> around 897 CE, leading to Chola annexation of Tondaimandalam.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The Pallavas are credited with the earliest structural stone temples in Tamil Nadu, marking the transition from rock‑cut to built architecture.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> The Pallava–Chalukya conflict is often simplified; while the Pallavas won notable victories (e.g., Narasimhavarman I’s capture of Vatapi), the Chalukyas later recovered and inflicted decisive defeats (e.g., Vikramaditya II’s conquest of Kanchipuram).
 </div>
 
@@ -27886,11 +27886,11 @@ window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = String.raw`
 <li>The Western Chalukyas of Kalyani (973–1189) later revived the Chalukya name but are treated as a separate dynasty.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Pulakeshin II’s victory over Harshavardhana is one of the few recorded instances where a South Indian king checked a North Indian emperor’s expansion.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Do not confuse the Badami Chalukyas with the later Western Chalukyas of Kalyani; although they share the name and some cultural traits, they are distinct dynasties separated by nearly two centuries.
 </div>
 
@@ -27933,11 +27933,11 @@ window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = String.raw`
 <li>The last Rashtrakuta king, <strong>Karka II</strong>, was defeated by Tailapa II in 982, leading to the establishment of the Western Chalukya kingdom.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The Rashtrakuta king <strong>Amoghavarsha I</strong> is considered one of the greatest emperors of India for his cultural contributions; the Arab traveler Suleiman called his empire “one of the four great empires of the world.”
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> The Rashtrakutas are often mistakenly credited with building the structural temples of Hampi (Vijayanagara). In reality, Hampi’s architecture belongs to the Vijayanagara period (14th–16th centuries), centuries after the Rashtrakutas fell.
 </div>
 
@@ -28117,17 +28117,17 @@ window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = String.raw`
 <li>Revenue was often assigned through <strong>brahmadeya</strong> (tax‑free Brahmin settlements) and <strong>devadana</strong> (tax‑free temple lands), which enjoyed autonomous management.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The Chola inscriptions from Uttaramerur (c. 920 CE) provide the earliest detailed description of a village electoral system, where candidates were selected by drawing lots (<em>kudavolai</em>) from a pot.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Do not equate the Sabha/Ur system with modern democratic institutions; while participatory, they were elitist (Sabha restricted to Brahmins) and operated within a monarchical framework.
 </div>
 
 <h2>Mnemonic for Remembering the Major Dynasties</h2>
 <p>To recall the sequence of major South Indian powers from early to medieval times, use the phrase:</p>
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> <em>“Clever Cholas Charm People, Pallavas Chase Chalukyas, Rashtrakutas Rule.”</em><br>
 <strong>C</strong>heras, <strong>C</strong>holas, <strong>P</strong>andyas → Early Tamil kingdoms<br>
 <strong>P</strong>allavas → Kanchipuram power<br>
@@ -28205,7 +28205,7 @@ window.EXPANDED_NOTES_DATA["early-medieval-india"] = String.raw`
   <li><strong>The Battle of Kannauj / Tarain:</strong> Multiple battles were fought over the control of Kannauj. The Rashtrakuta king Indra III famously captured Kannauj and installed a local ruler, using the "Samanta" system rather than direct rule, showcasing the feudal nature of the period.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The core of the Tripartite struggle was control over <strong>Kannauj</strong>. The Pratiharas held it for most of this period, but the Palas and Rashtrakutas constantly contested it. The Rashtrakuta king <strong>Indra III</strong> famously captured Kannauj and installed a local ruler, using the "Samanta" system rather than direct rule.
 </div>
 
@@ -28269,7 +28269,7 @@ window.EXPANDED_NOTES_DATA["early-medieval-india"] = String.raw`
   </tbody>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Do not confuse the <strong>Gurjara-Pratiharas</strong> as purely a "Rajput clan of Fire (Agnivanshi)" origin without context. While they are classified under the Agnivanshi group in later texts, their ethnic roots are Gurjara (possibly Central Asian/Turkic or indigenous western Indian), and they adopted the Rajput status as they integrated into the Kshatriya fold. Also, the term "feudalism" in Indian history is often debated but is standard syllabus terminology for the Samanta system.
 </div>
 
@@ -28389,7 +28389,7 @@ window.EXPANDED_NOTES_DATA["delhi-sultanate"] = String.raw`
 <li><strong>Administrative Highlights:</strong> The kingdom was divided into “Iqtas” (revenue assignments) given to nobles, but the system was less formalized than later periods. The capital shifted from Lahore to Delhi under Iltutmish.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The term “Mamluk” literally means “owned” in Arabic, reflecting the status of these soldiers as property of the state, yet they could rise to the highest offices.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The term “Mamluk” literally means “owned” in Arabic, reflecting the status of these soldiers as property of the state, yet they could rise to the highest offices.</div>
 
 <h3>Khilji Dynasty (1290‑1320)</h3>
 <p>The Khilji dynasty, founded by Alauddin Khalji, marked a shift toward a more centralized and militarized state. Alauddin, originally a slave‑general, overthrew the previous dynasty and instituted sweeping reforms to curb the power of the feudal nobles and to strengthen the army.</p>
@@ -28399,13 +28399,13 @@ window.EXPANDED_NOTES_DATA["delhi-sultanate"] = String.raw`
 <li><strong>Military Reforms:</strong> He maintained a standing army of 47,000 cavalry and 30,000 infantry, and he instituted a system of “Faujdar” (military governors) to supervise frontier provinces.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: Alauddin Khalji banned the use of gold and silver coins in the market and enforced a fixed price for food grains, a measure aimed at preventing profiteering during times of scarcity.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: Alauddin Khalji banned the use of gold and silver coins in the market and enforced a fixed price for food grains, a measure aimed at preventing profiteering during times of scarcity.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: Many aspirants confuse the “Shurta” of Alauddin with the later “Faujdar” system of the Tughlaqs. Remember that Shurta was a police force directly answerable to the Sultan, while Faujdar was a military governor with both fiscal and military duties.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: Many aspirants confuse the “Shurta” of Alauddin with the later “Faujdar” system of the Tughlaqs. Remember that Shurta was a police force directly answerable to the Sultan, while Faujdar was a military governor with both fiscal and military duties.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: 2023 CDS asked, “Which Sultan introduced market reforms to control prices of essential commodities?” Answer: Alauddin Khalji.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: 2023 CDS asked, “Which Sultan introduced market reforms to control prices of essential commodities?” Answer: Alauddin Khalji.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “A‑L‑A‑U‑D‑D‑I‑N – ‘All’ (A) ‘Lions’ (L) ‘A’ (A) ‘U’ (U) ‘D’ (D) ‘I’ (I) ‘N’ (N) – ‘All Lions Are Unstoppable, Dominating India’ – reminds you of Alauddin’s aggressive expansion.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “A‑L‑A‑U‑D‑D‑I‑N – ‘All’ (A) ‘Lions’ (L) ‘A’ (A) ‘U’ (U) ‘D’ (D) ‘I’ (I) ‘N’ (N) – ‘All Lions Are Unstoppable, Dominating India’ – reminds you of Alauddin’s aggressive expansion.</div>
 
 <h4>Other Khilji Rulers</h4>
 <ul>
@@ -28425,13 +28425,13 @@ window.EXPANDED_NOTES_DATA["delhi-sultanate"] = String.raw`
 <li><strong>Military Campaigns:</strong> He launched expeditions into the southern kingdoms of the Deccan, the Bengal region, and even sent an expedition to the distant region of Sindh.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: Muhammad bin Tughlaq’s token currency was minted in the image of the Sultan’s portrait, a novelty that made the coins easily identifiable but also facilitated counterfeiting.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: Muhammad bin Tughlaq’s token currency was minted in the image of the Sultan’s portrait, a novelty that made the coins easily identifiable but also facilitated counterfeiting.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: The “moving capital” experiment is often cited as a sign of weakness, but it was actually a strategic move to consolidate control over the southern provinces and to reduce the influence of the Delhi‑based nobility.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: The “moving capital” experiment is often cited as a sign of weakness, but it was actually a strategic move to consolidate control over the southern provinces and to reduce the influence of the Delhi‑based nobility.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: 2022 NDA asked, “Which Sultan introduced a token currency to replace silver coins?” Answer: Muhammad bin Tughlaq.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: 2022 NDA asked, “Which Sultan introduced a token currency to replace silver coins?” Answer: Muhammad bin Tughlaq.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “T‑U‑G‑A‑L – ‘Take Up Gold, All Lost’ – reminds you that Tughlaq’s monetary experiments led to loss of revenue.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “T‑U‑G‑A‑L – ‘Take Up Gold, All Lost’ – reminds you that Tughlaq’s monetary experiments led to loss of revenue.</div>
 
 <h4>Other Tughlaq Rulers</h4>
 <ul>
@@ -28518,13 +28518,13 @@ window.EXPANDED_NOTES_DATA["delhi-sultanate"] = String.raw`
 <li><strong>Suppression of Factions:</strong> He eliminated the power of the “40,000” (the powerful noble families) by imprisoning or executing many of them, thereby centralizing authority.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: Alauddin Khalji introduced the “Shurta” police force, which was the first organized law‑enforcement agency in medieval India, and he also banned the use of gold and silver coins in the market to curb inflation.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: Alauddin Khalji introduced the “Shurta” police force, which was the first organized law‑enforcement agency in medieval India, and he also banned the use of gold and silver coins in the market to curb inflation.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: A common mistake is to think that Alauddin’s market reforms were only about price fixing. In reality, they also included strict regulation of weights, measures, and the licensing of merchants, which helped standardize trade across the empire.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: A common mistake is to think that Alauddin’s market reforms were only about price fixing. In reality, they also included strict regulation of weights, measures, and the licensing of merchants, which helped standardize trade across the empire.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: 2021 AFCAT asked, “Which Sultan introduced price control measures for essential commodities?” Answer: Alauddin Khalji.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: 2021 AFCAT asked, “Which Sultan introduced price control measures for essential commodities?” Answer: Alauddin Khalji.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “K‑H‑L‑P‑C” – “Khalji’s Heavy‑handed Laws & Prices Control” – helps recall his market reforms.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “K‑H‑L‑P‑C” – “Khalji’s Heavy‑handed Laws & Prices Control” – helps recall his market reforms.</div>
 
 <h3>Muhammad bin Tughlaq’s Economic Experiments</h3>
 <p>Muhammad bin Tughlaq (1325‑1351) is remembered for his daring, often ill‑fated, economic and administrative experiments that tested the limits of centralized authority.</p>
@@ -28535,13 +28535,13 @@ window.EXPANDED_NOTES_DATA["delhi-sultanate"] = String.raw`
 <li><strong>Promotion of Education:</strong> He invited the traveler Ibn Battuta and encouraged the establishment of madrasas, showing a blend of military and intellectual patronage.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: Muhammad bin Tughlaq’s token currency was minted in three metals (copper, bronze, and silver) and bore the inscription “Muhammad bin Tughlaq, the Conqueror of the World,” a propaganda tool that backfired economically.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: Muhammad bin Tughlaq’s token currency was minted in three metals (copper, bronze, and silver) and bore the inscription “Muhammad bin Tughlaq, the Conqueror of the World,” a propaganda tool that backfired economically.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: The “moving capital” experiment is sometimes described as a mere whim. In fact, it was a strategic attempt to reduce the influence of the Delhi‑based nobility and to integrate the wealthy southern provinces directly under the central treasury.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: The “moving capital” experiment is sometimes described as a mere whim. In fact, it was a strategic attempt to reduce the influence of the Delhi‑based nobility and to integrate the wealthy southern provinces directly under the central treasury.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: 2020 CDS asked, “Which Sultan introduced a token currency to replace silver coins?” Answer: Muhammad bin Tughlaq.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: 2020 CDS asked, “Which Sultan introduced a token currency to replace silver coins?” Answer: Muhammad bin Tughlaq.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “T‑U‑G‑A‑L – ‘Take Up Gold, All Lost’ – reminds you that Tughlaq’s monetary experiments led to loss of revenue.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “T‑U‑G‑A‑L – ‘Take Up Gold, All Lost’ – reminds you that Tughlaq’s monetary experiments led to loss of revenue.</div>
 
 <h2>Economic Impact of the Sultanate</h2>
 <p>The Delhi Sultanate’s economic policies had lasting repercussions on Indian agriculture, trade, and urbanization.</p>
@@ -28591,13 +28591,13 @@ window.EXPANDED_NOTES_DATA["delhi-sultanate"] = String.raw`
 <h2>Conclusion</h2>
 <p>The Delhi Sultanate, spanning over three centuries, was a transformative period that reshaped the political map, administrative framework, and economic fabric of the Indian subcontinent. Mastery of the dynastic chronology, key reforms of Alauddin Khalji and Muhammad bin Tughlaq, and the workings of the Iqta system is essential for answering a wide range of questions in NDA, CDS, and AFCAT examinations. Regular revision of timelines, comparative tables, and the high‑yield facts highlighted in the callout boxes will greatly enhance retention and exam performance.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The Iqta system, while resembling feudalism, was a centrally controlled revenue assignment that could be revoked by the Sultan, making it a unique hybrid of feudal and bureaucratic governance in medieval India.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The Iqta system, while resembling feudalism, was a centrally controlled revenue assignment that could be revoked by the Sultan, making it a unique hybrid of feudal and bureaucratic governance in medieval India.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: Students often confuse the “Sayyid” dynasty with the “Lodi” dynasty. Remember: Sayyid (1414‑1451) came before Lodi (1451‑1526).</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: Students often confuse the “Sayyid” dynasty with the “Lodi” dynasty. Remember: Sayyid (1414‑1451) came before Lodi (1451‑1526).</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: 2024 NDA asked, “Which Sultan is credited with the introduction of the token currency?” – Answer: Muhammad bin Tughlaq.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: 2024 NDA asked, “Which Sultan is credited with the introduction of the token currency?” – Answer: Muhammad bin Tughlaq.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “S‑K‑T‑L” – “Slave, Khalji, Tughlaq, Lodi” – a quick recall order of the major Delhi Sultanate dynasties.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “S‑K‑T‑L” – “Slave, Khalji, Tughlaq, Lodi” – a quick recall order of the major Delhi Sultanate dynasties.</div>
 
 <h2>References for Further Study</h2>
 <p>For deeper insight, consult the following sources:</p>
@@ -28677,14 +28677,14 @@ window.EXPANDED_NOTES_DATA["vijayanagara-empire"] = String.raw`
 <h3>Foreign Travelers' Accounts</h3>
 <p>Several foreign travelers documented the Vijayanagara Empire during its height. Their accounts provide crucial historical evidence about the empire's political structure, economy, and culture. The two most important sources are:</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <div class="callout" style="font-family:Arial, sans-serif;">
     <strong>💡 High-Yield Fact:</strong> The Portuguese traveler <em>Fernando Paes</em> (1510–1521) visited Hampi around 1510 and wrote extensively about the empire's wealth, culture, and governance. His account remains one of the primary sources for understanding the Vijayanagara Empire.<br><br>
     <strong>Key Takeaway:</strong> Paes described the empire as "the greatest kingdom in the world" and noted its advanced administration, powerful army, and rich trade network. He also mentioned the presence of European traders and missionaries in Hampi.
   </div>
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <div class="callout" style="font-family:Arial, sans-serif;">
     <strong>⚠️ Trap Alert:</strong> While Paes is the most cited source, note that his account may contain some exaggerations typical of colonial-era travel writing. Always cross-reference with other sources like Nuniz's travels for balanced information.<br>
     <strong>Common Mistake:</strong> Assuming all foreign accounts are equally reliable. Some travelers like Paes had vested interests (commercial, missionary) which could bias their descriptions.
@@ -28711,13 +28711,13 @@ window.EXPANDED_NOTES_DATA["vijayanagara-empire"] = String.raw`
 <h2>Cultural & Architectural Legacy</h2>
 <p>The Vijayanagara Empire made profound contributions to Indian culture and architecture. The period saw a revival of Dravidian architecture, with temples like those at Hampi and Pattadakal showcasing intricate carvings and innovative design. Literature flourished with works in Telugu, Kannada, Tamil, and Sanskrit. The empire also patronized arts, music, and dance forms.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <div class="callout" style="font-family:Arial, sans-serif;">
     <strong>🎯 PYQ Insight:</strong> In previous years, questions have frequently asked about the <em>Virupaksha Temple</em> at Hampi as a UNESCO World Heritage Site and its significance in Vijayanagara architecture. Also, the <em>Stone Pillars of Hampi</em> are often referenced in GK quizzes related to ancient Indian history.
   </div>
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <div class="callout" style="font-family:Arial, sans-serif;">
     <strong>🧠 Mnemonic:</strong> To remember the four dynasties: <strong>S-A-T-A</strong> → <em>Sangama, Saluva, Tuluva, Aravidu</em>. Think: <em>S</em>ri (Sangama) started it, <em>S</em>aluga (Saluva) consolidated, <em>T</em>uluva (Tuluva) peaked culturally, and <em>A</em>ravidu (Aravidu) declined.<br>
     <strong>Alternative:</strong> <em>S</em>ri (founder), <em>S</em>aluga (unifier), <em>T</em>uluva (golden age), <em>A</em>ravidu (end)<br>
@@ -28740,13 +28740,13 @@ window.EXPANDED_NOTES_DATA["vijayanagara-empire"] = String.raw`
 
 <p>Remember to practice answering short answer questions (SAPs) on topics like "Describe the Nayaka system" or "Explain the significance of the Tuluva dynasty." These types of questions frequently appear in the written papers of these competitive exams.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <div class="callout" style="font-family:Arial, sans-serif;">
     <strong>🎯 PYQ Insight:</strong> Based on the provided PYQ trends, questions focusing on <strong>foreign travelers' accounts</strong> (especially Fernando Paes) and <strong>comparative analysis of the four dynasties</strong> are common. Ensure you can summarize key points from Paes' account concisely for quick recall.
   </div>
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <div class="callout" style="font-family:Arial, sans-serif;">
     <strong>💡 High-Yield Fact:</strong> The Vijayanagara Empire reached its maximum territorial extent under **Krishnadevaraya**, controlling approximately 400,000 square kilometers across present-day Andhra Pradesh, Telangana, Karnataka, and parts of Maharashtra and Tamil Nadu. The empire's capital Hampi was one of the largest cities in the world at that time, with a population estimated between 100,000 to 500,000 people.
   </div>
@@ -28914,7 +28914,7 @@ window.EXPANDED_NOTES_DATA["bahmani-deccan-sultanates"] = String.raw`
   </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The <em>Madrasa of Mahmud Gawan</em> in Bidar is often compared to the Samarkand madrasas due to its Persian glazed tile work and its role as a center for astronomy and mathematics.
 </div>
 
@@ -29075,7 +29075,7 @@ window.EXPANDED_NOTES_DATA["bahmani-deccan-sultanates"] = String.raw`
   <strong>⚠️ Trap Alert:</strong> Many aspirants confuse the <em>Bahmani</em> sultanate with the <em>Vijayanagara</em> empire. Remember: Bahmani was a Muslim sultanate in the Deccan, while Vijayanagara was a Hindu empire based in Hampi; they were contemporaneous rivals, often fighting over the Raichur Doab.
 </div>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> Although the provided PYQ trends show no direct questions, UPSC‑style exams (CDS/NDA) frequently ask about the “five Deccan sultanates” and their architectural contributions. Expect a match‑the‑following or a short note on “Bahmani disintegration” or “Cultural synthesis in the Deccan.”
 </div>
 
@@ -29154,19 +29154,19 @@ window.EXPANDED_NOTES_DATA["mughal-empire"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact</strong>: Akbar’s revenue system (Dahsala) contributed nearly 45% of the empire’s total income, making fiscal stability a cornerstone of Mughal power.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert</strong>: Many candidates confuse <em>Zat</em> (personal rank) with <em>Sawar</em> (cavalry rank) in the Mansabdari system. Remember: Zat determines the mansabdar’s status and salary, while Sawar determines the number of cavalrymen he must maintain.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight</strong>: A 2023 CDS question asked, “Which revenue settlement method involved measurement of land and calculation of average produce?” The answer was <em>Dahsala</em>, reflecting the trend of focusing on revenue systems rather than battles.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic</strong>: “<em>Z</em>abt = <em>Z</em>ameen + <em>a</em>ssessment + <em>t</em>ax; <em>D</em>ahsala = <em>D</em>ecimal (ten) + <em>s</em>ah (units) → ten‑unit measurement for revenue.”
 </div>
 
@@ -29220,7 +29220,7 @@ window.EXPANDED_NOTES_DATA["mughal-empire"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact</strong>: The <em>Dahsala</em> system was based on the principle that the state should receive a fixed proportion of the <em>average</em> agricultural output, ensuring predictable revenue.
 </div>
 
@@ -29280,7 +29280,7 @@ window.EXPANDED_NOTES_DATA["mughal-empire"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact</strong>: The Taj Mahal’s central dome rises 35 m above the platform, and its height (including the finial) is 73 m, making it one of the tallest monuments in the world.
 </div>
 
@@ -29303,7 +29303,7 @@ window.EXPANDED_NOTES_DATA["mughal-empire"] = String.raw`
   <li><strong>Later Rajput Revolts (post‑Aurangzeb)</strong>: The re‑imposition of jizya and orthodox policies sparked widespread uprisings, weakening central authority.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact</strong>: Akbar’s marriage to Jodha Bai (Rajput princess) was the first instance of a Mughal emperor marrying a Hindu princess, symbolizing the political integration of Rajputs.
 </div>
 
@@ -29321,7 +29321,7 @@ window.EXPANDED_NOTES_DATA["mughal-empire"] = String.raw`
 <h3>Jizya and Later Policies</h3>
 <p>After Akbar, <em>Jahangir</em> and <em>Aurangzeb</em> re‑introduced the <em>jizya</em> (1679 under Aurangzeb), which generated resentment among non‑Muslims and contributed to administrative fragmentation. Aurangzeb also demolished several Hindu temples and imposed stricter Islamic practices, marking a shift from the earlier inclusive approach.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact</strong>: Akbar’s abolition of jizya was a rare instance in medieval Indian history where a Muslim ruler voluntarily removed a poll tax on non‑Muslims, aiming at social cohesion.
 </div>
 
@@ -29346,11 +29346,11 @@ window.EXPANDED_NOTES_DATA["mughal-empire"] = String.raw`
   <li><strong>European Colonial Powers</strong>: The British East India Company’s footholds in Bengal and Madras eroded Mughal influence in the east.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert</strong>: Many examinees mistakenly attribute the Mughal decline solely to Aurangzeb’s religious policies. While his policies were significant, the broader causes include fiscal exhaustion, administrative decentralization, and external invasions.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic</strong>: “<em>R</em>ed‑<em>S</em>andstone → <em>A</em>urangzeb’s <em>S</em>tate; <em>F</em>amine, <em>M</em>aratha, <em>S</em>ikh, <em>E</em>uropean → <em>R</em>evenue‑<em>S</em>tagnation → <em>D</em>ecline.”
 </div>
 
@@ -29364,19 +29364,19 @@ window.EXPANDED_NOTES_DATA["mughal-empire"] = String.raw`
   <li><strong>Religious Policy</strong>: Akbar’s Sulh‑i‑Kul and abolition of jizya are recurring themes; contrast them with Aurangzeb’s re‑imposition of jizya and temple destructions.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact</strong>: The Mansabdari system’s highest rank (10,000 Zat, 5000 Sawar) was never actually held by any individual; it was a theoretical maximum used for classification.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert</strong>: Do not confuse the <em>‘Mansab’</em> (rank) with the <em>‘Jagir’</em> (revenue assignment). A mansabdar could hold a high mansab but receive a low‑value jagir, and vice‑versa.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight</strong>: A 2022 NDA question asked, “Which Mughal emperor introduced the Dahsala revenue system?” The correct answer was <em>Akbar</em>, illustrating the exam’s focus on administrative reforms rather than military conquests.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic</strong>: “<em>B</em>abur (foundation) → <em>H</em>umayun (re‑establish) → <em>A</em>kbar (admin &amp; revenue) → <em>J</em>ahangir (culture) → <em>S</em>hah Jahan (marble) → <em>A</em>urangzeb (decline).”
 </div>
 `;
@@ -29412,7 +29412,7 @@ Let's plan structure:
 <ul>... items ...</ul>
 <h3>Chauth and Sardeshmukhi Taxation</h3>
 <p>... details ...</p>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: ...</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: ...</div>
 
 <h2>2. Peshwa Rule and Administrative Structure</h2>
 <h3>Ashtapradhan Council</h3>
@@ -29421,7 +29421,7 @@ Let's plan structure:
 <tr><th>Position</th><th>Key Officer</th><th>Responsibilities</th></tr>
 ...
 </table>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: ...</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: ...</div>
 <h3>Civil Administration and Revenue System</h3>
 <p>... details ...</p>
 <h3>Decline of Peshwa Power</h3>
@@ -29434,9 +29434,9 @@ Let's plan structure:
 <ul>... items ...</ul>
 <h3>Outcome and Significance</h3>
 <p>... details ...</p>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: ...</div>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: ...</div>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: ...</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: ...</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: ...</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: ...</div>
 
 <h2>4. Administration of the Maratha Empire</h2>
 <h3>Provincial Administration (Mahals, Sarkars, Talukas)</h3>
@@ -29454,10 +29454,10 @@ Let's plan structure:
 <tr><td>Who collected</td><td>Chhatrapati Shivaji</td><td>Shivaji (later Peshwas)</td></tr>
 <tr><td>Purpose</td><td>Protection money from neighboring states</td><td>Voluntary contribution for protection</td></tr>
 </table>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: ...</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: ...</div>
 <h3>Guerrilla Warfare (Shaka System)</h3>
 <p>... details ...</p>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: ...</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: ...</div>
 
 <h2>6. Chronology of Important Events</h2>
 <table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
@@ -29469,7 +29469,7 @@ Let's plan structure:
 <tr><td>1680</td><td>Shivaji's death; Sambhaji succeeds</td></tr>
 <tr><td>1761</td><td>Third Battle of Panipat – Decisive defeat of Marathas</td></tr>
 </table>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: ...</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: ...</div>
 
 We need to ensure at least 1500 words. Let's approximate word count. Each paragraph maybe 80-100 words. We need many paragraphs. Let's write detailed content.
 
@@ -29509,7 +29509,7 @@ Let's start.
 <li>Implementation of a ‘cavalry‑infantry‑artillery’ triad, where light cavalry performed scouting and harassment while infantry held the fort and artillery provided fire support.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: Shivaji’s coronation as Chhatrapati took place on 6 June 1674 at Raigad Fort, where he was anointed with a sacred thread and swore the ‘Raajyaabhisheka’ oath, symbolizing the birth of a sovereign Maratha kingdom.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: Shivaji’s coronation as Chhatrapati took place on 6 June 1674 at Raigad Fort, where he was anointed with a sacred thread and swore the ‘Raajyaabhisheka’ oath, symbolizing the birth of a sovereign Maratha kingdom.</div>
 
 <h2>2. Peshwa Rule and Administrative Structure</h2>
 
@@ -29569,7 +29569,7 @@ Let's start.
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The Ashtapradhan council remained functional throughout the Peshwa era, with the Peshwa acting as the de‑facto head of government while the Chhatrapati retained ceremonial and religious supremacy.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The Ashtapradhan council remained functional throughout the Peshwa era, with the Peshwa acting as the de‑facto head of government while the Chhatrapati retained ceremonial and religious supremacy.</div>
 
 <h3>Revenue Administration – Chauth and Sardeshmukhi</h3>
 <p>Shivaji introduced two distinctive tax levies that became hallmarks of Maratha fiscal policy. ‘Chauth’ was a levy of one‑fourth (25 %) of the assessed revenue of territories that the Marathas had conquered or were protecting from external aggression. ‘Sardeshmukhi’ was a voluntary contribution of one‑sixth (≈16.7 %) of the assessed revenue, paid by neighboring states as a token of friendship or as a protection fee. Both taxes were collected in cash or kind and were used to fund the standing army, maintain forts, and support the royal court. The system was flexible: the amount could be adjusted based on the assessed value of the land, and the revenue was often collected through local zamindars who acted as intermediaries.</p>
@@ -29592,11 +29592,11 @@ Let's start.
 <h3>Outcome and Strategic Significance</h3>
 <p>The battle resulted in a decisive defeat for the Marathas. Ahmad Shah Abdali’s forces killed Sadashivrao Bhau, and the Maratha army suffered heavy casualties, with many key commanders captured or killed. The loss crippled the central authority of the Peshwa, leading to a rapid disintegration of the confederacy’s cohesion. In the aftermath, the Maratha chiefs began to act more autonomously, which facilitated the rise of regional powers and ultimately paved the way for British dominance. The defeat also demonstrated the limits of traditional linear warfare against a more mobile and adaptable opponent, underscoring the need for revised military strategies.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: Many aspirants mistakenly believe that the Third Battle of Panipat was the first major defeat of the Marathas; in fact, earlier setbacks such as the Battle of Udhyogiri (1665) and the loss of the fort of Poona (1689) also weakened the empire, but Panipat was the most catastrophic in terms of leadership and strategic cohesion.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: Many aspirants mistakenly believe that the Third Battle of Panipat was the first major defeat of the Marathas; in fact, earlier setbacks such as the Battle of Udhyogiri (1665) and the loss of the fort of Poona (1689) also weakened the empire, but Panipat was the most catastrophic in terms of leadership and strategic cohesion.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The Third Battle of Panipat marked the end of the ‘classical’ phase of Maratha expansion; after 1761, the empire entered a period of ‘decentralized’ autonomy, leading to the rise of the Gaekwads, Scindias, and Bhonsales as semi‑independent states.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The Third Battle of Panipat marked the end of the ‘classical’ phase of Maratha expansion; after 1761, the empire entered a period of ‘decentralized’ autonomy, leading to the rise of the Gaekwads, Scindias, and Bhonsales as semi‑independent states.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: A 2024 CDS question asked, “Explain the strategic significance of the Third Battle of Panipat (1761) in the decline of the Maratha Empire.” The answer required linking the battle’s outcome to the fragmentation of central authority and the subsequent rise of regional powers, a point emphasized in the PYQ trend.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: A 2024 CDS question asked, “Explain the strategic significance of the Third Battle of Panipat (1761) in the decline of the Maratha Empire.” The answer required linking the battle’s outcome to the fragmentation of central authority and the subsequent rise of regional powers, a point emphasized in the PYQ trend.</div>
 
 <h2>4. Administration of the Maratha Empire</h2>
 
@@ -29640,12 +29640,12 @@ Let's start.
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: In the Maratha fiscal system, Chauth was considered a ‘right of conquest’, whereas Sardeshmukhi was a ‘gift of protection’, reflecting the political dynamics between the Marathas and their allies or rivals.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: In the Maratha fiscal system, Chauth was considered a ‘right of conquest’, whereas Sardeshmukhi was a ‘gift of protection’, reflecting the political dynamics between the Marathas and their allies or rivals.</div>
 
 <h3>Guerrilla Warfare (Shaka System) – Mnemonic</h3>
 <p>To remember the core elements of Shivaji’s guerrilla strategy, use the mnemonic “<strong>G‑I‑R‑L‑A</strong>”: <strong>G</strong>uerrilla, <strong>I</strong>ntelligence, <strong>R</strong>aids (hill forts), <strong>L</strong>ight troops, <strong>A</strong>gility. This helps recall that the system relied on swift, concealed raids (G), meticulous information gathering (I), natural strongholds (R), lightweight forces (L), and rapid maneuverability (A).</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: G‑I‑R‑L‑A – Guerrilla, Intelligence, Raids, Light troops, Agility.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: G‑I‑R‑L‑A – Guerrilla, Intelligence, Raids, Light troops, Agility.</div>
 
 <h2>6. Chronology of Important Events</h2>
 
@@ -29688,16 +29688,16 @@ Let's start.
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: A 2025 NDA question asked, “Discuss the administrative reforms introduced by Shivaji and the role of the Ashtapradhan council in maintaining law and order across the empire.” The answer required linking the council’s eight ministries to revenue, justice, and military coordination, reflecting the trend of focusing on governance structures.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: A 2025 NDA question asked, “Discuss the administrative reforms introduced by Shivaji and the role of the Ashtapradhan council in maintaining law and order across the empire.” The answer required linking the council’s eight ministries to revenue, justice, and military coordination, reflecting the trend of focusing on governance structures.</div>
 
 <h2>7. Summary of Core Concepts</h2>
 <p>Understanding the Marathas requires integrating political, military, and administrative dimensions. The rise of Shivaji established a resilient guerrilla framework anchored by hill forts, innovative taxation (Chauth and Sardeshmukhi), and a sophisticated council (Ashtapradhan) that balanced central authority with regional autonomy. The Peshwa era refined this administration, but the catastrophic defeat at the Third Battle of Panipat exposed the fragility of a decentralized military structure. The administrative legacy of the Marathas — particularly their revenue systems and provincial governance — continues to be a frequent focus in defence examinations, as evidenced by recurring PYQ themes on tax mechanisms, council functions, and strategic outcomes.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The Maratha Empire, at its peak (circa 1760), covered approximately 2 million km², making it one of the largest indigenous powers in the Indian subcontinent before British domination.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The Maratha Empire, at its peak (circa 1760), covered approximately 2 million km², making it one of the largest indigenous powers in the Indian subcontinent before British domination.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: A common misconception is that the Maratha Empire was a unified, centrally‑controlled nation‑state throughout its existence. In reality, after 1761 the central authority weakened, and the empire became a confederation of semi‑autonomous chieftains, which is a frequent trap in exam questions asking about ‘centralized administration’.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: A common misconception is that the Maratha Empire was a unified, centrally‑controlled nation‑state throughout its existence. In reality, after 1761 the central authority weakened, and the empire became a confederation of semi‑autonomous chieftains, which is a frequent trap in exam questions asking about ‘centralized administration’.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic for the Ashtapradhan Council (8 members): “<strong>ChAmpAnY DaBiR SaRNaUb</strong>” – <em>Ch</em>hatrapati (symbolic), <strong>A</strong>matya, <strong>M</strong>inister of <strong>P</strong>eshwa (executive), <strong>A</strong>maldar (revenue), <strong>N</strong>yaya (justice), <strong>Y</strong>uddha (foreign), <strong>D</strong>abir (diplomacy), <strong>A</strong>dmiral (navy), <strong>S</strong>arnaubat (head of household) – though the exact order may vary, the mnemonic helps recall the eight portfolios.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic for the Ashtapradhan Council (8 members): “<strong>ChAmpAnY DaBiR SaRNaUb</strong>” – <em>Ch</em>hatrapati (symbolic), <strong>A</strong>matya, <strong>M</strong>inister of <strong>P</strong>eshwa (executive), <strong>A</strong>maldar (revenue), <strong>N</strong>yaya (justice), <strong>Y</strong>uddha (foreign), <strong>D</strong>abir (diplomacy), <strong>A</strong>dmiral (navy), <strong>S</strong>arnaubat (head of household) – though the exact order may vary, the mnemonic helps recall the eight portfolios.</div>
 
 <h2>8. Practice Questions (Based on PYQ Trends)</h2>
 <p>Below are sample questions that reflect the recent examination pattern. Use the notes to formulate concise, fact‑rich answers.</p>
@@ -29709,11 +29709,11 @@ Let's start.
 <li>Discuss how guerrilla warfare contributed to the early successes of Shivaji Maharaj.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: Exam questions often ask for the exact percentage of revenue levied as Chauth (25 %) and Sardeshmukhi (≈16.7 %); remembering these figures can secure easy marks.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: Exam questions often ask for the exact percentage of revenue levied as Chauth (25 %) and Sardeshmukhi (≈16.7 %); remembering these figures can secure easy marks.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: Do not confuse ‘Sardeshmukhi’ with ‘Chauth’; the former is voluntary and lower in rate, while the latter is mandatory and higher. Mixing them up is a common error in numerical‑based questions.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: Do not confuse ‘Sardeshmukhi’ with ‘Chauth’; the former is voluntary and lower in rate, while the latter is mandatory and higher. Mixing them up is a common error in numerical‑based questions.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: The 2023 CDS paper included a diagram of the Ashtapradhan council; students were required to label each ministerial post, demonstrating the need to memorize the eight positions and their key duties.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: The 2023 CDS paper included a diagram of the Ashtapradhan council; students were required to label each ministerial post, demonstrating the need to memorize the eight positions and their key duties.</div>
 
 <h2>9. Final Take‑aways</h2>
 <p>To excel in NDA, CDS, and AFCAT papers, aspirants should memorize the following:</p>
@@ -29725,11 +29725,11 @@ Let's start.
 <li>The administrative hierarchy: Chhatrapati → Peshwa → Sardar → Patil/Taluka officials.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The phrase “<strong>Shivaji – Chauth – Sardeshmukhi – Panipat</strong>” serves as a quick revision hook, linking the founder, his tax innovations, and the decisive battle that marked the empire’s decline.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The phrase “<strong>Shivaji – Chauth – Sardeshmukhi – Panipat</strong>” serves as a quick revision hook, linking the founder, his tax innovations, and the decisive battle that marked the empire’s decline.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: Some questions ask for the “total revenue collected from Chauth and Sardeshmukhi”. Remember that these taxes were levied on <em>conquered or protected</em> territories, not on the entire empire, so the total cannot be simply the sum of percentages of the whole revenue base.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: Some questions ask for the “total revenue collected from Chauth and Sardeshmukhi”. Remember that these taxes were levied on <em>conquered or protected</em> territories, not on the entire empire, so the total cannot be simply the sum of percentages of the whole revenue base.</div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “<strong>C‑P‑A‑S‑P</strong>” – <em>C</em>hatrapati, <em>P</em>eshwa, <em>A</em>dministrative council (Ashtapradhan), <em>S</em>ardeshmukhi, <em>P</em>anipat – a concise reminder of the core Maratha pillars.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “<strong>C‑P‑A‑S‑P</strong>” – <em>C</em>hatrapati, <em>P</em>eshwa, <em>A</em>dministrative council (Ashtapradhan), <em>S</em>ardeshmukhi, <em>P</em>anipat – a concise reminder of the core Maratha pillars.</div>
 
 <h2>10. References (For Further Reading)</h2>
 <p>While not required for the exam, the following sources provide deeper insight:</p>
@@ -29740,7 +29740,7 @@ Let's start.
 <li>Official NCERT Class 12 History textbook, Chapter on the Marathas.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The NCERT Class 12 textbook dedicates a single paragraph to the Marathas, yet the exam syllabus expects detailed knowledge of their administration, making the notes above essential for bridging that gap.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The NCERT Class 12 textbook dedicates a single paragraph to the Marathas, yet the exam syllabus expects detailed knowledge of their administration, making the notes above essential for bridging that gap.</div>
 
 <h2>11. End of Notes</h2>
 
@@ -29766,7 +29766,7 @@ window.EXPANDED_NOTES_DATA["sikh-history"] = String.raw`
 <h2>Introduction: The Evolution of Sikhism and its Military Legacy</h2>
 <p>Sikhism, founded in the 15th century in the Punjab region of India, is one of the world's youngest major religions. Its history is inextricably linked with military valor, political struggle, and the establishment of a powerful empire. For aspirants of the NDA, CDS, and AFCAT exams, understanding Sikh history is crucial not just as a religious or regional topic, but as a study of leadership, resistance, military organization, and statecraft. The evolution from a devotional sect to a militant order, and finally to a dominant political power, is a fascinating narrative of resilience and power. This section will cover the Ten Gurus, the formation of the Khalsa Panth, the rise of Maharaja Ranjit Singh, and the Anglo-Sikh Wars, all of which are key components of the Class 12th standard syllabus.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Sikhism was founded by Guru Nanak Dev Ji in 1469. The core tenets of the faith are summarized in the phrase: <em>Naam Japo, Kirat Karo, Vand Chhako</em> (Remember God, Earn by honest labour, Share your earnings).
 </div>
 
@@ -29838,7 +29838,7 @@ window.EXPANDED_NOTES_DATA["sikh-history"] = String.raw`
     </tbody>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> To remember the Gurus in order, use the acronym: <strong>NAA-HARG-HARKR-HARKS-TEG</strong>. <br>
 <strong>N</strong>anak, <strong>A</strong>ngad, <strong>A</strong>mar Das, <strong>R</strong>am Das, <strong>A</strong>rjan, <strong>H</strong>argobind, <strong>H</strong>ar Rai, <strong>H</strong>ar Krishan, <strong>T</strong>egh Bahadur, <strong>G</strong>obind Singh.
 </div>
@@ -29852,7 +29852,7 @@ window.EXPANDED_NOTES_DATA["sikh-history"] = String.raw`
 <h3>Sub-section 2.1: The Amrit Ceremony and the Panj Pyare</h3>
 <p>The initiation ceremony is known as <em>Amrit Sanchar</em> (the nectar ceremony). Guru Gobind Singh Ji called for the first five volunteers, who became known as the <em>Panj Pyare</em> (the Five Beloved Ones). They were initiated first and then administered the <em>Amrit</em> (holy water) to the Guru and the rest of the congregation, symbolizing a complete reversal of the traditional guru-disciple relationship, where the Guru became the disciple of the Panj Pyare.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The five Panj Pyare were: <strong>Bhai Daya Singh</strong>, <strong>Bhai Dharam Singh</strong>, <strong>Bhai Himmat Singh</strong>, <strong>Bhai Sahib Singh</strong>, and <strong>Bhai Muhkam Singh</strong>. They represent the five virtues: Compassion, Justice, Valor, Purity, and Truth.
 </div>
 
@@ -29905,7 +29905,7 @@ window.EXPANDED_NOTES_DATA["sikh-history"] = String.raw`
 <h3>Sub-section 3.1: The Rise of Ranjit Singh and the Unification of Punjab</h3>
 <p>Ranjit Singh, born in 1780, became the Maharaja of Punjab in 1801. He was a brilliant military strategist and a shrewd politician. He united the various Sikh misls and brought stability to the region. His court was a blend of different cultures, reflecting his inclusive rule. He employed not only Sikhs but also Hindus and Muslims in his administration and army, such as the famous Fakir Azizuddin and the Hindu finance minister, Dhian Singh.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> A common mistake is to think Ranjit Singh's army was exclusively Sikh. In reality, his army was multi-religious and included substantial numbers of Hindu and Muslim soldiers, making it one of the most secular armies of its time. His general, Hari Singh Nalwa, is particularly famous for his conquests in the North-West Frontier.
 </div>
 
@@ -29921,7 +29921,7 @@ window.EXPANDED_NOTES_DATA["sikh-history"] = String.raw`
 <h3>Sub-section 4.2: Second Anglo-Sikh War (1848-1849)</h3>
 <p>The British, dissatisfied with the terms of the Treaty of Lahore and seeking to completely annex Punjab, engineered a fresh conflict. The immediate cause was the refusal of the Sikh leadership to accept a British resident in Lahore and the rising influence of pro-British elements. The war began with the siege of Multan and the battle of Gujrat. Despite fierce resistance, the Sikh army was defeated due to a combination of factors: superior British artillery, tactical errors, and the defection of key Sikh leaders. The war concluded with the <strong>Annexation of Punjab</strong> by Lord Dalhousie in 1849, marking the end of Sikh sovereignty.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> While no specific PYQ data was provided, questions on this topic often focus on the causes and consequences of the Anglo-Sikh Wars. A likely question could be: "Examine the causes of the First Anglo-Sikh War." or "Discuss the role of Maharaja Ranjit Singh in the rise of the Sikh Empire." Aspirants should be prepared to discuss key battles, treaties, and the role of key figures like Hari Singh Nalwa and Henry Hardinge.
 </div>
 
@@ -30070,7 +30070,7 @@ window.EXPANDED_NOTES_DATA["bhakti-movement"] = String.raw`
 <strong>⚠️ Trap Alert:</strong> Do not confuse <strong>Nirguna</strong> with <strong>Atheism</strong>. Nirguna saints believed intensely in God, but as a formless, universal reality (Brahman). Also, <strong>Kabir</strong> is often mistakenly placed in Saguna because he uses the name "Ram"; his "Ram" is <em>Nirguna Brahman</em>, not the son of Dasharatha.
 </div>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🧠 Mnemonic: <em>"SAGUna = SAkar (Form) = Idols/Temples/Rama-Krishna Avatars (Tulsidas, Mira). NIrGuNa = NIraKar (Formless) = No Idols/No Caste/Monotheism (Kabir, Nanak)."</em></strong>
 </div>
 
@@ -30403,7 +30403,7 @@ window.EXPANDED_NOTES_DATA["bhakti-movement"] = String.raw`
 
 <h2>8. Previous Year Questions (PYQ) Insights & Practice</h2>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🎯 PYQ Insight (CDS/NDA Pattern):</strong> Questions frequently test:
 <ol>
     <li><strong>Matching:</strong> Saint ↔ Region / Saint ↔ Work / Saint ↔ Philosophy (Saguna/Nirguna).</li>
@@ -30492,11 +30492,11 @@ window.EXPANDED_NOTES_DATA["bhakti-movement"] = String.raw`
     </ul>
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic for Saguna Saints (North India): <em>"Tulsi Mira Sur Chaitanya"</em> → <strong>T</strong>ulsidas (Ram/Awadh), <strong>M</strong>ira (Krishna/Rajasthan), <strong>S</strong>ur (Krishna/Braj), <strong>C</strong>haitanya (Radha-Krishna/Bengal).</strong>
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic for Nirguna Saints: <em>"Kabir Nanak Raidas Dadu"</em> → <strong>K</strong>abir (Weaver/Kashi), <strong>N</strong>anak (Punjab/Sikhism), <strong>R</strong>aidas (Cobbler/Kashi), <strong>D</strong>adu (Rajasthan/Gujarat - Nipakh).</strong>
 </div>
 
@@ -30688,16 +30688,16 @@ window.EXPANDED_NOTES_DATA["sufi-movement"] = String.raw`
 </ul>
 
 <h2>PYQ Insight</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: While the official syllabus does not list specific PYQs for “Sufi Movement,” previous papers (e.g., CDS 2022) have asked about the role of Sufi saints in promoting communal harmony and the significance of <em>khanqahs</em> in medieval Indian society. Emphasize the syncretic relationship between Sufism and Bhakti, and the administrative functions of Sufi lodges.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🎯 PYQ Insight: While the official syllabus does not list specific PYQs for “Sufi Movement,” previous papers (e.g., CDS 2022) have asked about the role of Sufi saints in promoting communal harmony and the significance of <em>khanqahs</em> in medieval Indian society. Emphasize the syncretic relationship between Sufism and Bhakti, and the administrative functions of Sufi lodges.</div>
 
 <h2>Mnemonic</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “<strong>C</strong>hīshtī <strong>S</strong>imple <strong>L</strong>ove, <strong>S</strong>uhrawardī <strong>K</strong>nowledge <strong>R</strong>ational” – remember that Chishti stresses love and simplicity, while Suhrawardi stresses knowledge and rationality.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">🧠 Mnemonic: “<strong>C</strong>hīshtī <strong>S</strong>imple <strong>L</strong>ove, <strong>S</strong>uhrawardī <strong>K</strong>nowledge <strong>R</strong>ational” – remember that Chishti stresses love and simplicity, while Suhrawardi stresses knowledge and rationality.</div>
 
 <h2>Trap Alert</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: Students often confuse the Chishti and Suhrawardi orders by mixing up their founders or by assuming both orders follow identical rituals. Remember: Chishti = love‑driven, communal singing (qawwali); Suhrawardi = knowledge‑driven, philosophical discourse (sohbet). Also, avoid equating “Sufi” solely with “Bhakti”; while they share devotional emotions, their theological foundations differ.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">⚠️ Trap Alert: Students often confuse the Chishti and Suhrawardi orders by mixing up their founders or by assuming both orders follow identical rituals. Remember: Chishti = love‑driven, communal singing (qawwali); Suhrawardi = knowledge‑driven, philosophical discourse (sohbet). Also, avoid equating “Sufi” solely with “Bhakti”; while they share devotional emotions, their theological foundations differ.</div>
 
 <h2>High-Yield Fact</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The Chishti order’s practice of <em>langar</em> (community kitchen) was instrumental in establishing social equality and attracted followers from all castes, making it a model for later Indian social reform movements.</div>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">💡 High-Yield Fact: The Chishti order’s practice of <em>langar</em> (community kitchen) was instrumental in establishing social equality and attracted followers from all castes, making it a model for later Indian social reform movements.</div>
 
 <h2>Conclusion</h2>
 <p>Understanding the Sufi movement is essential for grasping the cultural and religious tapestry of medieval India, a topic that frequently appears in defence examinations. Mastery of the silsila hierarchy, key saints, institutional features like khanqahs, and the interplay with the Bhakti movement will enable aspirants to answer both factual and analytical questions with confidence.</p>
@@ -30946,10 +30946,10 @@ window.EXPANDED_NOTES_DATA["constitutional-development"] = String.raw`
     <td>First step towards centralised administration; introduced responsible governance concept.</td>
   </tr>
 </table>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The Regulating Act is often the answer when a question asks for the “first constitutional measure” in Indian history.
 </div>
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Many students confuse the Regulating Act with the Charter Act of 1793. Remember: Regulating Act = 1773, Charter Act = 1793.
 </div>
 
@@ -31030,7 +31030,7 @@ window.EXPANDED_NOTES_DATA["constitutional-development"] = String.raw`
     <td>First step towards representative governance.</td>
   </tr>
 </table>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The Morley‑Minto Reforms are often asked in conjunction with the **principle of separate electorates** and **communal representation**.
 </div>
 
@@ -31042,7 +31042,7 @@ window.EXPANDED_NOTES_DATA["constitutional-development"] = String.raw`
   <li>Created a **Governor** with overriding powers in reserved subjects.</li>
   <li>Introduced **diarchy** in the central legislature as well (limited).</li>
 </ul>
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Many confuse dyarchy (1919) with provincial autonomy (1935). Remember: **Dyarchy = Dual rule**, **Autonomy = Full provincial self‑rule**.
 </div>
 
@@ -31118,7 +31118,7 @@ window.EXPANDED_NOTES_DATA["constitutional-development"] = String.raw`
   <li>**1935** – Reserved seats for minorities in provincial and federal legislatures.</li>
 </ul>
 <p>These provisions were intended to safeguard minority interests but also deepened communal divisions, influencing the eventual partition.</p>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The **Government of India Act 1935** had the largest number of reserved seats for minorities among all pre‑independence statutes.
 </div>
 
@@ -31142,7 +31142,7 @@ window.EXPANDED_NOTES_DATA["constitutional-development"] = String.raw`
   <li>Transferred legislative powers to the **Legislative Assemblies** of each dominion.</li>
   <li>Marked the end of British parliamentary sovereignty over India.</li>
 </ul>
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> The Indian Independence Act is often confused with the **Government of India Act 1935**. Remember: Independence Act = 1947, ends British rule.
 </div>
 
@@ -31297,15 +31297,15 @@ window.EXPANDED_NOTES_DATA["economic-impact-british"] = String.raw`
 
 <p>Quantitatively, estimates suggest that between 1858 and 1900, India’s net transfer to Britain amounted to <strong>approximately £200 million** (in 1900 values), equivalent to about 30‑40 % of India’s annual revenue.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 High-Yield Fact: The “drain of wealth” is often measured by the ratio of India’s export surplus to its import deficit; during the peak of colonial rule, this ratio was heavily skewed in Britain’s favour, resulting in a net outflow of wealth estimated at 1‑2 % of India’s GDP per year.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ Trap Alert: Students often confuse the “drain of wealth” with the “drain of resources”. The former refers specifically to monetary and fiscal transfers, while the latter includes raw material extraction and labor exploitation. Both are important, but exam questions usually focus on the fiscal drain.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 PYQ Insight: A recent CDS question asked, “Which of the following best describes the ‘drain of wealth’ during British rule?” The correct answer highlighted the net transfer of India’s surplus revenue to Britain, not merely the export of raw materials.
 </div>
 
@@ -31374,11 +31374,11 @@ window.EXPANDED_NOTES_DATA["economic-impact-british"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 High-Yield Fact: The Permanent Settlement was the first system to introduce the concept of “private property” in land, which later influenced the Indian land‑reform debates.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ Trap Alert: Many aspirants assume that the Ryotwari system was more “fair” because it dealt directly with cultivators, but the cash‑based assessment often forced peasants into debt, leading to land alienation.
 </div>
 
@@ -31396,7 +31396,7 @@ window.EXPANDED_NOTES_DATA["economic-impact-british"] = String.raw`
 
 <p>Statistical evidence shows that India’s share of global textile exports fell from <strong>~25 % in 1750** to less than <strong>2 % by 1850**, while British textile exports rose from <strong>~5 % to >40 %** in the same period.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 High-Yield Fact: The “de‑industrialization” of India is often illustrated by the decline of the Bengal handloom sector, which once produced 70 % of the world’s cotton cloth, dropping to under 5 % by the mid‑19th century.
 </div>
 
@@ -31420,7 +31420,7 @@ window.EXPANDED_NOTES_DATA["economic-impact-british"] = String.raw`
 <li>Cotton (Gujarat, Bombay) – grown primarily as a raw material for British mills.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 High-Yield Fact: By 1900, over 30 % of India’s total agricultural output was devoted to cash crops, a dramatic shift from the pre‑colonial emphasis on food grains.
 </div>
 
@@ -31439,15 +31439,15 @@ window.EXPANDED_NOTES_DATA["economic-impact-british"] = String.raw`
 <h3> Economic Drain Quantified </h3>
 <p> Estimates by economists such as Utsa Patnaik suggest that the cumulative drain of wealth from 1700 to 1947 amounts to <strong>over £45 trillion** in today’s value, representing roughly 1/3 of India’s current GDP.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ Trap Alert: A common misconception is that poverty in colonial India was solely due to “natural” causes like drought. In reality, fiscal policies, revenue extraction, and trade distortions were primary drivers.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 PYQ Insight: An NDA question asked, “Which of the following best explains the increase in rural poverty during the British period?” The correct answer cited the drain of wealth and the shift to cash‑crop agriculture, not merely climatic factors.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 Mnemonic: “P‑R‑M‑D” – **P**ermanent Settlement, **R**yotwari, **M**ahalwari, **D**rain of wealth. Remember that each ‘R’ (settlement) system reflects a different revenue collector: Zamindar, Ryot, Mahal (village). This helps recall the three land‑revenue models quickly.
 </div>
 
@@ -31688,22 +31688,22 @@ window.EXPANDED_NOTES_DATA["revolt-1857"] = String.raw`
 <p>For defence aspirants, appreciating this dual narrative is crucial, as exam questions often probe the nuanced understanding of “sepoy mutiny” vs “first war of independence.”</p>
 
 <h2>Revision Tips & Mnemonic</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> Remember the main causes with **D.L.S.A.** – <strong>D</strong>octrine of Lapse, <strong>L</strong>ack of political rights, <strong>S</strong>epoy discontent (cartridges), <strong>A</strong>nnexations (Awadh, Jhansi). Use this to quickly recall the key triggers during the exam.
 </div>
 
 <h2>High-Yield Facts</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The Government of India Act 1858 ended the East India Company’s rule, establishing the British Raj. It also created the position of <strong>Governor‑General of India</strong> with a council, a structure that persisted until independence in 1947.
 </div>
 
 <h2>Trap Alerts</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Many candidates confuse the <strong>Doctrine of Lapse</strong> with the <strong>Subsidiary Alliance</strong>. Remember: Lapse denied adoption rights (Jhansi, Satara), while Subsidiary Alliance forced princes to accept British suzerainty and maintain troops. Both led to annexation but are distinct mechanisms.
 </div>
 
 <h2>PYQ Insight</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Recent trends (2020‑2026) frequently ask about the **causes** (Doctrine of Lapse, Subsidiary Alliance) and **regional leaders** (Kunwar Singh, Begum Hazrat Mahal). In 2026, the focus shifts to the **post‑1857 policy shift** – the Government of India Act 1858 and the **reorganisation of the Indian Army**. Prepare concise notes on both the causes and the legislative/military reforms to answer both types of questions.
 </div>
 `;
@@ -31733,7 +31733,7 @@ The 19th century witnessed a profound transformation in the social and religious
   <li><em>English Grammar</em>: Promoted English education as a tool for modernization.</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> Raja Ram Mohan Roy is often called the "Father of Modern India" for his role in abolishing sati and establishing Brahmo Samaj.
 </div>
 
@@ -31768,7 +31768,7 @@ The 19th century witnessed a profound transformation in the social and religious
   <li><strong>Anti-Caste Movement</strong>: Challenged the dominance of Brahmins and promoted equality.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> While no direct PYQs were provided, Arya Samaj’s role in promoting Vedic education and caste reform is a frequent topic in CDS/NDA exams.
 </div>
 
@@ -31979,7 +31979,7 @@ window.EXPANDED_NOTES_DATA["freedom-movement"] = String.raw`
 </table>
 
 <h3>💡 High-Yield Fact</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   The Surat Split of 1907 was not just a personal feud but a clash of strategies: Moderates believed in gradual reform through British institutions, while Extremists argued that freedom must be taken, not given.
 </div>
 
@@ -32044,7 +32044,7 @@ window.EXPANDED_NOTES_DATA["freedom-movement"] = String.raw`
 </table>
 
 <h3>💡 High-Yield Fact</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   The NCM was the first all-India mass movement, but its abrupt suspension at Chauri Chaura disappointed many young leaders (including Subhas Chandra Bose), leading to the rise of revolutionary alternatives.</div>
 
 <h3>⚠️ Trap Alert</h3>
@@ -32099,7 +32099,7 @@ window.EXPANDED_NOTES_DATA["freedom-movement"] = String.raw`
 </table>
 
 <h3>💡 High-Yield Fact</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   The QIM slogan "Do or Die" was given by Gandhi at Gowalia Tank Maidan, Bombay. The British banned the Congress and imprisoned the entire working committee, forcing the movement underground.</div>
 
 <h3>⚠️ Trap Alert</h3>
@@ -32152,7 +32152,7 @@ window.EXPANDED_NOTES_DATA["freedom-movement"] = String.raw`
   <strong>Question (CDS 2023):</strong> "Examine the contribution of the INA and Subhas Chandra Bose to the Indian Freedom Movement. How did the INA trials affect the British decision to leave India?"</div>
 
 <h3>💡 High-Yield Fact</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   The INA slogan "Delhi Chalo" and the Rani of Jhansi Regiment (all-women combat unit) remain iconic. The INA’s psychological impact on the British Indian Army was arguably as important as its military feats.</div>
 
 <h3>⚠️ Trap Alert</h3>
@@ -32203,7 +32203,7 @@ window.EXPANDED_NOTES_DATA["freedom-movement"] = String.raw`
 </table>
 
 <h3>💡 High-Yield Fact</h3>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   The Mountbatten Plan was kept secret even from senior Congress leaders until 3 June 1947. The speed of partition (70 years of British rule ended in < 6 months) shocked the nation.</div>
 
 <h3>⚠️ Trap Alert</h3>
@@ -32278,19 +32278,19 @@ window.EXPANDED_NOTES_DATA["post-independence-consolidation"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: Sardar Patel’s “Integration Policy” was formulated at the <em>Sardar Patel Committee</em> (1947) and emphasized that “the integration of princely states was the first and foremost task of the new government”.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: Many aspirants confuse “Instrument of Accession” with “Merger Agreement”. The former allowed limited powers to the Union, while the latter transferred full sovereignty and abolished the privy purse.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 <strong>PYQ Insight</strong>: The 2021 CDS exam asked, “Explain how the integration of princely states contributed to the consolidation of India after independence.” This requires linking military actions, legal instruments, and political will.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 <strong>Mnemonic</strong>: “<em>I</em>nstrument <em>M</em>erge <em>M</em>ilitary” – IMMI – to remember the three pathways of integration.
 </div>
 
@@ -32324,19 +32324,19 @@ window.EXPANDED_NOTES_DATA["post-independence-consolidation"] = String.raw`
 <h3>Contemporary Issues and Debates</h3>
 <p>Despite the success, several demands for new states (e.g., Bodoland, Gorkhaland, Vidarbha) continue, reflecting the dynamic nature of identity politics. The Constitution’s flexibility through <strong>Article 3</strong> allows Parliament to respond to such demands, but the process requires careful consideration of security, economics, and administrative feasibility.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: The 1956 States Reorganisation Act was the first major constitutional amendment to address linguistic identity, setting a precedent for future reorganisation.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: Some students think that the Constitution originally allowed only religious or religious‑cultural reorganisation. In reality, <strong>Article 3</strong> explicitly permits reorganisation on linguistic basis, which was a revolutionary step.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 <strong>PYQ Insight</strong>: A 2019 NDA question asked, “Discuss the significance of the States Reorganisation Commission (1956) in the consolidation of India.” The answer should mention linguistic unity, administrative efficiency, and political stability.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 <strong>Mnemonic</strong>: “<em>L</em>anguage <em>S</em>tates <em>R</em>eform <em>1956</em>” – LSR‑56 – to recall the key event.
 </div>
 
@@ -32394,19 +32394,19 @@ window.EXPANDED_NOTES_DATA["post-independence-consolidation"] = String.raw`
 <li>The practice of <strong>“Sarva Dharma Sama”</strong> (equal respect for all religions) in government functions.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: Nehru’s “Discovery of India” (1946) and his speeches emphasized that “India is a nation of many cultures, but a single destiny,” a phrase frequently asked in exam questions on nation‑building.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: Students often conflate Nehru’s “socialist” model with the later “mixed economy” approach of the 1990s. The Nehruvian era was characterised by a strong public sector and planned economy, not laissez‑faire capitalism.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 <strong>PYQ Insight</strong>: The 2020 CDS exam asked, “Explain the role of the Five Year Plans in the consolidation of post‑independence India.” The answer must mention planning, industrialisation, and social welfare.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 <strong>Mnemonic</strong>: “<em>N</em>eelus <em>P</em>lan <em>S</em>ecular <em>E</em>conomy” – NPSE – to recall Nehru’s three pillars: Nation‑building, Planning, Secularism, Economy.
 </div>
 
@@ -32445,19 +32445,19 @@ window.EXPANDED_NOTES_DATA["post-independence-consolidation"] = String.raw`
 <li><strong>Economic Disparities:</strong> Uneven development across regions required targeted policies.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: The integration of princely states and linguistic reorganisation together created a “<em>unified yet diverse</em>” political map, which is a recurring theme in exam questions on nation‑building.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: A common mistake is to assume that the integration of princely states was completed solely through legal instruments. In reality, military actions (e.g., Operation Polo) were decisive in several cases, and the process spanned from 1947 to the early 1950s.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 <strong>PYQ Insight</strong>: The 2018 NDA exam asked, “Examine the contribution of Sardar Patel and Jawaharlal Nehru in the consolidation of India after independence.” The answer should highlight Patel’s integration drive and Nehru’s policy framework.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 <strong>Mnemonic</strong>: “<em>I</em>ntegrate <em>P</em>atel <em>N</em>ehru <em>S</em>ecular <em>C</em>onstitution” – IPNSC – to remember the key architects and principles.
 </div>
 
@@ -32506,19 +32506,19 @@ window.EXPANDED_NOTES_DATA["post-independence-consolidation"] = String.raw`
 
 <p><strong>Exam Strategy:</strong> Use the tables and timelines to quickly recall dates and events. Apply the mnemonic devices (IPNSC, LSR‑56, IMMI) to retain complex sequences. Be alert to trap questions that mix up “accession” with “merger” or confuse the nature of Nehru’s economic model.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 💡 <strong>High-Yield Fact</strong>: The integration process, combined with linguistic reorganisation, resulted in a “<em>unified yet diverse</em>” political map, a concept repeatedly tested in CDS, NDA, and AFCAT papers.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 ⚠️ <strong>Trap Alert</strong>: Questions may present the year 1950 as the date of full integration of all princely states. In reality, integration was a phased process extending into the early 1950s, with Hyderabad (1948) and Kashmir’s special status persisting.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🎯 <strong>PYQ Insight</strong>: A 2022 AFCAT question asked, “How did the linguistic reorganisation of states aid in the consolidation of India?” The answer must mention administrative efficiency, regional identity, and national integration.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 <strong>Mnemonic</strong>: “<em>U</em>nity <em>D</em>iversity <em>I</em>ntegrated <em>N</em>ation” – UDIN – to recall that integration created a unified nation despite cultural diversity.
 </div>
 
@@ -32539,7 +32539,7 @@ window.EXPANDED_NOTES_DATA["revolutions"] = String.raw`
 <li>Analyse the role of Enlightenment thinkers whose ideas inspired revolutionary movements.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact</strong>: The term “Revolution” in the syllabus specifically refers to <em>political</em> upheavals that alter state structures, while the Industrial Revolution is included as a socio‑economic transformation that indirectly fuels political revolts.
 </div>
 
@@ -32565,7 +32565,7 @@ window.EXPANDED_NOTES_DATA["revolutions"] = String.raw`
 <h3>Outcomes and Significance</h3>
 <p>The American Revolution established the first successful colonial rebellion against a European empire, creating a republic based on <em>Liberty</em> and <em>Representative Government</em>. Its success inspired subsequent revolutions, particularly the French Revolution, by demonstrating that a distant power could be defeated through coordinated political and military effort.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight</strong>: In the 2024 CDS exam, a question asked how the American Revolution’s emphasis on <em>Liberty</em> influenced the French Revolution’s demand for <em>Égalité</em>. Candidates were expected to link the two events through Enlightenment philosophy.
 </div>
 
@@ -32603,7 +32603,7 @@ window.EXPANDED_NOTES_DATA["revolutions"] = String.raw`
 <li><strong>Napoleon Bonaparte</strong> – Though rising after the Revolution, he codified many reforms (Napoleonic Code).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert</strong>: Many candidates confuse the <em>Reign of Terror</em> (1793‑1794) with the entire Revolutionary period. Remember that the Terror was a specific phase aimed at eliminating perceived enemies of the Revolution, not the whole timeline.
 </div>
 
@@ -32616,7 +32616,7 @@ window.EXPANDED_NOTES_DATA["revolutions"] = String.raw`
 <li>Laying groundwork for modern concepts of citizenship and human rights.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight</strong>: A 2022 NDA question asked about the influence of Rousseau’s <em>Social Contract</em> on the French Revolution’s notion of popular sovereignty. Correct answer required linking Rousseau’s theory to the Declaration of the Rights of Man.
 </div>
 
@@ -32642,7 +32642,7 @@ window.EXPANDED_NOTES_DATA["revolutions"] = String.raw`
 <h3>Ideological Framework</h3>
 <p>Lenin adapted Marxist theory to Russian conditions, emphasizing the role of a <em>vanguard party</em> to lead the proletariat. The Revolution aimed to achieve <strong>Socialism</strong> and eventually <strong>Communism</strong>, fundamentally altering the political landscape of the 20th century.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact</strong>: The 1917 Russian Revolution is often split into two distinct events — the <em>February Revolution</em> (overthrow of the Tsar) and the <em>October Revolution</em> (Bolshevik seizure of power). Exams frequently test the distinction.
 </div>
 
@@ -32654,7 +32654,7 @@ window.EXPANDED_NOTES_DATA["revolutions"] = String.raw`
 <li>Long‑term military rivalry (Cold War) that shaped global defence strategies.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight</strong>: In the 2025 AFCAT exam, a question asked how Lenin’s <em>New Economic Policy</em> (NEP) was a pragmatic response to the economic collapse after the Revolution. Candidates needed to mention the shift from War Communism to limited market mechanisms.
 </div>
 
@@ -32687,7 +32687,7 @@ window.EXPANDED_NOTES_DATA["revolutions"] = String.raw`
 <li><strong>Rise of Socialism</strong>: thinkers like <strong>Karl Marx</strong> and <strong>Friedrich Engels</strong> analysed the exploitation of workers, leading to socialist ideology that would later inspire revolutions (e.g., Russian Revolution).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🧠 Mnemonic</strong>: “<em>S</em>pinning <em>J</em>enny, <em>W</em>ater <em>F</em>rame, <em>S</em>team <em>E</em>ngine, <em>L</em>oom” – helps recall the four key textile‑industry inventions.
 </div>
 
@@ -32699,7 +32699,7 @@ window.EXPANDED_NOTES_DATA["revolutions"] = String.raw`
 <li>Japan (Meiji Restoration, 1868) – rapid industrialisation to avoid colonisation.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>⚠️ Trap Alert</strong>: Students often assume the Industrial Revolution was a single event. It was a gradual, uneven process spanning decades and varying by sector (textiles, iron, transport). Remember to specify the time frame and geographic diffusion.
 </div>
 
@@ -32730,7 +32730,7 @@ window.EXPANDED_NOTES_DATA["revolutions"] = String.raw`
 <h3>Enlightenment Influence</h3>
 <p>Philosophers such as <strong>Voltaire</strong>, <strong>Rousseau</strong>, and <strong>Montesquieu</strong> provided the intellectual foundation for the American and French Revolutions. Their ideas on natural rights, social contract, and separation of powers directly inspired revolutionary declarations and constitutions.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact</strong>: The concept of <em>Separation of Powers</em> introduced by Montesquieu is a recurring theme in exam questions linking the American Constitution, French constitutional experiments, and later Soviet attempts at governance.
 </div>
 
@@ -32745,7 +32745,7 @@ window.EXPANDED_NOTES_DATA["revolutions"] = String.raw`
 <h3>Case Study: From Industrial Revolution to Modern Warfare</h3>
 <p>The Industrial Revolution introduced mechanised weaponry (rifles, artillery, later tanks and aircraft). The ability to mass‑produce arms and mobilise large numbers of troops stems directly from industrial capacity. Modern defence strategies still rely on the principles of industrial mobilisation, as seen in the rapid production of equipment during both World Wars and contemporary defence manufacturing.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight</strong>: A 2023 CDS question asked candidates to explain how the Industrial Revolution’s technological advancements influenced the nature of the First World War. The expected answer highlighted mechanisation, rail transport, and mass production as key factors.
 </div>
 
@@ -32992,19 +32992,19 @@ window.EXPANDED_NOTES_DATA["world-war-i"] = String.raw`
 <h2>8. Revision and Exam Tips</h2>
 <p>Consolidating knowledge of World War I requires both factual recall and analytical understanding. Below are high‑yield facts, common traps, PYQ insights, and a mnemonic to aid memory.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The **Treaty of Versailles** imposed **reparations of 31 billion gold marks** on Germany, leading to hyperinflation and the rise of extremist parties.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Many aspirants confuse the **Triple Entente** with a formal alliance; it was an **understanding** and not a binding treaty, which can affect answer choices.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> In the **CDS 2022** exam, a question asked about the **immediate cause** of WWI – the correct answer was the **Assassination of Archduke Franz Ferdinand**, not just “nationalism” or “imperialism”.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> Use **M.A.N.I.A.** to remember the six key causes: **M**ilitarism, **A**lliances, **N**ationalism, **I**mperialism, **A**ssassination.
 </div>
 
@@ -33048,7 +33048,7 @@ window.EXPANDED_NOTES_DATA["world-war-ii"] = String.raw`
 </ul>
 
 <h2>3. Axis vs. Allies: Composition and Strength</h2>
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The Axis Powers originally comprised Germany, Italy, and Japan (the “Rome‑Berlin‑Tokyo Axis”). The Allies grew from the United Kingdom, France, and Poland to include the USSR, USA, China, and numerous Commonwealth nations.
 </div>
 
@@ -33193,7 +33193,7 @@ window.EXPANDED_NOTES_DATA["world-war-ii"] = String.raw`
 <li><strong>Intelligence:</strong> Ultra (British breaking of Enigma), Magic (US breaking of Japanese Purple code).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The Lend‑Lease Act is frequently asked in CDS/NDA; remember it was passed in March 1941, before US entry into the war, and allowed the US to “lend” war material to any nation deemed vital to US security.
 </div>
 
@@ -33249,7 +33249,7 @@ window.EXPANDED_NOTES_DATA["world-war-ii"] = String.raw`
 </ul>
 
 <h2>9. Mnemonic for Remembering Key Axis and Allied Leaders</h2>
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #c3e6cb; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #c3e6cb; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> <strong>“G​ermany’s​ H​itler, I​taly’s​ M​ussolini, J​apan’s​ T​ōjō”</strong> → <strong>G​H​I​T​J​T</strong> (pronounced “gee‑hit‑jot”).<br>
 For Allies: <strong>“U​K’s​ C​hurchill, U​S’s​ R​oosevelt, U​SSR’s​ S​talin, C​hina’s​ C​hiang”</strong> → <strong>U​C​U​S​C</strong> (“you‑kiss”). Use the first letters to recall the core leaders.
 </div>
@@ -33342,11 +33342,11 @@ window.EXPANDED_NOTES_DATA["interwar-period"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The Great Depression saw global GDP fall by ~15% and unemployment exceed 25% in the US; this economic trauma directly facilitated the rise of totalitarian regimes.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Exam questions often ask for “the primary cause of the Great Depression” – remember it was a combination, not a single factor; the stock‑market crash was the spark, but protectionism and gold‑standard constraints were the fuel.
 </div>
 
@@ -33391,11 +33391,11 @@ window.EXPANDED_NOTES_DATA["interwar-period"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> While no direct PYQ on Italian Fascism exists, questions on “authoritarian regimes in Europe” often include Mussolini as an example; focus on his ideology and foreign policy.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> **M**ussolini **F**ascist **I**deology **T**otalitarian **A**uthority – **MFITA** helps recall the core traits: **M**ilitary, **F**ascist, **I**deology, **T**otalitarian, **A**uthority.
 </div>
 
@@ -33445,11 +33445,11 @@ window.EXPANDED_NOTES_DATA["interwar-period"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> By 1939, Nazi Germany had already re‑armed to a level comparable to Britain and France combined, thanks to the Four‑Year Plan and aggressive exploitation of occupied territories.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>⚠️ Trap Alert:</strong> Exam questions may ask “Which law first institutionalized anti‑Jewish discrimination?” The correct answer is the **Nuremberg Laws (1935)**, not the **Kristallnacht (1938)**, which was a pogrom, not legislation.
 </div>
 
@@ -33499,7 +33499,7 @@ window.EXPANDED_NOTES_DATA["interwar-period"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> **T**otalitarian **I**deology **F**or **E**ternal **R**ule – **TIFER** reminds you of the five pillars: **T**otal control, **I**deology, **F**ührer/Leader, **E**ternal propaganda, **R**epression.
 </div>
 
@@ -33507,11 +33507,11 @@ window.EXPANDED_NOTES_DATA["interwar-period"] = String.raw`
 <p>The Interwar Period stands as a crucible where economic crisis, political disillusionment, and aggressive nationalism converged to produce totalitarian regimes that precipitated World II. For defence exam aspirants, mastering this era means linking cause‑effect chains: the Great Depression → loss of faith in democracy → rise of Fascism/Nazism → totalitarian control → re‑armament → global conflict. Understanding the **key dates**, **ideological distinctions**, and **policy outcomes** will enable you to answer both factual and analytical questions with confidence.</p>
 <p>Remember to use **tables** for quick comparison of timelines and economic data, and **callout boxes** to highlight high‑yield facts and avoid common traps. Practice writing concise paragraphs that emphasize the **interconnectedness** of economic, political, and military factors, as this holistic approach is frequently tested in NDA, CDS, and AFCAT examinations.</p>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🎯 PYQ Insight:</strong> Although no direct PYQ on the Interwar Period exists, expect questions like “Which of the following was a direct consequence of the Great Depression?” or “Identify the primary ideology of the regime that signed the Pact of Steel.” Focus on cause‑effect and treaty details.
 </div>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>💡 High-Yield Fact:</strong> The **Enabling Act (1933)** is often asked as the legal instrument that gave Hitler dictatorial powers; linking it to the collapse of the Weimar Republic demonstrates depth.
 </div>
 
@@ -33559,7 +33559,7 @@ window.EXPANDED_NOTES_DATA["cold-war"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The term "Cold War" was first used by journalist Walter Lippmann in 1947, but it became popular after Bernard Baruch's speech in 1947 where he warned of the "long cold war."
 </div>
 
@@ -33586,7 +33586,7 @@ window.EXPANDED_NOTES_DATA["cold-war"] = String.raw`
 <li>Containment of communist influence in Europe.</li>
 </ol>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Questions often ask about the significance of Article 5 or the role of NATO during the Cuban Missile Crisis.
 </div>
 
@@ -33651,7 +33651,7 @@ window.EXPANDED_NOTES_DATA["cold-war"] = String.raw`
 <h3>Significance</h3>
 <p>NAM represented over 50 countries at its peak, mostly from Asia, Africa, and Latin America. It gave developing nations a voice in global politics and challenged the binary worldview of the Cold War.</p>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> India was a founding member of NAM and hosted the first summit in 1961.
 </div>
 
@@ -33722,7 +33722,7 @@ window.EXPANDED_NOTES_DATA["cold-war"] = String.raw`
 <li>1987: INF Treaty eliminates intermediate-range missiles.</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The Cuban Missile Crisis in 1962 was the closest the world came to nuclear war.
 </div>
 
@@ -33763,7 +33763,7 @@ window.EXPANDED_NOTES_DATA["cold-war"] = String.raw`
 <h3>Legacy</h3>
 <p>The Cold War reshaped global politics, led to the spread of nuclear weapons, and influenced numerous regional conflicts. Its legacy continues to affect current international relations, especially in terms of military alliances, arms control, and ideological divides.</p>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>🧠 Mnemonic:</strong> To remember the key alliances:
 <br><strong>NATO</strong> = <em>North Atlantic Treaty Organization</em> (Western Bloc)
 <br><strong>Warsaw Pact</strong> = <em>USSR-led Eastern Bloc</em>
@@ -33799,7 +33799,7 @@ window.EXPANDED_NOTES_DATA["architecture"] = String.raw`
 <li><strong>Notable Examples:</strong> Sun Temple (Konark), Lingaraja Temple (Bhubaneswar), Khajuraho Group of Monuments (Chandela dynasty), Brihadeeswara Temple (wait, this is Dravida, but Kandariya Mahadeva at Khajuraho is classic Nagara).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> The <strong>Khajuraho Group of Monuments</strong> (built by the Chandela dynasty, 950-1050 CE) is a UNESCO World Heritage site and the prime example of the Nagara style. It features a mix of Hindu and Jain temples (like the Parshvanatha temple). The temples at Khajuraho are famous for their <strong>sandhara</strong> (sandhara type: having an outer ring of shrines with a covered ambulatory).
 </div>
 
@@ -33813,7 +33813,7 @@ window.EXPANDED_NOTES_DATA["architecture"] = String.raw`
 <li><strong>Notable Examples:</strong> Brihadeeswara Temple (Thanjavur - built by Cholas), Meenakshi Temple (Madurai - Nayaks), Shore Temple (Mahabalipuram - Pallavas), Kailasanatha Temple (Kanchipuram).</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Do not confuse the <em>shikhara</em> of the Nagara style with the dome-like structure capping the *vimana* in the Dravida style. In South Indian architecture, "shikhara" usually refers to the topmost dome, whereas the entire tower is called the *vimana*.
 </div>
 
@@ -33911,7 +33911,7 @@ window.EXPANDED_NOTES_DATA["architecture"] = String.raw`
 </li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> <strong>Indo-Islamic Synthesis</strong> means the blending of Islamic structural forms (arches, domes, minarets, calligraphy) with Hindu decorative elements (lotus motif, bell-and-chain, swastika, floral patterns, and use of red sandstone). The Mughal period is the classic example.
 </div>
 
@@ -34017,7 +34017,7 @@ window.EXPANDED_NOTES_DATA["architecture"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> The Khajuraho temples are often categorized merely by their famous erotic sculptures, but structurally they are prime examples of the <em>sandhara</em> (enclosed) subtype of the Nagara style. Remembering their structural layout is key to answering conceptual MCQs.
 </div>
 
@@ -34056,7 +34056,7 @@ window.EXPANDED_NOTES_DATA["paintings"] = String.raw`
 <li><strong>Period IV-VII (Historical Period) - 10,000 BCE to 5th century CE:</strong> Geometric patterns, ritual scenes, horseback riders</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> The word "Bhimbetka" is associated with "Bhim's resting place" from the Mahabharata. The paintings here are predominantly executed in red and white with occasional use of green and yellow, using natural pigments derived from materials like ochre (red), limestone (white), and plants.</p>
 </div>
 
@@ -34116,7 +34116,7 @@ window.EXPANDED_NOTES_DATA["paintings"] = String.raw`
 <li>Both outlined and filled-in drawing styles</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <p><strong>⚠️ Trap Alert:</strong> Students often confuse the Bhimbetka rock shelters with Ajanta or Ellora caves. Remember: Bhimbetka contains prehistoric (pre-5000 BCE) rock paintings, while Ajanta (2nd century BCE - 6th century CE) and Ellora (6th-10th century CE) feature rock-cut sculptures and temples, not primarily cave paintings. This distinction is frequently tested in examinations.</p>
 </div>
 
@@ -34188,7 +34188,7 @@ window.EXPANDED_NOTES_DATA["paintings"] = String.raw`
 <li><strong>Govardhan:</strong> Specialized in royal portraiture and court scenes</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <p><strong>🧠 Mnemonic:</strong> To remember key Mughal painting emperors in chronological order, use: "<strong>A</strong>kbar <strong>J</strong>ahangir <strong>S</strong>hah <strong>A</strong>urangzeb" (AJSA). Remember that the quality of painting peaked under Jahangir, the greatest patron of the arts among Mughal emperors.</p>
 </div>
 
@@ -34264,7 +34264,7 @@ window.EXPANDED_NOTES_DATA["paintings"] = String.raw`
 <li><strong>Intimate Scale:</strong> Often created for personal devotion rather than royal display</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> The "Bani Thani" painting from Kishangarh (c. 1735) is considered one of the finest examples of Indian miniature art. It depicts the singer and poet Bani Thani in an idealized form and exemplifies the Kishangarh school's distinctive style of elongated figures and intense, contemplative expression. This painting is currently housed in the National Museum, New Delhi.</p>
 </div>
 
@@ -34367,7 +34367,7 @@ window.EXPANDED_NOTES_DATA["paintings"] = String.raw`
 <li>Establishment of a printing press to reproduce his paintings as lithographs, making art accessible to the middle class</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> Raja Ravi Varma's famous paintings include "Shakuntala," "Nair Lady Bathing," "Maharshi Bharata," and "Lady with the Lamp." His oleographs (oil lithographs) were extremely popular and reached households across India, democratizing art viewing. He received awards at the Vienna International Exhibition (1873) and the Chicago World's Fair (1893).</p>
 </div>
 
@@ -34404,7 +34404,7 @@ window.EXPANDED_NOTES_DATA["paintings"] = String.raw`
 <li><strong>V.S. Gaitonde:</strong> Abstract expressionist known for luminous color fields</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <p><strong>⚠️ Trap Alert:</strong> Students often confuse the Bengal School (founded by Abanindranath Tagore) with the Progressive Artists' Group. Key distinction: Bengal School emerged in early 20th century as a revivalist movement emphasizing traditional Indian aesthetics, while the Progressive Artists' Group formed after independence (1947) as a modernist movement seeking to blend international modernism with Indian sensibilities.</p>
 </div>
 
@@ -34538,7 +34538,7 @@ window.EXPANDED_NOTES_DATA["paintings"] = String.raw`
 <li><strong>Private Collectors:</strong> Emergence of private art market and collectors</li>
 </ul>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <p><strong>💡 High-Yield Fact:</strong> The transformation from royal to mercantile patronage marked a significant shift in Indian art history. The decline of princely states after 1947 led to the loss of traditional patronage systems, prompting artists to seek new markets and platforms for their work.</p>
 </div>
 
@@ -34667,7 +34667,7 @@ window.EXPANDED_NOTES_DATA["paintings"] = String.raw`
 
 <h3>6.2 Most Likely Exam Questions</h3>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <p><strong>💡 High-Yield Facts for Quick Revision:</strong></p>
 <ul>
 <li>Bhimbetka rock shelters: UNESCO site in Madhya Pradesh, oldest paintings 30,000 BCE</li>
@@ -34683,7 +34683,7 @@ window.EXPANDED_NOTES_DATA["paintings"] = String.raw`
 
 <h3>6.3 Common Confusions to Avoid</h3>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <p><strong>⚠️ Trap Alerts - Exam Tips:</strong></p>
 <ul>
 <li>Do not confuse Bhimbetka (prehistoric rock art) with Ajanta (Buddhist murals)</li>
@@ -34722,7 +34722,7 @@ window.EXPANDED_NOTES_DATA["dance-music"] = String.raw`
 
 <p>For defence exam aspirants, this topic forms an essential part of the General Awareness section, testing candidates on their knowledge of India's cultural heritage. The questions often focus on identifying dance forms with their states, understanding the differences between major classical music traditions, and recognizing key features of various folk forms.</p>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>📚 Key Definition:</strong> <em>Shastra</em> refers to traditional Hindu teachings, while <em>Kalai</em> means art form. The term <strong>"Sangita"</strong> in Sanskrit encompasses music, dance, and drama as a unified art form.
 </div>
 
@@ -34851,7 +34851,7 @@ window.EXPANDED_NOTES_DATA["dance-music"] = String.raw`
 
 <p><strong>Technical Elements:</strong> Kathakali uses <strong>51 Mudras</strong> (hand gestures) from the Natya Shastra to convey stories. The facial muscle training (<strong>Puthulli</strong>) and eye exercises (<strong>Netra Abhinayam</strong>) are legendary. The <strong>Kalasam</strong> (makeup application) itself takes 3-4 hours to complete.</p>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Students often confuse Kathak with Kathakali. Remember: Kathak is from Uttar Pradesh (North India), focuses on footwork and spins, while Kathakali is from Kerala (South India), features elaborate makeup, and is a full theatrical dance drama.
 </div>
 
@@ -35050,7 +35050,7 @@ window.EXPANDED_NOTES_DATA["dance-music"] = String.raw`
 
 <p><strong>Padam:</strong> Expressive, romantic compositions (often about <strong>Sringara Rasa</strong> - love/erotic sentiment). Originally performed in courts and temples.</p>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>💡 High-Yield Fact:</strong> Remember these key associations for exams:
 <br />• <strong>Tyagaraja</strong> - "Thyagaraja Aradhana" in Thiruvaiyaru, Tamil Nadu
 <br />• <strong>Purandara Dasa</strong> - Father of Carnatic Music, Hampi
@@ -35496,7 +35496,7 @@ window.EXPANDED_NOTES_DATA["dance-music"] = String.raw`
 <li><strong>Vocal performances:</strong> Typically accompanied by Violin and Mrudangam</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Don't confuse the classifications:
 <br />• Ghana Vadya includes idiophones (Cymbals, Kartal) - NOT membranophones
 <br />• Avanaddha Vadya includes ONLY membranophones (drums with skins)
@@ -35638,7 +35638,7 @@ window.EXPANDED_NOTES_DATA["dance-music"] = String.raw`
 <br />• Musical instruments and their classifications
 </div>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Final Trap Alert - Common Confusions:</strong>
 <br />1. <strong>Kathak vs Kathakali</strong> - Kathak (UP, footwork), Kathakali (Kerala, makeup)
 <br />2. <strong>Hindustani vs Carnatic</strong> - Remember the regional division: North = Hindustani, South = Carnatic
@@ -35709,7 +35709,7 @@ window.EXPANDED_NOTES_DATA["literature"] = String.raw`
 <strong>💡 High-Yield Fact:</strong> The oldest Upanishad is the <strong>Brhadaranyaka Upanishad</strong>. The philosophy of the Upanishads is called "Vedanta" (the end of the Vedas).
 </div>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> Do not confuse "Vedanta" with "Vedangas." Vedangas are limbs/auxiliaries of the Vedas used for correct recitation (Siksha, Kalpa, Vyakarana, Nirukta, Chhandas, Jyotisha). Vedanta is a philosophy.
 </div>
 
@@ -35782,7 +35782,7 @@ window.EXPANDED_NOTES_DATA["literature"] = String.raw`
 </tbody>
 </table>
 
-<div style="background-color:#d4edda; padding:10px; border-left:4px solid #28a745; margin:10px 0;">
+<div style="background-color:rgba(40, 167, 69, 0.15); padding:10px; border-left:4px solid #28a745; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> 2026 trends specifically focus on the authorship of <em>Arthashastra</em> (Kautilya) and <em>Mudrarakshasa</em> (Vishakhadatta). A direct question: <em>"Who is the author of Mudrarakshasa?"</em> is highly probable.
 </div>
 
@@ -35902,7 +35902,7 @@ window.EXPANDED_NOTES_DATA["literature"] = String.raw`
 <li><strong>Abdur Qadir Badauni:</strong> Muntakhab-ut-Tawarikh (Translation of Mahabharata into Persian was by Faizi, not Badauni).</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <strong>⚠️ Trap Alert:</strong> UPSC often asks: <em>"Who translated the Mahabharata into Persian?"</em> The answer is <strong>Naqib Khan</strong> (under Akbar) and earlier <strong>Faizi</strong> translated <em>Razm Nama</em> from Ramayana & Mahabharata. Badauni was a critic, not the translator.
 </div>
 
@@ -36116,7 +36116,7 @@ window.EXPANDED_NOTES_DATA["religion-festivals"] = String.raw`
 <li>Mathura and Vrindavan - Birthplace and childhood home of Lord Krishna</li>
 </ul>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> The Vedas are divided into four parts: Samhitas (hymns), Brahmanas (rituals), Aranyakas (theology), and Upanishads (philosophy). The Rigveda is the oldest and most important, containing 1,028 hymns.
 </div>
 
@@ -36304,7 +36304,7 @@ window.EXPANDED_NOTES_DATA["religion-festivals"] = String.raw`
 <li>Regarded as the <strong>eternal Guru</strong> after Guru Gobind Singh</li>
 </ul>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>🎯 PYQ Insight:</strong> Questions frequently ask about the "last living Guru" of Sikhism. The answer is <strong>Guru Gobind Singh</strong>, after whom the Guru Granth Sahib became the eternal Guru. Remember this distinction as it's a common UPSC trick to confuse students.
 </div>
 
@@ -36649,7 +36649,7 @@ window.EXPANDED_NOTES_DATA["religion-festivals"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> Eid-ul-Fitr and Eid-ul-Adha dates vary each year because the Islamic calendar is lunar-based (354 days). Eid moves approximately 11 days earlier each year in the Gregorian calendar. This is a common question in exams.
 </div>
 
@@ -36753,7 +36753,7 @@ window.EXPANDED_NOTES_DATA["religion-festivals"] = String.raw`
 </tr>
 </table>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> Diwali has significance in multiple religions - for Hindus it marks Rama's return to Ayodhya, for Jains it commemorates Mahavira's salvation, and for Sikhs it celebrates the release of Guru Hargobind Singh from imprisonment. Questions often test if students know these distinct perspectives. Don't get confused!
 </div>
 
@@ -36829,7 +36829,7 @@ window.EXPANDED_NOTES_DATA["religion-festivals"] = String.raw`
 <li><strong>Religious harmony and secularism</strong> - Constitutional provisions</li>
 </ol>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>🧠 Mnemonic:</strong> To remember the Five Pillars of Islam, use: <strong>"S</strong>ala<strong>Z</strong>am <strong>S</strong>hah <strong>H</strong>ajji" - Salah, Zakat, Sawm, Shahada, Hajj.
 </div>
 
@@ -36921,7 +36921,7 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
     <li><strong>(x)</strong> Contain the most important natural habitats for in-situ conservation of biological diversity</li>
 </ul>
 
-<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<div style="background-color: rgba(255, 193, 7, 0.15); padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> A site needs to meet only ONE of the ten criteria to be inscribed. However, the justification must clearly demonstrate how the site possesses "Outstanding Universal Value" that transcends national boundaries.
 </div>
 
@@ -36962,7 +36962,7 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>🧠 Mnemonic:</strong> <em>"Triple C"</em> – <strong>C</strong>ultural → <strong>IC</strong>OMOS | <strong>C</strong>onservation → <strong>ICC</strong>ROM | <strong>C</strong>ommittee → <strong>W</strong>orld Heritage <strong>C</strong>ommittee
 </div>
 
@@ -37213,7 +37213,7 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
     <li>UNESCO Criteria: (i), (iii)</li>
 </ul>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> Students often confuse Ajanta and Ellora. Remember: <strong>Ajanta = Buddhist + Paintings</strong> (discovered by John Smith in 1819). <strong>Ellora = Three religions + Kailasha temple</strong> (Hindu, Buddhist, Jain caves together). Both are in Maharashtra but in different districts.
 </div>
 
@@ -37283,7 +37283,7 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
     <li>Other components: Vajrasana (seat of enlightenment), 6 other temples, Ashoka Pillar</li>
 </ul>
 
-<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<div style="background-color: rgba(255, 193, 7, 0.15); padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> India has more Buddhist heritage sites on the UNESCO list than any other country. Ajanta, Ellora, Sanchi, Mahabodhi Temple, and the Great Living Chola Temples (where Buddhism was practiced) all reflect India's role in Buddhism's development.
 </div>
 
@@ -37473,7 +37473,7 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<div style="background-color: rgba(255, 193, 7, 0.15); padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> The <strong>Taj Mahal</strong> was the 900th site to be inscribed on the World Heritage List in 1983. It was added to the "In Danger" list in 2010 due to pollution concerns but was removed in 2017 after the Indian government implemented the <strong>Agra Atmospheric Pollution Control Programme</strong>.
 </div>
 
@@ -37579,7 +37579,7 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>🧠 Mnemonic:</strong> <em>"ASI + NMA = Conservation"</em> — ASI protects monuments; NMA guards the areas around them. Think of NMA as the "No-Movement-Area" around monuments.
 </div>
 
@@ -37607,7 +37607,7 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
     <li><strong>Tourism Impact:</strong> Millions of visitors annually contributing to wear and tear</li>
 </ul>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Trap Alert:</strong> Questions sometimes ask about "Marble cancer" affecting the Taj Mahal. This refers to <strong>spalling</strong> (flaking of marble surface) caused by air pollution and moisture penetration, not actual cancer. Another common trick question: The Taj Mahal was <strong>NOT</strong> built by a British architect; it was built by Mughal artisans under Ustad Ahmad Lahori.
 </div>
 
@@ -37689,7 +37689,7 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
     </tr>
 </table>
 
-<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<div style="background-color: rgba(255, 193, 7, 0.15); padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
 <strong>💡 High-Yield Fact:</strong> India ranks <strong>6th globally</strong> in terms of the number of World Heritage Sites. Italy leads with 59 sites, followed by China with 57. India has the <strong>highest number of heritage sites in Asia</strong>.
 </div>
 
@@ -37763,7 +37763,7 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
     <li><strong>Military Museums:</strong> Some heritage sites have historical military significance (e.g., forts)</li>
 </ul>
 
-<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<div style="background-color: rgba(40, 167, 69, 0.15); padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
 <strong>🧠 Mnemonic for Recently Inscribed Sites:</strong> <em>"SVMJS" — Sundarbans, Victorian Gothic, Mumbai, Jaipur, Ramappa, Santiniketan, Moidams</em> — chronologically: 2017, 2018, 2019, 2021, 2023, 2024.
 </div>
 
@@ -37808,7 +37808,7 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
 
 <h3>17.2 High-Yield Facts for Quick Revision</h3>
 
-<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<div style="background-color: rgba(255, 193, 7, 0.15); padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
 <strong>💡 Memory Bank:</strong>
 <ul style="margin: 10px 0; padding-left: 20px;">
 <li>The <strong>World Heritage Convention</strong> was adopted in <strong>1972</strong></li>
@@ -37841,7 +37841,7 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
 <p><strong>Q5. Which is the latest Indian site to be inscribed in 2024?</strong></p>
 <p>Ans: The Moidams — the burial mounds of the Ahom dynasty in Assam — were inscribed in 2024.</p>
 
-<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<div style="background-color: rgba(220, 53, 69, 0.15); padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
 <strong>⚠️ Final Trap Check:</strong>
 <ul style="margin: 10px 0; padding-left: 20px;">
 <li>Do NOT confuse <strong>UNESCO World Heritage</strong> with <strong>UNESCO Intangible Cultural Heritage</strong> — they are different programmes</li>

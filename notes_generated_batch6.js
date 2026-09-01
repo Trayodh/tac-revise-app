@@ -15,7 +15,7 @@ window.EXPANDED_NOTES_DATA["ca-upsc-master-framework"] = String.raw`
   <li><strong>Science & Space:</strong> ISRO missions (Chandrayaan, Aditya L1), DRDO missile tests, and AI regulations.</li>
   <li><strong>Awards & Honors:</strong> Gallantry awards (Param Vir Chakra, Ashok Chakra), Nobel Prizes, and major sports tournaments (Olympics, Asian Games, Grand Slams).</li>
 </ul>
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> For AFCAT, CA is highly factual (e.g., "Who won the Booker Prize?"). For CDS/NDA, CA is statement-based (e.g., "Consider the following statements regarding the Quad...").
 </div>
 `;
@@ -72,7 +72,7 @@ window.EXPANDED_NOTES_DATA["ca-awards"] = window.EXPANDED_NOTES_DATA["ca-relatio
 <h1>Current Affairs Updates (Check CA Dashboard)</h1>
 <hr />
 <p>For highly volatile and dynamic current affairs topics (like recent awards, newly signed policies, monthly summits, and specific defense acquisitions), please refer to the dedicated <strong>Current Affairs DB</strong> and the monthly update modules within the application.</p>
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> Do not rely on static notes for these topics. Always read the latest 6 months' current affairs magazines prior to your exam date.
 </div>
 `;
@@ -129,7 +129,7 @@ window.EXPANDED_NOTES_DATA["syl-afcat-spatial"] = String.raw`
 
 <h2>3. Embedded Figures</h2>
 <p>You must find the hidden question figure inside one of the complex option figures. Do not change the orientation of the question figure unless specified.</p>
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> In non-verbal series, sometimes elements alternate between two states rather than progressing linearly. Check alternate figures (1st -> 3rd -> 5th) if linear logic fails.
 </div>
 `;
@@ -138,7 +138,7 @@ window.EXPANDED_NOTES_DATA["syl-matrices"] = window.EXPANDED_NOTES_DATA["circles
 <h1>Practice & Drills Required</h1>
 <hr />
 <p>This topic is highly practical and application-based. Theoretical notes are insufficient to master it. Please navigate to the <strong>Practice Modules</strong> and solve at least 50 PYQs to build speed and accuracy.</p>
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> For mathematical and reasoning topics, speed is as important as accuracy. Utilize the timer feature in the app during your drills!
 </div>
 `;

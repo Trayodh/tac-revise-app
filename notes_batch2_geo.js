@@ -10,7 +10,7 @@ window.EXPANDED_NOTES_DATA["geomorphology-rocks"] = String.raw`
   <li><strong>Metamorphic Rocks:</strong> Formed when existing rocks are subjected to extreme heat and pressure. Examples: Marble (from limestone), Slate (from shale), Quartzite (from sandstone), Gneiss (from granite).</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The Deccan Plateau in India is primarily made up of <strong>Basalt</strong> rock (Extrusive Igneous rock) formed from ancient volcanic eruptions.
 </div>
 `;
@@ -85,7 +85,7 @@ window.EXPANDED_NOTES_DATA["india-national-parks"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> Do not confuse Kanha NP (Madhya Pradesh) with Bandipur NP (Karnataka). Both are famous tiger reserves, but located in entirely different parts of the country.
 </div>
 `;

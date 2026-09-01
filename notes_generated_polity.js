@@ -31,7 +31,7 @@ window.EXPANDED_NOTES_DATA["schedules"] = String.raw`
 <h3>1. First Schedule (Territories)</h3>
 <p>Contains the names of the States and Union Territories (UTs) along with their territorial jurisdiction. Whenever a new state is created or a boundary is altered (under Article 2 or 3), this schedule is amended.</p>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The 69th Amendment Act of 1991 gave a special status to Delhi, redesignating it as the National Capital Territory of Delhi, which is reflected in changes related to this schedule.
 </div>
 
@@ -45,7 +45,7 @@ window.EXPANDED_NOTES_DATA["schedules"] = String.raw`
   <li>Comptroller and Auditor General (CAG) of India</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> The Prime Minister, Chief Ministers, and Union/State Ministers are <strong>NOT</strong> mentioned in the Second Schedule. Their salaries are determined by Parliament/State Legislature by law.
 </div>
 
@@ -77,13 +77,13 @@ window.EXPANDED_NOTES_DATA["schedules"] = String.raw`
 <h3>8. Eighth Schedule (Official Languages)</h3>
 <p>Lists the 22 official languages recognized by the Constitution. Originally, there were 14 languages. Sindhi was added by the 21st Amendment (1967). Konkani, Manipuri, and Nepali by the 71st Amendment (1992). Bodo, Dogri, Maithili, and Santhali by the 92nd Amendment (2003).</p>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> <strong>English and Rajasthani</strong> are NOT included in the 8th Schedule, despite being widely spoken.
 </div>
 
 <h3>9. Ninth Schedule (Land Reforms & Judicial Review)</h3>
 <p>Added by the <strong>1st Amendment Act (1951)</strong> to protect land reform and other laws from judicial review on the grounds of violation of Fundamental Rights.</p>
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> In the I.R. Coelho case (2007), the Supreme Court ruled that laws placed in the 9th Schedule after April 24, 1973 (Kesavananda Bharati verdict) are open to judicial review if they violate the basic structure.
 </div>
 
@@ -104,7 +104,7 @@ window.EXPANDED_NOTES_DATA["fundamental-rights"] = String.raw`
 <h2>Introduction to Fundamental Rights</h2>
 <p>Fundamental Rights are enshrined in <strong>Part III</strong> of the Constitution from <strong>Articles 12 to 35</strong>. They are called the "Magna Carta of India" and are guaranteed to all citizens to protect their liberties against state encroachment. They are justifiable in nature (enforceable by courts).</p>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The concept of Fundamental Rights was borrowed from the <strong>Bill of Rights (USA)</strong>.
 </div>
 
@@ -130,7 +130,7 @@ window.EXPANDED_NOTES_DATA["fundamental-rights"] = String.raw`
   <li><strong>Article 18:</strong> Abolition of titles except military and academic.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> Article 15 and 16 apply <strong>only to citizens</strong>. Foreigners cannot claim these rights.
 </div>
 
@@ -185,7 +185,7 @@ window.EXPANDED_NOTES_DATA["dpsp"] = String.raw`
 <hr />
 <h2>Introduction to DPSP</h2>
 <p>The Directive Principles of State Policy (DPSP) are enumerated in <strong>Part IV</strong> of the Constitution from <strong>Articles 36 to 51</strong>. Borrowed from the Irish Constitution (which had copied it from the Spanish Constitution), they embody the concept of a "Welfare State".</p>
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> Unlike Fundamental Rights, DPSPs are <strong>non-justiciable</strong> in nature. This means they are not legally enforceable by the courts for their violation. However, Article 37 states that they are "fundamental in the governance of the country."
 </div>
 
@@ -208,7 +208,7 @@ window.EXPANDED_NOTES_DATA["citizenship"] = String.raw`
 <h2>Constitutional Provisions</h2>
 <p>Citizenship is covered under <strong>Part II</strong> of the Constitution, from <strong>Articles 5 to 11</strong>. India provides for <strong>Single Citizenship</strong> (unlike the USA which has dual citizenship). The Constitution only dealt with the citizenship of people at the commencement of the Constitution (Jan 26, 1950) and left it to Parliament to legislate on subsequent matters.</p>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> Article 11 empowers the <strong>Parliament</strong> (not state legislatures) to regulate the right of citizenship by law. This led to the enactment of the Citizenship Act, 1955.
 </div>
 
@@ -222,7 +222,7 @@ window.EXPANDED_NOTES_DATA["citizenship"] = String.raw`
   <li><strong>By Incorporation of Territory:</strong> If a foreign territory becomes part of India (e.g., Puducherry, Sikkim).</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> Acquisition by "Marriage" is technically done through <strong>Registration</strong>. If a foreigner marries an Indian citizen and resides in India for 7 years, they apply via registration, not naturalisation.
 </div>
 `;
@@ -241,7 +241,7 @@ window.EXPANDED_NOTES_DATA["president"] = String.raw`
   <li>Elected members of the legislative assemblies of Delhi and Puducherry (added by 70th Amendment Act, 1992).</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> <strong>Nominated members</strong> (of both Parliament and State Assemblies) and members of State Legislative Councils (Vidhan Parishad) DO NOT participate in the President's election.
 </div>
 
@@ -269,7 +269,7 @@ window.EXPANDED_NOTES_DATA["parliament"] = String.raw`
   <li>The Council of States (Rajya Sabha)</li>
   <li>The House of the People (Lok Sabha)</li>
 </ol>
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The President is an integral part of Parliament even though he/she is not a member of either House. A bill passed by both Houses cannot become law without the President's assent.
 </div>
 
@@ -279,7 +279,7 @@ window.EXPANDED_NOTES_DATA["parliament"] = String.raw`
 <h2>Lok Sabha (Lower House)</h2>
 <p>Maximum strength is 550 (originally 552, but the 2 Anglo-Indian nominated seats were abolished by the 104th Amendment Act, 2019). The normal term is 5 years, but it can be dissolved earlier by the President.</p>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> <strong>Money Bills (Article 110)</strong> can ONLY be introduced in the Lok Sabha, not the Rajya Sabha. The Rajya Sabha has restricted powers regarding Money Bills (it can only delay it for 14 days).
 </div>
 `;
@@ -328,7 +328,7 @@ window.EXPANDED_NOTES_DATA["amendments-parts"] = String.raw`
   <li><strong>101st Amendment (2016):</strong> Introduced Goods and Services Tax (GST).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The <strong>Kesavananda Bharati case (1973)</strong> established the "Basic Structure Doctrine", ruling that Parliament cannot alter the basic structure of the Constitution under Article 368.
 </div>
 `;
@@ -345,7 +345,7 @@ window.EXPANDED_NOTES_DATA["goverment-executives"] = String.raw`
 
 <h3>Council of Ministers</h3>
 <p>Article 74 states there shall be a Council of Ministers with the PM at the head to aid and advise the President. Article 75 states that the Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha).</p>
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The total number of ministers, including the PM, in the Council of Ministers shall not exceed 15% of the total strength of the Lok Sabha (Added by the 91st Amendment Act, 2003).
 </div>
 
@@ -403,7 +403,7 @@ window.EXPANDED_NOTES_DATA["important-articles"] = String.raw`
   <li><strong>Art 368:</strong> Power of Parliament to amend the Constitution and procedure therefor.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> The word "Budget" is <strong>nowhere</strong> mentioned in the Constitution. The constitutional term used is "Annual Financial Statement" (Article 112).
 </div>
 `;
@@ -464,7 +464,7 @@ window.EXPANDED_NOTES_DATA["positions-tenures"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The Attorney General (AG) has the right to speak and take part in the proceedings of both Houses of Parliament without a right to vote.
 </div>
 `;
@@ -483,7 +483,7 @@ window.EXPANDED_NOTES_DATA["constitutional-bodies"] = String.raw`
   <li><strong>Attorney General of India (Article 76):</strong> The highest law officer in the country.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> NITI Aayog, National Human Rights Commission (NHRC), Central Bureau of Investigation (CBI), and Central Vigilance Commission (CVC) are <strong>NON-Constitutional Bodies</strong>.
 </div>
 `;
@@ -534,7 +534,7 @@ window.EXPANDED_NOTES_DATA["polity-federal-structure"] = String.raw`
   <li>During President's Rule (Art 356).</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The <strong>Residuary Powers (Article 248)</strong>—subjects not mentioned in any of the three lists (e.g., Cyber Laws)—are vested in the <strong>Union Parliament</strong>, not the states (unlike the USA).
 </div>
 
@@ -567,7 +567,7 @@ window.EXPANDED_NOTES_DATA["polity-rpa"] = String.raw`
   <strong>⚡ PYQ Insight:</strong> (CAPF 2020) "Under which act are political parties registered?" Answer: <strong>Section 29A of the Representation of the People Act, 1951.</strong>
 </div>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> Disqualification on the ground of defection is NOT decided under the RPA 1951. It is decided under the <strong>10th Schedule</strong> by the Presiding Officer (Speaker/Chairman) of the House.
 </div>
 `;

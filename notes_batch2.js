@@ -4,7 +4,7 @@ window.EXPANDED_NOTES_DATA["dpsp"] = String.raw`
 <hr />
 <h2>Introduction to DPSP</h2>
 <p>The Directive Principles of State Policy (DPSP) are enumerated in <strong>Part IV</strong> of the Constitution from <strong>Articles 36 to 51</strong>. Borrowed from the Irish Constitution (which had copied it from the Spanish Constitution), they embody the concept of a "Welfare State".</p>
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> Unlike Fundamental Rights, DPSPs are <strong>non-justiciable</strong> in nature. This means they are not legally enforceable by the courts for their violation. However, Article 37 states that they are "fundamental in the governance of the country."
 </div>
 
@@ -27,7 +27,7 @@ window.EXPANDED_NOTES_DATA["citizenship"] = String.raw`
 <h2>Constitutional Provisions</h2>
 <p>Citizenship is covered under <strong>Part II</strong> of the Constitution, from <strong>Articles 5 to 11</strong>. India provides for <strong>Single Citizenship</strong> (unlike the USA which has dual citizenship). The Constitution only dealt with the citizenship of people at the commencement of the Constitution (Jan 26, 1950) and left it to Parliament to legislate on subsequent matters.</p>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> Article 11 empowers the <strong>Parliament</strong> (not state legislatures) to regulate the right of citizenship by law. This led to the enactment of the Citizenship Act, 1955.
 </div>
 
@@ -41,7 +41,7 @@ window.EXPANDED_NOTES_DATA["citizenship"] = String.raw`
   <li><strong>By Incorporation of Territory:</strong> If a foreign territory becomes part of India (e.g., Puducherry, Sikkim).</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> Acquisition by "Marriage" is technically done through <strong>Registration</strong>. If a foreigner marries an Indian citizen and resides in India for 7 years, they apply via registration, not naturalisation.
 </div>
 `;
@@ -60,7 +60,7 @@ window.EXPANDED_NOTES_DATA["president"] = String.raw`
   <li>Elected members of the legislative assemblies of Delhi and Puducherry (added by 70th Amendment Act, 1992).</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> <strong>Nominated members</strong> (of both Parliament and State Assemblies) and members of State Legislative Councils (Vidhan Parishad) DO NOT participate in the President's election.
 </div>
 

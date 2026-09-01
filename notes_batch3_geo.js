@@ -37,7 +37,7 @@ window.EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The <strong>Palk Strait</strong> connects the Bay of Bengal to the Palk Bay and separates India (Tamil Nadu) from Sri Lanka.
 </div>
 `;
@@ -58,7 +58,7 @@ window.EXPANDED_NOTES_DATA["syl-geog"] = String.raw`
   <li><strong>Revolution:</strong> Earth orbits the sun in an elliptical path, causing Seasons. Takes ~365.25 days.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> Seasons are NOT caused by Earth's distance from the sun during its elliptical orbit. They are caused primarily by <strong>Earth's axial tilt of 23.5°</strong>.
 </div>
 `;
@@ -110,7 +110,7 @@ window.EXPANDED_NOTES_DATA["india-transport-routes"] = String.raw`
 <hr />
 <h2>Roadways</h2>
 <p>India has one of the largest road networks in the world. National Highways (NH) are maintained by NHAI.</p>
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> <strong>NH 44</strong> (formerly NH 7) is the longest National Highway in India, running from Srinagar in the north to Kanyakumari in the south.
 </div>
 <p><strong>Golden Quadrilateral:</strong> Connects the 4 metro cities: Delhi, Mumbai, Chennai, Kolkata.</p>
@@ -149,7 +149,7 @@ window.EXPANDED_NOTES_DATA["geog-geopolitics"] = String.raw`
   <li><strong>Siliguri Corridor (Chicken's Neck):</strong> A narrow stretch of land (approx. 20-22 km wide) in West Bengal connecting India's northeastern states to the rest of India. It is highly vulnerable strategically.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> The Doklam standoff (2017) occurred at a tri-junction between India (Sikkim), China (Tibet), and Bhutan. It is strategically crucial because of its proximity to the Siliguri Corridor.
 </div>
 `;

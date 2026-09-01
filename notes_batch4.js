@@ -10,7 +10,7 @@ window.EXPANDED_NOTES_DATA["goverment-executives"] = String.raw`
 
 <h3>Council of Ministers</h3>
 <p>Article 74 states there shall be a Council of Ministers with the PM at the head to aid and advise the President. Article 75 states that the Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha).</p>
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The total number of ministers, including the PM, in the Council of Ministers shall not exceed 15% of the total strength of the Lok Sabha (Added by the 91st Amendment Act, 2003).
 </div>
 
@@ -68,7 +68,7 @@ window.EXPANDED_NOTES_DATA["important-articles"] = String.raw`
   <li><strong>Art 368:</strong> Power of Parliament to amend the Constitution and procedure therefor.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> The word "Budget" is <strong>nowhere</strong> mentioned in the Constitution. The constitutional term used is "Annual Financial Statement" (Article 112).
 </div>
 `;
@@ -129,7 +129,7 @@ window.EXPANDED_NOTES_DATA["positions-tenures"] = String.raw`
   </tr>
 </table>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The Attorney General (AG) has the right to speak and take part in the proceedings of both Houses of Parliament without a right to vote.
 </div>
 `;
@@ -148,7 +148,7 @@ window.EXPANDED_NOTES_DATA["constitutional-bodies"] = String.raw`
   <li><strong>Attorney General of India (Article 76):</strong> The highest law officer in the country.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> NITI Aayog, National Human Rights Commission (NHRC), Central Bureau of Investigation (CBI), and Central Vigilance Commission (CVC) are <strong>NON-Constitutional Bodies</strong>.
 </div>
 `;
@@ -199,7 +199,7 @@ window.EXPANDED_NOTES_DATA["polity-federal-structure"] = String.raw`
   <li>During President's Rule (Art 356).</li>
 </ol>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The <strong>Residuary Powers (Article 248)</strong>—subjects not mentioned in any of the three lists (e.g., Cyber Laws)—are vested in the <strong>Union Parliament</strong>, not the states (unlike the USA).
 </div>
 
@@ -232,7 +232,7 @@ window.EXPANDED_NOTES_DATA["polity-rpa"] = String.raw`
   <strong>⚡ PYQ Insight:</strong> (CAPF 2020) "Under which act are political parties registered?" Answer: <strong>Section 29A of the Representation of the People Act, 1951.</strong>
 </div>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> Disqualification on the ground of defection is NOT decided under the RPA 1951. It is decided under the <strong>10th Schedule</strong> by the Presiding Officer (Speaker/Chairman) of the House.
 </div>
 `;

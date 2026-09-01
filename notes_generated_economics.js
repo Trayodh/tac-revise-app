@@ -19,11 +19,11 @@ window.EXPANDED_NOTES_DATA["econ-concepts"] = String.raw`
   <li><strong>National Income (NNP at Factor Cost):</strong> The true measure of a nation's income. It is GNP minus Depreciation, adjusted for indirect taxes and subsidies.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The Base Year currently used in India for calculating GDP is <strong>2011-12</strong>. The Central Statistics Office (CSO) under MoSPI computes the National Income.
 </div>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> <em>Real GDP</em> is adjusted for inflation (using base year prices), while <em>Nominal GDP</em> is calculated at current market prices. High Nominal GDP doesn't always mean real growth if inflation is very high!
 </div>
 `;
@@ -101,7 +101,7 @@ window.EXPANDED_NOTES_DATA["econ-budget-fiscal"] = String.raw`
   <li><strong>Primary Deficit:</strong> Fiscal Deficit - Interest Payments. Indicates the borrowing required for current year's spending, excluding past debt obligations.</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> As per the FRBM Act (Fiscal Responsibility and Budget Management), the ideal target for Fiscal Deficit is 3% of GDP.
 </div>
 `;
@@ -118,7 +118,7 @@ window.EXPANDED_NOTES_DATA["econ-trade-bop"] = String.raw`
 <h3>2. Capital Account</h3>
 <p>Records transactions involving financial assets and liabilities. Includes Foreign Direct Investment (FDI), Foreign Portfolio Investment (FPI/FII), External Commercial Borrowings (ECB), and NRI deposits. India usually runs a Capital Account Surplus, which offsets the CAD.</p>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> Remittances sent by Indians working in the Gulf to their families in India are recorded in the <strong>Current Account (under Unilateral Transfers)</strong>, NOT the Capital Account.
 </div>
 
@@ -183,7 +183,7 @@ window.EXPANDED_NOTES_DATA["external-sector-institutions"] = String.raw`
   <li><strong>IDA (International Development Association):</strong> Provides interest-free loans (concessional lending) to the poorest countries. Known as the "Soft Loan Window".</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The World Trade Organization (WTO) is NOT a Bretton Woods institution. It was established in 1995, replacing the General Agreement on Tariffs and Trade (GATT).
 </div>
 `;
@@ -200,7 +200,7 @@ window.EXPANDED_NOTES_DATA["econ-govt-schemes"] = String.raw`
   <li><strong>Make in India:</strong> Launched in 2014 to facilitate investment, foster innovation, and build best-in-class manufacturing infrastructure.</li>
 </ul>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> <em>Central Sector Schemes</em> are 100% funded by the Union Government (e.g., PM-KISAN). <em>Centrally Sponsored Schemes</em> are jointly funded by the Centre and States (usually in a 60:40 or 90:10 ratio).
 </div>
 `;

@@ -9,7 +9,7 @@ window.EXPANDED_NOTES_DATA["parliament"] = String.raw`
   <li>The Council of States (Rajya Sabha)</li>
   <li>The House of the People (Lok Sabha)</li>
 </ol>
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The President is an integral part of Parliament even though he/she is not a member of either House. A bill passed by both Houses cannot become law without the President's assent.
 </div>
 
@@ -19,7 +19,7 @@ window.EXPANDED_NOTES_DATA["parliament"] = String.raw`
 <h2>Lok Sabha (Lower House)</h2>
 <p>Maximum strength is 550 (originally 552, but the 2 Anglo-Indian nominated seats were abolished by the 104th Amendment Act, 2019). The normal term is 5 years, but it can be dissolved earlier by the President.</p>
 
-<div style="background-color:#f8d7da; padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> <strong>Money Bills (Article 110)</strong> can ONLY be introduced in the Lok Sabha, not the Rajya Sabha. The Rajya Sabha has restricted powers regarding Money Bills (it can only delay it for 14 days).
 </div>
 `;
@@ -68,7 +68,7 @@ window.EXPANDED_NOTES_DATA["amendments-parts"] = String.raw`
   <li><strong>101st Amendment (2016):</strong> Introduced Goods and Services Tax (GST).</li>
 </ul>
 
-<div style="background-color:#ffeeba; padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The <strong>Kesavananda Bharati case (1973)</strong> established the "Basic Structure Doctrine", ruling that Parliament cannot alter the basic structure of the Constitution under Article 368.
 </div>
 `;
