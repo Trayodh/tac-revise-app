@@ -2,6 +2,29 @@
 
 // Dependencies: data.js (which contains NOTES_DATABASE, window.CURRENT_AFFAIRS_DB, etc.)
 
+// Fuzzy lookup for EXPANDED_NOTES_DATA — handles elite_ topic ID mismatches
+function lookupExpandedNotes(topicId) {
+  if (typeof window.EXPANDED_NOTES_DATA === 'undefined') return null;
+  // Try exact match first
+  if (window.EXPANDED_NOTES_DATA[topicId]) return window.EXPANDED_NOTES_DATA[topicId];
+  // For elite_ IDs like 'elite_Mathematics_Number_System.md', extract the topic name part
+  if (topicId && topicId.startsWith('elite_')) {
+    // Remove 'elite_Subject_' prefix and '.md' suffix to get e.g. 'Number_System'
+    const parts = topicId.replace(/\.md$/i, '').split('_');
+    // parts: ['elite', 'Mathematics', 'Number', 'System'] — skip first two
+    const topicName = parts.slice(2).join('_').toLowerCase();
+    if (topicName) {
+      for (const key of Object.keys(window.EXPANDED_NOTES_DATA)) {
+        // Keys look like '3_Number_System' — extract after first underscore
+        const keyParts = key.split('_');
+        const keyName = keyParts.slice(1).join('_').toLowerCase();
+        if (keyName === topicName) return window.EXPANDED_NOTES_DATA[key];
+      }
+    }
+  }
+  return null;
+}
+
 // Configure Marked.js to parse Mermaid code blocks into div.mermaid so mermaid.init() can find them.
 if (typeof marked !== 'undefined') {
   const renderer = {
@@ -2442,7 +2465,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
                }
             }
   
-            const expandedHtml = (typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id]) ? window.EXPANDED_NOTES_DATA[topic.id] : null;
+            const expandedHtml = lookupExpandedNotes(topic.id);
   
             if (expandedHtml) {
               const bodyMatch = expandedHtml.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
@@ -2694,9 +2717,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
     const dashboardContainer = document.getElementById('ai-holistic-dashboard');
 
-    const topicContentStr = typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id] 
-
-                             ? window.EXPANDED_NOTES_DATA[topic.id] : topic.notes;
+    const topicContentStr = lookupExpandedNotes(topic.id) || topic.notes;
 
     HolisticLearningEngine.analyzeTopic(topic.id, topic.title, topicContentStr, dashboardContainer);
 
@@ -2794,7 +2815,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
       
 
-    const hasExpandedNotes = (typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topic.id]);
+    const hasExpandedNotes = !!lookupExpandedNotes(topic.id);
     
     if (!hasExpandedNotes) {
       fetch(mdUrl, { method: 'HEAD' })
@@ -7202,9 +7223,10 @@ async function sendDronaQuery() {
 
     if (notesScreen && notesScreen.classList.contains("active")) {
 
-      if (typeof EXPANDED_NOTES_DATA !== 'undefined' && EXPANDED_NOTES_DATA[selectedTopicId]) {
+      const _chatExpandedNotes = lookupExpandedNotes(selectedTopicId);
+      if (_chatExpandedNotes) {
 
-        contextText = EXPANDED_NOTES_DATA[selectedTopicId].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').substring(0, 3000);
+        contextText = _chatExpandedNotes.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').substring(0, 3000);
 
       } else if (typeof NOTES_DATABASE !== 'undefined') {
 
@@ -10872,9 +10894,10 @@ async function generateDetailedNotesOnDemand(subjectId, chapterId, topicId) {
 
   if (typeof topicNotesStr === 'string' && topicNotesStr.trim().startsWith('Detailed notes expanded in')) {
 
-    if (typeof window.EXPANDED_NOTES_DATA !== 'undefined' && window.EXPANDED_NOTES_DATA[topicId]) {
+    const _lectureExpandedNotes = lookupExpandedNotes(topicId);
+    if (_lectureExpandedNotes) {
 
-      topicNotesStr = window.EXPANDED_NOTES_DATA[topicId];
+      topicNotesStr = _lectureExpandedNotes;
 
     }
 
