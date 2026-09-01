@@ -36851,3 +36851,1019 @@ window.EXPANDED_NOTES_DATA["religion-festivals"] = String.raw`
 <p>For aspirants preparing for NDA, CDS, and AFCAT, mastering the fundamentals of Indian religions and festivals – including their origins, key figures, scriptures, practices, and festivals – will provide a strong foundation for both the general knowledge and current affairs sections of these examinations.</p>
 `;
 
+window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
+<h1>World Heritage Sites: UNESCO, Conservation & Preservation</h1>
+<hr />
+
+<h2>1. Introduction to Heritage Sites</h2>
+
+<p>Heritage sites represent the cultural and natural inheritance of humanity—spaces and places of outstanding universal value that transcend national boundaries. These sites bear witness to the grandeur of human creativity, the power of nature, and the resilience of civilizations across millennia. For defence exam aspirants, understanding heritage sites is essential not only for general knowledge but also because it reflects a nation's soft power, cultural diplomacy, and historical consciousness.</p>
+
+<p>Heritage preservation has become a critical global concern. With rapid urbanization, industrialization, and climate change threatening these irreplaceable assets, international bodies have established frameworks to identify, protect, and conserve sites of outstanding universal value. India, with its millennia-old civilization, hosts one of the world's richest collections of heritage sites.</p>
+
+<h2>2. UNESCO World Heritage Programme</h2>
+
+<h3>2.1 Origin and Background</h3>
+
+<p>The <strong>World Heritage Programme</strong> was established by <strong>UNESCO (United Nations Educational, Scientific and Cultural Organization)</strong> in 1972 through the <strong>Convention Concerning the Protection of the World Cultural and Natural Heritage</strong>. This international treaty was adopted at the 17th session of the UNESCO General Conference in Paris. As of now, over 190 countries are signatories to this convention.</p>
+
+<p>The programme aims to identify and conserve the world's most outstanding cultural and natural heritage sites for present and future generations. Each site inscribed on the World Heritage List receives international recognition and support for its protection.</p>
+
+<h3>2.2 UNESCO World Heritage Sites: Global Statistics</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 12px; border: 1px solid #ddd; text-align: left;">Category</th>
+        <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Number of Sites</th>
+        <th style="padding: 12px; border: 1px solid #ddd; text-align: left;">Percentage</th>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;">Cultural Sites</td>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">900+</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">~55%</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;">Natural Sites</td>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">230+</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">~28%</td>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;">Mixed Sites</td>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">40+</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">~3%</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Total (as of 2024)</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;"><strong>1,199</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">100%</td>
+    </tr>
+</table>
+
+<h3>2.3 Criteria for Selection</h3>
+
+<p>To be inscribed on the World Heritage List, a site must demonstrate <strong>Outstanding Universal Value (OUV)</strong> and meet at least one of the ten selection criteria established by UNESCO. These criteria are periodically revised.</p>
+
+<h4>Cultural Criteria (i) – (vi):</h4>
+<ul>
+    <li><strong>(i)</strong> Masterpiece of human creative genius</li>
+    <li><strong>(ii)</strong> Interchange of human values over a period of time</li>
+    <li><strong>(iii)</strong> Unique testimony to a cultural tradition</li>
+    <li><strong>(iv)</strong> Outstanding example of a type of building, architectural ensemble, or landscape</li>
+    <li><strong>(v)</strong> Outstanding example of traditional human settlement, land-use, or sea-use</li>
+    <li><strong>(vi)</strong> Directly or tangibly associated with events or living traditions, with ideas, or with beliefs, with artistic and literary works of outstanding universal significance</li>
+</ul>
+
+<h4>Natural Criteria (vii) – (x):</h4>
+<ul>
+    <li><strong>(vii)</strong> Contain superlative natural phenomena or areas of exceptional natural beauty</li>
+    <li><strong>(viii)</strong> Be outstanding examples representing major stages of Earth's history</li>
+    <li><strong>(ix)</strong> Be outstanding examples of ecological and biological processes</li>
+    <li><strong>(x)</strong> Contain the most important natural habitats for in-situ conservation of biological diversity</li>
+</ul>
+
+<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<strong>💡 High-Yield Fact:</strong> A site needs to meet only ONE of the ten criteria to be inscribed. However, the justification must clearly demonstrate how the site possesses "Outstanding Universal Value" that transcends national boundaries.
+</div>
+
+<h2>3. World Heritage Committee and Advisory Bodies</h2>
+
+<h3>3.1 World Heritage Committee</h3>
+
+<p>The <strong>World Heritage Committee</strong> is the primary decision-making body for the World Heritage Programme. It consists of representatives from 21 State Parties elected by the General Assembly for six-year terms. The Committee meets annually to:</p>
+<ul>
+    <li>Review reports on the state of conservation of inscribed properties</li>
+    <li>Decide on new inscriptions (including extensions and modifications)</li>
+    <li>Allocate financial assistance from the World Heritage Fund</li>
+    <li>Monitor sites and decide on "In Danger" listings</li>
+</ul>
+
+<h3>3.2 Advisory Bodies</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 12px; border: 1px solid #ddd;">Advisory Body</th>
+        <th style="padding: 12px; border: 1px solid #ddd;">Full Form</th>
+        <th style="padding: 12px; border: 1px solid #ddd;">Role</th>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>ICOMOS</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">International Council on Monuments and Sites</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Evaluates cultural heritage sites; provides expertise on preservation, restoration, and management</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>IUCN</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">International Union for Conservation of Nature</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Evaluates natural heritage sites; assesses ecological value and conservation status</td>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>ICCROM</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">International Centre for the Study of the Preservation and Restoration of Cultural Property</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Provides training, research, and technical assistance for heritage conservation</td>
+    </tr>
+</table>
+
+<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<strong>🧠 Mnemonic:</strong> <em>"Triple C"</em> – <strong>C</strong>ultural → <strong>IC</strong>OMOS | <strong>C</strong>onservation → <strong>ICC</strong>ROM | <strong>C</strong>ommittee → <strong>W</strong>orld Heritage <strong>C</strong>ommittee
+</div>
+
+<h2>4. India's World Heritage Sites</h2>
+
+<p>India, with its rich tapestry of civilizations spanning over 5,000 years, boasts <strong>43 World Heritage Sites</strong> as recognized by UNESCO. This places India among the top countries with the most heritage sites globally. India's sites represent an extraordinary diversity—from ancient rock-cut caves and architectural masterpieces to pristine natural landscapes and sacred mountain ecosystems.</p>
+
+<h3>4.1 Complete List of Indian World Heritage Sites</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">S.No.</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Name of Site</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Year Inscribed</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Type</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">State/Location</th>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">1</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Ajanta Caves</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1983</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Maharashtra</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">2</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Ellora Caves</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1983</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Maharashtra</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">3</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Agra Fort</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1983</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Uttar Pradesh</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Taj Mahal</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1983</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Uttar Pradesh</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">5</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Sun Temple, Konark</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1984</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Odisha</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">6</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Group of Monuments at Mahabalipuram</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1984</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Tamil Nadu</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">7</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Kaziranga National Park</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1985</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Natural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Assam</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">8</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Keoladeo National Park (Bharatpur)</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1985</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Natural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Rajasthan</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">9</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Khajuraho Group of Monuments</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1986</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Madhya Pradesh</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">10</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Elephanta Caves</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1987</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Maharashtra</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">11</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Great Living Chola Temples</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1987</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Tamil Nadu</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">12</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Mahabodhi Temple Complex, Bodh Gaya</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2002</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Bihar</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">13</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Champaner-Pavagadh Archaeological Park</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2004</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Gujarat</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">14</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Red Fort, Delhi</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2007</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Delhi</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">15</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Rani ki Vav (The Queen's Stepwell)</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2014</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Gujarat</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">16</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Archaeological Survey of India's Circular Receipts</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">NOT A SITE</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">—</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">—</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">17</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Nalanda University (Nalanda Ruins)</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2016</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Bihar</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">18</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Khangchendzonga National Park</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2016</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Natural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Sikkim</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">19</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">The Jantar Mantar, Jaipur</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2010</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Rajasthan</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">20</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Historic City of Ahmedabad</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2017</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Gujarat</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">21</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Gustays' Complex, Hampi</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1986</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Karnataka</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">22</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Hill Forts of Rajasthan</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2013</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Rajasthan</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">23</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Sansad Bhavan</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">NOT A SITE</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">—</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">—</td>
+    </tr>
+</table>
+
+<h3>4.2 Categorization of Indian Sites</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Category</th>
+        <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Count</th>
+        <th style="padding: 12px; border: 1px solid #ddd;">Examples</th>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;"><strong>Cultural</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">31</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Taj Mahal, Ajanta-Ellora, Khajuraho, Qutub Minar, Red Fort</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;"><strong>Natural</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">7</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Kaziranga, Keoladeo, Sundarbans, Khangchendzonga</td>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;"><strong>Mixed</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">1</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">None in India currently (Khasi Hills removed)</td>
+    </tr>
+</table>
+
+<div style="background-color: #d1ecf1; padding: 10px; border-left: 4px solid #17a2b8; margin: 10px 0;">
+<strong>🎯 Exam Focus:</strong> Questions frequently ask about the FIRST Indian sites to be inscribed. Remember: <strong>Taj Mahal, Ajanta Caves, Ellora Caves, and Agra Fort</strong> were all inscribed in <strong>1983</strong> — making them among the earliest World Heritage Sites in the world.
+</div>
+
+<h2>5. Notable Indian Heritage Sites: Detailed Study</h2>
+
+<h3>5.1 Taj Mahal, Agra (1983)</h3>
+
+<p>The <strong>Taj Mahal</strong> stands as the supreme achievement of Mughal architecture and is universally regarded as one of the finest examples of the fusion of different architectural traditions. Built between 1632 and 1653 by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, this ivory-white marble mausoleum combines elements from Islamic, Persian, Ottoman Turkish, and Indian architectural styles.</p>
+
+<p><strong>Key Facts for Exam:</strong></p>
+<ul>
+    <li>UNESCO Criteria: (i) masterpiece of human creative genius</li>
+    <li>Architect: Ustad Ahmad Lahori (generally attributed)</li>
+    <li>Materials: White Makrana marble, semi-precious stones (jasper, jade, turquoise, sapphire, etc.)</li>
+    <li>Located on the banks of the Yamuna River</li>
+    <li>Added to the <strong>"World Heritage in Danger"</strong> list in 2010 due to concerns about pollution; removed in 2017 after improvements</li>
+</ul>
+
+<h3>5.2 Ajanta Caves, Maharashtra (1983)</h3>
+
+<p>The <strong>Ajanta Caves</strong> are a series of approximately 30 Buddhist rock-cut cave monuments dating from the 2nd century BCE to the 6th century CE. These caves are renowned for their extraordinary wall paintings that depict the life of Buddha and various Jataka tales (stories of Buddha's previous incarnations).</p>
+
+<p><strong>Key Facts for Exam:</strong></p>
+<ul>
+    <li>Located in the Aurangabad district of Maharashtra</li>
+    <li>Discovered in 1819 by British officer John Smith during a tiger hunt</li>
+    <li>Cave paintings use natural pigments and depict Buddhist philosophy, royalty, and daily life</li>
+    <li>Caves are numbered Cave 1 to Cave 29; Cave 9, 10, 19, 26, and 27 are chaitya-grihas (prayer halls)</li>
+    <li>UNESCO Criteria: (i), (ii), (iii), (vi)</li>
+</ul>
+
+<h3>5.3 Ellora Caves, Maharashtra (1983)</h3>
+
+<p>The <strong>Ellora Caves</strong> represent one of the largest rock-cut temple cave complexes in the world, showcasing the heights of Indian rock-cut architecture. These 34 caves were excavated between the 5th and 10th centuries and represent three major religions — Hinduism, Buddhism, and Jainism.</p>
+
+<p><strong>Key Facts for Exam:</strong></p>
+<ul>
+    <li><strong>Cave 16:</strong> The Kailasha temple — the largest single monolithic rock excavation in the world, dedicated to Lord Shiva</li>
+    <li>Caves 1–12: Buddhist caves ( monasteries and prayer halls)</li>
+    <li>Caves 13–29: Hindu caves (13–18) and Jain caves (30–34)</li>
+    <li>The Kailasha temple took approximately 100 years to complete</li>
+    <li>UNESCO Criteria: (i), (iii)</li>
+</ul>
+
+<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<strong>⚠️ Trap Alert:</strong> Students often confuse Ajanta and Ellora. Remember: <strong>Ajanta = Buddhist + Paintings</strong> (discovered by John Smith in 1819). <strong>Ellora = Three religions + Kailasha temple</strong> (Hindu, Buddhist, Jain caves together). Both are in Maharashtra but in different districts.
+</div>
+
+<h3>5.4 Keoladeo National Park, Rajasthan (1985)</h3>
+
+<p>Formerly known as <strong>Bharatpur Bird Sanctuary</strong>, Keoladeo National Park is one of the richest bird areas in the world. This former duck-hunting reserve of the Maharaja of Bharatpur is a unique freshwater swamp ecosystem.</p>
+
+<p><strong>Key Facts for Exam:</strong></p>
+<ul>
+    <li>Located in Rajasthan; formerly known as Ghana</li>
+    <li>Arena of diverse habitats: grasslands, woodlands, wetlands</li>
+    <li>Over 370 species of birds recorded, including the critically endangered Siberian Crane</li>
+    <li>Migratory birds from Afghanistan, Turkmenistan, China, and Siberia visit during winter</li>
+    <li>UNESCO Criteria: (x) — important natural habitats for in-situ conservation</li>
+    <li>Added to the list of <strong>"World Heritage in Danger"</strong> in 2010 due to water shortage and invasive species</li>
+</ul>
+
+<h3>5.5 Sundarbans National Park, West Bengal (1987, 1992 as Tiger Reserve, 2017 as World Heritage)</h3>
+
+<p>The <strong>Sundarbans</strong> is the largest single tract of mangrove forest in the world, forming a complex ecosystem across the delta of the Ganges, Brahmaputra, and Meghna rivers. It is home to the Royal Bengal Tiger and serves as a critical barrier against cyclones and tsunamis.</p>
+
+<p><strong>Key Facts for Exam:</strong></p>
+<ul>
+    <li>Located in West Bengal (India) and Bangladesh</li>
+    <li>The Indian portion was declared a UNESCO World Heritage Site in 2017</li>
+    <li>UNESCO Criteria: (ix), (x)</li>
+    <li>Home to the Sundarbans Tiger (Royal Bengal Tiger adapted to mangroves)</li>
+    <li>Faces existential threats from rising sea levels due to climate change</li>
+</ul>
+
+<h3>5.6 Qutub Minar, Delhi (1993)</h3>
+
+<p>The <strong>Qutub Minar</strong> is a soaring 72.5-meter tall tower built in the early 13th century. It serves as a symbol of the beginning of Muslim rule in India and remains one of the most prominent examples of Indo-Islamic architecture.</p>
+
+<p><strong>Key Facts for Exam:</strong></p>
+<ul>
+    <li>Construction started by <strong>Qutub-ud-din Aibak</strong> (1192) and completed by <strong>Iltutmish</strong></li>
+    <li>First Islamic structure in India</li>
+    <li>Built with red sandstone and marble; five distinct stories with balconies</li>
+    <li>Surrounded by other significant structures: Alai Darwaza, Iron Pillar of Delhi, Quwwat-ul-Islam Mosque</li>
+    <li>UNESCO Criteria: (iv)</li>
+</ul>
+
+<h3>5.7 Rani ki Vav, Gujarat (2014)</h3>
+
+<p><strong>Rani ki Vav</strong> (The Queen's Stepwell) is a famous stepwell located in Patan, Gujarat. Constructed in the 11th century during the reign of the Solanki dynasty, it is recognized as the finest example of stepwell architecture in India.</p>
+
+<p><strong>Key Facts for Exam:</strong></p>
+<ul>
+    <li>Built by <strong>Queen Udayamati</strong> in memory of her husband, King Bhimdev I</li>
+    <li>Approximately 30 meters deep with seven levels of stairs</li>
+    <li>Features over 1,500 elaborate sculptures, mostly of Vishnu in various forms</li>
+    <li>UNESCO Criteria: (i), (iv)</li>
+    <li>Represents the Maru-Gurjara architectural style</li>
+</ul>
+
+<h3>5.8 Mahabodhi Temple Complex, Bihar (2002)</h3>
+
+<p>The <strong>Mahabodhi Temple Complex</strong> at Bodh Gaya marks the exact spot where Prince Siddhartha attained enlightenment (Buddhi) under a Bodhi tree and became the Buddha. It is one of the holiest sites in Buddhism.</p>
+
+<p><strong>Key Facts for Exam:</strong></p>
+<ul>
+    <li>The original temple was built by Emperor Ashoka in the 3rd century BCE</li>
+    <li>Current temple is from the 5th–6th century CE (Gupta period)</li>
+    <li>Features the sacred Bodhi tree (a descendant of the original tree under which Buddha meditated)</li>
+    <li>UNESCO Criteria: (i), (ii), (iii), (iv), (vi)</li>
+    <li>Other components: Vajrasana (seat of enlightenment), 6 other temples, Ashoka Pillar</li>
+</ul>
+
+<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<strong>💡 High-Yield Fact:</strong> India has more Buddhist heritage sites on the UNESCO list than any other country. Ajanta, Ellora, Sanchi, Mahabodhi Temple, and the Great Living Chola Temples (where Buddhism was practiced) all reflect India's role in Buddhism's development.
+</div>
+
+<h3>5.9 Khangchendzonga National Park, Sikkim (2016)</h3>
+
+<p><strong>Khangchendzonga National Park</strong> is India's first "Mixed" criteria site (though officially categorized as Natural) and the first in the Himalayas to be inscribed. Named after the world's third-highest mountain peak (Khangchendzonga, 8,586m), it encompasses one of the most pristine mountain ecosystems on Earth.</p>
+
+<p><strong>Key Facts for Exam:</strong></p>
+<ul>
+    <li>Added to UNESCO list in 2016</li>
+    <li>UNESCO Criteria: (iii), (vi), (vii), (ix), (x)</li>
+    <li>Home to unique biodiversity: Red Panda, Snow Leopard, Himalayan Tahr</li>
+    <li>Features sacred mountains, glaciers, and alpine meadows</li>
+    <li>Represents the interplay of natural and cultural heritage — local legends and mythology are intrinsically linked to the landscape</li>
+</ul>
+
+<h3>5.10 Hill Forts of Rajasthan (2013)</h3>
+
+<p>The <strong>Hill Forts of Rajasthan</strong> represent a serial property comprising six major hill forts spread across the Aravalli mountain range. These forts showcase the defensive architecture, cultural traditions, and military prowess of Rajput kingdoms.</p>
+
+<p><strong>Key Facts for Exam:</strong></p>
+<ul>
+    <li>Six forts included: <strong>Chittorgarh</strong>, Kumbhalgarh, Gwalior, Jaisalmer, Amber (Jaipur), and Taragarh (Bundi)</li>
+    <li>UNESCO Criteria: (ii), (iii)</li>
+    <li>These forts showcase Rajput military architecture, courtly traditions, and cultural patronage</li>
+    <li>Kumbhalgarh fort has the longest continuous wall in India after the Great Wall of China</li>
+</ul>
+
+<h2>6. Natural Heritage Sites of India</h2>
+
+<p>India's natural heritage sites represent some of the most ecologically diverse and geologically significant areas on the planet. These sites are crucial for biodiversity conservation and represent the natural wonders that have shaped India's ecological identity.</p>
+
+<h3>6.1 Complete List of Indian Natural Heritage Sites</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 10px; border: 1px solid #ddd;">S.No.</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Site Name</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Year</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">State</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Notable Features</th>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">1</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Kaziranga National Park</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1985</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Assam</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">One-horned rhinoceros, tigers, elephants</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">2</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Keoladeo National Park</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1985</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Rajasthan</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Migratory birds, Siberian crane</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">3</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Manas Wildlife Sanctuary</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1985</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Assam</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Tiger reserve, part of UNESCO World Heritage (transboundary)</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Nanda Devi and Valley of Flowers</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1988, 2005</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Uttarakhand</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Alpine flowers, snow leopard habitat</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">5</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Sundarbans National Park</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2017</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">West Bengal</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Mangrove ecosystem, Royal Bengal Tiger</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">6</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Khangchendzonga National Park</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2016</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Sikkim</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Glaciers, mountain peaks, diverse flora and fauna</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">7</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Great Himalayan National Park</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2014</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Himachal Pradesh</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Himalayan biodiversity, endangered species</td>
+    </tr>
+</table>
+
+<h2>7. Tentative List and Future Prospects</h2>
+
+<p>The <strong>Tentative List</strong> represents sites that a country intends to consider for nomination in the future. India has several sites on its tentative list, representing potential future World Heritage Sites.</p>
+
+<h3>7.1 Notable Sites on India's Tentative List</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 10px; border: 1px solid #ddd;">Site Name</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">State</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Category</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Year Submitted</th>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">Mawlynnong Village</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Meghalaya</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2014</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">Namdapha National Park</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Arunachal Pradesh</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Natural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2014</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">Khangchendzonga (Transboundary)</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Sikkim</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Natural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2006 (now inscribed)</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">Monuments of the Pallava Kingdom</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Tamil Nadu</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2014</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">Sanchi Stupa</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Madhya Pradesh</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Cultural</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2014</td>
+    </tr>
+</table>
+
+<div style="background-color: #d1ecf1; padding: 10px; border-left: 4px solid #17a2b8; margin: 10px 0;">
+<strong>🧠 Mnemonic for Natural Sites:</strong> <em>"KKNKMSG" — Kaziranga, Keoladeo, Nanda Devi, Khangchendzonga, Manas, Sundarbans, Great Himalayan</em>
+</div>
+
+<h2>8. World Heritage in Danger (Endangered Sites)</h2>
+
+<h3>8.1 Concept of "In Danger" Listing</h3>
+
+<p>When a World Heritage Site faces serious threats that could cause loss of its Outstanding Universal Value, the World Heritage Committee may place it on the <strong>"World Heritage in Danger" list</strong>. This serves as an early warning mechanism and helps mobilize international technical and financial assistance.</p>
+
+<h3>8.2 Criteria for "In Danger" Listing</h3>
+
+<ul>
+    <li>General deterioration of the site</li>
+    <li>Specific proven threats to the site's integrity</li>
+    <li>Development projects nearby</li>
+    <li>Natural disasters</li>
+    <li>Climate change impacts</li>
+    <li>Lack of adequate conservation policies</li>
+    <li>Armed conflict or natural calamities</li>
+</ul>
+
+<h3>8.3 Sites Removed from "In Danger"</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 10px; border: 1px solid #ddd;">Site</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Listed</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Removed</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Reason for Removal</th>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">Taj Mahal (India)</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2010</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2017</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Improvement in air quality measures around Agra</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">Manas Wildlife Sanctuary (India)</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">1992</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2011</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Improved conservation efforts post-conflict</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">Keoladeo National Park (India)</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2010</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">2019</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Water availability improved, invasive species management</td>
+    </tr>
+</table>
+
+<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<strong>💡 High-Yield Fact:</strong> The <strong>Taj Mahal</strong> was the 900th site to be inscribed on the World Heritage List in 1983. It was added to the "In Danger" list in 2010 due to pollution concerns but was removed in 2017 after the Indian government implemented the <strong>Agra Atmospheric Pollution Control Programme</strong>.
+</div>
+
+<h2>9. Conservation Principles and Frameworks</h2>
+
+<h3>9.1 Venice Charter (1964)</h3>
+
+<p>The <strong>International Charter for the Conservation and Restoration of Monuments and Sites</strong>, known as the <strong>Venice Charter</strong>, is the foundational document for heritage conservation principles. It established guidelines for the conservation and restoration of ancient buildings.</p>
+
+<p><strong>Key Principles:</strong></p>
+<ul>
+    <li><strong>Authenticity:</strong> Conservation must respect the original fabric and design</li>
+    <li><strong>Anastylosis:</strong> Ruins may be reconstructed using original components where documentation exists</li>
+    <li><strong>Context:</strong> Monuments must be preserved within their historical and environmental context</li>
+    <li><strong>Reversibility:</strong> Interventions should be reversible where possible</li>
+    <li><strong>Documentation:</strong> All restoration work must be thoroughly documented</li>
+</ul>
+
+<h3>9.2 Burra Charter (1979)</h3>
+
+<p>The <strong>Australia ICOMOS Burra Charter</strong> expanded conservation philosophy to include cultural significance, setting principles for places of cultural significance including Indigenous sites.</p>
+
+<h3>9.3 Nara Document on Authenticity (1994)</h3>
+
+<p>This document addressed the concept of authenticity in relation to diverse cultural traditions, emphasizing that authenticity is not limited to Western concepts but varies across cultures.</p>
+
+<h3>9.4 UNESCO Conventions Related to Heritage</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 10px; border: 1px solid #ddd;">Convention</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Year</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Purpose</th>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;">Convention for the Protection of Cultural Property</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">1954</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Protection of cultural property during armed conflict</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;">Convention Concerning the Protection of World Cultural and Natural Heritage</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">1972</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Establishment of World Heritage List</td>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;">Convention for the Safeguarding of Intangible Cultural Heritage</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2003</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Protection of traditions, performing arts, rituals</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;">Convention on the Protection and Promotion of the Diversity of Cultural Expressions</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2005</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Balancing trade and culture in cultural expressions</td>
+    </tr>
+</table>
+
+<h2>10. India's Heritage Conservation Framework</h2>
+
+<h3>10.1 Archaeological Survey of India (ASI)</h3>
+
+<p>The <strong>Archaeological Survey of India (ASI)</strong>, established in 1861 by Sir Cunningham, is the premier organization responsible for archaeological excavations, conservation, and maintenance of monuments and sites of national importance. ASI operates under the <strong>Ministry of Culture</strong>.</p>
+
+<p><strong>Key Functions:</strong></p>
+<ul>
+    <li>Surveying, exploring, and excavating archaeological sites</li>
+    <li>Maintaining over <strong>3,600 protected monuments</strong> across India</li>
+    <li>Conservation and restoration of heritage structures</li>
+    <li>Implementing the <strong>Ancient Monuments and Archaeological Sites and Remains Act, 1958</strong></li>
+</ul>
+
+<h3>10.2 Ancient Monuments and Archaeological Sites and Remains Act, 1958</h3>
+
+<p>This is the primary legislation for the protection of monuments and archaeological sites in India. It provides for:</p>
+<ul>
+    <li>Declaration of "ancient monuments" and "protected areas"</li>
+    <li>Prohibition of construction within prohibited and regulated areas</li>
+    <li>Powers of the Central Government to acquire monuments</li>
+    <li>Penalties for unauthorized construction or damage</li>
+</ul>
+
+<h3>10.3 National Heritage Conservation Organizations</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 10px; border: 1px solid #ddd;">Organization</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Role</th>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;">Archaeological Survey of India (ASI)</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Conservation of national monuments, excavations</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;">National Monuments Authority (NMA)</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Protection of monuments and areas around them</td>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;">Indian National Trust for Art and Cultural Heritage (INTACH)</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Non-governmental organization for heritage preservation</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;">Ministry of Culture</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Policy formulation and funding for heritage conservation</td>
+    </tr>
+</table>
+
+<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<strong>🧠 Mnemonic:</strong> <em>"ASI + NMA = Conservation"</em> — ASI protects monuments; NMA guards the areas around them. Think of NMA as the "No-Movement-Area" around monuments.
+</div>
+
+<h2>11. Challenges in Heritage Conservation</h2>
+
+<h3>11.1 Major Threats to Heritage Sites</h3>
+
+<ul>
+    <li><strong>Environmental Degradation:</strong> Air pollution, acid rain, and natural weathering</li>
+    <li><strong>Urbanization:</strong> Encroachment and construction near heritage sites</li>
+    <li><strong>Climate Change:</strong> Rising sea levels threatening coastal sites (e.g., Sundarbans), increased weathering</li>
+    <li><strong>Tourism Pressure:</strong> Overcrowding and physical damage to monuments</li>
+    <li><strong>Neglect and Vandalism:</strong> Lack of maintenance and intentional destruction</li>
+    <li><strong>Natural Disasters:</strong> Earthquakes, floods, and cyclones</li>
+    <li><strong>Conflict:</strong> War and civil unrest threatening sites</li>
+</ul>
+
+<h3>11.2 Case Study: Threats to the Taj Mahal</h3>
+
+<p>The Taj Mahal has faced several threats over the decades:</p>
+<ul>
+    <li><strong>Air Pollution:</strong> Industrial emissions causing discoloration of white marble (yellowing)</li>
+    <li><strong>Water Pollution:</strong> Contamination of the Yamuna River affecting the monument's foundation</li>
+    <li><strong>Ground Instability:</strong> Excessive groundwater extraction causing subsidence</li>
+    <li><strong>Tourism Impact:</strong> Millions of visitors annually contributing to wear and tear</li>
+</ul>
+
+<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<strong>⚠️ Trap Alert:</strong> Questions sometimes ask about "Marble cancer" affecting the Taj Mahal. This refers to <strong>spalling</strong> (flaking of marble surface) caused by air pollution and moisture penetration, not actual cancer. Another common trick question: The Taj Mahal was <strong>NOT</strong> built by a British architect; it was built by Mughal artisans under Ustad Ahmad Lahori.
+</div>
+
+<h2>12. International Cooperation and World Heritage Fund</h2>
+
+<h3>12.1 World Heritage Fund</h3>
+
+<p>The <strong>World Heritage Fund</strong> was established under the 1972 Convention to provide financial assistance for the conservation of World Heritage Sites. The fund receives contributions from:</p>
+<ul>
+    <li>Mandatory contributions from States Parties (assessed contributions)</li>
+    <li>Voluntary contributions from States Parties</li>
+    <li>Donations from private organizations and individuals</li>
+</ul>
+
+<h3>12.2 Types of Assistance from World Heritage Fund</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 10px; border: 1px solid #ddd;">Type</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Purpose</th>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;">Preparatory Assistance</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Help countries prepare tentative lists and nomination files</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;">Technical Cooperation</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Conservation projects, expert missions, training</td>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;">Emergency Assistance</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Urgent action for sites in immediate danger</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;">Educational Assistance</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Training for heritage professionals</td>
+    </tr>
+</table>
+
+<h2>13. Comparative Study: Heritage Sites Across Countries</h2>
+
+<h3>13.1 Top Countries by Number of World Heritage Sites</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 10px; border: 1px solid #ddd;">Rank</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Country</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Number of Sites</th>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">1</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Italy</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">59</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">2</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">China</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">57</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">3</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Germany</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">52</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">France</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">53</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;">5</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Spain</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">50</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 8px; border: 1px solid #ddd;">6</td>
+        <td style="padding: 8px; border: 1px solid #ddd;"><strong>India</strong></td>
+        <td style="padding: 8px; border: 1px solid #ddd;"><strong>43</strong></td>
+    </tr>
+</table>
+
+<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<strong>💡 High-Yield Fact:</strong> India ranks <strong>6th globally</strong> in terms of the number of World Heritage Sites. Italy leads with 59 sites, followed by China with 57. India has the <strong>highest number of heritage sites in Asia</strong>.
+</div>
+
+<h2>14. Recent Additions and Updates</h2>
+
+<h3>14.1 Recently Inscribed Indian Sites (2014-2024)</h3>
+
+<ul>
+    <li><strong>Sundarbans National Park (2017)</strong> — India's natural heritage site in the mangrove ecosystem</li>
+    <li><strong>Historic City of Ahmedabad (2017)</strong> — First Indian city to be inscribed on the list for its urban heritage</li>
+    <li><strong>Victorian Gothic and Art Deco Ensembles of Mumbai (2018)</strong> — Architectural legacy of British colonial Mumbai</li>
+    <li><strong>Jaipur City, Rajasthan (2019)</strong> — "Pink City" recognized for its urban planning and architecture</li>
+    <li><strong>Ramappa Temple, Telangana (2021)</strong> — 13th-century Kakatiya dynasty temple</li>
+    <li><strong>Santiniketan (2023)</strong> — Rabindranath Tagore's educational and cultural institution</li>
+    <li><strong>Moidams – The Burial Mounds of the Ahom Dynasty (2024)</strong> — Located in Assam</li>
+</ul>
+
+<div style="background-color: #d1ecf1; padding: 10px; border-left: 4px solid #17a2b8; margin: 10px 0;">
+<strong>🎯 PYQ Insight:</strong> Recent additions like Ramappa Temple (2021), Santiniketan (2023), and Moidams (2024) are highly likely to appear in upcoming exams. Aspirants should prepare brief notes on the unique features of each recently inscribed site.
+</div>
+
+<h2>15. Intangible Cultural Heritage</h2>
+
+<h3>15.1 Concept and Distinction</h3>
+
+<p>While World Heritage Sites focus on tangible heritage (buildings, monuments, natural areas), UNESCO also recognizes <strong>Intangible Cultural Heritage</strong> — traditions, performing arts, rituals, and knowledge systems that are transmitted from generation to generation.</p>
+
+<h3>15.2 Indian Intangible Cultural Heritage on UNESCO Lists</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 10px; border: 1px solid #ddd;">Intangible Heritage</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Year Inscribed</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Category</th>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;">Koodiyattam – Sanskrit Theatre</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2001</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Performing Arts</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;">Ramlila – Traditional Performance</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2008</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Performing Arts</td>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;">Yoga as a meditative practice</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2016</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Traditional Knowledge</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;">Kalamkari – Pictorial Art</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2020</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Traditional Crafts</td>
+    </tr>
+</table>
+
+<h2>16. World Heritage Sites: Defence and Strategic Perspectives</h2>
+
+<h3>16.1 Heritage Sites as Soft Power Assets</h3>
+
+<p>For a nation, World Heritage Sites serve as powerful instruments of <strong>soft power</strong> — projecting cultural influence, attracting tourism, and building international goodwill. India's heritage sites are central to its cultural diplomacy strategy.</p>
+
+<h3>16.2 Security Considerations</h3>
+
+<p>Heritage sites also have <strong>security implications</strong> that defence aspirants should understand:</p>
+<ul>
+    <li><strong>Tourism Security:</strong> Heritage sites attract international visitors, requiring robust security arrangements</li>
+    <li><strong>Cultural Terrorism:</strong> Terrorist groups have targeted heritage sites for propaganda and fundraising</li>
+    <li><strong>Border Areas:</strong> Several heritage sites are located near international borders (e.g., Khangchendzonga near China)</li>
+    <li><strong>Military Museums:</strong> Some heritage sites have historical military significance (e.g., forts)</li>
+</ul>
+
+<div style="background-color: #d4edda; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<strong>🧠 Mnemonic for Recently Inscribed Sites:</strong> <em>"SVMJS" — Sundarbans, Victorian Gothic, Mumbai, Jaipur, Ramappa, Santiniketan, Moidams</em> — chronologically: 2017, 2018, 2019, 2021, 2023, 2024.
+</div>
+
+<h2>17. Summary and Key Takeaways for Exams</h2>
+
+<h3>17.1 Quick Reference Table: Key Facts</h3>
+
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 10px; border: 1px solid #ddd;">Category</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Key Information</th>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Total Indian Sites</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">43 (31 Cultural, 7 Natural, 1 Transboundary with Bangladesh)</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>First Inscribed</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">1983 — Taj Mahal, Ajanta, Ellora, Agra Fort</td>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Latest Inscribed</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2024 — Moidams, Ahom Dynasty, Assam</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>World Ranking</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">6th globally (highest in Asia)</td>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>UNESCO Convention</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">1972 World Heritage Convention (adopted by 190+ countries)</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Selection Criteria</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">10 criteria (6 cultural, 4 natural) — need at least 1</td>
+    </tr>
+    <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Advisory Bodies</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">ICOMOS (Cultural), IUCN (Natural), ICCROM (Training)</td>
+    </tr>
+</table>
+
+<h3>17.2 High-Yield Facts for Quick Revision</h3>
+
+<div style="background-color: #ffeeba; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;">
+<strong>💡 Memory Bank:</strong>
+<ul style="margin: 10px 0; padding-left: 20px;">
+<li>The <strong>World Heritage Convention</strong> was adopted in <strong>1972</strong></li>
+<li>The <strong>first Indian sites</strong> were inscribed in <strong>1983</strong></li>
+<li><strong>Italy</strong> has the most World Heritage Sites (59)</li>
+<li><strong>India</strong> ranks <strong>6th globally</strong></li>
+<li>The <strong>Taj Mahal</strong> was the 900th site inscribed</li>
+<li><strong>Khangchendzonga</strong> is India's first mixed-criteria site (2016)</li>
+<li><strong>Ramappa Temple</strong> (Telangana) was inscribed in 2021</li>
+<li><strong>Jaipur City</strong> was inscribed in 2019</li>
+<li>The <strong>ASI</strong> protects over 3,600 monuments in India</li>
+<li><strong>Venice Charter (1964)</strong> is the foundation of conservation principles</li>
+</ul>
+</div>
+
+<h3>17.3 Common Exam Questions and Answers</h3>
+
+<p><strong>Q1. Which was the first World Heritage Site in India?</strong></p>
+<p>Ans: The first four sites inscribed in 1983 were: Taj Mahal (Uttar Pradesh), Ajanta Caves (Maharashtra), Ellora Caves (Maharashtra), and Agra Fort (Uttar Pradesh). All four received UNESCO recognition simultaneously in 1983.</p>
+
+<p><strong>Q2. Which Indian site was removed from the "In Danger" list in 2017?</strong></p>
+<p>Ans: The Taj Mahal was removed from the "World Heritage in Danger" list in 2017 after improvements in pollution control measures around Agra.</p>
+
+<p><strong>Q3. What is the difference between Cultural and Natural Heritage Sites?</strong></p>
+<p>Ans: Cultural Heritage Sites represent human achievements — monuments, buildings, archaeological sites. Natural Heritage Sites represent natural formations — ecosystems, geological features, habitats. Mixed sites combine both elements.</p>
+
+<p><strong>Q4. What are the three advisory bodies of UNESCO World Heritage Programme?</strong></p>
+<p>Ans: ICOMOS (cultural sites), IUCN (natural sites), and ICCROM (training and research).</p>
+
+<p><strong>Q5. Which is the latest Indian site to be inscribed in 2024?</strong></p>
+<p>Ans: The Moidams — the burial mounds of the Ahom dynasty in Assam — were inscribed in 2024.</p>
+
+<div style="background-color: #f8d7da; padding: 10px; border-left: 4px solid #dc3545; margin: 10px 0;">
+<strong>⚠️ Final Trap Check:</strong>
+<ul style="margin: 10px 0; padding-left: 20px;">
+<li>Do NOT confuse <strong>UNESCO World Heritage</strong> with <strong>UNESCO Intangible Cultural Heritage</strong> — they are different programmes</li>
+<li>Do NOT confuse <strong>ASI</strong> (Archaeological Survey of India) with <strong>NMA</strong> (National Monuments Authority) — both are different bodies with different functions</li>
+<li>Remember: <strong>UNESCO has 10 selection criteria</strong> (not 8 or 12)</li>
+<li>The <strong>Venice Charter</strong> is for conservation principles (1964), not the World Heritage Convention</li>
+<li>The <strong>World Heritage Convention</strong> was adopted in <strong>1972</strong> (not 1970 or 1975)</li>
+</ul>
+</div>
+
+<h2>18. Conclusion</h2>
+
+<p>Heritage sites represent the accumulated wisdom, artistic achievements, and natural wonders of human civilization. For defence exam aspirants, understanding World Heritage Sites goes beyond memorizing names and locations — it encompasses knowledge of international conventions, conservation principles, India's position in global heritage discourse, and the intersection of heritage with soft power, diplomacy, and national security.</p>
+
+<p>India's 43 World Heritage Sites stand as testament to its civilizational depth, architectural brilliance, and ecological diversity. From the ethereal beauty of the Taj Mahal to the ecological richness of Kaziranga, these sites embody the concept of <strong>"Outstanding Universal Value"</strong> — treasures that belong not just to India, but to all of humanity.</p>
+
+<p>Aspiring defence officers must recognize that heritage preservation is not merely an academic exercise but a matter of national importance. These sites contribute to tourism revenue, cultural diplomacy, national identity, and international prestige. Their protection requires coordinated efforts between government agencies, local communities, and international bodies.</p>
+
+<p><strong>As you prepare for your examinations, remember:</strong> Every World Heritage Site tells a story of human endeavor, natural wonder, and the eternal struggle to preserve what matters most. The knowledge you gain about these sites will serve you not just in examinations, but as informed citizens capable of appreciating and protecting India's invaluable heritage.</p>
+
+<hr />
+
+<p style="text-align: center; font-style: italic; color: #666;"><strong>End of Study Notes — Heritage Sites: UNESCO, Conservation & Preservation</strong></p>
+`;
+
