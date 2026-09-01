@@ -5034,3 +5034,10 @@ body.locked-mode .main-content {
     right: 16px !important;
   }
 }
+
+mark {
+  background-color: rgba(212, 175, 55, 0.35) !important;
+  color: #ffd700 !important;
+  border-radius: 3px;
+  padding: 0 4px;
+}
