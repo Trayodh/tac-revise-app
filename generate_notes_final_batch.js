@@ -39,7 +39,7 @@ const remainingTopics = JSON.parse(fs.readFileSync('remaining_topics.json', 'utf
 
 async function callOpenRouter(prompt) {
   const data = JSON.stringify({
-    model: "meta-llama/llama-3.3-70b-instruct",
+    model: "openrouter/free",
     messages: [
       { role: "system", content: "You are an expert tutor for Indian Defence Exams (NDA, CDS, AFCAT). Your goal is to generate high-quality, exam-focused study notes in HTML format. Follow the requested structure strictly." },
       { role: "user", content: prompt }
@@ -91,7 +91,7 @@ async function generateNote(topicId) {
   const syllabusDesc = syllabusTopics[topicId] || "No syllabus data";
   const pyqTrend = pyqTopics[topicId] || "No PYQ data";
   
-  const prompt = `Generate comprehensive study notes for the defence exam topic: "${topicId}".
+  const prompt = `Generate highly detailed, comprehensive study notes for the defence exam topic: "${topicId}".
 
 Context from Official Syllabus:
 ${syllabusDesc}
@@ -106,13 +106,14 @@ Formatting Requirements:
 2. Use <h1> for the main topic title, followed by an <hr />.
 3. Use <h2> for major sections and <h3> for sub-sections.
 4. Use <ul> and <li> for lists, <p> for paragraphs, and <strong> for emphasis.
-5. Create special callout boxes using standard HTML (e.g., <div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">) for:
-   - "🔥 High-Yield Fact": Key facts frequently asked in exams.
+5. 📊 YOU MUST INCLUDE TABLES! Use standard HTML <table>, <tr>, <th>, and <td> tags to organize data, comparisons, chronologies, formulas, or key properties. Make sure tables have basic inline styles or assume a clean CSS framework (e.g., <table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">).
+6. Create special callout boxes using standard HTML (e.g., <div style="background-color:#ffeeba; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">) for:
+   - "💡 High-Yield Fact": Key facts frequently asked in exams.
    - "⚠️ Trap Alert": Common pitfalls or confusing points that UPSC uses to trick students.
-   - "⚡ PYQ Insight": Direct reference to how this was asked based on the PYQ trends provided.
+   - "🎯 PYQ Insight": Direct reference to how this was asked based on the PYQ trends provided.
    - "🧠 Mnemonic": Memory aids to help remember complex lists.
-6. The notes must be comprehensive (at least 1000 words equivalent of detailed content).
-7. Do not include full HTML document wrappers (<html>, <head>, <body>). Just the content elements.
+7. The notes must be EXTREMELY comprehensive and detailed. Aim for an in-depth textbook-level explanation (at least 1500 words equivalent).
+8. Do not include full HTML document wrappers (<html>, <head>, <body>). Just the content elements.
 
 Start directly with the <h1> tag.`;
 
