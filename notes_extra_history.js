@@ -1,24 +1,9 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-EXPANDED_NOTES_DATA["what-is-history"] = `<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Meaning and Scope of History – Detailed Notes</title>
-    <style>
-        body {font-family: Arial, sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3B55; border-bottom:2px solid #ccc; padding-bottom:5px;}
-        h3 {color:#3A5A9C; margin-top:30px;}
-        ul {margin-left:20px;}
-        table {border-collapse:collapse; width:100%; margin-top:15px;}
-        th, td {border:1px solid #999; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-    </style>
-</head>
-<body>
-
-    <h2>📚 Meaning and Scope of History</h2>
-    <p>History is far more than a mere chronicle of past events; it is the systematic and critical analysis of past human experiences, societies, cultures, political structures, economic systems, and intellectual developments. It is not a static list of dates, names, or isolated incidents; rather, it is a dynamic, interpretative science that meticulously examines the intricate web of cause-and-effect relationships over vast stretches of time. By delving into the past, history seeks to identify recurring patterns, understand the evolution of human civilization, and draw profound lessons that are critically relevant for navigating the complexities of the present and shaping the trajectory of the future. For aspirants of defence examinations like NDA, CDS, and AFCAT, a robust understanding of history is indispensable, as it provides crucial insights into geopolitical strategies, national identity, cultural heritage, and the origins of contemporary conflicts and alliances.</p>
+window.EXPANDED_NOTES_DATA["what-is-history"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">📚 Meaning and Scope of History</h3>
+<p>History is far more than a mere chronicle of past events; it is the systematic and critical analysis of past human experiences, societies, cultures, political structures, economic systems, and intellectual developments. It is not a static list of dates, names, or isolated incidents; rather, it is a dynamic, interpretative science that meticulously examines the intricate web of cause-and-effect relationships over vast stretches of time. By delving into the past, history seeks to identify recurring patterns, understand the evolution of human civilization, and draw profound lessons that are critically relevant for navigating the complexities of the present and shaping the trajectory of the future. For aspirants of defence examinations like NDA, CDS, and AFCAT, a robust understanding of history is indispensable, as it provides crucial insights into geopolitical strategies, national identity, cultural heritage, and the origins of contemporary conflicts and alliances.</p>
     <p>The study of history equips individuals with critical thinking skills, the ability to analyze complex situations from multiple perspectives, and a deep appreciation for the forces that have shaped nations and civilizations. It fosters an understanding of the long-term consequences of decisions, the resilience of human spirit, and the constant interplay between continuity and change. In a defence context, this historical perspective is vital for strategic planning, understanding military doctrines, appreciating the sacrifices of past generations, and recognizing the historical roots of national security challenges.</p>
 
     <h3>1. Core Foundations of Historical Inquiry</h3>
@@ -230,1475 +215,13 @@ EXPANDED_NOTES_DATA["what-is-history"] = `<!DOCTYPE html>
         <li><strong>Source Awareness:</strong> Understand the different types of historical sources (primary, secondary, archaeological, literary) and their respective strengths and limitations. This helps in critically evaluating historical claims and understanding how historical knowledge is constructed.</li>
         <li><strong>Relevance for Defence:</strong> Connect historical events to strategic thinking, geopolitical developments, military doctrines, and the evolution of warfare. History provides case studies for leadership, logistics, diplomacy, and understanding national interests. For instance, studying ancient Indian military strategies or the impact of colonial policies on India's defence capabilities.</li>
     </ul>
-
-</body>
-</html>`;
-
-EXPANDED_NOTES_DATA["sources-indian-history"] = `<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Sources of Indian History – Detailed Notes</title>
-    <style>
-        body {font-family: Arial, sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87; margin-top:30px;}
-        h3 {color:#3B5AA0; margin-top:20px;}
-        table {border-collapse:collapse; width:100%; margin-top:10px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>🏛️ Sources of Indian History</h2>
-    <p>Historians, much like detectives, meticulously reconstruct the intricate tapestry of the past by analysing a diverse array of evidence. For India, a land with a civilization stretching back millennia, this endeavour is particularly challenging yet rewarding due to the absence of a continuous, unbroken tradition of historical chronicles in the ancient period. To overcome this, scholars rely on two broad and complementary categories of sources: <strong>archaeological</strong> and <strong>literary</strong>. These categories, when cross-examined and critically evaluated, allow for a multi-dimensional and nuanced understanding of political, economic, social, cultural, and religious developments across various epochs. The interdisciplinary approach, combining insights from archaeology, epigraphy, numismatics, linguistics, and textual criticism, is crucial for building a comprehensive and accurate narrative of India's rich historical trajectory.</p>
-    <p>Understanding these sources is paramount for any aspirant preparing for defence examinations, as they form the bedrock of historical knowledge and provide direct insights into the evolution of statecraft, military strategies, societal structures, and cultural achievements that shaped the subcontinent.</p>
-
-    <!-- ==================== Archaeological Sources ==================== -->
-    <h3>1. Archaeological Sources (High‑Yield)</h3>
-    <p>Archaeological sources are tangible remains of human activity, excavated from the earth or found on its surface. They are considered highly reliable as they are direct, primary evidence, often contemporaneous with the events or periods they represent, and are less susceptible to later interpolations or biases compared to many literary accounts. They provide invaluable insights into prehistoric periods where written records are absent, and also corroborate or challenge literary narratives for historical periods.</p>
-
-    <ul>
-        <li><strong>Inscriptions (Epigraphy)</strong> – The study of inscriptions, known as Epigraphy, is arguably the most direct and reliable source for ancient Indian history. These are written records engraved on hard surfaces such as rocks, pillars, copper plates, temple walls, and images. They provide contemporaneous accounts of events, royal patronage, religious endowments, administrative reforms, and socio-economic conditions. The study of ancient scripts (Paleography) is integral to epigraphy.
-            <ul>
-                <li><em>Ashokan Edicts</em> (c. 272–232 BCE) – These monumental inscriptions, spread across the Indian subcontinent, Afghanistan, and Pakistan, represent the earliest deciphered written records of India. Issued by Emperor Ashoka Maurya, they are found in four primary scripts: **Brahmi** (predominant in India), **Kharosthi** (north-western India), **Greek**, and **Aramaic** (Afghanistan). Their decipherment by the British antiquarian **James Prinsep** in 1837 CE was a watershed moment, unlocking the chronology and understanding of the vast Mauryan Empire.
-                    <ul>
-                        <li>**WHAT:** Royal proclamations, moral precepts (Dhamma), administrative instructions, and records of Ashoka's welfare activities.</li>
-                        <li>**WHY:** They offer direct insight into Ashoka's unique policy of Dhamma (moral law), his conversion to Buddhism, the geographical extent of his empire, and the Mauryan administrative system. They are crucial for establishing Mauryan chronology.</li>
-                        <li>**HOW:** Engraved on rocks (Major Rock Edicts, Minor Rock Edicts) and polished sandstone pillars (Pillar Edicts), often in Prakrit language.</li>
-                        <li>**EFFECT:** Revealed Ashoka as a benevolent ruler, provided evidence of state patronage of Buddhism, and showcased a sophisticated administrative machinery.</li>
-                        <li>**EXAMPLE:** The **Sarnath Lion Capital**, originally crowning an Ashokan pillar, now India's national emblem, symbolizes the power and ethical foundation of the Mauryan state.</li>
-                    </ul>
-                </li>
-                <li><em>Allahabad Pillar Inscription (Prasasti)</em> – This eloquent Sanskrit composition, authored by the court poet **Harishena**, eulogizes the military conquests and personal accomplishments of the mighty Gupta ruler **Samudragupta** (c. 335–375 CE).
-                    <ul>
-                        <li>**WHAT:** A panegyric (prasasti) detailing Samudragupta's military campaigns across North and South India, his administrative policies towards conquered territories (e.g., *Digvijaya* - conquest of all directions, *Dharmavijaya* - conquest for righteousness), and his personal virtues as a poet, musician, and scholar.</li>
-                        <li>**WHY:** It provides a detailed political geography of India during the 4th century CE, identifying numerous kings and kingdoms, and serves as a primary source for reconstructing the early history of the Gupta Empire, often termed the "Golden Age" of ancient India.</li>
-                        <li>**HOW:** Engraved on an Ashokan pillar, demonstrating the continuity of imperial power and the re-use of significant monuments.</li>
-                        <li>**EFFECT:** Establishes Samudragupta as one of India's greatest military strategists and cultural patrons.</li>
-                    </ul>
-                </li>
-                <li><em>Aihole Inscription</em> (c. 634 CE) – Located in Karnataka, this significant inscription was authored by the poet-minister **Ravikirti**, a Jain scholar in the court of the Chalukya king **Pulakeshin II** (c. 610–642 CE).
-                    <ul>
-                        <li>**WHAT:** A poetic eulogy celebrating Pulakeshin II's military victories, most notably his decisive defeat of the powerful North Indian emperor **Harsha** of Kannauj, thereby halting Harsha's southward expansion.</li>
-                        <li>**WHY:** It is a crucial source for understanding the political landscape of early medieval India, providing a rare contemporary account of the conflict between two major powers and helping to establish a firm chronology for both Harsha and the Chalukyas.</li>
-                        <li>**HOW:** Engraved on the wall of the Meguti Jain temple at Aihole, showcasing the patronage of Jainism by the Chalukyas.</li>
-                        <li>**EFFECT:** Offers insights into the military prowess and diplomatic relations of the Deccan powers.</li>
-                    </ul>
-                </li>
-                <li><em>Uttaramerur Inscription</em> (c. 10th century CE) – These two remarkable inscriptions from the village of Uttaramerur in Tamil Nadu date to the reign of the Chola king **Parantaka I** (c. 907–955 CE).
-                    <ul>
-                        <li>**WHAT:** They meticulously record the intricate details of the self-governing mechanisms of a Chola village, outlining the constitution of the *Sabha* (village assembly), the qualifications and disqualifications for its members, and the electoral process (the *Kudavolai* system, involving drawing names from a pot).</li>
-                        <li>**WHY:** It provides unparalleled insight into the highly sophisticated and decentralized administrative model of the Chola Empire, demonstrating a remarkable degree of local autonomy and democratic principles at the village level.</li>
-                        <li>**HOW:** Engraved on the walls of the Vaikuntha Perumal temple.</li>
-                        <li>**EFFECT:** Reveals the advanced nature of Chola local administration, which managed irrigation, justice, and land revenue.</li>
-                    </ul>
-                </li>
-                <li><em>Hathigumpha Inscription</em> (c. 2nd century BCE) – Found in the Udayagiri hills near Bhubaneswar, Odisha, this inscription belongs to King **Kharavela** of Kalinga.
-                    <ul>
-                        <li>**WHAT:** A lengthy record blending royal propaganda with detailed accounts of Kharavela's military campaigns against various kingdoms (including Magadha), his public works (e.g., irrigation canals), and his patronage of Jainism. It is dated by his regnal years.</li>
-                        <li>**WHY:** It is the primary source for the history of Kalinga after the Mauryan period, providing valuable chronological data and insights into the political and religious conditions of the post-Mauryan era.</li>
-                        <li>**HOW:** Engraved in Prakrit language and Brahmi script on a natural rock shelter.</li>
-                        <li>**EFFECT:** Illuminates the rise of independent regional powers and the flourishing of Jainism in eastern India.</li>
-                    </ul>
-                </li>
-                <li>**Other Notable Inscriptions:**
-                    <ul>
-                        <li><em>Besnagar Garuda Pillar Inscription</em> (c. 2nd century BCE) – Records the dedication of a Garuda pillar by **Heliodorus**, a Greek ambassador to the Sunga court, who declared himself a Bhagavata (devotee of Vishnu), indicating early interaction and religious syncretism.</li>
-                        <li><em>Nasik Cave Inscriptions</em> (c. 1st-2nd century CE) – Provide crucial information about the Satavahana dynasty, particularly the achievements of **Gautamiputra Satakarni**, detailing his conquests and the extent of his empire.</li>
-                        <li><em>Mandasor Inscription</em> (c. 5th century CE) – From the reign of **Kumaragupta I**, it details the migration of a guild of silk weavers from Lata (Gujarat) to Dasapura (Mandasor) and their construction of a sun temple, offering insights into economic guilds and urban development.</li>
-                        <li><em>Gwalior Prasasti</em> (c. 9th century CE) – A detailed account of the Pratihara dynasty, particularly the achievements of King Bhoja, highlighting their military prowess and territorial expansion.</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-
-        <li><strong>Coins (Numismatics)</strong> – The systematic study of coins, known as Numismatics, offers a wealth of information that complements and often validates epigraphic and literary sources. Coins are crucial for understanding economic health, trade networks, iconography, and political legitimacy.
-            <ul>
-                <li>**WHAT:** Metallic pieces of standardized weight and value, issued by an authority (usually a ruler or state), used as a medium of exchange.</li>
-                <li>**WHY:** They provide evidence of:
-                    <ul>
-                        <li>**Chronology:** Often bear dates or regnal years, helping to establish sequences of rulers.</li>
-                        <li>**Political History:** Names of kings, queens, and dynasties, extent of empires (through discovery of coin hoards), and succession.</li>
-                        <li>**Economic Conditions:** Metal purity (gold, silver, copper, lead), denominations, and abundance indicate prosperity or decline, trade routes, and monetization levels.</li>
-                        <li>**Religious Beliefs:** Depiction of deities, religious symbols, and legends reveal the religious affiliations of rulers and popular cults.</li>
-                        <li>**Art & Iconography:** Portraits of rulers, artistic motifs, and symbols reflect contemporary artistic styles and cultural influences.</li>
-                        <li>**Scripts & Languages:** Legends on coins provide examples of ancient scripts (Brahmi, Kharosthi, Greek, Arabic) and languages.</li>
-                    </ul>
-                </li>
-                <li>**HOW:** Analysis of metal composition (e.g., through XRF), weight, legends, symbols, minting techniques (punch-marked, die-struck), and geographical distribution of hoards.</li>
-                <li>**EFFECT:** Can reveal unknown rulers, confirm the existence of obscure dynasties, shed light on trade links, and illustrate the evolution of artistic styles.</li>
-            </ul>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Dynasty / Issuer</th>
-                        <th>Period</th>
-                        <th>Metal & Typical Denominations</th>
-                        <th>Key Features / Historical Significance</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Punch‑marked Coins (Puranas)</td>
-                        <td>c. 6th–2nd century BCE</td>
-                        <td>Silver & copper; irregular shapes (Karshapana)</td>
-                        <td>Earliest indigenous Indian coinage. Marked with symbols (solar, animal, geometric) by punching dies. Indicate the emergence of a monetized economy and urban centers (Mahajanapadas). No legends or names of rulers.</td>
-                    </tr>
-                    <tr>
-                        <td>Indo‑Greek Kingdoms</td>
-                        <td>c. 2nd–1st century BCE</td>
-                        <td>Silver drachms, gold staters, copper coins</td>
-                        <td>First Indian coins with realistic portraits of rulers and bilingual legends (Greek on one side, Kharosthi on the other). This bilingualism was crucial for **James Prinsep's** decipherment of Kharosthi. Reflect Hellenistic artistic influence and extensive trade. Menander (Milinda) is a notable issuer.</td>
-                    </tr>
-                    <tr>
-                        <td>Kushana Empire</td>
-                        <td>c. 1st century CE–3rd century CE</td>
-                        <td>Large-scale gold dinars, silver drachms, copper coins</td>
-                        <td>Known for their extensive gold coinage, reflecting the prosperity from trade along the Silk Road. Depict a pantheon of deities (Indian, Greek, Iranian), showcasing religious syncretism. Rulers like Kanishka are frequently depicted. Roman influence in weight standards.</td>
-                    </tr>
-                    <tr>
-                        <td>Gupta Dynasty</td>
-                        <td>c. 4th–6th century CE</td>
-                        <td>Most prolific gold dinars, silver suvarnas, copper fanams</td>
-                        <td>Represent the zenith of ancient Indian coinage art. Highly artistic, depicting various aspects of royal life, religious beliefs, and achievements. Samudragupta's "Veena-playing" coin illustrates his patronage of arts. Chandragupta II issued silver coins after conquering Western Kshatrapas. Titles like *Parakramanka* (Samudragupta) and *Vikramaditya* (Chandragupta II) are found.</td>
-                    </tr>
-                    <tr>
-                        <td>Chola Empire</td>
-                        <td>c. 9th–13th century CE</td>
-                        <td>Gold "pattam", silver "panam", copper coins</td>
-                        <td>Distinctive designs, often depicting the Chola emblem (tiger) alongside symbols of other dynasties (fish for Pandyas, bow for Cheras) to signify their suzerainty. Legends often in Grantha or Tamil. Evidence of extensive maritime trade with Southeast Asia. Raja Raja I and Rajendra I issued numerous coins.</td>
-                    </tr>
-                    <tr>
-                        <td>Satavahana Dynasty</td>
-                        <td>c. 1st century BCE – 3rd century CE</td>
-                        <td>Lead, Potin, Copper; some silver</td>
-                        <td>Primarily used base metals. Ship motifs on some coins indicate their maritime trade and naval power. Names of rulers like Gautamiputra Satakarni and Vasishthiputra Pulumavi are found.</td>
-                    </tr>
-                    <tr>
-                        <td>Delhi Sultanate</td>
-                        <td>c. 13th–16th century CE</td>
-                        <td>Silver Tanka, Copper Jital, Gold Mohur</td>
-                        <td>Introduced Islamic coinage traditions with Arabic calligraphy and legends, often quoting from the Quran. Lacked human figures. Standardized currency system across a vast empire. Rulers like Iltutmish and Muhammad bin Tughlaq issued diverse coin types.</td>
-                    </tr>
-                    <tr>
-                        <td>Mughal Empire</td>
-                        <td>c. 16th–19th century CE</td>
-                        <td>Gold Mohur, Silver Rupee, Copper Dam</td>
-                        <td>Highly refined and artistic coinage, often with elaborate calligraphy, floral motifs, and mint names. Akbar standardized the currency. Jahangir issued coins with his own portrait and that of Nur Jahan. Shah Jahan's coins were known for their elegance.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </li>
-
-        <li><strong>Monuments & Pottery</strong> – Architectural remains, sculptures, and ceramic typologies serve as crucial chronological anchors and provide a visual narrative of past societies.
-            <ul>
-                <li><strong>Monuments & Architecture:</strong> These structures, ranging from religious edifices to secular buildings, offer insights into religious beliefs, artistic styles, technological advancements, and socio-political organization.
-                    <ul>
-                        <li><strong>Cave Temples</strong> – Rock-cut architecture is a hallmark of ancient Indian art.
-                            <ul>
-                                <li><em>Ajanta Caves</em> (c. 2nd century BCE – 5th century CE) – Primarily Buddhist, featuring stunning frescoes depicting Jataka tales and the life of the Buddha. They illustrate the evolution of Buddhist thought from Hinayana to Mahayana and provide invaluable insights into Gupta and Vakataka period court life, costumes, and daily activities.</li>
-                                <li><em>Ellora Caves</em> (c. 6th–10th century CE) – Unique for housing Hindu, Buddhist, and Jain monuments side-by-`;
-
-EXPANDED_NOTES_DATA["dating-systems"] = `<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Dating Systems and Eras – Indian History (UPSC & Defence)</title>
-    <style>
-        body{font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px; color:#212529;}
-        h2{border-left:4px solid #0066cc; padding-left:8px; color:#003366;}
-        h3{color:#004080; margin-top:1.5em;}
-        table{width:100%; border-collapse:collapse; margin-top:1em; font-size:0.94rem;}
-        th, td{border:1px solid #bbb; padding:8px; text-align:left;}
-        th{background:#f2f2f2;}
-        ul{margin-left:1.2em;}
-        .note{font-size:0.9rem; color:#555;}
-    </style>
-</head>
-<body>
-
-    <h2>📅 Dating Systems and Eras: Chronological Framework of Indian History</h2>
-    <p>Understanding the chronology of events is the bedrock of historical study, and for Indian history, this involves navigating a complex tapestry of dating systems and eras. From ancient inscriptions to modern administrative records, a variety of calendars have been employed, reflecting diverse cultural, religious, and political influences. Mastery of these conventions is not merely an academic exercise; it is essential for accurately interpreting primary sources, synchronizing historical narratives, and comprehending the socio-cultural evolution of the subcontinent. For Defence aspirants, a precise grasp of these dating systems is crucial for analyzing historical military campaigns, treaties, and the administrative structures of various empires, which often relied on specific chronological frameworks.</p>
-    <p>The multiplicity of eras in India stems from its vast geographical expanse, numerous independent kingdoms, and the absence of a single, universally adopted epoch for much of its ancient and medieval past. This chapter aims to provide a comprehensive overview of these systems, delving into their origins, mechanisms, and historical significance, equipping candidates with the necessary tools for UPSC and Defence examinations.</p>
-
-    <h3>1. General Terminology and Fundamental Concepts</h3>
-    <p>Before delving into specific calendars, it is vital to establish a clear understanding of the fundamental terms and concepts used in historical dating.</p>
-    <ul>
-        <li><strong>BC (Before Christ) / BCE (Before Common Era)</strong>:
-            <ul>
-                <li><strong>What:</strong> These terms denote years preceding the traditionally accepted birth year of Jesus Christ. The numbering system counts backward, meaning a larger BC/BCE number represents an earlier point in time.</li>
-                <li><strong>Why:</strong> The system originated in the 6th century CE with Dionysius Exiguus, a Scythian monk, who calculated the Anno Domini (AD) epoch. Its adoption became widespread in Europe during the Middle Ages.</li>
-                <li><strong>How:</strong> Years are counted backward from 1 CE (there is no year zero in this system; 1 BCE is immediately followed by 1 CE).</li>
-                <li><strong>Effect:</strong> Provides a universal baseline for dating events globally, especially for ancient history.</li>
-                <li><strong>Example:</strong> The Indus Valley Civilization flourished around 2500 BCE. Alexander the Great invaded India in 326 BCE.</li>
-                <li><strong>Modern Relevance:</strong> While 'BC' is traditional, 'BCE' (Before Common Era) is increasingly preferred in academic and secular contexts to avoid religious connotations, yet it refers to the exact same chronological point.</li>
-            </ul>
-        </li>
-        <li><strong>AD (Anno Domini) / CE (Common Era)</strong>:
-            <ul>
-                <li><strong>What:</strong> 'Anno Domini' (Latin for "in the year of the Lord") and 'Common Era' denote years following the traditionally accepted birth year of Jesus Christ. Years are counted forward.</li>
-                <li><strong>Why:</strong> Established by Dionysius Exiguus to date Easter, it gradually became the standard Christian calendar and, through European colonial expansion, a global standard.</li>
-                <li><strong>How:</strong> Years count forward from 1 CE.</li>
-                <li><strong>Effect:</strong> Forms the basis of the Gregorian calendar, the most widely used civil calendar today.</li>
-                <li><strong>Example:</strong> The Gupta Empire reached its zenith around 380 CE. India gained independence in 1947 CE.</li>
-                <li><strong>Modern Relevance:</strong> 'CE' is the secular equivalent of 'AD', widely used in academic, scientific, and international discourse for inclusivity.</li>
-            </ul>
-        </li>
-        <li><strong>YA (Year of the Era)</strong>:
-            <ul>
-                <li><strong>What:</strong> This abbreviation is used when a specific regional or historical era is the reference point, indicating the year within that particular era.</li>
-                <li><strong>Why:</strong> Different civilizations and kingdoms established their own starting points for chronological reckoning, often tied to significant events or the reign of a powerful ruler.</li>
-                <li><strong>How:</strong> The number precedes or follows the era's name (e.g., "Vikram Samvat 2077" or "Saka 1945 YA").</li>
-                <li><strong>Effect:</strong> Essential for interpreting indigenous historical documents, inscriptions, and religious texts.</li>
-                <li><strong>Example:</strong> An inscription might be dated "Gupta Era 100 YA," which corresponds to 419-420 CE.</li>
-            </ul>
-        </li>
-        <li><strong>Epoch</strong>:
-            <ul>
-                <li><strong>What:</strong> The starting point or beginning date of an era or calendar system. All subsequent dates are calculated from this fixed reference point.</li>
-                <li><strong>Why:</strong> An epoch provides a consistent baseline for chronological measurement within a specific system.</li>
-                <li><strong>How:</strong> It's usually a specific year, often associated with a significant historical, religious, or astronomical event.</li>
-                <li><strong>Example:</strong> The epoch of the Saka Era is 78 CE; the epoch of the Hijri Era is 622 CE.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h3>2. Types of Calendars Used in India: Astronomical Basis</h3>
-    <p>Calendars are fundamentally astronomical tools designed to organize time by tracking celestial cycles. India has historically utilized a variety of calendar types, primarily driven by religious, agricultural, and administrative needs.</p>
-    <ul>
-        <li><strong>Solar Calendars</strong>:
-            <ul>
-                <li><strong>What:</strong> These calendars are based on the tropical year, which is the time it takes for the Sun to return to the same position in the cycle of seasons (approximately 365.2422 days).</li>
-                <li><strong>Why:</strong> Ideal for agricultural societies as they accurately track seasons, crucial for planting and harvesting.</li>
-                <li><strong>How:</strong> Months typically have a fixed number of days, with adjustments (like a leap day every four years) to keep the calendar aligned with the tropical year. The Gregorian and Julian calendars are prime examples.</li>
-                <li><strong>Effect:</strong> Ensures that festivals tied to seasons (e.g., harvest festivals) occur at roughly the same time each solar year.</li>
-                <li><strong>Example:</strong> The Gregorian calendar, adopted globally for civil purposes, and the Tamil solar calendar. Ancient Indian astronomical texts like the *Surya Siddhanta* provided sophisticated solar calculations, though not always for civil calendars.</li>
-            </ul>
-        </li>
-        <li><strong>Lunar Calendars</strong>:
-            <ul>
-                <li><strong>What:</strong> These calendars define months based on the phases of the Moon, specifically the synodic month (the time from one new moon to the next, approximately 29.5 days). A lunar year consists of 12 lunar months, totaling about 354 days.</li>
-                <li><strong>Why:</strong> Simpler to observe and track for communities without advanced astronomical tools; often used for religious observances.</li>
-                <li><strong>How:</strong> Months alternate between 29 and 30 days. Because a lunar year is about 11 days shorter than a solar year, lunar calendars drift against the seasons.</li>
-                <li><strong>Effect:</strong> Religious festivals tied to lunar calendars will occur at different times of the solar year over a cycle of about 33 years.</li>
-                <li><strong>Example:</strong> The Islamic Hijri calendar is a purely lunar calendar.</li>
-            </ul>
-        </li>
-        <li><strong>Lunisolar Calendars</strong>:
-            <ul>
-                <li><strong>What:</strong> These calendars combine lunar months with periodic adjustments to keep them aligned with the solar year and thus with the seasons. They are the most common type of traditional Indian calendar.</li>
-                <li><strong>Why:</strong> They aim to reconcile the desire to track lunar phases (important for religious rituals and tithis) with the necessity of aligning with seasons (important for agriculture and seasonal festivals).</li>
-                <li><strong>How:</strong> A lunisolar year typically has 12 lunar months. To prevent drift from the solar year, an extra (intercalary) month, known as *Adhik Maas* or *Mala Maas*, is added approximately every 2½ to 3 years (specifically, when a solar month passes without a new moon). This ensures that festivals remain within their appropriate seasons.</li>
-                <li><strong>Effect:</strong> Provides a balance between lunar and solar cycles, making them suitable for both religious and agricultural purposes.</li>
-                <li><strong>Example:</strong> The Saka Samvat and Vikram Samvat are prominent lunisolar calendars. They use concepts like *Tithi* (lunar day), *Paksha* (fortnight – Shukla Paksha for waxing moon, Krishna Paksha for waning moon), *Amavasya* (new moon), and *Purnima* (full moon).</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h3>3. Indigenous Indian Calendars: A Deep Dive</h3>
-    <p>India's rich cultural heritage is reflected in its diverse array of indigenous calendars, each with its unique origin, structure, and historical significance. These calendars are fundamental to understanding the subcontinent's past.</p>
-    <ul>
-        <li><strong>Saka (Shaka) Calendar</strong>
-            <ul>
-                <li><strong>Origin and Epoch:</strong> The Saka Era commences in 78 CE. Its origin is traditionally attributed to the Kushana king Kanishka I, marking his accession to the throne. However, some historians propose it was established by the Western Satraps or even a later ruler, retrospectively attributed to Kanishka due to his prominence. The theory of a "Mahashaka" era also exists, suggesting a larger, older Saka system.</li>
-                <li><strong>Adoption as National Calendar:</strong> In 1957, the Government of India officially adopted the reformed Saka Calendar as the <em>Indian National Calendar</em>, based on the recommendations of the Calendar Reform Committee (1952) headed by Dr. Meghnad Saha. The aim was to unify the diverse regional calendars for civil and administrative purposes.</li>
-                <li><strong>Structure and Months:</strong>
-                    <ul>
-                        <li>The year begins on <strong>Chaitra 1</strong>. This date falls on March 22 in a normal year and March 21 in a leap year (when the Gregorian year is a leap year).</li>
-                        <li>It is a lunisolar calendar, but for civil purposes, the National Calendar follows a fixed number of days for its months, aligning them closely with the Gregorian calendar.</li>
-                        <li>The first month, Chaitra, has 30 days in a normal year and 31 days in a leap year.</li>
-                        <li>The subsequent five months (Vaisakha, Jyaistha, Asadha, Sravana, Bhadra) each have 31 days.</li>
-                        <li>The remaining six months (Asvina, Kartika, Agrahayana, Pausa, Magha, Phalguna) each have 30 days.</li>
-                        <li>The *Adhik Maas* (intercalary month) concept is still present in the traditional astronomical Saka calendar used for religious purposes, ensuring alignment of festivals with seasons.</li>
-                    </ul>
-                </li>
-                <li><strong>Usage:</strong> Besides being the official civil calendar of India, it is widely used in traditional Hindu *Panchangs* (almanacs) for calculating auspicious dates, festivals, and astrological purposes. It is also prevalent in regions like Maharashtra, Goa, and parts of South India.</li>
-                <li><strong>Conversion:</strong> To convert a Saka year to CE, simply add 78 (e.g., Saka 1946 = 1946 + 78 = 2024 CE).</li>
-            </ul>
-        </li>
-        <li><strong>Vikram Samvat (Vikram Era)</strong>
-            <ul>
-                <li><strong>Origin and Epoch:</strong> The Vikram Samvat begins in 57 BCE. It is traditionally attributed to the legendary King Vikramaditya of Ujjain, who is said to have founded the era to commemorate his victory over the Saka invaders. While the historical identity of this Vikramaditya is debated (some link it to Chandragupta II Vikramaditya, though the era predates him), the legend is deeply ingrained in Indian folklore. It is also sometimes referred to as the *Malava Gana* era, suggesting its origin with the Malava tribe.</li>
-                <li><strong>Geographical Spread and Variants:</strong>
-                    <ul>
-                        <li>It is one of the most widely used traditional calendars in North India, Nepal, and parts of Western India (e.g., Rajasthan, Gujarat).</li>
-                        <li>There are two main variants:
-                            <ul>
-                                <li><strong>Amanta (or Purnimanta) Vikram Samvat:</strong> Used predominantly in North India, it begins with the month of Chaitra (March/April) and considers the month to end on a full moon (Purnima).</li>
-                                <li><strong>Kartikadi (or Amanta) Vikram Samvat:</strong> Used primarily in Gujarat and some parts of Maharashtra, it begins with the month of Kartika (October/November) and considers the month to end on a new moon (Amavasya). This variant is often used for financial years in traditional business.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><strong>Structure:</strong> It is a lunisolar calendar, with months determined by lunar phases. An *Adhik Maas* is added periodically to synchronize with the solar year. Each month typically has two *pakshas* (fortnights): *Shukla Paksha* (waxing moon) and *Krishna Paksha* (waning moon).</li>
-                <li><strong>Usage:</strong> It remains the official calendar of Nepal and is extensively used in India for Hindu religious festivals, astrological calculations, and traditional business accounting (especially the Kartikadi variant).</li>
-                <li><strong>Conversion:</strong> To convert a Vikram Samvat (VS) year to CE, subtract 57 (e.g., 2081 VS = 2081 - 57 = 2024 CE). This conversion is generally accurate if the VS year falls after Chaitra 1.</li>
-            </ul>
-        </li>
-        <li><strong>Gupta Era</strong>
-            <ul>
-                <li><strong>Origin and Epoch:</strong> The Gupta Era commenced with the accession of Chandragupta I, the founder of the imperial Gupta dynasty, in 319-320 CE. This era marks the beginning of what is often called the "Golden Age of India."</li>
-                <li><strong>Usage:</strong> Primarily used in epigraphic records (inscriptions on pillars, rocks, and copper plates) and numismatic evidence (coins) of the Gupta Empire and its immediate successors. It provides a crucial chronological framework for dating the political, cultural, and artistic achievements of this period.</li>
-                <li><strong>Historical Significance:</strong> The establishment of a distinct imperial era signifies the consolidation of power and the assertion of sovereignty by the Gupta rulers. It is indispensable for dating major architectural marvels, sculptures, and literary works of the Gupta period.</li>
-                <li><strong>Relationship to Valabhi Era:</strong> The Valabhi Era, used by the Maitraka dynasty of Valabhi (Gujarat), is often considered a continuation or closely related to the Gupta Era, starting around 310 CE.</li>
-            </ul>
-        </li>
-        <li><strong>Harsha Era</strong>
-            <ul>
-                <li><strong>Origin and Epoch:</strong> The Harsha Era was inaugurated by Harshavardhana's coronation in 606 CE. Harsha was a powerful ruler of Kanauj who unified a significant portion of North India.</li>
-                <li><strong>Usage:</strong> Found in several North Indian copper-plate grants and literary works of the period, such as Bana's *Harshacharita*. It serves as a local or regional era, particularly in areas under Harsha's direct influence.</li>
-                <li><strong>Historical Significance:</strong> It highlights the political consolidation under Harsha and is vital for synchronizing regional chronologies during the early medieval period. Its limited geographical and temporal spread, however, makes it less pervasive than the Saka or Vikram eras.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h3>4. Other Significant Indigenous and Foreign Eras in India</h3>
-    <p>Beyond the major calendars, numerous other eras have played roles in specific regions or historical contexts, further complicating the chronological landscape of India.</p>
-    <ul>
-        <li><strong>Kollam Era (Malayalam Era)</strong>
-            <ul>
-                <li><strong>Epoch:</strong> 825 CE.</li>
-                <li><strong>Origin:</strong> Its origin is debated, with theories linking it to the founding of the city of Kollam, the renovation of a temple, or a significant astronomical event.</li>
-                <li><strong>Usage:</strong> Predominantly used in Kerala and parts of Tamil Nadu. It is a solar calendar, with months named after the zodiac signs.</li>
-                <li><strong>Significance:</strong> Essential for dating historical events, inscriptions, and literature from the Chera and later kingdoms of Kerala.</li>
-            </ul>
-        </li>
-        <li><strong>Kalachuri-Chedi Era (Traikutaka Era)</strong>
-            <ul>
-                <li><strong>Epoch:</strong> 248-249 CE.</li>
-                <li><strong>Origin:</strong> Attributed to the Abhiras or Traikutakas of Western Deccan.</li>
-                <li><strong>Usage:</strong> Used by the Traikutaka, Kalachuri, and Chedi dynasties in Western and Central India.</li>
-                <li><strong>Significance:</strong> Crucial for understanding the chronology of these powerful regional dynasties during the post-Gupta period.</li>
-            </ul>
-        </li>
-        <li><strong>Lakshmana Samvat</strong>
-            <ul>
-                <li><strong>Epoch:</strong> 1119 CE.</li>
-                <li><strong>Origin:</strong> Associated with King Lakshmana Sena of the Sena dynasty of Bengal.</li>
-                <li><strong>Usage:</strong> Primarily found in inscriptions and literary works from Bengal and surrounding regions during the Sena rule.</li>
-                <li><strong>Significance:</strong> Helps in dating the later medieval period in Eastern India.</li>
-            </ul>
-        </li>
-        <li><strong>Bengali San (Bangla San)</strong>
-            <ul>
-                <li><strong>Epoch:</strong> 593 CE (though its origin is complex and often linked to Mughal revenue reforms under Akbar, who adapted an existing solar calendar to facilitate tax collection).</li>
-                <li><strong>Usage:</strong> Widely used in Bengal and Bangladesh for cultural and agricultural purposes. It is a solar calendar.</li>
-                <li><strong>Significance:</strong> Deeply embedded in Bengali culture, used for festivals, harvest cycles, and traditional commerce.</li>
-            </ul>
-        </li>
-        <li><strong>Chalukya-Vikrama Era</strong>
-            <ul>
-                <li><strong>Epoch:</strong> 1076 CE.</li>
-                <li><strong>Origin:</strong> Established by the Western Chalukya king Vikramaditya VI.</li>
-                <li><strong>Usage:</strong> Found in inscriptions of the Western Chalukyas in the Deccan region.</li>
-                <li><strong>Significance:</strong> Marks a period of significant political and cultural flourishing under Vikramaditya VI.</li>
-            </ul>
-        </li>
-        <li><strong>Kali Yuga</strong>
-            <ul>
-                <li><strong>Epoch:</strong> 3102 BCE (specifically, the midnight between 17 and 18 February, 3102 BCE, according to the *Aryabhatiya*).</li>
-                <li><strong>Origin:</strong> A cosmological era from Hindu scriptures, representing the fourth and final age in a cycle of Yugas.</li>
-                <li><strong>Usage:</strong> Primarily used in Hindu astronomical calculations (*Jyotisha*), religious texts, and philosophical discourse, rather than for civil dating.</li>
-                <li><strong>Significance:</strong> Provides a mythical and astronomical baseline for ancient Hindu cosmology and time reckoning.</li>
-            </ul>
-        </li>
-        <li><strong>Buddhist Era (Buddha Nirvāṇa Era)</strong>
-            <ul>
-                <li><strong>Epoch:</strong> Varies, but commonly 544 BCE or 543 BCE in Southeast Asian countries like Sri Lanka, Thailand, Myanmar, marking the *parinirvana* (death and final nirvana) of Gautama Buddha.</li>
-                <li><strong>Usage:</strong> Predominantly in Buddhist countries and for dating Buddhist religious events and texts.</li>
-                <li><strong>Significance:</strong> The primary chronological reference for the history of Buddhism and Buddhist cultures.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h3>5. Key Historical Eras of India: A Comparative Overview</h3>
-    <p>The following table summarizes the most important eras, providing a quick reference for their origins, usage, and significance.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Era Name</th>
-                <th>Start Date (Gregorian)</th>
-                <th>Founder / Context</th>
-                <th>Primary Usage</th>
-                <th>Historical Significance</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Vikram Samvat (Vikram Era)</strong></td>
-                <td>57 BCE</td>
-                <td>King Vikramaditya (Ujjain), legendary victory over Sakas.</td>
-                <td>Traditional calendar in North India, Nepal, parts of Rajasthan, Gujarat; Hindu festivals, traditional business.</td>
-                <td>Marks a legendary victory over foreign invaders; deeply embedded in Hindu religious and cultural life; vital for dating medieval North Indian history.</td>
-            </tr>
-            <tr>
-                <td><strong>Saka Era (Shaka Calendar)</strong></td>
-                <td>78 CE</td>
-                <td>Kushan King Kanishka I (traditional view); debated origin.</td>
-                <td>National Calendar of India (official civil calendar); astronomical calculations, Hindu *Panchangs*, regional use (e.g., Maharashtra).</td>
-                <td>Provides a uniform civil calendar for modern India; crucial for dating Kushana and later periods; important for astronomical and religious calculations.</td>
-            </tr>
-            <tr>
-                <td><strong>Gupta Era</strong></td>
-                <td>319‑320 CE</td>
-                <td>Chandragupta I (accession to the throne).</td>
-                <td>Epigraphic dating in Gupta-period inscriptions, coins, and literary references.</td>
-                <td>Reflects the rise of Gupta imperial power and the "Golden Age" of India; indispensable for dating early medieval art, architecture, and literature.</td>
-            </tr>
-            <tr>
-                <td><strong>Harsha Era</strong></td>
-                <td>606 CE</td>
-                <td>Harshavardhana (coronation as ruler of Kanauj).</td>
-                <td>North-Indian copper-plate grants and literary works (e.g., *Harshacharita*).</td>
-                <td>Highlights the political consolidation of North India under Harsha; used to synchronize regional chronologies during a transitional period.</td>
-            </tr>
-            <tr>
-                <td><strong>Islamic Hijri Era</strong></td>
-                <td>622 CE (Hijra)</td>
-                <td>Prophet Muhammad’s migration (Hijra) from Mecca to Medina.</td>
-                <td>Administrative records of the Delhi Sultanate, Mughal Empire, and other Islamic states; Islamic religious observances.</td>
-                <td>Introduced a purely lunar calendar to India; essential for interpreting Persian-Arabic inscriptions, court documents, and understanding Islamic cultural influence.</td>
-            </tr>
-            <tr>
-                <td><strong>Julian/Gregorian Era</strong></td>
-                <td>45 BCE (Julian) / 1582 CE (Gregorian reform)</td>
-                <td>Roman reforms by Julius Caesar; Pope Gregory XIII’s reform.</td>
-                <td>British colonial administration, modern Indian legal documents, international commerce, and contemporary scholarship.</td>
-                <td>Standardised civil dating post-colonial period; global standard for timekeeping, enabling synchronization with world history.</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h3>6. Converting Between Calendars – Quick Reference and Complexities</h3>
-    <p>Converting dates between different calendar systems is a common requirement in historical research and can be crucial for competitive exams. While simple formulas provide good approximations, precise conversions often require careful consideration of specific rules.</p>
-    <ul>
-        <li><strong>To convert a Vikram Samvat (VS) year to CE:</strong>
-            <ul>
-                <li><code>CE = VS - 57</code></li>
-                <li><strong>Explanation:</strong> The Vikram Samvat starts 57 years before the Common Era. So, to find the CE year, you subtract 57 from the VS year.</li>
-                <li><strong>Important Note:</strong> This formula works best for dates after the beginning of the VS year (Chaitra 1, usually March/April). For dates in January-February-March, the VS year might be 58 years ahead of the CE year, as the VS year would have already begun while the CE year is still the previous one. For example, January 2024 CE would be Vikram Samvat 2080, while April 2024 CE would be Vikram Samvat 2081.</li>
-            </ul>
-        </li>
-        <li><strong>To convert a Saka (Shaka) year to CE:</strong>`;
-
-EXPANDED_NOTES_DATA["stone-age"] = `<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Prehistoric India – The Stone Age</title>
-    <style>
-        body {font-family: Arial, sans-serif; line-height:1.6; margin:20px;}
-        h1, h2, h3 {color:#2c3e50;}
-        table {border-collapse:collapse; width:100%; margin-top:10px;}
-        th, td {border:1px solid #bbb; padding:8px; text-align:left;}
-        th {background:#ecf0f1;}
-    </style>
-</head>
-<body>
-    <h1>Prehistoric India: The Stone Age – A Comprehensive Examination</h1>
-    <p>Prehistoric India, a vast and complex tapestry woven over millions of years, represents the foundational epoch of human existence and cultural development on the subcontinent. It is broadly divided into three chronological phases—Paleolithic (Old Stone Age), Mesolithic (Middle Stone Age), and Neolithic (New Stone Age)—each distinguished by profound advances in stone-tool technology, evolving subsistence patterns, and increasingly sophisticated settlement behaviour. This period, spanning from the earliest evidence of hominid activity to the dawn of the Metal Ages, is crucial for understanding the deep roots of Indian civilization. The study of Prehistoric India relies heavily on archaeological findings, including stone tools, pottery, skeletal remains, and environmental data, as written records are absent. This chapter provides a detailed, high-yield overview of each phase, essential for UPSC, CDS, AFCAT, and other Defence examinations, emphasizing the 'WHAT', 'WHY', 'HOW', 'EFFECT', and 'EXAMPLE' of key developments.</p>
-
-    <h2>The Stone Age: An Epoch of Human Evolution and Adaptation</h2>
-    <p>The Stone Age in India is not merely a sequence of technological changes but a narrative of human adaptation to diverse ecological niches, cognitive development, and the gradual mastery over the environment. From the rugged quartzite tools of early hominids to the polished axes of settled farmers, each phase reflects a significant leap in human ingenuity and social organization. Understanding these transitions is vital for grasping the trajectory of human history in the subcontinent.</p>
-
-    <h3>1. Paleolithic (Old Stone Age) – up to c. 10,000 BCE</h3>
-    <p>The Paleolithic period, the longest phase of human history, is characterized by the use of crude, unpolished stone tools and a nomadic hunter-gatherer lifestyle. It coincides with the Pleistocene epoch, marked by significant climatic fluctuations, including glacial and interglacial periods, which profoundly influenced human migration and adaptation.</p>
-
-    <p><strong>Chronology & Sub‑phases</strong></p>
-    <table>
-        <thead>
-            <tr>
-                <th>Sub‑phase</th>
-                <th>Time Span (approx.)</th>
-                <th>Characteristic Tool Types</th>
-                <th>Associated Hominids/Key Features</th>
-                <th>Representative Sites (India)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lower Paleolithic</td>
-                <td>≈ 2.5 Myr – 300 kyr BCE</td>
-                <td>Hand‑axes, cleavers, choppers (large bifacial tools), scrapers</td>
-                <td>Early hominids (e.g., <em>Homo erectus</em>, possibly <em>Homo heidelbergensis</em>); Acheulean & Oldowan cultures</td>
-                <td>Soan Valley (Punjab, Pakistan), Bori (Maharashtra), Attirampakkam (Tamil Nadu), Hunsgi-Baichbal Valley (Karnataka), Didwana (Rajasthan), Bhimbetka (Madhya Pradesh)</td>
-            </tr>
-            <tr>
-                <td>Middle Paleolithic</td>
-                <td>≈ 300 kyr – 50 kyr BCE</td>
-                <td>Flake tools (scrapers, borers, points), Levallois technique</td>
-                <td>Emergence of more advanced hominids, possibly archaic <em>Homo sapiens</em>; Mousterian-like cultures</td>
-                <td>Narmada Valley (Hathnora - hominid fossil), Nevasa (Maharashtra), Sanghao Cave (Pakistan), Patne (Maharashtra), Luni Valley (Rajasthan)</td>
-            </tr>
-            <tr>
-                <td>Upper Paleolithic</td>
-                <td>≈ 50 kyr – 10 kyr BCE</td>
-                <td>Blade & bone tools (burins, scrapers, points), microlithic precursors, harpoons, needles</td>
-                <td>Anatomically Modern Humans (<em>Homo sapiens sapiens</em>); Aurignacian-like cultures; early art</td>
-                <td>Kurnool Caves (Andhra Pradesh – ash layers, bone tools), Renigunta (Andhra Pradesh), Son Valley (Madhya Pradesh), Baghor I (Madhya Pradesh), Patne (Maharashtra)</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <p><strong>Way of Life: The Nomadic Foragers</strong></p>
-    <ul>
-        <li><strong>Subsistence Strategy:</strong> Paleolithic communities were entirely nomadic hunter‑gatherers. They exploited a wide range of fauna, including megafauna (e.g., wild cattle, elephants, rhinoceroses, hippopotamuses, deer), and flora, adapting their diet to seasonal availability. Hunting was primarily opportunistic, involving ambushes or driving animals into natural traps. Scavenging from predator kills was also a significant part of their diet.</li>
-        <li><strong>Social Organization:</strong> Small, egalitarian bands of 20-50 individuals formed the basic social unit. Cooperation was essential for survival, especially in hunting large game and defending against predators. There was likely a rudimentary division of labor based on age and gender.</li>
-        <li><strong>Habitations:</strong> Settlements were temporary, dictated by resource availability and climatic conditions. Natural caves and rock‑shelters, such as those found at Bhimbetka, provided protection from elements and predators. Open-air sites, often near water sources, were also utilized for short durations. Seasonal mobility was a defining characteristic, ensuring access to fresh food and water.</li>
-        <li><strong>Control of Fire:</strong> The mastery of fire was a monumental achievement, likely occurring during the Lower Paleolithic. While evidence suggests limited use for elaborate cooking in the earliest phases, fire was primarily used for warmth, protection from wild animals, clearing vegetation, and hardening wooden tools. Its controlled use also fostered social cohesion, providing a central point for group activities and communication. *Mechanism:* Fire provided heat, light, and a means to deter predators. *Why* it was crucial: Enhanced survival in colder climates, expanded foraging hours, improved safety. *Effect:* Contributed to dietary diversification (cooking made some foods digestible), social bonding, and territorial defense.</li>
-        <li><strong>Early Art and Symbolism (Upper Paleolithic):</strong> The Upper Paleolithic witnessed the emergence of symbolic thought. Evidence includes rock paintings (petroglyphs and pictographs) at sites like Bhimbetka and Daraki-Chattan, depicting animals, human figures, and geometric patterns. These represent early forms of communication, ritual, and aesthetic expression. Ostrich eggshell beads found at Patne and other sites indicate personal adornment and possibly early trade networks.</li>
-    </ul>
-
-    <p><strong>Tool Technology: From Core to Blade</strong></p>
-    <ul>
-        <li><strong>Raw Materials:</strong> Predominantly large, unpolished stone implements were fashioned from locally available hard rocks such as <em>quartzite</em>, chert, basalt, and dolerite. The abundance of quartzite tools led to the term “Quartzite Men” being associated with Paleolithic inhabitants of India.</li>
-        <li><strong>Lower Paleolithic Tools:</strong>
-            <ul>
-                <li><strong>Oldowan-like tools:</strong> Simple choppers and chopping tools, made by striking flakes from a core to create a sharp edge. These were multi-purpose tools for crushing, cutting, and scraping.</li>
-                <li><strong>Acheulean tools:</strong> Characterized by bifacial hand-axes and cleavers, meticulously shaped on both sides. The *core-and-flake technique* evolved into more refined methods, demonstrating greater cognitive planning and motor skills. Hand-axes were versatile, used for butchering large animals, digging for roots, and working wood. Cleavers, with a broad, straight cutting edge, were effective for skinning and dismembering.</li>
-                <li>*Mechanism:* Direct percussion (striking with a hammerstone) was the primary method. *Why* bifacial tools were superior: Increased cutting edge, better grip, more balanced for repeated use. *Effect:* Enhanced efficiency in processing resources, leading to better nutrition and survival rates.</li>
-            </ul>
-        </li>
-        <li><strong>Middle Paleolithic Tools:</strong>
-            <ul>
-                <li>A significant shift occurred towards flake tools, which were smaller and lighter. The *Levallois technique* (prepared core technique) became prominent. *How it works:* A core was carefully prepared by removing flakes from its surface to predetermine the shape of the final flake, which was then struck off. *Why it was advanced:* It allowed for the production of standardized, sharp, and efficient tools (scrapers, points, borers) with less raw material waste, indicating a more sophisticated understanding of stone fracture mechanics.</li>
-                <li>These tools were likely hafted onto wooden handles, increasing their leverage and utility.</li>
-            </ul>
-        </li>
-        <li><strong>Upper Paleolithic Tools:</strong>
-            <ul>
-                <li>This phase saw the dominance of *blade technology*. Blades are long, parallel-sided flakes, at least twice as long as they are wide. *How they were made:* Often produced using a punch technique, allowing for mass production of consistent, sharp blanks.</li>
-                <li>These blades were then retouched into various specialized tools like burins (for engraving bone, antler, and wood), scrapers (for hide processing), and points (for spears and arrows).</li>
-                <li>The introduction of *bone implements* (harpoons, needles, spear throwers) further indicates cognitive advances and the arrival of anatomically modern humans (<em>Homo sapiens sapiens</em>) with superior technological capabilities. *Why bone tools:* Bone and antler are strong, flexible, and can be shaped into fine, specialized tools not possible with stone. *Effect:* Improved hunting efficiency, ability to process hides for clothing, and potentially more complex shelters.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h3>2. Mesolithic (Middle Stone Age) – c. 10,000 BCE to 6,000 BCE</h3>
-    <p>The Mesolithic period represents a transitional phase between the nomadic Paleolithic and the settled Neolithic. It is marked by significant environmental changes and corresponding human adaptations, leading to a more diversified economy and the beginnings of social complexity.</p>
-
-    <p><strong>Environmental Context: The Dawn of the Holocene</strong></p>
-    <ul>
-        <li><strong>Post‑glacial Warming:</strong> The end of the Pleistocene Ice Age (around 10,000 BCE) ushered in the Holocene epoch, characterized by a warmer, wetter, and more stable climate. This global warming led to the retreat of glaciers and a rise in sea levels.</li>
-        <li><strong>Ecological Transformation:</strong> The changing climate profoundly reshaped vegetation patterns. Dense forests replaced tundra and grasslands in many regions, and new ecological niches emerged. This led to the extinction of some megafauna (e.g., woolly mammoths) and the proliferation of smaller, faster-moving animals like deer, antelope, wild boar, and various birds and fish.</li>
-        <li><strong>Impact on Human Adaptation:</strong> The shift in fauna necessitated new hunting strategies and tools. Humans began to exploit a broader spectrum of resources, including aquatic life (fish, shellfish), small game, and wild plant foods. This diversification of diet is often termed the "Broad Spectrum Revolution."</li>
-    </ul>
-
-    <p><strong>Technological Innovations: The Age of Microliths</strong></p>
-    <ul>
-        <li><strong>Introduction of Microliths:</strong> The defining technological innovation of the Mesolithic was the widespread use of <strong>microliths</strong>—tiny, expertly retouched stone blades (typically 1–5 cm in length). *How they were made:* These were produced by a sophisticated *punch technique* or *pressure flaking*, often from fine-grained chert, chalcedony, and agate.</li>
-        <li><strong>Composite Tools:</strong> Microliths were rarely used individually. Instead, they were mounted (hafted) onto composite hafts of wood, bone, or antler using natural adhesives like resin or bitumen. *Why composite tools:* This allowed for the creation of highly efficient and specialized tools:
-            <ul>
-                <li><strong>Barbed Spears and Harpoons:</strong> Microliths were set into grooves along a spear shaft to create serrated edges, making hunting more effective and reducing prey escape.</li>
-                <li><strong>Multi-arrow Bows:</strong> The bow and arrow, likely invented in this period, revolutionized hunting by increasing range and accuracy. Microlithic points served as arrowheads.</li>
-                <li><strong>Sickles and Knives:</strong> Microliths were also used as cutting edges in sickles for harvesting wild grains and in knives for processing food.</li>
-            </ul>
-        </li>
-        <li><strong>Other Tools:</strong> Grinding stones, pestles, and mortars became common, indicating increased processing of plant foods, including wild grains and nuts. This suggests a more systematic approach to plant resource utilization.</li>
-    </ul>
-
-    <p><strong>Socio‑Economic Changes: Towards Sedentism and Domestication</strong></p>
-    <ul>
-        <li><strong>Continued Hunting-Gathering with Diversification:</strong> While hunting and gathering remained the primary subsistence strategy, there was a noticeable shift towards exploiting a wider range of resources (fish, fowl, small game, wild cereals). This led to more intensive exploitation of local environments.</li>
-        <li><strong>Proto-Agricultural Practices:</strong> Emerging evidence suggests early forms of plant management and proto-agricultural practices, such as the systematic harvesting of wild grains and possibly rudimentary cultivation. This laid the groundwork for the full-fledged agriculture of the Neolithic.</li>
-        <li><strong>Animal Management and Domestication:</strong> The domestication of the dog (<em>Canis familiaris</em>) is the earliest documented animal-human partnership in the subcontinent, crucial for hunting and protection. Evidence from sites like Bagor and Adamgarh also points to the early management or incipient domestication of sheep and goats. *Why domestication:* Provided a stable food source (meat, milk), wool, and labor, reducing reliance on unpredictable wild resources.</li>
-        <li><strong>Settlement Patterns:</strong> While still mobile, Mesolithic communities often established semi-permanent or seasonal camps, particularly in resource-rich areas. Some sites show evidence of more substantial dwellings, indicating longer stays.</li>
-        <li><strong>Burial Practices and Rituals:</strong> Mesolithic sites like Sarai Nahar Rai, Mahadaha, and Damdama in Uttar Pradesh have yielded numerous human burials, often with grave goods (microliths, shell ornaments, bone tools). These practices suggest developing belief systems, an awareness of the afterlife, and possibly early forms of social differentiation. Collective burials and evidence of violence (e.g., arrowheads embedded in bones) have also been found.</li>
-        <li><strong>Rock Art:</strong> The Mesolithic period is renowned for its extensive rock art, particularly in Central India (e.g., Bhimbetka, Adamgarh). These paintings depict scenes of hunting, dancing, rituals, animal figures, and daily life, offering invaluable insights into their culture, beliefs, and environment.</li>
-    </ul>
-
-    <p><strong>Key Archaeological Sites</strong></p>
-    <ul>
-        <li><strong>Bagor (Rajasthan):</strong> One of the largest and oldest Mesolithic settlements in India (≈ 9,500 BCE). It provides the earliest clear evidence of domesticated cattle and dogs in the subcontinent. The site shows three cultural phases, with the earliest phase characterized by a rich microlithic industry, animal bones, and circular stone-paved floors, suggesting semi-permanent habitations.</li>
-        <li><strong>Adamgarh (Madhya Pradesh):</strong> Known for its rich microlith assemblages and numerous rock shelters with paintings. It also provides early evidence of animal domestication, particularly cattle, sheep, and goats, dating back to around 7,000-5,000 BCE.</li>
-        <li><strong>Langhnaj (Gujarat):</strong> Shows continuity from Paleolithic to Mesolithic, with diverse toolkits, human skeletons, and early evidence of plant processing. The site has yielded microliths, animal bones, and even some pottery in later phases, suggesting interaction with early agricultural communities.</li>
-        <li><strong>Sarai Nahar Rai (Uttar Pradesh):</strong> A significant site known for its human burials (11 graves with 14 skeletons), unique bone artifacts (like arrowheads and rings), and hearths. Evidence of mass burials and trauma suggests possible inter-group conflict or specific ritualistic practices.</li>
-        <li><strong>Mahadaha (Uttar Pradesh):</strong> Another important site with multiple burials, bone tools, and evidence of specialized hunting and fishing. A notable finding includes a necklace made of deer antlers.</li>
-        <li><strong>Damdama (Uttar Pradesh):</strong> Similar to Sarai Nahar Rai and Mahadaha, with numerous burials, bone tools, and hearths. One grave contained three human skeletons buried together, along with grave goods.</li>
-        <li><strong>Tilwara (Rajasthan):</strong> A microlithic site with evidence of circular huts, animal bones, and hearths, indicating a semi-sedentary lifestyle.</li>
-    </ul>
-
-    <h3>3. Neolithic (New Stone Age) – c. 6,000 BCE to 1,000 BCE</h3>
-    <p>The Neolithic period marks one of the most transformative phases in human history, often termed the "Neolithic Revolution." It represents a fundamental shift from a nomadic foraging economy to a sedentary, food-producing one, laying the groundwork for complex societies and ultimately, civilizations.</p>
-
-    <p><strong>The Neolithic Revolution: A Paradigm Shift</strong></p>
-    <ul>
-        <li><strong>Fundamental Shift:</strong> This period witnessed a radical transformation from opportunistic foraging (hunting and gathering) to systematic <strong>food production</strong> through agriculture and animal husbandry. *Causes:* While debated, factors likely included climatic stability, increased population density leading to pressure on wild resources, and the cumulative knowledge of plant and animal behaviour gained during the Mesolithic.</li>
-        <li><strong>Adoption of Sedentary Village Life:</strong> The need to tend crops and manage domesticated animals necessitated permanent or semi-permanent settlements. This led to the establishment of fixed villages, often characterized by mud-brick houses and organized layouts. *Effect:* Increased population density, accumulation of surplus food, and a more predictable food supply.</li>
-        <li><strong>Socio-Economic Transformation:</strong> Sedentary life and food surplus led to significant societal changes:
-            <ul>
-                <li><strong>Social Stratification:</strong> The accumulation of wealth (land, livestock, surplus food) could have led to initial forms of social hierarchy and differentiation.</li>
-                <li><strong>Craft Specialization:</strong> With a stable food supply, not everyone needed to be directly involved in food production. This allowed for the emergence of specialized crafts like pottery making, tool manufacturing, weaving, and later, metallurgy.</li>
-                <li><strong>Trade Networks:</strong> Surplus production facilitated exchange of goods, leading to the development of rudimentary trade networks for raw materials (e.g., chert, obsidian, shells) and finished products.</li>
-                <li><strong>Population Growth:</strong> A more stable food supply and reduced mobility generally led to higher birth rates and lower mortality, resulting in significant population growth.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <p><strong>Major Innovations: Pillars of a New Way of Life</strong></p>
-    <ul>
-        <li><strong>Domestication of Major Cereals:</strong> This was the cornerstone of the Neolithic Revolution. Key crops domesticated in India include:
-            <ul>
-                <li><strong>Wheat (<em>Triticum</em>) and Barley (<em>Hordeum</em>):</strong> Primarily cultivated in the North-Western regions (e.g., Mehrgarh), reflecting influences from the Fertile Crescent.</li>
-                <li><strong>Rice (<em>Oryza sativa</em>):</strong> Crucially, India is one of the independent centers of rice domestication, with early evidence from Koldihwa and Lahuradewa in the Ganga Valley.</li>
-                <li><strong>Millets (e.g., <em>Eleusine coracana</em> - Ragi):</strong> Important in South India.</li>
-                <li>Other crops included lentils, peas, and various pulses.</li>
-            </ul>
-            *Mechanism:* Selective breeding over generations, choosing plants with desirable traits (larger grains, non-shattering heads). *Why:* Provided a reliable, high-calorie food source that could be stored.
-        </li>
-        <li><strong>Animal Husbandry:</strong> Alongside crop cultivation, the domestication of animals provided meat, milk, hides, wool, and labor.
-            <ul>
-                <li><strong>Sheep, Goats, Cattle:</strong> These were among the earliest domesticated animals, providing a versatile resource base.</li>
-                <li><strong>Buffalo and Pigs:</strong> Also domesticated, contributing to the diverse agricultural economy.</li>
-            </ul>
-            *Effect:* Reduced hunting risk, provided renewable resources, and eventually facilitated plough agriculture.
-        </li>
-        <li><strong>Invention of the Wheel and Pottery:</strong>
-            <ul>
-                <li><strong>Pottery:</strong> The invention of pottery was crucial for storing surplus grains, cooking, and transporting water. Early pottery was hand-made (e.g., basket-impressed ware), but the *invention of the wheel* (≈ 4,500 BCE in some regions, though its widespread adoption in India might be later) revolutionized ceramic technology, allowing for mass production of standardized, finer vessels. Different types of pottery (e.g., Grey Ware, Black-and-Red Ware) emerged, reflecting regional variations and technological advancements.</li>
-                <li><strong>Wheel:</strong> Beyond pottery, the wheel eventually facilitated transport (carts) and other mechanical applications, though its earliest use was likely for pottery.</li>
-            </ul>
-        </li>
-        <li><strong>Polished Stone Tools:</strong> Neolithic tools were distinct from their Paleolithic and Mesolithic predecessors. Axes, adzes, chisels, and hoes were not only flaked but also ground and *polished*. *Why polishing:* Polishing made tools much stronger, sharper, and more durable, making them highly effective for felling trees (clearing land for agriculture) and working wood for construction.</li>
-        <li><strong>Construction of Permanent Houses:</strong> Settlements consisted of permanent structures, typically mud-brick houses (e.g., Mehrgarh), wattle-and-daub structures, or pit-dwellings (e.g., Burzahom). These organized settlement layouts signify communal planning and a commitment to a specific territory.</li>
-        <li><strong>Textile Production:</strong> Evidence of spindle whorls and bone needles suggests the beginnings of spinning and weaving, likely using cotton or wool, for clothing and other uses.</li>
-    </ul>
-
-    <p><strong>Representative Sites: Regional Manifestations of the Revolution</strong></p>
-    <ul>
-        <li><strong>Mehrgarh (Balochistan, Pakistan):</strong> Considered one of the earliest and most significant Neolithic settlements in South Asia (≈ 7,000 BCE). It provides continuous evidence of human occupation from the Neolithic to the Chalcolithic. Notable findings include:
-            <ul>
-                <li>Cultivation of wheat and barley, and domestication of sheep, goats, and cattle.</li>
-                <li>Sophisticated mud-brick architecture, including multi-roomed houses and granaries.</li>
-                <li>Early evidence of bead-making (lapis lazuli, turquoise) and dental drilling, indicating advanced craftsmanship and medical practices.</li>
-                <li>Proto-metallurgy (copper artifacts) in later phases, showing a transition towards the Chalcolithic.</li>
-                <li>Burials with grave goods, reflecting social status and belief systems.</li>
-            </ul>
-        </li>
-        <li><strong>Burzahom (Kashmir):</strong> A distinctive Neolithic site (≈ 2,700 BCE) known for its unique pit-dwelling habitations (sub-surface houses), designed to mitigate the cold climate of the Kashmir Valley.
-            <ul>
-                <li>Archaeological layers reveal dog burials alongside human occupants, suggesting a deep reverence for animals, possibly ritualistic.</li>
-                <li>Unique pottery (black burnished ware), polished stone tools, and bone tools (harpoons, needles, daggers) adapted for a cold, lacustrine environment.</li>
-                <li>Later phases show evidence of megalithic practices.</li>
-            </ul>
-        </li>
-        <li><strong>Koldihwa (Uttar Pradesh):</strong> Provides some of the oldest securely dated evidence of rice cultivation worldwide (≈ 6,000 BCE), along with evidence of cattle rearing and hand-made pottery. This site underscores the subcontinent’s independent role in early rice domestication.</li>
-        <li><strong>Lahuradewa (Uttar Pradesh):</strong> Even older evidence of rice cultivation (≈ 7,000-6,000 BCE) has been found here, pushing back the dates for rice domestication in the Ganga plain and challenging earlier assumptions about its origins.</li>
-        <li><strong>Chirand (Bihar):</strong> Located in the middle Ganga plain (≈ 2,500 BCE), this site is notable for its abundant bone tools crafted from deer antlers, indicating specialized hunting and craft activities within a settled agricultural community. It also shows evidence of rice, wheat, and barley cultivation, and wattle-and-daub houses.</li>
-        <li><strong>Daojali Hading (Assam):</strong> Represents the Neolithic culture of Northeast India. Findings include polished stone tools (celts), pottery, and grinding stones, suggesting a shift towards agriculture and settled life in the region, possibly with links to Southeast Asian Neolithic traditions.</li>
-        <li><strong>Southern Neolithic Sites (e.g., Maski, Brahmagiri, Piklihal, Utnur, Tekkalakota in`;
-
-EXPANDED_NOTES_DATA["chalcolithic-age"] = `<h2>️ The Chalcolithic & Pottery Cultures</h2>
-<p>The Chalcolithic period, often referred to as the Copper Age, represents a pivotal transitional phase in human history, bridging the gap between the Stone Age (specifically the Neolithic) and the Bronze Age. Characterized by the simultaneous and joint use of both copper and stone tools, this era marks humanity's first significant foray into metallurgy. The term itself is derived from Greek: 'chalco' meaning copper and 'lithos' meaning stone. This period is crucial for understanding the foundational developments that led to more complex societies, including the emergence of early urban centers and sophisticated craft production.</p>
-<p>Geographically, the Chalcolithic cultures in India flourished predominantly in regions like southeastern Rajasthan, western Madhya Pradesh, eastern Maharashtra, and parts of the Gangetic basin and South India. Chronologically, these cultures generally span from around 3000 BCE to 700 BCE, though specific timelines vary by region. The discovery and mastery of copper smelting was a revolutionary technological leap. While stone tools, particularly microliths and polished stone axes, continued to be widely used for everyday tasks, copper provided a material with superior properties for specific applications, such as weapons, ornaments, and certain agricultural implements. This dual-tool economy reflects a period of innovation and adaptation, laying the groundwork for the more advanced metal ages that followed.</p>
-<p>Pottery, an indispensable archaeological artifact, serves as a primary indicator for identifying and dating Chalcolithic cultures. The distinct styles, fabrics, shapes, and decorative motifs of pottery are unique to different cultural groups and periods. It provides invaluable insights into the daily lives, technological capabilities, aesthetic sensibilities, trade networks, and even dietary practices of these ancient communities. From coarse, hand-made wares to finely wheel-turned and painted vessels,`;
-
-EXPANDED_NOTES_DATA["rock-art"] = `<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Prehistoric Rock Art – Detailed Notes</title>
-    <style>
-        body {font-family: Arial, sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87; margin-top:30px;}
-        h3 {color:#3A5A9C; margin-top:20px;}
-        h4 {color:#4A7ABF; margin-top:15px;}
-        table {border-collapse:collapse; width:100%; margin-top:10px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-    </style>
-</head>
-<body>
-
-    <h2>🎨 Prehistoric Rock Art: A Window into Ancient Minds</h2>
-    <p>Prehistoric rock art, encompassing both **pictographs** (paintings) and **petroglyphs** (engravings), stands as an unparalleled primary source for reconstructing the socio-cultural fabric, cognitive evolution, and environmental adaptations of early humans across the globe. Unlike other archaeological finds such as tools or skeletal remains, rock art offers a direct, visual narrative from the minds of our ancestors, providing insights into their beliefs, daily lives, and artistic sensibilities.</p>
-    <p>The motifs, techniques, and material choices employed in these ancient galleries reveal intricate patterns of subsistence strategies, complex ritual behaviour, nascent religious thought, and remarkable cognitive development spanning hundreds of thousands of years. From the earliest abstract markings to elaborate multi-figure compositions, rock art serves as a universal testament to human creativity and our innate drive to communicate and leave a lasting mark on the world. Its study is crucial for understanding the trajectory of human cultural evolution, offering invaluable data to fields like archaeology, anthropology, art history, and cognitive science.</p>
-
-    <h3>1. Bhimbetka Caves (Madhya Pradesh): India's Oldest Art Gallery</h3>
-    <p>The Bhimbetka rock shelters, nestled within the Vindhya Range in the state of Madhya Pradesh, represent one of the most significant archaeological sites globally for understanding prehistoric human activity. This sprawling complex of natural rock shelters and caves showcases an extraordinary continuum of human habitation and artistic expression, stretching from the Lower Paleolithic period through the Mesolithic, Neolithic, Chalcolithic, and into historical times. It offers a unique chronological palimpsest of human history in the Indian subcontinent.</p>
-
-    <h4>Discovery & UNESCO Recognition</h4>
-    <ul>
-        <li><strong>Discoverer:</strong> The Bhimbetka rock shelters were formally discovered and brought to international attention by the eminent Indian archaeologist **Dr. Vishnu Shridhar Wakankar** in 1957. Dr. Wakankar, often hailed as the 'Father of Indian Rock Art,' was surveying the region while travelling by train and noticed striking similarities between the rock formations and those he had seen in Spain and France, particularly the famous Altamira and Lascaux caves. His meticulous research and dedication led to the systematic exploration and documentation of this vast site, revealing its immense archaeological potential. Wakankar's pioneering work established a robust framework for the study of Indian rock art.</li>
-        <li><strong>UNESCO World Heritage Site:</strong> Recognizing its outstanding universal value, the Bhimbetka rock shelters were inscribed as a UNESCO World Heritage Site in 2003. This prestigious designation was granted under two crucial criteria:
-            <ul>
-                <li>**Criterion (iii):** "to bear a unique or at least exceptional testimony to a cultural tradition or to a civilization which is living or which has disappeared." Bhimbetka perfectly embodies this by presenting an unbroken sequence of cultural traditions and artistic expressions from the Stone Age, offering an unparalleled insight into the life and thought of early human societies in India. The sheer volume and continuity of the art provide a profound testimony to a way of life that has largely disappeared but whose echoes persist in the region's indigenous communities.</li>
-                <li>**Criterion (vi):** "to be directly or tangibly associated with events or living traditions, with ideas, or with beliefs, with artistic and literary works of outstanding universal significance." The rock art at Bhimbetka is deeply intertwined with the spiritual beliefs, rituals, and cosmological views of its creators. Many motifs, such as animal worship, hunting rituals, and communal dances, resonate with the living traditions of the tribal communities (like the Bhils and Gonds) who still inhabit the surrounding areas, demonstrating a remarkable continuity of cultural practices and symbolic thought over millennia. The site thus serves as a powerful link between prehistoric past and living present.</li>
-            </ul>
-        </li>
-        <li><strong>Global Significance:</strong> Bhimbetka's inscription placed it alongside other globally renowned prehistoric art sites, highlighting India's rich archaeological heritage and its critical role in understanding the broader narrative of human artistic and cognitive evolution.</li>
-    </ul>
-
-    <h4>Chronological Spectrum of Artistic Activity</h4>
-    <p>The cave complex exhibits an extraordinary and uninterrupted artistic activity, allowing archaeologists to trace the evolution of human culture, technology, and belief systems across vast stretches of time. The superimposition of paintings from different periods on the same rock surfaces provides a unique chronological record, a visual palimpsest of human history.</p>
-    <ul>
-        <li><strong>Upper Paleolithic (≈ 40,000 – 12,000 BCE):</strong>
-            <ul>
-                <li>**Artistic Characteristics:** This earliest phase is characterized by large, often solitary, and highly naturalistic depictions of megafauna. Animals like bison (gaur), tigers, rhinoceroses, and elephants are common. The colours are typically deep reds and greens, derived from hematite and glauconite respectively. The figures are often outlined and sometimes filled with geometric patterns or simple washes. The focus is primarily on the animal itself, suggesting a deep reverence or totemic significance.</li>
-                <li>**Societal Context:** Humans were primarily nomadic hunter-gatherers, relying on large game. The art likely reflects hunting magic, a desire to control or influence the hunt, or a spiritual connection with these powerful animals. It also provides valuable data on the fauna present in the region during that epoch.</li>
-            </ul>
-        </li>
-        <li><strong>Mesolithic (≈ 12,000 – 8,000 BCE):</strong>
-            <ul>
-                <li>**Artistic Characteristics:** This is the most prolific and diverse period of rock art at Bhimbetka. The scale of figures generally reduces, and the style becomes more schematic and dynamic. Human figures appear prominently, often in groups, engaged in various activities. Scenes depict communal hunting (with bows and arrows, spears), fishing, food gathering, dancing, singing, and early forms of warfare. Animals are still present but often integrated into human activities. The colour palette expands to include white, yellow, and black, alongside red and green.</li>
-                <li>**Societal Context:** A significant shift occurred towards a more settled or semi-settled lifestyle, with the development of microlithic tools. Social structures became more complex, leading to communal activities and possibly early forms of social stratification. The art reflects a greater emphasis on human interaction, social cohesion, and the challenges and triumphs of community life. Depictions of animals wounded or being hunted are common, reflecting the continued importance of hunting but with more sophisticated strategies.</li>
-            </ul>
-        </li>
-        <li><strong>Neolithic (≈ 8,000 – 4,000 BCE):</strong>
-            <ul>
-                <li>**Artistic Characteristics:** The art becomes even more stylized and symbolic. Themes shift to reflect the agricultural revolution. Depictions of early domesticated animals (cattle, sheep, goats) become common, often shown grazing or being herded. Scenes of farming activities, such as ploughing, sowing, and harvesting, emerge. Village life, with rudimentary shelters and communal gatherings, is also represented.</li>
-                <li>**Societal Context:** This period marks the transition to settled agricultural communities, the development of pottery, and a profound change in human-environment interaction. The art reflects this new relationship with nature, focusing on sustenance through cultivation and animal husbandry, and the establishment of permanent settlements.</li>
-            </ul>
-        </li>
-        <li><strong>Chalcolithic (≈ 4,000 – 2,000 BCE):</strong>
-            <ul>
-                <li>**Artistic Characteristics:** While continuing the stylization of the Neolithic, this phase introduces new elements reflecting the advent of metal technology (copper and bronze). Depictions of wheeled carts, possibly indicating trade or transport, and figures holding metal implements become visible. The art may also show more complex social hierarchies and symbols of authority.</li>
-                <li>**Societal Context:** This era saw the emergence of early village cultures, the development of metallurgy, and the expansion of trade networks. The art provides glimpses into the technological advancements and evolving socio-economic structures of these communities.</li>
-            </ul>
-        </li>
-        <li><strong>Historical periods (post-2,000 BCE):</strong>
-            <ul>
-                <li>**Artistic Characteristics:** The artistic quality generally declines, with figures becoming highly schematic and less detailed. The themes broaden to include religious symbols (e.g., Trishul, Swastika), horse riders, battle scenes with metal weapons (swords, shields), and processions. Some shelters also bear inscriptions in Brahmi script, indicating later usage by ascetics or travelers.</li>
-                <li>**Societal Context:** These later additions reflect the rise of organized religions, kingdoms, and urban centres. The rock shelters continued to be used by various groups, including tribal communities, hermits, and travelers, who added their own layers of artistic and symbolic expression, maintaining the site's cultural relevance over millennia.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h4>Artistic Styles & Themes</h4>
-    <p>The repertoire of motifs at Bhimbetka is incredibly rich, reflecting both the pragmatic concerns of everyday life and profound symbolic and spiritual expressions. The evolution of styles from naturalistic to schematic provides a visual timeline of cognitive and cultural shifts.</p>
-    <ul>
-        <li><strong>Faunal representations:</strong>
-            <ul>
-                <li>**Dominance and Diversity:** Bison (gaur), tigers, elephants, rhinoceroses, deer (sambar, chital), wild boars, monkeys, antelopes, and various birds and fish dominate the panels. These depictions are not merely illustrative but often convey movement, power, and the essence of the animal.</li>
-                <li>**Hunting Priorities & Reverence:** The prominence of certain animals indicates their importance as prey, but also suggests a deep reverence, possibly totemic beliefs, or a spiritual connection. Animals are often depicted with great accuracy, showcasing the artists' keen observational skills and intimate knowledge of their environment. Some animals are shown wounded, pregnant, or in specific behavioural postures, adding narrative depth.</li>
-                <li>**Environmental Record:** The faunal art serves as a valuable paleo-environmental record, indicating the types of animals that inhabited the region during different prehistoric periods.</li>
-            </ul>
-        </li>
-        <li><strong>Human activities:</strong>
-            <ul>
-                <li>**Hunting Expeditions:** Detailed scenes illustrate group hunting strategies, use of various weapons (spears, bows, arrows, traps), and the pursuit of game. These depict early forms of strategic planning, cooperation, and division of labour within communities.</li>
-                <li>**Communal Dances & Rituals:** Figures adorned with ornaments, masks, or elaborate headgear are shown participating in rhythmic dances and ceremonies. These scenes provide insights into early forms of social cohesion, spiritual practices, and the role of music and movement in community life. They may represent initiation rites, fertility rituals, or celebrations of successful hunts.</li>
-                <li>**Warfare Scenes:** Especially prevalent in Mesolithic and later periods, these depict armed conflicts between groups, often with shields, spears, and bows. They reflect the emergence of territoriality, resource competition, and organized conflict.</li>
-                <li>**Domestic & Gathering Scenes:** Less common but present are depictions of women gathering food, processing resources, preparing meals, and caring for children, offering glimpses into gender roles and daily subsistence activities beyond hunting.</li>
-            </ul>
-        </li>
-        <li><strong>Symbolic elements:</strong>
-            <ul>
-                <li>**Abstract Patterns & Geometric Designs:** Circles, triangles, squares, spirals, zigzags, and other abstract forms are recurrent. These are often interpreted as representations of cosmological ideas, spiritual journeys (possibly shamanic trance states), clan symbols, or early forms of notation.</li>
-                <li>**Handprints & Footprints:** These personal marks may signify identity, presence, or a ritualistic connection to the rock shelter itself. They could be signatures, prayers, or symbols of protection.</li>
-                <li>**Cosmological & Shamanistic Interpretations:** Many scholars suggest that some abstract and animal-human hybrid figures relate to shamanistic beliefs, where shamans would enter altered states of consciousness to communicate with the spirit world, often represented by animals.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h4>Materials & Pigment Technology</h4>
-    <p>The remarkable preservation of Bhimbetka's rock art over tens of millennia is a testament to the ingenuity of its creators in sourcing, preparing, and applying durable pigments. Artists employed locally sourced minerals, combined with organic binders, to create a vibrant and long-lasting palette. The understanding of geological resources and basic chemistry demonstrated by these early artists is truly impressive.</p>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Colour</th>
-                <th>Primary Mineral Source</th>
-                <th>Typical Usage</th>
-                <th>Binding Medium</th>
-                <th>Chemical Properties & Significance</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Red</strong></td>
-                <td>Hematite (Fe₂O₃) – locally termed <em>geru</em> or red ochre. Abundant in the Vindhyan hills.</td>
-                <td>Depicts hunters, weapons, blood symbolism, powerful animals, outlines, and full body fills. Symbolizes life, vitality, and power.</td>
-                <td>Water mixed with animal fat (from bone marrow or rendered fat), plant gum (e.g., acacia resin), or blood.</td>
-                <td>Iron oxide is chemically stable and resistant to weathering, contributing significantly to the longevity of the paintings. Grinding hematite to a fine powder increases its pigment strength and ease of application.</td>
-            </tr>
-            <tr>
-                <td><strong>Green</strong></td>
-                <td>Chalcedony (silica) ground to fine powder; sometimes Glauconite (iron potassium phyllosilicate) or Malachite (copper carbonate) in other sites.</td>
-                <td>Used for dancers, vegetation, ceremonial motifs, and specific animal species. Often used in combination with red.</td>
-                <td>Water-based paste; occasional use of plant resin or animal fat.</td>
-                <td>Green pigments are generally less common and less stable than reds or whites. The specific source (chalcedony) suggests local geological availability. Glauconite provides a duller green, while malachite offers a brighter hue.</td>
-            </tr>
-            <tr>
-                <td><strong>Yellow/Ochre</strong></td>
-                <td>Goethite (FeO(OH)) and Limonite (a mixture of hydrated iron oxides).</td>
-                <td>Background fills, sun symbols, animal fur, human figures, and specific ceremonial elements. Provides warmth and contrast.</td>
-                <td>Water or animal fat.</td>
-                <td>Like red ochre, yellow ochre is an iron oxide pigment, known for its stability and widespread availability. Different hydration levels of iron oxides produce varying shades of yellow and brown.</td>
-            </tr>
-            <tr>
-                <td><strong>Black</strong></td>
-                <td>Manganese oxides (e.g., Pyrolusite, MnO₂) or charcoal (from burnt wood, bone, or plant matter).</td>
-                <td>Outlines, hatching, symbolic markings, shadows, and depicting dark-coloured animals or night scenes. Used for strong contrasts.</td>
-                <td>Water or plant gum (e.g., tree sap).</td>
-                <td>Manganese oxides are highly stable and provide a deep, rich black. Charcoal, while effective, can be less durable over millennia unless well-bound. The choice depended on availability and desired effect.</td>
-            </tr>
-            <tr>
-                <td><strong>White</strong></td>
-                <td>Kaolin clay (hydrated aluminium silicate), Limestone (calcium carbonate), or Gypsum (hydrated calcium sulfate).</td>
-                <td>Outlines, filling figures, creating contrast against darker rock surfaces, and depicting spiritual purity or specific ceremonial attire.</td>
-                <td>Water mixed with animal fat, plant gum, or sometimes urine.</td>
-                <td>White pigments, particularly calcium carbonate, are generally stable. Their use highlights figures and creates a striking visual impact, especially in the dim light of the caves.</td>
-            </tr>
-        </tbody>
-    </table>
-    <p>The preparation of these pigments involved grinding the raw mineral lumps into fine powders using stone pestles and mortars. These powders were then mixed with binding agents to create a paintable paste. The choice of binder was crucial for adhesion to the rock surface and for the durability of the paint. Animal fats provided excellent water resistance and flexibility, while plant gums offered good adhesion. The sophisticated understanding of these material properties underscores the advanced practical knowledge of prehistoric artists.</p>
-
-    <h4>Techniques & Execution</h4>
-    <p>The artists of Bhimbetka employed a variety of sophisticated techniques, demonstrating not only artistic skill but also an understanding of material science and spatial composition.</p>
-    <ul>
-        <li><strong>Surface preparation:</strong> Before applying pigments, artists often prepared the rock surface. This might involve smoothing rough areas with stone tools, scraping away loose debris, or even applying a base layer of white pigment (like kaolin) to create a brighter canvas, especially on darker rock faces. This ensured better adhesion and visibility of the artwork.</li>
-        <li><strong>Application methods:</strong>
-            <ul>
-                <li>**Direct painting:** The most common method involved direct application of pigment. Brushes were likely fashioned from chewed twigs, plant fibres, animal hair, or even feathers, allowing for varying line thickness and detail.</li>
-                <li>**Finger painting:** For broader strokes, outlines, or filling larger areas, fingers were directly used, lending a raw, expressive quality to some figures.</li>
-                <li>**Blowing pigment:** For stippling effects, creating misty backgrounds, or covering large areas with a fine spray, artists may have blown pigment through hollow reeds or bones. This technique could also be used for creating stencils by placing a hand or leaf on the rock and blowing pigment around it.</li>
-                <li>**Engraving/Incising:** While primarily known for pictographs, some petroglyphs (engravings) are also present, created by incising or pecking the rock surface with harder stone tools. These often form outlines or complement painted figures.</li>
-            </ul>
-        </li>
-        <li><strong>Layering (Palimpsest):</strong> A striking feature of Bhimbetka is the frequent superimposition of paintings. Artists repeatedly painted over older scenes, sometimes centuries or even millennia apart. This layering created a chronological palimpsest, offering invaluable insights into the evolution of artistic styles, themes, and cultural practices over time. Archaeologists meticulously analyze these layers to establish relative chronologies. The reasons for superimposition could range from the sacredness of a particular rock face, limited suitable painting surfaces, or even intentional re-creation or modification of older narratives.</li>
-        <li><strong>Lighting:</strong> The execution of these artworks in often dimly lit or dark cave interiors suggests the use of rudimentary lighting, such as torches made from resinous wood or animal fat lamps, further highlighting the resourcefulness of the artists.</li>
-    </ul>
-
-    <h4>Interpretative Significance</h4>
-    <p>Bhimbetka’s rock art serves as a multidisciplinary bridge linking archaeology, anthropology, and cognitive science, offering profound insights into the human past.</p>
-    <ul>
-        <li><strong>Evidence of organized hunting strategies and social cooperation:</strong> The detailed hunting scenes, showing groups of individuals with various weapons and sometimes traps, provide compelling evidence for complex social organization, communication, and strategic planning among prehistoric hunter-gatherers. This indicates a high level of cognitive ability and collective action essential for survival.</li>
-        <li><strong>Early expressions of identity through dance and communal gatherings:</strong> The depictions of communal dances, rituals, and gatherings underscore the importance of social cohesion, shared cultural identity, and spiritual life. These activities likely played a crucial role in reinforcing group bonds, transmitting cultural knowledge, and expressing collective beliefs.</li>
-        <li><strong>Continuity of symbolic thought from the Paleolithic to historic tribal societies:</strong> The enduring presence of certain motifs and symbolic elements across different chronological layers, and their resonance with the living traditions of indigenous communities in the region, highlights a remarkable continuity of symbolic thought and cultural practices over vast periods. This connection offers a unique opportunity to understand the deep roots of Indian cultural heritage.</li>
-        <li><strong>Adaptation of pigment technology reflecting environmental resourcefulness:</strong> The sophisticated use of locally sourced minerals and`;
-
-EXPANDED_NOTES_DATA["indus-valley-civilization"] = `<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Indus Valley Civilization (Harappan Civilization) – Detailed Notes</title>
-    <style>
-        body{font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px; color:#333;}
-        h2{color:#2c3e50; border-bottom:2px solid #bdc3c7; padding-bottom:4px;}
-        h3{color:#34495e; margin-top:30px;}
-        h4{color:#7f8c8d; margin-top:20px;}
-        table{width:100%; border-collapse:collapse; margin-top:12px; font-size:0.9rem;}
-        th, td{border:1px solid #ccc; padding:8px; text-align:left;}
-        th{background:#ecf0f1;}
-        ul{margin-left:20px;}
-        .highlight{background:#f9f9f9; padding:4px; border-left:4px solid #2980b9;}
-    </style>
-</head>
-<body>
-
-    <h2>🌊 Indus Valley Civilization (IVC) – A Comprehensive Study for Defence Exams</h2>
-    <p>The Indus Valley Civilization (IVC), often referred to as the Harappan Civilization due to the discovery of its first site, Harappa, stands as one of the world's three early and widespread cradles of civilization, alongside ancient Egypt and Mesopotamia. It represents the first significant urban revolution in the Indian subcontinent, marking a profound shift from rural, agrarian communities to complex, organized urban centers. Flourishing primarily during the Bronze Age, its mature phase is generally dated between <strong>2600 BCE and 1900 BCE</strong>, though its origins extend earlier and its decline lingered later. This civilization left an indelible legacy of sophisticated town planning, remarkable architectural prowess, standardized production systems, and extensive long-distance trade networks, demonstrating a highly advanced societal structure for its time.</p>
-    <p>Geographically, the IVC spanned a vast area, significantly larger than its contemporary civilizations. It extended from Balochistan in the west, to Uttar Pradesh in the east, and from Jammu in the north, to Maharashtra in the south. This extensive reach across modern-day Pakistan, Afghanistan, and India highlights its immense scale and influence. The civilization was primarily concentrated around the Indus River and its tributaries, as well as the now-dry Ghaggar-Hakra river system, which is often identified with the ancient Saraswati River. Its discovery fundamentally reshaped the understanding of India's ancient history, pushing back the timeline of organized human settlements by millennia and establishing a rich, indigenous foundation for subsequent Indian cultures.</p>
-
-    <h3>1. Discovery, Chronology & Phases of the IVC</h3>
-    <p>The existence of a major ancient civilization in the Indus Valley remained unknown until the early 20th century. Initial discoveries of unique seals by Alexander Cunningham in the 19th century were not fully understood until systematic excavations began.</p>
-    <ul>
-        <li><strong>Early Observations (1853-1873):</strong> Alexander Cunningham, the first Director-General of the Archaeological Survey of India (ASI), reported on some Harappan seals, but misinterpreted their significance, attributing them to a much later period. This initial oversight delayed the recognition of the civilization for several decades.</li>
-        <li><strong>First Official Discovery (1921):</strong> The monumental discovery of Harappa was made through excavations led by <strong>Daya Ram Sahni</strong>. These efforts were conducted under the overarching direction of Sir John Marshall, who was then the Director-General of the ASI. This excavation brought to light the first clear evidence of a previously unknown ancient urban culture.</li>
-        <li><strong>Mohenjo-daro Unveiled (1922):</strong> Just a year later, another equally significant site, Mohenjo-daro (meaning 'Mound of the Dead'), was unearthed by <strong>R. D. Banerji</strong>. This site, with its well-preserved structures and iconic artifacts, provided the most comprehensive and iconic Harappan remains, solidifying the evidence for a vast and sophisticated civilization. Subsequent excavations by Sir John Marshall himself and Ernest J. H. Mackay further revealed the grandeur of Mohenjo-daro.</li>
-        <li><strong>Official Proclamation (1924):</strong> Sir John Marshall officially announced the discovery of the Indus Valley Civilization to the world, recognizing it as a distinct civilization contemporary with Mesopotamia and Egypt, thereby adding a new chapter to world history.</li>
-        <li><strong>Chronological Framework (Carbon-14 dating & Archaeological Stratigraphy):</strong> The timeline of the IVC is broadly divided into three phases, primarily established through archaeological stratigraphy and refined by radiocarbon dating (Carbon-14 dating). This scientific method allows for precise dating of organic materials found at archaeological sites.
-            <ul>
-                <li><em>Early Harappan (Pre-Mature)</em>: 3300 – 2600 BCE. This formative period witnessed the emergence of settled agricultural villages, the development of early pottery styles (e.g., Kot Diji ware), and the beginnings of nascent trade networks. Key characteristics include:
-                    <ul>
-                        <li>Transition from nomadic pastoralism to settled agriculture.</li>
-                        <li>Development of proto-urban characteristics, with fortified settlements.</li>
-                        <li>Early forms of craft specialization and regional trade.</li>
-                        <li>Examples: Kot Diji, Amri, Kalibangan (Early Harappan phase).</li>
-                    </ul>
-                </li>
-                <li><em>Mature Harappan</em>: 2600 – 1900 BCE. This represents the zenith of the civilization, characterized by peak urbanism, highly standardized material culture, and extensive craft production and trade. This phase is defined by:
-                    <ul>
-                        <li>Well-planned cities with grid layouts and sophisticated drainage systems.</li>
-                        <li>Standardized burnt brick architecture (4:2:1 ratio).</li>
-                        <li>Distinctive pottery, seals, weights, and tools across a wide geographical area.</li>
-                        <li>Flourishing long-distance trade with Mesopotamia and other regions.</li>
-                        <li>Development of the undeciphered Harappan script.</li>
-                        <li>Examples: Harappa, Mohenjo-daro, Lothal, Dholavira, Rakhigarhi (during their peak).</li>
-                    </ul>
-                </li>
-                <li><em>Late Harappan (Post-Mature)</em>: 1900 – 1300 BCE. This period marks the decline of the major urban centers and a shift towards regional diversification. While some Harappan traditions persisted, the characteristic urban features began to fade. Key aspects include:
-                    <ul>
-                        <li>Decline in urban planning and standardization.</li>
-                        <li>Abandonment of major cities and migration to smaller, rural settlements.</li>
-                        <li>Emergence of regional cultures (e.g., Jhukar Culture in Sindh, Cemetery H Culture in Punjab).</li>
-                        <li>Loss of the Harappan script and standardized weights.</li>
-                        <li>Evidence of a gradual de-urbanization process rather than a sudden collapse.</li>
-                        <li>Examples: Rangpur, Daimabad, Bet Dwarka.</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
-
-    <h3>2. Urban Planning, Architecture & Infrastructure – The Hallmark of Harappan Genius</h3>
-    <p>The most striking feature of the Indus Valley Civilization is its unparalleled urban planning and sophisticated infrastructure, which demonstrates a high degree of civic organization and engineering skill. Unlike the haphazard growth of many ancient cities, Harappan cities were meticulously planned, often decades or even centuries in advance.</p>
-    <h4>2.1 Grid Layout & Zoning</h4>
-    <ul>
-        <li><strong>Orthogonal Grid System:</strong> Harappan cities, particularly the larger ones like Mohenjo-daro and Harappa, were laid out on a precise orthogonal grid. Major streets ran north-south and east-west, intersecting at perfect right angles, creating a series of rectangular blocks of uniform size. This systematic layout facilitated efficient movement, ventilation, and organization within the city.
-            <ul>
-                <li><strong>Purpose:</strong> This planning indicates a strong central authority capable of enforcing strict building codes and urban design principles. It also ensured optimal air circulation and sunlight penetration, crucial for public health in a hot climate.</li>
-                <li><strong>Execution:</strong> Streets were often paved with burnt bricks, and some even had central dividers. The consistency in street width across different cities suggests a shared architectural blueprint or administrative guidelines.</li>
-            </ul>
-        </li>
-        <li><strong>Citadel-Lower Town Division:</strong> A common and distinctive feature across most Harappan sites is the clear bipartite division of the city.
-            <ul>
-                <li><strong>Citadel (West):</strong> Typically located on the western side and built on a raised platform (often artificial mounds of mud brick), the Citadel housed important public buildings, administrative offices, and possibly elite residences. It was often fortified with massive walls, suggesting a protective or symbolic function. Examples include the Great Bath and Granary at Mohenjo-daro.</li>
-                <li><strong>Lower Town (East):</strong> Situated to the east of the Citadel, the Lower Town was larger in area and contained the residential quarters for the common populace, as well as workshops and marketplaces. Houses here were also built on standardized platforms to protect against floods.</li>
-                <li><strong>Unique Tripartite Layout (Dholavira):</strong> The site of Dholavira in Gujarat stands out with its unique three-zone layout: a fortified Citadel, a Middle Town, and a Lower Town. This suggests a more complex social or administrative hierarchy, or perhaps a regional variation in urban design. The Middle Town might have housed specialized artisans or a distinct social class.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h4>2.2 Drainage & Sanitation – An Engineering Marvel</h4>
-    <p>The Harappan drainage system was arguably one of the most advanced in the ancient world, far surpassing that of contemporary civilizations. It highlights a remarkable concern for public health and hygiene.</p>
-    <ul>
-        <li><strong>Underground Covered Drains:</strong> The cities featured an elaborate network of underground covered drains, meticulously constructed from precisely cut burnt bricks. These drains ran along the main streets and were designed with a gentle slope to ensure efficient wastewater flow.
-            <ul>
-                <li><strong>Construction:</strong> The bricks were often laid in mortar, and the drains were covered with stone slabs or more bricks, preventing foul odors and disease vectors.</li>
-                <li><strong>Functionality:</strong> This system effectively carried away sewage and stormwater from individual houses and public areas, maintaining a clean urban environment.</li>
-            </ul>
-        </li>
-        <li><strong>Manholes and Soak Pits:</strong> For maintenance and cleaning, manholes (inspection holes) were strategically placed at regular intervals along the main drains. Additionally, soak pits were used to filter and absorb wastewater, particularly from individual houses before it entered the main system. This demonstrates an understanding of waste management and environmental sanitation.</li>
-        <li><strong>Individual House Connections:</strong> A key aspect was that almost every house, regardless of its size, had its own private bathing area and toilet, with drains connected directly to the smaller street drains, which in turn fed into the larger main street drains. This city-wide, integrated sanitation system is a testament to the Harappans' advanced civic planning and collective responsibility for public health.
-            <ul>
-                <li><strong>Implication:</strong> This level of sanitation suggests a centralized municipal authority that enforced strict health regulations and provided public services, a concept far ahead of its time.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h4>2.3 Building Materials & Standardization</h4>
-    <p>The uniformity in construction materials and techniques across the vast expanse of the IVC is another indicator of its organized nature and centralized control over resources and production.</p>
-    <ul>
-        <li><strong>Standardized Burnt Bricks:</strong> The most common building material was burnt bricks, which were produced in remarkable consistency. They adhered to a strict proportion of <strong>4 : 2 : 1</strong> (length : breadth : thickness). This standardization facilitated mass production, efficient construction, and structural stability.
-            <ul>
-                <li><strong>Why Burnt Bricks?</strong> Burnt bricks are more durable and resistant to water and erosion than sun-dried bricks, making them ideal for long-lasting structures, especially in a region prone to floods. The process of firing bricks requires significant organization and fuel resources.</li>
-                <li><strong>Impact:</strong> This uniformity allowed for modular construction and easy repairs, contributing to the longevity and robustness of Harappan architecture.</li>
-            </ul>
-        </li>
-        <li><strong>Use of Baked Mud Bricks and Stone:</strong> While burnt bricks were prevalent, baked mud bricks (sun-dried) were also used, particularly for the core of platforms and walls, and in less critical structures. Stone was employed for specific purposes, such as foundations, some public structures, and in regions where it was readily available (e.g., Dholavira's use of dressed stone).</li>
-        <li><strong>Mortar and Plaster:</strong> Mud mortar was commonly used, sometimes reinforced with gypsum. Walls were often plastered with a layer of mud and lime, which provided a smooth finish and additional protection.</li>
-    </ul>
-
-    <h4>2.4 Public Structures – Centers of Community Life and Administration</h4>
-    <p>Beyond residential areas, Harappan cities featured impressive public structures that served various community, administrative, and possibly ritualistic functions.</p>
-    <ul>
-        <li><strong>Great Bath (Mohenjo-daro):</strong> This iconic structure is a large, rectangular watertight tank, measuring approximately 12 meters long, 7 meters wide, and 2.4 meters deep. It was constructed with finely fitted burnt bricks and sealed with natural tar (bitumen) to prevent water seepage.
-            <ul>
-                <li><strong>Features:</strong> It has flights of steps at the north and south leading into the tank, and a surrounding verandah with rooms. A large well in an adjacent room supplied water, and an efficient outlet drain allowed for emptying the tank.</li>
-                <li><strong>Purpose:</strong> While its exact purpose is debated, the most widely accepted theory is that it was used for ritualistic bathing, perhaps during religious ceremonies or purification rites, similar to later Hindu temple tanks. Its grand scale and meticulous construction suggest its immense importance.</li>
-            <li><strong>Significance:</strong> It reflects the Harappans' advanced engineering skills in water management and their potential religious beliefs centered around water purity.</li>
-            </ul>
-        </li>
-        <li><strong>Great Granary (Mohenjo-daro) and Granaries at Harappa:</strong> These were massive, multi-roomed storage facilities, indicating an organized system for managing agricultural surplus. The Great Granary at Mohenjo-daro was a colossal structure, though its exact form is debated due to later erosion. At Harappa, six granaries were found aligned in two rows, each measuring approximately 15 x 6 meters, with a working platform nearby for threshing grain.
-            <ul>
-                <li><strong>Economic Implications:</strong> The presence of such large granaries suggests a highly productive agricultural base, a system for collecting and redistributing food, and a centralized economic administration. This surplus was crucial for sustaining the urban population, supporting non-agricultural specialists, and facilitating trade.</li>
-                <li><strong>Construction:</strong> Granaries were typically built on raised platforms to protect stored grains from floods and pests, and often featured ventilation ducts to keep the grain dry.</li>
-            </ul>
-        </li>
-        <li><strong>Water Reservoirs (Dholavira):</strong> Dholavira is particularly renowned for its sophisticated water harvesting and management system. The city featured numerous large cisterns, rock-cut reservoirs, and step-wells designed to collect and store rainwater.
-            <ul>
-                <li><strong>Environmental Adaptation:</strong> Located in the arid Kutch region, Dholavira's elaborate system was crucial for ensuring a perennial water supply, especially during the long dry seasons and periods of drought. It demonstrates remarkable ingenuity in adapting to challenging environmental conditions.</li>
-                <li><strong>Engineering:</strong> The reservoirs were often interconnected and fed by channels that diverted water from seasonal streams. This system not only provided drinking water but also supported agriculture in the surrounding areas.</li>
-            </ul>
-        </li>
-        <li><strong>Assembly Hall/Pillared Hall (Mohenjo-daro):</strong> A large hall with twenty pillars arranged in four rows has been excavated in the Citadel area of Mohenjo-daro. Its purpose is debated, but it is often interpreted as an assembly hall for administrative meetings, a marketplace, or a religious congregation point.</li>
-    </ul>
-
-    <h3>3. Major Harappan Sites – High-Yield Facts for Defence Exams</h3>
-    <p>Understanding the specific characteristics and key discoveries of prominent Harappan sites is crucial for competitive examinations. Each site offers unique insights into the civilization's diversity and specialized functions.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Site</th>
-                <th>Location & River</th>
-                <th>Key Discoveries & Signature Features</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Harappa</strong></td>
-                <td>Punjab (Pakistan), situated on the banks of the Ravi River (a tributary of the Indus).</td>
-                <td>
-                    <ul class="highlight">
-                        <li><strong>First Discovered Site:</strong> Crucial for the initial identification of the civilization.</li>
-                        <li><strong>Six Granaries:</strong> Aligned in two rows, indicating organized food storage and distribution. Adjacent working platforms for threshing grain.</li>
-                        <li><strong>Stone Lingam and Yoni Symbols:</strong> Suggestive of early forms of Shiva worship and fertility cults, which have continuity in later Indian religions.</li>
-                        <li><strong>Coffin-type Burials (R-37 cemetery):</strong> A distinct burial practice, providing insights into funerary rituals and beliefs.</li>
-                        <li><strong>Terracotta Figurines:</strong> Including representations of the Mother Goddess.</li>
-                        <li><strong>Workmen's Quarters:</strong> Small, uniform dwellings near the granaries, suggesting a class of laborers.</li>
-                        <li><strong>Bronze Figure of a Cart:</strong> Depicting advanced metallurgy and transportation.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Mohenjo-daro</strong></td>
-                <td>Sindh (Pakistan), located on the right bank of the Indus River.</td>
-                <td>
-                    <ul class="highlight">
-                        <li><strong>Great Bath and Great Granary:</strong> Iconic public structures demonstrating advanced engineering and civic planning.</li>
-                        <li><strong>Bronze “Dancing Girl” Statue:</strong> A masterpiece of Harappan art, depicting a nude female figure in a confident pose, indicating knowledge of lost-wax casting (cire perdue) technique and artistic expression.</li>
-                        <li><strong>Pashupati Seal:</strong> Depicting a seated, three-faced deity surrounded by animals (elephant, tiger, rhino, buffalo, and two deer below), often interpreted as a proto-Shiva figure, highlighting early religious iconography.</li>
-                        <li><strong>Bearded Priest-King Figurine:</strong> A steatite sculpture of a male figure with a neatly trimmed beard, adorned with an embroidered robe, suggesting a priestly or administrative elite.</li>
-                        <li><strong>Assembly Hall/Pillared Hall:</strong> A large structure with twenty pillars, possibly for public gatherings or administration.</li>
-                        <li><strong>Well-planned Grid System:</strong> Exemplifies the best of Harappan urban planning, with wide streets and an elaborate drainage system.</li>
-                        <li><strong>Numerous Seals:</strong> Providing rich insights into their script, religious beliefs, and daily life.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Lothal</strong></td>
-                <td>Gujarat (India), situated on the banks of the Bhogava River, a tributary of the Sabarmati, near the Gulf of Khambhat.</td>
-                <td>
-                    <ul class="highlight">
-                        <li><strong>Artificial Dockyard:</strong> Considered the earliest known dock in the world, indicating sophisticated maritime engineering and extensive overseas trade with Mesopotamia and other Persian Gulf regions. It was connected to the Gulf by a channel.</li>
-                        <li><strong>Double Burials (Male & Female):</strong> Unique burial practice where a male and female were buried together, possibly suggesting Sati (though debated) or specific social customs.</li>
-                        <li><strong>Evidence of Rice Husk:</strong> Indicating the cultivation of rice, which was less common in other Harappan sites.</li>
-                        <li><strong>Bead-making Factory:</strong> Significant evidence of specialized craft production, particularly carnelian beads, which were highly valued trade items.</li>
-                        <li><strong>Fire Altars:</strong> Suggesting ritualistic practices, similar to those found at Kalibangan.</li>
-                        <li><strong>Persian Gulf Seal:</strong> Found here, confirming trade links with the Middle East.</li>
-                        <li><strong>Terracotta Model of a Ship:</strong> Further evidence of maritime activities.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Kalibangan</strong></td>
-                <td>Rajasthan (India), located on the banks of the Ghaggar River (identified with the ancient Saraswati River).</td>
-                <td>
-                    <ul class="highlight">
-                        <li><strong>Ploughed Field Surfaces:</strong> Earliest archaeological evidence of a systematically ploughed agricultural field, dating back to the Early Harappan phase, demonstrating advanced farming techniques.</li>
-                        <li><strong>Fire Altars:</strong> A series of seven rectangular fire altars, suggesting the practice of fire worship or sacrificial rituals, possibly proto-Vedic practices.</li>
-                        <li><strong>Camel Bones:</strong> Indicating the domestication or significant presence of camels, used for transport or agriculture.</li>
-                        <li><strong>Cylindrical Seals:</strong> Similar to Mesopotamian seals, suggesting cultural interaction or trade.</li>
-                        <li><strong>Unique City Plan:</strong> Featuring both a fortified Citadel and a Lower Town, with houses made of mud bricks (unlike the burnt bricks of Mohenjo-daro).</li>
-                        <li><strong>Evidence of Earthquakes:</strong> Suggesting tectonic activity might have played a role in its decline.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Dholavira</strong></td>
-                <td>Gujarat (India), located on Khadir Bet island in the Rann of Kutch.</td>
-                <td>
-                    <ul class="highlight">
-                        <li><strong>Tripartite City Division:</strong> Uniquely divided into three principal parts – the Citadel, a Middle Town, and a Lower Town, each fortified with massive stone walls.</li>
-                        <li><strong>Massive Water Reservoirs and Step-wells:</strong> An exceptionally sophisticated water harvesting and management system, crucial for survival in the arid Kutch region. This included elaborate channels and dams.</li>
-                        <li><strong>Stadium-like Structure:</strong> A large open area, possibly used for public gatherings, ceremonies, or sports.</li>
-                        <li><strong>"Billboard" with Ten Large Harappan Signs:</strong> A unique inscription made of ten large pictographic signs, possibly an early example of public signage or a ceremonial inscription, offering valuable insights into their script.</li>
-                        <li><strong>Use of Dressed Stone:</strong> Extensive use of local dressed stone in construction, alongside mud bricks.</li>
-                        <li><strong>Largest Harappan Inscription:</strong> The signboard is the longest known inscription of the IVC.</li>
-                        <li><strong>UNESCO World Heritage Site:</strong> Recognized for its outstanding universal value.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Chanhudaro</strong></td>
-                <td>Sindh (Pakistan), located south of Mohenjo-daro on the banks of the Indus River.</td>
-                <td>
-                    <ul class="highlight">
-                        <li><strong>Only Harappan City Lacking a Citadel:</strong> This unique feature suggests it might have been primarily a specialized industrial center rather than an administrative or defensive hub.</li>
-                        <li><strong>Bead-making Workshops:</strong> Extensive evidence of specialized craft production, particularly for beads made from carnelian, lapis lazuli, and steatite. This site was a major hub for manufacturing ornaments.</li>
-                        <li><strong>Bronze Tools and Seals:</strong> Indicating metallurgical skills.</li>
-                        <li><strong>Inkwell and Lipstick Imprint on Brick:</strong> Evidence of writing instruments and personal grooming/cosmetics, providing glimpses into daily life.</li>
-                        <li><strong>Terracotta Model of a Bullock Cart:</strong> Suggesting modes of transport.</li>
-                        <li><strong>Footprints of a Dog Chasing a Cat:</strong> Preserved in a brick, offering a vivid snapshot of daily life.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Surkotada</strong></td>
-                <td>Gujarat (India), located in the Kutch region.</td>
-                <td>
-                    <ul class="highlight">
-                        <li><strong>Confirmed Horse Bones:</strong> The only site with definitive archaeological evidence of horse bones from the Mature Harappan phase, crucial for debates on the indigenous nature of the horse in India and its role in the context of Indo-Aryan migrations.</li>
-                        <li><strong>Pot Burials:</strong> A distinct funerary practice where human remains were interred in large earthen pots.</li>
-                        <li><strong>Stone Rubble Fortification:</strong> Unique use of stone rubble for fortifications.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Rakhigarhi</strong></td>
-                <td>Haryana (India), located on the Ghaggar-Hakra river plain.</td>
-                <td>
-                    <ul class="highlight">
-                        <li><strong>Largest Harappan Site in India:</strong> One of the largest overall Harappan sites, indicating a major urban center.</li>
-                        <li><strong>Extensive Mound Complex:</strong> Spread over several mounds, revealing a continuous occupation from Early to Late Harappan phases.</li>
-                        <li><strong>Evidence of Granaries, Drainage System, and Terracotta Bricks:</strong> All indicative of typical Harappan urban planning.</li>
-                        <li><strong>DNA Studies:</strong> Recent DNA analysis of skeletal remains from Rakhigarhi has provided significant insights into the genetic makeup of the Harappan people, suggesting indigenous origins and continuity.</li>
-                        <li><strong>Fire Altars and Sacrificial Pits:</strong> Similar to Kalibangan, suggesting ritualistic practices.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Banawali</strong></td>
-                <td>Haryana (India), located on the banks of the now-dry Saraswati River.</td>
-                <td>
-                    <ul class="highlight">
-                        <li><strong>Lack of Grid Pattern:</strong> Unlike other major Harappan cities, Banawali shows a more organic, radial street pattern, suggesting regional variations in urban planning.</li>
-                        <li><strong>Toy Plough:</strong> A terracotta model of a plough, providing evidence of agricultural tools.</li>
-                        <li><strong>Barley Cultivation:</strong> Strong evidence for the cultivation of barley.</li>
-                        <li><strong>Oval-shaped Settlement:</strong> Unique layout compared to the usual rectangular Harappan cities.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><strong>Daimabad</strong></td>
-                <td>Maharashtra (India), located on the left bank of the Pravara River, a tributary of the Godavari.</td>
-                <td>
-                    <ul class="highlight">
-                        <li><strong>Southernmost Site of IVC:</strong> Marks the southern extent of the Harappan influence.</li>
-                        <li><strong>Bronze Hoard:</strong> Famous for the discovery of a hoard of four bronze objects (rhinoceros, elephant, buffalo, and a chariot with a charioteer), demonstrating advanced metallurgy and potential cultural links.</li>
-                        <li><strong>Late Harappan Phase:</strong> Primarily represents the Late Harappan and post-Harappan Chalcolithic cultures.</li>
-                    </ul>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h3>4. Economy, Craft Production & Trade Networks – The Engine of Civilization</h3>
-    <p>The Harappan economy was robust and diversified, based on a strong agricultural foundation, sophisticated craft production, and extensive internal and external trade networks. This economic complexity supported the large urban populations and specialized labor force.</p>
-    <ul>
-        <li><strong>Agriculture:</strong> The backbone of the Harappan economy was its highly productive agriculture, supported by the fertile alluvial plains of the Indus and Ghaggar-Hakra rivers.
-            <ul>
-                <li><strong>Major Crops:</strong> Predominantly wheat (especially bread wheat and club wheat), barley (a hardy crop), and various millets. Evidence from Lothal and Rangpur indicates rice cultivation, suggesting adaptation to regional conditions. Other crops included pulses, oilseeds (sesame, mustard), and dates.</li>
-                <li><strong>Cotton Cultivation:</strong> The Harappans were pioneers in cotton cultivation, being the world’s earliest known producers of cotton. This fiber was later termed <em>Sindon</em> by Greek writers, a term derived from 'Sindh', indicating its origin. This highlights their advanced textile technology.</li>
-                <li><strong>Agricultural Tools & Techniques:</strong> Evidence from Kalibangan shows ploughed fields, suggesting the use of wooden ploughs. Irrigation was likely practiced, utilizing river water and possibly small canals or reservoirs (as seen in Dholavira). Crop rotation might have been employed to maintain soil fertility.</li>
-                <li><strong>Surplus Production:</strong> The presence of large granaries at sites like Harappa and Mohenjo-daro confirms a significant agricultural surplus, which was essential for feeding the non-agricultural urban population and for trade.</li>
-            </ul>
-        </li>
-        <li><strong>Animal Husbandry:</strong> Domestication of animals played a crucial role, providing food, labor, and raw materials.
-            <ul>
-                <li><strong>Primary Animals:</strong> Cattle (especially Zebu cattle, depicted on seals), buffalo, goats, and sheep were widely domesticated. These provided milk, meat, hides, and served as draught animals.</li>
-                <li><strong>Other Animals:</strong> Dogs and cats were domesticated (evidence from Chanhudaro). At some sites, evidence of camels (Kalibangan) and even confirmed horse bones (Surkotada) has been found, though the widespread use of horses is debated. Fowl were also raised.</li>
-                <li><strong>Pastoralism:</strong> Alongside settled agriculture, pastoralism (herding) was an important economic activity, especially in the peripheral regions.</li>
-            </ul>
-        </li>
-        <li><strong>Craft Production & Industries:</strong> The IVC was characterized by`;
-
-EXPANDED_NOTES_DATA["vedic-age"] = `<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>The Vedic Age – Detailed Notes</title>
-    <style>
-        body {font-family: Arial, sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87;}
-        h3 {color:#3B4F9C;}
-        table {border-collapse:collapse; width:100%; margin-top:10px;}
-        th, td {border:1px solid #999; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin:0; padding-left:20px;}
-    </style>
-</head>
-<body>
-
-<h2>The Vedic Age (c. 1500–600 BCE)</h2>
-<p>The Vedic Age represents a pivotal epoch in ancient Indian history, marking the transition from pre-historic cultures to the foundational stages of classical Indian civilization. Reconstructed primarily from the extensive corpus of the <em>Vedas</em> – a collection of sacred hymns, prayers, and philosophical treatises – this period is conventionally divided into two distinct yet interconnected phases: the Early Vedic Period (c. 1500–1000 BCE) and the Later Vedic Period (c. 1000–600 BCE). This chronological division is not arbitrary but reflects profound and transformative changes across various facets of life, including geographical settlement patterns, political organization, economic activities, social stratification, religious practices, and the evolution of literary output. Understanding these transitions is crucial for comprehending the subsequent development of Indian society, polity, and culture.</p>
-<p>The term 'Vedic' itself is derived from 'Veda', meaning 'knowledge' or 'wisdom', signifying the paramount importance of these sacred texts as the primary historical source. While archaeological evidence, such as Painted Grey Ware (PGW) pottery and iron artifacts, provides corroborative insights, the Vedas remain the bedrock of our understanding of this era. The period witnessed the migration and settlement of Indo-Aryan speaking communities, their interaction with indigenous populations, and the gradual shaping of a distinct cultural identity that laid the groundwork for future empires and philosophical traditions.</p>
-
-<h3>1. Early Vedic Period (c. 1500–1000 BCE)</h3>
-<p>This initial phase, often referred to as the Rigvedic Period due to the primacy of the Rigveda as its main source, is characterized by a semi-nomadic, pastoral lifestyle and a relatively egalitarian tribal society.</p>
-<ul>
-    <li><strong>Geographical Setting:</strong> The Early Vedic people predominantly inhabited the <strong>Sapta‑Sindhu</strong> region, literally meaning "the land of the seven rivers." This vital geographical area encompassed the Indus River (Sindhu) and its five major eastern tributaries – Jhelum (Vitasta), Chenab (Asikni), Ravi (Parushni), Beas (Vipasa), and Sutlej (Sutudri) – along with the now-extinct or dried-up Saraswati River (Naditama), revered as the holiest river in the Rigveda.
-        <ul>
-            <li>**Significance of Rivers:** Settlements were typically semi‑nomadic, primarily located on riverine flood‑plains. The rivers provided essential water for humans and livestock, fertile pastures for cattle, and served as natural routes for movement and communication. The abundance of water and grazing land was critical for their pastoral economy.</li>
-            <li>**Interaction with Indigenous Cultures:** The Aryans, upon their arrival, encountered existing indigenous populations, often referred to as 'Dasas' or 'Dasyus' in the Rigveda. These interactions were complex, ranging from conflict, often over resources like cattle and land, to cultural exchange and assimilation.</li>
-            <li>**Archaeological Corroboration:** While direct archaeological evidence for early Rigvedic settlements is sparse, some scholars link this period to late Harappan or post-Harappan cultures and the Copper Hoard culture in certain regions, though definitive connections remain a subject of debate.</li>
-        </ul>
-    </li>
-    <li><strong>Political Organization:</strong> The Early Vedic society was fundamentally tribal, with political structures designed to manage a mobile population and defend tribal interests.
-        <ul>
-            <li>Tribal society was led by a <strong>Rājā</strong> (king or chief), whose authority was primarily military and protective, rather than administrative or revenue-based. The Raja was essentially a tribal chief, often chosen for his valor and leadership in warfare, particularly cattle raids. His position was not hereditary in the strict sense, and he was accountable to the tribal assemblies.</li>
-            <li>Decision‑making bodies played a crucial role in governance, reflecting the democratic and egalitarian ethos of the early tribal structure:
-                <ul>
-                    <li><strong>Sabha</strong> – This was a council of elders, nobles, and senior warriors. It functioned as an advisory body to the Raja, deliberated on important tribal matters, and also had judicial functions, settling disputes. Its members were respected for their wisdom and experience.</li>
-                    <li><strong>Samiti</strong> – A general assembly of the entire tribe or the common people (Vis). The Samiti was a more inclusive body, where important matters of tribal welfare, including the election or re-election of the Raja, declaration of war or peace, and discussion of religious and philosophical issues, were debated. Its power was significant, as the Raja often sought its approval.</li>
-                    <li><strong>Vidhata</strong> – This was the oldest and perhaps the most important assembly in the early Vedic period, though its exact functions are debated. It dealt with a wide range of activities, including economic, social, military, and religious matters. It was a forum for distributing war booty and discussing communal issues. Significantly, women could attend both the Sabha and Vidhata, indicating a relatively higher status for women in public life compared to later periods.</li>
-                </ul>
-            </li>
-            <li>**Other Officials:** Besides the Raja, other important functionaries included the <strong>Purohita</strong> (chief priest), who advised the Raja on religious matters and performed sacrifices; the <strong>Senani</strong> (chief of the army); and the <strong>Gramani</strong> (head of the village or group of families), who led the villagers in battle and managed local affairs.</li>
-            <li>**Tribal Units:** The basic unit was the <strong>Kula</strong> (family), several Kulas formed a <strong>Grama</strong> (village), several Gramas formed a <strong>Vish</strong> (clan), and several Vishes formed a <strong>Jana</strong> (tribe). The Raja was the chief of the Jana.</li>
-        </ul>
-    </li>
-    <li><strong>Society &amp; Economy:</strong> The Early Vedic economy was predominantly pastoral, with agriculture playing a secondary role.
-        <ul>
-            <li>Pastoral‑based economy was central to their existence. Cattle (<em>gau</em>) were not merely animals but the principal measure of wealth, status, and prosperity. A person's wealth was often counted in the number of cows they possessed. Cows were also used for barter, as sacrificial offerings, and provided milk, ghee, and hides.</li>
-            <li>Warfare often centered on cattle raids, termed <em>Gāvisthī</em> (literally, "search for cows"). These conflicts were not just for economic gain but also for asserting tribal dominance and acquiring prestige. The Rigveda frequently praises Indra, the chief deity, for his role in helping Aryans win cattle and defeat their enemies.</li>
-            <li>Early varna system was fluid and largely linked to occupation (karma) rather than birth (janma). Society exhibited relative egalitarianism, meaning social distinctions were not rigid or hereditary. While there were priests (Brahmin), warriors (Kshatriya), and common people (Vish), these categories were permeable. A famous hymn in the Rigveda (IX.112) illustrates this fluidity: "I am a poet, my father is a physician, my mother grinds corn. With different occupations, seeking wealth, we live together." This indicates that members of the same family could belong to different occupational groups.</li>
-            <li>**Family Structure:** The family (Kula) was patriarchal, with the father (Kulapa) as the head. Joint family patterns were common. There was a strong preference for male children, who were valued for their role in warfare and cattle protection.</li>
-            <li>**Food and Drink:** Their diet included milk, ghee, cereals like barley (yava), and fruits. Soma, an intoxicating drink, was consumed during religious ceremonies, while Sura was another alcoholic beverage, often associated with pleasure and sometimes disapproved of.</li>
-            <li>**Dress and Ornaments:** Simple garments made of cotton or wool were common. Ornaments of gold, copper, and beads were worn by both men and women.</li>
-        </ul>
-    </li>
-</ul>
-
-<h3>2. Later Vedic Period (c. 1000–600 BCE)</h3>
-<p>This period witnessed significant transformations, driven primarily by technological advancements and geographical expansion, leading to a more complex and stratified society.</p>
-<ul>
-    <li><strong>Geographical Shift:</strong> The most significant change was the expansion eastward from the Sapta-Sindhu region into the fertile Gangetic Valley, a region that would later become known as <strong>Aryāvarta</strong> (the land of the Aryans).
-        <ul>
-            <li>The advent of iron (referred to as <em>Śyāma‑āyas</em> or <em>Krishna-ayas</em>, meaning "dark metal") around 1000 BCE was a revolutionary development. Iron tools, particularly axes and ploughshares, facilitated large-scale forest clearance in the dense Ganga-Yamuna Doab region. This enabled the conversion of vast forested lands into arable agricultural fields.</li>
-            <li>This shift led to agricultural intensification, allowing for settled village life and the production of surplus food. The availability of iron also aided in crafting better weapons, contributing to the rise of more powerful territorial states.</li>
-            <li>**Definition of Aryāvarta:** By the end of the Later Vedic period, Aryāvarta broadly referred to the region between the Himalayas in the north, the Vindhya mountains in the south, and extending from the western sea (Arabian Sea) to the eastern sea (Bay of Bengal), though initially it was more confined to the Ganga-Yamuna Doab.</li>
-        </ul>
-    </li>
-    <li><strong>Political Evolution:</strong> The tribal polities of the Early Vedic period gradually gave way to more centralized and territorial states.
-        <ul>
-            <li>Emergence of territorial kingdoms called <strong>Janapadas</strong> (literally, "the foothold of a tribe") and later, larger ones known as <strong>Mahājanapadas</strong>. The concept of loyalty shifted from the tribe (Jana) to a specific territory (Janapada). Notable early Janapadas included Kuru, Panchala, Kosala, and Videha.</li>
-            <li>Royal authority became significantly more centralized and hereditary. The Raja's power increased dramatically, often legitimized through elaborate and expensive public sacrifices such as the <strong>Ashvamedha</strong> (horse sacrifice, asserting undisputed control over a territory), <strong>Rajasuya</strong> (consecration ceremony, granting supreme power), and <strong>Vajapeya</strong> (chariot race, symbolizing royal prowess and prosperity). These rituals elevated the Raja from a tribal chief to a divine ruler, often claiming divine descent.</li>
-            <li>The traditional decision‑making bodies like the Sabha and Samiti lost much of their influence and democratic character. They were either replaced by royal courts or became assemblies dominated by nobles and priests, serving the king's interests. The Vidhata assembly was entirely discontinued, reflecting the decline of tribal egalitarianism.</li>
-            <li>Women’s participation in public assemblies was severely curtailed, marking a significant decline in their social and political status. Their roles became increasingly confined to the domestic sphere.</li>
-        </ul>
-    </li>
-    <li><strong>Socio‑Economic Changes:</strong> The shift to settled agriculture brought about profound changes in the social and economic fabric.
-        <ul>
-            <li>Shift from pastoralism to a settled agrarian economy became dominant. Wheat and barley continued to be cultivated, but rice (<em>vrihi</em>) became a staple crop, particularly in the fertile Gangetic plains. The plough, often drawn by oxen, became an indispensable agricultural tool. This led to increased food production and supported a larger, more sedentary population.</li>
-            <li>Rigidification of the varna hierarchy into four hereditary groups became a defining feature of Later Vedic society. This system, though nascent in the Rigveda, solidified into a birth-based, hierarchical structure, often justified by religious texts and rituals. This stratification was crucial for maintaining social order in a more complex society with specialized labor.
-                <ol>
-                    <li><strong>Brahmins</strong> – The priestly class, responsible for performing rituals, sacrifices, and preserving sacred knowledge. They gained immense power and prestige due to the increasing complexity of religious ceremonies and their exclusive access to Vedic texts. They were considered the custodians of Dharma.</li>
-                    <li><strong>Kṣatriyas</strong> – The warrior and ruling class, responsible for administration, protection of the kingdom, and warfare. They were the political and military elite, often in a symbiotic relationship with the Brahmins for legitimacy.</li>
-                    <li><strong>Vaiśyas</strong> – The common people, primarily engaged in agriculture, cattle rearing, trade, and craft production. They were the primary taxpayers, supporting the Brahmins and Kshatriyas.</li>
-                    <li><strong>Śūdras</strong> – The service providers, performing manual labor and serving the other three varnas. They were generally excluded from Vedic rituals and considered of lower status. The concept of untouchability, though not fully developed, began to take root during this period.</li>
-                </ol>
-            </li>
-            <li>Institution of the four <strong>Āśramas</strong> (stages of life) was formalized, outlining a structured life path for upper-caste males, primarily Brahmins, Kshatriyas, and Vaishyas. These stages were designed to ensure a balanced life encompassing learning, family responsibilities, spiritual contemplation, and renunciation.
-                <ul>
-                    <li><strong>Brahmacarya</strong> – The student stage (up to 25 years), dedicated to learning the Vedas and disciplines under a guru.</li>
-                    <li><strong>Grihastha</strong> – The householder stage (25-50 years), involving marriage, raising a family, and fulfilling social and economic duties.</li>
-                    <li><strong>Vanaprastha</strong> – The forest dweller or retiree stage (50-75 years), where one gradually withdraws from worldly affairs, living a life of contemplation and asceticism.</li>
-                    <li><strong>Sannyasa</strong> – The renunciate stage (75+ years), involving complete detachment from material possessions and worldly ties, seeking spiritual liberation (moksha).</li>
-                </ul>
-            </li>
-            <li>**Gotra System:** The concept of 'Gotra' emerged, signifying descent from a common male ancestor. It became important for regulating marriages, with exogamy (marrying outside one's Gotra) becoming a norm to prevent consanguineous unions.</li>
-            <li>**Economic Specialization:** With settled life and surplus production, various crafts and professions emerged, leading to specialized groups of carpenters, smiths (iron and copper), potters, weavers, jewelers, and merchants. Trade intensified, and while barter remained common, the use of *nishka* (a gold ornament) as a unit of value or early currency became more prevalent.</li>
-        </ul>
-    </li>
-</ul>
-
-<h3>3. Vedic Literature</h3>
-<p>The literary output of the Vedic Age is vast and forms the bedrock of Hindu religious and philosophical traditions. It is broadly categorized into Shruti (that which is heard/revealed) and Smriti (that which is remembered/tradition), with the Vedas and their associated texts falling under Shruti.</p>
-<table>
-    <thead>
-        <tr>
-            <th>Category</th>
-            <th>Content</th>
-            <th>Key Features</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><strong>Four Vedas</strong></td>
-            <td>Rigveda, Samaveda, Yajurveda, Atharvaveda</td>
-            <td>
-                <ul>
-                    <li><strong>Rigveda</strong> – The oldest and most important Veda, a collection of 1028 hymns (<em>Suktas</em>) comprising approximately 10,600 verses, organized into 10 books (<em>Mandalas</em>). These hymns are addressed to various deities, primarily nature gods like Indra (god of thunder and war), Agni (fire god, intermediary between gods and humans), Varuna (cosmic order), Soma (plant deity and intoxicating drink), Surya (sun god), and Ushas (dawn goddess). The 10th Mandala contains the famous Purusha Sukta, which describes the cosmic man and the origin of the four varnas, though its dating is debated and often considered a later addition.</li>
-                    <li><strong>Samaveda</strong> – Known as the "Book of Chants" or "Melodies," it consists of 1549 verses, almost all of which are borrowed from the Rigveda. These verses are set to specific musical notations (saman) for chanting during Soma sacrifices. It is considered the foundation of Indian classical music and dance.</li>
-                    <li><strong>Yajurveda</strong> – The "Book of Sacrificial Prayers" or "Formulas," it provides detailed instructions and prose formulas (yajus) to be recited by the Adhvaryu priest during the performance of various sacrificial rites. It is divided into two main branches:
-                        <ul>
-                            <li><strong>Shukla (White) Yajurveda:</strong> Contains only mantras.</li>
-                            <li><strong>Krishna (Black) Yajurveda:</strong> Contains both mantras and prose commentaries.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Atharvaveda</strong> – The "Book of Magical Formulas," it is distinct from the other three Vedas. It contains about 730 hymns and 6000 verses, dealing with spells, charms, incantations, and practical prayers for daily life. Its themes include healing diseases, warding off evil spirits, ensuring prosperity, love charms, and even political spells for kings. It also contains philosophical speculation and reflects the popular beliefs and superstitions of the time.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><strong>Brahmanas</strong></td>
-            <td>Prose commentaries on the rituals and sacrificial rites of each Veda.</td>
-            <td>These texts explain the procedural aspects of sacrifices (<em>karma kanda</em>), their mystical significance, and provide mythological background stories (<em>Itihasa</em>) to justify the rites. They are crucial for understanding the elaborate ritualism of the Later Vedic period. Important Brahmanas include Aitareya (Rigveda), Satapatha (Yajurveda – the largest and most important), Tandya Maha Brahmana (Samaveda), and Gopatha (Atharvaveda). They detail the 'how' and 'why' of Vedic rituals.</td>
-        </tr>
-        <tr>
-            <td><strong>Aranyakas</strong></td>
-            <td>‘Forest books’ dealing with meditative and philosophical aspects of the rituals.</td>
-            <td>These are transitionary texts, literally "belonging to the forest," meant to be studied in the solitude of forests by ascetics and hermits. They bridge the gap between the ritualistic Brahmanas and the speculative Upanishads. They emphasize inner contemplation and meditation over outward sacrificial rites, questioning the efficacy of elaborate rituals and focusing on the symbolic meaning of sacrifices. They mark a shift towards philosophical inquiry.</td>
-        </tr>
-        <tr>
-            <td><strong>Upanishads</strong></td>
-            <td>Philosophical treatises (approximately 108, though 10-13 are considered principal) forming the basis of Vedānta (the "end of the Vedas").</td>
-            <td>
-                <ul>
-                    <li>These texts represent the culmination of Vedic thought, focusing on profound philosophical questions (<em>jnana kanda</em>). They explore the core concepts of <em>Brahman</em> (the ultimate, impersonal, all-pervading reality of the universe) and <em>Ātman</em> (the individual self or soul), asserting their fundamental unity ("Tat Tvam Asi" - That thou art).</li>
-                    <li>They introduce and elaborate on key philosophical ideas that became central to Indian thought:
-                        <ul>
-                            <li><strong>Karma:</strong> The law of action and consequence, where every deed, good or bad, determines one's future.</li>
-                            <li><strong>Moksha:</strong> Liberation from the cycle of birth and death (samsara) and the attainment of ultimate spiritual freedom.</li>
-                            <li><strong>Samsara:</strong> The cycle of rebirth and transmigration of the soul.</li>
-                            <li>The unity of existence and the interconnectedness of all beings.</li>
-                        </ul>
-                    </li>
-                    <li>The famous dictum “Satyameva Jayate” (Truth alone triumphs), which is the national motto of India, appears in the <em>Mundaka Upanishad</em>. Other important Upanishads include Brihadaranyaka, Chandogya, Katha, Kena, Isha, and Prashna.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><strong>Vedangas</strong></td>
-            <td>Auxiliary sciences for the proper understanding and recitation of the Vedas.</td>
-            <td>
-                <ul>
-                    <li>These are six disciplines that evolved to ensure the correct preservation and interpretation of the Vedic texts:
-                        <ul>
-                            <li><strong>Shiksha (Phonetics):</strong> Rules for pronunciation.</li>
-                            <li><strong>Kalpa (Ritual Canon):</strong> Rules for performing sacrifices (Srauta Sutras, Grihya Sutras, Dharma Sutras).</li>
-                            <li><strong>Vyakarana (Grammar):</strong> Rules for language, Panini's Ashtadhyayi is the most famous work.</li>
-                            <li><strong>Nirukta (Etymology):</strong> Explanation of difficult Vedic words.</li>
-                            <li><strong>Chhanda (Metrics):</strong> Rules for poetic meter.</li>
-                            <li><strong>Jyotisha (Astronomy):</strong> Rules for auspicious times for rituals.</li>
-                        </ul>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-<h3>4. Chronological Overview</h3>
-<p>A concise summary of the major developments across the two phases of the Vedic Age, highlighting the evolutionary trajectory of this foundational period.</p>
-<table>
-    <thead>
-        <tr>
-            <th>Period</th>
-            <th>Approx. Dates (BCE)</th>
-            <th>Major Developments</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Early Vedic</td>
-            <td>1500 – 1000</td>
-            <td>Pastoral economy, semi-nomadic lifestyle, tribal polity with democratic assemblies (Sabha, Samiti, Vidhata), fluid varna system based on occupation, worship of nature deities (Indra, Agni, Varuna), composition of the Rigveda. Geographical focus on Sapta-Sindhu region.</td>
-        </tr>
-        <tr>
-            <td>Later Vedic</td>
-            <td>1000 – 600</td>
-            <td>Iron technology (Śyāma-āyas), agrarian expansion into the Gangetic Valley (Aryāvarta), rise of territorial Janapadas and Mahājanapadas, centralized and hereditary royal authority, decline of tribal assemblies, rigidification of the varna system into hereditary castes, formalization of the Āśramas, complex ritualism, rise of new deities (Prajapati, Vishnu, Rudra), composition of Samaveda, Yajurveda, Atharvaveda, Brahmanas, Aranyakas, and Upanishads.</td>
-        </tr>
-    </tbody>
-</table>
-
-<h3>5. Religious Practices and Deities</h3>
-<p>The religious landscape of the Vedic Age underwent significant evolution, reflecting the changing societal structures and philosophical outlooks.</p>
-<ul>
-    <li><strong>Early Vedic Religion:</strong>
-        <ul>
-            <li><strong>Nature Worship:</strong> Predominantly polytheistic, with deities personifying natural forces. Key gods included Indra (god of war, rain, and thunder, destroyer of Vritra), Agni (fire god, messenger between humans and gods), Varuna (guardian of cosmic order, Rita), Soma (deity of the Soma plant and its intoxicating juice), Surya (sun god), Ushas (dawn goddess), Vayu (wind god), and Prithvi (earth goddess).</li>
-            <li><strong>Sacrifices (Yajnas):</strong> Simple rituals involving offerings of milk, ghee, grain, and Soma to the gods, primarily to seek prosperity, cattle, sons, and victory in battles. The Purohita (priest) played a role, but rituals were less elaborate and accessible to common people.</li>
-            <li><strong>Absence of Idol Worship:</strong> No evidence of idol worship or temples in the Rigvedic period. Deities were invoked through hymns and offerings.</li>
-        </ul>
-    </li>
-    <li><strong>Later Vedic Religion:</strong>
-        <ul>
-            <li><strong>Shift in Pantheon:</strong> Older deities like Indra and Agni lost some of their prominence. New deities rose to prominence, reflecting the agrarian society's concerns:
-                <ul>
-                    <li><strong>Prajapati:</strong> The creator god, gained supreme status.</li>
-                    <li><strong>Vishnu:</strong> The preserver god, began to emerge as an important deity.</li>
-                    <li><strong>Rudra:</strong> The storm god, later identified with Shiva, also gained significance.</li>
-                </ul>
-            </li>
-            <li><strong>Elaborate Rituals:</strong> Sacrifices became far more complex, expensive, and protracted, often lasting for days or even years. These rituals (e.g., Ashvamedha, Rajasuya, Vajapeya) were performed by kings to assert their sovereignty and by wealthy patrons to gain merit and prosperity.</li>
-            <li><strong>Dominance of Brahmins:</strong> The increasing complexity of rituals elevated the status and power of the Brahmin priests, who became indispensable intermediaries between humans and gods. They alone possessed the knowledge to perform these intricate ceremonies correctly.</li>
-            <li><strong>Emergence of Philosophical Thought:</strong> Alongside ritualism, the Upanishads introduced a profound shift towards philosophical inquiry, emphasizing inner knowledge (jnana) and meditation over external rituals. This laid the foundation for later heterodox movements like Buddhism and Jainism.</li>
-        </ul>
-    </li>
-</ul>
-
-<h3>6. Legacy and Modern Relevance</h3>
-<p>The Vedic Age, despite being ancient, has left an indelible mark on Indian civilization, with many of its elements continuing to resonate in contemporary society.</p>
-<ul>
-    <li><strong>Foundation of Hinduism:</strong> The Vedas and Upanishads form the scriptural bedrock of Hinduism, influencing its theology, philosophy, and rituals. Concepts like Dharma, Karma, Moksha, and the Trimurti (Brahma, Vishnu, Shiva) have their roots in this period.</li>
-    <li><strong>Varna System:</strong> While the rigid caste system of later periods is a complex evolution, its origins can be traced to the varna divisions established in the Later Vedic Age. Understanding this historical context is crucial for analyzing social stratification in India.</li>
-    <li><strong>Sanskrit Language:</strong> Vedic Sanskrit is the ancestor of Classical Sanskrit, which became the language of classical Indian literature, science, and philosophy. Its influence on modern Indian languages is profound.</li>
-    <li><strong>Philosophical Traditions:</strong> The Upanishadic thought, particularly the concepts of Brahman and Atman, laid the groundwork for various schools of Indian philosophy, including Vedanta, Yoga, and Samkhya, which continue to be studied globally.</li>
-    <li><strong>Political Thought:</strong> The evolution from tribal assemblies to centralized monarchies provides insights into early state formation in India. Concepts of Raja Dharma (duties of a king) and the role of advisors (Purohita) have historical echoes.</li>
-    <li><strong>Cultural Identity:</strong> The Vedic heritage is often invoked in discussions of Indian cultural identity, though it's important to acknowledge the diversity and syncretism of Indian history.</li>
-</ul>
-
-<p><strong>Key Take‑aways for Examination:</strong></p>
-<ul>
-    <li>Distinguish the geographical shift from the semi-nomadic, pastoral Sapta‑Sindhu region in the Early Vedic period to the settled, agrarian Gangetic plain (Aryāvarta) in the Later Vedic period, driven by iron technology.</li>
-    <li>Remember the transformation of political institutions: from relatively egalitarian tribal assemblies (Sabha, Samiti, Vidhata) with limited royal authority to centralized, hereditary kingdoms (Janapadas/Mahajanapadas) where royal power was enhanced by elaborate sacrifices and assemblies lost influence.</li>
-    <li>Note the evolution of the varna system from occupational flexibility and relative egalitarianism in the Early Vedic period to hereditary rigidity and hierarchical stratification in the Later Vedic period, with Brahmins and Kshatriyas at the apex.</li>
-    <li>Associate each Vedic text category with its primary purpose: Rigveda (hymns to nature deities), Samaveda (liturgical chants), Yajurveda (sacrificial formulas), Atharvaveda (spells and charms`;
-
-EXPANDED_NOTES_DATA["mahajanapadas"] = `
-
-
-<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
-    Mahajanapadas
-  </h3>
-  
-  <h4 style="margin-top: 16px; margin-bottom: 8px;">Introduction to Mahajanapadas</h4>
-  <p>The term <strong>Mahajanapadas</strong> refers to the <strong>16 great territories</strong> or <strong>regions</strong> in ancient India, which emerged during the <strong>6th century BCE</strong>. These territories were characterized by the presence of <strong>republics</strong> and <strong>monarchies</strong>, and were considered to be the precursors to the development of <strong>imperial India</strong>. The Mahajanapadas played a significant role in shaping the <strong>political</strong>, <strong>social</strong>, and <strong>economic</strong> landscape of ancient India.</p>
-  
-  <h4 style="margin-top: 16px; margin-bottom: 8px;">List of Mahajanapadas</h4>
-  <ul>
-    <li><strong>Anga</strong>: Located in present-day <strong>Bihar</strong>, Anga was a major power during the time of the Mahajanapadas. It was known for its <strong>rich agricultural land</strong> and <strong>thriving trade</strong>.</li>
-    <li><strong>Magadha</strong>: Situated in present-day <strong>Bihar</strong>, Magadha was one of the most powerful Mahajanapadas. It was the seat of the <strong>[[Mauryan Empire]]</strong> and played a significant role in the development of <strong>Indian history</strong>.</li>
-    <li><strong>Kashi</strong>: Located in present-day <strong>Uttar Pradesh</strong>, Kashi was a major cultural and <strong>intellectual center</strong> during the time of the Mahajanapadas. It was known for its <strong>rich cultural heritage</strong> and <strong>philosophical traditions</strong>.</li>
-    <li><strong>Kosala</strong>: Situated in present-day <strong>Uttar Pradesh</strong>, Kosala was a significant power during the time of the Mahajanapadas. It was known for its <strong>strong military</strong> and <strong>strategic location</strong>.</li>
-    <li><strong>Vrijji</strong>: Located in present-day <strong>Bihar</strong>, Vrijji was a <strong>republican state</strong> that played a significant role in the development of <strong>democratic traditions</strong> in ancient India.</li>
-    <li><strong>Malla</strong>: Situated in present-day <strong>Uttar Pradesh</strong>, Malla was a minor power during the time of the Mahajanapadas. It was known for its <strong>strong military</strong> and <strong>strategic location</strong>.</li>
-    <li><strong>Chedi</strong>: Located in present-day <strong>Madhya Pradesh</strong>, Chedi was a minor power during the time of the Mahajanapadas. It was known for its <strong>rich cultural heritage</strong> and <strong>philosophical traditions</strong>.</li>
-    <li><strong>Vatsa</strong>: Situated in present-day <strong>Uttar Pradesh</strong>, Vatsa was a minor power during the time of the Mahajanapadas. It was known for its <strong>strong military</strong> and <strong>strategic location</strong>.</li>
-    <li><strong>Kuru</strong>: Located in present-day <strong>Haryana</strong> and <strong>Delhi</strong>, Kuru was a significant power during the time of the Mahajanapadas. It was known for its <strong>rich cultural heritage</strong> and <strong>philosophical traditions</strong>.</li>
-    <li><strong>Panchala</strong>: Situated in present-day <strong>Uttar Pradesh</strong>, Panchala was a minor power during the time of the Mahajanapadas. It was known for its <strong>strong military</strong> and <strong>strategic location</strong>.</li>
-    <li><strong>Yamuna</strong>: Located in present-day <strong>Uttar Pradesh</strong> and <strong>Haryana</strong>, Yamuna was a minor power during the time of the Mahajanapadas. It was known for its <strong>rich cultural heritage</strong> and <strong>philosophical traditions</strong>.</li>
-    <li><strong>Surashtra</strong>: Situated in present-day <strong>Gujarat</strong>, Surashtra was a minor power during the time of the Mahajanapadas. It was known for its <strong>strong military</strong> and <strong>strategic location</strong>.</li>
-    <li><strong>Gandhara</strong>: Located in present-day <strong>Pakistan</strong> and <strong>Afghanistan</strong>, Gandhara was a significant power during the time of the Mahajanapadas. It was known for its <strong>rich cultural heritage</strong> and <strong>philosophical traditions</strong>.</li>
-    <li><strong>Kamboja</strong>: Situated in present-day <strong>Pakistan</strong> and <strong>Afghanistan</strong>, Kamboja was a minor power during the time of the Mahajanapadas. It was known for its <strong>strong military</strong> and <strong>strategic location</strong>.</li>
-    <li><strong>Asvaka</strong>: Located in present-day <strong>Pakistan</strong> and <strong>Afghanistan</strong>, Asvaka was a minor power during the time of the Mahajanapadas. It was known for its <strong>rich cultural heritage</strong> and <strong>philosophical traditions</strong>.</li>
-  </ul>
-  
-  <h4 style="margin-top: 16px; margin-bottom: 8px;">Characteristics of Mahajanapadas</h4>
-  <p>The Mahajanapadas were characterized by the presence of <strong>republics</strong> and <strong>monarchies</strong>. Some of the key characteristics of the Mahajanapadas include:</p>
-  <ul>
-    <li><strong>Decentralized governance</strong>: The Mahajanapadas were characterized by decentralized governance, with power being held by local <strong>chiefs</strong> and <strong>councils</strong>.</li>
-    <li><strong>Strong military</strong>: The Mahajanapadas were known for their strong military, which played a significant role in their ability to maintain power and <strong>expand their territories</strong>.</li>
-    <li><strong>Thiving trade</strong>: The Mahajanapadas were known for their thriving trade, with <strong>merchants</strong> and <strong>traders</strong> playing a significant role in the economy.</li>
-    <li><strong>Rich cultural heritage</strong>: The Mahajanapadas were known for their rich cultural heritage, with a strong emphasis on <strong>philosophy</strong>, <strong>art</strong>, and <strong>literature</strong>.</li>
-  </ul>
-  
-  <h4 style="margin-top: 16px; margin-bottom: 8px;">Decline of Mahajanapadas</h4>
-  <p>The Mahajanapadas began to decline in the <strong>4th century BCE</strong>, with the rise of the <strong>[[Mauryan Empire]]</strong>. The Mauryan Empire, which was founded by <strong>[[Chandragupta Maurya]]</strong>, eventually absorbed many of the Mahajanapadas, leading to their decline. The decline of the Mahajanapadas can be attributed to a number of factors, including:</p>
-  <ul>
-    <li><strong>Internal conflicts</strong>: The Mahajanapadas were often plagued by internal conflicts, which weakened their ability to maintain power and resist external threats.</li>
-    <li><strong>External threats</strong>: The Mahajanapadas faced significant external threats, including the rise of the <strong>[[Mauryan Empire]]</strong> and the <strong>[[Persian Empire]]</strong>.</li>
-    <li><strong>Economic decline</strong>: The Mahajanapadas experienced economic decline, which further weakened their ability to maintain power and resist external threats.</li>
-  </ul>
-  
-  <h4 style="margin-top: 16px; margin-bottom: 8px;">Legacy of Mahajanapadas</h4>
-  <p>The Mahajanapadas played a significant role in shaping the <strong>political</strong>, <strong>social</strong>, and <strong>economic</strong> landscape of ancient India. The legacy of the Mahajanapadas can be seen in the development of:</p>
-  <ul>
-    <li><strong>[[Indian philosophy]]</strong>: The Mahajanapadas were known for their rich philosophical traditions, which played a significant role in the development of <strong>[[Indian philosophy]]</strong>.</li>
-    <li><strong>[[Indian art]]</strong>: The Mahajanapadas were known for their rich artistic traditions, which played a significant role in the development of <strong>[[Indian art]]</strong>.</li>
-    <li><strong>[[Indian literature]]</strong>: The Mahajanapadas were known for their rich literary traditions, which played a significant role in the development of <strong>[[Indian literature]]</strong>.</li>
-  </ul>
-  
-  <h4 style="margin-top: 16px; margin-bottom: 8px;">Key Figures</h4>
-  <p>Some key figures associated with the Mahajanapadas include:</p>
-  <ul>
-    <li><strong>[[Buddha]]</strong>: The founder of <strong>[[Buddhism]]</strong>, who was born in the Mahajanapada of <strong>[[Kosala]]</strong>.</li>
-    <li><strong>[[Mahavira]]</strong>: The founder of <strong>[[Jainism]]</strong>, who was born in the Mahajanapada of <strong>[[Kundalpur]]</strong>.</li>
-    <li><strong>[[Chandragupta Maurya]]</strong>: The founder of the <strong>[[Mauryan Empire]]</strong>, who rose to power in the Mahajanapada of <strong>[[Magadha]]</strong>.</li>
-    <li><strong>[[Alexander the Great]]</strong>: The <strong>[[Macedonian]]</strong> king who invaded the Mahajanapadas in the <strong>4th century BCE</strong>.</li>
-  </ul>
-  
-  <h4 style="margin-top: 16px; margin-bottom: 8px;">Conclusion</h4>
-  <p>The Mahajanapadas were a significant phase in the development of ancient India, marked by the emergence of <strong>16 great territories</strong> or <strong>regions</strong>. The Mahajanapadas played a crucial role in shaping the <strong>political</strong>, <strong>social</strong>, and <strong>economic</strong> landscape of ancient India, and their legacy can still be seen in the development of <strong>[[Indian philosophy]]</strong>, <strong>[[Indian art]]</strong>, and <strong>[[Indian literature]]</strong>. The study of the Mahajanapadas is essential for understanding the complexities of ancient Indian history and the development of the <strong>[[Indian subcontinent]]</strong>.</p>
 </div>
-
-
 `;
 
-EXPANDED_NOTES_DATA["buddhism-jainism"] = `
-
-
-
-  <h2> Buddhism & Jainism</h2>
-  <p>Heterodox religious movements that arose in the 6th century BCE as a reaction to Vedic ritualism and caste rigidity.</p>
+window.EXPANDED_NOTES_DATA["buddhism-jainism"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Buddhism & Jainism</h3>
+<p>Heterodox religious movements that arose in the 6th century BCE as a reaction to Vedic ritualism and caste rigidity.</p>
 
   <h3>1. Buddhism (Gautama Buddha: 563 - 483 BCE)</h3>
   <ul>
@@ -1843,7 +366,7 @@ EXPANDED_NOTES_DATA["buddhism-jainism"] = `
 
 <!-- SOURCE: chunk_006.txt | TOPIC: Delhi Sultanate - Early Rulers and Khiljis -->
 
-<hr style="margin: 20px 0; border-color: #ddd;">
+<hr style=" border-color: #ddd;">
 <h2>Detailed Expansion (Pathfinder Extracted)</h2>
 <h3>Teachings of Buddha</h3>
 <ul><li><h3>Four Noble Truths (Arya Satyas)</h3><ul><li>The world is full of sorrows (Sabbam Dukham).</li><li>The cause of sorrow is desire (Dwadash Nidan/Pratitya Samutpada).</li><li>If desires are conquered, all sorrows can be removed (Nirvana).</li><li>This can be achieved by following the Eight-Fold Path (Ashtangika Marga).</li><li>The second truth is based on Buddha's doctrine of Paticheha samutpada or Pratitya samutpada, which is the law of dependent origination or causation.</li></ul></li><li><h3>Eight-Fold Path (Ashtangika Marga)</h3><ol><li>Right understanding</li><li>Right thought</li><li>Right speech</li><li>Right action</li><li>Right livelihood</li><li>Right effort</li><li>Right mindfulness</li><li>Right concentration</li></ol></li><li><h3>Three Jewels (Triratnas)</h3><ol><li>Buddha (the enlightened)</li><li>Dhamma (doctrine)</li><li>Sangha (order)</li></ol></li><li><h3>Code of Conduct</h3><ol><li>Do not convert the property of others</li><li>Do not commit violence</li><li>Do not use intoxicants</li><li>Do not speak a lie</li><li>Do not indulge in corrupt practices</li></ol></li><li><h3>Key Beliefs</h3><ul><li><b>Nirvana:</b> Also known as moksha or salvation. It refers to the concept of ultimate bliss, whereby a person gets freedom from the cycle of birth and death.</li><li><b>Ahimsa:</b> Non-violence.</li><li><b>Law of Karma:</b> Actions and their consequences.</li><li><b>Madhya Marga/Madhyama Pratipada:</b> The middle path.</li></ul></li><li><h3>Terminology</h3><ul><li><b>Kutagorshala:</b> A place where Buddhist monks discuss religious issues.</li></ul></li></ul>
@@ -1952,7 +475,7 @@ EXPANDED_NOTES_DATA["buddhism-jainism"] = `
 </ul>
 
 <!-- SOURCE: chunk_006.txt | TOPIC: Delhi Sultanate - Early Rulers and Khiljis -->
-<hr style="margin: 20px 0; border-color: #ddd;">
+<hr style=" border-color: #ddd;">
 <h2>Detailed Expansion (Pathfinder Extracted)</h2>
 <h3>Teachings of Buddha</h3>
 <ul><li><h3>Four Noble Truths (Arya Satyas)</h3><ul><li>The world is full of sorrows (Sabbam Dukham).</li><li>The cause of sorrow is desire (Dwadash Nidan/Pratitya Samutpada).</li><li>If desires are conquered, all sorrows can be removed (Nirvana).</li><li>This can be achieved by following the Eight-Fold Path (Ashtangika Marga).</li><li>The second truth is based on Buddha's doctrine of Paticheha samutpada or Pratitya samutpada, which is the law of dependent origination or causation.</li></ul></li><li><h3>Eight-Fold Path (Ashtangika Marga)</h3><ol><li>Right understanding</li><li>Right thought</li><li>Right speech</li><li>Right action</li><li>Right livelihood</li><li>Right effort</li><li>Right mindfulness</li><li>Right concentration</li></ol></li><li><h3>Three Jewels (Triratnas)</h3><ol><li>Buddha (the enlightened)</li><li>Dhamma (doctrine)</li><li>Sangha (order)</li></ol></li><li><h3>Code of Conduct</h3><ol><li>Do not convert the property of others</li><li>Do not commit violence</li><li>Do not use intoxicants</li><li>Do not speak a lie</li><li>Do not indulge in corrupt practices</li></ol></li><li><h3>Key Beliefs</h3><ul><li><b>Nirvana:</b> Also known as moksha or salvation. It refers to the concept of ultimate bliss, whereby a person gets freedom from the cycle of birth and death.</li><li><b>Ahimsa:</b> Non-violence.</li><li><b>Law of Karma:</b> Actions and their consequences.</li><li><b>Madhya Marga/Madhyama Pratipada:</b> The middle path.</li></ul></li><li><h3>Terminology</h3><ul><li><b>Kutagorshala:</b> A place where Buddhist monks discuss religious issues.</li></ul></li></ul>
@@ -2060,9 +583,9 @@ EXPANDED_NOTES_DATA["buddhism-jainism"] = `
   <li>The Buddhist University at <strong>Nalanda</strong> was set up in the 5th century.</li>
 </ul>
 
-<!-- SOURCE: chunk_006.txt | TOPIC: Delhi Sultanate - Early Rulers and Khiljis -->`;
+<!-- SOURCE: chunk_006.txt | TOPIC: Delhi Sultanate - Early Rulers and Khiljis -->\`;
 
-EXPANDED_NOTES_DATA["mauryan-period"] = `
+EXPANDED_NOTES_DATA["mauryan-period"] = \`
 
 
 
@@ -2096,17 +619,13 @@ EXPANDED_NOTES_DATA["mauryan-period"] = `
 
   <h3>3. Decline of the Mauryan Empire</h3>
   <p>Weak successors, regional revolts, economic drain from military campaigns, and foreign invasions by Greeks, Sakas, and Parthians destabilized the empire.</p>
-
-
-
+</div>
 `;
 
-EXPANDED_NOTES_DATA["post-mauryan-india"] = `
-
-
-
-  <h2> Post-Mauryan Dynasties & Foreign Invasions</h2>
-  <p>After the Mauryan decline, Magadha saw the rise of smaller dynasties, while the North-West faced foreign invasions.</p>
+window.EXPANDED_NOTES_DATA["post-mauryan-india"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Post-Mauryan Dynasties & Foreign Invasions</h3>
+<p>After the Mauryan decline, Magadha saw the rise of smaller dynasties, while the North-West faced foreign invasions.</p>
 
   <h3>1. Indigenous Dynasties (185 BCE - 321 CE)</h3>
   <ul>
@@ -2135,33 +654,13 @@ EXPANDED_NOTES_DATA["post-mauryan-india"] = `
     <li>**Satrap System:** Hereditary dual rule (father & son ruling jointly).</li>
     <li>Rise of **Gandhara Art** (Greco-Roman, spiritual Buddha with half-closed eyes) and **Mathura Art** (indigenous, red sandstone).</li>
   </ul>
-
-
-
+</div>
 `;
 
-EXPANDED_NOTES_DATA["gupta-period"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Gupta Empire – Golden Age (320‑550 CE)</title>
-    <style>
-        body{font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px; color:#333;}
-        h2{color:#2c3e50; border-bottom:2px solid #e67e22; padding-bottom:5px;}
-        h3{color:#34495e; margin-top:30px;}
-        ul{margin-left:20px;}
-        table{border-collapse:collapse; width:100%; margin-top:15px;}
-        th,td{border:1px solid #ccc; padding:8px; text-align:left;}
-        th{background:#f4f4f4;}
-        .center{text-align:center; margin:20px 0;}
-        .caption{font-size:0.9em; color:#777; margin-top:5px;}
-    </style>
-</head>
-<body>
-
-    <h2>👑 The Gupta Empire (Golden Age: 320 – 550 CE)</h2>
-    <p>An era marked by political unification, flourishing trade, and unparalleled achievements in science, literature, art, and architecture. The period is often termed the “Golden Age of India” because of its cultural efflorescence and relative internal stability.</p>
+window.EXPANDED_NOTES_DATA["gupta-period"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">👑 The Gupta Empire (Golden Age: 320 – 550 CE)</h3>
+<p>An era marked by political unification, flourishing trade, and unparalleled achievements in science, literature, art, and architecture. The period is often termed the “Golden Age of India” because of its cultural efflorescence and relative internal stability.</p>
 
     <div class="center">
         <img src="images/history_mauryan_gupta_map.png" alt="Mauryan vs Gupta Empire Territorial Extent" style="max-width:100%; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
@@ -2281,31 +780,13 @@ EXPANDED_NOTES_DATA["gupta-period"] = `
 
     <h3>7. Legacy</h3>
     <p>The Gupta period bequeathed a lasting cultural template that shaped Indian civilization for centuries. Its contributions to language (standardization of Classical Sanskrit), art (iconic temple architecture), science (foundations of modern astronomy and mathematics), and education (Nalanda as a world‑renowned university) continue to be celebrated as the zenith of ancient Indian achievement.</p>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["south-indian-kingdoms"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>South Indian Kingdoms – Detailed Historical Notes</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3B55; border-bottom:2px solid #2E3B55; padding-bottom:5px;}
-        h3 {color:#3A5A9C; margin-top:30px;}
-        table {border-collapse:collapse; width:100%; margin-top:15px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        .emblem {font-weight:bold;}
-    </style>
-</head>
-<body>
-
-    <h2>South Indian Kingdoms</h2>
-    <p>The sub‑continent’s southern region witnessed a succession of vibrant polities that shaped its language, literature, art, and maritime power. The chronological flow moves from the early <strong>Sangam Age</strong> (c. 3rd BCE – 3rd CE), through the dynastic rivalry of the <strong>Pallavas</strong> and <strong>Chalukyas</strong> (6th – 8th CE), to the zenith of the <strong>Imperial Cholas</strong> (9th – 12th CE). Each era contributed distinct administrative innovations, monumental architecture, and expansive trade networks that are crucial for UPSC and Defence examinations.</p>
+window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">South Indian Kingdoms</h3>
+<p>The sub‑continent’s southern region witnessed a succession of vibrant polities that shaped its language, literature, art, and maritime power. The chronological flow moves from the early <strong>Sangam Age</strong> (c. 3rd BCE – 3rd CE), through the dynastic rivalry of the <strong>Pallavas</strong> and <strong>Chalukyas</strong> (6th – 8th CE), to the zenith of the <strong>Imperial Cholas</strong> (9th – 12th CE). Each era contributed distinct administrative innovations, monumental architecture, and expansive trade networks that are crucial for UPSC and Defence examinations.</p>
 
     <!-- Sangam Age -->
     <h3>1. The Sangam Age (c. 3rd BCE – 3rd CE)</h3>
@@ -2455,32 +936,13 @@ EXPANDED_NOTES_DATA["south-indian-kingdoms"] = `
 
     <h4>Legacy</h4>
     <p>The Chola period left an indelible imprint on South Indian polity, art, and maritime strategy. Their administrative models, especially the village self‑government system, influenced later South Indian and even early modern governance structures. The architectural innovations set standards for Dravidian temple construction that persisted well into the Vijayanagara and Nayaka periods.</p>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["early-medieval-india"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Early Medieval India – Detailed Notes</title>
-    <style>
-        body {font-family: Arial, sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87; border-bottom:2px solid #2E3A87; padding-bottom:5px;}
-        h3 {color:#3B4F9E; margin-top:30px;}
-        h4 {color:#5A6EB5; margin-top:20px;}
-        table {width:100%; border-collapse:collapse; margin-top:15px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>🛡️ Early Medieval India (c. 6th – 12th CE)</h2>
-    <p>The period after the decline of the Gupta Empire witnessed intense regional fragmentation. Power was contested among several dynasties, leading to a dynamic political landscape marked by wars, cultural patronage, and the emergence of the Rajput warrior class. This era set the foundations for the later medieval kingdoms that would dominate the sub‑continent.</p>
+window.EXPANDED_NOTES_DATA["early-medieval-india"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🛡️ Early Medieval India (c. 6th – 12th CE)</h3>
+<p>The period after the decline of the Gupta Empire witnessed intense regional fragmentation. Power was contested among several dynasties, leading to a dynamic political landscape marked by wars, cultural patronage, and the emergence of the Rajput warrior class. This era set the foundations for the later medieval kingdoms that would dominate the sub‑continent.</p>
 
     <h3>1. Tripartite Struggle (c. 750 – 950 CE)</h3>
     <p>A protracted contest for the control of <strong>Kannauj</strong>—the symbolic seat of sovereignty in North India—between three major powers. Control of this strategic city meant dominance over the fertile Gangetic plains and the trade routes linking the north with the Deccan.</p>
@@ -2630,31 +1092,12 @@ EXPANDED_NOTES_DATA["early-medieval-india"] = `
     </ul>
 
     <p>Understanding the dynamics of the Early Medieval period—its power struggles, regional kingdoms, and cultural efflorescence—is essential for grasping the foundations of later Indian history and the evolution of political thought that shaped the sub‑continent.</p>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["delhi-sultanate"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>The Delhi Sultanate (1206‑1526) – Detailed Notes</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2c3e50;}
-        h3 {color:#34495e;}
-        h4 {color:#7f8c8d;}
-        table {border-collapse:collapse; width:100%; margin:15px 0;}
-        th, td {border:1px solid #bbb; padding:8px; text-align:left;}
-        th {background:#ecf0f1;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-<h2>⚔️ The Delhi Sultanate (1206 – 1526)</h2>
+window.EXPANDED_NOTES_DATA["delhi-sultanate"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">⚔️ The Delhi Sultanate (1206 – 1526)</h3>
 <p>Five successive dynasties ruled the Indian sub‑continent from Delhi before the advent of the Mughal Empire. A handy mnemonic to remember them is <strong>S</strong>ome <strong>K</strong>ings <strong>T</strong>ravel <strong>S</strong>lowly <strong>L</strong>ately.</p>
 
 <h3>1. Overview of the Five Dynasties</h3>
@@ -3025,596 +1468,13 @@ EXPANDED_NOTES_DATA["delhi-sultanate"] = `
 
 <!-- SOURCE: chunk_011.txt | TOPIC: Modern India - Key Events, Viceroys, and Land Revenue Systems -->
 <h1>Modern India - Key Events, Viceroys, and Land Revenue Systems</h1>
-
-
-</body>
-</html>
-
-<hr style="margin: 20px 0; border-color: #ddd;">
-<h2>Detailed Expansion (Pathfinder Extracted)</h2>
-<h3>Shams-ud-din Iltutmish (c. 1211-1236 AD)</h3>
-<ul>
-  <li>Considered the <b>real founder of the Delhi Sultanate</b>.</li>
-  <li>Made <b>Delhi the capital</b> of the empire.</li>
-  <li>Suppressed revolts by ambitious nobles and Aibak's sons.</li>
-  <li>Led expeditions against Rajputs in Ranthambore, Jalor, and Mewar.</li>
-  <li>His governing class comprised two groups of foreign origin: Turkish slave officers and Taziks.</li>
-  <li>Introduced the <b>silver coin (tanka)</b> and the <b>copper coin (jital)</b>.</li>
-  <li>Organised the <b>Iqta system</b>.</li>
-  <li>Introduced reforms in civil administration and the army (which was now paid and recruited).</li>
-  <li>Established an official nobility of slaves known as <b>Turkan-i-Chalgani or Chalisa</b> (a group of forty powerful Turkish nobles).</li>
-  <li>On February 18, 1229, the Khalifa from Baghdad sent a decree recognising the independent status of the Delhi Sultanate.</li>
-  <li>Known as the <b>'father of Tomb building'</b> (built Sultan Garhi).</li>
-  <li>Completed the construction of <b>Qutub Minar</b>.</li>
-  <li>Saved the Delhi Sultanate from <b>Chengiz Khan</b> by refusing shelter to Khwarizm Shah, whom Chengiz Khan was pursuing.</li>
-</ul>
-<hr>
-<h3>Razia Sultan (c. 1236-1240 AD)</h3>
-<ul>
-  <li>The <b>first and last Muslim woman ruler of medieval India</b>.</li>
-  <li>The first rebellion against her was led by Kabir Khan, Governor of Lahore.</li>
-  <li>Altunia, the Governor of Bhatinda, also revolted against her.</li>
-  <li>She was defeated and taken prisoner by Altunia, whom she subsequently married.</li>
-  <li>While moving towards Delhi with Altunia, she was defeated by Bahram Shah (Iltutmish's son).</li>
-  <li>Deserted by her soldiers, she was murdered by robbers.</li>
-</ul>
-<hr>
-<h3>Successors of Razia Sultan</h3>
-<ul>
-  <li><b>Bahram Shah</b> (AD 1240-1242)</li>
-  <li><b>Ala-ud-din Masud Shah</b> (AD 1242-1246)</li>
-  <li><b>Nasir-ud-din Mahmud</b> (AD 1246-1266) - He was the grandson of Iltutmish.</li>
-</ul>
-<hr>
-<h3>Ghiyas-ud-din Balban (c. 1266-1287 AD)</h3>
-<ul>
-  <li>Ascended the throne in 1266-67 AD.</li>
-  <li>Ordered the <b>separation of the military department (Diwan-i-Ariz) from the Finance Department (Diwan-i-Wizarat)</b>.</li>
-  <li>Emphasised the divine nature of kingship, stating it was the <b>vice-regency of God on Earth (Niyabat-i-Khudai)</b> and the king was the <b>shadow of God (Zil-i-Ilahi)</b>.</li>
-  <li><b>Abandoned the Chalisa</b> (Turkan-i-Chalgani).</li>
-  <li>Introduced the Persian court customs of <b>Sijdah (prostration) and Paibos (kissing the monarch's feet)</b>.</li>
-  <li>Started the <b>Nauroz festival</b>.</li>
-  <li>Took strong measures to safeguard the North-West frontier against Mongol invasions.</li>
-  <li>Was deeply racist and excluded non-Turks from administration.</li>
-  <li>His son Mohammed's death was a major blow to him and his dynasty.</li>
-  <li>The last ruler of his dynasty was Kaiqubad, who was killed by Jalal-ud-din Khilji.</li>
-</ul>
-<hr>
-<h3>The Khiljis (c. 1290-1320 AD)</h3>
-<ul>
-  <li>The ascendancy of the Khiljis is known as the <b>'Khilji Revolution'</b>.</li>
-  <li>This marked the end of the monopolisation of power by the Turkish nobility and racial dictatorship.</li>
-  <li>The accession of Jalal-ud-din Firoz Khilji signified a 'revolution' in the political and cultural history of medieval India.</li>
-</ul>
-<hr>
-<h3>Jalal-ud-din Firoz Khilji (c. 1290-1296 AD)</h3>
-<ul>
-  <li>Ascended the throne at the age of 70.</li>
-  <li>Married one of his daughters to the Mongol leader Ulugh Khan (a descendant of Chengiz Khan) to foster goodwill.</li>
-  <li>A significant event of his reign was the invasion of <b>Devagiri</b> (capital of the Yadava kingdom in the Deccan) by his nephew and son-in-law, Ala-ud-din Khilji (Governor of Kara).</li>
-</ul>
-<hr>
-<h3>Ala-ud-din Khilji (c. 1296-1316 AD)</h3>
-<ul>
-  <li>His first major conquest was the rich kingdom of <b>Gujarat</b>, ruled by the Vaghela King Karna.</li>
-  <li>In 1299, his army, under Ulugh Khan and Nusrat Khan, invaded <b>Anhilwad</b>, the capital of Gujarat.</li>
-  <li>During the plunder of the port of Cambay, Nusrat Khan acquired a Hindu-turned-Muslim slave named <b>Kafur</b> (also known as Hazar Dinari).</li>
-  <li>Kafur later rose to become a great Military General and the Malik Naib of Ala-ud-din.</li>
-  <li>After Gujarat, he conquered <b>Ranthambore</b> in 1300-1301 from Hamir Deva.</li>
-  <li>In 1303 AD, he attacked <b>Chittor</b>, the capital of Mewar, ruled by Gahlot King Ratan Singh.</li>
-  <li>Queen Padmini committed Jauhar after her husband's defeat in Chittor.</li>
-</ul>
-
-<!-- SOURCE: chunk_007.txt | TOPIC: Medieval India - Deccan Sultanates and Religious Movements -->
-<h3>Deccan Sultanates</h3><ul><li><h4>Adilshahi of Bijapur (1490-1686)</h4><ul><li>Founded by Yusuf Adil Shah.</li><li>Greatest ruler: Ibrahim Adil Shah, who introduced 'Dakhini' in place of Persian language.</li><li>Another ruler, Mohammed Adil Shah, built the Gol Gumbaz.</li><li>Annexed by Aurangzeb.</li></ul></li><li><h4>Imad Shahis of Berar (1490-1574)</h4><ul><li>Founded by Fateullah Khan II Mad-ul-Mulk.</li><li>Capital: Daulatabad.</li><li>Later conquered and annexed by one of the Nizam Shahi rulers of Ahmednagar.</li></ul></li><li><h4>Qutub Shahis of Golconda (1518-1687)</h4><ul><li>Founded by Quli Qutub Shah.</li><li>Built the famous Golconda fort and made it his capital.</li><li>Greatest ruler: Mohammed Quli Qutub Shah.</li><li>Mohammed Quli Qutub Shah founded the city of Hyderabad and built the famous Charminar.</li><li>Most important port: Masulipatnam.</li><li>Annexed by Aurangzeb in 1687.</li></ul></li><li><h4>Barid Shahis of Bidar (1528-1619)</h4><ul><li>Founded by Ali Barid.</li><li>Annexed by Adil Shahis of Bijapur.</li></ul></li></ul><h3>Religious Movements</h3><h4>The Sufis</h4><ul><li>Sufism is a mystical Islamic belief and practice where Muslims seek divine love and knowledge through direct personal experience of God.</li><li>Sufis are against the orthodoxy and fanaticism of religion.</li><li>In India, Sufism appealed to both Muslims and Hindus, and Sufi saints became venerated figures for all.</li><li>**Ziyarat**: Visiting pilgrimage sites associated with Muhammad or venerated figures like Sufi saints.</li><li>**Khanqah**: The abode of Sufis.</li><li>During the 13th century, Sufism was divided into 14 silsilas (branches) in India.</li></ul><h4>The Chistis</h4><ul><li>Founder: Khwaza Abu-e-Chisti.</li><li>Popularised in India by Moin-ud-din Chisti. His tomb is in Ajmer, Rajasthan.</li><li>Main disciple of Moin-ud-din: Khwaza Qutub-ud-din Bakhtiyar Kaki (Qutub Minar was named after him).</li><li>Famous saint Nizam-ud-din Auliya saw the reign of seven Delhi Sultans. He was also known as Mahboob-i-Ilahi (beloved of God) and Sultan-ul-Auliya (king of the saints). His tomb is in Delhi.</li><li>Sheikh Nasir-ud-din (Chirag-i-Delhi) was a disciple of Mahboob-i-Illahi.</li><li>Amir Khusrau and Al-Biruni were also followers of Chisti.</li></ul><h4>Qadiri Silsila</h4><ul><li>Founder in India: Sheikh Mohi-ud-din Qadir Zilani.</li><li>Popularised by Shah Nizamat Ullah and Makhdum Zilani.</li><li>Dara Shikoh (son of Shah Jahan) was a disciple of Mullah Shah Badakshi.</li><li>Dara Shikoh wrote the biographies of saints: Safinat-ul-Auliya and Sakinat-ul-Auliya.</li><li>Dara Shikoh also translated books such as Sir-e-Akbar and Sir-e-Asrar.</li></ul><h4>Naqshabandi Silsila</h4><ul><li>Founder in India: Khwaza Baha-ud-din Naqshabandi.</li><li>Popularised by Khwaza Khwand Mahmud, whose centre was in Kashmir.</li><li>Other saints: Baqi-Billah, Shahwali ullah, Khwaza Mir Dard Naqshaband.</li><li>Mir Dard wrote Dard-e-Dil, Sham-e-Mahfil, and Ilm-ul-Khitab.</li></ul><h4>Other Famous Silsilah</h4><ul><li>Firdausi, Quadiri, Satari, etc.</li></ul><h3>Bhakti Movement</h3><ul><li>Bhakti is a devotional worship of God with the ultimate objective of attaining Moksha (Salvation).</li><li>Initially, the Bhakti Movement started in South India in the form of Alvars and Nayanars.</li><li>Gradually, the Bhakti Movement spread to North India, flourishing in the 13th century.</li><li>Bhakti saints were against casteism, ritualism, and religious sacrifices.</li><li>They professed equal participation of women in religious practices.</li><li>These saints used local dialects to promote their ideas and communicate with the masses.</li><li>The Bhakti Movement is divided into two branches: Nirguna and Saguna.</li></ul><h4>Nirguna Saints</h4><ul><li>**Guru Nanak**<ul><li>Born at Talwandi in Lahore.</li><li>Propagated Monotheism, Hindu-Muslim unity, and denounced idol worship.</li><li>His disciple Mardana played Rabas.</li><li>He established the Sikh religion.</li><li>His teachings are found in Guru Granth Sahib.</li></ul></li><li>**Dadu Dayal**<ul><li>Born in Ahmedabad to Muslim parents, brought up by a Hindu.</li><li>His teachings are collected in a book called Bani.</li><li>His disciples were Sundaradasa, Rajjab, Bakham, and Warid.</li><li>He founded the Brahma sect or Param Brahma Sampradaya.</li></ul></li><li>**Kabir**<ul><li>Opposed to caste, creed, and idol worship.</li><li>Propagated Hindu-Muslim unity.</li><li>His works include Sabada Doha, Holi, Rekhtal, etc.</li><li>Verses of Kabir, Namdev, Ravidas, Dhanna, Pipa, etc., were included in Adi Granth.</li></ul></li></li></ul>
-
-<!-- SOURCE: chunk_008.txt | TOPIC: Medieval India - The Marathas -->
-<h3>The Marathas</h3>
-<h4>Shivaji (1627-1680)</h4>
-<ul>
-  <li>Creator of the Maratha nation, he united Maratha chiefs from Malwa, Konkan, and Desh regions to establish a kingdom.</li>
-  <li>Born in 1627 in the hill fort of Shivner.</li>
-  <li>Took control of his hereditary Jagir in 1647 after the death of his guardian Konadev.</li>
-  <li>Began his military career at a young age, capturing the fort of Toran in 1656.</li>
-  <li>From 1656, he started capturing many other forts from the local officers of Bijapur.</li>
-  <li>Raided Bijapur, leading Ali Adil Shah of Bijapur to send his General Afzal Khan to capture Shivaji. Shivaji killed Afzal Khan using a weapon called Baghnakh (tiger's claw).</li>
-  <li>Began attacking Mughal territories. Aurangzeb sent Shaista Khan, the Viceroy of the Deccan, against him. Shaista Khan captured Poona, but Shivaji outwitted the Mughals in 1663.</li>
-  <li>Aurangzeb then sent Prince Muazzam, and upon his failure, Mirza Raja Jai Singh of Amber was dispatched. Raja Jai Singh won victories and besieged Shivaji in Purandhar in 1665.</li>
-  <li>At Jai Singh's persuasion, Shivaji visited the Mughal Court of Agra but was detained. He escaped in 1666 and resumed his conquests.</li>
-  <li>In 1674, Shivaji made Raigarh his capital, celebrated his coronation, and assumed the title of 'Chhatrapati'.</li>
-  <li>Died in 1680 at the age of 53.</li>
-</ul>
-<h4>Shivaji's Successors</h4>
-<ul>
-  <li><strong>Sambhaji:</strong> Shivaji's son, ascended the throne despite a hostile faction supporting his step-brother Rajaram. His raiding of Mughal territories and sheltering of Akbar II (Aurangzeb's rebel son) led Aurangzeb to capture and execute him in 1689.</li>
-  <li><strong>Rajaram:</strong> Crowned King after Sambhaji. He created the new post of Pratinidhi, increasing the total number of ministers to nine.</li>
-  <li><strong>Tara Bai:</strong> Rajaram's widow, ascended the throne after his death.</li>
-  <li><strong>Shahu:</strong> Sambhaji's son, released from Mughal captivity in 1707. He had to contend with his aunt Tara Bai for the Maratha throne. The period of Peshwa domination began during his reign.</li>
-</ul>
-<h4>Ashta Pradhan (Council of Ministers)</h4>
-<table>
-  <thead>
-    <tr>
-      <th>Post</th>
-      <th>Responsibility</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Peshwa or Mukhya Pradhan</td>
-      <td>Prime Minister, looked after general administration, later assumed great importance.</td>
-    </tr>
-    <tr>
-      <td>Pratinidhi</td>
-      <td>New post created by Rajaram, increasing ministers to nine.</td>
-    </tr>
-    <tr>
-      <td>Amatya or Majumdar</td>
-      <td>Accountant general, later became Revenue and Finance Minister.</td>
-    </tr>
-    <tr>
-      <td>Sachiv or Surunavis (Surnis)</td>
-      <td>Also called Chitnis, looked after royal correspondence.</td>
-    </tr>
-    <tr>
-      <td>Sumant or Dabir</td>
-      <td>Foreign affairs and master of royal ceremonies.</td>
-    </tr>
-    <tr>
-      <td>Senapati or Sar-i-Naubat</td>
-      <td>Military Commander, looked after recruitment, training, and discipline of the army.</td>
-    </tr>
-    <tr>
-      <td>Mantri or Waqianavis</td>
-      <td>Personal safety of the king, looked after intelligence, posts, and household affairs.</td>
-    </tr>
-    <tr>
-      <td>Nyayadhish</td>
-      <td>Administration of justice.</td>
-    </tr>
-    <tr>
-      <td>Pundit Rao</td>
-      <td>Looked after charitable and religious affairs of the state, worked for the moral upliftment of the people.</td>
-    </tr>
-  </tbody>
-</table>
-<h4>Maratha Confederacy / Kingdoms</h4>
-<table>
-  <thead>
-    <tr>
-      <th>Kingdom</th>
-      <th>Territory</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Scindia</td>
-      <td>Gwalior</td>
-    </tr>
-    <tr>
-      <td>Holkar</td>
-      <td>Indore</td>
-    </tr>
-    <tr>
-      <td>Pawar</td>
-      <td>Dhar</td>
-    </tr>
-    <tr>
-      <td>Gaekwad</td>
-      <td>Baroda</td>
-    </tr>
-    <tr>
-      <td>Bhonsle</td>
-      <td>Nagpur</td>
-    </tr>
-    <tr>
-      <td>Peshwa</td>
-      <td>Puna</td>
-    </tr>
-  </tbody>
-</table>
-<h4>Revenue Administration (Shivaji)</h4>
-<ul>
-  <li>Shivaji abolished the Jagirdari system and replaced it with the Ryotwari system.</li>
-  <li>He brought about changes in the position of hereditary revenue officials like Deshmukhs, Deshpandes, Patils, and Kulkarnis.</li>
-  <li>Shivaji strictly supervised the Mirasdars (those with hereditary rights in land).</li>
-  <li>He considerably reduced the powers of these officials through close supervision and strict collection of revenue.</li>
-  <li>The appointment of revenue officials (Subahdars or Karkuns) in charge of revenue administration of Prants helped establish a strong revenue system.</li>
-  <li>The revenue system was patterned on the Kathi system of Malik Ambar, where land was carefully measured with a measuring rod (kathi).</li>
-  <li>Revenue assessment was made after a careful survey and classification of lands based on quality and yield.</li>
-  <li>The state's share was fixed at two-fifths of the gross produce.</li>
-  <li>Cultivators had the option of paying either in cash or kind.</li>
-  <li>A new revenue assessment was completed by Annaji Datto in AD 1679.</li>
-</ul>
-<h4>The Peshwas</h4>
-<ul>
-  <li>The period of Peshwa domination in Maratha history began during Shahu's reign.</li>
-  <li><strong>Balaji Vishwanath:</strong> Appointed Peshwa by King Shahu in 1713. He was an able administrator and an excellent diplomat.</li>
-  <li><strong>Baji Rao I:</strong> Son of Balaji Vishwanath, served as Peshwa from 1720 to 1740. During his tenure, the Maratha kingdom was transformed into an empire.</li>
-  <li><strong>Balaji Baji Rao:</strong> Succeeded Baji Rao I and was formally made the head of the state after King Shahu's death in 1749.</li>
-  <li>During Balaji Baji Rao's reign, the Maratha empire expanded further, and the Maratha Army overran Delhi.</li>
-  <li>The Marathas came into conflict with Ahmed Shah Abdali of Afghanistan, leading to the Third Battle of Panipat in 1761.</li>
-  <li>In the Third Battle of Panipat, the Maratha Army was completely routed, and the Peshwa's son, Vishwas Rao, and Sadashiva Rao Bhau were killed.</li>
-  <li>After the Third Battle of Panipat, four semi-independent Maratha states emerged: Baroda (ruled by Gaikwad), Nagpur (ruled by Bhonsle), Indore (ruled by Holkar), and Gwalior (ruled by Scindhia). The Peshwa continued to rule from Poona.</li>
-  <li><strong>Baji Rao II:</strong> The last Peshwa. He signed the Treaty of Bassein in 1802, entering into a subsidiary alliance with the British, which led to the gradual diminution of the Maratha kingdom.</li>
-</ul>
-
-<!-- SOURCE: chunk_011.txt | TOPIC: Modern India - Key Events, Viceroys, and Land Revenue Systems -->
-<h1>Modern India - Key Events, Viceroys, and Land Revenue Systems</h1>
-<hr style="margin: 20px 0; border-color: #ddd;">
-<h2>Detailed Expansion (Pathfinder Extracted)</h2>
-<h3>Shams-ud-din Iltutmish (c. 1211-1236 AD)</h3>
-<ul>
-  <li>Considered the <b>real founder of the Delhi Sultanate</b>.</li>
-  <li>Made <b>Delhi the capital</b> of the empire.</li>
-  <li>Suppressed revolts by ambitious nobles and Aibak's sons.</li>
-  <li>Led expeditions against Rajputs in Ranthambore, Jalor, and Mewar.</li>
-  <li>His governing class comprised two groups of foreign origin: Turkish slave officers and Taziks.</li>
-  <li>Introduced the <b>silver coin (tanka)</b> and the <b>copper coin (jital)</b>.</li>
-  <li>Organised the <b>Iqta system</b>.</li>
-  <li>Introduced reforms in civil administration and the army (which was now paid and recruited).</li>
-  <li>Established an official nobility of slaves known as <b>Turkan-i-Chalgani or Chalisa</b> (a group of forty powerful Turkish nobles).</li>
-  <li>On February 18, 1229, the Khalifa from Baghdad sent a decree recognising the independent status of the Delhi Sultanate.</li>
-  <li>Known as the <b>'father of Tomb building'</b> (built Sultan Garhi).</li>
-  <li>Completed the construction of <b>Qutub Minar</b>.</li>
-  <li>Saved the Delhi Sultanate from <b>Chengiz Khan</b> by refusing shelter to Khwarizm Shah, whom Chengiz Khan was pursuing.</li>
-</ul>
-<hr>
-<h3>Razia Sultan (c. 1236-1240 AD)</h3>
-<ul>
-  <li>The <b>first and last Muslim woman ruler of medieval India</b>.</li>
-  <li>The first rebellion against her was led by Kabir Khan, Governor of Lahore.</li>
-  <li>Altunia, the Governor of Bhatinda, also revolted against her.</li>
-  <li>She was defeated and taken prisoner by Altunia, whom she subsequently married.</li>
-  <li>While moving towards Delhi with Altunia, she was defeated by Bahram Shah (Iltutmish's son).</li>
-  <li>Deserted by her soldiers, she was murdered by robbers.</li>
-</ul>
-<hr>
-<h3>Successors of Razia Sultan</h3>
-<ul>
-  <li><b>Bahram Shah</b> (AD 1240-1242)</li>
-  <li><b>Ala-ud-din Masud Shah</b> (AD 1242-1246)</li>
-  <li><b>Nasir-ud-din Mahmud</b> (AD 1246-1266) - He was the grandson of Iltutmish.</li>
-</ul>
-<hr>
-<h3>Ghiyas-ud-din Balban (c. 1266-1287 AD)</h3>
-<ul>
-  <li>Ascended the throne in 1266-67 AD.</li>
-  <li>Ordered the <b>separation of the military department (Diwan-i-Ariz) from the Finance Department (Diwan-i-Wizarat)</b>.</li>
-  <li>Emphasised the divine nature of kingship, stating it was the <b>vice-regency of God on Earth (Niyabat-i-Khudai)</b> and the king was the <b>shadow of God (Zil-i-Ilahi)</b>.</li>
-  <li><b>Abandoned the Chalisa</b> (Turkan-i-Chalgani).</li>
-  <li>Introduced the Persian court customs of <b>Sijdah (prostration) and Paibos (kissing the monarch's feet)</b>.</li>
-  <li>Started the <b>Nauroz festival</b>.</li>
-  <li>Took strong measures to safeguard the North-West frontier against Mongol invasions.</li>
-  <li>Was deeply racist and excluded non-Turks from administration.</li>
-  <li>His son Mohammed's death was a major blow to him and his dynasty.</li>
-  <li>The last ruler of his dynasty was Kaiqubad, who was killed by Jalal-ud-din Khilji.</li>
-</ul>
-<hr>
-<h3>The Khiljis (c. 1290-1320 AD)</h3>
-<ul>
-  <li>The ascendancy of the Khiljis is known as the <b>'Khilji Revolution'</b>.</li>
-  <li>This marked the end of the monopolisation of power by the Turkish nobility and racial dictatorship.</li>
-  <li>The accession of Jalal-ud-din Firoz Khilji signified a 'revolution' in the political and cultural history of medieval India.</li>
-</ul>
-<hr>
-<h3>Jalal-ud-din Firoz Khilji (c. 1290-1296 AD)</h3>
-<ul>
-  <li>Ascended the throne at the age of 70.</li>
-  <li>Married one of his daughters to the Mongol leader Ulugh Khan (a descendant of Chengiz Khan) to foster goodwill.</li>
-  <li>A significant event of his reign was the invasion of <b>Devagiri</b> (capital of the Yadava kingdom in the Deccan) by his nephew and son-in-law, Ala-ud-din Khilji (Governor of Kara).</li>
-</ul>
-<hr>
-<h3>Ala-ud-din Khilji (c. 1296-1316 AD)</h3>
-<ul>
-  <li>His first major conquest was the rich kingdom of <b>Gujarat</b>, ruled by the Vaghela King Karna.</li>
-  <li>In 1299, his army, under Ulugh Khan and Nusrat Khan, invaded <b>Anhilwad</b>, the capital of Gujarat.</li>
-  <li>During the plunder of the port of Cambay, Nusrat Khan acquired a Hindu-turned-Muslim slave named <b>Kafur</b> (also known as Hazar Dinari).</li>
-  <li>Kafur later rose to become a great Military General and the Malik Naib of Ala-ud-din.</li>
-  <li>After Gujarat, he conquered <b>Ranthambore</b> in 1300-1301 from Hamir Deva.</li>
-  <li>In 1303 AD, he attacked <b>Chittor</b>, the capital of Mewar, ruled by Gahlot King Ratan Singh.</li>
-  <li>Queen Padmini committed Jauhar after her husband's defeat in Chittor.</li>
-</ul>
-
-<!-- SOURCE: chunk_007.txt | TOPIC: Medieval India - Deccan Sultanates and Religious Movements -->
-<h3>Deccan Sultanates</h3><ul><li><h4>Adilshahi of Bijapur (1490-1686)</h4><ul><li>Founded by Yusuf Adil Shah.</li><li>Greatest ruler: Ibrahim Adil Shah, who introduced 'Dakhini' in place of Persian language.</li><li>Another ruler, Mohammed Adil Shah, built the Gol Gumbaz.</li><li>Annexed by Aurangzeb.</li></ul></li><li><h4>Imad Shahis of Berar (1490-1574)</h4><ul><li>Founded by Fateullah Khan II Mad-ul-Mulk.</li><li>Capital: Daulatabad.</li><li>Later conquered and annexed by one of the Nizam Shahi rulers of Ahmednagar.</li></ul></li><li><h4>Qutub Shahis of Golconda (1518-1687)</h4><ul><li>Founded by Quli Qutub Shah.</li><li>Built the famous Golconda fort and made it his capital.</li><li>Greatest ruler: Mohammed Quli Qutub Shah.</li><li>Mohammed Quli Qutub Shah founded the city of Hyderabad and built the famous Charminar.</li><li>Most important port: Masulipatnam.</li><li>Annexed by Aurangzeb in 1687.</li></ul></li><li><h4>Barid Shahis of Bidar (1528-1619)</h4><ul><li>Founded by Ali Barid.</li><li>Annexed by Adil Shahis of Bijapur.</li></ul></li></ul><h3>Religious Movements</h3><h4>The Sufis</h4><ul><li>Sufism is a mystical Islamic belief and practice where Muslims seek divine love and knowledge through direct personal experience of God.</li><li>Sufis are against the orthodoxy and fanaticism of religion.</li><li>In India, Sufism appealed to both Muslims and Hindus, and Sufi saints became venerated figures for all.</li><li>**Ziyarat**: Visiting pilgrimage sites associated with Muhammad or venerated figures like Sufi saints.</li><li>**Khanqah**: The abode of Sufis.</li><li>During the 13th century, Sufism was divided into 14 silsilas (branches) in India.</li></ul><h4>The Chistis</h4><ul><li>Founder: Khwaza Abu-e-Chisti.</li><li>Popularised in India by Moin-ud-din Chisti. His tomb is in Ajmer, Rajasthan.</li><li>Main disciple of Moin-ud-din: Khwaza Qutub-ud-din Bakhtiyar Kaki (Qutub Minar was named after him).</li><li>Famous saint Nizam-ud-din Auliya saw the reign of seven Delhi Sultans. He was also known as Mahboob-i-Ilahi (beloved of God) and Sultan-ul-Auliya (king of the saints). His tomb is in Delhi.</li><li>Sheikh Nasir-ud-din (Chirag-i-Delhi) was a disciple of Mahboob-i-Illahi.</li><li>Amir Khusrau and Al-Biruni were also followers of Chisti.</li></ul><h4>Qadiri Silsila</h4><ul><li>Founder in India: Sheikh Mohi-ud-din Qadir Zilani.</li><li>Popularised by Shah Nizamat Ullah and Makhdum Zilani.</li><li>Dara Shikoh (son of Shah Jahan) was a disciple of Mullah Shah Badakshi.</li><li>Dara Shikoh wrote the biographies of saints: Safinat-ul-Auliya and Sakinat-ul-Auliya.</li><li>Dara Shikoh also translated books such as Sir-e-Akbar and Sir-e-Asrar.</li></ul><h4>Naqshabandi Silsila</h4><ul><li>Founder in India: Khwaza Baha-ud-din Naqshabandi.</li><li>Popularised by Khwaza Khwand Mahmud, whose centre was in Kashmir.</li><li>Other saints: Baqi-Billah, Shahwali ullah, Khwaza Mir Dard Naqshaband.</li><li>Mir Dard wrote Dard-e-Dil, Sham-e-Mahfil, and Ilm-ul-Khitab.</li></ul><h4>Other Famous Silsilah</h4><ul><li>Firdausi, Quadiri, Satari, etc.</li></ul><h3>Bhakti Movement</h3><ul><li>Bhakti is a devotional worship of God with the ultimate objective of attaining Moksha (Salvation).</li><li>Initially, the Bhakti Movement started in South India in the form of Alvars and Nayanars.</li><li>Gradually, the Bhakti Movement spread to North India, flourishing in the 13th century.</li><li>Bhakti saints were against casteism, ritualism, and religious sacrifices.</li><li>They professed equal participation of women in religious practices.</li><li>These saints used local dialects to promote their ideas and communicate with the masses.</li><li>The Bhakti Movement is divided into two branches: Nirguna and Saguna.</li></ul><h4>Nirguna Saints</h4><ul><li>**Guru Nanak**<ul><li>Born at Talwandi in Lahore.</li><li>Propagated Monotheism, Hindu-Muslim unity, and denounced idol worship.</li><li>His disciple Mardana played Rabas.</li><li>He established the Sikh religion.</li><li>His teachings are found in Guru Granth Sahib.</li></ul></li><li>**Dadu Dayal**<ul><li>Born in Ahmedabad to Muslim parents, brought up by a Hindu.</li><li>His teachings are collected in a book called Bani.</li><li>His disciples were Sundaradasa, Rajjab, Bakham, and Warid.</li><li>He founded the Brahma sect or Param Brahma Sampradaya.</li></ul></li><li>**Kabir**<ul><li>Opposed to caste, creed, and idol worship.</li><li>Propagated Hindu-Muslim unity.</li><li>His works include Sabada Doha, Holi, Rekhtal, etc.</li><li>Verses of Kabir, Namdev, Ravidas, Dhanna, Pipa, etc., were included in Adi Granth.</li></ul></li></li></ul>
-
-<!-- SOURCE: chunk_008.txt | TOPIC: Medieval India - The Marathas -->
-<h3>The Marathas</h3>
-<h4>Shivaji (1627-1680)</h4>
-<ul>
-  <li>Creator of the Maratha nation, he united Maratha chiefs from Malwa, Konkan, and Desh regions to establish a kingdom.</li>
-  <li>Born in 1627 in the hill fort of Shivner.</li>
-  <li>Took control of his hereditary Jagir in 1647 after the death of his guardian Konadev.</li>
-  <li>Began his military career at a young age, capturing the fort of Toran in 1656.</li>
-  <li>From 1656, he started capturing many other forts from the local officers of Bijapur.</li>
-  <li>Raided Bijapur, leading Ali Adil Shah of Bijapur to send his General Afzal Khan to capture Shivaji. Shivaji killed Afzal Khan using a weapon called Baghnakh (tiger's claw).</li>
-  <li>Began attacking Mughal territories. Aurangzeb sent Shaista Khan, the Viceroy of the Deccan, against him. Shaista Khan captured Poona, but Shivaji outwitted the Mughals in 1663.</li>
-  <li>Aurangzeb then sent Prince Muazzam, and upon his failure, Mirza Raja Jai Singh of Amber was dispatched. Raja Jai Singh won victories and besieged Shivaji in Purandhar in 1665.</li>
-  <li>At Jai Singh's persuasion, Shivaji visited the Mughal Court of Agra but was detained. He escaped in 1666 and resumed his conquests.</li>
-  <li>In 1674, Shivaji made Raigarh his capital, celebrated his coronation, and assumed the title of 'Chhatrapati'.</li>
-  <li>Died in 1680 at the age of 53.</li>
-</ul>
-<h4>Shivaji's Successors</h4>
-<ul>
-  <li><strong>Sambhaji:</strong> Shivaji's son, ascended the throne despite a hostile faction supporting his step-brother Rajaram. His raiding of Mughal territories and sheltering of Akbar II (Aurangzeb's rebel son) led Aurangzeb to capture and execute him in 1689.</li>
-  <li><strong>Rajaram:</strong> Crowned King after Sambhaji. He created the new post of Pratinidhi, increasing the total number of ministers to nine.</li>
-  <li><strong>Tara Bai:</strong> Rajaram's widow, ascended the throne after his death.</li>
-  <li><strong>Shahu:</strong> Sambhaji's son, released from Mughal captivity in 1707. He had to contend with his aunt Tara Bai for the Maratha throne. The period of Peshwa domination began during his reign.</li>
-</ul>
-<h4>Ashta Pradhan (Council of Ministers)</h4>
-<table>
-  <thead>
-    <tr>
-      <th>Post</th>
-      <th>Responsibility</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Peshwa or Mukhya Pradhan</td>
-      <td>Prime Minister, looked after general administration, later assumed great importance.</td>
-    </tr>
-    <tr>
-      <td>Pratinidhi</td>
-      <td>New post created by Rajaram, increasing ministers to nine.</td>
-    </tr>
-    <tr>
-      <td>Amatya or Majumdar</td>
-      <td>Accountant general, later became Revenue and Finance Minister.</td>
-    </tr>
-    <tr>
-      <td>Sachiv or Surunavis (Surnis)</td>
-      <td>Also called Chitnis, looked after royal correspondence.</td>
-    </tr>
-    <tr>
-      <td>Sumant or Dabir</td>
-      <td>Foreign affairs and master of royal ceremonies.</td>
-    </tr>
-    <tr>
-      <td>Senapati or Sar-i-Naubat</td>
-      <td>Military Commander, looked after recruitment, training, and discipline of the army.</td>
-    </tr>
-    <tr>
-      <td>Mantri or Waqianavis</td>
-      <td>Personal safety of the king, looked after intelligence, posts, and household affairs.</td>
-    </tr>
-    <tr>
-      <td>Nyayadhish</td>
-      <td>Administration of justice.</td>
-    </tr>
-    <tr>
-      <td>Pundit Rao</td>
-      <td>Looked after charitable and religious affairs of the state, worked for the moral upliftment of the people.</td>
-    </tr>
-  </tbody>
-</table>
-<h4>Maratha Confederacy / Kingdoms</h4>
-<table>
-  <thead>
-    <tr>
-      <th>Kingdom</th>
-      <th>Territory</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Scindia</td>
-      <td>Gwalior</td>
-    </tr>
-    <tr>
-      <td>Holkar</td>
-      <td>Indore</td>
-    </tr>
-    <tr>
-      <td>Pawar</td>
-      <td>Dhar</td>
-    </tr>
-    <tr>
-      <td>Gaekwad</td>
-      <td>Baroda</td>
-    </tr>
-    <tr>
-      <td>Bhonsle</td>
-      <td>Nagpur</td>
-    </tr>
-    <tr>
-      <td>Peshwa</td>
-      <td>Puna</td>
-    </tr>
-  </tbody>
-</table>
-<h4>Revenue Administration (Shivaji)</h4>
-<ul>
-  <li>Shivaji abolished the Jagirdari system and replaced it with the Ryotwari system.</li>
-  <li>He brought about changes in the position of hereditary revenue officials like Deshmukhs, Deshpandes, Patils, and Kulkarnis.</li>
-  <li>Shivaji strictly supervised the Mirasdars (those with hereditary rights in land).</li>
-  <li>He considerably reduced the powers of these officials through close supervision and strict collection of revenue.</li>
-  <li>The appointment of revenue officials (Subahdars or Karkuns) in charge of revenue administration of Prants helped establish a strong revenue system.</li>
-  <li>The revenue system was patterned on the Kathi system of Malik Ambar, where land was carefully measured with a measuring rod (kathi).</li>
-  <li>Revenue assessment was made after a careful survey and classification of lands based on quality and yield.</li>
-  <li>The state's share was fixed at two-fifths of the gross produce.</li>
-  <li>Cultivators had the option of paying either in cash or kind.</li>
-  <li>A new revenue assessment was completed by Annaji Datto in AD 1679.</li>
-</ul>
-<h4>The Peshwas</h4>
-<ul>
-  <li>The period of Peshwa domination in Maratha history began during Shahu's reign.</li>
-  <li><strong>Balaji Vishwanath:</strong> Appointed Peshwa by King Shahu in 1713. He was an able administrator and an excellent diplomat.</li>
-  <li><strong>Baji Rao I:</strong> Son of Balaji Vishwanath, served as Peshwa from 1720 to 1740. During his tenure, the Maratha kingdom was transformed into an empire.</li>
-  <li><strong>Balaji Baji Rao:</strong> Succeeded Baji Rao I and was formally made the head of the state after King Shahu's death in 1749.</li>
-  <li>During Balaji Baji Rao's reign, the Maratha empire expanded further, and the Maratha Army overran Delhi.</li>
-  <li>The Marathas came into conflict with Ahmed Shah Abdali of Afghanistan, leading to the Third Battle of Panipat in 1761.</li>
-  <li>In the Third Battle of Panipat, the Maratha Army was completely routed, and the Peshwa's son, Vishwas Rao, and Sadashiva Rao Bhau were killed.</li>
-  <li>After the Third Battle of Panipat, four semi-independent Maratha states emerged: Baroda (ruled by Gaikwad), Nagpur (ruled by Bhonsle), Indore (ruled by Holkar), and Gwalior (ruled by Scindhia). The Peshwa continued to rule from Poona.</li>
-  <li><strong>Baji Rao II:</strong> The last Peshwa. He signed the Treaty of Bassein in 1802, entering into a subsidiary alliance with the British, which led to the gradual diminution of the Maratha kingdom.</li>
-</ul>
-
-<!-- SOURCE: chunk_011.txt | TOPIC: Modern India - Key Events, Viceroys, and Land Revenue Systems -->
-<h1>Modern India - Key Events, Viceroys, and Land Revenue Systems</h1>`;
-
-EXPANDED_NOTES_DATA["vijayanagara-empire"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>The Vijayanagara Empire (1336‑1646) – Detailed Notes</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87; border-bottom:2px solid #2E3A87; padding-bottom:5px;}
-        h3 {color:#3B4F9E; margin-top:30px;}
-        h4 {color:#4A6BB0;}
-        table {border-collapse:collapse; width:100%; margin-top:15px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>🏛️ The Vijayanagara Empire (1336 – 1646)</h2>
-    <p>The Vijayanagara Empire was the most powerful Hindu kingdom of Southern India, serving as a cultural and military bulwark against the expansionist ambitions of the northern Deccan Sultanates. Its legacy endures in architecture, literature, and the socio‑political fabric of South India.</p>
-
-    <h3>1. Geographic Extent</h3>
-    <p>At its zenith, the empire stretched from the <strong>southern tip of the Indian peninsula</strong> to the banks of the <em>Krishna</em> and <em>Kaveri</em> rivers, encompassing present‑day Karnataka, Andhra Pradesh, Tamil Nadu, Kerala, and parts of Maharashtra and Telangana. The capital, <strong>Hampi</strong>, lay on the southern bank of the Tungabhadra River, strategically positioned on a plateau surrounded by rocky hills.</p>
-
-    <h3>2. Dynastic Chronology</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Dynasty</th>
-                <th>Period (CE)</th>
-                <th>Key Rulers</th>
-                <th>Notable Achievements</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Sangama</td>
-                <td>1336 – 1485</td>
-                <td>Harihara I, Bukka I, Deva Raya I, Deva Raya II</td>
-                <td>Founding of the empire; consolidation of the Deccan plateau; patronage of early temple architecture.</td>
-            </tr>
-            <tr>
-                <td>Saluva</td>
-                <td>1485 – 1505</td>
-                <td>Saluva Narasimha Deva Raya, Narasimha Raya II</td>
-                <td>Military reforms; expansion into the eastern coast; introduction of the “Saluva” administrative system.</td>
-            </tr>
-            <tr>
-                <td>Tuluva</td>
-                <td>1505 – 1570</td>
-                <td>Krishnadevaraya, Achyuta Deva Raya, Ramaraya (Saluva) </td>
-                <td>Golden Age of literature, art, and architecture; diplomatic ties with the Portuguese; victory at the Battle of Raichur (1520).</td>
-            </tr>
-            <tr>
-                <td>Aravidu</td>
-                <td>1570 – 1646</td>
-                <td>Aliya Rama Raya, Tirumala Deva Raya, Venkatapati Raya</td>
-                <td>Attempts at revival after Talikota; eventual decline and migration to Penukonda and Chandragiri.</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h3>3. Administration & Governance</h3>
-    <ul>
-        <li><strong>Central Authority:</strong> The emperor (Mahārāja) wielded supreme power, aided by a council of ministers (Mantri) and a secretariat (Purohita, Dandanayaka).</li>
-        <li><strong>Provincial Division:</strong> The empire was divided into <em>Rajyas</em> (provinces) and <em>Vishayas</em> (districts). Each was overseen by a <strong>Viceroy (Nayaka)</strong> who collected revenue and maintained troops.</li>
-        <li><strong>Revenue System:</strong> Land tax (Bali) was assessed based on fertility and irrigation. The <em>Shastras</em> (e.g., <em>Vijayanagara Shasana</em>) codified tax rates and exemptions for temples and Brahmins.</li>
-        <li><strong>Judicial Mechanism:</strong> Civil and criminal cases were adjudicated by appointed judges (Dyus). Appeals could be made directly to the royal court.</li>
-    </ul>
-
-    <h3>4. Economy & Trade</h3>
-    <ul>
-        <li><strong>Agriculture:</strong> Rice, millets, cotton, and sugarcane formed the agrarian base. Extensive irrigation works (tanks, canals) were built under royal patronage.</li>
-        <li><strong>Commerce:</strong> Hampi’s market (the “Mahanavami” fair) attracted merchants from Persia, Arabia, and Europe. Export commodities included spices, textiles (muslin, silk), and precious stones.</li>
-        <li><strong>Currency:</strong> Gold and silver coins bearing the emperor’s portrait circulated alongside copper “fanams”.</li>
-        <li><strong>Urban Centers:</strong> Besides Hampi, major cities such as <em>Udupi, Mysore, Madurai, and Goa</em> thrived as trade hubs.</li>
-    </ul>
-
-    <h3>5. Society, Culture & Religion</h3>
-    <ul>
-        <li><strong>Social Structure:</strong> Society was organized around the traditional varna system, but the empire displayed relative flexibility, allowing upward mobility for skilled artisans and merchants.</li>
-        <li><strong>Religion:</strong> Predominantly Hindu (Vaishnavism and Shaivism), with significant patronage to temples. Jainism and Islam coexisted, reflected in the presence of Jain basadis and Muslim quarters.</li>
-        <li><strong>Patronage of Arts:</strong> The court became a crucible for literature, music, and dance. The famed “<em>Ashtadiggajas</em>” – eight eminent Telugu poets – flourished under Krishnadevaraya.</li>
-    </ul>
-
-    <h4>5.1. Literary Achievements</h4>
-    <ul>
-        <li><strong>Krishnadevaraya:</strong> Authored <em>Amuktamalyada</em> (Telugu treatise on dharma and statecraft) and <em>Jambavati Kalyanam</em> (Sanskrit drama).</li>
-        <li><strong>Other Notables:</strong> Tenali Ramakrishna (wit and poetry), Allasani Peddana (epic poetry), and Ramarajabhushanudu (lyricist).</li>
-    </ul>
-
-    <h3>6. Art, Architecture & Urban Planning</h3>
-    <ul>
-        <li><strong>Temple Architecture:</strong> Fusion of Dravidian and Indo‑Islamic motifs. Iconic structures include the <em>Vittala Temple</em> (musical pillars), <em>Hazara Rama Temple</em>, and the <em>Lotus Mahal</em>.</li>
-        <li><strong>Secular Buildings:</strong> Royal palaces, audience halls (Mahanavami Dibba), and fortified walls (the “Stone Fort” of Hampi).</li>
-        <li><strong>Urban Layout:</strong> The capital was organized into distinct zones – the royal enclosure, the market area, the residential quarters, and the sacred precinct.</li>
-    </ul>
-
-    <h3>7. Military Organization</h3>
-    <ul>
-        <li><strong>Core Forces:</strong> Infantry (archers, spearmen), cavalry (horsemen equipped with lances), and war elephants.</li>
-        <li><strong>Naval Component:</strong> A modest fleet operated on the coastal lagoons of the Bay of Bengal, facilitating trade and coastal defense.</li>
-        <li><strong>Strategic Innovations:</strong> Use of gunpowder artillery (introduced by the Portuguese) and fortified hill forts for defensive depth.</li>
-    </ul>
-
-    <h3>8. Foreign Relations & Diplomacy</h3>
-    <ul>
-        <li><strong>Portuguese Alliance:</strong> Krishnadevaraya maintained cordial ties with Afonso de Albuquerque, securing trade privileges and military technology.</li>
-        <li><strong>Deccan Sultanates:</strong> Relations oscillated between warfare and temporary alliances; the decisive Battle of Talikota (1565) marked a turning point.</li>
-        <li><strong>Other Contacts:</strong> Envoys from the Ottoman Empire, Safavid Persia, and the Mughal court visited the capital, underscoring Vijayanagara’s pan‑regional importance.</li>
-    </ul>
-
-    <h3>9. Decline & Fall</h3>
-    <ul>
-        <li><strong>Battle of Talikota (1565):</strong> A coalition of five Deccan Sultanates (Bijapur, Golconda, Ahmadnagar, Bidar, and Berar) defeated the Vijayanagara army. Rama Raya was captured and executed, leading to the sacking of Hampi.</li>
-        <li><strong>Post‑Talikota Period:</strong> The Aravidu dynasty attempted to revive the empire from secondary capitals (Penukonda, Chandragiri) but never regained former glory.</li>
-        <li><strong>Final Collapse (1646):</strong> Continuous pressure from the Mysore Kingdom, Maratha incursions, and internal strife culminated in the dissolution of the last vestiges of Vijayanagara authority.</li>
-    </ul>
-
-    <h3>10. Legacy & Historical Significance</h3>
-    <ul>
-        <li>Preserved a distinct Hindu cultural identity in South India during a period of Islamic dominance in the north.</li>
-        <li>Architectural marvels of Hampi are UNESCO World Heritage Sites, attracting scholars and tourists worldwide.</li>
-        <li>Literary works from the period continue to influence Telugu, Kannada, and Sanskrit literature.</li>
-        <li>Administrative practices (land revenue assessment, provincial governance) informed later South Indian kingdoms, notably the Mysore and Maratha states.</li>
-    </ul>
-
-    <h3>11. Notable Foreign Travelers (Chronological)</h3>
-    <ul>
-        <li><strong>Niccolò de’ Conti (Italy, c. 1420):</strong> Described the wealth of the capital and the grandeur of its temples.</li>
-        <li><strong>Abd al‑Razzaq (Persia, 1443):</strong> Provided a detailed account of the empire’s military organization and religious tolerance.</li>
-        <li><strong>Domingo Paes (Portugal, 1520):</strong> Noted the flourishing trade, the cosmopolitan nature of Hampi, and the patronage of arts under Krishnadevaraya.</li>
-        <li><strong>Fernão Nunes (Portugal, 1535):</strong> Recorded the aftermath of the Battle of Talikota and the subsequent decline of the empire.</li>
-    </ul>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["bahmani-deccan-sultanates"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bahmani Kingdom & Deccan Sultanates – Detailed Notes</title>
-    <style>
-        body{font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2{color:#2E3A87; margin-top:30px;}
-        h3{color:#3B5AA0; margin-top:20px;}
-        h4{color:#4C6FA0; margin-top:15px;}
-        ul{margin-left:20px;}
-        table{border-collapse:collapse; width:100%; margin-top:15px;}
-        th, td{border:1px solid #bbb; padding:8px; text-align:left;}
-        th{background:#f2f2f2;}
-        .highlight{font-weight:bold; color:#b03060;}
-    </style>
-</head>
-<body>
-
-    <h2>🏰 Bahmani Kingdom & Deccan Sultanates</h2>
-    <p>The Bahmani Kingdom (1347‑1527) was the first major Islamic empire in the Deccan plateau. It emerged as a direct challenge to the Delhi Sultanate and spent more than a century in a relentless rivalry with the Vijayanagara Empire for control of the fertile Raichur Doab. Its eventual fragmentation gave rise to the five Deccan Sultanates, which played a decisive role in the political and cultural landscape of South‑India until the advent of the Mughal Empire.</p>
+window.EXPANDED_NOTES_DATA["bahmani-deccan-sultanates"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🏰 Bahmani Kingdom & Deccan Sultanates</h3>
+<p>The Bahmani Kingdom (1347‑1527) was the first major Islamic empire in the Deccan plateau. It emerged as a direct challenge to the Delhi Sultanate and spent more than a century in a relentless rivalry with the Vijayanagara Empire for control of the fertile Raichur Doab. Its eventual fragmentation gave rise to the five Deccan Sultanates, which played a decisive role in the political and cultural landscape of South‑India until the advent of the Mughal Empire.</p>
 
     <!-- ==================================================== -->
     <!-- 1. Bahmani Kingdom -->
@@ -3801,33 +1661,13 @@ EXPANDED_NOTES_DATA["bahmani-deccan-sultanates"] = `
         <li>Served as a cultural bridge between the Islamic world and the Indian subcontinent, fostering the development of unique Deccani styles in music, literature, and painting.</li>
         <li>Provided the Mughal Empire with a strategic foothold in the Deccan, culminating in the prolonged Mughal‑Deccan wars (late 17th century).</li>
     </ul>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["mughal-empire"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Mughal Empire (1526‑1857) – Detailed Notes</title>
-    <style>
-        body{font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px; color:#2c3e50;}
-        h2{color:#2c3e50; margin-top:30px;}
-        h3{color:#34495e; margin-top:25px;}
-        h4{color:#3b5998; margin-top:20px;}
-        ul{margin-left:20px;}
-        table{border-collapse:collapse; width:100%; margin-top:15px;}
-        th,td{border:1px solid #bbb; padding:8px; text-align:left;}
-        th{background:#f2f2f2;}
-        .note{font-size:0.9em; color:#555;}
-    </style>
-</head>
-<body>
-
-    <h2>👑 The Mughal Empire (1526 – 1857)</h2>
-    <p>The Mughal Empire was founded by Central Asian Turko‑Mongol invaders who, over three centuries, forged one of the most extensive, culturally vibrant, and administratively sophisticated polities in Indian history. Its legacy endures in language, architecture, art, law, and the very fabric of South‑Asian society.</p>
+window.EXPANDED_NOTES_DATA["mughal-empire"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">👑 The Mughal Empire (1526 – 1857)</h3>
+<p>The Mughal Empire was founded by Central Asian Turko‑Mongol invaders who, over three centuries, forged one of the most extensive, culturally vibrant, and administratively sophisticated polities in Indian history. Its legacy endures in language, architecture, art, law, and the very fabric of South‑Asian society.</p>
 
     <!-- 1. Chronology of Rulers -->
     <h3>1. Chronology of Rulers and Their Principal Achievements</h3>
@@ -4040,30 +1880,12 @@ EXPANDED_NOTES_DATA["mughal-empire"] = `
     <p>Despite its political demise, the Mughal Empire left an indelible imprint on South Asian art, architecture, language, cuisine, and administrative practices that continue to shape modern India, Pakistan, and Bangladesh.</p>
 
     <p class="note"><strong>Note:</strong> All dates are given in the Gregorian calendar unless otherwise specified.</p>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["marathas"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Maratha Empire – Detailed Notes</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87;}
-        h3 {color:#3A5A9C; margin-top:30px;}
-        ul {margin-left:20px;}
-        table {border-collapse:collapse; width:100%; margin-top:15px;}
-        th, td {border:1px solid #999; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-    </style>
-</head>
-<body>
-
-<h2>⚔️ The Maratha Empire</h2>
+window.EXPANDED_NOTES_DATA["marathas"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">⚔️ The Maratha Empire</h3>
 <p>The Marathas emerged from the rugged Deccan plateau to become a decisive force that challenged Mughal hegemony and eventually exerted political and military influence over most of North India. Their rise was marked by innovative administration, a flexible revenue system, and a series of charismatic leaders who combined guerrilla tactics with conventional warfare.</p>
 
 <h3>1. Chhatrapati Shivaji Maharaj (1627 – 1680)</h3>
@@ -4252,30 +2074,13 @@ EXPANDED_NOTES_DATA["marathas"] = `
     <li>Their naval initiatives laid the groundwork for later Indian maritime enterprises.</li>
     <li>Even after political decline, Maratha cultural and linguistic contributions continued to shape the socio‑political fabric of western and central India.</li>
 </ul>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["sikh-history"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Sikh History & Gurus – Detailed Notes</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2, h3, h4 {color:#2c3e50;}
-        table {border-collapse:collapse; width:100%; margin-top:10px;}
-        th, td {border:1px solid #bbb; padding:8px; text-align:left;}
-        th {background:#ecf0f1;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-    <h2>☬ Sikh History & Gurus</h2>
-
-    <p>Sikhism originated in the early 16th century as a reformist Bhakti movement that emphasized devotion to one God, equality, and social justice. Over the next three centuries, the community transformed from a peaceful devotional fellowship into a militarized polity capable of confronting Mughal oppression and later British imperialism.</p>
+window.EXPANDED_NOTES_DATA["sikh-history"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">☬ Sikh History & Gurus</h3>
+<p>Sikhism originated in the early 16th century as a reformist Bhakti movement that emphasized devotion to one God, equality, and social justice. Over the next three centuries, the community transformed from a peaceful devotional fellowship into a militarized polity capable of confronting Mughal oppression and later British imperialism.</p>
 
     <h3>1. Evolution of Sikhism</h3>
     <p><strong>Key Phases</strong></p>
@@ -4485,29 +2290,12 @@ EXPANDED_NOTES_DATA["sikh-history"] = `
         <li>Ranjit Singh’s model of secular governance and military professionalism is studied in both Indian and international strategic circles.</li>
         <li>The Anglo‑Sikh Wars illustrate the dynamics of colonial expansion, resistance, and the eventual integration of a vibrant polity into a larger empire.</li>
     </ul>
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["bhakti-movement"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bhakti Movement – Detailed Notes</title>
-    <style>
-        body {font-family: Arial, sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87;}
-        h3 {color:#3A5A9C;}
-        h4 {color:#4A7ABF;}
-        table {border-collapse:collapse; width:100%; margin-top:10px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-    </style>
-</head>
-<body>
-
-<h2>🙏 The Bhakti Movement</h2>
+window.EXPANDED_NOTES_DATA["bhakti-movement"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🙏 The Bhakti Movement</h3>
 <p>A pan‑Indian medieval socio‑religious reform movement that emphasized <strong>personal devotion (bhakti)</strong> to a personal deity as the sole means to attain salvation. It challenged the authority of priestly intermediaries, the rigidity of caste hierarchies, and ritualistic orthodoxy, thereby democratizing spiritual practice.</p>
 
 <h3>1. Origins & Early Development</h3>
@@ -4667,63 +2455,13 @@ EXPANDED_NOTES_DATA["bhakti-movement"] = `
     <li>Its egalitarian ethos informs contemporary social justice movements, especially those advocating for Dalit rights and gender equality.</li>
     <li>Many of the Bhakti saints are commemorated in Indian popular culture—films, television series, and literary anthologies—ensuring their teachings remain alive in the public imagination.</li>
 </ul>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["sufi-movement"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Sufi Movement in India – Detailed Notes</title>
-    <style>
-        body{
-            font-family:Arial,Helvetica,sans-serif;
-            line-height:1.6;
-            margin:20px;
-            color:#2c3e50;
-        }
-        h2{
-            color:#2c3e50;
-            border-bottom:2px solid #e0e0e0;
-            padding-bottom:5px;
-        }
-        h3{
-            color:#34495e;
-            margin-top:30px;
-        }
-        h4{
-            color:#3b5998;
-            margin-top:20px;
-        }
-        ul{
-            margin-left:20px;
-        }
-        table{
-            border-collapse:collapse;
-            width:100%;
-            margin-top:15px;
-        }
-        th, td{
-            border:1px solid #ccc;
-            padding:8px;
-            text-align:left;
-        }
-        th{
-            background:#f9f9f9;
-        }
-        .note{
-            font-style:italic;
-            color:#555;
-        }
-    </style>
-</head>
-<body>
-
-    <h2>✨ The Sufi Movement</h2>
-    <p>The mystical dimension of Islam that seeks a direct, experiential union with the Divine through love, devotion, and inner purification. In the Indian sub‑continent, Sufism became a powerful social and cultural force, shaping religious practices, literature, architecture, and politics from the early medieval period to the colonial era.</p>
+window.EXPANDED_NOTES_DATA["sufi-movement"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">✨ The Sufi Movement</h3>
+<p>The mystical dimension of Islam that seeks a direct, experiential union with the Divine through love, devotion, and inner purification. In the Indian sub‑continent, Sufism became a powerful social and cultural force, shaping religious practices, literature, architecture, and politics from the early medieval period to the colonial era.</p>
 
     <h3>1. Core Concepts of Indian Sufism</h3>
     <ul>
@@ -4864,32 +2602,13 @@ EXPANDED_NOTES_DATA["sufi-movement"] = `
     <p>The Sufi tradition continues to shape India’s religious landscape. Dargahs serve as living museums of Indo‑Islamic art, while Sufi poetry in Urdu, Punjabi, and regional languages remains a cornerstone of South Asian literary heritage. Moreover, the inclusive ethos of the Chishti order offers a model for inter‑faith dialogue in a pluralistic society.</p>
 
     <p class="note">*For UPSC and Defence examinations, focus on the distinct doctrinal positions of each order, their interaction with ruling powers, and the socio‑cultural impact of their major shrines.*</p>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["european-arrival"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>European Entry and the Foundations of British Rule in India</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87; margin-top:30px;}
-        h3 {color:#3B5AA0; margin-top:20px;}
-        h4 {color:#4C6EB5; margin-top:15px;}
-        table {border-collapse:collapse; width:100%; margin-top:10px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul, ol {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>🚢 European Entry and British Expansion</h2>
-    <p>The quest for Asian spices, textiles and precious metals drove several European maritime powers to the Indian sub‑continent from the late 15th century onward. What began as isolated trading factories soon evolved into political footholds, setting the stage for colonial domination, especially by the British East India Company (EIC).</p>
+window.EXPANDED_NOTES_DATA["european-arrival"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🚢 European Entry and British Expansion</h3>
+<p>The quest for Asian spices, textiles and precious metals drove several European maritime powers to the Indian sub‑continent from the late 15th century onward. What began as isolated trading factories soon evolved into political footholds, setting the stage for colonial domination, especially by the British East India Company (EIC).</p>
 
     <h3>1. Chronology of European Arrival (Mnemonic: <em>PEDDF</em>)</h3>
 
@@ -5048,32 +2767,13 @@ EXPANDED_NOTES_DATA["european-arrival"] = `
 
     <h3>5. Legacy for Modern India</h3>
     <p>The European incursions, especially the British conquest, reshaped India’s political geography, introduced new administrative practices, and laid the economic foundations that would later influence the independence movement. Understanding the sequence of arrivals, the pivotal battles, and the administrative reforms is essential for grasping the transition from a mosaic of regional kingdoms to a colonially administered entity.</p>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["governor-generals-viceroys"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Governor‑Generals & Viceroys of British India (1773‑1947)</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87; margin-top:40px;}
-        h3 {color:#3A6EA5; margin-top:30px;}
-        table {width:100%; border-collapse:collapse; margin-top:15px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-left:20px;}
-        .note {font-size:0.9em; color:#555;}
-    </style>
-</head>
-<body>
-
-    <h2>Governor‑Generals & Viceroys of British India</h2>
-    <p>The administrative heads of British rule in India who formulated expansionist, fiscal and social‑reform policies. Their actions shaped the political, economic and cultural landscape of the sub‑continent and continue to be high‑yield topics for UPSC and Defence examinations.</p>
+window.EXPANDED_NOTES_DATA["governor-generals-viceroys"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Governor‑Generals & Viceroys of British India</h3>
+<p>The administrative heads of British rule in India who formulated expansionist, fiscal and social‑reform policies. Their actions shaped the political, economic and cultural landscape of the sub‑continent and continue to be high‑yield topics for UPSC and Defence examinations.</p>
 
     <!-- 1. Governor‑Generals of Bengal (1773‑1833) -->
     <h3>1. Governor‑Generals of Bengal (1773‑1833)</h3>
@@ -5363,262 +3063,13 @@ EXPANDED_NOTES_DATA["governor-generals-viceroys"] = `
   <li>The last Governor-General of free India (the first being Mountbatten).</li>
   <li>The only Indian Governor-General, remained in office till January, 1950.</li>
 </ul>
-
-
-</body>
-</html>
-
-<hr style="margin: 20px 0; border-color: #ddd;">
-<h2>Detailed Expansion (Pathfinder Extracted)</h2>
-<h3>Lord Irwin (AD 1926-1931)</h3>
-<ul>
-  <li><strong>Harcourt Butler Indian States Commission:</strong> Appointed in 1927.</li>
-  <li><strong>Simon Commission:</strong> Visited India in 1928 and was boycotted by Indians.</li>
-  <li><strong>All-Parties Conference:</strong> Held at Lucknow in 1928 to suggest a future Constitution of India. Its report was known as the Nehru Report or the Nehru Constitution.</li>
-  <li><strong>Revolutionary Activities (1929):</strong> Included the murder of Saunders (Assistant Superintendent of Police of Lahore), a bomb blast in the Assembly Hall of Delhi, the Lahore Conspiracy Case, and a bomb accident in a train in Delhi.</li>
-</ul>
-<hr>
-<h3>Lord Willingdon (AD 1931-1936)</h3>
-<ul>
-  <li><strong>Second Round Table Conference:</strong> Held in 1931, which failed, leading to the resumption of the Civil Disobedience Movement.</li>
-  <li><strong>Communal Award:</strong> Announced in 1932, establishing separate communal electorates.</li>
-  <li><strong>Poona Pact:</strong> Followed Gandhiji's 'Fast unto death' in Yervada prison, broken after the Poona Pact in 1932.</li>
-  <li><strong>Third Round Table Conference:</strong> Held in 1932.</li>
-  <li><strong>Government of India Act:</strong> Passed in 1935.</li>
-  <li><strong>Separation of Burma:</strong> Burma was separated from India in 1935.</li>
-  <li><strong>All India Kisan Sabha:</strong> Established in 1936.</li>
-  <li><strong>Congress Socialist Party:</strong> Formed by Acharya Narendra Dev and Jaya Prakash Narayan in 1934.</li>
-</ul>
-<hr>
-<h3>Lord Linlithgow (AD 1936-1944)</h3>
-<ul>
-  <li><strong>First General Elections:</strong> Held in 1936-37, where Congress attained an absolute majority in 6 states.</li>
-  <li><strong>Resignation of Congress Ministries:</strong> Occurred after the outbreak of World War II in 1939.</li>
-  <li><strong>Subhash Chandra Bose:</strong> Escaped from India in 1941 and organized the Indian National Army (INA).</li>
-  <li><strong>Cripps Mission:</strong> The Cripps Plan offered dominion status to India and proposed setting up a Constituent Assembly, but it was rejected by the Congress.</li>
-  <li><strong>Quit India Movement:</strong> The 'Quit India Resolution' was passed by the Congress in 1942, leading to the outbreak of the 'August Revolution' or Revolt of 1942 after the arrest of national leaders.</li>
-</ul>
-<hr>
-<h3>Lord Wavell (AD 1944-1947)</h3>
-<ul>
-  <li><strong>Wavell Plan and Shimla Conference:</strong> Held in 1945 (Source states 1942, but historical context points to 1945 for Wavell Plan and Shimla Conference).</li>
-  <li><strong>C. Rajagopalachari's CR Formula:</strong> Proposed in 1944.</li>
-  <li><strong>Gandhi-Jinnah Talks:</strong> Failed in 1944.</li>
-  <li><strong>End of World War II:</strong> Occurred in 1945.</li>
-  <li><strong>Cabinet Mission Plan:</strong> Proposals made in 1946 and accepted by the Congress.</li>
-  <li><strong>Direct Action Day:</strong> Observed on 16th August, 1946 (Source states 1948, but historical context points to 1946) by the Muslim League.</li>
-  <li><strong>Announcement of End of British Rule:</strong> Made by Clement Attlee (Prime Minister of England) on 20th February, 1947.</li>
-</ul>
-<hr>
-<h3>Lord Mountbatten (AD March 1947-August 1947)</h3>
-<ul>
-  <li>Last Governor-General of India.</li>
-  <li><strong>Indian Independence Bill:</strong> Introduced in the House of Commons.</li>
-  <li><strong>India Independence Act:</strong> Passed by the British Parliament on 4th July, 1947, leading to India's independence on 15th August, 1947.</li>
-</ul>
-<hr>
-<h3>C. Rajagopalachari (AD 1948-1950)</h3>
-<ul>
-  <li>The last Governor-General of free India (the first being Mountbatten).</li>
-  <li>The only Indian Governor-General, remained in office till January, 1950.</li>
-</ul>`;
-
-EXPANDED_NOTES_DATA["constitutional-development"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Constitutional Development – India (British Period)</title>
-    <style>
-        body {font-family: Arial, sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3B55;}
-        h3 {color:#3A5A9C; margin-top:30px;}
-        table {width:100%; border-collapse:collapse; margin-top:15px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-top:5px;}
-    </style>
-</head>
-<body>
-
-    <h2>📜 Constitutional Development</h2>
-    <p>The constitutional evolution of British India was a gradual process of legislative interventions by the British Parliament. Each Act reflected the changing priorities of the Crown—ranging from commercial control to administrative centralisation, and finally to limited self‑governance. The following sections detail the major statutes, their salient features, and their impact on the Indian polity.</p>
-
-    <!-- Company Regulation Acts -->
-    <section>
-        <h3>1. Company Regulation Acts (1773‑1853)</h3>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Year / Act</th>
-                    <th>Key Provisions</th>
-                    <th>Significance for Constitutional Development</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Regulating Act, 1773</strong></td>
-                    <td>
-                        <ul>
-                            <li>First Parliamentary attempt to supervise the East India Company (EIC).</li>
-                            <li>Established a Governor‑General of Bengal (later Governor‑General of India) and a council of four members.</li>
-                            <li>Created the Supreme Court at Calcutta for civil and criminal jurisdiction.</li>
-                        </ul>
-                    </td>
-                    <td>Introduced a dual system of authority – the Company retained commercial powers while the Governor‑General exercised political control, laying the foundation for a British‑styled bureaucracy.</td>
-                </tr>
-
-                <tr>
-                    <td><strong>Pitt’s India Act, 1784</strong></td>
-                    <td>
-                        <ul>
-                            <li>Formed the <em>Board of Control</em> in London to oversee political affairs of the Company.</li>
-                            <li>Divided responsibilities: the Board handled political matters; the Company retained commercial functions.</li>
-                        </ul>
-                    </td>
-                    <td>Institutionalised the principle of “dual control,” a precursor to later Crown‑directed administration.</td>
-                </tr>
-
-                <tr>
-                    <td><strong>Charter Act, 1813</strong></td>
-                    <td>
-                        <ul>
-                            <li>Ended the Company’s monopoly over trade in India (except tea and China trade).</li>
-                            <li>Authorized the entry of Christian missionaries and promoted education.</li>
-                        </ul>
-                    </td>
-                    <td>Marked the shift from a purely commercial enterprise to a political entity with a growing role in social reforms.</td>
-                </tr>
-
-                <tr>
-                    <td><strong>Charter Act, 1833</strong></td>
-                    <td>
-                        <ul>
-                            <li>Terminated all commercial activities of the Company; it became a purely administrative body.</li>
-                            <li>Elevated the Governor‑General of Bengal to <strong>Governor‑General of India</strong> (Lord Bentinck).</li>
-                            <li>Established a law‑making council with limited Indian representation.</li>
-                        </ul>
-                    </td>
-                    <td>Consolidated political authority under a single Governor‑General, paving the way for a unified administrative structure.</td>
-                </tr>
-
-                <tr>
-                    <td><strong>Charter Act, 1853</strong></td>
-                    <td>
-                        <ul>
-                            <li>Separated legislative and executive functions of the Governor‑General’s Council.</li>
-                            <li>Opened the Indian Civil Service (ICS) to Indians (though entry remained highly restricted).</li>
-                        </ul>
-                    </td>
-                    <td>Introduced the concept of a professional civil service and foreshadowed later demands for greater Indian participation.</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <!-- Crown Administration Acts -->
-    <section>
-        <h3>2. Crown Administration Acts (1858‑1935)</h3>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Year / Act</th>
-                    <th>Principal Features</th>
-                    <th>Impact on Governance & Constitutional Structure</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Government of India Act, 1858</strong></td>
-                    <td>
-                        <ul>
-                            <li>Abolished the East India Company; transferred all powers to the British Crown.</li>
-                            <li>Established the office of <strong>Secretary of State for India</strong> (based in London) assisted by a Council of India.</li>
-                            <li>Created the position of Viceroy (Governor‑General) to represent the Crown in India.</li>
-                        </ul>
-                    </td>
-                    <td>Marked the beginning of direct Crown rule (the “Raj”), centralising authority while retaining a limited advisory role for Indians.</td>
-                </tr>
-
-                <tr>
-                    <td><strong>Indian Councils Act, 1909 (Morley‑Minto Reforms)</strong></td>
-                    <td>
-                        <ul>
-                            <li>Introduced separate electorates for Muslims, legitimising communal representation.</li>
-                            <li>Expanded the Imperial Legislative Council: added 6 elected Indian members and 5 nominated members.</li>
-                            <li>Allowed Indian members to discuss budgetary matters (though no voting rights).</li>
-                        </ul>
-                    </td>
-                    <td>Institutionalised communal politics, sowing the seeds of later demand for separate electorates and communal safeguards.</td>
-                </tr>
-
-                <tr>
-                    <td><strong>Government of India Act, 1919 (Montagu‑Chelmsford Reforms)</strong></td>
-                    <td>
-                        <ul>
-                            <li>Implemented <strong>Dyarchy</strong> in provinces: “Transferred” subjects (education, health, agriculture) under Indian ministers; “Reserved” subjects (law, finance, police) under the Governor.</li>
-                            <li>Created a bicameral central legislature: the Council of State (upper house) and the Legislative Assembly (lower house).</li>
-                            <li>Extended limited franchise based on property, tax, and education qualifications.</li>
-                        </ul>
-                    </td>
-                    <td>First systematic attempt at devolving power to Indians, though the dual system proved administratively cumbersome and politically unsatisfactory.</td>
-                </tr>
-
-                <tr>
-                    <td><strong>Government of India Act, 1935</strong></td>
-                    <td>
-                        <ul>
-                            <li>Proposed an All‑India Federation (never materialised due to princely states’ refusal).</li>
-                            <li>Abolished dyarchy; introduced <strong>Provincial Autonomy</strong> with full responsibility for all subjects.</li>
-                            <li>Established a federal structure with a bicameral central legislature (Council of State & Federal Assembly).</li>
-                            <li>Created the <strong>Federal Court of India</strong> (precursor to the Supreme Court).</li>
-                            <li>Set up the <strong>Reserve Bank of India</strong> as the central monetary authority.</li>
-                            <li>Divided powers into Federal, Provincial, and Concurrent lists – a template later adopted in the Constitution of India.</li>
-                        </ul>
-                    </td>
-                    <td>Provided the most advanced constitutional framework before independence, influencing the post‑1947 Constitution’s federal design, judicial system, and monetary policy.</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <section>
-        <h3>Key Themes Across the Acts</h3>
-        <ul>
-            <li><strong>Gradual Centralisation:</strong> From Company rule to Crown administration, authority increasingly concentrated in the hands of the British Parliament and the Viceroy.</li>
-            <li><strong>Evolution of Representative Institutions:</strong> Early advisory councils gave way to elected legislative bodies, albeit with limited franchise.</li>
-            <li><strong>Communal Representation:</strong> The 1909 Act institutionalised separate electorates, a factor that shaped communal politics up to Partition.</li>
-            <li><strong>Administrative Decentralisation:</strong> Dyarchy (1919) and Provincial Autonomy (1935) reflected attempts to involve Indians in governance, though with varying success.</li>
-            <li><strong>Foundations for Modern Institutions:</strong> The 1935 Act’s Federal Court, RBI, and subject‑list classification directly influenced the Constitution of India (1950).</li>
-        </ul>
-    </section>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["economic-impact-british"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Economic Impact of British Rule</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3B55; border-bottom:2px solid #ccc; padding-bottom:5px;}
-        h3 {color:#3A5A9C; margin-top:30px;}
-        table {width:100%; border-collapse:collapse; margin-top:15px;}
-        th, td {border:1px solid #ddd; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>Economic Impact of British Rule</h2>
-    <p>British colonial policies re‑oriented the Indian economy from a diversified exporter of finished goods to a raw‑material supplier and captive market for British manufactures. This structural shift had long‑lasting repercussions on industry, agriculture, fiscal health and the overall standard of living.</p>
+window.EXPANDED_NOTES_DATA["economic-impact-british"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Economic Impact of British Rule</h3>
+<p>British colonial policies re‑oriented the Indian economy from a diversified exporter of finished goods to a raw‑material supplier and captive market for British manufactures. This structural shift had long‑lasting repercussions on industry, agriculture, fiscal health and the overall standard of living.</p>
 
     <h3>1. Land Revenue Systems Introduced by the British</h3>
     <p>The colonial administration devised three principal systems to extract land revenue. Each system reflected the British objective of maximizing cash‑in‑hand while minimizing administrative costs, but they differed markedly in their mode of settlement, geographic spread and impact on agrarian society.</p>
@@ -5772,510 +3223,13 @@ EXPANDED_NOTES_DATA["economic-impact-british"] = `
 
     <h3>3. Long‑Term Legacy</h3>
     <p>The cumulative effect of these policies left India with a weakened industrial base, a skewed agrarian structure, and a massive external debt to the United Kingdom. Post‑independence planners had to confront these structural imbalances through land‑reform, import‑substitution industrialisation, and the establishment of a mixed‑economy framework.</p>
-
-</body>
-</html>
-
-<hr style="margin: 20px 0; border-color: #ddd;">
-<h2>Detailed Expansion (Pathfinder Extracted)</h2>
-<h3>Land Revenue Systems</h3>
-<h3>Permanent Settlement</h3>
-<ul>
-  <li><strong>Introduction:</strong> Introduced in Bengal, Bihar-Orissa, districts of Banaras, and Northern districts of Madras by Lord Cornwallis in 1793. Sir John Shore planned this settlement.</li>
-  <li><strong>Key Features:</strong>
-    <ul>
-      <li>Declared zamindars as the owners of the land.</li>
-      <li>Zamindars kept 1/11th of the collected revenue, while the British received a fixed share of 10/11th.</li>
-      <li>Zamindars were free to fix the rent rate, often leading to exploitation of tenants.</li>
-      <li>Creation of multi-level ranks of collectors under the zamindar.</li>
-    </ul>
-  </li>
-</ul>
-
-<h3>Ryotwari Settlement</h3>
-<ul>
-  <li><strong>Introduction:</strong> Introduced in Bombay, Madras, and Assam. Recommended by Munro and Charles Reed.</li>
-  <li><strong>Key Features:</strong>
-    <ul>
-      <li>Direct settlement was made between the Government and the Ryots (cultivators).</li>
-      <li>Revenue was based on the quality of the soil and the nature of the crop.</li>
-      <li>Revenue was fixed for a period not exceeding 30 years.</li>
-      <li>Based on the Scientific Rent Theory of Ricardo.</li>
-      <li>Improved the security of the cultivator's position.</li>
-    </ul>
-  </li>
-</ul>
-
-<h3>Mahalwari System</h3>
-<ul>
-  <li><strong>Introduction:</strong> Introduced in the areas of the Ganga valley, North-West Frontier Province (NWFP), parts of Central India, and Punjab.</li>
-  <li><strong>Key Features:</strong>
-    <ul>
-      <li>Revenue settlement was made with the village or estates with landlords.</li>
-      <li>Settlement was made with the village, which maintained a form of common ownership known as 'Bhai Chara', or with 'Mahals' (groups of villages).</li>
-      <li>Revenue was periodically revised.</li>
-    </ul>
-  </li>
-</ul>
-
-<!-- SOURCE: chunk_012.txt | TOPIC: Modern India - Early Gandhian Movements and Nationalist Upsurge -->
-<h3>Early Gandhian Movements and Nationalist Upsurge</h3>
-
-<h4>Champaran Satyagraha (1917)</h4>
-<ul>
-  <li>Mahatma Gandhi established direct contact with ordinary people through tours in rural areas, discussing their concerns in their own language. This was a novel political technique, not previously practiced by educated Congress leaders.</li>
-  <li>For the first time, peasants were drawn into political agitation under a new type of leadership.</li>
-  <li>Gandhi's magnetic personality began to draw multitudes, earning him the titles of 'Mahatma' and the nickname 'Bapu'.</li>
-  <li>Under pressure from the Government of India, the Government of Bihar appointed a committee of enquiry in June 1917.</li>
-  <li>The recommendations of this committee were implemented by the Champaran Agrarian Act of 1917. Gandhi was also a member of this committee.</li>
-  <li>Leaders associated with Gandhiji in this Satyagraha included J.B. Kripalani, Rajendra Prasad, Mahadev Desai, and Narhari Parikh.</li>
-  <li>The book <em>Neel Darpan</em>, written by Dinbandhu Mitra, was based on this movement.</li>
-</ul>
-
-<h4>Ahmedabad Satyagraha (1918)</h4>
-<ul>
-  <li>While Gandhi was in Bihar, Shrimati Anasuyabai informed him about the poor conditions of workers in Ahmedabad mills and requested his intervention.</li>
-  <li>The severe plague of 1917-18 led to a significant decline in the number of workers in Ahmedabad. To attract workers, mill owners initially paid 75% of wages as a 'plague bonus'.</li>
-  <li>The situation worsened when mill owners declared a lockout on February 22, 1918.</li>
-  <li>Mahatma Gandhi intervened in the dispute between workers and mill owners, undertaking a fast unto death to compel a compromise.</li>
-  <li>The issue was resolved when mill owners agreed to give 35% of wages as a bonus, which was accepted by the workers.</li>
-</ul>
-
-<h4>Kheda Satyagraha (1918)</h4>
-<ul>
-  <li>This movement is described as the first Non-Cooperation Movement in India.</li>
-  <li>In 1917, most of the kharif crops of farmers in the Kheda district of Gujarat were destroyed due to heavy rains, making them unable to pay land revenue to the government.</li>
-  <li>When the government refused the peasants' demand to remit land revenues, Gandhiji advised them to withhold payment and launch a struggle against the government on March 22, 1918.</li>
-  <li>Gandhiji, along with lieutenants like Vallabhbhai Patel (who became his follower during this Satyagraha) and Indulal Yagnik, toured villages to encourage the peasants.</li>
-</ul>
-
-<h4>Home Rule Leagues (1916)</h4>
-<ul>
-  <li>Inspired by the Irish rebellion, Mrs. Annie Besant (September 1916) and B.G. Tilak (April 1916) established the Home Rule Leagues.</li>
-  <li>B.G. Tilak linked 'Swaraj' with the demand for the formation of linguistic states and education in vernacular languages.</li>
-  <li>Tilak gave the popular slogan: "Freedom is my birth right and I shall have it."</li>
-</ul>
-
-<h4>Lucknow Pact (1916)</h4>
-<ul>
-  <li>The Lucknow session of the Indian National Congress (INC) in 1916 was significant due to two major developments:</li>
-  <li>The re-admission of the extremists, who had been expelled from the INC nine years earlier.</li>
-  <li>The formation of an alliance between the Congress and the Muslim League.</li>
-</ul>
-
-<h4>Rowlatt Act (1919)</h4>
-<ul>
-  <li>The government passed the Rowlatt Act in March 1919.</li>
-  <li>This act empowered the British Government to detain any person without trial.</li>
-  <li>It was regarded as a serious betrayal of the promises made by the government during the World War period.</li>
-</ul>
-
-<h4>Jallianwala Bagh Tragedy (1919)</h4>
-<ul>
-  <li>People were agitating against the arrest of their popular leaders, Dr. Saif-ud-din Kitchlew and Dr. Satyapal.</li>
-  <li>On April 13, 1919, Baisakhi Day, hundreds of people were massacred and several thousand wounded in Jallianwala Bagh, where they had assembled for a protest meeting against the government's repressive policies.</li>
-  <li>Troops led by General Dyer opened fire on the unarmed men, women, young, old, Hindus, and Muslims.</li>
-  <li>This event was regarded as the worst massacre during the entire freedom struggle.</li>
-  <li>The Hunter Commission was appointed to inquire into the tragedy.</li>
-  <li>Sardar Udham Singh killed General Dyer on March 13, 1940, while the latter was addressing a meeting in Caxton Hall in London.</li>
-</ul>
-
-<h4>The Khilafat Movement (1920-22)</h4>
-<ul>
-  <li>The All India Khilafat Conference was held in Delhi in November 1919.</li>
-  <li>Gandhiji was the head of the Khilafat Committee, and Maulana Abul Kalam Azad also led the movement.</li>
-  <li>A Khilafat Manifesto was later published, calling upon the British to protect the Khalifa (Caliphate).</li>
-</ul>
-
-<h4>Non-Cooperation Movement (1920-22)</h4>
-<ul>
-  <li>The Non-Cooperation Movement was launched under the leadership of Mahatma Gandhi.</li>
-  <li>It aimed to press three main demands:</li>
-  <ol>
-    <li>The Khilafat issue.</li>
-    <li>The redressal of the Punjab wrongs (referring to the Jallianwala Bagh tragedy).</li>
-    <li>The attainment of Swaraj (self-rule).</li>
-  </ol>
-</ul>
-
-<!-- SOURCE: chunk_013.txt | TOPIC: Modern India - Towards Independence and Partition -->
-<h3>Simla Conference (1945)</h3>
-<ul>
-  <li><strong>Date:</strong> June 25, 1945</li>
-  <li><strong>Convened by:</strong> Lord Wavell</li>
-  <li><strong>Purpose:</strong> To discuss proposals (Wavell Plan) for India's future.</li>
-  <li><strong>Participants:</strong> Leaders of both the Indian National Congress and the Muslim League.</li>
-  <li><strong>Issue:</strong> Differences arose between the parties on the issue of representation of the Muslim community.</li>
-  <li><strong>Outcome:</strong> Resulted in a deadlock. Lord Wavell announced the failure of his efforts on July 14, 1945.</li>
-</ul>
-
-<h3>The Cabinet Mission Plan (1946)</h3>
-<ul>
-  <li><strong>Announcement:</strong> The Attlee Government announced in February 1946, the decision to send a high-powered mission to India.</li>
-  <li><strong>Members:</strong> Three British Cabinet members – Pethick Lawrence, Stafford Cripps, and A.V. Alexander.</li>
-  <li><strong>Purpose:</strong> To find ways and means for a negotiated peaceful transfer of power in India.</li>
-  <li><strong>Key Proposal:</strong> The mission rejected the Muslim League's demand for Pakistan and proposed a Two-Tier Federal Plan.</li>
-  <li><strong>Initial Acceptance:</strong> Initially accepted by both the Congress and the Muslim League.</li>
-  <li><strong>Later Developments:</strong>
-    <ul>
-      <li>The Muslim League eventually decided to keep away from the plan.</li>
-      <li>The Muslim League joined the cabinet but decided to boycott the Constituent Assembly, which began its work of framing the Constitution in December 1946.</li>
-      <li>The Muslim League (June 6, 1946) and the Congress (June 24, 1946) accepted the long-term plan put forward by the Cabinet Mission.</li>
-      <li><strong>Constituent Assembly Elections (July 1946):</strong> Elections were held in provincial assemblies for the Constituent Assembly. The Congress secured 209 out of the total 273 seats.</li>
-      <li><strong>Muslim League's Withdrawal:</strong> On July 29, 1946, the League withdrew its acceptance of the long-term plan in reaction against Nehru's statement and gave a call for 'Direct Action' from August 16, 1946, to achieve Pakistan.</li>
-    </ul>
-  </li>
-</ul>
-
-<h3>Interim Government (September 2, 1946)</h3>
-<ul>
-  <li><strong>Formation:</strong> Lord Wavell invited Jawaharlal Nehru, leader of the largest party, to form an Interim Government.</li>
-  <li><strong>Sworn-in:</strong> September 2, 1946.</li>
-  <li><strong>Composition:</strong> Composed of 12 members (including 3 Muslims) nominated by the Congress.</li>
-  <li><strong>Vice-President:</strong> Jawaharlal Nehru.</li>
-  <li><strong>Significance:</strong> It was the first time since the coming of the British that the Government of India was in Indian hands.</li>
-  <li><strong>Muslim League's Stance:</strong> At first, the Muslim League refused to join. Later, it changed its stand and joined the Interim Government, but with the intention of not working sincerely.</li>
-</ul>
-
-<h3>Jinnah's Direct Action Resolution</h3>
-<ul>
-  <li><strong>Cause:</strong> The setback in the election to the Constituent Assembly forced the League to reject the Cabinet Mission Plan.</li>
-  <li><strong>Call:</strong> Jinnah gave the call for 'Direct Action', postulating a campaign for the creation of Pakistan.</li>
-  <li><strong>Withdrawal of Cabinet Plan Acceptance:</strong> Muslim League withdrew its acceptance of the Cabinet Plan on July 29, 1946.</li>
-  <li><strong>Direct Action Day:</strong> From August 16, 1946, the country witnessed communal riots on an unprecedented scale. The League passed a Direct Action Resolution condemning both the British Government and Congress on August 16, 1946.</li>
-  <li><strong>Pakistan Day:</strong> March 27, 1947, was celebrated as Pakistan Day by Jinnah.</li>
-</ul>
-
-<h3>Constituent Assembly</h3>
-<ul>
-  <li><strong>First Meeting:</strong> The Constituent Assembly met in New Delhi on December 9, 1946.</li>
-  <li><strong>Participation:</strong> Met without the participation of the Muslim League.</li>
-  <li><strong>President:</strong> Rajendra Prasad was elected as its President.</li>
-</ul>
-
-<h3>Mountbatten Plan (June 3, 1947)</h3>
-<ul>
-  <li><strong>Date:</strong> June 3, 1947.</li>
-  <li><strong>Key Provisions:</strong>
-    <ul>
-      <li>Punjab and Bengal Legislative Assemblies would meet in two groups (Hindus and Muslims) to vote for partition.</li>
-      <li>In case of partition, two dominions and two Constituent Assemblies would be created.</li>
-      <li>Sindh would take its own decision.</li>
-      <li>A provision for a referendum was provided for NWFP (North-West Frontier Province) and Sylhet (a district of Bengal) to decide their fate.</li>
-      <li>Freedom would come on August 15, 1947.</li>
-    </ul>
-  </li>
-</ul>
-
-<h3>The Partition of India</h3>
-<ul>
-  <li><strong>Boundary Commission:</strong> A Boundary Commission would be set up if partition was to be effected.</li>
-  <li><strong>Indian Independence Act, 1947:</strong> In July 1947, the British Parliament ratified the Mountbatten Plan as the 'Independence of India' Act, 1947.</li>
-  <li><strong>Implementation:</strong> The Act was implemented on August 15, 1947.</li>
-  <li><strong>Pakistan's Independence:</strong> Pakistan became independent on August 14, 1947.
-    <ul>
-      <li>M.A. Jinnah became the first Governor-General of Pakistan.</li>
-    </ul>
-  </li>
-  <li><strong>India's Independence:</strong> At midnight of August 15, 1947, India became free.
-    <ul>
-      <li>Jawaharlal Nehru proclaimed it to be the nation with his famous 'Tryst with Destiny' speech.</li>
-      <li>On the morning of August 15, 1947, Lord Mountbatten was sworn-in as Governor-General.</li>
-      <li>Jawaharlal Nehru was sworn-in as the first Prime Minister of free India.</li>
-    </ul>
-  </li>
-  <li><strong>Princely States:</strong> At the time of freedom, there were 562 small and big princely states. Sardar Patel, the first Home Minister, played a crucial role in their integration.</li>
-</ul>
-
-<!-- SOURCE: chunk_017.txt | TOPIC: World History - Ancient Civilisations and Major Revolutions -->
-<h3>Greek Civilisation</h3><ul><li>Developed around 8th century BC, when small villages clustered to form city-states.</li><li>Worshiped deities such as Zeus (Sky God), Poseidon (Sea God), Apollo (Sun God), and Athena (Goddess of victory).</li><li>In the Battle of Marathon (490 BC), Greeks defeated King Darius I.</li><li>Alexander was a prominent Greek ruler.</li><li>The Olympic Games originated in Greece.</li><li>Homer of Greece authored the epic poems <i>Iliad</i> and <i>Odyssey</i>.</li></ul><h3>Roman Civilisation</h3><ul><li>Italy was the centre of this civilisation, with the city of Rome founded by Romulus in 1000 BC on the bank of the Tiber River.</li><li>The Punic Wars (264 BC to 146 BC) were fought between Carthage and Rome.</li><li>Julius Caesar, a general, murdered Pompey, another general, and occupied the throne. He was associated with the Egyptian queen Cleopatra.</li><li>Caesar was succeeded by Octavian and Diocletian.</li><li>Romans worshiped the planets and developed the Latin language.</li><li>Concrete, still used for construction today, was invented by the Romans.</li></ul><h3>Major Revolutions</h3><p>Revolutions throughout human history vary widely in methods, duration, and motivating ideology, leading to major changes in culture, economy, and socio-political institutions.</p><h4>The Renaissance</h4><ul><li>A period in European history from the 14th to 17th centuries, regarded as the cultural bridge between the Middle Ages and Modern History.</li><li>Its intellectual basis was humanism, derived from the rediscovery of classical Greek Philosophy, exemplified by Protagoras's saying, "Man is the measure of all things".</li><li>In politics, it contributed to the development of diplomacy customs and conventions.</li><li>In science, it led to an increased reliance on observation and inductive reasoning.</li><li>During this period, money and art were intertwined, with artists depending on patrons who, in turn, needed money to foster artistic talent.</li></ul><h4>Reformation</h4><ul><li>A schism from the Roman Catholic Church initiated by Martin Luther and continued by John Calvin and other early Protestant reformers in early 16th century Europe.</li><li>Luther began by criticising the selling of indulgences, insisting the Pope had no authority over Purgatory and that the Catholic doctrine of the merits of saints had no foundation in the Gospel.</li><li>The new movement decisively influenced the Church of England after 1547 under Edward VI and Elizabeth I.</li><li>The Church of England had been made independent under Henry VIII in the early 1530s for political rather than religious reasons.</li></ul><h4>Industrial Revolution</h4><ul><li>Started around the second half of the 18th century, witnessing changes in manufacturing processes from slow, expensive hand production to cheaper machine production.</li><li>Originated in England to fulfil growing domestic and international demands for goods.</li><li>Factors contributing to its start in England:<ul><li>Great deposits of coal and iron ores.</li><li>A politically stable society and the world's leading colonial power, providing raw materials and markets.</li><li>Increased demand for goods led to the rise of mechanisation and the factory system.</li><li>A steadily growing agricultural sector during the 18th century allowed the British population to increase.</li></ul></li><li>Started chiefly from the Textile Industry.</li><li>Key inventions:<ul><li>John Kay (1733): Flying Shuttle (for faster weaving).</li><li>Edmund Cartwright (1785): Powerloom.</li><li>Elly Whitley: Cotton ginning machine (cotton gin).</li><li>James Watt: Steam engine.</li></ul></li><li>The first railway line was built between Manchester and Liverpool in 1830.</li><li>By 1815, the growth of production increased Great Britain's wealth, making England the greatest banker and largest carrier of goods in the world.</li><li>By the close of the 19th century, science and technology became an integral part of Western society due to the Industrial Revolution.</li></ul>
-
-<!-- SOURCE: chunk_019.txt | TOPIC: Indian Art and Culture -->
-<h3>Indian Painting Schools</h3><ul><li><h4>Mughal School of Painting</h4><ul><li>Wonderfully blossomed during the Mughal empire.</li><li>Later, this school of painting reached other Indian courts of Muslims, Hindus, and Sikhs.</li><li>Akbar and Jahangir were exceptionally great patrons of this painting.</li></ul></li><li><h4>Rajput School</h4><ul><li>Progressed and thrived during the 18th century in the majestic Rajputana courts.</li><li>This school of painting was influenced by the approach of Mughal painting.</li><li>A typical style of painting with particular common characteristics came up in every Rajput realm.</li></ul></li><li><h4>Pahari School of Painting</h4><ul><li>An umbrella expression for a type of Indian painting originating from the Hill kingdoms of the North Indian Himalayan region.</li><li>Period: 17th to 19th century.</li><li>Places of creation: Mankot, Basohli, Chamba, Nurpur, Kangra, Garhwal, Mandi, and Guler.</li><li>Frequently created in miniature forms.</li></ul></li></ul><h3>Indian Rangoli Forms</h3><table><thead><tr><th>Name of Rangoli</th><th>State</th></tr></thead><tbody><tr><td>Kolam</td><td>Tamil Nadu</td></tr><tr><td>Alpana</td><td>West Bengal</td></tr><tr><td>Mandana</td><td>Rajasthan</td></tr><tr><td>Pookalam</td><td>Kerala</td></tr><tr><td>Rangoli</td><td>Karnataka</td></tr><tr><td>Sathiya</td><td>Gujarat</td></tr><tr><td>Chaitrangan</td><td>Maharashtra</td></tr><tr><td>Chowkpurana</td><td>Uttar Pradesh</td></tr><tr><td>Muggulu</td><td>Andhra Pradesh</td></tr><tr><td>Alikhthap</td><td>Kumaon</td></tr></tbody></table><h3>Indian Music</h3><ul><li>Developed through complex interaction between different people of different races and cultures over thousands of years.</li><li>India's classical music tradition, including Carnatic and Hindustani music, has a history spanning millennia and developed over several eras.</li><li>Indian music is of two types:<ul><li><b>Marga-Sangeet:</b> Mystical</li><li><b>Desi Sangeet:</b> Secular</li></ul></li><li>Indian music is divided into ragas or melody types.</li></ul><h4>Ragas</h4><ul><li>A gamut of several notes woven into a composition.</li><li>Can be sung without any instrumental accompaniment, but generally take tabla (drum) and stringed instruments.</li><li>They are sung at particular seasons and times of the day or night.</li><li>Indian classical music consists of 6 principle ragas and 30 raginis.</li><li>Music is adapted to the season of the year, hours of the day, and mood of the performer.</li><li>The Indian year is divided into 6 seasons, and each season has its own raga.</li><li>The principle ragas are Bhairavi, Hindol, Megha, Sriraga, Deepak, and Malkaus.</li></ul><h4>Hindustani Classical Music</h4><ul><li>The North Indian style of Indian classical music found throughout the Northern Indian subcontinent.</li><li>Also called North Indian Classical Music or Shastriya Sangeet.</li><li>A tradition that originated in Vedic ritual chants and has been evolving since the 12th century CE.</li></ul><h4>Carnatic Music</h4><ul><li>A system of music commonly associated with the Southern part of the Indian sub-continent.</li><li>Area roughly confined to 4 modern States of India: Andhra Pradesh, Karnataka, Kerala, and Tamil Nadu.</li><li>The main emphasis is on vocal music; most compositions are written to be sung.</li><li>Even when played on instruments, they are meant to be performed in Gayaki (singing) style.</li><li>Carnatic music was mainly patronised by the local kings of the Kingdom of Mysore and Kingdom of Travancore in the 18th through 20th centuries.</li></ul><h3>Indian Dance Forms</h3><ul><li>Dancing is one of the most ancient arts in Indian culture.</li><li>Established its roots in the Indian soil as early as the Vedic times.</li><li>Deeply associated with religious rites, representing the supposed performances of the Gods and Goddesses themselves.</li><li>Maintained the divine and spiritual concepts of the race.</li><li>The religious purpose being diverse, the styles of dance were equally varied, including Classical dances, Folk dances, and Tribal dances in India.</li></ul>
-
-<!-- SOURCE: chunk_045.txt | TOPIC: Indian Constitution - Amendments & Official Language Provisions -->
-<h1>Indian Constitution – Key Provisions and Amendments</h1>`;
-
-EXPANDED_NOTES_DATA["revolt-1857"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Revolt of 1857 – First War of Independence</title>
-    <style>
-        body{
-            font-family:Arial,Helvetica,sans-serif;
-            line-height:1.6;
-            margin:0;
-            padding:20px;
-            background:#f9f9f9;
-            color:#333;
-        }
-        h2{
-            color:#b71c1c;
-            border-bottom:2px solid #b71c1c;
-            padding-bottom:5px;
-        }
-        h3{
-            color:#d32f2f;
-            margin-top:30px;
-        }
-        h4{
-            color:#e53935;
-            margin-top:20px;
-        }
-        table{
-            width:100%;
-            border-collapse:collapse;
-            margin-top:12px;
-            background:#fff;
-        }
-        th, td{
-            border:1px solid #ccc;
-            padding:8px;
-            text-align:left;
-            vertical-align:top;
-        }
-        th{
-            background:#efefef;
-        }
-        .img-container{
-            text-align:center;
-            margin:20px 0;
-        }
-        .img-container img{
-            max-width:100%;
-            border-radius:8px;
-            box-shadow:0 4px 10px rgba(0,0,0,0.1);
-        }
-        .caption{
-            font-size:0.9em;
-            color:#666;
-            margin-top:5px;
-        }
-        .highlight{
-            background:#fff8e1;
-            padding:2px 4px;
-            border-radius:3px;
-        }
-    </style>
-</head>
-<body>
-
-    <h2>🔥 Revolt of 1857 – India’s First War of Independence</h2>
-    <p>The Revolt of 1857 was a watershed moment in Indian history. It marked the first large‑scale, coordinated armed challenge to the rule of the British East India Company and sowed the seeds for the later nationalist movements that eventually led to independence in 1947.</p>
-
-    <div class="img-container">
-        <img src="images/history_1857_revolt_map.png" alt="Centers of the 1857 Revolt">
-        <p class="caption">Major centres and geographical spread of the 1857 uprising across northern and central India.</p>
-    </div>
-
-    <h3>1. Causes of the Revolt</h3>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Category</th>
-                <th>Key Factors</th>
-                <th>Impact on Indian Sentiment</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Political</strong></td>
-                <td>
-                    <ul>
-                        <li>Doctrine of Lapse (Lord Dalhousie) – annexation of states without a natural heir (e.g., Satara, Jhansi, Nagpur).</li>
-                        <li>Annexation of Awadh (1856) under the pretext of “misgovernment”.</li>
-                        <li>Removal of traditional rights of princes and zamindars.</li>
-                    </ul>
-                </td>
-                <td>Deep mistrust of British motives; loss of sovereignty fueled resentment among aristocracy and local elites.</td>
-            </tr>
-            <tr>
-                <td><strong>Economic</strong></td>
-                <td>
-                    <ul>
-                        <li>Heavy land revenue demands and the imposition of the “Permanent Settlement” that impoverished peasants.</li>
-                        <li>Destruction of indigenous handicrafts due to import of cheap British manufactured goods.</li>
-                        <li>High taxes on salt, opium, and other essential commodities.</li>
-                    </ul>
-                </td>
-                <td>Widespread agrarian distress and unemployment created a fertile ground for rebellion.</td>
-            </tr>
-            <tr>
-                <td><strong>Social / Religious</strong></td>
-                <td>
-                    <ul>
-                        <li>Abolition of Sati (1829) and the Widow Remarriage Act (1856) – perceived as interference in Hindu customs.</li>
-                        <li>Missionary activities and rumors of forced conversion to Christianity.</li>
-                        <li>Introduction of the “Western” education system that alienated traditional scholars.</li>
-                    </ul>
-                </td>
-                <td>Fear of cultural erosion and loss of religious identity galvanized both Hindu and Muslim sections.</td>
-            </tr>
-            <tr>
-                <td><strong>Military</strong></td>
-                <td>
-                    <ul>
-                        <li>Indian sepoys received lower pay than their British counterparts and were denied overseas allowances (the “Batta”).</li>
-                        <li>Restrictions on movement across the sea (Kala Pani) violated caste and religious taboos.</li>
-                        <li>Discriminatory promotions and the use of Indian troops to suppress civilian populations.</li>
-                    </ul>
-                </td>
-                <td>Low morale and a sense of betrayal among the native army, the backbone of the Company’s power.</td>
-            </tr>
-            <tr>
-                <td><strong>Immediate Trigger</strong></td>
-                <td>
-                    <ul>
-                        <li>Introduction of the <span class="highlight">Enfield Pattern 1853 rifle</span> with greased paper cartridges containing beef and pork fat.</li>
-                        <li>Muslim and Hindu soldiers believed the cartridges forced them to ingest prohibited animal fat, violating religious purity.</li>
-                        <li>On 29 March 1857, <strong>Mangal Pandey</strong> of the 34th Bengal Native Infantry attacked his British officer at Barrackpore, igniting the spark of mutiny.</li>
-                    </ul>
-                </td>
-                <td>Direct affront to religious sentiments turned simmering discontent into open rebellion.</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h3>2. Major Centres, Leaders & Key Events</h3>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Region / Centre</th>
-                <th>Indian Leadership</th>
-                <th>British Commanders</th>
-                <th>Notable Episodes</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Delhi</strong></td>
-                <td>Bahadur Shah II (nominal), Bakht Khan (strategic commander)</td>
-                <td>Sir John Nicholson, Sir Henry Hudson</td>
-                <td>Capture of the Red Fort; proclamation of Bahadur Shah II as Emperor of India; eventual recapture by British forces on 21 Sep 1857.</td>
-            </tr>
-            <tr>
-                <td><strong>Kanpur (Cawnpore)</strong></td>
-                <td>Nana Saheb, Tantia Tope (Ramachandra Pandurang)</td>
-                <td>Sir Colin Campbell</td>
-                <td>Massacre of European civilians (15 July 1857); siege of the British Residency; eventual fall after intense artillery bombardment.</td>
-            </tr>
-            <tr>
-                <td><strong>Lucknow</strong></td>
-                <td>Begum Hazrat Mahal, General Bakht Khan (later), Sir Henry Havelock</td>
-                <td>Sir Colin Campbell, Sir Henry Havelock</td>
-                <td>Prolonged defence of the Residency (June‑Nov 1857); relief by Havelock’s forces; eventual surrender after heavy casualties.</td>
-            </tr>
-            <tr>
-                <td><strong>Jhansi</strong></td>
-                <td>Rani Lakshmibai (Queen of Jhansi)</td>
-                <td>Sir Hugh Rose (Lord Dalhousie’s “only man among mutineers”)</td>
-                <td>Battle of Jhansi (18 April 1858); heroic charge of the Rani; death in combat on 18 June 1858.</td>
-            </tr>
-            <tr>
-                <td><strong>Arrah (Bihar)</strong></td>
-                <td>Kunwar Singh (80‑year‑old zamindar), his son Babu Amar Singh</td>
-                <td>Sir William Taylor, Sir Vincent Eyre</td>
-                <td>Siege of Arrah (April‑May 1858); successful defence by local forces; eventual capture after British reinforcements.</td>
-            </tr>
-            <tr>
-                <td><strong>Meerut</strong></td>
-                <td>Sepoy mutineers led by Mangal Pandey, later by local leaders</td>
-                <td>Sir John Nicholson (later), Sir Henry Havelock</td>
-                <td>First outbreak of mutiny on 10 May 1857; march to Delhi; pivotal in spreading the revolt.</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h4>Chronology of Key Events</h4>
-    <table>
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Event</th>
-                <th>Significance</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>10 May 1857</td>
-                <td>Mutiny at Meerut</td>
-                <td>Trigger point; sepoys marched to Delhi, igniting the wider uprising.</td>
-            </tr>
-            <tr>
-                <td>29 May 1857</td>
-                <td>Capture of Delhi by rebels</td>
-                <td>Symbolic restoration of Mughal authority; rallying point for rebels.</td>
-            </tr>
-            <tr>
-                <td>15 June 1857</td>
-                <td>Siege of Lucknow begins</td>
-                <td>Longest and most brutal episode; highlighted British resolve.</td>
-            </tr>
-            <tr>
-                <td>21 Sep 1857</td>
-                <td>British recapture of Delhi</td>
-                <td>Turning point; loss of morale for rebels.</td>
-            </tr>
-            <tr>
-                <td>18 June 1858</td>
-                <td>Death of Rani Lakshmibai</td>
-                <td>End of major organized resistance in central India.</td>
-            </tr>
-            <tr>
-                <td>1 Nov 1858</td>
-                <td>Formal proclamation of the British Crown’s authority</td>
-                <td>Marks the official end of Company rule.</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h3>3. Consequences and Legacy</h3>
-    <ul>
-        <li><strong>Political Re‑organisation:</strong> The <em>Government of India Act 1858</em> transferred sovereignty from the East India Company to the British Crown. The title of Governor‑General was replaced by <strong>Viceroy</strong>, with Lord Canning becoming the first Viceroy of India.</li>
-        <li><strong>End of Doctrine of Lapse:</strong> The policy was formally abandoned; the British shifted to a strategy of indirect rule through princely states, preferring treaties over annexations.</li>
-        <li><strong>Military Reforms:</strong>
-            <ul>
-                <li>European‑to‑Indian soldier ratio increased from 1:1 to roughly 3:1.</li>
-                <li>Regiments were reorganised on the basis of “Martial Races” – recruiting primarily from Punjab, Gurkhas, and other groups deemed loyal.</li>
-                <li>Sepoy ranks were segregated; Indian troops were barred from artillery and from serving overseas.</li>
-            </ul>
-        </li>
-        <li><strong>Administrative Changes:</strong> Creation of the Indian Civil Service (ICS) under direct Crown control; introduction of a more centralized bureaucracy.</li>
-        <li><strong>Socio‑Cultural Impact:</strong> The revolt awakened a pan‑Indian consciousness, laying the ideological foundation for later nationalist movements (e.g., the Indian National Congress founded in 1885).</li>
-        <li><strong>Legacy in Historiography:</strong> While contemporary British narratives labelled it a “mutiny”, Indian scholars increasingly refer to it as the “First War of Independence”, emphasizing its revolutionary character.</li>
-    </ul>
-
-    <p>In sum, the Revolt of 1857 was not merely a military mutiny but a complex, multi‑dimensional challenge to colonial domination. Its suppression ushered in a new era of direct Crown rule, yet the spirit of resistance it embodied persisted, eventually culminating in the mass movements that secured India’s freedom in 1947.</p>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["socio-religious-reform"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Socio‑Religious Reform Movements – 19th Century India</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87; margin-top:30px;}
-        h3 {color:#3A6EA5; margin-top:20px;}
-        h4 {color:#4B8BBE; margin-top:15px;}
-        table {border-collapse:collapse; width:100%; margin-top:10px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>🌱 Socio‑Religious Reform Movements (19th Century)</h2>
-    <p>The nineteenth century witnessed a wave of indigenous reform movements that sought to eradicate entrenched social evils—caste discrimination, sati, child marriage, and gender inequities—while simultaneously promoting modern education, scientific temper and a reinterpretation of religious traditions. These movements laid the ideological foundation for the Indian Renaissance and later nationalist struggles.</p>
+window.EXPANDED_NOTES_DATA["socio-religious-reform"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🌱 Socio‑Religious Reform Movements (19th Century)</h3>
+<p>The nineteenth century witnessed a wave of indigenous reform movements that sought to eradicate entrenched social evils—caste discrimination, sati, child marriage, and gender inequities—while simultaneously promoting modern education, scientific temper and a reinterpretation of religious traditions. These movements laid the ideological foundation for the Indian Renaissance and later nationalist struggles.</p>
 
     <h3>1. Overview of Major Reform Organizations</h3>
 
@@ -6473,32 +3427,13 @@ EXPANDED_NOTES_DATA["socio-religious-reform"] = `
 
     <h3>4. Concluding Perspective</h3>
     <p>The socio‑religious reform movements of the 19th century were not isolated phenomena; they were interwoven with the broader currents of colonial modernity, nationalist awakening, and global intellectual exchange. By confronting entrenched social evils, championing universal education, and re‑interpreting religious traditions, these organisations forged a progressive public sphere that later fed into the Indian independence struggle and continues to shape contemporary social policy.</p>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["freedom-movement"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Indian National Movement – Detailed Notes</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3B55; border-bottom:2px solid #ccc; padding-bottom:5px;}
-        h3 {color:#3A5A9C; margin-top:30px;}
-        h4 {color:#5A7BB0; margin-top:20px;}
-        table {border-collapse:collapse; width:100%; margin-top:15px;}
-        th, td {border:1px solid #bbb; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>⚔️ Indian National Movement</h2>
-    <p>The Indian National Movement was a prolonged, multi‑phased struggle aimed at ending British colonial rule and establishing a sovereign, democratic nation‑state. Historians usually divide it into three broad phases – the <strong>Moderate</strong> (1885‑1905), the <strong>Extremist</strong> (1905‑1919) and the <strong>Gandhian</strong> era (1919‑1947). Each phase introduced new tactics, leadership styles, and political alliances that together forged the path to independence.</p>
+window.EXPANDED_NOTES_DATA["freedom-movement"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">⚔️ Indian National Movement</h3>
+<p>The Indian National Movement was a prolonged, multi‑phased struggle aimed at ending British colonial rule and establishing a sovereign, democratic nation‑state. Historians usually divide it into three broad phases – the <strong>Moderate</strong> (1885‑1905), the <strong>Extremist</strong> (1905‑1919) and the <strong>Gandhian</strong> era (1919‑1947). Each phase introduced new tactics, leadership styles, and political alliances that together forged the path to independence.</p>
 
     <!-- Early Phases -->
     <h3>1. Early Phases (1885‑1919)</h3>
@@ -6663,199 +3598,12 @@ EXPANDED_NOTES_DATA["freedom-movement"] = `
   <li><strong>ICS Examinations:</strong> Decision to hold simultaneous examinations for the Indian Civil Service (ICS) both in Delhi and London, effective from 1923.</li>
   <li><strong>Kakori Train Robbery:</strong> Took place in 1925.</li>
 </ul>
-
-
-</body>
-</html>
-
-<hr style="margin: 20px 0; border-color: #ddd;">
-<h2>Detailed Expansion (Pathfinder Extracted)</h2>
-<h3>Important Events (1922-1925)</h3>
-<ul>
-  <li><strong>Chauri Chaura Incident:</strong> Occurred on 5th February, 1922, leading to the subsequent withdrawal of the Non-Cooperation Movement.</li>
-  <li><strong>Vishwabharati University:</strong> Started in 1922.</li>
-  <li><strong>Swaraj Party:</strong> Established by C.R. Das and Motilal Nehru in 1922.</li>
-  <li><strong>ICS Examinations:</strong> Decision to hold simultaneous examinations for the Indian Civil Service (ICS) both in Delhi and London, effective from 1923.</li>
-  <li><strong>Kakori Train Robbery:</strong> Took place in 1925.</li>
-</ul>`;
-
-EXPANDED_NOTES_DATA["post-independence-consolidation"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Post‑Independence Consolidation – Detailed Notes</title>
-    <style>
-        body {font-family: Arial, sans-serif; line-height:1.6; margin:20px;}
-        table {border-collapse: collapse; width:100%; margin-top:10px;}
-        th, td {border:1px solid #999; padding:8px; text-align:left;}
-        caption {font-weight:bold; margin-bottom:5px;}
-        h2, h3, h4 {color:#2E3A87;}
-    </style>
-</head>
-<body>
-
-<h2>Post‑Independence Consolidation (1947‑1956)</h2>
-<p>After the transfer of power on 15 August 1947, the nascent Union of India faced a series of complex challenges that tested its political, administrative, and diplomatic capacities. The primary tasks were:</p>
-<ul>
-    <li>Defining and securing international borders.</li>
-    <li>Integrating more than five hundred princely states into a single polity.</li>
-    <li>Addressing communal unrest and refugee rehabilitation.</li>
-    <li>Re‑organising the internal boundaries on linguistic, cultural, and administrative criteria.</li>
-</ul>
-
-<h3>1. Integration of Princely States</h3>
-<p>Under the leadership of <strong>Sardar Vallabhbhai Patel</strong>, then Minister of Home Affairs, and his astute civil servant <strong>V. P. Menon</strong>, the Government of India pursued a policy of “<em>merger, not annexation</em>”. Between 1947 and 1949, 549 princely states were diplomatically persuaded or compelled to accede to India.</p>
-
-<table>
-    <caption>Key Features of Princely State Integration</caption>
-    <thead>
-        <tr>
-            <th>State</th>
-            <th>Ruler’s Position</th>
-            <th>Major Issue</th>
-            <th>Method of Integration</th>
-            <th>Outcome</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Junagadh</td>
-            <td>Nawab Mahabat Khan</td>
-            <td>Declared accession to Pakistan despite 80 % Hindu population</td>
-            <td>Plebiscite (February 1948) after Indian administration took control of the coastal belt</td>
-            <td>Majority voted for India; Junagadh merged into Gujarat</td>
-        </tr>
-        <tr>
-            <td>Hyderabad</td>
-            <td>Nizam Mir Osman Ali Khan</td>
-            <td>Refused accession; supported by Razakars (paramilitary militia)</td>
-            <td>Military operation – <em>Operation Polo</em> (13–18 September 1948)</td>
-            <td>Annexed into India; later reorganised as part of Andhra Pradesh and Karnataka</td>
-        </tr>
-        <tr>
-            <td>Jammu &amp; Kashmir</td>
-            <td>Maharaja Hari Singh</td>
-            <td>Initially declared independence; tribal invasion from Pakistan</td>
-            <td>Instrument of Accession signed (26 October 1947) followed by deployment of Indian troops</td>
-            <td>State acceded to India; subject of Article 35A &amp; 370 (now abrogated)</td>
-        </tr>
-    </tbody>
-</table>
-
-<p>Other notable integrations included:</p>
-<ul>
-    <li><strong>Travancore‑Cochin</strong> – Acceded voluntarily in June 1949.</li>
-    <li><strong>Gwalior, Bhopal, Mysore</strong> – Merged after negotiations, preserving internal autonomy for a brief period.</li>
-</ul>
-
-<h4>Strategic Significance</h4>
-<ul>
-    <li>Eliminated potential foreign footholds that could threaten national security.</li>
-    <li>Provided a uniform legal and administrative framework essential for defence planning.</li>
-    <li>Facilitated the creation of a cohesive national identity, crucial for a diverse polity.</li>
-</ul>
-
-<h3>2. Linguistic Re‑organisation of States</h3>
-<p>The demand for states based on linguistic homogeneity intensified after independence, driven by cultural pride and administrative efficiency.</p>
-
-<h4>Early Commissions (1948)</h4>
-<ul>
-    <li><strong>Dhar Commission (1948)</strong> – Chaired by Sir B.N. Dhar; recommended retaining the existing provincial boundaries and opposed linguistic states.</li>
-    <li><strong>JVP Committee (1948)</strong> – Consisted of Jawaharlal Nehru, Sardar Vallabhbhai Patel, and Pattabhi Sitaramayya; echoed the Dhar view, fearing that linguistic divisions would fuel separatism.</li>
-</ul>
-
-<h4>Catalyst: The Andhra Movement</h4>
-<p>The death of <strong>Potti Sriramulu</strong> on 15 December 1952 after a 56‑day fast for a separate Telugu state sparked nationwide agitation. His martyrdom underscored the potency of linguistic aspirations.</p>
-
-<h4>Fazl Ali Commission (States Reorganisation Commission – SRC)</h4>
-<p>Established in 1953 under the chairmanship of Justice <strong>Fazl Ali</strong>, the SRC examined:</p>
-<ul>
-    <li>Geographical contiguity and administrative viability.</li>
-    <li>Linguistic and cultural homogeneity.</li>
-    <li>Economic interdependence of districts.</li>
-</ul>
-
-<h4>States Reorganisation Act, 1956</h4>
-<p>Implemented on 1 November 1956, the Act reorganised the Indian map into:</p>
-<table>
-    <caption>States and Union Territories Created (1956)</caption>
-    <thead>
-        <tr>
-            <th>Category</th>
-            <th>Units</th>
-            <th>Key Features</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>States</td>
-            <td>14</td>
-            <td>Predominantly linguistic; e.g., Andhra Pradesh (Telugu), Karnataka (Kannada), Kerala (Malayalam)</td>
-        </tr>
-        <tr>
-            <td>Union Territories</td>
-            <td>6</td>
-            <td>Directly administered by the Centre; e.g., Delhi, Chandigarh, Pondicherry</td>
-        </tr>
-    </tbody>
-</table>
-
-<p>Major outcomes:</p>
-<ul>
-    <li>Creation of a linguistic map that reduced regional dissent.</li>
-    <li>Standardisation of administrative machinery, aiding defence logistics and resource mobilisation.</li>
-    <li>Set a precedent for future state‑hood demands (e.g., Gujarat‑Maharashtra, Punjab‑Haryana, Uttarakhand, Chhattisgarh, Jharkhand, and Telangana).</li>
-</ul>
-
-<h4>Long‑Term Impact on Defence &amp; Security</h4>
-<ul>
-    <li>Uniformity in civil‑administrative structures streamlined recruitment and deployment of armed forces across states.</li>
-    <li>Border states (e.g., Punjab, Rajasthan, Assam) benefited from clearer jurisdictional authority, enhancing border‑area management.</li>
-    <li>Enhanced internal stability allowed the Ministry of Defence to focus on external threats rather than internal fragmentation.</li>
-</ul>
-
-<h3>3. Consolidation of International Borders</h3>
-<p>Simultaneous with internal integration, India negotiated and, where necessary, fought to define its frontiers:</p>
-<ul>
-    <li><strong>Indus‑Punjab Boundary</strong> – Resolved by the 1949 Cease‑fire Line (later the Line of Control) after the First Indo‑Pak war.</li>
-    <li><strong>Eastern Frontiers</strong> – The 1954 Tripartite Agreement with China and Nepal clarified the McMahon Line in Arunachal Pradesh.</li>
-    <li><strong>Western Frontiers</strong> – The 1960 Indus Waters Treaty with Pakistan secured water rights, indirectly influencing strategic calculations.</li>
-</ul>
-
-<h4>Significance for National Integration</h4>
-<p>Clear demarcation of borders prevented external interference in the integration process, reinforced sovereignty, and provided a stable platform for nation‑building.</p>
-
-<h2>Summary of Key Takeaways</h2>
-<ul>
-    <li>Integration of princely states was achieved through a blend of diplomacy, legal instruments, and limited use of force.</li>
-    <li>Language‑based state formation, though initially resisted, became the cornerstone of India’s federal structure.</li>
-    <li>The 1956 Reorganisation Act laid the administrative foundation that continues to support India’s political stability and defence preparedness.</li>
-</ul>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["revolutions"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Industrial & Political Revolutions – High‑Yield Notes</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87; border-bottom:2px solid #2E3A87; padding-bottom:5px;}
-        h3 {color:#3B5AA0; margin-top:30px;}
-        table {border-collapse:collapse; width:100%; margin-top:10px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-<h2>🇺🇸🇫🇷 Industrial & Political Revolutions</h2>
+window.EXPANDED_NOTES_DATA["revolutions"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🇺🇸🇫🇷 Industrial & Political Revolutions</h3>
 <p>These revolutions transformed the global political landscape, gave rise to modern ideologies, and reshaped economic structures. The following sections provide concise, high‑yield facts essential for UPSC and Defence examinations.</p>
 
 <!-- American Revolution -->
@@ -7124,32 +3872,13 @@ EXPANDED_NOTES_DATA["revolutions"] = `
     <li>Post‑colonial India’s own industrial policies (e.g., Five‑Year Plans) were shaped by lessons from the British experience.</li>
     <li>Understanding the nexus of industrial capacity and military power is crucial for contemporary strategic assessments.</li>
 </ul>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["world-war-i"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>World War I (1914‑1918) – Detailed Notes for UPSC & Defence Exams</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87; border-bottom:2px solid #2E3A87; padding-bottom:5px;}
-        h3 {color:#3A6EA5; margin-top:30px;}
-        h4 {color:#5B8EB9; margin-top:20px;}
-        table {border-collapse:collapse; width:100%; margin-top:15px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>World War I (1914‑1918)</h2>
-    <p>A continent‑wide conflict that reshaped political boundaries, toppled empires and introduced modern warfare. Though centred in Europe, its impact was truly global, influencing colonies, economies and the future of international relations.</p>
+window.EXPANDED_NOTES_DATA["world-war-i"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">World War I (1914‑1918)</h3>
+<p>A continent‑wide conflict that reshaped political boundaries, toppled empires and introduced modern warfare. Though centred in Europe, its impact was truly global, influencing colonies, economies and the future of international relations.</p>
 
     <h3>1. Long‑Term Causes</h3>
     <ul>
@@ -7249,31 +3978,13 @@ EXPANDED_NOTES_DATA["world-war-i"] = `
         <li>Introduced modern concepts of total war, combined arms tactics and the importance of industrial mobilisation.</li>
         <li>Laid the groundwork for contemporary international institutions (League of Nations → United Nations).</li>
     </ul>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["world-war-ii"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>World War II (1939‑1945) – Detailed Notes for UPSC & Defence Exams</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87; border-bottom:2px solid #2E3A87; padding-bottom:4px;}
-        h3 {color:#3A6EA5; margin-top:30px;}
-        table {border-collapse:collapse; width:100%; margin-top:15px;}
-        th, td {border:1px solid #999; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>World War II (1939 – 1945)</h2>
-    <p>The most destructive conflict in human history, involving the majority of the world’s nations and resulting in unprecedented military, economic, and humanitarian consequences.</p>
+window.EXPANDED_NOTES_DATA["world-war-ii"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">World War II (1939 – 1945)</h3>
+<p>The most destructive conflict in human history, involving the majority of the world’s nations and resulting in unprecedented military, economic, and humanitarian consequences.</p>
 
     <h3>1. Long‑Term Causes</h3>
     <ul>
@@ -7456,32 +4167,13 @@ EXPANDED_NOTES_DATA["world-war-ii"] = `
             </tr>
         </tbody>
     </table>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["interwar-period"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>The Interwar Period (1919‑1939) – Detailed Notes</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87; margin-top:30px;}
-        h3 {color:#3A5C9E; margin-top:20px;}
-        h4 {color:#4A7BB7; margin-top:15px;}
-        table {border-collapse:collapse; width:100%; margin-top:15px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>📉 The Interwar Period (1919 – 1939)</h2>
-    <p>The two decades between the First and Second World Wars were characterised by profound economic distress, political upheaval and the emergence of totalitarian regimes that reshaped global geopolitics.</p>
+window.EXPANDED_NOTES_DATA["interwar-period"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">📉 The Interwar Period (1919 – 1939)</h3>
+<p>The two decades between the First and Second World Wars were characterised by profound economic distress, political upheaval and the emergence of totalitarian regimes that reshaped global geopolitics.</p>
 
     <h3>1. Overview of the Period</h3>
     <p>Key features of the interwar years include:</p>
@@ -7661,32 +4353,13 @@ EXPANDED_NOTES_DATA["interwar-period"] = `
         <li>Deepening of economic nationalism and protectionist trade policies.</li>
         <li>Set the stage for the post‑war decolonisation movements by exposing the weaknesses of European powers.</li>
     </ul>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["cold-war"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>The Cold War & Decolonisation – High‑Yield Notes</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2c3e50; border-bottom:2px solid #bdc3c7; padding-bottom:5px;}
-        h3 {color:#34495e; margin-top:30px;}
-        h4 {color:#7f8c8d; margin-top:20px;}
-        table {border-collapse:collapse; width:100%; margin-top:15px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#ecf0f1;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>❄️ The Cold War & Decolonisation (1945‑1991)</h2>
-    <p>The post‑World War II period was characterised by a global ideological clash between the United States and the Soviet Union, alongside a massive wave of decolonisation that reshaped Asia and Africa. The interplay of super‑power rivalry and the emergence of newly independent states set the agenda for international politics for nearly half a century.</p>
+window.EXPANDED_NOTES_DATA["cold-war"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">❄️ The Cold War & Decolonisation (1945‑1991)</h3>
+<p>The post‑World War II period was characterised by a global ideological clash between the United States and the Soviet Union, alongside a massive wave of decolonisation that reshaped Asia and Africa. The interplay of super‑power rivalry and the emergence of newly independent states set the agenda for international politics for nearly half a century.</p>
 
     <!-- ==================== IDEOLOGICAL RIVALRY ==================== -->
     <h3>1. Ideological Rivalry</h3>
@@ -7900,29 +4573,13 @@ EXPANDED_NOTES_DATA["cold-war"] = `
     </table>
 
     <p>These developments collectively reshaped the geopolitical landscape, laying the foundation for contemporary international relations, the rise of the Global South, and the transition from bipolarity to a more multipolar world order.</p>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["international-institutions"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>International Institutions – UPSC History Notes</title>
-    <style>
-        body {font-family: Arial, sans-serif; line-height:1.6; margin:20px;}
-        h2, h3, h4 {color:#2c3e50;}
-        table {border-collapse:collapse; width:100%; margin-top:10px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f4f4f4;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-    <h2>International Institutions</h2>
-    <p>Global bodies created to manage international relations, trade, finance, and security. They provide the framework for multilateral cooperation, conflict resolution, and economic development.</p>
+window.EXPANDED_NOTES_DATA["international-institutions"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">International Institutions</h3>
+<p>Global bodies created to manage international relations, trade, finance, and security. They provide the framework for multilateral cooperation, conflict resolution, and economic development.</p>
 
     <h3>1. United Nations (UN)</h3>
     <p><strong>Establishment:</strong> 24 October 1945 (UN Day), succeeding the League of Nations. Headquarters: <em>United Nations Headquarters, New York, USA</em>.</p>
@@ -8034,20 +4691,13 @@ EXPANDED_NOTES_DATA["international-institutions"] = `
     </ul>
 
     <p>These institutions collectively shape the architecture of global governance, influencing India’s foreign policy, security strategy, and economic diplomacy.</p>
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["architecture"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Indian Architecture – Detailed Notes</title>
-</head>
-<body>
-    <h2>Indian Architecture</h2>
-    <p>The built heritage of the Indian sub‑continent spans from prehistoric rock shelters to the grand Mughal monuments of the 17th century. It reflects a continuous dialogue between indigenous traditions, regional materials, and external influences (especially from the Islamic world). The following notes synthesize the major architectural traditions that are crucial for UPSC and Defence examinations.</p>
+window.EXPANDED_NOTES_DATA["architecture"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Indian Architecture</h3>
+<p>The built heritage of the Indian sub‑continent spans from prehistoric rock shelters to the grand Mughal monuments of the 17th century. It reflects a continuous dialogue between indigenous traditions, regional materials, and external influences (especially from the Islamic world). The following notes synthesize the major architectural traditions that are crucial for UPSC and Defence examinations.</p>
 
     <!-- ============================================================= -->
     <h3>1. Temple Architecture Styles</h3>
@@ -8208,30 +4858,13 @@ EXPANDED_NOTES_DATA["architecture"] = `
     </ul>
 
     <p>These architectural traditions collectively illustrate the synthesis of religious ideas, regional materials, and technological innovations that shaped the Indian built environment over two millennia.</p>
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["paintings"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Painting Traditions of India – Detailed Notes for UPSC & Defence Exams</title>
-    <style>
-        body{font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2{color:#2E3A87; border-bottom:2px solid #2E3A87; padding-bottom:5px;}
-        h3{color:#3A6EA5; margin-top:30px;}
-        table{width:100%; border-collapse:collapse; margin-top:15px;}
-        th,td{border:1px solid #ccc; padding:8px; text-align:left;}
-        th{background:#f2f2f2;}
-        ul{margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>🎨 Painting Traditions of India</h2>
-    <p>Indian painting spans more than two millennia, evolving from monumental cave murals to refined court miniatures and vibrant tribal folk art. The tradition reflects the country’s religious diversity, regional cultures, patronage systems, and technological innovations in pigments and supports.</p>
+window.EXPANDED_NOTES_DATA["paintings"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🎨 Painting Traditions of India</h3>
+<p>Indian painting spans more than two millennia, evolving from monumental cave murals to refined court miniatures and vibrant tribal folk art. The tradition reflects the country’s religious diversity, regional cultures, patronage systems, and technological innovations in pigments and supports.</p>
 
     <!-- ==================== MURALS & MINIATURES ==================== -->
     <h3>1. Murals & Miniatures</h3>
@@ -8492,33 +5125,13 @@ EXPANDED_NOTES_DATA["paintings"] = `
         <li>Folk traditions like Madhubani and Warli embody grassroots cultural resilience, often mobilised for identity politics and heritage preservation.</li>
         <li>Comparative analysis of courtly versus tribal art provides insight into class structures, regional autonomy, and the role of art in nation‑building narratives.</li>
     </ul>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["dance-music"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Indian Classical Dance & Music – High‑Yield Notes for UPSC & Defence Exams</title>
-    <style>
-        body{font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px; color:#212529;}
-        h2{color:#2c3e50; border-bottom:2px solid #bdc3c7; padding-bottom:4px;}
-        h3{color:#34495e; margin-top:30px;}
-        h4{color:#5d6d7e; margin-top:20px;}
-        table{width:100%; border-collapse:collapse; margin-top:12px; font-size:0.94rem;}
-        th, td{border:1px solid #ccc; padding:8px; text-align:left;}
-        th{background:#f8f9fa; font-weight:bold;}
-        ul{margin-left:20px;}
-        .note{font-size:0.85rem; color:#555;}
-    </style>
-</head>
-<body>
-
-    <h2>Dance & Music</h2>
-    <p>The classical and folk performance heritage of India is a living repository of mythic narratives, regional identities, and religious traditions. Mastery of these art‑forms is essential for UPSC and defence examinations because they illustrate the cultural synthesis, patronage patterns, and socio‑political contexts that shaped Indian civilization.</p>
+window.EXPANDED_NOTES_DATA["dance-music"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Dance & Music</h3>
+<p>The classical and folk performance heritage of India is a living repository of mythic narratives, regional identities, and religious traditions. Mastery of these art‑forms is essential for UPSC and defence examinations because they illustrate the cultural synthesis, patronage patterns, and socio‑political contexts that shaped Indian civilization.</p>
 
     <!-- ==================== Classical Dances ==================== -->
     <h3>1. The Eight Classical Dances of India</h3>
@@ -8739,31 +5352,12 @@ EXPANDED_NOTES_DATA["dance-music"] = `
     </ul>
 
     <p class="note">Understanding the evolution, patronage, and technical vocabulary of these dance and music traditions is crucial for answering UPSC essay questions, optional history papers, and defence service interviews that test cultural literacy.</p>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["literature"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Literary Traditions of India – High‑Yield Notes for UPSC & Defence Exams</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3B55; border-bottom:2px solid #2E3B55; padding-bottom:5px;}
-        h3 {color:#3A5A9C; margin-top:30px;}
-        ul {margin-left:20px;}
-        li {margin-bottom:8px;}
-        table {border-collapse:collapse; width:100%; margin-top:15px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-    </style>
-</head>
-<body>
-
-<h2>📖 Literary Traditions of India</h2>
+window.EXPANDED_NOTES_DATA["literature"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">📖 Literary Traditions of India</h3>
 <p>The Indian sub‑continent boasts a continuous literary tradition spanning over five millennia. Its corpus preserves scientific, political, philosophical, religious and artistic achievements, making it indispensable for any aspirant preparing for UPSC, NDA, or other defence examinations.</p>
 
 <h3>1. Ancient Scripts & Texts</h3>
@@ -8991,32 +5585,13 @@ EXPANDED_NOTES_DATA["literature"] = `
     <li><strong>Cultural competence</strong> – Knowledge of regional literatures aids in answering questions on diversity, social movements, and language policy.</li>
     <li><strong>Strategic insight</strong> – Works like <em>Arthaśāstra</em> and the <em>Mahābhārata</em> contain timeless concepts of statecraft, diplomacy and warfare.</li>
 </ul>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["religion-festivals"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Indian Philosophy & Festivals – UPSC & Defence History Notes</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2 {color:#2E3A87; border-bottom:2px solid #2E3A87; padding-bottom:5px;}
-        h3 {color:#3B5AA0; margin-top:30px;}
-        h4 {color:#4C6EB5; margin-top:20px;}
-        table {width:100%; border-collapse:collapse; margin-top:15px;}
-        th, td {border:1px solid #ccc; padding:8px; text-align:left;}
-        th {background:#f2f2f2;}
-        ul {margin-left:20px;}
-    </style>
-</head>
-<body>
-
-    <h2>🕉️ Indian Philosophy & Festivals</h2>
-    <p>The intellectual traditions of India, known as <strong>Darshanas</strong>, have shaped religious, social, and political thought for millennia. Parallelly, India’s diverse cultural tapestry is reflected in its regional festivals, each embodying local history, agrarian cycles, and tribal heritage.</p>
+window.EXPANDED_NOTES_DATA["religion-festivals"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🕉️ Indian Philosophy & Festivals</h3>
+<p>The intellectual traditions of India, known as <strong>Darshanas</strong>, have shaped religious, social, and political thought for millennia. Parallelly, India’s diverse cultural tapestry is reflected in its regional festivals, each embodying local history, agrarian cycles, and tribal heritage.</p>
 
     <!-- ===================================================== -->
     <h3>1. Six Orthodox Schools (Shad‑Darshanas)</h3>
@@ -9215,29 +5790,13 @@ EXPANDED_NOTES_DATA["religion-festivals"] = `
     </ul>
 
     <p>Understanding these philosophical doctrines and cultural celebrations equips aspirants with a nuanced perspective of India’s intellectual heritage and its living traditions—essential for both UPSC civil services and defence strategic studies.</p>
-
-</body>
-</html>
+</div>
 `;
 
-EXPANDED_NOTES_DATA["heritage-sites"] = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>UNESCO World Heritage Sites in India – Detailed Overview</title>
-    <style>
-        body {font-family:Arial,Helvetica,sans-serif; line-height:1.6; margin:20px;}
-        h2, h3, h4 {color:#2E3A87;}
-        table {border-collapse:collapse; width:100%; margin-top:10px;}
-        th, td {border:1px solid #999; padding:8px; text-align:left;}
-        caption {font-weight:bold; margin-bottom:5px;}
-        footer {margin-top:30px; font-size:0.9em; color:#555;}
-    </style>
-</head>
-<body>
-    <h2>UNESCO World Heritage Sites in India</h2>
-    <p>India boasts <strong>42 UNESCO World Heritage Sites</strong> (as of 2024), reflecting its unparalleled cultural diversity and natural wealth. These sites are recognized for their outstanding universal value and are protected under the World Heritage Convention.</p>
+window.EXPANDED_NOTES_DATA["heritage-sites"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">UNESCO World Heritage Sites in India</h3>
+<p>India boasts <strong>42 UNESCO World Heritage Sites</strong> (as of 2024), reflecting its unparalleled cultural diversity and natural wealth. These sites are recognized for their outstanding universal value and are protected under the World Heritage Convention.</p>
 
     <h3>1. Classification of Sites</h3>
     <p>The sites are grouped into three categories based on their primary attributes:</p>
@@ -9416,7 +5975,441 @@ EXPANDED_NOTES_DATA["heritage-sites"] = `
     <footer>
         <p>Prepared for UPSC &amp; Defence Services examinations – © 2026</p>
     </footer>
-</body>
-</html>
+</div>
 `;
 
+window.EXPANDED_NOTES_DATA["magadha-expansion"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">
+    Magadha Expansion
+  </h3>
+
+  <p style="color: #cbd5e1;  margin-bottom: 12px;">
+    Between the 6th and 4th centuries BCE, among the 16 <span style="color: #fbbf24;">Mahajanapadas</span> mentioned in Buddhist (<em>Anguttara Nikaya</em>) and Jaina (<em>Bhagavati Sutra</em>) literature, [[Magadha]] (located in modern southern Bihar) emerged as the most powerful empire in ancient India. Magadha's expansion culminated in the establishment of the first pan-Indian empire under the Mauryas.
+  </p>
+
+  <h4 style="color: #38bdf8; margin-top: 16px; margin-bottom: 8px; font-weight: 600;">1. Factors Responsible for the Rise of Magadha</h4>
+  <ul style="color: #cbd5e1;  margin-left: 20px; margin-bottom: 16px;">
+    <li><strong style="color: #e2e8f0;">Strategic Geography:</strong> The initial capital <span style="color: #fbbf24;">Girivraja</span> (Rajgir) was surrounded by a natural fortification of five hills. The later capital, <span style="color: #fbbf24;">Pataliputra</span>, was a true <span style="color: #4ade80;">Jaladurga (water fort)</span>, situated at the confluence of the Ganga, Son, Gandak, and Ghaghra rivers, providing commercial and military command over river routes.</li>
+    <li><strong style="color: #e2e8f0;">Mineral Wealth & Iron Technology:</strong> Magadha held direct access to rich [[iron ore]] deposits in Rajgir and the Chota Nagpur plateau (Singhbhum), facilitating the production of superior iron weaponry and heavy agricultural implements to clear the dense eastern forests.</li>
+    <li><strong style="color: #e2e8f0;">Agricultural Surplus:</strong> Located in the fertile alluvial plains of the Middle Ganga Valley with heavy rainfall, the region produced vast agricultural surpluses, sustaining a large standing army and an administrative machinery.</li>
+    <li><strong style="color: #e2e8f0;">Military Innovation & War Elephants:</strong> Magadha was the <span style="color: #4ade80;">first state to use elephants on a large scale in warfare</span>, procuring them from the eastern forests of Bihar and Bengal to storm fortresses and maneuver across roadless terrains.</li>
+    <li><strong style="color: #e2e8f0;">Heterodox Culture:</strong> The Magadhan society was less constrained by orthodox Vedic rituals, fostering pragmatism, high social mobility, and strong state centralization.</li>
+  </ul>
+
+  <h4 style="color: #38bdf8; margin-top: 16px; margin-bottom: 8px; font-weight: 600;">2. Dynastic Chronology and Key Rulers</h4>
+
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 16px; color: #cbd5e1; font-size: 0.95em;">
+    <thead>
+      <tr style="background: rgba(255,255,255,0.06); text-align: left;">
+        <th style="padding: 8px; border: 1px solid rgba(255,255,255,0.1); color: #4ade80;">Dynasty</th>
+        <th style="padding: 8px; border: 1px solid rgba(255,255,255,0.1); color: #4ade80;">Prominent Rulers</th>
+        <th style="padding: 8px; border: 1px solid rgba(255,255,255,0.1); color: #4ade80;">Key Contributions & Military Expansions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);"><strong style="color: #e2e8f0;">[[Haryanka Dynasty]]</strong><br>(c. 544 – 412 BCE)</td>
+        <td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">
+          • [[Bimbisara]] (Seniya)<br>
+          • [[Ajatashatru]] (Kunika)<br>
+          • [[Udayin]]
+        </td>
+        <td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">
+          • <strong>Bimbisara:</strong> Real founder; pursued matrimonial alliances with Kosala (received <span style="color: #fbbf24;">Kashi</span> as dowry), Licchavi (Princess Chellana), and Madra clan. Annexed [[Anga]] (gained the vital river port of [[Champa]]). Sent Royal Physician [[Jivaka]] to treat King Pradyota of Avanti.<br>
+          • <strong>Ajatashatru:</strong> Defeated Kosala and broke the 16-year resistance of the [[Vajji]] confederacy using his minister [[Vassakara]] to create internal dissent. Used novel war machines: <span style="color: #4ade80;">Mahashilakantaka</span> (large stone-throwing catapult) and <span style="color: #4ade80;">Rathamusala</span> (scythed chariot). Patronised the <span style="color: #fbbf24;">First Buddhist Council</span> at Rajgriha (483 BCE).<br>
+          • <strong>Udayin:</strong> Founded and shifted the Magadhan capital to <span style="color: #4ade80;">Pataliputra</span>.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);"><strong style="color: #e2e8f0;">[[Shishunaga Dynasty]]</strong><br>(c. 412 – 344 BCE)</td>
+        <td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">
+          • [[Shishunaga]]<br>
+          • [[Kalashoka]] (Kakavarna)
+        </td>
+        <td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">
+          • <strong>Shishunaga:</strong> Decisively defeated and annexed the 100-year arch-rival kingdom of [[Avanti]] (capital at Ujjain) and Vatsa. Temporarily moved capital to Vaishali.<br>
+          • <strong>Kalashoka:</strong> Permanently transferred the capital back to Pataliputra. Convened the <span style="color: #fbbf24;">Second Buddhist Council</span> at Vaishali (383 BCE).
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);"><strong style="color: #e2e8f0;">[[Nanda Dynasty]]</strong><br>(c. 344 – 322 BCE)</td>
+        <td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">
+          • [[Mahapadma Nanda]]<br>
+          • [[Dhana Nanda]]
+        </td>
+        <td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">
+          • <strong>Mahapadma Nanda:</strong> First non-Kshatriya empire builder; assumed titles <span style="color: #4ade80;">Sarvakshatrantaka</span> (destroyer of all Kshatriyas) and <span style="color: #4ade80;">Ekarat</span> (sole monarch). Conquered [[Kalinga]] (evidenced by the later [[Hathigumpha Inscription]] of Kharavela mentioning the construction of an aqueduct/canal).<br>
+          • <strong>Dhana Nanda:</strong> Last Nanda ruler; possessed a formidable standing army (200,000 infantry, 20,000 cavalry, 3,000 war elephants) which deterred the troops of [[Alexander]] from crossing the Beas river (326 BCE). Referred to as <em>Agrammes</em> or <em>Xandrames</em> by Greek writers. Overthrown by [[Chandragupta Maurya]] guided by [[Chanakya]].
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div style="background: rgba(46,204,113,0.1); border-left: 4px solid #2ecc71; padding: 12px; margin: 16px 0; border-radius: 4px; color: #cbd5e1;">
+    <strong style="color: #4ade80;">Memory Hack:</strong> Remember the chronological sequence of Magadhan Dynasties and Capitals:
+    <br>• <em>Dynasty Sequence:</em> <strong>H-S-N-M</strong> &rarr; <strong>H</strong>aryanka &rarr; <strong>S</strong>hishunaga &rarr; <strong>N</strong>anda &rarr; <strong>M</strong>aurya ("<strong>H</strong>i <strong>S</strong>mart <strong>N</strong>ew <strong>M</strong>agadha").
+    <br>• <em>Capital Shift:</em> <strong>Girivraja (Rajgir)</strong> [Bimbisara] &rarr; <strong>Pataliputra</strong> [Udayin] &rarr; <strong>Vaishali</strong> [Shishunaga] &rarr; <strong>Pataliputra (Permanent)</strong> [Kalashoka].
+  </div>
+
+  <h4 style="border-left: 3px solid #4ade80; padding-left: 8px; margin-top: 24px; color: #e2e8f0; font-weight: 600;">Practice MCQs</h4>
+
+  <div style="margin-top: 12px; color: #cbd5e1; ">
+    <p><strong>Q1. Which ruler shifted the capital of the Magadha Empire from Rajgriha to Pataliputra for the first time?</strong></p>
+    <p style="margin-left: 12px;">
+      (A) Bimbisara<br>
+      (B) Ajatashatru<br>
+      (C) Udayin<br>
+      (D) Shishunaga
+    </p>
+    <p><strong style="color: #4ade80;">Answer: (C)</strong></p>
+    <p style="font-size: 0.9em; color: #94a3b8;"><em>Explanation:</em> Udayin, the successor of Ajatashatru, founded the city of Pataliputra at the confluence of the Ganga and Son rivers and relocated the capital there from Rajgriha due to its central strategic position. Kalashoka later made Pataliputra the permanent capital after a temporary relocation to Vaishali by Shishunaga.</p>
+  </div>
+
+  <div style="margin-top: 16px; color: #cbd5e1; ">
+    <p><strong>Q2. Consider the following statements regarding the military conquests of Magadha:</strong></p>
+    <ol style="margin-left: 20px; font-size: 0.95em;">
+      <li>Ajatashatru used military engines called Mahashilakantaka and Rathamusala to defeat the Vajji confederacy.</li>
+      <li>The kingdom of Avanti was finally annexed into Magadha during the reign of Bimbisara.</li>
+    </ol>
+    <p style="margin-left: 12px;">
+      Which of the statements given above is/are correct?<br>
+      (A) 1 only<br>
+      (B) 2 only<br>
+      (C) Both 1 and 2<br>
+      (D) Neither 1 nor 2
+    </p>
+    <p><strong style="color: #4ade80;">Answer: (A)</strong></p>
+    <p style="font-size: 0.9em; color: #94a3b8;"><em>Explanation:</em> Statement 1 is correct as Ajatashatru deployed the Mahashilakantaka and Rathamusala in his 16-year-long war against the Licchavis of Vajji. Statement 2 is incorrect because Avanti was annexed by Shishunaga, whereas Bimbisara maintained cordial relations with Avanti and sent the physician Jivaka to treat its king.</p>
+  </div>
+
+  <div style="margin-top: 16px; color: #cbd5e1; ">
+    <p><strong>Q3. The conquest of Kalinga by Magadha prior to the Mauryan period is attested by which of the following epigraphic sources?</strong></p>
+    <p style="margin-left: 12px;">
+      (A) Junagarh Rock Inscription of Rudradaman<br>
+      (B) Hathigumpha Inscription of Kharavela<br>
+      (C) Aihole Inscription of Pulakeshin II<br>
+      (D) Allahabad Pillar Inscription of Samudragupta
+    </p>
+    <p><strong style="color: #4ade80;">Answer: (B)</strong></p>
+    <p style="font-size: 0.9em; color: #94a3b8;"><em>Explanation:</em> The Hathigumpha Inscription of King Kharavela of Kalinga mentions that a Nanda king (Mahapadma Nanda) brought back an image of Jina as a victory trophy and constructed an aqueduct/canal in Kalinga. This provides epigraphic confirmation of the Nanda dynasty's pre-Mauryan expansion into eastern coastal India.</p>
+  </div>
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["ancient-indian-culture"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">
+    Ancient Indian Culture
+  </h3>
+
+  <p style="color: #cbd5e1;  margin-bottom: 16px;">
+    The cultural trajectory of ancient India spans from early prehistoric hunter-gatherer communities through the urban Bronze Age [[Indus Valley Civilisation]] to the pastoral, socio-religious order of the [[Vedic Age]]. For NDA, CDS, and AFCAT, primary emphasis lies on prehistoric tool typologies, material discoveries at Harappan sites, civic administration, and Early Vedic socio-political institutions.
+  </p>
+
+  <h4 style="border-left: 3px solid #4ade80; padding-left: 8px; margin-top: 20px; color: #e2e8f0; font-weight: 600;">1. Prehistoric Cultures: Stone Age to Chalcolithic Phase</h4>
+  <ul style="color: #cbd5e1;  padding-left: 20px; margin-bottom: 16px;">
+    <li><strong style="color: #e2e8f0;">[[Mesolithic Age]]:</strong> Transitional phase characterized by tiny stone tools called <span style="color: #fbbf24;">microliths</span> (crescents, blades, scrapers). The earliest evidence of animal domestication appears at <span style="color: #4ade80;">Adamgarh</span> (Madhya Pradesh) and <span style="color: #4ade80;">Bagor</span> (Rajasthan). Rock shelter paintings representing hunting-gathering life are prominently preserved at [[Bhimbetka]] (MP).</li>
+    <li><strong style="color: #e2e8f0;">[[Neolithic Age]]:</strong> Characterized by polished stone implements, particularly celts/axes, settled agricultural communities producing ragi and horse-gram (kulathi), and the invention of the potter's wheel. <span style="color: #4ade80;">Mehrgarh</span> (Balochistan, c. 7000 BC) is the oldest Neolithic site. At <span style="color: #fbbf24;">Burzahom</span> (Kashmir), domestic dogs were buried with masters in pit dwellings. <span style="color: #fbbf24;">Koldihwa</span> (UP) provides a three-fold cultural sequence (Neolithic, Chalcolithic, Iron Age) and early evidence of rice cultivation.</li>
+    <li><strong style="color: #e2e8f0;">[[Chalcolithic Age]]:</strong> Stone-copper phase marked by rural communities using painted pottery, most notably <span style="color: #fbbf24;">Black and Red Ware</span> with white geometric designs. Malwa ceramics represent the highest aesthetic quality. They venerated the Mother Goddess and worshipped the bull, while remaining unacquainted with burnt bricks.</li>
+  </ul>
+
+  <h4 style="border-left: 3px solid #4ade80; padding-left: 8px; margin-top: 20px; color: #e2e8f0; font-weight: 600;">2. Indus Valley Civilisation (Bronze Age Urbanism)</h4>
+  <p style="color: #cbd5e1;  margin-bottom: 12px;">
+    Flourishing broadly between <span style="color: #fbbf24;">2500 BC and 1750 BC</span> (Wheeler: 2500–1500 BC), this proto-historic civilisation extended from <span style="color: #4ade80;">Sutkagen Dor</span> (West, Balochistan) to <span style="color: #4ade80;">Alamgirpur</span> (East, UP), and from <span style="color: #4ade80;">Manda</span> (North, J&K) to <span style="color: #4ade80;">Daimabad</span> (South, Maharashtra).
+  </p>
+  
+  <ul style="color: #cbd5e1;  padding-left: 20px; margin-bottom: 16px;">
+    <li><strong style="color: #e2e8f0;">Town Planning:</strong> Built on a standardized <span style="color: #fbbf24;">grid system</span> with streets intersecting at right angles. Towns featured a western fortified <span style="color: #fbbf24;">citadel</span> (administrative/public structures) and an eastern lower town (residential). Houses utilized standardized burnt bricks, enclosed square courtyards, and had private bathrooms linked to covered, street-level underground drainage systems.</li>
+    <li><strong style="color: #e2e8f0;">Socio-Religious Life:</strong> Veneration of <span style="color: #4ade80;">Pashupati Mahadeva</span> (Proto-Shiva seal surrounded by an elephant, tiger, rhinoceros, buffalo, and two deer at the base), [[Mother Goddess]], pipal trees, and the unicorn bull. Symbolic phallus (lingam) and yoni worship existed alongside sacrificial fire altars.</li>
+    <li><strong style="color: #e2e8f0;">Trade and Script:</strong> Foreign trade relied on barter, standardized chert weights in multiples of 16, and maritime contact with Mesopotamia (where Indus territory was referred to as <span style="color: #fbbf24;">Meluha</span>). The undeciphered pictographic script followed the <span style="color: #4ade80;">boustrophedon</span> style (bi-directional: right-to-left, then left-to-right).</li>
+  </ul>
+
+  <table style="width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.9em; color: #cbd5e1;">
+    <thead>
+      <tr style="background: rgba(255,255,255,0.06); text-align: left;">
+        <th style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1); color: #4ade80;">Site</th>
+        <th style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1); color: #4ade80;">Location & River</th>
+        <th style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1); color: #4ade80;">Key Findings</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1); font-weight: 600;">[[Harappa]]</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Punjab, Pak (Ravi)</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">6 Granaries in a row, stone lingam/yoni, virgin goddess seal, dancing Nataraja.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1); font-weight: 600;">[[Mohenjodaro]]</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Sindh, Pak (Indus)</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Great Bath, Great Granary, Bronze Dancing Girl, Priest-King sculpture, Pashupati seal.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1); font-weight: 600;">[[Kalibangan]]</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Rajasthan (Ghaggar)</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Ploughed field surface, 7 fire altars, black bangles, cylindrical seals.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1); font-weight: 600;">[[Lothal]]</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Gujarat (Bhogava/Sabarmati)</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Tidal brick dockyard, Persian Gulf seal, rice husk remains, terracotta mummy model.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1); font-weight: 600;">[[Dholavira]]</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Gujarat (Rann of Kutch)</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Giant water reservoirs/dams, 3-part city division, 10-alphabet signboard inscription.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1); font-weight: 600;">[[Surkotada]]</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Gujarat (Kutch)</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Actual horse bone remains, bead-making shops.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1); font-weight: 600;">[[Banawali]]</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Haryana (Saraswati)</td>
+        <td style="padding: 8px 12px; border: 1px solid rgba(255,255,255,0.1);">Terracotta model of the plough, high-quality barley seeds.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4 style="border-left: 3px solid #4ade80; padding-left: 8px; margin-top: 20px; color: #e2e8f0; font-weight: 600;">3. The Early Vedic (Rigvedic) Period (c. 1500–1000 BC)</h4>
+  <ul style="color: #cbd5e1;  padding-left: 20px; margin-bottom: 16px;">
+    <li><strong style="color: #e2e8f0;">Aryan Settlement & Origin:</strong> Settled primarily in the <span style="color: #4ade80;">Sapta Sindhu</span> (land of seven rivers). The <span style="color: #fbbf24;">[[Boghaz Koi inscription]]</span> (c. 1400 BC, Asia Minor) mentions four Vedic deities—<span style="color: #4ade80;">Indra, Mitra, Varuna, and Nasatya</span>—confirming the Central Asian migration route.</li>
+    <li><strong style="color: #e2e8f0;">Pastoral Economy:</strong> Cattle rearing was primary; agriculture was secondary. The cow (<span style="color: #fbbf24;">Aghanya</span> = not to be killed) served as a measure of wealth. Conflicts were termed <span style="color: #fbbf24;">Gavishti</span> (search for cows).</li>
+    <li><strong style="color: #e2e8f0;">Social Structure:</strong> Egalitarian, kin-based society divided into tribes called <span style="color: #fbbf24;">Jana</span>. Joint families were headed by the <span style="color: #fbbf24;">Kulapa</span>. Varna denoted color/group identity without rigid caste restrictions (occupational mobility affirmed in Mandala IX of [[Rigveda]]). Women held dignified status, attended assemblies, avoided child marriage, and could practice <span style="color: #fbbf24;">Niyoga</span> (levirate marriage) and widow remarriage.</li>
+    <li><strong style="color: #e2e8f0;">Tribal Polity:</strong> The king (<span style="color: #fbbf24;">Gopati</span> / Rajan) ruled with collective assent from assemblies: [[Sabha]] (council of elders/elites), [[Samiti]] (general tribal assembly), [[Vidhata]] (oldest assembly, redistributive and socio-religious functions), and *Gana*. Women participated in the *Sabha* and *Vidhata*.</li>
+  </ul>
+
+  <div style="background: rgba(46,204,113,0.1); border-left: 4px solid #2ecc71; padding: 12px; margin: 16px 0; border-radius: 4px;">
+    <strong>Memory Hack:</strong> 
+    <br>1. <em>Boghaz Koi Deities:</em> Remember <strong>IMVN</strong> &rarr; <strong>I</strong>ndra, <strong>M</strong>itra, <strong>V</strong>aruna, <strong>N</strong>asatya.
+    <br>2. <em>IVC Extents:</em> <strong>M-D-S-A</strong> &rarr; <strong>M</strong>anda (North), <strong>D</strong>aimabad (South), <strong>S</strong>utkagen Dor (West), <strong>A</strong>lamgirpur (East).
+    <br>3. <em>Vedic Assemblies:</em> <strong>V-S-S</strong> &rarr; <strong>V</strong>idhata (Oldest/Distribution), <strong>S</strong>amiti (Entire folk), <strong>S</strong>abha (Elite council).
+  </div>
+
+  <h4 style="border-left: 3px solid #4ade80; padding-left: 8px; margin-top: 24px; color: #e2e8f0; font-weight: 600;">Practice MCQs</h4>
+  
+  <div style="margin-top: 16px; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 6px; border: 1px solid rgba(255,255,255,0.06);">
+    <p style="color: #e2e8f0; margin-bottom: 8px;"><strong>Q1. Which of the following Vedic deities are explicitly mentioned in the 14th-century BC Boghaz Koi inscription of Asia Minor?</strong></p>
+    <p style="color: #cbd5e1; margin-bottom: 4px;">(A) Agni, Indra, Soma, and Varuna</p>
+    <p style="color: #cbd5e1; margin-bottom: 4px;">(B) Indra, Mitra, Varuna, and Nasatya</p>
+    <p style="color: #cbd5e1; margin-bottom: 4px;">(C) Rudra, Vishnu, Indra, and Pushan</p>
+    <p style="color: #cbd5e1; margin-bottom: 8px;">(D) Prajapati, Agni, Mitra, and Surya</p>
+    <p style="margin-bottom: 4px;"><strong style="color: #4ade80;">Answer: (B)</strong></p>
+    <p style="color: #94a3b8; font-size: 0.9em; margin: 0;">The Boghaz Koi inscription (1400 BC) records a peace treaty between the Hittite and Mittani kings invoking Indra, Mitra, Varuna, and Nasatya as divine witnesses. This archaeological record provides crucial evidence supporting the Central Asian contact theory of early Indo-Aryans.</p>
+  </div>
+
+  <div style="margin-top: 16px; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 6px; border: 1px solid rgba(255,255,255,0.06);">
+    <p style="color: #e2e8f0; margin-bottom: 8px;"><strong>Q2. At which of the following Harappan sites was an artificial brick dockyard discovered alongside evidence of Persian Gulf seals and rice husks?</strong></p>
+    <p style="color: #cbd5e1; margin-bottom: 4px;">(A) Dholavira</p>
+    <p style="color: #cbd5e1; margin-bottom: 4px;">(B) Kalibangan</p>
+    <p style="color: #cbd5e1; margin-bottom: 4px;">(C) Lothal</p>
+    <p style="color: #cbd5e1; margin-bottom: 8px;">(D) Surkotada</p>
+    <p style="margin-bottom: 4px;"><strong style="color: #4ade80;">Answer: (C)</strong></p>
+    <p style="color: #94a3b8; font-size: 0.9em; margin: 0;">Lothal, situated on the Bhogava river in Gujarat, served as a major port city featuring a sophisticated artificial tidal dockyard. The presence of Persian Gulf seals highlights its role in maritime trade, while rice husk remains differentiate it from most northern Harappan sites.</p>
+  </div>
+
+  <div style="margin-top: 16px; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 6px; border: 1px solid rgba(255,255,255,0.06);">
+    <p style="color: #e2e8f0; margin-bottom: 8px;"><strong>Q3. Consider the following pairs of prehistoric sites and their primary archaeological signatures:</strong><br>
+    1. Burzahom : Domestic dogs buried with masters in graves<br>
+    2. Bagor : Earliest evidence of animal domestication<br>
+    3. Banawali : Terracotta model of the plough<br>
+    Which of the pairs given above are correctly matched?</p>
+    <p style="color: #cbd5e1; margin-bottom: 4px;">(A) 1 and 2 only</p>
+    <p style="color: #cbd5e1; margin-bottom: 4px;">(B) 2 and 3 only</p>
+    <p style="color: #cbd5e1; margin-bottom: 4px;">(C) 1 and 3 only</p>
+    <p style="color: #cbd5e1; margin-bottom: 8px;">(D) 1, 2, and 3</p>
+    <p style="margin-bottom: 4px;"><strong style="color: #4ade80;">Answer: (D)</strong></p>
+    <p style="color: #94a3b8; font-size: 0.9em; margin: 0;">All three pairs are accurate: Burzahom is renowned for unique Neolithic human-dog burials, Bagor (along with Adamgarh) demonstrates early Mesolithic animal domestication, and Banawali yielded well-preserved terracotta plough models.</p>
+  </div>
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["british-expansion"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">
+    British Expansion in India
+  </h3>
+
+  <p style="color: #cbd5e1;  margin-bottom: 14px;">
+    The foundation and territorial expansion of the British Empire in India transformed the English East India Company (EIC) from a commercial trading venture into a paramount sovereign power between 1757 and 1857. In Defence entrance examinations (NDA/CDS/AFCAT), questions frequently test chronological treaties, key battles, Governor-Generals, and administrative-military policies of annexation.
+  </p>
+
+  <h4 style="color: #93c5fd; margin-top: 18px; margin-bottom: 8px; font-size: 1.1em; font-weight: 600;">1. Anglo-French Rivalry: The Carnatic Wars</h4>
+  <p style="color: #cbd5e1;  margin-bottom: 12px;">
+    The struggle between the British and French for trade monopoly in South India culminated in three Carnatic Wars:
+  </p>
+  <ul style="color: #cbd5e1;  margin-left: 20px; margin-bottom: 14px;">
+    <li><span style="color: #fbbf24;">First Carnatic War (1746–1748):</span> An extension of the War of Austrian Succession. Ended with the <strong>Treaty of Aix-la-Chapelle (1748)</strong>. Key engagement: <em>Battle of St. Thome (1746)</em>, demonstrating European tactical superiority.</li>
+    <li><span style="color: #fbbf24;">Second Carnatic War (1749–1754):</span> War of succession in Hyderabad and Carnatic. Ended with the <strong>Treaty of Pondicherry (1754)</strong> and the recall of French Governor [[Dupleix]].</li>
+    <li><span style="color: #fbbf24;">Third Carnatic War (1758–1763):</span> Decisive conflict linked to the Seven Years' War. General Eyre Coote decisively defeated the French under Count de Lally at the <span style="color: #4ade80;">Battle of Wandiwash (1760)</span>. The <strong>Treaty of Paris (1763)</strong> reduced the French to purely non-fortified commercial entities.</li>
+  </ul>
+
+  <h4 style="color: #93c5fd; margin-top: 18px; margin-bottom: 8px; font-size: 1.1em; font-weight: 600;">2. Conquest of Bengal</h4>
+  <ul style="color: #cbd5e1;  margin-left: 20px; margin-bottom: 14px;">
+    <li><span style="color: #fbbf24;">Battle of Plassey (23 June 1757):</span> Fought between Nawab Siraj-ud-Daulah and [[Robert Clive]]. Betrayal by Mir Jafar (Mir Bakshi) secured a British victory, establishing political foothold in Bengal.</li>
+    <li><span style="color: #fbbf24;">Battle of Buxar (22 October 1764):</span> Major military confrontation where Hector Munro defeated the joint forces of Mir Qasim (Bengal), Shuja-ud-Daulah (Awadh), and Mughal Emperor Shah Alam II.</li>
+    <li><span style="color: #4ade80;">Treaty of Allahabad (1765):</span> Concluded by Robert Clive. Granted the Company the [[Diwani Rights]] (revenue collection rights) over Bengal, Bihar, and Orissa in exchange for an annual tribute of Rs 26 lakh to Shah Alam II. Clive subsequently instituted the <span style="color: #fbbf24;">Dual Government</span> system (1765–1772) in Bengal, which was abolished by [[Warren Hastings]].</li>
+  </ul>
+
+  <h4 style="color: #93c5fd; margin-top: 18px; margin-bottom: 8px; font-size: 1.1em; font-weight: 600;">3. Major Regional Conflicts & Treaties</h4>
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 0.9em; color: #cbd5e1;">
+    <thead>
+      <tr style="background: rgba(255,255,255,0.06); text-align: left; border-bottom: 1px solid rgba(255,255,255,0.15);">
+        <th style="padding: 8px; color: #93c5fd;">Conflict</th>
+        <th style="padding: 8px; color: #93c5fd;">Period</th>
+        <th style="padding: 8px; color: #93c5fd;">Decisive Events / Rulers</th>
+        <th style="padding: 8px; color: #93c5fd;">Concluding Treaty</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <td style="padding: 8px;">1st Anglo-Mysore</td>
+        <td style="padding: 8px;">1767–1769</td>
+        <td style="padding: 8px;">[[Hyder Ali]] defeated British forces</td>
+        <td style="padding: 8px;"><span style="color: #fbbf24;">Treaty of Madras (1769)</span></td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <td style="padding: 8px;">2nd Anglo-Mysore</td>
+        <td style="padding: 8px;">1780–1784</td>
+        <td style="padding: 8px;">Death of Hyder Ali (1782); [[Tipu Sultan]] took command</td>
+        <td style="padding: 8px;"><span style="color: #fbbf24;">Treaty of Mangalore (1784)</span></td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <td style="padding: 8px;">3rd Anglo-Mysore</td>
+        <td style="padding: 8px;">1790–1792</td>
+        <td style="padding: 8px;">Lord Cornwallis captured Bangalore</td>
+        <td style="padding: 8px;"><span style="color: #4ade80;">Treaty of Seringapatam (1792)</span></td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <td style="padding: 8px;">4th Anglo-Mysore</td>
+        <td style="padding: 8px;">1799</td>
+        <td style="padding: 8px;">Fall of Seringapatam; death of Tipu Sultan</td>
+        <td style="padding: 8px;">Restoration of Wodeyar Dynasty under Subsidiary Alliance</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <td style="padding: 8px;">1st Anglo-Maratha</td>
+        <td style="padding: 8px;">1775–1782</td>
+        <td style="padding: 8px;">Treaty of Surat (1775), Treaty of Purandar (1776)</td>
+        <td style="padding: 8px;"><span style="color: #4ade80;">Treaty of Salbai (1782)</span></td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <td style="padding: 8px;">2nd Anglo-Maratha</td>
+        <td style="padding: 8px;">1803–1805</td>
+        <td style="padding: 8px;">Peshwa Baji Rao II signed [[Treaty of Bassein]] (1802)</td>
+        <td style="padding: 8px;">Treaty of Deogaon (Bhonsle), Surji-Anjangaon (Scindia)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <td style="padding: 8px;">3rd Anglo-Maratha</td>
+        <td style="padding: 8px;">1817–1818</td>
+        <td style="padding: 8px;">Lord Hastings crushed Pindaris; abolished Peshwaship</td>
+        <td style="padding: 8px;">Treaty of Mandasor (1818); Maratha Confederacy dissolved</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <td style="padding: 8px;">1st Anglo-Sikh</td>
+        <td style="padding: 8px;">1845–1846</td>
+        <td style="padding: 8px;">Battles of Mudki, Ferozeshah, Aliwal, and Sobraon</td>
+        <td style="padding: 8px;"><span style="color: #fbbf24;">Treaty of Lahore (1846)</span></td>
+      </tr>
+      <tr>
+        <td style="padding: 8px;">2nd Anglo-Sikh</td>
+        <td style="padding: 8px;">1848–1849</td>
+        <td style="padding: 8px;">Lord Dalhousie annexed Punjab completely</td>
+        <td style="padding: 8px;">Punjab Annexation Act (1849)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4 style="color: #93c5fd; margin-top: 18px; margin-bottom: 8px; font-size: 1.1em; font-weight: 600;">4. Imperial Annexation Policies</h4>
+  <p style="color: #cbd5e1;  margin-bottom: 12px;">
+    <strong>A. [[Subsidiary Alliance]] (Lord Wellesley, 1798):</strong> Native rulers surrendered foreign affairs, maintained a British contingent at their own cost, and accepted a British Resident. Rulers could not employ non-British Europeans without consent.
+    <br/>
+    <em>Sequence of States:</em> <span style="color: #4ade80;">Hyderabad (1798)</span> &rarr; Mysore (1799) &rarr; Tanjore (1799) &rarr; Awadh (1801) &rarr; Peshwa (1802) &rarr; Bhonsle (1803) &rarr; Scindia (1804).
+  </p>
+  <p style="color: #cbd5e1;  margin-bottom: 12px;">
+    <strong>B. [[Doctrine of Lapse]] (Lord Dalhousie, 1848–1856):</strong> Prohibited adopted heirs of protected states from inheriting sovereignty upon ruler's death without paramount power approval.
+    <br/>
+    <em>Chronology of Annexed States:</em> <span style="color: #4ade80;">Satara (1848)</span> &rarr; Jaitpur & Sambalpur (1849) &rarr; Baghat (1850) &rarr; Udaipur (1852) &rarr; Jhansi (1853) &rarr; Nagpur (1854).
+    <br/>
+    <em>Note:</em> <strong>Awadh (1856)</strong> was annexed on the ground of <span style="color: #fbbf24;">"alleged misgovernance"</span> based on James Outram's report, not the Doctrine of Lapse.
+  </p>
+  <p style="color: #cbd5e1;  margin-bottom: 12px;">
+    <strong>C. Annexation of Sindh (1843):</strong> Effected by <span style="color: #fbbf24;">[[Charles Napier]]</span> under Governor-General Lord Ellenborough following the First Anglo-Afghan War.
+  </p>
+
+  <div style="background: rgba(46,204,113,0.1); border-left: 4px solid #2ecc71; padding: 12px; margin: 16px 0; border-radius: 4px;">
+    <strong>Memory Hack:</strong>
+    <br/>
+    1. <em>Subsidiary Alliance Order:</em> <strong>"HMT-A-B-S"</strong> &rarr; <strong>H</strong>yderabad (1798), <strong>M</strong>ysore (1799), <strong>T</strong>anjore (1799), <strong>A</strong>wadh (1801), <strong>B</strong>erda/Bhonsle (1803), <strong>S</strong>cindia (1804).
+    <br/>
+    2. <em>Doctrine of Lapse Order:</em> <strong>"SanJa SamBU JN"</strong> &rarr; <strong>Sat</strong>ara (1848), <strong>Jait</strong>pur, <strong>Sam</strong>balpur, <strong>B</strong>aghat, <strong>U</strong>daipur, <strong>J</strong>hansi, <strong>N</strong>agpur.
+  </div>
+
+  <h4 style="border-left: 3px solid #4ade80; padding-left: 8px; margin-top: 24px; color: #e2e8f0; font-weight: 600;">Practice MCQs</h4>
+
+  <div style="margin-top: 14px; margin-bottom: 18px; color: #cbd5e1;">
+    <p style="margin-bottom: 6px;"><strong>Q1. Which of the following Indian states was the first to accept the Subsidiary Alliance system introduced by Lord Wellesley?</strong></p>
+    <p style="margin: 4px 0 2px 12px;">(A) Awadh</p>
+    <p style="margin: 2px 0 2px 12px;">(B) Hyderabad</p>
+    <p style="margin: 2px 0 2px 12px;">(C) Mysore</p>
+    <p style="margin: 2px 0 8px 12px;">(D) Maratha Peshwa</p>
+    <strong style="color: #4ade80;">Answer: (B)</strong>
+    <p style="margin-top: 4px; font-size: 0.9em; color: #94a3b8;">Nizam Ali Khan of Hyderabad was the first Indian ruler to enter into a Subsidiary Alliance with Lord Wellesley in 1798. Awadh and Mysore accepted the treaty subsequently in 1801 and 1799 respectively.</p>
+  </div>
+
+  <div style="margin-top: 14px; margin-bottom: 18px; color: #cbd5e1;">
+    <p style="margin-bottom: 6px;"><strong>Q2. Consider the following treaties signed during the British expansion:</strong></p>
+    <ol style="margin-left: 20px; margin-bottom: 6px;">
+      <li>Treaty of Salbai</li>
+      <li>Treaty of Seringapatam</li>
+      <li>Treaty of Allahabad</li>
+      <li>Treaty of Madras</li>
+    </ol>
+    <p style="margin-bottom: 6px;"><strong>What is the correct chronological order of the above treaties?</strong></p>
+    <p style="margin: 4px 0 2px 12px;">(A) 3 &rarr; 4 &rarr; 1 &rarr; 2</p>
+    <p style="margin: 2px 0 2px 12px;">(B) 4 &rarr; 3 &rarr; 2 &rarr; 1</p>
+    <p style="margin: 2px 0 2px 12px;">(C) 3 &rarr; 1 &rarr; 4 &rarr; 2</p>
+    <p style="margin: 2px 0 8px 12px;">(D) 4 &rarr; 1 &rarr; 3 &rarr; 2</p>
+    <strong style="color: #4ade80;">Answer: (A)</strong>
+    <p style="margin-top: 4px; font-size: 0.9em; color: #94a3b8;">The correct chronology is Treaty of Allahabad (1765), followed by Treaty of Madras (1769), Treaty of Salbai (1782), and Treaty of Seringapatam (1792). Thus, the correct sequence is 3 &rarr; 4 &rarr; 1 &rarr; 2.</p>
+  </div>
+
+  <div style="margin-top: 14px; margin-bottom: 14px; color: #cbd5e1;">
+    <p style="margin-bottom: 6px;"><strong>Q3. Awadh was annexed to the British Empire in 1856 by Lord Dalhousie on which of the following grounds?</strong></p>
+    <p style="margin: 4px 0 2px 12px;">(A) Doctrine of Lapse</p>
+    <p style="margin: 2px 0 2px 12px;">(B) Refusal to pay tribute</p>
+    <p style="margin: 2px 0 2px 12px;">(C) Alleged misgovernance and administrative maladministration</p>
+    <p style="margin: 2px 0 8px 12px;">(D) Defeat in an armed military rebellion</p>
+    <strong style="color: #4ade80;">Answer: (C)</strong>
+    <p style="margin-top: 4px; font-size: 0.9em; color: #94a3b8;">Nawab Wajid Ali Shah had legitimate natural heirs, so the Doctrine of Lapse could not be applied. Lord Dalhousie annexed Awadh in February 1856 under the pretext of gross maladministration based on the report submitted by British Resident James Outram.</p>
+  </div>
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["history-pyq-trends-topic"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">History PYQ Trends — NDA &amp; CDS</h3>
+  <p style="color: #94a3b8; margin-bottom: 16px;">This section summarises the most frequently asked History topics across NDA and CDS papers. Use this as a triage guide to prioritise your revision.</p>
+  <table style="width:100%; border-collapse: collapse; font-size: 0.9rem; margin-bottom: 20px;">
+    <thead>
+      <tr style="background: rgba(74,222,128,0.1);">
+        <th style="padding: 10px; border: 1px solid rgba(255,255,255,0.1); text-align: left;">Topic</th>
+        <th style="padding: 10px; border: 1px solid rgba(255,255,255,0.1);">NDA (approx. Qs)</th>
+        <th style="padding: 10px; border: 1px solid rgba(255,255,255,0.1);">CDS (approx. Qs)</th>
+        <th style="padding: 10px; border: 1px solid rgba(255,255,255,0.1);">Priority</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08);">Mughal Empire</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;">3–4</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;">4–6</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;"><span style="color:#4ade80; font-weight:700;">HIGH</span></td></tr>
+      <tr style="background:rgba(255,255,255,0.02);"><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08);">Ancient India (Maurya, Gupta)</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;">4–5</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;">3–5</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;"><span style="color:#4ade80; font-weight:700;">HIGH</span></td></tr>
+      <tr><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08);">Freedom Movement (1857–1947)</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;">3–5</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;">5–7</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;"><span style="color:#4ade80; font-weight:700;">HIGH</span></td></tr>
+      <tr style="background:rgba(255,255,255,0.02);"><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08);">Delhi Sultanate</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;">2–3</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;">3–4</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;"><span style="color:#fbbf24; font-weight:700;">MEDIUM</span></td></tr>
+      <tr><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08);">Indus Valley Civilisation</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;">2–3</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;">2–3</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;"><span style="color:#fbbf24; font-weight:700;">MEDIUM</span></td></tr>
+      <tr style="background:rgba(255,255,255,0.02);"><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08);">World Wars / Cold War</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;">1–2</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;">2–3</td><td style="padding:8px; border: 1px solid rgba(255,255,255,0.08); text-align:center;"><span style="color:#f87171;">LOW</span></td></tr>
+    </tbody>
+  </table>
+  <div style="background: rgba(74,222,128,0.08); border-left: 3px solid #4ade80; padding: 12px; border-radius: 4px;">
+    <strong style="color: #4ade80;">Exam Strategy:</strong> Focus 60% of your history revision time on Ancient India (Maurya to Gupta) and the Freedom Movement — these two alone account for 8–12 questions per paper. The Mughal period is tested more on culture and administration than on battle dates.
+  </div>
+</div>
+`;

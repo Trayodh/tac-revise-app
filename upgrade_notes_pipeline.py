@@ -21,9 +21,22 @@ client = OpenAI(
 
 ddgs = DDGS()
 
-# ==========================================
-# FUNCTIONS
-# ==========================================
+def parse_database(content: str) -> Dict[str, str]:
+    # Robustly parse the JS string bypassing internal backticks
+    parts = content.split('window.EXPANDED_NOTES_DATA["')
+    topics = {}
+    for part in parts[1:]:
+        end_quote = part.find('"]')
+        topic_id = part[:end_quote]
+        
+        start_idx = part.find('String.raw`') + len('String.raw`')
+        end_idx = part.rfind('`;')
+        
+        if start_idx != -1 and end_idx != -1:
+            html = part[start_idx:end_idx]
+            topics[topic_id] = html
+    return topics
+
 def search_the_web(query: str, max_results: int = 3) -> str:
     print(f"[*] Executing Web Search: '{query}'")
     try:
@@ -80,7 +93,6 @@ def synthesize_with_ai(topic_title: str, original_notes: str, web_context: str) 
             )
             response_text = completion.choices[0].message.content.strip()
             
-            # Clean up potential markdown blocks if they still appear
             if response_text.startswith("```json"):
                 response_text = response_text.strip("```json").strip("```").strip()
             elif response_text.startswith("```"):
@@ -124,71 +136,75 @@ def process_database(filepath: str):
     input_file = filepath
     output_file = "notes_generated_upgraded.js"
     
-    if os.path.exists(output_file):
-        print(f"[i] Found {output_file}, resuming progress...")
-        with open(output_file, "r", encoding="utf-8") as f:
-            js_content = f.read()
-    elif os.path.exists(input_file):
-        with open(input_file, "r", encoding="utf-8") as f:
-            js_content = f.read()
-    else:
-        print(f"[!] File not found: {input_file}")
-        return
-
-    pattern = r'window\.EXPANDED_NOTES_DATA\["([^"]+)"\]\s*=\s*String\.raw`([\s\S]*?)`;'
+    # Always read the original file to parse its structure
+    with open(input_file, "r", encoding="utf-8") as f:
+        orig_content = f.read()
+    orig_topics = parse_database(orig_content)
     
-    matches = list(re.finditer(pattern, js_content))
-    if not matches:
-        print(f"[!] Could not find any topics in {js_content[:100]}...")
-        return
+    # If the output file exists, parse it for existing upgrades
+    upgraded_topics = {}
+    if os.path.exists(output_file):
+        print(f"[i] Found {output_file}, parsing for existing upgrades...")
+        with open(output_file, "r", encoding="utf-8") as f:
+            upg_content = f.read()
+        upgraded_topics = parse_database(upg_content)
+        # Verify if the bottom block exists
+        bottom_block = ""
+        if "if (typeof NOTES_DATABASE !==" in upg_content:
+            bottom_block = upg_content.split("`;\n\n")[ -1 ]
+    else:
+        bottom_block = ""
+        # Copy the bottom block from the original file if no output file exists
+        if "if (typeof NOTES_DATABASE !==" in orig_content:
+            bottom_block = orig_content.split("`;\n\n")[ -1 ]
 
     updated_count = 0
+    total_to_process = len(orig_topics)
     
-    for match in matches:
-        topic_id = match.group(1)
-        original_html = match.group(2)
-        
-        if "<!-- AI UPGRADED FIELDS -->" in original_html:
+    for i, (topic_id, html) in enumerate(orig_topics.items()):
+        # Skip if already upgraded
+        if topic_id in upgraded_topics and "<!-- AI UPGRADED FIELDS -->" in upgraded_topics[topic_id]:
             continue
             
-        print(f"\n--- Processing: {topic_id} ---")
-        search_query = f"{topic_id.replace('-', ' ')} key concepts recent developments UPSC"
-        web_data = search_the_web(search_query)
+        print(f"\n--- Processing: {topic_id} ({i+1}/{total_to_process}) ---")
         
-        upgrades = synthesize_with_ai(topic_id, original_html, web_data)
+        topic_title = topic_id.split("_", 1)[1].replace("_", " ") if "_" in topic_id else topic_id
         
-        if upgrades:
-            upgrade_html = generate_upgrade_html(upgrades)
-            new_html = original_html + upgrade_html
+        web_context = search_the_web(f"{topic_title} upsc latest current affairs news", max_results=2)
+        
+        upgraded_data = synthesize_with_ai(topic_title, html, web_context)
+        
+        if upgraded_data:
+            upgrade_html = generate_upgrade_html(upgraded_data)
+            new_html = html + upgrade_html
+            upgraded_topics[topic_id] = new_html
+            updated_count += 1
             
-            # Replace the specific block in the current file content
-            new_line = f'window.EXPANDED_NOTES_DATA["{topic_id}"] = String.raw`{new_html}`;'
-            js_content = js_content.replace(match.group(0), new_line)
+            # Rebuild and save the ENTIRE file to ensure no data is lost
+            final_content = "window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};\n\n"
+            
+            # Combine all topics from all input files!
+            # Since we only iterate orig_topics here, we should actually merge orig_topics and upgraded_topics
+            merged_keys = set(list(orig_topics.keys()) + list(upgraded_topics.keys()))
+            
+            for k in merged_keys:
+                raw_html = upgraded_topics.get(k, orig_topics.get(k, ""))
+                # Important: Escape backticks so they don't break JS template literals
+                clean_html = raw_html.replace('`', '\\`')
+                final_content += f'window.EXPANDED_NOTES_DATA["{k}"] = String.raw`{clean_html}`;\n\n'
+                
+            final_content += bottom_block
             
             with open(output_file, 'w', encoding='utf-8') as f:
-                f.write(js_content)
+                f.write(final_content)
                 
             print(f"[+] Successfully generated and saved upgrades for {topic_id}")
-            updated_count += 1
-            time.sleep(3)
-            
+            time.sleep(1) # Prevent rate limiting
+        
     print(f"\n[<<<] Pipeline finished for {filepath}. Upgraded {updated_count} topics.")
 
-def write_db_to_file(filepath: str, db: Dict):
-    js_content = "window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};\n\n"
-    
-    for topic_id, html_content in db.items():
-        js_content += f'window.EXPANDED_NOTES_DATA["{topic_id}"] = String.raw`{html_content}`;\n\n'
-    
-    with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(js_content)
 
 if __name__ == "__main__":
-    print("Dronacharya AI Research & Web-Scraping Pipeline")
-    files_to_process = glob.glob("notes_generated*.js")
-    
+    files_to_process = ["notes_generated.js", "notes_generated_1000w.js", "notes_generated_batch6.js"]
     for file in files_to_process:
         process_database(file)
-        
-    print("\nALL FILES PROCESSED SUCCESSFULLY.")
-
