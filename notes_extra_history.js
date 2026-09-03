@@ -6413,3 +6413,912 @@ window.EXPANDED_NOTES_DATA["history-pyq-trends-topic"] = `
   </div>
 </div>
 `;
+
+window.EXPANDED_NOTES_DATA["dating-systems"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Dating Systems</h3>
+
+  <h4 style="color: #4ade80; margin-top: 24px; font-size: 1.1rem;">Introduction to Ancient Indian Chronology</h4>
+  <p style="color: #e2e8f0; line-height: 1.6;">The study of ancient Indian history is fundamentally anchored in the precise reconstruction of timelines, a task made complex by the absence of a single, unified era system. Unlike the modern [[Gregorian Calendar]], which provides a continuous count of years from a fixed point, ancient Indian societies employed multiple dating frameworks, each tied to the reign of a monarch, a dynasty, or a cosmological cycle. These systems, known as <strong>eras</strong>, were not merely administrative conveniences; they were deeply embedded in the political legitimacy, religious worldview, and cultural identity of the period. For defence aspirants, a thorough understanding of these [[Dating Systems]] is not an optional extra but a critical component of the history syllabus for the NDA, CDS, and AFCAT examinations. The ability to correlate an inscription, a coin, or a literary reference to a specific year is essential for accurately dating military campaigns, diplomatic treaties, and the rise and fall of kingdoms that shaped the Indian subcontinent. The most prominent eras that frequently appear in exam questions are the [[Vikrama Era]], the [[Saka Era]], and the [[Gupta Era]], each with its own origin, geographical spread, and historical significance.</p>
+
+  <h4 style="color: #4ade80; margin-top: 24px; font-size: 1.1rem;">The Vikrama Era: Legend and Historical Core</h4>
+  <p style="color: #e2e8f0; line-height: 1.6;">The [[Vikrama Era]] is one of the most widely referenced but also most misunderstood dating systems in Indian history. Traditionally, it is associated with the legendary king [[Vikramaditya]], whose reign is said to have begun in 57 BCE. This era was used extensively in western and central India, and its starting point is often linked to the victory of the king over the Saka rulers, marking the beginning of a new age of sovereignty. However, a critical nuance that aspirants must absorb is the existence of a second, later Vikrama era that commences in 134 CE, which was prevalent in certain regions of the Deccan. The exam typically tests the 57 BCE epoch, and a common trap is to confuse it with the [[Gupta Era]] or to misattribute its origin to a different king. The era was primarily a lunar calendar, and its conversion to the solar Gregorian calendar requires careful adjustment, a detail that often forms the basis of chronological problems in the CDS history paper. The era's name itself, derived from "Vikrama" meaning valour, underscores the martial ethos of the period, and many inscriptions and copper plates from this era record the military achievements and land grants of rulers, providing invaluable data for reconstructing the military history of ancient India.</p>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> A classic trap question asks: "The Vikrama era began in which year?" The answer is 57 BCE. However, be prepared to distinguish it from the later Vikrama era of 134 CE, which is rarely tested but sometimes appears in advanced CDS questions to test depth of knowledge.
+  </div>
+
+  <h4 style="color: #4ade80; margin-top: 24px; font-size: 1.1rem;">The Saka Era: The Foundation of the National Calendar</h4>
+  <p style="color: #e2e8f0; line-height: 1.6;">The [[Saka Era]], which commenced in 78 CE, holds a unique position as the basis for the [[Indian National Calendar]], which is still used for official purposes by the Government of India. This era was initiated by the [[Kshatrapas]], the Saka rulers of Ujjain and the western regions, and was later adopted and popularised by the [[Gupta Dynasty]]. The era's starting point is conventionally linked to the accession of the Saka king [[Kanishka]] or the establishment of the Saka satrapies, though the exact historical event remains a subject of scholarly debate. The significance of the Saka era for the defence community is twofold: first, it provides the framework for the national calendar, which is used to date contemporary military ceremonies, commemorations, and official records; second, it is the most common era found in inscriptions from the Gupta period, which is considered the golden age of Indian culture and political consolidation. The Saka era is a solar calendar, and its months and days are aligned with the solar year, making it more stable than its lunar counterparts. This stability was crucial for the administration of a vast empire, including the organisation of armies, the collection of taxes, and the scheduling of seasonal campaigns.</p>
+
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> Remember the three key eras with this simple trick: <strong>V</strongikram <strong>57 BCE</strong> (old), <strong>S</strongaka <strong>78 CE</strong> (national), <strong>G</strongupta <strong>319 CE</strong> (golden). Use the initials <strong>V-S-G</strong> and the numbers <strong>57-78-319</strong> to recall the sequence. Imagine a soldier (V) standing on a wall (57), then saluting the national flag (S) at 78, and finally guarding a golden treasure (G) at 319.
+  </div>
+
+  <h4 style="color: #4ade80; margin-top: 24px; font-size: 1.1rem;">The Gupta Era: The Golden Age of Indian Chronology</h4>
+  <p style="color: #e2e8f0; line-height: 1.6;">The [[Gupta Era]], which began in 319 CE, is synonymous with the rise of the [[Gupta Dynasty]], often described as the Golden Age of ancient India. This era was used predominantly in northern India and is extensively recorded in the inscriptions of Gupta kings such as [[Chandragupta II]] and Kumaragupta. The era's starting point is believed to be the year of the accession of the first Gupta king, Chandragupta I, or the establishment of the Gupta imperial order. For defence aspirants, the Gupta period is critical because it represents a time of immense military expansion, cultural flourishing, and administrative sophistication. The Gupta army was one of the most powerful in ancient India, and the era's records provide detailed information about the kingdom's military organisation, including the existence of infantry, cavalry, and war elephants. The era is also significant because it overlaps with the Saka era, and understanding the relationship between the two is essential for converting dates between different inscriptional sources. A common exam question might ask to convert a Gupta era date to the Gregorian calendar or to the Saka era, testing the aspirant's ability to navigate between these systems accurately.</p>
+
+  <h4 style="color: #4ade80; margin-top: 24px; font-size: 1.1rem;">Comparative Analysis of Major Eras</h4>
+  <p style="color: #e2e8f0; line-height: 1.6;">To facilitate a clear understanding, the following table compares the three most important eras frequently tested in the NDA and CDS examinations. This comparison highlights the starting year, the associated dynasty or ruler, the primary geographical region of usage, and its modern relevance.</p>
+  <table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9rem;">
+    <thead><tr style="background:rgba(74,222,128,0.1);">
+      <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left;">Era</th>
+      <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left;">Starting Year</th>
+      <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left;">Associated Dynasty/Ruler</th>
+      <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left;">Primary Region</th>
+      <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left;">Modern Relevance</th>
+    </tr></thead>
+    <tbody>
+      <tr style="background:rgba(20,20,30,0.2);">
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Vikrama Era]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">57 BCE</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">King [[Vikramaditya]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Western & Central India</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Historical chronology</td>
+      </tr>
+      <tr style="background:rgba(20,20,30,0.4);">
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Saka Era]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">78 CE</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Kshatrapas]], [[Gupta Dynasty]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Northern & Western India</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Indian National Calendar]]</td>
+      </tr>
+      <tr style="background:rgba(20,20,30,0.2);">
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Gupta Era]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">319 CE</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Gupta Dynasty]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Northern India</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Golden Age chronology</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4 style="color: #4ade80; margin-top: 24px; font-size: 1.1rem;">Other Contemporary and Cosmological Eras</h4>
+  <p style="color: #e2e8f0; line-height: 1.6;">Beyond the three primary eras, ancient India witnessed a multitude of other dating systems that reflect the region's cultural and religious diversity. The [[Buddhist Era]], which begins with the passing of the Buddha (traditionally dated to 543 BCE, though modern scholarship varies), was used in various parts of South and Southeast Asia. Similarly, the [[Jain Era]] is linked to the death of Mahavira, and the [[Kali Yuga]] era, part of the Hindu cosmic cycle, started in 3102 BCE and was used in some calendrical traditions. These systems are less frequently tested but have appeared in AFCAT papers in the context of comparative chronology. For instance, a question might ask to correlate the Buddhist era with the Gregorian calendar or to identify the century of a particular event mentioned in a Buddhist text. Understanding these eras is also crucial for defence officers who may be involved in cultural heritage preservation, as many ancient military sites and inscriptions are dated using these alternative systems.</p>
+
+  <h4 style="color: #4ade80; margin-top: 24px; font-size: 1.1rem;">Historical Significance in a Defence Context</h4>
+  <p style="color: #e2e8f0; line-height: 1.6;">The precise dating of historical events is not merely an academic exercise; it has direct implications for the study of military history, which is a core component of the NDA and CDS syllabus. Accurate chronology allows for the reconstruction of military campaigns, such as those of Alexander the Great, Chandragupta Maurya, or the various Saka and Gupta kings, enabling aspirants to understand the sequence of battles, alliances, and territorial changes. For example, dating the invasion of the Saka rulers in northwestern India or the campaigns of the Gupta emperor [[Chandragupta II]] against the Vakatakas requires a firm grasp of the corresponding era. Moreover, the dating of coins and inscriptions provides primary evidence for the economic and administrative history of a kingdom, which indirectly reflects its military capability. A kingdom's ability to mint coins and issue copper plates recording land grants to soldiers is a indicator of its organisational strength. Thus, mastery of these dating systems equips defence aspirants with the analytical tools necessary to interpret ancient sources, a skill that is invaluable in strategic studies and historical analysis, even in modern contexts.</p>
+
+  <h4 style="color: #4ade80; margin-top: 24px; font-size: 1.1rem;">Common Pitfalls and Advanced Nuances</h4>
+  <p style="color: #e2e8f0; line-height: 1.6;">Aspirants often fall into several traps when dealing with ancient Indian dating systems. The most common error is the conflation of the [[Vikrama Era]] with the [[Gupta Era]], as both are associated with legendary kings and are often mentioned together in historical texts. Another frequent mistake is the misremembering of the starting year of the [[Saka Era]]; some students recall it as 78 CE but confuse it with 78 BCE or another year. A deeper nuance that advanced CDS questions might probe is the fact that the Saka era used in the national calendar is a solar calendar, while the original Saka era of the Kshatrapas was a lunar calendar, and the conversion between the two requires specific rules. Additionally, the Gupta era is sometimes referred to as the "Gupta Vikrama" era, creating further confusion. To avoid these pitfalls, it is essential to practice date conversion problems and to memorise the key years using the memory hack provided earlier. Furthermore, always pay attention to the context of the inscription—whether it is from a copper plate, a stone pillar, or a coin—as the dating method may vary. For instance, coins often use the era of the ruling king, while inscriptions may use a regnal year, which must then be correlated with a known era to establish an absolute date.</p>
+
+  <h4 style="color: #4ade80; margin-top: 24px; font-size: 1.1rem;">Conclusion: Integrating Chronology into Defence Studies</h4>
+  <p style="color: #e2e8f0; line-height: 1.6;">In conclusion, the dating systems of ancient India are more than just a list of years; they are the backbone of historical inquiry and a critical area of study for NDA, CDS, and AFCAT aspirants. The [[Vikrama Era]], [[Saka Era]], and [[Gupta Era]] each represent a distinct epoch of Indian history, and their mastery allows for the accurate placement of events within the broader narrative of the subcontinent's past. By understanding the nuances of these systems, including the common traps and the comparative relationships between them, aspirants can confidently tackle the chronology-based questions that frequently appear in the examinations. Moreover, this knowledge provides a foundational skill for the later study of military history, strategic thought, and the evolution of administrative systems, all of which are integral to the training of future officers in the Indian Armed Forces. The ability to date an event accurately is the first step in analysing its causes, consequences, and strategic significance, making the study of dating systems an indispensable part of a defence aspirant's journey.</p>
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["sources-indian-history"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Sources of Indian History</h3>
+
+  <h4 style="color:#4ade80; margin-top:24px;">1. Primary Sources – The Bedrock of Historical Reconstruction</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    Primary sources are contemporaneous records that provide direct evidence about the period under study. In the Indian sub‑continent they fall into four major categories – <strong>Epigraphy</strong>, <strong>Numismatics</strong>, <strong>Literary Texts</strong> and <strong>Archaeological Remains</strong>. Each category carries its own methodological strengths and pitfalls, and a defence aspirant must be able to judge their reliability quickly, especially when a question asks for the “most authentic source for a given event”.
+  </p>
+  <ul style="color:#e2e8f0; margin-left:20px; line-height:1.6;">
+    <li><strong>Epigraphy (Inscriptions)</strong> – stone, copper‑plate and metal inscriptions such as the [[Ashoka]] Edicts, the [[Sanchi]] inscription of [[Ashoka]], the [[Hathigumpha]] inscription of [[Kharavela]], and the [[Rajatarangini]] of [[Kalhana]] (Kashmir history). They often contain dates in regnal years, royal titles, and details of grants.</li>
+    <li><strong>Numismatics (Coins)</strong> – coins of the [[Mauryan Empire]], [[Satavahana]] silver dinars, [[Gupta]] gold dinars, and later [[Mughal]] rupees. Coins reveal economic health, trade routes, metallurgical technology and political propaganda.</li>
+    <li><strong>Literary Texts</strong> – contemporaneous works like the [[Arthashastra]] of [[Kautilya]], the [[Mahabharata]] (historical core), the [[Puranas]], the [[Buddhist] ][[Jataka]] tales, and travelogues such as the [[Baburnama]] and [[Alberuni’s]] accounts.</li>
+    <li><strong>Archaeological Remains</strong> – urban layouts of the [[Indus Valley Civilization]] sites like [[Harappa]] and [[Mohenjo-daro]], temple complexes of the [[Chola]] period, and fortifications of the [[Mughal]] era. These remain crucial for understanding military architecture and logistics.</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:24px;">2. Secondary Sources – Interpretation and Synthesis</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    Secondary sources are later analyses that interpret primary data. They include modern historiography, commentaries, and compilations such as the [[Cambridge History of India]], the works of [[R.C. Majumdar]], and the research papers of the [[Archaeological Survey of India (ASI)]]. While they help in framing narratives, aspirants must be wary of historiographical bias, especially when the source reflects colonial or nationalist agendas.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">3. Reliability Matrix – Primary vs. Secondary</h4>
+  <table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9rem; color:#e2e8f0;">
+    <thead>
+      <tr style="background:rgba(74,222,128,0.1);">
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left;">Aspect</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Primary Sources</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Secondary Sources</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Temporal Proximity</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Contemporary or near‑contemporary</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Often centuries later</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Bias</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Royal propaganda, religious zeal</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Modern ideological lenses</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Utility for Defence Studies</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Maps of ancient forts, troop movements, supply lines</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Strategic analyses, comparative warfare studies</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4 style="color:#4ade80; margin-top:24px;">4. Detailed Look at Key Primary Sources</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    <strong>Epigraphy</strong> – The earliest Indian inscriptions date back to the 3rd century BCE, notably the [[Ashoka]] Edicts spread across the sub‑continent. These edicts are written in Brahmi and Kharosthi scripts and provide exact dates using the “year of the reign” formula. For a defence aspirant, the Edicts at [[Sanchi]] and [[Sarnath]] also mention the construction of roads and rest houses for pilgrims, hinting at early logistical networks akin to modern supply lines.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    <strong>Numismatics</strong> – Coins are miniature propaganda tools. The [[Gupta]] gold dinar often bears the king’s portrait and the legend “[[Vikramaditya]]”. The weight standards (e.g., 8 g for a Gupta dinar) help historians reconstruct trade volumes. The presence of Greek motifs on [[Indo‑Greek]] coins of [[Menander I]] indicates cross‑Cultural military alliances, a point frequently asked in NDA geography‑history cross‑overs.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    <strong>Literary Texts</strong> – While epics like the [[Mahabharata]] are mythic, the “Kurukshetra” war description provides insight into ancient battle formations (e.g., “Chakra” and “Padma” formations). The [[Arthashastra]] outlines statecraft, espionage, and fort construction, directly relevant to modern defence studies. Remember, the text mentions “the use of iron‑clad chariots” – an early reference to armored vehicles.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    <strong>Archaeology</strong> – Excavations at the [[Harappa]] site revealed a well‑planned city with a citadel, granaries, and a sophisticated drainage system, suggesting organized civil‑military administration. The discovery of the [[Sanchi Stupa]] complex, with its surrounding stone railings, indicates the strategic placement of religious monuments along trade routes, which doubled as safe havens for traveling troops.
+  </p>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> The most reliable source for dating the reign of [[Ashoka]] is the <em>Edicts of Ashoka</em> (c. 272‑236 BCE). Questions often pair this with the <em>Rock Edicts at Kalsi</em> to test knowledge of script evolution (Brahmi → Kharosthi).
+  </div>
+
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> Remember the four primary source types with the acronym **E‑N‑L‑A** – <em>Epigraphy, Numismatics, Literary, Archaeology</em>. Visualise a soldier (E) holding a coin (N) reading a scroll (L) while standing on a ruined fort (A). This image ties directly to the defence context.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">5. Chronological Anchors – Dates Every Aspirant Must Know</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The timeline of Indian sources is punctuated by landmark dates that frequently appear in NDA and CDS question banks:
+  </p>
+  <ul style="color:#e2e8f0; margin-left:20px; line-height:1.6;">
+    <li>c. 2500 BCE – Earliest Harappan seals (proto‑writing) discovered at [[Mohenjo-daro]].</li
+`;
+
+window.EXPANDED_NOTES_DATA["stone-age"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Stone Age</h3>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Chronological Overview</h4>
+  <p>The [[Stone Age]] is conventionally divided into three broad phases – the [[Paleolithic]] (Old Stone Age), the [[Mesolithic]] (Middle Stone Age) and the [[Neolithic]] (New Stone Age). The timeline stretches from roughly <strong>2.5 million BCE</strong> (first recognised stone tools of the [[Oldowan]] tradition) to about <strong>3000 BCE</strong> when metalworking began to dominate in the Indian sub‑continent. Each phase is distinguished by characteristic tool‑making techniques, subsistence patterns and settlement dynamics.</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Paleolithic Period (≈ 2.5 M BCE – 10 K BCE)</h4>
+  <p>The [[Paleolithic]] itself is further split into Lower, Middle and Upper sub‑periods. In the Lower Paleolithic, large bifacial hand‑axes of the [[Acheulean]] tradition (e.g., at the [[Bhimbetka rock shelters]]) dominate the archaeological record. The Middle Paleolithic sees the emergence of prepared‑core technologies such as the Levallois technique, while the Upper Paleolithic witnesses a burst of symbolic behaviour – cave paintings, personal ornaments and refined blade production.</p>
+  <p>Key sites in the Indian context include the [[Bhimbetka rock shelters]] (dated to ~100 K BCE) where ochre paintings depict hunting scenes, and the [[Khandar]] site where quartzite hand‑axes have been recovered. The primary subsistence strategy was hunting‑gathering, with seasonal migrations dictated by the availability of game and edible plants.</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Mesolithic Period (≈ 10 K BCE – 4 K BCE)</h4>
+  <p>The [[Mesolithic]] marks a transitional phase where stone tool technology becomes more refined and regionally diverse. The hallmark is the production of microliths – tiny, geometrically shaped flake tools that were often hafted onto wooden shafts to create composite weapons such as arrows and sickles. In the Indian sub‑continent, the [[Bagor]] site in Rajasthan (c. 9 K BCE) is a classic example, yielding thousands of microlithic blades.</p>
+  <p>Subsistence shifts toward a mixed economy: hunting remains important, but there is increased reliance on gathering of wild cereals, tubers and fruits. Some groups begin to experiment with early forms of plant management, setting the stage for full‑scale agriculture in the Neolithic.</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Neolithic Period (≈ 4 K BCE – 3 K BCE)</h4>
+  <p>The [[Neolithic]] is defined by the advent of systematic agriculture, animal domestication and permanent settlements. In the western Himalayas, the [[Burzahom]] site (c. 3000 BCE) reveals evidence of wheat cultivation, goat/sheep herding, and pit‑house architecture. Pottery, polished stone axes and grinding stones become common, reflecting a shift from hunting to food production.</p>
+  <p>Social complexity increases: surplus production enables craft specialization, trade networks, and the emergence of proto‑urban centres. The Neolithic also witnesses the first recorded use of stone fortifications – earthen embankments reinforced with stone walls – a precursor to later defensive architecture.</p>
+
+  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid #4ade80; padding: 16px; margin-top: 32px; border-radius: 0 8px 8px 0; color:#e2e8f0;">
+    <div style="display: flex; align-items: center; margin-bottom: 12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <h3 style="color: #4ade80; margin: 0; font-size: 1.1rem;">AI-Generated Summary & Formulas</h3>
+    </div>
+    <ul style="margin-top: 8px; margin-left: 20px; list-style-type: disc;">
+      <li style="margin-bottom: 8px;"><strong>Paleolithic:</strong> Quartzite, Bhimbetka | Mesolithic: Microliths, Bagor | Neolithic: Farming, Burzahom</li>
+    </ul>
+  </div>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> The most frequently asked fact is the chronological order – <em>Paleolithic → Mesolithic → Neolithic</em>. Remember that the [[Mesolithic]] is characterised by <strong>microlithic composite tools</strong>. A common trap: confusing the start of the Neolithic (≈ 4 K BCE) with the beginning of the Bronze Age (≈ 3300 BCE). In NDA 2019 and CDS 2021, the question asked for the site associated with early microliths – the answer was <strong>Bagor (Rajasthan)</strong>.
+  </div>
+
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> <em>P‑M‑N = “Pretty Mighty New”</em> – <strong>P</strong>aleolithic (big hand‑axes), <strong>M</strong>esolithic (tiny <strong>microliths</strong>), <strong>N</strong>eolithic (new agriculture). Visualise a child growing from a big stone (hand‑axe) to a tiny bead (microlith) to a green sprout (crop). This rhyme helps lock the sequence and the key technological hallmark of each phase.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Comparative Overview of the Three Phases</h4>
+  <table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9rem; color:#e2e8f0;">
+    <thead>
+      <tr style="background:rgba(74,222,128,0.1);">
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left;">Feature</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Paleolithic</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Mesolithic</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Neolithic</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Time Span</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">~2.5 M BCE – 10 K BCE</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">~10 K BCE – 4 K BCE</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">~4 K BCE – 3 K BCE</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.02);">
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Dominant Tools</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Hand‑axes, choppers ([[Oldowan]], [[Acheulean]])</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Microliths, backed blades</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Polished axes, sickles, grinding stones</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Subsistence</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0
+`;
+
+window.EXPANDED_NOTES_DATA["chalcolithic-age"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Chalcolithic Age</h3>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Overview & Chronology</h4>
+  <p style="margin:12px 0; line-height:1.6;">
+    The [[Chalcolithic Age]], also called the [[Copper Age]], marks the transitional phase between the [[Neolithic]] and the [[Bronze Age]] in the Indian sub‑continent. It spans roughly from <strong>c. 3000 BCE to 1500 BCE</strong> in most regions, though some pockets persisted until the early [[Iron Age]] (≈ 1200 BCE). The term “Chalcolithic” derives from the Greek words <em>chalkos</em> (copper) and <em>lithos</em> (stone), indicating that societies still used stone tools while copper artefacts began to appear in everyday life. This duality is crucial for defence‑related questions because it reflects the first systematic exploitation of metal for weapons, a precursor to the sophisticated armaments of later periods.
+  </p>
+  <p style="margin:12px 0; line-height:1.6;">
+    In the Indian context, the Chalcolithic is not a monolithic culture; it comprises several regional complexes that evolved independently yet shared common technological traits such as copper smelting, pit‑filled houses, and the emergence of fortified settlements. The most studied are the [[Jorwe culture]] of western Maharashtra, the [[Ahar‑Banas culture]] of Rajasthan‑Gujarat, the [[Malwa culture]] of central India, and the [[Saraswati basin]] sites in Haryana‑Punjab. Understanding the chronology of each complex helps candidates avoid the common trap of assigning a single date to the entire Chalcolithic phase—a frequent source of mistakes in NDA and CDS papers.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Geographical Spread & Major Cultures</h4>
+  <p style="margin:12px 0; line-height:1.6;">
+    The Chalcolithic belt stretches from the western Deccan plateau to the north‑western semi‑arid zones and the fertile plains of the [[Saraswati River]]. Key cultural nuclei include:
+  </p>
+  <ul style="margin-left:24px; line-height:1.6;">
+    <li><strong>Jorwe culture</strong> – centred around the present‑day districts of Pune, Ahmednagar and Nashik in [[Maharashtra]]; notable sites: [[Inamgaon]], Jorwe, Mahur.</li>
+    <li><strong>Ahar‑Banas culture</strong> – located in the [[Rajasthan]]‑[[Gujarat]] corridor, especially around the Ahar (Udaipur) and Banas (Rajasthan) river basins; chief sites: Ahar, Gilund, Balathal.</li>
+    <li><strong>Malwa culture</strong> – spread across [[Madhya Pradesh]] and parts of [[Uttar Pradesh]]; hallmark sites: Hallur, Kayatha, Maheshwar.</li>
+    <li><strong>Saraswati basin sites</strong> – early Chalcolithic settlements near the now‑dry Saraswati river, such as Rakhigarhi (also a Harappan site) and Kotla Nihang.</li>
+  </ul>
+  <p style="margin:12px 0; line-height:1.6;">
+    These cultures exhibit both continuity with the preceding [[Harappan civilization]] (e.g., use of baked bricks, granaries) and distinct innovations like copper weaponry, new pottery forms (black‑burnished ware, painted ware), and the first evidence of organized animal husbandry for draught purposes—an aspect directly relevant to the logistics of ancient warfare.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Material Culture: Copper, Pottery & Architecture</h4>
+  <p style="margin:12px 0; line-height:1.6;">
+    The hallmark of the Chalcolithic is the introduction of copper artefacts. Simple copper axes, chisels, and later, more refined daggers and spearheads appear alongside traditional stone tools. Metallurgical analysis of sites like [[Inamgaon]] shows that copper was obtained from native ores in the [[Satpura Range]] and refined using open‑air furnaces with bellows made of animal hide. The presence of copper smelting furnaces indicates a level of technological organization that required skilled labour, raw material procurement, and knowledge of alloying—skills that later fed into the production of bronze and iron weapons.
+  </p>
+  <p style="margin:12px 0; line-height:1.6;">
+    Pottery styles are equally diagnostic. The Jorwe culture is renowned for its “red‑and‑black ware” with geometric motifs, while the Ahar‑Banas sites exhibit “painted ware” with linear designs in red and black pigments. These ceramics are often found in domestic contexts but also in burial pits, suggesting a ritual dimension that can be linked to the emerging social stratification of the period.
+  </p>
+  <p style="margin:12px 0; line-height:1.6;">
+    Architecturally, many Chalcolithic settlements were fortified with earthen ramparts, stone revetments, and occasional wooden palisades. The fortified enclosure at [[Balathal]] (Rajasthan) encloses an area of about 1.5 ha and includes a central hearth, storage pits, and a well‑planned drainage system—features that point to a community capable of coordinated defence and resource management, a theme that appears in several NDA geography‑history questions.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Socio‑Economic Aspects & Trade Networks</h4>
+  <p style="margin:12px 0; line-height:1.6;">
+    Agriculture formed the backbone of Chalcolithic economies. Crops such as wheat, barley, millets, and pulses were cultivated using plough‑like implements of wood reinforced with copper tips. The domestication of cattle and the use of oxen for ploughing and transport represent a decisive shift from purely pastoral to mixed agro‑pastoral systems, enhancing food surplus and enabling the support of non‑farmers such as metalworkers, potters, and traders.
+  </p>
+  <p style="margin:12px 0; line-height:1.6;">
+    Evidence of long‑distance trade comes from the presence of non‑local raw materials: copper from the [[Satpura Range]], semi‑precious stones from the [[Aravalli hills]], and marine shells from the [[Konkan coast]] found at inland sites like [[Inamgaon]]. These exchange networks are believed to have been facilitated by riverine routes (e.g., the [[Narmada]], [[Tapti]]) and over‑land caravan trails that later formed the backbone of the [[Silk Road]] in the sub‑continent. For defence aspirants, the strategic importance of controlling such trade corridors is a recurring theme in essay‑type questions.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Defence & Warfare in the Chalcolithic</h4>
+  <p style="margin:12px 0; line-height:1.6;">
+    While large‑scale warfare as seen in the later [[Mahajanapada]] period is not extensively documented for the Chalcolithic, the archaeological record does reveal a clear trajectory toward militarisation. Copper daggers and spearheads, often found in burial contexts, suggest a warrior elite. Moreover, the fortified settlements with ramparts and controlled entry points indicate an awareness of external threats—likely from rival villages or nomadic groups moving across the semi‑arid zones.
+  </p>
+  <p style="margin:12px 0; line-height:1.6;">
+    The [[Dhanurveda]], an ancient treatise on archery, although compiled later, references early copper‑tipped arrows, hinting that the technological foundations were laid during the Chalcolithic. Additionally, the emergence of the [[Kshatriya]] class in later Vedic texts is thought to have its sociopolitical roots in the warrior‑farmers of this age, who combined agricultural surplus with martial capability. Understanding this continuum helps candidates answer comparative questions on the evolution of Indian martial traditions.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Transition to the Iron Age & Legacy</h4>
+  <p style="margin:12px 0; line-height:1.6;">
+    By the mid‑second millennium BCE, copper resources began to dwindle, and the knowledge of iron smelting—originating in the [[Deccan]] and spreading northwards—started to replace copper as the primary metal for tools and weapons. Sites such as [[Hallur]] show a clear stratigraphic overlap where copper artefacts coexist with early iron implements, marking a gradual transition rather than an abrupt break. This overlap is a frequent point of confusion in exams; remember that the Chalcolithic did not disappear overnight but merged into the early Iron Age, giving rise to the [[Mahajanapada]] states.
+  </p>
+  <p style="margin:12px 0; line-height:1.6;">
+    The legacy of the Chalcolithic period lives on in several ways: the settlement planning concepts (grid‑like streets, communal granaries) influenced later urbanism; the metallurgical expertise paved the way for the bronze and iron industries; and the social stratification evident in burial goods foreshadowed the caste‑based occupational divisions that became entrenched in later Indian societies. For defence aspirants, appreciating these continuities provides a richer context for questions on the evolution of Indian warfare, logistics, and state formation.
+  </p>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA
+`;
+
+window.EXPANDED_NOTES_DATA["rock-art"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Rock Art</h3>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Introduction & Significance</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    Rock art constitutes the earliest visual communication of Homo sapiens and their ancestors. In the Indian subcontinent it spans a continuous timeline of more than <strong>2.5 million years</strong>, beginning with the <strong>Lower Paleolithic</strong> hand‑prints in the <strong>Bhimbetka</strong> shelters and extending to the <strong>Iron Age</strong> petroglyphs of the Deccan plateau. For the <span style="color:#fbbf24;">NDA</span>/<span style="color:#fbbf24;">CDS</span> syllabus, rock art is a high‑yield topic because it intersects <em>pre‑historical chronology, cultural geography, and the strategic importance of terrain awareness</em>. Understanding the distribution of rock‑shelter sites helps candidates answer questions on <strong>geopolitics of heritage zones</strong> and the role of <strong>cultural preservation in national security</strong>.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Chronology & Major Sites</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The Indian rock‑art timeline is traditionally divided into four broad phases:
+  </p>
+  <ul style="color:#e2e8f0; margin-left:20px; line-height:1.6;">
+    <li><strong>Lower Paleolithic (≈ 2.5–1.0 Ma)</strong> – Simple incised lines and hand‑stamps, e.g., <strong>Bhimbetka</strong> (Madhya Pradesh).</li>
+    <li><strong>Upper Paleolithic (≈ 50–10 ka)</strong> – Polished engravings of fauna, often in <strong>Rajasthan</strong> and <strong>Kashmir</strong>.</li>
+    <li><strong>Mesolithic (≈ 10–5 ka)</strong> – Dynamic hunting scenes in red ochre, notable at <strong>Bhimbetka’s “Dance” panel</strong> and <strong>Uttarakhand’s Lakhang</strong> caves.</li>
+    <li><strong>Neolithic–Chalcolithic (≈ 5–2 ka)</strong> – Symbolic motifs (swastikas, geometric patterns) and early script‑like signs found in <strong>Karnataka</strong> and <strong>Rajasthan’s Jodhpur</strong> region.</li>
+  </ul>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    <strong>Bhimbetka rock shelters</strong> (UNESCO World Heritage, inscribed 2003) host the most extensive and chronologically diverse assemblage, ranging from the earliest hand‑stamps to Iron‑Age depictions of chariots. The site was systematically documented by <strong>V.S. Wakankar</strong> in <strong>1957</strong>, a fact that appears repeatedly in <span style="color:#fbbf24;">CDS 2019</span> and <span style="color:#fbbf24;">NDA 2021</span> papers.
+  </p>
+
+  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid #4ade80; padding: 16px; margin-top: 32px; border-radius: 0 8px 8px 0;">
+    <div style="display: flex; align-items: center; margin-bottom: 12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <h3 style="color: #4ade80; margin: 0; font-size: 1.1rem;">AI-Generated Summary & Formulas</h3>
+    </div>
+    <ul style="margin-top: 8px; margin-left: 20px; list-style-type: disc;">
+      <li style="margin-bottom: 8px;"><strong>Bhimbetka discoverer:</strong>  V.S. Wakankar (1957) | Colors: Green (dance), Red (hunt)</li>
+    </ul>
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Techniques, Materials & Symbolism</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    Rock art is broadly classified into <strong>petroglyphs</strong> (incised or hammered designs) and <strong>pictographs</strong> (painted motifs). The pigments used were derived from natural minerals: <strong>red ochre (hematite)</strong>, <strong>yellow ochre (goethite)</strong>, <strong>black charcoal</strong>, and occasional <strong>white kaolin</strong>. The choice of colour often carried semantic weight: red signified blood, hunting, or warfare; green indicated fertility rites or communal dances; black was associated with death or shamanic trance.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    Scholars interpret the scenes through three major lenses:
+  </p>
+  <ol style="color:#e2e8f0; margin-left:20px; line-height:1.6;">
+    <li><strong>Economic Lens:</strong> Depictions of bison, deer, and aurochs illustrate the prey base of hunter‑gatherer groups, useful for answering questions on <em>resource distribution</em> in pre‑historic India.</li>
+    <li><strong>Ritual Lens:</strong> Abstract motifs such as spirals, concentric circles, and the double‑cross are linked to early religious symbolism, often appearing in <strong>Neolithic</strong> contexts.</li>
+    <li><strong>Communication Lens:</strong> Some petroglyphs resemble early proto‑writing (e.g., the “<strong>H</strong>” and “<strong>V</strong>” signs at <strong>Karnataka’s Hampi</strong>), hinting at the evolution of script that later culminated in the <strong>Indus script</strong>.</li>
+  </ol>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Defence Relevance & Strategic Insights</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    For a future officer, rock art offers more than cultural trivia. The locations of major shelters coincide with natural corridors—river valleys, limestone outcrops, and hill‑top passes—that have historically served as invasion routes or defensive strongholds. For instance, the <strong>Aravalli‑Rajasthan</strong> shelters lie along the ancient <strong>Uttarapatha</strong> trade route, a strategic artery still relevant for modern logistics. Understanding these patterns aids in <strong>terrain analysis</strong> and <strong>camouflage planning</strong>, topics frequently tested in the <span style="color:#fbbf24;">AFCAT 2022</span> technical sections.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    Moreover, the preservation of rock‑art sites is a matter of <strong>national security</strong>. Illegal quarrying, mining, and encroachment can destabilise fragile ecosystems and provide cover for insurgent activities. Questions on the <strong>UNESCO World Heritage Convention</strong> and the role of the <strong>Archaeological Survey of India (ASI)</strong> in safeguarding heritage often appear in the General Knowledge (GK) segment of the NDA and CDS exams.
+  </p>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> Remember that the <strong>only Indian rock‑art site with UNESCO inscription</strong> is <strong>Bhimbetka (2003)</strong>. Any MCQ that asks “first Indian rock‑art site to receive UNESCO status” will have this as the answer. Confusion often arises with <strong>Ellora</strong> or <strong>Ajanta</strong>, which are cave temples, not rock‑shelter art.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Comparison of Major Indian Rock‑Art Phases</h4>
+  <table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9rem;">
+    <thead><tr style="background:rgba(74,222,128,0.1);">
+      <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left; color:#e2e8f0;">Phase</th>
+      <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Time Span</th>
+      <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Typical Motifs</th>
+      <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Key Sites</th>
+    </tr></thead>
+    <tbody>
+      <tr style="background:rgba(255,255,255,0.02
+`;
+
+window.EXPANDED_NOTES_DATA["vedic-age"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Vedic Age</h3>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Chronology & Periodisation</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The [[Vedic Age]] is broadly divided into two major phases – the <strong>Early Vedic period</strong> (c. 1500‑1000 BCE) and the <strong>Later Vedic period</strong> (c. 1000‑600 BCE). The Early Vedic phase is characterised by a nomadic‑pastoral economy centred around the [[Rigveda]], which is the oldest of the four [[Vedas]] and dates to roughly 1500 BCE. The later phase witnesses the emergence of settled agriculture, the introduction of iron tools, and the composition of the [[Brahmanas]], [[Aranyakas]] and the earliest [[Upanishads]] such as the [[Mundaka Upanishad]] (c. 800‑600 BCE). This chronological split is a favourite focus of the NDA and CDS exams, especially when the question asks to match cultural‑economic changes with the corresponding Vedic period.
+  </p>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> Remember the cut‑off year 1000 BCE – everything before it is *Early Vedic* (pastoral, Rigveda‑centric); everything after is *Later Vedic* (iron, Brahmana‑centric). Questions often give a cultural trait (e.g., “use of iron plough”) and ask you to place it in the correct sub‑period.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Geographical Spread & Riverine Civilisations</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    Early Vedic tribes migrated into the upper reaches of the [[Saraswati River]] and the [[Indus River]] basin, later moving south‑westwards towards the [[Ganga]] and [[Yamuna]] valleys. The shift from the north‑western foothills to the fertile plains facilitated the transition from pastoralism to mixed farming. Defence aspirants should note that the early Vedic polity was a loose confederation of clans (e.g., the [[Kuru Kingdom]] and [[Panchala]]) lacking a standing army, whereas the Later Vedic age saw the rise of organised war‑bands and the first recorded large‑scale sacrifices like the [[Ashvamedha]], which required mobilising thousands of warriors – an early precursor to the concept of a ‘state army’.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Socio‑Economic Structure</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The Early Vedic economy revolved around cattle‑rearing, with the [[cow]] being the primary unit of wealth (the term “*kṣatra*” originally denoted a herd). With the advent of iron, the Later Vedic period witnessed an agrarian boom: iron ploughshares and sickles increased productivity, leading to surplus grain, the emergence of trade routes, and the first forms of taxation (the [[Bali]] tribute). This economic transformation also reshaped the [[Varna system]] – the role of the [[Kshatriya]] (warrior class) became more pronounced, and the [[Brahmin]] class began to monopolise ritual knowledge, a shift that is repeatedly tested in the CDS essay paper.
+  </p>
+
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> To recall the five major Vedas – <em>Rig, Yajur, Sama, Atharva, and the later addition of the “later” Upanishads – use the phrase “<u>R</u>ich <u>Y</u>oung <u>S</u>cholars <u>A</u>lways <u>U</u>nite”. The first letters give R‑Y‑S‑A‑U, mapping directly to the Vedas (Rig, Yajur, Sama, Atharva, Upanishads). This mnemonic is especially handy for the NDA General Knowledge section where a quick recall is needed.</div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Key Literary Works & Their Significance</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The literary corpus of the Vedic Age can be categorised as follows:
+    <ul style="color:#e2e8f0; margin-left:20px;">
+      <li><strong>Samhitas</strong> – the core hymns (e.g., [[Rigveda]], [[Samaveda]], [[Yajurveda]]) – primarily used in ritual chanting.</li>
+      <li><strong>Brahmanas</strong> – prose commentaries explaining the performance of rituals; crucial for understanding the evolution of priestly authority.</li>
+      <li><strong>Aranyakas</strong> – “forest texts” that bridge ritualism and philosophical speculation.</li>
+      <li><strong>Upanishads</strong> – philosophical treatises; the [[Mundaka Upanishad]] famously contains the phrase “*Satyameva Jayate*” (Truth alone triumphs), a motto later adopted by the Republic of India and a frequent NCERT‑derived question in the CDS.</li>
+    </ul>
+    For defence exams, the emphasis is often on the transition from ritualistic to philosophical thought, as it mirrors the broader shift from tribal warfare to organised statecraft.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Political Organisation & Warfare</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    Early Vedic tribes were led by a chief called the [[Raja]] or [[Rajan]] who was elected for his prowess in cattle raids and horse‑driven warfare. The later period saw the consolidation of larger polities like the [[Kuru Kingdom]] and the [[Panchala Kingdom]], which introduced a more formalised military hierarchy – *senapati* (commander), *dhanurveda* (science of archery), and the use of iron weapons such as the *katar* (dagger) and *shul* (spear). The famous battle of the *Kurukshetra* (though mythological) is often cited as a literary reflection of the real‑world shift towards organised infantry and cavalry formations, a point that appears in both NDA and CDS “History of Warfare” sections.
+  </p>
+
+  <table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9rem;">
+    <thead>
+      <tr style="background:rgba(74,222,128,0.1);">
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left; color:#e2e8f0;">Aspect</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Early Vedic (c.1500‑1000 BCE)</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Later Vedic (c.1000‑600 BCE)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Primary Economy</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Pastoralism, cattle‑rearing</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Agriculture, iron tools, surplus grain</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.02);">
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Geographic Core</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Upper Saraswati & Indus basin</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Ganga‑Yamuna plains, Punjab‑Haryana</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Literary Output</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">[[Rigveda]] hymns</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Brahmanas, Aranyakas, early Upanishads</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.02);">
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);
+`;
+
+window.EXPANDED_NOTES_DATA["mahajanapadas"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Mahajanapadas</h3>
+
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The term <strong>[[Mahajanapada]]</strong> (literally “great realm”) denotes the sixteen major realms that dominated the Indo‑Gangetic plain between the 6<sup>th</sup> and 4<sup>th</sup> centuries BCE. These polities mark the transition from tribal societies to early states, laying the administrative, military and economic foundations that later empires such as [[Maurya]] and [[Gupta]] would inherit. For defence aspirants, understanding the strategic geography, the nature of armies, and the diplomatic practices of these realms is crucial, as many NDA/CDS questions probe the evolution of warfare and statecraft in ancient India.
+  </p>
+
+  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid #4ade80; padding: 16px; margin-top: 32px; border-radius: 0 8px 8px 0;">
+    <div style="display: flex; align-items: center; margin-bottom: 12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <h3 style="color: #4ade80; margin: 0; font-size: 1.1rem;">AI-Generated Summary &amp; Formulas</h3>
+    </div>
+    <ul style="margin-top: 8px; margin-left: 20px; list-style-type: disc; color:#e2e8f0;">
+      <li style="margin-bottom: 8px;"><strong>16 States | Vajji:</strong>  Republic (Vaishali capital) | Magadha: Strongest (Rajgir/Pataliputra)</li>
+    </ul>
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Geographical Spread &amp; Classification</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The sixteen Mahajanapadas were spread across three natural zones: the <strong>Ganga‑Yamuna doab</strong>, the <strong>Upper Ganga basin</strong>, and the <strong>Eastern coastal plains</strong>. They are traditionally classified into two categories based on their political structure:
+  </p>
+  <ul style="color:#e2e8f0; margin-left:20px;">
+    <li><strong>Monarchic (Rājya) Mahajanapadas:</strong> [[Magadha]], [[Kosala]], [[Vatsa]], [[Kuru]], [[Avanti]], [[Matsya]], [[Kashmir]], [[Kuru]], [[Chedi]], [[Kalinga]], [[Surashtra]], [[Assaka]] and [[Vajji]] (though Vajji was a republic, it is often listed separately).</li>
+    <li><strong>Republican (Gana‑Sangha) Mahajanapadas:</strong> [[Vajji]] (also called the <em>Vajjian Confederacy</em>) and [[Malla]] (the <em>Mahā-Malla Republic</em>).</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Political Systems – Monarchies vs Republics</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    While most Mahajanapadas were ruled by a single king (often titled <em>Raja</em> or <em>Mahārāja</em>), the republican states operated on a council of elders (called the <em>Sabha</em>) and a popular assembly (the <em>Samiti</em>). The <strong>Vajji</strong> confederacy, centred at [[Vaishali]], is the earliest recorded example of a democratic polity in Indian history. Its constitution allowed for collective decision‑making, a feature that appears in several NDA‑CDS questions on early governance models.
+  </p>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> Remember that only <em>Vajji</em> and <em>Malla</em> were republics; all others were monarchies. Questions often ask “Which Mahajanapada was a republic?” – answer: <strong>Vajji (Vaishali)</strong>.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Major Mahajanapadas – Quick Reference</h4>
+  <table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9rem; color:#e2e8f0;">
+    <thead>
+      <tr style="background:rgba(74,222,128,0.1);">
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left;">Mahajanapada</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Capital</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Political Type</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Key Ruler(s)</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Strategic Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Magadha]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Rajgir]] / [[Pataliputra]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Monarchy</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Bimbisara]], [[Ajatashatru]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Control of fertile Ganga plain & iron ore of Karanjia</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.02);">
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Kosala]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Ayodhya]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Monarchy</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Prasenjit]], [[Vasudeva]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Bordered Magadha; frequent wars over the Ganga‑Yamuna doab</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Vajji]] (Republic)</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Vaishali]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Republic</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Council of 18 clans</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Strong cavalry; allied with [[Malla]] against Magadha</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.02);">
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Avanti]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Ujjain]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Monarchy</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">[[Pradyota]]</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Strategic crossroads of north‑south trade routes</td>
+      </tr>
+      <!-- Additional rows can be added similarly -->
+    </tbody>
+  </table>
+
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> To recall the 16 Mahajanapadas, use the mnemonic **“M**ighty **K**ings **V**alue **A**ll **M**ighty **C**ities **S**ince **P**eace **R**equires **U**nified **B**old **L**eaders **G**athering **D**iligent **E**ndeavors **J**ustly”.  
+    The first letters stand for: <em>Magadha, Kosala, Vajji, Avanti, Matsya, Kuru, Surashtra, Panchala, Rajgir (Magadha’s old capital), Uttar (K
+`;
+
+window.EXPANDED_NOTES_DATA["mauryan-period"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Mauryan Period</h3>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Origins & Rise of the Mauryas</h4>
+  <p style="margin:12px 0;">The Mauryan Empire, founded by [[Chandragupta Maurya]] in 322 BCE, emerged from the political vacuum left by the disintegration of the [[Nanda Dynasty]]. The legendary strategist [[Chanakya]] (also known as Kautilya) mentored Chandragupta, providing the political treatise [[Arthashastra]] that became the blueprint for statecraft, taxation, and espionage. The empire’s initial capital was at [[Pataliputra]] (modern Patna), strategically located at the confluence of the Ganges, Son, and Gandak rivers, offering natural defence and control over the fertile Gangetic plain.</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Chronology of the Three Great Rulers</h4>
+  <p style="margin:12px 0;">The Mauryan lineage is often divided into three reigns:</p>
+  <ul style="margin-left:24px; list-style-type:disc;">
+    <li><strong>Chandragupta (322‑298 BCE)</strong> – Consolidated north‑Indian territories, defeated the Seleucid Empire (305 BCE) and secured the north‑west frontier.</li>
+    <li><strong>Bindusara (298‑272 BCE)</strong> – Extended the empire to the Deccan, maintained diplomatic contacts with Hellenistic kingdoms, and is credited with the spread of [[Buddhism]] into the south.</li>
+    <li><strong>Ashoka (272‑232 BCE)</strong> – After the brutal [[Kalinga War]] (261 BCE), he embraced [[Dhamma]] (a moral and administrative code), propagated Buddhism, and erected the famous [[Ashokan Edicts]].</li>
+  </ul>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> The year of the Kalinga War (261 BCE) is a frequent NCERT‑based question. Remember that the war’s aftermath led to Ashoka’s conversion to Buddhism and the issuance of the Edicts – a classic cause‑effect pair asked in both NDA and CDS prelims.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Administrative Machinery</h4>
+  <p style="margin:12px 0;">The Mauryan administration was a highly centralized bureaucracy. The empire was divided into <em>provincial units called <strong>Mahajanapadas</strong></em>, each overseen by a <strong>Governor (Mahamatya)</strong>. Below the governor were <strong>district officers (Kumara)</strong>, <strong>village heads (Gramika)</strong>, and a network of <strong>spies (Uparika)</strong> who reported directly to the central secret service, the <strong>Mahamatras</strong>. The revenue system was based on a mix of land tax (&#xA0;[[Bali]]), trade duties, and tribute from vassal states. The famous “<em>four‑fold</em>” tax—<strong>land, trade, crafts, and poll tax</strong>—is a recurring point in CDA (Combined Defence Academy) mock papers.</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Military Organization & Defence Significance</h4>
+  <p style="margin:12px 0;">The Mauryan army is often cited as the first professional standing army on the Indian subcontinent. Estimates suggest a core force of 600,000 infantry, 30,000 cavalry, 8,000 war‑elephants, and a sizeable artillery corps using stone‑throwers and early metal‑cannon prototypes. The empire’s defence doctrine emphasized:
+  </p>
+  <ul style="margin-left:24px; list-style-type:disc;">
+    <li>Strategic depth provided by the Himalayan foothills in the north and the Deccan plateau in the south.</li>
+    <li>Fortified outposts (&#xA0;[[Khandavaprastha]]‑type forts) along major trade routes, especially the <strong>Grand Trunk Road</strong>.</li>
+    <li>Use of a sophisticated intelligence network (the <strong>“Matsya”</strong> or “fish” system) to pre‑empt rebellions—an early example of counter‑insurgency tactics relevant to modern Indian defence studies.</li>
+  </ul>
+
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> To recall the four main components of Mauryan revenue – <em>Land, Trade, Crafts, Poll</em> – think of the phrase “<strong>L</strong>eading <strong>T</strong>roops <strong>C</strong>arry <strong>P</strong>er‑capita” (L‑T‑C‑P). The first letters match the tax categories, and “troops” reminds you of the army’s reliance on these funds.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Economic & Cultural Achievements</h4>
+  <p style="margin:12px 0;">The Mauryan economy was agrarian but highly diversified. Trade flourished with the <strong>Hellenistic world</strong>, <strong>Persia</strong>, and <strong>South‑East Asia</strong> via the Indian Ocean. The port of [[Tamralipti]] (modern Tamluk) exported silk, spices, and precious stones, while inland markets dealt in iron, copper, and textiles. The empire minted a uniform silver coin – the [[Rupiya]] – which became a standard of economic stability for centuries.</p>
+  <p style="margin:12px 0;">Culturally, Ashoka’s patronage of Buddhism led to the construction of stupas (e.g., [[Sanchi]]) and the spread of Buddhist art that blended Indian motifs with Hellenistic realism—a style later termed “<strong>Gandhara art</strong>”. This syncretic art form is often cited in NDA’s “Art & Architecture” section.</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Decline & Legacy</h4>
+  <p style="margin:12px 0;">After Ashoka’s death, the empire rapidly fragmented due to weak successors, succession disputes, and the rise of regional powers like the [[Shunga Dynasty]] and the [[Satavahana Dynasty]]. By 185 BCE, the last Mauryan ruler, [[Brihadratha]], was assassinated by his own general [[Pushyamitra Shunga]], marking the end of the empire.</p>
+  <p style="margin:12px 0;">Despite its brief existence (≈ 250 years), the Mauryan model left an indelible imprint on Indian polity:
+  </p>
+  <ul style="margin-left:24px; list-style-type:disc;">
+    <li>Centralized bureaucracy became the template for later empires (e.g., [[Gupta]] and [[Mughal]]).</li>
+    <li>The concept of a moral ruler (the “<strong>Rajarshi</strong>” ideal) influenced later Indian political thought and modern Indian civil services.</li>
+    <li>Infrastructure projects such as the Grand Trunk Road (originally the “<strong>Uttarapatha</strong>”) continue to serve as strategic arteries for defence logistics.</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Comparison of the Three Mauryan Rulers</h4>
+  <table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9rem; color:#e2e8f0;">
+    <thead>
+      <tr style="background:rgba(74,222,128,0.1);">
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left;">Aspect</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Chandragupta (322‑298 BCE)</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Bindusara (298‑272 BCE)</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Ashoka (272‑232 BCE)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Territorial Extent</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">North‑west to central India</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Extended to Deccan, south‑west</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Peak – from Afghanistan to Bengal</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.02);">
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Key Policy</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Conquest & Centralisation (Arthashastra)</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Consolidation & Diplomacy</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Dhamma & Moral Governance</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Military Highlights</td>
+        <td style="padding:10px; border:1px solid rgba(
+`;
+
+window.EXPANDED_NOTES_DATA["vijayanagara-empire"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Vijayanagara Empire</h3>
+
+  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid #4ade80; padding: 16px; margin-top: 32px; border-radius: 0 8px 8px 0;">
+    <div style="display: flex; align-items: center; margin-bottom: 12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <h3 style="color: #4ade80; margin: 0; font-size: 1.1rem;">AI-Generated Summary &amp; Formulas</h3>
+    </div>
+    <ul style="margin-top: 8px; margin-left: 20px; list-style-type: disc; color:#e2e8f0;">
+      <li style="margin-bottom: 8px;"><strong>Founded:</strong> 1336 ([[Harihara I]] &amp; [[Bukka Raya I]]) | Peak: [[Krishnadevaraya]] | Capital ruins: [[Hampi]] | Talikota: 1565</li>
+    </ul>
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">1. Origin and Founding Myths</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The traditional narrative, recorded in the 16th‑century chronicle <em>Vidyaranya’s</em> <strong>“Madhuravijayam,”</strong> claims that the empire was founded by two brothers, [[Harihara I]] and [[Bukka Raya I]], who were originally commanders in the service of the <strong>Kalachuri</strong> king of Kalyani.  After the fall of the Kalachuris (c. 1316 CE), they allegedly fled south, established a fortified settlement on the banks of the Tungabhadra, and proclaimed an independent kingdom in 1336 CE.  Modern historians, however, point to a more complex process involving the decline of the <strong>Hoysala</strong> and <strong>Kakatiya</strong> polities, the vacuum left by the Delhi Sultanate’s failed southern campaigns, and the strategic advantage of the Deccan plateau’s natural defenses.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The founding date (1336 CE) is a frequent NDA/ CDS question, especially when paired with the year of the <strong>Battle of Talikota</strong> (1565 CE).  Aspirants often confuse the founders with later rulers; remember that the first capital was at <strong>Penukonda</strong>, not Hampi, which only became the imperial seat under [[Deva Raya I]] (early 15th century).
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">2. Geopolitical Setting &amp; Strategic Location</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The empire sprawled across the southern Deccan, covering present‑day Karnataka, Andhra Pradesh, Tamil Nadu, Kerala, and parts of Maharashtra.  The core region—the <strong>Vijayanagara plateau</strong>—offered natural barriers: the <strong>Western Ghats</strong> to the west, the <strong>Krishna</strong> and <strong>Tungabhadra</strong> rivers to the north and east, and dense forested valleys to the south.  These features made large‑scale invasions logistically challenging, a fact that is often highlighted in defence‑oriented questions about terrain advantage.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The capital, [[Hampi]], was built on a rocky ridge surrounded by the Tungabhadra, creating a natural moat.  The city’s layout—circular concentric walls, massive gate‑towers (e.g., the [[Kalyana Rama Gate]]), and a network of water reservoirs—exemplifies early urban fortification principles that are still studied in modern military engineering courses.
+  </p>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> The year 1565 CE marks the decisive <strong>Battle of Talikota</strong> where a coalition of Deccan Sultanates (Bijapur, Golconda, Ahmadnagar, and Bidar) defeated Vijayanagara, leading to the empire’s rapid decline.  This date is repeatedly asked in “Match the Year” type questions.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">3. Administration and Governance</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    Vijayanagara’s administration blended <strong>centralised monarchy</strong> with a sophisticated <strong>feudal hierarchy</strong>.  The king (often titled “[[Maharaja]]” or “[[Sangama Raja]])” was the supreme commander‑in‑chief, while the empire was divided into <strong>“mandalas”</strong> (provinces) overseen by hereditary nobles called <strong>“nayakas”</strong>.  Revenue collection relied on the <strong>“shist”</strong> system—a land‑tax based on the fertility of the soil, recorded in copper‑plate inscriptions such as the <em>Vijayanagara Land Grants of 1408</em>.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The bureaucracy was multilingual: Sanskrit for religious‑legal documents, Telugu for court poetry, Kannada for local administration, and Persian for diplomatic correspondence with the Sultanates.  This linguistic flexibility is a favourite point in CDS essay‑type questions that ask about “cultural syncretism in medieval South India.”
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">4. Military Organisation – The Backbone of Defence</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The Vijayanagara army was a hybrid force combining traditional Indian infantry, cavalry, and war‑elephants with gunpowder weapons introduced by the Portuguese in the early 16th century.  The core infantry, known as the <strong>“Patti”</strong>, wielded long‑spear (pike) formations, while elite units called <strong>“Mysore Musketeers”</strong> operated match‑lock firearms.  The cavalry, recruited from the Deccan plateau, was famed for its mobility across the rugged terrain.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The empire’s naval capability, though limited, was exercised from the coastal ports of [[Mangalore]] and [[Kochi]], primarily to protect trade routes in the Arabian Sea.  Understanding this maritime aspect is crucial for AFCAT, where “coastal defence” scenarios often reference historical precedents.
+  </p>
+
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> Remember the three pillars of Vijayanagara’s military – <strong>Infantry (Patti), Cavalry (Kavalu), and Cannons (Cannon‑C). </strong>Think of the phrase “<em>Patti Kaval Cannon‑C</em>” as a chant a soldier might have shouted before battle.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">5. Economy – Trade, Agriculture, and Revenue</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The empire’s prosperity rested on a diversified economy.  Agriculture produced rice, millets, and cotton; the latter powered a thriving textile industry whose exports reached the Persian Gulf and the Red Sea.  The strategic location of Hampi on the trade route between the <strong>Silk Road</strong> and the Indian Ocean facilitated the flow of spices, precious stones, and ivory.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    State‑minted gold and silver coins—[[Pagoda]] (gold) and [[Varaha]] (silver)—bear the king’s portrait and a stylised lotus, serving both as a medium of exchange and a propaganda tool.  In NDA’s “Economics of Defence” sections, candidates are asked to link the empire’s coinage to its ability to finance large standing armies and massive fortification projects.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">6. Culture, Art &amp; Architecture</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The empire is celebrated for its unique architectural style, a synthesis of <strong>Dravidian</strong> and <strong>Islamic</strong> motifs.  The <em>Vijaya Vittala Temple</em> with its iconic stone chariot and musical pillars exemplifies the artistic zenith under [[Krishnadevaraya]].  Literature flourished in four languages: Sanskrit, Telugu, Kannada, and Tamil.  The celebrated poet‑scholar [[Tenali Rama Rao]] served in Krishnadevaraya’s court, a fact often asked in “Famous Personalities” sections of the CDS exam.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    Religious tolerance was a hallmark: while the ruling class were Hindus, Jain and Muslim communities enjoyed patronage.  The <strong>“Madhva”</strong> and <strong>“Virashaiva”</strong> bhakti movements found royal support, creating a cultural fabric that helped the empire withstand external ideological pressure.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">7. Decline – The Battle of Talikota and Aftermath</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    By the mid‑16th century, internal succession disputes weakened central authority.  The death of [[Krishnadevaraya]]
+`;
+
+window.EXPANDED_NOTES_DATA["revolt-1857"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revolt of 1857</h3>
+
+  <!-- VISUAL INJECTION -->
+  <div class="visual-summary text-center my-6"><img src="images/history_1857_revolt_map.png" alt="Visual Summary" class="max-w-full h-auto rounded-lg shadow-md border border-slate-700 mx-auto" /></div>
+
+  <!-- Existing AI‑Generated Summary -->
+  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid #4ade80; padding: 16px; margin-top: 32px; border-radius: 0 8px 8px 0;">
+    <div style="display: flex; align-items: center; margin-bottom: 12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <h3 style="color: #4ade80; margin: 0; font-size: 1.1rem;">AI-Generated Summary &amp; Formulas</h3>
+    </div>
+    <ul style="margin-top: 8px; margin-left: 20px; list-style-type: disc; color: #e2e8f0;">
+      <li style="margin-bottom: 8px;"><strong>Barrackpore:</strong>  Mangal Pandey | Meerut start: May 10, 1857 | Jhansi opponent: Hugh Rose | Result: GoI Act 1858</li>
+    </ul>
+  </div>
+
+  <!-- NEW EXAM CALL‑OUT -->
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> The first battle of the revolt was at <strong>Meerut (10 May 1857)</strong>. Remember that the British “sepoy mutiny” narrative is a **post‑1857** construct; the Indian perspective emphasizes the “First War of Independence”. This distinction is frequently asked in NDA 2021‑2024 papers.
+  </div>
+
+  <!-- SUBHEADING: Causes -->
+  <h4 style="color: #4ade80; margin-top: 24px;">Causes of the Revolt</h4>
+  <p style="color: #e2e8f0; line-height: 1.6;">
+    The uprising was not a spontaneous outburst but the culmination of long‑standing grievances that cut across political, economic, social and military domains. 
+    <br><br>
+    <strong>Political:</strong> The annexation policy of Lord Dalhousie—especially the [[Doctrine of Lapse]]—undermined the legitimacy of native rulers such as [[Rani Lakshmibai of Jhansi]] and [[Nawab of Awadh]]. The removal of the [[Mughal Emperor]] Bahadur Shah II from real power in 1857 created a vacuum that the rebels tried to fill.
+    <br><br>
+    <strong>Economic:</strong> Heavy land‑revenue settlements, the imposition of the [[Permanent Settlement]] in Bengal and the [[Ryotwari System]] in the Madras Presidency strained agrarian communities. The British monopoly over trade, especially the de‑industrialisation of the textile sector, left many artisans unemployed.
+    <br><br>
+    <strong>Social‑Cultural:</strong> The introduction of the [[Enfield rifle]]—with cartridges greased in animal fat (cattle for Hindus, pig for Muslims)—was perceived as an affront to religious sentiments. Moreover, the missionary zeal to convert Indians and the outlawing of [[Sati]] and other customs fueled a sense of cultural intrusion.
+    <br><br>
+    <strong>Military:</strong> Indian soldiers (sepoys) faced discrimination in pay, promotions and postings. The practice of sending Indian troops far from their native regions (e.g., to Burma) broke the traditional “home‑regiment” system, eroding morale.
+  </p>
+
+  <!-- MEMORY HACK -->
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> To recall the four major cause‑categories, use the acronym **“PEMS”** – <em>Political, Economic, Military, Social</em>. Visualise a soldier (military) standing on a map (political) holding a sack of grain (economic) while a temple bell rings (social). This image sticks in the mind during quick revisions.
+  </div>
+
+  <!-- COMPARISON TABLE -->
+  <table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9rem; color:#e2e8f0;">
+    <thead>
+      <tr style="background:rgba(74,222,128,0.1);">
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left;">Cause Category</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Key Examples</th>
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Defence‑Relevant Impact</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Political</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Doctrine of Lapse, Annexation of Oudh, Deposition of Mughal Emperor</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Loss of traditional command structures; created power vacuums exploitable by insurgents.</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Economic</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Heavy land‑revenue, De‑industrialisation, Salt tax</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Resource scarcity forced peasants to join the rebellion, swelling numbers of irregular forces.</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Social</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Enfield cartridge controversy, Missionary activity, Ban on Sati</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Religious outrage galvanized civilian support, turning a military mutiny into a mass movement.</td>
+      </tr>
+      <tr>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Military</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Discriminatory pay, Lack of promotion, Forced overseas postings</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);">Erosion of loyalty; sepoys turned into guerrilla fighters, a lesson for modern counter‑insurgency doctrine.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- SUBHEADING: Course of the Revolt -->
+  <h4 style="color: #4ade80; margin-top: 24px;">Course of the Revolt (May 1857 – June 1858)</h4>
+  <p style="color: #e2e8f0; line-height: 1.6;">
+    The rebellion erupted first at [[Barrackpore]] (Mangal Pandey) and then exploded at [[Meerut]] on 10 May 1857, where 85 sepoys mutinied and marched to [[Delhi]]. In Delhi, the rebels proclaimed the 60‑year‑old [[Bahadur Shah II]] as the symbolic head of the uprising, hoping to restore Mughal legitimacy.
+    <br><br>
+    From Delhi, the revolt radiated outward in three major axes:
+    <ul style="color:#e2e8f0; margin-left:20px;">
+      <li>North‑west: [[Kanpur]] under [[Nana Sahib]]—the siege of the British factory and the subsequent massacre of civilians (June 1857) remain a stark illustration of the ferocity of the conflict.</li>
+      <li>Central: [[Jhansi]]—the queen’s valiant defence against [[General Hugh Rose]] (later Lord Dalhousie) culminated in the famous “Jhansi ki Rani” episode (April 1858).</li>
+      <li>East: The [[Bengal Presidency]] saw coordinated uprisings at [[Cawnpore]], [[Lucknow]] (where the Residency endured a 7‑month siege), and the coastal town of [[Bihar]].</li>
+    </ul>
+    The British response, led by [[Sir Colin Campbell]] and later by [[Lord Canning]], combined rapid troop redeployment, use of riverine steamers for logistical superiority, and harsh punitive measures (e.g., summary executions, property confiscation). By the summer of 1858, organized resistance had been largely crushed, although isolated pockets persisted in the hills of [[Gujarat]] and the tribal regions of [[Central India]].
+  </p>
+
+  <!-- SUBHEADING: Key Figures -->
+  <h4 style="color: #4ade80; margin-top: 24px;">Key Figures and Leaders</h4>
+  <p style="color: #e2e8f0; line-height: 1.6;">
+    <strong>Rani Lakshmibai of Jhansi</strong> – Symbol of female valour; led a mixed force of regular sepoys, tribal levies and civilian volunteers. Her death on 18 June 1858 at Gwalior is commemorated in Indian military academies as a study of leadership under asymmetrical conditions.
+    <br><br>
+    <strong>Nana Sahib</strong
+`;
+
+window.EXPANDED_NOTES_DATA["constitutional-development"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Constitutional Development</h3>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Early Constitutional Milestones (Pre‑British Era)</h4>
+  <p style="margin:12px 0;">The Indian sub‑continent possessed a rich tradition of constitutional ideas long before the advent of European powers. The earliest known written constitution is the <strong>[[Arthashastra]]</strong> of Kautilya (4th century BCE), which laid down administrative, fiscal and military guidelines for a sovereign state – a direct precursor to modern defence‑policy frameworks. Later, the <strong>[[Mughal Empire]]</strong> introduced the concept of a centralized bureaucracy with the <strong>[[Ain-i‑Akbari]]</strong> (1598) codifying the duties of the emperor, ministers and the army. The <strong>[[Maratha Confederacy]]</strong> (18th century) experimented with a quasi‑federal structure where individual chiefs (Sardars) retained autonomy while contributing troops to a common cause, a model that resonates with today’s joint‑service command concepts.</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">British Crown & Early Courts</h4>
+  <p style="margin:12px 0;">The British East India Company’s rule introduced the first formal judicial institutions. In <strong>1773</strong> the <strong>[[Regulating Act]]</strong> established the <strong>[[Supreme Court of Calcutta]]</strong>, marking the birth of a centralized judiciary that later became the backbone of constitutional adjudication. The <strong>[[Charter Act of 1833]]</strong> declared the Governor‑General of India as the “Governor‑General of all India”, effectively making the Crown the supreme authority and laying the groundwork for a unified legal system. These courts were instrumental in shaping the rule‑of‑law ethos, a principle that underpins the modern Indian Armed Forces’ discipline and chain of command.</p>
+
+  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid #4ade80; padding: 16px; margin-top: 32px; border-radius: 0 8px 8px 0;">
+    <div style="display: flex; align-items: center; margin-bottom: 12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <h3 style="color: #4ade80; margin: 0; font-size: 1.1rem;">AI-Generated Summary & Formulas</h3>
+    </div>
+    <ul style="margin-top: 8px; margin-left: 20px; list-style-type: disc;">
+      <li style="margin-bottom: 8px;"><strong>1773:</strong> Supreme Court | 1833: GG of India | 1909: Separate Electorate | 1919: Provincial Dyarchy | 1935: Provincial Autonomy</li>
+    </ul>
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Key Legislative Reforms (1909‑1935)</h4>
+  <p style="margin:12px 0;">The early 20th century witnessed a series of constitutional experiments aimed at balancing British imperial control with Indian aspirations. The <strong>[[Morley‑Minto Reforms]]</strong> of <strong>1909</strong> introduced the concept of “separate electorates” for Muslims, a policy that later became a flash‑point in communal politics and is frequently asked in NDA 2019‑2023 papers. The <strong>[[Montagu‑Chelmsford Reforms]]</strong> of <strong>1919</strong> ushered in the system of <strong>[[Dyarchy]]</strong> in provinces – a dual‑government model where elected Indian ministers handled “transferred subjects” (e.g., education, public health) while the British retained “reserved subjects” (e.g., law & order, finance). This duality mirrors today’s civil‑military interface where operational control remains with the military (reserved) while policy formulation may involve civilian ministries (transferred).</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Provincial Autonomy & Dyarchy</h4>
+  <p style="margin:12px 0;">Dyarchy proved cumbersome; the British soon realized that a more coherent provincial autonomy was essential for wartime mobilisation during World War II. The <strong>[[Government of India Act 1935]]</strong> replaced dyarchy with a single‑layer provincial government responsible for all subjects except defence, foreign affairs and communications. The Act also introduced a federal structure (though never fully implemented) and a bicameral central legislature. For defence aspirants, note that the Act retained the “defence” subject under the exclusive purview of the Governor‑General, a precedent for the modern constitutional provision that places the Armed Forces under the Union’s exclusive jurisdiction (Article 53‑57 of the Constitution).</p>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> The 1935 Act’s “defence” subject stayed with the Governor‑General – this is why the Constitution later places the Armed Forces under Union control (Article 53). Remember this when a question asks why states cannot have their own armies.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Towards Independence – The 1946 Interim Constitution</h4>
+  <p style="margin:12px 0;">In the wake of the Quit India Movement and the end of World War II, the British government enacted the <strong>[[Indian Independence Act 1947]]</strong> and, as a transitional measure, the <strong>[[Interim Constitution of 1946]]</strong>. This interim document granted full legislative powers to the newly formed Constituent Assembly and introduced the concept of a “temporary” parliament, a structure that directly influenced the first Lok Sabha’s composition in 1952. Defence‑related clauses in the interim constitution already envisaged a unified armed force, a point that frequently appears in AFCAT questions about the evolution of military command structures.</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Constituent Assembly & Drafting of the Constitution (1949‑1950)</h4>
+  <p style="margin:12px 0;">The Constituent Assembly, chaired by [[Dr. B. R. Ambedkar]], convened on 9 December 1946 and completed the draft on 26 November 1949. The Constitution, effective from 26 January 1950, enshrines a sovereign, socialist, secular, democratic republic. For defence aspirants, the following articles are crucial:</p>
+  <ul style="margin-left:30px; list-style-type:disc;">
+    <li>Article 53 – Executive power of the Union extends to the defence of India.</li>
+    <li>Article 54 – The President is the supreme commander of the Armed Forces.</li>
+    <li>Article 71 – The Union can make laws on defence, foreign affairs, and communications.</li>
+    <li>Article 352 – Proclamation of Emergency (including external aggression) – directly impacts mobilisation of troops.</li>
+  </ul>
+  <p style="margin:12px 0;">The framers deliberately placed defence under Union jurisdiction to avoid the fragmentation that plagued the pre‑independence era. This centralisation is a recurring theme in UPSC, NDA and AFCAT examinations, especially when analysing the legal basis for the deployment of the Indian Army in internal disturbances.</p>
+
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> Remember the defence‑related articles by the phrase “<em>Five Strong Soldiers</em>” – <strong>5</strong>3 (Executive), <strong>5</strong>4 (President), <strong>7</strong>1 (Union law), <strong>3</strong>52 (Emergency), <strong>3</strong>55 (Judicial review of emergency). The numbers 5‑5‑7‑3‑3 map to the article numbers, making it easier to recall during the exam.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Judicial Evolution – Supreme Court & High Courts</h4>
+  <p style="margin:12px 0;">Post‑Independence, the judiciary underwent significant restructuring. The <strong>[[Supreme Court of India]]</strong> was established on 26 January 1950, inheriting the jurisdiction of the former Federal Court. The Court’s power of judicial review, especially over defence‑related legislation, was cemented in landmark cases such as <strong>[[Kesavananda Bharati v. State of Kerala (1973)]]</strong>, which introduced the “basic structure” doctrine. Although not directly a defence case, the doctrine safeguards the constitutional supremacy of Union control over the armed forces, a nuance often tested in advanced NDA 2022‑2024 papers.</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Defence‑Related Constitutional Provisions</h4>
+  <p style="margin:12px 0;">Beyond Articles 53‑57, the Constitution contains several clauses that influence military policy:</p>
+  <ul style="margin-left:30px; list-style-type:disc;">
+    <li>Article 12 – Definition of “State” includes the Union, thereby extending constitutional obligations to the Armed Forces.</li>
+    <li>Article 19(1
+`;
+
+window.EXPANDED_NOTES_DATA["post-independence-consolidation"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Post-Independence Consolidation</h3>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Political Integration of Princely States</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    At the moment of [[Independence]] (15 August 1947), over 560 princely states dotted the sub‑continent. The British left them with the choice to accede to either the [[Dominion of India]] or the [[Dominion of Pakistan]] or to remain independent. The Indian leadership, under [[Jawaharlal Nehru]] and the [[V.P. Menon]]‑[[Sardar Vallabhbhai Patel]] duo, pursued a policy of rapid political integration to avoid a fragmented map that could jeopardise national security, especially along the newly drawn borders.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The primary instrument was the [[Instrument of Accession]], which transferred defence, external affairs and communications to the Union while allowing internal autonomy. Most states signed voluntarily, but a few required coercive measures. The most notable examples are:
+  </p>
+  <ul style="color:#e2e8f0; margin-left:20px; line-height:1.6;">
+    <li><strong>Hyderabad (Operation Polo, 1948)</strong> – A well‑armed Nizam’s army resisted accession; the Indian Army launched a swift “police action” on 13 September 1948, culminating in the surrender on 17 September. This operation is often asked in NDA as a classic case of “military integration”.</li>
+    <li><strong>Junagadh (1947‑48)</strong> – The Nawab’s decision to join Pakistan triggered a popular uprising; a plebiscite in February 1948 recorded 99.8 % favouring India.</li>
+    <li><strong>Kashmir (1947)</strong> – The Maharaja’s delayed accession led to the first Indo‑Pak war; the [[Article 370]] provision was introduced to accommodate the special status.</li>
+    <li><strong>Travancore‑Cochin (1949)</strong> – Merged voluntarily after intense negotiations, forming the modern state of Kerala.</li>
+  </ul>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> Remember that <em>Operation Polo (Hyderabad, 1948)</em> is the ONLY instance where the Indian Army used direct combat to integrate a princely state. Confusing it with the peaceful accession of Junagadh is a common trap.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Reorganisation of States on Linguistic Lines</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The early 1950s witnessed a powerful demand for states to be formed on linguistic basis. The first successful demand was the creation of the [[Andhra State]] on 1 October 1953, following the “Gentlemen’s Agreement” after the “Potti Sriramulu” fast‑unto‑death. This set a precedent that culminated in the [[States Reorganisation Act, 1956]], which reorganised the country into 14 states and 6 union territories.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The [[Fazl‑Ali Commission]] (1955‑56) was tasked with studying linguistic and administrative feasibility. Its recommendations led to the merger of [[Mysore]], [[Bombay State]] (later split into Gujarat and Maharashtra in 1960), and the creation of [[Kerala]] by combining Travancore‑Cochin and the Malabar district of Madras Presidency.
+  </p>
+
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> Remember the year‑state sequence with the rhyme “<em>Fifty‑three, Andhra’s plea; Fifty‑six, the linguistic mix.</em>” (1953 → Andhra, 1956 → States Reorganisation).
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Constitutional Consolidation & Democratic Foundations</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The [[Constitution of India]] came into force on 26 January 1950, proclaiming India a sovereign, democratic republic. The first general elections (1951‑52) were a massive logistical feat, covering 173 million voters across a continent of diverse terrains—an operation that the Indian Armed Forces assisted in ensuring security at polling stations, especially in volatile border regions like [[Jammu & Kashmir]] and the North‑East.
+  </p>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The Constitution also embedded a flexible amendment procedure (Article 368), which later allowed the removal of the special status of [[Jammu & Kashmir]] (2019) and the introduction of the Goods and Services Tax (GST) in 2017—both high‑frequency topics in CDS exams.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Economic Planning & Defence‑Industrial Build‑Up</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The [[First Five‑Year Plan]] (1951‑56) focused on agriculture, irrigation, and the establishment of heavy‑industry bases. Crucially for defence aspirants, this period saw the birth of key public sector undertakings (PSUs) that would later become the backbone of India’s defence production:
+  </p>
+  <ul style="color:#e2e8f0; margin-left:20px; line-height:1.6;">
+    <li>[[Hindustan Aeronautics Limited]] (HAL) – set up in 1940 but expanded under the plan to produce indigenous aircraft.</li>
+    <li>[[Ordnance Factory Board]] – consolidated several factories to manufacture small arms, artillery, and ammunition.</li>
+    <li>[[Bharat Heavy Electricals Limited]] (BHEL) – later supplied power equipment for defence installations.</li>
+  </ul>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The emphasis on self‑reliance (Swadeshi) was driven by the strategic need to reduce dependence on foreign arms, a theme that resurfaces in modern NDA questions about “Make in India” for defence.
+  </p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Foreign Policy, Wars & Security Challenges (1947‑1965)</h4>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The immediate post‑independence era was marked by three major conflicts that shaped India’s defence doctrine:
+  </p>
+  <ul style="color:#e2e8f0; margin-left:20px; line-height:1.6;">
+    <li><strong>First Indo‑Pak War (1947‑48)</strong> – Triggered by the accession of [[Jammu & Kashmir]]; the United Nations mediated a cease‑fire, establishing the Line of Control (LoC).</li>
+    <li><strong>Sino‑Indian War (1962)</strong> – A brief but shocking conflict over the [[Aksai Chin]] and [[NEFA]] (now Arunachal Pradesh) regions; highlighted the need for better mountain warfare training and logistics.</li>
+    <li><strong>Second Indo‑Pak War (1965)</strong> – Initiated by Pakistan’s Operation Grand Slam; India’s successful counter‑offensive demonstrated the effectiveness of the newly formed [[Indian Army’s Corps of Engineers]] and the importance of air superiority.</li>
+  </ul>
+  <p style="color:#e2e8f0; line-height:1.6;">
+    The era also saw India adopt a policy of non‑alignment, joining the [[Non‑Aligned Movement]] in 1961, while simultaneously maintaining a strong defence posture on both its western and eastern fronts. The establishment of the [[Defence Research and Development Organisation]] (DRDO) in 1958 was a direct response to the strategic lessons learned from these wars.
+  </p>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (CDS):</strong> For 2023‑24 CDS papers, the year‑event pairing (1947‑Kashmir, 1948‑Hyderabad, 1950‑Constitution, 1951‑First Elections, 1953‑Andhra, 1956‑States Reorganisation, 1962‑Sino‑Indian War, 1965‑Second Indo‑Pak War) is a frequent matching‑column question.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Comparison of Integration Methods for Princely States</h4>
+  <table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9rem;">
+    <thead>
+      <tr style="background:rgba(74,222,128,0.1);">
+`;

@@ -1,21 +1,24 @@
 import os
 import json
-import re
-import google.generativeai as genai
+import time
+from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+client = OpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key=os.environ.get("OPENROUTER_API_KEY"),
+)
+model = "openrouter/free"
 
 def generate_ca():
-    model = genai.GenerativeModel('gemini-2.5-flash')
-    
     prompt = """
-    Generate 5 current affairs items for August 2026 relevant to Indian Defence Exams (NDA, CDS, AFCAT).
+    Generate 15 MORE current affairs items for August 2026 relevant to Indian Defence Exams (NDA, CDS, AFCAT).
+    DO NOT include these topics which are already covered: Tejas Mk2 delivery, Malabar Plus 2026, MQ-9B Predator drone deal, Sela Tunnel Phase 2, GSAT-7C (Vayu Shakti) launch.
+    Ensure they cover different areas like Military Exercises, Defence Procurements, Appointments, Space/Missile tests, and Geopolitics.
     Output the items strictly as a JSON array of objects. Do not include markdown codeblocks, just the raw JSON string.
     Each object should have the following exact structure:
     {
-      "id": "aug-1",
       "topic": "Topic Name (e.g. Defence Procurements, Joint Exercises, etc.)",
       "text": "Short news text with important parts in **bold** or <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>highlighted</mark>.",
       "details": {
@@ -51,8 +54,12 @@ def generate_ca():
     }
     """
     
-    response = model.generate_content(prompt)
-    output_text = response.text.strip()
+    response = client.chat.completions.create(
+        model=model,
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.7
+    )
+    output_text = response.choices[0].message.content.strip()
     
     if output_text.startswith("```json"):
         output_text = output_text[7:]
@@ -65,7 +72,7 @@ def generate_ca():
     return json.loads(output_text.strip())
 
 def update_db():
-    filename = "notes_data_upgraded.js"
+    filename = "notes_data_exam_focused.js"
     with open(filename, 'r', encoding='utf-8') as f:
         content = f.read()
 
@@ -81,21 +88,24 @@ def update_db():
 
     ca_db = json.loads(ca_json_str)
 
-    print("Generating CA for August 2026...")
-    aug_ca = generate_ca()
+    print("Generating 15 MORE CA items for August 2026...")
+    new_aug_ca = generate_ca()
+    
+    existing_aug = ca_db.get("August 2026", [])
+    start_id = len(existing_aug) + 1
     
     # Fix IDs
-    for i, item in enumerate(aug_ca):
-        item["id"] = f"aug-{i+1}"
+    for i, item in enumerate(new_aug_ca):
+        item["id"] = f"aug-{start_id + i}"
         
-    ca_db["August 2026"] = aug_ca
+    ca_db["August 2026"] = existing_aug + new_aug_ca
 
     new_ca_db_str = prefix + json.dumps(ca_db, indent=2) + ";\n\n"
 
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(new_ca_db_str + split_str + nd_json_str)
     
-    print("Done! Updated August 2026 with 5 new CA items.")
+    print(f"Done! Appended {len(new_aug_ca)} new CA items to August 2026.")
 
 if __name__ == "__main__":
     update_db()

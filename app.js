@@ -9296,47 +9296,41 @@ function deductTokens(amount) {
 
 function toggleCurrentAffairsMode(mode) {
 
-  const monthlyContainer = document.getElementById("ca-monthly-feed-container");
+  const btnIds = {
 
-  const visitsContainer  = document.getElementById("ca-visits-container");
+    'mustknow': 'btn-ca-mode-mustknow',
 
-  const ftaContainer     = document.getElementById("ca-fta-container");
+    'defence': 'btn-ca-mode-defence',
 
-  const datesContainer   = document.getElementById("ca-dates-container");
+    'strategic': 'btn-ca-mode-strategic',
 
-  const awardsContainer  = document.getElementById("ca-awards-container");
+    'india': 'btn-ca-mode-india',
 
-  const exercisesContainer = document.getElementById("ca-exercises-container");
+    'science': 'btn-ca-mode-science',
 
-  const sportsContainer  = document.getElementById("ca-sports-container");
+    'economy': 'btn-ca-mode-economy',
 
-  const sitrepContainer  = document.getElementById("ca-view-sitrep"); // newly added
+    'environment': 'btn-ca-mode-environment',
 
+    'appointments': 'btn-ca-mode-appointments',
 
+    'awards': 'btn-ca-mode-awards',
 
-  const btnMonthly = document.getElementById("btn-ca-mode-monthly");
+    'sports': 'btn-ca-mode-sports',
 
-  const btnVisits  = document.getElementById("btn-ca-mode-visits");
+    'rapid': 'btn-ca-mode-rapid',
 
-  const btnFta     = document.getElementById("btn-ca-mode-fta");
+    'staticgk': 'btn-ca-mode-staticgk'
 
-  const btnDates   = document.getElementById("btn-ca-mode-dates");
-
-  const btnAwards  = document.getElementById("btn-ca-mode-awards");
-
-  const btnExercises = document.getElementById("btn-ca-mode-exercises");
-
-  const btnSports  = document.getElementById("btn-ca-mode-sports");
-
-  const btnSitrep  = document.getElementById("btn-ca-mode-sitrep"); // newly added
+  };
 
 
 
-  [monthlyContainer, visitsContainer, ftaContainer, datesContainer, awardsContainer, exercisesContainer, sportsContainer, sitrepContainer].forEach(el => { if (el) el.style.display = "none"; });
+  // Reset all buttons
 
-  
+  Object.values(btnIds).forEach(id => {
 
-  [btnMonthly, btnVisits, btnFta, btnDates, btnAwards, btnExercises, btnSports, btnSitrep].forEach(btn => { 
+    const btn = document.getElementById(id);
 
     if (btn) {
 
@@ -9352,85 +9346,257 @@ function toggleCurrentAffairsMode(mode) {
 
 
 
-  function activateBtn(btn) {
+  // Activate selected button
 
-    if (btn) {
+  const activeBtn = document.getElementById(btnIds[mode]);
 
-      btn.classList.add("active");
+  if (activeBtn) {
 
-      btn.style.background = "rgba(34,197,94,0.1)";
+    activeBtn.classList.add("active");
 
-      btn.style.border = "1px solid var(--accent)";
+    // Accent colors based on mode
 
-    }
+    let accentColor = "rgba(34,197,94,0.1)"; // Default green
+
+    if (mode === 'mustknow') accentColor = "rgba(239,68,68,0.1)"; // Red
+
+    else if (mode === 'rapid') accentColor = "rgba(59,130,246,0.1)"; // Blue
+
+    else if (mode === 'staticgk') accentColor = "rgba(168,85,247,0.1)"; // Purple
+
+    
+
+    activeBtn.style.background = accentColor;
+
+    activeBtn.style.border = "1px solid var(--accent)";
 
   }
 
 
 
-  if (mode === "monthly") {
+  // Render content
 
-    activateBtn(btnMonthly);
+  renderCdsCurrentAffairs(mode);
 
-    if (monthlyContainer) monthlyContainer.style.display = "";
+}
 
-  } else if (mode === "sitrep") {
 
-    activateBtn(btnSitrep);
 
-    if (sitrepContainer) sitrepContainer.style.display = "block";
+function renderCdsCurrentAffairs(mode) {
 
-  } else if (mode === "visits") {
+  const container = document.getElementById("cds-ca-container");
 
-    activateBtn(btnVisits);
+  if (!container) return;
 
-    if (visitsContainer) visitsContainer.style.display = "block";
+  container.style.display = "block";
 
-    renderCaVisitsTable();
+  container.innerHTML = ""; // Clear existing
 
-  } else if (mode === "fta") {
 
-    activateBtn(btnFta);
 
-    if (ftaContainer) ftaContainer.style.display = "block";
+  if (typeof CDS_CA_DB === 'undefined') {
 
-    renderCaFtaTable();
+    container.innerHTML = "<p>Current Affairs Database not loaded.</p>";
 
-  } else if (mode === "dates") {
+    return;
 
-    activateBtn(btnDates);
+  }
 
-    if (datesContainer) datesContainer.style.display = "block";
 
-    renderCaDatesTable();
 
-  } else if (mode === "awards") {
-
-    activateBtn(btnAwards);
-
-    if (awardsContainer) awardsContainer.style.display = "block";
-
-    renderCaAwardsTable();
+  let filteredItems = [];
 
   
 
-  } else if (mode === "sports") {
+  if (mode === 'mustknow') {
 
-    activateBtn(btnSports);
+    filteredItems = CDS_CA_DB.filter(item => item.priority && item.priority.includes("MUST KNOW"));
 
-    if (sportsContainer) sportsContainer.style.display = "block";
+  } else if (mode === 'rapid') {
 
-    renderCaSportsTable();
+    // Show one-line revisions for all items
 
-} else if (mode === "exercises") {
+    filteredItems = CDS_CA_DB.filter(item => item.oneLineRevision);
 
-    activateBtn(btnExercises);
+  } else if (mode === 'staticgk') {
 
-    if (exercisesContainer) exercisesContainer.style.display = "block";
+    filteredItems = CDS_CA_DB.filter(item => item.staticGkConnections && item.staticGkConnections.length > 0);
 
-    renderMilitaryExercisesDashboard();
+  } else {
+
+    // Map mode to category
+
+    const categoryMap = {
+
+      'defence': 'Defence & Security',
+
+      'strategic': 'International Relations',
+
+      'india': 'National Affairs',
+
+      'science': 'Science & Space',
+
+      'economy': 'Economy',
+
+      'environment': 'Environment & Geography',
+
+      'sports': 'Sports',
+
+      'awards': 'Awards & Honours',
+
+      'appointments': 'Appointments' // If we add this later
+
+    };
+
+    
+
+    const targetCategory = categoryMap[mode];
+
+    // Check if item.category contains target category as substring (because AI generated tags might include emojis)
+
+    filteredItems = CDS_CA_DB.filter(item => item.category && targetCategory && item.category.toLowerCase().includes(targetCategory.toLowerCase()));
 
   }
+
+
+
+  if (filteredItems.length === 0) {
+
+    container.innerHTML = `<div style="text-align: center; padding: 40px; color: var(--text-muted);">
+
+      <div style="font-size: 3rem; margin-bottom: 16px;">📡</div>
+
+      <h3>No intel available for this category yet.</h3>
+
+    </div>`;
+
+    return;
+
+  }
+
+
+
+  // Build HTML
+
+  let html = `<div style="display: flex; flex-direction: column; gap: 20px;">`;
+
+  
+
+  filteredItems.forEach(item => {
+
+    if (mode === 'rapid') {
+
+      html += `
+
+        <div class="panel" style="border-left: 4px solid var(--accent); display: flex; align-items: center; gap: 12px; padding: 16px;">
+
+          <div style="font-size: 1.5rem;">⚡</div>
+
+          <div style="font-size: 1.05rem; flex: 1; color: var(--text-primary);">${item.oneLineRevision}</div>
+
+        </div>
+
+      `;
+
+    } else if (mode === 'staticgk') {
+
+      html += `
+
+        <div class="panel" style="border-left: 4px solid #a855f7;">
+
+          <div class="panel-title" style="color: #a855f7; margin-bottom: 8px;">${item.topic}</div>
+
+          <ul style="margin: 0; padding-left: 20px; color: var(--text-secondary);">
+
+            ${item.staticGkConnections.map(gk => `<li style="margin-bottom: 6px;">${gk}</li>`).join('')}
+
+          </ul>
+
+        </div>
+
+      `;
+
+    } else {
+
+      // Standard layout
+
+      const priorityBadge = item.priority && item.priority.includes("MUST KNOW") 
+
+        ? `<span class="badge" style="background: rgba(239,68,68,0.2); color: #fca5a5; border: 1px solid #ef4444; margin-left: 8px;">🔴 MUST KNOW</span>`
+
+        : `<span class="badge" style="background: rgba(245,158,11,0.2); color: #fcd34d; border: 1px solid #f59e0b; margin-left: 8px;">🟠 IMPORTANT</span>`;
+
+        
+
+      html += `
+
+        <div class="panel">
+
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+
+            <h3 style="margin: 0; color: var(--text-primary); font-size: 1.2rem;">${item.topic} ${priorityBadge}</h3>
+
+            <div style="font-size: 0.85rem; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 4px 8px; border-radius: 4px;">
+
+              ${item.date || ''} ${item.location ? '| ' + item.location : ''}
+
+            </div>
+
+          </div>
+
+          
+
+          <div style="margin-bottom: 16px; color: var(--text-secondary); line-height: 1.5;">
+
+            ${item.whatHappened}
+
+          </div>
+
+          
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+
+            <div style="background: rgba(34,197,94,0.05); border: 1px solid rgba(34,197,94,0.2); padding: 12px; border-radius: 8px;">
+
+              <strong style="color: #4ade80; display: block; margin-bottom: 8px;">🎯 Exam Fact</strong>
+
+              <div style="font-size: 0.9rem; color: var(--text-primary);">${item.examFact}</div>
+
+            </div>
+
+            
+
+            <div style="background: rgba(239,68,68,0.05); border: 1px solid rgba(239,68,68,0.2); padding: 12px; border-radius: 8px;">
+
+              <strong style="color: #f87171; display: block; margin-bottom: 8px;">⚠️ Examiner's Trap</strong>
+
+              <div style="font-size: 0.9rem; color: var(--text-primary);">${item.examTrap}</div>
+
+            </div>
+
+          </div>
+
+          
+
+          <div style="background: var(--surface); padding: 12px; border-radius: 8px; font-size: 0.9rem; border-left: 3px solid var(--border);">
+
+            <strong style="color: var(--text-primary);">Strategic Importance:</strong> ${item.whyImportant}
+
+          </div>
+
+        </div>
+
+      `;
+
+    }
+
+  });
+
+  
+
+  html += `</div>`;
+
+  container.innerHTML = html;
 
 }
 
