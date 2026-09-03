@@ -137125,6 +137125,550 @@ const CBT_EXAMS_DATABASE = [
       }
     ]
   }
+,
+  {
+  "id": "cds-ca-aug2026",
+  "exam": "CDS",
+  "subject": "Current Affairs",
+  "title": "CDS High-Yield Current Affairs (Aug 2026)",
+  "duration": 60,
+  "rules": {
+    "correctMarks": 0.83,
+    "incorrectMarks": -0.27
+  },
+  "questions": [
+    {
+      "question": "Consider the following statements regarding the Diving Support Vessel (DSV) project of the Indian Navy:\n\nStatement 1: INS Nipun is the lead vessel of the Diving Support Vessel project, commissioned into the Eastern Naval Command.\nStatement 2: The DSV project vessels are indigenously built by Hindustan Shipyard Limited (HSL), Visakhapatnam, and feature a Deep Submergence Rescue Vehicle (DSRV) mating capability for submarine rescue.\nStatement 3: INS Nistar is the second vessel of the DSV project commissioned after INS Nipun.\n\nWhich of the statements given above are correct?",
+      "options": [
+        "Only Statement 1 and Statement 2",
+        "Only Statement 2",
+        "Only Statement 1 and Statement 3",
+        "All three statements"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect because INS Nipun is the second DSV, not the lead vessel (INS Nistar is the lead ship). Statement 3 is incorrect because INS Nistar was commissioned BEFORE INS Nipun, making Nipun the second vessel. Only Statement 2 is correct: Both DSVs (INS Nistar and INS Nipun) were indigenously built by Hindustan Shipyard Limited (HSL), Visakhapatnam, and feature DSRV mating capability for submarine rescue operations.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Consider the following statements regarding the meeting between Defence Minister Rajnath Singh and Shinjiro Koizumi in New Delhi on 20 August 2026:\n\nStatement 1: The meeting focused exclusively on climate change and environmental issues.\nStatement 2: Both sides discussed enhancing Indo-Pacific maritime security and strengthening QUAD coordination.\nStatement 3: Koizumi is Japan's Minister of Defence.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        "Only Statement 1",
+        "Only Statement 2",
+        "Only Statements 1 and 3",
+        "Statements 1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is incorrect because the meeting did not focus exclusively on environmental issues; it centered on maritime security, QUAD coordination, and defence cooperation. Statement 2 is correct as both sides discussed enhancing Indo-Pacific maritime security and strengthening QUAD coordination, including joint naval exercises. Statement 3 is incorrect because Koizumi is Japan's Minister of the Environment, not Defence. The meeting highlights that India-Japan strategic engagement transcends traditional ministerial portfolios.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Which of the following accurately describes the Defence Budget for FY 2026-27?",
+      "options": [
+        "Total outlay of ₹7.85 lakh crore with emphasis on capital expenditure (CapEx) over revenue expenditure (RevenEx)",
+        "Total outlay of ₹7.85 lakh crore with emphasis on revenue expenditure (RevenEx) only",
+        "Total outlay of ₹8.45 lakh crore with equal split between CapEx and RevenEx",
+        "Total outlay of ₹6.25 lakh crore focused solely on indigenous manufacturing"
+      ],
+      "correct": 0,
+      "explanation": "The Union Cabinet has approved the Defence Budget for FY 2026-27 at ₹7.85 lakh crore, marking a significant increase over previous years. The budget places heavy emphasis on capital expenditure (CapEx) rather than revenue expenditure (RevenEx), reflecting India's 'Atmanirbhar Bharat' defence initiative by prioritizing indigenous defence manufacturing and advanced technology acquisition.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Consider the following statements about India's potential cooperation with France on sixth-generation fighter technology:\n1. India has signed a formal agreement with Dassault Aviation to co-develop a 6th-gen fighter under the FCAS program.\n2. India's immediate focus remains on the indigenous development of the 5.5-generation Advanced Medium Combat Aircraft (AMCA).\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explanation": "No formal agreement has been signed; discussions are preliminary. India's current priority is the indigenous AMCA program, a 5.5-gen stealth fighter.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Regarding the trilateral defence agreement between Saudi Arabia, Pakistan, and Türkiye, which of the following statements is correct?",
+      "options": [
+        "An official joint statement and signed agreement have been publicly confirmed by all three countries' foreign ministries.",
+        "The agreement aims primarily at intelligence sharing without military cooperation components.",
+        "The negotiations focus solely on strategic coordination without any joint production elements.",
+        "The agreement was signed during the August 2026 summit meetings."
+      ],
+      "correct": 0,
+      "explanation": "According to the provided information, no official joint statement or signed agreement has been publicly confirmed by the foreign ministries of all three countries. The reports are based on diplomatic sources and media leaks rather than formal treaty documentation.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Consider the following statements regarding India's Independence Day and Republic Day:\n1. India achieved independence from British rule on 15 August 1947\n2. The Constitution of India came into force on 26 January 1950\n3. The year 2026 marks the 77th Republic Day and the 79th Independence Day\nWhich of the statements is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 is correct: India became independent on 15 August 1947. Statement 2 is correct: The Constitution of India came into force on 26 January 1950, when India became a sovereign democratic republic. Statement 3 is incorrect: 2026 marks the 80th Independence Day (2026 - 1947 + 1 = 80) and the 77th Republic Day (2026 - 1950 + 1 = 77). A common trap is confusing Independence Day with Republic Day, as independence preceded the republic status by over two years.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "China's 4th list of 'standardised geographical names' for Zangnan (Arunachal Pradesh) was released in March 2024. Which of the following statements accurately describes this development?",
+      "options": [
+        "It included 30 names across various categories including 11 residential, 12 mountains, 4 rivers, 1 lake, 1 mountain pass, and 1 piece of land",
+        "It was the first official naming exercise by Chinese authorities regarding Indian territory",
+        "It was rejected by India's MEA as 'invented names' that do not alter reality",
+        "All names were approved unilaterally without any international consultation"
+      ],
+      "correct": 0,
+      "explanation": "The statement correctly reflects the details provided in the context: China's 4th list contained 30 names distributed across 11 residential, 12 mountains, 4 rivers, 1 lake, 1 mountain pass, and 1 piece of land. The other options are incorrect - this was not the first naming exercise, it was not rejected by India's MEA (they stated invented names do not alter reality), and no such universal approval process exists.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "With reference to India's Chandrayaan-3 mission, which of the following statements is correct?",
+      "options": [
+        "A. The mission was launched on 23 August 2023 and achieved soft landing on 14 July 2023 at the lunar South Pole.",
+        "B. It achieved soft landing at Shiv Shakti Point near the lunar South Pole on 23 August 2023, making India the fourth country to soft-land on the Moon.",
+        "C. It consisted of an orbiter, lander, and rover, and was primarily aimed at discovering water molecules on the Moon.",
+        "D. The Vikram lander and Pragyan rover were part of Chandrayaan-2, and Chandrayaan-3 was a follow-up orbital mission."
+      ],
+      "correct": 1,
+      "explanation": "Chandrayaan-3 was launched on 14 July 2023 from Sriharikota, soft-landed on 23 August 2023 at Shiv Shakti Point. It had only a lander and rover, no orbiter. Chandrayaan-1 discovered water molecules. Chandrayaan-2's Vikram crashed in 2019.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Consider the following statements regarding India's foreign exchange reserves as of August 2026: \nI. The total forex reserves exceeded the $700 billion mark. \nII. Foreign Currency Assets (FCAs) constitute the largest share of the reserves. \nWhich of the following is correct?",
+      "options": [
+        "Only statement I is true",
+        "Only statement II is true",
+        "Both statements I and II are true",
+        "Neither statement I nor II is true"
+      ],
+      "correct": 2,
+      "explanation": "RBI data released in August 2026 reported total forex reserves at US$729.33 billion, clearly surpassing the $700 billion milestone. Additionally, FCAs account for roughly $500+ billion, making them the dominant component of the reserves. Hence both statements are true.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Consider the following statements regarding the August 2026 economic risks and El Niño dynamics:\n1. El Niño onset in mid-2026 is projected to increase global food price volatility by up to 15% due to disrupted Asian monsoon patterns.\n2. Unlike La Niña, El Niño typically causes drought-prone conditions in South Asia and flood-prone conditions in Southeast Asia.\n3. Central banks globally are expected to aggressively ease monetary policies in August 2026 to counter the inflationary pressures from El Niño.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 0,
+      "explanation": "Statement 1 is correct as the projected El Niño onset is expected to disrupt Asian monsoons and increase food price volatility by up to 15%. Statement 2 is correct because El Niño causes drought in South Asia and floods in Southeast Asia, which is the opposite of La Niña. Statement 3 is incorrect because, despite easing expectations, central banks are maintaining restrictive monetary policies to combat persistent inflation.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Consider the following statements regarding the recent Ramsar site designation in Arunachal Pradesh:\n1. Sangetsar Tso (Madhuri Lake) in Tawang district was designated as India's latest Wetland of International Importance in August 2026.\n2. It is the first Ramsar site for Arunachal Pradesh, making it the last of the eight northeastern states to secure this designation.\n3. The lake was formed due to a massive landslide triggered by the 1950 Assam Earthquake that blocked the Nyamjang Chu river.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three statements are factually correct. Sangetsar Tso (Madhuri Lake) was indeed designated as a Ramsar site in August 2026. It is the first such site for Arunachal Pradesh, making it the final northeastern state to obtain this recognition (prior sites include Deepor Beel in Assam, Loktak in Manipur, Rudrasagar in Tripura, Palak in Mizoram, and Nokrek in Meghalaya). The lake sits at an altitude of approximately 3,708 meters and was formed when the 1950 Assam Earthquake triggered landslides that blocked the flow of the Nyamjang Chu river.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "With reference to the India-Japan Special Strategic and Global Partnership, which of the following is correct?",
+      "options": [
+        "It was established as a 'Strategic Partnership' in 2006 and later downgraded.",
+        "It focuses solely on nuclear energy cooperation.",
+        "It was elevated to 'Special Strategic and Global Partnership' in 2014 and encompasses maritime security, critical technologies, and infrastructure, serving as a cornerstone of India's Act East Policy.",
+        "It is primarily an cultural and people-to-people partnership with no strategic dimensions."
+      ],
+      "correct": 2,
+      "explanation": "The partnership was indeed elevated to 'Special Strategic and Global Partnership' in 2014, broadening scope beyond defence to include maritime security, critical technologies, infrastructure, and aligning with India's Act East Policy. It is not solely nuclear, cultural, or downgraded.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Which of the following accurately describes the unique structure of the 2026 Commonwealth Games?",
+      "options": [
+        "All events were held at a single central venue in Melbourne",
+        "Events were distributed across six regional hubs in Victoria",
+        "The games were exclusively hosted by Australian states without regional distribution",
+        "The competition was limited to only four major cities in Victoria"
+      ],
+      "correct": 1,
+      "explanation": "The 2026 Commonwealth Games were uniquely structured with events distributed across six regional hubs (Melbourne, Geelong, Bendigo, Ballarat, Traralgon, and Gippsland) in Victoria, Australia. This made them the first edition to feature such a multi-regional hub system.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "As per verified sources, August 2026 saw the announcement of major civilian gallantry, Padma, and defense awards for Indian personalities.",
+      "options": [
+        "True",
+        "False",
+        "Unconfirmed",
+        "Not applicable"
+      ],
+      "correct": 1,
+      "explanation": "According to the provided information, no major civilian gallantry, Padma, or defense awards were officially announced for Indian personalities in August 2026. The month of August does not feature in the standard calendar of major Indian national awards, which are predominantly announced in January (Padma Vibhushan/Bhushan) or on Republic Day.",
+      "topicId": "current-affairs-aug-2026"
+    }
+  ]
+},
+  {
+  "id": "nda-ca-aug2026",
+  "exam": "NDA",
+  "subject": "Current Affairs",
+  "title": "NDA High-Yield Current Affairs (Aug 2026)",
+  "duration": 60,
+  "rules": {
+    "correctMarks": 4,
+    "incorrectMarks": -1.33
+  },
+  "questions": [
+    {
+      "question": "INS Nipun, recently commissioned into the Indian Navy, is built by which of the following shipyards?",
+      "options": [
+        "Mazagon Dock Shipbuilders Limited (MDL)",
+        "Garden Reach Shipbuilders & Engineers (GRSE)",
+        "Hindustan Shipyard Limited (HSL)",
+        "Goa Shipyard Limited (GSL)"
+      ],
+      "correct": 2,
+      "explanation": "INS Nipun is indigenously designed and built by Hindustan Shipyard Limited (HSL), Visakhapatnam. It is a Diving Support Vessel (DSV) equipped with Deep Submergence Rescue Vehicle (DSRV) capability for submarine rescue missions. It is important not to confuse it with combat vessels like the Water Jet Fast Attack Craft (built by GRSE) or the ASW Shallow Water Craft (Mahe class).",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "What is the official portfolio held by Shinjiro Koizumi, who met Defence Minister Rajnath Singh in New Delhi on 20 August 2026?",
+      "options": [
+        "Minister of Defence of Japan",
+        "Minister of Foreign Affairs of Japan",
+        "Minister of the Environment of Japan",
+        "Minister of Economy, Trade and Industry of Japan"
+      ],
+      "correct": 2,
+      "explanation": "Shinjiro Koizumi is Japan's Minister of the Environment. Despite holding an environment portfolio, he met with India's Defence Minister to discuss maritime security, QUAD coordination, and bilateral defence cooperation. This reflects the broadening scope of India-Japan strategic dialogue, which now spans across multiple ministerial channels.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "According to the Union Cabinet approval for Defence Budget FY 2026-27, what is the primary focus of the capital expenditure (CapEx) allocation?",
+      "options": [
+        "Indigenous defence manufacturing and advanced technology acquisition",
+        "Operational training and personnel upgrades",
+        "Military pension benefits and welfare schemes",
+        "Border security and coastal defense infrastructure"
+      ],
+      "correct": 0,
+      "explanation": "The budget allocation for FY 2026-27 prioritizes capital expenditure (CapEx) for indigenous defence manufacturing and advanced technology acquisition as part of the 'Atmanirbhar Bharat' initiative. This reflects India's goal to strengthen self-reliance in defence production through massive investments in domestic defence capabilities.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "What is the name of India's indigenous 5.5-generation twin-engine stealth fighter under development by DRDO/ADA?",
+      "options": [
+        "Tejas MkII",
+        "AMCA",
+        "HAL HF-24 Marut",
+        "Mirage 2000 Upgrade"
+      ],
+      "correct": 1,
+      "explanation": "The Advanced Medium Combat Aircraft (AMCA) is India's indigenous 5.5-generation twin-engine stealth fighter being developed by DRDO's Aeronautical Development Agency (ADA) under the Make in India initiative.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Which of the following programmes represents Pakistan's defence cooperation with Saudi Arabia?",
+      "options": [
+        "JF-17 Thunder co-development",
+        "MILGEM warship project",
+        "BRIDGE programme for artillery ammunition production",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that Pakistan maintains long-standing defence cooperation with Saudi Arabia through the BRIDGE programme, which focuses on artillery ammunition production. The JF-17 Thunder and MILGEM projects are associated with Türkiye, not Saudi Arabia.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "India celebrated its 80th Independence Day in which year?",
+      "options": [
+        "2025",
+        "2026",
+        "2027",
+        "2028"
+      ],
+      "correct": 1,
+      "explanation": "India achieved independence on 15 August 1947. Therefore, the 80th Independence Day was celebrated in 2026 (1947 + 79 = 2026, counting 1947 as the 1st Independence Day). The year 2026 marks eight decades since the end of British colonial rule.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Which of the following infrastructure developments is part of India's 2026 strategic focus on 'Dual-Use' infrastructure in Arunachal Pradesh?",
+      "options": [
+        "Operationalisation of the Sela Tunnel (world's longest bi-lane tunnel at over 13,000 feet)",
+        "Construction of the Lokmanya Ram Mohan Roy Bridge in Assam",
+        "Development of the Brahmaputra River navigation system",
+        "Expansion of the Delhi Metro network"
+      ],
+      "correct": 0,
+      "explanation": "The Sela Tunnel is explicitly mentioned as having been operationalized as the world's longest bi-lane tunnel exceeding 13,000 feet. The Frontier Highway (NH-913) along the LAC and advanced surveillance systems like UAVs and radars are also part of India's infrastructure push. Options B, C, and D refer to unrelated projects.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Chandrayaan-3's Vikram lander soft-landed on the Moon on which date, and at which location?",
+      "options": [
+        "A. 14 July 2023 at Tranquility Base",
+        "B. 23 August 2023 at Shiv Shakti Point",
+        "C. 6 September 2019 at Shiv Shakti Point",
+        "D. 15 August 1947 at Lunar Equator"
+      ],
+      "correct": 1,
+      "explanation": "Chandrayaan-3 was launched on 14 July 2023 and achieved soft landing on 23 August 2023 at Shiv Shakti Point near the lunar South Pole. Tranquility Base is the Apollo 11 landing site. The Chandrayaan-2 lander crashed on 6 September 2019.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "In August 2026, India's total foreign exchange reserves were reported at:",
+      "options": [
+        "$620.5 billion",
+        "$700.0 billion",
+        "$729.33 billion",
+        "$750.0 billion"
+      ],
+      "correct": 2,
+      "explanation": "The RBI release for August 2026 explicitly stated India's total forex reserves stood at US$729.33 billion, making option C the correct figure.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "According to recent meteorological and economic projections for mid-2026, by what percentage could the onset of El Niño increase global food price volatility due to disrupted Asian monsoon patterns?",
+      "options": [
+        "5%",
+        "10%",
+        "15%",
+        "25%"
+      ],
+      "correct": 2,
+      "explanation": "The projected onset of El Niño in mid-2026 is expected to severely disrupt Asian monsoon patterns, which could increase global food price volatility by up to 15%.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Sangetsar Tso (Madhuri Lake), which recently became Arunachal Pradesh's first Ramsar site, is located in which district?",
+      "options": [
+        "West Kameng",
+        "Tawang",
+        "Upper Subansiri",
+        "Lepa Rada"
+      ],
+      "correct": 1,
+      "explanation": "Sangetsar Tso, popularly known as Madhuri Lake, is situated in the Tawang district of Arunachal Pradesh at a high altitude of around 3,708 meters. It was designated as a Wetland of International Importance under the Ramsar Convention by the Ministry of Environment, Forest and Climate Change (MoEFCC) in August 2026.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "In which year was the India-Japan Special Strategic and Global Partnership elevated to its current status?",
+      "options": [
+        "2010",
+        "2014",
+        "2018",
+        "2020"
+      ],
+      "correct": 1,
+      "explanation": "The elevation occurred in 2014, marking a significant deepening of bilateral strategic ties, as recognized in official records and exam contexts.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "The 2026 Commonwealth Games were held in:",
+      "options": [
+        "Birmingham, United Kingdom",
+        "Victoria, Australia",
+        "Sydney, Australia",
+        "Perth, Australia"
+      ],
+      "correct": 1,
+      "explanation": "The 2026 Commonwealth Games took place in Victoria, Australia from March 17-29, 2026. They were not held in Birmingham (which hosted CWG 2022) nor in any other Australian capital city.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "The major civilian awards in India (such as Padma Vibhushan and Padma Bhushan) are typically announced during which periods?",
+      "options": [
+        "January only",
+        "February only",
+        "January and Republic Day (January 15th)",
+        "June and October"
+      ],
+      "correct": 2,
+      "explanation": "Major civilian awards like the Padma Vibhushan and Padma Bhushan are generally announced in January, while gallantry awards are presented on Republic Day (January 15th). August does not feature in the standard schedule of major national award ceremonies.",
+      "topicId": "current-affairs-aug-2026"
+    }
+  ]
+},
+  {
+  "id": "afcat-ca-aug2026",
+  "exam": "AFCAT",
+  "subject": "Current Affairs",
+  "title": "AFCAT High-Yield Current Affairs (Aug 2026)",
+  "duration": 60,
+  "rules": {
+    "correctMarks": 3,
+    "incorrectMarks": -1
+  },
+  "questions": [
+    {
+      "question": "What is the primary operational role of INS Nipun in the Indian Navy?",
+      "options": [
+        "Anti-Submarine Warfare (ASW) and surface attack",
+        "Diving support for underwater repair, maintenance, salvage, and submarine rescue",
+        "Air defence and fleet escort duties",
+        "Torpedo launch and naval mine laying"
+      ],
+      "correct": 1,
+      "explanation": "INS Nipun is a specialized Diving Support Vessel (DSV) designed to provide diving support for underwater repair, maintenance, and salvage operations. Crucially, it is equipped to operate the Indian Navy's Deep Submergence Rescue Vehicle (DSRV) for submarine rescue missions. It is NOT a combatant vessel, distinguishing it from frigates, corvettes, or fast attack craft.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "In which city did Defence Minister Rajnath Singh host Japan's Minister Shinjiro Koizumi on 20 August 2026 for talks on Indo-Pacific maritime security?",
+      "options": [
+        "Mumbai",
+        "Tokyo",
+        "New Delhi",
+        "Bengaluru"
+      ],
+      "correct": 2,
+      "explanation": "Defence Minister Rajnath Singh hosted Shinjiro Koizumi in New Delhi on 20 August 2026. The meeting focused on strengthening QUAD coordination, enhancing maritime domain awareness, expanding joint naval exercises, and deepening India-Japan strategic convergence in the Indo-Pacific region.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "What is the total outlay of the Union Defence Budget for Fiscal Year 2026-27?",
+      "options": [
+        "₹7.85 lakh crore",
+        "₹9.20 lakh crore",
+        "₹6.50 lakh crore",
+        "₹10.00 lakh crore"
+      ],
+      "correct": 0,
+      "explanation": "The Union Cabinet has approved the Defence Budget for Fiscal Year 2026-27 at ₹7.85 lakh crore, representing a significant increase over previous years. This substantial allocation emphasizes a shift towards capital expenditure (CapEx) rather than revenue expenditure (RevenEx), aiming to strengthen India's self-reliance in defence production under the 'Atmanirbhar Bharat' programme.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Which European aerospace company is reportedly in preliminary discussions with India for cooperation on sixth-generation fighter technology?",
+      "options": [
+        "Airbus Defence and Space",
+        "Saab",
+        "Dassault Aviation",
+        "Leonardo"
+      ],
+      "correct": 2,
+      "explanation": "French aerospace major Dassault Aviation is reported to be in preliminary talks with Indian authorities regarding potential cooperation on sixth-generation fighter technology linked to the FCAS program.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "The reported trilateral defence agreement involving Saudi Arabia, Pakistan, and Türkiye is characterized by:",
+      "options": [
+        "Official ratification by all three nations",
+        "Joint production facilities established across all three countries",
+        "Exclusive focus on intelligence sharing without military aspects",
+        "Signed during August 2026 diplomatic summits"
+      ],
+      "correct": 0,
+      "explanation": "While the agreement is described as 'potential' and aimed at deepening military cooperation, joint production, intelligence sharing, and strategic coordination, there is no confirmation of its official status. The text emphasizes that no official joint statement or signed agreement has been publicly confirmed, making the first option incorrect.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "What does the vision of 'India@100' refer to in the context of the Prime Minister's addresses?",
+      "options": [
+        "India's population reaching 100 crores",
+        "India's 100th Republic Day in 2050",
+        "India's centenary of independence in 2047",
+        "India's 100th year of economic reforms"
+      ],
+      "correct": 2,
+      "explanation": "India@100 refers to India's vision for the centenary of its independence, which will be celebrated on 15 August 2047—100 years after India achieved independence from British rule in 1947. PM's addresses typically outline the roadmap and goals for India@100, including development milestones and national aspirations for the coming decades.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "In the context of India's strategic posture in Arunachal Pradesh, which of the following best describes the 'Vibrant Villages Programme' (VVP)?",
+      "options": [
+        "A program focused solely on agricultural development in border districts",
+        "An initiative aimed at preventing border village depopulation through dual-use infrastructure and community engagement",
+        "A military strategy involving deployment of M777 howitzers in rural areas",
+        "A diplomatic effort to resolve the naming dispute with China"
+      ],
+      "correct": 1,
+      "explanation": "The Vibrant Villages Programme (VVP) is described as an initiative aimed at preventing border village depopulation through dual-use infrastructure and community engagement. This directly addresses the concern of villages becoming empty due to border security measures. The other options describe either purely military actions or unrelated diplomatic efforts.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "National Space Day in India is celebrated on 23 August to commemorate which historic achievement?",
+      "options": [
+        "A. Successful launch of India's first satellite Aryabhata",
+        "B. Soft landing of Chandrayaan-3 on the lunar South Pole",
+        "C. First Indian human spaceflight (Gaganyaan) mission",
+        "D. Successful deployment of IRNSS-1G navigation satellite"
+      ],
+      "correct": 1,
+      "explanation": "Prime Minister Narendra Modi declared 23 August as National Space Day in 2023 to commemorate the Chandrayaan-3 soft landing. Aryabhata was launched in 1975. Gaganyaan is an upcoming mission. IRNSS is India's navigation satellite system.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Which component constitutes the largest share of India's foreign exchange reserves as of August 2026?",
+      "options": [
+        "Gold",
+        "Special Drawing Rights (SDRs)",
+        "Foreign Currency Assets (FCAs)",
+        "Reserve position with IMF"
+      ],
+      "correct": 2,
+      "explanation": "Foreign Currency Assets (FCAs) make up the bulk of India's forex reserves, estimated at over $500 billion, far exceeding the contributions from gold, SDRs, and the reserve position. Therefore, FCAs are the largest component.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "In the context of August 2026 economic risks, which of the following accurately describes the distinct climatic impact of an El Niño event compared to a La Niña event?",
+      "options": [
+        "El Niño causes flood-prone conditions in South Asia and drought-prone conditions in Southeast Asia.",
+        "El Niño causes drought-prone conditions in South Asia and flood-prone conditions in Southeast Asia.",
+        "Both El Niño and La Niña cause identical drought conditions in South Asia but differ in Southeast Asia.",
+        "El Niño causes uniform drought conditions globally, whereas La Niña causes uniform flood conditions globally."
+      ],
+      "correct": 1,
+      "explanation": "While both are ENSO phases, El Niño specifically causes drought-prone conditions in South Asia and flood-prone conditions in Southeast Asia. This is the opposite of La Niña dynamics, and confusing the two leads to incorrect policy responses for agricultural and energy sectors.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "The lake that recently became Arunachal Pradesh's first Ramsar site was formed after which natural event?",
+      "options": [
+        "A glacial outburst flood in 1965",
+        "Volcanic activity in the Himalayas",
+        "Landslides triggered by the 1950 Assam Earthquake",
+        "Construction of a hydroelectric dam on the Nyamjang Chu river"
+      ],
+      "correct": 2,
+      "explanation": "Sangetsar Tso (Madhuri Lake) is a high-altitude glacial lake that was formed when massive landslides, triggered by the devastating 1950 Assam Earthquake, blocked the natural flow of the Nyamjang Chu river. This created the lake, which has since become a critical high-altitude wetland ecosystem and a site of significant hydrological, ecological, and cultural importance.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Which of the following flagship projects symbolizes the India-Japan Special Strategic and Global Partnership?",
+      "options": [
+        "Delhi-Mumbai Industrial Corridor",
+        "Mumbai-Ahmedabad High-Speed Rail (Bullet Train) project",
+        "Chennai-Bengaluru Industrial Corridor",
+        "Sagarmala project"
+      ],
+      "correct": 1,
+      "explanation": "The Mumbai-Ahmedabad High-Speed Rail project, utilizing Japanese Shinkansen technology, is a flagship infrastructure project symbolizing the depth of India-Japan cooperation in the Special Strategic and Global Partnership.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Regarding the 2026 Commonwealth Games, which statement is true?",
+      "options": [
+        "The games featured 20 sports in total",
+        "Women's rugby sevens and para powerlifting were among the new sports added",
+        "India participated with fewer than 50 athletes",
+        "The games ran from February 15-25, 2026"
+      ],
+      "correct": 1,
+      "explanation": "The 2026 Commonwealth Games featured 23 sports, including new additions such as women's rugby sevens and para powerlifting. India sent a large contingent of athletes, contradicting the claim of fewer than 50 athletes. The games ran from March 17-29, 2026, not February.",
+      "topicId": "current-affairs-aug-2026"
+    },
+    {
+      "question": "Which of the following statements about major Indian awards in August 2026 is correct?",
+      "options": [
+        "Major civilian awards were extensively announced in August 2026",
+        "Gallantry awards were announced during Republic Day in August 2026",
+        "No major civilian or gallantry awards were announced in August 2026",
+        "Defense awards were primarily announced in August 2026"
+      ],
+      "correct": 2,
+      "explanation": "Based on verified sources, no major civilian gallantry, Padma, or defense awards were officially announced for Indian personalities in August 2026. The month of August typically lacks major national award ceremonies, unlike Republic Day (Gallantry/Padma) or Independence Day special mentions.",
+      "topicId": "current-affairs-aug-2026"
+    }
+  ]
+}
 ];
 
 
