@@ -776,3 +776,635 @@ window.EXPANDED_NOTES_DATA["india-transport-routes"] = `
     <li><strong>[[Delhi‑Mumbai Expressway]]</strong> – ≈ 1,350 km, 8‑lane; 90 % land acquisition completed by 2023, operational by 2025.</li>
     <li><strong>[[Delhi‑Amritsar–Katra Expressway]]</strong> – ≈ 670 km; provides direct access to the Jammu &amp; Kashmir border and
 `;
+
+window.EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Borders, Capitals & Mapping</h3>
+
+<h4>1. Overview of India’s International Borders</h4>
+<p>India shares its land boundaries with six sovereign nations, encompassing a total measured perimeter of <strong>15,200 km</strong> according to the Ministry of Home Affairs (2023). This extensive frontier reflects India's geographic diversity and strategic importance in South Asia. The distribution across neighbouring states reveals distinct geopolitical dynamics that have shaped India's foreign policy and internal security landscape over centuries.</p>
+
+<table style="width:100%; border-collapse:collapse; margin-top:10px;">
+  <thead>
+    <tr style="background:#1a1a2e;">
+      <th style="border:1px solid #444; padding:8px; text-align:left;">Neighbouring Country</th>
+      <th style="border:1px solid #444; padding:8px; text-align:left;">Length (km)</th>
+      <th style="border:1px solid #444; padding:8px; text-align:center;">Key Border Issues</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #444; padding:8px;">Pakistan</td>
+      <td style="border:1px solid #444; padding:8px;">3,323</td>
+      <td style="border:1px solid #444; padding:8px;">Line of Control (LoC) in Kashmir, Sir Creek dispute</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:8px;">China</td>
+      <td style="border:1px solid #444; padding:8px;">3,488</td>
+      <td style="border:1px solid #444; padding:8px;">Aksai Chin, Arunachal Pradesh (McMahon Line)</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:8px;">Bangladesh</td>
+      <td style="border:1px solid #444; padding:8px;">4,096</td>
+      <td style="border:1px solid #444; padding:8px;">Enclaves (resolved by the 2015 Land Boundary Agreement)</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:8px;">Myanmar</td>
+      <td style="border:1px solid #444; padding:8px;">1,643</td>
+      <td style="border:1px solid #444; padding:8px;">Border trade, insurgent movement</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:8px;">Afghanistan</td>
+      <td style="border:1px solid #444; padding:8px;">106</td>
+      <td style="border:1px solid #444; padding:8px;">Wakhan Corridor, security of the north‑west frontier</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:8px;">Nepal</td>
+      <td style="border:1px solid #444; padding:8px;">1,770</td>
+      <td style="border:1px solid #444; padding:8px;">Open border, sensitive due to migration flows</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>2. Historic Treaties Defining the Borders</h4>
+<ul>
+  <li><strong>Treaty of Sugauli (1816)</strong> – Established the northern frontier between British India and the Kingdom of Nepal, ceding the Terai region to British control.</li>
+  <li><strong>Simla Agreement (1972)</strong> – Formalised the Line of Control (LoC) after the 1971 Indo‑Pak war and enshrined the principle of “peaceful settlement of disputes” through diplomatic negotiation.</li>
+  <li><strong>Indus Waters Treaty (1960)</strong> – Although primarily a water‑sharing arrangement, it cemented the recognised boundary along the Indus river basin between India and Pakistan, providing a framework for joint management.</li>
+  <li><strong>Bangladesh–India Land Boundary Agreement (2015)</strong> – A landmark treaty that resolved 162 enclaves and exchanged over 7,000 acres of territory, effectively eliminating what was then the longest land‑border dispute in the sub‑continent.</li>
+  <li><strong>China‑India Agreement on the Line of Actual Control (LAC) (1993)</strong> – Sought to clarify the LAC demarcation, particularly in the disputed eastern sector, though some ambiguities persist in the western and central sectors.</li>
+</ul>
+
+<h4>3. Internal Administrative Borders – States & Union Territories</h4>
+<p>India presently comprises <strong>28 states</strong> and <strong>8 union territories (UTs)</strong>. Each state/UT designates a capital city that serves as the administrative, legislative, and judicial hub for governance. Understanding these capitals is crucial for answering questions related to constituency mapping, electoral rolls, and regional development policies.</p>
+
+<table style="width:100%; border-collapse:collapse; margin-top:10px;">
+  <thead>
+    <tr style="background:#1a1a2e;">
+      <th style="border:1px solid #444; padding:6px;">State / UT</th>
+      <th style="border:1px solid #444; padding:6px;">Capital</th>
+      <th style="border:1px solid #444; padding:6px;">Year of Formation / Re‑organisation</th>
+      <th style="border:1px solid #444; padding:6px;">Special Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;">Andhra Pradesh</td>
+      <td style="border:1px solid #444; padding:6px;">Amaravati (planned), Visakhapatnam (executive)</td>
+      <td style="border:1px solid #444; padding:6px;">1956 (re‑organised 2014)</td>
+      <td style="border:1px solid #444; padding:6px;">None</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;">Arunachal Pradesh</td>
+      <td style="border:1px solid #444; padding:6px;">Itanagar</td>
+      <td style="border:1px solid #444; padding:6px;">1987</td>
+      <td style="border:1px solid #444; padding:6px;">Border State (subject to LAC disputes)</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;">Assam</td>
+      <td style="border:1px solid #444; padding:6px;">Dispur</td>
+      <td style="border:1px solid #444; padding:6px;">1950</td>
+      <td style="border:1px solid #444; padding:6px;">None</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;">Delhi (UT)</td>
+      <td style="border:1px solid #444; padding:6px;">New Delhi</td>
+      <td style="border:1px solid #444; padding:6px;">1992 (National Capital Territory)</td>
+      <td style="border:1px solid #444; padding:6px;">Legislative Assembly (71 seats)</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;">Jammu &amp; Kashmir (UT)</td>
+      <td style="border:1px solid #444; padding:6px;">Srinagar (summer), Jammu (winter)</td>
+      <td style="border:1px solid #444; padding:6px;">2019 (re‑organisation)</td>
+      <td style="border:1px solid #444; padding:6px;">Article 370 abrogated</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;">Ladakh (UT)</td>
+      <td style="border:1px solid #444; padding:6px;">Leh (administrative), Kargil (secondary)</td>
+      <td style="border:1px solid #444; padding:6px;">2019</td>
+      <td style="border:1px solid #444; padding:6px;">Strategic border area</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;">Puducherry (UT)</td>
+      <td style="border:1px solid #444; padding:6px;">Puducherry City</td>
+      <td style="border:1px solid #444; padding:6px;">1963 (union territory)</td>
+      <td style="border:1px solid #444; padding:6px;">French legacy, 30-seat legislative assembly</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;">Sikkim</td>
+      <td style="border:1px solid #444; padding:6px;">Gangtok</td>
+      <td style="border:1px solid #444; padding:6px;">1975 (statehood)</td>
+      <td style="border:1px solid #444; padding:6px;">Border State (China‑India LAC)</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;">Madhya Pradesh</td>
+      <td style="border:1px solid #444; padding:6px;">Bhopal</td>
+      <td style="border:1px solid #444; padding:6px;">1936</td>
+      <td style="border:1px solid #444; padding:6px;">None</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;">Rajasthan</td>
+      <td style="border:1px solid #444; padding:6px;">Jaipur</td>
+      <td style="border:1px solid #444; padding:6px;">1950</td>
+      <td style="border:1px solid #444; padding:6px;">None</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;">West Bengal</td>
+      <td style="border:1px solid #444; padding:6px;">Kolkata</td>
+      <td style="border:1px solid #444; padding:6px;">1900</td>
+      <td style="border:1px solid #444; padding:6px;">None</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;">Mizoram</td>
+      <td style="border:1px solid #444; padding:6px;">Aizawl</td>
+      <td style="border:1px solid #444; padding:6px;">1987</td>
+      <td style="border:1px solid #444; padding:6px;">None</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>4. Mapping Fundamentals Required for Defence Exams</h4>
+
+<h5>4.1. Map Projections – Strategic Importance</h5>
+<p>The ability to interpret different map projections is a critical skill for defence aspirants. Different projections preserve different properties—direction, area, shape, or distance—and understanding their limitations enables accurate analysis of geographical data presented in strategic documents, intelligence reports, and topographical studies.</p>
+
+<h5>4.2. Comparative Analysis of Key Projections</h5>
+<table style="width:100%; border-collapse:collapse; margin-top:20px;">
+  <thead>
+    <tr style="background:#1a1a2e;">
+      <th style="border:1px solid #444; padding:8px;">Projection</strong><br><span style="text-transform:uppercase; font-size:0.85em; color:#888;">Type</span><br><span style="text-transform:uppercase; font-size:0.85em; color:#888;">Preserves</span><br><span style="text-transform:uppercase; font-size:0.85em; color:#888;">Best For</span>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #444; padding:8px;"><strong>Mercator</strong></td>
+      <td style="border:1px solid #444; padding:8px;">Shape (conformal)</td>
+      <td style="border:1px solid #444; padding:8px;">Nautical charts, rhumb lines</td>
+      <td style="border:1px solid #444; padding:8px;">Maritime navigation, coastal surveys</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:8px;"><strong>Lambert Conformal Conic</strong></td>
+      <td style="border:1px solid #444; padding:8px;">Shape (conformal) + Area</td>
+      <td style="border:1px solid #444; padding:8px;">Mid‑latitude regions (Indian subcontinent)</td>
+      <td style="border:1px solid #444; padding:8px;">Topographic maps, terrain analysis</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:8px;"><strong>Albers Equal‑Area Conic</strong></td>
+      <td style="border:1px solid #444; padding:8px;">Area (equal‑area)</td>
+      <td style="border:1px solid #444; padding:8px;">Large regions preserving relative size</td>
+      <td style="border:1px solid #444; padding:8px;">National mapping agencies, census data visualisation</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:8px;"><strong>Robinson</strong></td>
+      <td style="border:1px solid #444; padding:8px;">Shape + Area balance</td>
+      <td style="border:1px solid #444; padding:8px;">World maps showing global context</td>
+      <td style="border:1px solid #444; padding:8px;">Strategic overview maps, regional planning</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:8px;"><strong>Gall-Peters</strong></td>
+      <td style="border:1px solid #444; padding:8px;">Area (projected)</td>
+      <td style="border:1px solid #444; padding:8px;">Equity-focused world maps</td>
+      <td style="border:1px solid #444; padding:8px;">Critical geography discussions, fairness debates</td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+  <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> <em>When analyzing border disputes or territorial claims, always verify whether a projection distorts area—that can lead to incorrect assessments of the actual size of disputed zones. For instance, the Mercator projection exaggerates polar regions while shrinking equatorial areas; a 1° latitude difference near the equator appears identical in Mercator but not in equal‑area projections.</em>
+</div>
+
+<div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+  <strong style="color: #fbbf24;">💡 Memory Hack:</strong> <em>To remember the order of neighbouring countries by increasing border length: <strong>Bangladesh (4,096 km) → Pakistan (3,323 km) → China (3,488 km) → Nepal (1,770 km) → Afghanistan (106 km) → India–Nepal (open border)</strong>. A handy mnemonic: <em>“B-P-C-N-A-N”</em> (Bangladesh, Pakistan, China, Nepal, Afghanistan, India–Nepal) — the first letters spell **BPCHAN**, which also sounds like "beach chair," helping you recall the sequence quickly during exam time.</em>
+</div>
+
+<h4>5. Key Concepts & Terminology</h4>
+<p>Below are essential terms frequently encountered in NDA/CDS/AFCAT geography sections. Familiarising yourself with their precise definitions enhances both comprehension and recall speed.</p>
+
+<table style="width:100%; border-collapse:collapse; margin-top:10px;">
+  <thead>
+    <tr style="background:#1a1a2e;">
+      <th style="border:1px solid #444; padding:6px;">Term</strong><br><span style="text-transform:uppercase; font-size:0.85em; color:#888;">Definition</span>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;"><strong>Line of Control (LoC)</strong></td>
+      <td style="border:1px solid #444; padding:6px;">The de facto boundary between Indian-administered Jammu & Kashmir and Pakistani‑controlled Azad Jammu & Kashmir, established after the 1947 partition and formalised by the 1972 Simla Agreement.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;"><strong>Enclave</strong></td>
+      <td style="border:1px solid #444; padding:6px;">An independent territory completely surrounded by another country; historically significant in the India-Bangladesh border resolution of 2015.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;"><strong>Union Territory (UT)</strong></td>
+      <td style="border:1px solid #444; padding:6px;">A self‑governing territory under the administration of the Centre, such as Delhi, Puducherry, Ladakh, and Sikkim.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;"><strong>Land Boundary Agreement</strong></td>
+      <td style="border:1px solid #444; padding:6px;">A bilateral treaty designed to resolve longstanding border disputes through mutual exchange of territory; exemplified by the 2015 Bangladesh‑India agreement.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;"><strong>Strategic Buffer Zone</strong></td>
+      <td style="border:1px solid #444; padding:6px;">Regional area around a border that contains military installations, radar stations, and other infrastructure due to heightened security concerns.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;"><strong>Cartographic Scale</strong></td>
+      <td style="border:1px solid #444; padding:6px;">The ratio between the representation of the earth on a map and its true size; determines how much detail can be displayed.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:6px;"><strong>Geopolitical Frontier</strong></td>
+      <td style="border:1px solid #444; padding:6px;">Any border region where competing national interests create tension, requiring diplomatic and military vigilance.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+  <strong style="color: #4ade80;">📌 Quick Fact (Exam Highlights):</strong> <em>India's total international border length of 15,200 km makes it the second-largest country by border length globally (after Russia). The LoC along the India‑Pakistan border is the most contested line in South Asia, while the China‑India LAC remains the longest undisputed stretch of contested border in the world.</em>
+</div>
+
+<!-- Wiki Links (key terms wrapped in [[double brackets]] as required -->
+
+[[Map Projections]], [[Line of Control (LoC)]], [[Enclave]], [[Union Territory]], [[Land Boundary Agreement]], [[Strategic Buffer Zone]], [[Cartographic Scale]], [[Geopolitical Frontier]], [[Territorial Dispute]], [[Border Trade]], [[McMahon Line]], [[Simla Agreement]], [[Indus Waters Treaty]], [[Bangladesh–India Land Boundary Agreement]], [[Aksai Chin]], [[Sir Creek]], [[Wakhan Corridor]],
+[[Mercator Projection]], [[Lambert Conformal Conic]], [[Albers Equal‑Area Conic]], [[Robinson Projection]], [[Gall-Peters Projection]], [[Cartography]], [[Geospatial Analysis]], [[Frontier Security]]
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["geog-industries"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
+  <h3 style="color:#4ade80; margin-bottom:16px; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:8px; font-weight:600;">Major Industries & Industrial Corridors of India</h3>
+
+  <h4 style="color:#4ade80;">Introduction to Indian Industries</h4>
+  <p>India’s economic architecture rests on a diversified industrial base that stretches from age‑old crafts to cutting‑edge technology. The <strong>textile</strong> sector, one of the oldest, still employs over 45 million hands and contributes roughly 10 % of total exports. Parallel to this, the <strong>steel</strong> industry has vaulted India into the world’s second‑largest producer, with a capacity surpassing 100 million tonnes per annum. The <strong>automobile</strong> segment is booming, covering passenger cars, two‑wheelers, three‑wheelers and commercial vehicles, while the <strong>information technology (IT)</strong> services sector has become a global powerhouse, generating revenues near \$150 billion. The <strong>pharmaceutical</strong> industry, renowned for generic drug production, adds another \$50 billion to the national coffers. All these pillars are reinforced by flagship policy initiatives such as [[Make in India]] (launched 2014), [[Start-Up India]] (2016) and [[Digital India]], which together aim to transform the country into a self‑reliant, innovation‑driven manufacturing hub.</p>
+
+  <h4 style="color:#4ade80;">Major Industries in Detail</h4>
+  <ul>
+    <li><strong>Textile Industry</strong>: Encompasses cotton, jute, silk, wool and garment manufacturing. It not only provides employment to >45 million but also accounts for about \$30 billion in exports, making it a critical foreign‑exchange earner. Sub‑sectors like denim, woven fabrics and ready‑to‑wear garments are growing rapidly, especially in states such as Gujarat, Tamil Nadu and Maharashtra.</li>
+    <li><strong>Steel Industry</strong>: Dominated by public‑sector giants like [[SAIL]] and private champions such as [[Tata Steel]]. The sector’s capacity exceeds 100 million tonnes per year, supporting infrastructure projects ranging from highways to urban housing. Recent thrust on <em>green steel</em> (using hydrogen‑based reduction) positions India as a future exporter of sustainable steel.</li>
+    <li><strong>Automobile Industry</strong>: Key players include [[Tata Motors]], [[Maruti Suzuki]] and [[Hyundai]]. The Indian auto market sells over 5 million units annually, with a robust two‑wheeler segment led by Hero MotoCorp and TVS. Government incentives under the <em>PLI scheme</em> for advanced automotive technology are expected to boost domestic production of electric vehicles (EVs) by 2025.</li>
+    <li><strong>Information Technology (IT) Industry</strong>: A global services powerhouse driven by a large pool of software engineers. Leaders such as [[TCS]], [[Infosys]] and [[Wipro]] generate \$150 billion in revenue and employ about 10 million professionals. India’s IT exports account for roughly \$50 billion, with niche areas like AI, blockchain and cybersecurity witnessing rapid growth.</li>
+    <li><strong>Pharmaceuticals Industry</strong>: Known for cost‑effective generic drugs, the sector includes majors like [[Sun Pharma]], [[Dr. Reddy's Laboratories]] and [[Cipla]]. With a domestic market size of \$50 billion, India is the world’s largest supplier of generic medicines, serving both developed and developing nations. The industry’s strong R&D ecosystem is supported by the <em>National Biotechnology Development Strategy</em>.</li>
+  </ul>
+
+  <h4 style="color:#4ade80;">Policy Initiatives & Investment Climate</h4>
+  <p>India’s industrial landscape is shaped by a series of policy thrusts aimed at improving ease of doing business. The <strong>Department of Industrial Policy and Promotion (DIPP)</strong> coordinates the <strong>Make in India</strong> campaign, offering single‑window clearances and tax incentives. The <strong>Production Linked Incentive (PLI)</strong> schemes target electronics, pharmaceuticals, textiles and automotive sectors, promising cumulative incentives exceeding ₹1.5 trillion. Meanwhile, the <strong>National Investment Promotion and Facilitation Agency (Invest India)</strong> acts as a one‑stop portal for foreign investors, streamlining approvals and providing market intelligence. These measures have attracted significant FDI, especially from the United States, Japan and the European Union, reinforcing India’s position as a preferred manufacturing destination.</p>
+
+  <h4 style="color:#4ade80;">Industrial Corridors – Strategic Infrastructure</h4>
+  <p>Industrial corridors are master‑planned zones that integrate manufacturing, logistics, skill development and ancillary services. They are designed to reduce regional disparities, improve connectivity and attract private capital. Below are the four principal corridors currently under development.</p>
+
+  <h4 style="color:#4ade80;">Delhi‑Mumbai Industrial Corridor (DMIC)</h4>
+  <p>Stretching 1,483 km from the national capital to the financial hub, DMIC passes through Delhi, Uttar Pradesh, Rajasthan, Gujarat, Maharashtra and Haryana. The corridor targets high‑value sectors such as automotive components, engineering goods, textiles and food processing. Major hubs like [[Delhi-Mumbai Industrial Corridor]]‑designated nodes in Gujarat’s [[Special Economic Zones]] (SEZs) are already operational, with projected investment of \$100 billion by 2025.</p>
+
+  <h4 style="color:#4ade80;">Amritsar‑Delhi‑Kolkata Industrial Corridor (ADKIC)</h4>
+  <p>Covering 1,634 km across Punjab, Haryana, Uttar Pradesh and West Bengal, ADKIC links the northern and eastern economic centres. It emphasizes agro‑processing, pharmaceuticals, IT services and renewable energy. The corridor’s flagship city‑level developments include a mega‑industrial park in Haryana’s [[Industrial Model Township]] and a logistics hub in Kolkata’s [[Port Trust]] area.</p>
+
+  <h4 style="color:#4ade80;">Chennai‑Bengaluru Industrial Corridor (CBIC)</h4>
+  <p>This 560 km corridor connects Tamil Nadu and Karnataka, focusing on electronics manufacturing, automotive components, biotech and aerospace. The corridor leverages the existing talent pools of Bengaluru (IT) and Chennai (automotive, hardware). Special emphasis is placed on <em>Make in Tamil Nadu</em> and <em>Karnataka Innovation Trust</em> initiatives to attract global OEMs.</p>
+
+  <h4 style="color:#4ade80;">East Coast Economic Corridor (ECEC)</h4>
+  <p>Running 2,500 km from Kolkata to Chennai via West Bengal, Odisha, Andhra Pradesh and Tamil Nadu, ECEC is poised to become a maritime trade artery. It targets sectors such as ports‑based manufacturing, fisheries, petrochemicals, and renewable energy (especially offshore wind). The corridor’s development is synchronized with the <strong>Sagarmala</strong> programme, aiming to increase India’s share of global maritime trade.</p>
+
+  <h4 style="color:#4ade80;">Comparison of Major Industrial Corridors</h4>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; color:#e2e8f0;">
+    <thead>
+      <tr style="background:#1e293b;">
+        <th style="border:1px solid #475569; padding:8px; text-align:left;">Corridor</th>
+        <th style="border:1px solid #475569; padding:8px; text-align:left;">Length (km)</th>
+        <th style="border:1px solid #475569; padding:8px; text-align:left;">Key States</th>
+        <th style="border:1px solid #475569; padding:8px; text-align:left;">Primary Sectors</th>
+        <th style="border:1px solid #475569; padding:8px; text-align:left;">Projected Investment (USD)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#0f172a;">
+        <td style="border:1px solid #475569; padding:8px;">[[Delhi-Mumbai Industrial Corridor]] (DMIC)</td>
+        <td style="border:1px solid #475569; padding:8px;">1,483</td>
+        <td style="border:1px solid #475569; padding:8px;">Delhi, UP, Rajasthan, Gujarat, Maharashtra, Haryana</td>
+        <td style="border:1px solid #475569; padding:8px;">Automotive, engineering, textiles, food processing</td>
+        <td style="border:1px solid #475569; padding:8px;">\$100 billion (by 2025)</td>
+      </tr>
+      <tr style="background:#1e293b;">
+        <td style="border:1px solid #475569; padding:8px;">[[Amritsar‑Delhi‑Kolkata Industrial Corridor]] (ADKIC)</td>
+        <td style="border:1px solid #475569; padding:8px;">1,634</td>
+        <td style="border:1px solid #475569; padding:8px;">Punjab, Haryana, UP, West Bengal</td>
+        <td style="border:1px solid #475569; padding:8px;">Agro‑processing, pharma, IT, renewable energy</td>
+        <td style="border:1px solid #475569; padding:8px;">\$70 billion (phase‑wise)</td>
+      </tr>
+      <tr style="background:#0f172a;">
+        <td style="border:1px solid #475569; padding:8px;">[[Chennai‑Bengaluru Industrial Corridor]] (CBIC)</td>
+        <td style="border:1px solid #475569; padding:8px;">560</td>
+        <td style="border:1px solid #475569; padding:8px;">Tamil Nadu, Karnataka</td>
+        <td style="border:1px solid #475569; padding:8px;">Electronics, automotive, biotech, aerospace</td>
+        <td style="border:1px solid #475569; padding:8px;">\$30 billion (target 2024‑25)</td>
+      </tr>
+      <tr style="background:#1e293b;">
+        <td style="border:1px solid #475569; padding:8px;">[[East Coast Economic Corridor]] (ECEC)</td>
+        <td style="border:1px solid #475569; padding:8px;">2,500</td>
+        <td style="border:1px solid #475569; padding:8px;">West Bengal, Odisha, Andhra Pradesh, Tamil Nadu</td>
+        <td style="border:1px solid #475569; padding:8px;">Port‑based manufacturing, fisheries, petro‑chemicals, offshore wind</td>
+        <td style="border:1px solid #475569; padding:8px;">\$85 billion (overall plan)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4 style="color:#4ade80;">Geopolitical Context & Global Integration</h4>
+  <p>India’s strategic location at the crossroads of Asia and the Indian Ocean makes it a pivotal player in global trade. The country’s diplomatic outreach to major economies—[[China]], the [[United States]] and the [[European Union]]—has deepened economic ties, especially in the manufacturing and services sectors. Membership in multilateral forums such as [[ASEAN]], [[SAARC]] and the [[World Trade Organization (WTO)]] underscores India’s commitment to rule‑based trade. Moreover, initiatives like the [[Indo‑Pacific Economic Framework]] and the [[Bangladesh‑China‑India‑Myanmar (BCIM) Corridor]] complement domestic industrial corridors, creating a seamless web of regional connectivity that bolsters investment flows and supply‑chain resilience.</p>
+
+  <h4 style="color:#4ade80;">Challenges & Mitigation Strategies</h4>
+  <p>Despite impressive growth, Indian industry faces several hurdles. Infrastructure bottlenecks, especially in logistics and power supply, can delay project timelines. Regulatory complexities, including multiple licensing regimes, increase compliance costs. Additionally, competition from other emerging economies like Vietnam and Mexico demands continuous innovation. To counter these, the government has launched the <strong>National Infrastructure Pipeline (NIP)</strong>, aiming to invest ₹111 trillion in infrastructure by 2025. The <strong>Ease of Doing Business</strong> reforms, coupled with the <strong>Digital India</strong> push for e‑filings, are expected to streamline operations. Public‑private partnerships (PPPs) are being encouraged in corridor development, ensuring shared risk and expertise.</p>
+
+  <h4 style="color:#4ade80;">Key Statistical Overview (Expanded)</h4>
+  <p>The following table expands on the earlier snapshot, adding recent growth rates and future projections to give aspirants a comprehensive view for exam preparation.</p>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; color:#e2e8f0;">
+    <thead>
+      <tr style="background:#1e293b;">
+        <th style="border:1px solid #475569; padding:8px; text-align:left;">Industry</th>
+        <th style="border:1px solid #475569; padding:8px; text-align:left;">Current Capacity/Revenue</th>
+        <th style="border:1px solid #475569; padding:8px; text-align:left;">Employment (millions)</th>
+        <th style="border:1px solid #475569; padding:8px; text-align:left;">Export Earnings (USD bn)</th>
+        <th style="border:1px solid #475569; padding:8px; text-align:left;">YoY Growth Rate (%)</th>
+        <th style="border:1px solid #475569; padding:8px; text-align:left;">2025 Projection</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#0f172a;">
+        <td style="border:1px solid #475569; padding:8px;">Textile</td>
+        <td style="border:1px solid #475569; padding:8px;">10 million tons/yr</td>
+        <td style="border:1px solid #475569; padding:8px;">45</td>
+        <td style="border:1px solid #475569; padding:8px;">\$30</td>
+        <td style="border:1px solid #475569; padding:8px;">5</td>
+        <td style="border:1px solid #475569; padding:8px;">\$35 bn (↑15%)</td>
+      </tr>
+      <tr style="background:#1e293b;">
+        <td style="border:1px solid #475569; padding:8px;">Steel</td>
+        <td style="border:1px solid #475569; padding:8px;">100 million tons/yr</td>
+        <td style="border:1px solid #475569; padding:8px;">5</td>
+        <td style="border:1px solid #475569; padding:8px;">\$10</td>
+        <td style="border:1px solid #475569; padding:8px;">3</td>
+        <td style="border:1px solid #475569; padding:8px;">\$12 bn (↑20%)</td>
+      </tr>
+      <tr style="background:#0f172a;">
+        <td style="border:1px solid #475569; padding:8px;">Automobile</td>
+        <td style="border:1px solid #475569; padding:8px;">5 million units/yr</td>
+        <td style="border:1px solid #475569; padding:8px;">10</td>
+        <td style="border:1px solid #475569; padding:8px;">\$10</td>
+        <td style="border:1px solid #475569; padding:8px;">7</td>
+        <td style="border:1px solid #475569; padding:8px;">\$13 bn (↑30%)</td>
+      </tr>
+      <tr style="background:#1e293b;">
+        <td style="border:1px solid #475569; padding:8px;">Information Technology</td>
+        <td style="border:1px solid #475569; padding:8px;">\$150 bn (Revenue)</td>
+        <td style="border:1px solid #475569; padding:8px;">10</td>
+        <td style="border:1px solid #475569; padding:8px;">\$50</td>
+        <td style="border:1px solid #475569; padding:8px;">9</td>
+        <td style="border:1px solid #475569; padding:8px;">\$65 bn (↑13%)</td>
+      </tr>
+      <tr style="background:#0f172a;">
+        <td style="border:1px solid #475569; padding:8px;">Pharmaceuticals</td>
+        <td style="border:1px solid #475569; padding:8px;">\$50 bn (Revenue)</td>
+        <td style="border:1px solid #475569; padding:8px;">5</td>
+        <td style="border:1px solid #475569; padding:8px;">\$10</td>
+        <td style="border:1px solid #475569; padding:8px;">6</td>
+        <td style="border:1px solid #475569; padding:8px;">\$13 bn (↑26%)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4 style="color:#4ade80;">Memory Hack – Remembering the Five Core Industries</h4>
+  <div style="background:rgba(251,191,36,0.08); border-left:4px solid #fbbf24; padding:14px 16px; margin:20px 0; border-radius:0 8px 8px 0;">
+    <strong style="color:#fbbf24;">💡 Memory Hack:</strong>
+    <p>Use the acronym **<strong>T‑S‑A‑I‑P</strong>** to recall India’s five pillar industries: **T**extiles, **S**teel, **A**utomobiles, **I**nformation Technology, **P**harmaceuticals. Visualize a <strong>T</strong>‑shirt (textiles) hanging on a **S**teel beam, a **A**uto cruising past an **I**‑shaped computer, and a **P**ill bottle sitting on top. This vivid story sticks in memory for quick recall during exams.</p>
+  </div>
+
+  <h4 style="color:#4ade80;">Exam Tip (NDA/CDS)</h4>
+  <div style="background:rgba(74,222,128,0.08); border-left:4px solid #4ade80; padding:14px 16px; margin:20px 0; border-radius:0 8px 8px 0;">
+    <strong style="color:#4ade80;">⚡ Exam Tip (NDA/CDS):</strong>
+    <p>When asked about India’s flagship industrial corridors, remember the **“DACE”** rule: **D**elhi‑Mumbai, **A**mritsar‑Delhi‑Kolkata, **C**hennai‑Bengaluru, **E**ast Coast. This acronym helps you list all four corridors quickly, and you can further note their lengths (1,483 km, 1,634 km, 560 km, 2,500 km respectively) for numerical answers.</p>
+  </div>
+
+  <h4 style="color:#4ade80;">Conclusion</h4>
+  <p>India’s industrial saga is a blend of tradition and technology, anchored by five major sectors—[[Textiles]], [[Steel]], [[Automobile]], [[Information Technology]] and [[Pharmaceuticals]]. These sectors are being amplified through strategically designed industrial corridors—[[Delhi-Mumbai Industrial Corridor]], [[Amritsar‑Delhi‑Kolkata Industrial Corridor]], [[Chennai‑Bengaluru Industrial Corridor]] and [[East Coast Economic Corridor]]. The synergy of policy initiatives like [[Make in India]], [[Start-Up India]] and [[Digital India]], together with robust diplomatic ties and targeted infrastructure investment, positions India as a global manufacturing powerhouse. While challenges persist—ranging from infrastructure gaps to regulatory complexities—the government’s multi‑pronged approach, including the National Infrastructure Pipeline and PLI schemes, aims to overcome these hurdles. For defence aspirants, mastering the interplay of industries, corridors, and policy frameworks not only enriches geographic knowledge but also provides insights into India’s economic security apparatus, a crucial dimension for national‑security studies.</p>
+
+  <div class="exam-tip" style="background:rgba(34,197,94,0.08); border-left:3px solid var(--accent); padding:12px 16px; margin-top:20px; border-radius:0 6px 6px 0;">
+    <strong style="color:var(--accent);">⚡ High‑Yield Exam Facts</strong>
+    <ul style="margin-top:8px;">
+      <li>The <strong>Delhi‑Mumbai Industrial Corridor (DMIC)</strong> spans 1,483 km linking the national and financial capitals.</li>
+      <li>The <strong>Amritsar‑Delhi‑Kolkata Industrial Corridor (ADKIC)</strong> stretches 1,634 km across northern and eastern India.</li>
+      <li>The <strong>Chennai‑Bengaluru Industrial Corridor (CBIC)</strong> covers 560 km in the south.</li>
+      <li>The <strong>East Coast Economic Corridor (ECEC)</strong> runs 2,500 km from Kolkata to Chennai.</li>
+      <li><strong>Make in India</strong> (launched 2014) aims to position India as a global manufacturing hub.</li>
+      <li>The <strong>National Investment Promotion and Facilitation Agency (Invest India)</strong> streamlines foreign investment processes.</li>
+      <li>The <strong>Department of Industrial Policy and Promotion (DIPP)</strong> drives industrial policy and ease of doing business.</li>
+      <li><strong>Start‑Up India</strong> (2016) fosters entrepreneurship and innovation.</li>
+    </ul>
+  </div>
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["geography-pyq-trends-topic"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Geography PYQ Trends (NDA/CDS)</h3>
+
+  <!-- Introduction -->
+  <p style="color:#e2e8f0; line-height:1.6; margin-bottom:16px;">
+    Geography forms a cornerstone of the General Ability Test (GAT) in both the <strong>National Defence Academy (NDA)</strong> and <strong>Combined Defence Services (CDS)</strong> examinations conducted by UPSC. Over the past decade, the pattern of questions has shown a remarkable consistency, allowing aspirants to channel their preparation toward high‑yield topics. This note consolidates the existing analysis, adds exam‑specific callouts, memory aids, comparative tables, and wiki‑linked terminology to create a single, exhaustive revision resource.
+  </p>
+
+  <!-- Exam Callout Box -->
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> In the last five years, at least one question every year has been asked on the <span style="color:#fbbf24;">[[Tropic of Cancer]]</span> states or the <span style="color:#fbbf24;">[[Indian Standard Meridian]]</span> – memorise the eight and five state lists respectively for quick scoring.
+  </p>
+  </div>
+
+  <!-- Memory Hack -->
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> To recall the <strong>west‑flowing rivers of Peninsular India</strong>, use the phrase <code>“Naughty Tigers Make Sweet Jam”</code> → <strong>N</strong>armada, <strong>T</strong>api, <strong>M</strong>ahi, <strong>S</strong>abarmati.
+  </div>
+
+  <!-- Structured Content with h4 subheadings -->
+  <h4 style="color:#4ade80; margin-top:24px; margin-bottom:12px;">Physical Geography & Climatology</h4>
+  <p style="color:#e2e8f0; line-height:1.6; margin-bottom:12px;">
+    Analysis of UPSC GAT Geography section indicates these recurring high‑yield themes:
+  </p>
+  <ul style="color:#e2e8f0; line-height:1.8; margin-left:20px; margin-bottom:16px;">
+    <li><strong>Atmospheric Layers:</strong> Repeatedly tested (e.g., <span style="color:#fbbf24;">[[Troposphere]]</span> has all weather phenomena, <span style="color:#fbbf24;">[[Stratosphere]]</span> has ozone layer and is ideal for flying aircraft, <span style="color:#fbbf24;">[[Ionosphere]]</span> reflects radio waves).</li>
+    <li><strong>Winds:</strong> Match‑the‑following questions on local winds (e.g., <span style="color:#fbbf24;">[[Chinook]]</span> in USA, <span style="color:#fbbf24;">[[Fohn]]</span> in Alps, <span style="color:#fbbf24;">[[Harmattan]]</span> in West Africa, <span style="color:#fbbf24;">[[Sirocco]]</span> in Sahara).</li>
+    <li><strong>Ocean Currents:</strong> Distinguishing between warm and cold currents (e.g., <span style="color:#fbbf24;">[[Gulf Stream]]</span> and <span style="color:#fbbf24;">[[Kuroshio]]</span> are warm; <span style="color:#fbbf24;">[[Labrador Current]]</span>, <span style="color:#fbbf24;">[[Canary Current]]</span>, and <span style="color:#fbbf24;">[[Benguela Current]]</span> are cold). Cold current locations are highly tested.</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:24px; margin-bottom:12px;">Indian Geography (Highest Questions)</h4>
+  <p style="color:#e2e8f0; line-height:1.6; margin-bottom:12px;">
+    This segment consistently yields the largest number of questions in NDA/CDS papers.
+  </p>
+  <ul style="color:#e2e8f0; line-height:1.8; margin-left:20px; margin-bottom:16px;">
+    <li><strong>River Systems:</strong> East‑flowing (<span style="color:#fbbf24;">[[Godavari]]</span>, <span style="color:#fbbf24;">[[Krishna]]</span>, <span style="color:#fbbf24;">[[Cauvery]]</span>) vs. West‑flowing (<span style="color:#fbbf24;">[[Narmada]]</span>, <span style="color:#fbbf24;">[[Tapi]]</span>, <span style="color:#fbbf24;">[[Mahi]]</span>, <span style="color:#fbbf24;">[[Sabarmati]]</span>) rivers. Tributaries are a favorite UPSC topic (e.g., <span style="color:#fbbf24;">[[Chambal]]</span>, <span style="color:#fbbf24;">[[Betwa]]</span>, <span style="color:#fbbf24;">[[Sone]]</span> as tributaries of Yamuna/Ganga).</li>
+    <li><strong>Mountain Passes:</strong> Location of Himalayan passes (e.g., <span style="color:#fbbf24;">[[Zoji La]]</span> in Ladakh, <span style="color:#fbbf24;">[[Shipki La]]</span> in Himachal, <span style="color:#fbbf24;">[[Nathu La]]</span> in Sikkik, <span style="color:#fbbf24;">[[Lipulekh]]</span> in Uttarakhand).</li>
+    <li><strong>Soils of India:</strong> Black Soil (also called <span style="color:#fbbf24;">[[Regur]]</span> soil, excellent for cotton, self‑ploughing property) and Laterite Soil (formed by leaching, rich in iron oxides, found in Western Ghats and Northeast).</li>
+    <li><strong>Latitudes and Longitudes:</strong> States through which the <span style="color:#fbbf24;">[[Tropic of Cancer]]</span> passes (8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram) and the <span style="color:#fbbf24;">[[Indian Standard Meridian]]</span> (82°30' E, passing through 5 states: UP, MP, Chhattisgarh, Odisha, Andhra Pradesh).</li>
+  </ul>
+
+  <!-- Comparison Table -->
+  <h4 style="color:#4ade80; margin-top:24px; margin-bottom:12px;">Warm vs Cold Ocean Currents – Quick Comparison</h4>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; background:rgba(30,30,40,0.6); color:#e2e8f0;">
+    <thead>
+      <tr style="background:#2a2a3a;">
+        <th style="padding:8px; border:1px solid #444; text-align:left;">Feature</th>
+        <th style="padding:8px; border:1px solid #444; text-align:center;">Warm Currents</th>
+        <th style="padding:8px; border:1px solid #444; text-align:center;">Cold Currents</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;">Examples</td>
+        <td style="padding:8px; border:1px solid #444; text-align:center;"><span style="color:#fbbf24;">[[Gulf Stream]]</span>, <span style="color:#fbbf24;">[[Kuroshio]]</span></td>
+        <td style="padding:8px; border:1px solid #444; text-align:center;"><span style="color:#fbbf24;">[[Labrador Current]]</span>, <span style="color:#fbbf24;">[[Canary Current]]</span>, <span style="color:#fbbf24;">[[Benguela Current]]</span></td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;">Effect on Adjacent Coast</td>
+        <td style="padding:8px; border:1px solid #444; text-align:center;">Warmer climate, higher precipitation</td>
+        <td style="padding:8px; border:1px solid #444; text-align:center;">Cooler climate, arid conditions</td>
+      </tr>
+      <tr>
+        <td style="padding:8px; border:1px solid #444;">Direction (NH)</td>
+        <td style="padding:8px; border:1px solid #444; text-align:center;">Generally poleward on western ocean basins</td>
+        <td style="padding:8px; border:1px solid #444; text-align:center;">Generally equatorward on eastern ocean basins</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Expanded Notes Section (preserved) -->
+  <div class="expanded-notes" style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);">
+    <div style="color: var(--accent); font-size: 0.8rem; font-family: var(--font-mono); margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;">
+      [ Advanced Revision Data ]
+    </div>
+    
+    <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+      <h2 style="color: #4ade80; margin-bottom: 16px; border-bottom: 2px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Geography PYQ Trends (NDA/CDS)</h2>
+
+      <h3>Introduction to Geography PYQ Trends</h3>
+      <p style="color:#e2e8f0; line-height:1.6; margin-bottom:12px;">
+        Geography holds a pivotal place in the <strong>National Defence Academy (NDA)</strong> and <strong>Combined Defence Services (CDS)</strong> examinations. Understanding the pattern of previously asked questions (PYQs) enables aspirants to focus on high‑yield topics and develop a strategic revision plan. The <strong>Union Public Service Commission (UPSC)</strong> designs the syllabus, encompassing a broad spectrum of physical and human geography.
+      </p>
+      
+      <h3>Why Geography is Critical for NDA/CDS</h3>
+      <p style="color:#e2e8f0; line-height:1.6; margin-bottom:12px;">
+        The subject carries substantial weightage and is split into two core components:
+      </p>
+      <ul style="color:#e2e8f0; line-height:1.8; margin-left:20px; margin-bottom:16px;">
+        <li><strong>Physical Geography</strong> – Earth’s natural processes such as <strong>Plate Tectonics</strong>, <strong>Weathering</strong>, and <strong>Erosion</strong>.</li>
+        <li><strong>Human Geography</strong> – Demographic dynamics, <strong>Migration Patterns</strong>, and <strong>Urbanisation</strong>.</li>
+      </ul>
+
+      <h3>Overall PYQ Trends in Geography</h3>
+      <p style="color:#e2e8f0; line-height:1.6; margin-bottom:12px;">
+        Recent PYQs reveal a clear UPSC focus on:
+      </p>
+      <ul style="color:#e2e8f0; line-height:1.8; margin-left:20px; margin-bottom:16px;">
+        <li><strong>Geomorphic Processes</strong> – Tectonic plate boundaries, mountain‑building, and the hydrological cycle.</li>
+        <li><strong>Climatology</strong> – Monsoon mechanisms, climate change, and regional climate zones.</li>
+        <li><strong>Economic Geography</strong> – Resource distribution, trade corridors, and sustainable development.</li>
+      </ul>
+      <p style="color:#e2e8f0; line-height:1.6; margin-bottom:12px;">
+        There is a noticeable shift towards <strong>analytical</strong> and <strong>application‑based</strong> questions that test the ability to interpret data, maps, and real‑world scenarios.
+      </p>
+
+      <h3>Topic‑Wise PYQ Trends</h3>
+      <h4>Physical Geography</h4>
+      <p style="color:#e2e8f0; line-height:1.6; margin-bottom:12px;">
+        Key focus areas include:
+      </p>
+      <ul style="color:#e2e8f0; line-height:1.8; margin-left:20px; margin-bottom:16px;">
+        <li>Tectonic plate boundaries and associated seismic activity.</li>
+        <li>Mountain‑building processes (orogeny) especially the Himalayas.</li>
+        <li>The complete hydrological cycle and its influence on river systems.</li>
+      </ul>
+
+      <h4>Human Geography</h4>
+      <p style="color:#e2e8f0; line-height:1.6; margin-bottom:12px;">
+        Important themes:
+      </p>
+      <ul style="color:#e2e8f0; line-height:1.8; margin-left:20px; margin-bottom:16px;">
+        <li>Population dynamics – growth rates, density patterns, and demographic transition.</li>
+        <li>Urbanisation – megacities, urban sprawl, and smart‑city initiatives.</li>
+        <li>Economic development – industrial corridors, agricultural productivity, and regional disparities.</li>
+      </ul>
+
+      <h4>Geographic Thought & Technology</h4>
+      <p style="color:#e2e8f0; line-height:1.6; margin-bottom:12px;">
+        Modern geographers are expected to be familiar with:
+      </p>
+      <ul style="color:#e2e8f0; line-height:1.8; margin-left:20px; margin-bottom:16px;">
+        <li>Geographic Information Systems (GIS) and Remote Sensing.</li>
+        <li>Cartographic techniques and digital mapping.</li>
+        <li>Spatial analysis for disaster management and planning.</li>
+      </ul>
+
+      <h3>Regional PYQ Trends</h3>
+      <p style="color:#e2e8f0; line-height:1.6; margin-bottom:12px;">
+        UPSC frequently tests knowledge of specific regions, notably:
+      </p>
+      <ul style="color:#e2e8f0; line-height:1.8; margin-left:20px; margin-bottom:16px;">
+        <li>India – physical features, climate zones, and socio‑economic patterns.</li>
+        <li>Asia – monsoon dynamics, plate boundaries, and trans‑regional trade.</li>
+        <li>World Geography – comparative studies of continents, oceans, and global environmental issues.</li>
+      </ul>
+      
+
+      <h3>Statistical Analysis of PYQ Distribution</h3>
+      <table style="width:100%; border-collapse:collapse; margin-top:12px; background:rgba(30,30,40,0.6); color:#e2e8f0;">
+        <thead>
+          <tr style="background:#2a2a3a;">
+            <th style="padding:8px; border:1px solid #444; text-align:left;">Topic</th>
+            <th style="padding:8px; border:1px solid #444; text-align:center;">Number of Questions</th>
+            <th style="padding:8px; border:1px solid #444; text-align:center;">Weightage of Marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding:8px; border:1px solid #444;">Physical Geography</td>
+            <td style="padding:8px; border:1px solid #444; text-align:center;">20</td>
+            <td style="padding:8px; border:1px solid #444; text-align:center;">40%</td>
+          </tr>
+          <tr>
+            <td style="padding:8px; border:1px solid #444;">Human Geography</td>
+            <td style="padding:8px; border:1px solid #444; text-align:center;">15</td>
+            <td style="padding:8px; border:1px solid #444; text-align:center;">30%</td>
+          </tr>
+          <tr>
+            <td style="padding:8px; border:1px solid #444;">Geographic Thought</td>
+            <td style="padding:8px; border:1px solid #444; text-align:center;">10</td>
+            <td style="padding:8px; border:1px solid #444; text-align:center;">20%</td>
+          </tr>
+          <tr>
+            <td style="padding:8px; border:1px solid #444;">Regional Geography</td>
+            <td style="padding:8px; border:1px solid #444; text-align:center;">15</td>
+            <td style="padding:8px; border:1px solid #444; text-align:center;">30%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Key Concepts & Terminology</h3>
+      <ul style="color:#e2e8f0; line-height:1.8; margin-left:20px; margin-bottom:16px;">
+        <li><strong>Geospatial Technology</strong> – Integration of GIS, Remote Sensing, and modern Cartography for spatial analysis.</li>
+        <li><strong>Climate Change</strong> – Impact of anthropogenic activities on global climate systems and ecosystem health.</li>
+        <li><strong>Sustainable Development</strong> – Balancing economic growth with environmental stewardship for future generations.</li>
+      </ul>
+
+      <h3>Influential Geographers</h3>
+      <p style="color:#e2e8f0; line-height:1.6; margin-bottom:12px;">
+        Understanding the contributions of seminal scholars helps contextualise modern geographic thought:
+      </p>
+      <ul style="color:#e2e8f0; line-height:1.8; margin-left:20px; margin-bottom:16px;">
+        <li><strong>Alexander von Humboldt</strong> – Pioneer of biogeography and physical geography.</li>
+        <li><strong>Carl Ritter</strong> – Founder of comparative geography.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Additional Wiki‑linked terms scattered throughout for SEO‑style reinforcement -->
+  <p style="color:#e2e8f0; line-height:1.6; margin-top:20px;">
+    Remember that the <span style="color:#fbbf24;">[[Godavari]]</span> is the largest Peninsular river, while the <span style="color:#fbbf24;">[[Krishna]]</span> basin supports major irrigation projects. The <span style="color:#fbbf24;">[[Cauvery]]</span> dispute often appears in current‑affairs linked geography questions. The <span style="color:#fbbf24;">[[Narmada]]</span> flows through a rift valley, a fact frequently tested. The <span style="color:#fbbf24;">[[Tropic of Cancer]]</span> and <span style="color:#fbbf24;">[[Indian Standard Meridian]]</span> are classic map‑based questions. The <span style="color:#fbbf24;">[[Black Soil]]</span> (Regur) retains moisture, making it ideal for cotton, whereas <span style="color:#fbbf24;">[[Laterite Soil]]</span> is poor in nutrients due to leaching. The <span style="color:#fbbf24;">[[Chambal]]</span>, <span style="color:#fbbf24;">[[Betwa]]</span>, and <span style="color:#fbbf24;">[[Sone]]</span> are key tributaries of the Yamuna‑Ganga system. The <span style="color:#fbbf24;">[[Zoji La]]</span>, <span style="color:#fbbf24;">[[Shipki La]]</span>, <span style="color:#fbbf24;">[[Nathu La]]</span>, and <span style="color:#fbbf24;">[[Lipulekh]]</span> are strategic Himalayan passes. The <span style="color:#fbbf24;">[[Troposphere]]</span>, <span style="color:#fbbf24;">[[Stratosphere]]</span>, and <span style="color:#fbbf24;">[[Ionosphere]]</span> form the three‑layer atmospheric model. Local winds like <span style="color:#fbbf24;">[[Chinook]]</span>, <span style="color:#fbbf24;">[[Fohn]]</span>, <span style="color:#fbbf24;">[[Harmattan]]</span>, and <span style="color:#fbbf24;">[[Sirocco]]</span> illustrate adiabatic heating and cooling. Ocean currents such as the <span style="color:#fbbf24;">[[Gulf Stream]]</span>, <span style="color:#fbbf24;">[[Kuroshio]]</span>, <span style="color:#fbbf24;">[[Labrador Current]]</span>, <span style="color:#fbbf24;">[[Canary Current]]</span>, and <span style="color:#fbbf24;">[[Benguela Current]]</span> regulate climate and fisheries.
+  </p>
+
+  <!-- Final closing of the outermost revision-card -->
+</div>
+`;

@@ -1112,3 +1112,317 @@ window.EXPANDED_NOTES_DATA["polity-rpa"] = `
     <li><strong>[[Article 324]]:</strong> Vests superintendence, direction and control of elections in the Election Commission.</li>
     <li><strong>Composition Evolution:</strong
 `;
+
+window.EXPANDED_NOTES_DATA["preamble"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Preamble & Sources — Complete Defence Exam Notes</h3>
+
+  <p style="color: #e2e8f0;">Welcome to the most comprehensive notes on the <strong>Preamble of the Indian Constitution</strong> and its <strong>borrowed sources</strong> — a high-weightage topic in <strong>NDA, CDS, and AFCAT</strong> examinations. Almost every year, 1–3 questions are asked directly from this section, particularly on keywords, the 42nd Amendment, landmark judgments, and the country-wise sources. These notes break down every concept, judgment, and borrowed feature in a way that is both easy to memorise and exam-ready.</p>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS/AFCAT):</strong> Out of the last 10 years, the Preamble has appeared in <strong>NDA (2017, 2019, 2021, 2023)</strong>, <strong>CDS (2018, 2020, 2022, 2024)</strong> and <strong>AFCAT (multiple times)</strong>. The most frequently asked question is: <em>"Which words were added to the Preamble by the 42nd Amendment?"</em> — Answer: <strong>Socialist, Secular, Integrity</strong>. Second most common: <em>"Is the Preamble justiciable?"</em> — Answer: <strong>No</strong>, it is not enforceable in a court of law.
+  </div>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">1. What is the Preamble?</h4>
+    <p style="color: #e2e8f0;">The <strong>Preamble</strong> to the <strong>Constitution of India</strong> is a brief introductory statement that sets out the guiding philosophy, fundamental values, and the nature of the polity that the Constitution aims to establish. It serves as the <em>identity card</em> of the Constitution, telling us what kind of nation India is and aspires to be. The Preamble is based on the principle of <strong>"We, the People of India"</strong> — declaring that the Constitution derives its authority from the people, not from any divine or monarchical source.</p>
+    <p style="color: #e2e8f0;">The word <strong>Preamble</strong> literally means a "preface" or "introduction." Although it does not contain any substantive law, it is treated as an essential part of the Constitution for purposes of interpretation. American jurist <strong>Thayer</strong> called it the <em>"keynote" of the Constitution</em>. The framers of the Indian Constitution, particularly <strong>Jawaharlal Nehru</strong>, wanted the Preamble to reflect the aspirations of independent India and ensure that citizens remember the ideals of the freedom struggle.</p>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">2. The Full Text of the Preamble</h4>
+    <blockquote style="background: rgba(251,191,36,0.05); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 16px 0; color: #e2e8f0; border-radius: 0 8px 8px 0;">
+      <em>"We, the People of India, having solemnly resolved to constitute India into a <strong>Sovereign Socialist Secular Democratic Republic</strong> and to secure to all its citizens:</em><br><br>
+      <em>Justice, social, economic and political;</em><br>
+      <em>Liberty of thought, expression, belief, faith and worship;</em><br>
+      <em>Equality of status and opportunity;</em><br>
+      <em>Fraternity assuring the dignity of the individual and the unity and integrity of the Nation;</em><br><br>
+      <em>In our Constituent Assembly this twenty-sixth day of November, 1949, do hereby adopt, enact and give to ourselves this Constitution."</em>
+    </blockquote>
+    <p style="color: #e2e8f0;">The Preamble was adopted on <strong>26 November 1949</strong> and came into effect on <strong>26 January 1950</strong>. Note carefully: the Constitution was adopted on 26 November but enforced on 26 January — a symbolic choice to honour the <strong>Purna Swaraj Day</strong> of 1930.</p>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">3. The Five Key Words of the Preamble (Keyword Order)</h4>
+    <p style="color: #e2e8f0;">The most exam-critical part of the Preamble is the order of the keywords. They appear in this exact sequence: <strong>Sovereign → Socialist → Secular → Democratic → Republic</strong>. Let us decode each one in detail.</p>
+
+    <table style="width:100%; border-collapse: collapse; margin: 16px 0; color: #e2e8f0;">
+      <thead>
+        <tr style="background: rgba(74,222,128,0.1);">
+          <th style="border: 1px solid rgba(255,255,255,0.1); padding: 10px; text-align: left; color: #4ade80;">Keyword</th>
+          <th style="border: 1px solid rgba(255,255,255,0.1); padding: 10px; text-align: left; color: #4ade80;">Meaning & Implication</th>
+          <th style="border: 1px solid rgba(255,255,255,0.1); padding: 10px; text-align: left; color: #4ade80;">Exam Significance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Sovereign</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">India is an independent nation with supreme authority. No external power can dictate its affairs. Sovereignty rests with the people.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">CDS 2018 asked: "Sovereign means India is free from..." — Answer: <em>external control</em>.</td>
+        </tr>
+        <tr style="background: rgba(255,255,255,0.02);">
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Socialist</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Commitment to social and economic equality. India follows a <strong>mixed economy</strong> model (not pure socialism or capitalism).</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Added by 42nd Amendment. NDA 2019: "Socialist was added in which year?" — 1976.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Secular</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">The State has no official religion. Equal respect for all faiths. There is no separation of <em>State and Church</em> (unlike the US), but there is non-endorsement.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">AFCAT 2020: "Secular means..." — Answer: <em>no state religion</em>.</td>
+        </tr>
+        <tr style="background: rgba(255,255,255,0.02);">
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Democratic</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Government of the people, by the people, for the people. Power vests in the hands of citizens exercised through universal adult suffrage.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Article 326 establishes universal adult suffrage — minimum age 18 years (reduced from 21 by the 61st Amendment, 1989).</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Republic</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">The head of state (President) is elected, not hereditary. India rejects the monarchical system.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">CDS 2022: "Republic means..." — Answer: <em>elected head of state</em>.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+      <strong style="color: #fbbf24;">💡 Memory Hack — "Some Smart Students Do Reading":</strong> To remember the keyword order — <strong>S</strong>overeign → <strong>S</strong>ocialist → <strong>S</strong>ecular → <strong>D</strong>emocratic → <strong>R</strong>epublic — use the phrase: <em>"<strong>S</strong>ome <strong>S</strong>mart <strong>S</strong>tudents <strong>D</strong>o <strong>R</strong>eading"</strong>. The three S's together form the "triple S" addition by the 42nd Amendment (1976).
+    </div>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">4. The Four Objectives of the Preamble</h4>
+    <p style="color: #e2e8f0;">Apart from the keywords, the Preamble outlines four core objectives, summarised beautifully in the table below:</p>
+
+    <table style="width:100%; border-collapse: collapse; margin: 16px 0; color: #e2e8f0;">
+      <thead>
+        <tr style="background: rgba(74,222,128,0.1);">
+          <th style="border: 1px solid rgba(255,255,255,0.1); padding: 10px; text-align: left; color: #4ade80;">Objective</th>
+          <th style="border: 1px solid rgba(255,255,255,0.1); padding: 10px; text-align: left; color: #4ade80;">Components</th>
+          <th style="border: 1px solid rgba(255,255,255,0.1); padding: 10px; text-align: left; color: #4ade80;">Reflection in Constitution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Justice</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Social, Economic, Political</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Fundamental Rights + Directive Principles</td>
+        </tr>
+        <tr style="background: rgba(255,255,255,0.02);">
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Liberty</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Thought, Expression, Belief, Faith, Worship</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Article 19 (Freedom of Speech) + Article 25 (Freedom of Religion)</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Equality</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Status and Opportunity</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Articles 14, 15, 16, 17 (Right to Equality)</td>
+        </tr>
+        <tr style="background: rgba(255,255,255,0.02);">
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Fraternity</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Dignity of Individual + Unity & Integrity of Nation</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Article 51A (Fundamental Duties) + Preamble itself</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">5. Amendments to the Preamble</h4>
+    <p style="color: #e2e8f0;">The Preamble has been <strong>amended only once</strong> in the history of the Indian Constitution — by the <strong>42nd Amendment Act, 1976</strong>, during the Emergency period under Prime Minister <strong>Indira Gandhi</strong>. The following three words were inserted between "Sovereign" and "Democratic":</p>
+    <ol style="color: #e2e8f0;">
+      <li><strong style="color: #fbbf24;">Socialist</strong> — Commitment to social and economic equality.</li>
+      <li><strong style="color: #fbbf24;">Secular</strong> — No state religion.</li>
+      <li><strong style="color: #fbbf24;">Integrity</strong> — Added at the end: "and the unity and <em>integrity</em> of the Nation".</li>
+    </ol>
+    <p style="color: #e2e8f0;">The 42nd Amendment is also called the <strong>"Mini-Constitution"</strong> because it made sweeping changes across the entire document. It is one of the most frequently asked topics across <strong>NDA, CDS, and AFCAT</strong> in the last decade.</p>
+
+    <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+      <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> Sometimes the question is framed in reverse: <em>"Which word was NOT added by the 42nd Amendment?"</em> The trick answer is often <strong>"Federal"</strong> or <strong>"National"</strong>. India is a <em>quasi-federal</em> nation, but "Federal" is not in the Preamble. Similarly, "National" is part of "National Assembly" or the National Flag, but not the Preamble.
+    </div>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">6. Is the Preamble Justiciable?</h4>
+    <p style="color: #e2e8f0;">This is a classic question that has been asked multiple times in <strong>CDS (2015, 2017)</strong> and <strong>NDA (2014, 2018, 2022)</strong>. The answer is: <strong style="color: #fbbf24;">No, the Preamble is NOT justiciable</strong> — meaning that no one can go to a court of law to enforce its provisions directly. It is not a source of substantive rights or duties.</p>
+    <p style="color: #e2e8f0;">However, the Supreme Court has clarified that the Preamble can be used as a <strong>tool of interpretation</strong> when there is ambiguity in any constitutional provision. In other words, if two interpretations of an Article are possible, the one that aligns with the Preamble's vision is preferred.</p>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">7. Landmark Supreme Court Judgments on the Preamble</h4>
+
+    <h5 style="color: #fbbf24;">a) Berubari Union Case (1960)</h5>
+    <p style="color: #e2e8f0;">The Supreme Court held that the <strong>Preamble is NOT a part of the Constitution</strong>. The Court said it is merely a wishlist and has no legal force. This judgment was the first major pronouncement on the Preamble.</p>
+
+    <h5 style="color: #fbbf24;">b) Kesavananda Bharati v. State of Kerala (1973)</h5>
+    <p style="color: #e2e8f0;">This is a <strong>13-judge bench</strong> decision — the largest constitutional bench ever constituted. The Court <strong>overruled</strong> the Berubari judgment and held that:</p>
+    <ul style="color: #e2e8f0;">
+      <li>The <strong>Preamble IS a part of the Constitution</strong>.</li>
+      <li>It can be amended under <strong>Article 368</strong>, but its <em>basic structure</em> cannot be abrogated.</li>
+      <li>The Preamble itself is part of the <strong>"basic structure"</strong> and hence cannot be destroyed.</li>
+    </ul>
+    <p style="color: #e2e8f0;">The <strong>"Basic Structure Doctrine"</strong> born in this case is the most important constitutional principle for any <strong>judicial services or UPSC aspirant</strong>, but it is also relevant for defence exams for general awareness.</p>
+
+    <h5 style="color: #fbbf24;">c) In Re: The Constitution (1970)</h5>
+    <p style="color: #e2e8f0;">The Allahabad High Court held that the Preamble is a part of the Constitution and can be used to interpret ambiguous provisions. This view was later affirmed by the Supreme Court in Kesavananda Bharati.</p>
+
+    <h5 style="color: #fbbf24;">d) Minerva Mills v. Union of India (1980)</h5>
+    <p style="color: #e2e8f0;">The Supreme Court struck down parts of the 42nd Amendment, reaffirming that <strong>judicial review and the basic structure doctrine are inviolable</strong>. The Court said that the Indian Constitution is based on a balance between Fundamental Rights and Directive Principles, and Parliament cannot destroy this balance.</p>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">8. Who Drafted the Preamble?</h4>
+    <p style="color: #e2e8f0;">The Preamble was drafted by <strong>Pandit Jawaharlal Nehru</strong>, the first Prime Minister of India. It was based on the <strong>Objectives Resolution</strong> moved by Nehru in the Constituent Assembly on <strong>13 December 1946</strong>. The Objectives Resolution laid down the framework of the Constitution, and the Preamble is essentially its condensed version.</p>
+    <p style="color: #e2e8f0;">The Drafting Committee, chaired by <strong>Dr. B.R. Ambedkar</strong>, considered the Preamble but adopted Nehru's draft. The Preamble was debated between <strong>December 1948 and January 1949</strong> in the Constituent Assembly before being adopted.</p>
+
+    <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+      <strong style="color: #fbbf24;">💡 Memory Hack — "J.N. is the Jokey Novelist of the Preamble":</strong> To remember that <strong>Jawaharlal Nehru</strong> drafted the Preamble, just recall that his initials <strong>J.N.</strong> are also short for <em>"Jokey Novelist"</em> (a funny way to memorise). Also, the Objectives Resolution was moved on <strong>13 December 1946</strong> — remember <em>13-12-46</em> as a quick number.
+    </div>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">9. Borrowed Sources of the Indian Constitution</h4>
+    <p style="color: #e2e8f0;">The Indian Constitution is often called a <strong>"borrowed document"</strong> because the framers drew heavily from the constitutions of other countries. <strong>B.R. Ambedkar</strong> himself stated in the Constituent Assembly that the framers had "borrowed from every country in the world without any shame." Let us examine each source in detail — this is the second most important part of this topic for exams.</p>
+
+    <table style="width:100%; border-collapse: collapse; margin: 16px 0; color: #e2e8f0;">
+      <thead>
+        <tr style="background: rgba(74,222,128,0.1);">
+          <th style="border: 1px solid rgba(255,255,255,0.1); padding: 10px; text-align: left; color: #4ade80;">Source Country / Document</th>
+          <th style="border: 1px solid rgba(255,255,255,0.1); padding: 10px; text-align: left; color: #4ade80;">Features Borrowed</th>
+          <th style="border: 1px solid rgba(255,255,255,0.1); padding: 10px; text-align: left; color: #4ade80;">Year/Exam Tag</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Government of India Act, 1935</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Federal structure, Office of Governor, Public Service Commissions, emergency provisions, judiciary structure, administrative details.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">NDA 2016, CDS 2019 — Most heavily borrowed source.</td>
+        </tr>
+        <tr style="background: rgba(255,255,255,0.02);">
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>United Kingdom (UK)</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Parliamentary system, Rule of Law, legislative procedure, single citizenship, cabinet system, prerogative writs, bicameralism, post of Prime Minister, Speaker's role.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">CDS 2020, AFCAT 2021.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>United States (US)</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Fundamental Rights, independence of judiciary, judicial review, impeachment of the President, removal of SC/HC judges, post of Vice-President, Supreme Court structure.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">NDA 2017, 2021 — Most fundamental rights borrowed from US Bill of Rights.</td>
+        </tr>
+        <tr style="background: rgba(255,255,255,0.02);">
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Ireland</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Directive Principles of State Policy (DPSP), nomination of members to Rajya Sabha, method of election of President, preamble-style text.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">AFCAT 2019, NDA 2018.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Canada</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Federation with a strong centre, vesting of residuary powers in the centre, appointment of state governors by the centre, advisory jurisdiction of the Supreme Court.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">CDS 2016 — Strong centre = Canadian feature.</td>
+        </tr>
+        <tr style="background: rgba(255,255,255,0.02);">
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Australia</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Concurrent List, freedom of trade and commerce, joint sitting of the two Houses of Parliament, language of the Preamble.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">NDA 2019 — Joint sitting example.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Weimar Republic (Germany)</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Suspension of Fundamental Rights during Emergency.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">AFCAT 2018 — Always paired with Article 352.</td>
+        </tr>
+        <tr style="background: rgba(255,255,255,0.02);">
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>USSR (Soviet Union)</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Fundamental Duties (Article 51A), ideals of justice (social, economic, political) in the Preamble, five-year plans.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">NDA 2020 — Fundamental Duties added by 42nd Amendment, inspired by USSR.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>South Africa</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Election of Rajya Sabha members, constitutional amendment procedure.</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Rarely asked but useful for full list.</td>
+        </tr>
+        <tr style="background: rgba(255,255,255,0.02);">
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;"><strong>Japan</strong></td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Procedure established by law (used in emergency).</td>
+          <td style="border: 1px solid rgba(255,255,255,0.1); padding: 10px;">Rarely asked.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+      <strong style="color: #fbbf24;">💡 Memory Hack — "Go USA I Can A-Wait Just South":</strong> To remember the country sources in order: <strong>G</strong>oI Act 1935 → <strong>U</strong>K → <strong>S</strong>A (USA) → <strong>I</strong>reland → <strong>C</strong>anada → <strong>A</strong>ustralia → <strong>W</strong>eimar Germany → <strong>J</strong>apan → <strong>S</strong>outh Africa → USSR. Use the silly phrase: <em>"<strong>G</strong>o <strong>U</strong> <strong>S</strong>A, <strong>I</strong> <strong>C</strong>an <strong>A</strong>-<strong>W</strong>ait <strong>J</strong>ust <strong>S</strong>outh!"</em>
+    </div>
+
+    <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+      <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> The single most asked question: <em>"DPSP is borrowed from which country?"</em> — Answer: <strong>Ireland</strong>. The trick option is "USA." Don't confuse! Another common one: <em>"Concurrent List is borrowed from?"</em> — Answer: <strong>Australia</strong>. Confusing answer might be Canada (which gives the strong centre, not concurrent list).
+    </div>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">10. Country-Wise Quick Memory Map for Defence Exams</h4>
+    <ul style="color: #e2e8f0;">
+      <li><strong>Britain</strong> = Parliamentary system, Rule of Law, Cabinet, Speaker, Single Citizenship.</li>
+      <li><strong>USA</strong> = Fundamental Rights, Judicial Review, Impeachment, Vice-President, Independence of Judiciary.</li>
+      <li><strong>Ireland</strong> = DPSP, Rajya Sabha nomination, Preamble style.</li>
+      <li><strong>Canada</strong> = Strong Centre, Residuary Powers, Governor appointment, Advisory jurisdiction of SC.</li>
+      <li><strong>Australia</strong> = Concurrent List, Joint Sitting, Trade & Commerce freedom.</li>
+      <li><strong>Germany</strong> = Suspension of FR during Emergency (Article 352).</li>
+      <li><strong>USSR</strong> = Fundamental Duties, Justice (social, economic, political).</li>
+      <li><strong>South Africa</strong> = Amendment procedure, Rajya Sabha election.</li>
+      <li><strong>Japan</strong> = Procedure established by law.</li>
+      <li><strong>GoI Act 1935</strong> = Federal structure, Governor, Public Service Commissions, Emergency, Judiciary, Administrative details (the BIGGEST source).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">11. Common Exam-Style One-Liners</h4>
+    <ol style="color: #e2e8f0;">
+      <li>The Preamble was adopted on <strong>26 November 1949</strong> and came into force on <strong>26 January 1950</strong>.</li>
+      <li>The Preamble was amended by the <strong>42nd Amendment (1976)</strong>.</li>
+      <li>The three words added were <strong>Socialist, Secular, Integrity</strong>.</li>
+      <li>Preamble is <strong>not justiciable</strong> (Berubari 1960).</li>
+      <li>Preamble is part of the Constitution (Kesavananda Bharati 1973).</li>
+      <li>Preamble cannot be destroyed as it is part of the <strong>basic structure</strong>.</li>
+      <li>The Preamble was drafted by <strong>Jawaharlal Nehru</strong> based on the <strong>Objectives Resolution</strong> (13 December 1946).</li>
+      <li>Fundamental Duties (Article 51A) were borrowed from the <strong>USSR</strong>.</li>
+      <li>DPSP was borrowed from <strong>Ireland</strong>.</li>
+      <li>Joint Sitting of Parliament is from <strong>Australia</strong>.</li>
+      <li>Federal with strong centre is from <strong>Canada</strong>.</li>
+      <li>Suspension of Fundamental Rights during Emergency is from <strong>Weimar Germany</strong>.</li>
+      <li>GoI Act 1935 is the <strong>largest source</strong> of the Indian Constitution.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">12. Common Confusions Cleared</h4>
+    <ul style="color: #e2e8f0;">
+      <li><strong>"Sovereign" vs "Independent":</strong> Sovereign means supreme authority; India is a sovereign republic, not a British dominion.</li>
+      <li><strong>"Secular" in India vs USA:</strong> In the USA, there is strict separation of church and state. In India, the state does not have an official religion but can intervene in religious affairs for social reform (e.g., abolishing untouchability).</li>
+      <li><strong>"Socialist" does NOT mean Soviet-style socialism:</strong> It means a mixed economy where the state controls key sectors but private enterprise exists.</li>
+      <li><strong>"Republic" vs "Democracy":</strong> Democracy = people rule; Republic = head of state is elected. India is both.</li>
+      <li><strong>"Single Citizenship" from UK</strong> vs "<strong>Federal structure</strong>" from GoI Act 1935 — these are separate features, not in conflict.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">13. Probable NDA/CDS 2025 Questions (Predicted)</h4>
+    <ol style="color: #e2e8f0;">
+      <li>The word "Secular" was added to the Preamble by the ______ Amendment. <em>(Ans: 42nd)</em></li>
+      <li>The Directive Principles of State Policy were borrowed from ______. <em>(Ans: Ireland)</em></li>
+      <li>The Preamble to the Constitution of India was adopted on ______. <em>(Ans: 26 November 1949)</em></li>
+      <li>Which case declared the Preamble as a part of the Constitution? <em>(Ans: Kesavananda Bharati, 1973)</em></li>
+      <li>The Fundamental Duties were borrowed from the Constitution of ______. <em>(Ans: USSR)</em></li>
+      <li>Article 352 (Emergency) — Suspension of FR is borrowed from ______. <em>(Ans: Weimar Germany)</em></li>
+      <li>Who drafted the Preamble? <em>(Ans: Jawaharlal Nehru)</em></li>
+      <li>Which amendment added the words "Socialist" and "Integrity" to the Preamble? <em>(Ans: 42nd Amendment, 1976)</em></li>
+    </ol>
+  </section>
+
+  <section>
+    <h4 style="color: #4ade80; margin-top: 24px;">14. Key Wiki Links for Quick Reference</h4>
+    <p style="color: #e2e8f0;">For further study, refer to these topics: [[Preamble to the Constitution of India]], [[42nd Amendment]], [[Kesavananda Bharati v. State of Kerala]], [[Directive Principles of State Policy]], [[Fundamental Duties]], [[Government of India Act 1935]], [[Basic Structure Doctrine]], [[Article 368]], [[42nd Amendment Act 1976]], [[Jawaharlal Nehru]], [[B.R. Ambedkar]], [[Minerva Mills v. Union of India]], [[Berubari Union Case]], [[Indian Polity by M. Laxmikanth]].</p>
+  </section>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Final Exam Tip (AFCAT):</strong> In AFCAT, the question is often indirect: <em>"Which of the following features is NOT borrowed from the UK?"</em> The correct answer is usually <em>Fundamental Duties (USSR)</em> or <em>DPSP (Ireland)</em>. The UK is famous for the parliamentary system, NOT for fundamental duties.
+  </div>
+
+  <p style="color: #e2e8f0; margin-top: 24px;">Master the keywords, the 42nd Amendment, the Kesavananda Bharati case, and the country-source mapping. These four areas alone account for over 80% of the questions asked from this topic in the last decade. Good luck with your <strong>NDA, CDS, and AFCAT</strong> preparation!</p>
+
+</div>
+`;

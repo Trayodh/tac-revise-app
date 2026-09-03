@@ -32,40 +32,46 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 // ── Model ─────────────────────────────────────────────────────────────────────
 const MODEL = 'gemini-2.5-flash';
 
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
+if (!GROQ_API_KEY) { console.error('Missing GROQ_API_KEY in .env'); process.exit(1); }
+
 async function callGemini(systemPrompt, userPrompt) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${GEMINI_API_KEY}`;
+  const url = `https://api.groq.com/openai/v1/chat/completions`;
   let retries = 5;
   while (retries > 0) {
     try {
       const res = await fetch(url, {
         method: 'POST',
         headers: {
+          'Authorization': `Bearer ${GROQ_API_KEY}`,
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          system_instruction: { parts: { text: systemPrompt } },
-          contents: [{ parts: [{ text: userPrompt }] }],
-          generationConfig: {
-            temperature: 0.55
-          }
+          model: 'openai/gpt-oss-120b',
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: userPrompt }
+          ],
+          temperature: 0.55,
+          max_tokens: 2500
         })
       });
       const data = await res.json();
       if (!res.ok) {
-        if (res.status === 429 || res.status === 503) {
-          console.log(`  Rate limited / Demand spike (${res.status}) — waiting 15s...`);
-          await sleep(15000);
+        if (res.status === 429 || res.status === 503 || res.status === 502) {
+          console.log(`  Rate limited / Demand spike (${res.status}) — waiting 10s...`);
+          await sleep(10000);
           retries--;
           continue;
         }
         throw new Error(data.error?.message || JSON.stringify(data));
       }
-      let text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      let text = data.choices?.[0]?.message?.content || '';
       text = text.replace(/^```html?\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/i, '').trim();
       return text;
     } catch (e) {
       console.error(`  API error: ${e.message.substring(0, 120)}`);
-      await sleep(10000);
+      await sleep(5000);
       retries--;
     }
   }
