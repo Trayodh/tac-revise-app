@@ -7322,3 +7322,87 @@ window.EXPANDED_NOTES_DATA["post-independence-consolidation"] = `
     <thead>
       <tr style="background:rgba(74,222,128,0.1);">
 `;
+
+window.EXPANDED_NOTES_DATA["indus-valley-civilization"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Indus Valley Civilization</h3>
+
+  <h4 style="color:#4ade80; margin-top:24px;">1. Overview & Chronology</h4>
+  <p>The [[Indus Valley Civilization]] (IVC), also called the [[Harappan Civilization]], flourished between <strong>c. 3300 BCE – 1300 BCE</strong>, with its mature phase spanning <strong>c. 2600 BCE – 1900 BCE</strong>. It is the earliest urban culture in South‑Asia and the third oldest after [[Mesopotamia]] and [[Ancient Egypt]]. The civilization is divided into three phases:</p>
+  <ul style="margin-left:20px;">
+    <li><strong>Early Harappan (c. 3300‑2600 BCE)</strong> – village settlements, emergence of baked‑brick technology.</li>
+    <li><strong>Mature Harappan (c. 2600‑1900 BCE)</strong> – planned cities, standardized weights, extensive trade.</li>
+    <li><strong>Late Harappan (c. 1900‑1300 BCE)</strong> – regional diversification, decline of urbanism.</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:24px;">2. Geographical Extent</h4>
+  <p>The core area lies in the [[Punjab]] and [[Sindh]] river basins, extending west to the [[Karakoram]] foothills, east to the [[Ganges]] plain, and south to the [[Arabian Sea]]. Major sites include [[Harappa]], [[Mohenjo‑daro]], [[Dholavira]], [[Lothal]], [[Kalibangan]], and [[Rakhigarhi]]. The civilization’s location on the fertile alluvial plains allowed surplus agriculture, which underpinned its military logistics and provisioning capabilities—an aspect often tested in the [[NDA]] and [[CDS]] syllabi.</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">3. Urban Planning & Architecture</h4>
+  <p>Harappan cities exhibit a remarkable degree of uniformity:</p>
+  <ul style="margin-left:20px;">
+    <li>Grid‑like streets oriented north‑south/east‑west, with a typical block size of 30 × 30 m.</li>
+    <li>Citadel (upper town) and lower town separated by a mud‑brick wall.</li>
+    <li>Standardized baked bricks (ratio 4:2:1) used for houses, drains, and public baths.</li>
+    <li>Advanced drainage system – covered brick channels, manholes, and soak‑away pits.</li>
+    <li>Public structures: Great Bath of Mohenjo‑daro, granaries, and assembly halls.</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:24px;">4. Economy, Trade & Craftsmanship</h4>
+  <p>The economy was mixed agrarian‑craft‑trade:</p>
+  <ul style="margin-left:20px;">
+    <li>Primary crops: [[Wheat]], [[Barley]], [[Millet]], and [[Basmati rice]] (evidence from grain impressions).</li>
+    <li>Domestic animals: cattle, buffalo, sheep, goat, and the now‑extinct [[Zebu]].</li>
+    <li>Crafts: bead‑making (steatite, carnelian), metallurgy (copper, bronze, gold), pottery (red‑ware, black‑burnished).</li>
+    <li>Long‑distance trade: Mesopotamia (copper, lapis lazuli), Persian Gulf (cotton, ivory), and Central Asia (tin, gold).</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:24px;">5. Writing System & Administration</h4>
+  <p>The [[Indus script]] consists of ~400 distinct signs, inscribed on seals, tablets, and pottery. Despite extensive research, it remains undeciphered, leaving the nature of Harappan bureaucracy a matter of inference. However, the uniformity of weights (standardized in a binary system of 1, 2, 4, 8, 16, 32, 64) suggests a centralized administrative control over trade and taxation.</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">6. Social Structure & Daily Life</h4>
+  <p>Archaeological evidence points to a relatively egalitarian society:</p>
+  <ul style="margin-left:20px;">
+    <li>No monumental palaces or tombs; houses of similar size across the city.</li>
+    <li>Presence of public wells (up to 300 L per day) indicates organized water management.</li>
+    <li>Artifacts such as toys, musical instruments, and jewelry suggest a cultured urban populace.</li>
+    <li>Evidence of ritual activity – fire altars, possible goddess figurines, and the “Great Bath” for communal purification.</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:24px;">7. Decline Theories (High‑Yield for Exams)</h4>
+  <p>Multiple hypotheses explain the collapse around 1900 BCE:</p>
+  <ul style="margin-left:20px;">
+    <li><strong>Climate Change:</strong> Monsoon weakening leading to reduced river flow and agricultural failure.</li>
+    <li><strong>River Course Shifts:</strong> The [[Ghaggar‑Hakra]] river possibly dried up, cutting off water supply.</li>
+    <li><strong>Trade Disruption:</strong> Decline of Mesopotamian markets reduced external demand for Harappan goods.</li>
+    <li><strong>Internal Social Stress:</strong> Over‑exploitation of resources and possible invasions (though the “Aryan invasion” model is largely discredited).</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:24px;">8. Defence & Strategic Significance (Why Aspirants Should Care)</h4>
+  <p>From a defence perspective, the IVC offers early examples of strategic resource management and logistic planning:</p>
+  <ul style="margin-left:20px;">
+    <li><strong>Water Management:</strong> Massive reservoirs at [[Dholavira]] (capacity ~ 100,000 m³) illustrate foresight in sustaining troops during sieges.</li>
+    <li><strong>Standardized Production:</strong> Uniform brick sizes and weight systems facilitated rapid construction of fortifications and supply depots.</li>
+    <li><strong>Trade Networks:</strong> Secure maritime routes from [[Lothal]] to the Persian Gulf demonstrate early naval logistics—relevant to modern coastal defence doctrines.</li>
+    <li><strong>Urban Defense:</strong> Citadel walls, moats, and strategically placed gates hint at organized city‑level defence mechanisms.</li>
+  </ul>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> The most frequently asked fact is the location of the major Harappan ports – [[Lothal]] (dockyard) and [[Mohenjo‑daro]] (riverine settlement). Remember that Lothal’s dockyard is the world’s earliest known, a point that appears in 2022‑2024 NDA prelims.
+  </div>
+
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> To recall the four flagship sites and their specialties, use the acronym **“DL‑LH”** – <br>
+    <strong>D</strong>holavira = <strong>D</strong> reservoirs, <br>
+    <strong>L</strong>othal = <strong>L</strong> dockyard, <br>
+    <strong>L</strong> Harappa = <strong>H</strong> (think “Harappa – Home of the Ravi River”), <br>
+    <strong>H</strong> Mohenjo‑daro = <strong>H</strong> “Great Bath”. Visualise a map where each letter lights up a different colour.
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:24px;">9. Comparative Table of Major Harappan Sites</h4>
+  <table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9rem; color:#e2e8f0;">
+    <thead>
+      <tr style="background:rgba(74,222,128,0.1);">
+        <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); text-align:left;">Site</th>
+        <th style="padding:10px; border:1px
+`;

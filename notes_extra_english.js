@@ -2832,3 +2832,440 @@ window.EXPANDED_NOTES_DATA["idioms-phrases"] = `
   </p>
 </div>
 `;
+
+window.EXPANDED_NOTES_DATA["phrasal-verbs"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Phrasal Verbs</h3>
+
+  <p style="margin-bottom: 15px; line-height: 1.6; color: #e2e8f0;">
+    Welcome to the detailed study guide on [[Phrasal Verbs]], a crucial topic for the English section of [[NDA]], [[CDS]], and [[AFCAT]] examinations. Phrasal verbs are a combination of a [[verb]] and one or more [[preposition]]s or [[adverb]]s, or sometimes both. The key characteristic of a phrasal verb is that its meaning is often different from the individual words that make it up, creating a new, idiomatic meaning. Understanding phrasal verbs is essential for both [[Vocabulary]] and [[Comprehension]] sections, as they frequently appear in [[Sentence Improvement]], [[Spotting Errors]], and [[Fill in the Blanks]] questions. Mastery of phrasal verbs not only boosts your exam scores but also enhances your overall command of the English language, which is vital for effective communication in the armed forces.
+  </p>
+
+  <h4 style="border-left: 3px solid #fbbf24; padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: #4ade80; font-weight: 600;">Understanding the Structure of Phrasal Verbs</h4>
+  <p style="margin-bottom: 15px; line-height: 1.6; color: #e2e8f0;">
+    A phrasal verb typically consists of a main verb combined with one or more small words, often called [[particles]]. These particles can be adverbs or prepositions. The combination creates a new [[Idiomatic Meaning]] that cannot be guessed simply by knowing the individual meanings of the words. For instance, "to look up" doesn't literally mean to gaze upwards; it means to search for information. This idiomatic nature is what makes phrasal verbs challenging yet rewarding to learn.
+  </p>
+  <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 15px; color: #e2e8f0;">
+    <li style="margin-bottom: 8px;"><b>Verb + Adverb:</b> e.g., <i>give up</i> (to surrender), <i>break down</i> (to stop functioning). Here, 'up' and 'down' function as adverbs modifying the verb, changing its core meaning significantly.</li>
+    <li style="margin-bottom: 8px;"><b>Verb + Preposition:</b> e.g., <i>look into</i> (to investigate), <i>run after</i> (to pursue). In these cases, the preposition introduces an [[Object]] and forms a semantic unit with the verb.</li>
+    <li style="margin-bottom: 8px;"><b>Verb + Adverb + Preposition:</b> e.g., <i>look forward to</i> (to anticipate with pleasure), <i>put up with</i> (to tolerate). These are often referred to as [[Three-Part Phrasal Verbs]] and are generally more complex in meaning and usage.</li>
+  </ul>
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> Examiners often test your ability to differentiate between the literal and idiomatic meanings. For example, "call off" means to cancel (idiomatic), not literally to shout from a distance. Always consider the context!
+  </div>
+
+  <h4 style="border-left: 3px solid #fbbf24; padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: #4ade80; font-weight: 600;">Classification: Transitive vs. Intransitive Phrasal Verbs</h4>
+  <p style="margin-bottom: 15px; line-height: 1.6; color: #e2e8f0;">
+    Just like regular verbs, phrasal verbs can be classified based on whether they take a direct object. This distinction is crucial for understanding sentence structure and avoiding grammatical errors.
+  </p>
+  <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 15px; color: #e2e8f0;">
+    <li style="margin-bottom: 8px;"><b>[[Transitive Phrasal Verbs]]:</b> These verbs require a [[Direct Object]] to complete their meaning. Without an object, the sentence often feels incomplete or grammatically incorrect.
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li style="color: #e2e8f0;">Example: <i>"The cadet <b>looked up</b> the regulation in the manual."</i> (Here, "the regulation" is the object of "looked up".)</li>
+        <li style="color: #e2e8f0;">Example: <i>"You need to <b>fill out</b> this application form carefully."</i> ("this application form" is the object.)</li>
+        <li style="color: #e2e8f0;">Example: <i>"The General will <b>call off</b> the operation due to bad weather."</i> ("the operation" is the object.)</li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 8px;"><b>[[Intransitive Phrasal Verbs]]:</b> These verbs do not take an object. Their meaning is complete without one. Adding an object to an intransitive phrasal verb would be grammatically incorrect.
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li style="color: #e2e8f0;">Example: <i>"The old vehicle <b>broke down</b> on the treacherous mountain pass."</i> (No object follows "broke down".)</li>
+        <li style="color: #e2e8f0;">Example: <i>"After a long march, the soldiers decided to <b>lie down</b>."</i> (No object is needed after "lie down".)</li>
+        <li style="color: #e2e8f0;">Example: <i>"The meeting <b>broke up</b> earlier than expected."</i> (No object.)</li>
+      </ul>
+    </li>
+  </ul>
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> Think of "Transitive" as "Transferring" action to an object. "Intransitive" means "Independent" – it doesn't need an object.
+  </div>
+
+  <h4 style="border-left: 3px solid #fbbf24; padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: #4ade80; font-weight: 600;">Crucial Distinction: Separable vs. Inseparable Phrasal Verbs</h4>
+  <p style="margin-bottom: 15px; line-height: 1.6; color: #e2e8f0;">
+    This is one of the most frequently tested aspects of phrasal verbs in competitive exams like [[NDA]], [[CDS]], and [[AFCAT]]. Pay close attention to word order, especially when pronouns are involved. Misplacing an object, particularly a pronoun, is a common error targeted by examiners.
+  </p>
+  <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 15px; color: #e2e8f0;">
+    <li style="margin-bottom: 8px;"><b>[[Separable Phrasal Verbs]]:</b> With these verbs, the [[Direct Object]] can often be placed either between the verb and the particle (adverb) or after the particle. This flexibility applies when the object is a noun.
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li style="color: #e2e8f0;">Example (Noun Object): <i>"She <b>turned down</b> the offer."</i> (Object after particle)</li>
+        <li style="color: #e2e8f0;">Example (Noun Object): <i>"She <b>turned</b> the offer <b>down</b>."</i> (Object between verb and particle)</li>
+        <li style="margin-top: 10px; color: #e2e8f0;"><span style="color: #fbbf24;"><b>Important Rule (Exam Focus):</b> If the direct object is a [[Pronoun]] (e.g., <i>it, them, him, her, us, me, you</i>), it MUST be placed between the verb and the particle. This is a non-negotiable rule and a very common source of errors in the "Spotting Errors" section.</span></li>
+        <li style="color: #e2e8f0;">Correct: <i>"She <b>turned it down</b>."</i> (Pronoun 'it' is between 'turned' and 'down')</li>
+        <li style="color: #e2e8f0;">Incorrect: <span style="text-decoration: line-through;">"She turned down it."</span></li>
+        <li style="color: #e2e8f0;">Correct: <i>"Please <b>pick them up</b> from the station."</i></li>
+        <li style="color: #e2e8f0;">Incorrect: <span style="text-decoration: line-through;">"Please pick up them from the station."</span></li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 8px;"><b>[[Inseparable Phrasal Verbs]]:</b> With
+`;
+
+window.EXPANDED_NOTES_DATA["reading-comprehension"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Reading Comprehension</h3>
+
+  <p style="margin-bottom: 15px; line-height: 1.6; color: #e2e8f0;">
+    Reading Comprehension (RC) is a critical component of English sections in [[NDA]], [[CDS]], and [[AFCAT]] examinations. It assesses your ability to understand, interpret, and analyze written passages, demanding more than just a surface-level reading of the text. Success in RC relies on your capacity to grasp the [[main idea]], extract specific details, make logical [[inferences]], understand [[vocabulary]] in context, and identify the [[author's purpose]] and [[tone]]. This section aims to equip you with systematic strategies to master Reading Comprehension.
+  </p>
+
+  <h4 style="color: #4ade80; margin-top: 20px; margin-bottom: 10px; font-weight: 600;">I. The Essence of Reading Comprehension</h4>
+  <p style="margin-bottom: 15px; line-height: 1.6; color: #e2e8f0;">
+    The fundamental goal of RC is to comprehend a given passage thoroughly and answer questions based *solely* on the information provided within that passage. It is crucial to remember that your prior knowledge of the topic, while sometimes helpful for context, should never be used to answer questions that require [[explicit information]] or [[implicit deductions]] from the text. The passage is your only source of truth. This is particularly important in defence exams, where passages might touch upon topics like [[geopolitics]], [[military history]], or [[scientific advancements]], tempting aspirants to use their general knowledge. Resist this urge; stick to the text.
+  </p>
+
+  <h4 style="color: #4ade80; margin-top: 20px; margin-bottom: 10px; font-weight: 600;">II. The "Skim, Scan & Analyze" Strategy</h4>
+  <p style="margin-bottom: 15px; line-height: 1.6; color: #e2e8f0;">
+    A highly effective, time-efficient approach for tackling RC passages involves three stages: Skimming, Scanning, and Analysis. This strategy helps optimize your time, which is a precious commodity in competitive exams like NDA and CDS.
+  </p>
+
+  <h5 style="color: #fbbf24; margin-top: 15px; margin-bottom: 8px; font-weight: 600;">1. Skimming: Grasping the Gist (First Pass)</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6; color: #e2e8f0;">
+    Skimming is a quick read-through to get a general understanding of the passage. The goal is not to absorb every detail, but to identify the [[central theme]], the [[author's general attitude]], and the overall [[structure]] of the argument or narration.
+    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 10px; color: #e2e8f0;">
+      <li style="margin-bottom: 5px;">Read the <span style="color: #4ade80;">first and last sentences</span> of each [[paragraph]]. These often contain the topic sentence and concluding remarks.</li>
+      <li style="margin-bottom: 5px;">Pay attention to [[introduction]] and [[conclusion]] paragraphs as they usually frame the main argument.</li>
+      <li style="margin-bottom: 5px;">Look for [[keywords]] that are repeated or emphasized, and note any [[names]], [[dates]], or [[significant places]] (without dwelling on them).</li>
+      <li style="margin-bottom: 5px;">Identify [[transition words]] (e.g., "however," "therefore," "in contrast," "for example") to understand logical flow.</li>
+    </ul>
+    This stage should be completed relatively quickly (e.g., 1-2 minutes for a medium-length passage). Avoid getting stuck on difficult [[vocabulary]] or complex sentences.
+    <br/><br/>
+    <span style="color: #4ade80;">Example:</span> Skimming a passage about renewable energy, you might quickly note sections discussing solar power, wind energy, and hydroelectricity, understanding the overall topic is energy sources, and the author might be advocating for renewable options. For a defence aspirant, this could be a passage on India's [[maritime security]] or [[cyber warfare]], where skimming helps you identify the core challenge and proposed solutions.
+  </p>
+
+  <h5 style="color: #fbbf24; margin-top: 15px; margin-bottom: 8px; font-weight: 600;">2. Scanning: Locating Specifics (After Reading Questions)</h5>
+  <p style="margin-bottom: 15px; line-height: 1.6; color: #e2e8f0;">
+    Once you have a general understanding from skimming and have read the questions, you will <span style="color: #fbbf24;">scan</span> the passage for specific information. This is a targeted search.
+    <ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 10px; color: #e2e8f0;">
+      <li style="margin-bottom: 5px;">Identify the <span style="color: #60a5fa;">key terms or phrases</span> in each question.</li>
+      <li style="margin-bottom: 5px;">Quickly move your eyes across the passage to locate these specific [[keywords]] or their [[synonyms]]/[[paraphrases]].</li>
+      <li style="margin-bottom: 5px;">Once located, read the surrounding sentences carefully to find the answer. The context here is vital.</li>
+    </ul>
+    <span style="color: #4ade80;">Example:</span> If a question asks, "According to the passage, what percentage of the population adopted smartphones by 2010?", you'd scan for "smartphones," "percentage," and "2010" to pinpoint the exact sentence containing this data. In a defence context, a question might ask "When was the [[INS Vikrant]] commissioned?" You would scan for "INS Vikrant" and "commissioned" to find the relevant date (e.g., 1961 for the first, 2022 for the second indigenous one).
+  </p>
+
+  <h5 style="color: #fbbf24; margin-top: 15px; margin-bottom: 8px; font-weight: 600;">3. Analyzing: Understanding & Deriving (For Answering)</h5>
+  <p style="margin-bottom: 15px; line-height: 1.6; color: #e2e8f0;">
+    This is the stage where you deeply understand the relevant portion of the text and the question to arrive at the correct answer. This often involves careful [[interpretation]], [[deduction]], and [[critical evaluation]]. This stage is where you apply your understanding of grammar, logical reasoning, and vocabulary to decipher the exact meaning intended by the author and demanded by the question.
+  </p>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> Many aspirants spend too much time on the first full reading. Remember, the goal is not to memorize the passage, but to understand enough to locate answers efficiently. The "Skim, Scan & Analyze" method prioritizes efficiency and accuracy, crucial for time-bound exams.
+  </div>
+
+  <h4 style="color: #4ade80; margin-top: 20px; margin-bottom: 10px; font-weight: 600;">III. Common Question Types & Strategies to Tackle Them</h4>
+
+  <h5 style="color: #fbbf24; margin-top: 15px; margin-bottom: 8px; font-weight: 600;">1. Main Idea / Primary Purpose Questions</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6; color: #e2e8f0;">
+    These ask for the central point or the reason the author wrote the passage. Such questions often appear as "What is the main idea of the passage?", "The primary purpose of the author is to...", or "Which of the following best summarizes the passage?".
+    <br/>
+    <span style="color: #60a5fa;">Strategy:</span> Review your initial skim. The [[main idea]] is often found in the first and last paragraphs. Eliminate options that are too narrow (focus on a single detail) or too broad (go beyond the scope of the passage). The correct answer will encapsulate the entire passage without adding new information. Think of it as the "headline" for the entire article.
+  </p>
+
+  <h5 style="color: #fbbf24; margin-top: 15px; margin-bottom: 8px; font-weight: 600;">2. Specific Detail Questions</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6; color: #e2e8f0;">
+    Require you to find factual information explicitly stated. These are usually straightforward if you can locate the information quickly. Questions often start with "According to the passage...", "The passage states that...", or "Which of the following is mentioned in the passage?".
+    <br/>
+    <span style="color: #60a5fa;">Strategy:</span> Use the <span style="color: #4ade80;">scanning technique</span>. Locate the [[keywords]] from the question in the passage and read the surrounding sentences carefully. The answer is usually a direct restatement or a very close paraphrase. Be wary of options that use similar words but twist the meaning or introduce slight inaccuracies.
+  </p>
+
+  <h5 style="color: #fbbf24; margin-top: 15px; margin-bottom: 8px; font-weight:
+`;
+
+window.EXPANDED_NOTES_DATA["error-detection"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Spotting Errors</h3>
+
+  <p style="margin-bottom: 15px; line-height: 1.6; color: #e2e8f0;">
+    Welcome to the detailed study notes on <span style="color: #4ade80;">Spotting Errors</span>, a crucial section in the English paper for Indian Defence Examinations like [[NDA]], [[CDS]], and [[AFCAT]]. This topic tests your comprehensive understanding of [[English Grammar]] rules, [[Vocabulary]] nuances, and sentence structure. The goal is to identify the part of a sentence that contains a grammatical error, making it grammatically incorrect or awkward. Mastering this section requires a systematic approach to common error patterns and an eagle eye for detail, much like a pilot spotting a target or a soldier identifying enemy movements.
+  </p>
+
+  <h4 style="border-left: 3px solid #fbbf24; padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: #4ade80; font-weight: 600;">I. Understanding the Question Pattern</h4>
+  <p style="margin-bottom: 15px; line-height: 1.6; color: #e2e8f0;">
+    In [[Spotting Errors]] questions, a sentence is typically divided into three or four parts (A, B, C, D) and sometimes includes a 'No Error' (E) option. You need to select the part that has an error. If the sentence is perfect, choose 'No Error'. The errors can span across various grammatical categories, from [[Subject-Verb Agreement]] to incorrect [[Prepositions]] or [[Tenses]]. Think of it as a mission: you're given intelligence (the sentence), and you need to pinpoint the weakness (the error).
+  </p>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #4ade80;">⚡ Exam Tip (NDA/CDS):</strong> Always read the entire sentence, even if you spot an error in the first part. Sometimes, a later part might clarify or even correct an apparent error, or there might be a more significant error elsewhere. This holistic approach prevents hasty mistakes, a critical skill for any defence personnel.
+  </div>
+
+  <h4 style="border-left: 3px solid #fbbf24; padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: #4ade80; font-weight: 600;">II. Key Areas to Focus On (Step-by-Step Breakdown)</h4>
+
+  <h5 style="color: #4ade80; margin-top: 15px; margin-bottom: 8px; font-weight: 600;">1. [[Subject-Verb Agreement]] (SVA)</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6; color: #e2e8f0;">
+    This is one of the most frequently tested areas in all defence exams (especially [[NDA]] and [[CDS]] General English Paper, commonly seen in questions from 2018-2023). A [[Verb]] must agree with its [[Subject]] in number (singular or plural). This is fundamental, like ensuring your rifle's scope is aligned with your target.
+  </p>
+  <ul style="list-style-type: disc; margin-left: 25px; margin-bottom: 10px; color: #e2e8f0;">
+    <li style="margin-bottom: 5px;">
+      <span style="color: #fbbf24;">Basic Rule:</span> Singular subject takes a singular verb; plural subject takes a plural verb.
+      <br/><span style="font-style: italic;">Example:</span> <span style="color: #4ade80;">He goes</span> to school. (Singular) / <span style="color: #4ade80;">They go</span> to school. (Plural)
+    </li>
+    <li style="margin-bottom: 5px;">
+      <span style="color: #fbbf24;">Compound Subjects:</span>
+      <ul style="list-style-type: circle; margin-left: 20px; margin-top: 5px;">
+        <li style="margin-bottom: 3px;">
+          Connected by 'and' usually take a plural verb.
+          <br/><span style="font-style: italic;">Example:</span> Ram and Shyam <span style="color: #4ade80;">are</span> brothers.
+        </li>
+        <li style="margin-bottom: 3px;">
+          If 'and' connects two singular nouns referring to the same person/thing, use a singular verb.
+          <br/><span style="font-style: italic;">Example:</span> The captain and coach <span style="color: #4ade80;">is</span> absent. (If it's the same person, e.g., [[MS Dhoni]] was both captain and often seen as a coach figure on the field).
+        </li>
+        <li style="margin-bottom: 3px;">
+          Connected by 'or', 'nor', 'either...or', 'neither...nor', the verb agrees with the subject closer to it. This is known as the "Rule of Proximity."
+          <br/><span style="font-style: italic;">Example:</span> Neither the students nor the teacher <span style="color: #4ade80;">is</span> present.
+          <br/><span style="font-style: italic;">Example:</span> Neither the teacher nor the students <span style="color: #4ade80;">are</span> present.
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 5px;">
+      <span style="color: #fbbf24;">[[Indefinite Pronouns]]:</span> Words like 'each', 'every', 'everyone', 'someone', 'no one', 'anybody', 'nobody', 'everything', 'something', 'nothing', 'anyone' are singular and take singular verbs.
+      <br/><span style="font-style: italic;">Example:</span> Each of the boys <span style="color: #4ade80;">has</span> passed the exam.
+      <br/><span style="font-style: italic;">Example:</span> Everyone in the platoon <span style="color: #4ade80;">is</span> ready for the drill.
+    </li>
+    <li style="margin-bottom: 5px;">
+      <span style="color: #fbbf24;">[[Collective Nouns]]:</span> (e.g., jury, committee, army, team, family, audience, government) can take singular or plural verbs depending on whether they act as a single unit or as individuals.
+      <br/><span style="font-style: italic;">Example (singular):</span> The jury <span style="color: #4ade80;">has</span> given its verdict. (Acting as one unit)
+      <br/><span style="font-style: italic;">Example (plural):</span> The jury <span style="color: #4ade80;">are</span> divided in their opinions. (Acting as individuals)
+    </li>
+    <li style="margin-bottom: 5px;">
+      <span style="color: #fbbf24;">Phrases like 'as well as', 'along with', 'together with', 'besides', 'in addition to', 'like', 'unlike', 'with':</span> The verb agrees with the first subject.
+      <br/><span style="font-style: italic;">Example:</span> The captain, along with his team members, <span style="color: #4ade80;">was</span> present. (Verb agrees with 'captain')
+    </li>
+  </ul>
+
+  <h5 style="color: #4ade80; margin-top: 15px; margin-bottom: 8px; font-weight: 600;">2. [[Tenses]]</h5>
+  <p style="margin-bottom: 10px; line-height: 1.6; color: #e2e8f0;">
+    Errors in tenses often involve incorrect usage of [[Past Tense]], [[Present Tense]], or [[Future Tense]], or discrepancies in the <span style="color: #4ade80;">sequence of tenses</span> within a sentence. This is crucial for clear communication, especially in military commands where timing is everything. (Frequently tested in [[AFCAT]] and [[CDS]] English, usually one or two questions per paper).
+  </p>
+  <ul style="list-style-type: disc; margin-left: 25px; margin-bottom: 10px; color: #e2e8f0;">
+    <li style="margin-bottom: 5px;">
+      <span style="color: #fbbf24;">Consistent Tense Usage:</span> Ensure the tense remains consistent unless there's a clear reason for a shift (e.g., reporting a past event that has current relevance).
+      <br/><span style="font-style: italic;">Incorrect:</span> He came, he saw, and he <span style="color: #fbbf24;">conquers</span>.
+      <br/><span style="font-style: italic;">Correct:</span> He came, he saw, and he <span style="color: #4ade80;">conquered</span>. (All past actions)
+    </li>
+    <li style="margin-bottom: 5px;">
+      <span style="color: #fbbf24;">Perfect Tenses:</span> Pay attention to 'had + V3' (past perfect) and 'has/have + V3' (present perfect). Past perfect is used for an action that happened before another past action. Present perfect connects a past action to the present.
+      <br/><span style="font-style: italic;">Example (Past Perfect):</span> By the time I arrived, the train <span style="color: #4ade80;">had left</span>. (Train leaving happened before I arrived).
+      <br/><span style="font-style: italic;">Example (Present Perfect):</span> I <span style="color: #4ade80;">
+`;
+
+window.EXPANDED_NOTES_DATA["sentence-improvement"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Sentence Improvement</h3>
+
+  <p style="color: #e2e8f0;">Welcome, future officers! This module is your definitive guide to mastering Sentence Improvement (SI) for the [[NDA]], [[CDS]], and [[AFCAT]] examinations. SI questions are not just about grammar; they test your precision, clarity, and logical reasoning—qualities indispensable for effective communication in the armed forces. Let's dive deep.</p>
+
+  <h4 style="color: #4ade80;">1. Why Sentence Improvement Matters for NDA/CDS/AFCAT</h4>
+  <p style="color: #e2e8f0;">All three services—<strong>National Defence Academy (NDA)</strong>, <strong>Combined Defence Services (CDS)</strong> and <strong>Air Force Common Admission Test (AFCAT)</strong>—evaluate candidates on three core competencies: <strong>verbal ability, reasoning, and general knowledge</strong>. Within the verbal ability section, the <strong>sentence-improvement</strong> (SI) task carries a disproportionate weight because it directly tests:</p>
+  <ul style="color: #e2e8f0; list-style-type: disc; margin-left: 20px;">
+    <li><strong>Grammatical precision</strong>—subject-verb agreement, tense consistency, and pronoun-antecedent harmony.</li>
+    <li><strong>Lexical richness</strong>—appropriate word choice, collocation, and idiomatic usage.</li>
+    <li><strong>Coherence & cohesion</strong>—effective use of conjunctions, referential devices, and paragraph-level linking.</li>
+    <li><strong>Economy of expression</strong>—eliminating redundancy while preserving meaning.</li>
+  </ul>
+  <p style="color: #e2e8f0;">Mastery of SI therefore boosts the overall <em>verbal ability</em> score and signals to examiners that the candidate can communicate clearly under pressure—a vital attribute for an officer. In a military context, a poorly constructed sentence can lead to misinterpretation of orders, potentially risking lives or mission failure. Thus, your ability to craft precise and unambiguous language is directly linked to operational effectiveness.</p>
+
+  <h4 style="color: #4ade80;">2. Structural Anatomy of a Sentence</h4>
+  <p style="color: #e2e8f0;">Understanding the internal structure of a sentence is the first step toward improvement. The classic model, derived from [[traditional grammar]], distinguishes three layers:</p>
+  <ul style="color: #e2e8f0; list-style-type: disc; margin-left: 20px;">
+    <li><strong>Clause level</strong> – subject, verb, object/complement. This is the foundational unit. A clause must contain a subject and a predicate (verb and its modifiers/objects).</li>
+    <li><strong>Phrase level</strong> – noun phrase (NP), verb phrase (VP), prepositional phrase (PP), adjectival phrase (AdjP), adverbial phrase (AdvP). Phrases are groups of words that function as a single part of speech but do not contain both a subject and a predicate.</li>
+    <li><strong>Discourse level</strong> – logical connectors, anaphoric references, and rhetorical devices. This level deals with how sentences connect to form coherent paragraphs and larger texts.</li>
+  </ul>
+  <p style="color: #e2e8f0;">Each layer offers specific levers for correction. For instance, at the clause level, you might correct a subject-verb agreement error. At the phrase level, you could fix a misplaced modifier. At the discourse level, you'd ensure smooth transitions between ideas.</p>
+
+  <h4 style="color: #4ade80;">3. Common Error Categories & Corrective Strategies</h4>
+  <p style="color: #e2e8f0;">Below is a systematic taxonomy of the errors most frequently encountered in the SI items of defence examinations, together with the standard corrective approach. Understanding these categories will help you quickly diagnose issues.</p>
+
+  <table style="width:100%; border-collapse:collapse; margin-top:12px; color: #e2e8f0;">
+    <thead>
+      <tr style="background:rgba(74,222,128,0.1);">
+        <th style="border:1px solid rgba(255,255,255,0.1); padding:8px; text-align:left; color:#4ade80;">Error Type</th>
+        <th style="border:1px solid rgba(255,255,255,0.1); padding:8px; text-align:left; color:#4ade80;">Typical Manifestation</th>
+        <th style="border:1px solid rgba(255,255,255,0.1); padding:8px; text-align:left; color:#4ade80;">Remedial Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:rgba(255,255,255,0.02);">
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;"><strong>Subject-Verb Discord</strong></td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">“The committee <em>are</em> meeting tomorrow.”</td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">Match the verb to the grammatical subject; treat collective nouns as singular unless context demands plural. (e.g., "The committee <em>is</em> meeting tomorrow.")</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.05);">
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;"><strong>Tense Inconsistency</strong></td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">“She <em>has submitted</em> the report and will <em>was</em> reviewed.”</td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">Maintain a uniform temporal frame; shift “was” to “be reviewed” or “will be reviewed”. (e.g., "She <em>has submitted</em> the report, and it <em>will be reviewed</em>.")</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.02);">
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;"><strong>Misplaced Modifier</strong></td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">“Running quickly, the finish line was crossed by the athlete.”</td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">Place the modifier adjacent to the word it modifies: “Running quickly, the athlete crossed the finish line.”</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.05);">
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;"><strong>Redundancy / Wordiness</strong></td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">“In my personal opinion, I think that the plan is not feasible.”</td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">Eliminate duplicate expressions: “In my opinion, the plan is not feasible.”</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.02);">
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;"><strong>Incorrect Preposition</strong></td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">“He is proficient <em>in</em> playing the piano.”</td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">Replace “in” with “at”: “He is proficient at playing the piano.”</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.05);">
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;"><strong>Parallelism Error</strong></td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">“She likes swimming, hiking, and to read books.”</td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">Ensure elements in a series or comparison have the same grammatical form: “She likes swimming, hiking, and reading books.”</td>
+      </tr>
+      <tr style="background:rgba(255,255,255,0.02);">
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;"><strong>Pronoun-Antecedent Disagreement</strong></td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">“Every student must submit <em>their</em> assignment.”</td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">Ensure pronouns agree in number and gender with their antecedents: “Every student must submit <em>his or her</em> assignment.” (Or rephrase to plural: "All students must submit <em>their</em>
+`;
+
+window.EXPANDED_NOTES_DATA["ordering-rearrangement"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ordering of Words &amp; Sentences</h3>
+
+  <p style="color:#e2e8f0; margin-bottom: 15px; line-height: 1.6;">
+    The <strong>Ordering of Words &amp; Sentences</strong> section, often referred to as <strong>[[Para Jumbles]]</strong> or <strong>[[Sentence Rearrangement]]</strong>, is a crucial component of the English Language paper in <strong>[[NDA]]</strong>, <strong>[[CDS]]</strong> and <strong>[[AFCAT]]</strong> examinations. It tests your ability to understand the <strong>[[logical flow]]</strong> of ideas and construct a <strong>coherent</strong> and <strong>grammatically correct</strong> paragraph from a set of jumbled sentences or parts of sentences. Mastering this topic requires a strong grasp of <strong>[[grammar rules]]</strong>, [[vocabulary]], and [[reading comprehension]] skills.
+  </p>
+
+  <h4 style="color:#4ade80; border-left:3px solid #4ade80; padding-left:8px; margin-top:20px; margin-bottom:10px;">Understanding the Question Pattern</h4>
+  <p style="color:#e2e8f0; margin-bottom:15px; line-height:1.6;">
+    Typically, questions in this section come in two formats:
+  </p>
+  <ol style="color:#e2e8f0; margin-left:20px; margin-bottom:15px;">
+    <li style="margin-bottom:8px;">
+      <strong>Type 1: Jumbled Sentences (P, Q, R, S, T)</strong><br/>
+      You are given four or five sentences labeled P, Q, R, S (and sometimes T), which are jumbled. You need to arrange them in a meaningful sequence to form a complete and logical paragraph.
+      <div style="background:rgba(255,255,255,0.05); border-left:3px solid #4ade80; padding:10px; margin-top:10px; margin-bottom:10px; border-radius:4px;">
+        <strong>Example:</strong><br/>
+        P. The rapid growth of technology has transformed how we live.<br/>
+        Q. These advancements bring both opportunities and challenges.<br/>
+        R. From communication to healthcare, its impact is undeniable.<br/>
+        S. It is crucial to adapt to these changes responsibly.<br/>
+        <i>Which of the following is the correct sequence?</i>
+      </div>
+    </li>
+    <li style="margin-bottom:8px;">
+      <strong>Type 2: Sentences with Fixed Beginning and End (S1, S6, P, Q, R, S)</strong><br/>
+      Here, the <strong>[[first sentence]]</strong> (S1) and the <strong>[[last sentence]]</strong> (S6) of a paragraph are fixed. The four middle sentences, labeled P, Q, R, S, are jumbled. Your task is to arrange P, Q, R, S correctly between S1 and S6. This format provides strong anchors, making the task slightly easier if you use them strategically.
+      <div style="background:rgba(255,255,255,0.05); border-left:3px solid #4ade80; padding:10px; margin-top:10px; margin-bottom:10px; border-radius:4px;">
+        <strong>Example:</strong><br/>
+        S1: The history of India is vast and diverse.<br/>
+        P. Many empires rose and fell, leaving behind a rich legacy.<br/>
+        Q. From ancient civilizations to colonial rule, it spans millennia.<br/>
+        R. This tapestry of events shaped its unique cultural identity.<br/>
+        S. Archaeological evidence points to early human settlements.<br/>
+        S6: Understanding this past is key to appreciating its present.<br/>
+        <i>Which of the following is the correct sequence for P, Q, R, S?</i>
+      </div>
+    </li>
+  </ol>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color:#4ade80;">⚡ Exam Tip (NDA/CDS):</strong> In Type‑2 questions, the fixed first and last sentences often contain a “hook” word like <em>“however”</em> or <em>“therefore.”</em> Spotting these cue words can instantly narrow down the position of the middle sentences, saving valuable time.
+  </div>
+
+  <h4 style="color:#4ade80; border-left:3px solid #4ade80; padding-left:8px; margin-top:20px; margin-bottom:10px;">Step‑by‑Step Strategies for Solving Para Jumbles</h4>
+
+  <h5 style="color:#fbbf24; margin-top:15px; margin-bottom:8px;">1. Identify the Opening / Topic Sentence</h5>
+  <p style="color:#e2e8f0; margin-bottom:15px; line-height:1.6;">
+    The opening sentence (or S1 if provided) introduces the main <strong>[[subject]]</strong> or idea of the paragraph. It should be an <strong>[[independent clause]]</strong> that can stand alone.
+  </p>
+  <ul style="color:#e2e8f0; margin-left:20px; margin-bottom:15px;">
+    <li>Look for a general statement, definition, or introductory fact.</li>
+    <li><span style="color:#fbbf24;">Avoid sentences that start with conjunctions</span> like ‘but’, ‘however’, ‘therefore’, ‘also’, ‘and’ unless they are part of a larger structure that clearly starts the discussion.</li>
+    <li><span style="color:#fbbf24;">Beware of pronoun‑lead sentences</span> (he, she, it, they, this, that) if their referent hasn’t been introduced yet.</li>
+    <li>Sentences beginning with adverbs of time or sequence (e.g., ‘then’, ‘finally’, ‘later’) are rarely the opening.</li>
+  </ul>
+  <div style="background:rgba(255,255,255,0.05); border-left:3px solid #22c55e; padding:10px; margin-top:10px; margin-bottom:10px; border-radius:4px;">
+    <strong>Example:</strong><br/>
+    P. This process is crucial for life.<br/>
+    Q. <strong>Photosynthesis</strong> is the process by which green plants make their own food.<br/>
+    R. Sunlight, water and carbon dioxide are its key ingredients.<br/>
+    S. Without it, the entire food chain would collapse.<br/><br/>
+    Here, <strong>Q</strong> is the clear <strong>[[topic sentence]]</strong> as it defines photosynthesis. P, R and S refer back to ‘photosynthesis’ or ‘this process’.
+    <br/><strong>Possible Start: Q</strong>
+  </div>
+
+  <h5 style="color:#fbbf24; margin-top:15px; margin-bottom:8px;">2. Spot Mandatory Pairs / Connecting Links</h5>
+  <p style="color:#e2e8f0; margin-bottom:15px; line-height:1.6;">
+    This is often the most effective strategy. Look for two sentences that logically and grammatically must follow each other.
+  </p>
+  <ul style="color:#e2e8f0; margin-left:20px; margin-bottom:15px;">
+    <li><strong>Pronoun‑Noun agreement:</strong> A pronoun must refer to a noun previously mentioned.
+      <div style="background:rgba(255,255,255,0.05); border-left:3px solid #4ade80; padding:5px; margin-top:5px; margin-bottom:5px; border-radius:4px;">
+        <i>Example:</i> “R. My friend, John, is a talented artist.” followed by “P. <span style="color:#22c55e;">He</span> often paints landscapes.” (R‑P is a mandatory pair)
+      </div>
+    </li>
+    <li><strong>Cause and
+`;
+
+window.EXPANDED_NOTES_DATA["fill-blanks-cloze"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Fill in the Blanks & Cloze Test</h3>
+
+  <h4 style="color:#4ade80;">1. Understanding the Objective of Fill‑in‑the‑Blanks (FIB) and Cloze Tests</h4>
+  <p style="color:#e2e8f0;">The <strong>Fill‑in‑the‑Blanks</strong> and <strong>Cloze Test</strong> sections are designed to assess a candidate’s grasp of <strong>[[lexical cohesion]]</strong>, <strong>[[grammatical accuracy]]</strong>, and <strong>[[contextual inference]]</strong>. In the context of the <strong>[[UPSC]]</strong> examination, as well as the <strong>[[NDA]]</strong>, <strong>[[CDS]]</strong> and <strong>[[AFCAT]]</strong> written tests, these items serve two principal purposes:</p>
+  <ul style="color:#e2e8f0;">
+    <li>To gauge the ability to identify the most appropriate word(s) that preserve the logical flow of a passage.</li>
+    <li>To evaluate speed‑accuracy balance under strict time constraints (typically 30 minutes for a 15‑item set).</li>
+  </ul>
+  <p style="color:#e2e8f0;">Unlike isolated vocabulary questions, FIB and Cloze items embed the missing word within a broader discourse, demanding simultaneous mastery of <em>syntax</em>, <em>semantics</em>, and <em>pragmatics</em>.</p>
+
+  <h4 style="color:#4ade80;">2. Classification of Items</h4>
+  <p style="color:#e2e8f0;">Exam‑writers categorize blanks into three major families, each requiring a distinct solving technique:</p>
+  <table style="width:100%; border-collapse:collapse; margin:12px 0; color:#e2e8f0;">
+    <thead>
+      <tr style="background:rgba(74,222,128,0.1);">
+        <th style="border:1px solid rgba(255,255,255,0.1); padding:6px;">Category</th>
+        <th style="border:1px solid rgba(255,255,255,0.1); padding:6px;">Typical Focus</th>
+        <th style="border:1px solid rgba(255,255,255,0.1); padding:6px;">Key Strategies</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:6px;"><strong>Lexical</strong></td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:6px;">[[Synonyms]]/[[Antonyms]], collocations, idiomatic usage.</td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:6px;">Word‑association, “fit‑the‑phrase” technique.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:6px;"><strong>Grammatical</strong></td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:6px;">Verb tense, voice, preposition, article, conjunction.</td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:6px;">Rule‑based elimination, subject‑verb agreement checks.</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:6px;"><strong>Logical‑Inference</strong></td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:6px;">Coherence, cause‑effect, contrast, purpose.</td>
+        <td style="border:1px solid rgba(255,255,255,0.1); padding:6px;">Reading‑ahead, “paragraph‑summary” method.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">💡 Memory Hack:</strong> Remember the three families with the acronym **LGL** – **L**exical, **G**rammatical, **L**ogical‑Inference. Visualise a military “L‑shaped” formation where the left wing (Lexical) guards the front, the centre (Grammatical) holds the line, and the right wing (Logical‑Inference) scouts ahead.
+  </div>
+
+  <h4 style="color:#4ade80;">3. Core Principles for Solving FIB Items</h4>
+  <p style="color:#e2e8f0;">Successful candidates internalise a four‑step algorithm that can be applied uniformly across all blanks:</p>
+  <ol style="color:#e2e8f0;">
+    <li><strong>Read the entire passage first</strong> – this establishes the macro‑theme and alerts the mind to recurring lexical fields (e.g., <strong>[[economics]]</strong>, <strong>[[environment]]</strong>, <strong>[[military]]</strong>).</li>
+    <li><strong>Identify the grammatical cue</strong> – look for surrounding articles, auxiliaries, or conjunctions that dictate the part of speech.</li>
+    <li><strong>Generate a shortlist of 2‑3 candidates</strong> – based on collocation frequency, consult mental dictionaries such as the <strong>[[Oxford Dictionary]]</strong> or <strong>[[Merriam-Webster]]</strong> for typical pairings.</li>
+    <li><strong>Validate against the whole paragraph</strong> – the chosen word must not disrupt logical flow, tense consistency, or semantic nuance.</li>
+  </ol>
+
+  <h4 style="color:#4ade80;">4. Special Considerations for Cloze Tests</h4>
+  <p style="color:#e2e8f0;">The <strong>Cloze Test</strong> is a subset of FIB where every nth word (commonly every 5th or 7th word) is omitted. The following nuances distinguish it from ordinary blanks:</p>
+  <ul style="color:#e2e8f0;">
+    <li><strong>Pro‑sentence cohesion</strong> – the omitted word often serves as a connective device (e.g., <em>however</em>, <em>therefore</em>).</li>
+    <li><strong>Semantic density</strong> – because the passage is continuous, a single mis‑fit can cascade, affecting subsequent blanks.</li>
+    <li><strong>Vocabulary range</strong> – cloze items frequently draw from high‑frequency academic corpora such as the <strong>[[Cambridge English]]</strong> Corpus and the <strong>[[British Council]]</strong> word‑list.</li>
+  </ul>
+
+  <h4 style="color:#4ade80;">5. Time‑Management Blueprint</h4>
+  <p style="color:#e2e8f0;">Effective timing is critical; the following schedule has proven successful for aspirants of the <strong>[[NDA]]</strong> and <strong>[[CDS]]</strong> exams:</p>
+  <table style="width:100%; border-collapse:collapse; margin:12px 0; color:#e2e8f0;">
+    <thead>
+      <tr style="background:rgba(74,222,128,0.1);">
+        <th style="border:1px solid rgba(255,255,255,0.1); padding:6px;">Phase</th>
+        <th style="border:
+`;
