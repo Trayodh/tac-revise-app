@@ -7676,4 +7676,287 @@ window.CURRENT_AFFAIRS_DB = {
       }
     }
   ]
+,
+"April 2026": [
+    {
+      "id": "ca-april-2026-001",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test April 2026 1",
+      "text": "Rapid revision point 1 for April 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn April 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-april-2026-002",
+      "topic": "\ud83d\udfe0 IMPORTANT | International Relations | Global Summit April 2026",
+      "text": "Rapid revision point 2 for April 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn April 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-april-2026-003",
+      "topic": "\ud83d\udfe2 GOOD TO KNOW | Economy | Trade Pact April 2026",
+      "text": "Rapid revision point 3 for April 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn April 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-april-2026-004",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test April 2026 4",
+      "text": "Rapid revision point 4 for April 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn April 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-april-2026-005",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test April 2026 5",
+      "text": "Rapid revision point 5 for April 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn April 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    }
+  ],
+  "May 2026": [
+    {
+      "id": "ca-may-2026-001",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test May 2026 1",
+      "text": "Rapid revision point 1 for May 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn May 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-may-2026-002",
+      "topic": "\ud83d\udfe0 IMPORTANT | International Relations | Global Summit May 2026",
+      "text": "Rapid revision point 2 for May 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn May 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-may-2026-003",
+      "topic": "\ud83d\udfe2 GOOD TO KNOW | Economy | Trade Pact May 2026",
+      "text": "Rapid revision point 3 for May 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn May 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-may-2026-004",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test May 2026 4",
+      "text": "Rapid revision point 4 for May 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn May 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-may-2026-005",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test May 2026 5",
+      "text": "Rapid revision point 5 for May 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn May 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    }
+  ],
+  "June 2026": [
+    {
+      "id": "ca-june-2026-001",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test June 2026 1",
+      "text": "Rapid revision point 1 for June 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn June 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-june-2026-002",
+      "topic": "\ud83d\udfe0 IMPORTANT | International Relations | Global Summit June 2026",
+      "text": "Rapid revision point 2 for June 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn June 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-june-2026-003",
+      "topic": "\ud83d\udfe2 GOOD TO KNOW | Economy | Trade Pact June 2026",
+      "text": "Rapid revision point 3 for June 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn June 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-june-2026-004",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test June 2026 4",
+      "text": "Rapid revision point 4 for June 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn June 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-june-2026-005",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test June 2026 5",
+      "text": "Rapid revision point 5 for June 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn June 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    }
+  ],
+  "July 2026": [
+    {
+      "id": "ca-july-2026-001",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test July 2026 1",
+      "text": "Rapid revision point 1 for July 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn July 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-july-2026-002",
+      "topic": "\ud83d\udfe0 IMPORTANT | International Relations | Global Summit July 2026",
+      "text": "Rapid revision point 2 for July 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn July 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-july-2026-003",
+      "topic": "\ud83d\udfe2 GOOD TO KNOW | Economy | Trade Pact July 2026",
+      "text": "Rapid revision point 3 for July 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn July 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-july-2026-004",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test July 2026 4",
+      "text": "Rapid revision point 4 for July 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn July 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-july-2026-005",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test July 2026 5",
+      "text": "Rapid revision point 5 for July 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn July 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    }
+  ],
+  "August 2026": [
+    {
+      "id": "ca-august-2026-001",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test August 2026 1",
+      "text": "Rapid revision point 1 for August 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn August 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-august-2026-002",
+      "topic": "\ud83d\udfe0 IMPORTANT | International Relations | Global Summit August 2026",
+      "text": "Rapid revision point 2 for August 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn August 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-august-2026-003",
+      "topic": "\ud83d\udfe2 GOOD TO KNOW | Economy | Trade Pact August 2026",
+      "text": "Rapid revision point 3 for August 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn August 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-august-2026-004",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test August 2026 4",
+      "text": "Rapid revision point 4 for August 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn August 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-august-2026-005",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test August 2026 5",
+      "text": "Rapid revision point 5 for August 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn August 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    }
+  ],
+  "September 2026": [
+    {
+      "id": "ca-september-2026-001",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test September 2026 1",
+      "text": "Rapid revision point 1 for September 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn September 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-september-2026-002",
+      "topic": "\ud83d\udfe0 IMPORTANT | International Relations | Global Summit September 2026",
+      "text": "Rapid revision point 2 for September 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn September 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-september-2026-003",
+      "topic": "\ud83d\udfe2 GOOD TO KNOW | Economy | Trade Pact September 2026",
+      "text": "Rapid revision point 3 for September 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn September 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-september-2026-004",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test September 2026 4",
+      "text": "Rapid revision point 4 for September 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn September 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    },
+    {
+      "id": "ca-september-2026-005",
+      "topic": "\ud83d\udd34 MUST KNOW | Defence & Security | Operation Test September 2026 5",
+      "text": "Rapid revision point 5 for September 2026: Major induction and strategic deployment.",
+      "details": {
+        "summary": "### \ud83d\udccc What Happened\nIn September 2026, a major strategic development took place regarding the deployment of new assets.\n\n### \ud83c\udfaf Why It Matters\nThis significantly bolsters India's deterrence capabilities along the Northern borders.\n\n### \ud83e\udde0 Key Facts\n- First deployment of the advanced MK-III variant.\n- Jointly developed by DRDO and international partners.\n\n### \ud83d\udd17 Static GK Connection\nDRDO was established in 1958. Its motto is 'Balasya Mulam Vigyanam'.\n\n### \u26a0\ufe0f Exam Trap\nDo not confuse the MK-III variant with the naval MK-II variant which was inducted last year.\n\n### \ud83c\udfaf Possible Question Angle\nUPSC may ask to identify the partner country involved in the joint development."
+      },
+      "mcq": null
+    }
+  ]
 };
