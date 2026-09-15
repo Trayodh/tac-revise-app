@@ -90,9 +90,9 @@ function initCountdownTimer() {
   if (!selector || !display) return;
 
   const exams = {
-    afcat: { name: "AFCAT 2 2026", date: new Date("August 8, 2026 10:00:00").getTime() },
-    nda: { name: "NDA 2 2026", date: new Date("September 13, 2026 10:00:00").getTime() },
-    cds: { name: "CDS 2 2026", date: new Date("September 13, 2026 09:00:00").getTime() }
+    afcat: { name: "AFCAT 1 2027", date: new Date("February 14, 2027 00:00:00").getTime() },
+    nda: { name: "NDA 1 2027", date: new Date("April 11, 2027 00:00:00").getTime() },
+    cds: { name: "CDS 1 2027", date: new Date("April 11, 2027 00:00:00").getTime() }
   };
 
   // Hide native select dropdown
@@ -149,13 +149,13 @@ function initCountdownTimer() {
     let name = "Nearest Exam (Auto)";
     if (val === "afcat") {
       color = "#38bdf8"; // sky blue
-      name = "AFCAT 2 2026";
+      name = "AFCAT 1 2027";
     } else if (val === "cds") {
       color = "#87a96b"; // olive green
-      name = "CDS 2 2026";
+      name = "CDS 1 2027";
     } else if (val === "nda") {
       color = "#ffffff";
-      name = "NDA 2 2026";
+      name = "NDA 1 2027";
     } else if (val === "auto") {
       const nowVal = Date.now();
       let nearestKeyVal = "afcat";

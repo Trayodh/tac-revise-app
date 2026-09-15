@@ -3060,13 +3060,13 @@ const CA_CYCLES_CONFIG = {
     label: "AFCAT",
     months: ["August 2026", "September 2026", "October 2026", "November 2026", "December 2026", "January 2027"],
     shortLabel: "AUG '26\n-\nJAN '27",
-    examDate: new Date("2027-02-20T00:00:00")
+    examDate: new Date("2027-02-14T00:00:00")
   },
   NDA_CDS: {
     label: "NDA / CDS",
-    months: ["April 2026", "May 2026", "June 2026", "July 2026", "August 2026", "September 2026"],
-    shortLabel: "APR '26\n-\nSEP '26",
-    examDate: new Date("2026-09-12T00:00:00")
+    months: ["September 2026", "October 2026", "November 2026", "December 2026", "January 2027", "February 2027", "March 2027"],
+    shortLabel: "SEP '26\n-\nMAR '27",
+    examDate: new Date("2027-04-11T00:00:00")
   }
 };
 
