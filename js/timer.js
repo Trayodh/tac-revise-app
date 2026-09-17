@@ -268,19 +268,10 @@ function initCountdownTimer() {
       targetKey = nearestKey;
     }
 
-    const targetExam = exams[targetKey] || exams.afcat;
-    const distance = targetExam.date - now;
-
-    if (distance < 0) {
-      display.innerText = "MISSION ACTIVE";
-      display.style.color = "var(--danger)";
-      return;
-    }
-
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    const days = 0;
+    const hours = 0;
+    const minutes = 0;
+    const seconds = 0;
 
     const dStr = days.toString().padStart(2, '0');
     const hStr = hours.toString().padStart(2, '0');
@@ -288,7 +279,7 @@ function initCountdownTimer() {
     const sStr = seconds.toString().padStart(2, '0');
 
     display.innerText = `${dStr}d : ${hStr}h : ${mStr}m : ${sStr}s`;
-    display.style.color = "var(--danger)";
+    display.style.color = "var(--text-primary)";
   }
 
   // Update immediately and then run interval
