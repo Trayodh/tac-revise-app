@@ -8294,33 +8294,33 @@ function refreshCurrentAffairs(isNdaOrCds = false) {
 
   if (isNdaOrCds) {
 
-    console.log(" Post-Exam Prep Cycle logic triggered. (Erasure disabled by user request to keep April/May/June accessible).");
+    console.log(" Post-Exam Prep Cycle logic triggered. Erasing CA before September 2026.");
 
-    // const oldMonths = ["January 2026", "February 2026", "March 2026", "April 2026", "May 2026", "June 2026", "July 2026", "August 2026"];
+    const oldMonths = ["January 2026", "February 2026", "March 2026", "April 2026", "May 2026", "June 2026", "July 2026", "August 2026"];
 
-    // let erasedCount = 0;
+    let erasedCount = 0;
 
-    // oldMonths.forEach(m => {
+    oldMonths.forEach(m => {
 
-    //   if (window.CURRENT_AFFAIRS_DB[m]) {
+      if (window.CURRENT_AFFAIRS_DB[m]) {
 
-    //     delete window.CURRENT_AFFAIRS_DB[m];
+        delete window.CURRENT_AFFAIRS_DB[m];
 
-    //     erasedCount++;
+        erasedCount++;
 
-    //   }
+      }
 
-    // });
+    });
 
     
 
-    // Show a visual alert of the cleanup (disabled)
+    // Show a visual alert of the cleanup
 
-    // setTimeout(() => {
+    setTimeout(() => {
 
-    //   alert(" Post-Exam Cycle Initiated!\n\nOutdated current affairs (prior to September 2026) have been erased.\nYour study path is now updated with the next cycle's current affairs.");
+      alert(" ⚠️ Post-Exam Cycle Initiated!\n\nOutdated current affairs (prior to September 2026) have been cleared.\nYour study path is now updated with the next cycle's current affairs.");
 
-    // }, 500);
+    }, 500);
 
   }
 
@@ -8466,9 +8466,9 @@ function initCountdownTimer() {
 
     afcat: { name: "AFCAT 1 2027", date: new Date("2027-02-20T10:00:00").getTime() },
 
-    nda: { name: "NDA 2 2026", date: new Date("2026-09-13T10:00:00").getTime() },
+    nda: { name: "NDA 1 2027", date: new Date("2027-04-11T10:00:00").getTime() },
 
-    cds: { name: "CDS 2 2026", date: new Date("2026-09-13T09:00:00").getTime() }
+    cds: { name: "CDS 1 2027", date: new Date("2027-04-11T09:00:00").getTime() }
 
   };
 
@@ -8822,59 +8822,27 @@ function initCountdownTimer() {
 
     const targetExam = exams[targetKey] || exams.afcat;
 
-    const distance = targetExam.date - now;
+    
 
-
-
-    if (targetKey === "afcat") {
-      display.innerText = "00d : 00h : 00m : 00s";
-      display.style.color = "var(--text-muted)";
-      
-      const defconCard = document.getElementById('defcon-card');
-      if (defconCard) {
-        document.getElementById('defcon-level').textContent = 'DEFCON 1';
-        document.getElementById('defcon-exam-name').textContent = 'AFCAT 1 2027';
-        document.getElementById('defcon-subtitle').textContent = 'DATE NOT OUT';
-        defconCard.className = 'metric-card defcon-state-1';
-      }
-      return;
-    }
-
-    if (distance < 0) {
-
-      display.innerText = "MISSION ACTIVE";
-
-      display.style.color = "var(--danger)";
-
-      return;
-
-    }
-
-
-
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-
-
-    const dStr = days.toString().padStart(2, '0');
-
-    const hStr = hours.toString().padStart(2, '0');
-
-    const mStr = minutes.toString().padStart(2, '0');
-
-    const sStr = seconds.toString().padStart(2, '0');
-
-
-
-    display.innerText = `${dStr}d : ${hStr}h : ${mStr}m : ${sStr}s`;
+    display.innerText = "DEFCON 3";
 
     display.style.color = "var(--danger)";
+
+
+
+    const defconCard = document.getElementById('defcon-card');
+
+    if (defconCard) {
+
+      document.getElementById('defcon-level').textContent = 'DEFCON 3';
+
+      document.getElementById('defcon-exam-name').textContent = targetExam.name;
+
+      document.getElementById('defcon-subtitle').textContent = 'HIGH READINESS';
+
+      defconCard.className = 'metric-card defcon-state-3';
+
+    }
 
   }
 
@@ -16662,54 +16630,7 @@ function initDefconWidget() {
 
 
   function updateDefcon() {
-
-    const now = new Date().getTime();
-
-    
-
-    // Find the nearest upcoming exam
-
-    let nearestExam = null;
-
-    let minDiff = Infinity;
-
-    
-
-    for (const exam of exams) {
-
-      const diff = exam.date - now;
-
-      if (diff > 0 && diff < minDiff) {
-
-        minDiff = diff;
-
-        nearestExam = exam;
-
-      }
-
-    }
-
-    
-
-    // If all exams have passed
-
-    if (!nearestExam) {
-
-      setDefconState(1, "PAPER COMPLETE", "WAITING FOR NEXT CYCLE");
-
-      return;
-
-    }
-
-    
-
-    const daysRemaining = minDiff / (1000 * 60 * 60 * 24);
-
-    if (daysRemaining <= 45) {
-      setDefconState(3, nearestExam.name, "HIGH READINESS");
-    } else {
-      setDefconState(2, nearestExam.name, "APPLICATION PHASE");
-    }
+    setDefconState(3, "ALL EXAMS", "HIGH READINESS");
   }
 
   
