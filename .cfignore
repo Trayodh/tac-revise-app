@@ -1,0 +1,4 @@
+*.pdf
+scratch/
+.git/
+node_modules/

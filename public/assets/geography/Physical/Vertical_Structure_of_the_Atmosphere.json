@@ -1,0 +1,19 @@
+{
+  "title": "Vertical Structure of the Atmosphere",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Earth Structure & Atmosphere",
+  "topic": "Atmospheric Layers",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Atmosphere] --> B[Troposphere]\n    B --> C[Stratosphere]\n    C --> D[Mesosphere]\n    D --> E[Thermosphere / Ionosphere]\n    B:::tempDesc1\n    C:::tempDesc2\n    D:::tempDesc3\n    E:::tempDesc4\n    classDef tempDesc1 fill:#e0f7fa,stroke:#006064,stroke-width:1px;\n    classDef tempDesc2 fill:#b2ebf2,stroke:#006064,stroke-width:1px;\n    classDef tempDesc3 fill:#80deea,stroke:#006064,stroke-width:1px;\n    classDef tempDesc4 fill:#4dd0e1,stroke:#006064,stroke-width:1px;",
+  "mapQuery": "",
+  "description": "Layered diagram of Earth's atmosphere indicating the altitude ranges, temperature trends, and key characteristics of each layer.",
+  "keywords": [
+    "troposphere",
+    "stratosphere",
+    "mesosphere",
+    "thermosphere",
+    "ionosphere",
+    "atmospheric layers"
+  ]
+}

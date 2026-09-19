@@ -1,0 +1,19 @@
+{
+  "title": "Classification of Air Masses",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Air Masses & Fronts",
+  "topic": "Air Mass Types",
+  "format": "Mermaid",
+  "description": "A classification diagram showing how air masses are categorized based on their source region (Tropical, Polar, Arctic/Antarctic) and moisture content (Continental, Maritime).",
+  "keywords": [
+    "air mass",
+    "air mass classification",
+    "tropical air mass",
+    "polar air mass",
+    "continental air mass",
+    "maritime air mass",
+    "source region"
+  ],
+  "mermaidCode": "graph TD\nA[Air Mass Classification] --> B[Source Region]\nA --> C[Moisture Content]\nB --> B1[Tropical (T)]\nB --> B2[Polar (P)]\nB --> B3[Arctic/Antarctic (A)]\nC --> C1[Continental (c - dry)]\nC --> C2[Maritime (m - moist)]"
+}

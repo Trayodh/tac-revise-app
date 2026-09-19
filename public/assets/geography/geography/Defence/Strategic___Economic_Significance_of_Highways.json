@@ -1,0 +1,20 @@
+{
+  "title": "Strategic & Economic Significance of Highways",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Transport Routes: Highways & Waterways",
+  "topic": "Strategic & Economic Significance of Highways",
+  "format": "Mermaid",
+  "description": "A diagram illustrating the strategic and economic importance of India's highway network, covering aspects like defence mobility, trade facilitation, regional connectivity, and tourism promotion.",
+  "keywords": [
+    "highways",
+    "strategic importance",
+    "economic significance",
+    "defence mobility",
+    "trade facilitation",
+    "regional connectivity",
+    "tourism",
+    "India"
+  ],
+  "mermaidCode": "graph TD A[Strategic & Economic Significance of Highways] --> B(Defence Mobility) B --> B1[Rapid Deployment of Troops & Equipment] B --> B2[Strategic Depth (NH-44, NH-27)] A --> C(Trade Facilitation) C --> C1[Connects Seaports with Industrial Zones] C --> C2[Reduces Logistics Cost (14% to 9% of GDP)] A --> D(Regional Connectivity) D --> D1[Integrates Seven Sister States (NH-27)] D --> D2[North-East Council Priority] A --> E(Tourism Boost) E --> E1[Scenic Corridors (Himachal-Pahalgam, Kerala Coastal)] E --> E2[Increased Tourist Footfall]"
+}

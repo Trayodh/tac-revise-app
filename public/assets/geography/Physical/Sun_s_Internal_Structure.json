@@ -1,0 +1,17 @@
+{
+  "title": "Sun's Internal Structure",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Sun",
+  "topic": "Solar Internal Layers",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Sun] --> B[Core]\n    B --> C[Radiative Zone]\n    C --> D[Convective Zone]",
+  "mapQuery": "",
+  "description": "Layered diagram of the Sun showing the core where fusion occurs, the radiative zone, and the convective zone.",
+  "keywords": [
+    "sun interior",
+    "core",
+    "radiative zone",
+    "convective zone"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Global Forest Biome Classification",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Forests of the World",
+  "topic": "Forest Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TB\nTropical_Rainforests --> Amazon\nTropical_Deciduous --> Monsoon_Forests\nTemperate_Deciduous --> Eastern_North_America\nConiferous_Taiga --> Siberia\nMediterranean --> California\nMangrove --> Sundarbans\nGrasslands --> Savanna\nGrasslands --> Temperate_Grasslands",
+  "mapQuery": "",
+  "description": "Tree diagram of major forest/biome types with representative regions.",
+  "keywords": [
+    "forest biomes",
+    "tropical rainforest",
+    "taiga",
+    "mangrove",
+    "grassland"
+  ]
+}

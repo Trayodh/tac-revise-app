@@ -1,0 +1,16 @@
+graph TD
+    A[Start] --> B[P]
+    B --> C[Q]
+    C --> D[R]
+    D --> E[S]
+    E --> I[End]
+    B --> F[Cultural Significance]
+    C --> F
+    D --> G[Ecological Significance]
+    E --> H[Economic Significance]
+    class A,I startEnd;
+    class B,C,D,E statement;
+    class F,G,H significance;
+    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px,shape:round;
+    classDef statement fill:#bbf,stroke:#333,stroke-width:1px;
+    classDef significance fill:#efe,stroke:#333,stroke-dasharray:5 5;

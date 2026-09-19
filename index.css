@@ -906,87 +906,225 @@ h2 {
   margin-bottom: 4px;
 }
 
-/* Expanded notes (from notes_extra_history.js and similar) */
+/* --- PREMIUM UI UPGRADE FOR NOTES --- */
 .expanded-notes-content body,
 .expanded-notes-content {
   background: transparent !important;
-  color: var(--text-secondary);
-  font-size: 0.9rem;
-  line-height: 1.7;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  line-height: 1.8;
   overflow-x: hidden;
   word-wrap: break-word;
   overflow-wrap: break-word;
   text-align: left;
+  font-family: var(--font-main);
 }
+.expanded-notes-content body { display: none; } /* Hide hardcoded bodies */
 
+/* Chapter Headings (H2) */
 .expanded-notes-content h2 {
   color: var(--accent);
-  font-size: 1.15rem;
-  margin: 22px 0 10px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-  padding-bottom: 6px;
+  font-family: var(--font-header);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 36px 0 16px 0;
+  padding: 12px 16px;
+  background: linear-gradient(90deg, rgba(0, 229, 255, 0.15) 0%, transparent 100%);
+  border-left: 4px solid var(--accent);
+  border-radius: 4px;
+  box-shadow: inset 0 -1px 0 rgba(255,255,255,0.05);
 }
 
+/* Topic Headings (H3) */
 .expanded-notes-content h3 {
   color: var(--text-primary);
-  font-size: 1.02rem;
-  margin: 16px 0 8px 0;
+  font-family: var(--font-header);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 28px 0 14px 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.expanded-notes-content h4 {
+.expanded-notes-content h3::before {
+  content: '◈';
   color: var(--accent);
-  font-size: 0.95rem;
-  margin: 12px 0 6px 0;
+  font-size: 1.1rem;
 }
 
+/* Minor Headings (H4, H5) */
+.expanded-notes-content h4 {
+  color: var(--accent-light);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 20px 0 10px 0;
+}
+
+.expanded-notes-content h5 {
+  color: var(--info);
+  font-size: 1rem;
+  margin: 16px 0 8px 0;
+  font-weight: 600;
+}
+
+/* Paragraphs & Text */
 .expanded-notes-content p {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   color: var(--text-secondary);
 }
 
+.expanded-notes-content strong, .expanded-notes-content b {
+  color: #ffffff;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 2px 6px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Lists */
 .expanded-notes-content ul,
 .expanded-notes-content ol {
-  padding-left: 20px;
-  margin-bottom: 10px;
+  padding-left: 0;
+  margin: 16px 0 24px 12px;
+  list-style: none;
 }
 
 .expanded-notes-content li {
-  margin-bottom: 5px;
+  margin-bottom: 12px;
+  padding-left: 28px;
+  position: relative;
   color: var(--text-secondary);
+  transition: all 0.2s ease;
 }
 
-.expanded-notes-content strong {
+.expanded-notes-content li:hover {
   color: var(--text-primary);
+  transform: translateX(4px);
+  background-color: rgba(255,255,255,0.02);
+  border-radius: 4px;
 }
 
+/* Custom Bullets */
+.expanded-notes-content ul > li::before {
+  content: '▹';
+  position: absolute;
+  left: 6px;
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.1;
+}
+
+/* Custom Numbers */
+.expanded-notes-content ol {
+  counter-reset: custom-counter;
+}
+.expanded-notes-content ol > li {
+  counter-increment: custom-counter;
+}
+.expanded-notes-content ol > li::before {
+  content: counter(custom-counter) ".";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+/* Tables - Premium Data Structure */
 .expanded-notes-content table {
   width: 100%;
-  border-collapse: collapse;
-  margin: 14px 0;
-  font-size: 0.85rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 28px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(255,255,255,0.15);
 }
 
 .expanded-notes-content th {
-  background: rgba(34, 197, 94, 0.12);
+  background: var(--bg-tertiary);
   color: var(--accent);
-  padding: 8px 12px;
+  padding: 14px 18px;
   text-align: left;
-  border: 1px solid rgba(255,255,255,0.1);
   font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--accent);
 }
 
 .expanded-notes-content td {
-  padding: 7px 12px;
-  border: 1px solid rgba(255,255,255,0.08);
+  padding: 12px 18px;
   color: var(--text-secondary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-right: 1px solid rgba(255, 255, 255, 0.02);
+  transition: background-color 0.2s ease;
 }
-
+.expanded-notes-content td:last-child {
+  border-right: none;
+}
+.expanded-notes-content tr:last-child td {
+  border-bottom: none;
+}
 .expanded-notes-content tr:nth-child(even) td {
-  background: rgba(255,255,255,0.03);
+  background-color: rgba(255, 255, 255, 0.02);
+}
+.expanded-notes-content tr:hover td {
+  background-color: rgba(34, 197, 94, 0.08);
+  color: var(--text-primary);
 }
 
-/* Hide inline styles that hardcode white backgrounds */
-.expanded-notes-content body { display: none; }
+/* Callouts / Info Boxes */
+.expanded-notes-content blockquote {
+  margin: 24px 0;
+  padding: 18px 24px;
+  background: rgba(34, 197, 94, 0.05);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  position: relative;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+}
+
+.expanded-notes-content blockquote p {
+  margin: 0;
+  color: var(--text-primary);
+  font-style: italic;
+  font-size: 1.05rem;
+}
+
+.expanded-notes-content blockquote::before {
+  content: '💡';
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+/* Code and Preformatted text */
+.expanded-notes-content pre, .expanded-notes-content code {
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--accent-light);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.expanded-notes-content pre {
+  padding: 16px;
+  margin: 20px 0;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 
 
 /* Revision Card Premium Themes & Enhancements */
@@ -4118,23 +4256,7 @@ h2 {
 .bank-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; padding: 10px; }
 .bank-card { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 15px; transition: transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
 .bank-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.4); border-color: var(--border-hover); }
-.expanded-notes-content {
-  font-size: 0.95rem;
-  line-height: 1.8;
-  color: var(--text-primary);
-  text-align: left;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  overflow-x: hidden;
-  max-width: 100%;
-}
-
-.expanded-notes-content pre, .expanded-notes-content table, .expanded-notes-content code {
-  overflow-x: auto;
-  max-width: 100%;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
+/* Replaced by premium CSS above */
 .bank-q-text { font-size: 1.05rem; line-height: 1.6; color: var(--text-primary); font-weight: 500; white-space: pre-wrap; }
 .bank-options { display: flex; flex-direction: column; gap: 8px; }
 .bank-opt { background: var(--bg-tertiary); padding: 10px 15px; border-radius: 8px; border: 1px solid var(--border); color: var(--text-secondary); font-size: 0.95rem; cursor: pointer; transition: all 0.2s ease; }
@@ -4974,22 +5096,7 @@ body.locked-mode .main-content {
   border-radius: 4px;
 }
 
-.expanded-notes-content th {
-  background: rgba(255, 255, 255, 0.05);
-  color: var(--text-primary);
-  text-align: left;
-  padding: 10px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-  font-weight: 600;
-  word-break: normal;
-}
-
-.expanded-notes-content td {
-  padding: 10px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  color: var(--text-muted);
-  word-break: normal;
-}
+/* Replaced by premium CSS above */
 
 .revision-card {
   transition: all 0.3s ease;

@@ -1,0 +1,21 @@
+{
+  "title": "Significance of Rivers",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Major River Systems",
+  "topic": "Importance of Rivers",
+  "format": "Mermaid",
+  "description": "A mindmap detailing the various significances of rivers, including water supply, irrigation, transportation, hydropower, ecosystem support, human settlements, and flood/drought mitigation.",
+  "keywords": [
+    "Rivers",
+    "Water Supply",
+    "Irrigation",
+    "Transportation",
+    "Hydropower",
+    "Ecosystem",
+    "Settlements",
+    "Flood Control",
+    "Drought Mitigation"
+  ],
+  "mermaidCode": "mindmap\n  root((Significance of Rivers))\n    Water Supply\n      Drinking\n      Domestic\n      Industrial\n    Irrigation\n      Agriculture\n      Arid Zones\n    Transportation\n      Navigable Waterways\n      Cost-effective Freight\n    Hydropower\n      Dams\n      Electricity Generation\n    Ecosystem Support\n      Aquatic Life Habitat\n    Human Settlements\n      Ancient Civilizations\n      Modern Cities\n    Flood Control & Drought Mitigation\n      Dams\n      Canals\n      Reservoirs"
+}

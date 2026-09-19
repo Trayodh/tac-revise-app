@@ -1,0 +1,16 @@
+{
+  "title": "Temperature Inversion Diagram",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Heat Budget & Temperature",
+  "topic": "Temperature Inversion",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Surface] -->|Normal Lapse Rate| B[Higher Altitude]\n    B -->|Inversion Layer| C[Temperature Increases with Height]\n    style A fill:#a6cee3,stroke:#333,stroke-width:2px\n    style B fill:#b2df8a,stroke:#333,stroke-width:2px\n    style C fill:#fb9a99,stroke:#333,stroke-width:2px",
+  "mapQuery": "",
+  "description": "Schematic showing a normal temperature decrease with altitude followed by an inversion layer where temperature rises, typical of clear winter nights.",
+  "keywords": [
+    "temperature inversion",
+    "lapse rate",
+    "atmospheric stability"
+  ]
+}

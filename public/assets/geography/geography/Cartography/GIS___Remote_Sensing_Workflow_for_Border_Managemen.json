@@ -1,0 +1,19 @@
+{
+  "title": "GIS & Remote Sensing Workflow for Border Management",
+  "subject": "Geography",
+  "category": "Cartography",
+  "chapter": "Remote Sensing & GIS in Border Management",
+  "topic": "Operational Workflow",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nA[Border Management GIS Workflow] --> B[Satellite Data Acquisition (SAR, IRS)]\nB --> C[Image Processing & Classification]\nC --> D[Layer Integration (terrain, demography, infrastructure)]\nD --> E[Analysis & Tactical Planning]",
+  "mapQuery": "",
+  "description": "Diagram of the end‑to‑end GIS and remote sensing process used for monitoring and managing India's borders.",
+  "keywords": [
+    "GIS",
+    "remote sensing",
+    "border management",
+    "SAR",
+    "IRS",
+    "analysis"
+  ]
+}

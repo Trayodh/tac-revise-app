@@ -1,0 +1,60 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#0b0c1a"/>
+  <!-- Outer border representing the Universe -->
+  <rect x="10" y="10" width="580" height="380" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <text x="20" y="30" font-family="sans-serif" font-size="16" fill="#ffffff">Universe</text>
+  <!-- Title -->
+  <text x="300" y="40" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#ffffff">The Universe &amp; Solar System</text>
+  <!-- Solar System group -->
+  <g id="solar-system">
+    <!-- Sun -->
+    <circle cx="300" cy="200" r="12" fill="#ffcc33"/>
+    <line x1="300" y1="200" x2="300" y2="170" stroke="#ffffff" stroke-width="1"/>
+    <text x="300" y="160" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#ffffff">Sun</text>
+    <!-- Orbits -->
+    <circle cx="300" cy="200" r="30" stroke="#555555" fill="none"/>
+    <circle cx="300" cy="200" r="45" stroke="#555555" fill="none"/>
+    <circle cx="300" cy="200" r="60" stroke="#555555" fill="none"/>
+    <circle cx="300" cy="200" r="75" stroke="#555555" fill="none"/>
+    <circle cx="300" cy="200" r="100" stroke="#555555" fill="none"/>
+    <circle cx="300" cy="200" r="130" stroke="#555555" fill="none"/>
+    <circle cx="300" cy="200" r="155" stroke="#555555" fill="none"/>
+    <circle cx="300" cy="200" r="180" stroke="#555555" fill="none"/>
+    <!-- Planets -->
+    <!-- Mercury -->
+    <circle cx="330" cy="200" r="4" fill="#a9a9a9"/>
+    <line x1="330" y1="200" x2="350" y2="180" stroke="#ffffff" stroke-width="1"/>
+    <text x="350" y="175" font-family="sans-serif" font-size="12" fill="#ffffff">Mercury</text>
+    <!-- Venus -->
+    <circle cx="345" cy="200" r="5" fill="#e0b562"/>
+    <line x1="345" y1="200" x2="365" y2="220" stroke="#ffffff" stroke-width="1"/>
+    <text x="365" y="235" font-family="sans-serif" font-size="12" fill="#ffffff">Venus</text>
+    <!-- Earth -->
+    <circle cx="360" cy="200" r="5" fill="#2e8b57"/>
+    <line x1="360" y1="200" x2="380" y2="180" stroke="#ffffff" stroke-width="1"/>
+    <text x="380" y="175" font-family="sans-serif" font-size="12" fill="#ffffff">Earth</text>
+    <!-- Mars -->
+    <circle cx="375" cy="200" r="4" fill="#b22222"/>
+    <line x1="375" y1="200" x2="395" y2="220" stroke="#ffffff" stroke-width="1"/>
+    <text x="395" y="235" font-family="sans-serif" font-size="12" fill="#ffffff">Mars</text>
+    <!-- Jupiter -->
+    <circle cx="400" cy="200" r="8" fill="#d2b48c"/>
+    <line x1="400" y1="200" x2="420" y2="180" stroke="#ffffff" stroke-width="1"/>
+    <text x="420" y="175" font-family="sans-serif" font-size="12" fill="#ffffff">Jupiter</text>
+    <!-- Saturn -->
+    <circle cx="430" cy="200" r="7" fill="#c2b280"/>
+    <line x1="430" y1="200" x2="450" y2="220" stroke="#ffffff" stroke-width="1"/>
+    <text x="450" y="235" font-family="sans-serif" font-size="12" fill="#ffffff">Saturn</text>
+    <!-- Uranus -->
+    <circle cx="455" cy="200" r="6" fill="#66cdaa"/>
+    <line x1="455" y1="200" x2="475" y2="180" stroke="#ffffff" stroke-width="1"/>
+    <text x="475" y="175" font-family="sans-serif" font-size="12" fill="#ffffff">Uranus</text>
+    <!-- Neptune -->
+    <circle cx="480" cy="200" r="6" fill="#4169e1"/>
+    <line x1="480" y1="200" x2="500" y2="220" stroke="#ffffff" stroke-width="1"/>
+    <text x="500" y="235" font-family="sans-serif" font-size="12" fill="#ffffff">Neptune</text>
+  </g>
+  <!-- Solar System label -->
+  <text x="300" y="380" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#ffffff">Solar System</text>
+</svg>

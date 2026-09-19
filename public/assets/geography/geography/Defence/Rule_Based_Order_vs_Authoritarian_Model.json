@@ -1,0 +1,18 @@
+{
+  "title": "Rule‑Based Order vs Authoritarian Model",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Ideological Dimension",
+  "topic": "International Order Comparison",
+  "format": "Mermaid",
+  "mermaidCode": "mindmap\n  root((International Order))\n    US[Rule‑Based Order]\n      US --> Law[Rule of Law]\n      US --> Liberal[Liberal Values]\n    China[Authoritarian Model]\n      China --> Sovereignty[State Sovereignty]\n      China --> NonInterference[Non‑interference]",
+  "mapQuery": "",
+  "description": "Mind‑map contrasting the US liberal rule‑based order with China's authoritarian model emphasizing sovereignty and non‑interference.",
+  "keywords": [
+    "rule‑based order",
+    "authoritarian model",
+    "US",
+    "China",
+    "ideology"
+  ]
+}

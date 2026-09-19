@@ -1,0 +1,19 @@
+{
+  "title": "Layered Structure of the Earth",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Earth Structure & Atmosphere",
+  "topic": "Earth's Interior Layers",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Earth] --> B[Crust]\n    B --> C[Continental Crust (SIAL)]\n    B --> D[Oceanic Crust (SIMA)]\n    A --> E[Mantle]\n    E --> F[Upper Mantle]\n    F --> G[Asthenosphere]\n    E --> H[Lower Mantle]\n    A --> I[Core]\n    I --> J[Outer Core (Liquid)]\n    I --> K[Inner Core (Solid)]",
+  "mapQuery": "",
+  "description": "Schematic representation of Earth's concentric layers, distinguishing continental and oceanic crust, mantle subdivisions, and core regions.",
+  "keywords": [
+    "earth interior",
+    "crust",
+    "mantle",
+    "asthenosphere",
+    "outer core",
+    "inner core"
+  ]
+}

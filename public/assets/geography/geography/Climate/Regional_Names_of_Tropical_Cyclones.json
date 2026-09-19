@@ -1,0 +1,19 @@
+{
+  "title": "Regional Names of Tropical Cyclones",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Cyclones & Anticyclones",
+  "topic": "Tropical Cyclones",
+  "format": "RealMap",
+  "description": "A world map indicating the different regional names given to tropical cyclones, such as Hurricanes (Atlantic/NE Pacific), Typhoons (NW Pacific), and Cyclones (Indian Ocean/SW Pacific), across various ocean basins.",
+  "keywords": [
+    "tropical cyclones",
+    "hurricanes",
+    "typhoons",
+    "cyclones",
+    "storm surge",
+    "regional names",
+    "world map"
+  ],
+  "mapQuery": "world map tropical cyclone regional names"
+}

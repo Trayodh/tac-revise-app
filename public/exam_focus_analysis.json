@@ -1,0 +1,542 @@
+{
+  "10406cd1-662d-4ce9-b23a-9481e22dedd9.pdf": {
+    "overall_difficulty": "Moderate to Tough. The exam has continued its shift towards the UPSC Civil Services (CSE) pattern, featuring a substantial increase in multi-statement questions, assertion-reason formats, and deep conceptual application rather than simple factual recall.",
+    "topic_analysis": {
+      "polity": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Panchayati Raj and Local Bodies",
+          "Fundamental Rights and DPSP",
+          "Constitutional and Non-Constitutional Bodies",
+          "Emergency Provisions",
+          "Judiciary"
+        ],
+        "trend_shift": "Shift from direct article-based matching to analytical questions evaluating the scope and limitations of constitutional provisions, especially concerning federalism and executive-judiciary relations."
+      },
+      "geography": {
+        "difficulty": "Tough",
+        "high_yield_areas": [
+          "Climatology and Atmospheric Circulation",
+          "Indian River Systems and Tributaries",
+          "Map-based questions of geopolitical hotspots",
+          "Ocean Currents and Temperature distribution",
+          "Geomorphic Processes"
+        ],
+        "trend_shift": "Increased reliance on precise map locations (especially international conflict zones) and complex physical geography concepts over general factual data of Indian states."
+      },
+      "history": {
+        "difficulty": "Tough",
+        "high_yield_areas": [
+          "Bhakti and Sufi movements",
+          "Mauryan and Gupta Administrative Terminology",
+          "Peasant and Tribal Uprisings",
+          "Constitutional developments during British Rule",
+          "Social-Reform Movements"
+        ],
+        "trend_shift": "Significant reduction in direct Modern History timeline questions; instead, there is a deep dive into Ancient/Medieval socio-economic terms, foreign travelers' accounts, and subaltern history."
+      },
+      "science": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Ray Optics and Lens Formulae",
+          "Chemical Reactions and Balancing",
+          "Cell Structure and Organelle functions",
+          "Human Physiology and Plant Hormones",
+          "Electricity and Magnetism"
+        ],
+        "trend_shift": "Strict adherence to Class 9 and 10 NCERT Exemplar problems, requiring analytical calculation in Physics and detailed biochemical understanding in Chemistry and Biology."
+      },
+      "current_affairs": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Bilateral and Multilateral Defence Exercises",
+          "National and International Awards",
+          "Government Welfare Schemes (eligibility criteria)",
+          "Key Summits and Environmental Protocols",
+          "Science and Technology advancements"
+        ],
+        "trend_shift": "Transition from single-liner factual questions to multi-statement questions checking deep details of government schemes, international treaties, and defense tech specifications."
+      },
+      "economics": {
+        "difficulty": "Moderate to Tough",
+        "high_yield_areas": [
+          "Monetary Policy Tools (RBI)",
+          "Inflation types and measurement",
+          "National Income Accounting",
+          "Balance of Payments and Trade",
+          "Government Budgeting concepts"
+        ],
+        "trend_shift": "Focus has shifted towards core macroeconomic concepts and application-oriented questions on inflation management and fiscal policy, moving away from simple banking definitions."
+      }
+    }
+  },
+  "6b31adce-86ac-49cb-816c-6f6efceca2e5.pdf": {
+    "overall_difficulty": "Moderate to Tough",
+    "topic_analysis": {
+      "polity": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Fundamental Rights and DPSPs",
+          "Panchayati Raj Institutions",
+          "Judiciary (Supreme Court & High Courts)",
+          "Constitutional and Non-Constitutional Bodies",
+          "Emergency Provisions"
+        ],
+        "trend_shift": "Shift from straightforward factual articles to conceptual, statement-based questions demanding deep knowledge of Supreme Court judgments and administrative nuances."
+      },
+      "geography": {
+        "difficulty": "Moderate to Difficult",
+        "high_yield_areas": [
+          "Indian River Systems and Tributaries",
+          "Climatology (Monsoon patterns and Jet streams)",
+          "Oceanography (Ocean Currents and Relief features)",
+          "Mapping of National Parks and Biosphere Reserves",
+          "Soil profiles and agricultural zones of India"
+        ],
+        "trend_shift": "Fewer direct factual questions; more integration of physical geography concepts with spatial/map-based application questions."
+      },
+      "history": {
+        "difficulty": "Tough",
+        "high_yield_areas": [
+          "Modern India (Socio-religious reform movements, tribal uprisings, and constitutional developments)",
+          "Medieval India (Bhakti-Sufi traditions, Vijayanagara Empire administration)",
+          "Ancient India (Indus Valley Civilization sites, Maurya and Gupta art/architecture)"
+        ],
+        "trend_shift": "Heavy reliance on the New NCERT 'Themes in Indian History' textbooks, featuring obscure administrative terms, regional dynasties, and extract-based source questions."
+      },
+      "science": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Physics: Optics, Electricity, Sound, and Light",
+          "Chemistry: Chemical reactions, Periodic classification, pH, and Carbon compounds",
+          "Biology: Cell biology, Human physiology, Plant hormones, and Diseases"
+        ],
+        "trend_shift": "Strict alignment with Class 9 and 10 NCERT textbooks, but with an increased frequency of conceptual numericals in physics and reaction-based questions in chemistry."
+      },
+      "current_affairs": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Joint Military Exercises and Defence Acquisitions",
+          "Bilateral and Multilateral Summits (G20, BRICS, SCO)",
+          "Government Schemes (specifically targeting social welfare and tech infrastructure)",
+          "Major Sports Awards and Championships",
+          "Space and Technology missions (ISRO, NASA projects)"
+        ],
+        "trend_shift": "Transitioning from simple one-liner current affairs to multi-statement analytical questions testing the background and objectives of schemes and treaties."
+      },
+      "economics": {
+        "difficulty": "Moderate to Tough",
+        "high_yield_areas": [
+          "Macroeconomics (National Income, Inflation, and WPI/CPI indices)",
+          "Monetary Policy tools of RBI",
+          "Five-Year Plans and NITI Aayog initiatives",
+          "Balance of Payments (BoP) and exchange rate systems"
+        ],
+        "trend_shift": "Increased focus on practical application of macroeconomic indicators and banking sector reforms over dry definitions."
+      }
+    }
+  },
+  "adcb9734-b6f9-4b4c-9507-916cc105c31a.pdf": {
+    "overall_difficulty": "Moderate to Tough. The paper continues the trend of aligning closer to the Civil Services (CSE) pattern, with a significant decrease in simple, direct one-liners and a rise in analytical, multi-statement questions across all core subjects.",
+    "topic_analysis": {
+      "polity": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Fundamental Rights and DPSPs",
+          "Parliamentary Committees and Procedures",
+          "Emergency Provisions",
+          "Local Self-Government (Panchayats and Municipalities)",
+          "Constitutional and Non-Constitutional Bodies"
+        ],
+        "trend_shift": "Shift towards assertion-reasoning type questions and multi-statement evaluations requiring in-depth knowledge of Supreme Court judgments and constitutional conventions."
+      },
+      "geography": {
+        "difficulty": "Moderate to Tough",
+        "high_yield_areas": [
+          "Indian River Systems and Tributaries",
+          "Geomorphology (Landforms and Earth's interior)",
+          "Oceanography (Ocean Currents and Relief features)",
+          "Agricultural crop distributions and Soil profiles",
+          "Climatology (Wind systems and Jet streams)"
+        ],
+        "trend_shift": "Strong emphasis on conceptual physical geography from Class 11 NCERT (Fundamentals of Physical Geography) and highly specific map-based location queries."
+      },
+      "history": {
+        "difficulty": "Tough",
+        "high_yield_areas": [
+          "Ancient India (Harappan Civilization and Buddhism/Jainism)",
+          "Medieval Administration and Terminologies (Mughal & Vijayanagara)",
+          "Modern India (Socio-Religious Movements and Peasant/Tribal Uprisings)",
+          "The Indian National Movement (1915-1947 phases)"
+        ],
+        "trend_shift": "Detailed focus on terminologies directly sourced from Class 11 and 12 New NCERTs (Themes in Indian History) instead of conventional standard reference books."
+      },
+      "science": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Physics (Optics, Electricity, and Wave Motion)",
+          "Chemistry (Carbon & its compounds, Acids, Bases & Salts, Chemical Reactions)",
+          "Biology (Cell biology, Plant & Human Physiology, Diseases & Pathogens)"
+        ],
+        "trend_shift": "While still firmly rooted in Class 9 and 10 NCERTs, there is a visible shift towards numerical problems in Physics and application-based questions in Chemistry."
+      },
+      "economics": {
+        "difficulty": "Moderate to Tough",
+        "high_yield_areas": [
+          "Monetary Policy Instruments (Repo rate, CRR, SLR)",
+          "National Income Accounting (GDP, GNP, NNP concepts)",
+          "Inflation and Unemployment types",
+          "Five Year Plans and Economic Reforms"
+        ],
+        "trend_shift": "Fewer questions on static GK and more conceptual questions requiring students to understand the impact of monetary changes on the real economy."
+      },
+      "current_affairs": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Joint Military Exercises and Defense Acquisitions",
+          "International Summits and Bilateral Agreements",
+          "National Schemes and Portals",
+          "Sports events, Science & Technology developments (Space missions)"
+        ],
+        "trend_shift": "Questions are no longer just factual 'who and where'; they now test the background, participating nations, and underlying objectives of defense exercises and government initiatives."
+      }
+    }
+  },
+  "CDS-1-English-Question-Paper-12-April-2026-exam-1.pdf": {
+    "overall_difficulty": "Moderate to Tough. The paper continues the UPSC trend of moving away from straightforward factual queries to deeper, conceptual, and multi-statement questions reminiscent of the Civil Services Examination (CSE).",
+    "topic_analysis": {
+      "polity": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Fundamental Rights and DPSPs",
+          "Panchayati Raj Institutions",
+          "Parliamentary Committees and Legislative Procedures",
+          "Constitutional Amendments"
+        ],
+        "trend_shift": "Fewer direct article-matching questions; increased focus on the conceptual understanding of federalism, constitutional morality, and judicial review."
+      },
+      "geography": {
+        "difficulty": "Tough",
+        "high_yield_areas": [
+          "Indian River Systems and Tributaries",
+          "Geomorphology and Landforms",
+          "Ocean Currents and Climatology",
+          "Map-based locations of geopolitical conflict zones"
+        ],
+        "trend_shift": "Significant rise in micro-mapping questions and complex 'only one pair/only two pairs' matching formats for Indian and world geography."
+      },
+      "history": {
+        "difficulty": "Tough",
+        "high_yield_areas": [
+          "Medieval Administrative and Revenue Terminology",
+          "Bhakti and Sufi movements",
+          "Modern Indian National Movement chronological sequences",
+          "Peasant and Tribal uprisings"
+        ],
+        "trend_shift": "A marked shift towards deep Medieval and Ancient social history, with a decline in predictable Modern History trivia and governor-general chronologies."
+      },
+      "science": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Optics, Electricity, and Waves (Physics)",
+          "Chemical Reactions and Acid-Base chemistry",
+          "Cell Biology and Human Physiology",
+          "Plant Kingdom classifications"
+        ],
+        "trend_shift": "Strict alignment with Class 9 and 10 NCERT Exemplar problems, requiring analytical application of scientific principles rather than rote formula memorization."
+      },
+      "current_affairs": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Bilateral Military Exercises and Defense Acquisitions",
+          "Government welfare schemes and portals",
+          "International Summits and environmental agreements",
+          "Major sports and national awards"
+        ],
+        "trend_shift": "Transition from simple single-sentence GK questions to multi-statement inquiries testing the background and objectives of government policies."
+      },
+      "economics": {
+        "difficulty": "Moderate to Tough",
+        "high_yield_areas": [
+          "Monetary Policy and RBI quantitative instruments",
+          "Inflation types and measurements (CPI/WPI)",
+          "Balance of Payments (BOP) and Exchange Rates",
+          "National Income Accounting concepts"
+        ],
+        "trend_shift": "Increased focus on applied macroeconomics and fiscal terminologies over dry static theory and historical economic dates."
+      }
+    }
+  },
+  "CDS-1-GS-Question-Paper-12-April-2026-exam-1.pdf": {
+    "overall_difficulty": "Moderate to Tough",
+    "topic_analysis": {
+      "polity": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Fundamental Rights and DPSPs",
+          "Parliamentary Committees and Procedures",
+          "Constitutional and Non-Constitutional Bodies",
+          "Emergency Provisions",
+          "Panchayati Raj Institutions"
+        ],
+        "trend_shift": "Significant shift towards multi-statement questions (e.g., 'Which of the statements given above is/are correct?') resembling the Civil Services Examination (CSE) pattern, moving away from direct, single-clause factual questions."
+      },
+      "geography": {
+        "difficulty": "Tough",
+        "high_yield_areas": [
+          "Geomorphology and Ocean Currents",
+          "Indian River Systems and Tributaries",
+          "Agricultural crop zones in India",
+          "Map-based locations of geopolitical significance",
+          "Atmospheric circulation and pressure belts"
+        ],
+        "trend_shift": "Increased weightage on micro-mapping of geopolitical conflict zones and international trade routes, combined with highly conceptual physical geography questions instead of direct factual locations."
+      },
+      "history": {
+        "difficulty": "Tough",
+        "high_yield_areas": [
+          "Socio-Religious Reform Movements",
+          "Medieval Administrative and Revenue terms",
+          "Buddhism and Jainism literature/sects",
+          "Chronology of Indian National Movement events (1915-1947)",
+          "Art and Temple Architecture"
+        ],
+        "trend_shift": "Medieval history questions have become highly specific, focusing on administrative terminology and foreign traveler accounts. Chronological arrangement questions are increasingly complex, involving lesser-known local peasant and tribal uprisings."
+      },
+      "science": {
+        "difficulty": "Moderate to Tough",
+        "high_yield_areas": [
+          "Optics (Refraction, Lenses and Mirrors)",
+          "Electricity and Magnetism applications",
+          "Carbon and its Compounds, Chemical Reactions",
+          "Cell Biology and Genetics",
+          "Human Physiology and Plant Hormones"
+        ],
+        "trend_shift": "Transition from simple Class 9 & 10 factual recall to conceptual application-based questions, including numerical problems in physics (optics/electricity) and biochemical pathway details in biology."
+      },
+      "current_affairs": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Bilateral Defense Exercises and Military Acquisitions",
+          "Major Government Schemes (especially rural development and healthcare)",
+          "International Summits and Declarations",
+          "Science & Technology breakthroughs (Space missions, AI, defense tech)",
+          "Sports and high-profile national awards"
+        ],
+        "trend_shift": "Fewer simple one-liner GK questions. Current affairs are increasingly integrated with static subjects (e.g., a current environmental protocol asked with its core geographic/scientific background)."
+      },
+      "economics": {
+        "difficulty": "Moderate to Tough",
+        "high_yield_areas": [
+          "Monetary Policy Tools (RBI, Repo Rate, SLR)",
+          "Inflation types and impacts",
+          "Balance of Payments (BOP) and Current Account Deficit",
+          "National Income Accounting (GDP, GVA)",
+          "Five-Year Plans and NITI Aayog initiatives"
+        ],
+        "trend_shift": "Greater focus on macroeconomics concepts and applied banking terms, testing candidates on how policy changes impact liquidity and inflation, rather than mere definition memorization."
+      }
+    }
+  },
+  "CDS-1-Maths-Question-Paper-12-April-2026-exam-1.pdf": {
+    "overall_difficulty": "Moderate to Difficult",
+    "explanation": "The paper continues the UPSC trend of shifting away from simple, direct factual questions towards Civil Services (CSE)-style conceptual evaluation. The introduction of 'How many of the statements given above are correct?' style options has reduced the effectiveness of traditional elimination techniques, demanding precise and comprehensive knowledge across all sections.",
+    "topic_analysis": {
+      "polity": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Panchayati Raj Institutions",
+          "Emergency Provisions",
+          "Fundamental Rights and DPSPs",
+          "Judicial Review and Writs"
+        ],
+        "trend_shift": "More focus on the philosophical underpinnings of the Constitution and landmark Supreme Court judgments rather than just article numbers."
+      },
+      "geography": {
+        "difficulty": "Difficult",
+        "high_yield_areas": [
+          "Geomorphology and Plate Tectonics",
+          "Indian River Systems and Tributaries",
+          "Climatology (Jet Streams and Monsoons)",
+          "Map-based questions on global geopolitical conflict zones"
+        ],
+        "trend_shift": "A stark transition from factual Indian geography to analytical physical geography and highly detailed map tracking of global shipping straits and water bodies."
+      },
+      "history": {
+        "difficulty": "Difficult",
+        "high_yield_areas": [
+          "Ancient administrative and land revenue terms",
+          "Bhakti and Sufi saints and their literary works",
+          "Social-reform movements in the 19th century",
+          "Chronology of the Indian National Movement"
+        ],
+        "trend_shift": "Decreased emphasis on standard Modern History chronologies in favor of highly specific terms from NCERT Class 11/12 Themes in Indian History (Ancient and Medieval)."
+      },
+      "science": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Ray Optics and Electricity (Physics)",
+          "Acid-Base reactions and Periodic classification (Chemistry)",
+          "Cell organelles and Plant/Human Physiology (Biology)",
+          "Metabolism and disease prevention"
+        ],
+        "trend_shift": "Remains highly aligned with Class 9 and 10 NCERT textbooks, but questions now require applying principles to real-life applications rather than direct textbook rote reproduction."
+      },
+      "current_affairs": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Bilateral defense exercises and acquisitions",
+          "Major government welfare schemes and their eligibility criteria",
+          "International summits (G20, SCO, BRICS)",
+          "Sports awards and scientific achievements"
+        ],
+        "trend_shift": "A move towards multi-statement questions testing the deep background, budget allocations, and nodal ministries of schemes rather than basic single-line facts."
+      },
+      "economics": {
+        "difficulty": "Moderate to Difficult",
+        "high_yield_areas": [
+          "Monetary Policy transmission (Repo rate, CRR, SLR)",
+          "Inflation types and indexes (WPI vs CPI)",
+          "Balance of Payments (Current and Capital accounts)",
+          "Sustainable Development Goals"
+        ],
+        "trend_shift": "Increased weightage on macroeconomics and the analytical relationship between interest rates, exchange rates, and domestic inflation."
+      }
+    }
+  },
+  "CDS-2-2025-MATHS-Paper-14.09.2025.pdf": {
+    "overall_difficulty": "Moderate to Tough. The paper followed the recent UPSC pattern of prioritizing conceptual clarity over rote memorization. It featured a high proportion of multi-statement questions, matching lists, and assertion-reasoning types, particularly in Geography, History, and Science, demanding a thorough command of standard NCERT textbooks and deep analytical thinking.",
+    "topic_analysis": {
+      "polity": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Panchayati Raj and Local Bodies",
+          "Fundamental Rights and DPSPs",
+          "Writs and Judicial Review",
+          "Emergency Provisions",
+          "Constitutional and Non-Constitutional Bodies"
+        ],
+        "trend_shift": "Shift towards multi-statement questions testing the philosophical foundations of the Constitution and federal relations, rather than simple article memorization."
+      },
+      "geography": {
+        "difficulty": "Tough",
+        "high_yield_areas": [
+          "Oceanic Salinity and Ocean Currents",
+          "Atmospheric Circulation and Jet Streams",
+          "Major River Basins and Tributaries",
+          "Map-based Identification (Middle East and Red Sea regions)",
+          "Soil Classification and Associated Crops"
+        ],
+        "trend_shift": "Heavy emphasis on application-oriented physical geography concepts and highly detailed spatial mapping questions."
+      },
+      "history": {
+        "difficulty": "Tough",
+        "high_yield_areas": [
+          "Socio-Religious Reform Movements",
+          "Medieval Administrative and Revenue Terminology",
+          "Ancient Indian Temple Architecture and Dynasties",
+          "Chronology of key Modern Freedom Struggle events",
+          "Peasant and Tribal Revolts"
+        ],
+        "trend_shift": "Increasing focus on Ancient and Medieval socio-economic terms, moving beyond conventional Modern History topics."
+      },
+      "science": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Optics and Wave Optics (Refraction, Dispersion)",
+          "Chemical Reactions and Metallurgy",
+          "Electricity and Electromagnetic Induction",
+          "Cellular Biology and Genetics",
+          "Human Physiology and Pathogens"
+        ],
+        "trend_shift": "Strict alignment with Class 9 and 10 NCERT exemplars but with elevated complexity, testing the practical, day-to-day applications of physical laws."
+      },
+      "current_affairs": {
+        "difficulty": "Moderate to Tough",
+        "high_yield_areas": [
+          "Defense Acquisitions and Joint Military Exercises",
+          "International Summits and Bilateral Treaties",
+          "Key Flagship Welfare Schemes and Eligibility Criteria",
+          "Space Exploration Missions (ISRO and NASA)",
+          "Sports and Eminent Personalities in News"
+        ],
+        "trend_shift": "Fewer direct factual one-liners; the exam now demands a comprehensive understanding of the objectives, implementing ministries, and target groups of government programs."
+      },
+      "economics": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Monetary Policy Instruments (Repo Rate, Reverse Repo)",
+          "Inflation Types and Control Mechanisms",
+          "National Income Accounting metrics (GDP, GNI, Real vs Nominal)",
+          "Balance of Payments (BOP) and Trade Balance",
+          "Key terms from the latest Union Budget and Economic Survey"
+        ],
+        "trend_shift": "Strong shift towards conceptual macroeconomic indicators and their real-time impact on the Indian market."
+      }
+    }
+  },
+  "CDS-20252-GS-paper_14-Sept.-2025.pdf": {
+    "overall_difficulty": "Moderate to Tough. Following recent UPSC trends, the GS paper continues to align closer to Civil Services Examination standards. The introduction of 'Only one, Only two' style options, deep conceptual mapping in Geography, and tricky, application-based questions in Polity made it challenging for average aspirants.",
+    "topic_analysis": {
+      "polity": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Constitutional Amendments",
+          "Panchayati Raj Institutions & Local Governance",
+          "Fundamental Rights & Directive Principles (DPSPs)",
+          "Judiciary and Parliamentary committees"
+        ],
+        "trend_shift": "Shift from straightforward article-matching to highly analytical questions assessing the philosophical and conceptual underpinnings of the Constitution."
+      },
+      "geography": {
+        "difficulty": "Tough",
+        "high_yield_areas": [
+          "Climatology (Wind systems & Jet streams)",
+          "Indian River Systems and Tributaries",
+          "Geopolitical map-based locations in the news",
+          "Mineral and resource distribution in India"
+        ],
+        "trend_shift": "Highly specific map-based questions focusing on global conflict zones and strategic choke points, alongside a decline in direct factual geology questions."
+      },
+      "history": {
+        "difficulty": "Tough",
+        "high_yield_areas": [
+          "Ancient & Medieval administrative terminology",
+          "Bhakti-Sufi saints and regional literature",
+          "Peasant and Tribal movements in Modern India",
+          "Constitutional developments during British Rule"
+        ],
+        "trend_shift": "A noticeable shift towards obscure ancient and medieval terminologies and socio-cultural movements, while traditional modern history coverage was highly analytical."
+      },
+      "science": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Optics, Electricity & Magnetism (Physics)",
+          "Chemical reactions, Periodic Table, and Carbon compounds (Chemistry)",
+          "Cell structure, Plant/Human physiology, and Disease vectors (Biology)"
+        ],
+        "trend_shift": "Transition from direct rote-learning from NCERTs to application-based conceptual questions and minor numerical problems in Physics."
+      },
+      "current_affairs": {
+        "difficulty": "Moderate",
+        "high_yield_areas": [
+          "Bilateral defense exercises and acquisitions",
+          "International summits (G20, SCO, BRICS, COP)",
+          "Flagship government schemes and target beneficiaries",
+          "Major developments in Space Exploration and AI"
+        ],
+        "trend_shift": "Fewer single-line sports and award questions; instead, UPSC favored multi-statement questions evaluating the deep policy impacts of schemes and international treaties."
+      },
+      "economics": {
+        "difficulty": "Moderate to Tough",
+        "high_yield_areas": [
+          "Monetary Policy tools (RBI, Repo, Inflation targeting)",
+          "National Income accounting (GDP, GVA, NDP)",
+          "Balance of Payments & Foreign Exchange reserves",
+          "Fiscal policies and budget deficits"
+        ],
+        "trend_shift": "Strong focus on contemporary macroeconomic indicators and financial markets over basic static economic definitions."
+      }
+    }
+  }
+}

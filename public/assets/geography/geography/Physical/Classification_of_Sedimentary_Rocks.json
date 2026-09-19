@@ -1,0 +1,23 @@
+{
+  "title": "Classification of Sedimentary Rocks",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Rocks",
+  "topic": "Sedimentary Rocks",
+  "format": "Mermaid",
+  "description": "A classification diagram for sedimentary rocks, categorizing them by their origin: Clastic (Detrital), Organic, and Chemical, with examples for each type.",
+  "keywords": [
+    "sedimentary rocks",
+    "secondary rocks",
+    "clastic",
+    "detrital",
+    "organic",
+    "chemical",
+    "sandstone",
+    "shale",
+    "coal",
+    "limestone",
+    "rock salt"
+  ],
+  "mermaidCode": "graph TD\nA[Sedimentary Rocks] --> B[Clastic (Detrital)]\nA --> C[Organic]\nA --> D[Chemical]\nB -- From pre-existing rock fragments --> B1[Classified by grain size]\nB1 --> B1a[e.g., Sandstone, Shale, Conglomerate]\nC -- From plant or animal matter --> C1[e.g., Coal, Limestone]\nD -- Precipitated from solution --> D1[e.g., Rock Salt, Gypsum, Chert]"
+}

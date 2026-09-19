@@ -1,0 +1,21 @@
+{
+  "title": "Challenges in India's Transport Infrastructure Development",
+  "subject": "Geography",
+  "category": "Indian",
+  "chapter": "Transport and Communication",
+  "topic": "Infrastructure Challenges",
+  "format": "Mermaid",
+  "description": "A mindmap illustrating the major challenges faced in the development of highways and waterways in India, including land acquisition, environmental concerns, funding, and seasonal variability.",
+  "keywords": [
+    "Infrastructure challenges",
+    "land acquisition",
+    "environmental concerns",
+    "funding gaps",
+    "seasonal variability",
+    "highway development",
+    "waterway development",
+    "Bharatmala",
+    "Brahmaputra dredging"
+  ],
+  "mermaidCode": "mindmap\nroot((Challenges in Transport Infrastructure Development))\n  Land Acquisition\n    Urban sprawl\n    Agricultural pressures\n    Project delays (e.g., Delhi-Mumbai Expressway)\n  Environmental Concerns\n    Dredging (e.g., Brahmaputra basin)\n    Habitat disruption objections\n  Funding Gaps\n    Central government earmarks (e.g., Bharatmala)\n    Uneven state contributions\n    Affects SH upgrades\n  Seasonal Variability\n    Monsoon-induced flooding\n    Limits year-round navigation on NWs\n    Necessitates flood-management infrastructure"
+}

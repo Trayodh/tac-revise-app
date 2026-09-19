@@ -1,0 +1,18 @@
+{
+  "title": "Mountain Classification Tree",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Mountains of the World",
+  "topic": "Mountain Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nMountains --> Fold[Fold Mountains]\nMountains --> Block[Block Mountains]\nMountains --> Volcanic[Volcanic (Accumulation) Mountains]\nMountains --> Residual[Residual (Dissected) Mountains]\nFold --> Young[Young Fold Mountains]\nFold --> Old[Old Fold Mountains]",
+  "mapQuery": "",
+  "description": "Classification diagram of the four principal mountain types and the subdivision of fold mountains into young and old categories.",
+  "keywords": [
+    "mountain classification",
+    "fold mountains",
+    "block mountains",
+    "volcanic mountains",
+    "residual mountains"
+  ]
+}

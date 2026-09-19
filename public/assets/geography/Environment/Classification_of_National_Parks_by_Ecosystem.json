@@ -1,0 +1,18 @@
+{
+  "title": "Classification of National Parks by Ecosystem",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Classification of National Parks",
+  "topic": "Ecosystem Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    NP[National Parks] --> Wildlife[Wildlife National Parks]\n    NP --> Marine[Marine National Parks]\n    NP --> Desert[Desert National Parks]\n    NP --> Mountain[Mountain National Parks]",
+  "mapQuery": "",
+  "description": "Classification tree showing the four major ecosystem categories of Indian National Parks.",
+  "keywords": [
+    "national parks",
+    "wildlife",
+    "marine",
+    "desert",
+    "mountain"
+  ]
+}

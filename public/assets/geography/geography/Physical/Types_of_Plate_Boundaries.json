@@ -1,0 +1,23 @@
+{
+  "title": "Types of Plate Boundaries",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Plate Tectonics",
+  "topic": "Plate Boundaries",
+  "format": "Mermaid",
+  "description": "This flowchart categorizes the three main types of plate boundaries (Divergent, Convergent, Transform), detailing their movements, geological features, and examples.",
+  "keywords": [
+    "plate boundaries",
+    "divergent boundary",
+    "convergent boundary",
+    "transform boundary",
+    "mid-ocean ridge",
+    "rift valley",
+    "subduction zone",
+    "oceanic trench",
+    "volcanic island arc",
+    "mountain belt",
+    "San Andreas Fault"
+  ],
+  "mermaidCode": "graph TD\nA[Plate Boundaries] --> B[Divergent (Constructive)]\nB --> B1(Plates move apart)\nB --> B2(New crust created)\nB --> B3(Mid-ocean ridges, rift valleys)\nB3 --> B4(East African Rift)\nA --> C[Convergent (Destructive)]\nC --> C1[Oceanic-Oceanic]\nC1 --> C1a(Subduction)\nC1 --> C1b(Trenches & volcanic island arcs)\nC1b --> C1c(Mariana Trench, Japanese Islands)\nC --> C2[Oceanic-Continental]\nC2 --> C2a(Subduction)\nC2 --> C2b(Deep trenches & volcanic mountain belts)\nC2b --> C2c(Andes, Cascade Range)\nC --> C3[Continental-Continental]\nC3 --> C3a(Collision)\nC3 --> C3b(High mountain ranges without volcanism)\nC3b --> C3c(Himalayas, Alps)\nA --> D[Transform (Conservative)]\nD --> D1(Horizontal sliding)\nD --> D2(No crust creation or destruction)\nD --> D3(San Andreas Fault)"
+}

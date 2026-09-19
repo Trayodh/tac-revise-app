@@ -1,0 +1,26 @@
+{
+  "title": "Indo-Pacific Power Dynamics: Great Power Competition",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "Geopolitical Flashpoints & Indo-Pacific",
+  "topic": "Indo-Pacific Power Dynamics",
+  "format": "Mermaid",
+  "description": "A classification diagram illustrating the layered analysis of military, economic, and ideological dimensions of the 'Great Power Competition' in the Indo-Pacific, focusing on the rivalry between the United States and China.",
+  "keywords": [
+    "Indo-Pacific power dynamics",
+    "Great Power Competition",
+    "Military dimension",
+    "Economic dimension",
+    "Ideological dimension",
+    "US force posture",
+    "China PLAN modernization",
+    "A2/AD systems",
+    "Quad exercises",
+    "Belt and Road Initiative (BRI)",
+    "Debt-trap diplomacy",
+    "Trade corridors",
+    "CPEC",
+    "IMT Trilateral Highway"
+  ],
+  "mermaidCode": "graph TD\nA[Indo-Pacific Power Dynamics: Great Power Competition] --> B[Military Dimension]\nB --> B1[Force Posture (US Carrier Groups, China Nuclear Carriers)]\nB --> B2[Force Modernisation (PLAN 'blue-water', DF-21D)]\nB --> B3[Alliances & Partnerships (Quad, Exercise Malabar)]\nA --> C[Economic Dimension]\nC --> C1[Infrastructure Diplomacy (China's BRI, Gwadar, Hambantota)]\nC --> C2[Trade Corridors (IMT Trilateral Highway, CPEC)]\nA --> D[Ideological Dimension (Implicit in rivalry)]"
+}

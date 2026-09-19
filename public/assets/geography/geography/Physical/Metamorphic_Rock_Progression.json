@@ -1,0 +1,25 @@
+{
+  "title": "Metamorphic Rock Progression",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Earth's Interior and Rocks",
+  "topic": "Metamorphism",
+  "format": "Mermaid",
+  "description": "This flowchart shows the typical metamorphic progression of common sedimentary and igneous rocks into their respective metamorphic forms.",
+  "keywords": [
+    "metamorphic rocks",
+    "rock cycle",
+    "shale",
+    "slate",
+    "phyllite",
+    "schist",
+    "gneiss",
+    "limestone",
+    "marble",
+    "sandstone",
+    "quartzite",
+    "basalt",
+    "amphibolite"
+  ],
+  "mermaidCode": "graph LR\nShale --> Slate\nSlate --> Phyllite\nPhyllite --> Schist\nSchist --> Gneiss\nLimestone --> Marble\nSandstone --> Quartzite\nBasalt --> Amphibolite"
+}

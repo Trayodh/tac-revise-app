@@ -1,0 +1,840 @@
+{
+  "geography": {
+    "Physical & World Geography": {
+      "The Universe & Solar System": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Earth Structure & Atmosphere": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Climatology: Climatic Zones & Clouds": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Geomorphology: Rocks, Plate Tectonics & Volcanism": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "World Geography: Mountains, Forests & Rivers": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Straits, Canals, Deserts & Seas": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Indian Geography": {
+      "Indian Geography (Rivers, Passes & Soils)": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Forests, Trees & Wetlands of India": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Mineral Resources & Types of Farming": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Transport Routes: Highways & Waterways": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "National Parks of India (Map Guide)": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Borders, Capitals & Mapping": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Industries & Geopolitics": {
+      "Major Industries & Industrial Corridors of India": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Geopolitical Flashpoints & Indo-Pacific": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    }
+  },
+  "biology": {
+    "Cell Biology & Genetics": {
+      "Cell Structure & Cell Division": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Human Physiology": {
+      "Vital Human Systems & Organs": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Health, Diseases & Nutrition": {
+      "Human Diseases & Pathogens": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Immunity & Vaccines": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Plant & Animal Kingdoms": {
+      "Plant Kingdom Classification": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Animal Kingdom Classification": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Plant Physiology & Reproduction": {
+      "Plant Reproduction & Hormones": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Ecology & Ecosystems": {
+      "Ecology Basics & Pyramids": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    }
+  },
+  "physics": {
+    "Optics & Light": {
+      "Reflection, Refraction & Lenses": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Mechanics & Motion": {
+      "Newton's Laws of Motion": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Energy & Gravitation": {
+      "Work, Power, Energy & Gravitation": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Waves & Acoustics": {
+      "Sound Waves & Acoustics": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Electromagnetic Waves & Spectrum": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Heat & Thermodynamics": {
+      "Thermodynamics & Heat Transfer": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Electricity & Magnetism": {
+      "Electricity, Circuits & Magnetism": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Modern Physics & Units": {
+      "Nuclear Physics & Radioactivity": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "SI Units & Everyday Physics": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    }
+  },
+  "chemistry": {
+    "Acids, Bases & Salts": {
+      "Acids, Bases & pH Indicators": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Chemical Bonding": {
+      "Chemical Bonding & Periodic Table": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Metals & Metallurgy": {
+      "Metals, Ores, Alloys & Metallurgy": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Reactivity Series & Displacement": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Carbon Compounds & Numericals": {
+      "Carbon & its Compounds": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Mole Concept & Concentration Terms": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Everyday & Environmental Chemistry": {
+      "Everyday Chemistry, Fertilisers & Fuels": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Environmental Chemistry & Pollution": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    }
+  },
+  "polity": {
+    "Constitutional Framework": {
+      "Preamble & Sources": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Schedules of the Constitution": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Fundamental Rights (Art 12-35)": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "DPSP & Fundamental Duties (Art 36-51A)": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Citizenship (Art 5-11)": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Union Government": {
+      "The President of India (Art 52-62)": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Parliament of India (Art 79-122)": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Executives: PM, CM & Governor": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Integrated Judiciary: SC & HC": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Local Self-Govt & Panchayati Raj": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Advanced Polity Structures & Bodies": {
+      "Constitutional Amendments, Parts & Schedules": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "High-Yield Special Articles Cheat Sheet": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Elections, Appointments & Terms of Office": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Constitutional & Non-Constitutional Bodies": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Emergency Provisions": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Federal Structure & Election Law": {
+      "Federal Structure & Centre-State Relations": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Representation of People Act & Election Commission": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    }
+  },
+  "history": {
+    "1. Historiography & Historical Foundations": {
+      "What is History?": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Sources of Indian History": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Dating Systems": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "2. Prehistoric India": {
+      "Stone Age": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Chalcolithic Age": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Rock Art": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "3. Ancient India": {
+      "Indus Valley Civilization": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Vedic Age": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Mahajanapadas": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Magadha Expansion": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Buddhism & Jainism": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Mauryan Period": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Post-Mauryan India": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Gupta Period": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "South Indian Kingdoms": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Ancient Indian Culture": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "4. Medieval India": {
+      "Early Medieval India": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Delhi Sultanate": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Vijayanagara Empire": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Bahmani Kingdom & Deccan Sultanates": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Mughal Empire": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Marathas": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Bhakti Movement": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Sufi Movement": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Sikh History": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "5. Modern India (Highest Priority)": {
+      "European Arrival": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "British Expansion": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Economic Impact of British Rule": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Socio-Religious Reform Movements": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Revolt of 1857": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Governor-Generals & Viceroys": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Constitutional Development": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Freedom Movement": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Post-Independence Consolidation": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "6. World History": {
+      "Revolutions": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "World War I": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Interwar Period": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "World War II": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Cold War": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "International Institutions": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "7. Art, Culture & Heritage": {
+      "Architecture": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Paintings": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Dance & Music": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Literature": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Religion & Festivals": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Heritage Sites": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    }
+  },
+  "mathematics": {
+    "Trigonometry": {
+      "Trigonometric Identities & Values": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Inverse Trigonometric Functions": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Algebra & Complex Numbers": {
+      "Quadratic Equations": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Complex Numbers": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Coordinate Geometry (2D & 3D)": {
+      "Straight Lines": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Statistics & Probability": {
+      "Measures of Central Tendency": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Data Interpretation: Tables, Bar & Pie Charts": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Calculus": {
+      "Limits & Continuity": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Differentiation Rules": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Standard Integration Methods": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Algebra & Matrices": {
+      "Matrices and Determinants": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Probability & Statistics": {
+      "Probability Theory & Bayes Theorem": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Geometry": {
+      "Lines, Angles & Triangles": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Circles & Polygons": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Mensuration": {
+      "2D Figures: Area & Perimeter": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "3D Solids: Surface Area & Volume": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Arithmetic": {
+      "Percentages, Profit & Loss": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Ratios, Proportions & Averages": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Time, Speed, Distance & Work": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    },
+    "Numerical Aptitude": {
+      "Time, Speed & Distance Formulas": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      },
+      "Ratios, Proportions & Percentages": {
+        "sources": [
+          "Syllabus Bootstrap"
+        ],
+        "consolidated_content": "Concept to be researched from scratch."
+      }
+    }
+  }
+}

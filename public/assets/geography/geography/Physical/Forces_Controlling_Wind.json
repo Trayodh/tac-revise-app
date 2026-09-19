@@ -1,0 +1,17 @@
+{
+  "title": "Forces Controlling Wind",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Wind Forces",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Wind Motion] --> B[Pressure Gradient Force]\n    A --> C[Coriolis Force]\n    A --> D[Friction]\n    B --> E[From High to Low Pressure]\n    C --> F[Deflection]\n    D --> G[Surface Resistance]",
+  "mapQuery": "",
+  "description": "Flowchart illustrating the three main forces influencing wind: pressure gradient, Coriolis, and friction.",
+  "keywords": [
+    "wind forces",
+    "pressure gradient",
+    "coriolis",
+    "friction"
+  ]
+}

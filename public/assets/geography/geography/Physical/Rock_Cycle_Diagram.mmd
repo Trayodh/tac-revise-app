@@ -1,0 +1,9 @@
+graph LR
+    IG[Igneous] -->|Weathering & Erosion| SED[Sedimentary]
+    SED -->|Lithification| MET[Metamorphic]
+    MET -->|Melting| IG
+    MET -->|Heat & Pressure| MET
+    SED -->|Compaction| MET
+    style IG fill:#fb9a99,stroke:#333,stroke-width:2px
+    style SED fill:#a6cee3,stroke:#333,stroke-width:2px
+    style MET fill:#b2df8a,stroke:#333,stroke-width:2px

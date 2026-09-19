@@ -1,0 +1,16 @@
+{
+  "title": "River Delta Formation",
+  "subject": "Geography",
+  "category": "Hydrology",
+  "chapter": "Rivers of the World",
+  "topic": "Deltas",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nA[River Flow] --> B[Sediment Load]\nB --> C[Deposition at Mouth]\nC --> D[Delta Shape]\nD --> E[Examples: Ganges‑Brahmaputra Delta]",
+  "mapQuery": "",
+  "description": "Shows the process of sediment deposition leading to delta formation.",
+  "keywords": [
+    "delta",
+    "sediment deposition",
+    "Ganges Brahmaputra"
+  ]
+}

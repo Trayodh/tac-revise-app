@@ -1,0 +1,16 @@
+{
+  "title": "Plate Tectonics Boundaries Map",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "Geomorphology",
+  "topic": "Plate Tectonics",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "world plate tectonics boundaries map SVG",
+  "description": "World map displaying major tectonic plates and their boundaries (divergent, convergent, transform).",
+  "keywords": [
+    "plate tectonics",
+    "tectonic plates",
+    "boundaries"
+  ]
+}

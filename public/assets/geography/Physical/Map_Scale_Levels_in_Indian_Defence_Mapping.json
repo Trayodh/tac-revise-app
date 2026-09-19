@@ -1,0 +1,17 @@
+{
+  "title": "Map Scale Levels in Indian Defence Mapping",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Scale and Representation",
+  "topic": "Scale Levels",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    Scale[Map Scale Levels] --> Tactical[1:50,000 – Tactical level]\n    Scale --> Operational[1:250,000 – Operational level]\n    Scale --> Strategic[1:1,000,000 – Strategic level]",
+  "mapQuery": "",
+  "description": "Chart showing the three common map scales used for defence purposes in India.",
+  "keywords": [
+    "map scale",
+    "1:50,000",
+    "1:250,000",
+    "1:1,000,000"
+  ]
+}

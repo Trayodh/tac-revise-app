@@ -1,0 +1,24 @@
+{
+  "title": "The Rock Cycle",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Rocks",
+  "topic": "Rock Formation",
+  "format": "Mermaid",
+  "description": "A flowchart illustrating the continuous transitions among the three main rock types (igneous, sedimentary, metamorphic) and the key geological processes involved, such as weathering, erosion, deposition, melting, and uplift.",
+  "keywords": [
+    "rock cycle",
+    "igneous rock",
+    "sedimentary rock",
+    "metamorphic rock",
+    "weathering",
+    "erosion",
+    "deposition",
+    "lithification",
+    "melting",
+    "crystallization",
+    "heat and pressure",
+    "uplift"
+  ],
+  "mermaidCode": "graph TD\nA[Magma] --> B(Crystallization)\nB --> C[Igneous Rock]\nC -- Weathering & Erosion --> D[Sediments]\nD -- Deposition & Lithification --> E[Sedimentary Rock]\nE -- Heat & Pressure --> F[Metamorphic Rock]\nC -- Heat & Pressure --> F\nF -- Melting --> A\nE -- Weathering & Erosion --> D\nF -- Weathering & Erosion --> D"
+}

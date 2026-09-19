@@ -1,0 +1,305 @@
+[
+  {
+    "diagram_id": "cell-structure.png",
+    "mapped_chapter_id": "biology-cell",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "Mitosis",
+      "Meiosis",
+      "DNA Replication",
+      "Cell Division",
+      "Two Diploid Cells",
+      "Daughter Nuclei II",
+      "Homologous Chromosomes"
+    ],
+    "reasoning": "The diagram visually depicts and describes the processes of Mitosis and Meiosis, which are fundamental concepts of cell division and structure, directly aligning with the 'Cell Biology & Genetics' chapter."
+  },
+  {
+    "diagram_id": "biology_cell_biology_genetics_cell_structure_cell_division_dna_and_rna.png",
+    "mapped_chapter_id": "biology-cell",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "Nucleobases of RNA",
+      "Nucleobases of DNA",
+      "RNA",
+      "DNA",
+      "Cytosine",
+      "Guanine",
+      "Adenine",
+      "Uracil",
+      "Thymine",
+      "ribose",
+      "deoxyribose",
+      "helix of sugar-phosphates",
+      "Base pair"
+    ],
+    "reasoning": "The diagram explicitly illustrates the structures of RNA and DNA, including their nucleobases (Cytosine, Guanine, Adenine, Uracil, Thymine), sugars (ribose, deoxyribose), and the double helix structure. These are core concepts within Cell Biology and Genetics, specifically related to the molecular basis of genetic information."
+  },
+  {
+    "diagram_id": "biology_cell_biology_genetics_cell_structure_cell_division_mitosis_meiosis_comparison.png",
+    "mapped_chapter_id": "biology-cell",
+    "confidence_score": 1,
+    "matched_indicators": [
+      "Cell Structure",
+      "Cell Division",
+      "Mitosis",
+      "Meiosis",
+      "DNA Replication",
+      "Diploid Cells",
+      "Daughter Nuclei II"
+    ],
+    "reasoning": "The diagram explicitly illustrates and defines Mitosis and Meiosis, which are core concepts of Cell Division, directly aligning with the key topics of the 'Cell Biology & Genetics' chapter."
+  },
+  {
+    "diagram_id": "biology_cell_biology_genetics_cell_structure_cell_division_plant_animal_cell.png",
+    "mapped_chapter_id": "biology-cell",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "Animal Cell",
+      "Plant Cell",
+      "Cell membrane",
+      "Vacuoles",
+      "Lysosome",
+      "Centrioles",
+      "Cell wall",
+      "Chloroplasts"
+    ],
+    "reasoning": "The diagram explicitly labels and illustrates the structures of both animal and plant cells, which directly aligns with the 'Cell Structure' key topic within the 'Cell Biology & Genetics' chapter."
+  },
+  {
+    "diagram_id": "biology_cell_biology_genetics_cell_structure_cell_division_prokaryotic_eukaryotic_cells.png",
+    "mapped_chapter_id": "biology-cell",
+    "confidence_score": 1,
+    "matched_indicators": [
+      "Prokaryotic Cells",
+      "Eukaryotic Cells",
+      "Nucleus",
+      "Mitochondria",
+      "Ribosome",
+      "Cytoplasm",
+      "Cell Wall",
+      "Nucleoid (DNA)",
+      "Plasmid",
+      "Flagella",
+      "Pili"
+    ],
+    "reasoning": "The diagram explicitly contrasts Prokaryotic and Eukaryotic cells, detailing their structures and organelles. This directly aligns with the 'Cell Structure' key topic within the 'Cell Biology & Genetics' chapter."
+  },
+  {
+    "diagram_id": "biology-ecology-basics.png",
+    "mapped_chapter_id": "biology-ecology",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "Nitrogen Cycle",
+      "nitrogen fixation",
+      "ammonification",
+      "nitrification",
+      "denitrification",
+      "nitrogen fixing bacteria",
+      "denitrification bacteria",
+      "Ecology Basics & Pyramids"
+    ],
+    "reasoning": "The diagram clearly illustrates the Nitrogen Cycle, which is a fundamental concept in ecology. The key topics listed for the 'Ecology & Ecosystems' chapter include 'Ecology Basics', making this the most appropriate classification."
+  },
+  {
+    "diagram_id": "biology_ecology_ecosystems_ecology_basics_pyramids_ecological_food_pyramid.png",
+    "mapped_chapter_id": "biology-ecology",
+    "confidence_score": 0.98,
+    "matched_indicators": [
+      "Ecological Food Pyramid",
+      "Producers",
+      "Primary Consumers",
+      "Secondary Consumers",
+      "Tertiary Consumers",
+      "Quaternary Consumers",
+      "Energy Transfer",
+      "Decrease in biomass"
+    ],
+    "reasoning": "The diagram clearly illustrates an ecological food pyramid, depicting trophic levels from producers to quaternary consumers, along with energy transfer and biomass decrease. This aligns directly with the key topics of 'Ecology Basics & Pyramids' within the 'Ecology & Ecosystems' chapter."
+  },
+  {
+    "diagram_id": "biology_ecology_ecosystems_ecology_basics_pyramids_food_chain_ecosystem.png",
+    "mapped_chapter_id": "biology-ecology",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "FOOD CHAIN",
+      "FLOWER (PRODUCER)",
+      "BUTTERFLIES (PRIMARY CONSUMER)",
+      "FROG (SECONDARY CONSUMER)",
+      "SNAKE (TERTIARY CONSUMER)",
+      "EAGLE (QUATERNARY CONSUMER)",
+      "Ecology Basics & Pyramids"
+    ],
+    "reasoning": "The diagram clearly illustrates a food chain, showing the flow of energy from producers to consumers, which is a fundamental concept in ecology. The key topics for the 'Ecology & Ecosystems' chapter include 'Ecology Basics & Pyramids', directly aligning with the diagram's content."
+  },
+  {
+    "diagram_id": "biology_ecology_ecosystems_ecology_basics_pyramids_food_web_ecosystem.png",
+    "mapped_chapter_id": "biology-ecology",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "Food Web",
+      "Ecology Basics & Pyramids",
+      "Grass",
+      "Grasshopper",
+      "Frog",
+      "Mouse",
+      "Rabbit",
+      "Bird",
+      "Snake",
+      "Owl",
+      "Hawk",
+      "Fox"
+    ],
+    "reasoning": "The diagram clearly illustrates a food web, which is a fundamental concept in ecology. The key topics for the 'Ecology & Ecosystems' chapter include 'Ecology Basics & Pyramids', directly aligning with the visual representation of predator-prey relationships and energy flow within an ecosystem."
+  },
+  {
+    "diagram_id": "biology_ecology_ecosystems_ecology_basics_pyramids_nitrogen_cycle.png",
+    "mapped_chapter_id": "biology-ecology",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "Nitrogen Cycle",
+      "nitrogen fixation",
+      "ammonification",
+      "nitrification",
+      "denitrification",
+      "nitrogen fixing bacteria",
+      "denitrification bacteria",
+      "Ecology Basics & Pyramids"
+    ],
+    "reasoning": "The diagram clearly illustrates the Nitrogen Cycle, which is a fundamental concept in Ecology and is explicitly mentioned in the key topics for the 'Ecology & Ecosystems' chapter."
+  },
+  {
+    "diagram_id": "human-systems.png",
+    "mapped_chapter_id": "biology-physiology",
+    "confidence_score": 0.85,
+    "matched_indicators": [
+      "Blood Relation and Family Chart",
+      "If A is male",
+      "If A is female",
+      "If A is child",
+      "If A is Brother of B",
+      "If A is wife of B",
+      "If C is father of D",
+      "If C is grandfather of D"
+    ],
+    "reasoning": "The diagram illustrates relationships and family structures, which are fundamental concepts within human physiology and the study of vital human systems. The terms used directly relate to familial connections and lineage, aligning with the 'Vital Human Systems & Organs' key topic."
+  },
+  {
+    "diagram_id": "biology_human_physiology_vital_human_systems_organs_central_nervous_system_neuron.png",
+    "mapped_chapter_id": "biology-physiology",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "Brain",
+      "Spinal Cord",
+      "Nerves",
+      "Central Nervous System (CNS)",
+      "Peripheral Nervous System (PNS)",
+      "Neuron",
+      "Dendrite",
+      "Nucleus",
+      "Cell body",
+      "Axon",
+      "Myelin sheath",
+      "Node of Ranvier",
+      "Axon terminal",
+      "Synapse",
+      "Direction of Impulse (Action Potential)"
+    ],
+    "reasoning": "The diagram illustrates the human nervous system, including the brain, spinal cord, nerves, and a detailed view of a neuron, which are all key components of human physiology and vital systems."
+  },
+  {
+    "diagram_id": "biology_human_physiology_vital_human_systems_organs_endocrine_system_glands.png",
+    "mapped_chapter_id": "biology-physiology",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "Endocrine System",
+      "Hypothalamus",
+      "Pituitary gland",
+      "Pineal gland",
+      "Thyroid and parathyroid glands",
+      "Thymus",
+      "Pancreas",
+      "Adrenal glands",
+      "Ovary (in female)",
+      "Testicle (in male)",
+      "Placenta (during pregnancy)"
+    ],
+    "reasoning": "The diagram clearly illustrates the endocrine system, which is a vital human system. The labels for various glands and organs directly align with the key topics of 'Vital Human Systems & Organs' within the 'Human Physiology' chapter."
+  },
+  {
+    "diagram_id": "biology_human_physiology_vital_human_systems_organs_human_blood_circulation.png",
+    "mapped_chapter_id": "biology-physiology",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "Diagram filename contains 'human_physiology'",
+      "Diagram shows the human heart, lungs, liver, and kidneys, which are vital human systems and organs.",
+      "Labels like 'Aorta', 'Vena Cava', 'Pulmonary Artery', 'Left Atrium', 'Right Atrium', 'Left Ventricle', 'Right Ventricle' are present."
+    ],
+    "reasoning": "The diagram clearly illustrates the circulatory system, including the heart, lungs, liver, and kidneys, which directly aligns with the key topics of 'Vital Human Systems & Organs' within the 'Human Physiology' chapter."
+  },
+  {
+    "diagram_id": "biology_human_physiology_vital_human_systems_organs_human_digestive_system.png",
+    "mapped_chapter_id": "biology-physiology",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "Human Digestive System",
+      "Mouth and mouth cavity",
+      "Pharynx",
+      "Oesophagus",
+      "Liver",
+      "Gallbladder",
+      "Stomach",
+      "Pancreas",
+      "Small intestine",
+      "Large intestine",
+      "Rectum",
+      "Anus"
+    ],
+    "reasoning": "The diagram clearly illustrates the human digestive system, including its various organs and their labels. This directly aligns with the 'Vital Human Systems & Organs' key topic within the 'Human Physiology' chapter."
+  },
+  {
+    "diagram_id": "xylem & phlom.png",
+    "mapped_chapter_id": "biology-botany",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "XYLEM AND PHLOEM",
+      "Xylem",
+      "Phloem",
+      "Water and minerals",
+      "Water and food (sugars)",
+      "Photosynthesis products"
+    ],
+    "reasoning": "The diagram explicitly illustrates the functions of xylem and phloem in plants, detailing the transport of water, minerals, and food (sugars) produced during photosynthesis. This directly aligns with the key topics of 'Plant Physiology & Reproduction' in the 'biology-botany' chapter."
+  },
+  {
+    "diagram_id": "biology_plant_animal_kingdoms_plant_kingdom_classification_plant_root_types.png",
+    "mapped_chapter_id": "biology-kingdoms",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "Plant Kingdom Classification",
+      "Dicot Root",
+      "Monocot Root",
+      "Tap root",
+      "Secondary root",
+      "Tertiary root",
+      "Adventitious fibrous root"
+    ],
+    "reasoning": "The diagram illustrates different types of plant roots (dicot and monocot) and their classifications, which directly aligns with the key topic 'Plant Kingdom Classification' within the 'Plant & Animal Kingdoms' chapter."
+  },
+  {
+    "diagram_id": "chemistry_carbon_compounds_numericals_mole_concept_concentration_terms_mole_concept_formulas.png",
+    "mapped_chapter_id": "chemistry-carbon-numericals",
+    "confidence_score": 0.95,
+    "matched_indicators": [
+      "Mole Concept Formulas",
+      "moles",
+      "mass",
+      "molar mass",
+      "concentration",
+      "volume",
+      "number of particles",
+      "Avogadro's number"
+    ],
+    "reasoning": "The diagram explicitly displays formulas related to the mole concept, including mass, molar mass, concentration, volume, and number of particles, which directly aligns with the key topics of 'Mole Concept & Concentration Terms' within the 'Carbon Compounds & Numericals' chapter."
+  }
+]

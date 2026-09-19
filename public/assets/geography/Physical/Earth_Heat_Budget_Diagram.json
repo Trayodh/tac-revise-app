@@ -1,0 +1,17 @@
+{
+  "title": "Earth Heat Budget Diagram",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Heat Budget & Temperature",
+  "topic": "Heat Budget",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    SB[Solar Radiation (Insolation)] -->|Absorbed| AT[Atmosphere & Surface]\n    AT -->|Outgoing Longwave Radiation| LR[Terrestrial Radiation]\n    SB -->|Reflected by Clouds/Albedo| REF[Reflected Solar]\n    style SB fill:#ffe699,stroke:#333,stroke-width:2px\n    style AT fill:#a6cee3,stroke:#333,stroke-width:2px\n    style LR fill:#fb9a99,stroke:#333,stroke-width:2px\n    style REF fill:#fdbf6f,stroke:#333,stroke-width:2px",
+  "mapQuery": "",
+  "description": "A flowchart illustrating the balance between incoming solar radiation, reflected solar radiation, absorbed energy, and outgoing terrestrial radiation that maintains Earth's near‑constant global temperature.",
+  "keywords": [
+    "heat budget",
+    "solar radiation",
+    "terrestrial radiation",
+    "energy balance"
+  ]
+}

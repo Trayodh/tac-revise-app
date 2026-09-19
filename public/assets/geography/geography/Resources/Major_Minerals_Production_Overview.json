@@ -1,0 +1,17 @@
+{
+  "title": "Major Minerals Production Overview",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Mineral Resources",
+  "topic": "Production by State",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n    Coal -->|Jharkhand, Odisha, Chhattisgarh, WB| Production[319 Mt]\n    IronOre -->|Odisha, Jharkhand, MP, CG| Production2[31.5 Mt]\n    Bauxite -->|Odisha, Maharashtra, Gujarat, Jharkhand| Production3[30.7 Mt]\n    Mica -->|Jharkhand, MP, Rajasthan| Production4[6.5 Mt]\n    Limestone -->|Rajasthan, MP, Tamil Nadu, Karnataka| Production5[1000 Mt]\n    Copper -->|Rajasthan, Jharkhand, MP| Production6[2.2 Mt]\n    Zinc -->|Rajasthan, Maharashtra, Jharkhand| Production7[1.5 Mt]\n    Gold -->|Karnataka, Jharkhand, Rajasthan| Production8[0.2 Mt]\n    Uranium -->|Rajasthan, MP, Tamil Nadu| Production9[0.02 Mt]",
+  "mapQuery": "",
+  "description": "Flow diagram linking each major mineral to its chief producing states and estimated reserves (2019) for quick reference.",
+  "keywords": [
+    "minerals",
+    "production",
+    "states",
+    "reserves"
+  ]
+}

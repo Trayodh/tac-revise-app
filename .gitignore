@@ -12,3 +12,6 @@ C:\Android\
 
 *.pdf
 functions/
+
+# Local Netlify folder
+.netlify

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Sea Left -->
+  <rect x="50" y="50" width="150" height="150" fill="#4A90E2"/>
+  <!-- Sea Right -->
+  <rect x="400" y="50" width="150" height="150" fill="#4A90E2"/>
+  <!-- Strait -->
+  <rect x="200" y="100" width="200" height="30" fill="#4A90E2"/>
+  <!-- Desert -->
+  <rect x="150" y="250" width="300" height="100" fill="#E2C285"/>
+  <!-- Canal (artificial) -->
+  <rect x="280" y="250" width="20" height="100" fill="#4A90E2" stroke="#333" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Labels -->
+  <text x="125" y="40" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#333">Sea (Left)</text>
+  <text x="475" y="40" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#333">Sea (Right)</text>
+  
+  <text x="300" y="80" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#333">Strait</text>
+  <line x1="300" y1="80" x2="300" y2="100" stroke="#333" stroke-width="1"/>
+  
+  <text x="300" y="240" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#333">Desert</text>
+  
+  <text x="340" y="210" font-family="sans-serif" font-size="14" fill="#333">Canal</text>
+  <line x1="340" y1="210" x2="290" y2="250" stroke="#333" stroke-width="1"/>
+</svg>

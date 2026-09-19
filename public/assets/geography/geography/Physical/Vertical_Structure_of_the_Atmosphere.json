@@ -1,0 +1,19 @@
+{
+  "title": "Vertical Structure of the Atmosphere",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Earth Structure & Atmosphere",
+  "topic": "Atmospheric Layers",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Atmosphere] --> B[Troposphere]\n    B --> C[Stratosphere]\n    C --> D[Mesosphere]\n    D --> E[Thermosphere (Ionosphere)]",
+  "mapQuery": "",
+  "description": "Layered flowchart showing the temperature‑based atmospheric layers from the surface up to the thermosphere/ionosphere.",
+  "keywords": [
+    "troposphere",
+    "stratosphere",
+    "mesosphere",
+    "thermosphere",
+    "ionosphere",
+    "atmospheric structure"
+  ]
+}

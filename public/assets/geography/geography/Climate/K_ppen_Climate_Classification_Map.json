@@ -1,0 +1,16 @@
+{
+  "title": "Köppen Climate Classification Map",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Climatic Zones – Köppen Classification",
+  "topic": "Köppen Zones",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "Köppen climate classification world map SVG",
+  "description": "World map showing the spatial distribution of Köppen climate zones (A, B, C, D, E, H) with typical sub‑types.",
+  "keywords": [
+    "Köppen",
+    "climate zones",
+    "world map"
+  ]
+}

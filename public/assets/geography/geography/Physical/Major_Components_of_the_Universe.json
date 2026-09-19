@@ -1,0 +1,19 @@
+{
+  "title": "Major Components of the Universe",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "The Universe",
+  "format": "Mermaid",
+  "description": "A diagram listing the major components that constitute the Universe, including galaxies, stars, planets, nebulae, and dark matter/energy.",
+  "keywords": [
+    "Universe components",
+    "Galaxies",
+    "Stars",
+    "Planets",
+    "Nebulae",
+    "Dark matter",
+    "Dark energy"
+  ],
+  "mermaidCode": "mindmap\n    root((Universe Components))\n        Galaxies\n        Stars\n        Planets\n        Nebulae\n        Asteroids\n        Comets\n        Interstellar Dust\n        Dark Matter\n        Dark Energy"
+}

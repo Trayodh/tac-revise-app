@@ -1,0 +1,18 @@
+{
+  "title": "Big Bang Theory and Evidences",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "Origin of the Universe",
+  "format": "Mermaid",
+  "description": "A flowchart illustrating the Big Bang Theory as the prevailing model for the Universe's origin, its expansion and cooling, and the key evidences supporting it.",
+  "keywords": [
+    "Big Bang Theory",
+    "Universe origin",
+    "Cosmic expansion",
+    "CMBR",
+    "Hubble's Law",
+    "Primordial abundance"
+  ],
+  "mermaidCode": "graph TD\nA[Extremely Hot, Dense Singularity] --> B{_13.8 Billion Years Ago};\nB --> C[Rapid Expansion & Cooling];\nC --> D[Formation of Elementary Particles];\nD --> E[Formation of Atoms (H, He)];\nE --> F[Formation of Stars & Galaxies];\nF --> G[Present Universe];\nG -- Evidences --> H1[Hubble's Galactic Recession];\nG -- Evidences --> H2[Cosmic Microwave Background Radiation (CMBR)];\nG -- Evidences --> H3[Primordial Abundances of H & He];"
+}

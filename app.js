@@ -3064,8 +3064,8 @@ const CA_CYCLES_CONFIG = {
   },
   NDA_CDS: {
     label: "NDA / CDS",
-    months: ["September 2026", "October 2026", "November 2026", "December 2026", "January 2027", "February 2027", "March 2027"],
-    shortLabel: "SEP '26\n-\nMAR '27",
+    months: ["September 2026", "October 2026", "November 2026", "December 2026", "January 2027", "February 2027", "March 2027", "April 2027"],
+    shortLabel: "SEP '26\n-\nAPR '27",
     examDate: new Date("2027-04-11T00:00:00")
   }
 };
@@ -3477,9 +3477,7 @@ function isArticleForCycle(article, cycleConfig, monthStr) {
     }
 
   } else if (monthStr.includes('September')) {
-
-    if (isAFCAT) return false;
-
+    // September is fully included for both AFCAT and NDA/CDS
   }
 
   
@@ -3539,8 +3537,8 @@ function renderCurrentMonthAffairs() {
       <h2 style="margin:0 0 4px; font-size:1.2rem; font-weight:700; letter-spacing:0.3px;">Current Affairs — ${activeCaMonth}</h2>
 
       <p style="margin:0 0 12px; font-size:0.82rem; color:var(--text-muted); font-family:var(--font-mono); letter-spacing:0.5px;">PIB + NEWS · AI-ENRICHED · ${data.length} ITEMS · CYCLE: ${getExamCycleBounds().cycleLabel}</p>
-
-      <p style="margin:0 0 12px; font-size:0.75rem; color:var(--info); font-style:italic; opacity: 0.9;">Update Schedule: Refreshes daily with new intelligence briefs.</p>
+      <p style="margin:0 0 12px; font-size:0.82rem; color:var(--accent); font-weight: 700; font-family:var(--font-mono); letter-spacing:0.5px; background: rgba(34,197,94,0.1); padding: 4px 8px; border-radius: 4px; display: inline-block;">${window.CA_META && window.CA_META.cycleNote ? window.CA_META.cycleNote : ''}</p>
+      <p style="margin:0 0 12px; font-size:0.75rem; color:var(--info); font-style:italic; opacity: 0.9; clear: both;">Update Schedule: Refreshes daily with new intelligence briefs.</p>
 
       <div style="display:flex; gap:5px; flex-wrap:wrap;">
 
@@ -8588,13 +8586,13 @@ function initCountdownTimer() {
 
       color = "#87a96b"; // olive green
 
-      name = "CDS 2 2026";
+      name = "CDS 1 2027";
 
     } else if (val === "nda") {
 
       color = "#ffffff";
 
-      name = "NDA 2 2026";
+      name = "NDA 1 2027";
 
     } else if (val === "auto") {
 

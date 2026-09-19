@@ -1,0 +1,18 @@
+{
+  "title": "Strategic Significance of Highways",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Transport Routes",
+  "topic": "Highways & Defence",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n    NH44[NH‑44] -->|Rapid troop movement| DefenceMobility[Defence Mobility]\n    NH27[NH‑27] -->|North‑East connectivity| RegionalIntegration[Regional Integration]\n    Expressways[Expressways] -->|Fast logistics| TradeFacilitation[Trade Facilitation]\n    ScenicCorridors[Scenic Highways] -->|Tourism boost| TourismImpact[Tourism Impact]\n    DefenceMobility -->|Supports| MilitaryBases[Forward Bases]\n    TradeFacilitation -->|Links| Ports[Major Seaports]\n    RegionalIntegration -->|Connects| SevenSisters[Seven Sister States]\n    TourismImpact -->|Increases| Footfall[Tourist Footfall]",
+  "mapQuery": "",
+  "description": "Diagram linking key highways and expressways to their strategic roles in defence mobility, trade facilitation, regional connectivity, and tourism.",
+  "keywords": [
+    "highways",
+    "strategic",
+    "defence",
+    "trade",
+    "tourism"
+  ]
+}
