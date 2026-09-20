@@ -1,0 +1,12 @@
+graph TD
+    A[Geographical Features] --> B{Water Bodies & Landforms}
+    B --> C[Water Bodies]
+    B --> D[Landforms]
+    C --> C1[Strait]
+    C --> C2[Canal]
+    C --> C3[Sea]
+    D --> D1[Desert]
+    C1 -- Natural --> ConnectsTwoLargerBodies(Connects two larger water bodies)
+    C2 -- Artificial --> NavigationIrrigationHydroelectric(Navigation, Irrigation, Hydro-electric)
+    C3 -- Marginal Part of Ocean --> PartiallyEnclosed(Often partially enclosed by land)
+    D1 -- Region --> Less250mmPrecipitation(Receiving < 250mm annual precipitation)

@@ -1,0 +1,42 @@
+{
+    "id": "international-institutions",
+    "title": "International Institutions",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "6. World History",
+    "chapterId": "world-history-tree",
+    "blocks": [
+        {
+            "heading": "\ud83c\uddfa\ud83c\uddf3 International Institutions",
+            "intro": "Global bodies created to manage international relations, trade, finance, and security.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. The United Nations (UN)",
+            "intro": "",
+            "bullets": [
+                "Established on **24 October 1945** (UN Day) to replace the League of Nations. Headquarters in New York.",
+                "Six Principal Organs: **General Assembly:** Deciding body where all member states have equal votes.",
+                "**Security Council:** Responsible for international peace. Has 15 members: 5 Permanent (P5 with veto power: USA, UK, France, Russia, China) and 10 non-permanent members elected for 2-year terms.",
+                "**International Court of Justice (ICJ):** Judicial body. Located at **The Hague, Netherlands**.",
+                "**Secretariat:** Executive branch, led by the Secretary-General.",
+                "Economic and Social Council (ECOSOC) and Trusteeship Council (suspended)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Financial & Trade Bodies",
+            "intro": "",
+            "bullets": [
+                "Bretton Woods Twins (1944): Created at the Bretton Woods Conference: - *International Monetary Fund (IMF):* Manages balance of payments and exchange rates. - *World Bank (IBRD):* Provides long-term development loans.",
+                "World Trade Organization (WTO): Established on **1 January 1995**, replacing the General Agreement on Tariffs and Trade (GATT). Regulates global trade."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "UN Founded: Oct 24, 1945 | Bretton Woods (1944): IMF & World Bank | WTO: Jan 1, 1995 (replaced GATT)"
+    ],
+    "hasNotes": true
+}

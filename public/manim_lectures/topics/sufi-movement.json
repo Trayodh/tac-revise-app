@@ -1,0 +1,29 @@
+{
+    "id": "sufi-movement",
+    "title": "Sufi Movement",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "4. Medieval India",
+    "chapterId": "medieval-india-tree",
+    "blocks": [
+        {
+            "heading": "\u2728 The Sufi Movement",
+            "intro": "The mystical movement within Islam, emphasizing direct union with God through love, music (Sama), and simple living.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Key Orders (Silsilas) in India",
+            "intro": "",
+            "bullets": [
+                "Suhrawardi Order: Founded by Shihabuddin Suhrawardi. Active in Punjab/Sindh. Accepted state offices, wealthy order.",
+                "Naqshbandi Order: Founded by Khwaja Bahauddin Naqshbandi. Most orthodox and conservative order. Opposed music and liberal policies of Akbar. Supported by Aurangzeb."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Chishti: Moinuddin (Ajmer Dargah) | Sama: Sufi music | Naqshbandi: Orthodox (Aurangzeb support)"
+    ],
+    "hasNotes": true
+}

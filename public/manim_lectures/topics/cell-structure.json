@@ -1,0 +1,51 @@
+{
+    "id": "cell-structure",
+    "title": "Cell Structure & Cell Division",
+    "subject": "Biology (NDA/CDS)",
+    "subjectId": "biology",
+    "chapter": "Cell Biology & Genetics",
+    "chapterId": "biology-cell",
+    "blocks": [
+        {
+            "heading": "1. Cell Theory & Classification",
+            "intro": "",
+            "bullets": [
+                "Cell is the structural and functional unit of life, first discovered by Robert Hooke in 1665 (dead cork cell) and Leeuwenhoek in 1674 (living cell).",
+                "Cell Theory : Proposed by Schleiden and Schwann (1838-1839). Rudolf Virchow added: \"Omnis cellula-e-cellula\" (all cells arise from pre-existing cells).",
+                "Prokaryotic Cells : Lack a nuclear membrane and membrane-bound organelles (e.g., Bacteria, Blue-green algae). Possess 70S ribosomes.",
+                "Eukaryotic Cells : Have a well-defined nuclear envelope and organelles (e.g., Plants, Animals, Fungi). Possess 80S ribosomes."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Vital Cell Organelles",
+            "intro": "",
+            "bullets": [
+                "Mitochondria : Double-membraned powerhouse of the cell. Site of aerobic cellular respiration and ATP generation. Contains its own DNA and 70S ribosomes.",
+                "Plastids (Chloroplasts) : Found only in plant cells. Kitchen of the cell, contains chlorophyll to perform photosynthesis. Possesses own circular DNA.",
+                "Ribosomes : Non-membrane bound protein factories. Found free in cytoplasm or attached to Rough Endoplasmic Reticulum (RER).",
+                "Lysosomes : Formed by Golgi apparatus. Known as Suicide Bags because they contain hydrolytic digestive enzymes that destroy worn-out organelles or the cell itself under stress.",
+                "Endoplasmic Reticulum (ER) : RER has ribosomes and synthesizes proteins; Smooth ER (SER) synthesizes lipids and detoxifies poisons/drugs.",
+                "Golgi Apparatus : Performs packaging, modification, and dispatching of materials."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Cell Division (Mitosis vs Meiosis)",
+            "intro": "",
+            "bullets": [
+                "Mitosis (Equational Division) : Occurs in somatic cells for growth and repair. One diploid cell (2n) divides to produce two identical diploid (2n) daughter cells .",
+                "Meiosis (Reductional Division) : Occurs in germ cells to form gametes. One diploid cell (2n) divides to produce four non-identical haploid (n) daughter cells . Features crossing over in Prophase I (Pachytene stage) which induces variation."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Powerhouse: Mitochondria (ATP)",
+        "Suicide Bags: Lysosomes (hydrolytic enzymes)",
+        "Protein Factory: Ribosomes",
+        "Mitosis: Growth & Repair (2n -> 2n)",
+        "Meiosis: Gamete formation & Crossing Over (2n -> 4 cells of n)"
+    ],
+    "hasNotes": true
+}

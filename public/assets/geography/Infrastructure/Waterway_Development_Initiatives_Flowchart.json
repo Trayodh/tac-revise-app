@@ -1,0 +1,18 @@
+{
+  "title": "Waterway Development Initiatives Flowchart",
+  "subject": "Geography",
+  "category": "Infrastructure",
+  "chapter": "Waterway Development Initiatives",
+  "topic": "Sagarmala, NIWA, MMLP",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nA[Sagarmala Programme] --> B[Modernise 500 ports]\nA --> C[Create 1,500 km coastal shipping routes]\nD[National Inland Waterways Authority] --> E[Oversee dredging]\nD --> F[Navigation aids & safety]\nG[Multi‑Modal Logistics Parks] --> H[Integrate road, rail, water]\nG --> I[First operational MMLP at Kolkata Port (2021)]",
+  "mapQuery": "",
+  "description": "Flowchart illustrating the three major waterway development initiatives: Sagarmala Programme, NIWA, and Multi‑Modal Logistics Parks, and their key components.",
+  "keywords": [
+    "Sagarmala",
+    "NIWA",
+    "MMLP",
+    "waterway development",
+    "logistics"
+  ]
+}

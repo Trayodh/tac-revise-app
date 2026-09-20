@@ -1,0 +1,21 @@
+{
+  "title": "Threats to Forests & Wetlands and Conservation Measures",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Forests and Wetlands Conservation",
+  "topic": "Threats & Interventions",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    T[Threats] --> D[Deforestation & Fragmentation]\n    T --> E[Encroachment & Land‑use Change]\n    T --> C[Climate Change]\n    T --> P[Pollution]\n    D --> CM1[Loss of habitat]\n    E --> CM2[Wetland conversion]\n    C --> CM3[Increased forest fires]\n    P --> CM4[Water quality degradation]\n    CM1 --> M[Conservation Measures]\n    CM2 --> M\n    CM3 --> M\n    CM4 --> M\n    M --> JFM[Joint Forest Management]\n    M --> NAP[National Afforestation Programme]\n    M --> WR[Wetland Restoration Projects]\n    M --> PAE[Protected Area Expansion]\n    M --> RS[Remote Sensing & GIS]",
+  "mapQuery": "",
+  "description": "Flowchart linking major threats—deforestation, encroachment, climate change, and pollution—to their ecological impacts and the corresponding conservation strategies adopted by India.",
+  "keywords": [
+    "deforestation",
+    "encroachment",
+    "climate change",
+    "pollution",
+    "conservation measures",
+    "Joint Forest Management",
+    "Afforestation",
+    "wetland restoration"
+  ]
+}

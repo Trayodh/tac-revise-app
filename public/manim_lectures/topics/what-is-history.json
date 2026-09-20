@@ -1,0 +1,32 @@
+{
+    "id": "what-is-history",
+    "title": "What is History?",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "1. Historiography & Historical Foundations",
+    "chapterId": "historiography",
+    "blocks": [
+        {
+            "heading": "\ud83d\udcda Meaning and Scope of History",
+            "intro": "History is the systematic analysis of past human events, cultures, and structures. It is not a static list of dates, but a dynamic, interpretative science that examines cause-and-effect relationships over time.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Core Foundations",
+            "intro": "",
+            "bullets": [
+                "Definition: The word comes from Greek Historia (inquiry/knowledge acquired by investigation). E.H. Carr defined it as \"an unending dialogue between the present and the past.\"",
+                "Importance of Chronology: Establishes the exact sequence of events, helping to avoid anachronisms and trace the evolutionary progression of human society.",
+                "Cause and Effect: Every historical event has roots in economic, social, political, or geographical causes, and produces consequences that shape subsequent eras.",
+                "Periodisation of Indian History: Originally divided by colonial historians (like James Mill) into Hindu, Muslim, and British periods (a communal division). Modern historians classify it scientifically into Ancient, Medieval, and Modern periods.",
+                "Social, Economic & Cultural History: Shift from dynastic history (kings and wars) to social structures (caste, gender), economic patterns (trade routes, land revenue), and cultural expressions (art, religion)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Primary Sources: contemporary | Secondary Sources: later analysis"
+    ],
+    "hasNotes": true
+}

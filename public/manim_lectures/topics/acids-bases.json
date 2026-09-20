@@ -1,0 +1,74 @@
+{
+    "id": "acids-bases",
+    "title": "Acids, Bases & pH Indicators",
+    "subject": "Chemistry (NDA/CDS)",
+    "subjectId": "chemistry",
+    "chapter": "Acids, Bases & Salts",
+    "chapterId": "chemistry-substances",
+    "blocks": [
+        {
+            "heading": "1. Theories of Acids and Bases",
+            "intro": "",
+            "bullets": [
+                "Arrhenius Theory : Acid: Releases hydrogen ions (H\u207a) or hydronium ions (H\u2083O\u207a) in aqueous solution (e.g., HCl, HNO\u2083).",
+                "Base: Releases hydroxyl ions (OH\u207b) in aqueous solution (e.g., NaOH, KOH).",
+                "Bronsted-Lowry Theory : Acid: Proton (H\u207a) donor.",
+                "Base: Proton (H\u207a) acceptor.",
+                "Lewis Theory : Acid: Electron-pair acceptor (electron deficient, e.g., BF\u2083, AlCl\u2083, H\u207a).",
+                "Base: Electron-pair donor (has lone pair, e.g., NH\u2083, H\u2082O, F\u207b)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. pH Scale & Indicators",
+            "intro": "",
+            "bullets": [
+                "pH represents potential of Hydrogen. Formula: pH = -log[H\u207a] or pH = -log[H\u2083O\u207a] .",
+                "At 298 K: pH 7 is basic/alkaline.",
+                "Indicators Table: Indicator Acidic Color Basic Color Litmus Red Blue Phenolphthalein Colorless Deep Pink Methyl Orange Red/Orange Yellow"
+            ],
+            "tableRows": [
+                [
+                    "Indicator",
+                    "Acidic Color",
+                    "Basic Color"
+                ],
+                [
+                    "Litmus",
+                    "Red",
+                    "Blue"
+                ],
+                [
+                    "Phenolphthalein",
+                    "Colorless",
+                    "Deep Pink"
+                ],
+                [
+                    "Methyl Orange",
+                    "Red/Orange",
+                    "Yellow"
+                ]
+            ]
+        },
+        {
+            "heading": "3. Key Chemical Salts and Formulas",
+            "intro": "",
+            "bullets": [
+                "Baking Soda (Sodium Hydrogen Carbonate - NaHCO\u2083) : Prepared by Solvay process. Releases CO\u2082 on heating. Used in baking and soda-acid fire extinguishers.",
+                "Washing Soda (Sodium Carbonate Decahydrate - Na\u2082CO\u2083 \u00b7 10H\u2082O) : Used in glass, soap paper industries, and for removing permanent hardness of water.",
+                "Plaster of Paris (Calcium Sulphate Hemihydrate - CaSO\u2084 \u00b7 \u00bdH\u2082O) : Obtained by heating Gypsum (CaSO\u2084 \u00b7 2H\u2082O) at 373 K. Used for plastering fractured bones and making toys.",
+                "Bleaching Powder (Calcium Oxychloride - CaOCl\u2082) : Formed by action of chlorine on dry slaked lime [Ca(OH)\u2082]. Used as disinfectant for water and bleaching agent in textile industry."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "pH = -log[H\u207a]",
+        "Baking Soda: NaHCO\u2083",
+        "Washing Soda: Na\u2082CO\u2083\u00b710H\u2082O",
+        "POP: CaSO\u2084\u00b70.5H\u2082O",
+        "Gypsum: CaSO\u2084\u00b72H\u2082O",
+        "Bleaching Powder: CaOCl\u2082"
+    ],
+    "hasNotes": true
+}

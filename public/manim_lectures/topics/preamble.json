@@ -1,0 +1,41 @@
+{
+    "id": "preamble",
+    "title": "Preamble & Sources",
+    "subject": "Indian Polity (CDS/NDA)",
+    "subjectId": "polity",
+    "chapter": "Constitutional Framework",
+    "chapterId": "constitution-basics",
+    "blocks": [
+        {
+            "heading": "1. The Preamble Keywords",
+            "intro": "The Preamble represents the summary or essence of the Constitution. Crucial aspects:",
+            "bullets": [
+                "Keywords Order : Sovereign, Socialist, Secular, Democratic, Republic.",
+                "Amendment : Amended only once by the 42nd Amendment Act (1976) , which added three new words: Socialist, Secular, and Integrity .",
+                "Justiciability : It is non-justiciable (its provisions cannot be enforced in a court of law).",
+                "**Kesavananda Bharati Case (1973)**: Supreme Court declared that the Preamble is a part of the Constitution and can be amended under Article 368, but its 'basic structure' cannot be destroyed."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Borrowed Sources of the Constitution",
+            "intro": "",
+            "bullets": [
+                "Govt of India Act 1935 : Federal structure, Office of Governor, Public Service Commissions, administrative details.",
+                "United Kingdom : Parliamentary system, Rule of Law, Legislative procedure, Single Citizenship, Cabinet system, Prerogative Writs, Bicameralism.",
+                "United States : Fundamental Rights, Independence of Judiciary, Judicial Review, Impeachment of President, removal of Supreme Court & High Court judges, post of Vice-President.",
+                "Ireland : Directive Principles of State Policy (DPSP), nomination of members to Rajya Sabha, method of election of President.",
+                "Canada : Federation with a strong Centre, vesting of residuary powers in the Centre, appointment of state governors by Centre, advisory jurisdiction of Supreme Court.",
+                "Australia : Concurrent List, freedom of trade and commerce, joint sitting of the two Houses of Parliament.",
+                "Weimar Republic (Germany) : Suspension of Fundamental Rights during Emergency.",
+                "USSR : Fundamental Duties (Article 51A), ideals of justice (social, economic, political) in the Preamble."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "42nd Amendment (1976) -> Added: Socialist, Secular, Integrity.",
+        "Preamble justiciable? No (Kesavananda Bharati Case 1973)."
+    ],
+    "hasNotes": true
+}

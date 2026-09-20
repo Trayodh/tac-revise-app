@@ -1,0 +1,17 @@
+{
+    "id": "immunity-vaccines",
+    "title": "Immunity & Vaccines",
+    "subject": "Biology (NDA/CDS)",
+    "subjectId": "biology",
+    "chapter": "Health, Diseases & Nutrition",
+    "chapterId": "biology-diseases",
+    "blocks": [],
+    "formulas": [
+        "Innate: non-specific (skin, tears)",
+        "Acquired: specific (B-cells, T-cells)",
+        "Active: body makes antibodies (infection, vaccine)",
+        "Passive: ready-made antibodies (colostrum, anti-venom)",
+        "Vaccines: Live-attenuated (OPV, BCG), Inactivated (Covaxin, Salk), mRNA (Pfizer)"
+    ],
+    "hasNotes": false
+}

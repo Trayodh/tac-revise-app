@@ -1,0 +1,14 @@
+{
+    "id": "physics-em-waves",
+    "title": "Electromagnetic Waves & Spectrum",
+    "subject": "Physics (NDA/CDS)",
+    "subjectId": "physics",
+    "chapter": "Waves & Acoustics",
+    "chapterId": "physics-waves",
+    "blocks": [],
+    "formulas": [
+        "c = f * \u03bb = 3 x 10^8 m/s",
+        "Spectrum order: Gamma > X-Ray > UV > Visible > IR > Micro > Radio"
+    ],
+    "hasNotes": false
+}

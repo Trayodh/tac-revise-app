@@ -1,0 +1,50 @@
+{
+    "id": "governor-generals-viceroys",
+    "title": "Governor-Generals & Viceroys",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "chapterId": "modern-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83c\udfa9 Governor-Generals & Viceroys",
+            "intro": "The administrative heads of British rule in India who designed expansionist and reformist policies.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Governor-Generals of Bengal (1773 - 1833)",
+            "intro": "",
+            "bullets": [
+                "Warren Hastings (1773-1785): First GG of Bengal. Ended Dual Government. Established civil/criminal courts. Impeached in London (later acquitted).",
+                "Lord Cornwallis (1786-1793): Father of Civil Services in India. Introduced **Permanent Settlement (Zamindari)** in Bengal (1793). Created Cornwallis Code (separating judiciary and executive).",
+                "Lord Wellesley (1798-1805): Introduced **Subsidiary Alliance System** (Hyderabad first to sign in 1798). Called himself \"Bengal Tiger\"."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Governor-Generals of India (1833 - 1858)",
+            "intro": "",
+            "bullets": [
+                "Lord William Bentinck (1828-1835): First GG of India. Social Reforms: **Abolished Sati (1829, Regulation XVII)** with help of Raja Ram Mohan Roy. Suppressed Thuggee cult. Introduced English as medium of higher education (Macaulay's Minute 1835)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Viceroys of India (1858 - 1947)",
+            "intro": "",
+            "bullets": [
+                "Lord Canning (1856-1862): First Viceroy. Suppressed 1857 Revolt. Ended East India Company rule (GoI Act 1858). Abolished Doctrine of Lapse. Introduced portfolio system.",
+                "Lord Lytton (1876-1880): Vernacular Press Act (1878 - censored local papers), Arms Act (1878). Grand Delhi Durbar (1877) amid famine.",
+                "Lord Ripon (1880-1884): Liberal Viceroy. Repealed Vernacular Press Act. Father of **Local Self-Government** in India. Passed first Factory Act (1881). Ilbert Bill Controversy (proposed allowing Indian judges to try Europeans). First synchronous census (1881).",
+                "Lord Curzon (1899-1905): Partitioned Bengal (1905) on communal lines, sparking Swadeshi movement. Established Archaeological Survey of India.",
+                "Lord Mountbatten (1947-1948): Last Viceroy. Planned partition (3rd June Plan). First GG of independent India."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Sati Abolished: 1829 (Bentinck) | Railways: 1853 (Dalhousie) | Local Self-Gov: Ripon | Bengal Partition: 1905 (Curzon)"
+    ],
+    "hasNotes": true
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Temperature Distribution – Horizontal and Vertical",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Heat Budget & Temperature",
+  "topic": "Temperature Distribution",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Temperature Distribution] --> B[Horizontal]\n    B --> B1[Decreases from Equator to Poles]\n    A --> C[Vertical]\n    C --> C1[Decreases with Altitude in Troposphere (≈6.5 °C/km)]\n    C --> C2[Inversions: Temperature Increases with Height]",
+  "mapQuery": "",
+  "description": "Diagram summarizing how temperature varies both horizontally across latitudes and vertically with altitude.",
+  "keywords": [
+    "temperature",
+    "horizontal gradient",
+    "vertical lapse rate",
+    "inversion"
+  ]
+}

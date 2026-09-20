@@ -1,0 +1,728 @@
+window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
+EXPANDED_NOTES_DATA["physics-sound"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Sound Waves & Acoustics
+  </h3>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Sound is a mechanical longitudinal wave that requires a material medium (solid, liquid, or gas) for its propagation. Unlike light, sound cannot travel through a vacuum, which is a classic trap in NDA/CDS physics questions. When an object vibrates, it creates pressure variations in the surrounding medium, causing particles to oscillate back and forth parallel to the direction of wave propagation.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The speed of sound is fundamentally determined by the properties of the medium: its elasticity (stiffness) and its density. Because solids are significantly more elastic than liquids or gases, sound travels fastest through them. As a general rule, the speed of sound increases with temperature and humidity, as these factors affect the density and molecular interaction of the air.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Acoustics involves the study of how sound behaves in enclosed spaces. Key phenomena include <strong>Reflection</strong> (leading to Echoes and Reverberation), <strong>Refraction</strong> (bending of sound waves due to temperature gradients), and <strong>Diffraction</strong> (the ability of sound to bend around corners, which is why we can hear someone around a wall).
+  </p>
+
+  <div style="margin: 20px 0;">
+    <h4 style="color: var(--text-primary); font-weight: 600; margin-bottom: 10px;">Classification of Sound Waves</h4>
+    <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+      <li><strong>Infrasonic:</strong> Frequency < 20 Hz (e.g., Earthquakes, Elephants).</li>
+      <li><strong>Audible Range:</strong> 20 Hz to 20,000 Hz (Human hearing).</li>
+      <li><strong>Ultrasonic:</strong> Frequency > 20,000 Hz (e.g., Bats, Dolphins, Medical Ultrasound).</li>
+    </ul>
+  </div>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="margin-bottom: 8px;"><strong>Velocity Formula:</strong> v = sqrt(E/ρ), where E is the modulus of elasticity and ρ is density.</li>
+    <li style="margin-bottom: 8px;"><strong>Speed Hierarchy:</strong> Solid > Liquid > Gas.</li>
+    <li style="margin-bottom: 8px;"><strong>Loudness Unit:</strong> Decibel (dB).</li>
+    <li style="margin-bottom: 8px;"><strong>Echo Requirement:</strong> Minimum distance of 17.2 meters from the reflector to the observer.</li>
+    <li style="margin-bottom: 8px;"><strong>Doppler Effect:</strong> The apparent change in frequency due to relative motion between the source and the observer.</li>
+    <li style="margin-bottom: 8px;"><strong>Persistence of Hearing:</strong> 0.1 seconds (The brain retains sound for this duration).</li>
+  </ul>
+
+  <div style="background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 6px; margin-top: 20px;">
+    <h4 style="margin-top: 0; color: var(--accent);">Strategic Exam Tips</h4>
+    <p style="font-size: 0.95em; margin: 0;">
+      <strong>Common Trap:</strong> Remember that sound speed in air is independent of pressure (at constant temperature). If a question asks about pressure changes, don't fall for it! Always prioritize <strong>Temperature</strong> as the primary factor for speed changes in gases. For the Doppler effect, remember: if the source moves toward the observer, frequency increases (pitch gets higher).
+    </p>
+  </div>
+</div>`;
+
+EXPANDED_NOTES_DATA["physics-em-waves"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Electromagnetic Waves & Spectrum
+  </h3>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    Electromagnetic (EM) waves are transverse waves produced by the oscillation of electric and magnetic fields. Unlike mechanical waves (like sound), EM waves do not require a material medium to propagate; they can travel through the vacuum of space at the speed of light. These waves are generated by accelerating charges, where the changing electric field creates a magnetic field, and vice versa, sustaining each other in a self-propagating cycle.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    The EM spectrum is the entire range of frequencies or wavelengths of electromagnetic radiation. It is organized based on the energy, frequency, and wavelength of the waves. A fundamental rule to remember for NDA/CDS exams is the inverse relationship between wavelength and frequency: as frequency increases, wavelength decreases, and energy increases.
+  </p>
+
+  <p style="line-height: 1.6; margin-bottom: 15px;">
+    In the context of Defence exams, you must understand the practical applications of each band. For instance, Radio waves are used for long-distance communication due to their ability to diffract around obstacles, while Gamma rays, having the highest energy, are used in medical treatments (radiotherapy) and detecting structural flaws in heavy machinery.
+  </p>
+
+  <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+    <li style="margin-bottom: 8px;"><strong>Nature:</strong> Transverse in nature; the electric field, magnetic field, and direction of propagation are mutually perpendicular.</li>
+    <li style="margin-bottom: 8px;"><strong>Speed:</strong> In a vacuum, all EM waves travel at a constant speed of 3 x 10⁸ m/s.</li>
+    <li style="margin-bottom: 8px;"><strong>Polarization:</strong> Since they are transverse, EM waves can be polarized, a property that distinguishes them from longitudinal waves like sound.</li>
+    <li style="margin-bottom: 8px;"><strong>Interaction:</strong> They exert radiation pressure and carry momentum, which is a key concept in modern physics.</li>
+  </ul>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  
+  <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 6px;">
+    <p style="margin: 5px 0;"><strong>Fundamental Equation:</strong> c = f * λ = 3 x 10⁸ m/s</p>
+    <p style="margin: 5px 0;"><strong>Energy Relation:</strong> E = hf (where h is Planck's constant)</p>
+    <p style="margin: 10px 0 5px 0;"><strong>Spectrum Order (Decreasing Wavelength / Increasing Frequency):</strong></p>
+    <p style="font-family: monospace; color: var(--accent);">Radio > Micro > IR > Visible > UV > X-Ray > Gamma</p>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <h4 style="color: var(--text-primary); font-weight: 600;">Strategic Exam Tips & Mnemonics</h4>
+    <p style="line-height: 1.6;">
+      <strong>Mnemonic for Spectrum:</strong> "<strong>R</strong>ich <strong>M</strong>en <strong>I</strong>n <strong>V</strong>egas <strong>U</strong>se <strong>X</strong>-ray <strong>G</strong>uns." (Radio, Micro, IR, Visible, UV, X-ray, Gamma).
+    </p>
+    <p style="line-height: 1.6; margin-top: 10px;">
+      <strong>Common Trap:</strong> UPSC often asks about the "Visible Spectrum." Remember the order of colors: <strong>VIBGYOR</strong>. Violet has the shortest wavelength and highest frequency, while Red has the longest wavelength and lowest frequency.
+    </p>
+    <p style="line-height: 1.6; margin-top: 10px;">
+      <strong>Note:</strong> Always remember that EM waves are <em>not</em> deflected by electric or magnetic fields because they are charge-neutral. This is a favorite "conceptual trap" question in CDS Physics.
+    </p>
+  </div>
+</div>`;
+
+EXPANDED_NOTES_DATA["metals-alloys"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Metals, Ores, Alloys & Metallurgy
+  </h3>
+
+  <p style="color: var(--text-primary); line-height: 1.6; margin-bottom: 16px;">
+    In the NDA, CDS, and AFCAT chemistry syllabus, <strong>Metals & Metallurgy</strong> is one of the most high-yielding topics. Every year, multiple questions are framed directly from the chemical compositions of alloys, the identification of metal ores, and the specific chemical principles behind metallurgical extractions. To master this topic, you must understand not just the "what" (memorizing facts) but also the "why" (the chemical logic behind extraction processes).
+  </p>
+
+  <p style="color: var(--text-primary); line-height: 1.6; margin-bottom: 16px;">
+    Let's start with the absolute fundamentals. Elements in the periodic table are broadly classified into metals, non-metals, and metalloids. <strong>Metals</strong> are electropositive elements; they have a natural tendency to lose electrons and form positive ions (cations). This electronic configuration gives them their characteristic physical properties: high thermal and electrical conductivity, malleability (ability to be beaten into thin sheets), ductility (ability to be drawn into wires), and metallic luster. 
+  </p>
+
+  <p style="color: var(--text-primary); line-height: 1.6; margin-bottom: 16px;">
+    In nature, very few metals exist in their free or native state (only highly unreactive metals like Gold, Platinum, and sometimes Copper and Silver). Most metals are highly reactive and are found in the Earth's crust in combined states as oxides, sulphides, carbonates, or silicates. This brings us to a fundamental distinction that UPSC frequently tests:
+  </p>
+
+  <div style="background: rgba(255, 255, 255, 0.05); border-left: 4px solid var(--accent); padding: 12px; margin-bottom: 20px; border-radius: 4px;">
+    <p style="margin: 0; color: var(--text-primary); font-size: 0.95rem; line-height: 1.5;">
+      <strong>The Golden Rule of Mineralogy:</strong> <br>
+      • <strong>Mineral:</strong> Any naturally occurring inorganic substance found in the Earth's crust containing a metal.<br>
+      • <strong>Ore:</strong> A mineral from which a metal can be extracted <em>conveniently and profitably</em>.<br>
+      <strong>Conclusion:</strong> <em>"All ores are minerals, but all minerals are not ores."</em> For example, Clay and Bauxite both contain Aluminium, but Aluminium is extracted commercially only from Bauxite. Hence, Bauxite is an ore, while Clay is merely a mineral.
+    </p>
+  </div>
+
+  <h4 style="color: var(--accent); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">1. Important Metals and Their Ores</h4>
+  <p style="color: var(--text-primary); line-height: 1.6; margin-bottom: 12px;">
+    UPSC frequently matches metals with their respective ores. Below is a comprehensive, high-yield table of the most important ores you must memorize for the exam:
+  </p>
+
+  <div style="overflow-x: auto; margin-bottom: 24px;">
+    <table style="width: 100%; border-collapse: collapse; text-align: left; color: var(--text-primary); font-size: 0.9rem;">
+      <thead>
+        <tr style="border-bottom: 2px solid var(--border); background: rgba(255,255,255,0.05);">
+          <th style="padding: 10px; font-weight: 600;">Metal</th>
+          <th style="padding: 10px; font-weight: 600;">Common Ores</th>
+          <th style="padding: 10px; font-weight: 600;">Chemical Formula / Composition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Aluminium (Al)</td>
+          <td style="padding: 10px;">Bauxite, Cryolite, Corundum</td>
+          <td style="padding: 10px;">Al₂O₃·2H₂O (Bauxite), Na₃AlF₆ (Cryolite), Al₂O₃ (Corundum)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Iron (Fe)</td>
+          <td style="padding: 10px;">Hematite, Magnetite, Siderite, Iron Pyrites</td>
+          <td style="padding: 10px;">Fe₂O₃ (Hematite), Fe₃O₄ (Magnetite), FeCO₃ (Siderite), FeS₂ (Pyrites)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Copper (Cu)</td>
+          <td style="padding: 10px;">Copper Pyrites, Cuprite, Malachite</td>
+          <td style="padding: 10px;">CuFeS₂ (Pyrites), Cu₂O (Cuprite), CuCO₃·Cu(OH)₂ (Malachite)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Zinc (Zn)</td>
+          <td style="padding: 10px;">Zinc Blende, Calamine, Zincite</td>
+          <td style="padding: 10px;">ZnS (Zinc Blende), ZnCO₃ (Calamine), ZnO (Zincite)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Lead (Pb)</td>
+          <td style="padding: 10px;">Galena</td>
+          <td style="padding: 10px;">PbS</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Mercury (Hg)</td>
+          <td style="padding: 10px;">Cinnabar</td>
+          <td style="padding: 10px;">HgS</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Sodium (Na)</td>
+          <td style="padding: 10px;">Rock Salt, Borax</td>
+          <td style="padding: 10px;">NaCl, Na₂B₄O₇·10H₂O</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4 style="color: var(--accent); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">2. Metallurgy: Step-by-Step Extraction</h4>
+  <p style="color: var(--text-primary); line-height: 1.6; margin-bottom: 16px;">
+    <strong>Metallurgy</strong> is the scientific and technological process used for the isolation of a metal from its ore. Think of it as a purification funnel. We start with crude, dirty rocks from the earth and end up with 99.9% pure metal. The process involves four major steps:
+  </p>
+
+  <ul style="list-style-type: none; padding-left: 0; color: var(--text-primary); line-height: 1.6;">
+    <li style="margin-bottom: 12px; padding-left: 20px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--accent);">•</span>
+      <strong>Step 1: Crushing and Grinding:</strong> The big lumps of ore are crushed in jaw crushers and pulverized to a fine powder in stamp mills.
+    </li>
+    <li style="margin-bottom: 12px; padding-left: 20px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--accent);">•</span>
+      <strong>Step 2: Concentration (Beneficiation) of Ore:</strong> Removing the unwanted rocky, earthy impurities (called <strong>gangue</strong> or <strong>matrix</strong>) from the pulverized ore.
+      <ul style="list-style-type: circle; padding-left: 20px; margin-top: 6px;">
+        <li><em>Hydraulic Washing (Gravity Separation):</em> Based on the difference in specific gravities of the ore and gangue particles. Used for heavy oxide ores of Iron and Tin.</li>
+        <li><em>Magnetic Separation:</em> Used if either the ore or the gangue is magnetic (e.g., separating magnetic Magnetite, Fe₃O₄, from non-magnetic impurities).</li>
+        <li><strong>Froth Flotation Process:</strong> Highly important for NDA/CDS! Specifically used for <strong>sulphide ores</strong> (like PbS, ZnS, CuFeS₂). It works on the principle of differential wetting. The ore particles are wetted by pine oil (and rise to the top as froth), while gangue particles are wetted by water (and settle at the bottom).</li>
+        <li><em>Leaching (Chemical Method):</em> Used when the ore is soluble in a suitable solvent. For example, in the Baeyer's Process, Bauxite is treated with hot, concentrated NaOH to dissolve Aluminium as sodium aluminate, leaving behind insoluble impurities like Fe₂O₃.</li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 12px; padding-left: 20px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--accent);">•</span>
+      <strong>Step 3: Conversion of Concentrated Ore to Metal Oxide:</strong> It is chemically easier to reduce a metal oxide to its metal than to reduce a sulphide or carbonate. Hence, we convert them first using two primary methods:
+      <ul style="list-style-type: circle; padding-left: 20px; margin-top: 6px;">
+        <li><strong>Calcination:</strong> Heating the ore strongly in the <em>absence or limited supply of air</em>. This is used for <strong>carbonate and hydrated oxide ores</strong>. It expels moisture and volatile impurities (e.g., <code style="color: var(--warning);">ZnCO₃ + Heat → ZnO + CO₂↑</code>).</li>
+        <li><strong>Roasting:</strong> Heating the ore strongly <em>in a regular supply of air</em> at a temperature below its melting point. This is used for <strong>sulphide ores</strong> to convert them to oxides and remove sulphur as SO₂ gas (e.g., <code style="color: var(--warning);">2ZnS + 3O₂ + Heat → 2ZnO + 2SO₂↑</code>).</li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 12px; padding-left: 20px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--accent);">•</span>
+      <strong>Step 4: Reduction of Metal Oxide to Metal:</strong>
+      <ul style="list-style-type: circle; padding-left: 20px; margin-top: 6px;">
+        <li><em>Smelting (Carbon Reduction):</em> Heating the metal oxide with coke/carbon (e.g., extraction of Iron in a Blast Furnace).</li>
+        <li><em>Electrolytic Reduction:</em> Used for highly reactive metals (Na, Mg, Al) because they have a high affinity for oxygen and cannot be reduced by carbon. For example, Aluminium is extracted via the <strong>Hall-Héroult process</strong> by electrolyzing a molten mixture of Al₂O₃ and Cryolite (Na₃AlF₆).</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4 style="color: var(--accent); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">3. Alloys and Their Compositions</h4>
+  <p style="color: var(--text-primary); line-height: 1.6; margin-bottom: 12px;">
+    An <strong>alloy</strong> is a homogeneous mixture of two or more metals, or a metal and a non-metal. Alloys are prepared to enhance the properties of parent metals—such as increasing hardness, tensile strength, corrosion resistance, or lowering the melting point.
+  </p>
+
+  <div style="overflow-x: auto; margin-bottom: 24px;">
+    <table style="width: 100%; border-collapse: collapse; text-align: left; color: var(--text-primary); font-size: 0.9rem;">
+      <thead>
+        <tr style="border-bottom: 2px solid var(--border); background: rgba(255,255,255,0.05);">
+          <th style="padding: 10px; font-weight: 600;">Alloy</th>
+          <th style="padding: 10px; font-weight: 600;">Composition</th>
+          <th style="padding: 10px; font-weight: 600;">Key Properties & Uses</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Brass</td>
+          <td style="padding: 10px;">Copper (Cu) ~60-70% + Zinc (Zn) ~30-40%</td>
+          <td style="padding: 10px;">Highly malleable, acoustic properties; used in utensils, musical instruments, and cartridge cases.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Bronze</td>
+          <td style="padding: 10px;">Copper (Cu) ~88% + Tin (Sn) ~12%</td>
+          <td style="padding: 10px;">Corrosion-resistant, very strong; used for making statues, medals, and coins.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Solder</td>
+          <td style="padding: 10px;">Lead (Pb) ~50% + Tin (Sn) ~50%</td>
+          <td style="padding: 10px;">Low melting point; used for joining electrical wires.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">German Silver</td>
+          <td style="padding: 10px;">Copper (Cu) ~50% + Zinc (Zn) ~30% + Nickel (Ni) ~20%</td>
+          <td style="padding: 10px;"><strong>Contains NO Silver!</strong> Looks like silver; used in tableware and decorative items.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Stainless Steel</td>
+          <td style="padding: 10px;">Iron (Fe) + Carbon (C) + Chromium (Cr) + Nickel (Ni)</td>
+          <td style="padding: 10px;">Chromium forms a passive oxide layer preventing rust; used in surgical instruments and cutlery.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Alnico</td>
+          <td style="padding: 10px;">Aluminium (Al) + Nickel (Ni) + Cobalt (Co) + Iron (Fe)</td>
+          <td style="padding: 10px;">Highly magnetic; used to make powerful permanent magnets.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: var(--info);">Amalgam</td>
+          <td style="padding: 10px;">Mercury (Hg) + Any other metal (except Fe, Pt)</td>
+          <td style="padding: 10px;">Dental fillings (Silver-Mercury amalgam). Note: Iron does not form amalgams.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div style="background: rgba(255, 165, 0, 0.1); border-left: 4px solid var(--warning); padding: 12px; margin-bottom: 20px; border-radius: 4px;">
+    <p style="margin: 0; color: var(--text-primary); font-size: 0.95rem; line-height: 1.5;">
+      <strong>Important: Exam Trap Alert:</strong> <br>
+      UPSC loves to ask: <em>"Which of the following elements is NOT present in German Silver?"</em> <br>
+      The options will always include <strong>Silver (Ag)</strong>. Remember, German Silver contains <strong>0% Silver</strong>. It is named solely because of its silver-like lustrous appearance.
+    </p>
+  </div>
+
+  <h4 style="color: var(--accent); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">Note: Strategic Mnemonics for Quick Recall</h4>
+  <ul style="list-style-type: none; padding-left: 0; color: var(--text-primary); line-height: 1.6;">
+    <li style="margin-bottom: 8px; padding-left: 20px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--accent);">•</span>
+      <strong>Brass vs. Bronze:</strong> <br>
+      • Bra<strong>ss</strong> has "ss", so it does NOT contain Tin (Sn). It contains <strong>Copper + Zinc (Zn)</strong>.<br>
+      • Bron<strong>z</strong>e has "z", so it does NOT contain Zinc (Zn). It contains <strong>Copper + Tin (Sn)</strong>.
+    </li>
+    <li style="margin-bottom: 8px; padding-left: 20px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--accent);">•</span>
+      <strong>Roasting vs. Calcination:</strong> <br>
+      • <strong>R</strong>oasting = <strong>R</strong>eacts with oxygen (requires air/oxygen). Used for Sulphides.<br>
+      • <strong>C</strong>alcination = <strong>C</strong>arbonates (heated in absence of air).
+    </li>
+  </ul>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: none; padding-left: 0; color: var(--text-primary); line-height: 1.6; font-size: 0.95rem;">
+    <li style="margin-bottom: 6px; padding-left: 15px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--info);">•</span>
+      <strong>Aluminium Extraction:</strong> Main ores are <strong>Bauxite</strong> (Al₂O₃·2H₂O) and <strong>Cryolite</strong> (Na₃AlF₆). Cryolite is added to lower the melting point of alumina from 2050°C to 950°C and to increase electrical conductivity.
+    </li>
+    <li style="margin-bottom: 6px; padding-left: 15px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--info);">•</span>
+      <strong>Iron Extraction:</strong> Main ores are <strong>Hematite</strong> (Fe₂O₃ - reddish brown) and <strong>Magnetite</strong> (Fe₃O₄ - black, naturally magnetic).
+    </li>
+    <li style="margin-bottom: 6px; padding-left: 15px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--info);">•</span>
+      <strong>Alloys:</strong> 
+      <ul style="list-style-type: circle; padding-left: 20px; margin-top: 4px;">
+        <li><strong>Brass:</strong> Cu + Zn</li>
+        <li><strong>Bronze:</strong> Cu + Sn</li>
+        <li><strong>Solder:</strong> Pb + Sn (characterized by high resistance and low melting point)</li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 6px; padding-left: 15px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--info);">•</span>
+      <strong>Flotation:</strong> The <strong>Froth Flotation</strong> process is exclusively used for concentrating <strong>Sulphide ores</strong> (e.g., Galena, Zinc Blende, Copper Pyrites).
+    </li>
+    <li style="margin-bottom: 6px; padding-left: 15px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--info);">•</span>
+      <strong>Roasting vs Calcination:</strong> 
+      <ul style="list-style-type: circle; padding-left: 20px; margin-top: 4px;">
+        <li><strong>Roasting:</strong> Heating strongly in the presence of excess air (for Sulphide ores).</li>
+        <li><strong>Calcination:</strong> Heating strongly in the absence or limited supply of air (for Carbonate and Hydrated oxide ores).</li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 6px; padding-left: 15px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--info);">•</span>
+      <strong>Self-Reduction:</strong> Metals low in the reactivity series (like Mercury and Copper) do not require external reducing agents. Their sulphide ores, when heated in air, partially convert to oxides which then react with the remaining sulphide to give the metal (e.g., <code style="color: var(--warning);">2HgO + HgS → 3Hg + SO₂</code>).
+    </li>
+  </ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["reactivity-series"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Reactivity Series & Displacement
+  </h3>
+
+  <p style="line-height: 1.6; color: var(--text-muted); margin-bottom: 16px;">
+    In the study of metallurgy and chemical reactions, understanding why some metals react violently with their surroundings while others remain pristine for centuries is fundamental. This behavior is governed by the <strong>Reactivity Series</strong> (or Activity Series)—an analytical arrangement of metals in the descending order of their chemical reactivities. 
+  </p>
+
+  <p style="line-height: 1.6; color: var(--text-muted); margin-bottom: 16px;">
+    At the atomic level, a metal's reactivity is determined by its <strong>electropositivity</strong>—the ease with which its atoms can lose valence electrons to form positive ions (cations). Highly electropositive metals like Potassium ($K$) and Sodium ($Na$) have a single valence electron in a shell far from the nucleus, making it extremely easy to lose. Conversely, noble metals like Gold ($Au$) and Platinum ($Pt$) hold onto their valence electrons with high ionization energy, rendering them chemically inert.
+  </p>
+
+  <p style="line-height: 1.6; color: var(--text-muted); margin-bottom: 16px;">
+    <strong>The Role of Hydrogen:</strong> Although Hydrogen ($H$) is a non-metal, it is included in the reactivity series as a crucial reference point. Hydrogen can lose its lone electron to form a proton ($H^+$), behaving electropositively. Metals placed <em>above</em> hydrogen in the series can reduce hydrogen ions from dilute acids to evolve hydrogen gas, whereas metals placed <em>below</em> hydrogen cannot.
+  </p>
+
+  <h4 style="color: var(--text-primary); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">1. The Reactivity Hierarchy & Chemical Behavior</h4>
+  <p style="line-height: 1.6; color: var(--text-muted); margin-bottom: 16px;">
+    The position of a metal in the reactivity series dictates how it interacts with water, oxygen, and acids. This systematic variation is highly tested in NDA/CDS exams:
+  </p>
+
+  <div style="overflow-x: auto; margin-bottom: 20px;">
+    <table style="width: 100%; border-collapse: collapse; text-align: left; color: var(--text-muted); font-size: 14px;">
+      <thead>
+        <tr style="border-bottom: 2px solid var(--border); color: var(--text-primary);">
+          <th style="padding: 10px;">Metal Group</th>
+          <th style="padding: 10px;">Elements</th>
+          <th style="padding: 10px;">Reaction with Water</th>
+          <th style="padding: 10px;">Reaction with Dilute Acids</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: #ff4d4d;">Highly Active</td>
+          <td style="padding: 10px;">K, Na, Ca</td>
+          <td style="padding: 10px;">Reacts violently with <strong>cold water</strong>; evolves $H_2$ gas (exothermic, catches fire).</td>
+          <td style="padding: 10px;">Reacts explosively; highly dangerous to perform.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: #ffaa00;">Moderately Active</td>
+          <td style="padding: 10px;">Mg, Al, Zn, Fe</td>
+          <td style="padding: 10px;">Mg reacts with <strong>hot water</strong>. Al, Zn, Fe react only with <strong>steam</strong>.</td>
+          <td style="padding: 10px;">Reacts moderately to evolve $H_2$ gas.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: #55ff55;">Low Activity</td>
+          <td style="padding: 10px;">Pb, [H], Cu, Hg</td>
+          <td style="padding: 10px;">No reaction with water or steam.</td>
+          <td style="padding: 10px;">No reaction with dilute acids (cannot displace $H_2$).</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600; color: #00aaff;">Noble Metals</td>
+          <td style="padding: 10px;">Ag, Au, Pt</td>
+          <td style="padding: 10px;">Completely inert to water.</td>
+          <td style="padding: 10px;">No reaction. Only dissolve in <em>Aqua Regia</em>.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4 style="color: var(--text-primary); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">2. Displacement Reactions: Mechanism & Real-World Examples</h4>
+  <p style="line-height: 1.6; color: var(--text-muted); margin-bottom: 12px;">
+    A <strong>displacement reaction</strong> is a chemical reaction in which a more reactive element displaces a less reactive element from its salt solution. The general representation is:
+  </p>
+  <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 6px; text-align: center; font-family: monospace; font-size: 16px; color: var(--accent); margin-bottom: 16px;">
+    A + BC &rarr; AC + B &nbsp;&nbsp;(where Metal A is more reactive than Metal B)
+  </div>
+
+  <ul style="list-style-type: none; padding-left: 0; margin-bottom: 20px;">
+    <li style="margin-bottom: 12px; padding-left: 20px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--accent);">&bull;</span>
+      <strong>The Classic Iron-Copper Sulfate Experiment:</strong> When an iron nail ($Fe$) is dipped in a blue-colored Copper Sulfate ($CuSO_4$) solution, iron displaces copper because $Fe > Cu$ in the reactivity series.
+      <div style="font-family: monospace; margin: 6px 0; color: var(--info);">Fe (grey) + CuSO₄ (blue) &rarr; FeSO₄ (light green) + Cu (reddish-brown deposit)</div>
+      <em>Exam Observation:</em> The blue color of the solution fades to light green, and a reddish-brown coating of copper metal is deposited on the iron nail.
+    </li>
+    <li style="margin-bottom: 12px; padding-left: 20px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--accent);">&bull;</span>
+      <strong>Copper and Silver Nitrate:</strong> When a copper wire is placed in a colorless Silver Nitrate ($AgNO_3$) solution, copper displaces silver ($Cu > Ag$).
+      <div style="font-family: monospace; margin: 6px 0; color: var(--info);">Cu (brown) + 2AgNO₃ (colorless) &rarr; Cu(NO₃)₂ (blue) + 2Ag (shiny silver precipitate)</div>
+      The solution turns blue due to the formation of $Cu^{2+}$ ions.
+    </li>
+    <li style="margin-bottom: 12px; padding-left: 20px; position: relative;">
+      <span style="position: absolute; left: 0; color: var(--accent);">&bull;</span>
+      <strong>No Reaction Cases:</strong> If you place a copper strip into a Zinc Sulfate ($ZnSO_4$) solution, no reaction occurs because copper is less reactive than zinc ($Cu < Zn$).
+    </li>
+  </ul>
+
+  <h4 style="color: var(--text-primary); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">3. High-Yield Exam Traps & Conceptual Nuances</h4>
+  <div style="background: rgba(255, 170, 0, 0.1); border-left: 4px solid #ffaa00; padding: 15px; border-radius: 4px; margin-bottom: 20px;">
+    <ul style="list-style-type: none; padding-left: 0; margin: 0; color: var(--text-muted); font-size: 14px; line-height: 1.6;">
+      <li style="margin-bottom: 10px;">
+        <strong>Important: The Nitric Acid ($HNO_3$) Exception:</strong> Generally, metals react with dilute acids to produce hydrogen gas. However, when metals react with dilute <strong>Nitric Acid</strong>, $H_2$ gas is <em>not</em> evolved. Why? Because $HNO_3$ is a powerful oxidizing agent. It oxidizes the hydrogen produced into water ($H_2O$) and itself gets reduced to nitrogen oxides ($NO_2, NO, N_2O$). 
+        <br><span style="color: var(--accent);">Exception to the Exception:</span> Very dilute $HNO_3$ (approx. 1%) reacts with <strong>Magnesium (Mg)</strong> and <strong>Manganese (Mn)</strong> to evolve $H_2$ gas. This is a highly repeated NDA/CDS question!
+      </li>
+      <li style="margin-bottom: 10px;">
+        <strong>Important: Why Calcium and Magnesium Float on Water:</strong> When Calcium reacts with cold water or Magnesium reacts with hot water, they start floating. This is because the bubbles of hydrogen gas ($H_2$) formed during the reaction stick to the surface of the metal, lifting them upward.
+      </li>
+      <li style="margin-bottom: 0;">
+        <strong>Important: The Passivity of Aluminium:</strong> Aluminium ($Al$) is highly reactive (placed high in the series), yet it is widely used to make cooking utensils. This is because it reacts rapidly with atmospheric oxygen to form a thin, tough, and non-porous protective layer of <strong>Aluminium Oxide ($Al_2O_3$)</strong> on its surface, which prevents further corrosion.
+      </li>
+    </ul>
+  </div>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="list-style-type: none; padding-left: 0; color: var(--text-muted); line-height: 1.6;">
+    <li style="margin-bottom: 8px;"><strong>Order:</strong> <span style="color: var(--accent); font-family: monospace; font-weight: 600;">K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au</span></li>
+    <li style="margin-bottom: 8px;"><strong>Mnemonic:</strong> 
+      <div style="background: rgba(255,255,255,0.03); padding: 8px; border-radius: 4px; margin-top: 4px; font-style: italic;">
+        "<strong>P</strong>lease <strong>S</strong>top <strong>C</strong>alling <strong>M</strong>e <strong>A</strong> <strong>C</strong>areless <strong>Z</strong>ebra <strong>I</strong>nstead <strong>T</strong>ry <strong>L</strong>earning <strong>H</strong>ow <strong>C</strong>opper <strong>S</strong>aves <strong>G</strong>old"
+      </div>
+      <span style="font-size: 12px; color: var(--text-muted);">(Potassium, Sodium, Calcium, Magnesium, Aluminium, Carbon [ref], Zinc, Iron, Tin, Lead, Hydrogen, Copper, Silver, Gold)</span>
+    </li>
+    <li style="margin-bottom: 8px;"><strong>Displacement:</strong> More reactive replaces less reactive.</li>
+    <li style="margin-bottom: 8px;"><strong>Thermite Reaction (Displacement in Action):</strong> 
+      <span style="font-family: monospace; color: var(--info);">$Fe_2O_3(s) + 2Al(s) \\rightarrow Al_2O_3(s) + 2Fe(l) + \\text{Heat}$</span>. Highly exothermic displacement reaction used to join railway tracks.
+    </li>
+    <li style="margin-bottom: 8px;"><strong>Aqua Regia:</strong> A highly corrosive mixture of concentrated Hydrochloric acid ($HCl$) and concentrated Nitric acid ($HNO_3$) in a <strong>3:1 ratio</strong> by volume. It can dissolve noble metals like Gold and Platinum.</li>
+  </ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["carbon-compounds"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Carbon & its Compounds
+  </h3>
+
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+    Carbon is the undisputed cornerstone of organic chemistry and life on Earth. Positioned in Group 14 (IVA) of the Periodic Table with an atomic number of 6, carbon possesses a ground-state electronic configuration of 1s² 2s² 2p² (or 2, 4). With four valence electrons, carbon occupies a unique position: it cannot easily lose four electrons to form a C⁴⁺ cation (as this would require an exceptionally high amount of ionization energy), nor can it easily gain four electrons to form a C⁴⁻ anion (as a nucleus with 6 protons cannot stably hold 10 electrons due to intense inter-electronic repulsion). Consequently, carbon overcomes this energetic barrier by <strong>sharing electrons</strong> with other atoms, forming highly stable <strong>covalent bonds</strong>.
+  </p>
+
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+    The sheer diversity and vast number of carbon compounds (exceeding several millions) are attributed to two extraordinary properties: <strong>Catenation</strong> and <strong>Tetravalency</strong>. Catenation is the unique ability of carbon atoms to link with one another via strong covalent bonds to form exceptionally long, stable chains (branched, straight, or cyclic). While other elements like Silicon show catenation, their chains are highly reactive and unstable beyond 7–8 atoms because of their larger atomic size and weaker bond energy. Carbon, due to its small atomic radius, forms highly concentrated, strong C–C bonds (bond energy ~348 kJ/mol) that remain stable under standard conditions. Tetravalency allows carbon to bond with up to four other monovalent, divalent, or trivalent atoms (such as Hydrogen, Oxygen, Nitrogen, Sulfur, and Halogens), giving rise to an infinite array of molecular architectures.
+  </p>
+
+  <h4 style="color: var(--accent); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">1. Allotropes of Carbon</h4>
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+    Allotropy is the phenomenon where an element exists in two or more different physical forms in the same physical state, possessing identical chemical properties but vastly different physical properties. Carbon exhibits both crystalline and amorphous allotropes.
+  </p>
+
+  <div style="overflow-x: auto; margin-bottom: 20px;">
+    <table style="width: 100%; border-collapse: collapse; margin-top: 10px; color: var(--text-primary); font-size: 14px;">
+      <thead>
+        <tr style="background-color: rgba(255, 255, 255, 0.05); border-bottom: 2px solid var(--border);">
+          <th style="padding: 10px; text-align: left; font-weight: 600;">Property</th>
+          <th style="padding: 10px; text-align: left; font-weight: 600;">Diamond</th>
+          <th style="padding: 10px; text-align: left; font-weight: 600;">Graphite</th>
+          <th style="padding: 10px; text-align: left; font-weight: 600;">Buckminsterfullerene (C-60)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600;">Hybridization</td>
+          <td style="padding: 10px;">sp³</td>
+          <td style="padding: 10px;">sp²</td>
+          <td style="padding: 10px;">sp²</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background-color: rgba(255, 255, 255, 0.02);">
+          <td style="padding: 10px; font-weight: 600;">Geometry</td>
+          <td style="padding: 10px;">3D Rigid Tetrahedral network</td>
+          <td style="padding: 10px;">2D Hexagonal planar sheets</td>
+          <td style="padding: 10px;">Spherical (Soccer-ball shape / Geodesic dome)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600;">Electrical Conductivity</td>
+          <td style="padding: 10px;">Insulator (No free electrons)</td>
+          <td style="padding: 10px;">Excellent Conductor (1 free delocalized electron per carbon)</td>
+          <td style="padding: 10px;">Semiconductor at room temperature</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border); background-color: rgba(255, 255, 255, 0.02);">
+          <td style="padding: 10px; font-weight: 600;">Hardness & Texture</td>
+          <td style="padding: 10px;">Hardest naturally occurring substance</td>
+          <td style="padding: 10px;">Soft, slippery, and greasy (layers slide via weak Van der Waals forces)</td>
+          <td style="padding: 10px;">Dark, solid, moderately hard</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600;">Key Structural Detail</td>
+          <td style="padding: 10px;">C-C bond length: 1.54 Å</td>
+          <td style="padding: 10px;">C-C bond length: 1.42 Å; Interlayer distance: 3.40 Å</td>
+          <td style="padding: 10px;">Consists of 20 hexagons and 12 pentagons</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+    <strong>Graphene:</strong> A relatively recent and highly tested allotrope in NDA/CDS. It is a single, two-dimensional layer of carbon atoms arranged in a hexagonal honeycomb lattice. It is incredibly thin (one atom thick), about 200 times stronger than steel, and an exceptional conductor of heat and electricity.
+  </p>
+
+  <h4 style="color: var(--accent); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">2. Hydrocarbons & Homologous Series</h4>
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+    Hydrocarbons are organic compounds composed entirely of hydrogen and carbon. They are broadly classified into:
+  </p>
+  <ul style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px; padding-left: 20px; list-style-type: square;">
+    <li><strong>Saturated Hydrocarbons (Alkanes):</strong> Contain only single covalent bonds (C–C). They undergo <em>substitution reactions</em>. General formula: <strong>C<sub>n</sub>H<sub>2n+2</sub></strong>.</li>
+    <li><strong>Unsaturated Hydrocarbons:</strong> Contain at least one double bond (Alkenes: <strong>C<sub>n</sub>H<sub>2n</sub></strong>) or triple bond (Alkynes: <strong>C<sub>n</sub>H<sub>2n-2</sub></strong>). They are highly reactive and undergo <em>addition reactions</em> (e.g., hydrogenation of vegetable oils using Nickel/Palladium catalysts).</li>
+  </ul>
+
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+    A <strong>Homologous Series</strong> is a family of organic compounds sharing the same functional group and similar chemical properties, where successive members differ by a <strong>–CH₂– group</strong> (which corresponds to a difference of <strong>14 u</strong> in molecular mass). As the molecular mass increases within a homologous series, physical properties show a regular gradation: melting and boiling points increase due to the rise in molecular size and corresponding Van der Waals forces of attraction.
+  </p>
+
+  <h4 style="color: var(--accent); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">3. Chemical Properties & Key Reactions</h4>
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+    NDA and CDS chemistry papers frequently test specific chemical transformations of carbon compounds:
+  </p>
+  <ul style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px; padding-left: 20px; list-style-type: decimal;">
+    <li style="margin-bottom: 8px;">
+      <strong>Combustion:</strong> Carbon and its compounds burn in oxygen to release carbon dioxide, water vapor, heat, and light.
+      <br><span style="font-family: monospace; background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px;">CH₄ + 2O₂ → CO₂ + 2H₂O + Heat + Light</span>
+      <br><em style="font-size: 13px; color: var(--text-secondary);">Note: Saturated hydrocarbons burn with a clean blue flame, while unsaturated hydrocarbons burn with a yellow, sooty flame due to incomplete combustion.</em>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong>Oxidation:</strong> Alcohols can be oxidized to carboxylic acids using strong oxidizing agents like alkaline Potassium Permanganate (KMnO₄) or acidified Potassium Dichromate (K₂Cr₂O₇).
+      <br><span style="font-family: monospace; background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px;">CH₃CH₂OH + 2[O] → CH₃COOH + H₂O</span>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong>Esterification:</strong> A carboxylic acid reacts with an alcohol in the presence of an acid catalyst (conc. H₂SO₄) to form a sweet-smelling compound called an <strong>Ester</strong>.
+      <br><span style="font-family: monospace; background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px;">CH₃COOH (Ethanoic Acid) + C₂H₅OH (Ethanol) → CH₃COOC₂H₅ (Ethyl Ethanoate) + H₂O</span>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong>Saponification:</strong> The alkaline hydrolysis of an ester to yield back the alcohol and the sodium salt of the carboxylic acid (soap).
+      <br><span style="font-family: monospace; background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px;">CH₃COOC₂H₅ + NaOH → CH₃COONa (Soap) + C₂H₅OH</span>
+    </li>
+  </ul>
+
+  <h4 style="color: var(--accent); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">4. Soaps and Detergents</h4>
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+    <strong>Soaps</strong> are sodium or potassium salts of long-chain carboxylic acids (fatty acids like stearic, palmitic, or oleic acid). A soap molecule has a dual nature:
+  </p>
+  <ul style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px; padding-left: 20px; list-style-type: disc;">
+    <li><strong>Hydrophilic Head:</strong> The ionic part (–COO⁻Na⁺) which is water-loving and points outwards.</li>
+    <li><strong>Hydrophobic Tail:</strong> The long hydrocarbon chain which is water-repelling (oil-loving) and points inwards, trapping dirt/grease.</li>
+  </ul>
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+    In water, these molecules cluster to form spherical aggregates called <strong>micelles</strong>. 
+    <br><strong>The Hard Water Problem:</strong> Hard water contains calcium (Ca²⁺) and magnesium (Mg²⁺) ions. When soap is added, it reacts with these ions to form an insoluble, sticky precipitate called <strong>scum</strong>, rendering the soap ineffective. <strong>Detergents</strong> (ammonium or sulfonate salts of long-chain carboxylic acids) solve this because their charged groups do not form insoluble precipitates with Ca²⁺ and Mg²⁺ ions, making them highly effective even in hard water.
+  </p>
+
+  <div style="background: rgba(0, 180, 216, 0.1); border-left: 4px solid var(--info); padding: 12px; margin: 20px 0; border-radius: 4px;">
+    <strong style="color: var(--info); display: block; margin-bottom: 6px;">Note: Exam Trap & Concept Booster</strong>
+    <p style="margin: 0; font-size: 14px; line-height: 1.5; color: var(--text-primary);">
+      <strong>Coal & Petroleum Gases:</strong> Frequently asked in CDS/NDA! 
+      <br>• <strong>LPG (Liquefied Petroleum Gas):</strong> Primarily composed of <strong>Butane</strong> and Propane. Ethyl mercaptan (C₂H₅SH) is added to give it a foul smell for leak detection.
+      <br>• <strong>CNG (Compressed Natural Gas) & Biogas:</strong> Primarily composed of <strong>Methane (CH₄)</strong>.
+      <br>• <strong>Water Gas:</strong> CO + H₂ | <strong>Producer Gas:</strong> CO + N₂.
+    </p>
+  </div>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  <ul style="line-height: 1.6; color: var(--text-primary); padding-left: 20px; list-style-type: circle;">
+    <li><strong>Alkanes:</strong> C<sub>n</sub>H<sub>2n+2</sub> (Saturated, single bonds, undergo substitution)</li>
+    <li><strong>Alkenes:</strong> C<sub>n</sub>H<sub>2n</sub> (Unsaturated, double bond, undergo addition)</li>
+    <li><strong>Alkynes:</strong> C<sub>n</sub>H<sub>2n-2</sub> (Unsaturated, triple bond, undergo addition)</li>
+    <li><strong>Diamond:</strong> sp³ hybridization, tetrahedral, electrical insulator</li>
+    <li><strong>Graphite:</strong> sp² hybridization, hexagonal planar, electrical conductor</li>
+    <li><strong>Fullerene:</strong> C-60, sp² hybridization, soccer-ball shape</li>
+    <li><strong>Esterification:</strong> Acid + Alcohol → Ester + Water (catalyzed by conc. H₂SO₄)</li>
+    <li><strong>Glacial Acetic Acid:</strong> 100% pure ethanoic acid. It freezes at 290 K (17°C), forming ice-like crystals.</li>
+    <li><strong>Denatured Alcohol:</strong> Ethanol made unfit for drinking by adding poisonous substances like Methanol (CH₃OH) and copper sulfate (for color).</li>
+  </ul>
+</div>`;
+
+EXPANDED_NOTES_DATA["chemistry-numericals"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
+    <span>•</span> Mole Concept & Concentration Terms
+  </h3>
+
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+    In chemistry, we deal with atoms and molecules that are unimaginably small. To bridge the gap between the submicroscopic world of atoms and the macroscopic world of the laboratory, scientists use the <strong>Mole Concept</strong>. Just as we use the term "dozen" to denote a collection of 12 items, or a "gross" for 144 items, the <strong>Mole</strong> is the standard unit used to measure a massive quantity of extremely tiny entities like atoms, molecules, ions, or electrons. 
+  </p>
+
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+    One mole is defined as the amount of substance that contains exactly $6.02214076 \\times 10^{23}$ elementary entities. This specific number is known as <strong>Avogadro's Number ($N_A$)</strong>, named in honor of the Italian scientist Amedeo Avogadro. Historically, this value was determined as the number of atoms present in exactly 12 grams of the Carbon-12 ($^{12}\\text{C}$) isotope. Understanding this concept is the absolute foundation for solving stoichiometry and chemical arithmetic questions in the NDA, CDS, and AFCAT exams.
+  </p>
+
+  <h4 style="color: var(--accent); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">1. The Core Pillars of the Mole Concept</h4>
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+    To master numerical problems, you must understand how to convert between mass, particles, and gas volume. These three pathways form the "Mole Triangle":
+  </p>
+  
+  <ul style="list-style-type: none; padding-left: 0; margin-bottom: 20px;">
+    <li style="margin-bottom: 12px; padding-left: 15px; border-left: 3px solid var(--accent);">
+      <strong>Pathway A: Mass to Moles (and vice versa)</strong><br>
+      The mass of one mole of a substance is its <strong>Molar Mass</strong> (expressed in grams/mol). 
+      $$\\text{Number of Moles } (n) = \\frac{\\text{Given Mass in grams } (m)}{\\text{Molar Mass } (M)}$$
+      <span style="font-size: 0.9em; color: var(--text-secondary);"><em>Example:</em> 44g of $\\text{CO}_2$ is exactly 1 mole because the molar mass of $\\text{CO}_2$ is $12 + (16 \\times 2) = 44\\text{ g/mol}$.</span>
+    </li>
+    <li style="margin-bottom: 12px; padding-left: 15px; border-left: 3px solid var(--accent);">
+      <strong>Pathway B: Number of Particles to Moles</strong><br>
+      To find the number of moles when the absolute count of atoms or molecules is given:
+      $$\\text{Number of Moles } (n) = \\frac{\\text{Given Number of Particles } (N)}{\\text{Avogadro's Number } (N_A)}$$
+    </li>
+    <li style="margin-bottom: 12px; padding-left: 15px; border-left: 3px solid var(--accent);">
+      <strong>Pathway C: Volume of Gas to Moles (At STP)</strong><br>
+      According to Avogadro's Law, equal volumes of all gases under the same conditions of temperature and pressure contain equal numbers of molecules. At Standard Temperature and Pressure (STP: $0^\\circ\\text{C}$ or $273.15\\text{ K}$ and $1\\text{ atm}$):
+      $$\\text{Number of Moles } (n) = \\frac{\\text{Volume of Gas at STP (in Liters)}}{22.4\\text{ L}}$$
+      <span style="font-size: 0.9em; color: var(--text-secondary);">*Note: Under modern IUPAC standards (at 1 bar pressure), this molar volume is $22.7\\text{ L}$, but NDA/CDS questions traditionally use the classical value of $22.4\\text{ L}$.</span>
+    </li>
+  </ul>
+
+  <h4 style="color: var(--accent); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">2. Concentration Terms of Solutions</h4>
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 16px;">
+    A solution is a homogeneous mixture of two or more substances. The component present in the larger amount is the <strong>solvent</strong>, and the component in the smaller amount is the <strong>solute</strong>. The concentration of a solution tells us exactly how much solute is dissolved in a given quantity of solvent or solution.
+  </p>
+
+  <div style="overflow-x: auto; margin-bottom: 20px;">
+    <table style="width: 100%; border-collapse: collapse; margin-top: 10px; color: var(--text-primary); background: rgba(10,10,15,0.3);">
+      <thead>
+        <tr style="border-bottom: 2px solid var(--border); background: rgba(255,255,255,0.05);">
+          <th style="padding: 10px; text-align: left; font-weight: 600;">Concentration Term</th>
+          <th style="padding: 10px; text-align: left; font-weight: 600;">Mathematical Formula</th>
+          <th style="padding: 10px; text-align: left; font-weight: 600;">Temperature Dependence</th>
+          <th style="padding: 10px; text-align: left; font-weight: 600;">Key Exam Insight</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600;">Molarity (M)</td>
+          <td style="padding: 10px;">$M = \\frac{\\text{Moles of Solute}}{\\text{Volume of Solution (L)}}$</td>
+          <td style="padding: 10px; color: #ff6b6b; font-weight: 600;">Temperature Dependent</td>
+          <td style="padding: 10px; font-size: 0.9em;">Volume expands/contracts with temperature changes, altering Molarity.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600;">Molality (m)</td>
+          <td style="padding: 10px;">$m = \\frac{\\text{Moles of Solute}}{\\text{Mass of Solvent (kg)}}$</td>
+          <td style="padding: 10px; color: #51cf66; font-weight: 600;">Temperature Independent</td>
+          <td style="padding: 10px; font-size: 0.9em;">Mass does not change with temperature. Highly preferred in thermodynamics.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600;">Normality (N)</td>
+          <td style="padding: 10px;">$N = \\frac{\\text{Gram Equivalents of Solute}}{\\text{Volume of Solution (L)}}$</td>
+          <td style="padding: 10px; color: #ff6b6b; font-weight: 600;">Temperature Dependent</td>
+          <td style="padding: 10px; font-size: 0.9em;">$N = \\text{Molarity} \\times \\text{n-factor}$. Used extensively in volumetric analysis.</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 10px; font-weight: 600;">Mole Fraction ($\\chi$)</td>
+          <td style="padding: 10px;">$\\chi_A = \\frac{n_A}{n_A + n_B}$</td>
+          <td style="padding: 10px; color: #51cf66; font-weight: 600;">Temperature Independent</td>
+          <td style="padding: 10px; font-size: 0.9em;">Dimensionless quantity. The sum of mole fractions of all components is always 1.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4 style="color: var(--accent); margin-top: 24px; margin-bottom: 12px; font-weight: 600;">3. Understanding the "n-factor" (Valency Factor)</h4>
+  <p style="line-height: 1.6; color: var(--text-primary); margin-bottom: 12px;">
+    The n-factor is crucial for converting Molarity to Normality. It depends entirely on the nature of the chemical species:
+  </p>
+  <ul style="list-style-type: square; padding-left: 20px; margin-bottom: 20px; color: var(--text-primary);">
+    <li style="margin-bottom: 8px;"><strong>For Acids (Basicity):</strong> The number of replaceable $\\text{H}^+$ ions per molecule of acid. <br><span style="color: var(--text-secondary);">$\\text{HCl} \\rightarrow n=1$; $\\text{H}_2\\text{SO}_4 \\rightarrow n=2$; $\\text{H}_3\\text{PO}_4 \\rightarrow n=3$.</span></li>
+    <li style="margin-bottom: 8px;"><strong>For Bases (Acidity):</strong> The number of replaceable $\\text{OH}^-$ ions per molecule of base. <br><span style="color: var(--text-secondary);">$\\text{NaOH} \\rightarrow n=1$; $\\text{Ca(OH)}_2 \\rightarrow n=2$.</span></li>
+    <li style="margin-bottom: 8px;"><strong>For Salts:</strong> The total positive or negative charge on the ions. <br><span style="color: var(--text-secondary);">$\\text{NaCl} \\rightarrow n=1$ (since $\\text{Na}^+$ has $+1$ charge); $\\text{Al}_2(\\text{SO}_4)_3 \\rightarrow n=6$ (two $\\text{Al}^{3+}$ ions give a total charge of $+6$).</span></li>
+  </ul>
+
+  <div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 15px; margin: 20px 0; border-radius: 4px;">
+    <strong style="color: #ffc107; display: block; margin-bottom: 6px;">Important: Exam Trap Alert!</strong>
+    <p style="margin: 0; font-size: 0.95em; line-height: 1.5; color: var(--text-primary);">
+      <strong>The Phosphorus Acid Trap:</strong> Do not assume the number of hydrogen atoms in an oxyacid of phosphorus equals its basicity! 
+      <br>• $\\text{H}_3\\text{PO}_4$ (Phosphoric acid) has 3 replaceable hydrogens $\\rightarrow n = 3$
+      <br>• $\\text{H}_3\\text{PO}_3$ (Phosphorous acid) is <em>dibasic</em> because only 2 hydrogens are bonded to oxygen $\\rightarrow n = 2$
+      <br>• $\\text{H}_3\\text{PO}_2$ (Hypophosphorous acid) is <em>monobasic</em> $\\rightarrow n = 1$
+      <br>UPSC loves testing this specific exception in CDS and NDA chemistry papers!
+    </p>
+  </div>
+
+  <div style="background: rgba(23, 162, 184, 0.1); border-left: 4px solid #17a2b8; padding: 15px; margin: 20px 0; border-radius: 4px;">
+    <strong style="color: #17a2b8; display: block; margin-bottom: 6px;">Note: Mnemonic for Temperature Dependence</strong>
+    <p style="margin: 0; font-size: 0.95em; line-height: 1.5; color: var(--text-primary);">
+      Remember: <strong>"MolaRity has an 'R' for Ruler (which measures Volume, which changes with temperature). MolaLity has an 'L' for Libra/Lb (which measures Mass, which is Loyal and never changes with temperature)."</strong>
+    </p>
+  </div>
+
+  <h4 style="border-left: 3px solid var(--info); padding-left: 8px; margin-top: 20px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">High-Yield Formulas & Facts</h4>
+  
+  <ul style="list-style-type: none; padding-left: 0; color: var(--text-primary); line-height: 1.7;">
+    <li style="margin-bottom: 8px; padding-left: 12px; text-indent: -12px;">
+      • <strong>Mole</strong> = $\\frac{\\text{mass}}{\\text{molar mass}}$
+    </li>
+    <li style="margin-bottom: 8px; padding-left: 12px; text-indent: -12px;">
+      • <strong>Avogadro's Constant ($N_A$)</strong> = $6.022 \\times 10^{23}$ particles/mol
+    </li>
+    <li style="margin-bottom: 8px; padding-left: 12px; text-indent: -12px;">
+      • <strong>Molarity (M)</strong> = $\\frac{\\text{moles of solute}}{\\text{volume of solution (L)}}$ <span style="color: #ff6b6b; font-weight: 500;">[Temp dependent]</span>
+    </li>
+    <li style="margin-bottom: 8px; padding-left: 12px; text-indent: -12px;">
+      • <strong>Molality (m)</strong> = $\\frac{\\text{moles of solute}}{\\text{mass of solvent (kg)}}$ <span style="color: #51cf66; font-weight: 500;">[Temp independent]</span>
+    </li>
+    <li style="margin-bottom: 8px; padding-left: 12px; text-indent: -12px;">
+      • <strong>Normality (N)</strong> = $\\text{Molarity} \\times \\text{n-factor}$
+    </li>
+    <li style="margin-bottom: 8px; padding-left: 12px; text-indent: -12px;">
+      • <strong>Dilution Formula:</strong> $M_1V_1 = M_2V_2$ (used when a concentrated solution is diluted with water)
+    </li>
+    <li style="margin-bottom: 8px; padding-left: 12px; text-indent: -12px;">
+      • <strong>Mixing Formula:</strong> $M_{\\text{result}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$ (for mixing two solutions of the same solute)
+    </li>
+    <li style="margin-bottom: 8px; padding-left: 12px; text-indent: -12px;">
+      • <strong>Density Relation:</strong> Molarity can be calculated from mass percentage ($x\\%$) and density ($d$ in g/mL) using: $M = \\frac{10 \\times x \\times d}{\\text{Molar Mass of solute}}$
+    </li>
+  </ul>
+</div>`;
+

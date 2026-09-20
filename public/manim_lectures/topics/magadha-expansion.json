@@ -1,0 +1,24 @@
+{
+    "id": "magadha-expansion",
+    "title": "Magadha Expansion",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "3. Ancient India",
+    "chapterId": "ancient-india-tree",
+    "blocks": [
+        {
+            "heading": "1. Dynasties",
+            "intro": "",
+            "bullets": [
+                "Haryanka Dynasty: Bimbisara (matrimonial alliances), Ajatashatru (patronised 1st Buddhist council).",
+                "Shishunaga Dynasty: Shifted capital to Vaishali, annexed Avanti.",
+                "Nanda Dynasty: Mahapadma Nanda (first empire builder, Ekarat), Dhana Nanda. Alexander the Great invaded India (326 BCE) during Dhana Nanda's reign, fought Battle of Hydaspes (Jhelum) with Porus."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Haryanka: Bimbisara | Nanda: Mahapadma Nanda | Hydaspes: 326 BCE (Alexander vs Porus)"
+    ],
+    "hasNotes": true
+}

@@ -1,0 +1,51 @@
+{
+    "id": "vedic-age",
+    "title": "Vedic Age",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "3. Ancient India",
+    "chapterId": "ancient-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83c\udf3e The Vedic Age",
+            "intro": "Reconstructed using the Vedas. Divided into Early Vedic (1500-1000 BCE) and Later Vedic (1000-600 BCE) periods.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Early Vedic Period (1500 - 1000 BCE)",
+            "intro": "",
+            "bullets": [
+                "Geography: Settled in the **Sapta-Sindhu** region (Land of 7 Rivers: Indus, Saraswati, and 5 rivers of Punjab).",
+                "Polity: Tribal structure. King (Rajan) was not absolute, advised by assemblies: **Sabha** (council of elders), **Samiti** (general tribal assembly), and **Vidatha** (oldest folk assembly). Women attended Sabha/Vidatha.",
+                "Society & Economy: Pastoral economy. Cattle (Gau) was the main form of wealth (wars fought for cows called Gavisthi ). Society was egalitarian; caste system (Varna) was flexible, based on occupation, not birth."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Later Vedic Period (1000 - 600 BCE)",
+            "intro": "",
+            "bullets": [
+                "Geography: Shifted eastward to the Gangetic Valley (Aryavarta). Use of iron (called Shyama Ayas ) cleared thick forests.",
+                "Polity: Territorial kingdoms (Janapadas) emerged. Royal power increased. Sabha and Samiti lost power; Vidatha was abolished. Women were no longer allowed to attend assemblies.",
+                "Society & Economy: Transition to an agrarian economy. Caste system became rigid and hereditary, split into 4 Varnas (Brahmins, Kshatriyas, Vaishyas, Shudras). 4 Ashramas (stages of life) emerged."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Vedic Literature",
+            "intro": "",
+            "bullets": [
+                "Four Vedas: Rigveda (hymns), Samaveda (music/chants), Yajurveda (rituals), Atharvaveda (magic/spells).",
+                "Brahmanas: Prose texts explaining the rituals of the Vedas.",
+                "Aranyakas: Forest books dealing with mysticism and philosophy.",
+                "Upanishads: Philosophical texts (Vedanta). Total 108. **\"Satyameva Jayate\"** is in **Mundaka Upanishad**."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Rigveda oldest | Mundaka Upanishad: Satyameva Jayate | Early Vedic: pastoral | Later Vedic: iron farming"
+    ],
+    "hasNotes": true
+}

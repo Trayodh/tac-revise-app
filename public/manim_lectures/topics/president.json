@@ -1,0 +1,54 @@
+{
+    "id": "president",
+    "title": "The President of India (Art 52-62)",
+    "subject": "Indian Polity (CDS/NDA)",
+    "subjectId": "polity",
+    "chapter": "Union Government",
+    "chapterId": "union-executive",
+    "blocks": [
+        {
+            "heading": "1. Election of the President (Article 54)",
+            "intro": "The President is elected not directly by the people, but by members of an **Electoral College** consisting of:",
+            "bullets": [
+                "Elected members of both Houses of Parliament (Lok Sabha & Rajya Sabha).",
+                "Elected members of the Legislative Assemblies of the States (MLAs).",
+                "Elected members of the Legislative Assemblies of the Union Territories of Delhi and Puducherry (and Jammu & Kashmir)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Impeachment of the President (Article 61)",
+            "intro": "",
+            "bullets": [
+                "The President can be removed from office for **'violation of the Constitution'**.",
+                "The impeachment charges can be initiated in **either House of Parliament**.",
+                "The charges must be signed by **one-fourth of the members** of the initiating House and a **14-day notice** must be given to the President.",
+                "To pass, the resolution must be approved by a majority of **not less than two-thirds of the total membership** of the House.",
+                "It is then investigated by the other House, and if passed there by a **2/3rd majority of the total membership**, the President stands removed."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Veto Powers (Article 111)",
+            "intro": "",
+            "bullets": [
+                "Absolute Veto : Withholding assent to the Bill (the Bill ends and does not become law).",
+                "Suspensive Veto : Returning the Bill to Parliament for reconsideration. If Parliament passes the Bill again with or without amendments by a **simple majority**, the President **must** give assent. (Cannot be used for Money Bills).",
+                "Pocket Veto : Keeping the Bill pending on his desk indefinitely (taking no action). The Indian President has a larger pocket veto than the US President because the US President must return the bill within 10 days, while the Indian Constitution specifies no time limit."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "4. Pardon Powers (Article 72)",
+            "intro": "The President has the power to grant pardons, reprieves, respites, or remissions of punishment, or to suspend, remit, or commute sentences in all cases involving Court Martial, offences against Union laws, and death sent",
+            "bullets": [],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Electoral College = Elected MPs + Elected MLAs.",
+        "Impeachment = Art 61 (2/3 of Total Membership required).",
+        "Pardon Powers = Art 72."
+    ],
+    "hasNotes": true
+}

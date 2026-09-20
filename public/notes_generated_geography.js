@@ -1,28 +1,197 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-window.EXPANDED_NOTES_DATA["universe-solar-system"] = String.raw`<h1>Universe and Solar System (Advanced Geography)</h1>
+window.EXPANDED_NOTES_DATA["universe-solar-system"] = String.raw`<h1>The Universe & Solar System</h1>
 <hr />
-<h2>The Universe</h2>
-<p>The study of the universe is called Cosmology. The Big Bang Theory (Georges Lemaître) is the most widely accepted theory of the origin of the universe, suggesting it expanded from a tiny, dense, and hot singularity around 13.8 billion years ago.</p>
-
-<h3>Key Concepts (CDS/NDA Focus)</h3>
+<h2>Origin of the Universe</h2>
+<p>The most widely accepted scientific model for the origin and evolution of the universe is the <strong>Big Bang Theory</strong>. First proposed by Belgian Catholic priest and astronomer Georges Lemaître in 1927, and later significantly developed by Edwin Hubble and others, this theory posits that the universe began as an extremely hot, dense singularity approximately 13.8 billion years ago. From this initial state, the universe has been continuously expanding and cooling, leading to the formation of all matter, energy, space, and time as we know it.</p>
+<p>The Big Bang is not an explosion *in* space, but rather an expansion *of* space itself. This expansion caused the initial incredibly dense and hot state to cool, allowing fundamental particles to form, then atoms, and eventually stars, galaxies, and larger cosmic structures. The theory describes the universe's evolution from its earliest moments to its current large-scale structure.</p>
+<h3>Key Stages of the Big Bang and Universal Evolution</h3>
 <ul>
-  <li><strong>Light Year:</strong> Distance light travels in one year (9.46 x 10^12 km). A unit of DISTANCE, not time.</li>
-  <li><strong>Astronomical Unit (AU):</strong> Average distance between Earth and Sun (149.6 million km).</li>
-  <li><strong>Parsec:</strong> Largest unit of distance (3.26 light years).</li>
-  <li><strong>Chandrasekhar Limit:</strong> Maximum mass of a stable white dwarf star (1.44 times the mass of the Sun).</li>
+  <li><strong>Planck Epoch (0 to 10<sup>-43</sup> seconds):</strong> The earliest known period of the universe, where all four fundamental forces (gravity, strong nuclear, weak nuclear, electromagnetic) are believed to have been unified. Current physics cannot fully describe this epoch.</li>
+  <li><strong>Grand Unification Epoch (10<sup>-43</sup> to 10<sup>-36</sup> seconds):</strong> Gravity separates from the other three forces, which remain unified as the 'electronuclear force'.</li>
+  <li><strong>Inflationary Epoch (10<sup>-36</sup> to 10<sup>-32</sup> seconds):</strong> The universe undergoes an extremely rapid, exponential expansion, growing by a factor of at least 10<sup>26</sup>. This rapid expansion smoothed out initial inhomogeneities and explains the observed flatness and homogeneity of the universe.</li>
+  <li><strong>Electroweak Epoch (10<sup>-32</sup> to 10<sup>-12</sup> seconds):</strong> The strong nuclear force separates. The universe is still a hot, dense plasma of quarks, leptons, and their antiparticles.</li>
+  <li><strong>Quark Epoch (10<sup>-12</sup> to 10<sup>-6</sup> seconds):</strong> All four fundamental forces have separated. Quarks, leptons, and their antiparticles dominate, but are too energetic to form stable hadrons.</li>
+  <li><strong>Hadron Epoch (10<sup>-6</sup> to 1 second):</strong> The universe cools enough for quarks to combine and form hadrons (protons and neutrons) and their antiparticles. Matter-antimatter annihilation occurs, leaving a small surplus of matter.</li>
+  <li><strong>Lepton Epoch (1 second to 3 minutes):</strong> Leptons (electrons, neutrinos) and their antiparticles dominate the mass of the universe. Further annihilation occurs.</li>
+  <li><strong>Nucleosynthesis (3 minutes to 20 minutes):</strong> The universe cools sufficiently for protons and neutrons to fuse, forming the nuclei of light elements, primarily hydrogen (deuterium and tritium isotopes) and helium, along with trace amounts of lithium. This process stopped as the universe continued to expand and cool.</li>
+  <li><strong>Recombination/Decoupling (380,000 years):</strong> The universe cools enough for electrons to combine with atomic nuclei, forming stable, neutral atoms (mostly hydrogen and helium). This event made the universe transparent to light for the first time, releasing the photons that we now observe as the Cosmic Microwave Background (CMB) radiation.</li>
+  <li><strong>Dark Ages (380,000 years to ~150 million years):</strong> After recombination, the universe was filled with neutral hydrogen and helium gas, but no stars had yet formed to emit light. This period is characterized by a lack of luminous sources.</li>
+  <li><strong>Reionization and Structure Formation (~150 million years onwards):</strong> The first stars and quasars begin to form, emitting intense ultraviolet radiation that reionizes the neutral hydrogen gas. Gravity amplifies slight density fluctuations, leading to the formation of galaxies, galaxy clusters, and the large-scale structure of the universe we observe today.</li>
+</ul>
+<h3>Evidence Supporting the Big Bang Theory</h3>
+<ul>
+  <li><strong>Cosmic Microwave Background (CMB) Radiation:</strong> Discovered serendipitously by Arno Penzias and Robert Wilson in 1964, the CMB is a faint glow of microwave radiation filling the entire universe. It is interpreted as the residual heat or "afterglow" from the Big Bang, specifically from the epoch of recombination when the universe became transparent. Its nearly uniform temperature (around 2.725 Kelvin) across the sky, with tiny fluctuations, provides a snapshot of the early universe.</li>
+  <li><strong>Expansion of the Universe (Hubble's Law):</strong> Edwin Hubble's observations in the late 1920s showed that galaxies are moving away from us, and the farther away a galaxy is, the faster it recedes. This phenomenon, known as redshift (due to the Doppler effect for light), is direct evidence of an expanding universe, consistent with the Big Bang model. Hubble's Law (v = H<sub>0</sub>d) quantifies this relationship, where 'v' is the recessional velocity, 'd' is the proper distance, and H<sub>0</sub> is the Hubble constant.</li>
+  <li><strong>Abundance of Light Elements:</strong> The Big Bang theory accurately predicts the observed cosmic abundances of light elements like hydrogen (approximately 75%), helium (approximately 24%), and trace amounts of lithium. These elements were formed during the Big Bang Nucleosynthesis phase, and their ratios are a strong confirmation of the theory.</li>
+  <li><strong>Large-Scale Structure of the Universe:</strong> The distribution of galaxies, galaxy clusters, and superclusters throughout the cosmos, forming a cosmic web, is consistent with the gravitational amplification of initial quantum fluctuations predicted by the Big Bang and inflationary models.</li>
 </ul>
 
-<div style="background-color:#e8f5e9; padding:15px; border-left:5px solid #4caf50; margin:15px 0;">
-  <strong>🪐 Solar System Facts Often Asked:</strong><br>
-  - Hottest Planet: Venus (due to runaway greenhouse effect).<br>
-  - Densest Planet: Earth.<br>
-  - Least Dense Planet: Saturn (would float on water).<br>
-  - Fastest Rotation: Jupiter.<br>
-  - Slowest Rotation: Venus.<br>
-  - Retrograde Rotation: Venus and Uranus (East to West).
+<h2>The Solar System</h2>
+<p>Our solar system is a gravitationally bound system comprising the Sun and the objects that orbit it, either directly or indirectly. It is located in the Orion Arm (also known as the Local Arm or Orion Spur), a minor spiral arm of the Milky Way galaxy. The Milky Way itself is a barred spiral galaxy, approximately 100,000 light-years in diameter, containing an estimated 100-400 billion stars.</p>
+<h3>Formation of the Solar System (Nebular Hypothesis)</h3>
+<p>The most widely accepted theory for the formation of the Solar System is the Nebular Hypothesis. This theory suggests that about 4.6 billion years ago, the Solar System formed from the gravitational collapse of a giant interstellar molecular cloud, a vast rotating cloud of gas and dust. As the cloud collapsed, it began to spin faster and flatten into a protoplanetary disk. The central mass accumulated to form the Sun, while the remaining material in the disk gradually accreted to form the planets, dwarf planets, asteroids, and other minor bodies.</p>
+<ul>
+  <li><strong>Accretion:</strong> Dust grains and ice particles in the disk collided and stuck together, gradually growing into larger planetesimals (small celestial bodies).</li>
+  <li><strong>Differentiation:</strong> As planetesimals grew, their internal temperatures rose due to impacts and radioactive decay, leading to melting and differentiation, where denser materials (like iron and nickel) sank to the core, and lighter materials floated to the surface.</li>
+  <li><strong>Solar Wind:</strong> After the Sun ignited, a strong solar wind swept away much of the remaining gas and dust from the inner Solar System, explaining why terrestrial planets are rocky and gas giants are farther out.</li>
+</ul>
+<h3>Components of the Solar System</h3>
+<p>The Solar System consists primarily of the Sun, eight planets, five officially recognized dwarf planets, over 200 known natural satellites (moons), and millions of small Solar System bodies including asteroids, comets, and meteoroids.</p>
+<ul>
+  <li><strong>The Sun:</strong> The central star of our solar system, a G-type main-sequence star. It constitutes about 99.86% of the total mass of the Solar System. Its immense gravity holds all the planets and other bodies in orbit. The Sun generates energy through nuclear fusion (converting hydrogen to helium) in its core, providing light and heat essential for life on Earth.</li>
+  <li><strong>Planets:</strong> Eight celestial bodies that orbit the Sun, are massive enough to be rounded by their own gravity, and have cleared their orbital neighborhood of other debris. They are divided into two main groups:</li>
+  <ul>
+    <li><strong>Terrestrial Planets (Inner Planets):</strong> Mercury, Venus, Earth, Mars.
+      <ul>
+        <li><strong>Characteristics:</strong> These planets are relatively small, dense, and composed primarily of silicate rocks and metals. They have solid surfaces, distinct atmospheres (though varying greatly in density), and relatively few or no moons. They lack ring systems. Their proximity to the Sun means they formed in regions where volatile compounds (like ice) could not condense, leading to their rocky composition.</li>
+      </ul>
+    </li>
+    <li><strong>Jovian Planets (Outer Planets):</strong> Jupiter, Saturn, Uranus, Neptune.
+      <ul>
+        <li><strong>Characteristics:</strong> These are massive planets, often referred to as "gas giants" (Jupiter and Saturn) or "ice giants" (Uranus and Neptune). They are composed primarily of hydrogen, helium, methane, and ammonia, with small rocky cores. They have no solid surface, rotate rapidly, possess extensive ring systems, and have numerous natural satellites. Their formation further from the Sun allowed them to accrete large amounts of lighter, volatile materials.</li>
+      </ul>
+    </li>
+  </ul>
+</ul>
+
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+  <strong>🔥 High-Yield Fact:</strong> An asteroid belt separates the inner planets from the outer planets, located roughly between the orbits of <strong>Mars and Jupiter</strong>. This region contains millions of irregularly shaped rocky bodies, remnants from the early Solar System that failed to coalesce into a planet due to Jupiter's strong gravitational influence.
 </div>
-`;
+
+<h3>Other Solar System Objects</h3>
+<ul>
+  <li><strong>Dwarf Planets:</strong> Celestial bodies that orbit the Sun, are massive enough to be rounded by their own gravity, but have not cleared their orbital neighborhood. The five officially recognized dwarf planets are Pluto, Eris, Ceres, Makemake, and Haumea.
+    <ul>
+      <li><strong>Pluto:</strong> Formerly considered the ninth planet, reclassified in 2006. It is a Kuiper Belt Object (KBO) with a highly eccentric and inclined orbit, and has five known moons, including Charon.</li>
+      <li><strong>Ceres:</strong> The largest object in the asteroid belt, also classified as a dwarf planet.</li>
+    </ul>
+  </li>
+  <li><strong>Asteroids:</strong> Rocky, airless remnants left over from the early formation of our solar system. Most are found in the main asteroid belt between Mars and Jupiter. They vary greatly in size, from Vesta (about 530 km in diameter) to tiny pebbles.
+    <ul>
+      <li><strong>Types:</strong> C-type (carbonaceous, most common), S-type (silicaceous, stony), M-type (metallic).</li>
+      <li><strong>Trojan Asteroids:</strong> Share an orbit with a larger planet (like Jupiter) but do not collide with it because they orbit in gravitationally stable points (Lagrange points).</li>
+    </ul>
+  </li>
+  <li><strong>Comets:</strong> Icy, small solar system bodies that, when passing close to the Sun, warm up and begin to outgas, displaying a visible atmosphere or coma, and sometimes a tail. They are often described as "dirty snowballs."
+    <ul>
+      <li><strong>Composition:</strong> Primarily ice (water, methane, ammonia, carbon dioxide), dust, and rocky particles.</li>
+      <li><strong>Tail Formation:</strong> The solar wind pushes gas and dust away from the comet, forming a dust tail (broad, curved, reflects sunlight) and an ion tail (straight, blue, glows due to ionized gas). Both tails always point away from the Sun.</li>
+      <li><strong>Origin:</strong> Most comets originate from the Kuiper Belt (short-period comets) or the Oort Cloud (long-period comets). Halley's Comet is a famous short-period comet.</li>
+    </ul>
+  </li>
+  <li><strong>Meteoroids, Meteors, and Meteorites:</strong>
+    <ul>
+      <li><strong>Meteoroid:</strong> A small rocky or metallic body in outer space, ranging in size from dust grains to about 1 meter in diameter.</li>
+      <li><strong>Meteor:</strong> The streak of light created when a meteoroid enters Earth's atmosphere and burns up due to friction (commonly called a "shooting star").</li>
+      <li><strong>Meteorite:</strong> A meteoroid that survives its passage through the atmosphere and impacts the Earth's surface.</li>
+    </ul>
+  </li>
+  <li><strong>Kuiper Belt:</strong> A vast ring of icy bodies, including dwarf planets like Pluto, located beyond the orbit of Neptune. It is a source of short-period comets.</li>
+  <li><strong>Oort Cloud:</strong> A theoretical spherical cloud of icy planetesimals believed to surround the Sun at a distance of up to 100,000 AU (Astronomical Units). It is thought to be the source of long-period comets.</li>
+</ul>
+
+<h3>Key Planetary Facts</h3>
+<ul>
+  <li><strong>Mercury:</strong>
+    <ul>
+      <li><strong>Closest to the Sun:</strong> Orbits the Sun faster than any other planet (orbital period of ~88 Earth days).</li>
+      <li><strong>Smallest Planet:</strong> Slightly larger than Earth's Moon.</li>
+      <li><strong>Extreme Temperatures:</strong> Lacks a substantial atmosphere, leading to extreme temperature variations between day (up to 430°C) and night (down to -180°C).</li>
+      <li><strong>Surface:</strong> Heavily cratered, resembling the Moon. Features include the Caloris Basin, one of the largest impact basins in the Solar System.</li>
+      <li><strong>No Moons or Rings.</strong></li>
+      <li><strong>Composition:</strong> Dense, with a large iron core.</li>
+    </ul>
+  </li>
+  <li><strong>Venus:</strong>
+    <ul>
+      <li><strong>Hottest Planet:</strong> Despite being farther from the Sun than Mercury, Venus has a runaway greenhouse effect caused by a thick atmosphere composed primarily of carbon dioxide (96.5%). This traps heat, leading to surface temperatures averaging 462°C, hot enough to melt lead.</li>
+      <li><strong>Earth's "Twin":</strong> Similar in size, mass, and bulk composition to Earth, hence often called its "sister planet."</li>
+      <li><strong>Retrograde Rotation:</strong> Unique among major planets, Venus rotates very slowly in the opposite direction (east to west) to most other planets. Its day is longer than its year.</li>
+      <li><strong>Thick Atmosphere:</strong> Dense clouds of sulfuric acid obscure the surface, leading to extremely high atmospheric pressure (92 times that of Earth at sea level).</li>
+      <li><strong>No Moons or Rings.</strong></li>
+    </ul>
+  </li>
+  <li><strong>Earth:</strong>
+    <ul>
+      <li><strong>The "Blue Planet":</strong> Unique for supporting liquid water on its surface and hosting life.</li>
+      <li><strong>Atmosphere:</strong> Composed primarily of nitrogen (78%) and oxygen (21%), providing a breathable environment and protecting from solar radiation.</li>
+      <li><strong>Plate Tectonics:</strong> The only known planet with active plate tectonics, which recycles crustal material and influences geology and climate.</li>
+      <li><strong>Magnetic Field:</strong> A strong magnetosphere protects the planet from harmful solar wind and cosmic rays.</li>
+      <li><strong>One Moon:</strong> The Moon, which stabilizes Earth's axial tilt and influences tides.</li>
+    </ul>
+  </li>
+  <li><strong>Mars:</strong>
+    <ul>
+      <li><strong>The "Red Planet":</strong> Its distinctive reddish-orange hue is due to iron oxide (rust) prevalent on its surface.</li>
+      <li><strong>Thin Atmosphere:</strong> Primarily carbon dioxide, much thinner than Earth's, leading to significant temperature fluctuations.</li>
+      <li><strong>Polar Ice Caps:</strong> Contains both water ice and frozen carbon dioxide (dry ice) at its poles.</li>
+      <li><strong>Evidence of Past Water:</strong> Geological features like dry riverbeds, deltas, and mineral deposits strongly suggest that liquid water once flowed extensively on Mars's surface.</li>
+      <li><strong>Two Moons:</strong> Phobos and Deimos, which are small, irregularly shaped, and believed to be captured asteroids.</li>
+      <li><strong>Notable Features:</strong> Olympus Mons (the largest volcano and highest known mountain in the Solar System) and Valles Marineris (an extensive canyon system).</li>
+    </ul>
+  </li>
+  <li><strong>Jupiter:</strong>
+    <ul>
+      <li><strong>Largest Planet:</strong> More than twice as massive as all the other planets combined.</li>
+      <li><strong>Gas Giant:</strong> Composed mainly of hydrogen and helium, with no solid surface.</li>
+      <li><strong>Great Red Spot:</strong> A colossal, persistent anticyclonic storm larger than Earth, observed for at least 350 years.</li>
+      <li><strong>Strong Magnetic Field:</strong> The strongest planetary magnetic field in the Solar System, generated by metallic hydrogen in its interior.</li>
+      <li><strong>Fastest Rotation:</strong> Rotates very rapidly (once every ~10 hours), causing it to bulge at the equator.</li>
+      <li><strong>Extensive Moon System:</strong> Has at least 95 confirmed moons. The four largest, known as the Galilean Moons (discovered by Galileo Galilei), are:
+        <ul>
+          <li><strong>Io:</strong> The most volcanically active body in the Solar System, due to tidal heating from Jupiter's gravity.</li>
+          <li><strong>Europa:</strong> Believed to harbor a vast subsurface ocean of liquid water, making it a prime candidate for extraterrestrial life.</li>
+          <li><strong>Ganymede:</strong> The largest moon in the Solar System (larger than Mercury), and the only moon known to have its own magnetic field.</li>
+          <li><strong>Callisto:</strong> Heavily cratered and geologically inactive.</li>
+        </ul>
+      </li>
+      <li><strong>Faint Ring System:</strong> Discovered by Voyager 1, composed of dust particles.</li>
+    </ul>
+  </li>
+  <li><strong>Saturn:</strong>
+    <ul>
+      <li><strong>Prominent Ring System:</strong> Famous for its spectacular and complex system of rings, composed primarily of billions of small particles of ice and rock, ranging in size from micrometers to meters.</li>
+      <li><strong>Second Largest Planet:</strong> Also a gas giant, primarily hydrogen and helium.</li>
+      <li><strong>Lowest Density:</strong> The only planet in our Solar System less dense than water (it would float if placed in a large enough body of water).</li>
+      <li><strong>Many Moons:</strong> Has at least 146 confirmed moons.
+        <ul>
+          <li><strong>Titan:</strong> Saturn's largest moon and the second-largest moon in the Solar System. It is unique for having a dense, nitrogen-rich atmosphere and stable bodies of liquid methane and ethane on its surface, making it Earth-like in some ways.</li>
+          <li><strong>Enceladus:</strong> Exhibits cryovolcanism, spewing plumes of water ice and organic molecules from its south pole, suggesting a subsurface ocean.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Uranus:</strong>
+    <ul>
+      <li><strong>Rotates on its Side:</strong> Its most distinctive feature is its extreme axial tilt of approximately 98 degrees, causing it to effectively roll around the Sun like a barrel. This is thought to be the result of a massive collision early in its history.</li>
+      <li><strong>"Ice Giant":</strong> Composed primarily of various ices (water, ammonia, methane) over a small rocky core, with a hydrogen and helium atmosphere.</li>
+      <li><strong>Blue-Green Color:</strong> Due to the presence of methane in its atmosphere, which absorbs red light and reflects blue-green light.</li>
+      <li><strong>Faint Ring System:</strong> Has 13 known faint rings.</li>
+      <li><strong>Moons:</strong> Named after characters from Shakespearean plays and works by Alexander Pope (e.g., Titania, Oberon, Miranda).</li>
+    </ul>
+  </li>
+  <li><strong>Neptune:</strong>
+    <ul>
+      <li><strong>Farthest Planet:</strong> Currently the farthest known major planet from the Sun (Pluto's eccentric orbit sometimes brings it closer than Neptune).</li>
+      <li><strong>"Ice Giant":</strong> Similar in composition to Uranus, with a deep blue color due to a higher concentration of methane in its atmosphere.</li>
+      <li><strong>Strong Winds:</strong> Known for the fastest winds in the Solar System, reaching speeds of over 2,000 km/h.</li>
+      <li><strong>Great Dark Spot:</strong> A large, Earth-sized storm system observed by Voyager 2, similar to Jupiter's Great Red Spot but transient.</li>
+      <li><strong>Faint Ring System:</strong> Has five main rings.</li>
+      <li><strong>Largest Moon, Triton:</strong> Unique for its retrograde orbit (orbits in the opposite direction of Neptune's rotation) and cryovolcanism, suggesting a subsurface ocean.</li>
+    </ul>
+  </li>
+</ul>
+
+<div style="background-color:#e2e3e5; padding:15px; border-left:5px solid #6c757d; margin:15px 0;">
+  <strong>⚡ PYQ Insight:</strong> (NDA 2021) "Which planet takes the longest time to revolve around the Sun?" Answer: <strong>Neptune</strong> (approx. 165 Earth years). This is a direct consequence of Kepler's Third Law of Planetary Motion, which states that the square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit. Simply put, the farther a planet is from the Sun, the longer its orbital period.
+</div>
+
+<div style="background-color:#e3f2fd; padding:15px; border-left:5px solid #2196f3; margin:15px 0;">
+  <strong>🧠 Mnemonic to remember the order of planets from the Sun:</strong><br>
+  <strong>M</strong>y <strong>V</strong>ery <strong>E</strong>ducated <strong>M</strong>other <strong>J</strong>ust <strong>S</strong>erved <strong>U</strong>s <strong>N</strong>oodles.<br>
+  (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune).
+</div>`;
 
 window.EXPANDED_NOTES_DATA["earth-atmosphere"] = String.raw`<h1>Earth's Atmosphere & Interior</h1>
 <hr />

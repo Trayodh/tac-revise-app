@@ -1,0 +1,19 @@
+{
+  "title": "Classification of Small Celestial Bodies",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "The Universe & Solar System",
+  "topic": "Other Celestial Bodies",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Small Celestial Bodies] --> B[Asteroids]\n    A --> C[Comets]\n    A --> D[Meteoroids]\n    D --> E[Meteors]\n    D --> F[Meteorites]",
+  "mapQuery": "",
+  "description": "Tree diagram categorising asteroids, comets, meteoroids and their related phenomena (meteors, meteorites).",
+  "keywords": [
+    "asteroids",
+    "comets",
+    "meteoroids",
+    "meteors",
+    "meteorites",
+    "classification"
+  ]
+}

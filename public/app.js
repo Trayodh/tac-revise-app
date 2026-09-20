@@ -3537,8 +3537,8 @@ function renderCurrentMonthAffairs() {
       <h2 style="margin:0 0 4px; font-size:1.2rem; font-weight:700; letter-spacing:0.3px;">Current Affairs — ${activeCaMonth}</h2>
 
       <p style="margin:0 0 12px; font-size:0.82rem; color:var(--text-muted); font-family:var(--font-mono); letter-spacing:0.5px;">PIB + NEWS · AI-ENRICHED · ${data.length} ITEMS · CYCLE: ${getExamCycleBounds().cycleLabel}</p>
-
-      <p style="margin:0 0 12px; font-size:0.75rem; color:var(--info); font-style:italic; opacity: 0.9;">Update Schedule: Refreshes daily with new intelligence briefs.</p>
+      <p style="margin:0 0 12px; font-size:0.82rem; color:var(--accent); font-weight: 700; font-family:var(--font-mono); letter-spacing:0.5px; background: rgba(34,197,94,0.1); padding: 4px 8px; border-radius: 4px; display: inline-block;">${window.CA_META && window.CA_META.cycleNote ? window.CA_META.cycleNote : ''}</p>
+      <p style="margin:0 0 12px; font-size:0.75rem; color:var(--info); font-style:italic; opacity: 0.9; clear: both;">Update Schedule: Refreshes daily with new intelligence briefs.</p>
 
       <div style="display:flex; gap:5px; flex-wrap:wrap;">
 

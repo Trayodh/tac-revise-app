@@ -1,0 +1,17 @@
+{
+  "title": "Global Wind Patterns",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Wind Patterns",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "global wind patterns map SVG",
+  "description": "World map displaying the major wind belts: Trade Winds, Westerlies, and Polar Easterlies, overlaid on pressure belts.",
+  "keywords": [
+    "wind patterns",
+    "trade winds",
+    "westerlies",
+    "polar easterlies"
+  ]
+}

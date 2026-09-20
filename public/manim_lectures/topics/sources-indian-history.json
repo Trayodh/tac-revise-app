@@ -1,0 +1,49 @@
+{
+    "id": "sources-indian-history",
+    "title": "Sources of Indian History",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "1. Historiography & Historical Foundations",
+    "chapterId": "historiography",
+    "blocks": [
+        {
+            "heading": "\ud83c\udfdb\ufe0f Sources of Indian History",
+            "intro": "Historians reconstruct the past using two primary categories of sources: Archaeological and Literary.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Archaeological Sources (High-Yield)",
+            "intro": "",
+            "bullets": [
+                "Inscriptions (Epigraphy): The most reliable source. Ashokan Edicts: Written in Brahmi, Kharosthi, Greek, and Aramaic scripts. Deciphered by **James Prinsep** in 1837.",
+                "Allahabad Pillar Inscription (Prasasti): Composed in Sanskrit by Harishena, praising Gupta King Samudragupta.",
+                "Aihole Inscription: Written by Ravikirti, describing Chalukya King Pulakeshin II's victory over Harsha.",
+                "Uttaramerur Inscription: Details the self-governing village administration of the Imperial Cholas.",
+                "Coins (Numismatics): Tell us about economic health, trade relations, and kingly interests. Punch-marked coins (silver/copper) were the earliest.",
+                "**Indo-Greeks** were the first to issue coins with portraits and legends.",
+                "**Kushanas** issued the first large-scale gold coins in India.",
+                "**Guptas** issued the largest number of gold coins (Dinars). Samudragupta's coins show him playing the Veena."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Literary Sources",
+            "intro": "",
+            "bullets": [
+                "Religious Texts: Vedas, Puranas, Epics (Ramayana, Mahabharata), Buddhist Tripitakas (Pali), and Jain Angas (Prakrit).",
+                "Secular Literature: Kautilya's Arthashastra (statecraft and administration).",
+                "Panini's Ashtadhyayi (earliest Sanskrit grammar).",
+                "Kalhana's Rajatarangini (12th century, history of Kashmir, India's first scientific historical work).",
+                "Foreign Accounts: **Greek:** Megasthenes ( Indica , Mauryan administration).",
+                "**Chinese:** Fa-Hien (Gupta period under Chandragupta II) and Hiuen Tsang (Harsha's reign, studied at Nalanda).",
+                "**Arab/Persian:** Al-Biruni ( Kitab-ul-Hind , 11th century culture and science), Ibn Battuta ( Rihla , Tughlaq period)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Epigraphy: Inscriptions | Numismatics: Coins | Rajatarangini: Kalhana (Kashmir history)"
+    ],
+    "hasNotes": true
+}

@@ -1,0 +1,17 @@
+{
+    "id": "env-renewable",
+    "title": "Renewable Energy & Green Initiatives",
+    "subject": "Environment & Ecology",
+    "subjectId": "environment",
+    "chapter": "Climate, Laws & Renewable Energy",
+    "chapterId": "climate-laws-energy",
+    "blocks": [],
+    "formulas": [
+        "Target: 500 GW non-fossil by 2030",
+        "ISA: India + France (Gurugram HQ)",
+        "Green Hydrogen: 5 MMT by 2030",
+        "E20: 20% ethanol blending",
+        "FAME-II: EV subsidies"
+    ],
+    "hasNotes": false
+}

@@ -1,0 +1,37 @@
+{
+    "id": "econ-concepts",
+    "title": "Core Economic Concepts & Sectors",
+    "subject": "Economics (CDS/NDA)",
+    "subjectId": "economics",
+    "chapter": "Introduction to Economics",
+    "chapterId": "economics-basics",
+    "blocks": [
+        {
+            "heading": "1. Sectors of the Economy",
+            "intro": "",
+            "bullets": [
+                "Primary Sector : Direct extraction of natural resources. Examples: Agriculture, forestry, mining, fishing.",
+                "Secondary Sector : Manufacturing and processing. Examples: Factories, construction, car assembly.",
+                "Tertiary Sector : Service sector. Examples: Banking, IT, education, tourism, military.",
+                "Quaternary Sector : Knowledge and research. Examples: R&D, information management."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. National Income Metrics",
+            "intro": "",
+            "bullets": [
+                "GDP (Gross Domestic Product) : Total monetary value of all finished goods and services produced within a country's borders in a specific time period.",
+                "GNP (Gross National Product) : GDP + Net Factor Income from Abroad (NFIA). Measures output of citizens globally.",
+                "Real vs Nominal GDP : Nominal is calculated at current market prices, whereas Real is adjusted for inflation (constant base year prices)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "GNP = GDP + NFIA",
+        "Primary = Agriculture | Secondary = Industry | Tertiary = Services",
+        "Real GDP = Nominal GDP / GDP Deflator"
+    ],
+    "hasNotes": true
+}

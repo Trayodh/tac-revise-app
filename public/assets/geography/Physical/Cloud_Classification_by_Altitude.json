@@ -1,0 +1,18 @@
+{
+  "title": "Cloud Classification by Altitude",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Clouds – Classification & Significance",
+  "topic": "Cloud Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Clouds] --> B[High ( >6 km )]\n    B --> B1[Cirrus (Ci)]\n    B --> B2[Cirrocumulus (Cc)]\n    B --> B3[Cirrostratus (Cs)]\n    A --> C[Middle (2‑6 km)]\n    C --> C1[Altocumulus (Ac)]\n    C --> C2[Altostratus (As)]\n    A --> D[Low (<2 km)]\n    D --> D1[Stratus (St)]\n    D --> D2[Cumulus (Cu)]\n    D --> D3[Stratocumulus (Sc)]\n    D --> D4[Nimbostratus (Ns)]\n    A --> E[Vertically Developed]\n    E --> E1[Cumulonimbus (Cb)]\n    E --> E2[Cumulus Congestus]",
+  "mapQuery": "",
+  "description": "Hierarchical diagram classifying clouds by altitude and form, covering high, middle, low, and vertically developed clouds.",
+  "keywords": [
+    "clouds",
+    "cirrus",
+    "cumulus",
+    "nimbostratus",
+    "cumulonimbus"
+  ]
+}

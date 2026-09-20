@@ -1,0 +1,18 @@
+{
+  "title": "Global Distribution of Volcanoes",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Volcanism",
+  "topic": "Volcanic Zones",
+  "format": "RealMap",
+  "description": "A map illustrating the global distribution of volcanoes, highlighting key zones like the Pacific Ring of Fire, Mid-Oceanic Ridges, and Hot Spots.",
+  "keywords": [
+    "volcano distribution",
+    "Pacific Ring of Fire",
+    "Mid-Oceanic Ridges",
+    "Hot Spots",
+    "active volcanoes",
+    "world map"
+  ],
+  "mapQuery": "World map of active volcanoes and major volcanic zones"
+}

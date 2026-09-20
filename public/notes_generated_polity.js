@@ -1,53 +1,541 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-window.EXPANDED_NOTES_DATA["schedules"] = String.raw`<h1>Schedules of the Indian Constitution (Deep Dive)</h1>
+window.EXPANDED_NOTES_DATA["schedules"] = String.raw`<h1>Schedules of the Indian Constitution</h1>
 <hr />
-<h2>Introduction to Schedules</h2>
-<p>The Constitution of India originally comprised 395 Articles divided into 22 Parts and 8 Schedules. Currently, it has 12 Schedules. Schedules are lists in the Constitution that categorize and tabulate bureaucratic activity and policy of the Government.</p>
-<div style="background-color:#ffebee; padding:15px; border-left:5px solid #f44336; margin:15px 0;">
-  <strong>🔥 CDS/NDA Focus Alert:</strong> Questions often pair Schedules with specific Amendments. Memorize the amendments that added the 9th, 10th, 11th, and 12th schedules.
-</div>
-<h3>Detailed Breakdown (TEARS OF OLD PM)</h3>
-<table border="1" style="border-collapse: collapse; width: 100%;">
-  <tr style="background-color: #f2f2f2;"><th>Schedule</th><th>Subject Matter</th><th>Key Articles</th><th>Amendments/Notes</th></tr>
-  <tr><td>1st (Territories)</td><td>Names of States and UTs and their territorial jurisdiction.</td><td>1 & 4</td><td>69th CAA 1991 (Delhi).</td></tr>
-  <tr><td>2nd (Emoluments)</td><td>Salaries of President, Governors, Speakers, Judges, CAG.</td><td>59, 65, 75, 97, 125, 148, 158, 164, 186, 221</td><td><strong>Exception:</strong> Prime Minister and CMs are NOT in this list.</td></tr>
-  <tr><td>3rd (Affirmations)</td><td>Forms of Oaths or Affirmations for Union/State Ministers, MPs, MLAs, Judges, CAG.</td><td>75, 84, 99, 124, 146, 173, 188, 219</td><td><strong>Exception:</strong> Oaths of President (Art 60), VP (Art 69), Governor (Art 159) are in articles, not here.</td></tr>
-  <tr><td>4th (Rajya Sabha)</td><td>Allocation of seats in the Rajya Sabha to the states and UTs.</td><td>4 & 80</td><td>Based on population (1971 census).</td></tr>
-  <tr><td>5th (Scheduled Areas)</td><td>Administration and control of Scheduled Areas and Scheduled Tribes.</td><td>244(1)</td><td>Applies to all states EXCEPT Assam, Meghalaya, Tripura, Mizoram.</td></tr>
-  <tr><td>6th (Other Areas)</td><td>Administration of Tribal Areas in Assam, Meghalaya, Tripura, Mizoram (AMTM).</td><td>244(2) & 275(1)</td><td>Provides for Autonomous District Councils (ADCs).</td></tr>
-  <tr><td>7th (Federal Lists)</td><td>Division of powers between Union and States (Union, State, Concurrent Lists).</td><td>246</td><td>Residuary powers rest with the Union (Art 248).</td></tr>
-  <tr><td>8th (Official Languages)</td><td>Recognized languages (originally 14, now 22).</td><td>344 & 351</td><td>Added by 21st, 71st, 92nd Amendments.</td></tr>
-  <tr><td>9th (Land Reforms)</td><td>Acts and Regulations (originally land reforms) protected from judicial review.</td><td>31B</td><td>Added by 1st Amendment (1951). Subject to judicial review post-April 24, 1973 (Kesavananda Bharati case).</td></tr>
-  <tr><td>10th (Defection)</td><td>Anti-Defection Law. Disqualification of MPs and MLAs.</td><td>102 & 191</td><td>Added by 52nd Amendment (1985). Amended by 91st Amendment (2003).</td></tr>
-  <tr><td>11th (Panchayats)</td><td>Powers, authority, and responsibilities of Panchayats (29 matters).</td><td>243G</td><td>Added by 73rd Amendment (1992).</td></tr>
-  <tr><td>12th (Municipalities)</td><td>Powers, authority, and responsibilities of Municipalities (18 matters).</td><td>243W</td><td>Added by 74th Amendment (1992).</td></tr>
-</table>`;
 
-window.EXPANDED_NOTES_DATA["fundamental-rights"] = String.raw`<h1>Fundamental Rights (Part III) - Deep Dive</h1>
-<hr />
-<h2>Overview</h2>
-<p>Enshrined in Part III (Articles 12-35) of the Constitution, these are the Magna Carta of India. They are justiciable and defend against state tyranny.</p>
-<div style="background-color:#fff3e0; padding:15px; border-left:5px solid #ff9800; margin:15px 0;">
-  <strong>⚠️ Crucial Distinctions for CDS:</strong> Know which rights are available only to citizens vs. both citizens and aliens.
+<h2>Introduction to Schedules</h2>
+<p>The Constitution of India, a monumental document outlining the framework for governance, originally comprised 395 Articles divided into 22 Parts and 8 Schedules. Over the decades, through various constitutional amendments, the dynamic nature of India's socio-political landscape necessitated additions and modifications. Consequently, 4 more schedules were appended, bringing the total to 12 schedules today. These schedules serve as an integral, yet distinct, part of the Constitution. They are essentially supplementary lists, tables, and provisions that categorize and tabulate bureaucratic activity, policy matters, and intricate rules of governance that are too detailed, specific, or bulky to be conveniently included within the main Articles of the Constitution.</p>
+<p>The inclusion of schedules allows the Articles to remain concise and focused on fundamental principles, while the schedules provide the necessary operational details, specific lists, and administrative mechanisms. This structural design enhances the clarity and readability of the main constitutional text, preventing it from becoming overly cumbersome with exhaustive lists and specific rules. Legally, schedules hold the same constitutional validity as the Articles themselves, and any amendment to a schedule requires a constitutional amendment process, similar to amending an Article.</p>
+
+<div style="background-color:#e3f2fd; padding:15px; border-left:5px solid #2196f3; margin:15px 0;">
+  <strong>🧠 Mnemonic to Remember the 12 Schedules:</strong><br>
+  <strong>T-E-A-R-S O-F O-L-D P-M</strong><br>
+  <ul>
+    <li><strong>T</strong> - Territories (1st)</li>
+    <li><strong>E</strong> - Emoluments (2nd)</li>
+    <li><strong>A</strong> - Affirmations/Oaths (3rd)</li>
+    <li><strong>R</strong> - Rajya Sabha seats (4th)</li>
+    <li><strong>S</strong> - Scheduled Areas (5th)</li>
+    <li><strong>O</strong> - Other Scheduled Areas (6th)</li>
+    <li><strong>F</strong> - Federal Provisions/Lists (7th)</li>
+    <li><strong>O</strong> - Official Languages (8th)</li>
+    <li><strong>L</strong> - Land Reforms (9th)</li>
+    <li><strong>D</strong> - Defection (10th)</li>
+    <li><strong>P</strong> - Panchayats (11th)</li>
+    <li><strong>M</strong> - Municipalities (12th)</li>
+  </ul>
 </div>
-<h3>Rights Available ONLY to Citizens:</h3>
+
+<h2>Detailed Breakdown of the 12 Schedules</h2>
+
+<h3>1. First Schedule (Territories)</h3>
+<p>The First Schedule is the foundational document for India's geographical and political map. It meticulously contains the names of the States and Union Territories (UTs) along with their precise territorial jurisdiction. This schedule is a dynamic component of the Constitution, reflecting the ever-evolving federal structure of India. Whenever a new state is created, an existing state's name is changed, its boundaries are altered, or a Union Territory is formed or merged (actions primarily carried out under the provisions of Article 2 or Article 3 of the Constitution), this schedule undergoes a corresponding amendment.</p>
 <ul>
-  <li>Art 15: No discrimination on grounds of religion, race, caste, sex, place of birth.</li>
-  <li>Art 16: Equality of opportunity in public employment.</li>
-  <li>Art 19: Six basic freedoms (Speech, Assembly, Association, Movement, Residence, Profession).</li>
-  <li>Art 29 & 30: Cultural and educational rights of minorities.</li>
+  <li><strong>What it contains:</strong>
+    <ul>
+      <li>List of all States and their respective territories.</li>
+      <li>List of all Union Territories and their extent.</li>
+    </ul>
+  </li>
+  <li><strong>Why it's important:</strong> It provides clarity and legal certainty regarding the territorial integrity and administrative divisions of the Indian Union, which is crucial for governance, elections, and the application of laws. It is the constitutional basis for India's federal structure.</li>
+  <li><strong>How it operates:</strong> Articles 2 and 3 empower Parliament to admit new states, form new states by separation of territory from any state or by uniting two or more states, increase or diminish the area of any state, alter the boundaries of any state, or alter the name of any state. Any such legislative action necessitates an amendment to the First Schedule.</li>
+  <li><strong>Historical Context & Evolution:</strong>
+    <ul>
+      <li>Post-independence, India underwent significant state reorganization, notably with the States Reorganisation Act of 1956, which abolished the four-fold classification of states (Part A, B, C, D) and created 14 states and 6 UTs.</li>
+      <li>Subsequent reorganizations led to the formation of states like Gujarat (1960), Nagaland (1963), Haryana (1966), Himachal Pradesh (1971), Meghalaya (1972), Sikkim (1975), Mizoram, Arunachal Pradesh, Goa (1987), Chhattisgarh, Uttarakhand, Jharkhand (2000), and Telangana (2014).</li>
+      <li>The Jammu and Kashmir Reorganisation Act, 2019, bifurcated the erstwhile state of Jammu and Kashmir into two Union Territories: Jammu and Kashmir, and Ladakh, leading to a significant amendment in this schedule.</li>
+    </ul>
+  </li>
+  <li><strong>Effect:</strong> Ensures that the constitutional document accurately reflects the political geography of the nation, facilitating administrative efficiency and legal clarity.</li>
 </ul>
-<h3>Key Exceptions & Doctrines (CDS Depth):</h3>
-<table border="1" style="border-collapse: collapse; width: 100%;">
-  <tr style="background-color: #e0f7fa;"><th>Article</th><th>Provision</th><th>Key Exceptions/Case Laws</th></tr>
-  <tr><td>Article 13</td><td>Laws inconsistent with Fundamental Rights are void.</td><td>Doctrine of Severability, Doctrine of Eclipse. (Shankari Prasad to Kesavananda Bharati).</td></tr>
-  <tr><td>Article 14</td><td>Equality before law (British) & Equal protection of laws (American).</td><td>Rule of Law (A.V. Dicey). Exceptions: President, Governors, Foreign Diplomats.</td></tr>
-  <tr><td>Article 20</td><td>Protection in respect of conviction for offenses.</td><td>No ex-post-facto law, No double jeopardy, No self-incrimination. (Does NOT apply to civil laws).</td></tr>
-  <tr><td>Article 21</td><td>Protection of life and personal liberty.</td><td>Maneka Gandhi Case (1978) - Due process of law introduced implicitly. Includes Right to Privacy (Puttaswamy case).</td></tr>
-  <tr><td>Article 32</td><td>Right to Constitutional Remedies.</td><td>Heart and Soul of the Constitution (Dr. B.R. Ambedkar). Issuance of 5 Writs (Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo-Warranto).</td></tr>
-</table>
-`;
+
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+  <strong>🔥 High-Yield Fact:</strong> The 69th Amendment Act of 1991 gave a special status to Delhi, redesignating it as the National Capital Territory of Delhi, which is reflected in changes related to this schedule, granting it a legislative assembly and council of ministers, though it remains a Union Territory. This demonstrates the flexibility of the schedule to accommodate unique administrative arrangements.
+</div>
+
+<h3>2. Second Schedule (Emoluments & Allowances)</h3>
+<p>The Second Schedule is dedicated to the provisions relating to the salary, allowances, and privileges of certain high-ranking constitutional functionaries. The primary objective behind enshrining these details in the Constitution itself is to ensure the financial independence and dignity of these offices, thereby safeguarding them from potential executive or legislative interference. This independence is crucial for the impartial discharge of their duties and the maintenance of the constitutional balance of power.</p>
+<ul>
+  <li><strong>What it contains:</strong> It specifies the emoluments (salaries), allowances, and privileges for:
+    <ul>
+      <li>The President of India (Article 59(3))</li>
+      <li>The Governors of States (Article 158(3))</li>
+      <li>The Speaker and the Deputy Speaker of the Lok Sabha</li>
+      <li>The Chairman and the Deputy Chairman of the Rajya Sabha</li>
+      <li>The Speaker and the Deputy Speaker of the Legislative Assembly of a State</li>
+      <li>The Chairman and the Deputy Chairman of the Legislative Council of a State</li>
+      <li>The Judges of the Supreme Court (Article 125)</li>
+      <li>The Judges of the High Courts (Article 221)</li>
+      <li>The Comptroller and Auditor General (CAG) of India (Article 148(3))</li>
+    </ul>
+  </li>
+  <li><strong>Why it's important:</strong>
+    <ul>
+      <li><strong>Ensuring Independence:</strong> By fixing their emoluments constitutionally, it prevents the executive or legislature from arbitrarily reducing their salaries or allowances, which could be used as a tool to influence their decisions or undermine their authority.</li>
+      <li><strong>Dignity of Office:</strong> It ensures that these high constitutional offices are accorded the financial respect and stability commensurate with their significant responsibilities.</li>
+      <li><strong>Attracting Talent:</strong> Predictable and constitutionally protected remuneration helps attract competent individuals to these crucial roles.</li>
+    </ul>
+  </li>
+  <li><strong>How it operates:</strong> While the schedule lays down the framework, Parliament (for central dignitaries) and State Legislatures (for state dignitaries) can pass laws to determine the specific amounts of salaries and allowances, provided they do not diminish these during their term of office (except in cases of financial emergency).</li>
+  <li><strong>Effect:</strong> Contributes significantly to the separation of powers and the checks and balances inherent in the Indian constitutional system by insulating key functionaries from financial pressures.</li>
+</ul>
+
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+  <strong>⚠️ Trap Alert:</strong> The Prime Minister, Chief Ministers, and other Union/State Ministers are <strong>NOT</strong> mentioned in the Second Schedule. Their salaries and allowances are determined by Parliament or the respective State Legislature by law, not by constitutional schedule. This distinction is a common point of confusion in defence exams.
+</div>
+
+<h3>3. Third Schedule (Oaths & Affirmations)</h3>
+<p>The Third Schedule contains the prescribed forms of Oaths or Affirmations that various constitutional functionaries must take before assuming office. The act of taking an oath is a solemn declaration of allegiance to the Constitution and a commitment to faithfully discharge the duties of the office. It serves as a moral and legal bond, reinforcing the individual's responsibility towards the constitutional framework and the people of India.</p>
+<ul>
+  <li><strong>What it contains:</strong> Forms of Oaths or Affirmations for:
+    <ul>
+      <li>Union Ministers</li>
+      <li>Candidates for election to Parliament</li>
+      <li>Members of Parliament (MPs)</li>
+      <li>Judges of the Supreme Court</li>
+      <li>The Comptroller and Auditor General (CAG) of India</li>
+      <li>State Ministers</li>
+      <li>Candidates for election to a State Legislature</li>
+      <li>Members of a State Legislature</li>
+      <li>Judges of the High Courts</li>
+    </ul>
+  </li>
+  <li><strong>Why it's important:</strong>
+    <ul>
+      <li><strong>Constitutional Allegiance:</strong> It ensures that individuals holding public office pledge their loyalty to the Constitution and uphold its supremacy.</li>
+      <li><strong>Commitment to Duty:</strong> The oath binds the office-holder to faithfully and conscientiously perform their duties without fear or favour.</li>
+      <li><strong>Public Trust:</strong> It publicly signifies the acceptance of responsibility and accountability to the people.</li>
+    </ul>
+  </li>
+  <li><strong>How it operates:</strong> Each form specifies the exact wording for the oath of office and, for ministers, also an oath of secrecy. The oath is administered by a designated authority (e.g., the President for Union Ministers, the Governor for State Ministers, the Chief Justice for judges).</li>
+  <li><strong>Effect:</strong> Reinforces the rule of law and the sanctity of constitutional offices by requiring a formal commitment to constitutional principles and duties.</li>
+</ul>
+
+<div style="background-color:#e2e3e5; padding:15px; border-left:5px solid #6c757d; margin:15px 0;">
+  <strong>⚡ PYQ Insight:</strong> (NDA 2021) "Which of the following dignitaries' oath is NOT found in the 3rd Schedule?" Answer: The President of India (whose oath is explicitly stated in Article 60), the Vice-President (Article 69), and the Governor of a State (Article 159) have their oaths explicitly stated in their respective Articles within the main body of the Constitution, NOT in the 3rd Schedule. This is a crucial distinction for exam purposes.
+</div>
+
+<h3>4. Fourth Schedule (Rajya Sabha Seats)</h3>
+<p>The Fourth Schedule is pivotal to the federal character of the Indian Parliament, as it deals with the allocation of seats in the Rajya Sabha (Council of States) to the States and Union Territories. The Rajya Sabha, as the upper house, represents the states, and its composition is designed to reflect the demographic diversity of the nation.</p>
+<ul>
+  <li><strong>What it contains:</strong> A table detailing the number of seats allocated to each State and Union Territory in the Rajya Sabha.</li>
+  <li><strong>Why it's important:</strong>
+    <ul>
+      <li><strong>State Representation:</strong> Ensures that states, irrespective of their size, have a voice in the Union Parliament, upholding the federal principle.</li>
+      <li><strong>Population-Based Allocation:</strong> The allocation is primarily based on the population of each state, ensuring that more populous states have greater representation, while smaller states also get adequate representation.</li>
+      <li><strong>Checks and Balances:</strong> The Rajya Sabha acts as a revising chamber and can initiate legislation, making its composition crucial for legislative scrutiny and federal balance.</li>
+    </ul>
+  </li>
+  <li><strong>How it operates:</strong> Members of the Rajya Sabha are elected by the elected members of the Legislative Assemblies of the States and by an electoral college for Union Territories, using the system of proportional representation by means of the single transferable vote. The number of seats a state gets is directly determined by this schedule, which is linked to Article 80 of the Constitution.</li>
+  <li><strong>Effect:</strong> Maintains the federal equilibrium in the bicameral legislature, ensuring that state interests are represented and debated at the national level.</li>
+  <li><strong>Key Details:</strong>
+    <ul>
+      <li>The maximum strength of the Rajya Sabha is 250 members. Of these, 238 are representatives of the States and Union Territories, and 12 are nominated by the President for their special knowledge or practical experience in literature, science, art, and social service.</li>
+      <li>Uttar Pradesh, being the most populous state, has the highest number of Rajya Sabha seats (31).</li>
+      <li>Some Union Territories (e.g., Andaman & Nicobar Islands, Lakshadweep, Chandigarh, Daman & Diu, Dadra & Nagar Haveli) do not have representation in the Rajya Sabha due to their small population or administrative structure.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>5. Fifth Schedule (Scheduled Areas)</h3>
+<p>The Fifth Schedule contains provisions regarding the administration and control of Scheduled Areas and Scheduled Tribes in any state EXCEPT the four northeastern states of Assam, Meghalaya, Tripura, and Mizoram. This schedule is a crucial instrument for protecting the interests, culture, and land rights of tribal communities, who are often marginalized and vulnerable.</p>
+<ul>
+  <li><strong>What it contains:</strong>
+    <ul>
+      <li>Provisions for the declaration of 'Scheduled Areas' by the President.</li>
+      <li>Establishment of Tribal Advisory Councils (TACs) in states with Scheduled Areas.</li>
+      <li>Special powers of the Governor regarding the administration of Scheduled Areas.</li>
+      <li>Restrictions on the transfer of tribal land and regulation of money-lending to Scheduled Tribes.</li>
+    </ul>
+  </li>
+  <li><strong>Why it's important:</strong>
+    <ul>
+      <li><strong>Protection of Tribal Rights:</strong> Aims to prevent the exploitation of tribal people and preserve their distinct cultural identity and traditional way of life.</li>
+      <li><strong>Self-Governance:</strong> Provides a framework for limited self-governance and ensures that laws are adapted to the specific needs and customs of tribal communities.</li>
+      <li><strong>Socio-Economic Development:</strong> Facilitates targeted development programs for tribal areas while safeguarding their resources.</li>
+    </ul>
+  </li>
+  <li><strong>How it operates:</strong>
+    <ul>
+      <li>The Governor of each state having Scheduled Areas has special responsibility for their administration and must submit an annual report to the President regarding the administration of such areas.</li>
+      <li>The Governor can direct that any Act of Parliament or the State Legislature shall not apply to a Scheduled Area or shall apply with specified modifications and exceptions.</li>
+      <li>Tribal Advisory Councils (TACs), consisting of up to 20 members (three-fourths of whom are elected representatives of Scheduled Tribes in the State Legislative Assembly), advise on matters pertaining to the welfare and advancement of Scheduled Tribes.</li>
+    </ul>
+  </li>
+  <li><strong>Effect:</strong> Creates a distinct administrative framework that allows for greater autonomy and protection for tribal populations in designated areas, recognizing their unique needs within the broader federal structure.</li>
+  <li><strong>Modern Relevance:</strong> The Panchayats (Extension to Scheduled Areas) Act, 1996 (PESA Act) was enacted to extend the provisions of Part IX of the Constitution relating to Panchayats to the Scheduled Areas, with certain modifications, to enable tribal communities to exercise self-governance through traditional gram sabhas.</li>
+</ul>
+
+<h3>6. Sixth Schedule (Other Scheduled Areas - Tribal Areas)</h3>
+<p>The Sixth Schedule provides for a more advanced and autonomous administrative framework for the Tribal Areas in four specific northeastern states: <strong>Assam, Meghalaya, Tripura, and Mizoram (AMTM)</strong>. These areas, due to their unique historical, cultural, and ethnic characteristics, were deemed to require a higher degree of administrative autonomy than those covered under the Fifth Schedule.</p>
+<ul>
+  <li><strong>What it contains:</strong>
+    <ul>
+      <li>Provisions for the creation of Autonomous District Councils (ADCs) and Regional Councils (ARCs).</li>
+      <li>Details the powers and functions of these councils in legislative, judicial, and administrative matters.</li>
+      <li>Specifies the composition, election, and tenure of members of ADCs.</li>
+    </ul>
+  </li>
+  <li><strong>Why it's important:</strong>
+    <ul>
+      <li><strong>Greater Autonomy:</strong> Grants significant legislative, executive, and judicial powers to ADCs, allowing tribal communities to govern themselves according to their customs and traditions.</li>
+      <li><strong>Preservation of Identity:</strong> Helps in preserving the distinct cultural identity, land rights, and traditional practices of the indigenous tribal populations in these regions.</li>
+      <li><strong>Conflict Resolution:</strong> Provides a mechanism for localized governance, potentially reducing ethnic tensions and promoting harmonious development.</li>
+    </ul>
+  </li>
+  <li><strong>How it operates:</strong>
+    <ul>
+      <li>ADCs are elected bodies with powers to make laws on matters like land, forest management, customary law, inheritance, marriage, social customs, village administration, primary education, public health, and markets.</li>
+      <li>They also have powers to establish village courts for the trial of cases where both parties are Scheduled Tribes.</li>
+      <li>ADCs have financial powers, including the power to assess and collect land revenue and impose certain taxes.</li>
+      <li>The Governor retains ultimate oversight and can dissolve an ADC under certain circumstances. Acts of Parliament or the State Legislature may or may not apply to these areas, or may apply with modifications, as directed by the Governor or the ADC.</li>
+    </ul>
+  </li>
+  <li><strong>Effect:</strong> Establishes a unique system of decentralized governance that empowers tribal communities to manage their affairs, fostering self-reliance and cultural preservation.</li>
+  <li><strong>Comparison with Fifth Schedule:</strong> The Sixth Schedule grants much greater legislative and judicial autonomy to the ADCs compared to the Fifth Schedule, which primarily focuses on the Governor's special powers and the advisory role of TACs. The Sixth Schedule areas are more distinct in their administrative setup.</li>
+</ul>
+
+<h3>7. Seventh Schedule (Federal Lists)</h3>
+<p>The Seventh Schedule is the cornerstone of India's federal system, meticulously detailing the division of legislative powers between the Union (Central) Government and the State Governments. It achieves this through three exhaustive lists, ensuring a clear demarcation of responsibilities and minimizing potential conflicts over legislative competence. This division is crucial for maintaining the balance between a strong centre and autonomous states, a hallmark of Indian federalism.</p>
+<ul>
+  <li><strong>What it contains:</strong>
+    <ul>
+      <li><strong>List I (Union List):</strong> Originally 97 subjects, now 98 subjects. Parliament has exclusive power to make laws on these subjects. Examples include Defence, Foreign Affairs, Railways, Banking, Currency, Atomic Energy, Citizenship, Communication, Insurance, Census, and Inter-State Trade and Commerce.</li>
+      <li><strong>List II (State List):</strong> Originally 66 subjects, now 59 subjects. State Legislatures have exclusive power to make laws on these subjects. Examples include Public Order, Police, Public Health and Sanitation, Agriculture, Local Government, Fisheries, Markets and Fairs, and Land.</li>
+      <li><strong>List III (Concurrent List):</strong> Originally 47 subjects, now 52 subjects. Both Parliament and State Legislatures can make laws on these subjects. However, in case of a conflict, a law made by Parliament generally prevails. Examples include Education, Forests, Criminal Law, Marriage and Divorce, Trade Unions, Adulteration of Foodstuffs, and Economic and Social Planning.</li>
+    </ul>
+  </li>
+  <li><strong>Why it's important:</strong>
+    <ul>
+      <li><strong>Clarity of Jurisdiction:</strong> Prevents legislative overlap and disputes between the Union and States.</li>
+      <li><strong>Federal Balance:</strong> Defines the spheres of influence for both levels of government, upholding the federal structure.</li>
+      <li><strong>Efficiency in Governance:</strong> Allows each level of government to focus on subjects best suited for its administrative capacity and reach.</li>
+    </ul>
+  </li>
+  <li><strong>How it operates:</strong>
+    <ul>
+      <li>Parliament has exclusive power over the Union List.</li>
+      <li>State Legislatures have exclusive power over the State List (though Parliament can legislate on State List subjects under specific circumstances, e.g., during an emergency, if Rajya Sabha passes a resolution, or for international agreements).</li>
+      <li>Both can legislate on the Concurrent List. Article 254 specifies that if a State law on a Concurrent List subject is repugnant to a Central law, the Central law prevails. However, if the State law has received Presidential assent, it may prevail in that state, but Parliament can still override it by enacting a subsequent law.</li>
+      <li><strong>Residuary Powers:</strong> Article 248 grants Parliament the exclusive power to make laws with respect to any matter not enumerated in the Concurrent List or State List. This ensures that no legislative vacuum exists.</li>
+    </ul>
+  </li>
+  <li><strong>Historical Context & Amendments:</strong>
+    <ul>
+      <li>The concept of three lists is borrowed from the Government of India Act, 1935.</li>
+      <li>The 42nd Amendment Act of 1976 (Mini-Constitution) transferred five subjects from the State List to the Concurrent List: Education, Forests, Weights & Measures, Protection of Wild Animals & Birds, and Administration of Justice (except SC & HC).</li>
+    </ul>
+  </li>
+  <li><strong>Effect:</strong> Provides the legal framework for cooperative federalism, enabling both the Union and States to legislate effectively within their defined domains, while also allowing for shared responsibility in critical areas.</li>
+</ul>
+
+<h3>8. Eighth Schedule (Official Languages)</h3>
+<p>The Eighth Schedule lists the official languages recognized by the Constitution of India. This schedule is a testament to India's incredible linguistic diversity and the constitutional commitment to protect and promote various indigenous languages. The recognition of these languages has significant implications for government communication, education, and cultural identity.</p>
+<ul>
+  <li><strong>What it contains:</strong> A list of 22 officially recognized languages.</li>
+  <li><strong>Why it's important:</strong>
+    <ul>
+      <li><strong>Cultural Recognition:</strong> Acknowledges and protects the linguistic heritage of various communities across India.</li>
+      <li><strong>Official Communication:</strong> These languages can be used for official purposes, including in Parliament and State Legislatures (with certain conditions), and for examinations conducted by the Union Public Service Commission (UPSC).</li>
+      <li><strong>National Integration:</strong> While Hindi is the official language of the Union, the recognition of multiple languages fosters a sense of inclusion and national unity amidst diversity.</li>
+    </ul>
+  </li>
+  <li><strong>Historical Context & Evolution:</strong>
+    <ul>
+      <li>Originally, the Constitution recognized 14 languages.</li>
+      <li><strong>21st Amendment Act, 1967:</strong> Added Sindhi. (Total: 15)</li>
+      <li><strong>71st Amendment Act, 1992:</strong> Added Konkani, Manipuri, and Nepali. (Total: 18)</li>
+      <li><strong>92nd Amendment Act, 2003:</strong> Added Bodo, Dogri, Maithili, and Santhali. (Total: 22)</li>
+    </ul>
+  </li>
+  <li><strong>How it operates:</strong> The President constitutes a Commission and a Committee of Parliament on Official Language to review the progress made in the use of Hindi for official purposes of the Union and to make recommendations for its progressive use. The schedule itself does not mandate the use of any particular language but provides a list of recognized languages.</li>
+  <li><strong>Effect:</strong> Promotes linguistic diversity and provides a framework for the development and use of these languages in various spheres of public life.</li>
+  <li><strong>Modern Relevance:</strong> There is an ongoing demand for the inclusion of more languages (e.g., Tulu, Bhojpuri, Rajasthani, Bhoti) in the Eighth Schedule, highlighting its continued significance in linguistic politics and identity. The concept of "Classical Language" status, introduced in 2004, is a separate recognition for languages with a rich heritage (currently Tamil, Sanskrit, Kannada, Telugu, Malayalam, Odia).</li>
+</ul>
+
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+  <strong>⚠️ Trap Alert:</strong> <strong>English and Rajasthani</strong> are NOT included in the 8th Schedule, despite English being an associate official language of the Union and Rajasthani being widely spoken in Rajasthan. This is a frequent trick question in competitive exams.
+</div>
+
+<h3>9. Ninth Schedule (Land Reforms & Judicial Review)</h3>
+<p>The Ninth Schedule was the very first amendment to the Constitution, added by the <strong>1st Amendment Act (1951)</strong>. Its primary purpose was to protect land reform laws and other specific legislation from judicial review on the grounds of violation of Fundamental Rights, particularly the right to property (which was a fundamental right at that time under Article 31, before its repeal by the 44th Amendment Act, 1978). This schedule was a direct response to judicial challenges against agrarian reforms aimed at abolishing the Zamindari system.</p>
+<ul>
+  <li><strong>What it contains:</strong> A list of Central and State laws that are immune from judicial challenge on the grounds of violating Fundamental Rights.</li>
+  <li><strong>Why it's important:</strong>
+    <ul>
+      <li><strong>Facilitating Agrarian Reforms:</strong> Enabled the government to implement land reforms, redistribute land, and abolish intermediary tenures (like Zamindari) without being bogged down by litigation challenging these laws as infringing on the fundamental right to property.</li>
+      <li><strong>Parliamentary Supremacy (initial intent):</strong> Reflected an early attempt to assert legislative supremacy over judicial review in specific policy areas.</li>
+    </ul>
+  </li>
+  <li><strong>Historical Context:</strong>
+    <ul>
+      <li>Post-independence, land reforms were a crucial socio-economic agenda. However, many state laws implementing these reforms were challenged in High Courts and the Supreme Court on the grounds that they violated fundamental rights, particularly Article 14 (equality), Article 19(1)(f) (right to acquire, hold, and dispose of property), and Article 31 (right to property).</li>
+      <li>The Supreme Court's decisions in cases like <em>Kameshwar Singh v. State of Bihar</em> (1950) and <em>Shankari Prasad v. Union of India</em> (1951) highlighted the need for a constitutional mechanism to protect these reform laws.</li>
+    </ul>
+  </li>
+  <li><strong>Evolution and Judicial Scrutiny:</strong>
+    <ul>
+      <li>Initially, laws placed in the Ninth Schedule were considered beyond judicial review.</li>
+      <li>However, over time, the scope of the Ninth Schedule was expanded beyond land reforms to include a wide array of laws, leading to concerns about its potential misuse to bypass judicial scrutiny.</li>
+    </ul>
+  </li>
+</ul>
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+  <strong>🔥 High-Yield Fact:</strong> In the landmark <em>I.R. Coelho v. State of Tamil Nadu</em> case (2007), the Supreme Court ruled that laws placed in the 9th Schedule after April 24, 1973 (the date of the Kesavananda Bharati verdict, which established the 'Basic Structure Doctrine') are open to judicial review if they violate the basic structure of the Constitution. This judgment significantly curtailed the absolute immunity previously enjoyed by Ninth Schedule laws, reaffirming the judiciary's role as the guardian of the Constitution.
+</div>
+<ul>
+  <li><strong>Effect:</strong> While initially providing a shield for progressive legislation, its absolute immunity was later limited by the judiciary, ensuring that even constitutionally protected laws must adhere to the fundamental principles of the Constitution.</li>
+</ul>
+
+<h3>10. Tenth Schedule (Anti-Defection Law)</h3>
+<p>The Tenth Schedule, popularly known as the Anti-Defection Law, was added by the <strong>5`;
+
+window.EXPANDED_NOTES_DATA["fundamental-rights"] = String.raw`<h1>Fundamental Rights (Part III)</h1>
+<hr />
+
+<h2>Introduction to Fundamental Rights</h2>
+<p>Fundamental Rights are enshrined in <strong>Part III</strong> of the Constitution, spanning from <strong>Articles 12 to 35</strong>. This section is often referred to as the "Magna Carta of India," a powerful historical allusion to the Great Charter of 1215 signed by King John of England, which was the first document to limit the power of the monarch and guarantee certain rights to his subjects. In the Indian context, Fundamental Rights serve a similar purpose: they are a charter of rights guaranteed to all individuals, citizens and non-citizens alike (with some exceptions), to protect their liberties and freedoms against arbitrary state action and encroachment.</p>
+<p>The inclusion of Fundamental Rights in the Indian Constitution was a direct response to the experiences of colonial rule, where individual liberties were often suppressed. The nationalist movement, particularly through the Motilal Nehru Report of 1928 and the Karachi Resolution of 1931, had consistently demanded a bill of rights for the people of India. These rights are considered fundamental because they are essential for the moral, intellectual, and spiritual development of an individual. They are also unique in their nature as they are <strong>justiciable</strong>, meaning they are legally enforceable by the courts. Any law or executive action that violates a Fundamental Right can be challenged in the Supreme Court or High Courts, which can then declare such a law or action unconstitutional and void.</p>
+<p>However, it is crucial to understand that Fundamental Rights are not absolute. They are subject to reasonable restrictions imposed by the state in the interest of public order, morality, health, and the sovereignty and integrity of India. Furthermore, some Fundamental Rights can be suspended during a National Emergency, with the notable exceptions of Articles 20 and 21.</p>
+
+<div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
+  <strong>🔥 High-Yield Fact:</strong> The concept of Fundamental Rights was borrowed from the <strong>Bill of Rights (USA)</strong>. This influence is evident in their negative character, primarily acting as limitations on state power. However, the Indian framework also incorporates elements that ensure social justice, reflecting India's unique socio-political context.
+</div>
+
+<h3>Salient Features of Fundamental Rights</h3>
+<ul>
+  <li><strong>Justiciable:</strong> Enforceable by courts. Aggrieved persons can directly approach the Supreme Court (Article 32) or High Courts (Article 226).</li>
+  <li><strong>Not Absolute but Qualified:</strong> They are not absolute and are subject to reasonable restrictions imposed by the state. These restrictions must be reasonable and not arbitrary, and their reasonableness is decided by the courts.</li>
+  <li><strong>Negative and Positive:</strong> Most are negative in character, placing limitations on the state (e.g., "The State shall not..."). Some are positive, requiring the state to take certain actions (e.g., Article 21A).</li>
+  <li><strong>Amendable:</strong> They are not sacrosanct or unalterable. Parliament can amend them, but without affecting the 'Basic Structure' of the Constitution, as established in the Kesavananda Bharati case (1973).</li>
+  <li><strong>Suspension during Emergency:</strong> They can be suspended during the operation of a National Emergency (except Articles 20 and 21). Article 358 automatically suspends Article 19, while Article 359 allows the President to suspend the enforcement of other Fundamental Rights.</li>
+  <li><strong>Available to Citizens and Foreigners:</strong> Some rights are available only to citizens (e.g., Articles 15, 16, 19, 29, 30), while others are available to all persons, including foreigners (e.g., Articles 14, 20, 21, 21A, 22, 23, 24, 25, 26, 27, 28).</li>
+  <li><strong>Not Self-Executory:</strong> Some rights require enabling legislation for their enforcement (e.g., Article 17, Article 23).</li>
+</ul>
+
+<h2>Classification of Fundamental Rights</h2>
+<p>Originally, the Constitution provided for 7 Fundamental Rights. However, the <strong>Right to Property (Article 31)</strong> proved to be a significant impediment to land reforms and other socio-economic legislation aimed at reducing disparities. Consequently, it was deleted from the list of Fundamental Rights by the <strong>44th Amendment Act of 1978</strong> during the Janata Party government. This amendment transformed the Right to Property into a mere <strong>legal right</strong> under <strong>Article 300-A</strong> in Part XII of the Constitution. This change meant that while the state could still acquire private property, it was no longer subject to the strict scrutiny of Fundamental Rights, making it easier for the government to implement policies for public welfare, albeit with the obligation to pay compensation as per law.</p>
+
+<p>Currently, there are six categories of Fundamental Rights:</p>
+<ul>
+  <li>Right to Equality (Articles 14–18)</li>
+  <li>Right to Freedom (Articles 19–22)</li>
+  <li>Right against Exploitation (Articles 23–24)</li>
+  <li>Right to Freedom of Religion (Articles 25–28)</li>
+  <li>Cultural and Educational Rights (Articles 29–30)</li>
+  <li>Right to Constitutional Remedies (Article 32)</li>
+</ul>
+
+<h3>1. Right to Equality (Articles 14-18)</h3>
+<p>This set of rights aims to establish a society where all individuals are treated equally, dismantling historical inequalities and promoting social justice.</p>
+<ul>
+  <li><strong>Article 14: Equality before the law and equal protection of laws.</strong>
+    <ul>
+      <li><strong>Equality before the law:</strong> This is a negative concept of British origin, implying the absence of any special privileges in favour of any person, and the equal subjection of all persons to the ordinary law of the land administered by ordinary law courts. It signifies that no person is above the law.</li>
+      <li><strong>Equal protection of laws:</strong> This is a positive concept of American origin, implying the equality of treatment under equal circumstances, both in privileges conferred and liabilities imposed by the laws. It means that like should be treated alike without any discrimination. This concept allows for 'reasonable classification' but prohibits 'class legislation'. The classification must be based on an intelligible differentia and must have a rational nexus to the object sought to be achieved by the law.</li>
+      <li><strong>Rule of Law:</strong> Article 14 embodies the concept of the 'Rule of Law' as propounded by A.V. Dicey, which includes three elements: (i) absence of arbitrary power, (ii) equality before the law, and (iii) the primacy of the rights of individuals.</li>
+      <li><strong>Exceptions:</strong> The President, Governors (Article 361), foreign sovereigns, ambassadors, and diplomats enjoy immunity from criminal and civil proceedings. Members of Parliament and State Legislatures also enjoy certain privileges (Articles 105 and 194).</li>
+    </ul>
+  </li>
+  <li><strong>Article 15: Prohibition of discrimination on grounds only of religion, race, caste, sex, or place of birth.</strong>
+    <ul>
+      <li>This article prohibits the state from discriminating against any citizen on any of the five specified grounds. The word "only" is crucial, meaning discrimination on other grounds is permissible.</li>
+      <li><strong>Exceptions/Special Provisions:</strong>
+        <ul>
+          <li>The state can make special provisions for women and children (e.g., reservation of seats for women in local bodies, free education for children).</li>
+          <li>The state can make special provisions for the advancement of any socially and educationally backward classes of citizens or for the Scheduled Castes (SCs) and Scheduled Tribes (STs) (e.g., reservations in educational institutions).</li>
+          <li>The 93rd Amendment Act of 2005 added a provision allowing the state to make special provisions for the advancement of any socially and educationally backward classes of citizens or for the SCs or STs regarding their admission to educational institutions, including private unaided institutions, except minority educational institutions.</li>
+          <li>The 103rd Amendment Act of 2019 introduced a 10% reservation for Economically Weaker Sections (EWS) in educational institutions, including private unaided ones, for those not covered by existing reservations.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Article 16: Equality of opportunity in matters of public employment.</strong>
+    <ul>
+      <li>This article guarantees equal opportunity for all citizens in matters relating to employment or appointment to any office under the state. It prohibits discrimination on grounds of religion, race, caste, sex, descent, place of birth, or residence.</li>
+      <li><strong>Exceptions/Special Provisions:</strong>
+        <ul>
+          <li>Parliament can prescribe residence as a condition for certain employment or appointment in a state or union territory (e.g., Public Employment (Requirement as to Residence) Act, 1957, now repealed).</li>
+          <li>The state can provide for reservation of appointments or posts in favour of any backward class of citizens who are not adequately represented in the services of the state.</li>
+          <li>A law can provide that an incumbent of an office related to a religious or denominational institution should belong to that particular religion or denomination.</li>
+          <li>The 103rd Amendment Act of 2019 also extended the 10% EWS reservation to public employment.</li>
+        </ul>
+      </li>
+      <li><strong>Mandal Commission Case (Indra Sawhney & Others vs. Union of India, 1992):</strong> This landmark judgment upheld the constitutional validity of 27% reservation for OBCs but laid down the 'creamy layer' concept (excluding affluent individuals from reservation benefits) and capped total reservations at 50%.</li>
+    </ul>
+  </li>
+  <li><strong>Article 17: Abolition of Untouchability and prohibition of its practice.</strong>
+    <ul>
+      <li>This article abolishes 'untouchability' in all its forms and forbids its practice. The enforcement of any disability arising out of 'untouchability' shall be an offence punishable in accordance with law.</li>
+      <li>The term 'untouchability' is not defined in the Constitution but refers to the social practice that historically discriminated against certain communities.</li>
+      <li>Parliament enacted the Untouchability (Offences) Act, 1955, which was later renamed the Protection of Civil Rights Act, 1976, to make the practice of untouchability a cognizable and non-compoundable offence.</li>
+      <li>This right is absolute and available against both the state and private individuals.</li>
+    </ul>
+  </li>
+  <li><strong>Article 18: Abolition of titles except military and academic.</strong>
+    <ul>
+      <li>This article prohibits the state from conferring any title on anyone, whether a citizen or a foreigner.</li>
+      <li>It prohibits a citizen of India from accepting any title from any foreign state.</li>
+      <li>A foreigner holding any office of profit or trust under the state cannot accept any title from any foreign state without the consent of the President.</li>
+      <li>No person holding any office of profit or trust under the state is to accept any present, emolument, or office from or under any foreign state without the consent of the President.</li>
+      <li><strong>Purpose:</strong> To prevent the creation of an artificial aristocracy and uphold the principle of equality.</li>
+      <li><strong>Bharat Ratna, Padma Vibhushan, Padma Bhushan, and Padma Shri:</strong> These national awards are not considered 'titles' within the meaning of Article 18. The Supreme Court in the Balaji Raghavan case (1996) held that these awards do not violate the principle of equality, but they should not be used as suffixes or prefixes to names.</li>
+    </ul>
+  </li>
+</ul>
+
+<div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
+  <strong>⚠️ Trap Alert:</strong> Articles 15, 16, 19, 29, and 30 apply <strong>only to citizens</strong>. Foreigners cannot claim these rights. This is a critical distinction for defence exams.
+</div>
+
+<h3>2. Right to Freedom (Articles 19-22)</h3>
+<p>These articles guarantee various freedoms essential for a democratic society, ensuring individual liberty while also balancing it with public interest.</p>
+<ul>
+  <li><strong>Article 19: Guarantees six freedoms to all citizens.</strong>
+    <ul>
+      <li>Originally, Article 19 guaranteed seven freedoms, but the 'right to acquire, hold, and dispose of property' was deleted by the 44th Amendment Act of 1978.</li>
+      <li>These six freedoms are:
+        <ol>
+          <li><strong>Freedom of Speech and Expression (Article 19(1)(a)):</strong> The right to express one's views, opinions, beliefs, and convictions freely by word of mouth, writing, printing, picturing, or in any other manner. This includes freedom of the press, right to know, right to silence, and freedom of commercial advertisements.</li>
+          <li><strong>Freedom to Assemble Peaceably and Without Arms (Article 19(1)(b)):</strong> The right to hold public meetings, demonstrations, and processions. This right does not include the right to strike.</li>
+          <li><strong>Freedom to Form Associations or Unions or Co-operative Societies (Article 19(1)(c)):</strong> The right to form political parties, companies, clubs, organisations, trade unions, or any body of persons.</li>
+          <li><strong>Freedom to Move Freely Throughout the Territory of India (Article 19(1)(d)):</strong> The right to move freely from one state to another or from one place to another within a state.</li>
+          <li><strong>Freedom to Reside and Settle in any Part of the Territory of India (Article 19(1)(e)):</strong> The right to reside temporarily or permanently in any part of the country.</li>
+          <li><strong>Freedom to Practice any Profession, or to Carry on any Occupation, Trade, or Business (Article 19(1)(g)):</strong> The right to choose and pursue any livelihood.</li>
+        </ol>
+      </li>
+      <li><strong>Reasonable Restrictions:</strong> Each of these freedoms is subject to reasonable restrictions imposed by the state on specific grounds mentioned in clauses (2) to (6) of Article 19. These grounds include sovereignty and integrity of India, security of the state, friendly relations with foreign states, public order, decency or morality, contempt of court, defamation, incitement to an offence, and protection of the interests of any Scheduled Tribe. The reasonableness of these restrictions is justiciable.</li>
+    </ul>
+  </li>
+  <li><strong>Article 20: Protection in respect of conviction for offences.</strong>
+    <ul>
+      <li>This article grants protection against arbitrary and excessive punishment to an accused person, whether a citizen or a foreigner or a legal person like a company or corporation. It contains three provisions:
+        <ol>
+          <li><strong>No ex-post-facto law (Article 20(1)):</strong> No person shall be convicted of any offence except for violation of a law in force at the time of the commission of the act charged as an offence. This protection is only against conviction or sentence under a retrospective criminal law, not against civil liability.</li>
+          <li><strong>No double jeopardy (Article 20(2)):</strong> No person shall be prosecuted and punished for the same offence more than once. This protection is available only in proceedings before a court of law or a judicial tribunal, not against departmental or administrative inquiries.</li>
+          <li><strong>No self-incrimination (Article 20(3)):</strong> No person accused of any offence shall be compelled to be a witness against himself. This protection extends to both oral evidence and documentary evidence, but not to compulsory production of material objects, giving thumb impressions, or blood specimens.</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Article 21: Protection of life and personal liberty.</strong>
+    <ul>
+      <li>"No person shall be deprived of his life or personal liberty except according to procedure established by law."</li>
+      <li><strong>Evolution of Interpretation:</strong>
+        <ul>
+          <li>Initially, in A.K. Gopalan case (1950), the Supreme Court adopted a narrow interpretation, holding that 'procedure established by law' meant a procedure laid down by a statute, even if it was arbitrary.</li>
+          <li>However, in the landmark <strong>Maneka Gandhi case (1978)</strong>, the Supreme Court overruled Gopalan and adopted a much wider interpretation. It held that the procedure must be fair, just, and reasonable, not arbitrary, fanciful, or oppressive. This effectively brought the 'due process of law' concept (from the US Constitution) into Indian jurisprudence, though indirectly.</li>
+        </ul>
+      </li>
+      <li><strong>Expansive Scope:</strong> Article 21 has been interpreted to include a vast array of rights that are essential for a dignified life. These include:
+        <ul>
+          <li>Right to live with human dignity.</li>
+          <li>Right to a decent environment, including pollution-free water and air.</li>
+          <li>Right to livelihood.</li>
+          <li>Right to privacy (affirmed in <strong>K.S. Puttaswamy vs. Union of India, 2017</strong>, as an intrinsic part of Article 21).</li>
+          <li>Right to shelter, health, free legal aid, speedy trial.</li>
+          <li>Right against solitary confinement, handcuffing, public hanging.</li>
+          <li>Right to travel abroad.</li>
+          <li>Right to sleep.</li>
+          <li>Right to reputation.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Article 21A: Right to elementary education.</strong>
+    <ul>
+      <li>This article declares that the State shall provide free and compulsory education to all children of the age of six to fourteen years in such manner as the State may, by law, determine.</li>
+      <li>It was added by the <strong>86th Amendment Act of 2002</strong>, making education a Fundamental Right.</li>
+      <li>This amendment was a significant step towards achieving universal elementary education and led to the enactment of the Right of Children to Free and Compulsory Education (RTE) Act, 2009.</li>
+    </ul>
+  </li>
+  <li><strong>Article 22: Protection against arrest and detention in certain cases.</strong>
+    <ul>
+      <li>This article grants protection to persons who are arrested or detained. It distinguishes between two types of detention:
+        <ol>
+          <li><strong>Punitive Detention:</strong> Detention as a punishment for an offence committed after trial and conviction.</li>
+          <li><strong>Preventive Detention:</strong> Detention without trial and conviction, purely as a precautionary measure on the suspicion that a person is likely to commit an offence.</li>
+        </ol>
+      </li>
+      <li><strong>Rights of a person under punitive detention (Ordinary Law):</strong>
+        <ul>
+          <li>Right to be informed of the grounds of arrest.</li>
+          <li>Right to consult and be defended by a legal practitioner of his choice.</li>
+          <li>Right to be produced before a magistrate within 24 hours (excluding journey time).</li>
+          <li>Right to be released after 24 hours unless the magistrate authorises further detention.</li>
+        </ul>
+      </li>
+      <li><strong>Rights of a person under preventive detention (Preventive Detention Law):</strong>
+        <ul>
+          <li>Detention cannot exceed three months unless an advisory board (consisting of High Court judges) reports sufficient cause for extended detention.</li>
+          <li>The grounds of detention must be communicated to the detenu.</li>
+          <li>The detenu must be afforded the earliest opportunity to make a representation against the detention order.</li>
+        </ul>
+      </li>
+      <li>Parliament has exclusive power to make laws for preventive detention for reasons connected with defence, foreign affairs, and security of India. Both Parliament and state legislatures can make laws for preventive detention for reasons connected with the security of a state, maintenance of public order, and essential supplies.</li>
+      <li>Laws like MISA (Maintenance of Internal Security Act), TADA (Terrorist and Disruptive Activities (Prevention) Act), POTA (Prevention of Terrorism Act), and UAPA (Unlawful Activities (Prevention) Act) are examples of preventive detention laws.</li>
+    </ul>
+  </li>
+</ul>
+
+<div style="background-color:#e2e3e5; padding:15px; border-left:5px solid #6c757d; margin:15px 0;">
+  <strong>⚡ PYQ Insight:</strong> (CDS 2020) "Which articles cannot be suspended even during a National Emergency?" Answer: <strong>Articles 20 and 21</strong>. This is a crucial exception under Article 359, ensuring basic human rights even in times of crisis.
+</div>
+
+<h3>3. Right against Exploitation (Articles 23-24)</h3>
+<p>These rights aim to protect individuals from various forms of exploitation, particularly those involving forced labour and child labour, reflecting the state's commitment to human dignity and social justice.</p>
+<ul>
+  <li><strong>Article 23: Prohibition of traffic in human beings and forced labour (begar).</strong>
+    <ul>
+      <li>This article prohibits 'traffic in human beings', 'begar' (forced labour without remuneration), and other similar forms of forced labour. Any contravention of this provision is an offence punishable by law.</li>
+      <li><strong>Traffic in human beings:</strong> Includes selling and buying of men, women, and children like goods; immoral traffic in women and children (including prostitution); devadasis; and slavery.</li>
+      <li><strong>Forced Labour:</strong> The term 'forced labour' means compelling a person to work against his will. The Supreme Court has interpreted it broadly to mean not only physical or legal compulsion but also compulsion arising from economic circumstances (e.g., working for less than minimum wage).</li>
+      <li><strong>Bonded Labour System (Abolition) Act, 1976:</strong> Enacted by Parliament to give effect to Article 23.</li>
+      <li><strong>Exception:</strong> The state can impose compulsory service for public purposes (e.g., military service or social service) without discrimination on grounds of religion, race, caste, or class. This compulsory service, however, cannot be forced labour in the traditional sense.</li>
+    </ul>
+  </li>
+  <li><strong>Article 24: Prohibition of employment of children (below 14 years) in factories and hazardous environments.</strong>
+    <ul>
+      <li>"No child below the age of fourteen years shall be employed to work in any factory or mine or engaged in any other hazardous employment."</li>
+      <li>This article aims to protect the health and well-being of children.</li>
+      <li>It is an absolute prohibition and does not allow for any exceptions.</li>
+      <li><strong>Child Labour (Prohibition and Regulation) Act, 1986:</strong> Prohibits the employment of children in certain occupations and processes and regulates their working conditions in others. The Act was amended in 2016 (Child and Adolescent Labour (Prohibition and Regulation) Act) to prohibit the employment of children below 14 years in all occupations and adolescents (14-18 years) in hazardous occupations.</li>
+      <li>This right is a crucial step towards ensuring the right to education (Article 21A) and overall child development.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>4. Right to Freedom of Religion (Articles 25-28)</h3>
+<p>These articles establish India as a secular state, guaranteeing religious freedom to all individuals and religious denominations while ensuring the state's neutrality in religious matters.</p>
+<ul>
+  <li><strong>Article 25: Freedom of conscience and free profession, practice, and propagation of religion.</strong>
+    <ul>
+      <li>This article guarantees freedom of conscience, the right to freely profess, practice, and propagate religion to all persons (citizens and non-citizens).</li>
+      <li><strong>Freedom of conscience:</strong> Inner freedom of an individual to mould his relation with God or creatures in whatever way he desires.</li>
+      <li><strong>Right to profess:</strong> Declaration of one's religious beliefs and faith openly and freely.</li>
+      <li><strong>Right to practice:</strong> Performance of religious worship, rituals, ceremonies, and exhibition of beliefs and ideas.</li>
+      <li><strong>Right to propagate:</strong> Transmitting and disseminating one's religious beliefs to others or exposing the tenets of one's religion. It does not include the right to convert another person, as forcible conversions would impinge on the 'freedom of conscience' of the convert.</li>
+      <li><strong>Limitations:</strong> This freedom is subject to public order, morality, health, and other Fundamental Rights. The state can also make laws providing for social welfare and reform or throwing open Hindu religious institutions of a public character to all classes and sections of Hindus.</li>
+      <li><strong>Example:</strong> Wearing and carrying of 'kirpans' by Sikhs is deemed to be included in the profession of the Sikh religion.</li>
+    </ul>
+  </li>
+  <li><strong>Article 26: Freedom to manage religious affairs.</strong>
+    <ul>
+      <li>This article guarantees certain rights to every religious denomination or any section thereof, subject to public order, morality, and health. These rights are:
+        <ul>
+          <li>Right to establish and maintain institutions for religious and charitable purposes.</li>
+          <li>Right to manage its own affairs in matters of religion.</li>
+          <li>Right to own and acquire movable and immovable property.</li>
+          <li>Right to administer such property in accordance with law.</li>
+        </ul>
+      </li>
+      <li><strong>Distinction from Article 25:</strong> Article 25 guarantees rights to individuals, while Article 26 guarantees rights to religious denominations or their sections.</li>
+    </ul>
+  </li>
+  <li><strong>Article 27: Freedom as to payment of taxes for promotion of any particular religion.</strong>
+    <ul>
+      <li>"No person shall be compelled to pay any taxes, the proceeds of which are specifically appropriated in payment of expenses for the promotion or maintenance of any particular religion or religious denomination."</li>
+      <li>This`;
 
 
 window.EXPANDED_NOTES_DATA["dpsp"] = String.raw`<h1>Directive Principles of State Policy (DPSP)</h1>

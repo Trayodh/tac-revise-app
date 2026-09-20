@@ -1,0 +1,21 @@
+{
+  "title": "Cartographic Accuracy and Error Sources",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Borders & Mapping",
+  "topic": "Cartographic Accuracy",
+  "format": "Mermaid",
+  "description": "A flowchart detailing the types of errors in military mapping (horizontal, vertical, attribute) and their typical margins, along with mitigation strategies like ground truthing, governed by ISO 19115.",
+  "keywords": [
+    "Cartographic accuracy",
+    "Mapping errors",
+    "ISO 19115",
+    "Horizontal positional error",
+    "Vertical elevation error",
+    "Attribute error",
+    "Ground truthing",
+    "Himalayan frontier",
+    "Northeastern frontier"
+  ],
+  "mermaidCode": "graph TD\nA[Cartographic Accuracy & Error Sources] --> B{International Standard ISO 19115}\nB --> C[Horizontal Positional Error]\nC --> C1[<= +/- 5m for 1:50,000 maps]\nB --> D[Vertical (Elevation) Error]\nD --> D1[<= +/- 10m for 20m contour intervals]\nB --> E[Attribute Error]\nE --> E1[Mitigated through Ground Truthing]\nE1 --> E2[Especially in Himalayan & Northeastern frontier zones]"
+}

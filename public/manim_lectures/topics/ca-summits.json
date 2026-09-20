@@ -1,0 +1,16 @@
+{
+    "id": "ca-summits",
+    "title": "Major International Summits",
+    "subject": "Current Affairs & GK",
+    "subjectId": "current-affairs",
+    "chapter": "Schemes, Policies & Summits",
+    "chapterId": "schemes-policies",
+    "blocks": [],
+    "formulas": [
+        "COP21: Paris Agreement (2015)",
+        "G20: 85% of world GDP",
+        "G7: 7 advanced economies",
+        "WEF: Davos, Switzerland"
+    ],
+    "hasNotes": false
+}

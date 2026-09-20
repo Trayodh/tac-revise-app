@@ -1,0 +1,40 @@
+{
+    "id": "marathas",
+    "title": "Marathas",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "4. Medieval India",
+    "chapterId": "medieval-india-tree",
+    "blocks": [
+        {
+            "heading": "\u2694\ufe0f The Maratha Empire",
+            "intro": "The Marathas rose as a formidable power in the Deccan, challenging Mughal supremacy and eventually dominating North India.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Chhatrapati Shivaji Maharaj (1627 - 1680)",
+            "intro": "",
+            "bullets": [
+                "Born at Shivneri Fort. Captured major forts (Torna, Pratapgad, Purandar). Escaped Aurangzeb's house arrest in Agra (1666). Coronation at Raigad (1674), taking the title *Chhatrapati*.",
+                "Administration: **Ashtapradhan** (council of 8 ministers): - *Peshwa:* Prime Minister. - *Amatya:* Finance Minister. - *Senapati:* Military commander. - *Sumant / Dabir:* Foreign relations.",
+                "Revenue System: - *Chauth:* 1/4th (25%) of land revenue paid by neighboring states to escape Maratha raids. - *Sardeshmukhi:* Additional 10% tax claimed by Shivaji as supreme ruler."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Peshwa Era (1713 - 1818)",
+            "intro": "",
+            "bullets": [
+                "Peshwas became the de-facto rulers of the empire, shifting capital to Pune. **Balaji Vishwanath (1713-1720):** Assisted Shahu in consolidating power.",
+                "**Baji Rao I (1720-1740):** Undefeated in 41 battles (Palhed, Bhopal). Captured Salsette and Bassein from Portuguese. Expanded empire to Delhi.",
+                "**Balaji Baji Rao (Nana Saheb: 1740-1761):** Maratha power peaked. **3rd Battle of Panipat (1761):** Maratha army under Sadashivrao Bhau was defeated by Afghan invader **Ahmad Shah Abdali**. This broke Maratha unity and halted expansion."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Shivaji Coronation: 1674 | Ashtapradhan: Shivaji council | Chauth: 25% tax | 3rd Panipat: 1761"
+    ],
+    "hasNotes": true
+}

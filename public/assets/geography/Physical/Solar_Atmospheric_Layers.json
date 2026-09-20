@@ -1,0 +1,17 @@
+{
+  "title": "Solar Atmospheric Layers",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "The Sun",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Sun] --> B[Photosphere]\n    B --> C[Chromosphere]\n    C --> D[Corona]",
+  "mapQuery": "",
+  "description": "Diagram of the Sun's outer layers: photosphere, chromosphere, and corona.",
+  "keywords": [
+    "photosphere",
+    "chromosphere",
+    "corona",
+    "solar atmosphere"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "id": "post-mauryan-india",
+    "title": "Post-Mauryan India",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "3. Ancient India",
+    "chapterId": "ancient-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83c\udffa Post-Mauryan Period",
+            "intro": "Characterized by political fragmentation, rise of regional dynasties, and foreign invasions from Central Asia.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Indigenous Dynasties",
+            "intro": "",
+            "bullets": [
+                "Sunga Dynasty (185 - 73 BCE): Pushyamitra Sunga, a Brahmin army chief, assassinated the last Maurya King Brihadratha. Patronised Patanjali (grammarian). Renovated Sanchi and Bharhut stupas.",
+                "Kanva Dynasty: Founded by Vasudeva Kanva. Short-lived.",
+                "Satavahanas (Andhras): Founded by Simuka. Ruled Deccan/Central India. Gautamiputra Satakarni (the greatest ruler, called 'sole Brahmin' in Nasik inscription). **Signature features:** Issued lead coins, patronised Prakrit (Hala wrote *Gathasaptasati*), pioneered **royal land grants** to Brahmins and Buddhist monks."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Foreign Invasions",
+            "intro": "",
+            "bullets": [
+                "Indo-Greeks: First to invade. **Menander** (Milinda) was converted to Buddhism by Nagasena (recorded in text *Milindapanha* - Questions of Milinda). First to issue gold coins with inscriptions in India.",
+                "Sakas (Scythians): **Rudradaman I** (Western Kshatrapa) is famous for the **Junagadh Rock Inscription** (first major inscription in pure Sanskrit, records repair of Sudarshana Lake).",
+                "Kushanas: Central Asian tribe. **Kanishka (78 - 101 CE):** Founded the **Saka Era (78 CE)**. Organised the 4th Buddhist Council in Kashmir. Capital at Purushapura (Peshawar).",
+                "Patronised scholars: Ashvaghosha (wrote *Buddhacharita*), Nagarjuna (Einstein of India, Madhyamika philosophy), Charaka (court physician, *Charaka Samhita*).",
+                "Gandhara School (Greek influence, realistic Buddha) and Mathura School (indigenous, red sandstone Buddha) of art flourished."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Sunga founder: Pushyamitra | Saka Era: 78 CE (Kanishka) | Satavahana: Lead coins"
+    ],
+    "hasNotes": true
+}

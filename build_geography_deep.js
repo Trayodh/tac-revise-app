@@ -2,18 +2,18 @@ const fs = require('fs');
 
 const premiumCard = (title, content, upscHighlights, detailedAnalysis) => `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">\${title}</h3>
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">${title}</h3>
   
-  \${content}
+  ${content}
 
   <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
     <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
-    <p style="color: #e2e8f0; margin-top: 8px;">\${upscHighlights}</p>
+    <p style="color: #e2e8f0; margin-top: 8px;">${upscHighlights}</p>
   </div>
 
   <div style="background: rgba(56,189,248,0.08); border-left: 4px solid #38bdf8; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
     <strong style="color: #38bdf8;">🧠 Detailed Analysis & Assertion-Reasoning:</strong>
-    <p style="color: #e2e8f0; margin-top: 8px;">\${detailedAnalysis}</p>
+    <p style="color: #e2e8f0; margin-top: 8px;">${detailedAnalysis}</p>
   </div>
 </div>
 `;
@@ -54,9 +54,10 @@ const atmosphereContent = `
     </li>
   </ul>
 `;
-output += `window.EXPANDED_NOTES_DATA["earth-atmosphere"] = \`\${premiumCard("Atmosphere & Oceanography", atmosphereContent, 
+const earthAtmosphereHtml = premiumCard("Atmosphere & Oceanography", atmosphereContent, 
 "Questions frequently target the exact height limits of atmospheric gases (O2 ends at 120km, CO2/H2O ends at 90km) and the sequence of layers. Also, match-the-following questions on Cold/Warm currents are a staple in CDS. Know that cold currents always create deserts on the western margins of continents.", 
-"Assertion-Reasoning often tests the Temperature Inversion phenomenon: usually, temp decreases with height, but during long winter nights with clear skies, the surface cools faster than the air above it, leading to a layer of warm air over cold air (inversion). This traps pollutants and causes smog. Also, the Coriolis force is zero at the equator, which is why Cyclones never form at the equator.")}\`;\n\n`;
+"Assertion-Reasoning often tests the Temperature Inversion phenomenon: usually, temp decreases with height, but during long winter nights with clear skies, the surface cools faster than the air above it, leading to a layer of warm air over cold air (inversion). This traps pollutants and causes smog. Also, the Coriolis force is zero at the equator, which is why Cyclones never form at the equator.");
+output += `window.EXPANDED_NOTES_DATA["earth-atmosphere"] = \`\n${earthAtmosphereHtml.replace(/`/g, '\\`')}\n\`;\n\n`;
 
 // 2. Climatology & Clouds (climatology-clouds)
 const climatologyContent = `
@@ -91,9 +92,10 @@ const climatologyContent = `
     <li><strong>Anticyclone:</strong> High pressure at center. Winds diverge. Northern Hemisphere: Clockwise. Southern Hemisphere: Anti-clockwise. Associated with fair weather.</li>
   </ul>
 `;
-output += `window.EXPANDED_NOTES_DATA["climatology-clouds"] = \`\${premiumCard("Climatology & Winds", climatologyContent, 
+const climatologyHtml = premiumCard("Climatology & Winds", climatologyContent, 
 "The Roaring Forties (40°S), Furious Fifties (50°S), and Screaming Sixties (60°S) are favorite CDS/NDA questions. They exist only in the Southern Hemisphere due to the unbroken oceanic expanse. Also memorize the Local Winds (Chinook = Warm, Mistral = Cold).", 
-"Why do tropical cyclones not form at the equator? Because the Coriolis force is zero at the equator, which is required to create the spinning vortex. Also, the 'Eye' of the cyclone is a region of subsiding air, creating an incredibly calm and clear core amidst violent storms.")}\`;\n\n`;
+"Why do tropical cyclones not form at the equator? Because the Coriolis force is zero at the equator, which is required to create the spinning vortex. Also, the 'Eye' of the cyclone is a region of subsiding air, creating an incredibly calm and clear core amidst violent storms.");
+output += `window.EXPANDED_NOTES_DATA["climatology-clouds"] = \`\n${climatologyHtml.replace(/`/g, '\\`')}\n\`;\n\n`;
 
 // 3. Geomorphology & Rocks (geomorphology-rocks)
 const geomorphologyContent = `
@@ -133,9 +135,10 @@ const geomorphologyContent = `
     <li><strong>Karst (Groundwater):</strong> Sinkholes, Stalactites (ceiling), Stalagmites (floor), Pillars. Found in limestone regions.</li>
   </ul>
 `;
-output += `window.EXPANDED_NOTES_DATA["geomorphology-rocks"] = \`\${premiumCard("Geomorphology, Rocks & Earth's Interior", geomorphologyContent, 
+const geomorphologyHtml = premiumCard("Geomorphology, Rocks & Earth's Interior", geomorphologyContent, 
 "The sequence of Discontinuities (CMRGL) and the nature of Seismic Waves (P-waves travel through all mediums, S-waves only solids) are extremely high-frequency questions. For rocks, matching the parent rock to its metamorphic form (e.g., Limestone -> Marble) is a guaranteed 1-marker.", 
-"Assertion-Reasoning on Shadow Zones: The S-wave shadow zone (105° to 105°) is much larger than the P-wave shadow zone (105° to 145°) because S-waves simply cannot pass through the liquid outer core. P-waves are refracted (bent) as they enter and leave the liquid core, creating a smaller annular shadow zone.")}\`;\n\n`;
+"Assertion-Reasoning on Shadow Zones: The S-wave shadow zone (105° to 105°) is much larger than the P-wave shadow zone (105° to 145°) because S-waves simply cannot pass through the liquid outer core. P-waves are refracted (bent) as they enter and leave the liquid core, creating a smaller annular shadow zone.");
+output += `window.EXPANDED_NOTES_DATA["geomorphology-rocks"] = \`\n${geomorphologyHtml.replace(/`/g, '\\`')}\n\`;\n\n`;
 
 fs.writeFileSync('notes_generated_geography_deep.js', output);
 console.log('Successfully generated notes_generated_geography_deep.js');

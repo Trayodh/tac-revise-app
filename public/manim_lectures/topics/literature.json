@@ -1,0 +1,32 @@
+{
+    "id": "literature",
+    "title": "Literature",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "7. Art, Culture & Heritage",
+    "chapterId": "art-culture-heritage",
+    "blocks": [
+        {
+            "heading": "\ud83d\udcd6 Literary Traditions of India",
+            "intro": "The vast text corpus of India, preserving scientific, political, and philosophical achievements.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Ancient Scripts & Texts",
+            "intro": "",
+            "bullets": [
+                "The Vedas: Rigveda (1028 hymns), Samaveda (music), Yajurveda (prose/ritual instructions), Atharvaveda (medicine/spells).",
+                "Epics: Ramayana (Valmiki) and Mahabharata (Vyasa).",
+                "Buddhist Canons (Tripitakas - in Pali): Sutta Pitaka (Buddha's discourses), Vinaya Pitaka (rules for monks), Abhidhamma Pitaka (philosophical analysis).",
+                "Jain Canons: Angas (written in Prakrit/Ardhamagadhi).",
+                "Sangam Literature (Tamil): Tolkappiyam (grammar), epics Silappatikaram and Manimekalai, and Tirukkural (moral guide by Tiruvalluvar)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Tripitakas: Pali (Buddhism) | Angas: Prakrit (Jainism) | Ashtadhyayi: Panini | Silappatikaram: Ilango Adigal"
+    ],
+    "hasNotes": true
+}
