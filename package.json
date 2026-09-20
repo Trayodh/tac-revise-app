@@ -47,6 +47,7 @@
     "puppeteer": "^25.3.0",
     "rss-parser": "^3.13.0",
     "sarvamai": "^1.1.7",
+    "serverless-http": "^4.0.0",
     "string-similarity": "^4.0.4",
     "tslib": "^2.8.1",
     "turndown": "^7.2.4",

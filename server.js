@@ -203,7 +203,7 @@ const MIME_TYPES = {
   '.pdf': 'application/pdf'
 };
 
-const server = http.createServer((req, res) => {
+const requestHandler = async (req, res) => {
   // CORS Headers for API requests
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
@@ -920,7 +920,7 @@ What subject or topic would you like to plan next?`;
       stream.pipe(res);
     }
   });
-});
+};
 
 server.timeout = 600000; // 10 minutes
 server.keepAliveTimeout = 600000;
@@ -940,29 +940,38 @@ if (!validationResult.success) {
 }
 // ─────────────────────────────────────────────────────────────────────
 
-server.listen(PORT, () => {
-  console.log(`Tac-Revise Server running at http://localhost:${PORT}`);
-  
-  // Trigger automated daily current affairs updates
-  console.log("[AUTO-UPDATE] Scheduling first update in 10 seconds...");
-  setTimeout(() => {
-    autoUpdateCurrentAffairs()
-      .then(() => console.log("[AUTO-UPDATE] Startup auto-update CA completed successfully."))
-      .catch(err => console.error("[AUTO-UPDATE] Startup auto-update CA failed:", err));
-      
-    autoUpdateMilitaryExercises()
-      .then(() => console.log("[AUTO-UPDATE] Startup auto-update ME completed successfully."))
-      .catch(err => console.error("[AUTO-UPDATE] Startup auto-update ME failed:", err));
-  }, 10000);
+const server = http.createServer(requestHandler);
+server.timeout = 600000; // 10 minutes
+server.keepAliveTimeout = 600000;
+server.headersTimeout = 601000;
 
-  setInterval(() => {
-    autoUpdateCurrentAffairs()
-      .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update CA completed successfully."))
-      .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update CA failed:", err));
-      
-    autoUpdateMilitaryExercises()
-      .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update ME completed successfully."))
-      .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update ME failed:", err));
-  }, 24 * 60 * 60 * 1000); // every 24 hours
-});
+if (require.main === module) {
+  server.listen(PORT, () => {
+    console.log(`Tac-Revise Server running at http://localhost:${PORT}`);
+    
+    // Trigger automated daily current affairs updates
+    console.log("[AUTO-UPDATE] Scheduling first update in 10 seconds...");
+    setTimeout(() => {
+      autoUpdateCurrentAffairs()
+        .then(() => console.log("[AUTO-UPDATE] Startup auto-update CA completed successfully."))
+        .catch(err => console.error("[AUTO-UPDATE] Startup auto-update CA failed:", err));
+        
+      autoUpdateMilitaryExercises()
+        .then(() => console.log("[AUTO-UPDATE] Startup auto-update ME completed successfully."))
+        .catch(err => console.error("[AUTO-UPDATE] Startup auto-update ME failed:", err));
+    }, 10000);
+  
+    setInterval(() => {
+      autoUpdateCurrentAffairs()
+        .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update CA completed successfully."))
+        .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update CA failed:", err));
+        
+      autoUpdateMilitaryExercises()
+        .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update ME completed successfully."))
+        .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update ME failed:", err));
+    }, 24 * 60 * 60 * 1000); // every 24 hours
+  });
+}
+
+module.exports = requestHandler;
 
