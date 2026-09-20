@@ -297,7 +297,7 @@ const requestHandler = async (req, res) => {
         
         const GROQ_API_KEY = process.env.GROQ_API_KEY;
         const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY || process.env.GROQ_API_KEY; // fallback if needed
-        const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+        const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
         
         const systemPrompt = `
 # AI Router System Prompt
@@ -675,7 +675,7 @@ ${textPrompt}`;
           }
         }
         
-        const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
+        const GEMINI_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
         const CEREBRAS_KEY = process.env.CEREBRAS_API_KEY || process.env.GROQ_API_KEY || '';
 
         let apiResponse = null;
