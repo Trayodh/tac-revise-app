@@ -1,0 +1,54 @@
+{
+    "id": "inverse-trig",
+    "title": "Inverse Trigonometric Functions",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Trigonometry",
+    "chapterId": "trigonometry",
+    "blocks": [
+        {
+            "heading": "1. Principal Value Branches (PVB)",
+            "intro": "The domain and range must be strictly memorized to solve standard NDA/CDS equations:",
+            "bullets": [
+                "sin\u207b\u00b9 x : Domain = [-1, 1] , Range (PVB) = [-\u03c0/2, \u03c0/2]",
+                "cos\u207b\u00b9 x : Domain = [-1, 1] , Range (PVB) = [0, \u03c0]",
+                "tan\u207b\u00b9 x : Domain = \u211d , Range (PVB) = (-\u03c0/2, \u03c0/2)",
+                "cosec\u207b\u00b9 x : Domain = \u211d - (-1, 1) , Range (PVB) = [-\u03c0/2, \u03c0/2] - {0}",
+                "sec\u207b\u00b9 x : Domain = \u211d - (-1, 1) , Range (PVB) = [0, \u03c0] - {\u03c0/2}",
+                "cot\u207b\u00b9 x : Domain = \u211d , Range (PVB) = (0, \u03c0)"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Fundamental Properties",
+            "intro": "",
+            "bullets": [
+                "sin\u207b\u00b9(-x) = -sin\u207b\u00b9 x , cosec\u207b\u00b9(-x) = -cosec\u207b\u00b9 x , tan\u207b\u00b9(-x) = -tan\u207b\u00b9 x",
+                "cos\u207b\u00b9(-x) = \u03c0 - cos\u207b\u00b9 x , sec\u207b\u00b9(-x) = \u03c0 - sec\u207b\u00b9 x , cot\u207b\u00b9(-x) = \u03c0 - cot\u207b\u00b9 x",
+                "sin\u207b\u00b9(1/x) = cosec\u207b\u00b9 x (for |x| \u2265 1)",
+                "cos\u207b\u00b9(1/x) = sec\u207b\u00b9 x (for |x| \u2265 1)",
+                "tan\u207b\u00b9(1/x) = cot\u207b\u00b9 x (for x > 0)"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Identities & Sums",
+            "intro": "",
+            "bullets": [
+                "sin\u207b\u00b9 x + cos\u207b\u00b9 x = \u03c0/2 (for x \u2208 [-1, 1])",
+                "tan\u207b\u00b9 x + cot\u207b\u00b9 x = \u03c0/2 (for x \u2208 \u211d)",
+                "cosec\u207b\u00b9 x + sec\u207b\u00b9 x = \u03c0/2 (for |x| \u2265 1)",
+                "tan\u207b\u00b9 x + tan\u207b\u00b9 y = tan\u207b\u00b9((x + y)/(1 - xy)) [if xy < 1]",
+                "tan\u207b\u00b9 x - tan\u207b\u00b9 y = tan\u207b\u00b9((x - y)/(1 + xy)) [if xy > -1]",
+                "2tan\u207b\u00b9 x = sin\u207b\u00b9(2x/(1+x\u00b2)) = cos\u207b\u00b9((1-x\u00b2)/(1+x\u00b2)) = tan\u207b\u00b9(2x/(1-x\u00b2))"
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "sin\u207b\u00b9x + cos\u207b\u00b9x = \u03c0/2",
+        "tan\u207b\u00b9x + tan\u207b\u00b9y = tan\u207b\u00b9((x+y)/(1-xy)) [xy < 1]",
+        "2tan\u207b\u00b9x = sin\u207b\u00b9(2x/(1+x\u00b2)) = cos\u207b\u00b9((1-x\u00b2)/(1+x\u00b2))"
+    ],
+    "hasNotes": true
+}

@@ -1,0 +1,22 @@
+{
+  "title": "India's Indo-Pacific Policy Instruments",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "India’s Strategic Calculus in the Indo-Pacific",
+  "topic": "Operationalizing Indo-Pacific Vision",
+  "format": "Mermaid",
+  "description": "Shows the key policy instruments India uses to operationalize its Indo-Pacific vision, including Strategic Partnership with Japan, Indo-Pacific Oceans Initiative (IPOI), and Act East Policy.",
+  "keywords": [
+    "India",
+    "Indo-Pacific",
+    "Policy Instruments",
+    "Japan",
+    "IPOI",
+    "Act East Policy",
+    "Cooperative Security",
+    "MDA",
+    "Blue Economy",
+    "Neighbourhood First"
+  ],
+  "mermaidCode": "graph TD\nA[India's Indo-Pacific Vision] --> B(Key Policy Instruments)\nB --> B1(Strategic Partnership with Japan (2014))\nB1 --> B1a(Cooperative Security)\nB1 --> B1b(Joint Development of Maritime Domain Awareness (MDA) systems)\nB --> B2(Indo-Pacific Oceans Initiative (IPOI, 2019))\nB2 --> B2a(Capacity Building)\nB2 --> B2b(Maritime Security)\nB2 --> B2c(Blue-Economy Cooperation)\nB --> B3(Act East Policy (re-oriented 2014))\nB3 --> B3a(Deepening Economic Ties)\nB3 --> B3b(Deepening Strategic Ties with Southeast Asian Nations)\nB3 --> B3c(Underpinning India's \"neighbourhood first\" approach)"
+}

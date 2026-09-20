@@ -1,0 +1,20 @@
+{
+  "title": "Legal & Institutional Frameworks of Indo-Pacific",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "Geopolitical Flashpoints & Indo-Pacific",
+  "topic": "Indo-Pacific Governance",
+  "format": "Mermaid",
+  "description": "A classification diagram outlining the key multilateral instruments and regional groupings that provide the normative backbone for maritime conduct in the Indo-Pacific.",
+  "keywords": [
+    "Indo-Pacific frameworks",
+    "UN Charter",
+    "Treaty of Amity and Cooperation",
+    "Hague Convention",
+    "Quadrilateral Security Dialogue (Quad)",
+    "AUKUS",
+    "Freedom of navigation",
+    "Maritime security"
+  ],
+  "mermaidCode": "graph TD\nA[Legal & Institutional Frameworks Governing Indo-Pacific] --> B[Multilateral Instruments]\nB --> B1[United Nations Charter (1945)]\nB --> B2[Treaty of Amity and Cooperation (1976)]\nB --> B3[Hague Convention (1907)]\nA --> C[Regional Groupings]\nC --> C1[Quadrilateral Security Dialogue (Quad)]\nC --> C2[AUKUS (2021)]"
+}

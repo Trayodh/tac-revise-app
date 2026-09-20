@@ -1,0 +1,20 @@
+{
+  "title": "International Laws Governing Maritime & Arid Zones",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Straits, Canals, Deserts & Seas",
+  "topic": "International Law",
+  "format": "Mermaid",
+  "description": "A diagram illustrating key international legal instruments like UNCLOS, Convention on Territorial Sea, Suez Canal Agreement, and Montreal Protocol, and their relevance to straits, canals, deserts, and seas.",
+  "keywords": [
+    "UNCLOS",
+    "International Law",
+    "Maritime Law",
+    "Transit Passage",
+    "Suez Canal Agreement",
+    "Montreal Protocol",
+    "Territorial Sea",
+    "EEZ"
+  ],
+  "mermaidCode": "graph TD\n    A[International Legal Instruments] --> B(Governing Physical Features)\n    B --> C[Straits]\n    B --> D[Canals]\n    B --> E[Deserts]\n    B --> F[Seas]\n\n    UNCLOS(UNCLOS 1982) --> C\n    UNCLOS --> F\n    UNCLOS -- Defines --> TransitPassage(Transit Passage)\n    UNCLOS -- Defines --> TerritorialSeas(Territorial Seas)\n    UNCLOS -- Defines --> EEZs(Exclusive Economic Zones)\n\n    Convention1958(Convention on Territorial Sea and Contiguous Zone 1958) --> C\n    Convention1958 --> F\n\n    SuezCanalAgreement1888(Suez Canal Agreement 1888) --> D\n    SuezCanalAgreement1888 -- Guarantees --> FreePassage(Free Passage)\n\n    MontrealProtocol1987(Montreal Protocol 1987) --> E\n    MontrealProtocol1987 -- Impacts --> OzoneDepletion(Ozone Depletion & Climate)\n\n    TreatyOfTordesillas1494(Treaty of Tordesillas 1494) -- Historical Precedent --> MaritimeSpheres(Dividing Maritime Spheres)"
+}

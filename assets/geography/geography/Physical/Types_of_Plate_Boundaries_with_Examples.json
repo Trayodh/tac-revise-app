@@ -1,0 +1,18 @@
+{
+  "title": "Types of Plate Boundaries with Examples",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Plate Tectonics",
+  "topic": "Boundary Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nA[Divergent (Constructive)] --> B[Mid‑Ocean Ridges, East African Rift]\nC[Convergent (Destructive)] --> D[Oceanic‑Oceanic: Mariana Trench, Japanese Islands]\nC --> E[Oceanic‑Continental: Andes, Cascade Range]\nC --> F[Continental‑Continental: Himalayas, Alps]\nG[Transform (Conservative)] --> H[San Andreas Fault]",
+  "mapQuery": "",
+  "description": "Classification of plate boundaries with representative geographic examples.",
+  "keywords": [
+    "plate boundaries",
+    "divergent",
+    "convergent",
+    "transform",
+    "San Andreas"
+  ]
+}

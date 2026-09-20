@@ -1,0 +1,19 @@
+{
+  "title": "River Landforms",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Major River Systems",
+  "topic": "River Geomorphology",
+  "format": "Mermaid",
+  "description": "Illustrates key landforms associated with river courses, including estuaries, waterfalls, river terraces, and oxbow lakes, highlighting their formation processes.",
+  "keywords": [
+    "River",
+    "Landforms",
+    "Estuary",
+    "Waterfall",
+    "River Terrace",
+    "Oxbow Lake",
+    "Geomorphology"
+  ],
+  "mermaidCode": "graph TD\nA[River Landforms] --> B{Formed by River Action}\nB --> C[Erosional Features]\nB --> D[Depositional Features]\nC --> C1[Waterfalls]\nC --> C2[River Terraces]\nD --> D1[Oxbow Lakes]\nD --> D2[Estuaries]\nC1 -- Vertical Drop --> AngelFalls(Angel Falls)\nC1 -- Vertical Drop --> VictoriaFalls(Victoria Falls)\nC1 -- Vertical Drop --> NiagaraFalls(Niagara Falls)\nC2 -- Former Floodplain --> Rejuvenation(River Rejuvenation)\nD1 -- Cut off Meander --> CrescentShape(Crescent-shaped)\nD2 -- Fresh & Saltwater Mix --> CoastalZone(Semi-enclosed Coastal Zone)"
+}

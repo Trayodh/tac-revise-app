@@ -1,0 +1,19 @@
+{
+  "title": "Legal and Policy Framework for Indian Forests",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Forests of India",
+  "topic": "Statutes & Policies",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    L[Legal & Policy Framework] --> A[Indian Forest Act, 1927]\n    L --> B[Forest Conservation Act, 1980]\n    L --> C[Wildlife Protection Act, 1972]\n    L --> D[National Forest Policy, 1988]\n    L --> E[National Agro‑Forestry Policy, 2014]\n    L --> F[National Wetland Conservation Programme, 1985]\n    A --> A1[Forest reservation, timber regulation]\n    B --> B1[Restricts de‑reservation]\n    C --> C1[Protected areas, wildlife trade]\n    D --> D1[Afforestation, community participation]\n    E --> E1[Integrate trees on farms]\n    F --> F1[Protect critical wetlands]",
+  "mapQuery": "",
+  "description": "Flowchart summarizing the major statutes and policy documents governing forest and wetland management in India, with brief notes on their core provisions.",
+  "keywords": [
+    "Indian Forest Act",
+    "Forest Conservation Act",
+    "Wildlife Protection Act",
+    "National Forest Policy",
+    "Agro‑Forestry Policy",
+    "Wetland Conservation Programme"
+  ]
+}

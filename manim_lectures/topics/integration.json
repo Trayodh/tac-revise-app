@@ -1,0 +1,63 @@
+{
+    "id": "integration",
+    "title": "Standard Integration Methods",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Calculus",
+    "chapterId": "calculus",
+    "blocks": [
+        {
+            "heading": "1. Fundamental Indefinite Integrals",
+            "intro": "",
+            "bullets": [
+                "\u222b x\u207f dx = x\u207f\u207a\u00b9/(n+1) + C (n \u2260 -1)",
+                "\u222b 1/x dx = ln|x| + C",
+                "\u222b e\u02e3 dx = e\u02e3 + C",
+                "\u222b a\u02e3 dx = a\u02e3/ln a + C",
+                "\u222b sin x dx = -cos x + C",
+                "\u222b cos x dx = sin x + C",
+                "\u222b sec\u00b2 x dx = tan x + C",
+                "\u222b cosec\u00b2 x dx = -cot x + C"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Logarithmic Trigonometric Integrals",
+            "intro": "",
+            "bullets": [
+                "\u222b tan x dx = ln|sec x| + C = -ln|cos x| + C",
+                "\u222b cot x dx = ln|sin x| + C",
+                "\u222b sec x dx = ln|sec x + tan x| + C",
+                "\u222b cosec x dx = ln|cosec x - cot x| + C = ln|tan(x/2)| + C"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Special Integrals (Substitution helper)",
+            "intro": "",
+            "bullets": [
+                "\u222b 1/(x\u00b2 + a\u00b2) dx = (1/a) tan\u207b\u00b9(x/a) + C",
+                "\u222b 1/\u221a(a\u00b2 - x\u00b2) dx = sin\u207b\u00b9(x/a) + C",
+                "\u222b 1/\u221a(x\u00b2 \u00b1 a\u00b2) dx = ln|x + \u221a(x\u00b2 \u00b1 a\u00b2)| + C"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "4. Integration by Parts & Definite Properties",
+            "intro": "",
+            "bullets": [
+                "\u222b u\u00b7v dx = u \u222b v dx - \u222b [ u' \u222b v dx ] dx (Choose u based on ILATE priority).",
+                "King's Property : \u222b[0 to a] f(x) dx = \u222b[0 to a] f(a-x) dx",
+                "\u222b[a to b] f(x) dx = \u222b[a to b] f(a+b-x) dx",
+                "\u222b[-a to a] f(x) dx = 2\u222b[0 to a] f(x) dx (if f(x) is even); = 0 (if f(x) is odd)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "\u222b u\u00b7v dx = u\u222bv dx - \u222b(u'\u00b7\u222bv dx) dx",
+        "King's Property: \u222b[0 to a] f(x) dx = \u222b[0 to a] f(a-x) dx",
+        "Even/Odd Property: \u222b[-a to a] f(x)dx = 0 if f(-x)=-f(x)"
+    ],
+    "hasNotes": true
+}

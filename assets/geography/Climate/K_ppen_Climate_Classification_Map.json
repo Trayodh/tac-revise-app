@@ -1,0 +1,17 @@
+{
+  "title": "Köppen Climate Classification Map",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Climatic Zones – Köppen Classification",
+  "topic": "Köppen Climate Zones",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "Köppen climate classification world map",
+  "description": "World map displaying the major Köppen climate groups (A‑H) with their typical sub‑types (e.g., Af, BWh, Cfa, Dfb, ET, H) and corresponding vegetation zones.",
+  "keywords": [
+    "Köppen",
+    "climate classification",
+    "world climate map",
+    "climatic zones"
+  ]
+}

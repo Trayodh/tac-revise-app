@@ -1,0 +1,30 @@
+{
+    "id": "schedules",
+    "title": "Schedules of the Constitution",
+    "subject": "Indian Polity (CDS/NDA)",
+    "subjectId": "polity",
+    "chapter": "Constitutional Framework",
+    "chapterId": "constitution-basics",
+    "blocks": [
+        {
+            "heading": "Schedules Overview",
+            "intro": "Originally, the Constitution had 8 schedules. Currently, there are 12 schedules .",
+            "bullets": [
+                "T - Territories : Names of States and Union Territories and their territorial extent.",
+                "E - Emoluments : Provisions relating to the salaries, allowances, and privileges of President, Governors, Speaker, Judges, Comptroller and Auditor-General (CAG).",
+                "A - Affirmations & Oaths : Forms of Oaths or Affirmations for Union Ministers, MPs, Judges, CAG.",
+                "R - Rajya Sabha : Allocation of seats in the Rajya Sabha to the States and Union Territories.",
+                "S - Scheduled Areas : Provisions relating to the administration and control of scheduled areas and scheduled tribes.",
+                "O - Other Tribes : Administration of tribal areas in the states of **Assam, Meghalaya, Tripura, and Mizoram** (Mnemonic: ATM-M).",
+                "F - Federal Lists : Division of powers between the Union and the States (Union List, State List, Concurrent List).",
+                "O - Official Languages : 22 languages recognized by the Constitution. (Sindhi added by 21st, Konkani/Manipuri/Nepali by 71st, Bodo/Dogri/Maithili/Santhali by 92nd)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "TEARS OF OLD PM:",
+        "1-Territories, 2-Emoluments, 3-Affirmations, 4-RajyaSabha, 5-Scheduled, 6-OtherScheduled, 7-FederalLists, 8-Languages, 9-LandReforms, 10-Defection, 11-Panchayats, 12-Municipalities"
+    ],
+    "hasNotes": true
+}

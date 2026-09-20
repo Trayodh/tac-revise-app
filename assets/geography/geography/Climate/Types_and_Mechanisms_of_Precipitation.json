@@ -1,0 +1,22 @@
+{
+  "title": "Types and Mechanisms of Precipitation",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Humidity & Precipitation",
+  "topic": "Precipitation",
+  "format": "Mermaid",
+  "description": "A diagram classifying different types of precipitation (Rain, Snow, Sleet, Hail) and illustrating the three main mechanisms of rainfall: Convectional, Orographic, and Frontal (Cyclonic).",
+  "keywords": [
+    "precipitation",
+    "rainfall",
+    "snow",
+    "sleet",
+    "hail",
+    "convectional rainfall",
+    "orographic rainfall",
+    "frontal rainfall",
+    "cyclonic rainfall",
+    "weather"
+  ],
+  "mermaidCode": "graph TD\nA[Precipitation] --> B[Types]\nA --> C[Mechanisms (Rainfall)]\nB --> B1[Rain]\nB --> B2[Snow]\nB --> B3[Sleet]\nB --> B4[Hail]\nC --> C1[Convectional Rainfall]\nC --> C2[Orographic Rainfall]\nC --> C3[Frontal (Cyclonic) Rainfall]"
+}

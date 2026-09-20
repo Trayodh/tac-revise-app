@@ -1,0 +1,19 @@
+{
+  "title": "Classification of Coastal & Arid Features",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Straits, Canals, Deserts & Seas",
+  "topic": "Definitions and Classification",
+  "format": "Mermaid",
+  "description": "A classification diagram defining and differentiating between straits, canals, deserts, and seas based on their natural/artificial origin and key characteristics.",
+  "keywords": [
+    "Strait",
+    "Canal",
+    "Desert",
+    "Sea",
+    "Definition",
+    "Classification",
+    "Physical Geography"
+  ],
+  "mermaidCode": "graph TD\n    A[Geographical Features] --> B{Water Bodies & Landforms}\n    B --> C[Water Bodies]\n    B --> D[Landforms]\n    C --> C1[Strait]\n    C --> C2[Canal]\n    C --> C3[Sea]\n    D --> D1[Desert]\n    C1 -- Natural --> ConnectsTwoLargerBodies(Connects two larger water bodies)\n    C2 -- Artificial --> NavigationIrrigationHydroelectric(Navigation, Irrigation, Hydro-electric)\n    C3 -- Marginal Part of Ocean --> PartiallyEnclosed(Often partially enclosed by land)\n    D1 -- Region --> Less250mmPrecipitation(Receiving < 250mm annual precipitation)"
+}

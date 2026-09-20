@@ -1,0 +1,214 @@
+[
+  {
+    "node_id": "Q_TEST_001",
+    "node_type": "Question",
+    "canonical_name": "Question TEST_001: Incumbent President of India",
+    "aliases": [
+      "Who is the current President of India? (as of 2024)"
+    ],
+    "description": "A fact-based question testing memory and recall of the incumbent 15th President of India, Droupadi Murmu.",
+    "parent_node": "TOPIC_PRESIDENT_OF_INDIA",
+    "child_nodes": [],
+    "incoming_relationships": [
+      {
+        "source": "NOTE_PATHFINDER_CDS_2022_23",
+        "type": "RECOMMENDED_PRACTICE_FOR"
+      }
+    ],
+    "outgoing_relationships": [
+      {
+        "target": "TOPIC_PRESIDENT_OF_INDIA",
+        "type": "TESTS_CONCEPT"
+      }
+    ],
+    "prerequisites": [
+      "Basics of Indian Constitution",
+      "Structure of Indian Government"
+    ],
+    "successor_topics": [
+      "Election Process of President of India",
+      "Articles 52 to 62 of Indian Constitution",
+      "Impeachment Process of President"
+    ],
+    "related_concepts": [
+      "Powers and Functions of the President",
+      "Electoral College for Presidential Election",
+      "Vice-President of India",
+      "Prime Minister and Council of Ministers"
+    ],
+    "related_questions": [],
+    "related_notes": [
+      "NOTE_PATHFINDER_CDS_2022_23"
+    ],
+    "related_formulae": [],
+    "related_diagrams": [],
+    "current_affairs_links": [
+      "Incumbent Office Holder & Constitutional Position",
+      "Current Appointments 2022-2024"
+    ],
+    "previous_year_links": [],
+    "exam_tags": [
+      "NDA",
+      "CDS",
+      "AFCAT",
+      "CAPF AC",
+      "Territorial Army",
+      "IB"
+    ],
+    "difficulty_tags": [
+      "Very Easy"
+    ],
+    "keywords": [
+      "President of India",
+      "Droupadi Murmu",
+      "Union Executive",
+      "Head of State",
+      "Current Appointments",
+      "15th President of India",
+      "Indian Polity"
+    ],
+    "confidence_score": 100,
+    "needs_review_flag": false
+  },
+  {
+    "node_id": "TOPIC_PRESIDENT_OF_INDIA",
+    "node_type": "Topic",
+    "canonical_name": "President of India",
+    "aliases": [
+      "Incumbent President of India",
+      "Head of State",
+      "Union Executive - President"
+    ],
+    "description": "Constitutional position, incumbent office holder, election, and powers of the President of India within the Union Executive.",
+    "parent_node": "CHAPTER_UNION_EXECUTIVE",
+    "child_nodes": [
+      "Q_TEST_001"
+    ],
+    "incoming_relationships": [
+      {
+        "source": "Q_TEST_001",
+        "type": "TESTED_BY"
+      },
+      {
+        "source": "NOTE_PATHFINDER_CDS_2022_23",
+        "type": "COVERED_IN_SYLLABUS"
+      }
+    ],
+    "outgoing_relationships": [
+      {
+        "target": "CHAPTER_UNION_EXECUTIVE",
+        "type": "SUBTOPIC_OF"
+      }
+    ],
+    "prerequisites": [
+      "Basics of Indian Constitution",
+      "Structure of Indian Government"
+    ],
+    "successor_topics": [
+      "Election Process of President of India",
+      "Articles 52 to 62 of Indian Constitution",
+      "Impeachment Process of President"
+    ],
+    "related_concepts": [
+      "Powers and Functions of the President",
+      "Electoral College for Presidential Election",
+      "Vice-President of India",
+      "Prime Minister and Council of Ministers"
+    ],
+    "related_questions": [
+      "Q_TEST_001"
+    ],
+    "related_notes": [
+      "NOTE_PATHFINDER_CDS_2022_23"
+    ],
+    "related_formulae": [],
+    "related_diagrams": [],
+    "current_affairs_links": [
+      "Droupadi Murmu - 15th President of India"
+    ],
+    "previous_year_links": [],
+    "exam_tags": [
+      "NDA",
+      "CDS",
+      "AFCAT",
+      "CAPF AC",
+      "Territorial Army",
+      "IB"
+    ],
+    "difficulty_tags": [
+      "Very Easy",
+      "Easy"
+    ],
+    "keywords": [
+      "President of India",
+      "Union Executive",
+      "Head of State",
+      "Indian Polity"
+    ],
+    "confidence_score": 100,
+    "needs_review_flag": false
+  },
+  {
+    "node_id": "NOTE_PATHFINDER_CDS_2022_23",
+    "node_type": "Note",
+    "canonical_name": "Pathfinder CDS Combined Defence Services Entrance Examination",
+    "aliases": [
+      "Pathfinder CDS",
+      "Arihant CDS 2022-23",
+      "Pathfinder CDS Entrance Examination Guide"
+    ],
+    "description": "Comprehensive reference and practice resource published by Arihant Publications covering Elementary Mathematics, English, and General Knowledge for UPSC CDS preparation.",
+    "parent_node": "SUBCHAPTER_EXAM_PREPARATION_RESOURCES",
+    "child_nodes": [],
+    "incoming_relationships": [],
+    "outgoing_relationships": [
+      {
+        "target": "TOPIC_PRESIDENT_OF_INDIA",
+        "type": "COVERS_SUBJECT_MATTER"
+      },
+      {
+        "target": "Q_TEST_001",
+        "type": "PROVIDES_PRACTICE_QUESTIONS"
+      }
+    ],
+    "prerequisites": [],
+    "successor_topics": [],
+    "related_concepts": [
+      "Combined Defence Services Examination Pattern",
+      "UPSC Syllabus for CDS",
+      "Defence Exam Preparation Materials"
+    ],
+    "related_questions": [
+      "Q_TEST_001"
+    ],
+    "related_notes": [],
+    "related_formulae": [],
+    "related_diagrams": [
+      "Book Cover Art"
+    ],
+    "current_affairs_links": [],
+    "previous_year_links": [
+      "UPSC CDS General Knowledge Section",
+      "UPSC CDS Elementary Mathematics Section",
+      "UPSC CDS English Language Section"
+    ],
+    "exam_tags": [
+      "CDS"
+    ],
+    "difficulty_tags": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "keywords": [
+      "Pathfinder CDS",
+      "Arihant CDS 2022-23",
+      "CDS Book Arihant",
+      "CDS Chapterwise PYQs",
+      "CDS 8000 MCQs",
+      "Combined Defence Services Entrance Examination"
+    ],
+    "confidence_score": 98,
+    "needs_review_flag": false
+  }
+]

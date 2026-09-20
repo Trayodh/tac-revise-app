@@ -1,0 +1,16 @@
+{
+    "id": "econ-poverty-employment",
+    "title": "Poverty, Employment & Agriculture",
+    "subject": "Economics (CDS/NDA)",
+    "subjectId": "economics",
+    "chapter": "Introduction to Economics",
+    "chapterId": "economics-basics",
+    "blocks": [],
+    "formulas": [
+        "Poverty lines: Tendulkar (2009), Rangarajan (2014)",
+        "Unemployment: Disguised (zero marginal productivity - agriculture), Seasonal, Structural",
+        "Crops: Kharif (monsoon), Rabi (winter), Zaid (summer)",
+        "Green Rev: 1966-67, M.S. Swaminathan"
+    ],
+    "hasNotes": false
+}

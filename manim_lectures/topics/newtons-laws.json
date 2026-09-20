@@ -1,0 +1,57 @@
+{
+    "id": "newtons-laws",
+    "title": "Newton's Laws of Motion",
+    "subject": "Physics (NDA/CDS)",
+    "subjectId": "physics",
+    "chapter": "Mechanics & Motion",
+    "chapterId": "physics-mechanics",
+    "blocks": [
+        {
+            "heading": "1. Newton's First Law (Law of Inertia)",
+            "intro": "",
+            "bullets": [
+                "A body continues in its state of rest or uniform motion in a straight line unless compelled by an external unbalanced force.",
+                "Inertia is the inherent property of a body to resist change. Measured by **mass** (greater mass = greater inertia).",
+                "Types: Inertia of Rest (passengers fall backward when bus starts), Inertia of Motion (passengers fall forward when brakes applied), Inertia of Direction (umbrella protects from rain)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Newton's Second Law (Law of Force)",
+            "intro": "",
+            "bullets": [
+                "The rate of change of momentum of a body is directly proportional to the applied force and takes place in the direction of the force.",
+                "Momentum: p = mv (vector quantity, unit: kg m/s).",
+                "Mathematical derivation: F = dp/dt = d(mv)/dt = m(dv/dt) = **ma** (Force = mass \u00d7 acceleration).",
+                "Unit of Force: Newton (N). 1 N = 1 kg m/s\u00b2 = 10\u2075 Dynes."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Newton's Third Law (Law of Action-Reaction)",
+            "intro": "",
+            "bullets": [
+                "To every action, there is always an equal and opposite reaction. Action and reaction act on **two different bodies**.",
+                "Examples: Recoil of a gun (backward force on shoulder), swimming (pushing water backward), flight of rockets (exhaust gases push downward, rocket moves up)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "4. Friction and Momentum Conservation",
+            "intro": "",
+            "bullets": [
+                "Law of Conservation of Linear Momentum : If no external force acts on a system, the total linear momentum remains constant. (m\u2081u\u2081 + m\u2082u\u2082 = m\u2081v\u2081 + m\u2082v\u2082).",
+                "Friction : The opposing force that comes into play when a body moves or tries to move over another surface. Formula: f = \u03bcN (where \u03bc is coefficient of friction, N is normal reaction).",
+                "Order of friction: **Static Friction > Limiting Friction > Kinetic Friction > Rolling Friction**. Rolling friction is the smallest."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "F = ma",
+        "Momentum: p = mv",
+        "Friction: f = \u03bcN",
+        "Equations of Motion: v = u + at, s = ut + 0.5at\u00b2, v\u00b2 - u\u00b2 = 2as"
+    ],
+    "hasNotes": true
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Classification of Mountains",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Mountains of the World",
+  "topic": "Mountain Types",
+  "format": "Mermaid",
+  "description": "This diagram classifies mountains into Fold (Young and Old), Block, Volcanic, and Residual types, explaining their formation mechanisms and providing examples.",
+  "keywords": [
+    "mountains",
+    "mountain classification",
+    "fold mountains",
+    "block mountains",
+    "volcanic mountains",
+    "residual mountains",
+    "Himalayas",
+    "Andes",
+    "Appalachians",
+    "Vosges",
+    "Mount Fuji",
+    "Vindhyas"
+  ],
+  "mermaidCode": "graph TD\nA[Classification of Mountains] --> B[Fold Mountains]\nB --> B1(Formed by folding of crustal rocks)\nB --> B2(Compressional forces)\nB --> B3[Young Fold Mountains]\nB3 --> B3a(High, rugged, geologically young)\nB3a --> B3b(Himalayas, Andes, Rockies, Alps)\nB --> B4[Old Fold Mountains]\nB4 --> B4a(Older, heavily eroded, lower height)\nB4a --> B4b(Appalachians, Urals, Aravallis)\nA --> C[Block Mountains]\nC --> C1(Crustal blocks displaced vertically along faults)\nC --> C2(Uplifted blocks: Horsts)\nC --> C3(Lowered blocks: Grabens/Rift Valleys)\nC3 --> C4(Vosges, Black Forest, Sierra Nevada)\nA --> D[Volcanic (Accumulation) Mountains]\nD --> D1(Built by successive eruptions of lava, ash, debris)\nD1 --> D2(Mount Fuji, Mount Kilimanjaro, Mount St. Helens)\nA --> E[Residual (Dissected) Mountains]\nE --> E1(Remnants of eroded plateaus or high plains)\nE1 --> E2(Vindhyas, Satpuras, Eastern Ghats)"
+}

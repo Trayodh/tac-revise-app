@@ -1,0 +1,17 @@
+{
+  "title": "Types of Precipitation Mechanisms",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Precipitation",
+  "topic": "Rainfall Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Precipitation Mechanisms] --> B[Convectional]\n    A --> C[Orographic]\n    A --> D[Cyclonic (Frontal)]",
+  "mapQuery": "",
+  "description": "Classification tree of the three primary mechanisms that produce precipitation.",
+  "keywords": [
+    "precipitation",
+    "convectional",
+    "orographic",
+    "cyclonic"
+  ]
+}

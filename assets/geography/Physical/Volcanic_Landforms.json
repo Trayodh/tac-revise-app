@@ -1,0 +1,25 @@
+{
+  "title": "Volcanic Landforms",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Volcanism",
+  "topic": "Volcanic Features",
+  "format": "Mermaid",
+  "description": "This diagram categorizes volcanic landforms into intrusive (plutonic) and extrusive types, listing various features associated with each.",
+  "keywords": [
+    "volcanic landforms",
+    "intrusive forms",
+    "extrusive forms",
+    "plutonic",
+    "batholiths",
+    "laccoliths",
+    "sills",
+    "dykes",
+    "cinder cones",
+    "calderas",
+    "lava plateaus",
+    "hot springs",
+    "geysers"
+  ],
+  "mermaidCode": "graph TD\nA[Volcanic Landforms] --> B[Intrusive (Plutonic) Forms]\nB --> B1(Batholiths)\nB --> B2(Laccoliths)\nB --> B3(Lopoliths)\nB --> B4(Phacoliths)\nB --> B5(Sills)\nB --> B6(Dykes)\nB6 --> B7(Magma solidifies within crust)\nA --> C[Extrusive Forms]\nC --> C1(Cinder cones)\nC --> C2(Composite cones)\nC --> C3(Shield cones)\nC --> C4(Craters)\nC --> C5(Calderas)\nC --> C6(Lava plateaus)\nC --> C7(Hot springs)\nC --> C8(Geysers)"
+}

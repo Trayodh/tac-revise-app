@@ -1,0 +1,23 @@
+{
+  "title": "Geological Controls on Mineral Distribution in India",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Mineral Resources & Types of Farming",
+  "topic": "Geological Controls on Mineral Distribution",
+  "format": "Mermaid",
+  "description": "A flowchart illustrating how different geological formations in India, such as Precambrian Cratons, Gondwana Basins, Laterite Zones, and Alluvial Plains, control the distribution and types of specific mineral deposits.",
+  "keywords": [
+    "geological controls",
+    "mineral distribution",
+    "Precambrian Cratons",
+    "Gondwana Basins",
+    "Laterite Zones",
+    "Alluvial Plains",
+    "iron ore",
+    "coal",
+    "bauxite",
+    "gold",
+    "India"
+  ],
+  "mermaidCode": "graph TD A[Geological Controls on Mineral Distribution] --> B(Precambrian Cratons) B --> B1[Iron Ore] B --> B2[Copper-Zinc Sulfide] B1 & B2 --> B3(e.g., Aravalli-Delhi Belt) A --> C(Gondwana Basins) C --> C1[Coal] C --> C2[Manganese] C1 & C2 --> C3(e.g., Singhbhum, Koyna) A --> D(Laterite Zones) D --> D1[Bauxite] D --> D2[Nickel] D1 & D2 --> D3(e.g., Western Ghats, Eastern Coastal Plains) A --> E(Alluvial Plains) E --> E1[Placer Gold] E --> E2[Diamond Fragments] E1 & E2 --> E3(e.g., Indus & Ganga Basins)"
+}

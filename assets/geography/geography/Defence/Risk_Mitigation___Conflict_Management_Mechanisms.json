@@ -1,0 +1,19 @@
+{
+  "title": "Risk Mitigation & Conflict Management Mechanisms",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Risk Mitigation and Conflict Management Mechanisms",
+  "topic": "Hotlines, CBMs, Arbitration, Forums",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Hotlines & Direct Communication] --> B[Real‑time De‑escalation]\n    C[Confidence‑Building Measures] --> D[Joint Fisheries Patrols]\n    E[Legal Arbitration] --> F[2016 PCA Ruling]\n    G[Multilateral Forums] --> H[ASEAN EAS & IORA]\n    style A fill:#cfe,stroke:#333,stroke-width:2px\n    style C fill:#cfe,stroke:#333,stroke-width:2px\n    style E fill:#cfe,stroke:#333,stroke-width:2px\n    style G fill:#cfe,stroke:#333,stroke-width:2px",
+  "mapQuery": "",
+  "description": "Diagram summarising the various mechanisms used to mitigate maritime conflicts and manage crises in the Indo‑Pacific.",
+  "keywords": [
+    "hotlines",
+    "CBMs",
+    "PCA ruling",
+    "ASEAN",
+    "IORA",
+    "conflict management"
+  ]
+}

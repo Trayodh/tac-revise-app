@@ -1,0 +1,21 @@
+{
+  "title": "Strategic Forest and Wetland Conservation Interventions",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Conservation Measures",
+  "topic": "Conservation Interventions",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n    A[Conservation Interventions] --> B[Joint Forest Management (JFM)]\n    A --> C[National Afforestation Programme (NAP)]\n    A --> D[Wetland Restoration Projects]\n    A --> E[Protected Area Expansion]\n    A --> F[Remote Sensing & GIS Monitoring]\n    B --> G[Community‑based stewardship, ~50% forest area]\n    C --> H[Target >10 million ha new forest by 2030]\n    D --> I[Loktak Lake Integrated Management Project]\n    E --> J[104 National Parks, 566 Wildlife Sanctuaries]\n    F --> K[Satellite imagery (Landsat, Sentinel‑2) for annual assessments]",
+  "mapQuery": "",
+  "description": "Diagram summarizing the major ongoing conservation measures for forests and wetlands in India, linking each program to its key objectives and outcomes.",
+  "keywords": [
+    "conservation",
+    "Joint Forest Management",
+    "Afforestation",
+    "wetland restoration",
+    "protected areas",
+    "remote sensing",
+    "GIS",
+    "India"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Front Types Diagram",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Air Masses & Fronts",
+  "topic": "Front Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    F[Fronts]\n    F --> CF[Cold Front]\n    F --> WF[Warm Front]\n    F --> OF[Occluded Front]\n    F --> SF[Stationary Front]\n    CF -->|Cold air pushes warm air upward| CP[Intense, brief precipitation]\n    WF -->|Warm air slides over cold air| WP[Widespread, moderate precipitation]\n    OF -->|Cold front overtakes warm front| OP[Complex precipitation]\n    SF -->|No movement| SP[Prolonged weather]",
+  "mapQuery": "",
+  "description": "Flowchart describing the four main types of atmospheric fronts and the typical weather they produce.",
+  "keywords": [
+    "cold front",
+    "warm front",
+    "occluded front",
+    "stationary front",
+    "weather fronts"
+  ]
+}

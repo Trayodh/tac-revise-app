@@ -1,0 +1,49 @@
+{
+    "id": "south-indian-kingdoms",
+    "title": "South Indian Kingdoms",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "3. Ancient India",
+    "chapterId": "ancient-india-tree",
+    "blocks": [
+        {
+            "heading": "\u2693 South Indian Kingdoms",
+            "intro": "The history of South India is marked by the Sangam Age, followed by the Pallavas and Chalukyas, and later the mighty Cholas.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. The Sangam Age (3rd BCE - 3rd CE)",
+            "intro": "",
+            "bullets": [
+                "Assemblies (Sangams) of Tamil poets held under Pandyan patronage. Key literature: **Tolkappiyam** (grammar), epics **Silappatikaram** (Ilango Adigal) and **Manimekalai** (Shattanar).",
+                "Three kingdoms: Cheras (emblem: Bow), Cholas (emblem: Tiger, capital: Puhar, King Karikala built Grand Anicut), Pandyas (emblem: Fish, capital: Madurai)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Pallavas & Chalukyas (6th - 8th CE)",
+            "intro": "",
+            "bullets": [
+                "Pallavas of Kanchi: Mahendravarman I, Narasimhavarman I (defeated Chalukya King Pulakeshin II, took title *Vatapikonda*). Built the rock-cut **Rathas of Mahabalipuram** (Shore Temple).",
+                "Chalukyas of Vatapi: Pulakeshin II. Defeated Harshavardhana on the banks of Narmada (recorded in Aihole inscription). Defeated by Narasimhavarman I."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Imperial Cholas (9th - 12th CE)",
+            "intro": "",
+            "bullets": [
+                "Founded by Vijayalaya. Capital at Thanjavur.",
+                "**Rajaraja Chola I (985 - 1014 CE):** Built the grand **Brihadeshwara (Rajarajeshwara) Temple** at Thanjavur (tallest Vimana in India). Annexed northern Sri Lanka.",
+                "**Rajendra Chola I (1014 - 1044 CE):** Annexed entire Sri Lanka. Marched up to Ganges, took title *Gangaikonda Chola* and founded capital *Gangaikondacholapuram*. Sent naval expeditions to Southeast Asia (Srivijaya Kingdom), dominating the Bay of Bengal (called the \"Chola Lake\").",
+                "**Village Self-Government:** The **Uttaramerur Inscription** of Parantaka I (907-955 CE) details the working of local assemblies (*Ur* and *Sabha*). Members were elected by lottery (*Kudavolai* system) under strict eligibility rules."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Cholas: Brihadeshwara Temple (Tanjore) | Village administration: Uttaramerur inscription"
+    ],
+    "hasNotes": true
+}

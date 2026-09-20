@@ -1,0 +1,20 @@
+{
+  "title": "Classification of Indian Highways",
+  "subject": "Geography",
+  "category": "Indian",
+  "chapter": "Transport Routes: Highways & Waterways",
+  "topic": "Classification of Highways",
+  "format": "Mermaid",
+  "description": "A classification diagram detailing the different types of highways in India, including National Highways, State Highways, Expressways, and Ring & Bypass Roads, with their administrative bodies, lengths, and key characteristics.",
+  "keywords": [
+    "highways",
+    "India",
+    "National Highways",
+    "State Highways",
+    "Expressways",
+    "Bharatmala",
+    "Golden Quadrilateral",
+    "NH-44"
+  ],
+  "mermaidCode": "graph TD A[Classification of Indian Highways] --> B(National Highways - NH) B --> B1[Centrally Administered (MoRTH)] B --> B2[~150,000 km] B --> B3(Longest: NH-44 Srinagar to Kanyakumari) A --> C(State Highways - SH) C --> C1[Managed by State Governments] C --> C2[~100,000 km] C --> C3[Links District HQs, Towns, NHs] A --> D(Expressways) D --> D1[Access-Controlled, High-Speed] D --> D2[Design Speed: 100-160 km/h] D --> D3[Projects: Bharatmala Pariyojana, Golden Quadrilateral] A --> E(Ring & Bypass Roads) E --> E1[De-congest Urban Cores] E --> E2(e.g., Delhi Ring Road, Kolkata Bypass)"
+}

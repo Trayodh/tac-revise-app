@@ -1,0 +1,25 @@
+{
+  "title": "Types of Metamorphism",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Earth's Interior and Rocks",
+  "topic": "Metamorphism",
+  "format": "Mermaid",
+  "description": "This diagram illustrates the two main types of metamorphism: Dynamic (Regional) and Thermal (Contact), detailing their causes, conditions, and typical rock outcomes.",
+  "keywords": [
+    "metamorphism",
+    "dynamic metamorphism",
+    "regional metamorphism",
+    "thermal metamorphism",
+    "contact metamorphism",
+    "foliated rocks",
+    "non-foliated rocks",
+    "slate",
+    "schist",
+    "gneiss",
+    "marble",
+    "quartzite",
+    "hornfels"
+  ],
+  "mermaidCode": "graph TD\nA[Metamorphism] --> B{Types}\nB --> C[Dynamic (Regional) Metamorphism]\nC --> C1[Large-scale pressure & heat]\nC --> C2[Mountain-building]\nC --> C3[Foliated rocks]\nC3 --> C4(Slate, Schist, Gneiss)\nB --> D[Thermal (Contact) Metamorphism]\nD --> D1[Heating by nearby magma intrusion]\nD --> D2[Non-foliated rocks]\nD2 --> D3(Marble, Quartzite, Hornfels)"
+}

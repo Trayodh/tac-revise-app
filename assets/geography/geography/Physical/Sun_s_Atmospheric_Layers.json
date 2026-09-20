@@ -1,0 +1,17 @@
+{
+  "title": "Sun's Atmospheric Layers",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Sun",
+  "topic": "Solar Atmospheric Layers",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Sun] --> B[Photosphere]\n    B --> C[Chromosphere]\n    C --> D[Corona]",
+  "mapQuery": "",
+  "description": "Vertical hierarchy of the Sun's atmosphere from the visible photosphere up to the hot corona.",
+  "keywords": [
+    "photosphere",
+    "chromosphere",
+    "corona",
+    "solar atmosphere"
+  ]
+}

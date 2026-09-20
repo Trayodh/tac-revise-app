@@ -1,0 +1,23 @@
+{
+  "title": "Earth's Atmospheric Layers",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Atmospheric Structure",
+  "topic": "Layers of Atmosphere",
+  "format": "Mermaid",
+  "description": "A diagram illustrating the main layers of Earth's atmosphere, including Troposphere, Stratosphere, Mesosphere, Thermosphere (Ionosphere), and Exosphere, with their approximate altitudes and key characteristics.",
+  "keywords": [
+    "atmosphere",
+    "layers",
+    "troposphere",
+    "stratosphere",
+    "mesosphere",
+    "thermosphere",
+    "ionosphere",
+    "exosphere",
+    "ozone layer",
+    "weather",
+    "climate"
+  ],
+  "mermaidCode": "graph TD\nA[Earth's Atmosphere] --> B[Troposphere (0-18km)]\nA --> C[Stratosphere (18-50km)]\nA --> D[Mesosphere (50-80km)]\nA --> E[Thermosphere (80-600km)]\nE --> E1[Ionosphere (80-400km)]\nE --> E2[Exosphere (>400km)]\nB -- All Weather Phenomena --> B1[Weather]\nC -- Ozone Layer --> C1[UV Absorption]\nE1 -- Radio Wave Reflection --> E1A[Communication]\nE2 -- Very Thin H & He --> E2A[Particles Escape]\nE2 -- Part of Magnetosphere --> E2B[Deflects Solar Wind]"
+}

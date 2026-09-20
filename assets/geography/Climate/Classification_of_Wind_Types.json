@@ -1,0 +1,25 @@
+{
+  "title": "Classification of Wind Types",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Wind Types",
+  "format": "Mermaid",
+  "description": "A classification diagram showing different types of winds: Planetary (Permanent), Seasonal (Monsoons), Local winds, and Jet Streams, with examples for each category.",
+  "keywords": [
+    "wind types",
+    "planetary winds",
+    "trade winds",
+    "westerlies",
+    "polar easterlies",
+    "monsoons",
+    "sea breeze",
+    "land breeze",
+    "local winds",
+    "föhn",
+    "chinook",
+    "loo",
+    "jet streams"
+  ],
+  "mermaidCode": "graph TD\nA[Wind Types] --> B[Planetary (Permanent)]\nA --> C[Seasonal (Monsoons)]\nA --> D[Local Winds]\nA --> E[Jet Streams]\nB --> B1[Trade Winds]\nB --> B2[Westerlies]\nB --> B3[Polar Easterlies]\nC --> C1[Summer Monsoon]\nC --> C2[Winter Monsoon]\nD --> D1[Land & Sea Breezes]\nD --> D2[Mountain & Valley Breezes]\nD --> D3[Chinook]\nD --> D4[Foehn]\nD --> D5[Sirocco]\nD --> D6[Mistral]\nD --> D7[Loo]"
+}

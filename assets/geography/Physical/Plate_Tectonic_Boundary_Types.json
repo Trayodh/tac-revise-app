@@ -1,0 +1,20 @@
+{
+  "title": "Plate Tectonic Boundary Types",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Earth Structure & Atmosphere",
+  "topic": "Plate Boundaries",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Plate Boundaries] --> B[Divergent]\n    B --> C[Mid‑Ocean Ridges]\n    B --> D[Rift Valleys]\n    A --> E[Convergent]\n    E --> F[Subduction Zones]\n    E --> G[Continental Collisions]\n    A --> H[Transform]\n    H --> I[San Andreas Fault]",
+  "mapQuery": "",
+  "description": "Diagram showing the three principal plate boundary categories with typical geological features and an example of a transform fault.",
+  "keywords": [
+    "plate tectonics",
+    "divergent boundary",
+    "convergent boundary",
+    "transform boundary",
+    "mid‑ocean ridge",
+    "subduction",
+    "San Andreas Fault"
+  ]
+}

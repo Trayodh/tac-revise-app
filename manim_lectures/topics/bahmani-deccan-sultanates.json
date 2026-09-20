@@ -1,0 +1,41 @@
+{
+    "id": "bahmani-deccan-sultanates",
+    "title": "Bahmani Kingdom & Deccan Sultanates",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "4. Medieval India",
+    "chapterId": "medieval-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83c\udff0 Bahmani Kingdom & Deccan Sultanates",
+            "intro": "The major Islamic state of Deccan, which continuously warred with Vijayanagara over the fertile Raichur Doab.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Bahmani Kingdom (1347 - 1527)",
+            "intro": "",
+            "bullets": [
+                "Founded in 1347 by **Ala-ud-Din Bahman Shah** (also known as Hasan Gangu) in revolt against Muhammad bin Tughlaq.",
+                "Capital was initially Gulbarga, later shifted to Bidar. Mahmud Gawan (great prime minister) expanded power via administrative reforms."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Split into Deccan Sultanates",
+            "intro": "In the early 16th century, the Bahmani kingdom disintegrated into five independent sultanates:",
+            "bullets": [
+                "Adil Shahis of Bijapur: Founded by Yusuf Adil Shah. Famous for building the **Gol Gumbaz** (largest dome in India, featuring a whispering gallery).",
+                "Nizam Shahis of Ahmadnagar: Malik Ahmad. Defended by Chand Bibi against Akbar's forces.",
+                "Qutb Shahis of Golconda: Quli Qutb Shah. Famous for Golconda Diamond mines. Built **Charminar** in Hyderabad.",
+                "Imad Shahis of Berar: Fathullah Imad-ul-Mulk.",
+                "Barid Shahis of Bidar: Qasim Barid."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Bahmani: Hasan Gangu (1347) | Gol Gumbaz: Bijapur (Adil Shah) | Charminar: Golconda"
+    ],
+    "hasNotes": true
+}

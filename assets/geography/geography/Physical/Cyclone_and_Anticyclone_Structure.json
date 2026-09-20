@@ -1,0 +1,18 @@
+{
+  "title": "Cyclone and Anticyclone Structure",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Cyclones & Anticyclones",
+  "topic": "Cyclone vs Anticyclone",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    C[Tropical Cyclone]\n    C --> E[Eye]\n    C --> SW[Spiralling Winds]\n    C --> RR[Heavy Rain]\n    C --> SS[Storm Surge]\n    AC[Anticyclone]\n    AC --> HS[High Pressure]\n    AC --> SA[Subsiding Air]\n    AC --> CW[Clear Skies]\n    AC --> CWN[Calm Winds]\n    style C fill:#fb9a99,stroke:#333,stroke-width:2px\n    style AC fill:#a6cee3,stroke:#333,stroke-width:2px",
+  "mapQuery": "",
+  "description": "Diagram contrasting the internal structure and weather effects of tropical cyclones (low pressure, eye, spiralling winds) with anticyclones (high pressure, subsiding air, clear skies).",
+  "keywords": [
+    "cyclone",
+    "anticyclone",
+    "eye",
+    "high pressure",
+    "low pressure"
+  ]
+}

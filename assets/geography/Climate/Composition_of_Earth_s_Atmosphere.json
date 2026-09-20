@@ -1,0 +1,20 @@
+{
+  "title": "Composition of Earth's Atmosphere",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Earth Structure & Atmosphere",
+  "topic": "Earth's Atmosphere",
+  "format": "Mermaid",
+  "description": "A diagram detailing the major gaseous components of Earth's atmosphere, their typical volume percentages, and key notes on their significance.",
+  "keywords": [
+    "Atmosphere composition",
+    "Nitrogen",
+    "Oxygen",
+    "Argon",
+    "Water Vapour",
+    "Carbon Dioxide",
+    "Ozone",
+    "Greenhouse gas"
+  ],
+  "mermaidCode": "graph TD\n    A[Atmospheric Composition]\n    A -- Nitrogen (N₂) --> N(78%);\n    A -- Oxygen (O₂) --> O(21%);\n    A -- Argon (Ar) --> Ar(0.93%);\n    A -- Water Vapour (H₂O) --> WV(0-4%);\n    A -- Carbon Dioxide (CO₂) --> CO2(0.04%);\n    A -- Ozone (O₃) --> O3(Trace, Stratospheric);"
+}

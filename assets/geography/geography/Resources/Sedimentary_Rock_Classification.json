@@ -1,0 +1,17 @@
+{
+  "title": "Sedimentary Rock Classification",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Rocks",
+  "topic": "Sedimentary Rocks",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Sedimentary Rocks] --> B[By Origin]\n    B --> B1[Clastic (Detrital)]\n    B --> B2[Organic]\n    B --> B3[Chemical]",
+  "mapQuery": "",
+  "description": "Tree diagram showing the three main categories of sedimentary rocks: clastic, organic, and chemical.",
+  "keywords": [
+    "sedimentary",
+    "clastic",
+    "organic",
+    "chemical"
+  ]
+}

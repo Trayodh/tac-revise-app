@@ -1,0 +1,23 @@
+{
+  "title": "Major Rivers of the World",
+  "subject": "Geography",
+  "category": "Hydrology",
+  "chapter": "Rivers of the World",
+  "topic": "Global River Systems",
+  "format": "RealMap",
+  "description": "A world map showing the location and flow paths of the longest and most significant rivers across all continents, such as the Nile, Amazon, Yangtze, Mississippi, Volga, and Ganges.",
+  "keywords": [
+    "world rivers",
+    "major rivers",
+    "river systems",
+    "Nile",
+    "Amazon",
+    "Yangtze",
+    "Mississippi",
+    "Volga",
+    "Ganges",
+    "world map",
+    "hydrology"
+  ],
+  "mapQuery": "World map major rivers and drainage basins"
+}

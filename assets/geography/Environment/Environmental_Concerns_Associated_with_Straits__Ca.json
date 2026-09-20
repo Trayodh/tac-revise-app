@@ -1,0 +1,19 @@
+{
+  "title": "Environmental Concerns Associated with Straits, Canals, Deserts & Seas",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Environmental Concerns & Management Strategies",
+  "topic": "Environmental Issues",
+  "format": "Mermaid",
+  "mermaidCode": "mindmap\n  root((Environmental Concerns))\n    MarinePollution\n    Desertification\n    CanalHabitatFragmentation\n    SeaLevelRise\n    SalinityIntrusion",
+  "mapQuery": "",
+  "description": "Mind‑map summarising the key environmental challenges linked to maritime and desert features, including pollution, desert expansion, habitat fragmentation, sea‑level rise, and salinity intrusion.",
+  "keywords": [
+    "environmental concern",
+    "marine pollution",
+    "desertification",
+    "habitat fragmentation",
+    "sea level rise",
+    "salinity intrusion"
+  ]
+}

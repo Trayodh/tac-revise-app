@@ -1,0 +1,17 @@
+{
+  "title": "Atmospheric Layers of the Sun",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "The Sun",
+  "format": "Mermaid",
+  "description": "A diagram showing the atmospheric layers of the Sun: Photosphere, Chromosphere, and Corona, highlighting their characteristics and visibility.",
+  "keywords": [
+    "Sun atmosphere",
+    "Photosphere",
+    "Chromosphere",
+    "Corona",
+    "Solar wind"
+  ],
+  "mermaidCode": "graph TD\n    A[Sun's Atmospheric Layers] --> B[Photosphere];\n    B --> B1(Visible Surface, ~5,800 K);\n    A --> C[Chromosphere];\n    C --> C1(Thin Reddish Layer, Visible during Eclipses);\n    A --> D[Corona];\n    D --> D1(Extremely Hot Outer Atmosphere, Source of Solar Wind);"
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "chapter": "quadratic-eq",
+    "term": "Symmetric Matrix",
+    "desc": ": $A^{\\top} = A$. Diagonal elements can be any real or complex numbers. <em>UPSC Trend Alert:</em> Recent NDA papers frequently test the property that if $A$ and $B$ are symmetric matrices, then $AB + BA$ is symmetric, whereas $AB - BA$ is skew-symmetric."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Skew-Symmetric Matrix",
+    "desc": ": $A^{\\top} = -A$. Diagonal elements must be **zero** (since $a_{ii} = -a_{ii} \\implies 2a_{ii} = 0 \\implies a_{ii} = 0$). "
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Orthogonal Matrix",
+    "desc": ": $A \\cdot A^{\\top} = I$. Consequently, $\\det(A) = \\pm1$. These matrices preserve length and angles under transformation."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Idempotent Matrix",
+    "desc": ": $A^2 = A$. The eigenvalues of an idempotent matrix can only be $0$ or $1$."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Involutory Matrix",
+    "desc": ": $A^2 = I$. Since $A^2 - I = 0$, its determinant is always $\\pm1$."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "Nilpotent Matrix",
+    "desc": ": $A^k = O$ (where $k$ is the index of nilpotency, the smallest positive integer for which this holds). The determinant of any nilpotent matrix is always zero."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "$|\\operatorname{adj} A| = |A|^{n-1}$",
+    "desc": " (for a matrix of order $n$)."
+  },
+  {
+    "chapter": "quadratic-eq",
+    "term": "$|\\operatorname{adj}(\\operatorname{adj} A)| = |A|^{(n-1)^2}$",
+    "desc": ""
+  },
+  {
+    "chapter": "newtons-laws",
+    "term": "Potential Energy (PE)",
+    "desc": ": Energy due to position. **PE = mgh**."
+  },
+  {
+    "chapter": "newtons-laws",
+    "term": "Power (P)",
+    "desc": ": Rate of doing work. **P = W / t = F \u00b7 v**. Unit: Watt. **1 Horsepower (HP) = 746 Watts**."
+  },
+  {
+    "chapter": "newtons-laws",
+    "term": "Kepler's 3rd Law (Law of Periods)",
+    "desc": ": The square of time period of a planet is proportional to the cube of semi-major axis of its orbit: **T\u00b2 \u221d r\u00b3**."
+  },
+  {
+    "chapter": "carbon-compounds",
+    "term": "Coordinate/Dative Bond",
+    "desc": ": Special covalent bond where shared pair is donated by one atom (donor) and accepted by another (acceptor) (e.g., NH\u2084\u207a, H\u2083O\u207a)."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Analogy:",
+    "desc": " Finding relationships between pairs of words, letters, or numbers (e.g., Doctor : Hospital :: Teacher : School)."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Classification (Odd One Out):",
+    "desc": " Identifying the term that does not belong to the group (e.g., Apple, Banana, Potato, Orange -> Potato is a vegetable, others are fruits)."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Coding-Decoding:",
+    "desc": " Decrypting rules applied to letters or words. Look for alphabet position values (A=1, Z=26) and reverse positions (A-Z, B-Y, etc., sum = 27)."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Blood Relations:",
+    "desc": " Drawing family trees with symbols (+ for male, - for female, = for couples, vertical lines for generations) to solve relationship puzzles."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Direction Sense:",
+    "desc": " Always draw the cardinal directions (North, South, East, West) and solve using the Pythagoras theorem for shortest distance."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Syllogism:",
+    "desc": " Solving logical statements using Venn diagrams to check validity of conclusions."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Word Association & Jumbled Words:",
+    "desc": " Unscrambling letters to form meaningful words and finding their category."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Sentence Sequencing:",
+    "desc": " Arranging words or sentences in logical or alphabetical order."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Dictionary Order:",
+    "desc": " Arranging words as they appear in a standard dictionary."
+  },
+  {
+    "chapter": "afcat-r-analogy",
+    "term": "Number/Letter Series:",
+    "desc": " Identifying patterns of arithmetic progression, prime numbers, squares, or alternating sequences."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Pattern Completion:",
+    "desc": " Identifying the missing section of a larger geometric design or pattern."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Figure Series & Analogy:",
+    "desc": " Understanding how a shape changes (rotation, addition/deletion of elements, inversion) and predicting the next figure."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Embedded Figures:",
+    "desc": " Finding a small target shape hidden inside a more complex drawing."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Paper Folding & Cutting:",
+    "desc": " Visualizing how paper looks when folded and punched with holes, then unfolded (uses vertical/horizontal symmetry lines)."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Block/Cube Counting:",
+    "desc": " Counting the total number of blocks in a 3D stack (including hidden blocks supporting the upper layers)."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Figure Matrix:",
+    "desc": " Solving a 3x3 grid of shapes by identifying horizontal and vertical rule transitions."
+  },
+  {
+    "chapter": "afcat-r-fig-class-series",
+    "term": "Dot Situation:",
+    "desc": " Finding the region in options that satisfies the exact same overlapping conditions of dots placed in the question figure."
+  }
+]

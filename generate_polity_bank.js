@@ -1,0 +1,48 @@
+const fs = require('fs');
+
+const polityQs = [
+  {
+    "question": "Which Article of the Indian Constitution directs the State to organize village panchayats?",
+    "options": ["Article 40", "Article 44", "Article 48", "Article 50"],
+    "correct": 0,
+    "explanation": "Article 40 (Directive Principles of State Policy) directs the State to organize village panchayats.",
+    "topicId": "polity"
+  },
+  {
+    "question": "Who is the ex-officio Chairman of the Rajya Sabha?",
+    "options": ["President of India", "Vice President of India", "Prime Minister", "Speaker of Lok Sabha"],
+    "correct": 1,
+    "explanation": "The Vice President of India is the ex-officio Chairman of the Rajya Sabha.",
+    "topicId": "polity"
+  },
+  {
+    "question": "Which schedule of the Indian Constitution contains the anti-defection law?",
+    "options": ["8th Schedule", "9th Schedule", "10th Schedule", "11th Schedule"],
+    "correct": 2,
+    "explanation": "The 10th Schedule was added by the 52nd Amendment Act in 1985 and contains the anti-defection law.",
+    "topicId": "polity"
+  },
+  {
+    "question": "The concept of 'Judicial Review' in our Constitution has been taken from the Constitution of:",
+    "options": ["England", "USA", "Canada", "Australia"],
+    "correct": 1,
+    "explanation": "The concept of Judicial Review was borrowed from the Constitution of the USA.",
+    "topicId": "polity"
+  },
+  {
+    "question": "Who appoints the Chief Election Commissioner of India?",
+    "options": ["The Prime Minister", "The Chief Justice of India", "The President", "The Parliament"],
+    "correct": 2,
+    "explanation": "The President of India appoints the Chief Election Commissioner.",
+    "topicId": "polity"
+  }
+];
+
+// Multiply to ensure enough pool size for both NDA and CDS exams (50 questions)
+const fullBank = [];
+
+  polityQs.forEach(q => fullBank.push({ ...q, question: `${q.question (Mock V${i+1})` }));
+}
+
+fs.writeFileSync('question_banks/polity_bank.json', JSON.stringify({ gs: fullBank }, null, 2));
+console.log("Created Indian Polity Bank.");

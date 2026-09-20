@@ -1,0 +1,23 @@
+{
+  "title": "Geographical Distribution of Major Forest Types in India",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Forest Types",
+  "topic": "Major Forest Types",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "India forest types distribution map SVG",
+  "description": "Map displaying locations of Tropical Evergreen, Tropical Semi‑Evergreen, Moist Deciduous, Dry Deciduous, Montane (Shola), Sub‑Tropical Pine, Mangrove, and Thorn forests across Indian states and agro‑ecological zones.",
+  "keywords": [
+    "forest types",
+    "tropical evergreen",
+    "semi‑evergreen",
+    "moist deciduous",
+    "dry deciduous",
+    "shola",
+    "pine forest",
+    "mangrove",
+    "thorn forest",
+    "India"
+  ]
+}

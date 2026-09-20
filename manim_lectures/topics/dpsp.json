@@ -1,0 +1,36 @@
+{
+    "id": "dpsp",
+    "title": "DPSP & Fundamental Duties (Art 36-51A)",
+    "subject": "Indian Polity (CDS/NDA)",
+    "subjectId": "polity",
+    "chapter": "Constitutional Framework",
+    "chapterId": "constitution-basics",
+    "blocks": [
+        {
+            "heading": "1. Directive Principles of State Policy (Part IV)",
+            "intro": "Borrowed from Ireland. Non-justiciable but fundamental in governance. Classified into three types:",
+            "bullets": [
+                "Socialistic Principles : Article 38 (promote welfare, minimize inequalities), Article 39 (equal pay for equal work, distribute material resources), Article 39A (free legal aid).",
+                "Gandhian Principles : Article 40 (organize village panchayats), Article 43 (promote cottage industries), Article 46 (promote educational/economic interests of SCs, STs), Article 47 (prohibit intoxicating drinks/drugs).",
+                "Liberal-Intellectual Principles : Article 44 (Uniform Civil Code), Article 45 (early childhood care/education), Article 48 (organize agriculture/animal husbandry, prohibit slaughter), Article 50 (separate judiciary from executive), Article 51 (promote international peace)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Fundamental Duties (Part IV-A)",
+            "intro": "",
+            "bullets": [
+                "Added by the **42nd Amendment Act (1976)** on the recommendation of the **Swaran Singh Committee** during Emergency.",
+                "Originally 10 duties, the **11th duty** was added by the **86th Amendment Act (2002)** (duty of parent/guardian to provide education to child aged 6-14).",
+                "Borrowed from USSR. Non-justiciable. Article 51A contains all 11 duties."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "DPSP: Part IV (Art 36-51) | Borrowed from Ireland",
+        "Fundamental Duties: Part IV-A (Art 51A) | Swaran Singh Committee",
+        "11th Duty: 86th Amendment (2002) for education 6-14 years."
+    ],
+    "hasNotes": true
+}

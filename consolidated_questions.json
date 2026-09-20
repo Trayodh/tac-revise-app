@@ -1,0 +1,405 @@
+[
+  {
+    "question_id": "TEST_001",
+    "validation_status": "APPROVED_WITH_CORRECTIONS",
+    "final_decision": "APPROVED WITH CORRECTIONS",
+    "subject": "Indian Polity",
+    "chapter": "Union Executive",
+    "topic": "President of India",
+    "question_text": "Who is the current President of India? (as of 2024)",
+    "options": {
+      "A": "Narendra Modi",
+      "B": "Ram Nath Kovind",
+      "C": "Droupadi Murmu",
+      "D": "Pranab Mukherjee"
+    },
+    "correct_answer": "C",
+    "explanation": "Droupadi Murmu assumed office as the 15th President of India on July 25, 2022, and is the incumbent President of India.",
+    "original_answer": "B",
+    "corrections_made": "Fixed OCR/spelling typos in question text ('curernt presidnt' to 'current President'). Corrected answer key from B (Ram Nath Kovind) to C (Droupadi Murmu). Updated explanation to accurately reflect the incumbent President.",
+    "duplicate_status": "Unknown",
+    "duplicate_reference_id": null,
+    "ocr_corrections": "Fixed spelling errors: 'curernt' -> 'current', 'presidnt' -> 'President'.",
+    "exam_relevance": [
+      "NDA",
+      "CDS",
+      "AFCAT",
+      "CAPF AC",
+      "Territorial Army",
+      "IB"
+    ],
+    "syllabus_status": "Current Syllabus",
+    "current_affairs_status": "Current",
+    "difficulty": "Very Easy",
+    "quality_score": 92,
+    "confidence": 100,
+    "reviewer_notes": "Question was complete but contained minor spelling errors, an incorrect answer key, and an incorrect explanation. All issues have been corrected.",
+    "primary_subject": "Indian Polity",
+    "secondary_subjects": [
+      "Current Affairs"
+    ],
+    "subchapter": "Head of State",
+    "subtopic": "Incumbent Office Holder & Constitutional Position",
+    "core_concept": "Incumbent President of India",
+    "learning_objective": "Recall",
+    "question_type": [
+      "Fact Based"
+    ],
+    "cognitive_level": "Remember",
+    "exam_tags": [
+      "NDA",
+      "CDS",
+      "AFCAT",
+      "CAPF AC",
+      "Territorial Army",
+      "IB"
+    ],
+    "exam_weightage": "High",
+    "keywords": [
+      "President of India",
+      "Droupadi Murmu",
+      "Union Executive",
+      "Head of State",
+      "Current Appointments",
+      "15th President of India",
+      "Indian Polity"
+    ],
+    "related_concepts": [
+      "Powers and Functions of the President",
+      "Electoral College for Presidential Election",
+      "Vice-President of India",
+      "Prime Minister and Council of Ministers"
+    ],
+    "prerequisite_topics": [
+      "Basics of Indian Constitution",
+      "Structure of Indian Government"
+    ],
+    "next_recommended_topics": [
+      "Election Process of President of India",
+      "Articles 52 to 62 of Indian Constitution",
+      "Impeachment Process of President"
+    ],
+    "common_mistakes": [
+      "Confusing the Head of State (President) with the Head of Government (Prime Minister)",
+      "Selecting the former President Ram Nath Kovind due to outdated static memory"
+    ],
+    "revision_priority": "Low",
+    "knowledge_graph_links": {
+      "question_to_topic": "TEST_001 -> President of India",
+      "topic_to_chapter": "President of India -> Union Executive"
+    },
+    "confidence_score": 98,
+    "needs_review_flag": false,
+    "knowledge_type": [
+      "Factual",
+      "Current Knowledge"
+    ],
+    "primary_skill": "Factual Recall",
+    "secondary_skills": [
+      "Temporal Differentiation",
+      "Distractor Elimination"
+    ],
+    "difficulty_rating": "Very Easy",
+    "difficulty_score": 15,
+    "discrimination_value": "Low",
+    "estimated_solve_time": "15 seconds",
+    "memory_load": "Low",
+    "conceptual_load": "Low",
+    "calculation_load": "None",
+    "reasoning_load": "Low",
+    "guessability": "Low",
+    "distractor_analysis": [
+      {
+        "option": "A",
+        "plausibility": "Moderate",
+        "misconception_tested": "Confusing the Head of Government (Prime Minister) with the Head of State (President)",
+        "is_too_obvious": false,
+        "is_misleading": false,
+        "improvement_suggestion": "Keep as is to filter candidates lacking basic constitutional structure knowledge."
+      },
+      {
+        "option": "B",
+        "plausibility": "High",
+        "misconception_tested": "Relying on outdated memory of the immediate former President (14th President)",
+        "is_too_obvious": false,
+        "is_misleading": true,
+        "improvement_suggestion": "Keep as is; highly effective distractor for testing temporal update of current affairs."
+      },
+      {
+        "option": "C",
+        "plausibility": "High",
+        "misconception_tested": "Correct answer identifying the 15th incumbent President of India",
+        "is_too_obvious": false,
+        "is_misleading": false,
+        "improvement_suggestion": "None"
+      },
+      {
+        "option": "D",
+        "plausibility": "Low",
+        "misconception_tested": "Recalling a past President (13th President) from earlier tenure",
+        "is_too_obvious": false,
+        "is_misleading": false,
+        "improvement_suggestion": "Could replace with another recent prominent national figure if higher difficulty is desired."
+      }
+    ],
+    "common_error_patterns": [
+      "Selecting former President Ram Nath Kovind due to outdated static knowledge",
+      "Confusing Head of State (President) with Head of Government (Prime Minister)"
+    ],
+    "prerequisite_concepts": [
+      "Basics of Indian Constitution",
+      "Structure of Indian Government"
+    ],
+    "learning_outcome": "Accurately recall and identify the incumbent Head of State (President of India).",
+    "revision_value": "Low",
+    "mock_test_placement": [
+      "Warm-up Section",
+      "Sectional Speed Test",
+      "Current Affairs Baseline Quiz"
+    ],
+    "adaptive_learning_recommendations": {
+      "if_correct": [
+        "Proceed to constitutional provisions regarding the President of India (Articles 52 to 62)",
+        "Explore the Electoral College and election methodology of the President"
+      ],
+      "if_incorrect": [
+        "Review current national office holders and key constitutional appointments",
+        "Study the basic distinction between Head of State and Head of Government in Indian Polity"
+      ]
+    },
+    "performance_analytics_tags": [
+      "Polity Basics",
+      "Current Appointments",
+      "Union Executive",
+      "Head of State"
+    ],
+    "deduplication_metadata": {
+      "question_id": "TEST_001",
+      "duplicate_status": "Unique",
+      "duplicate_type": "Unique",
+      "canonical_question_id": "TEST_001",
+      "duplicate_cluster_id": "CLUSTER_POLITY_PRESIDENT_INCUMBENT_001",
+      "concept_family_id": "CF_POLITY_UNION_EXECUTIVE_PRESIDENT",
+      "similarity_scores": {
+        "semantic_similarity": 0,
+        "concept_similarity": 0,
+        "learning_objective_similarity": 0,
+        "overall_duplicate_confidence": 0
+      },
+      "shared_learning_objective": "Accurately recall and identify the incumbent Head of State (President of India).",
+      "shared_concepts": [
+        "Incumbent President of India",
+        "Head of State",
+        "Union Executive"
+      ],
+      "canonical_recommendation": "Set TEST_001 as the canonical reference question for incumbent President of India current affairs questions.",
+      "explanation_recommendation": "Retain explanation detailing Droupadi Murmu's assumption of office as the 15th President on July 25, 2022.",
+      "retention_decision": "Canonical Question",
+      "related_question_ids": [],
+      "knowledge_gap_flags": [],
+      "confidence_score": 100,
+      "needs_review_flag": false
+    }
+  },
+  {
+    "question_id": "TEST_002",
+    "validation_status": "APPROVED_WITH_CORRECTIONS",
+    "final_decision": "APPROVED WITH CORRECTIONS",
+    "subject": "Indian Polity",
+    "chapter": "Union Executive",
+    "topic": "President of India",
+    "question_text": "Who holds the office of the President of India right now?",
+    "options": {
+      "A": "Narendra Modi",
+      "B": "Ram Nath Kovind",
+      "C": "Droupadi Murmu",
+      "D": "Pranab Mukherjee"
+    },
+    "correct_answer": "C",
+    "explanation": "Droupadi Murmu assumed office as the 15th President of India on July 25, 2022, and is the incumbent President of India.",
+    "original_answer": "B",
+    "corrections_made": "Fixed OCR/spelling typos in question text ('curernt presidnt' to 'current President'). Corrected answer key from B (Ram Nath Kovind) to C (Droupadi Murmu). Updated explanation to accurately reflect the incumbent President.",
+    "duplicate_status": "Unknown",
+    "duplicate_reference_id": null,
+    "ocr_corrections": "Fixed spelling errors: 'curernt' -> 'current', 'presidnt' -> 'President'.",
+    "exam_relevance": [
+      "NDA",
+      "CDS",
+      "AFCAT",
+      "CAPF AC",
+      "Territorial Army",
+      "IB"
+    ],
+    "syllabus_status": "Current Syllabus",
+    "current_affairs_status": "Current",
+    "difficulty": "Very Easy",
+    "quality_score": 92,
+    "confidence": 100,
+    "reviewer_notes": "Question was complete but contained minor spelling errors, an incorrect answer key, and an incorrect explanation. All issues have been corrected.",
+    "primary_subject": "Indian Polity",
+    "secondary_subjects": [
+      "Current Affairs"
+    ],
+    "subchapter": "Head of State",
+    "subtopic": "Incumbent Office Holder & Constitutional Position",
+    "core_concept": "Incumbent President of India",
+    "learning_objective": "Recall",
+    "question_type": [
+      "Fact Based"
+    ],
+    "cognitive_level": "Remember",
+    "exam_tags": [
+      "NDA",
+      "CDS",
+      "MOCK"
+    ],
+    "exam_weightage": "High",
+    "keywords": [
+      "President of India",
+      "Droupadi Murmu",
+      "Union Executive",
+      "Head of State",
+      "Current Appointments",
+      "15th President of India",
+      "Indian Polity"
+    ],
+    "related_concepts": [
+      "Powers and Functions of the President",
+      "Electoral College for Presidential Election",
+      "Vice-President of India",
+      "Prime Minister and Council of Ministers"
+    ],
+    "prerequisite_topics": [
+      "Basics of Indian Constitution",
+      "Structure of Indian Government"
+    ],
+    "next_recommended_topics": [
+      "Election Process of President of India",
+      "Articles 52 to 62 of Indian Constitution",
+      "Impeachment Process of President"
+    ],
+    "common_mistakes": [
+      "Confusing the Head of State (President) with the Head of Government (Prime Minister)",
+      "Selecting the former President Ram Nath Kovind due to outdated static memory"
+    ],
+    "revision_priority": "Low",
+    "knowledge_graph_links": {
+      "question_to_topic": "TEST_001 -> President of India",
+      "topic_to_chapter": "President of India -> Union Executive"
+    },
+    "confidence_score": 98,
+    "needs_review_flag": false,
+    "knowledge_type": [
+      "Factual",
+      "Current Knowledge"
+    ],
+    "primary_skill": "Factual Recall",
+    "secondary_skills": [
+      "Temporal Differentiation",
+      "Distractor Elimination"
+    ],
+    "difficulty_rating": "Very Easy",
+    "difficulty_score": 15,
+    "discrimination_value": "Low",
+    "estimated_solve_time": "15 seconds",
+    "memory_load": "Low",
+    "conceptual_load": "Low",
+    "calculation_load": "None",
+    "reasoning_load": "Low",
+    "guessability": "Low",
+    "distractor_analysis": [
+      {
+        "option": "A",
+        "plausibility": "Moderate",
+        "misconception_tested": "Confusing the Head of Government (Prime Minister) with the Head of State (President)",
+        "is_too_obvious": false,
+        "is_misleading": false,
+        "improvement_suggestion": "Keep as is to filter candidates lacking basic constitutional structure knowledge."
+      },
+      {
+        "option": "B",
+        "plausibility": "High",
+        "misconception_tested": "Relying on outdated memory of the immediate former President (14th President)",
+        "is_too_obvious": false,
+        "is_misleading": true,
+        "improvement_suggestion": "Keep as is; highly effective distractor for testing temporal update of current affairs."
+      },
+      {
+        "option": "C",
+        "plausibility": "High",
+        "misconception_tested": "Correct answer identifying the 15th incumbent President of India",
+        "is_too_obvious": false,
+        "is_misleading": false,
+        "improvement_suggestion": "None"
+      },
+      {
+        "option": "D",
+        "plausibility": "Low",
+        "misconception_tested": "Recalling a past President (13th President) from earlier tenure",
+        "is_too_obvious": false,
+        "is_misleading": false,
+        "improvement_suggestion": "Could replace with another recent prominent national figure if higher difficulty is desired."
+      }
+    ],
+    "common_error_patterns": [
+      "Selecting former President Ram Nath Kovind due to outdated static knowledge",
+      "Confusing Head of State (President) with Head of Government (Prime Minister)"
+    ],
+    "prerequisite_concepts": [
+      "Basics of Indian Constitution",
+      "Structure of Indian Government"
+    ],
+    "learning_outcome": "Accurately recall and identify the incumbent Head of State (President of India).",
+    "revision_value": "Low",
+    "mock_test_placement": [
+      "Warm-up Section",
+      "Sectional Speed Test",
+      "Current Affairs Baseline Quiz"
+    ],
+    "adaptive_learning_recommendations": {
+      "if_correct": [
+        "Proceed to constitutional provisions regarding the President of India (Articles 52 to 62)",
+        "Explore the Electoral College and election methodology of the President"
+      ],
+      "if_incorrect": [
+        "Review current national office holders and key constitutional appointments",
+        "Study the basic distinction between Head of State and Head of Government in Indian Polity"
+      ]
+    },
+    "performance_analytics_tags": [
+      "Polity Basics",
+      "Current Appointments",
+      "Union Executive",
+      "Head of State"
+    ],
+    "deduplication_metadata": {
+      "question_id": "TEST_002",
+      "duplicate_status": "Duplicate",
+      "duplicate_type": "Semantic",
+      "canonical_question_id": "TEST_001",
+      "duplicate_cluster_id": "CLUSTER_POLITY_PRESIDENT_INCUMBENT_001",
+      "concept_family_id": "CF_POLITY_UNION_EXECUTIVE_PRESIDENT",
+      "similarity_scores": {
+        "semantic_similarity": 0.98,
+        "concept_similarity": 1.0,
+        "learning_objective_similarity": 1.0,
+        "overall_duplicate_confidence": 0.99
+      },
+      "shared_learning_objective": "Accurately recall and identify the incumbent Head of State (President of India).",
+      "shared_concepts": [
+        "Incumbent President of India",
+        "Head of State",
+        "Union Executive"
+      ],
+      "canonical_recommendation": "Map TEST_002 as a semantic duplicate of canonical question TEST_001.",
+      "explanation_recommendation": "Retain explanation from TEST_001 detailing Droupadi Murmu's tenure as the 15th President of India.",
+      "retention_decision": "Keep as Historical Variant",
+      "related_question_ids": [
+        "TEST_001"
+      ],
+      "knowledge_gap_flags": [],
+      "confidence_score": 99,
+      "needs_review_flag": false
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "title": "National Highway Development Programme (NHDP) Phases",
+  "subject": "Geography",
+  "category": "Indian",
+  "chapter": "Transport Routes: Highways & Waterways",
+  "topic": "National Highway Development Programme (NHDP)",
+  "format": "Mermaid",
+  "description": "A timeline diagram illustrating the four phases of India's National Highway Development Programme (NHDP), detailing the period, key projects, and approximate lengths covered in each phase.",
+  "keywords": [
+    "NHDP",
+    "National Highway Development Programme",
+    "India",
+    "highways",
+    "Golden Quadrilateral",
+    "Bharatmala Pariyojana",
+    "infrastructure"
+  ],
+  "mermaidCode": "graph TD A[National Highway Development Programme (NHDP)] --> P1(Phase I: 1998-2003) P1 --> P1a[Key Projects: Golden Quadrilateral, Delhi-Mumbai Expressway (initial)] P1 --> P1b[Length: ~9,000 km] A --> P2(Phase II: 2003-2009) P2 --> P2a[Key Projects: North-South & East-West Corridors, NH-7 upgrade] P2 --> P2b[Length: ~12,500 km] A --> P3(Phase III: 2009-2015) P3 --> P3a[Key Projects: Four-lane widening of 30,000 km of NHs] P3 --> P3b[Length: ~30,000 km] A --> P4(Phase IV: 2015-2022) P4 --> P4a[Key Projects: First five Bharatmala corridors, 20+ expressways] P4 --> P4b[Length: ~5,000 km (ongoing)]"
+}

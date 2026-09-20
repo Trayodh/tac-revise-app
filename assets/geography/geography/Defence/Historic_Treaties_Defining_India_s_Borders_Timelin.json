@@ -1,0 +1,19 @@
+{
+  "title": "Historic Treaties Defining India's Borders Timeline",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Historic Treaties Defining the Borders",
+  "topic": "Treaties Timeline",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\nSugauli[1816: Treaty of Sugauli] --> Simla[1972: Simla Agreement]\nSimla --> Indus[1960: Indus Waters Treaty]\nIndus --> LBA[2015: Bangladesh‑India Land Boundary Agreement]\nLBA --> LAC[1993: China‑India LAC Agreement]",
+  "mapQuery": "",
+  "description": "Chronological flowchart of the major treaties that have defined or re‑defined India's international borders.",
+  "keywords": [
+    "treaty of Sugauli",
+    "Simla Agreement",
+    "Indus Waters Treaty",
+    "Land Boundary Agreement",
+    "LAC Agreement",
+    "border treaties"
+  ]
+}

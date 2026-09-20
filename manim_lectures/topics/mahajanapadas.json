@@ -1,0 +1,43 @@
+{
+    "id": "mahajanapadas",
+    "title": "Mahajanapadas",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "3. Ancient India",
+    "chapterId": "ancient-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\udc51 Mahajanapadas & Rise of Magadha",
+            "intro": "The 6th century BCE marked the second urbanization in India, characterized by territorial consolidation and new religious movements.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. The 16 Mahajanapadas",
+            "intro": "",
+            "bullets": [
+                "Mentioned in Buddhist text Anguttara Nikaya and Jain text Bhagavati Sutra .",
+                "Monarchies: Magadha (strongest), Kosala (capital Ayodhya/Shravasti), Vatsa (Kausambi), Avanti (Ujjain).",
+                "Republics (Ganasanghas): **Vajji** (Vaishali, world's earliest republic, confederacy of 8 clans), Malla (Kusinara)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Rise of Magadha",
+            "intro": "Magadha rose to become the supreme power due to: large iron deposits (for weapons/tools), strategic capitals (Rajgir surrounded by hills; Pataliputra at river junctions), and first-time use of elephants in wars.",
+            "bullets": [
+                "Haryanka Dynasty: **Bimbisara (544-492 BCE):** Founder. Expanded via matrimonial alliances (Kosala, Vaishali, Madra).",
+                "**Ajatashatru (492-460 BCE):** Killed his father Bimbisara. Annexed Kashi and Vaishali (used war engines *Mahasilakantaka* and *Rathamusala*). Patronised the **1st Buddhist Council** at Rajgir.",
+                "**Udayin:** Shifted the capital from Rajgir to **Pataliputra**.",
+                "Shishunaga Dynasty: Annexed Avanti, ending the long rivalry. Shifted capital to Vaishali. Kalasoka patronised the **2nd Buddhist Council** (383 BCE).",
+                "Nanda Dynasty: **Mahapadma Nanda:** First non-Kshatriya dynasty. Title: *Ekarat* (sole sovereign) and *Sarvakshatrantaka* (destroyer of Kshatriyas).",
+                "**Dhana Nanda:** Last ruler. Alexander the Great invaded North-West India (326 BCE, Battle of Hydaspes vs. Porus) during his reign, but Alexander's army refused to cross the Beas river fearing Nanda's massive army."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "16 States | Vajji: Republic (Vaishali capital) | Magadha: Strongest (Rajgir/Pataliputra)"
+    ],
+    "hasNotes": true
+}

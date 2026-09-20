@@ -1,0 +1,17 @@
+{
+    "id": "chemistry-numericals",
+    "title": "Mole Concept & Concentration Terms",
+    "subject": "Chemistry (NDA/CDS)",
+    "subjectId": "chemistry",
+    "chapter": "Carbon Compounds & Numericals",
+    "chapterId": "chemistry-carbon-numericals",
+    "blocks": [],
+    "formulas": [
+        "Mole = mass/molar mass",
+        "Avogadro: 6.022 x 10^23",
+        "Molarity (M) = moles/vol(L) [Temp dependent]",
+        "Molality (m) = moles/masssolvent(kg) [Temp independent]",
+        "Normality (N) = Molarity * n-factor"
+    ],
+    "hasNotes": false
+}

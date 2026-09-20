@@ -1,0 +1,81 @@
+{
+    "id": "dance-music",
+    "title": "Dance & Music",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "7. Art, Culture & Heritage",
+    "chapterId": "art-culture-heritage",
+    "blocks": [
+        {
+            "heading": "\ud83d\udc83 Dance & Music",
+            "intro": "The classical and folk performance heritage of India, preserving historical myths and regional identities.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Eight Classical Dances",
+            "intro": "",
+            "bullets": [],
+            "tableRows": [
+                [
+                    "Dance",
+                    "State",
+                    "Key Characteristics"
+                ],
+                [
+                    "Bharatnatyam",
+                    "Tamil Nadu",
+                    "Oldest classical dance. Devadasi origin. Solo performance, fire d"
+                ],
+                [
+                    "Kathak",
+                    "Uttar Pradesh",
+                    "Storytelling, fast spins (*chakkars*), complex footwork. Nawab Wa"
+                ],
+                [
+                    "Kathakali",
+                    "Kerala",
+                    "Dance-drama. Complex face makeup (Green: virtue; Red/Black: evil)"
+                ],
+                [
+                    "Mohiniyattam",
+                    "Kerala",
+                    "Solo feminine dance. Story of Mohini (enchantress). White/Gold sa"
+                ],
+                [
+                    "Kuchipudi",
+                    "Andhra Pradesh",
+                    "Tarangam (dancing on brass plates). Dancers sing and act."
+                ],
+                [
+                    "Odissi",
+                    "Odisha",
+                    "**Tribhanga posture** (three bends of body). Worshipped in temple"
+                ],
+                [
+                    "Manipuri",
+                    "Manipur",
+                    "Vaishnavite themes (Raslila). Cylindrical skirt. Soft, flowing mo"
+                ],
+                [
+                    "Sattriya",
+                    "Assam",
+                    "Introduced by **Srimanta Sankardev** in Vaishnavite monasteries."
+                ]
+            ]
+        },
+        {
+            "heading": "2. Classical Music Systems",
+            "intro": "",
+            "bullets": [
+                "Hindustani Music (North India): Heavy Persian/Central Asian influence. Divided into *Gharanas* (schools). Major styles: *Dhrupad* (dhruva/fixed, older), *Khayal* (imagination, popular).",
+                "Carnatic Music (South India): Purely indigenous system. Structured format based on *Kriti* (composition), *Raga* (melody), and *Tala* (rhythm). Trinity: Tyagaraja, Muthuswami Dikshitar, Syama Sastri."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "8 Classical Dances: Bharatnatyam (TN), Kathak (UP), Kathakali/Mohiniyattam (KL), Kuchipudi (AP), Odissi (OR), Manipuri (MN), Sattriya (AS)"
+    ],
+    "hasNotes": true
+}

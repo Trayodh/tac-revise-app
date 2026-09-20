@@ -1,0 +1,25 @@
+{
+    "id": "british-expansion",
+    "title": "British Expansion",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "chapterId": "modern-india-tree",
+    "blocks": [
+        {
+            "heading": "1. Battles & Alliances",
+            "intro": "",
+            "bullets": [
+                "Battle of Plassey (1757): Robert Clive defeated Siraj-ud-Daulah (Nawab of Bengal) due to Mir Jafar's betrayal. Started British political footprint.",
+                "Battle of Buxar (1764): Hector Munro defeated combined forces of Mir Qasim, Shuja-ud-Daulah, and Shah Alam II. Led to **Treaty of Allahabad (1765)** granting Diwani rights (tax collection) of Bengal, Bihar, Odisha to the Company.",
+                "Subsidiary Alliance: Lord Wellesley (Hyderabad first to sign in 1798).",
+                "Doctrine of Lapse: Lord Dalhousie (Satara, Jhansi, Nagpur, Sambalpur annexed). Awadh annexed on grounds of misgovernment (1856)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Plassey: 1757 | Buxar: 1764 | Allahabad Treaty: 1765 (Diwani rights) | Subsidiary: Wellesley | Lapse: Dalhousie"
+    ],
+    "hasNotes": true
+}

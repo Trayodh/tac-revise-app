@@ -1,0 +1,20 @@
+{
+  "title": "Definition and Examples of Dwarf Planets",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Dwarf Planets",
+  "topic": "IAU Definition of Dwarf Planets",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Dwarf Planet] --> B[Orbits the Sun]\n    B --> C[Hydrostatic Equilibrium]\n    C --> D[Has Not Cleared Its Orbital Neighbourhood]\n    D --> E[Examples: Pluto, Ceres, Eris, Makemake, Haumea]",
+  "mapQuery": "",
+  "description": "Flowchart summarising the IAU criteria for dwarf planets and listing the five officially recognised bodies.",
+  "keywords": [
+    "dwarf planet",
+    "IAU definition",
+    "Pluto",
+    "Ceres",
+    "Eris",
+    "Makemake",
+    "Haumea"
+  ]
+}

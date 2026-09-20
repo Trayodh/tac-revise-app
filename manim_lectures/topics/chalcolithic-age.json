@@ -1,0 +1,41 @@
+{
+    "id": "chalcolithic-age",
+    "title": "Chalcolithic Age",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "2. Prehistoric India",
+    "chapterId": "prehistoric-india",
+    "blocks": [
+        {
+            "heading": "\u26cf\ufe0f The Chalcolithic Age",
+            "intro": "The transition period from the Stone Age to the Metal Age, characterized by the joint use of Copper and Stone (Chalco = Copper; Lithic = Stone).",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Key Characteristics",
+            "intro": "",
+            "bullets": [
+                "Technology: First use of metals. Copper was the first metal used, followed by bronze. Stone tools (microliths) continued.",
+                "Economy: Mostly rural communities. Practiced farming (barley, wheat, lentils) and cattle rearing. Worshipped the Mother Goddess and the Bull.",
+                "Pottery: Characterized by **Black-and-Red Ware (BRW)**, painted with white designs.",
+                "Burials: Burial practices varied. In Maharashtra, children were buried in urns under house floors in a North-South direction."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Major Chalcolithic Cultures",
+            "intro": "",
+            "bullets": [
+                "Ahar-Banas Culture (Rajasthan): Sites like Ahar and Gilund. Houses made of stone and mud. Copper smelting furnaces found.",
+                "Kayatha & Malwa Cultures (MP): Malwa pottery is considered the finest Chalcolithic pottery. Kayatha is situated on the Chambal river.",
+                "Jorwe Culture (Maharashtra): Most extensive. Sites: **Inamgaon** and Daimabad. Highly settled, fortified villages with social stratification (chiefs' houses vs commoners). Transitioned to the Iron Age."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Chalcolithic: Copper + Stone | Jorwe Culture: Inamgaon | Banas Culture: Ahar"
+    ],
+    "hasNotes": true
+}

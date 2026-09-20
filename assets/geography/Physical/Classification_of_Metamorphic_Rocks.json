@@ -1,0 +1,19 @@
+{
+  "title": "Classification of Metamorphic Rocks",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Rocks",
+  "topic": "Metamorphic Rocks",
+  "format": "Mermaid",
+  "description": "A classification diagram for metamorphic rocks, highlighting their characteristics (foliation, density) and common classification by process (e.g., Regional, Contact Metamorphism).",
+  "keywords": [
+    "metamorphic rocks",
+    "tertiary rocks",
+    "foliation",
+    "regional metamorphism",
+    "contact metamorphism",
+    "heat",
+    "pressure"
+  ],
+  "mermaidCode": "graph TD\nA[Metamorphic Rocks] --> B[Characteristics]\nA --> C[Classification by Process]\nB --> B1[Foliation or Banding]\nB --> B2[Higher Density]\nB --> B3[Presence of Metamorphic Minerals]\nC --> C1[Regional Metamorphism]\nC --> C2[Contact Metamorphism]"
+}

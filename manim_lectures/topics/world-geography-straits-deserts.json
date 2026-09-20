@@ -1,0 +1,15 @@
+{
+    "id": "world-geography-straits-deserts",
+    "title": "Straits, Canals, Deserts & Seas",
+    "subject": "Geography (CDS/NDA)",
+    "subjectId": "geography",
+    "chapter": "Physical & World Geography",
+    "chapterId": "physical-geography",
+    "blocks": [],
+    "formulas": [
+        "Straits: Malacca, Gibraltar, Hormuz, Bab-el-Mandeb, Bering",
+        "Canals: Suez, Panama",
+        "Deserts: Sahara (hot), Atacama (driest), Gobi (cold)"
+    ],
+    "hasNotes": false
+}

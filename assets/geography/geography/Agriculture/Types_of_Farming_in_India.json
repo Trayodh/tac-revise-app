@@ -1,0 +1,19 @@
+{
+  "title": "Types of Farming in India",
+  "subject": "Geography",
+  "category": "Agriculture",
+  "chapter": "Farming Systems",
+  "topic": "Farming Types Classification",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    Farming[Farm Types] --> RainFed[Rain‑fed (Barani)]\n    Farming --> Irrigated[Irrigated (Khadar‑based)]\n    Farming --> Hilly[Hilly & Terrace Farming]\n    Farming --> Coastal[Coastal & Saline‑affected Farming]\n    RainFed -->|Extent| RFExtent[~55% cultivated area]\n    Irrigated -->|Extent| IRExtent[~45% cultivated area]\n    Hilly -->|Extent| HExtent[~7% total area]\n    Coastal -->|Extent| CExtent[~3% area]\n    RainFed -->|Key Crops| RFcrops[Millet, Sorghum, Pulses, Oilseeds]\n    Irrigated -->|Key Crops| ICcrops[Wheat, Rice, Sugarcane, Maize]\n    Hilly -->|Key Crops| HCcrops[Maize, Potatoes, Tea, Horticulture]\n    Coastal -->|Key Crops| CCcrops[Coconut, Cashew, Shrimp aquaculture]",
+  "mapQuery": "",
+  "description": "Classification tree showing the four major farming systems in India with their geographical extent, key crops, rainfall range, and soil characteristics.",
+  "keywords": [
+    "farming",
+    "agriculture",
+    "rain‑fed",
+    "irrigated",
+    "terrace",
+    "coastal"
+  ]
+}

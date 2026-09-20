@@ -1,0 +1,18 @@
+{
+  "title": "Front Types Diagram",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Air Masses & Fronts",
+  "topic": "Weather Fronts",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Fronts] --> B[Cold Front]\n    A --> C[Warm Front]\n    A --> D[Occluded Front]\n    A --> E[Stationary Front]",
+  "mapQuery": "",
+  "description": "Simple classification diagram of the four main types of weather fronts.",
+  "keywords": [
+    "fronts",
+    "cold front",
+    "warm front",
+    "occluded",
+    "stationary"
+  ]
+}

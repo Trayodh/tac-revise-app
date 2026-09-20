@@ -1,0 +1,32 @@
+{
+    "id": "interwar-period",
+    "title": "Interwar Period",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "6. World History",
+    "chapterId": "world-history-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\udcc9 The Interwar Period (1919 - 1939)",
+            "intro": "The twenty years between the two World Wars, marked by economic collapse and the rise of totalitarian dictators.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Major Developments",
+            "intro": "",
+            "bullets": [
+                "League of Nations: Established in 1920 to maintain peace. Proved weak; could not halt invasions (e.g., Japan invading Manchuria 1931; Italy invading Ethiopia 1935).",
+                "Great Depression (1929): Began with the Wall Street stock market crash in USA. Led to worldwide decline in trade, high unemployment, and financial collapse, weakening democratic governments.",
+                "Rise of Dictators: **Fascism in Italy:** Benito Mussolini seized power in 1922. Promoted aggressive nationalism and corporate state.",
+                "**Nazism in Germany:** Adolf Hitler (Nazi Party) became Chancellor in 1933. Preached racial superiority, anti-Semitism, and rejected the Treaty of Versailles.",
+                "**Militarism in Japan:** Military leaders took control of government, expanding into China."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "League of Nations: 1920 | Great Depression: 1929 | Hitler Chancellor: 1933"
+    ],
+    "hasNotes": true
+}

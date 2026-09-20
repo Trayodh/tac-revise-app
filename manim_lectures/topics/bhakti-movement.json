@@ -1,0 +1,34 @@
+{
+    "id": "bhakti-movement",
+    "title": "Bhakti Movement",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "4. Medieval India",
+    "chapterId": "medieval-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\ude4f The Bhakti Movement",
+            "intro": "A medieval socio-religious reform movement preaching personal devotion to God as the path to salvation, bypassing priests and caste barriers.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Origins & Schools",
+            "intro": "",
+            "bullets": [
+                "Originated in South India (7th-9th century) led by **Alvars** (Vaishnavite saints) and **Nayanars** (Shaivite saints).",
+                "Spread to North India in the 14th century by **Ramananda**.",
+                "Saguna School (Worshipped God with Form): **Mirabai:** Devoted to Krishna; composed Bhajans in Rajasthani/Braj.",
+                "**Tulsidas:** Wrote *Ramcharitmanas* in Awadhi.",
+                "**Chaitanya Mahaprabhu:** Bengal; popularized Kirtan (musical chanting).",
+                "Nirguna School (Worshipped Formless God): **Kabir:** Disciple of Ramananda. Opposed rituals, caste system, idol worship. Expressed ideas in *Dohas* (couplets) compiled in *Bijak*.",
+                "**Guru Nanak:** Preached monotheism and equality."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Alvars: Vishnu | Nayanars: Shiva | Ramcharitmanas: Tulsidas | Kirtans: Chaitanya"
+    ],
+    "hasNotes": true
+}

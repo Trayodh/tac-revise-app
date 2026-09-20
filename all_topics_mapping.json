@@ -1,0 +1,740 @@
+[
+  {
+    "subject": "geography",
+    "chapter": "Physical & World Geography",
+    "id": "universe-solar-system",
+    "title": "The Universe & Solar System"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Physical & World Geography",
+    "id": "earth-atmosphere",
+    "title": "Earth Structure & Atmosphere"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Physical & World Geography",
+    "id": "climatology-clouds",
+    "title": "Climatology: Climatic Zones & Clouds"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Physical & World Geography",
+    "id": "geomorphology-rocks",
+    "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Physical & World Geography",
+    "id": "world-geography-mountains",
+    "title": "World Geography: Mountains, Forests & Rivers"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Physical & World Geography",
+    "id": "world-geography-straits-deserts",
+    "title": "Straits, Canals, Deserts & Seas"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Indian Geography",
+    "id": "syl-geog",
+    "title": "Indian Geography (Rivers, Passes & Soils)"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Indian Geography",
+    "id": "india-forests-wetlands",
+    "title": "Forests, Trees & Wetlands of India"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Indian Geography",
+    "id": "india-resources-farming",
+    "title": "Mineral Resources & Types of Farming"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Indian Geography",
+    "id": "india-transport-routes",
+    "title": "Transport Routes: Highways & Waterways"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Indian Geography",
+    "id": "india-national-parks",
+    "title": "National Parks of India (Map Guide)"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Indian Geography",
+    "id": "mapping-borders-capitals",
+    "title": "Borders, Capitals & Mapping"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Industries & Geopolitics",
+    "id": "geog-industries",
+    "title": "Major Industries & Industrial Corridors of India"
+  },
+  {
+    "subject": "geography",
+    "chapter": "Industries & Geopolitics",
+    "id": "geog-geopolitics",
+    "title": "Geopolitical Flashpoints & Indo-Pacific"
+  },
+  {
+    "subject": "biology",
+    "chapter": "Cell Biology & Genetics",
+    "id": "cell-structure",
+    "title": "Cell Structure & Cell Division"
+  },
+  {
+    "subject": "biology",
+    "chapter": "Human Physiology",
+    "id": "human-systems",
+    "title": "Vital Human Systems & Organs"
+  },
+  {
+    "subject": "biology",
+    "chapter": "Health, Diseases & Nutrition",
+    "id": "diseases",
+    "title": "Human Diseases & Pathogens"
+  },
+  {
+    "subject": "biology",
+    "chapter": "Health, Diseases & Nutrition",
+    "id": "immunity-vaccines",
+    "title": "Immunity & Vaccines"
+  },
+  {
+    "subject": "biology",
+    "chapter": "Plant & Animal Kingdoms",
+    "id": "plant-kingdom",
+    "title": "Plant Kingdom Classification"
+  },
+  {
+    "subject": "biology",
+    "chapter": "Plant & Animal Kingdoms",
+    "id": "animal-kingdom",
+    "title": "Animal Kingdom Classification"
+  },
+  {
+    "subject": "biology",
+    "chapter": "Plant Physiology & Reproduction",
+    "id": "plant-reproduction",
+    "title": "Plant Reproduction & Hormones"
+  },
+  {
+    "subject": "biology",
+    "chapter": "Ecology & Ecosystems",
+    "id": "biology-ecology-basics",
+    "title": "Ecology Basics & Pyramids"
+  },
+  {
+    "subject": "physics",
+    "chapter": "Optics & Light",
+    "id": "reflection-refraction",
+    "title": "Reflection, Refraction & Lenses"
+  },
+  {
+    "subject": "physics",
+    "chapter": "Mechanics & Motion",
+    "id": "newtons-laws",
+    "title": "Newton's Laws of Motion"
+  },
+  {
+    "subject": "physics",
+    "chapter": "Energy & Gravitation",
+    "id": "syl-exercises",
+    "title": "Work, Power, Energy & Gravitation"
+  },
+  {
+    "subject": "physics",
+    "chapter": "Waves & Acoustics",
+    "id": "physics-sound",
+    "title": "Sound Waves & Acoustics"
+  },
+  {
+    "subject": "physics",
+    "chapter": "Waves & Acoustics",
+    "id": "physics-em-waves",
+    "title": "Electromagnetic Waves & Spectrum"
+  },
+  {
+    "subject": "physics",
+    "chapter": "Heat & Thermodynamics",
+    "id": "physics-heat",
+    "title": "Thermodynamics & Heat Transfer"
+  },
+  {
+    "subject": "physics",
+    "chapter": "Electricity & Magnetism",
+    "id": "physics-electricity-magnetism",
+    "title": "Electricity, Circuits & Magnetism"
+  },
+  {
+    "subject": "physics",
+    "chapter": "Modern Physics & Units",
+    "id": "physics-nuclear-basics",
+    "title": "Nuclear Physics & Radioactivity"
+  },
+  {
+    "subject": "physics",
+    "chapter": "Modern Physics & Units",
+    "id": "physics-units-everyday",
+    "title": "SI Units & Everyday Physics"
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Acids, Bases & Salts",
+    "id": "acids-bases",
+    "title": "Acids, Bases & pH Indicators"
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding",
+    "id": "syl-numerical",
+    "title": "Chemical Bonding & Periodic Table"
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Metals & Metallurgy",
+    "id": "metals-alloys",
+    "title": "Metals, Ores, Alloys & Metallurgy"
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Metals & Metallurgy",
+    "id": "reactivity-series",
+    "title": "Reactivity Series & Displacement"
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Carbon Compounds & Numericals",
+    "id": "carbon-compounds",
+    "title": "Carbon & its Compounds"
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Carbon Compounds & Numericals",
+    "id": "chemistry-numericals",
+    "title": "Mole Concept & Concentration Terms"
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Everyday & Environmental Chemistry",
+    "id": "chemistry-everyday-fertilisers",
+    "title": "Everyday Chemistry, Fertilisers & Fuels"
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Everyday & Environmental Chemistry",
+    "id": "environmental-chemistry",
+    "title": "Environmental Chemistry & Pollution"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Constitutional Framework",
+    "id": "preamble",
+    "title": "Preamble & Sources"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Constitutional Framework",
+    "id": "schedules",
+    "title": "Schedules of the Constitution"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Constitutional Framework",
+    "id": "fundamental-rights",
+    "title": "Fundamental Rights (Art 12-35)"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Constitutional Framework",
+    "id": "dpsp",
+    "title": "DPSP & Fundamental Duties (Art 36-51A)"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Constitutional Framework",
+    "id": "citizenship",
+    "title": "Citizenship (Art 5-11)"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Union Government",
+    "id": "president",
+    "title": "The President of India (Art 52-62)"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Union Government",
+    "id": "parliament",
+    "title": "Parliament of India (Art 79-122)"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Union Government",
+    "id": "goverment-executives",
+    "title": "Executives: PM, CM & Governor"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Union Government",
+    "id": "judiciary",
+    "title": "Integrated Judiciary: SC & HC"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Union Government",
+    "id": "panchayati-raj",
+    "title": "Local Self-Govt & Panchayati Raj"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Advanced Polity Structures & Bodies",
+    "id": "amendments-parts",
+    "title": "Constitutional Amendments, Parts & Schedules"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Advanced Polity Structures & Bodies",
+    "id": "important-articles",
+    "title": "High-Yield Special Articles Cheat Sheet"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Advanced Polity Structures & Bodies",
+    "id": "positions-tenures",
+    "title": "Elections, Appointments & Terms of Office"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Advanced Polity Structures & Bodies",
+    "id": "constitutional-bodies",
+    "title": "Constitutional & Non-Constitutional Bodies"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Advanced Polity Structures & Bodies",
+    "id": "governance-emergency",
+    "title": "Emergency Provisions"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Federal Structure & Election Law",
+    "id": "polity-federal-structure",
+    "title": "Federal Structure & Centre-State Relations"
+  },
+  {
+    "subject": "polity",
+    "chapter": "Federal Structure & Election Law",
+    "id": "polity-rpa",
+    "title": "Representation of People Act & Election Commission"
+  },
+  {
+    "subject": "history",
+    "chapter": "1. Historiography & Historical Foundations",
+    "id": "what-is-history",
+    "title": "What is History?"
+  },
+  {
+    "subject": "history",
+    "chapter": "1. Historiography & Historical Foundations",
+    "id": "sources-indian-history",
+    "title": "Sources of Indian History"
+  },
+  {
+    "subject": "history",
+    "chapter": "1. Historiography & Historical Foundations",
+    "id": "dating-systems",
+    "title": "Dating Systems"
+  },
+  {
+    "subject": "history",
+    "chapter": "2. Prehistoric India",
+    "id": "stone-age",
+    "title": "Stone Age"
+  },
+  {
+    "subject": "history",
+    "chapter": "2. Prehistoric India",
+    "id": "chalcolithic-age",
+    "title": "Chalcolithic Age"
+  },
+  {
+    "subject": "history",
+    "chapter": "2. Prehistoric India",
+    "id": "rock-art",
+    "title": "Rock Art"
+  },
+  {
+    "subject": "history",
+    "chapter": "3. Ancient India",
+    "id": "indus-valley-civilization",
+    "title": "Indus Valley Civilization"
+  },
+  {
+    "subject": "history",
+    "chapter": "3. Ancient India",
+    "id": "vedic-age",
+    "title": "Vedic Age"
+  },
+  {
+    "subject": "history",
+    "chapter": "3. Ancient India",
+    "id": "mahajanapadas",
+    "title": "Mahajanapadas"
+  },
+  {
+    "subject": "history",
+    "chapter": "3. Ancient India",
+    "id": "magadha-expansion",
+    "title": "Magadha Expansion"
+  },
+  {
+    "subject": "history",
+    "chapter": "3. Ancient India",
+    "id": "buddhism-jainism",
+    "title": "Buddhism & Jainism"
+  },
+  {
+    "subject": "history",
+    "chapter": "3. Ancient India",
+    "id": "mauryan-period",
+    "title": "Mauryan Period"
+  },
+  {
+    "subject": "history",
+    "chapter": "3. Ancient India",
+    "id": "post-mauryan-india",
+    "title": "Post-Mauryan India"
+  },
+  {
+    "subject": "history",
+    "chapter": "3. Ancient India",
+    "id": "gupta-period",
+    "title": "Gupta Period"
+  },
+  {
+    "subject": "history",
+    "chapter": "3. Ancient India",
+    "id": "south-indian-kingdoms",
+    "title": "South Indian Kingdoms"
+  },
+  {
+    "subject": "history",
+    "chapter": "3. Ancient India",
+    "id": "ancient-indian-culture",
+    "title": "Ancient Indian Culture"
+  },
+  {
+    "subject": "history",
+    "chapter": "4. Medieval India",
+    "id": "early-medieval-india",
+    "title": "Early Medieval India"
+  },
+  {
+    "subject": "history",
+    "chapter": "4. Medieval India",
+    "id": "delhi-sultanate",
+    "title": "Delhi Sultanate"
+  },
+  {
+    "subject": "history",
+    "chapter": "4. Medieval India",
+    "id": "vijayanagara-empire",
+    "title": "Vijayanagara Empire"
+  },
+  {
+    "subject": "history",
+    "chapter": "4. Medieval India",
+    "id": "bahmani-deccan-sultanates",
+    "title": "Bahmani Kingdom & Deccan Sultanates"
+  },
+  {
+    "subject": "history",
+    "chapter": "4. Medieval India",
+    "id": "mughal-empire",
+    "title": "Mughal Empire"
+  },
+  {
+    "subject": "history",
+    "chapter": "4. Medieval India",
+    "id": "marathas",
+    "title": "Marathas"
+  },
+  {
+    "subject": "history",
+    "chapter": "4. Medieval India",
+    "id": "bhakti-movement",
+    "title": "Bhakti Movement"
+  },
+  {
+    "subject": "history",
+    "chapter": "4. Medieval India",
+    "id": "sufi-movement",
+    "title": "Sufi Movement"
+  },
+  {
+    "subject": "history",
+    "chapter": "4. Medieval India",
+    "id": "sikh-history",
+    "title": "Sikh History"
+  },
+  {
+    "subject": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "id": "european-arrival",
+    "title": "European Arrival"
+  },
+  {
+    "subject": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "id": "british-expansion",
+    "title": "British Expansion"
+  },
+  {
+    "subject": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "id": "economic-impact-british",
+    "title": "Economic Impact of British Rule"
+  },
+  {
+    "subject": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "id": "socio-religious-reform",
+    "title": "Socio-Religious Reform Movements"
+  },
+  {
+    "subject": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "id": "revolt-1857",
+    "title": "Revolt of 1857"
+  },
+  {
+    "subject": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "id": "governor-generals-viceroys",
+    "title": "Governor-Generals & Viceroys"
+  },
+  {
+    "subject": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "id": "constitutional-development",
+    "title": "Constitutional Development"
+  },
+  {
+    "subject": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "id": "freedom-movement",
+    "title": "Freedom Movement"
+  },
+  {
+    "subject": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "id": "post-independence-consolidation",
+    "title": "Post-Independence Consolidation"
+  },
+  {
+    "subject": "history",
+    "chapter": "6. World History",
+    "id": "revolutions",
+    "title": "Revolutions"
+  },
+  {
+    "subject": "history",
+    "chapter": "6. World History",
+    "id": "world-war-i",
+    "title": "World War I"
+  },
+  {
+    "subject": "history",
+    "chapter": "6. World History",
+    "id": "interwar-period",
+    "title": "Interwar Period"
+  },
+  {
+    "subject": "history",
+    "chapter": "6. World History",
+    "id": "world-war-ii",
+    "title": "World War II"
+  },
+  {
+    "subject": "history",
+    "chapter": "6. World History",
+    "id": "cold-war",
+    "title": "Cold War"
+  },
+  {
+    "subject": "history",
+    "chapter": "6. World History",
+    "id": "international-institutions",
+    "title": "International Institutions"
+  },
+  {
+    "subject": "history",
+    "chapter": "7. Art, Culture & Heritage",
+    "id": "architecture",
+    "title": "Architecture"
+  },
+  {
+    "subject": "history",
+    "chapter": "7. Art, Culture & Heritage",
+    "id": "paintings",
+    "title": "Paintings"
+  },
+  {
+    "subject": "history",
+    "chapter": "7. Art, Culture & Heritage",
+    "id": "dance-music",
+    "title": "Dance & Music"
+  },
+  {
+    "subject": "history",
+    "chapter": "7. Art, Culture & Heritage",
+    "id": "literature",
+    "title": "Literature"
+  },
+  {
+    "subject": "history",
+    "chapter": "7. Art, Culture & Heritage",
+    "id": "religion-festivals",
+    "title": "Religion & Festivals"
+  },
+  {
+    "subject": "history",
+    "chapter": "7. Art, Culture & Heritage",
+    "id": "heritage-sites",
+    "title": "Heritage Sites"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Trigonometry",
+    "id": "trig-identities",
+    "title": "Trigonometric Identities & Values"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Trigonometry",
+    "id": "inverse-trig",
+    "title": "Inverse Trigonometric Functions"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers",
+    "id": "quadratic-eq",
+    "title": "Quadratic Equations"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Algebra & Complex Numbers",
+    "id": "complex-numbers",
+    "title": "Complex Numbers"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Coordinate Geometry (2D & 3D)",
+    "id": "straight-lines",
+    "title": "Straight Lines"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability",
+    "id": "central-tendency",
+    "title": "Measures of Central Tendency"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Statistics & Probability",
+    "id": "data-interpretation",
+    "title": "Data Interpretation: Tables, Bar & Pie Charts"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Calculus",
+    "id": "limits-continuity",
+    "title": "Limits & Continuity"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Calculus",
+    "id": "differentiation",
+    "title": "Differentiation Rules"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Calculus",
+    "id": "integration",
+    "title": "Standard Integration Methods"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Algebra & Matrices",
+    "id": "syl-matrices",
+    "title": "Matrices and Determinants"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Probability & Statistics",
+    "id": "syl-probability",
+    "title": "Probability Theory & Bayes Theorem"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Geometry",
+    "id": "lines-angles-triangles",
+    "title": "Lines, Angles & Triangles"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Geometry",
+    "id": "circles-polygons",
+    "title": "Circles & Polygons"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Mensuration",
+    "id": "area-perimeter",
+    "title": "2D Figures: Area & Perimeter"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Mensuration",
+    "id": "surface-area-volume",
+    "title": "3D Solids: Surface Area & Volume"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Arithmetic",
+    "id": "percentages-profit-loss",
+    "title": "Percentages, Profit & Loss"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Arithmetic",
+    "id": "ratios-averages",
+    "title": "Ratios, Proportions & Averages"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Arithmetic",
+    "id": "time-distance",
+    "title": "Time, Speed, Distance & Work"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude",
+    "id": "syl-numerical-speed",
+    "title": "Time, Speed & Distance Formulas"
+  },
+  {
+    "subject": "mathematics",
+    "chapter": "Numerical Aptitude",
+    "id": "syl-numerical-ratios",
+    "title": "Ratios, Proportions & Percentages"
+  }
+]

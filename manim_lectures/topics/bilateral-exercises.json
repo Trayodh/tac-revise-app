@@ -1,0 +1,32 @@
+{
+    "id": "bilateral-exercises",
+    "title": "Joint Military Exercises of India",
+    "subject": "Military GK & Aptitude",
+    "subjectId": "military-aptitude",
+    "chapter": "Exercises & Missile Systems",
+    "chapterId": "tactical-defence-gk",
+    "blocks": [
+        {
+            "heading": "Bilateral Exercises List (High-Yield)",
+            "intro": "Armed forces carry out exercises to practice tactical joint operations. Memorize the major ones:",
+            "bullets": [
+                "United States : Yudh Abhyas (Army)",
+                "Vajra Prahar (Special Forces)",
+                "Cope India (Air Force)",
+                "Tarkash (Counter-terrorism joint drills)",
+                "France : Shakti (Army)",
+                "Varuna (Navy)",
+                "Garuda (Air Force)",
+                "Russia : Indra (Tri-services joint exercise)"
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "US: Yudh Abhyas, Vajra Prahar",
+        "Nepal: Surya Kiran",
+        "France: Garuda(Air), Varuna(Navy), Shakti(Army)",
+        "Russia: Indra"
+    ],
+    "hasNotes": true
+}

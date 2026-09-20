@@ -1,0 +1,50 @@
+{
+    "id": "syl-numerical-speed",
+    "title": "Time, Speed & Distance Formulas",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Numerical Aptitude",
+    "chapterId": "quantitative-aptitude",
+    "blocks": [
+        {
+            "heading": "1. General Speed, Time, and Distance Relationship",
+            "intro": "",
+            "bullets": [
+                "Speed = Distance / Time \u21d2 Time = Distance / Speed ; Distance = Speed \u00d7 Time",
+                "Unit Conversions: To convert from km/h to m/s: multiply by **5/18**. (e.g., 90 km/h = 90 \u00d7 5/18 = 25 m/s).",
+                "To convert from m/s to km/h: multiply by **18/5**.",
+                "Average Speed : Case A: A body covers two equal distances at speeds x km/h and y km/h. Average Speed = 2xy / (x + y) .",
+                "Case B: A body covers three equal distances at speeds x, y, and z km/h. Average Speed = 3xyz / (xy + yz + zx) .",
+                "General Case: **Total Distance Covered / Total Time Taken**."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Relative Speed",
+            "intro": "Speed of one body with respect to another moving body:",
+            "bullets": [
+                "If two bodies move in the **same direction** with speeds u and v (where u > v), Relative Speed = u - v .",
+                "If two bodies move in **opposite directions**, Relative Speed = u + v ."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Trains and Platforms Problems",
+            "intro": "",
+            "bullets": [
+                "Train crossing a pole/man : The distance covered is equal to the length of the train itself. Time = Length of Train / Speed.",
+                "Train crossing a bridge/platform/tunnel : The distance covered is equal to the sum of lengths of train and platform. Time = (Length of Train + Length of Platform) / Speed.",
+                "Two trains crossing each other : The distance covered is always the sum of both lengths (L\u2081 + L\u2082). The speed used is the relative speed."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Speed = D/T",
+        "1 km/h = 5/18 m/s",
+        "Average Speed = 2xy/(x+y)",
+        "Same direction: Speed\u2081 - Speed\u2082",
+        "Opposite direction: Speed\u2081 + Speed\u2082"
+    ],
+    "hasNotes": true
+}

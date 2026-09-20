@@ -1,0 +1,31 @@
+{
+    "id": "vijayanagara-empire",
+    "title": "Vijayanagara Empire",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "4. Medieval India",
+    "chapterId": "medieval-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83c\udfdb\ufe0f The Vijayanagara Empire (1336 - 1646)",
+            "intro": "The supreme Hindu kingdom of Southern India, acting as a bulwark against northern Sultanate expansions.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. History & Dynasties",
+            "intro": "",
+            "bullets": [
+                "Founded in 1336 by brothers **Harihara I & Bukka I** (Sangama Dynasty) on the southern bank of Tungabhadra River, inspired by sage Vidyaranya.",
+                "Four dynasties: Sangama, Saluva, Tuluva, and Aravidu.",
+                "**Battle of Talikota (1565):** Also known as Battle of Bannihatti. Combined forces of Deccan Sultanates (except Berar) defeated Vijayanagara army. Rama Raya was captured and executed. Capital Hampi was sacked.",
+                "**Foreign Travellers:** Nicolo de Conti (Italy, 1420), Abdur Razzaq (Persia, 1443), Domingo Paes (Portugal, 1520), Fernao Nuniz (Portugal, 1535)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Founded: 1336 (Harihara & Bukka) | Peak: Krishnadevaraya | Capital ruins: Hampi | Talikota: 1565"
+    ],
+    "hasNotes": true
+}

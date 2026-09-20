@@ -1,0 +1,17 @@
+{
+  "title": "Humidity Measures",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Humidity & Precipitation",
+  "topic": "Humidity Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    H[Humidity Measures]\n    H --> AH[Absolute Humidity]\n    H --> SH[Specific Humidity]\n    H --> RH[Relative Humidity]",
+  "mapQuery": "",
+  "description": "Simple classification of humidity metrics used in meteorology: absolute, specific, and relative humidity.",
+  "keywords": [
+    "absolute humidity",
+    "specific humidity",
+    "relative humidity",
+    "humidity measures"
+  ]
+}

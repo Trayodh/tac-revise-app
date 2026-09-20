@@ -1,0 +1,16 @@
+{
+    "Physics": [
+        "Optics & The Human Eye",
+        "Thermodynamics & Waves"
+    ],
+    "Chemistry": [
+        "Matter & Atomic Structure"
+    ],
+    "Biology": [
+        "Cell Biology & Human Physiology"
+    ],
+    "Geography": [
+        "Earthquakes, Volcanoes, & Wind Systems",
+        "Oceanography & Salinity"
+    ]
+}

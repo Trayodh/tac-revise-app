@@ -1,0 +1,18 @@
+{
+  "title": "Classification of National Parks Tree",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Classification of National Parks",
+  "topic": "Park Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nA[National Parks Classification] --> B[Wildlife National Parks]\nA --> C[Marine National Parks]\nA --> D[Desert National Parks]\nA --> E[Mountain National Parks]",
+  "mapQuery": "",
+  "description": "Tree diagram showing the four major categories of Indian National Parks based on dominant ecosystem type.",
+  "keywords": [
+    "national parks classification",
+    "wildlife parks",
+    "marine parks",
+    "desert parks",
+    "mountain parks"
+  ]
+}

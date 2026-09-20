@@ -1,0 +1,18 @@
+{
+  "title": "Future Outlook (2025‑2035) Timeline",
+  "subject": "Geography",
+  "category": "Infrastructure",
+  "chapter": "Future Outlook (2025‑2035)",
+  "topic": "Strategic Priorities",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n2025[2025] --> 2026[Electrified Road Corridors (Delhi‑Gurugram)]\n2025 --> 2028[50% of Bharatmala under construction]\n2025 --> 2029[Add NW‑12 (Sunderbans) & NW‑13 (Kaveri‑Mullaperiyar)]\n2025 --> 2030[Integrated AI‑driven logistics to cut freight dwell time 15%]",
+  "mapQuery": "",
+  "description": "Timeline showing the major strategic priorities for India's transport infrastructure between 2025 and 2035, including Bharatmala progress, new national waterways, electrified corridors, and AI‑driven logistics.",
+  "keywords": [
+    "future outlook",
+    "Bharatmala",
+    "national waterways",
+    "electrified corridors",
+    "AI logistics"
+  ]
+}

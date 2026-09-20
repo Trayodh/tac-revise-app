@@ -1,0 +1,19 @@
+{
+  "title": "Future Outlook for India's Transport Infrastructure (2025-2035)",
+  "subject": "Geography",
+  "category": "Indian",
+  "chapter": "Transport and Communication",
+  "topic": "Future Infrastructure Plans",
+  "format": "Mermaid",
+  "description": "A diagram outlining the strategic priorities for India's transport sector, including the completion of Bharatmala, expansion of National Waterways, electrified road corridors, and integrated logistics.",
+  "keywords": [
+    "National Infrastructure Pipeline",
+    "National Transport Vision 2035",
+    "Bharatmala",
+    "National Waterways expansion",
+    "electrified road corridors",
+    "integrated logistics",
+    "AI-driven traffic management"
+  ],
+  "mermaidCode": "graph TD\nA[Future Outlook (2025-2035)] --> B{Completion of Bharatmala};\nB --> B1[Target 84,000 km highways];\nB --> B2[50% under construction by 2028];\nA --> C{Expansion of National Waterways};\nC --> C1[Add NW-12 (Sunderbans), NW-13 (Kaveri-Mullaperiyar)];\nC --> C2[Reach ≈ 7,000 km navigable routes];\nA --> D{Electrified Road Corridors};\nD --> D1[Pilot solar-powered expressways (e.g., Delhi-Gurugram)];\nD --> D2[Slated for 2026];\nA --> E{Integrated Logistics};\nE --> E1[Deploy AI-driven traffic-management systems];\nE --> E2[Linking highways with ports];\nE --> E3[Aim to cut average freight dwell time by 15%];"
+}

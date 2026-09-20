@@ -1,0 +1,30 @@
+{
+    "id": "delhi-sultanate",
+    "title": "Delhi Sultanate",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "4. Medieval India",
+    "chapterId": "medieval-india-tree",
+    "blocks": [
+        {
+            "heading": "\u2694\ufe0f The Delhi Sultanate (1206 - 1526)",
+            "intro": "Five successive dynasties ruled Delhi before the Mughal era. Mnemonic: S ome K ings T ravel S lowly L ately.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. The Dynasties",
+            "intro": "",
+            "bullets": [
+                "**Firoz Shah Tughlaq (1351-1388):** Built canals for irrigation. Set up public welfare departments: *Diwan-i-Khairat* (charity), *Diwan-i-Bundagan* (slaves). Founded cities like Firozabad and Hissar.",
+                "Sayyid Dynasty (1414-1451): Founded by Khizr Khan.",
+                "Lodi Dynasty (1451-1526): Founded by Bahlul Lodi. Sikandar Lodi founded Agra (1504). **Ibrahim Lodi** was defeated by Babur in the **1st Battle of Panipat (1526)**, ending the Sultanate."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Chahalgani: Iltutmish | Market Reforms: Alauddin Khilji | Capital shift: Muhammad bin Tughlaq"
+    ],
+    "hasNotes": true
+}

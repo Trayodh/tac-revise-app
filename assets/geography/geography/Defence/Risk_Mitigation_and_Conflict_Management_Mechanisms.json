@@ -1,0 +1,22 @@
+{
+  "title": "Risk Mitigation and Conflict Management Mechanisms",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Risk Mitigation and Conflict Management Mechanisms",
+  "topic": "International Relations",
+  "format": "Mermaid",
+  "description": "A flowchart outlining various mechanisms for risk mitigation and conflict management, including hotlines, Confidence-Building Measures (CBMs), legal arbitration, and multilateral forums.",
+  "keywords": [
+    "Risk Mitigation",
+    "Conflict Management",
+    "Hotlines",
+    "CBMs",
+    "Legal Arbitration",
+    "Multilateral Forums",
+    "US-China Military Maritime Hotline",
+    "PCA ruling",
+    "ASEAN",
+    "IORA"
+  ],
+  "mermaidCode": "graph TD\nA[Risk Mitigation & Conflict Management] --> B(Mechanisms)\nB --> B1(Hotlines and Direct Communication Channels)\nB1 --> B1a(e.g., US-China Military Maritime Hotline)\nB --> B2(Confidence-Building Measures (CBMs))\nB2 --> B2a(e.g., Joint fisheries patrols in South China Sea)\nB2 --> B2b(e.g., Non-aggression pacts between India and Myanmar)\nB --> B3(Legal Arbitration)\nB3 --> B3a(e.g., 2016 PCA ruling vs. China's nine-dash line)\nB --> B4(Multilateral Forums)\nB4 --> B4a(e.g., ASEAN's East Asia Summit (EAS))\nB4 --> B4b(e.g., Indian Ocean Rim Association (IORA))"
+}
