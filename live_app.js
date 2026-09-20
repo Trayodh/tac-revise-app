@@ -60,9 +60,15 @@ window.fetch = async function() {
 
     // since Vercel does not inject environment variables into static JS files.
 
-    // The interceptor is NOW enabled for all platforms (GitHub Pages static mode).
+    // The interceptor is ONLY for Android/Capacitor standalone mode.
 
     const isCapacitor = window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform();
+
+    if (!isCapacitor && url.includes('/api/gemini')) {
+
+        return originalFetch.apply(this, arguments);
+
+    }
 
     
 
@@ -246,7 +252,7 @@ window.fetch = async function() {
 
                 try {
 
-                    const res = await originalFetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM`, {
+                    const res = await originalFetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=PROCESS_ENV_GEMINI_KEY`, {
 
                         method: 'POST',
 
@@ -333,21 +339,9 @@ window.fetch = async function() {
                     callSuccessful = true;
 
                 } catch (err) {
-                    console.warn("Cerebras API Error, falling back to Pollinations (Keyless):", err);
-                    try {
-                        const isJsonRequired = (reqBody.generationConfig?.response_mime_type === 'application/json');
-                        let fallbackPrompt = promptText;
-                        if (systemInstructionText) fallbackPrompt = "System: " + systemInstructionText + "\nUser: " + promptText;
-                        if (isJsonRequired) fallbackPrompt += "\n\nIMPORTANT: Return strictly as JSON object. No markdown.";
-                        
-                        const encodedPrompt = encodeURIComponent(fallbackPrompt);
-                        const fallbackRes = await originalFetch(`https://text.pollinations.ai/${encodedPrompt}?json=false&model=llama`);
-                        if (!fallbackRes.ok) throw new Error("Pollinations fallback failed");
-                        aiText = await fallbackRes.text();
-                        callSuccessful = true;
-                    } catch (fallbackErr) {
-                        throw new Error("Cerebras Fallback Error: " + err.message);
-                    }
+
+                    throw new Error("Cerebras Fallback Error: " + err.message);
+
                 }
 
             }
