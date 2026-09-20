@@ -204,6 +204,11 @@ const MIME_TYPES = {
 };
 
 const requestHandler = async (req, res) => {
+  // Normalize Netlify function path so routing works locally and on Netlify
+  if (req.url.startsWith('/.netlify/functions/api')) {
+    req.url = req.url.replace('/.netlify/functions/api', '/api');
+  }
+
   // CORS Headers for API requests
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
