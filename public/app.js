@@ -2438,10 +2438,10 @@ function renderTopicView(subjectId, chapterId, topicId) {
             </div>
             <div style="display: flex; flex-direction: column; gap: 24px;">
               ${images.map(img => `
-                <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
-                  <img src="${img.image_path}" alt="Diagram" style="max-width: 100%; border-radius: 4px; display: block; margin: 0 auto;">
-                  ${img.reasoning ? `<div style="margin-top: 12px; font-size: 0.8rem; color: var(--text-secondary); line-height: 1.4;">${img.reasoning}</div>` : ''}
-                </div>
+                  <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+                    <img src="${img.image_path}" alt="${img.reasoning ? img.reasoning.replace(/"/g, '&quot;') : 'Diagram for ' + chapter.title}" style="max-width: 100%; border-radius: 4px; display: block; margin: 0 auto;">
+                    ${img.reasoning ? `<div style="margin-top: 12px; font-size: 0.8rem; color: var(--text-secondary); line-height: 1.4;">${img.reasoning}</div>` : ''}
+                  </div>
               `).join('')}
             </div>
           </div>`;
@@ -2807,7 +2807,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
        window.currentMapsHtml = `<div style="display: flex; gap: 10px; overflow-x: auto; margin-bottom: 20px; padding-bottom: 10px;">` + 
 
-         displayImgs.map(src => `<img src="${src}" style="max-height: 250px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">`).join('') +
+         displayImgs.map(src => `<img src="${src}" alt="Map Preview" style="max-height: 250px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">`).join('') +
 
          `</div>`;
 
