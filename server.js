@@ -927,10 +927,6 @@ What subject or topic would you like to plan next?`;
   });
 };
 
-server.timeout = 600000; // 10 minutes
-server.keepAliveTimeout = 600000;
-server.headersTimeout = 601000;
-
 // ── Data Integrity Gate ──────────────────────────────────────────────
 // Validates the question database before allowing the server to start.
 // Catches duplicates, wrong-subject questions, garbled text, bad answers.
