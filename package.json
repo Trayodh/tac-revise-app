@@ -9,8 +9,7 @@
     "pipeline": "node run_pipeline.js",
     "lint:notes": "node validate_notes.js",
     "test:render": "node tests/render.test.js",
-    "build:ssg": "node build_ssg.js",
-    "vercel-build": "echo 'Static build bypass'"
+    "build:ssg": "node build_ssg.js"
   },
   "keywords": [
     "nda",
@@ -44,7 +43,6 @@
     "marked": "^18.0.9",
     "pdf-lib": "^1.17.1",
     "pdf-parse": "^1.1.1",
-    "puppeteer": "^25.3.0",
     "rss-parser": "^3.13.0",
     "sarvamai": "^1.1.7",
     "serverless-http": "^4.0.0",
