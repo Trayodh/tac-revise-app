@@ -1,10 +1,10 @@
 # Modern & Nuclear Physics
 
 ![physics-nuclear-basics](assets/diagrams/physics/modern-physics-units/physics-nuclear-basics.png)
-*Diagram for physics-nuclear-basics*
+
 
 ![physics-nuclear-basics](assets/diagrams/physics/modern-physics-units/physics-nuclear-basics.png)
-*Diagram for physics-nuclear-basics*
+
 
 ---
 

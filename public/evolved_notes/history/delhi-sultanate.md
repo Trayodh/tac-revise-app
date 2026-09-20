@@ -1,10 +1,10 @@
 # The Delhi Sultanate (1206 CE – 1526 CE)
 
 ![delhi-sultanate](assets/diagrams/History/4-medieval-india/delhi-sultanate.png)
-*Diagram for delhi-sultanate*
+
 
 ![delhi-sultanate](assets/diagrams/History/4-medieval-india/delhi-sultanate.png)
-*Diagram for delhi-sultanate*
+
 
 ## 1. Introduction
 The period between 1206 CE and 1526 CE in Indian history is known as the [[Delhi Sultanate]] period. During these 320 years, five distinct Turkic and Afghan dynasties ruled from Delhi.

@@ -1,10 +1,10 @@
 # Ecology, Ecosystems & Pyramids
 
 ![biology-ecology-basics](assets/diagrams/Biology/ecology-ecosystems/biology-ecology-basics.png)
-*Diagram for biology-[[ecology]]-basics*
+
 
 ![biology-ecology-basics](assets/diagrams/Biology/ecology-ecosystems/biology-ecology-basics.png)
-*Diagram for biology-[[ecology]]-basics*
+
 
 ---
 

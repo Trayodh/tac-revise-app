@@ -1,10 +1,10 @@
 # Religions and Festivals of India
 
 ![religion-festivals](assets/diagrams/History/7-art-culture-heritage/religion-festivals.jpg)
-*Diagram for religion-festivals*
+
 
 ![religion-festivals](assets/diagrams/History/7-art-culture-heritage/religion-festivals.jpg)
-*Diagram for religion-festivals*
+
 
 ## 1. Major Religions Originating in India
 

@@ -1,6 +1,6 @@
 
 ![geog-industries](assets/drive_images/Misc/Jayastra-20260730T165402Z-1-001/geography/industrics-geopolitics/geog-industries.svg)
-*Diagram for geog-[[industries]]*
+
 
 ---
 

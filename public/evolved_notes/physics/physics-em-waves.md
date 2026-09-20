@@ -1,10 +1,10 @@
 # Electromagnetic (EM) Waves & Spectrum
 
 ![physics-em-waves](assets/diagrams/physics/waves-acoustics/physics-em-waves.png)
-*Diagram for physics-em-waves*
+
 
 ![physics-em-waves](assets/diagrams/physics/waves-acoustics/physics-em-waves.png)
-*Diagram for physics-em-waves*
+
 
 ---
 

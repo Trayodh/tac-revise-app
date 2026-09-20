@@ -1,10 +1,10 @@
 # The Mughal Empire (1526 CE – 1857 CE)
 
 ![mughal-empire](assets/diagrams/History/4-medieval-india/mughal-empire.png)
-*Diagram for mughal-empire*
+
 
 ![mughal-empire](assets/diagrams/History/4-medieval-india/mughal-empire.png)
-*Diagram for mughal-empire*
+
 
 ## 1. Establishment and Early Rulers
 

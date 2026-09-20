@@ -363,7 +363,7 @@ India is a signatory to several international agreements aimed at environmental 
 
 
 ![india-forests-wetlands](assets/diagrams/geography/indian-geography/india-forests-wetlands.png)
-*Diagram for india-forests-wetlands*
+
 
 
 

@@ -1,10 +1,10 @@
 # Governor-Generals and Viceroys of India
 
 ![governor-generals-viceroys](assets/diagrams/History/5-modern-india-highest-priority/governor-generals-viceroys.png)
-*Diagram for [[governor-generals]]-[[viceroys]]*
+
 
 ![governor-generals-viceroys](assets/diagrams/History/5-modern-india-highest-priority/governor-generals-viceroys.png)
-*Diagram for [[governor-generals]]-[[viceroys]]*
+
 
 ## 1. Governors of Bengal (1757 – 1774)
 

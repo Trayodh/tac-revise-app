@@ -1,10 +1,10 @@
 # World War II (1939 – 1945)
 
 ![world-war-ii](assets/diagrams/History/6-world-history/world-war-ii.png)
-*Diagram for world-war-ii*
+
 
 ![world-war-ii](assets/diagrams/History/6-world-history/world-war-ii.png)
-*Diagram for world-war-ii*
+
 
 ## 1. Introduction and Causes
 [[World War II]] was the deadliest and most widespread conflict in human history, involving the vast majority of the world's nations.

@@ -30,7 +30,7 @@ A mineral is a naturally occurring, inorganic substance with a definite chemical
 
 
 ![india-resources-farming](assets/diagrams/geography/indian-geography/india-resources-farming.png)
-*Diagram for india-[[resources]]-farming*
+
 
 **2.2. Major Mineral Belts of India**
 

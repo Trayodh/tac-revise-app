@@ -1,10 +1,10 @@
 # The Marathas: Shivaji and the Peshwas
 
 ![marathas](assets/diagrams/History/4-medieval-india/marathas.png)
-*Diagram for [[marathas]]*
+
 
 ![marathas](assets/diagrams/History/4-medieval-india/marathas.png)
-*Diagram for [[marathas]]*
+
 
 ## 1. Rise of the Maratha Power under Shivaji
 The [[Marathas]] were a martial community in the Deccan who initially served in the armies of the Bahmani Sultanate and its successor states (Bijapur and Ahmadnagar). They rose to prominence as an independent [[sovereign]] [[power]] under the leadership of **Chhatrapati [[Shivaji]] Maharaj**.

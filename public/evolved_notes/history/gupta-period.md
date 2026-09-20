@@ -1,10 +1,10 @@
 # The Gupta Period (c. 319 CE – 540 CE): The Golden Age
 
 ![gupta-period](assets/diagrams/History/3-ancient-india/gupta-period.png)
-*Diagram for gupta-period*
+
 
 ![gupta-period](assets/diagrams/History/3-ancient-india/gupta-period.png)
-*Diagram for gupta-period*
+
 
 ## 1. Introduction and Rise of the Guptas
 Following the disintegration of the Kushan and Satavahana empires, the Gupta dynasty emerged in Magadha and reunified a large part of Northern India. Though their empire was not as vast as the Mauryas, the [[Gupta period]] is widely considered the **"Golden Age" of ancient India** due to unprecedented advancements in art, [[literature]], science, [[metallurgy]], and mathematics.

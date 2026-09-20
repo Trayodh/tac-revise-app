@@ -1,10 +1,10 @@
 # Vital Human Systems & Physiology
 
 ![human-systems](assets/diagrams/Biology/human-physiology/human-systems.png)
-*Diagram for human-systems*
+
 
 ![human-systems](assets/diagrams/Biology/human-physiology/human-systems.png)
-*Diagram for human-systems*
+
 
 ---
 

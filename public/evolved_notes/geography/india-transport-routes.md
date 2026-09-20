@@ -193,7 +193,7 @@ The development of transport routes is deeply intertwined with India's economic 
 
 
 ![india-transport-routes](assets/diagrams/geography/indian-geography/india-transport-routes.png)
-*Diagram for india-transport-routes*
+
 
 
 

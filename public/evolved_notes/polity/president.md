@@ -70,6 +70,6 @@ Independent of the [[judiciary]], an executive [[power]].
 
 
 ![president](assets/diagrams/polity/advanced_polity_structures_bodies/polity_advanced_polity_structures_bodies_elections_appointments_terms_of_office_vice_president_election.png)
-*Diagram for [[president]]*
+
 
 

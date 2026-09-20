@@ -1,7 +1,7 @@
 # Optics & Light: Reflection, Refraction & Lenses
 
 ![reflection-refraction](assets/diagrams/physics/optics-light/reflection-refraction.png)
-*Diagram for [[reflection]]-[[refraction]]*
+
 
 ---
 
@@ -54,7 +54,7 @@
 
 
 ![reflection-refraction](assets/diagrams/physics/optics-light/reflection-refraction.png)
-*Diagram for [[reflection]]-[[refraction]]*
+
 
 
 

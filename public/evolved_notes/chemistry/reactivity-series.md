@@ -1,10 +1,10 @@
 # Reactivity Series & Displacement Reactions
 
 ![reactivity-series](assets/diagrams/Chemistry/metals-metallurgy/reactivity-series.png)
-*Diagram for reactivity-series*
+
 
 ![reactivity-series](assets/diagrams/Chemistry/metals-metallurgy/reactivity-series.png)
-*Diagram for reactivity-series*
+
 
 ---
 

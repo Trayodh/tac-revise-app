@@ -1,10 +1,10 @@
 # The Indus Valley Civilization (Harappan Civilization)
 
 ![indus-valley-civilization](assets/diagrams/History/3-ancient-india/indus-valley-civilization.png)
-*Diagram for [[indus]]-valley-civilization*
+
 
 ![indus-valley-civilization](assets/diagrams/History/3-ancient-india/indus-valley-civilization.png)
-*Diagram for [[indus]]-valley-civilization*
+
 
 ## 1. Introduction and Geography
 The [[Indus Valley Civilization]] (IVC), also known as the [[Harappan]] Civilization after its first discovered site, is one of the four earliest Bronze Age urban civilizations of the world (alongside Mesopotamia, Egypt, and China). It flourished between **2500 BCE and 1750 BCE** (mature phase, according to radiocarbon dating).

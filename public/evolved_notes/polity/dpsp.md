@@ -1,7 +1,7 @@
 # Directive Principles of State Policy & Fundamental Duties
 
 ![dpsp](assets/diagrams/polity/constitutional-framework/dpsp.png)
-*Diagram for [[dpsp]]*
+
 
 ---
 
@@ -71,6 +71,6 @@ Contained in **Part IV-A (Article 51A)**. Borrowed from the **USSR [[Constitutio
 
 
 ![dpsp](assets/diagrams/polity/constitutional-framework/dpsp.png)
-*Diagram for [[dpsp]]*
+
 
 

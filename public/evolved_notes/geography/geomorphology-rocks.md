@@ -1,7 +1,7 @@
 # Geomorphology: Rocks, Plate Tectonics & Volcanism
 
 ![geomorphology-rocks](assets/diagrams/geography/physical-world-geography/geomorphology-rocks.png)
-*Diagram for geomorphology-[[rocks]]*
+
 
 ## The Dynamic Earth: Shaping Our World
 

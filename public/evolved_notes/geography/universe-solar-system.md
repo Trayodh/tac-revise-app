@@ -63,7 +63,7 @@ Stars undergo a life cycle determined by their initial [[mass]]:
 
 
 ![universe-solar-system](assets/diagrams/geography/physical-world-geography/universe-solar-system.png)
-*Diagram for universe-solar-system*
+
 
 *   **Nebula:** Stars begin as dense clouds of gas and dust.
 *   **Protostar:** [[Gravity]] pulls material together, increasing [[temperature]] and [[pressure]].

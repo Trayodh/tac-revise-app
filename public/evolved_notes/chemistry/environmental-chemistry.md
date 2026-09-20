@@ -1,10 +1,10 @@
 # Environmental Chemistry & Pollution
 
 ![environmental-chemistry](assets/diagrams/Chemistry/everyday-environmental-chemistry/environmental-chemistry.png)
-*Diagram for environmental-chemistry*
+
 
 ![environmental-chemistry](assets/diagrams/Chemistry/everyday-environmental-chemistry/environmental-chemistry.png)
-*Diagram for environmental-chemistry*
+
 
 ---
 

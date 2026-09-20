@@ -1,10 +1,10 @@
 # Economic Impact of British Rule
 
 ![economic-impact-british](assets/diagrams/History/5-modern-india-highest-priority/economic-impact-british.png)
-*Diagram for economic-impact-british*
+
 
 ![economic-impact-british](assets/diagrams/History/5-modern-india-highest-priority/economic-impact-british.png)
-*Diagram for economic-impact-british*
+
 
 ## 1. Introduction
 The British economic policy in India evolved through three distinct stages, transforming India from a major exporter of manufactured goods into a classic colonial economy: an exporter of raw materials and a captive market for British manufactured goods.

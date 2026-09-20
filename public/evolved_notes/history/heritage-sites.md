@@ -1,10 +1,10 @@
 # UNESCO World Heritage Sites in India
 
 ![heritage-sites](assets/diagrams/History/7-art-culture-heritage/heritage-sites.jpg)
-*Diagram for heritage-sites*
+
 
 ![heritage-sites](assets/diagrams/History/7-art-culture-heritage/heritage-sites.jpg)
-*Diagram for heritage-sites*
+
 
 ## 1. Introduction
 A World Heritage Site is a landmark or area with legal protection by an international convention administered by the United Nations Educational, Scientific and Cultural Organization (UNESCO). They are designated for having outstanding universal value to humanity.

@@ -1,7 +1,7 @@
 # State Executive & Central Ministers (PM, CM, Governor)
 
 ![goverment-executives](assets/diagrams/polity/union-government/goverment-executives.png)
-*Diagram for goverment-executives*
+
 
 ---
 
@@ -45,6 +45,6 @@ The state executive consists of the [[Governor]], the Chief Minister, the Counci
 
 
 ![goverment-executives](assets/diagrams/polity/union-government/goverment-executives.png)
-*Diagram for goverment-executives*
+
 
 

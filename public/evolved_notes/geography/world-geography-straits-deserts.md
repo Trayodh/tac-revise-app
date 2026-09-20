@@ -1,6 +1,6 @@
 
 ![world-geography-straits-deserts](assets/diagrams/geography/physical-world-geography/world-geography-straits-deserts.png)
-*Diagram for world-geography-straits-deserts*
+
 
 ## Straits, Canals, Deserts & Seas: A Comprehensive Study Module for Indian Defence Examinations
 

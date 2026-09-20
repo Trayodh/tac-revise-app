@@ -1,7 +1,7 @@
 # Integrated Judiciary: Supreme Court & High Courts
 
 ![judiciary](assets/diagrams/polity/union-government/judiciary.png)
-*Diagram for [[judiciary]]*
+
 
 ---
 
@@ -48,6 +48,6 @@ The highest judicial court in a state. Currently, there are 25 [[High Courts]] i
 
 
 ![judiciary](assets/diagrams/polity/union-government/judiciary.png)
-*Diagram for [[judiciary]]*
+
 
 

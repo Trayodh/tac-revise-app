@@ -1,7 +1,7 @@
 # Fundamental Rights (Articles 12-35)
 
 ![fundamental-rights](assets/diagrams/polity/constitutional-framework/fundamental-rights.png)
-*Diagram for fundamental-rights*
+
 
 ---
 
@@ -72,6 +72,6 @@ Issued by the [[Supreme Court]] (Article 32) and [[High Courts]] (Article 226).
 
 
 ![fundamental-rights](assets/diagrams/polity/constitutional-framework/fundamental-rights.png)
-*Diagram for fundamental-rights*
+
 
 

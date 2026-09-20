@@ -1,10 +1,10 @@
 # The Vedic Age (1500 BCE - 600 BCE)
 
 ![vedic-age](assets/diagrams/History/3-ancient-india/vedic-age.png)
-*Diagram for vedic-age*
+
 
 ![vedic-age](assets/diagrams/History/3-ancient-india/vedic-age.png)
-*Diagram for vedic-age*
+
 
 ## 1. Introduction and Origins
 The [[Vedic Age]] is the period in Indian history during which the [[Vedas]], the oldest scriptures of Hinduism, were composed. This era marks the arrival and settlement of the Indo-[[Aryans]] in the Indian subcontinent. The term "Arya" is a linguistic term meaning "noble" or "free-born" in Sanskrit, referring to speakers of the Indo-Aryan branch of the Indo-European language family.

@@ -1,10 +1,10 @@
 # Major World Revolutions
 
 ![revolutions](assets/diagrams/History/6-world-history/revolutions.png)
-*Diagram for [[revolutions]]*
+
 
 ![revolutions](assets/diagrams/History/6-world-history/revolutions.png)
-*Diagram for [[revolutions]]*
+
 
 ## 1. The American Revolution (1765 – 1783)
 The American Revolution was a political and ideological revolution where the Thirteen American Colonies rejected the British monarchy and aristocracy, overthrew the authority of Great Britain, and founded the United States of America.

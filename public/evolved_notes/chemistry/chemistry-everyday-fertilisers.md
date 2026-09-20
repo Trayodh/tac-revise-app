@@ -1,10 +1,10 @@
 # Everyday Chemistry, Fertilisers & Fuels
 
 ![chemistry-everyday-fertilisers](assets/diagrams/Chemistry/everyday-environmental-chemistry/chemistry-everyday-fertilisers.png)
-*Diagram for chemistry-everyday-fertilisers*
+
 
 ![chemistry-everyday-fertilisers](assets/diagrams/Chemistry/everyday-environmental-chemistry/chemistry-everyday-fertilisers.png)
-*Diagram for chemistry-everyday-fertilisers*
+
 
 ---
 

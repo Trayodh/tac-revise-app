@@ -1,10 +1,10 @@
 # World War I (1914 – 1918)
 
 ![world-war-i](assets/diagrams/History/6-world-history/world-war-i.png)
-*Diagram for world-war-i*
+
 
 ![world-war-i](assets/diagrams/History/6-world-history/world-war-i.png)
-*Diagram for world-war-i*
+
 
 ## 1. Introduction and Causes
 [[World War I]] (The Great War) was a global conflict primarily fought in Europe, but with major fronts in the Middle East, Africa, and parts of Asia. It fundamentally altered the geopolitical landscape of the world.

@@ -1,10 +1,10 @@
 # Plant Reproduction & Hormones
 
 ![plant-reproduction](assets/diagrams/Biology/plant-physiology-reproduction/plant-reproduction.png)
-*Diagram for plant-reproduction*
+
 
 ![plant-reproduction](assets/diagrams/Biology/plant-physiology-reproduction/plant-reproduction.png)
-*Diagram for plant-reproduction*
+
 
 ---
 

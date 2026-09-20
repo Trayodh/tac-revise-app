@@ -1,10 +1,10 @@
 # The Mauryan Empire (322 BCE - 185 BCE)
 
 ![mauryan-period](assets/diagrams/History/3-ancient-india/mauryan-period.png)
-*Diagram for mauryan-period*
+
 
 ![mauryan-period](assets/diagrams/History/3-ancient-india/mauryan-period.png)
-*Diagram for mauryan-period*
+
 
 ## 1. Establishment and Expansion
 The Mauryan Empire marks a turning point in Indian history as the first pan-Indian empire. It was founded by [[Chandragupta]] Maurya, who overthrew the unpopular Nanda dynasty of Magadha with the strategic brilliance of his mentor, **Chanakya** (Kautilya/Vishnugupta).

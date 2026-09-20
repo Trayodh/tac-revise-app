@@ -1,7 +1,7 @@
 # Parliament of India (Articles 79-122)
 
 ![parliament](assets/diagrams/polity/union-government/parliament.png)
-*Diagram for [[parliament]]*
+
 
 ---
 
@@ -63,6 +63,6 @@ Contains provisions related to taxation, borrowing, consolidated fund, etc.
 
 
 ![parliament](assets/diagrams/polity/union-government/parliament.png)
-*Diagram for [[parliament]]*
+
 
 

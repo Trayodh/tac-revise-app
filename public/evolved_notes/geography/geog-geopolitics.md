@@ -1,7 +1,7 @@
 # Geopolitical Flashpoints & Indo-Pacific
 
 ![geog-geopolitics](assets/diagrams/geography/industries-geopolitics/geog-geopolitics.png)
-*Diagram for geog-geopolitics*
+
 
 ---
 
@@ -45,7 +45,7 @@ The Indo-Pacific is the new center of global geopolitics, shifting focus from th
 ## **Visualizing the Geopolitical Landscape**
 
 ![geog-geopolitics](assets/diagrams/geography/industries-geopolitics/geog-geopolitics.png)
-*Diagram for geog-geopolitics*
+
 
 > [!IMPORTANT]
 > **EXAM TRAP:** Do not confuse the **Radcliffe Line** (India-Pakistan & India-Bangladesh) with the **McMahon Line** (India-China) or the **Durand Line** (Afghanistan-Pakistan).

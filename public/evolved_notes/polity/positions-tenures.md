@@ -1,10 +1,10 @@
 # Elections, Appointments & Terms of Office Matrix
 
 ![positions-tenures](assets/diagrams/polity/advanced-polity-structures-bodies/positions-tenures.png)
-*Diagram for positions-tenures*
+
 
 ![positions-tenures](assets/diagrams/polity/advanced-polity-structures-bodies/positions-tenures.png)
-*Diagram for positions-tenures*
+
 
 ---
 

@@ -1,10 +1,10 @@
 # Election Laws & Anti-Defection
 
 ![polity-rpa](assets/diagrams/polity/federal-structure-election-law/polity-rpa.png)
-*Diagram for polity-rpa*
+
 
 ![polity-rpa](assets/diagrams/polity/federal-structure-election-law/polity-rpa.png)
-*Diagram for polity-rpa*
+
 
 ---
 

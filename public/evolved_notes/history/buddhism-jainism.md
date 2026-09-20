@@ -1,10 +1,10 @@
 # Buddhism and Jainism: The Sramana Movements
 
 ![buddhism-jainism](assets/diagrams/History/3-ancient-india/buddhism-jainism.png)
-*Diagram for [[buddhism]]-[[jainism]]*
+
 
 ![buddhism-jainism](assets/diagrams/History/3-ancient-india/buddhism-jainism.png)
-*Diagram for [[buddhism]]-[[jainism]]*
+
 
 ## 1. Causes for the Rise of Sramana Movements
 The 6th century BCE witnessed profound intellectual and religious ferment in the Gangetic valley. Numerous heterodox sects arose, the most prominent being [[Buddhism]] and [[Jainism]]. These were *Sramana* (ascetic) movements that directly challenged the orthodox Vedic religion.

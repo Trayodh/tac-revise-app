@@ -1,7 +1,7 @@
 # Local Self-Government & Panchayati Raj
 
 ![panchayati-raj](assets/diagrams/polity/union-government/panchayati-raj.png)
-*Diagram for panchayati-raj*
+
 
 ---
 
@@ -49,6 +49,6 @@ Added a new **Part IX-A** entitled "The [[Municipalities]]" (Articles 243P to 24
 
 
 ![panchayati-raj](assets/diagrams/polity/union-government/panchayati-raj.png)
-*Diagram for panchayati-raj*
+
 
 

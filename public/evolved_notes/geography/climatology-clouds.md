@@ -28,7 +28,7 @@ The [[atmosphere]] is divided into distinct layers based on [[temperature]] vari
 
 
 ![climatology-clouds](assets/diagrams/geography/physical-world-geography/climatology-clouds.png)
-*Diagram for climatology-clouds*
+
 
 **1. [[Troposphere]] (0-18 km)**
 *   **What:** The lowest and densest layer, extending up to ~8 km at the poles and ~18 km at the equator.

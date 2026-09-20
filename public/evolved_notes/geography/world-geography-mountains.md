@@ -51,7 +51,7 @@ The theory of [[Plate Tectonics]] is fundamental to understanding mountain forma
 
 
 ![world-geography-mountains](assets/diagrams/geography/physical-world-geography/world-geography-mountains.png)
-*Diagram for world-geography-mountains*
+
 
 
 

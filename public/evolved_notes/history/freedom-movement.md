@@ -1,10 +1,10 @@
 # The Freedom Movement
 
 ![freedom-movement](assets/diagrams/History/5-modern-india-highest-priority/freedom-movement.png)
-*Diagram for freedom-movement*
+
 
 ![freedom-movement](assets/diagrams/History/5-modern-india-highest-priority/freedom-movement.png)
-*Diagram for freedom-movement*
+
 
 ## 1. Formation of the Indian National Congress (1885)
 The [[Indian National Congress]] (INC) was founded in 1885 by **A.O. Hume** (a retired British civil servant). 

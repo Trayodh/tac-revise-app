@@ -1,7 +1,7 @@
 # Preamble & Sources of the Indian Constitution
 
 ![preamble](assets/diagrams/polity/constitutional-framework/preamble.png)
-*Diagram for [[preamble]]*
+
 
 ---
 
@@ -57,6 +57,6 @@ The [[Constitution]] was heavily borrowed, drawing from the Govt. of India Act 1
 
 
 ![preamble](assets/diagrams/polity/constitutional-framework/preamble.png)
-*Diagram for [[preamble]]*
+
 
 

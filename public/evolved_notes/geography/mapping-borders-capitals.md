@@ -708,7 +708,7 @@ Analyzing previous year questions (PYQs) from NDA, CDS, AFCAT, and CAPF reveals 
 
 
 ![mapping-borders-capitals](assets/diagrams/geography/indian-geography/mapping-borders-capitals.png)
-*Diagram for mapping-borders-capitals*
+
 
 
 

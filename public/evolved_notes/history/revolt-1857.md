@@ -1,10 +1,10 @@
 # The Revolt of 1857
 
 ![revolt-1857](assets/diagrams/History/5-modern-india-highest-priority/revolt-1857.png)
-*Diagram for revolt-1857*
+
 
 ![revolt-1857](assets/diagrams/History/5-modern-india-highest-priority/revolt-1857.png)
-*Diagram for revolt-1857*
+
 
 ## 1. Introduction
 [[The Revolt of 1857]], also known as the Sepoy Mutiny or the First War of Indian Independence (a term popularized by V.D. Savarkar), was a massive, though ultimately unsuccessful, uprising against the British [[East India Company]]'s rule in India.

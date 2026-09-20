@@ -1,6 +1,6 @@
 
 ![syl-geog](assets/diagrams/geography/indian-geography/syl-geog.png)
-*Diagram for syl-geog*
+
 
 
 

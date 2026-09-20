@@ -1,7 +1,7 @@
 # Electricity, Circuits & Magnetism
 
 ![physics-electricity-magnetism](assets/diagrams/physics/electricity-magnetism/physics-electricity-magnetism.png)
-*Diagram for physics-[[electricity]]-[[magnetism]]*
+
 
 ---
 
@@ -40,6 +40,6 @@
 
 
 ![physics-electricity-magnetism](assets/diagrams/physics/electricity-magnetism/physics-electricity-magnetism.png)
-*Diagram for physics-[[electricity]]-[[magnetism]]*
+
 
 

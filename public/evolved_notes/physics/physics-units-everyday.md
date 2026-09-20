@@ -1,10 +1,10 @@
 # SI Units & Everyday Physics Phenomenon
 
 ![physics-units-everyday](assets/diagrams/physics/modern-physics-units/physics-units-everyday.png)
-*Diagram for physics-units-everyday*
+
 
 ![physics-units-everyday](assets/diagrams/physics/modern-physics-units/physics-units-everyday.png)
-*Diagram for physics-units-everyday*
+
 
 ---
 

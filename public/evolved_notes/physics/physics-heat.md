@@ -1,10 +1,10 @@
 # Thermodynamics & Heat Transfer
 
 ![physics-heat](assets/diagrams/physics/heat-thermodynamics/physics-heat.png)
-*Diagram for physics-[[heat]]*
+
 
 ![physics-heat](assets/diagrams/physics/heat-thermodynamics/physics-heat.png)
-*Diagram for physics-[[heat]]*
+
 
 ---
 

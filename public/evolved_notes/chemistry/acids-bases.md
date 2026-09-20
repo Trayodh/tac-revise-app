@@ -1,7 +1,7 @@
 # Acids, Bases & pH Indicators
 
 ![acids-bases](assets/diagrams/Chemistry/acids-bases-salts/acids-bases.png)
-*Diagram for [[acids]]-[[bases]]*
+
 
 ---
 
@@ -53,6 +53,6 @@
 
 
 ![acids-bases](assets/diagrams/Chemistry/acids-bases-salts/acids-bases.png)
-*Diagram for [[acids]]-[[bases]]*
+
 
 

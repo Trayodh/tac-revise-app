@@ -232,7 +232,7 @@ These are transitional zones where seismic [[wave]] velocities change abruptly, 
 
 
 ![earth-atmosphere](assets/diagrams/geography/physical-world-geography/earth-atmosphere.png)
-*Diagram for earth-[[atmosphere]]*
+
 
 #### 2.3 Composition of Whole Earth & Crust
 

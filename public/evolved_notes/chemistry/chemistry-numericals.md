@@ -1,10 +1,10 @@
 # Mole Concept & Concentration Terms
 
 ![chemistry-numericals](assets/diagrams/Chemistry/carbon-compounds-numericals/chemistry-numericals.png)
-*Diagram for chemistry-numericals*
+
 
 ![chemistry-numericals](assets/diagrams/Chemistry/carbon-compounds-numericals/chemistry-numericals.png)
-*Diagram for chemistry-numericals*
+
 
 ---
 

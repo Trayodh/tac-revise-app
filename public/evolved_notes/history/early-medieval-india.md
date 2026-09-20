@@ -1,10 +1,10 @@
 # Early Medieval India (c. 750 CE - 1200 CE)
 
 ![early-medieval-india](assets/diagrams/History/4-medieval-india/early-medieval-india.png)
-*Diagram for early-medieval-india*
+
 
 ![early-medieval-india](assets/diagrams/History/4-medieval-india/early-medieval-india.png)
-*Diagram for early-medieval-india*
+
 
 ## 1. Introduction and The Tripartite Struggle
 The period between the decline of [[Harsha]]'s empire (7th century) and the establishment of the [[Delhi Sultanate]] (13th century) is termed the Early Medieval Period. This era was characterized by political fragmentation, the rise of regional kingdoms, and a decentralized feudal structure. 

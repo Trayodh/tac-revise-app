@@ -1,10 +1,10 @@
 # Chemical Bonding & Periodic Table
 
 ![syl-numerical](assets/diagrams/Chemistry/chemical-bonding/syl-numerical.png)
-*Diagram for syl-numerical*
+
 
 ![syl-numerical](assets/diagrams/Chemistry/chemical-bonding/syl-numerical.png)
-*Diagram for syl-numerical*
+
 
 ---
 

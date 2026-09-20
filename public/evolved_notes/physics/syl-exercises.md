@@ -1,7 +1,7 @@
 # Work, Power, Energy & Gravitation
 
 ![syl-exercises](assets/diagrams/physics/energy-gravitation/syl-exercises.png)
-*Diagram for syl-exercises*
+
 
 ---
 
@@ -49,6 +49,6 @@
 
 
 ![syl-exercises](assets/diagrams/physics/energy-gravitation/syl-exercises.png)
-*Diagram for syl-exercises*
+
 
 

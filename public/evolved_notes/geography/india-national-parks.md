@@ -277,7 +277,7 @@ This section provides a comprehensive, state-wise guide to India's National Park
 
 
 ![india-national-parks](assets/diagrams/geography/indian-geography/india-national-parks.png)
-*Diagram for india-national-parks*
+
 
 ---
 

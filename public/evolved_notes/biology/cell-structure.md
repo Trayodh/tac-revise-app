@@ -1,7 +1,7 @@
 # Cell Biology, Genetics & Structure
 
 ![cell-structure](assets/diagrams/Biology/cell-biology-genetics/cell-structure.png)
-*Diagram for [[cell]]-structure*
+
 
 ---
 
@@ -51,6 +51,6 @@
 
 
 ![cell-structure](assets/diagrams/Biology/cell-biology-genetics/cell-structure.png)
-*Diagram for [[cell]]-structure*
+
 
 

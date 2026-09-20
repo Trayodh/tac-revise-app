@@ -1,7 +1,7 @@
 # Constitutional & Non-Constitutional Bodies
 
 ![constitutional-bodies](assets/diagrams/polity/advanced-polity-structures-bodies/constitutional-bodies.png)
-*Diagram for constitutional-bodies*
+
 
 ---
 
@@ -55,6 +55,6 @@ Derived from acts of [[Parliament]] or executive resolutions.
 
 
 ![constitutional-bodies](assets/diagrams/polity/advanced-polity-structures-bodies/constitutional-bodies.png)
-*Diagram for constitutional-bodies*
+
 
 

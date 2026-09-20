@@ -1,7 +1,7 @@
 # Mechanics: Newton's Laws of Motion & Friction
 
 ![newtons-laws](assets/diagrams/physics/mechanics-motion/newtons-laws.png)
-*Diagram for newtons-laws*
+
 
 ---
 
@@ -47,6 +47,6 @@ An opposing [[force]] that acts between two surfaces in contact.
 
 
 ![newtons-laws](assets/diagrams/physics/mechanics-motion/newtons-laws.png)
-*Diagram for newtons-laws*
+
 
 
