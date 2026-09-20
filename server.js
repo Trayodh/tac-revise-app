@@ -762,6 +762,37 @@ ${textPrompt}`;
           }
         }
         
+        // --- NEW: FALLBACK TO FREE KEYLESS API (Pollinations) ---
+        if (!success && !usedAiFallback) {
+           console.log('[PROXY] Falling back to keyless Pollinations AI API...');
+           try {
+             let prompt = "";
+             if (contents && contents[0] && contents[0].parts) {
+               prompt = contents[0].parts.map(p => p.text || '').join('\n');
+             }
+             if (systemInstruction && systemInstruction.parts) {
+                prompt = "System Instructions:\n" + systemInstruction.parts.map(p => p.text).join('\n') + "\n\nUser Request:\n" + prompt;
+             }
+             
+             if (generationConfig && (generationConfig.responseMimeType === 'application/json' || generationConfig.response_mime_type === 'application/json')) {
+                prompt += '\n\nIMPORTANT: Return STRICTLY as a raw JSON object. Do not include markdown wrappers like ```json.';
+             }
+             
+             const encodedPrompt = encodeURIComponent(prompt);
+             const res = await fetch(`https://text.pollinations.ai/${encodedPrompt}?json=false&model=llama`);
+             
+             if (res.ok) {
+               fallbackText = await res.text();
+               usedAiFallback = true;
+               console.log("[PROXY] Pollinations fallback succeeded!");
+             } else {
+               console.error("[PROXY] Pollinations API fallback failed:", res.status);
+             }
+           } catch (err) {
+             console.error("[PROXY] Pollinations fallback error:", err);
+           }
+        }
+        
         if (success && apiResponse) {
           if (stream) {
             res.writeHead(200, {
