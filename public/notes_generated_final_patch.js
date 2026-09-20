@@ -1,8 +1,10 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
 window.EXPANDED_NOTES_DATA["magadha-expansion"] = String.raw`
-<h1>Rise and Expansion of Magadha</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Rise and Expansion of Magadha</h3>
+  
+  <hr />
 <p>Magadha emerged as the most powerful Mahajanapada due to its strategic location (Rajgir and Pataliputra), fertile iron-rich soil, and powerful rulers like Bimbisara and Ajatashatru (Haryanka dynasty), followed by the Shishunagas and Nandas.</p>
 
 
@@ -16,13 +18,7 @@ window.EXPANDED_NOTES_DATA["magadha-expansion"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Differentiate between the contributions of Bimbisara (diplomatic alliances, e.g., marriage to Kosalika, and the 'Vajra' army) and Ajatashatru (military conquests, use of the 'Rathamukha' chariot, and the siege of Vaishali).</li>
-    <li style="margin-bottom: 8px;">Identify the specific geographical features that gave Magadha a defensive advantage, particularly the role of the Ganges river and the surrounding hills, which are frequently tested in map-based questions.</li>
-    <li style="margin-bottom: 8px;">Recall the sequence of dynasties: Haryanka (Bimbisara, Ajatashatru) -> Shishunaga (Kalanjaya) -> Nanda (Mahapadma Nanda), noting that the Nandas established the first large-scale centralized empire.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -34,11 +30,24 @@ window.EXPANDED_NOTES_DATA["magadha-expansion"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. This is a core topic for UPSC Civil Services Prelims (History) and NDA/CDS General Knowledge. Questions often focus on the geographical advantages, specific rulers' policies, and the chronological order of dynasties.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Differentiate between the contributions of Bimbisara (diplomatic alliances, e.g., marriage to Kosalika, and the 'Vajra' army) and Ajatashatru (military conquests, use of the 'Rathamukha' chariot, and the siege of Vaishali).</li>
+    <li style="margin-bottom: 8px;">Identify the specific geographical features that gave Magadha a defensive advantage, particularly the role of the Ganges river and the surrounding hills, which are frequently tested in map-based questions.</li>
+    <li style="margin-bottom: 8px;">Recall the sequence of dynasties: Haryanka (Bimbisara, Ajatashatru) -> Shishunaga (Kalanjaya) -> Nanda (Mahapadma Nanda), noting that the Nandas established the first large-scale centralized empire.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["ancient-indian-culture"] = String.raw`
-<h1>Ancient Indian Culture & Society</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ancient Indian Culture & Society</h3>
+  
+  <hr />
 <p>Characterized by the Varna system, development of Sanskrit literature, monumental architecture (Stupas, Rock-cut caves), and the spread of Buddhism and Jainism. Science and mathematics flourished during the Gupta period (Aryabhata, Sushruta).</p>
 
 
@@ -51,13 +60,7 @@ window.EXPANDED_NOTES_DATA["ancient-indian-culture"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between the 'Varna' (birth-based) and 'Jati' (occupational) systems, and identify specific texts (e.g., Arthashastra, Mahabharata) that reflect social stratification.</li>
-    <li style="margin-bottom: 8px;">Focus on the architectural transition: Identify key features of Gupta-era temple architecture (e.g., Deogarh, Bhitargaon) versus Mauryan rock-cut caves (e.g., Barabar, Ajanta) as frequent comparison points in Prelims.</li>
-    <li style="margin-bottom: 8px;">Memorize specific contributions of scientists: Aryabhata (zero, decimal system, solar eclipse prediction) and Sushruta (plastic surgery, cataract treatment) are high-yield factual questions.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -69,11 +72,24 @@ window.EXPANDED_NOTES_DATA["ancient-indian-culture"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. This is a core component of the UPSC CSE Prelims (History & Culture) and NDA/CDS General Knowledge sections. Questions often test specific dates, authors, architectural styles, and scientific contributions rather than broad narratives.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between the 'Varna' (birth-based) and 'Jati' (occupational) systems, and identify specific texts (e.g., Arthashastra, Mahabharata) that reflect social stratification.</li>
+    <li style="margin-bottom: 8px;">Focus on the architectural transition: Identify key features of Gupta-era temple architecture (e.g., Deogarh, Bhitargaon) versus Mauryan rock-cut caves (e.g., Barabar, Ajanta) as frequent comparison points in Prelims.</li>
+    <li style="margin-bottom: 8px;">Memorize specific contributions of scientists: Aryabhata (zero, decimal system, solar eclipse prediction) and Sushruta (plastic surgery, cataract treatment) are high-yield factual questions.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["british-expansion"] = String.raw`
-<h1>British Expansion in India</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">British Expansion in India</h3>
+  
+  <hr />
 <p>The British East India Company transitioned from traders to rulers through decisive battles: Plassey (1757) and Buxar (1764). They employed policies like the Subsidiary Alliance (Lord Wellesley) and Doctrine of Lapse (Lord Dalhousie) to annex Indian states.</p>
 
 
@@ -86,12 +102,7 @@ window.EXPANDED_NOTES_DATA["british-expansion"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Differentiate between the Subsidiary Alliance (which retained nominal sovereignty for the Indian ruler) and the Doctrine of Lapse (which annexed states lacking a direct male heir), as UPSC frequently tests the specific legal justifications used by the British.</li>
-    <li style="margin-bottom: 8px;">Focus on the 'Dual Government' system established after Buxar, where the Nawab retained nominal authority while the Company controlled revenue and administration, a key precursor to the 1857 Revolt.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -103,11 +114,23 @@ window.EXPANDED_NOTES_DATA["british-expansion"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical for UPSC Prelims and Mains (GS Paper I), as questions frequently test the chronological sequence of annexations, the specific policies of key Governors-General, and the causes of the 1857 Revolt.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Differentiate between the Subsidiary Alliance (which retained nominal sovereignty for the Indian ruler) and the Doctrine of Lapse (which annexed states lacking a direct male heir), as UPSC frequently tests the specific legal justifications used by the British.</li>
+    <li style="margin-bottom: 8px;">Focus on the 'Dual Government' system established after Buxar, where the Nawab retained nominal authority while the Company controlled revenue and administration, a key precursor to the 1857 Revolt.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["history-pyq-trends-topic"] = String.raw`
-<h1>History PYQ Trends & Traps</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">History PYQ Trends & Traps</h3>
+  
+  <hr />
 <p>Modern History dominates (Freedom Struggle, Gandhian Era, Acts & Reforms). In Ancient History, focus on Buddhism/Jainism, Indus Valley, and Gupta Administration. Medieval History focuses on the Delhi Sultanate and Mughal administration/architecture.</p>
 
 
@@ -121,13 +144,7 @@ window.EXPANDED_NOTES_DATA["history-pyq-trends-topic"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Expect 'trap' questions in Modern History that confuse similar legislative acts (e.g., 1857 vs 1919 Acts) or misattribute specific Gandhian movements to incorrect years.</li>
-    <li style="margin-bottom: 8px;">In Ancient History, UPSC often tests the distinction between Vedic and Post-Vedic periods, or specific administrative titles of the Gupta era rather than general chronology.</li>
-    <li style="margin-bottom: 8px;">Medieval History traps frequently involve confusing the architectural styles of different Mughal emperors or the administrative divisions of the Delhi Sultanate (Iqta system nuances).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -139,11 +156,24 @@ window.EXPANDED_NOTES_DATA["history-pyq-trends-topic"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Understanding PYQ trends is critical for prioritizing study time, as Modern History offers the highest return on investment for Prelims, while Ancient and Medieval History require targeted focus on specific administrative and religious themes to avoid common traps.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Expect 'trap' questions in Modern History that confuse similar legislative acts (e.g., 1857 vs 1919 Acts) or misattribute specific Gandhian movements to incorrect years.</li>
+    <li style="margin-bottom: 8px;">In Ancient History, UPSC often tests the distinction between Vedic and Post-Vedic periods, or specific administrative titles of the Gupta era rather than general chronology.</li>
+    <li style="margin-bottom: 8px;">Medieval History traps frequently involve confusing the architectural styles of different Mughal emperors or the administrative divisions of the Delhi Sultanate (Iqta system nuances).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["ca-economic-measures"] = String.raw`
-<h1>Current Affairs (Dynamic Module)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Current Affairs (Dynamic Module)</h3>
+  
+  <hr />
 <p>These topics are highly dynamic. Refer to the Current Affairs monthly dashboard in the main app interface to get the latest 6-month updates prior to your exam.</p>
 
 
@@ -157,13 +187,7 @@ window.EXPANDED_NOTES_DATA["ca-economic-measures"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Differentiate between CPI (Consumer Price Index) and WPI (Wholesale Price Index): CPI measures retail price changes affecting consumers, while WPI measures wholesale price changes affecting producers; note that CPI is now the primary anchor for RBI's inflation targeting.</li>
-    <li style="margin-bottom: 8px;">Identify the correct measure for specific economic phenomena: Use GDP for domestic production, GNP for national income including net factor income from abroad, and PPP (Purchasing Power Parity) for international standard of living comparisons.</li>
-    <li style="margin-bottom: 8px;">Trick questions often involve the base year of indices (e.g., WPI base year is 2011-12, CPI base year is 2012-13) and the specific agencies responsible for their calculation (NSO for WPI, MOSPI for CPI).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -175,11 +199,24 @@ window.EXPANDED_NOTES_DATA["ca-economic-measures"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC CSE (Prelims and Mains GS Paper III) and NDA/CDS General Knowledge. Questions frequently test the ability to distinguish between similar economic indicators and apply them to current policy contexts.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Differentiate between CPI (Consumer Price Index) and WPI (Wholesale Price Index): CPI measures retail price changes affecting consumers, while WPI measures wholesale price changes affecting producers; note that CPI is now the primary anchor for RBI's inflation targeting.</li>
+    <li style="margin-bottom: 8px;">Identify the correct measure for specific economic phenomena: Use GDP for domestic production, GNP for national income including net factor income from abroad, and PPP (Purchasing Power Parity) for international standard of living comparisons.</li>
+    <li style="margin-bottom: 8px;">Trick questions often involve the base year of indices (e.g., WPI base year is 2011-12, CPI base year is 2012-13) and the specific agencies responsible for their calculation (NSO for WPI, MOSPI for CPI).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["afcat-r-fig-coding"] = String.raw`
-<h1>Reasoning & Aptitude (Practice Module)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Reasoning & Aptitude (Practice Module)</h3>
+  
+  <hr />
 <p>Reasoning topics require rigorous practice. Theoretical notes are provided in the master reasoning framework, but scoring high marks requires solving at least 50 PYQs per topic using the timer feature.</p>
 
 
@@ -193,13 +230,7 @@ window.EXPANDED_NOTES_DATA["afcat-r-fig-coding"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Common traps include subtle changes in the number of elements or minor directional shifts (e.g., 90-degree vs. 180-degree rotation) that are easily missed under time pressure.</li>
-    <li style="margin-bottom: 8px;">Focus on identifying the 'constant' elements versus the 'variable' elements in the coding pair to isolate the specific transformation rule.</li>
-    <li style="margin-bottom: 8px;">Elimination of options based on obvious mismatches (e.g., wrong number of lines or shapes) is a critical time-saving strategy for NDA and CDS candidates.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -210,6 +241,17 @@ window.EXPANDED_NOTES_DATA["afcat-r-fig-coding"] = String.raw`
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Figure coding is a standard, high-frequency topic in the General Intelligence and Reasoning sections of NDA, CDS, and AFCAT exams. It typically contributes 2-5 marks directly and is crucial for building the speed required for the entire reasoning section.</div>
+</div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Common traps include subtle changes in the number of elements or minor directional shifts (e.g., 90-degree vs. 180-degree rotation) that are easily missed under time pressure.</li>
+    <li style="margin-bottom: 8px;">Focus on identifying the 'constant' elements versus the 'variable' elements in the coding pair to isolate the specific transformation rule.</li>
+    <li style="margin-bottom: 8px;">Elimination of options based on obvious mismatches (e.g., wrong number of lines or shapes) is a critical time-saving strategy for NDA and CDS candidates.</li></p>
+  </div>
+
+  
 </div>
 `;
 

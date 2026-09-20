@@ -1,8 +1,10 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
 window.EXPANDED_NOTES_DATA["rank-equivalence"] = String.raw`
-<h1>Equivalent Ranks in the Indian Armed Forces</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Equivalent Ranks in the Indian Armed Forces</h3>
+  
+  <hr />
 <h2>Commissioned Officer Ranks</h2>
 <p>You must memorize the equivalence across the three services. This is a guaranteed 1-mark question in CDS and AFCAT!</p>
 
@@ -79,13 +81,7 @@ window.EXPANDED_NOTES_DATA["rank-equivalence"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">A common trap in CDS and NDA exams is confusing the Navy's 'Captain' (equivalent to Army's Colonel) with the Army's 'Captain' (equivalent to Navy's Lieutenant).</li>
-    <li style="margin-bottom: 8px;">Candidates must memorize the specific nomenclature for the 1-star, 2-star, and 3-star general officer ranks, as these are frequently tested in objective questions.</li>
-    <li style="margin-bottom: 8px;">Note that 'Brigadier' in the Army is equivalent to 'Commodore' in the Navy and 'Air Commodore' in the Air Force, a distinction often overlooked in quick revision.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -97,11 +93,24 @@ window.EXPANDED_NOTES_DATA["rank-equivalence"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for CDS, NDA, and AFCAT General Knowledge sections, where direct mapping of ranks is a frequent 1-mark question. Essential for understanding military hierarchy in UPSC Mains GS Paper IV (Ethics and Integrity) and optional subjects like Defence Studies.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">A common trap in CDS and NDA exams is confusing the Navy's 'Captain' (equivalent to Army's Colonel) with the Army's 'Captain' (equivalent to Navy's Lieutenant).</li>
+    <li style="margin-bottom: 8px;">Candidates must memorize the specific nomenclature for the 1-star, 2-star, and 3-star general officer ranks, as these are frequently tested in objective questions.</li>
+    <li style="margin-bottom: 8px;">Note that 'Brigadier' in the Army is equivalent to 'Commodore' in the Navy and 'Air Commodore' in the Air Force, a distinction often overlooked in quick revision.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["commands"] = String.raw`
-<h1>Commands of the Indian Armed Forces</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Commands of the Indian Armed Forces</h3>
+  
+  <hr />
 <h2>Indian Army Commands (7)</h2>
 <ul>
   <li><strong>Northern Command:</strong> Udhampur</li>
@@ -146,13 +155,7 @@ window.EXPANDED_NOTES_DATA["commands"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Candidates often confuse the headquarters of the Western Air Command (New Delhi) with the Western Army Command (Chandimandir) or Western Naval Command (Mumbai).</li>
-    <li style="margin-bottom: 8px;">Focus Area: The Training Command of the Army is headquartered in Shimla, whereas the Training Command of the Air Force is in Bengaluru; do not mix these up.</li>
-    <li style="margin-bottom: 8px;">Key Distinction: The Southern Naval Command is primarily a training command, while the Southern Air Command is an operational command based in Thiruvananthapuram.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -164,11 +167,24 @@ window.EXPANDED_NOTES_DATA["commands"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for Prelims (factual recall of HQs) and Mains (strategic analysis of command structures and tri-service integration). Frequently asked in NDA and CDS General Knowledge sections.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Candidates often confuse the headquarters of the Western Air Command (New Delhi) with the Western Army Command (Chandimandir) or Western Naval Command (Mumbai).</li>
+    <li style="margin-bottom: 8px;">Focus Area: The Training Command of the Army is headquartered in Shimla, whereas the Training Command of the Air Force is in Bengaluru; do not mix these up.</li>
+    <li style="margin-bottom: 8px;">Key Distinction: The Southern Naval Command is primarily a training command, while the Southern Air Command is an operational command based in Thiruvananthapuram.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["defence-organisations-weapons"] = String.raw`
-<h1>Defence Organisations & Weapons</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Defence Organisations & Weapons</h3>
+  
+  <hr />
 <h2>Key Organizations</h2>
 <ul>
   <li><strong>DRDO (Defence Research and Development Organisation):</strong> Formed in 1958. Motto: "Balsya Mulam Vigyanam" (Strength's Origin is in Science). Headquartered in New Delhi.</li>
@@ -198,13 +214,7 @@ window.EXPANDED_NOTES_DATA["defence-organisations-weapons"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between the roles of DRDO (R&D) and HAL (Manufacturing); note that HAL is a PSU under MoD, whereas ISRO is under DoS.</li>
-    <li style="margin-bottom: 8px;">Memorize the specific manufacturers for high-value assets: C-17 Globemaster (Boeing), C-130J (Lockheed Martin), and C-295 (Airbus/Tata).</li>
-    <li style="margin-bottom: 8px;">Identify the origin of major fighter jets: Rafale (France/Dassault), Su-30MKI (Russia/HAL joint), and LCA Tejas (Indigenous/HAL).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -216,11 +226,24 @@ window.EXPANDED_NOTES_DATA["defence-organisations-weapons"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for NDA/CDS General Knowledge and UPSC Prelims, focusing on defense procurement, indigenous manufacturing capabilities, and key defense organizations.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between the roles of DRDO (R&D) and HAL (Manufacturing); note that HAL is a PSU under MoD, whereas ISRO is under DoS.</li>
+    <li style="margin-bottom: 8px;">Memorize the specific manufacturers for high-value assets: C-17 Globemaster (Boeing), C-130J (Lockheed Martin), and C-295 (Airbus/Tata).</li>
+    <li style="margin-bottom: 8px;">Identify the origin of major fighter jets: Rafale (France/Dassault), Su-30MKI (Russia/HAL joint), and LCA Tejas (Indigenous/HAL).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["bilateral-exercises"] = String.raw`
-<h1>Joint Military & Bilateral Exercises</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Joint Military & Bilateral Exercises</h3>
+  
+  <hr />
 <h2>Crucial Joint Exercises (Army)</h2>
 <ul>
   <li><strong>Yudh Abhyas & Vajra Prahar:</strong> India and USA</li>
@@ -260,13 +283,7 @@ window.EXPANDED_NOTES_DATA["bilateral-exercises"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Distinguish between 'Hand-in-Hand' (India-China, Army) and 'Maitree' (India-Thailand, Army) to avoid confusion with similar-sounding names.</li>
-    <li style="margin-bottom: 8px;">Focus Area: Remember that 'Indra' is a tri-service exercise with Russia, whereas 'Yudh Abhyas' and 'Vajra Prahar' are primarily Army exercises with the USA.</li>
-    <li style="margin-bottom: 8px;">Common Error: Do not confuse 'Garuda' (Air Force exercise with France) with 'Garuda Shakti' (Army exercise with Indonesia).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -278,11 +295,24 @@ window.EXPANDED_NOTES_DATA["bilateral-exercises"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims (GS Paper 2: International Relations) and NDA/CDS (General Knowledge/Defense). Candidates must memorize the specific service branch (Army/Navy/Air Force) and partner country for each exercise name.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Distinguish between 'Hand-in-Hand' (India-China, Army) and 'Maitree' (India-Thailand, Army) to avoid confusion with similar-sounding names.</li>
+    <li style="margin-bottom: 8px;">Focus Area: Remember that 'Indra' is a tri-service exercise with Russia, whereas 'Yudh Abhyas' and 'Vajra Prahar' are primarily Army exercises with the USA.</li>
+    <li style="margin-bottom: 8px;">Common Error: Do not confuse 'Garuda' (Air Force exercise with France) with 'Garuda Shakti' (Army exercise with Indonesia).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["missiles-systems"] = String.raw`
-<h1>Missile Systems of India</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Missile Systems of India</h3>
+  
+  <hr />
 <h2>IGMDP (Integrated Guided Missile Development Programme)</h2>
 <p>Started in 1983 by Dr. A.P.J. Abdul Kalam. Successfully developed 5 missile systems under the acronym <strong>PATNA</strong>:</p>
 <ul>
@@ -311,13 +341,7 @@ window.EXPANDED_NOTES_DATA["missiles-systems"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between Ballistic Missiles (Prithvi, Agni) which follow a parabolic trajectory and Cruise Missiles (BrahMos) which fly like aircraft; UPSC often asks to classify specific missiles.</li>
-    <li style="margin-bottom: 8px;">Note the specific range categories: Prithvi is an SRBM, while Agni-V is an ICBM (>5000 km range), a key distinction for strategic deterrence questions.</li>
-    <li style="margin-bottom: 8px;">Identify the joint development partners: BrahMos (India-Russia) vs. Indigenous (DRDO) systems, and distinguish between 'fire and forget' ATGMs (Nag) and SAMs (Akash/Trishul).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -329,11 +353,24 @@ window.EXPANDED_NOTES_DATA["missiles-systems"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Missile systems are a frequent topic in UPSC Prelims (General Studies Paper I - Science & Tech/Defense) and Mains (Security/Defense). Candidates must accurately classify missiles by range, type (ballistic/cruise), and launch platform.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between Ballistic Missiles (Prithvi, Agni) which follow a parabolic trajectory and Cruise Missiles (BrahMos) which fly like aircraft; UPSC often asks to classify specific missiles.</li>
+    <li style="margin-bottom: 8px;">Note the specific range categories: Prithvi is an SRBM, while Agni-V is an ICBM (>5000 km range), a key distinction for strategic deterrence questions.</li>
+    <li style="margin-bottom: 8px;">Identify the joint development partners: BrahMos (India-Russia) vs. Indigenous (DRDO) systems, and distinguish between 'fire and forget' ATGMs (Nag) and SAMs (Akash/Trishul).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["env-hotspots"] = String.raw`
-<h1>Biodiversity Hotspots</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Biodiversity Hotspots</h3>
+  
+  <hr />
 <h2>What is a Biodiversity Hotspot?</h2>
 <p>A region with a high level of endemic species (species found nowhere else) that is under significant threat from human habitation. The concept was introduced by Norman Myers in 1988.</p>
 
@@ -357,13 +394,7 @@ window.EXPANDED_NOTES_DATA["env-hotspots"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Assam is NOT part of the Indo-Burma hotspot; it falls under the Eastern Himalayas or is considered a separate transition zone, while the rest of NE India (excluding Andaman) is Indo-Burma.</li>
-    <li style="margin-bottom: 8px;">Key Focus: The Western Ghats is the only Indian hotspot that is a UNESCO World Heritage Site and is specifically noted for its high endemism in amphibians and reptiles.</li>
-    <li style="margin-bottom: 8px;">Differentiation: Sundaland in India includes only the Nicobar Islands, whereas the Andaman Islands are part of the Indo-Burma hotspot.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -375,11 +406,24 @@ window.EXPANDED_NOTES_DATA["env-hotspots"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims (Geography and Environment) and Mains (Environment section). Questions often test the specific geographical boundaries of Indian hotspots and the distinction between endemic species and total species count.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Assam is NOT part of the Indo-Burma hotspot; it falls under the Eastern Himalayas or is considered a separate transition zone, while the rest of NE India (excluding Andaman) is Indo-Burma.</li>
+    <li style="margin-bottom: 8px;">Key Focus: The Western Ghats is the only Indian hotspot that is a UNESCO World Heritage Site and is specifically noted for its high endemism in amphibians and reptiles.</li>
+    <li style="margin-bottom: 8px;">Differentiation: Sundaland in India includes only the Nicobar Islands, whereas the Andaman Islands are part of the Indo-Burma hotspot.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["env-conservation"] = String.raw`
-<h1>Environmental Conservation (In-Situ vs Ex-Situ)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Environmental Conservation (In-Situ vs Ex-Situ)</h3>
+  
+  <hr />
 <h2>In-Situ (On-Site) Conservation</h2>
 <p>Conserving species in their natural habitats. This maintains the ecosystem balance.</p>
 <ul>
@@ -409,13 +453,7 @@ window.EXPANDED_NOTES_DATA["env-conservation"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Differentiate between National Parks (no human activity, strictest protection) and Wildlife Sanctuaries (limited human activity like grazing/firewood allowed if non-damaging) as a frequent static GK question.</li>
-    <li style="margin-bottom: 8px;">Identify the specific zones of Biosphere Reserves and recall examples like Sundarbans (India's first) or Nanda Devi (first in India) for Prelims.</li>
-    <li style="margin-bottom: 8px;">Understand the role of Cryopreservation and Gene Banks in Ex-Situ conservation, particularly for species with low population viability, as a technical detail often tested in Mains.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -427,11 +465,24 @@ window.EXPANDED_NOTES_DATA["env-conservation"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims (static facts on protected areas, examples) and Mains (policy analysis of conservation strategies, balancing development with ecology, and the role of community participation).</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Differentiate between National Parks (no human activity, strictest protection) and Wildlife Sanctuaries (limited human activity like grazing/firewood allowed if non-damaging) as a frequent static GK question.</li>
+    <li style="margin-bottom: 8px;">Identify the specific zones of Biosphere Reserves and recall examples like Sundarbans (India's first) or Nanda Devi (first in India) for Prelims.</li>
+    <li style="margin-bottom: 8px;">Understand the role of Cryopreservation and Gene Banks in Ex-Situ conservation, particularly for species with low population viability, as a technical detail often tested in Mains.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["env-species"] = String.raw`
-<h1>Key Endangered Species (IUCN Red List)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Key Endangered Species (IUCN Red List)</h3>
+  
+  <hr />
 <p>The International Union for Conservation of Nature (IUCN) maintains the Red List of Threatened Species. Here are critical species found in India:</p>
 
 <ul>
@@ -455,13 +506,7 @@ window.EXPANDED_NOTES_DATA["env-species"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Differentiate between 'Critically Endangered' (e.g., Gharial, Great Indian Bustard) and 'Endangered' (e.g., Royal Bengal Tiger, Asiatic Lion) as options often mix these categories.</li>
-    <li style="margin-bottom: 8px;">Note the specific geographic association: Sangai Deer is exclusive to Manipur, while the Nilgiri Tahr is endemic to the Western Ghats.</li>
-    <li style="margin-bottom: 8px;">Be aware of recent status changes: The Snow Leopard is now 'Vulnerable', not 'Endangered', which is a frequent source of incorrect options in Prelims.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -473,11 +518,24 @@ window.EXPANDED_NOTES_DATA["env-species"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Species classification and their specific geographic locations are frequent topics in UPSC Prelims (GS Paper 1) and NDA General Knowledge sections, often tested through direct identification or matching questions.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Differentiate between 'Critically Endangered' (e.g., Gharial, Great Indian Bustard) and 'Endangered' (e.g., Royal Bengal Tiger, Asiatic Lion) as options often mix these categories.</li>
+    <li style="margin-bottom: 8px;">Note the specific geographic association: Sangai Deer is exclusive to Manipur, while the Nilgiri Tahr is endemic to the Western Ghats.</li>
+    <li style="margin-bottom: 8px;">Be aware of recent status changes: The Snow Leopard is now 'Vulnerable', not 'Endangered', which is a frequent source of incorrect options in Prelims.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["env-treaties"] = String.raw`
-<h1>Major Environmental Conventions & Treaties</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Major Environmental Conventions & Treaties</h3>
+  
+  <hr />
 <ul>
   <li><strong>Ramsar Convention (1971):</strong> Conservation and wise use of Wetlands.</li>
   <li><strong>CITES (1973):</strong> Convention on International Trade in Endangered Species of Wild Fauna and Flora. (Ensures trade doesn't threaten their survival).</li>
@@ -502,13 +560,7 @@ window.EXPANDED_NOTES_DATA["env-treaties"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between the Montreal Protocol (Ozone Layer/CFCs) and the Kyoto Protocol (Global Warming/GHG Emissions); this is a frequent source of confusion in NDA and UPSC prelims.</li>
-    <li style="margin-bottom: 8px;">Note the specific focus of each convention: Basel (Hazardous Waste), Stockholm (POPs), Minamata (Mercury), and Rotterdam (Prior Informed Consent for hazardous chemicals).</li>
-    <li style="margin-bottom: 8px;">Understand the 'Wise Use' concept in the Ramsar Convention, which allows for sustainable utilization of wetlands rather than absolute prohibition of use.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -520,11 +572,24 @@ window.EXPANDED_NOTES_DATA["env-treaties"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for both Prelims and Mains. Prelims often tests direct associations between treaty names and their specific environmental focus (e.g., Minamata-Mercury). Mains may require analysis of India's compliance, ratification status, or the effectiveness of these multilateral mechanisms in addressing global environmental challenges.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between the Montreal Protocol (Ozone Layer/CFCs) and the Kyoto Protocol (Global Warming/GHG Emissions); this is a frequent source of confusion in NDA and UPSC prelims.</li>
+    <li style="margin-bottom: 8px;">Note the specific focus of each convention: Basel (Hazardous Waste), Stockholm (POPs), Minamata (Mercury), and Rotterdam (Prior Informed Consent for hazardous chemicals).</li>
+    <li style="margin-bottom: 8px;">Understand the 'Wise Use' concept in the Ramsar Convention, which allows for sustainable utilization of wetlands rather than absolute prohibition of use.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["env-laws"] = String.raw`
-<h1>Indian Environmental Laws & Acts</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Indian Environmental Laws & Acts</h3>
+  
+  <hr />
 <ul>
   <li><strong>Wildlife Protection Act (1972):</strong> Provides for the protection of plants and animal species. Has 6 schedules (Schedule I & Part II of Schedule II provide absolute protection and highest penalties).</li>
   <li><strong>Water (Prevention and Control of Pollution) Act (1974):</strong> Established the Central and State Pollution Control Boards.</li>
@@ -546,13 +611,7 @@ window.EXPANDED_NOTES_DATA["env-laws"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Differentiate between the 'Umbrella Act' (EPA 1986) and sector-specific acts; note that EPA 1986 was enacted under Article 253 (International Treaties) and Article 246 (Residuary powers).</li>
-    <li style="margin-bottom: 8px;">Focus on the hierarchy of protection under the Wildlife Protection Act: Schedule I and Part II of Schedule II offer absolute protection with the highest penalties, while Schedules III-VI offer varying degrees of protection.</li>
-    <li style="margin-bottom: 8px;">Understand the jurisdiction of the National Green Tribunal (NGT) established in 2010, which has original jurisdiction over all civil cases relating to environmental protection and effective enforcement of laws.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -564,11 +623,24 @@ window.EXPANDED_NOTES_DATA["env-laws"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims (factual recall of Acts and years) and Mains (analysis of environmental governance, judicial activism via NGT, and implementation challenges of forest/water laws).</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Differentiate between the 'Umbrella Act' (EPA 1986) and sector-specific acts; note that EPA 1986 was enacted under Article 253 (International Treaties) and Article 246 (Residuary powers).</li>
+    <li style="margin-bottom: 8px;">Focus on the hierarchy of protection under the Wildlife Protection Act: Schedule I and Part II of Schedule II offer absolute protection with the highest penalties, while Schedules III-VI offer varying degrees of protection.</li>
+    <li style="margin-bottom: 8px;">Understand the jurisdiction of the National Green Tribunal (NGT) established in 2010, which has original jurisdiction over all civil cases relating to environmental protection and effective enforcement of laws.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["env-renewable"] = String.raw`
-<h1>Renewable Energy in India</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Renewable Energy in India</h3>
+  
+  <hr />
 <h2>India's Targets (Panchamrit)</h2>
 <p>Declared at COP26 in Glasgow (2021):</p>
 <ol>
@@ -593,13 +665,7 @@ window.EXPANDED_NOTES_DATA["env-renewable"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between the 2030 targets (500 GW capacity, 50% energy mix) and the long-term Net Zero target (2070), as these are frequently swapped in MCQs.</li>
-    <li style="margin-bottom: 8px;">Note the specific base year (2005) for the 45% carbon intensity reduction target; confusion with 2019 or 2020 base years is a common trap.</li>
-    <li style="margin-bottom: 8px;">Recall that ISA was launched at COP21 in Paris (2015), not COP26, and its headquarters is in Gurugram, not New Delhi.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -611,11 +677,24 @@ window.EXPANDED_NOTES_DATA["env-renewable"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims (GS Paper 1 - Environment) and Mains (GS Paper 1 - Environment & Ecology, GS Paper 2 - International Relations). Questions often test specific numerical targets, dates, and institutional headquarters.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between the 2030 targets (500 GW capacity, 50% energy mix) and the long-term Net Zero target (2070), as these are frequently swapped in MCQs.</li>
+    <li style="margin-bottom: 8px;">Note the specific base year (2005) for the 45% carbon intensity reduction target; confusion with 2019 or 2020 base years is a common trap.</li>
+    <li style="margin-bottom: 8px;">Recall that ISA was launched at COP21 in Paris (2015), not COP26, and its headquarters is in Gurugram, not New Delhi.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["env-pollution"] = String.raw`
-<h1>Environmental Pollution</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Environmental Pollution</h3>
+  
+  <hr />
 <h2>Key Pollutants & Their Effects</h2>
 <ul>
   <li><strong>Carbon Monoxide (CO):</strong> Reduces the oxygen-carrying capacity of blood (forms Carboxyhemoglobin). Highly fatal.</li>
@@ -640,13 +719,7 @@ window.EXPANDED_NOTES_DATA["env-pollution"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between specific disease associations: Itai-Itai (Cadmium), Minamata (Mercury), and Blue Baby Syndrome (Nitrates) are frequent direct-fact questions.</li>
-    <li style="margin-bottom: 8px;">Understand the mechanism of Eutrophication: It is driven by Nitrates and Phosphates, not just general pollution, and results in hypoxia (low oxygen) rather than direct toxicity.</li>
-    <li style="margin-bottom: 8px;">Differentiate between PM 2.5 (fine particulates entering bloodstream) and PM 10 (coarse particulates affecting respiratory tract) regarding health impact severity.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -657,6 +730,17 @@ window.EXPANDED_NOTES_DATA["env-pollution"] = String.raw`
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. This is a core topic for General Studies Paper 1 (Environment) in UPSC CSE and General Knowledge sections in NDA/CDS. Questions often test specific pollutant-disease linkages and the ecological mechanisms of water pollution.</div>
+</div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between specific disease associations: Itai-Itai (Cadmium), Minamata (Mercury), and Blue Baby Syndrome (Nitrates) are frequent direct-fact questions.</li>
+    <li style="margin-bottom: 8px;">Understand the mechanism of Eutrophication: It is driven by Nitrates and Phosphates, not just general pollution, and results in hypoxia (low oxygen) rather than direct toxicity.</li>
+    <li style="margin-bottom: 8px;">Differentiate between PM 2.5 (fine particulates entering bloodstream) and PM 10 (coarse particulates affecting respiratory tract) regarding health impact severity.</li></p>
+  </div>
+
+  
 </div>
 `;
 

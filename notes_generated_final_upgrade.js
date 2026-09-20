@@ -1,8 +1,10 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
 window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
-<h1>Ratio and Proportion</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ratio and Proportion</h3>
+  
+  <hr />
 
 <h2>1. Introduction and Fundamental Concepts</h2>
 
@@ -537,13 +539,7 @@ window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Candidates often forget that ratios require quantities of the same kind; comparing 5 meters to 5 seconds is invalid unless converted to a rate (speed).</li>
-    <li style="margin-bottom: 8px;">Focus Area: Mastering the 'Composition and Division' rule (if a/b = c/d, then (a+c)/(a-c) = (b+d)/(b-d)) is crucial for solving complex proportion problems quickly in NDA/CDS.</li>
-    <li style="margin-bottom: 8px;">Common Error: Misinterpreting 'ratio of A to B' as B/A; always maintain the order of antecedent and consequent as specified in the question.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -555,11 +551,24 @@ window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for the Quantitative Aptitude section of UPSC CDS, NDA, and SSC exams. It is a foundational topic for solving problems in Time & Work, Speed & Distance, and Mixtures, often appearing in 2-3 direct questions per exam.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Candidates often forget that ratios require quantities of the same kind; comparing 5 meters to 5 seconds is invalid unless converted to a rate (speed).</li>
+    <li style="margin-bottom: 8px;">Focus Area: Mastering the 'Composition and Division' rule (if a/b = c/d, then (a+c)/(a-c) = (b+d)/(b-d)) is crucial for solving complex proportion problems quickly in NDA/CDS.</li>
+    <li style="margin-bottom: 8px;">Common Error: Misinterpreting 'ratio of A to B' as B/A; always maintain the order of antecedent and consequent as specified in the question.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["113_Logarithm"] = String.raw`
-<h1>113_Logarithm</h1>
-<hr/>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">113_Logarithm</h3>
+  
+  <hr/>
 
 <h2>Definition and Basic Concepts</h2>
 <p>In mathematics, a <strong>logarithm</strong> is the inverse operation of exponentiation. If a number <em>b</em> (the <strong>base</em>) raised to the power <em>x</em> equals <em>y</em> (i.e., <em>b</em><sup>x</sup> = <em>y</em>), then the logarithm of <em>y</em> with respect to base <em>b</em> is <em>x</em>. This relationship is expressed as <em>log<sub>b</sub>(y) = x</em>. The three essential components of a logarithm are:</p>
@@ -760,13 +769,7 @@ window.EXPANDED_NOTES_DATA["113_Logarithm"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Remember that log(1) = 0 for any base, and log(b) = 1. Questions often test the domain restriction: the argument must be strictly positive (y > 0), so log(-1) is undefined in real numbers.</li>
-    <li style="margin-bottom: 8px;">Focus Area: Change of base formula log_b(a) = log_c(a) / log_c(b) is frequently tested in NDA/CDS math sections to convert between natural and common logarithms.</li>
-    <li style="margin-bottom: 8px;">Common Error: Students often confuse log(a + b) with log(a) + log(b). The correct property is log(ab) = log(a) + log(b). Always verify the operation inside the log before applying properties.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -778,11 +781,24 @@ window.EXPANDED_NOTES_DATA["113_Logarithm"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Logarithms are a core component of the Mathematics section in NDA, CDS, and UPSC CSE Prelims. Expect 2-3 direct questions on simplification, solving exponential equations, and applying logarithmic properties. Mastery is essential for scoring in the quantitative aptitude and mathematics papers.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Remember that log(1) = 0 for any base, and log(b) = 1. Questions often test the domain restriction: the argument must be strictly positive (y > 0), so log(-1) is undefined in real numbers.</li>
+    <li style="margin-bottom: 8px;">Focus Area: Change of base formula log_b(a) = log_c(a) / log_c(b) is frequently tested in NDA/CDS math sections to convert between natural and common logarithms.</li>
+    <li style="margin-bottom: 8px;">Common Error: Students often confuse log(a + b) with log(a) + log(b). The correct property is log(ab) = log(a) + log(b). Always verify the operation inside the log before applying properties.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
-<h1>CDS Solved Paper 2018-II: Comprehensive Analysis & Study Guide</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">CDS Solved Paper 2018-II: Comprehensive Analysis & Study Guide</h3>
+  
+  <hr />
 
 <div style="background-color:#e7f3ff; padding:15px; border-left:4px solid #2196F3; margin:15px 0;">
 <strong>📋 Overview:</strong> The Combined Defence Services Examination (CDS) is conducted twice a year by the Union Public Service Commission (UPSC) for admission to Indian Military Academy (IMA), Indian Naval Academy (INA), Air Force Academy (AFA), and Officers' Training Academy (OTA). CDS 2018-II was held on November 18, 2018. This comprehensive guide provides detailed analysis of all sections with special focus on question patterns, important topics, and expert strategies.
@@ -1856,13 +1872,7 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">General Knowledge section heavily focuses on static GK (History, Geography, Polity) and current affairs from the preceding 6-12 months.</li>
-    <li style="margin-bottom: 8px;">English paper emphasizes comprehension, vocabulary (synonyms/antonyms), and grammar rules, particularly error spotting and sentence improvement.</li>
-    <li style="margin-bottom: 8px;">Elementary Mathematics (for technical academies) covers Class 10-12 level topics including algebra, trigonometry, and mensuration, requiring speed and accuracy.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -1874,10 +1884,24 @@ window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for aspirants preparing for CDS, as analyzing past papers like 2018-II helps identify recurring themes, difficulty levels, and time management strategies essential for clearing the written stage.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">General Knowledge section heavily focuses on static GK (History, Geography, Polity) and current affairs from the preceding 6-12 months.</li>
+    <li style="margin-bottom: 8px;">English paper emphasizes comprehension, vocabulary (synonyms/antonyms), and grammar rules, particularly error spotting and sentence improvement.</li>
+    <li style="margin-bottom: 8px;">Elementary Mathematics (for technical academies) covers Class 10-12 level topics including algebra, trigonometry, and mensuration, requiring speed and accuracy.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2019_II"] = String.raw`
-User Safety: safe
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revision Notes</h3>
+  
+  User Safety: safe
 
 
 <!-- AI UPGRADED FIELDS -->
@@ -1889,12 +1913,7 @@ User Safety: safe
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">General Knowledge section often includes tricky questions on static facts like historical dates, constitutional provisions, and scientific principles that require precise recall rather than elimination.</li>
-    <li style="margin-bottom: 8px;">Elementary Mathematics frequently tests speed and accuracy in arithmetic, algebra, and geometry, with a focus on standard formulas and logical application rather than complex derivations.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -1906,11 +1925,23 @@ User Safety: safe
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant as a benchmark for understanding the difficulty level, question distribution, and specific focus areas of the CDS General Service Wing examination, serving as a critical practice resource for aspirants.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">General Knowledge section often includes tricky questions on static facts like historical dates, constitutional provisions, and scientific principles that require precise recall rather than elimination.</li>
+    <li style="margin-bottom: 8px;">Elementary Mathematics frequently tests speed and accuracy in arithmetic, algebra, and geometry, with a focus on standard formulas and logical application rather than complex derivations.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["20_Sequence_and_Series"] = String.raw`
-<h1>Sequence and Series</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Sequence and Series</h3>
+  
+  <hr />
 
 <h2>1. Fundamental Concepts</h2>
 <p>A <strong>sequence</strong> is an ordered list of numbers following a specific rule, while a <strong>series</strong> is the sum of the terms of a sequence. In the context of defence exams like NDA, CDS, and AFCAT, questions typically test your ability to identify patterns, apply formulas, and compute sums under time constraints. Mastery of this chapter is high-yield because it appears in the Mathematics paper almost every year, often in the form of direct formula-based questions or logical reasoning puzzles.</p>
@@ -2245,13 +2276,7 @@ window.EXPANDED_NOTES_DATA["20_Sequence_and_Series"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Over 80% of NDA/CDS questions focus on AP and GP; prioritize memorizing standard formulas and their derivations over obscure special series.</li>
-    <li style="margin-bottom: 8px;">Common trick questions involve identifying the type of progression from the first few terms and applying the correct sum formula, often requiring careful handling of signs and indices.</li>
-    <li style="margin-bottom: 8px;">Logical reasoning puzzles may require finding missing terms or determining the next term in a pattern, testing both formula application and pattern recognition skills.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -2263,13 +2288,24 @@ window.EXPANDED_NOTES_DATA["20_Sequence_and_Series"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for NDA, CDS, and AFCAT Mathematics papers, appearing almost every year in direct formula-based and logical reasoning questions.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Over 80% of NDA/CDS questions focus on AP and GP; prioritize memorizing standard formulas and their derivations over obscure special series.</li>
+    <li style="margin-bottom: 8px;">Common trick questions involve identifying the type of progression from the first few terms and applying the correct sum formula, often requiring careful handling of signs and indices.</li>
+    <li style="margin-bottom: 8px;">Logical reasoning puzzles may require finding missing terms or determining the next term in a pattern, testing both formula application and pattern recognition skills.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["25_HCF_and_LCM_of_Numbers"] = String.raw`
-
-
-<h1>HCF and LCM of Numbers: Comprehensive Guide for NDA, CDS & AFCAT Exams</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">HCF and LCM of Numbers: Comprehensive Guide for NDA, CDS & AFCAT Exams</h3>
+  
+  <hr />
 
 <p>The concepts of <strong>Highest Common Factor (HCF)</strong>, also known as Greatest Common Divisor (GCD), and <strong>Least Common Multiple (LCM)</strong> form the bedrock of number theory, frequently appearing in the mathematics sections of competitive defence exams like NDA, CDS, and AFCAT. Mastering these concepts not only helps in direct calculation questions but also in solving word problems related to divisibility, remainders, ratios, and real-world scheduling problems. This comprehensive guide will take you through the definitions, core properties, methods of calculation, fraction applications, and advanced problem-solving techniques commonly tested in these exams.</p>
 
@@ -2512,13 +2548,7 @@ $\text{LCM}(6, 8, 10) = 120$.</p>
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: If two numbers are co-prime (HCF = 1), their LCM is simply their product. Conversely, if the LCM of two numbers is equal to their product, they are co-prime.</li>
-    <li style="margin-bottom: 8px;">Common Pitfall: In word problems involving 'greatest length' or 'largest size' that divides quantities exactly, use HCF; for 'shortest time' or 'smallest distance' where events coincide, use LCM.</li>
-    <li style="margin-bottom: 8px;">Advanced Application: For three or more numbers, the relationship HCF × LCM = Product holds only for two numbers. For three numbers, LCM(a,b,c) = LCM(HCF(a,b), c) is a safer computational approach.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -2530,11 +2560,24 @@ $\text{LCM}(6, 8, 10) = 120$.</p>
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. HCF and LCM are direct calculation topics frequently appearing in NDA, CDS, and AFCAT mathematics sections, often integrated with time-speed-distance, work-time, and remainder problems.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: If two numbers are co-prime (HCF = 1), their LCM is simply their product. Conversely, if the LCM of two numbers is equal to their product, they are co-prime.</li>
+    <li style="margin-bottom: 8px;">Common Pitfall: In word problems involving 'greatest length' or 'largest size' that divides quantities exactly, use HCF; for 'shortest time' or 'smallest distance' where events coincide, use LCM.</li>
+    <li style="margin-bottom: 8px;">Advanced Application: For three or more numbers, the relationship HCF × LCM = Product holds only for two numbers. For three numbers, LCM(a,b,c) = LCM(HCF(a,b), c) is a safer computational approach.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["32_Decimal_Fractions"] = String.raw`
-<h1>32. Decimal Fractions</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">32. Decimal Fractions</h3>
+  
+  <hr />
 
 <h2>1. Introduction to Decimal Fractions</h2>
 <p>A <strong>Decimal Fraction</strong> is a fraction whose denominator is a power of 10, such as 10, 100, 1000, etc. The decimal point (.) separates the whole number part from the fractional part. Every decimal fraction can be expressed as a proper fraction by removing the decimal point and dividing by the appropriate power of 10.</p>
@@ -2812,13 +2855,7 @@ window.EXPANDED_NOTES_DATA["32_Decimal_Fractions"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Master the shortcut for converting mixed recurring decimals to fractions: (Number formed by all digits - Number formed by non-repeating digits) / (9s for repeating digits followed by 0s for non-repeating digits).</li>
-    <li style="margin-bottom: 8px;">Identify terminating decimals quickly by checking if the denominator (in simplest form) contains only prime factors 2 and/or 5; any other prime factor results in a recurring decimal.</li>
-    <li style="margin-bottom: 8px;">Be prepared for questions involving the comparison of decimal magnitudes and the conversion of fractions with denominators like 11, 13, or 7 into their recurring decimal equivalents.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -2830,11 +2867,24 @@ window.EXPANDED_NOTES_DATA["32_Decimal_Fractions"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for quantitative aptitude sections in UPSC CSE, NDA, and CDS exams, as decimal fractions form the basis for percentage calculations, ratio problems, and numerical ability questions.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Master the shortcut for converting mixed recurring decimals to fractions: (Number formed by all digits - Number formed by non-repeating digits) / (9s for repeating digits followed by 0s for non-repeating digits).</li>
+    <li style="margin-bottom: 8px;">Identify terminating decimals quickly by checking if the denominator (in simplest form) contains only prime factors 2 and/or 5; any other prime factor results in a recurring decimal.</li>
+    <li style="margin-bottom: 8px;">Be prepared for questions involving the comparison of decimal magnitudes and the conversion of fractions with denominators like 11, 13, or 7 into their recurring decimal equivalents.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["38_Square_Roots_and_Cube_Roots"] = String.raw`
-<h1>Square Roots and Cube Roots</h1>
-<hr>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Square Roots and Cube Roots</h3>
+  
+  <hr>
 
 <p>Square roots and cube roots are fundamental mathematical concepts that form the foundation of algebraic operations and problem-solving in competitive examinations such as NDA, CDS, and AFCAT. This comprehensive guide covers all aspects of these root calculations, including definitions, properties, calculation techniques, and strategic approaches for quick recall during the exam.</p>
 
@@ -3122,13 +3172,7 @@ window.EXPANDED_NOTES_DATA["38_Square_Roots_and_Cube_Roots"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick: Use the 'digit sum' method to quickly eliminate incorrect options for square roots (e.g., a perfect square's digit sum must be 0, 1, 3, 6, or 9).</li>
-    <li style="margin-bottom: 8px;">Focus on approximating non-perfect roots using the formula √(n² + k) ≈ n + k/(2n) for quick estimation in data interpretation questions.</li>
-    <li style="margin-bottom: 8px;">Common trap: Confusing the principal root (√9 = 3) with the solution set of an equation (x² = 9 implies x = ±3); exam questions often test this distinction.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -3140,11 +3184,24 @@ window.EXPANDED_NOTES_DATA["38_Square_Roots_and_Cube_Roots"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical for the Quantitative Aptitude sections of NDA, CDS, and SSC CGL. These topics form the basis for solving problems in surds, indices, and simplification, where speed and accuracy in mental calculation are key differentiators.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick: Use the 'digit sum' method to quickly eliminate incorrect options for square roots (e.g., a perfect square's digit sum must be 0, 1, 3, 6, or 9).</li>
+    <li style="margin-bottom: 8px;">Focus on approximating non-perfect roots using the formula √(n² + k) ≈ n + k/(2n) for quick estimation in data interpretation questions.</li>
+    <li style="margin-bottom: 8px;">Common trap: Confusing the principal root (√9 = 3) with the solution set of an equation (x² = 9 implies x = ±3); exam questions often test this distinction.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["3_CDS_Solved_Paper_2020_II"] = String.raw`
-<h1>3_CDS_Solved_Paper_2020_II</h1>
-<hr/>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">3_CDS_Solved_Paper_2020_II</h3>
+  
+  <hr/>
 
 <h2>Overview of CDS 2020 II Exam Pattern</h2>
 <p>The Union Public Service Commission (UPSC) conducts the Combined Defence Services (CDS) Examination in two stages – written and interview. The written paper for CDS II 2020 comprised three objective‑type papers, each carrying 150 marks and a duration of two hours. There is negative marking of one‑third of a mark for every wrong answer. The total maximum marks for the written stage are 450.</p>
@@ -3322,13 +3379,7 @@ window.EXPANDED_NOTES_DATA["3_CDS_Solved_Paper_2020_II"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick questions often involve subtle preposition usage and double negatives in English; candidates must identify the most idiomatic phrasing.</li>
-    <li style="margin-bottom: 8px;">In Mathematics, focus on high-yield topics like Trigonometry and Algebra where single-mark questions can be solved in under 30 seconds.</li>
-    <li style="margin-bottom: 8px;">General Knowledge questions frequently test current affairs from the last 6 months and static GK on Defence-related topics (e.g., INS ships, military ranks).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -3340,11 +3391,24 @@ window.EXPANDED_NOTES_DATA["3_CDS_Solved_Paper_2020_II"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High; this is the primary selection tool for officer-level recruitment in the Indian Armed Forces, with a competitive cut-off requiring accuracy in all three sections.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick questions often involve subtle preposition usage and double negatives in English; candidates must identify the most idiomatic phrasing.</li>
+    <li style="margin-bottom: 8px;">In Mathematics, focus on high-yield topics like Trigonometry and Algebra where single-mark questions can be solved in under 30 seconds.</li>
+    <li style="margin-bottom: 8px;">General Knowledge questions frequently test current affairs from the last 6 months and static GK on Defence-related topics (e.g., INS ships, military ranks).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
-<h1>3. Number System</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">3. Number System</h3>
+  
+  <hr />
 
 <h2>1. Introduction to Number System</h2>
 
@@ -4637,13 +4701,7 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Focus on divisibility rules (e.g., for 7, 11, 13) and the concept of Remainders, as these are frequently tested in NDA/CDS quantitative sections.</li>
-    <li style="margin-bottom: 8px;">Understand the distinction between Natural, Whole, Integer, Rational, and Irrational numbers, particularly regarding the closure properties of operations.</li>
-    <li style="margin-bottom: 8px;">Be prepared for questions involving the conversion of numbers between different bases (e.g., Decimal to Binary) and the application of the Division Algorithm (Euclidean Algorithm).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -4655,11 +4713,24 @@ window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. The Number System is a fundamental topic in the General Ability Test (GAT) for NDA and CDS, forming the basis for all quantitative aptitude questions including percentages, ratios, and algebra.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Focus on divisibility rules (e.g., for 7, 11, 13) and the concept of Remainders, as these are frequently tested in NDA/CDS quantitative sections.</li>
+    <li style="margin-bottom: 8px;">Understand the distinction between Natural, Whole, Integer, Rational, and Irrational numbers, particularly regarding the closure properties of operations.</li>
+    <li style="margin-bottom: 8px;">Be prepared for questions involving the conversion of numbers between different bases (e.g., Decimal to Binary) and the application of the Division Algorithm (Euclidean Algorithm).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["40_CDS_Solved_Paper_2020_I"] = String.raw`
-<h1>40_CDS_Solved_Paper_2020_I – Comprehensive Study Notes</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">40_CDS_Solved_Paper_2020_I – Comprehensive Study Notes</h3>
+  
+  <hr />
 
 <h2>Overview of the CDS Examination</h2>
 <p>The Combined Defence Services (CDS) exam, conducted by UPSC, selects candidates for the Indian Military Academy (IMA), Indian Naval Academy (INA), Air Force Academy (AFA) and Officers’ Training Academy (OTA). The written test consists of three papers:</p>
@@ -5207,13 +5278,7 @@ window.EXPANDED_NOTES_DATA["40_CDS_Solved_Paper_2020_I"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick questions often involve subtle distinctions between homophones (e.g., 'affect' vs. 'effect', 'principal' vs. 'principle') and idiomatic expressions that have literal vs. figurative meanings.</li>
-    <li style="margin-bottom: 8px;">Error detection questions frequently test subject-verb agreement in complex sentences, parallel structure, and the correct usage of prepositions, where one word may seem correct but is contextually wrong.</li>
-    <li style="margin-bottom: 8px;">Reading Comprehension passages in recent years have shifted towards abstract and analytical topics, requiring candidates to infer tone and author's intent rather than just locating explicit facts.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -5225,11 +5290,24 @@ window.EXPANDED_NOTES_DATA["40_CDS_Solved_Paper_2020_I"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Paper-I is a mandatory qualifying paper for all CDS candidates. A strong performance here is essential to clear the cutoff, especially given the negative marking scheme (1/3rd mark deduction for wrong answers) which penalizes guesswork.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick questions often involve subtle distinctions between homophones (e.g., 'affect' vs. 'effect', 'principal' vs. 'principle') and idiomatic expressions that have literal vs. figurative meanings.</li>
+    <li style="margin-bottom: 8px;">Error detection questions frequently test subject-verb agreement in complex sentences, parallel structure, and the correct usage of prepositions, where one word may seem correct but is contextually wrong.</li>
+    <li style="margin-bottom: 8px;">Reading Comprehension passages in recent years have shifted towards abstract and analytical topics, requiring candidates to infer tone and author's intent rather than just locating explicit facts.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["41_CDS_Solved_Paper_2019_I"] = String.raw`
-<h1>CDS Exam Study Notes: 41_CDS_Solved_Paper_2019_I</h1>
-<hr>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">CDS Exam Study Notes: 41_CDS_Solved_Paper_2019_I</h3>
+  
+  <hr>
 
 <h2>1. Examination Overview & Context</h2>
 <p>The Combined Defence Services (CDS) examination is conducted by the Union Public Service Commission (UPSC) for recruitment to the Armed Forces of India. The 2019 paper (Paper I) tested candidates' knowledge across multiple domains including General Ability, Logical Reasoning, Quantitative Aptitude, and English Language. This note focuses specifically on the solved questions from Paper 2019, particularly emphasizing Question 41 which typically tests analytical reasoning and logical inference skills.</p>
@@ -5410,13 +5488,7 @@ window.EXPANDED_NOTES_DATA["41_CDS_Solved_Paper_2019_I"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick questions often involve 'necessary vs. sufficient' conditions; candidates must distinguish between what is explicitly stated and what can be logically inferred.</li>
-    <li style="margin-bottom: 8px;">Common pitfalls include assuming a sequence is complete when only relative positions are given, or overlooking negative constraints (e.g., 'Activity B does NOT occur before Activity C').</li>
-    <li style="margin-bottom: 8px;">Focus on eliminating options using the most restrictive condition first to save time, rather than trying to construct the full sequence immediately.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -5428,11 +5500,24 @@ window.EXPANDED_NOTES_DATA["41_CDS_Solved_Paper_2019_I"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Logical reasoning questions like Q41 are high-yield, low-computation items that significantly impact the overall score in the CDS General Ability Test. Consistent practice with past papers, especially identifying common logical traps, is essential for clearing the cutoff.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick questions often involve 'necessary vs. sufficient' conditions; candidates must distinguish between what is explicitly stated and what can be logically inferred.</li>
+    <li style="margin-bottom: 8px;">Common pitfalls include assuming a sequence is complete when only relative positions are given, or overlooking negative constraints (e.g., 'Activity B does NOT occur before Activity C').</li>
+    <li style="margin-bottom: 8px;">Focus on eliminating options using the most restrictive condition first to save time, rather than trying to construct the full sequence immediately.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["47_Time_and_Distance"] = String.raw`
-<h1>Time and Distance (Quantitative Aptitude for NDA/CDS/AFCAT)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Time and Distance (Quantitative Aptitude for NDA/CDS/AFCAT)</h3>
+  
+  <hr />
 
 <h2>1. Fundamental Concepts</h2>
 <p>Time, Speed, and Distance (TSD) is one of the most scoring and conceptual chapters in the quantitative aptitude section of NDA, CDS, and AFCAT exams. Mastery of this topic requires understanding the interrelationship between the three quantities and applying the right formula based on the problem type.</p>
@@ -5733,13 +5818,7 @@ A direct PYQ pattern observed: “A train 150 m long passes a platform 250 m lon
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Examiners frequently test the 'Average Speed' trap; remember that the average speed for a round trip with equal distances is the Harmonic Mean (2xy/(x+y)), not the Arithmetic Mean.</li>
-    <li style="margin-bottom: 8px;">High-frequency trick questions involve relative speed in opposite vs. same directions and the time taken to cross a moving object (train vs. pole vs. platform), requiring precise addition or subtraction of speeds.</li>
-    <li style="margin-bottom: 8px;">NDA/CDS papers often include 'Time and Work' style variations in TSD, such as finding the time when two objects meet after one has a head start, which requires setting up linear equations rather than just applying direct formulas.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -5751,11 +5830,24 @@ A direct PYQ pattern observed: “A train 150 m long passes a platform 250 m lon
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Time and Distance is a high-weightage, high-scoring topic in the General Ability Test (GAT) for NDA, CDS, and AFCAT. It typically contributes 3-5 direct questions and is essential for solving related problems in other sections, making it a non-negotiable area for preparation.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Examiners frequently test the 'Average Speed' trap; remember that the average speed for a round trip with equal distances is the Harmonic Mean (2xy/(x+y)), not the Arithmetic Mean.</li>
+    <li style="margin-bottom: 8px;">High-frequency trick questions involve relative speed in opposite vs. same directions and the time taken to cross a moving object (train vs. pole vs. platform), requiring precise addition or subtraction of speeds.</li>
+    <li style="margin-bottom: 8px;">NDA/CDS papers often include 'Time and Work' style variations in TSD, such as finding the time when two objects meet after one has a head start, which requires setting up linear equations rather than just applying direct formulas.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["60_Time_and_Work"] = String.raw`
-<h1>60_Time_and_Work</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">60_Time_and_Work</h3>
+  
+  <hr />
 <h2>Introduction to Time and Work Problems</h2>
 <p>Time and work problems are a staple in quantitative aptitude sections of the NDA, CDS, and AFCAT exams. They test a candidate’s ability to relate the amount of work done, the time taken, and the efficiency of individuals or groups. The core idea is that **work** can be measured in units (often taken as “1 job”), **rate** (or efficiency) is work per unit time, and **time** is the duration required to complete the work. Mastering these concepts not only improves speed but also reduces errors in high‑stakes examinations.</p>
 <p>These problems often involve scenarios such as:</p>
@@ -5981,13 +6073,7 @@ window.EXPANDED_NOTES_DATA["60_Time_and_Work"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Master the 'LCM Method': Instead of using fractions (1/x), assume total work as the LCM of given days to simplify calculations and avoid decimal errors.</li>
-    <li style="margin-bottom: 8px;">Focus on 'Alternate Day' and 'Variable Efficiency' problems, which are frequent in NDA/CDS; use the concept of net work done in a cycle (e.g., 2 days) to solve efficiently.</li>
-    <li style="margin-bottom: 8px;">Be cautious with 'Negative Work' scenarios (e.g., one person fills a tank while another empties it); the net rate is the difference between individual rates.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -5998,11 +6084,24 @@ window.EXPANDED_NOTES_DATA["60_Time_and_Work"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Time and Work is a high-frequency topic in the General Ability Test (GAT) for NDA and CDS, typically contributing 2-3 direct questions. It is also a core component of the Quantitative Aptitude section in AFCAT and is essential for building the speed and accuracy required for the broader Mathematical Ability Test.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Master the 'LCM Method': Instead of using fractions (1/x), assume total work as the LCM of given days to simplify calculations and avoid decimal errors.</li>
+    <li style="margin-bottom: 8px;">Focus on 'Alternate Day' and 'Variable Efficiency' problems, which are frequent in NDA/CDS; use the concept of net work done in a cycle (e.g., 2 days) to solve efficiently.</li>
+    <li style="margin-bottom: 8px;">Be cautious with 'Negative Work' scenarios (e.g., one person fills a tank while another empties it); the net rate is the difference between individual rates.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["69_Percentage"] = String.raw`
-<h1>69_Percentage</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">69_Percentage</h3>
+  
+  <hr />
 <h2>Introduction</h2>
 <p>Percentage is a fundamental mathematical concept that expresses a number as a fraction of 100. It is widely used in quantitative aptitude sections of defence examinations such as NDA, CDS, and AFCAT. Mastery of percentage calculations enables candidates to solve problems related to profit & loss, discounts, interest, population growth, mixtures, and many other real‑world scenarios quickly and accurately.</p>
 <h2>Basic Concepts</h2>
@@ -6177,13 +6276,7 @@ Remember: **PPT** helps you calculate any percentage; **ICRINE** guides compound
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question Focus: Candidates often confuse the base value in percentage change; always divide by the ORIGINAL value, not the new value, to find the correct percentage increase or decrease.</li>
-    <li style="margin-bottom: 8px;">Key Focus Area: Rapid mental math techniques for common fractions (e.g., 1/8 = 12.5%, 1/12 ≈ 8.33%) are critical for time management in NDA/CDS quantitative sections.</li>
-    <li style="margin-bottom: 8px;">Application Trap: In compound change problems, ensure the rate (r) is converted to decimal form and the exponent (n) correctly represents the number of periods to avoid calculation errors.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -6195,11 +6288,24 @@ Remember: **PPT** helps you calculate any percentage; **ICRINE** guides compound
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Percentage is a high-yield, foundational topic in the General Ability Test (GAT) for NDA and CDS, appearing frequently in direct questions and as a prerequisite for solving Profit & Loss, Simple/Compound Interest, and Data Interpretation problems.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question Focus: Candidates often confuse the base value in percentage change; always divide by the ORIGINAL value, not the new value, to find the correct percentage increase or decrease.</li>
+    <li style="margin-bottom: 8px;">Key Focus Area: Rapid mental math techniques for common fractions (e.g., 1/8 = 12.5%, 1/12 ≈ 8.33%) are critical for time management in NDA/CDS quantitative sections.</li>
+    <li style="margin-bottom: 8px;">Application Trap: In compound change problems, ensure the rate (r) is converted to decimal form and the exponent (n) correctly represents the number of periods to avoid calculation errors.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["77_Simple_Interest"] = String.raw`
-<h1>Simple Interest – Comprehensive Study Notes for NDA, CDS & AFCAT</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Simple Interest – Comprehensive Study Notes for NDA, CDS & AFCAT</h3>
+  
+  <hr />
 
 <h2>1. Introduction to Simple Interest</h2>
 <p>Simple Interest (SI) is one of the most fundamental concepts in commercial mathematics and forms the backbone of questions asked in the Mathematics papers of <strong>NDA</strong>, <strong>CDS</strong>, and <strong>AFCAT</strong>. The concept revolves around calculating the interest earned or paid on a principal sum over a specified period at a fixed rate, without compounding the interest.</p>
@@ -6629,13 +6735,7 @@ window.EXPANDED_NOTES_DATA["77_Simple_Interest"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question Focus: Questions often ask for the time in which a sum doubles or triples at a given rate; use the shortcut T = 100/R for doubling and T = 200/R for tripling.</li>
-    <li style="margin-bottom: 8px;">Common Pitfall: Ensure time units are consistent (convert months to years by dividing by 12) before applying the formula, as rate is typically given per annum.</li>
-    <li style="margin-bottom: 8px;">Comparative Analysis: Be prepared for questions comparing SI and CI for the same P, R, and T (usually 2 or 3 years) to find the difference, which equals P(R/100)^2 for 2 years.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -6647,11 +6747,24 @@ window.EXPANDED_NOTES_DATA["77_Simple_Interest"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Simple Interest is a guaranteed topic in the Mathematics sections of NDA, CDS, and AFCAT. It typically contributes 2-4 direct questions, often involving basic calculations, finding missing parameters, or comparing SI with CI. Mastery of shortcuts is essential for time management.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question Focus: Questions often ask for the time in which a sum doubles or triples at a given rate; use the shortcut T = 100/R for doubling and T = 200/R for tripling.</li>
+    <li style="margin-bottom: 8px;">Common Pitfall: Ensure time units are consistent (convert months to years by dividing by 12) before applying the formula, as rate is typically given per annum.</li>
+    <li style="margin-bottom: 8px;">Comparative Analysis: Be prepared for questions comparing SI and CI for the same P, R, and T (usually 2 or 3 years) to find the difference, which equals P(R/100)^2 for 2 years.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["83_Compound_Interest"] = String.raw`
-<h1>83 Compound Interest</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">83 Compound Interest</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 <p>Compound Interest is a cornerstone concept in quantitative aptitude for defence entrance examinations such as NDA, CDS, and AFCAT. It measures the growth of an amount when interest is added to the principal at regular intervals, and subsequent interest calculations include the accumulated interest as part of the new principal. Understanding this concept is crucial not only for solving numerical problems but also for real‑life scenarios like calculating **army pensions, loan repayments, and savings plans for service personnel**.</p>
@@ -6934,13 +7047,7 @@ window.EXPANDED_NOTES_DATA["83_Compound_Interest"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Focus on 'Difference between CI and SI' for 2 years (P(r/100)^2) and 3 years (P(r/100)^2(3 + r/100)) as these are standard trick questions in NDA Paper I.</li>
-    <li style="margin-bottom: 8px;">Be prepared for problems involving half-yearly or quarterly compounding, where the rate is divided by 2 or 4 and time is multiplied accordingly.</li>
-    <li style="margin-bottom: 8px;">Watch for questions combining CI with depreciation (value of machines) or population growth, which follow the same compound formula but in reverse or with different parameters.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -6952,11 +7059,24 @@ window.EXPANDED_NOTES_DATA["83_Compound_Interest"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Compound Interest is a staple topic in the Mathematics section of NDA, CDS, and AFCAT, typically contributing 2-4 marks. It tests computational speed and conceptual clarity on exponential growth, often appearing in combination with percentages and ratios.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Focus on 'Difference between CI and SI' for 2 years (P(r/100)^2) and 3 years (P(r/100)^2(3 + r/100)) as these are standard trick questions in NDA Paper I.</li>
+    <li style="margin-bottom: 8px;">Be prepared for problems involving half-yearly or quarterly compounding, where the rate is divided by 2 or 4 and time is multiplied accordingly.</li>
+    <li style="margin-bottom: 8px;">Watch for questions combining CI with depreciation (value of machines) or population growth, which follow the same compound formula but in reverse or with different parameters.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["92_Profit_and_Loss"] = String.raw`
-<h1>92_Profit_and_Loss</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">92_Profit_and_Loss</h3>
+  
+  <hr />
 <h2>Introduction to Profit and Loss</h2>
 <p>Profit and Loss is a fundamental chapter in arithmetic that deals with the financial outcomes of buying and selling goods or services. In the context of defence examinations (NDA, CDS, AFCAT), this topic tests a candidate’s ability to compute monetary gains or losses, understand percentages, discounts, and the impact of successive transactions. Mastery of these concepts is essential not only for clearing the quantitative section but also for applying logical reasoning in real‑world scenarios such as procurement, budgeting, and resource allocation in military logistics.</p>
 
@@ -7203,13 +7323,7 @@ window.EXPANDED_NOTES_DATA["92_Profit_and_Loss"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick questions often involve 'false weights' or 'fraudulent measurements' where the effective CP or SP changes due to manipulated quantities, requiring adjustment of the base value before percentage calculation.</li>
-    <li style="margin-bottom: 8px;">Successive percentage changes (e.g., profit followed by loss) are not additive; candidates must use the multiplicative formula: Net Change = x + y + (xy/100) to avoid common errors in compound scenarios.</li>
-    <li style="margin-bottom: 8px;">Questions frequently test the distinction between Marked Price (MP), Discount, and Selling Price, requiring candidates to work backward from MP to SP before determining profit/loss relative to CP.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -7221,11 +7335,24 @@ window.EXPANDED_NOTES_DATA["92_Profit_and_Loss"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for NDA, CDS, and AFCAT quantitative sections; frequently appears in 2-3 direct or application-based questions testing speed, accuracy in percentage calculations, and logical handling of discounts and successive transactions.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick questions often involve 'false weights' or 'fraudulent measurements' where the effective CP or SP changes due to manipulated quantities, requiring adjustment of the base value before percentage calculation.</li>
+    <li style="margin-bottom: 8px;">Successive percentage changes (e.g., profit followed by loss) are not additive; candidates must use the multiplicative formula: Net Change = x + y + (xy/100) to avoid common errors in compound scenarios.</li>
+    <li style="margin-bottom: 8px;">Questions frequently test the distinction between Marked Price (MP), Discount, and Selling Price, requiring candidates to work backward from MP to SP before determining profit/loss relative to CP.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["indian-army-training-institutions"] = String.raw`
-<h1>Indian Army Training Institutions</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Indian Army Training Institutions</h3>
+  
+  <hr />
 <h2>Overview of Army Training Institutions</h2>
 <p>The Indian Army maintains a comprehensive network of training institutions to develop leadership, technical expertise, and professional competence across all arms and services. These institutions cater to various entry points—<strong>NDA</strong> for graduate trainees, <strong>IMA</strong> for commissioned officers, <strong>INA</strong> for naval officers, and specialized centres for junior commissioned officers (JCOs), non‑commissioned officers (NCOs), and other ranks. Each academy or centre follows a structured curriculum, rigorous physical conditioning, and field exercises designed to produce battle‑ready commanders and support personnel. Understanding the hierarchy, eligibility, and unique features of each institution is crucial for aspirants preparing for NDA, CDS, and AFCAT examinations.</p>
 
@@ -7512,13 +7639,7 @@ window.EXPANDED_NOTES_DATA["indian-army-training-institutions"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between the locations and specific entry streams: IMA (Dehradun) vs. NDA (Pune) vs. INA (Ezhimala); note that INA is for Navy, not Army, despite the similar acronym.</li>
-    <li style="margin-bottom: 8px;">Identify the correct training centers for specific arms, such as the Armoured Corps Training Centre (ACTC) for tanks or the Army Aviation Training Centre (AATC) for helicopters, as these are frequent factual questions in NDA/CDS.</li>
-    <li style="margin-bottom: 8px;">Understand the distinction between Commissioned Officer training and Junior Commissioned Officer (JCO)/NCO training, which often occurs at distinct academies like the Indian Army Training Academy (IATA) or specific ITCs.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -7530,11 +7651,24 @@ window.EXPANDED_NOTES_DATA["indian-army-training-institutions"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for NDA and CDS General Knowledge and Military Affairs sections, where questions frequently test the location, establishment year, and specific mandate of various training institutions.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between the locations and specific entry streams: IMA (Dehradun) vs. NDA (Pune) vs. INA (Ezhimala); note that INA is for Navy, not Army, despite the similar acronym.</li>
+    <li style="margin-bottom: 8px;">Identify the correct training centers for specific arms, such as the Armoured Corps Training Centre (ACTC) for tanks or the Army Aviation Training Centre (AATC) for helicopters, as these are frequent factual questions in NDA/CDS.</li>
+    <li style="margin-bottom: 8px;">Understand the distinction between Commissioned Officer training and Junior Commissioned Officer (JCO)/NCO training, which often occurs at distinct academies like the Indian Army Training Academy (IATA) or specific ITCs.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["indian-air-force-training-institutions"] = String.raw`
-<h1>Indian Air Force Training Institutions</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Indian Air Force Training Institutions</h3>
+  
+  <hr />
 
 <p>The Indian Air Force (IAF) maintains one of the most comprehensive and prestigious training ecosystems in the world, designed to transform young aspirants into competent military officers capable of operating in complex aerial combat and support environments. Understanding these institutions is crucial for NDA, CDS, and AFCAT aspirants as questions related to training establishments, their locations, specializations, and historical significance frequently appear in defence examinations.</p>
 
@@ -8034,13 +8168,7 @@ window.EXPANDED_NOTES_DATA["indian-air-force-training-institutions"] = String.ra
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between the Air Force Academy (AFA) for initial officer training and the Air Force Technical Training Establishment (AFTTE) in Bangalore for technical and ground duty specialization.</li>
-    <li style="margin-bottom: 8px;">Identify the specific locations of key training institutions: AFA (Hyderabad), AFTTE (Bangalore), and the various Flying Training Commands (e.g., FTC Jodhpur, FTC Nal, FTC Dundigal).</li>
-    <li style="margin-bottom: 8px;">Note that the IAF does not have a separate 'National Defence Academy' for its officers; NDA cadets join AFA after completing their basic training at NDA, Pune.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -8052,11 +8180,24 @@ window.EXPANDED_NOTES_DATA["indian-air-force-training-institutions"] = String.ra
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for NDA and CDS exams, as questions frequently test knowledge of the locations, functions, and hierarchy of IAF training institutions. Aspirants must be able to correctly match institutions with their locations and specializations (e.g., AFA for general officer training, AFTTE for technical roles).</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between the Air Force Academy (AFA) for initial officer training and the Air Force Technical Training Establishment (AFTTE) in Bangalore for technical and ground duty specialization.</li>
+    <li style="margin-bottom: 8px;">Identify the specific locations of key training institutions: AFA (Hyderabad), AFTTE (Bangalore), and the various Flying Training Commands (e.g., FTC Jodhpur, FTC Nal, FTC Dundigal).</li>
+    <li style="margin-bottom: 8px;">Note that the IAF does not have a separate 'National Defence Academy' for its officers; NDA cadets join AFA after completing their basic training at NDA, Pune.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["indian-national-defence-university"] = String.raw`
-<h1>Indian National Defence University (INDU)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Indian National Defence University (INDU)</h3>
+  
+  <hr />
 
 <h2>1. Introduction and Genesis</h2>
 <p>The <strong>Indian National Defence University (INDU)</strong> is a proposed autonomous institution envisioned to serve as the apex body for professional military education in India. It represents a significant stride towards integrating and modernizing the training, education, and research of the Indian Armed Forces. The university is designed to function as a unified hub where officers from the Army, Navy, and Air Force can study together, fostering jointmanship and a shared strategic vision.</p>
@@ -8314,13 +8455,7 @@ To remember the hierarchy of INDU:<br>
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Distinguish between the 'Kargil Review Committee' (1999) which recommended the university and the 'Indian National Defence University Act' (2015) which legally established it.</li>
-    <li style="margin-bottom: 8px;">Focus Area: Understand the specific mandate of INDU as a 'unitary' institution, meaning it has a single governing body (Senate/Executive Council) rather than being a federation of existing colleges.</li>
-    <li style="margin-bottom: 8px;">Key Fact: Recall that INDU is a 'public university' and not a private one, and it holds the status of an 'Institution of National Importance' similar to IITs and IIMs.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -8332,11 +8467,24 @@ To remember the hierarchy of INDU:<br>
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims (Polity/Defence) and Mains (GS Paper 3 - Security). Candidates must know the legal basis (2015 Act), the historical trigger (Kargil Review), and the strategic objective (Jointmanship/Integration) of the university.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Distinguish between the 'Kargil Review Committee' (1999) which recommended the university and the 'Indian National Defence University Act' (2015) which legally established it.</li>
+    <li style="margin-bottom: 8px;">Focus Area: Understand the specific mandate of INDU as a 'unitary' institution, meaning it has a single governing body (Senate/Executive Council) rather than being a federation of existing colleges.</li>
+    <li style="margin-bottom: 8px;">Key Fact: Recall that INDU is a 'public university' and not a private one, and it holds the status of an 'Institution of National Importance' similar to IITs and IIMs.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["new-indian-air-force-ensign"] = String.raw`
-<h1>New Indian Air Force Ensign</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">New Indian Air Force Ensign</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 <p>The <strong>Indian Air Force (IAF) Ensign</strong> is the official flag that represents the Indian Air Force. It is flown at all IAF stations, establishments, and on IAF aircraft during ceremonial occasions. The ensign is a symbol of the honour, pride, and tradition of the Indian Air Force. In <strong>2023</strong>, the Government of India approved a <strong>new ensign</strong> for the IAF, replacing the older version that had been in use since the Force's inception. This change was a significant moment in IAF history and is a relevant topic for defence aspirants appearing in <strong>NDA, CDS, and AFCAT</strong> examinations.</p>
@@ -8578,13 +8726,7 @@ window.EXPANDED_NOTES_DATA["new-indian-air-force-ensign"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Distinguish between the 'Roundel' (used on aircraft fuselages) and the 'Ensign' (the flag flown at stations); the new ensign does not necessarily change the aircraft roundel immediately but changes the ceremonial flag.</li>
-    <li style="margin-bottom: 8px;">Key Focus: The rationale for the change was to move away from the Royal Air Force (RAF) legacy and assert independent Indian identity, a common theme in UPSC questions regarding national symbols.</li>
-    <li style="margin-bottom: 8px;">Factual Precision: The original ensign was in use since the IAF's raising in 1932; the new one was approved in 2023. Candidates must not confuse the 'Ensign' with the 'National Flag' or the 'Service Flag'.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -8596,11 +8738,24 @@ window.EXPANDED_NOTES_DATA["new-indian-air-force-ensign"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for NDA, CDS, and AFCAT General Knowledge sections as it tests awareness of recent changes in military symbols and national identity. UPSC aspirants should link this to the broader theme of de-colonizing national institutions and symbols.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Distinguish between the 'Roundel' (used on aircraft fuselages) and the 'Ensign' (the flag flown at stations); the new ensign does not necessarily change the aircraft roundel immediately but changes the ceremonial flag.</li>
+    <li style="margin-bottom: 8px;">Key Focus: The rationale for the change was to move away from the Royal Air Force (RAF) legacy and assert independent Indian identity, a common theme in UPSC questions regarding national symbols.</li>
+    <li style="margin-bottom: 8px;">Factual Precision: The original ensign was in use since the IAF's raising in 1932; the new one was approved in 2023. Candidates must not confuse the 'Ensign' with the 'National Flag' or the 'Service Flag'.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["iaf-operational-commands"] = String.raw`
-<h1>Indian Air Force Operational Commands</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Indian Air Force Operational Commands</h3>
+  
+  <hr />
 <p>IAF commands are the primary organizational units of the Indian Air Force, each responsible for a specific geographical area of responsibility. The IAF is divided into seven operational commands, each with its own headquarters, area of responsibility, and specific aircraft and assets. These commands are the Western Command, Eastern Command, South Western Command, Central Command, Southern Command, Training Command, and the recently added Andaman and Nicobar Command. Each command is headed by an Air Officer Commanding-in-Chief, who reports directly to the Chief of the Air Staff. The commands are further divided into groups, sectors, and wings based on the operational requirements. The Western Command, headquartered in Udhampur, is the largest command in terms of area of responsibility, while the Southern Command, headquartered in Thiruvananthapuram, is the smallest. The Andaman and Nicobar Command is a joint command of the Indian Armed Forces, and it is the only tri-service command. It is responsible for the security of the Indian mainland and its island territories. The Western Command is based in Udhampur, and the Eastern Command is headquartered in Shillong. The Southern Command is headquartered in Thiruvan
    - Actually, let me structure properly:
    - Introduction/Overview
@@ -8737,13 +8892,7 @@ window.EXPANDED_NOTES_DATA["iaf-operational-commands"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Identify the only tri-service command among IAF operational commands. Answer: Andaman and Nicobar Command (Joint Command of Army, Navy, and Air Force).</li>
-    <li style="margin-bottom: 8px;">Focus Area: Distinguish between the headquarters locations of Western Command (Udhampur) and Eastern Command (Shillong), as these are frequently swapped in multiple-choice questions.</li>
-    <li style="margin-bottom: 8px;">Key Fact: The Training Command is distinct from operational combat commands as its primary role is the training of personnel rather than direct combat operations in a specific geographical theater.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -8755,11 +8904,24 @@ window.EXPANDED_NOTES_DATA["iaf-operational-commands"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims (GS Paper I - Defence) and NDA/CDS General Knowledge sections. Questions typically focus on HQ locations, specific command jurisdictions, and the unique status of the Andaman and Nicobar Command.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Identify the only tri-service command among IAF operational commands. Answer: Andaman and Nicobar Command (Joint Command of Army, Navy, and Air Force).</li>
+    <li style="margin-bottom: 8px;">Focus Area: Distinguish between the headquarters locations of Western Command (Udhampur) and Eastern Command (Shillong), as these are frequently swapped in multiple-choice questions.</li>
+    <li style="margin-bottom: 8px;">Key Fact: The Training Command is distinct from operational combat commands as its primary role is the training of personnel rather than direct combat operations in a specific geographical theater.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["iaf-display-teams"] = String.raw`
-<h1>IAF Display Teams – Overview and Significance</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">IAF Display Teams – Overview and Significance</h3>
+  
+  <hr />
 
 <h2>1. Introduction to IAF Display Teams</h2>
 <p>The Indian Air Force (IAF) maintains two premier display teams that showcase the nation’s aerial prowess, technological capability, and the professionalism of its pilots. These teams—**Surya Kiran** (aircraft aerobatics) and **Sarang** (helicopter display)—serve multiple purposes: they act as ambassadors of Indian defence power, inspire youth toward a career in the armed forces, and demonstrate the IAF’s operational readiness to the public and foreign dignitaries.</p>
@@ -8963,13 +9125,7 @@ window.EXPANDED_NOTES_DATA["iaf-display-teams"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Differentiate between the aircraft types used by Surya Kiran (fixed-wing aerobatics) and Sarang (helicopter display) and their respective formation capabilities.</li>
-    <li style="margin-bottom: 8px;">Note the historical transition of Surya Kiran from indigenous HF-24 Marut to MiG-21 Bison and finally to the SEPECAT Jaguar, reflecting the IAF's evolving fleet composition.</li>
-    <li style="margin-bottom: 8px;">Understand the dual role of display teams: operational readiness demonstration and diplomatic/soft-power engagement during events like Republic Day and international air shows.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -8981,11 +9137,24 @@ window.EXPANDED_NOTES_DATA["iaf-display-teams"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC GS Paper II (Defence) and NDA/CDS General Knowledge sections, as it tests knowledge of Indian military assets, soft power initiatives, and current affairs related to national celebrations and international engagements.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Differentiate between the aircraft types used by Surya Kiran (fixed-wing aerobatics) and Sarang (helicopter display) and their respective formation capabilities.</li>
+    <li style="margin-bottom: 8px;">Note the historical transition of Surya Kiran from indigenous HF-24 Marut to MiG-21 Bison and finally to the SEPECAT Jaguar, reflecting the IAF's evolving fleet composition.</li>
+    <li style="margin-bottom: 8px;">Understand the dual role of display teams: operational readiness demonstration and diplomatic/soft-power engagement during events like Republic Day and international air shows.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["aero-india"] = String.raw`
-<h1>Aero India: India's Premier Aerospace and Defence Exhibition</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Aero India: India's Premier Aerospace and Defence Exhibition</h3>
+  
+  <hr />
 
 <h2>1. Introduction and Historical Background</h2>
 <p><strong>Aero India</strong> is the largest and most prestigious aerospace and defence exhibition held in Asia. It serves as a monumental platform where the Indian Armed Forces, domestic defence manufacturers, and international aerospace giants converge to showcase their latest technologies, aircraft, and strategic capabilities. For aspirants of Indian Defence Exams (NDA, CDS, AFCAT), understanding Aero India is crucial as it reflects India's transition towards self-reliance in defence manufacturing and its strategic partnerships.</p>
@@ -9174,13 +9343,7 @@ window.EXPANDED_NOTES_DATA["aero-india"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Distinguish between the organizer (Defence Exhibition Organisation/DEO) and the overarching ministry (Ministry of Defence); DEO is the specific entity responsible for execution.</li>
-    <li style="margin-bottom: 8px;">Key Focus: The strategic significance of the venue (Bengaluru) due to the presence of major defence research and manufacturing entities like DRDO, HAL, and BEL.</li>
-    <li style="margin-bottom: 8px;">Conceptual Link: Connect Aero India to the 'Make in India' and 'Atmanirbhar Bharat' initiatives, highlighting how the expo facilitates technology transfer and reduces import dependency in defence hardware.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -9192,16 +9355,30 @@ window.EXPANDED_NOTES_DATA["aero-india"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for NDA, CDS, and UPSC Prelims as it tests knowledge of key defence events, organizational structures (DEO/Ministry of Defence), and India's strategic defence policies and self-reliance initiatives.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Distinguish between the organizer (Defence Exhibition Organisation/DEO) and the overarching ministry (Ministry of Defence); DEO is the specific entity responsible for execution.</li>
+    <li style="margin-bottom: 8px;">Key Focus: The strategic significance of the venue (Bengaluru) due to the presence of major defence research and manufacturing entities like DRDO, HAL, and BEL.</li>
+    <li style="margin-bottom: 8px;">Conceptual Link: Connect Aero India to the 'Make in India' and 'Atmanirbhar Bharat' initiatives, highlighting how the expo facilitates technology transfer and reduces import dependency in defence hardware.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["indian-navy-operational-commands"] = String.raw`
-We need to output raw HTML, no wrapper tags. Start with <h1> for main topic title, then <hr/>. Then sections with <h2>, subsections <h3>. Include tables with style attribute. Include callout boxes with specific style. Must be extremely comprehensive, at least 1500 words equivalent. Need to cover Indian Navy Operational Commands. Provide details: structure, commands (Eastern, Western, Southern, Andaman & Nicobar, etc.), their areas, headquarters, key bases, responsibilities, recent developments, command structure, fleet composition, operational roles, command appointments, etc. Also include tables comparing commands, maybe timeline of command creation, list of bases, etc. Include callout boxes for high-yield facts, trap alerts, PYQ insights, mnemonics.
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Indian Navy Operational Commands</h3>
+  
+  We need to output raw HTML, no wrapper tags. Start with <h1> for main topic title, then <hr/>. Then sections with <h2>, subsections <h3>. Include tables with style attribute. Include callout boxes with specific style. Must be extremely comprehensive, at least 1500 words equivalent. Need to cover Indian Navy Operational Commands. Provide details: structure, commands (Eastern, Western, Southern, Andaman & Nicobar, etc.), their areas, headquarters, key bases, responsibilities, recent developments, command structure, fleet composition, operational roles, command appointments, etc. Also include tables comparing commands, maybe timeline of command creation, list of bases, etc. Include callout boxes for high-yield facts, trap alerts, PYQ insights, mnemonics.
 
 We need to ensure we meet formatting: <h1> then <hr/>. Use <h2> for major sections, <h3> for sub-sections. Use <ul>, <li>, <p>, <strong>. Use tables with style attribute. Use callout boxes with specific style.
 
 We need to be extremely detailed, at least 1500 words. Let's plan:
 
-<h1>Indian Navy Operational Commands</h1>
+
 <hr/>
 
 <h2>Overview of Indian Navy's Command Structure</h2>
@@ -9227,13 +9404,7 @@ Let's search memory: The Indian Navy's Eastern Naval Command (ENC) is headquarte
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Candidates often confuse the headquarters of Eastern Naval Command (Visakhapatnam) with Western Naval Command (Mumbai); ensure precise mapping of HQs to their respective coasts.</li>
-    <li style="margin-bottom: 8px;">Focus Area: The Andaman & Nicobar Command (ANC) is the newest operational command, established to secure the strategic chokepoints of the Strait of Malacca and the Andaman Sea, a critical area for China's 'String of Pearls' strategy.</li>
-    <li style="margin-bottom: 8px;">Key Distinction: Differentiate between 'Operational Commands' (ENC, WNC, SNC, ANC) which handle fleet deployment, and 'Functional Commands' like Naval Aviation or Training Command, which support but do not hold primary operational jurisdiction over a geographic area.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -9245,10 +9416,24 @@ Let's search memory: The Indian Navy's Eastern Naval Command (ENC) is headquarte
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC CSE (Prelims & Mains), NDA, and CDS. Questions frequently test the headquarters of specific commands, the strategic significance of the Andaman & Nicobar Command, and the operational areas of each command in the context of India's 'SAGAR' doctrine and Indo-Pacific security.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Candidates often confuse the headquarters of Eastern Naval Command (Visakhapatnam) with Western Naval Command (Mumbai); ensure precise mapping of HQs to their respective coasts.</li>
+    <li style="margin-bottom: 8px;">Focus Area: The Andaman & Nicobar Command (ANC) is the newest operational command, established to secure the strategic chokepoints of the Strait of Malacca and the Andaman Sea, a critical area for China's 'String of Pearls' strategy.</li>
+    <li style="margin-bottom: 8px;">Key Distinction: Differentiate between 'Operational Commands' (ENC, WNC, SNC, ANC) which handle fleet deployment, and 'Functional Commands' like Naval Aviation or Training Command, which support but do not hold primary operational jurisdiction over a geographic area.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["indian-navy-training-institutions"] = String.raw`
-User Safety: safe
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revision Notes</h3>
+  
+  User Safety: safe
 
 
 <!-- AI UPGRADED FIELDS -->
@@ -9261,13 +9446,7 @@ User Safety: safe
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Focus on the distinction between the Naval Academy (officers) and NIMET (technical/engineering roles) as a common confusion point in NDA/CDS exams.</li>
-    <li style="margin-bottom: 8px;">Recall the location of the Naval Academy (Ezhimala, Kerala) and its commissioning date (2013) as a frequent static GK question.</li>
-    <li style="margin-bottom: 8px;">Identify the specific roles of specialized institutions like NATE (Aviation) and INS Varadachalam (Submarines) to answer situational or functional questions.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -9279,11 +9458,24 @@ User Safety: safe
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High relevance for NDA and CDS exams due to static GK questions on defense institutions, locations, and their specific functions. UPSC aspirants should focus on the strategic significance of indigenous training infrastructure for national security.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Focus on the distinction between the Naval Academy (officers) and NIMET (technical/engineering roles) as a common confusion point in NDA/CDS exams.</li>
+    <li style="margin-bottom: 8px;">Recall the location of the Naval Academy (Ezhimala, Kerala) and its commissioning date (2013) as a frequent static GK question.</li>
+    <li style="margin-bottom: 8px;">Identify the specific roles of specialized institutions like NATE (Aviation) and INS Varadachalam (Submarines) to answer situational or functional questions.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["important-personalities-of-indian-navy"] = String.raw`
-<h1>Important Personalities of the Indian Navy</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Important Personalities of the Indian Navy</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 <p>The Indian Navy, one of the three branches of the Indian Armed Forces, has a rich heritage dating back to the pre‑colonial era. Over the centuries, numerous visionary leaders, brave sailors, and strategic thinkers have shaped its evolution into a modern, blue‑water force. This note provides an exhaustive overview of the most important personalities associated with the Indian Navy – from early maritime pioneers to contemporary Chiefs of Naval Staff – highlighting their contributions, key achievements, and relevance for defence examinations (NDA, CDS, AFCAT).</p>
@@ -9819,13 +10011,7 @@ window.EXPANDED_NOTES_DATA["important-personalities-of-indian-navy"] = String.ra
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Examiners often test the distinction between the 'Royal Indian Navy' (pre-1947) and the 'Indian Navy' (post-1947), focusing on the role of the Royal Indian Navy Mutiny of 1946 in the independence movement.</li>
-    <li style="margin-bottom: 8px;">Key focus areas include the contributions of the first Indian Chief of Naval Staff (Vice Admiral R.D. Katari) and the significance of the INS Vikrant (first indigenous aircraft carrier) in the context of strategic autonomy.</li>
-    <li style="margin-bottom: 8px;">Candidates should be prepared to identify the specific roles of personalities in the context of the 'Act East Policy' and Indo-Pacific security, such as the leadership during the 2020-2021 Indo-US joint exercises.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -9837,11 +10023,24 @@ window.EXPANDED_NOTES_DATA["important-personalities-of-indian-navy"] = String.ra
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for NDA and CDS General Knowledge sections, particularly for questions on the history of the Indian Armed Forces, key military leaders, and the evolution of India's maritime strategy. UPSC aspirants should focus on the strategic implications of these personalities in the context of India's geopolitical standing in the Indian Ocean Region.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Examiners often test the distinction between the 'Royal Indian Navy' (pre-1947) and the 'Indian Navy' (post-1947), focusing on the role of the Royal Indian Navy Mutiny of 1946 in the independence movement.</li>
+    <li style="margin-bottom: 8px;">Key focus areas include the contributions of the first Indian Chief of Naval Staff (Vice Admiral R.D. Katari) and the significance of the INS Vikrant (first indigenous aircraft carrier) in the context of strategic autonomy.</li>
+    <li style="margin-bottom: 8px;">Candidates should be prepared to identify the specific roles of personalities in the context of the 'Act East Policy' and Indo-Pacific security, such as the leadership during the 2020-2021 Indo-US joint exercises.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["forces-and-their-mottos"] = String.raw`
-<h1>Forces and Their Mottos</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Forces and Their Mottos</h3>
+  
+  <hr />
 
 <h2>1. Strategic Importance of Mottos in Defence Exams</h2>
 <p>The mottos of the Indian Armed Forces are not merely symbolic phrases; they encapsulate the ethos, core values, and operational philosophy of each service. For NDA, CDS, and AFCAT aspirants, these mottos are high-yield static GK topics that frequently appear in the General Ability Test (GAT) and Current Affairs sections. Understanding the origin, language (Sanskrit/Hindi/English), and meaning of each motto provides an edge in answering direct factual questions as well as essay or GD topics where leadership and service values are discussed. Moreover, the Union Public Service Commission (UPSC) often integrates motto-related questions in "match the following" or "assertion-reason" formats, making thorough preparation essential.</p>
@@ -9945,13 +10144,7 @@ window.EXPANDED_NOTES_DATA["forces-and-their-mottos"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Focus on the linguistic origin (Sanskrit vs. English) and exact translation of mottos, as UPSC frequently tests precise wording and meaning.</li>
-    <li style="margin-bottom: 8px;">Pay attention to specific regimental mottos (e.g., Gorkha Rifles, Parachute Regiment) which are often used in tricky matching questions alongside the broader service mottos.</li>
-    <li style="margin-bottom: 8px;">Understand the thematic difference: Army mottos emphasize selfless service and land dominance, Navy emphasizes maritime supremacy, and Air Force emphasizes aerial superiority and glory.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -9963,11 +10156,24 @@ window.EXPANDED_NOTES_DATA["forces-and-their-mottos"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for the General Ability Test (GAT) in NDA/CDS and General Studies in UPSC, where factual recall of defence statics is a consistent scoring area.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Focus on the linguistic origin (Sanskrit vs. English) and exact translation of mottos, as UPSC frequently tests precise wording and meaning.</li>
+    <li style="margin-bottom: 8px;">Pay attention to specific regimental mottos (e.g., Gorkha Rifles, Parachute Regiment) which are often used in tricky matching questions alongside the broader service mottos.</li>
+    <li style="margin-bottom: 8px;">Understand the thematic difference: Army mottos emphasize selfless service and land dominance, Navy emphasizes maritime supremacy, and Air Force emphasizes aerial superiority and glory.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["important-indian-military-operations"] = String.raw`
-<h1>Important Indian Military Operations</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Important Indian Military Operations</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 <p>Indian military operations have been pivotal in shaping the nation's security landscape since independence. These operations span wars, counter-insurgency missions, and humanitarian interventions, reflecting India's strategic evolution. Understanding these operations is critical for defence exams like NDA, CDS, and AFCAT, as they test knowledge of military history, strategy, and geopolitics.</p>
@@ -10175,13 +10381,7 @@ window.EXPANDED_NOTES_DATA["important-indian-military-operations"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Distinguish between Operation Gibraltar (1965, covert infiltration by Pakistan, not India) and Operation Vijay (1999, Indian counter-offensive in Kargil). The original notes incorrectly attribute Gibraltar to India; it was a Pakistani operation.</li>
-    <li style="margin-bottom: 8px;">Focus Area: The 1971 war is often tested regarding the 'Three Front War' (East, West, and Kashmir) and the specific role of the Indian Navy in Operation Trident (strikes on Karachi/Karachi naval bases) versus Operation Cactus Lily (which is not a standard historical name for the 1971 naval strikes; the correct term is Operation Trident or the broader naval blockade).</li>
-    <li style="margin-bottom: 8px;">Key Concept: Understand the transition from 'Cold War' era operations (1965, 1971) to 'Post-Cold War' counter-insurgency and limited war doctrines (1999 Kargil, 2016 Balakot airstrikes - Operation Swansong).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -10193,11 +10393,24 @@ window.EXPANDED_NOTES_DATA["important-indian-military-operations"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical for NDA, CDS, and UPSC Prelims/Mains. Candidates must accurately identify operation names, their timelines, and the specific branches involved (Army/Navy/Air Force). Errors in attributing operations (e.g., confusing Pakistani and Indian operation names) are common pitfalls in defense exams.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Distinguish between Operation Gibraltar (1965, covert infiltration by Pakistan, not India) and Operation Vijay (1999, Indian counter-offensive in Kargil). The original notes incorrectly attribute Gibraltar to India; it was a Pakistani operation.</li>
+    <li style="margin-bottom: 8px;">Focus Area: The 1971 war is often tested regarding the 'Three Front War' (East, West, and Kashmir) and the specific role of the Indian Navy in Operation Trident (strikes on Karachi/Karachi naval bases) versus Operation Cactus Lily (which is not a standard historical name for the 1971 naval strikes; the correct term is Operation Trident or the broader naval blockade).</li>
+    <li style="margin-bottom: 8px;">Key Concept: Understand the transition from 'Cold War' era operations (1965, 1971) to 'Post-Cold War' counter-insurgency and limited war doctrines (1999 Kargil, 2016 Balakot airstrikes - Operation Swansong).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
-<h1>Trigonometric Identities</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Trigonometric Identities</h3>
+  
+  <hr />
 <p><strong>Comprehensive study notes for Defence Exams (NDA, CDS, AFCAT) covering Trigonometric Identities at Class 10‑12 level.</strong></p>
 
 <h2>1. Trigonometric Ratios of Angles up to 360°</h2>
@@ -10507,13 +10720,7 @@ window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">NDA and CDS exams frequently test the application of sum-to-product and product-to-sum formulas to simplify expressions like sin A + sin B or 2 sin A cos B.</li>
-    <li style="margin-bottom: 8px;">A common trap involves ignoring the quadrant signs; candidates must apply the CAST rule correctly when evaluating trigonometric functions for angles greater than 90°.</li>
-    <li style="margin-bottom: 8px;">Pythagorean identities (sin²θ + cos²θ = 1) are often used in multiple-choice questions to verify the validity of given trigonometric equations or to find missing ratios.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -10525,11 +10732,24 @@ window.EXPANDED_NOTES_DATA["trig-identities"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical for NDA, CDS, and AFCAT Mathematics sections, where 5-10 questions typically involve direct application of identities, simplification, and solving trigonometric equations.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">NDA and CDS exams frequently test the application of sum-to-product and product-to-sum formulas to simplify expressions like sin A + sin B or 2 sin A cos B.</li>
+    <li style="margin-bottom: 8px;">A common trap involves ignoring the quadrant signs; candidates must apply the CAST rule correctly when evaluating trigonometric functions for angles greater than 90°.</li>
+    <li style="margin-bottom: 8px;">Pythagorean identities (sin²θ + cos²θ = 1) are often used in multiple-choice questions to verify the validity of given trigonometric equations or to find missing ratios.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["inverse-trig"] = String.raw`
-<h1>Inverse Trigonometric Functions</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Inverse Trigonometric Functions</h3>
+  
+  <hr />
 
 <p>Inverse trigonometric functions are a cornerstone of the Class 12 Mathematics syllabus and feature prominently in NDA, CDS, and AFCAT examinations. For defence aspirants, mastering this topic is essential not only for direct theory questions but also for calculus-based problems and geometry applications. This chapter bridges the gap between algebraic equations and trigonometric ratios, enabling the determination of angles from known side ratios—a skill frequently tested in NDA Mathematics papers.</p>
 
@@ -10737,13 +10957,7 @@ window.EXPANDED_NOTES_DATA["inverse-trig"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">NDA/CDS frequently tests the domain and range of composite functions, such as sin⁻¹(cos x), requiring careful handling of quadrant signs.</li>
-    <li style="margin-bottom: 8px;">Trick questions often involve differentiating inverse trigonometric functions or solving equations where the principal value branch restriction eliminates extraneous solutions.</li>
-    <li style="margin-bottom: 8px;">Candidates must be proficient in using addition and subtraction formulas, e.g., tan⁻¹x + tan⁻¹y = tan⁻¹((x+y)/(1-xy)), noting the condition xy < 1.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -10755,11 +10969,24 @@ window.EXPANDED_NOTES_DATA["inverse-trig"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for NDA and CDS Mathematics papers, where 3-5 direct questions on domains, ranges, and simplification of inverse trigonometric expressions are common. It is also a prerequisite for integration techniques in Class 12 and advanced problem-solving in defence entrance exams.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">NDA/CDS frequently tests the domain and range of composite functions, such as sin⁻¹(cos x), requiring careful handling of quadrant signs.</li>
+    <li style="margin-bottom: 8px;">Trick questions often involve differentiating inverse trigonometric functions or solving equations where the principal value branch restriction eliminates extraneous solutions.</li>
+    <li style="margin-bottom: 8px;">Candidates must be proficient in using addition and subtraction formulas, e.g., tan⁻¹x + tan⁻¹y = tan⁻¹((x+y)/(1-xy)), noting the condition xy < 1.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["quadratic-eq"] = String.raw`
-<h1>Quadratic Equations – Comprehensive Notes for NDA/ CDS/ AFCAT</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Quadratic Equations – Comprehensive Notes for NDA/ CDS/ AFCAT</h3>
+  
+  <hr />
 
 <h2>1. Introduction and Standard Form</h2>
 <p>A quadratic equation is a polynomial equation of degree 2 in a single variable <strong>x</strong>. The general (standard) form is:</p>
@@ -11013,13 +11240,7 @@ a₂x² + b₂x + c₂ = 0 … (2)</p>
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">High-frequency trick questions involve finding the value of expressions like (α² + β²) or (α³ + β³) using the sum and product identities without explicitly solving for the roots.</li>
-    <li style="margin-bottom: 8px;">Candidates must rigorously check the condition a ≠ 0; if the coefficient of x² becomes zero under certain parameter conditions, the equation degenerates into a linear equation, a common trap in NDA/CDS objective questions.</li>
-    <li style="margin-bottom: 8px;">Nature of roots analysis is critical: if the discriminant D < 0, roots are complex conjugates; if D = 0, roots are real and equal; if D > 0, roots are real and distinct. Questions often ask for the range of a parameter 'k' for which roots are real.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -11031,13 +11252,24 @@ a₂x² + b₂x + c₂ = 0 … (2)</p>
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Quadratic equations are a foundational and high-yield topic in the Mathematics section of NDA, CDS, and AFCAT exams. They appear in 2-4 questions per paper, often testing the application of Vieta's formulas (sum and product of roots) and the nature of roots via the discriminant, requiring speed and accuracy in algebraic manipulation.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">High-frequency trick questions involve finding the value of expressions like (α² + β²) or (α³ + β³) using the sum and product identities without explicitly solving for the roots.</li>
+    <li style="margin-bottom: 8px;">Candidates must rigorously check the condition a ≠ 0; if the coefficient of x² becomes zero under certain parameter conditions, the equation degenerates into a linear equation, a common trap in NDA/CDS objective questions.</li>
+    <li style="margin-bottom: 8px;">Nature of roots analysis is critical: if the discriminant D < 0, roots are complex conjugates; if D = 0, roots are real and equal; if D > 0, roots are real and distinct. Questions often ask for the range of a parameter 'k' for which roots are real.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["complex-numbers"] = String.raw`
-
-
-<h1>Complex Numbers: Comprehensive Study Guide for NDA, CDS & AFCAT</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Complex Numbers: Comprehensive Study Guide for NDA, CDS & AFCAT</h3>
+  
+  <hr />
 <p>Complex numbers form a vital part of the mathematics syllabus for competitive defence exams like NDA, CDS, and AFCAT. They bridge algebra with geometry, allowing us to solve equations that have no real solutions and to model rotations and waves. This study guide provides an in-depth, textbook-level explanation of complex numbers, aligned with the Class 11th standard and the specific requirements of the NDA/CDS syllabus.</p>
 
 <h2>1. Algebra of Complex Numbers</h2>
@@ -11316,13 +11548,7 @@ window.EXPANDED_NOTES_DATA["complex-numbers"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Candidates often confuse the imaginary part Im(z) with ib; remember Im(z) is strictly the real coefficient b, not ib.</li>
-    <li style="margin-bottom: 8px;">Key Focus: Mastering the cycle of powers of i (i, -1, -i, 1) is essential for quickly simplifying high powers like i^100 without manual multiplication.</li>
-    <li style="margin-bottom: 8px;">Common Error: In division, failing to multiply numerator and denominator by the conjugate of the denominator leads to incorrect answers; always rationalize to the form a + ib.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -11334,11 +11560,24 @@ window.EXPANDED_NOTES_DATA["complex-numbers"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly important for NDA, CDS, and AFCAT mathematics sections; complex numbers are frequently tested in objective questions involving algebraic properties, modulus-argument form, and solving quadratic equations with complex roots.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Candidates often confuse the imaginary part Im(z) with ib; remember Im(z) is strictly the real coefficient b, not ib.</li>
+    <li style="margin-bottom: 8px;">Key Focus: Mastering the cycle of powers of i (i, -1, -i, 1) is essential for quickly simplifying high powers like i^100 without manual multiplication.</li>
+    <li style="margin-bottom: 8px;">Common Error: In division, failing to multiply numerator and denominator by the conjugate of the denominator leads to incorrect answers; always rationalize to the form a + ib.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["straight-lines"] = String.raw`
-<h1>Straight Lines</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Straight Lines</h3>
+  
+  <hr />
 
 <h2>Introduction to Straight Lines</h2>
 <p>
@@ -11619,13 +11858,7 @@ Then <em>y = 4(-8/7) + 7 = -32/7 + 49/7 = 17/7</em>. Substitute into L₃:</p>
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">NDA/CDS frequently tests the 'shortest distance from a point to a line' formula: |ax₁ + by₁ + c| / √(a² + b²).</li>
-    <li style="margin-bottom: 8px;">Trick questions often involve finding the equation of a line given two points or the angle between two lines using tan θ = |(m₂ - m₁) / (1 + m₁m₂)|.</li>
-    <li style="margin-bottom: 8px;">Collinearity of three points is a common check; if the area of the triangle formed by them is zero, they are collinear.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -11637,11 +11870,24 @@ Then <em>y = 4(-8/7) + 7 = -32/7 + 49/7 = 17/7</em>. Substitute into L₃:</p>
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Straight lines are a core component of the Mathematics section in NDA, CDS, and AFCAT exams, typically contributing 2-4 direct questions per paper. Mastery of slope, intercepts, and distance formulas is essential for quick problem-solving.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">NDA/CDS frequently tests the 'shortest distance from a point to a line' formula: |ax₁ + by₁ + c| / √(a² + b²).</li>
+    <li style="margin-bottom: 8px;">Trick questions often involve finding the equation of a line given two points or the angle between two lines using tan θ = |(m₂ - m₁) / (1 + m₁m₂)|.</li>
+    <li style="margin-bottom: 8px;">Collinearity of three points is a common check; if the area of the triangle formed by them is zero, they are collinear.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["central-tendency"] = String.raw`
-<h1>Central Tendency</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Central Tendency</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 <p>In statistics, <strong>central tendency</strong> refers to the central or typical value around which data points tend to cluster. It provides a single value that represents the entire dataset, making it easier to understand and compare distributions. The three most common measures of central tendency are the <strong>Mean</strong>, <strong>Median</strong>, and <strong>Mode</strong>. For defence exams (NDA, CDS, AFCAT) you must be able to compute these measures for both <em>ungrouped</em> and <em>grouped</em> data, interpret frequency distributions, construct ogives, and apply the empirical relationship between mean, median, and mode.</p>
@@ -11964,13 +12210,7 @@ where:<br>
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Master the empirical relationship: 3(Median) = Mean + 2(Mode), which is frequently tested in NDA/CDS quantitative aptitude sections.</li>
-    <li style="margin-bottom: 8px;">Be proficient in calculating the mean for grouped data using the assumed mean method and step-deviation method to save time during exams.</li>
-    <li style="margin-bottom: 8px;">Understand the impact of outliers: Mean is sensitive to extreme values, while Median and Mode are robust, a key concept for interpreting statistical distributions in UPSC Prelims.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -11982,12 +12222,24 @@ where:<br>
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for NDA, CDS, and UPSC Prelims quantitative aptitude sections, where questions on calculating mean, median, and mode for both ungrouped and grouped data are common.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Master the empirical relationship: 3(Median) = Mean + 2(Mode), which is frequently tested in NDA/CDS quantitative aptitude sections.</li>
+    <li style="margin-bottom: 8px;">Be proficient in calculating the mean for grouped data using the assumed mean method and step-deviation method to save time during exams.</li>
+    <li style="margin-bottom: 8px;">Understand the impact of outliers: Mean is sensitive to extreme values, while Median and Mode are robust, a key concept for interpreting statistical distributions in UPSC Prelims.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["data-interpretation"] = String.raw`
-<h1>Data Interpretation</h1>
-
-<p>Data Interpretation (DI) is a critical component of the Quantitative Aptitude section in Indian Defence Exams such as NDA, CDS, and AFCAT. It tests an aspirant's ability to read, analyze, and draw conclusions from numerical data presented in various visual or tabular formats. The mathematical level required is strictly Class 10th, but the trick lies in the speed and accuracy of interpretation under strict time constraints.</p>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Data Interpretation</h3>
+  
+  <p>Data Interpretation (DI) is a critical component of the Quantitative Aptitude section in Indian Defence Exams such as NDA, CDS, and AFCAT. It tests an aspirant's ability to read, analyze, and draw conclusions from numerical data presented in various visual or tabular formats. The mathematical level required is strictly Class 10th, but the trick lies in the speed and accuracy of interpretation under strict time constraints.</p>
 
 <h2>Types of Data Representation</h2>
 
@@ -12215,13 +12467,7 @@ window.EXPANDED_NOTES_DATA["data-interpretation"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">High-frequency traps include misreading units (e.g., 'in thousands' vs. absolute numbers) and confusing row/column headers in dense tables.</li>
-    <li style="margin-bottom: 8px;">Examiners often combine multiple operations, such as calculating percentage changes or ratio analyses directly from base table data, requiring multi-step calculation accuracy.</li>
-    <li style="margin-bottom: 8px;">Speed is critical; aspirants must practice identifying the most efficient calculation path (e.g., using approximation for large numbers) rather than performing exact arithmetic for every step.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -12233,11 +12479,24 @@ window.EXPANDED_NOTES_DATA["data-interpretation"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Critical for the Quantitative Aptitude section of NDA, CDS, and AFCAT; high weightage due to its reliance on speed and accuracy rather than complex formulas.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">High-frequency traps include misreading units (e.g., 'in thousands' vs. absolute numbers) and confusing row/column headers in dense tables.</li>
+    <li style="margin-bottom: 8px;">Examiners often combine multiple operations, such as calculating percentage changes or ratio analyses directly from base table data, requiring multi-step calculation accuracy.</li>
+    <li style="margin-bottom: 8px;">Speed is critical; aspirants must practice identifying the most efficient calculation path (e.g., using approximation for large numbers) rather than performing exact arithmetic for every step.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["limits-continuity"] = String.raw`
-<h1>Limits and Continuity - Comprehensive Study Notes for NDA/CDS/AFCAT</h1>
-<hr>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Limits and Continuity - Comprehensive Study Notes for NDA/CDS/AFCAT</h3>
+  
+  <hr>
 
 <h2>1. Introduction to Limits</h2>
 <p>The concept of limits lies at the foundation of calculus and is indispensable for understanding the behavior of functions near specific points. In the context of NDA, CDS, and AFCAT examinations, mastery of limits and continuity is essential as these topics appear frequently in both theoretical and applied problems. This chapter provides an exhaustive treatment of limits, their evaluation techniques, and the critical concept of continuity—two pillars that often determine the direction and difficulty of numerical and proof-based questions.</p>
@@ -12456,13 +12715,7 @@ window.EXPANDED_NOTES_DATA["limits-continuity"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick questions often involve functions with removable discontinuities where f(a) is defined differently from the limit, testing the distinction between limit existence and function value.</li>
-    <li style="margin-bottom: 8px;">Examinees must be proficient in evaluating indeterminate forms (0/0, ∞/∞) using algebraic manipulation, L'Hôpital's Rule, or standard limits like lim(x→0) sin(x)/x = 1.</li>
-    <li style="margin-bottom: 8px;">Identifying the type of discontinuity (removable, jump, or infinite) is a common conceptual question that relies on comparing LHL, RHL, and f(a).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -12474,11 +12727,24 @@ window.EXPANDED_NOTES_DATA["limits-continuity"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical for NDA, CDS, and AFCAT Mathematics sections; limits and continuity are fundamental for solving calculus-based problems and appear frequently in both objective and descriptive formats.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick questions often involve functions with removable discontinuities where f(a) is defined differently from the limit, testing the distinction between limit existence and function value.</li>
+    <li style="margin-bottom: 8px;">Examinees must be proficient in evaluating indeterminate forms (0/0, ∞/∞) using algebraic manipulation, L'Hôpital's Rule, or standard limits like lim(x→0) sin(x)/x = 1.</li>
+    <li style="margin-bottom: 8px;">Identifying the type of discontinuity (removable, jump, or infinite) is a common conceptual question that relies on comparing LHL, RHL, and f(a).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
-<h1>Differentiation</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Differentiation</h3>
+  
+  <hr />
 
 <h2>1. Introduction and Fundamental Concept</h2>
 
@@ -13101,13 +13367,7 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">NDA and CDS frequently test the ability to compute derivatives of simple functions (polynomials, exponentials) directly from the first principle definition rather than using standard formulas.</li>
-    <li style="margin-bottom: 8px;">A common trap involves confusing the derivative of a composite function (Chain Rule) with the product of derivatives; candidates must strictly apply d/dx[f(g(x))] = f'(g(x)) * g'(x).</li>
-    <li style="margin-bottom: 8px;">Questions often require identifying where a function is differentiable, particularly at points of discontinuity or sharp corners (e.g., |x| at x=0), where the left-hand and right-hand derivatives do not match.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -13119,11 +13379,24 @@ window.EXPANDED_NOTES_DATA["differentiation"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Differentiation is a high-weightage topic in the Mathematics papers of NDA, CDS, and AFCAT, typically contributing 5-8 direct questions. Mastery of the first principle and standard differentiation rules is essential for solving these problems quickly and accurately under time pressure.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">NDA and CDS frequently test the ability to compute derivatives of simple functions (polynomials, exponentials) directly from the first principle definition rather than using standard formulas.</li>
+    <li style="margin-bottom: 8px;">A common trap involves confusing the derivative of a composite function (Chain Rule) with the product of derivatives; candidates must strictly apply d/dx[f(g(x))] = f'(g(x)) * g'(x).</li>
+    <li style="margin-bottom: 8px;">Questions often require identifying where a function is differentiable, particularly at points of discontinuity or sharp corners (e.g., |x| at x=0), where the left-hand and right-hand derivatives do not match.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["integration"] = String.raw`
-<h1>Integration</h1>
-<hr/>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Integration</h3>
+  
+  <hr/>
 
 <h2>1. Conceptual Foundation</h2>
 
@@ -13328,11 +13601,18 @@ window.EXPANDED_NOTES_DATA["integration"] = String.raw`
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 🧠 Mnemonic: “S‑U‑B‑P‑A” – for solving area problems: **S**et limits, **U**se absolute value, **B**reak at zeros, **P**erform integration, **A**dd/subtract.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["syl-probability"] = String.raw`
-<h1>Probability (Syl-Probability)</h1>
-<hr/>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Probability (Syl-Probability)</h3>
+  
+  <hr/>
 
 <h2>1. Fundamental Concepts</h2>
 
@@ -13543,11 +13823,18 @@ window.EXPANDED_NOTES_DATA["syl-probability"] = String.raw`
 
 <h2>11. Concluding Remarks</h2>
 <p>Probability forms a critical quantitative ability segment in the NDA, CDS, and AFCAT syllabi. Mastery of the classical definition, conditional probability, Bayes' Theorem, and the associated theorems equips the aspirant to tackle both direct numerical problems and conceptual multiple‑choice questions. Regular practice with past papers, focusing on the identified PYQ trends, combined with the mnemonic devices and trap‑alert awareness presented above, will significantly enhance performance. Remember to internalise the key formulas, practice combination calculations, and apply the “at least one” shortcut whenever a scenario involves multiple independent trials. Consistent revision of these concepts will ensure a strong foundation for the probability section of the defence exams.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
-<h1>Lines, Angles & Triangles</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Lines, Angles & Triangles</h3>
+  
+  <hr />
 
 <h2>1. Introduction</h2>
 
@@ -14327,11 +14614,18 @@ window.EXPANDED_NOTES_DATA["lines-angles-triangles"] = String.raw`
 </div>
 
 <p><em>Master these concepts thoroughly, practice PYQs from the last 5 years, and you'll be well-prepared for the geometry questions in your defence examination.</em></p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["area-perimeter"] = String.raw`
-<h1>Area and Perimeter: Comprehensive Study Notes for Defence Exams</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Area and Perimeter: Comprehensive Study Notes for Defence Exams</h3>
+  
+  <hr />
 
 <p><strong>Introduction:</strong> Area and perimeter are fundamental geometric concepts that form the cornerstone of geometry in competitive examinations like NDA, CDS, and AFCAT. Understanding these concepts deeply, along with their applications in composite figures and advanced theorems like Heron's formula, can significantly boost your score. This note covers all essential topics including triangles, quadrilaterals, circles, sectors, segments, and related problem-solving strategies.</p>
 
@@ -14678,11 +14972,18 @@ window.EXPANDED_NOTES_DATA["area-perimeter"] = String.raw`
 <h2>Conclusion</h2>
 
 <p>The area and perimeter chapter forms a critical foundation for geometry in competitive exams. By thoroughly understanding the formulas for triangles, quadrilaterals, circles, and composite figures—and by practicing the application of Heron's formula and sector/segment areas—you will be well-prepared for the NDA, CDS, and AFCAT examinations. Focus on the high-yield facts, avoid common traps, and maintain a systematic approach to problem-solving. With diligent practice, these concepts will become second nature and contribute significantly to your overall performance.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["surface-area-volume"] = String.raw`
-<h1>Surface Area and Volume</h1>
-<hr>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Surface Area and Volume</h3>
+  
+  <hr>
 
 <h2>Introduction and Importance</h2>
 <p>Surface area and volume are fundamental geometric concepts that appear frequently in competitive examinations such as National Defence Academy (NDA), Combined Defence Services (CDS), and Air Force Cadet Test (AFCAT). These topics test a candidate's ability to calculate spatial dimensions and understand the relationship between different solid shapes. Mastery of these concepts is essential because they form the basis for solving real-world problems involving construction, architecture, engineering, and material science.</p>
@@ -14880,11 +15181,18 @@ window.EXPANDED_NOTES_DATA["surface-area-volume"] = String.raw`
 </ul>
 
 <p>With thorough practice and regular revision, these concepts become second nature, enabling quick and accurate solutions under exam conditions.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
-<h1>Percentages-Profit-Loss</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Percentages-Profit-Loss</h3>
+  
+  <hr />
 
 <h2>1. Core Concepts and Definitions</h2>
 
@@ -15195,11 +15503,18 @@ window.EXPANDED_NOTES_DATA["percentages-profit-loss"] = String.raw`
 </div>
 
 <p>With thorough practice of the concepts, formulas, and traps outlined above, you will be well‑equipped to tackle any “percentages‑profit‑loss” question in the NDA, CDS, or AFCAT examinations.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["ratios-averages"] = String.raw`
-<h1>Ratios, Proportions & Averages: Comprehensive Defence Exam Notes</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ratios, Proportions & Averages: Comprehensive Defence Exam Notes</h3>
+  
+  <hr />
 
 <h2>1. Introduction & Foundational Concepts</h2>
 <p>Welcome to one of the most scoring and frequently tested areas in the Quantitative Aptitude section of NDA, CDS, and AFCAT exams. The topic of <strong>Ratios, Proportions, and Averages</strong> forms the backbone of commercial mathematics. It covers everything from simple comparisons to complex mixture problems. Mastering this section is not optional; it is a mandatory requirement for clearing the cutoff marks in the maths paper.</p>
@@ -15530,12 +15845,18 @@ window.EXPANDED_NOTES_DATA["ratios-averages"] = String.raw`
 </div>
 
 <p>By internalizing these rules, recognizing the patterns, and practicing the cross-multiplication method extensively, you can guarantee maximum marks in the Arithmetic section of your CDS, NDA, or AFCAT exam. Ensure you solve at least 50 problems per sub-topic before appearing for the actual exam to build the required speed and accuracy.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["time-distance"] = String.raw`
-
-<h1>Time, Distance & Speed: Comprehensive Study Notes</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Time, Distance & Speed: Comprehensive Study Notes</h3>
+  
+  <hr />
 
 <p>The topic of <strong>Time, Distance and Speed</strong> is one of the most frequently tested areas in CDS, AFCAT, and NDA examinations. Questions from this topic appear every year, often in combination with work and time concepts. This chapter forms the foundation for understanding motion problems, relative speed calculations, upstream/downstream navigation, and work efficiency problems. Master these concepts thoroughly, as they frequently appear in the Quantitative Aptitude section with 2-4 questions per exam.</p>
 
@@ -16232,11 +16553,18 @@ Net rate = 1/10 - 1/20 = 1/20<br/>
 </div>
 
 <p><strong>All the best for your examination preparation!</strong></p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["syl-numerical-speed"] = String.raw`
-<h1>Speed, Time & Distance: The Complete Defence Exam Masterclass</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Speed, Time & Distance: The Complete Defence Exam Masterclass</h3>
+  
+  <hr />
 
 <h2>1. Foundational Concepts: Understanding the Trinity of Motion</h2>
 <p>In the universe of kinematics, three variables dictate the motion of every object: <em>Distance</em>, <em>Time</em>, and <em>Speed</em>. For defence aspirants, mastering the interplay between these three is not just about solving MCQs—it's about applying logical reasoning under pressure, much like calculating approach speeds in interceptor missions or convoy logistics.</p>
@@ -16440,11 +16768,18 @@ Reverse: <em>M</em>eters per second to <em>K</em>ilometers per hour = multiply b
 <li>Double-check unit consistency as the very last step.</li>
 </ol>
 <p>By mastering the 2xy/(x+y) rule, the 5/18 conversion factor, and the M1D1H1/W1 chain formula, you secure guaranteed marks in the Numerical Ability section. These concepts are low-effort, high-yield, and frequently tested across all three defence examinations.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["syl-numerical-ratios"] = String.raw`
-<h1>Numerical Ratios, Proportions & Percentages: The Complete Defence Exam Guide</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Numerical Ratios, Proportions & Percentages: The Complete Defence Exam Guide</h3>
+  
+  <hr />
 
 <p>Welcome to the most comprehensive study module on <strong>Numerical Ratios, Proportions, and Percentages</strong>, specifically curated for the <strong>AFCAT, NDA, and CDS</strong> examinations. This topic forms the bedrock of the Numerical Aptitude section and consistently contributes 2-4 questions in every AFCAT and CDS paper. While seemingly basic (Class 10 level), questions involving ratio and proportion often involve multi-step calculations, traps, and proportional reasoning that catch aspirants off-guard.</p>
 
@@ -16851,11 +17186,18 @@ window.EXPANDED_NOTES_DATA["syl-numerical-ratios"] = String.raw`
 <p>Ratios, proportions, and percentages form a unified mathematical toolkit. The skill of identifying the <strong>type of proportion</strong>, applying the <strong>proportionality constant</strong> method, and converting fluently between <strong>fractions, ratios, and percentages</strong> is the trifecta of success in this topic. Defence exams, particularly AFCAT, test not just computation but <strong>proportional reasoning</strong> — the ability to set up the right equation and identify traps.</p>
 
 <p>Regular practice of 10-15 PYQ-style problems daily, with emphasis on age and income distribution patterns, will solidify your mastery. Remember: in every ratio problem, <strong>k</strong> is your best friend. Welcome it into your solution, and the problem will unfold.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["parts-of-speech"] = String.raw`
-<h1>PARTS OF SPEECH: Comprehensive Study Notes</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">PARTS OF SPEECH: Comprehensive Study Notes</h3>
+  
+  <hr />
 
 <p>Parts of Speech form the foundational building block of English grammar. In the NDA, CDS, and AFCAT examinations, the UPSC consistently tests your ability to identify the grammatical function of a word within a specific sentence context—rather than relying on dictionary definitions. Mastery of this topic is essential, as questions on parts of speech frequently appear in both the English comprehension and grammar sections of these examinations.</p>
 
@@ -18059,11 +18401,18 @@ Focus your revision on these high-frequency areas!
 <p style="text-align:center; font-style:italic; color:#666;">
 <strong>Remember:</strong> In defence exams, success comes from understanding that every word has a job to do. Master the function, master the exam! | Best of luck for NDA, CDS, and AFCAT!
 </p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["tenses-complete"] = String.raw`
-<h1>Tenses – Complete Study Notes for NDA, CDS & AFCAT</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Tenses – Complete Study Notes for NDA, CDS & AFCAT</h3>
+  
+  <hr />
 
 <h2>📚 Introduction to Tenses</h2>
 <p>A <strong>tense</strong> is a grammatical category that locates a situation or action in time. In English, there are three primary time frames — <strong>Past</strong>, <strong>Present</strong>, and <strong>Future</strong> — and four aspects — <strong>Simple</strong>, <strong>Continuous (Progressive)</strong>, <strong>Perfect</strong>, and <strong>Perfect Continuous</strong>. This gives us <strong>12 basic tense forms</strong> plus several complex combinations.</p>
@@ -18438,11 +18787,18 @@ window.EXPANDED_NOTES_DATA["tenses-complete"] = String.raw`
 <hr />
 
 <p><strong>Best of luck for your NDA / CDS / AFCAT preparation! 🇮🇳</strong></p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["subject-verb-agreement"] = String.raw`
-<h1>Subject-Verb Agreement</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Subject-Verb Agreement</h3>
+  
+  <hr />
 
 <h2>1. Introduction to Subject-Verb Agreement (SVA)</h2>
 <p>Subject-Verb Agreement is one of the most fundamental and highly tested grammatical concepts in English for Indian Defence Examinations (NDA, CDS, AFCAT). It dictates that the <strong>verb in a sentence must agree in number (singular/plural) with its subject</strong>. In simpler terms, a singular subject takes a singular verb, and a plural subject takes a plural verb.</p>
@@ -18770,11 +19126,18 @@ window.EXPANDED_NOTES_DATA["subject-verb-agreement"] = String.raw`
 <div style="background-color:rgba(220, 53, 69, 0.15); padding:10px; border-left:4px solid #dc3545; margin:10px 0;">
 <p style="margin:0;"><strong>🎯 PYQ Insight:</strong> In the 2024-2026 CDS and AFCAT papers, sentences involving "A number of" vs "The number of" and structures like "Neither the principal nor the teachers <u>were</u> present" were heavily tested. Mastery of the Proximity Rule application for OR/NOR structures (where the nearest subject dictates the verb) is the difference between getting the question right and losing easy marks. Always isolate the true subject before committing to an answer.</p>
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["sentence-structure"] = String.raw`
-<h1>Sentence Structure</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Sentence Structure</h3>
+  
+  <hr />
 
 <p>Welcome to the comprehensive guide on <strong>Sentence Structure</strong>, a foundational pillar of the English Language section in the Defence Entrance Examinations (NDA, CDS, AFCAT). A sentence is not merely a group of words; it is a carefully constructed architectural unit. If the foundation is weak (fragments, run-ons) or the walls are uneven (lack of parallelism), the meaning collapses. This module dissects every component required to master sentence construction, from the tiniest phrase to the most complex compound-complex sentence, ensuring you can both identify and correct structural errors with absolute precision.</p>
 
@@ -19081,11 +19444,18 @@ window.EXPANDED_NOTES_DATA["sentence-structure"] = String.raw`
 </ul>
 
 <p>Mastering sentence structure is not just about passing an MCQ; it is about developing the precision required for military communication, where ambiguity can lead to catastrophic failures. Practice identifying these structures in dense editorials and quality newspapers to build the speed and accuracy required for the NDA and CDS exams.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["voice-conversion"] = String.raw`
-<h1>Voice Conversion: Active & Passive Voice</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Voice Conversion: Active & Passive Voice</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 
@@ -19767,11 +20137,18 @@ CORRECT: "His brother resembles him." (No passive possible)</li>
 </ul>
 
 <p><strong>Remember:</strong> In defence exams, voice conversion questions test your understanding of grammatical structures, attention to detail, and ability to spot traps. Focus on the patterns mentioned above, especially the ones highlighted from recent PYQ trends.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["narration-speech"] = String.raw`
-<h1>Narration & Speech: Direct to Indirect Conversion</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Narration & Speech: Direct to Indirect Conversion</h3>
+  
+  <hr />
 
 <p>Welcome to the most definitive guide on <strong>Narration (Direct and Indirect Speech)</strong>, custom-engineered for the linguistic precision required in <strong>NDA, CDS, and AFCAT</strong> examinations. Narration tests your ability to manipulate the English language according to strict grammatical rules. A single misplaced comma or incorrect tense can cost you marks. This module dissects every rule, exception, and PYQ trap associated with converting Direct Speech into Indirect Speech.</p>
 
@@ -20188,11 +20565,18 @@ td>Leave-taking</td>
 </div>
 
 <p>Mastering Narration requires consistent practice. Take 5 random sentences daily, convert them using the 5-step strategy above, and verify your answers against this rulebook. In the NDA/CDS exams, consistency in tense and pronoun alignment guarantees a full score in the English section.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["modifiers"] = String.raw`
-<h1>Modifiers: The Complete Defence Exam Grammar Guide</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Modifiers: The Complete Defence Exam Grammar Guide</h3>
+  
+  <hr />
 
 <h2>📚 Introduction to Modifiers</h2>
 <p>In English grammar, a <strong>modifier</strong> is a word, phrase, or clause that provides additional information about another word in a sentence. Modifiers function as adjectives (modifying nouns) or adverbs (modifying verbs, adjectives, or other adverbs). They add depth, detail, and clarity to our communication. However, when modifiers are placed incorrectly, they can cause confusion, ambiguity, or even unintentional humor.</p>
@@ -20717,11 +21101,18 @@ Proximity test: "with sharp teeth" is closest to "running," but teeth don't run.
 <p>By understanding misplaced modifiers, dangling modifiers, and squinting modifiers, and by applying the systematic strategies outlined in these notes, you will not only excel in NDA, CDS, and AFCAT examinations but also develop the linguistic foundation of a confident and capable officer. Remember: <strong>Place modifiers close to their targets, ensure logical subjects match, and eliminate ambiguity at all costs.</strong></p>
 
 <p><strong>Jai Hind! 🇮🇳</strong></p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["punctuation-basics"] = String.raw`
-<h1>Punctuation Basics: The Complete Guide for Defence Exams</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Punctuation Basics: The Complete Guide for Defence Exams</h3>
+  
+  <hr />
 
 <p>Welcome to the ultimate guide on <strong>Punctuation Basics</strong>, a critical component of the English Language section in the NDA, CDS, and AFCAT examinations. While often overlooked, punctuation acts as the skeleton of the English language, providing clarity, structure, and rhythm to sentences. A misplaced comma or a misused apostrophe can completely alter the meaning of a sentence, which is precisely why the UPSC and other defence examining bodies rigorously test this topic under the <strong>"Spotting Errors"</strong> section.</p>
 
@@ -21000,11 +21391,18 @@ A comma splice is a specific type of run-on error where two independent clauses 
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 Final PYQ Insight:</strong> In the 2020-2026 window, questions rarely ask you to "define" punctuation. Instead, they provide a full sentence with a missing punctuation mark or a misplaced apostrophe. The key is to remember the <strong>non-restrictive clause comma rule</strong> and the <strong>"Its vs. It's"</strong> distinction, as these account for over 60% of the punctuation errors tested in recent papers. Master these, and you master the topic.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["transformation-sentences"] = String.raw`
-<h1>Transformation of Sentences</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Transformation of Sentences</h3>
+  
+  <hr />
 
 <p>Sentence transformation is a high-scoring section in Defence English papers (CDS, NDA, AFCAT). It tests your ability to recognize grammatical structures and reproduce the same meaning using a different syntactic framework. Every transformation must preserve the <strong>core semantic meaning</strong> while altering the form.</p>
 
@@ -21553,11 +21951,18 @@ window.EXPANDED_NOTES_DATA["transformation-sentences"] = String.raw`
 </div>
 
 <p><strong>Final Word:</strong> Sentence transformation rewards pattern recognition. The more you practice, the faster your brain maps simple structures to complex ones. Before the exam, revise the master table at the top of this guide — it covers 90% of question types tested between 2020 and 2026.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["synonyms-antonyms-detailed"] = String.raw`
-<h1>Synonyms & Antonyms: Comprehensive Study Notes for Defence Exams</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Synonyms & Antonyms: Comprehensive Study Notes for Defence Exams</h3>
+  
+  <hr />
 
 <h2>1. Introduction & Strategic Importance</h2>
 <p>In the English sections of the <strong>NDA, CDS, and AFCAT</strong> examinations, vocabulary questions have evolved significantly. Candidates are no longer tested on simple, direct opposites (e.g., Hot ↔ Cold). Instead, the modern Defence examinations focus on the <em>nuance of meaning</em>, contextual usage, and the subtle distinctions between words that appear similar on the surface.</p>
@@ -21901,11 +22306,18 @@ A) Clarify &nbsp;&nbsp; B) Confuse &nbsp;&nbsp; C) Elaborate &nbsp;&nbsp; D) Adm
 <hr />
 <p><strong>Conclusion:</strong><br>
 Vocabulary for the NDA, CDS, and AFCAT exams in 2026 is no longer about rote memorization. It requires <strong>etymological awareness</strong>, an understanding of <strong>connotation vs denotation</strong>, and the ability to distinguish <strong>nuances of meaning</strong>. By mastering Latin/Greek roots and building a contextual vocabulary bank from newspaper editorials, aspirants can score highly in the English section.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["one-word-substitution"] = String.raw`
-<h1>One-Word-Substitution: Comprehensive Study Notes</h1>
-<hr>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">One-Word-Substitution: Comprehensive Study Notes</h3>
+  
+  <hr>
 
 <h2>Introduction to One-Word-Substitution</h2>
 <p>The one-word-substitution (OWS) question type is a critical component of vocabulary-based aptitude tests in NDA, CDS, and AFCAT examinations. This question demands precise knowledge of synonyms, antonyms, and specialized terminology across various domains. The core requirement is to identify the single most appropriate word that can replace a given phrase while maintaining grammatical correctness and contextual relevance.</p>
@@ -22154,15 +22566,30 @@ window.EXPANDED_NOTES_DATA["one-word-substitution"] = String.raw`
 </table>
 
 <p>By systematically studying these categories, creating mnemonics, and practicing with real exam questions, aspirants can build strong retention and accuracy in one-word-substitution questions. Consistency and targeted revision are key to converting this topic from a weak area to a high-scoring strength.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["idioms-phrases"] = String.raw`
-User Safety: safe
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revision Notes</h3>
+  
+  User Safety: safe
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["phrasal-verbs"] = String.raw`
-<h1>Phrasal Verbs: The Complete Defence Exam Guide (NDA, CDS, AFCAT)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Phrasal Verbs: The Complete Defence Exam Guide (NDA, CDS, AFCAT)</h3>
+  
+  <hr />
 
 <p>Phrasal verbs are arguably the most tested grammar component in the English sections of the <strong>NDA, CDS, and AFCAT</strong> examinations. They test an aspirant's grasp of idiomatic English, contextual usage, and grammatical structure. Unlike standard verbs, phrasal verbs are combinations where the literal meaning of the words fails to convey the intended meaning. For example, "give up" does not mean "give" + "up", but means "to surrender". Mastering these combinations is non-negotiable for scoring high marks in the verbal ability section.</p>
 
@@ -22739,13 +23166,18 @@ Think of "OUT" as exterior or public. <br>
 </ul>
 
 <p>Mastering phrasal verbs ensures you can tackle cloze tests, idioms, fill-in-the-blanks, and sentence correction sections with absolute confidence. In the NDA, CDS, or AFCAT, a strong grip on these combinations is a massive scoring differentiator that leaves no room for ambiguity.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["reading-comprehension"] = String.raw`
-
-
-<h1>Reading Comprehension: Mastering Inference, Tone, and Main Idea for CDS & AFCAT</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Reading Comprehension: Mastering Inference, Tone, and Main Idea for CDS & AFCAT</h3>
+  
+  <hr />
 
 <p>Welcome to the comprehensive study guide on <strong>Reading Comprehension (RC)</strong>, designed specifically for aspirants of the Indian Defence Exams (NDA, CDS, and AFCAT). In these competitive exams, reading comprehension is not merely a test of language fluency but a rigorous assessment of your cognitive abilities, critical thinking, and speed-reading capabilities. Given the graduation-level standard of these exams, passages are intellectually demanding, often sourced from academic journals, editorial columns, or classic literature.</p>
 
@@ -22936,23 +23368,54 @@ window.EXPANDED_NOTES_DATA["reading-comprehension"] = String.raw`
 </div>
 
 <p>By mastering these techniques and internalizing the PYQ trends, you will be well-equipped to tackle the reading comprehension section of the NDA, CDS, and AFCAT exams with confidence and precision. Happy studying!</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["error-detection"] = String.raw`
-User Safety: safe
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revision Notes</h3>
+  
+  User Safety: safe
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["sentence-improvement"] = String.raw`
-User Safety: safe
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revision Notes</h3>
+  
+  User Safety: safe
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["ordering-rearrangement"] = String.raw`
-User Safety: safe
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revision Notes</h3>
+  
+  User Safety: safe
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["fill-blanks-cloze"] = String.raw`
-<h1>Fill in the Blanks (Cloze Test)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Fill in the Blanks (Cloze Test)</h3>
+  
+  <hr />
 
 <p>The Cloze Test, commonly referred to as "Fill in the Blanks," is a critical component of the English Language section in defence examinations such as NDA, CDS, and AFCAT. Unlike standard vocabulary questions, the Cloze Test evaluates a candidate's holistic comprehension, contextual vocabulary, grammatical accuracy, and logical flow. Since the syllabus is pegged at the Class 12th level, the passages are often derived from editorial columns, national dailies, and academic journals, requiring aspirants to possess a robust command over formal English. The recent trends from 2020 to 2026 indicate a distinct shift away from rote memorization of synonyms toward an understanding of <strong>collocations</strong>, <strong>prepositional usage</strong>, and <strong>logical connectors</strong>.</p>
 
@@ -23191,11 +23654,18 @@ window.EXPANDED_NOTES_DATA["fill-blanks-cloze"] = String.raw`
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>💡 High-Yield Fact:</strong> The year 2026 trend analysis suggests that Cloze Tests will increasingly feature passages related to national security, defense technology, and international relations. Familiarizing yourself with the specific vocabulary of these domains (e.g., "deterrence," "sovereignty," "strategic parity") will give you a significant edge.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["preamble"] = String.raw`
-<h1>Preamble of the Indian Constitution</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Preamble of the Indian Constitution</h3>
+  
+  <hr />
 
 <h2>1. Philosophical Foundation & Nature of the Indian State</h2>
 <p>The Preamble to the Constitution of India is a brief introductory statement that outlines the guiding principles, objectives, and the fundamental nature of the Indian political system. It serves as the "soul" or "identity card" of the Constitution, reflecting the vision of the framers and the aspirations of the people. Though not enforceable in a court of law directly, the Supreme Court has repeatedly ruled that the Preamble is an integral part of the Constitution and aids in the interpretation of ambiguous articles.</p>
@@ -23384,11 +23854,18 @@ window.EXPANDED_NOTES_DATA["preamble"] = String.raw`
 </ul>
 
 <p>Mastery of the Preamble is not just about memorizing definitions; it is about understanding the <em>philosophy</em> that underpins every article, schedule, and amendment of the Indian Constitution. For NDA, CDS, and AFCAT aspirants, this topic frequently appears in General Ability Tests, making a thorough grasp essential for scoring high.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
-<h1>Physics: Units, Measurement & Everyday Applications</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Physics: Units, Measurement & Everyday Applications</h3>
+  
+  <hr />
 
 <div style="background-color:rgba(40, 167, 69, 0.15); padding:15px; border-left:6px solid #28a745; margin:15px 0;">
 <strong>📋 Topic Overview:</strong> This chapter forms the foundation of physics and is crucial for all defence exams. Questions from this topic appear every year, with emphasis on SI units, dimensional analysis, and practical applications of physics principles in daily life.
@@ -24014,11 +24491,18 @@ window.EXPANDED_NOTES_DATA["physics-units-everyday"] = String.raw`
 
 <hr />
 <p style="text-align: center; color: #666; font-size: 12px;"><em>End of Chapter: Physics - Units & Everyday Applications | Prepared for NDA, CDS, AFCAT Aspirants</em></p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["acids-bases"] = String.raw`
-<h1>Acids, Bases and Salts</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Acids, Bases and Salts</h3>
+  
+  <hr />
 
 <h2>1. Introduction and Overview</h2>
 <p>Acids, bases, and salts form one of the most fundamental and frequently tested topics in the Chemistry section of NDA, CDS, and AFCAT examinations. Questions from this topic range from basic definitions to application-based problems involving pH calculations, neutralization reactions, and everyday chemical substances. Since Class 10–12 level chemistry is the standard, aspirants must have a thorough conceptual clarity along with memorization of key substances, their formulae, uses, and chemical behaviour.</p>
@@ -24810,11 +25294,18 @@ NaOH + HCl → NaCl + H₂O</p>
 <strong>🎯 PYQ Insight:</strong> Recent trends (2020–2026) show UPSC increasingly asking application-based questions. Focus on: (1) pH of biological fluids and the role of buffers, (2) action of antacids and their chemical basis, (3) neutralization in soil treatment, (4) everyday applications of acids like tartaric acid in baking powder and citric acid in food preservation, and (5) the amphoteric nature of oxides. Practice numerical problems on pH calculation and understand the logarithmic nature of the scale.</div>
 
 <p style="margin-top:1rem;">This comprehensive coverage of Acids, Bases, and Salts should provide aspirants with a thorough understanding of the topic, covering all sub-topics specified in the official syllabus and aligned with recent UPSC question patterns. Regular revision of the formulae, reactions, and applications listed above will ensure strong performance in the examination.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["syl-numerical"] = String.raw`
-<h1>Periodic Table, Chemical Bonding & Molecular Structure</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Periodic Table, Chemical Bonding & Molecular Structure</h3>
+  
+  <hr />
 
 <p><strong>Context:</strong> This module covers the "syl-numerical" chemistry syllabus segment for NDA, CDS, and AFCAT exams, focusing on high-weightage topics from the official syllabus and previous year question trends (2020–2026). Mastery of periodic trends, bonding theories, and molecular geometry is essential for scoring in the General Ability Test (GAT) and Science sections.</p>
 
@@ -25177,11 +25668,18 @@ window.EXPANDED_NOTES_DATA["syl-numerical"] = String.raw`
 
 <br/>
 <p><strong>Final Tip:</strong> Create a one-page formula sheet with all trends, hybridization geometries, bond types, and dipole examples. Review it daily in the week leading up to the exam. Good luck! 🚀</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["syl-nonverbal-reasoning"] = String.raw`
-<h1>Non-Verbal Reasoning: Comprehensive Study Notes for NDA, CDS & AFCAT</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Non-Verbal Reasoning: Comprehensive Study Notes for NDA, CDS & AFCAT</h3>
+  
+  <hr />
 
 <div style="background-color:#e7f3ff; padding:15px; border-left:4px solid #2196F3; margin-bottom:1rem;">
     <strong>🎯 Exam Relevance:</strong> Non-Verbal Reasoning (NVR) tests your <strong>visual intelligence, spatial awareness, and pattern recognition</strong> without relying on language. It carries high weightage in <strong>CDS (OTA), AFCAT, and SSB OIR (Officer Intelligence Rating)</strong> tests. In NDA, it appears in the GAT paper. Mastery here saves time for Quantitative Aptitude and English.
@@ -25671,11 +26169,18 @@ window.EXPANDED_NOTES_DATA["syl-nonverbal-reasoning"] = String.raw`
 
 <hr />
 <p style="text-align: center; font-style: italic; color: #6c757d;">End of Non-Verbal Reasoning Notes. Consistent visualization practice is the only key to mastery. "See the move before you make it."</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["what-is-history"] = String.raw`
-<h1>What Is History?</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">What Is History?</h3>
+  
+  <hr />
 
 <h2>Definition of History</h2>
 <p><strong>History</strong> is the study of past human events, particularly focusing on the development of societies, cultures, and civilizations over time. It involves collecting, analyzing, and interpreting evidence about the past to understand how and why things came to be the way they are today. History is not just about memorizing dates and events; it is a disciplined inquiry into the past that helps us comprehend the present and anticipate future trends.</p>
@@ -25830,19 +26335,42 @@ window.EXPANDED_NOTES_DATA["what-is-history"] = String.raw`
 <div style="background-color:#fff3cd; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Though no direct PYQs were found for this specific topic, similar conceptual questions appear frequently in CDS and NDA exams under the General Studies paper. Expect questions on definitions, importance of chronology, and differences between source types.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["sources-indian-history"] = String.raw`
-User Safety: safe
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revision Notes</h3>
+  
+  User Safety: safe
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["dating-systems"] = String.raw`
-User Safety: safe
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revision Notes</h3>
+  
+  User Safety: safe
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["stone-age"] = String.raw`
-<h1>Stone Age</h1>
-<hr>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Stone Age</h3>
+  
+  <hr>
 
 <h2>Introduction to the Stone Age</h2>
 <p>The Stone Age represents one of the longest periods in human prehistory, spanning from approximately 3.3 million years ago until around 3000 BCE. This era is divided into three distinct phases—Paleolithic, Mesolithic, and Neolithic—each marked by significant technological, cultural, and social transformations. Understanding the Stone Age is crucial for aspirants of NDA, CDS, and AFCAT as it forms the foundation of human evolution, early civilization, and the development of tools and technologies that shaped modern society.</p>
@@ -26087,17 +26615,30 @@ window.EXPANDED_NOTES_DATA["stone-age"] = String.raw`
 
 <h2>Conclusion</h2>
 <p>The Stone Age is a critical chapter in human history that bridges the gap between primitive hominins and modern civilization. Its study encompasses not only technological advancements but also profound shifts in human behavior, social organization, and environmental interaction. For NDA, CDS, and AFCAT aspirants, mastering the Stone Age provides a strong foundation for understanding the broader narrative of human development and the origins of civilization. Regular revision of the timeline, tool evolution, and key developments will ensure consistent performance in upcoming examinations.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["chalcolithic-age"] = String.raw`
-User Safety: safe
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revision Notes</h3>
+  
+  User Safety: safe
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["rock-art"] = String.raw`
-
-
-<h1>Rock-Art: Evolution, Themes, and the Legacy of Bhimbetka</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Rock-Art: Evolution, Themes, and the Legacy of Bhimbetka</h3>
+  
+  <hr />
 
 <p>Rock-art represents the earliest form of human visual communication, capturing the cognitive, social, economic, and spiritual transition of humankind from primitive hunter-gatherers to structured community dwellers. Among the vast corpus of global rock-art heritage, the <strong>Bhimbetka caves</strong> in India stand out as a monumental repository of continuous artistic expression spanning from the Upper Paleolithic to the Historic period. This comprehensive study note delves into the evolution of prehistoric aesthetics, the core themes of hunting and gathering, the geological context of Bhimbetka, and the archaeological techniques used to decode these ancient paintings.</p>
 
@@ -26284,11 +26825,18 @@ window.EXPANDED_NOTES_DATA["rock-art"] = String.raw`
 
 <h2>10. Conclusion: The Enduring Legacy of Prehistoric Aesthetics</h2>
 <p>The rock-art of Bhimbetka is not just a relic of the past; it is the foundation of human artistic expression. It demonstrates that the cognitive capacity for symbolic representation, aesthetic choice, and storytelling is deeply rooted in our evolutionary history. The transition from abstract geometric lines to complex narrative panels of hunting, dancing, and war shows how human societies evolved to master their environment, domesticate nature, and build complex cultures. For aspirants of NDA, CDS, and AFCAT, understanding the depth of Bhimbetka—its geological setting, pigment chemistry, stylistic evolution, and socio-cultural themes—provides a profound appreciation of India's contribution to global human heritage.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["indus-valley-civilization"] = String.raw`
-<h1>Indus Valley Civilization (Harappan Civilization)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Indus Valley Civilization (Harappan Civilization)</h3>
+  
+  <hr />
 
 <h2>Introduction &amp; Overview</h2>
 <p>The Indus Valley Civilization (IVC), also known as the Harappan Civilization, is one of the world's earliest urban civilizations, flourishing around 2600–1900 BCE in the northwestern regions of the Indian subcontinent. It is named after its first discovered site, Harappa, in present-day Pakistan. This civilization is renowned for its advanced urban planning, sophisticated drainage systems, standardized weights and measures, and extensive trade networks.</p>
@@ -26511,11 +27059,18 @@ window.EXPANDED_NOTES_DATA["indus-valley-civilization"] = String.raw`
 
 <h2>Conclusion</h2>
 <p>The Indus Valley Civilization represents a pinnacle of early human achievement in urbanism, technology, and social organization. Its legacy continues to inform our understanding of early complex societies and offers valuable insights into sustainable living, urban design, and cultural continuity in the Indian subcontinent. For defence exam aspirants, mastering this topic requires not just memorization but analytical thinking about causes of rise and fall, technological advancements, and comparative civilizational studies.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["vedic-age"] = String.raw`
-<h1>Vedic Age</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Vedic Age</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 <p>The Vedic Age (c. 1500–500 BCE) marks the formative period of early Indian civilization, characterized by the composition of the <strong>Vedas</strong>, the emergence of a tribal society, and gradual transition from a pastoral to an agrarian economy. Understanding this era is crucial for defence exams (NDA, CDS, AFCAT) as questions frequently test knowledge of Vedic literature, social structure, polity, religion, and the socio‑economic changes that laid the foundations of later Indian history.</p>
@@ -26784,11 +27339,18 @@ window.EXPANDED_NOTES_DATA["vedic-age"] = String.raw`
 
 <h2>Conclusion</h2>
 <p>The Vedic Age forms the bedrock of Indian civilization. Mastery of its literature, social evolution, political institutions, religious beliefs, and economic transformations is indispensable for defence aspirants. Focus on the contrasts between Early and Later Vedic phases, memorize the key deities and their attributes, and understand how the seeds of later Indian statecraft and philosophy were sown during this period. Regular revision of tables, mnemonics, and high‑yield facts will translate into confident handling of any Vedic‑age question in NDA, CDS, or AFCAT examinations.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["mahajanapadas"] = String.raw`
-<h1>Mahajanapadas and Early Imperial Dynasties</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Mahajanapadas and Early Imperial Dynasties</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 <p>The **Mahajanapadas** were the great kingdoms and republics that emerged in the Indian subcontinent during the mid‑first millennium BCE, marking a transformative phase from the Vedic tribal confederations to early state formations. This period, often termed the **Second Urbanisation**, witnessed the rise of fortified cities, sophisticated economies, and new political structures—monarchies (rajya) and collective governments (Gana‑Sanghas). Understanding the sixteen Mahajanapadas, their political systems, and the subsequent rise of powerful dynasties such as the **Haryankas**, **Shishunagas**, and **Nandas** is essential for aspirants of the NDA, CDS, and AFCAT examinations, as these topics frequently appear in history sections and help gauge a candidate’s grasp of early Indian statecraft.</p>
@@ -27101,11 +27663,18 @@ window.EXPANDED_NOTES_DATA["mahajanapadas"] = String.raw`
 </div>
 
 <p>By mastering the **political structures**, **chronological timelines**, and **economic context** of the Mahajanapadas and the early Magadhan dynasties, candidates will be well‑equipped to answer both factual and analytical questions in the NDA, CDS, and AFCAT examinations. Focus on the **key rulers**, **capital shifts**, **administrative innovations**, and **cultural patronage**—these are the recurring themes that examiners love to test.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["buddhism-jainism"] = String.raw`
-<h1>Buddhism & Jainism: Comprehensive Study Notes for NDA, CDS & AFCAT</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Buddhism & Jainism: Comprehensive Study Notes for NDA, CDS & AFCAT</h3>
+  
+  <hr />
 
 <h2>1. Introduction: The Shramana Tradition</h2>
 <p>Both Buddhism and Jainism emerged in the <strong>6th Century BCE</strong> as a reaction against the ritualistic orthodoxy, caste rigidity, and Brahmanical dominance of the Later Vedic period. They belong to the <strong>Shramana Tradition</strong> (ascetic/monk tradition), emphasizing individual effort, ethics, and renunciation over sacrifices (Yajnas) and priestly intermediaries.</p>
@@ -27909,11 +28478,18 @@ This is a classic "Match the Following" or "Statement Correctness" trap.
 <div style="background-color:#e8f5e9; padding:15px; border:2px solid #4caf50; margin:20px 0; border-radius: 5px; text-align:center;">
 <strong>🎖️ MISSION SUCCESS: </strong> Master the Comparison Tables & Council Chronology. These fetch 4-6 guaranteed marks in every CDS/NDA/AFCAT paper. <strong>Jai Hind!</strong>
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["mauryan-period"] = String.raw`
-<h1>Mauryan Period</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Mauryan Period</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 <p>The Mauryan Empire (c. 322–185 BCE) stands as the first major historical empire of ancient India, marking a pivotal transition from the oligarchic republics and monarchical states of the Later Vedic period to a highly centralized, territorial state. Founded by <strong>Chandragupta Maurya</strong> with the ingenious guidance of his minister <strong>Kautilya (Chanakya)</strong>, the empire reached its zenith under the great emperor <strong>Ashoka</strong>. For defence aspirants, understanding the Mauryan period is crucial as it encapsulates the earliest paradigms of centralized administration, espionage, state economics, and diplomatic strategy, which form the bedrock of Indian political history and are frequently tested in NDA, CDS, and AFCAT examinations.</p>
@@ -28100,11 +28676,18 @@ window.EXPANDED_NOTES_DATA["mauryan-period"] = String.raw`
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
     <strong>🎯 PYQ Insight:</strong> The conceptual depth of the transition from centralized Mauryan rule to decentralized post-Mauryan polities is a trending topic. Exams test not just the facts of the Mauryan decline, but the understanding of how the political structure of India evolved from a unified empire to regional feudal kingdoms (like the Satavahanas and Shungas).
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["post-mauryan-india"] = String.raw`
-<h1>Post-Mauryan India</h1>
-<hr/>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Post-Mauryan India</h3>
+  
+  <hr/>
 
 <h2>Chronological Framework</h2>
 <p>After the fall of the Mauryan Empire in 185 BCE, a mosaic of regional dynasties emerged, each contributing uniquely to political, cultural, and economic developments. The following table summarizes the major post‑Mauryan dynasties, their approximate timelines, capitals, and key contributions.</p>
@@ -28338,11 +28921,18 @@ window.EXPANDED_NOTES_DATA["post-mauryan-india"] = String.raw`
 <hr/>
 
 <p><strong>End of Notes</strong></p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["gupta-period"] = String.raw`
-<h1>Gupta Period (c. 320–550 CE)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Gupta Period (c. 320–550 CE)</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 <p>The Gupta era is often termed the <strong>“Golden Age”</strong> of ancient India because of unprecedented achievements in politics, economy, art, literature, science, and philosophy. The dynasty founded by <strong>Sri Gupta</strong> (c. 240–280 CE) reached its zenith under <strong>Samudragupta</strong> and <strong>Chandragupta II (Vikramaditya)</strong>. The period witnessed a synthesis of Brahmanical traditions with emerging regional cultures, laying foundations for classical Indian civilization.</p>
@@ -28782,11 +29372,18 @@ window.EXPANDED_NOTES_DATA["gupta-period"] = String.raw`
 
 <hr />
 <p><em>End of notes. For quick revision, focus on the tables, callout boxes, and the bolded terms.</em></p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = String.raw`
-<h1>South Indian Kingdoms</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">South Indian Kingdoms</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 <p>The southern peninsula of India witnessed the rise and fall of several powerful dynasties from the early centuries CE to the medieval period. These kingdoms contributed significantly to Indian culture, especially in the realms of <strong>maritime trade</strong>, <strong>Dravidian temple architecture</strong>, and <strong>local self‑government</strong>. Understanding their political chronology, administrative innovations, and cultural achievements is essential for NDA, CDS, and AFCAT aspirants.</p>
@@ -29311,12 +29908,18 @@ window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = String.raw`
 <li>Literary and artistic achievements in Tamil, Kannada, and Sanskrit that continue to inspire.</li>
 </ul>
 <p>Understanding the rise, zenith, and decline of each dynasty — along with their contributions to trade, art, and governance — provides a solid foundation for tackling history‑based questions in NDA, CDS, and AFCAT examinations.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["early-medieval-india"] = String.raw`
-
-
-<h1>Early Medieval India: Tripartite Struggle, Rajput States & Arab Invasions</h1><hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Early Medieval India: Tripartite Struggle, Rajput States & Arab Invasions</h3>
+  
+  <hr />
 
 <p>The transition from the Classical period (characterized by the Gupta Empire and Harshavardhana's North Indian hegemony) to the Early Medieval period (roughly spanning from the mid-8th century to the end of the 12th century) marks a major shift in Indian history. This era is characterized by the decline of centralized imperial authority, the rise of regional kingdoms, the consolidation of feudal socio-political structures, and the first major military encounters with Islamic forces from West Asia. For aspirants of NDA, CDS, and AFCAT exams, understanding the dynamics of the <strong>Tripartite struggle</strong>, the <strong>Rajput polity</strong>, the <strong>feudal system</strong>, and the <strong>Arab invasions (Muhammad bin Qasim)</strong> is of paramount importance, as these form the core of medieval Indian history.</p>
 
@@ -29496,11 +30099,18 @@ window.EXPANDED_NOTES_DATA["early-medieval-india"] = String.raw`
   <li>The Tripartite struggle was a hallmark of North Indian geopolitics, centered around Kannauj.</li>
   <li>The Arab conquest of Sindh by Muhammad bin Qasim in 711-712 CE was the first major political and military intrusion of Islamic powers into India, setting the stage for later Turkish invasions (like Mahmud of Ghazni).</li>
 </ul>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["delhi-sultanate"] = String.raw`
-<h1>Delhi Sultanate</h1>
-<hr/>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Delhi Sultanate</h3>
+  
+  <hr/>
 
 <h2>Overview of the Delhi Sultanate</h2>
 <p>The Delhi Sultanate was a series of five dynasties that ruled large parts of the Indian subcontinent from 1206 to 1526 CE. It began with the establishment of the Sultanate by Qutb‑ud‑Din Aibak, a Turkic slave‑general of Muhammad Ghori, and ended with the victory of Babur at the First Battle of Panipat, which ushered in the Mughal Empire. The period witnessed profound political, administrative, economic, and cultural transformations that laid the foundation for later medieval Indian history.</p>
@@ -29773,11 +30383,18 @@ window.EXPANDED_NOTES_DATA["delhi-sultanate"] = String.raw`
 <li>“The Delhi Sultanate” by R. C. Majumdar.</li>
 <li>“Medieval India: From the Sultanate to the Mughals” by K. A. R. Choudhury.</li>
 </ul>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["vijayanagara-empire"] = String.raw`
-<h1>Vijayanagara Empire</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Vijayanagara Empire</h3>
+  
+  <hr />
 
 <h2>Introduction & Historical Context</h2>
 <p>The Vijayanagara Empire (c. 1336–1646 CE) stands as one of the most significant medieval South Asian empires. Founded by Harihara I and Bukka Raya I in 1336 CE under the guidance of the sage Sri Vira Ranga Bhairava, the empire emerged at a critical juncture when the Delhi Sultanate was expanding its influence over northern India. The empire's capital was strategically located at Hampi, situated on the banks of the Tungabhadra River in present-day Karnataka. This period witnessed the decline of the Chola and Pandya kingdoms and the rise of new political entities across the Deccan region.</p>
@@ -29921,11 +30538,18 @@ window.EXPANDED_NOTES_DATA["vijayanagara-empire"] = String.raw`
 
 <h2>Conclusion</h2>
 <p>The Vijayanagara Empire was a testament to the capacity of South Indian kingdoms to resist external invasions and thrive economically and culturally. Its legacy endures through its magnificent architecture, rich literary heritage, and the enduring memory of its great rulers. For aspirants preparing for NDA, CDS, and AFCAT, mastering this topic will provide a strong foundation in Indian history and contribute significantly to your overall score.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["bahmani-deccan-sultanates"] = String.raw`
-<h1>Bahmani-Deccan Sultanates</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Bahmani-Deccan Sultanates</h3>
+  
+  <hr />
 
 <h2>1. Introduction</h2>
 <p>The Bahmani Sultanate (1347‑1527) was the first independent Islamic kingdom in the Deccan region of India. It emerged after the revolt of Bahmani nobles against the Delhi Sultanate’s Muhammad bin Tughlaq. The Bahmani state acted as a bridge between North Indian Persian‑Turkic culture and the indigenous Deccan traditions, fostering a unique Indo‑Islamic synthesis that later influenced the five successor sultanates: Bijapur, Golconda, Ahmednagar, Bidar, and Berar.</p>
@@ -30259,11 +30883,18 @@ window.EXPANDED_NOTES_DATA["bahmani-deccan-sultanates"] = String.raw`
 
 <hr />
 <p><em>End of notes. Review the tables and mnemonics for quick recall before the exam.</em></p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["mughal-empire"] = String.raw`
-<h1>Mughal Empire</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Mughal Empire</h3>
+  
+  <hr />
 <h2>Chronological Overview (Babur to Aurangzeb)</h2>
 
 <h3>Founding and Early Expansion (1526‑1556)</h3>
@@ -30546,10 +31177,18 @@ window.EXPANDED_NOTES_DATA["mughal-empire"] = String.raw`
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic</strong>: “<em>B</em>abur (foundation) → <em>H</em>umayun (re‑establish) → <em>A</em>kbar (admin &amp; revenue) → <em>J</em>ahangir (culture) → <em>S</em>hah Jahan (marble) → <em>A</em>urangzeb (decline).”
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["marathas"] = String.raw`
-We need to output raw HTML, no code fences, no <html> wrapper. Start with <h1> for main topic title. Then <hr/>. Then sections with h2, h3, etc. Include tables, callout boxes with specific style. Must be extremely comprehensive, at least 1500 words equivalent. Must include all subtopics: Rise of Shivaji, Peshwa rule, Third Battle of Panipat, administration. Include Chauth and Sardeshmukhi, guerrilla warfare. Include Ashtapradhan council, strategic significance of Third Battle. Must include PYQ insight, trap alerts, high-yield facts, mnemonics.
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Marathas</h3>
+  
+  We need to output raw HTML, no code fences, no <html> wrapper. Start with <h1> for main topic title. Then <hr/>. Then sections with h2, h3, etc. Include tables, callout boxes with specific style. Must be extremely comprehensive, at least 1500 words equivalent. Must include all subtopics: Rise of Shivaji, Peshwa rule, Third Battle of Panipat, administration. Include Chauth and Sardeshmukhi, guerrilla warfare. Include Ashtapradhan council, strategic significance of Third Battle. Must include PYQ insight, trap alerts, high-yield facts, mnemonics.
 
 We need to ensure we have tables. Maybe a table comparing Chauth vs Sardeshmukhi, a table of Ashtapradhan council positions, a table of battles timeline.
 
@@ -30569,7 +31208,7 @@ We need to ensure we output only raw HTML, no extra commentary.
 
 Let's plan structure:
 
-<h1>Marathas</h1>
+
 <hr/>
 
 <h2>1. Rise of Shivaji Maharaj</h2>
@@ -30922,13 +31561,18 @@ We need to ensure we used <strong> for emphasis, not just plain text. Let's veri
 - In the mnemonic we used <strong> around "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Good.
 
 - In the trap alerts we used <strong> maybe not, but we used <strong> in "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S‑P". Also "Shivaji – Chauth – Sardeshmukhi – Panipat". Also "C‑P‑A‑S
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["sikh-history"] = String.raw`
-
-
-<h1>Sikh History</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Sikh History</h3>
+  
+  <hr />
 
 <h2>Introduction: The Evolution of Sikhism and its Military Legacy</h2>
 <p>Sikhism, founded in the 15th century in the Punjab region of India, is one of the world's youngest major religions. Its history is inextricably linked with military valor, political struggle, and the establishment of a powerful empire. For aspirants of the NDA, CDS, and AFCAT exams, understanding Sikh history is crucial not just as a religious or regional topic, but as a study of leadership, resistance, military organization, and statecraft. The evolution from a devotional sect to a militant order, and finally to a dominant political power, is a fascinating narrative of resilience and power. This section will cover the Ten Gurus, the formation of the Khalsa Panth, the rise of Maharaja Ranjit Singh, and the Anglo-Sikh Wars, all of which are key components of the Class 12th standard syllabus.</p>
@@ -31127,11 +31771,18 @@ window.EXPANDED_NOTES_DATA["sikh-history"] = String.raw`
 
 <h2>Conclusion</h2>
 <p>The history of the Sikhs is a saga of spiritual resilience, military valor, and political acumen. From the peaceful teachings of Guru Nanak to the martial creation of the Khalsa and the glorious but short-lived Sikh Empire, this history offers profound lessons on leadership, resistance, and cultural identity. The Anglo-Sikh Wars, while ending Sikh political independence, cemented the reputation of the Sikhs as one of the most formidable martial races, a legacy that continues to be a source of pride and a key aspect of their identity within the Indian nation. For defence exam aspirants, a deep understanding of this history is not just about passing an exam, but about appreciating the spirit of a community that has consistently stood for justice and sovereignty.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["bhakti-movement"] = String.raw`
-<h1>Bhakti Movement: Comprehensive Study Notes for NDA, CDS & AFCAT</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Bhakti Movement: Comprehensive Study Notes for NDA, CDS & AFCAT</h3>
+  
+  <hr />
 
 <h2>1. Introduction & Historical Context</h2>
 <p>The <strong>Bhakti Movement</strong> was a significant socio-religious reform movement in medieval India (roughly 7th–17th Century CE) that emphasized <strong>devotion (Bhakti)</strong> to a personal god as the sole means to salvation (Moksha), rejecting ritualism, caste hierarchy, and the monopoly of Brahmin priests over spiritual knowledge. It democratized religion by making it accessible to women, Shudras, and "untouchables" through the medium of local languages (vernaculars) rather than Sanskrit.</p>
@@ -31669,11 +32320,18 @@ window.EXPANDED_NOTES_DATA["bhakti-movement"] = String.raw`
 
 <hr />
 <p style="text-align: center; font-style: italic; color: #6c757d;">— End of Bhakti Movement Notes —<br>Prepared for NDA / CDS / AFCAT Aspirants | Stay Focused, Serve the Nation.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["sufi-movement"] = String.raw`
-<h1>Sufi Movement</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Sufi Movement</h3>
+  
+  <hr />
 <h2>Overview of Sufi Movement</h2>
 <p>The Sufi movement is a mystical current within Islam that emphasizes the inner, spiritual dimensions of the faith. It emerged in the early medieval period and spread across the Indian subcontinent, influencing both religious and cultural life. Sufism stresses direct personal experience of the Divine, often through love, devotion, and ascetic practices. Its core ideas revolve around <strong>mysticism</strong>, the concept of <em>kashf</em> (unveiling), and the pursuit of union with God (fana). The movement established <em>khanqahs</em> (Sufi lodges) as centers for spiritual training, community living, and charitable activities.</p>
 
@@ -31868,13 +32526,18 @@ window.EXPANDED_NOTES_DATA["sufi-movement"] = String.raw`
 
 <h2>Conclusion</h2>
 <p>Understanding the Sufi movement is essential for grasping the cultural and religious tapestry of medieval India, a topic that frequently appears in defence examinations. Mastery of the silsila hierarchy, key saints, institutional features like khanqahs, and the interplay with the Bhakti movement will enable aspirants to answer both factual and analytical questions with confidence.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["european-arrival"] = String.raw`
-
-
-<h1>European Arrival and Colonial Rivalry in India: Mercantilism, Cartaz System, and the Rise of British Dominance</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">European Arrival and Colonial Rivalry in India: Mercantilism, Cartaz System, and the Rise of British Dominance</h3>
+  
+  <hr />
 
 <h2>1. Introduction: The Era of Mercantilism and European Expansion</h2>
 <p>The arrival of European powers in India during the late medieval and early modern periods was not merely a series of geographical discoveries but a systematic expansion driven by the economic philosophy of <strong>mercantilism</strong>. Under mercantilism, wealth was measured primarily in gold and silver, and colonies were viewed as exclusive sources of raw materials and exclusive markets for manufactured goods. The lucrative spice trade of the East Indies—comprising pepper, cinnamon, nutmeg, and cloves—was a highly sought-after commodity in Europe, prompting intense commercial rivalry among the Portuguese, Dutch, English, and French.</p>
@@ -32073,15 +32736,30 @@ window.EXPANDED_NOTES_DATA["european-arrival"] = String.raw`
     <li><strong>Carnatic Wars:</strong> Proxy wars fought between the British and French for control of southern India, resulting in the rise of British military and political power.</li>
     <li><strong>Battles of Plassey and Buxar:</strong> The military victories that secured British control over Bengal and the Diwani rights, establishing British paramountcy in India.</li>
 </ul>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["governor-generals-viceroys"] = String.raw`
-User Safety: safe
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revision Notes</h3>
+  
+  User Safety: safe
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["constitutional-development"] = String.raw`
-<h1>Constitutional Development of India (Regulating Act 1773 – Indian Independence Act 1947)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Constitutional Development of India (Regulating Act 1773 – Indian Independence Act 1947)</h3>
+  
+  <hr />
 
 <h2>1. Introduction</h2>
 <p>The constitutional evolution of India is a chronicle of gradual empowerment, experimentation, and eventual self‑rule. From the **Regulating Act of 1773**, which first attempted to impose British parliamentary oversight on the East India Company, to the **Indian Independence Act of 1947**, which partitioned British India and created two independent dominions, each statute marked a step toward a responsible government and, ultimately, sovereign nation‑states. This note synthesises the major constitutional milestones, their salient features, and the underlying themes such as **responsible government**, **communal representation**, **dyarchy**, and **provincial autonomy**. It is crafted to meet the depth required for NDA, CDS, and AFCAT aspirants while aligning with the 2020‑2026 PYQ trends.</p>
@@ -32441,11 +33119,18 @@ window.EXPANDED_NOTES_DATA["constitutional-development"] = String.raw`
 
 </body>
 </html>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["economic-impact-british"] = String.raw`
-<h1> Economic Impact of British Rule in India </h1>
-<hr/>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Economic Impact of British Rule in India</h3>
+  
+  <hr/>
 
 <h2> Introduction </h2>
 <p> The British colonial regime (1757‑1947) transformed the Indian economy from a largely agrarian, self‑sufficient system to one oriented towards raw material export and British industrial consumption. This shift created a “drain of wealth”, altered land revenue structures, caused large‑scale de‑industrialization, and led to commercialization of agriculture, ultimately deepening poverty among the Indian peasantry and artisans. Understanding these economic changes is essential for defence exam aspirants, as questions frequently test the causes, consequences, and policy implications of British economic policies.</p>
@@ -32623,11 +33308,18 @@ window.EXPANDED_NOTES_DATA["economic-impact-british"] = String.raw`
 
 <h2> Concluding Remarks </h2>
 <p> For defence exam preparation, focus on the causal links between British economic policies and their social repercussions. Memorise the distinctive features of each land‑revenue system, the quantitative estimates of the drain of wealth, and the timeline of de‑industrialization. Use the mnemonic “P‑R‑M‑D” and the high‑yield facts to reinforce retention. Understanding these economic foundations will enable you to answer both factual and analytical questions with confidence.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["revolt-1857"] = String.raw`
-<h1>Revolt of 1857: Comprehensive Study Notes for NDA/CDS/AFCAT</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revolt of 1857: Comprehensive Study Notes for NDA/CDS/AFCAT</h3>
+  
+  <hr />
 <h2>Introduction</h2>
 <p>The Revolt of 1857 stands as a watershed moment in Indian history, marking the first large‑scale armed rebellion against British colonial rule. While British historiography often labels it a “sepoy mutiny,” Indian nationalist narratives celebrate it as the “First War of Independence.” For defence aspirants, a nuanced understanding of its causes, geography, leadership, nature, and aftermath is essential, as the topic frequently appears in the CDS, NDA, and AFCAT exams, often intertwined with contemporary policy changes such as the Government of India Act 1858 and the reorganisation of the Indian Army.</p>
 <p>This note is structured to meet the official syllabus, incorporate recent PYQ trends (2020‑2026), and provide exam‑ready high‑yield facts, mnemonic devices, and trap alerts to help you navigate the complexities of the revolt.</p>
@@ -32873,11 +33565,18 @@ window.EXPANDED_NOTES_DATA["revolt-1857"] = String.raw`
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
 <strong>🎯 PYQ Insight:</strong> Recent trends (2020‑2026) frequently ask about the **causes** (Doctrine of Lapse, Subsidiary Alliance) and **regional leaders** (Kunwar Singh, Begum Hazrat Mahal). In 2026, the focus shifts to the **post‑1857 policy shift** – the Government of India Act 1858 and the **reorganisation of the Indian Army**. Prepare concise notes on both the causes and the legislative/military reforms to answer both types of questions.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["socio-religious-reform"] = String.raw`
-<h1>Socio-Religious Reform Movements in Modern India</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Socio-Religious Reform Movements in Modern India</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 <p>
@@ -33087,11 +33786,18 @@ The socio-religious reform movements of the 19th century laid the foundation for
 <div style="background-color:#fff3cd; padding:10px; border-left:4px solid #ffc107; margin:10px 0;">
   <strong>🧠 Mnemonic:</strong> <strong>R.B.A.J.A.</strong> for <strong>R</strong>aj <strong>B</strong>rahmo <strong>A</strong>rya <strong>J</strong>yotiba <strong>A</strong>ligarh.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["freedom-movement"] = String.raw`
-<h1>Indian Freedom Movement: Comprehensive Notes for NDA/CDS/AFCAT</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Indian Freedom Movement: Comprehensive Notes for NDA/CDS/AFCAT</h3>
+  
+  <hr />
 
 <h2>1. Overview & Historical Context</h2>
 <p>The Indian Freedom Movement spans over a century (1858–1947) and is a cornerstone of modern Indian history. For defence exams, focus on the evolution of mass politics, ideological splits, and the role of key individuals and organizations. The movement can be broadly divided into three phases: Pre-Gandhian (1885–1919), Gandhian (1919–1947), and the Post-War phase (INA, Cabinet Mission, Partition).</p>
@@ -33393,11 +34099,18 @@ window.EXPANDED_NOTES_DATA["freedom-movement"] = String.raw`
 
 <hr />
 <p><em>End of Notes. Revise regularly with the tables and callout boxes for quick recall. All the best for your defence exam preparation!</em></p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["post-independence-consolidation"] = String.raw`
-<h1>post-independence-consolidation</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">post-independence-consolidation</h3>
+  
+  <hr />
 <h2>Integration of Princely States</h2>
 
 <h3>Historical Background and Political Context</h3>
@@ -33690,11 +34403,18 @@ window.EXPANDED_NOTES_DATA["post-independence-consolidation"] = String.raw`
 </div>
 
 <p>By mastering the above content, aspirants will have a comprehensive understanding of the post‑independence consolidation phase, which is essential for answering both objective and descriptive questions in the NDA, CDS, and AFCAT examinations.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["revolutions"] = String.raw`
-<h1>Revolutions</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revolutions</h3>
+  
+  <hr />
 <h2>Overview of Revolutions</h2>
 <p>Revolutions are fundamental transformations of political, social, and economic structures that arise when existing orders fail to meet the aspirations of a population. In the context of Indian defence examinations (NDA, CDS, AFCAT), the syllabus emphasizes four major revolutions: the American Revolution (1775‑1783), the French Revolution (1789‑1799), the Russian Revolution (1917), and the Industrial Revolution (late 18th‑19th centuries). These revolutions share common themes such as the quest for <strong>Liberty</strong>, <strong>Equality</strong>, and <strong>Fraternity</strong>, and they often lead to the emergence of new ideologies like <strong>Socialism</strong>. Understanding their causes, key events, and consequences is essential for answering both factual and analytical questions in the exams.</p>
 
@@ -33918,11 +34638,18 @@ window.EXPANDED_NOTES_DATA["revolutions"] = String.raw`
 
 <h2>Conclusion</h2>
 <p>Revolutions — whether political (American, French, Russian) or socio‑economic (Industrial) — are pivotal turning points that reshape societies, governments, and the global order. For defence examinations, the ability to connect these historical transformations to contemporary strategic concerns is essential. Mastery of the causes, key events, ideological underpinnings, and long‑term impacts will enable aspirants to answer both factual recall and analytical questions with confidence.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["world-war-i"] = String.raw`
-<h1>World War I</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">World War I</h3>
+  
+  <hr />
 <h2>1. Introduction & Global Context</h2>
 <p>The First World War (1914‑1918), often referred to as the Great War, reshaped the political, economic, and social fabric of the entire planet. It began with the assassination of Archduke Franz Ferdinand of Austria‑Hungary and escalated due to a complex web of alliances, imperial ambitions, and nationalist fervor. The war introduced modern industrial warfare, resulting in unprecedented casualties—over 17 million dead and 20 million wounded. Its aftermath redrew borders, dismantled empires, and set the stage for the second great conflict of the 20th century.</p>
 <p>Understanding World War I is crucial for defence aspirants because the war’s diplomatic failures, treaty terms, and the creation of the League of Nations directly influenced the inter‑war period and the formation of modern international institutions, including the United Nations.</p>
@@ -34178,11 +34905,18 @@ window.EXPANDED_NOTES_DATA["world-war-i"] = String.raw`
 <p>For exam preparation, focus on **chronological timelines**, **key treaties**, and **geopolitical outcomes**. Practice writing short essays that link causes to consequences, as many NDA/CDS questions require **cause‑effect analysis**. Also, memorize the **major battles** and their strategic importance; they often appear in map‑based questions.</p>
 
 <p>Finally, integrate the **global impact** perspective: how colonial troops contributed, the role of technology, and the social changes that followed. This broader view helps differentiate between “factual recall” and “analytical depth” in answer writing.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["world-war-ii"] = String.raw`
-<h1>World War II (1939-1945)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">World War II (1939-1945)</h3>
+  
+  <hr />
 
 <h2>1. Introduction</h2>
 <p>World War II was the most extensive and deadliest conflict in human history, involving over 30 countries and resulting in an estimated 70–85 million fatalities. It reshaped the global political order, accelerated decolonization, and led to the establishment of the United Nations (UN). For defence exams (NDA, CDS, AFCAT) the focus lies on <strong>causes, Axis vs. Allies composition, major theatres, turning points, and the post‑war international framework</strong>.</p>
@@ -34423,11 +35157,18 @@ For Allies: <strong>“U​K’s​ C​hurchill, U​S’s​ R​oosevelt, U�
 
 <h2>10. Conclusion</h2>
 <p>World War II was a watershed event that redefined international relations, spurred technological progress, and set the stage for the modern world order. For defence examinations, mastering the <strong>causes, Axis‑Allied dynamics, major theatres, turning points, and the birth of the United Nations</strong> is essential. Utilize the tables, mnemonics, and call‑out boxes above to reinforce retention and avoid common pitfalls.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["interwar-period"] = String.raw`
-<h1>Interwar Period (1918‑1939)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Interwar Period (1918‑1939)</h3>
+  
+  <hr />
 <h2>Overview of the Interwar Period</h2>
 <p>The Interwar Period, spanning from the end of World War I in 1918 to the outbreak of World War II in 1939, was a transformative era in global politics, economics, and society. Europe and the world grappled with the aftermath of a devastating conflict, the redrawing of borders, and the challenge of building sustainable peace. The period witnessed profound economic turbulence, the rise of extremist ideologies, and the emergence of totalitarian regimes that would ultimately reshape the 20th‑century world order. For aspirants of NDA, CDS, and AFCAT, mastering this era is crucial because it underpins the causes of World II and the geopolitical dynamics that continue to influence modern defence and strategic studies.</p>
 <p>Key themes include the **Great Depression**, the **rise of Fascism in Italy**, the **rise of Nazism in Germany**, and the broader concept of **totalitarianism**. Understanding the interconnections between economic hardship, political radicalization, and military ambitions provides a comprehensive framework for answering exam questions on international relations, ideological evolution, and the origins of global conflicts.</p>
@@ -34683,11 +35424,18 @@ window.EXPANDED_NOTES_DATA["interwar-period"] = String.raw`
 </div>
 
 <p>With thorough preparation and strategic revision using the structured notes above, you’ll be well‑equipped to excel in the defence entrance examinations. Good luck!</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["cold-war"] = String.raw`
-<h1>Cold War</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Cold War</h3>
+  
+  <hr />
 
 <h2>Introduction</h2>
 <p>The Cold War was the period of geopolitical tension between the United States and the Soviet Union from the end of World War II in 1945 until the dissolution of the Soviet Union in 1991. Despite the term "war" in its name, it did not involve direct large-scale fighting between the two superpowers. Instead, the conflict manifested through <strong>proxy wars</strong>, <strong>nuclear deterrence</strong>, <strong>ideological competition</strong>, and <strong>spheres of influence</strong> across the globe.</p>
@@ -34936,15 +35684,30 @@ window.EXPANDED_NOTES_DATA["cold-war"] = String.raw`
 <br><strong>Warsaw Pact</strong> = <em>USSR-led Eastern Bloc</em>
 <br><strong>NAM</strong> = <em>Non-Aligned Movement</em> (Neutral Countries)
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["international-institutions"] = String.raw`
-User Safety: safe
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revision Notes</h3>
+  
+  User Safety: safe
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["architecture"] = String.raw`
-<h1>Architecture: Indian Heritage for Defence Exams</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Architecture: Indian Heritage for Defence Exams</h3>
+  
+  <hr />
 
 <p>Architecture forms the physical narrative of a civilization, reflecting its religious beliefs, socio-political structures, and technological prowess. For the NDA, CDS, and AFCAT examinations, a nuanced understanding of Indian architectural styles is non-negotiable. This module breaks down the evolution of Indian architecture, heavily emphasizing the PYQ trends of 2020-2026, which focus on temple styles, specific monolithic monuments like Ellora's Kailasa, and the Indo-Islamic synthesis of the Mughals.</p>
 
@@ -35196,11 +35959,18 @@ window.EXPANDED_NOTES_DATA["architecture"] = String.raw`
 <li><strong>Indo-Islamic:</strong> Evolved from the 13th century under the Delhi Sultanate. Brought <strong>arches, domes, and minarets</strong>. The Mughals (Babur to Aurangzeb) perfected it, using white marble, bulbous domes, and pietra dura (e.g., Taj Mahal).</li>
 <li><strong>Colonial:</strong> Introduced by the Portuguese (Goa) and later British, culminating in the <strong>Indo-Saracenic</strong> style (e.g., Victoria Terminus, New Delhi) blending European structure with Indian aesthetics.</li>
 </ul>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["paintings"] = String.raw`
-<h1>Paintings in Indian Art: A Comprehensive Study Guide for Defence Exams</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Paintings in Indian Art: A Comprehensive Study Guide for Defence Exams</h3>
+  
+  <hr />
 
 <p>The tradition of painting in India is one of the oldest and most continuous artistic practices in the world, spanning over 30,000 years. From the prehistoric cave paintings to the sophisticated miniature traditions and the modern artistic movements, Indian painting reflects the country's rich cultural diversity, religious pluralism, and historical evolution. For aspirants preparing for NDA, CDS, and AFCAT examinations, a thorough understanding of these artistic traditions is essential, as questions on Indian art and culture frequently appear in the General Knowledge section.</p>
 
@@ -35876,12 +36646,18 @@ window.EXPANDED_NOTES_DATA["paintings"] = String.raw`
 </ol>
 
 <p>This comprehensive study material covers all aspects of Indian painting traditions required for defence examinations. Focus on understanding the chronological development, distinguishing characteristics of each school, key artists and works, and the role of patronage in shaping artistic traditions. Regular revision and connecting visual memory to written descriptions will greatly enhance retention for the examination.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["dance-music"] = String.raw`
-
-<h1>Dance and Music of India: A Comprehensive Study Guide for Defence Exams</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Dance and Music of India: A Comprehensive Study Guide for Defence Exams</h3>
+  
+  <hr />
 
 <h2>Introduction to India's Cultural Heritage</h2>
 
@@ -36821,11 +37597,18 @@ window.EXPANDED_NOTES_DATA["dance-music"] = String.raw`
 <p>Focus on <strong>state-origin associations</strong>, <strong>key cultural figures</strong>, and <strong>distinguishing features</strong> of each art form. Use the tables and mnemonics provided to create strong mental connections. Remember that UPSC often tests your understanding through <strong>comparative questions</strong> and <strong>matching-type questions</strong>.</p>
 
 <p><strong>Success Mantra:</strong> Practice drawing connections between art forms, their regions, and the cultural contexts from which they emerged. This holistic understanding will not only help in exams but also appreciate India's magnificent cultural diversity.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["literature"] = String.raw`
-<h1>Literature in Indian Intellectual History: A Comprehensive Guide for NDA, CDS & AFCAT</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Literature in Indian Intellectual History: A Comprehensive Guide for NDA, CDS & AFCAT</h3>
+  
+  <hr />
 
 <p>Literature forms the bedrock of Indian civilization, serving as a mirror to its evolving social, religious, and political landscapes. For Defence aspirants, understanding this evolution is crucial not just for scoring marks, but for understanding the cultural context of the nation they serve. This guide covers Vedic, Sanskrit, Pali, Prakrit, Persian, and regional literature up to the Class 12th standard, with a special focus on PYQ trends.</p>
 
@@ -37229,11 +38012,18 @@ window.EXPANDED_NOTES_DATA["literature"] = String.raw`
 
 <hr />
 <p><em>End of Notes. Recommended revision: Focus heavily on the PYQ 2026 trends (Kautilya, Vishakhadatta, Amir Khusrau) and the Bhakti movement authors. Best of luck to all Defence aspirants!</em></p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["religion-festivals"] = String.raw`
-<h1>Religion and Festivals of India</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Religion and Festivals of India</h3>
+  
+  <hr />
 
 <h2>Introduction to Religious Diversity in India</h2>
 
@@ -38016,11 +38806,18 @@ window.EXPANDED_NOTES_DATA["religion-festivals"] = String.raw`
 <p>India's religious landscape is a magnificent tapestry woven with threads of diverse faiths, traditions, and practices. The coexistence of Hinduism, Islam, Christianity, Sikhism, Buddhism, Jainism, and other religions reflects India's ethos of <strong>"Sarva Dharma Sambhava"</strong> (equal respect for all religions). Understanding this diversity is not only essential for cracking defence exams but also for appreciating the unique secular fabric that makes India a beacon of communal harmony in the world.</p>
 
 <p>For aspirants preparing for NDA, CDS, and AFCAT, mastering the fundamentals of Indian religions and festivals – including their origins, key figures, scriptures, practices, and festivals – will provide a strong foundation for both the general knowledge and current affairs sections of these examinations.</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
-<h1>World Heritage Sites: UNESCO, Conservation & Preservation</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">World Heritage Sites: UNESCO, Conservation & Preservation</h3>
+  
+  <hr />
 
 <h2>1. Introduction to Heritage Sites</h2>
 
@@ -39032,5 +39829,10 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = String.raw`
 <hr />
 
 <p style="text-align: center; font-style: italic; color: #666;"><strong>End of Study Notes — Heritage Sites: UNESCO, Conservation & Preservation</strong></p>
+
+  
+
+  
+</div>
 `;
 

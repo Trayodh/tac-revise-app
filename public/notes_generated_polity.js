@@ -1,7 +1,10 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-window.EXPANDED_NOTES_DATA["schedules"] = String.raw`<h1>Schedules of the Indian Constitution</h1>
-<hr />
+window.EXPANDED_NOTES_DATA["schedules"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Schedules of the Indian Constitution</h3>
+  
+  <hr />
 
 <h2>Introduction to Schedules</h2>
 <p>The Constitution of India, a monumental document outlining the framework for governance, originally comprised 395 Articles divided into 22 Parts and 8 Schedules. Over the decades, through various constitutional amendments, the dynamic nature of India's socio-political landscape necessitated additions and modifications. Consequently, 4 more schedules were appended, bringing the total to 12 schedules today. These schedules serve as an integral, yet distinct, part of the Constitution. They are essentially supplementary lists, tables, and provisions that categorize and tabulate bureaucratic activity, policy matters, and intricate rules of governance that are too detailed, specific, or bulky to be conveniently included within the main Articles of the Constitution.</p>
@@ -288,10 +291,19 @@ window.EXPANDED_NOTES_DATA["schedules"] = String.raw`<h1>Schedules of the Indian
 </ul>
 
 <h3>10. Tenth Schedule (Anti-Defection Law)</h3>
-<p>The Tenth Schedule, popularly known as the Anti-Defection Law, was added by the <strong>5`;
+<p>The Tenth Schedule, popularly known as the Anti-Defection Law, was added by the <strong>5
 
-window.EXPANDED_NOTES_DATA["fundamental-rights"] = String.raw`<h1>Fundamental Rights (Part III)</h1>
-<hr />
+  
+
+  
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["fundamental-rights"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Fundamental Rights (Part III)</h3>
+  
+  <hr />
 
 <h2>Introduction to Fundamental Rights</h2>
 <p>Fundamental Rights are enshrined in <strong>Part III</strong> of the Constitution, spanning from <strong>Articles 12 to 35</strong>. This section is often referred to as the "Magna Carta of India," a powerful historical allusion to the Great Charter of 1215 signed by King John of England, which was the first document to limit the power of the monarch and guarantee certain rights to his subjects. In the Indian context, Fundamental Rights serve a similar purpose: they are a charter of rights guaranteed to all individuals, citizens and non-citizens alike (with some exceptions), to protect their liberties and freedoms against arbitrary state action and encroachment.</p>
@@ -535,11 +547,19 @@ window.EXPANDED_NOTES_DATA["fundamental-rights"] = String.raw`<h1>Fundamental Ri
   <li><strong>Article 27: Freedom as to payment of taxes for promotion of any particular religion.</strong>
     <ul>
       <li>"No person shall be compelled to pay any taxes, the proceeds of which are specifically appropriated in payment of expenses for the promotion or maintenance of any particular religion or religious denomination."</li>
-      <li>This`;
+      <li>This
 
+  
 
-window.EXPANDED_NOTES_DATA["dpsp"] = String.raw`<h1>Directive Principles of State Policy (DPSP)</h1>
-<hr />
+  
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["dpsp"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Directive Principles of State Policy (DPSP)</h3>
+  
+  <hr />
 <h2>Introduction to DPSP</h2>
 <p>The Directive Principles of State Policy (DPSP) are a unique and foundational feature of the Indian Constitution, enumerated in <strong>Part IV</strong>, spanning from <strong>Articles 36 to 51</strong>. These principles represent the socio-economic conscience of the Constitution and serve as a comprehensive blueprint for India's journey towards becoming a welfare state. The concept of DPSPs was not an indigenous invention but was thoughtfully borrowed from the <strong>Irish Constitution of 1937</strong>, which in turn had adopted it from the <strong>Spanish Constitution</strong>.</p>
 
@@ -677,10 +697,19 @@ window.EXPANDED_NOTES_DATA["dpsp"] = String.raw`<h1>Directive Principles of Stat
   <li><strong>42nd Amendment Act, 1976:</strong> During the Emergency, Parliament further expanded Article 31C, extending its protection to *all* Directive Principles, not just Article 39(b) and (c). This effectively gave supremacy to all DPSPs over Fundamental Rights (Articles 14, 19, 31).</li>
   <li><strong>Minerva Mills Case (1980):</strong> The Supreme Court struck down the extended Article 31C (added by the 42nd Amendment), declaring it unconstitutional. The Court held that the harmony and balance between Fundamental Rights and Directive Principles is an essential feature of the basic structure of the Constitution. It reiterated that FRs are not ends in themselves but are the means to achieve the goals set out in the DPSPs. The Court stated that "the Indian Constitution is built on the bedrock of the balance between FRs and DPSPs."</li>
   <li><strong>Current Position:</strong> The current position, as established by the Minerva Mills case, is that Fundamental Rights are generally superior to DPSPs. However, this does not mean DPSPs are irrelevant. They are complementary and supplementary to each other. The courts strive to interpret FRs in light of DPSPs to achieve the goal of social justice. Parliament can still implement DPSPs, but it must do so without violating the basic structure of the Constitution. The principle of 'harmonious construction' is applied, meaning that courts attempt to interpret both sets of principles in a way that avoids conflict and allows both to operate effectively.</li>
-</ul>`;
+</ul>
 
-window.EXPANDED_NOTES_DATA["citizenship"] = String.raw`<h1>Citizenship in India</h1>
-<hr />
+  
+
+  
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["citizenship"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Citizenship in India</h3>
+  
+  <hr />
 <h2>Constitutional Provisions</h2>
 <p>Citizenship in India is a fundamental aspect of the Indian polity, meticulously outlined in <strong>Part II</strong> of the Constitution, specifically spanning from <strong>Articles 5 to 11</strong>. This section lays down the foundational principles for who was considered a citizen at the commencement of the Constitution and empowers the Parliament to legislate on all subsequent matters related to citizenship. India, in a deliberate move to foster national unity and integrity, adopted the system of <strong>Single Citizenship</strong>. This means that every Indian citizen is a citizen of the Union of India and does not hold separate citizenship for the state they reside in, unlike federal systems such as the USA, which operates on a principle of dual citizenship (citizenship of the federal union and citizenship of the state).</p>
 <p>The framers of the Indian Constitution, recognizing the immediate need to define citizenship at the nation's birth, primarily dealt with the citizenship of individuals at the specific moment of the Constitution's commencement, which was <strong>January 26, 1950</strong>. They consciously chose not to create a permanent and exhaustive law for citizenship, instead entrusting the crucial responsibility to the Parliament to legislate on all future matters concerning the acquisition, termination, and other related aspects of Indian citizenship. This foresight allowed for flexibility and adaptation of citizenship laws to evolving national circumstances and international dynamics.</p>
@@ -852,10 +881,19 @@ window.EXPANDED_NOTES_DATA["citizenship"] = String.raw`<h1>Citizenship in India<
       <li><strong>Legal Status:</strong> The Act has been challenged in the Supreme Court of India, with petitions arguing its unconstitutionality.</li>
     </ul>
   </li>
-</ul>`;
+</ul>
 
-window.EXPANDED_NOTES_DATA["president"] = String.raw`<h1>The President of India</h1>
-<hr />
+  
+
+  
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["president"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">The President of India</h3>
+  
+  <hr />
 <h2>Executive Head of the State</h2>
 <p>The President of India holds the esteemed position as the constitutional head of the Indian State, embodying the sovereignty and unity of the nation. Referred to as the 'first citizen of India', the President is the paramount figure in the Indian political system, though primarily a nominal or titular executive in a parliamentary democracy. This means that while all executive actions are formally taken in the President's name, the real executive power rests with the Council of Ministers headed by the Prime Minister.</p>
 <p>Furthermore, the President serves as the <strong>Supreme Commander of the Indian Armed Forces</strong> (Army, Navy, and Air Force), a critical role underscoring the civilian control over the military, a cornerstone of democratic governance. This authority is exercised in accordance with law, meaning decisions related to defence policy, deployment, and declarations of war or peace are made by the elected government, with the President's formal assent.</p>
@@ -1039,11 +1077,19 @@ window.EXPANDED_NOTES_DATA["president"] = String.raw`<h1>The President of India<
 <p>In case of a vacancy in the President's office due to death, resignation, removal, or otherwise, the Vice-President acts as the President. If the Vice-President's office is also vacant, the Chief Justice of India, or in his absence, the senior-most judge of the Supreme Court available, acts as the President. This ensures that there is always someone to discharge the functions of the President, maintaining constitutional continuity.</p>
 <ul>
   <li><strong>Presidential (Discharge of Functions) Act, 1969:</strong> This Act provides for the discharge of the functions of the President in certain contingencies. It was notably invoked in 1969 when President Zakir Husain passed away, and Vice-President V.V. Giri resigned to contest the presidential election. The then Chief Justice of India, M. Hidayatullah, acted as the President.</li>
-</ul>`;
+</ul>
 
+  
 
-window.EXPANDED_NOTES_DATA["parliament"] = String.raw`<h1>The Parliament of India</h1>
-<hr />
+  
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["parliament"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">The Parliament of India</h3>
+  
+  <hr />
 <h2>Composition of Parliament</h2>
 <p>Under **Article 79** of the Indian Constitution, the Parliament of India is the supreme legislative body of the Republic of India. It is a bicameral legislature, meaning it consists of two houses, and operates under the Westminster parliamentary system. The Article explicitly states that the Parliament of the Union shall consist of three integral parts, each playing a distinct yet interconnected role in the legislative process and the governance of the nation. This structure ensures a system of checks and balances, representing both the people directly and the states of the Indian Union.</p>
 <ol>
@@ -1168,10 +1214,19 @@ window.EXPANDED_NOTES_DATA["parliament"] = String.raw`<h1>The Parliament of Indi
   <li>**Judicial Functions:** Parliament has certain quasi-judicial powers, such as impeaching the President (**Article 61**), removing judges of the Supreme Court and High Courts, the Chief Election Commissioner, and the Comptroller and Auditor General. It can also punish its members or outsiders for breach of privilege.</li>
   <li>**Electoral Functions:** Parliament participates in the election of the President and the Vice-President. The elected members of both Houses form part of the electoral college for the President.</li>
   <li>**Deliberative Functions:** Parliament serves as a forum for debate and discussion on various national and international issues, allowing for diverse viewpoints to be expressed and influencing public opinion and government policy.</li>
-</ul>`;
+</ul>
 
-window.EXPANDED_NOTES_DATA["judiciary"] = String.raw`<h1>The Indian Judiciary</h1>
-<hr />
+  
+
+  
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["judiciary"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">The Indian Judiciary</h3>
+  
+  <hr />
 <p>The Indian Judiciary stands as a cornerstone of the nation's democratic framework, embodying the principles of justice, equality, and the rule of law. Unlike federal systems where states might have separate judicial structures, India operates under a single, integrated, and unified judicial system. This hierarchical structure ensures a streamlined administration of justice, with the Supreme Court at its apex, followed by High Courts at the state level, and a network of subordinate courts below them. This unified system, largely inspired by the Government of India Act, 1935, ensures that all courts, regardless of their level, administer the same body of law, thereby promoting legal uniformity and coherence across the country. The independence of the judiciary is a fundamental tenet, safeguarding it from the undue influence of the executive and legislature, and enabling it to act as the guardian of the Constitution and the protector of citizens' fundamental rights.</p>
 <p>Historically, the seeds of the modern Indian judiciary were sown during the British Raj. The Regulating Act of 1773 established the Supreme Court at Calcutta, followed by similar courts in Bombay and Madras. The Indian High Courts Act of 1861 led to the establishment of High Courts in Calcutta, Bombay, and Madras, replacing the earlier Supreme Courts and Sadar Adalats. Post-independence, the framers of the Constitution envisioned a robust and independent judiciary to uphold constitutional values and resolve disputes impartially. This vision culminated in the establishment of the Supreme Court of India, which inherited the mantle of the Federal Court of India, established under the Government of India Act, 1935.</p>
 
@@ -1383,11 +1438,19 @@ window.EXPANDED_NOTES_DATA["judiciary"] = String.raw`<h1>The Indian Judiciary</h
   <li><strong>Consumer Forums:</strong> Established under the Consumer Protection Act, 1986 (now 2019), to address consumer grievances.</li>
   <li><strong>Lok Adalats:</strong> 'People's Courts' established under the Legal Services Authorities Act, 1987. They are informal forums for amicable settlement of disputes through conciliation and compromise, offering speedy and inexpensive justice. Their awards are deemed to be decrees of a civil court and are final and binding.</li>
   <li><strong>Gram Nyayalayas:</strong> Established under the Gram Nyayalayas Act, 2008, these are mobile village courts aimed at providing access to justice to citizens at the grassroots level in rural areas. They have both civil and criminal jurisdiction.</li>
-  <li><strong>Tribunals:</strong> Administrative Tribunals (e.g., Central Administrative Tribunal - CAT) and other specialized tribunals (e.g., National Green Tribunal - NGT, Income Tax Appellate Tribunal - ITAT) are established to adjudicate specific types of disputes, reducing the burden on High Courts.</li>`;
+  <li><strong>Tribunals:</strong> Administrative Tribunals (e.g., Central Administrative Tribunal - CAT) and other specialized tribunals (e.g., National Green Tribunal - NGT, Income Tax Appellate Tribunal - ITAT) are established to adjudicate specific types of disputes, reducing the burden on High Courts.</li>
+
+  
+
+  
+</div>
+`;
 
 window.EXPANDED_NOTES_DATA["amendments-parts"] = String.raw`
-<h1>Important Amendments and Parts of the Constitution</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Important Amendments and Parts of the Constitution</h3>
+  
+  <hr />
 <h2>Amendment of the Constitution (Article 368)</h2>
 <p>Located in Part XX. The Constitution provides for three types of amendments:</p>
 <ol>
@@ -1410,12 +1473,18 @@ window.EXPANDED_NOTES_DATA["amendments-parts"] = String.raw`
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The <strong>Kesavananda Bharati case (1973)</strong> established the "Basic Structure Doctrine", ruling that Parliament cannot alter the basic structure of the Constitution under Article 368.
 </div>
+
+  
+
+  
+</div>
 `;
 
-
 window.EXPANDED_NOTES_DATA["goverment-executives"] = String.raw`
-<h1>Government Executives (Union & State)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Government Executives (Union & State)</h3>
+  
+  <hr />
 <h2>The Union Executive (Articles 52-78)</h2>
 <p>The Union Executive consists of the President, Vice-President, Prime Minister, Council of Ministers, and the Attorney General of India.</p>
 
@@ -1430,11 +1499,18 @@ window.EXPANDED_NOTES_DATA["goverment-executives"] = String.raw`
 
 <h2>The State Executive (Articles 153-167)</h2>
 <p>The State Executive consists of the Governor, Chief Minister, Council of Ministers, and the Advocate General of the State. The Governor acts similarly to the President but has certain discretionary powers (e.g., reserving a bill for the President's consideration under Art 200).</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["panchayati-raj"] = String.raw`
-<h1>Panchayati Raj & Local Government</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Panchayati Raj & Local Government</h3>
+  
+  <hr />
 <h2>73rd Constitutional Amendment Act (1992)</h2>
 <p>Added <strong>Part IX</strong> to the Constitution, titled "The Panchayats", and the <strong>11th Schedule</strong> (containing 29 functional items). It gave constitutional status to the Panchayati Raj Institutions (PRIs).</p>
 
@@ -1450,11 +1526,18 @@ window.EXPANDED_NOTES_DATA["panchayati-raj"] = String.raw`
 <div style="background-color:#e2e3e5; padding:15px; border-left:5px solid #6c757d; margin:15px 0;">
   <strong>⚡ PYQ Insight:</strong> (CDS 2021) "Which committee recommended the three-tier Panchayati Raj system?" Answer: <strong>Balwant Rai Mehta Committee (1957)</strong>. The Ashok Mehta Committee (1977) recommended a two-tier system.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["important-articles"] = String.raw`
-<h1>Important Articles of the Constitution</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Important Articles of the Constitution</h3>
+  
+  <hr />
 <p>This is a quick revision list of the most frequently asked Articles in the defence exams:</p>
 
 <ul>
@@ -1485,11 +1568,18 @@ window.EXPANDED_NOTES_DATA["important-articles"] = String.raw`
 <div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> The word "Budget" is <strong>nowhere</strong> mentioned in the Constitution. The constitutional term used is "Annual Financial Statement" (Article 112).
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["positions-tenures"] = String.raw`
-<h1>Important Positions, Tenures, and Age Limits</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Important Positions, Tenures, and Age Limits</h3>
+  
+  <hr />
 <h2>Minimum Age Qualifications</h2>
 <ul>
   <li><strong>President:</strong> 35 years</li>
@@ -1546,11 +1636,18 @@ window.EXPANDED_NOTES_DATA["positions-tenures"] = String.raw`
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The Attorney General (AG) has the right to speak and take part in the proceedings of both Houses of Parliament without a right to vote.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["constitutional-bodies"] = String.raw`
-<h1>Constitutional & Non-Constitutional Bodies</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Constitutional & Non-Constitutional Bodies</h3>
+  
+  <hr />
 <h2>Key Constitutional Bodies</h2>
 <p>Bodies specifically mentioned in the Constitution and drawing their power directly from it.</p>
 <ul>
@@ -1565,11 +1662,18 @@ window.EXPANDED_NOTES_DATA["constitutional-bodies"] = String.raw`
 <div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> NITI Aayog, National Human Rights Commission (NHRC), Central Bureau of Investigation (CBI), and Central Vigilance Commission (CVC) are <strong>NON-Constitutional Bodies</strong>.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["governance-emergency"] = String.raw`
-<h1>Emergency Provisions (Part XVIII)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Emergency Provisions (Part XVIII)</h3>
+  
+  <hr />
 <h2>Articles 352 to 360</h2>
 <p>The emergency provisions enable the Central government to meet any abnormal situation effectively. During an emergency, the federal structure converts into a unitary one without a formal amendment.</p>
 
@@ -1595,11 +1699,18 @@ window.EXPANDED_NOTES_DATA["governance-emergency"] = String.raw`
 <div style="background-color:#e2e3e5; padding:15px; border-left:5px solid #6c757d; margin:15px 0;">
   <strong>⚡ PYQ Insight:</strong> (NDA 2018, CDS 2019) "How many times has Financial Emergency been declared in India?" Answer: <strong>Zero</strong>. It has never been declared.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["polity-federal-structure"] = String.raw`
-<h1>Federal Structure & Centre-State Relations</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Federal Structure & Centre-State Relations</h3>
+  
+  <hr />
 <h2>Nature of Indian Federalism</h2>
 <p>India is often described as a "quasi-federal" state (K.C. Wheare) or a "federation with a strong centralizing tendency". Article 1 describes India as a "Union of States", implying two things: the federation is not the result of an agreement among the states, and the states have no right to secede.</p>
 
@@ -1622,11 +1733,18 @@ window.EXPANDED_NOTES_DATA["polity-federal-structure"] = String.raw`
   <li><strong>Inter-State Water Disputes (Art 262):</strong> Parliament may by law provide for the adjudication of such disputes. Supreme Court jurisdiction is excluded.</li>
   <li><strong>Inter-State Council (Art 263):</strong> The President can establish this council to investigate and discuss subjects of common interest. (Established in 1990 on the recommendation of the Sarkaria Commission).</li>
 </ul>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["polity-rpa"] = String.raw`
-<h1>Representation of the People Act (RPA) & Elections</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Representation of the People Act (RPA) & Elections</h3>
+  
+  <hr />
 <h2>Elections in India (Part XV, Articles 324-329)</h2>
 <p>Elections to the Parliament and State Legislatures are conducted on the basis of universal adult suffrage (Article 326). The voting age was reduced from 21 to 18 by the 61st Amendment Act, 1989.</p>
 
@@ -1649,4 +1767,10 @@ window.EXPANDED_NOTES_DATA["polity-rpa"] = String.raw`
 <div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> Disqualification on the ground of defection is NOT decided under the RPA 1951. It is decided under the <strong>10th Schedule</strong> by the Presiding Officer (Speaker/Chairman) of the House.
 </div>
+
+  
+
+  
+</div>
 `;
+

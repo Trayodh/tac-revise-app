@@ -1,8 +1,10 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
 window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
-<h1>Ratio and Proportion: High-Yield Topic Module</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ratio and Proportion: High-Yield Topic Module</h3>
+  
+  <hr />
 <h2>Page 1: Core Context - Ratio Fundamentals</h2>
 <h3>What is a Ratio?</h3>
 <p>A ratio is a comparison of two quantities of the same kind by division. It expresses how many times one quantity is contained in another.
@@ -28,13 +30,7 @@ window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Candidates often forget that ratios must be unitless; any option retaining units in the final ratio is incorrect.</li>
-    <li style="margin-bottom: 8px;">Key Focus: Distinguish between 'ratio' (comparison of magnitudes) and 'proportion' (equality of two ratios, a/b = c/d) in mixed arithmetic problems.</li>
-    <li style="margin-bottom: 8px;">Common Error: Failing to convert all quantities to the same unit before establishing the ratio (e.g., mixing minutes and hours).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -46,11 +42,24 @@ window.EXPANDED_NOTES_DATA["101_Ratio_and_Proportion"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Ratio and Proportion is a foundational topic in the Quantitative Aptitude section of UPSC CDS, NDA, and SSC exams. It frequently appears in direct calculation questions, data interpretation, and as a prerequisite for solving complex problems in percentages, mixtures, and time-work-distance.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Candidates often forget that ratios must be unitless; any option retaining units in the final ratio is incorrect.</li>
+    <li style="margin-bottom: 8px;">Key Focus: Distinguish between 'ratio' (comparison of magnitudes) and 'proportion' (equality of two ratios, a/b = c/d) in mixed arithmetic problems.</li>
+    <li style="margin-bottom: 8px;">Common Error: Failing to convert all quantities to the same unit before establishing the ratio (e.g., mixing minutes and hours).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["113_Logarithm"] = String.raw`
-<h1>Logarithm: High-Yield Topic Module</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Logarithm: High-Yield Topic Module</h3>
+  
+  <hr />
 <h2>Page 1: Core Concepts &amp; Fundamental Rules</h2>
 <h3>What is a Logarithm?</h3>
 <p>A logarithm is the inverse operation to exponentiation. It answers the question: "To what power must a given base be raised to produce a certain number?"
@@ -2700,13 +2709,7 @@ The statement says $2= String.raw1$, which is false.
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Candidates often forget that the base must be positive and not equal to 1, and the argument must be strictly positive; questions may test the validity of expressions like log(-5) or log_1 5.</li>
-    <li style="margin-bottom: 8px;">Key Focus: Rapid simplification of complex products using the Product Rule is a frequent component of quantitative aptitude sections; mastery of the Change of Base Rule is critical for solving equations with mixed bases.</li>
-    <li style="margin-bottom: 8px;">Common Error: Misapplying the Power Rule to sums (e.g., assuming log(a+b) = log a + log b) is a standard trap in multiple-choice questions.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -2718,11 +2721,24 @@ The statement says $2= String.raw1$, which is false.
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for the Quantitative Aptitude section of UPSC CDS, NDA, and SSC exams. Logarithms are a standard topic for testing mathematical reasoning, simplification skills, and the ability to apply algebraic rules under time pressure.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Candidates often forget that the base must be positive and not equal to 1, and the argument must be strictly positive; questions may test the validity of expressions like log(-5) or log_1 5.</li>
+    <li style="margin-bottom: 8px;">Key Focus: Rapid simplification of complex products using the Product Rule is a frequent component of quantitative aptitude sections; mastery of the Change of Base Rule is critical for solving equations with mixed bases.</li>
+    <li style="margin-bottom: 8px;">Common Error: Misapplying the Power Rule to sums (e.g., assuming log(a+b) = log a + log b) is a standard trap in multiple-choice questions.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2018_II"] = String.raw`
-<h1>Number System: High-Yield Topic Module</h1>
-<h2>Page 1: Core Context - Foundations of Numbers</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Number System: High-Yield Topic Module</h3>
+  
+  <h2>Page 1: Core Context - Foundations of Numbers</h2>
 <h3>Simplified Timelines &amp; Structural Mind-Maps</h3>
 <h4>1. The Number Hierarchy (Conceptual Flow)</h4>
 <pre><code>                       REAL NUMBERS (R)
@@ -3283,13 +3299,7 @@ To provide a consistent solution, I will assume the question intended to be 2^X 
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Candidates often confuse the smallest prime (2) with the smallest odd prime (3); remember that 1 is neither prime nor composite.</li>
-    <li style="margin-bottom: 8px;">Focus Area: Memorizing the 25 prime numbers up to 100 is essential for quickly solving LCM, HCF, and factorization problems in CDS/NDA papers.</li>
-    <li style="margin-bottom: 8px;">Common Error: Misidentifying 0 as a natural number; in standard mathematical definitions used in competitive exams, Natural Numbers (N) start from 1, while Whole Numbers (W) start from 0.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -3301,11 +3311,24 @@ To provide a consistent solution, I will assume the question intended to be 2^X 
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical for the Elementary Mathematics section of CDS and NDA exams; questions on number properties, divisibility rules, and prime factorization appear frequently and are foundational for solving algebra and arithmetic problems.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Candidates often confuse the smallest prime (2) with the smallest odd prime (3); remember that 1 is neither prime nor composite.</li>
+    <li style="margin-bottom: 8px;">Focus Area: Memorizing the 25 prime numbers up to 100 is essential for quickly solving LCM, HCF, and factorization problems in CDS/NDA papers.</li>
+    <li style="margin-bottom: 8px;">Common Error: Misidentifying 0 as a natural number; in standard mathematical definitions used in competitive exams, Natural Numbers (N) start from 1, while Whole Numbers (W) start from 0.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["1_CDS_Solved_Paper_2019_II"] = String.raw`
-<h1>Number System: High-Yield Topic Module</h1>
-<h2>Page 1: Core Concepts &amp; Number Classification</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Number System: High-Yield Topic Module</h3>
+  
+  <h2>Page 1: Core Concepts &amp; Number Classification</h2>
 <h3>I. Introduction to Numbers</h3>
 <p>Numbers are fundamental mathematical objects used for counting, measuring, and labeling. The most common system is the <strong>decimal number system</strong>, utilizing ten digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. A combination of these figures forms a <strong>numeral</strong>.</p>
 <h3>II. Types of Numbers: Foundational Classification</h3>
@@ -3808,13 +3831,7 @@ d. 4</p>
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Candidates often confuse 'Whole Numbers' with 'Natural Numbers' by forgetting that 0 is a whole number but not a natural number.</li>
-    <li style="margin-bottom: 8px;">Key Focus: Memorize the 25 prime numbers up to 100, as they are frequently used in divisibility tests and factorization problems in CDS/NDA papers.</li>
-    <li style="margin-bottom: 8px;">Application: The coprime property (if x and y are coprime and both divide N, then xy divides N) is a high-yield shortcut for solving complex divisibility questions without full factorization.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -3826,11 +3843,24 @@ d. 4</p>
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Number systems form the foundational logic for arithmetic, algebra, and number theory questions. Mastery of prime properties, divisibility rules, and coprime relationships is essential for solving quantitative aptitude sections efficiently in CDS and NDA exams.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Candidates often confuse 'Whole Numbers' with 'Natural Numbers' by forgetting that 0 is a whole number but not a natural number.</li>
+    <li style="margin-bottom: 8px;">Key Focus: Memorize the 25 prime numbers up to 100, as they are frequently used in divisibility tests and factorization problems in CDS/NDA papers.</li>
+    <li style="margin-bottom: 8px;">Application: The coprime property (if x and y are coprime and both divide N, then xy divides N) is a high-yield shortcut for solving complex divisibility questions without full factorization.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["20_Sequence_and_Series"] = String.raw`
-<h1>Sequence and Series: High-Yield Topic Module</h1>
-<h2>Page 1: Core Context - Arithmetic Progression (AP)</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Sequence and Series: High-Yield Topic Module</h3>
+  
+  <h2>Page 1: Core Context - Arithmetic Progression (AP)</h2>
 <h3>1. Arithmetic Progression (AP)</h3>
 <p>An Arithmetic Progression (AP) is a sequence of numbers where the difference between consecutive terms is constant. This constant difference is called the <strong>common difference (d)</strong>.</p>
 <h4>General Form of an AP</h4>
@@ -4713,13 +4743,7 @@ Hence, Statement II is incorrect.
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Focus on 'trick' questions involving the sum of an AP where the number of terms is unknown; use the property that the sum of terms equidistant from the ends is constant (a_1 + a_n = a_2 + a_{n-1}).</li>
-    <li style="margin-bottom: 8px;">Master the relationship between AM and GM: For positive numbers, AM ≥ GM. Questions often ask to find the number of terms or the common difference given the sum and product of terms.</li>
-    <li style="margin-bottom: 8px;">Be prepared for problems involving the insertion of APs between two given numbers, where the common difference is derived from the total difference divided by the number of intervals.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -4731,11 +4755,24 @@ Hence, Statement II is incorrect.
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for quantitative aptitude sections in UPSC CSE, NDA, and CDS exams, as AP problems frequently test logical reasoning, algebraic manipulation, and speed calculation skills.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Focus on 'trick' questions involving the sum of an AP where the number of terms is unknown; use the property that the sum of terms equidistant from the ends is constant (a_1 + a_n = a_2 + a_{n-1}).</li>
+    <li style="margin-bottom: 8px;">Master the relationship between AM and GM: For positive numbers, AM ≥ GM. Questions often ask to find the number of terms or the common difference given the sum and product of terms.</li>
+    <li style="margin-bottom: 8px;">Be prepared for problems involving the insertion of APs between two given numbers, where the common difference is derived from the total difference divided by the number of intervals.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["25_HCF_and_LCM_of_Numbers"] = String.raw`
-<h1>HCF and LCM of Numbers: High-Yield Topic Module</h1>
-<h2>Page 1: Core Concepts &amp; Foundational Methods (Primary Textbook Context)</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">HCF and LCM of Numbers: High-Yield Topic Module</h3>
+  
+  <h2>Page 1: Core Concepts &amp; Foundational Methods (Primary Textbook Context)</h2>
 <h3>1. Least Common Multiple (LCM)</h3>
 <p><strong>Definition:</strong> The Least Common Multiple (LCM) of two or more numbers is the smallest positive integer that is a multiple of all the given numbers.</p>
 <p><strong>Methods to Find LCM:</strong></p>
@@ -5958,13 +5995,7 @@ Imagine Venn Diagrams for prime factors.
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: For any two numbers, the product of their HCF and LCM equals the product of the numbers themselves (a × b = HCF(a,b) × LCM(a,b)); this does NOT hold for three or more numbers.</li>
-    <li style="margin-bottom: 8px;">Focus Area: In CDS/NDA math sections, questions often ask for the 'smallest number which when divided by x, y, z leaves remainders r1, r2, r3'; the solution is LCM(x,y,z) + (common remainder) or LCM(x,y,z) - (common difference).</li>
-    <li style="margin-bottom: 8px;">Key Concept: The HCF of two numbers is always a factor of their LCM, and the LCM is always a multiple of their HCF.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -5976,11 +6007,24 @@ Imagine Venn Diagrams for prime factors.
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. HCF and LCM are fundamental arithmetic topics that appear in every UPSC CDS, NDA, and SSC CGL exam. They are often used as building blocks for more complex problems involving time and work, speed and distance, and number system questions. Mastery of the division method and the HCF×LCM formula is critical for speed and accuracy.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: For any two numbers, the product of their HCF and LCM equals the product of the numbers themselves (a × b = HCF(a,b) × LCM(a,b)); this does NOT hold for three or more numbers.</li>
+    <li style="margin-bottom: 8px;">Focus Area: In CDS/NDA math sections, questions often ask for the 'smallest number which when divided by x, y, z leaves remainders r1, r2, r3'; the solution is LCM(x,y,z) + (common remainder) or LCM(x,y,z) - (common difference).</li>
+    <li style="margin-bottom: 8px;">Key Concept: The HCF of two numbers is always a factor of their LCM, and the LCM is always a multiple of their HCF.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["32_Decimal_Fractions"] = String.raw`
-<h1>Decimal Fractions: High-Yield Topic Module</h1>
-<h2>Pages 1-2 (Core Context)</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Decimal Fractions: High-Yield Topic Module</h3>
+  
+  <h2>Pages 1-2 (Core Context)</h2>
 <h3>I. Introduction to Decimal Fractions</h3>
 <p>A decimal fraction is a fraction whose denominator is a power of ten (e.g., 10, 100, 1000). The decimal point separates the whole number part from the fractional part.</p>
 <h3>II. Types of Decimal Fractions</h3>
@@ -7009,13 +7053,7 @@ window.EXPANDED_NOTES_DATA["32_Decimal_Fractions"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">High-frequency trick: Determining if a fraction like 1/3, 1/7, or 1/11 is terminating or recurring based on prime factorization of the denominator (e.g., 1/11 is recurring because 11 is not 2 or 5).</li>
-    <li style="margin-bottom: 8px;">Conversion techniques: Rapidly converting pure recurring decimals (e.g., 0.333... = 1/3) and mixed recurring decimals (e.g., 0.12333... = 122/999) to fractions is a common quantitative aptitude question.</li>
-    <li style="margin-bottom: 8px;">Precision in operations: Errors in aligning decimal points during addition/subtraction or handling significant figures in multiplication/division are common pitfalls in NDA/CDS math sections.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -7027,11 +7065,24 @@ window.EXPANDED_NOTES_DATA["32_Decimal_Fractions"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Decimal fractions are a foundational topic in Quantitative Aptitude for UPSC CSE, NDA, and CDS. Mastery of converting between fractions and decimals, identifying recurring patterns, and performing precise arithmetic operations is essential for solving time-bound numerical problems efficiently.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">High-frequency trick: Determining if a fraction like 1/3, 1/7, or 1/11 is terminating or recurring based on prime factorization of the denominator (e.g., 1/11 is recurring because 11 is not 2 or 5).</li>
+    <li style="margin-bottom: 8px;">Conversion techniques: Rapidly converting pure recurring decimals (e.g., 0.333... = 1/3) and mixed recurring decimals (e.g., 0.12333... = 122/999) to fractions is a common quantitative aptitude question.</li>
+    <li style="margin-bottom: 8px;">Precision in operations: Errors in aligning decimal points during addition/subtraction or handling significant figures in multiplication/division are common pitfalls in NDA/CDS math sections.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["38_Square_Roots_and_Cube_Roots"] = String.raw`
-<h1>Square Roots and Cube Roots: High-Yield Topic Module</h1>
-<h2>Page 1: Core Concepts - Square Roots</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Square Roots and Cube Roots: High-Yield Topic Module</h3>
+  
+  <h2>Page 1: Core Concepts - Square Roots</h2>
 <h3>I. Understanding Squares and Square Roots</h3>
 <ul>
 <li><strong>Square of a Number:</strong> When a number is multiplied by itself, the result is its square.<ul>
@@ -8052,13 +8103,7 @@ So, $\frac{1}{x} - \frac{1}{y} = String.raw\frac{1}{2}$.</p>
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Be cautious with negative numbers; the square root of a negative number is not defined in the set of real numbers (relevant for complex number questions in NDA/CDS).</li>
-    <li style="margin-bottom: 8px;">Common Error: Do not assume √(a+b) = √a + √b. This is a frequent trap in quantitative aptitude sections.</li>
-    <li style="margin-bottom: 8px;">Speed Tip: For numbers ending in 00, 1, 4, 5, 6, or 9, identify the last digit of the square root quickly to eliminate options in multiple-choice questions.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -8070,11 +8115,24 @@ So, $\frac{1}{x} - \frac{1}{y} = String.raw\frac{1}{2}$.</p>
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Square and cube roots are fundamental to the Quantitative Aptitude section of UPSC CDS, NDA, and SSC exams. They frequently appear in simplification, surds, and algebraic identity problems. Mastery of the long division method is crucial for solving non-perfect square questions efficiently within time constraints.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Be cautious with negative numbers; the square root of a negative number is not defined in the set of real numbers (relevant for complex number questions in NDA/CDS).</li>
+    <li style="margin-bottom: 8px;">Common Error: Do not assume √(a+b) = √a + √b. This is a frequent trap in quantitative aptitude sections.</li>
+    <li style="margin-bottom: 8px;">Speed Tip: For numbers ending in 00, 1, 4, 5, 6, or 9, identify the last digit of the square root quickly to eliminate options in multiple-choice questions.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["3_CDS_Solved_Paper_2020_II"] = String.raw`
-<h1>Number System: High-Yield Topic Module for NDA, CDS, AFCAT</h1>
-<h2>Page 1: Core Context - Foundational Concepts</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Number System: High-Yield Topic Module for NDA, CDS, AFCAT</h3>
+  
+  <h2>Page 1: Core Context - Foundational Concepts</h2>
 <h3>1. Classification of Numbers (Basic Definitions)</h3>
 <h4>Coprime Numbers (Relatively Prime)</h4>
 <ul>
@@ -8602,13 +8660,7 @@ d. Neither 10 nor 20</p>
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">High-frequency trap: Candidates often mistakenly classify 1 as a prime number; remember 1 has only one factor, while primes have exactly two.</li>
-    <li style="margin-bottom: 8px;">Key Property: If x and y are coprime, any number divisible by both is divisible by their product (xy); this is frequently tested in LCM/HCF problems.</li>
-    <li style="margin-bottom: 8px;">Twin Prime Error: Note that (7, 9) is NOT a twin prime pair because 9 is not prime; common examples are (3,5), (5,7), (11,13).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -8620,11 +8672,24 @@ d. Neither 10 nor 20</p>
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Number System is a static, high-yield topic in CDS, NDA, and AFCAT General Knowledge/Elementary Mathematics sections. Questions on divisibility, LCM/HCF, and prime properties appear in almost every paper.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">High-frequency trap: Candidates often mistakenly classify 1 as a prime number; remember 1 has only one factor, while primes have exactly two.</li>
+    <li style="margin-bottom: 8px;">Key Property: If x and y are coprime, any number divisible by both is divisible by their product (xy); this is frequently tested in LCM/HCF problems.</li>
+    <li style="margin-bottom: 8px;">Twin Prime Error: Note that (7, 9) is NOT a twin prime pair because 9 is not prime; common examples are (3,5), (5,7), (11,13).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["3_Number_System"] = String.raw`
-<h1>Number System: High-Yield Topic Module</h1>
-<h2>Page 1: Core Context - Foundational Concepts &amp; Classification</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Number System: High-Yield Topic Module</h3>
+  
+  <h2>Page 1: Core Context - Foundational Concepts &amp; Classification</h2>
 <h3>1. Number Classification Hierarchy (Structural Mind-Map)</h3>
 <pre><code>                       REAL NUMBERS (R)
                              |
@@ -9107,13 +9172,7 @@ d. Neither 10 nor 20</p>
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">High-frequency trick questions often test the boundary conditions: Is 0 a natural number? (No, in standard NCERT/UPSC context). Is 0 a rational number? (Yes, 0/1).</li>
-    <li style="margin-bottom: 8px;">Candidates must be able to quickly identify whether a given decimal is rational (terminating/recurring) or irrational (non-terminating/non-recurring) without performing long division, especially for square roots of non-perfect squares.</li>
-    <li style="margin-bottom: 8px;">Focus on the density property: Between any two rational numbers, there are infinitely many rational numbers, whereas between any two consecutive integers, there are no other integers.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -9125,11 +9184,24 @@ d. Neither 10 nor 20</p>
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for the General Studies (Mathematics section) in UPSC CSE Prelims and the Mathematics paper in NDA/CDS. It forms the foundational logic for questions on divisibility, LCM/HCF, and decimal expansions, which are frequently tested in objective formats.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">High-frequency trick questions often test the boundary conditions: Is 0 a natural number? (No, in standard NCERT/UPSC context). Is 0 a rational number? (Yes, 0/1).</li>
+    <li style="margin-bottom: 8px;">Candidates must be able to quickly identify whether a given decimal is rational (terminating/recurring) or irrational (non-terminating/non-recurring) without performing long division, especially for square roots of non-perfect squares.</li>
+    <li style="margin-bottom: 8px;">Focus on the density property: Between any two rational numbers, there are infinitely many rational numbers, whereas between any two consecutive integers, there are no other integers.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["40_CDS_Solved_Paper_2020_I"] = String.raw`
-<h1>Topic Module: Surds, Square Roots, and Cube Roots</h1>
-<h2>Pages 1-2 (Core Context)</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Topic Module: Surds, Square Roots, and Cube Roots</h3>
+  
+  <h2>Pages 1-2 (Core Context)</h2>
 <h3>I. Understanding Surds: Types and Definitions</h3>
 <p>Surds are irrational numbers that can be expressed in the form $\sqrt[n]{x}$, where $x$ is a rational number and $n$ is a positive integer, such that $\sqrt[n]{x}$ is irrational.</p>
 <h4>A. Types of Surds</h4>
@@ -9995,13 +10067,7 @@ window.EXPANDED_NOTES_DATA["40_CDS_Solved_Paper_2020_I"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Candidates often mistake $\sqrt{8}$ and $2\sqrt{2}$ as unlike surds; however, they are like surds because $\sqrt{8} = 2\sqrt{2}$, emphasizing the need to simplify surds before classification.</li>
-    <li style="margin-bottom: 8px;">Key Focus: In CDS/UPSC papers, questions frequently test the ability to compare surds of different orders (e.g., $\sqrt{2}$ vs $\sqrt[3]{3}$) by raising them to a common power (LCM of indices) rather than using decimal approximations.</li>
-    <li style="margin-bottom: 8px;">Common Error: Misapplying the rule for comparing surds of the same order to those of different orders without first equalizing the indices, leading to incorrect ranking.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -10013,11 +10079,24 @@ window.EXPANDED_NOTES_DATA["40_CDS_Solved_Paper_2020_I"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Surds are a fundamental component of the Elementary Mathematics section in CDS, NDA, and UPSC Prelims. Questions typically appear in 1-2 direct problems involving simplification, comparison, or classification, requiring precise algebraic manipulation and conceptual clarity to avoid calculation errors.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Candidates often mistake $\sqrt{8}$ and $2\sqrt{2}$ as unlike surds; however, they are like surds because $\sqrt{8} = 2\sqrt{2}$, emphasizing the need to simplify surds before classification.</li>
+    <li style="margin-bottom: 8px;">Key Focus: In CDS/UPSC papers, questions frequently test the ability to compare surds of different orders (e.g., $\sqrt{2}$ vs $\sqrt[3]{3}$) by raising them to a common power (LCM of indices) rather than using decimal approximations.</li>
+    <li style="margin-bottom: 8px;">Common Error: Misapplying the rule for comparing surds of the same order to those of different orders without first equalizing the indices, leading to incorrect ranking.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["41_CDS_Solved_Paper_2019_I"] = String.raw`
-<h1>CDS Solved Paper 2019 I: Square Roots and Cube Roots</h1>
-<h2>Page 1: Core Context - Foundational Concepts &amp; Timelines</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">CDS Solved Paper 2019 I: Square Roots and Cube Roots</h3>
+  
+  <h2>Page 1: Core Context - Foundational Concepts &amp; Timelines</h2>
 <p>This module focuses on fundamental arithmetic and number system concepts, particularly Square Roots, Cube Roots, Exponents, and their applications, as seen in the CDS 2019 I examination. Understanding these basics is crucial for quantitative aptitude sections.</p>
 <h3>Simplified Conceptual Flow / Mind Map</h3>
 <pre><code>NUMBER SYSTEMS &amp; OPERATIONS
@@ -11369,13 +11448,7 @@ This saves significant time in calculation-heavy problems.</li>
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick questions often test the distinction between rational and irrational roots (e.g., √m is irrational unless m is a perfect square) and the impossibility of perfect squares ending in 2, 3, 7, or 8.</li>
-    <li style="margin-bottom: 8px;">Candidates must be proficient in rapid simplification of complex surd expressions using identities like (a±b)² and rationalization to avoid time-consuming manual calculations.</li>
-    <li style="margin-bottom: 8px;">Word problems frequently disguise root concepts in real-world scenarios, such as determining the number of items in a square formation or calculating dimensions from area/volume.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -11387,11 +11460,24 @@ This saves significant time in calculation-heavy problems.</li>
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly critical for the CDS and NDA Mathematics sections, as these foundational arithmetic concepts appear in 15-20% of the quantitative aptitude questions, testing both speed and accuracy in simplification and problem-solving.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick questions often test the distinction between rational and irrational roots (e.g., √m is irrational unless m is a perfect square) and the impossibility of perfect squares ending in 2, 3, 7, or 8.</li>
+    <li style="margin-bottom: 8px;">Candidates must be proficient in rapid simplification of complex surd expressions using identities like (a±b)² and rationalization to avoid time-consuming manual calculations.</li>
+    <li style="margin-bottom: 8px;">Word problems frequently disguise root concepts in real-world scenarios, such as determining the number of items in a square formation or calculating dimensions from area/volume.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["47_Time_and_Distance"] = String.raw`
-<h1>Time and Distance: High-Yield Topic Module</h1>
-<h2>Page 1: Core Concepts &amp; Conversions</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Time and Distance: High-Yield Topic Module</h3>
+  
+  <h2>Page 1: Core Concepts &amp; Conversions</h2>
 <h3>1. Fundamental Relationship</h3>
 <p>The core of Time and Distance problems revolves around the relationship:
 <strong>Distance (D) = String.rawSpeed (S) × Time (T)</strong></p>
@@ -11897,13 +11983,7 @@ Using the formula for equal distances: <code>(2 * 10 * 20) / (10 + 20) = String.
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Candidates often mistakenly calculate average speed as the arithmetic mean (x+y)/2 for equal distances; the correct formula is the harmonic mean 2xy/(x+y).</li>
-    <li style="margin-bottom: 8px;">Focus Area: Problems involving trains crossing poles or other trains require distinguishing between the distance covered by the train's length versus the distance covered by the engine.</li>
-    <li style="margin-bottom: 8px;">Key Concept: Understanding the difference between 'relative speed' (sum for opposite directions, difference for same direction) is critical for meeting/collision problems.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -11914,11 +11994,24 @@ Using the formula for equal distances: <code>(2 * 10 * 20) / (10 + 20) = String.
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Time and Distance is a high-frequency topic in the quantitative aptitude sections of UPSC CDS, NDA, and SSC exams, often appearing in 2-3 direct or indirect questions per paper.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Candidates often mistakenly calculate average speed as the arithmetic mean (x+y)/2 for equal distances; the correct formula is the harmonic mean 2xy/(x+y).</li>
+    <li style="margin-bottom: 8px;">Focus Area: Problems involving trains crossing poles or other trains require distinguishing between the distance covered by the train's length versus the distance covered by the engine.</li>
+    <li style="margin-bottom: 8px;">Key Concept: Understanding the difference between 'relative speed' (sum for opposite directions, difference for same direction) is critical for meeting/collision problems.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["60_Time_and_Work"] = String.raw`
-<h1>Time and Work: High-Yield Topic Module</h1>
-<h2>Page 1: Core Concepts &amp; Foundational Rules (Primary Textbook)</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Time and Work: High-Yield Topic Module</h3>
+  
+  <h2>Page 1: Core Concepts &amp; Foundational Rules (Primary Textbook)</h2>
 <h3>Introduction to Time and Work</h3>
 <p>Time and Work problems involve calculating the time taken by individuals or groups to complete a certain amount of work, or determining the amount of work done in a given time. The fundamental principle is that <strong>work rate is inversely proportional to time taken</strong>.</p>
 <p><strong>Key Idea:</strong> If a person completes a work in 'N' days, their one day's work is 1/N.</p>
@@ -12690,13 +12783,7 @@ Statement II: <code>(16 * 7) / 1120 = String.raw112 / 1120 = String.raw1/10</cod
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Master the 'LCM Method' (assuming total work as LCM of days) to avoid complex fraction calculations in multi-person problems.</li>
-    <li style="margin-bottom: 8px;">Focus on 'Efficiency Ratio' questions where the ratio of times taken is the inverse of the ratio of efficiencies (e.g., if A is twice as efficient as B, A takes half the time).</li>
-    <li style="margin-bottom: 8px;">Be prepared for 'Leaving/Joining' scenarios where one person works for a few days and then leaves, requiring calculation of remaining work based on individual rates.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -12708,11 +12795,24 @@ Statement II: <code>(16 * 7) / 1120 = String.raw112 / 1120 = String.raw1/10</cod
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Time and Work is a staple topic in the Quantitative Aptitude sections of UPSC CSE (Prelims), NDA, and CDS exams, frequently appearing in 2-4 questions per paper with a high weightage for scoring.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Master the 'LCM Method' (assuming total work as LCM of days) to avoid complex fraction calculations in multi-person problems.</li>
+    <li style="margin-bottom: 8px;">Focus on 'Efficiency Ratio' questions where the ratio of times taken is the inverse of the ratio of efficiencies (e.g., if A is twice as efficient as B, A takes half the time).</li>
+    <li style="margin-bottom: 8px;">Be prepared for 'Leaving/Joining' scenarios where one person works for a few days and then leaves, requiring calculation of remaining work based on individual rates.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["69_Percentage"] = String.raw`
-<h1>Percentage: High-Yield Topic Module for NDA, CDS, AFCAT</h1>
-<h2>Page 1: Core Concepts &amp; Foundational Rules</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Percentage: High-Yield Topic Module for NDA, CDS, AFCAT</h3>
+  
+  <h2>Page 1: Core Concepts &amp; Foundational Rules</h2>
 <p>Percentage is a fundamental concept in mathematics, representing a fraction of a hundred. It is denoted by the symbol '%'. Understanding percentages is crucial for various quantitative aptitude sections in competitive exams like NDA, CDS, and AFCAT.</p>
 <h3>I. Basic Percentage Calculation</h3>
 <p><strong>1. Percentage Increase/Decrease:</strong>
@@ -13724,13 +13824,7 @@ Assuming it's a typo and the question intended to ask for something else, or it'
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">High-frequency trap: Candidates often confuse the base value in reverse percentage questions (e.g., calculating how much more A is than B when B is x% less than A requires dividing by (100-x), not (100+x)).</li>
-    <li style="margin-bottom: 8px;">Mastery of fraction-to-percentage conversions (e.g., 1/8 = 12.5%, 1/12 ≈ 8.33%) is critical for solving NDA/CDS questions within the strict time limit without using a calculator.</li>
-    <li style="margin-bottom: 8px;">Compound percentage changes (successive increases/decreases) are frequently tested; using the formula (a + b + ab/100)% is faster than sequential calculation.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -13742,11 +13836,24 @@ Assuming it's a typo and the question intended to ask for something else, or it'
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Percentage is a high-yield, foundational topic for NDA, CDS, and AFCAT, appearing in almost every paper. It is essential for solving questions on Profit & Loss, Simple/Compound Interest, and Data Interpretation, often accounting for 5-10 direct or indirect marks.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">High-frequency trap: Candidates often confuse the base value in reverse percentage questions (e.g., calculating how much more A is than B when B is x% less than A requires dividing by (100-x), not (100+x)).</li>
+    <li style="margin-bottom: 8px;">Mastery of fraction-to-percentage conversions (e.g., 1/8 = 12.5%, 1/12 ≈ 8.33%) is critical for solving NDA/CDS questions within the strict time limit without using a calculator.</li>
+    <li style="margin-bottom: 8px;">Compound percentage changes (successive increases/decreases) are frequently tested; using the formula (a + b + ab/100)% is faster than sequential calculation.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["77_Simple_Interest"] = String.raw`
-<h1>Simple Interest: High-Yield Topic Module</h1>
-<h2>Page 1: Core Context - Foundational Concepts &amp; Formulas</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Simple Interest: High-Yield Topic Module</h3>
+  
+  <h2>Page 1: Core Context - Foundational Concepts &amp; Formulas</h2>
 <h3>Simple Interest (SI) - The Basics</h3>
 <p>Simple Interest is a quick and easy method of calculating the interest charge on a loan or deposit. It is calculated only on the principal amount, or on that portion of the principal amount that remains unpaid. It does not compound, meaning interest is not earned on previously accumulated interest.</p>
 <h4>Key Terms:</h4>
@@ -14603,13 +14710,7 @@ A man invests ₹1000 at R% for 3 years and ₹1500 at (R+2)% for 3 years. Total
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Master the 'Unitary Method' and 'Ratio Method' to solve SI problems faster than substituting values into formulas, especially when comparing two different investments.</li>
-    <li style="margin-bottom: 8px;">Be cautious with time units: ensure Time is consistently in years (e.g., convert months to years by dividing by 12) and Rate is per annum.</li>
-    <li style="margin-bottom: 8px;">Focus on 'Rate doubling' or 'Time doubling' scenarios: If Rate doubles, SI doubles; if Time doubles, SI doubles. If both double, SI becomes 4 times.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -14621,11 +14722,24 @@ A man invests ₹1000 at R% for 3 years and ₹1500 at (R+2)% for 3 years. Total
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Simple Interest is a fundamental topic in Quantitative Aptitude for UPSC CDS, NDA, and SSC exams. It frequently appears in 1-2 direct questions and often forms the basis for more complex problems involving Compound Interest or Data Interpretation.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Master the 'Unitary Method' and 'Ratio Method' to solve SI problems faster than substituting values into formulas, especially when comparing two different investments.</li>
+    <li style="margin-bottom: 8px;">Be cautious with time units: ensure Time is consistently in years (e.g., convert months to years by dividing by 12) and Rate is per annum.</li>
+    <li style="margin-bottom: 8px;">Focus on 'Rate doubling' or 'Time doubling' scenarios: If Rate doubles, SI doubles; if Time doubles, SI doubles. If both double, SI becomes 4 times.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["83_Compound_Interest"] = String.raw`
-<h1>Compound Interest: High-Yield Topic Module</h1>
-<h2>Page 1: Core Concepts &amp; Foundational Formulas</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Compound Interest: High-Yield Topic Module</h3>
+  
+  <h2>Page 1: Core Concepts &amp; Foundational Formulas</h2>
 <h3>Introduction to Compound Interest (CI)</h3>
 <p>Compound interest is the interest calculated on the initial principal and also on the accumulated interest from previous periods. It's often described as "interest on interest," leading to faster growth of an investment or debt compared to simple interest.</p>
 <h3>Key Terminology</h3>
@@ -15285,14 +15399,7 @@ Since the investment is for 3 years, and CI is compounded annually, Vinod will e
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Focus on 'Effective Rate' calculations when compounding is done more frequently than annually (e.g., semi-annual or quarterly), as this is a frequent source of calculation errors in NDA/CDS quantitative sections.</li>
-    <li style="margin-bottom: 8px;">Master the shortcut method for finding the difference between CI and SI for 2 and 3 years: CI - SI (2 yrs) = P(R/100)^2 and CI - SI (3 yrs) = P(R/100)^2(2 + R/100).</li>
-    <li style="margin-bottom: 8px;">Be prepared for questions involving varying interest rates over different years (e.g., 5% for first year, 10% for second), where the formula becomes A = P(1 + R1/100)(1 + R2/100)...</li>
-    <li style="margin-bottom: 8px;">Understand the concept of 'Rule of 72' for quick estimation of doubling time, which is useful for time-bound exams like CDS.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -15304,11 +15411,25 @@ Since the investment is for 3 years, and CI is compounded annually, Vinod will e
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for NDA, CDS, and UPSC CSE Prelims (Maths section). It is a standard quantitative aptitude topic that tests logical reasoning, formula application, and speed calculation skills. Mastery of shortcuts and frequency variations is crucial for scoring high in time-constrained sections.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Focus on 'Effective Rate' calculations when compounding is done more frequently than annually (e.g., semi-annual or quarterly), as this is a frequent source of calculation errors in NDA/CDS quantitative sections.</li>
+    <li style="margin-bottom: 8px;">Master the shortcut method for finding the difference between CI and SI for 2 and 3 years: CI - SI (2 yrs) = P(R/100)^2 and CI - SI (3 yrs) = P(R/100)^2(2 + R/100).</li>
+    <li style="margin-bottom: 8px;">Be prepared for questions involving varying interest rates over different years (e.g., 5% for first year, 10% for second), where the formula becomes A = P(1 + R1/100)(1 + R2/100)...</li>
+    <li style="margin-bottom: 8px;">Understand the concept of 'Rule of 72' for quick estimation of doubling time, which is useful for time-bound exams like CDS.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["92_Profit_and_Loss"] = String.raw`
-<h1>Profit and Loss: High-Yield Topic Module</h1>
-<h2>Page 1: Core Concepts &amp; Foundational Rules</h2>
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Profit and Loss: High-Yield Topic Module</h3>
+  
+  <h2>Page 1: Core Concepts &amp; Foundational Rules</h2>
 <h3>Understanding Profit &amp; Loss: The Basics</h3>
 <p>Profit and Loss are fundamental concepts in business mathematics, dealing with the financial outcome of transactions.</p>
 <ul>
@@ -15897,13 +16018,7 @@ Since <code>n &gt; m</code>, it's a profit.
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick: When an article is sold at a profit of x% and the CP is increased by y%, the new profit percentage requires recalculating SP relative to the new CP.</li>
-    <li style="margin-bottom: 8px;">Focus: Distinguish between 'Profit on Cost' and 'Profit on Sale' (Markup); if profit is r% on sale, it is (100r/(100+r))% on cost.</li>
-    <li style="margin-bottom: 8px;">Common Error: In successive transactions, do not simply add percentages; always apply the formula x + y + xy/100 to account for the compounding effect on the base value.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -15913,6 +16028,17 @@ Since <code>n &gt; m</code>, it's a profit.
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC CDS, NDA, and SSC CGL quantitative aptitude sections; typically 1-2 direct questions appear, often involving successive discounts, false weights, or profit/loss on marked price.</div>
+</div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick: When an article is sold at a profit of x% and the CP is increased by y%, the new profit percentage requires recalculating SP relative to the new CP.</li>
+    <li style="margin-bottom: 8px;">Focus: Distinguish between 'Profit on Cost' and 'Profit on Sale' (Markup); if profit is r% on sale, it is (100r/(100+r))% on cost.</li>
+    <li style="margin-bottom: 8px;">Common Error: In successive transactions, do not simply add percentages; always apply the formula x + y + xy/100 to account for the compounding effect on the base value.</li></p>
+  </div>
+
+  
 </div>
 `;
 

@@ -1,8 +1,10 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
 window.EXPANDED_NOTES_DATA["econ-concepts"] = String.raw`
-<h1>Macro & Micro Economic Concepts</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Macro & Micro Economic Concepts</h3>
+  
+  <hr />
 <h2>Sectors of the Economy</h2>
 <p>An economy is broadly divided into three main sectors:</p>
 <ul>
@@ -38,13 +40,7 @@ window.EXPANDED_NOTES_DATA["econ-concepts"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between GDP and GNP: GDP is location-based (domestic territory), while GNP is ownership-based (citizens/residents). GNP = GDP + Net Factor Income from Abroad (NFIA).</li>
-    <li style="margin-bottom: 8px;">Understand the conversion from Market Price to Factor Cost: NNP at Market Price minus Net Indirect Taxes (Indirect Taxes - Subsidies) equals NNP at Factor Cost, which is the standard measure of National Income.</li>
-    <li style="margin-bottom: 8px;">Identify the distinction between Real and Nominal GDP: Real GDP is essential for measuring actual economic growth over time by removing the effect of price changes (inflation).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -56,11 +52,24 @@ window.EXPANDED_NOTES_DATA["econ-concepts"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. National Income concepts are a staple in the General Studies Paper I (Economy section) for UPSC CSE and are fundamental for understanding economic policies in NDA/CDS. Questions often test the ability to differentiate between GDP, GNP, NDP, and NNP, and to apply these concepts to real-world scenarios like inflation or sectoral growth.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between GDP and GNP: GDP is location-based (domestic territory), while GNP is ownership-based (citizens/residents). GNP = GDP + Net Factor Income from Abroad (NFIA).</li>
+    <li style="margin-bottom: 8px;">Understand the conversion from Market Price to Factor Cost: NNP at Market Price minus Net Indirect Taxes (Indirect Taxes - Subsidies) equals NNP at Factor Cost, which is the standard measure of National Income.</li>
+    <li style="margin-bottom: 8px;">Identify the distinction between Real and Nominal GDP: Real GDP is essential for measuring actual economic growth over time by removing the effect of price changes (inflation).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["econ-poverty-employment"] = String.raw`
-<h1>Poverty, Unemployment & Inequality</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Poverty, Unemployment & Inequality</h3>
+  
+  <hr />
 <h2>Types of Unemployment in India</h2>
 <ul>
   <li><strong>Disguised Unemployment:</strong> Most common in Indian agriculture. Occurs when more people are engaged in a job than actually required. The marginal productivity of the extra workers is zero.</li>
@@ -94,13 +103,7 @@ window.EXPANDED_NOTES_DATA["econ-poverty-employment"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Differentiate between Disguised Unemployment (zero marginal productivity) and Structural Unemployment (skill mismatch); UPSC often tests the specific sector where disguised unemployment is most prevalent (Agriculture).</li>
-    <li style="margin-bottom: 8px;">Recall the specific poverty percentages and methodological shifts: Tendulkar Committee moved away from calorie norms to a broader basket, while Rangarajan reverted to a modified calorie/protein norm.</li>
-    <li style="margin-bottom: 8px;">Identify the 'Vicious Circle of Poverty' as a concept associated with Ragnar Nurkse, a frequent direct factual query in CDS and NDA prelims.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -112,11 +115,24 @@ window.EXPANDED_NOTES_DATA["econ-poverty-employment"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. This is a core topic for UPSC Prelims (GS Paper 1) and CDS/NDA General Knowledge. Questions frequently test definitions of unemployment types, historical committee findings on poverty, and basic economic indicators like the Gini coefficient.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Differentiate between Disguised Unemployment (zero marginal productivity) and Structural Unemployment (skill mismatch); UPSC often tests the specific sector where disguised unemployment is most prevalent (Agriculture).</li>
+    <li style="margin-bottom: 8px;">Recall the specific poverty percentages and methodological shifts: Tendulkar Committee moved away from calorie norms to a broader basket, while Rangarajan reverted to a modified calorie/protein norm.</li>
+    <li style="margin-bottom: 8px;">Identify the 'Vicious Circle of Poverty' as a concept associated with Ragnar Nurkse, a frequent direct factual query in CDS and NDA prelims.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["rbi-monetary-policy"] = String.raw`
-<h1>RBI and Monetary Policy</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">RBI and Monetary Policy</h3>
+  
+  <hr />
 <h2>The Reserve Bank of India (RBI)</h2>
 <p>Established on April 1, 1935, under the RBI Act, 1934, on the recommendation of the Hilton Young Commission. It was nationalized in 1949. Functions include issuing currency, acting as banker to the government, and controlling credit.</p>
 
@@ -149,13 +165,7 @@ window.EXPANDED_NOTES_DATA["rbi-monetary-policy"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: Distinguish between CRR and SLR. CRR is kept with the RBI (no interest paid), whereas SLR is kept by the bank in liquid assets (interest is earned).</li>
-    <li style="margin-bottom: 8px;">Focus Area: Understand the directional impact of tools. An increase in Repo Rate, CRR, or SLR reduces money supply and fights inflation; a decrease boosts liquidity and stimulates growth.</li>
-    <li style="margin-bottom: 8px;">Constitutional Context: The RBI is not a constitutional body but a statutory body created under the RBI Act, 1934. The MPC was constituted under the RBI (Amendment) Act, 2016.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -167,11 +177,24 @@ window.EXPANDED_NOTES_DATA["rbi-monetary-policy"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Monetary Policy is a core component of the Economy section in UPSC CSE Prelims and Mains, as well as NDA/CDS General Knowledge. Questions frequently test the functional differences between CRR, SLR, and Repo rates, and the specific mandate of the MPC.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: Distinguish between CRR and SLR. CRR is kept with the RBI (no interest paid), whereas SLR is kept by the bank in liquid assets (interest is earned).</li>
+    <li style="margin-bottom: 8px;">Focus Area: Understand the directional impact of tools. An increase in Repo Rate, CRR, or SLR reduces money supply and fights inflation; a decrease boosts liquidity and stimulates growth.</li>
+    <li style="margin-bottom: 8px;">Constitutional Context: The RBI is not a constitutional body but a statutory body created under the RBI Act, 1934. The MPC was constituted under the RBI (Amendment) Act, 2016.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["econ-budget-fiscal"] = String.raw`
-<h1>Fiscal Policy and Union Budget</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Fiscal Policy and Union Budget</h3>
+  
+  <hr />
 <h2>Fiscal Policy</h2>
 <p>Formulated by the Ministry of Finance (Government of India). It deals with taxation, public expenditure, and public debt to influence the economy.</p>
 
@@ -206,13 +229,7 @@ window.EXPANDED_NOTES_DATA["econ-budget-fiscal"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between Capital and Revenue receipts/expenditure: Capital receipts create liabilities or reduce assets (e.g., disinvestment), whereas revenue receipts do not affect the asset-liability balance sheet.</li>
-    <li style="margin-bottom: 8px;">Primary Deficit is a critical metric for UPSC as it excludes interest payments, reflecting the government's current borrowing need independent of past debt obligations.</li>
-    <li style="margin-bottom: 8px;">Article 112 mandates the presentation of the Annual Financial Statement, while Article 114 prohibits discussion on the Money Bill in the Rajya Sabha, a common constitutional trap in prelims questions.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -224,11 +241,24 @@ window.EXPANDED_NOTES_DATA["econ-budget-fiscal"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Fiscal policy and budget components are core topics in UPSC Prelims (General Studies Paper I) and Mains (GS Paper III - Economy). Questions frequently test the distinction between deficit types, constitutional provisions (Articles 112-114), and the implications of FRBM targets.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between Capital and Revenue receipts/expenditure: Capital receipts create liabilities or reduce assets (e.g., disinvestment), whereas revenue receipts do not affect the asset-liability balance sheet.</li>
+    <li style="margin-bottom: 8px;">Primary Deficit is a critical metric for UPSC as it excludes interest payments, reflecting the government's current borrowing need independent of past debt obligations.</li>
+    <li style="margin-bottom: 8px;">Article 112 mandates the presentation of the Annual Financial Statement, while Article 114 prohibits discussion on the Money Bill in the Rajya Sabha, a common constitutional trap in prelims questions.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["econ-trade-bop"] = String.raw`
-<h1>International Trade and Balance of Payments</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">International Trade and Balance of Payments</h3>
+  
+  <hr />
 <h2>Balance of Payments (BoP)</h2>
 <p>The BoP is a systematic record of all economic transactions between residents of a country and the rest of the world over a specified period. It has two main accounts:</p>
 
@@ -259,13 +289,7 @@ window.EXPANDED_NOTES_DATA["econ-trade-bop"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Differentiate between FDI (long-term, stable, physical/management interest) and FPI (short-term, volatile, financial assets) as a frequent conceptual trap in Prelims.</li>
-    <li style="margin-bottom: 8px;">Remember that remittances from NRIs are recorded under the Current Account (Unilateral Transfers), not the Capital Account, a common source of error in objective questions.</li>
-    <li style="margin-bottom: 8px;">Understand the structural reason for India's CAD: reliance on primary commodity imports (oil, gold) versus the offsetting effect of services exports (IT, BPO).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -277,11 +301,24 @@ window.EXPANDED_NOTES_DATA["econ-trade-bop"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims (conceptual distinctions like FDI vs FPI, BoP components) and Mains (analyzing India's CAD sustainability, RBI's monetary policy responses to capital flows, and the impact of global economic shifts on trade balances).</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Differentiate between FDI (long-term, stable, physical/management interest) and FPI (short-term, volatile, financial assets) as a frequent conceptual trap in Prelims.</li>
+    <li style="margin-bottom: 8px;">Remember that remittances from NRIs are recorded under the Current Account (Unilateral Transfers), not the Capital Account, a common source of error in objective questions.</li>
+    <li style="margin-bottom: 8px;">Understand the structural reason for India's CAD: reliance on primary commodity imports (oil, gold) versus the offsetting effect of services exports (IT, BPO).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["econ-reforms"] = String.raw`
-<h1>Economic Reforms of 1991 (LPG)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Economic Reforms of 1991 (LPG)</h3>
+  
+  <hr />
 <h2>The 1991 Crisis</h2>
 <p>In 1991, India faced a severe Balance of Payments crisis. Foreign exchange reserves plummeted to a level barely enough to finance two weeks of imports. To secure loans from the IMF and World Bank, India introduced structural reforms.</p>
 
@@ -307,13 +344,7 @@ window.EXPANDED_NOTES_DATA["econ-reforms"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">High-frequency PYQ focus on the specific roles of P.V. Narasimha Rao (PM) and Dr. Manmohan Singh (FM) during the 1991 reforms.</li>
-    <li style="margin-bottom: 8px;">Candidates must distinguish between the three pillars of LPG, particularly understanding that 'Liberalization' specifically refers to the dismantling of the industrial licensing regime (License Raj).</li>
-    <li style="margin-bottom: 8px;">Key metric to remember: The critical threshold of forex reserves (2 weeks of imports) that necessitated the structural adjustment program with the IMF/World Bank.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -325,11 +356,24 @@ window.EXPANDED_NOTES_DATA["econ-reforms"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. This is a foundational topic for General Studies Paper 1 (History/Polity) and General Studies Paper 3 (Economy). Questions frequently test the chronology, key personalities, and the specific components of the LPG model.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">High-frequency PYQ focus on the specific roles of P.V. Narasimha Rao (PM) and Dr. Manmohan Singh (FM) during the 1991 reforms.</li>
+    <li style="margin-bottom: 8px;">Candidates must distinguish between the three pillars of LPG, particularly understanding that 'Liberalization' specifically refers to the dismantling of the industrial licensing regime (License Raj).</li>
+    <li style="margin-bottom: 8px;">Key metric to remember: The critical threshold of forex reserves (2 weeks of imports) that necessitated the structural adjustment program with the IMF/World Bank.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["five-year-plans"] = String.raw`
-<h1>Five Year Plans & NITI Aayog</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Five Year Plans & NITI Aayog</h3>
+  
+  <hr />
 <h2>Planning Commission (1950 - 2014)</h2>
 <p>Set up by an executive resolution (Non-constitutional, Non-statutory body). Chaired by the Prime Minister. It formulated 12 Five-Year Plans.</p>
 
@@ -357,13 +401,7 @@ window.EXPANDED_NOTES_DATA["five-year-plans"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Question: The Planning Commission was established by an Executive Resolution, not by a Constitutional Amendment or Statute; it had no legal status but held significant administrative power.</li>
-    <li style="margin-bottom: 8px;">Focus Area: Distinguish between the 3rd Plan (failed due to wars/drought, leading to 'Plan Holidays') and the 8th Plan (first post-LPG reforms, considered highly successful).</li>
-    <li style="margin-bottom: 8px;">Conceptual Shift: Understand the difference between the 'Top-Down' approach of the Planning Commission and the 'Bottom-Up' or 'Cooperative Federalism' approach of NITI Aayog, particularly regarding state participation in GDP estimation and policy.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -375,11 +413,24 @@ window.EXPANDED_NOTES_DATA["five-year-plans"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims (factual questions on plans, models, and dates) and Mains (GS Paper 2 on Federalism and GS Paper 3 on Economic Planning). Understanding the transition from Planning Commission to NITI Aayog is crucial for answering questions on cooperative federalism and economic governance.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Question: The Planning Commission was established by an Executive Resolution, not by a Constitutional Amendment or Statute; it had no legal status but held significant administrative power.</li>
+    <li style="margin-bottom: 8px;">Focus Area: Distinguish between the 3rd Plan (failed due to wars/drought, leading to 'Plan Holidays') and the 8th Plan (first post-LPG reforms, considered highly successful).</li>
+    <li style="margin-bottom: 8px;">Conceptual Shift: Understand the difference between the 'Top-Down' approach of the Planning Commission and the 'Bottom-Up' or 'Cooperative Federalism' approach of NITI Aayog, particularly regarding state participation in GDP estimation and policy.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["external-sector-institutions"] = String.raw`
-<h1>International Financial Institutions</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">International Financial Institutions</h3>
+  
+  <hr />
 <h2>Bretton Woods Twins</h2>
 <p>The IMF and the World Bank were both established in 1944 at the Bretton Woods Conference.</p>
 
@@ -408,13 +459,7 @@ window.EXPANDED_NOTES_DATA["external-sector-institutions"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Differentiate between the mandate of the IMF (short-term BoP crisis management) and the World Bank (long-term development projects); a common trap is associating the IMF with infrastructure loans.</li>
-    <li style="margin-bottom: 8px;">Identify the 'Soft Loan Window' as the IDA (International Development Association) within the World Bank Group, which provides interest-free loans to the poorest nations, contrasting with the IBRD's lending to middle-income countries.</li>
-    <li style="margin-bottom: 8px;">Recall that the SDR is often referred to as 'Paper Gold' and is an international reserve asset created by the IMF, not a physical currency or commodity.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -426,11 +471,24 @@ window.EXPANDED_NOTES_DATA["external-sector-institutions"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims and Mains (GS Paper II/III) as questions frequently test the specific mandates, constituent bodies (like IDA/IBRD), and historical origins of these institutions. Distinguishing between Bretton Woods institutions and the WTO is a frequent static GK trap.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Differentiate between the mandate of the IMF (short-term BoP crisis management) and the World Bank (long-term development projects); a common trap is associating the IMF with infrastructure loans.</li>
+    <li style="margin-bottom: 8px;">Identify the 'Soft Loan Window' as the IDA (International Development Association) within the World Bank Group, which provides interest-free loans to the poorest nations, contrasting with the IBRD's lending to middle-income countries.</li>
+    <li style="margin-bottom: 8px;">Recall that the SDR is often referred to as 'Paper Gold' and is an international reserve asset created by the IMF, not a physical currency or commodity.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["econ-govt-schemes"] = String.raw`
-<h1>Important Government Economic Schemes</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Important Government Economic Schemes</h3>
+  
+  <hr />
 <h2>Flagship Schemes</h2>
 <ul>
   <li><strong>MGNREGA (2005):</strong> Mahatma Gandhi National Rural Employment Guarantee Act. Guarantees 100 days of wage employment in a financial year to a rural household whose adult members volunteer to do unskilled manual work. (Ministry of Rural Development).</li>
@@ -455,13 +513,7 @@ window.EXPANDED_NOTES_DATA["econ-govt-schemes"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Differentiate between 'Central Sector' and 'Centrally Sponsored' schemes based on funding structure; UPSC frequently asks which scheme falls under which category.</li>
-    <li style="margin-bottom: 8px;">Note specific eligibility criteria and benefits: MGNREGA covers only rural households (not urban), PM-KISAN excludes landless laborers, and Ayushman Bharat covers secondary/tertiary care (not primary).</li>
-    <li style="margin-bottom: 8px;">Identify the implementing ministries: MGNREGA (Ministry of Rural Development), PM-KISAN (Ministry of Agriculture), and PMJDY (Ministry of Finance).</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -473,11 +525,24 @@ window.EXPANDED_NOTES_DATA["econ-govt-schemes"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly important for UPSC Prelims (factual recall on scheme names, years, and funding) and Mains (policy analysis, implementation challenges, and inter-state coordination).</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Differentiate between 'Central Sector' and 'Centrally Sponsored' schemes based on funding structure; UPSC frequently asks which scheme falls under which category.</li>
+    <li style="margin-bottom: 8px;">Note specific eligibility criteria and benefits: MGNREGA covers only rural households (not urban), PM-KISAN excludes landless laborers, and Ayushman Bharat covers secondary/tertiary care (not primary).</li>
+    <li style="margin-bottom: 8px;">Identify the implementing ministries: MGNREGA (Ministry of Rural Development), PM-KISAN (Ministry of Agriculture), and PMJDY (Ministry of Finance).</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["geography-pyq-trends-topic"] = String.raw`
-<h1>Geography PYQ Micro-Trends & Themes</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Geography PYQ Micro-Trends & Themes</h3>
+  
+  <hr />
 <p>This is a specialized module analyzing recurring themes in Geography PYQs for NDA/CDS that don't fit into standard textbook chapters but are critical for exams.</p>
 <ul>
   <li><strong>Local Winds Matching:</strong> UPSC frequently asks to match local winds with their regions. <em>Mistral</em> (Cold, France), <em>Sirocco</em> (Hot, Sahara to Mediterranean - "Blood Rain"), <em>Chinook</em> (Warm, Rockies - "Snow Eater"), <em>Foehn</em> (Warm, Alps), <em>Harmattan</em> (Dry, West Africa - "The Doctor").</li>
@@ -500,13 +565,7 @@ window.EXPANDED_NOTES_DATA["geography-pyq-trends-topic"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">High-frequency matching traps often involve confusing the 'Blood Rain' effect of the Sirocco with the 'Snow Eater' nature of the Chinook, or misidentifying the Humboldt current as warm due to its proximity to the equator.</li>
-    <li style="margin-bottom: 8px;">Examiners frequently test the distinction between Convectional rainfall (vertical air movement, equatorial) and Orographic rainfall (forced ascent, windward slopes), often using the Western Ghats as a case study.</li>
-    <li style="margin-bottom: 8px;">A common trick question asserts that S-waves can travel through the Earth's outer core (liquid); the correct answer relies on the fact that S-waves cannot traverse liquid media, which is how the liquid outer core was discovered.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -517,6 +576,17 @@ window.EXPANDED_NOTES_DATA["geography-pyq-trends-topic"] = String.raw`
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Critical for NDA/CDS General Knowledge and Geography sections; matching questions on winds and currents appear in almost every exam cycle, and conceptual clarity on seismic waves is essential for distinguishing between similar-sounding options.</div>
+</div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">High-frequency matching traps often involve confusing the 'Blood Rain' effect of the Sirocco with the 'Snow Eater' nature of the Chinook, or misidentifying the Humboldt current as warm due to its proximity to the equator.</li>
+    <li style="margin-bottom: 8px;">Examiners frequently test the distinction between Convectional rainfall (vertical air movement, equatorial) and Orographic rainfall (forced ascent, windward slopes), often using the Western Ghats as a case study.</li>
+    <li style="margin-bottom: 8px;">A common trick question asserts that S-waves can travel through the Earth's outer core (liquid); the correct answer relies on the fact that S-waves cannot traverse liquid media, which is how the liquid outer core was discovered.</li></p>
+  </div>
+
+  
 </div>
 `;
 

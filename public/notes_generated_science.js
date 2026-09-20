@@ -1,8 +1,10 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-// PHYSICS
-window.EXPANDED_NOTES_DATA["reflection-refraction"] = String.raw`<h1>Light: Reflection & Refraction</h1>
-<hr />
+window.EXPANDED_NOTES_DATA["reflection-refraction"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Light: Reflection & Refraction</h3>
+  
+  <hr />
 <p>Light, a fundamental aspect of physics, is an electromagnetic wave that allows us to perceive the world around us. It exhibits dual nature, behaving both as a wave and as a particle (photons). The study of light and its phenomena is known as optics, a crucial field for understanding various natural occurrences and technological applications. In the context of defence examinations, a thorough understanding of light's properties, particularly reflection and refraction, is essential as these principles underpin many optical instruments and sensing technologies.</p>
 
 <h2>Reflection of Light</h2>
@@ -227,10 +229,19 @@ window.EXPANDED_NOTES_DATA["reflection-refraction"] = String.raw`<h1>Light: Refl
   <li><strong>Endoscopes:</strong>
     <p>Medical endoscopes use bundles of optical fibres to illuminate and view the inside of the human body without invasive surgery. Light is guided into the body via one set of fibres through TIR, and reflected light from the internal organs is transmitted back out through another set of fibres, forming an image for the doctor to observe.</p>
   </li>
-</ul>`;
+</ul>
 
-window.EXPANDED_NOTES_DATA["newtons-laws"] = String.raw`<h1>Newton's Laws of Motion & Gravitation</h1>
-<hr />
+  
+
+  
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["newtons-laws"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Newton's Laws of Motion & Gravitation</h3>
+  
+  <hr />
 <h2>Newton's Three Laws of Motion</h2>
 <p>Sir Isaac Newton, one of the most influential scientists of all time, formulated three fundamental laws of motion that laid the groundwork for classical mechanics. Published in his seminal work "Philosophiæ Naturalis Principia Mathematica" (Mathematical Principles of Natural Philosophy) in 1687, these laws describe the relationship between a body and the forces acting upon it, and its motion in response to those forces. They are crucial for understanding everything from the movement of celestial bodies to the everyday motion of objects on Earth.</p>
 <ol>
@@ -475,10 +486,19 @@ window.EXPANDED_NOTES_DATA["newtons-laws"] = String.raw`<h1>Newton's Laws of Mot
   <li><strong>Law of Orbits:</strong> All planets move in elliptical orbits with the Sun at one of the two foci.</li>
   <li><strong>Law of Areas:</strong> A line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time. This implies that a planet moves faster when it is closer to the Sun (perihelion) and slower when it is farther away (aphelion). This is a consequence of the conservation of angular momentum.</li>
   <li><strong>Law of Periods:</strong> The square of the orbital period ($T$) of a planet is directly proportional to the cube of the semi-major axis ($a$) of its orbit. ($T^2 \propto a^3$). Newton later derived this law from his law of gravitation, showing that $T^2 = \frac{4\pi^2}{GM} a^3$.</li>
-</ol>`;
+</ol>
 
-window.EXPANDED_NOTES_DATA["syl-exercises"] = String.raw`<h1>General Physics Exercises</h1>
-<hr />
+  
+
+  
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["syl-exercises"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">General Physics Exercises</h3>
+  
+  <hr />
 <p>
   This module serves as a foundational pillar for understanding the mechanics of motion and energy, crucial for success in Defence Examinations such as NDA, CDS, and AFCAT. It delves into the quantitative description of motion (kinematics) and the fundamental principles governing work and energy (dynamics). A robust grasp of these concepts is indispensable for solving numerical problems and comprehending the underlying physics of various real-world scenarios, from projectile trajectories to the operation of simple machines.
 </p>
@@ -874,10 +894,19 @@ window.EXPANDED_NOTES_DATA["syl-exercises"] = String.raw`<h1>General Physics Exe
 </ul>
 <p>
   These fundamental principles of kinematics and dynamics form the bedrock for more advanced topics in physics and are frequently tested in Defence Exams. A thorough understanding ensures not only numerical proficiency but also a strong conceptual foundation for critical thinking.
-</p>`;
+</p>
 
-window.EXPANDED_NOTES_DATA["physics-sound"] = String.raw`<h1>Sound Waves</h1>
-<hr />
+  
+
+  
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["physics-sound"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Sound Waves</h3>
+  
+  <hr />
 <h2>Nature of Sound</h2>
 <p>Sound is fundamentally a <strong>longitudinal mechanical wave</strong>. This classification is crucial for understanding its behavior and properties. Let's break down what this means:</p>
 <ul>
@@ -1052,10 +1081,19 @@ window.EXPANDED_NOTES_DATA["physics-sound"] = String.raw`<h1>Sound Waves</h1>
       <li><strong>Infrasound Monitoring:</strong> Used to detect and track natural phenomena like volcanic eruptions, avalanches, and even distant nuclear tests.</li>
     </ul>
   </li>
-</ul>`;
+</ul>
 
-window.EXPANDED_NOTES_DATA["physics-em-waves"] = String.raw`<h1>Electromagnetic (EM) Waves</h1>
-<hr />
+  
+
+  
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["physics-em-waves"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Electromagnetic (EM) Waves</h3>
+  
+  <hr />
 <h2>Introduction to Electromagnetic Waves</h2>
 <p>Electromagnetic (EM) waves are a fundamental phenomenon in physics, representing a self-propagating disturbance in the electromagnetic field. Unlike mechanical waves (like sound waves or water waves) which require a material medium to travel, EM waves are unique in their ability to propagate through the vacuum of space. This characteristic stems from their very nature: they consist of oscillating electric and magnetic fields that are perpendicular to each other and also perpendicular to the direction of wave propagation. This defines them as **transverse waves**.</p>
 <p>The speed at which EM waves travel in a vacuum is a universal constant, known as the speed of light, denoted by 'c'. Its value is approximately $3 \times 10^8$ meters per second. This speed is a cornerstone of modern physics, particularly in Einstein's theory of special relativity. When EM waves pass through a medium (like air, water, or glass), their speed decreases, and this change in speed is responsible for phenomena such as refraction.</p>
@@ -1283,11 +1321,19 @@ window.EXPANDED_NOTES_DATA["physics-em-waves"] = String.raw`<h1>Electromagnetic 
   </li>
   <li><strong>Countermeasures:</strong>
     <ul>
-      <li><strong>Chaff:</strong> Small strips of aluminum or metallized glass fibre`;
+      <li><strong>Chaff:</strong> Small strips of aluminum or metallized glass fibre
+
+  
+
+  
+</div>
+`;
 
 window.EXPANDED_NOTES_DATA["physics-heat"] = String.raw`
-<h1>Heat and Thermodynamics</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Heat and Thermodynamics</h3>
+  
+  <hr />
 <h2>Modes of Heat Transfer</h2>
 <ul>
   <li><strong>Conduction:</strong> Transfer in solids through molecular collisions without actual movement of matter.</li>
@@ -1302,11 +1348,18 @@ window.EXPANDED_NOTES_DATA["physics-heat"] = String.raw`
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> The normal temperature of the human body is <strong>37°C</strong> or <strong>98.6°F</strong> or <strong>310 K</strong>.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["physics-electricity-magnetism"] = String.raw`
-<h1>Electricity & Magnetism</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Electricity & Magnetism</h3>
+  
+  <hr />
 <h2>Ohm's Law & Resistance</h2>
 <p>At a constant temperature, current ($I$) flowing through a conductor is directly proportional to the potential difference ($V$). $V = IR$.</p>
 <p>Resistance ($R = \rho \frac{l}{A}$): Depends on length (direct), area of cross-section (inverse), and nature of material. Temperature increase raises resistance in conductors but lowers it in semiconductors.</p>
@@ -1320,11 +1373,18 @@ window.EXPANDED_NOTES_DATA["physics-electricity-magnetism"] = String.raw`
   <li><strong>Fleming's Left-Hand Rule:</strong> Used for Electric Motors (Force direction).</li>
   <li><strong>Fleming's Right-Hand Rule:</strong> Used for Electric Generators (Induced current direction).</li>
 </ul>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["physics-nuclear-basics"] = String.raw`
-<h1>Nuclear Physics & Radioactivity</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Nuclear Physics & Radioactivity</h3>
+  
+  <hr />
 <h2>Radioactivity</h2>
 <p>Discovered by Henri Becquerel. It is the spontaneous emission of radiation from an unstable nucleus.</p>
 <ul>
@@ -1341,22 +1401,35 @@ window.EXPANDED_NOTES_DATA["physics-nuclear-basics"] = String.raw`
 <div style="background-color:#e2e3e5; padding:15px; border-left:5px solid #6c757d; margin:15px 0;">
   <strong>⚡ PYQ Insight:</strong> (AFCAT 2021) "Which is cleaner and produces more energy per unit mass: Fission or Fusion?" Answer: <strong>Nuclear Fusion</strong>.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["physics-pyq-trends-topic"] = String.raw`
-<h1>Physics PYQ Micro-Trends</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Physics PYQ Micro-Trends</h3>
+  
+  <hr />
 <ul>
   <li><strong>Myopia vs. Hypermetropia:</strong> Myopia (Nearsightedness, fixed by Concave lens). Hypermetropia (Farsightedness, fixed by Convex lens).</li>
   <li><strong>Doppler Effect:</strong> The apparent change in frequency of sound/light due to relative motion between source and observer. (e.g., siren pitch dropping as an ambulance passes).</li>
   <li><strong>Archimedes' Principle & Buoyancy:</strong> A body immersed in a fluid experiences an upward thrust equal to the weight of the fluid displaced. Used in designing ships and submarines.</li>
 </ul>
+
+  
+
+  
+</div>
 `;
 
-// CHEMISTRY
 window.EXPANDED_NOTES_DATA["metals-alloys"] = String.raw`
-<h1>Metals, Non-Metals & Alloys</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Metals, Non-Metals & Alloys</h3>
+  
+  <hr />
 <h2>Properties</h2>
 <p><strong>Metals:</strong> Malleable, ductile, good conductors of heat/electricity. (Exceptions: Mercury is liquid; Sodium/Potassium are soft and cut with a knife; Lead/Mercury are poor conductors of heat).</p>
 <p><strong>Non-Metals:</strong> Generally insulators. (Exceptions: Graphite is a good conductor; Diamond is the hardest natural substance and a good conductor of heat).</p>
@@ -1393,11 +1466,18 @@ window.EXPANDED_NOTES_DATA["metals-alloys"] = String.raw`
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> An <strong>Amalgam</strong> is an alloy that essentially contains <strong>Mercury (Hg)</strong> as one of its components. (e.g., Dental amalgam).
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["reactivity-series"] = String.raw`
-<h1>The Reactivity Series of Metals</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">The Reactivity Series of Metals</h3>
+  
+  <hr />
 <p>A list of metals arranged in the order of their decreasing chemical reactivity.</p>
 <ol>
   <li>Potassium (K) - Most reactive</li>
@@ -1418,11 +1498,18 @@ window.EXPANDED_NOTES_DATA["reactivity-series"] = String.raw`
 <div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> A more reactive metal can displace a less reactive metal from its salt solution (Displacement Reaction). For example, Iron will displace Copper from Copper Sulphate ($Fe + CuSO_4 \rightarrow FeSO_4 + Cu$), but Copper cannot displace Iron.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["chemistry-numericals"] = String.raw`
-<h1>Chemistry: Mole Concept & Numericals</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Chemistry: Mole Concept & Numericals</h3>
+  
+  <hr />
 <h2>The Mole Concept</h2>
 <p>One mole of any substance contains Avogadro's number ($6.022 \times 10^{23}$) of particles (atoms, molecules, or ions). It is equal to the atomic or molecular mass of the substance in grams.</p>
 <ul>
@@ -1432,11 +1519,18 @@ window.EXPANDED_NOTES_DATA["chemistry-numericals"] = String.raw`
 
 <h2>Valency and Chemical Formulas</h2>
 <p>Valency is the combining capacity of an element. Cross-multiplying valencies yields the chemical formula (e.g., $Al^{3+}$ and $O^{2-}$ gives $Al_2O_3$).</p>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["chemistry-everyday-fertilisers"] = String.raw`
-<h1>Chemistry in Everyday Life & Fertilizers</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Chemistry in Everyday Life & Fertilizers</h3>
+  
+  <hr />
 <h2>Common Compounds and their Names</h2>
 <ul>
   <li><strong>Baking Soda:</strong> Sodium Bicarbonate ($NaHCO_3$). Used in baking, as an antacid, and in fire extinguishers.</li>
@@ -1453,11 +1547,18 @@ window.EXPANDED_NOTES_DATA["chemistry-everyday-fertilisers"] = String.raw`
 <div style="background-color:#e2e3e5; padding:15px; border-left:5px solid #6c757d; margin:15px 0;">
   <strong>⚡ PYQ Insight:</strong> (NDA 2018) "Which gas is used in the manufacture of Vanaspati Ghee?" Answer: <strong>Hydrogen</strong> (Process: Hydrogenation of unsaturated oils using Nickel catalyst).
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["environmental-chemistry"] = String.raw`
-<h1>Environmental Chemistry</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Environmental Chemistry</h3>
+  
+  <hr />
 <h2>Greenhouse Effect & Global Warming</h2>
 <p>The trapping of infrared radiation by certain atmospheric gases. Primary greenhouse gases: <strong>Water Vapour (highest contribution), $CO_2$, Methane ($CH_4$), Nitrous Oxide ($N_2O$), CFCs</strong>.</p>
 
@@ -1466,12 +1567,18 @@ window.EXPANDED_NOTES_DATA["environmental-chemistry"] = String.raw`
 
 <h2>Ozone Layer Depletion</h2>
 <p>Ozone ($O_3$) in the stratosphere protects from UV rays. Chlorofluorocarbons (CFCs) release Chlorine atoms, which catalytically destroy ozone molecules. The <strong>Montreal Protocol (1987)</strong> phased out CFCs.</p>
+
+  
+
+  
+</div>
 `;
 
-// BIOLOGY
 window.EXPANDED_NOTES_DATA["cell-structure"] = String.raw`
-<h1>Cell: The Unit of Life</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Cell: The Unit of Life</h3>
+  
+  <hr />
 <h2>Key Organelles and Functions</h2>
 <ul>
   <li><strong>Mitochondria:</strong> "Powerhouse of the cell". Site of aerobic respiration and ATP synthesis. Has its own circular DNA and ribosomes.</li>
@@ -1485,11 +1592,18 @@ window.EXPANDED_NOTES_DATA["cell-structure"] = String.raw`
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> <strong>Plant cells</strong> have a rigid Cell Wall (made of cellulose) and large central vacuoles, which are absent or very small in animal cells. Animal cells have centrioles (used in cell division) which are absent in higher plants.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["human-systems"] = String.raw`
-<h1>Human Physiology: Major Systems</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Human Physiology: Major Systems</h3>
+  
+  <hr />
 <h2>Digestive System</h2>
 <ul>
   <li><strong>Stomach:</strong> Secretes HCl (kills bacteria, provides acidic medium) and Pepsin (protein digestion).</li>
@@ -1510,11 +1624,18 @@ window.EXPANDED_NOTES_DATA["human-systems"] = String.raw`
 <div style="background-color:rgba(220, 53, 69, 0.15); padding:15px; border-left:5px solid #dc3545; margin:15px 0;">
   <strong>⚠️ Trap Alert:</strong> <strong>Insulin</strong> is produced by the Beta cells of the Islets of Langerhans in the pancreas, NOT the liver. The liver stores glucose as glycogen.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["diseases"] = String.raw`
-<h1>Diseases and Pathogens</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Diseases and Pathogens</h3>
+  
+  <hr />
 <h2>Bacterial Diseases</h2>
 <p>Tuberculosis (TB), Typhoid, Cholera, Tetanus, Diphtheria, Syphilis.</p>
 <h2>Viral Diseases</h2>
@@ -1530,11 +1651,18 @@ window.EXPANDED_NOTES_DATA["diseases"] = String.raw`
   <strong>🧠 Mnemonic for Water-Borne Bacterial Diseases:</strong><br>
   <strong>T.C.</strong> stands for <strong>T</strong>yphoid and <strong>C</strong>holera. Both transmit via contaminated water/food.
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["immunity-vaccines"] = String.raw`
-<h1>Immunity, Blood & Vaccines</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Immunity, Blood & Vaccines</h3>
+  
+  <hr />
 <h2>Blood Groups</h2>
 <p>Discovered by Karl Landsteiner. Based on antigens present on RBCs.</p>
 <ul>
@@ -1548,11 +1676,18 @@ window.EXPANDED_NOTES_DATA["immunity-vaccines"] = String.raw`
 <div style="background-color:#e2e3e5; padding:15px; border-left:5px solid #6c757d; margin:15px 0;">
   <strong>⚡ PYQ Insight:</strong> (CDS 2019) "White Blood Cells (WBCs) act as the police force of the body." The two main types involved in adaptive immunity are T-lymphocytes (cell-mediated) and B-lymphocytes (antibody-mediated).
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["plant-kingdom"] = String.raw`
-<h1>Plant Kingdom Classification</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Plant Kingdom Classification</h3>
+  
+  <hr />
 <h2>Classification based on structure and vascular tissue</h2>
 <ol>
   <li><strong>Thallophyta (Algae):</strong> No differentiated body parts (roots, stems, leaves). Predominantly aquatic.</li>
@@ -1561,11 +1696,18 @@ window.EXPANDED_NOTES_DATA["plant-kingdom"] = String.raw`
   <li><strong>Gymnosperms:</strong> Produce <em>naked seeds</em> (not enclosed in fruits). Example: Pine, Cycas.</li>
   <li><strong>Angiosperms:</strong> Flowering plants. Seeds are enclosed within fruits. Divided into Monocots (parallel venation, 1 cotyledon) and Dicots (reticulate venation, 2 cotyledons).</li>
 </ol>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["animal-kingdom"] = String.raw`
-<h1>Animal Kingdom (Key Phyla)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Animal Kingdom (Key Phyla)</h3>
+  
+  <hr />
 <ul>
   <li><strong>Porifera:</strong> Sponges. Pores all over body, non-motile.</li>
   <li><strong>Coelenterata (Cnidaria):</strong> Have stinging cells (nematocysts). Examples: Hydra, Jellyfish, Corals.</li>
@@ -1579,11 +1721,18 @@ window.EXPANDED_NOTES_DATA["animal-kingdom"] = String.raw`
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> Mammals and Birds are <strong>Warm-blooded</strong> (Endotherms - can regulate body temp). Fishes, Amphibians, and Reptiles are <strong>Cold-blooded</strong> (Ectotherms - body temp changes with environment).
 </div>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["plant-reproduction"] = String.raw`
-<h1>Plant Reproduction & Hormones</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Plant Reproduction & Hormones</h3>
+  
+  <hr />
 <h2>Sexual Reproduction in Angiosperms</h2>
 <p>The flower is the reproductive part.</p>
 <ul>
@@ -1606,11 +1755,18 @@ window.EXPANDED_NOTES_DATA["plant-reproduction"] = String.raw`
   <li><strong>Abscisic Acid (ABA):</strong> Stress hormone, inhibits growth, causes wilting of leaves.</li>
   <li><strong>Ethylene:</strong> A gaseous hormone that promotes fruit ripening.</li>
 </ul>
+
+  
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["biology-ecology-basics"] = String.raw`
-<h1>Ecology & Environment Basics</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ecology & Environment Basics</h3>
+  
+  <hr />
 <h2>Food Chains and Webs</h2>
 <p>The flow of energy in an ecosystem is always <strong>Unidirectional</strong> (Producer -> Primary Consumer -> Secondary Consumer). According to the <strong>10% Law</strong> (Lindeman), only 10% of energy is transferred to the next trophic level; the rest is lost as heat.</p>
 
@@ -1619,4 +1775,10 @@ window.EXPANDED_NOTES_DATA["biology-ecology-basics"] = String.raw`
 
 <h2>Nitrogen Cycle</h2>
 <p>Atmospheric nitrogen (N2) cannot be used directly by plants. It must be "fixed" into usable forms (ammonia, nitrates). <em>Rhizobium</em> bacteria in the root nodules of leguminous plants play a key role in biological nitrogen fixation.</p>
+
+  
+
+  
+</div>
 `;
+

@@ -1,8 +1,10 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
 window.EXPANDED_NOTES_DATA["ca-upsc-master-framework"] = String.raw`
-<h1>Current Affairs: The UPSC Master Framework</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Current Affairs: The UPSC Master Framework</h3>
+  
+  <hr />
 <h2>How to Study CA for Defence Exams</h2>
 <p>Unlike banking exams, UPSC (NDA/CDS) and IAF (AFCAT) do not focus heavily on trivial day-to-day news. The focus is on macro-events with long-term strategic, geopolitical, or defense implications.</p>
 <ul>
@@ -26,13 +28,7 @@ window.EXPANDED_NOTES_DATA["ca-upsc-master-framework"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick Area: Distinguish between the specific mandates of international groupings (e.g., Quad's focus on maritime security vs. G20's economic focus) to answer statement-based questions accurately.</li>
-    <li style="margin-bottom: 8px;">Key Focus: For defense acquisitions, memorize the triad of 'Weapon Name - Manufacturer/Country - Strategic Purpose' rather than just the date of purchase.</li>
-    <li style="margin-bottom: 8px;">Differentiation: Recognize that gallantry awards (PVC, Ashok Chakra) are static facts, whereas sports/science awards are dynamic and require current-year specific knowledge.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -44,11 +40,24 @@ window.EXPANDED_NOTES_DATA["ca-upsc-master-framework"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Critical for General Knowledge sections in NDA, CDS, and AFCAT; failure to distinguish between factual (AFCAT) and analytical (CDS/NDA) CA approaches leads to significant score loss.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick Area: Distinguish between the specific mandates of international groupings (e.g., Quad's focus on maritime security vs. G20's economic focus) to answer statement-based questions accurately.</li>
+    <li style="margin-bottom: 8px;">Key Focus: For defense acquisitions, memorize the triad of 'Weapon Name - Manufacturer/Country - Strategic Purpose' rather than just the date of purchase.</li>
+    <li style="margin-bottom: 8px;">Differentiation: Recognize that gallantry awards (PVC, Ashok Chakra) are static facts, whereas sports/science awards are dynamic and require current-year specific knowledge.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["ca-defense-acquisitions"] = String.raw`
-<h1>Defense Acquisitions & Tech (Recent Updates)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Defense Acquisitions & Tech (Recent Updates)</h3>
+  
+  <hr />
 <ul>
   <li><strong>C-295 Aircraft:</strong> India is procuring 56 C-295 transport aircraft from Airbus (Spain). 16 built in Spain, 40 manufactured in India by Tata Advanced Systems Limited (TASL) in Vadodara. First private sector aircraft manufacturing facility in India.</li>
   <li><strong>S-400 Triumf:</strong> Air defense system from Russia. Can engage targets up to 400 km.</li>
@@ -66,13 +75,7 @@ window.EXPANDED_NOTES_DATA["ca-defense-acquisitions"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between the roles of different platforms: C-295 for tactical airlift, S-400 for long-range air defense (400 km range), and MQ-9B for High Altitude Long Endurance (HALE) maritime surveillance in the Indian Ocean Region (IOR).</li>
-    <li style="margin-bottom: 8px;">Identify the specific manufacturing partners and locations: TASL (Vadodara) for C-295 and Mazagon Dock (Mumbai) for Project 75 submarines, as these are frequent factual queries in Prelims.</li>
-    <li style="margin-bottom: 8px;">Note the strategic significance of the S-400 Triumf system's capability to engage targets up to 400 km, which is a key parameter often tested in defense-related questions.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -84,11 +87,24 @@ window.EXPANDED_NOTES_DATA["ca-defense-acquisitions"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims and Mains (GS Paper III: Security and Defense) and NDA/CDS General Knowledge sections, focusing on specific defense acquisitions, manufacturing partners, and strategic capabilities.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between the roles of different platforms: C-295 for tactical airlift, S-400 for long-range air defense (400 km range), and MQ-9B for High Altitude Long Endurance (HALE) maritime surveillance in the Indian Ocean Region (IOR).</li>
+    <li style="margin-bottom: 8px;">Identify the specific manufacturing partners and locations: TASL (Vadodara) for C-295 and Mazagon Dock (Mumbai) for Project 75 submarines, as these are frequent factual queries in Prelims.</li>
+    <li style="margin-bottom: 8px;">Note the strategic significance of the S-400 Triumf system's capability to engage targets up to 400 km, which is a key parameter often tested in defense-related questions.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["ca-quad-indopacific"] = String.raw`
-<h1>Geopolitics: Quad & Indo-Pacific</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Geopolitics: Quad & Indo-Pacific</h3>
+  
+  <hr />
 <h2>The Quad (Quadrilateral Security Dialogue)</h2>
 <p>An informal strategic forum comprising <strong>India, USA, Japan, and Australia</strong>. Its primary objective is to ensure a "free, open, and prosperous Indo-Pacific region," largely seen as a counterweight to China's growing influence.</p>
 <ul>
@@ -108,12 +124,7 @@ window.EXPANDED_NOTES_DATA["ca-quad-indopacific"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between the Quad's informal strategic nature and its operational military dimension, specifically the evolution of the Malabar Exercise from trilateral to quadrilateral.</li>
-    <li style="margin-bottom: 8px;">Analyze the geopolitical implications of the Red Sea crisis on India's 'SAGAR' (Security and Growth for All in the Region) doctrine and its role in global maritime security.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -125,11 +136,23 @@ window.EXPANDED_NOTES_DATA["ca-quad-indopacific"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC GS Paper II (International Relations) and NDA/CDS General Knowledge, focusing on India's foreign policy, strategic partnerships, and maritime security initiatives.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between the Quad's informal strategic nature and its operational military dimension, specifically the evolution of the Malabar Exercise from trilateral to quadrilateral.</li>
+    <li style="margin-bottom: 8px;">Analyze the geopolitical implications of the Red Sea crisis on India's 'SAGAR' (Security and Growth for All in the Region) doctrine and its role in global maritime security.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["ca-schemes"] = String.raw`
-<h1>Major Recent Government Schemes</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Major Recent Government Schemes</h3>
+  
+  <hr />
 <ul>
   <li><strong>PM Vishwakarma Scheme:</strong> Aimed at supporting traditional artisans and craftspeople. Completely funded by the Union Government (Central Sector Scheme).</li>
   <li><strong>PM Surya Ghar: Muft Bijli Yojana:</strong> Aims to provide free electricity up to 300 units every month by installing rooftop solar systems in 1 crore households.</li>
@@ -147,13 +170,7 @@ window.EXPANDED_NOTES_DATA["ca-schemes"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between Central Sector Schemes (fully funded by Union, e.g., PM Vishwakarma) and Centrally Sponsored Schemes (shared funding).</li>
-    <li style="margin-bottom: 8px;">Note the specific tenure (4 years) and the term 'Agniveer' for the Agnipath Scheme; recall that only 25% of Agniveers are retained after the tenure.</li>
-    <li style="margin-bottom: 8px;">For PM Surya Ghar, remember the target of 1 crore households and the subsidy structure (up to ₹30,000 for residential, ₹18,000 for non-residential) which is a common numerical fact in prelims.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -165,11 +182,24 @@ window.EXPANDED_NOTES_DATA["ca-schemes"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims (General Studies Paper I) and NDA/CDS General Knowledge sections, as these are flagship schemes of the current government frequently tested for their objectives, funding structure, and target beneficiaries.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between Central Sector Schemes (fully funded by Union, e.g., PM Vishwakarma) and Centrally Sponsored Schemes (shared funding).</li>
+    <li style="margin-bottom: 8px;">Note the specific tenure (4 years) and the term 'Agniveer' for the Agnipath Scheme; recall that only 25% of Agniveers are retained after the tenure.</li>
+    <li style="margin-bottom: 8px;">For PM Surya Ghar, remember the target of 1 crore households and the subsidy structure (up to ₹30,000 for residential, ₹18,000 for non-residential) which is a common numerical fact in prelims.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["ca-space-nuclear"] = String.raw`
-<h1>Space & Nuclear Updates</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Space & Nuclear Updates</h3>
+  
+  <hr />
 <h2>ISRO's Historic Missions</h2>
 <ul>
   <li><strong>Chandrayaan-3:</strong> India became the first country to soft-land near the lunar South Pole (Shiv Shakti Point). Date: August 23, 2023 (now celebrated as National Space Day).</li>
@@ -191,13 +221,7 @@ window.EXPANDED_NOTES_DATA["ca-space-nuclear"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Distinguish between the specific launch vehicles: Chandrayaan-3 and Aditya-L1 were both launched using the LVM3 (GSLV Mk III), whereas Gaganyaan will utilize the GSLV Mk III with a Crew Module.</li>
-    <li style="margin-bottom: 8px;">Understand the significance of Lagrange Point 1 (L1) for Aditya-L1: It allows for continuous observation of the Sun without the obstruction of Earth or Moon, crucial for solar physics studies.</li>
-    <li style="margin-bottom: 8px;">Note the specific landing site of Chandrayaan-3: 'Shiv Shakti Point' near the lunar South Pole, which is significant for potential water ice extraction and future resource utilization.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -209,11 +233,24 @@ window.EXPANDED_NOTES_DATA["ca-space-nuclear"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Highly relevant for UPSC Prelims and Mains (GS Paper I & II) as well as NDA/CDS General Knowledge. Questions frequently target specific mission details, launch vehicles, orbital mechanics (Lagrange points), and India's global standing in space exploration.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Distinguish between the specific launch vehicles: Chandrayaan-3 and Aditya-L1 were both launched using the LVM3 (GSLV Mk III), whereas Gaganyaan will utilize the GSLV Mk III with a Crew Module.</li>
+    <li style="margin-bottom: 8px;">Understand the significance of Lagrange Point 1 (L1) for Aditya-L1: It allows for continuous observation of the Sun without the obstruction of Earth or Moon, crucial for solar physics studies.</li>
+    <li style="margin-bottom: 8px;">Note the specific landing site of Chandrayaan-3: 'Shiv Shakti Point' near the lunar South Pole, which is significant for potential water ice extraction and future resource utilization.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["ca-spain-c295"] = String.raw`
-<h1>Current Affairs Updates (Check CA Dashboard)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Current Affairs Updates (Check CA Dashboard)</h3>
+  
+  <hr />
 <p>For highly volatile and dynamic current affairs topics (like recent awards, newly signed policies, monthly summits, and specific defense acquisitions), please refer to the dedicated <strong>Current Affairs DB</strong> and the monthly update modules within the application.</p>
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> Do not rely on static notes for these topics. Always read the latest 6 months' current affairs magazines prior to your exam date.
@@ -230,13 +267,7 @@ window.EXPANDED_NOTES_DATA["ca-spain-c295"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Trick questions often conflate static historical facts with recent policy changes; always verify the timeline.</li>
-    <li style="margin-bottom: 8px;">Focus on the intersection of static concepts (e.g., defense structure) with recent acquisitions or summits mentioned in the CA DB.</li>
-    <li style="margin-bottom: 8px;">Do not memorize specific monthly summit outcomes from static notes, as these change frequently.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -247,11 +278,24 @@ window.EXPANDED_NOTES_DATA["ca-spain-c295"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Critical for Prelims and Mains; failure to update static notes with recent CA leads to incorrect answers on time-sensitive questions.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Trick questions often conflate static historical facts with recent policy changes; always verify the timeline.</li>
+    <li style="margin-bottom: 8px;">Focus on the intersection of static concepts (e.g., defense structure) with recent acquisitions or summits mentioned in the CA DB.</li>
+    <li style="margin-bottom: 8px;">Do not memorize specific monthly summit outcomes from static notes, as these change frequently.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["syl-verbal-reasoning"] = String.raw`
-<h1>Verbal Reasoning: Core Strategies</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Verbal Reasoning: Core Strategies</h3>
+  
+  <hr />
 <h2>1. Series & Coding-Decoding</h2>
 <p>Always write down the alphabet with their positional values (A=1, B=2 ... Z=26) and their reverse values (A=26, Z=1) on your rough sheet before the exam starts.</p>
 <div style="background-color:#e3f2fd; padding:15px; border-left:5px solid #2196f3; margin:15px 0;">
@@ -288,13 +332,7 @@ window.EXPANDED_NOTES_DATA["syl-verbal-reasoning"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">In syllogisms, UPSC often tests the 'particular' conclusion from 'universal' premises (e.g., 'All A are B' implies 'Some A are B'), a common trap for candidates who only look for universal conclusions.</li>
-    <li style="margin-bottom: 8px;">Coding-decoding questions frequently combine positional values with reverse alphabets; memorizing the 13 pairs (A-Z to M-N) is critical for solving these within the time limit.</li>
-    <li style="margin-bottom: 8px;">Blood relation questions may include ambiguous terms like 'brother-in-law' or 'sister-in-law'; always map the exact relationship rather than assuming gender or direct lineage without explicit cues.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -306,11 +344,24 @@ window.EXPANDED_NOTES_DATA["syl-verbal-reasoning"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Verbal reasoning is a core component of the General Intelligence and Reasoning section in NDA, CDS, and UPSC CSE Prelims. It carries significant weight and is often the deciding factor in cut-offs due to its objective and time-sensitive nature.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">In syllogisms, UPSC often tests the 'particular' conclusion from 'universal' premises (e.g., 'All A are B' implies 'Some A are B'), a common trap for candidates who only look for universal conclusions.</li>
+    <li style="margin-bottom: 8px;">Coding-decoding questions frequently combine positional values with reverse alphabets; memorizing the 13 pairs (A-Z to M-N) is critical for solving these within the time limit.</li>
+    <li style="margin-bottom: 8px;">Blood relation questions may include ambiguous terms like 'brother-in-law' or 'sister-in-law'; always map the exact relationship rather than assuming gender or direct lineage without explicit cues.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["syl-afcat-spatial"] = String.raw`
-<h1>Spatial / Non-Verbal Reasoning (AFCAT Special)</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Spatial / Non-Verbal Reasoning (AFCAT Special)</h3>
+  
+  <hr />
 <h2>1. Dot Situation</h2>
 <p>This is a classic AFCAT question type. You are given a complex figure with a dot placed inside overlapping regions (e.g., inside a circle and a triangle, but outside a square). You must find the option where a dot can be placed under the <strong>exact same conditions</strong>.</p>
 <p><em>Trick:</em> Do not look at the whole shape. Focus ONLY on the intersection regions required. Trace the boundary of the required regions in the options.</p>
@@ -341,13 +392,7 @@ window.EXPANDED_NOTES_DATA["syl-afcat-spatial"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">In Dot Situation questions, avoid analyzing the entire figure; strictly trace the boundaries of the required overlapping regions to eliminate incorrect options quickly.</li>
-    <li style="margin-bottom: 8px;">For non-verbal series, if linear progression logic fails, check for alternating patterns (e.g., 1st → 3rd → 5th figures) as a common trap in AFCAT and NDA exams.</li>
-    <li style="margin-bottom: 8px;">Master the distinction between Water Images (vertical flip) and Mirror Images (horizontal flip) as these are frequent sources of error in analogy questions.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -359,11 +404,24 @@ window.EXPANDED_NOTES_DATA["syl-afcat-spatial"] = String.raw`
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">High. Spatial and Non-Verbal Reasoning is a core component of the AFCAT, NDA, and CDS General Ability Test (GAT). It is a high-scoring section where consistent practice with pattern recognition and elimination techniques can significantly boost overall rank.</div>
 </div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">In Dot Situation questions, avoid analyzing the entire figure; strictly trace the boundaries of the required overlapping regions to eliminate incorrect options quickly.</li>
+    <li style="margin-bottom: 8px;">For non-verbal series, if linear progression logic fails, check for alternating patterns (e.g., 1st → 3rd → 5th figures) as a common trap in AFCAT and NDA exams.</li>
+    <li style="margin-bottom: 8px;">Master the distinction between Water Images (vertical flip) and Mirror Images (horizontal flip) as these are frequent sources of error in analogy questions.</li></p>
+  </div>
+
+  
+</div>
 `;
 
 window.EXPANDED_NOTES_DATA["afcat-r-syllogism"] = String.raw`
-<h1>Practice & Drills Required</h1>
-<hr />
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Practice & Drills Required</h3>
+  
+  <hr />
 <p>This topic is highly practical and application-based. Theoretical notes are insufficient to master it. Please navigate to the <strong>Practice Modules</strong> and solve at least 50 PYQs to build speed and accuracy.</p>
 <div style="background-color:rgba(255, 193, 7, 0.15); padding:15px; border-left:5px solid #ffc107; margin:15px 0;">
   <strong>🔥 High-Yield Fact:</strong> For mathematical and reasoning topics, speed is as important as accuracy. Utilize the timer feature in the app during your drills!
@@ -380,13 +438,7 @@ window.EXPANDED_NOTES_DATA["afcat-r-syllogism"] = String.raw`
   </ul>
 </div>
 <div class="msc-checkpoint" style="margin-top: 24px;">
-  <div class="msc-title">dY"s Upsc Highlights</div>
-  <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
-    <li style="margin-bottom: 8px;">Focus on the 'Either-Or' case: If two conclusions are mutually exclusive but collectively exhaustive (e.g., 'All A are B' and 'No A is B'), one of them must be true if the premises support the relationship.</li>
-    <li style="margin-bottom: 8px;">Beware of 'Particular' vs 'Universal' traps: A universal affirmative premise (All A are B) does not imply a particular affirmative (Some A are B) in strict Aristotelian logic used in some exams, though modern interpretations often assume existence; check specific exam guidelines (NDA/UPSC usually follow standard categorical logic).</li>
-    <li style="margin-bottom: 8px;">Common trick: Negating the conclusion. If the conclusion is 'Some A are B', the opposite is 'No A is B'. If the premises allow for 'Some A are B', then 'No A is B' is definitely false, but 'Some A are not B' may be possible.</li>
-  </ul>
-</div>
+  
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Background Context</div>
   <ul style="padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary);">
@@ -397,6 +449,17 @@ window.EXPANDED_NOTES_DATA["afcat-r-syllogism"] = String.raw`
 <div class="msc-checkpoint" style="margin-top: 24px;">
   <div class="msc-title">dY"s Exam Relevance</div>
   <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Syllogisms are a high-frequency, high-scoring topic in the General Intelligence and Reasoning sections of NDA, CDS, and AFCAT. They are considered 'easy marks' if logical rules are mastered, but can be time-consuming if candidates overthink. Consistent practice with Venn diagrams is essential to achieve the required speed (approx. 30-45 seconds per question).</div>
+</div>
+
+  
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color: #fbbf24;">🎯 UPSC Highlights (CDS/NDA Focus):</strong>
+    <p style="color: #e2e8f0; margin-top: 8px;"><li style="margin-bottom: 8px;">Focus on the 'Either-Or' case: If two conclusions are mutually exclusive but collectively exhaustive (e.g., 'All A are B' and 'No A is B'), one of them must be true if the premises support the relationship.</li>
+    <li style="margin-bottom: 8px;">Beware of 'Particular' vs 'Universal' traps: A universal affirmative premise (All A are B) does not imply a particular affirmative (Some A are B) in strict Aristotelian logic used in some exams, though modern interpretations often assume existence; check specific exam guidelines (NDA/UPSC usually follow standard categorical logic).</li>
+    <li style="margin-bottom: 8px;">Common trick: Negating the conclusion. If the conclusion is 'Some A are B', the opposite is 'No A is B'. If the premises allow for 'Some A are B', then 'No A is B' is definitely false, but 'Some A are not B' may be possible.</li></p>
+  </div>
+
+  
 </div>
 `;
 
