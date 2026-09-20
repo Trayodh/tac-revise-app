@@ -5148,3 +5148,23 @@ mark {
   border-radius: 3px;
   padding: 0 4px;
 }
+
+/* Force dark theme compatibility on injected inline styles in notes */
+#markdown-injection-point div[style*="background-color"],
+#markdown-injection-point p[style*="background-color"] {
+    background-color: rgba(30, 40, 60, 0.5) !important;
+    color: #e2e8f0 !important;
+    border-color: rgba(74, 222, 128, 0.3) !important;
+}
+
+/* For tables with light backgrounds */
+#markdown-injection-point tr[style*="background-color"],
+#markdown-injection-point th[style*="background-color"],
+#markdown-injection-point td[style*="background-color"] {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+#markdown-injection-point th {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
