@@ -1,5 +1,10 @@
-window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};\n\nwindow.EXPANDED_NOTES_DATA["afcat-r-cube-dice"] = String.raw`\n<h1>Cubes and Dice</h1>
-<hr />
+window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
+
+window.EXPANDED_NOTES_DATA["afcat-r-cube-dice"] = String.raw`
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Cubes and Dice</h3>
+  
+  <hr />
 
 <p>The <strong>Cubes and Dice</strong> topic is a cornerstone of the Non-Verbal Reasoning section in Indian Defence Examinations such as <strong>AFCAT (Air Force Common Admission Test)</strong> and <strong>NDA (National Defence Academy)</strong>. Questions in this section test your spatial visualization, 3D mental rotation, and logical pattern recognition.</p>
 
@@ -130,4 +135,11 @@ window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};\n\nwindow.EXPANDE
 
 <div style="background-color:rgba(255, 193, 7, 0.15); padding: 10px; border-left: 4px solid #ffc107; margin-bottom: 15px;">
   <strong>EXAM TIP / TRAP:</strong> When questions specify that opposite pairs of faces are painted with different colors (e.g., 2 red, 2 green, 2 black), standard formulas for 1-face and 2-face painted cubes must be broken down face-by-face or edge-by-edge rather than multiplied by 6 or 12.
-</div>\n`;\n\n
+</div>
+
+  
+
+  
+</div>
+`;
+
