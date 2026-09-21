@@ -295,8 +295,8 @@ const requestHandler = async (req, res) => {
         const payload = JSON.parse(body);
         const { task, context } = payload;
         
-        const GROQ_API_KEY = process.env.GROQ_API_KEY;
-        const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY || process.env.GROQ_API_KEY; // fallback if needed
+        const GROQ_API_KEY = process.env.GROQ_API_KEY || '';
+        const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY || '';
         const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
         
         const systemPrompt = `
@@ -509,13 +509,9 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
         let aiText = "";
 
         let actualTarget = targetAI;
-        if (actualTarget === 'groq') {
-          // Fallback Groq requests to Gemini
-          actualTarget = 'gemini';
-        }
 
         if (actualTarget === 'gemini') {
-          const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
+          const GEMINI_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
           if (!GEMINI_KEY) {
              aiText = (isJsonRequired ? "{}" : "") + "\n\n**[SYSTEM ALERT]** Gemini API key missing from backend! Please add GEMINI_API_KEY to your environment variables.";
           } else {
@@ -560,6 +556,27 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
             body: JSON.stringify(cerebrasBody)
           });
           if (!res.ok) throw new Error("Cerebras API Error: " + await res.text());
+          const data = await res.json();
+          aiText = data.choices?.[0]?.message?.content || "";
+        }
+        else if (actualTarget === 'groq') {
+          const groqBody = {
+            model: 'llama3-8b-8192',
+            messages: messages,
+            temperature: temperature || 0.7,
+            max_tokens: 1500
+          };
+          if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
+
+          const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${GROQ_API_KEY || ''}`
+            },
+            body: JSON.stringify(groqBody)
+          });
+          if (!res.ok) throw new Error("Groq API Error: " + await res.text());
           const data = await res.json();
           aiText = data.choices?.[0]?.message?.content || "";
         }
@@ -676,7 +693,8 @@ ${textPrompt}`;
         }
         
         const GEMINI_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
-        const CEREBRAS_KEY = process.env.CEREBRAS_API_KEY || process.env.GROQ_API_KEY || '';
+        const CEREBRAS_KEY = process.env.CEREBRAS_API_KEY || '';
+        const GROQ_KEY = process.env.GROQ_API_KEY || '';
 
         let apiResponse = null;
         let success = false;
@@ -759,6 +777,52 @@ ${textPrompt}`;
             }
           } catch (err) {
             console.error("[PROXY] Cerebras fallback error:", err);
+          }
+        }
+        
+        // --- NEW: FALLBACK TO GROQ API ---
+        if (!success && !usedAiFallback && GROQ_KEY) {
+          console.log('[PROXY] Falling back to Groq API...');
+          try {
+            let prompt = "";
+            if (contents && contents[0] && contents[0].parts) {
+              prompt = contents[0].parts.map(p => p.text || '').join('\n');
+            }
+            if (systemInstruction && systemInstruction.parts) {
+               prompt = "System Instructions:\n" + systemInstruction.parts.map(p => p.text).join('\n') + "\n\nUser Request:\n" + prompt;
+            }
+
+            const groqBody = {
+              model: 'llama3-8b-8192',
+              messages: [{ role: 'user', content: prompt }],
+              temperature: generationConfig?.temperature || 0.7,
+              max_tokens: 1500
+            };
+            
+            if (generationConfig && (generationConfig.responseMimeType === 'application/json' || generationConfig.response_mime_type === 'application/json')) {
+                groqBody.response_format = { type: 'json_object' };
+                groqBody.messages[0].content += '\n\nIMPORTANT: Return strictly as JSON object.';
+            }
+
+            const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${GROQ_KEY}`
+              },
+              body: JSON.stringify(groqBody)
+            });
+
+            if (res.ok) {
+              const data = await res.json();
+              fallbackText = data.choices?.[0]?.message?.content || "";
+              usedAiFallback = true;
+              console.log("[PROXY] Groq fallback succeeded!");
+            } else {
+              console.error("[PROXY] Groq API fallback failed:", res.status, await res.text());
+            }
+          } catch (err) {
+            console.error("[PROXY] Groq fallback error:", err);
           }
         }
         
