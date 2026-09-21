@@ -773,61 +773,7 @@ ${textPrompt}`;
           res.writeHead(200, { 'Content-Type': 'application/json' });
           res.end(JSON.stringify(fallbackData));
         }
-          return;
-        } else {
-          console.warn('[PROXY] All APIs failed/missing. Serving premium local fallback.');
-          
-          let prompt = "";
-          try {
-            if (contents && contents[0] && contents[0].parts) {
-              prompt = contents[0].parts.map(p => p.text || '').join('\n');
-            }
-          } catch (_) {}
-          
-          let responseText = "";
-          if (prompt.toLowerCase().includes('solve') || prompt.toLowerCase().includes('question') || prompt.toLowerCase().includes('options')) {
-            responseText = `### 📝 Exam Question Analysis (UPSC Local Engine)
 
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Based on standard NDA/CDS/AFCAT patterns:
-1. **Core Concept**: Verify the key terms, dates, and provisions.
-2. **Answer Verification**: Check the options against verified parameters in the syllabus guides.
-3. **High-Yield Hint**: Focus on eliminating options with extreme statements or mismatched attributes.
-
-*Feel free to proceed with other practice papers or retry in a few moments.*`;
-          } else {
-            responseText = `### 🤖 Guru Dronacharya (Local Mode)
-
-*Note: The primary cloud model is currently undergoing high rate limits. Serving optimized offline UPSC guidelines.*
-
-Hello! I am your AI study assistant. 
-
-Here are some high-yield revision tips for your current topic:
-- **Consistent Revision**: Focus on formulas and mindmaps. Make sure you can recall the 4 key branches of each concept map.
-- **Mock Tests**: Practicing timed mock tests is the single best way to clear the cutoff.
-- **Active Recall**: Try explaining the concept to yourself without looking at the notes.
-
-What subject or topic would you like to plan next?`;
-          }
-
-          const fallbackData = {
-            candidates: [
-              {
-                content: {
-                  parts: [
-                    {
-                      text: responseText
-                    }
-                  ]
-                },
-                finishReason: "STOP"
-              }
-            ]
-          };
-          res.writeHead(200, { 'Content-Type': 'application/json' });
-          res.end(JSON.stringify(fallbackData));
-        }
       } catch (err) {
         console.error('[PROXY] Proxy error:', err);
         res.writeHead(500, { 'Content-Type': 'application/json' });
