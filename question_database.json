@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "question_id": "q-bio-monera-001",
+    "question_number": "1",
+    "question_text": "Identify the organism based on the given clues:\n1. I have no lysosomes.\n2. I am the smallest cell.\n3. I come under Kingdom Monera.\n4. I am the only group of Bacteria to not have a cell wall.",
+    "options": {
+      "A": "Mycoplasma",
+      "B": "Cyanobacteria",
+      "C": "Rhizobium",
+      "D": "Azotobacter"
+    },
+    "correct_answer": "A",
+    "explanation": "Mycoplasma lacks a cell wall and lysosomes, belongs to Monera, and is considered the smallest living cell.",
+    "marks": "1",
+    "negative_marks": "0.33",
+    "year": "Unknown",
+    "exam": "NDA",
+    "paper": "GAT",
+    "shift": "Unknown",
+    "subject": "Biology",
+    "chapter": "Diversity in Living Organisms",
+    "subchapter": "Kingdom Monera",
+    "topic": "Mycoplasma Characteristics",
+    "difficulty": "Easy",
+    "question_type": "Statement Based",
+    "image_description": "Hand-drawn schematic of a bacterium showing Capsule, Cell Wall, Cell Membrane, Polyribosome, Mesosome, Nucleoid (DNA), Inclusion, Pilus, Flagellum (labeled as help in movement of bacteria), and Plasmid."
+  }
+]

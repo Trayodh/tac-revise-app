@@ -634,9 +634,9 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
         
         // Map older/unsupported models to currently supported ones
         if (model === 'gemini-1.5-flash') {
-          model = 'gemini-2.5-flash';
+          model = 'gemini-2.0-flash';
         } else if (model === 'gemini-1.5-pro') {
-          model = 'gemini-2.5-pro';
+          model = 'gemini-2.0-flash';
         }
 
         // Map response_mime_type to responseMimeType for Google API
@@ -712,6 +712,8 @@ ${textPrompt}`;
         let retries = 3;
         let delayMs = 2000;
         
+        let lastStatus = 0;
+        let finalResponseText = '';
         while (retries > 0 && !success) {
           try {
             console.log(`[PROXY] Sending request to Dedicated Gemini API: ${model}, Stream: ${!!stream}, Retries left: ${retries - 1}`);
@@ -725,39 +727,113 @@ ${textPrompt}`;
               success = true;
             } else if (apiResponse.status === 429) {
               console.warn(`[PROXY] Gemini API Rate Limited (429). Waiting ${delayMs}ms...`);
+              lastStatus = 429;
               await new Promise(r => setTimeout(r, delayMs));
               delayMs *= 2;
               retries--;
             } else {
-              console.error(`[PROXY] Gemini API Error:`, apiResponse.status, await apiResponse.text());
+              const errText = await apiResponse.text();
+              console.error(`[PROXY] Gemini API Error:`, apiResponse.status, errText);
+              lastStatus = apiResponse.status;
               break;
             }
           } catch (err) {
-            console.error(`[PROXY] Exception during request to Gemini:`, err);
-            break;
+            console.error(`[PROXY] Exception during request to Gemini:`, err.message);
+            if (retries > 1) {
+              console.warn(`[PROXY] Retrying after exception. Waiting ${delayMs}ms...`);
+              await new Promise(r => setTimeout(r, delayMs));
+              delayMs *= 2;
+              retries--;
+            } else {
+              break;
+            }
           }
         }
-
-        if (success && apiResponse) {
-          if (stream) {
-            res.writeHead(200, {
-              'Content-Type': 'text/event-stream',
-              'Cache-Control': 'no-cache',
-              'Connection': 'keep-alive'
-            });
-            for await (const chunk of apiResponse.body) {
-              res.write(chunk);
+        
+        // --- FALLBACK TO CEREBRAS ---
+        if (!success && process.env.CEREBRAS_API_KEY && !stream && textPrompt) {
+            console.log(`[PROXY] Gemini failed (Status: ${lastStatus}). Falling back to Cerebras AI (llama3.1-70b)...`);
+            try {
+                const cerebrasRes = await fetch('https://api.cerebras.ai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.CEREBRAS_API_KEY}` },
+                    body: JSON.stringify({
+                        model: "llama3.1-70b",
+                        messages: [
+                            ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
+                            { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }
+                        ]
+                    })
+                });
+                if (cerebrasRes.ok) {
+                    const cerebrasData = await cerebrasRes.json();
+                    finalResponseText = cerebrasData.choices[0].message.content;
+                    success = true;
+                } else {
+                    console.error('[PROXY] Cerebras API error:', await cerebrasRes.text());
+                }
+            } catch (err) {
+                console.error('[PROXY] Exception during Cerebras request:', err.message);
             }
-            res.end();
-            return;
-          } else {
-            const data = await apiResponse.json();
-            res.writeHead(200, { 'Content-Type': 'application/json' });
-            res.end(JSON.stringify(data));
-            return;
+        }
+
+        // --- FALLBACK TO GROQ ---
+        if (!success && process.env.GROQ_API_KEY && !stream && textPrompt) {
+            console.log(`[PROXY] Cerebras failed. Falling back to Groq AI (llama-3.3-70b-versatile)...`);
+            try {
+                const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
+                    body: JSON.stringify({
+                        model: "llama-3.3-70b-versatile",
+                        messages: [
+                            ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
+                            { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }
+                        ]
+                    })
+                });
+                if (groqRes.ok) {
+                    const groqData = await groqRes.json();
+                    finalResponseText = groqData.choices[0].message.content;
+                    success = true;
+                } else {
+                    console.error('[PROXY] Groq API error:', await groqRes.text());
+                }
+            } catch (err) {
+                console.error('[PROXY] Exception during Groq request:', err.message);
+            }
+        }
+
+        if (success) {
+          if (finalResponseText) {
+             // Fallback models triggered. We need to mock the Gemini response structure.
+             const data = {
+                 candidates: [ { content: { parts: [ { text: finalResponseText } ] }, finishReason: 'STOP' } ]
+             };
+             res.writeHead(200, { 'Content-Type': 'application/json' });
+             res.end(JSON.stringify(data));
+             return;
+          } else if (apiResponse) {
+              if (stream) {
+                res.writeHead(200, {
+                  'Content-Type': 'text/event-stream',
+                  'Cache-Control': 'no-cache',
+                  'Connection': 'keep-alive'
+                });
+                for await (const chunk of apiResponse.body) {
+                  res.write(chunk);
+                }
+                res.end();
+                return;
+              } else {
+                const data = await apiResponse.json();
+                res.writeHead(200, { 'Content-Type': 'application/json' });
+                res.end(JSON.stringify(data));
+                return;
+              }
           }
         } else {
-          console.warn('[PROXY] Dedicated Gemini API failed. Serving error message.');
+          console.warn('[PROXY] All AIs failed. Serving error message.');
           const fallbackData = {
             candidates: [
               {

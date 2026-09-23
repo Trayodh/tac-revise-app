@@ -2291,9 +2291,10 @@ function renderDronacharyaModalContent(modal, topicName, data, contextText) {
         justify-content: space-between;
         align-items: center;
         gap: 10px;
+        flex-wrap: wrap;
       ">
-        <div style="display:flex; align-items:center; gap:10px; flex:1; min-width:0;">
-          <span style="font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono); white-space:nowrap;">SOURCE INTEGRITY: TIER 1 OFFICIAL INTEL</span>
+        <div style="display:flex; align-items:center; gap:10px; flex:1; min-width:0; flex-wrap:wrap;">
+          <span style="font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono); white-space:normal;">SOURCE INTEGRITY: TIER 1 OFFICIAL INTEL</span>
           <button id="dronacharya-tell-more-btn" style="
             background: linear-gradient(135deg, rgba(168,85,247,0.15) 0%, rgba(59,130,246,0.15) 100%);
             border: 1px solid rgba(168,85,247,0.4);

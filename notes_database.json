@@ -1,10 +1,515 @@
 [
   {
-    "subject": "Defence",
-    "chapter": "General Information",
-    "subchapter": "Unknown",
-    "topic": "Pathfinder CDS Combined Defence Services Entrance Examination",
-    "subtopic": "Book Overview",
-    "notes": "Title: Pathfinder CDS Combined Defence Services Entrance Examination (2022-23 Edition) published by Arihant. Highlights include: Complete Coverage of Syllabus, Chapterwise Division of Previous Years' Questions, and More than 8000 MCQs. Image Description: A military soldier wearing camouflage combat gear, face paint, tactical hat, and backpack, holding an assault rifle in a jungle/field environment."
+    "id": "indus-valley-civilization-overview",
+    "topic": "Indus Valley Civilization - Geography, Social Organisation & Architecture",
+    "text": "<h2><span style=\"color: var(--primary);\">INDUS VALLEY CIVILIZATION</span></h2><p>Flourished from <strong>2600 BCE to 1900 BCE</strong></p><h3><span style=\"color: var(--secondary);\">GEOGRAPHY &amp; SETTLEMENTS</span></h3><ul><li>Located in the <strong>Indus River Valley</strong> (present-day India and Pakistan)</li><li><strong>Vast</strong> and <strong>extensive</strong> civilization</li><li><strong>Major cities:-</strong> Harappa, Mohenjodaro, Dholavira, Lothal</li><li>Planned urban centres with <strong>grid-like street layout</strong></li><li>Sophisticated drainage systems and public wells</li></ul><h3><span style=\"color: var(--secondary);\">SOCIAL ORGANISATION</span></h3><ul><li><span style=\"color: var(--warning);\"><strong>Well-structured</strong></span> society</li><li>Hierarchical system with <strong>distinct social classes</strong></li><li>Evidence of a ruling elite and priestly class</li><li><span style=\"color: var(--warning);\"><strong>Skilled artisans, traders, and labourers</strong></span></li><li>Evidence of communal living and shared public spaces</li><li>Possible evidence of gender equality and absence of social discrimination</li></ul><h3><span style=\"color: var(--secondary);\">ARCHITECTURE &amp; CRAFTSMANSHIP</span></h3><ul><li><strong>Advanced urban planning</strong> and <strong>architecture</strong></li><li>Use of <span style=\"color: var(--warning);\"><strong>standardised bricks</strong></span> in construction</li><li><span style=\"color: var(--warning);\"><strong>Large</strong></span> public buildings, granaries, and reservoirs</li><li>Elaborate drainage and sewage systems</li><li>Intricate and well-designed houses with <span style=\"color: var(--warning);\"><strong>courtyards</strong></span></li></ul>",
+    "details": {
+      "summary": "Overview of the Indus Valley Civilization covering period (2600 BCE\u20131900 BCE), geography, major urban centres, social structure, and key architectural characteristics."
+    },
+    "mcq": {
+      "question": "Which of the following features characterized the urban planning of the Indus Valley Civilization?",
+      "options": [
+        "Radial street layouts and mud-only structures",
+        "Grid-like street layout and sophisticated drainage systems",
+        "Unplanned organic settlement growth without public wells",
+        "Circular fortification with stone-only dwellings"
+      ],
+      "correct": 1,
+      "explanation": "The Indus Valley Civilization featured planned urban centres with grid-like street layouts, sophisticated drainage systems, public wells, and standardized bricks."
+    }
+  },
+  {
+    "id": "ivc-rakhigarhi-and-decline",
+    "topic": "Indus Valley Civilization - Rakhigarhi & Decay/Decline",
+    "text": "<p><strong style='color: var(--primary);'>Rakhigarhi:</strong> Located in <strong>Haryana, (India)</strong>, one of the <span style='color: var(--success);'>largest Indus Valley settlements</span>.</p><h3>DECAY &amp; DECLINE</h3><ul><li>Theories on the decline include <span style='color: var(--warning);'>ecological factors, floods, or shifts in river courses</span>.</li><li>Possible <strong>invasion or internal conflicts</strong> leading to the decline.</li><li><strong>Abandonment</strong> of major cities and urban centres.</li></ul>",
+    "details": {
+      "summary": "Overview of Rakhigarhi's location and key theories concerning the decay, decline, and abandonment of major Indus Valley Civilization cities."
+    },
+    "mcq": {
+      "question": "Which of the following Indus Valley sites is located in Haryana and is considered one of its largest settlements?",
+      "options": [
+        "Mohenjo-daro",
+        "Harappa",
+        "Rakhigarhi",
+        "Kalibangan"
+      ],
+      "correct": 2,
+      "explanation": "Rakhigarhi is located in Haryana, India, and is recognized as one of the largest settlements of the Indus Valley Civilization."
+    }
+  },
+  {
+    "id": "ivc-major-sites-mohenjodaro-harappa",
+    "topic": "Indus Valley Civilization - Major Sites & Excavations",
+    "text": "<h3>Major Sites of Indus Valley Civilization</h3><table style='width: 100%; border-collapse: collapse;'><thead><tr style='background-color: var(--surface);'><th style='border: 1px solid #ccc; padding: 8px;'>SITE</th><th style='border: 1px solid #ccc; padding: 8px;'>MAJOR FINDINGS</th><th style='border: 1px solid #ccc; padding: 8px;'>EXCAVATORS</th><th style='border: 1px solid #ccc; padding: 8px;'>IMPORTANCE</th></tr></thead><tbody><tr><td style='border: 1px solid #ccc; padding: 8px;'><strong>Mohenjo-daro</strong></td><td style='border: 1px solid #ccc; padding: 8px;'><ul><li>Great Bath</li><li>Large-scale urban planning</li><li>Advanced drainage systems</li><li>Priest King</li><li>Bronze Dancing Girl</li></ul></td><td style='border: 1px solid #ccc; padding: 8px;'><ul><li>R.D. Banerji</li><li>John Marshall</li><li>Ernest Mackay</li></ul></td><td style='border: 1px solid #ccc; padding: 8px;'>One of the largest cities showcasing the civilization's <span style='color: var(--success);'>urban sophistication and engineering skills</span>.</td></tr><tr><td style='border: 1px solid #ccc; padding: 8px;'><strong>Harappa</strong></td><td style='border: 1px solid #ccc; padding: 8px;'><ul><li>Grid-like street patterns</li><li>Well-built structures</li><li>Steatite seals</li><li>Mother Goddess</li></ul></td><td style='border: 1px solid #ccc; padding: 8px;'><ul><li>Sir John Marshall</li><li>Mortimer Wheeler</li><li>Rai Bahadur</li></ul></td><td style='border: 1px solid #ccc; padding: 8px;'><span style='color: var(--success);'>First site to be excavated</span>; contributed to the initial understanding of the civilization.</td></tr></tbody></table>",
+    "details": {
+      "summary": "Comparative breakdown of Mohenjo-daro and Harappa, highlighting their major findings, excavators, and historical importance."
+    },
+    "mcq": {
+      "question": "The famous bronze figure of the 'Dancing Girl' and the 'Priest King' were discovered at which Indus Valley site?",
+      "options": [
+        "Harappa",
+        "Mohenjo-daro",
+        "Rakhigarhi",
+        "Lothal"
+      ],
+      "correct": 1,
+      "explanation": "Mohenjo-daro yielded famous artifacts including the Bronze Dancing Girl, the Priest King figure, and the Great Bath."
+    }
+  },
+  {
+    "id": "note-ivc-sites-kotdiji-ropar-surkotada",
+    "topic": "Indus Valley Civilization Sites: Kot Diji, Ropar, Surkotada",
+    "text": "<p><strong>Key Harappan Sites, Findings, and Excavators:</strong></p><table border='1' style='width:100%; border-collapse: collapse;'><thead><tr style='background-color: var(--surface);'><th>Site</th><th>Key Features / Findings</th><th>Excavators</th><th>Significance / Notes</th></tr></thead><tbody><tr><td><strong style='color: var(--primary);'>Kot Diji</strong></td><td><ul><li>Fortification walls</li><li>Specialised pottery</li><li>Early Harappan culture</li></ul></td><td>G.F. Dales, Ahmed Hasan Dani</td><td>Provides insights into the pre-Harappan phase and cultural development.</td></tr><tr><td><strong style='color: var(--primary);'>Ropar</strong></td><td><ul><li>Indus Valley script inscriptions</li><li>Agricultural terraces</li><li><span style='color: var(--warning);'>Dog buried with humans</span></li><li>Oval pit burial</li></ul></td><td>Y.D. Sharma, Shikaripur Ranganatha Rao</td><td><span style='color: var(--success);'>Important for the discovery of inscribed objects and agricultural practices in the region.</span></td></tr><tr><td><strong style='color: var(--primary);'>Surkotada</strong></td><td><ul><li>Citadel and lower town fortified</li><li>Pot burial</li><li><span style='color: var(--warning);'>Remains of horse bone</span></li></ul></td><td>Jagat Pati Joshi</td><td><em>Note:</em> Horse bone is found but IVC people (were generally not horse-centered).</td></tr></tbody></table>",
+    "details": {
+      "summary": "Detailed table of Harappan sites including Kot Diji, Ropar, and Surkotada highlighting key archaeological findings, excavators, and cultural significance."
+    },
+    "mcq": {
+      "question": "At which Indus Valley Civilization site were evidence of a dog buried with humans and oval pit burials discovered?",
+      "options": [
+        "Kot Diji",
+        "Surkotada",
+        "Ropar",
+        "Kalibangan"
+      ],
+      "correct": 2,
+      "explanation": "Ropar (excavated by Y.D. Sharma and S.R. Rao) revealed unique burial practices including dog buried with humans and oval pit burials."
+    }
+  },
+  {
+    "id": "note-early-vedic-period-geography",
+    "topic": "Early Vedic Period: Geography & Settlements",
+    "text": "<h2><span style='color: var(--primary);'>EARLY VEDIC PERIOD</span></h2><p>Estimated timeline: <strong>1500 BCE to 1000 BCE</strong></p><h3><span style='color: var(--secondary);'>GEOGRAPHY & SETTLEMENTS</span></h3><ul><li>Early Vedic Period marks the migration of <span style='color: var(--warning);'><strong>Indo-Aryans</strong></span> into the <strong>Indian subcontinent</strong>.</li><li>Settlements primarily in the <strong style='color: var(--success);'>north-western</strong> region of the Indian subcontinent.</li><li><strong>Major regions:</strong> <span style='color: var(--warning);'><strong>Sapta-Sindhu</strong></span> (Seven Rivers) region.</li><li>Settlements along the banks of rivers like the <strong>Indus</strong>, <strong>Sarasvati</strong>.</li></ul><h3><span style='color: var(--secondary);'>SOCIETY & SOCIAL STRUCTURE</span></h3>",
+    "details": {
+      "summary": "Overview of the Early Vedic Period (1500 BCE\u20131000 BCE), focusing on Indo-Aryan migration and geographical settlements in the Sapta-Sindhu region."
+    },
+    "mcq": {
+      "question": "The primary settlement region of the Indo-Aryans during the Early Vedic Period was known as:",
+      "options": [
+        "Dakshinapatha",
+        "Sapta-Sindhu",
+        "Magadha",
+        "Aryavarta"
+      ],
+      "correct": 1,
+      "explanation": "During the Early Vedic Period (1500 BCE - 1000 BCE), Indo-Aryans settled primarily in the north-western region termed Sapta-Sindhu (Land of Seven Rivers), along rivers like the Indus and Sarasvati."
+    }
+  },
+  {
+    "id": "anc-hist-mahajanapadas-pol-01",
+    "topic": "Political Systems and Rise of Monarchies (Mahajanapadas)",
+    "text": "<p>Key developments in the political structure during the Later Vedic and Mahajanapada periods:</p><ul><li>Emergence of powerful monarchies (<strong style='color: var(--warning);'>Mahajanapadas</strong>).</li><li><strong>Kingship</strong> based on <em>hereditary succession</em>.</li><li><strong style='color: var(--warning);'>Sabha</strong> (council of elders) and <strong style='color: var(--warning);'>Samiti</strong> (assembly of people) functioned for decision-making.</li><li>The <strong>Sabha</strong> gradually became more <span style='color: var(--warning);'>aristocratic</span> in nature.</li><li>Rise of powerful monarchies like <strong style='color: var(--success);'>Magadha</strong> under the <strong>Nandas</strong> and <strong>Mauryas</strong>.</li></ul>",
+    "details": {
+      "summary": "Overview of the political transformation during the Mahajanapada era, focusing on hereditary kingship, institutional governance (Sabha & Samiti), and the rise of Magadha."
+    },
+    "mcq": {
+      "question": "Which of the following assemblies in ancient India was known as the council of elders and became increasingly aristocratic over time?",
+      "options": [
+        "Samiti",
+        "Sabha",
+        "Vidatha",
+        "Gana"
+      ],
+      "correct": 1,
+      "explanation": "Sabha was the council of elders which originally served decision-making roles alongside Samiti, but over time became more aristocratic in nature."
+    }
+  },
+  {
+    "id": "anc-hist-urbanization-02",
+    "topic": "Settlements & Urbanization (Second Urbanization)",
+    "text": "<p>Characteristics of urban settlement growth during the Second Urbanization era:</p><ul><li>Development of <strong>fortified cities</strong> and prominent urban centres.</li><li>Planning and construction of cities with well-defined <em>roads</em> and <em>public spaces</em>.</li><li>Presence of <strong>royal palaces</strong>, <strong>administrative buildings</strong>, and <strong>public marketplaces</strong>.</li><li>Increased specialisation in <strong style='color: var(--warning);'>crafts and trade</strong>.</li><li>Shift towards an urban lifestyle and steady growth of urban populations.</li></ul>",
+    "details": {
+      "summary": "Key structural and social traits of ancient Indian city planning, craft specialization, and urban settlement expansion."
+    },
+    "mcq": {
+      "question": "Which key economic factor significantly driven the process of Second Urbanization in ancient India?",
+      "options": [
+        "Decline of trade routes",
+        "Increased specialization in crafts and trade",
+        "Abandonment of fortified cities",
+        "Exclusively nomadic lifestyle"
+      ],
+      "correct": 1,
+      "explanation": "Increased specialization in crafts and trade along with urban infrastructure led to the shift towards an urban lifestyle during the Second Urbanization."
+    }
+  },
+  {
+    "id": "anc-hist-technology-03",
+    "topic": "Technology & Skills in the Iron Age",
+    "text": "<p>Technological innovations and craft mastery in ancient India:</p><ul><li>Advancements in <strong style='color: var(--warning);'>iron technology</strong>, leading to the establishment of the <strong>Iron Age</strong>.</li><li><strong style='color: var(--success);'>Iron tools and weapons</strong> widely used in <em>agriculture</em> and <em>warfare</em>.</li><li>Continued expertise in metalworking, including <strong>bronze</strong> and <strong>copper</strong>.</li><li>Development of urban infrastructure like <strong>water reservoirs</strong> and <strong>canals</strong>.</li><li>High degree of skill in <em>pottery, weaving, carpentry</em>, and other specialized crafts.</li></ul>",
+    "details": {
+      "summary": "Detailed look at Iron Age technological advancements, metalworking, agricultural tools, weapons, and urban civil infrastructure."
+    },
+    "mcq": {
+      "question": "The widespread introduction of iron tools and weapons primarily impacted which two domains in ancient India?",
+      "options": [
+        "Maritime navigation and astronomy",
+        "Agriculture and warfare",
+        "Textile production and coin minting",
+        "Sculpture and painting"
+      ],
+      "correct": 1,
+      "explanation": "Iron technology facilitated clearing dense forests for agriculture using iron ploughshares and axes, while also providing stronger weaponry for military expansion and warfare."
+    }
+  },
+  {
+    "id": "anc-hist-literary-04",
+    "topic": "Literary Works & Philosophical Thought",
+    "text": "<p>Literary and philosophical developments of the period:</p><ul><li>Compilation and systematic preservation of the <strong style='color: var(--warning);'>Vedic texts</strong>.</li></ul>",
+    "details": {
+      "summary": "Preservation and formal compilation of ancient Vedic literature."
+    },
+    "mcq": {
+      "question": "The literary tradition of this era was primarily characterized by which of the following activities?",
+      "options": [
+        "Translation of Greek literature",
+        "Compilation and preservation of Vedic texts",
+        "Creation of secular novels",
+        "Abolition of oral preservation"
+      ],
+      "correct": 1,
+      "explanation": "The compilation and preservation of the sacred Vedic texts were central to the literary and philosophical continuity of ancient India."
+    }
+  },
+  {
+    "id": "buddhism-eightfold-path",
+    "topic": "Eightfold Path of Buddha",
+    "text": "<p>The <strong style='color: var(--warning);'>Eightfold Path of Buddha</strong> consists of eight practices essential for liberation and spiritual development in Buddhism:</p><ul><li><strong style='color: var(--success);'>Right View:</strong> Understanding the nature of reality and the Four Noble Truths</li><li><strong style='color: var(--success);'>Right Intention:</strong> Cultivating wholesome and compassionate intentions</li><li><strong style='color: var(--success);'>Right Speech:</strong> Speaking truthfully, kindly, and avoiding harmful speech</li><li><strong style='color: var(--success);'>Right Action:</strong> Engaging in ethical conduct and avoiding harm to oneself and others</li><li><strong style='color: var(--success);'>Right Livelihood:</strong> Pursuing a livelihood that is honest and non-harming</li><li><strong style='color: var(--success);'>Right Effort:</strong> Cultivating wholesome qualities and abandoning unwholesome ones</li><li><strong style='color: var(--success);'>Right Mindfulness:</strong> Being present, aware, and attentive to the present moment</li><li><strong style='color: var(--success);'>Right Concentration:</strong> Cultivating focused and tranquil states of mind through meditation</li></ul>",
+    "details": {
+      "summary": "Core principles of the Eightfold Path in Buddhism including Right View, Intention, Speech, Action, Livelihood, Effort, Mindfulness, and Concentration."
+    },
+    "mcq": {
+      "question": "Which aspect of the Buddhist Eightfold Path refers to 'pursuing a livelihood that is honest and non-harming'?",
+      "options": [
+        "Right Action",
+        "Right Livelihood",
+        "Right Effort",
+        "Right Intention"
+      ],
+      "correct": 1,
+      "explanation": "Right Livelihood entails pursuing an honest and non-harming occupation to support oneself ethically."
+    }
+  },
+  {
+    "id": "buddhism-literature",
+    "topic": "Buddhist Literature",
+    "text": "<p>Key categories of <strong style='color: var(--warning);'>Buddhist Literature</strong> include:</p><ul><li><strong style='color: var(--success);'>Tripitaka (Pali Canon):</strong> Collection of Buddha's discourses (<em>Sutta</em>), Vinaya (monastic rules), and Abhidhamma (philosophical analysis)</li><li><strong style='color: var(--success);'>Mahayana Sutras:</strong> Vast collection of scriptures emphasising compassion and bodhisattva ideal</li><li><strong style='color: var(--success);'>Tibetan Buddhist Texts:</strong> <em>Kangyur</em> (translated words of the Buddha) and <em>Tengyur</em> (commentaries by Indian and Tibetan scholars)</li><li><strong style='color: var(--success);'>Zen Teachings:</strong> Koans, dialogues, and writings of Zen masters</li></ul>",
+    "details": {
+      "summary": "Overview of major texts in Buddhist tradition including the Pali Canon (Tripitaka), Mahayana Sutras, Tibetan Buddhist texts (Kangyur and Tengyur), and Zen teachings."
+    },
+    "mcq": {
+      "question": "In the Tripitaka (Pali Canon), which part contains the monastic rules for monks and nuns?",
+      "options": [
+        "Sutta",
+        "Vinaya",
+        "Abhidhamma",
+        "Tengyur"
+      ],
+      "correct": 1,
+      "explanation": "The Vinaya Pitaka specifically contains the rules and governance for the monastic order (Sangha)."
+    }
+  },
+  {
+    "id": "mahajanapadas-table-part1",
+    "topic": "Ancient Indian History - Mahajanapadas, Capitals, Rulers, and Rivers",
+    "text": "<p>A structured summary of major <strong>Mahajanapadas</strong> in ancient India, detailing their capitals, modern locations, key rulers, and primary rivers associated with them:</p><table border=\"1\" style=\"width:100%; border-collapse: collapse; text-align: left;\"><thead><tr style=\"background-color: #f2f2f2;\"><th>Mahajanapada</th><th>Capital</th><th>Modern Location</th><th>Important Center</th><th>Famous King / Ruler</th><th>Associated River</th></tr></thead><tbody><tr><td><strong style=\"color: var(--warning);\">Avanti / Malava</strong></td><td>Ujjayini / Mahishmati</td><td>Western Madhya Pradesh</td><td>Ujjayini</td><td>Chanda Pradyota Mahasena</td><td><span style=\"color: var(--success);\">Narmada</span></td></tr><tr><td><strong style=\"color: var(--warning);\">Chedi / Soyambaka</strong></td><td>Shuktimati</td><td>Bundelkhand region, Uttar Pradesh</td><td>Shuktimati</td><td>Shishupala</td><td><span style=\"color: var(--success);\">Yamuna</span></td></tr><tr><td><strong style=\"color: var(--warning);\">Gandhara / Takshashila</strong></td><td>Taxila</td><td>Pakistan and Afghanistan</td><td>Taxila</td><td>Ambhi (Porus)</td><td><span style=\"color: var(--success);\">Indus</span></td></tr><tr><td><strong style=\"color: var(--warning);\">Kamboja / Kumbha</strong></td><td>Rajapura</td><td>Parts of Afghanistan, Pakistan, and Punjab</td><td>Rajapura</td><td>Unknown</td><td><span style=\"color: var(--success);\">Swat</span></td></tr><tr><td><strong style=\"color: var(--warning);\">Kashi / Varanasi</strong></td><td>Varanasi / Kashi</td><td>Uttar Pradesh</td><td>Varanasi / Kashi</td><td>Prasenajit</td><td><span style=\"color: var(--success);\">Ganga</span></td></tr></tbody></table>",
+    "details": {
+      "summary": "Table containing historical details of 5 prominent Mahajanapadas: Avanti, Chedi, Gandhara, Kamboja, and Kashi, along with their capital cities, modern geographical positions, associated rulers, and rivers."
+    },
+    "mcq": {
+      "question": "Which ancient Mahajanapada was ruled by King Chanda Pradyota Mahasena and situated along the Narmada river?",
+      "options": [
+        "Chedi",
+        "Avanti",
+        "Gandhara",
+        "Kashi"
+      ],
+      "correct": 1,
+      "explanation": "Avanti (also known as Malava) was ruled by King Chanda Pradyota Mahasena and was located in Western Madhya Pradesh near the Narmada river."
+    }
+  },
+  {
+    "id": "note-magadha-haryanka-dynasty-01",
+    "topic": "Magadha Dynasty & Haryanka Dynasty",
+    "text": "<table><thead><tr><th>Mahajanapada / Kingdom</th><th>Capital</th><th>Modern State</th><th>Location</th><th>Famous Ruler</th><th>River / Water Body</th></tr></thead><tbody><tr><td>Vatsa/Kaushambi</td><td>Kaushambi</td><td>Uttar Pradesh</td><td>Kaushambi</td><td>Udayana</td><td>Yamuna</td></tr><tr><td>Vrishni/Dwarka</td><td>Dwarka</td><td>Gujarat</td><td>Dwarka</td><td>Krishna</td><td>Arabian Sea</td></tr></tbody></table><br/><h2><span style=\"color: #d9534f;\">MAGADHA DYNASTY</span></h2><p><strong>Magadha Dynasty</strong> was one of the most <strong>powerful dynasties</strong> in ancient India.</p><h3><span style=\"color: #6f42c1;\">HARYANKA DYNASTY (600 BCE - 413 BCE)</span></h3><p>Founded by <span style=\"color: #d9534f;\"><strong>Bimbisara</strong></span>, who expanded Magadha's territory and made <span style=\"color: #d9534f;\"><strong>Rajagriha</strong></span> the capital.</p><h4><span style=\"color: #0275d8;\">BIMBISARA</span></h4><ul><li>Expanded Magadha's territory through <strong>conquest and alliances</strong>.</li><li>Established <span style=\"color: #d9534f;\"><strong>Rajagriha</strong></span> as the <strong>capital</strong>.</li><li>Became a patron of <strong>Gautama Buddha</strong>.</li><li>First ruler to be <span style=\"color: #d9534f;\"><strong>killed by his son</strong></span> for throne.</li><li>Annexed <strong>Anga</strong> to avenge his Father's defeat.</li><li>First king to have a <strong>standing Army</strong>.</li></ul><h4><span style=\"color: #0275d8;\">AJATASHATRU</span></h4><ul><li>Further expanded Magadha's territory.</li></ul>",
+    "details": {
+      "summary": "Covers details on Ancient Indian Mahajanapadas (Vatsa, Vrishni) and the Haryanka Dynasty under Magadha, detailing key achievements and events under Bimbisara and Ajatashatru."
+    },
+    "mcq": {
+      "question": "Who was the first king in ancient India known to have maintained a standing army and was later killed by his son for the throne?",
+      "options": [
+        "Ajatashatru",
+        "Bimbisara",
+        "Udayana",
+        "Mahapadma Nanda"
+      ],
+      "correct": 1,
+      "explanation": "Bimbisara, founder of the Haryanka Dynasty, was the first king to maintain a standing army and was killed by his son Ajatashatru to usurp the throne."
+    }
+  },
+  {
+    "id": "mauryan-economy-agri-01",
+    "topic": "Mauryan Economy & Agriculture",
+    "text": "<p><strong>Agriculture:</strong> Agriculture was the backbone of <span style='color: var(--warning);'>the Mauryan economy</span>.</p><ul><li><strong>Irrigation systems</strong> were developed, contributing to increased agricultural productivity.</li></ul>",
+    "details": {
+      "summary": "Agriculture formed the core of the Mauryan economy, boosted by state-assisted irrigation systems."
+    },
+    "mcq": {
+      "question": "What served as the backbone of the Mauryan economy?",
+      "options": [
+        "Foreign Maritime Trade",
+        "Agriculture",
+        "Textile Manufacturing",
+        "Mining and Metallurgy"
+      ],
+      "correct": 1,
+      "explanation": "Agriculture was the primary backbone of the Mauryan economy, supported by developed irrigation systems."
+    }
+  },
+  {
+    "id": "mauryan-religious-dhamma-02",
+    "topic": "Religious History & Ashoka's Policy of Dhamma",
+    "text": "<h3>RELIGIOUS HISTORY</h3><p><strong>Ashoka's Policy of Dhamma:</strong> Ashoka embraced <span style='color: var(--success);'>Buddhism</span> and promoted a policy of <strong>Dhamma</strong> (righteousness).</p><ul><li>Encouraged moral conduct, <em>non-violence</em>, and respect for all religions.</li><li>Edicts were inscribed on pillars and rocks, propagating Dhamma and outlining ethical principles.</li><li><strong>Ashokan Edicts:</strong> Ashoka's edicts were inscribed in various parts of the empire.</li><li>They provided insights into Ashoka's governance, social policies, and religious tolerance.</li></ul>",
+    "details": {
+      "summary": "Emperor Ashoka embraced Buddhism and propagated Dhamma through rock and pillar edicts across his empire."
+    },
+    "mcq": {
+      "question": "Which of the following was a key medium through which Ashoka propagated his policy of Dhamma?",
+      "options": [
+        "Inscriptions on pillars and rocks",
+        "Coins minted in silver and gold",
+        "Manuscripts written on palm leaves",
+        "Seals made of steatite"
+      ],
+      "correct": 0,
+      "explanation": "Ashoka used pillar and rock edicts inscribed throughout his empire to propagate Dhamma and convey ethical principles."
+    }
+  },
+  {
+    "id": "mauryan-decline-factors-03",
+    "topic": "Decline of the Mauryan Empire",
+    "text": "<h3>DECLINE OF THE MAURYAN EMPIRE</h3><p><strong>Factors Leading to Decline:</strong></p><ul><li><strong>Weak Successors:</strong> Weak rulers and succession disputes weakened the empire.</li><li><strong>Regional Revolts:</strong> Provinces started asserting independence, leading to fragmentation.</li><li><strong>Economic Drain:</strong> Costly military campaigns and bureaucratic expenses strained the treasury.</li></ul>",
+    "details": {
+      "summary": "The Mauryan Empire disintegrated due to weak successor kings, provincial revolts, and financial strain caused by administrative costs."
+    },
+    "mcq": {
+      "question": "Which factor contributed significantly to the economic drain during the decline of the Mauryan Empire?",
+      "options": [
+        "Loss of trade routes with Europe",
+        "Costly military campaigns and bureaucratic expenses",
+        "Complete failure of agricultural irrigation",
+        "Abolition of tax collection systems"
+      ],
+      "correct": 1,
+      "explanation": "Costly military operations and heavy expenses incurred on maintaining a vast army and administrative bureaucracy strained the treasury."
+    }
+  },
+  {
+    "id": "note-mauryan-edicts-01",
+    "topic": "Mauryan Empire - External Invasions & Major Rock Edicts",
+    "text": "<p><strong><span style='color: var(--warning);'>External Invasions:</span></strong> Foreign invasions by the Greeks, Sakas, and Parthians destabilised the empire.</p><table border='1' style='width: 100%; border-collapse: collapse;'><thead><tr><th style='color: var(--warning);'>Edict Number</th><th style='color: var(--primary);'>Description</th><th style='color: var(--success);'>Key Points</th></tr></thead><tbody><tr><td><strong>Major Rock Edict I</strong></td><td>Prohibition of animal sacrifice, especially during festive seasons.</td><td><span style='color: var(--success);'>Emphasises non-violence and compassion towards animals.</span></td></tr><tr><td><strong>Major Rock Edict II</strong></td><td>Medical treatment of humans and animals, planting of fruits, medicinal herbs, and digging of wells. Mentions the Pandyas,</td><td><span style='color: var(--success);'>Encourages healthcare, agricultural development, and mentions southern regions of the empire.</span></td></tr></tbody></table>",
+    "details": {
+      "summary": "Covers foreign invasions destabilising the empire and details Ashoka's Major Rock Edicts I and II focusing on animal welfare, non-violence, and medical treatments."
+    },
+    "mcq": {
+      "question": "Which of the following Major Rock Edicts prohibits animal sacrifice, especially during festive seasons?",
+      "options": [
+        "Major Rock Edict I",
+        "Major Rock Edict II",
+        "Major Rock Edict III",
+        "Major Rock Edict IV"
+      ],
+      "correct": 0,
+      "explanation": "Major Rock Edict I clearly states the prohibition of animal sacrifice, especially during festive seasons, emphasising non-violence and compassion."
+    }
+  },
+  {
+    "id": "note-ashoka-rock-edicts-8-10",
+    "topic": "Ashoka's Major Rock Edicts (VIII, IX, X)",
+    "text": "<p>Detailed breakdown of Emperor Ashoka's <strong style='color: var(--warning);'>Major Rock Edicts VIII, IX, and X</strong> covering their primary subject matter and historical significance:</p><table style='width: 100%; border-collapse: collapse; text-align: left;'><thead><tr style='border-bottom: 1px solid #ccc;'><th style='padding: 8px;'>Edict</th><th style='padding: 8px;'>Core Content</th><th style='padding: 8px;'>Significance</th></tr></thead><tbody><tr style='border-bottom: 1px solid #eee;'><td style='padding: 8px;'><strong style='color: var(--warning);'>Major Rock Edict VIII</strong></td><td style='padding: 8px;'><ul><li>Ashoka's first <strong>Dhamma Yatra</strong> to Bodh Gaya and the Bodhi tree.</li><li>Importance of Dhamma tours.</li></ul></td><td style='padding: 8px;'><span style='color: var(--success);'>Highlights the significance of Ashoka's religious pilgrimage and the value of Dhamma tours.</span></td></tr><tr style='border-bottom: 1px solid #eee;'><td style='padding: 8px;'><strong style='color: var(--warning);'>Major Rock Edict IX</strong></td><td style='padding: 8px;'><ul><li>Condemns popular ceremonies.</li><li>Stresses <strong>moral conduct</strong>.</li></ul></td><td style='padding: 8px;'><span style='color: var(--success);'>Discourages extravagant ceremonies and emphasises the importance of moral behaviour.</span></td></tr><tr><td style='padding: 8px;'><strong style='color: var(--warning);'>Major Rock Edict X</strong></td><td style='padding: 8px;'><ul><li>Disapproves of the individual's desire for fame and glory.</li><li>Stresses on <strong>Dhamma</strong>.</li></ul></td><td style='padding: 8px;'><span style='color: var(--success);'>Encourages humility and promotes the pursuit of Dhamma over personal ambition.</span></td></tr></tbody></table>",
+    "details": {
+      "summary": "Overview of Ashoka's Major Rock Edicts VIII, IX, and X detailing Dhamma tours to Bodh Gaya, condemnation of useless ceremonies, and rejection of personal fame and glory in favor of Dhamma."
+    },
+    "mcq": {
+      "question": "Which Major Rock Edict of Ashoka explicitly details his first 'Dhamma Yatra' to Bodh Gaya and the Bodhi Tree?",
+      "options": [
+        "Major Rock Edict VIII",
+        "Major Rock Edict IX",
+        "Major Rock Edict X",
+        "Major Rock Edict XI"
+      ],
+      "correct": 0,
+      "explanation": "Major Rock Edict VIII describes Emperor Ashoka's first royal Dhamma pilgrimage (Dhamma Yatra) to Bodh Gaya and the Bodhi tree, replacing traditional hunting trips with religious tours."
+    }
+  },
+  {
+    "id": "ashoka-major-rock-edicts-11-13",
+    "topic": "Ashoka's Major Rock Edicts (XI, XII, XIII)",
+    "text": "<h3>Ashoka's Major Rock Edicts</h3><p>Detailed summary and description of <strong>Major Rock Edicts XI, XII, and XIII</strong>:</p><table style='width:100%; border-collapse: collapse;' border='1'><thead><tr style='background-color: #f2f2f2;'><th>Edict</th><th>Key Mentions</th><th>Details & Significance</th></tr></thead><tbody><tr><td><strong style='color: var(--warning, #d97706);'>Major Rock Edict XI</strong></td><td><strong>Dhamma as the best policy, respect for elders, and concern for slaves and servants.</strong></td><td><span style='color: var(--success, #16a34a);'>Advocates Dhamma as a guiding principle, respect for elders, and compassionate treatment of slaves and servants.</span></td></tr><tr><td><strong style='color: var(--warning, #d97706);'>Major Rock Edict XII</strong></td><td><strong>Mentions Mahamattas in charge of women's welfare and tolerance towards others' dhamma.</strong></td><td><span style='color: var(--success, #16a34a);'>Acknowledges officials responsible for women's welfare and reiterates religious tolerance towards diverse beliefs.</span></td></tr><tr><td><strong style='color: var(--warning, #d97706);'>Major Rock Edict XIII</strong></td><td><strong>Mentions victory over Kalinga and Ashoka's Dhamma victory over Greek Kings.</strong></td><td><span style='color: var(--success, #16a34a);'>Reflects on the brutal Kalinga War, Ashoka's remorse, and his conversion to Buddhism. Mentions interactions...</span></td></tr></tbody></table>",
+    "details": {
+      "summary": "This section details Ashoka's Major Rock Edicts XI, XII, and XIII, covering Dhamma principles, treatment of servants, appointment of Mahamattas for women's welfare, religious tolerance, and the details of the Kalinga War and victory over Greek Kings."
+    },
+    "mcq": {
+      "question": "Which Major Rock Edict of Emperor Ashoka provides details about the Kalinga War and mentions his victory of Dhamma over Greek Kings?",
+      "options": [
+        "Major Rock Edict XI",
+        "Major Rock Edict XII",
+        "Major Rock Edict XIII",
+        "Major Rock Edict X"
+      ],
+      "correct": 2,
+      "explanation": "Major Rock Edict XIII explicitly mentions Ashoka's victory over Kalinga, his remorse, conversion to Buddhism, and his victory of Dhamma over Greek Kings."
+    }
+  },
+  {
+    "id": "ashokan-edicts-remarks-01",
+    "topic": "Ashokan Edicts and Inscriptions",
+    "text": "<p><strong style='color: #d9534f;'>Ashokan Edicts &amp; Inscriptions</strong></p><p>Key edicts of Emperor Ashoka along with their notable historical remarks and features:</p><table border='1' style='width: 100%; border-collapse: collapse;'><thead><tr style='background-color: #f8f9fa;'><th><strong style='color: #d9534f;'>Edict/Inscription</strong></th><th><strong style='color: #d9534f;'>Remarks</strong></th></tr></thead><tbody><tr><td><strong>Allahabad \u2013 Kosam/Queens Edict/Kausambi or Schism Edict</strong></td><td>Ashoka urges the Sangha members to avoid causing divisions. It also contains <span style='color: #f0ad4e;'>Samudragupta's inscription</span>.</td></tr><tr><td><strong>Kandahar Inscription</strong></td><td>Famous <span style='color: #5cb85c;'>bilingual edict</span> in Greek and Aramaic.</td></tr><tr><td><strong>Kalinga Edicts (Dhauli and Jaugada)</strong></td><td>Mentions the phrase <em>'All men are my children.'</em></td></tr><tr><td><strong>Sannati Inscription (Karnataka)</strong></td><td>Site of all 14 major rock edicts and two separate Kalinga edicts.</td></tr></tbody></table>",
+    "details": {
+      "summary": "A detailed table summarizing major Ashokan edicts and inscriptions, including Allahabad Schism Edict, Kandahar Bilingual Inscription, Kalinga Edicts, and Sannati Inscription."
+    },
+    "mcq": {
+      "question": "Which Ashokan inscription is a famous bilingual edict written in Greek and Aramaic?",
+      "options": [
+        "Allahabad Pillar Edict",
+        "Kandahar Inscription",
+        "Kalinga Edict",
+        "Sannati Inscription"
+      ],
+      "correct": 1,
+      "explanation": "The Kandahar Inscription is famous for being a bilingual edict written in Greek and Aramaic."
+    }
+  },
+  {
+    "id": "kushan_empire_overview_01",
+    "topic": "Kushan Empire - Capitals and Rulers",
+    "text": "<p><span style='color: var(--success);'><strong>Purushapura/ Peshawar</strong></span> was the <strong>first capital</strong>.</p><p><span style='color: var(--warning);'><strong>Mathura</strong></span> was the <strong style='color: var(--danger);'>second capital</strong>.</p><ul><li>Took the title of <strong style='color: var(--danger);'>Devputra</strong>.</li><li><strong style='color: var(--danger);'>Rabatak</strong> Inscription (Afghanistan) gives information about his rule.</li><li>Controlled <strong>Silk route</strong>.</li><li>Gave <strong style='color: var(--primary);'>patronage to Buddhism</strong>.</li><li><strong style='color: var(--danger);'>Vasudeva</strong> was <span style='color: var(--danger);'>the last king of the dynasty</span>.</li></ul>",
+    "details": {
+      "summary": "Key highlights of the Kushan Empire including capitals, Rabatak inscription, Silk Route, and key rulers."
+    },
+    "mcq": {
+      "question": "Which of the following was the second capital of the Kushan Dynasty?",
+      "options": [
+        "Purushapura",
+        "Mathura",
+        "Taxila",
+        "Pataliputra"
+      ],
+      "correct": 1,
+      "explanation": "Mathura was the second capital of the Kushan Dynasty, while Purushapura (Peshawar) served as the primary capital."
+    }
+  },
+  {
+    "id": "central_asian_contacts_impact_02",
+    "topic": "Impact of Central Asian Contacts",
+    "text": "<ul><li><strong style='color: var(--danger);'>Shakas and Kushans</strong> didn't have their own script or any organised religion, so they adopted these from India.</li><li>In <strong style='color: var(--danger);'>Cavalry, Shakas and kushans</strong> used toe stirrups, reins, and saddles.</li><li>Introduced turban, tunics, trousers, and heavy long coat. They also <strong style='color: var(--danger);'>used cap, helmet, and boots</strong>.</li><li><strong style='color: var(--danger);'>Kushans</strong> were the <strong style='color: var(--warning);'>first rulers <span style='color: var(--primary);'>in India to issue gold coins</span> on a large numbers</strong>.</li><li>Their rule also saw the beginning of <strong>Feudatory organisation</strong>.</li><li><strong style='color: var(--danger);'>Kushans</strong> adopted Pompous titles; to legitimise their royal authority and strengthen the idea of the divine origin of Kingship.</li><li><strong style='color: var(--danger);'>Kushans</strong> <span style='color: var(--primary);'>introduced the Satrap System</span>, which saw hereditary dual rule (father & son jointly ruled at same time).</li><li>Led to the rise of several schools of <strong style='color: var(--danger);'>art of Gandhara</strong> and <strong style='color: var(--danger);'>Mathura School of Art</strong>.</li></ul>",
+    "details": {
+      "summary": "Impact of Shakas and Kushans on Indian culture, military technology, attire, coinage, administration (Satrap system), and art schools."
+    },
+    "mcq": {
+      "question": "Which dynasty was the first in India to issue gold coins on a large scale?",
+      "options": [
+        "Mauryas",
+        "Guptas",
+        "Kushans",
+        "Shungas"
+      ],
+      "correct": 2,
+      "explanation": "The Kushans were the first rulers in India to issue gold coins in large numbers."
+    }
+  },
+  {
+    "id": "gandhara_art_school_03",
+    "topic": "Gandhara/ Greco- Roman School of Art",
+    "text": "<p><strong>Gandhara/ Greco- Roman School of Art</strong> originated as a result of Central Asian contacts and Hellenistic influence on Indian art.</p>",
+    "details": {
+      "summary": "Introduction to the Gandhara / Greco-Roman School of Art."
+    },
+    "mcq": {
+      "question": "The Gandhara School of Art is also known by which of the following names?",
+      "options": [
+        "Indo-Persian School of Art",
+        "Greco-Roman School of Art",
+        "Dravidian School of Art",
+        "Indo-Islamic School of Art"
+      ],
+      "correct": 1,
+      "explanation": "The Gandhara School of Art is also referred to as the Greco-Roman School of Art due to heavy Greek and Roman stylistic influences."
+    }
+  },
+  {
+    "id": "note-art-and-culture-001",
+    "topic": "Mathura School of Art",
+    "text": "<p><strong>Early Buddhist Art & Mathura School of Art:</strong></p><ul><li>Developed during the <span style='color: var(--warning);'>first century AD</span>.</li><li>Famous for the portrayal of Buddha in a spiritual state with eyes half-closed in meditation.</li></ul><p><strong>Mathura School of Art Features:</strong></p><ul><li>Developed during the <span style='color: var(--warning);'>Shunga period</span>; reached its zenith during the <span style='color: var(--warning);'>Gupta period</span>.</li><li><span style='color: var(--success);'>Red sandstone</span> was primarily used.</li><li>At Sanchi, Bharhut, Gaya, Buddha was depicted as a symbol of either two footprints or wheels.</li></ul>",
+    "details": {
+      "summary": "Overview of early art styles depicting Buddha and key highlights of the Mathura School of Art."
+    },
+    "mcq": {
+      "question": "Which material was primarily used in the Mathura School of Art?",
+      "options": [
+        "Grey schist sandstone",
+        "Red sandstone",
+        "White marble",
+        "Terracotta"
+      ],
+      "correct": 1,
+      "explanation": "Red sandstone was primarily used in the Mathura School of Art."
+    }
+  },
+  {
+    "id": "note-history-sangam-002",
+    "topic": "Sangam Age & Chera Dynasty",
+    "text": "<p><strong>Sangam Age Overview:</strong></p><ul><li>South of Krishna River, three Kingdoms existed: <span style='color: var(--warning);'>Pandyas, Cholas, and Cheras</span>.</li><li>Sangam = meeting point of Tamil Poets.</li><li><strong>Three Sangams held in South India:</strong><ol><li><strong>First Sangam:</strong> at Old Madurai (believed that Gods &amp; legendary sage attained it; no literary sources available).</li><li><strong>Second Sangam:</strong> Kapatpuram/ Kapadapuram (large number of poets attained this; <em>Tolkappiyam</em> - only book available).</li><li><strong>Third Sangam:</strong> Madurai.</li></ol></li></ul><p><strong>Sources for Sangam Age:</strong></p><ol><li>Sangam Literature</li><li>Ashokan Inscriptions</li><li>Megasthenes</li></ol><p><strong>CHERAS:</strong></p><ul><li>Also known as <span style='color: var(--warning);'>Kerala Putras</span>.</li><li>Occupied present day Kerala and part of Tamil Nadu.</li></ul>",
+    "details": {
+      "summary": "Key facts on the three Sangams, sources of Sangam Age, and introductory details of the Chera Kingdom."
+    },
+    "mcq": {
+      "question": "Which is the only available book/literary work surviving from the Second Sangam?",
+      "options": [
+        "Silappadikaram",
+        "Tolkappiyam",
+        "Manimekalai",
+        "Pattinappalai"
+      ],
+      "correct": 1,
+      "explanation": "Tolkappiyam is the only surviving book available from the Second Sangam held at Kapatpuram."
+    }
+  },
+  {
+    "id": "note-monera-001",
+    "topic": "Classification of Organisms",
+    "text": "<p>Organisms are classified based on cell structure, cellularity, and nutrition mode:</p><ul><li><strong>Prokaryotes:</strong> Unicellular organisms lacking a membrane-bound nucleus &rarr; Kingdom <span style='color: var(--success);'>Monera</span>.</li><li><strong>Eukaryotes:</strong> Organisms with complex cells containing a defined nucleus.<ul><li><strong>Unicellular:</strong> Kingdom <span style='color: var(--success);'>Protista</span>.</li><li><strong>Multicellular:</strong> Categorized by presence of cell wall:<ul><li><em>With Cell Wall:</em> Non-photosynthetic (Heterotrophic) &rarr; Kingdom <strong>Fungi</strong>; Photosynthetic &rarr; Kingdom <strong>Plantae</strong>.</li><li><em>Without Cell Wall:</em> Kingdom <strong>Animalia</strong>.</li></ul></li></ul></li></ul>",
+    "details": {
+      "summary": "Five Kingdom classification flowchart categorizing organisms into Monera, Protista, Fungi, Plantae, and Animalia."
+    },
+    "mcq": {
+      "question": "Which Kingdom consists of unicellular prokaryotic organisms?",
+      "options": [
+        "Monera",
+        "Protista",
+        "Fungi",
+        "Plantae"
+      ],
+      "correct": 0,
+      "explanation": "Kingdom Monera comprises all unicellular prokaryotic organisms such as bacteria."
+    }
+  },
+  {
+    "id": "note-monera-002",
+    "topic": "Kingdom Monera - Mycoplasma and Bacterial Cell Anatomy",
+    "text": "<h3>Key Characteristics of Mycoplasma</h3><ul><li>Lacks <span style='color: var(--warning);'>lysosomes</span>.</li><li>Recognized as the <strong>smallest known cell</strong>.</li><li>Belongs to <strong>Kingdom Monera</strong>.</li><li>Only group of bacteria that <strong>does not have a cell wall</strong>.</li></ul><h3>Structure of a Bacterial Cell</h3><ul><li><strong>Capsule:</strong> Outer protective glycocalyx layer.</li><li><strong>Cell Wall & Cell Membrane:</strong> Encloses cytoplasm.</li><li><strong>Nucleoid (DNA):</strong> Genetic material without nuclear membrane.</li><li><strong>Plasmid:</strong> Extra-chromosomal circular DNA.</li><li><strong>Mesosome:</strong> Infolded plasma membrane structure.</li><li><strong>Flagellum:</strong> Long helical structure that <em>helps in movement of bacteria</em>.</li><li><strong>Pilus & Inclusions:</strong> For attachment and storage.</li><li><strong>Polyribosome:</strong> Ribosomes attached along mRNA strand.</li></ul>",
+    "details": {
+      "summary": "Explains features of Mycoplasma and structural components of a prokaryotic bacterial cell."
+    },
+    "mcq": {
+      "question": "Which component of a bacterial cell directly helps in movement?",
+      "options": [
+        "Plasmid",
+        "Flagellum",
+        "Mesosome",
+        "Pilus"
+      ],
+      "correct": 1,
+      "explanation": "The flagellum is a whip-like structure responsible for motility/movement in bacteria."
+    }
   }
 ]

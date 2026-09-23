@@ -40,6 +40,7 @@ Identify Subject (Mathematics, English, Physics, Chemistry, Biology, History, Ge
 ## STEP 3 — IF THE PAGE CONTAINS THEORY
 Extract ONLY educational content.
 Store: Subject, Chapter, Subchapter, Topic, Subtopic, Definitions, Facts, Concepts, Formulae, Dates, Events, Maps, Diagrams (describe in words), Tables, Examples, Exceptions, Important Notes, Memory Tricks, Frequently Asked Exam Facts, Important Persons, Important Places, Treaties, Acts, Committees, Schemes, Scientific Principles, Military Operations, Organizations, Ranks, Equipment, Abbreviations, Vocabulary.
+CRITICAL: Do NOT skip, condense, drop, or summarize ANY facts, bullet points, or sections. You must extract and transcribe absolutely everything present in the notes.
 Do NOT rewrite. Preserve meaning.
 
 ## STEP 4 — IF THE PAGE CONTAINS QUESTIONS
@@ -66,66 +67,124 @@ Maintain complete table structure. Do not merge rows. Do not remove columns.
 ## STEP 10 — DUPLICATE DETECTION
 If identical theory already exists: Flag Duplicate. If identical question already exists: Flag Duplicate. Do not delete.
 
-## STEP 11 — OUTPUT FORMAT
+## STEP 11 - OUTPUT FORMAT
 You must respond with ONLY a raw JSON object containing two arrays: `notes_database` and `question_database`. Do NOT wrap the JSON in markdown code blocks.
 
-Format:
-{
-  "notes_database": [
-    {
-       "subject": "...", "chapter": "...", "subchapter": "...", "topic": "...", "subtopic": "...", "notes": "..."
+Format for `notes_database`:
+[
+  {
+    "id": "generate-unique-id",
+    "topic": "...",
+    "text": "...", // MUST contain rich HTML styling: use <p>, <ul>, <li>, <strong>, <em>, and inline CSS (e.g. <span style='color: var(--success);'> for correct info, <span style='color: var(--warning);'> for important keywords)
+    "details": {
+      "summary": "..."
+    },
+    "mcq": {
+      "question": "...",
+      "options": ["A", "B", "C", "D"],
+      "correct": 0,
+      "explanation": "..."
     }
-  ],
-  "question_database": [
-    {
-       "question_id": "...", "question_number": "...", "question_text": "...", "options": {"A": "...", "B": "...", "C": "...", "D": "..."}, "correct_answer": "...", "explanation": "...", "marks": "...", "negative_marks": "...", "year": "...", "exam": "...", "paper": "...", "shift": "...", "subject": "...", "chapter": "...", "subchapter": "...", "topic": "...", "difficulty": "...", "question_type": "...", "image_description": "..."
-    }
-  ]
+  }
+]
+
+Format for `question_database`:
+[
+  {
+     "question_id": "...", "question_number": "...", "question_text": "...", "options": {"A": "...", "B": "...", "C": "...", "D": "..."}, "correct_answer": "...", "explanation": "...", "marks": "...", "negative_marks": "...", "year": "...", "exam": "...", "paper": "...", "shift": "...", "subject": "...", "chapter": "...", "subchapter": "...", "topic": "...", "difficulty": "...", "question_type": "...", "image_description": "..."
+  }
+]
 }
 
 ## QUALITY CHECK
 Verify: Every page processed, No theory inside question database, No questions inside notes database, No paragraph-based questions extracted, OCR mistakes corrected only when obvious, Mathematical symbols preserved, Tables preserved, Images described, Chapter identified, Topic identified, Metadata extracted, No duplicate pages, No hallucinated content, No invented answers. If unknown, leave as "Unknown".
+IMPORTANT: The `notes_database` MUST use exactly the keys specified above (`id`, `topic`, `text`, `details`, `mcq`), and `text` MUST use rich HTML formatting matching a modern UI.
 """
 
-def extract_from_image_gemini(b64_img, prompt):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
-    headers = {"Content-Type": "application/json"}
-    
-    data = {
-        "contents": [
-            {
-                "parts": [
-                    {"text": prompt},
-                    {
-                        "inline_data": {
-                            "mime_type": "image/jpeg",
-                            "data": b64_img
-                        }
-                    }
-                ]
-            }
-        ],
-        "generationConfig": {
-            "temperature": 0.1,
-            "response_mime_type": "application/json"
-        }
-    }
+from openai import OpenAI
 
-    try:
-        response = requests.post(url, headers=headers, json=data)
-        response.raise_for_status()
-        res_json = response.json()
+client = OpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key=os.environ.get("OPENROUTER_API_KEY"),
+)
+
+def extract_from_image(b64_img, prompt):
+    max_retries = 3
+    base_delay = 30
+
+    models = [
+        {"provider": "openrouter", "model": "openai/gpt-4o"},
+        {"provider": "openrouter", "model": "anthropic/claude-3.5-sonnet"},
+        {"provider": "openrouter", "model": "google/gemini-1.5-pro"},
+        {"provider": "native_gemini", "model": "gemini-1.5-flash"}
+    ]
+
+    content = [
+        {"type": "text", "text": prompt},
+        {
+            "type": "image_url",
+            "image_url": {
+                "url": f"data:image/jpeg;base64,{b64_img}",
+                "detail": "high"
+            }
+        }
+    ]
+
+    for model_config in models:
+        provider = model_config["provider"]
+        model_name = model_config["model"]
+        print(f"Attempting extraction with {provider} - {model_name}...")
         
-        if "candidates" in res_json and len(res_json["candidates"]) > 0:
-            text = res_json["candidates"][0]["content"]["parts"][0]["text"]
-            return json.loads(text)
-        else:
-            print("No output generated by Gemini.")
-            print(res_json)
-            return None
-    except Exception as e:
-        print(f"API Error: {e}")
-        return None
+        for attempt in range(max_retries):
+            try:
+                if provider == "openrouter":
+                    response = client.chat.completions.create(
+                        model=model_name,
+                        messages=[{"role": "user", "content": content}],
+                        temperature=0.1
+                    )
+                    raw_text = response.choices[0].message.content.strip()
+                elif provider == "native_gemini":
+                    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={GEMINI_API_KEY}"
+                    headers = {"Content-Type": "application/json"}
+                    data = {
+                        "contents": [{"parts": [{"text": prompt}, {"inline_data": {"mime_type": "image/jpeg", "data": b64_img}}]}],
+                        "generationConfig": {"temperature": 0.1, "response_mime_type": "application/json"}
+                    }
+                    response = requests.post(url, headers=headers, json=data)
+                    response.raise_for_status()
+                    res_json = response.json()
+                    raw_text = res_json["candidates"][0]["content"]["parts"][0]["text"]
+                
+                # Clean markdown JSON formatting if present
+                if raw_text.startswith('```json'):
+                    raw_text = raw_text[7:]
+                if raw_text.startswith('```'):
+                    raw_text = raw_text[3:]
+                if raw_text.endswith('```'):
+                    raw_text = raw_text[:-3]
+                    
+                return json.loads(raw_text.strip())
+                
+            except Exception as e:
+                error_msg = str(e).lower()
+                print(f"API Error ({model_name}): {e}")
+                
+                # If out of credits or context length exceeded, don't retry same model
+                if "402" in error_msg or "insufficient_quota" in error_msg:
+                    print(f"Out of credits for {model_name}, switching model...")
+                    break
+                    
+                if "429" in error_msg or "too many requests" in error_msg:
+                    print(f"Rate limited on {model_name}. Retrying in {base_delay * (2 ** attempt)} seconds...")
+                    time.sleep(base_delay * (2 ** attempt))
+                    continue
+                
+                # For other errors, switch model immediately
+                break
+                
+    print("All models exhausted for this page.")
+    return None
 
 def main():
     parser = argparse.ArgumentParser(description="Extract PDF to Notes & Question Databases using Gemini 1.5 Pro")
@@ -163,7 +222,7 @@ def main():
         img_bytes = pix.tobytes("jpeg")
         b64_img = base64.b64encode(img_bytes).decode('utf-8')
 
-        result = extract_from_image_gemini(b64_img, MASTER_PROMPT)
+        result = extract_from_image(b64_img, MASTER_PROMPT)
         
         if result:
             notes = result.get("notes_database", [])
