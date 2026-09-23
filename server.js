@@ -634,9 +634,9 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
         
         // Map older/unsupported models to currently supported ones
         if (model === 'gemini-1.5-flash') {
-          model = 'gemini-2.0-flash';
+          model = 'gemini-3.5-flash';
         } else if (model === 'gemini-1.5-pro') {
-          model = 'gemini-2.0-flash';
+          model = 'gemini-3.5-flash';
         }
 
         // Map response_mime_type to responseMimeType for Google API
