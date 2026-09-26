@@ -16864,27 +16864,49 @@ function applyGoalGetterTheme() {
   `;
   document.head.appendChild(style);
 
-  // Background music via YouTube (hidden)
+  // Background music via YouTube (Widget)
   const startAudio = () => {
-    if (document.getElementById('goalgetter-audio')) return;
+    if (document.getElementById('goalgetter-audio-widget')) return;
+    
+    const widget = document.createElement('div');
+    widget.id = 'goalgetter-audio-widget';
+    widget.style.position = 'fixed';
+    widget.style.bottom = '20px';
+    widget.style.right = '20px';
+    widget.style.zIndex = '999999';
+    widget.style.boxShadow = '0 8px 32px rgba(0,0,0,0.5)';
+    widget.style.borderRadius = '12px';
+    widget.style.overflow = 'hidden';
+    widget.style.width = '300px';
+    widget.style.height = '80px';
+    widget.style.background = '#000';
+    
+    const closeBtn = document.createElement('button');
+    closeBtn.innerHTML = '×';
+    closeBtn.style.position = 'absolute';
+    closeBtn.style.top = '0px';
+    closeBtn.style.right = '5px';
+    closeBtn.style.background = 'transparent';
+    closeBtn.style.border = 'none';
+    closeBtn.style.color = '#fff';
+    closeBtn.style.fontSize = '24px';
+    closeBtn.style.cursor = 'pointer';
+    closeBtn.style.zIndex = '10';
+    closeBtn.onclick = () => widget.remove();
+    
     const iframe = document.createElement('iframe');
-    iframe.id = 'goalgetter-audio';
-    iframe.src = 'https://www.youtube.com/embed/M0uO8XpxmA8?autoplay=1&loop=1&playlist=M0uO8XpxmA8';
-    iframe.style.position = 'absolute';
-    iframe.style.width = '1px';
-    iframe.style.height = '1px';
-    iframe.style.left = '-9999px';
-    iframe.style.opacity = '0';
+    iframe.src = 'https://www.youtube.com/embed/M0uO8XpxmA8?autoplay=1&loop=1&playlist=M0uO8XpxmA8&controls=1';
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.style.border = 'none';
     iframe.allow = 'autoplay; encrypted-media';
-    document.body.appendChild(iframe);
+    
+    widget.appendChild(closeBtn);
+    widget.appendChild(iframe);
+    document.body.appendChild(widget);
   };
 
-  if (navigator.userActivation && navigator.userActivation.hasBeenActive) {
-    startAudio();
-  } else {
-    document.addEventListener('click', startAudio, { once: true });
-    document.addEventListener('keydown', startAudio, { once: true });
-  }
+  startAudio();
 
 
 }
