@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: tac-revise-app
+    env: node
+    buildCommand: npm install
+    startCommand: npm run start
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false # Requires manual entry in the Render dashboard

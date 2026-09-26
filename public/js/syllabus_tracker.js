@@ -199,7 +199,7 @@ Doubt to solve: ${text}`;
       }
     } else {
       if (lastStatus === 429) {
-        replyEl.innerHTML = "<span style='color:var(--warning);'> AI Quota Exhausted: The Gemini free-tier quota is temporarily fully utilized. Please try again in a few minutes or switch model settings.</span>";
+        replyEl.innerHTML = "<span style='color:var(--warning);'> AI Quota Exhausted: The primary and fallback AI quotas are temporarily fully utilized. Please try again in a few minutes or switch model settings.</span>";
       } else if (lastStatus === 403) {
         replyEl.innerHTML = "<span style='color:var(--danger);'> Forbidden: The server's API key is inactive or invalid. Please contact the administrator.</span>";
       } else if (lastStatus === 413) {
@@ -340,12 +340,7 @@ function initAiPaperSolver() {
               .replace(/^# (.*$)/gim, '<h1 style="color: var(--accent); font-family:var(--font-logo); margin-bottom:12px;">$1</h1>')
               .replace(/^## (.*$)/gim, '<h2 style="color:var(--accent); font-family:var(--font-logo); margin-top:20px; margin-bottom:8px;">$1</h2>')
               .replace(/^### (.*$)/gim, '<h3 style="color:var(--accent-dark); margin-top:16px; margin-bottom:6px;">$1</h3>')
-              .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-              .replace(/\*(.*?)\*/g, '<em>$1</em>')
-              .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 6px; border-radius:4px; font-family:var(--font-mono); font-size:0.9rem;">$1</code>')
-              .replace(/^\s*-\s+(.*$)/gim, '<li style="margin-left:20px; color:var(--text-secondary); margin-bottom:6px;">$1</li>')
-              .replace(/^\s*\d+\.\s+(.*$)/gim, '<li style="margin-left:20px; color:var(--text-secondary); margin-bottom:6px; list-style-type: decimal;">$1</li>')
-              .replace(/\n/g, '<br/>');
+              ;
               
             paperResultArea.innerHTML = `
               <div style="border-bottom:1px solid var(--border); padding-bottom:12px; margin-bottom:20px; display:flex; justify-content:space-between; align-items:center;">

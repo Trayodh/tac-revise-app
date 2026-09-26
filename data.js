@@ -1,974 +1,65 @@
+let MILITARY_EXERCISES_LIVE = {};
+
+let MILITARY_EXERCISES_ARCHIVE = {};
+
 let CURRENT_AFFAIRS_LIVE = {
-  "August 2026": [
+  "September 2026": [
     {
-      "id": "ca_live_20260823_brics_youth_sports_meet",
-      "topic": "International Relations & Sports",
-      "topicColor": "#FFC107",
-      "summary": "BRICS Youth Affairs and Sports Ministers Meeting to be held in Visakhapatnam",
-      "text": "The <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>BRICS Youth Affairs and Sports Ministers Meeting</mark> is scheduled to take place on <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>August 22-23, 2026, in Visakhapatnam</mark>, Andhra Pradesh. This high-level gathering will bring together ministers and delegates from Brazil, Russia, India, China, and South Africa to discuss cooperation in youth development and sports.<br><br>The agenda is expected to focus on promoting youth exchanges, fostering sports development, and leveraging the power of youth for sustainable development within the BRICS framework. India, as the host, aims to strengthen collaborative initiatives that empower young people and enhance sporting ties among member nations.<br><br>This meeting underscores India's commitment to multilateral engagement and its focus on youth and sports as key pillars for national and international development. The outcomes are anticipated to contribute to joint programs and policies that benefit the youth populations of BRICS countries.",
-      "quickSummary": "The BRICS Youth Affairs and Sports Ministers Meeting will be held in Visakhapatnam on August 22-23, 2026, to discuss cooperation in youth development and sports among member nations.",
-      "detailedAnalysis": [
-        "<strong>Event:</strong> BRICS Youth Affairs and Sports Ministers Meeting.",
-        "<strong>Host:</strong> India.",
-        "<strong>Dates:</strong> 22-23 August 2026.",
-        "<strong>Venue:</strong> Visakhapatnam, Andhra Pradesh.",
-        "<strong>Group:</strong> BRICS (Brazil, Russia, India, China, South Africa).",
-        "<strong>Focus:</strong> Youth development, sports cooperation, youth exchanges."
-      ],
-      "backgroundContext": "This event is relevant for NDA/CDS/AFCAT exams under International Relations, Sports, and Current Affairs. Questions may focus on the role of BRICS, India's youth and sports policy, and multilateral cooperation. Understanding the significance of such forums for soft power and human resource development is crucial.",
+      "id": "ca_live_20260926_002",
+      "topic": "Parliamentary Affairs",
+      "topicColor": "#2196F3",
+      "summary": "NDA ally leader Jitan Ram Manjhi seeks more speaking time for SC/ST MPs",
+      "text": "<p><strong>What happened:</strong> On 26 September 2026, Jitan Ram Manjhi, president of the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Janata Dal (United)</mark> – a key NDA ally – appealed to the Speaker of the Lok Sabha for increased floor time for Members of Parliament belonging to Scheduled Castes and Scheduled Tribes.</p><p><strong>Why it matters:</strong> The demand highlights ongoing concerns about representation of marginalized communities in legislative debates, a factor that can influence policy‑making on social welfare, defence recruitment quotas, and reservation reforms.</p><p><strong>Background:</strong> SC/ST representation has been a perennial issue in Indian politics. The NDA coalition has historically balanced social justice demands with its broader security agenda.</p>",
+      "quickSummary": "Jitan Ram Manjhi, NDA ally JD(U) chief, urged the Lok Sabha Speaker to allocate more speaking time to SC/ST MPs, underscoring representation concerns.",
+      "detailedAnalysis": "- Person: Jitan Ram Manjhi (JD(U) President)\n- Date of request: 26 Sep 2026\n- Issue: Increase speaking time for SC/ST MPs in Lok Sabha\n- Context: Coalition politics, social justice agenda, impact on defence recruitment reservations\n- Media source: The Times of India",
+      "backgroundContext": "Understanding coalition dynamics and minority representation is essential for CAPF and UPSC aspirants, as it shapes policy decisions on defence personnel composition, reservation in armed forces, and welfare schemes.",
       "stakeholders": [
-        "BRICS nations",
-        "Ministry of Youth Affairs and Sports (India)",
-        "International sports organizations",
-        "Youth organizations"
+        "Jitan Ram Manjhi",
+        "SC/ST MPs",
+        "Lok Sabha Speaker"
       ],
       "examRelevanceMatrix": {
-        "NDA": "Medium",
+        "NDA": "High",
         "CDS": "Medium",
         "AFCAT": "Medium",
-        "CAPF": "Medium",
+        "CAPF": "High",
         "UPSC": "High"
       },
       "relatedTopics": [
-        "[[BRICS]]",
-        "[[Youth Development]]",
-        "[[Sports Diplomacy]]",
-        "[[International Organizations]]"
+        "[[Reservation in Indian Armed Forces]]",
+        "[[Coalition Politics]]"
       ],
       "upscHighlights": [
-        "India's role in BRICS youth and sports initiatives.",
-        "Importance of youth exchanges in international relations.",
-        "Visakhapatnam as a venue for international events."
+        "JD(U) chief demands more floor time for SC/ST MPs",
+        "Issue tied to representation and reservation policies"
       ],
-      "strategicImportance": "Medium. Confidence Score: 98%",
-      "verificationStatus": "Verified (Official Source - PIB style announcement)",
-      "publicationDate": "21 August 2026",
+      "strategicImportance": "Difficulty: Medium. Confidence Score: 96%",
+      "verificationStatus": "Verified (Reputable Media)",
+      "publicationDate": "26 September 2026",
       "mcq": {
-        "question": "The BRICS Youth Affairs and Sports Ministers Meeting is scheduled to be held in August 2026 in which Indian city?",
+        "question": "Which NDA ally leader called for increased speaking time for SC/ST members of Parliament in September 2026?",
         "options": [
-          "A. New Delhi",
-          "B. Bengaluru",
-          "C. Visakhapatnam",
-          "D. Chennai"
+          "Nitish Kumar",
+          "Jitan Ram Manjhi",
+          "Naveen Patnaik",
+          "Mamata Banerjee"
         ],
-        "correct": 2,
-        "explanation": "The BRICS Youth Affairs and Sports Ministers Meeting is scheduled for August 22-23, 2026, in Visakhapatnam, Andhra Pradesh."
+        "correct": 1,
+        "explanation": "Jitan Ram Manjhi, president of JD(U), made the request on 26 September 2026."
       }
     },
     {
-      "id": "ca_live_20260821_terrier_cyber_quest",
-      "topic": "Defence & Technology",
+      "id": "ca_live_20260925_001",
+      "topic": "Legislation",
       "topicColor": "#4CAF50",
-      "summary": "Territorial Army Launches 'Terrier Cyber Quest 2026' to Enhance Cyber Capabilities",
-      "text": "The <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Territorial Army (TA) has launched 'Terrier Cyber Quest 2026'</mark>, a new initiative aimed at bolstering its cyber defence capabilities and fostering a culture of cybersecurity awareness among its personnel. This program is designed to identify and train individuals with aptitude in cyber warfare, digital forensics, and secure network operations.<br><br>The 'Terrier Cyber Quest' will involve a series of challenges, workshops, and training modules focusing on practical aspects of cybersecurity relevant to modern military operations. It seeks to leverage the technical skills of both serving personnel and civilian volunteers within the Territorial Army, preparing them to counter evolving cyber threats to national security.<br><br>This move highlights the increasing importance of the cyber domain in contemporary warfare and the Indian armed forces' proactive approach to integrating advanced technological skills into their operational readiness. It also underscores the unique dual role of the Territorial Army in supporting the regular army and contributing to national defence.",
-      "quickSummary": "The Territorial Army launched 'Terrier Cyber Quest 2026' to enhance its cyber defence capabilities, training personnel in cyber warfare and digital forensics to counter evolving threats.",
-      "detailedAnalysis": [
-        "<strong>Initiative:</strong> Terrier Cyber Quest 2026.",
-        "<strong>Organizer:</strong> Territorial Army (TA).",
-        "<strong>Objective:</strong> Bolster cyber defence, foster cybersecurity awareness, train personnel in cyber warfare.",
-        "<strong>Focus:</strong> Practical cybersecurity, digital forensics, secure network operations.",
-        "<strong>Impact:</strong> Enhance operational readiness against cyber threats."
-      ],
-      "backgroundContext": "This topic is highly relevant for NDA/CDS/AFCAT exams under Defence, Technology, and National Security. Questions may focus on the role of the Territorial Army, the importance of cybersecurity in defence, and initiatives to integrate technology into military training. Understanding the evolving nature of warfare is crucial.",
+      "summary": "Transgender Persons (Amendment) Bill, 2026 passed in Rajya Sabha",
+      "text": "<p><strong>What happened:</strong> On 25 September 2026 the Rajya Sabha approved the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Transgender Persons (Amendment) Bill, 2026</mark>, amending the 2019 Act to broaden legal recognition and welfare measures for transgender citizens.</p><p><strong>Why it matters:</strong> The amendment introduces <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>self‑identification of gender</mark>, ensures reservation in education and employment, and clarifies marriage rights, reflecting India’s commitment to inclusive governance.</p><p><strong>Background:</strong> The original 2019 Act was hailed for recognizing a third gender but faced criticism for procedural hurdles. Persistent advocacy by NGOs and the transgender community led to this amendment, aligning India with several progressive jurisdictions worldwide.</p>",
+      "quickSummary": "The Rajya Sabha passed the Transgender Persons (Amendment) Bill, 2026, expanding self‑identification, reservation and marriage rights for transgender individuals in India.",
+      "detailedAnalysis": "- Bill: Transgender Persons (Amendment) Bill, 2026\n- Date of passage: 25 Sep 2026\n- House: Rajya Sabha (Upper House)\n- Key provisions: Self‑identification of gender, reservation in education/employment, marriage rights, establishment of a National Transgender Council\n- Stakeholders: Ministry of Law & Justice, Transgender NGOs, State Governments",
+      "backgroundContext": "For NDA, CDS and other defence examinations, questions on recent legislation test awareness of socio‑legal developments that affect defence personnel welfare and recruitment policies. The amendment may influence service‑related gender policies and pension rules, making it a likely UPSC prelims fact.",
       "stakeholders": [
-        "Territorial Army",
-        "Indian Army",
-        "Ministry of Defence",
-        "Cybersecurity experts"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Territorial Army]]",
-        "[[Cybersecurity]]",
-        "[[Indian Army]]",
-        "[[National Security]]",
-        "[[Military Technology]]"
-      ],
-      "upscHighlights": [
-        "Role of Territorial Army in national defence.",
-        "Integration of cyber warfare capabilities in armed forces.",
-        "Government initiatives to enhance digital security."
-      ],
-      "strategicImportance": "Medium. Confidence Score: 97%",
-      "verificationStatus": "Verified (Official Source - PIB style announcement/Defence PRO)",
-      "publicationDate": "21 August 2026",
-      "mcq": {
-        "question": "The 'Terrier Cyber Quest 2026' initiative has been launched by which of the following organizations to enhance cyber defence capabilities?",
-        "options": [
-          "A. National Cadet Corps (NCC)",
-          "B. Border Security Force (BSF)",
-          "C. Territorial Army (TA)",
-          "D. National Security Guard (NSG)"
-        ],
-        "correct": 2,
-        "explanation": "The 'Terrier Cyber Quest 2026' is an initiative launched by the Territorial Army (TA) to bolster its cyber defence capabilities and train personnel in cyber warfare."
-      }
-    },
-    {
-      "id": "ca_live_20260821_digital_brics_forum",
-      "topic": "International Relations & Technology",
-      "topicColor": "#8BC34A",
-      "summary": "Digital BRICS Forum and Expo Held in Pune, Fostering Tech Collaboration",
-      "text": "The <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Digital BRICS Forum and Expo was recently held in Pune</mark>, Maharashtra, with Union Minister of Communications, <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Shri Jyotiraditya Scindia</mark>, welcoming delegations from BRICS nations. The event served as a crucial platform for member countries – Brazil, Russia, India, China, and South Africa – to discuss advancements in digital technologies and explore avenues for collaborative innovation.<br><br>The forum focused on key areas such as digital infrastructure, cybersecurity, artificial intelligence, and digital public goods, aiming to share best practices and formulate joint strategies for digital transformation. The expo showcased cutting-edge technologies and solutions from BRICS members, promoting business-to-business interactions and investment opportunities.<br><br>India's hosting of this event underscores its growing leadership in the digital economy and its commitment to fostering technological cooperation among emerging economies. The discussions and partnerships forged at the Digital BRICS Forum are expected to contribute significantly to the digital growth and resilience of the BRICS bloc.",
-      "quickSummary": "The Digital BRICS Forum and Expo, hosted in Pune with Union Minister Jyotiraditya Scindia, facilitated discussions and collaboration among BRICS nations on digital infrastructure, cybersecurity, and AI.",
-      "detailedAnalysis": [
-        "<strong>Event:</strong> Digital BRICS Forum and Expo.",
-        "<strong>Host City:</strong> Pune, Maharashtra.",
-        "<strong>Key Figure:</strong> Union Minister of Communications, Shri Jyotiraditya Scindia.",
-        "<strong>Group:</strong> BRICS (Brazil, Russia, India, China, South Africa).",
-        "<strong>Focus:</strong> Digital infrastructure, cybersecurity, AI, digital public goods, technological collaboration.",
-        "<strong>Objective:</strong> Share best practices, formulate joint strategies, promote B2B interactions."
-      ],
-      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under International Relations, Science & Technology, and Current Affairs. Questions may focus on BRICS cooperation in digital domain, India's role in digital diplomacy, and the importance of emerging technologies. Understanding multilateral efforts in technology governance is crucial.",
-      "stakeholders": [
-        "BRICS nations",
-        "Ministry of Communications (India)",
-        "Digital technology companies",
-        "Cybersecurity experts"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Medium",
-        "CAPF": "Medium",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[BRICS]]",
-        "[[Digital India]]",
-        "[[Cybersecurity]]",
-        "[[Artificial Intelligence]]",
-        "[[International Cooperation]]"
-      ],
-      "upscHighlights": [
-        "India's leadership in digital transformation.",
-        "BRICS collaboration on emerging technologies.",
-        "Role of digital forums in international diplomacy."
-      ],
-      "strategicImportance": "Medium. Confidence Score: 96%",
-      "verificationStatus": "Verified (Official Source - PIB style announcement)",
-      "publicationDate": "21 August 2026",
-      "mcq": {
-        "question": "The Digital BRICS Forum and Expo, recently held in Pune, was inaugurated by which Union Minister?",
-        "options": [
-          "A. S. Jaishankar",
-          "B. Nirmala Sitharaman",
-          "C. Jyotiraditya Scindia",
-          "D. Rajnath Singh"
-        ],
-        "correct": 2,
-        "explanation": "Union Minister of Communications, Shri Jyotiraditya Scindia, welcomed delegations at the Digital BRICS Forum and Expo in Pune."
-      }
-    },
-    {
-      "id": "ca_live_20260815_womens_reservation_appeal",
-      "topic": "Social Justice & Governance",
-      "topicColor": "#FFC107",
-      "summary": "Women's Reservation Bill Fails in Lok Sabha After PM's Independence Day Appeal",
-      "text": "On the occasion of India's 80th Independence Day, Prime Minister Narendra Modi, addressing the nation from the ramparts of the Red Fort, made a significant appeal to all political parties, urging them to support the passage of the <strong>Women's Reservation Bill</strong>. This bill sought to reserve 33% of seats for women in the Lok Sabha and state legislative assemblies, with the Prime Minister emphasizing its crucial role in empowering women and strengthening India's democracy.<br><br>However, despite the Prime Minister's appeal and renewed discussions on gender equality, the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Constitutional Amendment Bill for women’s reservation in Lok Sabha and State Assemblies subsequently failed to pass in the Lok Sabha</mark>. The bill, officially known as The Constitution (One Hundred and Eighth Amendment) Bill, 2008, has been a long-pending legislative proposal, facing various political hurdles over the years. Its failure marks a significant setback for advocates of equitable participation of women in decision-making processes.<br><br>The outcome highlights the persistent challenges in achieving consensus on this landmark legislation. The failure of the bill, even after a high-profile appeal, is expected to generate widespread debate and discussion across the political spectrum regarding parliamentary dynamics and the future of women's political representation in India.",
-      "quickSummary": "Despite PM Modi's Independence Day appeal, the Women's Reservation Bill, aiming for 33% reservation in Lok Sabha and state assemblies, failed to pass in the Lok Sabha, marking a setback for women's political representation.",
-      "detailedAnalysis": [
-        "<strong>Event:</strong> Women's Reservation Bill fails in Lok Sabha.",
-        "<strong>Date of Failure:</strong> Reported 21 August 2026 (after PM's appeal on 15 August 2026).",
-        "<strong>Legislation:</strong> The Constitution (One Hundred and Eighth Amendment) Bill, 2008 (Women's Reservation Bill).",
-        "<strong>Key Provision:</strong> Sought 33% reservation for women in Lok Sabha and State Legislative Assemblies.",
-        "<strong>Stakeholders:</strong> Prime Minister Narendra Modi, Opposition parties, Indian Parliament, Women voters."
-      ],
-      "backgroundContext": "The Women's Reservation Bill is a crucial topic for NDA/CDS/AFCAT exams, falling under Indian Polity, Social Justice, and Current Affairs. Questions may arise on the history of the bill, its constitutional implications, the percentage of reservation, and its impact on Indian democracy. The recent failure highlights the complexities of legislative consensus and political will.",
-      "stakeholders": [
-        "Narendra Modi",
-        "Indian Parliament",
-        "Political Parties",
-        "Women's Rights Advocates"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Indian Constitution]]",
-        "[[Parliament of India]]",
-        "[[Women Empowerment]]",
-        "[[Constitutional Amendments]]",
-        "[[Legislative Process]]"
-      ],
-      "upscHighlights": [
-        "The Women's Reservation Bill (108th Amendment) sought 33% reservation for women in Lok Sabha and State Assemblies.",
-        "The bill has been pending for over two decades, first introduced in 1996.",
-        "Constitutional amendment is required for its implementation, but political consensus remains elusive."
-      ],
-      "strategicImportance": "High. Confidence Score: 98%",
-      "verificationStatus": "Verified (Reputable News Source - News On AIR)",
-      "publicationDate": "21 August 2026",
-      "mcq": {
-        "question": "Which of the following statements regarding the Women's Reservation Bill, recently in news, is/are correct?\n1. It proposes 33% reservation for women in the Lok Sabha and State Legislative Assemblies.\n2. The bill recently failed to pass in the Rajya Sabha.\n3. Its passage requires a simple majority in both houses of Parliament.\n\nSelect the correct answer using the code given below:",
-        "options": [
-          "A. 1 only",
-          "B. 1 and 2 only",
-          "C. 2 and 3 only",
-          "D. 1, 2 and 3"
-        ],
-        "correct": 0,
-        "explanation": "Statement 1 is correct; the bill proposes 33% reservation for women in the Lok Sabha and State Legislative Assemblies. Statement 2 is incorrect; the bill recently failed to pass in the Lok Sabha, not Rajya Sabha. Statement 3 is incorrect; being a constitutional amendment bill, it requires a special majority (two-thirds of members present and voting, and a majority of the total membership of the House) in both houses, not a simple majority."
-      }
-    },
-    {
-      "id": "ca_live_20260820_india_japan_defence_meet",
-      "topic": "International Relations & Defence",
-      "topicColor": "#F44336",
-      "summary": "India and Japan Hold Bilateral Defence Ministers Meeting in New Delhi",
-      "text": "A significant bilateral meeting was held between <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>India's Defence Minister Shri Rajnath Singh and Japan's Defence Minister Shri Shinjiro Koizumi</mark> on <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>August 20, 2026, at the Manekshaw Centre in New Delhi</mark>. The discussions focused on strengthening defence cooperation, enhancing regional security, and exploring new avenues for collaboration in defence equipment and technology.<br><br>Both ministers reaffirmed their commitment to a free, open, and inclusive Indo-Pacific, emphasizing the importance of upholding international law and rules-based order. Key areas of discussion included joint military exercises, maritime security cooperation, and information sharing to address common security challenges in the region.<br><br>This meeting underscores the growing strategic partnership between India and Japan, two key players in the Indo-Pacific. Enhanced defence ties are crucial for maintaining stability and promoting peace in a complex geopolitical environment, aligning with India's broader foreign policy objectives.",
-      "quickSummary": "Indian Defence Minister Rajnath Singh and Japanese Defence Minister Shinjiro Koizumi held a bilateral meeting in New Delhi on August 20, 2026, to strengthen defence cooperation and regional security in the Indo-Pacific.",
-      "detailedAnalysis": [
-        "<strong>Event:</strong> India-Japan Bilateral Defence Ministers Meeting.",
-        "<strong>Date:</strong> 20 August 2026.",
-        "<strong>Venue:</strong> Manekshaw Centre, New Delhi.",
-        "<strong>Indian Representative:</strong> Defence Minister Shri Rajnath Singh.",
-        "<strong>Japanese Representative:</strong> Defence Minister Shri Shinjiro Koizumi.",
-        "<strong>Focus:</strong> Strengthening defence cooperation, regional security, Indo-Pacific, defence equipment & technology, joint exercises, maritime security."
-      ],
-      "backgroundContext": "This topic is highly relevant for NDA/CDS/AFCAT exams under International Relations, Defence, and Geopolitics. Questions may focus on India-Japan strategic partnership, Indo-Pacific strategy, and defence diplomacy. Understanding the significance of bilateral defence ties for regional stability is crucial.",
-      "stakeholders": [
-        "Ministry of Defence (India)",
-        "Ministry of Defence (Japan)",
-        "Indian Armed Forces",
-        "Japan Self-Defense Forces"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[India-Japan Relations]]",
-        "[[Indo-Pacific]]",
-        "[[Defence Cooperation]]",
-        "[[Maritime Security]]",
-        "[[Bilateral Diplomacy]]"
-      ],
-      "upscHighlights": [
-        "Strategic importance of India-Japan partnership.",
-        "Role of defence ministers in bilateral relations.",
-        "Commitment to a free and open Indo-Pacific."
-      ],
-      "strategicImportance": "High. Confidence Score: 99%",
-      "verificationStatus": "Verified (Official Source - PIB style announcement/Defence PRO)",
-      "publicationDate": "20 August 2026",
-      "mcq": {
-        "question": "The recent bilateral meeting between the Defence Ministers of India and Japan took place in which city?",
-        "options": [
-          "A. Tokyo",
-          "B. Mumbai",
-          "C. New Delhi",
-          "D. Kyoto"
-        ],
-        "correct": 2,
-        "explanation": "The bilateral meeting between India's Defence Minister Rajnath Singh and Japan's Defence Minister Shinjiro Koizumi was held at the Manekshaw Centre in New Delhi."
-      }
-    },
-    {
-      "id": "ca_live_20260820_sc_youth_protest_panel",
-      "topic": "Judiciary & Governance",
-      "topicColor": "#03A9F4",
-      "summary": "Supreme Court Constitutes Panel to Investigate Allegations of Violence in Youth Protests",
-      "text": "India's <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Supreme Court has formed a high-level panel to probe allegations of violence</mark> that occurred during recent youth protests across the country. The decision comes amidst growing concerns over the use of force and the rights of protestors, particularly young individuals, during public demonstrations. The panel is tasked with conducting a thorough and impartial investigation into the incidents, including alleged police excesses and acts of vandalism.<br><br>The formation of such a panel by the apex court underscores the judiciary's role in upholding fundamental rights and ensuring accountability in matters of public order. It aims to ascertain the facts, identify those responsible for any unlawful acts, and recommend measures to prevent similar incidents in the future, thereby reinforcing public trust in the justice system.<br><br>This development is significant for governance and civil liberties, highlighting the delicate balance between the right to protest and the maintenance of law and order. The panel's findings are expected to have implications for police conduct, protest management protocols, and the protection of citizens' rights during demonstrations.",
-      "quickSummary": "The Supreme Court has formed a high-level panel to investigate allegations of violence during recent youth protests, aiming for impartial inquiry into force usage and protestors' rights.",
-      "detailedAnalysis": [
-        "<strong>Body:</strong> Supreme Court of India.",
-        "<strong>Action:</strong> Formed a high-level panel.",
-        "<strong>Objective:</strong> Probe allegations of violence during youth protests.",
-        "<strong>Focus:</strong> Use of force, rights of protestors, alleged police excesses, acts of vandalism.",
-        "<strong>Impact:</strong> Uphold fundamental rights, ensure accountability, recommend preventive measures."
-      ],
-      "backgroundContext": "This topic is highly relevant for NDA/CDS/AFCAT exams under Indian Polity (Judiciary, Fundamental Rights), Governance, and Current Affairs. Questions may focus on the powers of the Supreme Court, the right to protest, and the role of the judiciary in safeguarding civil liberties. Understanding the mechanisms of accountability in a democracy is crucial.",
-      "stakeholders": [
-        "Supreme Court of India",
-        "Youth protestors",
-        "Law enforcement agencies",
-        "Government",
-        "Civil society organizations"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Supreme Court of India]]",
-        "[[Fundamental Rights]]",
-        "[[Right to Protest]]",
-        "[[Judicial Activism]]",
-        "[[Law and Order]]"
-      ],
-      "upscHighlights": [
-        "Role of judiciary in protecting civil liberties.",
-        "Balance between public order and right to protest.",
-        "Importance of independent inquiry into allegations of state violence."
-      ],
-      "strategicImportance": "Medium. Confidence Score: 98%",
-      "verificationStatus": "Verified (Reputable News Source - Reuters)",
-      "publicationDate": "20 August 2026",
-      "mcq": {
-        "question": "India's Supreme Court recently formed a panel to investigate allegations of violence during which type of public gathering?",
-        "options": [
-          "A. Farmers' rallies",
-          "B. Industrial strikes",
-          "C. Youth protests",
-          "D. Religious processions"
-        ],
-        "correct": 2,
-        "explanation": "The Supreme Court has formed a high-level panel to probe allegations of violence that occurred during recent youth protests across the country."
-      }
-    },
-    {
-      "id": "ca_live_20260817_brics_environment_meetings",
-      "topic": "International Relations & Environment",
-      "topicColor": "#8BC34A",
-      "summary": "India to Host BRICS Environment Working Group Meetings in New Delhi",
-      "text": "India is set to host the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>BRICS Environment Working Group meetings on August 17-18, 2026</mark>, at the newly inaugurated Bharat Mandapam in New Delhi. This significant event will bring together environmental experts and policymakers from Brazil, Russia, India, China, and South Africa to discuss pressing global environmental challenges and foster cooperation among member nations.<br><br>The agenda for the meetings is expected to cover a range of critical issues, including climate change mitigation, biodiversity conservation, sustainable resource management, and pollution control. India, as the host, aims to facilitate constructive dialogues and collaborative initiatives that align with the sustainable development goals and the collective commitment of BRICS countries towards a greener future.<br><br>Hosting these meetings underscores India's growing leadership role in international environmental diplomacy and its commitment to addressing global ecological concerns. The outcomes of these discussions are anticipated to contribute to stronger environmental policies and joint projects within the BRICS framework, impacting global environmental governance.",
-      "quickSummary": "India will host the BRICS Environment Working Group meetings on August 17-18, 2026, at Bharat Mandapam, New Delhi, to foster environmental cooperation among BRICS nations on critical global issues.",
-      "detailedAnalysis": [
-        "<strong>Event:</strong> BRICS Environment Working Group Meetings.",
-        "<strong>Host:</strong> India.",
-        "<strong>Dates:</strong> 17-18 August 2026.",
-        "<strong>Venue:</strong> Bharat Mandapam, New Delhi.",
-        "<strong>Group:</strong> BRICS (Brazil, Russia, India, China, South Africa).",
-        "<strong>Focus:</strong> Climate change, biodiversity, sustainable resource management, pollution control."
-      ],
-      "backgroundContext": "This event is highly relevant for NDA/CDS/AFCAT exams under International Relations, Environment, and Current Affairs. Questions may focus on the role of BRICS, India's environmental diplomacy, and global efforts towards sustainable development. Understanding the significance of multilateral forums in addressing shared challenges is crucial.",
-      "stakeholders": [
-        "BRICS nations",
-        "Ministry of Environment, Forest and Climate Change (India)",
-        "International environmental organizations"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[BRICS]]",
-        "[[Environmental Diplomacy]]",
-        "[[Climate Change]]",
-        "[[Sustainable Development Goals]]",
-        "[[International Organizations]]"
-      ],
-      "upscHighlights": [
-        "India's role in multilateral environmental forums.",
-        "BRICS cooperation on global environmental issues.",
-        "Significance of Bharat Mandapam as a convention center."
-      ],
-      "strategicImportance": "High. Confidence Score: 98%",
-      "verificationStatus": "Verified (Official Primary Source - PIB style announcement)",
-      "publicationDate": "16 August 2026",
-      "mcq": {
-        "question": "Which of the following statements about the upcoming BRICS Environment Working Group meetings is/are correct?\n1. India will host the meetings in New Delhi.\n2. The meetings are scheduled for September 2026.\n3. The primary focus will be on economic cooperation and trade agreements.\n\nSelect the correct answer using the code given below:",
-        "options": [
-          "A. 1 only",
-          "B. 1 and 2 only",
-          "C. 2 and 3 only",
-          "D. 1, 2 and 3"
-        ],
-        "correct": 0,
-        "explanation": "Statement 1 is correct; India will host the meetings in New Delhi. Statement 2 is incorrect; the meetings are scheduled for August 17-18, 2026. Statement 3 is incorrect; the primary focus is on environmental cooperation, not economic cooperation or trade agreements."
-      }
-    },
-    {
-      "id": "ca_live_20260816_west_asia_press_conf",
-      "topic": "International Relations & Geopolitics",
-      "topicColor": "#F44336",
-      "summary": "Inter-Ministerial Press Conference on West Asia Developments Announced",
-      "text": "An inter-ministerial press conference has been announced to address recent developments in West Asia, featuring senior officials from the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Ministries of Petroleum & Natural Gas, Ports, Shipping & Waterways, and External Affairs</mark>. This joint briefing underscores India's multifaceted strategic interests and concerns in the volatile West Asian region.<br><br>The involvement of multiple ministries highlights the comprehensive nature of India's engagement with West Asia, encompassing critical areas such as energy security, maritime trade routes, and diplomatic relations. Recent geopolitical shifts and regional conflicts often have direct implications for India's economic stability and strategic autonomy, necessitating a coordinated governmental response.<br><br>The press conference is expected to provide updates on India's diplomatic efforts, economic partnerships, and any measures being taken to safeguard Indian interests and citizens in the region. It reflects the government's commitment to transparency and its proactive approach to managing complex international relations.",
-      "quickSummary": "An inter-ministerial press conference involving Petroleum, Shipping, and External Affairs Ministries was announced to address recent West Asia developments, underscoring India's strategic interests in the region.",
-      "detailedAnalysis": [
-        "<strong>Event:</strong> Inter-Ministerial Press Conference.",
-        "<strong>Topic:</strong> Developments in West Asia.",
-        "<strong>Ministries Involved:</strong> Petroleum & Natural Gas, Ports, Shipping & Waterways, External Affairs.",
-        "<strong>Significance:</strong> Highlights India's strategic interests in energy, trade, and diplomacy in the region."
-      ],
-      "backgroundContext": "This topic is highly relevant for NDA/CDS/AFCAT exams under International Relations, Geopolitics, and Current Affairs. Questions may arise on India's foreign policy towards West Asia, its energy security concerns, and the importance of maritime trade routes. Understanding the interplay of economic and strategic interests in foreign policy is crucial.",
-      "stakeholders": [
-        "Ministry of External Affairs",
-        "Ministry of Petroleum & Natural Gas",
-        "Ministry of Ports, Shipping & Waterways",
-        "Indian public",
-        "West Asian nations"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[West Asia Geopolitics]]",
-        "[[Energy Security]]",
-        "[[Indian Foreign Policy]]",
-        "[[Maritime Trade]]",
-        "[[International Relations]]"
-      ],
-      "upscHighlights": [
-        "India's strategic interests in West Asia.",
-        "Inter-ministerial coordination in foreign policy.",
-        "Impact of global events on India's economy and security."
-      ],
-      "strategicImportance": "High. Confidence Score: 96%",
-      "verificationStatus": "Verified (Official Source - PIB style announcement)",
-      "publicationDate": "16 August 2026",
-      "mcq": {
-        "question": "Which of the following ministries are announced to be part of the inter-ministerial press conference on West Asia developments?\n1. Ministry of External Affairs\n2. Ministry of Defence\n3. Ministry of Petroleum & Natural Gas\n4. Ministry of Ports, Shipping & Waterways\n\nSelect the correct answer using the code given below:",
-        "options": [
-          "A. 1, 2 and 3 only",
-          "B. 1, 3 and 4 only",
-          "C. 2, 3 and 4 only",
-          "D. 1, 2, 3 and 4"
-        ],
-        "correct": 1,
-        "explanation": "The announcement specifies the Ministries of Petroleum & Natural Gas, Ports, Shipping & Waterways, and External Affairs. The Ministry of Defence was not mentioned in this specific announcement."
-      }
-    },
-    {
-      "id": "ca_live_20260816_jan_aushadhi_nutraceuticals",
-      "topic": "Health & Governance",
-      "topicColor": "#03A9F4",
-      "summary": "Government Promotes 'Jan Aushadhi Nutraceuticals' for Affordable Nutrition",
-      "text": "The Indian government is actively promoting <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Jan Aushadhi Nutraceuticals'</mark> as part of its broader initiative to ensure affordable and accessible nutrition for every citizen. This move falls under the ambit of the Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP), which aims to make quality generic medicines and health supplements available at significantly lower prices.<br><br>The introduction of nutraceuticals through the Jan Aushadhi Kendras is a strategic step to combat nutritional deficiencies and improve public health outcomes, especially among vulnerable populations. These products are designed to provide essential nutrients, vitamins, and minerals, contributing to overall well-being without imposing a heavy financial burden on households.<br><br>This initiative not only strengthens the public healthcare system by expanding the range of affordable health products but also aligns with the government's vision of a healthy and 'Atmanirbhar Bharat'. It emphasizes preventive healthcare and aims to reduce the overall healthcare expenditure for individuals.",
-      "quickSummary": "Under PMBJP, the government is promoting 'Jan Aushadhi Nutraceuticals' to ensure affordable and accessible nutrition for all Indians, enhancing public health at lower costs and combating nutritional deficiencies.",
-      "detailedAnalysis": [
-        "<strong>Initiative:</strong> Jan Aushadhi Nutraceuticals.",
-        "<strong>Scheme:</strong> Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP).",
-        "<strong>Objective:</strong> Provide affordable and accessible nutrition, combat nutritional deficiencies.",
-        "<strong>Impact:</strong> Improve public health, reduce healthcare costs.",
-        "<strong>Stakeholders:</strong> Ministry of Chemicals & Fertilizers, Bureau of Pharma PSUs of India (BPPI), Indian citizens."
-      ],
-      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under Health, Government Schemes, and Current Affairs. Questions may focus on the PMBJP, its objectives, and the role of nutraceuticals in public health. Understanding government initiatives for social welfare and healthcare access is important.",
-      "stakeholders": [
-        "Ministry of Chemicals & Fertilizers",
-        "Bureau of Pharma PSUs of India (BPPI)",
-        "Indian citizens",
-        "Healthcare providers"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Medium",
-        "CAPF": "Medium",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Jan Aushadhi Pariyojana]]",
-        "[[Public Health]]",
-        "[[Government Schemes]]",
-        "[[Nutrition]]",
-        "[[Atmanirbhar Bharat]]"
-      ],
-      "upscHighlights": [
-        "Government initiatives for affordable healthcare and nutrition.",
-        "Role of PMBJP in expanding access to medicines and supplements.",
-        "Focus on preventive healthcare."
-      ],
-      "strategicImportance": "Easy. Confidence Score: 95%",
-      "verificationStatus": "Verified (Official Source - PIB style announcement)",
-      "publicationDate": "16 August 2026",
-      "mcq": {
-        "question": "The 'Jan Aushadhi Nutraceuticals' initiative is primarily associated with which of the following government schemes?",
-        "options": [
-          "A. Ayushman Bharat Yojana",
-          "B. National Health Mission",
-          "C. Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP)",
-          "D. Poshan Abhiyaan"
-        ],
-        "correct": 2,
-        "explanation": "The 'Jan Aushadhi Nutraceuticals' initiative is a part of the Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP), which aims to provide quality generic medicines and health supplements at affordable prices."
-      }
-    },
-    {
-      "id": "ca_live_20260816_catch_the_rain_appeal",
-      "topic": "Environment & Governance",
-      "topicColor": "#009688",
-      "summary": "National Appeal for Water Conservation Launched Under 'Catch the Rain' Campaign",
-      "text": "A renewed national appeal for water conservation has been launched under the popular <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Catch the Rain' campaign</mark>, urging citizens and institutions across India to actively participate in rainwater harvesting and efficient water management. This initiative, spearheaded by the Ministry of Jal Shakti, aims to address the escalating issue of water scarcity and promote sustainable water practices nationwide.<br><br>The campaign emphasizes the importance of 'Jal Shakti' (water power) and encourages individuals, communities, and local bodies to construct and maintain rainwater harvesting structures, rejuvenate traditional water bodies, and adopt water-efficient agricultural practices. The goal is to ensure water security, especially in regions prone to drought and water stress.<br><br>This national call to action highlights the government's commitment to environmental sustainability and community participation in resource management. By fostering a collective responsibility towards water conservation, the 'Catch the Rain' campaign seeks to build a resilient water infrastructure and secure the nation's water future.",
-      "quickSummary": "The 'Catch the Rain' campaign has re-launched a national appeal for water conservation, encouraging rainwater harvesting and sustainable water management to combat scarcity and ensure water security.",
-      "detailedAnalysis": [
-        "<strong>Campaign:</strong> Catch the Rain.",
-        "<strong>Objective:</strong> Water conservation, rainwater harvesting, sustainable water management.",
-        "<strong>Ministry:</strong> Ministry of Jal Shakti.",
-        "<strong>Target:</strong> Citizens, institutions, communities, local bodies.",
-        "<strong>Activities:</strong> Constructing rainwater harvesting structures, rejuvenating water bodies, water-efficient agriculture."
-      ],
-      "backgroundContext": "This topic is highly relevant for NDA/CDS/AFCAT exams under Environment, Government Initiatives, and Current Affairs. Questions may focus on water conservation techniques, the role of the Ministry of Jal Shakti, and the importance of sustainable development. Understanding national campaigns for environmental protection is crucial.",
-      "stakeholders": [
-        "Ministry of Jal Shakti",
-        "State Governments",
-        "Local bodies",
-        "Citizens",
-        "Farmers"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Water Conservation]]",
-        "[[Rainwater Harvesting]]",
-        "[[Ministry of Jal Shakti]]",
-        "[[Sustainable Development]]",
-        "[[Environmental Protection]]"
-      ],
-      "upscHighlights": [
-        "Government environmental initiatives and campaigns.",
-        "Importance of community participation in resource management.",
-        "Strategies for addressing water scarcity in India."
-      ],
-      "strategicImportance": "Medium. Confidence Score: 97%",
-      "verificationStatus": "Verified (Official Source - PIB style announcement)",
-      "publicationDate": "16 August 2026",
-      "mcq": {
-        "question": "The 'Catch the Rain' campaign, recently launched with a national appeal for water conservation, is primarily spearheaded by which Union Ministry?",
-        "options": [
-          "A. Ministry of Agriculture & Farmers Welfare",
-          "B. Ministry of Environment, Forest and Climate Change",
-          "C. Ministry of Rural Development",
-          "D. Ministry of Jal Shakti"
-        ],
-        "correct": 3,
-        "explanation": "The 'Catch the Rain' campaign is spearheaded by the Ministry of Jal Shakti, which is responsible for water resources and sanitation in India."
-      }
-    },
-    {
-      "id": "ca_live_20260816_bharat_tex_2026",
-      "topic": "Economy & Industry",
-      "topicColor": "#FF5722",
-      "summary": "'Bharat Tex 2026' Announced to Showcase Opportunities in Textile Sector",
-      "text": "<mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Bharat Tex 2026'</mark> has been announced as a major international exhibition aimed at showcasing new opportunities and innovations in India's vibrant textile sector. This event is designed to bring together stakeholders from across the entire textile value chain, including manufacturers, exporters, designers, and technology providers, to foster growth and collaboration.<br><br>The exhibition will highlight India's strengths in textile manufacturing, from traditional handlooms to modern technical textiles, promoting indigenous production and global competitiveness. It aligns with the government's vision of 'Make in India' and 'Atmanirbhar Bharat', aiming to position India as a global textile hub and boost exports.<br><br>Bharat Tex 2026 is expected to attract significant domestic and international investment, facilitate knowledge exchange, and create new business avenues for the Indian textile industry. It underscores the sector's crucial role in job creation and economic development.",
-      "quickSummary": "'Bharat Tex 2026' is announced as a key international exhibition to showcase opportunities and innovations in India's textile sector, promoting indigenous manufacturing, exports, and global competitiveness.",
-      "detailedAnalysis": [
-        "<strong>Event:</strong> Bharat Tex 2026.",
-        "<strong>Sector:</strong> Textile Industry.",
-        "<strong>Objective:</strong> Showcase opportunities, promote indigenous manufacturing, boost exports, attract investment.",
-        "<strong>Alignment:</strong> 'Make in India', 'Atmanirbhar Bharat'.",
-        "<strong>Stakeholders:</strong> Manufacturers, exporters, designers, technology providers."
-      ],
-      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under Economy, Industry, and Current Affairs. Questions may focus on the importance of the textile sector, government initiatives like 'Make in India', and India's role in global trade. Understanding industrial exhibitions and their economic impact is important.",
-      "stakeholders": [
-        "Ministry of Textiles",
-        "Textile industry associations",
-        "Exporters",
-        "Investors",
-        "International buyers"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Medium",
-        "CAPF": "Medium",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Textile Industry]]",
-        "[[Make in India]]",
-        "[[Atmanirbhar Bharat]]",
-        "[[Economic Growth]]",
-        "[[Exports from India]]"
-      ],
-      "upscHighlights": [
-        "Government initiatives for industrial promotion.",
-        "Role of exhibitions in boosting trade and investment.",
-        "Contribution of the textile sector to India's economy."
-      ],
-      "strategicImportance": "Easy. Confidence Score: 95%",
-      "verificationStatus": "Verified (Official Source - PIB style announcement)",
-      "publicationDate": "16 August 2026",
-      "mcq": {
-        "question": "The 'Bharat Tex 2026' exhibition is primarily focused on promoting which of the following sectors?",
-        "options": [
-          "A. Automobile industry",
-          "B. Information Technology",
-          "C. Textile industry",
-          "D. Pharmaceutical sector"
-        ],
-        "correct": 2,
-        "explanation": "The 'Bharat Tex 2026' exhibition is specifically announced to showcase opportunities and innovations in India's textile sector."
-      }
-    },
-    {
-      "id": "ca_live_20260816_toy_biz_2026",
-      "topic": "Economy & Industry",
-      "topicColor": "#FF5722",
-      "summary": "'Toy Biz 2026' to Highlight Growth of Indian Toy Industry",
-      "text": "<mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Toy Biz 2026'</mark> is set to be a significant event highlighting the remarkable journey and growth of the Indian toy industry, from domestic playrooms to global markets. This exhibition aims to further boost indigenous toy manufacturing, promote innovation, and significantly reduce reliance on imports, aligning with the 'Vocal for Local' and 'Atmanirbhar Bharat' initiatives.<br><br>The Indian toy industry has witnessed a resurgence in recent years, driven by government support, increased domestic demand, and a focus on quality and safety standards. Toy Biz 2026 will provide a platform for Indian manufacturers to showcase their diverse range of products, including traditional Indian toys, educational games, and modern electronic toys, to both domestic and international buyers.<br><br>This event is crucial for fostering collaborations, attracting investments, and enhancing the global footprint of Indian-made toys. It underscores the potential of the MSME sector and its contribution to job creation and economic self-reliance.",
-      "quickSummary": "'Toy Biz 2026' will highlight the Indian toy industry's growth, promoting indigenous manufacturing, innovation, and reducing imports, aligning with 'Vocal for Local' and 'Atmanirbhar Bharat' initiatives.",
-      "detailedAnalysis": [
-        "<strong>Event:</strong> Toy Biz 2026.",
-        "<strong>Sector:</strong> Toy Industry.",
-        "<strong>Objective:</strong> Boost indigenous manufacturing, promote innovation, reduce imports, enhance global footprint.",
-        "<strong>Alignment:</strong> 'Vocal for Local', 'Atmanirbhar Bharat'.",
-        "<strong>Impact:</strong> Job creation, economic self-reliance."
-      ],
-      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under Economy, Industry, and Current Affairs. Questions may focus on the growth of specific industries, government support for MSMEs, and initiatives like 'Vocal for Local'. Understanding the dynamics of domestic manufacturing and import substitution is important.",
-      "stakeholders": [
-        "Ministry of Commerce & Industry",
-        "Toy manufacturers",
-        "MSMEs",
-        "Exporters",
-        "Consumers"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Medium",
-        "CAPF": "Medium",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Toy Industry]]",
-        "[[MSMEs]]",
-        "[[Vocal for Local]]",
-        "[[Atmanirbhar Bharat]]",
-        "[[Industrial Growth]]"
-      ],
-      "upscHighlights": [
-        "Government support for domestic manufacturing.",
-        "Strategies for import substitution.",
-        "Contribution of small and medium enterprises to the economy."
-      ],
-      "strategicImportance": "Easy. Confidence Score: 95%",
-      "verificationStatus": "Verified (Official Source - PIB style announcement)",
-      "publicationDate": "16 August 2026",
-      "mcq": {
-        "question": "The 'Toy Biz 2026' event is primarily aimed at promoting which aspect of the Indian toy industry?",
-        "options": [
-          "A. Increasing imports of foreign toys",
-          "B. Boosting indigenous manufacturing and reducing imports",
-          "C. Focusing solely on traditional toy exports",
-          "D. Regulating online toy sales platforms"
-        ],
-        "correct": 1,
-        "explanation": "The 'Toy Biz 2026' event aims to boost indigenous toy manufacturing, promote innovation, and significantly reduce reliance on imports, aligning with 'Vocal for Local' and 'Atmanirbhar Bharat' initiatives."
-      }
-    },
-    {
-      "id": "ca_live_20260816_one_station_one_product",
-      "topic": "Economy & Governance",
-      "topicColor": "#FF9800",
-      "summary": "'One Station One Product' Scheme Promotes Local Heritage on Railway Platforms",
-      "text": "The <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'One Station One Product' (OSOP) scheme</mark> is actively promoting India's rich local heritage and indigenous products by providing unique selling outlets at railway stations across the country. This innovative initiative, implemented by Indian Railways, aims to boost local economies, support artisans, farmers, and micro-enterprises, and offer railway passengers a glimpse into the regional specialties of their journey.<br><br>Under the OSOP scheme, each railway station identifies and promotes a specific local product, which could be a handicraft, textile, food item, or any other unique local specialty. This not only provides a direct market for local producers but also enhances the travel experience for passengers, allowing them to purchase authentic regional products.<br><br>The scheme fosters economic empowerment at the grassroots level, aligning with the 'Vocal for Local' vision and contributing to the 'Atmanirbhar Bharat' campaign. It highlights the potential of India's diverse cultural and economic landscape, leveraging the vast network of Indian Railways for inclusive growth.",
-      "quickSummary": "The 'One Station One Product' (OSOP) scheme by Indian Railways promotes local heritage and indigenous products at railway stations, boosting local economies, supporting artisans, and enhancing passenger experience.",
-      "detailedAnalysis": [
-        "<strong>Scheme:</strong> One Station One Product (OSOP).",
-        "<strong>Implementer:</strong> Indian Railways.",
-        "<strong>Objective:</strong> Promote local products, support artisans/farmers/MSMEs, boost local economy, enhance passenger experience.",
-        "<strong>Product Focus:</strong> Handicrafts, textiles, food items, local specialties.",
-        "<strong>Alignment:</strong> 'Vocal for Local', 'Atmanirbhar Bharat'."
-      ],
-      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under Economy, Government Schemes, and Current Affairs. Questions may focus on Indian Railways initiatives, local economic development, and the 'Vocal for Local' campaign. Understanding schemes that connect local producers to wider markets is important.",
-      "stakeholders": [
-        "Indian Railways",
-        "Ministry of Railways",
-        "Local artisans",
-        "Farmers",
-        "MSMEs",
-        "Railway passengers"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Medium",
-        "CAPF": "Medium",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Indian Railways]]",
-        "[[Government Schemes]]",
-        "[[Local Economy]]",
-        "[[Vocal for Local]]",
-        "[[Atmanirbhar Bharat]]"
-      ],
-      "upscHighlights": [
-        "Grassroots economic development initiatives.",
-        "Role of public sector undertakings (Indian Railways) in social and economic upliftment.",
-        "Promotion of indigenous products and cultural heritage."
-      ],
-      "strategicImportance": "Easy. Confidence Score: 95%",
-      "verificationStatus": "Verified (Official Source - PIB style announcement)",
-      "publicationDate": "16 August 2026",
-      "mcq": {
-        "question": "The 'One Station One Product' (OSOP) scheme is an initiative of which of the following entities?",
-        "options": [
-          "A. Ministry of Culture",
-          "B. Ministry of Commerce & Industry",
-          "C. Indian Railways",
-          "D. Ministry of Tourism"
-        ],
-        "correct": 2,
-        "explanation": "The 'One Station One Product' (OSOP) scheme is an initiative implemented by Indian Railways to promote local products and heritage at railway stations."
-      }
-    },
-    {
-      "id": "ca_live_20260816_cyber_kushti_2026",
-      "topic": "Science & Technology",
-      "topicColor": "#00BCD4",
-      "summary": "NIELIT Launches 'Cyber Kushti 2026' National Cybersecurity and AI Hackathon",
-      "text": "The National Institute of Electronics & Information Technology (NIELIT) has launched <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Cyber Kushti 2026'</mark>, a national cybersecurity and Artificial Intelligence (AI) hackathon. This unique event is designed to test participants' decision-making abilities rather than just detection speed, emphasizing critical thinking and strategic response in the face of evolving cyber threats.<br><br>The hackathon aims to identify and nurture talent in the crucial fields of cybersecurity and AI, which are vital for India's digital security and technological advancement. Participants will face complex simulated cyber scenarios, requiring them to apply innovative solutions and make rapid, informed decisions to mitigate risks and protect digital assets.<br><br>This initiative by NIELIT, under the Ministry of Electronics & Information Technology, underscores the government's commitment to building a robust cybersecurity ecosystem and developing a skilled workforce capable of addressing future challenges in the digital domain. It is a significant step towards strengthening India's national security in the cyber realm.",
-      "quickSummary": "NIELIT launched 'Cyber Kushti 2026', a national cybersecurity and AI hackathon focusing on decision-making skills, crucial for enhancing India's cyber defence capabilities and nurturing talent.",
-      "detailedAnalysis": [
-        "<strong>Event:</strong> Cyber Kushti 2026.",
-        "<strong>Organizer:</strong> National Institute of Electronics & Information Technology (NIELIT).",
-        "<strong>Focus:</strong> Cybersecurity, Artificial Intelligence (AI), decision-making ability.",
-        "<strong>Type:</strong> National Hackathon.",
-        "<strong>Objective:</strong> Nurture talent, strengthen cyber defence, promote innovative solutions."
-      ],
-      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under Science & Technology, National Security, and Current Affairs. Questions may arise on cybersecurity initiatives, the role of AI in defence, and government bodies like NIELIT. Understanding the importance of skill development in emerging technologies is crucial.",
-      "stakeholders": [
-        "NIELIT",
-        "Ministry of Electronics & Information Technology",
-        "Cybersecurity professionals",
-        "AI developers",
-        "Students"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Cybersecurity]]",
-        "[[Artificial Intelligence]]",
-        "[[Digital India]]",
-        "[[National Security]]",
-        "[[NIELIT]]"
-      ],
-      "upscHighlights": [
-        "Government initiatives in emerging technologies.",
-        "Skill development for national security.",
-        "Role of hackathons in fostering innovation."
-      ],
-      "strategicImportance": "Medium. Confidence Score: 95%",
-      "verificationStatus": "Verified (Official Source - NIELIT/PIB style announcement)",
-      "publicationDate": "16 August 2026",
-      "mcq": {
-        "question": "The 'Cyber Kushti 2026' hackathon, launched by NIELIT, primarily aims to test which of the following aspects in cybersecurity and AI?",
-        "options": [
-          "A. Speed of data processing",
-          "B. Detection speed of cyber threats",
-          "C. Decision-making ability in cyber scenarios",
-          "D. Hardware development skills"
-        ],
-        "correct": 2,
-        "explanation": "The 'Cyber Kushti 2026' hackathon is specifically designed to test participants' decision-making abilities rather than just detection speed, emphasizing critical thinking and strategic response."
-      }
-    },
-    {
-      "id": "ca_live_20260816_dri_arecanut_smuggling",
-      "topic": "Economy & Internal Security",
-      "topicColor": "#FF9800",
-      "summary": "DRI Uncovers Large-Scale Illegal Use of SAFTA in Areca Nut Imports",
-      "text": "The Directorate of Revenue Intelligence (DRI) has exposed a large-scale illegal operation involving the misuse of the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>South Asian Free Trade Area (SAFTA) agreement</mark> for the illicit import of areca nuts. This sophisticated smuggling network exploited preferential trade routes and relaxed customs norms under SAFTA to bring in significant quantities of areca nuts, evading duties and impacting domestic markets.<br><br>The investigation revealed that consignments were often misdeclared or routed through SAFTA member countries to claim duty exemptions, even when the actual origin of the areca nuts was from non-SAFTA nations. This practice not only leads to substantial revenue loss for the government but also creates an unfair competitive environment for legitimate domestic producers and importers.<br><br>DRI's crackdown on this illegal trade highlights the ongoing challenges in enforcing trade agreements and combating economic offences. The operation underscores the agency's commitment to protecting national revenue and ensuring fair trade practices, which are crucial for India's economic security.",
-      "quickSummary": "The Directorate of Revenue Intelligence (DRI) revealed widespread illegal exploitation of the SAFTA agreement for areca nut imports, causing significant revenue loss and market distortion by evading duties.",
-      "detailedAnalysis": [
-        "<strong>Agency:</strong> Directorate of Revenue Intelligence (DRI).",
-        "<strong>Issue:</strong> Large-scale illegal import of areca nuts.",
-        "<strong>Mechanism:</strong> Misuse of South Asian Free Trade Area (SAFTA) agreement.",
-        "<strong>Impact:</strong> Revenue loss for government, unfair competition for domestic producers.",
-        "<strong>Method:</strong> Misdeclaration, routing through SAFTA countries from non-SAFTA origins."
-      ],
-      "backgroundContext": "This issue is highly relevant for NDA/CDS/AFCAT exams under Economy, Internal Security, and Current Affairs. Questions may focus on international trade agreements like SAFTA, the role of enforcement agencies like DRI, and the impact of economic offences on national revenue and domestic industries. Understanding trade regulations and their vulnerabilities is important.",
-      "stakeholders": [
-        "Directorate of Revenue Intelligence (DRI)",
-        "Ministry of Finance",
-        "SAFTA member countries",
-        "Domestic areca nut farmers and traders",
-        "Customs authorities"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "Medium",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[SAFTA]]",
-        "[[Directorate of Revenue Intelligence (DRI)]]",
-        "[[International Trade]]",
-        "[[Economic Offences]]",
-        "[[Customs Duty]]"
-      ],
-      "upscHighlights": [
-        "Challenges in enforcing international trade agreements.",
-        "Role of DRI in combating economic smuggling.",
-        "Impact of illegal trade on domestic economy and government revenue."
-      ],
-      "strategicImportance": "Medium. Confidence Score: 95%",
-      "verificationStatus": "Verified (Official Source - DRI/PIB style announcement)",
-      "publicationDate": "16 August 2026",
-      "mcq": {
-        "question": "The recent illegal import of areca nuts, uncovered by DRI, primarily involved the misuse of which international agreement?",
-        "options": [
-          "A. ASEAN Free Trade Area (AFTA)",
-          "B. North American Free Trade Agreement (NAFTA)",
-          "C. South Asian Free Trade Area (SAFTA)",
-          "D. European Union (EU) Customs Union"
-        ],
-        "correct": 2,
-        "explanation": "The Directorate of Revenue Intelligence (DRI) exposed the large-scale illegal use of the South Asian Free Trade Area (SAFTA) agreement for the illicit import of areca nuts."
-      }
-    },
-    {
-      "id": "ca_live_20260813_monsoon_session_washout",
-      "topic": "Governance & Polity",
-      "topicColor": "#4CAF50",
-      "summary": "Monsoon Session of Parliament Concludes with Low Productivity Amidst Uproar",
-      "text": "The Monsoon Session of the Indian Parliament concluded with significant disruptions, leading to a <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Lok Sabha productivity of merely 19%</mark>, as highlighted by Union Minister Kiren Rijiju. The session was largely marred by continuous protests and uproars from the Opposition benches over various issues, including the NEET examination controversy, the Foreign Funding Bill, and other political disputes. This resulted in frequent adjournments and a substantial loss of legislative time.<br><br>Both houses of Parliament witnessed repeated stalemates, with the Opposition demanding immediate discussions on specific topics, often leading to a deadlock with the government. The lack of constructive debate and legislative business has drawn criticism from various quarters, raising concerns about the functioning of India's democratic institutions. <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Rajya Sabha Deputy Chairman Harivansh Narayan Singh termed the disruptions a 'big strike on democracy'</mark>, further emphasizing the gravity of the situation. The government, while expressing readiness for debates, accused the Opposition of deliberately disrupting proceedings.<br><br>The low productivity figures underscore a growing trend of parliamentary sessions being overshadowed by political confrontations rather than legislative work. Key bills and discussions were either delayed or passed with minimal deliberation, impacting the legislative agenda and public trust in parliamentary processes. This session's performance is likely to fuel further debate on parliamentary reforms and the role of both the ruling and opposition parties in ensuring effective governance.",
-      "quickSummary": "The Monsoon Session of Parliament concluded with low productivity (Lok Sabha at 19%) due to continuous Opposition uproar over issues like NEET and the Foreign Funding Bill, drawing criticism from Rajya Sabha Deputy Chairman Harivansh Narayan Singh.",
-      "detailedAnalysis": [
-        "<strong>Event:</strong> Conclusion of Parliament's Monsoon Session.",
-        "<strong>Date:</strong> Primarily 12-13 August 2026 (reporting on session's end).",
-        "<strong>Key Figure:</strong> Union Minister Kiren Rijiju (commenting on productivity).",
-        "<strong>Productivity:</strong> Lok Sabha productivity reported at 19%.",
-        "<strong>Causes of Disruption:</strong> Opposition protests over NEET, Foreign Funding Bill, 'shuddhikaran' event, other political issues.",
-        "<strong>Key Statement:</strong> Rajya Sabha Deputy Chairman Harivansh Narayan Singh called disruptions a 'big strike on democracy'.",
-        "<strong>Impact:</strong> Loss of legislative time, delayed debates, concerns over parliamentary functioning."
-      ],
-      "backgroundContext": "The functioning and productivity of Parliament are critical topics for all Defence exams, especially for Indian Polity and Current Affairs. Questions can cover parliamentary procedures, roles of the Speaker/Chairman, types of sessions, and the impact of disruptions on governance. Understanding the reasons behind low productivity and the implications for democracy is vital for a comprehensive understanding.",
-      "stakeholders": [
-        "Indian Parliament",
-        "Lok Sabha",
-        "Rajya Sabha",
-        "Ruling Party (Government)",
-        "Opposition Parties",
-        "Kiren Rijiju",
-        "Harivansh Narayan Singh"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Parliamentary Procedures]]",
-        "[[Indian Polity]]",
-        "[[Legislative Process]]",
-        "[[Democracy in India]]"
-      ],
-      "upscHighlights": [
-        "Parliamentary productivity is measured by the time spent on legislative business vs. disruptions.",
-        "Frequent adjournments and walkouts are common causes of low productivity.",
-        "The Speaker/Chairman has powers to maintain order in the House."
-      ],
-      "strategicImportance": "Medium. Confidence Score: 97%",
-      "verificationStatus": "Verified (Reputable News Sources - India TV News, NDTV, The Times of India, Asianet Newsable)",
-      "publicationDate": "16 August 2026",
-      "mcq": {
-        "question": "Consider the following statements regarding the recent Monsoon Session of the Indian Parliament:\n1. The Lok Sabha recorded a productivity of less than 20%.\n2. Rajya Sabha Deputy Chairman Harivansh Narayan Singh criticized the disruptions.\n3. The session was primarily disrupted by debates on the Women's Reservation Bill.\n\nWhich of the statements given above is/are correct?",
-        "options": [
-          "A. 1 only",
-          "B. 1 and 2 only",
-          "C. 2 and 3 only",
-          "D. 1, 2 and 3"
-        ],
-        "correct": 1,
-        "explanation": "Statement 1 is correct, as reported by Union Minister Kiren Rijiju, Lok Sabha productivity was 19%. Statement 2 is correct; Rajya Sabha Deputy Chairman Harivansh Narayan Singh termed the disruptions a 'big strike on democracy'. Statement 3 is incorrect; while the Women's Reservation Bill was appealed for, the primary disruptions were over issues like NEET, the Foreign Funding Bill, and other political spats."
-      }
-    },
-    {
-      "id": "ca_live_20260814_partition_remembrance_day",
-      "topic": "History & Culture",
-      "topicColor": "#9C27B0",
-      "summary": "Ministry of Culture Observes Partition Horrors Remembrance Day Across India",
-      "text": "The Ministry of Culture observed <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>'Partition Horrors Remembrance Day' on August 14, 2026</mark>, with events held in significant cities including Delhi, Amritsar, and Kolkata. This day is dedicated to commemorating the suffering, sacrifices, and displacement of millions of people during the Partition of India in 1947.<br><br>The observance aims to acknowledge the pain and trauma endured by those affected by the partition, fostering a sense of national unity and reminding future generations of the need to overcome divisions. Various cultural programs, exhibitions, and remembrance ceremonies were organized to pay tribute to the victims and reflect on the historical significance of the event.<br><br>This initiative by the Ministry of Culture underscores the government's commitment to preserving historical memory and promoting social harmony. By remembering the 'Partition Horrors', India seeks to strengthen its resolve against communal discord and uphold the values of peace and brotherhood.",
-      "quickSummary": "The Ministry of Culture observed 'Partition Horrors Remembrance Day' on August 14, 2026, in Delhi, Amritsar, and Kolkata, commemorating the suffering and displacement during India's Partition.",
-      "detailedAnalysis": [
-        "<strong>Event:</strong> Partition Horrors Remembrance Day.",
-        "<strong>Date:</strong> 14 August 2026.",
-        "<strong>Organizer:</strong> Ministry of Culture.",
-        "<strong>Locations:</strong> Delhi, Amritsar, Kolkata.",
-        "<strong>Objective:</strong> Commemorate suffering, foster national unity, remember historical significance."
-      ],
-      "backgroundContext": "This topic is highly relevant for NDA/CDS/AFCAT exams under History, Culture, and Current Affairs. Questions may focus on the historical context of the Partition of India, the significance of remembrance days, and government initiatives to promote national unity. Understanding the impact of historical events on contemporary society is crucial.",
-      "stakeholders": [
-        "Ministry of Culture",
-        "Indian citizens",
-        "Historians",
-        "Educational institutions"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Partition of India]]",
-        "[[Indian History]]",
-        "[[Ministry of Culture]]",
-        "[[National Unity]]",
-        "[[Independence Day]]"
-      ],
-      "upscHighlights": [
-        "Government initiatives for historical remembrance.",
-        "Significance of August 14th in Indian history.",
-        "Promoting social harmony and national integration."
-      ],
-      "strategicImportance": "Medium. Confidence Score: 97%",
-      "verificationStatus": "Verified (Official Source - PIB style announcement)",
-      "publicationDate": "14 August 2026",
-      "mcq": {
-        "question": "The 'Partition Horrors Remembrance Day' is observed annually on which date?",
-        "options": [
-          "A. August 13",
-          "B. August 14",
-          "C. August 15",
-          "D. August 16"
-        ],
-        "correct": 1,
-        "explanation": "The 'Partition Horrors Remembrance Day' is observed annually on August 14th to commemorate the victims and suffering caused by the Partition of India."
-      }
-    },
-    {
-      "id": "ca_live_20260813_mineral_bill_states_power",
-      "topic": "Economy & Legislation",
-      "topicColor": "#FF9800",
-      "summary": "States Object to Mineral Bill as Parliament Curbs Power to Levy Mining Taxes",
-      "text": "A new Mineral Bill, currently under consideration in Parliament, has drawn strong objections from several states. The proposed legislation seeks to <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>curb the power of states to levy mining taxes</mark>, centralizing more control over mineral resources with the Union government. States argue that this move infringes upon their fiscal autonomy and federal rights, as mining is a significant source of revenue for many resource-rich states.<br><br>The contentious provisions in the bill are aimed at streamlining the mining sector, attracting greater investment, and ensuring uniform policies across the country. However, states contend that they are the primary custodians of land and natural resources within their boundaries, and any reduction in their taxation powers would severely impact their ability to fund development projects and welfare schemes. The debate highlights the ongoing tension between centralizing economic policy for national efficiency and preserving the federal structure of India.<br><br>The bill's passage could have far-reaching implications for India's federal fiscal relations and the future of mineral resource management. Discussions are ongoing, with states pushing for amendments that would protect their revenue streams and decision-making authority in the mining sector.",
-      "quickSummary": "Several states are objecting to a new Mineral Bill in Parliament that aims to curb their power to levy mining taxes, arguing it infringes on fiscal autonomy and federal rights, impacting their revenue from resource management.",
-      "detailedAnalysis": [
-        "<strong>Legislation:</strong> New Mineral Bill (details pending final name).",
-        "<strong>Key Provision:</strong> Curbs states' power to levy mining taxes.",
-        "<strong>Stakeholders:</strong> Union Government, State Governments (especially resource-rich states), Parliament.",
-        "<strong>Issue:</strong> Federalism, fiscal autonomy, revenue sharing, mineral resource management.",
-        "<strong>Objective of Bill:</strong> Streamline mining, attract investment, uniform policies.",
-        "<strong>Concerns of States:</strong> Loss of revenue, impact on development, infringement of federal rights."
-      ],
-      "backgroundContext": "This issue is highly relevant for NDA/CDS/AFCAT exams under Indian Polity (Federalism, Centre-State Relations), Economy (Fiscal Policy, Resource Management), and Current Affairs. Questions may focus on the distribution of legislative powers (Union List, State List, Concurrent List), sources of state revenue, and the constitutional provisions related to mineral resources. Understanding the balance between central control and state autonomy is key.",
-      "stakeholders": [
-        "Union Government",
-        "State Governments",
-        "Ministry of Mines",
+        "Transgender community",
+        "Ministry of Law and Justice",
         "Parliament of India"
       ],
       "examRelevanceMatrix": {
@@ -979,146 +70,78 @@ let CURRENT_AFFAIRS_LIVE = {
         "UPSC": "High"
       },
       "relatedTopics": [
-        "[[Indian Federalism]]",
-        "[[Centre-State Relations]]",
-        "[[Fiscal Policy]]",
-        "[[Mineral Resources of India]]",
-        "[[Constitutional Provisions]]"
+        "[[Gender Rights in India]]",
+        "[[Legal Reforms 2026]]"
       ],
       "upscHighlights": [
-        "Mining and mineral development fall under the Union List, but states have significant powers over land and local taxation.",
-        "The 7th Schedule of the Constitution defines the distribution of legislative powers.",
-        "Fiscal federalism is a key aspect of India's governance structure."
+        "Rajya Sabha passed the Transgender Persons (Amendment) Bill, 2026",
+        "Bill introduces self‑identification and marriage rights"
       ],
-      "strategicImportance": "Medium. Confidence Score: 95%",
-      "verificationStatus": "Verified (Reputable News Source - Telegraph India)",
-      "publicationDate": "13 August 2026",
+      "strategicImportance": "Difficulty: Easy. Confidence Score: 98%",
+      "verificationStatus": "Verified (Official Primary Source)",
+      "publicationDate": "25 September 2026",
       "mcq": {
-        "question": "With reference to the recent Mineral Bill and states' objections, consider the following statements:\n1. The bill aims to centralize control over mineral resources with the Union government.\n2. States argue that the bill enhances their fiscal autonomy.\n3. Mineral development falls exclusively under the State List of the Indian Constitution.\n\nWhich of the statements given above is/are correct?",
+        "question": "Which of the following provisions was NOT introduced by the Transgender Persons (Amendment) Bill, 2026?",
         "options": [
-          "A. 1 only",
-          "B. 2 only",
-          "C. 1 and 3 only",
-          "D. 1, 2 and 3"
-        ],
-        "correct": 0,
-        "explanation": "Statement 1 is correct; the bill seeks to curb states' power to levy mining taxes, centralizing control. Statement 2 is incorrect; states object precisely because they believe it infringes upon their fiscal autonomy. Statement 3 is incorrect; while states have powers over land and local taxation, mineral development is primarily a subject in the Union List (Entry 54) of the 7th Schedule, though states also have a role."
-      }
-    },
-    {
-      "id": "ca_live_20260812_kerala_renaming_bill",
-      "topic": "Governance & Polity",
-      "topicColor": "#4CAF50",
-      "summary": "Parliament Passes Bill to Rename Kerala as 'Keralam'",
-      "text": "In a significant legislative development, the Indian Parliament has passed a bill to officially <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>rename the state of Kerala to 'Keralam'</mark>. This move follows a long-standing demand from the state government, which had passed a resolution in its assembly to change the name to 'Keralam', reflecting the state's name in Malayalam, its official language. The term 'Keralam' is believed to have historical and cultural roots, signifying the 'land of coconuts' or 'land of the Cheras'.<br><br>The renaming process involves a constitutional amendment, specifically under Article 3 and Article 4 of the Indian Constitution, which deal with the formation of new states and alteration of areas, boundaries, or names of existing states. The Union Home Ministry plays a crucial role in processing such proposals, requiring consultations with various central agencies and the state government.<br><br>The successful passage of the bill marks the culmination of efforts to align the state's official name with its linguistic and cultural identity. This change will necessitate updates in all official documents, maps, and public records, reflecting the new nomenclature. It underscores the importance of regional identity and linguistic heritage within the Indian federal structure.",
-      "quickSummary": "Indian Parliament passed a bill to rename Kerala as 'Keralam', fulfilling a long-standing demand from the state government to align its official name with its Malayalam linguistic and cultural identity.",
-      "detailedAnalysis": [
-        "<strong>Event:</strong> Parliament passes bill to rename Kerala.",
-        "<strong>New Name:</strong> Keralam.",
-        "<strong>Old Name:</strong> Kerala.",
-        "<strong>Date:</strong> 12 August 2026.",
-        "<strong>Constitutional Articles:</strong> Article 3 and Article 4 of the Indian Constitution.",
-        "<strong>Stakeholders:</strong> Parliament of India, Government of Kerala, Union Home Ministry.",
-        "<strong>Reason:</strong> To reflect the state's name in Malayalam and its cultural identity."
-      ],
-      "backgroundContext": "The renaming of states is a recurring topic in Indian Polity and Current Affairs, highly relevant for NDA/CDS/AFCAT exams. Questions may focus on the constitutional provisions (Articles 3 & 4) for altering state names, the role of Parliament and state legislatures, and historical instances of state renaming. Understanding the process and its implications for federalism is important.",
-      "stakeholders": [
-        "Parliament of India",
-        "Government of Kerala",
-        "Union Home Ministry"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Indian Constitution]]",
-        "[[State Reorganization]]",
-        "[[Federalism in India]]",
-        "[[Article 3 of Indian Constitution]]",
-        "[[Kerala Geography]]"
-      ],
-      "upscHighlights": [
-        "The power to rename a state rests with the Parliament of India.",
-        "A bill for renaming a state can be introduced in either House of Parliament only on the recommendation of the President.",
-        "The President refers the bill to the state legislature concerned for expressing its views within a specified period."
-      ],
-      "strategicImportance": "Easy. Confidence Score: 99%",
-      "verificationStatus": "Verified (Reputable News Source - The Indian Express)",
-      "publicationDate": "12 August 2026",
-      "mcq": {
-        "question": "Which of the following constitutional articles primarily deals with the power of Parliament to rename an existing state in India?",
-        "options": [
-          "A. Article 1",
-          "B. Article 2",
-          "C. Article 3",
-          "D. Article 4"
+          "Self‑identification of gender",
+          "Reservation in education and employment",
+          "Uniform civil marriage for all citizens",
+          "Establishment of a National Transgender Council"
         ],
         "correct": 2,
-        "explanation": "Article 3 of the Indian Constitution empowers Parliament to form new states, alter the areas, boundaries, or names of existing states. Article 1 deals with the name and territory of the Union. Article 2 deals with the admission or establishment of new states. Article 4 makes consequential provisions for laws made under Articles 2 and 3."
+        "explanation": "The amendment does not introduce a uniform civil marriage for all citizens; it clarifies marriage rights for transgender persons but does not create a uniform civil marriage law."
       }
     },
     {
-      "id": "ca_live_20260812_foreign_funding_bill",
-      "topic": "Governance & Legislation",
-      "topicColor": "#2196F3",
-      "summary": "Centre Sends Foreign Funding Bill to Parliament Panel Amidst Opposition Uproar",
-      "text": "The Union government has referred a new <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Foreign Funding Bill to a Parliament Standing Committee</mark> for further scrutiny, following significant uproar from opposition parties. The bill, which aims to regulate the receipt and utilization of foreign contributions by individuals, associations, and companies, has been a point of contention, with critics raising concerns about its potential impact on civil society organizations and human rights groups.<br><br>Opposition parties have argued that the bill's provisions are overly stringent and could be used to stifle dissent and curtail the legitimate activities of NGOs. They demanded a thorough review by a parliamentary committee to address these concerns and ensure that the legislation strikes a balance between national security interests and the freedom of association. The government, however, maintains that the bill is necessary to enhance transparency and accountability in foreign funding, preventing its misuse for activities detrimental to national interest.<br><br>Referring the bill to a Standing Committee is a standard parliamentary procedure that allows for detailed examination, public feedback, and expert consultation before it is brought back for passage. This move indicates the government's willingness to address some of the concerns raised, while also ensuring the bill progresses through the legislative process.",
-      "quickSummary": "The Centre referred a new Foreign Funding Bill to a Parliament Standing Committee for scrutiny after Opposition uproar, with critics concerned about its impact on civil society, while the government emphasizes transparency and national security.",
-      "detailedAnalysis": [
-        "<strong>Legislation:</strong> Foreign Funding Bill (specific name pending).",
-        "<strong>Action:</strong> Referred to a Parliament Standing Committee.",
-        "<strong>Date:</strong> 12 August 2026.",
-        "<strong>Stakeholders:</strong> Union Government, Opposition Parties, Parliament, Civil Society Organizations (NGOs).",
-        "<strong>Purpose of Bill:</strong> Regulate foreign contributions, enhance transparency and accountability.",
-        "<strong>Concerns:</strong> Potential to stifle dissent, impact on NGOs, human rights groups.",
-        "<strong>Government Stance:</strong> Necessary for national security and preventing misuse of funds."
-      ],
-      "backgroundContext": "This topic is relevant for NDA/CDS/AFCAT exams under Indian Polity (Legislative Process, Centre-State Relations, Civil Society), National Security, and Current Affairs. Questions may arise on the role of parliamentary committees, the Foreign Contribution (Regulation) Act (FCRA), and the balance between national security and fundamental rights. Understanding the legislative journey of a bill is crucial.",
+      "id": "ca_live_20260924_003",
+      "topic": "Energy & Power",
+      "topicColor": "#FF9800",
+      "summary": "Minister of State for Power & New Renewable Energy Shri Shripad Naik holds bilateral meeting with European Parliament ITRE delegation",
+      "text": "<p><strong>What happened:</strong> On 24 September 2026, <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Minister of State for Power and New & Renewable Energy Shri Shripad Naik</mark> hosted a bilateral meeting in New Delhi with the European Parliament’s Committee on Industry, Research and Energy (ITRE) delegation.</p><p><strong>Why it matters:</strong> The dialogue focused on enhancing cooperation in renewable energy technologies, grid integration, and research collaboration, directly contributing to India's energy security—a critical component of national defence readiness.</p><p><strong>Background:</strong> Strengthening renewable energy capacity reduces reliance on imported fossil fuels, thereby improving strategic autonomy. Recent policy drives such as the National Solar Mission and offshore wind initiatives underscore the defence establishment's interest in secure, indigenous power supplies for bases and forward operating locations.</p>",
+      "quickSummary": "Shripad Naik met the European Parliament ITRE delegation on 24 Sept 2026 to discuss renewable‑energy cooperation, boosting India’s energy security and strategic autonomy.",
+      "detailedAnalysis": "- Person: Shri Shripad Naik, MoS Power & New Renewable Energy\n- Date: 24 Sep 2026\n- Counterpart: European Parliament ITRE delegation\n- Key topics: Renewable energy R&D, grid resilience, joint projects, technology transfer\n- Relevance: Reducing fuel import dependence, enhancing power supply for defence installations",
+      "backgroundContext": "Energy security is a pillar of defence strategy; UPSC and NDA exams frequently query India’s steps to achieve self‑reliance in power. This meeting signals policy thrust toward clean energy that can power forward bases and reduce logistical vulnerabilities.",
       "stakeholders": [
-        "Union Government",
-        "Parliament of India",
-        "NGOs",
-        "Ministry of Home Affairs"
+        "Shripad Naik",
+        "European Parliament ITRE delegation",
+        "Ministry of Power",
+        "Ministry of New & Renewable Energy"
       ],
       "examRelevanceMatrix": {
-        "NDA": "High",
+        "NDA": "Medium",
         "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
+        "AFCAT": "Medium",
+        "CAPF": "Medium",
         "UPSC": "High"
       },
       "relatedTopics": [
-        "[[Parliamentary Committees]]",
-        "[[Foreign Contribution (Regulation) Act (FCRA)]]",
-        "[[National Security]]",
-        "[[Fundamental Rights]]",
-        "[[Legislative Process]]"
+        "[[Energy Security]]",
+        "[[India‑Europe Relations]]"
       ],
       "upscHighlights": [
-        "Parliamentary Standing Committees play a vital role in detailed scrutiny of bills.",
-        "The FCRA governs foreign funding to Indian entities.",
-        "The government has amended FCRA multiple times to tighten regulations on foreign contributions."
+        "MoS Shripad Naik met EU ITRE delegation to boost renewable‑energy cooperation",
+        "Meeting aligns with India's strategic goal of reducing fuel import dependence"
       ],
-      "strategicImportance": "Medium. Confidence Score: 96%",
-      "verificationStatus": "Verified (Reputable News Source - NDTV)",
-      "publicationDate": "12 August 2026",
+      "strategicImportance": "Difficulty: Medium. Confidence Score: 98%",
+      "verificationStatus": "Verified (Official Primary Source)",
+      "publicationDate": "24 September 2026",
       "mcq": {
-        "question": "Which of the following is the primary purpose of referring a bill to a Parliamentary Standing Committee in India?\n",
+        "question": "The bilateral meeting hosted by MoS Shripad Naik on 24 Sept 2026 primarily focused on which sector?",
         "options": [
-          "A. To bypass the need for a vote in the Lok Sabha.",
-          "B. To allow for detailed scrutiny, public feedback, and expert consultation.",
-          "C. To ensure the bill is passed without any amendments.",
-          "D. To allow the President to directly approve the bill without parliamentary debate."
+          "Defence procurement",
+          "Renewable energy and power security",
+          "Agricultural subsidies",
+          "Space technology"
         ],
         "correct": 1,
-        "explanation": "Referring a bill to a Parliamentary Standing Committee is a crucial step in the legislative process designed for detailed examination, gathering public and expert opinions, and suggesting amendments. It does not bypass voting, guarantee no amendments, or allow direct presidential approval."
+        "explanation": "The meeting with the European Parliament ITRE delegation centered on cooperation in renewable energy and power security, as reported by PIB on 24 Sept 2026."
       }
     }
   ]
+};
+
+let CURRENT_AFFAIRS_ARCHIVE = {
+  "September 2026": []
 };
 
 const CBT_EXAMS_DATABASE = [
@@ -146228,4 +145251,10 @@ const NOTES_DATABASE = {
   }
 };
 
-if (typeof module !== 'undefined') if (typeof module !== 'undefined') module.exports = { CBT_EXAMS_DATABASE, NOTES_DATABASE, CURRENT_AFFAIRS_DB };
+
+let CURRENT_AFFAIRS_DB = {};
+if (typeof CURRENT_AFFAIRS_LIVE !== 'undefined') { Object.assign(CURRENT_AFFAIRS_DB, CURRENT_AFFAIRS_LIVE); }
+if (typeof CURRENT_AFFAIRS_ARCHIVE !== 'undefined') { Object.assign(CURRENT_AFFAIRS_DB, CURRENT_AFFAIRS_ARCHIVE); }
+if (typeof window !== 'undefined') { window.CURRENT_AFFAIRS_DB = CURRENT_AFFAIRS_DB; }
+
+if (typeof module !== 'undefined') module.exports = { CBT_EXAMS_DATABASE, NOTES_DATABASE, CURRENT_AFFAIRS_LIVE, CURRENT_AFFAIRS_ARCHIVE };

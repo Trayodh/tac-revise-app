@@ -3,7 +3,7 @@ const path = require('path');
 
 async function runMilitaryExercisesEngine() {
 require('dotenv').config();
-
+const { generateAIContent } = require('./ai_provider_proxy');
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 const PIB_RSS_FEEDS = [
@@ -71,7 +71,7 @@ async function fetchRssFeed(url) {
   
   const finalStartIdx = content.indexOf('let MILITARY_EXERCISES_LIVE =');
   const archStartIdx = content.indexOf('let MILITARY_EXERCISES_ARCHIVE =');
-  const finalEndIdx = content.indexOf('let CURRENT_AFFAIRS_DB =');
+  const finalEndIdx = content.indexOf('let CURRENT_AFFAIRS_LIVE =');
 
   if (finalStartIdx === -1 || archStartIdx === -1 || finalEndIdx === -1) {
     console.error("Could not locate MILITARY_EXERCISES_LIVE or MILITARY_EXERCISES_ARCHIVE in data.js");
@@ -81,8 +81,19 @@ async function fetchRssFeed(url) {
   const liveExpr = content.substring(finalStartIdx, archStartIdx).replace('let MILITARY_EXERCISES_LIVE =', '').trim().replace(/;$/, '');
   const archExpr = content.substring(archStartIdx, finalEndIdx).replace('let MILITARY_EXERCISES_ARCHIVE =', '').trim().replace(/;$/, '');
   
-  let dbLive = eval('(' + liveExpr + ')');
-  let dbArch = eval('(' + archExpr + ')');
+  let dbLive = {};
+  let dbArch = {};
+  try {
+    dbLive = eval('(' + liveExpr + ')');
+  } catch(e) {
+    console.warn("[ENGINE] Could not parse MILITARY_EXERCISES_LIVE. Falling back to empty object.", e.message);
+  }
+  
+  try {
+    dbArch = eval('(' + archExpr + ')');
+  } catch(e) {
+    console.warn("[ENGINE] Could not parse MILITARY_EXERCISES_ARCHIVE. Falling back to empty object.", e.message);
+  }
   
   const monthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
   if (!dbLive[monthStr]) dbLive[monthStr] = [];
@@ -361,28 +372,9 @@ ${JSON.stringify(rawItems.map(i => ({ title: i.title, desc: i.description, date:
 Follow all system instructions. Extract items related to Indian Military Exercises, Port Calls, or major Global Joint Training (NATO, RIMPAC, etc.). Output the completely updated, merged, and verified JSON array.
 `;
 
-  console.log("[GEMINI] Connecting to Gemini 2.5 Flash Intelligence Engine for Military Exercises...");
+  console.log("[ENGINE] Connecting to AI Proxy for Military Exercises Intelligence Generation...");
   try {
-    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
-        contents: [{ parts: [{ text: USER_PROMPT }] }],
-        generationConfig: {
-          temperature: 0.1,
-          responseMimeType: "application/json"
-        }
-      })
-    });
-
-    if (!res.ok) {
-      console.error("[GEMINI] Error:", await res.text());
-      return;
-    }
-
-    const data = await res.json();
-    const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+    const rawText = await generateAIContent(SYSTEM_PROMPT, USER_PROMPT, ['gemini', 'cerebras', 'groq']);
     
     // Clean and Parse
     const cleaned = rawText.replace(/^\s*```json\s*/,'').replace(/\s*```\s*$/,'').trim();

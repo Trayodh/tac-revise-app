@@ -3,7 +3,7 @@ const path = require('path');
 
 
 require('dotenv').config();
-
+const { generateAIContent } = require('./ai_provider_proxy');
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 // Trusted sources from the prompt mapped to standard Google News/PIB domains.
@@ -114,11 +114,23 @@ async function runCurrentAffairsEngine() {
   const archStartIdx = content.indexOf('let CURRENT_AFFAIRS_ARCHIVE =');
   const finalEndIdx = content.indexOf('const CBT_EXAMS_DATABASE =');
 
-  const liveExpr = content.substring(finalStartIdx, archStartIdx).replace('let CURRENT_AFFAIRS_LIVE =', '').trim().replace(/;$/, '');
-  const archExpr = content.substring(archStartIdx, finalEndIdx).replace('let CURRENT_AFFAIRS_ARCHIVE =', '').trim().replace(/;$/, '');
+  let liveEndIdx = archStartIdx !== -1 ? archStartIdx : finalEndIdx;
+  const liveExpr = finalStartIdx !== -1 ? content.substring(finalStartIdx, liveEndIdx).replace('let CURRENT_AFFAIRS_LIVE =', '').trim().replace(/;$/, '') : '{}';
+  const archExpr = archStartIdx !== -1 ? content.substring(archStartIdx, finalEndIdx).replace('let CURRENT_AFFAIRS_ARCHIVE =', '').trim().replace(/;$/, '') : '{}';
   
-  let dbLive = eval('(' + liveExpr + ')');
-  let dbArch = eval('(' + archExpr + ')');
+  let dbLive = {};
+  let dbArch = {};
+  try {
+    dbLive = eval('(' + liveExpr + ')');
+  } catch (e) {
+    console.warn("[ENGINE] Could not parse CURRENT_AFFAIRS_LIVE. Falling back to empty object.", e.message);
+  }
+  
+  try {
+    dbArch = eval('(' + archExpr + ')');
+  } catch (e) {
+    console.warn("[ENGINE] Could not parse CURRENT_AFFAIRS_ARCHIVE. Falling back to empty object.", e.message);
+  }
   
   const monthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
   if (!dbLive[monthStr]) dbLive[monthStr] = [];
@@ -218,28 +230,9 @@ ${JSON.stringify(rawItems.map(i => ({ title: i.title, desc: i.description, date:
 Follow all system instructions. Output the completely updated, merged, and verified JSON array.
 `;
 
-  console.log("[GEMINI] Connecting to Gemini 2.5 Flash Intelligence Engine...");
+  console.log("[ENGINE] Connecting to AI Proxy for Intelligence Generation...");
   try {
-    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
-        contents: [{ parts: [{ text: USER_PROMPT }] }],
-        generationConfig: {
-          temperature: 0.1,
-          responseMimeType: "application/json"
-        }
-      })
-    });
-
-    if (!res.ok) {
-      console.error("[GEMINI] Error:", await res.text());
-      return;
-    }
-
-    const data = await res.json();
-    const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+    const rawText = await generateAIContent(SYSTEM_PROMPT, USER_PROMPT, ['gemini', 'cerebras', 'groq']);
     
     // Clean and Parse
     const cleaned = rawText.replace(new RegExp('^\\\\s*```json\\\\s*', 'i'), '').replace(new RegExp('\\\\s*```\\\\s*$', 'i'), '').trim();

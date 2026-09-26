@@ -13,7 +13,7 @@ Keep language strictly formal, highly authoritative, and emoji-free. Return stri
 
 (async () => {
   try {
-    const res = await generateAIContent('', prompt, ['cerebras']);
+    const res = await generateAIContent('', prompt, ['groq']);
     console.log('Success:', res);
   } catch (e) {
     console.error('Failure:', e);

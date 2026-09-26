@@ -5,14 +5,25 @@
       1,
       2,
       3,
-      4
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
     ],
     "status": "in_progress"
   },
   "doc8.pdf": {
     "total_pages": 25,
     "extracted_pages": [
-      1
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
     ],
     "status": "in_progress"
   },
@@ -21,7 +32,13 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
     ],
     "status": "in_progress"
   },
@@ -30,7 +47,14 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
     ],
     "status": "in_progress"
   },
@@ -39,7 +63,12 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
     ],
     "status": "in_progress"
   },
@@ -47,7 +76,13 @@
     "total_pages": 32,
     "extracted_pages": [
       1,
-      2
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
     ],
     "status": "in_progress"
   },
@@ -55,7 +90,8 @@
     "total_pages": 34,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -64,7 +100,14 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
     ],
     "status": "in_progress"
   },
@@ -115,7 +158,13 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
     ],
     "status": "in_progress"
   },
@@ -124,7 +173,12 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
     ],
     "status": "in_progress"
   },
@@ -132,7 +186,11 @@
     "total_pages": 40,
     "extracted_pages": [
       1,
-      2
+      2,
+      3,
+      4,
+      5,
+      6
     ],
     "status": "in_progress"
   },
@@ -140,7 +198,14 @@
     "total_pages": 43,
     "extracted_pages": [
       1,
-      2
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
     ],
     "status": "in_progress"
   },
@@ -148,7 +213,13 @@
     "total_pages": 43,
     "extracted_pages": [
       1,
-      2
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
     ],
     "status": "in_progress"
   },
@@ -301,7 +372,13 @@
       17,
       18,
       19,
-      20
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
     ],
     "status": "in_progress"
   },
@@ -384,7 +461,14 @@
   "pathfinder_science.pdf": {
     "total_pages": 174,
     "extracted_pages": [
-      1
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
     ],
     "status": "in_progress"
   },
@@ -392,7 +476,12 @@
     "total_pages": 176,
     "extracted_pages": [
       1,
-      2
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
     ],
     "status": "in_progress"
   },
@@ -400,7 +489,14 @@
     "total_pages": 281,
     "extracted_pages": [
       1,
-      2
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
     ],
     "status": "in_progress"
   },
@@ -408,52 +504,99 @@
     "total_pages": 292,
     "extracted_pages": [
       1,
-      2
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
     ],
     "status": "in_progress"
   },
   "pathfinder_studies.pdf": {
     "total_pages": 342,
     "extracted_pages": [
-      1
+      1,
+      2,
+      3,
+      4
     ],
     "status": "in_progress"
   },
   "pathfinder_mathematics.pdf": {
     "total_pages": 384,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
     "status": "in_progress"
   },
   "afcat_reasoning_notes.pdf": {
     "total_pages": 516,
     "extracted_pages": [
-      1
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
     ],
     "status": "in_progress"
   },
   "Pathfinder-Truncated.pdf": {
     "total_pages": 999,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
     "status": "in_progress"
   },
   "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf": {
     "total_pages": 1297,
     "extracted_pages": [
-      1
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
     ],
     "status": "in_progress"
   },
   "nda_material.pdf": {
     "total_pages": 1314,
     "extracted_pages": [
-      1
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
     ],
     "status": "in_progress"
   },
   "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf": {
     "total_pages": 1377,
     "extracted_pages": [
-      1
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
     ],
     "status": "in_progress"
   }

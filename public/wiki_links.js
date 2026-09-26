@@ -1865,7 +1865,7 @@ function parseWikiLinks(text) {
   // 4. Resolve wiki links [[Topic]] -> <a>
   let parsed = linkedText.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (match, topicName, displayLabel) => {
     const label = displayLabel || topicName || "";
-    const cleanTopic = (topicName || "").trim().replace(/'/g, "\\'");
+    const cleanTopic = (topicName || "").trim().replace(/'/g, "\\'").replace(/"/g, '&quot;');
     return `<a class="wiki-link" onclick="triggerDoubtExplain('${cleanTopic}', this)">${label}</a>`;
   });
   
@@ -1937,7 +1937,7 @@ function showHoverTooltip(element, termName) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: 'gemini-2.5-flash',
+      model: 'gemini-2.0-flash',
       contents: [{ parts: [{ text: queryPrompt }] }],
       generationConfig: { response_mime_type: 'application/json', temperature: 0.1 }
     })
@@ -2158,20 +2158,31 @@ Generate your response as a valid JSON object matching this schema exactly:
 Keep language strictly formal, highly authoritative, and emoji-free. Return strictly the raw JSON without code block wrappers.`;
 
   try {
-    const response = await fetch('/api/gemini', {
+    const response = await fetch('/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'gemini-2.5-flash',
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { response_mime_type: 'application/json', temperature: 0.1 }
+        targetAI: 'gemini',
+        model: 'gemini-3.1-pro',
+        messages: [{ role: 'user', content: prompt }],
+        isJsonRequired: true,
+        temperature: 0.1
       })
     });
 
     if (!response.ok) throw new Error("API call failed");
-    const data = await response.json();
-    let resText = data.candidates[0].content.parts[0].text;
-    let cleaned = resText.trim();
+    
+    const responseText = await response.text();
+    
+    // Check if the server returned a plain text markdown error before we even try to parse it as JSON
+    const upperResponseText = responseText.toUpperCase();
+    if (upperResponseText.includes("DEDICATED AI SERVICE") || upperResponseText.includes("HEAVY LOAD") || responseText.trim().startsWith("###")) {
+      throw new Error("Primary AI service is currently experiencing heavy load. Please try again in 10-20 seconds.");
+    }
+    
+    const data = JSON.parse(responseText);
+    let resText = data.text;
+    let cleaned = (resText || "").trim();
     try {
       JSON.parse(cleaned);
     } catch (e) {
@@ -2190,6 +2201,12 @@ Keep language strictly formal, highly authoritative, and emoji-free. Return stri
     // Check if it's our interceptor's offline fallback
     if (resText.includes("_AI uplink failed")) {
       throw new Error(resText.split("_AI uplink failed")[1].replace(/[\(\)]/g, '').trim() || "Offline mode active.");
+    }
+    
+    // Check if it's a rate limit or service unavailable markdown response
+    const upperText = resText.toUpperCase();
+    if (upperText.includes("DEDICATED AI SERVICE") || upperText.includes("HEAVY LOAD") || cleaned.startsWith("###")) {
+      throw new Error("Primary AI service is currently experiencing heavy load. Please try again in 10-20 seconds.");
     }
     
     const result = JSON.parse(cleaned);
@@ -2677,7 +2694,7 @@ function renderDronacharyaModalContent(modal, topicName, data, contextText) {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
-                model: 'gemini-2.5-flash',
+                model: 'gemini-2.0-flash',
                 contents: [{ parts: [{ text: fullQuery }] }]
               })
             });

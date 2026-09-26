@@ -1,3 +1,7 @@
+let MILITARY_EXERCISES_LIVE = {};
+
+let MILITARY_EXERCISES_ARCHIVE = {};
+
 let CURRENT_AFFAIRS_LIVE = {
   "August 2026": [
     {
@@ -1120,6 +1124,10 @@ let CURRENT_AFFAIRS_LIVE = {
     }
   ]
 };
+
+let MILITARY_EXERCISES_LIVE = {};
+
+let MILITARY_EXERCISES_ARCHIVE = {};
 
 const CBT_EXAMS_DATABASE = [
   {

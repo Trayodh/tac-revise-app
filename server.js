@@ -9,6 +9,7 @@ const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY || '';
 // Import the new Current Affairs engine
 const runCurrentAffairsEngine = require('./current_affairs_engine');
 const runMilitaryExercisesEngine = require('./military_exercises_engine');
+const { generateAIContent } = require('./ai_provider_proxy');
 
 // Cache for daily news to prevent repeated API calls
 let dailyNewsCache = { date: null, data: null };
@@ -527,20 +528,26 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
              } else if (geminiBody.stream) {
                  delete geminiBody.stream;
              }
-             const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GEMINI_KEY}`;
-             const res = await fetch(geminiUrl, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(geminiBody)
-             });
-             if (!res.ok) throw new Error("Gemini API Error: " + await res.text());
-             const data = await res.json();
-             aiText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+             let requestedModel = payload.model || 'gemini-1.5-flash';
+             if (requestedModel === 'gemini-3.1-pro' || requestedModel === 'gemini-3.6-flash') {
+               requestedModel = 'gemini-1.5-pro';
+             }
+             try {
+                // If the payload specifies messages, extract the system and user prompts
+                // Dronacharya usually sends just one user message. 
+                const userPrompt = messages.map(m => m.role + ': ' + m.content).join('\n');
+                const systemPrompt = ''; // We'll pass empty system prompt since it's merged or in original body
+                
+                aiText = await generateAIContent(systemPrompt, userPrompt, ['gemini', 'cerebras', 'groq']);
+             } catch (proxyErr) {
+                console.error("[PROXY] ai_provider_proxy failed:", proxyErr);
+                throw new Error("All AI Providers failed for /api/chat. " + proxyErr.message);
+             }
           }
         }
         else if (actualTarget === 'cerebras') {
           const cerebrasBody = {
-            model: 'llama3.1-8b',
+            model: 'gpt-oss-120b',
             messages: messages,
             temperature: temperature || 0.7,
             max_completion_tokens: 1500
@@ -561,7 +568,7 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
         }
         else if (actualTarget === 'groq') {
           const groqBody = {
-            model: 'llama3-8b-8192',
+            model: 'openai/gpt-oss-120b',
             messages: messages,
             temperature: temperature || 0.7,
             max_tokens: 1500
@@ -632,10 +639,11 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
         const payload = JSON.parse(body);
         let { model, contents, stream, generationConfig, tools, systemInstruction } = payload;
         
-        // Map ALL older/unsupported models to the currently supported gemini-3.6-flash
-        // Old models (gemini-2.0-flash, gemini-1.5-flash, etc.) return 404 as of Sept 2026
-        if (model && model.startsWith('gemini-')) {
-          model = 'gemini-3.6-flash';
+        // Map futuristic/invalid model names from the frontend UI to actual working API endpoints
+        if (model === 'gemini-3.1-pro' || model === 'gemini-3.6-flash') {
+          model = 'gemini-1.5-pro'; // Fallback to the latest valid pro model
+        } else if (!model) {
+          model = 'gemini-1.5-flash';
         }
 
         // Map response_mime_type to responseMimeType for Google API
@@ -757,7 +765,7 @@ ${textPrompt}`;
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.CEREBRAS_API_KEY}` },
                     body: JSON.stringify({
-                        model: "llama3.1-8b",
+                        model: "gpt-oss-120b",
                         messages: [
                             ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
                             { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }
@@ -784,7 +792,7 @@ ${textPrompt}`;
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
                     body: JSON.stringify({
-                        model: "llama3-70b-8192",
+                        model: "openai/gpt-oss-120b",
                         messages: [
                             ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
                             { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }

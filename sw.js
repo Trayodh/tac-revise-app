@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tac-revise-cache-v109';
+const CACHE_NAME = 'tac-revise-cache-v112';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -35,3 +35,6 @@ self.addEventListener('fetch', event => {
   // Pass through all requests to network
   event.respondWith(fetch(event.request));
 });
+
+
+

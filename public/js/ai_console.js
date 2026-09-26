@@ -127,7 +127,7 @@ Your response must be a single JSON object in the following format:
 }
 Do not output any surrounding markdown formatting (no \`\`\`json, no \`\`\`), do not output any other text. Output only the raw JSON. Do NOT use any emojis, icons, or pictorial characters anywhere in the questions, options, or explanations. Keep the content completely emoji-free.`;
 
-  const modelsToTry = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+  const modelsToTry = ["gemini-3-flash-preview", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
   let success = false;
   let generatedData = null;
 
@@ -327,46 +327,38 @@ Cover the following sections in your notes:
 
 Use bold headings, structured layout, and do NOT use any emojis, icons, or pictorial characters. Keep the content completely emoji-free and professional.${syllabusText}${pyqText}`;
 
-  const modelsToTry = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
   let replyText = "";
   let success = false;
 
-  for (const model of modelsToTry) {
-    try {
-      const parts = [{ text: prompt }];
-      if (imagePart) {
-        parts.push(imagePart);
-      }
-      const response = await fetch('/api/gemini', {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          model: model,
-          contents: [{ parts: parts }]
-        })
-      });
-      if (response.ok) {
-        const resData = await response.json();
-        if (resData.candidates && resData.candidates[0] && resData.candidates[0].content && resData.candidates[0].content.parts[0]) {
-          replyText = resData.candidates[0].content.parts[0].text;
-          success = true;
-          break;
-        }
-      }
-    } catch (err) {
-      console.error("Gemini API error:", err);
+  try {
+    const parts = [{ text: prompt }];
+    if (imagePart) {
+      parts.push(imagePart);
     }
+    const response = await fetch('/api/gemini', {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        model: "gemini-2.0-flash",
+        contents: [{ parts: parts }]
+      })
+    });
+    if (response.ok) {
+      const resData = await response.json();
+      if (resData.candidates && resData.candidates[0] && resData.candidates[0].content && resData.candidates[0].content.parts[0]) {
+        replyText = resData.candidates[0].content.parts[0].text;
+        success = true;
+      }
+    }
+  } catch (err) {
+    console.error("Gemini API error:", err);
   }
 
   area.className = "ai-response-area";
 
   if (success) {
     let formattedText = replyText
-      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-      .replace(/\*(.*?)\*/g, '<em>$1</em>')
-      .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
-      .replace(/^#{1,3} (.+)$/gm, '<h4 style="color: var(--accent); margin:16px 0 8px;">$1</h4>')
-      .replace(/\n/g, '<br/>');
+      ;
 
     area.innerHTML = `
       <div class="panel" style="margin-bottom:20px;">
@@ -484,7 +476,7 @@ Your explanation should include:
 
 If the selected text is incomplete or ambiguous, use the surrounding context to infer the intended meaning rather than explaining it in isolation. Make sure to wrap keywords in double square brackets like [[Keyword]] for recursive learning.`;
 
-    const modelsToTry = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash"];
+    const modelsToTry = ["gemini-3-flash-preview", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash"];
     let replyText = "";
     let success = false;
   
@@ -512,11 +504,7 @@ If the selected text is incomplete or ambiguous, use the surrounding context to 
     
     if (success) {
       let formattedText = replyText
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\*(.*?)\*/g, '<em>$1</em>')
-        .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
-        .replace(/^#{1,3} (.+)$/gm, '<h4 style="color: var(--accent); margin:16px 0 8px;">$1</h4>')
-        .replace(/\n/g, '<br/>');
+        ;
 
       const toolbarHtml = getAiActionToolbarHtml();
 
@@ -631,4 +619,4 @@ window.aiActionRegenerate = function() {
     } catch(e) {}
   }
 };
-
+

@@ -57,10 +57,7 @@ Format the response cleanly with markdown headings, bullet points, and strong mi
     
     // Format Markdown
     let formattedText = replyText
-      .replace(/\*\*(.*?)\*\*/g, '<strong style="color:var(--info);">$1</strong>')
-      .replace(/\*(.*?)\*/g, '<em>$1</em>')
-      .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:16px 0 8px; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:4px;">$1</h4>')
-      .replace(/\n/g, '<br/>');
+      ;
 
     container.className = "ai-response-area fade-in";
     container.innerHTML = `
