@@ -102,7 +102,7 @@ window.fetch = async function() {
 
     // Intercept backend AI calls
 
-    if (url.includes('/api/gemini')) {
+    if (url.includes('/api/gemini') && isCapacitor) {
 
         try {
 
@@ -246,7 +246,7 @@ window.fetch = async function() {
 
                 try {
 
-                    const res = await originalFetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM`, {
+                    const res = await originalFetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM`, {
 
                         method: 'POST',
 
@@ -5621,7 +5621,7 @@ Format the output beautifully as structured HTML using subheadings, <strong> tag
 
         body: JSON.stringify({
 
-          model: 'gemini-2.5-flash',
+          model: 'gemini-2.0-flash',
 
           contents: [{ parts: [{ text: prompt }] }]
 
@@ -5995,7 +5995,7 @@ STRICT RULES:
 
     const payload = {
 
-      model: 'gemini-2.5-flash',
+      model: 'gemini-2.0-flash',
 
       contents: [{ parts: [{ text: prompt }] }]
 
@@ -6215,7 +6215,7 @@ Format entirely in clean HTML.`;
 
     const payload = {
 
-      model: 'gemini-2.5-flash',
+      model: 'gemini-2.0-flash',
 
       contents: [{
 
@@ -6395,7 +6395,7 @@ Do not output any surrounding markdown formatting (no \`\`\`json, no \`\`\`), do
 
 
 
-  const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+  const modelsToTry = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
 
   let success = false;
 
@@ -6795,7 +6795,7 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
 
 
 
-  const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+  const modelsToTry = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
 
   let replyText = "";
 
@@ -6861,15 +6861,7 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
 
     let formattedText = replyText
 
-      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-
-      .replace(/\*(.*?)\*/g, '<em>$1</em>')
-
-      .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
-
-      .replace(/^#{1,3} (.+)$/gm, '<h4 style="color: var(--accent); margin:16px 0 8px;">$1</h4>')
-
-      .replace(/\n/g, '<br/>');
+      ;
 
 
 
@@ -7292,7 +7284,7 @@ Doubt to solve: ${text}`;
 
   try {
 
-    const modelsToTry = ["gemini-3.1-flash-lite", "gemini-1.5-flash", "gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-pro"];
+    const modelsToTry = ["gemini-3.1-flash-lite", "gemini-1.5-flash", "gemini-2.0-flash", "gemini-2.0-flash", "gemini-1.5-pro"];
 
     let success = false;
 
@@ -7377,13 +7369,7 @@ Doubt to solve: ${text}`;
 
       let formattedText = replyText
 
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-
-        .replace(/\*(.*?)\*/g, '<em>$1</em>')
-
-        .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
-
-        .replace(/\n/g, '<br/>');
+        ;
 
       replyEl.innerHTML = parseWikiLinks(formattedText);
 
@@ -7585,7 +7571,7 @@ function initAiPaperSolver() {
 
           const base64Data = reader.result.split(',')[1];
 
-          const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+          const modelsToTry = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
 
           let success = false;
 
@@ -7681,17 +7667,7 @@ function initAiPaperSolver() {
 
               .replace(/^### (.*$)/gim, '<h3 style="color:var(--accent-dark); margin-top:16px; margin-bottom:6px;">$1</h3>')
 
-              .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-
-              .replace(/\*(.*?)\*/g, '<em>$1</em>')
-
-              .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 6px; border-radius:4px; font-family:var(--font-mono); font-size:0.9rem;">$1</code>')
-
-              .replace(/^\s*-\s+(.*$)/gim, '<li style="margin-left:20px; color:var(--text-secondary); margin-bottom:6px;">$1</li>')
-
-              .replace(/^\s*\d+\.\s+(.*$)/gim, '<li style="margin-left:20px; color:var(--text-secondary); margin-bottom:6px; list-style-type: decimal;">$1</li>')
-
-              .replace(/\n/g, '<br/>');
+              ;
 
               
 
@@ -7979,7 +7955,7 @@ Ensure the design is clean, readable, premium, and uses variables like var(--acc
 
         try {
 
-          const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+          const modelsToTry = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
 
           let success = false;
 
@@ -9481,7 +9457,7 @@ At the very end of the report, include exactly 3 Multiple Choice Questions based
 
       headers: { 'Content-Type': 'application/json' },
 
-      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.5-flash', contents: [{ parts: [{ text: promptText }] }] })
+      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.0-flash', contents: [{ parts: [{ text: promptText }] }] })
 
     });
 
@@ -10371,10 +10347,7 @@ Do not use any emojis in your response. Keep the tone professional, scholarly, a
       if (data.candidates && data.candidates[0].content && data.candidates[0].content.parts[0]) {
         let finalText = data.candidates[0].content.parts[0].text;
         let formatted = finalText
-          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-          .replace(/\*(.*?)\*/g, '<em>$1</em>')
-          .replace(/\n\n/g, '<br/><br/>')
-          .replace(/\n/g, '<br/>');
+          ;
         streamTextArea.innerHTML = parseWikiLinks(formatted);
       } else {
         streamTextArea.innerHTML = '<span style="color: var(--danger);">No response generated.</span>';
@@ -10401,10 +10374,7 @@ Do not use any emojis in your response. Keep the tone professional, scholarly, a
                 if (parsed.candidates && parsed.candidates[0].content && parsed.candidates[0].content.parts[0]) {
                   finalText += parsed.candidates[0].content.parts[0].text;
                   let formatted = finalText
-                    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                    .replace(/\*(.*?)\*/g, '<em>$1</em>')
-                    .replace(/\n\n/g, '<br/><br/>')
-                    .replace(/\n/g, '<br/>');
+                    ;
                   streamTextArea.innerHTML = parseWikiLinks(formatted);
                 }
               }
@@ -10641,7 +10611,7 @@ STRICT FORMATTING RULES:
 
     const payload = {
 
-      model: 'gemini-2.5-flash',
+      model: 'gemini-2.0-flash',
 
       contents: [{ parts: [{ text: prompt }] }]
 
@@ -11220,13 +11190,7 @@ function formatTextChunk(text) {
 
   return text
 
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-
-    .replace(/\*(.*?)\*/g, '<em>$1</em>')
-
-    .replace(/`/g, '')
-
-    .replace(/\n/g, '<br/>');
+    ;
 
 }
 
@@ -11236,15 +11200,7 @@ function renderAiNotes(text, contentArea, btnCopy, btnDownload, title) {
 
   let formattedText = text
 
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-
-    .replace(/\*(.*?)\*/g, '<em>$1</em>')
-
-    .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
-
-    .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:16px 0 8px;">$1</h4>')
-
-    .replace(/\n/g, '<br/>');
+    ;
 
 
 
@@ -11696,7 +11652,7 @@ Format the response cleanly with markdown headings, bullet points, and strong mi
 
       headers: { 'Content-Type': 'application/json' },
 
-      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.5-flash', contents: [{ parts: [{ text: promptText }] }] })
+      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.0-flash', contents: [{ parts: [{ text: promptText }] }] })
 
     });
 
@@ -11716,13 +11672,7 @@ Format the response cleanly with markdown headings, bullet points, and strong mi
 
     let formattedText = replyText
 
-      .replace(/\*\*(.*?)\*\*/g, '<strong style="color:var(--info);">$1</strong>')
-
-      .replace(/\*(.*?)\*/g, '<em>$1</em>')
-
-      .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:16px 0 8px; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:4px;">$1</h4>')
-
-      .replace(/\n/g, '<br/>');
+      ;
 
 
 
@@ -13773,7 +13723,7 @@ Make sure to weave their weak areas into the plan.`;
 
       headers: { 'Content-Type': 'application/json' },
 
-      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.5-flash', contents: [{ parts: [{ text: promptText }] }] })
+      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.0-flash', contents: [{ parts: [{ text: promptText }] }] })
 
     });
 
@@ -14095,7 +14045,7 @@ Format with clean, bold headings and simple HTML line breaks. Do NOT use any emo
 
       body: JSON.stringify({
 
-        model: "gemini-2.5-flash",
+        model: "gemini-2.0-flash",
 
         contents: [{ parts: [{ text: prompt }] }],
 
@@ -14117,15 +14067,7 @@ Format with clean, bold headings and simple HTML line breaks. Do NOT use any emo
 
         let formattedText = text
 
-          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-
-          .replace(/\*(.*?)\*/g, '<em>$1</em>')
-
-          .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
-
-          .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:12px 0 6px;">$1</h4>')
-
-          .replace(/\n/g, '<br/>');
+          ;
 
         
 
@@ -15051,7 +14993,7 @@ async function solveAdvancedMath() {
 
     const payload = {
 
-      model: "gemini-2.5-pro",
+      model: "gemini-1.5-pro",
 
       contents: [{ parts: [{ text: questionText }] }],
 

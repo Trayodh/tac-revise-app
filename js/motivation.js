@@ -494,10 +494,7 @@ Formatting Guidelines for maximum visual appeal:
 
 function formatTextChunk(text) {
   return text
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*(.*?)\*/g, '<em>$1</em>')
-    .replace(/`/g, '')
-    .replace(/\n/g, '<br/>');
+    ;
 }
 
 function renderAiNotes(text, contentArea, btnCopy, btnDownload, title) {

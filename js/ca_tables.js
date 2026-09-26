@@ -241,10 +241,7 @@ Do not use any emojis in your response. Keep the tone professional, scholarly, a
                 
                 // Format paragraphs nicely
                 let formatted = finalText
-                  .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                  .replace(/\*(.*?)\*/g, '<em>$1</em>')
-                  .replace(/\n\n/g, '<br/><br/>')
-                  .replace(/\n/g, '<br/>');
+                  ;
 
                 streamTextArea.innerHTML = parseWikiLinks(formatted);
               }

@@ -978,11 +978,7 @@ Format with clean, bold headings and simple HTML line breaks. Do NOT use any emo
       if (data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts[0]) {
         let text = data.candidates[0].content.parts[0].text;
         let formattedText = text
-          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-          .replace(/\*(.*?)\*/g, '<em>$1</em>')
-          .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
-          .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:12px 0 6px;">$1</h4>')
-          .replace(/\n/g, '<br/>');
+          ;
         
         output.innerHTML = `
           <h3 style="color: var(--accent); font-family: var(--font-logo); font-size: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 12px;">[ TACTICAL STUDY TARGET PLAN ]</h3>
