@@ -16808,7 +16808,9 @@ function applyGoalGetterTheme() {
 
   // Background music via YouTube (hidden)
   const startAudio = () => {
+    if (document.getElementById('goalgetter-audio')) return;
     const iframe = document.createElement('iframe');
+    iframe.id = 'goalgetter-audio';
     iframe.src = 'https://www.youtube.com/embed/M0uO8XpxmA8?autoplay=1&loop=1&playlist=M0uO8XpxmA8';
     iframe.style.position = 'absolute';
     iframe.style.width = '1px';
@@ -16817,9 +16819,14 @@ function applyGoalGetterTheme() {
     iframe.style.opacity = '0';
     iframe.allow = 'autoplay; encrypted-media';
     document.body.appendChild(iframe);
-    document.removeEventListener('click', startAudio);
   };
-  document.addEventListener('click', startAudio);
+
+  if (navigator.userActivation && navigator.userActivation.hasBeenActive) {
+    startAudio();
+  } else {
+    document.addEventListener('click', startAudio, { once: true });
+    document.addEventListener('keydown', startAudio, { once: true });
+  }
 
 
 }
