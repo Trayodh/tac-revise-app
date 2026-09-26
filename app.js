@@ -16864,46 +16864,56 @@ function applyGoalGetterTheme() {
   `;
   document.head.appendChild(style);
 
-  // Background music via YouTube (Widget)
+  // Background music via YouTube Iframe API (Invisible)
   const startAudio = () => {
-    if (document.getElementById('goalgetter-audio-widget')) return;
+    if (document.getElementById('goalgetter-audio-container')) return;
     
-    const widget = document.createElement('div');
-    widget.id = 'goalgetter-audio-widget';
-    widget.style.position = 'fixed';
-    widget.style.bottom = '20px';
-    widget.style.right = '20px';
-    widget.style.zIndex = '999999';
-    widget.style.boxShadow = '0 8px 32px rgba(0,0,0,0.5)';
-    widget.style.borderRadius = '12px';
-    widget.style.overflow = 'hidden';
-    widget.style.width = '300px';
-    widget.style.height = '80px';
-    widget.style.background = '#000';
+    const oldWidget = document.getElementById('goalgetter-audio-widget');
+    if (oldWidget) oldWidget.remove();
     
-    const closeBtn = document.createElement('button');
-    closeBtn.innerHTML = '×';
-    closeBtn.style.position = 'absolute';
-    closeBtn.style.top = '0px';
-    closeBtn.style.right = '5px';
-    closeBtn.style.background = 'transparent';
-    closeBtn.style.border = 'none';
-    closeBtn.style.color = '#fff';
-    closeBtn.style.fontSize = '24px';
-    closeBtn.style.cursor = 'pointer';
-    closeBtn.style.zIndex = '10';
-    closeBtn.onclick = () => widget.remove();
+    const container = document.createElement('div');
+    container.id = 'goalgetter-audio-container';
+    container.style.position = 'absolute';
+    container.style.left = '-9999px';
+    container.style.top = '0';
+    container.style.width = '200px';
+    container.style.height = '200px';
     
-    const iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/M0uO8XpxmA8?autoplay=1&loop=1&playlist=M0uO8XpxmA8&controls=1';
-    iframe.style.width = '100%';
-    iframe.style.height = '100%';
-    iframe.style.border = 'none';
-    iframe.allow = 'autoplay; encrypted-media';
+    const playerDiv = document.createElement('div');
+    playerDiv.id = 'goalgetter-yt-player';
+    container.appendChild(playerDiv);
+    document.body.appendChild(container);
     
-    widget.appendChild(closeBtn);
-    widget.appendChild(iframe);
-    document.body.appendChild(widget);
+    const initPlayer = () => {
+      window.ggPlayer = new YT.Player('goalgetter-yt-player', {
+        height: '200',
+        width: '200',
+        videoId: 'V-NIDNBw_8E', // Lofi version of Tum Se Hi (allows embedding)
+        playerVars: { 'autoplay': 1, 'loop': 1, 'playlist': 'V-NIDNBw_8E', 'controls': 0 },
+        events: {
+          'onReady': (event) => {
+            const tryPlay = () => {
+              if (window.ggPlayer && window.ggPlayer.getPlayerState !== undefined && window.ggPlayer.getPlayerState() !== 1) {
+                window.ggPlayer.playVideo();
+              }
+            };
+            tryPlay();
+            document.addEventListener('click', tryPlay);
+            document.addEventListener('keydown', tryPlay);
+          }
+        }
+      });
+    };
+
+    if (!window.YT) {
+      const tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      const firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      window.onYouTubeIframeAPIReady = initPlayer;
+    } else if (window.YT && window.YT.Player) {
+      initPlayer();
+    }
   };
 
   startAudio();
