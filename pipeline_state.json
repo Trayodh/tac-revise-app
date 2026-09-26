@@ -1,0 +1,460 @@
+{
+  "doc7.pdf": {
+    "total_pages": 25,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "in_progress"
+  },
+  "doc8.pdf": {
+    "total_pages": 25,
+    "extracted_pages": [
+      1
+    ],
+    "status": "in_progress"
+  },
+  "doc1.pdf": {
+    "total_pages": 26,
+    "extracted_pages": [
+      1,
+      2,
+      3
+    ],
+    "status": "in_progress"
+  },
+  "doc2.pdf": {
+    "total_pages": 28,
+    "extracted_pages": [
+      1,
+      2,
+      3
+    ],
+    "status": "in_progress"
+  },
+  "doc9.pdf": {
+    "total_pages": 29,
+    "extracted_pages": [
+      1,
+      2,
+      3
+    ],
+    "status": "in_progress"
+  },
+  "pyq_upload.pdf": {
+    "total_pages": 32,
+    "extracted_pages": [
+      1,
+      2
+    ],
+    "status": "in_progress"
+  },
+  "doc3.pdf": {
+    "total_pages": 34,
+    "extracted_pages": [
+      1,
+      2
+    ],
+    "status": "in_progress"
+  },
+  "Physics class notes pdf_compressed.pdf": {
+    "total_pages": 35,
+    "extracted_pages": [
+      1,
+      2,
+      3
+    ],
+    "status": "in_progress"
+  },
+  "Chemistry class Notes_compressed.pdf": {
+    "total_pages": 36,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "status": "completed"
+  },
+  "chunk_80_119.pdf": {
+    "total_pages": 40,
+    "extracted_pages": [
+      1,
+      2,
+      3
+    ],
+    "status": "in_progress"
+  },
+  "doc4.pdf": {
+    "total_pages": 40,
+    "extracted_pages": [
+      1,
+      2,
+      3
+    ],
+    "status": "in_progress"
+  },
+  "doc5.pdf": {
+    "total_pages": 40,
+    "extracted_pages": [
+      1,
+      2
+    ],
+    "status": "in_progress"
+  },
+  "doc6.pdf": {
+    "total_pages": 43,
+    "extracted_pages": [
+      1,
+      2
+    ],
+    "status": "in_progress"
+  },
+  "pyq_upload_2.pdf": {
+    "total_pages": 43,
+    "extracted_pages": [
+      1,
+      2
+    ],
+    "status": "in_progress"
+  },
+  "Indian Geography class notes_compressed.pdf": {
+    "total_pages": 57,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "status": "completed"
+  },
+  "Biology class notes_compressed.pdf": {
+    "total_pages": 58,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    "status": "completed"
+  },
+  "Physical Geography class notes_compressed.pdf": {
+    "total_pages": 62,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "status": "in_progress"
+  },
+  "Ancient history capsule_compressed.pdf": {
+    "total_pages": 70,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "status": "completed"
+  },
+  "pathfinder_science.pdf": {
+    "total_pages": 174,
+    "extracted_pages": [
+      1
+    ],
+    "status": "in_progress"
+  },
+  "6f6f4af2-763d-44c4-93af-0dbb0bc0dbca.pdf": {
+    "total_pages": 176,
+    "extracted_pages": [
+      1,
+      2
+    ],
+    "status": "in_progress"
+  },
+  "defence_pdf.pdf": {
+    "total_pages": 281,
+    "extracted_pages": [
+      1,
+      2
+    ],
+    "status": "in_progress"
+  },
+  "General-Science-Book-SSBCrack.pdf": {
+    "total_pages": 292,
+    "extracted_pages": [
+      1,
+      2
+    ],
+    "status": "in_progress"
+  },
+  "pathfinder_studies.pdf": {
+    "total_pages": 342,
+    "extracted_pages": [
+      1
+    ],
+    "status": "in_progress"
+  },
+  "pathfinder_mathematics.pdf": {
+    "total_pages": 384,
+    "extracted_pages": [],
+    "status": "in_progress"
+  },
+  "afcat_reasoning_notes.pdf": {
+    "total_pages": 516,
+    "extracted_pages": [
+      1
+    ],
+    "status": "in_progress"
+  },
+  "Pathfinder-Truncated.pdf": {
+    "total_pages": 999,
+    "extracted_pages": [],
+    "status": "in_progress"
+  },
+  "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf": {
+    "total_pages": 1297,
+    "extracted_pages": [
+      1
+    ],
+    "status": "in_progress"
+  },
+  "nda_material.pdf": {
+    "total_pages": 1314,
+    "extracted_pages": [
+      1
+    ],
+    "status": "in_progress"
+  },
+  "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf": {
+    "total_pages": 1377,
+    "extracted_pages": [
+      1
+    ],
+    "status": "in_progress"
+  }
+}

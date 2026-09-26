@@ -7266,9 +7266,9 @@ Step 6: Outline or recommend diagrammatic elements (timelines, flowcharts, conce
 
 Step 7: Reference related concepts (e.g. [[Federalism]], [[Parliament]]) using Wikipedia double brackets.
 
-Step 8: Generate 3 practice MCQs/Scenario-based questions with answers and detailed reasoning to check understanding.
+Step 8: Generate 3 practice MCQs/Scenario-based questions with answers and detailed reasoning to check understanding. Include at least one statement-based question (e.g. "Consider the following statements... Which is/are correct?").
 
-
+- SPECIAL RULE FOR STATEMENT-BASED QUESTIONS: If the user's doubt is a statement-based question (e.g. with multiple statements I, II, III), you must systematically evaluate each statement individually, explicitly state whether each is true or false with specific reasoning, and only then derive the final correct option.
 
 - SOURCE INTEGRITY: Prioritize official, primary information (PIB, MoD, Supreme Court, Gazette of India, RBI, NITI Aayog, DRDO, ISRO, UN, etc.) over secondary coaching summaries.
 
@@ -7286,7 +7286,7 @@ Doubt to solve: ${text}`;
 
   try {
 
-    const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+    const modelsToTry = ["gemini-3.1-flash-lite", "gemini-1.5-flash", "gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-pro"];
 
     let success = false;
 
@@ -7334,11 +7334,14 @@ Doubt to solve: ${text}`;
 
           if (resData.candidates && resData.candidates[0] && resData.candidates[0].content && resData.candidates[0].content.parts[0]) {
 
-            replyText = resData.candidates[0].content.parts[0].text;
-
-            success = true;
-
-            break;
+            const text = resData.candidates[0].content.parts[0].text;
+            if (text.includes('Dedicated AI Service Unavailable') || text.includes('experiencing heavy load')) {
+              success = false;
+            } else {
+              replyText = text;
+              success = true;
+              break;
+            }
 
           }
 

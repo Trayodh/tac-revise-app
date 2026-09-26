@@ -108,14 +108,19 @@ client = OpenAI(
     api_key=os.environ.get("OPENROUTER_API_KEY"),
 )
 
+groq_client = OpenAI(
+    base_url="https://api.groq.com/openai/v1",
+    api_key=os.environ.get("GROQ_API_KEY"),
+)
+
 def extract_from_image(b64_img, prompt):
     max_retries = 3
     base_delay = 30
 
     models = [
-        {"provider": "openrouter", "model": "openai/gpt-4o"},
-        {"provider": "openrouter", "model": "anthropic/claude-3.5-sonnet"},
-        {"provider": "openrouter", "model": "google/gemini-1.5-pro"},
+        {"provider": "openrouter", "model": "qwen/qwen3.8-27b:free"},
+        {"provider": "openrouter", "model": "inclusionai/ling-3.0-flash-vl:free"},
+        {"provider": "openrouter", "model": "openrouter/free"},
         {"provider": "native_gemini", "model": "gemini-1.5-flash"}
     ]
 
@@ -139,6 +144,13 @@ def extract_from_image(b64_img, prompt):
             try:
                 if provider == "openrouter":
                     response = client.chat.completions.create(
+                        model=model_name,
+                        messages=[{"role": "user", "content": content}],
+                        temperature=0.1
+                    )
+                    raw_text = response.choices[0].message.content.strip()
+                elif provider == "groq":
+                    response = groq_client.chat.completions.create(
                         model=model_name,
                         messages=[{"role": "user", "content": content}],
                         temperature=0.1
@@ -225,8 +237,13 @@ def main():
         result = extract_from_image(b64_img, MASTER_PROMPT)
         
         if result:
-            notes = result.get("notes_database", [])
-            questions = result.get("question_database", [])
+            if isinstance(result, list):
+                # Sometimes the AI ignores the wrapper object and just returns a list of notes
+                notes = result
+                questions = []
+            else:
+                notes = result.get("notes_database", [])
+                questions = result.get("question_database", [])
             
             print(f"Extracted {len(notes)} notes and {len(questions)} questions.")
 

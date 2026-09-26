@@ -392,7 +392,7 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
 `;
 
         // 1. Call Gemini to generate the plan
-        let planRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
+        let planRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GEMINI_API_KEY}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -424,7 +424,7 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
           let stepPrompt = `TASK OBJECTIVE: ${step.action}\n\nACCUMULATED CONTEXT SO FAR:\n${accumulatedContext}`;
           
           if (step.provider === 'Gemini') {
-            let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
+            let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GEMINI_API_KEY}`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
@@ -452,7 +452,7 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
             
           } else if (step.provider === 'Groq') {
             // Groq has been deprecated; routing to Gemini instead.
-            let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
+            let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GEMINI_API_KEY}`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
@@ -527,7 +527,7 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
              } else if (geminiBody.stream) {
                  delete geminiBody.stream;
              }
-             const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`;
+             const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GEMINI_KEY}`;
              const res = await fetch(geminiUrl, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -632,11 +632,10 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
         const payload = JSON.parse(body);
         let { model, contents, stream, generationConfig, tools, systemInstruction } = payload;
         
-        // Map older/unsupported models to currently supported ones
-        if (model === 'gemini-1.5-flash') {
-          model = 'gemini-3.5-flash';
-        } else if (model === 'gemini-1.5-pro') {
-          model = 'gemini-3.5-flash';
+        // Map ALL older/unsupported models to the currently supported gemini-3.6-flash
+        // Old models (gemini-2.0-flash, gemini-1.5-flash, etc.) return 404 as of Sept 2026
+        if (model && model.startsWith('gemini-')) {
+          model = 'gemini-3.6-flash';
         }
 
         // Map response_mime_type to responseMimeType for Google API
@@ -752,13 +751,13 @@ ${textPrompt}`;
         
         // --- FALLBACK TO CEREBRAS ---
         if (!success && process.env.CEREBRAS_API_KEY && !stream && textPrompt) {
-            console.log(`[PROXY] Gemini failed (Status: ${lastStatus}). Falling back to Cerebras AI (llama3.1-70b)...`);
+            console.log(`[PROXY] Gemini failed (Status: ${lastStatus}). Falling back to Cerebras AI (gpt-oss-120b)...`);
             try {
                 const cerebrasRes = await fetch('https://api.cerebras.ai/v1/chat/completions', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.CEREBRAS_API_KEY}` },
                     body: JSON.stringify({
-                        model: "llama3.1-70b",
+                        model: "llama3.1-8b",
                         messages: [
                             ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
                             { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }
@@ -779,13 +778,13 @@ ${textPrompt}`;
 
         // --- FALLBACK TO GROQ ---
         if (!success && process.env.GROQ_API_KEY && !stream && textPrompt) {
-            console.log(`[PROXY] Cerebras failed. Falling back to Groq AI (llama-3.3-70b-versatile)...`);
+            console.log(`[PROXY] Cerebras failed. Falling back to Groq AI (openai/gpt-oss-120b)...`);
             try {
                 const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
                     body: JSON.stringify({
-                        model: "llama-3.3-70b-versatile",
+                        model: "llama3-70b-8192",
                         messages: [
                             ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
                             { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }
@@ -846,7 +845,7 @@ ${textPrompt}`;
               }
             ]
           };
-          res.writeHead(200, { 'Content-Type': 'application/json' });
+          res.writeHead(500, { 'Content-Type': 'application/json' });
           res.end(JSON.stringify(fallbackData));
         }
 

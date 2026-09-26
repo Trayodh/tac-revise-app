@@ -1,0 +1,5680 @@
+{
+  "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf": {
+    "type": "native_toc",
+    "content": [
+      {
+        "level": 1,
+        "title": "Cover",
+        "page": 1
+      },
+      {
+        "level": 1,
+        "title": "Title",
+        "page": 2
+      },
+      {
+        "level": 1,
+        "title": "Copyright",
+        "page": 3
+      },
+      {
+        "level": 1,
+        "title": "Contents",
+        "page": 4
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2021 (II)",
+        "page": 6
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2021 (I)",
+        "page": 47
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2020 (II)",
+        "page": 90
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2020 (I)",
+        "page": 127
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2019 (II)",
+        "page": 166
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2019 (I)",
+        "page": 206
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2018 (II)",
+        "page": 248
+      },
+      {
+        "level": 1,
+        "title": "MATHEMATICS",
+        "page": 286
+      },
+      {
+        "level": 1,
+        "title": "GENERAL ENGLISH",
+        "page": 670
+      },
+      {
+        "level": 1,
+        "title": "GENERAL SCIENCE",
+        "page": 862
+      },
+      {
+        "level": 2,
+        "title": "Physics",
+        "page": 864
+      },
+      {
+        "level": 2,
+        "title": "Chemistry",
+        "page": 917
+      },
+      {
+        "level": 2,
+        "title": "Biology",
+        "page": 967
+      },
+      {
+        "level": 1,
+        "title": "GENERAL STUDIES",
+        "page": 1036
+      },
+      {
+        "level": 2,
+        "title": "History",
+        "page": 1038
+      },
+      {
+        "level": 2,
+        "title": "Geography",
+        "page": 1138
+      },
+      {
+        "level": 2,
+        "title": "Indian Polity",
+        "page": 1232
+      },
+      {
+        "level": 2,
+        "title": "Indian Economy",
+        "page": 1291
+      },
+      {
+        "level": 2,
+        "title": "General Knowledge",
+        "page": 1335
+      }
+    ]
+  },
+  "6f6f4af2-763d-44c4-93af-0dbb0bc0dbca.pdf": {
+    "type": "error",
+    "content": "Could not extract text."
+  },
+  "afcat_reasoning_notes.pdf": {
+    "type": "native_toc",
+    "content": [
+      {
+        "level": 1,
+        "title": "Cover",
+        "page": 1
+      },
+      {
+        "level": 1,
+        "title": "Title page",
+        "page": 3
+      },
+      {
+        "level": 1,
+        "title": "Copyright page",
+        "page": 4
+      },
+      {
+        "level": 1,
+        "title": "CONTENTS",
+        "page": 5
+      },
+      {
+        "level": 1,
+        "title": "AFCAT ANALYSIS",
+        "page": 10
+      },
+      {
+        "level": 1,
+        "title": "Solved papers",
+        "page": 12
+      },
+      {
+        "level": 1,
+        "title": "SECTION 1",
+        "page": 52
+      },
+      {
+        "level": 1,
+        "title": "SECTION 2",
+        "page": 158
+      },
+      {
+        "level": 1,
+        "title": "SECTION 3",
+        "page": 270
+      },
+      {
+        "level": 1,
+        "title": "SECTION 4",
+        "page": 368
+      },
+      {
+        "level": 1,
+        "title": "Practice Set -1",
+        "page": 490
+      },
+      {
+        "level": 1,
+        "title": "Practice Set -2",
+        "page": 499
+      },
+      {
+        "level": 1,
+        "title": "Practice Set -3",
+        "page": 508
+      }
+    ]
+  },
+  "Ancient history capsule_compressed.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 57.21261366s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}"
+  },
+  "Biology class notes_compressed.pdf": {
+    "type": "error",
+    "content": "Could not extract text."
+  },
+  "cds_material.pdf": {
+    "type": "native_toc",
+    "content": [
+      {
+        "level": 1,
+        "title": "Cover",
+        "page": 1
+      },
+      {
+        "level": 1,
+        "title": "Title",
+        "page": 2
+      },
+      {
+        "level": 1,
+        "title": "Copyright",
+        "page": 3
+      },
+      {
+        "level": 1,
+        "title": "Contents",
+        "page": 4
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2021 (II)",
+        "page": 6
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2021 (I)",
+        "page": 47
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2020 (II)",
+        "page": 90
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2020 (I)",
+        "page": 127
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2019 (II)",
+        "page": 166
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2019 (I)",
+        "page": 206
+      },
+      {
+        "level": 1,
+        "title": "Solved Paper-2018 (II)",
+        "page": 248
+      },
+      {
+        "level": 1,
+        "title": "MATHEMATICS",
+        "page": 286
+      },
+      {
+        "level": 1,
+        "title": "GENERAL ENGLISH",
+        "page": 670
+      },
+      {
+        "level": 1,
+        "title": "GENERAL SCIENCE",
+        "page": 862
+      },
+      {
+        "level": 2,
+        "title": "Physics",
+        "page": 864
+      },
+      {
+        "level": 2,
+        "title": "Chemistry",
+        "page": 917
+      },
+      {
+        "level": 2,
+        "title": "Biology",
+        "page": 967
+      },
+      {
+        "level": 1,
+        "title": "GENERAL STUDIES",
+        "page": 1036
+      },
+      {
+        "level": 2,
+        "title": "History",
+        "page": 1038
+      },
+      {
+        "level": 2,
+        "title": "Geography",
+        "page": 1138
+      },
+      {
+        "level": 2,
+        "title": "Indian Polity",
+        "page": 1232
+      },
+      {
+        "level": 2,
+        "title": "Indian Economy",
+        "page": 1291
+      },
+      {
+        "level": 2,
+        "title": "General Knowledge",
+        "page": 1335
+      }
+    ]
+  },
+  "cds_material_part1.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 56.176087629s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}"
+  },
+  "cds_material_part2.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 55.616621685s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}"
+  },
+  "Chemistry class Notes_compressed.pdf": {
+    "type": "error",
+    "content": "Could not extract text."
+  },
+  "chunk_80_119.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 54.863797126s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}"
+  },
+  "defence_pdf.pdf": {
+    "type": "native_toc",
+    "content": [
+      {
+        "level": 1,
+        "title": "DEFENCE",
+        "page": 1
+      },
+      {
+        "level": 1,
+        "title": "NEWS",
+        "page": 1
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 2
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 2
+      },
+      {
+        "level": 1,
+        "title": "9198151228",
+        "page": 2
+      },
+      {
+        "level": 2,
+        "title": "PLACES IN NEWS",
+        "page": 3
+      },
+      {
+        "level": 1,
+        "title": "Strait of Hormuz",
+        "page": 3
+      },
+      {
+        "level": 1,
+        "title": "UNITED NATIONS DAG HAMMARSKJOLD MEDAL",
+        "page": 4
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 4
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 4
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 4
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 5
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 5
+      },
+      {
+        "level": 1,
+        "title": "9198151228",
+        "page": 5
+      },
+      {
+        "level": 1,
+        "title": "2025 UN MILITARY GENDER ADVOCATE OF THE YEAR AWARD",
+        "page": 6
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 6
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 6
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 6
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ BASED",
+        "page": 7
+      },
+      {
+        "level": 2,
+        "title": "Consider the following statements regarding Major Abhilasha Barak: 1. She has been named the recipient of the 2025 United Nations Military Gender Advocate of the Year Award. 2. She is the first woman combat helicopter pilot of the Indian Army. 3. She is the second Indian peacekeeper to receive this prestigious award, following Major Radhika Sen.",
+        "page": 7
+      },
+      {
+        "level": 2,
+        "title": "Which of the statements given above are correct?",
+        "page": 7
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 7
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 7
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 7
+      },
+      {
+        "level": 1,
+        "title": "Gallantry awards",
+        "page": 8
+      },
+      {
+        "level": 1,
+        "title": "PARAM VIR CHAKRA",
+        "page": 9
+      },
+      {
+        "level": 2,
+        "title": "The Param Vir Chakra is India\u2019s highest military honor, awarded for displaying extraordinary bravery in the presence of the enemy.",
+        "page": 9
+      },
+      {
+        "level": 2,
+        "title": "It was established on January 26, 1950, and is awarded to personnel of all branches of the Indian Armed Forces.",
+        "page": 9
+      },
+      {
+        "level": 2,
+        "title": "The medal is made of bronze and bears the Indian national emblem surrounded by four replicas of Indra\u2019s Vajra.",
+        "page": 9
+      },
+      {
+        "level": 1,
+        "title": "Gallantry Awards",
+        "page": 10
+      },
+      {
+        "level": 2,
+        "title": "Maha Vir Chakra",
+        "page": 10
+      },
+      {
+        "level": 3,
+        "title": "Second-highest gallantry award for exceptional bravery in the face of the enemy.",
+        "page": 10
+      },
+      {
+        "level": 2,
+        "title": "Vir Chakra",
+        "page": 10
+      },
+      {
+        "level": 3,
+        "title": "Third-highest wartime gallantry award for acts of courage during combat.",
+        "page": 10
+      },
+      {
+        "level": 1,
+        "title": "Gallantry Awards",
+        "page": 11
+      },
+      {
+        "level": 2,
+        "title": "Ashok Chakra",
+        "page": 11
+      },
+      {
+        "level": 3,
+        "title": "Highest peacetime gallantry award for bravery away from the battlefield.",
+        "page": 11
+      },
+      {
+        "level": 2,
+        "title": "Vir Chakra",
+        "page": 11
+      },
+      {
+        "level": 3,
+        "title": "Second-highest peacetime gallantry award for courageous actions not in war.",
+        "page": 11
+      },
+      {
+        "level": 1,
+        "title": "Gallantry Awards",
+        "page": 12
+      },
+      {
+        "level": 2,
+        "title": "Shaurya Chakra",
+        "page": 12
+      },
+      {
+        "level": 3,
+        "title": "Third-highest peacetime gallantry award for bravery, often in counter-terror or rescue operations.",
+        "page": 12
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ BASED",
+        "page": 13
+      },
+      {
+        "level": 2,
+        "title": "Consider the following sentences  1. Captain Vikram Batra, hero of Operation Vijay during the Kargil conflict, was posthumously awarded PVC gallantry award for extraordinary bravery. 2. Company Havildar Major Piru Singh Shekhawat was the first person from Rajasthan to be honored with the Param Vir Chakra, India's highest military decoration. 3. The Param Vir Chakra, Ashoka Chakra, and Vir Chakra, which are among India's highest military honours, are usually presented during the Republic Day celebrations.",
+        "page": 13
+      },
+      {
+        "level": 2,
+        "title": "Which of the following is/are correct?",
+        "page": 13
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 13
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 13
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 13
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ BASED",
+        "page": 14
+      },
+      {
+        "level": 2,
+        "title": "Consider the following sentences. 1. Shubhanshu Shukla was awarded the Ashoka Chakra.    2. Arshdeep Singh was honored with the Kirti Chakra. The Kirti Chakra is the second-highest peacetime gallantry award, awarded for conspicuous bravery or self-sacrifice. 3. Dilna K received the Shaurya Chakra. The Shaurya Chakra is the third-highest peacetime gallantry medal. 4. Aditya Shrikumar was awarded the Sena Medal (Gallantry), which is a decoration awarded to members of the Indian Army for acts of exceptional bravery in the field.",
+        "page": 14
+      },
+      {
+        "level": 2,
+        "title": "Which of the following sentences is/are correct?",
+        "page": 14
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 14
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 14
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 14
+      },
+      {
+        "level": 1,
+        "title": "EXERCISE SEA DRAGON 2026",
+        "page": 15
+      },
+      {
+        "level": 1,
+        "title": "EXERCISE VAYUSHAKTI-26",
+        "page": 16
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 16
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 16
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 16
+      },
+      {
+        "level": 1,
+        "title": "EXERCISE PRAGATI",
+        "page": 17
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 17
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 17
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 17
+      },
+      {
+        "level": 1,
+        "title": "EXERCISE AMOGH JWALA",
+        "page": 18
+      },
+      {
+        "level": 1,
+        "title": "IONS MARITIME EXERCISE (IMEX) TTX 2026",
+        "page": 19
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 19
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 19
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 19
+      },
+      {
+        "level": 1,
+        "title": "EXERCISE VAJRA PRAHAR",
+        "page": 20
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 20
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 20
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 20
+      },
+      {
+        "level": 1,
+        "title": "MILAN 2026 NAVAL EXERCISE",
+        "page": 21
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 21
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 21
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 21
+      },
+      {
+        "level": 1,
+        "title": "EXERCISE PITCH BLACK 2026",
+        "page": 22
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 22
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 22
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 22
+      },
+      {
+        "level": 1,
+        "title": "EXERCISE DUSTLIK",
+        "page": 23
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 23
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 23
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 23
+      },
+      {
+        "level": 1,
+        "title": "EXERCISE 'DHARMA GUARDIAN'",
+        "page": 24
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 24
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 24
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 24
+      },
+      {
+        "level": 1,
+        "title": "EXERCISE CYCLONE-IV",
+        "page": 25
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 25
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 25
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 25
+      },
+      {
+        "level": 1,
+        "title": "EXERCISE KHANJAR",
+        "page": 26
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 26
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 26
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 26
+      },
+      {
+        "level": 1,
+        "title": "IN-SLN DIVEX 2026",
+        "page": 27
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 27
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 27
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 27
+      },
+      {
+        "level": 1,
+        "title": "LAMITIYE-2026",
+        "page": 28
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 28
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 28
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 28
+      },
+      {
+        "level": 1,
+        "title": "EXERCISES",
+        "page": 29
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE DHARMA GUARDIAN (iNDIA AND jAPAN)",
+        "page": 29
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE SURYA KIRAN INDIA AND NEPAL",
+        "page": 29
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE KHAAN QUEST MULTINATIONAL EXERCISE",
+        "page": 29
+      },
+      {
+        "level": 1,
+        "title": "EXERCISES",
+        "page": 30
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE TIGER TRIUMPH INDIA-USA",
+        "page": 30
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE MITRA SHAKTI INDIA-SRILANKA",
+        "page": 30
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE SAMUDRA LAKSHMAN INDIA-MALAYSIA",
+        "page": 30
+      },
+      {
+        "level": 1,
+        "title": "EXERCISES",
+        "page": 31
+      },
+      {
+        "level": 2,
+        "title": "BOLD KURUKSHETRA INDIA-SINGAPORE",
+        "page": 31
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE AL NAGAH INDIA-OMAN",
+        "page": 31
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE SHAKTI INDIA-FRANCE",
+        "page": 31
+      },
+      {
+        "level": 1,
+        "title": "EXERCISES",
+        "page": 32
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE DESERT CYCLONE INDIA-UAE",
+        "page": 32
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE KHANJAR INDIA-KRGYZSTAN",
+        "page": 32
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE SADA TANSEEQ INDIA-SOUDI ARABIA",
+        "page": 32
+      },
+      {
+        "level": 1,
+        "title": "EXERCISES",
+        "page": 33
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE VINBAX (INDIA-VIETNAM)",
+        "page": 33
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE AYUTTHAYA INDIA-THAILAND",
+        "page": 33
+      },
+      {
+        "level": 2,
+        "title": "EXERCISE DOSTI INDIA-MALDIVES-SRILANKA",
+        "page": 33
+      },
+      {
+        "level": 1,
+        "title": "INS TRIKAND",
+        "page": 37
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 37
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 37
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 37
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 38
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 38
+      },
+      {
+        "level": 1,
+        "title": "9198151228",
+        "page": 38
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 39
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 39
+      },
+      {
+        "level": 1,
+        "title": "9198151228",
+        "page": 39
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 40
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 40
+      },
+      {
+        "level": 1,
+        "title": "9198151228",
+        "page": 40
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 41
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 41
+      },
+      {
+        "level": 1,
+        "title": "9198151228",
+        "page": 41
+      },
+      {
+        "level": 1,
+        "title": "INS TRIKAND",
+        "page": 42
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 42
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 42
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 42
+      },
+      {
+        "level": 1,
+        "title": "INS SHARDA",
+        "page": 43
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 43
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 43
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 43
+      },
+      {
+        "level": 1,
+        "title": "INS SAGARDHWANI",
+        "page": 44
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 44
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 44
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 44
+      },
+      {
+        "level": 1,
+        "title": "INS SUNAYNA",
+        "page": 45
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 45
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 45
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 45
+      },
+      {
+        "level": 1,
+        "title": "INS SUDARSHINI",
+        "page": 46
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 46
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 46
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 46
+      },
+      {
+        "level": 1,
+        "title": "INS SUDARSHINI",
+        "page": 47
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 47
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 47
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 47
+      },
+      {
+        "level": 1,
+        "title": "TARKASH AND IKSHAK",
+        "page": 48
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 48
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 48
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 48
+      },
+      {
+        "level": 1,
+        "title": "INS UDAYGIRI AND INS KAVARATTI",
+        "page": 49
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 49
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 49
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 49
+      },
+      {
+        "level": 1,
+        "title": "INS TARKASH",
+        "page": 50
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 50
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 50
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 50
+      },
+      {
+        "level": 1,
+        "title": "INS AGRAY, INS DUNAGIRI, AND INS SANSHODHAK",
+        "page": 51
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 51
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 51
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 51
+      },
+      {
+        "level": 1,
+        "title": "MAHENDRAGIRI",
+        "page": 52
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 52
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 52
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 52
+      },
+      {
+        "level": 1,
+        "title": "INS ARIDHAMAN",
+        "page": 53
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 53
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 53
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 53
+      },
+      {
+        "level": 1,
+        "title": "INS NIREEKSHAK",
+        "page": 54
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 54
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 54
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 54
+      },
+      {
+        "level": 1,
+        "title": "INS MALWAN",
+        "page": 55
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 55
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 55
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 55
+      },
+      {
+        "level": 1,
+        "title": "INS TARAGIRI",
+        "page": 56
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 56
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 56
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 56
+      },
+      {
+        "level": 1,
+        "title": "INS DUNAGIRI",
+        "page": 57
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 57
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 57
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 57
+      },
+      {
+        "level": 1,
+        "title": "INS KALPENI",
+        "page": 58
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 58
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 58
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 58
+      },
+      {
+        "level": 1,
+        "title": "ICGS AKSHAY",
+        "page": 59
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 59
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 59
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 59
+      },
+      {
+        "level": 1,
+        "title": "SANSHODHAK",
+        "page": 60
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 60
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 60
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 60
+      },
+      {
+        "level": 1,
+        "title": "ANJADIP",
+        "page": 61
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 61
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 61
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 61
+      },
+      {
+        "level": 1,
+        "title": "SANGHMITRA",
+        "page": 62
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 62
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 62
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 62
+      },
+      {
+        "level": 1,
+        "title": "PROJECT 75 - SUBMARINES (KALVARI CLASS)",
+        "page": 63
+      },
+      {
+        "level": 2,
+        "title": "ins kalvari",
+        "page": 63
+      },
+      {
+        "level": 2,
+        "title": "ins khanderi",
+        "page": 63
+      },
+      {
+        "level": 1,
+        "title": "PROJECT 75 - SUBMARINES (KALVARI CLASS)",
+        "page": 64
+      },
+      {
+        "level": 2,
+        "title": "ins karanj",
+        "page": 64
+      },
+      {
+        "level": 2,
+        "title": "ins vela",
+        "page": 64
+      },
+      {
+        "level": 1,
+        "title": "PROJECT 75 - SUBMARINES (KALVARI CLASS)",
+        "page": 65
+      },
+      {
+        "level": 2,
+        "title": "ins vagir",
+        "page": 65
+      },
+      {
+        "level": 2,
+        "title": "ins vagsheer",
+        "page": 65
+      },
+      {
+        "level": 1,
+        "title": "PROJECT 17 A - FRIGATES (NILGIRI CLASS)",
+        "page": 66
+      },
+      {
+        "level": 2,
+        "title": "ins nilgiri",
+        "page": 66
+      },
+      {
+        "level": 2,
+        "title": "ins udaygiri",
+        "page": 66
+      },
+      {
+        "level": 1,
+        "title": "PROJECT 17 A - FRIGATES (NILGIRI CLASS)",
+        "page": 67
+      },
+      {
+        "level": 2,
+        "title": "ins taragiri",
+        "page": 67
+      },
+      {
+        "level": 2,
+        "title": "ins mahendragiri",
+        "page": 67
+      },
+      {
+        "level": 1,
+        "title": "PROJECT 17 A - FRIGATES (NILGIRI CLASS)",
+        "page": 68
+      },
+      {
+        "level": 2,
+        "title": "ins himgiri",
+        "page": 68
+      },
+      {
+        "level": 2,
+        "title": "ins dunagiri",
+        "page": 68
+      },
+      {
+        "level": 1,
+        "title": "PROJECT 17 A - FRIGATES (NILGIRI CLASS)",
+        "page": 69
+      },
+      {
+        "level": 2,
+        "title": "ins vindhyagiri",
+        "page": 69
+      },
+      {
+        "level": 1,
+        "title": "PROJECT 15 B - DESTROYERS (VISHAKHAPATANAM CLASS)",
+        "page": 70
+      },
+      {
+        "level": 2,
+        "title": "ins vishakhapatnam",
+        "page": 70
+      },
+      {
+        "level": 2,
+        "title": "ins maramugao",
+        "page": 70
+      },
+      {
+        "level": 1,
+        "title": "PROJECT 15 B - DESTROYERS (VISHAKHAPATANAM CLASS)",
+        "page": 71
+      },
+      {
+        "level": 2,
+        "title": "ins imphal",
+        "page": 71
+      },
+      {
+        "level": 2,
+        "title": "ins surat",
+        "page": 71
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ 2026",
+        "page": 72
+      },
+      {
+        "level": 2,
+        "title": "In the context of India\u2019s maritime capability development, consider the following statements regarding Indian Coast Guard Ship (ICGS) Samudra Pratap.",
+        "page": 72
+      },
+      {
+        "level": 2,
+        "title": "1. ICGS Samudra Pratap is India\u2019s first indigenously designed pollution control vessel, with more than 60% indigenous content. 2. It is the largest ship in the Indian Coast Guard fleet and was built by Goa Shipyard Limited.",
+        "page": 72
+      },
+      {
+        "level": 2,
+        "title": "Which of the statements given above is/are correct?",
+        "page": 72
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 72
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 72
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 72
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ BASED",
+        "page": 73
+      },
+      {
+        "level": 2,
+        "title": "In the context of India\u2019s maritime capability development, consider the following statements regarding INS Malwan:",
+        "page": 73
+      },
+      {
+        "level": 2,
+        "title": "Which of the statements given above is/are correct?",
+        "page": 73
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 73
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 73
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 73
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ BASED",
+        "page": 77
+      },
+      {
+        "level": 2,
+        "title": "Q 5. Consider the following pairs:     Naval Vessel                                                                              Specialisation 1.INS Agray                                                                          Anti-submarine warfare                                                                    2.INS Dunagiri                                                                    Advanced stealth frigate 3.INS Sanshodhak                                                             Hydrographic survey vessel",
+        "page": 77
+      },
+      {
+        "level": 2,
+        "title": "How many of the above pairs are correctly matched?",
+        "page": 77
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 77
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 77
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 77
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ BASED",
+        "page": 78
+      },
+      {
+        "level": 2,
+        "title": "Consider the following statements:",
+        "page": 78
+      },
+      {
+        "level": 2,
+        "title": "Based on the given information which of the following option is correct about Indian naval vessel?",
+        "page": 78
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 78
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 78
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 78
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ BASED",
+        "page": 79
+      },
+      {
+        "level": 2,
+        "title": "Which two Indian Navy vessels recently concluded their port call in Vietnam as part of India's operational deployment in the Southeast Asia region?",
+        "page": 79
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 79
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 79
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 79
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ BASED",
+        "page": 80
+      },
+      {
+        "level": 2,
+        "title": "In the context of India's maritime engagements, consider the following statements regarding INS Trikand:",
+        "page": 80
+      },
+      {
+        "level": 2,
+        "title": "Which of the statements given above is/are correct?",
+        "page": 80
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 80
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 80
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 80
+      },
+      {
+        "level": 1,
+        "title": "RUDRAM-II",
+        "page": 81
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 81
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 81
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 81
+      },
+      {
+        "level": 1,
+        "title": "PINAKA LONG RANGE GUIDED ROCKET (LRGR)",
+        "page": 82
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 82
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 82
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 82
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 83
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 83
+      },
+      {
+        "level": 1,
+        "title": "9198151228",
+        "page": 83
+      },
+      {
+        "level": 1,
+        "title": "INTEGRATED GUIDED MISSILE DEVELOPMENT PROGRAMME",
+        "page": 84
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 84
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 84
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 84
+      },
+      {
+        "level": 2,
+        "title": "IGMDP (5 missiles, 1983, led by Dr. Kalam, completed 2008).",
+        "page": 85
+      },
+      {
+        "level": 2,
+        "title": "Missiles Developed:",
+        "page": 85
+      },
+      {
+        "level": 2,
+        "title": "Prithvi \u2013 Short-range (150\u2013600 km) surface-to-surface ballistic missile.",
+        "page": 85
+      },
+      {
+        "level": 2,
+        "title": "Agni \u2013 Initially tech demonstrator \u2192 now family of ballistic missiles (Agni-I to Agni-V).",
+        "page": 85
+      },
+      {
+        "level": 2,
+        "title": "Trishul \u2013 Short-range surface-to-air missile.",
+        "page": 85
+      },
+      {
+        "level": 2,
+        "title": "Nag \u2013 3rd generation anti-tank guided missile.",
+        "page": 85
+      },
+      {
+        "level": 2,
+        "title": "Akash \u2013 Medium-range surface-to-air missile.",
+        "page": 85
+      },
+      {
+        "level": 1,
+        "title": "Integrated Guided Missile Development Programme",
+        "page": 85
+      },
+      {
+        "level": 1,
+        "title": "CRUISE MISSILES VS BALLISTIC MISSILES",
+        "page": 86
+      },
+      {
+        "level": 1,
+        "title": "CRUISE MISSILES",
+        "page": 87
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 87
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 87
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 87
+      },
+      {
+        "level": 1,
+        "title": "CRUISE MISSILE",
+        "page": 88
+      },
+      {
+        "level": 2,
+        "title": "bramhos II hypersonic",
+        "page": 88
+      },
+      {
+        "level": 2,
+        "title": "nirbhay-subsonic land attack",
+        "page": 88
+      },
+      {
+        "level": 1,
+        "title": "BALLISTIC MISSILES",
+        "page": 89
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 89
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 89
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 89
+      },
+      {
+        "level": 1,
+        "title": "SUBSONIC MISSILES",
+        "page": 90
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 90
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 90
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 90
+      },
+      {
+        "level": 1,
+        "title": "SUPERSONIC MISSILES",
+        "page": 91
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 91
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 91
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 91
+      },
+      {
+        "level": 1,
+        "title": "HYPERSONIC MISSILES",
+        "page": 92
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 92
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 92
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 92
+      },
+      {
+        "level": 1,
+        "title": "SURFACE TO AIR MISSILES",
+        "page": 93
+      },
+      {
+        "level": 2,
+        "title": "trishul",
+        "page": 93
+      },
+      {
+        "level": 2,
+        "title": "akash",
+        "page": 93
+      },
+      {
+        "level": 2,
+        "title": "barak",
+        "page": 93
+      },
+      {
+        "level": 1,
+        "title": "SURFACE TO AIR MISSILES",
+        "page": 94
+      },
+      {
+        "level": 2,
+        "title": "agni",
+        "page": 94
+      },
+      {
+        "level": 2,
+        "title": "prithvi",
+        "page": 94
+      },
+      {
+        "level": 2,
+        "title": "prahaar",
+        "page": 94
+      },
+      {
+        "level": 1,
+        "title": "AIR TO SURFACE MISSILES",
+        "page": 95
+      },
+      {
+        "level": 2,
+        "title": "rudram",
+        "page": 95
+      },
+      {
+        "level": 2,
+        "title": "rampage",
+        "page": 95
+      },
+      {
+        "level": 1,
+        "title": "AIR TO AIR MISSILES",
+        "page": 96
+      },
+      {
+        "level": 2,
+        "title": "astra",
+        "page": 96
+      },
+      {
+        "level": 2,
+        "title": "python",
+        "page": 96
+      },
+      {
+        "level": 2,
+        "title": "mica",
+        "page": 96
+      },
+      {
+        "level": 1,
+        "title": "ANTI TANK GUIDED MISSILE",
+        "page": 97
+      },
+      {
+        "level": 2,
+        "title": "amogha",
+        "page": 97
+      },
+      {
+        "level": 2,
+        "title": "nag",
+        "page": 97
+      },
+      {
+        "level": 1,
+        "title": "ANTI TANK GUIDED MISSILE",
+        "page": 98
+      },
+      {
+        "level": 2,
+        "title": "helina",
+        "page": 98
+      },
+      {
+        "level": 2,
+        "title": "samho",
+        "page": 98
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ BASED",
+        "page": 99
+      },
+      {
+        "level": 2,
+        "title": "Consider the following sentences  1. The Aeronautical Development Establishment (ADE), located in Bengaluru, is the Nodal Laboratory for the LRLACM project. 2. The missile is an indigenously developed system where all sub-systems have been created by various DRDO laboratories and Indian Industry partners. 3. The flight-test was conducted to verify that all test objectives were met, which was confirmed by data from tracking instruments at the Integrated Test Range (ITR), Andhra Pradesh.",
+        "page": 99
+      },
+      {
+        "level": 2,
+        "title": "Which of the following is/are correct?",
+        "page": 99
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 99
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 99
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 99
+      },
+      {
+        "level": 1,
+        "title": "MAJOR DEFENCE PUBLIC SECTOR UNDERTAKINGS (PSUS) OF INDIA",
+        "page": 100
+      },
+      {
+        "level": 1,
+        "title": "THE DEFENCE MINISTRY 5 DEPARTMENTS",
+        "page": 101
+      },
+      {
+        "level": 2,
+        "title": "DEPARTMENT OF DEFENCE",
+        "page": 101
+      },
+      {
+        "level": 2,
+        "title": "DEPARTMENT OF DEFENCE PRODUCTION",
+        "page": 101
+      },
+      {
+        "level": 3,
+        "title": "Department of Ex-Servicemen Welfare (DESW)",
+        "page": 101
+      },
+      {
+        "level": 1,
+        "title": "THE DEFENCE MINISTRY 5 DEPARTMENTS",
+        "page": 102
+      },
+      {
+        "level": 2,
+        "title": "Department of Military Affairs (DMA)",
+        "page": 102
+      },
+      {
+        "level": 2,
+        "title": "DEFENCE RESEARCH AND DEVELOPMENT ORGANISATION",
+        "page": 102
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 103
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 103
+      },
+      {
+        "level": 1,
+        "title": "9198151228",
+        "page": 103
+      },
+      {
+        "level": 1,
+        "title": "INTELLIGENCE AGENCIES",
+        "page": 104
+      },
+      {
+        "level": 2,
+        "title": "RAW",
+        "page": 104
+      },
+      {
+        "level": 2,
+        "title": "ISI",
+        "page": 104
+      },
+      {
+        "level": 2,
+        "title": "MI6",
+        "page": 104
+      },
+      {
+        "level": 2,
+        "title": "CIA",
+        "page": 104
+      },
+      {
+        "level": 2,
+        "title": "KGB",
+        "page": 104
+      },
+      {
+        "level": 1,
+        "title": "COMMANDS OF INDIAN ARMY",
+        "page": 105
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 105
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 105
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 105
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT INDIAN ARMY CHIEFS",
+        "page": 106
+      },
+      {
+        "level": 1,
+        "title": "SAM MANEKSHAW",
+        "page": 107
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 107
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 107
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 107
+      },
+      {
+        "level": 1,
+        "title": "SAM MANEKSHAW",
+        "page": 108
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 108
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 108
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 108
+      },
+      {
+        "level": 1,
+        "title": "K. M. CARIAPPA",
+        "page": 109
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 109
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 109
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 109
+      },
+      {
+        "level": 1,
+        "title": "K. M. CARIAPPA",
+        "page": 110
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 110
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 110
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 110
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ",
+        "page": 111
+      },
+      {
+        "level": 2,
+        "title": "With reference to Flying Officer Nirmal Jit Singh Sekhon and the Param Vir Chakra, consider the following statements. 1. He was the first individual from the Indian Air Force to be awarded India\u2019s highest gallantry award, the Param Vir Chakra. 2. The Param Vir Chakra is octagonal in shape, made of silver, and bears a single Vajra with the Ashoka Chakra embossed at the centre.",
+        "page": 111
+      },
+      {
+        "level": 2,
+        "title": "Which of the statements given above is/are correct?",
+        "page": 111
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 111
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 111
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 111
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ BASED",
+        "page": 112
+      },
+      {
+        "level": 2,
+        "title": "With reference to Field Marshal Sam Manekshaw, consider the following statements.",
+        "page": 112
+      },
+      {
+        "level": 2,
+        "title": "Which of the statements given above is/are correct?",
+        "page": 112
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 112
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 112
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 112
+      },
+      {
+        "level": 1,
+        "title": "AFCAT PYQ BASED",
+        "page": 113
+      },
+      {
+        "level": 2,
+        "title": "With reference to the transfer of command of the Indian Army in 1949, consider the following statements.",
+        "page": 113
+      },
+      {
+        "level": 2,
+        "title": "Which of the statements given above is/are correct?",
+        "page": 113
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 113
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 113
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 113
+      },
+      {
+        "level": 1,
+        "title": "RANK STRUCTURE - INDIAN ARMED FORCES",
+        "page": 114
+      },
+      {
+        "level": 1,
+        "title": "EQUIVALENT RANKS OF JCO\u2019S",
+        "page": 115
+      },
+      {
+        "level": 1,
+        "title": "EQUIVALENT RANKS OF NCO\u2019S",
+        "page": 116
+      },
+      {
+        "level": 1,
+        "title": "MILITARY TRAINING INSTITUTIONS",
+        "page": 117
+      },
+      {
+        "level": 2,
+        "title": "INFANTRY SCHOOL (mHOW AND BELGaum)",
+        "page": 117
+      },
+      {
+        "level": 2,
+        "title": "SCHOOL OF ARTILLERY DEOLALI, MAHARASHTRA",
+        "page": 117
+      },
+      {
+        "level": 1,
+        "title": "MILITARY TRAINING INSTITUTIONS",
+        "page": 118
+      },
+      {
+        "level": 2,
+        "title": "COLLEGE OF military ENGINNERING PUNE, MAHARASHTRA",
+        "page": 118
+      },
+      {
+        "level": 2,
+        "title": "MILITARY COLLEGE OF ELECTRONICS AND MECHaNICAL ENGINEERING, sECUNDERABAD",
+        "page": 118
+      },
+      {
+        "level": 1,
+        "title": "MILITARY TRAINING INSTITUTIONS",
+        "page": 119
+      },
+      {
+        "level": 2,
+        "title": "NATIONAL DEFENCE COLLEGE DELHI",
+        "page": 119
+      },
+      {
+        "level": 2,
+        "title": "DEFENCE SERVICES STAFF COLLEGE WELLINGTON, TAMIL NADU",
+        "page": 119
+      },
+      {
+        "level": 1,
+        "title": "MILITARY TRAINING INSTITUTIONS",
+        "page": 120
+      },
+      {
+        "level": 2,
+        "title": "MILITARY COLLEGE OF TELECOMMUNICATION ENGINEERING, MHOW",
+        "page": 120
+      },
+      {
+        "level": 3,
+        "title": "INSTITUTE FOR DEFENcE STUDIES & ANALYSIS, NEW DELHI",
+        "page": 120
+      },
+      {
+        "level": 1,
+        "title": "MILITARY TRAINING INSTITUTIONS",
+        "page": 121
+      },
+      {
+        "level": 2,
+        "title": "HIGH ALTITUDE WELFARE SCHOOL GULMARG, J&K",
+        "page": 121
+      },
+      {
+        "level": 2,
+        "title": "INDIAN NATIONAL DEFENCE UNIVERSITY (PROPOSED), GURGAON, HARYANA",
+        "page": 121
+      },
+      {
+        "level": 1,
+        "title": "MILITARY TRAINING INSTITUTIONS",
+        "page": 122
+      },
+      {
+        "level": 2,
+        "title": "EME SCHOOL VADODARA, GUJARAT",
+        "page": 122
+      },
+      {
+        "level": 3,
+        "title": "ARMY WAR COLLEGE/ COLLEGE OF COMBAT MHOW, MP",
+        "page": 122
+      },
+      {
+        "level": 1,
+        "title": "INDIAN AIR FORCE (IAF)",
+        "page": 123
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 123
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 123
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 123
+      },
+      {
+        "level": 1,
+        "title": "CHIEF OF AIR STAFF",
+        "page": 124
+      },
+      {
+        "level": 2,
+        "title": "air chief marshall amar preet singh",
+        "page": 124
+      },
+      {
+        "level": 1,
+        "title": "FATHER OF INDIAN AIRFORCE",
+        "page": 125
+      },
+      {
+        "level": 2,
+        "title": "SUBROTO MUKHERJEE",
+        "page": 125
+      },
+      {
+        "level": 1,
+        "title": "NEW INDIAN AIR FORCE ENSIGN",
+        "page": 126
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 126
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 126
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 126
+      },
+      {
+        "level": 1,
+        "title": "COMMANDS OF INDIAN AIR FORCE",
+        "page": 127
+      },
+      {
+        "level": 2,
+        "title": "CENTRAL AIR COMMAND (PRAYAGRAJ)",
+        "page": 127
+      },
+      {
+        "level": 2,
+        "title": "EASTERN AIR COMMAND (SHILLONG)",
+        "page": 127
+      },
+      {
+        "level": 2,
+        "title": "SOUTH WESTERN AIR COMMAND (GANDHI NAGAR)",
+        "page": 127
+      },
+      {
+        "level": 2,
+        "title": "TRAINING COMMAND (BENGALURU)",
+        "page": 127
+      },
+      {
+        "level": 2,
+        "title": "MAINTENANCE COMMAND (NAGPUR)",
+        "page": 127
+      },
+      {
+        "level": 2,
+        "title": "SOUTHERN COMMAND (THIRUVANANTHAPURAM)",
+        "page": 127
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 127
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 127
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 127
+      },
+      {
+        "level": 1,
+        "title": "AIR FORCE TRAINING INSTITUTE",
+        "page": 128
+      },
+      {
+        "level": 2,
+        "title": "flying intructors school (FIS) tambaram, tamil nadu",
+        "page": 128
+      },
+      {
+        "level": 2,
+        "title": "transport training wing (ttw) yelahanka, karnataka",
+        "page": 128
+      },
+      {
+        "level": 1,
+        "title": "AIR FORCE TRAINING INSTITUTE",
+        "page": 129
+      },
+      {
+        "level": 2,
+        "title": "paratroopers training school (PTS) agra, uttar pradesh",
+        "page": 129
+      },
+      {
+        "level": 2,
+        "title": "navigation training school hyderabad, telangana",
+        "page": 129
+      },
+      {
+        "level": 1,
+        "title": "AIR FORCE TRAINING INSTITUTE",
+        "page": 130
+      },
+      {
+        "level": 2,
+        "title": "college of air warfare (CAW) secunderabad, telangana",
+        "page": 130
+      },
+      {
+        "level": 2,
+        "title": "air force technical college bengaluru, karnataka",
+        "page": 130
+      },
+      {
+        "level": 1,
+        "title": "AIR FORCE TRAINING INSTITUTE",
+        "page": 131
+      },
+      {
+        "level": 2,
+        "title": "institute of aerospace medicine (iam) bengaluru, karnataka",
+        "page": 131
+      },
+      {
+        "level": 2,
+        "title": "air force adminstrative college (afac) coimbatore, tamil nadu",
+        "page": 131
+      },
+      {
+        "level": 1,
+        "title": "SURYA KIRAN TEAM",
+        "page": 132
+      },
+      {
+        "level": 1,
+        "title": "SARANG TEAM",
+        "page": 132
+      },
+      {
+        "level": 1,
+        "title": "air force training institute",
+        "page": 133
+      },
+      {
+        "level": 2,
+        "title": "air force academy dundiga, telangana",
+        "page": 133
+      },
+      {
+        "level": 2,
+        "title": "flying intructors school (FIS) tambaram, tamil nadu",
+        "page": 133
+      },
+      {
+        "level": 1,
+        "title": "UAVS",
+        "page": 134
+      },
+      {
+        "level": 1,
+        "title": "UAVS",
+        "page": 135
+      },
+      {
+        "level": 1,
+        "title": "COMBAT AIRCRAFTS",
+        "page": 136
+      },
+      {
+        "level": 2,
+        "title": "1. DASSAULT RAFALE",
+        "page": 136
+      },
+      {
+        "level": 3,
+        "title": "cds.journey",
+        "page": 136
+      },
+      {
+        "level": 3,
+        "title": "cds.journey",
+        "page": 136
+      },
+      {
+        "level": 3,
+        "title": "9198151228",
+        "page": 136
+      },
+      {
+        "level": 1,
+        "title": "COMBAT AIRCRAFTS",
+        "page": 137
+      },
+      {
+        "level": 2,
+        "title": "HAL TEJAS",
+        "page": 137
+      },
+      {
+        "level": 3,
+        "title": "cds.journey",
+        "page": 137
+      },
+      {
+        "level": 3,
+        "title": "cds.journey",
+        "page": 137
+      },
+      {
+        "level": 3,
+        "title": "9198151228",
+        "page": 137
+      },
+      {
+        "level": 1,
+        "title": "COMBAT AIRCRAFTS",
+        "page": 138
+      },
+      {
+        "level": 2,
+        "title": "SUKHOI SU 30 MKI",
+        "page": 138
+      },
+      {
+        "level": 3,
+        "title": "cds.journey",
+        "page": 138
+      },
+      {
+        "level": 3,
+        "title": "cds.journey",
+        "page": 138
+      },
+      {
+        "level": 3,
+        "title": "9198151228",
+        "page": 138
+      },
+      {
+        "level": 1,
+        "title": "COMBAT AIRCRAFTS",
+        "page": 139
+      },
+      {
+        "level": 1,
+        "title": "COMBAT AIRCRAFTS",
+        "page": 140
+      },
+      {
+        "level": 2,
+        "title": "JAGUAR",
+        "page": 140
+      },
+      {
+        "level": 3,
+        "title": "cds.journey",
+        "page": 140
+      },
+      {
+        "level": 3,
+        "title": "cds.journey",
+        "page": 140
+      },
+      {
+        "level": 3,
+        "title": "9198151228",
+        "page": 140
+      },
+      {
+        "level": 1,
+        "title": "TRANSPORT AIRCRAFTS",
+        "page": 141
+      },
+      {
+        "level": 2,
+        "title": "Boeing 737 (United states)",
+        "page": 141
+      },
+      {
+        "level": 2,
+        "title": "Ilyushin Il-76 (SOVIET UNION)",
+        "page": 141
+      },
+      {
+        "level": 2,
+        "title": "Antonov An-32 (UKRAINE)",
+        "page": 141
+      },
+      {
+        "level": 2,
+        "title": "C-130J Super Hercules (Usa)",
+        "page": 141
+      },
+      {
+        "level": 2,
+        "title": "Boeing C-17 (USA)",
+        "page": 141
+      },
+      {
+        "level": 2,
+        "title": "Dornier Do 228 (GERMANY)",
+        "page": 141
+      },
+      {
+        "level": 1,
+        "title": "HELICOPTERS",
+        "page": 142
+      },
+      {
+        "level": 2,
+        "title": "HAL RUDRA (INDIA)  TYPE- ATTACK",
+        "page": 142
+      },
+      {
+        "level": 3,
+        "title": "Mil Mi-17 (RUSSIA)  TYPE- UTILITY",
+        "page": 142
+      },
+      {
+        "level": 3,
+        "title": "HAL Dhruv (INDIA)  TYPE- UTILITY",
+        "page": 142
+      },
+      {
+        "level": 3,
+        "title": "Mil Mi-24 (RUSSIA) TYPE- ATTACK",
+        "page": 142
+      },
+      {
+        "level": 3,
+        "title": "Boeing AH-64 Apache( (USA) TYPE-ATTACK",
+        "page": 142
+      },
+      {
+        "level": 3,
+        "title": "HAL Prachand (INDIA)  TYPE- ATTACK",
+        "page": 142
+      },
+      {
+        "level": 1,
+        "title": "RECONNAISSANCE AIRCRAFT",
+        "page": 143
+      },
+      {
+        "level": 2,
+        "title": "gLOBAL 5000 (United States)",
+        "page": 143
+      },
+      {
+        "level": 2,
+        "title": "GULF STREAM G100 (ISREAL)",
+        "page": 143
+      },
+      {
+        "level": 3,
+        "title": "Gulf stream III (UNITED STATES)",
+        "page": 143
+      },
+      {
+        "level": 3,
+        "title": "Boeing 707 (United states)",
+        "page": 143
+      },
+      {
+        "level": 1,
+        "title": "TRAINER AIRCRAFTS",
+        "page": 144
+      },
+      {
+        "level": 2,
+        "title": "HAL KIRAN \u2022 India origin",
+        "page": 144
+      },
+      {
+        "level": 2,
+        "title": "HTT 40 \u2022 India origin",
+        "page": 144
+      },
+      {
+        "level": 2,
+        "title": "PILATUS Switzerland",
+        "page": 144
+      },
+      {
+        "level": 2,
+        "title": "BAE HAWK \u2022 UK origin",
+        "page": 144
+      },
+      {
+        "level": 1,
+        "title": "INDIAN NAVY",
+        "page": 145
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 145
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 145
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 145
+      },
+      {
+        "level": 1,
+        "title": "COMMANDS OF INDIAN NAVY",
+        "page": 146
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 146
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 146
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 146
+      },
+      {
+        "level": 1,
+        "title": "INDIAN NAVY TRAINING ESTABLISHMENTS",
+        "page": 147
+      },
+      {
+        "level": 2,
+        "title": "Naval War College (INS Mandovi) (goa)",
+        "page": 147
+      },
+      {
+        "level": 2,
+        "title": "institute of naval medicine (colaba, mumbai)",
+        "page": 147
+      },
+      {
+        "level": 1,
+        "title": "ina",
+        "page": 148
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT PERSONALITIES OF INDIAN NAVY",
+        "page": 149
+      },
+      {
+        "level": 1,
+        "title": "FORCES AND THEIR MOTTO",
+        "page": 150
+      },
+      {
+        "level": 2,
+        "title": "assam rifles (1835) (freinds of the hill people)",
+        "page": 150
+      },
+      {
+        "level": 2,
+        "title": "home guard (1946) (nishkam seva)",
+        "page": 150
+      },
+      {
+        "level": 2,
+        "title": "itbp (24 october, 1962) (valour, steadfastness, commitment)",
+        "page": 150
+      },
+      {
+        "level": 1,
+        "title": "FORCES AND THEIR MOTTO",
+        "page": 151
+      },
+      {
+        "level": 2,
+        "title": "ncc (15 july, 1948) (unity and discipline)",
+        "page": 151
+      },
+      {
+        "level": 2,
+        "title": "cisf (10 march, 1969) (protection and security)",
+        "page": 151
+      },
+      {
+        "level": 2,
+        "title": "mNs (1 oct, 1926) (service with a smile)",
+        "page": 151
+      },
+      {
+        "level": 1,
+        "title": "FORCES AND THEIR MOTTO",
+        "page": 152
+      },
+      {
+        "level": 2,
+        "title": "ndrf (2006) (saving lives and beyond)",
+        "page": 152
+      },
+      {
+        "level": 2,
+        "title": "coast guard (1 feb, 1977) (we protect)",
+        "page": 152
+      },
+      {
+        "level": 2,
+        "title": "bsf (1 december 1965) (jeevan paryant kartavya)",
+        "page": 152
+      },
+      {
+        "level": 1,
+        "title": "FORCES AND THEIR MOTTO",
+        "page": 153
+      },
+      {
+        "level": 2,
+        "title": "crpf (27 july, 1939) (SERVICE AND LOYALTY)",
+        "page": 153
+      },
+      {
+        "level": 2,
+        "title": "territorial army (9/11, 1949) (savdhani VA shoorta)",
+        "page": 153
+      },
+      {
+        "level": 2,
+        "title": "nsg (16 OCTOBER 1984) (sARVATRA SARVOTTAM SURAKSHA)",
+        "page": 153
+      },
+      {
+        "level": 1,
+        "title": "OPERATION AMISTAD",
+        "page": 154
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 154
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 154
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 154
+      },
+      {
+        "level": 1,
+        "title": "OPERATION URJA SURAKSHA",
+        "page": 155
+      },
+      {
+        "level": 1,
+        "title": "OPERATION HIM SETU",
+        "page": 156
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 156
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 156
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 156
+      },
+      {
+        "level": 1,
+        "title": "OPERATION 777",
+        "page": 157
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 157
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 157
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 157
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 158
+      },
+      {
+        "level": 2,
+        "title": "operation polo",
+        "page": 158
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 159
+      },
+      {
+        "level": 2,
+        "title": "operation smiling budhha",
+        "page": 159
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 160
+      },
+      {
+        "level": 2,
+        "title": "operation meghdoot - 1984",
+        "page": 160
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 161
+      },
+      {
+        "level": 2,
+        "title": "operation pawan - SRILANKA",
+        "page": 161
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 162
+      },
+      {
+        "level": 2,
+        "title": "operation cactus - MALDIVES 1988",
+        "page": 162
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 163
+      },
+      {
+        "level": 2,
+        "title": "operation shakti",
+        "page": 163
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 164
+      },
+      {
+        "level": 2,
+        "title": "operation talwar - KARGIL WAR 1999",
+        "page": 164
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 165
+      },
+      {
+        "level": 2,
+        "title": "operation safed sagar - KARGIL WAR 1999",
+        "page": 165
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 166
+      },
+      {
+        "level": 2,
+        "title": "operation neer - MALDIVES 2014",
+        "page": 166
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 167
+      },
+      {
+        "level": 2,
+        "title": "operation sanjeevani - 2020",
+        "page": 167
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 168
+      },
+      {
+        "level": 2,
+        "title": "operation ganga - UKRAINE 2022",
+        "page": 168
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 169
+      },
+      {
+        "level": 2,
+        "title": "operation dost - TUKREY AND SYRIA 2023",
+        "page": 169
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 170
+      },
+      {
+        "level": 2,
+        "title": "operation kaveri - SUDAN 2023",
+        "page": 170
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 171
+      },
+      {
+        "level": 2,
+        "title": "operation samudra setu",
+        "page": 171
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 172
+      },
+      {
+        "level": 2,
+        "title": "operation ajay - ISRAEL GAZA WAR 2023",
+        "page": 172
+      },
+      {
+        "level": 1,
+        "title": "IMPORTANT OPERATIONS",
+        "page": 173
+      },
+      {
+        "level": 2,
+        "title": "operation karuna - MYANMAR 2023",
+        "page": 173
+      },
+      {
+        "level": 1,
+        "title": "DEFENCE",
+        "page": 174
+      },
+      {
+        "level": 1,
+        "title": "NEWS",
+        "page": 174
+      },
+      {
+        "level": 1,
+        "title": "OPERATION URJA SURAKSHA",
+        "page": 175
+      },
+      {
+        "level": 1,
+        "title": "OPERATION HIM SETU",
+        "page": 176
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 176
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 176
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 176
+      },
+      {
+        "level": 1,
+        "title": "OPERATION 777",
+        "page": 177
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 177
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 177
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 177
+      },
+      {
+        "level": 1,
+        "title": "OPERATION AMISTAD",
+        "page": 178
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 178
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 178
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 178
+      },
+      {
+        "level": 1,
+        "title": "INDIAN ARMY AND THE LADAKH FOREST DEPARTMENT MOU",
+        "page": 179
+      },
+      {
+        "level": 1,
+        "title": "MISSION MITRA",
+        "page": 180
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 180
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 180
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 180
+      },
+      {
+        "level": 1,
+        "title": "AIR DROPPABLE CONTAINER (ADC-150)",
+        "page": 181
+      },
+      {
+        "level": 1,
+        "title": "BHARAT ELECTRONICS LIMITED(BEL)",
+        "page": 182
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 182
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 182
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 182
+      },
+      {
+        "level": 1,
+        "title": "ASRAAM",
+        "page": 183
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 183
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 183
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 183
+      },
+      {
+        "level": 1,
+        "title": "SIKKIM SUNDARI",
+        "page": 184
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 184
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 184
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 184
+      },
+      {
+        "level": 1,
+        "title": "F414 JET ENGINES",
+        "page": 185
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 185
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 185
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 185
+      },
+      {
+        "level": 1,
+        "title": "STRATEGIC DEFENCE ADVISOR BY SYNERGY QUANTUM",
+        "page": 186
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 186
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 186
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 186
+      },
+      {
+        "level": 1,
+        "title": "LM2500 GAS TURBINE INFRARED SUPPRESSION SYSTEM",
+        "page": 187
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 187
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 187
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 187
+      },
+      {
+        "level": 1,
+        "title": "JOINT COMMANDERS\u2019 CONFERENCE",
+        "page": 188
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 188
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 188
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 188
+      },
+      {
+        "level": 1,
+        "title": "ACTIVELY COOLED FULL SCALE SCRAMJET COMBUSTOR",
+        "page": 189
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 189
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 189
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 189
+      },
+      {
+        "level": 1,
+        "title": "KALAM & KAVACH",
+        "page": 190
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 190
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 190
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 190
+      },
+      {
+        "level": 1,
+        "title": "ADVANCED UNMANNED MINE COUNTER-MEASURE (MCM)",
+        "page": 191
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 191
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 191
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 191
+      },
+      {
+        "level": 1,
+        "title": "SQUADRON LEADER SAANYA",
+        "page": 192
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 192
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 192
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 192
+      },
+      {
+        "level": 1,
+        "title": "SURYASTRA UNIVERSAL ROCKET LAUNCHER",
+        "page": 193
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 193
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 193
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 193
+      },
+      {
+        "level": 1,
+        "title": "ALL-WOMEN INTERNATIONAL MOUNT EVEREST EXPEDITION",
+        "page": 194
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 194
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 194
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 194
+      },
+      {
+        "level": 1,
+        "title": "KAUTILYA AND Q-FORCE",
+        "page": 195
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 195
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 195
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 195
+      },
+      {
+        "level": 1,
+        "title": "SU-30 MKI FIGHTER AIRCRAFT FLEET",
+        "page": 196
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 196
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 196
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 196
+      },
+      {
+        "level": 1,
+        "title": "MAJOR PRABHAT MISHRA",
+        "page": 197
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 197
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 197
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 197
+      },
+      {
+        "level": 1,
+        "title": "BALLISTIC MISSILE DEFENCE (BMD) SYSTEM AND THE NAVAL ANTI-SHIP MISSILE-MEDIUM RANGE (NASM-MR)",
+        "page": 198
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 198
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 198
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 198
+      },
+      {
+        "level": 1,
+        "title": "AIR CUSHION VEHICLE (ACV)",
+        "page": 199
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 199
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 199
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 199
+      },
+      {
+        "level": 1,
+        "title": "SEPECAT JAGUAR FIGHTER AIRCRAFT",
+        "page": 200
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 200
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 200
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 200
+      },
+      {
+        "level": 1,
+        "title": "C295 TRANSPORT AIRCRAFT",
+        "page": 201
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 201
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 201
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 201
+      },
+      {
+        "level": 1,
+        "title": "BRAHMOS SUPERSONIC CRUISE MISSILE",
+        "page": 202
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 202
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 202
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 202
+      },
+      {
+        "level": 1,
+        "title": "VSHRODS",
+        "page": 203
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 203
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 203
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 203
+      },
+      {
+        "level": 1,
+        "title": "DEFENCE PROCUREMENT CONTRACTS",
+        "page": 204
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 204
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 204
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 204
+      },
+      {
+        "level": 1,
+        "title": "DIRECTOR GENERAL OF NAVAL ARMAMENT (DGONA)",
+        "page": 205
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 205
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 205
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 205
+      },
+      {
+        "level": 1,
+        "title": "DANTAK",
+        "page": 206
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 206
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 206
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 206
+      },
+      {
+        "level": 1,
+        "title": "PROJECT UDAYAK",
+        "page": 207
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 207
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 207
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 207
+      },
+      {
+        "level": 1,
+        "title": "PROJECT DSC A 23",
+        "page": 208
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 208
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 208
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 208
+      },
+      {
+        "level": 1,
+        "title": "PROJECT CHETAK",
+        "page": 209
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 209
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 209
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 209
+      },
+      {
+        "level": 1,
+        "title": "PROJECT BRAHMANK",
+        "page": 210
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 210
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 210
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 210
+      },
+      {
+        "level": 1,
+        "title": "KALAM & KAVACH",
+        "page": 211
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 211
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 211
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 211
+      },
+      {
+        "level": 1,
+        "title": "NAVAL COMMANDERS\u2019 CONFERENCE-2026",
+        "page": 212
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 212
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 212
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 212
+      },
+      {
+        "level": 1,
+        "title": "ULPGM-V3",
+        "page": 213
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 213
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 213
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 213
+      },
+      {
+        "level": 1,
+        "title": "NAUSENA SHAURYA VATIKA",
+        "page": 214
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 214
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 214
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 214
+      },
+      {
+        "level": 1,
+        "title": "ARAHANT SARIPUTTA AND ARAHANT MAHAMOGGALLANA",
+        "page": 215
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 215
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 215
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 215
+      },
+      {
+        "level": 1,
+        "title": "INDIA-AUSTRALIA DEFENCE MINISTERS\u2019 DIALOGUE",
+        "page": 216
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 216
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 216
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 216
+      },
+      {
+        "level": 1,
+        "title": "OPERATION DRISHTI",
+        "page": 217
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 217
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 217
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 217
+      },
+      {
+        "level": 1,
+        "title": "UNION BUDGET 2026",
+        "page": 218
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 218
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 218
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 218
+      },
+      {
+        "level": 1,
+        "title": "SINGAPORE AIRSHOW 2026",
+        "page": 219
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 219
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 219
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 219
+      },
+      {
+        "level": 1,
+        "title": "AGNI-3",
+        "page": 220
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 220
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 220
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 220
+      },
+      {
+        "level": 1,
+        "title": "WORLD DEFENCE SHOW (WDS) 2026",
+        "page": 221
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 221
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 221
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 221
+      },
+      {
+        "level": 1,
+        "title": "DORNIER 228 AIRCRAFT",
+        "page": 222
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 222
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 222
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 222
+      },
+      {
+        "level": 1,
+        "title": "6TH INDIA-FRANCE ANNUAL DEFENCE DIALOGUE",
+        "page": 223
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 223
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 223
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 223
+      },
+      {
+        "level": 1,
+        "title": "AIRBUS H-125 LIGHT UTILITY HELICOPTER",
+        "page": 224
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 224
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 224
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 224
+      },
+      {
+        "level": 1,
+        "title": "INTERNATIONAL FLEET REVIEW (IFR) 2026",
+        "page": 225
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 225
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 225
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 225
+      },
+      {
+        "level": 1,
+        "title": "DROGUE PARACHUTE FOR GAGANYAAN",
+        "page": 226
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 226
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 226
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 226
+      },
+      {
+        "level": 1,
+        "title": "NIM AND JIM&WS",
+        "page": 227
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 227
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 227
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 227
+      },
+      {
+        "level": 1,
+        "title": "JOINT DEFENCE COOPERATION COMMITTEE",
+        "page": 228
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 228
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 228
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 228
+      },
+      {
+        "level": 1,
+        "title": "CHUNGTHANG - LACHEN AXIS AND TARAM CHU BRIDGE",
+        "page": 229
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 229
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 229
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 229
+      },
+      {
+        "level": 1,
+        "title": "SWACHHATA MONITORING & AUTOMATED REPORTING TOOL",
+        "page": 230
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 230
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 230
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 230
+      },
+      {
+        "level": 1,
+        "title": "NATIONAL DEFENCE INDUSTRIES CONCLAVE (NDIC) 2026",
+        "page": 231
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 231
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 231
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 231
+      },
+      {
+        "level": 1,
+        "title": "TUNGUSKA",
+        "page": 232
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 232
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 232
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 232
+      },
+      {
+        "level": 1,
+        "title": "MOUNTAIN RADARS",
+        "page": 233
+      },
+      {
+        "level": 1,
+        "title": "INDIA AND MOZAMBIQUE",
+        "page": 234
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 234
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 234
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 234
+      },
+      {
+        "level": 1,
+        "title": "DEFENCE EXPORTS",
+        "page": 235
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 235
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 235
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 235
+      },
+      {
+        "level": 1,
+        "title": "RAN SAMWAD",
+        "page": 236
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 236
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 236
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 236
+      },
+      {
+        "level": 1,
+        "title": "MAINTENANCE COMMAND COMMANDERS' CONCLAVE",
+        "page": 237
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 237
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 237
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 237
+      },
+      {
+        "level": 1,
+        "title": "WORLD BORDER SECURITY CONGRESS 2026",
+        "page": 238
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 238
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 238
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 238
+      },
+      {
+        "level": 1,
+        "title": "EMERGENCY LANDING FACILITY",
+        "page": 239
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 239
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 239
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 239
+      },
+      {
+        "level": 1,
+        "title": "INDIA-EGYPT JOINT DEFENCE COMMITTEE",
+        "page": 240
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 240
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 240
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 240
+      },
+      {
+        "level": 1,
+        "title": "ADVANCED ARMOURED PLATFORMS (TRACKED AND WHEELED",
+        "page": 241
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 241
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 241
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 241
+      },
+      {
+        "level": 1,
+        "title": "INDIAN OCEAN SHIP (IOS) SAGAR",
+        "page": 242
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 242
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 242
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 242
+      },
+      {
+        "level": 1,
+        "title": "TACTICAL ADVANCED RANGE AUGMENTATION (TARA) WEAPON",
+        "page": 243
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 243
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 243
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 243
+      },
+      {
+        "level": 1,
+        "title": "MIRV SYSTEM",
+        "page": 244
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 244
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 244
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 244
+      },
+      {
+        "level": 1,
+        "title": "UNMANNED AERIAL VEHICLE LAUNCHED  PRECISION GUIDED MISSILE",
+        "page": 245
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 245
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 245
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 245
+      },
+      {
+        "level": 1,
+        "title": "INDIA AND VIETNAM",
+        "page": 246
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 246
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 246
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 246
+      },
+      {
+        "level": 1,
+        "title": "INDIAN WAR MEMORIAL",
+        "page": 247
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 247
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 247
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 247
+      },
+      {
+        "level": 1,
+        "title": "16TH INDIA-SINGAPORE DEFENCE POLICY DIALOGUE",
+        "page": 248
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 248
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 248
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 248
+      },
+      {
+        "level": 1,
+        "title": "INDIA AND REPUBLIC OF KOREA",
+        "page": 249
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 249
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 249
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 249
+      },
+      {
+        "level": 1,
+        "title": "SURYAKIRAN AEROBATIC TEAM",
+        "page": 250
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 250
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 250
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 250
+      },
+      {
+        "level": 1,
+        "title": "INDIA-ZIMBABWE JOINT DEFENCE COMMITTEE",
+        "page": 251
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 251
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 251
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 251
+      },
+      {
+        "level": 1,
+        "title": "SOLAR POWER PROJECT",
+        "page": 252
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 252
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 252
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 252
+      },
+      {
+        "level": 1,
+        "title": "UNEXPLODED MISSILE WARHEAD",
+        "page": 253
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 253
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 253
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 253
+      },
+      {
+        "level": 1,
+        "title": "ADVANCED WEAPON SYSTEM COMPLEX",
+        "page": 254
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 254
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 254
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 254
+      },
+      {
+        "level": 1,
+        "title": "LONG RANGE LAND ATTACK CRUISE MISSILE (LRLACM)",
+        "page": 255
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 255
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 255
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 255
+      },
+      {
+        "level": 1,
+        "title": "10TH THAILAND-INDIA DEFENCE DIALOGUE",
+        "page": 256
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 256
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 256
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 256
+      },
+      {
+        "level": 1,
+        "title": "INDIA'S ANNUAL DEFENCE PRODUCTION",
+        "page": 257
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 257
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 257
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 257
+      },
+      {
+        "level": 1,
+        "title": "1.25 MW MARINE GAS TURBINE GENERATORS",
+        "page": 258
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 258
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 258
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 258
+      },
+      {
+        "level": 1,
+        "title": "NETRA",
+        "page": 259
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 259
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 259
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 259
+      },
+      {
+        "level": 1,
+        "title": "OFFSHORE PATROL VESSELS (OPVS)",
+        "page": 260
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 260
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 260
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 260
+      },
+      {
+        "level": 1,
+        "title": "UDAYGIRI, KAVARATTI, AND SHAKTI",
+        "page": 261
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 261
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 261
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 261
+      },
+      {
+        "level": 1,
+        "title": "MARITIME SEARCH AND RESCUE (SAR) OPERATION",
+        "page": 262
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 262
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 262
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 262
+      },
+      {
+        "level": 1,
+        "title": "12TH INDIA-MALAYSIA SUB COMMITTEE MEETING",
+        "page": 263
+      },
+      {
+        "level": 1,
+        "title": "DEFENCE ACQUISITION COUNCIL (DAC)",
+        "page": 264
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 264
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 264
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 264
+      },
+      {
+        "level": 1,
+        "title": "INDIA AND RWANDA",
+        "page": 265
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 265
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 265
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 265
+      },
+      {
+        "level": 1,
+        "title": "PINAKA LONG RANGE GUIDED ROCKET (LRGR)",
+        "page": 266
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 266
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 266
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 266
+      },
+      {
+        "level": 1,
+        "title": "8TH DEFENCE POLICY DIALOGUE IN TOKYO",
+        "page": 267
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 267
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 267
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 267
+      },
+      {
+        "level": 1,
+        "title": "KARGIL VIJAY DIWAS 2026",
+        "page": 268
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 268
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 268
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 268
+      },
+      {
+        "level": 1,
+        "title": "GENERAL UPENDRA DWIVEDI",
+        "page": 269
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 269
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 269
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 269
+      },
+      {
+        "level": 1,
+        "title": "CHIEF OF DEFENCE STAFF (CDS)",
+        "page": 270
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 270
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 270
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 270
+      },
+      {
+        "level": 1,
+        "title": "AIR OFFICER COMMANDING-IN-CHIEF (AOC-IN-C)",
+        "page": 271
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 271
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 271
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 271
+      },
+      {
+        "level": 1,
+        "title": "VICE CHIEF OF THE AIR STAFF",
+        "page": 272
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 272
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 272
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 272
+      },
+      {
+        "level": 1,
+        "title": "VICE CHIEF OF THE ARMY STAFF (VCOAS)",
+        "page": 273
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 273
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 273
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 273
+      },
+      {
+        "level": 1,
+        "title": "AIR MARSHAL TEJINDER SINGH",
+        "page": 274
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 274
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 274
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 274
+      },
+      {
+        "level": 1,
+        "title": "AIR OFFICER COMMANDING-IN-CHIEF (AOC-IN-C)",
+        "page": 275
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 275
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 275
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 275
+      },
+      {
+        "level": 1,
+        "title": "27TH CHIEF OF THE NAVAL STAFF OF THE INDIAN NAVY",
+        "page": 276
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 276
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 276
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 276
+      },
+      {
+        "level": 1,
+        "title": "VICE CHIEF OF THE NAVAL STAFF (VCNS)",
+        "page": 277
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 277
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 277
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 277
+      },
+      {
+        "level": 1,
+        "title": "GENERAL OFFICER COMMANDING-IN-CHIEF (GOC-IN-C)",
+        "page": 278
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 278
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 278
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 278
+      },
+      {
+        "level": 1,
+        "title": "ADDITIONAL DIRECTOR GENERAL (ADG) OF MNS",
+        "page": 279
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 279
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 279
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 279
+      },
+      {
+        "level": 1,
+        "title": "FIRST FEMALE CHIEF OF ARMY",
+        "page": 280
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 280
+      },
+      {
+        "level": 2,
+        "title": "cds.journey",
+        "page": 280
+      },
+      {
+        "level": 2,
+        "title": "9198151228",
+        "page": 280
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 281
+      },
+      {
+        "level": 1,
+        "title": "cds.journey",
+        "page": 281
+      },
+      {
+        "level": 1,
+        "title": "9198151228",
+        "page": 281
+      }
+    ]
+  },
+  "doc1.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 54.219007723s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}"
+  },
+  "doc2.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 53.819745436s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}"
+  },
+  "doc3.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 53.328652319s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}"
+  },
+  "doc4.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 52.879625049s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}"
+  },
+  "doc5.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 52.457662287s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}"
+  },
+  "doc6.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 51.995281555s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}"
+  },
+  "doc7.pdf": {
+    "type": "error",
+    "content": "Could not extract text."
+  },
+  "doc8.pdf": {
+    "type": "error",
+    "content": "Could not extract text."
+  },
+  "doc9.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 51.442367308s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}"
+  },
+  "General-Science-Book-SSBCrack.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 50.921887045s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '50s'}]}}"
+  },
+  "general_science_ssbcrack.pdf": {
+    "type": "error",
+    "content": "Could not extract text."
+  },
+  "Indian Geography class notes_compressed.pdf": {
+    "type": "error",
+    "content": "Could not extract text."
+  },
+  "insight_ssb_cheat_codes.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 50.203926668s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '50s'}]}}"
+  },
+  "nda_material.pdf": {
+    "type": "native_toc",
+    "content": [
+      {
+        "level": 1,
+        "title": "Final-converted",
+        "page": 2
+      },
+      {
+        "level": 1,
+        "title": "Pathfinder NDA_NA National Defe - Arihant Experts",
+        "page": 1
+      },
+      {
+        "level": 2,
+        "title": "Cover",
+        "page": 1
+      },
+      {
+        "level": 2,
+        "title": "Title",
+        "page": 3
+      },
+      {
+        "level": 2,
+        "title": "Copyright",
+        "page": 4
+      },
+      {
+        "level": 2,
+        "title": "Contents",
+        "page": 5
+      },
+      {
+        "level": 2,
+        "title": "Solved Paper-2021 (II)",
+        "page": 7
+      },
+      {
+        "level": 2,
+        "title": "Solved Paper-2021 (I)",
+        "page": 36
+      },
+      {
+        "level": 2,
+        "title": "Solved Paper-2020 (I & II)",
+        "page": 65
+      },
+      {
+        "level": 2,
+        "title": "Solved Paper-2019 (II)",
+        "page": 95
+      },
+      {
+        "level": 2,
+        "title": "Solved Paper-2019 (I)",
+        "page": 125
+      },
+      {
+        "level": 2,
+        "title": "Solved Paper-2018 (II)",
+        "page": 153
+      },
+      {
+        "level": 2,
+        "title": "Solved Paper-2018 (I)",
+        "page": 185
+      },
+      {
+        "level": 2,
+        "title": "Solved Paper-2017 (II)",
+        "page": 215
+      },
+      {
+        "level": 2,
+        "title": "MATHEMATICS",
+        "page": 229
+      },
+      {
+        "level": 2,
+        "title": "GENERAL ENGLISH",
+        "page": 617
+      },
+      {
+        "level": 2,
+        "title": "GENERAL SCIENCE",
+        "page": 743
+      },
+      {
+        "level": 3,
+        "title": "Physics",
+        "page": 745
+      },
+      {
+        "level": 3,
+        "title": "Chemistry",
+        "page": 875
+      },
+      {
+        "level": 3,
+        "title": "Biology",
+        "page": 963
+      },
+      {
+        "level": 2,
+        "title": "GENERAL STUDIES",
+        "page": 1057
+      },
+      {
+        "level": 3,
+        "title": "History",
+        "page": 1059
+      },
+      {
+        "level": 3,
+        "title": "Geography",
+        "page": 1142
+      },
+      {
+        "level": 3,
+        "title": "Indian Polity",
+        "page": 1215
+      },
+      {
+        "level": 3,
+        "title": "Indian Economy",
+        "page": 1249
+      },
+      {
+        "level": 3,
+        "title": "General Knowledge",
+        "page": 1275
+      }
+    ]
+  },
+  "nda_material_part1.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 49.345619281s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}}"
+  },
+  "nda_material_part2.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 48.706413928s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}"
+  },
+  "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf": {
+    "type": "native_toc",
+    "content": [
+      {
+        "level": 1,
+        "title": "Cover",
+        "page": 1
+      },
+      {
+        "level": 1,
+        "title": "Title",
+        "page": 2
+      },
+      {
+        "level": 1,
+        "title": "Contents",
+        "page": 4
+      },
+      {
+        "level": 1,
+        "title": "Solved Papers",
+        "page": 8
+      },
+      {
+        "level": 1,
+        "title": "Mathematics",
+        "page": 206
+      },
+      {
+        "level": 1,
+        "title": "General English",
+        "page": 590
+      },
+      {
+        "level": 1,
+        "title": "General Science",
+        "page": 782
+      },
+      {
+        "level": 1,
+        "title": "General Studies",
+        "page": 956
+      }
+    ]
+  },
+  "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part1.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 47.860705845s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}"
+  },
+  "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 47.180904075s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}"
+  },
+  "Pathfinder-Truncated.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 46.513171948s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}"
+  },
+  "pathfinder_mathematics.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 45.954117143s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}"
+  },
+  "pathfinder_science.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 45.398496279s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}"
+  },
+  "pathfinder_studies.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 44.913347948s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '44s'}]}}"
+  },
+  "Physical Geography class notes_compressed.pdf": {
+    "type": "error",
+    "content": "Could not extract text."
+  },
+  "Physics class notes pdf_compressed.pdf": {
+    "type": "error",
+    "content": "Could not extract text."
+  },
+  "pyq_upload.pdf": {
+    "type": "error",
+    "content": "Could not extract text."
+  },
+  "pyq_upload_2.pdf": {
+    "type": "error",
+    "content": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 44.454376135s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '44s'}]}}"
+  }
+}

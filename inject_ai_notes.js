@@ -196,9 +196,9 @@
         const cleanNotes = stripMCQs(topic.notes || '');
 
         if (existingTopic) {
-            // Append to existing topic's notes (append so original notes stay first)
+            // Prepend to existing topic's notes so the highly detailed AI notes show up first!
             if (cleanNotes && !existingTopic.notes.includes(cleanNotes.substring(0, 80))) {
-                existingTopic.notes += '\n' + cleanNotes;
+                existingTopic.notes = '\n<div style="margin-bottom: 24px; padding: 16px; border: 2px solid var(--accent); border-radius: 8px; background: rgba(34, 197, 94, 0.05);"><h4 style="color: var(--accent); margin-top: 0; border-bottom: 1px solid var(--border); padding-bottom: 8px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="display:inline; vertical-align:middle; margin-right:6px;" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm.5 11.5a.5.5 0 0 1-1 0V7.707L6.354 8.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 7.707V11.5z"/></svg>NEW AI-GENERATED NOTES</h4>' + cleanNotes + '</div>\n' + existingTopic.notes;
             }
         } else {
             if (!chapter.topics) chapter.topics = [];
