@@ -6859,7 +6859,7 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
 
       .replace(/\*(.*?)\*/g, '<em>$1</em>')
 
-      .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+      .replace(/`([^`\n]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
 
       .replace(/^#{1,3} (.+)$/gm, '<h4 style="color: var(--accent); margin:16px 0 8px;">$1</h4>')
 
@@ -7375,7 +7375,7 @@ Doubt to solve: ${text}`;
 
         .replace(/\*(.*?)\*/g, '<em>$1</em>')
 
-        .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+        .replace(/`([^`\n]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
 
         .replace(/\n/g, '<br/>');
 
@@ -7679,7 +7679,7 @@ function initAiPaperSolver() {
 
               .replace(/\*(.*?)\*/g, '<em>$1</em>')
 
-              .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 6px; border-radius:4px; font-family:var(--font-mono); font-size:0.9rem;">$1</code>')
+              .replace(/`([^`\n]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 6px; border-radius:4px; font-family:var(--font-mono); font-size:0.9rem;">$1</code>')
 
               .replace(/^\s*-\s+(.*$)/gim, '<li style="margin-left:20px; color:var(--text-secondary); margin-bottom:6px;">$1</li>')
 
@@ -11234,7 +11234,7 @@ function renderAiNotes(text, contentArea, btnCopy, btnDownload, title) {
 
     .replace(/\*(.*?)\*/g, '<em>$1</em>')
 
-    .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+    .replace(/`([^`\n]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
 
     .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:16px 0 8px;">$1</h4>')
 
@@ -14115,7 +14115,7 @@ Format with clean, bold headings and simple HTML line breaks. Do NOT use any emo
 
           .replace(/\*(.*?)\*/g, '<em>$1</em>')
 
-          .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+          .replace(/`([^`\n]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
 
           .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:12px 0 6px;">$1</h4>')
 
@@ -16867,7 +16867,7 @@ function applyGoalGetterTheme() {
   // Background music via YouTube (hidden)
   const startAudio = () => {
     const iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/ONHJRrOPk-s?autoplay=1&loop=1&playlist=ONHJRrOPk-s';
+    iframe.src = 'https://www.youtube.com/embed/nN4H7997h1E?autoplay=1&loop=1&playlist=nN4H7997h1E';
     iframe.style.display = 'none';
     iframe.allow = 'autoplay';
     document.body.appendChild(iframe);
@@ -16875,15 +16875,7 @@ function applyGoalGetterTheme() {
   };
   document.addEventListener('click', startAudio);
 
-  // Inject Operation Clean-Up Banner dynamically
-  const banner = document.createElement('div');
-  banner.id = 'op-cleanup-banner';
-  banner.style.cssText = 'position: fixed; top: 0; left: 0; width: 100%; background: #ef4444; color: white; padding: 12px; text-align: center; z-index: 10000; font-weight: bold; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);';
-  banner.innerHTML = `
-    <span style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); cursor: pointer; font-size: 20px;" onclick="document.getElementById('op-cleanup-banner').style.display='none'">&times;</span>
-    Operation Clean-Up is ON
-  `;
-  document.body.appendChild(banner);
+
 }
 
 // --- Geography Map Modal Interaction ---
