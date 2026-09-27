@@ -15901,5 +15901,191 @@
     "mcq": null,
     "source_pdf": "doc9.pdf",
     "source_page": 8
+  },
+  {
+    "id": "NDA-DEF-001",
+    "subject": "Defence",
+    "chapter": "Selection Process",
+    "topic": "Stage II Testing",
+    "text": "<p><strong>Stage II Testing</strong></p><p>All Stage I qualified candidates undergo the following tests as part of Stage II testing during the next three to four days:</p><ul><li><strong>Psychological Tests</strong>: Written tests conducted by a Psychologist.</li><li><strong>Group Tests</strong>: Interactive indoor and outdoor activities which are a combination of mental and physical work.</li><li><strong>Interview</strong>: Involves a personal conversation with an Interviewing Officer.</li></ul><p>These tests will be explained in detail before they are conducted at the Selection Board.</p>",
+    "details": {
+      "summary": "Overview of Stage II testing components including psychological tests, group tests, and interviews."
+    },
+    "mcq": null,
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "NDA-DEF-002",
+    "subject": "Defence",
+    "chapter": "Selection Process",
+    "topic": "OLQ Testing Schedule",
+    "text": "<p><strong>Schedule for OLQ Tests</strong></p><table><tr><th>Day</th><th>Activity</th></tr><tr><td>Day 1</td><td>Phase I testing – Officers Intelligence Rating Test & Picture Perception and Discussion Test</td></tr><tr><td>Day 2</td><td>CPSS / PABT* (for Flying Branch) followed by Psychological Test</td></tr><tr><td>Day 3</td><td>Group tests / Interview</td></tr><tr><td>Day 4</td><td>Group tests / Interview</td></tr><tr><td>Day 5</td><td>Group tests / Interview</td></tr><tr><td>Day 6</td><td>Group tests / Interview / Conference</td></tr></table>",
+    "details": {
+      "summary": "Day-wise schedule for Officer Like Quality (OLQ) testing at the Selection Board."
+    },
+    "mcq": null,
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "NDA-DEF-003",
+    "subject": "Defence",
+    "chapter": "Selection Process",
+    "topic": "Pilot Aptitude Battery Test (PABT)",
+    "text": "<p><strong>Pilot Aptitude Battery Test (PABT)</strong></p><p>PABT is a unique test aimed at assessing a candidate's aptitude to be trained as a pilot. It is used as an independent selection device to induct potential officers into the Flying Branch of the Indian Air Force.</p><p><strong>Components of PABT:</strong></p><ul><li>Instrument Battery Test (INSB)</li><li>Sensory Motor Apparatus Test (SMA)</li><li>Control Velocity Test (CVT)</li></ul><p><strong>Instrument Battery Test (INSB)</strong> is a paper-pencil test, while the other two (SMA and CVT) are machine tests.</p><p><strong>INSB Details:</strong> Comprises two parts. It assesses assimilation of briefing and the ability to read and interpret dials of an instrument panel of an aircraft. Candidates scoring minimum criteria are subjected to the machine test.</p><p><strong>Machine Tests (SMA & CVT):</strong> Measure psychomotor co-ordination skill. Conducted on a single day and administered only once in a lifetime.</p>",
+    "details": {
+      "summary": "Detailed breakdown of the Pilot Aptitude Battery Test, including its components (INSB, SMA, CVT) and purpose."
+    },
+    "mcq": null,
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "NDA-DEF-004",
+    "subject": "Defence",
+    "chapter": "Selection Process",
+    "topic": "Conference and Recommendation",
+    "text": "<p><strong>Conference</strong></p><p>At the Conference held on the last day, all the Assessors (i.e., the Psychologist, Ground Testing Officer, and the Interviewing Officer) discuss the candidate's personality and decide whether to recommend them or not. Those recommended by the AFSBs will be required to fill up certain documents at the Boards and subsequently move to the next step.</p>",
+    "details": {
+      "summary": "Process of the final conference where assessors decide on candidate recommendation."
+    },
+    "mcq": null,
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "NDA-DEF-005",
+    "subject": "Defence",
+    "chapter": "Selection Process",
+    "topic": "Medical Examination",
+    "text": "<p><strong>Step 3: Medical Examination</strong></p><p>If recommended by the Selection Board, candidates are sent for medical examination at either:</p><ul><li>Air Force Central Medical Establishment (AFCME), New Delhi</li><li>Institute of Aviation Medicine, Bengaluru</li></ul>",
+    "details": {
+      "summary": "Locations and process for the medical examination stage."
+    },
+    "mcq": null,
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "NDA-DEF-006",
+    "subject": "Defence",
+    "chapter": "Selection Process",
+    "topic": "Merit List",
+    "text": "<p><strong>Step 4: Merit List</strong></p><p>An All India Merit List is compiled based on performance in the written test and AFSB interview, subject to being medically fit. Based on vacancies in various branches/sub-branches, joining instructions are issued to join one of the Training establishments.</p>",
+    "details": {
+      "summary": "Compilation of the final merit list and issuance of joining instructions."
+    },
+    "mcq": null,
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "note-grav-001",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Centripetal Force",
+    "text": "<p><strong>Centripetal force:</strong></p><ul><li>A body moving along the circular path is acting towards the <span style='color: var(--warning);'>center</span>.</li><li><strong>Example:</strong> Centripetal force: moon move around the earth.</li><li>Provided by <span style='color: var(--warning);'>force of Attraction</span> of the earth.</li></ul>",
+    "details": {
+      "summary": "Definition of centripetal force and its application to the moon's orbit."
+    },
+    "mcq": null,
+    "source_pdf": "Physics class notes pdf_compressed.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "note-grav-002",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Gravitational Force",
+    "text": "<p><strong>Gravitational force:</strong></p><ul><li>F &prop; 1/d^2</li><li>F &prop; (m1 x m2) / d^2</li><li><strong>Formula:</strong> F = G (m1 x m2) / d^2</li><li><strong>Value of G:</strong> <span style='color: var(--success);'>6.7 x 10^-11 Nm^2 kg^-2</span></li><li><strong>Derivation for G:</strong> G = (F x d^2) / (m1 x m2)</li></ul>",
+    "details": {
+      "summary": "Newton's Law of Universal Gravitation formula, proportionality, and the value of the gravitational constant G."
+    },
+    "mcq": null,
+    "source_pdf": "Physics class notes pdf_compressed.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "note-grav-003",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Instruments",
+    "text": "<ul><li><strong>Lactometers:</strong> - determine the purity of sample of milk.</li><li><strong>Hydrometers:</strong> - determine density of liquids</li></ul>",
+    "details": {
+      "summary": "Uses of Lactometers and Hydrometers."
+    },
+    "mcq": null,
+    "source_pdf": "Physics class notes pdf_compressed.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "geo-coral-reefs-001",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Coral Reefs",
+    "text": "<p><strong>Coral Reefs in India</strong></p><ul><li>Gulf of Mannar</li><li>A & N Islands - maximum</li><li>Gulf of Kutch</li><li>Lakshadweep Islands - all made</li></ul>",
+    "details": {
+      "summary": "List of locations in India where coral reefs are found, highlighting A & N Islands as having the maximum and Lakshadweep as being entirely composed of them."
+    },
+    "mcq": {
+      "question": "Which islands in India are noted for having the maximum coral reefs?",
+      "options": [
+        "Gulf of Mannar",
+        "A & N Islands",
+        "Gulf of Kutch",
+        "Lakshadweep Islands"
+      ],
+      "correct": 1,
+      "explanation": "The notes explicitly state 'A & N Islands - maximum'."
+    },
+    "source_pdf": "Physical Geography class notes_compressed.pdf",
+    "source_page": 27
+  },
+  {
+    "id": "geo-coral-reefs-002",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Types of Coral Reefs",
+    "text": "<p><strong>Types of Coral Reefs</strong></p><p><strong>1. Barrier Reefs</strong></p><ul><li>Found offshore on the continental shelf.</li><li><em>Example:</em> Great Barrier Reef of the N-E coast of Aus. (Australia) - <span style='color: var(--warning);'>largest coral reef</span>.</li></ul><p><strong>2. Atolls Reefs</strong></p><ul><li>Ring shaped coral reef island.</li><li><em>Examples:</em></li><li style='margin-left: 20px;'>Tiji Atolls</li><li style='margin-left: 20px;'>Funafuthi Atolls of Ellice</li><li style='margin-left: 20px;'>Suvadiva in Maldives</li><li style='margin-left: 20px;'>Chagos Island</li></ul><p><strong>3. Fringing Reefs</strong></p><ul><li>Most commonly found reefs in the world.</li><li><em>Examples:</em></li><li style='margin-left: 20px;'>South Florida reefs</li><li style='margin-left: 20px;'>Sakau Island in New Hebrides.</li></ul>",
+    "details": {
+      "summary": "Classification of coral reefs into Barrier, Atolls, and Fringing types with specific geographical examples for each."
+    },
+    "mcq": {
+      "question": "Which type of coral reef is described as a 'ring shaped coral reef island'?",
+      "options": [
+        "Barrier Reef",
+        "Atolls Reef",
+        "Fringing Reef",
+        "Continental Shelf"
+      ],
+      "correct": 1,
+      "explanation": "The notes define Atolls Reefs as 'ring shaped coral reef island'."
+    },
+    "source_pdf": "Physical Geography class notes_compressed.pdf",
+    "source_page": 27
+  },
+  {
+    "id": "geo-coral-reefs-003",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Coral Bleaching",
+    "text": "<p><strong>Causes of Coral Bleaching</strong></p><ul><li>High temp.</li><li>Extreme low tides</li><li>Ocean acidification</li><li>Diseases</li><li>Ocean pollution</li></ul>",
+    "details": {
+      "summary": "Factors contributing to the bleaching of coral reefs, including temperature, tides, and pollution."
+    },
+    "mcq": {
+      "question": "Which of the following is NOT listed as a cause of coral bleaching in the notes?",
+      "options": [
+        "High temp.",
+        "Ocean acidification",
+        "Deep ocean currents",
+        "Ocean pollution"
+      ],
+      "correct": 2,
+      "explanation": "Deep ocean currents are not mentioned in the list of causes."
+    },
+    "source_pdf": "Physical Geography class notes_compressed.pdf",
+    "source_page": 27
   }
 ]

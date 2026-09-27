@@ -16779,83 +16779,52 @@ function applyGoalGetterTheme() {
   const style = document.createElement('style');
   style.innerHTML = `
     :root {
-      --bg-primary: #120309 !important;
-      --bg-secondary: #210611 !important;
-      --bg-tertiary: #3a0a1e !important;
-      --text-bright: #ff4d6d !important;
-      --text-primary: #ffb3c6 !important;
-      --text-secondary: #ff8fa3 !important;
-      --text-muted: #c9184a !important;
-      --accent: #ff4d6d !important;
-      --border: #590d22 !important;
-      --surface-dark: #210611 !important;
+      --bg-primary: #1e0b2d !important;
+      --bg-secondary: #2d1341 !important;
+      --bg-tertiary: #401b5c !important;
+      --text-bright: #ffffff !important;
+      --text-primary: #fff0f5 !important;
+      --text-secondary: #ffb6c1 !important;
+      --text-muted: #ff99aa !important;
+      --accent: #ff69b4 !important;
+      --border: #5b2c7e !important;
+      --surface-dark: #2d1341 !important;
     }
     body {
-      background-color: var(--bg-primary);
-      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="%234a1528" fill-opacity="0.5" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>') !important;
-      background-size: 60px 60px !important;
-      background-repeat: repeat !important;
+      background: linear-gradient(135deg, #1e0b2d 0%, #371452 100%) !important;
+      background-attachment: fixed !important;
     }
-    .sidebar { background: rgba(33, 6, 17, 0.95) !important; border-right: 2px solid #590d22 !important; }
-    .glass-panel, .metric-card, .menu-item { background: rgba(58, 10, 30, 0.9) !important; border: 1px solid #590d22 !important; color: #ffb3c6 !important; }
-    .menu-item:hover { background: #590d22 !important; color: white !important; }
-    .menu-item.active { background: #ff4d6d !important; color: white !important; }
-    #app-header h1 { color: #ff4d6d !important; text-shadow: 2px 2px 4px rgba(255,77,109,0.3) !important; }
-    #defcon-card, .progress-bar-fill, .token-buy-btn { border-color: #ff4d6d !important; background: #ff4d6d !important; }
-    * { font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif !important; }
+    .sidebar { background: rgba(45, 19, 65, 0.95) !important; border-right: 2px solid var(--border) !important; }
+    .glass-panel, .metric-card, .menu-item { background: rgba(64, 27, 92, 0.8) !important; border: 1px solid var(--border) !important; color: var(--text-primary) !important; backdrop-filter: blur(10px); }
+    .menu-item:hover { background: var(--border) !important; color: white !important; }
+    .menu-item.active { background: var(--accent) !important; color: white !important; box-shadow: 0 0 15px rgba(255,105,180,0.4); }
+    #app-header h1 { color: var(--text-bright) !important; text-shadow: 2px 2px 8px rgba(255,105,180,0.5) !important; font-weight: 700; }
+    #defcon-card, .progress-bar-fill, .token-buy-btn { border-color: var(--accent) !important; background: linear-gradient(90deg, #ff69b4, #da70d6) !important; color: white !important; }
+    * { font-family: 'Inter', 'Segoe UI', Roboto, sans-serif !important; }
   `;
   document.head.appendChild(style);
 
-  // Background music via YouTube Iframe API (Invisible)
+  // Background music via HTML5 Audio (Invisible)
   const startAudio = () => {
-    if (document.getElementById('goalgetter-audio-container')) return;
+    if (window.ggAudio) return;
     
     const oldWidget = document.getElementById('goalgetter-audio-widget');
     if (oldWidget) oldWidget.remove();
-    
-    const container = document.createElement('div');
-    container.id = 'goalgetter-audio-container';
-    container.style.position = 'absolute';
-    container.style.left = '-9999px';
-    container.style.top = '0';
-    container.style.width = '200px';
-    container.style.height = '200px';
-    
-    const playerDiv = document.createElement('div');
-    playerDiv.id = 'goalgetter-yt-player';
-    container.appendChild(playerDiv);
-    document.body.appendChild(container);
-    
-    const initPlayer = () => {
-      window.ggPlayer = new YT.Player('goalgetter-yt-player', {
-        height: '200',
-        width: '200',
-        videoId: 'V-NIDNBw_8E', // Lofi version of Tum Se Hi (allows embedding)
-        playerVars: { 'autoplay': 1, 'loop': 1, 'playlist': 'V-NIDNBw_8E', 'controls': 0 },
-        events: {
-          'onReady': (event) => {
-            const tryPlay = () => {
-              if (window.ggPlayer && window.ggPlayer.getPlayerState !== undefined && window.ggPlayer.getPlayerState() !== 1) {
-                window.ggPlayer.playVideo();
-              }
-            };
-            tryPlay();
-            document.addEventListener('click', tryPlay);
-            document.addEventListener('keydown', tryPlay);
-          }
-        }
-      });
-    };
+    const oldContainer = document.getElementById('goalgetter-audio-container');
+    if (oldContainer) oldContainer.remove();
 
-    if (!window.YT) {
-      const tag = document.createElement('script');
-      tag.src = "https://www.youtube.com/iframe_api";
-      const firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-      window.onYouTubeIframeAPIReady = initPlayer;
-    } else if (window.YT && window.YT.Player) {
-      initPlayer();
-    }
+    window.ggAudio = new Audio('/assets/tum_se_hi.webm');
+    window.ggAudio.loop = true;
+    
+    const tryPlay = () => {
+      if (window.ggAudio.paused) {
+        window.ggAudio.play().catch(e => console.log("Waiting for user interaction..."));
+      }
+    };
+    
+    document.addEventListener('click', tryPlay);
+    document.addEventListener('keydown', tryPlay);
+    tryPlay();
   };
 
   startAudio();

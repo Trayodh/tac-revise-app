@@ -305,25 +305,13 @@ Structure your notes as a comprehensive educational guide.${contextPrompt}`;
 
   prompt += `\n\nIMPORTANT REQUIREMENT: Throughout your response, wrap any important terms, sub-topics, historical dates, organizations, treaties, laws, equations, or doctrines in double square brackets, e.g. [[Constituent Assembly]] or [[Article 19]], so that they act as recursive clickable knowledge graph nodes. Generate at least 15-20 such inline links.
 
-Cover the following sections in your notes:
-1. Level 1: Instant Definition:
-   - A concise one-line explanation of "${topicName}".
-2. Level 2: Detailed Concept Breakdown:
-   - What it is, Why it exists, How it works, Historical background, Key components, Advantages, and Limitations.
-3. Level 3: Exam-Oriented Notes:
-   - Specific relevance to UPSC, CDS, AFCAT, NDA, SSC, and State PSC exams.
-   - Frequently asked areas and common exam traps/misconceptions.
-4. Level 4: Memory Techniques:
-   - Mnemonics, short tricks, easy recall methods, and exam hacks. Wrap in <div class="mnemonic-box"><strong>Mnemonic:</strong> ...</div> or <div class="trap-box"><strong>Exam Trap:</strong> ...</div> or <div class="strategist-tip"><strong>Strategist Tip:</strong> ...</div>.
-5. Level 5: Related Concepts:
-   - Display 10-20 related terms as clickable AI knowledge links (e.g. [[Related Term 1]], [[Related Term 2]]).
-6. Topic Dependency Tree:
-   - Prerequisites (Foundational concepts to understand first, e.g. [[Prerequisite Concept]])
-   - Advanced Concepts (What to study next, e.g. [[Advanced Concept]])
-7. AI Follow-Up Learning:
-   - Common Doubts Students Ask (Generate 5 questions starting with Why, How, When, Where, What if, e.g., "[[Why is this concept vital for national security?]]" - make sure they are fully wrapped in double square brackets so the user can click them to run a follow-up doubt resolution).
-8. Visual Understanding:
-   - Present comparative tables, step-by-step text flowcharts, chronological timelines, or cause-and-effect diagrams to map out the concept structurally.
+Cover the following sections in your notes concisely (keep it brief and highly focused):
+1. Instant Definition: A concise one-line explanation of "${topicName}".
+2. Core Concept: What it is, Why it exists, and How it works (max 2 short paragraphs).
+3. Exam-Oriented Notes: Specific relevance to UPSC, CDS, AFCAT, NDA, and common exam traps.
+4. Visual Understanding: Present a comparative table, simple text flowchart, or cause-and-effect diagram.
+
+Keep it short, punchy, and highly readable.
 
 Use bold headings, structured layout, and do NOT use any emojis, icons, or pictorial characters. Keep the content completely emoji-free and professional.${syllabusText}${pyqText}`;
 
@@ -364,7 +352,7 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
     let formattedText = replyText
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.*?)\*/g, '<em>$1</em>')
-      .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+      .replace(/`([^`\n]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
       .replace(/^#{1,3} (.+)$/gm, '<h4 style="color: var(--accent); margin:16px 0 8px;">$1</h4>')
       .replace(/\n/g, '<br/>');
 
@@ -514,7 +502,7 @@ If the selected text is incomplete or ambiguous, use the surrounding context to 
       let formattedText = replyText
         .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
         .replace(/\*(.*?)\*/g, '<em>$1</em>')
-        .replace(/`([^`]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+        .replace(/`([^`\n]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
         .replace(/^#{1,3} (.+)$/gm, '<h4 style="color: var(--accent); margin:16px 0 8px;">$1</h4>')
         .replace(/\n/g, '<br/>');
 
