@@ -20,7 +20,7 @@ async function generateAIContent(systemPrompt, userPrompt, providerOrder = ['cer
       if (provider === 'gemini') {
         if (!GEMINI_KEY) throw new Error("Gemini API key missing");
         
-        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`, {
+        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_KEY}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -52,7 +52,7 @@ async function generateAIContent(systemPrompt, userPrompt, providerOrder = ['cer
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${CEREBRAS_KEY}` },
           body: JSON.stringify({
-            model: "gpt-oss-120b",
+            model: "llama3.1-70b",
             messages: [
               { role: "system", content: systemPrompt },
               { role: "user", content: userPrompt }
@@ -81,7 +81,7 @@ async function generateAIContent(systemPrompt, userPrompt, providerOrder = ['cer
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${GROQ_KEY}` },
           body: JSON.stringify({
-            model: "openai/gpt-oss-120b",
+            model: "llama-3.3-70b-versatile",
             messages: [
               { role: "system", content: systemPrompt },
               { role: "user", content: userPrompt }
