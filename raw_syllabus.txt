@@ -1,0 +1,743 @@
+1. NDA
+NDA has Mathematics + GAT. GAT contains English, Physics, Chemistry, General Science, History, Geography and Current Events.
+
+A. Mathematics
+Algebra
+Sets
+Set operations
+Venn diagrams
+De Morgan's laws
+Cartesian products
+Relations
+Equivalence relations
+Real numbers
+Complex numbers
+Modulus and argument
+Cube roots of unity
+Binary numbers
+Decimal ↔ binary conversion
+AP
+GP
+HP
+Quadratic equations
+Quadratic roots
+Inequalities
+Linear inequalities
+Linear equations in two variables
+Graphical solution
+Permutations
+Combinations
+Binomial theorem
+Binomial coefficients
+Logarithms
+Laws of logarithms
+Applications of logarithms
+Matrices & Determinants
+Types of matrices
+Matrix operations
+Transpose
+Determinants
+Properties of determinants
+Minors and cofactors
+Adjoint
+Inverse
+Simultaneous linear equations
+Cramer's rule
+Matrix method
+Trigonometry
+Angles and measurement
+Degrees and radians
+Trigonometric ratios
+Trigonometric identities
+Sum and difference formulae
+Multiple angles
+Sub-multiple angles
+Inverse trigonometric functions
+Trigonometric equations
+Heights and distances
+Properties of triangles
+Analytical Geometry
+Coordinate system
+Cartesian coordinates
+Distance formula
+Section formula
+Straight lines
+Slope
+Equation of a line
+Angle between lines
+Distance from point to line
+Circle
+Standard equations
+Tangent and normal
+Parabola
+Ellipse
+Hyperbola
+Conic sections
+3-D coordinates
+Distance between points
+Direction cosines
+Direction ratios
+Plane
+Sphere
+Differential Calculus
+Functions
+Limits
+Continuity
+Differentiation
+Derivatives
+Standard derivatives
+Product/quotient/chain rules
+Higher derivatives
+Increasing/decreasing functions
+Maxima and minima
+Geometrical applications
+Integral Calculus
+Integration
+Standard integrals
+Substitution
+Integration by parts
+Definite integrals
+Properties of definite integrals
+Areas under curves
+Vector Algebra
+Vectors
+Magnitude
+Unit vectors
+Addition/subtraction
+Scalar multiplication
+Dot product
+Cross product
+Applications of vectors
+Statistics & Probability
+Data classification
+Frequency distribution
+Graphical representation
+Mean
+Median
+Mode
+Standard deviation
+Variance
+Correlation
+Probability
+Conditional probability
+Independent events
+Bayes-type basic problems
+Other
+Elementary number theory
+Commercial arithmetic
+Ratio and proportion
+Percentages
+Profit and loss
+Simple/compound interest
+Time and work
+Time, speed and distance
+
+2. NDA GAT
+B. English
+Grammar
+Parts of speech
+Nouns
+Pronouns
+Adjectives
+Adverbs
+Verbs
+Tenses
+Subject-verb agreement
+Articles
+Prepositions
+Conjunctions
+Modals
+Active/passive voice
+Direct/indirect speech
+Sentence structure
+Vocabulary
+Synonyms
+Antonyms
+One-word substitution
+Idioms and phrases
+Sentence completion
+Error detection
+Fill in the blanks
+Cloze test
+Para-jumbles
+Reading comprehension
+Sentence arrangement
+Cohesion
+
+C. Physics
+Units and measurements
+Physical quantities
+Scalars and vectors
+Motion
+Velocity
+Acceleration
+Newton's laws
+Force
+Momentum
+Friction
+Equilibrium
+Work
+Power
+Energy
+Gravitation
+Pressure
+Density
+Specific gravity
+Archimedes' principle
+Properties of matter
+States of matter
+Heat
+Temperature
+Thermal expansion
+Heat transfer
+Sound
+Waves
+Optics
+Reflection
+Refraction
+Lenses
+Mirrors
+Electricity
+Current
+Voltage
+Resistance
+Ohm's law
+Electrical power
+Magnetism
+Electromagnetic effects
+Simple machines
+Basic electronics
+
+D. Chemistry
+Matter
+Elements
+Compounds
+Mixtures
+Atomic structure
+Mole concept
+Atomic mass
+Molecular mass
+Valency
+Chemical equations
+Chemical reactions
+Acids
+Bases
+Salts
+Oxidation/reduction
+Metals
+Non-metals
+Carbon
+Hydrocarbons
+Organic compounds
+Fuels
+Air
+Water
+Atmospheric chemistry
+Fertilizers
+Common industrial chemicals
+Everyday chemistry
+Environmental chemistry
+
+E. General Science / Biology
+Cell
+Cell organelles
+Tissues
+Human body
+Digestive system
+Respiratory system
+Circulatory system
+Nervous system
+Endocrine system
+Excretory system
+Reproductive system
+Blood
+Nutrition
+Vitamins
+Diseases
+Immunity
+Microorganisms
+Plant biology
+Photosynthesis
+Respiration
+Reproduction
+Genetics basics
+Ecology
+Food chains
+Ecosystems
+Biodiversity
+Environment
+Scientific discoveries
+Everyday science
+
+3. NDA History
+Ancient India
+Indus Valley Civilization
+Vedic period
+Mahajanapadas
+Buddhism
+Jainism
+Mauryan Empire
+Gupta Empire
+Sangam age
+Ancient Indian culture
+Art and architecture
+Science and technology
+Medieval India
+Early medieval kingdoms
+Delhi Sultanate
+Vijayanagara Empire
+Mughal Empire
+Marathas
+Bhakti movement
+Sufi movement
+Medieval culture
+Architecture
+Modern India
+European arrival
+British expansion
+East India Company
+Governor-Generals/Viceroys
+Revolt of 1857
+Socio-religious reform movements
+Indian National Congress
+Swadeshi movement
+Gandhian era
+Non-Cooperation
+Civil Disobedience
+Quit India
+Revolutionary movements
+Constitutional development
+Independence
+Partition
+
+4. NDA Geography
+Physical Geography
+Earth
+Interior of Earth
+Rocks
+Minerals
+Earthquakes
+Volcanoes
+Plate tectonics
+Mountains
+Plateaus
+Plains
+Rivers
+Lakes
+Oceans
+Atmosphere
+Temperature
+Pressure
+Winds
+Monsoon
+Clouds
+Rainfall
+Climate
+Natural vegetation
+Soils
+Indian Geography
+Physiographic divisions
+Himalayas
+Northern Plains
+Peninsular Plateau
+Coastal Plains
+Islands
+Indian rivers
+Indian climate
+Monsoon
+Soils
+Agriculture
+Irrigation
+Minerals
+Energy resources
+Industries
+Transport
+Population
+Urbanisation
+States and UTs
+World Geography
+Continents
+Oceans
+Major mountains
+Rivers
+Deserts
+Lakes
+Climate zones
+Natural resources
+Major industries
+Important geographical locations
+
+5. NDA Current Affairs
+National affairs
+International affairs
+Defence
+Space
+Science & technology
+Government schemes
+Economy
+Environment
+Sports
+Awards
+Appointments
+Books/authors
+Important days
+Summits
+International organisations
+Military exercises
+Defence acquisitions
+Missiles
+Aircraft
+Ships/submarines
+Nuclear developments
+Important personalities
+
+6. CDS
+A. CDS English
+Grammar
+Parts of speech
+Nouns
+Pronouns
+Adjectives
+Adverbs
+Verbs
+Tenses
+Articles
+Prepositions
+Conjunctions
+Subject-verb agreement
+Voice
+Narration
+Modals
+Vocabulary
+Synonyms
+Antonyms
+One-word substitution
+Idioms
+Phrases
+Spelling
+Word usage
+Sentence improvement
+Error spotting
+Fill in the blanks
+Cloze test
+Sentence completion
+Para-jumbles
+Ordering of sentences
+Reading comprehension
+
+7. CDS Elementary Mathematics
+Arithmetic
+Number system
+HCF/LCM
+Decimal/fractions
+Ratio/proportion
+Percentage
+Profit/loss
+Simple interest
+Compound interest
+Average
+Time and work
+Pipes and cisterns
+Time, speed and distance
+Trains
+Boats and streams
+Algebra
+Basic algebra
+Polynomials
+Factorisation
+Linear equations
+Simultaneous equations
+Quadratic equations
+Inequalities
+Sets
+Indices
+Surds
+Geometry
+Lines
+Angles
+Triangles
+Congruence
+Similarity
+Quadrilaterals
+Parallelogram
+Rectangle
+Square
+Circle
+Tangents
+Mensuration
+Trigonometry
+Trigonometric ratios
+Standard angles
+Identities
+Heights and distances
+Mensuration
+Area
+Perimeter
+Surface area
+Volume
+Cube
+Cuboid
+Cylinder
+Cone
+Sphere
+Statistics
+Data
+Frequency distributions
+Mean
+Median
+Mode
+Graphs
+Histograms
+Pie charts
+
+8. CDS General Knowledge
+History
+Geography
+Physical geography
+Indian geography
+World geography
+Economic geography
+Agriculture
+Industries
+Resources
+Climate
+Population
+Polity
+Constitution
+Preamble
+Fundamental Rights
+DPSP
+Fundamental Duties
+President
+Vice-President
+Prime Minister
+Parliament
+Supreme Court
+High Courts
+Governor
+Chief Minister
+State legislature
+Federalism
+Local government
+Constitutional bodies
+Elections
+Emergency provisions
+Amendments
+Important constitutional articles
+Economy
+Basic economics
+National income
+GDP/GNP
+Inflation
+Deflation
+Monetary policy
+Fiscal policy
+Banking
+RBI
+Budget
+Taxation
+Public finance
+Balance of payments
+Foreign trade
+Poverty
+Unemployment
+Economic reforms
+Government schemes
+Science
+Physics
+Chemistry
+Biology
+Human biology
+Environment
+Everyday science
+Scientific developments
+Space
+Defence technology
+Current Affairs
+National
+International
+Defence
+Economy
+Science & technology
+Environment
+Sports
+Awards
+Appointments
+Government schemes
+International organisations
+Military exercises
+Books/authors
+Important personalities
+
+9. AFCAT
+A. AFCAT English
+Comprehension
+Error detection
+Sentence completion
+Fill in the blanks
+Synonyms
+Antonyms
+Cloze test
+Idioms and phrases
+Analogy
+Sentence rearrangement
+One-word substitution
+Vocabulary
+Grammar
+Reading comprehension
+
+10. AFCAT General Awareness
+History
+Ancient India
+Medieval India
+Modern India
+Freedom movement
+World history basics
+Important battles
+Important personalities
+Military history
+Geography
+Physical geography
+Indian geography
+World geography
+Rivers
+Mountains
+Climate
+Soils
+Agriculture
+Minerals
+Industries
+Transport
+Important locations
+Polity
+Constitution
+Parliament
+President
+Prime Minister
+Supreme Court
+Fundamental Rights
+DPSP
+Constitutional bodies
+Elections
+Governance
+Economy
+Banking
+RBI
+Budget
+Taxation
+Inflation
+GDP
+Monetary policy
+Fiscal policy
+Economic schemes
+Financial markets
+Science
+Physics
+Chemistry
+Biology
+Human body
+Environment
+Everyday science
+Science & Technology
+Space
+Nuclear technology
+Biotechnology
+IT
+AI
+Defence technology
+Missiles
+Aircraft
+Naval systems
+Satellites
+Defence
+Indian Armed Forces
+Commands
+Ranks
+Weapons
+Missiles
+Aircraft
+Helicopters
+Ships
+Submarines
+Tanks
+Artillery
+Defence organisations
+DRDO
+ISRO
+Military exercises
+Defence agreements
+Defence acquisitions
+Important operations
+Military awards
+Other
+Sports
+Awards
+Books/authors
+Personalities
+National/international organisations
+Art & culture
+Environment & ecology
+Current affairs
+
+11. AFCAT Numerical Ability
+Number system
+Number series
+Decimal fractions
+Simplification
+HCF/LCM
+Ratio/proportion
+Percentage
+Average
+Profit/loss
+Simple interest
+Compound interest
+Time and work
+Time and distance
+Trains
+Boats and streams
+Races
+Mixture and allegation
+Area
+Perimeter
+Probability
+Clocks
+
+12. AFCAT Reasoning & Military Aptitude
+Verbal Reasoning
+Analogy
+Classification
+Series
+Coding-decoding
+Blood relations
+Direction sense
+Ranking
+Alphabet tests
+Word formation
+Venn diagrams
+Logical sequence
+Statement/conclusion
+Syllogism
+Mathematical operations
+Missing numbers
+Non-Verbal Reasoning
+Figure analogy
+Figure classification
+Figure series
+Pattern completion
+Embedded figures
+Mirror images
+Water images
+Paper folding
+Paper cutting
+Cubes
+Dice
+Figure counting
+Spatial visualization
+Spatial orientation
+Military Aptitude
+Spatial reasoning
+Visual reasoning
+Pattern recognition
+Mental rotation
+Direction/orientation
+Figure relationships
