@@ -5,6 +5,7 @@ const fs = require('fs');
 const GEMINI_API_KEY   = process.env.GEMINI_API_KEY;
 const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY;
 const GROQ_API_KEY     = process.env.GROQ_API_KEY;
+const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 
 // ─── Load NOTES_DATABASE ───────────────────────────────────────────────────
 let NOTES_DATABASE;
@@ -96,12 +97,37 @@ async function generateWithFallback(userPrompt, retryDepth = 0) {
           method: 'POST',
           headers: { 'Authorization': `Bearer ${GROQ_API_KEY}`, 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            model: 'llama-3.3-70b-versatile',
+            model: 'openai/gpt-oss-120b',
             messages: [
               { role: 'system', content: SYSTEM_PROMPT },
               { role: 'user', content: userPrompt }
             ],
             max_tokens: 8192,
+            temperature: 0.7
+          })
+        });
+        const data = await res.json();
+        if (!res.ok) throw Object.assign(new Error(data.error?.message || res.status), { status: res.status });
+        return data.choices[0].message.content || '';
+      }
+    },
+    {
+      name: 'OpenRouter',
+      available: !!OPENROUTER_API_KEY,
+      call: async () => {
+        const url = `https://openrouter.ai/api/v1/chat/completions`;
+        const res = await fetch(url, {
+          method: 'POST',
+          headers: { 
+            'Authorization': `Bearer ${OPENROUTER_API_KEY}`, 
+            'Content-Type': 'application/json' 
+          },
+          body: JSON.stringify({
+            model: 'nvidia/nemotron-3-super-120b-a12b:free',
+            messages: [
+              { role: 'system', content: SYSTEM_PROMPT },
+              { role: 'user', content: userPrompt }
+            ],
             temperature: 0.7
           })
         });

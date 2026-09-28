@@ -1,0 +1,166 @@
+[
+  {
+    "id": "geo_earthquake_seismic_waves_001",
+    "topic": "Earthquakes: Epicenter, Focus, and Seismic Wave Properties (P-wave, S-wave, Body & Surface waves)",
+    "text": "<p><strong>Earthquake Terminology & Wave Classification:</strong></p><ul><li><strong>Epicenter:</strong> The point on the Earth's surface directly above the focus.</li><li><strong>Focus / Hypocenter:</strong> The point within the earth where an earthquake rupture starts (energy release point).</li></ul><p><strong>Two types of waves:</strong></p><ul><li><strong>Body Waves:</strong> Generated due to release of energy at focus &amp; move in all directions. Include:<ul><li>P - waves (Primary waves)</li><li>S - waves (Secondary waves)</li></ul></li><li><strong>Surface Waves:</strong> Body waves interact with the surface rock &amp; generate a new set of waves, mainly L - waves.</li></ul><p style=\"color: var(--warning);\"><em>* Note on Velocity:</em> The velocity of wave changes as they travel through materials with different densities.</p><p style=\"color: var(--warning);\"><em>* Note on Density:</em> Denser material <span style=\"color: red;\">&#8595;</span> higher is the velocity.</p><h3 style=\"color: var(--success);\">P - Wave (Primary Wave)</h3><ul><li>Move faster</li><li>1st to arrive at surface</li><li>Similar to sound waves</li><li>Travel through:<ul><li>gaseous</li><li>liquid</li><li>solid</li></ul></li><li>Velocity order: <span style=\"font-style: italic;\">S &gt; l &gt; G</span> (Solid &gt; liquid &gt; gas) with max velocity in solid.</li><li>Longitudinal wave (sound)</li><li>1.7 times faster than S wave</li><li>Vibrate <strong>parallel</strong> to the direction of propagation.</li></ul><h3 style=\"color: var(--success);\">S - Wave (Secondary Wave)</h3><ul><li>2nd to reach</li><li>Transverse wave</li><li>More destructive than P wave</li><li>Travels <strong>only in solid</strong></li><li>Perpendicular to the wave direction in the vertical plane</li><li>Doesn't pass through core</li></ul>",
+    "details": {
+      "summary": "Comprehensive notes on seismic waves generated during earthquakes. Covers the distinction between body waves (P-waves and S-waves) and surface waves (L-waves). Key physical properties of P-waves (longitudinal, fastest, travels through solid, liquid, and gas, vibrates parallel to propagation direction) and S-waves (transverse, slower, travels only through solids, cannot pass through the Earth's core, more destructive). Also highlights how wave velocity increases with the density of the medium."
+    },
+    "mcq": {
+      "question": "Which of the following seismic waves is a transverse wave, travels only through solids, and cannot pass through the Earth's liquid core?",
+      "options": [
+        "P-wave",
+        "S-wave",
+        "L-wave",
+        "Rayleigh wave"
+      ],
+      "correct": 1,
+      "explanation": "S-waves (secondary waves) are transverse waves and cannot propagate through liquids or gases, meaning they cannot pass through the liquid outer core of the Earth."
+    },
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  },
+  {
+    "id": "note-geo-002",
+    "topic": "Earthquake",
+    "text": "<p><strong>Earthquake</strong></p><ul><li>Sudden <span style='color: var(--warning);'>endogenic force</span></li><li>Energy released during earthquake is <span style='color: var(--warning);'>elastic energy</span></li><li>Natural earthquakes occur in <strong>lithosphere</strong></li><li>98% oceanic crust</li><li>2% continental crust</li></ul>",
+    "details": {
+      "summary": "An earthquake is a sudden endogenic force; the energy released is elastic energy. Natural earthquakes occur in the lithosphere, with 98% in oceanic crust and 2% in continental crust."
+    },
+    "mcq": null,
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  },
+  {
+    "id": "note-geo-005",
+    "topic": "Focus / Hypocenter & Epicenter",
+    "text": "<p><strong>Focus / Hypocenter:</strong></p><ul><li>Origin of earthquake</li><li>Point where energy is released</li></ul><p><strong>Epicenter:</strong></p><ul><li>Point on surface nearest to the focus</li><li>1st one to experience the waves</li><li>Point directly above the focus</li><li><span style='color: var(--warning);'>Maximum damage</span></li></ul>",
+    "details": {
+      "summary": "The focus (hypocenter) is the origin of the earthquake and the point where energy is released. The epicenter is the surface point nearest to / directly above the focus; it is the first to experience the waves and suffers maximum damage."
+    },
+    "mcq": null,
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  },
+  {
+    "id": "seismic-lwave-001",
+    "topic": "Surface Wave (L-Wave)",
+    "text": "<p><strong><span style='color: var(--warning);'>Surface Wave (L-Wave)</span></strong></p><ul><li>Last to report on <em>seismograph</em>.</li><li>More destructive.</li><li>Cause displacement of rocks.</li><li>Least speed.</li><li>Most damaging waves.</li><li>Large <em>Amplitude</em>.</li><li><strong>P + S \u2192 L wave</strong></li></ul><p><em>Annotation:</em> waves are not reported (in the shadow zone region).</p>",
+    "details": {
+      "summary": "Properties of Surface (L) waves: slowest, most destructive, large amplitude, last to register on seismograph, formed by combination of P and S waves."
+    },
+    "mcq": null,
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  },
+  {
+    "id": "seismic-pwave-002",
+    "topic": "P-Wave and Shadow Zone",
+    "text": "<p><strong><span style='color: var(--warning);'>P-Wave</span></strong></p><ul><li>Seismographs located beyond <strong>145\u00b0</strong> from epicentre record the arrival <em>P-waves</em>, <span style='color: var(--danger);'>\u2717 S-wave</span> (S-wave not recorded).</li></ul><p><strong><span style='color: var(--warning);'>Shadow Zone</span></strong></p><p><em>Diagram description (Earth cross-section):</em> A circular cross-section of the Earth with a central <strong>core</strong>. Seismic rays emanate from a source point at the top. Two shaded wedge regions on either side of the core are labelled <strong>P-wave shadow zone</strong> and <strong>S-wave shadow zone</strong>. Angular markers are shown at <strong>105\u00b0</strong> and <strong>145\u00b0</strong> on both sides. Arrows at the base indicate <em>\"No direct P wave\"</em> reaching the shadow zone region.</p>",
+    "details": {
+      "summary": "P-waves are recorded by seismographs beyond 145\u00b0 from the epicentre, while S-waves are not. The P-wave shadow zone is depicted between 105\u00b0 and 145\u00b0."
+    },
+    "mcq": null,
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  },
+  {
+    "id": "seismic-swave-003",
+    "topic": "S-Wave and Shadow Zone",
+    "text": "<p><strong><span style='color: var(--warning);'>S-Wave</span></strong></p><ul><li>Entire zone beyond <strong>105\u00b0</strong> does not receive S-waves.</li><li>Shadow zone larger.</li><li><strong>S-Wave &gt; P-wave</strong> (shadow zone of S-wave is larger than that of P-wave).</li></ul><p><em>Diagram description (Earth cross-section):</em> A circular cross-section of the Earth with a central <strong>core</strong>. Seismic rays radiate from a source at the top. A large shaded band across the lower portion is labelled <strong>S-wave shadow zone</strong>, bounded by <strong>105\u00b0</strong> markers on both sides. A note reads <em>\"Not direct S-wave received here\"</em>.</p>",
+    "details": {
+      "summary": "S-waves do not reach the entire zone beyond 105\u00b0 from the source; their shadow zone is larger than the P-wave shadow zone."
+    },
+    "mcq": null,
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  },
+  {
+    "id": "seismic-zones-table-004",
+    "topic": "Seismic / Earthquake Risk Zones and Intensity",
+    "text": "<p><strong><span style='color: var(--warning);'>Seismic Zone \u2013 Intensity Table</span></strong></p><table border='1' cellpadding='6' cellspacing='0' style='border-collapse: collapse;'><thead><tr><th style='text-align:left;'>Zone</th><th style='text-align:left;'>Intensity</th></tr></thead><tbody><tr><td><strong>Zone V</strong></td><td>Very high risk zone \u2013 area liable to shaking <strong>IX</strong></td></tr><tr><td><strong>Zone IV</strong></td><td>High risk zone (Intensity <strong>VIII</strong>)</td></tr><tr><td><strong>Zone III</strong></td><td>Moderate risk zone (Intensity <strong>VII</strong>)</td></tr><tr><td><strong>Zone II</strong></td><td>Low risk zone <strong>VI</strong> &amp; lower</td></tr></tbody></table>",
+    "details": {
+      "summary": "Classification of seismic zones by risk and corresponding shaking intensity: Zone V (very high, IX), Zone IV (high, VIII), Zone III (moderate, VII), Zone II (low, VI and lower)."
+    },
+    "mcq": null,
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  },
+  {
+    "id": "note-seismic-001",
+    "topic": "Seismic Waves \u2013 Epicenter, Focus & Two Types of Waves",
+    "text": "<p><strong>Diagram (Earthquake Wave Propagation Model):</strong> A 3D rectangular block representing the Earth's crust is drawn with a set of <em>concentric circles</em> radiating from a central point inside the block. The central point is labelled <span style='color: var(--warning);'><strong>Focus / Hypocenter</strong></span> (the point of origin of the earthquake within the Earth). A vertical line connects the focus to a point on the top surface of the block, which is labelled <span style='color: var(--warning);'><strong>Epicenter</strong></span> (the point on the surface directly above the focus).</p><p><strong>Two Types of Seismic Waves:</strong></p><ul><li><strong>Body Waves</strong> \u2013 generated due to the <em>release of energy at the focus</em>; they <em>move in all directions</em>. Sub-types: <ul><li><strong>P-Waves</strong></li><li><strong>S-Waves</strong></li></ul></li><li><strong>Surface Waves</strong> \u2013 generated when <em>body waves interact with the surface rock</em> and generate a new set of waves. Sub-type: <ul><li><strong>L-Wave</strong></li></ul></li></ul>",
+    "details": {
+      "summary": "Defines the focus (hypocenter) and epicenter via a 3D block diagram and classifies seismic waves into body waves (P and S) and surface waves (L-wave)."
+    },
+    "mcq": null,
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  },
+  {
+    "id": "note-seismic-002",
+    "topic": "P-Wave (Primary Wave) \u2013 Properties",
+    "text": "<p><strong>P-Wave</strong> (highlighted):</p><ul><li><span style='color: var(--success);'>Move faster</span> than other seismic waves.</li><li><span style='color: var(--success);'>1st to arrive at the surface.</span></li><li>Similar to <em>sound waves</em>.</li><li>Travel through <strong>gaseous, liquid and solid</strong> media.</li><li>Velocity order (max velocity): <strong>S &gt; L &gt; G</strong> (Solid &gt; Liquid &gt; Gas).</li><li>It is a <strong>longitudinal wave</strong> (like sound).</li><li><span style='color: var(--warning);'>1.7 times faster than S-Wave.</span></li><li>Particles <strong>vibrate parallel</strong> to the direction of wave propagation.</li></ul>",
+    "details": {
+      "summary": "P-waves are the fastest, first-arriving longitudinal seismic waves that travel through solids, liquids and gases, vibrating parallel to propagation and moving 1.7 times faster than S-waves."
+    },
+    "mcq": null,
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  },
+  {
+    "id": "note-seismic-003",
+    "topic": "S-Wave (Secondary Wave) \u2013 Properties",
+    "text": "<p><strong>S-Wave</strong> (highlighted):</p><ul><li><span style='color: var(--warning);'>2nd to reach</span> the surface.</li><li>It is a <strong>transverse wave</strong>.</li><li><span style='color: var(--warning);'>More destructive than P-Wave.</span></li><li><span style='color: var(--success);'>Travels only in solid</span> media.</li><li>Particles vibrate <strong>perpendicular</strong> to the wave direction in the vertical plane.</li><li><span style='color: var(--warning);'>Doesn't pass through the core</span> (because the outer core is liquid).</li></ul>",
+    "details": {
+      "summary": "S-waves are slower, second-arriving transverse seismic waves that travel only through solids, vibrate perpendicular to propagation, are more destructive than P-waves and cannot pass through the liquid core."
+    },
+    "mcq": null,
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  },
+  {
+    "id": "note-seismic-004",
+    "topic": "Velocity of Seismic Waves & Density Relationship",
+    "text": "<p><span style='color: var(--warning);'><strong>Note 1:</strong></span> The <em>velocity of a wave changes</em> as it travels through materials with <strong>different densities</strong>.</p><p><span style='color: var(--warning);'><strong>Note 2:</strong></span> <strong>Denser material</strong> \u2192 <em>higher is the velocity</em> of the wave.</p>",
+    "details": {
+      "summary": "Seismic wave velocity varies with the density of the material it travels through; denser materials yield higher wave velocity."
+    },
+    "mcq": null,
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  },
+  {
+    "id": "geo-seismic-001",
+    "topic": "Seismic Waves, Shadow Zones & Earthquake Intensity Zones",
+    "text": "<p><strong>Surface Wave (L-Wave)</strong></p><ul><li>last to report on seismograph</li><li>more destructive</li><li>cause displacement of rocks</li><li>least speed</li><li>most damaging waves</li><li>large Amplitude</li></ul><p>P + S \u2192 L wave <span style='color: var(--warning);'><em>(waves are not reported)</em></span></p><hr><p><strong>S-Wave</strong></p><ul><li>entire zone beyond 105\u00b0 does not receive S-waves</li><li>shadow zone larger</li><li>S-wave &gt; P-wave</li></ul><p><strong>Shadow Zone</strong></p><hr><p><strong>P-Wave</strong></p><ul><li>Seismographs located beyond 145\u00b0 from epicentre, record the arrival P-waves, X S-wave</li></ul><hr><p><strong>Diagram Descriptions:</strong></p><p><em>S-Wave Shadow Zone Diagram:</em> A circular cross-section of the Earth showing the core at the center. Seismic wave rays emanate from a point at the top. The region between 105\u00b0 and 105\u00b0 (on both sides of the epicenter) is marked as the <strong>S-wave shadow zone</strong>. The annotation reads: <strong>&quot;Not direct S-wave received here.&quot;</strong></p><p><em>P-Wave Shadow Zone Diagram:</em> A circular cross-section of the Earth showing the core at the center. Seismic wave rays emanate from a point at the top. The region between 105\u00b0 and 145\u00b0 (on both sides of the epicenter) is marked as the <strong>P-wave shadow zone</strong>. Beyond 145\u00b0, annotations read: <strong>&quot;No direct P wave&quot;</strong> on both sides.</p><hr><p><strong>Zone vs Intensity Table:</strong></p><table><thead><tr><th>Zone</th><th>Intensity</th></tr></thead><tbody><tr><td>Zone V</td><td>Very high risk zone \u2014 area liable to shaking IX</td></tr><tr><td>Zone IV</td><td>High risk zone (intensity VIII)</td></tr><tr><td>Zone III</td><td>Moderate risk zone (intensity VII)</td></tr><tr><td>Zone II</td><td>Low risk zone VI &amp; lower</td></tr></tbody></table>",
+    "details": {
+      "summary": "Notes on seismic waves (L-waves, S-waves, P-waves), their characteristics, shadow zones (S-wave shadow zone beyond 105\u00b0, P-wave shadow zone between 105\u00b0\u2013145\u00b0), and earthquake intensity zoning (Zone II to Zone V) with corresponding Mercalli intensities."
+    },
+    "mcq": {
+      "question": "Which wave is last to report on a seismograph and is the most destructive?",
+      "options": [
+        "P-wave",
+        "S-wave",
+        "L-wave (Surface Wave)",
+        "Body Wave"
+      ],
+      "correct": 2,
+      "explanation": "L-waves (Surface Waves) are the last to report on a seismograph, have the least speed, largest amplitude, and are the most destructive and damaging waves."
+    },
+    "image_description": "Two diagrams: (1) S-wave shadow zone diagram showing Earth's cross-section with core, wave rays from epicenter, and the shadow zone between 105\u00b0 angles where no direct S-waves are received. (2) P-wave shadow zone diagram showing Earth's cross-section with core, wave rays from epicenter, and the shadow zone between 105\u00b0 and 145\u00b0 where no direct P-waves are received. Also includes a Zone vs Intensity table listing Zones II through V with corresponding Mercalli intensities VI through IX.",
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  },
+  {
+    "id": "note-geo-seismic-zones-001",
+    "topic": "Seismic Zones of India (Zone - State Mapping)",
+    "text": "<p><strong>Seismic Zones of India</strong> (Zone \u2013 State)</p><table border='1' cellpadding='6' cellspacing='0'><tr><th><strong>Zone</strong></th><th><strong>State / Region</strong></th></tr><tr><td><span style='color: var(--warning);'>Zone V (Red)</span> \u2013 V.H Risk</td><td>Part of Kashmir, N-E, UK, HP, A&amp;N, Rann of Kutch</td></tr><tr><td><span style='color: var(--warning);'>Zone IV (Orange)</span> \u2013 High Risk</td><td>Indo-Gangetic basin, Delhi, J&amp;K, MH, Patna</td></tr><tr><td><span style='color: var(--warning);'>Zone III (Yellow)</span> \u2013 Moderate</td><td>Part of Kashmir, Western Himalayas</td></tr><tr><td><span style='color: var(--success);'>Zone II (Blue)</span> \u2013 Low Risk</td><td>MP, Tel., E-Raj., Jharkhand, Karnataka</td></tr><tr><td><span style='color: var(--success);'>Zone I (Green)</span> \u2013 No Risk</td><td>(No states listed)</td></tr></table>",
+    "details": {
+      "summary": "Mapping of India's seismic zones (I to V) with their risk level, colour code and the states/regions falling under each zone."
+    },
+    "mcq": null,
+    "subject": "Geography",
+    "chapter": "Earthquakes"
+  }
+]

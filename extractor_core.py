@@ -111,7 +111,7 @@ Format for `question_database`:
 Do not include any other text, explanations, or conversational filler. Return ONLY the raw JSON format described above.
 """
 
-def extract_from_image(b64_img, prompt):
+def extract_content(b64_img, page_text, prompt):
     max_retries = 3
     base_delay = 15
 
@@ -121,7 +121,7 @@ def extract_from_image(b64_img, prompt):
     
     client = genai.Client(api_key=GEMINI_API_KEY)
 
-    gemini_models = ["gemini-2.5-flash", "gemini-3.5-flash"]
+    gemini_models = [] # Skipped due to rate limits: ["gemini-2.5-flash", "gemini-3.5-flash"]
 
     for model_name in gemini_models:
         print(f"Attempting extraction with native_gemini - {model_name}...")
@@ -178,19 +178,16 @@ def extract_from_image(b64_img, prompt):
                     continue
                 break
 
-    # Fallback: Groq with Qwen (text-only, no vision, but try anyway)
-    print("Gemini models exhausted. Trying Groq fallback...")
-    groq_key = os.environ.get("GROQ_API_KEY")
+    # Fallback: Groq with text (since vision models are rate limited or unavailable)
+    print("Gemini models exhausted. Trying Groq fallback with text...")
+    groq_key = None # os.environ.get("GROQ_API_KEY")
     if groq_key:
         try:
             url = "https://api.groq.com/openai/v1/chat/completions"
             headers = {"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"}
             data = {
-                "model": "qwen/qwen3.8-27b",
-                "messages": [{"role": "user", "content": [
-                    {"type": "text", "text": prompt},
-                    {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64_img}"}}
-                ]}],
+                "model": "openai/gpt-oss-120b",
+                "messages": [{"role": "user", "content": prompt + "\n\nTEXT CONTENT OF PAGE:\n" + page_text}],
                 "temperature": 0.1
             }
             response = requests.post(url, headers=headers, json=data, timeout=120)
@@ -208,6 +205,44 @@ def extract_from_image(b64_img, prompt):
             return json.loads(raw_text.strip())
         except Exception as e:
             print(f"Groq fallback failed: {e}")
+            
+    print("Groq exhausted. Trying OpenRouter fallback with text...")
+    or_key = os.environ.get("OPENROUTER_API_KEY")
+    if or_key:
+        or_models = [
+            "nvidia/nemotron-3-super-120b-a12b:free",
+            "google/gemma-4-31b-it:free",
+            "qwen/qwen3.8-27b:free",
+            "thinkingmachines/inkling:free",
+            "liquid/lfm-2.5-2.6b:free"
+        ]
+        url = "https://openrouter.ai/api/v1/chat/completions"
+        headers = {"Authorization": f"Bearer {or_key}", "Content-Type": "application/json"}
+        
+        for model in or_models:
+            print(f"Attempting OpenRouter model: {model}...")
+            try:
+                data = {
+                    "model": model,
+                    "messages": [{"role": "user", "content": prompt + "\n\nTEXT CONTENT OF PAGE:\n" + page_text}],
+                    "temperature": 0.1
+                }
+                response = requests.post(url, headers=headers, json=data, timeout=120)
+                response.raise_for_status()
+                res_json = response.json()
+                raw_text = res_json["choices"][0]["message"]["content"]
+                
+                if raw_text.startswith('```json'):
+                    raw_text = raw_text[7:]
+                if raw_text.startswith('```'):
+                    raw_text = raw_text[3:]
+                if raw_text.endswith('```'):
+                    raw_text = raw_text[:-3]
+                
+                return json.loads(raw_text.strip())
+            except Exception as e:
+                print(f"OpenRouter model {model} failed: {e}")
+                continue
                 
     print("All models exhausted for this page.")
     return None
@@ -227,9 +262,10 @@ def extract_page(pdf_path, page_num):
         pix = page.get_pixmap(dpi=150)
         img_bytes = pix.tobytes("jpeg")
         b64_img = base64.b64encode(img_bytes).decode('utf-8')
+        page_text = page.get_text()
         doc.close()
         
-        result = extract_from_image(b64_img, MASTER_PROMPT)
+        result = extract_content(b64_img, page_text, MASTER_PROMPT)
         
         if result:
             if isinstance(result, list):

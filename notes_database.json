@@ -19082,5 +19082,680 @@
     },
     "source_pdf": "Physical Geography class notes_compressed.pdf",
     "source_page": 30
+  },
+  {
+    "id": "cds-vocab-insight-2027",
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "topic": "High-Frequency Words & Confusing Pairs",
+    "text": "<p>Based on the CDS exam analysis, the following high-frequency vocabulary words are highly relevant for the English paper:</p><ul><li><strong><span style=\"color: var(--warning);\">Ubiquitous</span></strong>: Present, appearing, or found everywhere. <em style=\"color: gray;\">Example: \"Smartphones have become ubiquitous in modern society.\"</em></li><li><strong><span style=\"color: var(--warning);\">Poltroon</span></strong>: An utter coward. <em style=\"color: gray;\">Example: \"His poltroon behavior during the crisis disappointed everyone.\"</em></li><li><strong><span style=\"color: var(--warning);\">Climatic</span></strong>: Relating to climate or weather conditions. <em style=\"color: gray;\">Example: \"The region is experiencing severe climatic shifts.\"</em></li><li><strong><span style=\"color: var(--warning);\">Climactic</span></strong>: Forming or relating to a climax; the most exciting or important point. <em style=\"color: gray;\">Example: \"The film builds up to a climactic battle scene.\"</em></li></ul>",
+    "details": {
+      "summary": "This note covers essential vocabulary words highlighted in CDS exam feedback, focusing on definitions, usage, and distinguishing between confusing pairs like climatic and climactic."
+    },
+    "mcq": {
+      "question": "Choose the word that best fits the blank: 'The ______ scene of the play left the audience spellbound.'",
+      "options": [
+        "Climatic",
+        "Climactic",
+        "Ubiquitous",
+        "Poltroon"
+      ],
+      "correct": 1,
+      "explanation": "'Climactic' refers to a climax or the most exciting point of a performance or event, which fits the context of a play's scene. 'Climatic' refers to weather/climate."
+    },
+    "source_pdf": "doc2.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "chem-metals-water-reaction",
+    "subject": "Chemistry",
+    "chapter": "Metals and Non-metals",
+    "topic": "Reactivity of Metals with Water",
+    "text": "<p><strong>Reactivity of Metals with Water</strong></p><ul><li><strong>Potassium and Sodium</strong> react violently with cold water. In the case of sodium and potassium, the reaction is so violent and exothermic that the evolved hydrogen immediately catches fire.</li><li><strong>Calcium</strong> with water is less violent. Calcium starts floating because the bubbles of hydrogen gas formed stick to the surface of the metal.</li><li><strong>Magnesium</strong> does not react with cold water. It reacts with hot water. It also starts floating due to the bubbles of hydrogen gas sticking to its surface.</li><li><strong>Aluminium, Iron and Zinc</strong> do not react either with cold or hot water. But they react with steam.</li><li><strong>Lead, Copper, Silver and Gold</strong> do not react with water at all.</li></ul>",
+    "details": {
+      "summary": "Comparison of reactivity of various metals (K, Na, Ca, Mg, Al, Fe, Zn, Pb, Cu, Ag, Au) with cold water, hot water, and steam."
+    },
+    "mcq": null,
+    "source_pdf": "doc3.pdf",
+    "source_page": 5
+  },
+  {
+    "id": "chem-metals-acid-reaction",
+    "subject": "Chemistry",
+    "chapter": "Metals and Non-metals",
+    "topic": "Reactivity of Metals with Acids",
+    "text": "<p><strong>Reactivity of Metals with Acids</strong></p><ul><li>Hydrogen gas is not evolved when a metal reacts with <strong>nitric acid</strong>. It is because HNO3 is a strong oxidizing agent.</li><li>But <strong>Magnesium (Mg)</strong> and <strong>Manganese (Mn)</strong> react with very dilute HNO3 to evolve H2 gas.</li><li>The rate of formation of bubbles was the fastest in the case of magnesium. The reaction was also the most exothermic in this case.</li><li>The reactivity decreases in the order <span style='color: var(--warning);'><strong>Mg &gt; Al &gt; Zn &gt; Fe</strong></span>.</li><li>In the case of <strong>copper</strong>, no bubbles were seen. This shows that copper does not react with dilute HCl.</li></ul>",
+    "details": {
+      "summary": "Exceptions to hydrogen evolution with acids (Nitric acid) and reactivity series order for Mg, Al, Zn, Fe."
+    },
+    "mcq": null,
+    "source_pdf": "doc3.pdf",
+    "source_page": 5
+  },
+  {
+    "id": "chem-extraction-flowchart",
+    "subject": "Chemistry",
+    "chapter": "Metals and Non-metals",
+    "topic": "Extraction of Metals from Ores",
+    "text": "<p><strong>Steps Involved in the Extraction of Metals from Ores</strong></p><p>The process begins with <strong>Ore</strong> and proceeds through <strong>Concentration of ore</strong>. The path then depends on the reactivity of the metal:</p><ul><li><strong>Metals of high reactivity</strong> (e.g., K, Na, Ca, Mg, Al):<ul><li>Electrolysis of molten ore</li><li>Pure metal</li></ul></li><li><strong>Metals of medium reactivity</strong> (e.g., Zn, Fe, Pb, Cu):<ul><li>Carbonate ore &rarr; Calcination</li><li>Sulphide ore &rarr; Roasting</li><li>Both lead to <strong>Oxide of metal</strong></li><li>Reduction to metal (using carbon)</li><li>Purification of metal</li></ul></li><li><strong>Metals of low reactivity</strong> (e.g., Ag, Au):<ul><li>Sulphide ores &rarr; Roasting</li><li>Metal</li><li>Refining</li></ul></li></ul><p><em>Note: Some metals are found in native state.</em></p>",
+    "details": {
+      "summary": "Flowchart detailing the extraction methods (Electrolysis, Calcination, Roasting, Reduction) based on metal reactivity."
+    },
+    "mcq": null,
+    "source_pdf": "doc3.pdf",
+    "source_page": 5
+  },
+  {
+    "id": "chem-common-compounds-table",
+    "subject": "Chemistry",
+    "chapter": "Chemical Substances",
+    "topic": "Common Names of Chemical Compounds",
+    "text": "<p><strong>Common Names of Chemical Compounds</strong></p><table border='1'><tr><th>Common Name</th><th>Chemical Name</th><th>Formula</th></tr><tr><td>Aqua Fortis / Spirit of Niter</td><td>Nitric Acid</td><td>HNO<sub>3</sub></td></tr><tr><td>Baking Soda</td><td>Sodium Bicarbonate or Sodium Hydrogen Carbonate</td><td>NaHCO<sub>3</sub></td></tr><tr><td>Blue Vitriol</td><td>Copper Sulphate</td><td>CuSO<sub>4</sub></td></tr><tr><td>Bleaching Powder</td><td>Calcium Oxychloride</td><td>Ca(OCl)<sub>2</sub></td></tr><tr><td>Bleach / Antiformin / Chloride of Soda</td><td>Sodium Hypochlorite</td><td>NaOCl</td></tr><tr><td>Borax</td><td>Sodium Tetraborate Decahydrate / Sodium Borate</td><td>Na<sub>2</sub>B<sub>4</sub>O<sub>7</sub>·10H<sub>2</sub>O</td></tr><tr><td>Calomel</td><td>Mercurous Chloride</td><td>Hg<sub>2</sub>Cl<sub>2</sub></td></tr><tr><td>Carborundum</td><td>Silicon Carbide</td><td>SiC</td></tr><tr><td>Carbolic Acid / Phenol / Hydroxybenzene Phenic Acid</td><td>Phenol</td><td>C<sub>6</sub>H<sub>5</sub>OH</td></tr><tr><td>Caustic Potash</td><td>Potassium Hydroxide</td><td>KOH</td></tr><tr><td>Chile Saltpetre</td><td>Sodium Nitrate</td><td>NaNO<sub>3</sub></td></tr><tr><td>Caustic Soda</td><td>Sodium Hydroxide</td><td>NaOH</td></tr></table>",
+    "details": {
+      "summary": "Table listing common names, IUPAC names, and chemical formulas for various inorganic and organic compounds."
+    },
+    "mcq": null,
+    "source_pdf": "doc3.pdf",
+    "source_page": 5
+  },
+  {
+    "id": "note-1",
+    "subject": "Defence",
+    "chapter": "Missiles",
+    "topic": "Surface to Air Missiles",
+    "text": "<p>SURFACE TO AIR MISSILES</p><ul><li>trishul</li><li>akash</li><li>barak</li></ul>",
+    "details": {
+      "summary": "List of Indian surface‑to‑air missiles"
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": null,
+      "explanation": ""
+    },
+    "source_pdf": "chunk_80_119.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "note-1",
+    "subject": "Defence",
+    "chapter": "Gallantry Awards",
+    "topic": "Shaurya Chakra",
+    "text": "<p><strong>Shaurya Chakra</strong> – <span style='color: var(--warning);'>Third-highest</span> <span style='color: var(--warning);'>peacetime</span> <span style='color: var(--warning);'>gallantry award</span> for <span style='color: var(--warning);'>bravery</span>, often in <span style='color: var(--warning);'>counter‑terror</span> or <span style='color: var(--warning);'>rescue operations</span>.</p>",
+    "details": {
+      "summary": "Shaurya Chakra is the third‑highest peacetime gallantry award for bravery, awarded for counter‑terror and rescue operations."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": null,
+      "explanation": ""
+    },
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "note-001",
+    "subject": "Biology",
+    "chapter": "Reproduction",
+    "topic": "Pollination and Fertilization",
+    "text": "<p><strong>Pollination:</strong> Transfer of pollen grains from anther to stigma of same flower or between different flowers.</p><ul><li><strong>Self-pollination:</strong> Transfer of pollen grains from anthers to stigma of same flower or another flower of same plant.</li><li><strong>Cross-pollination (Xenogamy):</strong> Transfer of pollen from flower of one plant to stigma of flower of another plant.</li></ul><p><strong>Fertilization:</strong> Fusion of male and female reproductive units.</p><ul><li>After pollination, pollen grains attach.</li></ul><p><strong>Male Reproductive Organs:</strong></p><ul><li>Pair of testes (singular testis), two sperm ducts, penis.</li><li>Testis produces male gametes called sperms.</li><li>Millions of sperms produced.</li><li>Each sperm is a single cell with usual cell components.</li></ul><p><strong>Female Reproductive Organs:</strong></p><ul><li>Pair of ovaries, oviducts (fallopian tubes), uterus.</li><li>Ovary produces female gametes called ova (eggs).</li><li>Uterus is where development of baby takes place.</li></ul><p><strong>Fertilization Process:</strong></p><ul><li>When sperms contact egg, one sperm may fuse with egg.</li><li>Fusion of egg and sperm is fertilization.</li><li>Nuclei of sperm and egg fuse to form single nucleus → fertilized egg or zygote.</li><li>Internal fertilization: occurs inside female body (humans, cows, dogs, hens).</li><li>External fertilization: fusion outside female body, common in aquatic animals (fish, starfish).</li></ul><p><strong>Development of Embryo:</strong></p><ul><li>Fertilization forms zygote which develops into embryo.</li><li>Zygote divides repeatedly to form ball of cells.</li></ul>",
+    "details": {
+      "summary": "Overview of pollination, fertilization, male and female reproductive organs, and embryo development."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "note-001",
+    "subject": "History",
+    "chapter": "Vedic Period",
+    "topic": "Rig Vedic Society",
+    "text": "<p><strong>Women possessed respectable status</strong> in society, took part in tribal assemblies and religious sacrifices along with their husbands.</p><ul><li>Child marriage was <em>not in existence</em>; marriageable age was 16 or 17 years for girls.</li><li>Polygamy and polyandry both existed, but monogamy was in fashion.</li><li>There was <strong>no Purdah system</strong>.</li><li>Widow remarriage and <em>Niyoga</em> prevailed in society.</li></ul>",
+    "details": {
+      "summary": "Status of women, marriage practices, and absence of purdah in Rig Vedic society."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "note-002",
+    "subject": "History",
+    "chapter": "Vedic Period",
+    "topic": "Rig Vedic Polity",
+    "text": "<p>The head of the tribe (<em>Jana</em>) was supreme and worked on the collective response of tribal assemblies.</p><ul><li>Tribal assemblies: <strong>Sabha</strong>, <strong>Samiti</strong>, <strong>Gana</strong>, <strong>Vidhata</strong> (oldest).</li><li>These assemblies upheld social, military, religious activities.</li><li>Samiti comprised the whole clan; Sabha was a selected group of elderly people.</li><li>Vidhata engaged in redistributive functions.</li><li>Chief was called <em>Gopati</em>; women allowed in Sabha and Vidhata.</li><li>Vajrapati – officer of pasture (led by Kulapa and Gramini in war).</li><li>Senani – important functionary after Purohita.</li><li>Military functions performed by tribal units: rata, gana, grama.</li><li>Tax known as <em>Bali</em> was voluntary.</li></ul>",
+    "details": {
+      "summary": "Political structure, tribal assemblies, and officials in Rig Vedic polity."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "note-003",
+    "subject": "History",
+    "chapter": "Vedic Period",
+    "topic": "Rig Vedic Religion",
+    "text": "<p>Early Vedic people were nature worshippers; they had neither temples nor idols.</p><ul><li>Worship was through recitation of Mantra.</li><li>Motive: to obtain <strong>Praja</strong> (children), <strong>Pasu</strong> (cattle), and <strong>Dhana</strong> (wealth); no aspiration for spiritual upliftment yet.</li></ul>",
+    "details": {
+      "summary": "Nature worship, mantra recitation, and material goals in Rig Vedic religion."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "note-004",
+    "subject": "History",
+    "chapter": "Vedic Period",
+    "topic": "Rivers Mentioned in the Rig Veda",
+    "text": "<table><thead><tr><th>Rig Vedic Name</th><th>Modern Name</th></tr></thead><tbody><tr><td>Sindhus</td><td>Indus</td></tr><tr><td>Vitasta</td><td>Jhelum</td></tr><tr><td>Askini</td><td>Chenab</td></tr><tr><td>Parushni</td><td>Ravi</td></tr><tr><td>Vipasa</td><td>Beas</td></tr><tr><td>Shatudri</td><td>Sutlej</td></tr><tr><td>Gomal</td><td>Gomati</td></tr><tr><td>Krumu</td><td>Kurram</td></tr><tr><td>Drishadvati</td><td>Ghaggar</td></tr><tr><td>Suvasthu</td><td>Swat</td></tr><tr><td>Kubha</td><td>Kabul</td></tr><tr><td>Naditarna</td><td>Saraswati</td></tr><tr><td>Sadanira</td><td>Gandak</td></tr></tbody></table>",
+    "details": {
+      "summary": "List of rivers cited in Rig Veda with their modern equivalents."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "note-005",
+    "subject": "History",
+    "chapter": "Vedic Period",
+    "topic": "Prominent Gods and Goddesses",
+    "text": "<p>Prominent gods: <strong>Agni</strong>, <strong>Indra</strong>, <strong>Varuna</strong>, <strong>Soma</strong>, <strong>Dyaus</strong>, <strong>Ashwin</strong>, <strong>Pushan</strong>, <strong>Surya</strong>.</p><p>Worshipped goddesses: <strong>Usha</strong>, <strong>Aditi</strong>, <strong>Ratri</strong>, <strong>Sandhya</strong>.</p>",
+    "details": {
+      "summary": "Major deities worshipped during the Rig Vedic period."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "note-006",
+    "subject": "History",
+    "chapter": "Later Vedic Age",
+    "topic": "Geographical Extent, Social Life, Purushasukta Theory, Political Organisation",
+    "text": "<p><strong>Geographical Extent:</strong> Aryans moved eastward and southward from Punjab to Delhi and upper Gangetic Doab; Satapatha Brahmana mentions Agni and Videha Madhava moving eastward.</p><p><strong>Social Life:</strong></p><ul><li>Four‑fold division of society became clear: Brahmins (priests), Kshatriyas (warriors), Vaishyas (agriculturists, cattle‑rearers, traders), Sudras (servers of upper three).</li><li>Women enjoyed freedom and respect but status deteriorated compared to earlier period.</li><li>Institution of <em>gotra</em> appeared first time, signifying descent from common ancestors.</li><li>Concept of four Ashrams: Brahmacharya, Grihastha, Vanaprastha, Sanyas.</li><li>Chariot racing – main sport; gambling – main pastime.</li></ul><p><strong>Purushasukta Theory:</strong> Late hymn of 10th Mandala of Rigveda; four varnas originated from body of Purusha: Brahmana (mouth), Kshatriya (arms), Vaishya (thighs), Shudra (feet).</p><p><strong>Political Organisation:</strong></p><ul><li>Tiny tribal settlements replaced by strong kingdoms; regular army maintained.</li><li>Powers of king (<em>Samrat</em>) increased; importance of assemblies declined; women no longer permitted to attend assemblies.</li><li>Term ‘rashtra’ (territory) first appeared.</li><li>References to priest (Purohita), Commander‑in‑chief (Senapati), Charioteer (Suta), Treasurer (Sangrahita), Tax collector (Bhagdugha), Chief queen (Mahisi), game companion (Aksavapa).</li></ul>",
+    "details": {
+      "summary": "Expansion, social stratification, Purushasukta, and political changes in Later Vedic Age."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "note-5",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Clock - Area of sector",
+    "text": "<p>_ (c) Given, the length of minute hand of the clock = 21cm\nTime for calculating the area is 10:10 am to 10:30 am.\nTime interval from 10:10 am to 10:30 am = 20 min\nIn 1 min, angle by minute hand = 6º\nIn 20 min, angle by minute hand =\n×\n=\n20\n6\n120º\nQ The\narea\n of\n sector\n of\n circle\n =\n ×\n θ\n π\n 360\n 2\n º\n r\n ∴Required area =\n ×\n 120\n 360\n 21 2\n º\n º\n (\n )\n π\n =\n ×\n ×\n ×\n 1\n 3\n 22\n 7\n 21\n 21\n =\n ×\n 22\n 21\n = 462 cm2\nHence, the required area is 462 cm2.</p>",
+    "details": {
+      "summary": "Solution for minute hand area problem."
+    },
+    "mcq": {
+      "question": "The minute hand of a clock is 21 cm long. What is the area on the face of the clock described by the minute hand between 10:10 am and 10:30 am? (take π = 22/7)",
+      "options": [
+        "231 cm2",
+        "331 cm2",
+        "462 cm2",
+        "492 cm2"
+      ],
+      "correct": 2,
+      "explanation": "_ (c) Given, the length of minute hand of the clock = 21cm\nTime for calculating the area is 10:10 am to 10:30 am.\nTime interval from 10:10 am to 10:30 am = 20 min\nIn 1 min, angle by minute hand = 6º\nIn 20 min, angle by minute hand =\n×\n=\n20\n6\n120º\nQ The\narea\n of\n sector\n of\n circle\n =\n ×\n θ\n π\n 360\n 2\n º\n r\n ∴Required area =\n ×\n 120\n 360\n 21 2\n º\n º\n (\n )\n π\n =\n ×\n ×\n ×\n 1\n 3\n 22\n 7\n 21\n 21\n =\n ×\n 22\n 21\n = 462 cm2\nHence, the required area is 462 cm2."
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "note-6",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Diagonal of cuboid",
+    "text": "<p>_ (c) Given, length of the room,\nl = 21m\nbreadth of the room, b = 16 m\nand the length of the longest rod that\ncan be placed in the room = 29 m\nWe know that, the length of the\nlongest rod that can be placed in the\nroom is the diagonal of the room\n(cuboid).\nWe know, diagonal of a cuboid\n=\n+\n+\nl\nb\nh\n2\n2\n2\n⇒\n29\n21\n16\n2\n2\n2\n=\n+\n+\n(\n)\n(\n)\nh\n⇒(\n)\n29\n441\n256\n2\n2\n=\n+\n+ h\n⇒841\n697\n2\n=\n+ h ⇒h2\n144\n=\n⇒\nh = 12 cm\nHence, height of the room is 12 cm.</p>",
+    "details": {
+      "summary": "Solution for room height problem."
+    },
+    "mcq": {
+      "question": "The length and breadth of a room are 21 m and 16 m respectively. If the length of the longest rod that can be placed in the room is 29 m, then what is the height of the room?",
+      "options": [
+        "10 m",
+        "11 m",
+        "12 m",
+        "13 m"
+      ],
+      "correct": 2,
+      "explanation": "_ (c) Given, length of the room,\nl = 21m\nbreadth of the room, b = 16 m\nand the length of the longest rod that\ncan be placed in the room = 29 m\nWe know that, the length of the\nlongest rod that can be placed in the\nroom is the diagonal of the room\n(cuboid).\nWe know, diagonal of a cuboid\n=\n+\n+\nl\nb\nh\n2\n2\n2\n⇒\n29\n21\n16\n2\n2\n2\n=\n+\n+\n(\n)\n(\n)\nh\n⇒(\n)\n29\n441\n256\n2\n2\n=\n+\n+ h\n⇒841\n697\n2\n=\n+ h ⇒h2\n144\n=\n⇒\nh = 12 cm\nHence, height of the room is 12 cm."
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "note-7",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Volume of hemisphere and cylinder",
+    "text": "<p>_ (c)\nGiven,\ninternal\nradius\nof\nhemispherical bowl, r1\n18\n=\ncm\nInternal radius of cylindrical bottle,\nr2\n3\n=\ncm\nand internal height of cylindrical\nbottle, h = 4 cm\nLet nnumber of bottles are used to empty\nthe bowl.\nThe bowl will be completely empty, when\nVolume of n number of cylindrical bottles\n= Volume of hemispherical bowl.\n⇒n\nV\nV\n×\n=\none bottle\nbowl\n⇒\nn\nr h\nr\n×\n=\nπ\nπ\n2\n2\n1\n3\n2\n3\n⇒n ×\n=\n×\n( ) ( )\n(\n)\n3\n4\n2\n3\n18\n2\n3\n⇒\nn ×\n×\n=\n×\n×\n×\n9\n4\n2\n3\n18\n18\n18\n⇒\nn =\n×\n×\n×\n×\n2\n6\n18\n18\n9\n4\n=\n×\n=\n6\n18\n108\nHence, 108 number of bottles are used to\nempty the bowl.</p>",
+    "details": {
+      "summary": "Solution for number of bottles to empty hemispherical bowl."
+    },
+    "mcq": {
+      "question": "A hemispherical bowl of internal radius 18 cm contains a liquid. The liquid is filled in small cylindrical bottles of internal radius 3 cm and internal height 4 cm. What is the number of bottles used to empty the bowl?",
+      "options": [
+        "54",
+        "81",
+        "108",
+        "135"
+      ],
+      "correct": 2,
+      "explanation": "_ (c)\nGiven,\ninternal\nradius\nof\nhemispherical bowl, r1\n18\n=\ncm\nInternal radius of cylindrical bottle,\nr2\n3\n=\ncm\nand internal height of cylindrical\nbottle, h = 4 cm\nLet nnumber of bottles are used to empty\nthe bowl.\nThe bowl will be completely empty, when\nVolume of n number of cylindrical bottles\n= Volume of hemispherical bowl.\n⇒n\nV\nV\n×\n=\none bottle\nbowl\n⇒\nn\nr h\nr\n×\n=\nπ\nπ\n2\n2\n1\n3\n2\n3\n⇒n ×\n=\n×\n( ) ( )\n(\n)\n3\n4\n2\n3\n18\n2\n3\n⇒\nn ×\n×\n=\n×\n×\n×\n9\n4\n2\n3\n18\n18\n18\n⇒\nn =\n×\n×\n×\n×\n2\n6\n18\n18\n9\n4\n=\n×\n=\n6\n18\n108\nHence, 108 number of bottles are used to\nempty the bowl."
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "note-8",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Volume of hollow sphere",
+    "text": "<p>_ (d) Given, density of metal of spherical\nshell = 7 g / cm3\nInternal radius, r1\n3\n=\ncm\nExternal radius, r2\n6\n=\ncm\nVolume of the hollow spherical shell\n=\n−\n4\n3\n2\n3\n1\n3\nπ(\n)\nr\nr\n=\n×\n×\n−\n4\n3\n22\n7\n6\n3\n3\n3\n(\n)\n=\n×\n×\n−\n4\n3\n22\n7\n216\n27\n(\n)\n=\n×\n88\n21\n189\n=\n×\n=\n88\n9\n792 cm3\nQ Mass = Density × Volume\n∴Mass of the shell =\n×\n=\n7\n792\n5544 g\nHence, mass of the shell is 5544 g.</p>",
+    "details": {
+      "summary": "Solution for mass of hollow spherical shell."
+    },
+    "mcq": {
+      "question": "A hollow spherical shell is made of a metal of density 7 g/cm3. If its internal and external radii are 3 cm and 6 cm respectively, then what is the mass of the shell? (Take π = 22/7)",
+      "options": [
+        "2772 g",
+        "3322 g",
+        "4433 g",
+        "5544 g"
+      ],
+      "correct": 3,
+      "explanation": "_ (d) Given, density of metal of spherical\nshell = 7 g / cm3\nInternal radius, r1\n3\n=\ncm\nExternal radius, r2\n6\n=\ncm\nVolume of the hollow spherical shell\n=\n−\n4\n3\n2\n3\n1\n3\nπ(\n)\nr\nr\n=\n×\n×\n−\n4\n3\n22\n7\n6\n3\n3\n3\n(\n)\n=\n×\n×\n−\n4\n3\n22\n7\n216\n27\n(\n)\n=\n×\n88\n21\n189\n=\n×\n=\n88\n9\n792 cm3\nQ Mass = Density × Volume\n∴Mass of the shell =\n×\n=\n7\n792\n5544 g\nHence, mass of the shell is 5544 g."
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "note-9",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Volume of cone and hemisphere",
+    "text": "<p>_ (a) Given, height of the cone, h = 16cm\ndiameter of the cone = 14 cm\n∴Radius of the cone, r =\n=\n14\n2\n7 cm\n2</p>",
+    "details": {
+      "summary": "Solution for volume of cone mounted on hemisphere (incomplete)."
+    },
+    "mcq": {
+      "question": "A cone of height 16 cm and diameter 14 cm is mounted on a hemisphere of same diameter. What is the volume of the solid thus formed? (Take π = 22/7)",
+      "options": [
+        "1540 cm3",
+        "1078 cm3",
+        "1048 cm3",
+        "770 cm3"
+      ],
+      "correct": 0,
+      "explanation": "_ (a) Given, height of the cone, h = 16cm\ndiameter of the cone = 14 cm\n∴Radius of the cone, r =\n=\n14\n2\n7 cm\n2"
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "note-1",
+    "subject": "Defence",
+    "chapter": "Missiles",
+    "topic": "Surface to Air Missiles",
+    "text": "<p>agni</p><p>prithvi</p><p>prahaar</p><p>SURFACE TO AIR MISSILES</p><p>SURFACE TO AIR MISSILES</p>",
+    "details": {
+      "summary": "List of Indian missiles: Agni, Prithvi, Prahar, and mention of Surface to Air Missiles."
+    },
+    "mcq": {
+      "question": "",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "chunk_80_119.pdf",
+    "source_page": 14
+  },
+  {
+    "id": "note-1",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Conservative and Non-conservative Forces",
+    "text": "<p><strong>Conservative and Non-conservative Forces</strong></p><ul><li><em>A force is said to be conservative, if the work done by the force in moving a body depends only upon the initial and final positions of the body and is independent of the path followed between the initial and final position, e.g. gravitational force, electrostatic force and magnetic force, etc.</em></li><li><em>A force is said to be non-conservative, if the work done by the force or against the force, in moving a body from one position to another, depends upon the path followed between the two positions. e.g. friction force, etc.</em></li></ul><p><strong>ENERGY</strong></p><p>The energy of an object is its capacity for doing work. It is a scalar quantity and its unit is joule (J).</p><ul><li>Energy can exist in different forms such as mechanical energy, heat energy, sound energy, light energy, chemical energy, etc.</li><li>Mechanical energy is of two types i.e. kinetic energy and potential energy.</li></ul><p><strong>1. Kinetic Energy</strong></p><p>The energy possessed by a body by virtue of its motion is called its kinetic energy.</p><ul><li>If a body of mass m is moving with velocity v, then kinetic energy = <span style='color: var(--success);'>½ mv²</span> (or expressed as p²/2m).</li><li><span style='color: var(--warning);'>When momentum is doubled kinetic energy becomes four times.</span></li><li>If a body is moving in horizontal circle then its kinetic energy is same at all points, but if it is moving in vertical circle, then the kinetic energy is different at different points.</li></ul><p><strong>Applications of kinetic energy are given below</strong></p><ul><li>(i) Kinetic energy of air is used to run wind mills.</li><li>(ii) Kinetic energy of running water is used to run the water mills.</li><li>(iii) A bullet fired from a gun can pierce a target due to its kinetic energy.</li></ul><p><strong>2. Potential Energy</strong></p><p>It is the energy possessed by a body by virtue of its position.</p><ul><li>Suppose a body is raised to a height h above the surface of the earth, then potential energy of body = mgh</li><li>Also, here potential energy = work done = mgh</li><li>When the body is projected upwards, then its kinetic energy goes on changing to potential energy and vice-versa.</li></ul><p><strong>Applications of potential energy are given below</strong></p><ul><li>(i) The potential energy of the wound spring of a clock is used to drive the hands of the clock.</li><li>(ii) Due to potential energy of the stretched bow, the arrow goes forward with a large velocity on releasing the bow.</li><li>(iii) The potential energy of water in dams is used to run turbines in order to produce electrical energy using the generators.</li></ul><p><strong>Principle of Conservation of Energy</strong></p><p>According to the law of conservation of energy it can neither be created nor be destroyed but can only be transformed from one form to another.</p><ul><li>The total amount of energy in the universe remains constant. e.g. when an object falls, its potential energy decreases but at the same time kinetic energy increases by an equal amount.</li></ul><p><strong>Transformation of Energy</strong></p><ul><li>In a heat engine, heat energy changes into mechanical energy. In the sun, mass changes into radiant energy.</li><li>In an electrical heater, the electric energy is converted into heat energy.</li><li>In an electric bulb, the electric energy is converted into light energy in burning coal, oil, etc. The chemical energy changes to heat energy.</li><li>When we rub our hands, heat is generated. Here, mechanical energy of muscles is converted into heat energy.</li><li>In an electromagnet the electric energy is converted into magnetic energy.</li></ul><p><strong>Einstein’s Mass-Energy Equivalence</strong></p><p>In 1905, Einstein proved the relation between mass and energy. E = mc², where c is the velocity of light.</p><p>E = mc² leads to verification of the two laws, law of conservation of mass and law of conservation of energy.</p><p><strong>POWER</strong></p><p>The time rate of doing work is called power.</p><p>If W is work done in time t then power, P = W/t.</p><p>For a constant force F, the Power (P) = F·v = Fv cosθ where v = velocity of object, θ = angle between F and v.</p><ul><li>Power is a scalar quantity with SI unit watt (W) or joule/s.</li><li>Some other units of power are 1 watt hour = 3600 J; 1 kilowatt hour = 3.6 × 10⁶ J; 1 HP (Horse Power) = 746 W.</li></ul>",
+    "details": {
+      "summary": "Conservative vs non-conservative forces, energy forms, kinetic and potential energy, conservation principle, transformation examples, Einstein mass-energy equivalence, power definition and units."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 10
+  },
+  {
+    "id": "note-1",
+    "subject": "Biology",
+    "chapter": "Reproduction",
+    "topic": "Embryo Development and Types of Reproduction",
+    "text": "<p><strong>The cells then begin to form groups that develop into different tissues and organs of the body.</strong></p><ul><li>This developing structure is termed an embryo.</li><li>The embryo gradually develops the body parts such as hands, legs, head, eyes, ears, etc.</li><li>The stage of the embryo in which all the body parts can be identified is called a foetus.</li><li>When the development of the foetus is complete, the mother gives birth to the baby.</li><li>In animals which undergo external fertilization, development of the embryo takes place outside the female body. The embryos continue to grow within their egg coverings. After the embryos develop, the eggs hatch.</li><li>Viviparous animals – gives birth.</li><li>Oviparous animals – lays eggs.</li></ul><p><strong>Asexual Reproduction</strong></p><ul><li>In asexual reproduction, only one parent is involved</li><li>It mostly happens in primitive microscopic animals.</li><li>In hydra, reproduction occurs by budding. A bud is developed and detached which develops into a new organism.</li><li>Another type of asexual reproduction is found in unicellular amoeba called Binary Fission. The nucleus first divides into two, followed by the division of the body into two each part receiving a nucleus.</li></ul>",
+    "details": {
+      "summary": "Notes on embryo development, viviparous vs oviparous animals, and asexual reproduction methods such as budding in hydra and binary fission in amoeba."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": -1,
+      "explanation": ""
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 14
+  },
+  {
+    "id": "note-2",
+    "subject": "Biology",
+    "chapter": "Human Body",
+    "topic": "Musculoskeletal System",
+    "text": "<p><strong>Musculoskeletal system:</strong></p><ul><li>The skeletal system includes the bones of the skeleton and the cartilages, ligaments, and other connective tissue that stabilize or connect the bones.</li></ul><p><strong>Bones:</strong></p><ul><li>There are 206 bones in the adult body.</li><li>Longest bone – Femur (thigh bone). And smallest bone – Stapes (in the ear).</li><li>The bones of the body perform five main functions:</li><ul><li>provides support for the body</li><li>Stores minerals and lipids</li><li>Produce blood cells</li><li>Protect body organs</li><li>Provide leverage and movement</li></ul><li>Each bone in the skeleton contains two forms of tissue: compact bone that is relatively solid and spongy bone. Compact bone is found on the external surface of the bone. Spongy bone is located inside the bone.</li><li>Joints - Connects two bones together.</li><li>Ligaments –They connect different bones.</li><li>Tendons – They connect tissue with bones. They are made of collagen.</li></ul>",
+    "details": {
+      "summary": "Overview of the musculoskeletal system, bone count, functions, bone tissue types, and connective tissues such as ligaments and tendons."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": -1,
+      "explanation": ""
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 14
+  },
+  {
+    "id": "note-1",
+    "subject": "History",
+    "chapter": "Vedic Period",
+    "topic": "Rise of Vishnu and Religious Developments",
+    "text": "<p>CDS Pathfinder</p><p>Religion</p><p>Rise of Vishnu alongside Rudra new Gods (Vishnu, Rudra, Prajapati etc) came into prominence. Rig Vedic Gods (Indra, Varuna etc) lost prominence. Sacrifices became more elaborate. Increase in the prestige and importance of priestly class. Emergence of new philosophical concepts.</p><p>Sacrifices Performed in Later Vedic Period</p><ul><li>Rajasuya Consecration Ceremony This conferred supreme power on the king. The Rajasuya sacrifice consists of five major ritual or ceremonies. Asvamedha horse sacrifice which was meant to establish kings supremacy over his neighbours. The Aitareya and Shatapatha Brahmana mention the names of some monarchs, who performed the sacrifice.</li><li>Ratnahanimasi Ceremony The king had to approach dignitaries who lived in permanent dwellings. Vajapeya chariot race which was meant to re-establish his supremacy over his own people within the kingdom.</li></ul><p>Pottery</p><p>The later Vedic people used black and redware, black-strippedware, painted greyware pottery. Redware was most popular with them and has been found almost all over Western Uttar Pradesh. However, the most distinctive pottery of the period is known as Painted Greyware, which comprised bowls and dishes, used either for rituals or for eating by the upper classes.</p><p>Economic Life</p><ul><li>The shift towards Gangetic valley with the use of iron and fire made possible the growth of agriculture. Pastoralism was no longer the main subsistence activity of the people, though cattle rearing was also practised.</li><li>Shatapatha Brahmana describes the various stages of agriculture such as ploughing, sowing, reaping and threshing. Both kharif and rabi crops were grown.</li><li>Rice (Vrihi) and wheat (Godhuma) become the chief crops of the later Vedic Aryans, though they continued to produce barley (Yava).</li></ul><p>VEDIC LITERATURE</p><ul><li>The word ‘Veda’ is derived from Sanskrit word vid, meaning to know, signifying knowledge par excellence. The Vedic text are shruti i.e. directly revealed to authors by God.</li><li>Smritis are remembered and collected parts of literature of later period. They are also called samhitas in the sense that they represent oral tradition of the time.</li><li>Four vedas and their Samhitas, the Brahmanas, the Aranyakas and the Upanishads form a class of literature known as shruti.</li></ul><p>The Rig Veda</p><p>It is divided into 10 books or mandalas. Mandala II to VII are considered the oldest and known as family mandalas. Book I, VIII and X seem to be added later. It dated 1500 BC-1000 BC. It has 1028 hymns written by number of priestly families. The Rig Veda was written when Aryans were still in Punjab. Book II to VII are earliest and are attributed to Gritsamada, Vishvamitra, Vasudeva, Atri, Bhardwaj, Vashishtha, Kanva and Angiras. Rig Veda is recited by Hotri. Gayatri mantri is in 3rd mandal of Rig Veda.</p><p>The Yajur Veda</p><p>It is a ritualistic Veda. Written in prose, it deals with procedure for performance of sacrifices and contain rituals as well as hymns. It is divided into Shukla Yajur Veda (poetry) (including Vajasneyi samhita) and Krishna Yajur Veda (prose and poetry) (Katha, Matriyani and Taittiriya, Vapisthal samhita in which mantra and Brahamanas part are not separated). Yajur Veda is recited by Adhvaryu.</p><p>The Sama Veda</p><p>Word Sama derived from the root word saman means melody/music. It has 1603 verses, but except 99, all the rest of the hymns have been borrowed from the Rig Veda. It contains Dhrupada Raga. The Sama Veda shows that the Aryans loved music and were not merely puritans. Sama Veda is recited by udgatri.</p><p>The Atharva Veda</p><p>The Atharva Veda is entirely different from the other three Vedas and is the last of the four Vedas. The Satapatha Brahmana used the term trayi, i.e. the Rig Veda, Yajur Veda and Sama Veda. Atharva Veda mentions beliefs and practices of non-Aryans. It contains magical mantra etc. In it, the sabha and the Samiti are described as sisters and the two daughters of prajapati. This Veda is also known as Brahma Veda.</p><p>Smriti Literature</p><p>The Smriti literature contains following</p><p>The Brahamanas</p><p>These are the prose commentaries on various Vedic hymns. They explain the vedas in an orthodox way. They explain the hidden meanings behind the hymns of Brahamans. They are expressions of the cause (hetu). Shatapatha Brahamana is the largest Brahamana book. It has the story of Madhav.</p><p>The Aranyakas</p><p>The authors of the Aranyakas were sages dwelling in the forest and explained vedic texts for their pupils in the form of Aranyakas. So, these Aranyakas are known as forest books. They form the concluding part of Brahamanas.</p>",
+    "details": {
+      "summary": "Notes on Vedic religion, sacrifices, pottery, economic life, and Vedic literature including the four Vedas, Brahmanas, Aranyakas, and Smriti."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 8
+  },
+  {
+    "id": "note_cone",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Surface Area of Cone",
+    "text": "<p>(a) In right angled triangle ABC given that, AB = 8 cm BC = 6 cm When the triangle is revolved about its side BC, the height of the cone so formed, h = 6 cm the radius of the cone so formed, r = 8 cm Therefore, total surface area of the cone formed = + π π r r l 2 … (i) In ∆ABC, AC AB BC 2 2 2 = + l2 2 2 8 6 = + l2 100 = ⇒l = 10 cm From Eq. (i), we have Total surface area of the cone = + πr r l ( ) = × × + 22 7 8 8 10 ( ) = × × 22 8 18 7 = 3168 7 ≈452 cm2 Hence, the required approximate total surface area of the cone formed is 452 cm2.</p>",
+    "details": {
+      "summary": "Calculation of total surface area of a cone formed by revolving a right triangle about one of its sides."
+    },
+    "mcq": {
+      "question": "Find the total surface area of the cone formed when a right triangle with sides 8 cm, 6 cm is revolved about its side of 6 cm.",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": "<p>(a) In right angled triangle ABC given that, AB = 8 cm BC = 6 cm When the triangle is revolved about its side BC, the height of the cone so formed, h = 6 cm the radius of the cone so formed, r = 8 cm Therefore, total surface area of the cone formed = + π π r r l 2 … (i) In ∆ABC, AC AB BC 2 2 2 = + l2 2 2 8 6 = + l2 100 = ⇒l = 10 cm From Eq. (i), we have Total surface area of the cone = + πr r l ( ) = × × + 22 7 8 8 10 ( ) = × × 22 8 18 7 = 3168 7 ≈452 cm2 Hence, the required approximate total surface area of the cone formed is 452 cm2.</p>"
+    },
+    "source_pdf": "Pathfinder-Truncated.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "note_q15",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Volume of Composite Solid",
+    "text": "<p>(a) Given, Dimensions of cylinder 1 : Radius ( ) r1 = 7 cm Height ( ) h1 = 20 cm Dimensions of cylinder 2 : Radius ( ) r2 = 3.5 cm Height ( ) h2 = 10 cm Volume of the solid rod = Volume of cylinder 1 + Volume of cylinder 2. = + π π r h r h 1 2 1 2 2 2 = × × × + × × 22 7 7 7 20 3 5 3 5 10 ( . . ) = × + × 22 7 7 140 3 5 35 ( . ) = + × 22 140 3 5 5 ( . ) = + 22 140 17 5 ( . ) = = 22 157 5 3465 ( . ) cm3 = × × 3465 100 100 100 m3 ∴Mass of rod = × × × 3465 100 100 100 10000 kg = 34 65 . kg Hence, mass of the rod is 34.65 kg.</p>",
+    "details": {
+      "summary": "Mass calculation of a composite solid made of two cylinders."
+    },
+    "mcq": {
+      "question": "A solid rod consists of a cylinder of height 20 cm and radius 7 cm. It is surmounted by another solid cylinder of height 10 cm and radius 3.5 cm. If 1 cubic metre of rod weights 10000 kg, what is the mass of the rod ? (Take π = 22/7)",
+      "options": [
+        "34.65 kg",
+        "31.56 kg",
+        "3.465 kg",
+        "3.156 kg"
+      ],
+      "correct": 0,
+      "explanation": "<p>(a) Given, Dimensions of cylinder 1 : Radius ( ) r1 = 7 cm Height ( ) h1 = 20 cm Dimensions of cylinder 2 : Radius ( ) r2 = 3.5 cm Height ( ) h2 = 10 cm Volume of the solid rod = Volume of cylinder 1 + Volume of cylinder 2. = + π π r h r h 1 2 1 2 2 2 = × × × + × × 22 7 7 7 20 3 5 3 5 10 ( . . ) = × + × 22 7 7 140 3 5 35 ( . ) = + × 22 140 3 5 5 ( . ) = + 22 140 17 5 ( . ) = = 22 157 5 3465 ( . ) cm3 = × × 3465 100 100 100 m3 ∴Mass of rod = × × × 3465 100 100 100 10000 kg = 34 65 . kg Hence, mass of the rod is 34.65 kg.</p>"
+    },
+    "source_pdf": "Pathfinder-Truncated.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "note_q16",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Prime Factorization",
+    "text": "<p>(d) Given number is 26381. Factors of the number : 23 26381 31 1147 37 37 1 26381 23 31 37 = × × Hence, distinct prime factors of the given number are 23, 31 and 37.</p>",
+    "details": {
+      "summary": "Finding distinct prime factors of 26381."
+    },
+    "mcq": {
+      "question": "What are distinct prime factors of the number 26381?",
+      "options": [
+        "29, 17, 37",
+        "31, 17, 47",
+        "19, 37, 13",
+        "23, 31, 37"
+      ],
+      "correct": 3,
+      "explanation": "<p>(d) Given number is 26381. Factors of the number : 23 26381 31 1147 37 37 1 26381 23 31 37 = × × Hence, distinct prime factors of the given number are 23, 31 and 37.</p>"
+    },
+    "source_pdf": "Pathfinder-Truncated.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "note_q17",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Factor Theorem",
+    "text": "<p>(d) Let the polynomial represented by f x ( ). ∴f x x x ( ) ( ) ( ) = − − − 1 2 ( ) x − − 4 90 … (i) In the options given factors are ( ) x + 14 , ( ) ( ) x x − − 14 6 and ( ) x −7 . We know that ( ) x a − is a factor of the polynomial f x ( ), if f a ( ) = 0 Factor ( ) x + 14 Put x + = 14 0 or x = −14 into f x ( ), we get f( ) ( ) ( ) ( ) − = − − − − − − − 14 14 1 14 2 14 4 90 = − − − − ( ) ( ) ( ) 15 16 18 90 = − − − 4320 90 = − ≠ 4410 0 Factor ( ) x −14 : Put x − = 14 0 or x = 14 into f x ( ), we get f( ) ( ) ( ) ( ) 14 14 1 14 2 14 4 90 = = − − − − − − ( ) ( ) ( ) 13 12 10 90 = − ≠ 1560 90 0 Factor ( ) x −6 : Put x − = 6 0 or x = 6 into f x ( ), we get f( ) ( ) ( ) ( ) 6 6 1 6 2 6 4 90 = = − − − − − − = × × − 5 4 2 90 = − ≠ 40 90 0 Factor ( ) x −7 : Put x − = 7 0 or x = 7 into f x ( ), we get f( ) ( ) ( ) ( ) 7 7 1 7 2 7 4 90 = = − − − − − − = × × − 6 5 3 90 = − = 90 90 0 Hence, ( ) x −7 is a factor of the given polynomial.</p>",
+    "details": {
+      "summary": "Determining which linear expression is a factor of the given polynomial using the factor theorem."
+    },
+    "mcq": {
+      "question": "Which one of the following is a factor of the polynomial ( )( )( )? x x x − − − − 1 2 4 90",
+      "options": [
+        "x + 14",
+        "x −14",
+        "x −6",
+        "x −7"
+      ],
+      "correct": 3,
+      "explanation": "<p>(d) Let the polynomial represented by f x ( ). ∴f x x x ( ) ( ) ( ) = − − − 1 2 ( ) x − − 4 90 … (i) In the options given factors are ( ) x + 14 , ( ) ( ) x x − − 14 6 and ( ) x −7 . We know that ( ) x a − is a factor of the polynomial f x ( ), if f a ( ) = 0 Factor ( ) x + 14 Put x + = 14 0 or x = −14 into f x ( ), we get f( ) ( ) ( ) ( ) − = − − − − − − − 14 14 1 14 2 14 4 90 = − − − − ( ) ( ) ( ) 15 16 18 90 = − − − 4320 90 = − ≠ 4410 0 Factor ( ) x −14 : Put x − = 14 0 or x = 14 into f x ( ), we get f( ) ( ) ( ) ( ) 14 14 1 14 2 14 4 90 = = − − − − − − ( ) ( ) ( ) 13 12 10 90 = − ≠ 1560 90 0 Factor ( ) x −6 : Put x − = 6 0 or x = 6 into f x ( ), we get f( ) ( ) ( ) ( ) 6 6 1 6 2 6 4 90 = = − − − − − − = × × − 5 4 2 90 = − ≠ 40 90 0 Factor ( ) x −7 : Put x − = 7 0 or x = 7 into f x ( ), we get f( ) ( ) ( ) ( ) 7 7 1 7 2 7 4 90 = = − − − − − − = × × − 6 5 3 90 = − = 90 90 0 Hence, ( ) x −7 is a factor of the given polynomial.</p>"
+    },
+    "source_pdf": "Pathfinder-Truncated.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "note_q18",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Square Root of Expression",
+    "text": "<p>(c) 23 4 15 − = + − 3 20 4 15 = + − × × ( ) ( ) 3 2 5 2 3 2 5 2 2 = − ( ) 3 2 5 2 ∴ 23 4 15 − = − ( ) 3 2 5 2 = − 3 2 5</p>",
+    "details": {
+      "summary": "Simplifying the square root of 23 − 4√15."
+    },
+    "mcq": {
+      "question": "What is the square root of 23 4 15 − ?",
+      "options": [
+        "6 3 2 −",
+        "7 3 5 −",
+        "3 2 5 −",
+        "5 4 3 −"
+      ],
+      "correct": 2,
+      "explanation": "<p>(c) 23 4 15 − = + − 3 20 4 15 = + − × × ( ) ( ) 3 2 5 2 3 2 5 2 2 = − ( ) 3 2 5 2 ∴ 23 4 15 − = − ( ) 3 2 5 2 = − 3 2 5</p>"
+    },
+    "source_pdf": "Pathfinder-Truncated.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "note_q19",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Remainder Theorem",
+    "text": "<p>(a) 37 37 1 1 1000 1000 1000 = − + We know that x a n n n − is divisible by x a −. ∴37 1 1000 1000 − is divisible by ( ) 37 1 36 − = . The number is divisible by 36, it is divisible by 9. ∴37 1 1000 1000 − is divisible by 9. ∴Required remainder = 1</p>",
+    "details": {
+      "summary": "Finding remainder when 371000 is divided by 9 using divisibility rules."
+    },
+    "mcq": {
+      "question": "What is the remainder after dividing the number 371000 by 9?",
+      "options": [
+        "1",
+        "3",
+        "7",
+        "9"
+      ],
+      "correct": 0,
+      "explanation": "<p>(a) 37 37 1 1 1000 1000 1000 = − + We know that x a n n n − is divisible by x a −. ∴37 1 1000 1000 − is divisible by ( ) 37 1 36 − = . The number is divisible by 36, it is divisible by 9. ∴37 1 1000 1000 − is divisible by 9. ∴Required remainder = 1</p>"
+    },
+    "source_pdf": "Pathfinder-Truncated.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "note-1",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Combination of Solids (Cone + Hemisphere)",
+    "text": "<p>Given diameter of hemisphere = 14 cm, therefore radius r = 7 cm.</p><p>Volume of cone = (1/3)πr^2 h, where h = 16 cm (from figure).</p><p>Volume of hemisphere = (2/3)πr^3.</p><p>Total volume = (1/3)πr^2 h + (2/3)πr^3 = (1/3)πr^2 (h + 2r).</p><p>Substituting r = 7 cm, h = 16 cm:</p><p>Total volume = (1/3) × (22/7) × 7^2 × (16 + 2×7) = (1/3) × (22/7) × 49 × (16+14) = (1/3) × (22/7) × 49 × 30 = (22 × 7 × 30) / 3 = (22 × 7 × 10) = 1540 cm^3.</p><p><span style='color: var(--success);'>Hence, the volume of the solid formed is 1540 cm^3.</span></p>",
+    "details": {
+      "summary": "Solution for volume of a solid consisting of a cone mounted on a hemisphere."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 8
+  },
+  {
+    "id": "note-2",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Surface Area of Cuboid formed by joining cubes",
+    "text": "<p>Given volume of one cube = 343 cm^3 ⇒ side a = ∛343 = 7 cm.</p><p>When three cubes are joined end to end, dimensions of resulting cuboid: length = 3a = 21 cm, breadth = a = 7 cm, height = a = 7 cm.</p><p>Total surface area of cuboid = 2(lb + bh + hl) = 2[(21×7) + (7×7) + (21×7)] = 2[147 + 49 + 147] = 2×343 = 686 cm^2.</p><p><span style='color: var(--success);'>Hence, total surface area = 686 cm^2.</span></p>",
+    "details": {
+      "summary": "Solution for total surface area of cuboid formed by joining three cubes."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 8
+  },
+  {
+    "id": "note-3",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Total Surface Area of Cube with Hemisphere",
+    "text": "<p>Side of cube a = 14 cm, radius of hemisphere r = 7 cm.</p><p>Total surface area = Surface area of cube + Curved surface area of hemisphere - Base area of hemisphere.</p><p>Surface area of cube = 6a^2 = 6×14^2 = 6×196 = 1176 cm^2.</p><p>Curved surface area of hemisphere = 2πr^2 = 2×(22/7)×7^2 = 2×22×7 = 308 cm^2.</p><p>Base area of hemisphere = πr^2 = (22/7)×7^2 = 22×7 = 154 cm^2.</p><p>Total surface area = 1176 + 308 - 154 = 1330 cm^2.</p><p><span style='color: var(--success);'>Hence, total surface area = 1330 cm^2.</span></p>",
+    "details": {
+      "summary": "Solution for total surface area of a cubical block surmounted by a hemisphere."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 8
+  },
+  {
+    "id": "note-4",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Number of Coins to form a Cuboid",
+    "text": "<p>Diameter of coin = 3.5 cm ⇒ radius r = 1.75 cm.</p><p>Thickness h = 4 mm = 0.4 cm.</p><p>Volume of one coin = πr^2 h = (22/7)×(1.75)^2×0.4.</p><p>Volume of cuboid = 21×11×7 = 1617 cm^3.</p><p>Number of coins n = Volume of cuboid / Volume of one coin = 1617 / [(22/7)×(1.75)^2×0.4] = 420.</p><p><span style='color: var(--success);'>Hence, 420 silver coins are required.</span></p>",
+    "details": {
+      "summary": "Solution for number of coins needed to melt and form a cuboid."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 8
+  },
+  {
+    "id": "note-5",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Slant Height of Frustum of a Cone",
+    "text": "<p>Radii: r1 = 42 cm, r2 = 105 cm, vertical height h = 16 cm.</p><p>Slant height l = √[h^2 + (r2 - r1)^2] = √[16^2 + (105-42)^2] = √[256 + 63^2] = √[256 + 3969] = √4225 = 65 cm.</p><p><span style='color: var(--success);'>Hence, slant height = 65 cm.</span></p>",
+    "details": {
+      "summary": "Solution for slant height of a frustum."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 8
   }
 ]

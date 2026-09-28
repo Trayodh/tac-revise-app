@@ -10,46 +10,16 @@ load_dotenv()
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 if not GEMINI_API_KEY:
-    print("Error: GEMINI_API_KEY not found in .env file.")
-    sys.exit(1)
+    pass
 
-MASTER_NOTES_ENRICHMENT_PROMPT = """
-# STAGE 4 — MASTER NOTES REFINEMENT, ENRICHMENT & KNOWLEDGE BASE PROMPT
+def get_master_prompt():
+    prompt_path = os.path.join(os.path.dirname(__file__), "KNOWLEDGE_SYNTHESIS_PROMPT.md")
+    if os.path.exists(prompt_path):
+        with open(prompt_path, "r", encoding="utf-8") as f:
+            return f.read()
+    return "Error: KNOWLEDGE_SYNTHESIS_PROMPT.md not found."
 
-## ROLE
-You are an Expert Defence Examination Educator, Instructional Designer, and Knowledge Architect.
-Your responsibility is to convert validated theory extracted from books into a structured, searchable, exam-oriented knowledge base.
-Your objective is to maximize understanding, retention, revision efficiency, and AI searchability without changing factual accuracy.
-Never invent facts. If information is uncertain or incomplete, mark it as **Needs Review**.
-
-## INPUT
-Each record contains raw notes extracted during previous stages.
-
-## PRIMARY OBJECTIVE
-Transform each topic into multiple learning formats while preserving all important information.
-
-## STEPS
-1. CONTENT VALIDATION: Check completeness, flow, remove OCR leftovers.
-2. STRUCTURE THE CONTENT: Subject -> Chapter -> Subchapter -> Topic -> Subtopic -> Concept.
-3. MASTER EXAM NOTES: Produce comprehensive notes (Definitions, Background, Exceptions, Features, etc).
-4. REVISION NOTES: Generate concise revision notes (highest-yield info, formulas, dates).
-5. ONE-LINER NOTES: Convert topic into rapid revision bullets.
-6. KEY FACTS: Extract most exam-relevant facts (Dates, Ranks, Ranges, Articles, etc).
-7. FORMULAE & EQUATIONS: Extract and explain.
-8. DEFINITIONS: Exact meaning, simplified explanation.
-9. TABLES: Reconstruct cleanly.
-10. DIAGRAMS: Title, description, labels, purpose.
-11. TIMELINES: Generate chronological timelines.
-12. COMPARISON TABLES: Generate useful comparisons.
-13. MEMORY AIDS: Mnemonics, acronyms.
-14. COMMON EXAM TRAPS: Identify frequent mistakes.
-15. PREVIOUS YEAR LINKS: Identify frequently asked areas.
-16. RELATED TOPICS: Prerequisites, related chapters.
-17. SEARCH INDEX: Keywords, alternative names.
-18. AI EXPLANATION BLOCKS: Beginner (simple), Intermediate (exam-oriented), Advanced (conceptual depth).
-19. REVISION PRIORITY: Critical, High, Medium, Low.
-20. OUTPUT FORMAT: Return structured knowledge record.
-
+REQUIRED_JSON_SCHEMA = """
 ## OUTPUT FORMAT
 Return ONLY a raw JSON object containing the enriched record (no markdown code blocks):
 {
@@ -80,16 +50,66 @@ Return ONLY a raw JSON object containing the enriched record (no markdown code b
   "confidence_score": 0,
   "needs_review_flag": false
 }
-
-## GOLDEN RULES
-Never change verified facts. Never invent information. Preserve technical terminology. Keep mathematical notation intact. Maintain a consistent structure.
 """
 
-def enrich_notes_gemini(notes_json_str):
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
+
+def enrich_notes_openrouter(notes_json_str, existing_chapter_content=""):
+    if not OPENROUTER_API_KEY:
+        print("Error: OPENROUTER_API_KEY not found in .env file.")
+        return None
+        
+    url = "https://openrouter.ai/api/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json"
+    }
+    
+    master_prompt = get_master_prompt()
+    prompt_text = f"{master_prompt}\n\n{REQUIRED_JSON_SCHEMA}\n\nHere are the existing canonical chapter notes (DO NOT REPEAT THESE):\n{existing_chapter_content}\n\nHere are the raw NEW notes to evaluate and merge:\n{notes_json_str}"
+    
+    data = {
+        "model": "meta-llama/llama-3.1-8b-instruct:free",
+        "messages": [
+            {"role": "system", "content": "You are a specialized JSON-only output assistant. You must ONLY output a valid JSON object matching the required schema. Do NOT include markdown blocks like ```json or any conversational text."},
+            {"role": "user", "content": prompt_text}
+        ],
+        "temperature": 0.2
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        response.raise_for_status()
+        res_json = response.json()
+        
+        if "choices" in res_json and len(res_json["choices"]) > 0:
+            text = res_json["choices"][0]["message"]["content"]
+            # Clean up potential markdown formatting if the model disobeys
+            text = text.strip()
+            if text.startswith("```json"):
+                text = text[7:]
+            if text.startswith("```"):
+                text = text[3:]
+            if text.endswith("```"):
+                text = text[:-3]
+            text = text.strip()
+            return json.loads(text)
+        else:
+            print("No output generated by OpenRouter.")
+            return None
+    except Exception as e:
+        print(f"OpenRouter API Error: {e}")
+        return None
+
+def enrich_notes_gemini(notes_json_str, existing_chapter_content=""):
+    if not GEMINI_API_KEY:
+        return None
+        
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
     headers = {"Content-Type": "application/json"}
     
-    prompt_text = f"{MASTER_NOTES_ENRICHMENT_PROMPT}\n\nHere are the raw notes to enrich:\n{notes_json_str}"
+    master_prompt = get_master_prompt()
+    prompt_text = f"{master_prompt}\n\n{REQUIRED_JSON_SCHEMA}\n\nHere are the existing canonical chapter notes (DO NOT REPEAT THESE):\n{existing_chapter_content}\n\nHere are the raw NEW notes to evaluate and merge:\n{notes_json_str}"
     
     data = {
         "contents": [
@@ -117,11 +137,18 @@ def enrich_notes_gemini(notes_json_str):
             print("No output generated by Gemini.")
             return None
     except Exception as e:
-        print(f"API Error: {e}")
+        print(f"Gemini API Error: {e}")
         return None
 
+def enrich_notes(notes_json_str, existing_chapter_content=""):
+    result = enrich_notes_gemini(notes_json_str, existing_chapter_content)
+    if not result:
+        print("Gemini failed. Falling back to OpenRouter...")
+        result = enrich_notes_openrouter(notes_json_str, existing_chapter_content)
+    return result
+
 def main():
-    parser = argparse.ArgumentParser(description="Enrich and format theory notes using Gemini.")
+    parser = argparse.ArgumentParser(description="Enrich and format theory notes using Gemini (with OpenRouter fallback).")
     parser.add_argument("input_json", help="Path to the input JSON file containing raw notes")
     parser.add_argument("output_json", help="Path to the output JSON file for enriched notes")
     parser.add_argument("--start", type=int, default=0, help="Start index (0-indexed)")
@@ -159,7 +186,7 @@ def main():
         print(f"\n--- Enriching Note {i+1}/{len(notes)} ---")
         n_str = json.dumps(n, indent=2)
         
-        result = enrich_notes_gemini(n_str)
+        result = enrich_notes(n_str)
         
         if result:
             enriched.append(result)
