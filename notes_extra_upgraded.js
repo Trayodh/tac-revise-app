@@ -1,6 +1,6 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-window.EXPANDED_NOTES_DATA["trig-identities"] = `
+window.EXPANDED_NOTES_DATA["mathematics-trigonometric-identities"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
     Trigonometric Identities & Values
@@ -141,7 +141,7 @@ window.EXPANDED_NOTES_DATA["trig-identities"] = `
       <p>Solution: Write 75° = 45° + 30°. Using the angle‑sum formula: sin75° = sin45°cos30° + cos45°sin30°
 `;
 
-window.EXPANDED_NOTES_DATA["inverse-trig"] = `
+window.EXPANDED_NOTES_DATA["mathematics-inverse"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
     Inverse Trigonometric Functions
@@ -249,7 +249,7 @@ window.EXPANDED_NOTES_DATA["inverse-trig"] = `
     <li>Confusing <span style="color: var(--warning);">range</span> with <span style="color: var(--warning);">
 `;
 
-window.EXPANDED_NOTES_DATA["quadratic-eq"] = `
+window.EXPANDED_NOTES_DATA["mathematics-quadratic-equations"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;">
     Quadratic Equations

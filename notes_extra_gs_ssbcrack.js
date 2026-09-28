@@ -1,6 +1,6 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-window.EXPANDED_NOTES_DATA["gs-cell-biology"] = `
+window.EXPANDED_NOTES_DATA["biology-cell"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Cell Biology — Structure, Organelles & Division</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -428,7 +428,7 @@ Cell
 <tr style="background:#e
 `;
 
-window.EXPANDED_NOTES_DATA["gs-human-nutrition"] = `
+window.EXPANDED_NOTES_DATA["biology-human-body"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Human Nutrition — Vitamins, Minerals, Deficiencies & Balanced Diet</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -826,7 +826,7 @@ Vitamins & Minerals
 <tr><td style="border:1px solid #ccc;padding:5px;">Which vitamin deficiency is known as “Pellagra”?</
 `;
 
-window.EXPANDED_NOTES_DATA["gs-digestive-system"] = `
+window.EXPANDED_NOTES_DATA["biology-digestive-system"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Human Digestive System — Organs, Enzymes & Absorption</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -1225,7 +1225,7 @@ Rectum → Anus (Defecation)
 <td style="border:1px solid #6ee7b7;padding:5px;">Cholecyst
 `;
 
-window.EXPANDED_NOTES_DATA["gs-circulatory-system"] = `
+window.EXPANDED_NOTES_DATA["biology-circulatory-system"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Human Circulatory System — Heart, Blood & Blood Groups</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -1612,7 +1612,7 @@ Blood Groups → ABO & Rh → Transfusion Compatibility → Clinical Application
 <tr><td style="border:1px solid #34d399;padding:6px;">Name the two valves that open during ventricular systole.</td><td style="border:1px solid #
 `;
 
-window.EXPANDED_NOTES_DATA["gs-respiratory-system"] = `
+window.EXPANDED_NOTES_DATA["biology-respiratory-system"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Human Respiratory System — Lungs, Gas Exchange & High-Altitude Physiology</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -1935,7 +1935,7 @@ High‑Altitude → ↓ Barometric P → ↓ PO₂ → Hyperventilation → Accl
 <th style="border:1px solid #34d399;padding:5px
 `;
 
-window.EXPANDED_NOTES_DATA["gs-nervous-system"] = `
+window.EXPANDED_NOTES_DATA["biology-nervous-system"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Human Nervous System — Brain, Spinal Cord & Reflex Action</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -2360,7 +2360,7 @@ Brain (Cerebrum) --> Sensory Input --> Spinal Cord (Grey Matter) --> Integration
 <td style="border:1px solid #999;padding:5px;">What is the role of oligodendrocy
 `;
 
-window.EXPANDED_NOTES_DATA["gs-endocrine-system"] = `
+window.EXPANDED_NOTES_DATA["biology-endocrine-system"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Human Endocrine System — Glands, Hormones & Disorders</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -2719,7 +2719,7 @@ Stress Response ↔ Metabolism ↔ Calcium Homeostasis ↔ Glucose Homeostasis
 <tr><td style="
 `;
 
-window.EXPANDED_NOTES_DATA["gs-excretory-system"] = `
+window.EXPANDED_NOTES_DATA["biology-excretory-system"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Human Excretory System — Kidneys, Nephron & Dialysis</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -3057,7 +3057,7 @@ Kidney Anatomy → Renal Cortex & Medulla
 <tr><td style="border:1px solid #ccc;padding:5px;">Which dialysis method uses a semi‑permeable membrane inside a cartridge?</td><td style="border:1px solid #ccc;padding:5px;">Haemodialysis</td
 `;
 
-window.EXPANDED_NOTES_DATA["gs-musculoskeletal"] = `
+window.EXPANDED_NOTES_DATA["english-cloze-test"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Human Skeletal &amp; Muscular System — Bones, Joints &amp; Muscles</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -3409,7 +3409,7 @@ Skeleton
 <h2>
 `;
 
-window.EXPANDED_NOTES_DATA["gs-reproduction-heredity"] = `
+window.EXPANDED_NOTES_DATA["biology-reproduction"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Reproduction & Heredity — DNA, Genetics & Mendel Laws</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -3730,7 +3730,7 @@ Genetic Linkage --> Recombination Frequency --> Genetic Maps
 <tr><td style="border:1px solid #34d399;padding:5px;">What is
 `;
 
-window.EXPANDED_NOTES_DATA["gs-diseases-immunity"] = `
+window.EXPANDED_NOTES_DATA["biology-diseases"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Human Diseases, Immunity & Vaccines</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -4061,7 +4061,7 @@ Secondary (Recall) Response → Herd Immunity
 <li>Bioterror agents – anthrax, smallpox, plague – need rapid
 `;
 
-window.EXPANDED_NOTES_DATA["gs-plant-kingdom"] = `
+window.EXPANDED_NOTES_DATA["biology-plant-biology"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Plant Kingdom — Classification, Photosynthesis & Plant Hormones</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -4428,7 +4428,7 @@ Hormone Distribution (e.g., auxin in meristems) ----> Growth & Stress Responses
 <li>Jasmonates induce secondary metabolite synthesis.</li>
 `;
 
-window.EXPANDED_NOTES_DATA["gs-animal-kingdom"] = `
+window.EXPANDED_NOTES_DATA["economics-national-income"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Animal Kingdom — Classification & Characteristics</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -4767,7 +4767,7 @@ Animal Kingdom
 <tr><td style="border:1px solid #cbd5e1;padding:5px;">Name the three main chordate traits.</td><td style="border:1px solid #cbd5e1;padding:5px;">Dorsal hollow nerve cord, notoch
 `;
 
-window.EXPANDED_NOTES_DATA["gs-ecology-environment"] = `
+window.EXPANDED_NOTES_DATA["military_aptitude-environment-ecology"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Ecology & Environment — Food Chains, Biodiversity & Pollution</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -5095,7 +5095,7 @@ Energy Flow → Trophic Levels → Food Chain ↔ Food Web
 <tr><td style="border:1px solid #81d4fa;padding:5px;">Name a defence‑related application of mangroves.</td><
 `;
 
-window.EXPANDED_NOTES_DATA["gs-units-measurement"] = `
+window.EXPANDED_NOTES_DATA["mathematics-angles-and-measurement"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Units, Dimensions & Measurement</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -5498,7 +5498,7 @@ Physical Quantities
   <li>HAL’s new “AMCA” fighter jet’s engine thrust is quoted in kN; pilot training manuals
 `;
 
-window.EXPANDED_NOTES_DATA["gs-laws-of-motion"] = `
+window.EXPANDED_NOTES_DATA["mathematics-laws-of-logarithms"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Laws of Motion — Newtons Laws, Friction & Applications</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -5891,7 +5891,7 @@ Defence‑level questions (especially in CDS) now frequently embed scenario‑ba
 <td style="border:1px solid #60a5fa;padding:6px;">v = (0.02·800)/20
 `;
 
-window.EXPANDED_NOTES_DATA["gs-work-energy-power"] = `
+window.EXPANDED_NOTES_DATA["mathematics-time-and-work"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Work, Energy & Power — Conservation Laws & Collisions</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -6193,7 +6193,7 @@ Work → Energy (KE, PE) → Work‑Energy Theorem
 <tr><td style="border:1px solid #34d399;padding:5px;">What is the energy stored in a 0.2 kg mass moving at 15 m s⁻¹?</
 `;
 
-window.EXPANDED_NOTES_DATA["gs-gravitation"] = `
+window.EXPANDED_NOTES_DATA["physics-gravitation"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Gravitation — Keplers Laws, Satellites & Escape Velocity</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -6601,7 +6601,7 @@ Defence Applications (Comm., ISR, Missile Guidance)
 <td style="border:1
 `;
 
-window.EXPANDED_NOTES_DATA["gs-heat-thermodynamics"] = `
+window.EXPANDED_NOTES_DATA["physics-heat"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Heat & Thermodynamics — Laws, Heat Transfer & Applications</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -6924,7 +6924,7 @@ Heat Input → ΔU = Q – W
 <tr><td style="border:1px solid #a7f3d0;padding:5px;">What is the third law of thermodynamics?</td><td style="border:1px solid #a7f3d0;padding:5px;">S → 0 as T → 0 K
 `;
 
-window.EXPANDED_NOTES_DATA["gs-waves-sound"] = `
+window.EXPANDED_NOTES_DATA["physics-sound"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Waves & Sound — Properties, Doppler Effect & Applications</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -7333,7 +7333,7 @@ Waves
 <td style="border:1px solid #8bc34
 `;
 
-window.EXPANDED_NOTES_DATA["gs-light-optics"] = `
+window.EXPANDED_NOTES_DATA["physics-optics"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Light & Optics — Reflection, Refraction, Lenses & Optical Instruments</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -7649,7 +7649,7 @@ Light → Reflection → Mirror Equation → Image Types
 <tr><td style="border:1px solid
 `;
 
-window.EXPANDED_NOTES_DATA["gs-electricity-magnetism"] = `
+window.EXPANDED_NOTES_DATA["physics-electricity"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Electricity & Magnetism — Ohms Law, Circuits & Electromagnetic Induction</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -7973,7 +7973,7 @@ Recent trends (2022‑2024) show an increase in questions linking circuits to <s
 <tr><td style="border:1px solid #34d399;padding:4px;">Define RMS voltage for a sinusoid.</td><td style="border:1px solid #34d399;padding:4px;">V_rms = V_peak/
 `;
 
-window.EXPANDED_NOTES_DATA["gs-modern-physics"] = `
+window.EXPANDED_NOTES_DATA["physics-units-and-measurements"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Modern Physics — Atomic Structure, Radioactivity & Nuclear Physics</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -8264,7 +8264,7 @@ Applications (Weapons, Reactors, RTGs, Tracers)
 <tr><td style="border
 `;
 
-window.EXPANDED_NOTES_DATA["gs-matter-states"] = `
+window.EXPANDED_NOTES_DATA["physics-states-of-matter"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">States of Matter & Gas Laws</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -8597,7 +8597,7 @@ Matter
 <tr><td style="border:1px solid #bbb;padding:5px;">State the formula for density of a gas.</
 `;
 
-window.EXPANDED_NOTES_DATA["gs-atomic-structure-periodic"] = `
+window.EXPANDED_NOTES_DATA["chemistry-atomic-structure"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Atomic Structure & Periodic Table</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -8931,7 +8931,7 @@ Atomic Structure
 <tr><td style="border:1px solid #cbd5e1;padding:8px;">Atomic radius trend across a
 `;
 
-window.EXPANDED_NOTES_DATA["gs-chemical-bonding"] = `
+window.EXPANDED_NOTES_DATA["chemistry-chemical-equations"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Chemical Bonding — Ionic, Covalent & Metallic Bonds</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -9341,7 +9341,7 @@ Properties: Conductive, Malleable, Ductile
 </
 `;
 
-window.EXPANDED_NOTES_DATA["gs-chemical-reactions"] = `
+window.EXPANDED_NOTES_DATA["chemistry-chemical-reactions"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Chemical Reactions — Types, Rates & Equilibrium</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -9797,7 +9797,7 @@ Forward Rate -----> Equilibrium -----> Reverse Rate
 <td style="border:1px solid #90caf9;padding:
 `;
 
-window.EXPANDED_NOTES_DATA["gs-acids-bases-salts"] = `
+window.EXPANDED_NOTES_DATA["chemistry-acids"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Acids, Bases &amp; Salts — pH, Indicators &amp; Neutralization</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -10129,7 +10129,7 @@ Buffer  ---->  Resists pH change
 <tr><td style="border:1px solid #34d399;padding:5px;">Which indicator is suitable for titrating a strong acid with a strong base?</td><
 `;
 
-window.EXPANDED_NOTES_DATA["gs-metals-nonmetals"] = `
+window.EXPANDED_NOTES_DATA["chemistry-metals"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Metals & Non-Metals — Properties, Reactivity & Uses</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -10534,7 +10534,7 @@ Non‑Metals
 <td style="border:1px solid #b0c4de;padding:5px;">What is the main advantage of Ti‑6Al‑4V alloy?</td
 `;
 
-window.EXPANDED_NOTES_DATA["gs-carbon-organic"] = `
+window.EXPANDED_NOTES_DATA["chemistry-carbon"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Carbon & Organic Chemistry — Hydrocarbons & Polymers</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -10863,7 +10863,7 @@ Carbon
 <li>Polymer mass calculation: m = (grams of monomer / M₀) × DP × M₀ ×
 `;
 
-window.EXPANDED_NOTES_DATA["gs-everyday-chemistry"] = `
+window.EXPANDED_NOTES_DATA["chemistry-everyday-chemistry"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Everyday Chemistry — Food, Medicines, Fuels & Materials</h1>
 
 <h2 style="color:#34d399;margin-top:30px;">📊 Chapter Importance</h2>
@@ -11176,7 +11176,7 @@ Materials Science → Polymers/Metals → Equipment & Armour
 `;
 
 
-window.EXPANDED_NOTES_DATA["hist-indus-valley"] = `
+window.EXPANDED_NOTES_DATA["history-indus-valley-civilization"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Indus Valley Civilisation — Harappa, Mohenjo‑Daro & Key Features</h1>
 
 <!-- 1. CHAPTER IMPORTANCE -->
@@ -11577,7 +11577,7 @@ window.EXPANDED_NOTES_DATA["hist-indus-valley"] = `
   <li>
 `;
 
-window.EXPANDED_NOTES_DATA["hist-vedic-age"] = `
+window.EXPANDED_NOTES_DATA["history-vedic-period"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Vedic Age — Rigvedic to Later Vedic, Society & Literature</h1>
 
 <!-- 1. CHAPTER IMPORTANCE -->
@@ -11895,7 +11895,7 @@ Iron Age → PGW Culture → Kingdoms → Mahajanapadas
   <li>Iron tools appear ~
 `;
 
-window.EXPANDED_NOTES_DATA["hist-buddhism-jainism"] = `
+window.EXPANDED_NOTES_DATA["history-buddhism"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Buddhism & Jainism — Founders, Teachings & Impact</h1>
 
 <!-- 1. CHAPTER IMPORTANCE -->
@@ -12209,7 +12209,7 @@ The language of the questions has become more “scenario‑based”: a stem may
 <tr><td style="border:1px solid #60a5fa;padding:5px;">First Buddhist council held at?</td><td style="border:1px solid #60a5fa;padding:5px;">Rajgir (Vajrasana)</td></tr
 `;
 
-window.EXPANDED_NOTES_DATA["hist-mauryan-empire"] = `
+window.EXPANDED_NOTES_DATA["history-mauryan-empire"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Mauryan Empire — Chandragupta, Ashoka & Administration</h1>
 
 <h2 style="color:#60a5fa;margin-top:20px;">1. CHAPTER IMPORTANCE</h2>
@@ -12529,7 +12529,7 @@ Decline (185 BCE) → Legacy for later empires
 <tr><td style="border:1px solid #ddd;padding:8px;">Ashoka’s year
 `;
 
-window.EXPANDED_NOTES_DATA["hist-gupta-age"] = `
+window.EXPANDED_NOTES_DATA["history-gupta-empire"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Gupta Age — Golden Age, Art, Science & Culture</h1>
 
 <h2 style="color:#60a5fa;">1. CHAPTER IMPORTANCE</h2>
@@ -12823,7 +12823,7 @@ Past five years of CDS, AFCAT and NDA papers show that the Gupta chapter appears
   <tr><td style="border:1px solid #60a5fa;padding:5px;">Kalidasa’s famous play?</td><td
 `;
 
-window.EXPANDED_NOTES_DATA["hist-delhi-sultanate"] = `
+window.EXPANDED_NOTES_DATA["history-delhi-sultanate"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Delhi Sultanate — Dynasties, Administration & Culture</h1>
 
 <!-- 1. CHAPTER IMPORTANCE -->
@@ -13103,7 +13103,7 @@ Delhi Sultanate
 <li>Key dates: 1206,
 `;
 
-window.EXPANDED_NOTES_DATA["hist-mughal-empire"] = `
+window.EXPANDED_NOTES_DATA["history-mughal-empire"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Mughal Empire — Akbar to Aurangzeb, Administration & Culture</h1>
 
 <h2 style="color:#34d399;">1. CHAPTER IMPORTANCE</h2>
@@ -13468,7 +13468,7 @@ Answers must be crisp (≤30 words) for AFCAT/NDA, while CDS may demand a brie
   <li>Jag
 `;
 
-window.EXPANDED_NOTES_DATA["hist-maratha-empire"] = `
+window.EXPANDED_NOTES_DATA["history-mauryan-empire"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Maratha Empire — Shivaji, Peshwas & Military System</h1>
 
 <!-- 1. CHAPTER IMPORTANCE -->
@@ -13782,7 +13782,7 @@ Decline (Panipat, British) ----&gt; Legacy in Modern Indian Defence
   <li>Key dates to remember: 1630, 1645, 1674, 1720,
 `;
 
-window.EXPANDED_NOTES_DATA["hist-british-conquest"] = `
+window.EXPANDED_NOTES_DATA["history-british-expansion"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">British Conquest of India — Battles, Treaties &amp; Policies</h1>
 
 <h2 style="color:#34d399;margin-top:20px;">1. CHAPTER IMPORTANCE</h2>
@@ -14104,7 +14104,7 @@ window.EXPANDED_NOTES_DATA["hist-british-conquest"] = `
   <tr><td style="border:1px solid #60a5fa;padding:5px
 `;
 
-window.EXPANDED_NOTES_DATA["hist-1857-revolt"] = `
+window.EXPANDED_NOTES_DATA["history-revolt-of-1857"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">1857 Revolt — Causes, Events, Leaders & Significance</h1>
 
 <!-- 1. CHAPTER IMPORTANCE -->
@@ -14483,7 +14483,7 @@ From 2010‑2025, the 1857 Revolt appears in <strong>≈ 38 % of History paper
   <tr><td style="border:1px solid #60a5fa;padding:5px;">Primary army that mutinied?</td><td style="border:1px solid #60
 `;
 
-window.EXPANDED_NOTES_DATA["hist-freedom-struggle"] = `
+window.EXPANDED_NOTES_DATA["history-freedom-movement"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Indian Freedom Struggle — Gandhi, INC & Major Movements</h1>
 
 <!-- 1. CHAPTER IMPORTANCE -->
@@ -14795,7 +14795,7 @@ Independence (1947)
   <tr><td style="border:1px solid #60a
 `;
 
-window.EXPANDED_NOTES_DATA["hist-independence"] = `
+window.EXPANDED_NOTES_DATA["history-independence"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;font-size:1.8em;">Independence & Partition — 1947, Integration & Constitution</h1>
 
 <h2 style="color:#34d399;margin-top:20px;">1. CHAPTER IMPORTANCE</h2>
@@ -15136,7 +15136,7 @@ Recent trends show a shift from pure factual recall to **application‑oriented*
 <tr
 `;
 
-window.EXPANDED_NOTES_DATA["geo-physical-features"] = `
+window.EXPANDED_NOTES_DATA["physics-physical-quantities"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;">Physical Features of India — Himalayas, Peninsular Plateau & Coastal Plains</h1>
 <h2 style="color:#4d5154;border-bottom:1px solid #4d5154;padding-bottom:5px;">CHAPTER IMPORTANCE — ★ ratings (CDS/AFCAT/NDA), Frequently/Occasionally/Rarely Asked</h2>
 <p style="font-size:16px;">This chapter is highly important for CDS, AFCAT, and NDA exams, with a rating of ★★★★ (4/5). Questions from this topic are frequently asked in these exams, with a frequency of 70-80%.</p>
@@ -15347,7 +15347,7 @@ window.EXPANDED_NOTES_DATA["geo-physical-features"] = `
   <li style="color:#0097e6;">The Himalayas are home to
 `;
 
-window.EXPANDED_NOTES_DATA["geo-rivers-lakes"] = `
+window.EXPANDED_NOTES_DATA["geography-rivers"] = `
 <h1 style="color:#60a5fa;border-bottom:2px solid #60a5fa;padding-bottom:10px;">Rivers, Lakes & Water Bodies of India</h1>
 <p style="font-size:18px;">This chapter is rated ★★★ (CDS), ★★ (AFCAT), and ★ (NDA) in terms of importance, with questions being Frequently asked in CDS, Occasionally asked in AFCAT, and Rarely asked in NDA.</p>
 

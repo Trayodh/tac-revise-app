@@ -1,6 +1,6 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-window.EXPANDED_NOTES_DATA["what-is-history"] = `
+window.EXPANDED_NOTES_DATA["history-ancient-india"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">📚 Meaning and Scope of History</h3>
 <p>History is far more than a mere chronicle of past events; it is the systematic and critical analysis of past human experiences, societies, cultures, political structures, economic systems, and intellectual developments. It is not a static list of dates, names, or isolated incidents; rather, it is a dynamic, interpretative science that meticulously examines the intricate web of cause-and-effect relationships over vast stretches of time. By delving into the past, history seeks to identify recurring patterns, understand the evolution of human civilization, and draw profound lessons that are critically relevant for navigating the complexities of the present and shaping the trajectory of the future. For aspirants of defence examinations like NDA, CDS, and AFCAT, a robust understanding of history is indispensable, as it provides crucial insights into geopolitical strategies, national identity, cultural heritage, and the origins of contemporary conflicts and alliances.</p>
@@ -218,7 +218,7 @@ window.EXPANDED_NOTES_DATA["what-is-history"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["buddhism-jainism"] = `
+window.EXPANDED_NOTES_DATA["history-buddhism"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Buddhism & Jainism</h3>
 <p>Heterodox religious movements that arose in the 6th century BCE as a reaction to Vedic ritualism and caste rigidity.</p>
@@ -622,7 +622,7 @@ EXPANDED_NOTES_DATA["mauryan-period"] = \`
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["post-mauryan-india"] = `
+window.EXPANDED_NOTES_DATA["history-ancient-india"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Post-Mauryan Dynasties & Foreign Invasions</h3>
 <p>After the Mauryan decline, Magadha saw the rise of smaller dynasties, while the North-West faced foreign invasions.</p>
@@ -657,7 +657,7 @@ window.EXPANDED_NOTES_DATA["post-mauryan-india"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["gupta-period"] = `
+window.EXPANDED_NOTES_DATA["history-vedic-period"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">👑 The Gupta Empire (Golden Age: 320 – 550 CE)</h3>
 <p>An era marked by political unification, flourishing trade, and unparalleled achievements in science, literature, art, and architecture. The period is often termed the “Golden Age of India” because of its cultural efflorescence and relative internal stability.</p>
@@ -783,7 +783,7 @@ window.EXPANDED_NOTES_DATA["gupta-period"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = `
+window.EXPANDED_NOTES_DATA["history-ancient-indian-culture"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">South Indian Kingdoms</h3>
 <p>The sub‑continent’s southern region witnessed a succession of vibrant polities that shaped its language, literature, art, and maritime power. The chronological flow moves from the early <strong>Sangam Age</strong> (c. 3rd BCE – 3rd CE), through the dynastic rivalry of the <strong>Pallavas</strong> and <strong>Chalukyas</strong> (6th – 8th CE), to the zenith of the <strong>Imperial Cholas</strong> (9th – 12th CE). Each era contributed distinct administrative innovations, monumental architecture, and expansive trade networks that are crucial for UPSC and Defence examinations.</p>
@@ -939,7 +939,7 @@ window.EXPANDED_NOTES_DATA["south-indian-kingdoms"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["early-medieval-india"] = `
+window.EXPANDED_NOTES_DATA["history-medieval-india"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🛡️ Early Medieval India (c. 6th – 12th CE)</h3>
 <p>The period after the decline of the Gupta Empire witnessed intense regional fragmentation. Power was contested among several dynasties, leading to a dynamic political landscape marked by wars, cultural patronage, and the emergence of the Rajput warrior class. This era set the foundations for the later medieval kingdoms that would dominate the sub‑continent.</p>
@@ -1095,7 +1095,7 @@ window.EXPANDED_NOTES_DATA["early-medieval-india"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["delhi-sultanate"] = `
+window.EXPANDED_NOTES_DATA["history-delhi-sultanate"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">⚔️ The Delhi Sultanate (1206 – 1526)</h3>
 <p>Five successive dynasties ruled the Indian sub‑continent from Delhi before the advent of the Mughal Empire. A handy mnemonic to remember them is <strong>S</strong>ome <strong>K</strong>ings <strong>T</strong>ravel <strong>S</strong>lowly <strong>L</strong>ately.</p>
@@ -1471,7 +1471,7 @@ window.EXPANDED_NOTES_DATA["delhi-sultanate"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["bahmani-deccan-sultanates"] = `
+window.EXPANDED_NOTES_DATA["history-delhi-sultanate"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🏰 Bahmani Kingdom & Deccan Sultanates</h3>
 <p>The Bahmani Kingdom (1347‑1527) was the first major Islamic empire in the Deccan plateau. It emerged as a direct challenge to the Delhi Sultanate and spent more than a century in a relentless rivalry with the Vijayanagara Empire for control of the fertile Raichur Doab. Its eventual fragmentation gave rise to the five Deccan Sultanates, which played a decisive role in the political and cultural landscape of South‑India until the advent of the Mughal Empire.</p>
@@ -1664,7 +1664,7 @@ window.EXPANDED_NOTES_DATA["bahmani-deccan-sultanates"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["mughal-empire"] = `
+window.EXPANDED_NOTES_DATA["history-mughal-empire"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">👑 The Mughal Empire (1526 – 1857)</h3>
 <p>The Mughal Empire was founded by Central Asian Turko‑Mongol invaders who, over three centuries, forged one of the most extensive, culturally vibrant, and administratively sophisticated polities in Indian history. Its legacy endures in language, architecture, art, law, and the very fabric of South‑Asian society.</p>
@@ -1883,7 +1883,7 @@ window.EXPANDED_NOTES_DATA["mughal-empire"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["marathas"] = `
+window.EXPANDED_NOTES_DATA["history-marathas"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">⚔️ The Maratha Empire</h3>
 <p>The Marathas emerged from the rugged Deccan plateau to become a decisive force that challenged Mughal hegemony and eventually exerted political and military influence over most of North India. Their rise was marked by innovative administration, a flexible revenue system, and a series of charismatic leaders who combined guerrilla tactics with conventional warfare.</p>
@@ -2077,7 +2077,7 @@ window.EXPANDED_NOTES_DATA["marathas"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["sikh-history"] = `
+window.EXPANDED_NOTES_DATA["history-ancient-india"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">☬ Sikh History & Gurus</h3>
 <p>Sikhism originated in the early 16th century as a reformist Bhakti movement that emphasized devotion to one God, equality, and social justice. Over the next three centuries, the community transformed from a peaceful devotional fellowship into a militarized polity capable of confronting Mughal oppression and later British imperialism.</p>
@@ -2293,7 +2293,7 @@ window.EXPANDED_NOTES_DATA["sikh-history"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["bhakti-movement"] = `
+window.EXPANDED_NOTES_DATA["history-bhakti-movement"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🙏 The Bhakti Movement</h3>
 <p>A pan‑Indian medieval socio‑religious reform movement that emphasized <strong>personal devotion (bhakti)</strong> to a personal deity as the sole means to attain salvation. It challenged the authority of priestly intermediaries, the rigidity of caste hierarchies, and ritualistic orthodoxy, thereby democratizing spiritual practice.</p>
@@ -2458,7 +2458,7 @@ window.EXPANDED_NOTES_DATA["bhakti-movement"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["sufi-movement"] = `
+window.EXPANDED_NOTES_DATA["history-sufi-movement"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">✨ The Sufi Movement</h3>
 <p>The mystical dimension of Islam that seeks a direct, experiential union with the Divine through love, devotion, and inner purification. In the Indian sub‑continent, Sufism became a powerful social and cultural force, shaping religious practices, literature, architecture, and politics from the early medieval period to the colonial era.</p>
@@ -2605,7 +2605,7 @@ window.EXPANDED_NOTES_DATA["sufi-movement"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["european-arrival"] = `
+window.EXPANDED_NOTES_DATA["history-european-arrival"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🚢 European Entry and British Expansion</h3>
 <p>The quest for Asian spices, textiles and precious metals drove several European maritime powers to the Indian sub‑continent from the late 15th century onward. What began as isolated trading factories soon evolved into political footholds, setting the stage for colonial domination, especially by the British East India Company (EIC).</p>
@@ -2770,7 +2770,7 @@ window.EXPANDED_NOTES_DATA["european-arrival"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["governor-generals-viceroys"] = `
+window.EXPANDED_NOTES_DATA["history-governor-generals-viceroys"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Governor‑Generals & Viceroys of British India</h3>
 <p>The administrative heads of British rule in India who formulated expansionist, fiscal and social‑reform policies. Their actions shaped the political, economic and cultural landscape of the sub‑continent and continue to be high‑yield topics for UPSC and Defence examinations.</p>
@@ -3066,7 +3066,7 @@ window.EXPANDED_NOTES_DATA["governor-generals-viceroys"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["economic-impact-british"] = `
+window.EXPANDED_NOTES_DATA["history-british-expansion"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Economic Impact of British Rule</h3>
 <p>British colonial policies re‑oriented the Indian economy from a diversified exporter of finished goods to a raw‑material supplier and captive market for British manufactures. This structural shift had long‑lasting repercussions on industry, agriculture, fiscal health and the overall standard of living.</p>
@@ -3226,7 +3226,7 @@ window.EXPANDED_NOTES_DATA["economic-impact-british"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["socio-religious-reform"] = `
+window.EXPANDED_NOTES_DATA["history-socio-religious-reform-movements"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🌱 Socio‑Religious Reform Movements (19th Century)</h3>
 <p>The nineteenth century witnessed a wave of indigenous reform movements that sought to eradicate entrenched social evils—caste discrimination, sati, child marriage, and gender inequities—while simultaneously promoting modern education, scientific temper and a reinterpretation of religious traditions. These movements laid the ideological foundation for the Indian Renaissance and later nationalist struggles.</p>
@@ -3430,7 +3430,7 @@ window.EXPANDED_NOTES_DATA["socio-religious-reform"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["freedom-movement"] = `
+window.EXPANDED_NOTES_DATA["history-freedom-movement"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">⚔️ Indian National Movement</h3>
 <p>The Indian National Movement was a prolonged, multi‑phased struggle aimed at ending British colonial rule and establishing a sovereign, democratic nation‑state. Historians usually divide it into three broad phases – the <strong>Moderate</strong> (1885‑1905), the <strong>Extremist</strong> (1905‑1919) and the <strong>Gandhian</strong> era (1919‑1947). Each phase introduced new tactics, leadership styles, and political alliances that together forged the path to independence.</p>
@@ -3601,7 +3601,7 @@ window.EXPANDED_NOTES_DATA["freedom-movement"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["revolutions"] = `
+window.EXPANDED_NOTES_DATA["history-revolutionary-movements"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🇺🇸🇫🇷 Industrial & Political Revolutions</h3>
 <p>These revolutions transformed the global political landscape, gave rise to modern ideologies, and reshaped economic structures. The following sections provide concise, high‑yield facts essential for UPSC and Defence examinations.</p>
@@ -3875,7 +3875,7 @@ window.EXPANDED_NOTES_DATA["revolutions"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["world-war-i"] = `
+window.EXPANDED_NOTES_DATA["history-world-history-basics"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">World War I (1914‑1918)</h3>
 <p>A continent‑wide conflict that reshaped political boundaries, toppled empires and introduced modern warfare. Though centred in Europe, its impact was truly global, influencing colonies, economies and the future of international relations.</p>
@@ -3981,7 +3981,7 @@ window.EXPANDED_NOTES_DATA["world-war-i"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["world-war-ii"] = `
+window.EXPANDED_NOTES_DATA["history-world-history-basics"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">World War II (1939 – 1945)</h3>
 <p>The most destructive conflict in human history, involving the majority of the world’s nations and resulting in unprecedented military, economic, and humanitarian consequences.</p>
@@ -4170,7 +4170,7 @@ window.EXPANDED_NOTES_DATA["world-war-ii"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["interwar-period"] = `
+window.EXPANDED_NOTES_DATA["history-vedic-period"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">📉 The Interwar Period (1919 – 1939)</h3>
 <p>The two decades between the First and Second World Wars were characterised by profound economic distress, political upheaval and the emergence of totalitarian regimes that reshaped global geopolitics.</p>
@@ -4356,7 +4356,7 @@ window.EXPANDED_NOTES_DATA["interwar-period"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["cold-war"] = `
+window.EXPANDED_NOTES_DATA["chemistry-water"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">❄️ The Cold War & Decolonisation (1945‑1991)</h3>
 <p>The post‑World War II period was characterised by a global ideological clash between the United States and the Soviet Union, alongside a massive wave of decolonisation that reshaped Asia and Africa. The interplay of super‑power rivalry and the emergence of newly independent states set the agenda for international politics for nearly half a century.</p>
@@ -4576,7 +4576,7 @@ window.EXPANDED_NOTES_DATA["cold-war"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["international-institutions"] = `
+window.EXPANDED_NOTES_DATA["current-affairs-international-affairs"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">International Institutions</h3>
 <p>Global bodies created to manage international relations, trade, finance, and security. They provide the framework for multilateral cooperation, conflict resolution, and economic development.</p>
@@ -4694,7 +4694,7 @@ window.EXPANDED_NOTES_DATA["international-institutions"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["architecture"] = `
+window.EXPANDED_NOTES_DATA["history-art-and-architecture"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Indian Architecture</h3>
 <p>The built heritage of the Indian sub‑continent spans from prehistoric rock shelters to the grand Mughal monuments of the 17th century. It reflects a continuous dialogue between indigenous traditions, regional materials, and external influences (especially from the Islamic world). The following notes synthesize the major architectural traditions that are crucial for UPSC and Defence examinations.</p>
@@ -4861,7 +4861,7 @@ window.EXPANDED_NOTES_DATA["architecture"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["paintings"] = `
+window.EXPANDED_NOTES_DATA["reasoning-cubes"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🎨 Painting Traditions of India</h3>
 <p>Indian painting spans more than two millennia, evolving from monumental cave murals to refined court miniatures and vibrant tribal folk art. The tradition reflects the country’s religious diversity, regional cultures, patronage systems, and technological innovations in pigments and supports.</p>
@@ -5128,7 +5128,7 @@ window.EXPANDED_NOTES_DATA["paintings"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["dance-music"] = `
+window.EXPANDED_NOTES_DATA["mathematics-distance-formula"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Dance & Music</h3>
 <p>The classical and folk performance heritage of India is a living repository of mythic narratives, regional identities, and religious traditions. Mastery of these art‑forms is essential for UPSC and defence examinations because they illustrate the cultural synthesis, patronage patterns, and socio‑political contexts that shaped Indian civilization.</p>
@@ -5355,7 +5355,7 @@ window.EXPANDED_NOTES_DATA["dance-music"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["literature"] = `
+window.EXPANDED_NOTES_DATA["physics-temperature"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">📖 Literary Traditions of India</h3>
 <p>The Indian sub‑continent boasts a continuous literary tradition spanning over five millennia. Its corpus preserves scientific, political, philosophical, religious and artistic achievements, making it indispensable for any aspirant preparing for UPSC, NDA, or other defence examinations.</p>
@@ -5588,7 +5588,7 @@ window.EXPANDED_NOTES_DATA["literature"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["religion-festivals"] = `
+window.EXPANDED_NOTES_DATA["chemistry-non-metals"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">🕉️ Indian Philosophy & Festivals</h3>
 <p>The intellectual traditions of India, known as <strong>Darshanas</strong>, have shaped religious, social, and political thought for millennia. Parallelly, India’s diverse cultural tapestry is reflected in its regional festivals, each embodying local history, agrarian cycles, and tribal heritage.</p>
@@ -5793,7 +5793,7 @@ window.EXPANDED_NOTES_DATA["religion-festivals"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["heritage-sites"] = `
+window.EXPANDED_NOTES_DATA["chemistry-salts"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">UNESCO World Heritage Sites in India</h3>
 <p>India boasts <strong>42 UNESCO World Heritage Sites</strong> (as of 2024), reflecting its unparalleled cultural diversity and natural wealth. These sites are recognized for their outstanding universal value and are protected under the World Heritage Convention.</p>
@@ -5978,7 +5978,7 @@ window.EXPANDED_NOTES_DATA["heritage-sites"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["magadha-expansion"] = `
+window.EXPANDED_NOTES_DATA["physics-thermal-expansion"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">
     Magadha Expansion
@@ -6097,7 +6097,7 @@ window.EXPANDED_NOTES_DATA["magadha-expansion"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["ancient-indian-culture"] = `
+window.EXPANDED_NOTES_DATA["history-ancient-indian-culture"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">
     Ancient Indian Culture
@@ -6225,7 +6225,7 @@ window.EXPANDED_NOTES_DATA["ancient-indian-culture"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["british-expansion"] = `
+window.EXPANDED_NOTES_DATA["history-british-expansion"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">
     British Expansion in India
@@ -6386,7 +6386,7 @@ window.EXPANDED_NOTES_DATA["british-expansion"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["history-pyq-trends-topic"] = `
+window.EXPANDED_NOTES_DATA["history-ancient-india"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">History PYQ Trends — NDA &amp; CDS</h3>
   <p style="color: #94a3b8; margin-bottom: 16px;">This section summarises the most frequently asked History topics across NDA and CDS papers. Use this as a triage guide to prioritise your revision.</p>
@@ -6414,7 +6414,7 @@ window.EXPANDED_NOTES_DATA["history-pyq-trends-topic"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["dating-systems"] = `
+window.EXPANDED_NOTES_DATA["environment-naval-systems"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Dating Systems</h3>
 
@@ -6487,7 +6487,7 @@ window.EXPANDED_NOTES_DATA["dating-systems"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["sources-indian-history"] = `
+window.EXPANDED_NOTES_DATA["history-ancient-indian-culture"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Sources of Indian History</h3>
 
@@ -6565,7 +6565,7 @@ window.EXPANDED_NOTES_DATA["sources-indian-history"] = `
     <li>c. 2500 BCE – Earliest Harappan seals (proto‑writing) discovered at [[Mohenjo-daro]].</li
 `;
 
-window.EXPANDED_NOTES_DATA["stone-age"] = `
+window.EXPANDED_NOTES_DATA["history-sangam-age"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Stone Age</h3>
 
@@ -6633,7 +6633,7 @@ window.EXPANDED_NOTES_DATA["stone-age"] = `
         <td style="padding:10px; border:1px solid rgba(255,255,255,0
 `;
 
-window.EXPANDED_NOTES_DATA["chalcolithic-age"] = `
+window.EXPANDED_NOTES_DATA["history-sangam-age"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Chalcolithic Age</h3>
 
@@ -6698,7 +6698,7 @@ window.EXPANDED_NOTES_DATA["chalcolithic-age"] = `
     <strong style="color: #4ade80;">⚡ Exam Tip (NDA
 `;
 
-window.EXPANDED_NOTES_DATA["rock-art"] = `
+window.EXPANDED_NOTES_DATA["history-art-and-architecture"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Rock Art</h3>
 
@@ -6771,7 +6771,7 @@ window.EXPANDED_NOTES_DATA["rock-art"] = `
       <tr style="background:rgba(255,255,255,0.02
 `;
 
-window.EXPANDED_NOTES_DATA["vedic-age"] = `
+window.EXPANDED_NOTES_DATA["history-vedic-period"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Vedic Age</h3>
 
@@ -6842,7 +6842,7 @@ window.EXPANDED_NOTES_DATA["vedic-age"] = `
         <td style="padding:10px; border:1px solid rgba(255,255,255,0.1);
 `;
 
-window.EXPANDED_NOTES_DATA["mahajanapadas"] = `
+window.EXPANDED_NOTES_DATA["history-mahajanapadas"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Mahajanapadas</h3>
 
@@ -6930,7 +6930,7 @@ window.EXPANDED_NOTES_DATA["mahajanapadas"] = `
     The first letters stand for: <em>Magadha, Kosala, Vajji, Avanti, Matsya, Kuru, Surashtra, Panchala, Rajgir (Magadha’s old capital), Uttar (K
 `;
 
-window.EXPANDED_NOTES_DATA["mauryan-period"] = `
+window.EXPANDED_NOTES_DATA["history-vedic-period"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Mauryan Period</h3>
 
@@ -7007,7 +7007,7 @@ window.EXPANDED_NOTES_DATA["mauryan-period"] = `
         <td style="padding:10px; border:1px solid rgba(
 `;
 
-window.EXPANDED_NOTES_DATA["vijayanagara-empire"] = `
+window.EXPANDED_NOTES_DATA["history-vijayanagara-empire"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Vijayanagara Empire</h3>
 
@@ -7085,7 +7085,7 @@ window.EXPANDED_NOTES_DATA["vijayanagara-empire"] = `
     By the mid‑16th century, internal succession disputes weakened central authority.  The death of [[Krishnadevaraya]]
 `;
 
-window.EXPANDED_NOTES_DATA["revolt-1857"] = `
+window.EXPANDED_NOTES_DATA["history-revolt-of-1857"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Revolt of 1857</h3>
 
@@ -7185,7 +7185,7 @@ window.EXPANDED_NOTES_DATA["revolt-1857"] = `
     <strong>Nana Sahib</strong
 `;
 
-window.EXPANDED_NOTES_DATA["constitutional-development"] = `
+window.EXPANDED_NOTES_DATA["history-constitutional-development"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Constitutional Development</h3>
 
@@ -7245,7 +7245,7 @@ window.EXPANDED_NOTES_DATA["constitutional-development"] = `
     <li>Article 19(1
 `;
 
-window.EXPANDED_NOTES_DATA["post-independence-consolidation"] = `
+window.EXPANDED_NOTES_DATA["history-independence"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Post-Independence Consolidation</h3>
 
@@ -7323,7 +7323,7 @@ window.EXPANDED_NOTES_DATA["post-independence-consolidation"] = `
       <tr style="background:rgba(74,222,128,0.1);">
 `;
 
-window.EXPANDED_NOTES_DATA["indus-valley-civilization"] = `
+window.EXPANDED_NOTES_DATA["history-indus-valley-civilization"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Indus Valley Civilization</h3>
 

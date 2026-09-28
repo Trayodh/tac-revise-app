@@ -86,7 +86,7 @@ fetch('gs_notes/full_gs_notes.md')
     if (inList) html += '</ul>';
     if (inTable) html += '</tbody></table>';
     
-    window.EXPANDED_NOTES_DATA["generalstudies"] = html;
+    window.EXPANDED_NOTES_DATA["geography-clouds"] = html;
   });
 
 function parseInlineMarkdown(text) {

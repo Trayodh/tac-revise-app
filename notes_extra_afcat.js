@@ -1,6 +1,6 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-window.EXPANDED_NOTES_DATA["all-equipment"] = `
+window.EXPANDED_NOTES_DATA["polity-local-government"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Comprehensive Equipment Database</h3>
 
@@ -173,7 +173,7 @@ window.EXPANDED_NOTES_DATA["all-equipment"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["commands"] = `
+window.EXPANDED_NOTES_DATA["military_aptitude-commands"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Operational Commands of Services</h3>
 
@@ -268,7 +268,7 @@ window.EXPANDED_NOTES_DATA["commands"] = `
         <li><strong>Notable Operations:</
 `;
 
-window.EXPANDED_NOTES_DATA["missiles-systems"] = `
+window.EXPANDED_NOTES_DATA["environment-missiles"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Integrated Guided Missile Program (IGMDP)</h3>
 
@@ -337,7 +337,7 @@ window.EXPANDED_NOTES_DATA["missiles-systems"] = `
   <p style="color:#e2e8f0;">The missile’s *lock‑on after launch (LO
 `;
 
-window.EXPANDED_NOTES_DATA["afcat-r-analogy"] = `
+window.EXPANDED_NOTES_DATA["english-analogy"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ch.1 — Analogy (Verbal Reasoning) & Verbal Reasoning & OIR</h3>
 
@@ -441,7 +441,7 @@ window.EXPANDED_NOTES_DATA["afcat-r-analogy"] = `
   <ul style="color:#e
 `;
 
-window.EXPANDED_NOTES_DATA["afcat-r-classification"] = `
+window.EXPANDED_NOTES_DATA["mathematics-data-classification"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ch.2 — Classification / Odd One Out (Verbal)</h3>
 
@@ -550,7 +550,7 @@ window.EXPANDED_NOTES_DATA["afcat-r-classification"] = `
   <h4 style="color: #4ade80; margin-top: 24px;">6. Time‑Management
 `;
 
-window.EXPANDED_NOTES_DATA["afcat-r-directions"] = `
+window.EXPANDED_NOTES_DATA["mathematics-direction-ratios"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ch.5 — Direction Sense Test (Verbal)</h3>
 
@@ -647,7 +647,7 @@ window.EXPANDED_NOTES_DATA["afcat-r-directions"] = `
         <td style="padding:8px; border:1px solid #444;">Apply “mod 360
 `;
 
-window.EXPANDED_NOTES_DATA["afcat-r-venn"] = `
+window.EXPANDED_NOTES_DATA["mathematics-venn-diagrams"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ch.7 — Logical Venn Diagrams (Verbal)</h3>
 
@@ -742,7 +742,7 @@ window.EXPANDED_NOTES_DATA["afcat-r-venn"] = `
       <tr><td style="border:1px solid #555;padding:8
 `;
 
-window.EXPANDED_NOTES_DATA["afcat-r-syllogism"] = `
+window.EXPANDED_NOTES_DATA["reasoning-syllogism"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ch.8 — Syllogism (Verbal)</h3>
 
@@ -839,7 +839,7 @@ window.EXPANDED_NOTES_DATA["afcat-r-syllogism"] = `
     <li><strong>Rule 11 (Undistributed Middle)</strong> – The middle term must appear in a universal
 `;
 
-window.EXPANDED_NOTES_DATA["afcat-r-conclusions"] = `
+window.EXPANDED_NOTES_DATA["reasoning-statement-conclusion"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ch.9 — Statements and Conclusions (Verbal)</h3>
 
@@ -933,7 +933,7 @@ window.EXPANDED_NOTES_DATA["afcat-r-conclusions"] = `
         <td style="border:1px solid rgba(255,255,255,0.1); padding:8px; color:#e2e8f
 `;
 
-window.EXPANDED_NOTES_DATA["afcat-r-assumptions"] = `
+window.EXPANDED_NOTES_DATA["mathematics-relations"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ch.10 — Statements and Assumptions (Verbal)</h3>
 
@@ -1035,7 +1035,7 @@ window.EXPANDED_NOTES_DATA["afcat-r-assumptions"] = `
   <h4 style="color:#4ade80;">6. Frequently Tested Themes in Defence‑Centric
 `;
 
-window.EXPANDED_NOTES_DATA["afcat-r-fig-analogy"] = `
+window.EXPANDED_NOTES_DATA["english-analogy"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ch.11 — Figure Analogy (Non-Verbal)</h3>
 
@@ -1123,7 +1123,7 @@ window.EXPANDED_NOTES_DATA["afcat-r-fig-analogy"] = `
     <li><strong>Detect the Primary Transformation</strong>: Look for rotation
 `;
 
-window.EXPANDED_NOTES_DATA["afcat-r-fig-class-series"] = `
+window.EXPANDED_NOTES_DATA["mathematics-number-series"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ch.12&13 — Figure Classification & Series (Non-Verbal) & Non-Verbal Reasoning & OIR</h3>
 
@@ -1222,7 +1222,7 @@ window.EXPANDED_NOTES_DATA["afcat-r-fig-class-series"] = `
         <td style="border:1px solid #555; padding
 `;
 
-window.EXPANDED_NOTES_DATA["afcat-r-embedded"] = `
+window.EXPANDED_NOTES_DATA["reasoning-embedded-figures"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ch.15 — Embedded Figures (Non‑Verbal)</h3>
 
