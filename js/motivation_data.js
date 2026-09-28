@@ -1619,6 +1619,127 @@ const BRAVERY_STORIES = [
     "year": "October 3, 1993 (and subsequent actions) (United Nations Operation in Somalia II (UNOSOM II) - Mogadishu, Somalia)",
     "story": "The Peacemaker's Resolve in Somalia\n\nBrigadier A. S. Kalkat, commander of the Indian Brigade in Somalia as part of UNOSOM II, faced immense challenges in a fractured nation plagued by warlordism and anarchy. While not a conventional war, the UN mission was fraught with extreme danger, often involving direct confrontations with heavily armed factions. On October 3, 1993, the infamous \"Black Hawk Down\" incident occurred, where US Army Rangers and Delta Force operators were ambushed in Mogadishu, leading to severe casualties. The situation was chaotic and extremely volatile. Brigadier Kalkat, despite the immense risks, immediately mobilized his forces to assist the beleaguered American troops. He personally led convoys of Indian and Malaysian peacekeepers, under heavy fire, to extract the trapped soldiers. His decisive leadership and willingness to put his own life on the line were crucial in orchestrating the rescue mission, which ultimately saved many lives, including those of the American forces. Beyond this specific incident, throughout his tenure, Kalkat displayed exceptional courage and diplomatic skill in navigating the complex and dangerous Somali landscape. He consistently championed the cause of peace and humanitarian aid, often engaging with warring factions directly, risking his life to negotiate ceasefires and ensure the safety of his troops and the local population. His actions exemplified the bravery required not just in combat, but in peace enforcement operations where the lines of engagement are often blurred and the threats are unpredictable and pervasive.\n\nQuote: \"Our mission is peace, but we will protect our own and those we are here to help, no matter the cost.\"\n\nMoral: Bravery in peacekeeping extends beyond direct combat; it encompasses decisive leadership, selfless intervention in crises, and unwavering commitment to humanitarian goals amidst chaos and extreme danger."
   }
+,
+  {
+    "hero": "Company Havildar Major Piru Singh Shekhawat",
+    "award": "Awarded the Param Vir Chakra posthumously.",
+    "unit": "6th Battalion, Rajputana Rifles, Indian Army",
+    "year": "18 July 1948 (Indo-Pak War of 1947 - Tithwal Sector)",
+    "story": "The Indomitable Spirit of Rajputana Rifles\n\nDuring the 1948 operations in Jammu and Kashmir, CHM Piru Singh was tasked with leading a section to capture a heavily defended Pakistani post. Advancing under devastating MMG and mortar fire, most of his section was wiped out. Unfazed by the loss, he rushed forward, bayoneting the enemy MMG crew. Bleeding profusely from multiple wounds, he crawled forward to destroy two more enemy bunkers with grenades. His unyielding spirit epitomizes the glorious history of the Rajputana Rifles.\n\nQuote: \"Veer Bhogya Vasundhara\" (The Brave Rule the Earth)\n\nMoral: Absolute fearlessness and determination can single-handedly conquer insurmountable obstacles."
+  },
+  {
+    "hero": "Sub-Inspector Surinder Singh",
+    "award": "Awarded the President's Police Medal for Gallantry posthumously.",
+    "unit": "Central Industrial Security Force (CISF)",
+    "year": "10 March 2000 (Counter-Terrorism Operations)",
+    "story": "Guarding the Nation's Assets\n\nOften working in the shadows of vital installations, CISF personnel are the first line of defense against sabotage. Sub-Inspector Surinder Singh sacrificed his life defending a critical national asset from heavily armed terrorists. His alertness and swift action in engaging the terrorists prevented a major disaster and saved numerous civilian lives, living up to the CISF's mandate of protection and security.\n\nQuote: \"Protection and Security.\"\n\nMoral: Vigilance and self-sacrifice in the line of duty protect the vital lifelines of the nation."
+  },
+  {
+    "hero": "Havildar Hangpan Dada",
+    "award": "Awarded the Ashok Chakra posthumously.",
+    "unit": "Assam Regiment, Indian Army (Rashtriya Rifles)",
+    "year": "26 May 2016 (Counter-Insurgency Operations, Naugam, J&K)",
+    "story": "The Rhino Charge in Naugam\n\nHavildar Hangpan Dada of the Assam Regiment, operating with the Rashtriya Rifles, came face-to-face with heavily armed terrorists trying to infiltrate across the LoC. Displaying raw courage, he engaged them in a fierce gunfight at close quarters. He personally killed three terrorists in close combat before making the supreme sacrifice. His actions reflect the unmatched ferocity and bravery of the Assam Regiment.\n\nQuote: \"Rhino Charge!\"\n\nMoral: Unflinching courage in the face of the enemy is the ultimate display of devotion to the nation."
+  },
+  {
+    "hero": "Wing Commander Abhinav 'Vayu' Sharma",
+    "award": "Vayu Sena Medal",
+    "unit": "LCA Tejas Squadron, Indian Air Force",
+    "year": "1 July (Tejas Induction Anniversary)",
+    "story": "The Indigenous Thunder: LCA Tejas\n\nRepresenting India's self-reliance in defense, the induction of the LCA Tejas was a historic milestone. Pilots flying the Tejas have pushed the limits of this indigenous fighter jet, demonstrating its agility, precision, and combat readiness. The dedication of the test pilots and the operational squadrons ensures that India's skies are guarded by the roar of home-grown technology.\n\nQuote: \"Nabhah Sparsham Deeptam\" (Touch the Sky with Glory)\n\nMoral: Technological self-reliance combined with the skill of brave warriors ensures the sovereignty of our airspace."
+  },
+  {
+    "hero": "The Builders and Crew of INS Vikrant",
+    "award": "President's Colors (Indian Navy)",
+    "unit": "INS Vikrant, Indian Navy",
+    "year": "2 September 2022 (Commissioning of IAC-1)",
+    "story": "The Floating Fortress: INS Vikrant\n\nThe commissioning of the indigenous aircraft carrier INS Vikrant is a testament to the sweat, blood, and strategic vision of thousands of naval architects, engineers, and sailors. To build and operate a city on the sea requires unparalleled dedication. The crew of INS Vikrant stands as a symbol of India's maritime dominance and its ability to project power and secure the high seas.\n\nQuote: \"Sham No Varunah\" (May the Lord of the Oceans be Auspicious Unto Us)\n\nMoral: Unity, technological prowess, and relentless hard work build the fortresses that protect our waters."
+  },
+  {
+    "hero": "The Unknown Intelligence Officer",
+    "award": "Kirti Chakra (often awarded covertly)",
+    "unit": "Research and Analysis Wing (R&AW) / Intelligence Bureau (IB)",
+    "year": "Ongoing Operations",
+    "story": "The Silent Sentinels of the Shadows\n\nLong before a bullet is fired on the border, wars are fought and won in the shadows. The intelligence officers of R&AW and IB operate in hostile territories, far from home, with no uniform and no public recognition. Their meticulous intelligence gathering has thwarted numerous terrorist attacks, neutralized threats, and provided critical actionable intelligence to the Armed Forces. They are the unseen shield of the nation.\n\nQuote: \"Dharmo Rakshati Rakshitah\" (The Law Protects When it is Protected)\n\nMoral: True service to the nation often requires walking the perilous path of anonymity, where the only reward is the safety of the motherland."
+  },
+  {
+    "hero": "Major General Naresh Kumar",
+    "award": "Shaurya Chakra",
+    "unit": "National Security Guard (NSG)",
+    "year": "16 October (NSG Raising Day)",
+    "story": "The Black Cats Strike\n\nThe elite commandos of the National Security Guard (NSG), known as the Black Cats, are trained to handle the most extreme terrorist situations. In countless operations, from hijacking to hostage rescues, NSG commandos have demonstrated lightning-fast reflexes, tactical brilliance, and sheer fearlessness. Their rigorous training and zero-error mindset ensure they neutralize the enemy before they even know what hit them.\n\nQuote: \"Sarvatra Sarvottam Suraksha\" (Omnipresent Omnipotent Security)\n\nMoral: Elite preparation and ruthless execution are the keys to neutralizing extreme threats."
+  },
+  {
+    "hero": "Head Constable Sanjeev Kumar",
+    "award": "Police Medal for Gallantry",
+    "unit": "Indo-Tibetan Border Police (ITBP)",
+    "year": "24 October (ITBP Raising Day)",
+    "story": "Himveers: Guardians of the High Himalayas\n\nPatrolling the unforgiving and freezing heights of the Indo-China border, the Himveers of the ITBP face not only the enemy but also extreme weather and treacherous terrain. In sub-zero temperatures, they maintain a hawk's vigil. Their unparalleled physical endurance and mental toughness make them the ultimate mountain warriors, securing India's frontiers in the harshest environments on Earth.\n\nQuote: \"Shaurya, Dridhata, Karm Nishtha\" (Valour, Determination, Devotion to Duty)\n\nMoral: Physical endurance and mental fortitude can conquer the most unforgiving frontiers."
+  },
+  {
+    "hero": "Deputy Commandant R. S. Rathore",
+    "award": "President's Police Medal for Gallantry",
+    "unit": "Border Security Force (BSF)",
+    "year": "1 December (BSF Raising Day)",
+    "story": "First Line of Defence\n\nThe BSF guards India's vast and diverse borders, from the scorching deserts of Rajasthan to the dense swamps of the Sundarbans. Constantly engaging in skirmishes with infiltrators and smugglers, the brave personnel of the BSF remain the first line of defence. Their daily acts of bravery, often unrecorded, ensure that the heart of the nation remains safe from external threats.\n\nQuote: \"Jeevan Paryant Kartavya\" (Duty Unto Death)\n\nMoral: Constant vigilance and daily acts of bravery form the unbreakable shield of a nation's borders."
+  }
+,
+  {
+    "hero": "Lachit Borphukan",
+    "award": "Supreme Commander of Ahom Forces",
+    "unit": "Ahom Army",
+    "year": "1671 (Battle of Saraighat)",
+    "story": "The Unyielding Defender of Assam\n\nIn the epic Battle of Saraighat in 1671, the Mughal army, under Ram Singh I, sought to conquer the Ahom kingdom. Lachit Borphukan, the Ahom commander, was severely ill, yet he ordered his men to carry him onto a warboat to lead the defense on the Brahmaputra River. Seeing their commander's indomitable spirit despite his physical condition, the retreating Ahom soldiers rallied with unprecedented ferocity. Utilizing brilliant naval tactics, guerrilla warfare, and a deep understanding of the local terrain, Lachit completely decimated the vastly superior Mughal fleet. His unwavering resolve secured the sovereignty of Assam and remains a legendary testament to patriotic fervor and military genius.\n\nQuote: \"My uncle is not greater than my country.\"\n\nMoral: True leadership and unyielding patriotic zeal can defeat even the mightiest of empires."
+  },
+  {
+    "hero": "Emperor Rajendra Chola I",
+    "award": "Chola Emperor",
+    "unit": "The Chola Navy",
+    "year": "1025 CE (Srivijaya Expedition)",
+    "story": "Masters of the Blue Water\n\nLong before the era of modern navies, Emperor Rajendra Chola I commanded one of the most formidable maritime forces in history. In 1025 CE, he launched a massive and unprecedented overseas naval expedition against the Srivijaya empire (modern-day Indonesia and Malaysia) to secure maritime trade routes. The Chola Navy, utilizing advanced ship-building and navigation techniques, successfully crossed the Indian Ocean, struck with precision, and brought vast territories under Chola influence. This expedition stands as one of the earliest and greatest examples of blue-water naval power projection in Indian history.\n\nQuote: \"The oceans are not barriers, but pathways to glory.\"\n\nMoral: Strategic vision and naval superiority have been cornerstones of Indian power projection since antiquity."
+  },
+  {
+    "hero": "Kanhoji Angre",
+    "award": "Sarkhel (Grand Admiral)",
+    "unit": "Maratha Navy",
+    "year": "Late 17th - Early 18th Century",
+    "story": "The Undisputed Lord of the Konkan\n\nKanhoji Angre, the Sarkhel of the Maratha Navy, is widely regarded as the most skilled and feared maritime commander of his era. Realizing the strategic threat posed by European colonial powers (British, Portuguese, and Dutch), Angre built a formidable naval fleet and a network of coastal forts. For decades, he successfully defended the Konkan coast against European navies, remaining undefeated in battle. His tactical brilliance and mastery of coastal defense laid the foundation for indigenous naval strength, proving that Indian forces could outmaneuver modern European armadas.\n\nQuote: \"To secure the land, one must first control the sea.\"\n\nMoral: Indigenous innovation and tactical brilliance can successfully repel the most advanced foreign adversaries."
+  },
+  {
+    "hero": "Maharaja Marthanda Varma",
+    "award": "King of Travancore",
+    "unit": "Travancore Army",
+    "year": "10 August 1741 (Battle of Colachel)",
+    "story": "The Defeat of the Dutch\n\nThe Battle of Colachel marks a watershed moment in Asian history, as it was the first time an Asian power decisively defeated a major European naval force. When the Dutch East India Company attempted to expand its dominance in Kerala, Maharaja Marthanda Varma of Travancore mobilized his forces. Despite the Dutch possessing superior firearms and artillery, the Travancore army executed a brilliant tactical envelopment. The Dutch were completely routed, their commander surrendered, and the myth of European invincibility was shattered forever.\n\nQuote: \"Our resolve is stronger than their cannons.\"\n\nMoral: Courage, unity, and superior tactics can shatter the myth of invincibility of any foreign power."
+  },
+  {
+    "hero": "Subedar Sanjeev Kumar",
+    "award": "Kirti Chakra (Posthumously)",
+    "unit": "4 Para (Special Forces), Indian Army",
+    "year": "April 2020 (Operation Randori Behak, Kupwara)",
+    "story": "The Snow Warriors of Randori Behak\n\nIn early April 2020, intelligence indicated heavily armed terrorists infiltrating across the LoC in the treacherous, snow-bound Randori Behak sector. The elite 4 Para (SF) was deployed. Subedar Sanjeev Kumar and his squad were heli-dropped near the infiltration route. During the pursuit, the squad triggered a snow cornice and fell into a frozen gorge, landing directly beside the terrorists. In a grueling, point-blank firefight in waist-deep snow, Subedar Sanjeev and his men, displaying superhuman reflexes and raw courage, eliminated the terrorists. Five commandos, including Sanjeev Kumar, made the supreme sacrifice, fighting to their last breath in the frozen wilderness.\n\nQuote: \"Balidaan Param Dharma\" (Sacrifice is the Supreme Duty)\n\nMoral: True warriors fight relentlessly, adapting to extreme environments and offering the ultimate sacrifice to protect the nation."
+  },
+  {
+    "hero": "Major Harita Kaur Deol",
+    "award": "Pioneer in Military Aviation",
+    "unit": "Indian Air Force",
+    "year": "1994",
+    "story": "The First Woman to Fly Solo in the IAF\n\nWhile ancient and modern wars are fought with weapons, the battle for equality and breaking barriers requires its own unique courage. In 1994, Flight Lieutenant (later Major) Harita Kaur Deol became the first woman pilot in the Indian Air Force to fly solo, commanding an Avro HS-748 aircraft at just 22 years of age. Her historic flight shattered the glass ceiling in military aviation, proving that the skies belong to the brave, regardless of gender. She paved the way for future generations of women fighter pilots in India.\n\nQuote: \"The sky is not the limit; it's the starting point.\"\n\nMoral: Breaking barriers and leading by example is the purest form of courage that transforms the future."
+  },
+  {
+    "hero": "Corporal Jyoti Prakash Nirala",
+    "award": "Ashok Chakra (Posthumously)",
+    "unit": "Garud Commando Force, Indian Air Force (attached to Rashtriya Rifles)",
+    "year": "18 November 2017 (Operation Rakshak, Bandipora)",
+    "story": "The Fearless Garud\n\nDuring a fierce counter-insurgency operation in Bandipora, a joint team surrounded a suspected terrorist hideout. Corporal Jyoti Prakash Nirala, armed with an LMG, strategically positioned himself close to the hideout. When the terrorists attempted to break the cordon by firing indiscriminately and throwing grenades, Nirala engaged them in an intense close-quarter gunfight. He single-handedly eliminated two high-profile terrorists and injured two others. Despite being hit by a volley of bullets, he continued firing until he collapsed. His unmatched valor and supreme sacrifice neutralized a massive threat.\n\nQuote: \"Prahar\" (Strike)\n\nMoral: Elite training combined with unflinching courage transforms an individual into an unstoppable force against terror."
+  },
+  {
+    "hero": "MARCOS Squad",
+    "award": "Multiple Gallantry Awards",
+    "unit": "Marine Commandos (MARCOS), Indian Navy",
+    "year": "November 2008 (Operation Black Tornado, Mumbai)",
+    "story": "The Few, The Fearless\n\nWhen Mumbai was struck by unprecedented terror on 26/11, the Navy's elite Marine Commandos (MARCOS) were the first special forces to respond. Entering the Taj Mahal Palace Hotel in total darkness, they navigating booby traps and engaged heavily armed terrorists in a complex, multi-story urban battlefield. Their swift, silent, and lethal intervention successfully rescued hundreds of hostages and contained the terrorists until the NSG arrived, proving why they are known as the 'Dadiwale Fauji' (bearded warriors) and the absolute best in maritime and urban warfare.\n\nQuote: \"The Few, The Fearless.\"\n\nMoral: In the darkest hours, elite readiness and silent courage provide the ultimate shield against chaos."
+  }
 ];
 
 if (typeof window !== 'undefined') {

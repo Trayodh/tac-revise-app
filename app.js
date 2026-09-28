@@ -10459,19 +10459,94 @@ function initMotivationOfTheDay() {
 
   
 
-  // Calculate daily index based on day of year
+  const CELEBRATED_DAYS = {
+    "0-2":  { name: "Pathankot Airbase Attack Remembrance", keyword: "Pathankot" },
+    "0-10": { name: "Rajputana Rifles Raising Day", keyword: "Rajputana Rifles" },
+    "0-15": { name: "Army Day", keyword: "Army" },
+    "0-26": { name: "Republic Day", keyword: "Param Vir Chakra" },
+    "1-14": { name: "Pulwama Attack Remembrance", keyword: "Pulwama" },
+    "1-26": { name: "Operation Bandar (Balakot Airstrike) Anniversary", keyword: "Balakot" },
+    "2-10": { name: "CISF Raising Day", keyword: "CISF" },
+    "4-7":  { name: "Operation Sindoor Anniversary", keyword: "Sindoor" },
+    "5-16": { name: "Assam Regiment Raising Day", keyword: "Assam Regiment" },
+    "6-1":  { name: "LCA Tejas Induction Anniversary", keyword: "Tejas" },
+    "6-26": { name: "Kargil Vijay Diwas", keyword: "Kargil" },
+    "7-1":  { name: "Pahalgam Attack Remembrance", keyword: "Pahalgam" },
+    "7-15": { name: "Independence Day", keyword: "Param Vir Chakra" },
+    "8-2":  { name: "INS Vikrant Commissioning Anniversary", keyword: "Vikrant" },
+    "8-18": { name: "Uri Attack Remembrance", keyword: "Uri" },
+    "8-21": { name: "R&AW Foundation Day", keyword: "Intelligence" }, // Includes intelligence/unknown gunmen
+    "8-29": { name: "Surgical Strike Day (Parakram Parv)", keyword: "Surgical Strike" },
+    "9-8":  { name: "Air Force Day", keyword: "Air Force" },
+    "9-16": { name: "NSG Raising Day", keyword: "NSG" },
+    "9-24": { name: "ITBP Raising Day", keyword: "ITBP" },
+    "10-26": { name: "26/11 Mumbai Attacks Remembrance", keyword: "Mumbai" },
+    "11-1": { name: "BSF Raising Day", keyword: "BSF" },
+    "11-4": { name: "Navy Day", keyword: "Navy" },
+    "11-16": { name: "Vijay Diwas", keyword: "1971" },
+    "11-23": { name: "Intelligence Bureau (IB) Foundation Day", keyword: "Intel" }
+  };
 
-  const start = new Date(today.getFullYear(), 0, 0);
-
-  const diff = today - start;
-
-  const oneDay = 1000 * 60 * 60 * 24;
-
-  const dayOfYear = Math.floor(diff / oneDay);
-
+  const todayKey = today.getMonth() + "-" + today.getDate();
+  const celebration = CELEBRATED_DAYS[todayKey];
   
+  const bannerEl = document.getElementById("armed-forces-day-banner");
+  const bannerTextEl = document.getElementById("armed-forces-day-text");
+  
+  let matchIndex = -1;
+  if (celebration) {
+    if (bannerEl && bannerTextEl) {
+      bannerTextEl.innerText = `Happy ${celebration.name}! Honoring our Armed Forces.`;
+      bannerEl.style.display = "block";
+    }
+    
+    if (window.BRAVERY_STORIES) {
+      matchIndex = window.BRAVERY_STORIES.findIndex(story => 
+        (story.unit && story.unit.includes(celebration.keyword)) || 
+        (story.year && story.year.includes(celebration.keyword)) ||
+        (story.story && story.story.includes(celebration.keyword)) ||
+        (story.award && story.award.includes(celebration.keyword))
+      );
+    }
+  } else {
+    if (bannerEl) bannerEl.style.display = "none";
+  }
 
-  currentMotivationIndex = dayOfYear % (window.BRAVERY_STORIES ? window.BRAVERY_STORIES.length : 1);
+  if (matchIndex !== -1) {
+    currentMotivationIndex = matchIndex;
+  } else {
+    // Get seen stories from localStorage
+    let seenStories = [];
+    try {
+      seenStories = JSON.parse(localStorage.getItem('tac_seen_stories') || '[]');
+    } catch (e) {}
+    
+    let totalStories = window.BRAVERY_STORIES ? window.BRAVERY_STORIES.length : 1;
+    if (seenStories.length >= totalStories) {
+      seenStories = []; // Reset if all seen
+    }
+    
+    // Pick next unseen story (starting with dayOfYear to keep daily consistency if possible)
+    const start = new Date(today.getFullYear(), 0, 0);
+    const diff = today - start;
+    const oneDay = 1000 * 60 * 60 * 24;
+    const dayOfYear = Math.floor(diff / oneDay);
+    
+    let nextIndex = dayOfYear % totalStories;
+    while(seenStories.includes(nextIndex) && seenStories.length < totalStories) {
+        nextIndex = (nextIndex + 1) % totalStories;
+    }
+    currentMotivationIndex = nextIndex;
+  }
+  
+  // Track as seen
+  try {
+    let seenStories = JSON.parse(localStorage.getItem('tac_seen_stories') || '[]');
+    if (!seenStories.includes(currentMotivationIndex)) {
+      seenStories.push(currentMotivationIndex);
+      localStorage.setItem('tac_seen_stories', JSON.stringify(seenStories));
+    }
+  } catch (e) {}
 
   renderMotivationStory();
 
@@ -10668,11 +10743,28 @@ STRICT FORMATTING RULES:
 
 
 function showNextMotivation() {
+  let seenStories = [];
+  try {
+    seenStories = JSON.parse(localStorage.getItem('tac_seen_stories') || '[]');
+  } catch (e) {}
+  
+  let totalStories = window.BRAVERY_STORIES ? window.BRAVERY_STORIES.length : 1;
+  if (seenStories.length >= totalStories) {
+    seenStories = [];
+  }
 
-  currentMotivationIndex = (currentMotivationIndex + 1) % (window.BRAVERY_STORIES ? window.BRAVERY_STORIES.length : 1);
+  let nextIndex = (currentMotivationIndex + 1) % totalStories;
+  while(seenStories.includes(nextIndex) && seenStories.length < totalStories) {
+      nextIndex = (nextIndex + 1) % totalStories;
+  }
+  currentMotivationIndex = nextIndex;
+
+  seenStories.push(currentMotivationIndex);
+  try {
+    localStorage.setItem('tac_seen_stories', JSON.stringify(seenStories));
+  } catch(e) {}
 
   renderMotivationStory();
-
 }
 
 
