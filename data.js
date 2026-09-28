@@ -141241,6 +141241,29 @@ const NOTES_DATABASE = {
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
+            "id": "geomorphology-seismic-waves",
+            "title": "Geomorphology: Seismic Waves",
+            "notes": "Detailed notes in notes_extra_geography.js",
+            "mindmap": {
+              "root": "Seismic Waves",
+              "branches": [
+                {
+                  "title": "Body Waves",
+                  "subnodes": [
+                    "P-Waves",
+                    "S-Waves"
+                  ]
+                },
+                {
+                  "title": "Surface Waves",
+                  "subnodes": [
+                    "L-Waves"
+                  ]
+                }
+              ]
+            }
+          },
+          {
             "id": "geomorphology-rocks",
             "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
             "notes": "Detailed notes expanded in notes_extra_4.js",

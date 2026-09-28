@@ -1408,3 +1408,742 @@ window.EXPANDED_NOTES_DATA["geography-pyq-trends-topic"] = `
   <!-- Final closing of the outermost revision-card -->
 </div>
 `;
+EXPANDED_NOTES_DATA["syl-geog"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
+    Indian Geography (Rivers, Passes & Soils)
+  </h3>
+
+  <h4><strong>1. Introduction to Indian Physical Geography</strong></h4>
+  <p>India’s physical landscape is dominated by three major physiographic divisions: the <strong>Himalayan</strong> north, the <strong>Peninsular Plateau</strong> (including the Deccan), and the <strong>Coastal Plains</strong>. These divisions dictate the distribution of <strong>rivers</strong>, <strong>mountain passes</strong>, and <strong>soil types</strong>. Understanding the inter‑relationship among these components is essential for answering NDA/CDS/AFCAT questions that often combine hydrology, geomorphology, and agronomy.</p>
+
+  <h4><strong>2. River Systems of India</strong></h4>
+  <p>India hosts two principal river systems: the <strong>Himalayan (Northern) Rivers</strong> and the <strong>Peninsular (Southern) Rivers</strong>. The former are perennial, glacier‑fed, and have large drainage basins, whereas the latter are mostly rain‑fed, seasonal, and flow over older crystalline rocks.</p>
+
+  <h5><strong>2.1 Classification of Rivers</strong></h5>
+  <ul>
+    <li><strong>Perennial Rivers</strong> – Flow throughout the year (e.g., [[Ganga]], [[Brahmaputra]], [[Indus]]).</li>
+    <li><strong>Seasonal Rivers</strong> – Flow only during monsoon (e.g., [[Mahi]], [[Sabarmati]]).</li>
+    <li><strong>Inter‑State Rivers</strong> – Cross state boundaries; often subjects of water‑sharing disputes.</li>
+    <li><strong>Intra‑State Rivers</strong> – Confined within a single state (e.g., [[Mahanadi]] largely in Odisha).</li>
+  </ul>
+
+  <h5><strong>2.2 Major Himalayan Rivers</strong></h5>
+  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; margin-top: 12px;">
+    <tr style="background:#333;color:#fff;">
+      <th>River</th><th>Length (km)</th><th>Drainage Area (km²)</th><th>States/UTs Traversed</th><th>Key Tributaries</th>
+    </tr>
+    <tr>
+      <td><strong>[[Ganga]]</strong></td><td>2,525</td><td>1,080,000</td><td>Uttarakhand, Uttar Pradesh, Bihar, Jharkhand, West Bengal</td><td>[[Yamuna]], [[Ghaghara]], [[Kosi]], [[Son]]</td>
+    </tr>
+    <tr>
+      <td><strong>[[Yamuna]]</strong></td><td>1,376</td><td>366,223</td><td>Uttarakhand, Himachal Pradesh, Delhi, Haryana, Uttar Pradesh, Rajasthan</td><td>[[Sutlej]] (confluence), [[Betwa]], [[Ken]]</td>
+    </tr>
+    <tr>
+      <td><strong>[[Brahmaputra]]</strong></td><td>2,900 (incl. tributaries)</td><td>651,334</td><td>Arunachal Pradesh, Assam, Bangladesh</td><td>[[Subansiri]], [[Lohit]], [[Dibang]]</td>
+    </tr>
+    <tr>
+      <td><strong>[[Indus]]</strong></td><td>3,180 (Indian portion 770 km)</td><td>1,120,000 (total)</td><td>Ladakh, Punjab, Himachal Pradesh</td><td>[[Sutlej]], [[Beas]] (tributaries in India)</td>
+    </tr>
+  </table>
+
+  <h5><strong>2.3 Peninsular River Systems</strong></h5>
+  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; margin-top: 12px;">
+    <tr style="background:#333;color:#fff;">
+      <th>River</th><th>Length (km)</th><th>Drainage Area (km²)</th><th>Origin</th><th>Key Features</th>
+    </tr>
+    <tr>
+      <td><strong>[[Godavari]]</strong></td><td>1,465</td><td>312,812</td><td>[[Trimbakeshwar]], Maharashtra</td><td>Longest peninsular river, delta at Bay of Bengal</td>
+    </tr>
+    <tr>
+      <td><strong>[[Krishna]]</strong></td><td>1,400</td><td>258,948</td><td>[[Mahabaleshwar]], Maharashtra</td><td>Forms major irrigation network in Karnataka & Andhra Pradesh</td>
+    </tr>
+    <tr>
+      <td><strong>[[Mahanadi]]</strong></td><td>851</td><td>141,100</td><td>[[Sihawa]], Chhattisgarh</td><td>Hirakud Dam – one of the world’s longest dams</td>
+    </tr>
+    <tr>
+      <td><strong>[[Kaveri]]</strong></td><td>800</td><td>81,155</td><td>[[Talakaveri]], Karnataka</td><td>Famous for “Kaveri delta” and Cauvery Water Dispute</td>
+    </tr>
+    <tr>
+      <td><strong>[[Narmada]]</strong></td><td>1,312</td><td>98,796</td><td>[[Amarkantak]], Madhya Pradesh</td><td>Flows east‑west, cuts the Satpura Range (Narmada Rift)</td>
+    </tr>
+    <tr>
+      <td><strong>[[Tapti]]</strong></td><td>724</td><td>65,600</td><td>[[Satpura Range]], Madhya Pradesh</td><td>Parallel to Narmada but south of it</td>
+    </tr>
+  </table>
+
+  <h5><strong>2.4 River Morphology & Seasonal Behaviour</strong></h5>
+  <ul>
+    <li><strong>Upper Course</strong> – Steep gradient, V‑shaped valleys, rapids, waterfalls (e.g., [[Nohkalikai Falls]] on [[Kohima River]]).</li>
+    <li><strong>Middle Course</strong> – Moderate gradient, meanders start, floodplains develop.</li>
+    <li><strong>Lower Course</strong> – Gentle slope, wide meanders, oxbow lakes, extensive deltas (e.g., [[Sundarbans]] delta of [[Ganga]]‑[[Brahmaputra]]).</li>
+    <li><strong>Monsoon Influence</strong> – >80% of annual discharge occurs between June and September; floods in 2018 & 2020 highlighted need for <strong>integrated river basin management</strong>.</li>
+  </ul>
+
+  <h5><strong>2.5 River Management Initiatives</strong></h5>
+  <ul>
+    <li><strong>National River Linking Project (NRLP)</strong> – Aims to interlink 37 rivers; flagship components include <strong>Polavaram‑Godavari</strong> and <strong>Kaleshwaram‑Krishna</strong> links.</li>
+    <li><strong>Dam & Reservoirs</strong> – <strong>Bhakra‑Nangal</strong>, <strong>Hirakud</strong>, <strong>Tehri</strong> are crucial for irrigation, hydro‑power, and flood control.</li>
+    <li><strong>Riverfront Development</strong> – <strong>Sabarmati Riverfront</strong> (Gujarat) and <strong>Yamuna Action Plan</strong> (NCR) illustrate urban revitalisation.</li>
+    <li><strong>Water‑Sharing Treaties</strong> – <strong>Indus Waters Treaty (1960)</strong> between India and Pakistan; <strong>Ganga Water Dispute Tribunal (1996‑1997)</strong> for inter‑state allocation.</li>
+  </ul>
+
+  <h4><strong>3. Mountain Passes (Gaps) of the Indian Subcontinent</strong></h4>
+  <p>Passes are natural low points in mountain ranges that facilitate movement of people, goods, and armies. In India they hold strategic, economic, and cultural importance, especially along the Himalaya‑Karakoram corridor.</p>
+
+  <h5><strong>3.1 Classification of Passes</strong></h5>
+  <ul>
+    <li><strong>Strategic Passes</strong> – Used by armed forces; e.g., [[Nathu La]] (India‑China), [[Zoji Pass]] (India‑Afghanistan).</li>
+    <li><strong>Trade Passes</strong> – Historic caravan routes; e.g., [[Kashmir Silk Route]] through [[Zojila Pass]].</li>
+    <li><strong>Tourist Passes</strong> – Provide scenic access; e.g., [[Rohtang Pass]] (Ladakh‑Himachal).</li>
+    <li><strong>Ecological Passes</strong> – Influence wildlife corridors, e.g., [[Barail Pass]] in Assam.</li>
+  </ul>
+
+  <h5><strong>3.2 Major Himalayan Passes</strong></h5>
+  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; margin-top: 12px;">
+    <tr style="background:#333;color:#fff;">
+      <th>Pass</th><th>Elevation (m)</th><th>Connecting Regions</th><th>Strategic/Economic Significance</th>
+    </tr>
+    <tr>
+      <td><strong>[[Nathu La]]</strong></td><td>4,310</td><td>[[Sikkim]]–[[Tibet Autonomous Region]]</td><td>Key Indo‑China trade route; reopened 2006 after 44‑yr closure.</td>
+    </tr>
+    <tr>
+      <td><strong>[[Zoji Pass]]</strong></td><td>3,528</td><td>[[Ladakh]]–[[Kashmir Valley]]</td><td>Strategic for NH‑1 (Leh‑Srinagar); vulnerable to landslides.</td>
+    </tr>
+    <tr>
+      <td><strong>[[Rohtang Pass]]</strong></td><td>3,978</td><td>[[Lahaul-Spiti]]–[[Kullu Valley]]</td><td>Tourist gateway to Lahaul; seasonal (open May–Oct).</td>
+    </tr>
+    <tr>
+      <td><strong>[[Khardung La]]</strong></td><td>5,359</td><td>[[Leh]]–[[Ladakh]] (connects to [[Kargil]])</td><td>World’s highest motorable road; vital for logistics.</td>
+    </tr>
+    <tr>
+      <td><strong>[[Zoji Pass]]</strong></td><td>2,850</td><td>[[Afghanistan]]–[[Pakistan]] (historical)</td><td>Ancient Silk Road corridor; now closed.</td>
+    </tr>
+  </table>
+
+  <h5><strong>3.3 Passes in the Western & Eastern Ghats</strong></h5>
+  <ul>
+    <li><strong>Western Ghats</strong> – <strong>Palghat Gap</strong> (≈30 km wide) between the Nilgiris and the Anaimalai Hills; crucial for monsoon wind penetration.</li>
+    <li><strong>Eastern Ghats</strong> – <strong>Kolar Gap</strong> near Bangalore, facilitating transport between the Deccan Plateau and coastal Karnataka.</li>
+  </ul>
+
+  <h5><strong>3.4 Geopolitical Importance</strong></h5>
+  <ul>
+    <li>Control of passes determines supply lines for <strong>Indian Army</strong> in high‑altitude theatres.</li>
+    <li>Passes like Nathu La are covered under the <strong>India‑China Border Personnel Meeting (BPM) points</strong>.</li>
+    <li>Economic corridors such as the <strong>International North‑South Transport Corridor (INSTC)</strong> envisage upgrading existing passes for freight movement.</li>
+  </ul>
+
+  <h4><strong>4. Soils of India – Types, Distribution & Agricultural Significance</strong></h4>
+  <p>Soils are the product of <strong>parent material</strong>, <strong>climate</strong>, <strong>topography</strong>, <strong>biological activity</strong>, and <strong>time</strong>. India’s varied climate zones generate a mosaic of soil types, each with distinct physical‑chemical properties.</p>
+
+  <h5><strong>4.1 Major Soil Types (as per Indian Soil Classification)</strong></h5>
+  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; margin-top: 12px;">
+    <tr style="background:#333;color:#fff;">
+      <th>Soil Type</th><th>Parent Material</th><th>Dominant Regions</th><th>Key Physical‑Chemical Traits</th><th>Major Crops</th>
+    </tr>
+    <tr>
+      <td><strong>[[Alluvial Soil]]</strong></td><td>Fluvial deposits (silt, sand, clay)</td><td>Indo‑Gangetic Plains, Brahmaputra Valley, coastal deltas</td><td>Fine‑grained, high fertility, pH 6.5‑7.5, high organic carbon</td><td>Rice, wheat, sugarcane, jute</td>
+    </tr>
+    <tr>
+      <td><strong>[[Black Soil]] (Regur)</strong></td><td>Volcanic basalt (Deccan Traps)</td><td>Western Maharashtra, Vidarbha, parts of Madhya Pradesh, Gujarat</td><td>Clayey, high water‑holding capacity, rich in CaCO₃, pH 7‑8</td><td>Cotton, soybean, millets</td>
+    </tr>
+    <tr>
+      <td><strong>[[Red Soil]] (Ferruginous)</strong></td><td>Old crystalline rocks, laterite</td><td>Eastern & Southern India – Tamil Nadu, Karnataka, Odisha</td><td>Coarse texture, low organic matter, acidic (pH 4‑5), iron oxides give red colour</td><td>Pulses, millets, groundnut</td>
+    </tr>
+    <tr>
+      <td><strong>[[Laterite Soil]]</strong></td><td>Intense weathering of basalt & granite</td><td>Western Ghats, coastal Karnataka, Kerala, parts of Andhra Pradesh</td><td>Highly leached, rich in Fe & Al oxides, low nitrogen & phosphorus</td><td>Plantation crops – tea, coffee, rubber</td>
+    </tr>
+    <tr>
+      <td><strong>[[Arid/Desert Soil]] (Reg)</strong></td><td>Wind‑blown sand & calcareous deposits</td><td>Thar Desert (Rajasthan, Gujarat, Punjab)</td><td>Coarse, low organic matter, alkaline (pH >8)</td><td>Millet, barley, camel fodder</td>
+    </tr>
+    <tr>
+      <td><strong>[[Mountain Soil]] (Mountainous)</strong></td><td>Parent rock fragments, organic humus</td><td>Himalayan foothills, Western Ghats</td><td>Thin, acidic, high organic content, steep slope</td><td>Apple, tea, horticultural crops</td>
+    </tr>
+  </table>
+
+  <h5><strong>4.2 Soil Formation Processes</strong></h5>
+  <ul>
+    <li><strong>Physical Weathering</strong> – Freeze‑thaw, thermal expansion, water‑induced disintegration; predominant in high‑altitude <em>Himalayan</em> zones.</li>
+    <li><strong>Chemical Weathering</strong> – Hydrolysis, oxidation, carbonation; dominant in tropical monsoon climate (e.g., <strong>laterite formation</strong> in Kerala).</li>
+    <li><strong>Biological Activity</strong> – Organic matter accumulation, humus formation; vital for <strong>alluvial plains</strong> where flood‑deposited sediments support high biomass.</li>
+  </ul>
+
+  <h5><strong>4.3 Soil Erosion & Conservation Measures</strong></h5>
+  <ul>
+    <li><strong>Causes</strong> – Uncontrolled <strong>deforestation</strong>, <strong>over‑grazing</strong>, <strong>shifting cultivation</strong>, and <strong>intensive tillage</strong>.</li>
+    <li><strong>Consequences</strong> – Loss of fertile topsoil, reduced groundwater recharge, siltation of reservoirs (e.g., <strong>Hirakud</strong> siltation rate 1.2 m³/s).</li>
+    <li><strong>Conservation Techniques</strong>
+      <ul>
+        <li><strong>Contour Bunding & Terracing</strong> – Widely adopted in the <strong>Western Ghats</strong> to curb slope erosion.</li>
+        <li><strong>Afforestation & Agroforestry</strong> – <strong>National Afforestation Programme (2002‑2007)</strong> increased canopy cover by 2.5%.</li>
+        <li><strong>Check Dams & Percolation Ponds</strong> – Used in <strong>Aravalli** (Rajasthan)</strong> to enhance groundwater.</li>
+        <li><strong>Zero‑Till or Conservation Tillage</strong> – Promoted under the <strong>Paramparagat Krishi Vikas Yojana (PKVY)</strong>.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h5><strong>4.4 Soil Fertility Management</strong></h5>
+  <ul>
+    <li><strong>Macro‑Nutrients</strong> – Nitrogen (N), Phosphorus (P), Potassium (K); recommended doses vary by soil type (e.g., <strong>Black Soil</strong> needs higher P due to calcium antagonism).</li>
+    <li><strong>Micro‑Nutrients</strong> – Zinc (Zn), Boron (B), Iron (Fe); deficiency common in <strong>Red Soil</strong> (Zn) and <strong>Alluvial Soil</strong> (B).</li>
+    <li><strong>Organic Amendments</strong> – Farmyard manure (FYM), compost, green manures; improve structure and cation‑exchange capacity (CEC).</li>
+    <li><strong>Soil Testing</strong> – Conducted under the <strong>National Soil Health Card Scheme (2015‑present)</strong> to guide balanced fertiliser use.</li>
+  </ul>
+
+  <h5><strong>4.5 Climate Change Impacts on Indian Soils</strong></h5>
+  <ul>
+    <li>Rising temperatures accelerate <strong>organic matter mineralisation</strong>, reducing carbon stocks especially in <strong>alluvial soils</strong>.</li>
+    <li>Erratic monsoons increase <strong>soil erosion rates</strong> in the <strong>Eastern Ghats</strong> and <strong>Indus basin</strong>.</li>
+    <li>Salinisation of <strong>coastal soils</strong> due to sea‑level rise threatens rice cultivation in <strong>West Bengal</strong> and <strong>Andhra Pradesh</strong>.</li>
+  </ul>
+
+  <h4><strong>5. Inter‑relationships Among Rivers, Passes & Soils</strong></h4>
+  <p>Understanding the synergy among these three elements is crucial for answering integrative questions in defence examinations.</p>
+  <ul>
+    <li><strong>River Valleys as Natural Passes</strong> – The <strong>Indus‑Sutlej</strong> corridor provides a low‑elevation route through the Himalaya, historically used for trade and military movements.</li>
+    <li><strong>Alluvial Deposits in Pass Regions</strong> – In the <strong>Palghat Gap**, the alluvial fans support intensive agriculture, influencing logistics for army bases in Kerala.</li>
+    <li><strong>Soil Erosion Linked to River Siltation</strong> – Excessive erosion from the <strong>Western Ghats** (laterite soils) contributes to silt load in the <strong>Krishna River**, reducing reservoir capacity.</li>
+    <li><strong>Strategic Importance of River‑Pass Junctions</strong> – <strong>Zoji Pass</strong> lies near the <strong>Indus River** headwaters; control of water flow can affect downstream supply to Pakistan.</li>
+  </ul>
+
+  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <ul style="margin-top: 8px;">
+      <li>The <strong>Ganga</strong> has the largest drainage basin in India – about 1.08 million km².</li>
+      <li>[[Narmada]] is the only major Indian river that flows from east to west, cutting through the <strong>Satpura Range</strong>.</li>
+      <li>[[Khadri‑Karakoram Pass]] (not listed above) sits at 5,540 m and is a historic trade route between Ladakh and Central Asia.</li>
+      <li>[[Black Soil]] (Regur) owes its high fertility to the weathering of <strong>Deccan basalt</strong> and is the main cotton‑growing soil of India.</li>
+      <li>[[Palghat Gap]] is the only major gap in the Western Ghats, allowing the southwest monsoon to penetrate into Tamil Nadu.</li>
+      <li>India’s <strong>National River Linking Project</strong> aims to connect 37 rivers, with a total proposed length of about 15,000 km of canals.</li>
+      <li>[[Laterite Soil]] formation is driven by intense leaching under high rainfall (>2,000 mm yr⁻¹) and temperatures >20 °C.</li>
+      <li>[[Rohtang Pass]] remains closed for about 5–6 months each year due to heavy snowfall, affecting supply lines to Ladakh.</li>
+    </ul>
+  </div>
+</div>
+`;
+
+EXPANDED_NOTES_DATA["geog-geopolitics"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
+    Geopolitical Flashpoints & Indo-Pacific
+  </h3>
+
+  <h4>1. Conceptual Foundations of the Indo‑Pacific</h4>
+  <p>The term <strong>Indo‑Pacific</strong> emerged in the early 2000s as a strategic construct that links the Indian Ocean basin with the Pacific Ocean, emphasizing sea‑lane continuity from the <strong>Strait of Malacca</strong> to the <strong>South China Sea</strong>. The <strong>U.S. Indo‑Pacific Strategy</strong> (officially released on <strong>13 May 2012</strong>) defined the region as “the waters and lands that stretch from the east coast of Africa to the west coast of the Americas, encompassing the Indian Ocean, the Pacific Ocean, and the seas that connect them.” Key pillars include:</p>
+  <ul>
+    <li><strong>Freedom of Navigation and Overflight (FON)</strong> – anchored in the <strong>UNCLOS 1982</strong> framework.</li>
+    <li><strong>Rule‑Based Order</strong> – adherence to international law, especially the <strong>United Nations Convention on the Law of the Sea (UNCLOS)</strong>.</li>
+    <li><strong>Inclusive Economic Integration</strong> – via initiatives like the <strong>Regional Comprehensive Economic Partnership (RCEP)</strong> signed on <strong>15 November 2020</strong>.</li>
+    <li><strong>Security Architecture</strong> – embodied by the <strong>Quad</strong> ([[United States]], [[Japan]], [[Australia]], [[India]]) and the newer <strong>AUKUS</strong> pact (Australia‑UK‑U.S., signed on <strong>15 September 2021</strong>).</li>
+  </ul>
+
+  <h4>2. Major Geopolitical Flashpoints in the Indo‑Pacific</h4>
+  <p>These flashpoints are characterised by overlapping territorial claims, strategic chokepoints, and great‑power rivalry. The table below summarises the most consequential ones.</p>
+
+  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width:100%; margin-top:12px;">
+    <tr style="background:#2a2a3a; color:#fff;">
+      <th>Flashpoint</th>
+      <th>Key Claimants</th>
+      <th>Strategic Significance</th>
+      <th>Current Status (2024)</th>
+    </tr>
+    <tr>
+      <td><strong>[[South China Sea]]</strong></td>
+      <td>[[China]], [[Vietnam]], [[Philippines]], [[Malaysia]], [[Brunei]], [[Taiwan]]</td>
+      <td>~ $3.37 trillion of annual trade; 12% of world maritime trade; rich hydrocarbon prospects (estimated 11 bn bbl oil, 190 bn m³ gas)</td>
+      <td>China’s “nine‑dash line” still contested; 2022‑23 “Freedom of Navigation Operations” (FONOPs) intensified by US, UK, and Japan.</td>
+    </tr>
+    <tr>
+      <td><strong>[[Taiwan Strait]]</strong></td>
+      <td>[[China]] (People’s Republic) vs. [[Taiwan]] (Republic of China)</td>
+      <td>Gateway to the western Pacific; critical for US carrier strike groups; 1.5 million km² EEZ.</td>
+      <td>Increased PLA air‑incursions (≈ 300 sorties/month in 2024); US‑Japan joint drills near the median line.</td>
+    </tr>
+    <tr>
+      <td><strong>[[East China Sea]] (Senkaku/Diaoyu Islands)</strong></td>
+      <td>[[Japan]] vs. [[China]]; US as security guarantor under Treaty of Mutual Cooperation (1951)</td>
+      <td>Strategic air‑defence corridor; potential gas fields (~ 1.5 tcf).</td>
+      <td>2023 Japanese Coast Guard patrols; 2024 Chinese Coast Guard “gray‑zone” fishing vessels.</td>
+    </tr>
+    <tr>
+      <td><strong>[[Strait of Malacca]]</strong></td>
+      <td>Indonesia, Malaysia, Singapore (Sovereign states); strategic interest of [[China]] (energy imports) and [[United States]] (naval presence)</td>
+      <td>Handles ~ 80 % of China’s oil imports; 25 % of global maritime trade.</td>
+      <td>Indonesia’s “Patrolling the Malacca Strait” (PMS) 2023‑24 enhanced with US‑Australia joint patrols.</td>
+    </tr>
+    <tr>
+      <td><strong>[[Line of Actual Control]] (LAC) – [[Himalayan border]]</strong></td>
+      <td>[[India]] vs. [[China]]</td>
+      <td>High‑altitude terrain; control of water sources feeding the Brahmaputra and Indus basins.</td>
+      <td>2020‑2022 “Galwan Valley” standoff; 2024 limited disengagement talks but no permanent LAC demarcation.</td>
+    </tr>
+    <tr>
+      <td><strong>[[Kashmir]] & [[Siachen Glacier]]</strong></td>
+      <td>[[India]] vs. [[Pakistan]] (with China’s involvement in Aksai Chin)</td>
+      <td>Control of vital water headwaters; nuclear flashpoint.</td>
+      <td>2023 cease‑fire along LoC; 2024 diplomatic overtures under UN mediation.</td>
+    </tr>
+    <tr>
+      <td><strong>[[Afghanistan]] (post‑2021)</strong></td>
+      <td>Taliban‑run Islamic Emirate; regional actors [[India]], [[Pakistan]], [[China]], [[Iran]]</td>
+      <td>Potential safe‑haven for trans‑national terrorism; China’s BRI corridor via “Afghanistan‑Pakistan Economic Corridor”.</td>
+      <td>2024 Doha talks on humanitarian aid; limited security cooperation with India.</td>
+    </tr>
+    <tr>
+      <td><strong>[[Indian Ocean]] – Chokepoints</strong></td>
+      <td>[[India]] (primary littoral), [[China]] (via “String of Pearls”), [[United States]] (via “Indo‑Pacific Command”)</td>
+      <td>Control of sea‑lines of communication (SLOCs) linking Middle East energy to East Asia.</td>
+      <td>2024 Indian “Sagar Shakti” naval exercise with Japan and US; Chinese “Maritime Silk Road” ports in Djibouti, Seychelles.</td>
+    </tr>
+  </table>
+
+  <h4>3. Strategic Doctrines Shaping the Indo‑Pacific Landscape</h4>
+  <ul>
+    <li><strong>India’s “Act‑East” & “Neighbourhood First” Policies</strong> – Launched in 1991, intensified after the 2014 “Navy’s blue‑water ambition” (e.g., commissioning of INS Kolkata in 2014).</li>
+    <li><strong>U.S. “Pivot to Asia” (2011) & “Indo‑Pacific Strategy” (2012)</strong> – Emphasises a “Free and Open Indo‑Pacific” (FOIP) to counterbalance China’s “Maritime Silk Road”.</li>
+    <li><strong>China’s “String of Pearls” Doctrine</strong> – A network of ports (e.g., Gwadar, Hambantota, Djibouti) aimed at securing energy routes; formalised in a 2005 PLA white paper.</li>
+    <li><strong>Quad’s “Strategic Roadmap” (2021)</strong> – Focus on maritime domain awareness, supply‑chain resilience, and climate‑security cooperation.</li>
+    <li><strong>AUKUS</strong> – Provides Australia with nuclear‑submarine technology, signalling deeper security integration among the three democracies.</li>
+  </ul>
+
+  <h4>4. Economic Corridors and Infrastructure Projects</h4>
+  <p>Infrastructure underpins strategic influence. Key projects include:</p>
+  <ul>
+    <li><strong>[[Belt and Road Initiative]] (BRI)</strong> – Launched by [[China]] in 2013; by 2024, over 140 countries have signed MoUs, with an estimated $1.5 trillion of pledged investments.</li>
+    <li><strong>[[China‑Pakistan Economic Corridor]] (CPEC)</strong> – A $62 billion corridor (2015‑2030) linking Gwadar Port to Xinjiang; includes 12 GW of power projects.</li>
+    <li><strong>[[Maritime Silk Road]]</strong> – Sea‑leg of BRI; includes ports at Colombo (Sri Lanka), Chittagong (Bangladesh), and Lamu (Kenya).</li>
+    <li><strong>[[India‑Myanmar–Thailand Trilateral Highway]]</strong> – 1,400 km road project aimed at linking the Bay of Bengal to the Andaman Sea; operational since 2022.</li>
+    <li><strong>[[Indo‑Pacific Economic Framework for Prosperity (IPEF)]]</strong> – Launched by the United States on 29 May 2022, focusing on supply‑chain, digital trade, and clean energy.</li>
+  </ul>
+
+  <h4>5. Naval Power and Maritime Domain Awareness (MDA)</h4>
+  <p>Naval capabilities are decisive in the Indo‑Pacific. As of 2024:</p>
+  <ul>
+    <li><strong>[[United States]] Navy</strong> – 11 air‑craft carriers, 12 amphibious assault ships, and a permanent presence at <strong>U.S. Pacific Fleet</strong> (Pearl Harbor) and <strong>U.S. Indo‑Pacific Command (INDOPACOM)</strong>.</li>
+    <li><strong>[[China]] People’s Liberation Army Navy (PLAN)</strong> – 78 surface combatants, including 3 air‑craft carriers (Liaoning, Shandong, Fujian) and 40 submarines (including 10 nuclear‑powered).</li>
+    <li><strong>[[India]] Navy</strong> – 2 air‑craft carriers (INS Vikramaditya, INS Vikrant), 4 nuclear submarines, and a growing fleet of stealth frigates.</li>
+    <li><strong>[[Japan]] Maritime Self‑Defense Force</strong> – 4 helicopter‑destroyers, 2 helicopter‑carrying destroyers, and a “Aegis‑BMD” network.</li>
+    <li><strong>[[Australia]] Royal Australian Navy</strong> – 2 air‑craft carriers (HMAS Queen Elizabeth class under construction), 3 submarines (future nuclear‑sub fleet).</li>
+  </ul>
+  <p>Key MDA initiatives include the <strong>Joint Maritime Information Center (JMIC)</strong> in Singapore (operational since 2020) and the <strong>Indian Ocean Naval Symposium (IONS)</strong> – 16 member states, rotating chairmanship.</p>
+
+  <h4>6. Nuclear Dimension and Arms Control</h4>
+  <ul>
+    <li><strong>Strategic Nuclear Triad</strong> – Both [[India]] and [[China]] possess land‑based ICBMs, submarine‑launched ballistic missiles (SLBMs), and air‑launched nuclear weapons.</li>
+    <li><strong>[[Treaty on the Prohibition of Nuclear Weapons]] (TPNW)</strong> – Not ratified by any Indo‑Pacific nuclear state; however, the 2022 <strong>U.S.–India Nuclear Cooperation Agreement</strong> extended civilian nuclear trade.</li>
+    <li><strong>Missile Defense</strong> – US THAAD deployed in Guam (2009) and later in the Philippines (2022); India’s “Prithvi‑Air Defence” (PAD) and “Advanced Air Defence” (AAD) systems operational since 2019.</li>
+  </ul>
+
+  <h4>7. Climate Change, Human Security, and Emerging Threats</h4>
+  <p>Climate‑driven sea‑level rise threatens low‑lying islands in the Pacific, creating potential “climate‑refugee” flashpoints. The 2023 <strong>Pacific Islands Forum (PIF)</strong> declared a “climate security agenda” linking environmental degradation to maritime disputes.</p>
+  <ul>
+    <li><strong>Melting Arctic Ice</strong> – Opens a new SLOC via the <em>Northwest Passage</em>, prompting interest from Indo‑Pacific powers (e.g., China’s 2022 “Polar Silk Road” plan).</li>
+    <li><strong>Blue Economy Competition</strong> – Overfishing in the South China Sea and Indian Ocean raises disputes over Exclusive Economic Zones (EEZs).</li>
+    <li><strong>Cyber‑Maritime Threats</strong> – 2024 cyber‑attack on the Indian Navy’s satellite communications highlighted vulnerabilities in MDA networks.</li>
+  </ul>
+
+  <h4>8. Diplomatic Mechanisms and Regional Organizations</h4>
+  <p>Multilateral fora provide platforms for conflict mitigation:</p>
+  <ul>
+    <li><strong>[[ASEAN]]</strong> – “ASEAN Outlook on the Indo‑Pacific” (2019) promotes inclusive dialogue; however, consensus‑driven decision‑making limits swift action on flashpoints.</li>
+    <li><strong>[[Shanghai Cooperation Organisation (SCO)]]</strong> – Founded 2001; includes [[China]], [[Russia]], [[India]] (joined 2017), and [[Pakistan]]; focuses on security and anti‑terrorism cooperation.</li>
+    <li><strong>[[East Asia Summit (EAS)]]</strong> – Annual meeting of 18 nations; 2024 agenda centred on “Maritime Safety and Climate Resilience”.</li>
+    <li><strong>[[United Nations Security Council (UNSC)]]</strong> – Veto‑power dynamics (U.S., UK, France, Russia, China) often stall resolutions on South China Sea militarisation.</li>
+  </ul>
+
+  <h4>9. Future Scenarios (2025‑2035 Outlook)</h4>
+  <p>Analysts outline three plausible trajectories:</p>
+  <ol>
+    <li><strong>Co‑operative Security</strong> – Strengthening of Quad and ASEAN‑centric mechanisms; risk of limited but managed competition.</li>
+    <li><strong>Cold‑War‑Like Bifurcation</strong> – Formation of two blocs (U.S.–India–Japan–Australia vs. China–Russia–Pakistan); increased naval arms race, especially in submarine acquisition.</li>
+    <li><strong>Regional Conflict Escalation</strong> – Triggered by a flashpoint such as a miscalculated strike in the Taiwan Strait or an accidental clash at the LAC, potentially drawing nuclear‑armed states into a broader confrontation.</li>
+  </ol>
+  <p>Key indicators to monitor include: (i) frequency of FONOPs, (ii) pace of submarine procurement (e.g., India’s Project 75 α), (iii) diplomatic language in joint statements (e.g., “peaceful resolution” vs. “firm defence”), and (iv) climate‑induced migration patterns in the Pacific Islands.</p>
+
+  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <ul style="margin-top: 8px;">
+      <li>2022‑23 saw the highest number of US <strong>FONOPs</strong> in the <strong>South China Sea</strong> – 12 missions across the year.</li>
+      <li>The <strong>Strait of Malacca</strong> handles ~ 80 % of China’s oil imports, making it a critical chokepoint for energy security.</li>
+      <li>India’s first indigenous aircraft carrier, <strong>INS Vikrant</strong>, was commissioned on <strong>2 September 2022</strong>.</li>
+      <li>China’s “<strong>String of Pearls</strong>” includes 7 major ports; the first, Gwadar (Pakistan), became operational in 2016.</li>
+      <li>The <strong>Quad</strong> summit in 2021 (Washington) produced the “<strong>Quad Leaders’ Statement on Climate‑Security</strong>”.</li>
+      <li>[[UN Convention on the Law of the Sea]] (UNCLOS) 1982 provides the legal basis for EEZ claims up to 200 nm from baselines.</li>
+      <li>In 2023, the <strong>Indian Ocean Naval Symposium (IONS)</strong> adopted a joint anti‑piracy protocol covering 1.5 million sq km.</li>
+      <li>[[AUKUS]] agreement includes a commitment to share nuclear‑submarine technology with Australia, marking the first such transfer to a non‑NATO ally.</li>
+    </ul>
+  </div>
+</div>
+`;
+
+EXPANDED_NOTES_DATA["india-national-parks"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-weight: 600;">
+    National Parks of India (Map Guide)
+  </h3>
+
+  <h4>1. <strong>Why National Parks Matter for Defence Aspirants</strong></h4>
+  <p>Understanding the spatial distribution of India’s <strong>National Parks</strong> equips candidates with:</p>
+  <ul>
+    <li>Strategic awareness of ecologically sensitive zones that influence defence planning (e.g., border‑adjacent reserves).</li>
+    <li>Knowledge of terrain types – from alpine meadows of the Himalayas to mangrove swamps of the Sundarbans – crucial for mountain, desert and coastal warfare concepts.</li>
+    <li>Familiarity with <strong>Protected Area Legislation</strong> such as the <strong>Wildlife Protection Act, 1972</strong> and the <strong>National Forest Policy, 1988</strong>, often referenced in essay questions.</li>
+  </ul>
+
+  <h4>2. <strong>Classification & Legal Framework</strong></h4>
+  <p>All National Parks are designated under <strong>Section 26(1) of the Wildlife Protection Act, 1972</strong>. They are assigned an <strong>IUCN Category II</strong> status, meaning they are managed mainly for ecosystem protection and recreation.</p>
+  <p>Key legal instruments that intersect with National Parks:</p>
+  <ul>
+    <li>[[Biodiversity Act, 2002]] – mandates the creation of Biodiversity Heritage Sites.</li>
+    <li>[[Forest (Conservation) Act, 1980]] – regulates diversion of forest land.</li>
+    <li>[[UNESCO World Heritage Convention, 1972]] – several parks are also World Heritage Sites (e.g., [[Kaziranga National Park]]).</li>
+  </ul>
+
+  <h4>3. <strong>Geographical Distribution – Regional Breakdown</strong></h4>
+  <p>India currently has **106** National Parks (as of 2023). The following regional matrix helps you locate them quickly on a blank political map.</p>
+
+  <h5>3.1 <strong>North & Himalayan Belt (10 Parks)</strong></h5>
+  <ul>
+    <li><strong>[[Jim Corbett National Park]]</strong> – Uttarakhand; 520 km²; established 1936 (India’s first park).</li>
+    <li><strong>[[Rajaji National Park]]</strong> – Uttarakhand; 820 km²; 1983.</li>
+    <li><strong>[[Gangotri National Park]]</strong> – Uttarakhand; 2,390 km²; 2015; alpine flora, <em>Panthera tigris altaica</em> (Siberian tiger) re‑introduction trial.</li>
+    <li><strong>[[Great Himalayan National Park]]</strong> – Himachal Pradesh; 765 km²; 1984; UNESCO WH 2014.</li>
+    <li><strong>[[Khangchendzonga National Park]]</strong> – Sikkim; 1,784 km²; 1977; also a biosphere reserve.</li>
+    <li><strong>[[Valley of Flowers National Park]]</strong> – Uttarakhand; 87 km²; 1982; UNESCO WH 2005.</li>
+    <li><strong>[[Hemkund Sahib National Park]]</strong> – Uttarakhand; 8 km²; 2015; pilgrimage‑linked alpine zone.</li>
+    <li><strong>[[Nanda Devi Biosphere Reserve (National Park core)]]</strong> – Uttarakhand; 2,236 km²; 1982.</li>
+    <li><strong>[[Pachmarhi Biosphere Reserve (Satpura National Park core)]]</strong> – Madhya Pradesh; 524 km²; 1993.</li>
+    <li><strong>[[Sanjay Gandhi National Park]]</strong> – Maharashtra (though technically in the Deccan Plateau, it is often grouped with northern parks for map‑training due to proximity to Delhi).</li>
+  </ul>
+
+  <h5>3.2 <strong>Western & Desert Region (8 Parks)</strong></h5>
+  <ul>
+    <li><strong>[[Sanjay Gandhi National Park]]</strong> – Maharashtra; 104 km²; 1992; includes ancient Buddhist caves.</li>
+    <li><strong>[[Ranthambore National Park]]</strong> – Rajasthan; 392 km²; 1980; famous for Bengal tiger (<em>Panthera tigris tigris</em>).</li>
+    <li><strong>[[Sariska National Park]]</strong> – Rajasthan; 866 km²; 1982; part of the Aravalli‑Tiger corridor.</li>
+    <li><strong>[[Keoladeo Ghana National Park]]</strong> – Rajasthan; 29 km²; 1981; Ramsar site, avifauna hotspot.</li>
+    <li><strong>[[Desert National Park]]</strong> – Rajasthan; 3,162 km²; 1981; home to the Great Indian Bustard (<em>Ardeotis nigriceps</em>).</li>
+    <li><strong>[[Kanha National Park]]</strong> – Madhya Pradesh; 1,067 km²; 1955; inspiration for “The Jungle Book”.</li>
+    <li><strong>[[Bandhavgarh National Park]]</strong> – Madhya Pradesh; 1,105 km²; 1968; highest tiger density per km².</li>
+    <li><strong>[[Panna National Park]]</strong> – Madhya Pradesh; 542 km²; 1983; known for leopards and tiger re‑introduction.</li>
+  </ul>
+
+  <h5>3.3 <strong>Eastern & Northeastern Corridor (12 Parks)</strong></h5>
+  <ul>
+    <li><strong>[[Kaziranga National Park]]</strong> – Assam; 1,430 km²; 1905 (reserve), 1985 (park); UNESCO WH 1985; houses >2/3 of the world’s <em>Rhinoceros unicornis</em>.</li>
+    <li><strong>[[Manas National Park]]</strong> – Assam; 950 km²; 1990; UNESCO WH 1985; part of the Eastern Himalaya Biodiversity Hotspot.</li>
+    <li><strong>[[Namdapha National Park]]</strong> – Arunachal Pradesh; 1,985 km²; 1983; only park with all four big cat species.</li>
+    <li><strong>[[Nameri National Park]]</strong> – Assam; 200 km²; 1998; Important Bird Area (IBA).</li>
+    <li><strong>[[Sunderbans National Park]]</strong> – West Bengal; 1,250 km²; 1984; UNESCO WH 1987; mangrove ecosystem.</li>
+    <li><strong>[[Buxa Tiger Reserve (National Park core)]]</strong> – West Bengal; 760 km²; 1983.</li>
+    <li><strong>[[Balphakram National Park]]</strong> – Meghalaya; 220 km²; 1998; “Land of the Eternal Fog”.</li>
+    <li><strong>[[Dampa Tiger Reserve (National Park core)]]</strong> – Mizoram; 500 km²; 2005.</li>
+    <li><strong>[[Keibul Lamjao National Park]]</strong> – Manipur; 40 km²; 1977; only floating park, home to the endangered Sangai deer (<em>Cervus eldi eldi</em>).</li>
+    <li><strong>[[Simlipal National Park]]</strong> – Odisha; 2,750 km²; 1972; UNESCO Biosphere Reserve 2009.</li>
+    <li><strong>[[Satkosia Tiger Reserve (National Park core)]]</strong> – Odisha; 796 km²; 2007.</li>
+    <li><strong>[[Niyamgiri (Niyamgiri Hill) National Park]]</strong> – Odisha; 100 km²; 2020; cultural significance for the Dongria Kondh tribe.</li>
+  </ul>
+
+  <h5>3.4 <strong>Southern Peninsula (13 Parks)</strong></h5>
+  <ul>
+    <li><strong>[[Bandipur National Park]]</strong> – Karnataka; 874 km²; 1974; part of Nilgiri‑Anamalai Tiger Landscape.</li>
+    <li><strong>[[Nagarhole (Rajiv Gandhi) National Park]]</strong> – Karnataka; 643 km²; 1989; known for Indian elephant (<em>Elephas maximus indicus</em>).</li>
+    <li><strong>[[Mudumalai National Park]]</strong> – Tamil Nadu; 321 km²; 1940 (reserve), 1983 (park).</li>
+    <li><strong>[[Periyar National Park]]</strong> – Kerala; 925 km²; 1982; famous for teak plantations and boat safaris.</li>
+    <li><strong>[[Silent Valley National Park]]</strong> – Kerala; 89 km²; 1984; UNESCO Biosphere Reserve 2007.</li>
+    <li><strong>[[Anamalai (Indira Gandhi) National Park]]</strong> – Tamil Nadu/Kerala; 958 km²; 1975.</li>
+    <li><strong>[[Sundarbans National Park]]</strong> – Tamil Nadu (note: distinct from West Bengal’s mangrove); 80 km²; 1990; coastal dunes.</li>
+    <li><strong>[[Bhadra Wildlife Sanctuary (National Park core)]]</strong> – Karnataka; 492 km²; 2002.</li>
+    <li><strong>[[Kanha National Park]]</strong> – Madhya Pradesh (included again for its central‑south linkage).</li>
+    <li><strong>[[Satpura National Park]]</strong> – Madhya Pradesh; 524 km²; 1993; unique “cave‑safari”.</li>
+    <li><strong>[[Sanjay Gandhi National Park]]</strong> – Maharashtra (also appears in western list).</li>
+    <li><strong>[[Bhimashankar Wildlife Sanctuary (National Park core)]]</strong> – Maharashtra; 30 km²; 1993.</li>
+    <li><strong>[[Nagarjunsagar‑Srisailam Tiger Reserve (National Park core)]]</strong> – Andhra Pradesh/Telangana; 3,500 km²; 2007.</li>
+  </ul>
+
+  <h5>3.5 <strong>Island & Coastal Parks (4 Parks)</strong></h5>
+  <ul>
+    <li><strong>[[Rani ki Vav (Gujarat) – Not a park but a heritage site; ignore]]</strong></li>
+    <li><strong>[[Nanda Devi National Park]]</strong> – Uttarakhand (high‑altitude, not island).</li>
+    <li><strong>[[Great Nicobar Biosphere Reserve (National Park core)]]</strong> – Andaman & Nicobar Islands; 850 km²; 1992; includes <em>Nicobar pigeon</em> (<em>Calypte nicobarica</em>).</li>
+    <li><strong>[[Mahabaleshwar National Park]]</strong> – Maharashtra; 10 km²; 2020; newly declared.</li>
+    <li><strong>[[Gulf of Mannar Marine National Park]]</strong> – Tamil Nadu; 560 km²; 1991; 21 islands, coral reefs.</li>
+  </ul>
+
+  <h4>4. <strong>Tabular Summary of All 106 National Parks (selected 30 flagship parks)</strong></h4>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+    <thead style="background:#2c2c3a; color:#fff;">
+      <tr>
+        <th style="border:1px solid #555; padding:6px;">Park</th>
+        <th style="border:1px solid #555; padding:6px;">State/UT</th>
+        <th style="border:1px solid #555; padding:6px;">Year of Establishment</th>
+        <th style="border:1px solid #555; padding:6px;">Area (km²)</th>
+        <th style="border:1px solid #555; padding:6px;">Key Fauna</th>
+        <th style="border:1px solid #555; padding:6px;">IUCN Category</th>
+        <th style="border:1px solid #555; padding:6px;">UNESCO Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#1e1e28;">
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Jim Corbett National Park]]</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Uttarakhand</td>
+        <td style="border:1px solid #555; padding:6px;">1936</td>
+        <td style="border:1px solid #555; padding:6px;">520</td>
+        <td style="border:1px solid #555; padding:6px;">Tiger, Elephant, <em>Panthera pardus</em></td>
+        <td style="border:1px solid #555; padding:6px;">II</td>
+        <td style="border:1px solid #555; padding:6px;">None</td>
+      </tr>
+      <tr style="background:#272734;">
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Kaziranga National Park]]</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Assam</td>
+        <td style="border:1px solid #555; padding:6px;">1905/1985</td>
+        <td style="border:1px solid #555; padding:6px;">1,430</td>
+        <td style="border:1px solid #555; padding:6px;">One‑horned Rhinoceros, Tiger, Wild Water Buffalo</td>
+        <td style="border:1px solid #555; padding:6px;">II</td>
+        <td style="border:1px solid #555; padding:6px;">World Heritage (1985)</td>
+      </tr>
+      <tr style="background:#1e1e28;">
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Sundarbans National Park]]</strong></td>
+        <td style="border:1px solid #555; padding:6px;">West Bengal</td>
+        <td style="border:1px solid #555; padding:6px;">1984</td>
+        <td style="border:1px solid #555; padding:6px;">1,250</td>
+        <td style="border:1px solid #555; padding:6px;">Bengal Tiger, Ganges Dolphin, Salt‑water Crocodile</td>
+        <td style="border:1px solid #555; padding:6px;">II</td>
+        <td style="border:1px solid #555; padding:6px;">World Heritage (1987)</td>
+      </tr>
+      <tr style="background:#272734;">
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Ranthambore National Park]]</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Rajasthan</td>
+        <td style="border:1px solid #555; padding:6px;">1980</td>
+        <td style="border:1px solid #555; padding:6px;">392</td>
+        <td style="border:1px solid #555; padding:6px;">Tiger, Leopard, Chital</td>
+        <td style="border:1px solid #555; padding:6px;">II</td>
+        <td style="border:1px solid #555; padding:6px;">None</td>
+      </tr>
+      <tr style="background:#1e1e28;">
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Bandipur National Park]]</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Karnataka</td>
+        <td style="border:1px solid #555; padding:6px;">1974</td>
+        <td style="border:1px solid #555; padding:6px;">874</td>
+        <td style="border:1px solid #555; padding:6px;">Tiger, Elephant, Gaur</td>
+        <td style="border:1px solid #555; padding:6px;">II</td>
+        <td style="border:1px solid #555; padding:6px;">None</td>
+      </tr>
+      <tr style="background:#272734;">
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Keoladeo Ghana National Park]]</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Rajasthan</td>
+        <td style="border:1px solid #555; padding:6px;">1981</td>
+        <td style="border:1px solid #555; padding:6px;">29</td>
+        <td style="border:1px solid #555; padding:6px;">Sarus Crane, Indian Bustard, Flamingo</td>
+        <td style="border:1px solid #555; padding:6px;">II</td>
+        <td style="border:1px solid #555; padding:6px;">Ramsar (1987)</td>
+      </tr>
+      <tr style="background:#1e1e28;">
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Great Himalayan National Park]]</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Himachal Pradesh</td>
+        <td style="border:1px solid #555; padding:6px;">1984</td>
+        <td style="border:1px solid #555; padding:6px;">765</td>
+        <td style="border:1px solid #555; padding:6px;">Snow Leopard, Himalayan Tahr, Musk Deer</td>
+        <td style="border:1px solid #555; padding:6px;">II</td>
+        <td style="border:1px solid #555; padding:6px;">World Heritage (2014)</td>
+      </tr>
+      <tr style="background:#272734;">
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Namdapha National Park]]</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Arunachal Pradesh</td>
+        <td style="border:1px solid #555; padding:6px;">1983</td>
+        <td style="border:1px solid #555; padding:6px;">1,985</td>
+        <td style="border:1px solid #555; padding:6px;">Tiger, Leopard, Snow Leopard, Clouded Leopard</td>
+        <td style="border:1px solid #555; padding:6px;">II</td>
+        <td style="border:1px solid #555; padding:6px;">None</td>
+      </tr>
+      <tr style="background:#1e1e28;">
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Periyar National Park]]</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Kerala</td>
+        <td style="border:1px solid #555; padding:6px;">1982</td>
+        <td style="border:1px solid #555; padding:6px;">925</td>
+        <td style="border:1px solid #555; padding:6px;">Elephant, Tiger, Nilgiri Langur</td>
+        <td style="border:1px solid #555; padding:6px;">II</td>
+        <td style="border:1px solid #555; padding:6px;">None</td>
+      </tr>
+      <tr style="background:#272734;">
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Silent Valley National Park]]</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Kerala</td>
+        <td style="border:1px solid #555; padding:6px;">1984</td>
+        <td style="border:1px solid #555; padding:6px;">89</td>
+        <td style="border:1px solid #555; padding:6px;">Lion‑tailed Macaque, Nilgiri Langur, Malabar Pied Hornbill</td>
+        <td style="border:1px solid #555; padding:6px;">II</td>
+        <td style="border:1px solid #555; padding:6px;">Biosphere Reserve (2007)</td>
+      </tr>
+      <tr style="background:#1e1e28;">
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Great Nicobar Biosphere Reserve (NP core)]]</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Andaman & Nicobar Islands</td>
+        <td style="border:1px solid #555; padding:6px;">1992</td>
+        <td style="border:1px solid #555; padding:6px;">850</td>
+        <td style="border:1px solid #555; padding:6px;">Nicobar Pigeon, Giant Squirrel, Saltwater Crocodile</td>
+        <td style="border:1px solid #555; padding:6px;">II</td>
+        <td style="border:1px solid #555; padding:6px;">Biosphere Reserve (2013)</td>
+      </tr>
+      <tr style="background:#272734;">
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Gulf of Mannar Marine National Park]]</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Tamil Nadu</td>
+        <td style="border:1px solid #555; padding:6px;">1991</td>
+        <td style="border:1px solid #555; padding:6px;">560</td>
+        <td style="border:1px solid #555; padding:6px;">Dugong, Green Turtle, Coral Reefs</td>
+        <td style="border:1px solid #555; padding:6px;">II</td>
+        <td style="border:1px solid #555; padding:6px;">None</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>5. <strong>Map‑Reading Strategies for the NDA/CDS Geography Paper</strong></h4>
+  <ul>
+    <li><strong>Orientation:</strong> Always locate the <em>latitude‑longitude grid</em> first. Most Indian National Parks lie between 8°N–35°N and 68°E–97°E.</li>
+    <li><strong>State‑wise Clustering:</strong> Memorise the “state‑cluster” mnemonic – e.g., <em>“Uttarakhand’s Corbett‑Rajaji‑Valley”</em>, <em>“Rajasthan’s Ranthambore‑Sariska‑Desert”</em>, <em>“Northeast’s Kaziranga‑Manas‑Namdapha”</em>.</li>
+    <li><strong>Boundary Cues:</strong> Many parks follow natural boundaries – rivers (e.g., Ganges for [[Sunderbans]]), mountain ridges (e.g., Himalayas for [[Great Himalayan National Park]]), or coastal lines (e.g., [[Gulf of Mannar]]).</li>
+    <li><strong>Scale Interpretation:</strong> A 1:5,00,000 scale map shows a 5 km² area per 1 cm². Use the park’s listed area to approximate its footprint on the map.</li>
+    <li><strong>Symbol Legend:</strong> Green shaded polygons = forest reserves; dotted lines = buffer zones; blue patches = water bodies (rivers, lakes, mangroves). Recognise the standard Indian Survey of India symbols.</li>
+    <li><strong>Cross‑Reference with Districts:</strong> Most exam questions ask for the nearest district or city. Keep a mental table: e.g., Corbett – <strong>Haridwar & Nainital districts</strong>; Kaziranga – <strong>Nagaon & Golaghat districts</strong>.</li>
+    <li><strong>Time‑Line Overlay:</strong> When a question mentions “established before 1970”, instantly filter the list to parks like Corbett (1936), Kaziranga (1905), Manas (1928), etc.</li>
+  </ul>
+
+  <h4>6. <strong>Conservation Highlights & Current Challenges</strong></h4>
+  <p>For a defence‑oriented candidate, it is useful to link ecological security with national security.</p>
+  <ul>
+    <li><strong>Human‑Wildlife Conflict (HWC):</strong> In the <strong>[[Ranthambore]]</strong> and <strong>[[Bandipur]]</strong> corridors, livestock depredation leads to local unrest, affecting internal security.</li>
+    <li><strong>Poaching & Illegal Trade:</strong> The <strong>[[Sundarbans]]</strong> faces tiger poaching; the <strong>[[Kaziranga]]</strong> suffers rhino poaching – both trigger armed anti‑poaching units.</li>
+    <li><strong>Climate‑Induced Shifts:</strong> Glacial melt in the Himalayas threatens the water supply of [[Gangotri National Park]]; sea‑level rise endangers mangroves of [[Sunderbans]] and [[Gulf of Mannar]].</li>
+    <li><strong>Infrastructure Development:</strong> The proposed <strong>[[Delhi‑Mumbai Industrial Corridor]]</strong> cuts across buffer zones of <strong>[[Panna]]</strong> and <strong>[[Satpura]]</strong> parks, raising ecological‑strategic concerns.</li>
+    <li><strong>Community Participation:</strong> The <strong>[[Dongria Kondh]]</strong> tribe’s stewardship of <strong>[[Niyamgiri]]</strong> exemplifies successful indigenous‑led conservation, a model for civil‑military cooperation.</li>
+  </ul>
+
+  <h4>7. <strong>Key Statistics (as of 2023)</strong></h4>
+  <ul>
+    <li>Total protected area under National Parks: **~ 5.2 million ha** (~1.6% of India’s land area).</li>
+    <li>Number of parks hosting **tigers**: 53 (including tiger reserves that overlap with National Parks).</li>
+    <li>Combined area of **UNESCO World Heritage National Parks**: ~ 4,200 km² (Kaziranga, Great Himalayan, Sundarbans, etc.).</li>
+    <li>Annual budget allocation for National Parks under the Ministry of Environment, Forest and Climate Change (MoEFCC) FY 2022‑23: **₹ 2,200 crore**.</li>
+    <li>Average annual tourist footfall (pre‑COVID): **≈ 12 million** visitors across all parks.</li>
+  </ul>
+
+  <h4>8. <strong>Quick Reference – “One‑Minute” Memory Grid</strong></h4>
+  <p>Use the following 3‑column grid for rapid recall during the exam:</p>
+  <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+    <thead style="background:#2c2c3a; color:#fff;">
+      <tr>
+        <th style="border:1px solid #555; padding:6px;">Region</th>
+        <th style="border:1px solid #555; padding:6px;">Flagship Park (Year)</th>
+        <th style="border:1px solid #555; padding:6px;">Signature Species</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#1e1e28;">
+        <td style="border:1px solid #555; padding:6px;">Himalayan North</td>
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Jim Corbett]] (1936)</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Tiger, Elephant</td>
+      </tr>
+      <tr style="background:#272734;">
+        <td style="border:1px solid #555; padding:6px;">Western Desert</td>
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Ranthambore]] (1980)</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Bengal Tiger</td>
+      </tr>
+      <tr style="background:#1e1e28;">
+        <td style="border:1px solid #555; padding:6px;">Northeast</td>
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Kaziranga]] (1905)</strong></td>
+        <td style="border:1px solid #555; padding:6px;">One‑horned Rhino</td>
+      </tr>
+      <tr style="background:#272734;">
+        <td style="border:1px solid #555; padding:6px;">Southern Peninsular</td>
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Bandipur]] (1974)</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Elephant, Gaur</td>
+      </tr>
+      <tr style="background:#1e1e28;">
+        <td style="border:1px solid #555; padding:6px;">Coastal & Islands</td>
+        <td style="border:1px solid #555; padding:6px;"><strong>[[Gulf of Mannar]] (1991)</strong></td>
+        <td style="border:1px solid #555; padding:6px;">Dugong, Coral Reefs</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="exam-tip" style="background: rgba(34,197,94,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; margin-top: 20px; border-radius: 0 6px 6px 0;">
+    <strong style="color: var(--accent);">⚡ High-Yield Exam Facts</strong>
+    <ul style="margin-top: 8px;">
+      <li>India’s first National Park is <strong>[[Jim Corbett National Park]]</strong>, established in <strong>1936</strong>.</li>
+      <li><strong>[[Kaziranga National Park]]</strong> holds the highest density of <em>Rhinoceros unicornis</em> in the world.</li>
+      <li>The only <strong>floating National Park</strong> in the world is <strong>[[Keibul Lamjao National Park]]</strong> in Manipur.</li>
+      <li>Two National Parks are UNESCO World Heritage Sites: <strong>[[Kaziranga]]</strong> (1985) and <strong>[[Great Himalayan National Park]]</strong> (2014).</li>
+      <li>[[Sundarbans National Park]] is the largest mangrove forest and houses the world’s biggest population of <em>Panthera tigris tigris</em>.</li>
+      <li>[[Great Nicobar Biosphere Reserve]] includes the only habitat of the endangered <em>Nicobar pigeon</em> (<em>Calypte nicobarica</em>).</li>
+      <li>As per the <strong>Wildlife Protection Act, 1972</strong>, all National Parks are classified under <strong>IUCN Category II</strong>.</li>
+      <li>India’s total National Park area accounts for roughly <strong>1.6% of the country’s land surface</strong>, a figure that is still below the global target of 17%.</li>
+    </ul>
+  </div>
+</div>
+`;
+
+
+window.EXPANDED_NOTES_DATA["geomorphology-seismic-waves"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Geomorphology: Seismic Waves</h3>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Master Notes</h4>
+  <p style="color:#e2e8f0;">### 1. Fundamentals of Earthquake Origin
+An earthquake represents the sudden release of accumulated strain energy along a fault plane within the lithosphere. The point where this energy is initially released is known as the **Focus** or **Hypocenter**. It is located at variable depths beneath the Earth's surface.
+
+The point on the Earth's surface located perpendicularly (vertically) above the focus is termed the **Epicenter**. Because it is the closest surface point to the hypocenter, seismic waves arrive here first, making it typically the zone of severe impact.
+
+### 2. Classification of Seismic Waves
+Seismic waves are elastic waves generated by the rupture along a fault or sudden crustal dislocation. They are broadly categorized into two major groups:
+
+#### A. Body Waves
+* **Generation**: Generated by the immediate release of energy at the focus (hypocenter).
+* **Propagation**: Radiate outward in all directions through the interior (body) of the Earth.
+* **Subdivisions**:
+  1. **Primary Waves (P-Waves)**: Longitudinal or compressional waves where particle displacement is parallel to wave propagation direction. They are the fastest and travel through solids, liquids, and gases.
+  2. **Secondary Waves (S-Waves)**: Transverse or shear waves where particle displacement is perpendicular to wave propagation direction. They can travel only through solid materials.
+
+#### B. Surface Waves
+* **Generation**: Produced when body waves reach the surface rocks and interact with the Earth's boundary/interface.
+* **Propagation**: Confined along the upper layer/crustal surface of the Earth.
+* **Characteristics**: Slower than body waves, possess higher amplitudes, cause significant ground displacement, and are responsible for the vast majority of surface destruction.
+* **Key Variety**: Long Waves (L-Waves), including Love waves and Rayleigh waves.</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Revision Notes</h4>
+  <p style="color:#e2e8f0;">* **Focus (Hypocenter)**: Origin point of the earthquake within the crust/mantle where energy is released.
+* **Epicenter**: Point on the surface vertically directly above the focus; receives seismic energy first.
+* **Body Waves**: Originate at the focus; travel through Earth's interior in all directions (divided into P-waves and S-waves).
+* **Surface Waves**: Formed by the interaction of body waves with surface crustal rocks; travel along the surface; low velocity, high amplitude, most destructive (includes L-waves).</p>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Key Facts</h4>
+  <ul style="color:#e2e8f0;">
+    <li>Energy originates at the focus (hypocenter), not the epicenter.</li>
+    <li>The shortest straight-line distance from the focus to the surface leads to the epicenter.</li>
+    <li>Body waves consist of P-waves (compressional) and S-waves (shear).</li>
+    <li>Surface waves develop purely due to the interface interaction between body waves and surface strata.</li>
+    <li>Surface waves have longer wavelengths and are the last to arrive on a seismograph.</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:24px;">Definitions</h4>
+  <ul style="color:#e2e8f0;">
+    <li><strong>Focus (Hypocenter):</strong> The underground point of origin of an earthquake within the Earth where tectonic strain energy is suddenly released. <br><em>Simplified: The actual spot deep underground where the earthquake starts.</em></li>
+    <li><strong>Epicenter:</strong> The point on the Earth's surface located directly perpendicularly above the focus/hypocenter. <br><em>Simplified: The spot on the ground surface directly above where the earthquake began.</em></li>
+    <li><strong>Body Waves:</strong> Seismic waves that originate at the hypocenter and propagate through the interior volume of the Earth in three dimensions. <br><em>Simplified: Waves that travel straight through the inside of the Earth.</em></li>
+    <li><strong>Surface Waves:</strong> Seismic waves generated by the interaction of body waves with surface rock layers, propagating exclusively along the boundary layer of the Earth. <br><em>Simplified: Waves that roll along the surface of the ground like ocean waves and cause the most damage.</em></li>
+  </ul>
+  <h4 style="color:#4ade80; margin-top:24px;">Comparison Tables</h4>
+  <h5 style="color:#fbbf24;">Focus vs. Epicenter</h5>
+  <pre style="color:#e2e8f0; background:rgba(0,0,0,0.2); padding:10px;">| Parameter | Focus (Hypocenter) | Epicenter |
+| :--- | :--- | :--- |
+| **Location** | Inside the Earth's crust/mantle | On the Earth's surface |
+| **Nature** | Exact point of fault rupture and energy release | Geometric projection directly above the focus |
+| **Measurement** | Described by geographic coordinates and depth (focal depth) | Described purely by surface geographic coordinates (latitude and longitude) |
+| **Wave Initiation** | Generates primary body waves directly | Receives body waves first, triggering surface wave propagation |</pre>
+
+  <div style="background: rgba(74,222,128,0.08); border-left: 4px solid #4ade80; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color:#4ade80;">Beginner Explanation:</strong> Imagine snapping a stick underground: the point where it snaps is the Focus (or Hypocenter). The point directly on the ground above that snap is the Epicenter. Waves of energy traveling through the deep ground are called Body Waves. When these body waves hit the ground surface, they create rolling surface waves (Surface Waves), which shake buildings and cause damage.
+  </div>
+
+  <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <strong style="color:#fbbf24;">Advanced Details:</strong> The focal mechanism dictates seismic wave propagation. Body waves emanate in three dimensions from the rupture zone (hypocenter) obeying Snell's Law across structural discontinuities. Surface waves arise from boundary interactions (constructive interference of trapped body waves at the free surface), manifesting as dispersive Rayleigh and Love (L) waves that exhibit slower phase velocities but significantly higher mechanical energy density at the Earth's surface.
+  </div>
+</div>
+`;
