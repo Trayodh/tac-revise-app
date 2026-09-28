@@ -1,6 +1,6 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-window.EXPANDED_NOTES_DATA["universe-solar-system"] = `
+window.EXPANDED_NOTES_DATA["geography-earth"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">The Universe & Solar System</h3>
 
@@ -72,7 +72,7 @@ window.EXPANDED_NOTES_DATA["universe-solar-system"] = `
         <li>Sunspots – cooler magnetic regions, 11‑year cycle;
 `;
 
-window.EXPANDED_NOTES_DATA["earth-atmosphere"] = `
+window.EXPANDED_NOTES_DATA["geography-atmosphere"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Earth Structure & Atmosphere</h3>
 
@@ -181,7 +181,7 @@ window.EXPANDED_NOTES_DATA["earth-atmosphere"] = `
         <td style="border:1px solid rgba(
 `;
 
-window.EXPANDED_NOTES_DATA["climatology-clouds"] = `
+window.EXPANDED_NOTES_DATA["geography-clouds"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Climatology: Climatic Zones &amp; Clouds</h3>
 
@@ -273,7 +273,7 @@ window.EXPANDED_NOTES_DATA["climatology-clouds"] = `
         <td style="padding:8px; border:1px solid #555;">[[Polar
 `;
 
-window.EXPANDED_NOTES_DATA["geomorphology-rocks"] = `
+window.EXPANDED_NOTES_DATA["geography-rocks"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Geomorphology: Rocks, Plate Tectonics &amp; Volcanism</h3>
 
@@ -366,7 +366,7 @@ window.EXPANDED_NOTES_DATA["geomorphology-rocks"] = `
         <td style="padding
 `;
 
-window.EXPANDED_NOTES_DATA["world-geography-mountains"] = `
+window.EXPANDED_NOTES_DATA["geography-mountains"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">World Geography: Mountains, Forests & Rivers</h3>
 
@@ -477,7 +477,7 @@ window.EXPANDED_NOTES_DATA["world-geography-mountains"] = `
         <th style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8
 `;
 
-window.EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `
+window.EXPANDED_NOTES_DATA["geography-deserts"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Straits, Canals, Deserts &amp; Seas</h3>
 
@@ -549,7 +549,7 @@ window.EXPANDED_NOTES_DATA["world-geography-straits-deserts"] = `
   <div style="background: rgba(251,191,36,0.08); border-left:
 `;
 
-window.EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
+window.EXPANDED_NOTES_DATA["geography-natural-vegetation"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Forests, Trees & Wetlands of India & Indian Geography (Rivers, Passes & Soils)</h3>
 
@@ -623,7 +623,7 @@ window.EXPANDED_NOTES_DATA["india-forests-wetlands"] = `
     <li><strong>Mangrove Forests</strong
 `;
 
-window.EXPANDED_NOTES_DATA["india-resources-farming"] = `
+window.EXPANDED_NOTES_DATA["history-ancient-india"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Mineral Resources & Types of Farming</h3>
 
@@ -710,7 +710,7 @@ window.EXPANDED_NOTES_DATA["india-resources-farming"] = `
         <td style="border:1px solid #555; padding
 `;
 
-window.EXPANDED_NOTES_DATA["india-transport-routes"] = `
+window.EXPANDED_NOTES_DATA["history-ancient-india"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Transport Routes: Highways &amp; Waterways</h3>
 
@@ -777,7 +777,7 @@ window.EXPANDED_NOTES_DATA["india-transport-routes"] = `
     <li><strong>[[Delhi‑Amritsar–Katra Expressway]]</strong> – ≈ 670 km; provides direct access to the Jammu &amp; Kashmir border and
 `;
 
-window.EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
+window.EXPANDED_NOTES_DATA["biology-biodiversity"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Borders, Capitals & Mapping</h3>
 
@@ -1029,7 +1029,7 @@ window.EXPANDED_NOTES_DATA["mapping-borders-capitals"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["geog-industries"] = `
+window.EXPANDED_NOTES_DATA["geography-industries"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
   <h3 style="color:#4ade80; margin-bottom:16px; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:8px; font-weight:600;">Major Industries & Industrial Corridors of India</h3>
 
@@ -1200,7 +1200,7 @@ window.EXPANDED_NOTES_DATA["geog-industries"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["geography-pyq-trends-topic"] = `
+window.EXPANDED_NOTES_DATA["geography-physical-geography"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Geography PYQ Trends (NDA/CDS)</h3>
 
@@ -2082,7 +2082,7 @@ EXPANDED_NOTES_DATA["india-national-parks"] = `
 `;
 
 
-window.EXPANDED_NOTES_DATA["geomorphology-seismic-waves"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+window.EXPANDED_NOTES_DATA["geography-earthquakes"] = `<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Geomorphology: Seismic Waves</h3>
 
   <h4 style="color:#4ade80; margin-top:24px;">Master Notes</h4>

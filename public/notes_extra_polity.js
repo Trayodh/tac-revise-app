@@ -1,6 +1,6 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-window.EXPANDED_NOTES_DATA["schedules"] = `
+window.EXPANDED_NOTES_DATA["chemistry-mixtures"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); color:#e2e8f0;">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Schedules of the Constitution</h3>
 
@@ -82,7 +82,7 @@ window.EXPANDED_NOTES_DATA["schedules"] = `
         <td style="padding:10px; border:1px
 `;
 
-window.EXPANDED_NOTES_DATA["fundamental-rights"] = `
+window.EXPANDED_NOTES_DATA["polity-fundamental-rights"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Fundamental Rights (Art 12-35)</h3>
 
@@ -138,7 +138,7 @@ window.EXPANDED_NOTES_DATA["fundamental-rights"] = `
         <td style="padding:10px;border:1px solid rgba(255,255,255,0.1);color:#e2e8f0;">Developed through progressive jurisprudence (e.g., <strong>Bandhua
 `;
 
-window.EXPANDED_NOTES_DATA["dpsp"] = `
+window.EXPANDED_NOTES_DATA["polity-dpsp"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">DPSP & Fundamental Duties (Art 36-51A)</h3>
 
@@ -207,7 +207,7 @@ window.EXPANDED_NOTES_DATA["dpsp"] = `
       <tr>
 `;
 
-window.EXPANDED_NOTES_DATA["citizenship"] = `
+window.EXPANDED_NOTES_DATA["military_aptitude-ships"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Citizenship (Art 5-11)</h3>
 
@@ -281,7 +281,7 @@ window.EXPANDED_NOTES_DATA["citizenship"] = `
           <li>1 July 1987 – 3 Dec 2004 – Birth in India required *at least one* parent to
 `;
 
-window.EXPANDED_NOTES_DATA["president"] = `
+window.EXPANDED_NOTES_DATA["polity-president"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">The President of India (Art 52-62)</h3>
 
@@ -369,7 +369,7 @@ window.EXPANDED_NOTES_DATA["president"] = `
   <h4 style="color:#4ade80; margin-top:24px;">Presidential Powers
 `;
 
-window.EXPANDED_NOTES_DATA["parliament"] = `
+window.EXPANDED_NOTES_DATA["polity-parliament"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Parliament of India (Art 79-122)</h3>
 
@@ -456,7 +456,7 @@ window.EXPANDED_NOTES_DATA["parliament"] = `
     <strong>R</strong> – Article 79 (bicameral **R**ealisation) <br>
 `;
 
-window.EXPANDED_NOTES_DATA["goverment-executives"] = `
+window.EXPANDED_NOTES_DATA["environment-military-exercises"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Executives: PM, CM & Governor</h3>
 
@@ -554,7 +554,7 @@ window.EXPANDED_NOTES_DATA["goverment-executives"] = `
         <td style="border:1px solid rgba(255,255,255,0.1);padding:8px;">Article 74 & 75</td>
 `;
 
-window.EXPANDED_NOTES_DATA["judiciary"] = `
+window.EXPANDED_NOTES_DATA["mathematics-similarity"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Integrated Judiciary: SC &amp; HC</h3>
 
@@ -628,7 +628,7 @@ window.EXPANDED_NOTES_DATA["judiciary"] = `
   <div style="background: rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 14px 16px; margin: 20px 0; border-radius: 0 8px 8px
 `;
 
-window.EXPANDED_NOTES_DATA["panchayati-raj"] = `
+window.EXPANDED_NOTES_DATA["mathematics-races"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Local Self-Govt & Panchayati Raj</h3>
 
@@ -694,7 +694,7 @@ window.EXPANDED_NOTES_DATA["panchayati-raj"] = `
       <
 `;
 
-window.EXPANDED_NOTES_DATA["amendments-parts"] = `
+window.EXPANDED_NOTES_DATA["mathematics-integration-by-parts"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Constitutional Amendments, Parts &amp; Schedules</h3>
 
@@ -739,7 +739,7 @@ window.EXPANDED_NOTES_DATA["amendments-parts"] = `
     <strong style="color: #fbbf24;">💡 Memory Hack:</strong> Remember the “big three” emergency‑related amendments with the phrase **“42‑44‑83”** – 42 (Mini‑Constitution, emergency powers), 44 (Restoration of basic structure), 83 (Clarified Article 356). The numbers are in ascending order and each deals with
 `;
 
-window.EXPANDED_NOTES_DATA["important-articles"] = `
+window.EXPANDED_NOTES_DATA["polity-important-constitutional-articles"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">High-Yield Special Articles Cheat Sheet</h3>
 
@@ -810,7 +810,7 @@ window.EXPANDED_NOTES_DATA["important-articles"] = `
           <td style="padding:12px; border:1px solid rgba(255,255,255,0.1);
 `;
 
-window.EXPANDED_NOTES_DATA["positions-tenures"] = `
+window.EXPANDED_NOTES_DATA["physics-lenses"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Elections, Appointments & Terms of Office</h3>
 
@@ -876,7 +876,7 @@ window.EXPANDED_NOTES_DATA["positions-tenures"] = `
         <td style="padding:8
 `;
 
-window.EXPANDED_NOTES_DATA["constitutional-bodies"] = `
+window.EXPANDED_NOTES_DATA["polity-constitutional-bodies"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Constitutional & Non-Constitutional Bodies</h3>
 
@@ -932,7 +932,7 @@ window.EXPANDED_NOTES_DATA["constitutional-bodies"] = `
   <h4 style="color:#4ade80; border-left:3px solid #4ade80; padding-left:8px; margin-top:
 `;
 
-window.EXPANDED_NOTES_DATA["governance-emergency"] = `
+window.EXPANDED_NOTES_DATA["polity-emergency-provisions"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Emergency Provisions</h3>
 
@@ -992,7 +992,7 @@ window.EXPANDED_NOTES_DATA["governance-emergency"] = `
   <p style="color:#e2e8f0; line-height:1.6; margin-bottom:15px;">
 `;
 
-window.EXPANDED_NOTES_DATA["polity-federal-structure"] = `
+window.EXPANDED_NOTES_DATA["english-sentence-structure"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Federal Structure & Centre-State Relations</h3>
 
@@ -1045,7 +1045,7 @@ window.EXPANDED_NOTES_DATA["polity-federal-structure"] = `
   <h4 style="color:#4ade80; border-left:3px solid #4ade80; padding-left:8px; margin-top:20px; margin-bottom:10px;">Comparison of the Three Lists
 `;
 
-window.EXPANDED_NOTES_DATA["polity-rpa"] = `
+window.EXPANDED_NOTES_DATA["polity-constitution"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Representation of People Act & Election Commission</h3>
 
@@ -1113,7 +1113,7 @@ window.EXPANDED_NOTES_DATA["polity-rpa"] = `
     <li><strong>Composition Evolution:</strong
 `;
 
-window.EXPANDED_NOTES_DATA["preamble"] = `
+window.EXPANDED_NOTES_DATA["polity-preamble"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Preamble & Sources — Complete Defence Exam Notes</h3>
 
