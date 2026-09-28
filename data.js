@@ -141236,9 +141236,9 @@ const NOTES_DATABASE = {
         ]
       },
       {
-        "id": "geomorphology-rocks",
-        "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
-        "icon": "fa-solid fa-book-open",
+        "id": "geomorphology-seismic-waves",
+        "title": "Geomorphology: Seismic Waves",
+        "icon": "fa-solid fa-earth-americas",
         "topics": [
           {
             "id": "geomorphology-seismic-waves",
@@ -141262,7 +141262,14 @@ const NOTES_DATABASE = {
                 }
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "geomorphology-rocks",
+        "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
           {
             "id": "geomorphology-rocks",
             "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
