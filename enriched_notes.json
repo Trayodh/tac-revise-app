@@ -1608,5 +1608,927 @@
     "revision_priority": "High \u2013 frequently asked in NDA/CDS/AFCAT history sections.",
     "confidence_score": 0.9,
     "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Mauryan Empire",
+    "subchapter": "External Invasions & Major Rock Edicts",
+    "topic": "Mauryan Empire - External Invasions & Major Rock Edicts",
+    "subtopic": "Major Rock Edicts I & II",
+    "master_notes": "External invasions by Greeks, Sakas, and Parthians destabilised the Mauryan Empire. Ashoka's Major Rock Edicts address social welfare: Edict I prohibits animal sacrifice during festive seasons emphasising non-violence; Edict II promotes medical treatment for humans and animals, planting of fruits and medicinal herbs, digging wells, and mentions the Pandyas indicating southern outreach.",
+    "revision_notes": "Edict I = Animal sacrifice ban (festive seasons). Edict II = Healthcare + agriculture (Pandyas mentioned). Invaders = Greeks, Sakas, Parthians.",
+    "one_liner_notes": [
+      "Major Rock Edict I bans animal sacrifice during festivals.",
+      "Major Rock Edict II covers medical care and horticulture.",
+      "Empire destabilised by Greek, Saka, Parthian invasions."
+    ],
+    "key_facts": [
+      "Major Rock Edict I prohibits animal sacrifice especially during festive seasons.",
+      "Major Rock Edict II covers medical treatment, planting fruits/herbs, digging wells.",
+      "Edict II mentions Pandyas (southern regions).",
+      "External invasions by Greeks, Sakas, Parthians destabilised the empire."
+    ],
+    "definitions": [
+      {
+        "term": "Major Rock Edicts",
+        "exact_meaning": "Royal decrees inscribed on rocks by Emperor Ashoka.",
+        "simplified_explanation": "Messages carved on rocks by Ashoka covering dharma and welfare."
+      },
+      {
+        "term": "Pandyas",
+        "exact_meaning": "Ancient Tamil dynasty.",
+        "simplified_explanation": "Southern Indian kingdom mentioned in Ashokan Edict II."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Ashoka's Major Rock Edicts I & II",
+        "content": "| Edict Number | Description | Key Points |\n|--------------|-------------|------------|\n| Major Rock Edict I | Prohibition of animal sacrifice, especially during festive seasons. | Emphasises non-violence and compassion towards animals. |\n| Major Rock Edict II | Medical treatment of humans and animals, planting of fruits, medicinal herbs, and digging of wells. Mentions the Pandyas. | Encourages healthcare, agricultural development, and mentions southern regions of the empire. |"
+      }
+    ],
+    "diagram_descriptions": [],
+    "timelines": [],
+    "comparison_tables": [
+      {
+        "title": "Comparison: Rock Edict I vs II",
+        "content": "| Aspect | Edict I | Edict II |\n|--------|---------|----------|\n| Main Focus | Animal welfare | Public welfare |\n| Specific Provision | Ban on animal sacrifice | Medical treatment, horticulture |\n| Geographic Reference | Not specified | Mentions Pandyas (South) |"
+      }
+    ],
+    "mnemonics": [
+      "I = Injunction (no sacrifice)",
+      "II = Infrastructure & Healthcare"
+    ],
+    "common_exam_traps": [
+      "Confusing Edict I (animal sacrifice) with Edict II (medical treatment).",
+      "Missing that Edict II mentions southern kingdoms (Pandyas).",
+      "Assuming invasions happened only during Ashoka's reign (source says destabilised empire generally)."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Ashoka's Dhamma",
+      "Mauryan Decline",
+      "Indo-Greek Relations",
+      "Saka Invasions",
+      "Parthian Empire"
+    ],
+    "search_keywords": [
+      "Mauryan Empire",
+      "Ashoka Rock Edicts",
+      "Major Rock Edict I",
+      "Major Rock Edict II",
+      "External invasions Mauryan",
+      "Pandyas Ashoka"
+    ],
+    "beginner_explanation": "Ashoka wrote rules on rocks. One rule says no killing animals during festivals. Another says provide doctors and plant trees. Foreigners attacked the empire.",
+    "intermediate_explanation": "Ashoka's Major Rock Edict I prohibits animal sacrifice during festive seasons, reflecting Buddhist principles of non-violence. Edict II focuses on public welfare including medical facilities for humans and animals, planting fruits and medicinal herbs, and digging wells. It also mentions the Pandyas, showing the empire's southern connections. The empire faced destabilisation from external invasions by Greeks, Sakas, and Parthians.",
+    "advanced_explanation": "The Major Rock Edicts represent Ashoka's propagation of Dhamma across the Mauryan Empire. Edict I specifically targets ritualistic animal sacrifice during festivals, aligning with Buddhist compassion principles. Edict II demonstrates state-sponsored welfare extending to southern regions (Pandyas), covering medical care, agriculture, and infrastructure. Concurrently, the empire faced pressure from Indo-Greeks, Sakas, and Parthians, contributing to eventual decline.",
+    "revision_priority": "High - Factual distinctions between Edicts frequently tested.",
+    "confidence_score": 0.85,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Mauryan Empire",
+    "subchapter": "Edicts of Ashoka",
+    "topic": "Ashoka's Major Rock Edicts (VIII, IX, X)",
+    "subtopic": "Dhamma Yatra, Moral Conduct, and the Rejection of Vanity",
+    "master_notes": "Emperor Ashoka's Major Rock Edicts VIII, IX, and X represent a profound shift in imperial policy, moving away from traditional royal pursuits like hunting and military conquest toward the propagation of Dhamma (righteous moral conduct). \n\n### Major Rock Edict VIII: The First Dhamma Yatra\nThis edict details Ashoka's first royal pilgrimage, or 'Dhamma Yatra', to Bodh Gaya to pay homage at the Bodhi Tree, the site of Buddha's enlightenment. Historically, royal tours were centered around hunting and military display, but Ashoka transformed these journeys into spiritual and moral tours to connect with his subjects and promote Buddhist principles. This edict underscores the centrality of the Bodhi Tree as a sacred site and highlights the institutionalization of Dhamma tours as a tool of state policy.\n\n### Major Rock Edict IX: Condemnation of Empty Ceremonies\nEdict IX represents a sharp critique of popular, elaborate, and expensive rituals and ceremonies prevalent among the masses, particularly those conducted by Brahmins and various ascetic sects. Ashoka viewed these elaborate rituals as empty, meaningless, and socially divisive. Instead of hollow performances, the edict strongly emphasizes the necessity of genuine moral conduct, ethical behavior, and practical adherence to Dhamma in daily life.\n\n### Major Rock Edict X: Rejection of Personal Fame and Glory\nThis edict disapproves strongly of the individual's desire for personal fame, vanity, and worldly glory. Ashoka argued that the pursuit of personal accolades and public adoration is futile and contrary to the spirit of Dhamma. The edict encourages humility, selfless service, and the subordination of personal ambition to the collective moral good of the empire.\n\nTogether, these three edicts illustrate Ashoka's efforts to replace ritualism with ethical living, military aggression with spiritual pilgrimage, and personal vanity with public duty.",
+    "revision_notes": "Focus on the specific themes of each edict: Edict VIII is about pilgrimage/tours (Bodh Gaya), Edict IX is about rejecting empty rituals/ceremonies in favor of moral conduct, and Edict X is about rejecting personal fame/glory. Remember that Ashoka's conversion happened after the Kalinga War, which catalyzed these moral edicts. These are high-frequency topics in competitive examinations (NDA, CDS, AFCAT) and often appear in MCQ format.",
+    "one_liner_notes": [
+      "Major Rock Edict VIII records Ashoka's first Dhamma pilgrimage (Dhamma Yatra) to Bodh Gaya and the Bodhi Tree.",
+      "Major Rock Edict IX condemns useless, expensive ceremonies and stresses the importance of moral conduct.",
+      "Major Rock Edict X rejects personal ambition, vanity, and the pursuit of fame in favor of devotion to Dhamma."
+    ],
+    "key_facts": [
+      "Edict VIII marks the transition of royal tours from hunting to spiritual pilgrimages (Dhamma Yatra).",
+      "Edict IX targets the futility of elaborate Brahmanical and ascetic rituals.",
+      "Edict X promotes humility and warns against the corrosive nature of personal fame and glory.",
+      "All three edicts were inscribed on rock surfaces across the Mauryan Empire to ensure public accessibility."
+    ],
+    "definitions": [
+      {
+        "term": "Dhamma Yatra",
+        "exact_meaning": "A religious pilgrimage or tour undertaken to propagate, practice, or honor the moral law (Dhamma).",
+        "simplified_explanation": "A holy journey taken to spread righteous behavior, which Ashoka used to replace traditional royal hunting trips."
+      },
+      {
+        "term": "Dhamma",
+        "exact_meaning": "The Prakrit term for the Sanskrit 'Dharma', referring to moral law, virtue, piety, and righteous conduct.",
+        "simplified_explanation": "The code of ethical behavior, goodness, and social harmony championed by Ashoka as the foundation of state policy."
+      },
+      {
+        "term": "Major Rock Edicts",
+        "exact_meaning": "Fourteen major edicts inscribed on rock pillars and outcrops across the Mauryan Empire by Emperor Ashoka.",
+        "simplified_explanation": "Large stone proclamations containing Ashoka's laws, moral teachings, and administrative reforms meant for public reading."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Overview of Ashoka's Major Rock Edicts VIII, IX, and X",
+        "content": "| Edict | Core Content | Significance |\n| :--- | :--- | :--- |\n| **Major Rock Edict VIII** | Ashoka's first *Dhamma Yatra* to Bodh Gaya and the Bodhi tree; importance of Dhamma tours. | Highlights the significance of Ashoka's religious pilgrimage and the value of Dhamma tours. |\n| **Major Rock Edict IX** | Condemns popular ceremonies; stresses moral conduct. | Discourages extravagant ceremonies and emphasizes the importance of moral behaviour. |\n| **Major Rock Edict X** | Disapproves of the individual's desire for fame and glory; stresses on *Dhamma*. | Encourages humility and promotes the pursuit of Dhamma over personal ambition. |"
+      }
+    ],
+    "diagram_descriptions": [],
+    "timelines": [
+      {
+        "event": "Ashoka's First Dhamma Yatra to Bodh Gaya",
+        "date": "c. 250 BCE (approximate period of active Dhamma propagation)",
+        "description": "Emperor Ashoka undertakes his first official moral pilgrimage to Bodh Gaya, marking a pivotal shift in imperial tour policy."
+      }
+    ],
+    "comparison_tables": [],
+    "mnemonics": [
+      "VIII = Visit (Pilgrimage to Bodh Gaya)",
+      "IX = Ignore (Empty rituals and ceremonies)",
+      "X = eXclude (Fame, glory, and vanity)"
+    ],
+    "common_exam_traps": [
+      "Confusing Edict IX (against ceremonies) with Edict XI (against asceticism/samsara) or Edict XII (against sectarianism).",
+      "Thinking Edict VIII describes the Kalinga War (the Kalinga War is detailed in Edict XIII, not VIII).",
+      "Mixing up the focus of Edict X (personal fame/vanity) with general administrative duties covered in other edicts."
+    ],
+    "previous_year_links": [
+      {
+        "question": "Which Major Rock Edict of Ashoka explicitly details his first 'Dhamma Yatra' to Bodh Gaya and the Bodhi Tree?",
+        "options": [
+          "Major Rock Edict VIII",
+          "Major Rock Edict IX",
+          "Major Rock Edict X",
+          "Major Rock Edict XI"
+        ],
+        "correct_option": 0,
+        "correct_answer_text": "Major Rock Edict VIII",
+        "explanation": "Major Rock Edict VIII describes Emperor Ashoka's first royal Dhamma pilgrimage (Dhamma Yatra) to Bodh Gaya and the Bodhi tree, replacing traditional hunting trips with religious tours."
+      }
+    ],
+    "related_topics": [
+      "Kalinga War and Ashoka's Conversion",
+      "Major Rock Edicts I to VII (Dhamma principles and social welfare)",
+      "Major Rock Edict XIII (The Kalinga Conquest)",
+      "Minor Rock Edicts and Pillar Edicts"
+    ],
+    "search_keywords": [
+      "Ashoka",
+      "Major Rock Edicts",
+      "Edict VIII",
+      "Edict IX",
+      "Edict X",
+      "Dhamma Yatra",
+      "Bodh Gaya",
+      "Mauryan Empire",
+      "Dhamma",
+      "History",
+      "NDA",
+      "CDS",
+      "AFCAT"
+    ],
+    "beginner_explanation": "After the brutal Kalinga War, Emperor Ashoka changed his ruling style completely. He stopped hunting and fighting, and instead focused on being a good, moral ruler. He wrote his rules on big rocks (called Major Rock Edicts). Edict VIII talks about his first holy trip (Dhamma Yatra) to Bodh Gaya. Edict IX criticizes useless, expensive rituals and says people should just behave well. Edict X says we should not chase after personal fame and popularity, but instead focus on doing good.",
+    "intermediate_explanation": "The Major Rock Edicts VIII, IX, and X reflect Ashoka's post-Kalinga transformation and the codification of Dhamma as a state-sponsored ethical framework. Edict VIII documents the shift from militaristic royal tours (yatra) to moral pilgrimages, specifically citing his visit to the sacred Bodhi Tree. Edict IX represents a direct critique of contemporary Brahmanical rituals and expensive ceremonies, advocating for practical moral conduct over empty formalism. Edict X targets individualistic ambition, discouraging the pursuit of personal glory and vanity, promoting instead selfless devotion to public welfare and Dhamma.",
+    "advanced_explanation": "From a historiographical perspective, Edicts VIII, IX, and X illustrate the pragmatic deployment of royal propaganda to reshape Mauryan society. Edict VIII's focus on the Bodhi Tree serves to legitimize the state's patronage of Buddhism while providing a unifying sacred focal point for diverse populations. Edict IX's critique of ceremonies indicates an early state intervention aimed at reforming religious practices, favoring ethical behavior over ritualism\u2014a stance that aligned with both Buddhist and early Hindu ethical traditions while curbing the social power of the priestly class (Brahmins). Edict X's denunciation of personal fame reflects a psychological and political shift towards collective governance and the institutionalization of moral authority, discouraging individual cults of personality in favor of the abstract authority of Dhamma. Together, they show a sophisticated, centralized effort to engineer social harmony and political stability.",
+    "revision_priority": "High",
+    "confidence_score": 0.98,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Mauryan Empire",
+    "subchapter": "Ashokan Edicts and Inscriptions",
+    "topic": "Ashokan Edicts and Inscriptions",
+    "subtopic": "Major Edicts and Inscriptions",
+    "master_notes": "Emperor Ashoka commissioned a series of rock and pillar edicts to spread his philosophy of dharma after the Kalinga war. The most notable edicts include the Schism (Allahabad) edict urging Sangha unity, the bilingual Kandahar inscription in Greek and Aramaic, the Kalinga edicts at Dhauli and Jaugada containing the humane phrase \"All men are my children\", and the Sannati site in Karnataka which houses all 14 major rock edicts plus two separate Kalinga edicts. These inscriptions are key sources for understanding Mauryan administration, religious policy, and the spread of Buddhism, and they frequently appear in NDA, CDS, and AFCAT history papers.",
+    "revision_notes": "Ashoka\u2019s edicts: Schism (Allahabad) \u2013 unity of Sangha; Kandahar \u2013 Greek/Aramaic bilingual; Kalinga (Dhauli/Jaugada) \u2013 \"All men are my children\"; Sannati \u2013 14 rock edicts + 2 Kalinga edicts. Important for exam recall.",
+    "one_liner_notes": [
+      "Ashokan edicts are primary sources for Mauryan dharma and administration.",
+      "Kandahar inscription is the only Greek\u2011Aramaic bilingual edict.",
+      "Kalinga edicts contain the famous phrase \"All men are my children\".",
+      "Sannati (Karnataka) holds the largest concentration of rock edicts.",
+      "Schism edict addresses monastic unity and includes Samudragupta\u2019s later inscription."
+    ],
+    "key_facts": [
+      "Four major edicts/inscriptions listed: Allahabad (Schism), Kandahar, Kalinga (Dhauli & Jaugada), Sannati.",
+      "Kandahar inscription is bilingual (Greek & Aramaic).",
+      "Kalinga edicts mention the phrase \"All men are my children\".",
+      "Sannati site contains all 14 major rock edicts and two separate Kalinga edicts.",
+      "Schism edict also contains an inscription of Samudragupta."
+    ],
+    "definitions": [
+      {
+        "term": "Ashokan Edicts",
+        "exact_meaning": "Official inscriptions commissioned by Emperor Ashoka to promulgate his dharma (moral law) and administrative policies across the empire.",
+        "simplified_explanation": "Stone/pillar messages from Ashoka teaching kindness, tolerance, and good governance."
+      },
+      {
+        "term": "Bilingual Inscription",
+        "exact_meaning": "An inscription written in two different languages, often reflecting the multilingual nature of the empire.",
+        "simplified_explanation": "Two languages side\u2011by\u2011side, like Greek and Aramaic, used for wider communication."
+      },
+      {
+        "term": "Schism Edict",
+        "exact_meaning": "An edict addressing divisions within the Buddhist Sangha, urging monks to avoid schisms and maintain unity.",
+        "simplified_explanation": "Ashoka\u2019s message to Buddhist monks to stay united and not create factions."
+      },
+      {
+        "term": "Kalinga Edicts",
+        "exact_meaning": "Edicts at Dhauli and Jaugada describing Ashoka\u2019s remorse after the Kalinga war and his new policy of dharma.",
+        "simplified_explanation": "Rock edicts that include the humane phrase \"All men are my children\"."
+      },
+      {
+        "term": "Sannati Inscription",
+        "exact_meaning": "A site in Karnataka containing all 14 major Ashokan rock edicts and two additional Kalinga edicts.",
+        "simplified_explanation": "The largest concentration of Ashokan rock edicts in South India."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Major Ashokan Edicts and Inscriptions",
+        "content": "| Edict/Inscription | Remarks |\n|---|---|\n| Allahabad \u2013 Kosam/Queens Edict/Kausambi or Schism Edict | Ashoka urges the Sangha members to avoid causing divisions. It also contains Samudragupta's inscription. |\n| Kandahar Inscription | Famous bilingual edict in Greek and Aramaic. |\n| Kalinga Edicts (Dhauli and Jaugada) | Mentions the phrase 'All men are my children.' |\n| Sannati Inscription (Karnataka) | Site of all 14 major rock edicts and two separate Kalinga edicts. |"
+      }
+    ],
+    "diagram_descriptions": [],
+    "timelines": [],
+    "comparison_tables": [
+      {
+        "title": "Comparison of Ashokan Edicts",
+        "content": "| Edict | Location | Language(s) | Key Feature |\n|---|---|---|---|\n| Schism Edict (Allahabad) | Allahabad (Kosam/Queens) | Prakrit (Brahmi) | Addresses monastic unity; includes Samudragupta\u2019s inscription. |\n| Kandahar Inscription | Kandahar (Afghanistan) | Greek & Aramaic | Only bilingual edict, shows Hellenistic influence. |\n| Kalinga Edicts | Dhauli & Jaugada (Odisha) | Prakrit (Brahmi) | Contains humane phrase \"All men are my children\". |\n| Sannati Inscription | Sannati (Karnataka) | Prakrit (Brahmi) | Largest concentration of rock edicts (14 major + 2 Kalinga). |"
+      }
+    ],
+    "mnemonics": [
+      "K C K S \u2013 Kandahar, Kalinga, Schism, Sannati (remember the four main edicts)."
+    ],
+    "common_exam_traps": [
+      "Confusing the Allahabad (Schism) edict with the Kandahar bilingual edict.",
+      "Misremembering the languages of the Kandahar inscription (Greek & Aramaic, not Greek alone).",
+      "Forgetting that Sannati holds 14 major rock edicts plus two Kalinga edicts.",
+      "Mixing up the content of the Schism edict with other edicts."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Mauryan administration",
+      "Ashoka's dharma",
+      "Ashokan pillars",
+      "Buddhist history",
+      "Rock\u2011cut architecture",
+      "Indian epigraphy"
+    ],
+    "search_keywords": [
+      "Ashokan edicts",
+      "Kandahar inscription",
+      "Kalinga edicts",
+      "Schism edict",
+      "Allahabad edict",
+      "Sannati inscription",
+      "Ashoka's inscriptions",
+      "Greek Aramaic edict",
+      "All men are my children"
+    ],
+    "beginner_explanation": "After winning the brutal Kalinga war, Emperor Ashoka turned to peace and spread his message of kindness through rock and pillar edicts across his empire. The most famous ones are the Schism edict (urging Buddhist unity), the bilingual Kandahar edict (Greek & Aramaic), the Kalinga edicts (with the phrase 'All men are my children'), and the Sannati rock edicts in Karnataka, which are the largest collection of his messages.",
+    "intermediate_explanation": "Ashokan edicts are multilingual inscriptions that reflect the empire\u2019s administrative reach and Ashoka\u2019s policy of dhamma. They appear in locations ranging from the northwest (Kandahar) to the east (Dhauli, Jaugada) and south (Sannati). The Kandahar inscription is unique for its Greek and Aramaic scripts, indicating cultural contacts with the Hellenistic world. The Schism edict addresses monastic discipline and even records a later inscription of Samudragupta, linking the Mauryan and Gupta periods. The Kalinga edicts contain the humane phrase \"All men are my children\", illustrating Ashoka\u2019s transformation after conquest. Sannati\u2019s site holds the greatest number of rock edicts, underscoring the spread of his message throughout the subcontinent.",
+    "advanced_explanation": "From an epigraphic perspective, the Ashokan edicts constitute the earliest decipherable written records of Indian history, providing insights into Mauryan governance, religious tolerance, and the early spread of Buddhism. Their multilingual nature (Brahmi, Greek, Aramaic) demonstrates the empire\u2019s sophisticated bureaucracy and diplomatic outreach. The Schism edict\u2019s mention of Samudragupta\u2019s later inscription offers a rare chronological bridge between the Mauryan and Gupta dynasties. Geographically, the distribution of edicts reflects strategic concerns: frontier regions like Kandahar (now Afghanistan) were inscribed in foreign scripts to communicate with local populations, while inland sites like Sannati highlight the penetration of dhamma into southern India. The content of the Kalinga edicts, especially the phrase \"All men are my children\", reveals a shift from militaristic expansion to ethical kingship, influencing subsequent Indian political ideology and serving as a benchmark for comparative studies of ancient South Asian statecraft.",
+    "revision_priority": "High",
+    "confidence_score": 0.95,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Kushan Empire",
+    "subchapter": "Capitals and Rulers",
+    "topic": "Kushan Empire - Capitals and Rulers",
+    "subtopic": "Administrative Centers and Key Monarchs",
+    "master_notes": "The Kushan Empire established a dual-capital system to manage its vast territory spanning modern-day Afghanistan, Pakistan, and northern India. Purushapura (modern Peshawar) served as the first and primary capital, functioning as the administrative and military headquarters. Mathura was designated as the second capital, crucial for controlling the fertile Gangetic plains and the Indo-Gangetic Doab. Kanishka I, the greatest Kushan ruler, assumed the title 'Devputra' (Son of God), signifying divine kingship. The Rabatak Inscription discovered in Afghanistan provides critical epigraphic evidence about Kanishka's lineage, titles, and the empire's extent. The empire controlled vital sections of the Silk Route, facilitating trade between Rome, Central Asia, and China. Kanishka extended significant patronage to Buddhism, supporting missionary activities and the Gandhara School of Art. Vasudeva I is traditionally regarded as the last major Kushan king, marking the beginning of the empire's fragmentation.",
+    "revision_notes": "First Capital: Purushapura (Peshawar); Second Capital: Mathura; Key Ruler: Kanishka I (title: Devputra); Important Inscription: Rabatak (Afghanistan); Trade: Silk Route control; Religion: Buddhism patronage; Last King: Vasudeva I.",
+    "one_liner_notes": [
+      "Purushapura was the first capital, Mathura the second capital of the Kushan Empire.",
+      "Kanishka I took the title 'Devputra' (Son of God).",
+      "Rabatak Inscription in Afghanistan records Kushan genealogy and titles.",
+      "The empire controlled the Silk Route, boosting trade.",
+      "Vasudeva I was the last significant Kushan ruler."
+    ],
+    "key_facts": [
+      "Purushapura (Peshawar) served as the primary capital.",
+      "Mathura functioned as the second capital.",
+      "Kanishka I assumed the title Devputra.",
+      "Rabatak Inscription found in Afghanistan provides historical details.",
+      "Silk Route control enhanced economic prosperity.",
+      "Buddhism received royal patronage under Kanishka.",
+      "Vasudeva I is considered the last king of the dynasty."
+    ],
+    "definitions": [
+      {
+        "term": "Devputra",
+        "exact_meaning": "Son of God",
+        "simplified_explanation": "Title assumed by Kanishka I to signify divine origin and absolute authority"
+      },
+      {
+        "term": "Rabatak Inscription",
+        "exact_meaning": "Stone inscription documenting Kushan royal lineage",
+        "simplified_explanation": "Discovered in Afghanistan, it mentions Kanishka and his ancestors, confirming historical dates"
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Kushan Capitals Comparison",
+        "content": "| Capital | Location | Role |\n|---------|----------|------|\n| Purushapura | Peshawar, Pakistan | First/Primary capital, administrative center |\n| Mathura | Uttar Pradesh, India | Second capital, cultural and trade hub |"
+      },
+      {
+        "title": "Key Kushan Rulers",
+        "content": "| Ruler | Significance |\n|-------|-------------|\n| Kanishka I | Took title Devputra, patron of Buddhism, 4th Buddhist Council |\n| Vasudeva I | Last major king of the dynasty |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Kushan Empire Capital Locations",
+        "description": "Map showing Purushapura in northwest near Khyber Pass and Mathura in north-central India, connected by trade routes",
+        "labels": [
+          "Purushapura",
+          "Mathura",
+          "Silk Route",
+          "Gangetic Plain"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Kanishka I accession",
+        "date": "78 CE",
+        "description": "Beginning of Kanishka's reign, assumption of Devputra title"
+      },
+      {
+        "event": "Vasudeva I reign",
+        "date": "191-225 CE",
+        "description": "Last significant Kushan ruler, empire begins to fragment"
+      }
+    ],
+    "comparison_tables": [
+      {
+        "title": "First vs Second Capital",
+        "content": "| Feature | Purushapura | Mathura |\n|---------|-------------|---------|\n| Location | Peshawar | Uttar Pradesh |\n| Function | Military/Administrative | Cultural/Trade |\n| Strategic Importance | Gateway to Central Asia | Control over Gangetic plain |"
+      }
+    ],
+    "mnemonics": [
+      "P-M-D-S-B-V: Purushapura-Mathura-Devputra-Rabatak-Silk-Buddhism-Vasudeva"
+    ],
+    "common_exam_traps": [
+      "Confusing Purushapura as second capital and Mathura as first",
+      "Assuming Vasudeva was the absolute last ruler (dynasty continued in reduced form)",
+      "Mixing Kushan capitals with Gupta capitals (Pataliputra)",
+      "Forgetting that Rabatak inscription is in Afghanistan, not India"
+    ],
+    "previous_year_links": [
+      "NDA 2019: Question on Kushan capitals",
+      "CDS 2020: Question on Kanishka's title",
+      "AFCAT 2021: Question on Silk Route empires"
+    ],
+    "related_topics": [
+      "Gandhara School of Art",
+      "Silk Route Trade",
+      "Gupta Empire Capitals",
+      "Satavahana Dynasty",
+      "4th Buddhist Council"
+    ],
+    "search_keywords": [
+      "Kushan Empire",
+      "Kanishka",
+      "Mathura capital",
+      "Purushapura",
+      "Devputra",
+      "Rabatak inscription",
+      "Vasudeva",
+      "Silk Route",
+      "Buddhism Kushan"
+    ],
+    "beginner_explanation": "The Kushan Empire had two main cities as capitals: Peshawar (Purushapura) was the first capital, and Mathura was the second. King Kanishka took the title 'Devputra' meaning Son of God. An inscription called Rabatak found in Afghanistan tells us about his rule. They controlled the Silk Route trade road and supported Buddhism.",
+    "intermediate_explanation": "The Kushan dynasty established a strategic dual-capital system: Purushapura (Peshawar) served as the primary administrative and military hub near the Khyber Pass, while Mathura functioned as the second capital controlling the rich Gangetic plains. Kanishka I assumed the title Devputra (Son of God), as documented in the Rabatak Inscription discovered in Afghanistan. This inscription provides crucial evidence about the dynasty's lineage and dates. The empire's control over the Silk Route facilitated trade between Rome, Central Asia, and China, while royal patronage to Buddhism promoted the Gandhara School of Art. Vasudeva I is traditionally considered the last major Kushan ruler.",
+    "advanced_explanation": "The Kushan dual-capital arrangement reflects sophisticated imperial administration: Purushapura (Peshawar) managed northwestern frontiers and Central Asian trade, while Mathura controlled the Indo-Gangetic heartland. Kanishka I's adoption of the title Devputra represents the fusion of Iranian and Indian kingship concepts, corroborated by the Rabatak Inscription (c. 130 CE) which lists his ancestors. The empire's monopoly over Silk Route segments generated immense wealth, enabling patronage of Buddhism and the Gandhara Greco-Buddhist art style. Vasudeva I's reign (c. 191-225 CE) marks the terminal phase; while often called the 'last king,' the dynasty actually fragmented into smaller kingdoms afterward. Exam note: The distinction between 'last major ruler' and 'last king' is frequently tested.",
+    "revision_priority": "High",
+    "confidence_score": 0.9,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Impact of Central Asian Contacts",
+    "subchapter": "",
+    "topic": "Impact of Central Asian Contacts",
+    "subtopic": "Shakas and Kushans",
+    "master_notes": "The Shakas and Kushans, Central Asian tribes, significantly impacted Indian culture, military, attire, coinage, administration, and art. They adopted Indian scripts and organized religion due to having none of their own. In cavalry, they used toe stirrups, reins, and saddles. They introduced attire like turbans, tunics, trousers, heavy long coats, caps, helmets, and boots. The Kushans were the first rulers in India to issue gold coins on a large scale. Their rule saw the beginning of feudatory organization. To legitimize royal authority and divine kingship, Kushans adopted pompous titles and introduced the Satrap System, which involved hereditary dual rule where father and son jointly ruled. This period led to the rise of the Gandhara and Mathura schools of art.",
+    "revision_notes": "Key points: Shakas and Kushans adopted Indian culture; introduced cavalry equipment and attire; Kushans issued first gold coins; began feudatory organization; used pompous titles and Satrap System; promoted Gandhara and Mathura art.",
+    "one_liner_notes": [
+      "Shakas and Kushans adopted Indian script and religion.",
+      "They introduced cavalry equipment like toe stirrups and saddles.",
+      "They brought new attire including turbans, tunics, and boots.",
+      "Kushans were the first to issue gold coins in large numbers.",
+      "Their rule initiated feudatory organization.",
+      "Kushans adopted pompous titles to emphasize divine kingship.",
+      "They introduced the Satrap System with hereditary dual rule.",
+      "Their era saw the development of Gandhara and Mathura art schools."
+    ],
+    "key_facts": [
+      "Shakas and Kushans had no own script or organized religion, adopted from India.",
+      "Used toe stirrups, reins, and saddles in cavalry.",
+      "Introduced turban, tunics, trousers, heavy long coat, cap, helmet, and boots.",
+      "Kushans were first in India to issue gold coins on a large scale.",
+      "Rule saw beginning of feudatory organization.",
+      "Kushans adopted pompous titles to legitimize royal authority.",
+      "Introduced Satrap System: hereditary dual rule (father & son jointly ruled).",
+      "Led to rise of Gandhara and Mathura schools of art."
+    ],
+    "definitions": [
+      {
+        "term": "Satrap System",
+        "exact_meaning": "A system of hereditary dual rule where father and son jointly ruled at the same time.",
+        "simplified_explanation": "A governance model where rule was shared between father and son in a hereditary manner."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Impact of Shakas and Kushans",
+        "content": "| Aspect | Impact |\n|--------|--------|\n| Script and Religion | Adopted from India due to having none of their own. |\n| Military | Used toe stirrups, reins, and saddles in cavalry. |\n| Attire | Introduced turban, tunics, trousers, heavy long coat, cap, helmet, and boots. |\n| Coinage | Kushans were the first rulers in India to issue gold coins on a large scale. |\n| Administration | Began feudatory organization; introduced Satrap System with hereditary dual rule. |\n| Art | Led to the rise of Gandhara and Mathura schools of art. |"
+      }
+    ],
+    "diagram_descriptions": [],
+    "timelines": [],
+    "comparison_tables": [],
+    "mnemonics": [
+      "S-K: Adopt, Equip, Clothe, Coin, Feudal, Title, Satrap, Art"
+    ],
+    "common_exam_traps": [
+      "Confusing the Kushans with other dynasties like Mauryas or Guptas as the first to issue gold coins in India; actually, it was the Kushans."
+    ],
+    "previous_year_links": [],
+    "related_topics": [],
+    "search_keywords": [
+      "Shakas",
+      "Kushans",
+      "Central Asian contacts",
+      "gold coins",
+      "Satrap System",
+      "Gandhara art",
+      "Mathura art",
+      "feudatory organization"
+    ],
+    "beginner_explanation": "The Shakas and Kushans were groups from Central Asia who came to India. They didn't have their own writing or beliefs, so they learned from Indians. They brought new things for fighting, like stirrups for horses, and new clothes like turbans and boots. The Kushans were the first to make gold coins in big numbers. They also started a way of ruling where kings shared power with their sons, and this helped art to grow in places like Gandhara and Mathura.",
+    "intermediate_explanation": "Central Asian contacts under the Shakas and Kushans led to significant cultural and administrative exchanges in India. Lacking their own script and religion, they adopted Indian systems, which enriched Indian culture. Militarily, they introduced innovations like toe stirrups and saddles, enhancing cavalry effectiveness. Their attire, including tunics and trousers, influenced Indian fashion. The Kushans pioneered large-scale gold coinage, boosting trade and economy. Administratively, they initiated feudatory structures and the Satrap System, where hereditary dual rule was practiced. This period also fostered the development of distinct art schools in Gandhara and Mathura, reflecting syncretic influences.",
+    "advanced_explanation": "The impact of Central Asian contacts via the Shakas and Kushans marks a crucial phase in Indian history, illustrating the integration of foreign elements into indigenous systems. The adoption of Indian scripts and religion by these tribes highlights the adaptability of Indian culture. Military advancements, such as cavalry equipment, improved warfare capabilities. The Kushans' introduction of gold coins standardized economy and trade. The Satrap System and feudatory organization laid early foundations for feudalism, influencing later political structures. The flourishing of Gandhara and Mathura art signifies a blend of Greek and Indian styles, underscoring the syncretic nature of this era.",
+    "revision_priority": "High",
+    "confidence_score": 85,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Gandhara/ Greco- Roman School of Art",
+    "subchapter": "Ancient Indian Art",
+    "topic": "Gandhara/ Greco- Roman School of Art",
+    "subtopic": "Origin and Influences",
+    "master_notes": "The Gandhara School of Art, also known as the Greco-Roman School of Art, is an ancient Indian art style that originated in the northwestern region of the Indian subcontinent (modern-day Pakistan and Afghanistan) due to Central Asian contacts and Hellenistic influence. This school flourished from the 1st century BCE to the 5th century CE, particularly under the patronage of the Kushan Empire, with King Kanishka being a major patron. The art form represents a fusion of Greek and Roman stylistic elements with traditional Indian themes. Key characteristics include realistic anatomical depictions, curly hair, serene facial expressions, and heavy drapery reminiscent of Roman toga. The school primarily produced Buddhist sculptures using materials such as grey schist, stucco, and terracotta. Major centers included Taxila, Peshawar, and the Swat Valley. The Gandhara School played a significant role in the development of Buddhist art along the Silk Road and influenced subsequent art traditions in Central and East Asia. It was eventually succeeded by the Mathura School of Art, which developed a distinct style with different characteristics.",
+    "revision_notes": "\u2022 Gandhara School = Greco-Roman School of Art\n\u2022 Origin: Northwestern India (Pakistan/Afghanistan), Central Asian contacts, Hellenistic influence\n\u2022 Period: 1st century BCE to 5th century CE\n\u2022 Patronage: Kushan Empire, especially King Kanishka\n\u2022 Characteristics: Realistic anatomy, curly hair, heavy drapery, Buddhist themes\n\u2022 Materials: Grey schist, stucco, terracotta\n\u2022 Major centers: Taxila, Peshawar, Swat Valley\n\u2022 Influence: Spread along Silk Road to Central/East Asian art\n\u2022 Successor: Mathura School of Art",
+    "one_liner_notes": [
+      "Gandhara School of Art is also called the Greco-Roman School of Art.",
+      "It originated due to Central Asian contacts and Hellenistic influence.",
+      "It flourished from 1st century BCE to 5th century CE under the Kushan Empire.",
+      "It is known for realistic Buddhist sculptures with Greek stylistic elements.",
+      "Major centers included Taxila, Peshawar, and Swat Valley."
+    ],
+    "key_facts": [
+      "The Gandhara School of Art is also known as the Greco-Roman School of Art.",
+      "It originated as a result of Central Asian contacts and Hellenistic influence on Indian art.",
+      "It flourished in the northwestern region of the Indian subcontinent (modern Pakistan and Afghanistan).",
+      "The school was patronized by the Kushan Empire, particularly King Kanishka.",
+      "It produced Buddhist sculptures with realistic anatomy, curly hair, and heavy drapery.",
+      "Key materials used include grey schist, stucco, and terracotta.",
+      "Major centers of the school were Taxila, Peshawar, and the Swat Valley.",
+      "The art form influenced Buddhist art along the Silk Road and spread to Central and East Asia.",
+      "It was eventually succeeded by the Mathura School of Art."
+    ],
+    "definitions": [
+      {
+        "term": "Gandhara School of Art",
+        "exact_meaning": "An ancient Indian art school that flourished in the northwestern region, known for its Buddhist sculptures with Hellenistic (Greek) influences.",
+        "simplified_explanation": "A style of ancient Indian sculpture that mixed Greek and Indian artistic traditions, creating Buddhist images."
+      },
+      {
+        "term": "Greco-Roman School of Art",
+        "exact_meaning": "An alternative name for the Gandhara School of Art, emphasizing its strong Greek and Roman stylistic influences.",
+        "simplified_explanation": "Another name for the Gandhara School, highlighting its Greek and Roman-inspired art style."
+      },
+      {
+        "term": "Hellenistic influence",
+        "exact_meaning": "The influence of Greek culture, art, and techniques that spread beyond Greece due to Alexander the Great's conquests and subsequent interactions.",
+        "simplified_explanation": "Greek artistic and cultural influence that reached India and affected local art styles."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Characteristics of Gandhara School of Art",
+        "content": "| Feature | Description |\n|---------|-------------|\n| Origin | Northwestern Indian subcontinent (modern Pakistan/Afghanistan) |\n| Time Period | 1st century BCE to 5th century CE |\n| Patronage | Kushan Empire, especially King Kanishka |\n| Style | Fusion of Greek/Roman and Indian elements |\n| Themes | Primarily Buddhist (Buddha, Bodhisattvas) |\n| Materials | Grey schist, stucco, terracotta |\n| Key Features | Realistic anatomy, curly hair, serene expressions, heavy drapery |\n| Major Centers | Taxila, Peshawar, Swat Valley |\n| Influence | Spread along Silk Road to Central and East Asia |\n| Successor | Mathura School of Art |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Famous Gandhara Sculpture: Standing Buddha",
+        "description": "A typical Gandhara sculpture depicting the Buddha standing with a serene expression, curly hair, and heavy drapery reminiscent of a Roman toga. The realistic anatomy and proportions reflect Greek artistic influence.",
+        "labels": [
+          "Buddha",
+          "Drapery (toga-like)",
+          "Curly hair",
+          "Serene expression"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Origin of Gandhara School",
+        "date": "1st century BCE",
+        "description": "The school originated as a result of Central Asian contacts and Hellenistic influence on Indian art."
+      },
+      {
+        "event": "Flourishing under Kushan Empire",
+        "date": "1st to 3rd century CE",
+        "description": "The school reached its peak under the patronage of King Kanishka and the Kushan Empire."
+      },
+      {
+        "event": "Spread along Silk Road",
+        "date": "2nd to 5th century CE",
+        "description": "Buddhist sculptures from Gandhara influenced art in Central and East Asia."
+      },
+      {
+        "event": "Decline and succession",
+        "date": "5th century CE",
+        "description": "The school declined and was succeeded by the Mathura School of Art."
+      }
+    ],
+    "comparison_tables": [
+      {
+        "title": "Comparison: Gandhara vs Mathura School of Art",
+        "content": "| Aspect | Gandhara School | Mathura School |\n|--------|----------------|----------------|\n| Location | Northwestern India (Pakistan/Afghanistan) | Central India (Uttar Pradesh) |\n| Influence | Greek and Roman (Hellenistic) | Indigenous Indian style |\n| Material | Grey schist, stucco | Red sandstone |\n| Subject | Buddha, Bodhisattvas | Buddha, Yakshas, Yakshis |\n| Style | Realistic, heavy drapery | Robust, dynamic figures |\n| Hair | Curly | Spiral |\n| Time Period | 1st century BCE - 5th century CE | 1st century BCE - 3rd century CE |"
+      }
+    ],
+    "mnemonics": [
+      "G.R.E.E.K. = Greek influence, Realistic style, Eastern India origin, Extraordinary drapery, Kushan patronage"
+    ],
+    "common_exam_traps": [
+      "Confusing Gandhara School with Mathura School of Art (different regions, materials, and styles).",
+      "Forgetting that Gandhara is also called the Greco-Roman School of Art.",
+      "Misidentifying the time period (it is 1st century BCE to 5th century CE, not later).",
+      "Thinking it was only in India; it actually spanned modern Pakistan and Afghanistan."
+    ],
+    "previous_year_links": [
+      "MCQ: The Gandhara School of Art is also known by which of the following names? Options: Indo-Persian School of Art, Greco-Roman School of Art, Dravidian School of Art, Indo-Islamic School of Art. Correct answer: Greco-Roman School of Art."
+    ],
+    "related_topics": [
+      "Mathura School of Art",
+      "Kushan Empire",
+      "King Kanishka",
+      "Buddhist Art",
+      "Silk Road",
+      "Hellenistic influence",
+      "Ancient Indian Sculpture"
+    ],
+    "search_keywords": [
+      "Gandhara School",
+      "Greco-Roman Art",
+      "Buddhist sculpture",
+      "Kushan Empire",
+      "Taxila",
+      "Peshawar",
+      "Hellenistic influence",
+      "Ancient Indian art"
+    ],
+    "beginner_explanation": "The Gandhara School of Art was an ancient style of sculpture that mixed Greek and Indian artistic traditions. It started in the northwestern part of India (now Pakistan and Afghanistan) because of interactions between Central Asian traders and the local people. The artists made beautiful statues of Buddha and other Buddhist figures, using realistic features like curly hair and clothing that looked like Roman togas. This art style was popular from about 200 BCE to 500 CE and was supported by the Kushan kings.",
+    "intermediate_explanation": "The Gandhara School of Art, also called the Greco-Roman School, emerged in the 1st century BCE in the region of Gandhara (modern northwestern Pakistan and southern Afghanistan). It was a product of cultural exchange between the Hellenistic world (influenced by Alexander the Great's conquests) and Indian civilization. The school is renowned for its Buddhist sculptures, which exhibit a unique blend of Western realism and Indian spiritual expression. Key characteristics include anatomical accuracy, curly hair, almond-shaped eyes, and heavy, realistic drapery. The primary material was grey schist, but stucco and terracotta were also used. Major centers like Taxila and Peshawar became hubs of artistic production. The school's influence extended along the Silk Road, impacting art in Central Asia, China, and beyond. It declined around the 5th century CE, giving way to the Mathura School, which had a more indigenous Indian style.",
+    "advanced_explanation": "The Gandhara School of Art represents a significant case study in cross-cultural artistic synthesis. Originating from the Hellenistic legacy left by Alexander the Great's conquests and the subsequent Indo-Greek kingdoms, the school developed in the frontier region between the Central Asian steppes and the Indian subcontinent. This liminal space facilitated a unique fusion of classical Greco-Roman naturalism with indigenous Indian iconographic traditions. The school's output, primarily Buddhist, reflects a syncretic religious context where Greek deities were sometimes equated with Buddhist bodhisattvas (e.g., Heracles as Vajrapani). Technically, the Gandhara artists excelled in modeling human form with attention to musculature and drapery folds, reminiscent of Roman sculpture, but adapted these techniques to depict Buddhist narratives. The school's decline coincided with the rise of Hindu and Buddhist iconoclasm in the region and the shift of artistic centers eastward. Its legacy is evident in the art of the Silk Road and the development of East Asian Buddhist art, particularly in China and Japan. The study of Gandhara art also provides insights into the transmission of Buddhist doctrines and the role of art in religious propagation across continents.",
+    "revision_priority": "High",
+    "confidence_score": 0.9,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "Art and Culture",
+    "chapter": "Indian Art and Architecture",
+    "subchapter": "Ancient Indian Art",
+    "topic": "Mathura School of Art",
+    "subtopic": null,
+    "master_notes": "The Mathura School of Art represents a pivotal phase in ancient Indian art, particularly in the evolution of Buddhist iconography. Its initial development can be traced back to the Shunga period, with its distinct style and prominence emerging around the 1st century AD. The school subsequently reached its zenith during the glorious Gupta period.\n\nA defining characteristic of the Mathura School was its primary use of **red sandstone** for sculptural works. This material contributed to the unique aesthetic of its creations.\n\nOne of the most significant contributions of this school was the pioneering of **anthropomorphic (human-form) representations of Buddha**. This marked a substantial departure from earlier Buddhist art, where Buddha was typically depicted symbolically through aniconic motifs such as two footprints or a wheel, as seen at sites like Sanchi, Bharhut, and Gaya. Mathura sculptures of Buddha are renowned for portraying him in a profound spiritual state, often characterized by eyes half-closed in deep meditation, conveying a sense of inner peace and enlightenment.",
+    "revision_notes": "Mathura School of Art: Developed during Shunga period, prominent by 1st Century AD, zenith in Gupta period. Primarily used red sandstone. Pioneered anthropomorphic Buddha images, depicting him in a spiritual, meditative state with half-closed eyes, a shift from earlier symbolic representations (footprints/wheels).",
+    "one_liner_notes": [
+      "Mathura School of Art developed during the Shunga period and became prominent around 1st Century AD.",
+      "It reached its artistic zenith during the Gupta period.",
+      "Red sandstone was the primary material used in the Mathura School of Art.",
+      "Famous for anthropomorphic Buddha depictions, showing him in a spiritual state with half-closed, meditative eyes.",
+      "Represented a shift from symbolic Buddha representations (footprints, wheels) seen at sites like Sanchi, Bharhut, Gaya."
+    ],
+    "key_facts": [
+      "**Period of Development:** Initial development during the Shunga period, prominent by the 1st century AD, and reached its zenith during the Gupta period.",
+      "**Primary Material:** Exclusively used **red sandstone** for its sculptures.",
+      "**Buddha's Depiction:** Known for portraying Buddha in a spiritual state, with eyes often half-closed in meditation.",
+      "**Iconographic Shift:** Pioneered the anthropomorphic (human-form) representation of Buddha, moving away from earlier symbolic depictions (e.g., footprints, wheels) found at sites like Sanchi, Bharhut, and Gaya."
+    ],
+    "definitions": [
+      {
+        "term": "Mathura School of Art",
+        "exact_meaning": "An ancient Indian art style that flourished in and around Mathura, known for its distinctive sculptural representations, particularly of the Buddha, during the early centuries AD.",
+        "simplified_explanation": "An early Indian art style from Mathura, famous for its sculptures, especially its human-like statues of Buddha, using red sandstone."
+      },
+      {
+        "term": "Anthropomorphic",
+        "exact_meaning": "Attributing human characteristics or form to non-human entities, such as deities or animals.",
+        "simplified_explanation": "Representing something (like a god) in human shape."
+      }
+    ],
+    "formulae": [],
+    "tables": [],
+    "diagram_descriptions": [],
+    "timelines": [
+      {
+        "event": "Initial Development Phase of Mathura School",
+        "date": "Shunga Period",
+        "description": "The period during which the Mathura School of Art began its development and established its early characteristics."
+      },
+      {
+        "event": "Prominence and Emergence of Distinct Style",
+        "date": "1st Century AD",
+        "description": "The period when the Mathura School of Art, particularly its anthropomorphic Buddha depictions, became widely recognized and influential."
+      },
+      {
+        "event": "Zenith of Mathura School",
+        "date": "Gupta Period",
+        "description": "The period when the Mathura School of Art reached its peak artistic excellence and produced some of its finest works."
+      }
+    ],
+    "comparison_tables": [],
+    "mnemonics": [],
+    "common_exam_traps": [
+      "Confusing the primary material (red sandstone) of the Mathura School with materials used in other contemporary art schools (e.g., grey schist in Gandhara).",
+      "Incorrectly identifying the period of its zenith or initial development, especially regarding the Shunga and Gupta periods.",
+      "Misunderstanding the significance of the shift from symbolic to anthropomorphic representation of Buddha, and the sites associated with each type of representation."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Gandhara School of Art",
+      "Amaravati School of Art",
+      "Buddhist Architecture (Stupas, Chaityas)",
+      "Gupta Art and Architecture",
+      "Early Buddhist Art"
+    ],
+    "search_keywords": [
+      "Mathura School of Art",
+      "Indian Art",
+      "Buddhist Art",
+      "Red Sandstone",
+      "Gupta Period Art",
+      "Shunga Period Art",
+      "Buddha Iconography",
+      "Anthropomorphic Buddha",
+      "Ancient Indian Sculpture",
+      "Art History India"
+    ],
+    "beginner_explanation": "The Mathura School of Art was an important style of art in ancient India, starting around the 1st century AD. It's famous for making sculptures, especially statues of Buddha. Instead of showing Buddha with symbols like footprints, this school started making human-like statues of him. They mostly used a material called red sandstone. The Buddha statues often looked very peaceful, with eyes half-closed as if meditating.",
+    "intermediate_explanation": "The Mathura School of Art emerged around the 1st century AD, with its roots in the Shunga period and reaching its peak during the Gupta period. A defining characteristic was the extensive use of red sandstone. This school played a pivotal role in the evolution of Buddhist art by pioneering the anthropomorphic (human-form) representation of Buddha. Prior to this, Buddha was often depicted symbolically through motifs like footprints or a wheel at sites such as Sanchi, Bharhut, and Gaya. Mathura sculptures portrayed Buddha in a spiritual, meditative state, typically with half-closed eyes, conveying deep inner calm and enlightenment.",
+    "advanced_explanation": "The Mathura School of Art, flourishing from the 1st century AD, represents a crucial indigenous development in Indian sculptural traditions. While its initial phase is linked to the Shunga period, its artistic zenith was achieved under the Gupta Empire, influencing subsequent artistic expressions. The school's preference for locally quarried red sandstone contributed to its distinctive aesthetic. Its most significant contribution was the development of a fully anthropomorphic Buddha image, characterized by a robust physique, a spiritual countenance with half-closed meditative eyes, and a sense of inner tranquility, marking a definitive departure from the aniconic representations prevalent in earlier Buddhist art.",
+    "revision_priority": "High",
+    "confidence_score": 5,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Sangam Age & Chera Dynasty",
+    "subchapter": "Early South Indian Kingdoms",
+    "topic": "Sangam Age and Chera Dynasty",
+    "subtopic": "Overview, The Three Sangams, Sources, and Cheras",
+    "master_notes": "### Sangam Age: An Overview\n\nThe Sangam Age refers to the period in ancient South Indian history (roughly 3rd Century BCE to 3rd Century CE) characterized by the flourishing of Tamil literature and culture. The term 'Sangam' literally means an assembly or congregation, specifically referring to the academies of Tamil poets and scholars that flourished under the patronage of the Pandya kings.\n\n*   **Geographical Extent:** The region south of the Krishna River.\n*   **Major Kingdoms:** Three prominent kingdoms dominated this era: the **Pandyas**, **Cholas**, and **Cheras**.\n\n### The Three Sangams\n\nLegend speaks of three Sangams (assemblies of Tamil poets) held in ancient South India, primarily under the patronage of the Pandya rulers. These gatherings were crucial for the development of Tamil literature. For details, refer to the 'The Three Sangams' table below.\n\n### Sources for the Sangam Age\n\nOur understanding of the Sangam Age is derived from a combination of indigenous and external sources:\n\n1.  **Sangam Literature:** The vast body of Tamil poetic works produced during this period (e.g., Tolkappiyam, Ettuthogai, Pattupattu, Pathinenkilkanakku).\n2.  **Ashokan Inscriptions:** Inscriptions of Emperor Ashoka (3rd century BCE) mention the Cheras, Cholas, Pandyas, and Satyaputras as independent kingdoms bordering his empire to the south.\n3.  **Megasthenes:** The Greek ambassador to the Mauryan court, in his work 'Indica', provides some accounts that indirectly shed light on the southern kingdoms.\n\n### The Chera Dynasty\n\nThe Cheras were one of the three major ruling dynasties of the Sangam Age, alongside the Cholas and Pandyas.\n\n*   **Alternative Name:** They were also known as **Kerala Putras**.\n*   **Territory:** Their kingdom primarily occupied the present-day state of Kerala and parts of western Tamil Nadu.",
+    "revision_notes": "The Sangam Age (South of Krishna River) featured three kingdoms: Pandyas, Cholas, Cheras. 'Sangam' means meeting of Tamil poets. Three Sangams were held: First (Old Madurai, no literature), Second (Kapatpuram, *Tolkappiyam* only surviving work), Third (Madurai). Sources include Sangam Literature, Ashokan Inscriptions, and Megasthenes. Cheras were also called Kerala Putras, ruling present-day Kerala and parts of Tamil Nadu.",
+    "one_liner_notes": [
+      "The Sangam Age was dominated by three kingdoms: Pandyas, Cholas, and Cheras, located south of the Krishna River.",
+      "The term 'Sangam' refers to the ancient assemblies of Tamil poets and scholars.",
+      "Three Sangams were held: First (Old Madurai), Second (Kapatpuram/Kapadapuram), and Third (Madurai).",
+      "*Tolkappiyam* is the only surviving literary work from the Second Sangam.",
+      "Key sources for the Sangam Age include Sangam Literature, Ashokan Inscriptions, and Megasthenes' accounts.",
+      "The Chera Dynasty was also known by the name 'Kerala Putras'.",
+      "The Chera kingdom covered present-day Kerala and parts of Tamil Nadu."
+    ],
+    "key_facts": [
+      "The Sangam Age flourished in South India, south of the Krishna River.",
+      "The three major kingdoms of the Sangam Age were the Pandyas, Cholas, and Cheras.",
+      "The First Sangam, held at Old Madurai, has no surviving literary sources.",
+      "The Second Sangam, held at Kapatpuram/Kapadapuram, is notable for *Tolkappiyam*, its only surviving literary work.",
+      "The Third Sangam was held at Madurai.",
+      "Ashokan Inscriptions and Megasthenes provide external corroboration for the existence of these southern kingdoms.",
+      "The Cheras were historically referred to as 'Kerala Putras'."
+    ],
+    "definitions": [
+      {
+        "term": "Sangam",
+        "exact_meaning": "An assembly or congregation, specifically referring to the ancient academies of Tamil poets and scholars that flourished in South India.",
+        "simplified_explanation": "A historical gathering of Tamil poets and scholars in ancient South India, often patronized by kings, where literature was composed and discussed."
+      },
+      {
+        "term": "Kerala Putras",
+        "exact_meaning": "Sons of Kerala or Chera. An ancient designation for the Chera rulers or their people, indicating their territorial association.",
+        "simplified_explanation": "An alternative historical name for the Chera dynasty, linking them to the region that largely corresponds to modern-day Kerala."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "The Three Sangams",
+        "content": "| Sangam | Location | Key Feature / Literary Work |\n|---|---|---|\n| First Sangam | Old Madurai | Believed to be attended by Gods & legendary sage; No literary sources available. |\n| Second Sangam | Kapatpuram / Kapadapuram | Attended by a large number of poets; *Tolkappiyam* is the only surviving literary work. |\n| Third Sangam | Madurai | - |\n"
+      }
+    ],
+    "diagram_descriptions": [],
+    "timelines": [],
+    "comparison_tables": [],
+    "mnemonics": [],
+    "common_exam_traps": [
+      "Confusing the surviving literary works from different Sangams. Remember, *Tolkappiyam* is exclusively from the Second Sangam, and no literary works survive from the First Sangam.",
+      "Incorrectly identifying the location of each of the three Sangams.",
+      "Misattributing the 'Kerala Putras' title to a dynasty other than the Cheras."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Pandyas of Sangam Age",
+      "Cholas of Sangam Age",
+      "Sangam Literature Classification",
+      "Ashokan Edicts and South India",
+      "Megasthenes' Indica and Indian Geography"
+    ],
+    "search_keywords": [
+      "Sangam Age",
+      "Chera Dynasty",
+      "Kerala Putras",
+      "Three Sangams",
+      "Tolkappiyam",
+      "Old Madurai",
+      "Kapatpuram",
+      "Madurai",
+      "Pandyas",
+      "Cholas",
+      "Ashokan Inscriptions",
+      "Megasthenes",
+      "South Indian Kingdoms",
+      "Ancient Kerala",
+      "Tamil Poets",
+      "Sangam Literature Sources"
+    ],
+    "beginner_explanation": "The Sangam Age was an important period in ancient South India, south of the Krishna River. It was a time when three main kingdoms \u2013 the Pandyas, Cholas, and Cheras \u2013 were powerful. The word 'Sangam' means a gathering, and it refers to three big meetings of Tamil poets and scholars. From these meetings, a lot of Tamil literature was created, though only one book, *Tolkappiyam*, survives from the Second Sangam. The Cheras, also known as Kerala Putras, were one of these kingdoms, ruling parts of today's Kerala and Tamil Nadu.",
+    "intermediate_explanation": "The Sangam Age, spanning roughly from the 3rd century BCE to the 3rd century CE, marks a significant epoch in the history of peninsular India, specifically the region south of the Krishna River. This era is defined by the prominence of three powerful Tamil kingdoms: the Pandyas, Cholas, and Cheras, and the flourishing of Tamil literature through three legendary 'Sangams' or literary academies. While the First Sangam (Old Madurai) has no surviving texts, the Second Sangam (Kapatpuram) yielded *Tolkappiyam*, an important work on Tamil grammar and poetics. The Third Sangam was held in Madurai. Historical sources for this period include the extensive Sangam literature itself, as well as external references from Ashokan inscriptions and Megasthenes' 'Indica'. The Chera dynasty, known as 'Kerala Putras', controlled the western coastal region, encompassing modern-day Kerala and parts of western Tamil Nadu, playing a crucial role in trade and cultural exchange.",
+    "advanced_explanation": "The Sangam Age represents a foundational period in South Indian history, characterized by a unique socio-political structure and a rich literary tradition. The three crown-headed monarchs\u2014the Cheras, Cholas, and Pandyas\u2014exercised suzerainty over distinct geographical domains south of the Krishna River, often engaging in internecine warfare as depicted in Sangam poetry. The concept of 'Sangam' as a literary academy, particularly under Pandya patronage, is central to understanding the cultural output, with the *Tolkappiyam* from the Second Sangam serving as a critical linguistic and literary treatise. The historicity of the Sangams is supported by a confluence of archaeological evidence, numismatics, and external accounts from Greco-Roman sources and Mauryan inscriptions, which refer to these kingdoms as independent entities. The Cheras, identified as 'Kerala Putras', controlled the strategically important Malabar Coast, facilitating maritime trade with the Roman Empire and contributing significantly to the region's economic prosperity and cultural distinctiveness, as evidenced by their coinage and port cities like Muziris. Understanding the intricate interplay between these kingdoms, their patronage of arts, and their engagement with broader Indian and international networks is crucial for a comprehensive grasp of early South Indian history.",
+    "revision_priority": "High",
+    "confidence_score": 5,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Classification of Organisms",
+    "subchapter": "Biological Classification",
+    "topic": "Classification of Organisms",
+    "subtopic": "Five Kingdom Classification System",
+    "master_notes": "The Five Kingdom Classification system, proposed by R.H. Whittaker in 1969, categorizes all living organisms based on fundamental characteristics such as cell structure, cellularity (number of cells), and mode of nutrition. This system divides life into five major kingdoms:\n\n1.  **Kingdom Monera:**\n    *   Comprises all **unicellular prokaryotic** organisms.\n    *   **Prokaryotes** are characterized by the absence of a membrane-bound nucleus and other membrane-bound organelles.\n    *   Examples include bacteria, cyanobacteria (blue-green algae), and mycoplasma.\n\n2.  **Kingdom Protista:**\n    *   Includes all **unicellular eukaryotic** organisms.\n    *   **Eukaryotes** possess complex cells with a well-defined, membrane-bound nucleus and other membrane-bound organelles.\n    *   They exhibit diverse modes of nutrition, including photosynthetic (e.g., diatoms), heterotrophic (e.g., amoeba), and saprophytic.\n    *   Examples include amoeba, paramecium, euglena, and diatoms.\n\n3.  **Kingdom Fungi:**\n    *   Consists of **multicellular eukaryotic** organisms (with some exceptions like unicellular yeast).\n    *   Characterized by the presence of a **cell wall** (made of chitin, not cellulose).\n    *   They are **non-photosynthetic** and primarily **heterotrophic**, obtaining nutrients as saprophytes (decomposers) or parasites.\n    *   Examples include mushrooms, molds, and yeasts.\n\n4.  **Kingdom Plantae:**\n    *   Comprises all **multicellular eukaryotic** organisms.\n    *   Possess a rigid **cell wall** (primarily made of cellulose).\n    *   They are primarily **photosynthetic (autotrophic)**, synthesizing their own food using sunlight.\n    *   Examples include all types of plants, from algae to angiosperms.\n\n5.  **Kingdom Animalia:**\n    *   Includes all **multicellular eukaryotic** organisms.\n    *   Distinguished by the **absence of a cell wall**.\n    *   They are **heterotrophic**, obtaining nutrition by ingesting other organisms or organic matter.\n    *   Exhibit locomotion and a more complex organization compared to other kingdoms.\n    *   Examples include all animals, from sponges to humans.\n\nThis classification provides a clear framework for understanding the diversity and relationships among living organisms.",
+    "revision_notes": "The Five Kingdom Classification (Whittaker, 1969) groups organisms based on cell structure, cellularity, and nutrition:\n\n*   **Monera:** Unicellular, Prokaryotic (no membrane-bound nucleus).\n*   **Protista:** Unicellular, Eukaryotic (defined nucleus).\n*   **Fungi:** Multicellular (mostly), Eukaryotic, Cell wall present (chitin), Heterotrophic (non-photosynthetic).\n*   **Plantae:** Multicellular, Eukaryotic, Cell wall present (cellulose), Autotrophic (photosynthetic).\n*   **Animalia:** Multicellular, Eukaryotic, Cell wall absent, Heterotrophic.",
+    "one_liner_notes": [
+      "The Five Kingdom Classification was proposed by R.H. Whittaker in 1969.",
+      "Organisms are classified based on cell structure, cellularity, and mode of nutrition.",
+      "Kingdom Monera includes all unicellular prokaryotic organisms.",
+      "Kingdom Protista consists of all unicellular eukaryotic organisms.",
+      "Kingdom Fungi are multicellular eukaryotes with cell walls and are heterotrophic.",
+      "Kingdom Plantae are multicellular eukaryotes with cell walls and are photosynthetic.",
+      "Kingdom Animalia are multicellular eukaryotes without cell walls and are heterotrophic."
+    ],
+    "key_facts": [
+      "R.H. Whittaker proposed the Five Kingdom Classification in 1969.",
+      "Prokaryotes lack a membrane-bound nucleus and membrane-bound organelles.",
+      "Eukaryotes possess a defined, membrane-bound nucleus and other membrane-bound organelles.",
+      "Kingdom Monera comprises unicellular prokaryotic organisms (e.g., bacteria).",
+      "Kingdom Protista comprises unicellular eukaryotic organisms (e.g., amoeba, paramecium).",
+      "Fungi have cell walls made of chitin and are heterotrophic.",
+      "Plantae have cell walls made of cellulose and are photosynthetic.",
+      "Animalia lack cell walls and are heterotrophic.",
+      "The primary criteria for the Five Kingdom Classification are cell structure, cellularity, and mode of nutrition."
+    ],
+    "definitions": [
+      {
+        "term": "Prokaryotes",
+        "exact_meaning": "Unicellular organisms that lack a membrane-bound nucleus and other membrane-bound organelles.",
+        "simplified_explanation": "Simple cells without a true nucleus or internal compartments, like bacteria."
+      },
+      {
+        "term": "Eukaryotes",
+        "exact_meaning": "Organisms whose cells contain a membrane-bound nucleus and other membrane-bound organelles.",
+        "simplified_explanation": "Complex cells with a true nucleus and specialized internal structures, found in plants, animals, fungi, and protists."
+      },
+      {
+        "term": "Kingdom Monera",
+        "exact_meaning": "A kingdom comprising all unicellular prokaryotic organisms.",
+        "simplified_explanation": "The kingdom of single-celled organisms without a nucleus, primarily bacteria."
+      },
+      {
+        "term": "Kingdom Protista",
+        "exact_meaning": "A kingdom comprising all unicellular eukaryotic organisms.",
+        "simplified_explanation": "The kingdom of single-celled organisms with a nucleus, like amoeba."
+      },
+      {
+        "term": "Kingdom Fungi",
+        "exact_meaning": "A kingdom of mostly multicellular eukaryotic organisms characterized by a cell wall (chitin) and heterotrophic nutrition.",
+        "simplified_explanation": "The kingdom of mushrooms, molds, and yeasts; they have cell walls but get food from others."
+      },
+      {
+        "term": "Kingdom Plantae",
+        "exact_meaning": "A kingdom of multicellular eukaryotic organisms characterized by a cell wall (cellulose) and photosynthetic nutrition.",
+        "simplified_explanation": "The kingdom of plants; they have cell walls and make their own food using sunlight."
+      },
+      {
+        "term": "Kingdom Animalia",
+        "exact_meaning": "A kingdom of multicellular eukaryotic organisms characterized by the absence of a cell wall and heterotrophic nutrition.",
+        "simplified_explanation": "The kingdom of animals; they don't have cell walls and eat other organisms for food."
+      },
+      {
+        "term": "Heterotrophic",
+        "exact_meaning": "An organism that cannot produce its own food, instead taking nutrition from other sources of organic carbon, mainly plant or animal matter.",
+        "simplified_explanation": "Gets food by eating other organisms."
+      },
+      {
+        "term": "Photosynthetic",
+        "exact_meaning": "The process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll.",
+        "simplified_explanation": "Makes its own food using sunlight."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Five Kingdom Classification Summary",
+        "content": "| Characteristic      | Monera             | Protista           | Fungi              | Plantae            | Animalia           |\n|---------------------|--------------------|--------------------|--------------------|--------------------|--------------------|\n| **Cell Type**       | Prokaryotic        | Eukaryotic         | Eukaryotic         | Eukaryotic         | Eukaryotic         |\n| **Cellularity**     | Unicellular        | Unicellular        | Mostly Multicellular | Multicellular      | Multicellular      |\n| **Cell Wall**       | Present (non-cellulosic) | Present in some | Present (chitin)   | Present (cellulose)| Absent             |\n| **Nuclear Membrane**| Absent             | Present            | Present            | Present            | Present            |\n| **Mode of Nutrition**| Autotrophic (chemosynthetic/photosynthetic) & Heterotrophic | Autotrophic (photosynthetic) & Heterotrophic | Heterotrophic (saprophytic/parasitic) | Autotrophic (photosynthetic) | Heterotrophic (ingestive) |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Five Kingdom Classification Flowchart",
+        "description": "A hierarchical flowchart illustrating the Five Kingdom Classification system. It begins with 'Organisms' and branches based on key characteristics:\n1.  **Cell Structure:** Divides into 'Prokaryotes' and 'Eukaryotes'.\n    *   'Prokaryotes' lead to **Kingdom Monera** (Unicellular).\n2.  **Eukaryotes** then divide based on 'Cellularity':\n    *   'Unicellular' leads to **Kingdom Protista**.\n    *   'Multicellular' further divides based on 'Presence of Cell Wall':\n        *   'With Cell Wall' then divides based on 'Mode of Nutrition':\n            *   'Non-photosynthetic (Heterotrophic)' leads to **Kingdom Fungi**.\n            *   'Photosynthetic' leads to **Kingdom Plantae**.\n        *   'Without Cell Wall' leads to **Kingdom Animalia**.",
+        "labels": [
+          "Organisms",
+          "Prokaryotes",
+          "Eukaryotes",
+          "Unicellular",
+          "Multicellular",
+          "With Cell Wall",
+          "Without Cell Wall",
+          "Non-photosynthetic (Heterotrophic)",
+          "Photosynthetic",
+          "Kingdom Monera",
+          "Kingdom Protista",
+          "Kingdom Fungi",
+          "Kingdom Plantae",
+          "Kingdom Animalia"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Five Kingdom Classification proposed",
+        "date": "1969",
+        "description": "R.H. Whittaker proposed the widely accepted Five Kingdom Classification system."
+      }
+    ],
+    "comparison_tables": [],
+    "mnemonics": [],
+    "common_exam_traps": [
+      "Confusing the primary characteristic of Monera (prokaryotic) with Protista (eukaryotic), as both can be unicellular.",
+      "Misidentifying the type of cell wall (chitin in Fungi vs. cellulose in Plantae) or its absence (Animalia).",
+      "Incorrectly associating the mode of nutrition (e.g., Fungi are heterotrophic, not photosynthetic)."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Two Kingdom Classification",
+      "Three Domain System",
+      "Characteristics of Bacteria",
+      "Characteristics of Fungi",
+      "Plant Kingdom Classification",
+      "Animal Kingdom Classification"
+    ],
+    "search_keywords": [
+      "Five Kingdom Classification",
+      "Whittaker Classification",
+      "Monera",
+      "Protista",
+      "Fungi",
+      "Plantae",
+      "Animalia",
+      "Prokaryotic",
+      "Eukaryotic",
+      "Unicellular",
+      "Multicellular",
+      "Cell Wall",
+      "Photosynthetic",
+      "Heterotrophic",
+      "Biological Classification",
+      "Organism Classification"
+    ],
+    "beginner_explanation": "Imagine all living things on Earth are sorted into five big groups, like different types of clubs. This is called the Five Kingdom Classification. The groups are Monera (like bacteria, very simple cells), Protista (like amoeba, single cells but more complex), Fungi (like mushrooms, get food from others), Plantae (all plants, make their own food), and Animalia (all animals, eat other things). They are sorted based on how their cells are built, if they are single or many-celled, and how they get their food.",
+    "intermediate_explanation": "The Five Kingdom Classification system, introduced by R.H. Whittaker in 1969, categorizes organisms into Monera, Protista, Fungi, Plantae, and Animalia. This classification is based on three main criteria: cell structure (prokaryotic or eukaryotic), cellularity (unicellular or multicellular), and mode of nutrition (autotrophic or heterotrophic). Monera are unicellular prokaryotes. Protista are unicellular eukaryotes. Fungi are mostly multicellular eukaryotes with cell walls (chitin) and are heterotrophic. Plantae are multicellular eukaryotes with cell walls (cellulose) and are photosynthetic. Animalia are multicellular eukaryotes without cell walls and are heterotrophic.",
+    "advanced_explanation": "The Five Kingdom Classification by R.H. Whittaker (1969) provides a foundational framework for biological taxonomy, preceding the more recent Three Domain System. It systematically groups organisms based on evolutionary relationships inferred from cellular organization (prokaryotic vs. eukaryotic), level of organization (unicellular vs. multicellular), and trophic strategies (autotrophic, heterotrophic, saprophytic). Monera represents the prokaryotic lineage. Eukaryotes are then differentiated: Protista as the diverse unicellular eukaryotes, and the multicellular eukaryotes further split into Fungi (chitinous cell walls, absorptive heterotrophs), Plantae (cellulosic cell walls, photosynthetic autotrophs), and Animalia (no cell walls, ingestive heterotrophs). While robust, this system faces challenges in classifying certain groups, particularly within Protista, due to their polyphyletic nature, leading to ongoing refinements in higher-level classification.",
+    "revision_priority": "High",
+    "confidence_score": 5,
+    "needs_review_flag": false
   }
 ]
