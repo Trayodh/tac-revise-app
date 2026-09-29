@@ -5985,7 +5985,7 @@ STRICT RULES:
 
 7. NEVER use HTML character entities for mathematical formatting (like &sub1; or &supx;). Always use actual LaTeX math syntax like \\( ... \\) for inline math and \\[ ... \\] for block equations, as MathJax is enabled.
 
-8. Fill it with actual, highly accurate data (equations, dates, facts). Don't use placeholders.
+8. CRITICAL FACTUAL ACCURACY: You are a military educator. Do not invent dates or armaments. Use 100% accurate, standard known facts. If you do not know a specific detail, omit the field rather than hallucinating.
 
 9. Make the typography clear, legible, and structured for A4 paper. Include a large Title at the top.`;
 
@@ -5998,7 +5998,7 @@ STRICT RULES:
       model: 'gemini-2.0-flash',
 
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { maxOutputTokens: 8192 }
+      generationConfig: { maxOutputTokens: 8192, temperature: 0 }
 
     };
 
