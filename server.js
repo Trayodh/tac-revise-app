@@ -699,6 +699,43 @@ ${textPrompt}`;
           }
         }
         
+        if (textPrompt && textPrompt.includes("Cheat Sheet' for the topic: '")) {
+            const topicMatch = textPrompt.match(/topic: '([^']+)'/);
+            if (topicMatch && topicMatch[1]) {
+                const topic = topicMatch[1];
+                console.log(`[WIKI] Cheat sheet topic detected: ${topic}. Fetching latest Wikipedia context...`);
+                try {
+                    const axios = require('axios');
+                    const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(topic)}&utf8=&format=json`;
+                    const searchRes = await axios.get(searchUrl, { headers: { 'User-Agent': 'DefenceExamsApp/1.0 (admin@example.com)' } });
+                    if (searchRes.data && searchRes.data.query && searchRes.data.query.search.length > 0) {
+                        const topResult = searchRes.data.query.search[0].title;
+                        console.log(`[WIKI] Top match: ${topResult}`);
+                        const pageUrl = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro=false&explaintext=true&titles=${encodeURIComponent(topResult)}&format=json`;
+                        const pageRes = await axios.get(pageUrl, { headers: { 'User-Agent': 'DefenceExamsApp/1.0 (admin@example.com)' } });
+                        const pages = pageRes.data.query.pages;
+                        const pageId = Object.keys(pages)[0];
+                        const extract = pages[pageId].extract;
+                        if (extract) {
+                            const snippet = extract.substring(0, 6000);
+                            const injection = `\n\nCRITICAL KNOWLEDGE UPDATE: The following is up-to-date Wikipedia context for "${topResult}". Use this to ensure your generated cheat sheet includes the latest active/inducted items and facts. \n\n${snippet}\n\n`;
+                            textPrompt += injection;
+                            if (contents && contents[0] && contents[0].parts) {
+                                contents[0].parts.forEach(part => {
+                                    if (part.text) {
+                                        part.text += injection;
+                                    }
+                                });
+                            }
+                            console.log(`[WIKI] Successfully injected ${snippet.length} characters of context.`);
+                        }
+                    }
+                } catch (e) {
+                    console.error("[WIKI] Error fetching wikipedia context:", e.message);
+                }
+            }
+        }
+        
         const GEMINI_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
 
         let apiResponse = null;
