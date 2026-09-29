@@ -287,6 +287,12 @@ table {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
+th, td {
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  word-wrap: normal !important;
+  min-width: 120px; /* Give columns some breathing room */
+}
 
 /* UI HARDENING: Prevent button/chip text clipping */
 .chip, .tag, .badge, .btn-primary, .exam-btn {
