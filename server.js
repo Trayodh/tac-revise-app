@@ -763,6 +763,35 @@ ${textPrompt}`;
           }
         }
         
+        // --- FALLBACK TO OPENROUTER ---
+        if (!success && process.env.OPENROUTER_API_KEY && !stream && textPrompt) {
+            console.log(`[PROXY] Gemini failed (Status: ${lastStatus}). Falling back to OpenRouter (google/gemini-2.5-pro)...`);
+            try {
+                const orRes = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}` },
+                    body: JSON.stringify({
+                        model: "google/gemini-2.5-pro",
+                        temperature: 0,
+                        max_tokens: 8192,
+                        messages: [
+                            ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
+                            { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }
+                        ]
+                    })
+                });
+                if (orRes.ok) {
+                    const orData = await orRes.json();
+                    finalResponseText = orData.choices[0].message.content;
+                    success = true;
+                } else {
+                    console.error('[PROXY] OpenRouter API error:', await orRes.text());
+                }
+            } catch (err) {
+                console.error('[PROXY] Exception during OpenRouter request:', err.message);
+            }
+        }
+
         // --- FALLBACK TO CEREBRAS ---
         if (!success && process.env.CEREBRAS_API_KEY && !stream && textPrompt) {
             console.log(`[PROXY] Gemini failed (Status: ${lastStatus}). Falling back to Cerebras AI (gpt-oss-120b)...`);
@@ -799,6 +828,7 @@ ${textPrompt}`;
                     headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
                     body: JSON.stringify({
                         model: "openai/gpt-oss-120b",
+                        max_tokens: 8192,
                         messages: [
                             ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
                             { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }

@@ -5981,7 +5981,9 @@ STRICT RULES:
 
 8. CRITICAL FACTUAL ACCURACY: You are a military educator. Do not invent dates or armaments. Use 100% accurate, standard known facts. If you do not know a specific detail, omit the field rather than hallucinating.
 
-9. Make the typography clear, legible, and structured for A4 paper. Include a large Title at the top.`;
+9. NO SUMMARIES: If there are 20 or 40 items in reality, you MUST list all of them. Think deeply and list every single active, retired, and under-development item you know. For example, for IAF Helicopters, include Apache, Chinook, Prachand, Mi-26, Mi-35, etc. For Missiles, include all variants of Agni, Prithvi, BrahMos, Astra, Akash, SAMAR, Barak, Spyder, Python, R-73, R-77, MICA, Meteor, ASRAAM, Kh-31, Crystal Maze, etc.
+
+10. Make the typography clear, legible, and structured for A4 paper. Include a large Title at the top.`;
 
 
 
