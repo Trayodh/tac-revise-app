@@ -788,9 +788,9 @@ ${textPrompt}`;
             
             if (apiResponse.ok) {
               success = true;
-            } else if (apiResponse.status === 429) {
-              console.warn(`[PROXY] Gemini API Rate Limited (429). Waiting ${delayMs}ms...`);
-              lastStatus = 429;
+            } else if (apiResponse.status === 429 || apiResponse.status === 503) {
+              console.warn(`[PROXY] Gemini API Error (${apiResponse.status}). Waiting ${delayMs}ms...`);
+              lastStatus = apiResponse.status;
               await new Promise(r => setTimeout(r, delayMs));
               delayMs *= 2;
               retries--;
