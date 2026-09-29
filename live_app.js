@@ -5969,7 +5969,7 @@ STRICT RULES:
 
 2. The entire cheat sheet should be wrapped in a <div class="printable-cheat-sheet" style="max-width: 100%; overflow-wrap: break-word;">.
 
-3. Use inline CSS styles extensively. Ensure it is mobile-responsive by using flex-wrap where necessary.
+3. CRITICAL: Define all CSS classes in a <style> block at the top instead of repeating inline styles on every element. This saves tokens. Ensure it is mobile-responsive by using flex-wrap where necessary.
 
 4. The theme MUST be Dark Mode (light text on dark backgrounds) matching a sleek, modern cyber/military aesthetic.
 
@@ -5991,7 +5991,8 @@ STRICT RULES:
 
       model: 'gemini-2.0-flash',
 
-      contents: [{ parts: [{ text: prompt }] }]
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: { maxOutputTokens: 8192 }
 
     };
 

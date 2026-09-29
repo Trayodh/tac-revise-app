@@ -4240,5 +4240,978 @@
     "revision_priority": "High",
     "confidence_score": 0.96,
     "needs_review_flag": false
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Diseases",
+    "subchapter": "Chromosomal Abnormalities",
+    "topic": "Chromosomal Abnormalities - Down's Syndrome",
+    "subtopic": "Trisomy 21",
+    "master_notes": "Down's syndrome is a genetic disorder caused by the presence of an extra chromosome 21 (trisomy 21), resulting in a total of 47 chromosomes instead of the normal 46. The condition arises when chromosome 21 fails to separate properly during gamete formation (nondisjunction), leading to a zygote with three copies of chromosome 21. The extra genetic material from chromosome 21 disrupts normal development, causing intellectual disability and distinctive physical features. Down's syndrome is the most common genetic cause of intellectual disability. The risk of having a child with Down's syndrome increases significantly with advanced maternal age, particularly after 35 years. There are three recognized types: trisomy 21 (approximately 95% of cases), translocation (approximately 4%), and mosaicism (approximately 1%). In trisomy 21, every cell has 47 chromosomes. In translocation, part of chromosome 21 becomes attached to another chromosome. In mosaicism, some cells have 46 chromosomes and others have 47. Prenatal screening and diagnostic tests, including chorionic villus sampling (CVS) and amniocentesis, can detect the condition. With proper medical care, life expectancy has improved significantly, and individuals with Down's syndrome can lead fulfilling lives with appropriate support and education.",
+    "revision_notes": "Down's syndrome = 47 chromosomes due to trisomy 21 (extra chromosome 21). Most common genetic cause of intellectual disability. Risk increases with maternal age >35. Three types: trisomy 21 (95%), translocation (4%), mosaicism (1%).",
+    "one_liner_notes": [
+      "Down's syndrome results in 47 chromosomes due to trisomy 21 (extra chromosome 21).",
+      "Trisomy 21 is the most common genetic cause of intellectual disability.",
+      "Maternal age above 35 significantly increases the risk of Down's syndrome.",
+      "Normal human cells have 46 chromosomes; Down's syndrome cells have 47.",
+      "The extra chromosome in Down's syndrome is specifically chromosome 21, not any other chromosome.",
+      "Nondisjunction during meiosis is the primary cause of trisomy 21.",
+      "Three types exist: trisomy 21 (95%), translocation (4%), and mosaicism (1%)."
+    ],
+    "key_facts": [
+      "Normal human diploid chromosome number: 46 (23 pairs)",
+      "Down's syndrome total chromosome number: 47",
+      "Extra chromosome in Down's syndrome: Chromosome 21",
+      "Condition mechanism: Trisomy (three copies instead of two)",
+      "Most common genetic cause of intellectual disability",
+      "Primary cause: Nondisjunction during gamete formation",
+      "Major risk factor: Advanced maternal age (>35 years)",
+      "Three types: Trisomy 21 (~95%), Translocation (~4%), Mosaicism (~1%)",
+      "Prenatal diagnosis: CVS and amniocentesis with karyotyping",
+      "Karyotype notation: 47,XX,+21 or 47,XY,+21"
+    ],
+    "definitions": [
+      {
+        "term": "Down's Syndrome",
+        "exact_meaning": "A genetic disorder caused by the presence of all or part of an extra chromosome 21 (trisomy 21), resulting in 47 chromosomes instead of the normal 46.",
+        "simplified_explanation": "Down's syndrome is when a person is born with an extra copy of chromosome 21, giving them 47 chromosomes instead of the usual 46. This causes developmental delays and distinctive physical features."
+      },
+      {
+        "term": "Trisomy",
+        "exact_meaning": "A chromosomal abnormality in which a chromosome is present in three copies instead of the normal two, resulting in a total of 47 chromosomes.",
+        "simplified_explanation": "Trisomy means having three copies of a chromosome instead of two. In Down's syndrome, there are three copies of chromosome 21."
+      },
+      {
+        "term": "Nondisjunction",
+        "exact_meaning": "The failure of homologous chromosomes or sister chromatids to separate properly during meiosis I or meiosis II, resulting in gametes with an abnormal number of chromosomes.",
+        "simplified_explanation": "Nondisjunction is when chromosomes don't split correctly during egg or sperm formation, causing one cell to end up with an extra chromosome and another with a missing chromosome."
+      },
+      {
+        "term": "Karyotype",
+        "exact_meaning": "The complete set of chromosomes in a cell, arranged in pairs based on size, centromere position, and banding patterns, used for detecting chromosomal abnormalities.",
+        "simplified_explanation": "A karyotype is a picture of all your chromosomes arranged in order. It helps doctors see if any chromosomes are missing or extra."
+      },
+      {
+        "term": "Mosaicism",
+        "exact_meaning": "A condition in which two or more populations of cells with different genotypes arise from a single zygote, leading to some cells having a normal chromosome count and others having an abnormal count.",
+        "simplified_explanation": "Mosaicism means a person has two different types of cells - some normal and some with an extra chromosome. In Down's syndrome mosaicism, some cells have 46 chromosomes and others have 47."
+      },
+      {
+        "term": "Translocation",
+        "exact_meaning": "A chromosomal rearrangement in which a segment of one chromosome becomes attached to another chromosome, which can result in trisomy when the translocated segment includes the long arm of chromosome 21.",
+        "simplified_explanation": "Translocation is when a piece of one chromosome breaks off and attaches to another chromosome. In Down's syndrome, part of chromosome 21 can attach to another chromosome, still causing the condition."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Chromosome Count in Common Trisomies",
+        "content": "| Condition | Total Chromosomes | Extra Chromosome | Affected Chromosome |\n|-----------|-------------------|------------------|---------------------|\n| Normal | 46 | None | - |\n| Down's Syndrome | 47 | Chromosome 21 | Trisomy 21 |\n| Edwards Syndrome | 47 | Chromosome 18 | Trisomy 18 |\n| Patau Syndrome | 47 | Chromosome 13 | Trisomy 13 |"
+      },
+      {
+        "title": "Types of Down's Syndrome",
+        "content": "| Type | Percentage | Mechanism | Chromosome Count |\n|------|------------|-----------|------------------|\n| Trisomy 21 | ~95% | Full trisomy - all cells have extra chromosome 21 | 47 |\n| Translocation | ~4% | Part of chromosome 21 attached to another chromosome | 46-47 |\n| Mosaicism | ~1% | Some cells normal (46), some with trisomy (47) | Mixed (46/47) |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Karyotype Comparison: Normal vs Down's Syndrome",
+        "description": "A karyotype shows all chromosomes arranged in pairs. In a normal karyotype, there are 46 chromosomes (23 pairs). In Down's syndrome, there is an extra chromosome 21, making the total 47 chromosomes. The extra chromosome 21 appears as a third copy of the small acrocentric chromosome 21. The karyotype notation for Down's syndrome is 47,XX,+21 (female) or 47,XY,+21 (male), where '+21' indicates the presence of an additional chromosome 21.",
+        "labels": [
+          "Normal: 46 chromosomes (23 pairs)",
+          "Down's Syndrome: 47 chromosomes (extra chromosome 21)",
+          "Chromosome 21 pair",
+          "Extra chromosome 21 (+21)",
+          "Karyotype notation: 47,XX/XY,+21"
+        ]
+      }
+    ],
+    "timelines": [],
+    "comparison_tables": [
+      {
+        "title": "Normal vs Down's Syndrome Chromosomal Analysis",
+        "content": "| Feature | Normal | Down's Syndrome |\n|---------|--------|-----------------|\n| Total Chromosomes | 46 | 47 |\n| Chromosome 21 Copies | 2 | 3 |\n| Karyotype | 46,XX or 46,XY | 47,XX,+21 or 47,XY,+21 |\n| Condition Type | Euploid | Trisomy 21 |\n| Cause | Normal segregation | Nondisjunction |\n| Maternal Age Risk | No increased risk | Risk increases after age 35 |"
+      },
+      {
+        "title": "Down's Syndrome vs Other Common Trisomies",
+        "content": "| Feature | Down's (21) | Edwards (18) | Patau (13) |\n|---------|-------------|--------------|------------|\n| Extra Chromosome | 21 | 18 | 13 |\n| Total Chromosomes | 47 | 47 | 47 |\n| Survival Rate | Moderate | Low | Very Low |\n| Maternal Age Risk | Yes | Yes | Yes |\n| Most Common | Yes | No | No |"
+      }
+    ],
+    "mnemonics": [
+      "Down's = 47: Remember 'Down' has 5 letters and 47 chromosomes (not a perfect mnemonic, but the number 47 is key)",
+      "Chromosome 21 = Down's: Think '21' as the age when Down's syndrome was first described (though not historically accurate, helps memory)",
+      "Trisomy 21: 'Tri' means three - three copies of chromosome 21",
+      "For exam recall: Down's syndrome ALWAYS = 47 chromosomes (trisomy 21)",
+      "Maternal age >35 = increased risk: '35 and thriving, but risk is rising'",
+      "Types by frequency: 95-4-1 (Trisomy 95%, Translocation 4%, Mosaicism 1%)"
+    ],
+    "common_exam_traps": [
+      "Confusing trisomy 21 (Down's) with trisomy 18 (Edwards) or trisomy 13 (Patau) - remember Down's = chromosome 21",
+      "Thinking Down's syndrome has 48 chromosomes - it's 47, not 48 (trisomy adds one, not two)",
+      "Confusing monosomy (45 chromosomes, one missing) with trisomy (47 chromosomes, one extra)",
+      "Forgetting that the extra chromosome is specifically chromosome 21, not chromosome 22 or any other",
+      "Mixing up chromosome numbers: Down's=21, Edwards=18, Patau=13 - use the mnemonic '21-18-13'",
+      "Assuming all cases are trisomy 21 - remember 4% are translocation and 1% are mosaicism",
+      "Confusing maternal age risk with paternal age - it's maternal age >35 that increases risk",
+      "Thinking Down's syndrome is inherited in Mendelian pattern - most cases are not inherited but occur de novo"
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Chromosomal Abnormalities - Edwards Syndrome (Trisomy 18)",
+      "Chromosomal Abnormalities - Patau Syndrome (Trisomy 13)",
+      "Klinefelter Syndrome (47,XXY)",
+      "Turner Syndrome (45,X)",
+      "Cri du Chat Syndrome (Chromosome 5 deletion)",
+      "Karyotyping and Prenatal Diagnosis",
+      "Genetic Counseling and Risk Assessment"
+    ],
+    "search_keywords": [
+      "Down's syndrome",
+      "Trisomy 21",
+      "47 chromosomes",
+      "Chromosomal abnormalities",
+      "Genetic disorders",
+      "Mongolism",
+      "Nondisjunction",
+      "Karyotype",
+      "Intellectual disability",
+      "Human diseases",
+      "Biology",
+      "Chromosome 21",
+      "Maternal age",
+      "Prenatal diagnosis",
+      "Edwards syndrome",
+      "Patau syndrome"
+    ],
+    "beginner_explanation": "Down's syndrome is a condition where a person has an extra chromosome. Normally, humans have 46 chromosomes (23 pairs). In Down's syndrome, there is an extra copy of chromosome 21, making 47 chromosomes total. This extra chromosome causes developmental delays and distinctive physical features. The condition is present from birth and is the most common genetic cause of intellectual disability. The extra chromosome usually happens by accident when chromosomes don't separate properly during the formation of the egg or sperm.",
+    "intermediate_explanation": "Down's syndrome is an autosomal trisomy caused by the presence of an extra chromosome 21. The normal human karyotype is 46,XX or 46,XY. In Down's syndrome, the karyotype is 47,XX,+21 or 47,XY,+21, where '+21' indicates the extra chromosome 21. The trisomy results from nondisjunction during meiosis I or II, most commonly in the maternal oocyte. The risk of nondisjunction increases significantly with advanced maternal age (>35 years). Approximately 95% of cases are due to free trisomy 21, 4% due to Robertsonian translocation involving chromosome 21, and 1% due to mosaicism. The condition is diagnosed prenatally through chorionic villus sampling (CVS) at 10-13 weeks or amniocentesis at 15-20 weeks, with karyotype analysis confirming the diagnosis.",
+    "advanced_explanation": "Down's syndrome (OMIM #190040) is a multisystem genetic disorder resulting from trisomy of chromosome 21. The pathogenesis involves overexpression of genes encoded on chromosome 21, including DYRK1A (neurodevelopmental), RCAN1 (cardiac development), and APP (amyloid precursor protein - early-onset Alzheimer's). Approximately 95% of cases are due to free trisomy 21 (47,XX/XY,+21), 4% due to Robertsonian translocation (e.g., 46,XX/XY,der(14;21)(q10;q10)), and 1% due to mosaicism (47,XX/XY,+21/46,XX/XY). The nondisjunction mechanism involves failure of homologous chromosome separation during meiosis I or sister chromatid separation during meiosis II. Maternal age effect is attributed to prolonged arrest in prophase I of oogenesis. Prenatal screening includes first-trimester combined screening (nuchal translucency + PAPP-A + \u03b2-hCG) and second-trimester serum screening (quad screen). Diagnostic testing includes CVS and amniocentesis with karyotyping, FISH, or chromosomal microarray. With early intervention and proper medical care, life expectancy has improved from approximately 9 years in the 1920s to 50-60 years today.",
+    "revision_priority": "High",
+    "confidence_score": 9,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian States and Union Territories",
+    "subchapter": "State Boundaries and Neighboring States",
+    "topic": "Indian States, Geographical Borders & Key Facts",
+    "subtopic": "Bordering States, River Boundaries, and Formation History",
+    "master_notes": "<p><strong>1. Haryana</strong></p><ul><li><strong>Neighboring States (5):</strong> Punjab, Himachal Pradesh, Rajasthan, Uttarakhand, Uttar Pradesh</li><li><strong>Geographical Notes:</strong> Surrounds Delhi on three sides, making it a key strategic state.</li><li><strong>River Border:</strong> Yamuna River defines the border with Uttar Pradesh.</li><li><strong>Formation:</strong> Carved out from Punjab on November 1, 1966.</li></ul><p><strong>2. Madhya Pradesh</strong></p><ul><li><strong>Neighboring States (5):</strong> Uttar Pradesh, Maharashtra, Gujarat, Rajasthan, Chhattisgarh</li><li><strong>Unique Feature:</strong> Bordered by the maximum number of states (5).</li><li><strong>Formation:</strong> Created on November 1, 1956, under States Reorganisation Act.</li></ul><p><strong>3. Telangana</strong></p><ul><li><strong>Neighboring States (4):</strong> Maharashtra, Chhattisgarh, Andhra Pradesh, Karnataka</li><li><strong>Formation Committee:</strong> B.N. Srikrishna Committee (Committee for Consultations on the Situation in Andhra Pradesh).</li><li><strong>Formation Date:</strong> June 2, 2014.</li><li><strong>Capital:</strong> Hyderabad (shared with Andhra Pradesh until 2024).</li></ul><p><strong>4. West Bengal</strong></p><ul><li><strong>Neighboring States (5):</strong> Odisha, Jharkhand, Bihar, Sikkim, Assam</li><li><strong>Capital City Facts (Kolkata):</strong> 7th largest city and 3rd largest metropolitan area in India.</li><li><strong>Formation:</strong> November 1, 1956, from Bengal partition.</li></ul><p><strong>5. Maharashtra</strong></p><ul><li><strong>Neighboring States (6):</strong> Gujarat, Madhya Pradesh, Chhattisgarh, Telangana, Karnataka, Goa</li><li><strong>Bordering Union Territory:</strong> Dadra & Nagar Haveli and Daman & Diu.</li><li><strong>Unique Feature:</strong> Bordered by the maximum number of states and UTs combined (7).</li><li><strong>Formation:</strong> October 1, 1960.</li></ul>",
+    "revision_notes": "<p><strong>Haryana:</strong> 5 neighbors, surrounds Delhi, Yamuna border, formed 1966.</p><p><strong>Madhya Pradesh:</strong> 5 neighbors, maximum state borders, formed 1956.</p><p><strong>Telangana:</strong> 4 neighbors, B.N. Srikrishna Committee, formed 2014.</p><p><strong>West Bengal:</strong> 5 neighbors, Kolkata facts, formed 1956.</p><p><strong>Maharashtra:</strong> 6 neighbors + 1 UT, maximum combined borders, formed 1960.</p>",
+    "one_liner_notes": [
+      "Haryana: 5 neighbors, surrounds Delhi, Yamuna river border",
+      "Madhya Pradesh: 5 neighbors, maximum state borders in India",
+      "Telangana: Formed under B.N. Srikrishna Committee, 2014",
+      "West Bengal: 5 neighbors, Kolkata is 7th largest Indian city",
+      "Maharashtra: 6 neighbors + 1 UT, maximum combined borders"
+    ],
+    "key_facts": [
+      "Haryana borders 5 states and surrounds Delhi on three sides",
+      "Yamuna River forms the international border between Haryana and Uttar Pradesh",
+      "Madhya Pradesh has the maximum number of neighboring states (5)",
+      "Telangana was formed on June 2, 2014, based on B.N. Srikrishna Committee recommendations",
+      "West Bengal borders 5 states including Sikkim and Assam",
+      "Kolkata is the 7th largest city and 3rd largest metropolitan area in India",
+      "Maharashtra has the highest number of neighboring states and UTs combined (7)",
+      "Dadra & Nagar Haveli and Daman & Diu is the only UT bordering Maharashtra"
+    ],
+    "definitions": [
+      {
+        "term": "Bordering States",
+        "exact_meaning": "States that share a common international boundary with a given state",
+        "simplified_explanation": "Neighboring states that touch each other's borders"
+      },
+      {
+        "term": "Union Territory",
+        "exact_meaning": "A non-state constituent of India governed by an administrator appointed by the President",
+        "simplified_explanation": "Territory under direct central government administration, not a state"
+      },
+      {
+        "term": "B.N. Srikrishna Committee",
+        "exact_meaning": "Committee for Consultations on the Situation in Andhra Pradesh constituted in 2013",
+        "simplified_explanation": "Panel that recommended the formation of Telangana state"
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "State-wise Neighboring States and Border Features",
+        "content": "| State | Neighboring States | River Border | Unique Features | Formation Date |\n|-------|-------------------|--------------|-----------------|----------------|----------------|\n| Haryana | Punjab, HP, Rajasthan, Uttarakhand, UP | Yamuna (with UP) | Surrounds Delhi on 3 sides | Nov 1, 1966 |\n| Madhya Pradesh | UP, Maharashtra, Gujarat, Rajasthan, Chhattisgarh | None major | Maximum 5 state borders | Nov 1, 1956 |\n| Telangana | Maharashtra, Chhattisgarh, AP, Karnataka | Godavari, Krishna | B.N. Srikrishna Committee | Jun 2, 2014 |\n| West Bengal | Odisha, Jharkhand, Bihar, Sikkim, Assam | None major | Kolkata: 7th largest city | Nov 1, 1956 |\n| Maharashtra | Gujarat, MP, Chhattisgarh, Telangana, Karnataka, Goa | Tapi, Krishna | 6 states + 1 UT border | Oct 1, 1960 |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Strategic Location of Haryana",
+        "description": "Shows how Haryana surrounds Delhi on three sides with Yamuna River forming the eastern boundary with Uttar Pradesh",
+        "labels": [
+          "Delhi",
+          "Haryana",
+          "Punjab",
+          "Uttar Pradesh",
+          "Yamuna River",
+          "Himachal Pradesh",
+          "Rajasthan",
+          "Uttarakhand"
+        ]
+      },
+      {
+        "title": "Maharashtra's Extensive Borders",
+        "description": "Illustrates Maharashtra's border with 6 states and 1 Union Territory, showing maximum connectivity",
+        "labels": [
+          "Maharashtra",
+          "Gujarat",
+          "Madhya Pradesh",
+          "Chhattisgarh",
+          "Telangana",
+          "Karnataka",
+          "Goa",
+          "Dadra & Nagar Haveli",
+          "Daman & Diu"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "States Reorganisation Act",
+        "date": "1956",
+        "description": "Formation of Madhya Pradesh and West Bengal under state reorganization"
+      },
+      {
+        "event": "Punjab Reorganisation",
+        "date": "1966",
+        "description": "Creation of Haryana and separation from Punjab"
+      },
+      {
+        "event": "Maharashtra Formation",
+        "date": "1960",
+        "description": "Maharashtra separated from Bombay State"
+      },
+      {
+        "event": "Telangana Formation",
+        "date": "2014",
+        "description": "Telangana became 29th state of India based on B.N. Srikrishna Committee recommendations"
+      }
+    ],
+    "comparison_tables": [
+      {
+        "title": "Comparison of Bordering States Count",
+        "content": "| State | Number of Neighboring States | Number of Bordering UTs | Total Borders |\n|-------|------------------------------|-------------------------|---------------|\n| Haryana | 5 | 0 | 5 |\n| Madhya Pradesh | 5 | 0 | 5 |\n| Telangana | 4 | 0 | 4 |\n| West Bengal | 5 | 0 | 5 |\n| Maharashtra | 6 | 1 | 7 |"
+      }
+    ],
+    "mnemonics": [
+      "Haryana, Madhya, West Bengal, Maharashtra - 'HMW-M' helps remember key states with maximum borders",
+      "B.N. Srikrishna = 'Bring Nation's Separate region' - mnemonic for Telangana committee"
+    ],
+    "common_exam_traps": [
+      "Confusing the number of neighboring states for Madhya Pradesh (some count includes Chhattisgarh which was formed later)",
+      "Forgetting that Dadra & Nagar Haveli and Daman & Diu borders Maharashtra",
+      "Mixing up formation dates of Haryana (1966) with Punjab (1947 partition)",
+      "Assuming all states with 5 neighbors have same geographical features",
+      "Confusing Kolkata's ranking (7th largest city, not capital of largest state)"
+    ],
+    "previous_year_links": [
+      "CDS Exam 2023: Questions on state formation and borders",
+      "NDA Exam 2022: Geographical features of Haryana and Madhya Pradesh",
+      "AFCAT 2023: Telangana formation history and B.N. Srikrishna Committee"
+    ],
+    "related_topics": [
+      "Indian States and Union Territories - Complete List",
+      "Geographical Features of Northern States",
+      "River Systems and State Boundaries",
+      "States Reorganisation Act 1956",
+      "Union Territories of India - Administration and Borders"
+    ],
+    "search_keywords": [
+      "Haryana neighboring states",
+      "Madhya Pradesh borders",
+      "Telangana formation committee",
+      "West Bengal neighboring states",
+      "Maharashtra bordering UTs",
+      "Yamuna river border",
+      "B.N. Srikrishna Committee",
+      "Indian state boundaries",
+      "Kolkata city facts",
+      "State formation dates India"
+    ],
+    "beginner_explanation": "This topic covers the geographical boundaries of five important Indian states - Haryana, Madhya Pradesh, Telangana, West Bengal, and Maharashtra. Each state has unique bordering features: some share borders with multiple states, others have rivers forming their boundaries, and a few surround major cities like Delhi. Understanding these borders is crucial for competitive exams as questions often test knowledge of neighboring states, formation history, and geographical features.",
+    "intermediate_explanation": "The five states analyzed represent different geographical and historical contexts. Haryana's strategic location surrounding Delhi makes it significant for national security. Madhya Pradesh's central location gives it maximum state borders. Telangana's recent formation (2014) under the B.N. Srikrishna Committee represents a major political development. West Bengal's eastern location with diverse neighbors reflects its historical importance. Maharashtra's extensive borders (6 states + 1 UT) highlight its economic and geographical significance. River boundaries like Yamuna have historical and cultural significance beyond mere geographical demarcation.",
+    "advanced_explanation": "State boundaries in India reflect historical, cultural, linguistic, and administrative considerations. The strategic importance of Haryana surrounding Delhi on three sides has national security implications. Madhya Pradesh's position as the 'heart of India' with maximum state borders makes it a geographical pivot. Telangana's formation represents the culmination of a 50-year movement, with the B.N. Srikrishna Committee providing the constitutional framework. West Bengal's diverse neighboring states reflect its position in the eastern Himalayan region and coastal plains. Maharashtra's extensive borders (7 total) make it India's most connected state, reflecting its role as India's commercial capital. River boundaries like Yamuna carry both geographical and cultural significance, often serving as natural demarcation lines with historical importance.",
+    "revision_priority": "High - Frequently tested in NDA, CDS, and AFCAT exams. Focus on neighboring states count, formation dates, and unique geographical features like Delhi surrounding Haryana and Maharashtra's UT borders.",
+    "confidence_score": 0.95,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian River System",
+    "subchapter": "Yamuna River",
+    "topic": "Cities on Yamuna",
+    "subtopic": "Course and Urban Centers",
+    "master_notes": "The Yamuna River originates from the Yamunotri Glacier in Uttarakhand. It is a major tributary of the Ganges and flows through several key urban centers. The major cities along its course include Karnal, Panipat, Delhi, Faridabad, Mathura, Agra, and Prayagraj. The states it traverses are Uttarakhand, Delhi, Haryana, and Uttar Pradesh. This river holds significant geographical and cultural importance in northern India.",
+    "revision_notes": "Key points for revision: Yamuna originates from Yamunotri Glacier; major cities are Karnal, Panipat, Delhi, Faridabad, Mathura, Agra, Prayagraj; states covered are Uttarakhand, Delhi, Haryana, Uttar Pradesh. Remember the origin and the sequence of cities for exam questions.",
+    "one_liner_notes": [
+      "Yamuna originates from Yamunotri Glacier.",
+      "Flows through Delhi, Agra, and Prayagraj.",
+      "States: Uttarakhand, Delhi, Haryana, UP."
+    ],
+    "key_facts": [
+      "Source: Yamunotri Glacier in Uttarakhand.",
+      "Major cities: Karnal, Panipat, Delhi, Faridabad, Mathura, Agra, Prayagraj.",
+      "States traversed: Uttarakhand, Delhi, Haryana, Uttar Pradesh.",
+      "Yamuna is a significant tributary of the Ganges River."
+    ],
+    "definitions": [
+      {
+        "term": "Yamunotri Glacier",
+        "exact_meaning": "A glacier located in the Garhwal Himalayas of Uttarakhand, India, which serves as the source of the Yamuna River.",
+        "simplified_explanation": "The starting point of the Yamuna River, found in the mountains of Uttarakhand."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Cities and States on Yamuna River",
+        "content": "| Major Cities on Yamuna | States Traversed by Yamuna |\n|-------------------------|----------------------------|\n| Karnal                  | Uttarakhand                |\n| Panipat                 | Delhi                      |\n| Delhi                   | Haryana                    |\n| Faridabad               | Uttar Pradesh              |\n| Mathura                 |                            |\n| Agra                    |                            |\n| Prayagraj               |                            |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Map of Yamuna River Course",
+        "description": "A map illustrating the flow of the Yamuna River from its origin at Yamunotri Glacier to its confluence with the Ganges at Prayagraj. It marks major cities and states along the river's path.",
+        "labels": [
+          "Yamunotri Glacier",
+          "Karnal",
+          "Panipat",
+          "Delhi",
+          "Faridabad",
+          "Mathura",
+          "Agra",
+          "Prayagraj",
+          "Uttarakhand",
+          "Delhi",
+          "Haryana",
+          "Uttar Pradesh"
+        ]
+      }
+    ],
+    "timelines": [],
+    "comparison_tables": [],
+    "mnemonics": [
+      "K-P-D-F-M-A-P for cities: Karnal, Panipat, Delhi, Faridabad, Mathura, Agra, Prayagraj.",
+      "U-D-H-U for states: Uttarakhand, Delhi, Haryana, Uttar Pradesh."
+    ],
+    "common_exam_traps": [
+      "Confusing the origin of Yamuna with Gaumtri Glacier (source of Ganges) or Satopanth Glacier.",
+      "Mistaking Karnal or other cities as the origin point instead of Yamunotri Glacier.",
+      "Incorrectly listing states; ensure Delhi is included as a state/union territory."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Ganges River system",
+      "Indian geography",
+      "Rivers of Uttarakhand",
+      "Tributaries of the Ganges"
+    ],
+    "search_keywords": [
+      "Yamuna river origin",
+      "cities on Yamuna",
+      "Yamunotri Glacier",
+      "Yamuna river states",
+      "Yamuna course map"
+    ],
+    "beginner_explanation": "The Yamuna River begins at Yamunotri Glacier in Uttarakhand. It flows through important cities like Delhi and Agra, passing through states such as Haryana and Uttar Pradesh. This river is crucial for water supply and agriculture in northern India.",
+    "intermediate_explanation": "Originating from the Yamunotri Glacier in the Garhwal Himalayas, the Yamuna River flows southward through Uttarakhand, Delhi, Haryana, and Uttar Pradesh. It joins the Ganges at Prayagraj. Major urban centers along its banks include Karnal, Panipat, Delhi, Faridabad, Mathura, and Agra, highlighting its economic and cultural significance.",
+    "advanced_explanation": "The Yamuna River, sourced from the Yamunotri Glacier (altitude approximately 6,000 meters), follows a complex course through the Indo-Gangetic plain. It covers a length of about 1,376 km, draining areas in Uttarakhand, Delhi, Haryana, and Uttar Pradesh before merging with the Ganges at Triveni Sangam in Prayagraj. The river's basin is vital for agriculture, industry, and urban water needs, but faces pollution challenges, especially downstream of Delhi.",
+    "revision_priority": "High",
+    "confidence_score": 0.9,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian River System",
+    "subchapter": "Central Indian Rivers",
+    "topic": "Son River & Chambal River",
+    "subtopic": "Major Tributaries of Ganga System",
+    "master_notes": "The Son River and Chambal River are significant tributaries in the Ganga river system, flowing through central India. The Son River originates near Amarkantak in Madhya Pradesh and flows through Chhattisgarh, Madhya Pradesh, Uttar Pradesh, and Bihar before joining the Ganga near Patna. The Chambal River rises in the Vindhya Range near Mhow in Madhya Pradesh and flows through Madhya Pradesh, Rajasthan, and Uttar Pradesh, joining the Yamuna River in Etawah district. The Chambal basin is renowned for its distinctive badland topography characterized by deep ravines and gullies formed by extensive erosion. Major dams on the Chambal include Kota Barrage, Jawahar Sagar Dam, Rana Pratap Sagar Dam, and Gandhi Sagar Dam (referred to as Granthi Sagar Dam in notes). Key towns along the Chambal include Bundi, Dholpur, and Etawah. The Chambal basin extends across multiple states including Uttar Pradesh, Himachal Pradesh, Haryana, Delhi, Rajasthan, and Madhya Pradesh, though the river itself flows only through MP, Rajasthan, and UP.",
+    "revision_notes": "Son River: Flows through Chhattisgarh, MP, UP, Bihar \u2192 joins Ganga. Chambal River: Flows through MP, Rajasthan, UP \u2192 joins Yamuna at Etawah. Famous for badland topography (ravines). Major dams: Kota Barrage, Jawahar Sagar, Rana Pratap Sagar, Gandhi Sagar. Key locations: Bundi, Dholpur, Etawah.",
+    "one_liner_notes": [
+      "Son River traverses 4 states: Chhattisgarh, Madhya Pradesh, Uttar Pradesh, Bihar",
+      "Chambal River flows through 3 states: Madhya Pradesh, Rajasthan, Uttar Pradesh",
+      "Chambal basin famous for badland topography (ravines/gullies)",
+      "Four major dams on Chambal: Gandhi Sagar, Rana Pratap Sagar, Jawahar Sagar, Kota Barrage",
+      "Chambal joins Yamuna at Etawah district, Uttar Pradesh"
+    ],
+    "key_facts": [
+      "Son River is a direct tributary of Ganga; Chambal is a tributary of Yamuna (which joins Ganga)",
+      "Chambal badlands are among the most extensive badland formations in India",
+      "Gandhi Sagar Dam (Granthi Sagar) is the first dam on Chambal, located in Mandsaur district, MP",
+      "Rana Pratap Sagar Dam is in Chittorgarh district, Rajasthan",
+      "Jawahar Sagar Dam is in Kota district, Rajasthan",
+      "Kota Barrage is near Kota city, Rajasthan",
+      "Chambal basin covers parts of 7 states/UTs: MP, Rajasthan, UP, Haryana, Delhi, Himachal Pradesh, Uttar Pradesh (listed twice in source)",
+      "Etawah district (UP) is the confluence point of Chambal and Yamuna"
+    ],
+    "definitions": [
+      {
+        "term": "Badland Topography",
+        "exact_meaning": "A type of dry terrain where softer sedimentary rocks and clay-rich soils have been extensively eroded by wind and water, creating steep slopes, minimal vegetation, and high drainage density with ravines and gullies.",
+        "simplified_explanation": "Highly eroded landscape with deep gullies and ravines, unsuitable for agriculture, formed by water/wind erosion of soft rocks."
+      },
+      {
+        "term": "River Basin",
+        "exact_meaning": "The area of land drained by a river and its tributaries, where all surface water flows toward a common outlet.",
+        "simplified_explanation": "Total land area that collects water for a river system."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Comparison of Son River and Chambal River",
+        "content": "| Feature | Son River | Chambal River |\n|---------|-----------|---------------|\n| Origin | Near Amarkantak, MP | Vindhya Range near Mhow, MP |\n| States Flowing Through | Chhattisgarh, MP, UP, Bihar | MP, Rajasthan, UP |\n| Confluence | Joins Ganga near Patna, Bihar | Joins Yamuna at Etawah, UP |\n| Basin States | Not specified in source | UP, HP, Haryana, Delhi, Rajasthan, MP |\n| Notable Topography | Not specified | Badland topography (ravines) |\n| Major Dams | Not specified in source | Gandhi Sagar, Rana Pratap Sagar, Jawahar Sagar, Kota Barrage |\n| Key Towns | Not specified | Bundi, Dholpur, Etawah |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Chambal River Course and Dams",
+        "description": "Schematic showing Chambal River originating in Vindhya Range (MP), flowing northeast through Gandhi Sagar Dam (MP), Rana Pratap Sagar Dam (Rajasthan), Jawahar Sagar Dam (Rajasthan), Kota Barrage (Rajasthan), past Bundi and Dholpur, entering UP and joining Yamuna at Etawah. Badland topography prominent in middle/lower reaches.",
+        "labels": [
+          "Vindhya Range (Origin)",
+          "Gandhi Sagar Dam",
+          "Rana Pratap Sagar Dam",
+          "Jawahar Sagar Dam",
+          "Kota Barrage",
+          "Bundi",
+          "Dholpur",
+          "Etawah (Confluence with Yamuna)",
+          "Badland Region"
+        ]
+      }
+    ],
+    "timelines": [],
+    "comparison_tables": [
+      {
+        "title": "Dams on Chambal River (Upstream to Downstream)",
+        "content": "| Dam Name | Location (State) | District | Type |\n|----------|------------------|----------|------|\n| Gandhi Sagar Dam (Granthi Sagar) | Madhya Pradesh | Mandsaur | Storage Dam |\n| Rana Pratap Sagar Dam | Rajasthan | Chittorgarh | Storage Dam |\n| Jawahar Sagar Dam | Rajasthan | Kota | Storage Dam |\n| Kota Barrage | Rajasthan | Kota | Barrage (Diversion) |"
+      }
+    ],
+    "mnemonics": [
+      "Son River states: **C**hattisgarh **M**P **U**P **B**ihar \u2192 **CMUB** (See My Umbrella Break)",
+      "Chambal River states: **M**P **R**ajasthan **U**P \u2192 **MRU** (My Right Umbrella)",
+      "Chambal dams order (upstream to downstream): **G**andhi Sagar \u2192 **R**ana Pratap Sagar \u2192 **J**awahar Sagar \u2192 **K**ota Barrage \u2192 **GRJK** (Great Rivers Join Kosi - mnemonic for sequence)"
+    ],
+    "common_exam_traps": [
+      "Confusing Chambal basin states with states the river actually flows through (basin includes HP, Haryana, Delhi but river doesn't flow there)",
+      "Misidentifying Granthi Sagar Dam - it refers to Gandhi Sagar Dam",
+      "Thinking Chambal joins Ganga directly - it joins Yamuna at Etawah",
+      "Overlooking that Son River flows through Chhattisgarh (often missed)",
+      "Confusing badland topography with other landforms like deltaic or glacial"
+    ],
+    "previous_year_links": [
+      "MCQ: The Chambal river basin is famous for which type of topography? Options: Volcanic, Badland, Glacial, Deltaic. Correct: Badland."
+    ],
+    "related_topics": [
+      "Ganga River System",
+      "Yamuna River",
+      "Peninsular Rivers of India",
+      "Badland Topography in India",
+      "Major Dams in India",
+      "River Interlinking Projects",
+      "Chambal Ravines Conservation"
+    ],
+    "search_keywords": [
+      "Son River states",
+      "Chambal River states",
+      "Chambal badland topography",
+      "Gandhi Sagar Dam",
+      "Rana Pratap Sagar Dam",
+      "Jawahar Sagar Dam",
+      "Kota Barrage",
+      "Chambal Yamuna confluence Etawah",
+      "Central Indian rivers tributaries Ganga"
+    ],
+    "beginner_explanation": "The Son and Chambal are two important rivers in central India. The Son River starts in Madhya Pradesh and flows through four states (Chhattisgarh, MP, UP, Bihar) before meeting the Ganga. The Chambal River also starts in MP but flows through three states (MP, Rajasthan, UP) and joins the Yamuna River. The Chambal area is famous for its 'badlands' - a landscape with many deep gullies and ravines caused by erosion. There are four big dams on the Chambal River that help with irrigation and electricity.",
+    "intermediate_explanation": "Both Son and Chambal are key tributaries in the Ganga basin. Son (784 km) is a direct Ganga tributary joining near Patna. Chambal (960 km) is Yamuna's largest tributary, joining at Etawah. The Chambal basin's badland topography results from erosion of soft alluvial sediments, creating extensive ravine systems. The four dams (Gandhi Sagar, Rana Pratap Sagar, Jawahar Sagar, Kota Barrage) form a cascade development for hydroelectricity and irrigation. The basin covers parts of 7 states/UTs though the main channel flows through only 3.",
+    "advanced_explanation": "The Son River originates from Amarkantak plateau (Maikal Hills) at 640m elevation. Its 70,055 sq km basin spans the northern Deccan plateau. The Chambal rises at Janapav near Mhow (843m) in the Vindhyas. Its 143,219 sq km basin exhibits a unique 'badland' morphology with dendritic drainage patterns incised into Quaternary alluvium. The Chambal cascade projects (Gandhi Sagar 1960, Rana Pratap Sagar 1970, Jawahar Sagar 1972, Kota Barrage 1960) represent early inter-state water sharing (MP-Rajasthan). The ravines support unique ecosystems but pose agricultural challenges. Etawah confluence marks a significant sediment transfer point into the Yamuna-Ganga system.",
+    "revision_priority": "High",
+    "confidence_score": 85,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Famous Waterfalls in India",
+    "subchapter": "Physical Features",
+    "topic": "Famous Waterfalls in India",
+    "subtopic": "Major Waterfalls and Their States",
+    "master_notes": "Major waterfalls in India and their respective states: Pudhshagar Falls (Goa), Thalaiyar Falls (Tamil Nadu), Barkana Falls (Karnataka), Jog Falls (Karnataka), Kunchikal Falls (Karnataka), Barehipani Falls (Odisha), Mawsmai Falls (Meghalaya).",
+    "revision_notes": "Include MCQ: Mawsmai Falls is located in Meghalaya; verify state for each waterfall.",
+    "one_liner_notes": [
+      "Pudhshagar Falls \u2013 Goa",
+      "Thalaiyar Falls \u2013 Tamil Nadu",
+      "Barkana Falls \u2013 Karnataka",
+      "Jog Falls \u2013 Karnataka",
+      "Kunchikal Falls \u2013 Karnataka",
+      "Barehipani Falls \u2013 Odisha",
+      "Mawsmai Falls \u2013 Meghalaya"
+    ],
+    "key_facts": [
+      "Pudhshagar Falls \u2013 Goa",
+      "Thalaiyar Falls \u2013 Tamil Nadu",
+      "Barkana Falls \u2013 Karnataka",
+      "Jog Falls \u2013 Karnataka",
+      "Kunchikal Falls \u2013 Karnataka",
+      "Barehipani Falls \u2013 Odisha",
+      "Mawsmai Falls \u2013 Meghalaya"
+    ],
+    "definitions": [
+      {
+        "term": "Waterfall",
+        "exact_meaning": "A natural phenomenon where water descends vertically from a height due to gravity.",
+        "simplified_explanation": "A waterfall is a stream of water that falls from a high point, creating a cascade."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Famous Waterfalls in India",
+        "content": "| Waterfall | State |\n|-----------|-------|\n| Pudhshagar Falls | Goa |\n| Thalaiyar Falls | Tamil Nadu |\n| Barkana Falls | Karnataka |\n| Jog Falls | Karnataka |\n| Kunchikal Falls | Karnataka |\n| Barehipani Falls | Odisha |\n| Mawsmai Falls | Meghalaya |"
+      }
+    ],
+    "diagram_descriptions": [],
+    "timelines": [],
+    "comparison_tables": [
+      {
+        "title": "Waterfalls in Karnataka",
+        "content": "| Waterfall | District (if known) | Height (approx.) | Notable Feature |\n|-----------|---------------------|------------------|-----------------|\n| Barkana Falls | Shimoga | 800 ft | One of the highest in India |\n| Jog Falls | Sagara | 800 ft | Spectacular plunge |\n| Kunchikal Falls | Udupi | 300 ft | Largest in South India |"
+      }
+    ],
+    "mnemonics": [
+      "Pudh shagar \u2013 Goa",
+      "Thalaiyar \u2013 Tamil Nadu",
+      "Barkana, Jog, Kunchikal \u2013 Karnataka",
+      "Barehipani \u2013 Odisha",
+      "Mawsmai \u2013 Meghalaya"
+    ],
+    "common_exam_traps": [
+      "Confusing Barkana and Jog Falls as being in different states (both are in Karnataka).",
+      "Mistaking Mawsmai Falls for being in Assam; it is actually in Meghalaya.",
+      "Assuming all waterfalls listed are in the same region; they span multiple states."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Rivers of India",
+      "National Parks",
+      "Geography of India"
+    ],
+    "search_keywords": [
+      "waterfalls India",
+      "Pudhshagar Falls",
+      "Thalaiyar Falls",
+      "Barkana Falls",
+      "Jog Falls",
+      "Kunchikal Falls",
+      "Barehipani Falls",
+      "Mawsmai Falls",
+      "India waterfalls list"
+    ],
+    "beginner_explanation": "Waterfalls are streams that fall from a height. In India, famous waterfalls include Pudhshagar in Goa, Thalaiyar in Tamil Nadu, and several in Karnataka, Odisha, and Meghalaya.",
+    "intermediate_explanation": "India hosts a variety of waterfalls across its states. Pudhshagar is in Goa, Thalaiyar in Tamil Nadu, while Karnataka has Barkana, Jog, and Kunchikal Falls. Barehipani is in Odisha and Mawsmai in Meghalaya. These waterfalls are popular tourist spots and important for geography questions.",
+    "advanced_explanation": "The distribution of waterfalls reflects the varied topography of India. Goa's Western Ghats host Pudhshagar, Tamil Nadu's Nilgiri hills feature Thalaiyar, and Karnataka's Sahyadri range includes Barkana, Jog, and Kunchikal Falls. Odisha's Simlipal region has Barehipani, and Meghalaya's Khasi Hills contain Mawsmai. Understanding their states aids in answering geography and environment questions in defense examinations.",
+    "revision_priority": "High",
+    "confidence_score": 0.95,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian River System",
+    "subchapter": "",
+    "topic": "Major Dams and Associated Rivers",
+    "subtopic": "",
+    "master_notes": "India has numerous major dams built on various rivers for irrigation, hydroelectric power generation, and flood control. Key dams include Bhakra Nangal on the Sutlej (Satlej) River, Dwarka Hasti on the Chandra River, Hirakud on the Mahanadi, Tehri on the Bhagirathi, Ukai on the Tapi, Krishnaraya Sagar on the Kaveri (Karnataka), Srisailam on the Krishna, Mettur on the Kaveri (Tamil Nadu), Cheruthoni (part of Idukki) in Kerala, Indira Sagar on the Narmada (Madhya Pradesh), and Sardar Sarovar on the Narmada. These structures are frequently examined in NDA, CDS, and AFCAT geography sections.",
+    "revision_notes": "Remember: Bhakra Nangal\u2013Sutlej, Dwarka Hasti\u2013Chandra, Hirakud\u2013Mahanadi, Tehri\u2013Bhagirathi, Ukai\u2013Tapi, Krishnaraya Sagar\u2013Kaveri (KTK), Srisailam\u2013Krishna, Mettur\u2013Kaveri (TN), Cheruthoni\u2013Kerala (Idukki), Indira Sagar\u2013Narmada (MP), Sardar Sarovar\u2013Narmada.",
+    "one_liner_notes": [
+      "Bhakra Nangal Dam \u2013 Sutlej (Satlej) River",
+      "Dwarka Hasti Dam \u2013 Chandra River",
+      "Hirakud Dam \u2013 Mahanadi River",
+      "Tehri Dam \u2013 Bhagirathi River",
+      "Ukai Dam \u2013 Tapi River",
+      "Krishnaraya Sagar Dam \u2013 Kaveri (Karnataka) River",
+      "Srisailam Dam \u2013 Krishna River",
+      "Mettur Dam \u2013 Kaveri (Tamil Nadu) River",
+      "Cheruthoni Dam \u2013 Kerala (Idukki) River",
+      "Indira Sagar Dam \u2013 Narmada (Madhya Pradesh) River",
+      "Sardar Sarovar Dam \u2013 Narmada River"
+    ],
+    "key_facts": [
+      "Bhakra Nangal is one of the highest gravity dams in the world.",
+      "Hirakud Dam is the longest earthen dam in India.",
+      "Tehri Dam is the highest dam in India.",
+      "Sardar Sarovar Dam is a major component of the Narmada Valley Project.",
+      "Indira Sagar Dam is the largest reservoir in India by volume.",
+      "Krishnaraya Sagar Dam also houses the Brindavan Gardens.",
+      "Srisailam Dam is located in a dense forest area and is important for tiger conservation.",
+      "Cheruthoni Dam is part of the Idukki arch dam complex.",
+      "Ukai Dam is the second largest reservoir in Gujarat.",
+      "Dwarka Hasti Dam is also known as Dwarkeshwar Dam."
+    ],
+    "definitions": [
+      {
+        "term": "Dam",
+        "exact_meaning": "A barrier constructed across a watercourse to hold back water and raise its level, forming a reservoir used for irrigation, hydroelectricity, flood control, or water supply.",
+        "simplified_explanation": "A wall built across a river to store water in a lake behind it."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Major Dams and Their Associated Rivers",
+        "content": "| Dam | River |\n|---|---|\n| Bhakra Nangal | Sutlej (Satlej) |\n| Dwarka Hasti | Chandra |\n| Hirakud | Mahanadi |\n| Tehri | Bhagirathi |\n| Ukai | Tapi |\n| Krishnaraya Sagar | Kaveri (Karnataka) |\n| Srisailam | Krishna |\n| Mettur | Kaveri (Tamil Nadu) |\n| Cheruthoni | Kerala (Idukki) |\n| Indira Sagar | Narmada (Madhya Pradesh) |\n| Sardar Sarovar | Narmada |"
+      }
+    ],
+    "diagram_descriptions": [],
+    "timelines": [],
+    "comparison_tables": [],
+    "mnemonics": [
+      "Bhakra Nangal Sutlej: 'Bhakti Sutlej' (Bhakti = devotion, Sutlej = river)",
+      "Hirakud Mahanadi: 'Hira Kund' (Hira = diamond, Kund = pond) -> Mahanadi",
+      "Tehri Bhagirathi: 'Tehri Bhag' (Tehri = place, Bhag = part) -> Bhagirathi",
+      "Sardar Sarovar Narmada: 'Sardar Sarovar Narmada' (Sardar = leader, Sarovar = lake) -> Narmada"
+    ],
+    "common_exam_traps": [
+      "Confusing the spelling 'Satlej' with 'Sutlej' \u2013 both refer to the same river.",
+      "Mixing up Kaveri dams: Krishnaraya Sagar is in Karnataka, Mettur is in Tamil Nadu.",
+      "Assuming all Narmada dams are in Madhya Pradesh \u2013 Sardar Sarovar is in Gujarat.",
+      "Misidentifying Cheruthoni as a standalone dam; it is part of the Idukki arch dam complex."
+    ],
+    "previous_year_links": [
+      "PYQ 2022 (CDS): Which river is the Tehri Dam built on? Answer: Bhagirathi",
+      "PYQ 2021 (NDA): Hirakud Dam is built on which river? Answer: Mahanadi",
+      "PYQ 2020 (AFCAT): Indira Sagar Dam is associated with which river? Answer: Narmada"
+    ],
+    "related_topics": [
+      "Irrigation Projects in India",
+      "Hydroelectric Power Stations",
+      "River Valley Projects",
+      "Water Resources Management",
+      "Flood Control Measures"
+    ],
+    "search_keywords": [
+      "Bhakra Nangal",
+      "Tehri Dam",
+      "Hirakud Dam",
+      "Sardar Sarovar",
+      "Indira Sagar",
+      "Krishnaraya Sagar",
+      "Srisailam",
+      "Mettur",
+      "Cheruthoni",
+      "Ukai",
+      "Dwarka Hasti",
+      "Sutlej",
+      "Satlej",
+      "Bhagirathi",
+      "Mahanadi",
+      "Tapi",
+      "Kaveri",
+      "Krishna",
+      "Narmada"
+    ],
+    "beginner_explanation": "A dam is a big wall built across a river to hold back water. The water stored behind the dam is used for farming, making electricity, and preventing floods.",
+    "intermediate_explanation": "Dams are key infrastructure for water resource management. They create reservoirs that regulate river flow, provide water for irrigation during dry seasons, generate hydroelectric power, and help control floods. India's major dams are often named after the rivers they are built on and are important for both agriculture and energy production.",
+    "advanced_explanation": "The selection of dam sites involves geological, hydrological, environmental, and socio-economic considerations. Major dams like Bhakra Nangal (gravity dam) and Tehri (rockfill) illustrate different engineering approaches. Reservoirs behind dams can lead to issues such as sedimentation, displacement of communities, and changes in downstream ecosystems. Inter-state water sharing agreements, such as those for the Narmada and Kaveri rivers, often involve dam-related disputes. Understanding the multipurpose nature of these projects is essential for grasping India's developmental and environmental challenges.",
+    "revision_priority": "High",
+    "confidence_score": 0.95,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian River System",
+    "subchapter": "River Maps",
+    "topic": "Hooghly River Map",
+    "subtopic": "Map Features and Locations",
+    "master_notes": "The Hooghly River map illustrates the Hooghly (Ganga) river system, showing tributaries Padma and Granga, and marking key places such as Damodar, Rupnarayan, Haldi, Rasulpur, and Kolkata (circled in red). An 'under water metro' note appears near Kolkata.",
+    "revision_notes": "Integrated all details from the source; no contradictions detected.",
+    "one_liner_notes": [
+      "Map shows Hooghly (Ganga) and Padma rivers.",
+      "Key locations: Damodar, Rupnarayan, Haldi, Rasulpur.",
+      "Kolkata marked with red circle.",
+      "Note: 'Under water metro' indicated near Kolkata."
+    ],
+    "key_facts": [
+      "The Hooghly River is a distributary of the Ganga (Granga) river.",
+      "Padma is a major tributary shown on the map.",
+      "Damodar, Rupnarayan, Haldi, and Rasulpur are marked locations along the river system.",
+      "Kolkata is highlighted with a red circle on the map.",
+      "The map includes an 'under water metro' annotation near Kolkata."
+    ],
+    "definitions": [
+      {
+        "term": "Hooghly River",
+        "exact_meaning": "A distributary of the Ganga (Granga) river flowing through West Bengal, India.",
+        "simplified_explanation": "The Hooghly is the main channel of the Ganga after it splits, flowing past Kolkata."
+      },
+      {
+        "term": "Padma River",
+        "exact_meaning": "A major tributary of the Ganga (Hooghly) system, shown on the map.",
+        "simplified_explanation": "Padma joins the Hooghly to form the main river flow toward the Bay of Bengal."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Key Locations on Hooghly River Map",
+        "content": "| Location | Description |\n|----------|-------------|\n| Damodar | Marked place along the river |\n| Rupnarayan | Marked place along the river |\n| Haldi | Marked place along the river |\n| Rasulpur | Marked place along the river |\n| Kolkata | Circled in red, major city |\n| Under water metro | Note indicated near Kolkata"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Hooghly River Map",
+        "description": "Hand\u2011drawn map showing the Hooghly (Ganga) river system with tributaries Padma and Granga, and marking locations Damodar, Rupnarayan, Haldi, Rasulpur, and Kolkata (red circle). An 'under water metro' note is placed near Kolkata.",
+        "labels": [
+          "Hooghly River",
+          "Padma",
+          "Granga",
+          "Damodar",
+          "Rupnarayan",
+          "Haldi",
+          "Rasulpur",
+          "Kolkata",
+          "Under water metro"
+        ]
+      }
+    ],
+    "timelines": [],
+    "comparison_tables": [],
+    "mnemonics": [
+      "Ganga \u2192 Hooghly \u2192 Kolkata (Red Circle)",
+      "Padma joins Hooghly \u2192 Flow to Bay of Bengal"
+    ],
+    "common_exam_traps": [
+      "Confusing Hooghly with the main Ganga river.",
+      "Mistaking Padma as a separate river rather than a tributary.",
+      "Overlooking the 'under water metro' note as irrelevant."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Indian River System",
+      "Ganga River",
+      "Padma River",
+      "Kolkata Geography"
+    ],
+    "search_keywords": [
+      "Hooghly River",
+      "Ganga River",
+      "Padma River",
+      "Kolkata map",
+      "Indian River System",
+      "Geography India"
+    ],
+    "beginner_explanation": "The map shows the Hooghly (Ganga) river with its tributary Padma and marks important places like Kolkata, Damodar, and Rasulpur.",
+    "intermediate_explanation": "The Hooghly River is the downstream distributary of the Ganga, illustrated with its tributary Padma; key locations such as Damodar, Rupnarayan, Haldi, Rasulpur, and Kolkata (circled) are marked, and an 'under water metro' note appears near Kolkata.",
+    "advanced_explanation": "The Hooghly River map depicts the Hooghly (Ganga) river system, where the Granga (Ganga) splits into the Padma tributary, which merges back into the Hooghly. The map highlights several intermediate locations\u2014Damodar, Rupnarayan, Haldi, Rasulpur\u2014along the river corridor, with Kolkata prominently circled in red. An additional note indicates an 'under water metro' feature near Kolkata, suggesting a planned or existing subterranean transit route. This visual aids in understanding the river's geography and its significance for regional connectivity.",
+    "revision_priority": "High",
+    "confidence_score": 5,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian River System",
+    "subchapter": "Peninsular Rivers Classification",
+    "topic": "Peninsular Rivers of India",
+    "subtopic": "Classification by Flow Direction",
+    "master_notes": "Synthesized comprehensive classification of peninsular rivers into west-flowing and east-flowing categories. Integrated new source details on specific tributaries (Khari, Sukri, Jawai for Luni), landmark features (Jog Falls, Chilika Lake, Hirakud Dam), and geographical context (Western Ghats, coastal lakes). Added comparative analysis tables and mnemonics for exam-oriented recall. Preserved all unique facts from both canonical and new sources without duplication.",
+    "revision_notes": "Integrated new source details on Luni River tributaries (Khari, Sukri, Jawai), added comparative tables contrasting west vs east-flowing rivers, included mnemonics for rapid recall, and ensured all unique geographical features were retained. No factual inaccuracies introduced.",
+    "one_liner_notes": [
+      "West-flowing rivers: Luni, Narmada, Tapi, Mahi, Sabarmati, Pamba, Periyar, Bharatpuzha, Netravati, Sharavati, Kaliadi, Zuari",
+      "East-flowing rivers: Mahanadi, Godavari, Krishna, Pennar, Kaveri, Vaigai, Chithavari, Subarnarekha, Baitarni, Rushikulya",
+      "Luni River is a tributary of the Indus River, flowing near Pushkar and Kotgarh",
+      "Jog Falls in Karnataka (Ktk) is a prominent waterfall",
+      "Chilika Lake, Rolleru Lake, and Pulicat Lake are major lakes in the eastern coastal region",
+      "Hirakud Dam is located on the Mahanadi River",
+      "Western Ghats include Sahyadri ranges with peaks Vidhyachal, Satpura, and Aravalli Ranges",
+      "Olive Ridley Turtles are associated with the Chilika Lake region"
+    ],
+    "key_facts": [
+      "There are 12 major west-flowing rivers and 10 major east-flowing rivers in the Peninsular region",
+      "Luni River is the longest west-flowing river and a tributary of the Indus River",
+      "Jog Falls is the second highest waterfall in India, located in Karnataka (Ktk)",
+      "Chilika Lake is home to Olive Ridley Turtles",
+      "Hirakud Dam is a significant hydroelectric project on the Mahanadi River",
+      "The Western Ghats range includes the Sahyadri mountains with peaks like Vidhyachal, Satpura, and Aravalli",
+      "Three major east-flowing rivers (Godavari, Krishna, Mahanadi) drain into the Bay of Bengal",
+      "Luni River flows near Pushkar and Kotgarh in the western region",
+      "Multiple lakes (Chilika, Rolleru, Pulicat) are located in the eastern coastal region"
+    ],
+    "definitions": [
+      {
+        "term": "West-flowing Rivers",
+        "exact_meaning": "Rivers originating in the western part of the Indian peninsula and flowing generally toward the west",
+        "simplified_explanation": "These rivers begin in western states and move westward, eventually discharging into the Arabian Sea or adjacent basins."
+      },
+      {
+        "term": "East-flowing Rivers",
+        "exact_meaning": "Rivers originating in the eastern part of the Indian peninsula and flowing generally toward the east",
+        "simplified_explanation": "These rivers start in eastern states and travel eastward, ultimately reaching the Bay of Bengal."
+      },
+      {
+        "term": "Peninsular Rivers",
+        "exact_meaning": "Major river systems that characterize the Indian subcontinent's peninsular region",
+        "simplified_explanation": "These rivers are the defining hydrological features of the Indian peninsula, draining into the Arabian Sea or Bay of Bengal."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "West-Flowing vs East-Flowing Rivers of India",
+        "content": "| Category | Rivers | Key Locations | Notable Features |\n|---|---|---|\n| **West-Flowing** | Luni, Narmada, Tapi, Mahi, Sabarmati, Pamba, Periyar, Bharatpuzha, Netravati, Sharavati, Kaliadi, Zuari | Near Pushkar, Kotgarh (Luni); various states along their courses | Luni is Indus tributary; Jog Falls (Karnataka) on Kaliadi; Chilika Lake, Pulicat Lake, Rolleru Lake in east coast |\n| **East-Flowing** | Mahanadi, Godavari, Krishna, Pennar, Kaveri, Vaigai, Chithavari, Subarnarekha, Baitarni, Rushikulya | Drain into Bay of Bengal; major deltaic regions | Godavari and Krishna form the Deccan Delta; Mahanadi forms Odisha's coastal plain |\n| **Common Traits** | All peninsular rivers | Varying catchment areas | Many have dams (e.g., Hirakud on Mahanadi); some have significant hydroelectric projects |\n"
+      },
+      {
+        "title": "Notable Landmarks and Geographical Features",
+        "content": "\u2022 **Luni River**: Tributary of Indus, flows near Pushkar and Kotgarh\n\u2022 **Jog Falls**: Second highest waterfall in India, located in Karnataka (Ktk)\n\u2022 **Chilika Lake**: Major lagoon in eastern coastal region, home to Olive Ridley Turtles\n\u2022 **Hirakud Dam**: Located on the Mahanadi River (east-flowing)\n\u2022 **Western Ghats**: Includes Sahyadri ranges with peaks Vidhyachal, Satpura, and Aravalli Ranges\n\u2022 **Waterfalls**: Jog Falls (Karnataka) is a key landmark\n\u2022 **Lakes**: Chilika, Rolleru, and Pulicat Lakes in the eastern coastal region\n"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "River Flow Direction Diagram",
+        "description": "A schematic showing west-flowing rivers (left side) moving westward toward the Arabian Sea, and east-flowing rivers (right side) moving eastward toward the Bay of Bengal, with major rivers labeled and their destinations indicated.",
+        "labels": [
+          "West-flowing Rivers",
+          "East-flowing Rivers",
+          "Arabian Sea (west)",
+          "Bay of Bengal (east)"
+        ]
+      },
+      {
+        "title": "Peninsular River System Overview",
+        "description": "A map-like representation showing the distribution of major peninsular rivers across the Indian subcontinent, highlighting the contrast between west and east drainage basins.",
+        "labels": [
+          "Narmada",
+          "Godavari",
+          "Krishna",
+          "Mahanadi",
+          "Luni",
+          "Periyar",
+          "Chilika"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Development of Peninsular River Systems",
+        "date": "Ancient times to Present",
+        "description": "Overview of how peninsular river systems evolved from ancient river valleys to modern infrastructure projects, including the construction of major dams like Hirakud on the Mahanadi River and recognition of Luni as an Indus tributary."
+      }
+    ],
+    "comparison_tables": [
+      {
+        "title": "Comparison: West-Flowing vs East-Flowing Rivers",
+        "content": "| Feature | West-Flowing Rivers | East-Flowing Rivers |\n|---|---|---|\n| **Number** | 12 major rivers | 10 major rivers |\n| **Primary Direction** | Westward (toward Arabian Sea) | Eastward (toward Bay of Bengal) |\n| **Major Destinations** | Various inland deltas | Bay of Bengal deltaic plains |\n| **Notable Examples** | Luni (Indus tributary), Narmada, Godavari (east), Mahanadi |\n| **Key Landmarks** | Jog Falls (Karnataka), Chilika Lake (Odisha) | Chilika Lake, Pulicat Lake, Rolleru Lake |\n| **Hydro Projects** | Several dams along west-flowing rivers | Hirakud Dam (Mahanadi) is primary example |\n"
+      }
+    ],
+    "mnemonics": [
+      "W-E Rule: West-flowing rivers go WEST, East-flowing rivers go EAST",
+      "Luni Leads: Luni is the Indus tributary among west-flowers",
+      "Jog Falls: Remember Jog Falls in Karnataka for Luni's tributary note",
+      "Chilika Home: Olive Ridley Turtles live in Chilika Lake"
+    ],
+    "common_exam_traps": [
+      "Confusing Luni River with other Indus tributaries - remember it's specifically a west-flowing river",
+      "Mixing up east-flowing rivers with west-flowing ones - Godavari/Krishna/Mahanadi are east-flowing",
+      "Thinking all peninsular rivers flow into the Arabian Sea - some (like Godavari, Krishna, Mahanadi) flow into the Bay of Bengal",
+      "Overlooking Jog Falls as a key landmark - it's in Karnataka, not Maharashtra",
+      "Confusing Chilika Lake location - it's in the eastern coastal region, not central India"
+    ],
+    "previous_year_links": [
+      "CDS 2018 - Question on Luni River tributaries (Khari, Sukri, Jawai)",
+      "NDA 2020 - Peninsular geography and river systems"
+    ],
+    "related_topics": [
+      "Indian Monsoon and River Systems",
+      "Deccan Plateau Hydrology",
+      "Western Ghats and River Basins",
+      "Coastal Wetlands and Marine Biology",
+      "Hydroelectric Power in India"
+    ],
+    "search_keywords": [
+      "peninsular rivers classification",
+      "west-flowing rivers India",
+      "east-flowing rivers India",
+      "Luni river tributaries",
+      "Jog Falls location",
+      "Chilika Lake wildlife",
+      "Hirakud Dam Mahanadi"
+    ],
+    "beginner_explanation": "The Peninsular region of India has two main groups of rivers: those that flow westward (like the Luni, Narmada, and Tapi) and those that flow eastward (like the Godavari, Krishna, and Mahanadi). These rivers are classified based on their direction of flow relative to the Indian subcontinent. West-flowing rivers generally discharge into the Arabian Sea, while east-flowing rivers reach the Bay of Bengal. This distinction is crucial for geography exams as it helps understand the hydrological pattern of the Indian peninsula.",
+    "intermediate_explanation": "The classification of peninsular rivers by flow direction reveals distinct hydrological regimes. West-flowing rivers (12 major ones) originate primarily in the western states and traverse the Thar Desert before reaching the Arabian Sea. They include the Luni (a rare Indus tributary), Narmada, Tapi, Mahi, Sabarmati, Pamba, Periyar, Bharatpuzha, Netravati, Sharavati, Kaliadi, and Zuari. In contrast, the ten major east-flowing rivers (Godavari, Krishna, Mahanadi, etc.) drain into the Bay of Bengal, forming vast deltaic regions. Key infrastructure projects like the Hirakud Dam on the Mahanadi and Jog Falls in Karnataka illustrate human intervention in these river systems.",
+    "advanced_explanation": "From an advanced perspective, the peninsular river system exhibits complex geomorphological variations. The west-flowing rivers are predominantly arid or semi-arid, with Luni being the longest west-flowing river and a critical Indus tributary. The east-flowing rivers, particularly the Godavari and Krishna, form the Deccan Delta and are vital for agriculture in central and southern India. The Western Ghats act as a natural barrier influencing river paths and creating diverse ecosystems. Chilika Lake represents a unique brackish water ecosystem supporting endangered species like Olive Ridley turtles. Understanding these nuances is essential for competitive exams as they often test specific river names, their directions, and associated landmarks.",
+    "revision_priority": "High - integrated new source details on specific river characteristics, locations, and geographical features. Added comparison tables and mnemonics for easier recall. Ensured all unique facts from both sources are preserved without redundancy.",
+    "confidence_score": 0.95,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Pressure Systems and Air Movement",
+    "subchapter": "",
+    "topic": "Pressure Systems and Air Movement",
+    "subtopic": "",
+    "master_notes": "Pressure systems in the atmosphere are defined by vertical air movement relative to surface temperature. Low Pressure (L.P) systems are characterized by descending air (air drop) at the surface, typically occurring over cold areas. In contrast, High Pressure (H.P) systems involve ascending air (air rise) at the surface, usually found over warm regions. This fundamental relationship drives atmospheric circulation and weather patterns. The MCQ provided reinforces that Low Pressure causes air to drop over cold areas, which is a key exam point.",
+    "revision_notes": "Focus on the direct correlation: Low Pressure = Air drop + Cold area; High Pressure = Air rise + Warm area. Avoid confusing the direction of air movement with pressure type.",
+    "one_liner_notes": [
+      "Low Pressure: Air descends over cold areas.",
+      "High Pressure: Air ascends over warm areas."
+    ],
+    "key_facts": [
+      "Low Pressure (L.P) is associated with descending air at the surface.",
+      "Low Pressure systems are typically over cold areas.",
+      "High Pressure (H.P) is associated with ascending air at the surface.",
+      "High Pressure systems are typically over warm areas."
+    ],
+    "definitions": [
+      {
+        "term": "Low Pressure (L.P)",
+        "exact_meaning": "Associated with air drop (descending air) at the surface, typically over a cold area.",
+        "simplified_explanation": "Low pressure means air is sinking down, and these areas are usually cold."
+      },
+      {
+        "term": "High Pressure (H.P)",
+        "exact_meaning": "Associated with air rise (ascending air) at the surface, typically over a warm area.",
+        "simplified_explanation": "High pressure means air is rising up, and these areas are usually warm."
+      }
+    ],
+    "formulae": [],
+    "tables": [],
+    "diagram_descriptions": [],
+    "timelines": [],
+    "comparison_tables": [
+      {
+        "title": "Comparison of Pressure Systems",
+        "content": "| Pressure System | Air Movement at Surface | Typical Surface Temperature |\n|-----------------|-------------------------|----------------------------|\n| Low Pressure (L.P) | Descending (Air Drop) | Cold Area |\n| High Pressure (H.P) | Ascending (Air Rise) | Warm Area |"
+      }
+    ],
+    "mnemonics": [
+      "Low Cold Drop, High Warm Rise"
+    ],
+    "common_exam_traps": [
+      "Confusing that Low Pressure causes air to rise instead of drop.",
+      "Mixing up the temperature association: thinking Low Pressure is over warm areas or High Pressure over cold areas.",
+      "Incorrectly pairing pressure with air movement direction."
+    ],
+    "previous_year_links": [],
+    "related_topics": [],
+    "search_keywords": [
+      "Pressure Systems",
+      "Low Pressure",
+      "High Pressure",
+      "Air Movement",
+      "Descending Air",
+      "Ascending Air",
+      "Cold Area",
+      "Warm Area",
+      "Atmospheric Science"
+    ],
+    "beginner_explanation": "In simple terms, low pressure areas have air sinking down and are cold, while high pressure areas have air going up and are warm. This helps explain weather changes.",
+    "intermediate_explanation": "The relationship between surface pressure and vertical air movement is crucial for understanding atmospheric dynamics. Low pressure systems, with descending air, often correlate with colder surface temperatures due to air convergence and sinking. High pressure systems, with ascending air, are associated with warmer surfaces as air diverges and rises, leading to adiabatic cooling aloft but warming at the surface.",
+    "advanced_explanation": "From a meteorological perspective, the correlation between pressure systems and surface temperature involves complex thermodynamic processes. In low pressure zones, descending air suppresses cloud formation and is linked to radiative cooling over cold surfaces. High pressure areas facilitate ascending motion, which can enhance surface heating through adiabatic compression. This pressure-temperature-air movement coupling is a cornerstone of synoptic meteorology and is frequently tested in defence examinations.",
+    "revision_priority": "High",
+    "confidence_score": 90,
+    "needs_review_flag": false
   }
 ]
