@@ -1,12 +1,24 @@
---- 2025-2026 INDIAN ARMED FORCES INDUCTION UPDATES ---
+--- 2025-2026 INDIAN ARMED FORCES INDUCTION & RETIREMENT UPDATES ---
+CRITICAL RULES FOR LLM: 
+Do NOT rely on old training data for fleet numbers or active status. Adhere STRICTLY to the following 2026 ground truth facts. If something is retired, you must explicitly mark it as "Retired" or completely omit it from "Active" lists.
+
+Fighters (Air Force):
+- MiG-21 Bison: COMPLETELY RETIRED by 2025. ZERO aircraft in service. Do NOT list as active.
+- MiG-27: COMPLETELY RETIRED in 2019.
+- Dassault Rafale: 36 aircraft ACTIVE (inducted fully by 2022).
+- LCA Mk-1A (Tejas): HAL delivering first squadrons by 2025-2026. Replacing MiG-21s.
+- Su-30MKI, Mirage 2000, MiG-29UPG, Tejas Mk1 are the other main active fighters.
+
 Naval Forces:
 - INS Aridhaman (S4): India's third indigenous nuclear-powered ballistic missile submarine (SSBN) of the Arihant-class, commissioned early 2026.
 - Project 17A Stealth Frigates: INS Taragiri, INS Mahendragiri, INS Dunagiri, INS Vindhyagiri (commissioning 2026).
 - 2025 Inductions: 4th P15B destroyer (INS Surat), 1st P17A stealth frigate (INS Nilgiri), 6th P75 submarine (INS Vaghsheer), INS Arnala.
 
-Air Force & Aircraft:
-- LCA Mk-1A (Tejas): HAL delivering first squadrons by 2025-2026.
-- C-295 Transport Aircraft: First locally assembled plane rolled out from Vadodara facility in 2026.
+Air Force & Aircraft (Transports & Helis):
+- C-295 Transport Aircraft: First locally assembled plane rolled out from Vadodara facility in 2026. Replacing Avro 748.
+- Avro 748: Phased out / replaced by C-295.
+- HAL Prachand (LCH): Fully active and being inducted in numbers.
+- HAL LUH (Light Utility Helicopter): Entering service, replacing Cheetah/Chetak.
 
 Missiles & Air Defense:
 - Akash-NG: Next-generation surface-to-air missile inducted 2025-2026.
