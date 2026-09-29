@@ -82,5 +82,842 @@
     "revision_priority": "Low",
     "confidence_score": 0.98,
     "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Geography, Social Organisation & Architecture",
+    "topic": "Indus Valley Civilization - Geography, Social Organisation & Architecture",
+    "subtopic": "Urban Planning, Social Stratification & Architectural Techniques",
+    "master_notes": "The Indus Valley Civilization (2600\u20131900 BCE) flourished in the Indus River Valley across present-day India and Pakistan. It was vast and extensive, featuring major cities such as Harappa, Mohenjodaro, Dholavira, and Lothal. Urban centres were meticulously planned with grid-like street layouts, sophisticated drainage systems, and public wells. Socially, the civilization exhibited a well-structured hierarchy with distinct classes, a ruling elite, priestly class, skilled artisans, traders, and labourers, alongside evidence of communal living and shared public spaces. Architecture showcased advanced planning with standardized bricks, large public buildings, granaries, reservoirs, elaborate drainage, and houses with courtyards. Note: Sources suggest possible evidence of gender equality and absence of social discrimination, though these remain debated among historians.",
+    "revision_notes": "IVC (2600\u20131900 BCE): Indus River Valley, India-Pakistan. Major cities: Harappa, Mohenjodaro, Dholavira, Lothal. Grid streets, drainage, wells. Social: hierarchical, elite, priests, artisans. Architecture: standardized bricks, courtyards, granaries. Gender equality and lack of discrimination are possible but debated.",
+    "one_liner_notes": [
+      "Flourished 2600\u20131900 BCE in Indus River Valley.",
+      "Major cities: Harappa, Mohenjodaro, Dholavira, Lothal.",
+      "Planned urban centres with grid-like streets and drainage.",
+      "Hierarchical society with elite, priests, artisans, traders.",
+      "Standardized bricks and courtyard houses."
+    ],
+    "key_facts": [
+      "Period: 2600 BCE to 1900 BCE",
+      "Location: Indus River Valley (India & Pakistan)",
+      "Major cities: Harappa, Mohenjodaro, Dholavira, Lothal",
+      "Urban planning: grid-like streets, drainage, public wells",
+      "Social classes: ruling elite, priests, artisans, traders, labourers",
+      "Architecture: standardized bricks, granaries, reservoirs, courtyards"
+    ],
+    "definitions": [
+      {
+        "term": "Indus Valley Civilization",
+        "exact_meaning": "Bronze Age civilization (2600\u20131900 BCE) in the Indus River valley",
+        "simplified_explanation": "One of the world's earliest urban cultures located in present-day India and Pakistan."
+      },
+      {
+        "term": "Grid-like street layout",
+        "exact_meaning": "Planned streets intersecting at right angles",
+        "simplified_explanation": "Streets arranged in a regular pattern forming blocks, indicating advanced town planning."
+      },
+      {
+        "term": "Standardized bricks",
+        "exact_meaning": "Bricks of uniform size and ratio",
+        "simplified_explanation": "Construction bricks made to consistent dimensions, reflecting organized manufacturing."
+      }
+    ],
+    "tables": [
+      {
+        "title": "Key Features of IVC",
+        "content": "| Aspect | Details |\n|---|---|\n| Period | 2600\u20131900 BCE |\n| Geography | Indus River Valley (India & Pakistan) |\n| Major Cities | Harappa, Mohenjodaro, Dholavira, Lothal |\n| Urban Planning | Grid streets, drainage, wells |\n| Social Structure | Hierarchical, elite, priests, artisans |\n| Architecture | Standardized bricks, courtyards, granaries |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Planned City Layout",
+        "description": "Grid-pattern streets with standardized brick houses, internal courtyards, and covered drainage systems running alongside streets.",
+        "labels": [
+          "Grid Streets",
+          "Drainage",
+          "Courtyard House",
+          "Public Well"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Mature Harappan Phase Begins",
+        "date": "2600 BCE",
+        "description": "Urbanization peaks; major cities established."
+      },
+      {
+        "event": "Decline of IVC",
+        "date": "1900 BCE",
+        "description": "Civilization begins to decline; urban centers abandoned."
+      }
+    ],
+    "comparison_tables": [],
+    "mnemonics": [
+      "H-M-D-L: Harappa, Mohenjodaro, Dholavira, Lothal"
+    ],
+    "common_exam_traps": [
+      "Mature phase dates: 2600\u20131900 BCE, not the entire span of the civilization.",
+      "Standardized bricks: source confirms uniformity but not material (clay/mud).",
+      "Social discrimination: source says 'possible evidence of absence'\u2014treat as debated, not proven.",
+      "Gender equality: source says 'possible evidence'\u2014do not state as fact."
+    ],
+    "previous_year_links": [],
+    "related_topics": [],
+    "search_keywords": [
+      "Indus Valley Civilization",
+      "Harappa",
+      "Mohenjodaro",
+      "Dholavira",
+      "Lothal",
+      "grid street layout",
+      "standardized bricks",
+      "drainage system",
+      "social classes",
+      "Bronze Age"
+    ],
+    "beginner_explanation": "The Indus Valley Civilization (2600\u20131900 BCE) was an ancient urban culture in the Indus River valley (modern India & Pakistan). It had well-planned cities like Harappa and Mohenjodaro with grid-pattern streets, drains, and public wells. Society was hierarchical with rulers, priests, artisans, and workers. Buildings used standardized bricks and had courtyards.",
+    "intermediate_explanation": "IVC (2600\u20131900 BCE) flourished across the Indus River Valley with major sites Harappa, Mohenjodaro, Dholavira, and Lothal. Cities featured grid-like streets, sophisticated drainage, and public wells, indicating advanced urban planning. Social organisation was hierarchical with a ruling elite, priestly class, skilled artisans, traders, and labourers, alongside communal living spaces. Architecture employed standardized bricks, large public buildings, granaries, reservoirs, and houses with courtyards. Sources note possible evidence of gender equality and absence of social discrimination, though these remain debated.",
+    "advanced_explanation": "The Mature Harappan phase (2600\u20131900 BCE) represents one of the most extensive Bronze Age urban networks, spanning the Indus River Valley across present-day India and Pakistan. Urban planning followed a grid pattern with advanced hydraulic engineering including covered drainage and public wells. Social stratification is evidenced by elite residences and public buildings; however, the degree of inequality is contested\u2014sources suggest possible gender equality and absence of social discrimination, but these claims require cautious interpretation. Standardized brick ratios indicate centralized production systems. The civilization's decline around 1900 BCE marks a transition to regional post-urban cultures.",
+    "revision_priority": "High",
+    "confidence_score": 0.85,
+    "needs_review_flag": true
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Geography, Social Organisation & Architecture",
+    "topic": "Indus Valley Civilization - Geography, Social Organisation & Architecture",
+    "subtopic": "Overview",
+    "master_notes": "## Indus Valley Civilization\n\n**Time Period:** 2600\u20111900 BCE\n\n### Geography & Settlements\n- Located in the Indus River Valley, covering present\u2011day India and Pakistan.\n- The civilization was **vast and extensive**, spanning a large area.\n- **Major urban centres:** Harappa, Mohenjodaro, Dholavira, Lothal.\n- Cities were **planned** with a **grid\u2011like street layout**.\n- **Sophisticated drainage systems** and **public wells** were built.\n\n### Social Organisation\n- Society was **well\u2011structured** with a **hierarchical system**.\n- Evidence of a **ruling elite** and a **priestly class**.\n- **Skilled artisans, traders, and labourers** formed the economic backbone.\n- **Communal living** and shared public spaces indicate strong community ties.\n- Some archaeological findings suggest **gender equality** and **absence of overt social discrimination**.\n\n### Architecture & Craftsmanship\n- **Advanced urban planning** and architectural design.\n- Use of **standardised bricks** (uniform size and ratio) in construction.\n- **Large public buildings**, granaries, and reservoirs for water storage.\n- **Elaborate drainage and sewage systems** rivaling modern standards.\n- Residential houses often featured **courtyards** and multi\u2011room layouts.\n\n### Key Features Summarised\n- Planned cities with grid streets.\n- Uniform construction materials.\n- Complex water management (wells, reservoirs, drainage).\n- Social stratification with elite and priestly classes.\n- Evidence of trade, craft specialization, and communal life.\n- Undeciphered Indus script.\n- Decline around 1900\u202fBCE (environmental changes, river shifts).",
+    "revision_notes": "Indus Valley Civilization (Harappan) flourished 2600\u20111900\u202fBCE across the Indus River basin. Major cities: Harappa, Mohenjodaro, Dholavira, Lothal. Planned grid towns with standardized bricks, sophisticated drainage, public wells, granaries, and the Great Bath. Social structure: hierarchical elite and priestly class, skilled artisans, traders, laborers; possible gender equality. Architecture: advanced urban planning, courtyarded houses, elaborate sewage. Key features: uniform construction, water management, trade, craft specialization.",
+    "one_liner_notes": [
+      "Flourished 2600\u20111900\u202fBCE in the Indus River Valley (present\u2011day India & Pakistan).",
+      "Major cities: Harappa, Mohenjodaro, Dholavira, Lothal.",
+      "Grid\u2011like street layout and planned urban centres.",
+      "Standardised bricks and uniform construction.",
+      "Sophisticated drainage and public wells.",
+      "Large public buildings, granaries, reservoirs.",
+      "Social hierarchy with elite & priestly class.",
+      "Skilled artisans, traders, laborers; possible gender equality.",
+      "Undeciphered Indus script.",
+      "Decline around 1900\u202fBCE (climate, river shifts)."
+    ],
+    "key_facts": [
+      "Time period: 2600\u20111900\u202fBCE.",
+      "Location: Indus River Valley (present\u2011day north\u2011west India & Pakistan).",
+      "Urban planning: grid streets, drainage, wells.",
+      "Standardised bricks (1:2:4 ratio).",
+      "Major cities: Harappa, Mohenjodaro, Dholavira, Lothal.",
+      "Social: hierarchical elite, priestly class, artisans, possible gender equality.",
+      "Architecture: granaries, reservoirs, courtyarded houses, elaborate sewage.",
+      "Script: undeciphered Indus symbols.",
+      "Trade: evidence with Mesopotamia.",
+      "Decline: environmental changes, river shifts."
+    ],
+    "definitions": [
+      {
+        "term": "Indus Valley Civilization (Harappan Civilization)",
+        "exact_meaning": "The earliest urban civilization of the Indian subcontinent, flourishing in the Indus River basin during the Bronze Age.",
+        "simplified_explanation": "A highly organized society known for its planned cities, uniform bricks, and advanced drainage."
+      },
+      {
+        "term": "Harappan Civilization",
+        "exact_meaning": "Another name for the Indus Valley Civilization, derived from the first discovered site, Harappa.",
+        "simplified_explanation": "Refers to the same civilization as the Indus Valley Civilization."
+      },
+      {
+        "term": "Grid\u2011like street layout",
+        "exact_meaning": "Urban design where streets intersect at right angles forming a rectangular grid.",
+        "simplified_explanation": "Cities were divided into blocks by straight streets running north\u2011south and east\u2011west."
+      },
+      {
+        "term": "Standardised bricks",
+        "exact_meaning": "Uniformly sized and proportioned bricks (typically 1:2:4 ratio) used across all Indus sites.",
+        "simplified_explanation": "Ensured consistency in construction and facilitated rapid building."
+      },
+      {
+        "term": "Drainage system",
+        "exact_meaning": "An elaborate network of covered drains, often stone\u2011lined, that carried wastewater away from houses and streets.",
+        "simplified_explanation": "Provided sanitation and prevented flooding in urban areas."
+      },
+      {
+        "term": "Public wells",
+        "exact_meaning": "Community\u2011accessible water sources, often brick\u2011lined, that supplied water to residents.",
+        "simplified_explanation": "Ensured reliable water supply for daily use."
+      },
+      {
+        "term": "Social hierarchy",
+        "exact_meaning": "A structured division of society into classes, typically including elites, priests, artisans, and labourers.",
+        "simplified_explanation": "Reflected in burial goods, large public structures, and craft specialization."
+      },
+      {
+        "term": "Ruling elite",
+        "exact_meaning": "The governing class that likely controlled political and economic activities.",
+        "simplified_explanation": "Associated with large buildings, granaries, and administrative functions."
+      },
+      {
+        "term": "Priestly class",
+        "exact_meaning": "Religious specialists who performed rituals and possibly held influence over societal matters.",
+        "simplified_explanation": "Often linked to structures like the Great Bath."
+      },
+      {
+        "term": "Gender equality (possible)",
+        "exact_meaning": "Evidence suggesting that men and women may have enjoyed comparable social status and rights.",
+        "simplified_explanation": "Artefacts and burial patterns show little gender\u2011based disparity."
+      },
+      {
+        "term": "Great Bath (Mohenjodaro)",
+        "exact_meaning": "A large, waterproofed tank used for ritual bathing or communal activities.",
+        "simplified_explanation": "Indicates importance of hygiene and possibly religious ceremonies."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Major Indus Cities and Their Features",
+        "content": "| City | Present\u2011day Location | Notable Features |\n|------|-----------------------|------------------|\n| Harappa | Pakistan (Punjab) | Early urban centre, granary, drainage |\n| Mohenjodaro | Pakistan (Sindh) | Advanced drainage, Great Bath, citadel |\n| Dholavira | India (Gujarat) | Water conservation, stepwell, reservoirs |\n| Lothal | India (Gujarat) | Dockyard, bead factory, trade hub |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Typical Indus City Plan",
+        "description": "A grid of streets intersecting at right angles, dividing the city into large blocks. Major streets run north\u2011south and east\u2011west, with smaller lanes. Public buildings such as granaries and the Great Bath are located in the citadel area, while residential houses with courtyards occupy the lower town.",
+        "labels": [
+          "Grid streets",
+          "Citadel",
+          "Lower town",
+          "Drainage channels"
+        ]
+      },
+      {
+        "title": "Indus Drainage System",
+        "description": "An elaborate network of covered drains running alongside streets, equipped with manholes for cleaning. Wastewater from houses flows into these drains, which eventually empty into larger culverts. The system reflects advanced civic engineering and public health awareness.",
+        "labels": [
+          "House drains",
+          "Street drains",
+          "Manholes",
+          "Culverts"
+        ]
+      },
+      {
+        "title": "The Great Bath (Mohenjodaro)",
+        "description": "A large, rectangular water tank (approx. 12m x 7m) situated in the citadel. It was lined with bricks and sealed with a waterproof layer of bitumen. Steps lead into the water, and adjacent rooms suggest ritual bathing or public gatherings.",
+        "labels": [
+          "Water tank",
+          "Bitumen lining",
+          "Steps",
+          "Adjacent rooms"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Begin of Mature Harappan Phase",
+        "date": "c. 2600\u202fBCE",
+        "description": "Start of urban development and city planning."
+      },
+      {
+        "event": "Peak Urban Development",
+        "date": "c. 2550\u20112500\u202fBCE",
+        "description": "Maximum expansion of grid cities, drainage, and public works."
+      },
+      {
+        "event": "Decline and Abandonment",
+        "date": "c. 1900\u202fBCE",
+        "description": "Cities gradually deserted due to environmental changes and river shifts."
+      }
+    ],
+    "comparison_tables": [
+      {
+        "title": "Indus Valley vs Contemporary Civilizations",
+        "content": "| Aspect | Indus Valley | Mesopotamia | Ancient Egypt |\n|--------|--------------|--------------|---------------|\n| Time Period | 2600\u20111900\u202fBCE | 3100\u20111900\u202fBCE | 3100\u20112686\u202fBCE |\n| Urban Planning | Grid layout, drainage | Ziggurat\u2011centered, less grid | Planned cities, limited drainage |\n| Writing System | Undeciphered Indus script | Cuneiform | Hieroglyphs |\n| Social Organisation | Hierarchical elite, possible gender equality | City\u2011states, king\u2011priest | Pharaoh\u2011centered divine rule |\n| Major Architecture | Granaries, reservoirs, drainage | Ziggurats, palaces | Pyramids, temples |"
+      }
+    ],
+    "mnemonics": [
+      "HM DL \u2013 Harappa, Mohenjodaro, Dholavira, Lothal"
+    ],
+    "common_exam_traps": [
+      "Assuming a centralized monarchy similar to Egypt.",
+      "Believing iron tools were widely used (bronze was primary).",
+      "Thinking the Indus script is fully deciphered (it remains undeciphered).",
+      "Overlooking rural settlements and assuming only urban life.",
+      "Neglecting the sophisticated drainage and water management systems."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Harappan script",
+      "Indus Valley trade with Mesopotamia",
+      "Decline theories (climate change, river shift)",
+      "Archaeological discoveries (seal impressions)",
+      "Urban planning in ancient civilizations"
+    ],
+    "search_keywords": [
+      "Indus Valley Civilization",
+      "Harappa",
+      "Mohenjodaro",
+      "Dholavira",
+      "Lothal",
+      "urban planning",
+      "drainage system",
+      "standardised bricks",
+      "social organisation",
+      "architecture",
+      "Indus Valley MCQ",
+      "History NDA CDS AFCAT"
+    ],
+    "beginner_explanation": "The Indus Valley Civilization, also called the Harappan Civilization, was one of the world\u2019s earliest urban societies, flourishing between 2600 and 1900\u202fBCE in the Indus River basin. It is noted for its well\u2011planned cities, advanced drainage, uniform bricks, and a relatively egalitarian social structure.",
+    "intermediate_explanation": "The civilization covered a vast area of present\u2011day north\u2011west India and Pakistan. Its cities exhibit a grid layout, sophisticated water management, and evidence of trade networks reaching Mesopotamia. Social hierarchy is indicated by elite burials and large public structures, yet there is also evidence of communal facilities and possible gender parity. The architectural legacy includes standardized construction techniques and elaborate drainage.",
+    "advanced_explanation": "Recent archaeological research highlights regional variations within the Harappan cultural sphere, suggesting a decentralized political organization rather than a single empire. Environmental data indicate that shifts in monsoon patterns and river courses contributed to the gradual de\u2011urbanization after 1900\u202fBCE. The undeciphered script remains a key obstacle to understanding administrative and religious practices.",
+    "revision_priority": "High",
+    "confidence_score": 0.95,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Major Sites and Decline",
+    "topic": "Rakhigarhi and Decline of IVC",
+    "subtopic": "Rakhigarhi Site & Theories of Decline",
+    "master_notes": "<p><strong>Rakhigarhi</strong> is located in <strong>Haryana, India</strong> and is recognized as <strong>one of the largest settlements</strong> of the Indus Valley Civilization (IVC), surpassing even Mohenjo-daro and Harappa in area. Excavations reveal a well-planned urban centre with fortifications, drainage systems, and evidence of craft production.</p><h3>Theories of Decline & Decay</h3><p>The decline of the IVC (c. 1900\u20131300 BCE) was likely a <strong>multicausal process</strong> rather than a single event. Major theories include:</p><ul><li><strong>Ecological & Environmental Factors:</strong> Climate change leading to aridification, deforestation, and loss of agricultural productivity.</li><li><strong>Hydrological Changes:</strong> Shifts in river courses (especially the Ghaggar-Hakra/Saraswati system), catastrophic floods, or drying up of perennial water sources.</li><li><strong>Tectonic Activity:</strong> Earthquakes altering river courses and damaging urban infrastructure.</li><li><strong>Invasion/Conflict Theory:</strong> Earlier \"Aryan Invasion\" hypothesis (now largely discounted); possible evidence of interpersonal violence at some sites but no conclusive proof of large-scale invasion.</li><li><strong>Internal Socio-Political Collapse:</strong> Breakdown of central authority, trade networks, and urban administration leading to de-urbanization.</li><li><strong>Epidemics/Disease:</strong> High population density and sanitation challenges may have triggered outbreaks.</li></ul><p><strong>Outcome:</strong> Gradual <strong>abandonment of major urban centres</strong>, shift to smaller rural settlements (Late Harappan phase), loss of writing system, standardized weights, and long-distance trade. Cultural continuity persisted in rural traditions, contributing to later Vedic and regional cultures.</p>",
+    "revision_notes": "Rakhigarhi (Haryana) = Largest IVC site. Decline theories: Ecological (aridification), Hydrological (river shifts/floods), Tectonic, Invasion (weak evidence), Internal collapse, Disease. Result: De-urbanization, loss of script/trade, rural continuity.",
+    "one_liner_notes": [
+      "Rakhigarhi (Haryana) is the largest known IVC settlement.",
+      "IVC decline (c. 1900\u20131300 BCE) was multicausal, not a single event.",
+      "Key decline factors: Climate change/aridification, Ghaggar-Hakra river shifts, floods, tectonic activity.",
+      "Aryan Invasion Theory largely discarded; limited evidence of violence.",
+      "Outcome: Abandonment of cities, loss of writing & standardized weights, shift to rural Late Harappan phase."
+    ],
+    "key_facts": [
+      "Rakhigarhi spans ~550 hectares, larger than Mohenjo-daro (~300 ha) and Harappa (~150 ha).",
+      "Located on the Ghaggar-Hakra (paleo-Saraswati) river system in Hisar district, Haryana.",
+      "Excavations (ASI, 1997\u20132000; Deccan College, 2014+) reveal 7 mounds, fortifications, granaries, drainage.",
+      "DNA study (2019) from Rakhigarhi skeleton shows no Steppe pastoralist ancestry, supporting indigenous continuity.",
+      "Decline timeline: Mature Harappan (2600\u20131900 BCE) \u2192 Late Harappan (1900\u20131300 BCE) \u2192 Post-Urban.",
+      "No single layer of destruction found at major sites; gradual abandonment pattern."
+    ],
+    "definitions": [
+      {
+        "term": "Rakhigarhi",
+        "exact_meaning": "Largest known archaeological site of the Indus Valley Civilization, located in Hisar district, Haryana, India, covering approximately 550 hectares.",
+        "simplified_explanation": "Biggest IVC city found so far, in Haryana, showing advanced urban planning."
+      },
+      {
+        "term": "De-urbanization",
+        "exact_meaning": "Process by which urban centres are abandoned, population disperses to rural settlements, and complex urban features (writing, standardized weights, drainage, long-distance trade) disappear.",
+        "simplified_explanation": "Cities empty out, people move to villages, and advanced city features are lost."
+      },
+      {
+        "term": "Ghaggar-Hakra River System",
+        "exact_meaning": "Seasonal river system in India and Pakistan, identified by many scholars as the paleo-channel of the Vedic Saraswati river, along which numerous IVC sites (including Rakhigarhi) are located.",
+        "simplified_explanation": "Ancient river (possibly Saraswati) that dried up/shifted, causing IVC sites to lose water supply."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Major Theories of IVC Decline",
+        "content": "| Theory | Key Mechanism | Evidence | Current Status |\n|--------|---------------|----------|----------------|\n| Climate Change / Aridification | Reduced monsoon, increased aridity \u2192 agricultural collapse | Paleoclimatic data (speleothems, lake sediments), isotopic studies | Strong support; primary driver |\n| River Course Shifts / Drying of Ghaggar-Hakra | Tectonic uplift diverted Sutlej/Yamuna; river became seasonal | Satellite imagery, geomorphology, site distribution along paleo-channels | Strong support; major factor |\n| Catastrophic Flooding | Sudden floods destroyed cities, silted agriculture | Thick flood deposits at Mohenjo-daro, Kalibangan | Supported for some sites; not universal |\n| Tectonic Activity | Earthquakes altered drainage, damaged infrastructure | Seismotectonic studies, structural damage in buildings | Contributing factor |\n| Aryan Invasion / Migration | Violent conquest by Indo-Aryans | Earlier interpretation of skeletal remains at Mohenjo-daro; Rigvedic references | Largely rejected; no archaeological evidence of invasion |\n| Internal Collapse / Systems Failure | Breakdown of trade, administration, elite control | Disappearance of seals, script, weights; decline in craft specialization | Plausible as consequence of environmental stress |\n| Epidemics / Disease | High density + sanitation issues \u2192 population decline | Skeletal evidence of trauma/infection at some sites | Possible contributor; limited direct evidence |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "IVC Decline Process Flow",
+        "description": "Flowchart showing: Climate Change (Weak Monsoon) \u2192 River Shifts (Ghaggar-Hakra Drying) + Floods/Tectonics \u2192 Agricultural Decline & Water Scarcity \u2192 Urban Stress (Food Shortage, Trade Disruption) \u2192 Elite Authority Collapse \u2192 Abandonment of Cities (De-urbanization) \u2192 Ruralization (Late Harappan) \u2192 Cultural Continuity in Village Traditions.",
+        "labels": [
+          "Climate Change",
+          "River Shifts",
+          "Agricultural Decline",
+          "Urban Stress",
+          "Authority Collapse",
+          "City Abandonment",
+          "Ruralization",
+          "Cultural Continuity"
+        ]
+      },
+      {
+        "title": "Rakhigarhi Site Layout",
+        "description": "Schematic plan of Rakhigarhi showing 7 mounds (RGR-1 to RGR-7), fortified citadel area (Mounds 1, 2, 3), lower town (Mounds 4\u20137), north-south arterial streets, drainage channels, granary complex, and cemetery area (RGR-7). Ghaggar-Hakra paleo-channel runs east of the site.",
+        "labels": [
+          "Mound 1-3 (Citadel)",
+          "Mound 4-7 (Lower Town)",
+          "Arterial Streets",
+          "Drainage System",
+          "Granary",
+          "Cemetery (RGR-7)",
+          "Ghaggar-Hakra Paleo-channel"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Mature Harappan Phase (Urban Peak)",
+        "date": "2600\u20131900 BCE",
+        "description": "Rakhigarhi and other major cities flourish with standardized urban planning, writing, weights, long-distance trade."
+      },
+      {
+        "event": "Onset of Decline / Transition",
+        "date": "c. 1900 BCE",
+        "description": "Monsoon weakening begins; Ghaggar-Hakra starts becoming seasonal; signs of stress at urban centres."
+      },
+      {
+        "event": "Late Harappan Phase (De-urbanization)",
+        "date": "1900\u20131300 BCE",
+        "description": "Major cities abandoned; population shifts to smaller settlements in Gujarat, Gangetic plain, Punjab; loss of script, seals, standardized weights."
+      },
+      {
+        "event": "Post-Urban / Regional Cultures",
+        "date": "1300\u2013600 BCE",
+        "description": "Emergence of regional cultures (Cemetery H, Jhukar, Rangpur, Painted Grey Ware) showing continuity of pottery, crafts, rural traditions."
+      },
+      {
+        "event": "Rakhigarhi Excavations (ASI)",
+        "date": "1997\u20132000",
+        "description": "First systematic excavations by Archaeological Survey of India revealing city scale and planning."
+      },
+      {
+        "event": "Rakhigarhi DNA Study Published",
+        "date": "2019",
+        "description": "Ancient DNA from Rakhigarhi skeleton (I6113) shows Iranian farmer + South Asian hunter-gatherer ancestry, no Steppe pastoralist input."
+      }
+    ],
+    "comparison_tables": [
+      {
+        "title": "Rakhigarhi vs. Other Major IVC Sites",
+        "content": "| Feature | Rakhigarhi (Haryana) | Mohenjo-daro (Sindh) | Harappa (Punjab) | Dholavira (Gujarat) |\n|---------|----------------------|----------------------|------------------|---------------------|\n| Area (hectares) | ~550 (largest) | ~300 | ~150 | ~100 |\n| River System | Ghaggar-Hakra (Saraswati) | Indus | Ravi | Seasonal streams (Mansar) |\n| Excavation Status | Partially excavated (7 mounds) | Extensively excavated | Extensively excavated | Well excavated |\n| Unique Features | Largest site; 7 mounds; DNA evidence | Great Bath, Granary, Citadel | Granary rows, Cemetery H culture | Water reservoirs, Stadium, Signboard |\n| Decline Evidence | Gradual abandonment; no destruction layer | Flood deposits; skeletal remains | Cemetery H (late phase); abandonment | Gradual abandonment; water management failure |"
+      }
+    ],
+    "mnemonics": [
+      "Rakhigarhi = **R**eally **A** **K**ing-sized **H**arappan **A**rea **G**etting **R**ecognized **H**ere **I**n India (Largest IVC site in Haryana).",
+      "Decline Causes = **C**limate **R**iver **T**ectonics **I**nvasion? **I**nternal **D**isease \u2192 **CRTIID** (Critical Decline).",
+      "Ghaggar-Hakra = **G**one **H**idden **A**nd **G**one **H**akra (Dried up river)."
+    ],
+    "common_exam_traps": [
+      "Confusing Rakhigarhi with other Haryana sites (e.g., Banawali, Bhirrana) \u2013 Rakhigarhi is the largest.",
+      "Assuming Aryan Invasion was the primary cause \u2013 current consensus rejects invasion as main driver.",
+      "Thinking decline was sudden \u2013 it was a gradual process over centuries (1900\u20131300 BCE).",
+      "Believing IVC vanished completely \u2013 cultural continuity exists in Late Harappan and later cultures.",
+      "Misplacing Rakhigarhi on Indus River \u2013 it's on Ghaggar-Hakra (paleo-Saraswati) system."
+    ],
+    "previous_year_links": [
+      "NDA 2022: Largest IVC site in India? (Rakhigarhi)",
+      "CDS 2021: Which river system is associated with Rakhigarhi? (Ghaggar-Hakra)",
+      "AFCAT 2020: Cause of IVC decline not supported by evidence? (Aryan Invasion)",
+      "CAPF 2019: Site where ancient DNA study was conducted in 2019? (Rakhigarhi)"
+    ],
+    "related_topics": [
+      "Indus Valley Civilization - Urban Planning",
+      "Indus Valley Civilization - Script and Seals",
+      "Indus Valley Civilization - Trade and Economy",
+      "Vedic Period - Aryan Migration Debate",
+      "Ancient Indian Geography - Saraswati River",
+      "Archaeological Methods - Ancient DNA Analysis"
+    ],
+    "search_keywords": [
+      "Rakhigarhi",
+      "largest IVC site",
+      "Haryana",
+      "Ghaggar-Hakra",
+      "Saraswati river",
+      "IVC decline theories",
+      "de-urbanization",
+      "Late Harappan",
+      "ancient DNA Rakhigarhi",
+      "climate change IVC",
+      "Aryan invasion theory debunked"
+    ],
+    "beginner_explanation": "Rakhigarhi is the biggest city of the ancient Indus Valley Civilization, found in Haryana, India. The civilization didn't end suddenly; it slowly declined over hundreds of years because the climate became drier, rivers changed course or dried up, and farming became hard. People left the big cities and moved to villages. There's no proof of a big invasion. The culture didn't disappear\u2014it changed into village life that continued later.",
+    "intermediate_explanation": "Rakhigarhi (Hisar, Haryana) spans ~550 hectares, making it the largest known IVC site. The decline (c. 1900\u20131300 BCE) was multicausal: weakening monsoons led to aridification; tectonic shifts diverted the Sutlej and Yamuna away from the Ghaggar-Hakra (paleo-Saraswati), turning it seasonal; floods and earthquakes added stress. This caused agricultural collapse, trade disruption, and loss of elite control. Cities were gradually abandoned (de-urbanization), writing and standardized weights vanished, but rural traditions continued in Late Harappan cultures. The 2019 ancient DNA study from Rakhigarhi shows no Steppe ancestry, supporting indigenous population continuity.",
+    "advanced_explanation": "Rakhigarhi's size and location on the Ghaggar-Hakra system make it central to the 'Saraswati' debate. The decline represents a classic case of climate-driven societal transformation: speleothem records (e.g., Mawmluh Cave) show a 200-year megadrought starting ~4.2 ka BP, coinciding with IVC de-urbanization. However, regional variability exists\u2014Gujarat sites (Dholavira) show water management adaptations, while Cholistan sites correlate with Hakra drying. The 'collapse' was not uniform; it was a reorganization. The loss of the 'Harappan cultural package' (script, weights, seals, long-distance trade) reflects the breakdown of the integration mechanisms that maintained the state-level society. Genetic continuity (Rakhigarhi DNA) combined with cultural discontinuity (urban traits) suggests a demographic substrate persistence with elite/cultural transformation\u2014a pattern seen in other Bronze Age collapses (e.g., Mycenaean, Akkadian).",
+    "revision_priority": "High",
+    "confidence_score": 0.95,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Major Sites & Excavations",
+    "topic": "Major Sites of Indus Valley Civilization",
+    "subtopic": "Mohenjo-daro and Harappa",
+    "master_notes": "This chapter provides a comprehensive overview of the two most significant Indus Valley Civilization sites\u2014Mohenjo-daro and Harappa. It covers their major archaeological findings, the key figures who led excavations, and their historical importance. The content integrates information from canonical notes and newly provided site-specific data to deliver a complete, exam-oriented reference.",
+    "revision_notes": "Merged canonical chapter notes with detailed site data from the ivc-major-sites-mohenjodaro-harappa source. Removed redundant descriptions, consolidated overlapping facts, and added comparative analysis and examination-relevant details. All UI components (tables, headings, cards) remain intact and compatible.",
+    "one_liner_notes": [
+      "Mohenjo-daro and Harappa are the two premier Indus Valley Civilization sites, representing peak urban sophistication.",
+      "Mohenjo-daro is renowned for the Great Bath and Bronze Dancing Girl; Harappa was the first site excavated and shows grid-like urban planning.",
+      "Key excavators include R.D. Banerji, John Marshall, Ernest Mackay, Mortimer Wheeler, and Rai Bahadur.",
+      "Both sites demonstrate advanced drainage, urban planning, and craft specialization characteristic of the IVC."
+    ],
+    "key_facts": [
+      "Mohenjo-daro contains the Great Bath, considered one of the earliest large-scale public water tanks in the world.",
+      "The Bronze Dancing Girl and Priest King figurine were discovered at Mohenjo-daro, providing insights into daily life and religious practices.",
+      "Harappa was the first Indus Valley site to be systematically excavated, contributing foundational knowledge about the civilization.",
+      "R.D. Banerji, John Marshall, and Ernest Mackay were prominent archaeologists who led excavations at Mohenjo-daro.",
+      "Mortimer Wheeler and Rai Bahadur also played crucial roles in uncovering Harappa and other sites.",
+      "The Indus Valley Civilization flourished roughly between 2600 BCE and 1900 BCE in the northwestern region of the Indian subcontinent.",
+      "Archaeological evidence shows sophisticated urban planning, advanced drainage systems, and standardized weights and measures.",
+      "The 'Mother Goddess' figurines found at Harappa reflect complex spiritual beliefs of the period."
+    ],
+    "definitions": [
+      {
+        "term": "Indus Valley Civilization (IVC)",
+        "exact_meaning": "One of the three ancient cradles of human civilization (alongside Mesopotamia and Egypt), flourishing approximately 3300\u20131300 BCE in the Indus River basin region of South Asia.",
+        "simplified_explanation": "An ancient urban civilization that built well-planned cities with advanced architecture, drainage, and trade networks, located in what is now Pakistan and northwest India."
+      },
+      {
+        "term": "Urban Planning",
+        "exact_meaning": "The systematic design and organization of cities, including street layouts, building construction, and infrastructure.",
+        "simplified_explanation": "The practice of designing cities with planned roads, houses, water supply, and waste disposal\u2014evident in Mohenjo-daro's grid-pattern streets and sophisticated drainage."
+      },
+      {
+        "term": "Drainage System",
+        "exact_meaning": "An integrated network of covered drains and sewers used for wastewater management in ancient cities.",
+        "simplified_explanation": "Advanced underground channels that collected and carried away rainwater and sewage, demonstrating high level of civic engineering."
+      },
+      {
+        "term": "Great Bath",
+        "exact_meaning": "A large rectangular pool constructed of brick at Mohenjo-daro, believed to have served ritual or ceremonial purposes.",
+        "simplified_explanation": "One of the largest known public baths of the ancient world, indicating social and religious importance of water management."
+      },
+      {
+        "term": "Bronze Dancing Girl",
+        "exact_meaning": "A small bronze sculpture depicting a young female dancer, discovered at Mohenjo-daro.",
+        "simplified_explanation": "A remarkable artifact showing advanced metallurgy and artistic skill, dating to around 2500 BCE."
+      }
+    ],
+    "formulae": [
+      {
+        "formula": "IVC Timeline",
+        "variables": "Start: ~3300 BCE | Peak: ~2600\u20131900 BCE | Decline: ~1700\u20131300 BCE",
+        "application": "Used to contextualize the civilization's duration and phases of development."
+      },
+      {
+        "formula": "Urban Density Index",
+        "variables": "Population per square kilometer (based on site size and artifact distribution)",
+        "application": "Helps compare the scale of Mohenjo-daro (~40,000 inhabitants) vs. Harappa."
+      }
+    ],
+    "tables": [
+      {
+        "title": "Major Indus Valley Sites: Mohenjo-daro and Harappa",
+        "content": "| Site | Major Findings | Excavators | Importance |\n|---|---|---|\n| **Mohenjo-daro** | \u2022 Great Bath<br>\u2022 Large-scale urban planning<br>\u2022 Advanced drainage systems<br>\u2022 Priest King figurine<br>\u2022 Bronze Dancing Girl | R.D. Banerji, John Marshall, Ernest Mackay | One of the largest cities showcasing urban sophistication and engineering skills |\n| **Harappa** | \u2022 Grid-like street patterns<br>\u2022 Well-built structures<br>\u2022 Steatite seals<br>\u2022 Mother Goddess figurines | Sir John Marshall, Mortimer Wheeler, Rai Bahadur | First site to be excavated; contributed to initial understanding of the civilization |\n\n*Note: Both sites demonstrate remarkable urban planning, advanced drainage, and craft specialization typical of the Indus Valley Civilization.*"
+      },
+      {
+        "title": "Key Figures in Indus Valley Archaeology",
+        "content": "| Archaeologist | Primary Contribution | Notable Site(s) |\n|---|---|---|\n| **R.D. Banerji** | Early excavations at Mohenjo-daro | Mohenjo-daro |\n| **John Marshall** | Led major excavations; established IVC as a major civilization | Mohenjo-daro, Harappa |\n| **Ernest Mackay** | Discovered and documented Harappa | Harappa |\n| **Mortimer Wheeler** | Systematic excavation methods; published extensive reports | Harappa, Lothal |\n| **Rai Bahadur** | Worked under Wheeler at Harappa | Harappa |\n\n*All five figures were instrumental in shaping our modern understanding of the Indus Valley Civilization.*"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Comparison of Mohenjo-daro and Harappa",
+        "description": "A side-by-side visual comparison highlighting key differences and similarities between the two major sites.",
+        "labels": [
+          "City Size",
+          "Urban Layout",
+          "Notable Artifacts",
+          "Excavator Leadership",
+          "Primary Significance"
+        ]
+      },
+      {
+        "title": "Chronological Development of IVC",
+        "description": "Timeline showing the rise, peak, and decline of the Indus Valley Civilization.",
+        "labels": [
+          "Early Phase (3300\u20132600 BCE)",
+          "Mature Phase (2600\u20131900 BCE)",
+          "Late Phase (1900\u20131300 BCE)",
+          "Decline and Disappearance"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Discovery of Harappa",
+        "date": "1920s",
+        "description": "Harappa became the first Indus Valley site to be systematically excavated, conducted by Sir John Marshall and his team."
+      },
+      {
+        "event": "Excavation of Mohenjo-daro Begins",
+        "date": "1922",
+        "description": "R.D. Banerji initiated excavations at Mohenjo-daro, leading to the discovery of the Great Bath and other major artifacts."
+      },
+      {
+        "event": "Publication of IVC Theory",
+        "date": "1930s",
+        "description": "Scholarly consensus emerged that the Indus Valley Civilization was a distinct, advanced urban culture, separate from later Vedic traditions."
+      },
+      {
+        "event": "Modern Re-evaluation",
+        "date": "1990s-Present",
+        "description": "Recent studies emphasize environmental factors, trade networks, and cultural continuity between IVC and later Indian societies."
+      }
+    ],
+    "comparison_tables": [
+      {
+        "title": "Mohenjo-daro vs. Harappa: Feature Comparison",
+        "content": "## Mohenjo-daro vs. Harappa\n\n| Feature | Mohenjo-daro | Harappa |\n|---|---|---|\n| **Size** | Largest known IVC city (~40,000 people) | Second largest (~30,000 people) |\n| **Urban Planning** | Perfect grid-pattern streets, multi-story buildings | Grid-like streets, organized layout |\n| **Water Management** | Advanced drainage, Great Bath, covered drains | Basic drainage, steatite seals for trade |\n| **Artifacts** | Bronze Dancing Girl, Priest King, Great Bath | Steatite seals, Mother Goddess figurines |\n| **Excavators** | R.D. Banerji, John Marshall, Ernest Mackay | Sir John Marshall, Mortimer Wheeler, Rai Bahadur |\n| **Historical Role** | Considered the political/economic capital | Important trading hub and administrative center |\n\n*Both sites share core IVC characteristics: urban sophistication, standardized weights, and advanced craft production.*"
+      },
+      {
+        "title": "Key Discoveries by Site",
+        "content": "### Mohenjo-daro\n- **Great Bath**: Large public tank for ritual purification (approx. 33x11 meters).\n- **Priest King Figurine**: Bronze statue of a seated male figure, possibly a religious leader.\n- **Bronze Dancing Girl**: Small female figure showing dance posture, indicating artistic sophistication.\n- **Standardized Weights**: Cubic stone weights used throughout the civilization.\n\n### Harappa\n- **Grid Pattern**: Streets laid out in perfect rectangles, suggesting careful urban planning.\n- **Steatite Seals**: Carved cylinder seals used for marking goods and inscriptions.\n- **Mother Goddess**: Female figurines associated with fertility worship.\n- **Trade Evidence**: Seal impressions found on pottery and other items indicating long-distance trade.\n\n*Both sites collectively reveal a highly organized, technologically advanced society.*"
+      }
+    ],
+    "mnemonics": [
+      "M-D-O-R-H-A-P-P-A: Remember Mohenjo-daro's **M**assive **D**esign \u2014 Great **B**ath, **O**ld **R**esearchers (**D**) **H**arbors **A**nd **P**ower.",
+      "H-A-R-A-P-P-A: Think **H**arappa had **A**dventure in **R**eporting **A**rchaeology \u2014 **P**rinted **A**rtifacts (seals)."
+    ],
+    "common_exam_traps": [
+      "Confusing the location of the 'Dancing Girl' \u2014 it belongs to Mohenjo-daro, not Harappa.",
+      "Assuming all major IVC sites are equally sized \u2014 Mohenjo-daro was larger than Harappa.",
+      "Mixing up the excavators \u2014 R.D. Banerji worked primarily at Mohenjo-daro; John Marshall led the overall campaign.",
+      "Thinking the IVC declined suddenly \u2014 it was a gradual process spanning centuries.",
+      "Overlooking the significance of the Great Bath \u2014 it was a hallmark of urban sophistication."
+    ],
+    "previous_year_links": [
+      "PYQ-2023-NDA-Civilization: Focus on Mohenjo-daro's Great Bath and urban planning.",
+      "PYQ-2022-CDS-Architecture: Questions on Indus Valley drainage systems and city layout.",
+      "Previous Year Question: Identification of the 'Priest King' figurine at Mohenjo-daro."
+    ],
+    "related_topics": [
+      "Mesopotamian Civilizations (for comparison)",
+      "Vedic Period and Cultural Continuity",
+      "Indus Script (undeciphered writing system)",
+      "Trade Networks of the Ancient World",
+      "Urbanization in Ancient India"
+    ],
+    "search_keywords": [
+      "Indus Valley Civilization major sites",
+      "Mohenjo-daro Great Bath",
+      "Harappa grid pattern",
+      "Dancing Girl artifact",
+      "Priest King figurine",
+      "R.D. Banerji excavations",
+      "John Marshall IVC",
+      "Indus Valley urban planning"
+    ],
+    "beginner_explanation": "The Indus Valley Civilization was an ancient city-building culture in what is now Pakistan and northwest India. Its two biggest cities were Mohenjo-daro and Harappa. Mohenjo-daro is famous for its great public bath and bronze dancing girl, while Harappa was the first site discovered and showed a grid-like city plan. Many important archaeologists like John Marshall and R.D. Banerji worked there to uncover these wonders.",
+    "intermediate_explanation": "Mohenjo-daro represents the pinnacle of IVC urban sophistication with its advanced drainage, standardized weights, and monumental structures like the Great Bath. Harappa, discovered earlier, demonstrated the civilization's commitment to grid-based urban planning and craft specialization. Both sites were excavated during the early 20th century by key figures including John Marshall, R.D. Banerji, and Ernest Mackay. The civilization thrived roughly from 2600 to 1900 BCE before gradually declining.",
+    "advanced_explanation": "The Indus Valley Civilization (c. 3300\u20131300 BCE) constituted one of the world's earliest urban societies, distinguished by unprecedented levels of urban planning, hydraulic engineering, and material culture standardization. Mohenjo-daro's Great Bath exemplifies ritual and communal water management, while the Bronze Dancing Girl and Priest King figurine reveal complex social hierarchies and religious practices. Harappa's grid pattern reflects meticulous land-use planning. Archaeological work by John Marshall (who coined the term 'Indus Valley Civilization'), R.D. Banerji, and others transformed our understanding from speculative 'Dravidian' theories to a well-documented civilization with global significance. Recent scholarship emphasizes environmental determinism and trade connectivity with Mesopotamia and Oman.",
+    "revision_priority": "High \u2014 consolidate site comparisons, ensure all key facts are present, verify excavation personnel attribution, cross-check artifact locations.",
+    "confidence_score": 0.98,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Vedic Period",
+    "subchapter": "Early Vedic Period",
+    "topic": "Early Vedic Period: Geography & Settlements",
+    "subtopic": "Geography & Settlements",
+    "master_notes": "The Early Vedic Period (c. 1500\u20131000 BCE) marks the migration of Indo\u2011Aryan groups into the north\u2011western Indian subcontinent, establishing settlements primarily in the Sapta\u2011Sindhu region (the Land of Seven Rivers). Key settlements were located along the Indus and Sarasvati rivers, which provided fertile land and water resources. This period laid the foundation for later Vedic culture and society.",
+    "revision_notes": "Verify exact dates and river names; ensure distinction between Sapta\u2011Sindhu and later Aryavarta.",
+    "one_liner_notes": [
+      "Early Vedic Period: 1500\u20131000 BCE",
+      "Indo\u2011Aryan migration into north\u2011western India",
+      "Sapta\u2011Sindhu = seven rivers region",
+      "Settlements along Indus and Sarasvati",
+      "Core area of early Vedic culture"
+    ],
+    "key_facts": [
+      "Time span: 1500\u202fBCE to 1000\u202fBCE",
+      "Indo\u2011Aryan migration into north\u2011western Indian subcontinent",
+      "Primary settlement region: Sapta\u2011Sindhu (seven\u2011river basin)",
+      "Major rivers: Indus and Sarasvati",
+      "Settlements were agrarian, located on riverbanks"
+    ],
+    "definitions": [
+      {
+        "term": "Indo\u2011Aryans",
+        "exact_meaning": "Indo\u2011European speaking pastoralist groups who migrated into the Indian subcontinent during the Early Vedic Period",
+        "simplified_explanation": "Migrating Indo\u2011European people who brought Vedic culture to India"
+      },
+      {
+        "term": "Sapta\u2011Sindhu",
+        "exact_meaning": "The region comprising seven major rivers (Indus, Sarasvati and their tributaries) in north\u2011western India",
+        "simplified_explanation": "Land of the seven rivers where early Vedic people settled"
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Major Rivers of the Sapta\u2011Sindhu Region",
+        "content": "| River | Present\u2011day Location | Significance |\n|-------|---------------------|--------------|\n| Indus | Pakistan/India | Core river of early Vedic settlements |\n| Sarasvati | Indus\u2011Ghaggar\u2011Hakra basin (mostly dry) | Sacred river, mentioned in Vedas |\n| Sutlej | Punjab (India/Pakistan) | Tributary of Indus |\n| Beas | Punjab (India) | Tributary of Indus |\n| Chenab | Jammu & Kashmir (India) | Tributary of Indus |\n| Jhelum | Jammu & Kashmir (India) | Tributary of Chenab |\n| Ravi | Punjab (India) | Tributary of Chenab |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Map of Sapta\u2011Sindhu Settlement Pattern",
+        "description": "Illustrative map showing the north\u2011western Indian subcontinent with the seven rivers highlighted and dots indicating major Early Vedic settlements along the Indus and Sarasvati river valleys.",
+        "labels": [
+          "Indus River",
+          "Sarasvati River",
+          "Sapta\u2011Sindhu Region",
+          "Early Vedic Settlement Sites"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Indo\u2011Aryan migration into the Indian subcontinent",
+        "date": "c. 1500 BCE",
+        "description": "Beginning of the Early Vedic Period; Indo\u2011Aryan groups move into the north\u2011western region"
+      },
+      {
+        "event": "Establishment of settlements along the Indus and Sarasvati rivers",
+        "date": "c. 1500\u20131000 BCE",
+        "description": "Villages and towns develop in the fertile river valleys of the Sapta\u2011Sindhu region"
+      }
+    ],
+    "comparison_tables": [],
+    "mnemonics": [
+      "Sapta = Seven",
+      "Sindhu = Rivers",
+      "Indo\u2011Aryans = Migrants",
+      "Indus & Sarasvati = Lifelines"
+    ],
+    "common_exam_traps": [
+      "Confusing Sapta\u2011Sindhu with Aryavarta (which refers to a later, more central region)",
+      "Assuming all Early Vedic people lived in the Ganges basin",
+      "Mixing up the dates of the Indus Valley Civilization (c. 2600\u20131900 BCE) with the Early Vedic Period"
+    ],
+    "previous_year_links": [
+      "MCQ on Early Vedic settlement region (Sapta\u2011Sindhu) \u2013 see NDA 2022 Paper 1"
+    ],
+    "related_topics": [
+      "Later Vedic Period",
+      "Rigveda",
+      "Indus Valley Civilization",
+      "Aryavarta",
+      "Vedic Society (Varna)"
+    ],
+    "search_keywords": [
+      "Early Vedic Period",
+      "Indo-Aryan migration",
+      "Sapta-Sindhu",
+      "Indus River",
+      "Sarasvati River",
+      "Vedic settlements",
+      "North-western India geography"
+    ],
+    "beginner_explanation": "The Early Vedic Period was when Indo\u2011Aryan people moved into the north\u2011west part of India and set up villages near the Indus and Sarasvati rivers.",
+    "intermediate_explanation": "During the Early Vedic Period (about 1500\u20131000\u202fBCE), Indo\u2011Aryan migrants settled in the Sapta\u2011Sindhu region, which includes the seven rivers of the northwest. Their villages were located on the banks of the Indus and Sarasvati, providing the agricultural base for early Vedic society.",
+    "advanced_explanation": "The Early Vedic Period (c. 1500\u20131000\u202fBCE) represents the first phase of Vedic chronology, characterized by the migration of Indo\u2011Aryan pastoralists into the north\u2011western Indian subcontinent. Settlement patterns were centered on the Sapta\u2011Sindhu basin, with primary habitation along the Indus and Sarasvati river valleys, facilitating agriculture and cattle rearing. This era laid the cultural and religious foundations evident in the Rigveda, and distinguished itself from the later Vedic phase by its more pastoral economy and less complex social stratification.",
+    "revision_priority": "High",
+    "confidence_score": 0.92,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Ancient Indian Religions",
+    "subchapter": "Pre-Mauryan Polity",
+    "topic": "Political Systems and Rise of Monarchies (Mahajanapadas)",
+    "subtopic": "Mahajanapada Polity and Institutions",
+    "master_notes": "Political Systems and Rise of Monarchies (Mahajanapadas)\n\nKey Developments:\n1. Emergence of powerful monarchies known as Mahajanapadas (great kingdoms) during the Later Vedic period (c. 1000\u2013600 BCE) and the subsequent Mahajanapada period (c. 600\u2013300 BCE).\n2. Kingship became based on hereditary succession, replacing earlier elective or tribal leadership patterns.\n3. Two key political assemblies functioned for decision\u2011making:\n   - Sabha: Council of elders, initially a deliberative body but gradually became more aristocratic and exclusive.\n   - Samiti: General assembly of the people (or tribal members), broader in composition.\n4. Over time, the Sabha lost its popular character and turned into an aristocratic council, while the Samiti declined in importance as monarchical power consolidated.\n5. Rise of the Magadha kingdom as the dominant Mahajanapada, first under the Nanda dynasty (c. 345\u2013322 BCE) and then under the Mauryan dynasty (322\u2013185 BCE), marking the transition from multiple competing states to imperial unification.\n\nSignificance: This period marks the shift from tribal polity to territorial monarchy, the institutionalization of royal authority, and the decline of republican/oligarchic elements (gana\u2011sanghas) in the face of expanding monarchies.",
+    "revision_notes": "- Mahajanapadas: 16 powerful monarchies (6th\u20134th century BCE).\n- Kingship: Hereditary succession established.\n- Assemblies: Sabha (council of elders \u2192 aristocratic), Samiti (assembly of people \u2192 declined).\n- Magadha rose to supremacy under Nandas then Mauryas.\n- Transition from tribal/oligarchic to imperial polity.",
+    "one_liner_notes": [
+      "Mahajanapadas were 16 major monarchies of the 6th\u20134th century BCE.",
+      "Kingship became hereditary during the Mahajanapada period.",
+      "Sabha = council of elders, became aristocratic over time.",
+      "Samiti = general assembly of people, declined with rise of monarchy.",
+      "Magadha emerged as the paramount power under Nandas and Mauryas."
+    ],
+    "key_facts": [
+      "The term Mahajanapada means 'great kingdom' or 'great foothold of a tribe'.",
+      "Hereditary succession replaced earlier elective kingship.",
+      "Sabha and Samiti are mentioned in Vedic texts (e.g., Atharvaveda) as twin assemblies.",
+      "The Sabha's transformation into an aristocratic body reflects the concentration of power in the hands of the king and nobility.",
+      "Magadha's strategic location (fertile plains, iron resources, control of trade routes) facilitated its rise.",
+      "The Nanda dynasty (Mahapadma Nanda) laid the administrative foundation for the Mauryan empire."
+    ],
+    "definitions": [
+      {
+        "term": "Mahajanapada",
+        "exact_meaning": "A 'great kingdom' or 'great territorial state' that emerged in northern India during the 6th\u20134th centuries BCE, characterized by a centralized monarchy, standing army, and taxation system.",
+        "simplified_explanation": "One of the 16 powerful kingdoms (like Magadha, Kosala, Vatsa) that dominated the political landscape before the Mauryan empire."
+      },
+      {
+        "term": "Sabha",
+        "exact_meaning": "An assembly of elders or nobles in early Vedic and later Vedic polity, originally a deliberative council that gradually became an exclusive aristocratic body.",
+        "simplified_explanation": "The 'council of elders' \u2013 a small group of senior nobles who advised the king; later it became a closed aristocratic club."
+      },
+      {
+        "term": "Samiti",
+        "exact_meaning": "A broader tribal or popular assembly in Vedic polity, comprising free members of the tribe/jana, which participated in decision\u2011making and the election of the king in early periods.",
+        "simplified_explanation": "The 'general assembly' of the people \u2013 a larger gathering that had a voice in governance but lost relevance as monarchy strengthened."
+      },
+      {
+        "term": "Hereditary Succession",
+        "exact_meaning": "The principle that the throne passes from father to son (or within a designated lineage), establishing a dynasty and reducing the role of election or selection by assemblies.",
+        "simplified_explanation": "Kingship became a family inheritance rather than a choice by the people or nobles."
+      },
+      {
+        "term": "Magadha",
+        "exact_meaning": "One of the 16 Mahajanapadas, located in the fertile Gangetic plain (modern Bihar), which rose to imperial dominance under the Nanda and Maurya dynasties.",
+        "simplified_explanation": "The kingdom that eventually unified most of the subcontinent under the Mauryan empire."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Comparison of Sabha and Samiti in Mahajanapada Polity",
+        "content": "| Feature | Sabha | Samiti |\n|---------|-------|--------|\n| Composition | Elders, nobles, aristocrats | General tribal members / free citizens |\n| Nature | Aristocratic, exclusive | Popular, inclusive |\n| Function | Advisory, judicial, ritual | Legislative, electoral (early), deliberative |\n| Evolution | Became more aristocratic, lost popular base | Declined and disappeared with rise of monarchy |\n| Vedic Reference | Rigveda, Atharvaveda | Rigveda, Atharvaveda |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Political Evolution from Vedic Tribes to Mahajanapada Monarchy",
+        "description": "Flowchart showing: Early Vedic Tribal Polity (Jana, Rajan, Sabha, Samiti) \u2192 Later Vedic Territorial States (Janapadas) \u2192 Mahajanapadas (16 Monarchies, Hereditary Kingship, Standing Armies, Taxation) \u2192 Rise of Magadha (Nandas \u2192 Mauryas) \u2192 Imperial Unification.",
+        "labels": [
+          "Early Vedic",
+          "Later Vedic",
+          "Mahajanapadas",
+          "Magadha",
+          "Mauryan Empire"
+        ]
+      }
+    ],
+    "timelines": [],
+    "comparison_tables": [
+      {
+        "title": "Sabha vs Samiti \u2013 Key Differences for Exam",
+        "content": "| Point | Sabha | Samiti |\n|-------|-------|--------|\n| Meaning | Council of Elders | Assembly of People |\n| Membership | Restricted to nobles/elders | Open to all free tribesmen |\n| Role in Kingship | Advisory, later legitimizing | Elective (early), later ceremonial |\n| Fate | Survived as aristocratic body | Disappeared |\n| Exam Trap | Often confused with Samiti; remember 'Sabha = Seniors' | Often thought to be the same as Sabha; remember 'Samiti = All' |"
+      }
+    ],
+    "mnemonics": [
+      "Sabha = **S**eniors (Elders) \u2192 Aristocratic",
+      "Samiti = **S**abha **M**eans **I**nclusive **T**ribal **I**nvolvement \u2192 Popular assembly",
+      "Mahajanapadas = **M**aha (Great) + **Janapada** (Foothold of tribe) = 16 Great Kingdoms"
+    ],
+    "common_exam_traps": [
+      "Confusing Sabha and Samiti: Sabha is the council of elders (aristocratic), Samiti is the general assembly (popular).",
+      "Assuming all Mahajanapadas were monarchies \u2013 some were gana\u2011sanghas (oligarchic republics) like Vajji and Malla.",
+      "Thinking hereditary kingship started only with the Mauryas; it was established during the Mahajanapada period itself.",
+      "Overlooking the decline of Samiti as a key indicator of monarchical centralization."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "16 Mahajanapadas and their Capitals",
+      "Gana\u2011Sanghas (Republics) vs Monarchies",
+      "Nanda Dynasty Administration",
+      "Mauryan Empire: Chandragupta and Ashoka",
+      "Vedic Polity: Rajan, Sabha, Samiti, Vidatha",
+      "Second Urbanization and Iron Age"
+    ],
+    "search_keywords": [
+      "Mahajanapadas",
+      "Sabha",
+      "Samiti",
+      "Hereditary Kingship",
+      "Magadha",
+      "Nanda Dynasty",
+      "Mauryan Empire",
+      "Pre-Mauryan Polity",
+      "Vedic Assemblies"
+    ],
+    "beginner_explanation": "Around 600 BCE, northern India saw the rise of 16 big kingdoms called Mahajanapadas. Kingship became hereditary (passed from father to son). Two old assemblies \u2013 Sabha (council of elders) and Samiti (assembly of people) \u2013 still existed, but Sabha became an exclusive club of nobles, while Samiti faded away. The kingdom of Magadha (in modern Bihar) became the strongest, first under the Nandas and then the Mauryas, who went on to create India's first empire.",
+    "intermediate_explanation": "The Mahajanapada period (6th\u20134th century BCE) marks the transition from tribal polity to territorial monarchy. Hereditary succession replaced elective kingship. The Vedic assemblies Sabha and Samiti underwent transformation: Sabha evolved into an aristocratic council, losing its popular character, while Samiti declined as royal power grew. Magadha's rise was due to geographical advantages (iron, fertile soil, riverine trade) and strong rulers like Bimbisara, Ajatashatru, and the Nandas. This set the stage for the Mauryan imperial unification.",
+    "advanced_explanation": "The political evolution from the Later Vedic janapadas to the Mahajanapadas reflects a complex interplay of economic surplus (iron ploughshare agriculture, wet rice cultivation), social stratification (varna system solidifying), and military innovation (elephant corps, standing armies). The Sabha's aristocratization mirrors the concentration of land and power in the hands of the kshatriya elite, while the Samiti's demise signals the end of tribal consensus politics. Magadha's success lay in its ability to harness the Gangetic plain's revenue potential and to create a bureaucratic apparatus (later refined by the Mauryas). The Nanda fiscal reforms and the Mauryan administrative model (as described in the Arthashastra) have their roots in this Mahajanapada experimentation.",
+    "revision_priority": "High",
+    "confidence_score": 95,
+    "needs_review_flag": false
   }
 ]

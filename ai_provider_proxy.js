@@ -52,7 +52,7 @@ async function generateAIContent(systemPrompt, userPrompt, providerOrder = ['cer
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${CEREBRAS_KEY}` },
           body: JSON.stringify({
-            model: "llama3.1-70b",
+            model: "gpt-oss-120b",
             messages: [
               { role: "system", content: systemPrompt },
               { role: "user", content: userPrompt }
@@ -81,7 +81,7 @@ async function generateAIContent(systemPrompt, userPrompt, providerOrder = ['cer
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${GROQ_KEY}` },
           body: JSON.stringify({
-            model: "llama-3.3-70b-versatile",
+            model: "openai/gpt-oss-120b",
             messages: [
               { role: "system", content: systemPrompt },
               { role: "user", content: userPrompt }

@@ -54,6 +54,8 @@ Return ONLY a raw JSON object containing the Dronacharya Response (no markdown c
 * When information is unavailable or uncertain, explicitly say so rather than guessing.
 * Every response should leave the student with a clear next action for learning.
 * SPECIAL RULE FOR PREVIOUS YEAR QUESTIONS (PYQs): Analyze the user's query against the provided RAG Context (Relevant Questions/Knowledge Base) containing previous year papers. If it matches a Previous Year Question (PYQ), explicitly tell the user that it is a PYQ in your direct_answer.
+* IMAGE GENERATION: If the user explicitly asks for an image, diagram, or visual representation, you MUST generate it by including a markdown image tag using the Pollinations API in your detailed_explanation field (or direct_answer). Format exactly like this: ![Image Description](https://image.pollinations.ai/prompt/{URL_ENCODED_IMAGE_PROMPT}?width=1024&height=1024&nologo=true). Ensure the {URL_ENCODED_IMAGE_PROMPT} is highly detailed, extremely descriptive, and 100% accurate to the user's request. Accuracy is 100% critical and cannot be compromised.
+* EXHAUSTIVE LISTS: If the user explicitly asks for "all", "every", or an "exhaustive" list of items (e.g., "all aircraft", "all regiments"), you MUST NOT summarize or sample just a few. You must override brevity rules and list EVERY SINGLE item in that category comprehensively, without truncating.
 """
 
 def generate_tutor_response_gemini(query, analytics_str, questions_str):

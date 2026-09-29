@@ -104,7 +104,7 @@ Return ONLY a raw JSON object containing the assembled Mock Test (no markdown co
 """
 
 def generate_mock_gemini(available_q_str, exam_config):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     headers = {"Content-Type": "application/json"}
     
     prompt_text = f"{MASTER_MOCK_ASSEMBLER_PROMPT}\n\nTarget Blueprint/Configuration:\n{exam_config}\n\nAvailable Question Bank:\n{available_q_str}"

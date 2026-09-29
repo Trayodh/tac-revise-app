@@ -69,7 +69,7 @@ def enrich_notes_openrouter(notes_json_str, existing_chapter_content=""):
     prompt_text = f"{master_prompt}\n\n{REQUIRED_JSON_SCHEMA}\n\nHere are the existing canonical chapter notes (DO NOT REPEAT THESE):\n{existing_chapter_content}\n\nHere are the raw NEW notes to evaluate and merge:\n{notes_json_str}"
     
     data = {
-        "model": "meta-llama/llama-3.1-8b-instruct:free",
+        "model": "openrouter/free",
         "messages": [
             {"role": "system", "content": "You are a specialized JSON-only output assistant. You must ONLY output a valid JSON object matching the required schema. Do NOT include markdown blocks like ```json or any conversational text."},
             {"role": "user", "content": prompt_text}
@@ -105,7 +105,7 @@ def enrich_notes_gemini(notes_json_str, existing_chapter_content=""):
     if not GEMINI_API_KEY:
         return None
         
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     headers = {"Content-Type": "application/json"}
     
     master_prompt = get_master_prompt()
@@ -140,8 +140,56 @@ def enrich_notes_gemini(notes_json_str, existing_chapter_content=""):
         print(f"Gemini API Error: {e}")
         return None
 
+def enrich_notes_cerebras(notes_json_str, existing_chapter_content=""):
+    CEREBRAS_API_KEY = os.environ.get("CEREBRAS_API_KEY")
+    if not CEREBRAS_API_KEY:
+        return None
+        
+    url = "https://api.cerebras.ai/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {CEREBRAS_API_KEY}",
+        "Content-Type": "application/json"
+    }
+    
+    master_prompt = get_master_prompt()
+    prompt_text = f"{master_prompt}\n\n{REQUIRED_JSON_SCHEMA}\n\nHere are the existing canonical chapter notes (DO NOT REPEAT THESE):\n{existing_chapter_content}\n\nHere are the raw NEW notes to evaluate and merge:\n{notes_json_str}"
+    
+    data = {
+        "model": "gpt-oss-120b",
+        "messages": [
+            {"role": "system", "content": "You are a specialized JSON-only output assistant. You must ONLY output a valid JSON object matching the required schema. Do NOT include markdown blocks like ```json or any conversational text."},
+            {"role": "user", "content": prompt_text}
+        ],
+        "response_format": {"type": "json_object"},
+        "temperature": 0.2
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        response.raise_for_status()
+        res_json = response.json()
+        
+        if "choices" in res_json and len(res_json["choices"]) > 0:
+            text = res_json["choices"][0]["message"]["content"]
+            text = text.strip()
+            if text.startswith("```json"):
+                text = text[7:]
+            if text.startswith("```"):
+                text = text[3:]
+            if text.endswith("```"):
+                text = text[:-3]
+            return json.loads(text.strip())
+        else:
+            return None
+    except Exception as e:
+        print(f"Cerebras API Error: {e}")
+        return None
+
 def enrich_notes(notes_json_str, existing_chapter_content=""):
-    result = enrich_notes_gemini(notes_json_str, existing_chapter_content)
+    result = enrich_notes_cerebras(notes_json_str, existing_chapter_content)
+    if not result:
+        print("Cerebras failed. Falling back to Gemini...")
+        result = enrich_notes_gemini(notes_json_str, existing_chapter_content)
     if not result:
         print("Gemini failed. Falling back to OpenRouter...")
         result = enrich_notes_openrouter(notes_json_str, existing_chapter_content)

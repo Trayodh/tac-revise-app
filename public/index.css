@@ -269,7 +269,7 @@ html {
   /* UI HARDENING: Prevent Text & Container Overflow */
   overflow-wrap: break-word;
   word-wrap: break-word;
-  word-break: break-word;
+  word-break: normal;
   min-width: 0;
   min-height: 0;
 }
