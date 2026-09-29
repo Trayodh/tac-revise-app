@@ -699,8 +699,8 @@ ${textPrompt}`;
           }
         }
         
-        if (textPrompt && textPrompt.includes("Cheat Sheet' for the topic: '")) {
-            const topicMatch = textPrompt.match(/topic: '([^']+)'/);
+        if (textPrompt && textPrompt.match(/Cheat Sheet["'] for the topic: ["']/)) {
+            const topicMatch = textPrompt.match(/topic: ["']([^"']+)["']/);
             if (topicMatch && topicMatch[1]) {
                 const topic = topicMatch[1];
                 console.log(`[WIKI] Cheat sheet topic detected: ${topic}. Fetching latest Wikipedia context...`);
