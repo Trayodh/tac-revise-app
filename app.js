@@ -10512,31 +10512,47 @@ function initMotivationOfTheDay() {
     if (bannerEl) bannerEl.style.display = "none";
   }
 
-  if (matchIndex !== -1) {
-    currentMotivationIndex = matchIndex;
+  const todayStr = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+  let dailyDate = null;
+  let dailyIndex = null;
+  try {
+    dailyDate = localStorage.getItem('tac_daily_motivation_date');
+    dailyIndex = localStorage.getItem('tac_daily_motivation_index');
+  } catch (e) {}
+
+  if (dailyDate === todayStr && dailyIndex !== null) {
+      currentMotivationIndex = parseInt(dailyIndex, 10);
   } else {
-    // Get seen stories from localStorage
-    let seenStories = [];
-    try {
-      seenStories = JSON.parse(localStorage.getItem('tac_seen_stories') || '[]');
-    } catch (e) {}
-    
-    let totalStories = window.BRAVERY_STORIES ? window.BRAVERY_STORIES.length : 1;
-    if (seenStories.length >= totalStories) {
-      seenStories = []; // Reset if all seen
-    }
-    
-    // Pick next unseen story (starting with dayOfYear to keep daily consistency if possible)
-    const start = new Date(today.getFullYear(), 0, 0);
-    const diff = today - start;
-    const oneDay = 1000 * 60 * 60 * 24;
-    const dayOfYear = Math.floor(diff / oneDay);
-    
-    let nextIndex = dayOfYear % totalStories;
-    while(seenStories.includes(nextIndex) && seenStories.length < totalStories) {
-        nextIndex = (nextIndex + 1) % totalStories;
-    }
-    currentMotivationIndex = nextIndex;
+      if (matchIndex !== -1) {
+        currentMotivationIndex = matchIndex;
+      } else {
+        // Get seen stories from localStorage
+        let seenStories = [];
+        try {
+          seenStories = JSON.parse(localStorage.getItem('tac_seen_stories') || '[]');
+        } catch (e) {}
+        
+        let totalStories = window.BRAVERY_STORIES ? window.BRAVERY_STORIES.length : 1;
+        if (seenStories.length >= totalStories) {
+          seenStories = []; // Reset if all seen
+        }
+        
+        // Pick next unseen story (starting with dayOfYear to keep daily consistency if possible)
+        const start = new Date(today.getFullYear(), 0, 0);
+        const diff = today - start;
+        const oneDay = 1000 * 60 * 60 * 24;
+        const dayOfYear = Math.floor(diff / oneDay);
+        
+        let nextIndex = dayOfYear % totalStories;
+        while(seenStories.includes(nextIndex) && seenStories.length < totalStories) {
+            nextIndex = (nextIndex + 1) % totalStories;
+        }
+        currentMotivationIndex = nextIndex;
+      }
+      try {
+        localStorage.setItem('tac_daily_motivation_date', todayStr);
+        localStorage.setItem('tac_daily_motivation_index', currentMotivationIndex.toString());
+      } catch (e) {}
   }
   
   // Track as seen
