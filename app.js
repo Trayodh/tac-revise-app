@@ -5991,7 +5991,7 @@ STRICT RULES:
 
     const payload = {
 
-      model: 'gemini-2.0-flash',
+      model: 'gemini-3.8-flash',
 
       contents: [{ parts: [{ text: prompt }] }],
       generationConfig: { maxOutputTokens: 8192, temperature: 0 }
@@ -6012,13 +6012,21 @@ STRICT RULES:
 
 
 
-    if (!response.ok) throw new Error("API Error");
-
-    const data = await response.json();
+    let data;
+    if (!response.ok) {
+        try {
+            data = await response.json();
+        } catch(e) {}
+        if (data && data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts) {
+            // Proceed to render the 500 fallback message (Quota exhausted)
+        } else {
+            throw new Error(`API Error: ${response.status}`);
+        }
+    } else {
+        data = await response.json();
+    }
 
     let reportHtml = (data.candidates?.[0]?.content?.parts?.[0]?.text || data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
-
-
 
     area.className = "ai-response-area fade-in";
 
@@ -6068,7 +6076,8 @@ STRICT RULES:
 
     area.className = "ai-response-area fade-in";
 
-    area.innerHTML = `<p style="color: var(--danger);">Failed to generate Graphic Cheat Sheet. Try again.</p>`;
+    let msg = err.message || "Failed to generate Graphic Cheat Sheet. Try again.";
+    area.innerHTML = `<p style="color: var(--danger);">${msg}</p>`;
 
   }
 

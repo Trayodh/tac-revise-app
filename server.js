@@ -960,7 +960,7 @@ ${textPrompt}`;
               {
                 content: {
                   parts: [
-                    { text: '### ⚠️ Dedicated AI Service Unavailable\n\nThe primary AI service is currently experiencing heavy load. Please try again in 10-20 seconds.' }
+                    { text: `### ⚠️ AI Quota Exhausted\n\nAll configured AI providers (Gemini, OpenRouter, Cerebras, Groq) have rejected the request. This usually means the API keys have reached their daily free-tier limits.\n\n**Debug Info:** Gemini Status: ${lastStatus}` }
                   ]
                 },
                 finishReason: 'STOP'
