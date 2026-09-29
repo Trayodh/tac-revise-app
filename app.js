@@ -5975,7 +5975,7 @@ STRICT RULES:
 
 5. Use CSS Grid or Flexbox to organize the data into distinct, colorful "boxes" or "cards" (e.g., pastel yellow for formulas, pastel blue for key concepts).
 
-6. BE EXHAUSTIVE AND COMPREHENSIVE. Do NOT omit any important formulas, dates, or facts. Provide a complete reference. If the user asks for "all", "every", or an "exhaustive" list (e.g. "all aircraft"), you MUST NOT summarize or sample just a few (like 3 or 6). You MUST list EVERY SINGLE item in that category comprehensively. CRITICAL: NEVER use placeholders like "<!-- list continues -->" or "...". You must output the actual complete HTML code and data for as many items as you can fit.
+6. BE EXHAUSTIVE AND COMPREHENSIVE. Do NOT omit any important formulas, dates, or facts. Provide a complete reference. You MUST ALWAYS list EVERY SINGLE item in the requested category. NEVER summarize or sample just a few (like 3 or 6). CRITICAL: NEVER use placeholders like "<!-- list continues -->" or "...". You must output the actual complete HTML code and data for ALL items.
 
 7. NEVER use HTML character entities for mathematical formatting (like &sub1; or &supx;). Always use actual LaTeX math syntax like \\( ... \\) for inline math and \\[ ... \\] for block equations, as MathJax is enabled.
 
@@ -5989,7 +5989,7 @@ STRICT RULES:
 
     const payload = {
 
-      model: 'gemini-2.5-flash',
+      model: 'gemini-1.5-pro',
 
       contents: [{ parts: [{ text: prompt }] }],
       generationConfig: { maxOutputTokens: 8192, temperature: 0 }

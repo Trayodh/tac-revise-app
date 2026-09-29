@@ -5330,5 +5330,581 @@
     "revision_priority": "Medium - Limited source material but high exam relevance; supplement with El-Nino comparison.",
     "confidence_score": 0.65,
     "needs_review_flag": true
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Earth & Latitudes",
+    "subchapter": "",
+    "topic": "Inter Tropical Convergence Zone (ITCZ)",
+    "subtopic": "Monsoon Connection",
+    "master_notes": "The Inter Tropical Convergence Zone (ITCZ) is a low-pressure zone where the trade winds converge. It is a critical feature of global atmospheric circulation. In July, the ITCZ is located approximately between 20\u00b0N and 25\u00b0N latitude. During winter, the ITCZ moves southward. This seasonal migration is closely linked to the monsoon system; specifically, the southward shift of the ITCZ in winter leads to the Northeast monsoon (northeasterly winds blowing toward the southwest). The convergence of trade winds at the ITCZ creates a belt of low pressure and intense convective activity.",
+    "revision_notes": "\u2022 ITCZ is a low-pressure zone where trade winds converge.\n\u2022 July position: 20\u00b0N - 25\u00b0N.\n\u2022 Winter movement: southward.\n\u2022 Monsoon connection: leads to Northeast monsoon.",
+    "one_liner_notes": [
+      "ITCZ is the low-pressure convergence zone of trade winds.",
+      "In July, ITCZ lies between 20\u00b0N and 25\u00b0N.",
+      "ITCZ shifts southward in winter.",
+      "The ITCZ's movement is linked to the Northeast monsoon."
+    ],
+    "key_facts": [
+      "ITCZ is a low-pressure zone.",
+      "It is located where trade winds converge.",
+      "In July, it is positioned between 20\u00b0N and 25\u00b0N.",
+      "It moves southward during winter.",
+      "It plays a role in the Northeast monsoon."
+    ],
+    "definitions": [
+      {
+        "term": "Inter Tropical Convergence Zone (ITCZ)",
+        "exact_meaning": "A low-pressure zone near the equator where the trade winds from the Northern and Southern Hemispheres converge.",
+        "simplified_explanation": "The ITCZ is the area around the equator where winds from both hemispheres meet, causing low pressure and frequent rainfall."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "ITCZ Seasonal Position",
+        "content": "| Season | Latitude Range | Movement |\n|--------|----------------|----------|\n| July (Summer) | 20\u00b0N - 25\u00b0N | Northward shift |\n| Winter | Not specified | Southward shift |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "ITCZ and Trade Wind Convergence",
+        "description": "A diagram showing the Earth with the ITCZ marked near the equator. Trade winds from the Northern Hemisphere (northeast trades) and Southern Hemisphere (southeast trades) converge at the ITCZ. The diagram also indicates the latitudinal shift of the ITCZ in July (20-25\u00b0N) and its southward movement in winter.",
+        "labels": [
+          "ITCZ",
+          "Northeast Trade Winds",
+          "Southeast Trade Winds",
+          "July Position (20-25\u00b0N)",
+          "Winter Movement (Southward)"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "ITCZ reaches northernmost position",
+        "date": "July",
+        "description": "The ITCZ shifts north to between 20\u00b0N and 25\u00b0N latitude."
+      },
+      {
+        "event": "ITCZ begins southward migration",
+        "date": "Winter",
+        "description": "The ITCZ moves toward the south, influencing the Northeast monsoon."
+      }
+    ],
+    "comparison_tables": [],
+    "mnemonics": [
+      "ITCZ: Inter Tropical Convergence Zone - 'In The Convergence Zone'"
+    ],
+    "common_exam_traps": [
+      "Confusing the ITCZ's July position with 10\u00b0N - 15\u00b0N (the correct range is 20\u00b0N - 25\u00b0N).",
+      "Thinking the ITCZ moves northward in winter (it actually moves southward).",
+      "Misinterpreting 'N-SW wind' as something other than the Northeast monsoon winds."
+    ],
+    "previous_year_links": [
+      "MCQ: In July, the ITCZ is located approximately between: Options: 10\u00b0N - 15\u00b0N, 20\u00b0N - 25\u00b0N, 30\u00b0N - 35\u00b0N, Equator. Correct answer: 20\u00b0N - 25\u00b0N."
+    ],
+    "related_topics": [
+      "Trade Winds",
+      "Monsoon",
+      "Pressure Belts",
+      "Equatorial Low"
+    ],
+    "search_keywords": [
+      "ITCZ",
+      "Inter Tropical Convergence Zone",
+      "trade winds convergence",
+      "July position ITCZ",
+      "winter movement ITCZ",
+      "Northeast monsoon ITCZ"
+    ],
+    "beginner_explanation": "The ITCZ is a zone near the equator where the sun's heat causes air to rise, creating low pressure. Winds from the north and south blow toward this zone, meeting here. This zone moves north in summer (July) to about 20-25\u00b0N and south in winter, which affects the monsoon winds.",
+    "intermediate_explanation": "The ITCZ is the surface of convergence between the northeast trade winds of the Northern Hemisphere and the southeast trade winds of the Southern Hemisphere. It is characterized by low atmospheric pressure and heavy precipitation. Its latitudinal position varies seasonally, following the sun's declination. In July, it is found around 20-25\u00b0N, and it migrates southward in winter, a movement that is fundamental to the monsoon circulation, particularly the Northeast monsoon.",
+    "advanced_explanation": "",
+    "revision_priority": "High",
+    "confidence_score": 90,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Western Disturbance",
+    "subchapter": "Winter Rainfall Systems",
+    "topic": "Western Disturbance",
+    "subtopic": "Mediterranean Origin and Northwest India Impact",
+    "master_notes": "Western Disturbance (WD) is a non-monsoonal winter rainfall system that originates in the Mediterranean region and affects north-west India, Pakistan, and adjoining areas during the winter months (December to March). It is caused by an upper-air trough and associated low-pressure system that develops over the Mediterranean Sea. A high-pressure system (H:P) over the Mediterranean drives the disturbance eastward, while a low-pressure system (L:P) over India draws it further inland. The disturbance travels along the subtropical westerly jet stream, moving across the Middle East and Central Asia before reaching the Indian subcontinent. As it moves, it carries moisture picked up from the Mediterranean and the Arabian Sea. When the disturbance encounters the Himalayas, the orographic effect forces the moist air to rise, cool, and condense, resulting in rainfall. The primary regions receiving rainfall from Western Disturbance are Punjab, Haryana, Delhi, and Western Uttar Pradesh. These areas experience winter rain that is crucial for Rabi crops, particularly wheat. The disturbance typically affects a 'Cold Area' in the North, bringing not only rain but also a drop in temperature. Unlike the summer monsoon, which is driven by the southwest monsoon winds, Western Disturbance is a winter phenomenon driven by westerly winds. It is an important topic for defence examinations as it relates to the geography, climate, and agricultural economy of north-west India. The disturbance is most active during January and February, and its intensity can vary depending on the strength of the subtropical westerly jet and the temperature contrast between the Mediterranean high and the Indian low.",
+    "revision_notes": "Western Disturbance: Winter rainfall system originating in the Mediterranean, affecting Punjab, Haryana, Delhi, and Western U.P. Driven by westerly jet stream. High pressure over Mediterranean pushes it; low pressure over India draws it. Brings winter rain crucial for Rabi crops (wheat). Occurs December-March, peak in Jan-Feb. Not related to monsoon. Exam trap: WD affects NW India, not Kerala, Assam, or Odisha.",
+    "one_liner_notes": [
+      "Western Disturbance is a winter rainfall system originating in the Mediterranean region.",
+      "It affects Punjab, Haryana, Delhi, and Western Uttar Pradesh during winter months.",
+      "The disturbance is driven by the subtropical westerly jet stream.",
+      "A high-pressure system over the Mediterranean pushes the disturbance eastward.",
+      "A low-pressure system over India draws the disturbance inland.",
+      "Western Disturbance brings crucial winter rain for Rabi crops, especially wheat.",
+      "It is a non-monsoonal system, distinct from the summer southwest monsoon.",
+      "The peak period of Western Disturbance is January to February.",
+      "The orographic effect of the Himalayas enhances rainfall from Western Disturbance.",
+      "Western Disturbance is NOT responsible for rainfall in Kerala, Assam, or Odisha."
+    ],
+    "key_facts": [
+      "Western Disturbance originates in the Mediterranean Sea region.",
+      "It is a non-monsoonal winter rainfall system.",
+      "Primary affected regions: Punjab, Haryana, Delhi, and Western Uttar Pradesh.",
+      "Operative period: December to March, with peak in January-February.",
+      "Driven by the subtropical westerly jet stream.",
+      "High pressure (H:P) over Mediterranean pushes the disturbance.",
+      "Low pressure (L:P) over India draws the disturbance inland.",
+      "Brings winter rainfall crucial for Rabi crop cultivation (wheat).",
+      "The Himalayas enhance rainfall through orographic lifting.",
+      "Distinct from the summer monsoon system driven by southwest winds.",
+      "Affects a 'Cold Area' in the northern part of the Indian subcontinent.",
+      "Carries moisture from the Mediterranean and Arabian Sea.",
+      "Temperature drops accompany the disturbance, bringing winter chill.",
+      "Most active during January and February.",
+      "Important for the agricultural economy of north-west India."
+    ],
+    "definitions": [
+      {
+        "term": "Western Disturbance",
+        "exact_meaning": "A non-monsoonal winter rainfall system that originates in the Mediterranean region and affects north-west India and adjoining areas, driven by the subtropical westerly jet stream.",
+        "simplified_explanation": "Western Disturbance is a weather system that brings winter rain to north India. It starts near the Mediterranean Sea and travels eastward, carried by high-altitude westerly winds, before reaching India and causing rain in states like Punjab, Haryana, Delhi, and Western Uttar Pradesh."
+      },
+      {
+        "term": "Subtropical Westerly Jet Stream",
+        "exact_meaning": "A fast-flowing, narrow air current in the atmosphere that blows from west to east in the subtropics, serving as the primary mechanism for transporting Western Disturbances from the Mediterranean to the Indian subcontinent.",
+        "simplified_explanation": "The subtropical westerly jet stream is like a river of fast-moving air high up in the sky that flows from west to east. It acts as a conveyor belt, carrying the Western Disturbance from the Mediterranean region all the way to India."
+      },
+      {
+        "term": "Orographic Lifting",
+        "exact_meaning": "A process where air is forced to rise over a physical barrier such as a mountain range, causing it to cool, condense, and produce precipitation; this mechanism enhances rainfall from Western Disturbance when it encounters the Himalayas.",
+        "simplified_explanation": "When the moisture-laden winds from a Western Disturbance hit the Himalayas, they are forced to rise up the mountains. As they go higher, the air cools down and the moisture turns into rain. This is called orographic lifting."
+      },
+      {
+        "term": "Rabi Crop",
+        "exact_meaning": "A crop that is sown in winter (around October-November) and harvested in spring (around March-April), including wheat, barley, and mustard; these crops depend on Western Disturbance rainfall for their growth.",
+        "simplified_explanation": "Rabi crops are the crops grown during the winter season. They are planted in winter and harvested in spring. Wheat is the most important Rabi crop, and it needs the rain brought by Western Disturbances to grow well."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Western Disturbance: Key Characteristics",
+        "content": "| Aspect | Details |\n|--------|---------|\n| Origin | Mediterranean Sea region |\n| Type | Non-monsoonal winter rainfall system |\n| Driving Force | Subtropical westerly jet stream |\n| Direction of Movement | West to East (Mediterranean to India) |\n| Season | Winter (December to March) |\n| Peak Period | January to February |\n| Primary Affected Regions | Punjab, Haryana, Delhi, Western Uttar Pradesh |\n| Secondary Effects | Drop in temperature, winter chill |\n| Agricultural Impact | Crucial for Rabi crops (wheat, barley, mustard) |\n| Mechanism | Orographic lifting by Himalayas enhances rainfall |"
+      },
+      {
+        "title": "Western Disturbance vs. Monsoon: Key Differences",
+        "content": "| Feature | Western Disturbance | Monsoon |\n|---------|---------------------|----------|\n| Season | Winter (December-March) | Summer (June-September) |\n| Origin | Mediterranean region | Indian Ocean (Bay of Bengal, Arabian Sea) |\n| Wind Pattern | Westerly jet stream | Southwest monsoon winds |\n| Rainfall Type | Winter rain | Summer rain |\n| Affected Regions | Northwest India (Punjab, Haryana, Delhi, W. UP) | Entire India (varies by region) |\n| Crop Impact | Rabi crops (wheat) | Kharif crops (rice, maize) |\n| Temperature Effect | Brings cold wave | Brings relief from heat |\n| Duration | Short-lived, individual events | Long duration, seasonal |\n| Driving Mechanism | Upper-air trough and jet stream | Thermal low over Tibetan Plateau |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Western Disturbance Flowchart",
+        "description": "A flowchart showing the movement of a Western Disturbance from its origin to its impact on the Indian subcontinent. A High Pressure system (H:P) is depicted over the Mediterranean Sea, and a Low Pressure system (L:P) is shown over India. Arrows indicate the eastward movement of the disturbance from the Mediterranean towards India, carried by the subtropical westerly jet stream. The disturbance affects a 'Cold Area' in the northern part of the Indian subcontinent, bringing winter rainfall and a drop in temperature.",
+        "labels": [
+          "High Pressure (H:P) over Mediterranean Sea",
+          "Low Pressure (L:P) over India",
+          "Subtropical Westerly Jet Stream",
+          "Direction of movement (West to East)",
+          "Cold Area in North India",
+          "Affected regions: Punjab, Haryana, Delhi, Western U.P.",
+          "Mediterranean Sea (Origin)",
+          "Indian Subcontinent (Impact)"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Western Disturbance season begins",
+        "date": "December",
+        "description": "Western Disturbance activity starts in north-west India, bringing the first winter rains."
+      },
+      {
+        "event": "Peak Western Disturbance period",
+        "date": "January-February",
+        "description": "The most active period for Western Disturbances, with frequent systems affecting north-west India."
+      },
+      {
+        "event": "Western Disturbance season ends",
+        "date": "March",
+        "description": "Western Disturbance activity typically declines as temperatures begin to rise and the subtropical westerly jet shifts northward."
+      }
+    ],
+    "comparison_tables": [
+      {
+        "title": "Western Disturbance vs. Southwest Monsoon",
+        "content": "| Parameter | Western Disturbance | Southwest Monsoon |\n|-----------|---------------------|-------------------|\n| Timing | December-March (Winter) | June-September (Summer) |\n| Origin | Mediterranean Sea | Indian Ocean |\n| Wind Direction | West to East (Westerlies) | Southwest to Northeast |\n| Rainfall Nature | Light to moderate, intermittent | Heavy, sustained |\n| Affected Area | Northwest India only | Entire Indian subcontinent |\n| Crop Benefit | Rabi crops (wheat) | Kharif crops (rice) |\n| Temperature Impact | Brings cold wave | Brings cooling relief |\n| Jet Stream | Subtropical Westerly Jet (lower level) | Tropical Easterly Jet (upper level) |\n| Duration | Individual systems, short-lived | Seasonal, long duration |\n| Cause | Upper-air trough over Mediterranean | Thermal low over Tibetan Plateau |"
+      }
+    ],
+    "mnemonics": [
+      "PHDWU: Punjab, Haryana, Delhi, Western U.P. - the regions affected by Western Disturbance.",
+      "Mediterranean to India: Think of WD as a 'Winter Messenger' coming from the West.",
+      "WD = Winter Disturbance: Remember it brings winter rain, not summer monsoon.",
+      "Jet Stream = Conveyor Belt: The westerly jet carries WD from the Mediterranean to India.",
+      "Rabi Rain: Western Disturbance rain is for Rabi crops (wheat), not Kharif (rice)."
+    ],
+    "common_exam_traps": [
+      "Confusing Western Disturbance with the summer monsoon - WD is a winter phenomenon, not summer.",
+      "Thinking WD affects the entire country - it primarily affects only north-west India (Punjab, Haryana, Delhi, Western U.P.).",
+      "Believing WD brings heavy rainfall like the monsoon - WD typically brings light to moderate, intermittent rain.",
+      "Associating WD with the southwest monsoon winds - WD is driven by westerly winds, not monsoon winds.",
+      "Assuming WD affects southern states like Kerala, Tamil Nadu, or Karnataka - these regions are not significantly impacted by WD.",
+      "Confusing the timing - WD occurs in winter (Dec-Mar), not during the monsoon season (Jun-Sep).",
+      "Thinking WD is related to the retreating monsoon - WD is an independent system with a different origin and mechanism.",
+      "Believing Assam, Odisha, or Kerala receive significant rainfall from WD - these eastern and southern regions are outside the WD influence zone."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Subtropical Westerly Jet Stream",
+      "Winter Rainfall in India",
+      "Rabi Crop Cultivation",
+      "Southwest Monsoon System",
+      "Tropical Easterly Jet Stream",
+      "Orographic Rainfall",
+      "Mediterranean Climate",
+      "Cold Wave in North India",
+      "Himalayan Barrier Effect",
+      "Seasonal Rainfall Patterns of India"
+    ],
+    "search_keywords": [
+      "Western Disturbance",
+      "winter rainfall",
+      "Mediterranean",
+      "Punjab rainfall",
+      "Haryana winter rain",
+      "Delhi winter rain",
+      "Western Uttar Pradesh rain",
+      "westerly jet stream",
+      "non-monsoonal rain",
+      "Rabi crop rain",
+      "wheat cultivation rain",
+      "cold wave north India",
+      "December to March rain",
+      "January February rain",
+      "northwest India winter rain",
+      "Mediterranean to India rain system",
+      "subtropical westerly jet",
+      "orographic lifting Himalayas",
+      "winter rain system",
+      "defence exam geography"
+    ],
+    "beginner_explanation": "Western Disturbance is a weather system that brings rain during the winter months in north India. It starts far away, near the Mediterranean Sea (which is in Europe/Middle East area), and travels thousands of kilometers to reach India. It is carried by strong high-altitude winds called the westerly jet stream. When it reaches the Himalayas, the mountains force the rain-bearing clouds to rise up, cool down, and drop rain. This rain mainly falls in Punjab, Haryana, Delhi, and Western Uttar Pradesh. This winter rain is very important because it helps crops like wheat grow. It is different from the summer monsoon, which brings heavy rains from June to September. Western Disturbance happens from December to March, with the most rain in January and February.",
+    "intermediate_explanation": "Western Disturbance is a non-monsoonal extratropical cyclonic system that originates in the Mediterranean region due to an upper-air trough. It is transported eastward by the subtropical westerly jet stream, which acts as a conveyor belt. The system is driven by a high-pressure anomaly over the Mediterranean and a low-pressure system over the Indian subcontinent, creating a pressure gradient that propels the disturbance. As the moisture-laden system approaches the Himalayas, orographic lifting forces the air to ascend the mountain barrier, resulting in condensation and precipitation. The rainfall is typically light to moderate and occurs in spells. The primary impact zone includes Punjab, Haryana, Delhi, and Western Uttar Pradesh. The disturbance also brings a drop in temperature and sometimes cold waves. It is crucial for the Rabi cropping season, as the winter rain supplements irrigation for wheat and other Rabi crops. The system is most active during January-February when the subtropical westerly jet is strongest and positioned at an optimal latitude to channel disturbances into north-west India.",
+    "advanced_explanation": "Western Disturbance represents a complex synoptic-scale meteorological phenomenon involving the interaction of upper-level atmospheric dynamics and orographic effects. The system originates as an upper-air trough over the Mediterranean, associated with a deep-layer low-pressure anomaly at the 300-500 hPa levels. The subtropical westerly jet stream, positioned at approximately 25-30\u00b0N latitude during winter, provides the zonal transport mechanism. The jet core, with wind speeds often exceeding 40-50 m/s, channels the disturbance along a west-east axis from the Mediterranean through the Middle East, Central Asia, and into the Indian subcontinent. The pressure gradient between the Mediterranean high (1025-1030 hPa) and the continental low over northern India (1005-1010 hPa) drives the eastward progression. Upon encountering the Himalayan barrier, the system undergoes orographic modification, with forced ascent leading to cloud formation and precipitation. The rain shadow effect on the leeward side results in differential rainfall distribution. The disturbance is classified as a 'winter rainfall system' in the K\u00f6ppen-Geiger climate classification context for the region. Its intensity and frequency are modulated by large-scale climate drivers such as the North Atlantic Oscillation (NAO), El Ni\u00f1o-Southern Oscillation (ENSO), and the Indian Ocean Dipole (IOD). The timing of WD events is critical for agricultural planning, as the winter rain directly influences wheat yield in the Indo-Gangetic Plain. Climate change projections suggest potential shifts in WD tracks and intensity, with implications for water resource management and agricultural productivity in north-west India.",
+    "revision_priority": "High",
+    "confidence_score": 9,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Famous Local Storms",
+    "subchapter": "",
+    "topic": "Famous Local Storms",
+    "subtopic": "",
+    "master_notes": "Famous Local Storms in India are region-specific weather phenomena that play a crucial role in local agriculture and climate. Key storms include:\n\n- **Mango Shower**: A pre-monsoon rain shower occurring in Kerala and Coast Karnataka, associated with the mango season.\n- **Blossom Shower**: Occurs in Kerala, associated with the blossoming of coffee plants.\n- **North Westers**: A storm affecting Bengal and Assam, particularly useful for the cultivation of tea, jute, and rice.\n- **Loo**: A hot, dry wind occurring from Punjab to Bihar.\n- **Cherry Blossom**: A storm occurring in Tamil Nadu and Karnataka.\n\nThese storms are frequently examined in competitive exams like NDA, CDS, and AFCAT, with specific emphasis on their locations and agricultural impacts. For instance, North Westers are highlighted for their benefits to tea, jute, and rice cultivation.",
+    "revision_notes": "List of local storms: Mango Shower (Kerala & Coast Karnataka, mangoes), Blossom Shower (Kerala, coffee), North Westers (Bengal & Assam, tea/jute/rice), Loo (Punjab to Bihar), Cherry Blossom (TN/Karnataka). Key exam point: North Westers are useful for tea, jute, and rice.",
+    "one_liner_notes": [
+      "Mango Shower occurs in Kerala and Coast Karnataka, associated with mangoes.",
+      "Blossom Shower is linked to coffee cultivation in Kerala.",
+      "North Westers benefit tea, jute, and rice in Bengal and Assam.",
+      "Loo spans from Punjab to Bihar.",
+      "Cherry Blossom storm affects Tamil Nadu and Karnataka."
+    ],
+    "key_facts": [
+      "Mango Shower is a pre-monsoon rain in Kerala and Coast Karnataka during the mango season.",
+      "Blossom Shower is associated with coffee blossoms in Kerala.",
+      "North Westers are crucial for tea, jute, and rice cultivation in Bengal and Assam.",
+      "Loo is a hot, dry wind from Punjab to Bihar.",
+      "Cherry Blossom occurs in Tamil Nadu and Karnataka."
+    ],
+    "definitions": [
+      {
+        "term": "Mango Shower",
+        "exact_meaning": "A local storm occurring in Kerala and Coast Karnataka, associated with the mango season.",
+        "simplified_explanation": "Rain that happens during the time when mangoes are ripe in Kerala."
+      },
+      {
+        "term": "Blossom Shower",
+        "exact_meaning": "A storm occurring in Kerala, associated with the blossoming of coffee plants.",
+        "simplified_explanation": "Rain that comes when coffee flowers bloom in Kerala."
+      },
+      {
+        "term": "North Westers",
+        "exact_meaning": "A storm affecting Bengal and Assam, beneficial for tea, jute, and rice cultivation.",
+        "simplified_explanation": "Winds that bring rain helpful for growing tea, jute, and rice in eastern India."
+      },
+      {
+        "term": "Loo",
+        "exact_meaning": "A hot, dry wind occurring from Punjab to Bihar.",
+        "simplified_explanation": "A strong, hot wind that blows in northern India during summer."
+      },
+      {
+        "term": "Cherry Blossom",
+        "exact_meaning": "A storm occurring in Tamil Nadu and Karnataka.",
+        "simplified_explanation": "A local wind or rain event in southern India."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Comparison of Famous Local Storms in India",
+        "content": "| Storm Name | Location | Key Feature |\n|------------|----------|-------------|\n| Mango Shower | Kerala & Coast Karnataka | Associated with mangoes |\n| Blossom Shower | Kerala | Associated with coffee |\n| North Westers | Bengal & Assam | Useful for tea, jute, rice |\n| Loo | Punjab to Bihar | Hot, dry wind |\n| Cherry Blossom | TN/Karnataka | Local storm |"
+      }
+    ],
+    "diagram_descriptions": [],
+    "timelines": [],
+    "comparison_tables": [
+      {
+        "title": "Storm Locations and Agricultural Impacts",
+        "content": "| Storm | Region | Agricultural Benefit |\n|-------|--------|----------------------|\n| Mango Shower | Kerala, Coast Karnataka | Mango season indicator |\n| Blossom Shower | Kerala | Coffee blossom support |\n| North Westers | Bengal, Assam | Tea, jute, rice cultivation |\n| Loo | Punjab to Bihar | Limited direct benefit |\n| Cherry Blossom | Tamil Nadu, Karnataka | Minor regional impact |"
+      }
+    ],
+    "mnemonics": [
+      "Mango for Kerala, Coffee Blossom in Kerala, North Westers for Tea in East, Loo in North, Cherry in South."
+    ],
+    "common_exam_traps": [
+      "Confusing the location of North Westers with Loo; North Westers are in Bengal and Assam, while Loo is in Punjab to Bihar.",
+      "Mistaking the usefulness of North Westers; they are specifically for tea, jute, and rice, not wheat or cotton.",
+      "Overlooking the association of Blossom Shower with coffee instead of other crops."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Indian Monsoon System",
+      "Local Winds in India",
+      "Agriculture in India",
+      "Climate of India"
+    ],
+    "search_keywords": [
+      "Famous Local Storms India",
+      "Mango Shower",
+      "Blossom Shower",
+      "North Westers",
+      "Loo wind",
+      "Cherry Blossom storm",
+      "Indian local storms"
+    ],
+    "beginner_explanation": "India has special rains and winds with names like Mango Shower in Kerala during mango season, and North Westers that help grow tea in Bengal. These are important for local farming and weather.",
+    "intermediate_explanation": "Famous Local Storms include Mango Shower (Kerala, mangoes), Blossom Shower (Kerala, coffee), North Westers (Bengal/Assam, tea/jute/rice), Loo (Punjab to Bihar), and Cherry Blossom (TN/Karnataka). They are key for agriculture and are tested in exams for their locations and impacts.",
+    "advanced_explanation": "These local storms are integral to regional climatology and agriculture in India. North Westers, for example, are critical for the tea economy of Assam, while Mango Shower signals the pre-monsoon period in Kerala. Understanding their spatial distribution and effects is essential for advanced geographical analysis.",
+    "revision_priority": "High",
+    "confidence_score": 0.9,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "subchapter": "Mediterranean Climate",
+    "topic": "Mediterranean Climate",
+    "subtopic": "Temperature and Seasonal Patterns",
+    "master_notes": "Comprehensive overview of Mediterranean climate characteristics including temperature ranges, seasonal variations, and examination-relevant distinctions for NDA/CDS/AFCAT preparation.",
+    "revision_notes": "Merged existing canonical notes with new source details; clarified summer/winter characteristics; added MCQ-based learning point; ensured all utility information retained.",
+    "one_liner_notes": [
+      "Mediterranean climate features warm, dry summers and mild winters \u2014 the hallmark of this distinctive climate type.",
+      "Key distinction: dry hot summers contrast with mild, wetter winters, creating pronounced seasonality.",
+      "Common exam trap: confusing Mediterranean with tropical monsoon climates (which are wet in summer, not dry)."
+    ],
+    "key_facts": [
+      "Summer temperatures are warm but dry, with minimal precipitation.",
+      "Winter temperatures are mild, often with increased rainfall and cloud cover.",
+      "The climate exhibits strong seasonality with a distinct dry summer and mild winter.",
+      "MCQ confirmation: The correct answer to \"What characterizes Mediterranean summer?\" is \"Warm and dry\" (Option 1).",
+      "Geographic distribution: Coastal regions surrounding the Mediterranean Sea basin (Southern Europe, North Africa, Western Asia).",
+      "K\u00f6ppen classification: Typically classified as Csa (hot-summer Mediterranean) or Csb (warm-summer Mediterranean)."
+    ],
+    "definitions": [
+      {
+        "term": "Mediterranean Climate",
+        "exact_meaning": "A climate type characterized by warm, dry summers and mild, wetter winters, predominantly found along the Mediterranean Sea coastline.",
+        "simplified_explanation": "Think of it as the 'dry summer, wet winter' pattern \u2014 hot and arid in summer, pleasant and moist in winter."
+      },
+      {
+        "term": "Warm and Dry",
+        "exact_meaning": "Weather condition with elevated temperatures combined with low humidity and minimal rainfall during the summer months.",
+        "simplified_explanation": "Summers are hot but receive very little rain \u2014 the defining feature that separates Mediterranean from humid subtropical climates."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Mediterranean Climate Characteristics",
+        "content": "| Aspect | Description |\n|--------|-------------|\n| Summer | Warm to hot temperatures (25-35\u00b0C average), low humidity, minimal rainfall |\n| Winter | Mild temperatures (8-15\u00b0C average), increased precipitation, cloudy skies |\n| Seasonality | Distinct dry summer period followed by mild winter months |\n| Geographic Location | Coastal regions surrounding the Mediterranean Sea (Spain, Italy, Greece, Morocco, Algeria, Turkey, Lebanon, Syria, Israel) |\n| Key Feature | Strong contrast between dry hot summers and moist winters |\n| Exam Relevance | Critical for Climatology section of NDA/CDS/AFCAT; distinguishes from tropical and desert climates |\n"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Mediterranean Climate Seasonal Pattern",
+        "description": "Visual representation showing the annual temperature cycle: hot/dry summer (June-August) contrasting with mild/wet winter (December-February).",
+        "labels": [
+          "Summer (Warm/Dry, June-Aug)",
+          "Transition (May/Sept)",
+          "Winter (Mild/Wet, Dec-Feb)",
+          "Spring (Variable)"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Climate Formation",
+        "date": "Millennia ago \u2013 ongoing process",
+        "description": "The Mediterranean climate emerged through the influence of prevailing westerly winds and the Mediterranean Sea's thermal properties, creating a stable climatic regime over thousands of years."
+      },
+      {
+        "event": "Annual Seasonal Cycle",
+        "date": "Yearly recurrence",
+        "description": "Distinct dry summer (low precipitation, high temperatures) followed by mild winter (higher precipitation, moderate temperatures)."
+      }
+    ],
+    "comparison_tables": [
+      {
+        "title": "Mediterranean Climate vs. Other Major Climates",
+        "content": "| Climate Type | Summer Temp | Rainfall | Winter Temp | Key Characteristic |\n|--------------|-------------|----------|-------------|-------------------|\n| Mediterranean | Warm-Dry | Low | Mild | Dry hot summers, wet winters |\n| Tropical Monsoon | Hot-Humid | Very High | Warm | Heavy rains in summer, distinct wet/dry seasons |\n| Humid Subtropical | Warm-Moist | High year-round | Mild-Cool | No true dry season; consistent warmth |\n| Arid Desert | Hot-Dry | Negligible | Cool-Warm | Extremely low precipitation throughout year |\n| Continental | Variable | Seasonal | Cold | Large temperature extremes, snow in winter |\n\nExam Tip: Mediterranean = Dry Summer + Wet Winter (opposite of tropical monsoon)."
+      }
+    ],
+    "mnemonics": [
+      "MED: Mediterranean = Dry Summer, Wet Winter",
+      "MDW: Mediterranean = Moist Winters, Dry Summers",
+      "WARM & DRY: The defining summer characteristic"
+    ],
+    "common_exam_traps": [
+      "Confusing Mediterranean climate with tropical monsoon climates \u2014 Mediterranean summers are dry, not wet.",
+      "Reversing seasons \u2014 Mediterranean summers are hot/dry, not cold.",
+      "Assuming uniformity \u2014 Mediterranean climates vary by latitude and altitude within the region.",
+      "Overlooking geographic dependency \u2014 inland Mediterranean climates (e.g., Central Italy) differ from coastal ones."
+    ],
+    "previous_year_links": [
+      "PYQ: Question on Mediterranean climate characteristics \u2014 Answer: Warm and dry summers (Option 1)",
+      "PYQ: Comparative question distinguishing Mediterranean from other climate types"
+    ],
+    "related_topics": [
+      "World Climates Classification (K\u00f6ppen-Geiger system)",
+      "Coastal Climate Zones and their characteristics",
+      "Ocean-Atmosphere Interactions affecting Mediterranean weather",
+      "Climate Change Impacts on Mediterranean Region",
+      "Geography of Southern Europe and Mediterranean Basin"
+    ],
+    "search_keywords": [
+      "Mediterranean climate definition",
+      "Mediterranean climate characteristics",
+      "Mediterranean climate MCQ",
+      "Climatology Mediterranean region",
+      "Warm dry summer climate",
+      "Mediterranean climate temperature range"
+    ],
+    "beginner_explanation": "The Mediterranean climate gets its name from the Mediterranean Sea. Imagine a place like southern France, Spain, or Greece in summer \u2014 it's hot but doesn't rain much. Then in winter, it becomes cooler and wetter. This 'dry summer, wet winter' pattern is the signature of this climate type.",
+    "intermediate_explanation": "Mediterranean climate forms when winter storms from the Atlantic carry moisture toward the coast, creating wet, mild winters. During summer, high-pressure systems block these storms, allowing dry, warm air from Africa to dominate. The result is a sharp seasonal contrast: scorching, dry days in summer versus cool, cloudy, rainy days in winter.",
+    "advanced_explanation": "From a climatological perspective, the Mediterranean climate represents a transitional regime between maritime and continental climates. According to the K\u00f6ppen system, it falls under Csa (hot-summer Mediterranean) or Csb (warm-summer Mediterranean). The temperature differential between summer (typically 25\u201335\u00b0C) and winter (8\u201315\u00b0C) creates significant diurnal and seasonal amplitude. This climate type is ecologically significant \u2014 it supports unique flora like olive trees, grapes, and citrus, and has shaped human settlement patterns for millennia. Understanding this climate is essential for NDA/CDS/AFCAT as it appears in Climatology and Environmental Science sections, particularly regarding regional biodiversity, agriculture, and water resource management.",
+    "revision_priority": "High - integrates canonical notes with new source details; adds MCQ context; emphasizes exam relevance",
+    "confidence_score": 95,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Arabian Sea Branch of Monsoon",
+    "subchapter": "Southwest Monsoon Branches",
+    "topic": "Arabian Sea Branch of Monsoon",
+    "subtopic": "Rainfall Distribution & Rain Shadow Effect",
+    "master_notes": "The Arabian Sea Branch is one of the two main branches of the Southwest Monsoon (the other being the Bay of Bengal Branch). It strikes the Western Ghats perpendicularly, causing heavy orographic rainfall on the windward side (western slopes) ranging from 250 cm to 400 cm annually. The leeward side (eastern slopes/Deccan Plateau) receives significantly less rainfall and is known as the Rain Shadow Area. This branch is responsible for the bulk of rainfall along the Konkan, Malabar, and western coastal regions. The rain shadow effect creates a sharp rainfall gradient across the Western Ghats, influencing agriculture, water resources, and climate of peninsular India.",
+    "revision_notes": "\u2022 Arabian Sea Branch = Southwest Monsoon branch hitting Western Ghats.\n\u2022 Windward side (western slopes): Heavy rainfall 250\u2013400 cm.\n\u2022 Leeward side (eastern slopes): Rain Shadow Area \u2013 low rainfall.\n\u2022 Major impact on Konkan, Malabar coasts and Western Ghats biodiversity.\n\u2022 Rain shadow effect creates sharp rainfall gradient across Ghats.",
+    "one_liner_notes": [
+      "Arabian Sea Branch of SW Monsoon strikes Western Ghats causing heavy orographic rain.",
+      "Windward side (western slopes) receives 250\u2013400 cm rainfall.",
+      "Leeward side (eastern slopes) is a Rain Shadow Area with scanty rainfall.",
+      "Rain shadow effect creates sharp rainfall gradient across Western Ghats."
+    ],
+    "key_facts": [
+      "Branch of Southwest Monsoon originating from Arabian Sea.",
+      "Impacts Western Ghats directly.",
+      "Windward side rainfall: 250\u2013400 cm (very heavy).",
+      "Leeward side known as Rain Shadow Area due to reduced precipitation.",
+      "Major rainfall contributor to Konkan, Malabar coasts and Western Ghats.",
+      "Rain shadow region includes parts of Maharashtra, Karnataka, Tamil Nadu (eastern slopes)."
+    ],
+    "definitions": [
+      {
+        "term": "Rain Shadow Area",
+        "exact_meaning": "A region on the leeward side of a mountain range that receives significantly less rainfall because the windward side blocks moisture-laden winds, causing precipitation on the windward slopes and leaving dry air to descend on the leeward side.",
+        "simplified_explanation": "The dry side of a mountain where rain doesn't fall much because the mountains block the rain clouds."
+      },
+      {
+        "term": "Orographic Rainfall",
+        "exact_meaning": "Rainfall caused when moist air is forced to rise over a mountain barrier, cooling adiabatically and condensing to form clouds and precipitation.",
+        "simplified_explanation": "Rain that happens when wind pushes wet air up a mountain, cooling it until it rains."
+      },
+      {
+        "term": "Windward Side",
+        "exact_meaning": "The side of a mountain range that faces the prevailing wind and receives the bulk of orographic precipitation.",
+        "simplified_explanation": "The side of the mountain that the wind hits first \u2013 gets lots of rain."
+      },
+      {
+        "term": "Leeward Side",
+        "exact_meaning": "The side of a mountain range sheltered from the prevailing wind, typically drier due to the rain shadow effect.",
+        "simplified_explanation": "The side of the mountain away from the wind \u2013 gets little rain (rain shadow)."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Windward vs Leeward Side of Western Ghats (Arabian Sea Branch)",
+        "content": "| Feature | Windward Side (Western Slopes) | Leeward Side (Eastern Slopes) |\n|---|---|---|\n| Rainfall | 250\u2013400 cm (Very Heavy) | Low (Rain Shadow Area) |\n| Climate | Humid, tropical wet | Semi-arid to dry |\n| Vegetation | Tropical evergreen forests, dense vegetation | Deciduous, scrub, grasslands |\n| Agriculture | Rice, spices, plantation crops (tea, coffee) | Millets, pulses, dry farming |\n| Examples | Konkan coast, Malabar coast, Western Ghats peaks | Deccan Plateau, Rayalaseema, parts of Maharashtra & Karnataka |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Arabian Sea Branch Monsoon & Rain Shadow Effect",
+        "description": "Diagram showing moisture-laden Southwest Monsoon winds from Arabian Sea striking the Western Ghats. Windward side (west) shows heavy rainfall with clouds and rain symbols. Air rises, cools, condenses. Leeward side (east) shows descending dry air, clear skies, and 'Rain Shadow Area' label. Arrows indicate wind direction and air movement. Western Ghats ridge line marked.",
+        "labels": [
+          "Arabian Sea",
+          "SW Monsoon Winds",
+          "Western Ghats",
+          "Windward Side",
+          "Heavy Rainfall (250-400 cm)",
+          "Leeward Side",
+          "Rain Shadow Area",
+          "Descending Dry Air",
+          "Deccan Plateau"
+        ]
+      }
+    ],
+    "timelines": [],
+    "comparison_tables": [
+      {
+        "title": "Arabian Sea Branch vs Bay of Bengal Branch of SW Monsoon",
+        "content": "| Aspect | Arabian Sea Branch | Bay of Bengal Branch |\n|---|---|---|\n| Origin | Arabian Sea | Bay of Bengal |\n| First Landfall | Western Ghats (Kerala, Karnataka, Maharashtra) | Eastern Coast (Andhra, Odisha, West Bengal) |\n| Direction | West to East | East to West / Northwest |\n| Rainfall Distribution | Heavy on Western Ghats windward side; rain shadow on leeward | Heavy on Eastern Ghats, NE India, Indo-Gangetic Plain |\n| Rain Shadow Effect | Pronounced on Deccan Plateau (leeward of Western Ghats) | Less pronounced; moisture travels far inland |\n| Key Regions Affected | Konkan, Malabar, Western Ghats, Western Maharashtra | NE India, Indo-Gangetic Plain, Central India |\n| Merging | Merges with Bay branch over Central India | Merges with Arabian branch over Central India |"
+      }
+    ],
+    "mnemonics": [
+      "ARABIAN SEA BRANCH: **A**rabian **R**ains **A**lot **B**efore **I**t **A**scends **N**ow \u2013 **S**hadow **E**ast **A**rea (Rain shadow on eastern side).",
+      "Windward = Wet, Leeward = Less (Rain)."
+    ],
+    "common_exam_traps": [
+      "Confusing windward and leeward sides: Windward = heavy rain, Leeward = rain shadow (dry).",
+      "Thinking rain shadow is on the windward side.",
+      "Assuming Arabian Sea branch brings rain to entire peninsula; it creates a sharp gradient across Western Ghats.",
+      "Mixing up Arabian Sea branch and Bay of Bengal branch rainfall patterns."
+    ],
+    "previous_year_links": [
+      "MCQ: Which area is referred to as the 'Rain Shadow Area' in the context of the Arabian Sea branch of the monsoon? Options: Windward side of Western Ghats, Leeward side of Western Ghats, Eastern Coast, Himalayan Foothills. Correct: Leeward side of Western Ghats."
+    ],
+    "related_topics": [
+      "Bay of Bengal Branch of Monsoon",
+      "Western Ghats",
+      "Southwest Monsoon",
+      "Rain Shadow Effect",
+      "Orographic Rainfall",
+      "Indian Monsoon Mechanism",
+      "Climate of India",
+      "Deccan Plateau Climate"
+    ],
+    "search_keywords": [
+      "Arabian Sea Branch Monsoon",
+      "Western Ghats Rainfall",
+      "Rain Shadow Area India",
+      "Windward Leeward Monsoon",
+      "Orographic Rainfall Western Ghats",
+      "Monsoon Branches India"
+    ],
+    "beginner_explanation": "The Southwest Monsoon splits into two branches. The Arabian Sea branch comes from the Arabian Sea and hits the Western Ghats (mountains along India's west coast). The side facing the wind (windward) gets huge rain (250-400 cm). The other side (leeward) gets very little rain because the mountains block the clouds \u2013 this dry area is called the Rain Shadow Area.",
+    "intermediate_explanation": "The Arabian Sea branch of the Southwest Monsoon carries moisture from the Arabian Sea and strikes the Western Ghats almost perpendicularly. The forced ascent of moist air over the Ghats causes intense orographic rainfall on the windward western slopes (250\u2013400 cm). After crossing the crest, the air descends on the leeward eastern slopes, warming adiabatically and losing moisture, creating a pronounced rain shadow region over the Deccan Plateau. This branch is the primary rain source for the Konkan and Malabar coasts and the Western Ghats biodiversity hotspots.",
+    "advanced_explanation": "The Arabian Sea branch contributes ~65% of the total monsoon rainfall over India. Its interaction with the Western Ghats' orography creates one of the steepest rainfall gradients globally (e.g., Mahabaleshwar ~600 cm vs. Pune ~70 cm within 100 km). The rain shadow effect influences the semi-arid climate of Marathwada, Rayalaseema, and interior Karnataka. The branch later merges with the Bay of Bengal branch over central India, contributing to rainfall in the Chotanagpur plateau and Gangetic plains. Variability in this branch's onset and intensity critically impacts kharif agriculture and water reservoirs in peninsular India.",
+    "revision_priority": "High",
+    "confidence_score": 95,
+    "needs_review_flag": false
   }
 ]
