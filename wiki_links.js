@@ -2155,7 +2155,9 @@ Generate your response as a valid JSON object matching this schema exactly:
     "opposite": ["<Contrasting or Opposite Concept>"]
   }
 }
-Keep language strictly formal, highly authoritative, and emoji-free. Return strictly the raw JSON without code block wrappers.`;
+Keep language strictly formal, highly authoritative, and emoji-free. Return strictly the raw JSON without code block wrappers.
+- IMAGE GENERATION: If the user explicitly asks for an image, diagram, or picture, you MUST generate it by including a markdown image tag using the Pollinations API in your detailedExplanation field. Format exactly like this: ![Image Description](https://image.pollinations.ai/prompt/{URL_ENCODED_IMAGE_PROMPT}?width=1024&height=1024&nologo=true). Ensure the {URL_ENCODED_IMAGE_PROMPT} is highly detailed, extremely descriptive, and 100% accurate to the user's request. Accuracy is 100% critical and cannot be compromised.
+- EXHAUSTIVE LISTS: If the user explicitly asks for "all", "every", or an "exhaustive" list of items (e.g., "all aircraft", "all regiments"), you MUST NOT summarize or sample just a few. You must override brevity rules and list EVERY SINGLE item in that category comprehensively, without truncating.`;
 
   try {
     const response = await fetch('/api/chat', {

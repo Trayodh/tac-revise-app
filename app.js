@@ -7270,6 +7270,10 @@ Step 8: Generate 3 practice MCQs/Scenario-based questions with answers and detai
 
 - SOURCE INTEGRITY: Prioritize official, primary information (PIB, MoD, Supreme Court, Gazette of India, RBI, NITI Aayog, DRDO, ISRO, UN, etc.) over secondary coaching summaries.
 
+- IMAGE GENERATION: If the user explicitly asks for an image, diagram, or picture, you MUST generate it by including a markdown image tag using the Pollinations API. Format exactly like this: ![Image Description](https://image.pollinations.ai/prompt/{URL_ENCODED_IMAGE_PROMPT}?width=1024&height=1024&nologo=true). Ensure the {URL_ENCODED_IMAGE_PROMPT} is highly detailed, extremely descriptive, and 100% accurate to the user's request. Accuracy is 100% critical and cannot be compromised.
+
+- EXHAUSTIVE LISTS: If the user explicitly asks for "all", "every", or an "exhaustive" list of items (e.g., "all aircraft", "all regiments"), you MUST NOT summarize or sample just a few. You must override brevity rules and list EVERY SINGLE item in that category comprehensively, without truncating.
+
 
 
 Doubt to solve: ${text}`;
