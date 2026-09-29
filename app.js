@@ -5991,7 +5991,7 @@ STRICT RULES:
 
     const payload = {
 
-      model: 'gemini-1.5-pro',
+      model: 'gemini-2.0-flash',
 
       contents: [{ parts: [{ text: prompt }] }],
       generationConfig: { maxOutputTokens: 8192, temperature: 0 }

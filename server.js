@@ -897,6 +897,34 @@ ${textPrompt}`;
             }
         }
 
+        // --- FALLBACK TO GROQ (llama-3.3-70b) ---
+        if (!success && process.env.GROQ_API_KEY && !stream && textPrompt) {
+            console.log(`[PROXY] gpt-oss-120b failed. Falling back to Groq AI (llama-3.3-70b-versatile)...`);
+            try {
+                const groqRes2 = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
+                    body: JSON.stringify({
+                        model: "llama-3.3-70b-versatile",
+                        max_tokens: 8192,
+                        messages: [
+                            ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
+                            { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }
+                        ]
+                    })
+                });
+                if (groqRes2.ok) {
+                    const groqData2 = await groqRes2.json();
+                    finalResponseText = groqData2.choices[0].message.content;
+                    success = true;
+                } else {
+                    console.error('[PROXY] Groq llama API error:', await groqRes2.text());
+                }
+            } catch (err) {
+                console.error('[PROXY] Exception during Groq llama request:', err.message);
+            }
+        }
+
         if (success) {
           if (finalResponseText) {
              // Fallback models triggered. We need to mock the Gemini response structure.
