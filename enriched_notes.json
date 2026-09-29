@@ -919,5 +919,290 @@
     "revision_priority": "High",
     "confidence_score": 95,
     "needs_review_flag": false
+  },
+  {
+    "subject": "Ancient History",
+    "chapter": "Literary Works & Philosophical Thought",
+    "subchapter": "Vedic Literature",
+    "topic": "Literary Works & Philosophical Thought",
+    "subtopic": "Compilation and Preservation of Vedic Texts",
+    "master_notes": "The literary and philosophical developments of the ancient Indian period were primarily characterized by the compilation and systematic preservation of the Vedic texts. This process ensured the continuity of sacred knowledge through oral tradition and later written manuscripts, forming the foundation of Hindu philosophy, ritual, and culture. The Vedas (Rigveda, Samaveda, Yajurveda, Atharvaveda) were meticulously preserved by priestly families using sophisticated mnemonic techniques, ensuring textual fidelity across generations.",
+    "revision_notes": "\u2022 Core literary activity: Compilation and preservation of Vedic texts.\n\u2022 Vedic texts form the basis of ancient Indian philosophy and religion.\n\u2022 Preservation achieved through oral tradition (Shruti) and later written form.\n\u2022 Priestly families (Brahmins) were custodians of this tradition.\n\u2022 No significant secular literature, Greek translations, or novels in this period.",
+    "one_liner_notes": [
+      "Primary literary activity of ancient India: Compilation & preservation of Vedic texts.",
+      "Vedas preserved orally (Shruti) before being written down.",
+      "Four Vedas: Rig, Sama, Yajur, Atharva \u2013 foundation of Hindu thought.",
+      "No secular novels or Greek translations in this era."
+    ],
+    "key_facts": [
+      "The Vedic texts are the oldest layer of Sanskrit literature.",
+      "They were transmitted orally with precise phonetic accuracy for centuries.",
+      "The compilation is attributed to sage Vyasa (traditional view).",
+      "The texts include Samhitas, Brahmanas, Aranyakas, and Upanishads.",
+      "Preservation techniques included Pada-patha, Krama-patha, and Ghana-patha."
+    ],
+    "definitions": [
+      {
+        "term": "Vedic texts",
+        "exact_meaning": "The corpus of ancient Sanskrit scriptures comprising the four Vedas (Rigveda, Samaveda, Yajurveda, Atharvaveda) and their associated Brahmanas, Aranyakas, and Upanishads, considered Shruti (revealed knowledge).",
+        "simplified_explanation": "The oldest sacred books of Hinduism, passed down orally for generations before being written, containing hymns, rituals, and philosophical teachings."
+      },
+      {
+        "term": "Shruti",
+        "exact_meaning": "That which is heard; the body of most authoritative, ancient religious texts comprising the Vedas and their embedded texts, believed to be of divine origin.",
+        "simplified_explanation": "Revealed scriptures \u2013 the Vedas \u2013 considered eternal and authorless, transmitted by hearing."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Key Literary Activity of the Period",
+        "content": "| Activity | Description |\n|---|---|\n| Compilation of Vedic texts | Systematic collection of hymns, rituals, and philosophical discourses into four Vedas. |\n| Preservation method | Oral transmission using complex mnemonic techniques (pathas) to ensure accuracy. |\n| Custodians | Priestly families (Brahmins) specialized in specific Vedic recensions (shakhas). |\n| Significance | Foundation of Indian philosophy, religion, and subsequent literary tradition. |"
+      }
+    ],
+    "diagram_descriptions": [],
+    "timelines": [
+      {
+        "event": "Composition of Rigveda (earliest Vedic text)",
+        "date": "c. 1500\u20131200 BCE",
+        "description": "Earliest Vedic hymns composed in the Punjab region."
+      },
+      {
+        "event": "Composition of later Vedas (Sama, Yajur, Atharva)",
+        "date": "c. 1200\u2013900 BCE",
+        "description": "Development of ritualistic and magical texts."
+      },
+      {
+        "event": "Compilation and codification of Vedic corpus",
+        "date": "c. 600\u2013500 BCE",
+        "description": "Traditional attribution to Vyasa; transition from purely oral to written preservation begins."
+      }
+    ],
+    "comparison_tables": [],
+    "mnemonics": [
+      "Rig, Sama, Yajur, Atharva \u2013 Four Vedas (RSYA) \u2013 'R S Y A' like 'Rasya' (juice/essence) \u2013 essence of ancient wisdom."
+    ],
+    "common_exam_traps": [
+      "Confusing Vedic literature with later Sanskrit literature (epics, Puranas).",
+      "Assuming Vedic texts were written from the beginning \u2013 they were oral for centuries.",
+      "Thinking Greek literature was translated in ancient India during Vedic period (no contact yet).",
+      "Believing secular novels existed \u2013 fiction is a later development.",
+      "Misinterpreting 'abolition of oral preservation' \u2013 oral tradition was the primary method, not abolished."
+    ],
+    "previous_year_links": [
+      "MCQ: The literary tradition of this era was primarily characterized by which of the following activities? Options: Translation of Greek literature, Compilation and preservation of Vedic texts, Creation of secular novels, Abolition of oral preservation. Correct: Compilation and preservation of Vedic texts."
+    ],
+    "related_topics": [
+      "Vedic Period (Early & Later)",
+      "Oral Tradition in Ancient India",
+      "Upanishadic Philosophy",
+      "Sanskrit Language Development",
+      "Brahmanas, Aranyakas, Upanishads"
+    ],
+    "search_keywords": [
+      "Vedic texts compilation",
+      "Preservation of Vedas",
+      "Ancient Indian literature",
+      "Shruti literature",
+      "Vedic oral tradition"
+    ],
+    "beginner_explanation": "In ancient India, the most important literary work was collecting and protecting the Vedas. The Vedas are the oldest holy books of Hinduism. They were not written down at first; instead, priests memorized them perfectly and passed them down by speaking. This oral tradition kept the texts unchanged for hundreds of years. Later, they were written down. There were no novels, no Greek translations, and the oral method was not stopped \u2013 it was the main way of preserving knowledge.",
+    "intermediate_explanation": "The Vedic period's literary hallmark is the systematic compilation and preservation of the four Vedas (Rig, Sama, Yajur, Atharva) along with their exegetical texts (Brahmanas, Aranyakas, Upanishads). This was achieved through an elaborate oral tradition employing multiple recitation methods (pathas) to ensure phonetic and textual fidelity. The priestly class (Brahmins) maintained distinct schools (shakhas) for each Veda. This corpus forms the bedrock of Indian philosophy, ritual, and linguistics. The process reflects a highly sophisticated indigenous knowledge system predating writing in India.",
+    "advanced_explanation": "The compilation of the Vedic corpus represents a unique epistemological project: the stabilization of a vast oral literature through mnemonic rigor rather than script. The division into Samhita (mantra), Brahmana (ritual), Aranyaka (forest treatise), and Upanishad (philosophy) reflects an internal evolution from ritual performance to speculative inquiry. The preservation techniques (Pada, Krama, Jata, Ghana pathas) demonstrate advanced linguistic analysis. The transition to writing (post-500 BCE) did not replace oral transmission but supplemented it. This tradition underpins the later development of Sanskrit grammar (Panini), Mimamsa hermeneutics, and Vedanta philosophy. For defence exams, focus on the centrality of Vedic preservation, the oral-written interface, and the absence of secular or foreign literary influences in this formative period.",
+    "revision_priority": "High",
+    "confidence_score": 0.9,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Eightfold Path of Buddha",
+    "subchapter": "",
+    "topic": "Eightfold Path of Buddha",
+    "subtopic": "",
+    "master_notes": "The Eightfold Path (Astangika Marga) is the fourth of the Four Noble Truths in Buddhism and constitutes the practical guide to ethical and mental development leading to the cessation of suffering (dukkha) and attainment of Nirvana. It is grouped into three categories: Wisdom (Prajna) comprising Right View and Right Intention; Ethical Conduct (Sila) comprising Right Speech, Right Action, and Right Livelihood; and Mental Discipline (Samadhi) comprising Right Effort, Right Mindfulness, and Right Concentration. Each factor is not a sequential step but an interdependent aspect of cultivating wholesome qualities and abandoning unwholesome ones. Right View involves understanding the Four Noble Truths, impermanence, and the law of karma. Right Intention refers to thoughts of renunciation, goodwill, and harmlessness. Right Speech entails abstaining from lying, divisive speech, harsh speech, and idle chatter. Right Action involves refraining from killing, stealing, and sexual misconduct. Right Livelihood means earning a living through ethical means that do not cause harm. Right Effort is the cultivation of positive states and the prevention and abandonment of negative states. Right Mindfulness is the continuous awareness of body, feelings, mind, and phenomena. Right Concentration is the development of deep meditative absorption (jhana) leading to a unified and tranquil mind. Together, these practices transform cognition, emotion, and behavior, enabling the practitioner to overcome ignorance and craving.",
+    "revision_notes": "Eightfold Path = Fourth Noble Truth; grouped into Wisdom (Right View, Right Intention), Ethics (Right Speech, Right Action, Right Livelihood), and Meditation (Right Effort, Right Mindfulness, Right Concentration). Leads to Nirvana by eliminating suffering.",
+    "one_liner_notes": [
+      "Eightfold Path is the fourth Noble Truth in Buddhism.",
+      "It is divided into Wisdom, Ethical Conduct, and Mental Discipline.",
+      "Practicing the Eightfold Path leads to the cessation of suffering and Nirvana."
+    ],
+    "key_facts": [
+      "Also known as Astangika Marga.",
+      "Presented by Buddha in his first sermon at Sarnath (Dhammacakkappavattana Sutta).",
+      "Each factor begins with 'Samma' (Pali) or 'Samyak' (Sanskrit) meaning 'right' or 'proper'.",
+      "The path is a middle way between indulgence and severe asceticism.",
+      "Right Livelihood excludes occupations like weapons trade, slaughter, poison, and deceit."
+    ],
+    "definitions": [
+      {
+        "term": "Eightfold Path",
+        "exact_meaning": "The eight interconnected practices taught by the Buddha as the way to end suffering and achieve enlightenment.",
+        "simplified_explanation": "A practical guide covering right understanding, intention, speech, action, livelihood, effort, mindfulness, and concentration."
+      },
+      {
+        "term": "Right View",
+        "exact_meaning": "Correct understanding of the Four Noble Truths, impermanence, and karma.",
+        "simplified_explanation": "Seeing reality as it truly is."
+      },
+      {
+        "term": "Right Intention",
+        "exact_meaning": "Thoughts of renunciation, goodwill, and harmlessness.",
+        "simplified_explanation": "Cultivating wholesome motives."
+      },
+      {
+        "term": "Right Speech",
+        "exact_meaning": "Abstaining from false, divisive, harsh, and idle speech.",
+        "simplified_explanation": "Speaking truthfully and kindly."
+      },
+      {
+        "term": "Right Action",
+        "exact_meaning": "Refraining from killing, stealing, and sexual misconduct.",
+        "simplified_explanation": "Ethical bodily conduct."
+      },
+      {
+        "term": "Right Livelihood",
+        "exact_meaning": "Earning a living through ethical, non\u2011harmful occupations.",
+        "simplified_explanation": "Doing work that does not cause harm."
+      },
+      {
+        "term": "Right Effort",
+        "exact_meaning": "Cultivating positive mental states and abandoning negative ones.",
+        "simplified_explanation": "Making persistent wholesome effort."
+      },
+      {
+        "term": "Right Mindfulness",
+        "exact_meaning": "Continuous awareness of body, feelings, mind, and mental objects.",
+        "simplified_explanation": "Being fully present and attentive."
+      },
+      {
+        "term": "Right Concentration",
+        "exact_meaning": "Developing deep meditative absorption (jhana) leading to a unified mind.",
+        "simplified_explanation": "Focused and tranquil meditation."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "The Eightfold Path",
+        "content": "| Factor | Category | Key Aspect |\n|--------|----------|------------|\n| Right View | Wisdom | Understanding Four Noble Truths |\n| Right Intention | Wisdom | Wholesome thoughts |\n| Right Speech | Ethics | Truthful, kind speech |\n| Right Action | Ethics | Ethical bodily conduct |\n| Right Livelihood | Ethics | Honest, non\u2011harmful work |\n| Right Effort | Mental Discipline | Cultivating good, abandoning bad |\n| Right Mindfulness | Mental Discipline | Present\u2011moment awareness |\n| Right Concentration | Mental Discipline | Meditative focus (jhana) |"
+      }
+    ],
+    "diagram_descriptions": [],
+    "timelines": [],
+    "comparison_tables": [],
+    "mnemonics": [
+      "VIRSALMC \u2013 View, Intention, Speech, Action, Livelihood, Effort, Mindfulness, Concentration"
+    ],
+    "common_exam_traps": [
+      "Confusing Right Livelihood with Right Action \u2013 Livelihood concerns occupation, Action concerns bodily conduct.",
+      "Mixing Right Effort with Right Mindfulness \u2013 Effort is about cultivating/abandoning mental states; Mindfulness is about awareness.",
+      "Thinking the factors must be practiced sequentially \u2013 they are developed simultaneously."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Four Noble Truths",
+      "Nirvana",
+      "Middle Way",
+      "Buddhist Ethics",
+      "Five Precepts",
+      "Three Marks of Existence"
+    ],
+    "search_keywords": [
+      "Eightfold Path",
+      "Buddhism",
+      "Right View",
+      "Right Livelihood",
+      "Noble Truths",
+      "Nirvana",
+      "Middle Way"
+    ],
+    "beginner_explanation": "The Eightfold Path is Buddha\u2019s practical guide to stop suffering. It has eight parts: right understanding, right thoughts, right speech, right actions, right job, right effort, right awareness, and right focus. Following them helps a person become peaceful and enlightened.",
+    "intermediate_explanation": "The Eightfold Path is the fourth Noble Truth, showing the way to end suffering. It is grouped into wisdom (right view, right intention), ethical conduct (right speech, right action, right livelihood), and mental discipline (right effort, right mindfulness, right concentration). Each part counters ignorance and craving, leading to liberation (Nirvana).",
+    "advanced_explanation": "The Eightfold Path (Astangika Marga) is the practical manifestation of the Four Noble Truths, taught by Buddha in the Dhammacakkappavattana Sutta. It avoids extremes of indulgence and asceticism, advocating a middle way. The threefold division\u2014prajna (wisdom), sila (ethics), samadhi (meditation)\u2014reflects the progressive purification of cognition, behavior, and mind. Mastery of the path eradicates the ten fetters, culminating in arahantship. In examinations, distinctions such as Right Livelihood versus Right Action and the simultaneous development of factors are frequently tested.",
+    "revision_priority": "High",
+    "confidence_score": 0.98,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Ancient Indian Religions",
+    "subchapter": "Mahajanapadas",
+    "topic": "Mahajanapadas \u2013 Capitals, Rulers, and Rivers",
+    "subtopic": "",
+    "master_notes": "The Mahajanapadas were sixteen major kingdoms and oligarchic republics that emerged in ancient India during the 6th\u20134th centuries BCE. This note focuses on five prominent Mahajanapadas: Avanti (Malava), Chedi (Soyambaka), Gandhara (Takshashila), Kamboja (Kumbha), and Kashi (Varanasi). Each is characterized by its capital city, modern geographical location, notable ruler, and the river with which it was associated. Avanti, ruled by Chanda Pradyota Mahasena, had capitals at Ujjayini and Mahishmati and lay near the Narmada River in western Madhya Pradesh. Chedi, with capital Shuktimati in the Bundelkhand region of Uttar Pradesh, was ruled by Shishupala and lay on the Yamuna. Gandhara, centred at Taxila in present\u2011day Pakistan/Afghanistan, was associated with the Indus River and its notable ruler Ambhi (also known as Porus). Kamboja, with capital Rajapura spanning parts of Afghanistan, Pakistan, and Punjab, lay on the Swat River; its ruler is not recorded in the sources. Kashi, with capital Varanasi (Kashi) in Uttar Pradesh, was ruled by Prasenajit and situated on the Ganga River. Understanding these details aids in answering factual questions on ancient Indian polity, geography, and rulers frequently asked in NDA, CDS, and AFCAT examinations.",
+    "revision_notes": "\u2022 Avanti \u2013 Ujjayini/Mahishmati \u2013 Narmada \u2013 Chanda Pradyota Mahasena\n\u2022 Chedi \u2013 Shuktimati \u2013 Yamuna \u2013 Shishupala\n\u2022 Gandhara \u2013 Taxila \u2013 Indus \u2013 Ambhi (Porus)\n\u2022 Kamboja \u2013 Rajapura \u2013 Swat \u2013 Unknown\n\u2022 Kashi \u2013 Varanasi \u2013 Ganga \u2013 Prasenajit",
+    "one_liner_notes": [
+      "Avanti (Malava): Capital Ujjayini/Mahishmati, located in western MP near the Narmada, ruled by Chanda Pradyota Mahasena.",
+      "Chedi (Soyambaka): Capital Shuktimati in Bundelkhand, UP, on the Yamuna, ruled by Shishupala.",
+      "Gandhara (Takshashila): Capital Taxila in Pak/Afghanistan, on the Indus, ruled by Ambhi (Porus).",
+      "Kamboja (Kumbha): Capital Rajapura across Af/Pak/Punjab, on the Swat River; ruler unknown.",
+      "Kashi (Varanasi): Capital Varanasi in UP, on the Ganga, ruled by Prasenajit."
+    ],
+    "key_facts": [
+      "Avanti\u2019s capitals were Ujjayini and Mahishmati; it was situated near the Narmada River in western Madhya Pradesh.",
+      "Chedi\u2019s capital Shuktimati lay in the Bundelkhand region of Uttar Pradesh on the Yamuna River.",
+      "Gandhara\u2019s capital Taxila is located in present\u2011day Pakistan and Afghanistan, associated with the Indus River.",
+      "Kamboja\u2019s capital Rajapura spanned parts of Afghanistan, Pakistan, and Punjab, lying on the Swat River.",
+      "Kashi\u2019s capital Varanasi (Kashi) is in Uttar Pradesh on the Ganga River.",
+      "Chanda Pradyota Mahasena was the famous ruler of Avanti.",
+      "Shishupala was the notable ruler of Chedi.",
+      "Ambhi, also known as Porus, ruled Gandhara.",
+      "Prasenajit was the ruler of Kashi.",
+      "The Mahajanapadas period precedes the rise of the Mauryan Empire and is crucial for understanding early state formation in India."
+    ],
+    "definitions": [
+      {
+        "term": "Mahajanapada",
+        "exact_meaning": "One of the sixteen major kingdoms or oligarchic republics that existed in ancient India from the sixth to fourth centuries BCE.",
+        "simplified_explanation": "Large territorial states during the later Vedic period, each with a capital, ruler, and defined territory."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Mahajanapadas: Capitals, Modern Locations, Rulers, and Rivers",
+        "content": "| Mahajanapada | Capital | Modern Location | Important Center | Famous King / Ruler | Associated River |\n|--------------|---------|-----------------|------------------|---------------------|------------------|\n| Avanti / Malava | Ujjayini / Mahishmati | Western Madhya Pradesh | Ujjayini | Chanda Pradyota Mahasena | Narmada |\n| Chedi / Soyambaka | Shuktimati | Bundelkhand region, Uttar Pradesh | Shuktimati | Shishupala | Yamuna |\n| Gandhara / Takshashila | Taxila | Pakistan and Afghanistan | Taxila | Ambhi (Porus) | Indus |\n| Kamboja / Kumbha | Rajapura | Parts of Afghanistan, Pakistan, and Punjab | Rajapura | Unknown | Swat |\n| Kashi / Varanasi | Varanasi / Kashi | Uttar Pradesh | Varanasi / Kashi | Prasenajit | Ganga |"
+      }
+    ],
+    "diagram_descriptions": [],
+    "timelines": [],
+    "comparison_tables": [],
+    "mnemonics": [
+      "A C G K K \u2013 Avanti, Chedi, Gandhara, Kamboja, Kashi (first letters).",
+      "All Cats Go Kangaroo\u2011Kashi \u2013 helps recall the sequence of Mahajanapadas."
+    ],
+    "common_exam_traps": [
+      "Confusing Avanti\u2019s capital as only Ujjayini; it also had Mahishmati as an alternative capital.",
+      "Mixing up Chedi\u2019s river (Yamuna) with other kingdoms that lie on the Ganga or Narmada.",
+      "Assuming Gandhara\u2019s ruler was always Porus; the name Porus refers to Ambhi, but other rulers existed in different periods.",
+      "Thinking Kamboja\u2019s capital was Taxila; Taxila belongs to Gandhara, while Kamboja\u2019s capital was Rajapura.",
+      "Misplacing Kashi on the Yamuna; Kashi (Varanasi) is firmly on the Ganga."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Vedic Period",
+      "Mauryan Empire",
+      "Sixteen Mahajanapadas (complete list)",
+      "Buddhist and Jain texts referencing Mahajanapadas",
+      "Ancient Indian Geography"
+    ],
+    "search_keywords": [
+      "Mahajanapadas",
+      "Avanti capital",
+      "Chedi river",
+      "Gandhara ruler",
+      "Kamboja location",
+      "Kashi Ganga",
+      "Ancient Indian kingdoms",
+      "NDA history",
+      "CDS ancient India",
+      "AFCAT history"
+    ],
+    "beginner_explanation": "In ancient India, around 600\u2011400 BCE, there were several big states called Mahajanapadas. Each had a capital city, a king, and was located near a river. For example, Avanti was near the Narmada river with its capital at Ujjayini, and Kashi was on the Ganga river with its capital at Varanasi.",
+    "intermediate_explanation": "The Mahajanapadas represent the second wave of state formation in India after the early Vedic tribal societies. They were monarchies or oligarchies, often mentioned in Buddhist and Jain texts. The five covered here\u2014Avanti, Chedi, Gandhara, Kamboja, and Kashi\u2014illustrate the geographic spread from the northwest (Gandhara, Kamboja) to the central and Gangetic plains (Avanti, Chedi, Kashi). Their capitals served as political and cultural centres, and the rivers were vital for agriculture, trade, and military movements.",
+    "advanced_explanation": "The Mahajanapadas period (c. 600\u2011300 BCE) marks a transition from kinship\u2011based polities to territorial states with standing armies, bureaucratic administration, and defined borders. Avanti, located in the Malwa region, was a powerful kingdom that later contested with Magadha; its dual capitals Ujjayini (north) and Mahishmati (south) facilitated control over trade routes along the Narmada. Chedi, situated in the Bundelkhand region, controlled access to the Yamuna\u2011Ganga doab and was allied with the Kuru kingdom. Gandhara, straddling the Khyber Pass, was a gateway to Persian and Hellenistic influences; its capital Taxila became a renowned centre of learning. Kamboja, though less documented, was noted for its horse breeding and cavalry. Kashi, the oldest inhabited city, was a major religious and commercial hub on the Ganga. The interplay of these states set the stage for the emergence of the Mauryan Empire, which eventually annexed most of them.",
+    "revision_priority": "High",
+    "confidence_score": 0.95,
+    "needs_review_flag": false
   }
 ]
