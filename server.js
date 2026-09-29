@@ -528,9 +528,9 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
              } else if (geminiBody.stream) {
                  delete geminiBody.stream;
              }
-             let requestedModel = payload.model || 'gemini-1.5-flash';
-             if (requestedModel === 'gemini-3.1-pro' || requestedModel === 'gemini-3.6-flash') {
-               requestedModel = 'gemini-1.5-pro';
+             let requestedModel = payload.model || 'gemini-3.8-flash';
+             if (requestedModel === 'gemini-3.1-pro' || requestedModel === 'gemini-3.6-flash' || requestedModel === 'gemini-1.5-pro' || requestedModel === 'gemini-1.5-flash' || requestedModel === 'gemini-2.0-flash') {
+               requestedModel = 'gemini-3.8-flash';
              }
              try {
                 // If the payload specifies messages, extract the system and user prompts
@@ -640,10 +640,10 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
         let { model, contents, stream, generationConfig, tools, systemInstruction } = payload;
         
         // Map futuristic/invalid model names from the frontend UI to actual working API endpoints
-        if (model === 'gemini-3.1-pro' || model === 'gemini-3.6-flash') {
-          model = 'gemini-1.5-pro'; // Fallback to the latest valid pro model
+        if (model === 'gemini-3.1-pro' || model === 'gemini-3.6-flash' || model === 'gemini-1.5-pro' || model === 'gemini-1.5-flash' || model === 'gemini-2.0-flash') {
+          model = 'gemini-3.8-flash'; // Fallback to the latest valid model
         } else if (!model) {
-          model = 'gemini-1.5-flash';
+          model = 'gemini-3.8-flash';
         }
 
         // Map response_mime_type to responseMimeType for Google API
