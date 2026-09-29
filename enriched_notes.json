@@ -1204,5 +1204,409 @@
     "revision_priority": "High",
     "confidence_score": 0.95,
     "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Vedic Period",
+    "subchapter": "Mahajanapadas and Rise of Magadha",
+    "topic": "Haryanka Dynasty",
+    "subtopic": "Bimbisara and Ajatashatru",
+    "master_notes": "The Haryanka Dynasty (c. 600\u2013413 BCE) was the first major ruling dynasty of the Magadha Empire, one of the sixteen Mahajanapadas. It laid the foundation for Magadha's imperial expansion.\n\n**Key Mahajanapadas (Context):**\n- **Vatsa/Kaushambi**: Capital Kaushambi (modern Uttar Pradesh), famous ruler Udayana, situated on Yamuna.\n- **Vrishni/Dwarka**: Capital Dwarka (modern Gujarat), famous ruler Krishna, located on Arabian Sea coast.\n\n**Haryanka Dynasty Overview:**\n- Founded by **Bimbisara** (c. 544\u2013492 BCE), also known as Shrenika.\n- Capital: **Rajagriha** (modern Rajgir, Bihar), fortified by surrounding hills.\n- Dynasty marked by aggressive expansion, matrimonial alliances, and administrative innovations.\n\n**Bimbisara (c. 544\u2013492 BCE):**\n- Expanded territory through conquest (annexed Anga to avenge father's defeat) and marriage alliances (married Kosala Devi, sister of Prasenajit of Kosala; Chellana of Vaishali; Khema of Madra).\n- First Indian ruler to maintain a **standing army** (permanent military force).\n- Patron of both **Gautama Buddha** and **Mahavira**; met Buddha 7 years after enlightenment; donated Veluvana (Bamboo Grove) monastery.\n- Implemented efficient revenue administration; appointed officers like *Mahamatras*.\n- Assassinated by his son **Ajatashatru** (c. 492 BCE) \u2013 first recorded patricide for throne in Indian history.\n\n**Ajatashatru (c. 492\u2013460 BCE):**\n- Further expanded Magadha: conquered **Kosala** (after prolonged war with Prasenajit), **Vajji Confederacy** (using ministers Vassakara and Sunidha, and novel war engines *Mahashilakantaka* and *Rathamushala*).\n- Shifted capital to **Pataliputra** (founded by his minister Sunidha/Udayin) for strategic control over Ganga.\n- Patron of Buddhism: convened **First Buddhist Council** at Rajagriha (483 BCE) under Mahakassapa.\n- Also patronized Jainism; met Mahavira.\n- Succeeded by Udayin (Udayabhadra), who consolidated Pataliputra as capital.\n\n**Significance:** Haryanka rulers transformed Magadha from a small kingdom into a dominant power, setting stage for Shishunaga and Nanda dynasties, and ultimately Mauryan Empire.",
+    "revision_notes": "- Haryanka Dynasty: 600\u2013413 BCE, first major Magadha dynasty.\n- Founder: Bimbisara (Shrenika). Capital: Rajagriha.\n- Bimbisara: First standing army; annexed Anga; matrimonial alliances (Kosala, Vaishali, Madra); patron of Buddha & Mahavira; killed by son Ajatashatru.\n- Ajatashatru: Conquered Kosala & Vajji Confederacy; used war engines; founded Pataliputra (via minister); convened 1st Buddhist Council (483 BCE).\n- Mahajanapadas: Vatsa (Kaushambi, Udayana, Yamuna); Vrishni (Dwarka, Krishna, Arabian Sea).\n- Succession: Bimbisara \u2192 Ajatashatru \u2192 Udayin \u2192 Anuruddha \u2192 Munda \u2192 Nagadasaka (overthrown by Shishunaga).",
+    "one_liner_notes": [
+      "Haryanka Dynasty (c. 600\u2013413 BCE) founded by Bimbisara, first major Magadha dynasty.",
+      "Bimbisara: First Indian king with a standing army; annexed Anga; patron of Buddha & Mahavira; killed by son Ajatashatru.",
+      "Ajatashatru: Conquered Kosala and Vajji Confederacy; founded Pataliputra; convened First Buddhist Council (483 BCE).",
+      "Capital shifted from Rajagriha (Bimbisara) to Pataliputra (Ajatashatru/Udayin).",
+      "Key Mahajanapadas: Vatsa (Kaushambi, Udayana) and Vrishni (Dwarka, Krishna)."
+    ],
+    "key_facts": [
+      "Haryanka Dynasty period: c. 600\u2013413 BCE.",
+      "Bimbisara (Shrenika) founded dynasty; capital Rajagriha.",
+      "Bimbisara first to maintain standing army in ancient India.",
+      "Bimbisara annexed Anga; married Kosala Devi (Kosala), Chellana (Vaishali), Khema (Madra).",
+      "Bimbisara patronized both Buddhism (donated Veluvana) and Jainism.",
+      "Ajatashatru (Kunika) murdered father Bimbisara to seize throne (first patricide for throne).",
+      "Ajatashatru conquered Kosala (Prasenajit) and Vajji Confederacy (using ministers Vassakara, Sunidha; war engines Mahashilakantaka, Rathamushala).",
+      "Ajatashatru founded Pataliputra (via minister Sunidha/Udayin) as new capital.",
+      "First Buddhist Council held at Rajagriha (483 BCE) under Ajatashatru's patronage, presided by Mahakassapa.",
+      "Vatsa Mahajanapada: Capital Kaushambi (UP), ruler Udayana, river Yamuna.",
+      "Vrishni Mahajanapada: Capital Dwarka (Gujarat), ruler Krishna, Arabian Sea."
+    ],
+    "definitions": [
+      {
+        "term": "Mahajanapada",
+        "exact_meaning": "One of the sixteen great kingdoms/oligarchies that existed in ancient India from 6th to 4th centuries BCE.",
+        "simplified_explanation": "Large territorial states in ancient India, like Vatsa, Magadha, Kosala, etc."
+      },
+      {
+        "term": "Haryanka Dynasty",
+        "exact_meaning": "First ruling dynasty of Magadha Empire (c. 600\u2013413 BCE), founded by Bimbisara.",
+        "simplified_explanation": "First major dynasty of Magadha, started by Bimbisara."
+      },
+      {
+        "term": "Standing Army",
+        "exact_meaning": "A permanent, professional military force maintained by the state during peace and war.",
+        "simplified_explanation": "Full-time army paid by king, not just seasonal levies."
+      },
+      {
+        "term": "Rajagriha",
+        "exact_meaning": "First capital of Magadha under Haryankas, surrounded by five hills (modern Rajgir, Bihar).",
+        "simplified_explanation": "Hill-fort capital of early Magadha kings."
+      },
+      {
+        "term": "Pataliputra",
+        "exact_meaning": "Later capital of Magadha (modern Patna), founded by Ajatashatru's minister on Ganga banks.",
+        "simplified_explanation": "Strategic riverine capital that became imperial centre."
+      },
+      {
+        "term": "Vajji Confederacy",
+        "exact_meaning": "A confederation of eight clans (including Licchavis) in north Bihar, conquered by Ajatashatru.",
+        "simplified_explanation": "Republican league defeated by Magadha through diplomacy and war engines."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Major Mahajanapadas: Vatsa and Vrishni",
+        "content": "| Mahajanapada / Kingdom | Capital | Modern State | Location | Famous Ruler | River / Water Body |\n|------------------------|---------|--------------|----------|--------------|-------------------|\n| Vatsa / Kaushambi      | Kaushambi | Uttar Pradesh | Kaushambi | Udayana      | Yamuna            |\n| Vrishni / Dwarka       | Dwarka    | Gujarat       | Dwarka    | Krishna      | Arabian Sea       |"
+      },
+      {
+        "title": "Haryanka Dynasty Rulers and Key Achievements",
+        "content": "| Ruler | Reign (Approx.) | Key Achievements |\n|-------|----------------|------------------|\n| Bimbisara (Shrenika) | c. 544\u2013492 BCE | Founder; standing army; annexed Anga; matrimonial alliances; patron of Buddha & Mahavira; capital Rajagriha; killed by son |\n| Ajatashatru (Kunika) | c. 492\u2013460 BCE | Conquered Kosala & Vajji; war engines; founded Pataliputra; 1st Buddhist Council (483 BCE) |\n| Udayin (Udayabhadra) | c. 460\u2013444 BCE | Consolidated Pataliputra as capital |\n| Anuruddha, Munda, Nagadasaka | c. 444\u2013413 BCE | Weak rulers; dynasty ended by Shishunaga coup |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Haryanka Dynasty Genealogy and Expansion",
+        "description": "Flowchart: Bimbisara (founder, Rajagriha) \u2192 Ajatashatru (patricide, expansion, Pataliputra) \u2192 Udayin (capital shift) \u2192 later weak kings \u2192 Shishunaga coup. Side branches: Matrimonial alliances with Kosala, Vaishali, Madra. Conquests: Anga (Bimbisara), Kosala & Vajji (Ajatashatru).",
+        "labels": [
+          "Bimbisara",
+          "Ajatashatru",
+          "Udayin",
+          "Rajagriha",
+          "Pataliputra",
+          "Anga",
+          "Kosala",
+          "Vajji",
+          "Shishunaga"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Foundation of Haryanka Dynasty by Bimbisara",
+        "date": "c. 544 BCE",
+        "description": "Bimbisara becomes king of Magadha, establishes Rajagriha as capital."
+      },
+      {
+        "event": "Annexation of Anga by Bimbisara",
+        "date": "c. 530 BCE",
+        "description": "Bimbisara conquers Anga to avenge father's defeat."
+      },
+      {
+        "event": "Bimbisara's patronage of Buddha",
+        "date": "c. 528 BCE",
+        "description": "Meets Buddha 7 years after enlightenment; donates Veluvana monastery."
+      },
+      {
+        "event": "Ajatashatru ascends throne after killing Bimbisara",
+        "date": "c. 492 BCE",
+        "description": "First recorded patricide for throne in Indian history."
+      },
+      {
+        "event": "Conquest of Kosala by Ajatashatru",
+        "date": "c. 485 BCE",
+        "description": "Defeats Prasenajit of Kosala after prolonged war."
+      },
+      {
+        "event": "Conquest of Vajji Confederacy",
+        "date": "c. 480 BCE",
+        "description": "Uses ministers Vassakara, Sunidha and war engines to destroy Vajji republic."
+      },
+      {
+        "event": "First Buddhist Council at Rajagriha",
+        "date": "483 BCE",
+        "description": "Convened by Ajatashatru, presided by Mahakassapa, to compile Buddhist canon."
+      },
+      {
+        "event": "Foundation of Pataliputra",
+        "date": "c. 475 BCE",
+        "description": "Ajatashatru's minister Sunidha/Udayin builds fort at Pataligram, later capital."
+      },
+      {
+        "event": "End of Haryanka Dynasty",
+        "date": "413 BCE",
+        "description": "Last ruler Nagadasaka overthrown by minister Shishunaga."
+      }
+    ],
+    "comparison_tables": [
+      {
+        "title": "Bimbisara vs Ajatashatru: Comparison",
+        "content": "| Aspect | Bimbisara | Ajatashatru |\n|--------|-----------|-------------|\n| Reign | c. 544\u2013492 BCE | c. 492\u2013460 BCE |\n| Capital | Rajagriha | Pataliputra (founded) |\n| Expansion Method | Conquest + Matrimonial Alliances | Conquest + Diplomacy + War Engines |\n| Major Conquests | Anga | Kosala, Vajji Confederacy |\n| Military Innovation | First Standing Army | Mahashilakantaka (catapult), Rathamushala (chariot with blades) |\n| Religious Patronage | Buddhism (Veluvana), Jainism | Buddhism (1st Council), Jainism |\n| Notable Fact | First king killed by son for throne | First to use war engines in India |\n| Succession | Son Ajatashatru | Son Udayin |"
+      }
+    ],
+    "mnemonics": [
+      "Bimbisara: **B**imbisara **B**uilt **B**ase (Rajagriha), **B**egan **B**uddha patronage, **B**eheaded by son.",
+      "Ajatashatru: **A**jatashatru **A**nnexed **A**nga? No, **A**nnexed **A**ll (Kosala, Vajji), **A**rchitected Pataliputra, **A**rranged 1st Buddhist Council.",
+      "Haryanka Order: **B**imbisara \u2192 **A**jatashatru \u2192 **U**dayin \u2192 **A**nuruddha \u2192 **M**unda \u2192 **N**agadasaka \u2192 **S**hishunaga (coup). Mnemonic: **BAU AM NS** (Bau am nes)."
+    ],
+    "common_exam_traps": [
+      "Confusing Bimbisara and Ajatashatru's conquests: Bimbisara annexed Anga; Ajatashatru conquered Kosala and Vajji.",
+      "Thinking Bimbisara founded Pataliputra \u2013 it was Ajatashatru's minister (Sunidha/Udayin).",
+      "Misattributing First Buddhist Council to Ashoka \u2013 it was Ajatashatru (483 BCE), Ashoka convened Third Council.",
+      "Assuming standing army started with Mauryas \u2013 Bimbisara was first.",
+      "Confusing Vatsa (Kaushambi) with Vrishni (Dwarka) \u2013 different regions, rulers, rivers.",
+      "Patricide: Bimbisara killed by Ajatashatru, not vice versa."
+    ],
+    "previous_year_links": [
+      "NDA 2022: Who was the first king to maintain a standing army in ancient India? (Bimbisara)",
+      "CDS 2021: First Buddhist Council was held under the patronage of which ruler? (Ajatashatru)",
+      "AFCAT 2020: Which Mahajanapada had its capital at Kaushambi? (Vatsa)",
+      "NDA 2019: Ajatashatru conquered the Vajji Confederacy with the help of which ministers? (Vassakara and Sunidha)"
+    ],
+    "related_topics": [
+      "Shishunaga Dynasty",
+      "Nanda Dynasty",
+      "Mauryan Empire",
+      "Sixteen Mahajanapadas",
+      "Buddhist Councils",
+      "Jainism in Ancient India",
+      "Republics (Gana-Sanghas) in Ancient India",
+      "Urbanization in Gangetic Plain"
+    ],
+    "search_keywords": [
+      "Haryanka Dynasty",
+      "Bimbisara",
+      "Ajatashatru",
+      "Magadha Empire",
+      "Mahajanapadas",
+      "Rajagriha",
+      "Pataliputra",
+      "First Buddhist Council",
+      "Standing Army ancient India",
+      "Vatsa Mahajanapada",
+      "Vrishni Mahajanapada",
+      "Anga annexation",
+      "Vajji Confederacy conquest",
+      "War engines ancient India"
+    ],
+    "beginner_explanation": "The Haryanka Dynasty was the first powerful dynasty of Magadha (in modern Bihar). It started with King Bimbisara around 544 BCE. He made Rajagriha his capital, created India's first permanent army, and expanded his kingdom by marrying princesses from neighboring kingdoms and conquering Anga. He was a friend and supporter of both Buddha and Mahavira. His son Ajatashatru killed him to become king. Ajatashatru fought and won against the powerful kingdoms of Kosala and the Vajji republic. He built a new capital at Pataliputra (modern Patna) and organized the First Buddhist Council. The dynasty ended around 413 BCE when the last king was overthrown by his minister Shishunaga.",
+    "intermediate_explanation": "The Haryanka Dynasty (c. 600\u2013413 BCE) marks the beginning of Magadha's rise to imperial dominance among the sixteen Mahajanapadas. Bimbisara (Shrenika) instituted critical statecraft innovations: a standing army, systematic revenue administration (Mahamatras), and strategic matrimonial alliances with Kosala, Vaishali, and Madra. His annexation of Anga provided access to riverine trade routes. Ajatashatru (Kunika) continued expansion through military innovation (Mahashilakantaka, Rathamushala) and diplomatic subversion (Vassakara) to destroy the Vajji Confederacy. The shift of capital to Pataliputra under his reign positioned Magadha at the nexus of Ganga-Son confluence, controlling trade and military movement. Patronage of both Buddhism (First Council, 483 BCE) and Jainism reflects the dynasty's role in the Second Urbanization's religious ferment. The dynasty's fall to Shishunaga illustrates the recurring ministerial usurpation pattern in Magadha.",
+    "advanced_explanation": "The Haryanka Dynasty represents the transition from tribal polity to territorial monarchy in the eastern Gangetic plains. Bimbisara's standing army (chaturangini sena) and land revenue reforms (bhaga, bali, kara) created a fiscal-military state capable of sustained expansion. His matrimonial diplomacy (Kosala Devi, Chellana, Khema) exemplifies the 'mandala theory' of interstate relations later codified in Arthashastra. Ajatashatru's conquest of the Vajji gana-sangha required both technological innovation (siege engines) and political subversion (sowing discord via Vassakara), foreshadowing Kautilyan statecraft. The foundation of Pataliputra as a 'durg' (fortified city) at the junction of Ganga, Son, and Gandak rivers was a geostrategic masterstroke enabling logistical dominance. The First Buddhist Council under royal patronage institutionalized the sangha-state nexus. The dynasty's collapse due to ministerial coup (Shishunaga) highlights the structural vulnerability of early monarchies to bureaucratic power. Comparative analysis with contemporary Vatsa (monarchy) and Vrishni (oligarchy) illustrates diverse state forms in the Mahajanapada period.",
+    "revision_priority": "High",
+    "confidence_score": 95,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Mauryan Empire",
+    "subchapter": "Mauryan Economy & Agriculture",
+    "topic": "Mauryan Economy & Agriculture",
+    "subtopic": "Agriculture",
+    "master_notes": "Agriculture was the backbone of the Mauryan economy, forming its primary economic foundation. The state actively developed irrigation systems to increase agricultural productivity, which supported the empire's population and revenue.",
+    "revision_notes": "Agriculture = backbone. State-assisted irrigation = key to higher productivity. This is a frequently tested fact in NDA/CDS/AFCAT exams.",
+    "one_liner_notes": [
+      "Agriculture was the backbone of the Mauryan economy.",
+      "State-assisted irrigation systems boosted agricultural productivity."
+    ],
+    "key_facts": [
+      "Agriculture formed the core of the Mauryan economy.",
+      "The Mauryan state developed irrigation systems to enhance agricultural output."
+    ],
+    "definitions": [
+      {
+        "term": "Mauryan Economy",
+        "exact_meaning": "The economic system of the Mauryan Empire, primarily agrarian in nature.",
+        "simplified_explanation": "The way the Mauryan Empire produced, distributed, and consumed goods, with farming as the main activity."
+      }
+    ],
+    "formulae": [],
+    "tables": [],
+    "diagram_descriptions": [],
+    "timelines": [],
+    "comparison_tables": [],
+    "mnemonics": [],
+    "common_exam_traps": [
+      "Students often mistake foreign maritime trade as the backbone of the Mauryan economy, but it was agriculture."
+    ],
+    "previous_year_links": [
+      "Q: What served as the backbone of the Mauryan economy? Options: A) Foreign Maritime Trade, B) Agriculture, C) Textile Manufacturing, D) Mining and Metallurgy. Correct: B) Agriculture. Explanation: Agriculture was the primary backbone of the Mauryan economy, supported by developed irrigation systems."
+    ],
+    "related_topics": [
+      "Mauryan Empire"
+    ],
+    "search_keywords": [
+      "Mauryan economy",
+      "agriculture",
+      "irrigation",
+      "NDA",
+      "CDS",
+      "AFCAT",
+      "history"
+    ],
+    "beginner_explanation": "The Mauryan economy relied heavily on farming. The government built canals and irrigation systems to help farmers grow more crops, which fed the empire and generated revenue.",
+    "intermediate_explanation": "Agriculture was the backbone of the Mauryan economy. The state developed irrigation systems to increase agricultural productivity, which underpinned the empire's economic foundation.",
+    "advanced_explanation": "Agriculture was the backbone of the Mauryan economy. The state developed irrigation systems to increase agricultural productivity, which underpinned the empire's economic foundation.",
+    "revision_priority": "High",
+    "confidence_score": 0.9,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Mauryan Empire",
+    "subchapter": "Religious History",
+    "topic": "Religious History & Ashoka's Policy of Dhamma",
+    "subtopic": "Ashoka's Dhamma",
+    "master_notes": "Ashoka embraced Buddhism and instituted the policy of Dhamma, promoting moral conduct, non\u2011violence, and respect for all religions through inscribed edicts on pillars and rocks across his empire.",
+    "revision_notes": "Key points: Dhamma = ethical code, not a religion; edicts served as propaganda and governance insight; emphasis on tolerance and moral behavior.",
+    "one_liner_notes": [
+      "Ashoka's Dhamma promoted moral conduct and non\u2011violence",
+      "Edicts were inscribed on pillars and rocks",
+      "Policy emphasized respect for all religions",
+      "Dhamma was a state policy, not exclusive Buddhism"
+    ],
+    "key_facts": [
+      "Ashoka embraced Buddhism after the Kalinga war",
+      "Dhamma meant righteousness, moral law, and ethical conduct",
+      "Edicts were inscribed on pillars and rocks throughout the empire",
+      "Edicts outlined ethical principles and social policies",
+      "Ashokan edicts provide insight into governance and religious tolerance"
+    ],
+    "definitions": [
+      {
+        "term": "Dhamma",
+        "exact_meaning": "righteousness, moral law, ethical conduct",
+        "simplified_explanation": "a code of ethical behavior and respect for all religions promoted by Ashoka"
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Key Aspects of Ashoka's Dhamma",
+        "content": "| Aspect | Description |\n|--------|-------------|\n| Moral Conduct | Encouraged ethical behavior and good citizenship |\n| Non\u2011violence (Ahimsa) | Promoted peace and prohibition of violence |\n| Respect for All Religions | Fostered tolerance and acceptance of diverse faiths |\n| Edicts as Medium | Inscribed on pillars and rock faces for public dissemination |"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Edict Distribution",
+        "description": "Ashoka's edicts were carved on pillars and rock faces and placed at strategic locations across the empire, reaching from the Himalayan foothills to the Deccan region.",
+        "labels": [
+          "Pillars",
+          "Rocks",
+          "Empire"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Ashoka embraces Buddhism and launches Dhamma",
+        "date": "c. 260 BCE",
+        "description": "Following the Kalinga war, Ashoka adopted Buddhism and instituted the policy of Dhamma to promote moral conduct, non\u2011violence, and religious tolerance."
+      }
+    ],
+    "comparison_tables": [
+      {
+        "title": "Dhamma vs Buddhism",
+        "content": "| Aspect | Dhamma | Buddhism |\n|--------|--------|----------|\n| Nature | State\u2011level ethical code | Spiritual path and religion |\n| Scope | Applied to all citizens regardless of faith | Primarily for monks and followers |\n| Goal | Social harmony and effective governance | Liberation from suffering (nirvana) |\n| Medium | Inscriptions on pillars and rocks | Teachings (Sutras) and monastic practice |"
+      }
+    ],
+    "mnemonics": [
+      "Dhamma = Moral Conduct + Non\u2011Violence + Religious Tolerance"
+    ],
+    "common_exam_traps": [
+      "Confusing Dhamma with Buddhism \u2013 Ashoka was a ruler promoting Dhamma, not a monk",
+      "Assuming edicts existed only on pillars \u2013 they were also carved on rocks"
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Buddhism",
+      "Mauryan Administration",
+      "Ashokan Edicts",
+      "Ancient Indian History"
+    ],
+    "search_keywords": [
+      "Ashoka",
+      "Dhamma",
+      "Mauryan Empire",
+      "Edicts",
+      "Pillar Edicts",
+      "Rock Edicts",
+      "Moral Conduct",
+      "Non-violence",
+      "Religious Tolerance"
+    ],
+    "beginner_explanation": "Ashoka, after winning the Kalinga war, adopted Buddhism and created a policy called Dhamma that encouraged good behavior, non\u2011violence, and respect for all faiths, which he spread by carving edicts on stone pillars and rocks.",
+    "intermediate_explanation": "Ashoka's Dhamma was a state\u2011level ethical code derived from Buddhist teachings but intended for all citizens; it emphasized moral conduct, non\u2011violence, and tolerance, and was communicated through numerous inscriptions on pillars and rocks throughout the empire.",
+    "advanced_explanation": "Ashoka's Dhamma represented a synthesis of Buddhist moral principles with a secular governance framework, aiming to create social harmony and administrative efficiency; the edicts, inscribed in Brahmi script on pillars and rock faces, served both as legal proclamations and as moral guidance, reflecting Ashoka's attempt to balance spiritual ideals with the practicalities of imperial administration.",
+    "revision_priority": "High",
+    "confidence_score": 0.96,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "History",
+    "chapter": "Mauryan Empire",
+    "subchapter": "",
+    "topic": "Decline of the Mauryan Empire",
+    "subtopic": "",
+    "master_notes": "The decline of the Mauryan Empire was driven by three principal factors: (1) Weak successors and succession disputes that undermined central authority; (2) Regional revolts where provinces asserted independence, leading to fragmentation; and (3) Economic drain caused by costly military campaigns and heavy bureaucratic expenses that strained the treasury. These interlinked weaknesses eroded the empire\u2019s cohesion and administrative efficiency, culminating in its disintegration.",
+    "revision_notes": "Weak successors \u2192 succession disputes; Regional revolts \u2192 provincial independence; Economic drain \u2192 costly wars & bureaucracy.",
+    "one_liner_notes": [
+      "Weak successors and internal power struggles weakened central control.",
+      "Provincial revolts caused fragmentation and loss of imperial authority.",
+      "Heavy military and administrative expenses drained the treasury."
+    ],
+    "key_facts": [
+      "Succession disputes produced weak rulers.",
+      "Provinces began asserting independence.",
+      "Military campaigns and bureaucracy caused financial strain."
+    ],
+    "definitions": [
+      {
+        "term": "Weak Successors",
+        "exact_meaning": "Rulers who lacked strong leadership or administrative capability, leading to instability.",
+        "simplified_explanation": "Ineffective kings who could not maintain empire unity."
+      },
+      {
+        "term": "Regional Revolts",
+        "exact_meaning": "Uprisings in provinces aimed at breaking away from central control and establishing autonomy.",
+        "simplified_explanation": "Local regions fighting to become independent from Mauryan rule."
+      },
+      {
+        "term": "Economic Drain",
+        "exact_meaning": "Severe depletion of state resources due to excessive spending on wars and administrative machinery.",
+        "simplified_explanation": "Financial exhaustion from costly military operations and bureaucracy."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Factors Leading to Mauryan Decline",
+        "content": "| Factor | Description |\n|--------|-------------|\n| Weak Successors | Succession disputes produced ineffective rulers. |\n| Regional Revolts | Provinces asserted independence, causing fragmentation. |\n| Economic Drain | Costly military campaigns and bureaucratic expenses strained the treasury. |"
+      }
+    ],
+    "diagram_descriptions": [],
+    "timelines": [],
+    "comparison_tables": [],
+    "mnemonics": [],
+    "common_exam_traps": [
+      "Confusing Mauryan decline factors with those of later empires (e.g., Gupta).",
+      "Overlooking the role of economic drain and focusing only on political factors.",
+      "Assuming all provinces revolted simultaneously; they were gradual and regional."
+    ],
+    "previous_year_links": [],
+    "related_topics": [],
+    "search_keywords": [
+      "Mauryan decline factors",
+      "weak successors Mauryan",
+      "regional revolts Mauryan",
+      "economic drain Mauryan"
+    ],
+    "beginner_explanation": "The Mauryan Empire fell mainly because after Emperor Ashoka, the empire was ruled by weaker kings, provinces wanted freedom, and the government spent too much money on wars and officials, leaving it financially exhausted.",
+    "intermediate_explanation": "The decline was a multi-causal process: dynastic instability eroded central authority, regional power centers capitalized on weakened control, and fiscal pressures from continuous military engagements and an expansive bureaucracy depleted resources, culminating in loss of cohesion and eventual fragmentation.",
+    "advanced_explanation": "From a political economy perspective, the Mauryan collapse illustrates the fragility of a highly centralized empire reliant on strong personal rule and extensive bureaucratic extraction. The interplay of succession crises, centrifugal regionalism, and unsustainable fiscal policies created a feedback loop of decline, ultimately leading to the empire\u2019s disintegration.",
+    "revision_priority": "High \u2013 frequently asked in NDA/CDS/AFCAT history sections.",
+    "confidence_score": 0.9,
+    "needs_review_flag": false
   }
 ]
