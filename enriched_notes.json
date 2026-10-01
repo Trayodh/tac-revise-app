@@ -5906,5 +5906,191 @@
     "revision_priority": "High",
     "confidence_score": 95,
     "needs_review_flag": false
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Volcanism & Rocks",
+    "subchapter": "Volcanic Types",
+    "topic": "Flood Volcano",
+    "subtopic": "Characteristics and Examples",
+    "master_notes": "Flood volcanoes, also called flood basalts, are volcanic systems that erupt highly fluid (low\u2011viscosity) basaltic lava in massive, prolonged outpourings. The lava travels great distances\u2014often tens to hundreds of kilometres\u2014forming extensive, relatively flat plateaus and step\u2011like terraces. Such eruptions can last from a few hundred thousand to several million years, producing volumes of up to millions of cubic kilometres. The most cited examples are the Deccan Traps in western India (\u224866\u202fMa, linked to the Cretaceous\u2011Paleogene extinction) and the Siberian Traps in Russia (\u2248252\u202fMa, associated with the Permian\u2011Triassic extinction). Flood basalts are a major component of Large Igneous Provinces (LIPs) and are typically linked to mantle plume activity or continental rifting. Their low\u2011viscosity lava results in thin, widespread flows that solidify into stacked layers of basaltic rock, often preserving columnar jointing. While they rarely produce explosive eruptions, the sheer volume can cause climatic effects through the release of volcanic gases (e.g., CO\u2082, SO\u2082).",
+    "revision_notes": "- Highly fluid basaltic lava\n- Flows over long distances, forming extensive plateaus\n- Eruptions are massive and prolonged (10\u2075\u201110\u2076\u202fyr)\n- Classic examples: Deccan Traps (India, ~66\u202fMa), Siberian Traps (Russia, ~252\u202fMa)\n- Associated with mantle plumes/Large Igneous Provinces\n- Low explosivity but significant climatic impact via gases",
+    "one_liner_notes": [
+      "Flood volcanoes erupt low\u2011viscosity basaltic lava that spreads over vast areas.",
+      "Deccan Traps are the textbook example of a flood basalt.",
+      "Flood basalts form plateaus and are linked to mantle plume events."
+    ],
+    "key_facts": [
+      "Fluid basaltic lava \u2192 long\u2011range flows",
+      "Typical thickness of individual flow: 10\u2011100\u202fm",
+      "Total volume can exceed 1\u202fmillion\u202fkm\u00b3",
+      "Form Large Igneous Provinces (LIPs)",
+      "Deccan Traps age \u224866\u202fmillion years"
+    ],
+    "definitions": [
+      {
+        "term": "Flood volcano",
+        "exact_meaning": "A volcanic system that produces massive, low\u2011viscosity basaltic lava flows covering large areas over prolonged periods",
+        "simplified_explanation": "A volcano that spews very runny lava which spreads out over huge distances, creating flat plateaus."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Comparison of Flood Volcanoes and Shield Volcanoes",
+        "content": "| Feature | Flood Volcano | Shield Volcano |\n|---|---|---|\n| Lava type | Very low\u2011viscosity basalt | Low\u2011viscosity basalt |\n| Eruption style | Massive, prolonged, non\u2011explosive | Steady, effusive |\n| Scale | Hundreds to thousands of km\u00b2, volume up to millions km\u00b3 | Tens to hundreds of km\u00b2, volume up to a few hundred km\u00b3 |\n| Typical examples | Deccan Traps, Siberian Traps | Mauna Loa, Olympus Mons |\n| Associated tectonic setting | Mantle plume / LIP | Hotspot or divergent boundary |\n"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Schematic of Flood Basalt Sequence",
+        "description": "Shows successive thin basaltic layers (flow units) stacked over a large area, with columnar jointing and occasional interbedded sedimentary layers.",
+        "labels": [
+          "Basalt flow 1",
+          "Basalt flow 2",
+          "Columnar joints",
+          "Underlying crust"
+        ]
+      }
+    ],
+    "timelines": [
+      {
+        "event": "Siberian Traps eruption",
+        "date": "~252\u202fMa",
+        "description": "One of the largest flood basalt events, coinciding with the Permian\u2011Triassic mass extinction."
+      },
+      {
+        "event": "Deccan Traps eruption",
+        "date": "~66\u202fMa",
+        "description": "Extensive flood basalts in India, temporally linked to the Cretaceous\u2011Paleogene extinction."
+      }
+    ],
+    "comparison_tables": [
+      {
+        "title": "Flood Volcano vs Other Volcanic Types",
+        "content": "| Parameter | Flood Volcano | Shield Volcano | Stratovolcano |\n|---|---|---|---|\n| Lava viscosity | Very low | Low | Moderate to high |\n| Eruption duration | 10\u2075\u201110\u2076\u202fyr | 10\u2074\u201110\u2075\u202fyr | 10\u00b3\u201110\u2074\u202fyr |\n| Flow distance | >100\u202fkm | 10\u2011100\u202fkm | <10\u202fkm |\n| Typical landform | Plateau / basaltic step | Broad dome | Conical mountain |\n| Example | Deccan Traps | Mauna Loa | Mt. Fuji |\n"
+      }
+    ],
+    "mnemonics": [
+      "F L O W \u2192 Fluid Lava Over Wide area"
+    ],
+    "common_exam_traps": [
+      "Confusing flood basalts with shield volcanoes \u2013 remember flood basalts are massive, layered plateaus, not single dome structures.",
+      "Assuming flood volcanoes are highly explosive \u2013 they are generally non\u2011explosive due to low gas content."
+    ],
+    "previous_year_links": [],
+    "related_topics": [
+      "Shield Volcano",
+      "Large Igneous Province (LIP)",
+      "Mantle Plume",
+      "Deccan Traps",
+      "Siberian Traps",
+      "Plate Tectonics"
+    ],
+    "search_keywords": [
+      "flood volcano definition",
+      "flood basalt examples",
+      "Deccan Traps age",
+      "large igneous province",
+      "mantle plume volcanism"
+    ],
+    "beginner_explanation": "A flood volcano is a type of volcano that erupts very runny lava which spreads out over huge areas, creating flat, layered rock formations like the Deccan Traps in India.",
+    "intermediate_explanation": "Flood volcanoes produce low\u2011viscosity basaltic lava in massive, long\u2011lasting eruptions. The lava travels great distances, forming extensive plateaus and stacked flow layers. They are linked to mantle plumes and are major components of Large Igneous Provinces, with notable examples being the Deccan and Siberian Traps.",
+    "advanced_explanation": "Flood basalt provinces represent episodic, high\u2011volume mantle melting events, often associated with upwelling plumes or lithospheric extension. The resultant low\u2011viscosity basaltic magma undergoes rapid emplacement, generating tens to hundreds of meters thick flow units that can be laterally continuous over >10\u2075\u202fkm\u00b2. Geochemical signatures (e.g., enriched LREE, depleted HFSE) and isotopic ratios (e.g., Sr, Nd) point to deep mantle sources. The voluminous outgassing of CO\u2082 and SO\u2082 during emplacement has been implicated in global climatic perturbations and mass\u2011extinction events, as evidenced by the temporal correlation of the Deccan Traps with the K\u2011Pg boundary and the Siberian Traps with the end\u2011Permian extinction.",
+    "revision_priority": "High",
+    "confidence_score": 1,
+    "needs_review_flag": false
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Eastern Hills and Mountains",
+    "subchapter": "",
+    "subtopic": "",
+    "master_notes": "The Eastern Hills and Mountains region stretches from the easternmost part of the Himalayas across the northeastern states of India, Bhutan, Bangladesh and the southern fringe of Tibet. Major hill ranges shown on the map are Abor Hills, Dafla Hills, Miri Hills, Naga Hills, Patkai Bum, Garo\u2011Khasi\u2011Jaintia Hills, Lushai (Mizo) Hills and the prominent Kanchenjunga peak. The Brahmaputra River cuts across the region flowing from Tibet into Assam, providing a key drainage pattern. The map also marks international boundaries \u2013 Bhutan to the north\u2011west, Bangladesh to the south\u2011west and the Chinese (Tibetan) border to the north\u2011east \u2013 giving a geopolitical context. For NDA/CDS/AFCAT exams, the ability to locate each hill range, associate it with the corresponding state (e.g., Naga Hills \u2013 Nagaland, Patkai Bum \u2013 Arunachal Pradesh) and recall the major river systems (Brahmaputra, Barak) is frequently tested. The map is therefore a visual tool for linking physiography with political geography.",
+    "revision_notes": "- Eastern Hills & Mountains span NE India, Bhutan, Bangladesh & Tibet\n- Hill ranges: Abor, Dafla, Miri, Naga, Patkai Bum, Garo\u2011Khasi\u2011Jaintia, Lushai (Mizo)\n- Highest peak: Kanchenjunga (8,586\u202fm)\n- Major river: Brahmaputra (origin Tibet \u2192 Assam)\n- International borders: Bhutan (NW), Bangladesh (SW), China/Tibet (NE)\n- State\u2011range mapping: Naga\u2011Nagaland, Patkai\u2011Arunachal, Garo\u2011Khasi\u2011Jaintia\u2011Meghalaya, Lushai\u2011Mizoram, Abor\u2011Assam, Dafla\u2011Arunachal, Miri\u2011Assam",
+    "one_liner_notes": [
+      "Kanchenjunga is the highest peak in the Eastern Hills and Mountains.",
+      "The Brahmaputra River traverses the entire eastern hill region.",
+      "Patkai Bum lies in Arunachal Pradesh.",
+      "Garo\u2011Khasi\u2011Jaintia Hills are in Meghalaya."
+    ],
+    "key_facts": [
+      "Kanchenjunga (8,586\u202fm) is the third highest peak in the world and lies on the India\u2011Sikkim/China border.",
+      "The Brahmaputra originates in Tibet (Ladakh) and enters India at Pasighat, flowing through Assam.",
+      "Patkai range forms the natural border between India and Myanmar in the east.",
+      "The Eastern Hills are part of the Indo\u2011Burma range, distinct from the main Himalayan axis."
+    ],
+    "definitions": [
+      {
+        "term": "Eastern Hills and Mountains",
+        "exact_meaning": "Physiographic division comprising the hill ranges east of the main Himalayan arc extending through NE India, Bhutan, Bangladesh and southern Tibet",
+        "simplified_explanation": "A group of hills and mountains in the far\u2011east of the Indian subcontinent, including ranges like Naga, Patkai and Lushai."
+      }
+    ],
+    "formulae": [],
+    "tables": [
+      {
+        "title": "Major Hill Ranges and Corresponding States",
+        "content": "| Hill Range | State(s) |\n|------------|----------|\n| Abor Hills | Assam |\n| Dafla Hills | Arunachal Pradesh |\n| Miri Hills | Assam |\n| Naga Hills | Nagaland |\n| Patkai Bum | Arunachal Pradesh |\n| Garo\u2011Khasi\u2011Jaintia Hills | Meghalaya |\n| Lushai (Mizo) Hills | Mizoram |\n| Kanchenjunga (peak) | Sikkim/West Bengal |\n"
+      }
+    ],
+    "diagram_descriptions": [
+      {
+        "title": "Map of Eastern Hills and Mountains",
+        "description": "A colour\u2011coded map showing the spatial distribution of the Abor, Dafla, Miri, Naga, Patkai Bum, Garo\u2011Khasi\u2011Jaintia and Lushai hill ranges, the Brahmaputra river course, Kanchenjunga peak and the bordering nations Bhutan, Bangladesh and China (Tibet).",
+        "labels": [
+          "Abor Hills",
+          "Dafla Hills",
+          "Miri Hills",
+          "Naga Hills",
+          "Patkai Bum",
+          "Garo\u2011Khasi\u2011Jaintia Hills",
+          "Lushai Hills",
+          "Kanchenjunga",
+          "Brahmaputra River",
+          "Bhutan",
+          "Bangladesh",
+          "China/Tibet"
+        ]
+      }
+    ],
+    "timelines": [],
+    "comparison_tables": [
+      {
+        "title": "Hill Range vs Elevation (Average)",
+        "content": "| Hill Range | Avg. Elevation (m) |\n|------------|-------------------|\n| Abor | 1,200 |\n| Dafla | 1,500 |\n| Miri | 1,000 |\n| Naga | 1,800 |\n| Patkai Bum | 2,000 |\n| Garo\u2011Khasi\u2011Jaintia | 1,300 |\n| Lushai (Mizo) | 1,400 |\n| Kanchenjunga | 8,586 |\n"
+      }
+    ],
+    "mnemonics": [
+      "\"A D M N P G L K\" \u2013 Abor, Dafla, Miri, Naga, Patkai, Garo\u2011Khasi\u2011Jaintia, Lushai, Kanchenjunga"
+    ],
+    "common_exam_traps": [
+      "Confusing Patkai Bum (Arunachal) with Naga Hills (Nagaland)",
+      "Assuming the Brahmaputra originates in the Eastern Himalayas instead of Tibet",
+      "Mixing up Garo\u2011Khasi\u2011Jaintia (Meghalaya) with Lushai (Mizoram)"
+    ],
+    "previous_year_links": [
+      "2022 NDA Geography Q5 \u2013 Hill range location",
+      "2021 CDS Geography Paper \u2013 Brahmaputra origin",
+      "2020 AFCAT Geography \u2013 Kanchenjunga height"
+    ],
+    "related_topics": [
+      "Physiographic Divisions of India",
+      "Plate Tectonics \u2013 Indo\u2011Burma Range",
+      "River Systems of the Indian Subcontinent"
+    ],
+    "search_keywords": [
+      "Eastern Hills map",
+      "Patkai Bum location",
+      "Kanchenjunga height",
+      "Brahmaputra source",
+      "Naga Hills state"
+    ],
+    "beginner_explanation": "The Eastern Hills and Mountains are a group of hills in the far\u2011east of India and neighboring countries. Important hills include Naga, Patkai and Lushai, and the big river Brahmaputra flows through them.",
+    "intermediate_explanation": "This region covers NE India, Bhutan, Bangladesh and southern Tibet. It contains several distinct hill ranges \u2013 Abor, Dafla, Miri, Naga, Patkai Bum, Garo\u2011Khasi\u2011Jaintia and Lushai \u2013 each linked to a specific state. The Brahmaputra, originating in Tibet, cuts across the area, while Kanchenjunga marks the highest point.",
+    "advanced_explanation": "The Eastern Hills and Mountains constitute the eastern extension of the Indo\u2011Burma or Patkai range, formed by the collision of the Indian and Eurasian plates. The physiography is characterised by steep escarpments, deep river valleys (Brahmaputra, Barak) and high biodiversity. Hill ranges such as Patkai Bum (2,000\u202fm) act as a climatic barrier, influencing monsoon patterns. Geopolitically, the region borders Bhutan (NW), Bangladesh (SW) and the Tibetan Autonomous Region (NE), making it strategically significant for defence studies.",
+    "revision_priority": "High",
+    "confidence_score": 0.98,
+    "needs_review_flag": false
   }
 ]

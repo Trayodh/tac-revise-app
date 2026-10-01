@@ -1,0 +1,236 @@
+It looks like you meant **“Application Logic.”** Below is a quick rundown of what that term usually means, how it fits into a typical software stack, and some practical tips for designing and organizing it cleanly.
+
+---
+
+## 1. What is Application Logic?
+
+| Layer | Typical responsibilities |
+|-------|---------------------------|
+| **Presentation / UI** | Render views, handle user interaction, collect input. |
+| **Application (or Service) Logic** | Orchestrates use‑cases: validates input, enforces business rules, coordinates calls to other layers (domain, persistence, external services). |
+| **Domain / Business Logic** | Core invariants, entities, value objects, domain services. |
+| **Infrastructure / Persistence** | Databases, file storage, messaging, external APIs. |
+
+> **Application logic** lives **between** the UI and the domain/persistence layers. It knows *what* the user wants to do (a “use‑case”) and *how* to accomplish it by calling the appropriate domain services and repositories, but it **doesn’t** contain the low‑level business rules themselves—that belongs in the domain layer.
+
+---
+
+## 2. Common Patterns for Organizing Application Logic
+
+| Pattern | When to use | Core idea |
+|---------|-------------|-----------|
+| **Use‑Case / Interactor (Clean Architecture)** | Any non‑trivial system; you want clear separation of concerns. | Each user‑action is a single class/method that orchestrates domain objects and repositories. |
+| **Command‑Handler (CQRS)** | Systems with heavy read/write separation, complex validation, or auditing needs. | Write operations are expressed as commands handled by dedicated handlers. |
+| **Service Layer (Traditional N‑Tier)** | Legacy or simpler CRUD‑centric apps. | A thin “service” class groups related operations (e.g., `OrderService`). |
+| **Mediator (MediatR, Mediator pattern)** | Large codebases where you want to decouple request senders from handlers. | A central bus routes requests (queries/commands) to their handlers. |
+| **Workflow / State Machine** | Processes that require explicit step‑by‑step progression (order fulfillment, onboarding). | Represent the process as states and transitions, often with a library like `Stateless` (C#) or `machina.js`. |
+
+**Tip:** Pick *one* high‑level approach and stick to it. Mixing several (e.g., a Service Layer plus CQRS) can become confusing unless you have a strong reason.
+
+---
+
+## 3. Building a Clean Application‑Logic Layer – Step‑by‑Step Guide
+
+Below is a language‑agnostic checklist that you can adapt to Java, C#, Python, Node.js, Go, etc.
+
+### 3.1. Define Your Use‑Cases (User Stories)
+
+| Example Use‑Case | Description |
+|-------------------|-------------|
+| `CreateOrder` | Validate the cart, reserve inventory, calculate taxes, and persist the order. |
+| `LoginUser` | Verify credentials, generate a JWT, update last‑login timestamp. |
+| `GenerateReport` | Pull data from several repositories, apply filters, format as PDF. |
+
+### 3.2. Sketch the Public Interface
+
+```plaintext
+interface ICreateOrder {
+    Result execute(CreateOrderDto input);
+}
+```
+
+*DTOs* (Data Transfer Objects) keep the boundary clean: they contain only data needed for the use case, not domain entities.
+
+### 3.3. Wire Up Dependencies (DI)
+
+- **Repositories** – abstractions for persistence (`IOrderRepository`, `IUserRepository`).
+- **Domain Services** – reusable business operations (`IPricingService`, `ITaxService`).
+- **External Gateways** – email, payment, third‑party APIs (`IPaymentGateway`).
+
+Use a Dependency Injection container (Spring, .NET Core DI, NestJS, etc.) so the use‑case class receives everything it needs via constructor injection.
+
+### 3.4. Implement the Orchestration
+
+```csharp
+public class CreateOrder : ICreateOrder
+{
+    private readonly IOrderRepository _orderRepo;
+    private readonly IInventoryService _inventory;
+    private readonly IPricingService _pricing;
+    private readonly IEventBus _bus;
+
+    public CreateOrder(IOrderRepository orderRepo,
+                       IInventoryService inventory,
+                       IPricingService pricing,
+                       IEventBus bus)
+    {
+        _orderRepo = orderRepo;
+        _inventory = inventory;
+        _pricing = pricing;
+        _bus = bus;
+    }
+
+    public Result Execute(CreateOrderDto dto)
+    {
+        // 1️⃣ Validate input (can be a separate validator class)
+        var validation = CreateOrderValidator.Validate(dto);
+        if (!validation.IsValid) return Result.Failure(validation.Errors);
+
+        // 2️⃣ Business rule: check stock
+        if (!_inventory.IsAvailable(dto.ProductId, dto.Quantity))
+            return Result.Failure("Insufficient stock.");
+
+        // 3️⃣ Compute totals using domain service
+        var price = _pricing.Calculate(dto.ProductId, dto.Quantity, dto.PromoCode);
+
+        // 4️⃣ Build domain entity
+        var order = Order.Create(dto.CustomerId, dto.ProductId, dto.Quantity, price);
+
+        // 5️⃣ Persist
+        _orderRepo.Add(order);
+
+        // 6️⃣ Publish domain event (e.g., OrderCreated)
+        _bus.Publish(new OrderCreatedEvent(order.Id));
+
+        return Result.Success(order.Id);
+    }
+}
+```
+
+**Key points**
+
+- **No UI code** (no HTTP objects, no view models) – pure C# (or your language) classes.
+- **All side‑effects** (DB writes, events, external calls) happen *after* the domain entity is in a consistent state.
+- **Error handling** is explicit: either return a `Result`/`Either` type or throw domain‑specific exceptions that the outer layer can translate to HTTP status codes.
+
+### 3.5. Keep the Layer Thin
+
+If a `CreateOrder` method starts growing beyond ~30‑40 lines, extract responsibilities:
+
+| Problem | Extraction |
+|---------|------------|
+| Complex validation | Use a dedicated validator (FluentValidation, Joi, Pydantic). |
+| Multiple external calls | Create a “facade” service (`IOrderProcessingFacade`). |
+| Repeated calculations | Move to a domain service (`PricingService`). |
+
+### 3.6. Unit‑Test in Isolation
+
+```csharp
+[Fact]
+public async Task Execute_ShouldFail_WhenStockInsufficient()
+{
+    // Arrange
+    var inventory = Substitute.For<IInventoryService>();
+    inventory.IsAvailable(Arg.Any<int>(), Arg.Any<int>()).Returns(false);
+
+    var useCase = new CreateOrder(repo, inventory, pricing, bus);
+
+    // Act
+    var result = useCase.Execute(validDto);
+
+    // Assert
+    Assert.False(result.IsSuccess);
+    Assert.Equal("Insufficient stock.", result.Error);
+}
+```
+
+- **Mock** all dependencies.
+- Verify **behaviour** (e.g., `repo.Add` never called when validation fails).
+
+---
+
+## 4. Common Pitfalls & How to Avoid Them
+
+| Pitfall | Symptom | Remedy |
+|---------|----------|--------|
+| **Mixing UI concerns with business logic** | Direct use of `HttpContext`, `ViewBag`, or UI widgets inside services. | Keep the UI layer thin; pass only primitive DTOs to the application layer. |
+| **Leaking persistence objects (ORM entities) to the UI** | Controllers return `EF Core` entities directly. | Map domain entities → DTOs → ViewModels. |
+| **God services** (huge classes doing everything) | One service file > 1000 lines, many unrelated responsibilities. | Apply **Single Responsibility Principle** – split by use‑case or domain concept. |
+| **Hard‑coded dependencies** | `new HttpClient()` inside a use‑case. | Inject via constructor; enable mocking and configuration. |
+| **Business rules scattered across layers** | Same rule appears in validators, services, and DB triggers. | Centralize rule in the **domain layer** (entity invariants or domain services) and reuse from the application layer. |
+| **Transaction management in the UI** | Controller opens/commits DB transaction. | Let the application layer (or a dedicated unit‑of‑work) control transaction boundaries, often via a decorator. |
+
+---
+
+## 5. Sample Folder/Package Layout (C#/.NET style)
+
+```
+src/
+├─ MyApp.Api/                 # Controllers, DTOs for HTTP
+├─ MyApp.Application/         # Use‑case / service classes
+│   ├─ Commands/
+│   │   └─ CreateOrder.cs
+│   ├─ Queries/
+│   │   └─ GetOrderDetails.cs
+│   ├─ DTOs/
+│   │   └─ CreateOrderDto.cs
+│   └─ Interfaces/
+│       └─ IOrderRepository.cs
+├─ MyApp.Domain/              # Entities, value objects, domain services
+│   ├─ Entities/
+│   │   └─ Order.cs
+│   ├─ Services/
+│   │   └─ PricingService.cs
+│   └─ Events/
+│       └─ OrderCreated.cs
+├─ MyApp.Infrastructure/      # EF Core, external APIs, DI wiring
+│   ├─ Persistence/
+│   │   └─ OrderRepository.cs
+│   └─ Messaging/
+│       └─ EventBus.cs
+└─ MyApp.Tests/
+    ├─ Unit/
+    │   └─ Application/
+    └─ Integration/
+```
+
+*Adapt the same idea to other stacks*: e.g., `src/app/use-cases/`, `src/domain/`, `src/infrastructure/` for Node.js/TypeScript.
+
+---
+
+## 6. Quick “Cheat Sheet” for a New Project
+
+| Step | Action | Example (pseudo‑code) |
+|------|--------|------------------------|
+| 1️⃣ | List user stories → use‑cases | `RegisterUser`, `PlaceOrder`, `SearchProducts` |
+| 2️⃣ | Create a **DTO** for each use‑case input & output. | `RegisterUserDto { email, password }` |
+| 3️⃣ | Define an **interface** for each use‑case. | `IRegisterUser { Result Execute(RegisterUserDto) }` |
+| 4️⃣ | Implement the interface – **orchestrate** domain + infra. | See `CreateOrder` example above. |
+| 5️⃣ | Wire dependencies in the **DI container**. | `services.AddTransient<IRegisterUser, RegisterUser>();` |
+| 6️⃣ | Expose a thin **controller** that only maps request ↔ DTO and calls the use‑case. | `return await _registerUser.Execute(dto);` |
+| 7️⃣ | Write **unit tests** for the use‑case, mocking everything else. | Use xUnit, Jest, pytest, etc. |
+| 8️⃣ | Add **integration tests** that spin up the full stack (in‑memory DB, test server). | Verify end‑to‑end behavior. |
+
+---
+
+## 7. Resources & Further Reading
+
+| Format | Title | Link |
+|--------|-------|------|
+| Book | *Clean Architecture: A Craftsman's Guide to Software Structure and Design* – Robert C. Martin | https://www.pearson.com/us/higher-education/program/Martin-Clean-Architecture-A-Craftsman-s-Guide-to-Software-Structure-and-Design/PGM334975.html |
+| Article | “Application Services vs Domain Services” (Martin Fowler) | https://martinfowler.com/bliki/ApplicationService.html |
+| Video | *Domain‑Driven Design Fundamentals* (Pluralsight) | https://www.pluralsight.com/courses/domain-driven-design-fundamentals |
+| Library | `MediatR` (C#) – mediator pattern for command/query handling | https://github.com/jbogard/MediatR |
+| Library | `NestJS CQRS` (Node/TS) | https://docs.nestjs.com/recipes/cqrs |
+| Tool | `AutoFixture` (auto‑generate test data) | https://github.com/AutoFixture/AutoFixture |
+
+---
+
+### TL;DR
+
+- **Application logic** = the *orchestrator* of a use‑case.  
+- Keep it **thin**, **testable**, and **decoupled** from UI, persistence, and low‑level business rules.  
+- Choose a single architectural pattern (Clean Architecture use‑cases, CQRS, Service Layer, etc.) and follow the *interface‑implementation‑DI* flow.  
+- Validate early, delegate domain rules to the domain layer, and write isolated unit tests.
+
+If you have a specific stack (e.g., Java Spring, Python FastAPI, Node NestJS, Go Gin) or a concrete use‑case you’re wrestling with, let me know and I can dive into a code‑level example tailored to that environment!

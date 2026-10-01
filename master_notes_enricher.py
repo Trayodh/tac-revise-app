@@ -185,8 +185,56 @@ def enrich_notes_cerebras(notes_json_str, existing_chapter_content=""):
         print(f"Cerebras API Error: {e}")
         return None
 
+def enrich_notes_groq(notes_json_str, existing_chapter_content=""):
+    GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+    if not GROQ_API_KEY:
+        return None
+        
+    url = "https://api.groq.com/openai/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json"
+    }
+    
+    master_prompt = get_master_prompt()
+    prompt_text = f"{master_prompt}\n\n{REQUIRED_JSON_SCHEMA}\n\nHere are the existing canonical chapter notes (DO NOT REPEAT THESE):\n{existing_chapter_content}\n\nHere are the raw NEW notes to evaluate and merge:\n{notes_json_str}"
+    
+    data = {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+            {"role": "system", "content": "You are a specialized JSON-only output assistant. You must ONLY output a valid JSON object matching the required schema. Do NOT include markdown blocks like ```json or any conversational text."},
+            {"role": "user", "content": prompt_text}
+        ],
+        "response_format": {"type": "json_object"},
+        "temperature": 0.2
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        response.raise_for_status()
+        res_json = response.json()
+        
+        if "choices" in res_json and len(res_json["choices"]) > 0:
+            text = res_json["choices"][0]["message"]["content"]
+            text = text.strip()
+            if text.startswith("```json"):
+                text = text[7:]
+            if text.startswith("```"):
+                text = text[3:]
+            if text.endswith("```"):
+                text = text[:-3]
+            return json.loads(text.strip())
+        else:
+            return None
+    except Exception as e:
+        print(f"Groq API Error: {e}")
+        return None
+
 def enrich_notes(notes_json_str, existing_chapter_content=""):
-    result = enrich_notes_cerebras(notes_json_str, existing_chapter_content)
+    result = enrich_notes_groq(notes_json_str, existing_chapter_content)
+    if not result:
+        print("Groq failed. Falling back to Cerebras...")
+        result = enrich_notes_cerebras(notes_json_str, existing_chapter_content)
     if not result:
         print("Cerebras failed. Falling back to Gemini...")
         result = enrich_notes_gemini(notes_json_str, existing_chapter_content)

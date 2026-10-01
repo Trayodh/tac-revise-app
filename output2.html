@@ -1,0 +1,217 @@
+## What “Application Logic” Means
+
+In software development **application logic** (often called *business logic* or *domain logic*) is the part of a program that implements the rules, calculations, data‑transformations, and workflows that make the application fulfill its purpose.  
+
+It sits **between** two other major concerns:
+
+| Layer | What it does | Typical responsibilities |
+|-------|--------------|---------------------------|
+| **Presentation / UI** | Interacts with the user (HTML pages, mobile screens, CLI prompts). | Rendering UI, handling user input, basic validation, navigation. |
+| **Application (Business) Logic** | Encodes the *meaning* of the data and the processes that the system must perform. | Core rules, calculations, state transitions, orchestration of services, security checks, transaction management. |
+| **Data / Persistence** | Stores and retrieves data from databases, file systems, external services. | CRUD operations, query building, caching, data mapping (ORM). |
+
+Think of it as the **“brain”** of the system: it decides *what* should happen when, *why* it should happen, and *how* the result should be expressed to the rest of the system.
+
+---
+
+## Why Separate Application Logic?
+
+| Reason | Explanation |
+|--------|-------------|
+| **Maintainability** | Changes to business rules stay in one place; UI or storage changes don’t ripple through the core. |
+| **Testability** | Pure application logic can be unit‑tested without a UI, database, or network. |
+| **Reusability** | The same logic can serve a web app, a mobile app, a batch job, or an API. |
+| **Scalability** | You can run the logic in separate processes or services (micro‑services, serverless) without coupling to the UI. |
+| **Security & Auditing** | Centralizing validation and authorization reduces the chance of gaps. |
+
+---
+
+## Typical Forms of Application Logic
+
+| Pattern / Style | Description | When to use |
+|-----------------|-------------|--------------|
+| **Procedural Functions** | Simple, top‑down functions that take inputs and return outputs. | Small scripts, utilities, early prototypes. |
+| **Domain‑Driven Design (DDD) Entities & Services** | Rich domain objects encapsulate state & behavior; services coordinate use‑cases. | Complex domains with many rules (e.g., finance, health). |
+| **Use‑Case / Interactor (Clean Architecture)** | Each use‑case is a class/function that orchestrates the flow, depending only on abstractions (repositories, gateways). | When you want strict separation of concerns and easy testing. |
+| **Command‑Query Responsibility Segregation (CQRS)** | Separate models for commands (writes) and queries (reads). | High‑throughput systems where read/write scaling differs. |
+| **Event‑Sourcing** | State changes are stored as immutable events; current state is derived by replaying them. | Auditable systems, complex state evolution, undo/redo requirements. |
+| **Rule Engines** (Drools, NRules, Jess) | Declarative rule sets evaluated by an engine. | When business rules change frequently and need a non‑programmer UI. |
+| **Workflow / BPMN Engines** (Camunda, Temporal) | Model long‑running processes with steps, timers, human tasks. | Order fulfillment, insurance claims, any multi‑step human‑in‑the‑loop flow. |
+
+---
+
+## A Minimal Example (Node.js / Express)
+
+Below is a tiny “todo list” API that **clearly separates** presentation (Express routes) from application logic (service class). The data layer is abstracted via a repository interface.
+
+```js
+// src/repositories/todoRepository.js
+class TodoRepository {
+  constructor(db) { this.db = db; }          // db could be any storage (Mongo, Postgres, in‑memory)
+
+  async create(todo) { /* INSERT */ }
+  async findById(id)   { /* SELECT */ }
+  async list()         { /* SELECT ALL */ }
+  async update(id, changes) { /* UPDATE */ }
+  async delete(id)          { /* DELETE */ }
+}
+module.exports = TodoRepository;
+```
+
+```js
+// src/services/todoService.js
+class TodoService {
+  constructor(todoRepo) {
+    this.todoRepo = todoRepo;
+  }
+
+  // Business rule: title must be non‑empty & ≤ 200 chars
+  validateTitle(title) {
+    if (!title || title.trim() === '') {
+      throw new Error('Title is required');
+    }
+    if (title.length > 200) {
+      throw new Error('Title must be ≤ 200 characters');
+    }
+  }
+
+  async createTodo({ title, dueDate }) {
+    this.validateTitle(title);
+    const todo = { title, dueDate: dueDate ?? null, completed: false };
+    return await this.todoRepo.create(todo);
+  }
+
+  async completeTodo(id) {
+    const todo = await this.todoRepo.findById(id);
+    if (!todo) throw new Error('Todo not found');
+    if (todo.completed) throw new Error('Todo already completed');
+    return await this.todoRepo.update(id, { completed: true });
+  }
+
+  // …other use‑cases (update, delete, list) …
+}
+module.exports = TodoService;
+```
+
+```js
+// src/routes/todoRoutes.js
+const express = require('express');
+const router = express.Router();
+
+module.exports = ({ todoService }) => {
+  router.post('/', async (req, res, next) => {
+    try {
+      const created = await todoService.createTodo(req.body);
+      res.status(201).json(created);
+    } catch (e) {
+      next(e);
+    }
+  });
+
+  router.patch('/:id/complete', async (req, res, next) => {
+    try {
+      const updated = await todoService.completeTodo(req.params.id);
+      res.json(updated);
+    } catch (e) {
+      next(e);
+    }
+  });
+
+  // …other endpoints…
+
+  return router;
+};
+```
+
+**Key points**
+
+1. **Routes** (presentation) only handle HTTP details (`req`, `res`).
+2. **TodoService** holds *all* business rules (validation, state transitions).
+3. **TodoRepository** isolates persistence; you could swap a mock DB for tests without touching the service.
+
+---
+
+## How to Design Good Application Logic
+
+1. **Identify the “Ubiquitous Language”**  
+   Talk with domain experts and extract nouns (entities) and verbs (behaviors). Those become class names, method names, and rule descriptions.
+
+2. **Keep Side‑Effects Explicit**  
+   - *Pure* functions: deterministic, no external I/O.  
+   - *Impure* operations (DB writes, network calls) should be at the *edge* of the use‑case, often delegated to repositories/gateways.
+
+3. **Guard Against Leaky Abstractions**  
+   Never let UI‑specific concepts (e.g., “HTTP status code”) appear in your service layer. Conversely, don’t let database‑specific concepts (SQL column names) leak into the domain.
+
+4. **Write Unit Tests First**  
+   ```ts
+   // Example using Jest
+   test('cannot complete a todo that is already completed', async () => {
+     const repo = new InMemoryTodoRepo();
+     const service = new TodoService(repo);
+     const todo = await service.createTodo({ title: 'Test' });
+     await service.completeTodo(todo.id);
+     await expect(service.completeTodo(todo.id))
+       .rejects.toThrow('Todo already completed');
+   });
+   ```
+
+5. **Consider Transaction Boundaries**  
+   If a use‑case involves multiple repository calls, wrap them in a transaction (or use a unit‑of‑work pattern). This keeps the logic **atomic**.
+
+6. **Separate Validation from Authorization**  
+   - **Validation** checks data shape/constraints (e.g., “price > 0”).  
+   - **Authorization** checks *who* may perform the operation (e.g., “only the owner may delete”).  
+   Keep both in the service layer, but use distinct helper functions or policy objects.
+
+7. **Document the Flow**  
+   Flowcharts, BPMN diagrams, or simple sequence diagrams help future maintainers understand the order of operations and side‑effects.
+
+---
+
+## Common Pitfalls & How to Avoid Them
+
+| Pitfall | Symptoms | Fix |
+|---------|----------|-----|
+| **Mixing UI & Business Rules** | Validation logic scattered across HTML/JS, API controllers, and services. | Move all *domain* validation into the service layer; keep UI validation as *convenience* only. |
+| **Leaking Persistence Details** | Service methods accept “SQL row objects” or return raw DB IDs. | Use domain entities/DTOs (e.g., `Todo` class) and map them inside the repository. |
+| **God Service / Fat Controller** | One class contains dozens of unrelated methods. | Split by *use‑case* or *aggregate* (e.g., `OrderService`, `PaymentService`). |
+| **Hard‑Coded Configuration** | URLs, thresholds, or tax rates appear as literals inside logic. | Externalize via configuration files or environment variables; inject them into the service. |
+| **Skipping Transaction Management** | Partial updates leave the system in inconsistent state. | Use a unit‑of‑work or transaction decorator to ensure atomicity. |
+| **Testing Against Real DB** | Unit tests are slow, flaky, depend on external state. | Use in‑memory or mock repositories for unit tests; reserve real DB for integration tests. |
+
+---
+
+## Choosing a Structure for Your Project
+
+| Size / Complexity | Recommended Architecture |
+|-------------------|--------------------------|
+| **Simple script / prototype** | Flat folder, functions, maybe a tiny service module. |
+| **Small web API (≤ 5 endpoints)** | Feature‑folder layout: `src/todos/` contains `controller.js`, `service.js`, `repository.js`. |
+| **Medium application (multiple domains)** | **Clean Architecture** or **Hexagonal (Ports & Adapters)**: core use‑cases in `src/domain/`, adapters in `src/infrastructure/`. |
+| **Large enterprise system** | **DDD + CQRS + Event‑Sourcing** (if auditability & scaling are required) + separate bounded contexts (micro‑services). |
+| **Workflow‑centric** | **BPMN / Temporal** orchestrating small stateless services. |
+
+---
+
+## Quick Checklist – “Is This Proper Application Logic?”
+
+- [ ] **Is the code independent of HTTP, UI frameworks, or DB drivers?**  
+- [ ] **Does it express a business rule in a readable way?** (`if (order.total > creditLimit) …`)  
+- [ ] **Can it be unit‑tested without external resources?**  
+- [ ] **Does it return domain objects/DTOs, not raw persistence rows?**  
+- [ ] **Are side‑effects (writes, external calls) isolated and clearly documented?**  
+- [ ] **Is the responsibility focused on *one* cohesive use‑case or aggregate?**  
+
+If you answer *yes* to most of these, you’re on the right track.
+
+---
+
+## TL;DR Summary
+
+- **Application logic = the business rules & workflows** that give meaning to data.  
+- It should be **isolated** from presentation (UI) and persistence (DB).  
+- Use **layers** or **architectural patterns** (Clean Architecture, DDD, CQRS) to enforce that separation.  
+- Keep it **pure, testable, and expressive**; let the outer layers handle I/O, transport, and storage.  
+
+If you have a specific technology stack, a concrete problem, or need help refactoring existing code into a clean application‑logic layer, just let me know—happy to dive deeper!

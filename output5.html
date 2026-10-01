@@ -1,0 +1,170 @@
+<div class='printable-cheat-sheet' style='max-width: 100%; overflow-wrap: break-word;'>
+  <style>
+    @media print {
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: #111;
+        color: #eee;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 12pt;
+      }
+    }
+    .printable-cheat-sheet {
+      background: #0d0d0d;
+      color: #e0e0e0;
+      padding: 20px;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    .title {
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: 700;
+      color: #00ffcc;
+      margin-bottom: 30px;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background: #1a1a1a;
+      border: 2px solid #333;
+      border-radius: 8px;
+      width: 340px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.6);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .card-header {
+      background: #222;
+      padding: 10px 15px;
+      font-size: 1.3em;
+      font-weight: 600;
+      color: #00ffcc;
+      border-bottom: 1px solid #333;
+    }
+    .card-body {
+      padding: 12px 15px;
+      flex: 1;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      row-gap: 6px;
+      column-gap: 8px;
+      align-items: start;
+    }
+    .field {
+      font-weight: 500;
+      color: #99ffdd;
+    }
+    .value {
+      color: #e0e0e0;
+    }
+    .badge {
+      display: inline-block;
+      padding: 2px 6px;
+      margin-left: 6px;
+      font-size: 0.8em;
+      background: #004455;
+      color: #00ffcc;
+      border-radius: 4px;
+    }
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+
+  <div class="title">Indian Air Force – Helicopter Fleet Cheat Sheet</div>
+
+  <div class="grid">
+    <!-- HAL Chetak -->
+    <div class="card">
+      <div class="card-header">HAL Chetak <span class="badge">SA‑315B</span></div>
+      <div class="card-body">
+        <div class="field">Role</div><div class="value">Light utility, training, SAR</div>
+        <div class="field">In Service</div><div class="value">1971 – Present</div>
+        <div class="field">Quantity</div><div class="value">~80 (active)</div>
+        <div class="field">Engine</div><div class="value">Turbomeca Artouste IIIB</div>
+        <div class="field">Max Speed</div><div class="value">≈ 210 km/h</div>
+        <div class="field">Service Ceiling</div><div class="value">≈ 6 100 m</div>
+        <div class="field">Armament</div><div class="value">2× 7.62 mm MGs (optional)</div>
+      </div>
+    </div>
+
+    <!-- HAL Cheetah -->
+    <div class="card">
+      <div class="card-header">HAL Cheetah <span class="badge">SA‑315B Lama</span></div>
+      <div class="card-body">
+        <div class="field">Role</div><div class="value">High‑altitude utility, SAR</div>
+        <div class="field">In Service</div><div class="value">1972 – Present</div>
+        <div class="field">Quantity</div><div class="value">~120 (active)</div>
+        <div class="field">Engine</div><div class="value">Turbomeca Artouste IIIB</div>
+        <div class="field">Max Speed</div><div class="value">≈ 210 km/h</div>
+        <div class="field">Service Ceiling</div><div class="value">≈ 7 000 m</div>
+        <div class="field">Armament</div><div class="value">2× 7.62 mm MGs (optional)</div>
+      </div>
+    </div>
+
+    <!-- HAL Dhruv (ALH) -->
+    <div class="card">
+      <div class="card-header">HAL Dhruv <span class="badge">ALH</span></div>
+      <div class="card-body">
+        <div class="field">Role</div><div class="value">Multi‑role utility, transport, SAR</div>
+        <div class="field">In Service</div><div class="value">2002 – Present</div>
+        <div class="field">Quantity</div><div class="value">~200 (all variants)</div>
+        <div class="field">Engine</div><div class="value">Turbomeca TM 333‑2B2 (early) / Shakti (GE CFM‑LEAP‑1A) (later)</div>
+        <div class="field">Max Speed</div><div class="value">≈ 300 km/h</div>
+        <div class="field">Service Ceiling</div><div class="value">≈ 6 000 m</div>
+        <div class="field">Armament</div><div class="value">2× 7.62 mm MGs (optional); hard‑point for rockets/ missiles (Rudra variant)</div>
+      </div>
+    </div>
+
+    <!-- HAL Rudra -->
+    <div class="card">
+      <div class="card-header">HAL Rudra <span class="badge">Armed Dhruv</span></div>
+      <div class="card-body">
+        <div class="field">Role</div><div class="value">Attack, armed reconnaissance</div>
+        <div class="field">In Service</div><div class="value">2007 – Present</div>
+        <div class="field">Quantity</div><div class="value">~60</div>
+        <div class="field">Armament</div><div class="value">30 mm GSh‑30‑2 cannon, 70 mm rockets, 9M120 Ataka ATGM, 2× 7.62 mm MGs</div>
+        <div class="field">Engine</div><div class="value">Shakti (GE CFM‑LEAP‑1A)</div>
+        <div class="field">Max Speed</div><div class="value">≈ 300 km/h</div>
+        <div class="field">Service Ceiling</div><div class="value">≈ 6 000 m</div>
+      </div>
+    </div>
+
+    <!-- Mil Mi‑8/17 Series -->
+    <div class="card">
+      <div class="card-header">Mil Mi‑8 / Mi‑17 Series</div>
+      <div class="card-body">
+        <div class="field">Role</div><div class="value">Transport, SAR, VIP, medevac</div>
+        <div class="field">In Service</div><div class="value">1990s – Present</div>
+        <div class="field">Quantity</div><div class="value">~120 (incl. Mi‑17V5 ≈ 30)</div>
+        <div class="field">Variants</div><div class="value">Mi‑8T, Mi‑17, Mi‑17‑V5</div>
+        <div class="field">Engine</div><div class="value">Klimov TV3‑117 (various sub‑models)</div>
+        <div class="field">Max Speed</div><div class="value">≈ 250 km/h</div>
+        <div class="field">Service Ceiling</div><div class="value">≈ 6 000 m</div>
+        <div class="field">Armament</div><div class="value">2× 7.62 mm MGs (optional); hard‑point for rockets/ missiles (Mi‑17V5)</div>
+      </div>
+    </div>
+
+    <!-- HAL Light Utility Helicopter (LUH) -->
+    <div class="card">
+      <div class="card-header">HAL Light Utility Helicopter (LUH)</div>
+      <div class="card-body">
+        <div class="field">Role</div><div class="value">Light utility, training, liaison</div>
+        <div class="field">In Service</div><div class="value">2022 – Present (limited)</div>
+        <div class="field">Quantity</div><div class="value">Few prototypes; serial production pending</div>
+        <div class="field">Engine</div><div class="value">Safran Ardiden 1A1 (≈ 750 shp)</div>
+        <div class="field">Max Speed</div><div class="value">≈ 250 km/h</div>
+        <div class="field">Service Ceiling</div><div class="value">≈ 5 500 m</div>
+        <div class="field">Armament</div><div class="value">None (configurable for light weapons)</div>
+      </div>
+    </div>
+  </div>
+</div>
