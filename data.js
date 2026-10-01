@@ -137349,2465 +137349,246 @@ const CBT_EXAMS_DATABASE = [
 ];
 
 const NOTES_DATABASE = {
-  "mathematics": {
-    "title": "Mathematics (NDA/CDS)",
-    "chapters": [
-      {
-        "id": "trig-identities",
-        "title": "Trigonometric Identities & Values",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "trig-identities",
-            "title": "Trigonometric Identities & Values",
-            "notes": "\n              <h3>1. Core Trigonometric Identities</h3>\n              <p>Pythagorean identities form the bedrock of trigonometric simplification:</p>\n              <ul>\n                <li>**sin²θ + cos²θ = 1** ⇒ sin²θ = 1 - cos²θ ; cos²θ = 1 - sin²θ</li>\n                <li>**sec²θ - tan²θ = 1** (θ ≠ (2n+1)π/2) ⇒ sec²θ = 1 + tan²θ ; tan²θ = sec²θ - 1</li>\n                <li>**cosec²θ - cot²θ = 1** (θ ≠ nπ) ⇒ cosec²θ = 1 + cot²θ ; cot²θ = cosec²θ - 1</li>\n              </ul>\n              \n              <h3>2. Sum & Difference Formulas</h3>\n              <p>Used to find values of angles like 15°, 75°, 105°, etc.:</p>\n              <ul>\n                <li>sin(A ± B) = sin A cos B ± cos A sin B</li>\n                <li>cos(A ± B) = cos A cos B ∓ sin A sin B</li>\n                <li>tan(A ± B) = (tan A ± tan B) / (1 ∓ tan A tan B)</li>\n                <li>cot(A ± B) = (cot A cot B ∓ 1) / (cot B ± cot A)</li>\n              </ul>\n              \n              <h3>3. Multiple Angle Identities</h3>\n              <p>Essential for reducing powers in calculus integrations:</p>\n              <ul>\n                <li>sin 2A = 2 sin A cos A = 2tan A / (1 + tan² A)</li>\n                <li>cos 2A = cos² A - sin² A = 2cos² A - 1 = 1 - 2sin² A = (1 - tan² A)/(1 + tan² A)</li>\n                <li>tan 2A = 2tan A / (1 - tan² A)</li>\n                <li>sin 3A = 3sin A - 4sin³ A</li>\n                <li>cos 3A = 4cos³ A - 3cos A</li>\n                <li>tan 3A = (3tan A - tan³ A) / (1 - 3tan² A)</li>\n              </ul>\n              \n              <h3>4. Product-to-Sum & Sum-to-Product</h3>\n              <p>Key transformations for calculus and equations:</p>\n              <ul>\n                <li>2 sin A cos B = sin(A + B) + sin(A - B)</li>\n                <li>2 cos A sin B = sin(A + B) - sin(A - B)</li>\n                <li>2 cos A cos B = cos(A + B) + cos(A - B)</li>\n                <li>2 sin A sin B = cos(A - B) - cos(A + B)</li>\n                <li>sin C + sin D = 2 sin((C+D)/2) cos((C-D)/2)</li>\n                <li>sin C - sin D = 2 cos((C+D)/2) sin((C-D)/2)</li>\n                <li>cos C + cos D = 2 cos((C+D)/2) cos((C-D)/2)</li>\n                <li>cos C - cos D = -2 sin((C+D)/2) sin((C-D)/2)</li>\n              </ul>\n            ",
-            "formulas": "sin(A+B) = sinA·cosB + cosA·sinB\ncos(2A) = 2cos²A - 1 = 1 - 2sin²A\ntan(2A) = 2tanA / (1 - tan²A)\nsin(3A) = 3sinA - 4sin³A\ncos(3A) = 4cos³A - 3cosA\n2sinA·cosB = sin(A+B) + sin(A-B)\nsinC + sinD = 2sin((C+D)/2)cos((C-D)/2)",
-            "mindmap": {
-              "root": "Trig Identities",
-              "branches": [
-                {
-                  "title": "Pythagorean",
-                  "subnodes": [
-                    "sin²θ + cos²θ = 1",
-                    "sec²θ - tan²θ = 1",
-                    "cosec²θ - cot²θ = 1"
-                  ]
-                },
-                {
-                  "title": "Compounded",
-                  "subnodes": [
-                    "sin(A±B) expansion",
-                    "cos(A±B) signs flip",
-                    "tan(A±B) fractions"
-                  ]
-                },
-                {
-                  "title": "Multiples",
-                  "subnodes": [
-                    "sin 2A / cos 2A",
-                    "3A cubic identities",
-                    "Tan 2A and 3A forms"
-                  ]
-                },
-                {
-                  "title": "Transformations",
-                  "subnodes": [
-                    "2 sin A cos B product",
-                    "sin C + sin D sum rules",
-                    "cos C - cos D negative factor"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "inverse-trig",
-        "title": "Inverse Trigonometric Functions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "inverse-trig",
-            "title": "Inverse Trigonometric Functions",
-            "notes": "\n              <h3>1. Principal Value Branches (PVB)</h3>\n              <p>The domain and range must be strictly memorized to solve standard NDA/CDS equations:</p>\n              <ul>\n                <li>**sin⁻¹ x** : Domain = [-1, 1] , Range (PVB) = [-π/2, π/2]</li>\n                <li>**cos⁻¹ x** : Domain = [-1, 1] , Range (PVB) = [0, π]</li>\n                <li>**tan⁻¹ x** : Domain = ℝ , Range (PVB) = (-π/2, π/2)</li>\n                <li>**cosec⁻¹ x** : Domain = ℝ - (-1, 1) , Range (PVB) = [-π/2, π/2] - {0}</li>\n                <li>**sec⁻¹ x** : Domain = ℝ - (-1, 1) , Range (PVB) = [0, π] - {π/2}</li>\n                <li>**cot⁻¹ x** : Domain = ℝ , Range (PVB) = (0, π)</li>\n              </ul>\n              \n              <h3>2. Fundamental Properties</h3>\n              <ul>\n                <li>sin⁻¹(-x) = -sin⁻¹ x , cosec⁻¹(-x) = -cosec⁻¹ x , tan⁻¹(-x) = -tan⁻¹ x</li>\n                <li>cos⁻¹(-x) = π - cos⁻¹ x , sec⁻¹(-x) = π - sec⁻¹ x , cot⁻¹(-x) = π - cot⁻¹ x</li>\n                <li>sin⁻¹(1/x) = cosec⁻¹ x (for |x| ≥ 1)</li>\n                <li>cos⁻¹(1/x) = sec⁻¹ x (for |x| ≥ 1)</li>\n                <li>tan⁻¹(1/x) = cot⁻¹ x (for x > 0)</li>\n              </ul>\n              \n              <h3>3. Identities & Sums</h3>\n              <ul>\n                <li>sin⁻¹ x + cos⁻¹ x = π/2 (for x ∈ [-1, 1])</li>\n                <li>tan⁻¹ x + cot⁻¹ x = π/2 (for x ∈ ℝ)</li>\n                <li>cosec⁻¹ x + sec⁻¹ x = π/2 (for |x| ≥ 1)</li>\n                <li>tan⁻¹ x + tan⁻¹ y = tan⁻¹((x + y)/(1 - xy)) [if xy < 1]</li>\n                <li>tan⁻¹ x - tan⁻¹ y = tan⁻¹((x - y)/(1 + xy)) [if xy > -1]</li>\n                <li>2tan⁻¹ x = sin⁻¹(2x/(1+x²)) = cos⁻¹((1-x²)/(1+x²)) = tan⁻¹(2x/(1-x²))</li>\n              </ul>\n            ",
-            "formulas": "sin⁻¹x + cos⁻¹x = π/2\ntan⁻¹x + tan⁻¹y = tan⁻¹((x+y)/(1-xy)) [xy < 1]\n2tan⁻¹x = sin⁻¹(2x/(1+x²)) = cos⁻¹((1-x²)/(1+x²))",
-            "mindmap": {
-              "root": "Inverse Trig",
-              "branches": [
-                {
-                  "title": "Domains & Ranges",
-                  "subnodes": [
-                    "sin⁻¹: [-1,1] to [-π/2, π/2]",
-                    "cos⁻¹: [-1,1] to [0, π]",
-                    "tan⁻¹: ℝ to (-π/2, π/2)"
-                  ]
-                },
-                {
-                  "title": "Negative Angles",
-                  "subnodes": [
-                    "sin⁻¹(-x) = -sin⁻¹x",
-                    "cos⁻¹(-x) = π - cos⁻¹x",
-                    "tan⁻¹(-x) = -tan⁻¹x"
-                  ]
-                },
-                {
-                  "title": "Sum Identities",
-                  "subnodes": [
-                    "sin⁻¹x + cos⁻¹x = π/2",
-                    "tan⁻¹x + tan⁻¹y formula",
-                    "Complementary pairs"
-                  ]
-                },
-                {
-                  "title": "Double Angles",
-                  "subnodes": [
-                    "2tan⁻¹x conversions",
-                    "sin⁻¹(2x/(1+x²))",
-                    "cos⁻¹((1-x²)/(1+x²))"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "quadratic-eq",
-        "title": "Quadratic Equations",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "quadratic-eq",
-            "title": "Quadratic Equations",
-            "notes": "\n              <h3>1. Nature of Roots</h3>\n              <p>For ax2 + bx + c = 0, the discriminant D = b2 - 4ac decides the roots:</p>\n              <ul>\n                <li>D > 0: Real and distinct roots.</li>\n                <li>D = 0: Real and equal roots.</li>\n                <li>D < 0: Complex conjugate roots.</li>\n              </ul>\n            ",
-            "formulas": "\n              <li>**Sum of roots:** alpha + \beta = -b/a</li>\n              <li>**Product of roots:** alpha\beta = c/a</li>\n            "
-          }
-        ]
-      },
-      {
-        "id": "complex-numbers",
-        "title": "Complex Numbers",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "complex-numbers",
-            "title": "Complex Numbers",
-            "notes": "\n              <h3>1. Polar Form and Modulus</h3>\n              <p>A complex number z = x + iy has a modulus |z| = sqrtx2 + y2.</p>\n              <ul>\n                <li>**Argument:** \theta = \tan-1(y/x)</li>\n                <li>**De Moivre's Theorem:** (cos \theta + isin \theta)n = cos n\theta + isin n\theta</li>\n              </ul>\n            ",
-            "formulas": "\n              <li>**Cube roots of unity:** 1, omega, omega2 where 1 + omega + omega2 = 0 and omega3 = 1</li>\n            "
-          }
-        ]
-      },
-      {
-        "id": "straight-lines",
-        "title": "Straight Lines",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "straight-lines",
-            "title": "Straight Lines",
-            "notes": "\n              <h3>1. Equations of a Line</h3>\n              <ul>\n                <li>**Slope-Intercept:** y = mx + c</li>\n                <li>**Point-Slope:** y - y1 = m(x - x1)</li>\n                <li>**Normal Form:** xcosalpha + ysinalpha = p</li>\n              </ul>\n            ",
-            "formulas": "\n              <li>**Distance from point to line:** d = |Ax1 + By1 + C|/sqrtA2 + B2</li>\n            "
-          }
-        ]
-      },
-      {
-        "id": "central-tendency",
-        "title": "Measures of Central Tendency",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "central-tendency",
-            "title": "Measures of Central Tendency",
-            "notes": "\n              <h3>1. Mean, Median, Mode</h3>\n              <ul>\n                <li>**Mean:** Sum of observations / Number of observations.</li>\n                <li>**Median:** Middle value when sorted.</li>\n                <li>**Empirical Relation:** Mode = 3*Median - 2*Mean</li>\n              </ul>\n            ",
-            "formulas": "\n              <li>**Variance:** sigma2 = \fracsum (xi - mu)2N</li>\n              <li>**Standard Deviation:** sigma = sqrtVariance</li>\n            "
-          }
-        ]
-      },
-      {
-        "id": "data-interpretation",
-        "title": "Data Interpretation: Tables, Bar & Pie Charts",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "data-interpretation",
-            "title": "Data Interpretation: Tables, Bar & Pie Charts",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "DI Formulas",
-            "mindmap": {
-              "root": "DI",
-              "branches": [
-                {
-                  "title": "Charts",
-                  "subnodes": [
-                    "Bar Charts",
-                    "Pie Charts",
-                    "Line Graphs"
-                  ]
-                },
-                {
-                  "title": "Calculations",
-                  "subnodes": [
-                    "Percentage change",
-                    "Averages",
-                    "Ratios"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "limits-continuity",
-        "title": "Limits & Continuity",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "limits-continuity",
-            "title": "Limits & Continuity",
-            "notes": "\n              <h3>1. Standard Limits</h3>\n              <p>These limits resolve common indeterminate forms instantly:</p>\n              <ul>\n                <li>**lim (x→0) sin(x)/x = 1**</li>\n                <li>**lim (x→0) tan(x)/x = 1**</li>\n                <li>**lim (x→0) (e^x - 1)/x = 1**</li>\n                <li>**lim (x→0) ln(1 + x)/x = 1**</li>\n                <li>**lim (x→a) (xⁿ - aⁿ)/(x - a) = n·aⁿ⁻¹**</li>\n                <li>**lim (x→0) (1 + x)^(1/x) = e**</li>\n                <li>**lim (x→∞) (1 + 1/x)ˣ = e**</li>\n              </ul>\n              \n              <h3>2. L'Hopital's Rule</h3>\n              <p>For limits resulting in indeterminate forms like **0/0** or **∞/∞**:</p>\n              <ul>\n                <li>Differentiate numerator and denominator separately: **lim f(x)/g(x) = lim f'(x)/g'(x)**.</li>\n                <li>Repeat if the result is still indeterminate and functions remain differentiable.</li>\n              </ul>\n              \n              <h3>3. Continuity & Differentiability</h3>\n              <ul>\n                <li>f(x) is continuous at x = c if: **lim (x→c⁻) f(x) = lim (x→c⁺) f(x) = f(c)** (LHL = RHL = Value).</li>\n                <li>f(x) is differentiable at x = c if: Left Hand Derivative (LHD) = Right Hand Derivative (RHD).</li>\n                <li>**Important Property**: Differentiability ⇒ Continuity. However, Continuity does NOT imply Differentiability (e.g., f(x) = |x| is continuous at x = 0, but not differentiable because of a sharp corner).</li>\n              </ul>\n            ",
-            "formulas": "lim(x→0) sinx/x = 1\nlim(x→a) (xⁿ - aⁿ)/(x - a) = n·aⁿ⁻¹\nL'Hopital: lim f(x)/g(x) = lim f'(x)/g'(x)\nLHL = RHL = f(c) for Continuity",
-            "mindmap": {
-              "root": "Limits & Continuity",
-              "branches": [
-                {
-                  "title": "Std Limits",
-                  "subnodes": [
-                    "sin x/x = 1 (x→0)",
-                    "e^x-1/x = 1 (x→0)",
-                    "(1+1/x)^x = e (x→∞)"
-                  ]
-                },
-                {
-                  "title": "L'Hopital",
-                  "subnodes": [
-                    "For 0/0 and ∞/∞",
-                    "Diff numerator separately",
-                    "Diff denominator separately"
-                  ]
-                },
-                {
-                  "title": "Continuity",
-                  "subnodes": [
-                    "LHL = RHL = f(c)",
-                    "No breaks in curve",
-                    "Necessary for derivatives"
-                  ]
-                },
-                {
-                  "title": "Derivatives",
-                  "subnodes": [
-                    "LHD = RHD",
-                    "Smooth curves only",
-                    "Sharp turns not diff"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "differentiation",
-        "title": "Differentiation Rules",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "differentiation",
-            "title": "Differentiation Rules",
-            "notes": "\n              <h3>1. General Differentiation Rules</h3>\n              <ul>\n                <li>**Product Rule**: d/dx(u·v) = u'v + uv'</li>\n                <li>**Quotient Rule**: d/dx(u/v) = (u'v - uv') / v²</li>\n                <li>**Chain Rule**: d/dx(f(g(x))) = f'(g(x)) · g'(x)</li>\n              </ul>\n              \n              <h3>2. Derivatives of Algebraic & Exponential Functions</h3>\n              <ul>\n                <li>d/dx(xⁿ) = n·xⁿ⁻¹</li>\n                <li>d/dx(eˣ) = eˣ</li>\n                <li>d/dx(aˣ) = aˣ ln a (a > 0)</li>\n                <li>d/dx(ln x) = 1/x</li>\n                <li>d/dx(logₐ x) = 1 / (x ln a)</li>\n              </ul>\n              \n              <h3>3. Trigonometric Derivatives</h3>\n              <ul>\n                <li>d/dx(sin x) = cos x</li>\n                <li>d/dx(cos x) = -sin x</li>\n                <li>d/dx(tan x) = sec² x</li>\n                <li>d/dx(sec x) = sec x tan x</li>\n                <li>d/dx(cosec x) = -cosec x cot x</li>\n                <li>d/dx(cot x) = -cosec² x</li>\n              </ul>\n              \n              <h3>4. Inverse Trigonometric Derivatives</h3>\n              <ul>\n                <li>d/dx(sin⁻¹ x) = 1 / √(1 - x²)</li>\n                <li>d/dx(cos⁻¹ x) = -1 / √(1 - x²)</li>\n                <li>d/dx(tan⁻¹ x) = 1 / (1 + x²)</li>\n                <li>d/dx(cot⁻¹ x) = -1 / (1 + x²)</li>\n                <li>d/dx(sec⁻¹ x) = 1 / (|x|√(x² - 1))</li>\n                <li>d/dx(cosec⁻¹ x) = -1 / (|x|√(x² - 1))</li>\n              </ul>\n            ",
-            "formulas": "(uv)' = u'v + uv'\n(u/v)' = (u'v - uv')/v²\nd/dx(aˣ) = aˣ·lna\nd/dx(sin⁻¹x) = 1/√(1-x²)\nd/dx(tan⁻¹x) = 1/(1+x²)",
-            "mindmap": {
-              "root": "Differentiation",
-              "branches": [
-                {
-                  "title": "Methods",
-                  "subnodes": [
-                    "Product Rule (uv)",
-                    "Quotient Rule (u/v)",
-                    "Chain Rule f(g(x))"
-                  ]
-                },
-                {
-                  "title": "Trigonometric",
-                  "subnodes": [
-                    "sin x → cos x",
-                    "cos x → -sin x",
-                    "tan x → sec² x"
-                  ]
-                },
-                {
-                  "title": "Inverse Trig",
-                  "subnodes": [
-                    "sin⁻¹x → 1/√(1-x²)",
-                    "cos⁻¹x → -1/√(1-x²)",
-                    "tan⁻¹x → 1/(1+x²)"
-                  ]
-                },
-                {
-                  "title": "Exponential",
-                  "subnodes": [
-                    "e^x → e^x",
-                    "a^x → a^x ln a",
-                    "ln x → 1/x"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "integration",
-        "title": "Standard Integration Methods",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "integration",
-            "title": "Standard Integration Methods",
-            "notes": "\n              <h3>1. Fundamental Indefinite Integrals</h3>\n              <ul>\n                <li>∫ xⁿ dx = xⁿ⁺¹/(n+1) + C (n ≠ -1)</li>\n                <li>∫ 1/x dx = ln|x| + C</li>\n                <li>∫ eˣ dx = eˣ + C</li>\n                <li>∫ aˣ dx = aˣ/ln a + C</li>\n                <li>∫ sin x dx = -cos x + C</li>\n                <li>∫ cos x dx = sin x + C</li>\n                <li>∫ sec² x dx = tan x + C</li>\n                <li>∫ cosec² x dx = -cot x + C</li>\n                <li>∫ sec x tan x dx = sec x + C</li>\n                <li>∫ cosec x cot x dx = -cosec x + C</li>\n              </ul>\n              \n              <h3>2. Logarithmic Trigonometric Integrals</h3>\n              <ul>\n                <li>∫ tan x dx = ln|sec x| + C = -ln|cos x| + C</li>\n                <li>∫ cot x dx = ln|sin x| + C</li>\n                <li>∫ sec x dx = ln|sec x + tan x| + C</li>\n                <li>∫ cosec x dx = ln|cosec x - cot x| + C = ln|tan(x/2)| + C</li>\n              </ul>\n              \n              <h3>3. Special Integrals (Substitution helper)</h3>\n              <ul>\n                <li>∫ 1/(x² + a²) dx = (1/a) tan⁻¹(x/a) + C</li>\n                <li>∫ 1/√(a² - x²) dx = sin⁻¹(x/a) + C</li>\n                <li>∫ 1/√(x² ± a²) dx = ln|x + √(x² ± a²)| + C</li>\n              </ul>\n              \n              <h3>4. Integration by Parts & Definite Properties</h3>\n              <ul>\n                <li>**∫ u·v dx = u ∫ v dx - ∫ [ u' ∫ v dx ] dx** (Choose u based on **ILATE** priority).</li>\n                <li>**King's Property**: ∫[0 to a] f(x) dx = ∫[0 to a] f(a-x) dx</li>\n                <li>∫[a to b] f(x) dx = ∫[a to b] f(a+b-x) dx</li>\n                <li>∫[-a to a] f(x) dx = 2∫[0 to a] f(x) dx (if f(x) is even); = 0 (if f(x) is odd).</li>\n              </ul>\n            ",
-            "formulas": "∫ u·v dx = u∫v dx - ∫(u'·∫v dx) dx\nKing's Property: ∫[0 to a] f(x) dx = ∫[0 to a] f(a-x) dx\nEven/Odd Property: ∫[-a to a] f(x)dx = 0 if f(-x)=-f(x)",
-            "mindmap": {
-              "root": "Integration",
-              "branches": [
-                {
-                  "title": "Indefinite",
-                  "subnodes": [
-                    "Power rule & ln x",
-                    "Trig integrations",
-                    "e^x and a^x rules"
-                  ]
-                },
-                {
-                  "title": "Substitution",
-                  "subnodes": [
-                    "Trig substitutions",
-                    "Algebraic factors",
-                    "f'(x)/f(x) → ln|f(x)|"
-                  ]
-                },
-                {
-                  "title": "By Parts",
-                  "subnodes": [
-                    "ILATE hierarchy",
-                    "∫ u v dx formula",
-                    "Repeated integrals"
-                  ]
-                },
-                {
-                  "title": "Definite",
-                  "subnodes": [
-                    "Limits evaluations",
-                    "King's property",
-                    "Even/Odd cancellations"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "syl-matrices",
-        "title": "Matrices and Determinants",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "syl-matrices",
-            "title": "Matrices and Determinants",
-            "notes": "\n              <h3>1. Matrix Classifications</h3>\n              <ul>\n                <li>**Symmetric Matrix**: Aᵀ = A. Diagonal elements can be anything.</li>\n                <li>**Skew-Symmetric Matrix**: Aᵀ = -A. Diagonal elements must be **zero**. (aᵢᵢ = -aᵢᵢ ⇒ 2aᵢᵢ = 0 ⇒ aᵢᵢ = 0).</li>\n                <li>**Orthogonal Matrix**: A · Aᵀ = I. Also, det(A) = ±1.</li>\n                <li>**Idempotent Matrix**: A² = A.</li>\n                <li>**Involutory Matrix**: A² = I.</li>\n                <li>**Nilpotent Matrix**: Aᵏ = O (where k is the index of nilpotency).</li>\n              </ul>\n              \n              <h3>2. Determinant Laws</h3>\n              <ul>\n                <li>det(Aᵀ) = det(A)</li>\n                <li>det(AB) = det(A) · det(B)</li>\n                <li>det(kA) = kⁿ det(A) (for a matrix of order n × n).</li>\n                <li>det(A⁻¹) = 1 / det(A)</li>\n                <li>If any two rows/columns are interchanged, the sign of the determinant changes.</li>\n                <li>If all elements of a row/column are zero, the determinant is **zero**.</li>\n              </ul>\n              \n              <h3>3. Adjoint & Inverse Relations</h3>\n              <ul>\n                <li>A · adj(A) = adj(A) · A = |A| · I</li>\n                <li>**|adj A| = |A|ⁿ⁻¹** (order n)</li>\n                <li>**|adj(adj A)| = |A|^( (n-1)² )**</li>\n                <li>adj(AB) = adj(B) · adj(A) (Reversal law)</li>\n                <li>A⁻¹ = adj(A) / |A| (only if |A| ≠ 0; non-singular matrix).</li>\n                <li>(Aᵀ)⁻¹ = (A⁻¹)ᵀ</li>\n              </ul>\n            ",
-            "formulas": "|kA| = kⁿ|A|\n|adj A| = |A|ⁿ⁻¹\n|adj(adj A)| = |A|^((n-1)²)\nA⁻¹ = adj(A)/|A|\n(AB)ᵀ = BᵀAᵀ\n(AB)⁻¹ = B⁻¹A⁻¹",
-            "mindmap": {
-              "root": "Matrices & Det",
-              "branches": [
-                {
-                  "title": "Matrix Types",
-                  "subnodes": [
-                    "Symmetric: Aᵀ = A",
-                    "Skew-Symm: Aᵀ = -A",
-                    "Orthogonal: A·Aᵀ = I"
-                  ]
-                },
-                {
-                  "title": "Determinants",
-                  "subnodes": [
-                    "|kA| = kⁿ|A| rule",
-                    "|AB| = |A||B|",
-                    "Zero determinant conditions"
-                  ]
-                },
-                {
-                  "title": "Adjoints",
-                  "subnodes": [
-                    "|adj A| = |A|ⁿ⁻¹",
-                    "|adj(adj A)| = |A|^((n-1)²)",
-                    "Reversal: adj(AB)=adj(B)adj(A)"
-                  ]
-                },
-                {
-                  "title": "Inverses",
-                  "subnodes": [
-                    "A⁻¹ = adj(A)/|A|",
-                    "|A| ≠ 0 condition",
-                    "(AB)⁻¹ = B⁻¹A⁻¹"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "syl-probability",
-        "title": "Probability Theory & Bayes Theorem",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "syl-probability",
-            "title": "Probability Theory & Bayes Theorem",
-            "notes": "\n              <h3>1. Basic Laws of Probability</h3>\n              <ul>\n                <li>Addition Rule: P(A ∪ B) = P(A) + P(B) - P(A ∩ B)</li>\n                <li>If events are mutually exclusive: P(A ∩ B) = 0 ⇒ P(A ∪ B) = P(A) + P(B)</li>\n                <li>Conditional Probability: P(A|B) = P(A ∩ B) / P(B) (where P(B) > 0)</li>\n                <li>Independent Events: P(A ∩ B) = P(A) · P(B) ⇒ P(A|B) = P(A)</li>\n              </ul>\n              \n              <h3>2. Bayes' Theorem</h3>\n              <p>Used to calculate posterior probability when partition events E₁, E₂...Eₙ are given:</p>\n              <ul>\n                <li>**P(Eᵢ|A) = [ P(Eᵢ) · P(A|Eᵢ) ] / [ Σ[j=1 to n] P(Eⱼ) · P(A|Eⱼ) ]**</li>\n              </ul>\n              \n              <h3>3. Statistics & Measures of Central Tendency</h3>\n              <ul>\n                <li>**Mean (x̄)**: Average value. x̄ = (Σ xᵢ)/n.</li>\n                <li>**Median**: Middle value. If n is odd: ((n+1)/2)th term. If n is even: Mean of (n/2)th and (n/2 + 1)th terms.</li>\n                <li>**Mode**: Element with highest frequency.</li>\n                <li>**Empirical Relation**: **Mode = 3 Median - 2 Mean**</li>\n              </ul>\n              \n              <h3>4. Measures of Dispersion</h3>\n              <ul>\n                <li>**Variance (σ²)**: σ² = Σ(xᵢ - x̄)² / n = (Σ xᵢ² / n) - (x̄)²</li>\n                <li>**Standard Deviation (σ)**: σ = √Variance</li>\n                <li>**Coefficient of Variation (CV)**: CV = (σ / x̄) * 100 (measures relative consistency).</li>\n              </ul>\n            ",
-            "formulas": "P(A|B) = P(A ∩ B) / P(B)\nMode = 3Median - 2Mean\nVariance(σ²) = (Σx²/n) - (x̄)²\nSD(σ) = √Variance\nCV = (σ/x̄)·100",
-            "mindmap": {
-              "root": "Probability & Stats",
-              "branches": [
-                {
-                  "title": "Basic Prob",
-                  "subnodes": [
-                    "P(A∪B) addition rule",
-                    "Conditional P(A|B)",
-                    "Independent events rule"
-                  ]
-                },
-                {
-                  "title": "Bayes Theorem",
-                  "subnodes": [
-                    "Posterior probability",
-                    "Partition events Eᵢ",
-                    "P(Eᵢ|A) division form"
-                  ]
-                },
-                {
-                  "title": "Central Tendency",
-                  "subnodes": [
-                    "Arithmetic Mean",
-                    "Median odd/even cases",
-                    "Mode = 3Med - 2Mean"
-                  ]
-                },
-                {
-                  "title": "Dispersion",
-                  "subnodes": [
-                    "Variance (σ²)",
-                    "Standard Deviation (σ)",
-                    "Coeff of Variation (CV)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "lines-angles-triangles",
-        "title": "Lines, Angles & Triangles",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "lines-angles-triangles",
-            "title": "Lines, Angles & Triangles",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Geometry Theorems",
-            "mindmap": {
-              "root": "Geometry",
-              "branches": [
-                {
-                  "title": "Lines & Angles",
-                  "subnodes": [
-                    "Parallel lines",
-                    "Corresponding angles"
-                  ]
-                },
-                {
-                  "title": "Triangles",
-                  "subnodes": [
-                    "Congruency",
-                    "Similarity",
-                    "Centres"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "circles-polygons",
-        "title": "Circles & Polygons",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "circles-polygons",
-            "title": "Circles & Polygons",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Circle Theorems",
-            "mindmap": {
-              "root": "Circles & Polygons",
-              "branches": [
-                {
-                  "title": "Circles",
-                  "subnodes": [
-                    "Tangents",
-                    "Chords",
-                    "Angles"
-                  ]
-                },
-                {
-                  "title": "Polygons",
-                  "subnodes": [
-                    "Interior angles",
-                    "Diagonals"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "area-perimeter",
-        "title": "2D Figures: Area & Perimeter",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "area-perimeter",
-            "title": "2D Figures: Area & Perimeter",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "2D Mensuration Formulas",
-            "mindmap": {
-              "root": "2D Mensuration",
-              "branches": [
-                {
-                  "title": "Triangles",
-                  "subnodes": [
-                    "Heron's Formula",
-                    "Right-angled"
-                  ]
-                },
-                {
-                  "title": "Quadrilaterals",
-                  "subnodes": [
-                    "Rhombus",
-                    "Trapezium",
-                    "Parallelogram"
-                  ]
-                },
-                {
-                  "title": "Circles",
-                  "subnodes": [
-                    "Area",
-                    "Perimeter",
-                    "Sector"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "surface-area-volume",
-        "title": "3D Solids: Surface Area & Volume",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "surface-area-volume",
-            "title": "3D Solids: Surface Area & Volume",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "3D Mensuration Formulas",
-            "mindmap": {
-              "root": "3D Mensuration",
-              "branches": [
-                {
-                  "title": "Standard Solids",
-                  "subnodes": [
-                    "Cube",
-                    "Cuboid",
-                    "Cylinder",
-                    "Cone"
-                  ]
-                },
-                {
-                  "title": "Spherical",
-                  "subnodes": [
-                    "Sphere",
-                    "Hemisphere"
-                  ]
-                },
-                {
-                  "title": "Advanced",
-                  "subnodes": [
-                    "Prism",
-                    "Pyramid"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "percentages-profit-loss",
-        "title": "Percentages, Profit & Loss",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "percentages-profit-loss",
-            "title": "Percentages, Profit & Loss",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Arithmetic Formulas",
-            "mindmap": {
-              "root": "Arithmetic I",
-              "branches": [
-                {
-                  "title": "Percentages",
-                  "subnodes": [
-                    "Multipliers",
-                    "Successive change"
-                  ]
-                },
-                {
-                  "title": "Profit & Loss",
-                  "subnodes": [
-                    "Cost Price",
-                    "Selling Price",
-                    "Discount"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "ratios-averages",
-        "title": "Ratios, Proportions & Averages",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "ratios-averages",
-            "title": "Ratios, Proportions & Averages",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Arithmetic Formulas",
-            "mindmap": {
-              "root": "Arithmetic II",
-              "branches": [
-                {
-                  "title": "Ratios",
-                  "subnodes": [
-                    "Proportion",
-                    "Partnership"
-                  ]
-                },
-                {
-                  "title": "Averages",
-                  "subnodes": [
-                    "Weighted average",
-                    "AP Averages"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "time-distance",
-        "title": "Time, Speed, Distance & Work",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "time-distance",
-            "title": "Time, Speed, Distance & Work",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Speed & Work Formulas",
-            "mindmap": {
-              "root": "Arithmetic III",
-              "branches": [
-                {
-                  "title": "Time & Distance",
-                  "subnodes": [
-                    "Relative speed",
-                    "Trains",
-                    "Boats"
-                  ]
-                },
-                {
-                  "title": "Time & Work",
-                  "subnodes": [
-                    "Efficiency",
-                    "Pipes & Cisterns"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "syl-numerical-speed",
-        "title": "Time, Speed & Distance Formulas",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "syl-numerical-speed",
-            "title": "Time, Speed & Distance Formulas",
-            "notes": "\n              <h3>1. General Speed, Time, and Distance Relationship</h3>\n              <ul>\n                <li>**Speed = Distance / Time** ⇒ Time = Distance / Speed ; Distance = Speed × Time</li>\n                <li>Unit Conversions:\n                  <ul>\n                    <li>To convert from km/h to m/s: multiply by **5/18**. (e.g., 90 km/h = 90 × 5/18 = 25 m/s).</li>\n                    <li>To convert from m/s to km/h: multiply by **18/5**.</li>\n                  </ul>\n                </li>\n                <li>**Average Speed**:\n                  <ul>\n                    <li>Case A: A body covers two equal distances at speeds x km/h and y km/h. Average Speed = **2xy / (x + y)**.</li>\n                    <li>Case B: A body covers three equal distances at speeds x, y, and z km/h. Average Speed = **3xyz / (xy + yz + zx)**.</li>\n                    <li>General Case: **Total Distance Covered / Total Time Taken**.</li>\n                  </ul>\n                </li>\n              </ul>\n              \n              <h3>2. Relative Speed</h3>\n              <p>Speed of one body with respect to another moving body:</p>\n              <ul>\n                <li>If two bodies move in the **same direction** with speeds u and v (where u > v), Relative Speed = **u - v**.</li>\n                <li>If two bodies move in **opposite directions**, Relative Speed = **u + v**.</li>\n              </ul>\n              \n              <h3>3. Trains and Platforms Problems</h3>\n              <ul>\n                <li>**Train crossing a pole/man**: The distance covered is equal to the length of the train itself. Time = Length of Train / Speed.</li>\n                <li>**Train crossing a bridge/platform/tunnel**: The distance covered is equal to the sum of lengths of train and platform. Time = (Length of Train + Length of Platform) / Speed.</li>\n                <li>**Two trains crossing each other**: The distance covered is always the sum of both lengths (L₁ + L₂). The speed used is the relative speed.</li>\n              </ul>\n            ",
-            "formulas": "Speed = D/T\n1 km/h = 5/18 m/s\nAverage Speed = 2xy/(x+y)\nSame direction: Speed₁ - Speed₂\nOpposite direction: Speed₁ + Speed₂",
-            "mindmap": {
-              "root": "Speed & Distance",
-              "branches": [
-                {
-                  "title": "Conversions",
-                  "subnodes": [
-                    "Speed = Distance / Time",
-                    "km/h to m/s (× 5/18)",
-                    "m/s to km/h (× 18/5)"
-                  ]
-                },
-                {
-                  "title": "Averages",
-                  "subnodes": [
-                    "Equal dist: 2xy/(x+y)",
-                    "General: Total Dist/Total Time"
-                  ]
-                },
-                {
-                  "title": "Relative Speed",
-                  "subnodes": [
-                    "Same dir: u - v",
-                    "Opposite dir: u + v"
-                  ]
-                },
-                {
-                  "title": "Train Problems",
-                  "subnodes": [
-                    "Crossing pole: L_train",
-                    "Crossing bridge: L_train + L_platform"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "syl-numerical-ratios",
-        "title": "Ratios, Proportions & Percentages",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "syl-numerical-ratios",
-            "title": "Ratios, Proportions & Percentages",
-            "notes": "\n              <h3>1. Ratios and Proportions</h3>\n              <ul>\n                <li>Ratio: A comparison of two quantities: a/b or a : b.</li>\n                <li>Proportion: Equality of two ratios: a : b :: c : d ⇒ **a / b = c / d**.\n                  <ul>\n                    <li>Product of extremes = Product of means (ad = bc).</li>\n                  </ul>\n                </li>\n                <li>**Mean Proportional**: Between a and b is **x = √(ab)**.</li>\n                <li>**Third Proportional**: To a and b is **x = b² / a**.</li>\n                <li>**Fourth Proportional**: To a, b, c is **x = bc / a**.</li>\n              </ul>\n              \n              <h3>2. Percentages</h3>\n              <ul>\n                <li>Percentage to Fraction: Divide by 100 (e.g., 20% = 20/100 = 1/5).</li>\n                <li>Fraction to Percentage: Multiply by 100 (e.g., 3/4 = 3/4 × 100 = 75%).</li>\n                <li>Percentage Increase/Decrease = [ (New Value - Original) / Original ] × 100</li>\n              </ul>\n              \n              <h3>3. Profit, Loss, and Discount</h3>\n              <ul>\n                <li>Gain = Selling Price (SP) - Cost Price (CP) (if SP > CP)</li>\n                <li>Loss = Cost Price (CP) - Selling Price (SP) (if CP > SP)</li>\n                <li>**Gain % = (Gain / CP) × 100** (Profit and Loss are always calculated on CP unless stated otherwise).</li>\n                <li>**Loss % = (Loss / CP) × 100**</li>\n                <li>Assent Formulas:\n                  <ul>\n                    <li>SP = CP × (100 + Gain%) / 100</li>\n                    <li>SP = CP × (100 - Loss%) / 100</li>\n                  </ul>\n                </li>\n                <li>**Discount**: Calculated on Marked Price (MP). SP = MP - Discount.</li>\n                <li>Discount % = (Discount / MP) × 100</li>\n              </ul>\n            ",
-            "formulas": "Gain% = (Gain/CP) * 100\nLoss% = (Loss/CP) * 100\nDiscount% = (Discount/MP) * 100\nMean Proportional = √(ab)\nThird Proportional = b²/a",
-            "mindmap": {
-              "root": "Ratios & Percent",
-              "branches": [
-                {
-                  "title": "Proportions",
-                  "subnodes": [
-                    "Extremes = Means product",
-                    "Mean: x = √(ab)",
-                    "Third: x = b²/a"
-                  ]
-                },
-                {
-                  "title": "Percentages",
-                  "subnodes": [
-                    "Fraction to % (x100)",
-                    "Change % = delta/original"
-                  ]
-                },
-                {
-                  "title": "Profit & Loss",
-                  "subnodes": [
-                    "Gain = SP - CP",
-                    "Loss = CP - SP",
-                    "Percentage based on CP"
-                  ]
-                },
-                {
-                  "title": "Discounts",
-                  "subnodes": [
-                    "Discount = MP - SP",
-                    "Discount % based on MP"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "english": {
-    "title": "English (NDA/CDS/AFCAT)",
-    "chapters": [
-      {
-        "id": "parts-of-speech",
-        "title": "Parts of Speech",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "parts-of-speech",
-            "title": "Parts of Speech",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Nouns, Pronouns, Verbs, Adverbs, Adjectives, Prepositions, Conjunctions, Interjections",
-            "mindmap": {
-              "root": "Parts of Speech",
-              "branches": [
-                {
-                  "title": "Nouns & Pronouns",
-                  "subnodes": [
-                    "Countable vs Uncountable",
-                    "Relative Pronouns",
-                    "Reflexive Pronouns"
-                  ]
-                },
-                {
-                  "title": "Verbs & Adverbs",
-                  "subnodes": [
-                    "Transitive/Intransitive",
-                    "Modal Verbs",
-                    "Adverb Position/Enough"
-                  ]
-                },
-                {
-                  "title": "Modifiers & Connectors",
-                  "subnodes": [
-                    "Adjective Order (OSASCOMP)",
-                    "Preposition errors",
-                    "Coordinating/Correlative Conjunctions"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "tenses-complete",
-        "title": "Tenses & Consistency",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "tenses-complete",
-            "title": "Tenses & Consistency",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Simple, Continuous, Perfect, Perfect Continuous (Present, Past, Future) + Conditionals",
-            "mindmap": {
-              "root": "Tenses",
-              "branches": [
-                {
-                  "title": "Time Markers",
-                  "subnodes": [
-                    "since/for -> Perfect Continuous",
-                    "yesterday/ago -> Simple Past",
-                    "already/yet -> Present Perfect"
-                  ]
-                },
-                {
-                  "title": "Conditionals",
-                  "subnodes": [
-                    "Type 1: If + V1, will + V1",
-                    "Type 2: If + V2, would + V1",
-                    "Type 3: If + had + V3, would have + V3"
-                  ]
-                },
-                {
-                  "title": "State Verbs",
-                  "subnodes": [
-                    "Stative verbs (know, love) cannot be continuous"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "subject-verb-agreement",
-        "title": "Subject-Verb Agreement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "subject-verb-agreement",
-            "title": "Subject-Verb Agreement",
-            "notes": "Detailed notes expanded in app.js / notes_extra_english.js",
-            "formulas": "Singular/plural agreement, Collective nouns, Indefinite pronouns, Either/neither, neither-nor",
-            "mindmap": {
-              "root": "S-V Agreement",
-              "branches": [
-                {
-                  "title": "Conjunctions",
-                  "subnodes": [
-                    "and -> plural",
-                    "either/or, neither/nor -> agrees with nearest",
-                    "along with, as well as -> agrees with first"
-                  ]
-                },
-                {
-                  "title": "Indefinite Pronouns",
-                  "subnodes": [
-                    "each, everyone, body -> singular",
-                    "both, many, few -> plural",
-                    "some, all, most -> depends on noun"
-                  ]
-                },
-                {
-                  "title": "Special Cases",
-                  "subnodes": [
-                    "Collective nouns (jury, class)",
-                    "Plural in form (news, physics -> singular)",
-                    "Many a + singular noun"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "sentence-structure",
-        "title": "Sentence Structure & Parallelism",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "sentence-structure",
-            "title": "Sentence Structure & Parallelism",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Clauses, Phrases, Types of sentences, Parallelism",
-            "mindmap": {
-              "root": "Sentence Struct",
-              "branches": [
-                {
-                  "title": "Clauses & Phrases",
-                  "subnodes": [
-                    "Independent vs Dependent",
-                    "Noun/Adjective/Adverb Clauses",
-                    "Participial & Gerund Phrases"
-                  ]
-                },
-                {
-                  "title": "Types",
-                  "subnodes": [
-                    "Simple (1 ind. clause)",
-                    "Compound (2 ind. clauses joined by coordinator)",
-                    "Complex (1 ind. + 1 dep. clause)"
-                  ]
-                },
-                {
-                  "title": "Parallelism",
-                  "subnodes": [
-                    "Same grammatical form in lists",
-                    "Consistency in coordinate structures"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "voice-conversion",
-        "title": "Active & Passive Voice",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "voice-conversion",
-            "title": "Active & Passive Voice",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Active (S + V + O) ↔ Passive (O + helping verb + V3 + by S)",
-            "mindmap": {
-              "root": "Active & Passive",
-              "branches": [
-                {
-                  "title": "Tense Changes",
-                  "subnodes": [
-                    "Simple -> be + V3",
-                    "Continuous -> being + V3",
-                    "Perfect -> been + V3"
-                  ]
-                },
-                {
-                  "title": "Special Cases",
-                  "subnodes": [
-                    "Imperatives (Let + object + be + V3)",
-                    "Questions (Who -> By whom)",
-                    "Modal verbs (+ be + V3)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "narration-speech",
-        "title": "Direct & Indirect Speech",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "narration-speech",
-            "title": "Direct & Indirect Speech",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Direct ↔ Indirect (Reporting verb, pronoun, tense, proximity words shifts)",
-            "mindmap": {
-              "root": "Narration",
-              "branches": [
-                {
-                  "title": "Tense Shift",
-                  "subnodes": [
-                    "V1 -> V2",
-                    "V2 -> had + V3",
-                    "will/can -> would/could"
-                  ]
-                },
-                {
-                  "title": "Proximity Shifts",
-                  "subnodes": [
-                    "this/here/now -> that/there/then",
-                    "today/tomorrow -> that day/next day",
-                    "yesterday/ago -> previous day/before"
-                  ]
-                },
-                {
-                  "title": "Sentence Types",
-                  "subnodes": [
-                    "Interrogative (if/whether/wh-word)",
-                    "Imperatives (to + V1)",
-                    "Exclamatory (exclaimed with joy/sorrow)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "modifiers",
-        "title": "Modifiers: Misplaced & Dangling",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "modifiers",
-            "title": "Modifiers: Misplaced & Dangling",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Modifiers must be placed adjacent to the words they modify; dangling modifiers lack logical subjects",
-            "mindmap": {
-              "root": "Modifiers",
-              "branches": [
-                {
-                  "title": "Misplaced",
-                  "subnodes": [
-                    "Too far from target word",
-                    "Limits (only, almost, nearly) placement"
-                  ]
-                },
-                {
-                  "title": "Dangling",
-                  "subnodes": [
-                    "Implied subject does not match main subject",
-                    "Requires adding clear subject"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "punctuation-basics",
-        "title": "Punctuation Basics",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "punctuation-basics",
-            "title": "Punctuation Basics",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Comma, Apostrophe, Colon, Semicolon usage and rules",
-            "mindmap": {
-              "root": "Punctuation",
-              "branches": [
-                {
-                  "title": "Comma & Semicolon",
-                  "subnodes": [
-                    "Comma: list separator, introductory phrases",
-                    "Semicolon: joins independent clauses"
-                  ]
-                },
-                {
-                  "title": "Apostrophe",
-                  "subnodes": [
-                    "Possession (boy's vs boys')",
-                    "Contractions (it's vs its)"
-                  ]
-                },
-                {
-                  "title": "Colon",
-                  "subnodes": [
-                    "Introduces lists, explanations, or quotes"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "transformation-sentences",
-        "title": "Transformation of Sentences",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "transformation-sentences",
-            "title": "Transformation of Sentences",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Simple ↔ Compound ↔ Complex, Assertive ↔ Interrogative ↔ Exclamatory, Degree changes",
-            "mindmap": {
-              "root": "Transformation",
-              "branches": [
-                {
-                  "title": "Clause Types",
-                  "subnodes": [
-                    "Simple to Compound (FANBOYS)",
-                    "Simple to Complex (Subordinators)",
-                    "Compound to Complex"
-                  ]
-                },
-                {
-                  "title": "Mood & Style",
-                  "subnodes": [
-                    "Assertive to Interrogative",
-                    "Assertive to Exclamatory"
-                  ]
-                },
-                {
-                  "title": "Degrees",
-                  "subnodes": [
-                    "Positive: as...as",
-                    "Comparative: -er than",
-                    "Superlative: the -est"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "synonyms-antonyms-detailed",
-        "title": "High-Frequency Synonyms/Antonyms",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "synonyms-antonyms-detailed",
-            "title": "High-Frequency Synonyms/Antonyms",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Root word suffixes/prefixes (mal, bene, mis, anti, omni, phil, -cide, -phobia)",
-            "mindmap": {
-              "root": "Synonyms & Antonyms",
-              "branches": [
-                {
-                  "title": "Root Words",
-                  "subnodes": [
-                    "Bene (good) vs Mal (bad)",
-                    "Mis/Miso (hate) vs Phil (love)",
-                    "-cide (killing) & -phobia (fear)"
-                  ]
-                },
-                {
-                  "title": "High-Yield Words",
-                  "subnodes": [
-                    "Audacious (bold)",
-                    "Clandestine (secret)",
-                    "Ephemeral (short-lived)",
-                    "Mitigate (lessen)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "one-word-substitution",
-        "title": "One Word Substitutions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "one-word-substitution",
-            "title": "One Word Substitutions",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Root words & Categories (-cracy, -archy, -cide, -phobia, -phile, personalities)",
-            "mindmap": {
-              "root": "One Word",
-              "branches": [
-                {
-                  "title": "Governments",
-                  "subnodes": [
-                    "Anarchy",
-                    "Oligarchy",
-                    "Democracy",
-                    "Monarchy"
-                  ]
-                },
-                {
-                  "title": "Personalities",
-                  "subnodes": [
-                    "Altruist",
-                    "Egotist",
-                    "Ascetic",
-                    "Incorrigible",
-                    "Optimist"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "idioms-phrases",
-        "title": "Idioms & Phrases",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "idioms-phrases",
-            "title": "Idioms & Phrases",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Theme-based idioms (animal, color, action-related)",
-            "mindmap": {
-              "root": "Idioms",
-              "branches": [
-                {
-                  "title": "Theme-based",
-                  "subnodes": [
-                    "Animal-related (Dark horse, bull in china shop)",
-                    "Color-related (Red tape, blue blood)",
-                    "Action-related (Bite the bullet, spill the beans)"
-                  ]
-                },
-                {
-                  "title": "Historical Origins",
-                  "subnodes": [
-                    "Achilles' heel (weak point)",
-                    "Baker's dozen (thirteen)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "phrasal-verbs",
-        "title": "Phrasal Verbs",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "phrasal-verbs",
-            "title": "Phrasal Verbs",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "High-frequency phrasal verbs (Break down/out, call off, carry out, come across, look into, put off)",
-            "mindmap": {
-              "root": "Phrasal Verbs",
-              "branches": [
-                {
-                  "title": "Break & Call",
-                  "subnodes": [
-                    "Break down (collapse)",
-                    "Break out (start war)",
-                    "Call off (cancel)"
-                  ]
-                },
-                {
-                  "title": "Look & Put",
-                  "subnodes": [
-                    "Look into (investigate)",
-                    "Put off (postpone)",
-                    "Put up with (tolerate)"
-                  ]
-                },
-                {
-                  "title": "Others",
-                  "subnodes": [
-                    "Come across (find by chance)",
-                    "Turn down (reject)",
-                    "Run out of (exhaust)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "reading-comprehension",
-        "title": "Reading Comprehension",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "reading-comprehension",
-            "title": "Reading Comprehension",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Main idea, detail, inference, tone, title finding strategies",
-            "mindmap": {
-              "root": "Reading Comp",
-              "branches": [
-                {
-                  "title": "Question Types",
-                  "subnodes": [
-                    "Main idea/theme",
-                    "Detail/Factual",
-                    "Inference",
-                    "Author's tone/attitude"
-                  ]
-                },
-                {
-                  "title": "Tone Categories",
-                  "subnodes": [
-                    "Positive: Appreciative, Laudatory",
-                    "Negative: Critical, Sarcastic",
-                    "Neutral: Objective, Analytical"
-                  ]
-                },
-                {
-                  "title": "Reading Hacks",
-                  "subnodes": [
-                    "Skim first (gist)",
-                    "Read questions first",
-                    "Eliminate extreme options"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "error-detection",
-        "title": "Spotting Errors",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "error-detection",
-            "title": "Spotting Errors",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Error areas: Tense, article, preposition, subject-verb, pronoun, modifiers, conjunction, redundancy, parallelism",
-            "mindmap": {
-              "root": "Spotting Errors",
-              "branches": [
-                {
-                  "title": "Grammar Core",
-                  "subnodes": [
-                    "Subject-Verb agreement (number)",
-                    "Tense consistency",
-                    "Article sounds"
-                  ]
-                },
-                {
-                  "title": "Connectors & Modifiers",
-                  "subnodes": [
-                    "Conjunction pairs",
-                    "Preposition errors",
-                    "Modifier misplacement"
-                  ]
-                },
-                {
-                  "title": "Stylistic Errors",
-                  "subnodes": [
-                    "Redundancy (return back)",
-                    "Parallelism (matching verbs)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "sentence-improvement",
-        "title": "Sentence Improvement",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "sentence-improvement",
-            "title": "Sentence Improvement",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Improvement areas: Grammar, word choice, clarity, parallel structure, idiomatic usage, syntax correction",
-            "mindmap": {
-              "root": "Sentence Improvement",
-              "branches": [
-                {
-                  "title": "Grammar & Tense",
-                  "subnodes": [
-                    "Wrong tense (yesterday with has V3)",
-                    "Wrong verb forms (subjunctive suggestions)"
-                  ]
-                },
-                {
-                  "title": "Clarity & Idiom",
-                  "subnodes": [
-                    "Word choice (economic vs economical)",
-                    "Reflexive idioms (avail oneself of)"
-                  ]
-                },
-                {
-                  "title": "Syntax & Structure",
-                  "subnodes": [
-                    "Parallel structure in lists",
-                    "Inversion after negative starters"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "ordering-rearrangement",
-        "title": "Ordering of Words & Sentences",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "ordering-rearrangement",
-            "title": "Ordering of Words & Sentences",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Strategies for jumbled words (S-V-O) and jumbled sentences (opening sentence, mandatory pairs, closing sentence, transitions)",
-            "mindmap": {
-              "root": "Ordering",
-              "branches": [
-                {
-                  "title": "Ordering Words",
-                  "subnodes": [
-                    "Identify Subject-Verb-Object",
-                    "Look for capital letters & full stops",
-                    "Prepositional & relative phrases"
-                  ]
-                },
-                {
-                  "title": "Ordering Sentences",
-                  "subnodes": [
-                    "Find opening sentence (introduces topic)",
-                    "Mandatory pairs (pronoun reference, article order)",
-                    "Transitions (However, Therefore)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "fill-blanks-cloze",
-        "title": "Fill in the Blanks & Cloze Test",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "fill-blanks-cloze",
-            "title": "Fill in the Blanks & Cloze Test",
-            "notes": "Detailed notes expanded in notes_extra_english.js",
-            "formulas": "Asked from: Articles, prepositions, verb forms, tenses, vocabulary, idiomatic usage, contextual logic",
-            "mindmap": {
-              "root": "Cloze & Blanks",
-              "branches": [
-                {
-                  "title": "Cloze Strategy",
-                  "subnodes": [
-                    "Read entire passage first (tone)",
-                    "Identify part of speech needed",
-                    "Check grammatical agreement"
-                  ]
-                },
-                {
-                  "title": "Collocations",
-                  "subnodes": [
-                    "Make a decision / do homework",
-                    "Take action / pay attention",
-                    "Heavy rain / strong wind"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "polity": {
-    "title": "Indian Polity (CDS/NDA)",
-    "chapters": [
-      {
-        "id": "preamble",
-        "title": "Preamble & Sources",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "preamble",
-            "title": "Preamble & Sources",
-            "notes": "\n              <h3>1. The Preamble Keywords</h3>\n              <p>The Preamble represents the summary or essence of the Constitution. Crucial aspects:</p>\n              <ul>\n                <li>**Keywords Order**: Sovereign, Socialist, Secular, Democratic, Republic.</li>\n                <li>**Amendment**: Amended only once by the **42nd Amendment Act (1976)**, which added three new words: **Socialist, Secular, and Integrity**.</li>\n                <li>**Justiciability**: It is non-justiciable (its provisions cannot be enforced in a court of law).</li>\n                <li>**Kesavananda Bharati Case (1973)**: Supreme Court declared that the Preamble is a part of the Constitution and can be amended under Article 368, but its 'basic structure' cannot be destroyed.</li>\n              </ul>\n              \n              <h3>2. Borrowed Sources of the Constitution</h3>\n              <ul>\n                <li>**Govt of India Act 1935**: Federal structure, Office of Governor, Public Service Commissions, administrative details.</li>\n                <li>**United Kingdom**: Parliamentary system, Rule of Law, Legislative procedure, Single Citizenship, Cabinet system, Prerogative Writs, Bicameralism.</li>\n                <li>**United States**: Fundamental Rights, Independence of Judiciary, Judicial Review, Impeachment of President, removal of Supreme Court & High Court judges, post of Vice-President.</li>\n                <li>**Ireland**: Directive Principles of State Policy (DPSP), nomination of members to Rajya Sabha, method of election of President.</li>\n                <li>**Canada**: Federation with a strong Centre, vesting of residuary powers in the Centre, appointment of state governors by Centre, advisory jurisdiction of Supreme Court.</li>\n                <li>**Australia**: Concurrent List, freedom of trade and commerce, joint sitting of the two Houses of Parliament.</li>\n                <li>**Weimar Republic (Germany)**: Suspension of Fundamental Rights during Emergency.</li>\n                <li>**USSR**: Fundamental Duties (Article 51A), ideals of justice (social, economic, political) in the Preamble.</li>\n              </ul>\n            ",
-            "formulas": "42nd Amendment (1976) -> Added: Socialist, Secular, Integrity.\nPreamble justiciable? No (Kesavananda Bharati Case 1973).",
-            "mindmap": {
-              "root": "Preamble & Sources",
-              "branches": [
-                {
-                  "title": "Preamble Order",
-                  "subnodes": [
-                    "Sovereign",
-                    "Socialist",
-                    "Secular",
-                    "Democratic & Republic"
-                  ]
-                },
-                {
-                  "title": "Amendments",
-                  "subnodes": [
-                    "42nd Amendment (1976)",
-                    "Added: Socialist",
-                    "Added: Secular & Integrity"
-                  ]
-                },
-                {
-                  "title": "UK / US Borrowings",
-                  "subnodes": [
-                    "UK: Parl Govt, Writs, 1-Citizenship",
-                    "US: Fundamental Rights",
-                    "US: Judicial Review, Impeachment"
-                  ]
-                },
-                {
-                  "title": "Other Borrowings",
-                  "subnodes": [
-                    "Ireland: DPSP",
-                    "Canada: Strong Centre",
-                    "Australia: Concurrent List"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "schedules",
-        "title": "Schedules of the Constitution",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "schedules",
-            "title": "Schedules of the Constitution",
-            "notes": "\n              <h3>Schedules Overview</h3>\n              <p>Originally, the Constitution had 8 schedules. Currently, there are **12 schedules**.</p>\n              <p>Mnemonic to memorize: **TEARS OF OLD PM**</p>\n              <ol>\n                <li>**T - Territories**: Names of States and Union Territories and their territorial extent.</li>\n                <li>**E - Emoluments**: Provisions relating to the salaries, allowances, and privileges of President, Governors, Speaker, Judges, Comptroller and Auditor-General (CAG).</li>\n                <li>**A - Affirmations & Oaths**: Forms of Oaths or Affirmations for Union Ministers, MPs, Judges, CAG.</li>\n                <li>**R - Rajya Sabha**: Allocation of seats in the Rajya Sabha to the States and Union Territories.</li>\n                <li>**S - Scheduled Areas**: Provisions relating to the administration and control of scheduled areas and scheduled tribes.</li>\n                <li>**O - Other Tribes**: Administration of tribal areas in the states of **Assam, Meghalaya, Tripura, and Mizoram** (Mnemonic: ATM-M).</li>\n                <li>**F - Federal Lists**: Division of powers between the Union and the States (Union List, State List, Concurrent List).</li>\n                <li>**O - Official Languages**: 22 languages recognized by the Constitution. (Sindhi added by 21st, Konkani/Manipuri/Nepali by 71st, Bodo/Dogri/Maithili/Santhali by 92nd).</li>\n                <li>**L - Land Reforms**: Acts and regulations dealing with land reforms and abolition of the Zamindari system. (Added by **1st Amendment Act, 1951** to bypass judicial review).</li>\n                <li>**D - Defection**: Anti-defection provisions for members of Parliament and State Legislatures. (Added by **52nd Amendment Act, 1985**).</li>\n                <li>**P - Panchayats**: Powers, authority, and responsibilities of Panchayats. Contains 29 matters. (Added by **73rd Amendment Act, 1992**).</li>\n                <li>**M - Municipalities**: Powers, authority, and responsibilities of Municipalities. Contains 18 matters. (Added by **74th Amendment Act, 1992**).</li>\n              </ol>\n            ",
-            "formulas": "TEARS OF OLD PM:\n1-Territories, 2-Emoluments, 3-Affirmations, 4-RajyaSabha, 5-Scheduled, 6-OtherScheduled, 7-FederalLists, 8-Languages, 9-LandReforms, 10-Defection, 11-Panchayats, 12-Municipalities",
-            "mindmap": {
-              "root": "12 Schedules",
-              "branches": [
-                {
-                  "title": "1st - 4th",
-                  "subnodes": [
-                    "1: Territories & limits",
-                    "2: Emoluments & Salaries",
-                    "3: Oaths & Affirmations",
-                    "4: RS Seat Allocations"
-                  ]
-                },
-                {
-                  "title": "5th - 8th",
-                  "subnodes": [
-                    "5: Scheduled Areas",
-                    "6: Assam, Meg, Tri, Miz",
-                    "7: Federal Lists (3 Lists)",
-                    "8: 22 Languages"
-                  ]
-                },
-                {
-                  "title": "9th - 10th",
-                  "subnodes": [
-                    "9: Land Reforms (1st Amend)",
-                    "10: Anti-Defection (52nd Amend)"
-                  ]
-                },
-                {
-                  "title": "11th - 12th",
-                  "subnodes": [
-                    "11: Panchayats (73rd Amend)",
-                    "12: Municipalities (74th Amend)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "fundamental-rights",
-        "title": "Fundamental Rights (Art 12-35)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "fundamental-rights",
-            "title": "Fundamental Rights (Art 12-35)",
-            "notes": "\n              <h3>1. Classification of Fundamental Rights</h3>\n              <p>Part III of the Constitution is called the **Magna Carta of India**.</p>\n              <ul>\n                <li>**Right to Equality (Articles 14-18)**:\n                  <ul>\n                    <li>Art 14: Equality before law & Equal protection of laws.</li>\n                    <li>Art 15: Prohibition of discrimination.</li>\n                    <li>Art 16: Equality of opportunity in public employment.</li>\n                    <li>Art 17: Abolition of Untouchability.</li>\n                    <li>Art 18: Abolition of Titles.</li>\n                  </ul>\n                </li>\n                <li>**Right to Freedom (Articles 19-22)**:\n                  <ul>\n                    <li>Art 19: Guarantees 6 democratic freedoms (speech, assembly, association, movement, residence, profession).</li>\n                    <li>Art 20: Protection in respect of conviction for offences (no ex-post facto law, no double jeopardy, no self-incrimination).</li>\n                    <li>Art 21: Protection of Life and Personal Liberty.</li>\n                    <li>Art 21A: Right to Education (added by 86th Amendment, 2002).</li>\n                    <li>Art 22: Protection against arrest and detention.</li>\n                  </ul>\n                </li>\n                <li>**Right against Exploitation (Articles 23-24)**:\n                  <ul>\n                    <li>Art 23: Prohibition of human trafficking and forced labour (begar).</li>\n                    <li>Art 24: Prohibition of employment of children (below 14 years) in factories/mines.</li>\n                  </ul>\n                </li>\n                <li>**Right to Freedom of Religion (Articles 25-28)**:\n                  <ul>\n                    <li>Art 25: Freedom of conscience, profession, practice, and propagation.</li>\n                    <li>Art 26: Manage religious affairs.</li>\n                  </ul>\n                </li>\n                <li>**Cultural and Educational Rights (Articles 29-30)**:\n                  <ul>\n                    <li>Art 29: Protection of language, script, and culture of minorities.</li>\n                    <li>Art 30: Right of minorities to establish and administer educational institutions.</li>\n                  </ul>\n                </li>\n                <li>**Right to Constitutional Remedies (Article 32)**:\n                  <ul>\n                    <li>Empowers the Supreme Court to issue writs to enforce Fundamental Rights. Dr. B.R. Ambedkar called Article 32 the 'Heart and Soul of the Constitution'.</li>\n                  </ul>\n                </li>\n              </ul>\n              \n              <h3>2. The Five Prerogative Writs</h3>\n              <ul>\n                <li>**Habeas Corpus** ('To have the body of'): Issued to release a person unlawfully detained. Can be issued against both public and private entities.</li>\n                <li>**Mandamus** ('We command'): Issued to direct a public authority to perform a duty they have failed or refused to do. Cannot be issued against the President, Governors, or private individuals.</li>\n                <li>**Prohibition** ('To forbid'): Issued by a higher court to a lower court or quasi-judicial body to prevent it from exceeding its jurisdiction. (Preventive only).</li>\n                <li>**Certiorari** ('To be certified'): Issued to quash the order of a lower court or transfer case to itself. (Preventive and Curative).</li>\n                <li>**Quo Warranto** ('By what authority'): Issued to inquire into the legality of the claim of a person to a public office, preventing illegal usurpation.</li>\n              </ul>\n            ",
-            "formulas": "Art 19 -> 6 democratic freedoms.\nArt 21 -> Protection of Life and Liberty.\nArt 32 -> Supreme Court Writs.\nArt 226 -> High Court Writs.",
-            "mindmap": {
-              "root": "Fundamental Rights",
-              "branches": [
-                {
-                  "title": "Equality (14-18)",
-                  "subnodes": [
-                    "14: Equal Laws",
-                    "15: No Discrimination",
-                    "17: Untouchability Abolished"
-                  ]
-                },
-                {
-                  "title": "Freedom (19-22)",
-                  "subnodes": [
-                    "19: 6 Freedoms",
-                    "21: Life & Liberty",
-                    "21A: Education (86th Amend)"
-                  ]
-                },
-                {
-                  "title": "Exploit & Religion",
-                  "subnodes": [
-                    "23: Traffic & Begar",
-                    "24: Child Labour",
-                    "25: Conscience & Religion"
-                  ]
-                },
-                {
-                  "title": "Remedies (32)",
-                  "subnodes": [
-                    "Habeas Corpus (Detention)",
-                    "Mandamus (Command Duty)",
-                    "Certiorari (Quash Order)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "dpsp",
-        "title": "DPSP & Fundamental Duties (Art 36-51A)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "dpsp",
-            "title": "DPSP & Fundamental Duties (Art 36-51A)",
-            "notes": "\n              <h3>1. Directive Principles of State Policy (Part IV)</h3>\n              <p>Borrowed from Ireland. Non-justiciable but fundamental in governance. Classified into three types:</p>\n              <ul>\n                <li>**Socialistic Principles**: Article 38 (promote welfare, minimize inequalities), Article 39 (equal pay for equal work, distribute material resources), Article 39A (free legal aid).</li>\n                <li>**Gandhian Principles**: Article 40 (organize village panchayats), Article 43 (promote cottage industries), Article 46 (promote educational/economic interests of SCs, STs), Article 47 (prohibit intoxicating drinks/drugs).</li>\n                <li>**Liberal-Intellectual Principles**: Article 44 (Uniform Civil Code), Article 45 (early childhood care/education), Article 48 (organize agriculture/animal husbandry, prohibit slaughter), Article 50 (separate judiciary from executive), Article 51 (promote international peace).</li>\n              </ul>\n              \n              <h3>2. Fundamental Duties (Part IV-A)</h3>\n              <ul>\n                <li>Added by the **42nd Amendment Act (1976)** on the recommendation of the **Swaran Singh Committee** during Emergency.</li>\n                <li>Originally 10 duties, the **11th duty** was added by the **86th Amendment Act (2002)** (duty of parent/guardian to provide education to child aged 6-14).</li>\n                <li>Borrowed from USSR. Non-justiciable. Article 51A contains all 11 duties.</li>\n              </ul>\n            ",
-            "formulas": "DPSP: Part IV (Art 36-51) | Borrowed from Ireland\nFundamental Duties: Part IV-A (Art 51A) | Swaran Singh Committee\n11th Duty: 86th Amendment (2002) for education 6-14 years.",
-            "mindmap": {
-              "root": "DPSP & Duties",
-              "branches": [
-                {
-                  "title": "DPSP (Part IV)",
-                  "subnodes": [
-                    "Socialistic: Equal pay",
-                    "Gandhian: Panchayats (40)",
-                    "Liberal: UCC (44), Peace (51)"
-                  ]
-                },
-                {
-                  "title": "Duties (Part IV-A)",
-                  "subnodes": [
-                    "Swaran Singh Comm",
-                    "42nd Amend (10 duties)",
-                    "86th Amend (11th duty)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "citizenship",
-        "title": "Citizenship (Art 5-11)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "citizenship",
-            "title": "Citizenship (Art 5-11)",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Part II, Articles 5-11\nSingle Citizenship: Borrowed from UK\nAcquisition: Birth, Descent, Registration, Naturalization, Territory Incorporation\nLoss: Renunciation, Termination, Deprivation",
-            "mindmap": {
-              "root": "Citizenship",
-              "branches": [
-                {
-                  "title": "Constitutional",
-                  "subnodes": [
-                    "Part II",
-                    "Articles 5-11",
-                    "Parliament authority (Art 11)"
-                  ]
-                },
-                {
-                  "title": "Acquisition (5)",
-                  "subnodes": [
-                    "Birth",
-                    "Descent",
-                    "Registration",
-                    "Naturalization",
-                    "Incorporation"
-                  ]
-                },
-                {
-                  "title": "Loss (3)",
-                  "subnodes": [
-                    "Renunciation",
-                    "Termination",
-                    "Deprivation"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "president",
-        "title": "The President of India (Art 52-62)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "president",
-            "title": "The President of India (Art 52-62)",
-            "notes": "\n              <h3>1. Election of the President (Article 54)</h3>\n              <p>The President is elected not directly by the people, but by members of an **Electoral College** consisting of:</p>\n              <ol>\n                <li>Elected members of both Houses of Parliament (Lok Sabha & Rajya Sabha).</li>\n                <li>Elected members of the Legislative Assemblies of the States (MLAs).</li>\n                <li>Elected members of the Legislative Assemblies of the Union Territories of Delhi and Puducherry (and Jammu & Kashmir).</li>\n              </ol>\n              <p>**Note**: Nominated members of Parliament and State Assemblies **do not** participate in the presidential election.</p>\n              \n              <h3>2. Impeachment of the President (Article 61)</h3>\n              <ul>\n                <li>The President can be removed from office for **'violation of the Constitution'**.</li>\n                <li>The impeachment charges can be initiated in **either House of Parliament**.</li>\n                <li>The charges must be signed by **one-fourth of the members** of the initiating House and a **14-day notice** must be given to the President.</li>\n                <li>To pass, the resolution must be approved by a majority of **not less than two-thirds of the total membership** of the House.</li>\n                <li>It is then investigated by the other House, and if passed there by a **2/3rd majority of the total membership**, the President stands removed.</li>\n              </ul>\n              \n              <h3>3. Veto Powers (Article 111)</h3>\n              <ul>\n                <li>**Absolute Veto**: Withholding assent to the Bill (the Bill ends and does not become law).</li>\n                <li>**Suspensive Veto**: Returning the Bill to Parliament for reconsideration. If Parliament passes the Bill again with or without amendments by a **simple majority**, the President **must** give assent. (Cannot be used for Money Bills).</li>\n                <li>**Pocket Veto**: Keeping the Bill pending on his desk indefinitely (taking no action). The Indian President has a larger pocket veto than the US President because the US President must return the bill within 10 days, while the Indian Constitution specifies no time limit.</li>\n              </ul>\n              \n              <h3>4. Pardon Powers (Article 72)</h3>\n              <p>The President has the power to grant pardons, reprieves, respites, or remissions of punishment, or to suspend, remit, or commute sentences in all cases involving Court Martial, offences against Union laws, and death sentences.</p>\n            ",
-            "formulas": "Electoral College = Elected MPs + Elected MLAs.\nImpeachment = Art 61 (2/3 of Total Membership required).\nPardon Powers = Art 72.",
-            "mindmap": {
-              "root": "The President",
-              "branches": [
-                {
-                  "title": "Electoral College",
-                  "subnodes": [
-                    "Elected MPs (LS & RS)",
-                    "Elected MLAs (States)",
-                    "Delhi/Puducherry MLAs"
-                  ]
-                },
-                {
-                  "title": "Impeachment (61)",
-                  "subnodes": [
-                    "Violation of Constitution",
-                    "Initiated in either House",
-                    "2/3 of Total Membership"
-                  ]
-                },
-                {
-                  "title": "Vetoes (111)",
-                  "subnodes": [
-                    "Absolute Veto (Ends bill)",
-                    "Suspensive Veto (Return)",
-                    "Pocket Veto (No action)"
-                  ]
-                },
-                {
-                  "title": "Pardons (72)",
-                  "subnodes": [
-                    "Pardon (Complete free)",
-                    "Commutation (Lighten type)",
-                    "Remission (Reduce time)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "parliament",
-        "title": "Parliament of India (Art 79-122)",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "parliament",
-            "title": "Parliament of India (Art 79-122)",
-            "notes": "\n              <h3>1. Composition of Parliament</h3>\n              <p>Parliament consists of the **President**, the **Council of States (Rajya Sabha)**, and the **House of the People (Lok Sabha)**.</p>\n              <ul>\n                <li>**Rajya Sabha (Upper House)**:\n                  <ul>\n                    <li>Max strength: 250 (238 elected from States/UTs, 12 nominated by President from Art, Literature, Science, Social Service).</li>\n                    <li>It is a **permanent body** and not subject to dissolution.</li>\n                    <li>Members have a **6-year term**, with **one-third** retiring every second year.</li>\n                  </ul>\n                </li>\n                <li>**Lok Sabha (Lower House)**:\n                  <ul>\n                    <li>Max strength: 550 (530 representing States, 20 representing Union Territories). (Anglo-Indian reserved seats abolished by 104th Amendment).</li>\n                    <li>Normal term: **5 years**, can be dissolved earlier by the President.</li>\n                  </ul>\n                </li>\n              </ul>\n              \n              <h3>2. Key Parliamentary Terms</h3>\n              <ul>\n                <li>**Quorum (Article 100)**: Minimum number of members required to be present to conduct a meeting. It is **one-tenth** of the total number of members in each House (i.e., 55 in Lok Sabha, 25 in Rajya Sabha), including the presiding officer.</li>\n                <li>**Joint Sitting (Article 108)**: Called by the President to resolve deadlocks between LS and RS on **Ordinary Bills** or **Financial Bills**.\n                  <ul>\n                    <li>Presided over by the **Speaker of the Lok Sabha**. (If Speaker is absent, the Deputy Speaker; if absent, the Deputy Chairman of Rajya Sabha).</li>\n                    <li>**Note**: Joint sittings **cannot** be called for Money Bills or Constitutional Amendment Bills.</li>\n                  </ul>\n                </li>\n              </ul>\n              \n              <h3>3. Types of Bills & money Bills (Article 110)</h3>\n              <ul>\n                <li>**Money Bill**: Deals with taxation, borrowing, consolidated fund, etc.\n                  <ul>\n                    <li>Can only be introduced in the **Lok Sabha** on the recommendation of the President.</li>\n                    <li>The **Speaker's decision** on whether a bill is a money bill is final.</li>\n                    <li>Rajya Sabha has restricted powers; it can only delay the bill for **14 days** and cannot reject or amend it.</li>\n                  </ul>\n                </li>\n              </ul>\n            ",
-            "formulas": "Quorum = 1/10th of membership.\nJoint Sitting = Art 108 (Presided by LS Speaker).\nMoney Bill = Art 110 (Certified by LS Speaker).",
-            "mindmap": {
-              "root": "Parliament",
-              "branches": [
-                {
-                  "title": "Rajya Sabha",
-                  "subnodes": [
-                    "Max 250 (12 Nominated)",
-                    "Permanent body",
-                    "1/3 retire every 2 years"
-                  ]
-                },
-                {
-                  "title": "Lok Sabha",
-                  "subnodes": [
-                    "Max 550",
-                    "Normal term 5 years",
-                    "Directly elected by people"
-                  ]
-                },
-                {
-                  "title": "Joint Sitting (108)",
-                  "subnodes": [
-                    "Summoned by President",
-                    "Presided by LS Speaker",
-                    "Not for Money/CA Bills"
-                  ]
-                },
-                {
-                  "title": "Money Bills (110)",
-                  "subnodes": [
-                    "Lok Sabha only",
-                    "Certified by Speaker",
-                    "RS has max 14 days"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "goverment-executives",
-        "title": "Executives: PM, CM & Governor",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "goverment-executives",
-            "title": "Executives: PM, CM & Governor",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Real: PM (Union), CM (State)\nNominal: President (Union), Governor (State)\nPardons: President (Art 72 - court martial & death sentence), Governor (Art 161 - no court martial/death sentence pardon)",
-            "mindmap": {
-              "root": "Executives",
-              "branches": [
-                {
-                  "title": "Union Executive",
-                  "subnodes": [
-                    "President (Nominal)",
-                    "Prime Minister (Real)",
-                    "Cabinet collective responsibility"
-                  ]
-                },
-                {
-                  "title": "State Executive",
-                  "subnodes": [
-                    "Governor (Nominal)",
-                    "Chief Minister (Real)",
-                    "Appointment by President"
-                  ]
-                },
-                {
-                  "title": "Pardoning Power",
-                  "subnodes": [
-                    "Article 72 (President)",
-                    "Article 161 (Governor)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "judiciary",
-        "title": "Integrated Judiciary: SC & HC",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "judiciary",
-            "title": "Integrated Judiciary: SC & HC",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Supreme Court: Art 124 (Original 131, Appellate 132-136, Writ 32, Advisory 143)\nHigh Courts: Art 214 (Writ 226)\nWrits: Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo Warranto",
-            "mindmap": {
-              "root": "Judiciary",
-              "branches": [
-                {
-                  "title": "Supreme Court",
-                  "subnodes": [
-                    "Article 124",
-                    "Original (Art 131)",
-                    "Advisory (Art 143)",
-                    "Writ (Art 32)"
-                  ]
-                },
-                {
-                  "title": "High Courts",
-                  "subnodes": [
-                    "Article 214",
-                    "Writ (Art 226) - broader than SC"
-                  ]
-                },
-                {
-                  "title": "Writs",
-                  "subnodes": [
-                    "Habeas Corpus",
-                    "Mandamus",
-                    "Prohibition",
-                    "Certiorari",
-                    "Quo Warranto"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "panchayati-raj",
-        "title": "Local Self-Govt & Panchayati Raj",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "panchayati-raj",
-            "title": "Local Self-Govt & Panchayati Raj",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "73rd Amendment: Part IX, Sch 11 (29 subjects) - Rural Panchayats\n74th Amendment: Part IXA, Sch 12 (18 subjects) - Urban Municipalities\nBalwant Rai Mehta: 3-tier system\nContest Age: 21 years\nReservation: 33% (1/3rd) for women",
-            "mindmap": {
-              "root": "Local Gov",
-              "branches": [
-                {
-                  "title": "Rural (73rd)",
-                  "subnodes": [
-                    "Part IX",
-                    "Schedule 11 (29 items)",
-                    "Gram Sabha core"
-                  ]
-                },
-                {
-                  "title": "Urban (74th)",
-                  "subnodes": [
-                    "Part IXA",
-                    "Schedule 12 (18 items)",
-                    "Municipalities"
-                  ]
-                },
-                {
-                  "title": "Key Rules",
-                  "subnodes": [
-                    "3-tier structure",
-                    "21 years minimum age",
-                    "33% women reservation"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "amendments-parts",
-        "title": "Constitutional Amendments, Parts & Schedules",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "amendments-parts",
-            "title": "Constitutional Amendments, Parts & Schedules",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Schedules: TEARS OF OLD PM",
-            "mindmap": {
-              "root": "Amendments & Parts",
-              "branches": [
-                {
-                  "title": "Schedules",
-                  "subnodes": [
-                    "12 Schedules",
-                    "Mnemonic"
-                  ]
-                },
-                {
-                  "title": "Parts",
-                  "subnodes": [
-                    "Part I to XXII"
-                  ]
-                },
-                {
-                  "title": "Amendments",
-                  "subnodes": [
-                    "42nd, 44th, 86th, 101st"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "important-articles",
-        "title": "High-Yield Special Articles Cheat Sheet",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "important-articles",
-            "title": "High-Yield Special Articles Cheat Sheet",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Emergencies: 352, 356, 360",
-            "mindmap": {
-              "root": "Key Articles",
-              "branches": [
-                {
-                  "title": "Art 371",
-                  "subnodes": [
-                    "Special states provisions"
-                  ]
-                },
-                {
-                  "title": "Emergency",
-                  "subnodes": [
-                    "National, President's, Financial"
-                  ]
-                },
-                {
-                  "title": "Rajya Sabha",
-                  "subnodes": [
-                    "Art 249, Art 312"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "positions-tenures",
-        "title": "Elections, Appointments & Terms of Office",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "positions-tenures",
-            "title": "Elections, Appointments & Terms of Office",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Ages: Pres (35), Gov (35), LS (25), RS (30)",
-            "mindmap": {
-              "root": "Positions",
-              "branches": [
-                {
-                  "title": "Ages",
-                  "subnodes": [
-                    "Min Age matrix"
-                  ]
-                },
-                {
-                  "title": "Terms",
-                  "subnodes": [
-                    "CAG 6/65, CEC 6/65"
-                  ]
-                },
-                {
-                  "title": "Oath/Resign",
-                  "subnodes": [
-                    "Who administers / receives"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "constitutional-bodies",
-        "title": "Constitutional & Non-Constitutional Bodies",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "constitutional-bodies",
-            "title": "Constitutional & Non-Constitutional Bodies",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Constitutional: Art 324 (EC), Art 280 (FC), Art 148 (CAG)",
-            "mindmap": {
-              "root": "Bodies",
-              "branches": [
-                {
-                  "title": "Constitutional",
-                  "subnodes": [
-                    "EC, FC, CAG, UPSC, AG"
-                  ]
-                },
-                {
-                  "title": "Non-Constitutional",
-                  "subnodes": [
-                    "NITI Aayog, NHRC, CVC, Lokpal"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "governance-emergency",
-        "title": "Emergency Provisions",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "governance-emergency",
-            "title": "Emergency Provisions",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Part XVIII, Articles 352-360\nNational: Art 352 (approved 1 month, special majority)\nState (President's Rule): Art 356 & 365 (approved 2 months)\nFinancial: Art 360 (approved 2 months, never declared)\nFR Impact: Art 20 & 21 never suspended (Art 359)",
-            "mindmap": {
-              "root": "Emergencies",
-              "branches": [
-                {
-                  "title": "National (352)",
-                  "subnodes": [
-                    "War / External / Armed rebellion",
-                    "1 month approval",
-                    "Art 20/21 exception"
-                  ]
-                },
-                {
-                  "title": "State (356)",
-                  "subnodes": [
-                    "Failure of State Constitution",
-                    "2 months approval",
-                    "Max 3 years"
-                  ]
-                },
-                {
-                  "title": "Financial (360)",
-                  "subnodes": [
-                    "Financial threat",
-                    "Never declared in India"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "polity-federal-structure",
-        "title": "Federal Structure & Centre-State Relations",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "polity-federal-structure",
-            "title": "Federal Structure & Centre-State Relations",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "7th Schedule: Union (97), State (66), Concurrent (47)\nArt 263: Inter-State Council\nArt 280: Finance Commission",
-            "mindmap": {
-              "root": "Federal Structure",
-              "branches": [
-                {
-                  "title": "Legislative",
-                  "subnodes": [
-                    "Union List",
-                    "State List",
-                    "Concurrent List"
-                  ]
-                },
-                {
-                  "title": "Administrative",
-                  "subnodes": [
-                    "Governor",
-                    "Inter-State Council"
-                  ]
-                },
-                {
-                  "title": "Financial",
-                  "subnodes": [
-                    "Finance Commission",
-                    "GST Council"
-                  ]
-                },
-                {
-                  "title": "Commissions",
-                  "subnodes": [
-                    "Sarkaria",
-                    "Punchhi",
-                    "Rajamannar"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "polity-rpa",
-        "title": "Representation of People Act & Election Commission",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "polity-rpa",
-            "title": "Representation of People Act & Election Commission",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "RPA 1950: Electoral rolls\nRPA 1951: Conduct of elections\n10th Schedule: Anti-Defection\nArt 324: Election Commission",
-            "mindmap": {
-              "root": "RPA & Elections",
-              "branches": [
-                {
-                  "title": "RPA 1950",
-                  "subnodes": [
-                    "Electoral rolls",
-                    "Delimitation"
-                  ]
-                },
-                {
-                  "title": "RPA 1951",
-                  "subnodes": [
-                    "Corrupt practices",
-                    "Disqualification"
-                  ]
-                },
-                {
-                  "title": "Anti-Defection",
-                  "subnodes": [
-                    "52nd Amendment",
-                    "10th Schedule"
-                  ]
-                },
-                {
-                  "title": "ECI",
-                  "subnodes": [
-                    "Art 324",
-                    "MCC",
-                    "NOTA",
-                    "VVPAT"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
   "history": {
-    "title": "History (CDS/NDA)",
+    "title": "History",
     "chapters": [
       {
-        "id": "what-is-history",
-        "title": "What is History?",
+        "id": "indus-valley-civilization-geography-social-organisation-architecture",
+        "title": "Indus Valley Civilization - Geography, Social Organisation & Architecture",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "what-is-history",
-            "title": "What is History?",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Primary Sources: contemporary | Secondary Sources: later analysis",
-            "mindmap": {
-              "root": "What is History?",
-              "branches": [
-                {
-                  "title": "Core Foundations",
-                  "subnodes": [
-                    "Definition",
-                    "Importance of Chronology",
-                    "Cause and Effect"
-                  ]
-                }
-              ]
-            }
+            "id": "indus-valley-civilization-geography-social-organisation-architecture",
+            "title": "Indus Valley Civilization - Geography, Social Organisation & Architecture",
+            "notes": "<p>Content for Indus Valley Civilization - Geography, Social Organisation & Architecture is being generated...</p>"
           }
         ]
       },
       {
-        "id": "sources-indian-history",
-        "title": "Sources of Indian History",
+        "id": "indus-valley-civilization-rakhigarhi-decay-decline",
+        "title": "Indus Valley Civilization - Rakhigarhi & Decay/Decline",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "sources-indian-history",
-            "title": "Sources of Indian History",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Epigraphy: Inscriptions | Numismatics: Coins | Rajatarangini: Kalhana (Kashmir history)",
-            "mindmap": {
-              "root": "Sources of Indian History",
-              "branches": [
-                {
-                  "title": "Archaeological Sources (High-Yield)",
-                  "subnodes": [
-                    "Inscriptions (Epigraphy)",
-                    "Allahabad Pillar Inscription (Prasasti)",
-                    "Aihole Inscription"
-                  ]
-                },
-                {
-                  "title": "Literary Sources",
-                  "subnodes": [
-                    "Religious Texts",
-                    "Secular Literature",
-                    "Panini's Ashtadhyayi (earliest Sanskrit grammar)"
-                  ]
-                }
-              ]
-            }
+            "id": "indus-valley-civilization-rakhigarhi-decay-decline",
+            "title": "Indus Valley Civilization - Rakhigarhi & Decay/Decline",
+            "notes": "<p>Content for Indus Valley Civilization - Rakhigarhi & Decay/Decline is being generated...</p>"
           }
         ]
       },
       {
-        "id": "dating-systems",
-        "title": "Dating Systems",
+        "id": "indus-valley-civilization-major-sites-excavations",
+        "title": "Indus Valley Civilization - Major Sites & Excavations",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "dating-systems",
-            "title": "Dating Systems",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Vikrama Era: 57 BCE | Saka Era: 78 CE (National Calendar) | Gupta Era: 319 CE",
-            "mindmap": {
-              "root": "Dating Systems",
-              "branches": [
-                {
-                  "title": "General Terminology",
-                  "subnodes": [
-                    "BC (Before Christ) / BCE (Before Common Era)",
-                    "AD (Anno Domini) / CE (Common Era)"
-                  ]
-                },
-                {
-                  "title": "Key Historical Eras of India",
-                  "subnodes": [
-                    "Vikrama Era",
-                    "Saka Era",
-                    "Gupta Era"
-                  ]
-                }
-              ]
-            }
+            "id": "indus-valley-civilization-major-sites-excavations",
+            "title": "Indus Valley Civilization - Major Sites & Excavations",
+            "notes": "<p>Content for Indus Valley Civilization - Major Sites & Excavations is being generated...</p>"
           }
         ]
       },
       {
-        "id": "stone-age",
-        "title": "Stone Age",
+        "id": "indus-valley-civilization-sites-kot-diji-ropar-surkotada",
+        "title": "Indus Valley Civilization Sites: Kot Diji, Ropar, Surkotada",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "stone-age",
-            "title": "Stone Age",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Paleolithic: Quartzite, Bhimbetka | Mesolithic: Microliths, Bagor | Neolithic: Farming, Burzahom",
-            "mindmap": {
-              "root": "Stone Age",
-              "branches": [
-                {
-                  "title": "Paleolithic (Old Stone Age): Up to 10,000 BCE",
-                  "subnodes": [
-                    "Lifestyle",
-                    "Tools",
-                    "Phases"
-                  ]
-                },
-                {
-                  "title": "Mesolithic (Middle Stone Age): 10,000 BCE - 6,000 BCE",
-                  "subnodes": [
-                    "Climatic Shift",
-                    "Tools",
-                    "Lifestyle"
-                  ]
-                },
-                {
-                  "title": "Neolithic (New Stone Age): 6,000 BCE - 1,000 BCE",
-                  "subnodes": [
-                    "The Neolithic Revolution",
-                    "Lifestyle",
-                    "Key Sites"
-                  ]
-                }
-              ]
-            }
+            "id": "indus-valley-civilization-sites-kot-diji-ropar-surkotada",
+            "title": "Indus Valley Civilization Sites: Kot Diji, Ropar, Surkotada",
+            "notes": "<p>Content for Indus Valley Civilization Sites: Kot Diji, Ropar, Surkotada is being generated...</p>"
           }
         ]
       },
       {
-        "id": "chalcolithic-age",
-        "title": "Chalcolithic Age",
+        "id": "early-vedic-period-geography-settlements",
+        "title": "Early Vedic Period: Geography & Settlements",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "chalcolithic-age",
-            "title": "Chalcolithic Age",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Chalcolithic: Copper + Stone | Jorwe Culture: Inamgaon | Banas Culture: Ahar",
-            "mindmap": {
-              "root": "Chalcolithic Age",
-              "branches": [
-                {
-                  "title": "Key Characteristics",
-                  "subnodes": [
-                    "Technology",
-                    "Economy",
-                    "Pottery"
-                  ]
-                },
-                {
-                  "title": "Major Chalcolithic Cultures",
-                  "subnodes": [
-                    "Ahar-Banas Culture (Rajasthan)",
-                    "Kayatha & Malwa Cultures (MP)",
-                    "Jorwe Culture (Maharashtra)"
-                  ]
-                }
-              ]
-            }
+            "id": "early-vedic-period-geography-settlements",
+            "title": "Early Vedic Period: Geography & Settlements",
+            "notes": "<p>Content for Early Vedic Period: Geography & Settlements is being generated...</p>"
           }
         ]
       },
       {
-        "id": "rock-art",
-        "title": "Rock Art",
+        "id": "political-systems-and-rise-of-monarchies-mahajanapadas",
+        "title": "Political Systems and Rise of Monarchies (Mahajanapadas)",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "rock-art",
-            "title": "Rock Art",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Bhimbetka discoverer: V.S. Wakankar (1957) | Colors: Green (dance), Red (hunt)",
-            "mindmap": {
-              "root": "Rock Art",
-              "branches": [
-                {
-                  "title": "Bhimbetka Caves (Madhya Pradesh)",
-                  "subnodes": [
-                    "Discovery",
-                    "UNESCO Status",
-                    "Artistic Styles"
-                  ]
-                }
-              ]
-            }
+            "id": "political-systems-and-rise-of-monarchies-mahajanapadas",
+            "title": "Political Systems and Rise of Monarchies (Mahajanapadas)",
+            "notes": "<p>Content for Political Systems and Rise of Monarchies (Mahajanapadas) is being generated...</p>"
           }
         ]
       },
       {
-        "id": "indus-valley-civilization",
-        "title": "Indus Valley Civilization",
+        "id": "ancient-indian-history-mahajanapadas-capitals-rulers-and-rivers",
+        "title": "Ancient Indian History - Mahajanapadas, Capitals, Rulers, and Rivers",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "indus-valley-civilization",
-            "title": "Indus Valley Civilization",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Lothal: Dockyard | Kalibangan: Ploughed fields | Dholavira: Reservoirs | Harappa: Ravi",
-            "mindmap": {
-              "root": "Indus Valley Civilization",
-              "branches": [
-                {
-                  "title": "Discovery & Chronology",
-                  "subnodes": [
-                    "First discovered in 1921 at Harappa by Daya Ram Sahni und...",
-                    "Mohenjo-daro discovered in 1922 by R",
-                    "Dated via Carbon-14"
-                  ]
-                },
-                {
-                  "title": "Town Planning & Drainage",
-                  "subnodes": [
-                    "Grid System",
-                    "Citadel & Lower Town",
-                    "Drainage System"
-                  ]
-                },
-                {
-                  "title": "Site-Wise High-Yield Facts",
-                  "subnodes": [
-                    "Harappa",
-                    "Mohenjo-daro",
-                    "Lothal"
-                  ]
-                },
-                {
-                  "title": "Economy, Script & Decline",
-                  "subnodes": [
-                    "Economy",
-                    "Script & Seals",
-                    "Decline Theories"
-                  ]
-                }
-              ]
-            }
+            "id": "ancient-indian-history-mahajanapadas-capitals-rulers-and-rivers",
+            "title": "Ancient Indian History - Mahajanapadas, Capitals, Rulers, and Rivers",
+            "notes": "<p>Content for Ancient Indian History - Mahajanapadas, Capitals, Rulers, and Rivers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "magadha-dynasty-haryanka-dynasty",
+        "title": "Magadha Dynasty & Haryanka Dynasty",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "magadha-dynasty-haryanka-dynasty",
+            "title": "Magadha Dynasty & Haryanka Dynasty",
+            "notes": "<p>Content for Magadha Dynasty & Haryanka Dynasty is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "mauryan-economy-agriculture",
+        "title": "Mauryan Economy & Agriculture",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "mauryan-economy-agriculture",
+            "title": "Mauryan Economy & Agriculture",
+            "notes": "<p>Content for Mauryan Economy & Agriculture is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "religious-history-ashoka-s-policy-of-dhamma",
+        "title": "Religious History & Ashoka's Policy of Dhamma",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "religious-history-ashoka-s-policy-of-dhamma",
+            "title": "Religious History & Ashoka's Policy of Dhamma",
+            "notes": "<p>Content for Religious History & Ashoka's Policy of Dhamma is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "decline-of-the-mauryan-empire",
+        "title": "Decline of the Mauryan Empire",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "decline-of-the-mauryan-empire",
+            "title": "Decline of the Mauryan Empire",
+            "notes": "<p>Content for Decline of the Mauryan Empire is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "mauryan-empire-external-invasions-major-rock-edicts",
+        "title": "Mauryan Empire - External Invasions & Major Rock Edicts",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "mauryan-empire-external-invasions-major-rock-edicts",
+            "title": "Mauryan Empire - External Invasions & Major Rock Edicts",
+            "notes": "<p>Content for Mauryan Empire - External Invasions & Major Rock Edicts is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ashoka-s-major-rock-edicts-viii-ix-x",
+        "title": "Ashoka's Major Rock Edicts (VIII, IX, X)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ashoka-s-major-rock-edicts-viii-ix-x",
+            "title": "Ashoka's Major Rock Edicts (VIII, IX, X)",
+            "notes": "<p>Content for Ashoka's Major Rock Edicts (VIII, IX, X) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ashoka-s-major-rock-edicts-xi-xii-xiii",
+        "title": "Ashoka's Major Rock Edicts (XI, XII, XIII)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ashoka-s-major-rock-edicts-xi-xii-xiii",
+            "title": "Ashoka's Major Rock Edicts (XI, XII, XIII)",
+            "notes": "<p>Content for Ashoka's Major Rock Edicts (XI, XII, XIII) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ashokan-edicts-and-inscriptions",
+        "title": "Ashokan Edicts and Inscriptions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ashokan-edicts-and-inscriptions",
+            "title": "Ashokan Edicts and Inscriptions",
+            "notes": "<p>Content for Ashokan Edicts and Inscriptions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "early-european-explorations",
+        "title": "Early European Explorations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "early-european-explorations",
+            "title": "Early European Explorations",
+            "notes": "<p>Content for Early European Explorations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "portuguese-settlements-governors-contributions-and-decline",
+        "title": "Portuguese Settlements, Governors, Contributions, and Decline",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "portuguese-settlements-governors-contributions-and-decline",
+            "title": "Portuguese Settlements, Governors, Contributions, and Decline",
+            "notes": "<p>Content for Portuguese Settlements, Governors, Contributions, and Decline is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "dutch-settlements-battles-contributions-and-decline",
+        "title": "Dutch Settlements, Battles, Contributions, and Decline",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "dutch-settlements-battles-contributions-and-decline",
+            "title": "Dutch Settlements, Battles, Contributions, and Decline",
+            "notes": "<p>Content for Dutch Settlements, Battles, Contributions, and Decline is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "british-settlements-battles-headquarters-and-contributions",
+        "title": "British Settlements, Battles, Headquarters, and Contributions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "british-settlements-battles-headquarters-and-contributions",
+            "title": "British Settlements, Battles, Headquarters, and Contributions",
+            "notes": "<p>Content for British Settlements, Battles, Headquarters, and Contributions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ancient-history-introduction-prehistory",
+        "title": "Ancient History - Introduction & Prehistory",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ancient-history-introduction-prehistory",
+            "title": "Ancient History - Introduction & Prehistory",
+            "notes": "<p>Content for Ancient History - Introduction & Prehistory is being generated...</p>"
           }
         ]
       },
@@ -139819,37 +137600,43 @@ const NOTES_DATABASE = {
           {
             "id": "vedic-age",
             "title": "Vedic Age",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Rigveda oldest | Mundaka Upanishad: Satyameva Jayate | Early Vedic: pastoral | Later Vedic: iron farming",
-            "mindmap": {
-              "root": "Vedic Age",
-              "branches": [
-                {
-                  "title": "Early Vedic Period (1500 - 1000 BCE)",
-                  "subnodes": [
-                    "Geography",
-                    "Polity",
-                    "Society & Economy"
-                  ]
-                },
-                {
-                  "title": "Later Vedic Period (1000 - 600 BCE)",
-                  "subnodes": [
-                    "Geography",
-                    "Polity",
-                    "Society & Economy"
-                  ]
-                },
-                {
-                  "title": "Vedic Literature",
-                  "subnodes": [
-                    "Four Vedas",
-                    "Brahmanas",
-                    "Aranyakas"
-                  ]
-                }
-              ]
-            }
+            "notes": "<p>Content for Vedic Age is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilization",
+        "title": "Indus Valley Civilization",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilization",
+            "title": "Indus Valley Civilization",
+            "notes": "<p>Content for Indus Valley Civilization is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "vedic-age-22",
+        "title": "Vedic Age",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "vedic-age-22",
+            "title": "Vedic Age",
+            "notes": "<p>Content for Vedic Age is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "jainism-buddhism",
+        "title": "Jainism & Buddhism",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "jainism-buddhism",
+            "title": "Jainism & Buddhism",
+            "notes": "<p>Content for Jainism & Buddhism is being generated...</p>"
           }
         ]
       },
@@ -139861,199 +137648,43 @@ const NOTES_DATABASE = {
           {
             "id": "mahajanapadas",
             "title": "Mahajanapadas",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "16 States | Vajji: Republic (Vaishali capital) | Magadha: Strongest (Rajgir/Pataliputra)",
-            "mindmap": {
-              "root": "Mahajanapadas",
-              "branches": [
-                {
-                  "title": "The 16 Mahajanapadas",
-                  "subnodes": [
-                    "Mentioned in Buddhist text Anguttara Nikaya and Jain text...",
-                    "Monarchies",
-                    "Republics (Ganasanghas)"
-                  ]
-                },
-                {
-                  "title": "Rise of Magadha",
-                  "subnodes": [
-                    "Haryanka Dynasty",
-                    "Ajatashatru (492-460 BCE)",
-                    "Udayin"
-                  ]
-                }
-              ]
-            }
+            "notes": "<p>Content for Mahajanapadas is being generated...</p>"
           }
         ]
       },
       {
-        "id": "magadha-expansion",
-        "title": "Magadha Expansion",
+        "id": "mauryan-empire",
+        "title": "Mauryan Empire",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "magadha-expansion",
-            "title": "Magadha Expansion",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Haryanka: Bimbisara | Nanda: Mahapadma Nanda | Hydaspes: 326 BCE (Alexander vs Porus)",
-            "mindmap": {
-              "root": "Magadha Expansion",
-              "branches": [
-                {
-                  "title": "Dynasties",
-                  "subnodes": [
-                    "Haryanka Dynasty",
-                    "Shishunaga Dynasty",
-                    "Nanda Dynasty"
-                  ]
-                }
-              ]
-            }
+            "id": "mauryan-empire",
+            "title": "Mauryan Empire",
+            "notes": "<p>Content for Mauryan Empire is being generated...</p>"
           }
         ]
       },
       {
-        "id": "buddhism-jainism",
-        "title": "Buddhism & Jainism",
+        "id": "foreign-invasion",
+        "title": "Foreign Invasion",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "buddhism-jainism",
-            "title": "Buddhism & Jainism",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "1st Buddhist Council: Rajgriha (Ajatashatru) | 3rd: Pataliputra (Ashoka) | 4th: Kashmir (Kanishka)",
-            "mindmap": {
-              "root": "Buddhism & Jainism",
-              "branches": [
-                {
-                  "title": "Buddhism (Gautama Buddha: 563 - 483 BCE)",
-                  "subnodes": [
-                    "Born as Siddhartha in Lumbini (Nepal) to Shakya Chief Shu...",
-                    "Core Teachings",
-                    "Buddhist Councils"
-                  ]
-                },
-                {
-                  "title": "Jainism (Vardhamana Mahavira: 599 - 527 BCE)",
-                  "subnodes": [
-                    "24th Tirthankara (1st",
-                    "Core Teachings",
-                    "Sects"
-                  ]
-                }
-              ]
-            }
+            "id": "foreign-invasion",
+            "title": "Foreign Invasion",
+            "notes": "<p>Content for Foreign Invasion is being generated...</p>"
           }
         ]
       },
       {
-        "id": "mauryan-period",
-        "title": "Mauryan Period",
+        "id": "gupta-s-dynasty",
+        "title": "Gupta's Dynasty",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "mauryan-period",
-            "title": "Mauryan Period",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Kalinga War: 261 BCE | Chanakya: Arthashastra | Megasthenes: Indica",
-            "mindmap": {
-              "root": "Mauryan Period",
-              "branches": [
-                {
-                  "title": "Rulers & Triumphs",
-                  "subnodes": [
-                    "Chandragupta Maurya (322 - 298 BCE)",
-                    "Bindusara (298 - 273 BCE)",
-                    "Ashoka (273 - 232 BCE)"
-                  ]
-                },
-                {
-                  "title": "Ashokan Edicts & Dhamma",
-                  "subnodes": [
-                    "Edicts are classified into Major Rock Edicts (14), Minor ...",
-                    "Major Rock Edict XIII",
-                    "Rummindei Pillar Inscription"
-                  ]
-                },
-                {
-                  "title": "Administration & Economy",
-                  "subnodes": [
-                    "Highly centralized bureaucracy",
-                    "Spy network of *Gudhapurushas* (Sanstha - stationary, San...",
-                    "Tax"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "post-mauryan-india",
-        "title": "Post-Mauryan India",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "post-mauryan-india",
-            "title": "Post-Mauryan India",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Sunga founder: Pushyamitra | Saka Era: 78 CE (Kanishka) | Satavahana: Lead coins",
-            "mindmap": {
-              "root": "Post-Mauryan India",
-              "branches": [
-                {
-                  "title": "Indigenous Dynasties",
-                  "subnodes": [
-                    "Sunga Dynasty (185 - 73 BCE)",
-                    "Kanva Dynasty",
-                    "Satavahanas (Andhras)"
-                  ]
-                },
-                {
-                  "title": "Foreign Invasions",
-                  "subnodes": [
-                    "Indo-Greeks",
-                    "Sakas (Scythians)",
-                    "Kushanas"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "gupta-period",
-        "title": "Gupta Period",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "gupta-period",
-            "title": "Gupta Period",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Napoleon of India: Samudragupta | Allahabad Prasasti: Harishena | Fa-Hien: Chandragupta II",
-            "mindmap": {
-              "root": "Gupta Period",
-              "branches": [
-                {
-                  "title": "Key Rulers & Expansion",
-                  "subnodes": [
-                    "Chandragupta I (319 - 335 CE)",
-                    "Samudragupta (335 - 380 CE)",
-                    "Chandragupta II (Vikramaditya"
-                  ]
-                },
-                {
-                  "title": "Science, Literature & Golden Age Debate",
-                  "subnodes": [
-                    "Literature",
-                    "Science & Math",
-                    "The \"Golden Age\" Debate"
-                  ]
-                }
-              ]
-            }
+            "id": "gupta-s-dynasty",
+            "title": "Gupta's Dynasty",
+            "notes": "<p>Content for Gupta's Dynasty is being generated...</p>"
           }
         ]
       },
@@ -140065,5222 +137696,13693 @@ const NOTES_DATABASE = {
           {
             "id": "south-indian-kingdoms",
             "title": "South Indian Kingdoms",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Cholas: Brihadeshwara Temple (Tanjore) | Village administration: Uttaramerur inscription",
-            "mindmap": {
-              "root": "South Indian Kingdoms",
-              "branches": [
-                {
-                  "title": "The Sangam Age (3rd BCE - 3rd CE)",
-                  "subnodes": [
-                    "Assemblies (Sangams) of Tamil poets held under Pandyan pa...",
-                    "Three kingdoms"
-                  ]
-                },
-                {
-                  "title": "Pallavas & Chalukyas (6th - 8th CE)",
-                  "subnodes": [
-                    "Pallavas of Kanchi",
-                    "Chalukyas of Vatapi"
-                  ]
-                },
-                {
-                  "title": "Imperial Cholas (9th - 12th CE)",
-                  "subnodes": [
-                    "Founded by Vijayalaya",
-                    "Rajaraja Chola I (985 - 1014 CE)",
-                    "Rajendra Chola I (1014 - 1044 CE)"
-                  ]
-                }
-              ]
-            }
+            "notes": "<p>Content for South Indian Kingdoms is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ancient-indian-culture",
-        "title": "Ancient Indian Culture",
+        "id": "early-muslim-invasion",
+        "title": "Early Muslim Invasion",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ancient-indian-culture",
-            "title": "Ancient Indian Culture",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Mrichchakatikam: Shudraka | Mudrarakshasa: Vishakhadatta | Yoga: Patanjali | Vaisheshika: Kanada",
-            "mindmap": {
-              "root": "Ancient Indian Culture",
-              "branches": [
-                {
-                  "title": "Literature & Philosophy",
-                  "subnodes": [
-                    "Sanskrit Drama",
-                    "6 Orthodox Schools (Shad-Darshana)"
-                  ]
-                }
-              ]
-            }
+            "id": "early-muslim-invasion",
+            "title": "Early Muslim Invasion",
+            "notes": "<p>Content for Early Muslim Invasion is being generated...</p>"
           }
         ]
       },
       {
-        "id": "early-medieval-india",
-        "title": "Early Medieval India",
+        "id": "delhi-sultanate-slave-dynasty",
+        "title": "Delhi Sultanate ( Slave Dynasty )",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "early-medieval-india",
-            "title": "Early Medieval India",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Vikramashila Univ: Dharmapala | Ellora Kailash Temple: Krishna I (Rashtrakuta)",
-            "mindmap": {
-              "root": "Early Medieval India",
-              "branches": [
-                {
-                  "title": "Tripartite Struggle (8th - 10th CE)",
-                  "subnodes": [
-                    "The Palas of Bengal",
-                    "The Gurjara-Pratiharas",
-                    "The Rashtrakutas"
-                  ]
-                }
-              ]
-            }
+            "id": "delhi-sultanate-slave-dynasty",
+            "title": "Delhi Sultanate ( Slave Dynasty )",
+            "notes": "<p>Content for Delhi Sultanate ( Slave Dynasty ) is being generated...</p>"
           }
         ]
       },
       {
-        "id": "delhi-sultanate",
-        "title": "Delhi Sultanate",
+        "id": "delhi-sultanate-tughlaq-dynasty",
+        "title": "Delhi Sultanate ( Tughlaq Dynasty )",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "delhi-sultanate",
-            "title": "Delhi Sultanate",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Chahalgani: Iltutmish | Market Reforms: Alauddin Khilji | Capital shift: Muhammad bin Tughlaq",
-            "mindmap": {
-              "root": "Delhi Sultanate",
-              "branches": [
-                {
-                  "title": "The Dynasties",
-                  "subnodes": [
-                    "Firoz Shah Tughlaq (1351-1388)",
-                    "Sayyid Dynasty (1414-1451)",
-                    "Lodi Dynasty (1451-1526)"
-                  ]
-                }
-              ]
-            }
+            "id": "delhi-sultanate-tughlaq-dynasty",
+            "title": "Delhi Sultanate ( Tughlaq Dynasty )",
+            "notes": "<p>Content for Delhi Sultanate ( Tughlaq Dynasty ) is being generated...</p>"
           }
         ]
       },
       {
-        "id": "vijayanagara-empire",
-        "title": "Vijayanagara Empire",
+        "id": "delhi-sultanate-sayyid-dynasty",
+        "title": "Delhi Sultanate ( Sayyid Dynasty )",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "vijayanagara-empire",
-            "title": "Vijayanagara Empire",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Founded: 1336 (Harihara & Bukka) | Peak: Krishnadevaraya | Capital ruins: Hampi | Talikota: 1565",
-            "mindmap": {
-              "root": "Vijayanagara Empire",
-              "branches": [
-                {
-                  "title": "History & Dynasties",
-                  "subnodes": [
-                    "Founded in 1336 by brothers Harihara I & Bukka I (Sangama...",
-                    "Four dynasties",
-                    "Battle of Talikota (1565)"
-                  ]
-                }
-              ]
-            }
+            "id": "delhi-sultanate-sayyid-dynasty",
+            "title": "Delhi Sultanate ( Sayyid Dynasty )",
+            "notes": "<p>Content for Delhi Sultanate ( Sayyid Dynasty ) is being generated...</p>"
           }
         ]
       },
       {
-        "id": "bahmani-deccan-sultanates",
-        "title": "Bahmani Kingdom & Deccan Sultanates",
+        "id": "mughals",
+        "title": "Mughals",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "bahmani-deccan-sultanates",
-            "title": "Bahmani Kingdom & Deccan Sultanates",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Bahmani: Hasan Gangu (1347) | Gol Gumbaz: Bijapur (Adil Shah) | Charminar: Golconda",
-            "mindmap": {
-              "root": "Bahmani Kingdom & Deccan Sultanates",
-              "branches": [
-                {
-                  "title": "Bahmani Kingdom (1347 - 1527)",
-                  "subnodes": [
-                    "Founded in 1347 by Ala-ud-Din Bahman Shah (also known as ...",
-                    "Capital was initially Gulbarga, later shifted to Bidar"
-                  ]
-                },
-                {
-                  "title": "Split into Deccan Sultanates",
-                  "subnodes": [
-                    "Adil Shahis of Bijapur",
-                    "Nizam Shahis of Ahmadnagar",
-                    "Qutb Shahis of Golconda"
-                  ]
-                }
-              ]
-            }
+            "id": "mughals",
+            "title": "Mughals",
+            "notes": "<p>Content for Mughals is being generated...</p>"
           }
         ]
       },
       {
-        "id": "mughal-empire",
-        "title": "Mughal Empire",
+        "id": "bhakti-and-sufi",
+        "title": "Bhakti and Sufi",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "mughal-empire",
-            "title": "Mughal Empire",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "1st Panipat: 1526 | Mansabdari & Dahsala: Akbar | Jizya re-imposed: Aurangzeb (1679)",
-            "mindmap": {
-              "root": "Mughal Empire",
-              "branches": [
-                {
-                  "title": "Rulers & Triumphs",
-                  "subnodes": [
-                    "Babur (1526-1530)",
-                    "Humayun (1530-1556)",
-                    "Akbar (1556-1605)"
-                  ]
-                }
-              ]
-            }
+            "id": "bhakti-and-sufi",
+            "title": "Bhakti and Sufi",
+            "notes": "<p>Content for Bhakti and Sufi is being generated...</p>"
           }
         ]
       },
       {
-        "id": "marathas",
-        "title": "Marathas",
+        "id": "vijayanagar-and-bahmani",
+        "title": "Vijayanagar And Bahmani",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "marathas",
-            "title": "Marathas",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Shivaji Coronation: 1674 | Ashtapradhan: Shivaji council | Chauth: 25% tax | 3rd Panipat: 1761",
-            "mindmap": {
-              "root": "Marathas",
-              "branches": [
-                {
-                  "title": "Chhatrapati Shivaji Maharaj (1627 - 1680)",
-                  "subnodes": [
-                    "Born at Shivneri Fort",
-                    "Administration",
-                    "Revenue System"
-                  ]
-                },
-                {
-                  "title": "Peshwa Era (1713 - 1818)",
-                  "subnodes": [
-                    "Peshwas became the de-facto rulers of the empire, shiftin...",
-                    "Baji Rao I (1720-1740)",
-                    "Balaji Baji Rao (Nana Saheb"
-                  ]
-                }
-              ]
-            }
+            "id": "vijayanagar-and-bahmani",
+            "title": "Vijayanagar And Bahmani",
+            "notes": "<p>Content for Vijayanagar And Bahmani is being generated...</p>"
           }
         ]
       },
       {
-        "id": "bhakti-movement",
-        "title": "Bhakti Movement",
+        "id": "shivaji-maharaj-and-marathas",
+        "title": "Shivaji Maharaj And Marathas",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "bhakti-movement",
-            "title": "Bhakti Movement",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Alvars: Vishnu | Nayanars: Shiva | Ramcharitmanas: Tulsidas | Kirtans: Chaitanya",
-            "mindmap": {
-              "root": "Bhakti Movement",
-              "branches": [
-                {
-                  "title": "Origins & Schools",
-                  "subnodes": [
-                    "Originated in South India (7th-9th century) led by Alvars...",
-                    "Spread to North India in the 14th century by Ramananda",
-                    "Saguna School (Worshipped God with Form)"
-                  ]
-                }
-              ]
-            }
+            "id": "shivaji-maharaj-and-marathas",
+            "title": "Shivaji Maharaj And Marathas",
+            "notes": "<p>Content for Shivaji Maharaj And Marathas is being generated...</p>"
           }
         ]
       },
       {
-        "id": "sufi-movement",
-        "title": "Sufi Movement",
+        "id": "advant-of-europeans",
+        "title": "Advant Of Europeans",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "sufi-movement",
-            "title": "Sufi Movement",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Chishti: Moinuddin (Ajmer Dargah) | Sama: Sufi music | Naqshbandi: Orthodox (Aurangzeb support)",
-            "mindmap": {
-              "root": "Sufi Movement",
-              "branches": [
-                {
-                  "title": "Key Orders (Silsilas) in India",
-                  "subnodes": [
-                    "Suhrawardi Order",
-                    "Naqshbandi Order"
-                  ]
-                }
-              ]
-            }
+            "id": "advant-of-europeans",
+            "title": "Advant Of Europeans",
+            "notes": "<p>Content for Advant Of Europeans is being generated...</p>"
           }
         ]
       },
       {
-        "id": "sikh-history",
-        "title": "Sikh History",
+        "id": "british-wars",
+        "title": "British Wars",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "sikh-history",
-            "title": "Sikh History",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Khalsa: 1699 (Gobind Singh) | Treaty of Amritsar: 1809 | Annexation of Punjab: 1849",
-            "mindmap": {
-              "root": "Sikh History",
-              "branches": [
-                {
-                  "title": "The Ten Gurus",
-                  "subnodes": [
-                    "Guru Nanak Dev (1st)",
-                    "Guru Angad (2nd)",
-                    "Guru Ram Das (4th)"
-                  ]
-                },
-                {
-                  "title": "Maharaja Ranjit Singh & British Wars",
-                  "subnodes": [
-                    "Consolidated Punjab into a powerful empire",
-                    "Anglo-Sikh Wars",
-                    "2nd War (1848-49)"
-                  ]
-                }
-              ]
-            }
+            "id": "british-wars",
+            "title": "British Wars",
+            "notes": "<p>Content for British Wars is being generated...</p>"
           }
         ]
       },
       {
-        "id": "european-arrival",
-        "title": "European Arrival",
+        "id": "british-policies",
+        "title": "British Policies",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "european-arrival",
-            "title": "European Arrival",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Arrival: Portuguese (1498) -> Dutch (1602) -> English -> French (1664)\nGoa Captured: 1510 (Albuquerque)",
-            "mindmap": {
-              "root": "European Arrival",
-              "branches": [
-                {
-                  "title": "Arrival Sequence (PEDDF)",
-                  "subnodes": [
-                    "Portuguese (1498)",
-                    "Dutch (1602)",
-                    "English (1600)"
-                  ]
-                },
-                {
-                  "title": "Foundation of British Rule",
-                  "subnodes": [
-                    "Battle of Plassey (23 June 1757)",
-                    "Battle of Buxar (22 Oct 1764)"
-                  ]
-                }
-              ]
-            }
+            "id": "british-policies",
+            "title": "British Policies",
+            "notes": "<p>Content for British Policies is being generated...</p>"
           }
         ]
       },
       {
-        "id": "british-expansion",
-        "title": "British Expansion",
+        "id": "british-acts",
+        "title": "British Acts",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "british-expansion",
-            "title": "British Expansion",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Plassey: 1757 | Buxar: 1764 | Allahabad Treaty: 1765 (Diwani rights) | Subsidiary: Wellesley | Lapse: Dalhousie",
-            "mindmap": {
-              "root": "British Expansion",
-              "branches": [
-                {
-                  "title": "Battles & Alliances",
-                  "subnodes": [
-                    "Battle of Plassey (1757)",
-                    "Battle of Buxar (1764)",
-                    "Subsidiary Alliance"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "economic-impact-british",
-        "title": "Economic Impact of British Rule",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "economic-impact-british",
-            "title": "Economic Impact of British Rule",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Permanent Settlement: Cornwallis (Bengal) | Ryotwari: Munro (Madras) | Mahalwari: Mackenzie (North) | Drain Theory: Naoroji",
-            "mindmap": {
-              "root": "Economic Impact of British Rule",
-              "branches": [
-                {
-                  "title": "Three Land Revenue Systems",
-                  "subnodes": [
-                    "Permanent Settlement (Zamindari System)",
-                    "Ryotwari System",
-                    "Mahalwari System"
-                  ]
-                },
-                {
-                  "title": "High-Yield Economic Phenomena",
-                  "subnodes": [
-                    "De-industrialization",
-                    "Drain of Wealth Theory",
-                    "Commercialisation of Agriculture"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "socio-religious-reform",
-        "title": "Socio-Religious Reform Movements",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "socio-religious-reform",
-            "title": "Socio-Religious Reform Movements",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Brahmo: Ram Mohan Roy | Arya: Dayanand Saraswati | Satyashodhak: Jyotirao Phule (Gulamgiri) | Aligarh: Syed Ahmed",
-            "mindmap": {
-              "root": "Socio-Religious Reform Movements",
-              "branches": [
-                {
-                  "title": "Reform Organizations",
-                  "subnodes": [
-                    "Brahmo Samaj (1828)",
-                    "Arya Samaj (1875)",
-                    "Satyashodhak Samaj (1873)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "id": "revolt-1857",
-        "title": "Revolt of 1857",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "revolt-1857",
-            "title": "Revolt of 1857",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Barrackpore: Mangal Pandey | Meerut start: May 10, 1857 | Jhansi opponent: Hugh Rose | Result: GoI Act 1858",
-            "mindmap": {
-              "root": "Revolt of 1857",
-              "branches": [
-                {
-                  "title": "Causes of the Revolt",
-                  "subnodes": [
-                    "Political",
-                    "Economic",
-                    "Social/Religious"
-                  ]
-                },
-                {
-                  "title": "Major Centers & Leaders",
-                  "subnodes": [
-                    "Delhi",
-                    "Kanpur",
-                    "Lucknow"
-                  ]
-                },
-                {
-                  "title": "Outcomes",
-                  "subnodes": [
-                    "Passed the Government of India Act 1858, which transferre...",
-                    "Governor-General's title changed to Viceroy (Canning was ...",
-                    "Abolished the Doctrine of Lapse"
-                  ]
-                }
-              ]
-            }
+            "id": "british-acts",
+            "title": "British Acts",
+            "notes": "<p>Content for British Acts is being generated...</p>"
           }
         ]
       },
       {
         "id": "governor-generals-viceroys",
-        "title": "Governor-Generals & Viceroys",
+        "title": "Governor Generals & Viceroys",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
             "id": "governor-generals-viceroys",
-            "title": "Governor-Generals & Viceroys",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Sati Abolished: 1829 (Bentinck) | Railways: 1853 (Dalhousie) | Local Self-Gov: Ripon | Bengal Partition: 1905 (Curzon)",
-            "mindmap": {
-              "root": "Governor-Generals & Viceroys",
-              "branches": [
-                {
-                  "title": "Governor-Generals of Bengal (1773 - 1833)",
-                  "subnodes": [
-                    "Warren Hastings (1773-1785)",
-                    "Lord Cornwallis (1786-1793)",
-                    "Lord Wellesley (1798-1805)"
-                  ]
-                },
-                {
-                  "title": "Governor-Generals of India (1833 - 1858)",
-                  "subnodes": [
-                    "Lord William Bentinck (1828-1835)"
-                  ]
-                },
-                {
-                  "title": "Viceroys of India (1858 - 1947)",
-                  "subnodes": [
-                    "Lord Canning (1856-1862)",
-                    "Lord Lytton (1876-1880)",
-                    "Lord Ripon (1880-1884)"
-                  ]
-                }
-              ]
-            }
+            "title": "Governor Generals & Viceroys",
+            "notes": "<p>Content for Governor Generals & Viceroys is being generated...</p>"
           }
         ]
       },
       {
-        "id": "constitutional-development",
-        "title": "Constitutional Development",
+        "id": "revolt-of-1857",
+        "title": "Revolt Of 1857",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "constitutional-development",
-            "title": "Constitutional Development",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "1773: Supreme Court | 1833: GG of India | 1909: Separate Electorate | 1919: Provincial Dyarchy | 1935: Provincial Autonomy",
-            "mindmap": {
-              "root": "Constitutional Development",
-              "branches": [
-                {
-                  "title": "Company Regulation Acts",
-                  "subnodes": [
-                    "Regulating Act of 1773",
-                    "Pitts India Act of 1784",
-                    "Charter Act of 1813"
-                  ]
-                },
-                {
-                  "title": "Crown Administration Acts",
-                  "subnodes": [
-                    "Government of India Act 1858",
-                    "Indian Councils Act 1909 (Morley-Minto Reforms)",
-                    "Government of India Act 1919 (Montagu-Chelmsford Reforms)"
-                  ]
-                }
-              ]
-            }
+            "id": "revolt-of-1857",
+            "title": "Revolt Of 1857",
+            "notes": "<p>Content for Revolt Of 1857 is being generated...</p>"
           }
         ]
       },
       {
-        "id": "freedom-movement",
-        "title": "Freedom Movement",
+        "id": "organisations-social-political",
+        "title": "Organisations - Social, Political",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "freedom-movement",
-            "title": "Freedom Movement",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "INC Founded: 1885 | Dandi March: March 12-April 6, 1930 | Quit India: Aug 8, 1942 | Chauri Chaura: Feb 1922",
-            "mindmap": {
-              "root": "Freedom Movement",
-              "branches": [
-                {
-                  "title": "Early Phases",
-                  "subnodes": [
-                    "Indian National Congress (INC) Founded (1885)",
-                    "Moderate Phase (1885-1905)",
-                    "Extremist Phase (1905-1919)"
-                  ]
-                },
-                {
-                  "title": "Gandhian Era (1919 - 1947)",
-                  "subnodes": [
-                    "Gandhi returned from South Africa on 9 January 1915 (cele...",
-                    "Early Satyagrahas",
-                    "Rowlatt Act & Jallianwala Bagh (1919)"
-                  ]
-                }
-              ]
-            }
+            "id": "organisations-social-political",
+            "title": "Organisations - Social, Political",
+            "notes": "<p>Content for Organisations - Social, Political is being generated...</p>"
           }
         ]
       },
       {
-        "id": "post-independence-consolidation",
-        "title": "Post-Independence Consolidation",
+        "id": "gandhian-era-freedom-struggle",
+        "title": "Gandhian Era & Freedom Struggle",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "post-independence-consolidation",
-            "title": "Post-Independence Consolidation",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Operation Polo: Hyderabad (1948) | 1st Linguistic State: Andhra (1953) | SRC 1956: Fazl Ali Commission",
-            "mindmap": {
-              "root": "Post-Independence Consolidation",
-              "branches": [
-                {
-                  "title": "Integration of Princely States",
-                  "subnodes": [
-                    "Junagadh",
-                    "Hyderabad",
-                    "Jammu & Kashmir"
-                  ]
-                },
-                {
-                  "title": "States Reorganization",
-                  "subnodes": [
-                    "Andhra Pradesh became the first linguistic state in 1953 ...",
-                    "Dhar Commission (1948) and JVP Committee (1948 - Jawaharl...",
-                    "Following Sriramulu's death, the government appointed the..."
-                  ]
-                }
-              ]
-            }
+            "id": "gandhian-era-freedom-struggle",
+            "title": "Gandhian Era & Freedom Struggle",
+            "notes": "<p>Content for Gandhian Era & Freedom Struggle is being generated...</p>"
           }
         ]
       },
       {
-        "id": "revolutions",
-        "title": "Revolutions",
+        "id": "the-pre-history-or-stone-age",
+        "title": "The Pre-History or Stone Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "revolutions",
-            "title": "Revolutions",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "French: 1789 (Liberty, Equality, Fraternity) | American: 1776 (July 4) | Russian: 1917 (Lenin/Bolsheviks)",
-            "mindmap": {
-              "root": "Revolutions",
-              "branches": [
-                {
-                  "title": "American Revolution (1775 - 1783)",
-                  "subnodes": [
-                    "Causes",
-                    "Boston Tea Party (1773)",
-                    "Declaration of Independence"
-                  ]
-                },
-                {
-                  "title": "French Revolution (1789)",
-                  "subnodes": [
-                    "Causes",
-                    "Storming of the Bastille (14 July 1789)",
-                    "Motto"
-                  ]
-                },
-                {
-                  "title": "Russian Revolution (1917)",
-                  "subnodes": [
-                    "Overthrew the Tsarist autocracy",
-                    "February Revolution",
-                    "October (Bolshevik) Revolution"
-                  ]
-                },
-                {
-                  "title": "Industrial Revolution",
-                  "subnodes": [
-                    "Began in Britain in the mid-18th century",
-                    "Key inventions",
-                    "Impact"
-                  ]
-                }
-              ]
-            }
+            "id": "the-pre-history-or-stone-age",
+            "title": "The Pre-History or Stone Age",
+            "notes": "<p>Content for The Pre-History or Stone Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "world-war-i",
-        "title": "World War I",
+        "id": "the-mesolithic-age",
+        "title": "The Mesolithic Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "world-war-i",
-            "title": "World War I",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "WWI: 1914-1918 | Trigger: Sarajevo Assassination | End: Treaty of Versailles (1919)",
-            "mindmap": {
-              "root": "World War I",
-              "branches": [
-                {
-                  "title": "Causes and Blocs",
-                  "subnodes": [
-                    "Causes",
-                    "Immediate Cause",
-                    "Alliances"
-                  ]
-                },
-                {
-                  "title": "Outcomes",
-                  "subnodes": [
-                    "Ended with Germany's surrender on 11 Nov 1918",
-                    "Collpase of major empires",
-                    "Created the League of Nations (1920) to prevent future wa..."
-                  ]
-                }
-              ]
-            }
+            "id": "the-mesolithic-age",
+            "title": "The Mesolithic Age",
+            "notes": "<p>Content for The Mesolithic Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "interwar-period",
-        "title": "Interwar Period",
+        "id": "the-mesolithic-age-47",
+        "title": "The Mesolithic Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "interwar-period",
-            "title": "Interwar Period",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "League of Nations: 1920 | Great Depression: 1929 | Hitler Chancellor: 1933",
-            "mindmap": {
-              "root": "Interwar Period",
-              "branches": [
-                {
-                  "title": "Major Developments",
-                  "subnodes": [
-                    "League of Nations",
-                    "Great Depression (1929)",
-                    "Rise of Dictators"
-                  ]
-                }
-              ]
-            }
+            "id": "the-mesolithic-age-47",
+            "title": "The Mesolithic Age",
+            "notes": "<p>Content for The Mesolithic Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "world-war-ii",
-        "title": "World War II",
+        "id": "the-mesolithic-age-48",
+        "title": "The Mesolithic Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "world-war-ii",
-            "title": "World War II",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "WWII: 1939-1945 | Trigger: Poland Invasion | Atomic Bombs: Hiroshima (Aug 6), Nagasaki (Aug 9, 1945)",
-            "mindmap": {
-              "root": "World War II",
-              "branches": [
-                {
-                  "title": "Causes and Outbreak",
-                  "subnodes": [
-                    "Causes",
-                    "Immediate Cause",
-                    "Alliances"
-                  ]
-                },
-                {
-                  "title": "Decisive Events & End",
-                  "subnodes": [
-                    "Pearl Harbor (7 Dec 1941)",
-                    "Battle of Stalingrad (1942-43)",
-                    "D-Day (6 June 1944)"
-                  ]
-                }
-              ]
-            }
+            "id": "the-mesolithic-age-48",
+            "title": "The Mesolithic Age",
+            "notes": "<p>Content for The Mesolithic Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "cold-war",
-        "title": "Cold War",
+        "id": "the-mesolithic-age-49",
+        "title": "The Mesolithic Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "cold-war",
-            "title": "Cold War",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "NATO: 1949 | Warsaw Pact: 1955 | Cuban Missile Crisis: 1962 | Collapse of USSR: 1991",
-            "mindmap": {
-              "root": "Cold War",
-              "branches": [
-                {
-                  "title": "Ideological Rivalry",
-                  "subnodes": [
-                    "USA (Western Bloc)",
-                    "USSR (Eastern Bloc)",
-                    "Military Blocs"
-                  ]
-                },
-                {
-                  "title": "Decolonisation",
-                  "subnodes": [
-                    "The decline of European economic power post-WWII led to i...",
-                    "Non-Aligned Movement (NAM)"
-                  ]
-                }
-              ]
-            }
+            "id": "the-mesolithic-age-49",
+            "title": "The Mesolithic Age",
+            "notes": "<p>Content for The Mesolithic Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "international-institutions",
-        "title": "International Institutions",
+        "id": "the-neolithic-age",
+        "title": "The Neolithic Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "international-institutions",
-            "title": "International Institutions",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "UN Founded: Oct 24, 1945 | Bretton Woods (1944): IMF & World Bank | WTO: Jan 1, 1995 (replaced GATT)",
-            "mindmap": {
-              "root": "International Institutions",
-              "branches": [
-                {
-                  "title": "The United Nations (UN)",
-                  "subnodes": [
-                    "Established on 24 October 1945 (UN Day) to replace the Le...",
-                    "Six Principal Organs",
-                    "Security Council"
-                  ]
-                },
-                {
-                  "title": "Financial & Trade Bodies",
-                  "subnodes": [
-                    "Bretton Woods Twins (1944)",
-                    "World Trade Organization (WTO)"
-                  ]
-                }
-              ]
-            }
+            "id": "the-neolithic-age",
+            "title": "The Neolithic Age",
+            "notes": "<p>Content for The Neolithic Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "architecture",
-        "title": "Architecture",
+        "id": "the-neolithic-age-51",
+        "title": "The Neolithic Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "architecture",
-            "title": "Architecture",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Nagara: Shikhara | Dravida: Vimana & Gopurams | Vesara: Star-shaped/hybrid | Indo-Islamic: Arch & Dome",
-            "mindmap": {
-              "root": "Architecture",
-              "branches": [
-                {
-                  "title": "Temple Architecture Styles",
-                  "subnodes": [
-                    "Nagara Style (North India)",
-                    "Dravida Style (South India)",
-                    "Vesara Style (Deccan)"
-                  ]
-                },
-                {
-                  "title": "Indo-Islamic & Mughal Architecture",
-                  "subnodes": [
-                    "Introduced the arch, dome, minaret, mortar, and geometric...",
-                    "Delhi Sultanate",
-                    "Mughal Architecture"
-                  ]
-                },
-                {
-                  "title": "Stupas, Caves & Monuments",
-                  "subnodes": [
-                    "Sanchi Stupa (MP)",
-                    "Ajanta Caves",
-                    "Ellora Caves"
-                  ]
-                }
-              ]
-            }
+            "id": "the-neolithic-age-51",
+            "title": "The Neolithic Age",
+            "notes": "<p>Content for The Neolithic Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "paintings",
-        "title": "Paintings",
+        "id": "the-neolithic-age-52",
+        "title": "The Neolithic Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "paintings",
-            "title": "Paintings",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Ajanta: Buddhist murals | Miniatures peak: Jahangir | Madhubani: Bihar | Warli: Maharashtra",
-            "mindmap": {
-              "root": "Paintings",
-              "branches": [
-                {
-                  "title": "Murals & Miniatures",
-                  "subnodes": [
-                    "Mural Paintings",
-                    "Miniature Paintings"
-                  ]
-                },
-                {
-                  "title": "Folk Paintings",
-                  "subnodes": [
-                    "Madhubani Paintings (Bihar)",
-                    "Warli Paintings (Maharashtra)",
-                    "Pattachitra (Odisha)"
-                  ]
-                }
-              ]
-            }
+            "id": "the-neolithic-age-52",
+            "title": "The Neolithic Age",
+            "notes": "<p>Content for The Neolithic Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "dance-music",
-        "title": "Dance & Music",
+        "id": "the-neolithic-age-53",
+        "title": "The Neolithic Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "dance-music",
-            "title": "Dance & Music",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "8 Classical Dances: Bharatnatyam (TN), Kathak (UP), Kathakali/Mohiniyattam (KL), Kuchipudi (AP), Odissi (OR), Manipuri (MN), Sattriya (AS)",
-            "mindmap": {
-              "root": "Dance & Music",
-              "branches": [
-                {
-                  "title": "Eight Classical Dances",
-                  "subnodes": [
-                    "Bharatnatyam",
-                    "Kathak",
-                    "Kathakali"
-                  ]
-                },
-                {
-                  "title": "Classical Music Systems",
-                  "subnodes": [
-                    "Hindustani Music (North India)",
-                    "Carnatic Music (South India)"
-                  ]
-                }
-              ]
-            }
+            "id": "the-neolithic-age-53",
+            "title": "The Neolithic Age",
+            "notes": "<p>Content for The Neolithic Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "literature",
-        "title": "Literature",
+        "id": "the-neolithic-age-54",
+        "title": "The Neolithic Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "literature",
-            "title": "Literature",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Tripitakas: Pali (Buddhism) | Angas: Prakrit (Jainism) | Ashtadhyayi: Panini | Silappatikaram: Ilango Adigal",
-            "mindmap": {
-              "root": "Literature",
-              "branches": [
-                {
-                  "title": "Ancient Scripts & Texts",
-                  "subnodes": [
-                    "The Vedas",
-                    "Epics",
-                    "Buddhist Canons (Tripitakas - in Pali)"
-                  ]
-                }
-              ]
-            }
+            "id": "the-neolithic-age-54",
+            "title": "The Neolithic Age",
+            "notes": "<p>Content for The Neolithic Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "religion-festivals",
-        "title": "Religion & Festivals",
+        "id": "the-chalcolithic-age",
+        "title": "The Chalcolithic Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "religion-festivals",
-            "title": "Religion & Festivals",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "National Calendar: Saka Era (78 CE) | Onam: Kerala | Pongal: TN | Hornbill: Nagaland",
-            "mindmap": {
-              "root": "Religion & Festivals",
-              "branches": [
-                {
-                  "title": "Six Orthodox Schools (Shad-Darshanas)",
-                  "subnodes": [
-                    "Samkhya (Sage Kapila)",
-                    "Yoga (Sage Patanjali)",
-                    "Nyaya (Sage Gautama)"
-                  ]
-                },
-                {
-                  "title": "Regional Festivals",
-                  "subnodes": [
-                    "Onam (Kerala)",
-                    "Pongal (Tamil Nadu)",
-                    "Bihu (Assam)"
-                  ]
-                }
-              ]
-            }
+            "id": "the-chalcolithic-age",
+            "title": "The Chalcolithic Age",
+            "notes": "<p>Content for The Chalcolithic Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "heritage-sites",
-        "title": "Heritage Sites",
+        "id": "the-chalcolithic-age-56",
+        "title": "The Chalcolithic Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "heritage-sites",
-            "title": "Heritage Sites",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "UNESCO count: 42 | Mixed: Khangchendzonga | Recent: Santiniketan, Hoysala temples",
-            "mindmap": {
-              "root": "Heritage Sites",
-              "branches": [
-                {
-                  "title": "Classification",
-                  "subnodes": [
-                    "Cultural Sites (34)",
-                    "Natural Sites (7)",
-                    "Mixed Site (1)"
-                  ]
-                }
-              ]
-            }
+            "id": "the-chalcolithic-age-56",
+            "title": "The Chalcolithic Age",
+            "notes": "<p>Content for The Chalcolithic Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "history-pyq-trends-topic",
-        "title": "History PYQ Trends (NDA/CDS)",
+        "id": "indus-valley-civilisation",
+        "title": "Indus Valley Civilisation",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "history-pyq-trends-topic",
-            "title": "History PYQ Trends (NDA/CDS)",
-            "notes": "Detailed notes expanded in notes_extra_history.js",
-            "formulas": "Acts: 1909 (Separate Electorates) | 1919 (Dyarchy) | 1935 (Provincial Autonomy)\nRevolt 1857: Bihar - Kunwar Singh | Kanpur - Nana Saheb | Jhansi - Laxmibai",
-            "mindmap": {
-              "root": "History PYQs",
-              "branches": [
-                {
-                  "title": "Ancient",
-                  "subnodes": [
-                    "IVC Site Findings",
-                    "4 Buddhist Councils",
-                    "Ashokan Edicts"
-                  ]
-                },
-                {
-                  "title": "Medieval",
-                  "subnodes": [
-                    "Sultanate Adm terms",
-                    "Mughal Land Revenue",
-                    "Maratha Ashtapradhan"
-                  ]
-                },
-                {
-                  "title": "Modern",
-                  "subnodes": [
-                    "Acts (1909, 1919, 1935)",
-                    "1857 Leaders & Centers",
-                    "Tribal/Peasant Revolts"
-                  ]
-                }
-              ]
-            }
+            "id": "indus-valley-civilisation",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-58",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-58",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-59",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-59",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-60",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-60",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-61",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-61",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-62",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-62",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-63",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-63",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-64",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-64",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-65",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-65",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-66",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-66",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-67",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-67",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-68",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-68",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-69",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-69",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-70",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-70",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-71",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-71",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "advent-of-europeans",
+        "title": "Advent of Europeans",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "advent-of-europeans",
+            "title": "Advent of Europeans",
+            "notes": "<p>Content for Advent of Europeans is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "advent-of-europeans-73",
+        "title": "Advent of Europeans",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "advent-of-europeans-73",
+            "title": "Advent of Europeans",
+            "notes": "<p>Content for Advent of Europeans is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "british-expansion-in-india",
+        "title": "British Expansion in India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "british-expansion-in-india",
+            "title": "British Expansion in India",
+            "notes": "<p>Content for British Expansion in India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "british-expansion-in-india-75",
+        "title": "British Expansion in India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "british-expansion-in-india-75",
+            "title": "British Expansion in India",
+            "notes": "<p>Content for British Expansion in India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "british-expansion-in-india-76",
+        "title": "British Expansion in India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "british-expansion-in-india-76",
+            "title": "British Expansion in India",
+            "notes": "<p>Content for British Expansion in India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "first-anglo-maratha-war",
+        "title": "First Anglo Maratha War",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "first-anglo-maratha-war",
+            "title": "First Anglo Maratha War",
+            "notes": "<p>Content for First Anglo Maratha War is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "second-anglo-maratha-war",
+        "title": "Second Anglo Maratha War",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "second-anglo-maratha-war",
+            "title": "Second Anglo Maratha War",
+            "notes": "<p>Content for Second Anglo Maratha War is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "third-anglo-maratha-war",
+        "title": "Third Anglo Maratha War",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "third-anglo-maratha-war",
+            "title": "Third Anglo Maratha War",
+            "notes": "<p>Content for Third Anglo Maratha War is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "permanent-settlement",
+        "title": "Permanent Settlement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "permanent-settlement",
+            "title": "Permanent Settlement",
+            "notes": "<p>Content for Permanent Settlement is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ryotwari-settlement",
+        "title": "Ryotwari Settlement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ryotwari-settlement",
+            "title": "Ryotwari Settlement",
+            "notes": "<p>Content for Ryotwari Settlement is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "mahalwari-settlement",
+        "title": "Mahalwari Settlement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "mahalwari-settlement",
+            "title": "Mahalwari Settlement",
+            "notes": "<p>Content for Mahalwari Settlement is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "education-policies",
+        "title": "Education Policies",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "education-policies",
+            "title": "Education Policies",
+            "notes": "<p>Content for Education Policies is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "press-acts",
+        "title": "Press Acts",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "press-acts",
+            "title": "Press Acts",
+            "notes": "<p>Content for Press Acts is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "civil-services-acts",
+        "title": "Civil Services Acts",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "civil-services-acts",
+            "title": "Civil Services Acts",
+            "notes": "<p>Content for Civil Services Acts is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "british-acts-86",
+        "title": "British Acts",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "british-acts-86",
+            "title": "British Acts",
+            "notes": "<p>Content for British Acts is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "harappan-civilization",
+        "title": "Harappan Civilization",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "harappan-civilization",
+            "title": "Harappan Civilization",
+            "notes": "<p>Content for Harappan Civilization is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "harappan-civilization-88",
+        "title": "Harappan Civilization",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "harappan-civilization-88",
+            "title": "Harappan Civilization",
+            "notes": "<p>Content for Harappan Civilization is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "harappan-civilization-89",
+        "title": "Harappan Civilization",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "harappan-civilization-89",
+            "title": "Harappan Civilization",
+            "notes": "<p>Content for Harappan Civilization is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "harappan-civilization-90",
+        "title": "Harappan Civilization",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "harappan-civilization-90",
+            "title": "Harappan Civilization",
+            "notes": "<p>Content for Harappan Civilization is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "harappan-civilization-91",
+        "title": "Harappan Civilization",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "harappan-civilization-91",
+            "title": "Harappan Civilization",
+            "notes": "<p>Content for Harappan Civilization is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governor-generals-viceroys-92",
+        "title": "Governor Generals & Viceroys",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governor-generals-viceroys-92",
+            "title": "Governor Generals & Viceroys",
+            "notes": "<p>Content for Governor Generals & Viceroys is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governor-generals-viceroys-93",
+        "title": "Governor Generals & Viceroys",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governor-generals-viceroys-93",
+            "title": "Governor Generals & Viceroys",
+            "notes": "<p>Content for Governor Generals & Viceroys is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governor-generals-viceroys-94",
+        "title": "Governor Generals & Viceroys",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governor-generals-viceroys-94",
+            "title": "Governor Generals & Viceroys",
+            "notes": "<p>Content for Governor Generals & Viceroys is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governor-generals-viceroys-95",
+        "title": "Governor Generals & Viceroys",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governor-generals-viceroys-95",
+            "title": "Governor Generals & Viceroys",
+            "notes": "<p>Content for Governor Generals & Viceroys is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governor-generals-viceroys-96",
+        "title": "Governor Generals & Viceroys",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governor-generals-viceroys-96",
+            "title": "Governor Generals & Viceroys",
+            "notes": "<p>Content for Governor Generals & Viceroys is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governor-generals-viceroys-97",
+        "title": "Governor Generals & Viceroys",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governor-generals-viceroys-97",
+            "title": "Governor Generals & Viceroys",
+            "notes": "<p>Content for Governor Generals & Viceroys is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-98",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-98",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-99",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-99",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-valley-civilisation-100",
+        "title": "Indus Valley Civilisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-valley-civilisation-100",
+            "title": "Indus Valley Civilisation",
+            "notes": "<p>Content for Indus Valley Civilisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-vedic-age",
+        "title": "The Vedic Age",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-vedic-age",
+            "title": "The Vedic Age",
+            "notes": "<p>Content for The Vedic Age is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-vedic-age-102",
+        "title": "The Vedic Age",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-vedic-age-102",
+            "title": "The Vedic Age",
+            "notes": "<p>Content for The Vedic Age is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-vedic-age-103",
+        "title": "The Vedic Age",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-vedic-age-103",
+            "title": "The Vedic Age",
+            "notes": "<p>Content for The Vedic Age is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governors-general-and-viceroys-of-india",
+        "title": "Governors-General and Viceroys of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governors-general-and-viceroys-of-india",
+            "title": "Governors-General and Viceroys of India",
+            "notes": "<p>Content for Governors-General and Viceroys of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governors-general-and-viceroys-of-india-105",
+        "title": "Governors-General and Viceroys of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governors-general-and-viceroys-of-india-105",
+            "title": "Governors-General and Viceroys of India",
+            "notes": "<p>Content for Governors-General and Viceroys of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governors-general-and-viceroys-of-india-106",
+        "title": "Governors-General and Viceroys of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governors-general-and-viceroys-of-india-106",
+            "title": "Governors-General and Viceroys of India",
+            "notes": "<p>Content for Governors-General and Viceroys of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governors-general-and-viceroys-of-india-107",
+        "title": "Governors-General and Viceroys of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governors-general-and-viceroys-of-india-107",
+            "title": "Governors-General and Viceroys of India",
+            "notes": "<p>Content for Governors-General and Viceroys of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governors-general-and-viceroys-of-india-108",
+        "title": "Governors-General and Viceroys of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governors-general-and-viceroys-of-india-108",
+            "title": "Governors-General and Viceroys of India",
+            "notes": "<p>Content for Governors-General and Viceroys of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governors-general-and-viceroys-of-india-109",
+        "title": "Governors-General and Viceroys of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governors-general-and-viceroys-of-india-109",
+            "title": "Governors-General and Viceroys of India",
+            "notes": "<p>Content for Governors-General and Viceroys of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governors-general-and-viceroys-of-india-110",
+        "title": "Governors-General and Viceroys of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governors-general-and-viceroys-of-india-110",
+            "title": "Governors-General and Viceroys of India",
+            "notes": "<p>Content for Governors-General and Viceroys of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "governors-general-and-viceroys-of-india-111",
+        "title": "Governors-General and Viceroys of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "governors-general-and-viceroys-of-india-111",
+            "title": "Governors-General and Viceroys of India",
+            "notes": "<p>Content for Governors-General and Viceroys of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rig-vedic-society",
+        "title": "Rig Vedic Society",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rig-vedic-society",
+            "title": "Rig Vedic Society",
+            "notes": "<p>Content for Rig Vedic Society is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rig-vedic-polity",
+        "title": "Rig Vedic Polity",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rig-vedic-polity",
+            "title": "Rig Vedic Polity",
+            "notes": "<p>Content for Rig Vedic Polity is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rig-vedic-religion",
+        "title": "Rig Vedic Religion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rig-vedic-religion",
+            "title": "Rig Vedic Religion",
+            "notes": "<p>Content for Rig Vedic Religion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rivers-mentioned-in-the-rig-veda",
+        "title": "Rivers Mentioned in the Rig Veda",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rivers-mentioned-in-the-rig-veda",
+            "title": "Rivers Mentioned in the Rig Veda",
+            "notes": "<p>Content for Rivers Mentioned in the Rig Veda is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "prominent-gods-and-goddesses",
+        "title": "Prominent Gods and Goddesses",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "prominent-gods-and-goddesses",
+            "title": "Prominent Gods and Goddesses",
+            "notes": "<p>Content for Prominent Gods and Goddesses is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "geographical-extent-social-life-purushasukta-theory-political-organisation",
+        "title": "Geographical Extent, Social Life, Purushasukta Theory, Political Organisation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "geographical-extent-social-life-purushasukta-theory-political-organisation",
+            "title": "Geographical Extent, Social Life, Purushasukta Theory, Political Organisation",
+            "notes": "<p>Content for Geographical Extent, Social Life, Purushasukta Theory, Political Organisation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rise-of-vishnu-and-religious-developments",
+        "title": "Rise of Vishnu and Religious Developments",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rise-of-vishnu-and-religious-developments",
+            "title": "Rise of Vishnu and Religious Developments",
+            "notes": "<p>Content for Rise of Vishnu and Religious Developments is being generated...</p>"
           }
         ]
       }
     ]
   },
-  "geography": {
-    "title": "Geography (CDS/NDA)",
+  "general_studies": {
+    "title": "General Studies",
     "chapters": [
       {
-        "id": "universe-solar-system",
-        "title": "The Universe & Solar System",
+        "id": "settlements-urbanization-second-urbanization",
+        "title": "Settlements & Urbanization (Second Urbanization)",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "universe-solar-system",
-            "title": "The Universe & Solar System",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Cosmology Facts",
-            "mindmap": {
-              "root": "Universe",
-              "branches": [
-                {
-                  "title": "Theories",
-                  "subnodes": [
-                    "Big Bang",
-                    "Steady State"
-                  ]
-                },
-                {
-                  "title": "Solar System",
-                  "subnodes": [
-                    "Inner planets",
-                    "Outer planets",
-                    "Asteroid belt"
-                  ]
-                }
-              ]
-            }
+            "id": "settlements-urbanization-second-urbanization",
+            "title": "Settlements & Urbanization (Second Urbanization)",
+            "notes": "<p>Content for Settlements & Urbanization (Second Urbanization) is being generated...</p>"
           }
         ]
       },
       {
-        "id": "earth-atmosphere",
-        "title": "Earth Structure & Atmosphere",
+        "id": "technology-skills-in-the-iron-age",
+        "title": "Technology & Skills in the Iron Age",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "earth-atmosphere",
-            "title": "Earth Structure & Atmosphere",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Lapse Rate = 6.5°C/km",
-            "mindmap": {
-              "root": "Earth & Atmosphere",
-              "branches": [
-                {
-                  "title": "Earth Layers",
-                  "subnodes": [
-                    "Crust (SIAL)",
-                    "Mantle (Asthenosphere)",
-                    "Core (NIFE)"
-                  ]
-                },
-                {
-                  "title": "Atmosphere",
-                  "subnodes": [
-                    "Troposphere",
-                    "Stratosphere",
-                    "Mesosphere",
-                    "Ionosphere"
-                  ]
-                }
-              ]
-            }
+            "id": "technology-skills-in-the-iron-age",
+            "title": "Technology & Skills in the Iron Age",
+            "notes": "<p>Content for Technology & Skills in the Iron Age is being generated...</p>"
           }
         ]
       },
       {
-        "id": "climatology-clouds",
-        "title": "Climatology: Climatic Zones & Clouds",
+        "id": "eightfold-path-of-buddha",
+        "title": "Eightfold Path of Buddha",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "climatology-clouds",
-            "title": "Climatology: Climatic Zones & Clouds",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Cloud types: High, Middle, Low, Convective",
-            "mindmap": {
-              "root": "Climatology",
-              "branches": [
-                {
-                  "title": "Climatic Zones",
-                  "subnodes": [
-                    "Köppen classification",
-                    "Equatorial",
-                    "Monsoon"
-                  ]
-                },
-                {
-                  "title": "Clouds",
-                  "subnodes": [
-                    "Cirrus",
-                    "Altocumulus",
-                    "Stratus",
-                    "Cumulonimbus"
-                  ]
-                }
-              ]
-            }
+            "id": "eightfold-path-of-buddha",
+            "title": "Eightfold Path of Buddha",
+            "notes": "<p>Content for Eightfold Path of Buddha is being generated...</p>"
           }
         ]
       },
       {
-        "id": "geomorphology-seismic-waves",
-        "title": "Geomorphology: Seismic Waves",
-        "icon": "fa-solid fa-earth-americas",
+        "id": "buddhist-literature",
+        "title": "Buddhist Literature",
+        "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "geomorphology-seismic-waves",
-            "title": "Geomorphology: Seismic Waves",
-            "notes": "Detailed notes in notes_extra_geography.js",
-            "mindmap": {
-              "root": "Seismic Waves",
-              "branches": [
-                {
-                  "title": "Body Waves",
-                  "subnodes": [
-                    "P-Waves",
-                    "S-Waves"
-                  ]
-                },
-                {
-                  "title": "Surface Waves",
-                  "subnodes": [
-                    "L-Waves"
-                  ]
-                }
-              ]
-            }
+            "id": "buddhist-literature",
+            "title": "Buddhist Literature",
+            "notes": "<p>Content for Buddhist Literature is being generated...</p>"
           }
         ]
       },
       {
-        "id": "geomorphology-rocks",
-        "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+        "id": "kushan-empire-capitals-and-rulers",
+        "title": "Kushan Empire - Capitals and Rulers",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "geomorphology-rocks",
-            "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Seismic Waves: P-waves, S-waves",
-            "mindmap": {
-              "root": "Geomorphology",
-              "branches": [
-                {
-                  "title": "Rocks",
-                  "subnodes": [
-                    "Igneous",
-                    "Sedimentary",
-                    "Metamorphic"
-                  ]
-                },
-                {
-                  "title": "Tectonic Plates",
-                  "subnodes": [
-                    "Major plates",
-                    "Minor plates",
-                    "Boundaries"
-                  ]
-                },
-                {
-                  "title": "Activity",
-                  "subnodes": [
-                    "Volcanism",
-                    "Earthquakes (Shadow zones)"
-                  ]
-                }
-              ]
-            }
+            "id": "kushan-empire-capitals-and-rulers",
+            "title": "Kushan Empire - Capitals and Rulers",
+            "notes": "<p>Content for Kushan Empire - Capitals and Rulers is being generated...</p>"
           }
         ]
       },
       {
-        "id": "world-geography-mountains",
-        "title": "World Geography: Mountains, Forests & Rivers",
+        "id": "impact-of-central-asian-contacts",
+        "title": "Impact of Central Asian Contacts",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "world-geography-mountains",
-            "title": "World Geography: Mountains, Forests & Rivers",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Major Mountains & World Rivers",
-            "mindmap": {
-              "root": "World Geography",
-              "branches": [
-                {
-                  "title": "Mountains",
-                  "subnodes": [
-                    "Fold",
-                    "Block",
-                    "Volcanic"
-                  ]
-                },
-                {
-                  "title": "Forests",
-                  "subnodes": [
-                    "Evergreen",
-                    "Deciduous",
-                    "Coniferous"
-                  ]
-                },
-                {
-                  "title": "Rivers",
-                  "subnodes": [
-                    "Nile",
-                    "Amazon",
-                    "Yangtze",
-                    "Mississippi"
-                  ]
-                }
-              ]
-            }
+            "id": "impact-of-central-asian-contacts",
+            "title": "Impact of Central Asian Contacts",
+            "notes": "<p>Content for Impact of Central Asian Contacts is being generated...</p>"
           }
         ]
       },
       {
-        "id": "world-geography-straits-deserts",
-        "title": "Straits, Canals, Deserts & Seas",
+        "id": "gandhara-greco-roman-school-of-art",
+        "title": "Gandhara/ Greco- Roman School of Art",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "world-geography-straits-deserts",
-            "title": "Straits, Canals, Deserts & Seas",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Straits: Malacca, Gibraltar, Hormuz, Bab-el-Mandeb, Bering\nCanals: Suez, Panama\nDeserts: Sahara (hot), Atacama (driest), Gobi (cold)",
-            "mindmap": {
-              "root": "World Geog",
-              "branches": [
-                {
-                  "title": "Straits & Canals",
-                  "subnodes": [
-                    "Malacca Strait",
-                    "Gibraltar Strait",
-                    "Hormuz Strait",
-                    "Suez/Panama Canals"
-                  ]
-                },
-                {
-                  "title": "Deserts",
-                  "subnodes": [
-                    "Sahara (Africa)",
-                    "Atacama (driest)",
-                    "Gobi (cold)"
-                  ]
-                }
-              ]
-            }
+            "id": "gandhara-greco-roman-school-of-art",
+            "title": "Gandhara/ Greco- Roman School of Art",
+            "notes": "<p>Content for Gandhara/ Greco- Roman School of Art is being generated...</p>"
           }
         ]
       },
       {
-        "id": "syl-geog",
-        "title": "Indian Geography (Rivers, Passes & Soils)",
+        "id": "mathura-school-of-art",
+        "title": "Mathura School of Art",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "syl-geog",
-            "title": "Indian Geography (Rivers, Passes & Soils)",
-            "notes": "## Indian Geography – Rivers, Passes & Soils\n\n### Introduction\n\nIndia’s geography is a tapestry of contrasting landforms – towering mountains, extensive plains, rugged plateaus, and diverse soils. These physical features have shaped the sub-continent’s history, culture, economy, and strategic considerations. This chapter provides a high-yield overview of the major river systems, key mountain passes, and the principal soil types that are essential for UPSC and Defence examinations.\n\n### Major River Systems\n\n#### 1. Himalayan Rivers\nThe Himalayan rivers originate from glacial melt and snow in the Himalayas. They are perennial, fast-flowing, and drain the northern Indo-Gangetic plains. They often perform intensive erosional activity upstream and form large deltas or flood plains downstream.\n\n*   **Indus River System**: \n    *   **Source**: Bokhar Chu (glacier) in the Kailash range near Mansarovar Lake (Tibet).\n    *   **Key Tributaries**: Jhelum, Chenab, Ravi, Beas, and Sutlej. \n    *   **Significance**: The Indus Water Treaty (1960) allocates the waters of the three western rivers (Indus, Jhelum, Chenab) to Pakistan, and the three eastern rivers (Ravi, Beas, Sutlej) to India.\n*   **Ganga River System**: \n    *   **Source**: Gangotri Glacier near Gaumukh (Uttarakhand). It is initially known as the Bhagirathi. It joins Alaknanda at Devprayag to form the Ganga.\n    *   **Key Tributaries**: Yamuna (longest tributary, source: Yamunotri), Ramganga, Gomti, Ghaghara, Gandak, Kosi (Sorrow of Bihar), and Son.\n    *   **Significance**: Forms the largest river basin in India and is a lifeline for millions, offering immense agricultural potential.\n*   **Brahmaputra River System**: \n    *   **Source**: Chemayungdung glacier of the Kailash range near Mansarovar Lake.\n    *   **Names**: Known as Tsangpo in Tibet, Dihang or Siang in Arunachal Pradesh, and Brahmaputra in Assam. In Bangladesh, it is known as Jamuna.\n    *   **Key Tributaries**: Subansiri, Kameng, Dhansiri, Manas, Teesta.\n    *   **Significance**: Known for causing widespread floods in Assam but also creates fertile plains and the world's largest riverine island, Majuli.\n\n#### 2. Peninsular Rivers\nThese rivers are rain-fed, largely seasonal, and older than the Himalayan rivers. They are generally characterized by broad, shallow valleys. They are divided into East-flowing (forming deltas) and West-flowing (forming estuaries).\n\n*   **East-Flowing Rivers (Into Bay of Bengal)**:\n    *   **Godavari**: The largest Peninsular river system, also known as the Dakshin Ganga. Source: Trimbakeshwar (Maharashtra). Major tributaries: Penganga, Indravati, Pranhita.\n    *   **Krishna**: Second largest east-flowing river. Source: Mahabaleshwar (Maharashtra). Tributaries: Tungabhadra, Bhima, Koyna.\n    *   **Kaveri (Cauvery)**: Source: Brahmagiri hills (Karnataka). Receives rainfall from both Southwest and Northeast monsoons.\n    *   **Mahanadi**: Rises in the highlands of Chhattisgarh and flows through Odisha. The Hirakud Dam is built on this river.\n*   **West-Flowing Rivers (Into Arabian Sea)**:\n    *   **Narmada**: Originates at the Amarkantak Plateau (Madhya Pradesh). Flows in a rift valley between the Vindhya and Satpura ranges. Known for the Dhuandhar falls and the Sardar Sarovar Dam.\n    *   **Tapi (Tapti)**: Source: Multai in the Betul district (Madhya Pradesh). Also flows in a rift valley parallel to the Narmada.\n    *   **Mahi**: Originates in the Vindhyas (Madhya Pradesh) and uniquely crosses the Tropic of Cancer twice.\n\n### Strategic Mountain Passes\n\nMountain passes are crucial for defense strategy, trade, and logistics, acting as gateways across impenetrable ranges.\n\n#### 1. Passes of the Himalayas and Northern India\n*   **Jammu & Kashmir and Ladakh**:\n    *   **Zoji La**: Connects Srinagar to Kargil and Leh. A critical supply route for the Indian Army.\n    *   **Banihal Pass**: Connects Jammu to Srinagar across the Pir Panjal range. (Jawahar Tunnel).\n    *   **Khardung La**: Historically considered the highest motorable pass, near Leh, gateway to the Nubra and Shyok valleys.\n    *   **Burzil Pass**: Connects the Kashmir valley to Gilgit.\n    *   **Aghil Pass**: Connects Ladakh with the Xinjiang province of China.\n*   **Himachal Pradesh**:\n    *   **Rohtang Pass**: Connects the Kullu Valley with the Lahaul and Spiti Valleys.\n    *   **Shipki La**: Connects Himachal Pradesh to Tibet. The Sutlej river enters India through this pass.\n    *   **Bara-Lacha La**: Connects Lahaul district in Himachal Pradesh to Leh in Ladakh.\n*   **Uttarakhand**:\n    *   **Lipulekh Pass**: Connects Uttarakhand with Tibet. Used by pilgrims for the Kailash Mansarovar Yatra.\n    *   **Mana Pass & Niti Pass**: Strategic passes connecting Uttarakhand with Tibet.\n*   **Sikkim & Arunachal Pradesh**:\n    *   **Nathu La (Sikkim)**: A major trading border post between India and China (Tibet).\n    *   **Jelep La (Sikkim)**: Connects Sikkim to Bhutan/Tibet. Creates a route to the Chumbi Valley.\n    *   **Bomdi La (Arunachal Pradesh)**: Connects Arunachal Pradesh to Lhasa (Tibet).\n    *   **Diphu Pass (Arunachal Pradesh)**: Tri-junction pass at the borders of India, China, and Myanmar.\n\n#### 2. Passes of the Western Ghats\n*   **Thal Ghat**: Connects Mumbai to Nashik.\n*   **Bhor Ghat**: Connects Mumbai to Pune.\n*   **Pal Ghat**: Connects Palakkad (Kerala) to Coimbatore (Tamil Nadu). Located between the Nilgiri Hills and the Anaimalai Hills.\n*   **Shencottah Pass**: Connects Kollam (Kerala) to Madurai (Tamil Nadu).\n\n### Principal Soil Types of India\n\nThe Indian Council of Agricultural Research (ICAR) classifies Indian soils into several distinct categories based on genesis, color, composition, and location.\n\n#### 1. Alluvial Soil\n*   **Formation**: Deposited by surface water (rivers). Predominantly found in river basins and coastal plains.\n*   **Coverage**: The most widespread soil in India, covering about 43% of the land area.\n*   **Regions**: Indo-Gangetic-Brahmaputra plains, deltas of the eastern coast (Mahanadi, Godavari, Krishna, Kaveri).\n*   **Characteristics**: Highly fertile. Divided into **Khadar** (new alluvium, lighter, more fertile, found in flood plains) and **Bhangar** (old alluvium, darker, contains calcareous nodules called kankar, slightly elevated).\n*   **Crops**: Wheat, rice, sugarcane, cotton, jute.\n\n#### 2. Black Soil (Regur Soil)\n*   **Formation**: Derived from the weathering of basaltic rocks (volcanic origin) of the Deccan Trap.\n*   **Coverage**: About 15% of the total area.\n*   **Regions**: Maharashtra, Malwa Plateau (Madhya Pradesh), Saurashtra (Gujarat), parts of Karnataka and Telangana.\n*   **Characteristics**: Rich in iron, lime, calcium, and magnesium but poor in nitrogen, phosphorus, and organic matter. Highly clayey and moisture-retentive. Develops deep cracks during summer (self-ploughing capacity).\n*   **Crops**: Exceptionally well-suited for cotton (hence known as Black Cotton Soil). Also good for wheat, jowar, and tobacco.\n\n#### 3. Red and Yellow Soil\n*   **Formation**: Formed by the weathering of ancient crystalline and metamorphic rocks in areas of low rainfall.\n*   **Coverage**: Second largest soil group, covering about 18.5% of the area.\n*   **Regions**: Eastern and southern parts of the Deccan Plateau (Tamil Nadu, Karnataka, Andhra Pradesh, parts of Odisha and Chhattisgarh).\n*   **Characteristics**: The red color is due to a high concentration of iron oxide. It appears yellow when hydrated. Generally poor in nitrogen, phosphorus, and humus.\n*   **Crops**: Requires fertilizers for good yields. Supports groundnut, potatoes, pulses, millets, and tobacco.\n\n#### 4. Laterite Soil\n*   **Formation**: Develops in areas with high temperature and high rainfall through intense leaching (washing away of siliceous matter).\n*   **Regions**: Summits of the Western Ghats, parts of Eastern Ghats, Rajmahal Hills, Meghalaya plateau, and parts of Kerala and Karnataka.\n*   **Characteristics**: Rich in iron oxide and aluminum (bauxite) but poor in organic matter, nitrogen, phosphate, and calcium. Acidic in nature. Used extensively for making bricks.\n*   **Crops**: Not naturally fertile but responds well to manures. Suitable for plantation crops like cashew nuts, tea, coffee, rubber, and cinchona.\n\n#### 5. Arid (Desert) Soil\n*   **Formation**: Wind deposition in arid and semi-arid conditions.\n*   **Regions**: Western Rajasthan, parts of Gujarat, and southern Haryana.\n*   **Characteristics**: Sandy texture, highly alkaline, low organic matter, and low moisture content due to high evaporation. Often contains a high percentage of soluble salts.\n*   **Crops**: Drought-resistant crops like bajra, jowar, and pulses. Can support agriculture if irrigation is provided (e.g., via the Indira Gandhi Canal).\n\n#### 6. Mountain/Forest Soil\n*   **Regions**: Forested regions of the Himalayas, Western Ghats, and Eastern Ghats.\n*   **Characteristics**: Rich in humus but deficient in potash, phosphorus, and lime. Acidic in nature. Texture varies from loamy in valleys to coarse in upper slopes.\n*   **Crops**: Tea, coffee, spices, and temperate fruits (apples, plums).\n\n### High-Yield Exam Facts\n*   The **Ganga, Yamuna, Brahmaputra, and Indus** together drain > 70% of India's total land area.\n*   **Peninsular rivers** are largely rain-fed; their flow peaks during the Southwest monsoon. The Narmada and Tapi are the major exceptions that flow west into the Arabian Sea.\n*   **Shipki La (4,570 m)** and **Bara-Lacha La (4,890 m)** are among the highest Indian passes open for limited trade.\n*   **Alluvial soils** support > 50% of India's food grain production.\n*   **Black soils** are the primary source of cotton – the \"white gold\" of India.\n*   **Western Ghats** are a UNESCO World Heritage site, a biodiversity hotspot, and act as a major water divide for peninsular rivers.\n",
-            "formulas": "Dakshin Ganga: Godavari",
-            "mindmap": {
-              "root": "Indian Geography",
-              "branches": [
-                {
-                  "title": "Himalayan Rivers",
-                  "subnodes": [
-                    "Ganga",
-                    "Indus",
-                    "Brahmaputra"
-                  ]
-                },
-                {
-                  "title": "Peninsular Rivers",
-                  "subnodes": [
-                    "Godavari",
-                    "Krishna",
-                    "Narmada"
-                  ]
-                },
-                {
-                  "title": "Soils",
-                  "subnodes": [
-                    "Alluvial",
-                    "Black (Regur)",
-                    "Laterite"
-                  ]
-                }
-              ]
-            }
+            "id": "mathura-school-of-art",
+            "title": "Mathura School of Art",
+            "notes": "<p>Content for Mathura School of Art is being generated...</p>"
           }
         ]
       },
       {
-        "id": "india-forests-wetlands",
-        "title": "Forests, Trees & Wetlands of India",
+        "id": "sangam-age-chera-dynasty",
+        "title": "Sangam Age & Chera Dynasty",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "india-forests-wetlands",
-            "title": "Forests, Trees & Wetlands of India",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Wetlands (Ramsar Sites)",
-            "mindmap": {
-              "root": "Forests & Wetlands",
-              "branches": [
-                {
-                  "title": "Forest Types",
-                  "subnodes": [
-                    "Evergreen",
-                    "Deciduous (Teak/Sal)",
-                    "Mangroves"
-                  ]
-                },
-                {
-                  "title": "Wetlands",
-                  "subnodes": [
-                    "Ramsar Convention",
-                    "Chilika",
-                    "Keoladeo"
-                  ]
-                }
-              ]
-            }
+            "id": "sangam-age-chera-dynasty",
+            "title": "Sangam Age & Chera Dynasty",
+            "notes": "<p>Content for Sangam Age & Chera Dynasty is being generated...</p>"
           }
         ]
       },
       {
-        "id": "india-resources-farming",
-        "title": "Mineral Resources & Types of Farming",
+        "id": "classification-of-organisms",
+        "title": "Classification of Organisms",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "india-resources-farming",
-            "title": "Mineral Resources & Types of Farming",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Mineral Belts of India",
-            "mindmap": {
-              "root": "Resources & Farming",
-              "branches": [
-                {
-                  "title": "Mineral Belts",
-                  "subnodes": [
-                    "Chhota Nagpur",
-                    "Western",
-                    "Southern"
-                  ]
-                },
-                {
-                  "title": "Farming",
-                  "subnodes": [
-                    "Shifting",
-                    "Intensive",
-                    "Subsistence",
-                    "Jhuming"
-                  ]
-                }
-              ]
-            }
+            "id": "classification-of-organisms",
+            "title": "Classification of Organisms",
+            "notes": "<p>Content for Classification of Organisms is being generated...</p>"
           }
         ]
       },
       {
-        "id": "india-transport-routes",
-        "title": "Transport Routes: Highways & Waterways",
+        "id": "reflex-action-and-reflex-arc",
+        "title": "Reflex Action and Reflex Arc",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "india-transport-routes",
-            "title": "Transport Routes: Highways & Waterways",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Highways & Waterways corridors",
-            "mindmap": {
-              "root": "Transport",
-              "branches": [
-                {
-                  "title": "Highways",
-                  "subnodes": [
-                    "NH44",
-                    "NH48",
-                    "Golden Quadrilateral"
-                  ]
-                },
-                {
-                  "title": "Waterways",
-                  "subnodes": [
-                    "NW1 (Ganga)",
-                    "NW2 (Brahmaputra)"
-                  ]
-                }
-              ]
-            }
+            "id": "reflex-action-and-reflex-arc",
+            "title": "Reflex Action and Reflex Arc",
+            "notes": "<p>Content for Reflex Action and Reflex Arc is being generated...</p>"
           }
         ]
       },
       {
-        "id": "india-national-parks",
-        "title": "National Parks of India (Map Guide)",
+        "id": "chromatin-chromosomes-and-gene-structure",
+        "title": "Chromatin, Chromosomes, and Gene Structure",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "india-national-parks",
-            "title": "National Parks of India (Map Guide)",
-            "notes": "Detailed notes expanded in notes_extra_4.js",
-            "formulas": "Key National Parks locations",
-            "mindmap": {
-              "root": "National Parks",
-              "branches": [
-                {
-                  "title": "North",
-                  "subnodes": [
-                    "Jim Corbett",
-                    "Dachigam"
-                  ]
-                },
-                {
-                  "title": "East/Northeast",
-                  "subnodes": [
-                    "Kaziranga",
-                    "Sundarbans"
-                  ]
-                },
-                {
-                  "title": "West/Central",
-                  "subnodes": [
-                    "Gir",
-                    "Kanha",
-                    "Ranthambore"
-                  ]
-                },
-                {
-                  "title": "South",
-                  "subnodes": [
-                    "Bandipur",
-                    "Silent Valley"
-                  ]
-                }
-              ]
-            }
+            "id": "chromatin-chromosomes-and-gene-structure",
+            "title": "Chromatin, Chromosomes, and Gene Structure",
+            "notes": "<p>Content for Chromatin, Chromosomes, and Gene Structure is being generated...</p>"
           }
         ]
       },
       {
-        "id": "mapping-borders-capitals",
-        "title": "Borders, Capitals & Mapping",
+        "id": "ploidy-levels-and-human-development",
+        "title": "Ploidy Levels and Human Development",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "mapping-borders-capitals",
-            "title": "Borders, Capitals & Mapping",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Borders: Bangladesh (longest), Afghanistan (shortest)\nLines: Radcliffe (PK/BD), MacMahon (CN), Durand (AF)\nStrategic: Malacca, Hormuz, Hambantota",
-            "mindmap": {
-              "root": "Mapping & Borders",
-              "branches": [
-                {
-                  "title": "Borders",
-                  "subnodes": [
-                    "Radcliffe (Pak/BD)",
-                    "MacMahon (China)",
-                    "Durand (Afghan)"
-                  ]
-                },
-                {
-                  "title": "Capitals",
-                  "subnodes": [
-                    "Dhaka (Taka)",
-                    "Kabul (Afghani)",
-                    "Colombo (Rupee)"
-                  ]
-                },
-                {
-                  "title": "Strategic",
-                  "subnodes": [
-                    "Diego Garcia",
-                    "Chabahar Port",
-                    "Hambantota"
-                  ]
-                }
-              ]
-            }
+            "id": "ploidy-levels-and-human-development",
+            "title": "Ploidy Levels and Human Development",
+            "notes": "<p>Content for Ploidy Levels and Human Development is being generated...</p>"
           }
         ]
       },
       {
-        "id": "geog-industries",
-        "title": "Major Industries & Industrial Corridors of India",
+        "id": "india-s-land-borders-china-nepal-and-bhutan",
+        "title": "India's Land Borders: China, Nepal, and Bhutan",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "geog-industries",
-            "title": "Major Industries & Industrial Corridors of India",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "TISCO 1907: First Steel Plant\nDMIC: Delhi-Mumbai Industrial Corridor\nChennai = Detroit of India\nBengaluru = Silicon Valley of India",
-            "mindmap": {
-              "root": "Industries",
-              "branches": [
-                {
-                  "title": "Iron & Steel",
-                  "subnodes": [
-                    "Jamshedpur",
-                    "Bhilai",
-                    "Rourkela"
-                  ]
-                },
-                {
-                  "title": "Textiles",
-                  "subnodes": [
-                    "Mumbai",
-                    "Ahmedabad",
-                    "Coimbatore"
-                  ]
-                },
-                {
-                  "title": "Corridors",
-                  "subnodes": [
-                    "DMIC",
-                    "CBIC",
-                    "AKIC"
-                  ]
-                },
-                {
-                  "title": "SEZs",
-                  "subnodes": [
-                    "Kandla (first)",
-                    "SEEPZ",
-                    "Noida"
-                  ]
-                }
-              ]
-            }
+            "id": "india-s-land-borders-china-nepal-and-bhutan",
+            "title": "India's Land Borders: China, Nepal, and Bhutan",
+            "notes": "<p>Content for India's Land Borders: China, Nepal, and Bhutan is being generated...</p>"
           }
         ]
       },
       {
-        "id": "geog-geopolitics",
-        "title": "Geopolitical Flashpoints & Indo-Pacific",
+        "id": "famous-waterfalls-in-india",
+        "title": "Famous Waterfalls in India",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "geog-geopolitics",
-            "title": "Geopolitical Flashpoints & Indo-Pacific",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "LAC: ~3488 km (3 sectors)\nMcMahon Line: 1914\nSAGAR: Security And Growth for All in the Region\nSiliguri Corridor: 22 km",
-            "mindmap": {
-              "root": "Geopolitics",
-              "branches": [
-                {
-                  "title": "India-China LAC",
-                  "subnodes": [
-                    "Western (Aksai Chin)",
-                    "Eastern (McMahon)",
-                    "Galwan 2020"
-                  ]
-                },
-                {
-                  "title": "Indo-Pacific",
-                  "subnodes": [
-                    "Quad",
-                    "AUKUS",
-                    "SAGAR",
-                    "Malacca Dilemma"
-                  ]
-                },
-                {
-                  "title": "Flashpoints",
-                  "subnodes": [
-                    "Siliguri Corridor",
-                    "LoC",
-                    "BRI/CPEC",
-                    "String of Pearls"
-                  ]
-                }
-              ]
-            }
+            "id": "famous-waterfalls-in-india",
+            "title": "Famous Waterfalls in India",
+            "notes": "<p>Content for Famous Waterfalls in India is being generated...</p>"
           }
         ]
       },
       {
-        "id": "geography-pyq-trends-topic",
-        "title": "Geography PYQ Trends (NDA/CDS)",
+        "id": "pressure-systems-and-air-movement",
+        "title": "Pressure Systems and Air Movement",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "geography-pyq-trends-topic",
-            "title": "Geography PYQ Trends (NDA/CDS)",
-            "notes": "\n              <h3> Geography PYQ Analysis & Recurring Themes</h3>\n              <p>Analysis of UPSC GAT Geography section indicates these recurring high-yield themes:</p>\n              \n              <h3>1. Physical Geography & Climatology</h3>\n              <ul>\n                <li>**Atmospheric Layers:** Repeatedly tested (e.g., *Troposphere* has all weather phenomena, *Stratosphere* has ozone layer and is ideal for flying aircraft, *Ionosphere* reflects radio waves).</li>\n                <li>**Winds:** Match-the-following questions on local winds (e.g., *Chinook* in USA, *Fohn* in Alps, *Harmattan* in West Africa, *Sirocco* in Sahara).</li>\n                <li>**Ocean Currents:** Distinguishing between warm and cold currents (e.g., *Gulf Stream* and *Kuroshio* are warm; *Labrador*, *Canary*, and *Benguela* are cold). Cold current locations are highly tested.</li>\n              </ul>\n              \n              <h3>2. Indian Geography (Highest Questions)</h3>\n              <ul>\n                <li>**River Systems:** East-flowing (Godavari, Krishna, Cauvery) vs. West-flowing (Narmada, Tapi, Mahi, Sabarmati) rivers. Tributaries are a favorite UPSC topic (e.g., *Chambal*, *Betwa*, *Sone* as tributaries of Yamuna/Ganga).</li>\n                <li>**Mountain Passes:** Location of Himalayan passes (e.g., *Zoji La* in Ladakh, *Shipki La* in Himachal, *Nathu La* in Sikkim, *Lipulekh* in Uttarakhand).</li>\n                <li>**Soils of India:** Black Soil (also called *Regur* soil, excellent for cotton, self-ploughing property) and Laterite Soil (formed by leaching, rich in iron oxides, found in Western Ghats and Northeast).</li>\n                <li>**Latitudes and Longitudes:** States through which the *Tropic of Cancer* passes (8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram) and the *Indian Standard Meridian* (82°30' E, passing through 5 states: UP, MP, Chhattisgarh, Odisha, Andhra Pradesh).</li>\n              </ul>\n            ",
-            "formulas": "Tropic of Cancer: 8 States (Guj, Raj, MP, Cg, Jh, WB, TR, MZ)\\nStandard Meridian: 5 States (UP, MP, Cg, OD, AP)\\nRegur: Black Soil | Laterite: Leached Iron-rich",
-            "mindmap": {
-              "root": "Geography PYQs",
-              "branches": [
-                {
-                  "title": "Physical & World",
-                  "subnodes": [
-                    "Atmosphere Layers",
-                    "Local Winds (Chinook, etc.)",
-                    "Warm/Cold Ocean Currents"
-                  ]
-                },
-                {
-                  "title": "Indian River Systems",
-                  "subnodes": [
-                    "East vs West flowing",
-                    "Major Tributaries (Chambal, etc.)",
-                    "Dams & Rivers"
-                  ]
-                },
-                {
-                  "title": "Physiography & Soils",
-                  "subnodes": [
-                    "Himalayan Passes",
-                    "Tropic of Cancer states",
-                    "Black vs Laterite Soil"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "economics": {
-    "title": "Economics (CDS/NDA)",
-    "chapters": [
-      {
-        "id": "econ-concepts",
-        "title": "Core Economic Concepts & Sectors",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "econ-concepts",
-            "title": "Core Economic Concepts & Sectors",
-            "notes": "\n              <h3>1. Sectors of the Economy</h3>\n              <ul>\n                <li>**Primary Sector**: Direct extraction of natural resources. Examples: Agriculture, forestry, mining, fishing.</li>\n                <li>**Secondary Sector**: Manufacturing and processing. Examples: Factories, construction, car assembly.</li>\n                <li>**Tertiary Sector**: Service sector. Examples: Banking, IT, education, tourism, military.</li>\n                <li>**Quaternary Sector**: Knowledge and research. Examples: R&D, information management.</li>\n              </ul>\n              \n              <h3>2. National Income Metrics</h3>\n              <ul>\n                <li>**GDP (Gross Domestic Product)**: Total monetary value of all finished goods and services produced within a country's borders in a specific time period.</li>\n                <li>**GNP (Gross National Product)**: GDP + Net Factor Income from Abroad (NFIA). Measures output of citizens globally.</li>\n                <li>**Real vs Nominal GDP**: Nominal is calculated at current market prices, whereas Real is adjusted for inflation (constant base year prices).</li>\n              </ul>\n            ",
-            "formulas": "GNP = GDP + NFIA\nPrimary = Agriculture | Secondary = Industry | Tertiary = Services\nReal GDP = Nominal GDP / GDP Deflator",
-            "mindmap": {
-              "root": "Intro Econ",
-              "branches": [
-                {
-                  "title": "Sectors",
-                  "subnodes": [
-                    "Primary: Raw Material",
-                    "Secondary: Factories",
-                    "Tertiary: Services"
-                  ]
-                },
-                {
-                  "title": "National Income",
-                  "subnodes": [
-                    "GDP: Inside borders",
-                    "GNP: Citizens only",
-                    "Real GDP: Inflation adjusted"
-                  ]
-                }
-              ]
-            }
+            "id": "pressure-systems-and-air-movement",
+            "title": "Pressure Systems and Air Movement",
+            "notes": "<p>Content for Pressure Systems and Air Movement is being generated...</p>"
           }
         ]
       },
       {
-        "id": "econ-poverty-employment",
-        "title": "Poverty, Employment & Agriculture",
+        "id": "somali-current",
+        "title": "Somali Current",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "econ-poverty-employment",
-            "title": "Poverty, Employment & Agriculture",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Poverty lines: Tendulkar (2009), Rangarajan (2014)\nUnemployment: Disguised (zero marginal productivity - agriculture), Seasonal, Structural\nCrops: Kharif (monsoon), Rabi (winter), Zaid (summer)\nGreen Rev: 1966-67, M.S. Swaminathan",
-            "mindmap": {
-              "root": "Poverty & Jobs",
-              "branches": [
-                {
-                  "title": "Poverty Lines",
-                  "subnodes": [
-                    "Tendulkar (MPCE)",
-                    "Rangarajan",
-                    "Calorie standard (Alagh)"
-                  ]
-                },
-                {
-                  "title": "Unemployment",
-                  "subnodes": [
-                    "Disguised (farming)",
-                    "Structural (skills gap)",
-                    "Frictional (transition)"
-                  ]
-                },
-                {
-                  "title": "Agriculture",
-                  "subnodes": [
-                    "Kharif: rice, cotton",
-                    "Rabi: wheat, mustard",
-                    "Green Revolution"
-                  ]
-                }
-              ]
-            }
+            "id": "somali-current",
+            "title": "Somali Current",
+            "notes": "<p>Content for Somali Current is being generated...</p>"
           }
         ]
       },
       {
-        "id": "rbi-monetary-policy",
-        "title": "RBI & Monetary Policy Tools",
+        "id": "la-nina-impacts",
+        "title": "La-Nina Impacts",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "rbi-monetary-policy",
-            "title": "RBI & Monetary Policy Tools",
-            "notes": "\n              <h3>1. Reserve Bank of India (RBI)</h3>\n              <p>Established on April 1, 1935 under the RBI Act (nationalized in 1949). Acts as the banker's bank and issues currency.</p>\n              \n              <h3>2. Monetary Policy Committee (MPC) tools</h3>\n              <ul>\n                <li>**Quantitative Tools** (Control money volume):\n                  <ul>\n                    <li>**Repo Rate**: The interest rate at which RBI lends money to commercial banks for short terms. Lowering Repo rate increases inflation.</li>\n                    <li>**Reverse Repo Rate**: The rate at which banks park surplus funds with RBI.</li>\n                    <li>**Cash Reserve Ratio (CRR)**: Percentage of deposits banks must keep as cash with RBI. No interest earned on this.</li>\n                    <li>**Statutory Liquidity Ratio (SLR)**: Percentage of deposits banks must keep in liquid assets (Gold, Govt Securities) with themselves.</li>\n                  </ul>\n                </li>\n                <li>**Qualitative Tools**: Marginal requirements, moral suasion, credit rationing.</li>\n              </ul>\n            ",
-            "formulas": "Repo Rate = Lending to Banks\nCRR = Cash with RBI\nSLR = Liquid assets with Bank\nReverse Repo < Repo Rate always",
-            "mindmap": {
-              "root": "Monetary Tools",
-              "branches": [
-                {
-                  "title": "RBI Role",
-                  "subnodes": [
-                    "Est: April 1, 1935",
-                    "Nationalized: 1949",
-                    "Issuer of currency"
-                  ]
-                },
-                {
-                  "title": "MPC Rates",
-                  "subnodes": [
-                    "Repo: Short term loans",
-                    "Reverse Repo: parking funds",
-                    "CRR/SLR: Reserve ratios"
-                  ]
-                }
-              ]
-            }
+            "id": "la-nina-impacts",
+            "title": "La-Nina Impacts",
+            "notes": "<p>Content for La-Nina Impacts is being generated...</p>"
           }
         ]
       },
       {
-        "id": "econ-budget-fiscal",
-        "title": "Government Budget, GST & Fiscal Policy",
+        "id": "northeast-monsoon",
+        "title": "Northeast Monsoon",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "econ-budget-fiscal",
-            "title": "Government Budget, GST & Fiscal Policy",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "FD = Total Exp - Total Revenue (excl borrowings)\nGST: 101st Amendment (Jul 2017)\n4 slabs: 5%, 12%, 18%, 28%\nFRBM Act 2003",
-            "mindmap": {
-              "root": "Budget & Fiscal",
-              "branches": [
-                {
-                  "title": "Revenue Budget",
-                  "subnodes": [
-                    "Tax Revenue",
-                    "Non-Tax Revenue",
-                    "Revenue Expenditure"
-                  ]
-                },
-                {
-                  "title": "Capital Budget",
-                  "subnodes": [
-                    "Borrowings",
-                    "Capital Expenditure"
-                  ]
-                },
-                {
-                  "title": "GST",
-                  "subnodes": [
-                    "CGST+SGST",
-                    "IGST",
-                    "Council (Art 279A)"
-                  ]
-                },
-                {
-                  "title": "Deficits",
-                  "subnodes": [
-                    "Fiscal",
-                    "Revenue",
-                    "Primary"
-                  ]
-                }
-              ]
-            }
+            "id": "northeast-monsoon",
+            "title": "Northeast Monsoon",
+            "notes": "<p>Content for Northeast Monsoon is being generated...</p>"
           }
         ]
       },
       {
-        "id": "econ-trade-bop",
-        "title": "Trade Policy & Balance of Payments",
+        "id": "western-disturbance",
+        "title": "Western Disturbance",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "econ-trade-bop",
-            "title": "Trade Policy & Balance of Payments",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "BoP = Current A/C + Capital A/C\nCAD: India typically deficit (oil imports)\nFDI: Long-term, FPI: Short-term\nWTO: Founded 1995",
-            "mindmap": {
-              "root": "Trade & BoP",
-              "branches": [
-                {
-                  "title": "Current Account",
-                  "subnodes": [
-                    "Trade Balance",
-                    "Services",
-                    "Remittances"
-                  ]
-                },
-                {
-                  "title": "Capital Account",
-                  "subnodes": [
-                    "FDI",
-                    "FPI",
-                    "ECB",
-                    "NRI Deposits"
-                  ]
-                },
-                {
-                  "title": "Trade Policy",
-                  "subnodes": [
-                    "FTP 2023",
-                    "SEZs",
-                    "WTO"
-                  ]
-                }
-              ]
-            }
+            "id": "western-disturbance",
+            "title": "Western Disturbance",
+            "notes": "<p>Content for Western Disturbance is being generated...</p>"
           }
         ]
       },
       {
-        "id": "econ-reforms",
-        "title": "LPG Reforms, NITI Aayog & Financial Institutions",
+        "id": "famous-local-storms",
+        "title": "Famous Local Storms",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "econ-reforms",
-            "title": "LPG Reforms, NITI Aayog & Financial Institutions",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "1991 LPG: Liberalization, Privatization, Globalization\nNITI Aayog: Replaced Planning Commission (2015)\nIBC 2016: 330-day resolution\nSEBI 1992",
-            "mindmap": {
-              "root": "Economic Reforms",
-              "branches": [
-                {
-                  "title": "1991 Reforms",
-                  "subnodes": [
-                    "Liberalization",
-                    "Privatization",
-                    "Globalization"
-                  ]
-                },
-                {
-                  "title": "NITI Aayog",
-                  "subnodes": [
-                    "AIM",
-                    "SDG Index",
-                    "Aspirational Districts"
-                  ]
-                },
-                {
-                  "title": "Regulators",
-                  "subnodes": [
-                    "SEBI",
-                    "IRDA",
-                    "PFRDA",
-                    "IBC"
-                  ]
-                }
-              ]
-            }
+            "id": "famous-local-storms",
+            "title": "Famous Local Storms",
+            "notes": "<p>Content for Famous Local Storms is being generated...</p>"
           }
         ]
       },
       {
-        "id": "five-year-plans",
-        "title": "Economic Planning & Five-Year Plans",
+        "id": "arabian-sea-branch-of-monsoon",
+        "title": "Arabian Sea Branch of Monsoon",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "five-year-plans",
-            "title": "Economic Planning & Five-Year Plans",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "1st Plan (1951-56): Harrod-Domar (agriculture)\n2nd Plan (1956-61): Mahalanobis (heavy industry)\n3rd Plan (1961-66): Gadgil (wars)\n5th Plan (1974-78): Garibi Hatao\n12th Plan (2012-17): last plan\nNITI Aayog: 1 Jan 2015",
-            "mindmap": {
-              "root": "Planning & FYPs",
-              "branches": [
-                {
-                  "title": "Early Plans",
-                  "subnodes": [
-                    "1st: Harrod-Domar",
-                    "2nd: Mahalanobis",
-                    "3rd: Gadgil"
-                  ]
-                },
-                {
-                  "title": "Later Plans",
-                  "subnodes": [
-                    "4th: Bank nationalization",
-                    "5th: Garibi Hatao",
-                    "12th: Final plan"
-                  ]
-                },
-                {
-                  "title": "NITI Aayog",
-                  "subnodes": [
-                    "Cooperative Federalism",
-                    "Bottom-up approach"
-                  ]
-                }
-              ]
-            }
+            "id": "arabian-sea-branch-of-monsoon",
+            "title": "Arabian Sea Branch of Monsoon",
+            "notes": "<p>Content for Arabian Sea Branch of Monsoon is being generated...</p>"
           }
         ]
       },
       {
-        "id": "external-sector-institutions",
-        "title": "IMF, WTO & Balance of Payments",
+        "id": "high-rainfall-zones-in-india",
+        "title": "High Rainfall Zones in India",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "external-sector-institutions",
-            "title": "IMF, WTO & Balance of Payments",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "IMF: BoP crisis support\nWTO: Replaced GATT (1995)\nBoP: Current Account (deficit in India) + Capital Account\nForex: FCA + Gold + SDR (Paper Gold) + RTP",
-            "mindmap": {
-              "root": "External Sector",
-              "branches": [
-                {
-                  "title": "Institutions",
-                  "subnodes": [
-                    "IMF: BoP support",
-                    "World Bank: Development",
-                    "WTO: Trade rules"
-                  ]
-                },
-                {
-                  "title": "BoP",
-                  "subnodes": [
-                    "Current: goods, services, remittances",
-                    "Capital: FDI, FPI, borrowings"
-                  ]
-                },
-                {
-                  "title": "Forex Reserves",
-                  "subnodes": [
-                    "FCA",
-                    "Gold",
-                    "SDR (Paper Gold)",
-                    "RTP"
-                  ]
-                }
-              ]
-            }
+            "id": "high-rainfall-zones-in-india",
+            "title": "High Rainfall Zones in India",
+            "notes": "<p>Content for High Rainfall Zones in India is being generated...</p>"
           }
         ]
       },
       {
-        "id": "econ-govt-schemes",
-        "title": "Key Welfare Schemes & Financial Inclusion",
+        "id": "bay-of-bengal-branch-of-monsoon",
+        "title": "Bay of Bengal Branch of Monsoon",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "econ-govt-schemes",
-            "title": "Key Welfare Schemes & Financial Inclusion",
-            "notes": "Detailed notes expanded in notes_extra_economics.js",
-            "formulas": "PMJDY (2014) - Financial Inclusion\nPM MUDRA Yojana - Micro loans\nAPY (2015) - Pension for unorganized sector\nPM-KISAN - Direct income support\nMGNREGA (2006) - Guaranteed wage employment\nPMUY (2016) - Free LPG connections",
-            "mindmap": {
-              "root": "Govt Schemes",
-              "branches": [
-                {
-                  "title": "Financial Inclusion",
-                  "subnodes": [
-                    "PM Jan Dhan Yojana (PMJDY)",
-                    "PM MUDRA Yojana",
-                    "Atal Pension Yojana (APY)"
-                  ]
-                },
-                {
-                  "title": "Social Security",
-                  "subnodes": [
-                    "PM Jeevan Jyoti Bima (PMJJBY)",
-                    "PM Suraksha Bima (PMSBY)",
-                    "MGNREGA (100 days job)"
-                  ]
-                },
-                {
-                  "title": "Agriculture & Rural",
-                  "subnodes": [
-                    "PM-KISAN (6000/yr)",
-                    "PM Fasal Bima (PMFBY)",
-                    "PMAY (Housing)"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "physics": {
-    "title": "Physics (NDA/CDS)",
-    "chapters": [
-      {
-        "id": "reflection-refraction",
-        "title": "Reflection, Refraction & Lenses",
-        "icon": "fa-solid fa-book-open",
-        "topics": [
-          {
-            "id": "reflection-refraction",
-            "title": "Reflection, Refraction & Lenses",
-            "notes": "\n              <h3>1. Laws of Reflection & Mirror Formulas</h3>\n              <ul>\n                <li>First Law: The incident ray, the reflected ray, and the normal at the point of incidence all lie in the same plane.</li>\n                <li>Second Law: The angle of incidence is equal to the angle of reflection (i = r).</li>\n                <li>**Mirror Formula**: **1/f = 1/v + 1/u**\n                  <ul>\n                    <li>u = object distance (always negative).</li>\n                    <li>v = image distance (positive for virtual, negative for real).</li>\n                    <li>f = focal length (negative for concave, positive for convex).</li>\n                  </ul>\n                </li>\n                <li>Linear Magnification: **m = -v/u = hᵢ/hₒ** (m is negative for real and inverted, positive for virtual and erect).</li>\n              </ul>\n              \n              <h3>2. Refraction & Lens Formulas</h3>\n              <ul>\n                <li>**Snell's Law**: The ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant: **sin i / sin r = constant = ₁μ₂ = μ₂/μ₁**.</li>\n                <li>Absolute Refractive Index: **μ = c / v** (where c is speed of light in vacuum, v is speed in medium).</li>\n                <li>**Lens Formula**: **1/f = 1/v - 1/u**</li>\n                <li>Linear Magnification (Lens): **m = v/u = hᵢ/hₒ**</li>\n                <li>**Power of a Lens (P)**: Reciprocal of focal length in meters. **P = 1 / f(in m)**. Unit: **Dioptre (D)**.\n                  <ul>\n                    <li>Convex lens: f is positive ⇒ P is positive.</li>\n                    <li>Concave lens: f is negative ⇒ P is negative.</li>\n                  </ul>\n                </li>\n              </ul>\n              \n              <h3>3. Key Optical Phenomena</h3>\n              <ul>\n                <li>**Total Internal Reflection (TIR)**: Occurs when light travels from denser to rarer medium and the angle of incidence is greater than the critical angle (θ_c).\n                  <ul>\n                    <li>Formula: **sin θ_c = 1/μ**</li>\n                    <li>Applications: Optical fibers, sparkling of diamonds, mirages in deserts, endoscopes.</li>\n                  </ul>\n                </li>\n                <li>**Dispersion**: Splitting of white light into constituent colors (VIBGYOR) when passing through a prism due to different speeds of different wavelengths in glass. Red deviates least, violet deviates most.</li>\n                <li>**Scattering of Light**: Scattering intensity is inversely proportional to the fourth power of wavelength (Rayleigh Scattering: **I ∝ 1/λ⁴**). Explains why sky is blue (blue has short wavelength, scatters more) and sun appears red at sunrise/sunset.</li>\n              </ul>\n            ",
-            "formulas": "Mirror Formula: 1/f = 1/v + 1/u\nLens Formula: 1/f = 1/v - 1/u\nLens Power: P = 1/f (dioptres)\nRefractive Index: n = c/v",
-            "mindmap": {
-              "root": "Optics & Light",
-              "branches": [
-                {
-                  "title": "Reflection",
-                  "subnodes": [
-                    "Law: i = r",
-                    "Mirror: 1/f = 1/v + 1/u",
-                    "Concave f(-) / Convex f(+)"
-                  ]
-                },
-                {
-                  "title": "Refraction",
-                  "subnodes": [
-                    "Snell: sin i / sin r = μ",
-                    "Lens: 1/f = 1/v - 1/u",
-                    "Power P = 1/f (Dioptres)"
-                  ]
-                },
-                {
-                  "title": "TIR",
-                  "subnodes": [
-                    "Denser to rarer travel",
-                    "Incidence > Critical angle",
-                    "Fibers & Diamonds"
-                  ]
-                },
-                {
-                  "title": "Wave Phenomena",
-                  "subnodes": [
-                    "Dispersion: Prism VIBGYOR",
-                    "Scattering: Rayleigh 1/λ⁴",
-                    "Blue sky & Red sunset"
-                  ]
-                }
-              ]
-            }
+            "id": "bay-of-bengal-branch-of-monsoon",
+            "title": "Bay of Bengal Branch of Monsoon",
+            "notes": "<p>Content for Bay of Bengal Branch of Monsoon is being generated...</p>"
           }
         ]
       },
       {
-        "id": "newtons-laws",
-        "title": "Newton's Laws of Motion",
+        "id": "t-n-coast-rainfall-pattern",
+        "title": "T.N. Coast Rainfall Pattern",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "newtons-laws",
-            "title": "Newton's Laws of Motion",
-            "notes": "\n              <h3>1. Newton's First Law (Law of Inertia)</h3>\n              <ul>\n                <li>A body continues in its state of rest or uniform motion in a straight line unless compelled by an external unbalanced force.</li>\n                <li>Inertia is the inherent property of a body to resist change. Measured by **mass** (greater mass = greater inertia).</li>\n                <li>Types: Inertia of Rest (passengers fall backward when bus starts), Inertia of Motion (passengers fall forward when brakes applied), Inertia of Direction (umbrella protects from rain).</li>\n              </ul>\n              \n              <h3>2. Newton's Second Law (Law of Force)</h3>\n              <ul>\n                <li>The rate of change of momentum of a body is directly proportional to the applied force and takes place in the direction of the force.</li>\n                <li>Momentum: **p = mv** (vector quantity, unit: kg m/s).</li>\n                <li>Mathematical derivation: F = dp/dt = d(mv)/dt = m(dv/dt) = **ma** (Force = mass × acceleration).</li>\n                <li>Unit of Force: Newton (N). 1 N = 1 kg m/s² = 10⁵ Dynes.</li>\n              </ul>\n              \n              <h3>3. Newton's Third Law (Law of Action-Reaction)</h3>\n              <ul>\n                <li>To every action, there is always an equal and opposite reaction. Action and reaction act on **two different bodies**.</li>\n                <li>Examples: Recoil of a gun (backward force on shoulder), swimming (pushing water backward), flight of rockets (exhaust gases push downward, rocket moves up).</li>\n              </ul>\n              \n              <h3>4. Friction and Momentum Conservation</h3>\n              <ul>\n                <li>**Law of Conservation of Linear Momentum**: If no external force acts on a system, the total linear momentum remains constant. (m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂).</li>\n                <li>**Friction**: The opposing force that comes into play when a body moves or tries to move over another surface.\n                  <ul>\n                    <li>Formula: **f = μN** (where μ is coefficient of friction, N is normal reaction).</li>\n                    <li>Order of friction: **Static Friction > Limiting Friction > Kinetic Friction > Rolling Friction**. Rolling friction is the smallest.</li>\n                  </ul>\n                </li>\n              </ul>\n            ",
-            "formulas": "F = ma\nMomentum: p = mv\nFriction: f = μN\nEquations of Motion: v = u + at, s = ut + 0.5at², v² - u² = 2as",
-            "mindmap": {
-              "root": "Laws of Motion",
-              "branches": [
-                {
-                  "title": "1st Law (Inertia)",
-                  "subnodes": [
-                    "Resists state change",
-                    "Inertia of rest/motion",
-                    "Inertia proportional to mass"
-                  ]
-                },
-                {
-                  "title": "2nd Law (Force)",
-                  "subnodes": [
-                    "F = dp/dt rate",
-                    "F = ma derivative",
-                    "1 Newton = 10⁵ Dyne"
-                  ]
-                },
-                {
-                  "title": "3rd Law (Action)",
-                  "subnodes": [
-                    "Equal & opposite force",
-                    "Acts on different bodies",
-                    "Guns recoil & Rockets"
-                  ]
-                },
-                {
-                  "title": "Friction & Momentum",
-                  "subnodes": [
-                    "f = μN equation",
-                    "Static > Kinetic > Rolling",
-                    "Conservation m₁u₁=m₁v₁"
-                  ]
-                }
-              ]
-            }
+            "id": "t-n-coast-rainfall-pattern",
+            "title": "T.N. Coast Rainfall Pattern",
+            "notes": "<p>Content for T.N. Coast Rainfall Pattern is being generated...</p>"
           }
         ]
       },
       {
-        "id": "syl-exercises",
-        "title": "Work, Power, Energy & Gravitation",
+        "id": "climatic-regions-of-india-koeppen-s-scheme",
+        "title": "Climatic Regions of India (Koeppen's Scheme)",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "syl-exercises",
-            "title": "Work, Power, Energy & Gravitation",
-            "notes": "\n              <h3>1. Work, Energy and Power</h3>\n              <ul>\n                <li>**Work (W)**: W = F · s · cos θ. (Scalar quantity, unit: Joule).\n                  <ul>\n                    <li>Work is zero if force and displacement are perpendicular (θ = 90°), e.g., circular planetary orbits, porter holding luggage.</li>\n                  </ul>\n                </li>\n                <li>**Kinetic Energy (KE)**: Energy due to motion. **KE = ½ m v² = p² / 2m** (where p is momentum).\n                  <ul>\n                    <li>If momentum is doubled, KE becomes four times.</li>\n                  </ul>\n                </li>\n                <li>**Potential Energy (PE)**: Energy due to position. **PE = mgh**.</li>\n                <li>**Power (P)**: Rate of doing work. **P = W / t = F · v**. Unit: Watt. **1 Horsepower (HP) = 746 Watts**.</li>\n              </ul>\n              \n              <h3>2. Gravitation & Acceleration due to gravity (g)</h3>\n              <ul>\n                <li>Newton's Law: **F = G M m / r²** (where G = 6.67 × 10⁻¹¹ N m²/kg²; Universal Gravitational Constant).</li>\n                <li>Acceleration due to gravity: **g = G M / R²** (on Earth's surface, g ≈ 9.8 m/s²).\n                  <ul>\n                    <li>g is independent of mass of the falling body.</li>\n                  </ul>\n                </li>\n                <li>**Variations in 'g'**:\n                  <ul>\n                    <li>With Altitude (h): Decreases: **g' = g(1 - 2h/R)**.</li>\n                    <li>With Depth (d): Decreases: **g' = g(1 - d/R)**. (At the centre of Earth, d = R ⇒ g = 0).</li>\n                    <li>Due to shape of Earth: Earth is an oblate spheroid. R_equator > R_pole. Since g ∝ 1/R², **g is minimum at Equator, maximum at Poles**.</li>\n                    <li>Due to rotation: g decreases as rotation speed increases. (At equator g' = g - ω²R). If rotation stops, g at equator increases, while g at poles remains unchanged.</li>\n                  </ul>\n                </li>\n              </ul>\n              \n              <h3>3. Kepler's Laws & Escape Velocity</h3>\n              <ul>\n                <li>**Kepler's 3rd Law (Law of Periods)**: The square of time period of a planet is proportional to the cube of semi-major axis of its orbit: **T² ∝ r³**.</li>\n                <li>**Escape Velocity (vₑ)**: Minimum velocity required to escape gravitational pull.\n                  <ul>\n                    <li>Formula: **vₑ = √(2gR) = √(2GM/R)**.</li>\n                    <li>For Earth, escape velocity is **11.2 km/s**. For Moon, it is **2.38 km/s** (low gravity, hence no atmosphere on Moon).</li>\n                  </ul>\n                </li>\n              </ul>\n            ",
-            "formulas": "Work: W = F·s·cosθ\nKE = 0.5mv² = p²/2m\nPower: P = W/t = F·v\n1 HP = 746 Watts\ng = GM/R²\nEscape Velocity: vₑ = √(2gR) ≈ 11.2 km/s",
-            "mindmap": {
-              "root": "Energy & Gravity",
-              "branches": [
-                {
-                  "title": "Work & Energy",
-                  "subnodes": [
-                    "W = F·s·cosθ",
-                    "KE = ½mv² = p²/2m",
-                    "PE = mgh potential"
-                  ]
-                },
-                {
-                  "title": "Power",
-                  "subnodes": [
-                    "P = W/t = F·v",
-                    "Unit: Watt",
-                    "1 HP = 746 Watts"
-                  ]
-                },
-                {
-                  "title": "Gravity (g)",
-                  "subnodes": [
-                    "g = GM/R²",
-                    "Max at Poles, Min at Equator",
-                    "Zero at Earth's centre"
-                  ]
-                },
-                {
-                  "title": "Orbits & Escape",
-                  "subnodes": [
-                    "Kepler: T² ∝ r³",
-                    "vₑ = √(2gR)",
-                    "Earth vₑ = 11.2 km/s"
-                  ]
-                }
-              ]
-            }
+            "id": "climatic-regions-of-india-koeppen-s-scheme",
+            "title": "Climatic Regions of India (Koeppen's Scheme)",
+            "notes": "<p>Content for Climatic Regions of India (Koeppen's Scheme) is being generated...</p>"
           }
         ]
       },
       {
-        "id": "physics-sound",
-        "title": "Sound Waves & Acoustics",
+        "id": "fallow-land-classification",
+        "title": "Fallow Land Classification",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "physics-sound",
-            "title": "Sound Waves & Acoustics",
-            "notes": "Detailed notes expanded in notes_extra_7.js",
-            "formulas": "v = sqrt(E/ρ)\nSpeed: Solid > Liquid > Gas\nDecibel: Loudness unit\nEcho distance: 17.2m\nDoppler Effect",
-            "mindmap": {
-              "root": "Sound Waves",
-              "branches": [
-                {
-                  "title": "Wave Type",
-                  "subnodes": [
-                    "Mechanical",
-                    "Longitudinal",
-                    "Needs Medium"
-                  ]
-                },
-                {
-                  "title": "Speed Factors",
-                  "subnodes": [
-                    "Temp: v increases",
-                    "Humidity: v increases",
-                    "Pressure: No effect"
-                  ]
-                },
-                {
-                  "title": "Acoustics",
-                  "subnodes": [
-                    "Echo: 17.2m min",
-                    "Reverberation",
-                    "SONAR: ultrasound"
-                  ]
-                },
-                {
-                  "title": "Doppler",
-                  "subnodes": [
-                    "Apparent frequency change",
-                    "Approaching: Shrill",
-                    "Receding: Grave"
-                  ]
-                }
-              ]
-            }
+            "id": "fallow-land-classification",
+            "title": "Fallow Land Classification",
+            "notes": "<p>Content for Fallow Land Classification is being generated...</p>"
           }
         ]
       },
       {
-        "id": "physics-em-waves",
-        "title": "Electromagnetic Waves & Spectrum",
+        "id": "classification-of-crops",
+        "title": "Classification of Crops",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "physics-em-waves",
-            "title": "Electromagnetic Waves & Spectrum",
-            "notes": "Detailed notes expanded in notes_extra_7.js",
-            "formulas": "c = f * λ = 3 x 10^8 m/s\nSpectrum order: Gamma > X-Ray > UV > Visible > IR > Micro > Radio",
-            "mindmap": {
-              "root": "EM Waves",
-              "branches": [
-                {
-                  "title": "Characteristics",
-                  "subnodes": [
-                    "Transverse",
-                    "No medium needed",
-                    "Oscillating charges"
-                  ]
-                },
-                {
-                  "title": "Bands",
-                  "subnodes": [
-                    "Gamma: Highest E",
-                    "X-Ray: bone scans",
-                    "UV: water steril",
-                    "Visible: VIBGYOR",
-                    "IR: heat remote",
-                    "Micro: radar GPS",
-                    "Radio: FM/AM cell"
-                  ]
-                }
-              ]
-            }
+            "id": "classification-of-crops",
+            "title": "Classification of Crops",
+            "notes": "<p>Content for Classification of Crops is being generated...</p>"
           }
         ]
       },
       {
-        "id": "physics-heat",
-        "title": "Thermodynamics & Heat Transfer",
+        "id": "kharif-rabi-and-zaid-crops",
+        "title": "Kharif, Rabi, and Zaid Crops",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "physics-heat",
-            "title": "Thermodynamics & Heat Transfer",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Temp: C/5 = (F-32)/9 = (K-273)/5\nTransfer: Conduction (solids), Convection (fluids), Radiation (no medium)\nLaws: Zeroth (thermal equilibrium), 1st (conservation of energy), 2nd (entropy increases)",
-            "mindmap": {
-              "root": "Thermodynamics",
-              "branches": [
-                {
-                  "title": "Temp Scales",
-                  "subnodes": [
-                    "Celsius",
-                    "Fahrenheit",
-                    "Kelvin (SI)"
-                  ]
-                },
-                {
-                  "title": "Heat Transfer",
-                  "subnodes": [
-                    "Conduction (molecular contact)",
-                    "Convection (fluid currents)",
-                    "Radiation (EM waves)"
-                  ]
-                },
-                {
-                  "title": "Laws",
-                  "subnodes": [
-                    "Zeroth: Equilibrium",
-                    "1st: dQ = dU + dW",
-                    "2nd: Entropy direction"
-                  ]
-                }
-              ]
-            }
+            "id": "kharif-rabi-and-zaid-crops",
+            "title": "Kharif, Rabi, and Zaid Crops",
+            "notes": "<p>Content for Kharif, Rabi, and Zaid Crops is being generated...</p>"
           }
         ]
       },
       {
-        "id": "physics-electricity-magnetism",
-        "title": "Electricity, Circuits & Magnetism",
+        "id": "dryland-vs-wetland-farming",
+        "title": "Dryland vs Wetland Farming",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "physics-electricity-magnetism",
-            "title": "Electricity, Circuits & Magnetism",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Ohm's Law: V = I * R\nResistance: Series (Rs = R1+R2), Parallel (1/Rp = 1/R1 + 1/R2)\nPower: P = V * I = I^2 * R\nForce: F = q * (v x B)\nInduction: Faraday's & Lenz's Laws",
-            "mindmap": {
-              "root": "Electromagnetism",
-              "branches": [
-                {
-                  "title": "Electrostatics",
-                  "subnodes": [
-                    "Coulomb's Law",
-                    "Electric Field",
-                    "Capacitance"
-                  ]
-                },
-                {
-                  "title": "Current & Circuits",
-                  "subnodes": [
-                    "Ohm's Law (V=IR)",
-                    "Series / Parallel",
-                    "Joule's Heating"
-                  ]
-                },
-                {
-                  "title": "Magnetism",
-                  "subnodes": [
-                    "Lorentz Force",
-                    "Electromagnetic Induction",
-                    "Transformers"
-                  ]
-                }
-              ]
-            }
+            "id": "dryland-vs-wetland-farming",
+            "title": "Dryland vs Wetland Farming",
+            "notes": "<p>Content for Dryland vs Wetland Farming is being generated...</p>"
           }
         ]
       },
       {
-        "id": "physics-nuclear-basics",
-        "title": "Nuclear Physics & Radioactivity",
+        "id": "wheat-rabi-crop",
+        "title": "Wheat (Rabi Crop)",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "physics-nuclear-basics",
-            "title": "Nuclear Physics & Radioactivity",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Fission: heavy nucleus splits (U-235)\nFusion: light nuclei combine (H-isotopes in Sun)\nRadioactivity: Alpha (He-nuclei), Beta (electrons), Gamma (photons)\nHalf-life: T_1/2 = 0.693 / λ",
-            "mindmap": {
-              "root": "Modern Physics",
-              "branches": [
-                {
-                  "title": "Radioactivity",
-                  "subnodes": [
-                    "Alpha decay (+2e)",
-                    "Beta decay (-e)",
-                    "Gamma decay (neutral)"
-                  ]
-                },
-                {
-                  "title": "Nuclear Energy",
-                  "subnodes": [
-                    "Fission (Nuclear reactors)",
-                    "Fusion (Sun & stars)",
-                    "Einstein: E=mc²"
-                  ]
-                }
-              ]
-            }
+            "id": "wheat-rabi-crop",
+            "title": "Wheat (Rabi Crop)",
+            "notes": "<p>Content for Wheat (Rabi Crop) is being generated...</p>"
           }
         ]
       },
       {
-        "id": "physics-units-everyday",
-        "title": "SI Units & Everyday Physics",
+        "id": "rice-kharif-crop",
+        "title": "Rice (Kharif Crop)",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "physics-units-everyday",
-            "title": "SI Units & Everyday Physics",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Base Units: m, kg, s, A, K, mol, cd\nDerived: Newton (Force), Joule (Energy), Watt (Power), Pascal (Pressure)\nEveryday: Raindrops (surface tension), Mirages (TIR), Sky blue (Rayleigh scattering)",
-            "mindmap": {
-              "root": "Units & Everyday",
-              "branches": [
-                {
-                  "title": "SI Units",
-                  "subnodes": [
-                    "7 Base units",
-                    "Derived units",
-                    "Dimension analysis"
-                  ]
-                },
-                {
-                  "title": "Everyday Physics",
-                  "subnodes": [
-                    "Total Internal Reflection (TIR)",
-                    "Surface Tension",
-                    "Rayleigh Scattering"
-                  ]
-                }
-              ]
-            }
+            "id": "rice-kharif-crop",
+            "title": "Rice (Kharif Crop)",
+            "notes": "<p>Content for Rice (Kharif Crop) is being generated...</p>"
           }
         ]
       },
       {
-        "id": "physics-pyq-trends-topic",
-        "title": "Physics PYQ Trends (NDA/CDS)",
+        "id": "maize",
+        "title": "Maize",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "physics-pyq-trends-topic",
-            "title": "Physics PYQ Trends (NDA/CDS)",
-            "notes": "\n              <h3> Physics PYQ Analysis & Recurring Themes</h3>\n              <p>Analysis of UPSC NDA & CDS question papers from the past 5-10 years shows highly consistent patterns in physics. Focus on these high-yield themes to maximize scores:</p>\n              \n              <h3>1. Optics & Light (Highest Questions)</h3>\n              <ul>\n                <li>**Total Internal Reflection (TIR):** Highly repeated questions on applications of TIR (e.g., *optical fibers*, *mirage in deserts*, *sparkling of diamonds*). Conditions for TIR (light must travel from denser to rarer medium, and angle of incidence must exceed critical angle) are frequently asked.</li>\n                <li>**Refractive Index & Speed of Light:** Numerical and conceptual questions on refractive index (n = c/v). Knowing that speed of light is highest in vacuum and decreases in denser media (e.g., speed of light in water vs glass).</li>\n                <li>**Mirrors & Lenses:** Convex mirrors used as rear-view mirrors (wide field of view, erect, virtual, diminished image) is a standard UPSC question. Human eye defects (Myopia: corrected by *concave* lens; Hypermetropia: corrected by *convex* lens) are tested in almost every exam.</li>\n                <li>**Scattering of Light:** Rayleigh scattering (scattering intensity is inversely proportional to the fourth power of wavelength) explaining the *blue color of the sky* and *reddish appearance of the Sun at sunrise/sunset*.</li>\n              </ul>\n              \n              <h3>2. Mechanics & Motion</h3>\n              <ul>\n                <li>**Newton's Laws & Inertia:** Practical examples of inertia of rest, inertia of motion, and inertia of direction (e.g., passenger falling forward when a bus stops suddenly, dusting a carpet by beating it).</li>\n                <li>**Work, Power, and Energy:** Work done is zero when displacement is perpendicular to the force (e.g., a coolie carrying load on his head walking horizontally). Kinetic Energy (K = p²/2m where p is momentum) and conservation of mechanical energy (potential energy + kinetic energy = constant).</li>\n                <li>**Gravitation:** Value of acceleration due to gravity (g): maximum at poles, minimum at equator, zero at the center of the Earth, and decreases both as we go above the surface (altitude) or below the surface (depth).</li>\n              </ul>\n\n              <h3>3. Electricity & Magnetism</h3>\n              <ul>\n                <li>**Ohm's Law & Resistance:** Factors affecting electrical resistance of a conductor (R = rho * L / A). Resistance is directly proportional to length and inversely proportional to area of cross-section. Numerical problems on series and parallel combinations.</li>\n                <li>**Joule's Heating & Safety Fuse:** Commercial unit of electrical energy (1 kWh = 3.6 x 10^6 Joules). Safety fuse wire has **low melting point** and **high resistance**.</li>\n                <li>**Earth's Magnetism:** Value of magnetic dip at the magnetic equator (0°) and at the magnetic poles (90°).</li>\n              </ul>\n            ",
-            "formulas": "n = c / v\\nRayleigh Scattering: I ∝ 1 / λ⁴\\nResistance: R = ρ·L / A\\n1 kWh = 3.6 × 10⁶ J\\nDip Angle: 0° (Equator) | 90° (Poles)",
-            "mindmap": {
-              "root": "Physics PYQs",
-              "branches": [
-                {
-                  "title": "Optics & Light",
-                  "subnodes": [
-                    "TIR applications",
-                    "Mirrors & Lenses (Eye defects)",
-                    "Rayleigh Scattering"
-                  ]
-                },
-                {
-                  "title": "Mechanics & Motion",
-                  "subnodes": [
-                    "Inertia examples",
-                    "Work = F·d·cosθ",
-                    "g value variation"
-                  ]
-                },
-                {
-                  "title": "Electricity & Magnetism",
-                  "subnodes": [
-                    "Resistance R = ρ·L/A",
-                    "Fuse: Low MP, High R",
-                    "Earth Dip Equator/Poles"
-                  ]
-                }
-              ]
-            }
+            "id": "maize",
+            "title": "Maize",
+            "notes": "<p>Content for Maize is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "barley",
+        "title": "Barley",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "barley",
+            "title": "Barley",
+            "notes": "<p>Content for Barley is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "millet",
+        "title": "Millet",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "millet",
+            "title": "Millet",
+            "notes": "<p>Content for Millet is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ragi",
+        "title": "Ragi",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ragi",
+            "title": "Ragi",
+            "notes": "<p>Content for Ragi is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cotton",
+        "title": "Cotton",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cotton",
+            "title": "Cotton",
+            "notes": "<p>Content for Cotton is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "jute",
+        "title": "Jute",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "jute",
+            "title": "Jute",
+            "notes": "<p>Content for Jute is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "shifting-cultivation-slash-and-burn-by-country",
+        "title": "Shifting Cultivation (Slash and Burn) by Country",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "shifting-cultivation-slash-and-burn-by-country",
+            "title": "Shifting Cultivation (Slash and Burn) by Country",
+            "notes": "<p>Content for Shifting Cultivation (Slash and Burn) by Country is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "world-grasslands-and-regions",
+        "title": "World Grasslands and Regions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "world-grasslands-and-regions",
+            "title": "World Grasslands and Regions",
+            "notes": "<p>Content for World Grasslands and Regions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "grasslands-in-india",
+        "title": "Grasslands in India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "grasslands-in-india",
+            "title": "Grasslands in India",
+            "notes": "<p>Content for Grasslands in India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "shifting-cultivation-in-india",
+        "title": "Shifting Cultivation in India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "shifting-cultivation-in-india",
+            "title": "Shifting Cultivation in India",
+            "notes": "<p>Content for Shifting Cultivation in India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "natural-vegetation-of-india",
+        "title": "Natural Vegetation of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "natural-vegetation-of-india",
+            "title": "Natural Vegetation of India",
+            "notes": "<p>Content for Natural Vegetation of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "vegetation-types-classification",
+        "title": "Vegetation Types Classification",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "vegetation-types-classification",
+            "title": "Vegetation Types Classification",
+            "notes": "<p>Content for Vegetation Types Classification is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "factors-affecting-evaporation",
+        "title": "Factors Affecting Evaporation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "factors-affecting-evaporation",
+            "title": "Factors Affecting Evaporation",
+            "notes": "<p>Content for Factors Affecting Evaporation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "temperature-conversion-formulas",
+        "title": "Temperature Conversion Formulas",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "temperature-conversion-formulas",
+            "title": "Temperature Conversion Formulas",
+            "notes": "<p>Content for Temperature Conversion Formulas is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "density-formula",
+        "title": "Density Formula",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "density-formula",
+            "title": "Density Formula",
+            "notes": "<p>Content for Density Formula is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "changes-of-state",
+        "title": "Changes of State",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "changes-of-state",
+            "title": "Changes of State",
+            "notes": "<p>Content for Changes of State is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "examples-of-sublimation",
+        "title": "Examples of Sublimation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "examples-of-sublimation",
+            "title": "Examples of Sublimation",
+            "notes": "<p>Content for Examples of Sublimation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "example-of-deposition",
+        "title": "Example of Deposition",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "example-of-deposition",
+            "title": "Example of Deposition",
+            "notes": "<p>Content for Example of Deposition is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "saturated-and-unsaturated-solutions",
+        "title": "Saturated and Unsaturated Solutions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "saturated-and-unsaturated-solutions",
+            "title": "Saturated and Unsaturated Solutions",
+            "notes": "<p>Content for Saturated and Unsaturated Solutions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "concentration-of-solutions",
+        "title": "Concentration of Solutions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "concentration-of-solutions",
+            "title": "Concentration of Solutions",
+            "notes": "<p>Content for Concentration of Solutions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "separation-techniques",
+        "title": "Separation Techniques",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "separation-techniques",
+            "title": "Separation Techniques",
+            "notes": "<p>Content for Separation Techniques is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "pure-substances-and-compounds",
+        "title": "Pure Substances and Compounds",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "pure-substances-and-compounds",
+            "title": "Pure Substances and Compounds",
+            "notes": "<p>Content for Pure Substances and Compounds is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "examples-of-mixtures",
+        "title": "Examples of Mixtures",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "examples-of-mixtures",
+            "title": "Examples of Mixtures",
+            "notes": "<p>Content for Examples of Mixtures is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "antoine-l-lavoisier-and-laws-of-chemical-combination",
+        "title": "Antoine L. Lavoisier and Laws of Chemical Combination",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "antoine-l-lavoisier-and-laws-of-chemical-combination",
+            "title": "Antoine L. Lavoisier and Laws of Chemical Combination",
+            "notes": "<p>Content for Antoine L. Lavoisier and Laws of Chemical Combination is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "mole-concept-calculations",
+        "title": "Mole Concept Calculations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "mole-concept-calculations",
+            "title": "Mole Concept Calculations",
+            "notes": "<p>Content for Mole Concept Calculations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "uses-of-slaked-lime-and-calcium-carbonate",
+        "title": "Uses of Slaked Lime and Calcium Carbonate",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "uses-of-slaked-lime-and-calcium-carbonate",
+            "title": "Uses of Slaked Lime and Calcium Carbonate",
+            "notes": "<p>Content for Uses of Slaked Lime and Calcium Carbonate is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "antioxidants-and-food-preservation",
+        "title": "Antioxidants and Food Preservation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "antioxidants-and-food-preservation",
+            "title": "Antioxidants and Food Preservation",
+            "notes": "<p>Content for Antioxidants and Food Preservation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "corrosion-and-rancidity",
+        "title": "Corrosion and Rancidity",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "corrosion-and-rancidity",
+            "title": "Corrosion and Rancidity",
+            "notes": "<p>Content for Corrosion and Rancidity is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "factors-affecting-evaporation-60",
+        "title": "Factors Affecting Evaporation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "factors-affecting-evaporation-60",
+            "title": "Factors Affecting Evaporation",
+            "notes": "<p>Content for Factors Affecting Evaporation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "temperature-conversion-formulas-61",
+        "title": "Temperature Conversion Formulas",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "temperature-conversion-formulas-61",
+            "title": "Temperature Conversion Formulas",
+            "notes": "<p>Content for Temperature Conversion Formulas is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "boiling-and-freezing-points-of-water",
+        "title": "Boiling and Freezing Points of Water",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "boiling-and-freezing-points-of-water",
+            "title": "Boiling and Freezing Points of Water",
+            "notes": "<p>Content for Boiling and Freezing Points of Water is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "antoine-lavoisier-s-contributions",
+        "title": "Antoine Lavoisier's Contributions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "antoine-lavoisier-s-contributions",
+            "title": "Antoine Lavoisier's Contributions",
+            "notes": "<p>Content for Antoine Lavoisier's Contributions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "law-of-constant-proportion",
+        "title": "Law of Constant Proportion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "law-of-constant-proportion",
+            "title": "Law of Constant Proportion",
+            "notes": "<p>Content for Law of Constant Proportion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "uses-of-sodium-carbonate-washing-soda",
+        "title": "Uses of Sodium Carbonate (Washing Soda)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "uses-of-sodium-carbonate-washing-soda",
+            "title": "Uses of Sodium Carbonate (Washing Soda)",
+            "notes": "<p>Content for Uses of Sodium Carbonate (Washing Soda) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "gypsum-and-plaster-of-paris-pop",
+        "title": "Gypsum and Plaster of Paris (POP)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "gypsum-and-plaster-of-paris-pop",
+            "title": "Gypsum and Plaster of Paris (POP)",
+            "notes": "<p>Content for Gypsum and Plaster of Paris (POP) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "uses-of-a-sodium-compound-washing-soda",
+        "title": "Uses (of a sodium compound / washing soda)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "uses-of-a-sodium-compound-washing-soda",
+            "title": "Uses (of a sodium compound / washing soda)",
+            "notes": "<p>Content for Uses (of a sodium compound / washing soda) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "gypsum-and-plaster-of-paris-pop-68",
+        "title": "Gypsum and Plaster of Paris (POP)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "gypsum-and-plaster-of-paris-pop-68",
+            "title": "Gypsum and Plaster of Paris (POP)",
+            "notes": "<p>Content for Gypsum and Plaster of Paris (POP) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "anodising-of-aluminium",
+        "title": "Anodising of Aluminium",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "anodising-of-aluminium",
+            "title": "Anodising of Aluminium",
+            "notes": "<p>Content for Anodising of Aluminium is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "aqua-regia",
+        "title": "Aqua Regia",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "aqua-regia",
+            "title": "Aqua Regia",
+            "notes": "<p>Content for Aqua Regia is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ionic-vs-covalent-compounds",
+        "title": "Ionic vs Covalent Compounds",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ionic-vs-covalent-compounds",
+            "title": "Ionic vs Covalent Compounds",
+            "notes": "<p>Content for Ionic vs Covalent Compounds is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ionic-compounds-properties",
+        "title": "Ionic Compounds - Properties",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ionic-compounds-properties",
+            "title": "Ionic Compounds - Properties",
+            "notes": "<p>Content for Ionic Compounds - Properties is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indian-standard-time-ist",
+        "title": "Indian Standard Time (IST)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indian-standard-time-ist",
+            "title": "Indian Standard Time (IST)",
+            "notes": "<p>Content for Indian Standard Time (IST) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indian-standard-time-ist-74",
+        "title": "Indian Standard Time (IST)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indian-standard-time-ist-74",
+            "title": "Indian Standard Time (IST)",
+            "notes": "<p>Content for Indian Standard Time (IST) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "displacement",
+        "title": "Displacement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "displacement",
+            "title": "Displacement",
+            "notes": "<p>Content for Displacement is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indian-standard-time-ist-meridian-and-places-it-passes-through",
+        "title": "Indian Standard Time (IST) Meridian and Places It Passes Through",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indian-standard-time-ist-meridian-and-places-it-passes-through",
+            "title": "Indian Standard Time (IST) Meridian and Places It Passes Through",
+            "notes": "<p>Content for Indian Standard Time (IST) Meridian and Places It Passes Through is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-date-line-idl-180-meridian-time-and-day-gain-loss-rules",
+        "title": "International Date Line (IDL) \u2013 180\u00b0 Meridian: Time and Day Gain/Loss Rules",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-date-line-idl-180-meridian-time-and-day-gain-loss-rules",
+            "title": "International Date Line (IDL) \u2013 180\u00b0 Meridian: Time and Day Gain/Loss Rules",
+            "notes": "<p>Content for International Date Line (IDL) \u2013 180\u00b0 Meridian: Time and Day Gain/Loss Rules is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "idl-globe-diagram-and-date-change-examples",
+        "title": "IDL Globe Diagram and Date-Change Examples",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "idl-globe-diagram-and-date-change-examples",
+            "title": "IDL Globe Diagram and Date-Change Examples",
+            "notes": "<p>Content for IDL Globe Diagram and Date-Change Examples is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rotation-of-the-earth",
+        "title": "Rotation of the Earth",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rotation-of-the-earth",
+            "title": "Rotation of the Earth",
+            "notes": "<p>Content for Rotation of the Earth is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "axial-and-orbital-inclination-of-the-earth",
+        "title": "Axial and Orbital Inclination of the Earth",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "axial-and-orbital-inclination-of-the-earth",
+            "title": "Axial and Orbital Inclination of the Earth",
+            "notes": "<p>Content for Axial and Orbital Inclination of the Earth is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "revolution-of-the-earth",
+        "title": "Revolution of the Earth",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "revolution-of-the-earth",
+            "title": "Revolution of the Earth",
+            "notes": "<p>Content for Revolution of the Earth is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "axis-vs-orbit-rotation-vs-revolution",
+        "title": "Axis vs Orbit \u2013 Rotation vs Revolution",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "axis-vs-orbit-rotation-vs-revolution",
+            "title": "Axis vs Orbit \u2013 Rotation vs Revolution",
+            "notes": "<p>Content for Axis vs Orbit \u2013 Rotation vs Revolution is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "important-orbital-positions-and-seasonal-dates",
+        "title": "Important Orbital Positions and Seasonal Dates",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "important-orbital-positions-and-seasonal-dates",
+            "title": "Important Orbital Positions and Seasonal Dates",
+            "notes": "<p>Content for Important Orbital Positions and Seasonal Dates is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "five-landlocked-states-of-india",
+        "title": "Five Landlocked States of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "five-landlocked-states-of-india",
+            "title": "Five Landlocked States of India",
+            "notes": "<p>Content for Five Landlocked States of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indian-standard-time-ist-85",
+        "title": "Indian Standard Time (IST)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indian-standard-time-ist-85",
+            "title": "Indian Standard Time (IST)",
+            "notes": "<p>Content for Indian Standard Time (IST) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "earth-s-crust-thickness-density",
+        "title": "Earth's Crust \u2013 Thickness & Density",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "earth-s-crust-thickness-density",
+            "title": "Earth's Crust \u2013 Thickness & Density",
+            "notes": "<p>Content for Earth's Crust \u2013 Thickness & Density is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "internal-structure-of-the-earth-layered-cross-section-diagram",
+        "title": "Internal Structure of the Earth \u2013 Layered Cross-Section Diagram",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "internal-structure-of-the-earth-layered-cross-section-diagram",
+            "title": "Internal Structure of the Earth \u2013 Layered Cross-Section Diagram",
+            "notes": "<p>Content for Internal Structure of the Earth \u2013 Layered Cross-Section Diagram is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "discontinuities-of-the-earth",
+        "title": "Discontinuities of the Earth",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "discontinuities-of-the-earth",
+            "title": "Discontinuities of the Earth",
+            "notes": "<p>Content for Discontinuities of the Earth is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "density-order-of-the-earth-s-layers",
+        "title": "Density Order of the Earth's Layers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "density-order-of-the-earth-s-layers",
+            "title": "Density Order of the Earth's Layers",
+            "notes": "<p>Content for Density Order of the Earth's Layers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "methods-to-know-the-earth-s-interior",
+        "title": "Methods to Know the Earth's Interior",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "methods-to-know-the-earth-s-interior",
+            "title": "Methods to Know the Earth's Interior",
+            "notes": "<p>Content for Methods to Know the Earth's Interior is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indian-standard-time-ist-meridian-and-places-it-passes-through-91",
+        "title": "Indian Standard Time (IST) Meridian and Places It Passes Through",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indian-standard-time-ist-meridian-and-places-it-passes-through-91",
+            "title": "Indian Standard Time (IST) Meridian and Places It Passes Through",
+            "notes": "<p>Content for Indian Standard Time (IST) Meridian and Places It Passes Through is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-date-line-idl-180-meridian-time-and-day-gain-loss-rules-92",
+        "title": "International Date Line (IDL) \u2013 180\u00b0 Meridian: Time and Day Gain/Loss Rules",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-date-line-idl-180-meridian-time-and-day-gain-loss-rules-92",
+            "title": "International Date Line (IDL) \u2013 180\u00b0 Meridian: Time and Day Gain/Loss Rules",
+            "notes": "<p>Content for International Date Line (IDL) \u2013 180\u00b0 Meridian: Time and Day Gain/Loss Rules is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "idl-globe-diagram-and-date-change-examples-93",
+        "title": "IDL Globe Diagram and Date-Change Examples",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "idl-globe-diagram-and-date-change-examples-93",
+            "title": "IDL Globe Diagram and Date-Change Examples",
+            "notes": "<p>Content for IDL Globe Diagram and Date-Change Examples is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-date-line-idl",
+        "title": "International Date Line (IDL)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-date-line-idl",
+            "title": "International Date Line (IDL)",
+            "notes": "<p>Content for International Date Line (IDL) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "crossing-the-international-date-line",
+        "title": "Crossing the International Date Line",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "crossing-the-international-date-line",
+            "title": "Crossing the International Date Line",
+            "notes": "<p>Content for Crossing the International Date Line is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "shape-of-the-earth",
+        "title": "Shape of the Earth",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "shape-of-the-earth",
+            "title": "Shape of the Earth",
+            "notes": "<p>Content for Shape of the Earth is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "radius-of-the-earth",
+        "title": "Radius of the Earth",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "radius-of-the-earth",
+            "title": "Radius of the Earth",
+            "notes": "<p>Content for Radius of the Earth is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "day-night-and-season",
+        "title": "Day & Night and Season",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "day-night-and-season",
+            "title": "Day & Night and Season",
+            "notes": "<p>Content for Day & Night and Season is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rotation-of-the-earth-99",
+        "title": "Rotation of the Earth",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rotation-of-the-earth-99",
+            "title": "Rotation of the Earth",
+            "notes": "<p>Content for Rotation of the Earth is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "axial-and-orbital-inclination-of-the-earth-100",
+        "title": "Axial and Orbital Inclination of the Earth",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "axial-and-orbital-inclination-of-the-earth-100",
+            "title": "Axial and Orbital Inclination of the Earth",
+            "notes": "<p>Content for Axial and Orbital Inclination of the Earth is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "revolution-of-the-earth-101",
+        "title": "Revolution of the Earth",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "revolution-of-the-earth-101",
+            "title": "Revolution of the Earth",
+            "notes": "<p>Content for Revolution of the Earth is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "axis-vs-orbit-rotation-vs-revolution-102",
+        "title": "Axis vs Orbit \u2013 Rotation vs Revolution",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "axis-vs-orbit-rotation-vs-revolution-102",
+            "title": "Axis vs Orbit \u2013 Rotation vs Revolution",
+            "notes": "<p>Content for Axis vs Orbit \u2013 Rotation vs Revolution is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "important-orbital-positions-and-seasonal-dates-103",
+        "title": "Important Orbital Positions and Seasonal Dates",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "important-orbital-positions-and-seasonal-dates-103",
+            "title": "Important Orbital Positions and Seasonal Dates",
+            "notes": "<p>Content for Important Orbital Positions and Seasonal Dates is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "convergent-boundaries",
+        "title": "Convergent Boundaries",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "convergent-boundaries",
+            "title": "Convergent Boundaries",
+            "notes": "<p>Content for Convergent Boundaries is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "transform-boundaries",
+        "title": "Transform Boundaries",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "transform-boundaries",
+            "title": "Transform Boundaries",
+            "notes": "<p>Content for Transform Boundaries is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "iso-lines-equal-value-lines",
+        "title": "Iso-lines (Equal-value lines)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "iso-lines-equal-value-lines",
+            "title": "Iso-lines (Equal-value lines)",
+            "notes": "<p>Content for Iso-lines (Equal-value lines) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "caldera",
+        "title": "Caldera",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "caldera",
+            "title": "Caldera",
+            "notes": "<p>Content for Caldera is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "richter-scale",
+        "title": "Richter Scale",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "richter-scale",
+            "title": "Richter Scale",
+            "notes": "<p>Content for Richter Scale is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "mercalli-scale",
+        "title": "Mercalli Scale",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "mercalli-scale",
+            "title": "Mercalli Scale",
+            "notes": "<p>Content for Mercalli Scale is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "exam-instructions",
+        "title": "Exam Instructions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "exam-instructions",
+            "title": "Exam Instructions",
+            "notes": "<p>Content for Exam Instructions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-last-minute-revision-module",
+        "title": "CDS Last Minute Revision Module",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-last-minute-revision-module",
+            "title": "CDS Last Minute Revision Module",
+            "notes": "<p>Content for CDS Last Minute Revision Module is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "displacement-112",
+        "title": "Displacement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "displacement-112",
+            "title": "Displacement",
+            "notes": "<p>Content for Displacement is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "unit-conversions",
+        "title": "Unit Conversions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "unit-conversions",
+            "title": "Unit Conversions",
+            "notes": "<p>Content for Unit Conversions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rudram-ii-air-to-surface-missile-flight-tests",
+        "title": "Rudram-II Air-to-Surface Missile Flight Tests",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rudram-ii-air-to-surface-missile-flight-tests",
+            "title": "Rudram-II Air-to-Surface Missile Flight Tests",
+            "notes": "<p>Content for Rudram-II Air-to-Surface Missile Flight Tests is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-last-minute-revision-module-5th-edition",
+        "title": "CDS Last Minute Revision Module (5th Edition)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-last-minute-revision-module-5th-edition",
+            "title": "CDS Last Minute Revision Module (5th Edition)",
+            "notes": "<p>Content for CDS Last Minute Revision Module (5th Edition) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "general-science-document-cover",
+        "title": "General Science Document Cover",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "general-science-document-cover",
+            "title": "General Science Document Cover",
+            "notes": "<p>Content for General Science Document Cover is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "defence-exam-preparation",
+        "title": "Defence Exam Preparation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "defence-exam-preparation",
+            "title": "Defence Exam Preparation",
+            "notes": "<p>Content for Defence Exam Preparation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "general-science-study-material-overview",
+        "title": "General Science Study Material Overview",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "general-science-study-material-overview",
+            "title": "General Science Study Material Overview",
+            "notes": "<p>Content for General Science Study Material Overview is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "document-identification",
+        "title": "Document Identification",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "document-identification",
+            "title": "Document Identification",
+            "notes": "<p>Content for Document Identification is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "services-selection-board-ssb-tri-services-of-india",
+        "title": "Services Selection Board (SSB) & Tri-Services of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "services-selection-board-ssb-tri-services-of-india",
+            "title": "Services Selection Board (SSB) & Tri-Services of India",
+            "notes": "<p>Content for Services Selection Board (SSB) & Tri-Services of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "problem-dog-retardation",
+        "title": "Problem: Dog Retardation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "problem-dog-retardation",
+            "title": "Problem: Dog Retardation",
+            "notes": "<p>Content for Problem: Dog Retardation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents",
+        "title": "Table of Contents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents",
+            "title": "Table of Contents",
+            "notes": "<p>Content for Table of Contents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents-123",
+        "title": "Table of Contents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents-123",
+            "title": "Table of Contents",
+            "notes": "<p>Content for Table of Contents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "paper-ii-general-knowledge-syllabus",
+        "title": "Paper II - General Knowledge Syllabus",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "paper-ii-general-knowledge-syllabus",
+            "title": "Paper II - General Knowledge Syllabus",
+            "notes": "<p>Content for Paper II - General Knowledge Syllabus is being generated...</p>"
           }
         ]
       }
     ]
   },
   "chemistry": {
-    "title": "Chemistry (NDA/CDS)",
+    "title": "Chemistry",
     "chapters": [
       {
-        "id": "acids-bases",
-        "title": "Acids, Bases & pH Indicators",
+        "id": "literary-works-philosophical-thought",
+        "title": "Literary Works & Philosophical Thought",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "acids-bases",
-            "title": "Acids, Bases & pH Indicators",
-            "notes": "\n              <h3>1. Theories of Acids and Bases</h3>\n              <ul>\n                <li>**Arrhenius Theory**:\n                  <ul>\n                    <li>Acid: Releases hydrogen ions (H⁺) or hydronium ions (H₃O⁺) in aqueous solution (e.g., HCl, HNO₃).</li>\n                    <li>Base: Releases hydroxyl ions (OH⁻) in aqueous solution (e.g., NaOH, KOH).</li>\n                  </ul>\n                </li>\n                <li>**Bronsted-Lowry Theory**:\n                  <ul>\n                    <li>Acid: Proton (H⁺) donor.</li>\n                    <li>Base: Proton (H⁺) acceptor.</li>\n                  </ul>\n                </li>\n                <li>**Lewis Theory**:\n                  <ul>\n                    <li>Acid: Electron-pair acceptor (electron deficient, e.g., BF₃, AlCl₃, H⁺).</li>\n                    <li>Base: Electron-pair donor (has lone pair, e.g., NH₃, H₂O, F⁻).</li>\n                  </ul>\n                </li>\n              </ul>\n              \n              <h3>2. pH Scale & Indicators</h3>\n              <ul>\n                <li>pH represents potential of Hydrogen. Formula: **pH = -log[H⁺]** or **pH = -log[H₃O⁺]**.</li>\n                <li>At 298 K: pH < 7 is acidic; pH = 7 is neutral; pH > 7 is basic/alkaline.</li>\n                <li>Indicators Table:\n                  <table style=\"width:100%; border-collapse:collapse; margin-top:8px; font-size:0.85rem;\">\n                    <tr style=\"background-color:var(--bg-tertiary);\">\n                      <th style=\"padding:6px; border:1px solid var(--border);\">Indicator</th>\n                      <th style=\"padding:6px; border:1px solid var(--border);\">Acidic Color</th>\n                      <th style=\"padding:6px; border:1px solid var(--border);\">Basic Color</th>\n                    </tr>\n                    <tr>\n                      <td style=\"padding:6px; border:1px solid var(--border);\">Litmus</td>\n                      <td style=\"padding:6px; border:1px solid var(--border); color:var(--danger)\">Red</td>\n                      <td style=\"padding:6px; border:1px solid var(--border); color: var(--accent)\">Blue</td>\n                    </tr>\n                    <tr>\n                      <td style=\"padding:6px; border:1px solid var(--border);\">Phenolphthalein</td>\n                      <td style=\"padding:6px; border:1px solid var(--border);\">Colorless</td>\n                      <td style=\"padding:6px; border:1px solid var(--border); color:var(--danger)\">Deep Pink</td>\n                    </tr>\n                    <tr>\n                      <td style=\"padding:6px; border:1px solid var(--border);\">Methyl Orange</td>\n                      <td style=\"padding:6px; border:1px solid var(--border); color:var(--danger)\">Red/Orange</td>\n                      <td style=\"padding:6px; border:1px solid var(--border); color:var(--warning)\">Yellow</td>\n                    </tr>\n                  </table>\n                </li>\n              </ul>\n              \n              <h3>3. Key Chemical Salts and Formulas</h3>\n              <ul>\n                <li>**Baking Soda (Sodium Hydrogen Carbonate - NaHCO₃)**: Prepared by Solvay process. Releases CO₂ on heating. Used in baking and soda-acid fire extinguishers.</li>\n                <li>**Washing Soda (Sodium Carbonate Decahydrate - Na₂CO₃ · 10H₂O)**: Used in glass, soap paper industries, and for removing permanent hardness of water.</li>\n                <li>**Plaster of Paris (Calcium Sulphate Hemihydrate - CaSO₄ · ½H₂O)**: Obtained by heating Gypsum (CaSO₄ · 2H₂O) at 373 K. Used for plastering fractured bones and making toys.</li>\n                <li>**Bleaching Powder (Calcium Oxychloride - CaOCl₂)**: Formed by action of chlorine on dry slaked lime [Ca(OH)₂]. Used as disinfectant for water and bleaching agent in textile industry.</li>\n              </ul>\n            ",
-            "formulas": "pH = -log[H⁺]\nBaking Soda: NaHCO₃\nWashing Soda: Na₂CO₃·10H₂O\nPOP: CaSO₄·0.5H₂O\nGypsum: CaSO₄·2H₂O\nBleaching Powder: CaOCl₂",
-            "mindmap": {
-              "root": "Acids & Bases",
-              "branches": [
-                {
-                  "title": "Theories",
-                  "subnodes": [
-                    "Arrhenius: H⁺/OH⁻",
-                    "Bronsted: Proton donor/acc",
-                    "Lewis: Electron pair acc/donor"
-                  ]
-                },
-                {
-                  "title": "pH Scale",
-                  "subnodes": [
-                    "pH = -log[H⁺]",
-                    "Acidic < 7 / Basic > 7",
-                    "Neutral = 7 (water)"
-                  ]
-                },
-                {
-                  "title": "Indicators",
-                  "subnodes": [
-                    "Litmus: Blue to Red (Acid)",
-                    "Phenolphthalein: Pink (Base)",
-                    "Methyl Orange: Red (Acid)"
-                  ]
-                },
-                {
-                  "title": "Salts",
-                  "subnodes": [
-                    "Baking Soda: NaHCO₃",
-                    "Washing Soda: Na₂CO₃·10H₂O",
-                    "POP: CaSO₄·0.5H₂O"
-                  ]
-                }
-              ]
-            }
+            "id": "literary-works-philosophical-thought",
+            "title": "Literary Works & Philosophical Thought",
+            "notes": "<p>Content for Literary Works & Philosophical Thought is being generated...</p>"
           }
         ]
       },
       {
-        "id": "syl-numerical",
-        "title": "Chemical Bonding & Periodic Table",
+        "id": "kingdom-monera-mycoplasma-and-bacterial-cell-anatomy",
+        "title": "Kingdom Monera - Mycoplasma and Bacterial Cell Anatomy",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "syl-numerical",
-            "title": "Chemical Bonding & Periodic Table",
-            "notes": "\n              <h3>1. Types of Chemical Bonds</h3>\n              <ul>\n                <li>**Electrovalent/Ionic Bond**: Formed by complete transfer of electrons from electropositive metal to electronegative non-metal (e.g., NaCl, CaCl₂).\n                  <ul>\n                    <li>Properties: High melting/boiling points, soluble in water, conduct electricity in molten/solution state.</li>\n                  </ul>\n                </li>\n                <li>**Covalent Bond**: Formed by equal sharing of electrons between non-metals (e.g., H₂, O₂, H₂O).\n                  <ul>\n                    <li>Properties: Low melting/boiling points, insoluble in water (soluble in organic solvents), poor conductors.</li>\n                  </ul>\n                </li>\n                <li>**Coordinate/Dative Bond**: Special covalent bond where shared pair is donated by one atom (donor) and accepted by another (acceptor) (e.g., NH₄⁺, H₃O⁺).</li>\n                <li>**Hydrogen Bond**: Electrostatic force of attraction between hydrogen atom bonded to a highly electronegative atom (F, O, N) and another electronegative atom.\n                  <ul>\n                    <li>Intermolecular H-bonding: Between different molecules (e.g., H₂O, HF). Explains why H₂O is liquid while H₂S is gas.</li>\n                    <li>Intramolecular H-bonding: Within the same molecule (e.g., o-nitrophenol).</li>\n                  </ul>\n                </li>\n              </ul>\n              \n              <h3>2. Modern Periodic Table & Periodic Trends</h3>\n              <p>Developed by Henry Moseley, based on **Atomic Number**. Has 18 groups and 7 periods.</p>\n              <ul>\n                <li>**Atomic Radius**:\n                  <ul>\n                    <li>Across Period (Left to Right): **Decreases** due to increase in effective nuclear charge (pulls electrons closer).</li>\n                    <li>Down Group (Top to Bottom): **Increases** due to addition of new electron shells.</li>\n                  </ul>\n                </li>\n                <li>**Ionization Energy (IE)**: Energy required to remove the outermost electron.\n                  <ul>\n                    <li>Across Period: **Increases** (atomic size decreases, nuclear pull increases).</li>\n                    <li>Down Group: **Decreases** (atomic size increases, easier to remove outer electron).</li>\n                  </ul>\n                </li>\n                <li>**Electronegativity**: Tendency of an atom to attract shared electron pair.\n                  <ul>\n                    <li>Across Period: **Increases** (Fluorine is most electronegative).</li>\n                    <li>Down Group: **Decreases**.</li>\n                  </ul>\n                </li>\n                <li>**Metallic Character (Electropositivity)**:\n                  <ul>\n                    <li>Across Period: **Decreases**.</li>\n                    <li>Down Group: **Increases** (Francium/Cesium are highly metallic).</li>\n                  </ul>\n                </li>\n              </ul>\n            ",
-            "formulas": "Ionic Bond: Electron transfer\nCovalent Bond: Electron sharing\nH-Bonding: Strongest intermolecular attraction\nElectronegativity: F > O > N > Cl",
-            "mindmap": {
-              "root": "Bonding & Periodic",
-              "branches": [
-                {
-                  "title": "Ionic Bonds",
-                  "subnodes": [
-                    "Complete electron transfer",
-                    "High melting points",
-                    "Conduct in molten form"
-                  ]
-                },
-                {
-                  "title": "Covalent & H-Bond",
-                  "subnodes": [
-                    "Shared electron pair",
-                    "H-Bond: F, O, N only",
-                    "Water high BP reason"
-                  ]
-                },
-                {
-                  "title": "Period Trends (L-R)",
-                  "subnodes": [
-                    "Atomic radius decreases",
-                    "Ionization Energy increases",
-                    "Electronegativity increases"
-                  ]
-                },
-                {
-                  "title": "Group Trends (T-B)",
-                  "subnodes": [
-                    "Atomic radius increases",
-                    "Ionization Energy decreases",
-                    "Metallic character increases"
-                  ]
-                }
-              ]
-            }
+            "id": "kingdom-monera-mycoplasma-and-bacterial-cell-anatomy",
+            "title": "Kingdom Monera - Mycoplasma and Bacterial Cell Anatomy",
+            "notes": "<p>Content for Kingdom Monera - Mycoplasma and Bacterial Cell Anatomy is being generated...</p>"
           }
         ]
       },
       {
-        "id": "metals-alloys",
-        "title": "Metals, Ores, Alloys & Metallurgy",
+        "id": "human-brain-protection-anatomy-and-functions",
+        "title": "Human Brain - Protection, Anatomy, and Functions",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "metals-alloys",
-            "title": "Metals, Ores, Alloys & Metallurgy",
-            "notes": "Detailed notes expanded in notes_extra_7.js",
-            "formulas": "Al: Bauxite, Cryolite\nFe: Hematite, Magnetite\nAlloys: Brass (Cu+Zn), Bronze (Cu+Sn), Solder (Pb+Sn)\nFlotation: Sulphides\nRoasting (air) vs Calcination (no air)",
-            "mindmap": {
-              "root": "Metals & Alloys",
-              "branches": [
-                {
-                  "title": "Ores",
-                  "subnodes": [
-                    "Bauxite: Al",
-                    "Hematite: Fe",
-                    "Cinnabar: Hg",
-                    "Galena: Pb"
-                  ]
-                },
-                {
-                  "title": "Alloys",
-                  "subnodes": [
-                    "Brass: Cu+Zn",
-                    "Bronze: Cu+Sn",
-                    "Solder: Pb+Sn",
-                    "Duralumin: Al+Cu+Mn+Mg"
-                  ]
-                },
-                {
-                  "title": "Metallurgy",
-                  "subnodes": [
-                    "Froth flotation",
-                    "Calcination (no air)",
-                    "Roasting (air)",
-                    "Electrolysis: highly reactive"
-                  ]
-                }
-              ]
-            }
+            "id": "human-brain-protection-anatomy-and-functions",
+            "title": "Human Brain - Protection, Anatomy, and Functions",
+            "notes": "<p>Content for Human Brain - Protection, Anatomy, and Functions is being generated...</p>"
           }
         ]
       },
       {
-        "id": "reactivity-series",
-        "title": "Reactivity Series & Displacement",
+        "id": "indian-states-geographical-borders-key-facts",
+        "title": "Indian States, Geographical Borders & Key Facts",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "reactivity-series",
-            "title": "Reactivity Series & Displacement",
-            "notes": "Detailed notes expanded in notes_extra_7.js",
-            "formulas": "Order: K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au\nMnemonic: Please Stop Calling Me A Careless Zebra...\nDisplacement: More reactive replaces less reactive",
-            "mindmap": {
-              "root": "Reactivity Series",
-              "branches": [
-                {
-                  "title": "Order",
-                  "subnodes": [
-                    "K, Na: Highly reactive",
-                    "Au, Pt: Noble/Least reactive"
-                  ]
-                },
-                {
-                  "title": "Water Reactions",
-                  "subnodes": [
-                    "Cold: K, Na, Ca",
-                    "Hot: Mg",
-                    "Steam: Al, Fe, Zn",
-                    "None: Cu, Ag, Au"
-                  ]
-                },
-                {
-                  "title": "Displacement",
-                  "subnodes": [
-                    "Thermite: Fe2O3+Al",
-                    "Iron + CuSO4 -> FeSO4+Cu"
-                  ]
-                }
-              ]
-            }
+            "id": "indian-states-geographical-borders-key-facts",
+            "title": "Indian States, Geographical Borders & Key Facts",
+            "notes": "<p>Content for Indian States, Geographical Borders & Key Facts is being generated...</p>"
           }
         ]
       },
       {
-        "id": "carbon-compounds",
-        "title": "Carbon & its Compounds",
+        "id": "la-nina-phenomenon",
+        "title": "La-Nina Phenomenon",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "carbon-compounds",
-            "title": "Carbon & its Compounds",
-            "notes": "Detailed notes expanded in notes_extra_7.js",
-            "formulas": "Alkanes: CnH2n+2\nAlkenes: CnH2n\nAlkynes: CnH2n-2\nDiamond: sp3, Graphite: sp2, Fullerene: C-60\nEsterification: Acid+Alcohol -> Ester",
-            "mindmap": {
-              "root": "Carbon Compounds",
-              "branches": [
-                {
-                  "title": "Allotropes",
-                  "subnodes": [
-                    "Diamond: Hardest",
-                    "Graphite: Conductor",
-                    "Fullerene: C-60",
-                    "Graphene: 2D"
-                  ]
-                },
-                {
-                  "title": "Hydrocarbons",
-                  "subnodes": [
-                    "Alkanes: saturated",
-                    "Alkenes/Alkynes: unsaturated"
-                  ]
-                },
-                {
-                  "title": "Reactions",
-                  "subnodes": [
-                    "Combustion",
-                    "Esterification",
-                    "Saponification"
-                  ]
-                }
-              ]
-            }
+            "id": "la-nina-phenomenon",
+            "title": "La-Nina Phenomenon",
+            "notes": "<p>Content for La-Nina Phenomenon is being generated...</p>"
           }
         ]
       },
       {
-        "id": "chemistry-numericals",
-        "title": "Mole Concept & Concentration Terms",
+        "id": "la-nina-atmospheric-diagram",
+        "title": "La-Nina Atmospheric Diagram",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "chemistry-numericals",
-            "title": "Mole Concept & Concentration Terms",
-            "notes": "Detailed notes expanded in notes_extra_7.js",
-            "formulas": "Mole = mass/molar mass\nAvogadro: 6.022 x 10^23\nMolarity (M) = moles/vol(L) [Temp dependent]\nMolality (m) = moles/mass_solvent(kg) [Temp independent]\nNormality (N) = Molarity * n-factor",
-            "mindmap": {
-              "root": "Chemistry Numericals",
-              "branches": [
-                {
-                  "title": "Mole Concept",
-                  "subnodes": [
-                    "n = given/molar mass",
-                    "STP volume: 22.4 L",
-                    "Avogadro's constant"
-                  ]
-                },
-                {
-                  "title": "Concentration",
-                  "subnodes": [
-                    "Molarity: mol/L",
-                    "Molality: mol/kg",
-                    "Normality: eq/L",
-                    "Mole Fraction"
-                  ]
-                },
-                {
-                  "title": "Equivalent Mass",
-                  "subnodes": [
-                    "Molar mass / n-factor",
-                    "Acids: basicity",
-                    "Bases: acidity"
-                  ]
-                }
-              ]
-            }
+            "id": "la-nina-atmospheric-diagram",
+            "title": "La-Nina Atmospheric Diagram",
+            "notes": "<p>Content for La-Nina Atmospheric Diagram is being generated...</p>"
           }
         ]
       },
       {
-        "id": "chemistry-everyday-fertilisers",
-        "title": "Everyday Chemistry, Fertilisers & Fuels",
+        "id": "semi-evergreen-forests",
+        "title": "Semi Evergreen Forests",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "chemistry-everyday-fertilisers",
-            "title": "Everyday Chemistry, Fertilisers & Fuels",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Saponification: fat + NaOH -> soap + glycerol\nNPK: Nitrogen, Phosphorus, Potassium\nGlass: supercooled liquid (silicates)\nCement: gypsum (delays setting time), silicates & aluminates\nPetroleum: LPG (butane + propane), CNG (methane)",
-            "mindmap": {
-              "root": "Everyday Chem",
-              "branches": [
-                {
-                  "title": "Cleansing Agents",
-                  "subnodes": [
-                    "Soaps (sodium salts)",
-                    "Detergents (sulfonates)"
-                  ]
-                },
-                {
-                  "title": "Industrial",
-                  "subnodes": [
-                    "Glass: supercooled liquid",
-                    "Cement: gypsum (CaSO4.2H2O)",
-                    "Fertilisers (NPK)"
-                  ]
-                },
-                {
-                  "title": "Fuels",
-                  "subnodes": [
-                    "LPG: butane, propane",
-                    "CNG: methane (CH4)"
-                  ]
-                }
-              ]
-            }
+            "id": "semi-evergreen-forests",
+            "title": "Semi Evergreen Forests",
+            "notes": "<p>Content for Semi Evergreen Forests is being generated...</p>"
           }
         ]
       },
       {
-        "id": "environmental-chemistry",
-        "title": "Environmental Chemistry & Pollution",
+        "id": "montane-forests",
+        "title": "Montane Forests",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "environmental-chemistry",
-            "title": "Environmental Chemistry & Pollution",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Acid rain: pH < 5.6 (SO2 + NO2 -> H2SO4 + HNO3)\nSmog: Classical (cool/humid) vs Photochemical (warm/sunny, PAN & Ozone)\nGreenhouse: CO2, CH4, N2O, water vapor\nBOD: Biochemical Oxygen Demand (higher BOD = more polluted water)",
-            "mindmap": {
-              "root": "Env Chemistry",
-              "branches": [
-                {
-                  "title": "Air Pollution",
-                  "subnodes": [
-                    "Acid Rain (SO2, NO2)",
-                    "Photochemical Smog (Ozone, PAN)",
-                    "Greenhouse Gases"
-                  ]
-                },
-                {
-                  "title": "Water Pollution",
-                  "subnodes": [
-                    "Eutrophication",
-                    "BOD (Oxygen Demand)"
-                  ]
-                }
-              ]
-            }
+            "id": "montane-forests",
+            "title": "Montane Forests",
+            "notes": "<p>Content for Montane Forests is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "littoral-swamp-forests",
+        "title": "Littoral & Swamp Forests",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "littoral-swamp-forests",
+            "title": "Littoral & Swamp Forests",
+            "notes": "<p>Content for Littoral & Swamp Forests is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "punch-facts-states-of-matter-and-gases",
+        "title": "Punch Facts: States of Matter and Gases",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "punch-facts-states-of-matter-and-gases",
+            "title": "Punch Facts: States of Matter and Gases",
+            "notes": "<p>Content for Punch Facts: States of Matter and Gases is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "phase-changes-and-temperature-conversions",
+        "title": "Phase Changes and Temperature Conversions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "phase-changes-and-temperature-conversions",
+            "title": "Phase Changes and Temperature Conversions",
+            "notes": "<p>Content for Phase Changes and Temperature Conversions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "atmospheric-pressure",
+        "title": "Atmospheric Pressure",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "atmospheric-pressure",
+            "title": "Atmospheric Pressure",
+            "notes": "<p>Content for Atmospheric Pressure is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "classification-of-matter-mixtures",
+        "title": "Classification of Matter: Mixtures",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "classification-of-matter-mixtures",
+            "title": "Classification of Matter: Mixtures",
+            "notes": "<p>Content for Classification of Matter: Mixtures is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "solutions-and-alloys",
+        "title": "Solutions and Alloys",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "solutions-and-alloys",
+            "title": "Solutions and Alloys",
+            "notes": "<p>Content for Solutions and Alloys is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "types-of-alloys",
+        "title": "Types of Alloys",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "types-of-alloys",
+            "title": "Types of Alloys",
+            "notes": "<p>Content for Types of Alloys is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "classification-of-mixtures-solution-colloid-and-suspension",
+        "title": "Classification of Mixtures: Solution, Colloid, and Suspension",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "classification-of-mixtures-solution-colloid-and-suspension",
+            "title": "Classification of Mixtures: Solution, Colloid, and Suspension",
+            "notes": "<p>Content for Classification of Mixtures: Solution, Colloid, and Suspension is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "types-of-colloids-based-on-dispersed-phase-and-dispersion-medium",
+        "title": "Types of Colloids based on Dispersed Phase and Dispersion Medium",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "types-of-colloids-based-on-dispersed-phase-and-dispersion-medium",
+            "title": "Types of Colloids based on Dispersed Phase and Dispersion Medium",
+            "notes": "<p>Content for Types of Colloids based on Dispersed Phase and Dispersion Medium is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "methods-of-separation-centrifugation-sublimation-and-chromatography",
+        "title": "Methods of Separation: Centrifugation, Sublimation, and Chromatography",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "methods-of-separation-centrifugation-sublimation-and-chromatography",
+            "title": "Methods of Separation: Centrifugation, Sublimation, and Chromatography",
+            "notes": "<p>Content for Methods of Separation: Centrifugation, Sublimation, and Chromatography is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "chemical-and-physical-changes",
+        "title": "Chemical and Physical Changes",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "chemical-and-physical-changes",
+            "title": "Chemical and Physical Changes",
+            "notes": "<p>Content for Chemical and Physical Changes is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "atoms-and-molecules-historical-concepts",
+        "title": "Atoms and Molecules: Historical Concepts",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "atoms-and-molecules-historical-concepts",
+            "title": "Atoms and Molecules: Historical Concepts",
+            "notes": "<p>Content for Atoms and Molecules: Historical Concepts is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "atomic-numbers-and-masses-of-elements-1-20",
+        "title": "Atomic Numbers and Masses of Elements (1-20)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "atomic-numbers-and-masses-of-elements-1-20",
+            "title": "Atomic Numbers and Masses of Elements (1-20)",
+            "notes": "<p>Content for Atomic Numbers and Masses of Elements (1-20) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "atomic-structure-and-models",
+        "title": "Atomic Structure and Models",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "atomic-structure-and-models",
+            "title": "Atomic Structure and Models",
+            "notes": "<p>Content for Atomic Structure and Models is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "alpha-particle-scattering-experiment",
+        "title": "Alpha Particle Scattering Experiment",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "alpha-particle-scattering-experiment",
+            "title": "Alpha Particle Scattering Experiment",
+            "notes": "<p>Content for Alpha Particle Scattering Experiment is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "bohr-s-model-of-atom",
+        "title": "Bohr's Model of Atom",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "bohr-s-model-of-atom",
+            "title": "Bohr's Model of Atom",
+            "notes": "<p>Content for Bohr's Model of Atom is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "conclusions-of-atomic-structure",
+        "title": "Conclusions of Atomic Structure",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "conclusions-of-atomic-structure",
+            "title": "Conclusions of Atomic Structure",
+            "notes": "<p>Content for Conclusions of Atomic Structure is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "drawbacks-of-atomic-model",
+        "title": "Drawbacks of Atomic Model",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "drawbacks-of-atomic-model",
+            "title": "Drawbacks of Atomic Model",
+            "notes": "<p>Content for Drawbacks of Atomic Model is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "subatomic-particles",
+        "title": "Subatomic Particles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "subatomic-particles",
+            "title": "Subatomic Particles",
+            "notes": "<p>Content for Subatomic Particles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "geographical-terms",
+        "title": "Geographical Terms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "geographical-terms",
+            "title": "Geographical Terms",
+            "notes": "<p>Content for Geographical Terms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "combination-reaction",
+        "title": "Combination Reaction",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "combination-reaction",
+            "title": "Combination Reaction",
+            "notes": "<p>Content for Combination Reaction is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "combination-reaction-magnesium",
+        "title": "Combination Reaction - Magnesium",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "combination-reaction-magnesium",
+            "title": "Combination Reaction - Magnesium",
+            "notes": "<p>Content for Combination Reaction - Magnesium is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "exothermic-reactions",
+        "title": "Exothermic Reactions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "exothermic-reactions",
+            "title": "Exothermic Reactions",
+            "notes": "<p>Content for Exothermic Reactions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "combination-reactions-coal-and-water",
+        "title": "Combination Reactions - Coal and Water",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "combination-reactions-coal-and-water",
+            "title": "Combination Reactions - Coal and Water",
+            "notes": "<p>Content for Combination Reactions - Coal and Water is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "decomposition-reactions",
+        "title": "Decomposition Reactions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "decomposition-reactions",
+            "title": "Decomposition Reactions",
+            "notes": "<p>Content for Decomposition Reactions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "energy-in-decomposition-reactions",
+        "title": "Energy in Decomposition Reactions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "energy-in-decomposition-reactions",
+            "title": "Energy in Decomposition Reactions",
+            "notes": "<p>Content for Energy in Decomposition Reactions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "oxidation-and-reduction-reactions",
+        "title": "Oxidation and Reduction Reactions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "oxidation-and-reduction-reactions",
+            "title": "Oxidation and Reduction Reactions",
+            "notes": "<p>Content for Oxidation and Reduction Reactions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "punch-facts-states-of-matter-and-gases-35",
+        "title": "Punch Facts: States of Matter and Gases",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "punch-facts-states-of-matter-and-gases-35",
+            "title": "Punch Facts: States of Matter and Gases",
+            "notes": "<p>Content for Punch Facts: States of Matter and Gases is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "phase-changes-and-melting-point",
+        "title": "Phase Changes and Melting Point",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "phase-changes-and-melting-point",
+            "title": "Phase Changes and Melting Point",
+            "notes": "<p>Content for Phase Changes and Melting Point is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "uses-of-sulphur-compounds",
+        "title": "Uses of Sulphur Compounds",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "uses-of-sulphur-compounds",
+            "title": "Uses of Sulphur Compounds",
+            "notes": "<p>Content for Uses of Sulphur Compounds is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "hydrated-copper-sulphate-and-gypsum",
+        "title": "Hydrated Copper Sulphate and Gypsum",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "hydrated-copper-sulphate-and-gypsum",
+            "title": "Hydrated Copper Sulphate and Gypsum",
+            "notes": "<p>Content for Hydrated Copper Sulphate and Gypsum is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "atoms-and-molecules-historical-concepts-39",
+        "title": "Atoms and Molecules - Historical Concepts",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "atoms-and-molecules-historical-concepts-39",
+            "title": "Atoms and Molecules - Historical Concepts",
+            "notes": "<p>Content for Atoms and Molecules - Historical Concepts is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "atomic-numbers-and-masses-1-20",
+        "title": "Atomic Numbers and Masses (1-20)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "atomic-numbers-and-masses-1-20",
+            "title": "Atomic Numbers and Masses (1-20)",
+            "notes": "<p>Content for Atomic Numbers and Masses (1-20) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "hydrated-copper-sulphate-and-blue-vitriol",
+        "title": "Hydrated Copper Sulphate and Blue Vitriol",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "hydrated-copper-sulphate-and-blue-vitriol",
+            "title": "Hydrated Copper Sulphate and Blue Vitriol",
+            "notes": "<p>Content for Hydrated Copper Sulphate and Blue Vitriol is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "blue-vitriol-and-hydrated-copper-sulphate",
+        "title": "Blue Vitriol and Hydrated Copper Sulphate",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "blue-vitriol-and-hydrated-copper-sulphate",
+            "title": "Blue Vitriol and Hydrated Copper Sulphate",
+            "notes": "<p>Content for Blue Vitriol and Hydrated Copper Sulphate is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "metals-non-metals-properties-of-metals-mind-map",
+        "title": "Metals & Non-Metals \u2013 Properties of Metals (Mind Map)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "metals-non-metals-properties-of-metals-mind-map",
+            "title": "Metals & Non-Metals \u2013 Properties of Metals (Mind Map)",
+            "notes": "<p>Content for Metals & Non-Metals \u2013 Properties of Metals (Mind Map) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "non-metals-physical-properties-allotropes-of-carbon",
+        "title": "Non-Metals \u2013 Physical Properties & Allotropes of Carbon",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "non-metals-physical-properties-allotropes-of-carbon",
+            "title": "Non-Metals \u2013 Physical Properties & Allotropes of Carbon",
+            "notes": "<p>Content for Non-Metals \u2013 Physical Properties & Allotropes of Carbon is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "chemical-properties-reaction-of-metals-with-air-anodising",
+        "title": "Chemical Properties \u2013 Reaction of Metals with Air & Anodising",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "chemical-properties-reaction-of-metals-with-air-anodising",
+            "title": "Chemical Properties \u2013 Reaction of Metals with Air & Anodising",
+            "notes": "<p>Content for Chemical Properties \u2013 Reaction of Metals with Air & Anodising is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "reaction-of-metal-oxides-with-acids-and-classification-of-oxides",
+        "title": "Reaction of Metal Oxides with Acids and Classification of Oxides",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "reaction-of-metal-oxides-with-acids-and-classification-of-oxides",
+            "title": "Reaction of Metal Oxides with Acids and Classification of Oxides",
+            "notes": "<p>Content for Reaction of Metal Oxides with Acids and Classification of Oxides is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "reactivity-of-metals-with-oxygen",
+        "title": "Reactivity of Metals with Oxygen",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "reactivity-of-metals-with-oxygen",
+            "title": "Reactivity of Metals with Oxygen",
+            "notes": "<p>Content for Reactivity of Metals with Oxygen is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "reaction-of-metals-with-water",
+        "title": "Reaction of Metals with Water",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "reaction-of-metals-with-water",
+            "title": "Reaction of Metals with Water",
+            "notes": "<p>Content for Reaction of Metals with Water is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "metals-that-float-when-treated-with-water",
+        "title": "Metals that Float When Treated with Water",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "metals-that-float-when-treated-with-water",
+            "title": "Metals that Float When Treated with Water",
+            "notes": "<p>Content for Metals that Float When Treated with Water is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "reaction-of-oxides-with-bases-sodium-hydroxide",
+        "title": "Reaction of Oxides with Bases (Sodium Hydroxide)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "reaction-of-oxides-with-bases-sodium-hydroxide",
+            "title": "Reaction of Oxides with Bases (Sodium Hydroxide)",
+            "notes": "<p>Content for Reaction of Oxides with Bases (Sodium Hydroxide) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "reactions-of-metals-with-acids",
+        "title": "Reactions of Metals with Acids",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "reactions-of-metals-with-acids",
+            "title": "Reactions of Metals with Acids",
+            "notes": "<p>Content for Reactions of Metals with Acids is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "redox-reactions-displacement-reactions-reactivity-series",
+        "title": "Redox Reactions - Displacement Reactions (Reactivity Series)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "redox-reactions-displacement-reactions-reactivity-series",
+            "title": "Redox Reactions - Displacement Reactions (Reactivity Series)",
+            "notes": "<p>Content for Redox Reactions - Displacement Reactions (Reactivity Series) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "seismology-seismograph",
+        "title": "Seismology & Seismograph",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "seismology-seismograph",
+            "title": "Seismology & Seismograph",
+            "notes": "<p>Content for Seismology & Seismograph is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "volcanic-eruption-gases",
+        "title": "Volcanic Eruption \u2013 Gases",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "volcanic-eruption-gases",
+            "title": "Volcanic Eruption \u2013 Gases",
+            "notes": "<p>Content for Volcanic Eruption \u2013 Gases is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "question-distribution-by-chapter-2014-2016",
+        "title": "Question Distribution by Chapter (2014-2016)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "question-distribution-by-chapter-2014-2016",
+            "title": "Question Distribution by Chapter (2014-2016)",
+            "notes": "<p>Content for Question Distribution by Chapter (2014-2016) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents",
+        "title": "Table of Contents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents",
+            "title": "Table of Contents",
+            "notes": "<p>Content for Table of Contents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "properties-of-acids-and-bases",
+        "title": "Properties of Acids and Bases",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "properties-of-acids-and-bases",
+            "title": "Properties of Acids and Bases",
+            "notes": "<p>Content for Properties of Acids and Bases is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "br-nsted-lowry-theory",
+        "title": "Br\u00f8nsted-Lowry Theory",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "br-nsted-lowry-theory",
+            "title": "Br\u00f8nsted-Lowry Theory",
+            "notes": "<p>Content for Br\u00f8nsted-Lowry Theory is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ph-scale-and-examples",
+        "title": "pH Scale and Examples",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ph-scale-and-examples",
+            "title": "pH Scale and Examples",
+            "notes": "<p>Content for pH Scale and Examples is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "alkalis",
+        "title": "Alkalis",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "alkalis",
+            "title": "Alkalis",
+            "notes": "<p>Content for Alkalis is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "natural-acids-and-their-sources",
+        "title": "Natural Acids and their Sources",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "natural-acids-and-their-sources",
+            "title": "Natural Acids and their Sources",
+            "notes": "<p>Content for Natural Acids and their Sources is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "litmus-and-natural-indicators",
+        "title": "Litmus and Natural Indicators",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "litmus-and-natural-indicators",
+            "title": "Litmus and Natural Indicators",
+            "notes": "<p>Content for Litmus and Natural Indicators is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "chemical-reactions-of-acids-and-bases",
+        "title": "Chemical Reactions of Acids and Bases",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "chemical-reactions-of-acids-and-bases",
+            "title": "Chemical Reactions of Acids and Bases",
+            "notes": "<p>Content for Chemical Reactions of Acids and Bases is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "types-of-indicators",
+        "title": "Types of Indicators",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "types-of-indicators",
+            "title": "Types of Indicators",
+            "notes": "<p>Content for Types of Indicators is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "everyday-chemistry-and-ph",
+        "title": "Everyday Chemistry and pH",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "everyday-chemistry-and-ph",
+            "title": "Everyday Chemistry and pH",
+            "notes": "<p>Content for Everyday Chemistry and pH is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents-66",
+        "title": "Table of Contents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents-66",
+            "title": "Table of Contents",
+            "notes": "<p>Content for Table of Contents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents-67",
+        "title": "Table of Contents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents-67",
+            "title": "Table of Contents",
+            "notes": "<p>Content for Table of Contents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "acid-base-indicators",
+        "title": "Acid-Base Indicators",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "acid-base-indicators",
+            "title": "Acid-Base Indicators",
+            "notes": "<p>Content for Acid-Base Indicators is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "organic-acids-and-their-sources",
+        "title": "Organic Acids and Their Sources",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "organic-acids-and-their-sources",
+            "title": "Organic Acids and Their Sources",
+            "notes": "<p>Content for Organic Acids and Their Sources is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "reaction-of-metals-and-non-metals-with-oxygen",
+        "title": "Reaction of Metals and Non-Metals with Oxygen",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "reaction-of-metals-and-non-metals-with-oxygen",
+            "title": "Reaction of Metals and Non-Metals with Oxygen",
+            "notes": "<p>Content for Reaction of Metals and Non-Metals with Oxygen is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "anodising-of-aluminium",
+        "title": "Anodising of Aluminium",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "anodising-of-aluminium",
+            "title": "Anodising of Aluminium",
+            "notes": "<p>Content for Anodising of Aluminium is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "reactivity-series-of-metals",
+        "title": "Reactivity Series of Metals",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "reactivity-series-of-metals",
+            "title": "Reactivity Series of Metals",
+            "notes": "<p>Content for Reactivity Series of Metals is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "aqua-regia",
+        "title": "Aqua Regia",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "aqua-regia",
+            "title": "Aqua Regia",
+            "notes": "<p>Content for Aqua Regia is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "reactivity-of-metals-with-water",
+        "title": "Reactivity of Metals with Water",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "reactivity-of-metals-with-water",
+            "title": "Reactivity of Metals with Water",
+            "notes": "<p>Content for Reactivity of Metals with Water is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "reactivity-of-metals-with-acids",
+        "title": "Reactivity of Metals with Acids",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "reactivity-of-metals-with-acids",
+            "title": "Reactivity of Metals with Acids",
+            "notes": "<p>Content for Reactivity of Metals with Acids is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "extraction-of-metals-from-ores",
+        "title": "Extraction of Metals from Ores",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "extraction-of-metals-from-ores",
+            "title": "Extraction of Metals from Ores",
+            "notes": "<p>Content for Extraction of Metals from Ores is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "common-names-of-chemical-compounds",
+        "title": "Common Names of Chemical Compounds",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "common-names-of-chemical-compounds",
+            "title": "Common Names of Chemical Compounds",
+            "notes": "<p>Content for Common Names of Chemical Compounds is being generated...</p>"
           }
         ]
       }
     ]
   },
-  "biology": {
-    "title": "Biology (NDA/CDS)",
+  "science": {
+    "title": "Science",
     "chapters": [
       {
-        "id": "cell-structure",
-        "title": "Cell Structure & Cell Division",
+        "id": "vegetative-propagation-in-plants",
+        "title": "Vegetative Propagation in Plants",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "cell-structure",
-            "title": "Cell Structure & Cell Division",
-            "notes": "\n              <h3>1. Cell Theory & Classification</h3>\n              <ul>\n                <li>Cell is the structural and functional unit of life, first discovered by **Robert Hooke** in 1665 (dead cork cell) and **Leeuwenhoek** in 1674 (living cell).</li>\n                <li>**Cell Theory**: Proposed by Schleiden and Schwann (1838-1839). Rudolf Virchow added: \"Omnis cellula-e-cellula\" (all cells arise from pre-existing cells).</li>\n                <li>**Prokaryotic Cells**: Lack a nuclear membrane and membrane-bound organelles (e.g., Bacteria, Blue-green algae). Possess 70S ribosomes.</li>\n                <li>**Eukaryotic Cells**: Have a well-defined nuclear envelope and organelles (e.g., Plants, Animals, Fungi). Possess 80S ribosomes.</li>\n              </ul>\n              \n              <h3>2. Vital Cell Organelles</h3>\n              <ul>\n                <li>**Mitochondria**: Double-membraned powerhouse of the cell. Site of aerobic cellular respiration and ATP generation. Contains its own DNA and 70S ribosomes.</li>\n                <li>**Plastids (Chloroplasts)**: Found only in plant cells. Kitchen of the cell, contains chlorophyll to perform photosynthesis. Possesses own circular DNA.</li>\n                <li>**Ribosomes**: Non-membrane bound protein factories. Found free in cytoplasm or attached to Rough Endoplasmic Reticulum (RER).</li>\n                <li>**Lysosomes**: Formed by Golgi apparatus. Known as **Suicide Bags** because they contain hydrolytic digestive enzymes that destroy worn-out organelles or the cell itself under stress.</li>\n                <li>**Endoplasmic Reticulum (ER)**: RER has ribosomes and synthesizes proteins; Smooth ER (SER) synthesizes lipids and detoxifies poisons/drugs.</li>\n                <li>**Golgi Apparatus**: Performs packaging, modification, and dispatching of materials.</li>\n              </ul>\n              \n              <h3>3. Cell Division (Mitosis vs Meiosis)</h3>\n              <ul>\n                <li>**Mitosis (Equational Division)**: Occurs in somatic cells for growth and repair. One diploid cell (2n) divides to produce **two identical diploid (2n) daughter cells**.</li>\n                <li>**Meiosis (Reductional Division)**: Occurs in germ cells to form gametes. One diploid cell (2n) divides to produce **four non-identical haploid (n) daughter cells**. Features crossing over in Prophase I (Pachytene stage) which induces variation.</li>\n              </ul>\n            ",
-            "formulas": "Powerhouse: Mitochondria (ATP)\nSuicide Bags: Lysosomes (hydrolytic enzymes)\nProtein Factory: Ribosomes\nMitosis: Growth & Repair (2n -> 2n)\nMeiosis: Gamete formation & Crossing Over (2n -> 4 cells of n)",
-            "mindmap": {
-              "root": "Cell Biology",
-              "branches": [
-                {
-                  "title": "Cell Types",
-                  "subnodes": [
-                    "Prokaryotes: 70S, no envelope",
-                    "Eukaryotes: 80S, true nucleus"
-                  ]
-                },
-                {
-                  "title": "Organelles",
-                  "subnodes": [
-                    "Mitochondria: ATP, own DNA",
-                    "Chloroplasts: Photosynthesis",
-                    "Lysosomes: Hydrolytic enzymes"
-                  ]
-                },
-                {
-                  "title": "Cell Division",
-                  "subnodes": [
-                    "Mitosis: Somatic (2n -> 2n)",
-                    "Meiosis: Gametes (2n -> 4x n)",
-                    "Crossing Over: Prophase I variation"
-                  ]
-                }
-              ]
-            }
+            "id": "vegetative-propagation-in-plants",
+            "title": "Vegetative Propagation in Plants",
+            "notes": "<p>Content for Vegetative Propagation in Plants is being generated...</p>"
           }
         ]
       },
       {
-        "id": "human-systems",
-        "title": "Vital Human Systems & Organs",
+        "id": "hormones-in-animals-endocrine-system",
+        "title": "Hormones in Animals & Endocrine System",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "human-systems",
-            "title": "Vital Human Systems & Organs",
-            "notes": "\n              <h3>1. Circulatory System & Blood Components</h3>\n              <ul>\n                <li>**Human Heart**: 4-chambered (two auricles, two ventricles) showing double circulation. Normal pace maker is the **Sino-Atrial (SA) Node**.</li>\n                <li>**Blood Composition**: Plasma (55%) and Formed elements (45%):\n                  <ul>\n                    <li>**RBCs (Erythrocytes)**: Lifespan ~120 days. Lack nucleus at maturity. Contain iron-rich hemoglobin to transport oxygen. Destroyed in the spleen (graveyard of RBCs).</li>\n                    <li>**WBCs (Leukocytes)**: Part of immune system. Granulocytes (Neutrophils, Basophils, Eosinophils) and Agranulocytes (Lymphocytes, Monocytes).</li>\n                    <li>**Platelets (Thrombocytes)**: Responsible for blood clotting (aided by Vitamin K and Calcium ions).</li>\n                  </ul>\n                </li>\n                <li>**Blood Groups (ABO System)**:\n                  <ul>\n                    <li>Group O-negative: **Universal Donor** (lacks antigens).</li>\n                    <li>Group AB-positive: **Universal Recipient** (lacks antibodies).</li>\n                  </ul>\n                </li>\n              </ul>\n              \n              <h3>2. Endocrine Glands & Gaseous / Digestive Systems</h3>\n              <ul>\n                <li>**Endocrine Glands (Ductless Glands)**: Secretions are called hormones.\n                  <ul>\n                    <li>**Pituitary Gland**: Master gland, controls growth and other glands.</li>\n                    <li>**Thyroid Gland**: Secretes thyroxine (needs Iodine; deficiency leads to Goitre).</li>\n                    <li>**Pancreas (Mixed Gland)**: Islets of Langerhans secrete **Insulin** (Beta cells, lowers blood glucose) and **Glucagon** (Alpha cells, raises glucose). Deficiency of insulin causes Diabetes Mellitus.</li>\n                    <li>**Adrenal Gland**: Secretes Adrenaline (fight-or-flight hormone, raises heart rate).</li>\n                  </ul>\n                </li>\n                <li>**Digestive Enzymes**:\n                  <ul>\n                    <li>Saliva: Salivary Amylase (digests starch).</li>\n                    <li>Stomach: Pepsin (digests proteins in acidic medium - HCl).</li>\n                    <li>Pancreas: Trypsin (proteins), Lipase (fats), Amylase (carbohydrates).</li>\n                  </ul>\n                </li>\n              </ul>\n            ",
-            "formulas": "Blood pH: 7.4 (Slightly alkaline)\nRBC lifespan: 120 days\nUniversal Donor: O- | Recipient: AB+\nMaster Gland: Pituitary\nInsulin: Beta-cells (lowers sugar)\nAdrenaline: Emergency hormone",
-            "mindmap": {
-              "root": "Human Physiology",
-              "branches": [
-                {
-                  "title": "Circulatory",
-                  "subnodes": [
-                    "Heart: 4 chambers, SA Node",
-                    "RBC (120d, no nucleus)",
-                    "AB+ Recipient, O- Donor"
-                  ]
-                },
-                {
-                  "title": "Endocrine",
-                  "subnodes": [
-                    "Pancreas: Insulin (Beta cells)",
-                    "Thyroid: Thyroxine (Goitre)",
-                    "Adrenal: Adrenaline emergency"
-                  ]
-                },
-                {
-                  "title": "Digestive",
-                  "subnodes": [
-                    "Salivary Amylase: Starch",
-                    "Pepsin (Stomach): Proteins",
-                    "Lipase: Fat emulsification"
-                  ]
-                }
-              ]
-            }
+            "id": "hormones-in-animals-endocrine-system",
+            "title": "Hormones in Animals & Endocrine System",
+            "notes": "<p>Content for Hormones in Animals & Endocrine System is being generated...</p>"
           }
         ]
       },
       {
-        "id": "diseases",
-        "title": "Human Diseases & Pathogens",
+        "id": "sequence-of-major-human-endocrine-glands",
+        "title": "Sequence of Major Human Endocrine Glands",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "diseases",
-            "title": "Human Diseases & Pathogens",
-            "notes": "\n              <h3>1. Infectious Diseases Classification</h3>\n              <ul>\n                <li>**Bacterial Diseases**:\n                  <ul>\n                    <li>Tuberculosis (TB): Caused by <em>Mycobacterium tuberculosis</em>. Prevented by BCG vaccine.</li>\n                    <li>Typhoid: Caused by <em>Salmonella typhi</em>. Diagnosed by **Widal Test**.</li>\n                    <li>Cholera: Caused by <em>Vibrio cholerae</em> (water-borne).</li>\n                  </ul>\n                </li>\n                <li>**Viral Diseases**:\n                  <ul>\n                    <li>Dengue: Caused by Flavivirus. Spread by **Aedes aegypti** mosquito. Characterized by severe drop in platelet count.</li>\n                    <li>Polio: Caused by Poliovirus. Vaccine developed by Jonas Salk (injected) and Albert Sabin (oral).</li>\n                    <li>AIDS: Caused by HIV (Retrovirus). Diagnosed by **ELISA Test**.</li>\n                  </ul>\n                </li>\n                <li>**Protozoan Diseases**:\n                  <ul>\n                    <li>Malaria: Caused by <em>Plasmodium</em>. Spread by female **Anopheles** mosquito vector. Quinine (from Cinchona bark) is used as treatment.</li>\n                    <li>Kala-azar (Leishmaniasis): Spread by **Sandfly** vector.</li>\n                  </ul>\n                </li>\n              </ul>\n              \n              <h3>2. Nutritional Deficiency Diseases</h3>\n              <ul>\n                <li>**Vitamins & Minerals Deficiency Chart**:\n                  <table style=\"width:100%; border-collapse:collapse; margin-top:8px; font-size:0.85rem;\">\n                    <tr style=\"background-color:var(--bg-tertiary);\">\n                      <th style=\"padding:6px; border:1px solid var(--border);\">Vitamin / Chemical</th>\n                      <th style=\"padding:6px; border:1px solid var(--border);\">Common Name</th>\n                      <th style=\"padding:6px; border:1px solid var(--border);\">Deficiency Disease</th>\n                    </tr>\n                    <tr>\n                      <td style=\"padding:6px; border:1px solid var(--border);\">Vitamin A</td>\n                      <td style=\"padding:6px; border:1px solid var(--border);\">Retinol</td>\n                      <td style=\"padding:6px; border:1px solid var(--border); color:var(--warning)\">Night Blindness / Xerophthalmia</td>\n                    </tr>\n                    <tr>\n                      <td style=\"padding:6px; border:1px solid var(--border);\">Vitamin B1</td>\n                      <td style=\"padding:6px; border:1px solid var(--border);\">Thiamine</td>\n                      <td style=\"padding:6px; border:1px solid var(--border); color:var(--warning)\">Beriberi</td>\n                    </tr>\n                    <tr>\n                      <td style=\"padding:6px; border:1px solid var(--border);\">Vitamin C</td>\n                      <td style=\"padding:6px; border:1px solid var(--border);\">Ascorbic Acid</td>\n                      <td style=\"padding:6px; border:1px solid var(--border); color:var(--warning)\">Scurvy (Bleeding gums)</td>\n                    </tr>\n                    <tr>\n                      <td style=\"padding:6px; border:1px solid var(--border);\">Vitamin D</td>\n                      <td style=\"padding:6px; border:1px solid var(--border);\">Calciferol</td>\n                      <td style=\"padding:6px; border:1px solid var(--border); color:var(--warning)\">Rickets (bow legs in kids)</td>\n                    </tr>\n                  </table>\n                </li>\n              </ul>\n            ",
-            "formulas": "Typhoid: Widal Test\nMalaria: Female Anopheles vector\nDengue: Aedes vector\nVit A (Retinol) -> Night Blindness\nVit B1 (Thiamine) -> Beriberi\nVit C (Ascorbic Acid) -> Scurvy\nVit D (Calciferol) -> Rickets",
-            "mindmap": {
-              "root": "Diseases & Health",
-              "branches": [
-                {
-                  "title": "Bacterial",
-                  "subnodes": [
-                    "TB: Mycobacterium, BCG",
-                    "Typhoid: Salmonella, Widal",
-                    "Cholera: Vibrio, water-borne"
-                  ]
-                },
-                {
-                  "title": "Viral & Protozoan",
-                  "subnodes": [
-                    "Dengue: Aedes mosquito",
-                    "AIDS: HIV, ELISA test",
-                    "Malaria: Plasmodium, Anopheles"
-                  ]
-                },
-                {
-                  "title": "Deficiency",
-                  "subnodes": [
-                    "Vit A: Night Blindness",
-                    "Vit B1: Beriberi thiamine",
-                    "Vit C: Scurvy gums",
-                    "Vit D: Rickets bone"
-                  ]
-                }
-              ]
-            }
+            "id": "sequence-of-major-human-endocrine-glands",
+            "title": "Sequence of Major Human Endocrine Glands",
+            "notes": "<p>Content for Sequence of Major Human Endocrine Glands is being generated...</p>"
           }
         ]
       },
       {
-        "id": "immunity-vaccines",
-        "title": "Immunity & Vaccines",
+        "id": "genetics-classification-of-traits",
+        "title": "Genetics & Classification of Traits",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "immunity-vaccines",
-            "title": "Immunity & Vaccines",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Innate: non-specific (skin, tears)\nAcquired: specific (B-cells, T-cells)\nActive: body makes antibodies (infection, vaccine)\nPassive: ready-made antibodies (colostrum, anti-venom)\nVaccines: Live-attenuated (OPV, BCG), Inactivated (Covaxin, Salk), mRNA (Pfizer)",
-            "mindmap": {
-              "root": "Immunity",
-              "branches": [
-                {
-                  "title": "Innate (Natural)",
-                  "subnodes": [
-                    "Physical: Skin, mucous",
-                    "Physiological: Acid, saliva",
-                    "Cellular: WBCs, macrophages"
-                  ]
-                },
-                {
-                  "title": "Acquired (Adaptive)",
-                  "subnodes": [
-                    "B-cells: Humoral (antibodies)",
-                    "T-cells: Cell-mediated (helper/killer)"
-                  ]
-                },
-                {
-                  "title": "Vaccines",
-                  "subnodes": [
-                    "Live-attenuated (BCG, OPV)",
-                    "Killed/Inactivated (Salk, Rabies)",
-                    "Toxoids (Tetanus)"
-                  ]
-                }
-              ]
-            }
+            "id": "genetics-classification-of-traits",
+            "title": "Genetics & Classification of Traits",
+            "notes": "<p>Content for Genetics & Classification of Traits is being generated...</p>"
           }
         ]
       },
       {
-        "id": "plant-kingdom",
-        "title": "Plant Kingdom Classification",
+        "id": "genetics-alleles-dominant-recessive-traits-and-genotypes-in-pea-plants",
+        "title": "Genetics - Alleles, Dominant/Recessive Traits, and Genotypes in Pea Plants",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "plant-kingdom",
-            "title": "Plant Kingdom Classification",
-            "notes": "Detailed notes expanded in notes_extra_8.js",
-            "formulas": "Thallophyta: Algae (no roots/stems/leaves)\nBryophyta: Amphibians of plant kingdom (Funaria/Moss)\nPteridophyta: First vascular plants (Ferns/Marsilea)\nGymnosperms: Naked seeds (Pinus/Cycas)\nAngiosperms: Enclosed seeds, flowers, Monocots & Dicots",
-            "mindmap": {
-              "root": "Plant Kingdom",
-              "branches": [
-                {
-                  "title": "Cryptogams",
-                  "subnodes": [
-                    "Thallophyta: Simple, algae",
-                    "Bryophyta: Amphibians, mosses",
-                    "Pteridophyta: Vascular, ferns"
-                  ]
-                },
-                {
-                  "title": "Phanerogams",
-                  "subnodes": [
-                    "Gymnosperms: Naked seeds",
-                    "Angiosperms: Flowering, enclosed"
-                  ]
-                },
-                {
-                  "title": "Angiosperms",
-                  "subnodes": [
-                    "Monocots: 1 cotyledon, parallel venation",
-                    "Dicots: 2 cotyledons, reticulate venation"
-                  ]
-                }
-              ]
-            }
+            "id": "genetics-alleles-dominant-recessive-traits-and-genotypes-in-pea-plants",
+            "title": "Genetics - Alleles, Dominant/Recessive Traits, and Genotypes in Pea Plants",
+            "notes": "<p>Content for Genetics - Alleles, Dominant/Recessive Traits, and Genotypes in Pea Plants is being generated...</p>"
           }
         ]
       },
       {
-        "id": "animal-kingdom",
-        "title": "Animal Kingdom Classification",
+        "id": "classification-of-diseases-deficiency-diseases-viral-bacterial-diseases",
+        "title": "Classification of Diseases, Deficiency Diseases, Viral & Bacterial Diseases",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "animal-kingdom",
-            "title": "Animal Kingdom Classification",
-            "notes": "Detailed notes expanded in notes_extra_8.js",
-            "formulas": "Porifera: Cellular, sponges\nCoelenterata: Cnidoblasts, Polyp/Medusa\nPlatyhelminthes: Flatworms\nAschelminthes: Roundworms\nAnnelida: Segmented\nArthropoda: Jointed, largest\nMollusca: Soft, shell\nEchinodermata: Water vascular\nChordata: Notochord, vertebrates",
-            "mindmap": {
-              "root": "Animal Kingdom",
-              "branches": [
-                {
-                  "title": "Invertebrates I",
-                  "subnodes": [
-                    "Porifera: Sponges",
-                    "Coelenterata: Cnidoblasts",
-                    "Platyhelminthes: Flatworms",
-                    "Aschelminthes: Roundworms"
-                  ]
-                },
-                {
-                  "title": "Invertebrates II",
-                  "subnodes": [
-                    "Annelida: Segmented",
-                    "Arthropoda: Jointed, largest",
-                    "Mollusca: Soft",
-                    "Echinodermata: Spiny, water-vascular"
-                  ]
-                },
-                {
-                  "title": "Vertebrates (Chordata)",
-                  "subnodes": [
-                    "Pisces: 2-chambered, gills",
-                    "Amphibia: 3-chambered",
-                    "Reptilia: 3-chambered (Crocodile 4)",
-                    "Aves: 4-chambered, warm",
-                    "Mammalia: Milk glands"
-                  ]
-                }
-              ]
-            }
+            "id": "classification-of-diseases-deficiency-diseases-viral-bacterial-diseases",
+            "title": "Classification of Diseases, Deficiency Diseases, Viral & Bacterial Diseases",
+            "notes": "<p>Content for Classification of Diseases, Deficiency Diseases, Viral & Bacterial Diseases is being generated...</p>"
           }
         ]
       },
       {
-        "id": "plant-reproduction",
-        "title": "Plant Reproduction & Hormones",
+        "id": "diseases-caused-by-protozoa-and-microorganisms",
+        "title": "Diseases Caused by Protozoa and Microorganisms",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "plant-reproduction",
-            "title": "Plant Reproduction & Hormones",
-            "notes": "Detailed notes expanded in notes_extra_8.js",
-            "formulas": "Vegetative: Potato (stem), Bryophyllum (leaf)\nDouble Fertilization: Syngamy (2n Zygote) + Triple Fusion (3n Endosperm)\nAuxin: Apical dominance, phototropism\nGibberellins: Stem growth, breaks seed dormancy\nCytokinin: Cell division, delays aging\nABA: Stress hormone, closes stomata\nEthylene: Gaseous hormone, fruit ripening",
-            "mindmap": {
-              "root": "Plant Reproduction",
-              "branches": [
-                {
-                  "title": "Reproduction Mode",
-                  "subnodes": [
-                    "Asexual: Spores, vegetative propagation",
-                    "Sexual: Flowers, pollination (Self & Cross)"
-                  ]
-                },
-                {
-                  "title": "Double Fertilization",
-                  "subnodes": [
-                    "Syngamy: Male gamete + Egg -> Zygote (2n)",
-                    "Triple Fusion: Male gamete + 2 Polar nuclei -> Endosperm (3n)"
-                  ]
-                },
-                {
-                  "title": "Phytohormones",
-                  "subnodes": [
-                    "Auxin: Apical dominance",
-                    "Gibberellin: Germination",
-                    "Cytokinin: Cell division",
-                    "ABA: Stress, close stomata",
-                    "Ethylene: Ripening (gaseous)"
-                  ]
-                }
-              ]
-            }
+            "id": "diseases-caused-by-protozoa-and-microorganisms",
+            "title": "Diseases Caused by Protozoa and Microorganisms",
+            "notes": "<p>Content for Diseases Caused by Protozoa and Microorganisms is being generated...</p>"
           }
         ]
       },
       {
-        "id": "biology-ecology-basics",
-        "title": "Ecology Basics & Pyramids",
+        "id": "classification-of-diseases-endemic-pandemic-and-epidemic",
+        "title": "Classification of Diseases: Endemic, Pandemic, and Epidemic",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "biology-ecology-basics",
-            "title": "Ecology Basics & Pyramids",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Lindeman's 10% Law: only 10% energy transferred to next level\nPyramids: Numbers (inverted in tree), Biomass (inverted in marine), Energy (ALWAYS upright)\nEcotone: transition zone between two ecosystems (e.g., Mangrove)",
-            "mindmap": {
-              "root": "Ecology",
-              "branches": [
-                {
-                  "title": "Ecosystem Components",
-                  "subnodes": [
-                    "Biotic: Producers, Consumers",
-                    "Abiotic: Temp, soil, water"
-                  ]
-                },
-                {
-                  "title": "Energy Flow",
-                  "subnodes": [
-                    "10% Law (Lindeman)",
-                    "Food chains & webs",
-                    "ALWAYS upright energy pyramid"
-                  ]
-                },
-                {
-                  "title": "Concepts",
-                  "subnodes": [
-                    "Ecotone (edge effect)",
-                    "Ecological Niche",
-                    "Biomagnification"
-                  ]
-                }
-              ]
-            }
+            "id": "classification-of-diseases-endemic-pandemic-and-epidemic",
+            "title": "Classification of Diseases: Endemic, Pandemic, and Epidemic",
+            "notes": "<p>Content for Classification of Diseases: Endemic, Pandemic, and Epidemic is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "chromosomal-abnormalities-down-s-syndrome",
+        "title": "Chromosomal Abnormalities - Down's Syndrome",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "chromosomal-abnormalities-down-s-syndrome",
+            "title": "Chromosomal Abnormalities - Down's Syndrome",
+            "notes": "<p>Content for Chromosomal Abnormalities - Down's Syndrome is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "question-distribution-by-chapter-2014-2016",
+        "title": "Question Distribution by Chapter (2014-2016)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "question-distribution-by-chapter-2014-2016",
+            "title": "Question Distribution by Chapter (2014-2016)",
+            "notes": "<p>Content for Question Distribution by Chapter (2014-2016) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "a-brief-overview-of-science",
+        "title": "A Brief Overview of Science",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "a-brief-overview-of-science",
+            "title": "A Brief Overview of Science",
+            "notes": "<p>Content for A Brief Overview of Science is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "difference-between-the-living-and-non-living",
+        "title": "Difference Between the Living and Non-Living",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "difference-between-the-living-and-non-living",
+            "title": "Difference Between the Living and Non-Living",
+            "notes": "<p>Content for Difference Between the Living and Non-Living is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "basis-of-life-cells-protoplasm-and-tissues",
+        "title": "Basis of Life - Cells, Protoplasm and Tissues",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "basis-of-life-cells-protoplasm-and-tissues",
+            "title": "Basis of Life - Cells, Protoplasm and Tissues",
+            "notes": "<p>Content for Basis of Life - Cells, Protoplasm and Tissues is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents",
+        "title": "Table of Contents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents",
+            "title": "Table of Contents",
+            "notes": "<p>Content for Table of Contents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cell-wall-only-in-plant-cell",
+        "title": "Cell Wall (Only in Plant Cell)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cell-wall-only-in-plant-cell",
+            "title": "Cell Wall (Only in Plant Cell)",
+            "notes": "<p>Content for Cell Wall (Only in Plant Cell) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plastid-only-in-plant-cell",
+        "title": "Plastid (Only in Plant Cell)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plastid-only-in-plant-cell",
+            "title": "Plastid (Only in Plant Cell)",
+            "notes": "<p>Content for Plastid (Only in Plant Cell) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "lysosomes",
+        "title": "Lysosomes",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "lysosomes",
+            "title": "Lysosomes",
+            "notes": "<p>Content for Lysosomes is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "mitochondria",
+        "title": "Mitochondria",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "mitochondria",
+            "title": "Mitochondria",
+            "notes": "<p>Content for Mitochondria is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "vacuoles",
+        "title": "Vacuoles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "vacuoles",
+            "title": "Vacuoles",
+            "notes": "<p>Content for Vacuoles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "animal-cell-structure",
+        "title": "Animal Cell Structure",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "animal-cell-structure",
+            "title": "Animal Cell Structure",
+            "notes": "<p>Content for Animal Cell Structure is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plant-cell-structure",
+        "title": "Plant Cell Structure",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plant-cell-structure",
+            "title": "Plant Cell Structure",
+            "notes": "<p>Content for Plant Cell Structure is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plasmolysis",
+        "title": "Plasmolysis",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plasmolysis",
+            "title": "Plasmolysis",
+            "notes": "<p>Content for Plasmolysis is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "pinocytosis",
+        "title": "Pinocytosis",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "pinocytosis",
+            "title": "Pinocytosis",
+            "notes": "<p>Content for Pinocytosis is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plasmolysis-diagram",
+        "title": "Plasmolysis (Diagram)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plasmolysis-diagram",
+            "title": "Plasmolysis (Diagram)",
+            "notes": "<p>Content for Plasmolysis (Diagram) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "introduction-to-cells",
+        "title": "Introduction to Cells",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "introduction-to-cells",
+            "title": "Introduction to Cells",
+            "notes": "<p>Content for Introduction to Cells is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cell-wall",
+        "title": "Cell Wall",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cell-wall",
+            "title": "Cell Wall",
+            "notes": "<p>Content for Cell Wall is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "protoplasm-and-cytoplasm",
+        "title": "Protoplasm and Cytoplasm",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "protoplasm-and-cytoplasm",
+            "title": "Protoplasm and Cytoplasm",
+            "notes": "<p>Content for Protoplasm and Cytoplasm is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "osmosis-and-diffusion",
+        "title": "Osmosis and Diffusion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "osmosis-and-diffusion",
+            "title": "Osmosis and Diffusion",
+            "notes": "<p>Content for Osmosis and Diffusion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "osmosis-and-diffusion-28",
+        "title": "Osmosis and Diffusion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "osmosis-and-diffusion-28",
+            "title": "Osmosis and Diffusion",
+            "notes": "<p>Content for Osmosis and Diffusion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "osmosis-and-diffusion-29",
+        "title": "Osmosis and Diffusion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "osmosis-and-diffusion-29",
+            "title": "Osmosis and Diffusion",
+            "notes": "<p>Content for Osmosis and Diffusion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "general-cell-facts",
+        "title": "General Cell Facts",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "general-cell-facts",
+            "title": "General Cell Facts",
+            "notes": "<p>Content for General Cell Facts is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "endoplasmic-reticulum",
+        "title": "Endoplasmic Reticulum",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "endoplasmic-reticulum",
+            "title": "Endoplasmic Reticulum",
+            "notes": "<p>Content for Endoplasmic Reticulum is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "golgi-apparatus",
+        "title": "Golgi Apparatus",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "golgi-apparatus",
+            "title": "Golgi Apparatus",
+            "notes": "<p>Content for Golgi Apparatus is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ribosomes",
+        "title": "Ribosomes",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ribosomes",
+            "title": "Ribosomes",
+            "notes": "<p>Content for Ribosomes is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "lysosomes-34",
+        "title": "Lysosomes",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "lysosomes-34",
+            "title": "Lysosomes",
+            "notes": "<p>Content for Lysosomes is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "centrioles",
+        "title": "Centrioles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "centrioles",
+            "title": "Centrioles",
+            "notes": "<p>Content for Centrioles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "mitochondria-36",
+        "title": "Mitochondria",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "mitochondria-36",
+            "title": "Mitochondria",
+            "notes": "<p>Content for Mitochondria is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plastids",
+        "title": "Plastids",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plastids",
+            "title": "Plastids",
+            "notes": "<p>Content for Plastids is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "general-science-section-overview",
+        "title": "General Science Section Overview",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "general-science-section-overview",
+            "title": "General Science Section Overview",
+            "notes": "<p>Content for General Science Section Overview is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "general-science-section",
+        "title": "General Science Section",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "general-science-section",
+            "title": "General Science Section",
+            "notes": "<p>Content for General Science Section is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "introduction-to-cell-division",
+        "title": "Introduction to Cell Division",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "introduction-to-cell-division",
+            "title": "Introduction to Cell Division",
+            "notes": "<p>Content for Introduction to Cell Division is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "types-of-cell-division",
+        "title": "Types of Cell Division",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "types-of-cell-division",
+            "title": "Types of Cell Division",
+            "notes": "<p>Content for Types of Cell Division is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "significance-of-meiosis",
+        "title": "Significance of Meiosis",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "significance-of-meiosis",
+            "title": "Significance of Meiosis",
+            "notes": "<p>Content for Significance of Meiosis is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "definition-of-tissue",
+        "title": "Definition of Tissue",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "definition-of-tissue",
+            "title": "Definition of Tissue",
+            "notes": "<p>Content for Definition of Tissue is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plant-tissue-vs-animal-tissue",
+        "title": "Plant Tissue vs Animal Tissue",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plant-tissue-vs-animal-tissue",
+            "title": "Plant Tissue vs Animal Tissue",
+            "notes": "<p>Content for Plant Tissue vs Animal Tissue is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cell-organelles",
+        "title": "Cell Organelles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cell-organelles",
+            "title": "Cell Organelles",
+            "notes": "<p>Content for Cell Organelles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cell-organelles-46",
+        "title": "Cell Organelles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cell-organelles-46",
+            "title": "Cell Organelles",
+            "notes": "<p>Content for Cell Organelles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nucleus",
+        "title": "Nucleus",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nucleus",
+            "title": "Nucleus",
+            "notes": "<p>Content for Nucleus is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nucleus-48",
+        "title": "Nucleus",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nucleus-48",
+            "title": "Nucleus",
+            "notes": "<p>Content for Nucleus is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nucleus-49",
+        "title": "Nucleus",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nucleus-49",
+            "title": "Nucleus",
+            "notes": "<p>Content for Nucleus is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nucleus-50",
+        "title": "Nucleus",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nucleus-50",
+            "title": "Nucleus",
+            "notes": "<p>Content for Nucleus is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nucleus-51",
+        "title": "Nucleus",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nucleus-51",
+            "title": "Nucleus",
+            "notes": "<p>Content for Nucleus is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents-52",
+        "title": "Table of Contents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents-52",
+            "title": "Table of Contents",
+            "notes": "<p>Content for Table of Contents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents-53",
+        "title": "Table of Contents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents-53",
+            "title": "Table of Contents",
+            "notes": "<p>Content for Table of Contents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nucleic-acids-and-cell-classification",
+        "title": "Nucleic Acids and Cell Classification",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nucleic-acids-and-cell-classification",
+            "title": "Nucleic Acids and Cell Classification",
+            "notes": "<p>Content for Nucleic Acids and Cell Classification is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "structure-and-optics-of-the-human-eye",
+        "title": "Structure and Optics of the Human Eye",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "structure-and-optics-of-the-human-eye",
+            "title": "Structure and Optics of the Human Eye",
+            "notes": "<p>Content for Structure and Optics of the Human Eye is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "classification-of-tissues-and-meristematic-tissues",
+        "title": "Classification of Tissues and Meristematic Tissues",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "classification-of-tissues-and-meristematic-tissues",
+            "title": "Classification of Tissues and Meristematic Tissues",
+            "notes": "<p>Content for Classification of Tissues and Meristematic Tissues is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plant-vs-animal-cells",
+        "title": "Plant vs Animal Cells",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plant-vs-animal-cells",
+            "title": "Plant vs Animal Cells",
+            "notes": "<p>Content for Plant vs Animal Cells is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cell-division",
+        "title": "Cell Division",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cell-division",
+            "title": "Cell Division",
+            "notes": "<p>Content for Cell Division is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tissues",
+        "title": "Tissues",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tissues",
+            "title": "Tissues",
+            "notes": "<p>Content for Tissues is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "growth-in-plants-and-animals",
+        "title": "Growth in Plants and Animals",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "growth-in-plants-and-animals",
+            "title": "Growth in Plants and Animals",
+            "notes": "<p>Content for Growth in Plants and Animals is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-human-eye",
+        "title": "The Human Eye",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-human-eye",
+            "title": "The Human Eye",
+            "notes": "<p>Content for The Human Eye is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-human-eye-62",
+        "title": "The Human Eye",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-human-eye-62",
+            "title": "The Human Eye",
+            "notes": "<p>Content for The Human Eye is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-human-eye-63",
+        "title": "The Human Eye",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-human-eye-63",
+            "title": "The Human Eye",
+            "notes": "<p>Content for The Human Eye is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "defects-of-vision",
+        "title": "Defects of Vision",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "defects-of-vision",
+            "title": "Defects of Vision",
+            "notes": "<p>Content for Defects of Vision is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "permanent-tissues",
+        "title": "Permanent Tissues",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "permanent-tissues",
+            "title": "Permanent Tissues",
+            "notes": "<p>Content for Permanent Tissues is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "simple-permanent-tissue",
+        "title": "Simple Permanent Tissue",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "simple-permanent-tissue",
+            "title": "Simple Permanent Tissue",
+            "notes": "<p>Content for Simple Permanent Tissue is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "simple-permanent-tissue-67",
+        "title": "Simple Permanent Tissue",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "simple-permanent-tissue-67",
+            "title": "Simple Permanent Tissue",
+            "notes": "<p>Content for Simple Permanent Tissue is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "complex-permanent-tissue",
+        "title": "Complex Permanent Tissue",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "complex-permanent-tissue",
+            "title": "Complex Permanent Tissue",
+            "notes": "<p>Content for Complex Permanent Tissue is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "complex-permanent-tissue-69",
+        "title": "Complex Permanent Tissue",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "complex-permanent-tissue-69",
+            "title": "Complex Permanent Tissue",
+            "notes": "<p>Content for Complex Permanent Tissue is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "animal-tissue",
+        "title": "Animal Tissue",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "animal-tissue",
+            "title": "Animal Tissue",
+            "notes": "<p>Content for Animal Tissue is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "growth-and-development",
+        "title": "Growth and Development",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "growth-and-development",
+            "title": "Growth and Development",
+            "notes": "<p>Content for Growth and Development is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "factors-affecting-plant-growth",
+        "title": "Factors affecting plant growth",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "factors-affecting-plant-growth",
+            "title": "Factors affecting plant growth",
+            "notes": "<p>Content for Factors affecting plant growth is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plant-hormones-auxin",
+        "title": "Plant Hormones - Auxin",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plant-hormones-auxin",
+            "title": "Plant Hormones - Auxin",
+            "notes": "<p>Content for Plant Hormones - Auxin is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plant-hormones-gibberellin",
+        "title": "Plant Hormones - Gibberellin",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plant-hormones-gibberellin",
+            "title": "Plant Hormones - Gibberellin",
+            "notes": "<p>Content for Plant Hormones - Gibberellin is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plant-hormones-cytokinins",
+        "title": "Plant Hormones - Cytokinins",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plant-hormones-cytokinins",
+            "title": "Plant Hormones - Cytokinins",
+            "notes": "<p>Content for Plant Hormones - Cytokinins is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plant-hormones",
+        "title": "Plant Hormones",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plant-hormones",
+            "title": "Plant Hormones",
+            "notes": "<p>Content for Plant Hormones is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "seed-germination",
+        "title": "Seed Germination",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "seed-germination",
+            "title": "Seed Germination",
+            "notes": "<p>Content for Seed Germination is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "photoperiodism",
+        "title": "Photoperiodism",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "photoperiodism",
+            "title": "Photoperiodism",
+            "notes": "<p>Content for Photoperiodism is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "epithelial-tissue",
+        "title": "Epithelial Tissue",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "epithelial-tissue",
+            "title": "Epithelial Tissue",
+            "notes": "<p>Content for Epithelial Tissue is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "connective-tissue",
+        "title": "Connective Tissue",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "connective-tissue",
+            "title": "Connective Tissue",
+            "notes": "<p>Content for Connective Tissue is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "muscular-tissue",
+        "title": "Muscular Tissue",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "muscular-tissue",
+            "title": "Muscular Tissue",
+            "notes": "<p>Content for Muscular Tissue is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nervous-tissue",
+        "title": "Nervous Tissue",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nervous-tissue",
+            "title": "Nervous Tissue",
+            "notes": "<p>Content for Nervous Tissue is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plant-movements-and-reproduction",
+        "title": "Plant Movements and Reproduction",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plant-movements-and-reproduction",
+            "title": "Plant Movements and Reproduction",
+            "notes": "<p>Content for Plant Movements and Reproduction is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "modifications-of-roots",
+        "title": "Modifications of Roots",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "modifications-of-roots",
+            "title": "Modifications of Roots",
+            "notes": "<p>Content for Modifications of Roots is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "modifications-of-roots-85",
+        "title": "Modifications of Roots",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "modifications-of-roots-85",
+            "title": "Modifications of Roots",
+            "notes": "<p>Content for Modifications of Roots is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "modifications-of-roots-86",
+        "title": "Modifications of Roots",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "modifications-of-roots-86",
+            "title": "Modifications of Roots",
+            "notes": "<p>Content for Modifications of Roots is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "modifications-of-stem",
+        "title": "Modifications of Stem",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "modifications-of-stem",
+            "title": "Modifications of Stem",
+            "notes": "<p>Content for Modifications of Stem is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "modifications-of-stem-88",
+        "title": "Modifications of Stem",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "modifications-of-stem-88",
+            "title": "Modifications of Stem",
+            "notes": "<p>Content for Modifications of Stem is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "modifications-of-stem-89",
+        "title": "Modifications of Stem",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "modifications-of-stem-89",
+            "title": "Modifications of Stem",
+            "notes": "<p>Content for Modifications of Stem is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "modifications-of-stem-90",
+        "title": "Modifications of Stem",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "modifications-of-stem-90",
+            "title": "Modifications of Stem",
+            "notes": "<p>Content for Modifications of Stem is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "venation",
+        "title": "Venation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "venation",
+            "title": "Venation",
+            "notes": "<p>Content for Venation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "phyllotaxy",
+        "title": "Phyllotaxy",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "phyllotaxy",
+            "title": "Phyllotaxy",
+            "notes": "<p>Content for Phyllotaxy is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "asexual-reproduction-and-vegetative-propagation",
+        "title": "Asexual Reproduction and Vegetative Propagation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "asexual-reproduction-and-vegetative-propagation",
+            "title": "Asexual Reproduction and Vegetative Propagation",
+            "notes": "<p>Content for Asexual Reproduction and Vegetative Propagation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sexual-reproduction-and-flower-structure",
+        "title": "Sexual Reproduction and Flower Structure",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sexual-reproduction-and-flower-structure",
+            "title": "Sexual Reproduction and Flower Structure",
+            "notes": "<p>Content for Sexual Reproduction and Flower Structure is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "microsporogenesis-and-macrosporogenesis",
+        "title": "Microsporogenesis and Macrosporogenesis",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "microsporogenesis-and-macrosporogenesis",
+            "title": "Microsporogenesis and Macrosporogenesis",
+            "notes": "<p>Content for Microsporogenesis and Macrosporogenesis is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "pollination-and-fertilization",
+        "title": "Pollination and Fertilization",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "pollination-and-fertilization",
+            "title": "Pollination and Fertilization",
+            "notes": "<p>Content for Pollination and Fertilization is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "embryo-development-and-types-of-reproduction",
+        "title": "Embryo Development and Types of Reproduction",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "embryo-development-and-types-of-reproduction",
+            "title": "Embryo Development and Types of Reproduction",
+            "notes": "<p>Content for Embryo Development and Types of Reproduction is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "musculoskeletal-system",
+        "title": "Musculoskeletal System",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "musculoskeletal-system",
+            "title": "Musculoskeletal System",
+            "notes": "<p>Content for Musculoskeletal System is being generated...</p>"
           }
         ]
       }
     ]
   },
-  "military-aptitude": {
-    "title": "Military GK & Aptitude",
+  "geography": {
+    "title": "Geography",
     "chapters": [
       {
-        "id": "rank-equivalence",
-        "title": "Equivalent Officer Ranks (Tri-Services)",
+        "id": "plant-movements-nastic-and-tropic-movements",
+        "title": "Plant Movements: Nastic and Tropic Movements",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "rank-equivalence",
-            "title": "Equivalent Officer Ranks (Tri-Services)",
-            "notes": "\n              <h3>1. Commissioned Officers Rank Structure</h3>\n              <p>Equivalent ranks in the three services are highly tested in CDS and AFCAT. Commissioned ranks from junior to senior levels:</p>\n              \n              <table style=\"width:100%; border-collapse:collapse; margin-top:12px; font-size:0.85rem;\">\n                <tr style=\"background-color:var(--bg-tertiary);\">\n                  <th style=\"padding:8px; border:1px solid var(--border);\">Army</th>\n                  <th style=\"padding:8px; border:1px solid var(--border);\">Navy</th>\n                  <th style=\"padding:8px; border:1px solid var(--border);\">Air Force</th>\n                  <th style=\"padding:8px; border:1px solid var(--border);\">Insignia Star Rating</th>\n                </tr>\n                <tr>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Lieutenant</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Sub-Lieutenant</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Flying Officer</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Entry Rank</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Captain</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Lieutenant</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Flight Lieutenant</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Junior Officer</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Major</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Lieutenant Commander</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Squadron Leader</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Mid-Level Officer</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Lieutenant Colonel</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Commander</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Wing Commander</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Selection Grade</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Colonel</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Captain</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Group Captain</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Senior Level</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Brigadier</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Commodore</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Air Commodore</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">1 Star</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Major General</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Rear Admiral</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Air Vice Marshal</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">2 Star</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Lieutenant General</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Vice Admiral</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Air Marshal</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">3 Star</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">General</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Admiral</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">Air Chief Marshal</td>\n                  <td style=\"padding:8px; border:1px solid var(--border);\">4 Star (Chief of Staff)</td>\n                </tr>\n              </table>\n              \n              <h3>2. Honorary / Highest Ranks (5-Star Ranks)</h3>\n              <ul>\n                <li>**Field Marshal (Army)**: Ranks held by Sam Manekshaw and K.M. Cariappa.</li>\n                <li>**Marshal of the Indian Air Force (IAF)**: Rank held by Arjan Singh.</li>\n                <li>**Admiral of the Fleet (Navy)**: Peacetime equivalent five-star rank (no naval officer has received this yet).</li>\n              </ul>\n            ",
-            "formulas": "Lieutenant = Sub-Lieutenant = Flying Officer\nColonel = Captain = Group Captain\nGeneral = Admiral = Air Chief Marshal",
-            "mindmap": {
-              "root": "Ranks Equivalence",
-              "branches": [
-                {
-                  "title": "Junior Officers",
-                  "subnodes": [
-                    "Lieutenant (Army)",
-                    "Sub-Lieutenant (Navy)",
-                    "Flying Officer (IAF)"
-                  ]
-                },
-                {
-                  "title": "Mid-Level",
-                  "subnodes": [
-                    "Major = Lt Commander = Sqn Leader",
-                    "Lt Colonel = Commander = Wing Cdr"
-                  ]
-                },
-                {
-                  "title": "Senior Level",
-                  "subnodes": [
-                    "Colonel = Captain = Group Captain",
-                    "Brigadier = Commodore = Air Comm"
-                  ]
-                },
-                {
-                  "title": "Command Star Ranks",
-                  "subnodes": [
-                    "Maj Gen (2 Star)",
-                    "Lt Gen (3 Star)",
-                    "General / Chief (4 Star)"
-                  ]
-                }
-              ]
-            }
+            "id": "plant-movements-nastic-and-tropic-movements",
+            "title": "Plant Movements: Nastic and Tropic Movements",
+            "notes": "<p>Content for Plant Movements: Nastic and Tropic Movements is being generated...</p>"
           }
         ]
       },
       {
-        "id": "commands",
-        "title": "Operational Commands of Services",
+        "id": "cities-on-ganga",
+        "title": "Cities on Ganga",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "commands",
-            "title": "Operational Commands of Services",
-            "notes": "\n              <h3>1. Indian Army Commands (7)</h3>\n              <ul>\n                <li>Northern Command: **Udhampur** (J&K)</li>\n                <li>Western Command: **Chandimandir** (Haryana)</li>\n                <li>Eastern Command: **Kolkata** (West Bengal)</li>\n                <li>Southern Command: **Pune** (Maharashtra)</li>\n                <li>Central Command: **Lucknow** (Uttar Pradesh)</li>\n                <li>South Western Command: **Jaipur** (Rajasthan)</li>\n                <li>Army Training Command (ARTRAC): **Shimla** (Himachal Pradesh)</li>\n              </ul>\n              \n              <h3>2. Indian Air Force Commands (7)</h3>\n              <ul>\n                <li>Western Air Command: **New Delhi**</li>\n                <li>Eastern Air Command: **Shillong** (Meghalaya)</li>\n                <li>Central Air Command: **Prayagraj** (Uttar Pradesh)</li>\n                <li>Southern Air Command: **Thiruvananthapuram** (Kerala)</li>\n                <li>South Western Air Command: **Gandhinagar** (Gujarat)</li>\n                <li>Training Command: **Bengaluru** (Karnataka)</li>\n                <li>Maintenance Command: **Nagpur** (Maharashtra)</li>\n              </ul>\n              \n              <h3>3. Indian Navy Commands (3)</h3>\n              <ul>\n                <li>Western Naval Command: **Mumbai** (Maharashtra)</li>\n                <li>Eastern Naval Command: **Visakhapatnam** (Andhra Pradesh)</li>\n                <li>Southern Naval Command (Training Command): **Kochi** (Kerala)</li>\n              </ul>\n              \n              <h3>4. Tri-Services Unified Command</h3>\n              <ul>\n                <li>Andaman and Nicobar Command: **Port Blair** (Joint Command of Army, Navy, Air Force).</li>\n                <li>Strategic Forces Command (SFC): Handles India's tactical nuclear weapons stockpile.</li>\n              </ul>\n            ",
-            "formulas": "Army Commands: 7 (Training at Shimla)\nAir Force Commands: 7 (Maintenance at Nagpur)\nNavy Commands: 3",
-            "mindmap": {
-              "root": "Service Commands",
-              "branches": [
-                {
-                  "title": "Army (7)",
-                  "subnodes": [
-                    "Northern: Udhampur",
-                    "Eastern: Kolkata",
-                    "Training: Shimla"
-                  ]
-                },
-                {
-                  "title": "Air Force (7)",
-                  "subnodes": [
-                    "Central: Prayagraj",
-                    "SW: Gandhinagar",
-                    "Maintenance: Nagpur"
-                  ]
-                },
-                {
-                  "title": "Navy (3)",
-                  "subnodes": [
-                    "Western: Mumbai",
-                    "Eastern: Vizag",
-                    "Southern: Kochi"
-                  ]
-                },
-                {
-                  "title": "Joint Commands",
-                  "subnodes": [
-                    "Andaman: Port Blair",
-                    "Strategic Forces Command"
-                  ]
-                }
-              ]
-            }
+            "id": "cities-on-ganga",
+            "title": "Cities on Ganga",
+            "notes": "<p>Content for Cities on Ganga is being generated...</p>"
           }
         ]
       },
       {
-        "id": "defence-organisations-weapons",
-        "title": "Defence Organisations, Weapons & Agreements",
+        "id": "cities-on-yamuna",
+        "title": "Cities on Yamuna",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "defence-organisations-weapons",
-            "title": "Defence Organisations, Weapons & Agreements",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "Organisations: DRDO (1958), HAL (1940), Border Roads (BRO - 1960)\nWeapons: INS Vikrant (IAC-1), Tejas (LCA), Arjun (MBT)\nAgreements: LEMOA (logistics), COMCASA (secure comms), BECA (geospatial), GSOMIA",
-            "mindmap": {
-              "root": "Defence GK",
-              "branches": [
-                {
-                  "title": "Organisations",
-                  "subnodes": [
-                    "DRDO (1958)",
-                    "HAL (Aviation)",
-                    "BRO (Strategic borders)"
-                  ]
-                },
-                {
-                  "title": "Platforms",
-                  "subnodes": [
-                    "INS Vikrant (Carrier)",
-                    "Tejas LCA (HAL)",
-                    "Arjun MBT"
-                  ]
-                },
-                {
-                  "title": "Agreements",
-                  "subnodes": [
-                    "LEMOA (US logistics)",
-                    "COMCASA (US secure)",
-                    "BECA (US geospatial)"
-                  ]
-                }
-              ]
-            }
+            "id": "cities-on-yamuna",
+            "title": "Cities on Yamuna",
+            "notes": "<p>Content for Cities on Yamuna is being generated...</p>"
           }
         ]
       },
       {
-        "id": "bilateral-exercises",
-        "title": "Joint Military Exercises of India",
+        "id": "son-river-chambal-river",
+        "title": "Son River & Chambal River",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "bilateral-exercises",
-            "title": "Joint Military Exercises of India",
-            "notes": "\n              <h3>Bilateral Exercises List (High-Yield)</h3>\n              <p>Armed forces carry out exercises to practice tactical joint operations. Memorize the major ones:</p>\n              <ul>\n                <li>**United States**:\n                  <ul>\n                    <li>Yudh Abhyas (Army)</li>\n                    <li>Vajra Prahar (Special Forces)</li>\n                    <li>Cope India (Air Force)</li>\n                    <li>Tarkash (Counter-terrorism joint drills)</li>\n                  </ul>\n                </li>\n                <li>**France**:\n                  <ul>\n                    <li>Shakti (Army)</li>\n                    <li>Varuna (Navy)</li>\n                    <li>Garuda (Air Force)</li>\n                  </ul>\n                </li>\n                <li>**Russia**:\n                  <ul>\n                    <li>Indra (Tri-services joint exercise)</li>\n                  </ul>\n                </li>\n                <li>**United Kingdom**:\n                  <ul>\n                    <li>Ajeya Warrior (Army)</li>\n                    <li>Konkan (Navy)</li>\n                    <li>Indradhanush (Air Force)</li>\n                  </ul>\n                </li>\n                <li>**Neighbours**:\n                  <ul>\n                    <li>Surya Kiran (Nepal Army)</li>\n                    <li>Sampriti (Bangladesh Army)</li>\n                    <li>Mitra Shakti (Sri Lanka Army)</li>\n                    <li>SLINEX (Sri Lanka Navy)</li>\n                    <li>Hand-in-Hand (China Army)</li>\n                  </ul>\n                </li>\n                <li>**Others**:\n                  <ul>\n                    <li>Nomadic Elephant (Mongolia Army)</li>\n                    <li>Garuda Shakti (Indonesia Army)</li>\n                    <li>Simbex (Singapore Navy)</li>\n                    <li>Dharma Guardian (Japan Army)</li>\n                  </ul>\n                </li>\n              </ul>\n            ",
-            "formulas": "US: Yudh Abhyas, Vajra Prahar\nNepal: Surya Kiran\nFrance: Garuda(Air), Varuna(Navy), Shakti(Army)\nRussia: Indra",
-            "mindmap": {
-              "root": "Bilateral Drills",
-              "branches": [
-                {
-                  "title": "US & UK",
-                  "subnodes": [
-                    "US: Yudh Abhyas, Vajra",
-                    "UK: Ajeya Warrior, Konkan"
-                  ]
-                },
-                {
-                  "title": "France & Russia",
-                  "subnodes": [
-                    "FR: Shakti (Army)",
-                    "FR: Varuna (Navy), Garuda (Air)",
-                    "RU: Indra Tri-services"
-                  ]
-                },
-                {
-                  "title": "Subcontinent",
-                  "subnodes": [
-                    "Nepal: Surya Kiran",
-                    "Bangladesh: Sampriti",
-                    "Sri Lanka: Mitra Shakti"
-                  ]
-                },
-                {
-                  "title": "East Asia",
-                  "subnodes": [
-                    "Japan: Dharma Guardian",
-                    "Mongolia: Nomadic Elephant",
-                    "Singapore: Simbex"
-                  ]
-                }
-              ]
-            }
+            "id": "son-river-chambal-river",
+            "title": "Son River & Chambal River",
+            "notes": "<p>Content for Son River & Chambal River is being generated...</p>"
           }
         ]
       },
       {
-        "id": "missiles-systems",
-        "title": "Integrated Guided Missile Program (IGMDP)",
+        "id": "ganga-river-system-states-and-basin",
+        "title": "Ganga River System: States and Basin",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "missiles-systems",
-            "title": "Integrated Guided Missile Program (IGMDP)",
-            "notes": "\n              <h3>1. The IGMDP Program</h3>\n              <p>Conceived by **Dr. A.P.J. Abdul Kalam** in 1983 to make India self-sufficient in missile technology. Formally completed in 2008.</p>\n              <p>Mnemonic for the 5 core missiles: **PATNA**</p>\n              <ul>\n                <li>**P - Prithvi**: Short-range surface-to-surface ballistic missile. First missile under IGMDP.</li>\n                <li>**A - Agni**: Medium to intercontinental range surface-to-surface ballistic missile. (Agni 1 to 5). Agni-5 is an ICBM with a range of 5000+ km.</li>\n                <li>**T - Trishul**: Short-range low-altitude surface-to-air missile. (Development closed, technology acts as feed).</li>\n                <li>**N - Nag**: Third-generation fire-and-forget anti-tank guided missile (ATGM). Has land and heliborne versions.</li>\n                <li>**A - Akash**: Medium-range surface-to-air missile with multi-target engagement capability. Guided by Rajendra radar.</li>\n              </ul>\n              \n              <h3>2. Crucial Cruise & Air Defence Missiles</h3>\n              <ul>\n                <li>**BrahMos**: Supersonic cruise missile jointly developed with Russia.\n                  <ul>\n                    <li>Speed: **Mach 2.8 to 3.0** (World's fastest operational cruise missile).</li>\n                    <li>Can be launched from submarine, ships, aircraft, or land.</li>\n                  </ul>\n                </li>\n                <li>**Astra**: Beyond Visual Range (BVR) air-to-air missile integrated onto Sukhoi Su-30MKI and Tejas.</li>\n                <li>**K-Missile Series (K-15 Sagarika, K-4)**: Submarine-launched ballistic missiles (SLBMs) designed for Arihant nuclear submarine class.</li>\n                <li>**Helina (Dhruvastra)**: Helicopter-launched version of the Nag anti-tank missile.</li>\n              </ul>\n            ",
-            "formulas": "PATNA: Prithvi, Agni, Trishul, Nag, Akash\nBrahMos Speed: Mach 2.8 - 3.0\nAstra: Air-to-Air (BVR)\nHelina: Helicopter ATGM",
-            "mindmap": {
-              "root": "Missile Systems",
-              "branches": [
-                {
-                  "title": "IGMDP Ballistic",
-                  "subnodes": [
-                    "Prithvi: Surf-to-Surf",
-                    "Agni: Medium/ICBM (5000km)",
-                    "PATNA mnemonic"
-                  ]
-                },
-                {
-                  "title": "IGMDP Air Def",
-                  "subnodes": [
-                    "Trishul: Short range SAM",
-                    "Akash: Med range, Rajendra radar"
-                  ]
-                },
-                {
-                  "title": "IGMDP Anti-Tank",
-                  "subnodes": [
-                    "Nag: Fire-and-Forget",
-                    "Helina: Helicopter launch"
-                  ]
-                },
-                {
-                  "title": "Supersonic Cruise",
-                  "subnodes": [
-                    "BrahMos: India-Russia",
-                    "Mach 2.8 - 3.0 speed",
-                    "Sub/Ship/Air/Land launch"
-                  ]
-                }
-              ]
-            }
+            "id": "ganga-river-system-states-and-basin",
+            "title": "Ganga River System: States and Basin",
+            "notes": "<p>Content for Ganga River System: States and Basin is being generated...</p>"
           }
         ]
       },
       {
-        "id": "syl-verbal-reasoning",
-        "title": "Verbal Reasoning & OIR",
+        "id": "major-dams-and-associated-rivers",
+        "title": "Major Dams and Associated Rivers",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "syl-verbal-reasoning",
-            "title": "Verbal Reasoning & OIR",
-            "notes": "\n              <h3>1. Core Verbal Reasoning Topics</h3>\n              <p>Verbal reasoning tests the ability to analyze and solve problems containing written/verbal content. Key concepts include:</p>\n              <ul>\n                <li>**Analogy:** Finding relationships between pairs of words, letters, or numbers (e.g., Doctor : Hospital :: Teacher : School).</li>\n                <li>**Classification (Odd One Out):** Identifying the term that does not belong to the group (e.g., Apple, Banana, Potato, Orange -> Potato is a vegetable, others are fruits).</li>\n                <li>**Coding-Decoding:** Decrypting rules applied to letters or words. Look for alphabet position values (A=1, Z=26) and reverse positions (A-Z, B-Y, etc., sum = 27).</li>\n                <li>**Blood Relations:** Drawing family trees with symbols (+ for male, - for female, = for couples, vertical lines for generations) to solve relationship puzzles.</li>\n                <li>**Direction Sense:** Always draw the cardinal directions (North, South, East, West) and solve using the Pythagoras theorem for shortest distance.</li>\n                <li>**Syllogism:** Solving logical statements using Venn diagrams to check validity of conclusions.</li>\n              </ul>\n              \n              <h3>2. Officer Intelligence Rating (OIR) Verbal Tests</h3>\n              <p>OIR is the first test of SSB Stage 1. Common Verbal OIR patterns:</p>\n              <ul>\n                <li>**Word Association & Jumbled Words:** Unscrambling letters to form meaningful words and finding their category.</li>\n                <li>**Sentence Sequencing:** Arranging words or sentences in logical or alphabetical order.</li>\n                <li>**Dictionary Order:** Arranging words as they appear in a standard dictionary.</li>\n                <li>**Number/Letter Series:** Identifying patterns of arithmetic progression, prime numbers, squares, or alternating sequences.</li>\n              </ul>\n            ",
-            "formulas": "A=1, B=2, ..., Z=26\nReverse pair: Sum of positions = 27\nOdd One Out rules\nPythagoras: H² = B² + P²\nFamily tree symbols",
-            "mindmap": {
-              "root": "Verbal Reasoning",
-              "branches": [
-                {
-                  "title": "Logic & Relations",
-                  "subnodes": [
-                    "Blood Relations (Family Tree)",
-                    "Syllogisms (Venn)",
-                    "Direction Sense"
-                  ]
-                },
-                {
-                  "title": "Coding & Series",
-                  "subnodes": [
-                    "Coding-Decoding (A=1, Z=26)",
-                    "Letter/Number series",
-                    "Analogy relationships"
-                  ]
-                },
-                {
-                  "title": "OIR Verbal",
-                  "subnodes": [
-                    "Jumbled words",
-                    "Dictionary order",
-                    "Sentence completion"
-                  ]
-                }
-              ]
-            }
+            "id": "major-dams-and-associated-rivers",
+            "title": "Major Dams and Associated Rivers",
+            "notes": "<p>Content for Major Dams and Associated Rivers is being generated...</p>"
           }
         ]
       },
       {
-        "id": "syl-nonverbal-reasoning",
-        "title": "Non-Verbal Reasoning & OIR",
+        "id": "hooghly-river-map",
+        "title": "Hooghly River Map",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "syl-nonverbal-reasoning",
-            "title": "Non-Verbal Reasoning & OIR",
-            "notes": "\n              <h3>1. Core Non-Verbal Reasoning Topics</h3>\n              <p>Non-verbal reasoning tests the ability to analyze visual information and solve problems based on patterns, figures, and spatial relationships.</p>\n              <ul>\n                <li>**Pattern Completion:** Identifying the missing section of a larger geometric design or pattern.</li>\n                <li>**Figure Series & Analogy:** Understanding how a shape changes (rotation, addition/deletion of elements, inversion) and predicting the next figure.</li>\n                <li>**Embedded Figures:** Finding a small target shape hidden inside a more complex drawing.</li>\n                <li>**Paper Folding & Cutting:** Visualizing how paper looks when folded and punched with holes, then unfolded (uses vertical/horizontal symmetry lines).</li>\n                <li>**Mirror and Water Images:**\n                  <ul>\n                    <li>Mirror Image: Left-Right inversion (sides swap, top/bottom remain same).</li>\n                    <li>Water Image: Top-Bottom inversion (top/bottom swap, left/right remain same).</li>\n                  </ul>\n                </li>\n              </ul>\n              \n              <h3>2. SSB OIR Non-Verbal Intelligence Tests</h3>\n              <p>Crucial for securing high OIR ratings (OIR-1 or OIR-2). Key patterns:</p>\n              <ul>\n                <li>**Cube and Dice Tests:** Identifying opposite faces of a folded dice, or predicting standard vs. non-standard dice properties.\n                  <ul>\n                    <li>If two positions of a dice have one common number, rotate clockwise to find opposite pairs.</li>\n                  </ul>\n                </li>\n                <li>**Block/Cube Counting:** Counting the total number of blocks in a 3D stack (including hidden blocks supporting the upper layers).</li>\n                <li>**Figure Matrix:** Solving a 3x3 grid of shapes by identifying horizontal and vertical rule transitions.</li>\n                <li>**Dot Situation:** Finding the region in options that satisfies the exact same overlapping conditions of dots placed in the question figure.</li>\n              </ul>\n            ",
-            "formulas": "Mirror: Left-Right flip\nWater: Top-Bottom flip\nDice rotation rules\nBlock counting: rows x columns x height\nSymmetry lines",
-            "mindmap": {
-              "root": "Non-Verbal",
-              "branches": [
-                {
-                  "title": "Visual Patterns",
-                  "subnodes": [
-                    "Pattern completion",
-                    "Figure series & rotation",
-                    "Figure matrices"
-                  ]
-                },
-                {
-                  "title": "Spatial Tests",
-                  "subnodes": [
-                    "Paper folding/cutting",
-                    "Embedded figures",
-                    "Dot situations"
-                  ]
-                },
-                {
-                  "title": "OIR Non-Verbal",
-                  "subnodes": [
-                    "Dice opposite faces",
-                    "Cube counting (hidden blocks)",
-                    "Mirror & Water images"
-                  ]
-                }
-              ]
-            }
+            "id": "hooghly-river-map",
+            "title": "Hooghly River Map",
+            "notes": "<p>Content for Hooghly River Map is being generated...</p>"
           }
         ]
       },
       {
-        "id": "syl-afcat-spatial",
-        "title": "Spatial & Non-Verbal Reasoning (AFCAT)",
+        "id": "peninsular-rivers-of-india",
+        "title": "Peninsular Rivers of India",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "syl-afcat-spatial",
-            "title": "Spatial & Non-Verbal Reasoning (AFCAT)",
-            "notes": "Detailed notes expanded in notes_extra_afcat.js",
-            "formulas": "Key Types: Dot Situation, Venn Diagrams, Embedded Figures, Pattern Completion.",
-            "mindmap": {
-              "root": "Non-Verbal Reasoning",
-              "branches": [
-                {
-                  "title": "Visual Puzzles",
-                  "subnodes": [
-                    "Dot Situation",
-                    "Embedded Figures",
-                    "Paper Folding"
-                  ]
-                },
-                {
-                  "title": "Logic",
-                  "subnodes": [
-                    "Venn Diagrams",
-                    "Syllogisms"
-                  ]
-                }
-              ]
-            }
+            "id": "peninsular-rivers-of-india",
+            "title": "Peninsular Rivers of India",
+            "notes": "<p>Content for Peninsular Rivers of India is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-analogy",
-        "title": "Ch.1 — Analogy (Verbal Reasoning)",
+        "id": "tropical-easterly-jet-tej",
+        "title": "Tropical Easterly Jet (TEJ)",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-analogy",
-            "title": "Ch.1 — Analogy (Verbal Reasoning)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Opposite letter: 27 - position\nA-Z, B-Y, C-X, D-W, E-V, F-U, G-T, H-S, I-R, J-Q, K-P, L-O, M-N\nNumber Analogy: identify rule (x2, squares, cubes) before checking options",
-            "mindmap": {
-              "root": "Analogy",
-              "branches": [
-                {
-                  "title": "Word Analogy",
-                  "subnodes": [
-                    "Synonym/Antonym pairs",
-                    "Category:member",
-                    "Tool:worker",
-                    "Country:capital"
-                  ]
-                },
-                {
-                  "title": "Letter Analogy",
-                  "subnodes": [
-                    "Positional shift (+n/-n)",
-                    "Opposite pairs (sum=27)"
-                  ]
-                },
-                {
-                  "title": "Number Analogy",
-                  "subnodes": [
-                    "Squares/Cubes rule",
-                    "Arithmetic ops",
-                    "Mixed analogy"
-                  ]
-                }
-              ]
-            }
+            "id": "tropical-easterly-jet-tej",
+            "title": "Tropical Easterly Jet (TEJ)",
+            "notes": "<p>Content for Tropical Easterly Jet (TEJ) is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-classification",
-        "title": "Ch.2 — Classification / Odd One Out (Verbal)",
+        "id": "inter-tropical-convergence-zone-itcz",
+        "title": "Inter Tropical Convergence Zone (ITCZ)",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-classification",
-            "title": "Ch.2 — Classification / Odd One Out (Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Check: primes, squares, cubes, divisibility\nLetter series: verify spacing gap is consistent\nWord: identify category membership carefully",
-            "mindmap": {
-              "root": "Classification",
-              "branches": [
-                {
-                  "title": "Word",
-                  "subnodes": [
-                    "Category membership",
-                    "Usage/function type"
-                  ]
-                },
-                {
-                  "title": "Letter",
-                  "subnodes": [
-                    "Spacing pattern",
-                    "Positional gap"
-                  ]
-                },
-                {
-                  "title": "Number",
-                  "subnodes": [
-                    "Prime check",
-                    "Square/Cube check",
-                    "Divisibility"
-                  ]
-                }
-              ]
-            }
+            "id": "inter-tropical-convergence-zone-itcz",
+            "title": "Inter Tropical Convergence Zone (ITCZ)",
+            "notes": "<p>Content for Inter Tropical Convergence Zone (ITCZ) is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-series",
-        "title": "Ch.3 — Series Completion (Verbal)",
+        "id": "mediterranean-climate",
+        "title": "Mediterranean Climate",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-series",
-            "title": "Ch.3 — Series Completion (Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Number series: check +n, xn, squares, cubes, alternating ops\nAlphabet: track letter+number components separately\nContinuous pattern: write full repeat before filling blanks",
-            "mindmap": {
-              "root": "Series",
-              "branches": [
-                {
-                  "title": "Number Series",
-                  "subnodes": [
-                    "Arithmetic (+n)",
-                    "Geometric (xn)",
-                    "Squares/Cubes",
-                    "Alternating ops"
-                  ]
-                },
-                {
-                  "title": "Letter Series",
-                  "subnodes": [
-                    "Positional shift",
-                    "Skip pattern",
-                    "Alpha-numeric"
-                  ]
-                },
-                {
-                  "title": "Continuous Pattern",
-                  "subnodes": [
-                    "Write full repetition first",
-                    "Fill blanks after"
-                  ]
-                }
-              ]
-            }
+            "id": "mediterranean-climate",
+            "title": "Mediterranean Climate",
+            "notes": "<p>Content for Mediterranean Climate is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-coding",
-        "title": "Ch.4 — Coding and Decoding (Verbal)",
+        "id": "taiga-and-tundra-climate-comparison",
+        "title": "Taiga and Tundra Climate Comparison",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-coding",
-            "title": "Ch.4 — Coding and Decoding (Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Letter shift: +n or -n positions\nMessage coding: find common word across two coded sentences\nSubstitution: trace the chain step by step",
-            "mindmap": {
-              "root": "Coding-Decoding",
-              "branches": [
-                {
-                  "title": "Letter Coding",
-                  "subnodes": [
-                    "Shift +n/-n positions",
-                    "Reverse alphabet"
-                  ]
-                },
-                {
-                  "title": "Number Coding",
-                  "subnodes": [
-                    "Letter position sum",
-                    "Product coding"
-                  ]
-                },
-                {
-                  "title": "Message Coding",
-                  "subnodes": [
-                    "Intersection of common words",
-                    "Elimination method"
-                  ]
-                },
-                {
-                  "title": "Substitution",
-                  "subnodes": [
-                    "Chain tracing",
-                    "Verify with multiple examples"
-                  ]
-                }
-              ]
-            }
+            "id": "taiga-and-tundra-climate-comparison",
+            "title": "Taiga and Tundra Climate Comparison",
+            "notes": "<p>Content for Taiga and Tundra Climate Comparison is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-directions",
-        "title": "Ch.5 — Direction Sense Test (Verbal)",
+        "id": "savanna-climate",
+        "title": "Savanna Climate",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-directions",
-            "title": "Ch.5 — Direction Sense Test (Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Displacement = sqrt(H^2 + V^2)\nShadow at sunrise: falls West\nShadow at sunset: falls East\nAlways draw diagram; mark N top, S bottom, E right, W left",
-            "mindmap": {
-              "root": "Directions",
-              "branches": [
-                {
-                  "title": "Displacement",
-                  "subnodes": [
-                    "Pythagoras: sqrt(H^2+V^2)",
-                    "Net horizontal + vertical"
-                  ]
-                },
-                {
-                  "title": "Shadow Rules",
-                  "subnodes": [
-                    "Sunrise: shadow falls West",
-                    "Sunset: shadow falls East",
-                    "Noon: shadow falls North"
-                  ]
-                },
-                {
-                  "title": "Method",
-                  "subnodes": [
-                    "Always draw diagram",
-                    "Mark all 4 cardinal directions"
-                  ]
-                }
-              ]
-            }
+            "id": "savanna-climate",
+            "title": "Savanna Climate",
+            "notes": "<p>Content for Savanna Climate is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-clock-calendar",
-        "title": "Ch.6 — Clock and Calendar (Verbal)",
+        "id": "major-soil-types-of-india",
+        "title": "Major Soil Types of India",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-clock-calendar",
-            "title": "Ch.6 — Clock and Calendar (Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Angle between hands: |30h - (11/2)m|\nHour speed: 0.5 deg/min | Minute: 6 deg/min\nCoincidings: 11 times in 12 hrs\nOdd days: Ord.yr=1, Leap=2, 100yr=5, 400yr=0",
-            "mindmap": {
-              "root": "Clock & Calendar",
-              "branches": [
-                {
-                  "title": "Clock Angles",
-                  "subnodes": [
-                    "|30h - 5.5m| formula",
-                    "Coincide: 11 times/12 hr",
-                    "Right angle: 22 times/12 hr"
-                  ]
-                },
-                {
-                  "title": "Calendar Odd Days",
-                  "subnodes": [
-                    "Ordinary year: 1",
-                    "Leap year: 2",
-                    "100 years: 5",
-                    "400 years: 0"
-                  ]
-                },
-                {
-                  "title": "Day Codes",
-                  "subnodes": [
-                    "0=Sunday, 1=Monday ... 6=Saturday"
-                  ]
-                }
-              ]
-            }
+            "id": "major-soil-types-of-india",
+            "title": "Major Soil Types of India",
+            "notes": "<p>Content for Major Soil Types of India is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-venn",
-        "title": "Ch.7 — Logical Venn Diagrams (Verbal)",
+        "id": "factors-of-soil-formation",
+        "title": "Factors of Soil Formation",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-venn",
-            "title": "Ch.7 — Logical Venn Diagrams (Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "10 Standard Cases: Nested, Disjoint, Partially overlapping\nCase VIII: Seconds < Minutes < Hours (concentric)\nCase VII: Doctors, Lawyers, Engineers (all disjoint)",
-            "mindmap": {
-              "root": "Venn Diagrams",
-              "branches": [
-                {
-                  "title": "Relationship Types",
-                  "subnodes": [
-                    "Subset (concentric)",
-                    "Disjoint (separate)",
-                    "Partial overlap (intersecting)"
-                  ]
-                },
-                {
-                  "title": "3-Set Cases",
-                  "subnodes": [
-                    "All subsets of each other",
-                    "All disjoint",
-                    "Two overlap, one separate",
-                    "All overlap in centre"
-                  ]
-                },
-                {
-                  "title": "Strategy",
-                  "subnodes": [
-                    "Identify pairwise relationship first",
-                    "Then combine into final diagram"
-                  ]
-                }
-              ]
-            }
+            "id": "factors-of-soil-formation",
+            "title": "Factors of Soil Formation",
+            "notes": "<p>Content for Factors of Soil Formation is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-syllogism",
-        "title": "Ch.8 — Syllogism (Verbal)",
+        "id": "soil-texture-types",
+        "title": "Soil Texture Types",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-syllogism",
-            "title": "Ch.8 — Syllogism (Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "A: All S are P | E: No S is P\nI: Some S are P | O: Some S are not P\nDraw minimum-possibility Venn; test conclusions against all valid diagrams",
-            "mindmap": {
-              "root": "Syllogism",
-              "branches": [
-                {
-                  "title": "Proposition Types",
-                  "subnodes": [
-                    "A: Universal Affirmative",
-                    "E: Universal Negative",
-                    "I: Particular Affirmative",
-                    "O: Particular Negative"
-                  ]
-                },
-                {
-                  "title": "Method",
-                  "subnodes": [
-                    "Draw all valid Venn diagrams",
-                    "Test conclusion in each",
-                    "Must hold in ALL diagrams"
-                  ]
-                },
-                {
-                  "title": "Special Rules",
-                  "subnodes": [
-                    "Either/Or: complementary pair",
-                    "'Some' is weakest claim",
-                    "Need 2 universals for 'All' conclusion"
-                  ]
-                }
-              ]
-            }
+            "id": "soil-texture-types",
+            "title": "Soil Texture Types",
+            "notes": "<p>Content for Soil Texture Types is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-conclusions",
-        "title": "Ch.9 — Statements and Conclusions (Verbal)",
+        "id": "indian-soil-taxonomy",
+        "title": "Indian Soil Taxonomy",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-conclusions",
-            "title": "Ch.9 — Statements and Conclusions (Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Valid if: follows necessarily from statement alone\nInvalid if: uses absolute words (all/always/never) not in statement\nDo not bring external knowledge into reasoning",
-            "mindmap": {
-              "root": "Statements & Conclusions",
-              "branches": [
-                {
-                  "title": "Valid Conclusion Rules",
-                  "subnodes": [
-                    "Directly follows from statement",
-                    "No external knowledge",
-                    "Moderate language (some/may)"
-                  ]
-                },
-                {
-                  "title": "Invalid Conclusion Rules",
-                  "subnodes": [
-                    "Absolute words not in statement",
-                    "Contradicts given statement",
-                    "External assumption needed"
-                  ]
-                }
-              ]
-            }
+            "id": "indian-soil-taxonomy",
+            "title": "Indian Soil Taxonomy",
+            "notes": "<p>Content for Indian Soil Taxonomy is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-assumptions",
-        "title": "Ch.10 — Statements and Assumptions (Verbal)",
+        "id": "alluvial-soil-characteristics",
+        "title": "Alluvial Soil Characteristics",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-assumptions",
-            "title": "Ch.10 — Statements and Assumptions (Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Implicit if: necessary unstated premise for statement to be actionable\nTest: if assumption is false, does statement become illogical?\nAll/every/each/only in assumption = usually NOT implicit",
-            "mindmap": {
-              "root": "Statements & Assumptions",
-              "branches": [
-                {
-                  "title": "Implicit Assumption Test",
-                  "subnodes": [
-                    "Negate assumption",
-                    "If statement fails: IMPLICIT",
-                    "If statement stands: NOT implicit"
-                  ]
-                },
-                {
-                  "title": "Red Flags (NOT implicit)",
-                  "subnodes": [
-                    "'All' / 'Every' / 'Each' / 'Only'",
-                    "Already stated in premise",
-                    "Common knowledge only"
-                  ]
-                }
-              ]
-            }
+            "id": "alluvial-soil-characteristics",
+            "title": "Alluvial Soil Characteristics",
+            "notes": "<p>Content for Alluvial Soil Characteristics is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-fig-analogy",
-        "title": "Ch.11 — Figure Analogy (Non-Verbal)",
+        "id": "types-of-alluvial-soil",
+        "title": "Types of Alluvial Soil",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-fig-analogy",
-            "title": "Ch.11 — Figure Analogy (Non-Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Track: Rotation (45/90/135/180 CW or ACW)\nReflection: H-flip or V-flip\nElement Add/Remove/Shift/Replace/Shading\nComponent Tracking: isolate one element at a time",
-            "mindmap": {
-              "root": "Figure Analogy",
-              "branches": [
-                {
-                  "title": "Transformation Types",
-                  "subnodes": [
-                    "Rotation: 45/90/135/180",
-                    "Reflection: H-flip / V-flip",
-                    "Shading change",
-                    "Element add/remove"
-                  ]
-                },
-                {
-                  "title": "Component Tracking",
-                  "subnodes": [
-                    "Isolate 1 element",
-                    "Identify its transformation",
-                    "Apply to question figure"
-                  ]
-                }
-              ]
-            }
+            "id": "types-of-alluvial-soil",
+            "title": "Types of Alluvial Soil",
+            "notes": "<p>Content for Types of Alluvial Soil is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-fig-class-series",
-        "title": "Ch.12&13 — Figure Classification & Series (Non-Verbal)",
+        "id": "soil-horizons-profile",
+        "title": "Soil Horizons (Profile)",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-fig-class-series",
-            "title": "Ch.12&13 — Figure Classification & Series (Non-Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Classification: check sides, symmetry, rotation vs mirror, shading ratio\nSeries: rotation pattern, element movement, addition/subtraction, alternating\nAlways track ONE component across all frames",
-            "mindmap": {
-              "root": "Fig Classification & Series",
-              "branches": [
-                {
-                  "title": "Classification Keys",
-                  "subnodes": [
-                    "Number of sides",
-                    "Symmetry axis count",
-                    "Rotation vs Mirror",
-                    "Shading ratio"
-                  ]
-                },
-                {
-                  "title": "Series Keys",
-                  "subnodes": [
-                    "Rotation per step",
-                    "Element added/removed",
-                    "Movement direction",
-                    "Alternating pattern"
-                  ]
-                }
-              ]
-            }
+            "id": "soil-horizons-profile",
+            "title": "Soil Horizons (Profile)",
+            "notes": "<p>Content for Soil Horizons (Profile) is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-fig-completion",
-        "title": "Ch.14 — Figure/Pattern Completion (Non-Verbal)",
+        "id": "mountain-soil",
+        "title": "Mountain Soil",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-fig-completion",
-            "title": "Ch.14 — Figure/Pattern Completion (Non-Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Identify symmetry type: Axial, Rotational (90 deg), Central (180 deg), Tile\nUse elimination: isolate one element in adjacent quadrant\nOpposite quadrants = 180 deg rotations of each other",
-            "mindmap": {
-              "root": "Pattern Completion",
-              "branches": [
-                {
-                  "title": "Symmetry Types",
-                  "subnodes": [
-                    "Axial: mirror along axis",
-                    "Rotational: 90 deg",
-                    "Central: 180 deg opposite quadrants",
-                    "Tile repetition"
-                  ]
-                },
-                {
-                  "title": "Method",
-                  "subnodes": [
-                    "Identify symmetry type first",
-                    "Use elimination",
-                    "Check one element in adjacent quadrant"
-                  ]
-                }
-              ]
-            }
+            "id": "mountain-soil",
+            "title": "Mountain Soil",
+            "notes": "<p>Content for Mountain Soil is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-embedded",
-        "title": "Ch.15 — Embedded Figures (Non-Verbal)",
+        "id": "arid-desert-soil",
+        "title": "Arid / Desert Soil",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-embedded",
-            "title": "Ch.15 — Embedded Figures (Non-Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Study unique corner/angle/junction of target figure\nTarget must appear in original orientation (no rotation)\nTrace exact outline in complex figure to confirm",
-            "mindmap": {
-              "root": "Embedded Figures",
-              "branches": [
-                {
-                  "title": "Strategy",
-                  "subnodes": [
-                    "Study unique junction/corner",
-                    "Target in original orientation",
-                    "Trace exact outline"
-                  ]
-                },
-                {
-                  "title": "Elimination",
-                  "subnodes": [
-                    "Reject options missing a key angle",
-                    "Reject if extra lines break shape"
-                  ]
-                }
-              ]
-            }
+            "id": "arid-desert-soil",
+            "title": "Arid / Desert Soil",
+            "notes": "<p>Content for Arid / Desert Soil is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-dot",
-        "title": "Ch.16 — Dot Situation (Non-Verbal)",
+        "id": "saline-soils",
+        "title": "Saline Soils",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-dot",
-            "title": "Ch.16 — Dot Situation (Non-Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Define dot condition: In(A) AND In(B) AND Out(C)\nFind option where same region exists\nEliminate if required shapes do not overlap in option",
-            "mindmap": {
-              "root": "Dot Situation",
-              "branches": [
-                {
-                  "title": "Method",
-                  "subnodes": [
-                    "Write condition: In(A) AND In(B) AND Out(C)",
-                    "Find matching region in each option"
-                  ]
-                },
-                {
-                  "title": "Elimination",
-                  "subnodes": [
-                    "Region doesn't exist in option",
-                    "Required overlap absent"
-                  ]
-                }
-              ]
-            }
+            "id": "saline-soils",
+            "title": "Saline Soils",
+            "notes": "<p>Content for Saline Soils is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-cube-dice",
-        "title": "Ch.17 — Cube and Dice (Non-Verbal)",
+        "id": "peaty-marshy-soil",
+        "title": "Peaty / Marshy Soil",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-cube-dice",
-            "title": "Ch.17 — Cube and Dice (Non-Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "3-face painted (corners): 8 always\n2-face (edges): 12(n-2)\n1-face (faces): 6(n-2)^2\n0-face (inner): (n-2)^3\nStandard dice: opposite faces sum to 7 (1-6, 2-5, 3-4)",
-            "mindmap": {
-              "root": "Cube & Dice",
-              "branches": [
-                {
-                  "title": "Painted Cube Formulas",
-                  "subnodes": [
-                    "3-face: 8 always",
-                    "2-face: 12(n-2)",
-                    "1-face: 6(n-2)^2",
-                    "0-face: (n-2)^3"
-                  ]
-                },
-                {
-                  "title": "Standard Dice",
-                  "subnodes": [
-                    "Opposite faces sum = 7",
-                    "1-6, 2-5, 3-4 pairs",
-                    "Common face method for unknowns"
-                  ]
-                }
-              ]
-            }
+            "id": "peaty-marshy-soil",
+            "title": "Peaty / Marshy Soil",
+            "notes": "<p>Content for Peaty / Marshy Soil is being generated...</p>"
           }
         ]
       },
       {
-        "id": "afcat-r-fig-coding",
-        "title": "Ch.18 — Figure Coding (Non-Verbal)",
+        "id": "tropical-evergreen-wet-forests",
+        "title": "Tropical Evergreen (Wet) Forests",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "afcat-r-fig-coding",
-            "title": "Ch.18 — Figure Coding (Non-Verbal)",
-            "notes": "Detailed notes expanded in notes_extra_afcat_reasoning.js",
-            "formulas": "Each code letter = one visual property (shape, shading, size, orientation)\nGroup figures by shared first-letter code to decode that property\nGroup by shared second-letter to decode second property\nBuild decoding table before applying to unknown figure",
-            "mindmap": {
-              "root": "Figure Coding",
-              "branches": [
-                {
-                  "title": "Decoding Method",
-                  "subnodes": [
-                    "Group by first code letter",
-                    "Identify shared visual property",
-                    "Group by second letter",
-                    "Build decoding table"
-                  ]
-                },
-                {
-                  "title": "Visual Properties",
-                  "subnodes": [
-                    "Shape type",
-                    "Shading (filled/empty)",
-                    "Size (large/small)",
-                    "Orientation"
-                  ]
-                }
-              ]
-            }
+            "id": "tropical-evergreen-wet-forests",
+            "title": "Tropical Evergreen (Wet) Forests",
+            "notes": "<p>Content for Tropical Evergreen (Wet) Forests is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tropical-moist-deciduous-forests",
+        "title": "Tropical Moist Deciduous Forests",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tropical-moist-deciduous-forests",
+            "title": "Tropical Moist Deciduous Forests",
+            "notes": "<p>Content for Tropical Moist Deciduous Forests is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tropical-dry-deciduous-forests",
+        "title": "Tropical Dry Deciduous Forests",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tropical-dry-deciduous-forests",
+            "title": "Tropical Dry Deciduous Forests",
+            "notes": "<p>Content for Tropical Dry Deciduous Forests is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tropical-thorn-forests",
+        "title": "Tropical Thorn Forests",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tropical-thorn-forests",
+            "title": "Tropical Thorn Forests",
+            "notes": "<p>Content for Tropical Thorn Forests is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "longitudes-prime-meridian",
+        "title": "Longitudes & Prime Meridian",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "longitudes-prime-meridian",
+            "title": "Longitudes & Prime Meridian",
+            "notes": "<p>Content for Longitudes & Prime Meridian is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "longitude-time-offset-15-1-hour",
+        "title": "Longitude & Time Offset (15\u00b0 = 1 hour)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "longitude-time-offset-15-1-hour",
+            "title": "Longitude & Time Offset (15\u00b0 = 1 hour)",
+            "notes": "<p>Content for Longitude & Time Offset (15\u00b0 = 1 hour) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "prime-meridian-and-0-longitude",
+        "title": "Prime Meridian and 0\u00b0 Longitude",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "prime-meridian-and-0-longitude",
+            "title": "Prime Meridian and 0\u00b0 Longitude",
+            "notes": "<p>Content for Prime Meridian and 0\u00b0 Longitude is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "longitude-time-relationship-and-time-zones",
+        "title": "Longitude\u2013Time Relationship and Time Zones",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "longitude-time-relationship-and-time-zones",
+            "title": "Longitude\u2013Time Relationship and Time Zones",
+            "notes": "<p>Content for Longitude\u2013Time Relationship and Time Zones is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "day-length-on-the-equator-and-atmospheric-refraction",
+        "title": "Day Length on the Equator and Atmospheric Refraction",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "day-length-on-the-equator-and-atmospheric-refraction",
+            "title": "Day Length on the Equator and Atmospheric Refraction",
+            "notes": "<p>Content for Day Length on the Equator and Atmospheric Refraction is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "earth-s-revolution-solstices-equinoxes-and-tropic-of-cancer",
+        "title": "Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "earth-s-revolution-solstices-equinoxes-and-tropic-of-cancer",
+            "title": "Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer",
+            "notes": "<p>Content for Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "earth-s-revolution-solstices-equinoxes-and-tropic-of-cancer-34",
+        "title": "Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "earth-s-revolution-solstices-equinoxes-and-tropic-of-cancer-34",
+            "title": "Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer",
+            "notes": "<p>Content for Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "earth-s-revolution-solstices-equinoxes-and-tropic-of-cancer-35",
+        "title": "Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "earth-s-revolution-solstices-equinoxes-and-tropic-of-cancer-35",
+            "title": "Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer",
+            "notes": "<p>Content for Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "earth-s-revolution-solstices-equinoxes-and-tropic-of-cancer-36",
+        "title": "Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "earth-s-revolution-solstices-equinoxes-and-tropic-of-cancer-36",
+            "title": "Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer",
+            "notes": "<p>Content for Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "earth-s-revolution-solstices-equinoxes-and-tropic-of-cancer-37",
+        "title": "Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "earth-s-revolution-solstices-equinoxes-and-tropic-of-cancer-37",
+            "title": "Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer",
+            "notes": "<p>Content for Earth's Revolution, Solstices, Equinoxes and Tropic of Cancer is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "equator-countries",
+        "title": "Equator Countries",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "equator-countries",
+            "title": "Equator Countries",
+            "notes": "<p>Content for Equator Countries is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tropic-capricorn-countries",
+        "title": "Tropic & Capricorn Countries",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tropic-capricorn-countries",
+            "title": "Tropic & Capricorn Countries",
+            "notes": "<p>Content for Tropic & Capricorn Countries is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "longitudes-prime-meridian-time-zones-and-indian-standard-time",
+        "title": "Longitudes, Prime Meridian, Time Zones and Indian Standard Time",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "longitudes-prime-meridian-time-zones-and-indian-standard-time",
+            "title": "Longitudes, Prime Meridian, Time Zones and Indian Standard Time",
+            "notes": "<p>Content for Longitudes, Prime Meridian, Time Zones and Indian Standard Time is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "refraction-and-day-night-duration-on-equator",
+        "title": "Refraction and Day-Night Duration on Equator",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "refraction-and-day-night-duration-on-equator",
+            "title": "Refraction and Day-Night Duration on Equator",
+            "notes": "<p>Content for Refraction and Day-Night Duration on Equator is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "countries-through-which-0-longitude-passes",
+        "title": "Countries Through Which 0\u00b0 Longitude Passes",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "countries-through-which-0-longitude-passes",
+            "title": "Countries Through Which 0\u00b0 Longitude Passes",
+            "notes": "<p>Content for Countries Through Which 0\u00b0 Longitude Passes is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "time-zone-calculation",
+        "title": "Time Zone Calculation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "time-zone-calculation",
+            "title": "Time Zone Calculation",
+            "notes": "<p>Content for Time Zone Calculation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "time-zones-number-of-time-zones-per-country",
+        "title": "Time Zones (Number of Time Zones per Country)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "time-zones-number-of-time-zones-per-country",
+            "title": "Time Zones (Number of Time Zones per Country)",
+            "notes": "<p>Content for Time Zones (Number of Time Zones per Country) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "busiest-strait-in-the-world",
+        "title": "Busiest Strait in the World",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "busiest-strait-in-the-world",
+            "title": "Busiest Strait in the World",
+            "notes": "<p>Content for Busiest Strait in the World is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "oceanic-vs-continental-crust-density-subduction-examples",
+        "title": "Oceanic vs Continental Crust Density & Subduction Examples",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "oceanic-vs-continental-crust-density-subduction-examples",
+            "title": "Oceanic vs Continental Crust Density & Subduction Examples",
+            "notes": "<p>Content for Oceanic vs Continental Crust Density & Subduction Examples is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "earthquakes-epicenter-focus-and-seismic-wave-properties-p-wave-s-wave-body-surface-waves",
+        "title": "Earthquakes: Epicenter, Focus, and Seismic Wave Properties (P-wave, S-wave, Body & Surface waves)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "earthquakes-epicenter-focus-and-seismic-wave-properties-p-wave-s-wave-body-surface-waves",
+            "title": "Earthquakes: Epicenter, Focus, and Seismic Wave Properties (P-wave, S-wave, Body & Surface waves)",
+            "notes": "<p>Content for Earthquakes: Epicenter, Focus, and Seismic Wave Properties (P-wave, S-wave, Body & Surface waves) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "oceanic-plate-volcanism",
+        "title": "Oceanic Plate & Volcanism",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "oceanic-plate-volcanism",
+            "title": "Oceanic Plate & Volcanism",
+            "notes": "<p>Content for Oceanic Plate & Volcanism is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "earthquake",
+        "title": "Earthquake",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "earthquake",
+            "title": "Earthquake",
+            "notes": "<p>Content for Earthquake is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "focus-hypocenter-epicenter",
+        "title": "Focus / Hypocenter & Epicenter",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "focus-hypocenter-epicenter",
+            "title": "Focus / Hypocenter & Epicenter",
+            "notes": "<p>Content for Focus / Hypocenter & Epicenter is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "surface-wave-l-wave",
+        "title": "Surface Wave (L-Wave)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "surface-wave-l-wave",
+            "title": "Surface Wave (L-Wave)",
+            "notes": "<p>Content for Surface Wave (L-Wave) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "p-wave-and-shadow-zone",
+        "title": "P-Wave and Shadow Zone",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "p-wave-and-shadow-zone",
+            "title": "P-Wave and Shadow Zone",
+            "notes": "<p>Content for P-Wave and Shadow Zone is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "s-wave-and-shadow-zone",
+        "title": "S-Wave and Shadow Zone",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "s-wave-and-shadow-zone",
+            "title": "S-Wave and Shadow Zone",
+            "notes": "<p>Content for S-Wave and Shadow Zone is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "seismic-earthquake-risk-zones-and-intensity",
+        "title": "Seismic / Earthquake Risk Zones and Intensity",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "seismic-earthquake-risk-zones-and-intensity",
+            "title": "Seismic / Earthquake Risk Zones and Intensity",
+            "notes": "<p>Content for Seismic / Earthquake Risk Zones and Intensity is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "seismic-waves-epicenter-focus-two-types-of-waves",
+        "title": "Seismic Waves \u2013 Epicenter, Focus & Two Types of Waves",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "seismic-waves-epicenter-focus-two-types-of-waves",
+            "title": "Seismic Waves \u2013 Epicenter, Focus & Two Types of Waves",
+            "notes": "<p>Content for Seismic Waves \u2013 Epicenter, Focus & Two Types of Waves is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "p-wave-primary-wave-properties",
+        "title": "P-Wave (Primary Wave) \u2013 Properties",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "p-wave-primary-wave-properties",
+            "title": "P-Wave (Primary Wave) \u2013 Properties",
+            "notes": "<p>Content for P-Wave (Primary Wave) \u2013 Properties is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "s-wave-secondary-wave-properties",
+        "title": "S-Wave (Secondary Wave) \u2013 Properties",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "s-wave-secondary-wave-properties",
+            "title": "S-Wave (Secondary Wave) \u2013 Properties",
+            "notes": "<p>Content for S-Wave (Secondary Wave) \u2013 Properties is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "velocity-of-seismic-waves-density-relationship",
+        "title": "Velocity of Seismic Waves & Density Relationship",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "velocity-of-seismic-waves-density-relationship",
+            "title": "Velocity of Seismic Waves & Density Relationship",
+            "notes": "<p>Content for Velocity of Seismic Waves & Density Relationship is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "shield-volcano",
+        "title": "Shield Volcano",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "shield-volcano",
+            "title": "Shield Volcano",
+            "notes": "<p>Content for Shield Volcano is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "composite-volcano",
+        "title": "Composite Volcano",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "composite-volcano",
+            "title": "Composite Volcano",
+            "notes": "<p>Content for Composite Volcano is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "flood-volcano",
+        "title": "Flood Volcano",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "flood-volcano",
+            "title": "Flood Volcano",
+            "notes": "<p>Content for Flood Volcano is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "classification-of-igneous-rocks-volcanic-vs-plutonic",
+        "title": "Classification of Igneous Rocks (Volcanic vs Plutonic)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "classification-of-igneous-rocks-volcanic-vs-plutonic",
+            "title": "Classification of Igneous Rocks (Volcanic vs Plutonic)",
+            "notes": "<p>Content for Classification of Igneous Rocks (Volcanic vs Plutonic) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "seismic-waves-shadow-zones-earthquake-intensity-zones",
+        "title": "Seismic Waves, Shadow Zones & Earthquake Intensity Zones",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "seismic-waves-shadow-zones-earthquake-intensity-zones",
+            "title": "Seismic Waves, Shadow Zones & Earthquake Intensity Zones",
+            "notes": "<p>Content for Seismic Waves, Shadow Zones & Earthquake Intensity Zones is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "seismic-zones-of-india-zone-state-mapping",
+        "title": "Seismic Zones of India (Zone - State Mapping)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "seismic-zones-of-india-zone-state-mapping",
+            "title": "Seismic Zones of India (Zone - State Mapping)",
+            "notes": "<p>Content for Seismic Zones of India (Zone - State Mapping) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "volcanoes-source-of-magma-density-based-flow",
+        "title": "Volcanoes \u2013 Source of Magma (Density-based Flow)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "volcanoes-source-of-magma-density-based-flow",
+            "title": "Volcanoes \u2013 Source of Magma (Density-based Flow)",
+            "notes": "<p>Content for Volcanoes \u2013 Source of Magma (Density-based Flow) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "volcano-structure-diagram",
+        "title": "Volcano Structure (Diagram)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "volcano-structure-diagram",
+            "title": "Volcano Structure (Diagram)",
+            "notes": "<p>Content for Volcano Structure (Diagram) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "positive-effects-of-active-volcanoes",
+        "title": "Positive Effects of Active Volcanoes",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "positive-effects-of-active-volcanoes",
+            "title": "Positive Effects of Active Volcanoes",
+            "notes": "<p>Content for Positive Effects of Active Volcanoes is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "classification-of-lava-acidic-vs-basic",
+        "title": "Classification of Lava (Acidic vs Basic)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "classification-of-lava-acidic-vs-basic",
+            "title": "Classification of Lava (Acidic vs Basic)",
+            "notes": "<p>Content for Classification of Lava (Acidic vs Basic) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "classification-of-volcanoes-active-dormant-extinct",
+        "title": "Classification of Volcanoes (Active, Dormant, Extinct)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "classification-of-volcanoes-active-dormant-extinct",
+            "title": "Classification of Volcanoes (Active, Dormant, Extinct)",
+            "notes": "<p>Content for Classification of Volcanoes (Active, Dormant, Extinct) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "intrusive-igneous-volcanic-landforms",
+        "title": "Intrusive Igneous Volcanic Landforms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "intrusive-igneous-volcanic-landforms",
+            "title": "Intrusive Igneous Volcanic Landforms",
+            "notes": "<p>Content for Intrusive Igneous Volcanic Landforms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rocks-basic-source-of-minerals",
+        "title": "Rocks - Basic Source of Minerals",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rocks-basic-source-of-minerals",
+            "title": "Rocks - Basic Source of Minerals",
+            "notes": "<p>Content for Rocks - Basic Source of Minerals is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "metallic-minerals-classification",
+        "title": "Metallic Minerals - Classification",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "metallic-minerals-classification",
+            "title": "Metallic Minerals - Classification",
+            "notes": "<p>Content for Metallic Minerals - Classification is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "most-common-minerals-found-in-rocks",
+        "title": "Most Common Minerals Found in Rocks",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "most-common-minerals-found-in-rocks",
+            "title": "Most Common Minerals Found in Rocks",
+            "notes": "<p>Content for Most Common Minerals Found in Rocks is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "science-of-rocks-petrology-rock-properties",
+        "title": "Science of Rocks - Petrology (Rock Properties)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "science-of-rocks-petrology-rock-properties",
+            "title": "Science of Rocks - Petrology (Rock Properties)",
+            "notes": "<p>Content for Science of Rocks - Petrology (Rock Properties) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "igneous-rock-characteristics-and-examples",
+        "title": "Igneous Rock - Characteristics and Examples",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "igneous-rock-characteristics-and-examples",
+            "title": "Igneous Rock - Characteristics and Examples",
+            "notes": "<p>Content for Igneous Rock - Characteristics and Examples is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "intrusive-rocks-plutonic-rocks",
+        "title": "Intrusive Rocks (Plutonic Rocks)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "intrusive-rocks-plutonic-rocks",
+            "title": "Intrusive Rocks (Plutonic Rocks)",
+            "notes": "<p>Content for Intrusive Rocks (Plutonic Rocks) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "extrusive-rocks-volcanic-rocks",
+        "title": "Extrusive Rocks (Volcanic Rocks)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "extrusive-rocks-volcanic-rocks",
+            "title": "Extrusive Rocks (Volcanic Rocks)",
+            "notes": "<p>Content for Extrusive Rocks (Volcanic Rocks) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "geology-volcanoes-shield-volcano",
+        "title": "Geology - Volcanoes (Shield Volcano)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "geology-volcanoes-shield-volcano",
+            "title": "Geology - Volcanoes (Shield Volcano)",
+            "notes": "<p>Content for Geology - Volcanoes (Shield Volcano) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "geology-volcanoes-composite-volcano",
+        "title": "Geology - Volcanoes (Composite Volcano)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "geology-volcanoes-composite-volcano",
+            "title": "Geology - Volcanoes (Composite Volcano)",
+            "notes": "<p>Content for Geology - Volcanoes (Composite Volcano) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "geology-volcanoes-caldera",
+        "title": "Geology - Volcanoes (Caldera)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "geology-volcanoes-caldera",
+            "title": "Geology - Volcanoes (Caldera)",
+            "notes": "<p>Content for Geology - Volcanoes (Caldera) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "geology-volcanoes-flood-volcano",
+        "title": "Geology - Volcanoes (Flood Volcano)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "geology-volcanoes-flood-volcano",
+            "title": "Geology - Volcanoes (Flood Volcano)",
+            "notes": "<p>Content for Geology - Volcanoes (Flood Volcano) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "geology-rock-classification",
+        "title": "Geology - Rock Classification",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "geology-rock-classification",
+            "title": "Geology - Rock Classification",
+            "notes": "<p>Content for Geology - Rock Classification is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "hypabyssal-igneous-rocks",
+        "title": "Hypabyssal Igneous Rocks",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "hypabyssal-igneous-rocks",
+            "title": "Hypabyssal Igneous Rocks",
+            "notes": "<p>Content for Hypabyssal Igneous Rocks is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sedimentary-rocks",
+        "title": "Sedimentary Rocks",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sedimentary-rocks",
+            "title": "Sedimentary Rocks",
+            "notes": "<p>Content for Sedimentary Rocks is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "metamorphic-rocks",
+        "title": "Metamorphic Rocks",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "metamorphic-rocks",
+            "title": "Metamorphic Rocks",
+            "notes": "<p>Content for Metamorphic Rocks is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ocean-floor-relief-features-continental-shelf",
+        "title": "Ocean Floor Relief Features & Continental Shelf",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ocean-floor-relief-features-continental-shelf",
+            "title": "Ocean Floor Relief Features & Continental Shelf",
+            "notes": "<p>Content for Ocean Floor Relief Features & Continental Shelf is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "atmosphere-composition",
+        "title": "Atmosphere & Composition",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "atmosphere-composition",
+            "title": "Atmosphere & Composition",
+            "notes": "<p>Content for Atmosphere & Composition is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "role-of-earth-s-atmosphere",
+        "title": "Role of Earth's Atmosphere",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "role-of-earth-s-atmosphere",
+            "title": "Role of Earth's Atmosphere",
+            "notes": "<p>Content for Role of Earth's Atmosphere is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "radiation-insolation-convection",
+        "title": "Radiation, Insolation & Convection",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "radiation-insolation-convection",
+            "title": "Radiation, Insolation & Convection",
+            "notes": "<p>Content for Radiation, Insolation & Convection is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "albedo",
+        "title": "Albedo",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "albedo",
+            "title": "Albedo",
+            "notes": "<p>Content for Albedo is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "introduction-to-rocks-and-minerals",
+        "title": "Introduction to Rocks and Minerals",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "introduction-to-rocks-and-minerals",
+            "title": "Introduction to Rocks and Minerals",
+            "notes": "<p>Content for Introduction to Rocks and Minerals is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "metallic-minerals-classification-92",
+        "title": "Metallic Minerals Classification",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "metallic-minerals-classification-92",
+            "title": "Metallic Minerals Classification",
+            "notes": "<p>Content for Metallic Minerals Classification is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "common-minerals-and-rock-properties",
+        "title": "Common Minerals and Rock Properties",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "common-minerals-and-rock-properties",
+            "title": "Common Minerals and Rock Properties",
+            "notes": "<p>Content for Common Minerals and Rock Properties is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "igneous-rocks-general-characteristics",
+        "title": "Igneous Rocks - General Characteristics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "igneous-rocks-general-characteristics",
+            "title": "Igneous Rocks - General Characteristics",
+            "notes": "<p>Content for Igneous Rocks - General Characteristics is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "intrusive-igneous-rocks",
+        "title": "Intrusive Igneous Rocks",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "intrusive-igneous-rocks",
+            "title": "Intrusive Igneous Rocks",
+            "notes": "<p>Content for Intrusive Igneous Rocks is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "extrusive-igneous-rocks",
+        "title": "Extrusive Igneous Rocks",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "extrusive-igneous-rocks",
+            "title": "Extrusive Igneous Rocks",
+            "notes": "<p>Content for Extrusive Igneous Rocks is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "pinaka-long-range-guided-rocket-lrgr",
+        "title": "Pinaka Long Range Guided Rocket (LRGR)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "pinaka-long-range-guided-rocket-lrgr",
+            "title": "Pinaka Long Range Guided Rocket (LRGR)",
+            "notes": "<p>Content for Pinaka Long Range Guided Rocket (LRGR) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "physical-and-indian-geography-revision-resources",
+        "title": "Physical and Indian Geography Revision Resources",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "physical-and-indian-geography-revision-resources",
+            "title": "Physical and Indian Geography Revision Resources",
+            "notes": "<p>Content for Physical and Indian Geography Revision Resources is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "strait-of-hormuz",
+        "title": "Strait of Hormuz",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "strait-of-hormuz",
+            "title": "Strait of Hormuz",
+            "notes": "<p>Content for Strait of Hormuz is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "geographical-extent-and-coordinates",
+        "title": "Geographical Extent and Coordinates",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "geographical-extent-and-coordinates",
+            "title": "Geographical Extent and Coordinates",
+            "notes": "<p>Content for Geographical Extent and Coordinates is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "units-of-distance",
+        "title": "Units of Distance",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "units-of-distance",
+            "title": "Units of Distance",
+            "notes": "<p>Content for Units of Distance is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tropic-of-cancer",
+        "title": "Tropic of Cancer",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tropic-of-cancer",
+            "title": "Tropic of Cancer",
+            "notes": "<p>Content for Tropic of Cancer is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "standard-meridian",
+        "title": "Standard Meridian",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "standard-meridian",
+            "title": "Standard Meridian",
+            "notes": "<p>Content for Standard Meridian is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-date-line",
+        "title": "International Date Line",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-date-line",
+            "title": "International Date Line",
+            "notes": "<p>Content for International Date Line is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ocean-floor-topography",
+        "title": "Ocean Floor Topography",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ocean-floor-topography",
+            "title": "Ocean Floor Topography",
+            "notes": "<p>Content for Ocean Floor Topography is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "peninsular-block-northern-and-northeastern-mountains-himalayan-subdivisions-kashmir-and-northwestern-himalayas",
+        "title": "Peninsular Block, Northern and Northeastern Mountains, Himalayan Subdivisions, Kashmir and Northwestern Himalayas",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "peninsular-block-northern-and-northeastern-mountains-himalayan-subdivisions-kashmir-and-northwestern-himalayas",
+            "title": "Peninsular Block, Northern and Northeastern Mountains, Himalayan Subdivisions, Kashmir and Northwestern Himalayas",
+            "notes": "<p>Content for Peninsular Block, Northern and Northeastern Mountains, Himalayan Subdivisions, Kashmir and Northwestern Himalayas is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "continental-slope",
+        "title": "Continental Slope",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "continental-slope",
+            "title": "Continental Slope",
+            "notes": "<p>Content for Continental Slope is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "temperature-of-ocean-water",
+        "title": "Temperature of Ocean Water",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "temperature-of-ocean-water",
+            "title": "Temperature of Ocean Water",
+            "notes": "<p>Content for Temperature of Ocean Water is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "salinity",
+        "title": "Salinity",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "salinity",
+            "title": "Salinity",
+            "notes": "<p>Content for Salinity is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ocean-currents",
+        "title": "Ocean Currents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ocean-currents",
+            "title": "Ocean Currents",
+            "notes": "<p>Content for Ocean Currents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "himachal-and-uttaranchal-himalayas",
+        "title": "Himachal and Uttaranchal Himalayas",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "himachal-and-uttaranchal-himalayas",
+            "title": "Himachal and Uttaranchal Himalayas",
+            "notes": "<p>Content for Himachal and Uttaranchal Himalayas is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "darjiling-and-sikkim-himalayas",
+        "title": "Darjiling and Sikkim Himalayas",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "darjiling-and-sikkim-himalayas",
+            "title": "Darjiling and Sikkim Himalayas",
+            "notes": "<p>Content for Darjiling and Sikkim Himalayas is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "arunachal-himalayas",
+        "title": "Arunachal Himalayas",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "arunachal-himalayas",
+            "title": "Arunachal Himalayas",
+            "notes": "<p>Content for Arunachal Himalayas is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "eastern-hills-and-mountains",
+        "title": "Eastern Hills and Mountains",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "eastern-hills-and-mountains",
+            "title": "Eastern Hills and Mountains",
+            "notes": "<p>Content for Eastern Hills and Mountains is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "map-of-eastern-hills-and-mountains",
+        "title": "Map of Eastern Hills and Mountains",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "map-of-eastern-hills-and-mountains",
+            "title": "Map of Eastern Hills and Mountains",
+            "notes": "<p>Content for Map of Eastern Hills and Mountains is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-northern-plains",
+        "title": "The Northern Plains",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-northern-plains",
+            "title": "The Northern Plains",
+            "notes": "<p>Content for The Northern Plains is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "formation-of-northern-plains-zones",
+        "title": "Formation of Northern Plains Zones",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "formation-of-northern-plains-zones",
+            "title": "Formation of Northern Plains Zones",
+            "notes": "<p>Content for Formation of Northern Plains Zones is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coriolis-force-and-ocean-currents",
+        "title": "Coriolis Force and Ocean Currents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coriolis-force-and-ocean-currents",
+            "title": "Coriolis Force and Ocean Currents",
+            "notes": "<p>Content for Coriolis Force and Ocean Currents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "overview",
+        "title": "Overview",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "overview",
+            "title": "Overview",
+            "notes": "<p>Content for Overview is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "himalayan-regions",
+        "title": "Himalayan Regions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "himalayan-regions",
+            "title": "Himalayan Regions",
+            "notes": "<p>Content for Himalayan Regions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "himalayan-regions-121",
+        "title": "Himalayan Regions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "himalayan-regions-121",
+            "title": "Himalayan Regions",
+            "notes": "<p>Content for Himalayan Regions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "peninsular-plateau",
+        "title": "Peninsular Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "peninsular-plateau",
+            "title": "Peninsular Plateau",
+            "notes": "<p>Content for Peninsular Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "peninsular-plateau-123",
+        "title": "Peninsular Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "peninsular-plateau-123",
+            "title": "Peninsular Plateau",
+            "notes": "<p>Content for Peninsular Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "peninsular-plateau-124",
+        "title": "Peninsular Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "peninsular-plateau-124",
+            "title": "Peninsular Plateau",
+            "notes": "<p>Content for Peninsular Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ocean-currents-125",
+        "title": "Ocean Currents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ocean-currents-125",
+            "title": "Ocean Currents",
+            "notes": "<p>Content for Ocean Currents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "significance-of-the-northern-plains",
+        "title": "Significance of the Northern Plains",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "significance-of-the-northern-plains",
+            "title": "Significance of the Northern Plains",
+            "notes": "<p>Content for Significance of the Northern Plains is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "regional-divisions-west-to-east",
+        "title": "Regional Divisions (West to East)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "regional-divisions-west-to-east",
+            "title": "Regional Divisions (West to East)",
+            "notes": "<p>Content for Regional Divisions (West to East) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "divisions-based-on-relief-features",
+        "title": "Divisions Based on Relief Features",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "divisions-based-on-relief-features",
+            "title": "Divisions Based on Relief Features",
+            "notes": "<p>Content for Divisions Based on Relief Features is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "formation-general-features",
+        "title": "Formation & General Features",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "formation-general-features",
+            "title": "Formation & General Features",
+            "notes": "<p>Content for Formation & General Features is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indian-ocean-currents",
+        "title": "Indian Ocean Currents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indian-ocean-currents",
+            "title": "Indian Ocean Currents",
+            "notes": "<p>Content for Indian Ocean Currents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "effects-of-ocean-currents",
+        "title": "Effects of Ocean Currents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "effects-of-ocean-currents",
+            "title": "Effects of Ocean Currents",
+            "notes": "<p>Content for Effects of Ocean Currents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coastal-plains-of-india",
+        "title": "Coastal Plains of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coastal-plains-of-india",
+            "title": "Coastal Plains of India",
+            "notes": "<p>Content for Coastal Plains of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coastal-plains-of-india-133",
+        "title": "Coastal Plains of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coastal-plains-of-india-133",
+            "title": "Coastal Plains of India",
+            "notes": "<p>Content for Coastal Plains of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coastal-plains-of-india-134",
+        "title": "Coastal Plains of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coastal-plains-of-india-134",
+            "title": "Coastal Plains of India",
+            "notes": "<p>Content for Coastal Plains of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-northeastern-plateau",
+        "title": "The Northeastern Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-northeastern-plateau",
+            "title": "The Northeastern Plateau",
+            "notes": "<p>Content for The Northeastern Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coastal-plains",
+        "title": "Coastal Plains",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coastal-plains",
+            "title": "Coastal Plains",
+            "notes": "<p>Content for Coastal Plains is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coastal-plains-regional-names",
+        "title": "Coastal Plains - Regional Names",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coastal-plains-regional-names",
+            "title": "Coastal Plains - Regional Names",
+            "notes": "<p>Content for Coastal Plains - Regional Names is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "islands",
+        "title": "Islands",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "islands",
+            "title": "Islands",
+            "notes": "<p>Content for Islands is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coral-reefs",
+        "title": "Coral Reefs",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coral-reefs",
+            "title": "Coral Reefs",
+            "notes": "<p>Content for Coral Reefs is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "andaman-and-nicobar-islands",
+        "title": "Andaman and Nicobar Islands",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "andaman-and-nicobar-islands",
+            "title": "Andaman and Nicobar Islands",
+            "notes": "<p>Content for Andaman and Nicobar Islands is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "peaks-of-andaman-and-nicobar",
+        "title": "Peaks of Andaman and Nicobar",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "peaks-of-andaman-and-nicobar",
+            "title": "Peaks of Andaman and Nicobar",
+            "notes": "<p>Content for Peaks of Andaman and Nicobar is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "lakshadweep",
+        "title": "Lakshadweep",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "lakshadweep",
+            "title": "Lakshadweep",
+            "notes": "<p>Content for Lakshadweep is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coral-reefs-143",
+        "title": "Coral Reefs",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coral-reefs-143",
+            "title": "Coral Reefs",
+            "notes": "<p>Content for Coral Reefs is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "types-of-coral-reefs",
+        "title": "Types of Coral Reefs",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "types-of-coral-reefs",
+            "title": "Types of Coral Reefs",
+            "notes": "<p>Content for Types of Coral Reefs is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coral-bleaching",
+        "title": "Coral Bleaching",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coral-bleaching",
+            "title": "Coral Bleaching",
+            "notes": "<p>Content for Coral Bleaching is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "important-drainage-patterns",
+        "title": "Important Drainage Patterns",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "important-drainage-patterns",
+            "title": "Important Drainage Patterns",
+            "notes": "<p>Content for Important Drainage Patterns is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "major-himalayan-rivers",
+        "title": "Major Himalayan Rivers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "major-himalayan-rivers",
+            "title": "Major Himalayan Rivers",
+            "notes": "<p>Content for Major Himalayan Rivers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "marine-features",
+        "title": "Marine Features",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "marine-features",
+            "title": "Marine Features",
+            "notes": "<p>Content for Marine Features is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-indus-river-system",
+        "title": "The Indus River System",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-indus-river-system",
+            "title": "The Indus River System",
+            "notes": "<p>Content for The Indus River System is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indus-tributaries-details",
+        "title": "Indus Tributaries Details",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indus-tributaries-details",
+            "title": "Indus Tributaries Details",
+            "notes": "<p>Content for Indus Tributaries Details is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-ganga-system-prayags",
+        "title": "The Ganga System - Prayags",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-ganga-system-prayags",
+            "title": "The Ganga System - Prayags",
+            "notes": "<p>Content for The Ganga System - Prayags is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ganga-and-brahmaputra-river-systems",
+        "title": "Ganga and Brahmaputra River Systems",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ganga-and-brahmaputra-river-systems",
+            "title": "Ganga and Brahmaputra River Systems",
+            "notes": "<p>Content for Ganga and Brahmaputra River Systems is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tides",
+        "title": "Tides",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tides",
+            "title": "Tides",
+            "notes": "<p>Content for Tides is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tides-154",
+        "title": "Tides",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tides-154",
+            "title": "Tides",
+            "notes": "<p>Content for Tides is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tides-155",
+        "title": "Tides",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tides-155",
+            "title": "Tides",
+            "notes": "<p>Content for Tides is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tides-156",
+        "title": "Tides",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tides-156",
+            "title": "Tides",
+            "notes": "<p>Content for Tides is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-peninsular-plateau",
+        "title": "The Peninsular Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-peninsular-plateau",
+            "title": "The Peninsular Plateau",
+            "notes": "<p>Content for The Peninsular Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-peninsular-plateau-158",
+        "title": "The Peninsular Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-peninsular-plateau-158",
+            "title": "The Peninsular Plateau",
+            "notes": "<p>Content for The Peninsular Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-peninsular-plateau-159",
+        "title": "The Peninsular Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-peninsular-plateau-159",
+            "title": "The Peninsular Plateau",
+            "notes": "<p>Content for The Peninsular Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-peninsular-plateau-160",
+        "title": "The Peninsular Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-peninsular-plateau-160",
+            "title": "The Peninsular Plateau",
+            "notes": "<p>Content for The Peninsular Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-peninsular-plateau-161",
+        "title": "The Peninsular Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-peninsular-plateau-161",
+            "title": "The Peninsular Plateau",
+            "notes": "<p>Content for The Peninsular Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-peninsular-plateau-162",
+        "title": "The Peninsular Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-peninsular-plateau-162",
+            "title": "The Peninsular Plateau",
+            "notes": "<p>Content for The Peninsular Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-peninsular-plateau-163",
+        "title": "The Peninsular Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-peninsular-plateau-163",
+            "title": "The Peninsular Plateau",
+            "notes": "<p>Content for The Peninsular Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-peninsular-plateau-164",
+        "title": "The Peninsular Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-peninsular-plateau-164",
+            "title": "The Peninsular Plateau",
+            "notes": "<p>Content for The Peninsular Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-peninsular-plateau-165",
+        "title": "The Peninsular Plateau",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-peninsular-plateau-165",
+            "title": "The Peninsular Plateau",
+            "notes": "<p>Content for The Peninsular Plateau is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tides-166",
+        "title": "Tides",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tides-166",
+            "title": "Tides",
+            "notes": "<p>Content for Tides is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tides-167",
+        "title": "Tides",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tides-167",
+            "title": "Tides",
+            "notes": "<p>Content for Tides is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tides-168",
+        "title": "Tides",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tides-168",
+            "title": "Tides",
+            "notes": "<p>Content for Tides is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tides-169",
+        "title": "Tides",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tides-169",
+            "title": "Tides",
+            "notes": "<p>Content for Tides is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "tides-170",
+        "title": "Tides",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "tides-170",
+            "title": "Tides",
+            "notes": "<p>Content for Tides is being generated...</p>"
           }
         ]
       }
     ]
   },
-  "current-affairs": {
-    "title": "Current Affairs & GK",
+  "physics": {
+    "title": "Physics",
     "chapters": [
       {
-        "id": "ca-schemes",
-        "title": "Major Government Schemes",
+        "id": "kinetic-energy-and-particle-motion",
+        "title": "Kinetic Energy and Particle Motion",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-schemes",
-            "title": "Major Government Schemes",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "PM-KISAN: ₹6000/yr\nPM-JAY: ₹5L health cover\nJan Dhan: Zero balance a/c\nMGNREGA: 100 days wage",
-            "mindmap": {
-              "root": "Govt Schemes",
-              "branches": [
-                {
-                  "title": "Flagship",
-                  "subnodes": [
-                    "PM-KISAN",
-                    "PM-JAY",
-                    "Swachh Bharat",
-                    "PMAY"
-                  ]
-                },
-                {
-                  "title": "Financial Inclusion",
-                  "subnodes": [
-                    "Jan Dhan",
-                    "MUDRA",
-                    "Atal Pension"
-                  ]
-                },
-                {
-                  "title": "Rural",
-                  "subnodes": [
-                    "MGNREGA",
-                    "Jal Jeevan",
-                    "Ujjwala"
-                  ]
-                }
-              ]
-            }
+            "id": "kinetic-energy-and-particle-motion",
+            "title": "Kinetic Energy and Particle Motion",
+            "notes": "<p>Content for Kinetic Energy and Particle Motion is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-relations",
-        "title": "India's International Relations & Forums",
+        "id": "kinetic-energy-and-temperature",
+        "title": "Kinetic Energy and Temperature",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-relations",
-            "title": "India's International Relations & Forums",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "Quad: IN, US, JP, AU\nBRICS+: 2024 expansion\nG20 India: Sep 2023\nISA: India + France",
-            "mindmap": {
-              "root": "International Relations",
-              "branches": [
-                {
-                  "title": "Groupings",
-                  "subnodes": [
-                    "Quad",
-                    "BRICS",
-                    "G20",
-                    "SCO",
-                    "NAM"
-                  ]
-                },
-                {
-                  "title": "Key Relations",
-                  "subnodes": [
-                    "India-US",
-                    "India-Japan",
-                    "India-France",
-                    "India-China"
-                  ]
-                },
-                {
-                  "title": "UN",
-                  "subnodes": [
-                    "UNSC reform",
-                    "G4",
-                    "Peacekeeping"
-                  ]
-                }
-              ]
-            }
+            "id": "kinetic-energy-and-temperature",
+            "title": "Kinetic Energy and Temperature",
+            "notes": "<p>Content for Kinetic Energy and Temperature is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-policies",
-        "title": "National Policies & Missions",
+        "id": "distance-travelled-and-uniform-non-uniform-motion",
+        "title": "Distance Travelled and Uniform / Non-Uniform Motion",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-policies",
-            "title": "National Policies & Missions",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "NEP 2020: 5+3+3+4 structure\nDigital India: UPI 10B+ txns/mo\nMake in India: 25 sectors\nStart-Up India: 100+ unicorns",
-            "mindmap": {
-              "root": "National Policies",
-              "branches": [
-                {
-                  "title": "NEP 2020",
-                  "subnodes": [
-                    "5+3+3+4",
-                    "Mother tongue",
-                    "ABC"
-                  ]
-                },
-                {
-                  "title": "Digital India",
-                  "subnodes": [
-                    "Aadhaar",
-                    "UPI",
-                    "BharatNet"
-                  ]
-                },
-                {
-                  "title": "Industrial",
-                  "subnodes": [
-                    "Make in India",
-                    "Start-Up India",
-                    "Atmanirbhar"
-                  ]
-                }
-              ]
-            }
+            "id": "distance-travelled-and-uniform-non-uniform-motion",
+            "title": "Distance Travelled and Uniform / Non-Uniform Motion",
+            "notes": "<p>Content for Distance Travelled and Uniform / Non-Uniform Motion is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-summits",
-        "title": "Major International Summits",
+        "id": "speed-velocity-acceleration-and-unit-conversions",
+        "title": "Speed, Velocity, Acceleration and Unit Conversions",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-summits",
-            "title": "Major International Summits",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "COP21: Paris Agreement (2015)\nG20: 85% of world GDP\nG7: 7 advanced economies\nWEF: Davos, Switzerland",
-            "mindmap": {
-              "root": "Summits",
-              "branches": [
-                {
-                  "title": "Climate",
-                  "subnodes": [
-                    "COP21 Paris",
-                    "COP26 Glasgow",
-                    "COP28 Dubai"
-                  ]
-                },
-                {
-                  "title": "Economic",
-                  "subnodes": [
-                    "G20",
-                    "G7",
-                    "WEF Davos"
-                  ]
-                },
-                {
-                  "title": "India-hosted",
-                  "subnodes": [
-                    "G20 New Delhi 2023",
-                    "ISA Assembly",
-                    "Voice of Global South"
-                  ]
-                }
-              ]
-            }
+            "id": "speed-velocity-acceleration-and-unit-conversions",
+            "title": "Speed, Velocity, Acceleration and Unit Conversions",
+            "notes": "<p>Content for Speed, Velocity, Acceleration and Unit Conversions is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-reports",
-        "title": "Important Reports & Indices",
+        "id": "gravitational-force-on-earth",
+        "title": "Gravitational Force on Earth",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-reports",
-            "title": "Important Reports & Indices",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "HDI: UNDP\nGHI: Concern Worldwide\nEoDB: World Bank (discontinued)\nGender Gap: WEF\nCPI: Transparency Intl",
-            "mindmap": {
-              "root": "Reports & Indices",
-              "branches": [
-                {
-                  "title": "Global",
-                  "subnodes": [
-                    "HDI",
-                    "GHI",
-                    "Gender Gap",
-                    "CPI"
-                  ]
-                },
-                {
-                  "title": "India",
-                  "subnodes": [
-                    "Economic Survey",
-                    "NITI Reports",
-                    "RBI Annual"
-                  ]
-                }
-              ]
-            }
+            "id": "gravitational-force-on-earth",
+            "title": "Gravitational Force on Earth",
+            "notes": "<p>Content for Gravitational Force on Earth is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-judgments",
-        "title": "Landmark SC & HC Judgments",
+        "id": "coriolis-force",
+        "title": "Coriolis Force",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-judgments",
-            "title": "Landmark SC & HC Judgments",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "Kesavananda (1973): Basic Structure\nManeka Gandhi (1978): Art 21 expanded\nPuttaswamy (2017): Right to Privacy\nBommai (1994): Art 356 judicial review",
-            "mindmap": {
-              "root": "Judgments",
-              "branches": [
-                {
-                  "title": "Constitutional",
-                  "subnodes": [
-                    "Kesavananda",
-                    "SR Bommai",
-                    "EWS Reservation"
-                  ]
-                },
-                {
-                  "title": "Rights",
-                  "subnodes": [
-                    "Maneka Gandhi",
-                    "Puttaswamy",
-                    "Navtej Johar"
-                  ]
-                },
-                {
-                  "title": "Social",
-                  "subnodes": [
-                    "Vishaka",
-                    "Shah Bano",
-                    "Sabarimala"
-                  ]
-                }
-              ]
-            }
+            "id": "coriolis-force",
+            "title": "Coriolis Force",
+            "notes": "<p>Content for Coriolis Force is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-awards",
-        "title": "National Awards & Honours",
+        "id": "rotational-speed-of-the-earth",
+        "title": "Rotational Speed of the Earth",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-awards",
-            "title": "National Awards & Honours",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "Bharat Ratna > Padma Vibhushan > Padma Bhushan > Padma Shri\nPVC > MVC > VC (wartime)\nAshoka Chakra > KC > SC (peacetime)",
-            "mindmap": {
-              "root": "Awards",
-              "branches": [
-                {
-                  "title": "Civilian",
-                  "subnodes": [
-                    "Bharat Ratna",
-                    "Padma Awards"
-                  ]
-                },
-                {
-                  "title": "Gallantry",
-                  "subnodes": [
-                    "PVC",
-                    "Ashoka Chakra"
-                  ]
-                },
-                {
-                  "title": "Other",
-                  "subnodes": [
-                    "Khel Ratna",
-                    "Dronacharya",
-                    "Phalke"
-                  ]
-                }
-              ]
-            }
+            "id": "rotational-speed-of-the-earth",
+            "title": "Rotational Speed of the Earth",
+            "notes": "<p>Content for Rotational Speed of the Earth is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-economic-measures",
-        "title": "Economic Measures & Policy Packages",
+        "id": "distance-travelled",
+        "title": "Distance Travelled",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-economic-measures",
-            "title": "Economic Measures & Policy Packages",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "Atmanirbhar: ₹20L Cr (10% of GDP)\nPLI: 14 sectors\nNIP: ₹111L Cr infra\nGati Shakti: 16 ministries\nONORC: Aadhaar-linked PDS",
-            "mindmap": {
-              "root": "Economic Measures",
-              "branches": [
-                {
-                  "title": "Budget",
-                  "subnodes": [
-                    "Fiscal Deficit",
-                    "CapEx push",
-                    "Feb 1 presentation"
-                  ]
-                },
-                {
-                  "title": "Atmanirbhar",
-                  "subnodes": [
-                    "5 Pillars",
-                    "₹20L Cr stimulus"
-                  ]
-                },
-                {
-                  "title": "Initiatives",
-                  "subnodes": [
-                    "PLI Scheme",
-                    "NIP",
-                    "Gati Shakti",
-                    "ONORC"
-                  ]
-                }
-              ]
-            }
+            "id": "distance-travelled",
+            "title": "Distance Travelled",
+            "notes": "<p>Content for Distance Travelled is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-science-tech-space",
-        "title": "Science, Tech & Space Missions",
+        "id": "uniform-motion",
+        "title": "Uniform Motion",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-science-tech-space",
-            "title": "Science, Tech & Space Missions",
-            "notes": "Detailed notes expanded in notes_extra_9.js",
-            "formulas": "ISRO: Shukrayaan-1 (Venus), Gaganyaan (Manned), Chandrayaan-4\nDefence: INS Mahendragiri (stealth frigate), Agni-5 MIRV\nAI: BharatGPT, Krutrim AI",
-            "mindmap": {
-              "root": "Science & Space",
-              "branches": [
-                {
-                  "title": "Space Missions",
-                  "subnodes": [
-                    "Gaganyaan (manned)",
-                    "Shukrayaan-1 (Venus)",
-                    "Chandrayaan-4 (sample)"
-                  ]
-                },
-                {
-                  "title": "Defence Tech",
-                  "subnodes": [
-                    "INS Mahendragiri",
-                    "Agni-5 MIRV",
-                    "Prithvi-II induction"
-                  ]
-                },
-                {
-                  "title": "AI & Cyber",
-                  "subnodes": [
-                    "BharatGPT",
-                    "Krutrim AI",
-                    "Sanchar Saathi portal"
-                  ]
-                }
-              ]
-            }
+            "id": "uniform-motion",
+            "title": "Uniform Motion",
+            "notes": "<p>Content for Uniform Motion is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-upsc-master-framework",
-        "title": "UPSC Core Current Affairs Syllabus Map",
+        "id": "non-uniform-motion",
+        "title": "Non-uniform Motion",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-upsc-master-framework",
-            "title": "UPSC Core Current Affairs Syllabus Map",
-            "notes": "Detailed notes expanded in notes_extra_general_studies.js",
-            "formulas": "Polity: Art 1-395\nEconomy: Repo, CPI, WPI\nEnvironment: COP, Ramsar\nSecurity: Cyber, Maritime",
-            "mindmap": {
-              "root": "UPSC CA Syllabus",
-              "branches": [
-                {
-                  "title": "Polity & Economy",
-                  "subnodes": [
-                    "Constitutional Amendments",
-                    "Landmark SC Judgments",
-                    "Inflation & Repo Rate",
-                    "CBDC & UPI"
-                  ]
-                },
-                {
-                  "title": "Environment & IR",
-                  "subnodes": [
-                    "COP Agreements",
-                    "Ramsar Sites",
-                    "Bilateral Pacts",
-                    "BRICS/SCO/Quad"
-                  ]
-                },
-                {
-                  "title": "Security & Agri",
-                  "subnodes": [
-                    "Border Management",
-                    "Cyber Warfare",
-                    "MSP & Crop Insurance",
-                    "Agri-Tech & Soil"
-                  ]
-                }
-              ]
-            }
+            "id": "non-uniform-motion",
+            "title": "Non-uniform Motion",
+            "notes": "<p>Content for Non-uniform Motion is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-geopolitical-flashpoints",
-        "title": "Global Geopolitical Flashpoints",
+        "id": "average-speed",
+        "title": "Average Speed",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-geopolitical-flashpoints",
-            "title": "Global Geopolitical Flashpoints",
-            "notes": "Detailed notes expanded in notes_extra_10.js",
-            "formulas": "Red Sea Crisis: Bab-el-Mandeb Strait\nUkraine-Russia: Black Sea/Crimea\nSouth China Sea: Nine-Dash Line\nTaiwan Strait: First Island Chain",
-            "mindmap": {
-              "root": "Geopolitical Flashpoints",
-              "branches": [
-                {
-                  "title": "Middle East & Red Sea",
-                  "subnodes": [
-                    "Bab-el-Mandeb Chokepoint",
-                    "Operation Prosperity Guardian",
-                    "India's Operation Sankalp"
-                  ]
-                },
-                {
-                  "title": "Eastern Europe",
-                  "subnodes": [
-                    "Black Sea blockade",
-                    "Crimea and Sea of Azov",
-                    "Strategic Suwalki Gap"
-                  ]
-                },
-                {
-                  "title": "East & South China Seas",
-                  "subnodes": [
-                    "Taiwan Strait transit",
-                    "Nine-Dash Line claims",
-                    "First Island Chain defence"
-                  ]
-                }
-              ]
-            }
+            "id": "average-speed",
+            "title": "Average Speed",
+            "notes": "<p>Content for Average Speed is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-defence-cooperation",
-        "title": "Bilateral Defence Cooperation & Deals",
+        "id": "velocity",
+        "title": "Velocity",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-defence-cooperation",
-            "title": "Bilateral Defence Cooperation & Deals",
-            "notes": "Detailed notes expanded in notes_extra_10.js",
-            "formulas": "India-US: GE F414 Engine & MQ-9B UAVs\nIndia-France: Rafale-M & Scorpene (Project-75I)\nIndia-Russia: RELOS & S-400\nIndo-Pacific: Malabar & Milan Exercises",
-            "mindmap": {
-              "root": "Defence Partnerships",
-              "branches": [
-                {
-                  "title": "India-US Partnerships",
-                  "subnodes": [
-                    "GE F414 co-production",
-                    "MQ-9B Predator procurement",
-                    "iCET dialogue"
-                  ]
-                },
-                {
-                  "title": "India-France Deals",
-                  "subnodes": [
-                    "Rafale-M for INS Vikrant",
-                    "3 additional Scorpene submarines",
-                    "Shakti engine co-development"
-                  ]
-                },
-                {
-                  "title": "Multilateral Exercises",
-                  "subnodes": [
-                    "Exercise Malabar (Quad)",
-                    "Exercise Milan (Multilateral)",
-                    "Pitch Black (Australia)"
-                  ]
-                }
-              ]
-            }
+            "id": "velocity",
+            "title": "Velocity",
+            "notes": "<p>Content for Velocity is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-red-sea-crisis",
-        "title": "Red Sea Crisis & Maritime Security Ops",
+        "id": "acceleration",
+        "title": "Acceleration",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-red-sea-crisis",
-            "title": "Red Sea Crisis & Maritime Security Ops",
-            "notes": "Detailed notes expanded in notes_extra_10.js",
-            "formulas": "Chokepoint: Bab-el-Mandeb Strait\nThreat: Houthi drone & missile attacks\nOperation Sankalp: India's escort & patrol\nOperation Prosperity Guardian: US-led coalition",
-            "mindmap": {
-              "root": "Red Sea Crisis",
-              "branches": [
-                {
-                  "title": "Strategic Impact",
-                  "subnodes": [
-                    "Suez Canal traffic drop",
-                    "Route diversion via Cape of Good Hope",
-                    "Increased freight rates"
-                  ]
-                },
-                {
-                  "title": "India's Response",
-                  "subnodes": [
-                    "Operation Sankalp",
-                    "INS Kolkata & INS Kochi deployments",
-                    "Anti-piracy patrols"
-                  ]
-                },
-                {
-                  "title": "Key Chokepoints",
-                  "subnodes": [
-                    "Bab-el-Mandeb Strait",
-                    "Gulf of Aden",
-                    "Strait of Hormuz"
-                  ]
-                }
-              ]
-            }
+            "id": "acceleration",
+            "title": "Acceleration",
+            "notes": "<p>Content for Acceleration is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-quad-indopacific",
-        "title": "Indo-Pacific Security & Quad Dynamics",
+        "id": "vector-and-scalar-quantities",
+        "title": "Vector and Scalar Quantities",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-quad-indopacific",
-            "title": "Indo-Pacific Security & Quad Dynamics",
-            "notes": "Detailed notes expanded in notes_extra_10.js",
-            "formulas": "Quad: India, USA, Japan, Australia\nFirst Island Chain: Kuril Islands to Borneo\nSouth China Sea: Nine-Dash Line disputes\nExercises: Malabar, Milan 2026",
-            "mindmap": {
-              "root": "Indo-Pacific & Quad",
-              "branches": [
-                {
-                  "title": "Quad Security",
-                  "subnodes": [
-                    "Free and Open Indo-Pacific",
-                    "Maritime Domain Awareness",
-                    "Quad Summit 2026"
-                  ]
-                },
-                {
-                  "title": "Conflict Zones",
-                  "subnodes": [
-                    "South China Sea",
-                    "Taiwan Strait",
-                    "Senkaku Islands"
-                  ]
-                },
-                {
-                  "title": "Exercises",
-                  "subnodes": [
-                    "Exercise Malabar",
-                    "Exercise Milan",
-                    "Exercise Pitch Black"
-                  ]
-                }
-              ]
-            }
+            "id": "vector-and-scalar-quantities",
+            "title": "Vector and Scalar Quantities",
+            "notes": "<p>Content for Vector and Scalar Quantities is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-defense-acquisitions",
-        "title": "Key Strategic Defense Acquisitions",
+        "id": "deacceleration",
+        "title": "Deacceleration",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-defense-acquisitions",
-            "title": "Key Strategic Defense Acquisitions",
-            "notes": "Detailed notes expanded in notes_extra_10.js",
-            "formulas": "Rafale-M: 26 units for INS Vikrant\nScorpene Submarines: 3 additional units (Kalvari class)\nS-400 Triumf: Russian air defense system\nRELOS: Reciprocal logistics pact with Russia",
-            "mindmap": {
-              "root": "Defense Acquisitions",
-              "branches": [
-                {
-                  "title": "Navy Modernization",
-                  "subnodes": [
-                    "Rafale-M fighters",
-                    "Kalvari class Scorpene subs",
-                    "Project-75I"
-                  ]
-                },
-                {
-                  "title": "Air Defense",
-                  "subnodes": [
-                    "S-400 Triumf",
-                    "LRSAM / Project Kusha"
-                  ]
-                },
-                {
-                  "title": "Logistics Pacts",
-                  "subnodes": [
-                    "RELOS (Russia)",
-                    "LEMOA (USA)",
-                    "Reciprocal Logistics (Japan)"
-                  ]
-                }
-              ]
-            }
+            "id": "deacceleration",
+            "title": "Deacceleration",
+            "notes": "<p>Content for Deacceleration is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-icet-drones",
-        "title": "India-US Tech Cooperation & MQ-9B Drones",
+        "id": "uniform-acceleration-and-velocity-definitions",
+        "title": "Uniform Acceleration and Velocity Definitions",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-icet-drones",
-            "title": "India-US Tech Cooperation & MQ-9B Drones",
-            "notes": "Detailed notes expanded in notes_extra_10.js",
-            "formulas": "iCET: Initiative on Critical and Emerging Technology\nGE F414: Jet engine co-production in India\nMQ-9B: 31 Predator drones (15 SeaGuardian, 16 SkyGuardian)",
-            "mindmap": {
-              "root": "India-US Tech",
-              "branches": [
-                {
-                  "title": "MQ-9B Predator",
-                  "subnodes": [
-                    "31 units total",
-                    "15 SeaGuardian for Navy",
-                    "16 SkyGuardian for Army & Air Force"
-                  ]
-                },
-                {
-                  "title": "Engine Deal",
-                  "subnodes": [
-                    "GE F414 co-production",
-                    "HAL partnership",
-                    "80 percent tech transfer"
-                  ]
-                },
-                {
-                  "title": "iCET Domains",
-                  "subnodes": [
-                    "Space collaboration",
-                    "Semiconductors",
-                    "Artificial Intelligence & Quantum"
-                  ]
-                }
-              ]
-            }
+            "id": "uniform-acceleration-and-velocity-definitions",
+            "title": "Uniform Acceleration and Velocity Definitions",
+            "notes": "<p>Content for Uniform Acceleration and Velocity Definitions is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-spain-c295",
-        "title": "India-Spain Aerospace Cooperation & C-295 Project",
+        "id": "equations-of-motion",
+        "title": "Equations of Motion",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-spain-c295",
-            "title": "India-Spain Aerospace Cooperation & C-295 Project"
+            "id": "equations-of-motion",
+            "title": "Equations of Motion",
+            "notes": "<p>Content for Equations of Motion is being generated...</p>"
           }
         ]
       },
       {
-        "id": "ca-space-nuclear",
-        "title": "Strategic Space & Missile Advancements",
+        "id": "problem-train-acceleration",
+        "title": "Problem: Train Acceleration",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "ca-space-nuclear",
-            "title": "Strategic Space & Missile Advancements",
-            "notes": "Detailed notes expanded in notes_extra_10.js",
-            "formulas": "Mission Divyastra: Agni-V with MIRV technology\nGaganyaan: First human spaceflight (3 crew, 3 days)\nSpace Defense: Defense Space Agency (DSA) & Mission Shakti (ASAT)",
-            "mindmap": {
-              "root": "Space & Missiles",
-              "branches": [
-                {
-                  "title": "Missile Tech",
-                  "subnodes": [
-                    "Agni-V MIRV",
-                    "Mission Divyastra",
-                    "Intercontinental range"
-                  ]
-                },
-                {
-                  "title": "Space Programs",
-                  "subnodes": [
-                    "Gaganyaan crewed flight",
-                    "Vyommitra humanoid",
-                    "Chandrayaan-4 sample return"
-                  ]
-                },
-                {
-                  "title": "Defense Space",
-                  "subnodes": [
-                    "DSA coordination",
-                    "Mission Shakti ASAT",
-                    "Military satellite systems"
-                  ]
-                }
-              ]
-            }
+            "id": "problem-train-acceleration",
+            "title": "Problem: Train Acceleration",
+            "notes": "<p>Content for Problem: Train Acceleration is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "problem-bullcart-acceleration",
+        "title": "Problem: Bullcart Acceleration",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "problem-bullcart-acceleration",
+            "title": "Problem: Bullcart Acceleration",
+            "notes": "<p>Content for Problem: Bullcart Acceleration is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "question-distribution-by-chapter-2014-2016",
+        "title": "Question Distribution by Chapter (2014-2016)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "question-distribution-by-chapter-2014-2016",
+            "title": "Question Distribution by Chapter (2014-2016)",
+            "notes": "<p>Content for Question Distribution by Chapter (2014-2016) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-ray-model-of-light",
+        "title": "The Ray Model of Light",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-ray-model-of-light",
+            "title": "The Ray Model of Light",
+            "notes": "<p>Content for The Ray Model of Light is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sign-convention-for-spherical-mirrors",
+        "title": "Sign Convention for Spherical Mirrors",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sign-convention-for-spherical-mirrors",
+            "title": "Sign Convention for Spherical Mirrors",
+            "notes": "<p>Content for Sign Convention for Spherical Mirrors is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "image-formation-by-a-convex-mirror",
+        "title": "Image Formation by a Convex Mirror",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "image-formation-by-a-convex-mirror",
+            "title": "Image Formation by a Convex Mirror",
+            "notes": "<p>Content for Image Formation by a Convex Mirror is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "image-formation-by-a-concave-mirror",
+        "title": "Image Formation by a Concave Mirror",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "image-formation-by-a-concave-mirror",
+            "title": "Image Formation by a Concave Mirror",
+            "notes": "<p>Content for Image Formation by a Concave Mirror is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sign-convention-table-for-mirrors",
+        "title": "Sign Convention Table for Mirrors",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sign-convention-table-for-mirrors",
+            "title": "Sign Convention Table for Mirrors",
+            "notes": "<p>Content for Sign Convention Table for Mirrors is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "non-uniform-acceleration",
+        "title": "Non-uniform Acceleration",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "non-uniform-acceleration",
+            "title": "Non-uniform Acceleration",
+            "notes": "<p>Content for Non-uniform Acceleration is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "1st-law-of-motion",
+        "title": "1st Law of Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "1st-law-of-motion",
+            "title": "1st Law of Motion",
+            "notes": "<p>Content for 1st Law of Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "2nd-law-of-motion",
+        "title": "2nd Law of Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "2nd-law-of-motion",
+            "title": "2nd Law of Motion",
+            "notes": "<p>Content for 2nd Law of Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "physical-quantities",
+        "title": "Physical Quantities",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "physical-quantities",
+            "title": "Physical Quantities",
+            "notes": "<p>Content for Physical Quantities is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "unit",
+        "title": "Unit",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "unit",
+            "title": "Unit",
+            "notes": "<p>Content for Unit is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "fundamental-and-derived-units",
+        "title": "Fundamental and Derived Units",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "fundamental-and-derived-units",
+            "title": "Fundamental and Derived Units",
+            "notes": "<p>Content for Fundamental and Derived Units is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "si-system",
+        "title": "SI System",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "si-system",
+            "title": "SI System",
+            "notes": "<p>Content for SI System is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "convex-mirrors",
+        "title": "Convex Mirrors",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "convex-mirrors",
+            "title": "Convex Mirrors",
+            "notes": "<p>Content for Convex Mirrors is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "magnification",
+        "title": "Magnification",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "magnification",
+            "title": "Magnification",
+            "notes": "<p>Content for Magnification is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "mirror-formula",
+        "title": "Mirror Formula",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "mirror-formula",
+            "title": "Mirror Formula",
+            "notes": "<p>Content for Mirror Formula is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "refractive-index",
+        "title": "Refractive Index",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "refractive-index",
+            "title": "Refractive Index",
+            "notes": "<p>Content for Refractive Index is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "concave-mirrors",
+        "title": "Concave Mirrors",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "concave-mirrors",
+            "title": "Concave Mirrors",
+            "notes": "<p>Content for Concave Mirrors is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "laws-of-refraction",
+        "title": "Laws of Refraction",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "laws-of-refraction",
+            "title": "Laws of Refraction",
+            "notes": "<p>Content for Laws of Refraction is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "refractive-index-38",
+        "title": "Refractive Index",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "refractive-index-38",
+            "title": "Refractive Index",
+            "notes": "<p>Content for Refractive Index is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "absolute-refractive-index",
+        "title": "Absolute Refractive Index",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "absolute-refractive-index",
+            "title": "Absolute Refractive Index",
+            "notes": "<p>Content for Absolute Refractive Index is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "newton-s-third-law-of-motion",
+        "title": "Newton's Third Law of Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "newton-s-third-law-of-motion",
+            "title": "Newton's Third Law of Motion",
+            "notes": "<p>Content for Newton's Third Law of Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "kinetic-energy-potential-energy-momentum",
+        "title": "Kinetic Energy, Potential Energy, Momentum",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "kinetic-energy-potential-energy-momentum",
+            "title": "Kinetic Energy, Potential Energy, Momentum",
+            "notes": "<p>Content for Kinetic Energy, Potential Energy, Momentum is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "scalar-and-vector-quantities",
+        "title": "Scalar and Vector Quantities",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "scalar-and-vector-quantities",
+            "title": "Scalar and Vector Quantities",
+            "notes": "<p>Content for Scalar and Vector Quantities is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "mechanics",
+        "title": "Mechanics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "mechanics",
+            "title": "Mechanics",
+            "notes": "<p>Content for Mechanics is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "motion",
+        "title": "Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "motion",
+            "title": "Motion",
+            "notes": "<p>Content for Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "distance-and-displacement",
+        "title": "Distance and Displacement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "distance-and-displacement",
+            "title": "Distance and Displacement",
+            "notes": "<p>Content for Distance and Displacement is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "speed",
+        "title": "Speed",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "speed",
+            "title": "Speed",
+            "notes": "<p>Content for Speed is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "average-speed-47",
+        "title": "Average Speed",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "average-speed-47",
+            "title": "Average Speed",
+            "notes": "<p>Content for Average Speed is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "velocity-48",
+        "title": "Velocity",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "velocity-48",
+            "title": "Velocity",
+            "notes": "<p>Content for Velocity is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "average-velocity",
+        "title": "Average Velocity",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "average-velocity",
+            "title": "Average Velocity",
+            "notes": "<p>Content for Average Velocity is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "relative-velocity",
+        "title": "Relative Velocity",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "relative-velocity",
+            "title": "Relative Velocity",
+            "notes": "<p>Content for Relative Velocity is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "kinetic-energy-and-momentum-relations",
+        "title": "Kinetic Energy and Momentum Relations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "kinetic-energy-and-momentum-relations",
+            "title": "Kinetic Energy and Momentum Relations",
+            "notes": "<p>Content for Kinetic Energy and Momentum Relations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "acceleration-52",
+        "title": "Acceleration",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "acceleration-52",
+            "title": "Acceleration",
+            "notes": "<p>Content for Acceleration is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "measurement-motion-work-energy-and-power",
+        "title": "Measurement, Motion, Work, Energy and Power",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "measurement-motion-work-energy-and-power",
+            "title": "Measurement, Motion, Work, Energy and Power",
+            "notes": "<p>Content for Measurement, Motion, Work, Energy and Power is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rotational-motion-and-gravitation",
+        "title": "Rotational Motion and Gravitation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rotational-motion-and-gravitation",
+            "title": "Rotational Motion and Gravitation",
+            "notes": "<p>Content for Rotational Motion and Gravitation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "properties-of-matter",
+        "title": "Properties of Matter",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "properties-of-matter",
+            "title": "Properties of Matter",
+            "notes": "<p>Content for Properties of Matter is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "physics-section",
+        "title": "Physics Section",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "physics-section",
+            "title": "Physics Section",
+            "notes": "<p>Content for Physics Section is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "measurement-motion-work-energy-and-power-57",
+        "title": "Measurement, Motion, Work, Energy and Power",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "measurement-motion-work-energy-and-power-57",
+            "title": "Measurement, Motion, Work, Energy and Power",
+            "notes": "<p>Content for Measurement, Motion, Work, Energy and Power is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rotational-motion-and-gravitation-58",
+        "title": "Rotational Motion and Gravitation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rotational-motion-and-gravitation-58",
+            "title": "Rotational Motion and Gravitation",
+            "notes": "<p>Content for Rotational Motion and Gravitation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "properties-of-matter-59",
+        "title": "Properties of Matter",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "properties-of-matter-59",
+            "title": "Properties of Matter",
+            "notes": "<p>Content for Properties of Matter is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "heat-and-thermodynamics",
+        "title": "Heat and Thermodynamics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "heat-and-thermodynamics",
+            "title": "Heat and Thermodynamics",
+            "notes": "<p>Content for Heat and Thermodynamics is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "oscillations-and-waves",
+        "title": "Oscillations and Waves",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "oscillations-and-waves",
+            "title": "Oscillations and Waves",
+            "notes": "<p>Content for Oscillations and Waves is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "optics",
+        "title": "Optics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "optics",
+            "title": "Optics",
+            "notes": "<p>Content for Optics is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "electric-current",
+        "title": "Electric Current",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "electric-current",
+            "title": "Electric Current",
+            "notes": "<p>Content for Electric Current is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "modern-physics",
+        "title": "Modern Physics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "modern-physics",
+            "title": "Modern Physics",
+            "notes": "<p>Content for Modern Physics is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "practice-exercise",
+        "title": "Practice Exercise",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "practice-exercise",
+            "title": "Practice Exercise",
+            "notes": "<p>Content for Practice Exercise is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "measurement-motion-and-force",
+        "title": "Measurement, Motion and Force",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "measurement-motion-and-force",
+            "title": "Measurement, Motion and Force",
+            "notes": "<p>Content for Measurement, Motion and Force is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "work-energy-and-power",
+        "title": "Work, Energy and Power",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "work-energy-and-power",
+            "title": "Work, Energy and Power",
+            "notes": "<p>Content for Work, Energy and Power is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "centre-of-mass-and-rotational-motion",
+        "title": "Centre of Mass and Rotational Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "centre-of-mass-and-rotational-motion",
+            "title": "Centre of Mass and Rotational Motion",
+            "notes": "<p>Content for Centre of Mass and Rotational Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "measurement-motion-work-energy-and-power-69",
+        "title": "Measurement, Motion, Work, Energy and Power",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "measurement-motion-work-energy-and-power-69",
+            "title": "Measurement, Motion, Work, Energy and Power",
+            "notes": "<p>Content for Measurement, Motion, Work, Energy and Power is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rotational-motion-and-gravitation-70",
+        "title": "Rotational Motion and Gravitation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rotational-motion-and-gravitation-70",
+            "title": "Rotational Motion and Gravitation",
+            "notes": "<p>Content for Rotational Motion and Gravitation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "properties-of-matter-71",
+        "title": "Properties of Matter",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "properties-of-matter-71",
+            "title": "Properties of Matter",
+            "notes": "<p>Content for Properties of Matter is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "refraction-of-light-and-optical-density",
+        "title": "Refraction of Light and Optical Density",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "refraction-of-light-and-optical-density",
+            "title": "Refraction of Light and Optical Density",
+            "notes": "<p>Content for Refraction of Light and Optical Density is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "refractive-index-and-snell-s-law",
+        "title": "Refractive Index and Snell's Law",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "refractive-index-and-snell-s-law",
+            "title": "Refractive Index and Snell's Law",
+            "notes": "<p>Content for Refractive Index and Snell's Law is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "image-formation-by-convex-lens",
+        "title": "Image Formation by Convex Lens",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "image-formation-by-convex-lens",
+            "title": "Image Formation by Convex Lens",
+            "notes": "<p>Content for Image Formation by Convex Lens is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "work",
+        "title": "Work",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "work",
+            "title": "Work",
+            "notes": "<p>Content for Work is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "kinetic-energy",
+        "title": "Kinetic Energy",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "kinetic-energy",
+            "title": "Kinetic Energy",
+            "notes": "<p>Content for Kinetic Energy is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "potential-energy",
+        "title": "Potential Energy",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "potential-energy",
+            "title": "Potential Energy",
+            "notes": "<p>Content for Potential Energy is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "mechanical-energy",
+        "title": "Mechanical Energy",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "mechanical-energy",
+            "title": "Mechanical Energy",
+            "notes": "<p>Content for Mechanical Energy is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "density",
+        "title": "Density",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "density",
+            "title": "Density",
+            "notes": "<p>Content for Density is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "free-fall",
+        "title": "Free Fall",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "free-fall",
+            "title": "Free Fall",
+            "notes": "<p>Content for Free Fall is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "equations-of-motion-81",
+        "title": "Equations of Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "equations-of-motion-81",
+            "title": "Equations of Motion",
+            "notes": "<p>Content for Equations of Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "projectile-motion",
+        "title": "Projectile Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "projectile-motion",
+            "title": "Projectile Motion",
+            "notes": "<p>Content for Projectile Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "force",
+        "title": "Force",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "force",
+            "title": "Force",
+            "notes": "<p>Content for Force is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "newton-s-laws-of-motion",
+        "title": "Newton's Laws of Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "newton-s-laws-of-motion",
+            "title": "Newton's Laws of Motion",
+            "notes": "<p>Content for Newton's Laws of Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents",
+        "title": "Table of Contents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents",
+            "title": "Table of Contents",
+            "notes": "<p>Content for Table of Contents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "image-formation-by-convex-lens-86",
+        "title": "Image Formation by Convex Lens",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "image-formation-by-convex-lens-86",
+            "title": "Image Formation by Convex Lens",
+            "notes": "<p>Content for Image Formation by Convex Lens is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "image-formation-by-concave-lens",
+        "title": "Image Formation by Concave Lens",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "image-formation-by-concave-lens",
+            "title": "Image Formation by Concave Lens",
+            "notes": "<p>Content for Image Formation by Concave Lens is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "lens-formula-and-magnification",
+        "title": "Lens Formula and Magnification",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "lens-formula-and-magnification",
+            "title": "Lens Formula and Magnification",
+            "notes": "<p>Content for Lens Formula and Magnification is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "power-of-lens",
+        "title": "Power of Lens",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "power-of-lens",
+            "title": "Power of Lens",
+            "notes": "<p>Content for Power of Lens is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "applications-of-lenses",
+        "title": "Applications of Lenses",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "applications-of-lenses",
+            "title": "Applications of Lenses",
+            "notes": "<p>Content for Applications of Lenses is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "law-of-conservation-of-energy",
+        "title": "Law of Conservation of Energy",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "law-of-conservation-of-energy",
+            "title": "Law of Conservation of Energy",
+            "notes": "<p>Content for Law of Conservation of Energy is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "potential-energy-calculation",
+        "title": "Potential Energy Calculation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "potential-energy-calculation",
+            "title": "Potential Energy Calculation",
+            "notes": "<p>Content for Potential Energy Calculation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "work-done-calculation",
+        "title": "Work Done Calculation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "work-done-calculation",
+            "title": "Work Done Calculation",
+            "notes": "<p>Content for Work Done Calculation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents-94",
+        "title": "Table of Contents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents-94",
+            "title": "Table of Contents",
+            "notes": "<p>Content for Table of Contents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "power-and-its-units",
+        "title": "Power and its Units",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "power-and-its-units",
+            "title": "Power and its Units",
+            "notes": "<p>Content for Power and its Units is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "newton-s-first-law-of-motion-practical-examples",
+        "title": "Newton's First Law of Motion: Practical Examples",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "newton-s-first-law-of-motion-practical-examples",
+            "title": "Newton's First Law of Motion: Practical Examples",
+            "notes": "<p>Content for Newton's First Law of Motion: Practical Examples is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "validity-of-newton-s-laws-of-motion",
+        "title": "Validity of Newton's Laws of Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "validity-of-newton-s-laws-of-motion",
+            "title": "Validity of Newton's Laws of Motion",
+            "notes": "<p>Content for Validity of Newton's Laws of Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "newton-s-second-law-of-motion",
+        "title": "Newton's Second Law of Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "newton-s-second-law-of-motion",
+            "title": "Newton's Second Law of Motion",
+            "notes": "<p>Content for Newton's Second Law of Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "linear-momentum",
+        "title": "Linear Momentum",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "linear-momentum",
+            "title": "Linear Momentum",
+            "notes": "<p>Content for Linear Momentum is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "newton-s-third-law-of-motion-practical-examples",
+        "title": "Newton's Third Law of Motion: Practical Examples",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "newton-s-third-law-of-motion-practical-examples",
+            "title": "Newton's Third Law of Motion: Practical Examples",
+            "notes": "<p>Content for Newton's Third Law of Motion: Practical Examples is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "applications-of-conservation-of-momentum",
+        "title": "Applications of Conservation of Momentum",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "applications-of-conservation-of-momentum",
+            "title": "Applications of Conservation of Momentum",
+            "notes": "<p>Content for Applications of Conservation of Momentum is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "impulse",
+        "title": "Impulse",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "impulse",
+            "title": "Impulse",
+            "notes": "<p>Content for Impulse is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "basic-and-derived-units",
+        "title": "Basic and Derived Units",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "basic-and-derived-units",
+            "title": "Basic and Derived Units",
+            "notes": "<p>Content for Basic and Derived Units is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "scientists-and-measuring-units",
+        "title": "Scientists and Measuring Units",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "scientists-and-measuring-units",
+            "title": "Scientists and Measuring Units",
+            "notes": "<p>Content for Scientists and Measuring Units is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "power-of-lenses-in-contact",
+        "title": "Power of Lenses in Contact",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "power-of-lenses-in-contact",
+            "title": "Power of Lenses in Contact",
+            "notes": "<p>Content for Power of Lenses in Contact is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "electric-energy-and-power",
+        "title": "Electric Energy and Power",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "electric-energy-and-power",
+            "title": "Electric Energy and Power",
+            "notes": "<p>Content for Electric Energy and Power is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "momentum-and-impulse",
+        "title": "Momentum and Impulse",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "momentum-and-impulse",
+            "title": "Momentum and Impulse",
+            "notes": "<p>Content for Momentum and Impulse is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "friction",
+        "title": "Friction",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "friction",
+            "title": "Friction",
+            "notes": "<p>Content for Friction is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "friction-109",
+        "title": "Friction",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "friction-109",
+            "title": "Friction",
+            "notes": "<p>Content for Friction is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "friction-110",
+        "title": "Friction",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "friction-110",
+            "title": "Friction",
+            "notes": "<p>Content for Friction is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "friction-111",
+        "title": "Friction",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "friction-111",
+            "title": "Friction",
+            "notes": "<p>Content for Friction is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "circular-motion",
+        "title": "Circular Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "circular-motion",
+            "title": "Circular Motion",
+            "notes": "<p>Content for Circular Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "circular-motion-113",
+        "title": "Circular Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "circular-motion-113",
+            "title": "Circular Motion",
+            "notes": "<p>Content for Circular Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "centripetal-force",
+        "title": "Centripetal Force",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "centripetal-force",
+            "title": "Centripetal Force",
+            "notes": "<p>Content for Centripetal Force is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "gravitational-force",
+        "title": "Gravitational Force",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "gravitational-force",
+            "title": "Gravitational Force",
+            "notes": "<p>Content for Gravitational Force is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "instruments",
+        "title": "Instruments",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "instruments",
+            "title": "Instruments",
+            "notes": "<p>Content for Instruments is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "universal-law-of-gravitation",
+        "title": "Universal Law of Gravitation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "universal-law-of-gravitation",
+            "title": "Universal Law of Gravitation",
+            "notes": "<p>Content for Universal Law of Gravitation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "gravitational-formulas",
+        "title": "Gravitational Formulas",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "gravitational-formulas",
+            "title": "Gravitational Formulas",
+            "notes": "<p>Content for Gravitational Formulas is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "weight-and-mass",
+        "title": "Weight and Mass",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "weight-and-mass",
+            "title": "Weight and Mass",
+            "notes": "<p>Content for Weight and Mass is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "thrust-and-pressure",
+        "title": "Thrust and Pressure",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "thrust-and-pressure",
+            "title": "Thrust and Pressure",
+            "notes": "<p>Content for Thrust and Pressure is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "buoyancy",
+        "title": "Buoyancy",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "buoyancy",
+            "title": "Buoyancy",
+            "notes": "<p>Content for Buoyancy is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "apparent-weight-in-an-elevator",
+        "title": "Apparent Weight in an Elevator",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "apparent-weight-in-an-elevator",
+            "title": "Apparent Weight in an Elevator",
+            "notes": "<p>Content for Apparent Weight in an Elevator is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "archimedes-principle",
+        "title": "Archimedes Principle",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "archimedes-principle",
+            "title": "Archimedes Principle",
+            "notes": "<p>Content for Archimedes Principle is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "motion-under-gravity-sign-conventions",
+        "title": "Motion Under Gravity Sign Conventions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "motion-under-gravity-sign-conventions",
+            "title": "Motion Under Gravity Sign Conventions",
+            "notes": "<p>Content for Motion Under Gravity Sign Conventions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "defects-of-vision",
+        "title": "Defects of Vision",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "defects-of-vision",
+            "title": "Defects of Vision",
+            "notes": "<p>Content for Defects of Vision is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "dispersion-of-light",
+        "title": "Dispersion of Light",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "dispersion-of-light",
+            "title": "Dispersion of Light",
+            "notes": "<p>Content for Dispersion of Light is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "electromagnetic-spectrum",
+        "title": "Electromagnetic Spectrum",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "electromagnetic-spectrum",
+            "title": "Electromagnetic Spectrum",
+            "notes": "<p>Content for Electromagnetic Spectrum is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "apparent-weight-in-a-lift",
+        "title": "Apparent Weight in a Lift",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "apparent-weight-in-a-lift",
+            "title": "Apparent Weight in a Lift",
+            "notes": "<p>Content for Apparent Weight in a Lift is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "angular-velocity",
+        "title": "Angular Velocity",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "angular-velocity",
+            "title": "Angular Velocity",
+            "notes": "<p>Content for Angular Velocity is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "angular-acceleration",
+        "title": "Angular Acceleration",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "angular-acceleration",
+            "title": "Angular Acceleration",
+            "notes": "<p>Content for Angular Acceleration is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "centripetal-acceleration",
+        "title": "Centripetal Acceleration",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "centripetal-acceleration",
+            "title": "Centripetal Acceleration",
+            "notes": "<p>Content for Centripetal Acceleration is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "centripetal-force-132",
+        "title": "Centripetal Force",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "centripetal-force-132",
+            "title": "Centripetal Force",
+            "notes": "<p>Content for Centripetal Force is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "centrifugal-force",
+        "title": "Centrifugal Force",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "centrifugal-force",
+            "title": "Centrifugal Force",
+            "notes": "<p>Content for Centrifugal Force is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "work-134",
+        "title": "Work",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "work-134",
+            "title": "Work",
+            "notes": "<p>Content for Work is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "types-of-work",
+        "title": "Types of Work",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "types-of-work",
+            "title": "Types of Work",
+            "notes": "<p>Content for Types of Work is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "key-concepts-magnetism-equilibrium-buoyancy-and-vector-forces",
+        "title": "Key Concepts: Magnetism, Equilibrium, Buoyancy, and Vector Forces",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "key-concepts-magnetism-equilibrium-buoyancy-and-vector-forces",
+            "title": "Key Concepts: Magnetism, Equilibrium, Buoyancy, and Vector Forces",
+            "notes": "<p>Content for Key Concepts: Magnetism, Equilibrium, Buoyancy, and Vector Forces is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "atmospheric-refraction",
+        "title": "Atmospheric Refraction",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "atmospheric-refraction",
+            "title": "Atmospheric Refraction",
+            "notes": "<p>Content for Atmospheric Refraction is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "scattering-of-light",
+        "title": "Scattering of Light",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "scattering-of-light",
+            "title": "Scattering of Light",
+            "notes": "<p>Content for Scattering of Light is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "electric-current-139",
+        "title": "Electric Current",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "electric-current-139",
+            "title": "Electric Current",
+            "notes": "<p>Content for Electric Current is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "potential-difference",
+        "title": "Potential Difference",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "potential-difference",
+            "title": "Potential Difference",
+            "notes": "<p>Content for Potential Difference is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ohm-s-law",
+        "title": "Ohm's Law",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ohm-s-law",
+            "title": "Ohm's Law",
+            "notes": "<p>Content for Ohm's Law is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sound",
+        "title": "Sound",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sound",
+            "title": "Sound",
+            "notes": "<p>Content for Sound is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sound-143",
+        "title": "Sound",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sound-143",
+            "title": "Sound",
+            "notes": "<p>Content for Sound is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sound-144",
+        "title": "Sound",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sound-144",
+            "title": "Sound",
+            "notes": "<p>Content for Sound is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "conservative-and-non-conservative-forces",
+        "title": "Conservative and Non-conservative Forces",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "conservative-and-non-conservative-forces",
+            "title": "Conservative and Non-conservative Forces",
+            "notes": "<p>Content for Conservative and Non-conservative Forces is being generated...</p>"
           }
         ]
       }
     ]
   },
-  "environment": {
-    "title": "Environment & Ecology",
+  "miscellaneous": {
+    "title": "Miscellaneous",
     "chapters": [
       {
-        "id": "env-hotspots",
-        "title": "Biodiversity Hotspots & Biosphere Reserves",
+        "id": "hypabyssal-igneous-rocks",
+        "title": "Hypabyssal Igneous Rocks",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "env-hotspots",
-            "title": "Biodiversity Hotspots & Biosphere Reserves",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "36 global hotspots, 4 in India\nHotspot criteria: 1500 endemic plants + 70% habitat lost\n18 Biosphere Reserves in India",
-            "mindmap": {
-              "root": "Biodiversity",
-              "branches": [
-                {
-                  "title": "India's 4 Hotspots",
-                  "subnodes": [
-                    "Western Ghats",
-                    "Eastern Himalayas",
-                    "Indo-Burma",
-                    "Sundaland"
-                  ]
-                },
-                {
-                  "title": "Biosphere Reserves",
-                  "subnodes": [
-                    "Nilgiri (first)",
-                    "Sundarbans",
-                    "Nanda Devi"
-                  ]
-                }
-              ]
-            }
+            "id": "hypabyssal-igneous-rocks",
+            "title": "Hypabyssal Igneous Rocks",
+            "notes": "<p>Content for Hypabyssal Igneous Rocks is being generated...</p>"
           }
         ]
       },
       {
-        "id": "env-conservation",
-        "title": "Wildlife Protection & Conservation Projects",
+        "id": "sedimentary-rocks",
+        "title": "Sedimentary Rocks",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "env-conservation",
-            "title": "Wildlife Protection & Conservation Projects",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "Project Tiger: 1973, 53 reserves, ~3000+ tigers\nProject Elephant: 1992, 32 reserves\nProject Cheetah: 2022, Kuno NP\n106 National Parks\n85+ Ramsar Sites",
-            "mindmap": {
-              "root": "Conservation",
-              "branches": [
-                {
-                  "title": "Projects",
-                  "subnodes": [
-                    "Project Tiger",
-                    "Project Elephant",
-                    "Project Cheetah"
-                  ]
-                },
-                {
-                  "title": "Protected Areas",
-                  "subnodes": [
-                    "106 National Parks",
-                    "567 Sanctuaries",
-                    "53 Tiger Reserves"
-                  ]
-                },
-                {
-                  "title": "Legislation",
-                  "subnodes": [
-                    "Wildlife Protection Act 1972",
-                    "6 Schedules"
-                  ]
-                }
-              ]
-            }
+            "id": "sedimentary-rocks",
+            "title": "Sedimentary Rocks",
+            "notes": "<p>Content for Sedimentary Rocks is being generated...</p>"
           }
         ]
       },
       {
-        "id": "env-species",
-        "title": "Species in News & IUCN Red List",
+        "id": "metamorphic-rocks",
+        "title": "Metamorphic Rocks",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "env-species",
-            "title": "Species in News & IUCN Red List",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "IUCN: EX>EW>CR>EN>VU>NT>LC\nGIB: Critically Endangered (~150)\nAsiatic Lion: Gir only (~674)\nGangetic Dolphin: National Aquatic Animal",
-            "mindmap": {
-              "root": "Species",
-              "branches": [
-                {
-                  "title": "Critically Endangered",
-                  "subnodes": [
-                    "Great Indian Bustard"
-                  ]
-                },
-                {
-                  "title": "Endangered",
-                  "subnodes": [
-                    "Asiatic Lion",
-                    "Red Panda",
-                    "Gangetic Dolphin"
-                  ]
-                },
-                {
-                  "title": "Vulnerable",
-                  "subnodes": [
-                    "Snow Leopard",
-                    "Indian Rhino",
-                    "African Cheetah"
-                  ]
-                }
-              ]
-            }
+            "id": "metamorphic-rocks",
+            "title": "Metamorphic Rocks",
+            "notes": "<p>Content for Metamorphic Rocks is being generated...</p>"
           }
         ]
       },
       {
-        "id": "env-treaties",
-        "title": "Climate Change Treaties & India's NDCs",
+        "id": "minerals-and-granite-composition",
+        "title": "Minerals and Granite Composition",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "env-treaties",
-            "title": "Climate Change Treaties & India's NDCs",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "Paris Agreement (COP21, 2015): Limit to 1.5-2°C\nKyoto Protocol 1997: Binding for Annex I\nMontreal Protocol 1987: Ozone\nIndia Net Zero: 2070\nPanchamrit: 500 GW RE by 2030",
-            "mindmap": {
-              "root": "Climate Treaties",
-              "branches": [
-                {
-                  "title": "Key Agreements",
-                  "subnodes": [
-                    "UNFCCC",
-                    "Kyoto",
-                    "Paris",
-                    "Montreal",
-                    "Kigali"
-                  ]
-                },
-                {
-                  "title": "India's NDC",
-                  "subnodes": [
-                    "Panchamrit Goals",
-                    "Net Zero 2070",
-                    "500 GW RE"
-                  ]
-                },
-                {
-                  "title": "Other Conventions",
-                  "subnodes": [
-                    "Ramsar",
-                    "CBD",
-                    "CITES"
-                  ]
-                }
-              ]
-            }
+            "id": "minerals-and-granite-composition",
+            "title": "Minerals and Granite Composition",
+            "notes": "<p>Content for Minerals and Granite Composition is being generated...</p>"
           }
         ]
       },
       {
-        "id": "env-laws",
-        "title": "Environmental Legislation & EIA",
+        "id": "table-of-contents-geography",
+        "title": "Table of Contents - Geography",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "env-laws",
-            "title": "Environmental Legislation & EIA",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "EPA 1986: Post-Bhopal umbrella law\nForest Conservation Act 1980\nNGT Act 2010\nEIA: Screening→Scoping→Public Consultation→Appraisal",
-            "mindmap": {
-              "root": "Env Laws",
-              "branches": [
-                {
-                  "title": "Key Acts",
-                  "subnodes": [
-                    "WPA 1972",
-                    "Water Act 1974",
-                    "EPA 1986",
-                    "FCA 1980"
-                  ]
-                },
-                {
-                  "title": "Modern",
-                  "subnodes": [
-                    "Biodiversity Act 2002",
-                    "Forest Rights 2006",
-                    "NGT 2010"
-                  ]
-                },
-                {
-                  "title": "EIA",
-                  "subnodes": [
-                    "4 stages",
-                    "EAC",
-                    "EIA 2020 Draft controversy"
-                  ]
-                }
-              ]
-            }
+            "id": "table-of-contents-geography",
+            "title": "Table of Contents - Geography",
+            "notes": "<p>Content for Table of Contents - Geography is being generated...</p>"
           }
         ]
       },
       {
-        "id": "env-renewable",
-        "title": "Renewable Energy & Green Initiatives",
+        "id": "table-of-contents-physics",
+        "title": "Table of Contents - Physics",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "env-renewable",
-            "title": "Renewable Energy & Green Initiatives",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "Target: 500 GW non-fossil by 2030\nISA: India + France (Gurugram HQ)\nGreen Hydrogen: 5 MMT by 2030\nE20: 20% ethanol blending\nFAME-II: EV subsidies",
-            "mindmap": {
-              "root": "Renewable Energy",
-              "branches": [
-                {
-                  "title": "Solar",
-                  "subnodes": [
-                    "NSM",
-                    "PM-KUSUM",
-                    "ISA",
-                    "OSOWOG"
-                  ]
-                },
-                {
-                  "title": "Green Hydrogen",
-                  "subnodes": [
-                    "National Mission 2023",
-                    "5 MMT target"
-                  ]
-                },
-                {
-                  "title": "Transport",
-                  "subnodes": [
-                    "FAME-II (EVs)",
-                    "Ethanol Blending"
-                  ]
-                }
-              ]
-            }
+            "id": "table-of-contents-physics",
+            "title": "Table of Contents - Physics",
+            "notes": "<p>Content for Table of Contents - Physics is being generated...</p>"
           }
         ]
       },
       {
-        "id": "env-pollution",
-        "title": "Pollution Control & Clean India Missions",
+        "id": "table-of-contents-chemistry",
+        "title": "Table of Contents - Chemistry",
         "icon": "fa-solid fa-book-open",
         "topics": [
           {
-            "id": "env-pollution",
-            "title": "Pollution Control & Clean India Missions",
-            "notes": "Detailed notes expanded in notes_extra_5.js",
-            "formulas": "Namami Gange: ₹20,000 Cr\nNCAP: 40% PM reduction by 2025-26\nBS-VI: 2020 (leapfrogged BS-V)\nSUP Ban: 2022",
-            "mindmap": {
-              "root": "Pollution Control",
-              "branches": [
-                {
-                  "title": "Water",
-                  "subnodes": [
-                    "Namami Gange",
-                    "NMCG",
-                    "STPs"
-                  ]
-                },
-                {
-                  "title": "Air",
-                  "subnodes": [
-                    "NCAP",
-                    "BS-VI",
-                    "SAFAR"
-                  ]
-                },
-                {
-                  "title": "Waste",
-                  "subnodes": [
-                    "SUP Ban",
-                    "EPR",
-                    "Swachh Bharat Phase 2"
-                  ]
-                }
-              ]
-            }
+            "id": "table-of-contents-chemistry",
+            "title": "Table of Contents - Chemistry",
+            "notes": "<p>Content for Table of Contents - Chemistry is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "middle-east-and-west-asia-geography",
+        "title": "Middle East and West Asia Geography",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "middle-east-and-west-asia-geography",
+            "title": "Middle East and West Asia Geography",
+            "notes": "<p>Content for Middle East and West Asia Geography is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents-general-science",
+        "title": "Table of Contents - General Science",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents-general-science",
+            "title": "Table of Contents - General Science",
+            "notes": "<p>Content for Table of Contents - General Science is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "making-of-constitution",
+        "title": "Making of Constitution",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "making-of-constitution",
+            "title": "Making of Constitution",
+            "notes": "<p>Content for Making of Constitution is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "drafting-committee",
+        "title": "Drafting Committee",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "drafting-committee",
+            "title": "Drafting Committee",
+            "notes": "<p>Content for Drafting Committee is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "salient-features-of-the-constitution",
+        "title": "Salient Features of the Constitution",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "salient-features-of-the-constitution",
+            "title": "Salient Features of the Constitution",
+            "notes": "<p>Content for Salient Features of the Constitution is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "adoption-and-commencement",
+        "title": "Adoption and Commencement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "adoption-and-commencement",
+            "title": "Adoption and Commencement",
+            "notes": "<p>Content for Adoption and Commencement is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "plane-mirror",
+        "title": "Plane Mirror",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "plane-mirror",
+            "title": "Plane Mirror",
+            "notes": "<p>Content for Plane Mirror is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "laws-of-reflection",
+        "title": "Laws of Reflection",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "laws-of-reflection",
+            "title": "Laws of Reflection",
+            "notes": "<p>Content for Laws of Reflection is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "spherical-mirrors",
+        "title": "Spherical Mirrors",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "spherical-mirrors",
+            "title": "Spherical Mirrors",
+            "notes": "<p>Content for Spherical Mirrors is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nature-of-light-wave-vs-particle",
+        "title": "Nature of Light (Wave vs Particle)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nature-of-light-wave-vs-particle",
+            "title": "Nature of Light (Wave vs Particle)",
+            "notes": "<p>Content for Nature of Light (Wave vs Particle) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "phenomena-of-light-wave-vs-particle-explanation",
+        "title": "Phenomena of Light: Wave vs Particle Explanation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "phenomena-of-light-wave-vs-particle-explanation",
+            "title": "Phenomena of Light: Wave vs Particle Explanation",
+            "notes": "<p>Content for Phenomena of Light: Wave vs Particle Explanation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "uniform-circular-motion",
+        "title": "Uniform Circular Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "uniform-circular-motion",
+            "title": "Uniform Circular Motion",
+            "notes": "<p>Content for Uniform Circular Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "non-uniform-motion",
+        "title": "Non-Uniform Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "non-uniform-motion",
+            "title": "Non-Uniform Motion",
+            "notes": "<p>Content for Non-Uniform Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "uniform-motion",
+        "title": "Uniform Motion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "uniform-motion",
+            "title": "Uniform Motion",
+            "notes": "<p>Content for Uniform Motion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "velocity-time-graph",
+        "title": "Velocity-Time Graph",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "velocity-time-graph",
+            "title": "Velocity-Time Graph",
+            "notes": "<p>Content for Velocity-Time Graph is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "uniform-acceleration",
+        "title": "Uniform Acceleration",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "uniform-acceleration",
+            "title": "Uniform Acceleration",
+            "notes": "<p>Content for Uniform Acceleration is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "missile-systems-by-country",
+        "title": "Missile Systems by Country",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "missile-systems-by-country",
+            "title": "Missile Systems by Country",
+            "notes": "<p>Content for Missile Systems by Country is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "introduction-to-cell",
+        "title": "Introduction to Cell",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "introduction-to-cell",
+            "title": "Introduction to Cell",
+            "notes": "<p>Content for Introduction to Cell is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cell-classification",
+        "title": "Cell Classification",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cell-classification",
+            "title": "Cell Classification",
+            "notes": "<p>Content for Cell Classification is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cell-organelles",
+        "title": "Cell Organelles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cell-organelles",
+            "title": "Cell Organelles",
+            "notes": "<p>Content for Cell Organelles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nda-cds-exam-question-distribution-2014-2016",
+        "title": "NDA/CDS Exam Question Distribution (2014-2016)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nda-cds-exam-question-distribution-2014-2016",
+            "title": "NDA/CDS Exam Question Distribution (2014-2016)",
+            "notes": "<p>Content for NDA/CDS Exam Question Distribution (2014-2016) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "book-structure",
+        "title": "Book Structure",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "book-structure",
+            "title": "Book Structure",
+            "notes": "<p>Content for Book Structure is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2021-ii",
+        "title": "CDS Solved Paper 2021 II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2021-ii",
+            "title": "CDS Solved Paper 2021 II",
+            "notes": "<p>Content for CDS Solved Paper 2021 II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2021-i",
+        "title": "CDS Solved Paper 2021 I",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2021-i",
+            "title": "CDS Solved Paper 2021 I",
+            "notes": "<p>Content for CDS Solved Paper 2021 I is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2020-ii",
+        "title": "CDS Solved Paper 2020 II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2020-ii",
+            "title": "CDS Solved Paper 2020 II",
+            "notes": "<p>Content for CDS Solved Paper 2020 II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2020-i",
+        "title": "CDS Solved Paper 2020 I",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2020-i",
+            "title": "CDS Solved Paper 2020 I",
+            "notes": "<p>Content for CDS Solved Paper 2020 I is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2019-ii",
+        "title": "CDS Solved Paper 2019 II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2019-ii",
+            "title": "CDS Solved Paper 2019 II",
+            "notes": "<p>Content for CDS Solved Paper 2019 II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2019-i",
+        "title": "CDS Solved Paper 2019 I",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2019-i",
+            "title": "CDS Solved Paper 2019 I",
+            "notes": "<p>Content for CDS Solved Paper 2019 I is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2018-ii",
+        "title": "CDS Solved Paper 2018 II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2018-ii",
+            "title": "CDS Solved Paper 2018 II",
+            "notes": "<p>Content for CDS Solved Paper 2018 II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents",
+        "title": "Table of Contents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents",
+            "title": "Table of Contents",
+            "notes": "<p>Content for Table of Contents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "paper-ii",
+        "title": "Paper II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "paper-ii",
+            "title": "Paper II",
+            "notes": "<p>Content for Paper II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "paper-i",
+        "title": "Paper I",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "paper-i",
+            "title": "Paper I",
+            "notes": "<p>Content for Paper I is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "paper-ii-39",
+        "title": "Paper II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "paper-ii-39",
+            "title": "Paper II",
+            "notes": "<p>Content for Paper II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "paper-i-40",
+        "title": "Paper I",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "paper-i-40",
+            "title": "Paper I",
+            "notes": "<p>Content for Paper I is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "paper-ii-41",
+        "title": "Paper II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "paper-ii-41",
+            "title": "Paper II",
+            "notes": "<p>Content for Paper II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "document-type",
+        "title": "Document Type",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "document-type",
+            "title": "Document Type",
+            "notes": "<p>Content for Document Type is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nda-na-solved-paper-2021-ii",
+        "title": "NDA/NA Solved Paper 2021 II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nda-na-solved-paper-2021-ii",
+            "title": "NDA/NA Solved Paper 2021 II",
+            "notes": "<p>Content for NDA/NA Solved Paper 2021 II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nda-na-solved-paper-2021-i",
+        "title": "NDA/NA Solved Paper 2021 I",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nda-na-solved-paper-2021-i",
+            "title": "NDA/NA Solved Paper 2021 I",
+            "notes": "<p>Content for NDA/NA Solved Paper 2021 I is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nda-na-solved-paper-2020-i-ii",
+        "title": "NDA/NA Solved Paper 2020 I & II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nda-na-solved-paper-2020-i-ii",
+            "title": "NDA/NA Solved Paper 2020 I & II",
+            "notes": "<p>Content for NDA/NA Solved Paper 2020 I & II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nda-na-solved-paper-2019-ii",
+        "title": "NDA/NA Solved Paper 2019 II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nda-na-solved-paper-2019-ii",
+            "title": "NDA/NA Solved Paper 2019 II",
+            "notes": "<p>Content for NDA/NA Solved Paper 2019 II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nda-na-solved-paper-2019-i",
+        "title": "NDA/NA Solved Paper 2019 I",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nda-na-solved-paper-2019-i",
+            "title": "NDA/NA Solved Paper 2019 I",
+            "notes": "<p>Content for NDA/NA Solved Paper 2019 I is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nda-na-solved-paper-2018-ii",
+        "title": "NDA/NA Solved Paper 2018 II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nda-na-solved-paper-2018-ii",
+            "title": "NDA/NA Solved Paper 2018 II",
+            "notes": "<p>Content for NDA/NA Solved Paper 2018 II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nda-na-solved-paper-2018-i",
+        "title": "NDA/NA Solved Paper 2018 I",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nda-na-solved-paper-2018-i",
+            "title": "NDA/NA Solved Paper 2018 I",
+            "notes": "<p>Content for NDA/NA Solved Paper 2018 I is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nda-na-solved-paper-2017-ii",
+        "title": "NDA/NA Solved Paper 2017 II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nda-na-solved-paper-2017-ii",
+            "title": "NDA/NA Solved Paper 2017 II",
+            "notes": "<p>Content for NDA/NA Solved Paper 2017 II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coral-reefs",
+        "title": "Coral Reefs",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coral-reefs",
+            "title": "Coral Reefs",
+            "notes": "<p>Content for Coral Reefs is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coral-reefs-52",
+        "title": "Coral Reefs",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coral-reefs-52",
+            "title": "Coral Reefs",
+            "notes": "<p>Content for Coral Reefs is being generated...</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "polity": {
+    "title": "Polity",
+    "chapters": [
+      {
+        "id": "schedules-of-the-constitution",
+        "title": "Schedules of the Constitution",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "schedules-of-the-constitution",
+            "title": "Schedules of the Constitution",
+            "notes": "<p>Content for Schedules of the Constitution is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sources-of-the-constitution",
+        "title": "Sources of the Constitution",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sources-of-the-constitution",
+            "title": "Sources of the Constitution",
+            "notes": "<p>Content for Sources of the Constitution is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "table-of-contents",
+        "title": "Table of Contents",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "table-of-contents",
+            "title": "Table of Contents",
+            "notes": "<p>Content for Table of Contents is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sources-of-indian-constitution",
+        "title": "Sources of Indian Constitution",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sources-of-indian-constitution",
+            "title": "Sources of Indian Constitution",
+            "notes": "<p>Content for Sources of Indian Constitution is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "preamble",
+        "title": "Preamble",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "preamble",
+            "title": "Preamble",
+            "notes": "<p>Content for Preamble is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "fundamental-rights",
+        "title": "Fundamental Rights",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "fundamental-rights",
+            "title": "Fundamental Rights",
+            "notes": "<p>Content for Fundamental Rights is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "right-to-equality-article-14",
+        "title": "Right to Equality (Article 14)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "right-to-equality-article-14",
+            "title": "Right to Equality (Article 14)",
+            "notes": "<p>Content for Right to Equality (Article 14) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "right-to-equality-article-15",
+        "title": "Right to Equality (Article 15)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "right-to-equality-article-15",
+            "title": "Right to Equality (Article 15)",
+            "notes": "<p>Content for Right to Equality (Article 15) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "parliamentary-committees-of-india",
+        "title": "Parliamentary Committees Of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "parliamentary-committees-of-india",
+            "title": "Parliamentary Committees Of India",
+            "notes": "<p>Content for Parliamentary Committees Of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "panchayati-raj-in-india",
+        "title": "Panchayati Raj In India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "panchayati-raj-in-india",
+            "title": "Panchayati Raj In India",
+            "notes": "<p>Content for Panchayati Raj In India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-parliament-of-india",
+        "title": "The Parliament Of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-parliament-of-india",
+            "title": "The Parliament Of India",
+            "notes": "<p>Content for The Parliament Of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "inter-state-relations",
+        "title": "Inter-state Relations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "inter-state-relations",
+            "title": "Inter-state Relations",
+            "notes": "<p>Content for Inter-state Relations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "right-to-equality-articles-16-18",
+        "title": "Right to Equality (Articles 16-18)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "right-to-equality-articles-16-18",
+            "title": "Right to Equality (Articles 16-18)",
+            "notes": "<p>Content for Right to Equality (Articles 16-18) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "right-to-freedom-articles-19-22",
+        "title": "Right to Freedom (Articles 19-22)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "right-to-freedom-articles-19-22",
+            "title": "Right to Freedom (Articles 19-22)",
+            "notes": "<p>Content for Right to Freedom (Articles 19-22) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "right-against-exploitation-articles-23-24",
+        "title": "Right against Exploitation (Articles 23-24)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "right-against-exploitation-articles-23-24",
+            "title": "Right against Exploitation (Articles 23-24)",
+            "notes": "<p>Content for Right against Exploitation (Articles 23-24) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "articles-25-to-32",
+        "title": "Articles 25 to 32",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "articles-25-to-32",
+            "title": "Articles 25 to 32",
+            "notes": "<p>Content for Articles 25 to 32 is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "overview-and-nature",
+        "title": "Overview and Nature",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "overview-and-nature",
+            "title": "Overview and Nature",
+            "notes": "<p>Content for Overview and Nature is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "overview-and-nature-17",
+        "title": "Overview and Nature",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "overview-and-nature-17",
+            "title": "Overview and Nature",
+            "notes": "<p>Content for Overview and Nature is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "list-of-fundamental-duties",
+        "title": "List of Fundamental Duties",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "list-of-fundamental-duties",
+            "title": "List of Fundamental Duties",
+            "notes": "<p>Content for List of Fundamental Duties is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "important-articles",
+        "title": "Important Articles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "important-articles",
+            "title": "Important Articles",
+            "notes": "<p>Content for Important Articles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "amendment-process-and-types",
+        "title": "Amendment Process and Types",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "amendment-process-and-types",
+            "title": "Amendment Process and Types",
+            "notes": "<p>Content for Amendment Process and Types is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "important-articles-language",
+        "title": "Important Articles (Language)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "important-articles-language",
+            "title": "Important Articles (Language)",
+            "notes": "<p>Content for Important Articles (Language) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "pitts-india-act-1784",
+        "title": "Pitts India Act 1784",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "pitts-india-act-1784",
+            "title": "Pitts India Act 1784",
+            "notes": "<p>Content for Pitts India Act 1784 is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "charter-act-of-1813",
+        "title": "Charter Act of 1813",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "charter-act-of-1813",
+            "title": "Charter Act of 1813",
+            "notes": "<p>Content for Charter Act of 1813 is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "charter-act-of-1833",
+        "title": "Charter Act of 1833",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "charter-act-of-1833",
+            "title": "Charter Act of 1833",
+            "notes": "<p>Content for Charter Act of 1833 is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "charter-act-of-1853",
+        "title": "Charter Act of 1853",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "charter-act-of-1853",
+            "title": "Charter Act of 1853",
+            "notes": "<p>Content for Charter Act of 1853 is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "government-of-india-act-1858",
+        "title": "Government of India Act 1858",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "government-of-india-act-1858",
+            "title": "Government of India Act 1858",
+            "notes": "<p>Content for Government of India Act 1858 is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "india-council-act-1861",
+        "title": "India Council Act 1861",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "india-council-act-1861",
+            "title": "India Council Act 1861",
+            "notes": "<p>Content for India Council Act 1861 is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "india-councils-act-1892",
+        "title": "India Councils Act 1892",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "india-councils-act-1892",
+            "title": "India Councils Act 1892",
+            "notes": "<p>Content for India Councils Act 1892 is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "india-councils-act-1909-morley-minto-act",
+        "title": "India Councils Act 1909 (Morley-Minto Act)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "india-councils-act-1909-morley-minto-act",
+            "title": "India Councils Act 1909 (Morley-Minto Act)",
+            "notes": "<p>Content for India Councils Act 1909 (Morley-Minto Act) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "majority-types-in-parliament",
+        "title": "Majority Types in Parliament",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "majority-types-in-parliament",
+            "title": "Majority Types in Parliament",
+            "notes": "<p>Content for Majority Types in Parliament is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "majority-types-in-parliament-31",
+        "title": "Majority Types in Parliament",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "majority-types-in-parliament-31",
+            "title": "Majority Types in Parliament",
+            "notes": "<p>Content for Majority Types in Parliament is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "majority-types-in-parliament-32",
+        "title": "Majority Types in Parliament",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "majority-types-in-parliament-32",
+            "title": "Majority Types in Parliament",
+            "notes": "<p>Content for Majority Types in Parliament is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "president-overview",
+        "title": "President - Overview",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "president-overview",
+            "title": "President - Overview",
+            "notes": "<p>Content for President - Overview is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "election-of-president",
+        "title": "Election of President",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "election-of-president",
+            "title": "Election of President",
+            "notes": "<p>Content for Election of President is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "election-of-president-35",
+        "title": "Election of President",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "election-of-president-35",
+            "title": "Election of President",
+            "notes": "<p>Content for Election of President is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "president-oath-and-resignation",
+        "title": "President - Oath and Resignation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "president-oath-and-resignation",
+            "title": "President - Oath and Resignation",
+            "notes": "<p>Content for President - Oath and Resignation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "impeachment-of-president",
+        "title": "Impeachment of President",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "impeachment-of-president",
+            "title": "Impeachment of President",
+            "notes": "<p>Content for Impeachment of President is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "government-of-india-act-1919",
+        "title": "Government of India Act 1919",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "government-of-india-act-1919",
+            "title": "Government of India Act 1919",
+            "notes": "<p>Content for Government of India Act 1919 is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "government-of-india-act-1935",
+        "title": "Government of India Act 1935",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "government-of-india-act-1935",
+            "title": "Government of India Act 1935",
+            "notes": "<p>Content for Government of India Act 1935 is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "government-of-india-act-1947",
+        "title": "Government of India Act 1947",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "government-of-india-act-1947",
+            "title": "Government of India Act 1947",
+            "notes": "<p>Content for Government of India Act 1947 is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "president-of-india",
+        "title": "President of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "president-of-india",
+            "title": "President of India",
+            "notes": "<p>Content for President of India is being generated...</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "defence": {
+    "title": "Defence",
+    "chapters": [
+      {
+        "id": "integrated-guided-missile-development-programme-igmdp",
+        "title": "Integrated Guided Missile Development Programme (IGMDP)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "integrated-guided-missile-development-programme-igmdp",
+            "title": "Integrated Guided Missile Development Programme (IGMDP)",
+            "notes": "<p>Content for Integrated Guided Missile Development Programme (IGMDP) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "dr-a-p-j-abdul-kalam-and-prithvi-missile",
+        "title": "Dr. A.P.J. Abdul Kalam and Prithvi Missile",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "dr-a-p-j-abdul-kalam-and-prithvi-missile",
+            "title": "Dr. A.P.J. Abdul Kalam and Prithvi Missile",
+            "notes": "<p>Content for Dr. A.P.J. Abdul Kalam and Prithvi Missile is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "important-defence-exercises",
+        "title": "Important Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "important-defence-exercises",
+            "title": "Important Defence Exercises",
+            "notes": "<p>Content for Important Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "important-defence-exercises-3",
+        "title": "Important Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "important-defence-exercises-3",
+            "title": "Important Defence Exercises",
+            "notes": "<p>Content for Important Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-5",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-5",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-6",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-6",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-7",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-7",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-8",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-8",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-9",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-9",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-10",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-10",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-11",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-11",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-12",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-12",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-13",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-13",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-14",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-14",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-15",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-15",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-16",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-16",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-17",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-17",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-18",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-18",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-19",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-19",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-20",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-20",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-21",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-21",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "international-defence-exercises-22",
+        "title": "International Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "international-defence-exercises-22",
+            "title": "International Defence Exercises",
+            "notes": "<p>Content for International Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "domestic-defence-exercises",
+        "title": "Domestic Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "domestic-defence-exercises",
+            "title": "Domestic Defence Exercises",
+            "notes": "<p>Content for Domestic Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "domestic-defence-exercises-24",
+        "title": "Domestic Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "domestic-defence-exercises-24",
+            "title": "Domestic Defence Exercises",
+            "notes": "<p>Content for Domestic Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "domestic-defence-exercises-25",
+        "title": "Domestic Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "domestic-defence-exercises-25",
+            "title": "Domestic Defence Exercises",
+            "notes": "<p>Content for Domestic Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "domestic-defence-exercises-26",
+        "title": "Domestic Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "domestic-defence-exercises-26",
+            "title": "Domestic Defence Exercises",
+            "notes": "<p>Content for Domestic Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "domestic-defence-exercises-27",
+        "title": "Domestic Defence Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "domestic-defence-exercises-27",
+            "title": "Domestic Defence Exercises",
+            "notes": "<p>Content for Domestic Defence Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "afcat-exam-overview",
+        "title": "AFCAT Exam Overview",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "afcat-exam-overview",
+            "title": "AFCAT Exam Overview",
+            "notes": "<p>Content for AFCAT Exam Overview is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cruise-missiles-vs-ballistic-missiles",
+        "title": "Cruise Missiles vs Ballistic Missiles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cruise-missiles-vs-ballistic-missiles",
+            "title": "Cruise Missiles vs Ballistic Missiles",
+            "notes": "<p>Content for Cruise Missiles vs Ballistic Missiles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2021-ii",
+        "title": "CDS Solved Paper 2021 II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2021-ii",
+            "title": "CDS Solved Paper 2021 II",
+            "notes": "<p>Content for CDS Solved Paper 2021 II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2021-i",
+        "title": "CDS Solved Paper 2021 I",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2021-i",
+            "title": "CDS Solved Paper 2021 I",
+            "notes": "<p>Content for CDS Solved Paper 2021 I is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2020-ii",
+        "title": "CDS Solved Paper 2020 II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2020-ii",
+            "title": "CDS Solved Paper 2020 II",
+            "notes": "<p>Content for CDS Solved Paper 2020 II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2020-i",
+        "title": "CDS Solved Paper 2020 I",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2020-i",
+            "title": "CDS Solved Paper 2020 I",
+            "notes": "<p>Content for CDS Solved Paper 2020 I is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2019-ii",
+        "title": "CDS Solved Paper 2019 II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2019-ii",
+            "title": "CDS Solved Paper 2019 II",
+            "notes": "<p>Content for CDS Solved Paper 2019 II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2019-i",
+        "title": "CDS Solved Paper 2019 I",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2019-i",
+            "title": "CDS Solved Paper 2019 I",
+            "notes": "<p>Content for CDS Solved Paper 2019 I is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cds-solved-paper-2018-ii",
+        "title": "CDS Solved Paper 2018 II",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cds-solved-paper-2018-ii",
+            "title": "CDS Solved Paper 2018 II",
+            "notes": "<p>Content for CDS Solved Paper 2018 II is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cruise-missiles",
+        "title": "Cruise Missiles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cruise-missiles",
+            "title": "Cruise Missiles",
+            "notes": "<p>Content for Cruise Missiles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "bilateral-and-multilateral-exercises",
+        "title": "Bilateral and Multilateral Exercises",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "bilateral-and-multilateral-exercises",
+            "title": "Bilateral and Multilateral Exercises",
+            "notes": "<p>Content for Bilateral and Multilateral Exercises is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "bilateral-exercises-by-country",
+        "title": "Bilateral Exercises by Country",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "bilateral-exercises-by-country",
+            "title": "Bilateral Exercises by Country",
+            "notes": "<p>Content for Bilateral Exercises by Country is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "eligibility-criteria",
+        "title": "Eligibility Criteria",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "eligibility-criteria",
+            "title": "Eligibility Criteria",
+            "notes": "<p>Content for Eligibility Criteria is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "about-the-examination",
+        "title": "About the Examination",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "about-the-examination",
+            "title": "About the Examination",
+            "notes": "<p>Content for About the Examination is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "nationality-eligibility",
+        "title": "Nationality Eligibility",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "nationality-eligibility",
+            "title": "Nationality Eligibility",
+            "notes": "<p>Content for Nationality Eligibility is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "age-limit-sex-and-marital-status-eligibility",
+        "title": "Age Limit, Sex and Marital Status Eligibility",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "age-limit-sex-and-marital-status-eligibility",
+            "title": "Age Limit, Sex and Marital Status Eligibility",
+            "notes": "<p>Content for Age Limit, Sex and Marital Status Eligibility is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "educational-qualification",
+        "title": "Educational Qualification",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "educational-qualification",
+            "title": "Educational Qualification",
+            "notes": "<p>Content for Educational Qualification is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "examination-pattern-and-ssb-procedure",
+        "title": "Examination Pattern and SSB Procedure",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "examination-pattern-and-ssb-procedure",
+            "title": "Examination Pattern and SSB Procedure",
+            "notes": "<p>Content for Examination Pattern and SSB Procedure is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "cruise-missiles-46",
+        "title": "Cruise Missiles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "cruise-missiles-46",
+            "title": "Cruise Missiles",
+            "notes": "<p>Content for Cruise Missiles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "bilateral-exercises-of-india",
+        "title": "Bilateral Exercises of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "bilateral-exercises-of-india",
+            "title": "Bilateral Exercises of India",
+            "notes": "<p>Content for Bilateral Exercises of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "multilateral-exercises-part-1",
+        "title": "Multilateral Exercises (Part 1)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "multilateral-exercises-part-1",
+            "title": "Multilateral Exercises (Part 1)",
+            "notes": "<p>Content for Multilateral Exercises (Part 1) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "multilateral-exercises-part-2",
+        "title": "Multilateral Exercises (Part 2)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "multilateral-exercises-part-2",
+            "title": "Multilateral Exercises (Part 2)",
+            "notes": "<p>Content for Multilateral Exercises (Part 2) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "types-of-gallantry-awards",
+        "title": "Types of Gallantry Awards",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "types-of-gallantry-awards",
+            "title": "Types of Gallantry Awards",
+            "notes": "<p>Content for Types of Gallantry Awards is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "technical-branches",
+        "title": "Technical Branches",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "technical-branches",
+            "title": "Technical Branches",
+            "notes": "<p>Content for Technical Branches is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ground-duty-non-technical",
+        "title": "Ground Duty (Non-Technical)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ground-duty-non-technical",
+            "title": "Ground Duty (Non-Technical)",
+            "notes": "<p>Content for Ground Duty (Non-Technical) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "type-of-commission",
+        "title": "Type of Commission",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "type-of-commission",
+            "title": "Type of Commission",
+            "notes": "<p>Content for Type of Commission is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "training",
+        "title": "Training",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "training",
+            "title": "Training",
+            "notes": "<p>Content for Training is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ballistic-missiles",
+        "title": "Ballistic Missiles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ballistic-missiles",
+            "title": "Ballistic Missiles",
+            "notes": "<p>Content for Ballistic Missiles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "param-vir-chakra",
+        "title": "Param Vir Chakra",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "param-vir-chakra",
+            "title": "Param Vir Chakra",
+            "notes": "<p>Content for Param Vir Chakra is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "iaf-offers-and-pay-structure",
+        "title": "IAF Offers and Pay Structure",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "iaf-offers-and-pay-structure",
+            "title": "IAF Offers and Pay Structure",
+            "notes": "<p>Content for IAF Offers and Pay Structure is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "selection-criteria",
+        "title": "Selection Criteria",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "selection-criteria",
+            "title": "Selection Criteria",
+            "notes": "<p>Content for Selection Criteria is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "stage-ii-testing",
+        "title": "Stage II Testing",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "stage-ii-testing",
+            "title": "Stage II Testing",
+            "notes": "<p>Content for Stage II Testing is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "olq-testing-schedule",
+        "title": "OLQ Testing Schedule",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "olq-testing-schedule",
+            "title": "OLQ Testing Schedule",
+            "notes": "<p>Content for OLQ Testing Schedule is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "pilot-aptitude-battery-test-pabt",
+        "title": "Pilot Aptitude Battery Test (PABT)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "pilot-aptitude-battery-test-pabt",
+            "title": "Pilot Aptitude Battery Test (PABT)",
+            "notes": "<p>Content for Pilot Aptitude Battery Test (PABT) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "conference-and-recommendation",
+        "title": "Conference and Recommendation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "conference-and-recommendation",
+            "title": "Conference and Recommendation",
+            "notes": "<p>Content for Conference and Recommendation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "medical-examination",
+        "title": "Medical Examination",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "medical-examination",
+            "title": "Medical Examination",
+            "notes": "<p>Content for Medical Examination is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "merit-list",
+        "title": "Merit List",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "merit-list",
+            "title": "Merit List",
+            "notes": "<p>Content for Merit List is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "subsonic-missiles",
+        "title": "Subsonic Missiles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "subsonic-missiles",
+            "title": "Subsonic Missiles",
+            "notes": "<p>Content for Subsonic Missiles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indian-armed-forces-operations",
+        "title": "Indian Armed Forces Operations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indian-armed-forces-operations",
+            "title": "Indian Armed Forces Operations",
+            "notes": "<p>Content for Indian Armed Forces Operations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "maha-vir-chakra",
+        "title": "Maha Vir Chakra",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "maha-vir-chakra",
+            "title": "Maha Vir Chakra",
+            "notes": "<p>Content for Maha Vir Chakra is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "vir-chakra",
+        "title": "Vir Chakra",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "vir-chakra",
+            "title": "Vir Chakra",
+            "notes": "<p>Content for Vir Chakra is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "supersonic-missiles",
+        "title": "Supersonic Missiles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "supersonic-missiles",
+            "title": "Supersonic Missiles",
+            "notes": "<p>Content for Supersonic Missiles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "evacuation-operations",
+        "title": "Evacuation Operations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "evacuation-operations",
+            "title": "Evacuation Operations",
+            "notes": "<p>Content for Evacuation Operations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "humanitarian-assistance",
+        "title": "Humanitarian Assistance",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "humanitarian-assistance",
+            "title": "Humanitarian Assistance",
+            "notes": "<p>Content for Humanitarian Assistance is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "evacuation-operations-72",
+        "title": "Evacuation Operations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "evacuation-operations-72",
+            "title": "Evacuation Operations",
+            "notes": "<p>Content for Evacuation Operations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "retaliatory-operations",
+        "title": "Retaliatory Operations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "retaliatory-operations",
+            "title": "Retaliatory Operations",
+            "notes": "<p>Content for Retaliatory Operations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "evacuation-operations-74",
+        "title": "Evacuation Operations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "evacuation-operations-74",
+            "title": "Evacuation Operations",
+            "notes": "<p>Content for Evacuation Operations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "evacuation-operations-75",
+        "title": "Evacuation Operations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "evacuation-operations-75",
+            "title": "Evacuation Operations",
+            "notes": "<p>Content for Evacuation Operations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "evacuation-operations-76",
+        "title": "Evacuation Operations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "evacuation-operations-76",
+            "title": "Evacuation Operations",
+            "notes": "<p>Content for Evacuation Operations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "offensive-operations",
+        "title": "Offensive Operations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "offensive-operations",
+            "title": "Offensive Operations",
+            "notes": "<p>Content for Offensive Operations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "hypersonic-missiles",
+        "title": "Hypersonic Missiles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "hypersonic-missiles",
+            "title": "Hypersonic Missiles",
+            "notes": "<p>Content for Hypersonic Missiles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "operation-brahma",
+        "title": "Operation Brahma",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "operation-brahma",
+            "title": "Operation Brahma",
+            "notes": "<p>Content for Operation Brahma is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "operation-mahadev",
+        "title": "Operation Mahadev",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "operation-mahadev",
+            "title": "Operation Mahadev",
+            "notes": "<p>Content for Operation Mahadev is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "operation-sagar-bandhu",
+        "title": "Operation Sagar Bandhu",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "operation-sagar-bandhu",
+            "title": "Operation Sagar Bandhu",
+            "notes": "<p>Content for Operation Sagar Bandhu is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "operation-polo",
+        "title": "Operation Polo",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "operation-polo",
+            "title": "Operation Polo",
+            "notes": "<p>Content for Operation Polo is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "operation-vijay",
+        "title": "Operation Vijay",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "operation-vijay",
+            "title": "Operation Vijay",
+            "notes": "<p>Content for Operation Vijay is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "operation-cactus-lily",
+        "title": "Operation Cactus Lily",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "operation-cactus-lily",
+            "title": "Operation Cactus Lily",
+            "notes": "<p>Content for Operation Cactus Lily is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "operation-trident",
+        "title": "Operation Trident",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "operation-trident",
+            "title": "Operation Trident",
+            "notes": "<p>Content for Operation Trident is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "operation-meghdoot",
+        "title": "Operation Meghdoot",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "operation-meghdoot",
+            "title": "Operation Meghdoot",
+            "notes": "<p>Content for Operation Meghdoot is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "gallantry-awards",
+        "title": "Gallantry Awards",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "gallantry-awards",
+            "title": "Gallantry Awards",
+            "notes": "<p>Content for Gallantry Awards is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "gallantry-awards-88",
+        "title": "Gallantry Awards",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "gallantry-awards-88",
+            "title": "Gallantry Awards",
+            "notes": "<p>Content for Gallantry Awards is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "trend-analysis-2016-2020",
+        "title": "Trend Analysis (2016-2020)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "trend-analysis-2016-2020",
+            "title": "Trend Analysis (2016-2020)",
+            "notes": "<p>Content for Trend Analysis (2016-2020) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "surface-to-air-missiles",
+        "title": "Surface to Air Missiles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "surface-to-air-missiles",
+            "title": "Surface to Air Missiles",
+            "notes": "<p>Content for Surface to Air Missiles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "shaurya-chakra",
+        "title": "Shaurya Chakra",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "shaurya-chakra",
+            "title": "Shaurya Chakra",
+            "notes": "<p>Content for Shaurya Chakra is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "surface-to-air-missiles-92",
+        "title": "Surface to Air Missiles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "surface-to-air-missiles-92",
+            "title": "Surface to Air Missiles",
+            "notes": "<p>Content for Surface to Air Missiles is being generated...</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "mathematics": {
+    "title": "Mathematics",
+    "chapters": [
+      {
+        "id": "question-distribution-by-chapter-2014-2016",
+        "title": "Question Distribution by Chapter (2014-2016)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "question-distribution-by-chapter-2014-2016",
+            "title": "Question Distribution by Chapter (2014-2016)",
+            "notes": "<p>Content for Question Distribution by Chapter (2014-2016) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "types-of-numbers",
+        "title": "Types of Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "types-of-numbers",
+            "title": "Types of Numbers",
+            "notes": "<p>Content for Types of Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coprime-numbers",
+        "title": "Coprime Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coprime-numbers",
+            "title": "Coprime Numbers",
+            "notes": "<p>Content for Coprime Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "composite-numbers",
+        "title": "Composite Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "composite-numbers",
+            "title": "Composite Numbers",
+            "notes": "<p>Content for Composite Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "integers",
+        "title": "Integers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "integers",
+            "title": "Integers",
+            "notes": "<p>Content for Integers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "types-of-integers",
+        "title": "Types of Integers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "types-of-integers",
+            "title": "Types of Integers",
+            "notes": "<p>Content for Types of Integers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rational-numbers",
+        "title": "Rational Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rational-numbers",
+            "title": "Rational Numbers",
+            "notes": "<p>Content for Rational Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "irrational-numbers",
+        "title": "Irrational Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "irrational-numbers",
+            "title": "Irrational Numbers",
+            "notes": "<p>Content for Irrational Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "properties-of-rational-and-irrational-numbers",
+        "title": "Properties of Rational and Irrational Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "properties-of-rational-and-irrational-numbers",
+            "title": "Properties of Rational and Irrational Numbers",
+            "notes": "<p>Content for Properties of Rational and Irrational Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rational-numbers-9",
+        "title": "Rational Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rational-numbers-9",
+            "title": "Rational Numbers",
+            "notes": "<p>Content for Rational Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "mathematics-section-overview",
+        "title": "Mathematics Section Overview",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "mathematics-section-overview",
+            "title": "Mathematics Section Overview",
+            "notes": "<p>Content for Mathematics Section Overview is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "number-system",
+        "title": "Number System",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "number-system",
+            "title": "Number System",
+            "notes": "<p>Content for Number System is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sequence-and-series",
+        "title": "Sequence and Series",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sequence-and-series",
+            "title": "Sequence and Series",
+            "notes": "<p>Content for Sequence and Series is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "hcf-and-lcm-of-numbers",
+        "title": "HCF and LCM of Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "hcf-and-lcm-of-numbers",
+            "title": "HCF and LCM of Numbers",
+            "notes": "<p>Content for HCF and LCM of Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "decimal-fractions",
+        "title": "Decimal Fractions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "decimal-fractions",
+            "title": "Decimal Fractions",
+            "notes": "<p>Content for Decimal Fractions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "square-roots-and-cube-roots",
+        "title": "Square Roots and Cube Roots",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "square-roots-and-cube-roots",
+            "title": "Square Roots and Cube Roots",
+            "notes": "<p>Content for Square Roots and Cube Roots is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "time-and-distance",
+        "title": "Time and Distance",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "time-and-distance",
+            "title": "Time and Distance",
+            "notes": "<p>Content for Time and Distance is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "time-and-work",
+        "title": "Time and Work",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "time-and-work",
+            "title": "Time and Work",
+            "notes": "<p>Content for Time and Work is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "percentage",
+        "title": "Percentage",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "percentage",
+            "title": "Percentage",
+            "notes": "<p>Content for Percentage is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "simple-interest",
+        "title": "Simple Interest",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "simple-interest",
+            "title": "Simple Interest",
+            "notes": "<p>Content for Simple Interest is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "compound-interest",
+        "title": "Compound Interest",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "compound-interest",
+            "title": "Compound Interest",
+            "notes": "<p>Content for Compound Interest is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "profit-and-loss",
+        "title": "Profit and Loss",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "profit-and-loss",
+            "title": "Profit and Loss",
+            "notes": "<p>Content for Profit and Loss is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ratio-and-proportion",
+        "title": "Ratio and Proportion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ratio-and-proportion",
+            "title": "Ratio and Proportion",
+            "notes": "<p>Content for Ratio and Proportion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "logarithm",
+        "title": "Logarithm",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "logarithm",
+            "title": "Logarithm",
+            "notes": "<p>Content for Logarithm is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "algebraic-operations",
+        "title": "Algebraic Operations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "algebraic-operations",
+            "title": "Algebraic Operations",
+            "notes": "<p>Content for Algebraic Operations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "hcf-and-lcm-of-polynomials",
+        "title": "HCF and LCM of Polynomials",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "hcf-and-lcm-of-polynomials",
+            "title": "HCF and LCM of Polynomials",
+            "notes": "<p>Content for HCF and LCM of Polynomials is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rational-expressions",
+        "title": "Rational Expressions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rational-expressions",
+            "title": "Rational Expressions",
+            "notes": "<p>Content for Rational Expressions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "linear-equations",
+        "title": "Linear Equations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "linear-equations",
+            "title": "Linear Equations",
+            "notes": "<p>Content for Linear Equations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "quadratic-equations-and-inequalities",
+        "title": "Quadratic Equations and Inequalities",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "quadratic-equations-and-inequalities",
+            "title": "Quadratic Equations and Inequalities",
+            "notes": "<p>Content for Quadratic Equations and Inequalities is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "set-theory",
+        "title": "Set Theory",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "set-theory",
+            "title": "Set Theory",
+            "notes": "<p>Content for Set Theory is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "measurements-of-angles-and-trigonometric-ratios",
+        "title": "Measurements of Angles and Trigonometric Ratios",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "measurements-of-angles-and-trigonometric-ratios",
+            "title": "Measurements of Angles and Trigonometric Ratios",
+            "notes": "<p>Content for Measurements of Angles and Trigonometric Ratios is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "height-and-distance",
+        "title": "Height and Distance",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "height-and-distance",
+            "title": "Height and Distance",
+            "notes": "<p>Content for Height and Distance is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "lines-and-angles",
+        "title": "Lines and Angles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "lines-and-angles",
+            "title": "Lines and Angles",
+            "notes": "<p>Content for Lines and Angles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "triangles",
+        "title": "Triangles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "triangles",
+            "title": "Triangles",
+            "notes": "<p>Content for Triangles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "quadrilateral-and-polygon",
+        "title": "Quadrilateral and Polygon",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "quadrilateral-and-polygon",
+            "title": "Quadrilateral and Polygon",
+            "notes": "<p>Content for Quadrilateral and Polygon is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "circle",
+        "title": "Circle",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "circle",
+            "title": "Circle",
+            "notes": "<p>Content for Circle is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "area-and-perimeter-of-plane-figures",
+        "title": "Area and Perimeter of Plane figures",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "area-and-perimeter-of-plane-figures",
+            "title": "Area and Perimeter of Plane figures",
+            "notes": "<p>Content for Area and Perimeter of Plane figures is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "surface-area-and-volume-of-solids",
+        "title": "Surface Area and Volume of solids",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "surface-area-and-volume-of-solids",
+            "title": "Surface Area and Volume of solids",
+            "notes": "<p>Content for Surface Area and Volume of solids is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "statistics",
+        "title": "Statistics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "statistics",
+            "title": "Statistics",
+            "notes": "<p>Content for Statistics is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "mathematics-section",
+        "title": "Mathematics Section",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "mathematics-section",
+            "title": "Mathematics Section",
+            "notes": "<p>Content for Mathematics Section is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "number-system-40",
+        "title": "Number System",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "number-system-40",
+            "title": "Number System",
+            "notes": "<p>Content for Number System is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sequence-and-series-41",
+        "title": "Sequence and Series",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sequence-and-series-41",
+            "title": "Sequence and Series",
+            "notes": "<p>Content for Sequence and Series is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "hcf-and-lcm-of-numbers-42",
+        "title": "HCF and LCM of Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "hcf-and-lcm-of-numbers-42",
+            "title": "HCF and LCM of Numbers",
+            "notes": "<p>Content for HCF and LCM of Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "decimal-fractions-43",
+        "title": "Decimal Fractions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "decimal-fractions-43",
+            "title": "Decimal Fractions",
+            "notes": "<p>Content for Decimal Fractions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "square-roots-and-cube-roots-44",
+        "title": "Square Roots and Cube Roots",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "square-roots-and-cube-roots-44",
+            "title": "Square Roots and Cube Roots",
+            "notes": "<p>Content for Square Roots and Cube Roots is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "time-and-distance-45",
+        "title": "Time and Distance",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "time-and-distance-45",
+            "title": "Time and Distance",
+            "notes": "<p>Content for Time and Distance is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "time-and-work-46",
+        "title": "Time and Work",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "time-and-work-46",
+            "title": "Time and Work",
+            "notes": "<p>Content for Time and Work is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "percentage-47",
+        "title": "Percentage",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "percentage-47",
+            "title": "Percentage",
+            "notes": "<p>Content for Percentage is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "simple-interest-48",
+        "title": "Simple Interest",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "simple-interest-48",
+            "title": "Simple Interest",
+            "notes": "<p>Content for Simple Interest is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "compound-interest-49",
+        "title": "Compound Interest",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "compound-interest-49",
+            "title": "Compound Interest",
+            "notes": "<p>Content for Compound Interest is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "profit-and-loss-50",
+        "title": "Profit and Loss",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "profit-and-loss-50",
+            "title": "Profit and Loss",
+            "notes": "<p>Content for Profit and Loss is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ratio-and-proportion-51",
+        "title": "Ratio and Proportion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ratio-and-proportion-51",
+            "title": "Ratio and Proportion",
+            "notes": "<p>Content for Ratio and Proportion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "logarithm-52",
+        "title": "Logarithm",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "logarithm-52",
+            "title": "Logarithm",
+            "notes": "<p>Content for Logarithm is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "algebraic-operations-53",
+        "title": "Algebraic Operations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "algebraic-operations-53",
+            "title": "Algebraic Operations",
+            "notes": "<p>Content for Algebraic Operations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "hcf-and-lcm-of-polynomials-54",
+        "title": "HCF and LCM of Polynomials",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "hcf-and-lcm-of-polynomials-54",
+            "title": "HCF and LCM of Polynomials",
+            "notes": "<p>Content for HCF and LCM of Polynomials is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rational-expressions-55",
+        "title": "Rational Expressions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rational-expressions-55",
+            "title": "Rational Expressions",
+            "notes": "<p>Content for Rational Expressions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "linear-equations-56",
+        "title": "Linear Equations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "linear-equations-56",
+            "title": "Linear Equations",
+            "notes": "<p>Content for Linear Equations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "quadratic-equations-and-inequalities-57",
+        "title": "Quadratic Equations and Inequalities",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "quadratic-equations-and-inequalities-57",
+            "title": "Quadratic Equations and Inequalities",
+            "notes": "<p>Content for Quadratic Equations and Inequalities is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "set-theory-58",
+        "title": "Set Theory",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "set-theory-58",
+            "title": "Set Theory",
+            "notes": "<p>Content for Set Theory is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "measurements-of-angles-and-trigonometric-ratios-59",
+        "title": "Measurements of Angles and Trigonometric Ratios",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "measurements-of-angles-and-trigonometric-ratios-59",
+            "title": "Measurements of Angles and Trigonometric Ratios",
+            "notes": "<p>Content for Measurements of Angles and Trigonometric Ratios is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "height-and-distance-60",
+        "title": "Height and Distance",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "height-and-distance-60",
+            "title": "Height and Distance",
+            "notes": "<p>Content for Height and Distance is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "lines-and-angles-61",
+        "title": "Lines and Angles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "lines-and-angles-61",
+            "title": "Lines and Angles",
+            "notes": "<p>Content for Lines and Angles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "triangles-62",
+        "title": "Triangles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "triangles-62",
+            "title": "Triangles",
+            "notes": "<p>Content for Triangles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "quadrilateral-and-polygon-63",
+        "title": "Quadrilateral and Polygon",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "quadrilateral-and-polygon-63",
+            "title": "Quadrilateral and Polygon",
+            "notes": "<p>Content for Quadrilateral and Polygon is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "circle-64",
+        "title": "Circle",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "circle-64",
+            "title": "Circle",
+            "notes": "<p>Content for Circle is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "area-and-perimeter-of-plane-figures-65",
+        "title": "Area and Perimeter of Plane figures",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "area-and-perimeter-of-plane-figures-65",
+            "title": "Area and Perimeter of Plane figures",
+            "notes": "<p>Content for Area and Perimeter of Plane figures is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "surface-area-and-volume-of-solids-66",
+        "title": "Surface Area and Volume of solids",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "surface-area-and-volume-of-solids-66",
+            "title": "Surface Area and Volume of solids",
+            "notes": "<p>Content for Surface Area and Volume of solids is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "statistics-67",
+        "title": "Statistics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "statistics-67",
+            "title": "Statistics",
+            "notes": "<p>Content for Statistics is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "set-theory-68",
+        "title": "Set Theory",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "set-theory-68",
+            "title": "Set Theory",
+            "notes": "<p>Content for Set Theory is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "relations-and-functions",
+        "title": "Relations and Functions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "relations-and-functions",
+            "title": "Relations and Functions",
+            "notes": "<p>Content for Relations and Functions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "complex-numbers",
+        "title": "Complex Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "complex-numbers",
+            "title": "Complex Numbers",
+            "notes": "<p>Content for Complex Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "binary-numbers",
+        "title": "Binary Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "binary-numbers",
+            "title": "Binary Numbers",
+            "notes": "<p>Content for Binary Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sequences-and-series",
+        "title": "Sequences and Series",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sequences-and-series",
+            "title": "Sequences and Series",
+            "notes": "<p>Content for Sequences and Series is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "quadratic-equations-and-inequalities-73",
+        "title": "Quadratic Equations and Inequalities",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "quadratic-equations-and-inequalities-73",
+            "title": "Quadratic Equations and Inequalities",
+            "notes": "<p>Content for Quadratic Equations and Inequalities is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "permutations-and-combinations",
+        "title": "Permutations and Combinations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "permutations-and-combinations",
+            "title": "Permutations and Combinations",
+            "notes": "<p>Content for Permutations and Combinations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "binomial-theorem",
+        "title": "Binomial Theorem",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "binomial-theorem",
+            "title": "Binomial Theorem",
+            "notes": "<p>Content for Binomial Theorem is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "logarithm-76",
+        "title": "Logarithm",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "logarithm-76",
+            "title": "Logarithm",
+            "notes": "<p>Content for Logarithm is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "matrices",
+        "title": "Matrices",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "matrices",
+            "title": "Matrices",
+            "notes": "<p>Content for Matrices is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "determinants",
+        "title": "Determinants",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "determinants",
+            "title": "Determinants",
+            "notes": "<p>Content for Determinants is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "measurement-of-angles-and-trigonometric-ratios",
+        "title": "Measurement of Angles and Trigonometric Ratios",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "measurement-of-angles-and-trigonometric-ratios",
+            "title": "Measurement of Angles and Trigonometric Ratios",
+            "notes": "<p>Content for Measurement of Angles and Trigonometric Ratios is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "inverse-trigonometric-functions",
+        "title": "Inverse Trigonometric Functions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "inverse-trigonometric-functions",
+            "title": "Inverse Trigonometric Functions",
+            "notes": "<p>Content for Inverse Trigonometric Functions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "height-and-distance-81",
+        "title": "Height and Distance",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "height-and-distance-81",
+            "title": "Height and Distance",
+            "notes": "<p>Content for Height and Distance is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "properties-of-triangles",
+        "title": "Properties of Triangles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "properties-of-triangles",
+            "title": "Properties of Triangles",
+            "notes": "<p>Content for Properties of Triangles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "coordinate-system-and-straight-lines",
+        "title": "Coordinate System and Straight Lines",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "coordinate-system-and-straight-lines",
+            "title": "Coordinate System and Straight Lines",
+            "notes": "<p>Content for Coordinate System and Straight Lines is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "circle-84",
+        "title": "Circle",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "circle-84",
+            "title": "Circle",
+            "notes": "<p>Content for Circle is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "conic-section",
+        "title": "Conic Section",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "conic-section",
+            "title": "Conic Section",
+            "notes": "<p>Content for Conic Section is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "three-dimensional-geometry",
+        "title": "Three Dimensional Geometry",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "three-dimensional-geometry",
+            "title": "Three Dimensional Geometry",
+            "notes": "<p>Content for Three Dimensional Geometry is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "limits-continuity-and-differentiability",
+        "title": "Limits, Continuity and Differentiability",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "limits-continuity-and-differentiability",
+            "title": "Limits, Continuity and Differentiability",
+            "notes": "<p>Content for Limits, Continuity and Differentiability is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "differentiation",
+        "title": "Differentiation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "differentiation",
+            "title": "Differentiation",
+            "notes": "<p>Content for Differentiation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "application-of-derivatives",
+        "title": "Application of Derivatives",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "application-of-derivatives",
+            "title": "Application of Derivatives",
+            "notes": "<p>Content for Application of Derivatives is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "indefinite-integrals",
+        "title": "Indefinite Integrals",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "indefinite-integrals",
+            "title": "Indefinite Integrals",
+            "notes": "<p>Content for Indefinite Integrals is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "definite-integrals",
+        "title": "Definite Integrals",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "definite-integrals",
+            "title": "Definite Integrals",
+            "notes": "<p>Content for Definite Integrals is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "areas-bounded-by-regions",
+        "title": "Areas Bounded by Regions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "areas-bounded-by-regions",
+            "title": "Areas Bounded by Regions",
+            "notes": "<p>Content for Areas Bounded by Regions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "differential-equations",
+        "title": "Differential Equations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "differential-equations",
+            "title": "Differential Equations",
+            "notes": "<p>Content for Differential Equations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "vector-algebra",
+        "title": "Vector Algebra",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "vector-algebra",
+            "title": "Vector Algebra",
+            "notes": "<p>Content for Vector Algebra is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "statistics-95",
+        "title": "Statistics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "statistics-95",
+            "title": "Statistics",
+            "notes": "<p>Content for Statistics is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "probability",
+        "title": "Probability",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "probability",
+            "title": "Probability",
+            "notes": "<p>Content for Probability is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "miscellaneous",
+        "title": "Miscellaneous",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "miscellaneous",
+            "title": "Miscellaneous",
+            "notes": "<p>Content for Miscellaneous is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "number-system-98",
+        "title": "Number System",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "number-system-98",
+            "title": "Number System",
+            "notes": "<p>Content for Number System is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sequence-and-series-99",
+        "title": "Sequence and Series",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sequence-and-series-99",
+            "title": "Sequence and Series",
+            "notes": "<p>Content for Sequence and Series is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "hcf-and-lcm-of-numbers-100",
+        "title": "HCF and LCM of Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "hcf-and-lcm-of-numbers-100",
+            "title": "HCF and LCM of Numbers",
+            "notes": "<p>Content for HCF and LCM of Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "decimal-fractions-101",
+        "title": "Decimal Fractions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "decimal-fractions-101",
+            "title": "Decimal Fractions",
+            "notes": "<p>Content for Decimal Fractions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "square-roots-and-cube-roots-102",
+        "title": "Square Roots and Cube Roots",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "square-roots-and-cube-roots-102",
+            "title": "Square Roots and Cube Roots",
+            "notes": "<p>Content for Square Roots and Cube Roots is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "time-and-distance-103",
+        "title": "Time and Distance",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "time-and-distance-103",
+            "title": "Time and Distance",
+            "notes": "<p>Content for Time and Distance is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "time-and-work-104",
+        "title": "Time and Work",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "time-and-work-104",
+            "title": "Time and Work",
+            "notes": "<p>Content for Time and Work is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "percentage-105",
+        "title": "Percentage",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "percentage-105",
+            "title": "Percentage",
+            "notes": "<p>Content for Percentage is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "simple-interest-106",
+        "title": "Simple Interest",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "simple-interest-106",
+            "title": "Simple Interest",
+            "notes": "<p>Content for Simple Interest is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "compound-interest-107",
+        "title": "Compound Interest",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "compound-interest-107",
+            "title": "Compound Interest",
+            "notes": "<p>Content for Compound Interest is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "profit-and-loss-108",
+        "title": "Profit and Loss",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "profit-and-loss-108",
+            "title": "Profit and Loss",
+            "notes": "<p>Content for Profit and Loss is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ratio-and-proportion-109",
+        "title": "Ratio and Proportion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ratio-and-proportion-109",
+            "title": "Ratio and Proportion",
+            "notes": "<p>Content for Ratio and Proportion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "logarithm-110",
+        "title": "Logarithm",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "logarithm-110",
+            "title": "Logarithm",
+            "notes": "<p>Content for Logarithm is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "algebraic-operations-111",
+        "title": "Algebraic Operations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "algebraic-operations-111",
+            "title": "Algebraic Operations",
+            "notes": "<p>Content for Algebraic Operations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "hcf-and-lcm-of-polynomials-112",
+        "title": "HCF and LCM of Polynomials",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "hcf-and-lcm-of-polynomials-112",
+            "title": "HCF and LCM of Polynomials",
+            "notes": "<p>Content for HCF and LCM of Polynomials is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rational-expressions-113",
+        "title": "Rational Expressions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rational-expressions-113",
+            "title": "Rational Expressions",
+            "notes": "<p>Content for Rational Expressions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "linear-equations-114",
+        "title": "Linear Equations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "linear-equations-114",
+            "title": "Linear Equations",
+            "notes": "<p>Content for Linear Equations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "quadratic-equations-and-inequalities-115",
+        "title": "Quadratic Equations and Inequalities",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "quadratic-equations-and-inequalities-115",
+            "title": "Quadratic Equations and Inequalities",
+            "notes": "<p>Content for Quadratic Equations and Inequalities is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "set-theory-116",
+        "title": "Set Theory",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "set-theory-116",
+            "title": "Set Theory",
+            "notes": "<p>Content for Set Theory is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "measurements-of-angles-and-trigonometric-ratios-117",
+        "title": "Measurements of Angles and Trigonometric Ratios",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "measurements-of-angles-and-trigonometric-ratios-117",
+            "title": "Measurements of Angles and Trigonometric Ratios",
+            "notes": "<p>Content for Measurements of Angles and Trigonometric Ratios is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "height-and-distance-118",
+        "title": "Height and Distance",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "height-and-distance-118",
+            "title": "Height and Distance",
+            "notes": "<p>Content for Height and Distance is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "lines-and-angles-119",
+        "title": "Lines and Angles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "lines-and-angles-119",
+            "title": "Lines and Angles",
+            "notes": "<p>Content for Lines and Angles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "triangles-120",
+        "title": "Triangles",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "triangles-120",
+            "title": "Triangles",
+            "notes": "<p>Content for Triangles is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "quadrilateral-and-polygon-121",
+        "title": "Quadrilateral and Polygon",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "quadrilateral-and-polygon-121",
+            "title": "Quadrilateral and Polygon",
+            "notes": "<p>Content for Quadrilateral and Polygon is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "circle-122",
+        "title": "Circle",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "circle-122",
+            "title": "Circle",
+            "notes": "<p>Content for Circle is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "area-and-perimeter-of-plane-figures-123",
+        "title": "Area and Perimeter of Plane figures",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "area-and-perimeter-of-plane-figures-123",
+            "title": "Area and Perimeter of Plane figures",
+            "notes": "<p>Content for Area and Perimeter of Plane figures is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "surface-area-and-volume-of-solids-124",
+        "title": "Surface Area and Volume of solids",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "surface-area-and-volume-of-solids-124",
+            "title": "Surface Area and Volume of solids",
+            "notes": "<p>Content for Surface Area and Volume of solids is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "statistics-125",
+        "title": "Statistics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "statistics-125",
+            "title": "Statistics",
+            "notes": "<p>Content for Statistics is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "real-numbers",
+        "title": "Real Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "real-numbers",
+            "title": "Real Numbers",
+            "notes": "<p>Content for Real Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "properties-of-operations-on-real-numbers",
+        "title": "Properties of Operations on Real Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "properties-of-operations-on-real-numbers",
+            "title": "Properties of Operations on Real Numbers",
+            "notes": "<p>Content for Properties of Operations on Real Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "absolute-value-of-a-real-number",
+        "title": "Absolute Value of a Real Number",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "absolute-value-of-a-real-number",
+            "title": "Absolute Value of a Real Number",
+            "notes": "<p>Content for Absolute Value of a Real Number is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "properties-of-absolute-values",
+        "title": "Properties of Absolute Values",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "properties-of-absolute-values",
+            "title": "Properties of Absolute Values",
+            "notes": "<p>Content for Properties of Absolute Values is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "factors-and-multiples",
+        "title": "Factors and Multiples",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "factors-and-multiples",
+            "title": "Factors and Multiples",
+            "notes": "<p>Content for Factors and Multiples is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "quadratic-equations-roots-of-unity",
+        "title": "Quadratic Equations, Roots of Unity",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "quadratic-equations-roots-of-unity",
+            "title": "Quadratic Equations, Roots of Unity",
+            "notes": "<p>Content for Quadratic Equations, Roots of Unity is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "progressions-gp-ap-hp-logarithms",
+        "title": "Progressions (GP, AP, HP), Logarithms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "progressions-gp-ap-hp-logarithms",
+            "title": "Progressions (GP, AP, HP), Logarithms",
+            "notes": "<p>Content for Progressions (GP, AP, HP), Logarithms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "progressions-ap-logarithms-exponential-equations",
+        "title": "Progressions (AP), Logarithms, Exponential Equations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "progressions-ap-logarithms-exponential-equations",
+            "title": "Progressions (AP), Logarithms, Exponential Equations",
+            "notes": "<p>Content for Progressions (AP), Logarithms, Exponential Equations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "counting-principles-formation-of-numbers",
+        "title": "Counting Principles, Formation of Numbers",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "counting-principles-formation-of-numbers",
+            "title": "Counting Principles, Formation of Numbers",
+            "notes": "<p>Content for Counting Principles, Formation of Numbers is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "geometric-progression-gp-number-systems",
+        "title": "Geometric Progression (GP), Number Systems",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "geometric-progression-gp-number-systems",
+            "title": "Geometric Progression (GP), Number Systems",
+            "notes": "<p>Content for Geometric Progression (GP), Number Systems is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "quadratic-equations-nature-of-roots",
+        "title": "Quadratic Equations, Nature of Roots",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "quadratic-equations-nature-of-roots",
+            "title": "Quadratic Equations, Nature of Roots",
+            "notes": "<p>Content for Quadratic Equations, Nature of Roots is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "unit-s-place-digit",
+        "title": "Unit's Place Digit",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "unit-s-place-digit",
+            "title": "Unit's Place Digit",
+            "notes": "<p>Content for Unit's Place Digit is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "division-algorithm",
+        "title": "Division Algorithm",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "division-algorithm",
+            "title": "Division Algorithm",
+            "notes": "<p>Content for Division Algorithm is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "divisibility-test",
+        "title": "Divisibility Test",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "divisibility-test",
+            "title": "Divisibility Test",
+            "notes": "<p>Content for Divisibility Test is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "rhombus-area-and-diagonals",
+        "title": "Rhombus Area and Diagonals",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "rhombus-area-and-diagonals",
+            "title": "Rhombus Area and Diagonals",
+            "notes": "<p>Content for Rhombus Area and Diagonals is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "area-of-sector-and-clock-problems",
+        "title": "Area of Sector and Clock Problems",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "area-of-sector-and-clock-problems",
+            "title": "Area of Sector and Clock Problems",
+            "notes": "<p>Content for Area of Sector and Clock Problems is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "diagonal-of-a-cuboid",
+        "title": "Diagonal of a Cuboid",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "diagonal-of-a-cuboid",
+            "title": "Diagonal of a Cuboid",
+            "notes": "<p>Content for Diagonal of a Cuboid is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "paper-iii-arithmetic-unitary-method",
+        "title": "Paper III - Arithmetic & Unitary Method",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "paper-iii-arithmetic-unitary-method",
+            "title": "Paper III - Arithmetic & Unitary Method",
+            "notes": "<p>Content for Paper III - Arithmetic & Unitary Method is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "paper-iii-elementary-number-theory-algebra",
+        "title": "Paper III - Elementary Number Theory & Algebra",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "paper-iii-elementary-number-theory-algebra",
+            "title": "Paper III - Elementary Number Theory & Algebra",
+            "notes": "<p>Content for Paper III - Elementary Number Theory & Algebra is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "paper-iii-trigonometry-geometry",
+        "title": "Paper III - Trigonometry & Geometry",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "paper-iii-trigonometry-geometry",
+            "title": "Paper III - Trigonometry & Geometry",
+            "notes": "<p>Content for Paper III - Trigonometry & Geometry is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "paper-iii-mensuration-statistics",
+        "title": "Paper III - Mensuration & Statistics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "paper-iii-mensuration-statistics",
+            "title": "Paper III - Mensuration & Statistics",
+            "notes": "<p>Content for Paper III - Mensuration & Statistics is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "factorial-series-and-telescoping-sums",
+        "title": "Factorial Series and Telescoping Sums",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "factorial-series-and-telescoping-sums",
+            "title": "Factorial Series and Telescoping Sums",
+            "notes": "<p>Content for Factorial Series and Telescoping Sums is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "properties-of-determinants",
+        "title": "Properties of Determinants",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "properties-of-determinants",
+            "title": "Properties of Determinants",
+            "notes": "<p>Content for Properties of Determinants is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "powers-of-upper-triangular-matrices",
+        "title": "Powers of Upper Triangular Matrices",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "powers-of-upper-triangular-matrices",
+            "title": "Powers of Upper Triangular Matrices",
+            "notes": "<p>Content for Powers of Upper Triangular Matrices is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "clock-area-of-sector",
+        "title": "Clock - Area of sector",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "clock-area-of-sector",
+            "title": "Clock - Area of sector",
+            "notes": "<p>Content for Clock - Area of sector is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "diagonal-of-cuboid",
+        "title": "Diagonal of cuboid",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "diagonal-of-cuboid",
+            "title": "Diagonal of cuboid",
+            "notes": "<p>Content for Diagonal of cuboid is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "volume-of-hemisphere-and-cylinder",
+        "title": "Volume of hemisphere and cylinder",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "volume-of-hemisphere-and-cylinder",
+            "title": "Volume of hemisphere and cylinder",
+            "notes": "<p>Content for Volume of hemisphere and cylinder is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "volume-of-hollow-sphere",
+        "title": "Volume of hollow sphere",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "volume-of-hollow-sphere",
+            "title": "Volume of hollow sphere",
+            "notes": "<p>Content for Volume of hollow sphere is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "volume-of-cone-and-hemisphere",
+        "title": "Volume of cone and hemisphere",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "volume-of-cone-and-hemisphere",
+            "title": "Volume of cone and hemisphere",
+            "notes": "<p>Content for Volume of cone and hemisphere is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "surface-area-of-cone",
+        "title": "Surface Area of Cone",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "surface-area-of-cone",
+            "title": "Surface Area of Cone",
+            "notes": "<p>Content for Surface Area of Cone is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "volume-of-composite-solid",
+        "title": "Volume of Composite Solid",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "volume-of-composite-solid",
+            "title": "Volume of Composite Solid",
+            "notes": "<p>Content for Volume of Composite Solid is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "prime-factorization",
+        "title": "Prime Factorization",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "prime-factorization",
+            "title": "Prime Factorization",
+            "notes": "<p>Content for Prime Factorization is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "factor-theorem",
+        "title": "Factor Theorem",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "factor-theorem",
+            "title": "Factor Theorem",
+            "notes": "<p>Content for Factor Theorem is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "square-root-of-expression",
+        "title": "Square Root of Expression",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "square-root-of-expression",
+            "title": "Square Root of Expression",
+            "notes": "<p>Content for Square Root of Expression is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "remainder-theorem",
+        "title": "Remainder Theorem",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "remainder-theorem",
+            "title": "Remainder Theorem",
+            "notes": "<p>Content for Remainder Theorem is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "combination-of-solids-cone-hemisphere",
+        "title": "Combination of Solids (Cone + Hemisphere)",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "combination-of-solids-cone-hemisphere",
+            "title": "Combination of Solids (Cone + Hemisphere)",
+            "notes": "<p>Content for Combination of Solids (Cone + Hemisphere) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "surface-area-of-cuboid-formed-by-joining-cubes",
+        "title": "Surface Area of Cuboid formed by joining cubes",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "surface-area-of-cuboid-formed-by-joining-cubes",
+            "title": "Surface Area of Cuboid formed by joining cubes",
+            "notes": "<p>Content for Surface Area of Cuboid formed by joining cubes is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "total-surface-area-of-cube-with-hemisphere",
+        "title": "Total Surface Area of Cube with Hemisphere",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "total-surface-area-of-cube-with-hemisphere",
+            "title": "Total Surface Area of Cube with Hemisphere",
+            "notes": "<p>Content for Total Surface Area of Cube with Hemisphere is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "number-of-coins-to-form-a-cuboid",
+        "title": "Number of Coins to form a Cuboid",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "number-of-coins-to-form-a-cuboid",
+            "title": "Number of Coins to form a Cuboid",
+            "notes": "<p>Content for Number of Coins to form a Cuboid is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "slant-height-of-frustum-of-a-cone",
+        "title": "Slant Height of Frustum of a Cone",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "slant-height-of-frustum-of-a-cone",
+            "title": "Slant Height of Frustum of a Cone",
+            "notes": "<p>Content for Slant Height of Frustum of a Cone is being generated...</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "economics": {
+    "title": "Economics",
+    "chapters": [
+      {
+        "id": "introduction-to-economics",
+        "title": "Introduction To Economics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "introduction-to-economics",
+            "title": "Introduction To Economics",
+            "notes": "<p>Content for Introduction To Economics is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "economic-systems-sectors-of-the-economy",
+        "title": "Economic Systems & Sectors Of The Economy",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "economic-systems-sectors-of-the-economy",
+            "title": "Economic Systems & Sectors Of The Economy",
+            "notes": "<p>Content for Economic Systems & Sectors Of The Economy is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-new-economic-policy-1991-lpg-reforms",
+        "title": "The New Economic Policy 1991 ( LPG Reforms )",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-new-economic-policy-1991-lpg-reforms",
+            "title": "The New Economic Policy 1991 ( LPG Reforms )",
+            "notes": "<p>Content for The New Economic Policy 1991 ( LPG Reforms ) is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "inflation",
+        "title": "Inflation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "inflation",
+            "title": "Inflation",
+            "notes": "<p>Content for Inflation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "government-budget-taxation",
+        "title": "Government Budget & Taxation",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "government-budget-taxation",
+            "title": "Government Budget & Taxation",
+            "notes": "<p>Content for Government Budget & Taxation is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "index-number",
+        "title": "Index Number",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "index-number",
+            "title": "Index Number",
+            "notes": "<p>Content for Index Number is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-banking-system-in-india",
+        "title": "The Banking System In India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-banking-system-in-india",
+            "title": "The Banking System In India",
+            "notes": "<p>Content for The Banking System In India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "5-year-plans-in-india",
+        "title": "5 Year Plans In India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "5-year-plans-in-india",
+            "title": "5 Year Plans In India",
+            "notes": "<p>Content for 5 Year Plans In India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "demand-supply",
+        "title": "Demand & Supply",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "demand-supply",
+            "title": "Demand & Supply",
+            "notes": "<p>Content for Demand & Supply is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "market-structures",
+        "title": "Market Structures",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "market-structures",
+            "title": "Market Structures",
+            "notes": "<p>Content for Market Structures is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "money-money-supply",
+        "title": "Money & Money Supply",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "money-money-supply",
+            "title": "Money & Money Supply",
+            "notes": "<p>Content for Money & Money Supply is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "important-economic-curves",
+        "title": "Important Economic Curves",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "important-economic-curves",
+            "title": "Important Economic Curves",
+            "notes": "<p>Content for Important Economic Curves is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "national-income-accounting",
+        "title": "National Income Accounting",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "national-income-accounting",
+            "title": "National Income Accounting",
+            "notes": "<p>Content for National Income Accounting is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "the-census-of-india",
+        "title": "The Census Of India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "the-census-of-india",
+            "title": "The Census Of India",
+            "notes": "<p>Content for The Census Of India is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "theory-of-consumer-behaviour",
+        "title": "Theory Of Consumer Behaviour",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "theory-of-consumer-behaviour",
+            "title": "Theory Of Consumer Behaviour",
+            "notes": "<p>Content for Theory Of Consumer Behaviour is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "production-cost",
+        "title": "Production & Cost",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "production-cost",
+            "title": "Production & Cost",
+            "notes": "<p>Content for Production & Cost is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "open-economy-macroeconomics",
+        "title": "Open Economy Macroeconomics",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "open-economy-macroeconomics",
+            "title": "Open Economy Macroeconomics",
+            "notes": "<p>Content for Open Economy Macroeconomics is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "unemployment",
+        "title": "Unemployment",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "unemployment",
+            "title": "Unemployment",
+            "notes": "<p>Content for Unemployment is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "poverty-major-economic-committees-in-india",
+        "title": "Poverty & Major Economic Committees In India",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "poverty-major-economic-committees-in-india",
+            "title": "Poverty & Major Economic Committees In India",
+            "notes": "<p>Content for Poverty & Major Economic Committees In India is being generated...</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "current_affairs": {
+    "title": "Current Affairs",
+    "chapters": [
+      {
+        "id": "united-nations-dag-hammarskj-ld-medal",
+        "title": "United Nations Dag Hammarskj\u00f6ld Medal",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "united-nations-dag-hammarskj-ld-medal",
+            "title": "United Nations Dag Hammarskj\u00f6ld Medal",
+            "notes": "<p>Content for United Nations Dag Hammarskj\u00f6ld Medal is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "un-peacekeeping-operations",
+        "title": "UN Peacekeeping Operations",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "un-peacekeeping-operations",
+            "title": "UN Peacekeeping Operations",
+            "notes": "<p>Content for UN Peacekeeping Operations is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "awards-honours",
+        "title": "Awards & Honours",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "awards-honours",
+            "title": "Awards & Honours",
+            "notes": "<p>Content for Awards & Honours is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "united-nations-military-gender-advocate-award-women-in-defence",
+        "title": "United Nations Military Gender Advocate Award, Women in Defence",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "united-nations-military-gender-advocate-award-women-in-defence",
+            "title": "United Nations Military Gender Advocate Award, Women in Defence",
+            "notes": "<p>Content for United Nations Military Gender Advocate Award, Women in Defence is being generated...</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "english": {
+    "title": "English",
+    "chapters": [
+      {
+        "id": "general-english-section-overview",
+        "title": "General English Section Overview",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "general-english-section-overview",
+            "title": "General English Section Overview",
+            "notes": "<p>Content for General English Section Overview is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "spotting-the-errors",
+        "title": "Spotting the Errors",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "spotting-the-errors",
+            "title": "Spotting the Errors",
+            "notes": "<p>Content for Spotting the Errors is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "vocabulary",
+        "title": "Vocabulary",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "vocabulary",
+            "title": "Vocabulary",
+            "notes": "<p>Content for Vocabulary is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "synonyms",
+        "title": "Synonyms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "synonyms",
+            "title": "Synonyms",
+            "notes": "<p>Content for Synonyms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "antonyms",
+        "title": "Antonyms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "antonyms",
+            "title": "Antonyms",
+            "notes": "<p>Content for Antonyms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "idioms-and-phrases",
+        "title": "Idioms and Phrases",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "idioms-and-phrases",
+            "title": "Idioms and Phrases",
+            "notes": "<p>Content for Idioms and Phrases is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sentence-completion",
+        "title": "Sentence Completion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sentence-completion",
+            "title": "Sentence Completion",
+            "notes": "<p>Content for Sentence Completion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sentence-improvement",
+        "title": "Sentence Improvement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sentence-improvement",
+            "title": "Sentence Improvement",
+            "notes": "<p>Content for Sentence Improvement is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ordering-of-words-and-sentences",
+        "title": "Ordering of Words and Sentences",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ordering-of-words-and-sentences",
+            "title": "Ordering of Words and Sentences",
+            "notes": "<p>Content for Ordering of Words and Sentences is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "comprehension",
+        "title": "Comprehension",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "comprehension",
+            "title": "Comprehension",
+            "notes": "<p>Content for Comprehension is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "general-english-section",
+        "title": "General English Section",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "general-english-section",
+            "title": "General English Section",
+            "notes": "<p>Content for General English Section is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "spotting-the-errors-11",
+        "title": "Spotting the Errors",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "spotting-the-errors-11",
+            "title": "Spotting the Errors",
+            "notes": "<p>Content for Spotting the Errors is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "vocabulary-12",
+        "title": "Vocabulary",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "vocabulary-12",
+            "title": "Vocabulary",
+            "notes": "<p>Content for Vocabulary is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "synonyms-13",
+        "title": "Synonyms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "synonyms-13",
+            "title": "Synonyms",
+            "notes": "<p>Content for Synonyms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "antonyms-14",
+        "title": "Antonyms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "antonyms-14",
+            "title": "Antonyms",
+            "notes": "<p>Content for Antonyms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "idioms-and-phrases-15",
+        "title": "Idioms and Phrases",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "idioms-and-phrases-15",
+            "title": "Idioms and Phrases",
+            "notes": "<p>Content for Idioms and Phrases is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sentence-completion-16",
+        "title": "Sentence Completion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sentence-completion-16",
+            "title": "Sentence Completion",
+            "notes": "<p>Content for Sentence Completion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sentence-improvement-17",
+        "title": "Sentence Improvement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sentence-improvement-17",
+            "title": "Sentence Improvement",
+            "notes": "<p>Content for Sentence Improvement is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ordering-of-words-and-sentences-18",
+        "title": "Ordering of Words and Sentences",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ordering-of-words-and-sentences-18",
+            "title": "Ordering of Words and Sentences",
+            "notes": "<p>Content for Ordering of Words and Sentences is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "comprehension-19",
+        "title": "Comprehension",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "comprehension-19",
+            "title": "Comprehension",
+            "notes": "<p>Content for Comprehension is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "spotting-the-errors-20",
+        "title": "Spotting the Errors",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "spotting-the-errors-20",
+            "title": "Spotting the Errors",
+            "notes": "<p>Content for Spotting the Errors is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "vocabulary-21",
+        "title": "Vocabulary",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "vocabulary-21",
+            "title": "Vocabulary",
+            "notes": "<p>Content for Vocabulary is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "antonyms-22",
+        "title": "Antonyms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "antonyms-22",
+            "title": "Antonyms",
+            "notes": "<p>Content for Antonyms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "synonyms-23",
+        "title": "Synonyms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "synonyms-23",
+            "title": "Synonyms",
+            "notes": "<p>Content for Synonyms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sentence-improvement-24",
+        "title": "Sentence Improvement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sentence-improvement-24",
+            "title": "Sentence Improvement",
+            "notes": "<p>Content for Sentence Improvement is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sentence-completion-25",
+        "title": "Sentence Completion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sentence-completion-25",
+            "title": "Sentence Completion",
+            "notes": "<p>Content for Sentence Completion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "jumbled-sentences-and-paragraphs",
+        "title": "Jumbled Sentences and Paragraphs",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "jumbled-sentences-and-paragraphs",
+            "title": "Jumbled Sentences and Paragraphs",
+            "notes": "<p>Content for Jumbled Sentences and Paragraphs is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "comprehension-27",
+        "title": "Comprehension",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "comprehension-27",
+            "title": "Comprehension",
+            "notes": "<p>Content for Comprehension is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "spotting-the-errors-28",
+        "title": "Spotting the Errors",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "spotting-the-errors-28",
+            "title": "Spotting the Errors",
+            "notes": "<p>Content for Spotting the Errors is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "vocabulary-29",
+        "title": "Vocabulary",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "vocabulary-29",
+            "title": "Vocabulary",
+            "notes": "<p>Content for Vocabulary is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "synonyms-30",
+        "title": "Synonyms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "synonyms-30",
+            "title": "Synonyms",
+            "notes": "<p>Content for Synonyms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "antonyms-31",
+        "title": "Antonyms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "antonyms-31",
+            "title": "Antonyms",
+            "notes": "<p>Content for Antonyms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "idioms-and-phrases-32",
+        "title": "Idioms and Phrases",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "idioms-and-phrases-32",
+            "title": "Idioms and Phrases",
+            "notes": "<p>Content for Idioms and Phrases is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sentence-completion-33",
+        "title": "Sentence Completion",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sentence-completion-33",
+            "title": "Sentence Completion",
+            "notes": "<p>Content for Sentence Completion is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "sentence-improvement-34",
+        "title": "Sentence Improvement",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "sentence-improvement-34",
+            "title": "Sentence Improvement",
+            "notes": "<p>Content for Sentence Improvement is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ordering-of-words-and-sentences-35",
+        "title": "Ordering of Words and Sentences",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ordering-of-words-and-sentences-35",
+            "title": "Ordering of Words and Sentences",
+            "notes": "<p>Content for Ordering of Words and Sentences is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "comprehension-36",
+        "title": "Comprehension",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "comprehension-36",
+            "title": "Comprehension",
+            "notes": "<p>Content for Comprehension is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "confusing-words-homophones",
+        "title": "Confusing Words & Homophones",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "confusing-words-homophones",
+            "title": "Confusing Words & Homophones",
+            "notes": "<p>Content for Confusing Words & Homophones is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "confusing-words-homophones-38",
+        "title": "Confusing Words & Homophones",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "confusing-words-homophones-38",
+            "title": "Confusing Words & Homophones",
+            "notes": "<p>Content for Confusing Words & Homophones is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "confusing-words-homophones-39",
+        "title": "Confusing Words & Homophones",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "confusing-words-homophones-39",
+            "title": "Confusing Words & Homophones",
+            "notes": "<p>Content for Confusing Words & Homophones is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "confusing-words-homophones-40",
+        "title": "Confusing Words & Homophones",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "confusing-words-homophones-40",
+            "title": "Confusing Words & Homophones",
+            "notes": "<p>Content for Confusing Words & Homophones is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "idioms-and-phrases-41",
+        "title": "Idioms and Phrases",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "idioms-and-phrases-41",
+            "title": "Idioms and Phrases",
+            "notes": "<p>Content for Idioms and Phrases is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "ordering-of-words-in-a-sentence",
+        "title": "Ordering of Words in a Sentence",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "ordering-of-words-in-a-sentence",
+            "title": "Ordering of Words in a Sentence",
+            "notes": "<p>Content for Ordering of Words in a Sentence is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "paper-i-english-syllabus",
+        "title": "Paper I - English Syllabus",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "paper-i-english-syllabus",
+            "title": "Paper I - English Syllabus",
+            "notes": "<p>Content for Paper I - English Syllabus is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "one-word-substitutions",
+        "title": "One Word Substitutions",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "one-word-substitutions",
+            "title": "One Word Substitutions",
+            "notes": "<p>Content for One Word Substitutions is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "synonyms-and-antonyms",
+        "title": "Synonyms and Antonyms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "synonyms-and-antonyms",
+            "title": "Synonyms and Antonyms",
+            "notes": "<p>Content for Synonyms and Antonyms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "synonyms-and-antonyms-46",
+        "title": "Synonyms and Antonyms",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "synonyms-and-antonyms-46",
+            "title": "Synonyms and Antonyms",
+            "notes": "<p>Content for Synonyms and Antonyms is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "word-forms-and-meanings",
+        "title": "Word Forms and Meanings",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "word-forms-and-meanings",
+            "title": "Word Forms and Meanings",
+            "notes": "<p>Content for Word Forms and Meanings is being generated...</p>"
+          }
+        ]
+      },
+      {
+        "id": "high-frequency-words-confusing-pairs",
+        "title": "High-Frequency Words & Confusing Pairs",
+        "icon": "fa-solid fa-book-open",
+        "topics": [
+          {
+            "id": "high-frequency-words-confusing-pairs",
+            "title": "High-Frequency Words & Confusing Pairs",
+            "notes": "<p>Content for High-Frequency Words & Confusing Pairs is being generated...</p>"
           }
         ]
       }
     ]
   }
 };
-
 
 let CURRENT_AFFAIRS_DB = {};
 if (typeof CURRENT_AFFAIRS_LIVE !== 'undefined') { Object.assign(CURRENT_AFFAIRS_DB, CURRENT_AFFAIRS_LIVE); }

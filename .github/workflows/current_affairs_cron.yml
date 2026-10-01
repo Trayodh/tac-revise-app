@@ -22,6 +22,8 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
+        env:
+          YOUTUBE_DL_SKIP_DOWNLOAD: true
 
       - name: Run Current Affairs Updater
         run: node scripts/daily_ca_updater.js
