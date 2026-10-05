@@ -165,7 +165,7 @@ The notes must be:
 - Include mnemonics, key comparisons, and exam tips where relevant
 - Use <strong> for important terms, <span style='color: var(--warning);'> for dates/numbers
 - Wrap the whole output in <div class="revision-card">
-- Length: at least 600 words of actual content
+- Length: at least 1500 words of actual content. Go extremely deep into the details, historical context, scientific principles, and exceptions. Provide extensive, encyclopedic coverage.
 - Output ONLY the HTML string, no markdown code blocks"""
 
 def slugify(text):
@@ -174,9 +174,9 @@ def slugify(text):
     text = re.sub(r'[^a-z0-9]+', '-', text)
     return text.strip('-')
 
-def call_gemini(topic_text, chapter, subject):
+def call_gemini(topic_text, chapter, subject, context=""):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
-    prompt = f"Subject: {subject}\nChapter: {chapter}\nTopic: {topic_text}\n\nGenerate comprehensive revision notes in HTML."
+    prompt = f"Subject: {subject}\nChapter: {chapter}\nTopic: {topic_text}\n" + (f"\nIncorporate these extracted points directly:\n{context}\n" if context else "") + "\nGenerate comprehensive revision notes in HTML."
     data = {
         "contents": [{"parts": [{"text": prompt}]}],
         "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
@@ -191,10 +191,10 @@ def call_gemini(topic_text, chapter, subject):
         print(f"  Gemini error: {e}")
         return None
 
-def call_groq(topic_text, chapter, subject):
+def call_groq(topic_text, chapter, subject, context=""):
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"}
-    user_msg = f"Subject: {subject}\nChapter: {chapter}\nTopic: {topic_text}\n\nGenerate comprehensive revision notes in HTML."
+    user_msg = f"Subject: {subject}\nChapter: {chapter}\nTopic: {topic_text}\n" + (f"\nIncorporate these extracted points directly:\n{context}\n" if context else "") + "\nGenerate comprehensive revision notes in HTML."
     data = {
         "model": "openai/gpt-oss-120b",
         "messages": [
@@ -212,10 +212,10 @@ def call_groq(topic_text, chapter, subject):
         print(f"  Groq error: {e}")
         return None
 
-def call_cerebras(topic_text, chapter, subject):
+def call_cerebras(topic_text, chapter, subject, context=""):
     url = "https://api.cerebras.ai/v1/chat/completions"
     headers = {"Authorization": f"Bearer {CEREBRAS_KEY}", "Content-Type": "application/json"}
-    user_msg = f"Subject: {subject}\nChapter: {chapter}\nTopic: {topic_text}\n\nGenerate comprehensive revision notes in HTML."
+    user_msg = f"Subject: {subject}\nChapter: {chapter}\nTopic: {topic_text}\n" + (f"\nIncorporate these extracted points directly:\n{context}\n" if context else "") + "\nGenerate comprehensive revision notes in HTML."
     data = {
         "model": "gpt-oss-120b",
         "messages": [
@@ -233,12 +233,12 @@ def call_cerebras(topic_text, chapter, subject):
         print(f"  Cerebras error: {e}")
         return None
 
-def call_openrouter(topic_text, chapter, subject):
+def call_openrouter(topic_text, chapter, subject, context=""):
     if not OPENROUTER_KEY:
         return None
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {"Authorization": f"Bearer {OPENROUTER_KEY}", "Content-Type": "application/json"}
-    user_msg = f"Subject: {subject}\nChapter: {chapter}\nTopic: {topic_text}\n\nGenerate comprehensive revision notes in HTML."
+    user_msg = f"Subject: {subject}\nChapter: {chapter}\nTopic: {topic_text}\n" + (f"\nIncorporate these extracted points directly:\n{context}\n" if context else "") + "\nGenerate comprehensive revision notes in HTML."
     for model in OPENROUTER_FREE_MODELS:
         data = {
             "model": model,
@@ -267,7 +267,7 @@ def call_openrouter(topic_text, chapter, subject):
     return None
 
 
-def generate_notes(topic_text, chapter, subject):
+def generate_notes(topic_text, chapter, subject, context=""):
     """Try providers in order, return HTML string or None."""
     for fn, name in [(call_gemini, "Gemini"), (call_groq, "Groq"), (call_openrouter, "OpenRouter"), (call_cerebras, "Cerebras")]:
         print(f"  Trying {name}...")
@@ -289,6 +289,24 @@ def generate_notes(topic_text, chapter, subject):
     return None
 
 def main():
+    import json, re
+    extracted_db = []
+    try:
+        with open('notes_database.json', 'r', encoding='utf-8') as f:
+            extracted_db = json.load(f)
+        print(f"Loaded {len(extracted_db)} extracted points.")
+    except: pass
+    
+    def get_context(subject, topic):
+        keywords = [w.lower() for w in re.findall(r'\b[a-zA-Z]{4,}\b', topic)]
+        relevant = []
+        for note in extracted_db:
+            if note.get('subject') == subject:
+                text = note.get('text', '')
+                if any(kw in text.lower() or kw in note.get('chapter', '').lower() for kw in keywords):
+                    relevant.append(text[:800])
+        return '\n---\n'.join(relevant[:3]) if relevant else ""
+
     output_file = "notes_generated_targeted.js"
     progress_file = "targeted_notes_progress.json"
 
@@ -335,7 +353,8 @@ def main():
             done_count += 1
             print(f"\n[{done_count}/{total}] Generating: {subject} > {chapter} > {topic[:60]}")
             
-            html = generate_notes(topic, chapter, subject)
+            context = get_context(subject, topic)
+            html = generate_notes(topic, chapter, subject, context)
             
             if html:
                 # Escape backticks for JS template literal

@@ -46,6 +46,61 @@ window.CA_META = {
 // =============================================================================
 window.CA_VISITS_DATA = [
   {
+    visit: "Admiral Paparo's visit to India",
+    period: "October 2026",
+    purpose: "To enhance and expand existing defence cooperation between India and the visiting nation.",
+    deals: "This visit aims to strengthen strategic ties and operational interoperability, signifying ongoing high-level military engagements crucial for regional security dynamics. For UPSC, it highlights India's active defence diplomacy and its commitment to fostering robust international partnerships.",
+  },
+  {
+    visit: "Polish PM's upcoming visit to India",
+    period: "October 2026",
+    purpose: "To elevate bilateral relations with a primary focus on defence cooperation and strategic partnership.",
+    deals: "This high-level visit is expected to explore new avenues for defence procurement, joint ventures, and technology transfer, potentially diversifying India's defence sourcing. It also underscores India's expanding diplomatic outreach beyond traditional partners, aligning with its strategic autonomy goals.",
+  },
+  {
+    visit: "Inaugural India-Kuwait Joint Defence Committee Meeting",
+    period: "August 2026",
+    purpose: "To establish a formal mechanism for regular dialogue and cooperation on defence and security matters between India and Kuwait.",
+    deals: "This meeting signifies a new chapter in India's defence engagement with Gulf nations, focusing on maritime security, counter-terrorism, and training exchanges. For UPSC, it underscores India's strategic interest in the extended neighbourhood and its role as a net security provider in the Indian Ocean Region.",
+  },
+  {
+    visit: "PM Modi’s Visit to Indonesia",
+    period: "August 2026",
+    purpose: "To deepen defence cooperation and foster strategic convergence between India and Indonesia, key partners in the Indo-Pacific.",
+    deals: "The visit likely focused on enhancing maritime security cooperation, joint exercises, and potential defence equipment sales, aligning with India's Act East Policy. This strengthens India's strategic presence and influence in Southeast Asia, vital for regional stability and counterbalancing other powers.",
+  },
+  {
+    visit: "President Putin’s visit to India",
+    period: "September 2026",
+    purpose: "To reinforce the long-standing strategic partnership between India and Russia, particularly in advanced defence technology and military cooperation.",
+    deals: "This visit likely involved discussions on ongoing defence projects, new arms deals beyond the Su-57, and technology transfer, crucial for India's military modernization. It underscores Russia's continued importance as a primary defence partner for India, despite diversification efforts.",
+  },
+  {
+    visit: "India-Japan agreement on defence technology and maritime security",
+    period: "August 2026",
+    purpose: "To enhance bilateral defence technology collaboration and strengthen cooperation in maritime security, crucial for a free and open Indo-Pacific.",
+    deals: "This agreement signifies a major step towards joint research, development, and production of defence equipment, reducing India's reliance on foreign imports. The MoA on Maritime Security Cooperation boosts joint exercises and information sharing, reinforcing regional stability and counter-piracy efforts.",
+  },
+  {
+    visit: "Modi-UAE Defence Deal",
+    period: "May 2026",
+    purpose: "To forge a defence partnership with the UAE, aiming to enhance strategic ties and potentially expand India's defence export market.",
+    deals: "The deal represents India's efforts to diversify its defence partnerships and engage with West Asian nations for security cooperation. It could involve defence equipment sales, joint training, or technology exchanges, contributing to India's strategic footprint in the region.",
+  },
+  {
+    visit: "PM Modi's visit to UAE",
+    period: "May 2026",
+    purpose: "To significantly deepen India's defence and energy cooperation with the UAE, a key strategic partner in West Asia.",
+    deals: "This visit solidified existing defence ties through potential joint ventures, training, and equipment sales, while also securing energy interests vital for India's economic growth. For UPSC, it highlights India's multi-faceted foreign policy, balancing security, economic, and energy imperatives in a crucial geopolitical region.",
+  },
+  {
+    visit: "India-Armenia MoU during Defence Secretary's visit",
+    period: "August 2026",
+    purpose: "To enhance and formalize cooperation in the defence sector between India and Armenia.",
+    deals: "The signing of this MoU signifies India's expanding defence diplomacy and its willingness to engage with non-traditional partners for defence exports and strategic alignment. It could pave the way for defence equipment sales, training programs, and technology sharing, bolstering Armenia's defence capabilities and India's 'Make in India' defence initiative.",
+  },
+
+  {
     visit: "India-Armenia Defence Secretary Visit and MoU Signing",
     period: "August 2026",
     purpose: "To strengthen defence cooperation and explore new areas of partnership between India and Armenia.",
@@ -228,9 +283,14 @@ window.CA_AWARDS_DATA = [
     recipientCountry: "India",
     givingCountry: "India"
   },
-  {
+    {
     awardName: "Padma Bhushan 2026",
     categoryOfWork: "Art (Cinema)",
+    workName: "Cinema",
+    recipient: "Udit Narayan",
+    recipientCountry: "India",
+    givingCountry: "India"
+  }
 ];
 
 // =============================================================================
