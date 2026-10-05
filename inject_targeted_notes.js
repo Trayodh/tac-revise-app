@@ -1,10 +1,7 @@
 /**
  * inject_targeted_notes.js
- * Injects notes from EXPANDED_NOTES_DATA (notes_generated_targeted.js)
- * into the correct chapter in NOTES_DATABASE by matching topic slugs.
- * 
- * Topic ID format: ai-gen-<subject>-<slug>
- * These are mapped to the right chapter using keyword matching.
+ * Restructures NOTES_DATABASE so chapters are topics (1-to-1 mapping),
+ * and forcefully injects the massive AI-generated notes into them.
  */
 (function() {
     if (typeof EXPANDED_NOTES_DATA === 'undefined') {
@@ -16,11 +13,8 @@
         return;
     }
 
-    // Map from topic ID fragment → [subjectKey, chapterKeyword]
-    // subjectKey must match key in NOTES_DATABASE
-    // chapterKeyword is a word to find the right chapter by title
     const TOPIC_MAP = {
-        // History - Ancient India
+        // History - Ancient
         'indus-valley-civilization': ['history', 'indus'],
         'vedic-period': ['history', 'vedic'],
         'mahajanapadas': ['history', 'mahajanapada'],
@@ -30,14 +24,14 @@
         'gupta-empire': ['history', 'gupta'],
         'sangam-age': ['history', 'sangam'],
         'ancient-culture': ['history', 'ancient'],
-        // History - Medieval India
+        // History - Medieval
         'early-medieval-kingdoms': ['history', 'medieval'],
         'delhi-sultanate': ['history', 'delhi'],
         'vijayanagara-empire': ['history', 'vijayanagara'],
         'mughal-empire': ['history', 'mughal'],
         'marathas': ['history', 'maratha'],
         'bhakti-sufi': ['history', 'bhakti'],
-        // History - Modern India
+        // History - Modern
         'european-arrival': ['history', 'european'],
         'governor-generals': ['history', 'governor'],
         'revolt-of-1857': ['history', 'revolt'],
@@ -143,8 +137,32 @@
         'microorganisms': ['biology', 'microorganism'],
     };
 
+    // STEP 1: Restructure NOTES_DATABASE (1 Topic = 1 Chapter)
+    Object.keys(NOTES_DATABASE).forEach(subjectKey => {
+        const subjectObj = NOTES_DATABASE[subjectKey];
+        if (!subjectObj.chapters) return;
+
+        let newChapters = [];
+        subjectObj.chapters.forEach(ch => {
+            if (ch.topics && ch.topics.length > 0) {
+                ch.topics.forEach((t, i) => {
+                    newChapters.push({
+                        id: t.id || (ch.id + '-' + i),
+                        title: t.title,
+                        icon: ch.icon || "fa-solid fa-book-open",
+                        topics: [ t ] // exactly 1 topic
+                    });
+                });
+            } else {
+                newChapters.push(ch);
+            }
+        });
+        subjectObj.chapters = newChapters;
+    });
+
+    // STEP 2: Inject AI Notes and OVERWRITE old content
     let injected = 0;
-    let skipped = 0;
+    let newCreated = 0;
 
     Object.keys(EXPANDED_NOTES_DATA).forEach(topicId => {
         if (!topicId.startsWith('ai-gen-')) return;
@@ -152,10 +170,8 @@
         const html = EXPANDED_NOTES_DATA[topicId];
         if (!html || html.length < 200) return;
 
-        // Find which entry in TOPIC_MAP matches
         const slug = topicId.replace(/^ai-gen-[a-z]+-/, '');
 
-        // Find a TOPIC_MAP entry whose key is contained in slug
         let subjectKey = null, chapterKw = null;
         for (const [mapKey, [sk, ckw]] of Object.entries(TOPIC_MAP)) {
             if (slug.includes(mapKey) || mapKey.includes(slug.substring(0, 12))) {
@@ -166,58 +182,59 @@
         }
 
         if (!subjectKey) {
-            // Derive subject from topic ID prefix
             const subjectMatch = topicId.match(/^ai-gen-([a-z]+)-/);
             if (subjectMatch) subjectKey = subjectMatch[1];
         }
 
-        const subjectObj = NOTES_DATABASE[subjectKey];
-        if (!subjectObj || !subjectObj.chapters) {
-            skipped++;
+        if (!subjectKey || !NOTES_DATABASE[subjectKey]) {
             return;
         }
 
-        // Find best chapter
-        let bestChapter = null;
+        const subjectObj = NOTES_DATABASE[subjectKey];
+        let foundChapter = null;
+
         if (chapterKw) {
-            bestChapter = subjectObj.chapters.find(ch =>
+            foundChapter = subjectObj.chapters.find(ch =>
                 ch.title && ch.title.toLowerCase().includes(chapterKw)
             );
         }
-        if (!bestChapter) {
-            // Try matching any word in slug against chapter titles
+
+        if (!foundChapter) {
             const slugWords = slug.split('-').filter(w => w.length > 3);
             for (const ch of subjectObj.chapters) {
                 const ctLower = (ch.title || '').toLowerCase();
                 if (slugWords.some(w => ctLower.includes(w))) {
-                    bestChapter = ch;
+                    foundChapter = ch;
                     break;
                 }
             }
         }
-        if (!bestChapter && subjectObj.chapters.length > 0) {
-            bestChapter = subjectObj.chapters[0]; // fallback to first chapter
-        }
-        if (!bestChapter) {
-            skipped++;
-            return;
-        }
 
-        if (!bestChapter.topics) bestChapter.topics = [];
+        const titleWords = slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 
-        const alreadyThere = bestChapter.topics.find(t => t.id === topicId);
-        if (!alreadyThere) {
-            const titleWords = slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-            bestChapter.topics.push({
-                id: topicId,
-                title: titleWords,
-                notes: html,
-                formulas: '',
-                isAIGenerated: true
-            });
+        if (foundChapter) {
+            // Overwrite the existing topic
+            foundChapter.topics[0].notes = html;
+            foundChapter.topics[0].isAIGenerated = true;
+            foundChapter.title = "✨ " + titleWords; // highlight it visually
             injected++;
+        } else {
+            // Create a new chapter at the top
+            subjectObj.chapters.unshift({
+                id: topicId,
+                title: "✨ " + titleWords,
+                icon: "fa-solid fa-robot",
+                topics: [{
+                    id: topicId,
+                    title: titleWords,
+                    notes: html,
+                    formulas: '',
+                    isAIGenerated: true
+                }]
+            });
+            newCreated++;
         }
     });
 
-    console.log(`[inject_targeted] Done. Injected ${injected} AI-generated topics. Skipped ${skipped}.`);
+    console.log(`[inject_targeted] Done! Restructured chapters. Overwrote ${injected} notes and created ${newCreated} new ones.`);
 })();
