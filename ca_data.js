@@ -33,7 +33,7 @@
 
 window.CA_META = {
   examCycle: "CDS 1/NDA 1 2027 & AFCAT 1 2027",
-  lastRefreshed: "September 2026",
+  lastRefreshed: "October 2026",
   coverageFrom: "August 2026",
   coverageTo: "April 2027",
   // A descriptive note (can be shown as a small footer or header on the CA page)
