@@ -1261,7 +1261,7 @@
   "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\05-versions-space.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "NDA Papers\\QP-GAT-NDANA-EXAM-II-2021-161121.pdf": {
     "total_pages": 40,
@@ -1491,7 +1491,7 @@
   "node_modules\\pdf-parse\\test\\data\\05-versions-space.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "public\\assets\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
@@ -1886,7 +1886,7 @@
   "www\\assets\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
@@ -1898,7 +1898,7 @@
   "www\\assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
     "total_pages": 1,
@@ -1910,7 +1910,7 @@
   "www\\assets\\geography\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
     "total_pages": 1,
@@ -1922,7 +1922,7 @@
   "www\\assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
     "total_pages": 1,
@@ -1934,7 +1934,7 @@
   "www\\assets\\geography\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
     "total_pages": 1,
@@ -1946,7 +1946,7 @@
   "www\\assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
     "total_pages": 1,
@@ -1958,7 +1958,7 @@
   "www\\assets\\geography\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
     "total_pages": 1,
@@ -1970,7 +1970,7 @@
   "www\\assets\\geography\\geography\\World\\Major_World_Straits.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
     "total_pages": 1,
@@ -1982,7 +1982,7 @@
   "www\\assets\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
     "total_pages": 1,
@@ -1994,7 +1994,7 @@
   "www\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
     "total_pages": 1,
@@ -2006,7 +2006,7 @@
   "www\\assets\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
     "total_pages": 1,
@@ -2018,7 +2018,7 @@
   "www\\assets\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
     "total_pages": 1,
@@ -2030,7 +2030,7 @@
   "www\\assets\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   },
   "www\\assets\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
     "total_pages": 1,
@@ -2042,6 +2042,6 @@
   "www\\assets\\geography\\World\\Major_World_Straits.pdf": {
     "total_pages": 1,
     "extracted_pages": [],
-    "status": "pending"
+    "status": "in_progress"
   }
 }

@@ -46,6 +46,49 @@ window.CA_META = {
 // =============================================================================
 window.CA_VISITS_DATA = [
   {
+    visit: "CDS General Anil Chauhan’s first visit to UK",
+    period: "October 2026",
+    purpose: "To strengthen the defence partnership between India and the UK, focusing on strategic cooperation.",
+    deals: "This visit aims to explore joint defence production opportunities and facilitate technology transfer, crucial for India's 'Atmanirbhar Bharat' initiative in defence. It also signifies a deepening of military-to-military ties and interoperability between the two nations.",
+  },
+  {
+    visit: "India-Canada Bilateral Engagements (Reset Ties)",
+    period: "October 2026",
+    purpose: "To reset bilateral ties, launch Comprehensive Economic Partnership Agreement (CEPA) talks, and sign significant deals in energy and defence sectors.",
+    deals: "The signing of defence deals indicates a new phase of cooperation, potentially involving procurement or technology sharing, diversifying India's defence partners. The launch of CEPA talks signifies a major economic initiative aimed at boosting trade and investment, impacting India's strategic economic partnerships.",
+  },
+  {
+    visit: "Admiral Paparo's visit to India",
+    period: "October 2026",
+    purpose: "To discuss and expand defence cooperation and regional security issues between India and the US.",
+    deals: "This visit by a high-ranking US official underscores the growing strategic convergence between India and the US, particularly in maritime security and Indo-Pacific stability. Discussions likely covered joint exercises, intelligence sharing, and potential defence technology collaboration, strengthening India's naval capabilities.",
+  },
+  {
+    visit: "COAS General Dhiraj Seth's Official Russia Visit",
+    period: "September 2026",
+    purpose: "To deepen and strengthen defence cooperation and military ties between India and Russia.",
+    deals: "The visit by the Army Chief signifies ongoing strategic engagement with Russia, a long-standing defence partner, focusing on existing defence contracts, maintenance, and potential new procurements. It ensures the continued operational readiness of India's Russian-origin military equipment and explores joint military exercises.",
+  },
+  {
+    visit: "President Putin’s visit to India",
+    period: "September 2026",
+    purpose: "To discuss a broad defence agenda, including advanced weapon systems like the Su-57 fighter jet.",
+    deals: "A presidential visit from Russia with a defence agenda indicates high-level strategic discussions on major defence deals, technology transfer, and joint development projects. This reinforces Russia's role as a key defence supplier for India despite diversification efforts.",
+  },
+  {
+    visit: "Rajnath Singh’s visit to Sri Lanka",
+    period: "September 2026",
+    purpose: "To sign three defence sector MoUs and strengthen bilateral defence ties with Sri Lanka.",
+    deals: "The signing of three defence MoUs highlights India's commitment to bolstering security cooperation with its immediate maritime neighbor. These agreements likely cover areas such as maritime security, capacity building, training, and potentially defence equipment supply, crucial for maintaining stability in the Indian Ocean Region.",
+  },
+  {
+    visit: "Inaugural India-Kuwait Joint Defence Committee Meeting",
+    period: "August 2026",
+    purpose: "To establish and formalize defence cooperation mechanisms between India and Kuwait.",
+    deals: "This inaugural meeting signifies India's expanding defence outreach to the Gulf region, aiming to enhance security cooperation, maritime domain awareness, and potentially facilitate defence exports or training. It lays the groundwork for future defence engagements, contributing to regional stability and India's strategic interests in the Middle East.",
+  },
+
+  {
     visit: "Admiral Paparo's visit to India",
     period: "October 2026",
     purpose: "To enhance and expand existing defence cooperation between India and the visiting nation.",

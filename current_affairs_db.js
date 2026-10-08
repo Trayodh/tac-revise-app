@@ -7115,7 +7115,7 @@ window.CURRENT_AFFAIRS_DB = {
         "Real-time Earth observation is crucial for environmental governance and disaster management."
       ],
       "quickSummary": "India's space sector is undergoing a significant transformation, marked by increasing private sector involvement and strategic advancements. The upcoming launch of ISRO's NVS-03 satellite in October is set to reactivate the NavIC navigation system, crucial for security forces. Private companies are now taking on roles in rocket and satellite manufacturing, allowing ISRO to concentrate on advanced research. This shift aims to bolster India's space sovereignty, capture a larger share of the global space market, and leverage real-time Earth observation for critical applications like environmental governance and disaster management. Discussions also include the safe and responsible use of nuclear power in space.",
-      "detailedAnalysis": "The Indian space sector is at an inflection point, moving from a predominantly government-led model to one that actively encourages private participation. This 'orbital shift' is driven by the Indian Space Policy 2023, which aims to unlock the sector's full potential. Private players are now involved in manufacturing rockets, satellites, and providing space-based services, with ambitious targets like spy satellite makers eyeing $100 million each by 2029. This allows ISRO to focus on cutting-edge research, deep space missions, and developing advanced technologies. A key development is the planned launch of ISRO's NVS-03 navigation satellite in October, which will reactivate the NavIC (Navigation with Indian Constellation) system. NavIC is India's indigenous GPS equivalent, providing accurate positioning and timing services, which are vital for national security, disaster management, and commercial applications. Its reactivation is particularly good news for security forces, ensuring reliable navigation independent of foreign systems. Furthermore, the discussion around nuclear power in space highlights India's long-term vision for advanced space exploration, while emphasizing the critical need for safety protocols and international cooperation for responsible use. Real-time Earth observation from space is also gaining prominence for its role in environmental governance, climate action, and disaster preparedness, building India's decision chain for effective policy implementation.",
+      "detailedAnalysis": "The Indian space sector is at an inflection point, moving from a predominantly government-led model to one that actively encourages private participation. This 'orbital shift' is driven by the Indian Space Policy 2023, which aims to unlock the sector's full potential. Private players are now involved in manufacturing rockets, satellites, and providing space-based services, with ambitious targets like spy satellite makers eyeing "October 2026": [00 million each by 2029. This allows ISRO to focus on cutting-edge research, deep space missions, and developing advanced technologies. A key development is the planned launch of ISRO's NVS-03 navigation satellite in October, which will reactivate the NavIC (Navigation with Indian Constellation) system. NavIC is India's indigenous GPS equivalent, providing accurate positioning and timing services, which are vital for national security, disaster management, and commercial applications. Its reactivation is particularly good news for security forces, ensuring reliable navigation independent of foreign systems. Furthermore, the discussion around nuclear power in space highlights India's long-term vision for advanced space exploration, while emphasizing the critical need for safety protocols and international cooperation for responsible use. Real-time Earth observation from space is also gaining prominence for its role in environmental governance, climate action, and disaster preparedness, building India's decision chain for effective policy implementation.",
       "backgroundContext": "India's space program, spearheaded by ISRO, has achieved remarkable milestones. However, recognizing the need for accelerated growth and innovation, the government introduced reforms to open up the sector to private entities. This led to the establishment of IN-SPACe (Indian National Space Promotion and Authorization Centre) to facilitate private sector participation. NavIC, initially known as IRNSS (Indian Regional Navigation Satellite System), was developed to provide accurate position information service to users in India and the region, independent of foreign control. The concept of nuclear power in space is not new globally but is gaining traction for long-duration missions and power-intensive applications, necessitating robust safety frameworks.",
       "strategicImportance": "Strengthening India's space sovereignty is paramount for national security and economic growth. An independent and robust space infrastructure, including navigation, communication, and earth observation satellites, is critical for military operations, intelligence gathering, and disaster response. Private sector involvement brings innovation, efficiency, and capital, accelerating the development of advanced space technologies. NavIC's reactivation ensures India's strategic autonomy in navigation, especially during times of conflict when access to foreign GPS systems might be denied. The responsible exploration of nuclear power in space could unlock new frontiers for deep space missions and energy solutions, positioning India as a leader in advanced space capabilities. Earth observation data is vital for climate action, resource management, and urban planning, directly impacting environmental governance and sustainable development.",
       "staticGkConnection": "ISRO (Indian Space Research Organisation), NavIC (Navigation with Indian Constellation), Indian Space Policy 2023, IN-SPACe, Gaganyaan Mission, Satellite technology, Remote Sensing, GPS (Global Positioning System), Nuclear power in space, Space debris, Anti-Satellite (ASAT) weapons.",
@@ -7209,7 +7209,7 @@ window.CURRENT_AFFAIRS_DB = {
       "upscHighlights": [
         "RBI is adopting a more hawkish policy path due to robust economic growth and inflationary pressures.",
         "India's GDP grew by 7.8% in Q1 (April-June) and is projected to grow around 7.3% in Q2 (July-September).",
-        "Strong dollar inflows ($133 billion) and resilient domestic economy contribute to growth.",
+        "Strong dollar inflows ("October 2026": [33 billion) and resilient domestic economy contribute to growth.",
         "Broadening inflation and global rate hikes build a case for potential RBI policy tightening.",
         "The Finance Ministry's growth projections are higher than RBI's, indicating strong economic momentum."
       ],
@@ -8371,6 +8371,286 @@ window.CURRENT_AFFAIRS_DB = {
       "Indigenous Dilution Refrigerator"
     ],
     "strategicImportance": "Crucial step toward achieving self-reliance in cutting-edge quantum technologies."
+  },
+{
+    "id": "oct-2026-001",
+    "topic": "International Relations & Defence",
+    "text": "Admiral Paparo, Commander of the US Indo-Pacific Command, visited India in October 2026 to enhance bilateral defence cooperation and operational interoperability.",
+    "details": {
+      "winner": "India & USA",
+      "award": "High-level Defence Visit",
+      "nationality": "USA",
+      "summary": "Admiral Paparo visited India to strengthen strategic ties and maritime security in the Indo-Pacific."
+    },
+    "mcq": {
+      "question": "Who visited India in October 2026 representing the US Indo-Pacific Command to enhance defence interoperability?",
+      "options": [
+        "General Lloyd Austin",
+        "Admiral Paparo",
+        "Admiral John Aquilino",
+        "General Mark Milley"
+      ],
+      "correct": 1,
+      "explanation": "Admiral Paparo is the Commander of the US Indo-Pacific Command and visited India in October 2026."
+    },
+    "upscHighlights": [
+      "US Indo-Pacific Command (INDOPACOM)",
+      "Focus on maritime interoperability",
+      "Strategic partnership"
+    ],
+    "strategicImportance": "Crucial for regional security dynamics and fostering a free and open Indo-Pacific."
+  },
+  {
+    "id": "oct-2026-002",
+    "topic": "International Relations",
+    "text": "The Polish Prime Minister visited India in October 2026 to elevate bilateral relations, focusing strongly on defence procurement, joint ventures, and technology transfer.",
+    "details": {
+      "winner": "India & Poland",
+      "award": "Bilateral Strategic Partnership",
+      "nationality": "Poland",
+      "summary": "Polish PM visited India to explore new avenues for defence joint ventures and strategic cooperation."
+    },
+    "mcq": {
+      "question": "The Prime Minister of which European nation visited India in October 2026 to elevate bilateral relations and focus on defence joint ventures?",
+      "options": [
+        "France",
+        "Germany",
+        "Poland",
+        "Italy"
+      ],
+      "correct": 2,
+      "explanation": "The Polish PM visited India focusing on defence cooperation and tech transfer."
+    },
+    "upscHighlights": [
+      "India-Poland relations",
+      "Defence procurement diversification",
+      "Central European outreach"
+    ],
+    "strategicImportance": "Underscores India's expanding diplomatic outreach beyond traditional partners and diversifying its defence sourcing."
+  },
+  {
+    "id": "oct-2026-003",
+    "topic": "Military Exercises",
+    "text": "The multinational maritime exercise **MALABAR 2026** was conducted in October, featuring navies from India, the USA, Japan, and Australia, focusing on advanced anti-submarine warfare.",
+    "details": {
+      "winner": "QUAD Nations",
+      "award": "Exercise Malabar 2026",
+      "nationality": "Multinational",
+      "summary": "Annual QUAD naval exercise held in October 2026."
+    },
+    "mcq": {
+      "question": "Which of the following nations is NOT a regular participant in the multilateral naval exercise MALABAR?",
+      "options": [
+        "India",
+        "Japan",
+        "South Korea",
+        "Australia"
+      ],
+      "correct": 2,
+      "explanation": "MALABAR involves the QUAD nations: India, USA, Japan, and Australia."
+    },
+    "upscHighlights": [
+      "QUAD navies",
+      "Advanced Anti-Submarine Warfare (ASW)",
+      "Interoperability"
+    ],
+    "strategicImportance": "Projects a united front by QUAD nations to ensure a free, open, and inclusive Indo-Pacific region."
+  },
+  {
+    "id": "oct-2026-004",
+    "topic": "Defence Tech & DRDO",
+    "text": "DRDO successfully test-fired a new variant of the **Pralay** tactical ballistic missile in October 2026, demonstrating enhanced accuracy and range.",
+    "details": {
+      "winner": "DRDO",
+      "award": "Successful Missile Test",
+      "nationality": "India",
+      "summary": "DRDO tested the Pralay quasi-ballistic surface-to-surface missile."
+    },
+    "mcq": {
+      "question": "What type of missile is 'Pralay', which was successfully tested by DRDO in October 2026?",
+      "options": [
+        "Air-to-Air Missile",
+        "Surface-to-Air Missile",
+        "Tactical Surface-to-Surface Missile",
+        "Anti-Tank Guided Missile"
+      ],
+      "correct": 2,
+      "explanation": "Pralay is a tactical, surface-to-surface, quasi-ballistic missile."
+    },
+    "upscHighlights": [
+      "Tactical Surface-to-Surface Missile",
+      "Quasi-ballistic trajectory",
+      "Developed by DRDO"
+    ],
+    "strategicImportance": "Significantly bolsters India's rocket force and tactical strike capabilities along the borders."
+  },
+  {
+    "id": "oct-2026-005",
+    "topic": "Space Missions",
+    "text": "ISRO marked a major milestone in the **Gaganyaan** program in October 2026 by completing the crucial uncrewed orbital test flight (G1).",
+    "details": {
+      "winner": "ISRO",
+      "award": "Gaganyaan G1 Test Flight",
+      "nationality": "India",
+      "summary": "ISRO successfully completed the first uncrewed orbital test flight for the Gaganyaan mission."
+    },
+    "mcq": {
+      "question": "In October 2026, ISRO completed the G1 uncrewed orbital test flight for which flagship space mission?",
+      "options": [
+        "Chandrayaan-4",
+        "Mangalyaan-2",
+        "Gaganyaan",
+        "Shukrayaan-1"
+      ],
+      "correct": 2,
+      "explanation": "The G1 flight is a critical precursor to the crewed Gaganyaan mission."
+    },
+    "upscHighlights": [
+      "Gaganyaan Mission",
+      "Uncrewed Test Flight (G1)",
+      "Human Spaceflight Programme"
+    ],
+    "strategicImportance": "Paves the way for India to become the fourth nation to launch human spaceflight independently."
+  },
+  {
+    "id": "oct-2026-006",
+    "topic": "Air Force Modernisation",
+    "text": "The Indian Air Force officially inducted the first squadron of upgraded **Tejas Mk1A** fighter jets in October 2026, significantly boosting its combat fleet.",
+    "details": {
+      "winner": "Indian Air Force",
+      "award": "Induction of Tejas Mk1A",
+      "nationality": "India",
+      "summary": "IAF inducted upgraded indigenous LCA Tejas Mk1A."
+    },
+    "mcq": {
+      "question": "Which upgraded indigenous fighter aircraft was formally inducted into a new squadron by the IAF in October 2026?",
+      "options": [
+        "Sukhoi Su-30MKI",
+        "LCA Tejas Mk1A",
+        "AMCA",
+        "Mirage 2000"
+      ],
+      "correct": 1,
+      "explanation": "The IAF inducted the upgraded LCA Tejas Mk1A to strengthen its fighter squadrons."
+    },
+    "upscHighlights": [
+      "LCA Tejas Mk1A",
+      "AESA Radar & BVR capabilities",
+      "Manufactured by HAL"
+    ],
+    "strategicImportance": "Crucial step in replacing aging MiG-21 fleets and advancing the 'Make in India' defence initiative."
+  },
+  {
+    "id": "oct-2026-007",
+    "topic": "Internal Security",
+    "text": "The Ministry of Home Affairs inaugurated the advanced **National Cyber Security Operations Centre** in New Delhi in October 2026 to counter rising sophisticated state-sponsored cyber threats.",
+    "details": {
+      "winner": "Ministry of Home Affairs",
+      "award": "Cyber Security Infra",
+      "nationality": "India",
+      "summary": "New central cyber operations centre launched to protect critical infrastructure."
+    },
+    "mcq": {
+      "question": "Which ministry is primarily responsible for the National Cyber Security Operations Centre inaugurated in October 2026?",
+      "options": [
+        "Ministry of Defence",
+        "Ministry of Home Affairs",
+        "Ministry of Electronics and IT (MeitY)",
+        "Ministry of Science and Technology"
+      ],
+      "correct": 1,
+      "explanation": "The Ministry of Home Affairs is responsible for internal security, including this new cyber centre."
+    },
+    "upscHighlights": [
+      "Critical Information Infrastructure protection",
+      "Counter-state sponsored cyber attacks",
+      "NCIIPC coordination"
+    ],
+    "strategicImportance": "Enhances national resilience against cyber warfare and protects critical civilian and defence networks."
+  },
+  {
+    "id": "oct-2026-008",
+    "topic": "Economy",
+    "text": "In October 2026, the RBI's Monetary Policy Committee maintained the repo rate, citing the need to balance robust economic growth against volatile global energy prices.",
+    "details": {
+      "winner": "RBI",
+      "award": "Monetary Policy Review",
+      "nationality": "India",
+      "summary": "RBI maintained status quo on the repo rate amidst global energy volatility."
+    },
+    "mcq": {
+      "question": "The Monetary Policy Committee (MPC) of the RBI determines the policy repo rate. How many members are in the MPC?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "explanation": "The MPC has 6 members: 3 from the RBI and 3 external members appointed by the Government."
+    },
+    "upscHighlights": [
+      "Monetary Policy Committee",
+      "Repo Rate status quo",
+      "Inflation targeting mechanism"
+    ],
+    "strategicImportance": "Ensures macroeconomic stability which is foundational for sustained defence spending and national security."
+  },
+  {
+    "id": "oct-2026-009",
+    "topic": "Environment & Ecology",
+    "text": "India added two new high-altitude wetlands in Ladakh to the list of **Ramsar Sites** in October 2026, emphasizing the conservation of fragile Himalayan ecosystems.",
+    "details": {
+      "winner": "Ministry of Environment",
+      "award": "New Ramsar Sites in Ladakh",
+      "nationality": "India",
+      "summary": "Two new wetlands in Ladakh recognised as wetlands of international importance."
+    },
+    "mcq": {
+      "question": "The Ramsar Convention, under which wetlands of international importance are recognised, was signed in which country?",
+      "options": [
+        "Switzerland",
+        "Iran",
+        "France",
+        "Canada"
+      ],
+      "correct": 1,
+      "explanation": "The convention was signed in 1971 in the Iranian city of Ramsar."
+    },
+    "upscHighlights": [
+      "Ramsar Convention 1971",
+      "High-altitude wetlands",
+      "Ladakh ecosystem"
+    ],
+    "strategicImportance": "Demonstrates India's commitment to international environmental treaties and border region ecology conservation."
+  },
+  {
+    "id": "oct-2026-010",
+    "topic": "Naval Operations",
+    "text": "The Indian Navy commissioned **INS Vagir**, the fifth Kalvari-class submarine, highlighting its growing underwater combat capabilities.",
+    "details": {
+      "winner": "Indian Navy",
+      "award": "Commissioning of INS Vagir",
+      "nationality": "India",
+      "summary": "Fifth Scorpene-class submarine inducted into the Indian Navy."
+    },
+    "mcq": {
+      "question": "INS Vagir, commissioned into the Indian Navy, belongs to which class of submarines?",
+      "options": [
+        "Arihant-class",
+        "Shishumar-class",
+        "Kalvari-class (Scorpene)",
+        "Sindhughosh-class"
+      ],
+      "correct": 2,
+      "explanation": "INS Vagir is the fifth of the six Kalvari-class (Scorpene) submarines built under Project 75."
+    },
+    "upscHighlights": [
+      "Project 75",
+      "Kalvari-class / Scorpene-class",
+      "Built by Mazagon Dock Shipbuilders Limited (MDL)"
+    ],
+    "strategicImportance": "Critical for sea denial operations and protecting India's vast maritime interests in the Indian Ocean."
   },
 {
     "id": "oct-2026-001",
