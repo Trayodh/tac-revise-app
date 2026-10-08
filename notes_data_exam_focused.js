@@ -4818,7 +4818,35 @@ let CURRENT_AFFAIRS_DB = {
       "Built by Mazagon Dock Shipbuilders Limited (MDL)"
     ],
     "strategicImportance": "Critical for sea denial operations and protecting India's vast maritime interests in the Indian Ocean."
-  }
+  },
+{
+  "id": "oct-2026-011",
+  "topic": "Appointments",
+  "text": "Air Marshal Ashutosh Dixit was appointed as the new Chief of the Air Staff (CAS) of the Indian Air Force, taking over the command of the world's fourth-largest air force.",
+  "details": {
+    "winner": "Air Marshal Ashutosh Dixit",
+    "award": "Appointed as Chief of the Air Staff",
+    "nationality": "India",
+    "summary": "Air Marshal Ashutosh Dixit assumed command as the new Chief of the Air Staff, succeeding the previous chief."
+  },
+  "mcq": {
+    "question": "Who was appointed as the new Chief of the Air Staff of the Indian Air Force in late 2026?",
+    "options": [
+      "Air Chief Marshal VR Chaudhari",
+      "Air Marshal Ashutosh Dixit",
+      "Air Marshal Amar Preet Singh",
+      "Air Marshal Sandeep Singh"
+    ],
+    "correct": 1,
+    "explanation": "Air Marshal Ashutosh Dixit was appointed as the new Chief of the Air Staff."
+  },
+  "upscHighlights": [
+    "Chief of the Air Staff (CAS)",
+    "Indian Air Force Leadership",
+    "Defence Appointments"
+  ],
+  "strategicImportance": "The CAS is responsible for the operational readiness and modernization of the IAF amidst evolving regional security challenges."
+}
 ],
   "November 2026": [],
   "December 2026": [],
