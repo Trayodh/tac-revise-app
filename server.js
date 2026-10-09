@@ -10,6 +10,7 @@ const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY || '';
 const runCurrentAffairsEngine = require('./current_affairs_engine');
 const runMilitaryExercisesEngine = require('./military_exercises_engine');
 const { generateAIContent } = require('./ai_provider_proxy');
+const { searchRAG } = require('./rag_retriever');
 
 // Cache for daily news to prevent repeated API calls
 let dailyNewsCache = { date: null, data: null };
@@ -1051,6 +1052,29 @@ ${textPrompt}`;
         res.end(buffer);
       } catch (err) {
         console.error('[PROXY] Error in TTS:', err);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
+  // API Route: Vector DB RAG Search
+  if (req.url === '/api/rag_search' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const payload = JSON.parse(body);
+        const query = payload.query || "";
+        const GEMINI_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
+        
+        const topK = await searchRAG(query, GEMINI_KEY, 3);
+        
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ results: topK }));
+      } catch (err) {
+        console.error('[PROXY] Error in RAG search:', err);
         res.writeHead(500, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({ error: err.message }));
       }

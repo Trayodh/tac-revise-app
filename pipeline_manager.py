@@ -60,6 +60,9 @@ def get_next_task_round_robin(state):
     
     if not incomplete:
         return None, None
+        
+    # Sort incomplete PDFs by pages remaining (ascending) to prioritize shorter chapters
+    incomplete.sort(key=lambda name: state[name]['total_pages'] - len(state[name]['extracted_pages']))
     
     last_index = get_last_pdf_index()
     

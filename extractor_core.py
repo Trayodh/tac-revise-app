@@ -71,7 +71,14 @@ Format for `notes_database`:
     "subject": "...",
     "chapter": "...",
     "topic": "...",
-    "text": "...", // MUST contain rich HTML styling: use <p>, <ul>, <li>, <strong>, <em>, and inline CSS (e.g. <span style='color: var(--success);'> for correct info, <span style='color: var(--warning);'> for important keywords)
+    "text": "...", // MUST contain rich HTML styling: use <p>, <ul>, <li>, <strong>, <em>. Do NOT use markdown in this field.
+    "formulas": ["...", "..."], // Array of LaTeX or plain text math formulas extracted from this topic
+    "tables": [ // Array of tables found, formatted strictly as markdown tables
+      "| Col 1 | Col 2 |\n|---|---|\n| Data | Data |"
+    ],
+    "image_descriptions": [ // Highly detailed descriptions of any diagrams, maps, or charts
+      "..."
+    ],
     "details": {
       "summary": "..."
     },
@@ -121,7 +128,7 @@ def extract_content(b64_img, page_text, prompt):
     
     client = genai.Client(api_key=GEMINI_API_KEY)
 
-    gemini_models = [] # Skipped due to rate limits: ["gemini-2.5-flash", "gemini-3.5-flash"]
+    gemini_models = ["gemini-2.5-flash", "gemini-3.5-flash"]
 
     for model_name in gemini_models:
         print(f"Attempting extraction with native_gemini - {model_name}...")
@@ -162,7 +169,11 @@ def extract_content(b64_img, page_text, prompt):
                 error_msg = str(e).lower()
                 print(f"API Error ({model_name}): {e}")
                 
-                if "429" in error_msg or "too many requests" in error_msg or "exhausted" in error_msg or "quota" in error_msg:
+                if "quota exceeded" in error_msg or "retry in" in error_msg and "h" in error_msg:
+                    print(f"Hard quota hit on {model_name}. Failing over to next model...")
+                    break
+                    
+                if "429" in error_msg or "too many requests" in error_msg or "exhausted" in error_msg:
                     delay = base_delay * (2 ** attempt)
                     print(f"Rate limited on {model_name}. Retrying in {delay} seconds...")
                     time.sleep(delay)

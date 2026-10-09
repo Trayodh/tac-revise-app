@@ -97,7 +97,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ],
     "status": "in_progress"
   },
@@ -116,7 +117,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ],
     "status": "in_progress"
   },
@@ -130,7 +132,8 @@
       5,
       6,
       7,
-      8
+      8,
+      9
     ],
     "status": "in_progress"
   },
@@ -154,7 +157,8 @@
       15,
       16,
       17,
-      18
+      18,
+      19
     ],
     "status": "in_progress"
   },
@@ -218,7 +222,8 @@
       13,
       14,
       15,
-      16
+      16,
+      17
     ],
     "status": "in_progress"
   },
@@ -238,7 +243,8 @@
       11,
       12,
       13,
-      14
+      14,
+      15
     ],
     "status": "in_progress"
   },
@@ -255,7 +261,8 @@
       8,
       9,
       10,
-      11
+      11,
+      12
     ],
     "status": "in_progress"
   },
@@ -276,7 +283,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ],
     "status": "in_progress"
   },
@@ -296,7 +304,9 @@
       11,
       12,
       13,
-      14
+      14,
+      15,
+      16
     ],
     "status": "in_progress"
   },
@@ -463,7 +473,9 @@
       31,
       32,
       33,
-      34
+      34,
+      35,
+      36
     ],
     "status": "in_progress"
   },
@@ -573,7 +585,8 @@
       8,
       9,
       10,
-      11
+      11,
+      12
     ],
     "status": "in_progress"
   },
@@ -594,7 +607,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ],
     "status": "in_progress"
   },
@@ -616,7 +630,8 @@
       13,
       14,
       15,
-      16
+      16,
+      17
     ],
     "status": "in_progress"
   },
@@ -646,7 +661,8 @@
       5,
       6,
       7,
-      8
+      8,
+      9
     ],
     "status": "in_progress"
   },
@@ -666,7 +682,8 @@
       11,
       12,
       13,
-      14
+      14,
+      15
     ],
     "status": "in_progress"
   },
@@ -683,7 +700,8 @@
       8,
       9,
       10,
-      11
+      11,
+      12
     ],
     "status": "in_progress"
   },
@@ -700,7 +718,8 @@
       8,
       9,
       10,
-      11
+      11,
+      12
     ],
     "status": "in_progress"
   },
@@ -718,7 +737,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ],
     "status": "in_progress"
   },
@@ -734,99 +754,136 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "status": "in_progress"
   },
   "cds_material.pdf": {
     "total_pages": 1377,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "cds_material_part1.pdf": {
     "total_pages": 688,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "cds_material_part2.pdf": {
     "total_pages": 689,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "current_affairs.pdf": {
     "total_pages": 212,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "general_science_ssbcrack.pdf": {
     "total_pages": 176,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "insight_ssb_cheat_codes.pdf": {
     "total_pages": 292,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "July_CA_Class.pdf": {
     "total_pages": 212,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "nda_material_part1.pdf": {
     "total_pages": 657,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "nda_material_part2.pdf": {
     "total_pages": 657,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part1.pdf": {
     "total_pages": 648,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf": {
     "total_pages": 649,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "temp.pdf": {
     "total_pages": 212,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf": {
     "total_pages": 11,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf": {
     "total_pages": 11,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf": {
     "total_pages": 11,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf": {
     "total_pages": 10,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "AFCAT Papers\\CAPF Paper 1 & CSE papers\\CSP_2020_GS_Paper-1.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
     "total_pages": 1,
@@ -835,8 +892,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
     "total_pages": 1,
@@ -845,8 +904,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
     "total_pages": 1,
@@ -855,8 +916,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
     "total_pages": 1,
@@ -865,8 +928,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
     "total_pages": 1,
@@ -875,8 +940,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
     "total_pages": 1,
@@ -885,8 +952,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
     "total_pages": 1,
@@ -900,8 +969,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\World\\Major_World_Straits.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
     "total_pages": 1,
@@ -910,8 +981,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
     "total_pages": 1,
@@ -920,8 +993,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
     "total_pages": 1,
@@ -930,8 +1005,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
     "total_pages": 1,
@@ -940,8 +1017,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
     "total_pages": 1,
@@ -950,8 +1029,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
     "total_pages": 1,
@@ -960,8 +1041,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\World\\Major_World_Straits.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
@@ -970,8 +1053,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
@@ -980,8 +1065,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
     "total_pages": 1,
@@ -990,8 +1077,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
     "total_pages": 1,
@@ -1000,8 +1089,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
     "total_pages": 1,
@@ -1010,8 +1101,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
     "total_pages": 1,
@@ -1020,8 +1113,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
     "total_pages": 1,
@@ -1030,8 +1125,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
     "total_pages": 1,
@@ -1040,8 +1137,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\World\\Major_World_Straits.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
     "total_pages": 1,
@@ -1050,8 +1149,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
     "total_pages": 1,
@@ -1060,8 +1161,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
     "total_pages": 1,
@@ -1070,8 +1173,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
     "total_pages": 1,
@@ -1080,8 +1185,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
     "total_pages": 1,
@@ -1095,8 +1202,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\World\\Major_World_Straits.pdf": {
     "total_pages": 1,
@@ -1105,8 +1214,10 @@
   },
   "assets\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
@@ -1115,8 +1226,10 @@
   },
   "assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "assets\\geography\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
     "total_pages": 1,
@@ -1125,8 +1238,10 @@
   },
   "assets\\geography\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "assets\\geography\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
     "total_pages": 1,
@@ -1135,8 +1250,10 @@
   },
   "assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "assets\\geography\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
     "total_pages": 1,
@@ -1145,8 +1262,10 @@
   },
   "assets\\geography\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "assets\\geography\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
     "total_pages": 1,
@@ -1155,8 +1274,10 @@
   },
   "assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "assets\\geography\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
     "total_pages": 1,
@@ -1165,8 +1286,10 @@
   },
   "assets\\geography\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "assets\\geography\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
     "total_pages": 1,
@@ -1175,8 +1298,10 @@
   },
   "assets\\geography\\geography\\World\\Major_World_Straits.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "CAPF_CSE_Papers\\GENERAL ABILITY AND INTELLIGENCE_0.pdf": {
     "total_pages": 48,
@@ -1185,67 +1310,94 @@
   },
   "CAPF_CSE_Papers\\GENERAL STUDIES PAPER I.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "CAPF_CSE_Papers\\QP-CAPF-22-GAI-080822.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "CAPF_CSE_Papers\\QP-CAPF-25-GENERAL-ABILITY-INTELLIGENCE-040825.pdf": {
     "total_pages": 56,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "CAPF_CSE_Papers\\QP-CSP-21-GeneralStudiesPaper-I-121021.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "CAPF_CSE_Papers\\QP-CSP-24-GENERAL-STUDIES-PAPER-I-180624.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "CAPF_CSE_Papers\\QP-CSP-25-GENERAL-STUDIES-PAPER-I-26052025.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "CAPF_CSE_Papers\\QP_CAPF_2023_GAI_07082023.pdf": {
     "total_pages": 44,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1,
+      2
+    ],
     "status": "in_progress"
   },
   "CAPF_CSE_Papers\\QP_CAPF_2024_GEN-ABILITY-AND-INTELLI_05082024.pdf": {
     "total_pages": 56,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "CAPF_CSE_Papers\\QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf": {
     "total_pages": 56,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\01-valid.pdf": {
     "total_pages": 14,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\02-valid.pdf": {
     "total_pages": 5,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\03-invalid.pdf": {
@@ -1255,27 +1407,38 @@
   },
   "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\04-valid.pdf": {
     "total_pages": 5,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\05-versions-space.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "NDA Papers\\QP-GAT-NDANA-EXAM-II-2021-161121.pdf": {
     "total_pages": 40,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-MATH-NDANA-EXAM-II-2021-161121.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-NDA-I-21-GENERAL_ABILITY_TEST.pdf": {
     "total_pages": 40,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1,
+      2
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-NDA-I-21-MATHEMATICS.pdf": {
@@ -1330,7 +1493,9 @@
   },
   "NDA Papers\\QP-NDA-NA-I-25-MATHEMATICS-150425.pdf": {
     "total_pages": 40,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-NDA-NA-I-26-GENERAL-ABILITY-TEST-130426.pdf": {
@@ -1635,7 +1800,9 @@
   },
   "PYQ Papers\\10406cd1-662d-4ce9-b23a-9481e22dedd9.pdf": {
     "total_pages": 40,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "PYQ Papers\\6b31adce-86ac-49cb-816c-6f6efceca2e5.pdf": {
@@ -1648,70 +1815,80 @@
   "PYQ Papers\\adcb9734-b6f9-4b4c-9507-916cc105c31a.pdf": {
     "total_pages": 32,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "PYQ Papers\\CDS-1-English-Question-Paper-12-April-2026-exam-1.pdf": {
     "total_pages": 22,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "PYQ Papers\\CDS-1-GS-Question-Paper-12-April-2026-exam-1.pdf": {
     "total_pages": 43,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "PYQ Papers\\CDS-1-Maths-Question-Paper-12-April-2026-exam-1.pdf": {
     "total_pages": 22,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "PYQ Papers\\CDS-2-2025-English-question-paper_14.09.2025.pdf": {
     "total_pages": 24,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "PYQ Papers\\CDS-2-2025-MATHS-Paper-14.09.2025.pdf": {
     "total_pages": 22,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "PYQ Papers\\CDS-20252-GS-paper_14-Sept.-2025.pdf": {
     "total_pages": 23,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "scratch\\test_nda_math.pdf": {
     "total_pages": 40,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "scratch\\pdf_downloads\\nda_gat_mock_1.pdf": {
     "total_pages": 40,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "scratch\\pdf_downloads\\nda_math_0.pdf": {
     "total_pages": 40,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -1767,14 +1944,16 @@
   "scratch\\pdf_downloads\\nda_math_8.pdf": {
     "total_pages": 44,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "scratch\\pdf_downloads\\nda_math_mock_1.pdf": {
     "total_pages": 40,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -1795,14 +1974,16 @@
   "scratch\\pdf_downloads\\gat_syllabus\\QP-GAT-NDANA-EXAM-II-2021-161121.pdf": {
     "total_pages": 40,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "scratch\\pdf_downloads\\gat_syllabus\\QP-NDA-I-21-GENERAL_ABILITY_TEST.pdf": {
     "total_pages": 40,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },

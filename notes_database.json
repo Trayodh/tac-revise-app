@@ -19997,5 +19997,1140 @@
     },
     "source_pdf": "chunk_80_119.pdf",
     "source_page": 16
+  },
+  {
+    "id": "note-001",
+    "subject": "Defence",
+    "chapter": "Exercise Vayushakti-26",
+    "topic": "Indian Air Force Exercise",
+    "text": "<p>The Indian Air Force (IAF) will showcase its capabilities in Exercise Vayushakti-26 at Pokhran Air to Ground Range, Jaisalmer.</p><p>As the first and fastest responder, the IAF will emphasize its rapid response abilities, operational dominance, and the transformation of tactical actions into strategic outcomes.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Description of IAF's participation in Exercise Vayushakti-26 highlighting rapid response, operational dominance, and tactical to strategic transformation."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": -1,
+      "explanation": ""
+    },
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 16
+  },
+  {
+    "id": "note-001",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Respiratory System",
+    "subtopic": "Trachea",
+    "text": "<p>After passing through the pharynx, air passes into the trachea or the windpipe.</p><ul><li>The opening to the trachea is a slit-like structure called the glottis.</li><li>A thin flap of tissue called the epiglottis folds over the opening during swallowing and prevents food from entering the trachea.</li><li>At its lower end, the trachea branches into two large bronchi.</li><li>The bronchi branch into smaller bronchioles, forming a bronchial “tree.”</li><li>The bronchioles terminate in the alveoli.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Structure and function of the trachea, including glottis, epiglottis, bronchi, bronchioles, and alveoli."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "note-002",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Respiratory System",
+    "subtopic": "Lungs",
+    "text": "<p>Human lungs are composed of approximately 300 million alveoli.</p><ul><li>Oxygen from each alveolus enters the red blood cells and binds to the haemoglobin.</li><li>In addition, carbon dioxide contained in the plasma and red blood cells leaves the capillaries and enters the alveoli.</li><li>When a person inhales, the rib muscles and diaphragm contract, thereby increasing the volume of the chest cavity. This increase leads to reduced air pressure in the chest cavity, and air rushes into the alveoli, forcing them to expand and fill.</li><li>During exhalation, the rib muscles and the diaphragm relax, the chest cavity volume diminishes, and the internal air pressure increases. The air flows out.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Function of lungs in gas exchange and mechanism of inhalation and exhalation."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "note-003",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Excretory System",
+    "subtopic": "Overview",
+    "text": "<p>The human excretory system functions to remove waste from the human body.</p><ul><li>The human excretory system includes the kidneys and their functional unit, the nephron.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "General description of the human excretory system and its main components."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "note-004",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Excretory System",
+    "subtopic": "Kidneys",
+    "text": "<p>They are bean-shaped organs located on either side of the backbone at about the level of the stomach and liver.</p><ul><li>Blood enters the kidneys through the renal arteries and leaves through renal veins.</li><li>Ureters carry waste products from the kidneys to the urinary bladder, where it is temporarily stored.</li><li>Kidneys perform a number of homeostatic functions:</li><ul><li>Maintain volume of extracellular fluid</li><li>Maintain ionic balance in extracellular fluid</li><li>Maintain pH and osmotic concentration of the extracellular fluid.</li><li>Excrete toxic metabolic by-products such as urea, ammonia, and uric acid.</li></ul></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Location, blood supply, ureters, and homeostatic functions of the kidneys."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "note-005",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Excretory System",
+    "subtopic": "Control of Kidney Function",
+    "text": "<p>The activity of the nephron in the kidney is controlled by a person’s choice and environment as well as hormones.</p><ul><li>Humans produce a hormone called antidiuretic hormone (ADH), also known as vasopressin, which is secreted by the posterior lobe of the pituitary gland.</li><li>It regulates the amount of urine by controlling the rate of water absorption in the nephron tubules.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Role of ADH (vasopressin) in regulating urine output via water absorption in nephron tubules."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "math-number-system-001",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Divisibility Rules and Properties",
+    "text": "<p>This section covers key concepts of divisibility, remainders, and properties of real and rational numbers as tested in defence examinations like NDA and CDS.</p><ul><li><strong>Divisibility by 9:</strong> A number is divisible by 9 if the sum of its digits is divisible by 9.</li><li><strong>Divisibility by 11:</strong> A number is divisible by 11 if the difference between the sum of the digits at odd places and the sum of the digits at even places is either 0 or divisible by 11.</li><li><strong>Divisibility by 25:</strong> A number is divisible by 25 if its last two digits are divisible by 25 (i.e., 00, 25, 50, or 75).</li><li><strong>Unit Digit of Powers:</strong> The unit digit of numbers of the form <em>a<sup>n</sup></em> repeats in cycles of 4. For base ending in 3 or 7, the cyclicity is 4.</li><li><strong>Inequalities:</strong> If <em>a &lt; b</em> and <em>c &lt; 0</em>, multiplying or dividing by <em>c</em> reverses the inequality sign: <em>ac &gt; bc</em>.</li></ul>",
+    "formulas": [
+      "|x| = -x \\text{ if } x < 0",
+      "a^2 - b^2 = (a-b)(a+b)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A collection of practice questions and core concepts on divisibility, remainders, unit digits, and inequalities under the Number System chapter."
+    },
+    "mcq": {
+      "question": "If x is a negative real number, then |x| is equal to:",
+      "options": [
+        "x",
+        "-x",
+        "1/x",
+        "-1/x"
+      ],
+      "correct": 1,
+      "explanation": "By definition of absolute value, |x| = -x when x < 0."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "cds-2021-ii-trig-identities",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Identities and Heights & Distances",
+    "text": "<p>This section covers key algebraic and trigonometric identities used to simplify complex trigonometric expressions, along with applications in Heights and Distances.</p><ul><li><strong>Algebraic Identities:</strong><ul><li><em>a<sup>3</sup> + b<sup>3</sup> = (a + b)(a<sup>2</sup> + b<sup>2</sup> - ab)</em></li><li><em>a<sup>3</sup> - b<sup>3</sup> = (a - b)(a<sup>2</sup> + b<sup>2</sup> + ab)</em></li></ul></li><li><strong>Trigonometric Identities:</strong><ul><li><em>sin<sup>2</sup>&theta; + cos<sup>2</sup>&theta; = 1</em></li><li><em>cos(2&theta;) = cos<sup>2</sup>&theta; - sin<sup>2</sup>&theta;</em></li><li><em>sin(2&theta;) = 2 sin&theta; cos&theta;</em></li></ul></li><li><strong>Heights and Distances:</strong> Uses trigonometric ratios like <em>tan&theta; = Perpendicular / Base</em> and <em>cot&theta; = Base / Perpendicular</em> to find heights of objects and distances between points.</li></ul>",
+    "formulas": [
+      "a^3 + b^3 = (a + b)(a^2 + b^2 - ab)",
+      "a^3 - b^3 = (a - b)(a^2 + b^2 + ab)",
+      "sin^2(\\theta) + cos^2(\\theta) = 1",
+      "cos(2\\theta) = cos^2(\\theta) - sin^2(\\theta)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Right-angled triangle OPR representing a flagstaff of height h + 10 m. Point Q is 10 m below the top R. Ladder OQ is 10 m long. Angle of elevation of Q from O is 30 degrees, and angle of elevation of R from O is 60 degrees.",
+      "Triangle ABC representing an aeroplane at point A at an altitude of 1200 m (AD = 1200 m) above a river of width BC = 3000 m. The angles of depression to points B and C are 30 degrees and theta respectively."
+    ],
+    "details": {
+      "summary": "Trigonometric simplifications using algebraic identities and application of trigonometric ratios in solving heights and distances problems."
+    },
+    "mcq": {
+      "question": "What is the value of sin^2(45°) + cos^2(45°)?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "1/2"
+      ],
+      "correct": 1,
+      "explanation": "Using the standard identity sin^2(theta) + cos^2(theta) = 1, the value is 1."
+    },
+    "source_pdf": "Pathfinder-Truncated.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "note-set-theory-union",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Union and Intersection of Two Sets",
+    "text": "<p>For any two finite sets <strong>A</strong> and <strong>B</strong>, the number of elements in their union is given by the fundamental formula of set theory:</p><ul><li><strong>Formula:</strong> n(A ∪ B) = n(A) + n(B) - n(A ∩ B)</li><li>Where <em>n(A)</em> is the cardinality of set A, <em>n(B)</em> is the cardinality of set B, and <em>n(A ∩ B)</em> is the cardinality of their intersection.</li></ul>",
+    "formulas": [
+      "n(A \\cup B) = n(A) + n(B) - n(A \\cap B)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for finding the number of elements in the union of two sets."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "note-quadratic-roots-difference",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Difference of Roots",
+    "text": "<p>For a quadratic equation <strong>ax<sup>2</sup> + bx + c = 0</strong> with roots α and β:</p><ul><li>The sum of roots is given by: <strong>α + β = -b/a</strong></li><li>The product of roots is given by: <strong>αβ = c/a</strong></li><li>The absolute difference between the roots is given by: <strong>|α - β| = √D / |a|</strong>, where D = b<sup>2</sup> - 4ac is the discriminant.</li></ul>",
+    "formulas": [
+      "\\alpha + \\beta = -\\frac{b}{a}",
+      "\\alpha\\beta = \\frac{c}{a}",
+      "|\\alpha - \\beta| = \\frac{\\sqrt{b^2 - 4ac}}{|a|}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Relationship between roots and coefficients of a quadratic equation, specifically focusing on the difference of roots."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "note-complex-iota-powers",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Powers of Iota (i)",
+    "text": "<p>The imaginary unit <strong>i</strong> is defined as <strong>√(-1)</strong>. Its powers follow a cyclic pattern of period 4:</p><ul><li><strong>i<sup>4k</sup> = 1</strong></li><li><strong>i<sup>4k+1</sup> = i</strong></li><li><strong>i<sup>4k+2</sup> = -1</strong></li><li><strong>i<sup>4k+3</sup> = -i</strong></li></ul><p>For any integer <em>n</em>, the expression <strong>i<sup>-2n</sup></strong> simplifies to <strong>(-1)<sup>-n</sup></strong>, which can only result in <strong>1</strong> (if n is even) or <strong>-1</strong> (if n is odd).</p>",
+    "formulas": [
+      "i = \\sqrt{-1}",
+      "i^{-2n} = (-1)^{-n}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Behavior of powers of iota, specifically for even integer exponents."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "notes-quad-roots-001",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Quadratic Equations - Nature of Roots",
+    "text": "<p>For a standard quadratic equation of the form <strong>ax<sup>2</sup> + bx + c = 0</strong>, the nature of its roots is determined by the discriminant (<strong>D</strong>):</p><ul><li>If <strong>D = b<sup>2</sup> - 4ac &gt; 0</strong>, the roots are real and distinct.</li><li>If <strong>D = b<sup>2</sup> - 4ac = 0</strong>, the roots are real and equal.</li><li>If <strong>D = b<sup>2</sup> - 4ac &lt; 0</strong>, the roots are complex/imaginary.</li></ul>",
+    "formulas": [
+      "D = b^2 - 4ac"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "The discriminant determines whether the roots of a quadratic equation are real/distinct, real/equal, or imaginary."
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "notes-am-gm-trig-002",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Minimum Value using AM-GM Inequality",
+    "text": "<p>The Arithmetic Mean-Geometric Mean (AM-GM) inequality states that for any non-negative real numbers <em>a</em> and <em>b</em>:</p><p style=\"text-align: center;\"><strong>(a + b) / 2 &ge; &radic;(ab)</strong></p><p>This is highly useful in finding the minimum value of trigonometric expressions involving reciprocal terms like <strong>cos<sup>n</sup>(&theta;)</strong> and <strong>sec<sup>n</sup>(&theta;)</strong>, or <strong>tan<sup>n</sup>(&theta;)</strong> and <strong>cot<sup>n</sup>(&theta;)</strong>, since their product is 1.</p>",
+    "formulas": [
+      "(a + b) / 2 >= sqrt(a * b)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "AM-GM inequality can be applied to reciprocal trigonometric functions to find their minimum values in intervals where they are positive."
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "notes-lcm-prime-003",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "LCM of Prime Numbers",
+    "text": "<p>For any two prime numbers <strong>p</strong> and <strong>q</strong>, their highest common factor (HCF) is always 1. Consequently, their Least Common Multiple (LCM) is simply the product of the two numbers:</p><p style=\"text-align: center;\"><strong>LCM(p, q) = p &times; q</strong></p>",
+    "formulas": [
+      "LCM(p, q) = p * q"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "The LCM of any set of coprime or prime numbers is equal to their product."
+    },
+    "source_pdf": "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "pathfinder-cds-cover-2022-23",
+    "subject": "Defence",
+    "chapter": "Introduction",
+    "topic": "CDS Exam Overview",
+    "text": "<p><strong>Pathfinder CDS Combined Defence Services Entrance Examination (2022-23 Edition)</strong> is a comprehensive preparation guide published by <strong>Arihant Publications</strong>.</p><p>Key features of this edition include:</p><ul><li><strong>Complete Coverage of Syllabus:</strong> Comprehensive theoretical coverage of all subjects required for the CDS examination.</li><li><strong>More than 8000 MCQs:</strong> Extensive practice questions to reinforce learning and test preparation levels.</li><li><strong>Chapterwise Division of Previous Years' Questions:</strong> Systematic categorization of past exam questions to help candidates understand exam trends and high-yield topics.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "The cover page of the book features a soldier in full military camouflage gear, wearing a boonie hat, carrying a large tactical backpack, and holding an automatic machine gun. The background depicts a blurred green forest environment. The top left corner displays the yellow 'arihant' logo. The top right corner features a green chevron graphic with the text '2022-23 EDITION'. The main title 'Pathfinder CDS' is written in large, bold white font, with 'Combined Defence Services ENTRANCE EXAMINATION' printed below in yellow and green. A prominent yellow and green badge on the bottom left highlights 'More than 8000 MCQs', 'Complete Coverage of Syllabus', and 'Chapterwise Division of Previous Years' Questions'."
+    ],
+    "details": {
+      "summary": "Cover page details of the Arihant Pathfinder CDS Combined Defence Services Entrance Examination book (2022-23 Edition), outlining its core features including 8000+ MCQs, complete syllabus coverage, and chapterwise PYQs."
+    },
+    "mcq": null,
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "pathfinder-cds-cover-2022-23",
+    "subject": "Defence",
+    "chapter": "Introduction",
+    "topic": "Pathfinder CDS Book Overview",
+    "text": "<p><strong>Pathfinder CDS Combined Defence Services Entrance Examination</strong> is a comprehensive preparation guide published by <strong>Arihant Publications</strong> for the 2022-23 edition.</p><ul><li><strong>Key Features:</strong></li><li>More than <strong>8000+ MCQs</strong> included for practice.</li><li><strong>Complete Coverage</strong> of the prescribed syllabus.</li><li><strong>Chapterwise Division</strong> of Previous Years' Questions (PYQs).</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "The cover page features a soldier in full military combat gear, wearing a camouflage uniform, a boonie hat, and carrying a heavy tactical backpack. The soldier is holding an automatic rifle, set against a dark green, blurred forest background. The top left corner displays the 'arihant' logo, and the top right corner highlights the '2022-23 EDITION' badge."
+    ],
+    "details": {
+      "summary": "Cover page of Arihant's Pathfinder CDS (Combined Defence Services) Entrance Examination book for the 2022-23 edition, highlighting key features such as 8000+ MCQs, complete syllabus coverage, and chapterwise PYQs."
+    },
+    "mcq": null,
+    "source_pdf": "cds_material_part1.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "cds-pathfinder-english-adjective-kinds",
+    "subject": "English",
+    "chapter": "Adjective",
+    "topic": "Kinds of Adjective",
+    "text": "<p>An adjective is a word used with a noun or a pronoun to add something to its meaning.</p><h3>Kinds of Adjective</h3><h4>1. Proper Adjectives</h4><p>They are derived from proper nouns.</p><h4>2. Possessive Adjectives</h4><p><strong>My</strong>, <strong>our</strong>, <strong>your</strong>, <strong>his</strong>, <strong>their</strong>, <strong>her</strong>, <strong>its</strong> are called possessive adjectives.</p><h4>3. Adjectives of Quality</h4><p>It shows the traits of a person or a thing.</p><ul><li><em>Incorrect:</em> Flowers were plucked <strong>fresh</strong>.</li><li><em>Correct:</em> <strong>Fresh</strong> flowers were plucked.</li></ul><h4>4. Adjectives of Quantity</h4><p>It shows how much of a thing is meant. e.g., <em>Any</em>, <em>some</em>, <em>little</em>, etc.</p><p><strong>Note:</strong> However, if the question is a request or a command, 'some' replaces 'any'.</p><ul><li>Can I buy <em>something</em> from your shop?</li><li>Can I have <em>some</em> money?</li><li>Why don't you take <em>something</em>?</li></ul><h4>5. Adjectives of Number</h4><p>It shows how many persons or things are meant or in what order a person or thing stands. It is of three types, which are as follow:</p><ul><li><strong>(a) Definite Numeral Adjective:</strong> These adjectives denote exact number or order of persons/things. e.g., The first <em>three</em> benches of this class.</li><li><strong>(b) Indefinite Numeral Adjective:</strong> Few, many, less, more, some, any, etc. <br><strong>Use of Less, Little and Fewer:</strong> 'Less' denotes quantity and 'fewer' denotes number. e.g., No <em>fewer</em> than 10000 persons died in the Gujarat earthquake.</li><li><strong>(c) Distributive Numeral Adjective:</strong> Each and Every.<ul><li>'Each' is used in speaking of two or more things. The important point is that the things should be limited in number.</li><li>'Every' is used in speaking of more than two persons or things, where the things are not limited. e.g., <em>Every</em> day is important for someone or the other.</li></ul></li></ul><h4>6. Exclamatory Adjectives</h4><p>It is used to express surprise.</p><ul><li>e.g., What an idea!</li><li>e.g., What a piece of work!</li></ul><h4>7. Interrogative Adjectives</h4><p>These adjectives are used to ask questions.</p><ul><li>e.g., <em>Which</em> picture do you like the most?</li></ul><h4>8. Demonstrative Adjectives</h4><p>It points out which person or thing is meant.</p><ul><li>e.g., <em>This</em> boy is intelligent.</li><li>The plural forms 'these' and 'those' are often wrongly used with the singular nouns 'kind of' and 'sort of'. e.g., These <em>sorts</em> of questions are frequently asked in the exam.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Proper Nouns | Proper Adjectives |\n|---|---|\n| India | Indian |\n| China | Chinese |\n| Turkey | Turkish |\n| America | American |\n| Shakespeare | Shakespearian |",
+      "| Word | Meaning | Example |\n|---|---|---|\n| Verbal | It pertains to words. | His *verbal* words spoken *orally* are more dangerous than his figures on paper. |\n| Oral | It means mouth. | His *verbal* words spoken *orally* are more dangerous than his figures on paper. |\n| Common | Shared by all concerned. | It is *common* to everyone that India and Pakistan do not share a very good *mutual* understanding. |\n| Mutual | In relation to each other. | It is *common* to everyone that India and Pakistan do not share a very good *mutual* understanding. |",
+      "| Word | Meaning | Example |\n|---|---|---|\n| Little | 'Little' has a negative meaning and it means hardly any. | He has *little* hope of recovery. (i.e., he is not likely to recover). |\n| A Little | 'A little' has a positive meaning. It means some, though not much. | He has *a little* hope of recovery. (i.e. he may possibly recover). |\n| The little | 'The little' means not much but all there is. | *The little* money Bihar had has gone to Jharkhand. |\n| Any | 'Any' is used in negative or/and interrogative sentences. | I shall not buy *any* material from this shop. |\n| Some | 'Some' is used in affirmative sentences. | I shall buy *something* from this shop. |",
+      "| Word | Meaning | Example |\n|---|---|---|\n| Other | 'Other' means second of the two. | Call the *other* boy who is with you. |\n| Another | 'Another' means additional one. | There is *another* boy also who wants to meet you. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This section covers the definition and eight distinct kinds of adjectives (Proper, Possessive, Quality, Quantity, Number, Exclamatory, Interrogative, and Demonstrative) along with tables clarifying commonly confused words such as verbal/oral, common/mutual, little/a little/the little, any/some, other/another, and less/fewer."
+    },
+    "source_pdf": "cds_material_part2.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "july-ca-climate-fdi-2023",
+    "subject": "Current Affairs",
+    "chapter": "July Current Affairs",
+    "topic": "India's Climate Commitments (Panchamrit) and Foreign Direct Investment (FDI)",
+    "text": "<p>This lecture slide covers critical current affairs topics for defence exams like CDS and NDA, focusing on <strong>India's Climate Action Targets (Panchamrit)</strong> and <strong>Foreign Direct Investment (FDI)</strong> classifications.</p><h3>1. India's Climate Action & Carbon Emission Targets</h3><ul><li><strong>Carbon Emission Reduction:</strong> India aims to cut its projected carbon emissions by <strong>1 billion tonnes (1 Bn)</strong> by the year <strong>2030</strong>.</li><li><strong>Carbon Intensity:</strong> India plans to reduce the carbon intensity of its economy by <strong>45%</strong> by <strong>2030</strong>.</li><li><strong>Renewable Energy Capacity:</strong> Target to achieve <strong>500 GW</strong> of non-fossil fuel energy capacity by <strong>2030</strong>.</li><li><strong>Energy Mix:</strong> India aims to meet <strong>50%</strong> of its energy requirements from <strong>renewable energy sources</strong> by <strong>2030</strong>.</li><li><strong>Nuclear Energy:</strong> Mentioned as a key component of clean energy transition.</li><li><strong>Net Zero Target:</strong> India has committed to achieving the target of <strong>Net Zero emissions by 2070</strong>.</li></ul><h3>2. Foreign Direct Investment (FDI) Types</h3><ul><li><strong>Greenfield Investment:</strong> Refers to a parent company starting a new venture in a foreign country by constructing new operational facilities from the ground up (<strong>fresh development</strong>).</li><li><strong>Brownfield Investment:</strong> Occurs when an entity purchases or leases existing production facilities to launch a new activity (<strong>existing investment / already made</strong>).</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A lecture slide titled 'CURRENT AFFAIRS JULY' set against a background of the Indian national flag (saffron, white, and green). On the right side, there is an image of a young male instructor wearing a light blue shirt, dark trousers, and an orange SSB interview chest number '8'. The slide is heavily annotated with handwritten notes in yellow, white, and pink ink detailing India's climate targets for 2030 and 2070, alongside definitions of Greenfield and Brownfield investments."
+    ],
+    "details": {
+      "summary": "The slide summarizes India's key environmental commitments under the Panchamrit framework (including the 2030 targets for carbon reduction, renewable energy capacity, and the 2070 Net Zero target) and distinguishes between Greenfield and Brownfield Foreign Direct Investments."
+    },
+    "mcq": {
+      "question": "With reference to India's climate commitments, by which year has India targeted to achieve Net Zero carbon emissions?",
+      "options": [
+        "2030",
+        "2050",
+        "2060",
+        "2070"
+      ],
+      "correct": 3,
+      "explanation": "As declared at the COP26 summit in Glasgow, India has committed to achieving the target of Net Zero carbon emissions by the year 2070."
+    },
+    "source_pdf": "current_affairs.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "ssb-smart-work-formula-cover",
+    "subject": "Defence",
+    "chapter": "SSB Preparation",
+    "topic": "Smart Work Formula & SSB Insight",
+    "text": "<p>This document represents a promotional cover or introductory graphic titled <strong>SMART WORK FORMULA: INSIGHT SSB</strong>.</p><p>Key elements highlighted in the graphic include:</p><ul><li><strong>Main Title:</strong> SMART WORK FORMULA</li><li><strong>Subtitle:</strong> INSIGHT SSB</li><li><strong>Central Theme:</strong> CHEAT CODE (displayed inside a burning paper graphic element)</li><li><strong>Visual Representation:</strong> Features a female candidate in formal attire on the left and a male military officer in uniform on the right, symbolizing the journey and aspiration of SSB candidates.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A promotional graphic featuring a split composition. On the left, a young woman in a professional black blazer looks towards the right. On the right, a young man in an Indian Armed Forces uniform with a peak cap, shoulder epaulettes, and lanyard looks towards the left. In the center, a burning paper effect reveals the bold text 'CHEAT CODE'. The background shows a dramatic sunset sky with flying embers. The top text reads 'SMART WORK FORMULA' and 'INSIGHT SSB'. Watermarks reading 'Trayodh 8828890207' are scattered across the image."
+    ],
+    "details": {
+      "summary": "Promotional graphic for SSB (Services Selection Board) preparation titled 'Smart Work Formula: Insight SSB' featuring the phrase 'Cheat Code' in a burning paper style, depicting a candidate and an officer."
+    },
+    "source_pdf": "general_science_ssbcrack.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "ssbcrack-general-science-cover",
+    "subject": "General Science",
+    "chapter": "Book Overview",
+    "topic": "General Science Study Guide Features",
+    "text": "<p>This document represents the cover page of the <strong>General Science (Physics / Chemistry / Biology)</strong> preparation guide by SSBCrack, specifically designed for defence aspirants preparing for exams such as NDA, CDS, and AFCAT.</p><p>The guide contains the following key components:</p><ul><li><strong>600 MCQs with Explanation:</strong> Detailed solutions for conceptual clarity.</li><li><strong>600 Quiz Practice (MCQs):</strong> Practice questions to test knowledge retention.</li><li><strong>CDS Solved Questions:</strong> Previous years' questions specifically from the Combined Defence Services examination.</li><li><strong>AFCAT Solved Questions:</strong> Solved science section questions from the Air Force Common Admission Test.</li><li><strong>NDA Solved Questions:</strong> Solved science section questions from the National Defence Academy examination.</li><li><strong>1400 MCQs With Answers:</strong> A comprehensive question bank for thorough practice.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "The image is a book cover with a dark space-themed background showing stars and cosmic dust. On the left, an astronaut in a white spacesuit is floating. The main title 'GENERAL SCIENCE' is displayed in large, bold yellow capital letters. Below the title, the sub-disciplines 'Physics/Chemistry/Biology' are written in red, green, and magenta respectively. Five bullet points with orange checkmark icons list the book's features. The SSBCrack logo is located at the bottom-left corner, and a red PDF document icon with the text '1400 MCQs With Answers' is at the bottom-right corner."
+    ],
+    "details": {
+      "summary": "Overview of the SSBCrack General Science book cover, highlighting its contents including 1400+ MCQs, solved papers for CDS, NDA, and AFCAT, and practice quizzes covering Physics, Chemistry, and Biology."
+    },
+    "mcq": null,
+    "source_pdf": "insight_ssb_cheat_codes.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "notes-july-ca-001",
+    "subject": "Current Affairs",
+    "chapter": "July Current Affairs",
+    "topic": "India's Climate Targets (Panchamrit) and Investment Types",
+    "text": "<p>This section covers critical environmental targets committed by India at COP26 (Panchamrit) and key economic concepts related to Foreign Direct Investment (FDI).</p><h3>1. India's Climate and Energy Targets</h3><ul><li><strong>Non-Fossil Fuel Energy Capacity:</strong> India aims to reach <strong>500 GW</strong> of non-fossil energy capacity by <strong>2030</strong>.</li><li><strong>Renewable Energy Share:</strong> India plans to meet <strong>50%</strong> of its energy requirements from renewable energy sources by <strong>2030</strong>.</li><li><strong>Carbon Emissions Reduction:</strong> India will reduce its total projected carbon emissions by <strong>1 billion tonnes (1 bn)</strong> from now onwards till <strong>2030</strong>.</li><li><strong>Carbon Intensity Reduction:</strong> India aims to reduce the carbon intensity of its economy by <strong>45%</strong> by <strong>2030</strong> (from 2005 levels).</li><li><strong>Net Zero Target:</strong> India commits to achieving the target of <strong>Net Zero</strong> emissions by the year <strong>2070</strong>.</li><li><strong>Nuclear Energy:</strong> Mention of 100% nuclear energy targets/initiatives.</li></ul><h3>2. Types of Foreign Direct Investment (FDI)</h3><ul><li><strong>Greenfield Investment:</strong> Refers to a parent company starting a new venture or building new operational facilities from scratch (<strong>fresh development</strong>).</li><li><strong>Brownfield Investment:</strong> Occurs when an entity purchases or leases <strong>existing</strong> facilities to launch a new production activity (already made infrastructure).</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Investment Type | Definition | Nature of Project |\n|---|---|---|\n| **Greenfield Investment** | Fresh development from scratch | New facility/infrastructure |\n| **Brownfield Investment** | Investment in existing facilities | Already made/existing infrastructure |"
+    ],
+    "image_descriptions": [
+      "A YouTube thumbnail or lecture slide titled 'CURRENT AFFAIRS JULY' with a background resembling the Indian tricolor flag. On the right side, a young male instructor is standing, wearing a light blue shirt and an orange SSB interview chest number '8'. The slide is heavily annotated with handwritten notes in yellow, white, and pink ink. The notes outline India's climate goals for 2030 and 2070, and define Greenfield and Brownfield investments under the FDI category."
+    ],
+    "details": {
+      "summary": "This study note summarizes India's key climate action targets (Panchamrit) for 2030 and 2070, alongside a clear distinction between Greenfield and Brownfield Foreign Direct Investments (FDI)."
+    },
+    "mcq": {
+      "question": "According to India's climate commitments, by which year does the country aim to achieve Net Zero carbon emissions?",
+      "options": [
+        "2030",
+        "2045",
+        "2050",
+        "2070"
+      ],
+      "correct": 3,
+      "explanation": "India has committed to achieving the target of Net Zero emissions by the year 2070."
+    },
+    "source_pdf": "July_CA_Class.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "pathfinder-nda-na-cover-2022-23",
+    "subject": "Defence",
+    "chapter": "Introduction",
+    "topic": "Pathfinder NDA/NA Exam Guide Overview",
+    "text": "<p><strong>Pathfinder NDA/NA</strong> is a comprehensive guide published by <strong>Arihant Publications</strong> for the National Defence Academy & Naval Academy Entrance Examination (2022-23 Edition).</p><ul><li><strong>Key Feature 1:</strong> Contains more than 8000 MCQs for practice.</li><li><strong>Key Feature 2:</strong> Offers complete coverage of the prescribed syllabus.</li><li><strong>Key Feature 3:</strong> Features chapterwise division of previous years' questions.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "An Indian soldier in full combat gear kneeling down. The soldier is wearing a camouflage uniform, tactical helmet, ballistic goggles, and a face mask. He is holding a modern assault rifle equipped with an optical sight. A large green military rucksack is strapped to his back."
+    ],
+    "details": {
+      "summary": "This is the cover page of the Arihant Pathfinder NDA/NA Entrance Examination book (2022-23 Edition), highlighting key features such as 8000+ MCQs, complete syllabus coverage, and chapterwise previous years' questions."
+    },
+    "mcq": null,
+    "source_pdf": "nda_material_part1.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "nda-pathfinder-eng-adj-rules",
+    "subject": "English",
+    "chapter": "Spotting Errors",
+    "topic": "Rules on Adjectives and Adverbs",
+    "text": "<p>Understanding the correct application of adjectives and adverbs is critical for spotting errors in competitive exams like NDA/CDS.</p><ul><li><strong>Adjectives 'little' and 'few':</strong> These are not used to qualify the nouns <em>'quantity'</em> and <em>'number'</em>. Instead, use <strong>'small'</strong> (e.g., 'a small quantity' instead of 'a little quantity').</li><li><strong>Use of 'Too' vs 'Very':</strong> 'Too' has a negative connotation and should not be used with positive attributes like 'intelligent' unless followed by the infinitive 'to' (too... to). Use <strong>'very'</strong> instead (e.g., 'very intelligent').</li><li><strong>Comparative Adjectives:</strong> The definite article 'the' is generally not used before a comparative adjective (like 'greater') unless it is part of a parallel comparison or specific selection.</li><li><strong>'Little' vs 'A Little':</strong> <em>'Little'</em> means almost none (negative), whereas <em>'a little'</em> means some quantity (positive).</li><li><strong>Adverbial Modification:</strong> Ensure verbs are modified by adverbs, not adjectives (e.g., use <strong>'bluntly'</strong> instead of 'blunt' to modify a verb).</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Key rules governing the correct usage of adjectives (little, few, too, very) and adverbs in sentence correction."
+    },
+    "mcq": {
+      "question": "Identify the grammatically correct sentence:",
+      "options": [
+        "He showed little mercy, so they were saved.",
+        "There is a little hope of his recovery, so he might not survive.",
+        "He is too intelligent to solve this simple problem.",
+        "The population of the town is a small number compared to the city."
+      ],
+      "correct": 3,
+      "explanation": "'Small' correctly qualifies 'number'. 'Little' means almost none, which contradicts 'so they were saved' in option A. 'A little' means some, which contradicts 'might not survive' in option B. 'Too... to' in option C implies he cannot solve it because he is too intelligent, which is logically incorrect."
+    },
+    "source_pdf": "nda_material_part2.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "nda-pathfinder-eng-article-rules",
+    "subject": "English",
+    "chapter": "Spotting Errors",
+    "topic": "Rules on Articles",
+    "text": "<p>Articles (a, an, the) must be used precisely based on phonetic sounds and noun specificity.</p><ul><li><strong>The Article 'An' with 'Unique':</strong> 'Unique' begins with a consonant sound (/ju:/), so the indefinite article <strong>'a'</strong> must be used instead of 'an' (e.g., 'a unique opportunity').</li><li><strong>Abstract Nouns:</strong> Articles are generally omitted before abstract nouns (e.g., 'silence', 'honesty') when used in a general sense.</li><li><strong>Religious Books:</strong> The definite article <strong>'the'</strong> must be used before the names of holy/religious books (e.g., <em>'The Gita'</em>, <em>'The Bible'</em>).</li><li><strong>Nationalities and Peoples:</strong> Use <strong>'the'</strong> to refer to a group of people or nationality (e.g., <em>'the Greeks'</em> to mean the people of Greece).</li><li><strong>Specific Rates/Nouns:</strong> Use <strong>'the'</strong> when referring to a specific rate or particular metric (e.g., 'the infant mortality rate').</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for using definite and indefinite articles with unique words, abstract nouns, religious texts, nationalities, and specific metrics."
+    },
+    "mcq": {
+      "question": "Which of the following sentences contains an error in article usage?",
+      "options": [
+        "He is a unique person.",
+        "We must respect the Gita.",
+        "The Greeks were known for their philosophical schools.",
+        "He was silence during the entire meeting."
+      ],
+      "correct": 3,
+      "explanation": "Option D is grammatically incorrect; 'silence' is an abstract noun and cannot be used directly in this manner without proper prepositional or adjectival structure (e.g., 'He was silent' or 'He kept silence')."
+    },
+    "source_pdf": "nda_material_part2.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "nda-pathfinder-eng-conjunction-rules",
+    "subject": "English",
+    "chapter": "Spotting Errors",
+    "topic": "Rules on Conjunctions and Correlatives",
+    "text": "<p>Conjunctions connect clauses and must follow strict correlative pairings.</p><ul><li><strong>No Sooner... Than:</strong> The correlative conjunction <strong>'No sooner'</strong> must always be followed by <strong>'than'</strong>, never 'when'.</li><li><strong>Double Negatives:</strong> Avoid using two negative words in a single clause (e.g., do not use 'not' and 'seldom' together, or 'unless' with 'not').</li><li><strong>Neither... Nor:</strong> The correlative pair for <strong>'neither'</strong> is <strong>'nor'</strong>, not 'or'.</li><li><strong>Indirect Interrogatives:</strong> In indirect speech, do not use the conjunction <strong>'that'</strong> before an interrogative word (e.g., 'He asked me what...' instead of 'He asked me that what...').</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Correlative conjunction pairings and rules to avoid double negatives and redundant conjunctions in indirect speech."
+    },
+    "mcq": {
+      "question": "Choose the grammatically correct sentence:",
+      "options": [
+        "No sooner had he arrived when it started to rain.",
+        "Neither his brother or his sister attended the function.",
+        "Unless you do not work hard, you will fail.",
+        "No sooner had he arrived than it started to rain."
+      ],
+      "correct": 3,
+      "explanation": "'No sooner' is correctly paired with 'than' in option D. Option A incorrectly uses 'when'. Option B incorrectly uses 'or' with 'neither'. Option C incorrectly uses 'not' with 'unless'."
+    },
+    "source_pdf": "nda_material_part2.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "nda-pathfinder-eng-preposition-rules",
+    "subject": "English",
+    "chapter": "Spotting Errors",
+    "topic": "Prepositions and Phrasal Verbs",
+    "text": "<p>Prepositions must align with specific verbs to form correct idiomatic expressions and phrasal verbs.</p><ul><li><strong>Referred to:</strong> The correct prepositional usage is <strong>'referred to'</strong>, not 'referred for'.</li><li><strong>Connive at:</strong> The verb 'connive' is paired with the preposition <strong>'at'</strong> (e.g., 'connive at' means to tacitly allow or overlook a wrongdoing).</li><li><strong>Angry with vs. Angry at:</strong> Use <strong>'angry with'</strong> when referring to a person (e.g., 'angry with him') and 'angry at' for situations/things.</li><li><strong>Distinguish from:</strong> The verb 'distinguish' is paired with <strong>'from'</strong> (e.g., 'distinguish A from B').</li><li><strong>Enter (No Preposition for Physical Entry):</strong> Do not use 'into' after 'enter' when referring to entering a physical space (e.g., 'enter the room', not 'enter into the room').</li><li><strong>Inform of vs. Inform about:</strong> <strong>'Inform of'</strong> refers to sharing the existence of something, while <strong>'inform about'</strong> refers to sharing detailed information.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A guide to correct prepositional pairings with verbs like refer, connive, angry, distinguish, enter, and inform."
+    },
+    "mcq": {
+      "question": "Fill in the blank with the correct preposition: 'The teacher was angry ______ the student for his misbehavior.'",
+      "options": [
+        "at",
+        "with",
+        "on",
+        "for"
+      ],
+      "correct": 1,
+      "explanation": "When expressing anger towards a person, 'angry with' is the correct idiomatic usage."
+    },
+    "source_pdf": "nda_material_part2.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "pathfinder-cds-cover-2020-21",
+    "subject": "Defence",
+    "chapter": "Introduction",
+    "topic": "Pathfinder CDS Exam Guide Overview",
+    "text": "<p><strong>Pathfinder CDS Combined Defence Services Entrance Examination</strong> is a comprehensive preparation guide published by <strong>Arihant Publications</strong> (2020-21 Edition).</p><p>Key features of this book include:</p><ul><li><strong>More than 8000 MCQs</strong> for extensive practice.</li><li><strong>Complete Coverage of Syllabus</strong> for the CDS Entrance Examination.</li><li><strong>Chapterwise Division</strong> of Previous Years' Questions.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Cover page of Arihant Pathfinder CDS Combined Defence Services Entrance Examination book (2020-21 Edition). The background is dark green with orange accents. It features a soldier in military camouflage gear, wearing a cap and a face mask, aiming an assault rifle. The text 'Pathfinder CDS' is prominently displayed in large teal and orange fonts."
+    ],
+    "details": {
+      "summary": "Cover page details of the Arihant Pathfinder CDS Entrance Examination book, highlighting its features like 8000+ MCQs and chapterwise PYQs."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part1.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "cds-pathfinder-vocab-h-i",
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "topic": "Synonyms and Antonyms",
+    "text": "<p><strong>Habituated</strong>: Used to something, especially something unpleasant.<br><ul><li><strong>Synonyms:</strong> Accustom, Adapt</li><li><strong>Antonyms:</strong> Avoid, Shun</li><li><strong>Example:</strong> <em>Bears can become habituated to people easily.</em></li></ul></p><p><strong>Haggard</strong>: Looking exhausted or unwell, especially from fatigue, worry or suffering.<br><ul><li><strong>Synonyms:</strong> Drained, Tired</li><li><strong>Antonyms:</strong> Fresh, Healthy</li><li><strong>Example:</strong> <em>The athletes looked haggard after the race.</em></li></ul></p><p><strong>Haggle</strong>: Dispute or bargain persistently.<br><ul><li><strong>Synonyms:</strong> Barter, Negotiate</li><li><strong>Antonyms:</strong> Concur, Comply</li><li><strong>Example:</strong> <em>Customers often haggle with the seller.</em></li></ul></p><p><strong>Hallowed</strong>: Very respected and praised because of great importance or great age.<br><ul><li><strong>Synonyms:</strong> Holy, Sacred</li><li><strong>Antonyms:</strong> Cursed, Unholy</li><li><strong>Example:</strong> <em>The site of the ancient temple is a hallowed ground.</em></li></ul></p><p><strong>Hapless</strong>: Having no luck; very unfortunate.<br><ul><li><strong>Synonyms:</strong> Unlucky, Ill-fated</li><li><strong>Antonyms:</strong> Fortunate, Lucky</li><li><strong>Example:</strong> <em>She plays the hapless heroine who is unlucky in love.</em></li></ul></p><p><strong>Harrowing</strong>: Extremely upsetting because connected with suffering.<br><ul><li><strong>Synonyms:</strong> Tortuous, Painful</li><li><strong>Antonyms:</strong> Calming, Comforting</li><li><strong>Example:</strong> <em>The harrowing news reached the village.</em></li></ul></p><p><strong>Headstrong</strong>: Very determined to do what one wants without listening to others.<br><ul><li><strong>Synonyms:</strong> Wilful, Strong-willed</li><li><strong>Antonyms:</strong> Undetermined, Tractable</li><li><strong>Example:</strong> <em>Being headstrong by nature, he did not listen to his wife's advice.</em></li></ul></p><p><strong>Heady</strong>: Having a strong exhilarating effect.<br><ul><li><strong>Synonyms:</strong> Exciting, Thrilling</li><li><strong>Antonyms:</strong> Boring, Dull</li><li><strong>Example:</strong> <em>The party seems heady today.</em></li></ul></p><p><strong>Hector</strong>: Talk to someone in a bullying way.<br><ul><li><strong>Synonyms:</strong> Intimidate, Badger</li><li><strong>Antonyms:</strong> Please, Assist</li><li><strong>Example:</strong> <em>The senior guy was hectoring the junior.</em></li></ul></p><p><strong>Heedless</strong>: Not giving attention to a risk or possible difficulty.<br><ul><li><strong>Synonyms:</strong> Inattentive, Oblivious</li><li><strong>Antonyms:</strong> Needful, Attentive</li><li><strong>Example:</strong> <em>He was driving heedlessly.</em></li></ul></p><p><strong>Heinous</strong>: Outrageously evil; horrifying.<br><ul><li><strong>Synonyms:</strong> Wicked, Atrocious</li><li><strong>Antonyms:</strong> Admirable, Delightful</li><li><strong>Example:</strong> <em>The man is facing charges over his heinous act.</em></li></ul></p><p><strong>Herald</strong>: To be a sign of something that is going to come or happen soon.<br><ul><li><strong>Synonyms:</strong> Indicator, Sign</li><li><strong>Antonyms:</strong> Aforeseen</li><li><strong>Example:</strong> <em>The early flowers are heralds of spring.</em></li></ul></p><p><strong>Horrendous</strong>: Shocking; horrible.<br><ul><li><strong>Synonyms:</strong> Dreadful, Alarming</li><li><strong>Antonyms:</strong> Pleasing, Wonderful</li><li><strong>Example:</strong> <em>Conditions in the refugee camps were horrendous.</em></li></ul></p><p><strong>Humane</strong>: Having or showing compassion.<br><ul><li><strong>Synonyms:</strong> Compassionate, Kind</li><li><strong>Antonyms:</strong> Unkind, Inhumane</li><li><strong>Example:</strong> <em>It is not humane to treat animals cruelly.</em></li></ul></p><p><strong>Hypothetical</strong>: Based on a situation that is not real, but that might happen.<br><ul><li><strong>Synonyms:</strong> Imaginary, Theoretical</li><li><strong>Antonyms:</strong> Real, Actual</li><li><strong>Example:</strong> <em>She described a hypothetical case to clarify her point.</em></li></ul></p><p><strong>Idolatry</strong>: Very great admiration or respect for someone, often too great.<br><ul><li><strong>Synonyms:</strong> Reverence, Adoration</li><li><strong>Antonyms:</strong> Vilification, Condemnation</li><li><strong>Example:</strong> <em>Newton was revered to the point of idolatry.</em></li></ul></p><p><strong>Impertinent</strong>: Rude and not showing respect towards someone older or in a higher position than you.<br><ul><li><strong>Synonyms:</strong> Disrespectful, Rude</li><li><strong>Antonyms:</strong> Polite, Mannered</li><li><strong>Example:</strong> <em>Its impertinent to ask strangers about their private lives.</em></li></ul></p><p><strong>Implausible</strong>: Not believable or realistic.<br><ul><li><strong>Synonyms:</strong> Unbelievable, Doubtful</li><li><strong>Antonyms:</strong> Reasonable, Convincing</li><li><strong>Example:</strong> <em>She's been making implausible claims.</em></li></ul></p><p><strong>Impolitic</strong>: Unwise words or actions that are likely to cause offence or problems.<br><ul><li><strong>Synonyms:</strong> Unwise, Imprudent</li><li><strong>Antonyms:</strong> Wise, Prudent</li><li><strong>Example:</strong> <em>I thought it impolitic to ask any question about her ex.</em></li></ul></p><p><strong>Improvident</strong>: Not giving thought to the future.<br><ul><li><strong>Synonyms:</strong> Heedless, Inconsiderate</li><li><strong>Antonyms:</strong> Provident, Farsighted</li><li><strong>Example:</strong> <em>He is improvident about his career.</em></li></ul></p><p><strong>Inalienable</strong>: Not subject to being taken away from or given by the possessor.<br><ul><li><strong>Synonyms:</strong> Absolute, Inviolable</li><li><strong>Antonyms:</strong> Changeable, Alienable</li><li><strong>Example:</strong> <em>The group of women wanted equal inalienable rights as men.</em></li></ul></p><p><strong>Incorrigible</strong>: Beyond correction or change.<br><ul><li><strong>Synonyms:</strong> Hardened, Hopeless</li><li><strong>Antonyms:</strong> Correctable, Changeable</li><li><strong>Example:</strong> <em>She is an incorrigible chatterbox.</em></li></ul></p><p><strong>Incredulous</strong>: Not able or willing to believe something.<br><ul><li><strong>Synonyms:</strong> Mistrustful, Doubtful</li><li><strong>Antonyms:</strong> Believing, Credulous</li><li><strong>Example:</strong> <em>Everyone laughed the incredulous stories of the old man.</em></li></ul></p><p><strong>Indigent</strong>: Very poor.<br><ul><li><strong>Synonyms:</strong> Penniless, Destitute</li><li><strong>Antonyms:</strong> Rich, Affluent</li><li><strong>Example:</strong> <em>The heavy losses he incurred in business rendered him indigent.</em></li></ul></p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Graphic icon of letter 'H' inside a dark square box with vertical white stripes on the sides.",
+      "Graphic icon of letter 'I' inside a dark square box with vertical white stripes on the sides."
+    ],
+    "details": {
+      "summary": "Comprehensive vocabulary list of words starting with 'H' and 'I' from CDS Pathfinder, including definitions, synonyms, antonyms, and usage examples."
+    },
+    "mcq": {
+      "question": "What is the synonym of the word 'Indigent'?",
+      "options": [
+        "Affluent",
+        "Destitute",
+        "Rich",
+        "Generous"
+      ],
+      "correct": 1,
+      "explanation": "The word 'Indigent' means very poor. Its synonym is 'Destitute' or 'Penniless'."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "ca-july-targets-fdi-01",
+    "subject": "Current Affairs",
+    "chapter": "July Current Affairs",
+    "topic": "India's Climate Commitments and FDI Types",
+    "text": "<p>This section covers key environmental targets committed by India (Panchamrit targets) and fundamental concepts of Foreign Direct Investment (FDI).</p><h3>1. India's Climate Action & Energy Targets</h3><ul><li><strong>Non-Fossil Energy Capacity:</strong> Reach <strong>500 GW</strong> of non-fossil energy capacity by <strong>2030</strong>.</li><li><strong>Renewable Energy Share:</strong> Meet <strong>50%</strong> of India's energy requirements from renewable energy sources by <strong>2030</strong>.</li><li><strong>Carbon Emission Reduction:</strong> Reduce total projected carbon emissions by <strong>1 billion tonnes (1 bn)</strong> from now onwards till <strong>2030</strong>.</li><li><strong>Carbon Intensity Reduction:</strong> Reduce the carbon intensity of the economy by <strong>45%</strong> by <strong>2030</strong>.</li><li><strong>Net Zero Target:</strong> Achieve the target of <strong>Net Zero</strong> emissions by <strong>2070</strong>.</li></ul><h3>2. Foreign Direct Investment (FDI) Classifications</h3><ul><li><strong>Greenfield Investment:</strong> Refers to investment in a completely new project or <em>fresh development</em> where no previous infrastructure exists.</li><li><strong>Brownfield Investment:</strong> Refers to investment in an <em>existing</em> project or facility where operations are already made/established.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A lecture slide thumbnail with a background of the Indian tricolor flag. On the right side, a man is standing wearing a light blue shirt, dark trousers, and an orange vest with the number '8' printed on it. The slide contains handwritten notes in various colors (orange, green, white, yellow, pink) detailing India's climate action targets for 2030/2070 and definitions of Greenfield and Brownfield investments."
+    ],
+    "details": {
+      "summary": "This slide covers key Indian current affairs topics: India's 2030 climate commitments (Panchamrit targets) including 500 GW non-fossil energy, 50% renewable energy share, 1 billion tonne carbon emission reduction, 45% carbon intensity reduction, and Net Zero by 2070, alongside economic definitions of Greenfield and Brownfield Foreign Direct Investments (FDI)."
+    },
+    "mcq": {
+      "question": "Which of the following correctly describes a 'Greenfield Investment'?",
+      "options": [
+        "Investment in an existing company or facility",
+        "Investment in a completely new project or fresh development",
+        "Investment solely in government securities",
+        "Investment in agricultural land only"
+      ],
+      "correct": 1,
+      "explanation": "Greenfield investment refers to a type of foreign direct investment where a company establishes operations in a foreign country by building new operational facilities from the ground up ('fresh development')."
+    },
+    "source_pdf": "temp.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "afcat-2024-english-grammar-rules",
+    "subject": "English",
+    "chapter": "Verbal Ability in English",
+    "topic": "Grammar Rules and Common Errors",
+    "text": "<p>This section covers essential grammatical rules tested in defence examinations like AFCAT, focusing on Subject-Verb Agreement, Preposition Usage, and Noun Pluralization.</p><ul><li><strong>Subject-Verb Agreement with 'Neither of':</strong> The phrase 'neither of' is followed by a plural noun or pronoun, but it always takes a <strong>singular verb</strong> because it refers to 'none of the two' individually. <br><em>Example:</em> Neither of the men <strong>is</strong> (not <em>are</em>) available.</li><li><strong>Usage of 'Await' vs. 'Wait':</strong> The verb 'await' is transitive and does not take the preposition 'for'. Conversely, 'wait' is intransitive and requires 'for' when followed by an object. <br><em>Formula:</em> Await = Wait for. <br><em>Example:</em> Awaiting the results OR Waiting for the results.</li><li><strong>Irregular Plurals:</strong> Some nouns have irregular plural forms and do not take 's' or 'es'. For example, the plural of 'child' is 'children'. Writing 'childrens' is grammatically incorrect.</li><li><strong>Nouns always used in Plural Form:</strong> Certain nouns representing tools or articles of dress consisting of two parts are always used in the plural form and take plural verbs (e.g., scissors, trousers, spectacles). To make them singular, use 'a pair of'. <br><em>Example:</em> He bought <strong>a pair of scissors</strong> (not <em>a scissors</em>).</li></ul>",
+    "formulas": [
+      "Await = Wait + For"
+    ],
+    "tables": [
+      "| Incorrect Usage | Correct Usage |\n|---|---|\n| Neither of them are present | Neither of them is present |\n| Awaiting for the response | Awaiting the response / Waiting for the response |\n| Childrens | Children |\n| A scissors | A pair of scissors |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A concise compilation of high-yield English grammar rules covering subject-verb agreement, transitive/intransitive verbs, and noun errors frequently tested in AFCAT."
+    },
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "afcat-2024-vocabulary-synonyms",
+    "subject": "English",
+    "chapter": "Verbal Ability in English",
+    "topic": "Vocabulary and Synonyms",
+    "text": "<p>Key vocabulary words extracted from AFCAT 2024 with their meanings, synonyms, and contextual usage:</p><ul><li><strong>Dilemma:</strong> A state of uncertainty or a difficult situation where a choice has to be made between two or more alternatives. <br><em>Synonyms:</em> Quandary, predicament, plight.</li><li><strong>Blare:</strong> To make a loud, harsh, and noisy sound. <br><em>Synonyms:</em> Roar, blast, resound.</li><li><strong>Decrepit:</strong> Worn out, ruined, or weakened due to old age, illness, or long use. <br><em>Synonyms:</em> Dilapidated, feeble, run-down.</li><li><strong>Tyranny:</strong> Cruel, unreasonable, or arbitrary use of power or control by a ruler. <br><em>Synonyms:</em> Oppression, despotism, autocracy.</li><li><strong>Callous:</strong> Showing or having an insensitive and cruel disregard for others. <br><em>Synonyms:</em> Unfeeling, heartless, cold-blooded.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Word | Part of Speech | Primary Synonym | Antonym |\n|---|---|---|---|\n| Dilemma | Noun | Quandary | Resolution |\n| Blare | Verb / Noun | Roar | Whisper / Hum |\n| Decrepit | Adjective | Dilapidated | Sturdy / Robust |\n| Tyranny | Noun | Oppression | Autonomy / Democracy |\n| Callous | Adjective | Insensitive | Compassionate |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Vocabulary list containing synonyms, antonyms, and grammatical classifications of words from AFCAT Solved Paper-II 2024."
+    },
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "afcat-2025-math-history-zero-concept",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Concept of Zero",
+    "text": "<p>The concept of zero, often taken for granted in modern mathematics, is a relatively recent intellectual achievement in the long history of human civilization. While ancient cultures like the Babylonians used a placeholder symbol to indicate an empty position in their sexagesimal system, this was not equivalent to our modern notion of zero as a number. The true mathematical zero, representing both “nothingness” and functioning as an independent number with arithmetic properties, was first developed in India around the 5th century CE.</p><p>The Indian scholar Brahmagupta formalized rules for arithmetic involving zero, including addition, subtraction, and multiplication, though he struggled with division by zero.</p><p>From India, the idea spread to the Islamic world, where scholars translated and expanded upon Indian texts, integrating zero into the Arabic numeral system. The Arabic term “sifr,” meaning empty, eventually evolved into the word “zero” in European languages. By the 12th century, with the translation of Arabic mathematical works into Latin, zero entered European thought, profoundly transforming mathematics, commerce, and science.</p><p>Zero’s adoption met resistance in Europe. It was considered mysterious and even dangerous, partly because it was linked to Arabic culture and partly because its abstraction defied common sense. Yet, once fully accepted, zero became indispensable, enabling advancements in algebra, calculus, and eventually, modern computing. Thus, what began as a humble placeholder evolved into a cornerstone of human intellectual progress.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This passage details the historical development and acceptance of the concept of zero, from its early use as a placeholder by Babylonians to its formalization in India by Brahmagupta, its spread through Islamic scholars, and its eventual, though initially resisted, adoption in Europe, leading to significant advancements in mathematics and science."
+    },
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "exam-instructions-2020-general-studies-paper-1",
+    "subject": "General Studies",
+    "chapter": "Exam Instructions",
+    "topic": "General Instructions for Test Booklet",
+    "text": "<h1>Instructions</h1><ol><li>Immediately after the commencement of the examination, you should check this test booklet to ensure that it does not have any unprinted, torn or missing pages or items, etc. If so, get it replaced by a correct test booklet.</li><li>Please note that it is the candidate's responsibility to fill in the Roll Number and Test Booklet Series A, B, C or D carefully and without any error or omission in the OMR Answer Sheet at the appropriate place. Any error/omission in filling/encoding will lead to the cancellation of the Answer Sheet.</li><li>You have to write your Roll Number in the box provided alongside in this Test Booklet. Do not write anything else on the Test Booklet.</li><li>This Test Booklet contains 100 items (questions). Each item is printed in both Hindi and English. Each item has four responses (answers). You have to choose one response which you want to mark on the Answer Sheet. If you feel that there is more than one correct response, mark the response which you consider the best. You have to choose only one response for each item.</li><li>You have to mark all your responses ONLY on the separate Answer Sheet provided. See the instructions given in the Answer Sheet.</li><li>All items carry equal marks.</li><li>Before you start marking responses to various items in the Answer Sheet, you have to fill in some particulars in the Answer Sheet as per instructions sent with your Admission Certificate.</li><li>After you have marked all your responses on the Answer Sheet and the examination has concluded, you should hand over ONLY the Answer Sheet to the Invigilator. You are permitted to take away the Test Booklet with you.</li><li>Sheets for rough work are appended in the Test Booklet.</li><li><h2>Penalty for wrong answers:</h2><p>There will be penalty for wrong answers marked by a candidate in the Objective Type Question Papers.</p><ul><li>For each question for which a wrong answer has been given by the candidate, one-third of the marks assigned to that question will be deducted as penalty.</li><li>If a candidate gives more than one answer, it will be treated as a wrong answer even if one of the given answers happens to be correct and there will be same penalty as above to that question.</li><li>If a candidate does not attempt a question, i.e., does not give any answer, no penalty will be given for that question.</li></ul></li></ol><p>Note: English version of the instructions is printed on the back cover of this Booklet.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This document outlines the general instructions for candidates appearing in the CS (P) Exam 2020, General Studies Paper-I. It covers checking the test booklet, filling the OMR sheet, writing roll number, number of questions (100), language of questions (Hindi and English), marking responses, equal marks for all questions, filling particulars on the answer sheet, handing over the answer sheet, rough work sheets, and the penalty for wrong answers (one-third of marks deducted for each wrong answer, no penalty for unattempted questions). The exam duration is 2 hours and the maximum marks are 200."
+    },
+    "mcq": {},
+    "source_pdf": "AFCAT Papers\\CAPF Paper 1 & CSE papers\\CSP_2020_GS_Paper-1.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "err-429-wikimedia",
+    "subject": "Miscellaneous",
+    "chapter": "Computer Networks",
+    "topic": "HTTP Error Codes",
+    "text": "<p><strong>HTTP Error 429: Too Many Requests</strong> occurs when a user has sent too many requests in a given amount of time (rate limiting).</p><p>The provided image displays a Wikimedia system error page with the following details:</p><ul><li><strong>Error Code:</strong> 429, Too Many Requests (015d12c)</li><li><strong>Server/Cache:</strong> cp5026 cp5026, Varnish XID 227880626</li><li><strong>Upstream Caches:</strong> cp5026 int</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:34:51 GMT</li><li><strong>Client IP Address:</strong> 49.43.27.17</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "An error page from Wikimedia showing a 'Too Many Requests (015d12c)' message with technical details including Varnish XID, upstream caches, timestamp, and client IP address."
+    ],
+    "details": {
+      "summary": "Wikimedia system error page indicating an HTTP 429 Too Many Requests rate-limiting event."
+    },
+    "mcq": {
+      "question": "Which HTTP status code is returned when a user has sent too many requests in a given amount of time?",
+      "options": [
+        "400 Bad Request",
+        "403 Forbidden",
+        "404 Not Found",
+        "429 Too Many Requests"
+      ],
+      "correct": 3,
+      "explanation": "HTTP 429 Too Many Requests is a standard response status code indicating the user has sent too many requests in a given amount of time ('rate limiting')."
+    },
+    "source_pdf": "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "wikimedia-error-429-analysis",
+    "subject": "Science & Technology",
+    "chapter": "Computer Networks and Web Technologies",
+    "topic": "HTTP Status Codes and Server Errors",
+    "text": "<p><strong>HTTP Error 429 (Too Many Requests)</strong> is an HTTP client error status code indicating that the user has sent too many requests in a given amount of time (rate limiting).</p><p>The document displays a Wikimedia System Error page containing the following technical details:</p><ul><li><strong>Error Message:</strong> Too Many Requests (015d12c)</li><li><strong>Request Server:</strong> cp5026 cp5026</li><li><strong>Varnish XID:</strong> 222835960</li><li><strong>Upstream Caches:</strong> cp5026 int</li><li><strong>Error Code:</strong> 429</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:31:46 GMT</li><li><strong>Client IP Address:</strong> 49.43.27.17</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A screenshot of a Wikimedia System Error page. The text displays 'Error' followed by 'Too Many Requests (015d12c)'. Below, a light grey box contains instructions to report the error to Wikimedia System Administrators, listing technical details such as request server cp5026, Varnish XID 222835960, upstream caches cp5026 int, error code 429, timestamp Thu, 16 Jul 2026 08:31:46 GMT, and client IP address 49.43.27.17."
+    ],
+    "details": {
+      "summary": "An analysis of an HTTP 429 (Too Many Requests) error page served by Wikimedia system administrators, detailing rate-limiting indicators and server metadata."
+    },
+    "mcq": null,
+    "source_pdf": "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Resources\\Indian_Mineral_Provinces.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "err-429-wikimedia",
+    "subject": "Miscellaneous",
+    "chapter": "System Errors",
+    "topic": "HTTP 429 Too Many Requests",
+    "text": "<p>The provided document is an error page indicating a <strong>429 Too Many Requests</strong> error from the Wikimedia system.</p><p>Key details from the error message include:</p><ul><li><strong>Error Code:</strong> 429 (Too Many Requests)</li><li><strong>Varnish XID:</strong> 776405203</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:34:27 GMT</li><li><strong>IP Address:</strong> 2405:201:1e:b1c3:59fd:9c62:6ce:89e0</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A screenshot of a Wikimedia system error page displaying a 'Too Many Requests (015d12c)' message with technical details inside a light grey box."
+    ],
+    "details": {
+      "summary": "The document is a system error page (HTTP 429) from Wikimedia, indicating that too many requests were sent in a given amount of time."
+    },
+    "source_pdf": "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "wikimedia-error-429",
+    "subject": "Science & Technology",
+    "chapter": "Computer Networks and Internet Protocols",
+    "topic": "HTTP Status Codes and Server Errors",
+    "text": "<p>The document is an error report page from the Wikimedia System Administrators indicating a rate-limiting event.</p><ul><li><strong>Error Type:</strong> HTTP 429 Too Many Requests (015d12c)</li><li><strong>Request Served Via:</strong> cp5026 cp5026, Varnish XID 217984907</li><li><strong>Upstream Caches:</strong> cp5026 int</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:30:19 GMT</li><li><strong>Sensitive Client Information:</strong> IP address 49.43.27.17</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A screenshot of a web browser error page displaying 'Error: Too Many Requests (015d12c)' with a grey box containing technical details for Wikimedia System Administrators."
+    ],
+    "details": {
+      "summary": "An HTTP 429 error page indicating that the client has sent too many requests in a given amount of time, resulting in rate limiting by the Wikimedia servers."
+    },
+    "mcq": {
+      "question": "Which HTTP status code is returned when a user has sent too many requests in a given amount of time?",
+      "options": [
+        "HTTP 400",
+        "HTTP 403",
+        "HTTP 404",
+        "HTTP 429"
+      ],
+      "correct": 3,
+      "explanation": "HTTP status code 429 indicates 'Too Many Requests', which is used for rate limiting client requests."
+    },
+    "source_pdf": "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "wikimedia-error-429",
+    "subject": "Miscellaneous",
+    "chapter": "System Errors",
+    "topic": "HTTP 429 Too Many Requests",
+    "text": "<p><strong>Error: Too Many Requests (015d12c)</strong></p><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><ul><li>Request served via: cp5026 cp5026, Varnish XID 248580822</li><li>Upstream caches: cp5026 int</li><li>Error: 429, Too Many Requests (015d12c) at Thu, 16 Jul 2026 08:30:17 GMT</li><li>Sensitive client information IP address: 49.43.27.17</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A screenshot of a Wikimedia system error page showing a 'Too Many Requests' 429 error with technical details including Varnish XID, timestamp, and IP address."
+    ],
+    "details": {
+      "summary": "Wikimedia System Error 429 (Too Many Requests) page containing request details, timestamp, and client IP address."
+    },
+    "mcq": null,
+    "source_pdf": "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\World\\Major_World_Straits.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "error-page-wikimedia",
+    "subject": "Miscellaneous",
+    "chapter": "System Errors",
+    "topic": "HTTP 429 Too Many Requests",
+    "text": "<p>The document is an error page from the Wikimedia System Administrators.</p><p><strong>Error Type:</strong> 429 Too Many Requests (015d12c)</p><p><strong>Details:</strong></p><ul><li>Request served via: cp5028 cp5028, Varnish XID 759600226</li><li>Upstream caches: cp5028 int</li><li>Timestamp: Thu, 16 Jul 2026 08:29:26 GMT</li><li>IP Address: 2405:201:1e:b1c3:59fd:9c62:6ce:89e0</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "An image placeholder link at the top, followed by the text 'Error' and 'Too Many Requests (015d12c)'. Below is a grey box containing technical details of the Wikimedia system error."
+    ],
+    "details": {
+      "summary": "Wikimedia HTTP 429 Too Many Requests error page."
+    },
+    "mcq": null,
+    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "err-429-wikimedia",
+    "subject": "Miscellaneous",
+    "chapter": "Computer Networks",
+    "topic": "HTTP Error Codes",
+    "text": "<p><strong>HTTP 429 Too Many Requests</strong> is an HTTP status code indicating that the user has sent too many requests in a given amount of time (\"rate limiting\").</p><p>The provided document is a Wikimedia System Error page containing the following details:</p><ul><li><strong>Error Type:</strong> Too Many Requests (015d12c)</li><li><strong>Error Code:</strong> 429</li><li><strong>Request Served Via:</strong> cp5028 cp5028, Varnish XID 759600226</li><li><strong>Upstream Caches:</strong> cp5028 int</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:29:26 GMT</li><li><strong>Client IP Address:</strong> 2405:201:1e:b1c3:59fd:9c62:6ce:89e0</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A screenshot of a Wikimedia System Error page displaying a 'Too Many Requests' error message with technical details such as Varnish XID, Upstream caches, timestamp, and client IP address."
+    ],
+    "details": {
+      "summary": "Wikimedia System Error page showing an HTTP 429 Too Many Requests error with technical diagnostic details."
+    },
+    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "err-429-wikimedia-tech",
+    "subject": "Science & Technology",
+    "chapter": "Computer Networks & Web Technologies",
+    "topic": "HTTP Status Codes and Rate Limiting",
+    "text": "<p><strong>HTTP Error 429: Too Many Requests</strong></p><p>The HTTP 429 status code indicates that the user has sent too many requests in a given amount of time (rate limiting). It is a client-side error response.</p><p>Key details extracted from the system error log:</p><ul><li><strong>Error Type:</strong> 429 Too Many Requests (015d12c)</li><li><strong>Server/Cache System:</strong> Varnish (XID: 232400998)</li><li><strong>Upstream Caches:</strong> cp5026 int</li><li><strong>Timestamp of Occurrence:</strong> Thu, 16 Jul 2026 08:31:48 GMT</li><li><strong>Client IP Address:</strong> 49.43.27.17</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A screenshot of a Wikimedia System Error page displaying a 'Too Many Requests' HTTP 429 error message with technical details including Varnish XID, timestamp, and client IP address."
+    ],
+    "details": {
+      "summary": "An error page indicating an HTTP 429 (Too Many Requests) rate-limiting response from a Wikimedia server, containing technical diagnostic information."
+    },
+    "mcq": {
+      "question": "Which HTTP status code is returned when a user has sent too many requests in a given amount of time?",
+      "options": [
+        "HTTP 400",
+        "HTTP 403",
+        "HTTP 404",
+        "HTTP 429"
+      ],
+      "correct": 3,
+      "explanation": "HTTP 429 Too Many Requests is the standard response status code indicating rate limiting has been triggered."
+    },
+    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "err-wikimedia-429",
+    "subject": "Miscellaneous",
+    "chapter": "Web Infrastructure",
+    "topic": "HTTP Status Codes and Server Errors",
+    "text": "<p><strong>Error: Too Many Requests (015d12c)</strong></p><p>This document represents a standard HTTP 429 (Too Many Requests) error page generated by the Wikimedia system. It occurs when a client has sent too many requests in a given amount of time, exceeding rate limits.</p><ul><li><strong>System Administrators:</strong> Wikimedia System Administrators</li><li><strong>Request served via:</strong> cp5026 cp5026, Varnish XID 227880626</li><li><strong>Upstream caches:</strong> cp5026 int</li><li><strong>Error Details:</strong> 429, Too Many Requests (015d12c)</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:34:51 GMT</li><li><strong>Sensitive Client Information IP Address:</strong> 49.43.27.17</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A placeholder link labeled '[image]' at the top left of the page, followed by the main heading 'Error' and the sub-heading 'Too Many Requests (015d12c)'."
+    ],
+    "details": {
+      "summary": "A Wikimedia system error page indicating an HTTP 429 Too Many Requests error, containing technical details such as Varnish XID, upstream cache identifiers, timestamp, and client IP address."
+    },
+    "mcq": {
+      "question": "Which of the following HTTP status codes is returned when a user has sent too many requests in a given amount of time?",
+      "options": [
+        "HTTP 400",
+        "HTTP 403",
+        "HTTP 404",
+        "HTTP 429"
+      ],
+      "correct": 3,
+      "explanation": "HTTP 429 Too Many Requests is a response status code that indicates the user has sent too many requests in a given amount of time ('rate limiting')."
+    },
+    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "err-wikimedia-429",
+    "subject": "Miscellaneous",
+    "chapter": "System Errors",
+    "topic": "HTTP 429 Too Many Requests",
+    "text": "<p><strong>Error: Too Many Requests (015d12c)</strong></p><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><ul><li>Request served via: cp5026 cp5026, Varnish XID 222835960</li><li>Upstream caches: cp5026 int</li><li>Error: 429, Too Many Requests (015d12c) at Thu, 16 Jul 2026 08:31:46 GMT</li><li>Sensitive client information IP address: 49.43.27.17</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A simple web page layout showing a blue hyperlink text '[image]' at the top, followed by a bold heading 'Error' and the sub-heading 'Too Many Requests (015d12c)'. Below this, a light grey box contains technical details regarding a Wikimedia system error."
+    ],
+    "details": {
+      "summary": "Wikimedia system error page indicating an HTTP 429 Too Many Requests rate limiting event with technical diagnostic details."
+    },
+    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Resources\\Indian_Mineral_Provinces.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "err-429-wikimedia",
+    "subject": "Miscellaneous",
+    "chapter": "System Errors",
+    "topic": "HTTP 429 Too Many Requests",
+    "text": "<p>The document provided is an error page indicating a <strong>429 Too Many Requests</strong> error from the Wikimedia system administrators.</p><p>Details from the error page:</p><ul><li><strong>Error Code:</strong> 429 (Too Many Requests)</li><li><strong>Varnish XID:</strong> 776405203</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:34:27 GMT</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "An error message screenshot from Wikimedia showing 'Error: Too Many Requests (015d12c)' with technical details including IP address and Varnish XID."
+    ],
+    "details": {
+      "summary": "The image displays an HTTP 429 Too Many Requests error page from Wikimedia."
+    },
+    "mcq": null,
+    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "tech-http-429-error-analysis",
+    "subject": "Science & Technology",
+    "chapter": "Computer Networks and Internet Technologies",
+    "topic": "HTTP Status Codes and Web Server Architecture",
+    "text": "<p>This document details an HTTP 429 Error event captured from the Wikimedia system infrastructure, illustrating key concepts in web traffic management, caching, and rate limiting.</p><strong>Key Technical Concepts:</strong><ul><li><strong>HTTP 429 (Too Many Requests):</strong> The user has sent too many requests in a given amount of time. It is a rate-limiting response code used to protect servers from denial-of-service (DoS) attacks or excessive scraping.</li><li><strong>Varnish Cache:</strong> An HTTP accelerator designed for content-heavy dynamic websites. It acts as a reverse proxy, caching pages to reduce server load. The transaction ID is recorded as <code>Varnish XID 217984907</code>.</li><li><strong>Upstream Caches:</strong> Intermediate caching layers (e.g., <code>cp5026 int</code>) that process requests before they reach the origin server.</li><li><strong>Client IP Address:</strong> The unique network identifier of the client initiating the requests, identified here as <code>49.43.27.17</code>.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Parameter | Value | Description |\n|---|---|---|\n| Error Code | 429 | Too Many Requests (Rate Limiting) |\n| Server Node | cp5026 | Request served via cp5026 cp5026 |\n| Cache Engine | Varnish | Reverse proxy caching engine |\n| Transaction ID | 217984907 | Varnish XID |\n| Timestamp | Thu, 16 Jul 2026 08:30:19 GMT | Time of error occurrence |\n| Client IP | 49.43.27.17 | Sensitive client IP address |"
+    ],
+    "image_descriptions": [
+      "A screenshot of a Wikimedia System error page displaying a 'Too Many Requests (015d12c)' message. The page contains technical details including request routing via cp5026, Varnish XID 217984907, timestamp Thu, 16 Jul 2026 08:30:19 GMT, and client IP address 49.43.27.17."
+    ],
+    "details": {
+      "summary": "An analysis of an HTTP 429 (Too Many Requests) rate-limiting error served by Wikimedia's Varnish-based caching infrastructure."
+    },
+    "mcq": {
+      "question": "Which HTTP status code is returned by a web server when a user has sent too many requests in a given amount of time?",
+      "options": [
+        "HTTP 400",
+        "HTTP 403",
+        "HTTP 404",
+        "HTTP 429"
+      ],
+      "correct": 3,
+      "explanation": "HTTP 429 (Too Many Requests) is the standard response status code indicating the user has sent too many requests in a given amount of time (rate limiting)."
+    },
+    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "err-wikimedia-429",
+    "subject": "Miscellaneous",
+    "chapter": "System Errors",
+    "topic": "HTTP 429 Too Many Requests",
+    "text": "<p>The document is an error page from the Wikimedia System Administrators.</p><ul><li><strong>Error Type:</strong> HTTP 429 Too Many Requests</li><li><strong>Error Code:</strong> 015d12c</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:30:17 GMT</li><li><strong>IP Address:</strong> 49.43.27.17</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A screenshot of a Wikimedia system error page displaying a 'Too Many Requests' message with technical details inside a grey box."
+    ],
+    "details": {
+      "summary": "This document is a system error page indicating a 429 Too Many Requests error from Wikimedia servers."
+    },
+    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\World\\Major_World_Straits.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "wikimedia-error-429",
+    "subject": "Science & Technology",
+    "chapter": "Computer Networks and Web Technologies",
+    "topic": "HTTP Status Codes and Server Errors",
+    "text": "<p>An <strong>HTTP 429 Too Many Requests</strong> error response status code indicates that the user has sent too many requests in a given amount of time, commonly referred to as rate limiting.</p><p>The document displays a Wikimedia system error page containing the following technical details:</p><ul><li><strong>Error Type:</strong> Too Many Requests (015d12c)</li><li><strong>HTTP Status Code:</strong> 429</li><li><strong>Request Served Via:</strong> cp5026 cp5026, Varnish XID 227880626</li><li><strong>Upstream Caches:</strong> cp5026 int</li><li><strong>Timestamp of Error:</strong> Thu, 16 Jul 2026 08:34:51 GMT</li><li><strong>Client IP Address:</strong> 49.43.27.17</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A screenshot of a web browser error page. At the top, there is a blue text link placeholder '[image]'. Below it, the word 'Error' is written in a large bold font, followed by 'Too Many Requests (015d12c)'. A light grey box contains instructions for reporting the error to Wikimedia System Administrators, listing technical details such as server ID, Varnish XID, upstream caches, timestamp, and the client IP address."
+    ],
+    "details": {
+      "summary": "An HTTP 429 error page from Wikimedia indicating rate limiting (Too Many Requests) with technical diagnostic details."
+    },
+    "mcq": {
+      "question": "Which HTTP status code is returned when a user has sent too many requests in a given amount of time?",
+      "options": [
+        "400 Bad Request",
+        "403 Forbidden",
+        "404 Not Found",
+        "429 Too Many Requests"
+      ],
+      "correct": 3,
+      "explanation": "HTTP 429 Too Many Requests indicates that the user has exceeded their rate limit."
+    },
+    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "err-wikimedia-429",
+    "subject": "Miscellaneous",
+    "chapter": "System Errors",
+    "topic": "HTTP 429 Too Many Requests",
+    "text": "<p><strong>Error: Too Many Requests (015d12c)</strong></p><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><ul><li>Request served via: cp5026 cp5026, Varnish XID 222835960</li><li>Upstream caches: cp5026 int</li><li>Error: 429, Too Many Requests (015d12c) at Thu, 16 Jul 2026 08:31:46 GMT</li><li>Sensitive client information IP address: 49.43.27.17</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "An image placeholder link '[image]' at the top left, followed by the bold text 'Error' and 'Too Many Requests (015d12c)'. Below is a light grey box containing technical details of the Wikimedia system error."
+    ],
+    "details": {
+      "summary": "Wikimedia system error page showing HTTP 429 Too Many Requests with technical details including Varnish XID, timestamp, and client IP address."
+    },
+    "mcq": null,
+    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\Resources\\Indian_Mineral_Provinces.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "note-1",
+    "subject": "Science & Technology",
+    "chapter": "Just-in-Time Compilation",
+    "topic": "Trace-based JIT Type Specialization for Dynamic Languages",
+    "text": "<p>Trace-based Just-in-Time Type Specialization for Dynamic Languages\nAndreas Gal∗+, Brendan Eich∗, Mike Shaver∗, David Anderson∗, David Mandelin∗,\nMohammad R. Haghighat$, Blake Kaplan∗, Graydon Hoare∗, Boris Zbarsky∗, Jason Orendorff∗,\nJesse Ruderman∗, Edwin Smith#, Rick Reitmaier#, Michael Bebenita+, Mason Chang+#, Michael Franz+\nMozilla Corporation∗\n{gal,brendan,shaver,danderson,dmandelin,mrbkap,graydon,bz,jorendorff,jruderman}@mozilla.com\nAdobe Corporation#\n{edwsmith,rreitmai}@adobe.com\nIntel Corporation$\n{mohammad.r.haghighat}@intel.com\nUniversity of California, Irvine+\n{mbebenit,changm,franz}@uci.edu\nAbstract\nDynamic languages such as JavaScript are more difﬁcult to com-\npile than statically typed ones. Since no concrete type information\nis available, traditional compilers need to emit generic code that can\nhandle all possible type combinations at runtime. We present an al-\nternative compilation technique for dynamically-typed languages\nthat identiﬁes frequently executed loop traces at run-time and then\ngenerates machine code on the ﬂy that is specialized for the ac-\ntual dynamic types occurring on each path through the loop. Our\nmethod provides cheap inter-procedural type specialization, and an\nelegant and efﬁcient way of incrementally compiling lazily discov-\nered alternative paths through nested loops. We have implemented\na dynamic compiler for JavaScript based on our technique and we\nhave measured speedups of 10x and more for certain benchmark\nprograms.\nCategories and Subject Descriptors\nD.3.4 [Programming Lan-\nguages]: Processors — Incremental compilers, code generation.\nGeneral Terms\nDesign, Experimentation, Measurement, Perfor-\nmance.\nKeywords\nJavaScript, just-in-time compilation, trace trees.\n1.\nIntroduction\nDynamic languages such as JavaScript, Python, and Ruby, are pop-\nular since they are expressive, accessible to non-experts, and make\ndeployment as easy as distributing a source ﬁle. They are used for\nsmall scripts as well as for complex applications. JavaScript, for\nexample, is the de facto standard for client-side web programming\nPermission to make digital or hard copies of all or part of this work for personal or\nclassroom use is granted without fee provided that copies are not made or distributed\nfor proﬁt or commercial advantage and that copies bear this notice and the full citation\non the ﬁrst page. To copy otherwise, to republish, to post on servers or to redistribute\nto lists, requires prior speciﬁc permission and/or a fee.\nPLDI’09,\nJune 15–20, 2009, Dublin, Ireland.\nCopyright c⃝2009 ACM 978-1-60558-392-1/09/06...$5.00\nand is used for the application logic of browser-based productivity\napplications such as Google Mail, Google Docs and Zimbra Col-\nlaboration Suite. In this domain, in order to provide a ﬂuid user\nexperience and enable a new generation of applications, virtual ma-\nchines must provide a low startup time and high performance.\nCompilers for statically typed languages rely on type informa-\ntion to generate efﬁcient machine code. In a dynamically typed pro-\ngramming language such as JavaScript, the types of expressions\nmay vary at runtime. This means that the compiler can no longer\neasily transform operations into machine instructions that operate\non one speciﬁc type. Without exact type information, the compiler\nmust emit slower generalized machine code that can deal with all\npotential type combinations. While compile-time static type infer-\nnce might be able to gather type information to generate opti-\nmized machine code, traditional static analysis is very expensive\nand hence not well suited for the highly interactive environment of\na web browser.\nWe present a trace-based compilation technique for dynamic\nlanguages that reconciles speed of compilation with excellent per-\nformance of the generated machine code. Our system uses a mixed-\nmode execution approach: the system starts running JavaScript in a\nfast-starting bytecode interpreter. As the program runs, the system\nidentiﬁes hot (frequently executed) bytecode sequences, records\nthem, and compiles them to fast native code. We call such a se-\nquence of instructions a trace.\nUnlike method-based dynamic compilers, our dynamic com-\npiler operates at the granularity of individual loops. This design\nchoice is based on the expectation that programs spend most of\ntheir time in hot loops. Even in dynamically typed languages, we\nexpect hot loops to be mostly type-stable, meaning that the types of\nvalues are invariant. (12) For example, we would expect loop coun-\nters that start as integers to remain integers for all iterations. When\nboth of these expectations hold, a trace-based compiler can cover\nthe program execution with a small number of type-specialized, ef-\nﬁciently compiled traces.\nEach compiled trace covers one path through the program with\none mapping of values to types. When the VM executes a compiled\ntrace, it cannot guarantee that the same path will be followed\nor that the same types will occur in subsequent loop iterations.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Trace-based Just-in-Time Type Specialization for Dynamic Languages"
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\01-valid.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "note-1",
+    "subject": "Physics",
+    "chapter": "Solar Cells and Photovoltaics",
+    "topic": "GaInP/GaAs solar cell with AlGaAs tunnel junction",
+    "text": "<p>Performance evaluation of a GaInP/GaAs solar cell structure\nwith the integration of AlGaAs tunnel junction\nYunus Özen a,b,n, Nihan Akın a,b, Barış Kınacı c, Süleyman Özçelik a,b\na Photonics Application and Research Center, Gazi University, 06500 Ankara, Turkey\nb Department of Physics, Faculty of Science, Gazi University, 06500 Ankara, Turkey\nc Department of Physics, Faculty of Science, Istanbul University, 34134 Vezneciler Istanbul, Turkey\na r t i c l e i n f o\nArticle history:\nReceived 12 December 2014\nReceived in revised form\n28 December 2014\nAccepted 13 January 2015\nKeywords:\nGaInP/GaAs solar cell\nAlGaAs tunnel junction\nThe energy conversion efﬁciency\na b s t r a c t\nA GaInP/GaAs solar cell structure with AlGaAs tunnel junction was grown on p-type (1 0 0)-oriented\nGaAs substrate by a solid-source molecular beam epitaxy technique. The structural and morphological\nproperties of the GaInP/GaAs solar cell structure have been evaluated by means of secondary ion mass\nspectrometry and atomic force microscopy measurements. In addition, the GaInP/GaAs solar cell device\nwas fabricated to obtain electrical output parameters of the cells. For this purpose, the current–voltage\nmeasurements of solar cell devices were carried out at room temperature under both dark and air mass\n1.5 global radiation (AM1.5) using solar simulator. In addition, the electrical output parameters of the\nGaInP/GaAs solar cell structure with the AlGaAs tunnel junction are compared with the GaInP/GaAs solar\ncell structure without the AlGaAs tunnel junction, and it is found that the integration of the tunnel\njunction into a solar cell structure improves the device performance by 48%.\n& 2015 Elsevier B.V. All rights reserved.\n1. Introduction\nAccording to literature, solar cells (SCs) can be divided into four\ngroups: (1) silicon-based SCs such as mono-crystalline silicon, and\npoly-crystalline silicon SCs [1–7], (2) thin ﬁlm SCs such as\namorphous silicon, cadmium–telluride, and copper–indium–gal-\nlium–de selenide SCs [8–15], and (3) III–V group SCs such as\nquantum well, and multi-junction SCs [16–29], (4) other SCs such\nas organic, dye sensitized and perovskite SCs [30–33]. There has\nbeen an increasing interest on the research and development of\nmulti-junction III–V group SCs due to a higher efﬁciency compared\nto other groups SCs. Currently, the studies on these SCs are mainly\nfocused on the performance evaluation [34–38]. Multi-junction\nSCs are sensitive to radiation of different wavelengths. A top cell is\nresponsive to shorter wavelengths, whereas a bottom cell is\nresponsive to longer wavelengths. In conﬁguration, wider bandgap\nmaterials are used for the top cells since they absorb short\nwavelengths. Thus, it allows the longer wavelength radiation to\npenetrate deeper into the device where it can be converted into\nelectrical energy. The commonly used highest-performing multi-\njunction cells use III–V compound semiconductors with direct\nbandgaps [39]. III–V Group ternary alloy materials, such as AlGaAs,\nInGaAs, InGaN and GaInP, were widely used as the top cell of SCs\n[18,20,22,25,27,29,34–38]. Among these materials, GaInP ternary\nalloy is an essential material for high efﬁciency SCs as it absorbs\nthe visible part of the solar spectrum [40]. In addition, GaAs binary\ncompound (bandgap: 1.42 eV) absorbs near-infrared part of the\nsolar spectrum. When the Ga composition ratio is approximately\n51% of the GaInP/GaAs structure, GaInP ternary alloy grows on a\nGaAs substrate with lattice-match, and this structure has great\ntechnological importance [40–42]. The GaInP/GaAs SC structure\nwill continue to be the focus of attention in the photovoltaic works\nas it absorbs the large part of the solar spectrum.\nTunnel junctions (TJs) are highly doped p–n diodes which allow\nfor quantum mechanical tunneling through their narrow depletion\nregions. TJs are very crucial for multi-junction SCs, and they have\nproperties such as a relatively optically transparent and low\nresistance [43]. According to the tunneling effect, the electron\ndoes not need extra energy for tunneling from the bottom of the\nconduction band to the top of the valence band. In addition,\nheavily doped AlGas, InGaP, GaAs, etc. are selected as TJs in III–V\ngroup SCs [27]. Several researches have studied the SCs structure\nwith an integration of TJ [27,28,34]. Siyu et al. [27] examined the\ncharacteristics of the TJ, the material used in the TJ, the compen-\nsation of the TJ to the overall cell’s characteristics, the TJs’\ninﬂuence on the current density of sub-cells and the efﬁciency\nincrease. Wheelden et al. [28] investigated four different TJ designs\nContents lists available at ScienceDirect\njournal homepage: www.elsevier.com/locate/solmat\nSolar Energy Materials & Solar Cells\nhttp://dx.doi.org/10.1016/j.solmat.2015.01.021\n0927-0248/& 2015 Elsevier B.V. All rights reserved.\n n Corresponding author at: Photonics Application and Research Center, Gazi\nUniversity, 06500 Ankara, Turkey. Tel.: þ90 312 202 12 79; fax: þ90 312 212 22 79.\nE-mail addresses: ynszn.gazi@gmail.com, sozcelik@gazi.edu.tr (Y. Özen).\nSolar Energy Materials & Solar Cells 137 (2015) 1–5</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "The paper evaluates the performance improvement of a GaInP/GaAs solar cell by integrating an AlGaAs tunnel junction, reporting a 48% increase in device performance."
+    },
+    "mcq": {
+      "question": "",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\02-valid.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "note-1",
+    "subject": "Biology",
+    "chapter": "Exercise Physiology",
+    "topic": "Acute effect of speed exercise on nitric oxide levels",
+    "subchapter": "",
+    "text": "<p>Aim: Exercise is one of the low-cost and easiest ways for improving life standards and physical fitness, and reducing body stress. Nitric oxide (NO) is defined as the “surprising soldier mediator” of biological systems. NO is one of the relaxation factors coming from the vascular endothelium. This relaxation in smooth muscles leads to vasodilatation in veins. The purpose of this study is to evaluate the acute effect of 20-meter sprints of footballers on NO levels.</p><p>Materials and Methods: 22 footballers with an age range of 18–32 were voluntarily enrolled in the study. The heights and weights of the subjects were measured. Speed measures were taken with a photocell system. The 20-meter sprint was repeated for 10 times. Blood samples were taken before and immediately after the sprint. For statistical analysis paired t test was used.</p><p>Results: The mean age, height, and weight of the footballers included in the study were 24.21 ± 3.41 years, 173 ± 7.04 cm, and 67.85 ± 5.17 kg, respectively. The mean NO values were 21.45 ± 2.08 immediately after the exercise and 25.59 ± 1.59 before the exercise (mean ± SD). This decrease in the NO level after the exercise, compared to before, were not statistically meaningful (P = 0.052).</p><p>Conclusions: The fact that the exercise was short-term yet with maximal load and negative developments occurred within the body may have highlighted the oxidative damage. The NO defence used against this damage may have decreased the values.</p><p>Key Words: Nitric oxide, speed exercise, footballer</p><p>Futbolcularda sürat egzersizinin nitrik oksit (NO) düzeyi üzerine akut etkisi<br>Amaç: Egzersiz, insanları stresten uzaklaştıran, hayat standartlarını yükselten ve fiziksel uygunluğu iyi duruma getirmek için kullanılan en ucuz ve kolay yoldur. Nitrik oksit (NO) biyolojik sistemlerin “şaşırtıcı asker aracısı” olarak tanımlanır. NO vasküler endotelyumdan çıkan dinlenme faktörüdür. Bu düz kaslardaki relaks damarlarla vasodilatasyona neden olur. Bu çalışmanın amacı; futbolcularda 20 metrelik sürat koşularının NO düzeylerine akut etkisini araştırmaktır.<br>Gereç ve Yöntem: Araştırmaya yaşları 18-32 yaş arasında değişen 22 futbolcu gönüllü olarak katıldı. Deneklerin boy ve beden ağırlık ölçümleri alındı. Sürat ölçümleri fotosel ile yapıldı. 20 metrelik sürat koşusu 10 kez tekrar ettirildi. Sürat egzersizi öncesi ve hemen sonrası kan örnekleri alındı. İstatistiksel analiz için paired t testi kullanıldı.<br>Bulgular: Çalışmaya dahil edilen futbolcuların yaşları 24,21 ± 3,41 yıl, boyları 173 ± 7,04 cm. ve beden ağırlığı 67,85 ± 5,17 kg. olarak belirlendi. Sürat egzersizi öncesi NO değerleri 25,59 ± 1,59’ iken, egzersiz hemen sonrası 21,45 ± 2,08 olarak bulundu (A.O ± SS). Egzersizden hemen sonrasındaki NO düzeyindeki bu düşüş istatistiksel olarak anlamlı değildi (P = 0,052).<br>Sonuç: Egzersizin kısa süreli ancak maksimal yüklenmeli olması, vücutta meydana gelen negatif gelişmeler oksidatif hasarı öne çıkarmış olabilir. Bu hasara karşı kullanılan NO savunması, değerleri aşağıya düşürmüş olabilir.<br>Anahtar Sözcükler: Nitrik oksit (NO), sürat egzersizi, futbolcu</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Aim: Exercise is one of the low-cost and easiest ways for improving life standards and physical fitness, and reducing body stress. Nitric oxide (NO) is defined as the “surprising soldier mediator” of biological systems."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\04-valid.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "note-001",
+    "subject": "Defence",
+    "chapter": "Weapon Systems",
+    "topic": "Anti Tank Guided Missile",
+    "text": "<p>ANTI TANK GUIDED MISSILE</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Note on Anti Tank Guided Missile"
+    },
+    "mcq": {
+      "question": "",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "chunk_80_119.pdf",
+    "source_page": 17
   }
 ]
