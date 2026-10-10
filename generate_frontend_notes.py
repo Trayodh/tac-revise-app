@@ -135,7 +135,7 @@ SOURCE NOTES:
         })
 
     print(f"Grouped and fused into {len(ai_notes)} unique chapter notes.")
-    with open("ai_generated_notes.js", "w", encoding="utf-8") as f:
+    with open("public/ai_generated_notes.js", "w", encoding="utf-8") as f:
         f.write("// This file is auto-generated from notes_database.json\n")
         f.write("const AI_GENERATED_NOTES = ")
         json.dump(ai_notes, f, indent=2)
