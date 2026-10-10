@@ -7209,7 +7209,7 @@ window.CURRENT_AFFAIRS_DB = {
       "upscHighlights": [
         "RBI is adopting a more hawkish policy path due to robust economic growth and inflationary pressures.",
         "India's GDP grew by 7.8% in Q1 (April-June) and is projected to grow around 7.3% in Q2 (July-September).",
-        "Strong dollar inflows ($133 billion) and resilient domestic economy contribute to growth.",
+        "Strong dollar inflows ("October 2026": [33 billion) and resilient domestic economy contribute to growth.",
         "Broadening inflation and global rate hikes build a case for potential RBI policy tightening.",
         "The Finance Ministry's growth projections are higher than RBI's, indicating strong economic momentum."
       ],
@@ -9603,6 +9603,90 @@ window.CURRENT_AFFAIRS_DB = {
     "Regional Security"
   ],
   "strategicImportance": "Highlights India's commitment to Eurasian security architectures despite bilateral tensions."
+},
+{
+  "id": "oct-2026-015",
+  "topic": "Naval Operations",
+  "text": "The Indian Navy is set to commission INS Mangrol, the third Anti-Submarine Warfare Shallow Water Craft (ASW-SWC), built by Cochin Shipyard Limited, enhancing coastal surveillance and anti-submarine operations.",
+  "details": {
+    "winner": "Indian Navy",
+    "award": "Commissioning of INS Mangrol",
+    "nationality": "India",
+    "summary": "INS Mangrol, an ASW-SWC with over 80% indigenous content, strengthens underwater surveillance."
+  },
+  "mcq": {
+    "question": "Which Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) was recently scheduled for commissioning by the Indian Navy in October 2026?",
+    "options": [
+      "INS Vagir",
+      "INS Mangrol",
+      "INS Vikrant",
+      "INS Mormugao"
+    ],
+    "correct": 1,
+    "explanation": "INS Mangrol is the third ASW-SWC built by Cochin Shipyard Limited."
+  },
+  "upscHighlights": [
+    "INS Mangrol",
+    "ASW-SWC",
+    "Built by Cochin Shipyard Limited"
+  ],
+  "strategicImportance": "Crucial for coastal defence and detecting adversarial submarines in shallow waters."
+},
+{
+  "id": "oct-2026-016",
+  "topic": "Defence Economics",
+  "text": "India's defence exports reached a record ₹38,424 crore in the 2025-26 financial year, marking a massive 60% increase over the previous year, driven strongly by both public and private sector contributions.",
+  "details": {
+    "winner": "Indian Defence Industry",
+    "award": "Record Defence Exports",
+    "nationality": "India",
+    "summary": "Defence exports hit an all-time high of ₹38,424 crore in FY26."
+  },
+  "mcq": {
+    "question": "In the financial year 2025-26, India's defence exports reached a record high of approximately:",
+    "options": [
+      "₹16,000 crore",
+      "₹25,000 crore",
+      "₹38,400 crore",
+      "₹50,000 crore"
+    ],
+    "correct": 2,
+    "explanation": "Defence exports reached a record ₹38,424 crore in FY 2025-26."
+  },
+  "upscHighlights": [
+    "Record Exports: ₹38,424 Cr",
+    "60% YoY increase",
+    "Atmanirbhar Bharat success"
+  ],
+  "strategicImportance": "Demonstrates India's transition from a major defence importer to a significant global arms exporter."
+},
+{
+  "id": "oct-2026-017",
+  "topic": "International Relations & Defence",
+  "text": "A delegation from the Japanese Ground Self-Defense Force (JGSDF) visited India to engage with the Indian Army and DRDO, seeking to strengthen military ties and explore joint emerging defence technologies.",
+  "details": {
+    "winner": "India & Japan",
+    "award": "JGSDF Visit to India",
+    "nationality": "Japan",
+    "summary": "Japanese military delegation explores deep tech collaboration with Indian defence establishments."
+  },
+  "mcq": {
+    "question": "A military delegation from which country visited India in October 2026 to engage with the Indian Army and DRDO on emerging defence technologies?",
+    "options": [
+      "United States",
+      "France",
+      "Japan",
+      "South Korea"
+    ],
+    "correct": 2,
+    "explanation": "A delegation from the Japanese Ground Self-Defense Force (JGSDF) visited India for tech collaboration."
+  },
+  "upscHighlights": [
+    "India-Japan Defence Ties",
+    "JGSDF Visit",
+    "Emerging Tech Collaboration"
+  ],
+  "strategicImportance": "Key step in solidifying the 'Special Strategic and Global Partnership' between India and Japan."
 }
 ]
 };
