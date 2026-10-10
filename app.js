@@ -6798,6 +6798,32 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
 
 
 
+  try {
+    const ragRes = await fetch('/api/rag_search', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ query: topicName + " " + (contextText || "") })
+    });
+    if (ragRes.ok) {
+      const ragData = await ragRes.json();
+      if (ragData.results && ragData.results.length > 0) {
+        prompt += `\n\n=== RETRIEVED KNOWLEDGE BASE CONTEXT ===\n`;
+        prompt += `CRITICAL INSTRUCTION: You MUST use ONLY the following retrieved context to answer the student's doubt. Do NOT hallucinate or use external knowledge. If the answer is not present in the context, explicitly state "I cannot find this specific detail in the syllabus notes, but here is what I know generally..."\n\n`;
+        ragData.results.forEach((r, i) => {
+          prompt += `--- Context Chunk ${i+1} (Source ID: ${r.id}, Similarity Score: ${r.similarity ? r.similarity.toFixed(2) : 'N/A'}) ---\n${r.document}\n\n`;
+        });
+        prompt += `=== END CONTEXT ===\n`;
+        prompt += `Remember: Ground your entire explanation in the chunks provided above. Cite the Context Chunk numbers where relevant.\n`;
+        
+        // --- TELEMETRY / MEASURABILITY ---
+        console.log(`[RAG-ANALYTICS] Retrieved ${ragData.results.length} chunks for query: "${topicName}"`);
+        ragData.results.forEach(r => console.log(`  -> Score: ${r.similarity} | ID: ${r.id}`));
+      }
+    }
+  } catch (e) {
+    console.error("RAG search failed, falling back to direct prompt:", e);
+  }
+
   const modelsToTry = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
 
   let replyText = "";
