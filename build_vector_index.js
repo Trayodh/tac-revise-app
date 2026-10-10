@@ -139,7 +139,7 @@ async function buildIndex() {
     const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
     const embeddings = [];
-    const batchSize = 10;
+    const batchSize = 100;
     
     // Check if we already have partial progress
     const indexPath = path.join(__dirname, 'vector_index.json');
@@ -171,14 +171,14 @@ async function buildIndex() {
                 // Using text-embedding-004 (latest embedding model)
                 const batchPayload = JSON.stringify({
                     requests: batch.map(t => ({
-                        model: 'models/text-embedding-004',
+                        model: 'models/gemini-embedding-2',
                         content: { parts: [{ text: t }] }
                     }))
                 });
 
                 const options = {
                     hostname: 'generativelanguage.googleapis.com',
-                    path: `/v1beta/models/text-embedding-004:batchEmbedContents?key=${API_KEY}`,
+                    path: `/v1beta/models/gemini-embedding-2:batchEmbedContents?key=${API_KEY}`,
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -227,7 +227,7 @@ async function buildIndex() {
             } catch (err) {
                 attempts++;
                 console.log(`Error at batch ${i}: ${err.message}`);
-                if (err.message.includes('429') || err.message.includes('Quota') || err.message.includes('exhausted')) {
+                if (err.message.includes('429') || err.message.toLowerCase().includes('quota') || err.message.includes('exhausted')) {
                     const backoff = 30000 * attempts; // 30s, 60s, 90s
                     console.log(`Rate limit hit. Waiting ${backoff/1000}s before retrying (Attempt ${attempts}/5)...`);
                     await sleep(backoff);

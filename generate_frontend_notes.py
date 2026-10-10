@@ -55,8 +55,11 @@ def run():
         details = item.get('details', {})
         if details:
             content_html += '<h4 style="border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;">KEY DETAILS</h4><ul>'
-            for k, v in details.items():
-                content_html += f"<li><strong>{k.replace('_', ' ').title()}:</strong> {v}</li>"
+            if isinstance(details, dict):
+                for k, v in details.items():
+                    content_html += f"<li><strong>{k.replace('_', ' ').title()}:</strong> {v}</li>"
+            else:
+                content_html += f"<li>{details}</li>"
             content_html += "</ul>"
             
         # Include source metadata if available

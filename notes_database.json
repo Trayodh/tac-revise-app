@@ -21132,5 +21132,1852 @@
     },
     "source_pdf": "chunk_80_119.pdf",
     "source_page": 17
+  },
+  {
+    "id": "nda-2024-math-instructions",
+    "subject": "Mathematics",
+    "chapter": "Exam Pattern and General Instructions",
+    "topic": "NDA & NA Exam (I) 2024 Mathematics Instructions",
+    "text": "<h3>NDA & N.A. Examination (I), 2024 - Mathematics Instructions (अनुदेश)</h3><p>The cover page of the NDA & N.A. Examination (I), 2024 Mathematics Question Booklet (Series A) contains the following critical instructions for candidates in Hindi:</p><ul><li><strong>1. Verification of Booklet:</strong> परीक्षा प्रारम्भ होने के तुरन्त बाद, आप इस परीक्षण पुस्तिका की पड़ताल अवश्य कर लें कि इसमें कोई बिना छपा, फटा या छूटा हुआ पृष्ठ अथवा प्रश्नांश आदि न हो। (Immediately after the commencement of the exam, verify that the booklet does not have any unprinted, torn, or missing pages or items.)</li><li><strong>2. OMR Sheet Coding:</strong> कृपया ध्यान रखें कि OMR उत्तर-पत्रक में, उचित स्थान पर, रोल नम्बर और परीक्षण पुस्तिका अनुक्रम (सीरीज कोड) A, B, C या D को, ध्यान से एवं बिना किसी चूक या विसंगति के भरने और कूटबद्ध करने की ज़िम्मेदारी उम्मीदवार की है। (It is the candidate's responsibility to carefully encode the Roll Number and Test Booklet Series A, B, C, or D on the OMR sheet.)</li><li><strong>3. Roll Number on Booklet:</strong> इस परीक्षण पुस्तिका पर साथ में दिए गए कोष्ठक में आपको अपना अनुक्रमांक लिखना है। (Write your Roll Number in the box provided on the Test Booklet.)</li><li><strong>4. Number of Questions:</strong> इस परीक्षण पुस्तिका में <strong>120 प्रश्नांश (प्रश्न)</strong> दिए गए हैं। प्रत्येक प्रश्नांश हिन्दी और अंग्रेज़ी दोनों में छपा है। (The booklet contains 120 items/questions, printed in both Hindi and English.)</li><li><strong>5. Marking Answers:</strong> आपको अपने सभी प्रत्युत्तर अलग से दिए गए उत्तर-पत्रक पर ही अंकित करने हैं। (All responses must be marked only on the separate OMR Answer Sheet.)</li><li><strong>6. Equal Marks:</strong> सभी प्रश्नांशों के अंक समान हैं। (All questions carry equal marks.)</li><li><strong>7. Rough Work:</strong> कच्चे काम के लिए पत्रक परीक्षण पुस्तिका के अन्त में संलग्न हैं। (Sheets for rough work are appended at the end of the booklet.)</li><li><strong>8. Penalty for Wrong Answers (गलत उत्तरों के लिए दण्ड):</strong><ul><li>(i) प्रत्येक प्रश्न के लिए चार वैकल्पिक उत्तर हैं। उम्मीदवार द्वारा प्रत्येक प्रश्न के लिए दिए गए एक गलत उत्तर के लिए प्रश्न हेतु नियत किए गए अंकों का <strong>एक-तिहाई (1/3)</strong> दण्ड के रूप में काटा जाएगा। (One-third of the marks assigned to a question will be deducted as penalty for a wrong answer.)</li><li>(ii) यदि कोई उम्मीदवार एक से अधिक उत्तर देता है, तो इसे गलत उत्तर माना जाएगा। (If multiple options are selected, it will be treated as a wrong answer.)</li><li>(iii) यदि उम्मीदवार द्वारा कोई प्रश्न हल नहीं किया जाता है, तो उस प्रश्न के लिए कोई दण्ड नहीं दिया जाएगा। (No penalty for unattempted questions.)</li></ul></li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Parameter | Details |\n|---|---|\n| Exam | NDA & N.A. Examination (I), 2024 |\n| Subject | Mathematics (गणित) |\n| Booklet Series | A |\n| T.B.C. Code | RRAN-B-MTH |\n| Total Questions | 120 |\n| Maximum Marks | 300 |\n| Duration | 2 Hours 30 Minutes (150 minutes) |\n| Negative Marking | 1/3rd of the marks assigned to the question |"
+    ],
+    "image_descriptions": [
+      "Cover page of the NDA & N.A. Examination (I), 2024 Mathematics Question Booklet (Series A) in Hindi, showing the booklet serial number 0380665, T.B.C. code RRAN-B-MTH, maximum marks 300, duration 2 hours 30 minutes, and 10 detailed candidate instructions."
+    ],
+    "details": {
+      "summary": "Official Hindi instructions and exam pattern details from the cover page of the UPSC NDA & NA (I) 2024 Mathematics paper."
+    },
+    "mcq": {
+      "question": "What is the penalty for a wrong answer in the NDA Mathematics paper as per the official instructions?",
+      "options": [
+        "One-fourth (1/4) of the marks assigned to the question",
+        "One-third (1/3) of the marks assigned to the question",
+        "Half (1/2) of the marks assigned to the question",
+        "No negative marking"
+      ],
+      "correct": 1,
+      "explanation": "According to instruction 10(i), one-third (एक-तिहाई) of the marks assigned to that question will be deducted as a penalty for each wrong answer."
+    },
+    "source_pdf": "NDA Papers\\QP_NDANAI2024_MATHEMATICS_22042024.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "exam-instructions-2020-cs-p-paper1",
+    "subject": "General Studies",
+    "chapter": "Exam Instructions",
+    "topic": "General Guidelines for Objective Type Exams",
+    "text": "<p><strong>CS (P) Exam 2020</strong></p><p><strong>Do not open this Test Booklet until you are asked to do so.</strong></p><p><strong>Serial No.:</strong> 2049101</p><p><strong>T.B.C.:</strong> HGY-P-JHKI</p><p><strong>Test Booklet</strong></p><p><strong>General Studies</strong></p><p><strong>Paper-I</strong></p><p><strong>Test Booklet Series:</strong> A</p><p><strong>Time:</strong> Two Hours</p><p><strong>Maximum Marks:</strong> 200</p><p><strong>Instructions:</strong></p><ol><li>Immediately after the commencement of the examination, you should check this Test Booklet thoroughly to ensure that there is no unprinted, torn or missing page or item, etc. If there is, get it replaced by a correct Test Booklet.</li><li>Please note that it is the responsibility of the candidate to carefully and without any error or discrepancy fill in and encode the Roll Number and Test Booklet Series A, B, C or D in the appropriate place on the OMR Answer Sheet. In case of any error/discrepancy, the Answer Sheet will be cancelled.</li><li>You have to write your Roll Number in the box provided alongside on this Test Booklet. Do not write anything else on the Test Booklet.</li><li>This Test Booklet contains 100 items (questions). Each item is printed in both Hindi and English. Each item has four responses (answers). Choose one response which you want to mark on the Answer Sheet. If you feel that there is more than one correct response, mark the response which you consider the best. You have to choose only one response for each item.</li><li>You have to mark all your responses on the Answer Sheet only as per the instructions given in the Answer Sheet.</li><li>All items carry equal marks.</li><li>Before you start marking responses to various items in the Answer Sheet, you have to fill in some particulars in the Answer Sheet as per the instructions sent with your Admission Certificate.</li><li>After you have marked all your responses on the Answer Sheet and the examination has concluded, you should hand over only the Answer Sheet to the Invigilator. You are permitted to take away the Test Booklet with you.</li><li>Sheets for rough work are appended in the Test Booklet.</li><li><strong>Penalty for Wrong Answers:</strong><br>There will be penalty for wrong answers marked by a candidate in the Objective Type Question Papers.<ul><li>For each question for which a wrong answer has been given by the candidate, one-third of the marks assigned to that question will be deducted as penalty.</li><li>If a candidate gives more than one answer, it will be treated as a wrong answer even if one of the given answers happens to be correct and there will be same penalty as above to that question.</li><li>If a question is left blank i.e., no answer is given by the candidate, there will be no penalty for that question.</li></ul></li></ol><p><strong>Do not open this Test Booklet until you are asked to do so.</strong></p><p><strong>Note:</strong> English version of the instructions is printed on the back cover of this Booklet.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "General instructions for candidates appearing in the CS (P) Exam 2020, including checking the booklet for defects, proper filling of the OMR answer sheet with Roll Number and Test Booklet Series, the structure of the paper (100 objective questions, bilingual, four options per question, equal marks), and the penalty system for wrong answers (one-third deduction for incorrect answers, same penalty for multiple answers, no penalty for unanswered questions)."
+    },
+    "mcq": null,
+    "source_pdf": "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\CSP_2020_GS_Paper-1.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "capf-2021-instructions-001",
+    "subject": "General Ability & Intelligence",
+    "chapter": "Exam Instructions",
+    "topic": "CAPF (ACs) Exam 2021 General Instructions",
+    "text": "<p><strong>CAPF (ACs) Exam, 2021</strong></p><p>Do not open this test booklet until you are told to do so.</p><p>T.B.C. : JNMK-F-BGS</p><p>Serial No. : 1214625</p><p><strong>TEST BOOKLET</strong></p><p><strong>GENERAL ABILITY & INTELLIGENCE</strong></p><p>Time : Two Hours</p><p>Maximum Marks : 250</p><p>Test Booklet Series : A</p><p><strong>INSTRUCTIONS</strong></p><ol><li>Immediately after the commencement of the examination, you should check this Test Booklet thoroughly to ensure that there is no unprinted, torn or missing page or item(s) etc. If so, get it replaced by a correct Test Booklet.</li><li>Please note that it is the responsibility of the candidate to carefully fill in and encode the Roll Number and Test Booklet Series A, B, C or D in the appropriate places in the OMR Answer Sheet without any omission or discrepancy. In case of any omission/discrepancy in filling in/encoding, the Answer Sheet will be rejected.</li><li>You have to enter your Roll Number in the Box provided alongside this Test Booklet. Do NOT write anything else on the Test Booklet.</li><li>This Test Booklet contains 125 items (questions). Each item is printed both in Hindi and English. Each item comprises four responses (answers). You will select the response which you want to mark on the Answer Sheet. In case you feel that there is more than one correct response, mark the response which you consider the best. In any case, for each item, select ONLY ONE response.</li><li>You have to mark all your responses ONLY on the separate Answer Sheet provided. See directions in the Answer Sheet.</li><li>All items carry equal marks.</li><li>Before you proceed to mark in the Answer Sheet the response to various items in the Test Booklet, you have to fill in some particulars in the Answer Sheet as per your Admission Certificate.</li><li>After you have marked all your responses on the Answer Sheet and the examination has concluded, you should hand over the Answer Sheet to the Invigilator only. You are permitted to take away the Test Booklet with you.</li><li>Sheets for rough work are appended in the Test Booklet.</li><li><strong>Penalty for wrong answers :</strong><ul><li>There will be penalty for wrong answers marked by a candidate in the Objective Type Question Papers. There are four alternatives for the answer to every question. For each question for which a wrong answer has been given by the candidate, one-third of the marks assigned to that question will be deducted as penalty.</li><li>If a candidate gives more than one answer, it will be treated as a wrong answer even if one of the given answers happens to be correct and there will be same penalty as above to that question.</li><li>If a candidate does not mark any response to a question, i.e., gives no answer, there will be no penalty for that question.</li></ul></li></ol><p>Do not open this test booklet until you are told to do so.</p><p>Note : English version of the instructions is printed on the back cover of this Booklet.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "General instructions for the CAPF (ACs) Exam 2021, covering test booklet verification, OMR sheet filling, number of questions, marking scheme, penalty for wrong answers, and exam procedures."
+    },
+    "mcq": null,
+    "source_pdf": "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\GENERAL ABILITY AND INTELLIGENCE_0.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "CS-P-2022-Instructions-001",
+    "subject": "General Studies",
+    "chapter": "Examination Guidelines",
+    "topic": "Civil Services (P) Exam 2022 Instructions (Paper I)",
+    "text": "<p><strong>Instructions (अनुदेश):</strong></p><ol><li><p>Immediately after the commencement of the examination, you must check this test booklet to ensure that it does not have any unprinted, torn or missing pages or items, etc. If so, get it replaced by a correct test booklet.</p></li><li><p>Please note that it is the candidate's responsibility to fill in and encode the Roll Number and Test Booklet Series A, B, C or D carefully and without any error or discrepancy in the OMR Answer Sheet at the appropriate place. Any error or discrepancy in filling or encoding will lead to the cancellation of the Answer Sheet.</p></li><li><p>You have to write your Roll Number in the box provided on the side of this Test Booklet. Do not write anything else on the Test Booklet.</p></li><li><p>This Test Booklet contains 100 questions (items). Each item comprises four responses (answers) given. You are to select the response which you want to mark on the Answer Sheet. In case you feel that there is more than one correct response, mark the response which you consider the best. In any case, for each item, select ONLY ONE response.</p></li><li><p>You have to mark all your responses ONLY on the separate Answer Sheet provided. See directions in the Answer Sheet.</p></li><li><p>All items carry equal marks.</p></li><li><p>Before you proceed to mark in the Answer Sheet the response to various items in the Test Booklet, you have to fill in some particulars in the Answer Sheet as per instructions sent to you with your Admission Certificate.</p></li><li><p>After you have completed filling in all your responses on the Answer Sheet and the examination has concluded, you should hand over to the Invigilator ONLY the Answer Sheet. You are permitted to take away the Test Booklet with you.</p></li><li><p>Sheets for rough work are appended in the Test Booklet at the end.</p></li><li><p><strong>Penalty for Wrong Answers (गलत उत्तरों के लिए दंड):</strong></p><ul><li><p>There are four alternatives for the answer to every question in the objective type Question Papers. For each question for which a wrong answer has been given by the candidate, one-third of the marks assigned to that question will be deducted as penalty.</p></li><li><p>If a candidate gives more than one answer, it will be treated as a wrong answer even if one of the given answers happens to be correct and there will be the same penalty as above for that question.</p></li><li><p>If a question is left blank by the candidate, i.e., no answer is given by him, there will be no penalty for that question.</p></li></ul></li></ol><p>Note: English version of the instructions is printed on the back cover of this Booklet.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "General instructions for the Civil Services (P) Exam 2022, Paper I, covering checking the booklet, OMR sheet filling, question format, marking responses, penalty for wrong answers, and exam procedures. The paper has 100 questions, carries 200 marks, and has a duration of 2 hours."
+    },
+    "mcq": {},
+    "source_pdf": "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\GENERAL STUDIES PAPER I.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "capf-ac-2020-instructions-001",
+    "subject": "General Ability and Intelligence",
+    "chapter": "Exam Instructions",
+    "topic": "General Instructions for CAPF (AC) Exam 2020",
+    "text": "<p><strong>CAPF (AC) Exam, 2020</strong></p><p><strong>Test Booklet Code:</strong> VMI-U-LHW</p><p><strong>Serial Number:</strong> 0281939</p><p><strong>Test Booklet Series:</strong> A</p><p><strong>Time:</strong> Two Hours</p><p><strong>Maximum Marks:</strong> 250</p><p><strong>Instructions (अनुदेश):</strong></p><ol><li>Immediately after the commencement of the examination, you should check this Test Booklet thoroughly to ensure that there is no unprinted, torn or missing page or item(s), etc. If so, get it replaced by a correct Test Booklet.</li><li>Please note that it is the responsibility of the candidate to fill in the Roll Number and Test Booklet Series A, B, C or D carefully and without any error or omission in the appropriate places in the OMR Answer Sheet. In case of any error/omission, the Answer Sheet will be cancelled.</li><li>You have to write your Roll Number in the box provided alongside on this Test Booklet. Do not write anything else on this Test Booklet.</li><li>This Test Booklet contains 125 items (questions). Each item is printed both in Hindi and English. Each item has four responses (answers). You have to select one response which you want to mark on the Answer Sheet. In case you feel that there is more than one correct response, mark the response which you consider the best. In any case, for each item, only one response is to be selected.</li><li>You have to mark all your responses ONLY on the separate Answer Sheet provided. See directions in the Answer Sheet.</li><li>All items carry equal marks.</li><li>Before you proceed to mark in the Answer Sheet the responses to various items in the Test Booklet, you have to fill in some particulars in the Answer Sheet as per instructions sent with your Admission Certificate.</li><li>You have to hand over your Answer Sheet to the Invigilator on the completion of the examination and before leaving the examination hall. You are permitted to take away the Test Booklet with you.</li><li>Sheets for rough work are appended in the Test Booklet at the end.</li><li><strong>Penalty for wrong answers:</strong><ul><li>(i) There are four alternative answers for each question. For each question for which a wrong answer has been given by the candidate, one-third of the marks assigned to that question will be deducted as penalty.</li><li>(ii) If a candidate gives more than one answer, it will be treated as a wrong answer even if one of the given answers happens to be correct and there will be same penalty as above to that question.</li><li>(iii) If a candidate does not attempt a question, i.e., does not give an answer, no penalty will be deducted for that question.</li></ul></li></ol><p><strong>Note:</strong> English version of the instructions is printed on the back cover of this Booklet.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This document provides general instructions for the CAPF (AC) Exam 2020, covering aspects like checking the test booklet, filling the OMR sheet, number of questions, marking responses, and penalty for wrong answers."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "capf-2022-exam-instructions-001",
+    "subject": "General Ability",
+    "chapter": "Exam Instructions",
+    "topic": "General Instructions for CAPF(ACs) Exam 2022",
+    "text": "<p><strong>C.A.P.F.(ACs) EXAM-2022</strong></p><p><strong>Test Booklet (परीक्षण पुस्तिका)</strong></p><p><strong>General Ability and Intelligence (सामान्य योग्यता एवं बुद्धिमत्ता)</strong></p><p>Time: Two hours (समय: दो घण्टे)</p><p>Maximum Marks: 250 (पूर्णांक: 250)</p><p>Test Booklet Series: A</p><p>Serial No.: 1244965</p><p><strong>Instructions (अनुदेश):</strong></p><ol><li>Immediately after the commencement of the examination, you should check this Test Booklet to ensure that it does not have any unprinted, torn or missing pages or items, etc. If so, you should get it replaced by a correct Test Booklet.</li><li>Please note that it is the candidate’s responsibility to encode and fill in the Roll Number and Test Booklet Series A, B, C or D carefully and without any omission or discrepancy at the appropriate places in the OMR Answer Sheet. Any omission/discrepancy will render the Answer Sheet liable for rejection.</li><li>You have to enter your Roll Number in the Box provided alongside on the Test Booklet. DO NOT write anything else on the Test Booklet.</li><li>This Test Booklet contains 125 items (questions). Each item is printed both in Hindi and English. Each item comprises four responses (answers). You will select the response which you want to mark on the Answer Sheet. In case you feel that there is more than one correct response, mark the response which you consider the best. In any item, there is only one correct response.</li><li>You have to mark all your responses ONLY on the separate Answer Sheet provided. See directions in the Answer Sheet.</li><li>All items carry equal marks.</li><li>Before you proceed to mark in the Answer Sheet the response to various items in the Test Booklet, you have to fill in some particulars in the Answer Sheet as per your Admission Certificate.</li><li>You are permitted to take away the Test Booklet with you only after submitting the Answer Sheet to the Invigilator at the end of the examination.</li><li>Rough work is to be done on the sheets provided for this purpose in the Test Booklet.</li><li><strong>Penalty for wrong answers (गलत उत्तरों के लिए दण्ड):</strong><ul><li>(i) There are four alternative answers for each question. For each question for which a wrong answer has been given by the candidate, one-third of the marks assigned to that question will be deducted as penalty.</li><li>(ii) If a candidate gives more than one answer, it will be treated as a wrong answer even if one of the given answers happens to be correct and there will be same penalty as above to that question.</li><li>(iii) If a question is left blank by the candidate, i.e., no answer is given by him/her, there will be no penalty for that question.</li></ul></li></ol><p><strong>Note:</strong> English version of the instructions is printed on the back cover of this Booklet.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This document contains general instructions for the C.A.P.F.(ACs) Exam 2022, including details on checking the test booklet, filling the OMR sheet, number of questions, marking scheme, and penalty for wrong answers. The exam is for General Ability and Intelligence, with a duration of two hours and a maximum of 250 marks for 125 questions. A penalty of one-third marks is deducted for each wrong answer, while no penalty is applied for unattempted questions."
+    },
+    "mcq": {},
+    "source_pdf": "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CAPF-22-GAI-080822.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "CS-P-2021-Instructions-001",
+    "subject": "General Studies",
+    "chapter": "Exam Instructions",
+    "topic": "General Instructions for CS (P) Exam 2021",
+    "text": "<p>जब तक आपको यह परीक्षण पुस्तिका खोलने को न कहा जाए तब तक न खोलें</p><p><strong>CS (P) Exam, 2021</strong></p><p>टी.बी.सी. : BXC-U-FTHI</p><p>क्रम संख्या: 2070937</p><p>परीक्षण पुस्तिका अनुक्रम: A</p><p><strong>परीक्षण पुस्तिका</strong></p><p><strong>सामान्य अध्ययन</strong></p><p><strong>प्रश्न-पत्र-I</strong></p><p>समय : दो घण्टे</p><p>पूर्णांक : 200</p><p><strong>अनुदेश</strong></p><p>1. परीक्षा प्रारम्भ होने के तुरन्त बाद, आप इस परीक्षण पुस्तिका की पड़ताल अवश्य कर लें कि इसमें कोई बिना छपा, फटा या छूटा हुआ पृष्ठ अथवा प्रश्नांश आदि न हो। यदि ऐसा है, तो इसे सही परीक्षण पुस्तिका से बदल लें।</p><p>2. कृपया ध्यान रखें कि OMR उत्तर-पत्रक में, उचित स्थान पर, रोल नम्बर और परीक्षण पुस्तिका अनुक्रम A, B, C या D को, ध्यान से एवं बिना किसी चूक या विसंगति के भरने और कूटबद्ध करने की जिम्मेदारी उम्मीदवार की है। किसी भी प्रकार की चूक/विसंगति की स्थिति में उत्तर-पत्रक निरस्त कर दिया जाएगा।</p><p>3. इस परीक्षण पुस्तिका पर साथ में दिए गए कोष्ठक में आपको अपना अनुक्रमांक लिखना है। परीक्षण पुस्तिका पर और कुछ न लिखें।</p><p>4. इस परीक्षण पुस्तिका में <b>100</b> प्रश्नांश (प्रश्न) दिए गए हैं। प्रत्येक प्रश्नांश हिन्दी और अंग्रेजी दोनों में छपा है। प्रत्येक प्रश्नांश में चार प्रत्युत्तर (उत्तर) दिए गए हैं। इनमें से एक प्रत्युत्तर को चुन लें, जिसे आप उत्तर-पत्रक पर अंकित करना चाहते हैं। यदि आपको ऐसा लगे कि एक से अधिक प्रत्युत्तर सही हैं, तो उस प्रत्युत्तर को अंकित करें जो आपको सर्वोत्तम लगे। प्रत्येक प्रश्नांश के लिए केवल एक ही प्रत्युत्तर चुनना है।</p><p>5. आपको अपने सभी प्रत्युत्तर अलग से दिए गए उत्तर-पत्रक पर ही अंकित करने हैं। उत्तर-पत्रक में दिए गए निर्देश देखें।</p><p>6. सभी प्रश्नांशों के अंक समान हैं।</p><p>7. इससे पहले कि आप परीक्षण पुस्तिका के विभिन्न प्रश्नांशों के प्रत्युत्तर उत्तर-पत्रक पर अंकित करना शुरू करें, आपको प्रवेश प्रमाण-पत्र के साथ प्रेषित अनुदेशों के अनुसार कुछ विवरण उत्तर-पत्रक में देने हैं।</p><p>8. आप अपने सभी प्रत्युत्तरों को उत्तर-पत्रक में भरने के बाद तथा परीक्षा के समापन पर केवल उत्तर-पत्रक अधीक्षक को सौंप दें। आपको अपने साथ परीक्षण पुस्तिका ले जाने की अनुमति है।</p><p>9. कच्चे काम के लिए पत्रक परीक्षण पुस्तिका के अन्त में संलग्न हैं।</p><p>10. गलत उत्तरों के लिए दण्ड :</p><ul><li>वस्तुनिष्ठ प्रश्न-पत्रों में उम्मीदवार द्वारा दिए गए गलत उत्तरों के लिए दण्ड दिया जाएगा।</li><li>(i) प्रत्येक प्रश्न के लिए चार वैकल्पिक उत्तर हैं। उम्मीदवार द्वारा प्रत्येक प्रश्न के लिए दिए गए अंकों का एक-तिहाई दण्ड के रूप में काटा जाएगा।</li><li>(ii) यदि कोई उम्मीदवार एक से अधिक उत्तर देता है, तो इसे गलत उत्तर माना जाएगा, यद्यपि दिए गए उत्तरों में से एक उत्तर सही होता है, फिर भी उस प्रश्न के लिए उपर्युक्तानुसार ही उसी तरह का दण्ड दिया जाएगा।</li><li>(iii) यदि उम्मीदवार द्वारा कोई प्रश्न हल नहीं किया जाता है अर्थात् उम्मीदवार द्वारा उत्तर नहीं दिया जाता है, तो उस प्रश्न के लिए कोई दण्ड नहीं दिया जाएगा।</li></ul><p>जब तक आपको यह परीक्षण पुस्तिका खोलने को न कहा जाए तब तक न खोलें</p><p>Note : English version of the instructions is printed on the back cover of this Booklet.</p><p>1</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Exam booklet cover page showing exam name 'CS (P) Exam, 2021', booklet series 'A', serial number '2070937', subject 'General Studies Paper-I', duration 'Two Hours', and maximum marks '200'. The page also contains detailed instructions for candidates in Hindi regarding checking the booklet, OMR sheet filling, number of questions (100), multiple-choice format, negative marking (one-third of marks for incorrect answers), and other exam procedures."
+    ],
+    "details": {
+      "summary": "This document contains general instructions for candidates appearing in the CS (P) Exam, 2021, General Studies Paper-I. It outlines rules for checking the test booklet, filling the OMR sheet, the number of questions (100), the format of questions (MCQ with four options), negative marking (one-third deduction for incorrect answers), and other procedural guidelines for the examination."
+    },
+    "mcq": {},
+    "source_pdf": "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CSP-21-GeneralStudiesPaper-I-121021.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "civil-services-2024-exam-instructions-gs-paper1",
+    "subject": "General Studies",
+    "chapter": "Examination Instructions",
+    "topic": "General Instructions for Civil Services (P) Examination 2024 - Paper I",
+    "text": "<p><strong>Civil Services (P) Examination, 2024</strong></p><p>Do not open this Test Booklet until you are asked to do so.</p><p>Serial No.: 1989601</p><p>T.B.C.: KSPC-P-GSPO</p><p>Test Booklet Series: A</p><p><strong>Test Booklet</strong></p><p><strong>General Studies</strong></p><p><strong>Paper - I</strong></p><p>Time: Two Hours</p><p>Maximum Marks: 200</p><p><strong>Instructions:</strong></p><ol><li>Immediately after the commencement of the examination, you should check this Test Booklet to ensure that it does not have any unprinted, torn or missing pages or items. If it does, get it replaced by a correct Test Booklet.</li><li>Please note that it is the candidate's responsibility to carefully and without any error or discrepancy fill in and encode the Roll Number and Test Booklet Series A, B, C or D in the appropriate place on the OMR Answer Sheet. In case of any error/discrepancy, the Answer Sheet will be cancelled.</li><li>You have to write your Roll Number in the box provided alongside this Test Booklet. Do not write anything else on the Test Booklet.</li><li>This Test Booklet contains 100 items (questions). Each item is printed in both Hindi and English. Each item has four responses (answers). Choose one response which you want to mark on the Answer Sheet. If you feel that there is more than one correct response, mark the response which you consider the best. For each item, only one response is to be chosen.</li><li>You have to mark all your responses only on the separate Answer Sheet provided. See the instructions given in the Answer Sheet.</li><li>All items carry equal marks.</li><li>Before you start marking the responses to the various items in the Test Booklet on the Answer Sheet, you have to fill in some particulars in the Answer Sheet as per the instructions sent with the Admission Certificate.</li><li>After you have marked all your responses on the Answer Sheet and the examination has concluded, hand over only the Answer Sheet to the Invigilator. You are permitted to take away the Test Booklet with you.</li><li>Sheets for rough work are appended to the Test Booklet.</li><li><strong>Penalty for Wrong Answers:</strong><ul><li>There will be a penalty for wrong answers given by the candidate in all questions.</li><li>(i) There are four alternative answers for each question. For each question for which a wrong answer has been given by the candidate, one-third of the marks assigned to that question will be deducted as penalty.</li><li>(ii) If a candidate gives more than one answer, it will be treated as a wrong answer even if one of the given answers happens to be correct and there will be the same penalty as above for that question.</li><li>(iii) If a question is left blank by the candidate, i.e., no answer is given by the candidate, there will be no penalty for that question.</li></ul></li></ol><p>Do not open this Test Booklet until you are asked to do so.</p><p><em>Note: English version of the instructions is printed on the back cover of this Booklet.</em></p><p>KSPC-P-GSPO</p><p>(1-A)</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This document provides general instructions for candidates appearing in the Civil Services (P) Examination, 2024, General Studies Paper-I. It covers essential procedures such as checking the test booklet, correctly filling the OMR answer sheet with roll number and booklet series, the structure of the examination (100 questions, equal marks, four options per question, single best answer selection), marking responses on a separate answer sheet, filling in particulars as per admission certificate, handing over only the answer sheet to the invigilator, provision for rough work, and detailed rules regarding penalties for wrong answers, including deduction of one-third of marks for incorrect responses and for multiple answers to a single question, with no penalty for unanswered questions."
+    },
+    "mcq": null,
+    "source_pdf": "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CSP-24-GENERAL-STUDIES-PAPER-I-180624.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "exam-instructions-2025-general-studies-001",
+    "subject": "General Studies",
+    "chapter": "Examination Instructions",
+    "topic": "General Instructions for Test Booklet",
+    "text": "<p><strong>जब तक आपको यह परीक्षण पुस्तिका खोलने को न कहा जाए तब तक न खोलें</strong></p><p><strong>अनुदेश:</strong></p><ol><li><p>परीक्षा प्रारम्भ होने के तुरन्त बाद आप इस परीक्षण पुस्तिका की पड़ताल अवश्य कर लें कि इसमें कोई बिना छपा, फटा या छूटा हुआ पृष्ठ अथवा प्रश्नांश आदि न हो। यदि ऐसा है, तो इसे सही परीक्षण पुस्तिका से बदल लें।</p></li><li><p>कृपया ध्यान रखें कि OMR उत्तर-पत्रक में उचित स्थान पर रोल नम्बर और परीक्षण पुस्तिका अनुक्रम A, B, C या D को ध्यान से एवं बिना किसी चूक या विसंगति के भरने और कूटबद्ध करने की जिम्मेदारी उम्मीदवार की है। किसी भी प्रकार की चूक/विसंगति की स्थिति में उत्तर-पत्रक निरस्त कर दिया जाएगा।</p></li><li><p>इस परीक्षण पुस्तिका पर साथ में दिए गए कोष्ठक में आपको अपना अनुक्रमांक लिखना है। परीक्षण पुस्तिका पर और कुछ न लिखें।</p></li><li><p>इस परीक्षण पुस्तिका में <strong>100 प्रश्नांश (प्रश्न)</strong> दिए गए हैं। प्रत्येक प्रश्नांश हिन्दी और अंग्रेजी दोनों में छपा है। प्रत्येक प्रश्नांश में चार प्रत्युत्तर (उत्तर) दिए गए हैं। इनमें से एक प्रत्युत्तर को चुन लें, जिसे आप उत्तर-पत्रक पर अंकित करना चाहते हैं। यदि आपको ऐसा लगे कि एक से अधिक प्रत्युत्तर सही हैं, तो उस प्रत्युत्तर को अंकित करें जो आपको सर्वोत्तम लगे। प्रत्येक प्रश्नांश के लिए केवल एक ही प्रत्युत्तर चुनना है।</p></li><li><p>आपको अपने सभी प्रत्युत्तर अलग से दिए गए उत्तर-पत्रक पर ही अंकित करने हैं। उत्तर-पत्रक में दिए गए निर्देश देखें।</p></li><li><p>सभी प्रश्नांशों के अंक समान हैं।</p></li><li><p>इससे पहले कि आप परीक्षण पुस्तिका के विभिन्न प्रश्नांशों के प्रत्युत्तर उत्तर-पत्रक पर अंकित करना शुरू करें, आपको प्रवेश प्रमाण-पत्र के साथ प्रेषित अनुदेशों के अनुसार कुछ विवरण उत्तर-पत्रक में देने हैं।</p></li><li><p>आप अपने सभी प्रत्युत्तरों को उत्तर-पत्रक में भरने के बाद तथा परीक्षा के समापन पर केवल उत्तर-पत्रक अधीक्षक को सौंप दें। आपको अपने साथ परीक्षण पुस्तिका ले जाने की अनुमति है।</p></li><li><p>कच्चे काम के लिए पत्रक, परीक्षण पुस्तिका के अन्त में संलग्न हैं।</p></li><li><p><strong>गलत उत्तरों के लिए दण्ड :</strong></p><ul><li><p>सभी प्रश्नों में उम्मीदवार द्वारा दिए गए गलत उत्तरों के लिए दण्ड दिया जाएगा।</p></li><li><p>प्रत्येक प्रश्न के लिए चार वैकल्पिक उत्तर हैं। उम्मीदवार द्वारा प्रत्येक प्रश्न के लिए दिए गए एक गलत उत्तर के लिए प्रश्न हेतु नियत किए गए अंकों का एक-तिहाई दण्ड के रूप में काटा जाएगा।</p></li><li><p>यदि कोई उम्मीदवार एक से अधिक उत्तर देता है, तो इसे गलत उत्तर माना जाएगा, यद्यपि दिए गए उत्तरों में से एक उत्तर सही होता है, फिर भी उस प्रश्न के लिए उपर्युक्तानुसार ही उसी तरह का दण्ड दिया जाएगा।</p></li><li><p>यदि उम्मीदवार द्वारा कोई प्रश्न हल नहीं किया जाता है अर्थात् उम्मीदवार द्वारा उत्तर नहीं दिया जाता है, तो उस प्रश्न के लिए कोई दण्ड नहीं दिया जाएगा।</p></li></ul></li></ol><p><strong>जब तक आपको यह परीक्षण पुस्तिका खोलने को न कहा जाए तब तक न खोलें</strong></p><p>Note : English version of the instructions is printed on the back cover of this Booklet.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This document contains general instructions for candidates appearing in the Civil Services (P) Examination - 2025, Paper-I. It covers checking the test booklet, OMR sheet filling, number of questions (100), marking responses, equal marks for all questions, filling particulars, handing over the answer sheet, rough work, and penalties for wrong answers (one-third deduction for each wrong answer, including multiple answers for a single question). No penalty for unanswered questions."
+    },
+    "mcq": null,
+    "source_pdf": "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CSP-25-GENERAL-STUDIES-PAPER-I-26052025.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "civil-services-exam-2023-instructions-001",
+    "subject": "Miscellaneous",
+    "chapter": "Exam Instructions",
+    "topic": "General Instructions for Civil Services (P) Exam 2023",
+    "text": "<p><strong>CIVIL SERVICES (P) EXAM- 2023</strong></p><p>T.B.C. : XDTG-F-GST</p><p>Serial No. 1952941</p><p><strong>TEST BOOKLET</strong></p><p><strong>GENERAL STUDIES</strong></p><p><strong>PAPER—I</strong></p><p>Time : Two Hours</p><p>Maximum Marks : 200</p><p>Test Booklet Series <strong>A</strong></p><p><strong>INSTRUCTIONS</strong></p><ol><li>Immediately after the commencement of the examination, you must check this test booklet to ensure that there is no unprinted, torn, or missing page or item. If so, get it replaced with a correct test booklet.</li><li>Please note that it is the candidate's responsibility to carefully fill in and encode the Roll Number and Test Booklet Series A, B, C or D in the appropriate place on the OMR Answer Sheet without any error or discrepancy. In case of any error/discrepancy, the answer sheet will be cancelled.</li><li>You have to write your Roll Number in the box provided on this test booklet. Do not write anything else on the test booklet.</li><li>This test booklet contains 100 items (questions). Each item is printed in both Hindi and English. Each item has four responses (answers). Choose one response that you want to mark on the answer sheet. If you feel that more than one response is correct, mark the response that you consider best. Only one response should be chosen for each item.</li><li>You have to mark all your responses only on the separate answer sheet provided. See the instructions given in the answer sheet.</li><li>All items carry equal marks.</li><li>Before you start marking the responses to the various items in the test booklet on the answer sheet, you have to fill in some details on the answer sheet as per the instructions sent with the admission certificate.</li><li>After marking all your responses on the answer sheet and at the end of the examination, hand over only the answer sheet to the invigilator. You are permitted to take the test booklet with you.</li><li>Sheets for rough work are appended at the end of the test booklet.</li><li><strong>Penalty for wrong answers:</strong><ul><li>(i) There will be a penalty for wrong answers given by the candidate in all questions. There are four alternative answers for each question. For each wrong answer given by the candidate, one-third of the marks allotted to that question will be deducted as penalty.</li><li>(ii) If a candidate gives more than one answer, it will be treated as a wrong answer, even if one of the given answers is correct, and the same penalty as above will be applied for that question.</li><li>(iii) If a question is not attempted by the candidate, i.e., no answer is given by the candidate, no penalty will be applied for that question.</li></ul></li></ol><p><strong>Note:</strong> English version of the instructions is printed on the back cover of this Booklet.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "General instructions for candidates appearing in the Civil Services (Preliminary) Examination 2023, covering aspects like test booklet verification, OMR sheet filling, question structure, marking scheme, and negative marking."
+    },
+    "mcq": {},
+    "source_pdf": "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "vocab-antonyms-set-1",
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "topic": "Antonyms",
+    "text": "<p>This section covers key vocabulary words and their antonyms as tested in defence examinations:</p><ul><li><strong>Deplorable</strong>: Deserving strong condemnation; shockingly bad. <em>Antonym:</em> Commendable (deserving praise).</li><li><strong>Counteract</strong>: Act against something in order to reduce its force or neutralize it. <em>Antonym:</em> Exacerbate (make a problem or bad situation worse).</li><li><strong>Persevere</strong>: Continue in a course of action even in the face of difficulty or with little or no prospect of success. <em>Antonym:</em> Give up.</li><li><strong>Hideous</strong>: Extremely ugly or unpleasant. <em>Antonym:</em> Beautiful.</li><li><strong>Squander</strong>: Waste (something, especially money or time) in a reckless and foolish manner. <em>Antonym:</em> Manage / Save.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Word | Meaning | Antonym | Synonyms |\n|---|---|---|---|\n| Deplorable | Shockingly bad / lamentable | Commendable | Reprehensible, Despicable, Opprobrious |\n| Counteract | Neutralize / oppose | Exacerbate | Foil, Thwart, Contravene |\n| Persevere | Persist / carry on | Give up | Stand firm, Persist |\n| Hideous | Extremely ugly | Beautiful | Appalling, Grotesque, Macabre |\n| Squander | Waste recklessly | Manage | Fritter away, Splurge |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A compilation of high-frequency vocabulary words tested in the NDA GAT English section, focusing on antonyms and contextual usage."
+    },
+    "mcq": {
+      "question": "What is the antonym of the word 'Deplorable'?",
+      "options": [
+        "Reprehensible",
+        "Opprobrious",
+        "Despicable",
+        "Commendable"
+      ],
+      "correct": 3,
+      "explanation": "'Deplorable' means shockingly bad or deserving strong condemnation. Its opposite is 'Commendable', which means deserving praise."
+    },
+    "source_pdf": "scratch\\pdf_downloads\\gat_syllabus\\QP_NDANAI2024_GENERAL-ABILITY-TEST_22042024.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "nda-2024-gat-instructions",
+    "subject": "Defence",
+    "chapter": "NDA Exam Pattern & Instructions",
+    "topic": "General Ability Test (GAT) Instructions",
+    "text": "<h3>N.D.A. & N.A. Examination (I), 2024 - सामान्य योग्यता परीक्षण (General Ability Test)</h3><p><strong>परीक्षण पुस्तिका अनुक्रम:</strong> A</p><p><strong>समय:</strong> दो घण्टे और तीस मिनट (2 Hours 30 Minutes)</p><p><strong>पूर्णांक:</strong> 600 (Maximum Marks: 600)</p><h4>महत्वपूर्ण अनुदेश (Important Instructions):</h4><ul><li><strong>1. पड़ताल:</strong> परीक्षा प्रारम्भ होने के तुरन्त बाद, आप इस परीक्षण पुस्तिका की पड़ताल अवश्य कर लें कि इसमें कोई बिना छपा, फटा या छूटा हुआ पृष्ठ अथवा प्रश्नांश, आदि न हों। यदि ऐसा है, तो इसे सही परीक्षण पुस्तिका से बदल लीजिए।</li><li><strong>2. OMR उत्तर-पत्रक:</strong> कृपया ध्यान रखें कि OMR उत्तर-पत्रक में, उचित स्थान पर, रोल नम्बर और परीक्षण पुस्तिका अनुक्रम A, B, C या D को, ध्यान से एवं बिना किसी चूक या विसंगति के भरने और कूटबद्ध करने की जिम्मेदारी उम्मीदवार की है। किसी भी प्रकार की चूक/विसंगति की स्थिति में उत्तर-पत्रक निरस्त कर दिया जाएगा।</li><li><strong>3. अनुक्रमांक:</strong> इस परीक्षण पुस्तिका पर साथ में दिए गए कोष्ठक में आपको अपना अनुक्रमांक लिखना है। परीक्षण पुस्तिका पर और कुछ न लिखें।</li><li><strong>4. प्रश्नांशों की संख्या:</strong> इस परीक्षण पुस्तिका में <strong>150 प्रश्नांश (प्रश्न)</strong> दो भागों में दिए गए हैं : <strong>भाग - A</strong> और <strong>भाग - B</strong>। भाग - B में प्रत्येक प्रश्नांश हिन्दी और अंग्रेज़ी दोनों में छपा है। प्रत्येक प्रश्नांश में चार प्रत्युत्तर (उत्तर) दिए गए हैं। इनमें से एक प्रत्युत्तर को चुन लें, जिसे आप उत्तर-पत्रक पर अंकित करना चाहते हैं। यदि आपको ऐसा लगे कि एक से अधिक प्रत्युत्तर सही हैं, तो उस प्रत्युत्तर को अंकित करें जो आपको सर्वोत्तम लगे। प्रत्येक प्रश्नांश के लिए केवल एक ही प्रत्युत्तर चुनना है।</li><li><strong>5. प्रत्युत्तर अंकित करना:</strong> आपको अपने सभी प्रत्युत्तर अलग से दिए गए उत्तर-पत्रक पर ही अंकित करने हैं। उत्तर-पत्रक में दिए गए निर्देश देखिए।</li><li><strong>6. अंक:</strong> सभी प्रश्नांशों के अंक समान हैं।</li><li><strong>7. विवरण:</strong> इससे पहले कि आप परीक्षण पुस्तिका के विभिन्न प्रश्नांशों के प्रत्युत्तर उत्तर-पत्रक पर अंकित करना शुरू करें, आपको प्रवेश प्रमाण-पत्र के साथ प्रेषित अनुदेशों के अनुसार कुछ विवरण उत्तर-पत्रक में देने हैं।</li><li><strong>8. उत्तर-पत्रक सौंपना:</strong> आप अपने सभी प्रत्युत्तरों को उत्तर-पत्रक में भरने के बाद तथा परीक्षा के समापन पर केवल उत्तर-पत्रक अधीक्षक को सौंप दें। आपको अपने साथ परीक्षण पुस्तिका ले जाने की अनुमति है।</li><li><strong>9. कच्चा काम:</strong> कच्चे काम के लिए पत्रक, परीक्षण पुस्तिका के अंत में संलग्न हैं।</li><li><strong>10. ग़लत उत्तरों के लिए दंड:</strong> वस्तुनिष्ठ प्रश्न-पत्रों में उम्मीदवार द्वारा दिए गए ग़लत उत्तरों के लिए दंड दिया जाएगा।<ul><li>(i) प्रत्येक प्रश्न के लिए चार वैकल्पिक उत्तर हैं। उम्मीदवार द्वारा प्रत्येक प्रश्न के लिए दिए गए एक ग़लत उत्तर के लिए प्रश्न हेतु नियत किए गए अंकों का <strong>एक-तिहाई (1/3)</strong> दंड के रूप में काटा जाएगा।</li><li>(ii) यदि कोई उम्मीदवार एक से अधिक उत्तर देता है, तो इसे ग़लत उत्तर माना जाएगा, यद्यपि दिए गए उत्तरों में से एक उत्तर सही होता है, फिर भी उस प्रश्न के लिए उपर्युक्तानुसार ही, उसी तरह का दंड दिया जाएगा।</li><li>(iii) यदि उम्मीदवार द्वारा कोई प्रश्न हल नहीं किया जाता है, अर्थात् उम्मीदवार द्वारा उत्तर नहीं दिया जाता है, तो उस प्रश्न के लिए कोई दंड नहीं दिया जाएगा।</li></ul></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "The image shows the front cover page of the NDA & NA Examination (I), 2024 Test Booklet for the General Ability Test (सामान्य योग्यता परीक्षण). It features the Test Booklet Series 'A' prominently on the top right, the booklet serial number '1359849' on the top left, and the subject code 'RRAN-A-GAT'. The page contains detailed instructions in Hindi for candidates regarding OMR sheets, question distribution, and negative marking rules."
+    ],
+    "details": {
+      "summary": "This document is the cover page of the NDA & NA Examination (I), 2024 General Ability Test (GAT) booklet, Series A. It outlines the exam duration (2.5 hours), maximum marks (600), total questions (150 across Parts A and B), and the negative marking scheme of 1/3rd mark deduction for incorrect answers."
+    },
+    "source_pdf": "NDA Papers\\QP_NDANAI2024_GENERAL-ABILITY-TEST_22042024.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "note-nghm-2023",
+    "subject": "Current Affairs",
+    "chapter": "Government Schemes & Missions",
+    "topic": "National Green Hydrogen Mission (NGHM)",
+    "text": "<p><strong>National Green Hydrogen Mission (NGHM):</strong></p><ul><li>Approved by the Union Cabinet, Government of India, in <strong>January 2023</strong>.</li><li>The mission aims to make India a global hub for the production, utilization, and export of Green Hydrogen and its derivatives.</li><li>The nodal ministry for this mission is the <strong>Ministry of New and Renewable Energy (MNRE)</strong>.</li><li>The <strong>Green Hydrogen Certification Scheme</strong> is also spearheaded by the Ministry of New and Renewable Energy (MNRE) to define standards and certification templates for green hydrogen production in India.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of the National Green Hydrogen Mission approved in 2023 and its implementation details."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-25-GENERAL-ABILITY-INTELLIGENCE-040825.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-india-poland-2024",
+    "subject": "International Relations",
+    "chapter": "Bilateral Relations",
+    "topic": "India-Poland Strategic Partnership",
+    "text": "<p><strong>India-Poland Strategic Partnership Action Plan:</strong></p><ul><li>India and Poland have agreed on a five-year action plan to implement the 'India-Poland Strategic Partnership'.</li><li>The active five-year action plan spans the period <strong>2024–2028</strong>.</li><li>This plan was finalized during high-level bilateral visits in 2024 to strengthen cooperation in defense, trade, and technology.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Details of the 5-year action plan (2024-2028) between India and Poland."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-25-GENERAL-ABILITY-INTELLIGENCE-040825.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-rvp-2024",
+    "subject": "Current Affairs",
+    "chapter": "Awards and Honors",
+    "topic": "Rashtriya Vigyan Puraskar 2024",
+    "text": "<p><strong>Rashtriya Vigyan Puraskar (RVP) 2024:</strong></p><ul><li>The inaugural <strong>Vigyan Ratna Award</strong> (the highest category under the Rashtriya Vigyan Puraskar) for 2024 was awarded to renowned biochemist <strong>Prof. Govindarajan Padmanaban</strong> for his pioneering contributions to malaria research and biotechnology.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Inaugural Vigyan Ratna awardee of 2024."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-25-GENERAL-ABILITY-INTELLIGENCE-040825.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-opcw-award-2024",
+    "subject": "Current Affairs",
+    "chapter": "International Organizations & Awards",
+    "topic": "OPCW The Hague Award",
+    "text": "<p><strong>OPCW The Hague Award:</strong></p><ul><li>The Organisation for the Prohibition of Chemical Weapons (OPCW) presents 'The Hague Award' to recognize individuals or institutions making outstanding contributions to the goal of a world free of chemical weapons.</li><li>In 2024, the award recognized significant contributions towards chemical safety and non-proliferation.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Brief on the OPCW The Hague Award."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-25-GENERAL-ABILITY-INTELLIGENCE-040825.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-comp-lang",
+    "subject": "Science & Technology",
+    "chapter": "Computer Science",
+    "topic": "Programming Languages",
+    "text": "<p><strong>Programming languages</strong> are broadly classified into procedural and non-procedural (declarative) languages:</p><ul><li><strong>Procedural Languages:</strong> These languages follow a sequence of statements or commands to achieve a result. Examples include <em>C, C++, Java, and Python</em>.</li><li><strong>Non-Procedural Languages:</strong> Also known as declarative languages, these specify <em>what</em> needs to be done rather than <em>how</em> to do it. Examples include <em>LISP, Prolog, ML, and SQL</em>.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Language Type | Key Characteristics | Examples |\n|---|---|---|\n| Procedural | State-oriented, step-by-step execution | Python, C, C++ |\n| Non-Procedural | Logic/Functional-oriented, declarative | Prolog, LISP, ML |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification of programming languages into procedural (step-by-step) and non-procedural (declarative/functional) paradigms."
+    },
+    "mcq": {
+      "question": "Which of the following is a non-procedural language?",
+      "options": [
+        "C",
+        "Python",
+        "Prolog",
+        "Java"
+      ],
+      "correct": 2,
+      "explanation": "Prolog is a logic-based non-procedural language, whereas C, Python, and Java are procedural/object-oriented."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CAPF_2024_GEN-ABILITY-AND-INTELLI_05082024.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-video-compression",
+    "subject": "Science & Technology",
+    "chapter": "Computer Science",
+    "topic": "Video Compression Standards",
+    "text": "<p><strong>Video compression</strong> is the process of reducing the size of video files using codecs. Common standards include:</p><ul><li><strong>MPEG (Moving Picture Experts Group):</strong> Widely used standards like MPEG-1, MPEG-2, and MPEG-4 for digital video storage and streaming.</li><li><strong>P*64 (H.261):</strong> An early video coding standard designed for telecommunications over ISDN lines.</li><li><strong>Indeo:</strong> A proprietary video codec developed by Intel, commonly used in early desktop video applications.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of video compression standards including MPEG, P*64, and Indeo."
+    },
+    "mcq": {
+      "question": "Which of the following is used for video compression?",
+      "options": [
+        "MPEG only",
+        "Indeo only",
+        "Both MPEG and Indeo",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explanation": "Both MPEG and Indeo are well-known video compression standards."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CAPF_2024_GEN-ABILITY-AND-INTELLI_05082024.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-photon-energy",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Photon Energy and Electromagnetic Spectrum",
+    "text": "<p>The energy of a single photon is directly proportional to its electromagnetic frequency and inversely proportional to its wavelength.</p><p>The electromagnetic spectrum in order of decreasing wavelength (increasing energy/frequency) is:</p><ul><li>Radio waves</li><li>Microwaves</li><li>Infrared (IR)</li><li>Visible light</li><li>Ultraviolet (UV)</li><li>X-rays</li><li>Gamma rays</li></ul>",
+    "formulas": [
+      "E = h * f",
+      "E = (h * c) / lambda"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Relationship between photon energy, frequency, and wavelength across the electromagnetic spectrum."
+    },
+    "mcq": {
+      "question": "Which electromagnetic wave has the highest photon energy?",
+      "options": [
+        "Infrared",
+        "Visible light",
+        "Ultraviolet",
+        "X-ray"
+      ],
+      "correct": 3,
+      "explanation": "X-rays have the shortest wavelength and highest frequency among the options, giving them the highest energy per photon."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CAPF_2024_GEN-ABILITY-AND-INTELLI_05082024.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-lagrange-points",
+    "subject": "Science & Technology",
+    "chapter": "Space Technology",
+    "topic": "Lagrange Points",
+    "text": "<p><strong>Lagrange points</strong> are positions in space where the gravitational forces of a two-body system (like the Sun and Earth) produce enhanced regions of attraction and repulsion. There are five such points (L1 to L5):</p><ul><li><strong>L1:</strong> Located between the Sun and Earth, about 1.5 million km from Earth.</li><li><strong>L2:</strong> Located directly behind the Earth (away from the Sun), about 1.5 million km from Earth.</li><li><strong>L3:</strong> Located on the opposite side of the Sun, nearly opposite to Earth's orbit.</li><li><strong>L4 & L5:</strong> Form stable equilateral triangles with the Earth and Sun.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of the five Lagrange points in the Sun-Earth system and their relative distances."
+    },
+    "mcq": {
+      "question": "What is the approximate distance of L1 from Earth?",
+      "options": [
+        "1.5 million km",
+        "15 million km",
+        "150 million km",
+        "300 million km"
+      ],
+      "correct": 0,
+      "explanation": "L1 is located approximately 1.5 million kilometers (15 lakh km) from Earth."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CAPF_2024_GEN-ABILITY-AND-INTELLI_05082024.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-greenhouse-effect",
+    "subject": "Environment",
+    "chapter": "Climate Change",
+    "topic": "Greenhouse Effect Mechanism",
+    "text": "<p>The <strong>Greenhouse Effect</strong> is a natural process that warms the Earth's surface:</p><ul><li>Glass (or greenhouse gases) is transparent to incoming <strong>short-wavelength</strong> solar radiation (including visible light and short-wave infrared).</li><li>The ground absorbs this energy and re-emits it as <strong>long-wavelength (thermal) infrared radiation</strong>.</li><li>Glass (or greenhouse gases) is opaque to this long-wavelength radiation, trapping the heat inside and raising the temperature.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "The physical mechanism of heat trapping via wavelength-selective transmission in a greenhouse."
+    },
+    "mcq": {
+      "question": "Which type of radiation is trapped inside a greenhouse?",
+      "options": [
+        "Short-wavelength infrared",
+        "Long-wavelength infrared",
+        "Ultraviolet radiation",
+        "Cosmic rays"
+      ],
+      "correct": 1,
+      "explanation": "Long-wavelength thermal infrared radiation emitted by the warmed interior is trapped because glass is opaque to it."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CAPF_2024_GEN-ABILITY-AND-INTELLI_05082024.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-raga-equivalents",
+    "subject": "History",
+    "chapter": "Art and Culture",
+    "topic": "Indian Music",
+    "text": "<p><strong>कर्नाटक और हिन्दुस्तानी संगीत के रागों का मिलान:</strong></p><p>भारतीय शास्त्रीय संगीत की दो मुख्य पद्धतियाँ हैं: उत्तर भारत की <em>हिन्दुस्तानी पद्धति</em> और दक्षिण भारत की <em>कर्नाटक पद्धति</em>। इन दोनों पद्धतियों में कई राग समान स्वरों वाले होते हैं, लेकिन उनके नाम भिन्न होते हैं:</p><ul><li><strong>धीर शंकराभरणम् (कर्नाटक):</strong> यह राग हिन्दुस्तानी संगीत के <strong>बिलावल ठाट</strong> के समतुल्य है। इसमें सभी स्वर शुद्ध लगते हैं।</li><li><strong>हनुमतोड़ी (कर्नाटक):</strong> यह हिन्दुस्तानी संगीत के <strong>भैरवी ठाट</strong> के समतुल्य है।</li><li><strong>कामवर्धिनी (कर्नाटक):</strong> यह हिन्दुस्तानी संगीत के <strong>पूर्वी ठाट</strong> के समतुल्य है।</li><li><strong>नट भैरवी (कर्नाटक):</strong> यह हिन्दुस्तानी संगीत के <strong>आसावरी ठाट</strong> के समतुल्य है।</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| कर्नाटक राग | हिन्दुस्तानी राग/ठाट |\n|---|---|\n| धीर शंकराभरणम् | बिलावल |\n| हनुमतोड़ी | भैरवी |\n| कामवर्धिनी | पूर्वी |\n| नट भैरवी | आसावरी |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "कर्नाटक संगीत के रागों का हिन्दुस्तानी संगीत के रागों के साथ तुलनात्मक अध्ययन।"
+    },
+    "mcq": {
+      "question": "निम्नलिखित में से कर्नाटक संगीत के किस राग का हिन्दुस्तानी संगीत के राग बिलावल से मेल है?",
+      "options": [
+        "नट भैरवी",
+        "कामवर्धिनी",
+        "हनुमतोड़ी",
+        "धीर शंकराभरणम्"
+      ],
+      "correct": 3,
+      "explanation": "धीर शंकराभरणम् कर्नाटक संगीत का राग है जो हिन्दुस्तानी संगीत के बिलावल ठाट के समतुल्य है।"
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-hilton-young-commission",
+    "subject": "History",
+    "chapter": "Modern Indian History",
+    "topic": "Economic Policy under British Rule",
+    "text": "<p><strong>हिल्टन-यंग कमीशन (1926):</strong></p><p>रॉयल कमीशन ऑन इंडियन करेंसी एंड फाइनेंस (हिल्टन-यंग कमीशन) की स्थापना 1925 में भारतीय मुद्रा और वित्त प्रणाली की जांच करने के लिए की गई थी।</p><ul><li><strong>विनिमय दर की सिफारिश:</strong> कमीशन ने रुपए-स्टर्लिंग विनिमय दर को <strong>1s 6d (1 शिलिंग 6 पेंस)</strong> पर स्थिर करने की सिफारिश की।</li><li><strong>ब्रिटिश सरकार का उद्देश्य:</strong> ब्रिटिश सरकार ने इस कृत्रिम रूप से उच्च दर को इसलिए स्वीकार किया ताकि भारत से ब्रिटेन को भेजे जाने वाले धन (जैसे गृह प्रभार या Home Charges) के प्रवाह में आसानी हो और अंतरराष्ट्रीय बाजार में भारत की ऋणपात्रता (creditworthiness) बनी रहे।</li><li><strong>भारतीय राष्ट्रवादियों का विरोध:</strong> भारतीय उद्योगपतियों और राष्ट्रवादियों ने इसका विरोध किया क्योंकि इससे भारतीय निर्यात को नुकसान हो रहा था और आयात सस्ता हो रहा था।</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "हिल्टन-यंग कमीशन (1926) की सिफारिशें और ब्रिटिश सरकार द्वारा रुपए-स्टर्लिंग विनिमय दर निर्धारण के पीछे के आर्थिक कारण।"
+    },
+    "mcq": {
+      "question": "हिल्टन-यंग कमीशन (1926) द्वारा निर्धारित रुपए-स्टर्लिंग विनिमय दर को ब्रिटिश सरकार ने क्यों स्वीकार किया?",
+      "options": [
+        "भारत से प्रेषित धन के प्रवाह में सहायता देने और भारत की ऋणपात्रता को बनाए रखने के लिए",
+        "भारतीय आयातकों को समर्थन देने के लिए",
+        "भारत से कपास उपज के निर्यात को बढ़ावा देने के लिए",
+        "स्वर्ण के सापेक्ष रुपए के मूल्यह्रास को रोकने के लिए"
+      ],
+      "correct": 0,
+      "explanation": "ब्रिटिश सरकार ने भारत से प्रेषित धन (Home Charges) के प्रवाह को सुगम बनाने और भारत की ऋणपात्रता बनाए रखने के लिए 1s 6d की दर को स्वीकार किया था।"
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-ancient-coinage",
+    "subject": "History",
+    "chapter": "Ancient Indian History",
+    "topic": "Economic Life and Coinage",
+    "text": "<p><strong>प्राचीन भारत में सिक्कों का इतिहास और मौद्रिक अर्थव्यवस्था:</strong></p><p>छठी शताब्दी ईसा पूर्व (महाजनपद काल) में भारत में द्वितीय नगरीकरण के साथ-साथ मौद्रिक अर्थव्यवस्था का उदय हुआ।</p><ul><li><strong>साहित्यिक साक्ष्य:</strong> पाली ग्रंथों (जैसे विनय पिटक, सुत्त पिटक) में विभिन्न प्रकार के सिक्कों का उल्लेख मिलता है, जैसे:<ul><li><strong>कहापण (Kahapana / Karshapana):</strong> सबसे प्रचलित सिक्का।</li><li><strong>निक्खा (Nikkha):</strong> सोने का सिक्का या मूल्य की इकाई।</li><li><strong>कंस (Kansa) और काकणिका (Kakanika):</strong> छोटे मूल्यवर्ग के सिक्के।</li></ul></li><li><strong>पुरातात्विक साक्ष्य:</strong> इन साहित्यिक साक्ष्यों की पुष्टि पुरातात्विक खुदाई से प्राप्त <strong>आहत सिक्कों (Punch-marked coins)</strong> से होती है। ये सिक्के मुख्य रूप से <strong>चाँदी</strong> और ताँबे के बने होते थे।</li><li><strong>महत्व:</strong> यह संक्रमण वस्तु विनिमय प्रणाली (Barter System) से एक विकसित <strong>मुद्रा अर्थव्यवस्था (Monetary Economy)</strong> और <strong>शहरी जीवन के उद्भव</strong> को दर्शाता है।</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "पाली ग्रंथों में वर्णित सिक्कों और पुरातात्विक आहत सिक्कों का आर्थिक इतिहास में महत्व।"
+    },
+    "mcq": {
+      "question": "पाली ग्रंथों में वर्णित कहापण और काकणिका किससे संबंधित हैं?",
+      "options": [
+        "धार्मिक अनुष्ठान",
+        "प्राचीन सिक्के",
+        "कृषि उपकरण",
+        "कर प्रणाली"
+      ],
+      "correct": 1,
+      "explanation": "कहापण और काकणिका प्राचीन भारत में प्रयुक्त होने वाले सिक्के थे।"
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-temple-architecture",
+    "subject": "History",
+    "chapter": "Art and Culture",
+    "topic": "Temple Architecture",
+    "text": "<p><strong>भारतीय मंदिर स्थापत्य कला की शैलियाँ:</strong></p><p>भारतीय मंदिरों को मुख्य रूप से तीन शैलियों में वर्गीकृत किया जाता है: नागर (उत्तर भारतीय), द्रविड़ (दक्षिण भारतीय), और वेसर (मिश्रित शैली)।</p><ul><li><strong>नागर शैली (Nagara Style):</strong> इस शैली की मुख्य विशेषता रेखा-शिखर (curvilinear spire) है।<ul><li><strong>दशावतार मंदिर, देवगढ़ (उत्तर प्रदेश):</strong> गुप्त काल का यह मंदिर नागर शैली के शुरुआती और सबसे महत्वपूर्ण उदाहरणों में से एक है, जिसमें शिखर मौजूद है।</li><li><strong>हुचिमल्लिगुड़ी मंदिर, ऐहोल:</strong> चालुक्य काल का यह मंदिर नागर शैली के प्रभाव (शिखर) को प्रदर्शित करता है।</li></ul></li><li><strong>द्रविड़ शैली (Dravida Style):</strong> इस शैली में पिरामिडनुमा विमान (Vimana) होते हैं।<ul><li><strong>मालेगिट्टी शिवालय, बादामी:</strong> यह द्रविड़ शैली का प्रारंभिक चालुक्य मंदिर है।</li><li><strong>विरुपाक्ष मंदिर, पट्टदकल:</strong> यह द्रविड़ शैली का एक उत्कृष्ट और पूर्ण विकसित उदाहरण है, जिसका निर्माण रानी लोकमहादेवी द्वारा करवाया गया था।</li></ul></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "नागर और द्रविड़ शैली के प्रमुख मंदिरों का वर्गीकरण और उनकी विशेषताएं।"
+    },
+    "mcq": {
+      "question": "निम्नलिखित में से कौन सा मंदिर नागर शैली के शिखर का उदाहरण है?",
+      "options": [
+        "मालेगिट्टी शिवालय, बादामी",
+        "विरुपाक्ष मंदिर, पट्टदकल",
+        "दशावतार मंदिर, देवगढ़",
+        "इनमें से कोई नहीं"
+      ],
+      "correct": 2,
+      "explanation": "देवगढ़ का दशावतार मंदिर गुप्तकालीन नागर शैली का प्रसिद्ध मंदिर है जिसमें शिखर पाया जाता है।"
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-jainism-gati",
+    "subject": "History",
+    "chapter": "Ancient Indian History",
+    "topic": "Jainism Philosophy",
+    "text": "<p><strong>जैन धर्म में चार गतियाँ (Four Gatis of Life):</strong></p><p>जैन दर्शन के अनुसार, कर्मों के आधार पर जीव संसार चक्र में चार विभिन्न योनियों या गतियों (Forms of Existence) में जन्म लेता है:</p><ol><li><strong>देव (Deva):</strong> स्वर्ग के जीव या दिव्य पुरुष (Heavenly beings)।</li><li><strong>मनुष्य (Manushya):</strong> मानव जीवन (Human beings)।</li><li><strong>तिर्यंच (Tiryancha):</strong> पशु, पक्षी, कीड़े-मकोड़े और पेड़-पौधे (Sub-human beings including animals and plants)।</li><li><strong>नारक (Naraki):</strong> नर्क के जीव (Hellish beings)।</li></ol><p><em>विशेष नोट:</em> यक्ष (अर्धदेव) को स्वतंत्र रूप से इन चार मुख्य गतियों में शामिल नहीं किया गया है, वे देव गति के अंतर्गत ही आते हैं।</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "जैन दर्शन के अनुसार जीव के अस्तित्व के चार मुख्य रूप (गतियाँ)।"
+    },
+    "mcq": {
+      "question": "जैन धर्म में मान्यता-प्राप्त जीवन के अस्तित्व के चार मुख्य रूपों (गतियों) में कौन सा शामिल नहीं है?",
+      "options": [
+        "देव",
+        "यक्ष",
+        "मनुष्य",
+        "तिर्यंच"
+      ],
+      "correct": 1,
+      "explanation": "यक्ष स्वतंत्र रूप से चार गतियों में शामिल नहीं है; चार गतियाँ देव, मनुष्य, तिर्यंच और नारक हैं।"
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-bagh-caves",
+    "subject": "History",
+    "chapter": "Art and Culture",
+    "topic": "Indian Paintings",
+    "text": "<p><strong>बाघ गुफाएँ और हल्लिसालस्य चित्र:</strong></p><p>बाघ गुफाएँ मध्य प्रदेश के धार जिले में बाघिनी नदी के किनारे स्थित गुप्तकालीन बौद्ध गुफाएँ हैं।</p><ul><li><strong>चित्रकला शैली:</strong> यहाँ की चित्रकला अजंता की गुफाओं के समकालीन और उसी शैली (फ्रेस्को) की है, लेकिन यह अधिक लौकिक (secular) विषयों को दर्शाती है।</li><li><strong>हल्लिसालस्य (Hallisalasya) चित्र:</strong> गुफा संख्या 4 (रंग महल) में प्रसिद्ध 'हल्लिसालस्य' का चित्र है। यह <strong>एक आनंदमय लोकनृत्य (group dance)</strong> को प्रदर्शित करता है, जिसमें एक पुरुष नर्तक के चारों ओर महिलाएँ वाद्ययंत्र बजाते हुए घेरा बनाकर नृत्य कर रही हैं।</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "बाघ गुफाओं की चित्रकला और उसमें चित्रित हल्लिसालस्य लोकनृत्य का विवरण।"
+    },
+    "mcq": {
+      "question": "बाघ गुफाओं में विद्यमान हल्लिसालस्य चित्र क्या प्रदर्शित करता है?",
+      "options": [
+        "एक आनंदमय लोकनृत्य",
+        "चिंतनशील मुद्रा में बुद्ध",
+        "कैलाश पर शिव और पार्वती",
+        "समुद्रमंथन"
+      ],
+      "correct": 0,
+      "explanation": "हल्लिसालस्य चित्र एक समूह लोकनृत्य को प्रदर्शित करता है।"
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "nda-cds-gat-reading-comprehension-env-01",
+    "subject": "Environment & Ecology",
+    "chapter": "Human Impact on Environment",
+    "topic": "Agricultural Sustainability and Ecological Degradation",
+    "text": "<p><strong>Agricultural Sustainability and Ecological Degradation:</strong></p><ul><li><strong>Sustainability Challenges:</strong> Twentieth-century agricultural advances are facing sustainability issues due to increasing costs, making further increases in output difficult to achieve.</li><li><strong>Population Pressure:</strong> Global population growth has forced farmers and herders into areas unsuitable for intensive agriculture, accelerating global ecological disruptions.</li><li><strong>Resource Depletion:</strong> Reserves of arable land and fresh water have diminished alarmingly, compounded by chemical runoffs causing pollution.</li><li><strong>Habitat & Species Loss:</strong> Invasion of natural habitats has accelerated species extinction. Tropical forests have shrunk by 50% since World War II, with agricultural pressures accounting for 75% of this loss.</li><li><strong>Desertification:</strong> Severe desertification has occurred over the last century, particularly in:<ul><li>North Africa</li><li>Southern portions of Africa</li><li>Australia</li><li>Northern Mexico</li><li>American Southwest</li></ul></li><li><strong>Government Interventions & Catastrophes:</strong><ul><li><strong>China Famine (1958-1961):</strong> A devastating famine that may have killed 30 million people.</li><li><strong>Aral Sea Destruction:</strong> Environmental catastrophe resulting from government-directed water diversion/intervention.</li></ul></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "An analysis of the ecological impacts of intensive agriculture, population growth, and government interventions on global resources, highlighting key historical catastrophes like the Chinese famine (1958-1961) and the destruction of the Aral Sea."
+    },
+    "mcq": {
+      "question": "Which of the following regions has NOT been highlighted as experiencing severe desertification over the last hundred years according to environmental studies of agricultural impact?",
+      "options": [
+        "North Africa",
+        "Northern Mexico",
+        "Western Europe",
+        "American Southwest"
+      ],
+      "correct": 2,
+      "explanation": "The text highlights North Africa, southern portions of Africa, Australia, northern Mexico, and the American Southwest as regions experiencing severe desertification, but does not mention Western Europe."
+    },
+    "source_pdf": "scratch\\pdf_downloads\\gat_syllabus\\QP-NDANA-II-25-GENERAL-ABILITY-TEST-150925.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "capf-2025-instructions-001",
+    "subject": "General Ability and Intelligence",
+    "chapter": "Examination Instructions",
+    "topic": "General Instructions for Candidates",
+    "text": "<p><strong>अनुदेश (Instructions)</strong></p><ul><li><p>परीक्षा प्रारम्भ होने के तुरन्त बाद आप इस परीक्षण पुस्तिका की पड़ताल अवश्य कर लें कि इसमें कोई बिना छपा, फटा या छूटा हुआ पृष्ठ अथवा प्रश्नांश आदि न हो। यदि ऐसा है, तो इसे सही परीक्षण पुस्तिका से बदल लें।</p></li><li><p>कृपया ध्यान रखें कि OMR उत्तर-पत्रक में उचित स्थान पर रोल नम्बर और परीक्षण पुस्तिका अनुक्रम A, B, C या D को ध्यान से एवं बिना किसी चूक या विसंगति के भरने और कूटबद्ध करने की जिम्मेदारी उम्मीदवार की है। किसी भी प्रकार की चूक/विसंगति की स्थिति में उत्तर-पत्रक निरस्त कर दिया जाएगा।</p></li><li><p>इस परीक्षण पुस्तिका पर साथ में दिए गए कोष्ठक में आपको अपना अनुक्रमांक लिखना है। परीक्षण पुस्तिका पर और कुछ न लिखें।</p></li><li><p>इस परीक्षण पुस्तिका में <strong>125 प्रश्नांश (प्रश्न)</strong> दिए गए हैं। प्रत्येक प्रश्नांश हिन्दी और अंग्रेजी दोनों में छपा है। प्रत्येक प्रश्नांश में चार प्रत्युत्तर (उत्तर) दिए गए हैं। इनमें से एक प्रत्युत्तर को चुन लें, जिसे आप उत्तर-पत्रक पर अंकित करना चाहते हैं। यदि आपको ऐसा लगे कि एक से अधिक प्रत्युत्तर सही हैं, तो उस प्रत्युत्तर को अंकित करें जो आपको सर्वोत्तम लगे। प्रत्येक प्रश्नांश के लिए केवल एक ही प्रत्युत्तर चुनना है।</p></li><li><p>आपको अपने सभी प्रत्युत्तर अलग से दिए गए उत्तर-पत्रक पर ही अंकित करने हैं। उत्तर-पत्रक में दिए गए निर्देश देखें।</p></li><li><p>सभी प्रश्नांशों के अंक समान हैं।</p></li><li><p>इससे पहले कि आप परीक्षण पुस्तिका के विभिन्न प्रश्नांशों के प्रत्युत्तर उत्तर-पत्रक पर अंकित करना शुरू करें, आपको प्रवेश प्रमाण-पत्र के साथ प्रेषित अनुदेशों के अनुसार कुछ विवरण उत्तर-पत्रक में देने हैं।</p></li><li><p>आप अपने सभी प्रत्युत्तरों को उत्तर-पत्रक में भरने के बाद तथा परीक्षा के समापन पर केवल उत्तर-पत्रक अधीक्षक को सौंप दें। आपको अपने साथ परीक्षण पुस्तिका ले जाने की अनुमति है।</p></li><li><p>कच्चे काम के लिए पत्रक, परीक्षण पुस्तिका के अन्त में संलग्न हैं।</p></li><li><p><strong>गलत उत्तरों के लिए दण्ड :</strong><br>सभी प्रश्नों में उम्मीदवार द्वारा दिए गए गलत उत्तरों के लिए दण्ड दिया जाएगा।<br>(i) प्रत्येक प्रश्न के लिए चार वैकल्पिक उत्तर हैं। उम्मीदवार द्वारा प्रत्येक प्रश्न के लिए दिए गए गलत उत्तर के लिए प्रश्न हेतु नियत किए गए अंकों का एक-तिहाई दण्ड के रूप में काटा जाएगा।<br>(ii) यदि कोई उम्मीदवार एक से अधिक उत्तर देता है, तो इसे गलत उत्तर माना जाएगा, यद्यपि दिए गए उत्तरों में से एक उत्तर सही होता है, फिर भी उस प्रश्न के लिए उपर्युक्तानुसार ही उसी तरह का दण्ड दिया जाएगा।<br>(iii) यदि उम्मीदवार द्वारा कोई प्रश्न हल नहीं किया जाता है, अर्थात् उम्मीदवार द्वारा उत्तर नहीं दिया जाता है, तो उस प्रश्न के लिए कोई दण्ड नहीं दिया जाएगा।</p></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This document is a Mock Test for the C.A.P.F (ACs) Examination - 2025. It is a General Ability and Intelligence paper with Test Booklet Series A, Serial Number 1121325, and TBC FKKBO-GAIT. The examination duration is 2 Hours, and the maximum marks are 250. The booklet contains 125 questions, each printed in both Hindi and English, with four alternative answers. All questions carry equal marks. A penalty of one-third of the marks assigned to a question will be deducted for each wrong answer. Multiple answers for a single question will be treated as wrong and penalized. No penalty for unattempted questions. Candidates must fill in their Roll Number and Test Booklet Series on the OMR Answer Sheet and the Roll Number on the test booklet itself. Rough work sheets are provided at the end of the booklet. The English version of these instructions is printed on the back cover."
+    },
+    "mcq": {},
+    "source_pdf": "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CAPF-25-GENERAL-ABILITY-INTELLIGENCE-040825.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "capf-2024-exam-instructions-01",
+    "subject": "General Ability and Intelligence",
+    "chapter": "Exam Instructions",
+    "topic": "General Instructions for Candidates",
+    "text": "<p><strong>CAPF (ACs) Exam, 2024</strong></p><p>जब तक आपको यह परीक्षण पुस्तिका खोलने को न कहा जाए तब तक न खोलें (Do not open this Test Booklet until you are told to do so)</p><p>टी.बी.सी. : KSCB-A-GAI (T.B.C. : KSCB-A-GAI)</p><p>क्रम संख्या (Serial No.): 0187093</p><p><strong>परीक्षण पुस्तिका (Test Booklet)</strong></p><p>सामान्य योग्यता एवं बुद्धिमत्ता (General Ability and Intelligence)</p><p>परीक्षण पुस्तिका अनुक्रम (Test Booklet Series): A</p><p>समय (Time): दो घण्टे (Two Hours)</p><p>पूर्णांक (Maximum Marks): 250</p><p><strong>अनुदेश (Instructions):</strong></p><ol><li><p>परीक्षा प्रारम्भ होने के तुरन्त बाद, आप इस परीक्षण पुस्तिका की पड़ताल अवश्य कर लें कि इसमें कोई बिना छपा, फटा या छूटा हुआ पृष्ठ अथवा प्रश्नांश, आदि न हो। यदि ऐसा है, तो इसे सही परीक्षण पुस्तिका से बदल लें।</p><p><em>(Immediately after the commencement of the examination, you should check this Test Booklet thoroughly to ensure that there is no unprinted, torn or missing page or item, etc. If there is, get it replaced by a correct Test Booklet.)</em></p></li><li><p>कृपया ध्यान रखें कि OMR उत्तर-पत्रक में, उचित स्थान पर रोल नम्बर और परीक्षण पुस्तिका अनुक्रम A, B, C या D को ध्यान से एवं बिना किसी चूक या विसंगति के भरने और कूटबद्ध करने की ज़िम्मेदारी उम्मीदवार की है। किसी भी प्रकार की चूक/विसंगति की स्थिति में उत्तर-पत्रक निरस्त कर दिया जाएगा।</p><p><em>(Please note that it is the candidate's responsibility to fill in and encode the Roll Number and Test Booklet Series A, B, C or D carefully and without any omission or discrepancy at the appropriate places in the OMR Answer Sheet. In case of any omission/discrepancy, the Answer Sheet will be rejected.)</em></p></li><li><p>इस परीक्षण पुस्तिका पर साथ में दिए गए कोष्ठक में अपना अनुक्रमांक लिखना है। परीक्षण पुस्तिका पर और कुछ न लिखें।</p><p><em>(You have to write your Roll Number in the box provided alongside this Test Booklet. Do not write anything else on the Test Booklet.)</em></p></li><li><p>इस परीक्षण पुस्तिका में 125 प्रश्नांश (प्रश्न) दिए गए हैं। प्रत्येक प्रश्नांश हिन्दी और अंग्रेज़ी दोनों में छपा है। प्रत्येक प्रश्नांश में चार प्रत्युत्तर (उत्तर) दिए गए हैं। इनमें से एक प्रत्युत्तर को चुन लें, जिसे आप उत्तर-पत्रक पर अंकित करना चाहते हैं। यदि आपको ऐसा लगे कि एक से अधिक प्रत्युत्तर सही हैं, तो उस प्रत्युत्तर को अंकित करें जो आपको सर्वोत्तम लगे। प्रत्येक प्रश्नांश के लिए केवल एक ही प्रत्युत्तर चुनना है।</p><p><em>(This Test Booklet contains 125 items (questions). Each item is printed both in Hindi and English. Each item has four responses (answers). You have to choose one response which you consider the best and indicate that response on the Answer Sheet. In case you feel that there is more than one correct response, mark the response which you consider the best. You have to select only one response for each item.)</em></p></li><li><p>आपको अपने सभी प्रत्युत्तर अलग से दिए गए उत्तर-पत्रक पर ही अंकित करने हैं। उत्तर-पत्रक में दिए गए निर्देश देखें।</p><p><em>(You have to mark all your responses ONLY on the separate Answer Sheet provided. See the instructions in the Answer Sheet.)</em></p></li><li><p>सभी प्रश्नों के अंक समान हैं।</p><p><em>(All questions carry equal marks.)</em></p></li><li><p>इससे पहले कि आप परीक्षण पुस्तिका के विभिन्न प्रश्नांशों के प्रत्युत्तर उत्तर-पत्रक पर अंकित करना शुरू करें, आपको प्रवेश प्रमाण-पत्र के साथ प्रेषित अनुदेशों के अनुसार कुछ विवरण उत्तर-पत्रक में देने हैं।</p><p><em>(Before you proceed to mark in the Answer Sheet the responses to various items in the Test Booklet, you have to fill in some particulars in the Answer Sheet as per instructions sent with your Admission Certificate.)</em></p></li><li><p>आप अपने सभी प्रत्युत्तरों को उत्तर-पत्रक में भरने के बाद तथा परीक्षा के समापन पर केवल उत्तर-पत्रक अधीक्षक को सौंप दें। आपको अपने साथ परीक्षण पुस्तिका ले जाने की अनुमति है।</p><p><em>(After you have marked all your responses on the Answer Sheet and the examination has concluded, you should hand over only the Answer Sheet to the Invigilator. You are permitted to take away the Test Booklet with you.)</em></p></li><li><p>कच्चे काम के लिए प्रत्येक परीक्षण पुस्तिका के अंत में संलग्न है।</p><p><em>(Sheets for rough work are appended in the Test Booklet at the end.)</em></p></li><li><p><strong>गलत उत्तरों के लिए दंड (Penalty for wrong answers):</strong></p><ul><li><p>सभी प्रश्नों में उम्मीदवार द्वारा दिए गए गलत उत्तरों के लिए दंड दिया जाएगा। प्रत्येक प्रश्न के लिए दिए गए वैकल्पिक उत्तर हैं। उम्मीदवार द्वारा प्रत्येक प्रश्न के लिए दिए गए गलत उत्तर के लिए प्रश्न हेतु नियत किए गए अंकों का एक-तिहाई दंड के रूप में काटा जाएगा।</p><p><em>(There will be penalty for wrong answers given by the candidate in all the questions. For every question, there are four alternative answers. For each question for which a wrong answer has been given by the candidate, one-third of the marks assigned to that question will be deducted as penalty.)</em></p></li><li><p>यदि कोई उम्मीदवार एक से अधिक उत्तर देता है, तो इसे गलत उत्तर माना जाएगा, यद्यपि दिए गए उत्तरों में से एक उत्तर सही होता है, फिर भी उस प्रश्न के लिए उपर्युक्तानुसार ही, उसी तरह का दंड दिया जाएगा।</p><p><em>(If a candidate gives more than one answer, it will be treated as a wrong answer even if one of the given answers happens to be correct and there will be the same penalty as above for that question.)</em></p></li><li><p>यदि उम्मीदवार द्वारा कोई प्रश्न हल नहीं किया जाता है, अर्थात् उम्मीदवार द्वारा उत्तर नहीं दिया जाता है, तो उस प्रश्न के लिए कोई दंड नहीं दिया जाएगा।</p><p><em>(If a question is left blank by the candidate, i.e., no answer is given by the candidate, there will be no penalty for that question.)</em></p></li></ul></li></ol><p>जब तक आपको यह परीक्षण पुस्तिका खोलने को न कहा जाए तब तक न खोलें (Do not open this Test Booklet until you are told to do so)</p><p>Note : English version of the instructions is printed on the back cover of this Booklet.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "document_type": "Previous Year Paper",
+      "summary": "Detailed instructions for candidates appearing in the CAPF (ACs) Exam 2024, covering aspects such as checking the test booklet, filling the OMR answer sheet, number of questions, marking scheme, and penalty for wrong answers, presented in both Hindi and English."
+    },
+    "mcq": {},
+    "source_pdf": "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CAPF_2024_GEN-ABILITY-AND-INTELLI_05082024.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "civil-services-prelims-2026-instructions-1",
+    "subject": "General Studies",
+    "chapter": "Examination Instructions",
+    "topic": "General Instructions for Civil Services (Preliminary) Examination 2026",
+    "text": "<p><strong>Civil Services (Preliminary) Examination, 2026</strong></p><p><strong>जब तक आपको यह परीक्षण पुस्तिका खोलने को न कहा जाए तब तक न खोलें</strong></p><p>टी. बी. सी. : TDMN-A-ASO</p><p>क्रम संख्या 1750985</p><p><strong>परीक्षण पुस्तिका</strong></p><p><strong>सामान्य अध्ययन</strong></p><p><strong>प्रश्न-पत्र – I</strong></p><p>परीक्षण पुस्तिका अनुक्रम <strong>A</strong></p><p>समय: दो घण्टे</p><p>पूर्णांक: 200</p><p><strong>अनुदेश</strong></p><ol><li>परीक्षा प्रारम्भ होने के तुरन्त बाद, आप इस परीक्षण पुस्तिका की पड़ताल अवश्य कर लें कि इसमें कोई बिना छपा, फटा या छूटा हुआ पृष्ठ अथवा प्रश्नांश, आदि न हो। यदि ऐसा है, तो इसे सही परीक्षण पुस्तिका से बदल लें।</li><li>कृपया ध्यान रखें कि OMR उत्तर-पत्रक में, उचित स्थान पर, रोल नम्बर और परीक्षण पुस्तिका अनुक्रम A, B, C या D को, ध्यान से एवं बिना किसी चूक या विसंगति के भरने और कूटबद्ध करने की जिम्मेदारी उम्मीदवार की है। किसी भी प्रकार की चूक/विसंगति की स्थिति में उत्तर-पत्रक निरस्त कर दिया जाएगा।</li><li>इस परीक्षण पुस्तिका का साथ में दिए गए कोष्ठक में आपको अपना अनुक्रमांक लिखना है। परीक्षण पुस्तिका पर और कुछ न लिखें।</li><li>इस परीक्षण पुस्तिका में 100 प्रश्नांश (प्रश्न) दिए गए हैं। प्रत्येक प्रश्नांश हिन्दी और अंग्रेजी दोनों में छपा है। प्रत्येक प्रश्नांश में चार प्रत्युत्तर (उत्तर) दिए गए हैं। इनमें से एक प्रत्युत्तर को चुन लें, जिसे आप उत्तर-पत्रक पर अंकित करना चाहते हैं। यदि आपको ऐसा लगे कि एक से अधिक प्रत्युत्तर सही हैं, तो उस प्रत्युत्तर को अंकित करें जो आपको सर्वोत्तम लगे। प्रत्येक प्रश्नांश के लिए केवल एक ही प्रत्युत्तर चुनना है।</li><li>आपको अपने सभी प्रत्युत्तर अलग से दिए गए उत्तर-पत्रक पर ही अंकित करने हैं। उत्तर-पत्रक में दिए गए निर्देश देखें।</li><li>सभी प्रश्नांशों के अंक समान हैं।</li><li>इससे पहले कि आप परीक्षण पुस्तिका के विभिन्न प्रश्नांशों के प्रत्युत्तर उत्तर-पत्रक पर अंकित करना शुरू करें, आपको प्रवेश प्रमाण-पत्र के साथ प्रेषित अनुदेशों के अनुसार कुछ विवरण उत्तर-पत्रक में देने हैं।</li><li>आप अपने सभी प्रत्युत्तरों को उत्तर-पत्रक में भरने के बाद तथा परीक्षा के समापन पर केवल उत्तर-पत्रक अधीक्षक को सौंप दें। आपको अपने साथ परीक्षण पुस्तिका ले जाने की अनुमति है।</li><li>कच्चे काम के लिए पत्रक, परीक्षण पुस्तिका के अंत में संलग्न हैं।</li><li><strong>गलत उत्तरों के लिए दंड:</strong><ul><li>प्रत्येक प्रश्न के लिए चार वैकल्पिक उत्तर हैं। उम्मीदवार द्वारा प्रत्येक प्रश्न के लिए दिए गए एक गलत उत्तर के लिए प्रश्न हेतु नियत किए गए अंकों का एक-तिहाई दंड के रूप में काटा जाएगा।</li><li>यदि कोई उम्मीदवार एक से अधिक उत्तर देता है, तो इसे गलत उत्तर माना जाएगा, यद्यपि दिए गए उत्तरों में से एक उत्तर सही होता है, फिर भी उस प्रश्न के लिए उपर्युक्तानुसार ही, उसी तरह का दंड दिया जाएगा।</li><li>यदि उम्मीदवार द्वारा कोई प्रश्न हल नहीं किया जाता है, अर्थात् उम्मीदवार द्वारा उत्तर नहीं दिया जाता है, तो उस प्रश्न के लिए कोई दंड नहीं दिया जाएगा।</li></ul></li></ol><p><strong>जब तक आपको यह परीक्षण पुस्तिका खोलने को न कहा जाए तब तक न खोलें</strong></p><p>Note : English version of the instructions is printed on the back cover of this Booklet.</p><p>TDMN-A-ASO</p><p>(1-A)</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed instructions for candidates appearing in the Civil Services (Preliminary) Examination 2026, covering aspects like checking the test booklet, filling OMR sheet, marking answers, penalty for wrong answers, and general examination procedures."
+    },
+    "mcq": {},
+    "source_pdf": "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "physics-angular-momentum-001",
+    "subject": "Physics",
+    "chapter": "Mechanics",
+    "topic": "Angular Momentum",
+    "text": "<ul><li>If a cat is dropped from a height, they almost always tend to land on their feet because they use the conservation of angular momentum to change their orientation.</li><li>When a cat is in the air, no net external torque acts on it about its centre of mass, so the angular momentum about the cat’s centre of mass cannot change.</li><li>Stretching out its legs increases its rotational inertia and thus slows the cats angular speed. The conservation of angular momentum allows the cat to rotate its body and slow its rate of rotation enough, so that it lands on its feet easily.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "physics-rolling-motion-001",
+    "subject": "Physics",
+    "chapter": "Mechanics",
+    "topic": "Rolling Motion",
+    "text": "<p>The rolling motion can be regarded as the combination of pure rotation and pure translation.</p><ul><li>The kinetic energy of a body rolling without slipping is the sum of kinetic energies of translational and rotational motion.</li><li>i.e. total KE of a rolling body = Rotational KE + Translational KE</li><li>If a ring, a disc and a sphere, all of the same radius and mass roll down an inclined plane from the same height, the sphere will reach the bottom first and ring at last.</li></ul>",
+    "formulas": [
+      "Total KE = (1/2)Iω² + (1/2)mv_cm²"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "physics-gravitation-001",
+    "subject": "Physics",
+    "chapter": "Mechanics",
+    "topic": "Gravitation",
+    "text": "<p>The phenomena of action of attractive forces between two bodies by virtue of their masses is known as gravitation.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "physics-newtons-law-gravitation-001",
+    "subject": "Physics",
+    "chapter": "Mechanics",
+    "topic": "Newton's Law of Gravitation",
+    "text": "<p>The force of gravitational attraction between two bodies is directly proportional to the product of their masses (m₁ · m₂) and inversely proportional to the square of the distance (r) between them i.e. F = G (m₁m₂)/r²</p><p>where, m₁ is the mass of first body, m₂ is the mass of second body and r is the distance between them.</p><ul><li>The value of G is 6.67 × 10⁻¹¹ N-m²/kg².</li><li>It is always attractive in nature, unlike electric and magnetic force which can be attractive or repulsive both.</li><li>It acts along the line joining the centres of two interacting forces.</li><li>The gravitational force between two masses is independent of the presence of any other object medium present between two masses.</li><li>The predictions of solar and lunar eclipses on the basis of the Newton’s law of gravitation come out in perfect agreement with actual observation.</li><li>Tides are formed in oceans due to gravitational attraction between moon and ocean water.</li></ul>",
+    "formulas": [
+      "F = G (m₁m₂)/r²"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "physics-acceleration-due-to-gravity-001",
+    "subject": "Physics",
+    "chapter": "Mechanics",
+    "topic": "Acceleration due to Gravity",
+    "text": "<p>It is the force by which the earth attracts a body towards its centre.</p><ul><li>The acceleration due to gravity is the rate of change of velocity of a body due to the gravitational force acting towards the earth. It is represented by g = GM_e/R_e²</li><li>where, M_e is the mass of the earth and R_e is the radius of the earth.</li><li>The value of g at the surface of the earth is 9.8 m/s².</li><li>Earth is surrounded by an atmosphere of gases due to gravity. The value of g on the moon is 1/6th of that of the earth.</li></ul>",
+    "formulas": [
+      "g = GM_e/R_e²"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "physics-variation-value-g-001",
+    "subject": "Physics",
+    "chapter": "Mechanics",
+    "topic": "Variation in the Value of (g)",
+    "text": "<ul><li>When we go above the surface of the earth, the acceleration due to gravity goes on decreasing.</li><li>When we go below the surface of the earth, the acceleration due to gravity goes on decreasing and becomes zero at the centre of the earth.</li><li>Decreasing the rotational motion of the earth, the value of g increases. When we go from the equator towards the poles, the value of g goes on increasing.</li><li>If earth stops its rotation about its own axis, then at the equator, the value of g increases and consequently the weight of body lying there increases.</li><li>The value of g is maximum on surface of the earth.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "physics-mass-and-weight-001",
+    "subject": "Physics",
+    "chapter": "Mechanics",
+    "topic": "Mass and Weight",
+    "text": "<p>The mass of a body is the quantity of matter contained in it. It is a scalar quantity and its SI unit is kg. Mass does not change from place to place and remains constant.</p><p>The weight of the body is the force with which it is attracted towards the centre of the earth.</p><ul><li>Weight of the body w = mg</li><li>Weight of a body is not constant, it changes from place to place. At the pole, the weight of a body will be maximum whereas at the equator it is minimum.</li><li>Mass is measured by an ordinary equal arm balance, while weight is measured by a spring balance.</li></ul>",
+    "formulas": [
+      "w = mg"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "physics-weight-body-moon-001",
+    "subject": "Physics",
+    "chapter": "Mechanics",
+    "topic": "Weight of a Body at Moon",
+    "text": "<p>As mass and radius of moon is lesser than the earth, so the force of gravity at the moon is also less than the earth. Its value at the moon’s surface is g/6.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "physics-centre-of-gravity-001",
+    "subject": "Physics",
+    "chapter": "Mechanics",
+    "topic": "Centre of Gravity",
+    "text": "<p>The centre of gravity of a body is that point, at which the whole weight of the body appears to act.</p><ul><li>It can be inside the material of the body or outside it.</li><li>For regularly shaped body, the centre of gravity lies at its geometrical centre.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "minerals-occurrence-001",
+    "subject": "Geography",
+    "chapter": "Minerals & Energy Resources",
+    "topic": "Distribution of Minerals - Mode of Occurrence",
+    "text": "<p><strong>Mode of Occurrence of Minerals</strong></p><ul><li><strong>1. Veins & Lodes:</strong> In igneous/metamorphic rocks (e.g., Tin, Copper, Zinc).</li><li><strong>2. Beds & Layers:</strong> In sedimentary rocks (e.g., Coal, Iron Ore, Gypsum).</li><li><strong>3. Residual Mass of Weathered Material:</strong> Surface rock decomposition (e.g., Bauxite).</li><li><strong>4. Alluvial 'Placer' Deposits:</strong> In sands of valley floors (e.g., Gold, Silver, Tin).</li><li><strong>5. Ocean Waters:</strong> Common salt, magnesium, bromine.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of a miner's helmet and a pickaxe, symbolizing mineral extraction."
+    ],
+    "details": {
+      "summary": "Describes the five primary modes in which minerals occur in nature, including veins, beds, residual mass, placer deposits, and ocean waters, with examples for each."
+    },
+    "mcq": {},
+    "source_pdf": "6f6f4af2-763d-44c4-93af-0dbb0bc0dbca.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "minerals-non-metallic-002",
+    "subject": "Geography",
+    "chapter": "Minerals & Energy Resources",
+    "topic": "Characteristics of Non-Metallic Minerals",
+    "text": "<p><strong>Non-Metallic Minerals</strong></p><ul><li><strong>Mica:</strong> Indispensable for electronics due to its insulating properties. Key belt: Koderma-Gaya-Hazaribagh (Jharkhand).</li><li><strong>Rock Minerals (Limestone):</strong> Found in sedimentary rocks. Basic raw material for the cement industry. Rajasthan is a leading producer.</li><li><strong>Salt:</strong> Obtained from seas, lakes, and rocks.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of a rough, grey rock, representing non-metallic minerals."
+    ],
+    "details": {
+      "summary": "Details the characteristics and key locations of non-metallic minerals like Mica, Limestone, and Salt, highlighting their industrial uses."
+    },
+    "mcq": {},
+    "source_pdf": "6f6f4af2-763d-44c4-93af-0dbb0bc0dbca.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "minerals-ferrous-003",
+    "subject": "Geography",
+    "chapter": "Minerals & Energy Resources",
+    "topic": "Characteristics of Ferrous Minerals (Iron Base)",
+    "text": "<p><strong>Ferrous Minerals (Iron Base)</strong></p><ul><li>Provide a strong base for metallurgical industries.</li><li><strong>Iron Ore:</strong> Largest reserve in Asia. Odisha is largest producer.</li><li><strong>Types:</strong> Magnetite (>70% iron), Hematite (50-60% iron).</li><li><strong>Major Belts:</strong> Odisha-Jharkhand, Durg-Bastar- Chandrapur, Bellary-Chitradurga, Maharashtra-Goa.</li><li><strong>Manganese:</strong> Used for steel manufacturing. Madhya Pradesh is largest producer.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of a dark, metallic ore, likely iron ore."
+    ],
+    "details": {
+      "summary": "Explains the importance of ferrous minerals, focusing on Iron Ore (types, major belts, largest producer) and Manganese (use, largest producer)."
+    },
+    "mcq": {},
+    "source_pdf": "6f6f4af2-763d-44c4-93af-0dbb0bc0dbca.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "minerals-non-ferrous-004",
+    "subject": "Geography",
+    "chapter": "Minerals & Energy Resources",
+    "topic": "Characteristics of Non-Ferrous Minerals",
+    "text": "<p><strong>Non-Ferrous Minerals</strong></p><ul><li>India's reserves are not very large.</li><li><strong>Copper:</strong> India is deficient. Used in electrical cables, electronics. Mines: Balaghat (MP), Khetri (RJ), Singhbhum (Jharkhand).</li><li><strong>Bauxite:</strong> Aluminium ore. Found in tertiary deposits. Odisha is the largest producer (~65%). Key region: Amarkantak plateau.</li><li><strong>Lead, Zinc, Gold:</strong> Small reserves.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of two shiny copper ingots."
+    ],
+    "details": {
+      "summary": "Describes non-ferrous minerals in India, including Copper (deficiency, uses, mines), Bauxite (occurrence, largest producer), and other minerals like Lead, Zinc, and Gold."
+    },
+    "mcq": {},
+    "source_pdf": "6f6f4af2-763d-44c4-93af-0dbb0bc0dbca.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "minerals-hazards-005",
+    "subject": "Geography",
+    "chapter": "Minerals & Energy Resources",
+    "topic": "Conservation of Minerals - Hazards of Mining",
+    "text": "<p><strong>Hazards of Mining</strong></p><ul><li>Often called a 'killer industry'.</li><li><strong>Risks for Miners:</strong> Inhalation of noxious fumes, risk of mine roof collapse, inundation (flooding).</li><li><strong>Environmental Impact:</strong> Deforestation, contamination of water resources from slurry, land degradation.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of a crossed pickaxe and shovel, symbolizing mining activities and their potential dangers."
+    ],
+    "details": {
+      "summary": "Outlines the significant hazards associated with mining, including risks to miners' health and safety, and severe environmental impacts like deforestation and pollution."
+    },
+    "mcq": {},
+    "source_pdf": "6f6f4af2-763d-44c4-93af-0dbb0bc0dbca.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "minerals-conservation-006",
+    "subject": "Geography",
+    "chapter": "Minerals & Energy Resources",
+    "topic": "Conservation of Minerals - Methods",
+    "text": "<p><strong>Conservation of Minerals</strong></p><ul><li>Minerals are a non-renewable, finite resource.</li><li><strong>Methods:</strong><ol><li>Sustainable and planned utilization.</li><li>Improved extraction technology.</li><li>Recycling of metals.</li><li>Using substitutes and scrap metals.</li></ol></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of a green recycling symbol, representing conservation efforts."
+    ],
+    "details": {
+      "summary": "Discusses the non-renewable nature of minerals and lists key methods for their conservation, such as sustainable utilization, improved technology, and recycling."
+    },
+    "mcq": {},
+    "source_pdf": "6f6f4af2-763d-44c4-93af-0dbb0bc0dbca.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "energy-conventional-007",
+    "subject": "Geography",
+    "chapter": "Minerals & Energy Resources",
+    "topic": "Energy Resources - Conventional Sources",
+    "text": "<p><strong>Conventional Sources</strong></p><ul><li><strong>Coal:</strong> Most abundant fossil fuel. Formed from compressed plant matter. Gondwana coal (~98%) in Damodar Valley is the primary source.</li><li><strong>Petroleum:</strong> Found in anticlines &amp; fault traps. Mumbai High contributes ~63%. Gujarat ~18%. Assam (Digboi) is the oldest producer.</li><li><strong>Natural Gas:</strong> Cleaner fuel, managed by GAIL. Key artery: 1700 km HBJ Pipeline.</li><li><strong>Electricity:</strong><ul><li><strong>Hydropower:</strong> Renewable. Projects: Bhakra Nangal, Hirakud.</li><li><strong>Thermal Power:</strong> From fossil fuels; generates over 60% of India's power.</li></ul></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of a pile of coal, representing fossil fuels and conventional energy sources."
+    ],
+    "details": {
+      "summary": "Provides details on conventional energy sources including Coal (formation, primary source), Petroleum (occurrence, major contributors), Natural Gas (cleaner fuel, pipeline), and Electricity (Hydropower projects, Thermal Power contribution)."
+    },
+    "mcq": {},
+    "source_pdf": "6f6f4af2-763d-44c4-93af-0dbb0bc0dbca.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "energy-non-conventional-008",
+    "subject": "Geography",
+    "chapter": "Minerals & Energy Resources",
+    "topic": "Energy Resources - Non-Conventional Sources",
+    "text": "<p><strong>Non-Conventional Sources</strong></p><ul><li>Renewable, eco-friendly, reduce import dependency.</li><li><strong>Nuclear Energy:</strong> Regulated by NPCIL. Uses Uranium &amp; Thorium (from Monazite sands of Kerala). First plant: Tarapur (1969).</li><li><strong>Solar Energy:</strong> India has immense potential. Key to National Solar Mission.</li><li><strong>Wind Energy:</strong> India is a 'wind superpower.' Largest farm cluster: Nagercoil to Madurai (TN).</li><li><strong>Biogas ('Gobar Gas'):</strong> Provides energy and high-quality manure for rural areas.</li><li><strong>Tidal Energy:</strong> Potential in Gulf of Khambhat &amp; Kutch.</li><li><strong>Geothermal Energy:</strong> Pilot Projects: Parvati Valley (HP) &amp; Puga Valley (Ladakh).</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of a lightning bolt, symbolizing energy generation, and a green leaf, representing renewable energy."
+    ],
+    "details": {
+      "summary": "Covers non-conventional energy sources, emphasizing their renewable and eco-friendly nature, and details Nuclear, Solar, Wind, Biogas, Tidal, and Geothermal energy with key facts and locations."
+    },
+    "mcq": {},
+    "source_pdf": "6f6f4af2-763d-44c4-93af-0dbb0bc0dbca.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "energy-conservation-009",
+    "subject": "Geography",
+    "chapter": "Minerals & Energy Resources",
+    "topic": "Conservation of Energy Resources",
+    "text": "<p><strong>Conservation of Energy Resources</strong></p><ul><li>Essential for sustainable development.</li><li>The Energy Conservation Act (2001) established the Bureau of Energy Efficiency (BEE).</li><li><strong>Strategy:</strong><ol><li>Increased use of public transport.</li><li>Using power-saving devices and switching off electricity when not in use.</li><li>Greater reliance on renewable energy sources.</li></ol></li><li><strong>Slogan:</strong> 'Energy saved is energy produced'.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of a lightbulb with a plant growing inside, symbolizing sustainable energy.",
+      "Illustration of a green recycling symbol with a lightning bolt, representing energy conservation and renewable sources."
+    ],
+    "details": {
+      "summary": "Highlights the importance of energy conservation for sustainable development, mentions the Energy Conservation Act (2001) and BEE, outlines strategies, and provides a key slogan."
+    },
+    "mcq": {},
+    "source_pdf": "6f6f4af2-763d-44c4-93af-0dbb0bc0dbca.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "toc-overview-1",
+    "subject": "Miscellaneous",
+    "chapter": "Document Structure",
+    "subchapter": "",
+    "topic": "Table of Contents",
+    "subtopic": "",
+    "text": "<p>This document presents the Table of Contents for a study material, providing an overview of the topics covered across three main subjects: Geography, Physics, and Chemistry. Each topic is listed with its corresponding page number(s) within the material.</p>",
+    "formulas": [],
+    "tables": [
+      "| Topic | Page |\n|---|---|\n| India: Location, Size And Neighbours | 5 |\n| The Northern Plains Of India | 6 |\n| The Coastal Plains Of India | 7 |\n| The Peninsular Plateau | 8 |\n| The Islands Of India | 9 |\n| The Himalayas | 10 |\n| The Drainage System Of India | 11 |\n| Transportation And Communication In India | 12 |\n| Minerals & Energy Resources | 13 |\n| Land Resources & Agriculture | 14 |\n| Soils Of India | 15 |\n| Natural Vegetation In India | 16 |\n| The Indian Climate | 17 |\n| Koppen's Climate Classification | 18 |\n| Cosmology & The Solar System | 19 |\n| Fundamentals Of Earth | 20 |\n| Earths Interior & Rocks | 21 |\n| Theories Of Geological Evolution | 22 |\n| Landforms | 23 |\n| Earthquakes & Volcanoes | 24 |\n| Atmospheric Pressure & Wind Systems | 25 |\n| Cyclones & Anticyclones | 26 |\n| Earth's Atmosphere | 27 |\n| Oceanography | 28 |\n| Water In Atmosphere | 29 |\n| Tides | 30 |\n| Salinity Of Ocean Water | 31 |",
+      "| Topic | Page |\n|---|---|\n| Laws Of Motion | 32 |\n| Gravitation | 33 |\n| Work, Energy & Power | 34 |\n| Sound | 35-36 |\n| Optics | 37-38 |\n| Electricity | 39 |\n| Magnetic Effects Of Electric Current | 40 |\n| Electromagnetism | 41 |\n| Electromagnetic Waves & Spectrum | 42 |\n| The Human Eye | 43 |\n| Important Optical Instruments | 44 |\n| Mechanical Properties Of Solids & Fluids | 45 |\n| Fluid Mechanics | 46 |\n| Heat & Thermodynamics | 47 |\n| Atomic & Nuclear Physics | 48 |\n| Modern Physics | 49 |\n| Projectile Motion | 50 |\n| Simple Harmonic Motion ( SHM ) | 51 |\n| Elasticity | 52 |\n| Sources Of Energy | 53 |\n| Important Miscellaneous Topics | 54 |",
+      "| Topic | Page |\n|---|---|\n| Matter In Our Surroundings | 55 |\n| Atom Molecules & Atomic Structure | 56 |\n| Matter Around Us - Pure | 57 |\n| Carbon And Its Compounds | 58 |\n| Chemical Reaction & Equations | 59 |\n| Periodic Classification Of Elements | 60 |"
+    ],
+    "image_descriptions": [
+      "A detailed image of a Table of Contents, prominently titled 'TABLE OF CONTENTS'. It is structured into three main sections: Geography, Physics, and Chemistry. Each section lists various topics with their corresponding page numbers. The Geography section covers topics from 'India: Location, Size And Neighbours' to 'Salinity Of Ocean Water'. The Physics section includes topics from 'Laws Of Motion' to 'Important Miscellaneous Topics'. The Chemistry section lists topics from 'Matter In Our Surroundings' to 'Periodic Classification Of Elements'."
+    ],
+    "details": {
+      "summary": "This table of contents provides a structured overview of the study material, detailing chapters and topics for Geography, Physics, and Chemistry, along with their page references."
+    },
+    "mcq": {},
+    "source_pdf": "general_science_ssbcrack.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "india-australia-civil-nuclear-arrangement-001",
+    "subject": "Current Affairs",
+    "chapter": "International Relations",
+    "topic": "India-Australia Civil Nuclear Administrative Arrangement",
+    "text": "<h1><strong>India-Australia Civil Nuclear Administrative Arrangement</strong></h1><ul><li><strong>Event:</strong> Administrative Arrangement finalised under India-Australia Civil Nuclear Cooperation Agreement</li><li><strong>Summit:</strong> 3rd India-Australia Annual Leaders' Summit 2026, Melbourne</li><li><strong>Purpose:</strong> Long-term Australian uranium supply for India's peaceful nuclear programme</li><li><strong>Safeguards:</strong> All uranium under IAEA safeguards</li><li><strong>Non-Proliferation:</strong> Addresses Australia's safeguards requirements</li></ul><p><strong>Related Organizations:</strong> NSG (Nuclear Suppliers Group), IAEA (International Atomic Energy Agency)</p><p><strong>IAEA HQ:</strong> Vienna</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "An image depicting a handshake between two individuals, symbolizing an agreement. On the left side, the Indian flag is displayed alongside a pile of yellow uranium ore. On the right side, the Australian flag is shown, with two large nuclear power plant cooling towers visible in the background. Below the handshake, there are handwritten annotations: 'NSG' (Nuclear Suppliers Group) and 'IAEA HQ -> Vienna' (International Atomic Energy Agency, Headquarters in Vienna)."
+    ],
+    "details": {
+      "summary": "This note details the India-Australia Civil Nuclear Administrative Arrangement, which was finalized under the broader India-Australia Civil Nuclear Cooperation Agreement. The arrangement was a key outcome of the 3rd India-Australia Annual Leaders' Summit held in Melbourne in 2026. Its primary objective is to ensure a long-term supply of Australian uranium for India's peaceful nuclear energy program. A crucial aspect of this agreement is that all supplied uranium will be subject to International Atomic Energy Agency (IAEA) safeguards, thereby addressing Australia's non-proliferation concerns. The note also mentions the Nuclear Suppliers Group (NSG) and highlights that the IAEA's headquarters are located in Vienna."
+    },
+    "mcq": null,
+    "source_pdf": "current_affairs.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "india-australia-civil-nuclear-arrangement-2026",
+    "subject": "Current Affairs",
+    "chapter": "International Relations",
+    "topic": "India-Australia Civil Nuclear Administrative Arrangement",
+    "text": "<h1>India-Australia Civil Nuclear Administrative Arrangement</h1><ul><li><strong>Event:</strong> Administrative Arrangement finalised under India-Australia Civil Nuclear Cooperation Agreement</li><li><strong>Summit:</strong> 3rd India-Australia Annual Leaders' Summit 2026, Melbourne</li><li><strong>Purpose:</strong> Long-term Australian uranium supply for India's peaceful nuclear programme</li><li><strong>Safeguards:</strong> All uranium under IAEA safeguards</li><li><strong>Non-Proliferation:</strong> Addresses Australia's safeguards requirements</li></ul><p><strong>Related Organizations:</strong></p><ul><li>NSG (Nuclear Suppliers Group)</li><li>IAEA (International Atomic Energy Agency) - Headquarters: Vienna</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "An image illustrating the India-Australia Civil Nuclear Administrative Arrangement. It features two hands shaking, symbolizing cooperation, with the flags of India and Australia prominently displayed in the background. Behind the flags, there are nuclear power plant cooling towers, indicating the nuclear aspect of the agreement. In the foreground, to the left, is a pile of yellow uranium ore. Handwritten annotations point to 'NSG' and 'IAEA HQ -> Vienna', highlighting key international nuclear organizations."
+    ],
+    "details": {
+      "summary": "The India-Australia Civil Nuclear Administrative Arrangement was finalized as part of the India-Australia Civil Nuclear Cooperation Agreement. This arrangement, discussed at the 3rd India-Australia Annual Leaders' Summit in Melbourne in 2026, aims to ensure a long-term supply of Australian uranium for India's peaceful nuclear program. A crucial aspect is that all uranium supplied will be under IAEA safeguards, thereby addressing Australia's non-proliferation requirements. The Nuclear Suppliers Group (NSG) and the International Atomic Energy Agency (IAEA), headquartered in Vienna, are relevant international bodies in this context."
+    },
+    "source_pdf": "July_CA_Class.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "india-australia-nuclear-arrangement-001",
+    "subject": "International Relations",
+    "chapter": "Bilateral Relations",
+    "topic": "India-Australia Civil Nuclear Administrative Arrangement",
+    "text": "<p><strong>India-Australia Civil Nuclear Administrative Arrangement</strong></p><ul><li><strong>Event:</strong> Administrative Arrangement finalised under India-Australia Civil Nuclear Cooperation Agreement</li><li><strong>Summit:</strong> 3rd India-Australia Annual Leaders' Summit 2026, Melbourne</li><li><strong>Purpose:</strong> Long-term Australian uranium supply for India's peaceful nuclear programme</li><li><strong>Safeguards:</strong> All uranium under IAEA safeguards</li><li><strong>Non-Proliferation:</strong> Addresses Australia's safeguards requirements</li></ul><p><strong>Related Organizations:</strong></p><ul><li>NSG (Nuclear Suppliers Group)</li><li>IAEA (International Atomic Energy Agency) - Headquarters: Vienna</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A visual representation of the India-Australia Civil Nuclear Administrative Arrangement. It features two hands shaking, symbolizing cooperation, with the flags of India and Australia prominently displayed. In the background, there are nuclear power plant cooling towers, indicating the nuclear aspect of the agreement. A pile of yellow uranium ore is visible in the foreground. Handwritten annotations point to 'NSG' and 'IAEA', with 'HQ -> Vienna' written next to IAEA, providing additional context about related international organizations."
+    ],
+    "details": {
+      "summary": "This note details the India-Australia Civil Nuclear Administrative Arrangement, finalized under the existing Civil Nuclear Cooperation Agreement. It highlights the 3rd India-Australia Annual Leaders' Summit in Melbourne in 2026 as the context. The primary purpose is to secure a long-term supply of Australian uranium for India's peaceful nuclear program, with all uranium subject to IAEA safeguards. The arrangement also addresses Australia's non-proliferation and safeguards requirements. Related organizations like NSG and IAEA (headquartered in Vienna) are mentioned."
+    },
+    "mcq": null,
+    "source_pdf": "temp.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "exercise-pragati-2026-001",
+    "subject": "Defence",
+    "chapter": "Military Exercises",
+    "topic": "Exercise Pragati",
+    "text": "<h3>EXERCISE PRAGATI</h3><ul><li>The first edition of Exercise 'Pragati' is scheduled to take place at Umroi, Meghalaya, from May 18-31, 2026.</li><li>Exercise Pragati (Partnership of Regional Armies for Growth and Transformation in the Indian Ocean Region) is a multilateral exercise that involves 13 friendly countries.</li><li>The participating countries include: India, Bhutan, Sri Lanka, Vietnam, Cambodia, Maldives, Malaysia, Myanmar, Indonesia, Nepal, Philippines, Seychelles, and Laos.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "An aerial view showing three fighter jets (likely Sukhoi Su-30 MKI) flying in formation against a backdrop of clouds and a light blue sky.",
+      "A group of soldiers in military fatigues standing in a line on a stage in front of a large screen. The screen displays the 'EXERCISE PRAGATI' logo, which features a helicopter, soldiers, and mountains, along with the text 'UMROI 2026' and flags of various participating nations. The background behind the stage shows a silhouette of pine trees against a sunset-like sky."
+    ],
+    "details": {
+      "summary": "Exercise Pragati is a multilateral military exercise focused on regional army partnership for growth and transformation in the Indian Ocean Region, involving 13 countries and scheduled for May 2026 in Umroi, Meghalaya."
+    },
+    "mcq": {},
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "gen-sci-repro-001",
+    "subject": "General Science",
+    "chapter": "Reproductive System",
+    "topic": "Human Reproductive System (Male and Female)",
+    "text": "<p>Hormones from the <strong>cortex</strong> of the adrenal glands also control the content of urine.</p><h3>Reproductive system (Male)</h3><ul><li>The male reproductive organs include the testes, seminal vesicles, penis and some associated glands such as the prostate gland.</li></ul><h4>Testis</h4><ul><li>The most important male reproductive organ is the testis</li><li>It produces sperms. There are two oval testes, each contained in a protective bag called the scrotum (or scrotal sac), lying outside the abdominal cavity.</li><li>The scrotal sac can elongate and contract depending upon the body temperature and external temperature.</li><li>Sperms from the testis pass through the sperm duct, known as <strong>vas deferens</strong>.</li><li>The vas deferens runs interiorly up to the urinary bladder, from where it leads downward and is joined by a duct from the seminal vesicle.</li><li>The seminal vesicle is an elongated sac at the base of the urinary bladder. For each testis, there is one vas deferens and one seminal vesicle.</li><li>The functions of a seminal vesicle are to store the sperms that have come from the testis and to secrete seminal fluid, or semen, in which the sperms float.</li></ul><h4>Prostate gland</h4><ul><li>The sperm ducts from both sides join near the base of the urinary bladder, opening into a single tube called urethra. This junction occurs inside the prostate gland.</li><li>The prostate gland adds its secretion to the seminal fluid. The urethra leads to the outside of the body through an organ called a penis.</li><li>It carries both urine and seminal fluid.</li></ul><h4>Penis</h4><ul><li>The penis is a muscular, tubular organ made up of loose tissue with spaces in between.</li><li>On being stimulated, the penis fills with blood, making the penis erect and firm, so that it may enter the vagina of the female and discharge the sperms.</li></ul><h4>Sperm</h4><ul><li>The sperm is the male gamete.</li><li>It has a head and a long tail, which helps it swim towards the ovum (egg).</li></ul><h3>Reproductive system (Female)</h3><ul><li>The female reproductive organs include the ovaries. Fallopian tubes, uterus and vagina.</li></ul><h4>Ovary</h4><ul><li>The ovaries are a pair of small, oval organs in the lower part of the abdominal cavity.</li><li>They produce ova. The ova start maturing when the female reaches puberty.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "contents-page-general-science-001",
+    "subject": "General Science",
+    "chapter": "Table of Contents",
+    "topic": "Book Structure Overview",
+    "text": "<p>This page provides the table of contents for a study resource primarily focused on <strong>General Science</strong>, designed for defence examinations such as NDA/NA, CDS, and AFCAT. It outlines the structure of the book, including theoretical overviews, multiple-choice questions with explanations, practice quizzes, and previous year questions with solutions.</p>",
+    "formulas": [],
+    "tables": [
+      "| S. No | Topic | Page |\n|---|---|---|\n| 1. | A Brief Overview of Science | 02 |\n| 2. | General Science at a Glance | 02-39 |\n| | **Multiple Choice Questions With Answer And Explanation** | |\n| 3. | General Science – Physics | 40-77 |\n| 4. | General Science – Chemistry | 77-112 |\n| 5. | General Science – Biology | 113-150 |\n| | **General Science Quiz: Practice** | |\n| 6. | Physics | 151-179 |\n| 7. | Chemistry | 180-206 |\n| 8. | Biology | 207-235 |\n| | **Previous Year Questions With Solutions** | |\n| 9. | Previous Year Questions Asked In NDA/NA Examination | 236-259 |\n| 10. | Previous Year Questions Asked In CDS Examination | 260-280 |\n| 11. | Previous Year Questions Asked In AFCAT Examination | 281-289 |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This table of contents outlines a General Science study resource, starting with theoretical overviews, followed by multiple-choice questions with explanations across Physics, Chemistry, and Biology. It also includes practice quizzes for each science discipline and dedicated sections for previous year questions from NDA/NA, CDS, and AFCAT examinations with solutions. The document type is classified as a Practice Question Bank / Study Material."
+    },
+    "mcq": {},
+    "source_pdf": "insight_ssb_cheat_codes.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "buddhism-teachings-001",
+    "subject": "History",
+    "chapter": "Buddhism",
+    "topic": "Teachings of Buddha",
+    "text": "<p><strong>His four noble truths (Arya Satyas)</strong></p><ul><li>The world is full of sorrows (<em>Sabbam Dukham</em>).</li><li>The cause of sorrow is desire (<em>Dwadasb Nidan/Pratitya Samutpada</em>).</li><li>If desires are conquered, all sorrows can be removed (<em>Nirvana</em>).</li><li>This can be achieved by following the 8-fold path (<em>Ashtangika Marga</em>).</ul><p>The second truth, is based on Buddha's doctrine of Paticcheha samutpada or Pratitya samutpada i.e. law of dependent origination or causation.</p><p><strong>Eight-Fold Path (Ashtangika marga)</strong></p><ol type=\"i\"><li>Right understanding</li><li>Right thought</li><li>Right speech</li><li>Right action</li><li>Right livelihood</li><li>Right effort</li><li>Right mindfulness</li><li>Right concentration</ol><p><strong>Three Jewels (Triratnas)</strong></p><ol type=\"i\"><li>Buddha (the enlightened)</li><li>Dhamma (doctrine)</li><li>Sangha (order)</li></ol><p><strong>Code of Conduct</strong></p><ol type=\"i\"><li>Do not convert the property of others</li><li>Do not commit violence</li><li>Do not use intoxicants</li><li>Do not speak a lie</li><li>Do not indulge in corrupt practices</li></ol><ul><li><strong>Belief in Nirvana</strong> Also known as <em>moksha</em> or salvation. It refers to belief in the concept of ultimate bliss, whereby the person gets freedom from the cycle of birth and death.</li><li><strong>Belief in Ahimsa</strong> Law of <em>Karma</em> and <em>Madhya Marga/Madhyama Pratipada</em> (the middle path).</li><li><strong>Kutagorshala</strong> It is a place where Buddhist monks discusses religious issues.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "buddhism-texts-001",
+    "subject": "History",
+    "chapter": "Buddhism",
+    "topic": "Buddhist Texts",
+    "text": "<p>Tripitakas refers to Buddhists scriptures, it includes Vinay Pitaka, Sutta Pitaka and Abhidhamma Pitaka.</p><ul><li><strong>Vinaya Pitaka</strong> It contains the rules and regulations of monastic discipline for monks. An account of the life and teaching of the Buddha is also given.</li><li><strong>Sutta Pitaka</strong> Few discourses delivered by many Buddhist scholars like Sariputta, Ananda and others are given in it. It lays down the principles of Buddhism. It is a collection of Buddha's sermon and is divided into five groups.</li><li><strong>Abhidhamma Pitaka</strong> Having the philosophy of Buddha's teachings. It investigates mind and matter to help the understanding of things as they truly are.<ul><li><strong>Jatak Stories</strong> It tells about 550 previous births of Buddha.</li><li><strong>Milindapanho</strong> A conversation among Greco-Bactrian king, Menander and a Buddhist monk, Nagasena. It is written in the form of question and answer type.</li><li><strong>Kathavastu</strong> It is hinayana granth. It is the first book written in Sanskrit language in Buddhist religion.</li><li><strong>Mahavibhashashastra</strong> Written by Vasumitra, <em>encyclopedia</em> of Buddhist religion.</li><li><strong>Dipavamsha and Mahavamsha</strong> In Pali language, it tells about the history of Sri Lanka.</li></ul></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "buddhism-councils-001",
+    "subject": "History",
+    "chapter": "Buddhism",
+    "topic": "Buddhist Councils",
+    "text": "<ul><li><strong>The First Council (483 BC)</strong> It was held at Sattapanni (<em>Saptaparni</em>) cave near Rajagriha under the chairmanship of Mahakassapa. Here Vinaya Pitaka and Sutta Pitaka were compiled by Upali and Ananda respectively. Ajatashatru was the king at that time.</li><li><strong>The Second Council (383 BC)</strong> It was held at <em>Vaishali</em> during the reign of <em>Kalashoka</em>, the king of Shishunaga dynasty. The chairman was Sabakami. The monk of Vaishali wanted some changes in the rites. It resulted in division of sect into Sthavirvadins and Mahasamghikas.</li><li><strong>The Third Council (250 BC)</strong> It was held at <em>Pataliputra</em> during the reign of Ashoka (the Mauryan ruler). This council was held under the Presidentship of Mogaliputta Tissa, to revise the Buddhist texts.</li><li><strong>The Fourth Council (AD 72)</strong> It was held during the reign of <em>Kanishka</em> (the Kushana ruler) in Kashmir under the presidentship of Vasumitra and Ashwaghosh. Buddhism got divided into <em>Hinayana</em> and <em>Mahayana</em>.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "buddhism-division-001",
+    "subject": "History",
+    "chapter": "Buddhism",
+    "topic": "Division of Buddhism",
+    "text": "<p>The Buddhism was divided into following sects</p><ol type=\"i\"><li><strong>Hinayana or Lesser Wheel</strong> The followers of Hinayana believed in the original teachings of Buddha. They believed in individual salvation. They do not believe in idol-worship.</li><li><strong>Mahayana or Greater Wheel</strong> The follower of Mahayana sect believed in the heavenliness of Buddha and sought the salvation through the grace and help of Buddha and Bodhisattvas. It came into existence during the reign of Kanishka.</li><li><strong>Vajrayana or Vehicle of Thunderbolt</strong> The followers of Vajrayana believed that salvation could be attained by acquiring the magical powers i.e. Vajra. The chief divinities of their sect were Taras. Vajrayana became popular in Eastern part of India, particularly in Bengal and Bihar.</li></ol>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "buddhism-stupa-vihara-001",
+    "subject": "History",
+    "chapter": "Buddhism",
+    "topic": "Stupa and Vihara",
+    "text": "<ul><li><strong>Stupas</strong> are doomed monuments containing relics of the Buddha. The stupas are carved with symbols of Buddha foot print, bodhi tree, vase.</li><li><strong>Viharas</strong> are monastery halls, which the monks would originally have used for study, solitary, meditation and communal worship.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "vocab-infallible-1",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Infallible",
+    "text": "<p><strong>Infallible</strong> Incapable of making mistakes or being wrong</p><ul><li>Synonyms: Unerring, Flawless</li><li>Antonyms: Fallible, Erring</li><li><em>I never claimed to be infallible.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-inimical-2",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Inimical",
+    "text": "<p><strong>Inimical</strong> Harmful or limiting</p><ul><li>Synonyms: Injurious, Harmful</li><li>Antonyms: Helpful, Advantageous</li><li><em>A person with inimical behaviour is dangerous.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-iniquitous-3",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Iniquitous",
+    "text": "<p><strong>Iniquitous</strong> Very unfair or evil</p><ul><li>Synonyms: Wicked, Sinful</li><li>Antonyms: Good, Virtuous</li><li><em>This decision seems iniquitous.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-innate-4",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Innate",
+    "text": "<p><strong>Innate</strong> (of a quality) which you are born with or which is present naturally</p><ul><li>Synonyms: Inborn, Ingrained</li><li>Antonyms: Acquired, Extrinsic</li><li><em>He is a person with innate wisdom.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-insipid-5",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Insipid",
+    "text": "<p><strong>Insipid</strong> Lacking flavour; weak or tasteless</p><ul><li>Synonyms: Bland, Tasteless</li><li>Antonyms: Tasty, Delicious</li><li><em>The dinner was insipid.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-jabber-6",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Jabber",
+    "text": "<p><strong>Jabber</strong> Talk in a rapid, excited and often incomprehensible way</p><ul><li>Synonyms: Prattle, Babble</li><li>Antonyms: Be silent, Speak clearly</li><li><em>The train was full of people jabbering into their mobile phones.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-jaded-7",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Jaded",
+    "text": "<p><strong>Jaded</strong> Not having interest or losing interest as you have experienced something too many times.</p><ul><li>Synonyms: Bored, Tired</li><li>Antonyms: Fresh, Activated</li><li><em>Flying is exciting the first time you do it, but you soon become jaded.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-jaunty-8",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Jaunty",
+    "text": "<p><strong>Jaunty</strong> Lively in manner or appearence</p><ul><li>Synonyms: Merry, Cheerful</li><li>Antonyms: Unhappy, Depressed</li><li><em>Success makes a person jaunty.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-jinx-9",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Jinx",
+    "text": "<p><strong>Jinx</strong> Bad luck or a person or thing that brings bad luck</p><ul><li>Synonyms: Misfortune, Curse</li><li>Antonyms: Good Luck, Boon</li><li><em>His luck has been so bad he feels jinxed.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-jocular-10",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Jocular",
+    "text": "<p><strong>Jocular</strong> Funny or intended to make someone laugh</p><ul><li>Synonyms: Funny, Humorous</li><li>Antonyms: Serious, Depressed</li><li><em>Someone made a jocular remark to entertain the gathering.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-kaput-11",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Kaput",
+    "text": "<p><strong>Kaput</strong> Broken; not working properly</p><ul><li>Synonyms: Faulty, Broken</li><li>Antonym: Operational</li><li><em>My fridge has gone kaput.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-ken-12",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Ken",
+    "text": "<p><strong>Ken</strong> A person's range of knowledge or understanding</p><ul><li>Synonyms: Knowledge, Awareness</li><li>Antonym: Ignorance</li><li><em>Politics are beyond my ken.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-kernel-13",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Kernel",
+    "text": "<p><strong>Kernel</strong> The central or most important part of something</p><ul><li>Synonyms: Essence, Core</li><li>Antonyms: Exterior, Periphery</li><li><em>We are to write the kernel of the story.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-kindle-14",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Kindle",
+    "text": "<p><strong>Kindle</strong> Arouse or inspire (an emotion or feeling)</p><ul><li>Synonyms: Arouse, Rouse, Wake</li><li>Antonyms: Douse, Put out</li><li><em>The trip kindled an interest in travel.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-knave-15",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Knave",
+    "text": "<p><strong>Knave</strong> A dishonest man</p><ul><li>Synonyms: Fraud, Cheat</li><li>Antonym: Honest</li><li><em>A knave cheated me on the bus.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-labile-16",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Labile",
+    "text": "<p><strong>Labile</strong> Changing often or easily</p><ul><li>Synonyms: Adaptable, Reactive</li><li>Antonyms: Balanced, Unreactive</li><li><em>Our culture is the most labile of all.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-laborious-17",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Laborious",
+    "text": "<p><strong>Laborious</strong> Tedious; needing a lot of time and effort</p><ul><li>Synonyms: Tough, Arduous</li><li>Antonyms: Simple, Easy</li><li><em>The project needs laborious people.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-lackadaisical-18",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Lackadaisical",
+    "text": "<p><strong>Lackadaisical</strong> Lacking enthusiasm and determination</p><ul><li>Synonyms: Lazy, Unenthusiastic</li><li>Antonyms: Enthusiastic, Excited</li><li><em>Efforts from the man seem lackadaisical.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-laggard-19",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Laggard",
+    "text": "<p><strong>Laggard</strong> A person who makes slow progress and lags behind others</p><ul><li>Synonyms: Loiterer, Lingerer</li><li>Antonym: Leader</li><li><em>A laggard can't win the race of life.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-lambaste-20",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Lambaste",
+    "text": "<p><strong>Lambaste</strong> To criticise severely</p><ul><li>Synonyms: Chastise, Castigate</li><li>Antonyms: Praise, Compliment</li><li><em>His work was lambasted by everyone.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-languid-21",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Languid",
+    "text": "<p><strong>Languid</strong> Showing or having very little strength, energy or activity.</p><ul><li>Synonyms: Enervated, Unenergetic</li><li>Antonyms: Energetic, Active</li><li><em>He looked languid after a sleepless night.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-lassitude-22",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Lassitude",
+    "text": "<p><strong>Lassitude</strong> A state of physical or mental weariness</p><ul><li>Synonyms: Fatigue, Lethargy</li><li>Antonyms: Freshness, Vigour, Energy</li><li><em>Symptoms of the disease include paleness and lassitude.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-leery-23",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Leery",
+    "text": "<p><strong>Leery</strong> Cautious or wary due to realistic suspicions</p><ul><li>Synonym: Careful</li><li>Antonym: Careless</li><li><em>They were leery of their neighbours.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-leviathan-24",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Leviathan",
+    "text": "<p><strong>Leviathan</strong> Extremely large and powerful</p><ul><li>Synonyms: Titan, Huge</li><li>Antonyms: Powerless, Tiny</li><li><em>Shakespeare is the leviathan of English literature.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-limber-25",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Limber",
+    "text": "<p><strong>Limber</strong> (of a person or body part) Able to bend and move easily and smoothly</p><ul><li>Synonyms: Flexible, Nimble</li><li>Antonyms: Rigid, Stiff</li><li><em>His whole body is a limber of muscles.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "vocab-limpid-26",
+    "subject": "General English",
+    "chapter": "Vocabulary",
+    "topic": "Limpid",
+    "text": "<p><strong>Limpid</strong> Clearly expressed and easily understood</p><ul><li>Synonyms: Lucid, Clear</li><li>Antonyms: Unclear, Unintelligible</li><li><em>The situation is a limpid one to get through.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "note-1",
+    "subject": "English",
+    "chapter": "Spotting the Errors",
+    "topic": "Error Correction Explanations (NDA/NA Exam 2012-2016)",
+    "text": "<ul><li>86. (b) The verb in the sentence should agree with the noun ‘captain’. Hence, we should change ‘are’ to ‘is’.</li><li>87. (c) The word ‘about’ is not needed in the sentence. Hence, we would remove ‘about’.</li><li>88. (c) ‘Either of ’ is used for two things. Hence, we would use ‘any of ’ in the given sentence.</li><li>89. (a) ‘Had been’ should be used in place of ‘are’ to convey the correct meaning of the sentence.</li><li>90. (a) The word ‘know’ should be replaced by ‘remember’ to convey the proper meaning of the sentence.</li><li>91. (a) ‘Losses’ is the incorrect word. It should be changed to ‘loses’.</li><li>92. (c) ‘Through’ is not the right word. It should be replaced by ‘with’.</li><li>93. (d) The sentence is correct.</li><li>94. (c) ‘Say’ should be used in place of ‘do’ as ‘do’ is not used with ‘prayer’.</li><li>95. (c) We need to add ‘had’ before ‘left’ to make the sentence grammatically correct.</li><li>96. (b) ‘Enough old’ should be changed to ‘old enough’.</li><li>97. (d) The sentence is correct.</li><li>98. (b) We should use ‘impartial’ in place of ‘partial’.</li><li>99. (b) ‘For’ should be replaced by ‘on’ to convey the correct meaning of the sentence.</li><li>100. (b) ‘By the road’ is incorrect. We should use ‘by road’.</li><li>101. (a) ‘In’ in the given sentence needs to be replaced by ‘with’.</li><li>102. (c) ‘The’ in the part (c) of the sentence should be replaced by ‘an’ as the next word ‘infant’s’ starts with a vowel.</li><li>103. (a) As per the given sentence, the verb ‘were’ should be replaced by ‘was’ to make the sentence grammatically correct.</li><li>104. (c) ‘As well’ is not needed in the sentence. Hence, we delete it.</li><li>105. (b) The right phrase to use is ‘catch a glimpse’. Hence, we replace ‘have’ by ‘catch’ in the given sentence.</li><li>106. (a) We need to use ‘distinct’ in place of ‘distinctive’ to make the sentence meaningful.</li><li>107. (b) ‘Many a’ uses a singular verb. Hence, we replace ‘are’ in the given sentence by ‘is’.</li><li>108. (c) ‘Work it out’ does not convey the right meaning it should be changed to ‘work out’.</li><li>109. (b) ‘Did not think’ needs to be replaced by ‘thought’ to make the sentence correct.</li><li>110. (b) ‘Either’ is used two things. For more than two, we use ‘any’. Hence, we would replace ‘either’ by ‘any’ to make the sentence correct.</li><li>111. (a) ‘Am’ needs to be replaced by ‘have been’ as the task in the sentence (‘learning English’) is continuous.</li><li>112. (b) ‘With’ is not needed as ‘to marry the girl’ makes right sense. Hence, we would remove ‘with’.</li><li>113. (b) ‘He had left’ needs to be changed to ‘had he left’ to make the sentence grammatically correct.</li><li>114. (a) ‘Was arriving’ is not correct as per the sentence structure and tense. It should be change to past tense i.e., ‘When he arrived’.</li><li>115. (a) The sentence refers to a past event. Hence, the verb ‘constituted’ should be changed to ‘had constituted’.</li><li>116. (a) We should remove ‘to’ and change ‘sneeze’ to ‘sneezing’ to make the sentence correct.</li><li>117. (b) ‘Hand to the mouth’ is incorrect. The correct phrase/idiom is ‘hand to mouth’ which means ‘to have just enough money to live on and nothing extra’.</li><li>118. (a) As per the rule ‘as well as’ is not used in place of ‘and’. Hence, we replace ‘as well as’ by ‘and’ to make the sentence correct.</li><li>119. (b) The preposition ‘by’ is incorrect. It should be replaced by ‘to’ to make the sentence meaningful.</li><li>1. (c) ‘To close’ does not convey the right meaning. It should be changed to ‘to an end’ or ‘to conclusion’ to make the sentence meaningful.</li><li>2. (b) ‘Each of ’ takes a singular verb. Hence, ‘have’ in the given sentence should be changed to ‘has’.</li><li>3. (a) As per the rules, 3rd person should come before Ist person. Hence, part (a) of the sentence would be changed to ‘Gopal and I’.</li><li>4. (c) The word ‘hard’ should be added before ‘to read’ to make the sentence meaningful.</li><li>5. (c) The question tag ‘isn’t it?’ should be replaced by ‘aren’t they?’ to make the sentence correct.</li><li>6. (a) ‘Despite’ is not followed by preposition ‘of ’ so to make the given sentence correct, remove ‘of ’ from part (a) of the sentence.</li><li>7. (a) ‘As soon as’ is the correct usage. Hence, we should add ‘as’ after ‘soon’.</li><li>8. (a) ‘For an employment’ should be changed to ‘for employment’. This is done because articles are not used before abstract nouns.</li><li>9. (a) In the sentence, ‘the train left’ would be changed to ‘the train had left’.</li><li>10. (c) The sentence refers to present tense. Hence, ‘was’ in the sentence should be changed to ‘is’.</li><li>11. (a) ‘Will’ is not needed in part (a) of the sentence. Hence, we should remove ‘will’ to make the sentence grammatically correct.</li><li>12. (c) As per the rule, ‘for’ is used to express duration while ‘since’ is used for a starting point. Hence, we would use ‘for’ in the sentence in place of ‘since’.</li><li>13. (a) ‘Many a’ takes a singular verb. Hence, we would use ‘was’ in place of ‘were’.</li><li>14. (c) The verb ‘talk’ is used incorrectly in the sentence. It should be changed to ‘talking’ to make the sentence correct.</li><li>15. (c) ‘Died by cancer’ is incorrect as in case of diseases we use ‘died of ’. Hence, the word ‘by’ should be changed to ‘of ’.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanations for spotting errors questions from NDA/NA Exam (2012-2016) covering grammar rules."
+    },
+    "mcq": {
+      "question": "",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "nda_material_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "eng-spotting-errors-degrees-001",
+    "subject": "English",
+    "chapter": "Spotting the Errors",
+    "topic": "Comparison of Adjectives and Rules of Degrees",
+    "text": "<h2>Comparison of Adjectives</h2><p><strong>1. Positive Degree:</strong> When only one case is there.<br><em>e.g.</em> &ndash; Meerut is a <em>big</em> city.</p><p><strong>2. Comparative Degree:</strong> When two cases are there.<br><em>e.g.</em> &ndash; Meerut is <em>bigger</em> than Ghaziabad.<br>&ndash; She is <em>better</em> than anybody else in the school.</p><p><strong>3. Superlative Degree:</strong> When more than two cases are there.<br><em>e.g.</em> &ndash; Meerut is the <em>biggest</em> city of West Uttar Pradesh.<br>&ndash; He is the <em>most corrupt</em> politician of all in the country.</p><h2>Confusing Words</h2><p>Refer to the table for clear distinctions between confusing comparative and superlative words such as Later/Latter/Latest/Last, Elder/Eldest, Old/Older/Oldest, Farther/Further, and Nearest/Next.</p><h2>Rules of Degrees</h2><ul><li><strong>1. Double comparative and double superlative are not used together.</strong><br><em>e.g.</em> &ndash; She is the <em>most prettiest</em> girl. (&times;)<br>&ndash; She is the <em>prettiest</em> girl. (&check;)<br>&ndash; This boy is <em>more sweeter</em> than that boy. (&times;)<br>&ndash; This boy is <em>sweeter</em> than that boy. (&check;)</li><li><strong>2. The Adjective ending in -er (e.g. wiser) should be used as 'more wise' while comparing two qualities of the same person or thing.</strong><br><em>e.g.</em> &ndash; He is <em>wiser</em> / <em>more wise</em> than strong. (Correct: 'more wise')<br>&ndash; He is <em>more wise</em> / <em>wiser</em> than his brother. (Correct: 'wiser')</li><li><strong>3. In comparative cases, 'other' is used with than.</strong><br><em>e.g.</em> &ndash; He is <em>more intelligent</em> than his classmates. (&times;)<br>&ndash; He is <em>more intelligent</em> than his <em>other</em> classmates. (&check;)<br>&ndash; He is <em>stronger</em> than any person in the class. (&times;)<br>&ndash; He is <em>stronger</em> than any <em>other</em> person in the class. (&check;)<br>&ndash; This boy (<em>who has come from outside</em>) is <em>more intelligent</em> than any other boy in the class. (&check;)<br>&ndash; The Nile is <em>longer</em> than any river in the world. (&times;)<br>&ndash; The Nile is <em>longer</em> than any <em>other</em> river in the world. (&check;)</li><li><strong>4. In superlative cases, 'other' is not used.</strong><br><em>e.g.</em> &ndash; Samudragupta was the most powerful of all kings of his time.</li><li><strong>5. Adjectives expressing qualities, that do not have different degrees, cannot be compared.</strong><br><em>e.g.</em> Perfect, complete, circular, finish, square, empty, impossible, enough, full, unique, wonderful, marvelous, excellent, ultimate.<br>&ndash; This glass is <em>more full</em> than that glass. (&times;)<br>&ndash; I have had <em>more than enough</em>. (&times;)</li><li><strong>6. Similar things should be compared when we compare two things.</strong><br><em>e.g.</em> &ndash; The climate of Dehradun is better <em>than Meerut</em>. (&times;)<br>&ndash; The climate of Dehradun is better <em>than that of Meerut</em>. (&check;)<br>&ndash; The pollution in Delhi is greater <em>than any other city in India</em>. (&times;)<br>&ndash; The pollution in Delhi is greater <em>than that of any other city in India</em>. (&check;)</li><li><strong>7. The comparative degree is generally followed by 'than', but the following comparative adjectives are followed by the preposition 'to'.</strong><br><em>e.g.</em> Superior, inferior, junior, senior, prefer, preferable, elder, younger, prior, etc.<br>&ndash; He is <em>senior to me</em>.<br>&ndash; I prefer <em>tea to coffee</em>.<br>&ndash; The Jallianwala massacre happened <em>prior to</em> the Non-Cooperation Movement.</li><li><strong>8. If there is a gradual increase, it is expressed with two comparatives and not with positives.</strong><br><em>e.g.</em> &ndash; Indian fielding is getting <em>better and better</em> day-by-day.<br>&ndash; He became <em>more and more intelligent</em> while studying.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Word | Meaning | Example |\n|---|---|---|\n| Later / Latter / Latest / Last | 'Later' and 'latest' refer to time.<br>'Latter' and 'last' refer to position.<br>Latter : Former (opposite)<br>Last : First (opposite)<br>Later : Earlier (opposite)<br>Latest : Earliest (opposite) | Tempest was the last/latest play of Shakespeare.<br>What is the last/latest news?<br>He came latter/later than me.<br>The first half of the movie was very entertaining but the latter wasn't. |\n| Elder / Eldest | For blood relations only. | I am his elder brother. |\n| Old / Older / Oldest | For both persons and things. | My friend is older than me. |\n| Farther / Further | Farther: Geographical distance (comparative degree). Its superlative is 'farthest'.<br>Further: Besides (in addition to) | Mumbai is farther than Gwalior. (X)<br>Mumbai is farther than Gwalior from Meerut. (✓)<br>Kanyakumari is the farthest place in the South. (✓)<br>I would like to add further meaning to the studies. (✓) |\n| Nearest / Next | Nearest: It shows distance<br>Next: It shows position | The nearest post-office is next to the college. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This section covers degrees of comparison (positive, comparative, superlative), confusing word pairs (later/latter, elder/older, farther/further, nearest/next), and essential grammatical rules for correct usage of comparative and superlative adjectives in English."
+    },
+    "mcq": {
+      "question": "Which of the following sentences is grammatically correct regarding comparison of adjectives?",
+      "options": [
+        "The climate of Dehradun is better than Meerut.",
+        "He is senior than me in the organization.",
+        "The climate of Dehradun is better than that of Meerut.",
+        "She is the most prettiest girl in the class."
+      ],
+      "correct": 2,
+      "explanation": "When comparing two things, similar things must be compared using 'than that of'. Option C correctly uses 'than that of Meerut'."
+    },
+    "source_pdf": "cds_material_part2.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "pathfinder-cds-cover-2022-23",
+    "subject": "Defence",
+    "chapter": "Introduction",
+    "topic": "Pathfinder CDS Combined Defence Services Entrance Examination",
+    "text": "<p><strong>Pathfinder CDS Combined Defence Services Entrance Examination</strong></p><ul><li><strong>Edition:</strong> 2022-23 Edition</li><li><strong>Compiled & Edited by:</strong> Arihant 'Expert Team'</li><li><strong>Publisher:</strong> Arihant Publications (India) Limited</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Cover page of Pathfinder CDS Combined Defence Services Entrance Examination, 2022-23 Edition by Arihant Publications."
+    ],
+    "details": {
+      "summary": "Title page of Arihant Pathfinder CDS Entrance Examination preparation book, 2022-23 edition."
+    },
+    "mcq": null,
+    "source_pdf": "cds_material.pdf",
+    "source_page": 2
   }
 ]

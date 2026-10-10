@@ -11915,3 +11915,390 @@ window.EXPANDED_NOTES_DATA["ai-gen-physics-gravitation-kepler-s-laws-orbital-vel
 </div>
 `;
 
+window.EXPANDED_NOTES_DATA["ai-gen-chemistry-states-of-matter-kinetic-theory-gas-laws-van-der-waals-equation"] = `
+<div class="revision-card">
+  <h1 style="text-align:center;">Physical Chemistry – States of Matter, Kinetic Theory & Gas Laws</h1>
+  
+  <h2>1. Overview of Matter</h2>
+  <p>Matter can exist in several distinct <strong>states</strong> that are distinguished by the arrangement and motion of their constituent particles. The classical four states are <strong>solid, liquid, gas, and plasma</strong>. Modern research has added exotic states such as <strong>Bose‑Einstein Condensate (BEC)</strong> and <strong>Fermionic Condensate</strong>. Understanding these states forms the foundation for the kinetic theory of gases and the derivation of gas laws.</p>
+  
+  <h3>1.1 Classical States</h3>
+  <ul>
+    <li><strong>Solid</strong> – Particles are tightly packed in a fixed lattice; only vibrational motion.</li>
+    <li><strong>Liquid</strong> – Particles are close but can slide past each other; translational & rotational motion.</li>
+    <li><strong>Gas</strong> – Particles are far apart; free translational motion in all directions.</li>
+    <li><strong>Plasma</strong> – Ionised gas with free electrons and positive ions; conducts electricity.</li>
+  </ul>
+  
+  <h3>1.2 Exotic States</h3>
+  <ul>
+    <li><strong>Bose‑Einstein Condensate (BEC)</strong> – Occurs near absolute zero (<span style='color: var(--warning);'>0 K</span>) where bosons occupy the same quantum ground state.</li>
+    <li><strong>Fermionic Condensate</strong> – Similar to BEC but formed by fermions pairing up.</li>
+  </ul>
+  
+  <h2>2. Kinetic Theory of Gases</h2>
+  <p>The kinetic theory provides a molecular‑level explanation for macroscopic gas behaviour. Its postulates are:</p>
+  <ol>
+    <li>Gases consist of a large number of tiny particles (atoms or molecules) in constant random motion.</li>
+    <li>The volume of individual particles is negligible compared to the volume of the container.</li>
+    <li>No intermolecular forces act except during elastic collisions.</li>
+    <li>Collisions between particles and with the walls are perfectly elastic – kinetic energy is conserved.</li>
+    <li>The average kinetic energy of gas particles is directly proportional to the absolute temperature (<span style='color: var(--warning);'>T</span>).</li>
+  </ol>
+  
+  <h3>2.1 Derivation of Pressure from Molecular Motion</h3>
+  <p>Consider a cubic container of side <em>L</em> containing <em>N</em> molecules each of mass <em>m</em>. For a single molecule moving with velocity components (<em>v_x, v_y, v_z</em>), the change in momentum on hitting a wall perpendicular to the x‑axis is:</p>
+  <p><strong>Δp = 2 m v_x</strong></p>
+  <p>The time between successive collisions with the same wall is <strong>Δt = 2L / v_x</strong>. Hence the force exerted by one molecule on the wall is:</p>
+  <p><strong>F = Δp / Δt = (m v_x²) / L</strong></p>
+  <p>Summing over all <em>N</em> molecules and using the fact that <em>⟨v_x²⟩ = ⟨v_y²⟩ = ⟨v_z²⟩ = (1/3)⟨v²⟩</strong>, we obtain:</p>
+  <p><strong>P = (1/3)(N m ⟨v²⟩) / V</strong></p>
+  <p>Since <strong>m⟨v²⟩ = 3k_B T</strong> (where <strong>k_B</strong> is Boltzmann’s constant), the ideal gas equation emerges:</p>
+  <p><strong>PV = N k_B T</strong></p>
+  <p>Replacing <strong>N = n N_A</strong> (where <strong>n</strong> is moles and <strong>N_A</strong> Avogadro’s number) gives the familiar form:</p>
+  <p><strong>PV = n R T</strong>  (Equation 1)</p>
+  
+  <h3>2.2 Important Relations from Kinetic Theory</h3>
+  <table border="1" cellpadding="5" cellspacing="0" style="width:100%; border-collapse:collapse;">
+    <tr style="background:#f2f2f2;">
+      <th>Quantity</th>
+      <th>Expression</th>
+      <th>Units</th>
+    </tr>
+    <tr>
+      <td><strong>Average kinetic energy per molecule</strong></td>
+      <td><strong>½ m ⟨v²⟩ = (3/2) k_B T</strong></td>
+      <td>J</td>
+    </tr>
+    <tr>
+      <td><strong>Root‑mean‑square speed (v_rms)</strong></td>
+      <td><strong>v_rms = √(3RT/M)</strong></td>
+      <td>m s⁻¹</td>
+    </tr>
+    <tr>
+      <td><strong>Mean free path (λ)</strong></td>
+      <td><strong>λ = k_B T / (√2 π d² P)</strong></td>
+      <td>m</td>
+    </tr>
+    <tr>
+      <td><strong>Collision frequency (Z)</strong></td>
+      <td><strong>Z = (P d² / √(2π m k_B T)) N_A</strong></td>
+      <td>s⁻¹</td>
+    </tr>
+  </table>
+  
+  <h2>3. Classical Gas Laws</h2>
+  <p>Before the universal ideal‑gas equation was formulated, several empirical laws were discovered. Memorising the historical dates helps in quick recall during exams.</p>
+  
+  <h3>3.1 Boyle’s Law (1662)</h3>
+  <p><strong>Statement:</strong> At constant temperature, the pressure of a given mass of gas is inversely proportional to its volume.</p>
+  <p><strong>Mathematical Form:</strong> <strong>P₁V₁ = P₂V₂</strong></p>
+  <p>Mnemonic: “<em>Boyle’s Bends Pressure when Volume Blooms</em>”.</p>
+  
+  <h3>3.2 Charles’s Law (1777)</h3>
+  <p><strong>Statement:</strong> At constant pressure, the volume of a gas is directly proportional to its absolute temperature.</p>
+  <p><strong>Mathematical Form:</strong> <strong>V₁/T₁ = V₂/T₂</strong></p>
+  <p>Mnemonic: “<em>Charles Cares about Celsius</em>”.</p>
+  
+  <h3>3.3 Gay‑Lussac’s Law (1802)</h3>
+  <p><strong>Statement:</strong> At constant volume, the pressure of a gas is directly proportional to its absolute temperature.</p>
+  <p><strong>Mathematical Form:</strong> <strong>P₁/T₁ = P₂/T₂</strong></p>
+  <p>Mnemonic: “<em>Gay‑Lussac’s Gears Pressure with Temperature</em>”.</p>
+  
+  <h3>3.4 Avogadro’s Law (1811 – popularised in <span style='color: var(--warning);'>1809</span>)</h3>
+  <p><strong>Statement:</strong> Equal volumes of gases at the same temperature and pressure contain equal numbers of molecules.</p>
+  <p><strong>Mathematical Form:</strong> <strong>V ∝ n</strong> or <strong>V₁/n₁ = V₂/n₂</strong></p>
+  <p>Mnemonic: “<em>Avogadro’s Amounts are Equal</em>”.</p>
+  
+  <h3>3.5 Combined Gas Law</h3>
+  <p>Combining Boyle’s, Charles’s and Gay‑Lussac’s laws yields:</p>
+  <p><strong>(P₁V₁)/T₁ = (P₂V₂)/T₂</strong></p>
+  <p>This is a precursor to the Ideal Gas Equation.</p>
+  
+  <h3>3.6 Ideal Gas Equation (PV = nRT)</h3>
+  <p>All three variables (P, V, T) are inter‑related through the universal gas constant <strong>R = 8.314 J mol⁻¹ K⁻¹</strong>. The equation is valid for <strong>ideal gases</strong> – gases that obey the assumptions of kinetic theory.</p>
+  
+  <h2>4. Real Gases and the van der Waals Equation</h2>
+  <p>Real gases deviate from ideal behaviour due to two main factors:</p>
+  <ul>
+    <li><strong>Finite molecular volume</strong> – particles occupy space, reducing the free volume available for motion.</li>
+    <li><strong>Inter‑molecular attractions</strong> – especially at high pressures and low temperatures.</li>
+  </ul>
+  <p>Johannes van der Waals introduced correction terms <strong>a</strong> (attraction) and <strong>b</strong> (finite volume) to the ideal gas equation:</p>
+  <p><strong>(P + a n² / V²)(V – n b) = n R T</strong>  (Equation 2)</p>
+  
+  <h3>4.1 Physical Meaning of <strong>a</strong> and <strong>b</strong></h3>
+  <ul>
+    <li><strong>a (L² atm mol⁻²)</strong> – Quantifies the magnitude of attractive forces. Larger <strong>a</strong> → stronger attractions (e.g., CO₂, NH₃).</li>
+    <li><strong>b (L mol⁻¹)</strong> – Represents the excluded volume per mole; roughly four times the actual molecular volume.</li>
+  </ul>
+  
+  <h3>4.2 Critical Constants from van der Waals Parameters</h3>
+  <p>At the critical point, the isotherm has a point of inflection. The critical temperature (<span style='color: var(--warning);'>T_c</span>), pressure (<span style='color: var(--warning);'>P_c</span>) and volume (<span style='color: var(--warning);'>V_c</span>) are related to <strong>a</strong> and <strong>b</strong> as:</p>
+  <ul>
+    <li><strong>T_c = (8 a) / (27 R b)</strong></li>
+    <li><strong>P_c = a / (27 b²)</strong></li>
+    <li><strong>V_c = 3 n b</strong></li>
+  </ul>
+  <p>These relations are frequently asked in NDA/CDS problems.</p>
+  
+  <h3>4.3 Reduced Variables and Corresponding States</h3>
+  <p>Define reduced variables:</p>
+  <p><strong>p_r = P / P_c, v_r = V / V_c, t_r = T / T_c</strong></p>
+  <p>van der Waals equation becomes:</p>
+  <p><strong>(p_r + 3 / v_r²)(3 v_r – 1) = 8 t_r</strong></p>
+  <p>This form shows that gases with the same reduced variables behave similarly – a key exam concept.</p>
+  
+  <h2>5. Comprehensive Formula Sheet</h2>
+  <table border="1" cellpadding="5" cellspacing="0" style="width:100%; border-collapse:collapse;">
+    <tr style="background:#e0e0e0;">
+      <th>Law / Equation</th>
+      <th>Formula</th>
+      <th>Key Variables</th>
+      <th>Typical Conditions</th>
+    </tr>
+    <tr>
+      <td><strong>Boyle’s Law</strong></td>
+      <td><strong>P₁V₁ = P₂V₂</strong></td>
+      <td>P, V (T = const)</td>
+      <td>Low pressure, moderate T</td>
+    </tr>
+    <tr>
+      <td><strong>Charles’s Law</strong></td>
+      <td><strong>V₁/T₁ = V₂/T₂</strong></td>
+      <td>V, T (P = const)</td>
+      <td>Ideal gas, constant P</td>
+    </tr>
+    <tr>
+      <td><strong>Gay‑Lussac’s Law</strong></td>
+      <td><strong>P₁/T₁ = P₂/T₂</strong></td>
+      <td>P, T (V = const)</td>
+      <td>Closed container</td>
+    </tr>
+    <tr>
+      <td><strong>Avogadro’s Law</strong></td>
+      <td><strong>V ∝ n or V₁/n₁ = V₂/n₂</strong></td>
+      <td>V, n (P, T = const)</td>
+      <td>Standard conditions</td>
+    </tr>
+    <tr>
+      <td><strong>Ideal Gas Equation</strong></td>
+      <td><strong>PV = nRT</strong></td>
+      <td>P, V, n, T</td>
+      <td>Ideal behaviour (low P, high T)</td>
+    </tr>
+    <tr>
+      <td><strong>van der Waals Equation</strong></td>
+      <td><strong>(P + a n²/V²)(V – n b) = nRT</strong></td>
+      <td>P, V, n, T, a, b</td>
+      <td>Real gases, high P / low T</td>
+    </tr>
+    <tr>
+      <td><strong>Critical Constants</strong></td>
+      <td><strong>T_c = 8a/27Rb, P_c = a/27b², V_c = 3nb</strong></td>
+      <td>a, b, R</td>
+      <td>Derived from van der Waals</td>
+    </tr>
+  </table>
+  
+  <h2>6. Important Constants & Conversion Factors</h2>
+  <ul>
+    <li><strong>R (Universal gas constant)</strong> = <span style='color: var(--warning);'>8.314 J mol⁻¹ K⁻¹</span> = <span style='color: var(--warning);'>0.08206 L atm mol⁻¹ K⁻¹</span></li>
+    <li><strong>k_B (Boltzmann constant)</strong> = <span style='color: var(--warning);'>1.380 × 10⁻²³ J K⁻¹</span></li>
+    <li><strong>N_A (Avogadro’s number)</strong> = <span style='color: var(--warning);'>6.022 × 10²³ mol⁻¹</span></li>
+    <li><strong>Standard Temperature and Pressure (STP)</strong> = <span style='color: var(--warning);'>273.15 K</span> and <span style='color: var(--warning);'>1 atm</span></li>
+    <li><strong>Molar Volume at STP</strong> = <span style='color: var(--warning);'>22.414 L mol⁻¹</span></li>
+  </ul>
+  
+  <h2>7. Sample Calculations (Exam‑Style)</h2>
+  <h3>7.1 Problem 1 – Using Boyle’s Law</h3>
+  <p><strong>Question:</strong> A 2.0 L sample of nitrogen gas at 1.0 atm is compressed to 0.5 L at constant temperature. What is the final pressure?</p>
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li>Apply Boyle’s law: <strong>P₁V₁ = P₂V₂</strong></li>
+    <li>Insert known values: <strong>(1.0 atm)(2.0 L) = P₂(0.5 L)</strong></li>
+    <li>Solve for <strong>P₂ = (1.0 × 2.0) / 0.5 = 4.0 atm</strong></li>
+  </ol>
+  <p>Answer: <strong>4.0 atm</strong></p>
+  
+  <h3>7.2 Problem 2 – Determining <strong>a</strong> and <strong>b</strong> from Critical Data</h3>
+  <p><strong>Given:</strong> Critical temperature of CO₂ = <span style='color: var(--warning);'>304 K</span>, critical pressure = <span style='color: var(--warning);'>73.8 atm</span>. Find <strong>a</strong> and <strong>b</strong>.</p>
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li>Use <strong>P_c = a / 27 b²</strong> → <strong>a = 27 b² P_c</strong></li>
+    <li>Use <strong>T_c = 8a / 27 R b</strong> → substitute <strong>a</strong> from step 1:</li>
+    <li><strong>T_c = 8 (27 b² P_c) / (27 R b) = 8 b P_c / R</strong></li>
+    <li>Rearrange for <strong>b = (R T_c) / (8 P_c)</strong></li>
+    <li>Insert values: <strong>b = (0.08206 L atm mol⁻¹ K⁻¹ × 304 K) / (8 × 73.8 atm)</strong> ≈ <span style='color: var(--warning);'>0.042 L mol⁻¹</span></li>
+    <li>Now <strong>a = 27 b² P_c = 27 × (0.042)² × 73.8 ≈ 3.59 L² atm mol⁻²</strong></li>
+  </ol>
+  <p>Answer: <strong>a ≈ 3.59 L² atm mol⁻², b ≈ 0.042 L mol⁻¹</strong></p>
+  
+  <h3>7.3 Problem 3 – Van der Waals Correction</h3>
+  <p><strong>Question:</strong> Calculate the pressure exerted by 1.0 mol of CH₄ at <span style='color: var(--warning);'>300 K</span> occupying <span style='color: var(--warning);'>10 L</span>. Use <strong>a = 2.25 L² atm mol⁻²</strong>, <strong>b = 0.042 L mol⁻¹</strong>.</p>
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li>Ideal pressure: <strong>P_ideal = nRT / V = (1 × 0.08206 × 300) / 10 = 2.462 atm</strong></li>
+    <li>van der Waals correction term for pressure: <strong>P_corr = a n² / V² = 2.25 × 1² / 10² = 0.0225 atm</strong></li>
+    <li>Corrected volume: <strong>V_corr = V – n b = 10 – 0.042 = 9.958 L</strong></li>
+    <li>Apply equation: <strong>(P + 0.0225)(9.958) = 1 × 0.08206 × 300</strong></li>
+    <li>Calculate RHS: <strong>0.08206 × 300 = 24.618</strong></li>
+    <li>Thus <strong>P + 0.0225 = 24.618 / 9.958 ≈ 2.472 atm</strong></li>
+    <li>Finally, <strong>P = 2.472 – 0.0225 ≈ 2.4495 atm</strong></li>
+  </ol>
+  <p>Answer: <strong>≈ 2.45 atm (real gas)</strong>, slightly lower than ideal due to attractive forces.</p>
+  
+  <h2>8. Mnemonics & Quick Memory Aids</h2>
+  <ul>
+    <li><strong>“B‑C‑G‑A”</strong> – Order of classical gas laws: <strong>Boyle, Charles, Gay‑Lussac, Avogadro</strong>.</li>
+    <li><strong>“PV = nRT – R is the Real constant”</strong> – Remember the ideal gas equation.</li>
+    <li><strong>“a for attraction, b for bulk (volume)”</strong> – van der Waals constants.</li>
+    <li><strong>“Critical constants: T_c = 8a/27Rb, P_c = a/27b², V_c = 3nb”</strong> – Use the “8‑27‑3” pattern.</li>
+  </ul>
+  
+  <h2>9. Exam Tips for NDA/CDS/AFCAT</h2>
+  <ol>
+    <li><strong>Never forget units.</strong> Convert pressure to atm, volume to litres, temperature to Kelvin before plugging into formulas.</li>
+    <li><strong>Identify the law quickly.</strong> Look at what is held constant – P, V, or T – and pick the appropriate law.</li>
+    <li><strong>Use the combined gas law</strong> when more than one variable changes; it saves time.</li>
+    <li><strong>For real‑gas questions, check if the problem provides a, b or critical data.</strong> If only critical data is given, compute a and b using the formulas in section 4.2.</li>
+    <li><strong>Memorise the molar volume at STP (22.414 L mol⁻¹).</strong> It appears in many “how many molecules” type questions.</li>
+    <li><strong>Practice dimensional analysis.</strong> For example, verify that <strong>a n² / V²</strong> yields pressure units.</li>
+    <li><strong>Remember that kinetic‑theory derivations are rarely asked directly, but the relationships (e.g., <em>½ m v² = 3/2 k_B T</em>) are high‑frequency.</strong></li>
+  </ol>
+  
+  <h2>10. Integrated Content from Extracted Points</h2>
+  <p>The following sections are directly incorporated from the supplied material. They are kept verbatim to preserve the original phrasing and formatting.</p>
+  
+  <p><strong style='color: var(--primary);'>1. Haryana</strong></p>
+  <ul>
+    <li><strong>Neighboring States (5):</strong> <span style='color: var(--warning);'>Punjab, Himachal Pradesh, Rajasthan, Uttarakhand, Uttar Pradesh</span></li>
+    <li><strong>Geographical Notes:</strong> Surrounds <span style='color: var(--success);'>Delhi</span> on three sides.</li>
+    <li><strong>River Border:</strong> <span style='color: var(--success);'>Yamuna River</span> defines the border (with Uttar Pradesh).</li>
+  </ul>
+  
+  <p><strong style='color: var(--primary);'>2. Madhya Pradesh</strong></p>
+  <ul>
+    <li><strong>Neighboring States (5):</strong> <span style='color: var(--warning);'>Uttar Pradesh, Maharashtra, Gujarat, Rajasthan, Chhattisgarh</span></li>
+  </ul>
+  
+  <p><strong style='color: var(--primary);'>3. Telangana</strong></p>
+  <ul>
+    <li>Data not provided in source snippet.</li>
+  </ul>
+  
+  <hr>
+  
+  <p><strong>Punch Facts:</strong></p>
+  <ul>
+    <li><strong>States of Matter:</strong> Air, Earth, Fire, Sky, Water.</li>
+    <li><strong>Particle Movement:</strong> Gas > Liquid > Solid.</li>
+    <li><strong>Additional States:</strong> Plasma (4th state), Bose‑Einstein Condensate (5th state).</li>
+    <li><strong>Common Gases:</strong> Gas used in cooking cylinder is <span style='color: var(--success);'>Liquefied Petroleum Gas (LPG)</span>.</li>
+    <li><strong>Balloon Gases:</strong> Helium, Hydrogen.</li>
+  </ul>
+  
+  <hr>
+  
+  <p><strong>Definition of Mixture</strong></p>
+  <p>A <span style='color: var(--warning);'>mixture</span> is a combination of <strong>2 or more substances</strong>.</p>
+  <p><strong>Examples of Pure Substances</strong></p>
+  <ul>
+    <li>Gold</li>
+    <li>Cu (Copper)</li>
+    <li>O<sub>2</sub> (Oxygen)</li>
+  </ul>
+  <p><strong>Classification of Matter</strong></p>
+  <ul>
+    <li><strong>Pure Substance</strong>
+      <ul>
+        <li><strong>Elements</strong>: Cannot be broken down to simpler substances.
+          <ul>
+            <li>Copper</li>
+            <li>Oxygen</li>
+            <li>Iron</li>
+            <li>Hydrogen</li>
+            <li>Mercury</li>
+          </ul>
+        </li>
+        <li><strong>Compounds</strong>: Have <span style='color: var(--success);'>fixed composition</span>. Can be broken down into elements by chemical or electrochemical reaction.
+          <ul>
+            <li>Water</li>
+            <li>Methane</li>
+            <li>Sugar</li>
+            <li>Salt</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <hr>
+  
+  <p><strong>Comparison of Solution, Colloid, and Suspension</strong></p>
+  <ul>
+    <li><strong>Solution:</strong>
+      <ul>
+        <li>Homogeneous</li>
+        <li>No filtration</li>
+        <li>Not visible to naked eyes</li>
+        <li>Do not scatter beam of light</li>
+        <li><em>Example:</em> Water</li>
+      </ul>
+    </li>
+    <li><strong>Colloid:</strong>
+      <ul>
+        <li>Heterogeneous</li>
+        <li>No filtration</li>
+        <li>Not visible to naked eyes</li>
+        <li>Scatter beam of light</li>
+        <li><em>Example:</em> Milk</li>
+        <li><em>Separation:</em> Centrifugation</li>
+      </ul>
+    </li>
+    <li><strong>Suspension:</strong>
+      <ul>
+        <li>Heterogeneous</li>
+        <li>Filtration</li>
+        <li>Visible to naked eyes</li>
+        <li>Scatter beam of light</li>
+        <li><em>Example:</em> Hour of water (Muddy water)</li>
+      </ul>
+    </li>
+  </ul>
+  
+  <h2>11. Summary – What to Remember for the Exam</h2>
+  <ul>
+    <li>All gas laws are special cases of the ideal gas equation <strong>PV = nRT</strong>.</li>
+    <li>Remember the four historical dates: <span style='color: var(--warning);'>1662 (Boyle), 1777 (Charles), 1802 (Gay‑Lussac), 1809 (Avogadro)</span>.</li>
+    <li>van der Waals equation corrects for <strong>a</strong> (attractions) and <strong>b</strong> (finite volume). Use critical constants to derive a and b when required.</li>
+    <li>Use reduced variables (<strong>p_r, v_r, t_r</strong>) for comparative problems.</li>
+    <li>Always convert to SI or standard units before plugging into formulas.</li>
+    <li>Apply the mnemonic “B‑C‑G‑A” to quickly recall the order of gas laws.</li>
+    <li>For mixture‑type questions, differentiate between <strong>solutions, colloids, and suspensions</strong> based on homogeneity, visibility, and separation technique.</li>
+  </ul>
+  
+  <h2>12. Frequently Asked Questions (FAQs)</h2>
+  <dl>
+    <dt><strong>Q1. When can I treat a real gas as ideal?</strong></dt>
+    <dd>When the pressure is low (<span style='color: var(--warning);'>≤ 1 atm</span>) and temperature is high (> <span style='color: var(--warning);'>2 T_c</span>). Under these conditions, the correction terms a/V² and nb become negligible.</dd>
+    <dt><strong>Q2. Why does the van der Waals equation sometimes predict negative pressures?</strong></dt>
+    <dd>At very low volumes (V < nb) the term (V – nb) becomes negative, indicating the equation is being applied outside its range of validity. In such cases, more sophisticated equations of state (e.g., Redlich‑Kwong) are required.</dd>
+    <dt><strong>Q3. How is the kinetic energy related to temperature?</strong></dt>
+    <dd>Average translational kinetic energy per molecule is <strong>½ m v_rms² = (3/2) k_B T</strong>. This linear relationship is the bridge between microscopic motion and macroscopic temperature.</dd>
+  </dl>
+  
+  <h2>13. Additional Practice Questions (For Self‑Testing)</h2>
+  <ol>
+    <li>Calculate the rms speed of O₂ molecules at <span style='color: var(--warning);'>300 K</span>. (Molar mass of O₂ = 32 g mol⁻¹)</li>
+    <li>A 5.0 L container holds 0.25 mol of an ideal gas at 27 °C. Find the pressure.</li>
+    <li>Using the van der Waals constants for NH₃ (<strong>a = 4.17 L² atm mol⁻², b = 0.0371 L mol⁻¹</strong>), compute the pressure at 350 K in a 2.0 L vessel containing 1.0 mol.</li>
+    <li>Explain why a solution does not scatter a beam of light whereas a colloid does (reference Tyndall effect).</li>
+    <li>Given the critical constants of a gas, derive the compressibility factor Z at the critical point and comment on its value.</li>
+  </ol>
+  
+  <h2>14. Closing Note</h2>
+  <p>Mastering the concepts in this revision card will equip you to tackle any question on states of matter, kinetic theory, and gas laws in the NDA, CDS, or AFCAT examinations. The integration of historical dates, mnemonic devices, and exhaustive formula tables ensures you have a one‑stop resource for rapid recall under time pressure. Keep practising numerical problems, and always double‑check unit consistency – that is the hallmark of a top‑scoring candidate.</p>
+</div>
+`;
+

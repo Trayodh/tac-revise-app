@@ -568,7 +568,8 @@
       8,
       9,
       10,
-      11
+      11,
+      12
     ],
     "status": "in_progress"
   },
@@ -586,7 +587,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ],
     "status": "in_progress"
   },
@@ -608,7 +610,8 @@
       13,
       14,
       15,
-      16
+      16,
+      17
     ],
     "status": "in_progress"
   },
@@ -631,7 +634,8 @@
       14,
       15,
       16,
-      17
+      17,
+      18
     ],
     "status": "in_progress"
   },
@@ -647,7 +651,8 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "status": "in_progress"
   },
@@ -662,7 +667,8 @@
       6,
       7,
       8,
-      9
+      9,
+      10
     ],
     "status": "in_progress"
   },
@@ -683,7 +689,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ],
     "status": "in_progress"
   },
@@ -701,7 +708,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ],
     "status": "in_progress"
   },
@@ -719,7 +727,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ],
     "status": "in_progress"
   },
@@ -755,91 +764,104 @@
       8,
       9,
       10,
-      11
+      11,
+      12
     ],
     "status": "in_progress"
   },
   "cds_material.pdf": {
     "total_pages": 1377,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "cds_material_part1.pdf": {
     "total_pages": 688,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "cds_material_part2.pdf": {
     "total_pages": 689,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "current_affairs.pdf": {
     "total_pages": 212,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "general_science_ssbcrack.pdf": {
     "total_pages": 176,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "insight_ssb_cheat_codes.pdf": {
     "total_pages": 292,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "July_CA_Class.pdf": {
     "total_pages": 212,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "nda_material_part1.pdf": {
     "total_pages": 657,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "nda_material_part2.pdf": {
     "total_pages": 657,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part1.pdf": {
     "total_pages": 648,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "pathfinder-cds-combined-defence-expertsarihant-90f15b25_part2.pdf": {
     "total_pages": 649,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "temp.pdf": {
     "total_pages": 212,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -887,8 +909,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
@@ -1332,7 +1356,8 @@
   "CAPF_CSE_Papers\\QP-CAPF-25-GENERAL-ABILITY-INTELLIGENCE-040825.pdf": {
     "total_pages": 56,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -1368,14 +1393,16 @@
   "CAPF_CSE_Papers\\QP_CAPF_2024_GEN-ABILITY-AND-INTELLI_05082024.pdf": {
     "total_pages": 56,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "CAPF_CSE_Papers\\QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf": {
     "total_pages": 56,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -1540,12 +1567,16 @@
   },
   "NDA Papers\\QP_NDANAI2024_GENERAL-ABILITY-TEST_22042024.pdf": {
     "total_pages": 52,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\QP_NDANAI2024_MATHEMATICS_22042024.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\AFCAT Solved Paper-II 2022.pdf": {
@@ -1570,47 +1601,65 @@
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\CSP_2020_GS_Paper-1.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\GENERAL ABILITY AND INTELLIGENCE_0.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\GENERAL STUDIES PAPER I.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CAPF-22-GAI-080822.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CAPF-25-GENERAL-ABILITY-INTELLIGENCE-040825.pdf": {
     "total_pages": 56,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CSP-21-GeneralStudiesPaper-I-121021.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CSP-24-GENERAL-STUDIES-PAPER-I-180624.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CSP-25-GENERAL-STUDIES-PAPER-I-26052025.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CAPF_2023_GAI_07082023.pdf": {
@@ -1620,17 +1669,23 @@
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CAPF_2024_GEN-ABILITY-AND-INTELLI_05082024.pdf": {
     "total_pages": 56,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf": {
     "total_pages": 56,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CS_Pre_Exam_2023_280523.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "node_modules\\pdf-parse\\test\\data\\01-valid.pdf": {
@@ -2046,14 +2101,16 @@
   "scratch\\pdf_downloads\\gat_syllabus\\QP-NDANA-II-25-GENERAL-ABILITY-TEST-150925.pdf": {
     "total_pages": 56,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "scratch\\pdf_downloads\\gat_syllabus\\QP_NDANAI2024_GENERAL-ABILITY-TEST_22042024.pdf": {
     "total_pages": 52,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },

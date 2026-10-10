@@ -38,13 +38,13 @@ function cosineSimilarity(vecA, vecB) {
 async function getEmbedding(text, apiKey) {
     return new Promise((resolve, reject) => {
         const payload = JSON.stringify({
-            model: 'models/text-embedding-004',
+            model: 'models/gemini-embedding-2',
             content: { parts: [{ text: text }] }
         });
 
         const options = {
             hostname: 'generativelanguage.googleapis.com',
-            path: `/v1beta/models/text-embedding-004:embedContent?key=${apiKey}`,
+            path: `/v1beta/models/gemini-embedding-2:embedContent?key=${apiKey}`,
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
