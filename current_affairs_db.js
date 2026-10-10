@@ -7209,7 +7209,7 @@ window.CURRENT_AFFAIRS_DB = {
       "upscHighlights": [
         "RBI is adopting a more hawkish policy path due to robust economic growth and inflationary pressures.",
         "India's GDP grew by 7.8% in Q1 (April-June) and is projected to grow around 7.3% in Q2 (July-September).",
-        "Strong dollar inflows ("October 2026": [33 billion) and resilient domestic economy contribute to growth.",
+        "Strong dollar inflows ($33 billion) and resilient domestic economy contribute to growth.",
         "Broadening inflation and global rate hikes build a case for potential RBI policy tightening.",
         "The Finance Ministry's growth projections are higher than RBI's, indicating strong economic momentum."
       ],
