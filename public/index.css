@@ -2782,23 +2782,25 @@ h2 {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #a855f7, #6366f1);
-  box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+  background: linear-gradient(135deg, var(--bg-tertiary), var(--bg-hover));
+  border: 1px solid var(--accent);
+  box-shadow: 0 4px 15px rgba(var(--accent-rgb), 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   z-index: 9999;
-  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s, background 0.3s;
 }
 #dronacharya-fab:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 20px rgba(168, 85, 247, 0.6);
+  box-shadow: 0 6px 20px rgba(var(--accent-rgb), 0.6);
+  background: linear-gradient(135deg, var(--bg-hover), var(--bg-tertiary));
 }
 #dronacharya-fab svg {
   width: 32px;
   height: 32px;
-  fill: white;
+  fill: var(--accent);
 }
 #dronacharya-panel {
   position: fixed;
@@ -2809,7 +2811,7 @@ h2 {
   max-height: 80vh;
   background: var(--bg-secondary);
   border-radius: 12px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
   border: 1px solid var(--border);
   display: flex;
   flex-direction: column;
@@ -2831,12 +2833,13 @@ h2 {
   transform: scale(0);
 }
 .drona-header {
-  background: linear-gradient(135deg, #a855f7, #6366f1);
+  background: var(--bg-tertiary);
+  border-bottom: 1px solid var(--accent);
   padding: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  color: var(--text-primary);
 }
 .drona-header-info {
   display: flex;

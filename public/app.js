@@ -7218,7 +7218,22 @@ async function sendDronaQuery() {
 
   userMsgEl.className = "drona-message user";
 
-  userMsgEl.textContent = text;
+  userMsgEl.innerHTML = `<div>${text.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</div>`;
+
+  let topicNameForContext = "";
+  if (typeof selectedTopicId !== 'undefined' && selectedTopicId) {
+    if (typeof NOTES_DATABASE !== 'undefined') {
+      const subject = NOTES_DATABASE[selectedSubjectId];
+      const chapter = subject?.chapters.find(c => c.id === selectedChapterId);
+      const topic = chapter?.topics.find(t => t.id === selectedTopicId);
+      if (topic) topicNameForContext = topic.title;
+    }
+  }
+
+  const notesScreen = document.getElementById("screen-notes");
+  if (topicNameForContext && notesScreen && notesScreen.classList.contains("active")) {
+    userMsgEl.innerHTML += `<div style="margin-top: 8px; font-size: 0.7rem; color: var(--accent); background: rgba(var(--accent-rgb), 0.1); padding: 4px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 4px; font-family: var(--font-mono); border: 1px solid rgba(var(--accent-rgb), 0.3);"><svg viewBox="0 0 24 24" width="10" height="10" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v6h6v10H6z"/></svg> READING: ${topicNameForContext.toUpperCase()}</div>`;
+  }
 
   container.appendChild(userMsgEl);
 
