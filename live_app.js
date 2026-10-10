@@ -3248,9 +3248,9 @@ function fetchDailyCurrentAffairs() {
 
       hasFetchedDailyNews = true;
 
-      if (pane) pane.innerHTML = `<p style="color: var(--danger); padding: 20px;">Secure uplink failed. Could not retrieve today's intelligence.</p>`;
+      if (pane) pane.innerHTML = `<p style="color: var(--warning); padding: 20px;">AI Uplink failed (Rate Limited). Rendering offline intelligence cache.</p>`;
 
-      setTimeout(() => renderCurrentAffairsHub(), 3000);
+      setTimeout(() => renderCurrentAffairsHub(), 1500);
 
     });
 
