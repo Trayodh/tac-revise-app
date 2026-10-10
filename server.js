@@ -234,21 +234,30 @@ const requestHandler = async (req, res) => {
       return;
     }
 
+    // Cooldown: if the AI engine failed recently (rate limits), don't re-run it on every request
+    const CA_FAIL_COOLDOWN_MS = 30 * 60 * 1000;
+    if (global.__caLastFailAt && Date.now() - global.__caLastFailAt < CA_FAIL_COOLDOWN_MS) {
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(dailyNewsCache.data || []));
+      return;
+    }
+
     (async () => {
       try {
-        const parsedJson = await autoUpdateCurrentAffairs();
-        res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify(parsedJson));
-      } catch(err) {
-        console.error('[PROXY] Error in daily-current-affairs:', err);
-        if (dailyNewsCache.data) {
-          console.log('[PROXY] Serving stale cached data due to error.');
-          res.writeHead(200, { 'Content-Type': 'application/json' });
-          res.end(JSON.stringify(dailyNewsCache.data));
-        } else {
-          res.writeHead(200, { 'Content-Type': 'application/json' });
-          res.end(JSON.stringify([]));
+        // Reuse an in-flight engine run instead of starting parallel ones
+        if (!global.__caInFlight) {
+          global.__caInFlight = autoUpdateCurrentAffairs().finally(() => { global.__caInFlight = null; });
         }
+        const timeout = new Promise((_, reject) => setTimeout(() => reject(new Error('CA engine timeout')), 18000));
+        const parsedJson = await Promise.race([global.__caInFlight, timeout]);
+        if (!Array.isArray(parsedJson) || parsedJson.length === 0) global.__caLastFailAt = Date.now();
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify(parsedJson || []));
+      } catch(err) {
+        console.error('[PROXY] Error in daily-current-affairs:', err.message || err);
+        if (String(err && err.message) !== 'CA engine timeout') global.__caLastFailAt = Date.now();
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify(dailyNewsCache.data || []));
       }
     })();
     

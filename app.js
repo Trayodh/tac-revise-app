@@ -3170,33 +3170,18 @@ function fetchDailyCurrentAffairs() {
 
   
 
-  const pane = document.getElementById("ca-content-pane");
+  // Non-blocking: the offline CURRENT_AFFAIRS_DB is rendered immediately by
+  // renderCurrentAffairsHub(); live AI items are merged in if/when they arrive.
+  const caAbort = (typeof AbortController !== 'undefined') ? new AbortController() : null;
+  const caTimeout = setTimeout(() => { if (caAbort) caAbort.abort(); }, 20000);
 
-  if (pane) {
+  fetch('/api/daily-current-affairs', caAbort ? { signal: caAbort.signal } : {})
 
-    pane.innerHTML = `<div style="text-align: center; margin-top: 40px; padding: 30px;">
-
-      <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 48px; height: 48px; border-width: 4px; margin: 0 auto 20px;"></div>
-
-      <p style="color: var(--accent); font-family: var(--font-mono); letter-spacing: 1px; font-weight: 700; font-size: 0.95rem;">RETRIEVING INTELLIGENCE BRIEFING</p>
-
-      <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 8px;">Scanning PIB · Google News · 10 UPSC Topic Areas</p>
-
-      <p style="color: var(--text-muted); font-size: 0.8rem; margin-top: 6px;">AI enriching with UPSC highlights — this may take 15-30 seconds...</p>
-
-    </div>`;
-
-  }
-
-
-
-  fetch('/api/daily-current-affairs')
-
-    .then(res => res.json())
+    .then(res => { clearTimeout(caTimeout); return res.json(); })
 
     .then(data => {
 
-      if (Array.isArray(data)) {
+      if (Array.isArray(data) && data.length > 0) {
 
         const monthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
 
@@ -3242,15 +3227,13 @@ function fetchDailyCurrentAffairs() {
 
     .catch(err => {
 
-      console.error("Failed to fetch daily news:", err);
+      clearTimeout(caTimeout);
+
+      console.warn("[CA] Live AI feed unavailable, using offline intelligence cache:", err && err.message);
 
       isFetchingDailyNews = false;
 
       hasFetchedDailyNews = true;
-
-      if (pane) pane.innerHTML = `<p style="color: var(--warning); padding: 20px;">AI Uplink failed (Rate Limited). Rendering offline intelligence cache.</p>`;
-
-      setTimeout(() => renderCurrentAffairsHub(), 1500);
 
     });
 
@@ -3262,9 +3245,7 @@ function renderCurrentAffairsHub() {
 
   if (!hasFetchedDailyNews && !isFetchingDailyNews) {
 
-    fetchDailyCurrentAffairs();
-
-    return;
+    fetchDailyCurrentAffairs(); // background refresh; do NOT block rendering of offline DB
 
   }
 
@@ -3275,6 +3256,8 @@ function renderCurrentAffairsHub() {
 
 
   // Filter DB keys to only those within the current exam cycle
+
+  if (!window.CURRENT_AFFAIRS_DB || typeof window.CURRENT_AFFAIRS_DB !== 'object') window.CURRENT_AFFAIRS_DB = {};
 
   const allKeys  = Object.keys(window.CURRENT_AFFAIRS_DB);
 
@@ -9498,15 +9481,22 @@ At the very end of the report, include exactly 3 Multiple Choice Questions based
 
   try {
 
+    const sitrepAbort = (typeof AbortController !== 'undefined') ? new AbortController() : null;
+    const sitrepTimeout = setTimeout(() => { if (sitrepAbort) sitrepAbort.abort(); }, 25000);
+
     const response = await fetch('/api/gemini', {
 
       method: 'POST',
 
       headers: { 'Content-Type': 'application/json' },
 
-      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.5-flash', contents: [{ parts: [{ text: promptText }] }] })
+      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.5-flash', contents: [{ parts: [{ text: promptText }] }] }),
+
+      signal: sitrepAbort ? sitrepAbort.signal : undefined
 
     });
+
+    clearTimeout(sitrepTimeout);
 
     if (!response.ok) throw new Error("API Error");
 
@@ -9517,6 +9507,9 @@ At the very end of the report, include exactly 3 Multiple Choice Questions based
     // Clean up if AI hallucinates markdown
 
     let reportHtml = (data.candidates?.[0]?.content?.parts?.[0]?.text || data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
+
+    // Proxy returns an empty JSON block + "_AI uplink failed_" marker when all providers are rate-limited
+    if (!reportHtml || reportHtml.includes("_AI uplink failed") || reportHtml.length < 80) throw new Error("AI providers unavailable");
 
 
 
@@ -9542,11 +9535,11 @@ At the very end of the report, include exactly 3 Multiple Choice Questions based
 
   } catch (err) {
 
-    console.error("Sitrep Error:", err);
+    console.warn("Sitrep AI unavailable, building offline brief:", err && err.message);
 
     container.className = "panel fade-in";
 
-    container.innerHTML = `<p style="color: var(--danger);">Failed to retrieve SITREP from Dronacharya AI. Verify connection.</p>`;
+    container.innerHTML = buildOfflineSitrepHtml(dateStr);
 
   } finally {
 
@@ -9558,7 +9551,47 @@ At the very end of the report, include exactly 3 Multiple Choice Questions based
 
 
 
-let currentCaMode = 'sitrep'; // default to sitrep
+function buildOfflineSitrepHtml(dateStr) {
+  const db = window.CURRENT_AFFAIRS_DB || {};
+  const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const toTime = k => { const [m, y] = k.split(' '); const mi = monthNames.indexOf(m); return mi < 0 ? -1 : (parseInt(y, 10) * 12 + mi); };
+  const latestKey = Object.keys(db).filter(k => toTime(k) >= 0 && Array.isArray(db[k]) && db[k].length).sort((a, b) => toTime(b) - toTime(a))[0];
+  const esc = s => String(s || '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  if (!latestKey) return `<p style="color: var(--warning);">Dronacharya AI is rate-limited and no offline intelligence is cached. Try again later.</p>`;
+
+  const items = [...db[latestKey]].sort((a, b) => String(b.publicationDate || '').localeCompare(String(a.publicationDate || '')));
+  const buckets = [
+    { title: '🇮🇳 Indian Armed Forces', re: /defence|military|army|navy|naval|air force|appointment|exercise|procure|acquisition|security/i, list: [] },
+    { title: '🌐 Geopolitics & International Relations', re: /foreign|international|geopolitic|summit|relations/i, list: [] },
+    { title: '🚀 Defence Technology & Space', re: /tech|drdo|space|missile|cyber/i, list: [] },
+    { title: '📰 National Affairs, Economy & Sports', re: /./, list: [] }
+  ];
+  items.forEach(it => { const b = buckets.find(bk => bk.re.test(it.topic || '')); if (b && b.list.length < 5) b.list.push(it); });
+
+  const sections = buckets.filter(b => b.list.length).map(b => `
+    <h3 style="color:var(--accent); margin-top: 18px;">${b.title}</h3>
+    <ul style="padding-left: 18px;">${b.list.map(it => `
+      <li style="margin-bottom: 10px;"><strong>${esc(it.text)}</strong>
+        ${it.publicationDate ? `<span style="color: var(--text-muted); font-size: 0.8rem;"> · ${esc(it.publicationDate)}</span>` : ''}
+        ${Array.isArray(it.upscHighlights) && it.upscHighlights[0] ? `<div style="color: var(--text-secondary); font-size: 0.88rem;">${esc(it.upscHighlights[0])}</div>` : ''}
+      </li>`).join('')}
+    </ul>`).join('');
+
+  return `
+    <div style="border-bottom: 1px dashed rgba(255,255,255,0.1); padding-bottom: 16px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;">
+      <span style="font-weight: bold; color: var(--accent); font-family: var(--font-mono); font-size: 0.85rem;">[ DAILY INTELLIGENCE BRIEFING · OFFLINE CACHE ]</span>
+      <span style="font-size: 0.85rem; color: var(--text-muted);">${dateStr}</span>
+    </div>
+    <p style="color: var(--warning); font-size: 0.82rem; margin-bottom: 8px;">Live AI uplink is rate-limited. Showing the latest verified intel from ${esc(latestKey)} (${items.length} reports). Open <a href="#" onclick="toggleCurrentAffairsMode('monthly'); return false;" style="color: var(--accent);">Monthly Feed</a> for full details &amp; MCQs.</p>
+    <div style="line-height: 1.7; font-size: 0.95rem; color: var(--text-primary);">${sections}</div>`;
+}
+
+window.buildOfflineSitrepHtml = buildOfflineSitrepHtml;
+
+
+
+let currentCaMode = 'monthly'; // default to Monthly Feed (works offline; SITREP needs AI)
+
 
 
 
