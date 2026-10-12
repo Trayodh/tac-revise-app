@@ -135,11 +135,11 @@ SOURCE NOTES:
         })
 
     print(f"Grouped and fused into {len(ai_notes)} unique chapter notes.")
+    content = "// This file is auto-generated from notes_database.json\nconst AI_GENERATED_NOTES = " + json.dumps(ai_notes, indent=2) + ";\n"
     with open("public/ai_generated_notes.js", "w", encoding="utf-8") as f:
-        f.write("// This file is auto-generated from notes_database.json\n")
-        f.write("const AI_GENERATED_NOTES = ")
-        json.dump(ai_notes, f, indent=2)
-        f.write(";\n")
+        f.write(content)
+    with open("ai_generated_notes.js", "w", encoding="utf-8") as f:
+        f.write(content)
     print("Done!")
         
 if __name__ == "__main__":

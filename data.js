@@ -1,6 +1,675 @@
-let MILITARY_EXERCISES_LIVE = {};
+let MILITARY_EXERCISES_LIVE = {
+  "October 2026": [
+    {
+      "id": "me_20261011_indra26",
+      "title": "India-Russia Bilateral Naval Exercise INDRA-2026",
+      "type": "Bilateral Exercise",
+      "exercise_name": "INDRA",
+      "edition": "2026",
+      "status": "Ongoing",
+      "start_date": "2026-10-11",
+      "end_date": "",
+      "duration": "",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India",
+        "Russia"
+      ],
+      "indian_service": [
+        "Indian Navy"
+      ],
+      "foreign_services": [
+        "Russian Navy"
+      ],
+      "location": {
+        "city": "Vladivostok",
+        "state": "",
+        "country": "Russia",
+        "region": "Far East",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Maritime"
+      ],
+      "equipment_used": {
+        "india": [
+          "INS Sahyadri"
+        ],
+        "foreign": []
+      },
+      "key_platforms": [
+        "INS Sahyadri"
+      ],
+      "ships": [
+        "INS Sahyadri (Shivalik-class stealth frigate)"
+      ],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Strengthen maritime cooperation between India and Russia",
+        "Enhance interoperability in naval operations",
+        "Conduct professional exchanges and share best practices"
+      ],
+      "activities": [
+        "Port call by INS Sahyadri",
+        "Harbour phase interactions",
+        "Sea phase drills (implied)"
+      ],
+      "strategic_significance": "This exercise deepens the long-standing defence ties between India and Russia, particularly in the maritime domain. It enhances the Indian Navy's operational reach and interoperability with a major global power, contributing to maritime security in the Indo-Pacific and Far East regions. It also serves as a platform for defence diplomacy and mutual understanding.",
+      "takeaways": [
+        "Reinforces India's strategic partnership with Russia.",
+        "Demonstrates India's commitment to maritime security in diverse regions.",
+        "Provides valuable experience for Indian naval personnel in operating with foreign navies."
+      ],
+      "exam_importance": "Questions may include: What is the name of the bilateral naval exercise between India and Russia? Which Indian Naval Ship participated in INDRA-2026? Where was INDRA-2026 conducted?",
+      "related_static_topics": [
+        "India-Russia Defence Relations",
+        "Indian Navy Ship Classes",
+        "Maritime Diplomacy",
+        "Indo-Pacific Geopolitics"
+      ],
+      "keywords": [
+        "INDRA",
+        "India-Russia",
+        "Naval Exercise",
+        "INS Sahyadri",
+        "Vladivostok",
+        "Maritime Security",
+        "Bilateral Exercise"
+      ],
+      "confidence_score": "98%",
+      "last_verified": "2026-10-12"
+    },
+    {
+      "id": "me_20261011_konkan26",
+      "title": "India-UK Bilateral Maritime Exercise KONKAN-26",
+      "type": "Bilateral Exercise",
+      "exercise_name": "KONKAN",
+      "edition": "26",
+      "status": "Ongoing",
+      "start_date": "2026-10-11",
+      "end_date": "",
+      "duration": "",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India",
+        "United Kingdom"
+      ],
+      "indian_service": [
+        "Indian Navy"
+      ],
+      "foreign_services": [
+        "Royal Navy (UK)"
+      ],
+      "location": {
+        "city": "Plymouth",
+        "state": "",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Maritime"
+      ],
+      "equipment_used": {
+        "india": [
+          "INS Trishul"
+        ],
+        "foreign": []
+      },
+      "key_platforms": [
+        "INS Trishul"
+      ],
+      "ships": [
+        "INS Trishul (Talwar-class stealth frigate)"
+      ],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Enhance interoperability and mutual understanding between the Indian Navy and Royal Navy",
+        "Strengthen maritime partnership",
+        "Conduct professional exchanges and joint drills"
+      ],
+      "activities": [
+        "Port call by INS Trishul",
+        "Harbour phase interactions",
+        "Sea phase maritime drills"
+      ],
+      "strategic_significance": "This exercise underscores the growing defence cooperation between India and the UK, particularly in the maritime domain. It contributes to regional and global maritime security by fostering interoperability and shared best practices between two significant naval powers. It also supports India's broader engagement with European partners.",
+      "takeaways": [
+        "Reinforces India-UK strategic partnership.",
+        "Improves operational coordination in complex maritime environments.",
+        "Enhances understanding of each other's naval doctrines and procedures."
+      ],
+      "exam_importance": "Questions may include: KONKAN-26 is a bilateral exercise between which two countries? Which Indian Naval Ship participated in KONKAN-26? Where was the exercise held?",
+      "related_static_topics": [
+        "India-UK Defence Relations",
+        "Indian Navy Ship Classes",
+        "Maritime Security",
+        "Naval Diplomacy"
+      ],
+      "keywords": [
+        "KONKAN",
+        "India-UK",
+        "Naval Exercise",
+        "INS Trishul",
+        "Plymouth",
+        "Maritime Security",
+        "Bilateral Exercise"
+      ],
+      "confidence_score": "98%",
+      "last_verified": "2026-10-11"
+    },
+    {
+      "id": "me_20261005_mountguardian26",
+      "title": "India-UAE Joint Military Exercise Mountain Guardian 2026",
+      "type": "Bilateral Exercise",
+      "exercise_name": "Mountain Guardian",
+      "edition": "2026",
+      "status": "Ongoing",
+      "start_date": "2026-10-05",
+      "end_date": "",
+      "duration": "",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India",
+        "United Arab Emirates"
+      ],
+      "indian_service": [
+        "Indian Army"
+      ],
+      "foreign_services": [
+        "UAE Land Forces"
+      ],
+      "location": {
+        "city": "",
+        "state": "Uttarakhand",
+        "country": "India",
+        "region": "South Asia",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Land",
+        "Mountain Warfare",
+        "Counter-terrorism"
+      ],
+      "equipment_used": {
+        "india": [],
+        "foreign": []
+      },
+      "key_platforms": [],
+      "ships": [],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Sharpen mountain-warfare skills",
+        "Enhance interoperability in counter-terrorism operations in mountainous terrain",
+        "Share best practices in tactical drills and combat conditioning"
+      ],
+      "activities": [
+        "Joint tactical drills",
+        "Special forces operations (implied by counter-terrorism focus)",
+        "Combat conditioning",
+        "Logistics exercises"
+      ],
+      "strategic_significance": "This exercise strengthens the defence cooperation between India and the UAE, a key partner in the Gulf region. The focus on mountain warfare and counter-terrorism is crucial for addressing contemporary security challenges. It enhances the capabilities of both armies to operate in challenging terrains and contributes to regional stability and security.",
+      "takeaways": [
+        "Improved tactical coordination and interoperability.",
+        "Enhanced capabilities for counter-terrorism in complex environments.",
+        "Strengthened bilateral defence relations with a strategic Gulf partner."
+      ],
+      "exam_importance": "Questions may include: What is 'Mountain Guardian 2026'? Which countries participate in 'Mountain Guardian'? Where was the exercise conducted and what was its primary focus?",
+      "related_static_topics": [
+        "India-UAE Defence Relations",
+        "Mountain Warfare Tactics",
+        "Counter-terrorism Operations",
+        "Bilateral Military Cooperation"
+      ],
+      "keywords": [
+        "Mountain Guardian",
+        "India-UAE",
+        "Army Exercise",
+        "Uttarakhand",
+        "Mountain Warfare",
+        "Counter-terrorism",
+        "Bilateral Exercise"
+      ],
+      "confidence_score": "99%",
+      "last_verified": "2026-10-11"
+    },
+    {
+      "id": "me_20261011_tarangshakti",
+      "title": "Indian Air Force's Exercise Tarang Shakti",
+      "type": "Multilateral Exercise",
+      "exercise_name": "Tarang Shakti",
+      "edition": "",
+      "status": "Ongoing",
+      "start_date": "2026-10-11",
+      "end_date": "",
+      "duration": "",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India"
+      ],
+      "indian_service": [
+        "Indian Air Force"
+      ],
+      "foreign_services": [],
+      "location": {
+        "city": "Jodhpur",
+        "state": "Rajasthan",
+        "country": "India",
+        "region": "South Asia",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Air"
+      ],
+      "equipment_used": {
+        "india": [],
+        "foreign": []
+      },
+      "key_platforms": [],
+      "ships": [],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Showcase Indian Air Force capabilities",
+        "Enhance air combat skills",
+        "Foster interoperability with participating foreign air forces (if multilateral, as expected for Tarang Shakti)"
+      ],
+      "activities": [
+        "Air combat drills",
+        "Air defence exercises",
+        "Joint operations (implied)"
+      ],
+      "strategic_significance": "Exercise Tarang Shakti is India's largest multilateral air exercise, demonstrating the Indian Air Force's capability to host and operate with multiple foreign air forces. It enhances India's air power projection, strengthens defence diplomacy, and improves interoperability with strategic partners, contributing to regional air security and stability.",
+      "takeaways": [
+        "Demonstrates IAF's operational readiness and advanced capabilities.",
+        "Facilitates exchange of best practices in air warfare.",
+        "Strengthens air force-to-air force cooperation with partner nations."
+      ],
+      "exam_importance": "Questions may include: What is 'Tarang Shakti'? Which Indian service conducts this exercise? Where was the Defence Minister present to witness its capabilities?",
+      "related_static_topics": [
+        "Indian Air Force Capabilities",
+        "Air Warfare Doctrines",
+        "Multilateral Defence Cooperation",
+        "Air Defence Systems"
+      ],
+      "keywords": [
+        "Tarang Shakti",
+        "Indian Air Force",
+        "Air Exercise",
+        "Jodhpur",
+        "Multilateral Exercise"
+      ],
+      "confidence_score": "95%",
+      "last_verified": "2026-10-11"
+    },
+    {
+      "id": "me_20261006_kazind26",
+      "title": "India-Kazakhstan Joint Military Exercise KAZIND-2026",
+      "type": "Bilateral Exercise",
+      "exercise_name": "KAZIND",
+      "edition": "2026",
+      "status": "Ongoing",
+      "start_date": "2026-10-06",
+      "end_date": "",
+      "duration": "",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India",
+        "Kazakhstan"
+      ],
+      "indian_service": [
+        "Indian Army"
+      ],
+      "foreign_services": [
+        "Kazakhstan Army"
+      ],
+      "location": {
+        "city": "Oskemen",
+        "state": "",
+        "country": "Kazakhstan",
+        "region": "Central Asia",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Land",
+        "Counter-terrorism"
+      ],
+      "equipment_used": {
+        "india": [],
+        "foreign": []
+      },
+      "key_platforms": [],
+      "ships": [],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Enhance interoperability between Indian and Kazakhstan armies",
+        "Share best practices in counter-terrorism operations",
+        "Strengthen bilateral defence cooperation"
+      ],
+      "activities": [
+        "Joint tactical drills",
+        "Counter-terrorism scenarios",
+        "Combat exercises"
+      ],
+      "strategic_significance": "KAZIND-2026 reinforces India's strategic engagement with Central Asian nations, particularly Kazakhstan, which is vital for regional security and stability. The focus on counter-terrorism is highly relevant given the evolving security landscape. It enhances the capabilities of both armies to address common threats and promotes defence diplomacy.",
+      "takeaways": [
+        "Improved coordination and understanding in joint operations.",
+        "Enhanced capabilities in dealing with asymmetric threats.",
+        "Strengthened India-Kazakhstan defence partnership."
+      ],
+      "exam_importance": "Questions may include: KAZIND-2026 is a joint military exercise between India and which country? Where was KAZIND-2026 conducted?",
+      "related_static_topics": [
+        "India-Central Asia Relations",
+        "Counter-terrorism Strategies",
+        "Bilateral Military Exercises",
+        "Defence Diplomacy"
+      ],
+      "keywords": [
+        "KAZIND",
+        "India-Kazakhstan",
+        "Army Exercise",
+        "Oskemen",
+        "Counter-terrorism",
+        "Bilateral Exercise"
+      ],
+      "confidence_score": "98%",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "id": "me_20261009_inskulish_sg",
+      "title": "Indian Navy's INS Kulish arrives in Singapore",
+      "type": "Port Call",
+      "exercise_name": "",
+      "edition": "",
+      "status": "Ongoing",
+      "start_date": "2026-10-09",
+      "end_date": "",
+      "duration": "",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India",
+        "Singapore"
+      ],
+      "indian_service": [
+        "Indian Navy"
+      ],
+      "foreign_services": [
+        "Republic of Singapore Navy"
+      ],
+      "location": {
+        "city": "Singapore",
+        "state": "",
+        "country": "Singapore",
+        "region": "Southeast Asia",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Maritime Diplomacy"
+      ],
+      "equipment_used": {
+        "india": [
+          "INS Kulish"
+        ],
+        "foreign": []
+      },
+      "key_platforms": [
+        "INS Kulish"
+      ],
+      "ships": [
+        "INS Kulish (Kora-class corvette)"
+      ],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Strengthen maritime engagement and bilateral ties with Singapore",
+        "Foster professional exchanges between navies",
+        "Promote goodwill and cooperation in the Indo-Pacific"
+      ],
+      "activities": [
+        "Goodwill visit",
+        "Professional interactions with Republic of Singapore Navy personnel",
+        "Community outreach events (implied)"
+      ],
+      "strategic_significance": "This port call by INS Kulish highlights India's commitment to strengthening maritime partnerships in the Indo-Pacific region, particularly with key ASEAN member Singapore. It reinforces India's 'Act East' policy and contributes to regional maritime security by fostering trust and cooperation among navies.",
+      "takeaways": [
+        "Enhances India's naval presence and influence in Southeast Asia.",
+        "Strengthens bilateral relations with a crucial maritime partner.",
+        "Facilitates mutual understanding and interoperability for future engagements."
+      ],
+      "exam_importance": "Questions may include: Which Indian Naval Ship recently visited Singapore? What was the purpose of INS Kulish's visit to Singapore?",
+      "related_static_topics": [
+        "India-Singapore Defence Relations",
+        "Naval Diplomacy",
+        "Act East Policy",
+        "Indian Ocean Region Security"
+      ],
+      "keywords": [
+        "INS Kulish",
+        "Singapore",
+        "Port Call",
+        "Naval Diplomacy",
+        "Maritime Engagement",
+        "Indo-Pacific"
+      ],
+      "confidence_score": "98%",
+      "last_verified": "2026-10-09"
+    },
+    {
+      "id": "me_20260920_slinex26",
+      "title": "India-Sri Lanka Bilateral Maritime Exercise SLINEX-26",
+      "type": "Bilateral Exercise",
+      "exercise_name": "SLINEX",
+      "edition": "13th",
+      "status": "Ongoing",
+      "start_date": "2026-09-20",
+      "end_date": "",
+      "duration": "",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India",
+        "Sri Lanka"
+      ],
+      "indian_service": [
+        "Indian Navy"
+      ],
+      "foreign_services": [
+        "Sri Lanka Navy"
+      ],
+      "location": {
+        "city": "Visakhapatnam",
+        "state": "Andhra Pradesh",
+        "country": "India",
+        "region": "South Asia",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Maritime"
+      ],
+      "equipment_used": {
+        "india": [],
+        "foreign": []
+      },
+      "key_platforms": [],
+      "ships": [],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Enhance interoperability and mutual understanding between Indian and Sri Lankan navies",
+        "Improve joint operational capabilities in maritime security",
+        "Strengthen bilateral maritime cooperation"
+      ],
+      "activities": [
+        "Harbour phase activities (planning, professional interactions)",
+        "Sea phase exercises (anti-surface warfare, anti-air warfare, seamanship evolutions, HADR drills)"
+      ],
+      "strategic_significance": "SLINEX-26 reinforces India's 'Neighbourhood First' policy and SAGAR (Security And Growth for All in the Region) vision. It is crucial for enhancing maritime security in the Indian Ocean Region, addressing common challenges like piracy and illegal fishing, and fostering a stable and secure maritime environment with a key regional partner.",
+      "takeaways": [
+        "Improved coordination and communication in joint naval operations.",
+        "Enhanced capabilities to respond to maritime threats in the IOR.",
+        "Strengthened bilateral defence ties and trust with Sri Lanka."
+      ],
+      "exam_importance": "Questions may include: SLINEX-26 is a bilateral maritime exercise between which countries? Which edition of SLINEX was conducted in 2026? Where was the exercise held?",
+      "related_static_topics": [
+        "India-Sri Lanka Defence Relations",
+        "Indian Ocean Region Security",
+        "Naval Cooperation",
+        "Neighbourhood First Policy"
+      ],
+      "keywords": [
+        "SLINEX",
+        "India-Sri Lanka",
+        "Naval Exercise",
+        "Visakhapatnam",
+        "Maritime Security",
+        "Bilateral Exercise",
+        "Indian Ocean Region"
+      ],
+      "confidence_score": "98%",
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "me_20261011_chinapak_xinjiang",
+      "title": "China-Pakistan First Joint Army Drill in Xinjiang",
+      "type": "Bilateral Exercise",
+      "exercise_name": "",
+      "edition": "First",
+      "status": "Scheduled",
+      "start_date": "2026-10",
+      "end_date": "",
+      "duration": "",
+      "year": "2026",
+      "tier": 3,
+      "relevance": "Low",
+      "participant_nations": [
+        "China",
+        "Pakistan"
+      ],
+      "indian_service": [],
+      "foreign_services": [
+        "People's Liberation Army (China)",
+        "Pakistan Army"
+      ],
+      "location": {
+        "city": "",
+        "state": "Xinjiang",
+        "country": "China",
+        "region": "East Asia",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Land"
+      ],
+      "equipment_used": {
+        "india": [],
+        "foreign": []
+      },
+      "key_platforms": [],
+      "ships": [],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Enhance military cooperation and interoperability between China and Pakistan",
+        "Strengthen strategic partnership"
+      ],
+      "activities": [
+        "Joint army drills (specifics not detailed)"
+      ],
+      "strategic_significance": "This first joint army drill between China and Pakistan in Xinjiang is strategically significant for India due to its proximity to disputed territories and the deepening military alliance between India's two adversaries. It signals enhanced coordination and capabilities between the PLA and Pakistan Army, potentially impacting regional security dynamics and India's western and northern borders.",
+      "takeaways": [
+        "Highlights the growing military convergence between China and Pakistan.",
+        "Potential implications for India's security calculus, especially along the LAC and LoC.",
+        "Demonstrates China's increasing military presence and influence in its western regions."
+      ],
+      "exam_importance": "Questions may include: Which two countries are holding their first joint army drill in Xinjiang? What is the strategic significance of this exercise for India?",
+      "related_static_topics": [
+        "China-Pakistan Relations",
+        "India-China Border Dispute",
+        "India-Pakistan Relations",
+        "Regional Security Dynamics"
+      ],
+      "keywords": [
+        "China-Pakistan",
+        "Joint Army Drill",
+        "Xinjiang",
+        "Regional Security",
+        "Bilateral Exercise"
+      ],
+      "confidence_score": "95%",
+      "last_verified": "2026-10-11"
+    }
+  ]
+};
 
-let MILITARY_EXERCISES_ARCHIVE = {};
+let MILITARY_EXERCISES_ARCHIVE = {
+  "October 2026": []
+};
 
 let CURRENT_AFFAIRS_LIVE = {
   "September 2026": [

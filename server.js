@@ -1093,13 +1093,22 @@ ${textPrompt}`;
 
   // Static files server
   console.log(`[STATIC] ${req.method} ${req.url}`);
-  let filePath = path.join(__dirname, req.url === '/' ? 'index.html' : decodeURIComponent(req.url.split('?')[0]));
+  let rawReqPath = req.url === '/' ? 'index.html' : decodeURIComponent(req.url.split('?')[0]);
+  let filePath = path.join(__dirname, rawReqPath);
   
   // Basic security check: prevent path traversal outside workspace
   if (!filePath.startsWith(__dirname)) {
     res.writeHead(403);
     res.end('Forbidden');
     return;
+  }
+
+  // Fallback to public directory if file doesn't exist in root
+  if (!fs.existsSync(filePath)) {
+    const publicPath = path.join(__dirname, 'public', rawReqPath);
+    if (fs.existsSync(publicPath)) {
+      filePath = publicPath;
+    }
   }
 
   fs.stat(filePath, (err, stats) => {
