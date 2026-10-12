@@ -5,6 +5,8 @@ www/
 *.log
 .DS_Store
 .vercel
+
+__pycache__/
 jdk.zip
 cmdline-tools.zip
 jdk-17.0.10+7/

@@ -71,54 +71,17 @@ def run():
             
         grouped_notes[group_key]["content_blocks"].append(content_html)
 
-    from google import genai
-    from dotenv import load_dotenv
-    load_dotenv()
-    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
-    MERGE_MODEL = "gemini-2.5-flash"
-
     ai_notes = []
     total_groups = len(grouped_notes)
     
-    print(f"Starting AI merge for {total_groups} topics...")
+    print(f"Fusing {total_groups} chapter topics...")
     for i, (key, group) in enumerate(grouped_notes.items()):
-        print(f"Processing ({i+1}/{total_groups}): {group['title']}")
-        
         blocks = group["content_blocks"]
         if len(blocks) == 1:
             combined_content = blocks[0]
         else:
-            # We have multiple sources, fuse them with AI
-            prompt = f"""
-You are an expert educational content creator. You are given multiple sets of notes extracted from different textbooks on the same topic: {group['title']}.
-Your task is to merge them into a single, comprehensive master note.
-
-RULES:
-1. Preserve ALL unique facts, dates, names, definitions, and concepts from all sources.
-2. Remove any duplicate or overlapping information.
-3. Organize the content logically into paragraphs and bullet points.
-4. Output MUST be styled with HTML tags like <p>, <ul>, <li>, <strong>, <em>, and inline CSS (e.g. <span style='color: var(--success);'> for important terms).
-5. Do NOT include markdown code block formatting (like ```html). Return ONLY the raw HTML string.
-6. The output should be a cohesive reading experience, not just a stack of different notes.
-
-SOURCE NOTES:
-"""
-            for idx, b in enumerate(blocks):
-                prompt += f"\n\n--- SOURCE {idx + 1} ---\n{b}"
-                
-            try:
-                response = client.models.generate_content(model=MERGE_MODEL, contents=prompt)
-                combined_content = response.text.strip()
-                if combined_content.startswith("```html"):
-                    combined_content = combined_content[7:]
-                if combined_content.startswith("```"):
-                    combined_content = combined_content[3:]
-                if combined_content.endswith("```"):
-                    combined_content = combined_content[:-3]
-            except Exception as e:
-                print(f"Error merging notes for {group['title']}: {e}")
-                # Fallback to concatenation if API fails
-                combined_content = '<hr style="border: 0; border-top: 1px dashed var(--border); margin: 24px 0;">'.join(blocks)
+            # Clean programmatic fusion to preserve all facts and save API quota for PDF extraction
+            combined_content = '<hr style="border: 0; border-top: 1px dashed var(--border); margin: 24px 0;">'.join(blocks)
         
         # Wrap the unified content in the card structure
         html = f"""<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">

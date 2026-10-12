@@ -86,8 +86,11 @@ def get_next_task_round_robin(state):
     
     return None, None
 
+import generate_frontend_notes
+
 def run_pipeline():
     print("Starting Extraction Pipeline (Round-Robin - Equal Weightage)...")
+    success_count = 0
     while True:
         state = load_state()
         pdf_name, page_num = get_next_task_round_robin(state)
@@ -134,12 +137,20 @@ def run_pipeline():
             save_state(state)
             print(f"Successfully processed {pdf_name} page {page_num}. Added {len(notes)} notes and {len(questions)} questions.")
             
+            success_count += 1
+            if success_count % 5 == 0:
+                print(f"[AUTO-SYNC] Synchronizing latest {success_count} extracted pages to ai_generated_notes.js...")
+                try:
+                    generate_frontend_notes.run()
+                except Exception as sync_err:
+                    print(f"[AUTO-SYNC] Error updating frontend notes: {sync_err}")
+            
             # Small sleep to be nice to API
-            time.sleep(2)
+            time.sleep(3)
         else:
             print(f"Failed to process {pdf_name} page {page_num}. Likely rate limited or API error.")
-            print("Sleeping for 60 seconds before retrying...")
-            time.sleep(60)
+            print("Sleeping for 30 seconds before retrying round-robin...")
+            time.sleep(30)
 
 if __name__ == "__main__":
     run_pipeline()
