@@ -598,7 +598,10 @@
       10,
       11,
       12,
-      13
+      13,
+      14,
+      15,
+      16
     ],
     "status": "in_progress"
   },
@@ -618,7 +621,8 @@
       11,
       12,
       13,
-      14
+      14,
+      15
     ],
     "status": "in_progress"
   },
@@ -642,7 +646,8 @@
       15,
       16,
       17,
-      18
+      18,
+      19
     ],
     "status": "in_progress"
   },
@@ -729,26 +734,6 @@
     ],
     "status": "in_progress"
   },
-  "Pathfinder-Truncated.pdf": {
-    "total_pages": 999,
-    "extracted_pages": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14
-    ],
-    "status": "in_progress"
-  },
   "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf": {
     "total_pages": 1297,
     "extracted_pages": [
@@ -789,7 +774,7 @@
     ],
     "status": "in_progress"
   },
-  "616861773-Pathfinder-CDS-Combined-Defence-2022-23-Arihant-Experts.pdf": {
+  "cds_material.pdf": {
     "total_pages": 1377,
     "extracted_pages": [
       1,
@@ -804,16 +789,8 @@
       10,
       11,
       12,
-      13
-    ],
-    "status": "in_progress"
-  },
-  "cds_material.pdf": {
-    "total_pages": 1377,
-    "extracted_pages": [
-      1,
-      2,
-      3
+      13,
+      14
     ],
     "status": "in_progress"
   },
@@ -822,7 +799,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -831,7 +809,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -849,7 +828,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -858,7 +838,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -1025,7 +1006,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -1068,7 +1050,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -1077,7 +1060,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -1124,7 +1108,9 @@
   },
   "NDA Papers\\QP-NDA-II-MATHEMATICS-050922.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-NDA-I_II-20-Math.pdf": {
@@ -1145,12 +1131,16 @@
   },
   "NDA Papers\\QP-NDA-NA-I-26-MATHEMATICS-130426 (1).pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-NDA-NA-II-24-MATHEMATICS-020924.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-NDANA-II-2023-Maths-04092023.pdf": {
@@ -1162,14 +1152,17 @@
   },
   "NDA Papers\\QP-NDANA-II-25-MATHEMATICS-150925.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\QP_NDANAI2024_GENERAL-ABILITY-TEST_22042024.pdf": {
     "total_pages": 52,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -1480,7 +1473,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   }
