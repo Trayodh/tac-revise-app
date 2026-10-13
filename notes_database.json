@@ -20711,403 +20711,6 @@
     "source_page": 1
   },
   {
-    "id": "err-429-wikimedia",
-    "subject": "Miscellaneous",
-    "chapter": "Computer Networks",
-    "topic": "HTTP Error Codes",
-    "text": "<p><strong>HTTP Error 429: Too Many Requests</strong> occurs when a user has sent too many requests in a given amount of time (rate limiting).</p><p>The provided image displays a Wikimedia system error page with the following details:</p><ul><li><strong>Error Code:</strong> 429, Too Many Requests (015d12c)</li><li><strong>Server/Cache:</strong> cp5026 cp5026, Varnish XID 227880626</li><li><strong>Upstream Caches:</strong> cp5026 int</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:34:51 GMT</li><li><strong>Client IP Address:</strong> 49.43.27.17</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "An error page from Wikimedia showing a 'Too Many Requests (015d12c)' message with technical details including Varnish XID, upstream caches, timestamp, and client IP address."
-    ],
-    "details": {
-      "summary": "Wikimedia system error page indicating an HTTP 429 Too Many Requests rate-limiting event."
-    },
-    "mcq": {
-      "question": "Which HTTP status code is returned when a user has sent too many requests in a given amount of time?",
-      "options": [
-        "400 Bad Request",
-        "403 Forbidden",
-        "404 Not Found",
-        "429 Too Many Requests"
-      ],
-      "correct": 3,
-      "explanation": "HTTP 429 Too Many Requests is a standard response status code indicating the user has sent too many requests in a given amount of time ('rate limiting')."
-    },
-    "source_pdf": "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "wikimedia-error-429-analysis",
-    "subject": "Science & Technology",
-    "chapter": "Computer Networks and Web Technologies",
-    "topic": "HTTP Status Codes and Server Errors",
-    "text": "<p><strong>HTTP Error 429 (Too Many Requests)</strong> is an HTTP client error status code indicating that the user has sent too many requests in a given amount of time (rate limiting).</p><p>The document displays a Wikimedia System Error page containing the following technical details:</p><ul><li><strong>Error Message:</strong> Too Many Requests (015d12c)</li><li><strong>Request Server:</strong> cp5026 cp5026</li><li><strong>Varnish XID:</strong> 222835960</li><li><strong>Upstream Caches:</strong> cp5026 int</li><li><strong>Error Code:</strong> 429</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:31:46 GMT</li><li><strong>Client IP Address:</strong> 49.43.27.17</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "A screenshot of a Wikimedia System Error page. The text displays 'Error' followed by 'Too Many Requests (015d12c)'. Below, a light grey box contains instructions to report the error to Wikimedia System Administrators, listing technical details such as request server cp5026, Varnish XID 222835960, upstream caches cp5026 int, error code 429, timestamp Thu, 16 Jul 2026 08:31:46 GMT, and client IP address 49.43.27.17."
-    ],
-    "details": {
-      "summary": "An analysis of an HTTP 429 (Too Many Requests) error page served by Wikimedia system administrators, detailing rate-limiting indicators and server metadata."
-    },
-    "mcq": null,
-    "source_pdf": "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Resources\\Indian_Mineral_Provinces.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "err-429-wikimedia",
-    "subject": "Miscellaneous",
-    "chapter": "System Errors",
-    "topic": "HTTP 429 Too Many Requests",
-    "text": "<p>The provided document is an error page indicating a <strong>429 Too Many Requests</strong> error from the Wikimedia system.</p><p>Key details from the error message include:</p><ul><li><strong>Error Code:</strong> 429 (Too Many Requests)</li><li><strong>Varnish XID:</strong> 776405203</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:34:27 GMT</li><li><strong>IP Address:</strong> 2405:201:1e:b1c3:59fd:9c62:6ce:89e0</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "A screenshot of a Wikimedia system error page displaying a 'Too Many Requests (015d12c)' message with technical details inside a light grey box."
-    ],
-    "details": {
-      "summary": "The document is a system error page (HTTP 429) from Wikimedia, indicating that too many requests were sent in a given amount of time."
-    },
-    "source_pdf": "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "wikimedia-error-429",
-    "subject": "Science & Technology",
-    "chapter": "Computer Networks and Internet Protocols",
-    "topic": "HTTP Status Codes and Server Errors",
-    "text": "<p>The document is an error report page from the Wikimedia System Administrators indicating a rate-limiting event.</p><ul><li><strong>Error Type:</strong> HTTP 429 Too Many Requests (015d12c)</li><li><strong>Request Served Via:</strong> cp5026 cp5026, Varnish XID 217984907</li><li><strong>Upstream Caches:</strong> cp5026 int</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:30:19 GMT</li><li><strong>Sensitive Client Information:</strong> IP address 49.43.27.17</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "A screenshot of a web browser error page displaying 'Error: Too Many Requests (015d12c)' with a grey box containing technical details for Wikimedia System Administrators."
-    ],
-    "details": {
-      "summary": "An HTTP 429 error page indicating that the client has sent too many requests in a given amount of time, resulting in rate limiting by the Wikimedia servers."
-    },
-    "mcq": {
-      "question": "Which HTTP status code is returned when a user has sent too many requests in a given amount of time?",
-      "options": [
-        "HTTP 400",
-        "HTTP 403",
-        "HTTP 404",
-        "HTTP 429"
-      ],
-      "correct": 3,
-      "explanation": "HTTP status code 429 indicates 'Too Many Requests', which is used for rate limiting client requests."
-    },
-    "source_pdf": "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "wikimedia-error-429",
-    "subject": "Miscellaneous",
-    "chapter": "System Errors",
-    "topic": "HTTP 429 Too Many Requests",
-    "text": "<p><strong>Error: Too Many Requests (015d12c)</strong></p><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><ul><li>Request served via: cp5026 cp5026, Varnish XID 248580822</li><li>Upstream caches: cp5026 int</li><li>Error: 429, Too Many Requests (015d12c) at Thu, 16 Jul 2026 08:30:17 GMT</li><li>Sensitive client information IP address: 49.43.27.17</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "A screenshot of a Wikimedia system error page showing a 'Too Many Requests' 429 error with technical details including Varnish XID, timestamp, and IP address."
-    ],
-    "details": {
-      "summary": "Wikimedia System Error 429 (Too Many Requests) page containing request details, timestamp, and client IP address."
-    },
-    "mcq": null,
-    "source_pdf": "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\World\\Major_World_Straits.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "error-page-wikimedia",
-    "subject": "Miscellaneous",
-    "chapter": "System Errors",
-    "topic": "HTTP 429 Too Many Requests",
-    "text": "<p>The document is an error page from the Wikimedia System Administrators.</p><p><strong>Error Type:</strong> 429 Too Many Requests (015d12c)</p><p><strong>Details:</strong></p><ul><li>Request served via: cp5028 cp5028, Varnish XID 759600226</li><li>Upstream caches: cp5028 int</li><li>Timestamp: Thu, 16 Jul 2026 08:29:26 GMT</li><li>IP Address: 2405:201:1e:b1c3:59fd:9c62:6ce:89e0</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "An image placeholder link at the top, followed by the text 'Error' and 'Too Many Requests (015d12c)'. Below is a grey box containing technical details of the Wikimedia system error."
-    ],
-    "details": {
-      "summary": "Wikimedia HTTP 429 Too Many Requests error page."
-    },
-    "mcq": null,
-    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "err-429-wikimedia",
-    "subject": "Miscellaneous",
-    "chapter": "Computer Networks",
-    "topic": "HTTP Error Codes",
-    "text": "<p><strong>HTTP 429 Too Many Requests</strong> is an HTTP status code indicating that the user has sent too many requests in a given amount of time (\"rate limiting\").</p><p>The provided document is a Wikimedia System Error page containing the following details:</p><ul><li><strong>Error Type:</strong> Too Many Requests (015d12c)</li><li><strong>Error Code:</strong> 429</li><li><strong>Request Served Via:</strong> cp5028 cp5028, Varnish XID 759600226</li><li><strong>Upstream Caches:</strong> cp5028 int</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:29:26 GMT</li><li><strong>Client IP Address:</strong> 2405:201:1e:b1c3:59fd:9c62:6ce:89e0</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "A screenshot of a Wikimedia System Error page displaying a 'Too Many Requests' error message with technical details such as Varnish XID, Upstream caches, timestamp, and client IP address."
-    ],
-    "details": {
-      "summary": "Wikimedia System Error page showing an HTTP 429 Too Many Requests error with technical diagnostic details."
-    },
-    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "err-429-wikimedia-tech",
-    "subject": "Science & Technology",
-    "chapter": "Computer Networks & Web Technologies",
-    "topic": "HTTP Status Codes and Rate Limiting",
-    "text": "<p><strong>HTTP Error 429: Too Many Requests</strong></p><p>The HTTP 429 status code indicates that the user has sent too many requests in a given amount of time (rate limiting). It is a client-side error response.</p><p>Key details extracted from the system error log:</p><ul><li><strong>Error Type:</strong> 429 Too Many Requests (015d12c)</li><li><strong>Server/Cache System:</strong> Varnish (XID: 232400998)</li><li><strong>Upstream Caches:</strong> cp5026 int</li><li><strong>Timestamp of Occurrence:</strong> Thu, 16 Jul 2026 08:31:48 GMT</li><li><strong>Client IP Address:</strong> 49.43.27.17</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "A screenshot of a Wikimedia System Error page displaying a 'Too Many Requests' HTTP 429 error message with technical details including Varnish XID, timestamp, and client IP address."
-    ],
-    "details": {
-      "summary": "An error page indicating an HTTP 429 (Too Many Requests) rate-limiting response from a Wikimedia server, containing technical diagnostic information."
-    },
-    "mcq": {
-      "question": "Which HTTP status code is returned when a user has sent too many requests in a given amount of time?",
-      "options": [
-        "HTTP 400",
-        "HTTP 403",
-        "HTTP 404",
-        "HTTP 429"
-      ],
-      "correct": 3,
-      "explanation": "HTTP 429 Too Many Requests is the standard response status code indicating rate limiting has been triggered."
-    },
-    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "err-wikimedia-429",
-    "subject": "Miscellaneous",
-    "chapter": "Web Infrastructure",
-    "topic": "HTTP Status Codes and Server Errors",
-    "text": "<p><strong>Error: Too Many Requests (015d12c)</strong></p><p>This document represents a standard HTTP 429 (Too Many Requests) error page generated by the Wikimedia system. It occurs when a client has sent too many requests in a given amount of time, exceeding rate limits.</p><ul><li><strong>System Administrators:</strong> Wikimedia System Administrators</li><li><strong>Request served via:</strong> cp5026 cp5026, Varnish XID 227880626</li><li><strong>Upstream caches:</strong> cp5026 int</li><li><strong>Error Details:</strong> 429, Too Many Requests (015d12c)</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:34:51 GMT</li><li><strong>Sensitive Client Information IP Address:</strong> 49.43.27.17</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "A placeholder link labeled '[image]' at the top left of the page, followed by the main heading 'Error' and the sub-heading 'Too Many Requests (015d12c)'."
-    ],
-    "details": {
-      "summary": "A Wikimedia system error page indicating an HTTP 429 Too Many Requests error, containing technical details such as Varnish XID, upstream cache identifiers, timestamp, and client IP address."
-    },
-    "mcq": {
-      "question": "Which of the following HTTP status codes is returned when a user has sent too many requests in a given amount of time?",
-      "options": [
-        "HTTP 400",
-        "HTTP 403",
-        "HTTP 404",
-        "HTTP 429"
-      ],
-      "correct": 3,
-      "explanation": "HTTP 429 Too Many Requests is a response status code that indicates the user has sent too many requests in a given amount of time ('rate limiting')."
-    },
-    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "err-wikimedia-429",
-    "subject": "Miscellaneous",
-    "chapter": "System Errors",
-    "topic": "HTTP 429 Too Many Requests",
-    "text": "<p><strong>Error: Too Many Requests (015d12c)</strong></p><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><ul><li>Request served via: cp5026 cp5026, Varnish XID 222835960</li><li>Upstream caches: cp5026 int</li><li>Error: 429, Too Many Requests (015d12c) at Thu, 16 Jul 2026 08:31:46 GMT</li><li>Sensitive client information IP address: 49.43.27.17</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "A simple web page layout showing a blue hyperlink text '[image]' at the top, followed by a bold heading 'Error' and the sub-heading 'Too Many Requests (015d12c)'. Below this, a light grey box contains technical details regarding a Wikimedia system error."
-    ],
-    "details": {
-      "summary": "Wikimedia system error page indicating an HTTP 429 Too Many Requests rate limiting event with technical diagnostic details."
-    },
-    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Resources\\Indian_Mineral_Provinces.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "err-429-wikimedia",
-    "subject": "Miscellaneous",
-    "chapter": "System Errors",
-    "topic": "HTTP 429 Too Many Requests",
-    "text": "<p>The document provided is an error page indicating a <strong>429 Too Many Requests</strong> error from the Wikimedia system administrators.</p><p>Details from the error page:</p><ul><li><strong>Error Code:</strong> 429 (Too Many Requests)</li><li><strong>Varnish XID:</strong> 776405203</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:34:27 GMT</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "An error message screenshot from Wikimedia showing 'Error: Too Many Requests (015d12c)' with technical details including IP address and Varnish XID."
-    ],
-    "details": {
-      "summary": "The image displays an HTTP 429 Too Many Requests error page from Wikimedia."
-    },
-    "mcq": null,
-    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "tech-http-429-error-analysis",
-    "subject": "Science & Technology",
-    "chapter": "Computer Networks and Internet Technologies",
-    "topic": "HTTP Status Codes and Web Server Architecture",
-    "text": "<p>This document details an HTTP 429 Error event captured from the Wikimedia system infrastructure, illustrating key concepts in web traffic management, caching, and rate limiting.</p><strong>Key Technical Concepts:</strong><ul><li><strong>HTTP 429 (Too Many Requests):</strong> The user has sent too many requests in a given amount of time. It is a rate-limiting response code used to protect servers from denial-of-service (DoS) attacks or excessive scraping.</li><li><strong>Varnish Cache:</strong> An HTTP accelerator designed for content-heavy dynamic websites. It acts as a reverse proxy, caching pages to reduce server load. The transaction ID is recorded as <code>Varnish XID 217984907</code>.</li><li><strong>Upstream Caches:</strong> Intermediate caching layers (e.g., <code>cp5026 int</code>) that process requests before they reach the origin server.</li><li><strong>Client IP Address:</strong> The unique network identifier of the client initiating the requests, identified here as <code>49.43.27.17</code>.</li></ul>",
-    "formulas": [],
-    "tables": [
-      "| Parameter | Value | Description |\n|---|---|---|\n| Error Code | 429 | Too Many Requests (Rate Limiting) |\n| Server Node | cp5026 | Request served via cp5026 cp5026 |\n| Cache Engine | Varnish | Reverse proxy caching engine |\n| Transaction ID | 217984907 | Varnish XID |\n| Timestamp | Thu, 16 Jul 2026 08:30:19 GMT | Time of error occurrence |\n| Client IP | 49.43.27.17 | Sensitive client IP address |"
-    ],
-    "image_descriptions": [
-      "A screenshot of a Wikimedia System error page displaying a 'Too Many Requests (015d12c)' message. The page contains technical details including request routing via cp5026, Varnish XID 217984907, timestamp Thu, 16 Jul 2026 08:30:19 GMT, and client IP address 49.43.27.17."
-    ],
-    "details": {
-      "summary": "An analysis of an HTTP 429 (Too Many Requests) rate-limiting error served by Wikimedia's Varnish-based caching infrastructure."
-    },
-    "mcq": {
-      "question": "Which HTTP status code is returned by a web server when a user has sent too many requests in a given amount of time?",
-      "options": [
-        "HTTP 400",
-        "HTTP 403",
-        "HTTP 404",
-        "HTTP 429"
-      ],
-      "correct": 3,
-      "explanation": "HTTP 429 (Too Many Requests) is the standard response status code indicating the user has sent too many requests in a given amount of time (rate limiting)."
-    },
-    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "err-wikimedia-429",
-    "subject": "Miscellaneous",
-    "chapter": "System Errors",
-    "topic": "HTTP 429 Too Many Requests",
-    "text": "<p>The document is an error page from the Wikimedia System Administrators.</p><ul><li><strong>Error Type:</strong> HTTP 429 Too Many Requests</li><li><strong>Error Code:</strong> 015d12c</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 08:30:17 GMT</li><li><strong>IP Address:</strong> 49.43.27.17</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "A screenshot of a Wikimedia system error page displaying a 'Too Many Requests' message with technical details inside a grey box."
-    ],
-    "details": {
-      "summary": "This document is a system error page indicating a 429 Too Many Requests error from Wikimedia servers."
-    },
-    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\World\\Major_World_Straits.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "wikimedia-error-429",
-    "subject": "Science & Technology",
-    "chapter": "Computer Networks and Web Technologies",
-    "topic": "HTTP Status Codes and Server Errors",
-    "text": "<p>An <strong>HTTP 429 Too Many Requests</strong> error response status code indicates that the user has sent too many requests in a given amount of time, commonly referred to as rate limiting.</p><p>The document displays a Wikimedia system error page containing the following technical details:</p><ul><li><strong>Error Type:</strong> Too Many Requests (015d12c)</li><li><strong>HTTP Status Code:</strong> 429</li><li><strong>Request Served Via:</strong> cp5026 cp5026, Varnish XID 227880626</li><li><strong>Upstream Caches:</strong> cp5026 int</li><li><strong>Timestamp of Error:</strong> Thu, 16 Jul 2026 08:34:51 GMT</li><li><strong>Client IP Address:</strong> 49.43.27.17</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "A screenshot of a web browser error page. At the top, there is a blue text link placeholder '[image]'. Below it, the word 'Error' is written in a large bold font, followed by 'Too Many Requests (015d12c)'. A light grey box contains instructions for reporting the error to Wikimedia System Administrators, listing technical details such as server ID, Varnish XID, upstream caches, timestamp, and the client IP address."
-    ],
-    "details": {
-      "summary": "An HTTP 429 error page from Wikimedia indicating rate limiting (Too Many Requests) with technical diagnostic details."
-    },
-    "mcq": {
-      "question": "Which HTTP status code is returned when a user has sent too many requests in a given amount of time?",
-      "options": [
-        "400 Bad Request",
-        "403 Forbidden",
-        "404 Not Found",
-        "429 Too Many Requests"
-      ],
-      "correct": 3,
-      "explanation": "HTTP 429 Too Many Requests indicates that the user has exceeded their rate limit."
-    },
-    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "err-wikimedia-429",
-    "subject": "Miscellaneous",
-    "chapter": "System Errors",
-    "topic": "HTTP 429 Too Many Requests",
-    "text": "<p><strong>Error: Too Many Requests (015d12c)</strong></p><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><ul><li>Request served via: cp5026 cp5026, Varnish XID 222835960</li><li>Upstream caches: cp5026 int</li><li>Error: 429, Too Many Requests (015d12c) at Thu, 16 Jul 2026 08:31:46 GMT</li><li>Sensitive client information IP address: 49.43.27.17</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "An image placeholder link '[image]' at the top left, followed by the bold text 'Error' and 'Too Many Requests (015d12c)'. Below is a light grey box containing technical details of the Wikimedia system error."
-    ],
-    "details": {
-      "summary": "Wikimedia system error page showing HTTP 429 Too Many Requests with technical details including Varnish XID, timestamp, and client IP address."
-    },
-    "mcq": null,
-    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\Resources\\Indian_Mineral_Provinces.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "note-1",
-    "subject": "Science & Technology",
-    "chapter": "Just-in-Time Compilation",
-    "topic": "Trace-based JIT Type Specialization for Dynamic Languages",
-    "text": "<p>Trace-based Just-in-Time Type Specialization for Dynamic Languages\nAndreas Gal∗+, Brendan Eich∗, Mike Shaver∗, David Anderson∗, David Mandelin∗,\nMohammad R. Haghighat$, Blake Kaplan∗, Graydon Hoare∗, Boris Zbarsky∗, Jason Orendorff∗,\nJesse Ruderman∗, Edwin Smith#, Rick Reitmaier#, Michael Bebenita+, Mason Chang+#, Michael Franz+\nMozilla Corporation∗\n{gal,brendan,shaver,danderson,dmandelin,mrbkap,graydon,bz,jorendorff,jruderman}@mozilla.com\nAdobe Corporation#\n{edwsmith,rreitmai}@adobe.com\nIntel Corporation$\n{mohammad.r.haghighat}@intel.com\nUniversity of California, Irvine+\n{mbebenit,changm,franz}@uci.edu\nAbstract\nDynamic languages such as JavaScript are more difﬁcult to com-\npile than statically typed ones. Since no concrete type information\nis available, traditional compilers need to emit generic code that can\nhandle all possible type combinations at runtime. We present an al-\nternative compilation technique for dynamically-typed languages\nthat identiﬁes frequently executed loop traces at run-time and then\ngenerates machine code on the ﬂy that is specialized for the ac-\ntual dynamic types occurring on each path through the loop. Our\nmethod provides cheap inter-procedural type specialization, and an\nelegant and efﬁcient way of incrementally compiling lazily discov-\nered alternative paths through nested loops. We have implemented\na dynamic compiler for JavaScript based on our technique and we\nhave measured speedups of 10x and more for certain benchmark\nprograms.\nCategories and Subject Descriptors\nD.3.4 [Programming Lan-\nguages]: Processors — Incremental compilers, code generation.\nGeneral Terms\nDesign, Experimentation, Measurement, Perfor-\nmance.\nKeywords\nJavaScript, just-in-time compilation, trace trees.\n1.\nIntroduction\nDynamic languages such as JavaScript, Python, and Ruby, are pop-\nular since they are expressive, accessible to non-experts, and make\ndeployment as easy as distributing a source ﬁle. They are used for\nsmall scripts as well as for complex applications. JavaScript, for\nexample, is the de facto standard for client-side web programming\nPermission to make digital or hard copies of all or part of this work for personal or\nclassroom use is granted without fee provided that copies are not made or distributed\nfor proﬁt or commercial advantage and that copies bear this notice and the full citation\non the ﬁrst page. To copy otherwise, to republish, to post on servers or to redistribute\nto lists, requires prior speciﬁc permission and/or a fee.\nPLDI’09,\nJune 15–20, 2009, Dublin, Ireland.\nCopyright c⃝2009 ACM 978-1-60558-392-1/09/06...$5.00\nand is used for the application logic of browser-based productivity\napplications such as Google Mail, Google Docs and Zimbra Col-\nlaboration Suite. In this domain, in order to provide a ﬂuid user\nexperience and enable a new generation of applications, virtual ma-\nchines must provide a low startup time and high performance.\nCompilers for statically typed languages rely on type informa-\ntion to generate efﬁcient machine code. In a dynamically typed pro-\ngramming language such as JavaScript, the types of expressions\nmay vary at runtime. This means that the compiler can no longer\neasily transform operations into machine instructions that operate\non one speciﬁc type. Without exact type information, the compiler\nmust emit slower generalized machine code that can deal with all\npotential type combinations. While compile-time static type infer-\nnce might be able to gather type information to generate opti-\nmized machine code, traditional static analysis is very expensive\nand hence not well suited for the highly interactive environment of\na web browser.\nWe present a trace-based compilation technique for dynamic\nlanguages that reconciles speed of compilation with excellent per-\nformance of the generated machine code. Our system uses a mixed-\nmode execution approach: the system starts running JavaScript in a\nfast-starting bytecode interpreter. As the program runs, the system\nidentiﬁes hot (frequently executed) bytecode sequences, records\nthem, and compiles them to fast native code. We call such a se-\nquence of instructions a trace.\nUnlike method-based dynamic compilers, our dynamic com-\npiler operates at the granularity of individual loops. This design\nchoice is based on the expectation that programs spend most of\ntheir time in hot loops. Even in dynamically typed languages, we\nexpect hot loops to be mostly type-stable, meaning that the types of\nvalues are invariant. (12) For example, we would expect loop coun-\nters that start as integers to remain integers for all iterations. When\nboth of these expectations hold, a trace-based compiler can cover\nthe program execution with a small number of type-specialized, ef-\nﬁciently compiled traces.\nEach compiled trace covers one path through the program with\none mapping of values to types. When the VM executes a compiled\ntrace, it cannot guarantee that the same path will be followed\nor that the same types will occur in subsequent loop iterations.</p>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [],
-    "details": {
-      "summary": "Trace-based Just-in-Time Type Specialization for Dynamic Languages"
-    },
-    "mcq": {
-      "question": "",
-      "options": [],
-      "correct": 0,
-      "explanation": ""
-    },
-    "source_pdf": "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\01-valid.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "note-1",
-    "subject": "Physics",
-    "chapter": "Solar Cells and Photovoltaics",
-    "topic": "GaInP/GaAs solar cell with AlGaAs tunnel junction",
-    "text": "<p>Performance evaluation of a GaInP/GaAs solar cell structure\nwith the integration of AlGaAs tunnel junction\nYunus Özen a,b,n, Nihan Akın a,b, Barış Kınacı c, Süleyman Özçelik a,b\na Photonics Application and Research Center, Gazi University, 06500 Ankara, Turkey\nb Department of Physics, Faculty of Science, Gazi University, 06500 Ankara, Turkey\nc Department of Physics, Faculty of Science, Istanbul University, 34134 Vezneciler Istanbul, Turkey\na r t i c l e i n f o\nArticle history:\nReceived 12 December 2014\nReceived in revised form\n28 December 2014\nAccepted 13 January 2015\nKeywords:\nGaInP/GaAs solar cell\nAlGaAs tunnel junction\nThe energy conversion efﬁciency\na b s t r a c t\nA GaInP/GaAs solar cell structure with AlGaAs tunnel junction was grown on p-type (1 0 0)-oriented\nGaAs substrate by a solid-source molecular beam epitaxy technique. The structural and morphological\nproperties of the GaInP/GaAs solar cell structure have been evaluated by means of secondary ion mass\nspectrometry and atomic force microscopy measurements. In addition, the GaInP/GaAs solar cell device\nwas fabricated to obtain electrical output parameters of the cells. For this purpose, the current–voltage\nmeasurements of solar cell devices were carried out at room temperature under both dark and air mass\n1.5 global radiation (AM1.5) using solar simulator. In addition, the electrical output parameters of the\nGaInP/GaAs solar cell structure with the AlGaAs tunnel junction are compared with the GaInP/GaAs solar\ncell structure without the AlGaAs tunnel junction, and it is found that the integration of the tunnel\njunction into a solar cell structure improves the device performance by 48%.\n& 2015 Elsevier B.V. All rights reserved.\n1. Introduction\nAccording to literature, solar cells (SCs) can be divided into four\ngroups: (1) silicon-based SCs such as mono-crystalline silicon, and\npoly-crystalline silicon SCs [1–7], (2) thin ﬁlm SCs such as\namorphous silicon, cadmium–telluride, and copper–indium–gal-\nlium–de selenide SCs [8–15], and (3) III–V group SCs such as\nquantum well, and multi-junction SCs [16–29], (4) other SCs such\nas organic, dye sensitized and perovskite SCs [30–33]. There has\nbeen an increasing interest on the research and development of\nmulti-junction III–V group SCs due to a higher efﬁciency compared\nto other groups SCs. Currently, the studies on these SCs are mainly\nfocused on the performance evaluation [34–38]. Multi-junction\nSCs are sensitive to radiation of different wavelengths. A top cell is\nresponsive to shorter wavelengths, whereas a bottom cell is\nresponsive to longer wavelengths. In conﬁguration, wider bandgap\nmaterials are used for the top cells since they absorb short\nwavelengths. Thus, it allows the longer wavelength radiation to\npenetrate deeper into the device where it can be converted into\nelectrical energy. The commonly used highest-performing multi-\njunction cells use III–V compound semiconductors with direct\nbandgaps [39]. III–V Group ternary alloy materials, such as AlGaAs,\nInGaAs, InGaN and GaInP, were widely used as the top cell of SCs\n[18,20,22,25,27,29,34–38]. Among these materials, GaInP ternary\nalloy is an essential material for high efﬁciency SCs as it absorbs\nthe visible part of the solar spectrum [40]. In addition, GaAs binary\ncompound (bandgap: 1.42 eV) absorbs near-infrared part of the\nsolar spectrum. When the Ga composition ratio is approximately\n51% of the GaInP/GaAs structure, GaInP ternary alloy grows on a\nGaAs substrate with lattice-match, and this structure has great\ntechnological importance [40–42]. The GaInP/GaAs SC structure\nwill continue to be the focus of attention in the photovoltaic works\nas it absorbs the large part of the solar spectrum.\nTunnel junctions (TJs) are highly doped p–n diodes which allow\nfor quantum mechanical tunneling through their narrow depletion\nregions. TJs are very crucial for multi-junction SCs, and they have\nproperties such as a relatively optically transparent and low\nresistance [43]. According to the tunneling effect, the electron\ndoes not need extra energy for tunneling from the bottom of the\nconduction band to the top of the valence band. In addition,\nheavily doped AlGas, InGaP, GaAs, etc. are selected as TJs in III–V\ngroup SCs [27]. Several researches have studied the SCs structure\nwith an integration of TJ [27,28,34]. Siyu et al. [27] examined the\ncharacteristics of the TJ, the material used in the TJ, the compen-\nsation of the TJ to the overall cell’s characteristics, the TJs’\ninﬂuence on the current density of sub-cells and the efﬁciency\nincrease. Wheelden et al. [28] investigated four different TJ designs\nContents lists available at ScienceDirect\njournal homepage: www.elsevier.com/locate/solmat\nSolar Energy Materials & Solar Cells\nhttp://dx.doi.org/10.1016/j.solmat.2015.01.021\n0927-0248/& 2015 Elsevier B.V. All rights reserved.\n n Corresponding author at: Photonics Application and Research Center, Gazi\nUniversity, 06500 Ankara, Turkey. Tel.: þ90 312 202 12 79; fax: þ90 312 212 22 79.\nE-mail addresses: ynszn.gazi@gmail.com, sozcelik@gazi.edu.tr (Y. Özen).\nSolar Energy Materials & Solar Cells 137 (2015) 1–5</p>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [],
-    "details": {
-      "summary": "The paper evaluates the performance improvement of a GaInP/GaAs solar cell by integrating an AlGaAs tunnel junction, reporting a 48% increase in device performance."
-    },
-    "mcq": {
-      "question": "",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correct": 0,
-      "explanation": ""
-    },
-    "source_pdf": "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\02-valid.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "note-1",
-    "subject": "Biology",
-    "chapter": "Exercise Physiology",
-    "topic": "Acute effect of speed exercise on nitric oxide levels",
-    "subchapter": "",
-    "text": "<p>Aim: Exercise is one of the low-cost and easiest ways for improving life standards and physical fitness, and reducing body stress. Nitric oxide (NO) is defined as the “surprising soldier mediator” of biological systems. NO is one of the relaxation factors coming from the vascular endothelium. This relaxation in smooth muscles leads to vasodilatation in veins. The purpose of this study is to evaluate the acute effect of 20-meter sprints of footballers on NO levels.</p><p>Materials and Methods: 22 footballers with an age range of 18–32 were voluntarily enrolled in the study. The heights and weights of the subjects were measured. Speed measures were taken with a photocell system. The 20-meter sprint was repeated for 10 times. Blood samples were taken before and immediately after the sprint. For statistical analysis paired t test was used.</p><p>Results: The mean age, height, and weight of the footballers included in the study were 24.21 ± 3.41 years, 173 ± 7.04 cm, and 67.85 ± 5.17 kg, respectively. The mean NO values were 21.45 ± 2.08 immediately after the exercise and 25.59 ± 1.59 before the exercise (mean ± SD). This decrease in the NO level after the exercise, compared to before, were not statistically meaningful (P = 0.052).</p><p>Conclusions: The fact that the exercise was short-term yet with maximal load and negative developments occurred within the body may have highlighted the oxidative damage. The NO defence used against this damage may have decreased the values.</p><p>Key Words: Nitric oxide, speed exercise, footballer</p><p>Futbolcularda sürat egzersizinin nitrik oksit (NO) düzeyi üzerine akut etkisi<br>Amaç: Egzersiz, insanları stresten uzaklaştıran, hayat standartlarını yükselten ve fiziksel uygunluğu iyi duruma getirmek için kullanılan en ucuz ve kolay yoldur. Nitrik oksit (NO) biyolojik sistemlerin “şaşırtıcı asker aracısı” olarak tanımlanır. NO vasküler endotelyumdan çıkan dinlenme faktörüdür. Bu düz kaslardaki relaks damarlarla vasodilatasyona neden olur. Bu çalışmanın amacı; futbolcularda 20 metrelik sürat koşularının NO düzeylerine akut etkisini araştırmaktır.<br>Gereç ve Yöntem: Araştırmaya yaşları 18-32 yaş arasında değişen 22 futbolcu gönüllü olarak katıldı. Deneklerin boy ve beden ağırlık ölçümleri alındı. Sürat ölçümleri fotosel ile yapıldı. 20 metrelik sürat koşusu 10 kez tekrar ettirildi. Sürat egzersizi öncesi ve hemen sonrası kan örnekleri alındı. İstatistiksel analiz için paired t testi kullanıldı.<br>Bulgular: Çalışmaya dahil edilen futbolcuların yaşları 24,21 ± 3,41 yıl, boyları 173 ± 7,04 cm. ve beden ağırlığı 67,85 ± 5,17 kg. olarak belirlendi. Sürat egzersizi öncesi NO değerleri 25,59 ± 1,59’ iken, egzersiz hemen sonrası 21,45 ± 2,08 olarak bulundu (A.O ± SS). Egzersizden hemen sonrasındaki NO düzeyindeki bu düşüş istatistiksel olarak anlamlı değildi (P = 0,052).<br>Sonuç: Egzersizin kısa süreli ancak maksimal yüklenmeli olması, vücutta meydana gelen negatif gelişmeler oksidatif hasarı öne çıkarmış olabilir. Bu hasara karşı kullanılan NO savunması, değerleri aşağıya düşürmüş olabilir.<br>Anahtar Sözcükler: Nitrik oksit (NO), sürat egzersizi, futbolcu</p>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [],
-    "details": {
-      "summary": "Aim: Exercise is one of the low-cost and easiest ways for improving life standards and physical fitness, and reducing body stress. Nitric oxide (NO) is defined as the “surprising soldier mediator” of biological systems."
-    },
-    "mcq": {
-      "question": "",
-      "options": [],
-      "correct": 0,
-      "explanation": ""
-    },
-    "source_pdf": "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\04-valid.pdf",
-    "source_page": 1
-  },
-  {
     "id": "note-001",
     "subject": "Defence",
     "chapter": "Weapon Systems",
@@ -22981,88 +22584,6 @@
     "source_page": 2
   },
   {
-    "id": "note-1",
-    "subject": "Biology",
-    "chapter": "Nitric Oxide (NO) in Physiology",
-    "topic": "Role of NO in Vasodilatation and Exercise",
-    "text": "<p>Until 15-20 years ago, NO was thought to be merely the exhaust gas of automobiles, an atmospheric gas found in cigarettes, and an agent polluting the atmosphere. It has been articulated in previous studies that NO, which has been qualified as a harmful molecule since it is a free radical due to the unpaired electron it bore, is actually an important molecule that balances the blood pressure and vasodilatation.</p><p>NO causes vasodilatation in veins and accelerates blood flow. NO, which regulates the blood circulation, also keeps the veins clean. The vein network rich in NO is slippery like Teflon and allows for the flow of plaques preventing the enlargement of clots, whereas the unhealthy vein, or the vein poor in NO, leads to collection of plaques in the adhesive inner surface of the vein.</p><p>NO radical prevents the excessive accumulation of free radicals in tissues by reacting with other free radicals. Whereas other free oxygen radicals are harmful in every concentration, NO plays a role in regulating a range of physiological events, such as digestion system, host defence and non‑specific immunity. However, when generated inappropriately and excessively, it causes a lot of pathological conditions.</p><p>Sport generally has significant features like speed, strength, endurance, and flexibility. Speed is the ability to carry oneself from one point to another in the shortest time possible. In sports trainings, the organism is exposed to loads which are over daily life levels. In exercise, it is blood that provides the metabolic and O2 needs of the tissues. Blood pressure is the force that enables the blood flow. Blood pressure is the pressure that exerts the blood on the vein walls.</p><p>The benefits of exercising have been proven plenty of times. However, negative changes can also be expected in connection with the short‑term and extreme changes that exercise may cause in the human body. However, exercise, if performed regularly and efficiently, helps strengthen the cardiovascular, hormonal, and immune system, and increase the muscle mass.</p><p>This study was conducted to analyze the acute effect of speed exercise on NO levels of footballers.</p><p><strong>Materials and Methods</strong></p><p><strong>Selection of the Subjects</strong></p><p>Twenty‑two active, healthy footballers, with an age range of 18‑32, free of obvious health problems and medications were enrolled into this study. In the study, the necessary explanations were provided to the subjects and their consents were obtained.</p><p><strong>Method of the Study</strong></p><p>The subjects carried out the test after a 20‑min warm‑up, 15 min of which was dedicated to general and 5 min to specific warm‑up. The test comprised 10 sprints of 20 m. The subjects started the sprint without a start order, but when they felt ready and completed it in maximum speed. Blood measures were taken twice, before and immediately after the sprint.</p><p><strong>Instruments</strong></p><p><strong>Height and Weight Measure</strong></p><p>The heights of the subjects were measured without shoes, with a stadiometer (Holtain, UK) in cm; and they were weighed in shorts with an electronic scale (Seca, Germany) in kg.</p><p><strong>Speed Measure</strong></p><p>The speed was measured in a gym on a smooth and synthetic floor. The time between the start and finish points were measured with a 0.01 s sensitive photocell system (New Test 2000, Finland). Cones were used in order to specify the sprint field.</p><p><strong>Blood Measures</strong></p><p>Blood samples were drawn from antecubital vein using the heparinised tubes. The samples were taken before and immediately after the loading. The elements were precipitated by centrifuge for 5 min at 3500 rpm; the plasma part at the top was taken into Eppendorf tubes and kept at -80 °C until analysis.</p><p><strong>Nitrite determination</strong></p><p>Nitrite was measured using the Griess reaction. Briefly, plasma samples were diluted 4‑fold with distilled water and deproteinized by adding l/20th volume of zinc sulfate (300 g/l) to give a final solution.</p>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [],
-    "details": {
-      "summary": "This entry summarizes the role of nitric oxide (NO) in vasodilatation, its physiological significance, and the methodology of a study investigating the acute effect of speed exercise on NO levels in footballers."
-    },
-    "mcq": {},
-    "source_pdf": "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\04-valid.pdf",
-    "source_page": 2
-  },
-  {
-    "id": "note-1",
-    "subject": "Physics",
-    "chapter": "Solar Cells",
-    "topic": "Performance Evaluation of GaInP/GaAs Solar Cell Structure with AlGaAs Tunnel Junction",
-    "text": "<p>Performance evaluation of a GaInP/GaAs solar cell structure with the integration of AlGaAs tunnel junction</p><p>Yunus Özen a,b,n, Nihan Akın a,b, Barış Kınacı c, Süleyman Özçelik a,b</p><p>a Photonics Application and Research Center, Gazi University, 06500 Ankara, Turkey</p><p>b Department of Physics, Faculty of Science, Gazi University, 06500 Ankara, Turkey</p><p>c Department of Physics, Faculty of Science, Istanbul University, 34134 Vezneciler Istanbul, Turkey</p><p>a r t i c l e i n f o</p><p>Article history:</p><p>Received 12 December 2014</p><p>Received in revised form 28 December 2014</p><p>Accepted 13 January 2015</p><p>Keywords:</p><p>GaInP/GaAs solar cell</p><p>AlGaAs tunnel junction</p><p>The energy conversion efﬁciency</p><p>a b s t r a c t</p><p>A GaInP/GaAs solar cell structure with AlGaAs tunnel junction was grown on p-type (1 0 0)-oriented GaAs substrate by a solid-source molecular beam epitaxy technique. The structural and morphological properties of the GaInP/GaAs solar cell structure have been evaluated by means of secondary ion mass spectrometry and atomic force microscopy measurements. In addition, the GaInP/GaAs solar cell device was fabricated to obtain electrical output parameters of the cells. For this purpose, the current–voltage measurements of solar cell devices were carried out at room temperature under both dark and air mass 1.5 global radiation (AM1.5) using solar simulator. In addition, the electrical output parameters of the GaInP/GaAs solar cell structure with the AlGaAs tunnel junction are compared with the GaInP/GaAs solar cell structure without the AlGaAs tunnel junction, and it is found that the integration of the tunnel junction into a solar cell structure improves the device performance by 48%.</p><p>& 2015 Elsevier B.V. All rights reserved.</p><p>1. Introduction</p><p>According to literature, solar cells (SCs) can be divided into four groups: (1) silicon-based SCs such as mono-crystalline silicon, and poly-crystalline silicon SCs [1–7], (2) thin ﬁlm SCs such as amorphous silicon, cadmium–telluride, and copper–indium–gal- lium–de selenide SCs [8–15], and (3) III–V group SCs such as quantum well, and multi-junction SCs [16–29], (4) other SCs such as organic, dye sensitized and perovskite SCs [30–33]. There has been an increasing interest on the research and development of multi-junction III–V group SCs due to a higher efﬁciency compared to other groups SCs. Currently, the studies on these SCs are mainly focused on the performance evaluation [34–38]. Multi-junction SCs are sensitive to radiation of different wavelengths. A top cell is responsive to shorter wavelengths, whereas a bottom cell is responsive to longer wavelengths. In conﬁguration, wider bandgap materials are used for the top cells since they absorb short wavelengths. Thus, it allows the longer wavelength radiation to penetrate deeper into the device where it can be converted into electrical energy. The commonly used highest-performing multi-junction cells use III–V compound semiconductors with direct bandgaps [39]. III–V Group ternary alloy materials, such as AlGaAs, InGaAs, InGaN and GaInP, were widely used as the top cell of SCs [18,20,22,25,27,29,34–38]. Among these materials, GaInP ternary alloy is an essential material for high efﬁciency SCs as it absorbs the visible part of the solar spectrum [40]. In addition, GaAs binary compound (bandgap: 1.42 eV) absorbs near-infrared part of the solar spectrum. When the Ga composition ratio is approximately 51% of the GaInP/GaAs structure, GaInP ternary alloy grows on a GaAs substrate with lattice-match, and this structure has great technological importance [40–42]. The GaInP/GaAs SC structure will continue to be the focus of attention in the photovoltaic works as it absorbs the large part of the solar spectrum.</p><p>Tunnel junctions (TJs) are highly doped p–n diodes which allow for quantum mechanical tunneling through their narrow depletion regions. TJs are very crucial for multi-junction SCs, and they have properties such as a relatively optically transparent and low resistance [43]. According to the tunneling effect, the electron does not need extra energy for tunneling from the bottom of the conduction band to the top of the valence band. In addition, heavily doped AlGas, InGaP, GaAs, etc. are selected as TJs in III–V group SCs [27]. Several researches have studied the SCs structure with an integration of TJ [27,28,34]. Siyu et al. [27] examined the characteristics of the TJ, the material used in the TJ, the compen-sion of the TJ to the overall cell’s characteristics, the TJs’ influence on the current density of sub-cells and the efﬁciency increase. Wheelden et al. [28] investigated four different TJ designs</p>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [],
-    "details": {
-      "summary": "The article presents the growth, characterization, and performance evaluation of a GaInP/GaAs solar cell structure integrated with an AlGaAs tunnel junction. It reports a 48% improvement in device performance due to the tunnel junction integration, and discusses the relevance of III–V multi-junction solar cells and tunnel junction technology."
-    },
-    "mcq": null,
-    "source_pdf": "node_modules\\pdf-parse\\test\\data\\02-valid.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "note-001",
-    "subject": "Science & Technology",
-    "chapter": "Physiology",
-    "topic": "Exercise Physiology and Biochemistry",
-    "text": "<p><strong>Study Title:</strong> Acute effect of speed exercise on nitric oxide (NO) level of footballers</p><p><strong>Author:</strong> Özcan SAYGIN (The School of Physical Education and Sports, Muğla University, Muğla - TURKEY)</p><p><strong>Publication Details:</strong> Turk J Med Sci, 2009; 39 (3): 361-365. DOI: 10.3906/sag-0902-21</p><p><strong>Aim:</strong> Exercise is one of the low-cost and easiest ways for improving life standards and physical fitness, and reducing body stress. Nitric oxide (NO) is defined as the “surprising soldier mediator” of biological systems. NO is one of the relaxation factors coming from the vascular endothelium. This relaxation in smooth muscles leads to vasodilatation in veins. The purpose of this study is to evaluate the acute effect of 20-meter sprints of footballers on NO levels.</p><p><strong>Materials and Methods:</strong> 22 footballers with an age range of 18–32 were voluntarily enrolled in the study. The heights and weights of the subjects were measured. Speed measures were taken with a photocell system. The 20-meter sprint was repeated for 10 times. Blood samples were taken before and immediately after the sprint. For statistical analysis paired t test was used.</p><p><strong>Results:</strong> The mean age, height, and weight of the footballers included in the study were 24.21 ± 3.41 years, 173 ± 7.04 cm, and 67.85 ± 5.17 kg, respectively. The mean NO values were 21.45 ± 2.08 immediately after the exercise and 25.59 ± 1.59 before the exercise (mean ± SD). This decrease in the NO level after the exercise, compared to before, were not statistically meaningful (P = 0.052).</p><p><strong>Conclusions:</strong> The fact that the exercise was short-term yet with maximal load and negative developments occurred within the body may have highlighted the oxidative damage. The NO defence used against this damage may have decreased the values.</p><p><strong>Key Words:</strong> Nitric oxide, speed exercise, footballer</p>",
-    "formulas": [],
-    "tables": [
-      "| Parameter | Value (Mean ± SD) |\n|---|---|\n| Mean Age | 24.21 ± 3.41 years |\n| Mean Height | 173 ± 7.04 cm |\n| Mean Weight | 67.85 ± 5.17 kg |\n| NO Before Exercise | 25.59 ± 1.59 |\n| NO After Exercise | 21.45 ± 2.08 |\n| P-value | 0.052 |"
-    ],
-    "image_descriptions": [],
-    "details": {
-      "summary": "This study evaluates the acute effect of 20-meter sprints on nitric oxide (NO) levels in 22 footballers. Results showed a non-significant decrease in NO levels after exercise (P = 0.052), potentially due to oxidative damage from maximal load."
-    },
-    "mcq": null,
-    "source_pdf": "node_modules\\pdf-parse\\test\\data\\04-valid.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "note-001",
-    "subject": "Computer Science",
-    "chapter": "Tracing VM",
-    "topic": "TraceMonkey",
-    "text": "<p>Hence, recording and compiling a trace speculates that the path and typing will be exactly as they were during recording for subsequent iterations of the loop.</p><p>Every compiled trace contains all the guards (checks) required to validate the speculation. If one of the guards fails (if control flow is different, or a value of a different type is generated), the trace exits. If an exit becomes hot, the VM can record a branch trace starting at the exit to cover the new path. In this way, the VM records a trace tree covering all the hot paths through the loop.</p><p>Nested loops can be difficult to optimize for tracing VMs. In a naive implementation, inner loops would become hot first, and the VM would start tracing there. When the inner loop exits, the VM would detect that a different branch was taken. The VM would try to record a branch trace, and find that the trace reaches not the inner loop header, but the outer loop header. At this point, the VM could continue tracing until it reaches the inner loop header again, thus tracing the outer loop inside a trace tree for the inner loop. But this requires tracing a copy of the outer loop for every side exit and type combination in the inner loop. In essence, this is a form of unintended tail duplication, which can easily overflow the code cache. Alternatively, the VM could simply stop tracing, and give up on ever tracing outer loops.</p><p>We solve the nested loop problem by recording nested trace trees. Our system traces the inner loop exactly as the naive version. The system stops extending the inner tree when it reaches an outer loop, but then it starts a new trace at the outer loop header. When the outer loop reaches the inner loop header, the system tries to call the trace tree for the inner loop. If the call succeeds, the VM records the call to the inner tree as part of the outer trace and finishes the outer trace as normal. In this way, our system can trace any number of loops nested to any depth without causing excessive tail duplication.</p><p>These techniques allow a VM to dynamically translate a program to nested, type-specialized trace trees. Because traces can cross function call boundaries, our techniques also achieve the effects of inlining. Because traces have no internal control-flow joins, they can be optimized in linear time by a simple compiler (10). Thus, our tracing VM efficiently performs the same kind of optimizations that would require interprocedural analysis in a static optimization setting. This makes tracing an attractive and effective tool to type specialize even complex function call-rich code.</p><p>We implemented these techniques for an existing JavaScript interpreter, SpiderMonkey. We call the resulting tracing VM TraceMonkey. TraceMonkey supports all the JavaScript features of SpiderMonkey, with a 2x-20x speedup for traceable programs.</p><p>This paper makes the following contributions:</p><ul><li>We explain an algorithm for dynamically forming trace trees to cover a program, representing nested loops as nested trace trees.</li><li>We explain how to speculatively generate efficient type-specialized code for traces from dynamic language programs.</li><li>We validate our tracing techniques in an implementation based on the SpiderMonkey JavaScript interpreter, achieving 2x-20x speedups on many programs.</li></ul><p>The remainder of this paper is organized as follows. Section 3 is a general overview of trace tree based compilation we use to capture and compile frequently executed code regions. In Section 4 we describe our approach of covering nested loops using a number of individual trace trees. In Section 5 we describe our trace-compilation based speculative type specialization approach we use to generate efficient machine code from recorded bytecode traces. Our implementation of a dynamic type-specializing compiler for JavaScript is described in Section 6. Related work is discussed in Section 8. In Section 7 we evaluate our dynamic compiler based on a set of industry benchmarks. The paper ends with conclusions in Section 9 and an outlook on future work is presented in Section 10.</p><p>Figure 1. Sample program: sieve of Eratosthenes. primes is initialized to an array of 100 false values on entry to this code snippet.</p><p>Figure 2. State machine describing the major activities of TraceMonkey and the conditions that cause transitions to a new activity. In the dark box, TM executes JS as compiled traces. In the light gray boxes, TM executes JS in the standard interpreter. White boxes are overhead. Thus, to maximize performance, we need to maximize time spent in the darkest box and minimize time spent in the white boxes. The best case is a loop where the types at the loop edge are the same as the types on entry–then TM can stay in native code until the loop is done.</p>",
-    "formulas": [],
-    "tables": [
-      "| State | Description |\n|---|---|\n| Enter Compiled Trace | Execute compiled trace |\n| Compile LIR Trace | Compile low‑level intermediate representation |\n| Leave Compiled Trace | Exit compiled trace |\n| Loop Edge Hot | Loop becomes hot after threshold crossings |\n| Loop/Exit Abort Recording | Abort recording due to guard failure |\n| Finish at Loop Header | End of trace at loop header |\n| Cold/Blacklisted Loop/Exit | Loop or exit marked as cold or blacklisted |\n| Compiled Trace Ready | Trace ready for execution |\n| Loop Edge with Same Types | Loop edge with same types as entry |\n| Side Exit to Existing Trace | Side exit that joins an existing trace |\n| Side Exit, No Existing Trace | Side exit with no existing trace |\n| Overhead | Overhead of interpreting vs native execution |"
-    ],
-    "image_descriptions": [
-      "Figure 1: A simple JavaScript program implementing the sieve of Eratosthenes to compute the first 100 prime numbers. The code declares an array 'primes' of 100 boolean values initialized to false, then iterates over indices i from 2 to 99. For each i that is still marked as prime, it marks all multiples of i (starting from i+i) as composite by setting primes[k] = false. The program uses nested loops: an outer loop over i and an inner loop over k. The code is presented in a numbered block with lines 1 to 6, showing the loop structure and the continue statement.\n\nFigure 2: A state‑machine diagram described in text form. It lists the major activities of TraceMonkey: entering a compiled trace, compiling a low‑level intermediate representation (LIR) trace, leaving a compiled trace, handling hot loop edges, aborting recording on guard failure, finishing at a loop header, marking loops or exits as cold/blacklisted, indicating when a compiled trace is ready, distinguishing loop edges with same types, handling side exits that join existing traces or have no existing trace, and representing overhead boxes. The diagram is described as having dark boxes for compiled trace execution, light gray boxes for interpreter execution, and white boxes for overhead. The text explains the goal of maximizing time in the dark box and minimizing time in the white boxes."
-    ],
-    "source_pdf": "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\01-valid.pdf",
-    "source_page": 2
-  },
-  {
-    "id": "note-1",
-    "subject": "Computer Science",
-    "chapter": "Trace-based Just-in-Time Type Specialization for Dynamic Languages",
-    "topic": "Just-in-Time Compilation",
-    "text": "<p>Trace-based Just-in-Time Type Specialization for Dynamic Languages</p><p>Andreas Gal∗+, Brendan Eich∗, Mike Shaver∗, David Anderson∗, David Mandelin∗, Mohammad R. Haghighat$, Blake Kaplan∗, Graydon Hoare∗, Boris Zbarsky∗, Jason Orendorff∗, Jesse Ruderman∗, Edwin Smith#, Rick Reitmaier#, Michael Bebenita+, Mason Chang+#, Michael Franz+ Mozilla Corporation∗</p><p>{gal,brendan,shaver,danderson,dmandelin,mrbkap,graydon,bz,jorendorff,jruderman}@mozilla.com</p><p>Adobe Corporation# {edwsmith,rreitmai}@adobe.com</p><p>Intel Corporation$ {mohammad.r.haghighat}@intel.com</p><p>University of California, Irvine+ {mbebenit,changm,franz}@uci.edu</p><p>Abstract</p><p>Dynamic languages such as JavaScript are more difficult to compile than statically typed ones. Since no concrete type information is available, traditional compilers need to emit generic code that can handle all possible type combinations at runtime. We present an alternative compilation technique for dynamically-typed languages that identifies frequently executed loop traces at run-time and then generates machine code on the fly that is specialized for the actual dynamic types occurring on each path through the loop. Our method provides cheap inter-procedural type specialization, and an elegant and efficient way of incrementally compiling lazily discovered alternative paths through nested loops. We have implemented a dynamic compiler for JavaScript based on our technique and we have measured speedups of 10x and more for certain benchmark programs.</p><p>Categories and Subject Descriptors D.3.4 [Programming Languages]: Processors — Incremental compilers, code generation.</p><p>General Terms Design, Experimentation, Measurement, Performance.</p><p>Keywords JavaScript, just-in-time compilation, trace trees.</p><p>1. Introduction</p><p>Dynamic languages such as JavaScript, Python, and Ruby, are popular since they are expressive, accessible to non-experts, and make deployment as easy as distributing a source file. They are used for small scripts as well as for complex applications. JavaScript, for example, is the de facto standard for client-side web programming and is used for the application logic of browser-based productivity applications such as Google Mail, Google Docs and Zimbra Collaboration Suite. In this domain, in order to provide a fluid user experience and enable a new generation of applications, virtual machines must provide a low startup time and high performance. Compilers for statically typed languages rely on type information to generate efficient machine code. In a dynamically typed programming language such as JavaScript, the types of expressions may vary at runtime. This means that the compiler can no longer easily transform operations into machine instructions that operate on one specific type. Without exact type information, the compiler must emit slower generalized machine code that can deal with all potential type combinations. While compile-time static type inference might be able to gather type information to generate optimized machine code, traditional static analysis is very expensive and hence not well suited for the highly interactive environment of a web browser.</p><p>We present a trace-based compilation technique for dynamic languages that reconciles speed of compilation with excellent performance of the generated machine code. Our system uses a mixed-mode execution approach: the system starts running JavaScript in a fast-starting bytecode interpreter. As the program runs, the system identifies hot (frequently executed) bytecode sequences, records them, and compiles them to fast native code. We call such a sequence of instructions a trace.</p><p>Unlike method-based dynamic compilers, our dynamic compiler operates at the granularity of individual loops. This design choice is based on the expectation that programs spend most of their time in hot loops. Even in dynamically typed languages, we expect hot loops to be mostly type-stable, meaning that the types of values are invariant. (12) For example, we would expect loop counters that start as integers to remain integers for all iterations. When both of these expectations hold, a trace-based compiler can cover the program execution with a small number of type-specialized, efficiently compiled traces.</p><p>Each compiled trace covers one path through the program with one mapping of values to types. When the VM executes a compiled trace, it cannot guarantee that the same path will be followed or that the same types will occur in subsequent loop iterations.</p>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [],
-    "details": {
-      "summary": "Research paper on trace-based JIT compilation for dynamic languages."
-    },
-    "mcq": null,
-    "source_pdf": "node_modules\\pdf-parse\\test\\data\\01-valid.pdf",
-    "source_page": 1
-  },
-  {
     "id": "nda-na-exam-2025-instructions-001",
     "subject": "Defence Examinations",
     "chapter": "Examination Instructions",
@@ -23808,127 +23329,8 @@
       "summary": "This document is a system error notification from Wikimedia indicating that the rate limit for requests has been exceeded."
     },
     "mcq": null,
-    "source_pdf": "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf",
-    "source_page": 1
-  },
-  {
-    "id": "err-429-wiki-001",
-    "subject": "Miscellaneous",
-    "chapter": "System Errors",
-    "topic": "HTTP 429 Too Many Requests",
-    "text": "<p>The document indicates a <strong>429 Too Many Requests</strong> error encountered on the Wikimedia system.</p><ul><li><strong>Error Code:</strong> 429</li><li><strong>Description:</strong> Too Many Requests</li><li><strong>System Identifier:</strong> 015d12c</li><li><strong>Server Details:</strong> Request served via cp5028, Varnish XID 737317375</li><li><strong>Timestamp:</strong> Thu, 16 Jul 2026 07:44:15 GMT</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "A standard Wikimedia error page displaying the text 'Error' and 'Too Many Requests (015d12c)' with technical server metadata below."
-    ],
-    "details": {
-      "summary": "This document is a system error notification from Wikimedia indicating that the rate limit for requests has been exceeded."
-    },
-    "mcq": null,
     "source_pdf": "public\\assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf",
     "source_page": 1
-  },
-  {
-    "id": "bio-chem-001",
-    "subject": "Biology",
-    "chapter": "Nitrate Determination and Statistical Analysis",
-    "topic": "Methodology and Results",
-    "text": "<p><strong>Nitrate Determination:</strong> Nitrate was measured as nitrite after enzymatic conversion by nitrate reductase (EC 1.6.6.2). Samples were incubated with NADPH, deproteinized, and assayed with Griess reagent (1 g/l sulfanilamide, 25 g/l phosphoric acid, and 0.1 g/l N-1-naphthylethylenediamine). Absorbance was measured at 540 nm.</p><p><strong>Statistical Analysis:</strong> SPSS 16.0 was used. Arithmetic mean and standard deviation were calculated. Paired samples t-test was used to compare NO values before and after speed exercise. Significance was assumed if p < 0.05.</p>",
-    "formulas": [
-      "Molar absorptivity = 39,500 l mol^-1 cm^-1",
-      "p < 0.05 (Significance threshold)"
-    ],
-    "tables": [
-      "| Variable | Arithmetic Mean | Standard Deviation | Minimum | Maximum |\n|---|---|---|---|---|\n| Age (years) | 24.21 | 3.41 | 18.00 | 32.00 |\n| Height (cm) | 173.2 | 7.04 | 162 | 185 |\n| Weight (kg) | 67.85 | 5.17 | 62.32 | 77.67 |",
-      "| Condition | Arithmetic Mean | Standard Deviation | t | p |\n|---|---|---|---|---|\n| Serum Before Exercise | 25.59 | 1.59 | 1.980 | .052 |\n| Serum Immediately After Exercise | 21.45 | 2.08 | - | - |"
-    ],
-    "image_descriptions": [],
-    "details": {
-      "summary": "The study analyzed the effect of speed exercise on NO levels in footballers. Results showed a decrease in NO levels from 25.59 to 21.45 after exercise, which was not statistically significant (P = 0.052)."
-    },
-    "source_pdf": "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\04-valid.pdf",
-    "source_page": 3
-  },
-  {
-    "id": "solar_cell_structure_001",
-    "subject": "Science & Technology",
-    "chapter": "Solar Energy Materials",
-    "topic": "GaInP/GaAs Solar Cell Structure",
-    "text": "<p>The study investigates the performance of multi-junction solar cells (SCs) using AlGaAs/AlGaAs, GaAs/GaAs, and AlGaAs/InGaP tunnel junctions (TJs). Key findings indicate that TJs with low voltage drops allow multi-junction SCs to operate efficiently at high concentrations.</p><p><strong>Experimental Method:</strong> The GaInP/GaAs SC structure was grown on a p-type (1 0 0)-oriented GaAs substrate using a V80H solid source molecular beam epitaxy (MBE) system. The growth process involved:</p><ul><li>Cleaning the GaAs substrate.</li><li>Growing a 1.2 &mu;m thick p-GaAs layer.</li><li>Growing 50 nm thick p++ AlGaAs and 50 nm thick p+ AlGaAs layers.</li><li>Growing 320 nm thick p-GaInP and 80 nm thick n-GaInP layers.</li><li>Incorporating a 60 nm thick n-GaAs layer as the top cell.</li></ul><p>Characterization was performed using atomic force microscopy (AFM) for surface morphology and secondary ion mass spectrometry (SIMS) for depth profile measurements.</p>",
-    "formulas": [
-      "V_oc",
-      "I_sc",
-      "eta",
-      "T_s = 650 C",
-      "T_s = 530 C"
-    ],
-    "tables": [],
-    "image_descriptions": [
-      "Fig 1: A schematic diagram of the solar cell structure showing layers from top to bottom: Cap Layer (n+ GaAs 60nm), Window Layer (n-AlGaAs 50nm), GaInP Solar Cell (n-GaInP 80nm, p-GaInP 320nm), Tunnel Junction (p++ AlGaAs 50nm, n++ AlGaAs 50nm), GaAs Solar Cell (n-GaAs 150nm, p-GaAs 1200nm), and Substrate (2 inch p-GaAs (100)).",
-      "Fig 2: Photographs of the solar cell showing (a) the back metal pad patterning and (b) the front metal pad patterning."
-    ],
-    "details": {
-      "summary": "Technical description of the fabrication and characterization of GaInP/GaAs multi-junction solar cells using MBE growth techniques."
-    },
-    "source_pdf": "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\02-valid.pdf",
-    "source_page": 2
-  },
-  {
-    "id": "solar_cell_structure_001",
-    "subject": "Science & Technology",
-    "chapter": "Solar Energy Materials",
-    "topic": "GaInP/GaAs Solar Cell Structure",
-    "text": "<p>The study investigates the performance of multi-junction solar cells (SCs) using AlGaAs/AlGaAs, GaAs/GaAs, and AlGaAs/InGaP tunnel junctions (TJs). Key findings indicate that TJs allow multi-junction SCs to operate at higher concentrations with minimal voltage drop.</p><p><strong>Experimental Method:</strong> The GaInP/GaAs SC structure was grown on a p-type (1 0 0)-oriented GaAs substrate using a V80H solid source molecular beam epitaxy (MBE) system. The growth process involved:</p><ul><li>Cleaning the GaAs substrate.</li><li>Growing a 1.2 &mu;m thick p-GaAs layer.</li><li>Growing a 50 nm thick n++ AlGaAs layer and 50 nm thick p++ AlGaAs layer to form the tunnel junction.</li><li>Growing a 320 nm thick p-GaInP layer and 80 nm thick n-GaInP layer (top cell).</li><li>Incorporating a 50 nm thick n-AlGaAs window layer and 60 nm thick n-GaAs layer.</li></ul><p>Characterization was performed using atomic force microscopy (AFM), reflection high energy electron diffraction (RHEED), and secondary ion mass spectrometry (SIMS).</p>",
-    "formulas": [
-      "V_oc",
-      "I_sc",
-      "eta",
-      "T_s = 650 C",
-      "T_s = 530 C"
-    ],
-    "tables": [],
-    "image_descriptions": [
-      "Fig 1: A schematic cross-section diagram of the solar cell structure showing layers from top to bottom: Cap Layer (n+ GaAs 60nm), Window Layer (n-AlGaAs 50nm), GaInP Solar Cell (n-GaInP 80nm, p-GaInP 320nm), Tunnel Junction (p++ AlGaAs 50nm, n++ AlGaAs 50nm), GaAs Solar Cell (n-GaAs 150nm, p-GaAs 1200nm), and Substrate (2 inch p-GaAs (100)).",
-      "Fig 2: Photographs of the solar cell showing (a) the back metal pad patterning and (b) the front metal pad patterning."
-    ],
-    "details": {
-      "summary": "Technical analysis of the growth and characterization of GaInP/GaAs multi-junction solar cells using MBE and SIMS techniques."
-    },
-    "source_pdf": "node_modules\\pdf-parse\\test\\data\\02-valid.pdf",
-    "source_page": 2
-  },
-  {
-    "id": "bio-chem-no-001",
-    "subject": "Biology",
-    "chapter": "Physiology and Exercise Science",
-    "topic": "Nitric Oxide (NO) and Exercise",
-    "text": "<p><strong>Nitric Oxide (NO)</strong> was previously considered merely an exhaust gas of automobiles and an atmospheric pollutant. However, it is now recognized as a vital molecule that balances blood pressure and causes <strong>vasodilatation</strong>.</p><ul><li><strong>Function:</strong> NO regulates blood circulation and keeps veins clean. It creates a slippery surface in the vein network (similar to Teflon) that prevents plaque accumulation.</li><li><strong>Free Radical Role:</strong> NO acts as a free radical due to an unpaired electron. It prevents the excessive accumulation of other harmful free radicals in tissues.</li><li><strong>Physiological Role:</strong> It plays a role in digestion, host defense, and non-specific immunity.</li><li><strong>Pathology:</strong> Inappropriate or excessive generation of NO can lead to pathological conditions.</li></ul><p><strong>Exercise Physiology:</strong></p><ul><li><strong>Speed:</strong> Defined as the ability to carry oneself from one point to another in the shortest time possible.</li><li><strong>Exercise Impact:</strong> Exercise increases metabolic and oxygen demands. Blood pressure is the force that enables blood flow and exerts pressure on vein walls.</li><li><strong>Benefits:</strong> Regular and efficient exercise strengthens the cardiovascular, hormonal, and immune systems, and increases muscle mass.</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [],
-    "details": {
-      "summary": "Overview of the physiological role of Nitric Oxide (NO) in the human body, its function in vasodilation, and the general benefits of exercise on human systems."
-    },
-    "mcq": null,
-    "source_pdf": "node_modules\\pdf-parse\\test\\data\\04-valid.pdf",
-    "source_page": 2
-  },
-  {
-    "id": "bio-chem-no-002",
-    "subject": "Biology",
-    "chapter": "Research Methodology in Sports Science",
-    "topic": "Materials and Methods for NO Study",
-    "text": "<p><strong>Study Design:</strong> Analysis of the acute effect of speed exercise on NO levels in footballers.</p><ul><li><strong>Subjects:</strong> 22 active, healthy footballers (age 18-32).</li><li><strong>Test Protocol:</strong> 20-min warm-up (15 min general, 5 min specific), followed by 10 sprints of 20 m.</li><li><strong>Measurements:</strong> Blood samples taken before and immediately after the sprint.</li><li><strong>Instruments:</strong><ul><li><strong>Height/Weight:</strong> Stadiometer (Holtain, UK) and electronic scale (Seca, Germany).</li><li><strong>Speed:</strong> Photocell system (New Test 2000, Finland) with 0.01 s sensitivity.</li><li><strong>Blood Analysis:</strong> Samples drawn from antecubital vein using heparinised tubes; centrifuged for 5 min at 3500 rpm; stored at -80 °C.</li><li><strong>Nitrite Determination:</strong> Measured using the Griess reaction.</li></ul></li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [],
-    "details": {
-      "summary": "Methodological details of a study measuring the effects of sprint exercise on Nitric Oxide levels in professional footballers."
-    },
-    "mcq": null,
-    "source_pdf": "node_modules\\pdf-parse\\test\\data\\04-valid.pdf",
-    "source_page": 2
   },
   {
     "id": "64d1b1e0-3c1a-4b2e-8f9a-0c1d2e3f4a5b",
@@ -24090,57 +23492,6 @@
     "source_page": 18
   },
   {
-    "id": "trace_monkey_compilation_001",
-    "subject": "Computer Science",
-    "chapter": "Trace-based Compilation",
-    "topic": "TraceMonkey Compilation Process",
-    "text": "<p>TraceMonkey utilizes a low-level compiler intermediate representation known as <strong>LIR</strong>. The LIR encodes semantics in SSA form using temporary variables and includes stores to the interpreter's data stack. These stores are optimized away when stack locations are live only on exits to the interpreter.</p><p><strong>Key Concepts:</strong></p><ul><li><strong>Guards:</strong> LIR includes checks that verify control flow and types are identical to those observed during trace recording. If all guards are passed, the trace executes with the required semantics.</li><li><strong>Trace Recording:</strong> TraceMonkey enters recording mode when a loop becomes 'hot' (e.g., on its second iteration). It records the code along the trace.</li><li><strong>Nesting:</strong> When recording reaches an inner loop that already has a compiled trace, TraceMonkey attempts to nest the inner loop as a subroutine.</li><li><strong>Compilation:</strong> Once recording finishes, TraceMonkey compiles the trace to native code using recorded type information.</li></ul>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "Figure 3: LIR snippet for a sample program showing instructions like 'ld state', 'st sp', 'and', 'eq', and 'js_Array_set' with comments explaining their function in the trace activation record.",
-      "Figure 4: x86 snippet for the sample program, demonstrating how LIR instructions compile to x86 assembly. It highlights that an idealized compiler could omit instructions marked with (*), reducing the instruction count significantly compared to the interpreter."
-    ],
-    "details": {
-      "summary": "This document explains the TraceMonkey compilation process, detailing the use of LIR (Low-level Intermediate Representation), the role of guards in verifying execution assumptions, and the mechanism of trace recording and nesting for optimization."
-    },
-    "source_pdf": "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\01-valid.pdf",
-    "source_page": 3
-  },
-  {
-    "id": "trace-monkey-001",
-    "subject": "Computer Science",
-    "chapter": "Trace-based Compilation",
-    "topic": "Nested Loops and Trace Trees",
-    "text": "<p>Recording and compiling a trace <em>speculates</em> that the path and typing will be exactly as they were during recording for subsequent iterations of the loop. Every compiled trace contains all the <strong>guards</strong> (checks) required to validate the speculation. If one of the guards fails, the VM can record a branch trace starting at the exit to cover the new path.</p><p>Nested loops are handled by recording <strong>nested trace trees</strong>. The system extends the inner trace when it reaches an outer loop, then starts a new trace at the outer loop header. If the outer loop reaches the inner loop header, the system tries to call the trace tree for the inner loop.</p>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [
-      "Figure 1: A code snippet in C-style syntax implementing the Sieve of Eratosthenes to find prime numbers up to 100.",
-      "Figure 2: A state machine diagram showing the activities of TraceMonkey. It includes states like 'Interpret Bytecodes', 'Record LIR Trace', 'Compile LIR Trace', 'Enter Compiled Trace', 'Execute Compiled Trace', and 'Leave Compiled Trace'. The symbol key indicates different shading for Overhead, Interpreting, and Native states."
-    ],
-    "details": {
-      "summary": "This section discusses the optimization of nested loops in tracing virtual machines by using nested trace trees to avoid code duplication and improve performance."
-    },
-    "source_pdf": "node_modules\\pdf-parse\\test\\data\\01-valid.pdf",
-    "source_page": 2
-  },
-  {
-    "id": "trace-monkey-002",
-    "subject": "Computer Science",
-    "chapter": "Trace-based Compilation",
-    "topic": "Overview: Example Tracing Run",
-    "text": "<p>TraceMonkey executes programs by monitoring loop back edges. When the interpreter crosses a loop edge, the trace monitor decides whether to record or execute a native trace. A loop is considered <strong>hot</strong> after 2 crossings. The system uses speculative type specialization to generate efficient machine code from recorded bytecode traces.</p>",
-    "formulas": [],
-    "tables": [],
-    "image_descriptions": [],
-    "details": {
-      "summary": "Overview of how TraceMonkey identifies hot loops and transitions between bytecode interpretation and native trace execution."
-    },
-    "source_pdf": "node_modules\\pdf-parse\\test\\data\\01-valid.pdf",
-    "source_page": 2
-  },
-  {
     "id": "inc-aims-objectives-001",
     "subject": "Indian Polity",
     "chapter": "Indian National Movement",
@@ -24233,5 +23584,161 @@
     },
     "source_pdf": "Physics class notes pdf_compressed.pdf",
     "source_page": 21
+  },
+  {
+    "id": "chem-001",
+    "subject": "Chemistry",
+    "chapter": "Matter and Mixtures",
+    "topic": "Mixtures vs Compounds",
+    "text": "<p>Comparison of Mixtures and Compounds:</p><ul><li><strong>A mixture has a variable composition.</strong> vs <strong>The composition of each new substance is always fixed.</strong></li><li><strong>A mixture shows the properties of the constituent substances.</strong> vs <strong>The new substance has totally different properties.</strong></li><li><strong>The constituents can be separated fairly easily by physical methods.</strong> vs <strong>The constituents can be separated only by chemical or electrochemical reactions.</strong></li></ul><p><strong>Alloys:</strong> Alloys are mixtures of two or more metals or a metal and a non-metal and cannot be separated into their components by physical methods. But still, an alloy is considered as a mixture because it shows the properties of its constituents and can have variable composition. For example, brass is a mixture of approximately 30% zinc and 70% copper.</p>",
+    "formulas": [],
+    "tables": [
+      "| Mixture Property | Compound Property |\n|---|---|\n| Variable composition | Fixed composition |\n| Shows properties of constituents | Totally different properties |\n| Separated by physical methods | Separated by chemical/electrochemical reactions |"
+    ],
+    "image_descriptions": [
+      "Flowchart showing classification of mixtures into Homogenous (True Solutions, Alloys) and Heterogenous (Suspensions, Colloids).",
+      "Visual examples: Solution (salt in water), Suspension (flour in water), Colloid (milk)."
+    ],
+    "details": {
+      "summary": "Comparison between mixtures and compounds, definition of alloys, and classification of mixtures."
+    },
+    "source_pdf": "doc3.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "chem-002",
+    "subject": "Chemistry",
+    "chapter": "Matter and Mixtures",
+    "topic": "Separation Methods",
+    "text": "<p><strong>Methods of Separating Mixtures:</strong></p><ul><li>Magnet</li><li>Filter</li><li>Decant</li><li>Evaporation</li><li>Centrifuge</li><li>Chromatography</li><li>Distillation</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing filtration setup with funnel, filter paper, and stirring rod, and a distillation setup with burner, flask, and condenser."
+    ],
+    "details": {
+      "summary": "List of common laboratory methods used to separate components of a mixture."
+    },
+    "source_pdf": "doc3.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "chem-003",
+    "subject": "Chemistry",
+    "chapter": "Metals and Non-Metals",
+    "topic": "Facts About Metals",
+    "text": "<p><strong>Facts About Metals:</strong></p><ul><li>Highest melting point: Tungsten</li><li>Lowest melting point (solid at room temperature): Cesium</li><li>Metals liquid at room temperature: Mercury, Gallium</li><li>Highest thermal conductivity: Silver</li><li>Lowest thermal conductivity: Bismuth</li><li>Highest electrical conductivity: Silver</li><li>Lowest electrical conductivity: Manganese</li><li>Highest density: Osmium</li><li>Lowest density: Lithium</li><li>Most malleable and ductile: Gold</li><li>Least reactive: Platinum</li><li>Most abundant in Earth's crust: Aluminium</li><li>Most widely used: Iron</li><li>First discovered by man: Copper</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Concept map showing properties of metals: Conductivity, Sonorous, Malleable, Lustre, Mechanical strength, Ductile."
+    ],
+    "details": {
+      "summary": "Key physical and chemical facts about various metallic elements."
+    },
+    "source_pdf": "doc3.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "bio-circulatory-001",
+    "subject": "Biology",
+    "chapter": "Human Circulatory System",
+    "topic": "Blood Vessels and Circulation",
+    "text": "<h3>Blood Vessels Comparison</h3><ul><li><strong>Arteries:</strong> Carry blood away from the heart, under high pressure, have thick elastic walls, usually carry oxygenated blood (except pulmonary artery).</li><li><strong>Veins:</strong> Carry blood towards the heart, under low pressure, have thin walls, have valves to prevent backflow, usually carry deoxygenated blood (except pulmonary vein).</li><li><strong>Capillaries:</strong> Smallest blood vessels, walls are one-cell thick, connect arteries and veins, site of oxygen exchange, nutrient exchange, and waste removal.</li></ul><p><strong>Flow Summary:</strong> Heart &rarr; Arteries &rarr; Capillaries &rarr; Veins &rarr; Heart</p>",
+    "formulas": [],
+    "tables": [
+      "| Blood Group | Antigens on RBCs | Antibodies in Plasma | Donor's Group |\n|---|---|---|---|\n| A | A | anti-B | A, O |\n| B | B | anti-A | B, O |\n| AB | A, B | nil | AB, A, B, O |\n| O | nil | anti-A, B | O |"
+    ],
+    "image_descriptions": [
+      "Diagram showing cross-sections of an artery (thick walls, high pressure) and a vein (thin walls, valve present).",
+      "Illustration of capillaries connecting arteries and veins with exchange processes.",
+      "Red blood cells shown in circulation.",
+      "Cartoon blood drop characters representing blood groups A, B, O, and AB."
+    ],
+    "details": {
+      "summary": "Overview of blood vessel types, their structural differences, and the circulatory flow path."
+    },
+    "source_pdf": "doc4.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "bio-circulatory-002",
+    "subject": "Biology",
+    "chapter": "Human Circulatory System",
+    "topic": "Platelets, Lymph, and Blood Grouping",
+    "text": "<h3>Platelets</h3><p><strong>Role:</strong> Help in blood clotting, form a plug at injury site, prevent excess blood loss, maintain blood pressure.</p><h3>Lymph (Tissue Fluid)</h3><p>Another transport fluid besides blood. <strong>Formation:</strong> Some plasma leaks from capillaries into tissues. <strong>Characteristics:</strong> Colourless, similar to plasma, less protein content. <strong>Functions:</strong> Drains excess tissue fluid back to blood, transports absorbed fats from intestine, helps maintain fluid balance.</p><h3>ABO Blood Grouping</h3><p>Based on presence/absence of two surface antigens on RBCs: Antigen A and Antigen B. Plasma contains natural antibodies against the absent antigen.</p><p><strong>Important Concepts:</strong> Blood Transfusion Rule - Donor blood must be matched with recipient. Wrong match leads to Agglutination (clumping of RBCs) and can cause severe complications.</p><p><strong>Special Groups:</strong><ul><li><strong>Universal Donor:</strong> Group O (No A or B antigens, can donate to all groups).</li><li><strong>Universal Recipient:</strong> Group AB (No antibodies in plasma, can receive from all groups).</li></ul></p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of platelets forming a plug at an injury site.",
+      "Diagram showing the flow of lymph from capillaries to tissue fluid."
+    ],
+    "details": {
+      "summary": "Covers the role of platelets in clotting, the function of lymph, and the principles of ABO blood grouping and transfusion safety."
+    },
+    "source_pdf": "doc4.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "geo-phys-001",
+    "subject": "Geography",
+    "chapter": "Atmospheric Phenomena",
+    "topic": "Freezing Point, Evaporation, and Condensation",
+    "text": "<h3>Freezing Point</h3><p>Temperature at which liquid starts to turn solid. Standard freezing point is 0°C.</p><h3>Evaporation</h3><p>Transformation of water (liquid) into water vapour. Evaporation increases with:</p><ul><li>Increase of temperature</li><li>Increase of surface area</li><li>Increase in wind speed</li><li>Decrease in humidity (defined as the ratio of the actual amount of water vapour present to the amount of water the air can hold)</li></ul><h3>Condensation</h3><p>Transformation of water vapour into water or solid. More evaporation leads to more condensation.</p><p><strong>Sublimation:</strong> Water vapour directly condenses into solid.</p><h3>Conditions for Condensation</h3><ol><li>When temperature of air is reduced to dew point.</li><li>With volume remaining constant.</li><li>Both volume and temperature reduced.</li><li>Moisture added to air through evaporation.</li><li>Decrease in air temperature.</li><li>Freezing point (lower/higher).</li></ol>",
+    "formulas": [],
+    "tables": [
+      "| Forms of Condensation (Above Freezing Point 0°C) | Forms of Condensation (Below Freezing Point 0°C) |\n|---|---|\n| Dew | Frost |\n| Fog | Snow |\n| Clouds | Hailstones |\n| Mist | Cirrus clouds |\n| Haze | |\n| Smog | |"
+    ],
+    "image_descriptions": [
+      "Handwritten study notes organized into two columns. The left column covers Freezing Point, Evaporation, and Condensation definitions. The right column lists conditions for condensation and a table comparing forms of condensation occurring above and below the freezing point."
+    ],
+    "details": {
+      "summary": "Notes covering basic atmospheric processes including phase changes of water, factors affecting evaporation, and classification of condensation forms based on temperature."
+    },
+    "source_pdf": "Physical Geography class notes_compressed.pdf",
+    "source_page": 38
+  },
+  {
+    "id": "geo-climate-001",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Factors Affecting Climate and Monsoon",
+    "text": "<p><strong>Himalayan Mountains:</strong> They act as a shield from the cold northern winds and trap monsoon winds, forcing them to shed their moisture within the subcontinent.</p><p><strong>Distance from the Sea:</strong> Places closer to the sea do not experience extreme climates.</p><p><strong>Altitude:</strong> Temperature decreases with height. Due to thin air, places in mountains are cooler than places on the plains.</p><p><strong>Inter Tropical Convergence Zone (ITCZ):</strong> It is a low-pressure zone located at the equator where trade winds converge.</p><ul><li><strong>Hadley cell:</strong> Area between 0 - 30 degree N/S where trade winds or easterlies flow.</li><li><strong>Ferrel cell:</strong> Area between 30 - 60 degree N/S where westerlies flow.</li><li><strong>Polar cell:</strong> Area between 60 - 90 degree N/S where polar easterlies flow.</li></ul><p><strong>Important Note:</strong> India experiences rain due to the <strong>Southwest monsoon</strong> and the <strong>easterly jet stream</strong> is responsible for the burst of the monsoon in India.</p><p><strong>Monsoon Branches:</strong></p><ul><li>One branch enters through Western Ghats where the windward side of Sahyadri's and Western coastal plain receive very heavy rainfall whereas the rain shadow area receives less rainfall.</li><li>Another enters through Arabian sea, strikes the coast north of Mumbai moving along river valleys of Narmada; these winds cause rainfall in extensive areas of Central India.</li><li>Third branch strikes the Saurashtra Peninsula, then passes over Rajasthan along Aravalli's causing scanty rainfall there.</li><li>Another is the Bay of Bengal branch which enters through Bengal, covering Meghalaya and moving towards central India.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of Ferrel's Tricellular Model showing Polar cell, Ferrel cell, and Hadley cell with wind directions (Polar Easterlies, Westerlies, Northeast/Southeast trades) across latitudes 0 to 90 degrees.",
+      "Map of India showing rainfall distribution (in inches) from May through October, highlighting the Western Ghats, Arabian Sea branch, and Bay of Bengal branch paths."
+    ],
+    "details": {
+      "summary": "Overview of climatic factors affecting India, the structure of atmospheric cells, and the progression of monsoon branches."
+    },
+    "source_pdf": "doc6.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "gallantry-awards-001",
+    "subject": "Defence",
+    "chapter": "Gallantry Awards",
+    "topic": "Classification of Gallantry Awards",
+    "text": "<h3>Wartime Gallantry Awards</h3><ul><li><strong>Param Vir Chakra:</strong> The highest wartime gallantry award, recognizing the most conspicuous bravery or self-sacrifice in the face of the enemy.</li><li><strong>Maha Vir Chakra:</strong> The second-highest gallantry award, for acts of conspicuous gallantry in the presence of the enemy.</li><li><strong>Vir Chakra:</strong> The third-highest wartime gallantry award, for acts of bravery in combat.</li></ul><h3>Peacetime Gallantry Awards</h3><ul><li><strong>Ashoka Chakra:</strong> The highest peacetime gallantry award, recognizing conspicuous bravery, daring, or self-sacrifice not in the face of the enemy.</li><li><strong>Kirti Chakra:</strong> The second-highest peacetime gallantry award.</li><li><strong>Shaurya Chakra:</strong> The third-highest peacetime gallantry award.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Awardee | Details | Image |\n|---|---|---|\n| Major Somnath Sharma | First person to be awarded PVC for his gallantry and sacrifice during the Battle of Badgam in 1947. Belonged to Kumaon Regiment. | Portrait of Major Somnath Sharma |\n| Lance Naik Karam Singh | Earned a Military Medal in World War II. During the Jammu & Kashmir operations in 1948. Belonged to Sikh Regiment. | Portrait of Lance Naik Karam Singh |"
+    ],
+    "image_descriptions": [
+      "Top section contains a collage of 18 portraits of various Indian military officers.",
+      "Visual representation of the Param Vir Chakra medal (purple ribbon).",
+      "Visual representation of the Maha Vir Chakra medal (orange/white/green ribbon).",
+      "Visual representation of the Vir Chakra medal (blue/orange ribbon).",
+      "Visual representation of the Ashoka Chakra medal (green ribbon).",
+      "Visual representation of the Kirti Chakra medal (green ribbon with orange stripes).",
+      "Visual representation of the Shaurya Chakra medal (green ribbon with orange stripes)."
+    ],
+    "details": {
+      "summary": "Overview of Indian Gallantry Awards categorized into Wartime and Peacetime, including specific details on the first two Param Vir Chakra awardees."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 14
   }
 ]

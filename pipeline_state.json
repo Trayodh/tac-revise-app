@@ -146,7 +146,8 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "status": "in_progress"
   },
@@ -239,7 +240,8 @@
       15,
       16,
       17,
-      18
+      18,
+      19
     ],
     "status": "in_progress"
   },
@@ -261,7 +263,8 @@
       13,
       14,
       15,
-      16
+      16,
+      17
     ],
     "status": "in_progress"
   },
@@ -280,7 +283,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ],
     "status": "in_progress"
   },
@@ -303,7 +307,8 @@
       14,
       15,
       16,
-      17
+      17,
+      18
     ],
     "status": "in_progress"
   },
@@ -326,7 +331,8 @@
       14,
       15,
       16,
-      17
+      17,
+      18
     ],
     "status": "in_progress"
   },
@@ -496,7 +502,8 @@
       34,
       35,
       36,
-      37
+      37,
+      38
     ],
     "status": "in_progress"
   },
@@ -898,395 +905,12 @@
     ],
     "status": "in_progress"
   },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\World\\Major_World_Straits.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\World\\Major_World_Straits.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\World\\Major_World_Straits.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "android\\app\\src\\main\\assets\\public\\assets\\geography\\World\\Major_World_Straits.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
   "assets\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
     "extracted_pages": [
       1
     ],
     "status": "completed"
-  },
-  "assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
   },
   "assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
     "total_pages": 1,
@@ -1337,11 +961,6 @@
     ],
     "status": "completed"
   },
-  "assets\\geography\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
   "assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
     "total_pages": 1,
     "extracted_pages": [
@@ -1376,11 +995,6 @@
       1
     ],
     "status": "completed"
-  },
-  "CAPF_CSE_Papers\\GENERAL ABILITY AND INTELLIGENCE_0.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [],
-    "status": "in_progress"
   },
   "CAPF_CSE_Papers\\GENERAL STUDIES PAPER I.pdf": {
     "total_pages": 48,
@@ -1444,7 +1058,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -1474,52 +1089,6 @@
     ],
     "status": "in_progress"
   },
-  "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\01-valid.pdf": {
-    "total_pages": 14,
-    "extracted_pages": [
-      1,
-      2,
-      3
-    ],
-    "status": "in_progress"
-  },
-  "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\02-valid.pdf": {
-    "total_pages": 5,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\03-invalid.pdf": {
-    "total_pages": 0,
-    "extracted_pages": [],
-    "status": "completed"
-  },
-  "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\04-valid.pdf": {
-    "total_pages": 5,
-    "extracted_pages": [
-      1,
-      2,
-      3
-    ],
-    "status": "in_progress"
-  },
-  "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\05-versions-space.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "NDA Papers\\QP-GAT-NDANA-EXAM-II-2021-161121.pdf": {
-    "total_pages": 40,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
   "NDA Papers\\QP-MATH-NDANA-EXAM-II-2021-161121.pdf": {
     "total_pages": 48,
     "extracted_pages": [
@@ -1533,16 +1102,12 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-NDA-I-21-MATHEMATICS.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "NDA Papers\\QP-NDA-I-22-GENERAL-ABILITY-TEST-120422.pdf": {
     "total_pages": 48,
     "extracted_pages": [],
     "status": "in_progress"
@@ -1552,29 +1117,12 @@
     "extracted_pages": [],
     "status": "in_progress"
   },
-  "NDA Papers\\QP-NDA-I-23-GENERAL-ABILITY-TEST-170423.pdf": {
-    "total_pages": 44,
-    "extracted_pages": [
-      1
-    ],
-    "status": "in_progress"
-  },
   "NDA Papers\\QP-NDA-I-23-MATHEMATICS-170423.pdf": {
     "total_pages": 48,
     "extracted_pages": [],
     "status": "in_progress"
   },
-  "NDA Papers\\QP-NDA-II-22-GENERAL-ABILITY-TEST-050922.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
   "NDA Papers\\QP-NDA-II-MATHEMATICS-050922.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "NDA Papers\\QP-NDA-I_II-20-GAT.pdf": {
     "total_pages": 48,
     "extracted_pages": [],
     "status": "in_progress"
@@ -1586,30 +1134,16 @@
     ],
     "status": "in_progress"
   },
-  "NDA Papers\\QP-NDA-NA-I-25-GENERAL-ABILITY-TEST-150425.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
   "NDA Papers\\QP-NDA-NA-I-25-MATHEMATICS-150425.pdf": {
     "total_pages": 40,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
-  "NDA Papers\\QP-NDA-NA-I-26-GENERAL-ABILITY-TEST-130426.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
   "NDA Papers\\QP-NDA-NA-I-26-MATHEMATICS-130426 (1).pdf": {
-    "total_pages": 48,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "NDA Papers\\QP-NDA-NA-II-24-GENERAL-ABILITY-TEST-020924.pdf": {
     "total_pages": 48,
     "extracted_pages": [],
     "status": "in_progress"
@@ -1619,20 +1153,8 @@
     "extracted_pages": [],
     "status": "in_progress"
   },
-  "NDA Papers\\QP-NDANA-II-2023-GAT-04092023.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
   "NDA Papers\\QP-NDANA-II-2023-Maths-04092023.pdf": {
     "total_pages": 44,
-    "extracted_pages": [
-      1
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\QP-NDANA-II-25-GENERAL-ABILITY-TEST-150925.pdf": {
-    "total_pages": 56,
     "extracted_pages": [
       1
     ],
@@ -1659,46 +1181,6 @@
     ],
     "status": "in_progress"
   },
-  "NDA Papers\\AFCAT PYQ papers\\AFCAT Solved Paper-II 2022.pdf": {
-    "total_pages": 11,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\AFCAT Solved Paper-II 2023.pdf": {
-    "total_pages": 11,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\AFCAT Solved Paper-II 2024.pdf": {
-    "total_pages": 11,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\AFCAT Solved Paper-II 2025.pdf": {
-    "total_pages": 10,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\CSP_2020_GS_Paper-1.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\GENERAL ABILITY AND INTELLIGENCE_0.pdf": {
     "total_pages": 48,
     "extracted_pages": [
@@ -1706,302 +1188,7 @@
     ],
     "status": "in_progress"
   },
-  "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\GENERAL STUDIES PAPER I.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [
-      1
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [
-      1
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CAPF-22-GAI-080822.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [
-      1
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CAPF-25-GENERAL-ABILITY-INTELLIGENCE-040825.pdf": {
-    "total_pages": 56,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CSP-21-GeneralStudiesPaper-I-121021.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CSP-24-GENERAL-STUDIES-PAPER-I-180624.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CSP-25-GENERAL-STUDIES-PAPER-I-26052025.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CAPF_2023_GAI_07082023.pdf": {
-    "total_pages": 44,
-    "extracted_pages": [
-      1
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CAPF_2024_GEN-ABILITY-AND-INTELLI_05082024.pdf": {
-    "total_pages": 56,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf": {
-    "total_pages": 56,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CS_Pre_Exam_2023_280523.pdf": {
-    "total_pages": 48,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "node_modules\\pdf-parse\\test\\data\\01-valid.pdf": {
-    "total_pages": 14,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "node_modules\\pdf-parse\\test\\data\\02-valid.pdf": {
-    "total_pages": 5,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "node_modules\\pdf-parse\\test\\data\\03-invalid.pdf": {
-    "total_pages": 0,
-    "extracted_pages": [],
-    "status": "completed"
-  },
-  "node_modules\\pdf-parse\\test\\data\\04-valid.pdf": {
-    "total_pages": 5,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "node_modules\\pdf-parse\\test\\data\\05-versions-space.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "public\\assets\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "public\\assets\\geography\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "public\\assets\\geography\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
   "public\\assets\\geography\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "public\\assets\\geography\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\geography\\World\\Major_World_Straits.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "public\\assets\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "public\\assets\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "public\\assets\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "public\\assets\\geography\\World\\Major_World_Straits.pdf": {
     "total_pages": 1,
     "extracted_pages": [
       1
@@ -2012,7 +1199,8 @@
     "total_pages": 40,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -2029,7 +1217,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -2048,7 +1237,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -2067,7 +1257,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -2076,7 +1267,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -2085,7 +1277,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -2094,7 +1287,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -2103,7 +1297,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -2112,7 +1307,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -2177,7 +1373,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -2186,7 +1383,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -2211,16 +1409,8 @@
     "extracted_pages": [
       1,
       2,
-      3
-    ],
-    "status": "in_progress"
-  },
-  "scratch\\pdf_downloads\\gat_syllabus\\QP-NDA-I-21-GENERAL_ABILITY_TEST.pdf": {
-    "total_pages": 40,
-    "extracted_pages": [
-      1,
-      2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -2236,7 +1426,8 @@
     "total_pages": 44,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -2292,201 +1483,5 @@
       3
     ],
     "status": "in_progress"
-  },
-  "scratch\\pdf_downloads\\gat_syllabus\\QP_NDANAI2024_GENERAL-ABILITY-TEST_22042024.pdf": {
-    "total_pages": 52,
-    "extracted_pages": [
-      1,
-      2
-    ],
-    "status": "in_progress"
-  },
-  "www\\assets\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "www\\assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "www\\assets\\geography\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\geography\\World\\Major_World_Straits.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "www\\assets\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\World\\India_s_International_Borders_and_Neighboring_Coun.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
-  },
-  "www\\assets\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
-  },
-  "www\\assets\\geography\\World\\Major_World_Straits.pdf": {
-    "total_pages": 1,
-    "extracted_pages": [
-      1
-    ],
-    "status": "completed"
   }
 }
