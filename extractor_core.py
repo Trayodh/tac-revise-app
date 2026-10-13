@@ -128,7 +128,7 @@ def extract_content(b64_img, page_text, prompt):
     
     client = genai.Client(api_key=GEMINI_API_KEY)
 
-    gemini_models = ["gemini-2.5-flash", "gemini-2.5-pro"]
+    gemini_models = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.8-flash"]
 
     for model_name in gemini_models:
         print(f"Attempting extraction with native_gemini - {model_name}...")
@@ -193,7 +193,7 @@ def extract_content(b64_img, page_text, prompt):
     print("Gemini models exhausted. Trying Groq fallback with text...")
     groq_key = os.environ.get("GROQ_API_KEY")
     if groq_key and page_text and len(page_text.strip()) > 30:
-        groq_models = ["openai/gpt-oss-20b", "qwen/qwen3.8-27b", "openai/gpt-oss-120b"]
+        groq_models = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"]
         safe_page_text = page_text[:12000]
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"}
