@@ -24161,5 +24161,1251 @@
     },
     "source_pdf": "pathfinder_science.pdf",
     "source_page": 16
+  },
+  {
+    "id": "PHYS-HT-001",
+    "subject": "Physics",
+    "chapter": "Heat and Thermodynamics",
+    "topic": "Temperature and Thermometers",
+    "text": "<p><strong>Temperature:</strong> The measurement of hotness or coldness of a body. Heat flows from a body at higher temperature to a body at lower temperature.</p><p><strong>Thermometer:</strong> Instrument used to measure temperature. Mercury is commonly used due to its sensitivity, freezing point of -38.7°C, and boiling point of 356.7°C. It does not stick to the capillary wall.</p><p><strong>Temperature Scales:</strong></p><ul><li><strong>Celsius Scale (C):</strong> Melting point of ice at 0°C, boiling point of water at 100°C. Designed by Anders Celsius in 1710.</li><li><strong>Fahrenheit Scale (F):</strong> Melting point of ice at 32°F, boiling point of water at 212°F. Designed by Gabriel Fahrenheit in 1717.</li><li><strong>Reaumer Scale (R):</strong> Melting point of ice at 0°R, boiling point of water at 80°R. Introduced by RA Reaumer in 1730.</li></ul><p><strong>Key Facts:</strong></p><ul><li>Normal human body temperature is 37°C or 98.4°F.</li><li>-40° is the temperature where Celsius and Fahrenheit thermometers read the same.</li><li>Laboratory thermometer range is generally -10°C to 110°C.</li></ul>",
+    "formulas": [
+      "(C-0)/(100-0) = (F-32)/(212-32) = (R-0)/(80-0) = (K-273)/(100-0)",
+      "C/5 = (F-32)/9 = R/4 = (K-273)/5"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers basic definitions of temperature, mercury thermometers, and conversion formulas between Celsius, Fahrenheit, Reaumer, and Kelvin scales."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "PHYS-HT-002",
+    "subject": "Physics",
+    "chapter": "Heat and Thermodynamics",
+    "topic": "Heat, Specific Heat, and Thermal Capacity",
+    "text": "<p><strong>Total Radiation Pyrometer:</strong> Measures temperature by radiation emitted by a body. Cannot measure below 800°C. Used for measuring Sun's temperature.</p><p><strong>Heat:</strong> A form of energy. Units: calorie, kilocalorie, or joule. 1 cal = 4.18 J. Air is a non-conductor; silver is the best conductor.</p><p><strong>Specific Heat:</strong> Amount of heat required to raise the temperature of a unit mass by 1°C. SI unit: J/kg-K.</p><ul><li>Specific heat of gold = 130 J/kg-K</li><li>Specific heat of water = 4180 J/kg-K (Maximum)</li></ul><p><strong>Thermal Capacity:</strong> Amount of heat required to raise the temperature of a body through 1K. Units: J/K or cal/°C.</p><p><strong>Water Equivalent:</strong> Mass of water that absorbs or emits the same amount of heat as the given body for the same temperature change.</p>",
+    "formulas": [
+      "C = Q / (m * ΔT)",
+      "Thermal capacity = m * C",
+      "Water equivalent, W = m * C"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers definitions and formulas for heat, specific heat, thermal capacity, and water equivalent, along with properties of conductors."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "phys-calorimetry-001",
+    "subject": "Physics",
+    "chapter": "Heat and Thermodynamics",
+    "topic": "Principle of Calorimetry",
+    "text": "<p>The heat lost by the hot body must be equal to the heat gained by the cold body. This is known as principle of calorimetry or principle of mixtures, i.e., <strong>Heat gained = Heat lost</strong>.</p><ul><li>Work and heat are two equivalent forms of energy.</li><li>Calorimeter is a cylindrical vessel made of copper.</li></ul>",
+    "formulas": [
+      "Heat gained = Heat lost"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and basic principles of calorimetry."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "phys-thermal-expansion-002",
+    "subject": "Physics",
+    "chapter": "Heat and Thermodynamics",
+    "topic": "Thermal Expansion",
+    "text": "<p>The phenomenon of change in dimensions of an object due to heat supplied is known as thermal expansion.</p><ul><li>A solid can undergo three types of expansions:<ul><li>Linear expansion (expansion in length)</li><li>Superficial expansion (expansion in area)</li><li>Cubical expansion (expansion in volume)</li></ul></li><li>Relation between the coefficients of linear, superficial and cubical expansion : alpha : beta : gamma = 1 : 2 : 3</li></ul>",
+    "formulas": [
+      "alpha : beta : gamma = 1 : 2 : 3"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Types of thermal expansion in solids and their coefficient ratios."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "phys-thermal-apps-003",
+    "subject": "Physics",
+    "chapter": "Heat and Thermodynamics",
+    "topic": "Practical Applications of Thermal Expansion",
+    "text": "<ul><li>When hot tea is poured into a glass tumbler made of soft glass, it cracks because of thermal expansion of glass.</li><li>Telegraph wires are given enough gap to allow the wires for contraction in winter.</li><li>An ordinary pendulum clock runs faster in winter but slower in summer, because in summer the length of pendulum increases, while in winter it decreases.</li><li>A metallic ball before heating can pass easily through the ring, but after heating the ball does not pass through the ring because of the thermal expansion of ball.</li><li>A gap is provided between the iron rails of the railway track, so that rails can easily expand during summer and do not bend. In the construction of bridges, ends of steel gerders are not fixed but placed on rollers to allow free expansion and contraction in summer and winter respectively to avoid any damage to the bridge.</li><li>A tightly fitted cork can be removed from a glass bottle without breaking it on heating its mouth carefully. The glass wall expand and the cork will come out easily.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Real-world examples of thermal expansion."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "phys-liquid-expansion-004",
+    "subject": "Physics",
+    "chapter": "Heat and Thermodynamics",
+    "topic": "Expansion of Liquids",
+    "text": "<ul><li>Liquids do not have their definite length and surface area. It always need a container. When they are heated, they expand and at the same time the container also expands.</li><li>The expansion of a liquid, when the expansion of its container has not been taken into account is called <strong>apparent-expansion</strong>.</li><li>The expansion of a liquid, when the expansion of its container is taken into account, is called <strong>real expansion</strong>.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Distinction between apparent and real expansion in liquids."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "phys-anomalous-water-005",
+    "subject": "Physics",
+    "chapter": "Heat and Thermodynamics",
+    "topic": "Anomalous Expansion of Water",
+    "text": "<p>Almost every liquid expands with the increase in temperature. But when temperature of water is increased from 0°C to 4°C its volume decreases. If the temperature is increased above 4°C its volume starts increasing, clearly density of water is maximum at 4°C.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Unique behavior of water between 0°C and 4°C."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "phys-states-matter-006",
+    "subject": "Physics",
+    "chapter": "Heat and Thermodynamics",
+    "topic": "Interconversion of States of Matter",
+    "text": "<p>The temperature at which solid starts to liquify is known as melting point of that solid.</p><ul><li>The process in which a solid changes into a liquid on heating is called <strong>fusion</strong>. The change of state takes place i.e. ice changes into water.</li><li>The process in which a liquid changes into a solid is called <strong>fusion</strong>. The temperature at which liquid starts to freeze is known as <strong>freezing point</strong> of the liquid.</li><li>The process in which a liquid changes into a vapour on heating is called <strong>vaporisation</strong>. The temperature at which the liquid starts to evaporate is called the <strong>boiling point</strong> where change of state takes place i.e. water changes into water vapour or steam.</li><li>The process of change of state directly from solid to vapour (or gas) is known as <strong>sublimation</strong>.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of phase change processes."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "phys-latent-heat-007",
+    "subject": "Physics",
+    "chapter": "Heat and Thermodynamics",
+    "topic": "Latent Heat",
+    "text": "<p>It is the amount of heat absorbed by a unit mass of the substance to change its state without change in temperature.</p><ul><li>SI unit of latent heat is joule per kilogram.</li><li>Latent heat of fusion is 80 cal/g and vaporisation is 540 cal/g.</li><li>Ice at 0°C is more effective in cooling a substance than water at 0°C.</li><li>If Q is quantity of heat absorbed (or given out), then <strong>Q = mL</strong>, where, <em>m</em> = mass of the substance, <em>L</em> = latent heat of substance.</li><li>Steam contains more heat, in the form of latent heat, then boiling water.</li><li>The burns caused by steam are much more severe than those caused by boiling water though both of them are at the same temperature of 100°C.</li></ul>",
+    "formulas": [
+      "Q = mL"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and properties of latent heat."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "phys-evaporation-008",
+    "subject": "Physics",
+    "chapter": "Heat and Thermodynamics",
+    "topic": "Evaporation",
+    "text": "<p>It is the slow process of conversion of a liquid into its vapour even below its boiling temperature.</p><ul><li>Cooking is caused by evaporation due to expansion.</li><li>Factors affecting the evaporation of a liquid are:<ul><li>the area of the liquid surface</li><li>the nature of the liquid</li><li>temperature of the liquid</li><li>dryness of air</li><li>the movement of the air</li><li>temperature of air or surrounding</li></ul></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and factors affecting evaporation."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "phys-595-001",
+    "subject": "Physics",
+    "chapter": "General Science",
+    "topic": "Relative Humidity",
+    "text": "<p>The ratio of amount of water vapour (m) actually present in a certain volume of air at a given temperature to the amount of water vapour (M) required to saturate it, is called <strong>relative humidity</strong>, R<sub>H</sub>.</p><ul><li>The amount of water vapour in air is called <strong>humidity</strong>.</li><li>The amount of water vapour in the air varies as it depends on the rate of evaporation.</li><li>The amount of water vapour present in 1 m<sup>3</sup> air is called <strong>absolute humidity</strong>.</li><li>Relative humidity is measured by <strong>hygrometer</strong>.</li><li>Relative humidity increases with the increases of temperature.</li></ul>",
+    "formulas": [
+      "R_H = (m / M) * 100%"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and properties of relative humidity and absolute humidity."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "phys-595-002",
+    "subject": "Physics",
+    "chapter": "General Science",
+    "topic": "Thermodynamics",
+    "text": "<p>Thermodynamics is a branch of physics which deals with exchange of heat energy between bodies and conversion of the heat energy into mechanical energy and vice-versa.</p><p><strong>First Law of Thermodynamics</strong>: The amount of heat given to a system is used up in two ways, first to increase the internal energy and second to do the external work.</p><p><strong>Second Law of Thermodynamics</strong>: The second law of thermodynamics is the outcome of human experience under which heat energy can be converted into mechanical energy. This law is based upon the two statements given below:</p><ul><li>(i) It is impossible to construct a device which operates in a cycle that will take heat from a body and convert it completely into the work. (Kelvin-Planck’s Statements)</li><li>(ii) It is impossible to construct a self acting device which operates in a cycle that will transfer heat from a cold body to a hot body without expenditure of work (Clausius Statement).</li></ul><p><strong>Nature of Internal Energy</strong>:<ul><li>According to the kinetic modal of matter, every substance is composed of molecules which are in constant motion inside the substance. Hence, molecules posses kinetic energy.</li><li>Molecules also exert force on one another which is called intermolecular force, hence they posses potential energy also. The kinetic energy and potential energy of molecules is the internal energy of the substance.</li><li>The internal energy of an ideal gas is only the kinetic energy of its molecules which depends only upon the temperature of the gas.</li></ul></p>",
+    "formulas": [
+      "dQ = dU + dW"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers laws of thermodynamics and the nature of internal energy."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "phys-595-003",
+    "subject": "Physics",
+    "chapter": "General Science",
+    "topic": "Transmission of Heat",
+    "text": "<p>Transfer of heat from one place to other place is called transmission of heat. There are three processes by which transmission of heat takes place: (a) Conduction (b) Convection (c) Radiation</p><ul><li>In solids, transmission of heat takes place by <strong>conduction process</strong>.</li><li>In liquids and gases heat takes place by <strong>convection process</strong>.</li><li>Heat from the sun reaches on the earth by <strong>radiation</strong>.</li><li>Mercury though a liquid is heated by conduction and not by convection.</li><li>In rooms, ventilators are provided to escape the hot air by the process of convection.</li><li>Air is poor conductor of heat.</li><li>On a cold night two thin blankets gives more hotness than a single thick blanket because the layer of air between the two blankets works as better insulator of heat.</li><li>Cooking utensils are made up of aluminium, brass and steel, because these substances have low specific heat and high conductivity.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Petrol engine | Diesel engine |\n|---|---|\n| It works with a spark plug. | It works with an oil plug. |\n| Efficiency is smaller (47%). | Efficiency is larger (55%). |\n| It is associated with the risk of explosion, because petrol vapour and air is compressed. So, low compression ratio is kept. | No risk of explosion, because only air is compressed. Hence, compression ratio is kept large. |\n| Petrol vapour and air is created with spark plug. | Spray of diesel is obtained through the jet. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Processes of heat transmission and comparison between petrol and diesel engines."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "phys-595-004",
+    "subject": "Physics",
+    "chapter": "General Science",
+    "topic": "Kirchhoff's Law",
+    "text": "<p>Kirchhoff's law signifies that good absorbers are good emitters. If a shining metal ball with some black spot on its surface is heated to a high temperature and seen in dark, the shining ball becomes dull but the black spots shines brilliantly because black spot absorbs radiation during heating and emit in dark.</p><ul><li>White and light colours are bad absorbers and good reflectors of heat.</li><li>In deserts, day temperature is very high and night temperature is extremely low because the specific heat of sand is very low. Therefore, it absorbs the heat readily and its temperature raises by a large degree during day. At night sand radiates the heat equally readily making the temperature loss.</li></ul><p><strong>Perfectly Black Body</strong>: A perfectly black body is one which absorbs completely all the radiations falling on its surface, whatever be the wavelength.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of Kirchhoff's law of radiation and properties of black bodies."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "physics-thermal-001",
+    "subject": "Physics",
+    "chapter": "Thermal Physics",
+    "topic": "Black Body Radiation and Newton's Law of Cooling",
+    "text": "<p><strong>Perfectly black body:</strong> A perfect absorber and hence, according to Kirchhoff's law, a perfect radiator. It is not essential that a perfectly black body should appear black. Sun emits radiation of all wavelengths, so it may be called a black body, even though it looks white.</p><p><strong>Stefan's Law:</strong> The radiant energy emitted by unit area of perfectly black body per unit time is directly proportional to the fourth power of its absolute temperature.</p><p><strong>Newton's Law of Cooling:</strong> The rate of loss of heat by a body is directly proportional to the difference in temperature between the body and the surrounding. If the door of refrigerator is kept open, it will not cool the room, it will increase the temperature of the room, because heat rejected by the refrigerator to the room, will be more than the heat taken by the refrigerator from the room.</p>",
+    "formulas": [
+      "E ∝ T^4",
+      "E = σ T^4"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers definitions of black body, Stefan's Law, and Newton's Law of Cooling."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 20
+  },
+  {
+    "id": "physics-oscillations-001",
+    "subject": "Physics",
+    "chapter": "Oscillations and Waves",
+    "topic": "Periodic and Oscillatory Motion",
+    "text": "<p><strong>Periodic Motion:</strong> When a body repeats its motion continuously on a definite path in a definite interval of time, then its motion is called periodic motion and the interval of time is called time period. Examples: Motion of hands of a clock, motion of earth around the sun, motion of the needle of a sewing machine.</p><p><strong>Oscillatory Motion:</strong> If a body in periodic motion moves along the same path to and fro about a definite point (mean position or equilibrium position), then the motion of the body is a vibratory motion or oscillatory motion. Also called harmonic motion.</p><ul><li>The motion of the pendulum of a wall clock, the motion of the bob of a simple pendulum, the motion of a loaded spring, the motion of liquid contained in a U-tube, the motion of the prongs of tuning fork and the motion of a bar magnet suspended in the earth's magnetic field are examples of oscillatory motion.</li><li>All oscillatory motions are periodic motions, but all periodic motions are not oscillatory.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and examples of periodic and oscillatory motions."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 20
+  },
+  {
+    "id": "physics-shm-001",
+    "subject": "Physics",
+    "chapter": "Oscillations and Waves",
+    "topic": "Simple Harmonic Motion (SHM)",
+    "text": "<p><strong>Simple Harmonic Motion (SHM):</strong> If a particle repeats its motion about a fixed point after a regular time interval in such a way that at any moment the acceleration of the particle is directly proportional to its displacement from the fixed point at that moment and is always directed towards the fixed point, then the motion of the particle is called simple harmonic motion.</p><p><strong>Properties of SHM:</strong></p><ul><li><strong>At mean position:</strong> No force acts on the particle, velocity is maximum, acceleration is zero, kinetic energy is maximum, potential energy is zero.</li><li><strong>At extreme end:</strong> Velocity of particle is zero, acceleration of the particle is maximum, kinetic energy of particle is zero, potential energy is maximum, restoring force acting on particle is maximum.</li></ul><p><strong>Spring Block System:</strong> Time period <em>T = 2π√(m/k)</em>, where <em>m</em> is the mass of the block. Restoring force <em>F = -kx</em>, where <em>x</em> is displacement and <em>k</em> is spring constant.</p><p><strong>Restoring Force:</strong> When oscillating particle is displaced from its equilibrium position, then a periodic force acts upon it which is always directed towards the equilibrium position.</p><p><strong>Simple Pendulum:</strong> Consists of a small metal ball suspended by a long thread from a rigid support. Displacement is the distance from mean position. Amplitude is the maximum displacement on either side. Time period is the time taken to complete one full oscillation.</p>",
+    "formulas": [
+      "T = 2π√(m/k)",
+      "F = -kx"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers SHM definitions, properties at mean/extreme positions, spring-block formulas, and simple pendulum basics."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 20
+  },
+  {
+    "id": "PHYS-WAVES-001",
+    "subject": "Physics",
+    "chapter": "Waves",
+    "topic": "Simple Pendulum and Liquid Column Oscillation",
+    "text": "<p><strong>Simple Pendulum Facts:</strong></p><ul><li><strong>Frequency:</strong> Number of full oscillations completed by a pendulum in one second.</li><li><strong>Second pendulum:</strong> One whose time period is 2s.</li><li><strong>Time period formula:</strong> T = 2π√(L/g), where L is length of thread and g is acceleration due to gravity.</li><li><strong>Infinite length pendulum:</strong> Time period is 84.6 min.</li><li><strong>Effect of lift:</strong> If a simple pendulum is suspended in a lift descending down with acceleration, time period increases. If ascending, time period decreases.</li><li><strong>Free fall:</strong> If a lift is falling freely under gravity, time period becomes infinite.</li><li><strong>Moon:</strong> Time period increases because acceleration due to gravity at the moon is lesser.</li><li><strong>Note:</strong> Every body inside a satellite remains in a state of weightlessness (effective g = 0), hence a pendulum clock cannot work inside space satellites.</li></ul><p><strong>Oscillation of Liquid Column in a U-tube:</strong></p><p>If a liquid is taken in a U-tube, it maintains equal level in both columns. When air is blown on side B, the liquid goes down to point D (displacement x). In the second column, the liquid goes up to E (displacement CE). When force is withdrawn, the liquid oscillates in SHM with time period T = 2π√(h/g), where h is the height of liquid in each column.</p>",
+    "formulas": [
+      "T = 2π√(L/g)",
+      "T = 2π√(h/g)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a U-tube with liquid levels. Left side shows initial level, right side shows displacement x from equilibrium point C to D in one arm and C to E in the other, with height h indicated."
+    ],
+    "details": {
+      "summary": "Covers simple pendulum mechanics, effects of gravity/acceleration on time period, and oscillation of liquid columns in U-tubes."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 21
+  },
+  {
+    "id": "PHYS-WAVES-002",
+    "subject": "Physics",
+    "chapter": "Waves",
+    "topic": "Types of Waves and Electromagnetic Spectrum",
+    "text": "<p><strong>Waves:</strong> A disturbance which propagates energy from one place to another without transport of matter.</p><p><strong>1. Mechanical Waves:</strong> Require material medium (solid, liquid, gas).</p><ul><li><strong>Longitudinal Waves:</strong> Particles of medium vibrate in the direction of propagation (e.g., springs, sound waves).</li><li><strong>Transverse Waves:</strong> Particles of medium vibrate perpendicular to the direction of propagation (e.g., waves on strings).</li></ul><p><strong>2. Electromagnetic Waves:</strong> Do not require any medium. They propagate as transverse waves.</p><ul><li><strong>Microwaves:</strong> Wavelength range 10^-3 to 10^-2 m. Absorbed by water molecules, used in communications, satellites, telephony, and heating food.</li><li><strong>Note:</strong> Cathode rays, canal rays, α-rays, β-rays are NOT electromagnetic waves. Light and heat are examples.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Electromagnetic Waves | Discoverer | Wavelength range (in metre) | Frequency range | Uses |\n|---|---|---|---|---|\n| γ-rays | Henry Becqueral | 10^-14 to 10^-10 | 10^20 to 10^18 | Medical tracers, killing cancerous cells, steralisation, imaging defects in metal. |\n| X-rays | W Roenetgen | 10^-10 to 10^-8 | 10^18 to 10^16 | Imaging defects in bones, hidden devices. |\n| Ultraviolet rays | Ritter | 10^-8 to 10^-7 | 10^16 to 10^14 | Making vitamin D, making ions. |\n| Visible radiation | Newton | 3.9 x 10^-7 to 7.8 x 10^-7 | 10^14 to 10^12 | Photography |\n| Infrared rays | Hershel | 7.8 x 10^-7 to 7.8 x 10^-3 | 10^12 to 10^10 | TV remote control |\n| Short radio waves or Hertz hertzian waves | Heinrich | 10^-3 to 1 | 10^10 to 10^8 | Communication, radio, TV. |\n| Long radio waves | Marcony | 1 to 10^4 | 10^8 to 10^6 | Communication, radio, TV. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification of waves into mechanical and electromagnetic, with a detailed spectrum table."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 21
+  },
+  {
+    "id": "cds-pathfinder-598-waves-001",
+    "subject": "Physics",
+    "chapter": "Sound Waves",
+    "topic": "Important Terms Related to Waves",
+    "text": "<p><strong>Amplitude (A)</strong>: Maximum displacement of a vibrating particle of medium from its mean position is called amplitude.</p><p><strong>Wavelength (λ)</strong>: Wavelength is the distance between any two nearest particle of the medium, vibrating in the same phase.</p><p><strong>Frequency (f)</strong>: Frequency of vibration of a particle is defined as the number of vibrations completed by particle in one second.</p><p><strong>Velocity of wave (v)</strong>: Frequency (f) × Wavelength (λ)</p>",
+    "formulas": [
+      "Frequency = 1 / Time period",
+      "Velocity of wave (v) = Frequency (f) * Wavelength (λ)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of fundamental wave properties including amplitude, wavelength, frequency, and velocity."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "cds-pathfinder-598-waves-002",
+    "subject": "Physics",
+    "chapter": "Sound Waves",
+    "topic": "Waves in Different Frequency Range",
+    "text": "<p>According to their frequency range, longitudinal mechanical waves are divided into the following categories:</p><ul><li><strong>Audible or sound waves</strong>: Longitudinal mechanical waves in the range 20 Hz to 20000 Hz. Human ears are sensitive to these.</li><li><strong>Infrasonic</strong>: Longitudinal mechanical waves having frequencies less than 20 Hz. Produced by earthquakes, volcanic eruption, ocean waves, and elephants and whales.</li><li><strong>Ultrasonic waves</strong>: Longitudinal mechanical waves having frequencies greater than 20000 Hz.</li></ul><p><strong>Applications of Ultrasonic waves</strong>: Sending signals, measuring depth of sea, cleaning clothes and machinery parts of clocks, removing lamp soot from chimney of factories, and ultrasonography. <strong>Echocardiography</strong> is the use of ultrasonic waves to investigate the action of the heart.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification of longitudinal mechanical waves based on frequency ranges and their practical applications."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "cds-pathfinder-598-waves-003",
+    "subject": "Physics",
+    "chapter": "Sound Waves",
+    "topic": "Sound Waves and Characteristics",
+    "text": "<p>Sound wave is the form of energy which makes us hear and having frequency and high wavelength. These can not travel in vacuum. It is of two types i.e. longitudinal wave and mechanical wave.</p><p><strong>Reflection of sound</strong>: The rebouncing back of sound when it strikes a hard surface. Utilised in megaphone, bullhorn, stethoscope and sound board.</p><p><strong>Echo</strong>: The repetition of sound caused by the reflection of sound waves. Curtains, carpets and sofa-sets reduce echoes by absorbing sound waves.</p><p><strong>Reverberation</strong>: The persistence of sound in a big hall due to repeated reflections from walls, ceiling and floor of the hall.</p><p><strong>SONAR</strong>: Stands for sound navigation and ranging. Used to measure the depth of a sea and to locate submarines and shipwrecks. Produces pulses of ultrasonic sound waves of frequency about 50000 Hz.</p><p><strong>Intensity</strong>: Intensity of sound at any point in space is defined as amount of energy passing normally per unit area held around that point per unit time. SI unit of intensity is W/m².</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of sound wave properties, reflection phenomena (echo, reverberation), SONAR technology, and intensity."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "cds-pathfinder-598-waves-004",
+    "subject": "Physics",
+    "chapter": "Sound Waves",
+    "topic": "Speed of Sound",
+    "text": "<p>The distance travelled by sound wave in one second is known as speed of sound. Speed of sound, v = Frequency × Wavelength.</p><p><strong>Factors affecting speed of sound</strong>:</p><ul><li>Depends upon elasticity and density of medium.</li><li>For solids: v = sqrt(E/d), where E is modulus of elasticity and d is density.</li><li>For gases: v = sqrt(γp/d), where p is pressure and γ is ratio of specific heats.</li><li>Speed of sound is maximum in solids and minimum in gases.</li><li>Speed of sound in air is 332 m/s, 1483 m/s in water and 5130 m/s in iron.</li><li>When sound enters from one medium to another, speed and wavelength change but frequency remains unchanged.</li><li>Speed of sound remains unchanged by the increase or decrease of pressure.</li><li>Speed of sound increases with the increase of temperature of the medium. The speed of sound in air increases by 0.61 m/s, when the temperature is increased by 1°C.</li><li>Speed of sound is more in humid air than in dry air because the density of humid air is less than the density of dry air.</li><li>The speed of sound in air is very slower as compared to the speed of light in air. Therefore, in rainy season, the flash of lightning is seen first and the sound of thunder is heard a little later.</li></ul>",
+    "formulas": [
+      "v = Frequency * Wavelength",
+      "v = sqrt(E/d)",
+      "v = sqrt(γp/d)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed analysis of the speed of sound, its dependence on medium properties, temperature, humidity, and comparison with light."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "PHYS-SOUND-001",
+    "subject": "Physics",
+    "chapter": "Sound",
+    "topic": "Sound Properties and Phenomena",
+    "text": "<p><strong>Intensity and Loudness:</strong> Intensity of sound at a point is inversely proportional to the square of the distance of point from the source and directly proportional to the square of amplitude of vibration, square of frequency and density of the medium. The loudness depends on intensity as well as on sensitivity of ear. The loudness of sound is measured in decibel (dB).</p><p><strong>Pitch:</strong> It is that characteristic of sound, which distinguishes a sharp sound from a grave sound. Pitch depends upon frequency of sound waves. The pitch of female voice is higher than the pitch of male voice. The pitch of sound produced by roaring of lion is lower whereas the pitch of sound produced by mosquito whisper is high.</p><p><strong>Quality (or Timbre):</strong> It is that characteristic of sound which enables us to distinguish between sounds produced by two sources having the same intensity and pitch.</p><p><strong>Shock Waves:</strong> A body moving with supersonic speed in air leaves behind it a conical region of disturbance which spreads continuously. Such a disturbance is called shock waves. These waves carry huge energy and may even make cracks in window panes or even damage a building. The speed of supersonic wave is measured in mach number. One mach number is the ratio of velocity of source to the velocity of sound. <ul><li>If mach number > 1, body is called supersonic.</li><li>If mach number > 5, body is called hypersonic.</li><li>If mach number < 1, body is said to be moving with subsonic speed.</li></ul></p><p><strong>Resonance:</strong> If however, the frequency of the external force is equal to the natural frequency of the body, then the amplitude of the forced oscillations of the body becomes quite large. This phenomenon is called resonance. A group of soldiers on a bridge are advised not to walk in steps because their movement causes the bridge to vibrate. If they walk in step, the frequency of vibration may match the natural frequency of the bridge structure and thus causing resonance. This resonance of frequency can cause the bridge to collapse.</p><p><strong>Some Definitions Regarding Waves:</strong> <ul><li><strong>Interference:</strong> When two waves of same frequency, same wavelength, same velocity moves in the same direction. Their superimposition results in the interference. In interference, energy is neither created nor destroyed but is redistributed.</li><li><strong>Beat:</strong> When two sound waves of slightly different frequencies, travelling in a medium along the same direction, superimpose on each other, the intensity of the resultant sound at a particular position rises and falls regularly with time. This phenomenon of regular variation in intensity of sound with time at a particular position is called beats.</li><li><strong>Progressive Waves:</strong> The disturbance produced in the medium travels onward, it being handed over from one particle to the next. Each particle executes the same type of vibration as the preceding one, though not at the same time.</li><li><strong>Stationary Waves:</strong> When combination of two waves moving in opposite directions, each having the same amplitude and frequency.</li></ul></p><p><strong>Doppler's Effect:</strong> If there is a relative motion between source of sound and observer, the apparent frequency of sound heard by the observer is different from the actual frequency of sound emitted by the source. This phenomenon is called Doppler's effect. When the distance between the source and observer decreases, the apparent frequency increases and vice-versa. <strong>Uses of Doppler's Effect:</strong> <ul><li>(i) By police to check over speeding of vehicles.</li><li>(ii) At airport to guide the aircraft.</li><li>(iii) To study heart beats and blood flow in different parts on the body.</li><li>(iv) It is used to determine the velocities of which stars and galaxies are moving toward or away from the earth.</li></ul></p>",
+    "formulas": [
+      "beta = 10 log10(I / I_0)",
+      "Mach number = Velocity of source / Velocity of sound"
+    ],
+    "tables": [
+      "| Areas | Day time (dB) | Night time (dB) |\n|---|---|---|\n| Industrial area | 75 | 70 |\n| Commercial area | 65 | 55 |\n| Residential area | 55 | 45 |\n| Silence | 50 | 40 |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers fundamental properties of sound including intensity, loudness, pitch, quality, shock waves, resonance, wave definitions (interference, beats, progressive, stationary), and Doppler's effect."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "optics-001",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Light",
+    "text": "<p>Light is the radiation which makes our eyes able to see the object. Its speed is 3 x 10^8 m/s in vacuum.</p><ul><li>Light is the form of energy. It is a transverse wave and it takes 8 min 19 s to reach on the earth from the sun.</li><li>The light reflected from the moon takes 1.28 s to reach the earth.</li><li>It represents the phenomenon of reflection, refraction, interference, diffraction, scattering and polarisation.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to light, its speed, nature, and travel time from celestial bodies."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "optics-002",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Reflection of Light",
+    "text": "<p>Reflection is the phenomenon of change in the path of light without any change in its medium. In reflection, the frequency, speed and wavelength do not change, but a phase change may occur depending on the nature of reflecting surface.</p><p><strong>Laws of Reflection:</strong></p><ul><li>The angle of reflection (∠r) is always equal to the angle of incidence (∠i) i.e. ∠i = ∠r.</li><li>The incident ray, the reflected ray and the normal at the point of incidence all lie in the same plane.</li></ul>",
+    "formulas": [
+      "∠i = ∠r"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a light ray hitting a mirror surface at point P. An incident ray comes from A, a reflected ray goes to B, and a normal line N is perpendicular to the mirror at point P. Angle i is between incident ray and normal, angle r is between reflected ray and normal."
+    ],
+    "details": {
+      "summary": "Definition and laws governing the reflection of light."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "optics-003",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Mirror",
+    "text": "<p>A mirror is a polished surface (one side) like glass, which reflects almost all the light that is incident on it. There are two types of mirror: Plane Mirror and Spherical Mirror.</p><p><strong>Plane Mirror:</strong></p><ul><li>If the reflecting surface of a mirror is plane, then the mirror is called a plane mirror.</li><li>Size of image is always equal to the size of object.</li><li>The minimum size of the mirror required to see the full image of an observer is half the height of the observer.</li><li>If the plane mirror is rotated in the plane of incidence by an angle θ, then the reflected ray rotates by an angle 2θ.</li><li>If the object is displaced by a distance x towards or away from the mirror, then its image will be displaced by a distance x towards or away from the mirror.</li><li>Focal length of plane mirror is infinity i.e. power of the plane mirror is zero.</li><li>Linear magnification produced by plane mirror is 1.</li><li>When two plane mirrors are kept facing each other at an angle θ and an object is placed between them, then:</li></ul><p>(i) Number of images, n = (360° / θ) - 1. If (360° / θ) is even or object lies symmetrically.</p><p>(ii) Number of images, n = (360° / θ). If (360° / θ) is odd or the object lies symmetrically.</p><p><strong>Uses of the Plane Mirror:</strong></p><ul><li>(i) Plane mirrors are used as looking glass.</li><li>(ii) Plane mirrors are used in constructing periscope which is used in submarines.</li><li>(iii) Plane mirrors are used to make kaleidoscope.</li></ul>",
+    "formulas": [
+      "n = (360° / θ) - 1",
+      "n = (360° / θ)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties, rules, and uses of plane mirrors."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "optics-004",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Spherical Mirrors",
+    "text": "<p>Spherical mirrors can be regarded as a part of a hollow reflecting spheres of glass. These are of two types: (i) Concave mirror (ii) Convex mirror.</p><p><strong>Concave mirror:</strong> The spherical mirror whose reflecting surface is inwardly leaned, called concave mirror. It is also called converging mirror.</p><p><strong>Convex mirror:</strong> The spherical mirror whose reflecting surface is outwardly leaned, called convex mirror. It is also called diverging mirror.</p><p><strong>Real Image:</strong></p><ul><li>Real images can be formed on a screen by the actual intersection of reflected (or refracted) light rays.</li><li>The image formed on a cinema screen is a real image.</li><li>A concave mirror forms real image, when an object is placed beyond its focus.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of a concave mirror showing a curved surface with the inner side reflecting. Labels include Pole (P), Focus (F), Centre of curvature (C), and Principal axis.",
+      "Diagram of a convex mirror showing a curved surface with the outer side reflecting. Labels include Pole (P), Focus (F), Centre of curvature (C), and Principal axis."
+    ],
+    "details": {
+      "summary": "Definitions of concave and convex mirrors and real images."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "PHYS-OPTICS-001",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Virtual Image and Image Formation by Concave Mirror",
+    "text": "<p><strong>Virtual Image:</strong></p><ul><li>Virtual images cannot be formed on the screen by the apparent intersection of reflected (or refracted) light rays.</li><li>The image of our face when we look into a plane mirror is a virtual image. A concave mirror forms a virtual image, when an object is placed between focus and pole of the mirror.</li></ul><p><strong>Image Formation by Concave Mirror:</strong></p><p>The following are the positions and nature of the images formed in a concave mirror for different positions of the object:</p><ul><li>(i) When the object is at infinity, image is formed at F.</li><li>(ii) When the rays are parallel to the principal axis, the image is formed at F.</li><li>(iii) When the object is between infinity and C, the image formed is real, inverted and smaller in size and is formed between F and C.</li><li>(iv) When the object is at C, the image formed is inverted, real, equal in size and is formed at C itself.</li><li>(v) When the object is between F and C, the image is formed beyond C and is inverted, real and larger than the object.</li><li>(vi) When the object is at focus, the image is formed at infinity. The image is real, inverted and infinitely large in size.</li><li>(vii) When the object is between F and P, the images formed behind the pole. The image is virtual, erect and large.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Position of object | Position of image | Size of image | Nature of image |\n|---|---|---|---|\n| At infinity | At F | Highly diminished | Real and inverted |\n| Between infinity and C | Between F and C | Diminished | -do- |\n| At C | At C | Same size | -do- |\n| Between F and C | Between infinity and C | Enlarged | -do- |\n| At F | At infinity | Highly enlarged | -do- |\n| Between F and P | Behind the pole | Enlarged | Virtual and erect |",
+      "| Position of object | Position of image | Size of image | Nature of image |\n|---|---|---|---|\n| At infinity | At F | Highly diminished | Erect and virtual |\n| Between infinity and pole | Between F and P | Diminished in size | Erect and virtual |"
+    ],
+    "image_descriptions": [
+      "Diagram (i): Concave mirror showing rays from infinity converging at focus F.",
+      "Diagram (ii): Concave mirror showing parallel rays converging at focus F.",
+      "Diagram (iii): Concave mirror showing object between infinity and C, image formed between F and C.",
+      "Diagram (iv): Concave mirror showing object at C, image formed at C.",
+      "Diagram (v): Concave mirror showing object between F and C, image formed beyond C.",
+      "Diagram (vi): Concave mirror showing object at focus, rays reflecting parallel to principal axis.",
+      "Diagram (vii): Concave mirror showing object between F and P, virtual image formed behind the mirror."
+    ],
+    "details": {
+      "summary": "Detailed breakdown of image formation properties for concave mirrors based on object position, including virtual image definitions."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "phys-optics-001",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Image Formation by Convex Mirror",
+    "text": "<p><strong>Image Formation by Convex Mirror:</strong></p><ul><li><strong>When the object is at infinity:</strong> The image is formed at focus.</li><li><strong>When the object is between infinity and pole:</strong> The image is formed between pole and focus.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing light rays from an object at infinity hitting a convex mirror and converging to a focus point F behind the mirror.",
+      "Diagram showing an object placed between infinity and the pole of a convex mirror, with the resulting virtual image formed between the pole and focus."
+    ],
+    "details": {
+      "summary": "Covers image formation characteristics for convex mirrors."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "phys-optics-002",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Mirror Formula",
+    "text": "<p><strong>Mirror Formula:</strong></p><ul><li>If <em>v</em> is the image distance, <em>u</em> is the object distance and <em>f</em> is the focal length of a mirror, then 1/v + 1/u = 1/f = 2/R</li><li>The linear magnification (<em>m</em>) produced by a mirror is equal to the ratio of the image distance to the object distance with negative sign, <em>m</em> = -v/u = f/(f-u) = (f-v)/f</li><li>If the magnification has positive sign, then the image is virtual and erect.</li><li>If the magnification has negative sign, then the image is real and inverted.</li></ul>",
+    "formulas": [
+      "1/v + 1/u = 1/f = 2/R",
+      "m = -v/u = f/(f-u) = (f-v)/f"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Mathematical relationships for spherical mirrors."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "phys-optics-003",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Uses of Spherical Mirrors",
+    "text": "<p><strong>Concave Mirrors:</strong></p><ul><li>Used as reflectors in automobiles (car, buses, etc.), head light, search light, hand torches and table lamps.</li><li>Used as shaving mirrors.</li><li>Used by doctors for focussing intense light to examine inside of eye, ears, etc.</li><li>Large concave mirrors are used in the application of solar energy, to focus the sun's rays for heating solar furnaces etc.</li></ul><p><strong>Convex Mirrors:</strong></p><ul><li>Used as rear-view mirrors in automobiles as they give large view of the traffic.</li><li>Used as shop security mirrors.</li><li>Used wherever we want to see erect images.</li></ul><p><strong>Note:</strong> We cannot use a concave mirror as a rear-view mirror in motor vehicles.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Practical applications of concave and convex mirrors."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "phys-optics-004",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Refraction of Light",
+    "text": "<p>When a ray of light passes from one medium to other, it bends from its path. This phenomenon of bending of light is called as refraction of light.</p><ul><li>When light passes from rarer medium to a denser medium, it bends towards the normal at the point of incidence.</li><li>When light passes from a denser medium to a rarer medium, it bends away from the normal.</li><li>When a ray of light enters from one medium to other medium its frequency and phase do not change but wavelength and velocity change.</li></ul><p><strong>Laws of Refraction:</strong></p><ul><li>The incident ray, the refracted ray and the normal at the point of incidence all lie in the same plane.</li><li>The ratio of the sine of the angle of incidence to the sine of the angle of refraction is a constant for a given medium. sin i / sin r = μ [Snell's law]</li></ul><p>where, μ is refractive index of the second medium with respect to first. μ = μ2 / μ1 = c/v2 / c/v1 = v1 / v2 or 1μ2 = v1 / v2</p>",
+    "formulas": [
+      "sin i / sin r = μ",
+      "μ = μ2 / μ1 = (c/v2) / (c/v1) = v1 / v2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition, laws, and mathematical formulation of light refraction."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "phys-optics-005",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Illustrations and Total Internal Reflection",
+    "text": "<p><strong>Some Illustrations of Refraction:</strong></p><ul><li>Twinkling of stars.</li><li>Oval shape of sun in the morning and evening.</li><li>Bending of a linear object when it is partially dipped in a liquid inclined to the surface of the liquid.</li><li>A fish in a pond when viewed from air appears to be at a smaller depth than actual depth.</li><li>A coin at the base of a vessel filled with water appears raised.</li></ul><p><strong>TOTAL INTERNAL REFLECTION:</strong></p><p>In case of propagation of light from denser to rarer medium through a plane boundary. <strong>Critical angle</strong> is the angle of incidence for which angle of refraction is 90°. If light is propagating from denser medium towards the rarer medium and angle of incidence is more than critical angle, then the light incident on the boundary is reflected back in the denser medium, obeying the law of reflection. This phenomenon is called total internal reflection.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Real-world examples of refraction and the definition of Total Internal Reflection."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "PHYS-OPTICS-001",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Total Internal Reflection",
+    "text": "<p><strong>Conditions of Total Internal Reflection:</strong></p><ul><li>Light must be propagating from denser to rarer medium.</li><li>Angle of incidence must exceeds the critical angle.</li></ul><p>Sparkling of diamond, mirage and looming, shinning of air bubble in water and optical fibre are the examples of total internal reflection.</p><p><strong>Note:</strong> Optical fibre is used for the transmitting and receiving the electrical signals after converting it into the light signal.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Conditions and examples of Total Internal Reflection."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 27
+  },
+  {
+    "id": "PHYS-OPTICS-002",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Spherical Lenses",
+    "text": "<p>A lens is a piece of transparent glass bounded by two spherical surfaces.</p><p>There are two types of lenses:</p><ul><li><strong>Convex lens (converging lens):</strong> A lens which is thicker at the centre and thinner at its ends.</li><li><strong>Concave lens (diverging lens):</strong> A lens which is thinner at the centre and thicker at its ends.</li></ul><p>The centre point of a lens is known as its optical centre. The line joining the centres of the surfaces of the lens is called the principal axis of the lens. The distance of the first focus from the optical centre of the lens is called the first focal length of the lens. The distance of the second focus from the optical centre of the lens is called the second focal length or the principal focal length.</p>",
+    "formulas": [],
+    "tables": [
+      "| Position of object | Position of image | Size of image | Nature of image |\n|---|---|---|---|\n| At infinity | At F2 | Highly diminished | Real and inverted |\n| Beyond 2F1 | Between F2 and 2F2 | Diminished | -do- |\n| At 2F1 | At 2F2 | Same size | -do- |\n| Between 2F1 and F1 | Beyond 2F2 | Enlarged | -do- |\n| At F1 | At infinity | Highly enlarged | -do- |\n| Between F1 and lens | Behind the object, on the same side of the object | Enlarged | Virtual and erect |"
+    ],
+    "image_descriptions": [
+      "Diagram (a) shows a convex lens with principal axis, optical centre, first focus F1, and second focus F2. Diagram (b) shows a concave lens with similar markings."
+    ],
+    "details": {
+      "summary": "Definitions and properties of spherical lenses."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 27
+  },
+  {
+    "id": "PHYS-OPTICS-003",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Image Formation by a Convex Lens",
+    "text": "<p><strong>Image Formation by a Convex Lens:</strong></p><ul><li>(i) <strong>Object at infinity:</strong> The image formed is at second focus, real, inverted and highly diminished.</li><li>(ii) <strong>Object beyond 2F1:</strong> The image formed is between F2 and 2F2 on the right side of the lens, real, inverted and diminished.</li><li>(iii) <strong>Object at 2F1:</strong> The image formed is at 2F2, real, inverted and of same size as that of the object.</li><li>(iv) <strong>Object between F1 and 2F1:</strong> The image formed is beyond 2F2, real, inverted and magnified.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Position of object | Position of image | Size of image | Nature of image |\n|---|---|---|---|\n| At infinity | At F2 | Diminished | Erect and virtual |\n| Between infinity and lens | Between F2 and lens | Diminished | Erect and virtual |"
+    ],
+    "image_descriptions": [
+      "Ray diagrams showing image formation for a convex lens for objects at infinity, beyond 2F1, at 2F1, and between F1 and 2F1."
+    ],
+    "details": {
+      "summary": "Rules and diagrams for image formation by convex lenses."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 27
+  },
+  {
+    "id": "CDS-PHYS-604-001",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Image Formation by Lenses",
+    "text": "<p><strong>Image Formation by Convex Lens:</strong></p><ul><li><strong>Object at F1:</strong> The image formed is real, inverted, and highly enlarged at infinity.</li><li><strong>Object between F1 and O:</strong> The image formed is behind the object, virtual, erect and enlarged.</li></ul><p><strong>Image Formation by Concave Lens:</strong></p><ul><li><strong>Object at infinity:</strong> The image formed is at F2, erect, virtual and diminished.</li><li><strong>Object anywhere between infinity and lens:</strong> The image formed is between F2 and lens, erect, virtual and diminished.</li></ul><p><strong>Lens Formula and Magnification:</strong></p><ul><li>If v is the image distance, u is the object distance and f is the focal length of a lens, then 1/f = 1/v - 1/u.</li><li>Magnification, m = v/u = I/O = Size of image / Size of object.</li><li>If the magnification m has a positive value, the image is virtual and erect. If the magnification m has a negative value, the image is real and inverted.</li><li>If m is the total magnification of two lenses in contact having magnification m1 and m2, then m = m1 * m2.</li><li>Power (P) of a lens is the reciprocal of focal length of lens i.e., P = 1/f. SI unit of power is dioptre (D).</li><li>If two or more lenses are combined, there is an increase in the magnification of image, the final image is erect, and the spherical aberration is reduced.</li><li>If P is power of two lenses in contact having powers P1 and P2, then P = P1 + P2 or 1/F = 1/f1 + 1/f2.</li><li>If two lenses of equal focal length but of opposite nature are in contact, then combination will behaves as a plane glass plate and f = infinity.</li><li><strong>Note:</strong> When lens is dipped in a liquid of higher refractive index the focal length increases and convex lens behaves as concave lens and vice-versa. An air bubble trapped in water or glass appears as convex but behaves as concave lens.</li></ul>",
+    "formulas": [
+      "1/f = 1/v - 1/u",
+      "m = v/u = I/O",
+      "m = m1 * m2",
+      "P = 1/f",
+      "P = P1 + P2",
+      "1/F = 1/f1 + 1/f2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Ray diagram showing object at F1 for a convex lens resulting in image at infinity.",
+      "Ray diagram showing object between F1 and O for a convex lens resulting in a virtual, erect, and enlarged image behind the object.",
+      "Ray diagram showing object at infinity for a concave lens resulting in image at F2.",
+      "Ray diagram showing object between infinity and lens for a concave lens resulting in a virtual, erect, and diminished image."
+    ],
+    "details": {
+      "summary": "Covers image formation rules for convex and concave lenses, lens formula, magnification, power of lenses, lens combinations, and refractive index effects."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 28
+  },
+  {
+    "id": "CDS-PHYS-604-002",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Properties of Light and Dispersion",
+    "text": "<p><strong>Dispersion of Light:</strong></p><ul><li>Sir Isaac Newton observed that when a narrow beam of light is incident on a prism, the emergent beam is not only deviated but at the same time splits into a coloured band of seven colours. This phenomenon is called dispersion of light.</li><li>The seven colours of band are Violet, Indigo, Blue, Green, Yellow, Orange and Red (can be memorised as VIBGYOR).</li><li>The colour of an object is determined by the colour of the light reflected by it.</li><li>Violet colour deviates through maximum angle and red colour deviates through the minimum angle.</li><li>Rainbow is formed due to the dispersion of light suffering refractions and total internal reflection in the droplets present in the atmosphere.</li></ul><p><strong>Primary Colours:</strong></p><ul><li>Red, green and blue are called primary colours or basic colours.</li></ul><p><strong>Mixing of Colours:</strong></p><ul><li>Red + Green + Blue = White</li><li>Red + Blue = Magenta</li><li>Blue + Green = Peacock blue (or Cyan)</li><li>Red + Green = Yellow</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explains the dispersion of light through a prism, the VIBGYOR spectrum, rainbow formation, and additive colour mixing."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 28
+  },
+  {
+    "id": "PHYS-OPTICS-001",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Light Phenomena",
+    "text": "<ul><li>Magenta, Cyan and Yellow, etc., are called secondary colours.</li><li>A rose appears red, when day light falls on it because it absorbs all the constituent colour of white light except red which it reflects to us.</li><li>If all the colours of white light are reflected back from the object, then it appears white.</li><li>If all the colours of white light are absorbed by the object, then it appears black.</li><li>The natural colours of transparent objects are due to their selective transmission of light.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Basic properties of light reflection and color perception."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 29
+  },
+  {
+    "id": "PHYS-OPTICS-002",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Scattering of Light",
+    "text": "<ul><li><strong>Scattering of Light:</strong> When sunlight passes through the earth’s atmosphere, much of the light is absorbed by the fine dust particles and air molecules in the atmosphere which give out the absorbed light in some other direction. This is scattering of light.</li><li>The scattering of light by particle in its path is called Tyndall effect.</li><li>The blue coloured light present in white sunlight is scattered much more easily by air molecules causes the blue colour of the sky.</li><li>The sun and the surrounding sky appear red at sunrise and at sunset because at that time most of blue colour present in sunlight has been scattered out and away from our line of sight, leaving behind mainly red colour in the direct sunlight beam that reaches our eyes.</li><li>Dangers signals are of red colour because red colour of light scatter least and therefore signals can be seen from far.</li><li>If the earth had no atmosphere, there would have been no scattering of sunlight at all. In that case, no light from the sky would have entered our eyes and the sky would have looked dark and black to us.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of scattering, Tyndall effect, and atmospheric light phenomena."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 29
+  },
+  {
+    "id": "PHYS-OPTICS-003",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Interference and Diffraction of Light",
+    "text": "<ul><li><strong>Interference of Light:</strong> When two waves of exactly same frequency travels in a medium, in the same direction simultaneously, then due to their superposition at same points, intensity of light is maximum while at some other points intensity is minimum. This phenomenon is called interference of light.</li><li>Thin layer of oil on water surface and soap bubbles show various colours in white light due to interference of waves reflected from the two surfaces of the film.</li><li>Polarisation is the only phenomenon which proves that light is a transverse wave.</li><li><strong>Diffraction of Light:</strong> If an opaque obstacle is kept between a source of light and a screen, a sufficiently distinct shadow is obtained on the screen. This shows that light which travels the obstacle is small. There is a departure from straight line propagation and so the light bends round the corners of obstacle and enters in the geometrical shadow. This bending of the light is called diffraction.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and examples of interference, polarization, and diffraction."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 29
+  },
+  {
+    "id": "PHYS-OPTICS-004",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Human Eye and Defects",
+    "text": "<ul><li><strong>Human Eye:</strong> An optical instrument which forms real image of the objects.</li><li>The ability of an eye to focus the distant objects as well as the nearby objects on the retina by changing the focal length of its lens is called accommodation.</li><li>Least distance of distinct vision is 25 cm.</li><li>Far point of normal eye is at infinity.</li><li><strong>Defects of Human Eye:</strong></li><li><strong>Myopia:</strong> A person suffering from myopia can see the near objects clearly while far objects are not clear; concave lens is used to remove it. Myopia is caused (i) due to high converging power of eye lens or (ii) due to eye ball being too long.</li><li><strong>Hypermetropia:</strong> A person suffering from hypermetropia can see the distant objects clearly but not the near objects. Caused (i) due to low converging power of eye lens or (ii) due to eye ball being too short.</li><li><strong>Presbyopia:</strong> In the old age, the power of accomodation of the eye is so much lost that a person can neither see the near objects distinctly nor the distant objects. To correct this defect bifocal lens is used.</li><li><strong>Astigmatism:</strong> In this defect, a person cannot distantly see the horizontal and vertical lines, simultaneously at a normal distance. To correct this defect, cylindrical lens is used.</li><li><strong>Cataract:</strong> In this defect, an opaque, white membrane is developed on cornea due to which a person loses power of vision partially or completely. This defect can be removed by removing this membrane through surgery.</li><li><strong>Note:</strong> Colour blindness is a genetic disorder which occurs by inheritance. John Dalton was colour blind.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of human eye function and common vision defects."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 29
+  },
+  {
+    "id": "PHYS-OPTICS-005",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Optical Magnifying Instruments",
+    "text": "<ul><li><strong>Microscope:</strong> An instrument used to see objects that are too small for the naked eye.</li><li>A simple microscope consists of a convex lens of small focal length.</li><li>It is used to see the details of very small objects.</li><li>The magnifying power of a simple microscope is given by M = 1 + (D/f), where D is least distance of distinct vision.</li><li>For compound microscope m = m_o * m_e, where m_o is magnification of objective lens and m_e is magnification of eye-piece.</li></ul>",
+    "formulas": [
+      "M = 1 + (D/f)",
+      "m = m_o * m_e"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Principles of simple and compound microscopes."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 29
+  },
+  {
+    "id": "CDS-PHYS-606-001",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Telescope",
+    "text": "<p><strong>Telescope</strong> is an optical instrument used for observing distinct images of heavenly bodies like stars, planets, etc., when the final image is formed at infinity.</p><ul><li><strong>Types of telescopes:</strong><ul><li>Astronomical telescope (invented by Kepler in 1611)</li><li>Galilean telescope (invented by Galileo in 1609)</li></ul></li><li><strong>Astronomical telescope:</strong> Objective lens is a convex lens of large focal length; eye-piece is a convex lens of short focal length.</li><li><strong>Galilean telescope:</strong> Objective lens is a convex lens of large focal length; eye-piece is a concave lens of short focal length.</li><li><strong>Periscope:</strong> Consists of two plane mirrors inclined at an angle of 45°. The principle of working of periscope is based upon reflection and refraction.</li></ul>",
+    "formulas": [
+      "m = f_o / f_e",
+      "L = f_o + f_e (Astronomical)",
+      "L = f_o + f_e (Galilean)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of telescope types, their lens configurations, and basic periscope principles."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 30
+  },
+  {
+    "id": "CDS-PHYS-606-002",
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "topic": "Electric Charge",
+    "text": "<p>Charge is the basic property associated with matter due to which it produces and experiences electrical and magnetic effects. The SI unit of electric charge is <strong>Coulomb</strong>.</p><ul><li>Protons possess a positive charge of 1.6 x 10^-19 C.</li><li>Electrons possess a negative charge of 1.6 x 10^-19 C.</li><li>Similar charges repel each other and opposite charges attract each other.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and fundamental properties of electric charge."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 30
+  },
+  {
+    "id": "CDS-PHYS-606-003",
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "topic": "Conservation of Charges and Materials",
+    "text": "<p>When two or more charged bodies come in contact, then total charge on all the bodies are conserved.</p><ul><li><strong>Conductors:</strong> Substances that allow passage of electrical charges and have very low electrical resistance (e.g., copper, aluminium, gold, silver). Human body and earth act like a conductor. Silver is the best conductor.</li><li><strong>Resistors:</strong> Offer high resistance to the flow of current (e.g., eureka, nichrome).</li><li><strong>Insulators:</strong> Have infinite resistance and do not allow the passage of current (e.g., rubber, glass, ebonite).</li><li><strong>Note:</strong> The presence of free electrons in a substance makes it a conductor.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Conservation of charge and classification of materials based on electrical conductivity."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 30
+  },
+  {
+    "id": "CDS-PHYS-606-004",
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "topic": "Coulomb's Law",
+    "text": "<p>The force of attraction or the force of repulsion acting between the two point charges is proportional to the product of the magnitudes of the two charges and inversely proportional to the square of the distance between them.</p>",
+    "formulas": [
+      "F = (1 / 4 * pi * epsilon_0) * (q_1 * q_2 / r^2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Mathematical expression of Coulomb's Law."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 30
+  },
+  {
+    "id": "CDS-PHYS-606-005",
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "topic": "Electric Field and Potential",
+    "text": "<p><strong>Electric Field:</strong> The region around an electric charge in which its effect can be experienced.</p><p><strong>Electric Potential:</strong> The work done in bringing a unit positive charge from infinity to that point.</p><ul><li>Potential difference (V_A - V_B) between two points A and B is the work done in bringing a unit charge from point B to point A.</li><li>Potential difference is a scalar quantity and is measured by means of voltmeter.</li><li>The electric potential inside a spherical surface is same at each point and is equal to the potential on the surface.</li><li>Electric potential on earth is considered to be zero.</li><li>A voltmeter connected in parallel with conductor measures the potential difference across its ends.</li><li>Voltage is the other name for potential difference.</li></ul>",
+    "formulas": [
+      "Electric field intensity (E) = F / q_0",
+      "Electric potential = Work done / Charge"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties of electric field and electric potential."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 30
+  },
+  {
+    "id": "CDS-PHYS-606-006",
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "topic": "Electric Current",
+    "text": "<p>The rate of flow of electric charges through any cross-section of conductor is called electric current. The direction of positive charges is same as direction of conventional current.</p><ul><li>The SI unit of electric current is ampere.</li><li>Current is measured by an instrument called ammeter.</li><li>An ammeter is connected in series with the conductor to measure the current passing through it.</li></ul>",
+    "formulas": [
+      "Current = Charge / Time => I = Q / t"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition, measurement, and SI units of electric current."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 30
+  },
+  {
+    "id": "phys-elec-001",
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "topic": "Electric Current and Galvanometer",
+    "text": "<p>There are two types of electric current: (i) Alternating current (AC) and (ii) Direct current (DC).</p><ul><li>Alternating current is used in houses and factories and its frequency is 50 Hz.</li><li>Ordinary DC ammeter and DC voltmeter cannot measure alternating current/voltages. They record zero reading, when used in AC circuits, because average value of alternating current/voltage over a full cycle is zero.</li></ul><p><strong>Galvanometer</strong></p><p>It is a device used to detect and measure electric current in a circuit. It can measure current up to 10^-6 A. A galvanometer can be converted into a voltmeter by connecting a very high resistance in its series.</p><p><strong>Note:</strong> Conventionally the direction of electric current is opposite to that of electrons. Since, electrons flow from negative terminal of a cell to its positive terminal, electric current flows from positive terminal to negative terminal.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of AC/DC current, frequency, and the function/conversion of a galvanometer."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 31
+  },
+  {
+    "id": "phys-elec-002",
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "topic": "Capacitor",
+    "text": "<p>A capacitor or condenser is a device over which a large amount of charge can be stored.</p><ul><li>Capacitance of capacitor (C) = Charge (Q) / Potential (V)</li><li>Its unit is coulomb/volt or farad.</li><li>A capacitor is used in several electrical devices having an electric motor and in several electronic circuits.</li></ul>",
+    "formulas": [
+      "C = Q / V"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and usage of a capacitor."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 31
+  },
+  {
+    "id": "phys-elec-003",
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "topic": "Ohm's Law and Resistance",
+    "text": "<p><strong>OHM'S LAW</strong></p><p>If the physical circumstances of the conductor (length, temperature, etc) remains constant then the current flowing through the conductor is directly proportional to the potential difference across its ends.</p><p>i.e., I ∝ V or V = IR, where R is resistance.</p><p><strong>Resistance</strong></p><p>The resistance of a conductor is directly proportional to its length and inversely proportional to its cross-sectional area. If l and A are respectively length and cross-sectional area of a conductor and R is its resistance, then R ∝ l/A => R = ρ(l/A).</p><ul><li>Unit of resistance is ohm (Ω).</li><li>ρ is a constant of material of conductor called specific resistance or resistivity. Its SI unit is ohm-metre.</li><li>On increasing the temperature of the metal, its resistance increases.</li><li>Those materials whose electrical conductivity lies in between that of insulators and conductors are called semiconductors. On increasing the temperature of semiconductor, its resistance decreases.</li></ul>",
+    "formulas": [
+      "I ∝ V",
+      "V = IR",
+      "R = ρ(l/A)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of Ohm's Law and the factors affecting electrical resistance."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 31
+  },
+  {
+    "id": "phys-elec-004",
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "topic": "Conductance and Resistivity",
+    "text": "<ul><li>The reciprocal of resistance of a conductor is called the electrical conductance of the conductor. Conductance = 1 / Resistance.</li><li>Unit of conductance is mho or siemen.</li><li>The specific resistance of the material depends only on the material of conductor and its temperature.</li><li>Resistivity increases with temperature.</li><li>Resistivity of a conductor change with impurity.</li><li>Resistivity of an alloy is greater than the resistivity of its constituents and remains unchanged with temperature.</li><li>The reciprocal of resistivity of a conductor is called its conductivity. Its SI unit is mho m^-1 or siemen/metre (Sm^-1).</li><li>If a wire is stretched or doubled on itself, its resistance will change, but its specific resistance will remains unaffected.</li></ul>",
+    "formulas": [
+      "Conductance = 1 / Resistance"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties of conductance, resistivity, and conductivity."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 31
+  },
+  {
+    "id": "phys-elec-005",
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "topic": "Combination of Resistances",
+    "text": "<p>There are two combinations given below:</p><p>(i) <strong>Series combination:</strong> R = R1 + R2 + R3 and here current flows through each conductor is same. The total resistance in the series combination is more than the greatest resistance in the circuit.</p><p>(ii) <strong>Parallel combination:</strong> 1/R = 1/R1 + 1/R2 + 1/R3 and here potential across each conductor is same. The total resistance in parallel combination is less than the least resistance of the circuit.</p>",
+    "formulas": [
+      "R = R1 + R2 + R3",
+      "1/R = 1/R1 + 1/R2 + 1/R3"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Circuit diagram showing three resistors R1, R2, R3 in series connected to a voltage source E.",
+      "Circuit diagram showing three resistors R1, R2, R3 in parallel connected to a voltage source E."
+    ],
+    "details": {
+      "summary": "Comparison of series and parallel resistor combinations."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 31
+  },
+  {
+    "id": "phys-elec-006",
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "topic": "Electric Power",
+    "text": "<p>Electrical power is the electrical work done per unit time.</p><p>P = W/t or P = V x I</p><p>or P = I^2R (since V = IR)</p><p>or P = V^2/R</p><p>Its SI unit is watt (W).</p>",
+    "formulas": [
+      "P = W/t",
+      "P = V x I",
+      "P = I^2R",
+      "P = V^2/R"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and formulas for calculating electric power."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 31
+  },
+  {
+    "id": "PHYS-608-001",
+    "subject": "Physics",
+    "chapter": "Electricity and Magnetism",
+    "topic": "Heating Effect of Electric Current",
+    "text": "<p>Heat is produced when electric current is passed through a conductor. This effect is called the heating effect of electric current.</p><ul><li><strong>Note:</strong> The filament of an electric bulb gets very hot and easily oxidised. Thus, bulbs are sealed with inactive nitrogen and argon gases to prevent oxidation of the filament and increase its life. In electric bulbs, tungsten is used for the construction of the filament because it has a high melting point.</li></ul><p><strong>Important Points Based on Heating Effect:</strong></p><ul><li>In home appliances like electric iron, electric heater, and heating rod, the heating element used is of a nichrome (an alloy of Ni and Cr) wire. Nichrome has a high melting point and high resistivity. To avoid the risk of electric shock, the metal body of electrical appliances is earthed.</li><li>An electric fuse is generally prepared from tin-lead alloy (63% tin + 37% lead). It should have high resistance and low melting point. It is connected in the series.</li><li>Tubelight contains a long tube of glass which is linked internally with a fluorescent substance. It is filled with an inert gas like argon along with some mercury.</li></ul>",
+    "formulas": [
+      "Heat produced = I^2Rt = VIt = (V^2t)/R joule"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers the heating effect of electric current, properties of filaments, and practical applications like fuses and heating elements."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 32
+  },
+  {
+    "id": "PHYS-608-002",
+    "subject": "Physics",
+    "chapter": "Electricity and Magnetism",
+    "topic": "Magnets and Magnetic Field",
+    "text": "<p><strong>Magnetic Effect of Current:</strong> When electricity passes through insulated copper wire, it develops a magnetic field around it. Larger the amount of electricity, stronger the magnetic field. And when we place a compass needle in the radius of the magnetic field it diverts from its North-South position.</p><p><strong>Magnets:</strong> A magnet is a piece of iron or other materials that can attract iron-containing objects and the property of attracting the magnetic substance by a magnet is called magnetism.</p><ul><li>The magnets which do not lose their magnetism with normal treatment are called permanent magnets.</li><li>The materials which retain their magnetism for a long time are called hard magnetic materials.</li><li>In bar, rod and horse-shoe magnets, North or South poles are either indicated by the letter N or S.</li><li>When poles of two magnets are brought close together, they exert force on each other. This force is called intersection between the poles.</li><li>If we cut a magnet in two parts, then each separate part will behave as a magnet.</li><li>Permanent magnets are usually made of alloys such as carbon steel, chromium steel, cobalt steel, tungsten steel and alnico (alloy of aluminium, nickel, cobalt and iron).</li><li>Such permanent magnets are used in microphones, loudspeakers, electric clocks, ammeters, voltmeters, speedometer and many other devices.</li><li><strong>Note:</strong> The Magnetic Resonance Imaging (MRI) technique which is used to scan inner human body parts in hospitals also uses magnets for its working.</li></ul><p><strong>Magnetic Field:</strong> The space in the surrounding of a magnet or a current carrying conductor in which its magnetic effect can be experienced is called magnetic field.</p><ul><li>Magnetic lines of force are imaginary lines in the magnetic field, which shows the direction of magnetic field continuously.</li><li>The magnetic field lines originate from the North pole of a magnet and end at its South pole.</li><li>The magnetic field lines do not intersect one another.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties of magnets, magnetic fields, and permanent magnets."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 32
+  },
+  {
+    "id": "PHYS-608-003",
+    "subject": "Physics",
+    "chapter": "Electricity and Magnetism",
+    "topic": "Magnetic Materials and Electromagnet",
+    "text": "<p><strong>Magnetic Materials:</strong> According to behaviour of magnetic substances, they are classified into three classes:</p><ul><li><strong>Diamagnetic substances:</strong> Substances which when placed in an external magnetic field, acquire a very low magnetism in direction opposite to the field. e.g. copper, silver, bismuth, zinc, diamond, salt, water, mercury, etc. The permeability of diamagnetic substance is less than one.</li><li><strong>Paramagnetic substances:</strong> Substances which when placed in an external field, acquire a feeble magnetism in the direction of field. e.g. aluminium, sodium, potassium, oxygen, etc. The permeability of paramagnetic substance is slightly greater than one.</li><li><strong>Ferromagnetic substances:</strong> Substances which when placed in a magnetic field, acquire a strong magnetism in the direction of field. These substances when brought near the end of a strong magnet get radially attracted towards it. e.g. iron, nickel, cobalt, magnetite, etc. The permeability of ferromagnetic substance is much greater than one.</li></ul><p><strong>Electromagnet:</strong> An electromagnet is a solenoid coil that attains magnetism due to flow of current. It works on the principle of magnetic effect of current. It is used in electric bells, electric motors, telephone, diaphragms, loudspeakers etc.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification of magnetic materials (diamagnetic, paramagnetic, ferromagnetic) and definition of electromagnets."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 32
+  },
+  {
+    "id": "PHYS-EM-001",
+    "subject": "Physics",
+    "chapter": "Electromagnetism and Modern Physics",
+    "topic": "Magnetic Flux and Electromagnetic Induction",
+    "text": "<p><strong>Magnetic Flux:</strong> The magnetic flux linked with a surface is equal to the total number of magnetic lines of force passing through that surface normally. Its unit is weber.</p><p><strong>Electromagnetic Induction:</strong> When a change occurs in the magnetic flux linked with the coil, an emf is induced in the coil. The phenomenon is called electromagnetic induction.</p><ul><li>The phenomenon of production of induced emf in a circuit due to change in magnetic flux in its neighbouring circuit is called <strong>mutual induction</strong>.</li><li>When the electric current flowing through a circuit changes, the magnetic flux linked with circuit also change. As a result an induced emf is set up in the circuit. This phenomenon is called <strong>self-induction</strong>.</li><li>Microphone converts sound energy into electrical energy and works on the principle of electromagnetic induction.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and principles of magnetic flux, electromagnetic induction, mutual induction, and self-induction."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 33
+  },
+  {
+    "id": "PHYS-EM-002",
+    "subject": "Physics",
+    "chapter": "Electromagnetism and Modern Physics",
+    "topic": "Electric Generator and Transformer",
+    "text": "<p><strong>Electric Generator:</strong> It is a device which converts mechanical energy into electrical energy. An electric generator is based on the principle of electromagnetic induction. It is used to produce electric current by varying magnetic field through a coil.</p><ul><li>A generator can produced both alternating current and direct current.</li><li>AC generator consists of slip rings, armature, magnet and brushes while DC generator consists of magnet commutator, armature and brushes.</li><li>Note: Electric motor is a rotating device which converts electrical energy into mechanical energy.</li></ul><p><strong>Transformer:</strong> Transformer is a device which converts low voltage AC into high voltage AC and high voltage AC into low voltage AC. It is based on mutual induction.</p><ul><li>Core of a transformer is made up of soft iron.</li><li>Step-up transformer converts a low voltage of high current into a high voltage of low current.</li><li>Step-down transformer converts a high voltage of low current into a low voltage of high current.</li><li>The main energy losses in a transformer are given below: (a) Iron loss, (b) Flux loss, (c) Hysteresis loss, (d) Humming loss.</li><li>Transformer is used in voltage regulators, refrigerators, computer, air conditioner.</li><li>Step-down transformer is used for welding purpose.</li><li>Audio transformer allowed telephone circuits to carry on a two-way conversation over a single pair of wires.</li><li>Radio frequency transformers are used in radio communication.</li><li>Note: A mobile phone charger is one of the best example of step down transformer as it extracts the power from the home supply (AC 220V) and convert it to DC of required voltage.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Working principles and applications of electric generators and transformers."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 33
+  },
+  {
+    "id": "PHYS-MOD-001",
+    "subject": "Physics",
+    "chapter": "Electromagnetism and Modern Physics",
+    "topic": "Cathode Rays and X-Rays",
+    "text": "<p><strong>Cathode Rays:</strong> If the gas pressure in a discharge tube is 10^-2 to 10^-3 mm of Hg and a potential difference of 10^4 V is applied between the electrode, then a beam of electrons emerges from the cathode which is called cathode rays.</p><ul><li>Cathode rays are invisible and travel in a straight line.</li><li>These rays are deflected by electric and magnetic fields.</li><li>These rays can ionise gases.</li><li>They can produce chemical change and thus affect a photographic plate.</li><li>When they strike a target of heavy metal such as tungsten, they produce X-rays.</li></ul><p><strong>X-Rays:</strong> When cathode rays strike on a heavy metal of high melting points, then a very small fraction of its energy converts into a new type of waves, called X-rays.</p><ul><li>X-rays are electromagnetic waves and these produce photoelectric effect.</li><li>X-rays were discovered by scientist Roentgen.</li><li>These produce illumination on falling the fluorescent substances and travel in a straight line with the speed of light.</li><li>X-rays penetrate through different depth into different substances.</li><li>Soft X-rays have greater wavelength and lower frequency and hard X-rays have lower wavelength and higher frequency.</li><li>X-rays ionise gases through which they pass.</li><li>X-rays are not deflected by electric and magnetic fields.</li><li>They show all the important properties of light rays like, reflection, refraction, interference, diffraction and polarisation, etc.</li><li>X-rays are used in surgery, radiotherapy, engineering department and searching.</li><li>Note: Barium and Iodine are some chemicals used as contrast mediums for X-ray based imaging method. i.e. they absorbs X-ray to highlight the targeted body part.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties and applications of cathode rays and X-rays."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 33
+  },
+  {
+    "id": "physics-610-001",
+    "subject": "Physics",
+    "chapter": "Modern Physics",
+    "topic": "Positive or Canal Rays",
+    "text": "<p>These rays are positively charged particles and are called <strong>positive rays</strong> or <strong>canal rays</strong>. These rays were discovered by <strong>Goldstein</strong>.</p><ul><li>These rays can affect the photographic plates.</li><li>These rays are capable of producing physical and chemical changes.</li><li>These rays are deflected by electric and magnetic fields.</li><li>These rays can produce fluorescence and phosphorescence.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of discovery and properties of positive/canal rays."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 34
+  },
+  {
+    "id": "physics-610-002",
+    "subject": "Physics",
+    "chapter": "Modern Physics",
+    "topic": "Fluorescence and Phosphorescence",
+    "text": "<p><strong>Fluorescence:</strong> Some substances absorb the light of higher frequency or shorter wavelength and emits a light having lower frequency or higher wavelength in the presence of light source. This phenomenon of emission of light is called fluorescence. Such substances are called fluorescence substances.</p><ul><li>Fluoresphor, petrol, uranium oxide and barium platino cyanide are examples of fluorescence substances.</li><li>Barium platino cyanide is used in search of X-rays.</li></ul><p><strong>Phosphorescence:</strong> Some substances after being kept in sunlight for sometime emit light even after the light source is removed. This phenomenon is called phosphorescence. Zinc sulphide, calcium sulphide and barium sulphide are examples of phosphorescence.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and examples of fluorescence and phosphorescence."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 34
+  },
+  {
+    "id": "physics-610-003",
+    "subject": "Physics",
+    "chapter": "Modern Physics",
+    "topic": "Compact Fluorescent Lamp (CFL)",
+    "text": "<p>Compact fluorescent lamp converts electrical energy into radiant energy.</p><ul><li>It has two components: <ul><li>A glass tube filled with argon and mercury vapour and coated with layer of fluorescent materials.</li><li>An electronic ballast circuit.</li></ul></li><li>The ballast circuit (small circuit board with rectifiers, a filter capacitor and usually two switching transistors) takes a 220V input from external power source and sends a current into the fluorescent tube as output.</li><li>When power supply is given to the CFL, filament attached with the cathode heats up and emits electrons in the tube. This ionises the argon and mercury vapour particles, causing it, ultraviolet light emission.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Working principle and components of a CFL."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 34
+  },
+  {
+    "id": "physics-610-004",
+    "subject": "Physics",
+    "chapter": "Modern Physics",
+    "topic": "Photoelectric Effect",
+    "text": "<p>When the ultraviolet rays (or the visible light of low wavelength or any other kind of electromagnetic radiation) are made incident on a metal, the electrons are emitted from it. This phenomenon is called the <strong>photoelectric emission</strong> or <strong>photoelectric effect</strong>.</p><p>Photoelectric cell is based on photoelectric effect. It is a device by which light energy is converted into the electrical energy.</p><p><strong>Applications of photoelectric effect:</strong></p><ul><li>In reproduction of sound in cinema, television and photo telegraphy.</li><li>In automatic switches for street lights.</li><li>In photoelectric sorters.</li><li>To control the temperature in furnace and in chemical process.</li><li>In industries for locating minor flows or holes in metallic sheets.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and applications of the photoelectric effect."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 34
+  },
+  {
+    "id": "physics-610-005",
+    "subject": "Physics",
+    "chapter": "Modern Physics",
+    "topic": "Semiconductors and Special Purpose Diodes",
+    "text": "<p><strong>Semiconductor:</strong> Semiconductors are those materials whose electrical conductivity at room temperature lies in between that of insulator and conductor. A semiconductor in an extremely pure form is known as <strong>intrinsic semiconductor</strong>.</p><ul><li>If a measured and small amount of chemical impurity is added to intrinsic semiconductor, it is called <strong>extrinsic semiconductor</strong> or <strong>doped semiconductor</strong>.</li><li>External semiconductors are of two types: (i) n-type semiconductor (ii) p-type semiconductor.</li><li>An extrinsic semiconductor in which electrons are majority charge carrier is called <strong>n-type semiconductor</strong>.</li><li>An extrinsic semiconductor in which holes are the majority charge carrier is called <strong>p-type semiconductor</strong>.</li></ul><p><strong>Special Purpose Diodes:</strong></p><ul><li>An arrangement consisting a p-type semiconductor brought into a close contact with n-type semiconductor is called a <strong>p-n junction</strong> or <strong>p-n junction diode</strong>.</li><li>A device which converts alternating current (AC) or voltage into direct current (DC) is known as <strong>rectifier</strong>. DC can be converted into AC with the help of an inverter.</li><li><strong>LED:</strong> LED's are specially designed diode made up of GaAsP, GaP and are used in electronic gadgets as indicator light. It is used as a rectifier which converts an alternating current into direct current. LED's light up very quickly. A typical red indicator LED will achieve full brightness in microseconds. LED or semiconductor laser is used to convert electrical energy into optical energy.</li><li><strong>Zener diode:</strong> is a highly doped p-n junction diode which is not damaged by high reverse current. It can be used as voltage regulator.</li><li><strong>Photo diode:</strong> is a special p-n junction diode fabricated with a transparent window to allow light to fall on the diode. It is used in reverse biasing.</li><li><strong>Note:</strong> Diode valve acts as a rectifier and triode valve can be used as amplifier oscillator and detector.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification of semiconductors and types of special purpose diodes."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 34
+  },
+  {
+    "id": "phys-611-001",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Solar Cell",
+    "text": "<p><strong>Solar cell</strong> is a <em>p-n</em> junction device which converts solar energy into electrical energy. It consists of a silicon or gallium arsenide <em>p-n</em> junction.</p><p><strong>Uses of Solar Cell:</strong></p><ul><li>Solar cells are used as solar cooker.</li><li>Solar cells are used in wrist watches, calculators and light meters.</li><li>Solar cells are also used in artificial satellite to provide power inside the satellite.</li><li>Solar cells are used for charging storage batteries.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and applications of solar cells."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 35
+  },
+  {
+    "id": "phys-611-002",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Integrated Circuits",
+    "text": "<p>An <strong>IC</strong> can be defined generally as an arrangement of multifunction semiconductor devices. It consists of a single crystal chip of silicon, nearly 1.5 mm<sup>2</sup> in cross-section.</p><p>TV remote control is an electronic device containing an IC and few other components. If a key on a remote control is pressed, it emits infrared signals which are received by the electronic circuit of the TV receiver, etc.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of Integrated Circuits and example of TV remote control."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 35
+  },
+  {
+    "id": "phys-611-003",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "LASER",
+    "text": "<p>The word <strong>LASER</strong> is the short form of <em>Light Amplification by Stimulated Emission of Radiation</em>. It is an optical device, which produces an intensive beam highly coherent, monochromatic light.</p><p><strong>Applications of laser rays:</strong></p><ul><li>Laser rays are used in treatment of detached retina, treatment of skin cancer and surgery of brain.</li><li>Laser beams are used in signals and radio communications.</li><li>The property of high intensity is used to cut hard metals.</li><li>The weather informations are collected with the help of radar, an instrument based on the properties of laser.</li><li>The laser rays are parallel and do not spread. This property of laser rays is used in the measurement of long distance.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and applications of LASER."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 35
+  },
+  {
+    "id": "phys-611-004",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Communication",
+    "text": "<p>The term <strong>communication</strong> refers to the transmitting receiving and processing of information by electronic means. A basic communication system consists of an information source, a transmitter, a link and a receiver.</p><ul><li>Electromagnetic waves which are used in radio, television and other communication system are radiowaves and micro waves.</li><li><strong>Ground wave propagation:</strong> The radio wave travel through atmosphere following the surface of the earth from transmitting antenna to receiving antenna. Useful for low range frequencies upto 1500 kHz.</li><li><strong>Space wave propagation:</strong> Utilises electromagnetic waves of very high frequency band (30 MHz to 300 MHz), ultra high frequency band (300 MHz to 3000 MHz) and microwaves (100 GHz to 300 GHz).</li><li><strong>Sky wave propagation:</strong> The radio waves from the transmitting antenna reach the receiving antenna after entering in ionosphere. The sky wave frequency lies between 2 MHz to 30 MHz.</li><li><strong>Communication satellite:</strong> A space craft provided with microwave receiver and transmitter, placed in an orbit around the earth. Used in mobile communication, metrology and weather forecasting.</li><li><strong>Remote sensing:</strong> Technique to obtain information about an object by observing it from a distance without contact.</li><li><strong>Cables:</strong> Parallel wire lines (TV receiver), Twisted pair wires (telephone system), Coaxial cables (long distance high frequency transmission).</li><li><strong>Maser:</strong> Microwave Amplification by Stimulated Emission of Radiation. Used to produce very high magnetic field and in radio astronomy.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of communication systems, wave propagation types, and satellite/cable technologies."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 35
+  },
+  {
+    "id": "phys-611-005",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Optical Communication",
+    "text": "<p>It is a better communication system for large number of channels and higher bandwidth transmission. Now-a-days <strong>optical fibres</strong> of very small diameters (≈ 10<sup>-5</sup> m) are used in optical communication.</p><p><strong>Advantages of optical communication:</strong></p><ul><li>In optical fibres energy losses are less.</li><li>Secret information like banking, defence, etc., is more secure because optical signal is confined to the inside of fibre and cannot be tampered easily.</li><li>It can be used at high frequencies (≈ 10<sup>14</sup> Hz).</li></ul><p>Phenomenon of <strong>total internal reflection</strong> is the principle behind optical fibres. Light can be transmitted along it with almost no loss.</p>",
+    "formulas": [
+      "10^-5 m",
+      "10^14 Hz"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Principles and advantages of optical communication using optical fibres."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 35
+  },
+  {
+    "id": "physics-rotational-motion-001",
+    "subject": "Physics",
+    "chapter": "Rotational Motion and Gravitation",
+    "topic": "Rotational Motion",
+    "text": "<p><strong>Rotational Motion and Gravitation</strong></p><ul><li>Torque is a vector quantity.</li><li>The rate of change of angular acceleration is equal to the torque.</li><li>The turning effect of a body is known as torque.</li><li>Torque is equal to the product of moment of inertia and angular acceleration.</li></ul>",
+    "formulas": [
+      "Torque = Moment of Inertia * Angular Acceleration"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Basic definitions and properties related to torque and rotational motion."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 39
+  },
+  {
+    "id": "physics-oscillations-waves-001",
+    "subject": "Physics",
+    "chapter": "Oscillations and Waves",
+    "topic": "Simple Harmonic Motion and Waves",
+    "text": "<p><strong>Oscillations and Waves</strong></p><ul><li>Simple harmonic motion involves a restoring force directly proportional to displacement and directed towards the mean position.</li><li>Pendulum clocks are affected by gravity and altitude.</li><li>The time period of a simple pendulum is related to its length.</li><li>Wave types include transverse and longitudinal waves.</li></ul>",
+    "formulas": [
+      "T = 2 * pi * sqrt(L / g)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Basic concepts of simple harmonic motion, pendulum mechanics, and wave classification."
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 45
   }
 ]
