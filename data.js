@@ -174,7 +174,7 @@ let MILITARY_EXERCISES_LIVE = {
         "Bilateral Exercise"
       ],
       "confidence_score": "98%",
-      "last_verified": "2026-10-11"
+      "last_verified": "2026-10-12"
     },
     {
       "id": "me_20261005_mountguardian26",
@@ -234,7 +234,8 @@ let MILITARY_EXERCISES_LIVE = {
         "Joint tactical drills",
         "Special forces operations (implied by counter-terrorism focus)",
         "Combat conditioning",
-        "Logistics exercises"
+        "Logistics exercises",
+        "Operational planning"
       ],
       "strategic_significance": "This exercise strengthens the defence cooperation between India and the UAE, a key partner in the Gulf region. The focus on mountain warfare and counter-terrorism is crucial for addressing contemporary security challenges. It enhances the capabilities of both armies to operate in challenging terrains and contributes to regional stability and security.",
       "takeaways": [
@@ -259,7 +260,7 @@ let MILITARY_EXERCISES_LIVE = {
         "Bilateral Exercise"
       ],
       "confidence_score": "99%",
-      "last_verified": "2026-10-11"
+      "last_verified": "2026-10-12"
     },
     {
       "id": "me_20261011_tarangshakti",
@@ -344,10 +345,10 @@ let MILITARY_EXERCISES_LIVE = {
       "type": "Bilateral Exercise",
       "exercise_name": "KAZIND",
       "edition": "2026",
-      "status": "Ongoing",
+      "status": "Completed",
       "start_date": "2026-10-06",
-      "end_date": "",
-      "duration": "",
+      "end_date": "2026-10-12",
+      "duration": "7 days",
       "year": "2026",
       "tier": 1,
       "relevance": "High",
@@ -394,7 +395,8 @@ let MILITARY_EXERCISES_LIVE = {
       "activities": [
         "Joint tactical drills",
         "Counter-terrorism scenarios",
-        "Combat exercises"
+        "Combat exercises",
+        "72-hour validation drill"
       ],
       "strategic_significance": "KAZIND-2026 reinforces India's strategic engagement with Central Asian nations, particularly Kazakhstan, which is vital for regional security and stability. The focus on counter-terrorism is highly relevant given the evolving security landscape. It enhances the capabilities of both armies to address common threats and promotes defence diplomacy.",
       "takeaways": [
@@ -418,7 +420,7 @@ let MILITARY_EXERCISES_LIVE = {
         "Bilateral Exercise"
       ],
       "confidence_score": "98%",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-12"
     },
     {
       "id": "me_20261009_inskulish_sg",
@@ -662,7 +664,177 @@ let MILITARY_EXERCISES_LIVE = {
         "Bilateral Exercise"
       ],
       "confidence_score": "95%",
-      "last_verified": "2026-10-11"
+      "last_verified": "2026-10-12"
+    },
+    {
+      "id": "me_20261012_insmangrol_commissioning",
+      "title": "Indian Navy Commissions Indigenous Anti-Submarine Warfare Corvette INS Mangrol",
+      "type": "Commissioning",
+      "exercise_name": "",
+      "edition": "",
+      "status": "Completed",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "duration": "1 day",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India"
+      ],
+      "indian_service": [
+        "Indian Navy"
+      ],
+      "foreign_services": [],
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "India",
+        "region": "South Asia",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Maritime",
+        "Anti-Submarine Warfare",
+        "Indigenous Defence"
+      ],
+      "equipment_used": {
+        "india": [
+          "INS Mangrol"
+        ],
+        "foreign": []
+      },
+      "key_platforms": [
+        "INS Mangrol"
+      ],
+      "ships": [
+        "INS Mangrol (Anti-Submarine Warfare Corvette)"
+      ],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Induct a new indigenous Anti-Submarine Warfare (ASW) Corvette into the Indian Navy",
+        "Enhance the Indian Navy's ASW capabilities",
+        "Boost indigenous defence production and self-reliance"
+      ],
+      "activities": [
+        "Commissioning ceremony",
+        "Formal induction into the fleet"
+      ],
+      "strategic_significance": "The commissioning of INS Mangrol significantly bolsters the Indian Navy's anti-submarine warfare capabilities, crucial for safeguarding India's maritime interests in the Indian Ocean Region. As an indigenously built warship, it underscores India's growing self-reliance in defence production and its commitment to strengthening its naval power through domestic innovation. This enhances India's capacity to deter and respond to underwater threats, contributing to regional maritime security.",
+      "takeaways": [
+        "Strengthens Indian Navy's ASW fleet with a modern, indigenous platform.",
+        "Demonstrates India's progress in 'Make in India' for defence.",
+        "Enhances operational readiness against submarine threats."
+      ],
+      "exam_importance": "Questions may include: What type of ship is INS Mangrol? What is its primary role? What is the significance of its indigenous construction for India's defence? Which service commissioned INS Mangrol?",
+      "related_static_topics": [
+        "Indian Navy Ship Classes",
+        "Anti-Submarine Warfare",
+        "Indigenous Defence Production",
+        "Make in India in Defence",
+        "Indian Ocean Region Security"
+      ],
+      "keywords": [
+        "INS Mangrol",
+        "Commissioning",
+        "Indian Navy",
+        "ASW Corvette",
+        "Indigenous",
+        "Make in India"
+      ],
+      "confidence_score": "95%",
+      "last_verified": "2026-10-12"
+    },
+    {
+      "id": "me_20261012_indiajapan_maritimepact",
+      "title": "India and Japan Sign Maritime Security Pact",
+      "type": "Bilateral Agreement",
+      "exercise_name": "",
+      "edition": "",
+      "status": "Completed",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "duration": "1 day",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India",
+        "Japan"
+      ],
+      "indian_service": [
+        "Ministry of Defence (India)",
+        "Indian Navy"
+      ],
+      "foreign_services": [
+        "Ministry of Defence (Japan)",
+        "Japan Maritime Self-Defense Force"
+      ],
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "India",
+        "region": "Indo-Pacific",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Maritime Security",
+        "Defence Diplomacy",
+        "Strategic Cooperation"
+      ],
+      "equipment_used": {
+        "india": [],
+        "foreign": []
+      },
+      "key_platforms": [],
+      "ships": [],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Deepen defence cooperation between India and Japan",
+        "Enhance maritime security in the Indo-Pacific",
+        "Strengthen strategic partnership and interoperability framework"
+      ],
+      "activities": [
+        "Signing of a maritime security pact",
+        "Bilateral discussions on defence cooperation"
+      ],
+      "strategic_significance": "This maritime security pact between India and Japan is a significant step towards strengthening the Indo-Pacific security architecture. It underscores the shared commitment of both nations to a free, open, and rules-based Indo-Pacific, particularly in the face of growing regional challenges. The pact will facilitate greater information sharing, joint exercises, and coordinated responses to maritime threats, enhancing regional stability and interoperability between two key democratic powers.",
+      "takeaways": [
+        "Reinforces India's strategic partnership with Japan.",
+        "Enhances collective maritime security capabilities in the Indo-Pacific.",
+        "Signals a stronger alignment against common security challenges."
+      ],
+      "exam_importance": "Questions may include: Which two countries recently signed a maritime security pact? What is the strategic significance of this pact for the Indo-Pacific region? What are the key objectives of such agreements?",
+      "related_static_topics": [
+        "India-Japan Defence Relations",
+        "Indo-Pacific Strategy",
+        "Maritime Security",
+        "Quad Alliance",
+        "Defence Diplomacy"
+      ],
+      "keywords": [
+        "India-Japan",
+        "Maritime Security Pact",
+        "Defence Cooperation",
+        "Indo-Pacific",
+        "Bilateral Agreement"
+      ],
+      "confidence_score": "98%",
+      "last_verified": "2026-10-12"
     }
   ]
 };

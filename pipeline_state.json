@@ -17,7 +17,8 @@
       13,
       14,
       15,
-      16
+      16,
+      17
     ],
     "status": "in_progress"
   },
@@ -38,7 +39,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ],
     "status": "in_progress"
   },
@@ -59,7 +61,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ],
     "status": "in_progress"
   },
@@ -82,7 +85,8 @@
       14,
       15,
       16,
-      17
+      17,
+      18
     ],
     "status": "in_progress"
   },
@@ -103,7 +107,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ],
     "status": "in_progress"
   },
@@ -124,7 +129,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ],
     "status": "in_progress"
   },
@@ -166,7 +172,8 @@
       17,
       18,
       19,
-      20
+      20,
+      21
     ],
     "status": "in_progress"
   },
@@ -583,7 +590,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ],
     "status": "in_progress"
   },
@@ -602,7 +610,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ],
     "status": "in_progress"
   },
@@ -625,7 +634,8 @@
       14,
       15,
       16,
-      17
+      17,
+      18
     ],
     "status": "in_progress"
   },
@@ -649,7 +659,8 @@
       15,
       16,
       17,
-      18
+      18,
+      19
     ],
     "status": "in_progress"
   },
@@ -666,7 +677,8 @@
       8,
       9,
       10,
-      11
+      11,
+      12
     ],
     "status": "in_progress"
   },
@@ -682,7 +694,8 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "status": "in_progress"
   },
@@ -704,7 +717,8 @@
       13,
       14,
       15,
-      16
+      16,
+      17
     ],
     "status": "in_progress"
   },
@@ -723,7 +737,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ],
     "status": "in_progress"
   },
@@ -742,7 +757,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ],
     "status": "in_progress"
   },
@@ -761,7 +777,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ],
     "status": "in_progress"
   },
@@ -779,7 +796,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ],
     "status": "in_progress"
   },
@@ -787,7 +805,8 @@
     "total_pages": 1377,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -795,7 +814,8 @@
     "total_pages": 212,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -803,7 +823,8 @@
     "total_pages": 176,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -811,7 +832,8 @@
     "total_pages": 292,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -819,7 +841,8 @@
     "total_pages": 212,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -827,14 +850,16 @@
     "total_pages": 212,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
   "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf": {
     "total_pages": 11,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -842,7 +867,8 @@
     "total_pages": 11,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -850,7 +876,8 @@
     "total_pages": 11,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -858,7 +885,8 @@
     "total_pages": 10,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -893,8 +921,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Indian\\India_s_Strategic_Maritime___Arid_Features.pdf": {
     "total_pages": 1,
@@ -917,8 +947,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\Physical\\Major_and_Minor_Tectonic_Plates.pdf": {
     "total_pages": 1,
@@ -962,8 +994,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\geography\\World\\Major_World_Straits.pdf": {
     "total_pages": 1,
@@ -1014,8 +1048,10 @@
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\build\\intermediates\\assets\\debug\\mergeDebugAssets\\public\\assets\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
     "total_pages": 1,
@@ -1066,8 +1102,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
     "total_pages": 1,
@@ -1118,8 +1156,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
     "total_pages": 1,
@@ -1170,8 +1210,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
     "total_pages": 1,
@@ -1215,8 +1257,10 @@
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "android\\app\\src\\main\\assets\\public\\assets\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
     "total_pages": 1,
@@ -1267,8 +1311,10 @@
   },
   "assets\\geography\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
     "total_pages": 1,
@@ -1319,8 +1365,10 @@
   },
   "assets\\geography\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "assets\\geography\\geography\\World\\Major_World_Straits.pdf": {
     "total_pages": 1,
@@ -1362,7 +1410,8 @@
     "total_pages": 56,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -1403,7 +1452,8 @@
     "total_pages": 56,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -1411,7 +1461,8 @@
     "total_pages": 56,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -1427,14 +1478,16 @@
     "total_pages": 14,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
   "diagram_pipeline\\node_modules\\pdf-parse\\test\\data\\02-valid.pdf": {
     "total_pages": 5,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -1447,7 +1500,8 @@
     "total_pages": 5,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -1579,7 +1633,9 @@
   },
   "NDA Papers\\QP-NDANA-II-25-GENERAL-ABILITY-TEST-150925.pdf": {
     "total_pages": 56,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-NDANA-II-25-MATHEMATICS-150925.pdf": {
@@ -1606,28 +1662,32 @@
   "NDA Papers\\AFCAT PYQ papers\\AFCAT Solved Paper-II 2022.pdf": {
     "total_pages": 11,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\AFCAT Solved Paper-II 2023.pdf": {
     "total_pages": 11,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\AFCAT Solved Paper-II 2024.pdf": {
     "total_pages": 11,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\AFCAT Solved Paper-II 2025.pdf": {
     "total_pages": 10,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -1670,7 +1730,8 @@
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP-CAPF-25-GENERAL-ABILITY-INTELLIGENCE-040825.pdf": {
     "total_pages": 56,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -1708,14 +1769,16 @@
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CAPF_2024_GEN-ABILITY-AND-INTELLI_05082024.pdf": {
     "total_pages": 56,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "NDA Papers\\AFCAT PYQ papers\\CAPF Paper 1 & CSE papers\\QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf": {
     "total_pages": 56,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -1730,14 +1793,16 @@
   "node_modules\\pdf-parse\\test\\data\\01-valid.pdf": {
     "total_pages": 14,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "node_modules\\pdf-parse\\test\\data\\02-valid.pdf": {
     "total_pages": 5,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -1749,7 +1814,8 @@
   "node_modules\\pdf-parse\\test\\data\\04-valid.pdf": {
     "total_pages": 5,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -1774,8 +1840,10 @@
   },
   "public\\assets\\geography\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "public\\assets\\geography\\geography\\Environment\\Major_Forest_Types___Biomes_of_the_World.pdf": {
     "total_pages": 1,
@@ -1798,8 +1866,10 @@
   },
   "public\\assets\\geography\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "public\\assets\\geography\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
     "total_pages": 1,
@@ -1822,8 +1892,10 @@
   },
   "public\\assets\\geography\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "public\\assets\\geography\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
     "total_pages": 1,
@@ -1846,8 +1918,10 @@
   },
   "public\\assets\\geography\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "public\\assets\\geography\\geography\\World\\Major_World_Straits.pdf": {
     "total_pages": 1,
@@ -1870,8 +1944,10 @@
   },
   "public\\assets\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "public\\assets\\geography\\Oceanography\\Exclusive_Economic_Zones__EEZs__and_Seabed_Mining.pdf": {
     "total_pages": 1,
@@ -1894,8 +1970,10 @@
   },
   "public\\assets\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "public\\assets\\geography\\Resources\\Strait_of_Malacca_Oil_Flow.pdf": {
     "total_pages": 1,
@@ -1918,8 +1996,10 @@
   },
   "public\\assets\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "public\\assets\\geography\\World\\Major_World_Straits.pdf": {
     "total_pages": 1,
@@ -1958,7 +2038,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -1976,7 +2057,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -2206,7 +2288,8 @@
     "total_pages": 56,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },
@@ -2253,8 +2336,10 @@
   },
   "www\\assets\\geography\\geography\\Indian\\Major_Expressways_and_National_Highways_in_India.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "www\\assets\\geography\\geography\\Indian\\Tropic_of_Cancer_in_India.pdf": {
     "total_pages": 1,
@@ -2305,8 +2390,10 @@
   },
   "www\\assets\\geography\\geography\\World\\Major_Artificial_Canals_of_the_World.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "www\\assets\\geography\\geography\\World\\Major_Mountain_Ranges_and_Peaks_of_the_World.pdf": {
     "total_pages": 1,
@@ -2357,8 +2444,10 @@
   },
   "www\\assets\\geography\\Resources\\Indian_Mineral_Provinces.pdf": {
     "total_pages": 1,
-    "extracted_pages": [],
-    "status": "in_progress"
+    "extracted_pages": [
+      1
+    ],
+    "status": "completed"
   },
   "www\\assets\\geography\\Resources\\India_s_Strategic_Petroleum_Reserves__SPR_.pdf": {
     "total_pages": 1,
