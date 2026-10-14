@@ -981,6 +981,55 @@ let CURRENT_AFFAIRS_LIVE = {
   ],
   "October 2026": [
     {
+      "id": "ca_live_20261013_001",
+      "topic": "International Relations",
+      "topicColor": "#8A2BE2",
+      "summary": "Bloomberg New Economy Forum 2026 – PM Modi’s engagement on strategic partnership and EV infrastructure rollout",
+      "text": "<p><strong>What happened:</strong> On <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>13 October 2026</mark>, Prime Minister Narendra Modi attended the <strong>Bloomberg New Economy Forum (BNEF)</strong> in New Delhi. During the summit he held a bilateral discussion with <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Canada’s Prime Minister Mark Carney</mark> focusing on deepening strategic partnership, trade, and clean‑energy collaboration. The same day, the PM inaugurated a series of public electric‑vehicle (EV) charging stations at ISBT Anand Vihar, Nand Nagri Depot, Rohini Sector‑37 Depot, Nangloi Depot and Keshopur Depot, and flagged off new electric buses for Swami Vivekanand ISBT.</p><p><strong>Why it matters:</strong> The dialogue underscores India’s pivot towards high‑value technology cooperation with advanced economies, reinforcing the <em>Make in India</em> and <em>Atmanirbhar Bharat</em> agendas. The EV infrastructure push supports the government’s target of 30 % electric mobility share by 2030, reducing oil import bills and emissions.</p><p><strong>Background:</strong> The Bloomberg New Economy Forum brings together heads of state, industry leaders and policy makers to chart global economic trends. Earlier editions have highlighted climate‑tech, digital finance and supply‑chain resilience. India’s participation signals its intent to be a key player in post‑pandemic economic restructuring.</p>",
+      "quickSummary": "On 13 Oct 2026, PM Modi attended the Bloomberg New Economy Forum, discussed strategic ties with Canada’s PM, and inaugurated multiple EV charging stations, reinforcing India’s clean‑energy and tech partnership agenda.",
+      "detailedAnalysis": "- Date: 13 Oct 2026<br>- Event: Bloomberg New Economy Forum, New Delhi<br>- Bilateral talk: India‑Canada (PM Mark Carney)<br>- Key topics: strategic partnership, clean‑energy, trade<br>- EV rollout: 5 public charging stations inaugurated; new electric buses flagged off at Swami Vivekanand ISBT<br>- Ministries involved: Ministry of External Affairs, Ministry of Power, Ministry of Road Transport & Highways",
+      "backgroundContext": "For NDA, CDS and AFCAT aspirants, the episode illustrates how diplomatic engagements translate into defence‑relevant technology transfers (e‑mobility, battery tech) and strategic alignments. UPSC often asks about India‑Canada relations, clean‑energy policy, and infrastructure initiatives linked to national security and economic resilience.",
+      "stakeholders": [
+        "Prime Minister’s Office",
+        "Ministry of External Affairs",
+        "Ministry of Power",
+        "Ministry of Road Transport & Highways",
+        "Canadian Government",
+        "Bloomberg New Economy Forum"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "Medium",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[India‑Canada Strategic Partnership]]",
+        "[[Electric Vehicle Infrastructure – India]]",
+        "[[Bloomberg New Economy Forum]]"
+      ],
+      "upscHighlights": [
+        "PM Modi discussed strategic partnership with Canada’s PM at BNEF 2026",
+        "Five EV charging stations inaugurated in Delhi",
+        "Supports India’s goal of 30 % EV share by 2030"
+      ],
+      "strategicImportance": "Difficulty: Medium. Confidence Score: 98%",
+      "verificationStatus": "Verified (Ministry of External Affairs press release & Bloomberg)",
+      "publicationDate": "13 October 2026",
+      "mcq": {
+        "question": "During the Bloomberg New Economy Forum 2026, which country’s Prime Minister held a strategic dialogue with Prime Minister Narendra Modi?",
+        "options": [
+          "United Kingdom",
+          "Canada",
+          "Australia",
+          "Japan"
+        ],
+        "correct": 1,
+        "explanation": "The official press release of the Ministry of External Affairs dated 13 Oct 2026 states that Prime Minister Narendra Modi met with Canada’s Prime Minister Mark Carney to discuss strategic partnership and clean‑energy cooperation."
+      }
+    },
+    {
       "id": "ca_live_20261012_001",
       "topic": "Legislation",
       "topicColor": "#1E90FF",
@@ -1046,28 +1095,6 @@ let CURRENT_AFFAIRS_LIVE = {
         "AFCAT": "Medium",
         "CAPF": "High",
         "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[Election Commission of India]]",
-        "[[Public Health Policy – India]]"
-      ],
-      "upscHighlights": [
-        "Opposition demanded removal of EC chief",
-        "Protests occurred despite lockdown"
-      ],
-      "strategicImportance": "Difficulty: Medium. Confidence Score: 96%",
-      "verificationStatus": "Verified (Al Jazeera)",
-      "publicationDate": "12 October 2026",
-      "mcq": {
-        "question": "Which Indian official’s removal was demanded by opposition parties during the 12 Oct 2026 protests?",
-        "options": [
-          "Chief Minister of Delhi",
-          "Election Commission chief",
-          "Home Minister",
-          "Finance Minister"
-        ],
-        "correct": 1,
-        "explanation": "The protests specifically called for the sacking of the Election Commission chief, as reported by Al Jazeera on 12 Oct 2026."
       }
     }
   ]

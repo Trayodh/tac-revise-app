@@ -26010,5 +26010,1871 @@
     },
     "source_pdf": "pathfinder_science.pdf",
     "source_page": 65
+  },
+  {
+    "id": "acids-bases-salts-pathfinder-642",
+    "subject": "Chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "topic": "Acids, Bases and Salts",
+    "text": "<p><strong>ACIDS</strong></p><ul><li>The substances which have sour taste and turn blue litmus to red are called <strong>acids</strong>.</li><li>According to Arrhenius acids give hydrogen ion H<sup>+</sup> in an aqueous solution.</li><li>According to Bronsted Lowry concept, acids donate proton (hydrogen ion).</li><li>(A conjugate acid-base pair differ by a proton)</li><li>According to Lewis concept, acids have tendency to accept electrons, i.e. these behave as electrophiles. e.g. electron deficient species like BF<sub>3</sub>, AlCl<sub>3</sub>, positive ions like Na<sup>+</sup>, K<sup>+</sup> and molecules having multiple bond between dissimilar atoms (e.g. CO<sub>2</sub>, SO<sub>2</sub>, etc).</li></ul><p><strong>Properties of Acids</strong></p><ul><li>Acids liberate hydrogen gas with more reactive metals.</li><li>Acids evolve carbon dioxide (CO<sub>2</sub>) gas with metal carbonates and bicarbonates. e.g.</li><li>In aqueous solution, they are conductor of electricity due to the presence of free H<sup>+</sup> ions.</li><li>Most of the acids contain hydrogen.</li><li>HCl, H<sub>2</sub>SO<sub>4</sub>, HNO<sub>3</sub> are mineral acids and are much stronger than organic acids.</li><li>Aqua-regia is a mixture of concentrated hydrochloric acid and concentrated nitric acid in the ratio 3 : 1. It can dissolve inert materials like platinum, gold, etc.</li></ul><p><strong>BASES</strong></p><ul><li>These substances which have bitter taste and turn red litmus to blue are called <strong>bases</strong>.</li><li>According to Arrhenius, bases give hydroxyl ion (OH<sup>-</sup>) in aqueous solution. e.g. NaOH, KOH, Ca(OH)<sub>2</sub>, etc.</li><li>According to Bronsted Lowry concept, bases have a tendency to accept proton, e.g. NH<sub>3</sub>, H<sub>2</sub>O, etc.</li><li>According to Lewis concept, bases have a tendency to donate electron pair. e.g. simple anions like Cl<sup>-</sup>, F<sup>-</sup>, OH<sup>-</sup>, etc., molecules containing lone pairs like NH<sub>3</sub>, R—Ö—H, R—Ö—R, etc.</li></ul><p><strong>Properties of Bases</strong></p><ul><li>Base reacts with metal to form salt and liberates hydrogen gas. However, such reactions are not possible with all metals.</li><li>Water soluble bases are called <strong>alkali</strong>. Thus, all alkalis are bases but all the bases are not alkali.</li><li>In aqueous solution and molten state, they are good conductors of electricity.</li></ul><p><strong>Acid and Base in a Reaction</strong></p><ul><li>Paraldehyde (a carbonyl compound) is used as a hypnotic.</li><li>Clove oil can be used as indicator.</li></ul><p><strong>SALTS</strong></p><ul><li>When acid and base react together, they form salt and water. This reaction is known as <strong>neutralisation reaction</strong>, e.g.</li><li>When acid and base both are strong, 13.7 kcal energy is released. However, if either the acid or the base is weak, energy released is less than 13.7 kcal because some part of energy is utilised to ionise weak acid or base.</li></ul>",
+    "formulas": [
+      "HCl (aq) → H+(aq) + Cl-(aq)",
+      "HCl + NH3 → Cl- + NH4+ (Acid, Conjugate base)",
+      "NaOH (aq) → Na+(aq) + OH-(aq)",
+      "NH3 + H2O ⇌ NH4+ + OH- (Base, Conjugate acid)",
+      "CH3COOH + H2O → H3O+ + CH3COO- (as donates proton, Base as accepts proton, Conjugate acid, Conjugate base)",
+      "Zn + 2HCl → ZnCl2 + H2↑ (Metal, Acid, Salt, Hydrogen)",
+      "MCO3 + H2SO4 → MSO4 + H2O + CO2↑ (Metal carbonate, Acid)",
+      "HNO3 + KOH → KNO3 + H2O (Acid, Base, Salt, Water)"
+    ],
+    "tables": [
+      "| Acid | Sources |\n|---|---|\n| Citric acid | Lemon, orange, grapes (citrus fruits) |\n| Maleic acid | Unripe apple |\n| Tartaric acid | Tamarind , grapes |\n| Lactic acid | Milk , curd |\n| Acetic acid | Vinegar |\n| Oxalic acid | Tomato , spinach |\n| Hydrochloric acid | Stomach and other chemicals |\n| Formic acid | Red ant sting |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 66
+  },
+  {
+    "id": "chemistry-salts-hydrolysis-001",
+    "subject": "Chemistry",
+    "chapter": "Acids, Bases, and Salts",
+    "topic": "Salts and Hydrolysis",
+    "text": "<ul><li>KNO<sub>3</sub>, K<sub>2</sub>SO<sub>4</sub>, NaNO<sub>3</sub>, KCl, NaCl, KNO<sub>3</sub> are salts of strong acids and strong bases so, they cannot be hydrolysed and their aqueous solution is neutral.</li><li>Solutions of salts of Cl<sup>-</sup>, SO<sub>4</sub><sup>2-</sup>, NO<sub>3</sub><sup>-</sup> with metals other than Na<sup>+</sup> and K<sup>+</sup> are acidic. e.g. NH<sub>4</sub>Cl. In other words, salt of a strong acid and a weak base undergoes hydrolysis in water to give acidic solution.</li><li>Solutions of salts of Na<sup>+</sup> and K<sup>+</sup> with anions (except SO<sub>4</sub><sup>2-</sup>, NO<sub>3</sub><sup>-</sup>, Cl<sup>-</sup>) are basic, e.g. CH<sub>3</sub>COONa. In other words, salt of a weak acid and a strong base undergoes hydrolysis in water to give basic solution.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explains the nature of aqueous solutions of different types of salts based on their hydrolysis properties, classifying them as neutral, acidic, or basic."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 67
+  },
+  {
+    "id": "chemistry-ph-scale-001",
+    "subject": "Chemistry",
+    "chapter": "Acids, Bases, and Salts",
+    "topic": "pH Scale",
+    "text": "<p><strong>pH SCALE</strong></p><p>SPL Sorensen suggested a scale to express the acidity or basicity of an aqueous solution in terms of hydrogen ion concentration which is known as pH scale. This scale is based on the ionic product of water.</p><p>The pH of solution is defined as “the negative logarithm to the base 10 of the hydrogen ion concentration in moles per litre”, i.e.</p><p>or in other words, the logarithm to the base 10 of inverse of H<sup>+</sup> ion concentration in the solution is its pH.</p><ul><li>The negative power to which 10 must be raised in order to express the H<sup>+</sup> ion concentration of a solution in moles per litre, is its pH. i.e.</li><li>In pure water or in neutral solution, [H<sup>+</sup>] = 10<sup>-7</sup> so, pH = 7</li><li>In an acidic solution, [H<sup>+</sup>] > 10<sup>-7</sup> so, pH < 7</li><li>In an alkaline solution, [H<sup>+</sup>] < 10<sup>-7</sup> so, pH > 7</li></ul>",
+    "formulas": [
+      "pH = - log [H+]",
+      "pH = log (1/[H+])",
+      "[H+] = 10^-pH"
+    ],
+    "tables": [
+      "| pH of Some Common Substances | |\n|---|---|\n| Soft drinks | 2.0-4.0 |\n| Tears | 7.4 |\n| Lemon | 2.2-2.4 |\n| Sea water | 8.5 |\n| Human urine | 4.8-8.4 |\n| Cow's milk,saliva | 6.5 |\n| Rain water | 6.0 |\n| Human blood | 7.36-7.42 |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and explanation of the pH scale, including its formula, the relationship between H+ concentration and pH, and pH values for different types of solutions and common substances."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 67
+  },
+  {
+    "id": "chemistry-ph-everyday-life-001",
+    "subject": "Chemistry",
+    "chapter": "Acids, Bases, and Salts",
+    "topic": "Importance of pH in Everyday Life",
+    "text": "<p><strong>Importance of pH in Everyday Life</strong></p><ul><li>Bee or ant sting (formic acid) leaves an acid into the skin which causes pain and irritation. Use of a mild base like baking soda (NaHCO<sub>3</sub>) or calamine (zinc carbonate) is a remedy for it.</li><li>Wasp sting introduced some base, so a mild acid is a remedy.</li><li>Falling of pH of the mouth below 5.5 because of substances like chocolates and sweets lead to tooth decay which is naturally controlled by saliva (basic) to some extent but toothpaste being basic maintain this pH by neutralising excess acid.</li><li>Excessive acid (hydrochloric acid) secreted in our stomach which causes acidity, is neutralised by mild bases called antacids like milk of magnesia (or magnesium hydroxide) [Mg(OH)<sub>2</sub>], aluminium hydroxide [Al(OH)<sub>3</sub>], etc.</li><li>Every crop grows better in a particular pH range. e.g. slightly acidic soil is good for rice, neutral is good for sugarcane while citrus fruits generally grow in alkaline soil.</li></ul><p><strong>Note</strong></p><ul><li>Use of strong acid or base is not prescribed as these are corrosive in nature.<ul><li>Pickles are kept in glass jar because acid present in them reacts with the metal of metallic pot to give poisonous substances.</li><li>Acidity of soft drinks is regulated by bicarbonate salts.</li></ul></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Discusses various real-world applications and implications of pH, including remedies for insect stings, prevention of tooth decay, neutralization of stomach acidity, optimal pH for crop growth, and safety notes regarding strong acids/bases and food storage."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 67
+  },
+  {
+    "id": "chemistry-poh-scale-001",
+    "subject": "Chemistry",
+    "chapter": "Acids, Bases, and Salts",
+    "topic": "pOH Scale",
+    "text": "<p><strong>pOH Scale</strong></p><p>The pOH value of an aqueous solution may be defined as the negative logarithm of the hydroxide ion concentration, i.e.</p><p>and pH + pOH = 14.</p><p><strong>Note</strong></p><ol><li>When fresh ground water comes in contact of air its pH is slightly reduces. This is because of the presence of CO<sub>2</sub> in air which dissolves in water to give a weak acid, H<sub>2</sub>CO<sub>3</sub> (carbonic acid). This acid provides H<sup>+</sup> ions and hence, increases the acidity of water due to which pH reduces.</li><li>pH of acidic solution increases when a base is added to it and pH of basic solution decreases when an acid is added to it.</li></ol>",
+    "formulas": [
+      "pOH = - log [OH-]",
+      "pH + pOH = 14"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Defines the pOH scale and its relationship with pH, along with notes on factors affecting water pH (like dissolved CO2) and general effects of adding acids or bases to solutions."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 67
+  },
+  {
+    "id": "chemistry-common-ion-effect-001",
+    "subject": "Chemistry",
+    "chapter": "Acids, Bases, and Salts",
+    "topic": "Common Ion Effect",
+    "text": "<p><strong>Common Ion Effect</strong></p><p>Addition of a strong electrolyte in the solution of weak acids or bases, decreases the ionisation of acid or base due to the presence of common ion. This is called common ion effect. e.g.</p><p>So, the reaction (i) goes in the reverse direction.</p>",
+    "formulas": [
+      "H2S <=> 2H+ + S2-",
+      "HCl -> H+ + Cl-"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Defines the common ion effect as the decrease in ionization of a weak acid or base upon addition of a strong electrolyte with a common ion, illustrated with an example."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 67
+  },
+  {
+    "id": "chem-thermo-001",
+    "subject": "Chemistry",
+    "chapter": "Chemical Thermodynamics and Surface Chemistry",
+    "topic": "Thermodynamics",
+    "text": "<p><strong>THERMODYNAMICS</strong></p><p>It deals with the study of heat and energy changes occurring during a physical and chemical processes.</p><p>An <strong>open system</strong> can exchange matter as well as energy with its surroundings, e.g. hot tea in a cup.</p><p>A <strong>closed system</strong> can exchange energy but not matter with its surroundings, hot water in a closed beaker.</p><p>An <strong>isolated system</strong> can exchange neither matter nor energy with its surroundings, e.g. thermos flask.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 68
+  },
+  {
+    "id": "chem-thermo-002",
+    "subject": "Chemistry",
+    "chapter": "Chemical Thermodynamics and Surface Chemistry",
+    "topic": "Thermodynamic Processes",
+    "text": "<p><strong>Thermodynamic Processes</strong></p><p><strong>Isothermal Process</strong> The process in which temperature of the system remains constant, i.e., <em>dT</em> = 0</p><p>Maximum work done during the isothermal expansion of 'n' moles of an ideal gas is given as</p><p><strong>Adiabatic Process</strong> The process in which no heat enters or leaves the system during any step of process, i.e. <em>dq</em> = 0.</p><p><strong>Isobaric Process</strong> The process which takes place at constant pressure, i.e. <em>dp</em> = 0.</p><p><strong>Isochoric Process</strong> The process in which volume of system remains constant, i.e. <em>dV</em> = 0.</p><p><strong>Cyclic Process</strong> In a cyclic process, a system in a given state goes through a series of different processes but finally returns to its initial state, i.e. <em>dE</em> or <em>dU</em> = 0.</p><p><strong>Spontaneous Process</strong> A process, i.e physical or chemical change, which can proceed by itself is known as spontaneous process. There are also some processes which require some initiation before they proceeds spontaneously, i.e. physical or chemical change.</p><ul><li>It is also known as feasible and probable process.</li><li>The process is spontaneous, if free energy change, ΔG is negative.</li></ul>",
+    "formulas": [
+      "W_max = - 2.303 nRT log(V2/V1)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 68
+  },
+  {
+    "id": "chem-catalysis-001",
+    "subject": "Chemistry",
+    "chapter": "Chemical Thermodynamics and Surface Chemistry",
+    "topic": "Catalysis",
+    "text": "<ul><li>Only a very small amount of catalyst is sufficient to catalyse a reaction. A catalyst does not initiate a reaction.</li><li>A catalyst does not change the equilibrium state of a reversible reaction as it increases the rate of forward as well as backward reaction to the same extent.</li><li>When a reversible reaction is performed in a closed container, a state is reached when the rate of forward and backward reactions become equal. This state is called <strong>chemical equilibrium</strong> or equilibrium state.</li><li>Free energy change (ΔG°) at equilibrium is zero.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 68
+  },
+  {
+    "id": "chem-catalysis-002",
+    "subject": "Chemistry",
+    "chapter": "Chemical Thermodynamics and Surface Chemistry",
+    "topic": "Types of Catalyst",
+    "text": "<p><strong>Types of Catalyst</strong></p><ol><li><strong>Positive and Negative Catalysts</strong> A catalyst which increases the rate of a reaction (in forward direction) is called a <strong>positive catalyst</strong> while which decreases the rate of a reaction is called as <strong>negative catalyst</strong>.</li><li><strong>Induced Catalyst</strong> The product of one reaction acts as catalyst for another reaction is called <strong>induced catalyst</strong>.</li><li><strong>Catalytic Promoters and Inhibitors</strong> The substance which increases the activity of a catalyst are called <strong>promoters</strong> and which decreases the activity of a catalyst are called <strong>inhibitors</strong>.</li><li><strong>Catalytic Poisons</strong> Catalytic poisons destroy the activity of a catalyst completely.</li></ol>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 68
+  },
+  {
+    "id": "chem-catalysis-003",
+    "subject": "Chemistry",
+    "chapter": "Chemical Thermodynamics and Surface Chemistry",
+    "topic": "Enzyme Catalysis",
+    "text": "<p><strong>Enzyme Catalysis</strong></p><p>The increase in the rate of reactions by the enzyme is known as enzyme catalysis. Since, they increase the rate of reaction occurring in living organisms, they are known by the name <strong>biocatalysts</strong>.</p><ul><li>All enzymes are protein in nature. Enzymes are highly specific in their nature. They are highly sensitive to temperature, i.e. the temperature at which the activity of enzymes is maximum, varies between 25-37°C.</li><li>The rates of enzymatic reactions are very much affected by pH change.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 68
+  },
+  {
+    "id": "chem-surface-001",
+    "subject": "Chemistry",
+    "chapter": "Chemical Thermodynamics and Surface Chemistry",
+    "topic": "Surface Chemistry",
+    "text": "<p><strong>SURFACE CHEMISTRY</strong></p><p>Surface chemistry deals with the phenomenon that occurs at the surface or interfaces.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 68
+  },
+  {
+    "id": "chem-catalysis-004",
+    "subject": "Chemistry",
+    "chapter": "Chemical Thermodynamics and Surface Chemistry",
+    "topic": "Catalysis",
+    "text": "<p><strong>Catalysis</strong></p><p>The term catalyst is given by Berzelius. A catalyst is a substance which alters the rate of reaction without being consumed in it and the phenomenon is known as catalysis.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 68
+  },
+  {
+    "id": "chem-catalysis-005",
+    "subject": "Chemistry",
+    "chapter": "Chemical Thermodynamics and Surface Chemistry",
+    "topic": "General Characteristics of Catalysts",
+    "text": "<p><strong>General Characteristics of Catalysts</strong></p><ul><li>A catalyst remains unchanged in mass and chemical composition during a reaction.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 68
+  },
+  {
+    "id": "chem-catalysis-006",
+    "subject": "Chemistry",
+    "chapter": "Chemical Thermodynamics and Surface Chemistry",
+    "topic": "Important Catalysts and Processes",
+    "text": "<p><strong>Some Important Catalyst used in Different Processes</strong></p>",
+    "formulas": [],
+    "tables": [
+      "| Processes | Catalyst used |\n|---|---|\n| Manufacture of ghee from vegetable oils | Nickel |\n| Haber's process for the manufacture of ammonia | Fe (here Mo, acts as an activator) |\n| Contact process for the manufacture of sulphuric acid | Pt powder |\n| Conversion of proteins into peptide | Pepsin enzyme |\n| Conversion of proteins into amino acids | Erepsin enzyme |\n| Conversion of glucose into ethanol | Zymase enzyme |\n| Conversion of starch into maltose | Diastase enzyme |\n| Formation of vinegar from cane sugar | <em>Mycoderma aceti</em> |\n| Conversion of sucrose into glucose and fructose | Invertase enzyme |\n| Conversion of milk into curd | Lactase (lactobacilli) |\n| Ostwald's process for the manufacture of nitric acid (HNO3) | Platinum (Pt) |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 68
+  },
+  {
+    "id": "chemistry-colloids-definition-properties",
+    "subject": "Chemistry",
+    "chapter": "Colloids",
+    "topic": "Definition and Properties of Colloidal Solutions",
+    "text": "<p>In a colloid, the size of solute particles is bigger than that of true solution but smaller than that of suspension, i.e. lies in between 1 to 100 nm. A colloidal solution is a heterogeneous system in which one substance is dispersed as very fine particles in another substance, called dispersion medium.</p><h3>Properties of Colloidal Solutions</h3><p>The important properties of the colloidal solutions are given below:</p><ul><li><strong>Brownian Movement</strong> The rapid zig-zag movement executed by colloidal particle is termed as Brownian movement.</li><li><strong>Tyndall Effect</strong> When a strong and converging beam of light is passed through a colloidal solution, its path becomes visible due to scattering of light by particles. It is called <strong>Tyndall effect</strong>. Blue appearance of sea water is an example of Tyndall effect.</li><li><strong>Electrophoresis</strong> The phenomenon involving the migration of colloidal particles under the influence of electric field towards the oppositely charged electrode, is called electrophoresis.</li></ul><ul><li>Colloidal solutions are purified by dialysis.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of colloids, their particle size range, and key properties like Brownian movement, Tyndall effect, and electrophoresis, along with purification by dialysis."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 69
+  },
+  {
+    "id": "chemistry-emulsions-types-agents-coagulation",
+    "subject": "Chemistry",
+    "chapter": "Colloids",
+    "topic": "Emulsions, Types, Emulsifying Agents, Coagulation",
+    "text": "<h3>Emulsions</h3><p>These are the colloidal solutions of two immiscible liquids in which the liquids act as the dispersed phase as well as the dispersion medium.</p><h3>Types of Emulsions</h3><p>There are two types of emulsions</p><ul><li><strong>Oil in water type</strong> e.g. milk in which tiny droplets of liquid fat are dispersed in water.</li><li><strong>Water in oil type</strong> e.g. stiff greases, in which water being dispersed in lubricating oil.</li></ul><h3>Emulsifying Agents</h3><p>During the preparation of emulsion, a small amount of some substances such as soap, gum, agar and protein etc are added to stabilise the emulsion. These substances are known as emulsifying agents.</p><ul><li><strong>Gel</strong> is a colloidal system in which dispersed phase is liquid and dispersion medium is solid. e.g. butter, cheese. When a gel is allowed to stand for some time, it loses the dispersed phase (liquid), this phenomenon is called <strong>syneresis</strong> or <strong>weeping of the gel</strong>.</li><li>Fog, clouds, mist are the colloidal systems of liquid in gas.</li><li>Smoke is a colloidal systems of carbon (solid) in air (gas).</li><li>Foams are the colloidal systems in which a gas is dispersed in liquid. e.g. alcohol, castor oil, shaving cream etc.</li><li>Digestion of fats in intestine is aided by emulsification.</li><li><strong>Coagulation</strong> is the process of precipitation of colloid when it is shaked with some electrolyte. Its applications are<ol><li>Purification of muddy water by alum.</li><li>Ferric chloride and alum are applied on wound to stop bleeding.</li></ol></li></ul><ul><li><strong>Note</strong><ol><li>Blue colour of sky is due to the scattering of light by dust particles present in air.</li><li>The order of energy is 1 calorie &gt; 1 joule &gt; 1 erg.</li><li>Milk is a natural emulsion while paint is an artificial emulsion.</li></ol></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed explanation of emulsions, including their definition, types (oil in water, water in oil), the role of emulsifying agents, various examples of colloidal systems, and the process and applications of coagulation. Also includes important notes on sky color, energy order, and milk/paint."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 69
+  },
+  {
+    "id": "chemistry-electrochemistry-intro-terms",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Introduction and Important Terms",
+    "text": "<p>It is the branch of chemistry which deals with inter-conversion of chemical energies and electrical energies. It can be converted into electrical energy by means of an <strong>electrochemical cell</strong> (electrolysis).</p><h3>Important Terms</h3><ul><li>Chemical changes involving production or consumption of electricity are called <strong>electrochemical changes</strong>.</li><li>The substance, which allow the electricity to pass through them are called <strong>electrolytes</strong>. e.g. common salt (NaCl), water (H<sub>2</sub>O) etc.</li><li>The substance which do not allow the electricity to pass through them are called <strong>non-electrolytes</strong>. e.g. sugar, wax, naphthalene etc.</li><li>A number of metals such as Na, Mg, Ca and Al and a number of chemicals such as NaOH, Cl<sub>2</sub>, Fe etc. are commercially produced by electrochemical methods.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to electrochemistry as the study of inter-conversion of chemical and electrical energies, along with definitions of key terms like electrochemical changes, electrolytes, and non-electrolytes."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 69
+  },
+  {
+    "id": "chemistry-electrochemical-cell",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemical Cell",
+    "text": "<h3>Electrochemical Cell</h3><p>It is a device, that produces an electric current from energy released by a spontaneous redox reaction (in short, which converts chemical energy into electrical energy).</p><p>This kind of cell includes the galvanic cell or voltaic cell. It has two conductive electrodes, i.e. anode or negative electrode (at which oxidation occurs) and cathode or positive electrode (at which reduction occurs). Electrolyte is filled in between the electrodes and contains freely moving ions.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of an electrochemical cell as a device converting chemical energy to electrical energy via spontaneous redox reactions, detailing its components like galvanic/voltaic cells, anode, cathode, and electrolyte."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 69
+  },
+  {
+    "id": "chemistry-battery",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Battery",
+    "text": "<h3>BATTERY</h3><p>An arrangement of one or more cells connected in a series, is called a battery. It is basically a galvanic cell.</p><p>Batteries are of two types :</p><ol><li><strong>Primary Batteries</strong> (non-rechargeable) These batteries act as galvanic cell and used only once. e.g. dry cell, mercury cell etc.</li></ol>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of a battery as a series arrangement of cells, specifically galvanic cells, and a description of primary (non-rechargeable) batteries with examples."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 69
+  },
+  {
+    "id": "secondary-batteries-1",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Secondary Batteries",
+    "text": "<p><strong>Secondary Batteries</strong> (rechargeable) These act as galvanic as well as electrolytic cell and can be reused. e.g. lead storage battery, nickel-cadmium battery.</p>",
+    "formulas": [],
+    "tables": [
+      "| Battery | Anode | Cathode | Electrolyte | Used in |\n|---|---|---|---|---|\n| Leclanche cell (Dry cell) | Zinc | Carbon (Graphite) rod | Paste of ammonium chloride (NH₄Cl) and zinc chloride (ZnCl₂) | Transistors, clocks |\n| Mercury cell | Zinc-mercury amalgam | Paste of HgO and ZnO | Paste of KOH and ZnO | Hearing aids watches and camera |\n| Lead storage cell | Lead | Lead packed with lead dioxide | 38% solution of sulphuric acid | Automobiles, invertors |\n| Nickel Cadmium cell | Cadmium | Nickel Dioxide | OH Solution | Torchlighs, Electric Shavers |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Description and examples of secondary batteries, along with a table detailing their components and uses."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 70
+  },
+  {
+    "id": "fuel-cells-1",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Fuel Cells",
+    "text": "<p>These are galvanic cells, which use energy of combustion of fuels like hydrogen (H₂), methane (CH₄), methanol (CH₃OH) etc., as the source to produce electrical energy. e.g. hydrogen-oxygen fuel cell. This cell was used for the first time in <strong>Apollo space programme</strong>. The byproduct of this cell, i.e. water vapours, were condensed and used by the astronauts for drinking.</p><h3>Advantages associated with fuel cell are</h3><ul><li>Fuel cells are more efficient than conventional power stations or batteries etc.</li><li>With a fuel cell there are fewer stages in producing the useful energy, so there is less opportunity to lose potentially useful energy, e.g. waste heat, friction from moving parts etc.</li><li>A hydrogen-oxygen fuel cell is a non-polluting clean fuel since, the only combustion product is water.</li></ul><h3>Disadvantages associated with fuel cell are</h3><ul><li>Fuel cells cannot be used for large scale energy production, so conventional fossil fuels or nuclear power stations still have an important future.</li><li>Hydrogen is a gas and requires a much larger storage volume as compared to fossil fuels like petrol.</li><li>Safe storage is also an issue, especially as it would be stored under high pressure to decrease the storage space required. This immediately makes leaks and, accidents more likely to happen because hydrogen is a highly flammable explosive gas, too easily ignited.</li><li>Efficient large scale technology is not yet developed to produce hydrogen on large scale, e.g. from electrolysis using solar power electricity, photovoltaic power system, wind turbines or hydroelectric power.</li><li>Although water is cheap and plentiful, it requires expensive electrical energy to electrolyse water to split it into hydrogen and oxygen.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition, examples, and historical use of fuel cells, including a detailed list of their advantages and disadvantages."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 70
+  },
+  {
+    "id": "electrolysis-1",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrolysis",
+    "text": "<p>The process, in which a non-spontaneous reaction is carried out by using electrical energy is called electrolysis and the instrument or container, in which the process of electrolysis is done, is called <strong>electrolytic cell</strong>.</p><p>Electrolysis of brine (the water saturated or nearly saturated with salt, usually sodium chloride) gives hydrogen and chlorine. The products are gaseous.</p><p><strong>At anode</strong></p><p><strong>At cathode</strong></p><p><strong>Net reaction</strong></p><ul><li><strong>Note</strong> During electrolysis, electrolytes get decomposed at the electrodes.</li></ul><h3>Electrolysis is used in the following ways :</h3><ul><li>In the production of oxygen for spacecraft and nuclear submarines.</li><li>In layering metals to fortify them.</li><li>In production of hydrogen for fuel.</li><li>In electrolytic etching of metal surfaces like tools or knives with a permanent mark or logo.</li><li>In electroplating, electrorefining, electroprinting, electro-metallurgy and industrial preparation.</li></ul>",
+    "formulas": [
+      "NaCl → Na⁺ + Cl⁻",
+      "H₂O → H⁺ + OH⁻",
+      "2Cl⁻ --(Oxidation)--> Cl₂ + 2e⁻",
+      "2H⁺ + 2e⁻ --(Reduction)--> H₂",
+      "Na⁺ + OH⁻ → NaOH",
+      "NaCl + 2H₂O → 2NaOH + H₂ + Cl₂"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram of an electrolytic cell showing an anode (positive electrode) and a cathode (negative electrode) immersed in an electrolyte solution. Bubbles are shown forming at both electrodes, indicating gas evolution. The electrodes are connected to an external power source."
+    ],
+    "details": {
+      "summary": "Definition of electrolysis and electrolytic cell, detailed explanation of brine electrolysis with chemical reactions, and various industrial applications of electrolysis."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 70
+  },
+  {
+    "id": "faradays-laws-of-electrolysis-1",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Faraday's Laws of Electrolysis",
+    "subtopic": "First Law of Electrolysis",
+    "text": "<p>It states that “The amount of electricity (or charge) required for oxidation or reduction depends upon stoichiometry of the electrode reaction.”</p>",
+    "formulas": [
+      "w ∝ Q",
+      "w = ZQ = Zit",
+      "Charge (Q) = Current (i) × time (t)",
+      "1 Faraday = 96500 C mol⁻¹"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of Faraday's First Law of Electrolysis and related formulas including the Faraday constant."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 70
+  },
+  {
+    "id": "chem-electro-001",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Second Law of Electrolysis",
+    "text": "<p>It states that the masses of the resulting separated elements are directly proportional to the atomic masses of the elements, when an appropriate integral divisor is applied.</p>",
+    "formulas": [
+      "W ∝ E",
+      "W₁/W₂ = E₁/E₂"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and formula of Faraday's Second Law of Electrolysis."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 71
+  },
+  {
+    "id": "chem-electro-002",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemical Series",
+    "text": "<p>When metals are arranged in the increasing order of their standard reduction electrode potential, a series is obtained, which is called electrochemical series. It is also called <strong>reactivity series</strong> (as reactivity follows the reverse order).</p><p>Lower is the value of reduction potential, greater would be its reducing power.</p><p>Depending upon the reactivity, the occurrence of metals in the reactivity series may be represented as shown in the figure.</p><p>Thus, gold is the least reactive metal and hence, found in native state. The more reactive metals of the series can displace the less reactive metals from their salt solutions.</p><p>e.g. Cu + FeSO₄ → No reaction</p><p>but Fe + CuSO₄ → FeSO₄ + Cu</p><p>Moreover, metal placed before H can evolve H₂ from dilute acids.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A table illustrating the reactivity series of metals. Metals above hydrogen are classified as: Highly reactive (K, Ca, Na, Mg) found in free state; Moderately reactive (Al, Zn, Cr, Fe, Ni, Sn, Pb). Metals below hydrogen are classified as: Less reactive (Cu, Hg, Ag, Pd, Pt, Au) found in the free state. Hydrogen (H) serves as a reference point in the series."
+    ],
+    "details": {
+      "summary": "Definition of electrochemical series, its relation to reactivity and reducing power, and examples of displacement reactions."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 71
+  },
+  {
+    "id": "chem-electro-003",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Corrosion",
+    "text": "<p>e.g. Zn + 2HCl → ZnCl₂ + H₂</p><p>The metals placed above are good reducing agent and reduces the metal oxides of the metal placed below them.</p><p>It is the process of oxidative deterioration of a metal surface by the action of environment to form unwanted corrosive products. e.g. conversion of iron into rust (Fe₂O₃ · xH₂O). Corrosion of iron is called <strong>rusting</strong>.</p><p>Tarnishing of silver (due to the formation of Ag₂S), development of green coating [of Cu (OH)₂ · CuCO₃ (basic copper carbonate)] on copper and bronze. It is basically an electrochemical process.</p><p>It is accelerated by the presence of impurities, H⁺, electrolytes such as NaCl and gases such as CO₂, SO₂, NO, NO₂ etc.</p>",
+    "formulas": [
+      "Zn + 2HCl → ZnCl₂ + H₂"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition, examples, and accelerating factors of corrosion, including rusting and tarnishing."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 71
+  },
+  {
+    "id": "chem-electro-004",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "topic": "Prevention of Corrosion",
+    "text": "<ul><li>By coating with a suitable material (barrier protection viz paint, grease, metals (like Zn, Cu, Ni, Cr, Sn), adherent film of iron phosphate, adherent coating of magnetic oxide (Fe₃O₄).</li><li>By alloying with suitable metals.</li><li>By cathodic protection—the metal is made cathode by application of external circuit.</li><li>By using artificial anode (sacrificial protection), more anodic metal (like Zn, Mg, Al etc.,) is connected to iron article by a wire. In such cases, current flows towards more reactive metal and prevents iron from corrosion.</li><li>By galvanisation (covering of iron article with zinc).</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Methods for preventing corrosion, including coating, alloying, cathodic protection, sacrificial protection, and galvanisation."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 71
+  },
+  {
+    "id": "chem-periodic-001",
+    "subject": "Chemistry",
+    "chapter": "Periodic Classification",
+    "topic": "Classification of Elements",
+    "text": "<ul><li>In 1896, Mendeleev gave a periodic law. According to which “the properties of elements are the periodic function of their atomic masses”.</li><li>There were seven periods (horizontal rows) and eight groups (vertical columns) in the periodic table of Mendeleev having 63 known elements at that time.</li><li>Moseley modified Mendeleev’s periodic law and proposed modern periodic law. According to <strong>modern periodic law</strong>, “the properties of elements are periodic function of their atomic numbers.”</li><li>There are eighteen vertical columns, known as <strong>groups</strong> and seven horizontal rows, known as <strong>periods</strong>, in the long form of periodic table.</li><li><strong>Periodic Properties</strong> The properties which are repeated at regular intervals are known as periodic properties.</li></ul><p>Atomic and ionic size, electron affinity, ionisation potential, electronegativity, electropositive character, acidic or basic character, metallic nature, etc., are some important periodic properties.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Historical development of periodic law by Mendeleev and Moseley, definitions of groups, periods, and periodic properties."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 71
+  },
+  {
+    "id": "chem-periodic-002",
+    "subject": "Chemistry",
+    "chapter": "Periodic Classification",
+    "topic": "Characteristics of Periods",
+    "text": "<ul><li>The number of valence electrons in elements increases from 1 to 8 on moving from left to right in a period.</li><li>The elements in a period have consecutive atomic numbers.</li><li>The valency of the element increases from 1 to 4 and then decreases to 0 (zero) on moving from left to right in a period, with respect to hydrogen.</li><li>Atomic size, electropositive character, metallic character, reducing nature of elements and basic nature of oxides all decrease from left to right in a period.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Key characteristics and trends observed in elements across a period in the periodic table."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 71
+  },
+  {
+    "id": "chemistry-periodic-trends-001",
+    "subject": "Chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "topic": "Periodic Trends",
+    "text": "<ul><li>Electronegative nature, non-metallic nature, acidic nature of oxides, ionisation potential increases from left to right in a period.</li><li>In a period, electronegativity and electron affinity also increases from left to right.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Describes trends in electronegativity, non-metallic character, acidic nature of oxides, ionization potential, and electron affinity across a period."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 72
+  },
+  {
+    "id": "chemistry-periodic-groups-001",
+    "subject": "Chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "topic": "Characteristics of Groups",
+    "text": "<ul><li>All the elements of a group of the periodic table have the same number of valence electrons and hence, have almost similar chemical properties.</li><li>Atomic radius, electropositive nature, metallic nature, reducing nature of elements and the basic nature of oxides increase from top to bottom in a group.</li><li>Electronegative nature, ionisation potential, electron affinity, electronegativity, non-metallic nature and acidic nature of oxides decrease down a group with increasing atomic number.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explains the common characteristics of elements within a group, including valence electrons, chemical properties, and trends in atomic radius, electronegativity, and nature of oxides down a group."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 72
+  },
+  {
+    "id": "chemistry-hydrogen-001",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen and its Compounds",
+    "topic": "Hydrogen",
+    "text": "<ul><li>Hydrogen is the first element in the periodic table with atomic number 1 and mass number 1.</li><li>Hydrogen has three isotopes-protium or ordinary hydrogen (₁H¹), deuterium or heavy hydrogen (₁H² or ₁D²), tritium (₁H³ or ₁T³). Tritium is the radioactive isotope of hydrogen.</li><li>Hydrogen is a non-supporter of combustion and burns with 'pop' sound. It is an inflammable gas.</li></ul>",
+    "formulas": [
+      "₁H¹",
+      "₁H²",
+      "₁D²",
+      "₁H³",
+      "₁T³"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Basic properties of hydrogen, its isotopes (protium, deuterium, tritium), and its combustion characteristics."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 72
+  },
+  {
+    "id": "chemistry-water-001",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen and its Compounds",
+    "topic": "Compounds of Hydrogen",
+    "subtopic": "Water",
+    "text": "<p>Water is one of the most important compound of hydrogen.</p><ul><li>Water is the neutral oxide of hydrogen. Pure water freezes at 0° C and boils at 100° C. This abnormal high boiling point is due to the association of H₂O molecules through hydrogen bonding.</li><li>Water is a polar compound (dipole moment 1.85 D) and possesses a high dielectric constant, i.e. 81. Its presence is tested by using anhydrous copper sulphate which turns blue in the presence of water.</li><li>Water is a universal solvent because of its tendency to form H-bond and polar nature.</li><li>Water has very high specific heat and thus, widely used as a coolant.</li><li>Water which form lather with soap is called <strong>soft</strong> and which does not form lather is called <strong>hard</strong> water as the ions present in it form scum (precipitate) with the soap.</li></ul>",
+    "formulas": [
+      "H₂O"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties of water including its neutral nature, freezing/boiling points, polarity, dielectric constant, solvent properties, specific heat, and definition of soft and hard water."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 72
+  },
+  {
+    "id": "chemistry-water-hardness-001",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen and its Compounds",
+    "topic": "Hardness of Water",
+    "text": "<ul><li>Hardness of water may be due to the presence of bicarbonates of calcium or magnesium (<strong>temporary hardness</strong>) or due to the presence of chlorides or sulphates of Ca or Mg (<strong>permanent hardness</strong>).</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Defines temporary and permanent hardness of water based on the presence of specific salts."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 72
+  },
+  {
+    "id": "chemistry-water-hardness-removal-001",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen and its Compounds",
+    "topic": "Removal of Hardness of Water",
+    "text": "<ul><li>Temporary hardness is removed by boiling or by adding lime water (Clark's process).</li><li>Permanent hardness is removed by adding sodium carbonate (washing soda, Na₂CO₃) or calgon (sodium hexa metaphosphate, Na₆P₆O₁₈ or zeolite which is also called permutit (hydrated sodium aluminium silicate, Na₂Al₂Si₂O₈.xH₂O).</li><li>From sea water, pure water is obtained by a process, called <strong>reverse osmosis</strong>, i.e. by applying pressure higher than the osmotic pressure towards the solution side. This process is also called desalination of sea water.</li><li>Boiling, chlorination and treatment with UV irradiation all kill the microorganisms present in water.</li></ul>",
+    "formulas": [
+      "Na₂CO₃",
+      "Na₆P₆O₁₈",
+      "Na₂Al₂Si₂O₈.xH₂O"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Methods for removing temporary and permanent hardness of water, including boiling, Clark's process, washing soda, calgon, permutit, reverse osmosis, boiling, chlorination, and UV irradiation."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 72
+  },
+  {
+    "id": "chemistry-heavy-water-001",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen and its Compounds",
+    "topic": "Heavy Water",
+    "text": "<ul><li>Heavy water (D₂O, molecular weight = 20) is the oxide of heavy hydrogen. It is used as a moderator in nuclear reactors.</li><li>In hydrogen peroxide (H₂O₂), oxygen is in -1 oxidation state, which is the intermediate oxidation state of oxygen. H₂O₂ behaves as an oxidising, reducing and bleaching agent.</li><li>Lead painting becomes blacken in air due to the formation of PbS by the action of H₂S present in air, H₂O₂ is used to wash it. H₂O₂ oxidises PbS to PbSO₄.</li></ul>",
+    "formulas": [
+      "D₂O",
+      "H₂O₂",
+      "PbS",
+      "H₂S",
+      "PbSO₄"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and uses of heavy water (D₂O). Properties and applications of hydrogen peroxide (H₂O₂) as an oxidizing, reducing, and bleaching agent, including its use in restoring lead paintings."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 72
+  },
+  {
+    "id": "geography-aquifers-001",
+    "subject": "Geography",
+    "chapter": "Hydrosphere",
+    "topic": "Aquifers",
+    "text": "<ul><li>An aquifer is an underground layer of water bearing permeable rock, i.e. they have opening through which only liquids and gases can pass.</li><li>Clay layers although are poor aquifers. This is because clay minerals are dense impermeable materials. They act as aquiferal, i.e. a layer of material that is almost impenetrable to water.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of an aquifer and explanation of why clay layers are poor aquifers."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 72
+  },
+  {
+    "id": "chemistry-metallurgy-001",
+    "subject": "Chemistry",
+    "chapter": "Metallurgy",
+    "topic": "Metallurgy",
+    "text": "<p>It is the process of extraction of metals from their ores is called metallurgy.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of metallurgy."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 72
+  },
+  {
+    "id": "chemistry-metallurgy-terminology-001",
+    "subject": "Chemistry",
+    "chapter": "Metallurgy",
+    "topic": "Terminology Related with Metallurgy",
+    "text": "<ul><li><strong>Metals</strong> occur in the form of minerals in nature.</li><li><strong>Gangue</strong> or matrix are the impurities associated with ore.</li><li><strong>Roasting</strong> is the process of heating ore (mainly sulphide ore) in the excess of air whereas calcination is heating the ore (carbonate or hydroxide ore) in the absence or limited supply of air.</li><li><strong>Flux</strong> is added to gangue to convert it into slag.</li><li><strong>Ores</strong> are the minerals from which metal is extracted conveniently and beneficially.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Key terms in metallurgy: metals, gangue, roasting, calcination, flux, and ores."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 72
+  },
+  {
+    "id": "chemistry-ores-uses-1",
+    "subject": "Chemistry",
+    "chapter": "General Chemistry",
+    "topic": "Some Important Ores and their Uses",
+    "text": "<p>This section lists some important ores and minerals, their chemical compositions, and the metals they are associated with.</p>",
+    "formulas": [
+      "NaCl",
+      "NaNO₃",
+      "Na₂B₄O₇ · 10H₂O",
+      "KCl · MgCl₂ · 6 H₂O",
+      "MgCO₃",
+      "CaSiO₃ · 3MgSiO₃",
+      "KCl · MgCl₂ · 6H₂O",
+      "CaCO₃",
+      "CaSO₄ · 2H₂O",
+      "CaF₂",
+      "Al₂O₃ · 2H₂O",
+      "Na₃AlF₆",
+      "KAlSi₃O₈",
+      "KAlSi₃O₁₀(OH)₂",
+      "SiO₂",
+      "Fe₂O₃",
+      "Fe₃O₄",
+      "FeS₂",
+      "FeCO₃",
+      "Cu₂S",
+      "CuFeS₂",
+      "Cu(OH)₂CuCO₃",
+      "2CuCO₃ · Cu(OH)₂",
+      "Ag₂S",
+      "AgCl",
+      "Ag₂S · Sb₂S₃",
+      "AuAgTe₄",
+      "ZnS",
+      "ZnCO₃",
+      "ZnO",
+      "HgS",
+      "SnO₂",
+      "PbS",
+      "PbCO₃",
+      "PbSO₄",
+      "KNO₃",
+      "KCl"
+    ],
+    "tables": [
+      "| Metal | Ores/minerals | Chemical composition |\n|---|---|---|\n| Sodium | Rock salt | NaCl |\n| | Chile salt petre | NaNO₃ |\n| | Borax, tincal or suhaga carnallite | Na₂B₄O₇ · 10H₂O |\n| Magnesium | Magnesite | KCl · MgCl₂ · 6 H₂O, MgCO₃ |\n| | Asbestos | CaSiO₃ · 3MgSiO₃ |\n| | Carnallite | KCl · MgCl₂ · 6H₂O |\n| Calcium | Lime stone | CaCO₃ |\n| | Gypsum | CaSO₄ · 2H₂O |\n| | Fluorspar | CaF₂ |\n| Aluminium | Bauxite | Al₂O₃ · 2H₂O |\n| | Cryolite | Na₃AlF₆ |\n| | Feldspar | KAlSi₃O₈ |\n| | Mica | KAlSi₃O₁₀(OH)₂ |\n| | Granite | SiO₂ and Al₂O₃ (73 : 14) |\n| Iron | Haematite | Fe₂O₃ |\n| | Magnetite | Fe₃O₄ |\n| | Iron pyrites | FeS₂ |\n| | Siderite | FeCO₃ |\n| Copper | Copper glance | Cu₂S |\n| | Copper pyrites | CuFeS₂ |\n| | Malachite | Cu(OH)₂CuCO₃ |\n| | Azurite | 2CuCO₃ · Cu(OH)₂ |\n| Silver | Silver glance | Ag₂S |\n| | Horn silver | AgCl |\n| | Ruby silver | Ag₂S · Sb₂S₃ |\n| Gold | Sylvanite | AuAgTe₄ |\n| Zinc | Zinc blende | ZnS |\n| | Calamine | ZnCO₃ |\n| | Zincite | ZnO |\n| Mercury | Cinnabar | HgS |\n| Tin | Cassiterite | SnO₂ |\n| Lead | Galena | PbS |\n| | Cerussite | PbCO₃ |\n| | Anglesite | PbSO₄ |\n| Potassium | Nitre | KNO₃ |\n| | Sylvine | KCl |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 73
+  },
+  {
+    "id": "chemistry-alloys-2",
+    "subject": "Chemistry",
+    "chapter": "General Chemistry",
+    "topic": "Alloys",
+    "text": "<p><strong>Alloy</strong></p><ul><li>An alloy is a homogeneous mixture of two or more metals or a metal and a non-metal.</li></ul><p><strong>Some Important Alloys and their Uses</strong></p>",
+    "formulas": [],
+    "tables": [
+      "| Alloys | Composition | Important uses |\n|---|---|---|\n| Brass | Copper, zinc | Utensils, condenser, tubes, cartridge caps, etc. |\n| Aluminium bronze | Copper and aluminium | Coins, picture, cheap jewellery, flames |\n| German silver | Copper, zinc, nickel | Utensils, resistance wires |\n| Constantan | Copper, nickel | Electrical apparatus |\n| Dental alloy | Silver, mercury, tin, zinc | For filling teeth |\n| Stainless steel | Iron, chromium, nickel | Utensils, bicycle parts, etc. |\n| Magnalium | Magnesium and aluminium | Automobile and aeroplane parts |\n| Nichrome | Nickel, iron, chromium, manganese | In making coils of heater |\n| Misch metal | Cerium, lanthanum, neodymium, praseodymium and other lanthanoids | In making cigarette lighters |\n| Solder | Tin and lead | Soldering |\n| Bronze | Copper and tin | Making utensils, statues, coins, etc. |\n| Type metal | Tin, lead and antimony | Used in printing |\n| Bell metal | Copper, tin | Making bells |\n| Gun metal | Copper, tin and zinc | Gears and bearing |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 73
+  },
+  {
+    "id": "chemistry-alkali-metals-3",
+    "subject": "Chemistry",
+    "chapter": "General Chemistry",
+    "topic": "Elements of IA Group (Alkali Metals)",
+    "text": "<p><strong>Elements of IA Group (Alkali Metals)</strong></p><ul><li>Lithium, sodium, potassium, rubidium and caesium are alkali metals and are s-block elements.</li><li>These metals are soft and can be cut with knife.</li><li>Lithium is the lightest metal.</li><li>Alkali metals are stored under kerosene or paraffins to protect them from the action of air.</li><li>Lithium shows diagonal relationship with magnesium.</li><li>In Castner’s process, metallic sodium is prepared by electrolysis of molten NaOH.</li><li>Sodium is used in yellow light lamps.</li><li>Sodium chloride (NaCl) or common salt or table salt is used in our daily diet, as a preservative for pickles, meat and fish. It is also used in the manufacture of NaOH, Cl₂ gas and soap.</li><li>Sodium hydroxide (NaOH) or caustic soda is used in the soap, dyes and artificial silk industries and in the refining of bauxite mineral.</li><li>Sodium bicarbonate is used in the kitchen for making food tasty and crispy.<ul><li>Sodium bicarbonate (Sodium hydrogen carbonate or baking soda) is used for making baking powder, which is a mixture of baking soda and a mild edible acid such as tartaric acid.</li><li>It is also an ingredient of antacids. Being alkaline, it neutralises excess acid in the stomach and provides relief.</li><li>It is also used in soda acid fire extinguishers.</li></ul></li><li>Sodium carbonate decahydrate (Na₂CO₃·10 H₂O) or washing soda is used in the manufacture of glass, soap, washing powder and for softening hard water.</li><li>Sodium sulphate (Na₂SO₄·10H₂O) is Glauber’s salt. It is used as purgative.</li><li>Sodium thiosulphate (Na₂S₂O₃·5H₂O) is also known as hypo. It is used in photography as a fixing agent because it removes the undecomposed AgBr as soluble silver thiosulphate salt.</li></ul>",
+    "formulas": [
+      "NaOH",
+      "NaCl",
+      "Cl₂",
+      "Na₂CO₃·10 H₂O",
+      "Na₂SO₄·10H₂O",
+      "Na₂S₂O₃·5H₂O",
+      "AgBr"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 73
+  },
+  {
+    "id": "chemistry-inorganic-group-IB",
+    "subject": "Chemistry",
+    "chapter": "Periodic Table and Group Elements",
+    "topic": "Elements of IB Group",
+    "text": "<ul><li><sup>29</sup>Cu, <sup>47</sup>Ag, <sup>79</sup>Au are the elements of <strong>I B group</strong>.</li><li>These elements are called coinage or currency metals.</li><li>Their important properties are as follow:<ul><li>They are <em>d</em>-block, transition elements.</li><li>These are very hard, malleable and ductile metals.</li><li>They have high density and high melting and boiling points.</li></ul></li><li>CuSO<sub>4</sub> is used as a mordant in dyeing. Copper sulphate pentahydrate is blue in colour and is called <strong>blue vitriol</strong>. CuSO<sub>4</sub> is used to test the presence of water.</li><li>Copper is alloyed with gold and silver for making ornaments.</li><li>AgNO<sub>3</sub> is called <strong>lunar caustic</strong>. It is stored in dark brown bottles because it is photosensitive.</li><li>Au, Ag, Pt, etc., metals which remain unaffected by the action of other strong acids dissolve in aqua-regia (which is a mixture of HCl and HNO<sub>3</sub> in 3 : 1).</li></ul>",
+    "formulas": [
+      "Cu",
+      "Ag",
+      "Au",
+      "CuSO4",
+      "CuSO4 · 5H2O",
+      "AgNO3",
+      "HCl",
+      "HNO3"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 74
+  },
+  {
+    "id": "chemistry-inorganic-group-IIA",
+    "subject": "Chemistry",
+    "chapter": "Periodic Table and Group Elements",
+    "topic": "Elements of IIA Group (Alkaline Earth Metals)",
+    "text": "<h3>Elements of IIA Group (Alkaline Earth Metals)</h3><ul><li>II A subgroup elements are Be, Mg, Ca, Sr, Ba and Ra. They are called <strong>alkaline earth metals</strong> and are <em>s</em>-block elements.</li><li>Calcium of this family is most abundant element in the earth's crust while magnesium is present in chlorophyll, the green pigment of the leaf.</li><li>Beryllium shows diagonal relationship with aluminium.</li><li>Mg(OH)<sub>2</sub> is called <strong>milk of magnesia</strong>. Being a mild base, it is used as an antacid to neutralise the excess acid present in the stomach.</li><li>MgSO<sub>4</sub> is used as a mordant in dyeing and tanning industry. It is also used as a purgative.</li><li>Calcium oxide (CaO), also called quicklime, gives hissing sound when dissolved in water. It is used in the manufacture of glass, calcium chloride, cement, mortar, bleaching powder, calcium carbide, slaked lime, etc. It is also used in the extraction of iron and as a drying agent for ammonia and alcohol.</li><li>Calcium hydroxide (slaked lime) [Ca(OH)<sub>2</sub>], is used in the manufacturing of bleaching powder, caustic soda and soda lime and for softening of hard water.</li><li>When CaCO<sub>3</sub> is dipped in water, the bubbles evolve due to the evolution of carbon dioxide.</li><li>Calcium sulphate is gypsum (CaSO<sub>4</sub> · 2H<sub>2</sub>O). It loses a <sup>2</sup>/<sub>3</sub>rd part of its water of crystallisation when heated at 120°C to form (CaSO<sub>4</sub>)<sub>2</sub> · H<sub>2</sub>O which is known as <strong>Plaster of Paris</strong>.</li></ul>",
+    "formulas": [
+      "Be",
+      "Mg",
+      "Ca",
+      "Sr",
+      "Ba",
+      "Ra",
+      "Mg(OH)2",
+      "MgSO4",
+      "CaO",
+      "Ca(OH)2",
+      "CaCO3",
+      "CaSO4 · 2H2O",
+      "(CaSO4)2 · H2O"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 74
+  },
+  {
+    "id": "chemistry-inorganic-cement-composition",
+    "subject": "Chemistry",
+    "chapter": "Periodic Table and Group Elements",
+    "topic": "Cement Composition and Properties",
+    "text": "<ul><li>Gypsum is used in the preparation of building's plaster and anhydrous CaSO<sub>4</sub>.</li><li>Anhydrous CaSO<sub>4</sub> is a dehydrating agent and is used for the manufacture of ammonium sulphate (Sindri fertiliser) and sulphuric acid.</li><li>Plaster of Paris is a white powder, which sets into hard mass called gypsum on hydration with water, so it is used in making casting for statues, toys, for plastering fractured bones, etc.</li><li>Cement has the following composition: Calcium oxide (CaO, 50-60%), alumina (Al<sub>2</sub>O<sub>3</sub>, 5-10%) and magnesium oxide (MgO, 2-3%). Raw materials used for its preparation are limestone and clay. When cement mixed with water, the setting of cement takes place to give a hard mass. This is due to the hydration of the molecules of the constituents and their rearrangement.</li><li>Adding gypsum is only to slow down the process of setting time of the cement.</li><li>Portland cement is a mixture of silicates and aluminates of calcium with small amount of gypsum. The chemical composition of portland are CaO.SiO<sub>2</sub>.Al<sub>2</sub>O<sub>3</sub>, SO<sub>3</sub>MgO.Fe<sub>2</sub>O<sub>3</sub>, silica SiO<sub>2</sub> imparts strength to the cement due to the formation of dicalcium and tricalcium silicates.</li><li>Alumina (Al<sub>2</sub>O<sub>3</sub>) imparts quick setting property to the cement. It acts as a flux and lowers the clinkering temperature.</li></ul>",
+    "formulas": [
+      "CaSO4",
+      "CaO",
+      "Al2O3",
+      "MgO",
+      "SO3MgO.Fe2O3",
+      "SiO2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 74
+  },
+  {
+    "id": "chemistry-inorganic-group-IIB",
+    "subject": "Chemistry",
+    "chapter": "Periodic Table and Group Elements",
+    "topic": "Elements of IIB Group",
+    "text": "<h3>Elements of IIB Group</h3><ul><li>Zinc (<sup>30</sup>Zn), cadmium (<sup>48</sup>Cd) and mercury (<sup>80</sup>Hg) are the three elements present in II B subgroup. These are <em>d</em>-block elements.</li><li>Their properties are as follow:<ul><li>Zinc is used in making alloys like brass, bronze, German silver, etc.</li><li>Zinc is deposited on the surface of iron articles by the process called <strong>galvanisation</strong>.</li><li>Mercury, Hg is a liquid at room temperature and is filled in CFL lamps.</li><li>Mercurous chloride or calomel(Hg<sub>2</sub>Cl<sub>2</sub>) is used for making calomel electrode which is a reference electrode.</li></ul></li></ul>",
+    "formulas": [
+      "Zn",
+      "Cd",
+      "Hg",
+      "Hg2Cl2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 74
+  },
+  {
+    "id": "chemistry-inorganic-group-IIIA",
+    "subject": "Chemistry",
+    "chapter": "Periodic Table and Group Elements",
+    "topic": "Elements of III A Group (Boron Family)",
+    "text": "<h3>Elements of III A Group (Boron Family)</h3><ul><li>Elements are <sup>5</sup>B, <sup>13</sup>Al, <sup>31</sup>Ga, <sup>49</sup>In and <sup>81</sup>Tl.</li><li>Boron is a semi-metal. Rest of elements are metals.</li><li>Aluminium is the most abundant metal (and third most abundant element) in the earth's crust.</li><li>Boron halides are Lewis acids. The order of acidity is BBr<sub>3</sub>> BCl<sub>3</sub>> BF<sub>3</sub>.</li><li>Being lighter, all alloys are used in making aeroplanes.</li><li>Aluminium sulphate is used as a mordant in dyeing.</li></ul>",
+    "formulas": [
+      "B",
+      "Al",
+      "Ga",
+      "In",
+      "Tl",
+      "BBr3",
+      "BCl3",
+      "BF3",
+      "Al2(SO4)3"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 74
+  },
+  {
+    "id": "chemistry-carbon-family-iva-group",
+    "subject": "Chemistry",
+    "chapter": "P-Block Elements",
+    "topic": "Elements of IVA Group (Carbon Family)",
+    "text": "<ul><li>The IVA group consists of elements C, Si, Ge, Sn, Pb.</li><li>All are <i>p</i>-block elements.</li><li>The stability and volatility of tetrahalide of carbon decrease with increasing molecular weight of the tetrahalide e.g. CF₄ > CCl₄ > CBr₄ > CI₄.</li></ul><h3>Carbon</h3><ul><li>This is the element which forms highest number of compounds (except hydrogen) due to its catenation power (tendency of self linking) and tetravalency. It has two crystalline allotropes: Diamond and graphite.</li></ul><h4>Diamond</h4><ul><li>It is the purest form of carbon and has rigid three dimensional network structure in which each carbon atom is bonded to four other carbon atoms in tetrahedral fashion.</li><li>It is hardest substance and is a bad conductor of electricity.</li><li>It is used in making jewellery.</li><li>It is used as an abbrasive for sharpening hard tools, i.e. in making rock drilling machines, glass cutting etc.</li></ul><h4>Graphite</h4><ul><li>It has layered two dimensional hexagonal structure.</li><li>Large amounts of graphite are prepared artificially by Acheson process.</li><li>Graphite is a good conductor of electricity.</li><li>It is used as dry lubricant and in nuclear reactor as a moderator.</li></ul><p><strong>Note:</strong> Fullerenes form another class of carbon allotropes. The first one to be identified was C-60 which has carbon atoms arranged in the shape of football.</p><h3>Coal and Charcoal</h3><ul><li>Coal is the amorphous variety of carbon. Coals are of following types:<ul><li>(a) Peat (60% carbon).</li><li>(b) Lignite or brown coal (70% carbon).</li><li>(c) Bituminous (78-83% carbon). It is the most common variety.</li><li>(d) Anthracite (90% carbon).</li></ul></li><li>Charcoal can be animal charcoal, wood charcoal, sugar charcoal and activated charcoal.</li><li>It is used in the manufacture of fuel gases like-water gas, producer gas and semi-water gas.</li><li>Water gas (CO + H₂), semiwater gas (water gas + producer gas), producer gas (N₂ + CO) are obtained from CO.</li><li>Charcoal (animal charcoal) is used as a fuel and also as a deodorant in the purification of water, decolourising sugar solution and in gas masks.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 75
+  },
+  {
+    "id": "chemistry-carbon-dioxide",
+    "subject": "Chemistry",
+    "chapter": "P-Block Elements",
+    "topic": "Carbon Dioxide (CO₂)",
+    "text": "<ul><li>Air contains CO₂ to an extent of 0.03%-0.05% by the volume. CO₂ is an acidic oxide of carbon.</li><li>Solid CO₂ is technically known as dry ice (dricold).</li><li>It produces very low temperature (– 100°C) with ether, hence gives an excellent freezing mixture.</li><li>It is a non-supporter of combustion so generally used as fire extinguisher.</li><li>When carbon dioxide is passed through lime water, it turns milky due to the formation of calcium carbonate (which is milky white in colour). However, in excess of the gas, the precipitate dissolves because of the formation of soluble calcium bicarbonate.</li><li>Carbon dioxide is the product of calcination and respiration processes.</li></ul>",
+    "formulas": [
+      "CO₂ + Ca(OH)₂ → CaCO₃ + H₂O (Lime water, White)",
+      "CaCO₃ + CO₂ + H₂O → Ca(HCO₃)₂ (Excess, Soluble)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 75
+  },
+  {
+    "id": "chemistry-silicon",
+    "subject": "Chemistry",
+    "chapter": "P-Block Elements",
+    "topic": "Silicon",
+    "text": "<ul><li>It is the second most abundant element in the earth's crust.</li><li>Crystalline form of SiO₂ (silica) is quartz. SiO₂ is the major component of glass and is soluble in HF. That's why HF cannot be stored in glass bottles.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 75
+  },
+  {
+    "id": "chemistry-glass",
+    "subject": "Chemistry",
+    "chapter": "P-Block Elements",
+    "topic": "Glass",
+    "text": "<ul><li>Glass is an amorphous and transparent solid, obtained by solidification of various silicates and borates.</li><li>Various varieties of glass are: Coloured glass, hard glass, high refractive index glass, pyrex glass, Crook's glass.</li></ul><h3>Types of Glasses and their Uses</h3><ul><li>Coloured glass can be obtained by adding following compounds.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Types of Glasses | Uses |\n|---|---|\n| Soft glass | Window panes, bottles, test tubes, etc. |\n| Hard glass | Combustion tubes, etc. |\n| Crook's glass | Absorbs UV rays, used for making lenses |\n| Pyrex glass | Cooking utensils |\n| High refractive index glass | Lenses, cut glasses |\n| Glass laminates | Bullet proof materials |",
+      "| Compound added | Colour imparted |\n|---|---|\n| Cobalt oxide | Blue |\n| Cuprous oxide | Red |\n| Cadmium sulphide | Lemon yellow |\n| Chromium oxide | Green |\n| Auric chloride | Ruby |\n| Manganese dioxide | Purple |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 75
+  },
+  {
+    "id": "CHEM-PTE-001",
+    "subject": "Chemistry",
+    "chapter": "Classification of Elements",
+    "topic": "Glass Wool",
+    "text": "<p>It is an insulating material, obtained from fibre glass arranged into a texture similar to wood. It is produced or rolled in slabs with different thermal and mechanical properties.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 76
+  },
+  {
+    "id": "CHEM-PTE-002",
+    "subject": "Chemistry",
+    "chapter": "Classification of Elements",
+    "subchapter": "p-Block Elements",
+    "topic": "Elements of VA Group",
+    "text": "<ul><li>Elements present in this group are <sub>7</sub>N, <sub>15</sub>P, <sub>33</sub>As, <sub>51</sub>Sb and <sub>83</sub>Bi.</li><li>Phosphorus is the most abundant element of this family in the earth's crust.</li><li>Nitrogen is an essential component of explosives. It is generally filled in chips packets or electric bulbs to increase their life because of its inert nature.</li><li>Ammonia NH<sub>3</sub> is an alkaline gas, extremely soluble in water and is dried over quicklime.</li><li>Oxides of nitrogen when dissolve in water give oxyacids, e.g. NO<sub>2</sub> when dissolves in water, gives HNO<sub>3</sub> (nitric acid).</li><li>Nitric acid is a strong acid and used in the synthesis of fertilisers and explosives.</li><li>Red phosphorus is largely used in match industry and in the manufacture of phosphor bronze-an alloy of Cu, Sn and P.</li><li>The ignition temperature (543K) is much higher than that of white phosphorus (303K). Hence, it does not catch fire easily.</li></ul>",
+    "formulas": [
+      "N",
+      "P",
+      "As",
+      "Sb",
+      "Bi",
+      "NH₃",
+      "NO₂",
+      "HNO₃",
+      "Cu",
+      "Sn"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 76
+  },
+  {
+    "id": "CHEM-PTE-003",
+    "subject": "Chemistry",
+    "chapter": "Classification of Elements",
+    "subchapter": "p-Block Elements",
+    "topic": "Elements of VIIth Group (Halogens - General Properties)",
+    "text": "<ul><li>Order of reactivity of halogens, F<sub>2</sub> > Cl<sub>2</sub> > Br<sub>2</sub> > I<sub>2</sub>.</li><li>Order of electronegativity, F > Cl > Br > I.</li><li>Order of acidic strength, HI > HBr > HCl > HF.</li><li>Iodine is a powerful antiseptic and used as a tincture of iodine (a solution of iodine in alcohol).</li></ul>",
+    "formulas": [
+      "F₂ > Cl₂ > Br₂ > I₂",
+      "F > Cl > Br > I",
+      "HI > HBr > HCl > HF"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 76
+  },
+  {
+    "id": "CHEM-PTE-004",
+    "subject": "Chemistry",
+    "chapter": "Classification of Elements",
+    "subchapter": "d-Block Elements",
+    "topic": "Elements of VIIIth Group",
+    "text": "<ul><li>Elements present in this group are <sub>26</sub>Fe, <sub>27</sub>Co, <sub>28</sub>Ni.</li><li><sub>44</sub>Ru, <sub>45</sub>Rh, <sub>46</sub>Pd (Light platinum metals)</li><li><sub>76</sub>Os, <sub>77</sub>Ir, <sub>78</sub>Pt (High platinum metals)</li><li>All of these are <i>d</i>-block elements.</li><li>Pig iron is obtained from blast furnace. It is most impure form of iron. It is very hard, but brittle. It cannot be welded. It contains maximum amount of carbon (2.5% to 4.3%).</li><li>Wrought iron is the purest form of iron. It contains 0.1 to 0.25% carbon. Wrought iron is soft, ductile and malleable, so it can be welded.</li><li>Steel is the most important form of iron. It contains 0.2 to 1.5% carbon.</li><li>Iron is present in haemoglobin (blood) and its oxidation state in haemoglobin is +2.</li><li>Fe<sub>2</sub>O<sub>3</sub> is called jeweller's rough.</li><li>Vitamin B<sub>12</sub> is also called cobalamine and contains CO<sup>3+</sup> ion. Its deficiency in diet causes pernicious anaemia.</li></ul>",
+    "formulas": [
+      "Fe",
+      "Co",
+      "Ni",
+      "Ru",
+      "Rh",
+      "Pd",
+      "Os",
+      "Ir",
+      "Pt",
+      "Fe₂O₃",
+      "B₁₂",
+      "CO³⁺"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 76
+  },
+  {
+    "id": "CHEM-PTE-005",
+    "subject": "Chemistry",
+    "chapter": "Classification of Elements",
+    "subchapter": "p-Block Elements",
+    "topic": "Elements of VIA Group (Oxygen Family-Chalcogens)",
+    "text": "<ul><li>Elements in this group are <sub>8</sub>O, <sub>16</sub>S, <sub>34</sub>Se, <sub>52</sub>Te and <sub>84</sub>Po.</li><li>Most abundant element of the family is oxygen.</li><li>Common oxidation state of oxygen is (–2).</li><li>In gaseous form oxygen is a supporter of combustion.</li><li>Oil of vitriol or king of chemicals is H<sub>2</sub>SO<sub>4</sub>.</li><li>Sulphuric acid (H<sub>2</sub>SO<sub>4</sub>) is a dibasic acid and is a dehydrating agent. It is used in making explosives.</li><li>Ozone (O<sub>3</sub>) is an allotrope of oxygen. It is diamagnetic gas.</li><li>SO<sub>2</sub> is a bleaching agent. Its bleaching action is due to reduction and is temporary.</li><li>Oxides of sulphur causes acid rain in the atmosphere.</li></ul>",
+    "formulas": [
+      "O",
+      "S",
+      "Se",
+      "Te",
+      "Po",
+      "H₂SO₄",
+      "O₃",
+      "SO₂"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 76
+  },
+  {
+    "id": "CHEM-PTE-006",
+    "subject": "Chemistry",
+    "chapter": "Classification of Elements",
+    "subchapter": "p-Block Elements",
+    "topic": "Elements of VIIth Group (Halogens)",
+    "text": "<ul><li>Elements present in this group are <sub>9</sub>F, <sub>17</sub>Cl, <sub>35</sub>Br, <sub>53</sub>I and <sub>85</sub>At.</li><li>Out of these, bromine (Br<sub>2</sub>) exists in liquid state and iodine (I<sub>2</sub>) in solid state.</li><li>Fluorine ‘F’ has maximum electronegativity.</li><li>Chlorine is prepared by oxidation of HCl with MnO<sub>2</sub>, KMnO<sub>4</sub>, K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> etc.</li><li>Chlorine has maximum electron affinity in the halogens.</li></ul>",
+    "formulas": [
+      "F",
+      "Cl",
+      "Br",
+      "I",
+      "At",
+      "Br₂",
+      "I₂",
+      "HCl",
+      "MnO₂",
+      "KMnO₄",
+      "K₂Cr₂O₇"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 76
+  },
+  {
+    "id": "CHEM-PTE-007",
+    "subject": "Chemistry",
+    "chapter": "Classification of Elements",
+    "subchapter": "p-Block Elements",
+    "topic": "Elements of Zero Group (Noble Gases)",
+    "text": "<ul><li>Elements present in this group are <sub>2</sub>He, <sub>10</sub>Ne, <sub>18</sub>Ar, <sub>36</sub>Kr, <sub>54</sub>Xe and <sub>86</sub>Rn which are called nobel or inert gases.</li><li>Argon is the most abundant inert gas in air.</li><li>Helium was discovered by Frankland and Lockyer. He-III is abundant on the lunar surface and holds the potential to put an end to the energy crisis of the earth.</li><li>Argon was discovered by Rayleigh and Ramsay.</li><li>Ne, Kr and Xe were discovered by Ramsay and Traverse.</li><li>Radon was discovered by Dorn and is not present in air.</li><li>All of these elements are colourless monoatomic gases.</li><li>Their electronegativity and electron affinity are zero.</li></ul>",
+    "formulas": [
+      "He",
+      "Ne",
+      "Ar",
+      "Kr",
+      "Xe",
+      "Rn"
+    ],
+    "tables": [
+      "| Gas | Uses |\n|---|---|\n| Helium | With oxygen for respiration in case of deep seadives, filling balloons and in low temperature applications. |\n| Neon | In advertising signs. |\n| Argon | Light bulbs |\n| Krypton/Xenon | Photographic flash, TV tubes |"
+    ],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 76
+  },
+  {
+    "id": "chem-compounds-001",
+    "subject": "Chemistry",
+    "chapter": "General Science",
+    "topic": "Some Important Compounds and their Uses",
+    "text": "<p>This section provides a comprehensive list of important chemical compounds, detailing their common names, chemical names, chemical formulas, and primary uses. This information is crucial for understanding the practical applications of various substances in industry, daily life, and specific scientific contexts.</p>",
+    "formulas": [
+      "HNO₃",
+      "Conc. HNO₃ + conc. HCl (in 1:3 ratio)",
+      "NaHCO₃",
+      "NaCl solution",
+      "CuSO₄·5H₂O",
+      "Ca₃(PO₄)₂",
+      "CaOCl₂",
+      "NaOH",
+      "NaNO₃",
+      "CO₂",
+      "MgSO₄·7H₂O",
+      "N₂",
+      "C₂H₅OH",
+      "C₆H₁₂O₆",
+      "CaSO₄·2H₂O",
+      "FeSO₄·7H₂O",
+      "C₆H₆Cl₆",
+      "D₂O",
+      "NaCl",
+      "CaCO₃",
+      "N₂O",
+      "Mg(OH)₂",
+      "Ca(OH)₂",
+      "H₂SO₄",
+      "CaSO₄·½H₂O",
+      "COCl₂",
+      "Cu(AsO₂)₂·Cu(C₂H₃O₂)₂",
+      "BiOCl",
+      "SiO₂",
+      "Hg",
+      "CaO",
+      "Pb₃O₄",
+      "Xe",
+      "HCl",
+      "Na₂CO₃"
+    ],
+    "tables": [
+      "| Common name | Chemical name | Formula | Uses |\n|---|---|---|---|\n| Aqua-fortis | Nitric acid | HNO₃ | It is used especially in the production of fertilisers and explosives and rocket fuels. |\n| Aqua-regia | Nitric acid + hydrochloric acid | Conc. HNO₃ + conc. HCl (in 1:3 ratio) | It is used for testing metals and dissolving platinum and gold. |\n| Baking soda | Sodium bicarbonate | NaHCO₃ | It is sodium bicarbonate that is added to baked goods to make them rise. |\n| Brine | Sodium chloride solution | NaCl solution | The electrolysis of brine is a large-scale process used to manufacture chlorine from salt. |\n| Blue vitriol | Copper sulphate | CuSO₄·5H₂O | It is used as antiseptic agent, dyes, treatment of copper deficiency etc. |\n| Bone ash | Calcium phosphate | Ca₃(PO₄)₂ | Bone ash can be used alone as an organic fertiliser. It can be treated with sulphuric acid to form a \"single superphosphatic\" fertiliser which is more water soluble. |\n| Bleaching powder | Calcium oxy-chloride | CaOCl₂ | It is used as disinfectant and germicide in the sterilization of drinking water. |\n| Caustic soda | Sodium hydroxide | NaOH | It is used as a cleansing agent and in the manufacturing of washing soda. |\n| Chile salt petre | Sodium nitrate | NaNO₃ | It is used in solid propellants, explosives, fertilizers etc. |\n| Dry ice | Solid carbon dioxide | CO₂ | It is the solid form of CO₂. It is used primarily as a cooling agent. |\n| Epsom salt | Heptahydrate magnesium sulphate | MgSO₄·7H₂O | This is used as an antacid or as a mineral supplement to maintain the body's magnesium balance and laxative. |\n| Foul air | Nitrogen | N₂ | It is used in food processing, in purging air conditioning and refrigeration. |\n| Grain alcohol | Ethyl alcohol | C₂H₅OH | It is used as a solvent, in the synthesis of other organic chemicals, as an additive to automotive gasoline. |\n| Grape sugar | Dextrose | C₆H₁₂O₆ | Dextrose is a type of sugar better known today as glucose. It is used for treatment of hypoglycemia. |\n| Gypsum | Calcium sulphate dihydrate | CaSO₄·2H₂O | It is widely used as fertilizer and the main constituent in many forms of plaster, blackboard chalk and wallboard. |\n| Green vitriol | Ferrous sulphate heptahydrate | FeSO₄·7H₂O | It is also used in medicine to treat iron deficiency. |\n| Gammexane | Benzene hexachloride (BHC) | C₆H₆Cl₆ | It is also known as lindane. It is used as an agricultural insecticide and as pharmaceutical treatment for lice and scabies. |\n| Heavy water | Deuterium oxide | D₂O | It is used in certain types of nuclear reactors. It acts as a neutron moderator to slow down neutrons. |\n| Halite or table salt | Sodium chloride | NaCl | It is commonly used as a condiment and food preservative. |\n| Lime stone (pearl) | Calcium carbonate | CaCO₃ | It is a chemical or biological sedimentary rock that has many uses in agriculture and industry. |\n| Laughing gas | Nitrous oxide | N₂O | This gas used as anaesthetic, as a propellant in whipped cream cans and as an oxidizing agent in racing cars. |\n| Milk of magnesia | Magnesium hydroxide | Mg(OH)₂ | It is used as a laxative to relieve occasional constipation and as an antacid to relieve indigestion. |\n| Milk of lime (slaked lime) | Calcium hydroxide | Ca(OH)₂ | It is used as lubricant carrier in wire drawing. |\n| Oil of vitriol | Sulphuric acid | H₂SO₄ | It uses in the production of fertilizers, manufacture of chemicals in petroleum refining etc. |\n| Plaster of Paris | Calcium sulphate hemihydrate | CaSO₄·½H₂O | It is used for casts to hold broken limbs in place, modeling casts, sculptures and in plasterboard walls and ceilings etc. |\n| Phosgene | Carbonyl chloride | COCl₂ | It is a major industrial chemical used to make chemicals and pesticides. |\n| Paris green | Double salt | Cu(AsO₂)₂·Cu(C₂H₃O₂)₂ | It is used as a pigment and insecticide. It is used as preservative also. |\n| Pearl white | Bismuthoxychloride | BiOCl | It is used as a yellow pigment for cosmetics and paints. |\n| Quartz or sand | Silicon dioxide | SiO₂ | Common uses of silica (quartz) is the manufacture of glass. |\n| Quick silver | Mercury | Hg | It is the chemical element of mercury. It is used in batteries, fluorescent lights, thermometers etc. |\n| Quicklime | Calcium oxide | CaO | It is used in the petroleum industry as an alkali in biodiesel production. |\n| Red lead | Lead tetraoxide | Pb₃O₄ | It is used in the manufacture of batteries, lead glass and rust-proof primer paints. |\n| Stranger gas | Xenon | Xe | Xenon is used in photographic flash lamps, stroboscopic lamps, bactericidal lamps, high intensive arc lamps for motion picture protection etc. |\n| Spirit of salt | Hydrochloric acid | HCl | An old fashioned name for hydrochloric acid. It is used in production of batteries, photoflash bulbs and fireworks etc. |\n| Soda ash | Sodium carbonate | Na₂CO₃ | It is used in the manufacturing of glass, detergents, chemicals and other industrial products. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A table listing common chemical compounds, their chemical names, formulas, and uses."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 77
+  },
+  {
+    "id": "chem-common-compounds-001",
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "topic": "Common Chemical Compounds and Their Uses",
+    "text": "<p>This section lists common chemical compounds, their chemical names, formulas, and primary uses.</p>",
+    "formulas": [],
+    "tables": [
+      "| Common name | Chemical name | Formula | Uses |\n|---|---|---|---|\n| Salt cake | Sodium sulphate | Na₂SO₄ | It used in the manufacture of glass, ceramic glazes, soaps and sodium salts. |\n| Tear gas | Chloropicrin | CCl₃NO₂ (or chloro compounds or NH₃) | It is used as a riot control agent. |\n| Vinegar | Acetic acid | CH₃COOH | It is mainly used as cooking ingredient or in pickling. |\n| Washing soda | Sodium carbonate decahydrate | Na₂CO₃ · 10 H₂O | (i) It is used in manufacturing of glass borax, paper etc. (ii) To remove permanent hardness of water. |\n| Water glass | Sodium silicate | Na₂SiO₃ | It is used as coagulant/deflocculant agent in wastewater treatment places. |\n| White vitriol | Zinc sulphate | ZnSO₄ · 7 H₂O | It is used for preserving skins and wood, in the electro deposition of zinc etc. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A table detailing common chemical compounds, their names, formulas, and uses in various industries and applications."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 78
+  },
+  {
+    "id": "chem-organic-compounds-001",
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "topic": "Organic Compounds",
+    "text": "<ul><li>Chemistry of hydrocarbons and their derivatives are called organic compounds which deal with an organic chemistry.</li><li><strong>Urea</strong> (NH₂CONH₂) was the first organic compound prepared in laboratory. It was prepared by <strong>Wöhler</strong>.</li><li><strong>Acetic acid</strong> (CH₃COOH) was the first organic compound synthesised from its elements by <strong>Kolbe</strong>.</li><li>Main sources of organic compounds are plants, animals, coal and petroleum.</li></ul>",
+    "formulas": [
+      "(NH₂)₂CO",
+      "CH₃COOH"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to organic compounds, including their definition, historical synthesis of Urea and Acetic acid, and their natural sources."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 78
+  },
+  {
+    "id": "chem-hydrocarbons-alkanes-001",
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Hydrocarbons",
+    "topic": "Saturated Hydrocarbons or Paraffins or Alkanes",
+    "text": "<h3>Hydrocarbons</h3><p>Hydrocarbons are the compounds made up of carbon and hydrogen only. These are of two types:</p><h4>1. Saturated Hydrocarbons or Paraffins or Alkanes (Contain C—C Bond)</h4><ul><li>General formula <strong>C<sub>n</sub>H<sub>2n+2</sub></strong> where, n = 1, 2, 3, ...</li><li>All the carbon atoms in alkanes are sp³-hybridised. They show chain isomerism.</li><li><strong>Methane</strong>, CH₄ is the first and least reactive member of the series. Its source is wet and marshy land. It is also present in the air exhaled by animals whose food contains cellulose.</li><li>Cavities in coal contains 90% methane. It is called <strong>fire-damp</strong>. It is responsible for the explosions occurring in coal mines.</li><li>It is used as a gaseous fuel, for preparing carbon black and in the preparation of variety of organic compounds.</li></ul>",
+    "formulas": [
+      "CnH2n+2",
+      "CH₄"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of hydrocarbons, classification into saturated and unsaturated. Detailed description of alkanes, their general formula, hybridization, isomerism, and specific facts about methane including its sources and uses."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 78
+  },
+  {
+    "id": "chem-hydrocarbons-alkenes-001",
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Hydrocarbons",
+    "topic": "Unsaturated Hydrocarbons - Alkenes",
+    "text": "<h4>2. Unsaturated Hydrocarbons</h4><p>Contains >C=C< or —C≡C—Bond</p><p>These further are of two types :</p><h5>(i) Alkenes or Olefins (>C=C<)</h5><ul><li>General formula <strong>C<sub>n</sub>H<sub>2n</sub></strong></li><li>Type formula <strong>R—CH = CH₂</strong></li><li>Common name Alkylene, IUPAC name Alkenes.</li><li>First member is <strong>C₂H₄</strong>, (CH₂=CH₂) known as ethylene or ethene.</li><li>Ethene is used in the manufacture of plastics, for artificial ripening of fruits (banana, apple and orange), as an anaesthesia etc.</li></ul>",
+    "formulas": [
+      "C=C",
+      "CnH2n",
+      "R-CH=CH₂",
+      "C₂H₄"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to unsaturated hydrocarbons. Detailed information on Alkenes, including their general and type formulas, common and IUPAC names, and specific uses of ethene."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 78
+  },
+  {
+    "id": "chem-hydrocarbons-alkynes-001",
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Hydrocarbons",
+    "topic": "Unsaturated Hydrocarbons - Alkynes",
+    "text": "<h5>(ii) Alkynes or Acetylenes (—C≡C—)</h5><ul><li>General formula <strong>C<sub>n</sub>H<sub>2n-2</sub></strong></li><li>Type formula <strong>R—C≡C—H</strong></li><li>Common name Acetylene, IUPAC name Alkynes.</li><li><strong>Acetylene</strong> (C₂H₂) is the first member of the series.</li><li>It is used in oxyacetylene torch and for welding in acetylene lamps.</li><li>Alkynes can be distinguished from alkenes by the reaction with Tollen's reagent (ammoniacal silver nitrate).</li></ul>",
+    "formulas": [
+      "C≡C",
+      "CnH2n-2",
+      "R-C≡C-H",
+      "C₂H₂"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed information on Alkynes, including their general and type formulas, common and IUPAC names, specific uses of acetylene, and a method for distinguishing them from alkenes."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 78
+  },
+  {
+    "id": "chem-hydrocarbons-aromatic-001",
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Hydrocarbons",
+    "topic": "Aromatic Hydrocarbons",
+    "text": "<h3>Aromatic Hydrocarbons</h3><ul><li>General formula <strong>C<sub>n</sub>H<sub>2n-6</sub></strong></li><li>Common name Arenes</li><li>Most of these compounds contain benzene ring. e.g. benzene, toluene, naphthalene, etc.</li><li><strong>Benzene</strong> (C₆H₆) was first synthesised by Berthelot. It is used in the production of various organic compounds, as a solvent and fuel in motor vehicle when mixed with petrol, etc.</li></ul>",
+    "formulas": [
+      "CnH2n-6",
+      "C₆H₆"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Description of Aromatic Hydrocarbons, including their general formula, common name (Arenes), examples of compounds containing a benzene ring, and the historical synthesis and uses of benzene."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 78
+  },
+  {
+    "id": "chem-hydrocarbon-derivatives-haloalkanes-001",
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Hydrocarbon Derivatives",
+    "topic": "Haloalkanes",
+    "text": "<h3>Hydrocarbon Derivatives</h3><h4>1. Haloalkanes</h4><ul><li>General formula <strong>C<sub>n</sub>H<sub>2n+1</sub>X</strong> (where, X = Cl, Br, I)</li><li>Type formula These are of three types:<ul><li>Primary alkyl halide, <strong>R—CH₂—X</strong></li><li>Secondary alkyl halide, <strong>R₁—CH—X</strong><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li></ul>",
+    "formulas": [
+      "CnH2n+1X",
+      "R-CH₂-X",
+      "R₁-CH(R₂)-X"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of Haloalkanes as hydrocarbon derivatives, including their general formula and the classification into primary and secondary alkyl halides with their respective type formulas."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 78
+  },
+  {
+    "id": "655-0-1",
+    "subject": "Chemistry",
+    "chapter": "General Science",
+    "topic": "Tertiary alkyl halide",
+    "text": "<p><strong>Common name</strong> Alkyl halide;</p><p><strong>IUPAC name</strong> Haloalkane.</p><p>Trihalo methane are called <strong>haloforms</strong>, e.g. chloroform (<em>CHCl</em><sub>3</sub>), iodoform (<em>CHI</em><sub>3</sub>), etc.</p><p>Chloroform oxidises to <em>COCl</em><sub>2</sub> (carbonyl chloride or phosgene gas) in the presence of air and light. So, it is kept in closed dark coloured bottles and mixed with ethyl alcohol which acts as negative catalyst and form non-poisonous, ethyl carbonate with <em>COCl</em><sub>2</sub>.</p><p>Chloroform is used as a general anaesthetic.</p><p>Chloropicrin (<em>CCl</em><sub>3</sub> <em>NO</em><sub>2</sub>) is used as an insecticide and also called <strong>tear gas</strong>. Carbon tetrachloride (<em>CCl</em><sub>4</sub>) is used for extinguishing fire under the name <strong>pyrene</strong>.</p><p>Ethylene dibromide is added to petrol in place of tetraethyl lead to save the environment from lead pollution.</p><p>Chlorofluorocarbons (freons or CFC) are used as refrigerants. They contain carbon, chlorine, hydrogen and fluorine and destroy the ozone layer.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a tertiary alkyl halide with R1, R2, R3 as alkyl groups and X as a halogen."
+    ],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 79
+  },
+  {
+    "id": "655-0-2",
+    "subject": "Chemistry",
+    "chapter": "General Science",
+    "topic": "Alcohols",
+    "text": "<p><strong>General formula</strong> <em>C</em><sub><em>n</em></sub><em>H</em><sub>2<em>n</em>+1</sub> <em>OH</em></p><p><strong>Common name</strong> Alkyl alcohol;</p><p><strong>IUPAC name</strong> Alkanol.</p><p>Primary alcohol is <em>R</em>—<em>CH</em><sub>2</sub><em>OH</em>, secondary alcohol is <em>R</em><sub>2</sub><em>CH</em> — <em>OH</em> and tertiary alcohol is <em>R</em><sub>3</sub><em>C</em>—<em>OH</em>.</p><p>Lucas reagent (conc. <em>HCl</em> + anhydrous <em>ZnCl</em><sub>2</sub>) is used to distinguish between primary, sec and tert-alcohols.</p><p><em>CH</em><sub>3</sub><em>OH</em> is produced by the destructive distillation of wood, hence also known as, wood spirit, methyl alcohol, methanol or carbinol. It is used as a solvent for paints and varnishes, in making dyes, drugs, perfumes and also used as motor fuel with petrol.</p><p>The destructive distillation of wood yields wood gas (gaseous), tar (liquid), charcoal (solid residue), methyl alcohol (liquid) and acetic acid (vinegar).</p><p>Various products obtained by the destructive distillation of coal are coal gas (<em>H</em><sub>2</sub> + <em>CH</em><sub>4</sub> + <em>CO</em>), ammoniacal liquor, coal tar and coke.</p><p><em>CH</em><sub>3</sub><em>CH</em><sub>2</sub><em>OH</em> is ethyl alcohol or ethanol or grain alcohol. It is made unfit for drinking purpose by adding methanol or pyridine. Such alcohol is called <strong>methylated spirit</strong> or <strong>denatured alcohol</strong>.</p>",
+    "formulas": [
+      "Cn H2n+1 OH",
+      "R—CH2OH",
+      "R2CH — OH",
+      "R3C—OH",
+      "CH3OH",
+      "H2 + CH4 + CO",
+      "CH3CH2OH"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 79
+  },
+  {
+    "id": "655-0-3",
+    "subject": "Chemistry",
+    "chapter": "General Science",
+    "topic": "Ethanol",
+    "text": "<p>Ethanol changes the colour of sodium or potassium dichromate from orange to green. It is also used in the manufacture of paints, varnishes, in making transparent soap in the preparation of chloroform, as a fuel in internal combustion engines. It is used in alcoholic drinks, whisky, wine, beer, etc.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 79
+  },
+  {
+    "id": "655-0-4",
+    "subject": "Chemistry",
+    "chapter": "General Science",
+    "topic": "Ethers",
+    "text": "<p><strong>General formula</strong> <em>C</em><sub><em>n</em></sub><em>H</em><sub>2<em>n</em>+2</sub> <em>O</em></p><p><strong>Common name</strong> Dialkyl ether</p><p><strong>IUPAC name</strong> Alkoxy alkane</p><p>Ethers behave like Lewis bases.</p><p>Diethyl ether (<em>C</em><sub>2</sub><em>H</em><sub>5</sub><em>OC</em><sub>2</sub><em>H</em><sub>5</sub>) is used as an industrial solvent and also as an anaesthesia.</p>",
+    "formulas": [
+      "Cn H2n+2 O",
+      "C2H5OC2H5"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 79
+  },
+  {
+    "id": "655-0-5",
+    "subject": "Chemistry",
+    "chapter": "General Science",
+    "topic": "Aldehydes",
+    "text": "<p><strong>General formula</strong> <em>C</em><sub><em>n</em></sub><em>H</em><sub>2<em>n</em>+1</sub> <em>CHO</em> or <em>C</em><sub><em>n</em></sub><em>H</em><sub>2<em>n</em>+2</sub><em>O</em>;</p><p><strong>IUPAC name</strong> Alkanal.</p><p>40% solution of formaldehyde is called <strong>formalin</strong> and used in the preservation of dead animals.</p><p>Benzaldehyde is almond extract.</p><p>Paraldehyde (a carbonyl compound) is used as a hypnotic.</p><p>Eugenol is an active component of clove oil.</p>",
+    "formulas": [
+      "Cn H2n+1 CHO",
+      "Cn H2n+2O"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 79
+  },
+  {
+    "id": "655-0-6",
+    "subject": "Chemistry",
+    "chapter": "General Science",
+    "topic": "Ketones",
+    "text": "<p><strong>General formula</strong> <em>C</em><sub><em>n</em></sub><em>H</em><sub>2<em>n</em></sub><em>O</em> or (<em>C</em><sub><em>n</em></sub><em>H</em><sub>2<em>n</em>+1</sub>)<sub>2</sub><em>O</em></p><p><strong>IUPAC name</strong> Alkanone.</p><p>Ketones containing — <em>CO</em><em>CH</em><sub>3</sub> (methyl ketonic group) gives yellow colour (iodoform) in iodoform test.</p><p>Acetone (<em>CH</em><sub>3</sub><em>COCH</em><sub>3</sub>) is the first member of this class.</p><p>Acetone is used as nail polish remover. However, now-a-days, acetone free removers are in common use. Its main ingredient is ethyl acetate or butyl acetate.</p><p>Methyl Ethyl Ketone (<em>MEK</em>) is used as paint stripper.</p><p>Aldehydes and ketones having α-hydrogen atom give aldol condensation. Such carbonyl compounds which have α-hydrogen atom undergo condensation in the presence of dilute base to form aldol.</p>",
+    "formulas": [
+      "Cn H2nO",
+      "(Cn H2n+1)2O",
+      "—COCH3",
+      "CH3COCH3",
+      "MEK"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 79
+  },
+  {
+    "id": "655-0-7",
+    "subject": "Chemistry",
+    "chapter": "General Science",
+    "topic": "Carboxylic Acids",
+    "text": "<p><strong>General formula</strong> <em>C</em><sub><em>n</em></sub><em>H</em><sub>2<em>n</em>+1</sub> <em>COOH</em> or <em>C</em><sub><em>n</em></sub><em>H</em><sub>2<em>n</em>+2</sub><em>O</em><sub>2</sub>;</p><p><strong>IUPAC name</strong> Alkanoic acid.</p><p>First member of the carboxylic acid series is formic acid, <em>HCOOH</em>, which is present in ant's or bee's sting.</p><p><em>HCOOH</em> is the strongest acid among the carboxylic acids.</p><p><em>CH</em><sub>3</sub><em>COOH</em> is the ethanoic or acetic acid (vinegar).</p><p>Vinegar contains 6-10 % acetic acid. Acetic acid is used in the manufacture of rubber from latex and casein from milk. It is used for coagulation.</p><p>Lactic acid is α-hydroxy propanoic acid. It is present in milk and provides it sour taste.</p>",
+    "formulas": [
+      "Cn H2n+1 COOH",
+      "Cn H2n+2O2",
+      "HCOOH",
+      "CH3COOH"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 79
+  },
+  {
+    "id": "656-001",
+    "subject": "Chemistry",
+    "chapter": "Man-Made Materials",
+    "topic": "Acids and Esters",
+    "text": "<p>Citric acid is a hydroxy tricarboxylic acid. It is present in citrus fruits.</p><p>Oxalic acid removes rust stains.</p><p>Salicylic acid is used to prepare aspirin (<em>o</em>-acetyl salicylic acid).</p><h2>7. Esters</h2><p>General formula C<sub>n</sub>H<sub>2n+1</sub>COOR or C<sub>n</sub>H<sub>2n+2</sub>O<sub>2</sub></p><p>IUPAC name Alkyl alkanoate.</p><p>These are used in making artificial perfumes, flavours and essence used in cold drinks, ice-creams, etc.</p><p>Sodium benzoate is used as a food preservative.</p><p>These have characteristic sweet fruity smell.</p>",
+    "formulas": [
+      "C_n H_{2n+1}COOR",
+      "C_n H_{2n+2}O_2"
+    ],
+    "tables": [
+      "| Ester | Flavour | Ester | Flavour |\n|---|---|\n| Amyl acetate | Banana | Isoamyl valerate | Apple |\n| Octyl acetate | Orange | Methyl butyrate | Pineapple |"
+    ],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 80
+  },
+  {
+    "id": "656-002",
+    "subject": "Chemistry",
+    "chapter": "Man-Made Materials",
+    "topic": "Soaps",
+    "text": "<h2>SOAPS</h2><p>Soaps are the sodium or potassium salts of long chain carboxylic (fatty) acids (RCOONa) e.g. sodium palmitate (C<sub>15</sub>H<sub>31</sub>COONa), sodium stearate (C<sub>17</sub>H<sub>35</sub>COONa) and sodium oleate (C<sub>17</sub>H<sub>33</sub>COONa) etc. Animal fat or vegetable oil, sodium hydroxide, sodium chloride act as the raw materials for the manufacture of ordinary soap. The process of making soap is called <strong>saponification</strong>.</p><ul><li>Soaps do not form lather with hard water due to the formation of scum.</li><li>When the medium is acidic, soaps form insoluble long chain fatty acids and hence, lost their cleansing action.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 80
+  },
+  {
+    "id": "656-003",
+    "subject": "Chemistry",
+    "chapter": "Man-Made Materials",
+    "topic": "Detergents",
+    "text": "<h2>DETERGENTS</h2><ul><li>These are also called \"soap-less\" soaps as they do not contain any soap.</li><li>These are the long chain benzene sulphonic acid or the sodium salt of the long chain alkyl hydrogen sulphate.</li><li>Long chain hydrocarbons, sulphuric acid and sodium hydroxide are the raw materials for the manufacturing of detergents.</li><li>These are non-biodegradable and cause water pollution. However, straight chain detergents are biodegradable.</li><li>They form lather with soft as well as hard water.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 80
+  },
+  {
+    "id": "656-004",
+    "subject": "Chemistry",
+    "chapter": "Man-Made Materials",
+    "topic": "Polymers",
+    "text": "<h2>Polymers</h2><p>A polymer is a compound of high molecular weight formed by the union of a large number of molecules of one or two types of low molecular weight (known as monomers) and the process involving the formation of a polymer is called <strong>polymerisation</strong>.</p><h2>Types of Polymers</h2><p>On the basis of their origin, the polymers are classified in the following manner:</p><ol><li><strong>Natural Polymers</strong> These are found in nature, e.g. cellulose, starch, rubber, wool, silk etc.</li><li><strong>Synthetic Polymers</strong> These are prepared in the laboratory by synthetic means, e.g. polythene, nylon, orlon, dacron, etc.</li></ol>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 80
+  },
+  {
+    "id": "656-005",
+    "subject": "Chemistry",
+    "chapter": "Man-Made Materials",
+    "topic": "Semi-synthetic Polymers",
+    "text": "<p>3. <strong>Semi-synthetic Polymers</strong> These are synthesised by man from natural substances, e.g. rayon (a polymer of cellulose nitrate) is also called artificial silk due to its silk like appearance.</p><p>On the basis of intermolecular forces, these are classified as:</p><ol><li><strong>Elastomers</strong> In these polymers, the polymer chains are held together by weak van der Waals' forces, e.g. vulcanised rubber.</li><li><strong>Fibres</strong> In this type, polymer chains are attached with one another through H-bonds, e.g. nylon-6,6.</li><li><strong>Thermoplastics</strong> In these, the intermolecular forces are intermediate of elastomers and fibres. These are soften on heating and become hard on cooling, e.g. polystyrene, polythene, PVC, etc.</li><li><strong>Thermosetting</strong> These are highly cross-linked, hard, non-fusible and insoluble polymers. These can only be moulded into desired shape on heating once. e.g. bakelite (phenol-formaldehyde resin), melamine, etc.</li></ol><h2>Some Important Synthetic Polymers</h2><ul><li><strong>Polyethylene (polythene)</strong> The monomer units are ethylene molecules. It is frequently used in making coats, milk cartons and electrical insulation.</li><li><strong>Polystyrene</strong> The monomer units are styrene molecules. It is a white thermoplastic material and is used for making toys, combs, lining material for refrigerators and TV cabinets.</li><li><strong>Teflon (Polytetrafluoroethylene)</strong> The monomer unit is tetrafluoroethylene molecule. It is very tough material. It is a bad conductor of electricity and is used in coating utensils, making seals, baskets, pipes, flooring, etc.</li><li><strong>Polyvinyl chloride (PVC)</strong> The monomer units are vinyl chloride molecules. PVC is a hard, horny material. It is resistant to chemicals as well as heat. It is used for making raincoats, hand bags, electrical insulators and floor covering.</li><li><strong>Nylon or Nylon-6,6</strong> It was first fully synthetic fibre and has good elasticity, low water absorption and wrinkle resistant. It has also high tensile strength. It is used in making fishing nets, tyre cord, parachute fabrics, ropes, etc.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": null,
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 80
+  },
+  {
+    "id": "657-001",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Polymers",
+    "text": "<p><strong>Phenol-formaldehyde Resins (Bakelite)</strong> These are made by the reaction of phenol and formaldehyde in the basic medium. Bakelite is a cross-linked thermosetting polymer. It is used for making combs, fountain pen barrels, electrical goods making electrical appliances, handles of crockery, etc. Sulphonated bakelites are used as ion-exchange resins for softening of hard water.</p><p><strong>Rubber</strong> It is a polymer of isoprene (2-methyl buta-1, 3-diene). It is insoluble in water, dilute acids and alkalis, absorbs a large amount of water, has low tensile strength and elasticity.</p><p><strong>Neoprene</strong> It is a synthetic rubber which resembles natural rubber in its properties. It is obtained by the polymerisation of chloroprene (2-chlorobuta-1, 3-diene). It is superior to natural rubber in its stability. Easy availability of raw materials from products of petroleum refining industries lead to growth of synthetic rubber. It is generally used for making hoses, shoe heels, stoppers, etc.</p><p><strong>Buna-S</strong> It is a copolymer of 1, 3-butadiene and styrene. It is also known as SBR (Styrene-Butadiene Rubber). It has slightly less tensile strength than natural rubber. It is used in the manufacturing of automobile tyres, rubber soles, etc.</p><p><strong>Terylene or dacron or phthalate</strong> It is a polymer of ethylene glycol and terephthalic acid, i.e. it is a polyester. It is used for making wash and wear fabrics, tyre cords, safety belts, tents, etc.</p><p><strong>Vulcanisation of Rubber</strong> It is the process of heating of rubber with sulphur. It makes the rubber hard, strong and more elastic.</p><p><strong>Kevlar</strong> It is a polymer of terephthalic acid and 1,4-diaminobenzene so, it is a polyamide. It is used for making bulletproof vests.</p><p><strong>Lexan or polycarbonate</strong> It is a polymer of diethyl carbonate and bi-phenol. It is used in making bulletproof windows and safety helmets.</p><p><strong>Polyurethanes</strong> It is a polymer of toluene diisocyanate and ethylene glycol. It is used for making washable and long lasting mattresses, cushions, pillows , etc.</p><p><strong>Lucite</strong> It is a polymer of methyl methacrylate. It is used for making contact lenses. Plexiglass, acrlyite or perspex are other terms used for lucite.</p><p><strong>Orlon or Acrilon Polyvinyl Cyanide</strong> It is a polymer of vinyl cyanide or acrylonitrile. It is used as a substitute for wool in making synthetic blankets (acrylic fibres).</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 81
+  },
+  {
+    "id": "657-002",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Fertilisers",
+    "text": "<p>Repeated cultivation of crops makes the soil deficient in some elements, mainly nitrogen, phosphorus and potassium. The substances which are added to the soil to make up the loss of these elements are called fertilisers.</p><p><strong>Some Important Fertilisers</strong></p><p><strong>Basic Calcium Nitrate</strong> (Nitrate of lime) [CaO · Ca(NO<sub>3</sub>)<sub>2</sub>] It is a good nitrogenous fertiliser, used in acidic soil.</p><p><strong>Ammonium Sulphate</strong> [(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>] It contains 21.2% nitrogen. Its repeated use makes the soil acidic and unfit for the germination of seeds. Hence, addition of lime to the soil becomes necessary.</p><p><strong>Calcium Cyanamide</strong> [CaCN<sub>2</sub>] (Nitrolim) It is black in colour because of the presence of carbon. It contains 19% nitrogen.</p><p><strong>Urea</strong> [NH<sub>2</sub>CONH<sub>2</sub>](Carbamide) It contains 46.6% nitrogen. It is the best nitrogenous fertiliser as it leaves only carbon dioxide after ammonia has been assimilated by plants. Its repeated use does not change the pH of the soil.</p><p><strong>Superphosphate of Lime</strong> [(Ca(H<sub>2</sub> PO<sub>4</sub>)<sub>2</sub>+ 2CaSO<sub>4</sub> · H<sub>2</sub> O] It is phosphatic fertiliser.</p><p><strong>Vermicompost</strong> It is the product or process of composting by using various species of worms, usually red wigglers, white worms and earthworms to create a heterogeneous mixture of decomposing vegetables or food, bedding material and vermicant containing water soluble nutrients. Vermicompost is an excellent, nutrient rich organic fertiliser and soil conditioner.</p><p>Magnesium, manganese and sulphur are the macronutrients which are provided by the inorganic fertilisers.</p>",
+    "formulas": [
+      "CaO · Ca(NO_3)_2",
+      "(NH_4)_2SO_4",
+      "CaCN_2",
+      "NH_2CONH_2",
+      "Ca(H_2 PO_4)_2+ 2CaSO_4 · H_2 O"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 81
+  },
+  {
+    "id": "657-003",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Fuels",
+    "text": "<p>The substances which on combustion produces energy in the form of heat, is called a fuel, e.g. coal, wood, kerosene, petrol, diesel, cooking gas, etc. Fuel efficiency is expressed in terms of calorific value (kJg<sup>-1</sup>).</p><p>Sulphur compound (ethyl mercaptan or thioethanol) is added to odourless LPG (Liquefied Petroleum Gas) for imparting a detectable smell to the gas.</p><p>LPG contains mainly butane alongwith some propane. CNG (Compressed Natural Gas) contains mainly methane and is used as a fuel in many vehicles because it produces less pollutants therefore, it is a better fuel than petrol or diesel.</p><p>Petrol is used as a fuel to run cars and aeroplanes whereas diesel is used to run trucks, buses, trains and ships.</p><p>Quality of petrol or gasoline is expressed in terms of octane number and of diesel in terms of cetane number.</p><p>Synthetic rubber, liquid ammonia, liquid hydrogen are used as propellants.</p><p>Acetylene is a fuel used in gas welding. It is used to weld and cut the metals that have a temperature of 300°C of a flame.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 81
+  },
+  {
+    "id": "658-renewable-non-renewable-resources-1",
+    "subject": "Science & Technology",
+    "chapter": "Environment and Its Pollution",
+    "topic": "Renewable and Non-renewable Resources",
+    "text": "<p>Natural resources such as coal, petroleum and natural gas take thousands of years to from naturally and cannot be replaced as fast as they are being consumed. It is a non-renewable resource.</p><p>Natural resources such as solar energy, water and fisheries are renewable resources.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 82
+  },
+  {
+    "id": "658-petroleum-1",
+    "subject": "Science & Technology",
+    "chapter": "Environment and Its Pollution",
+    "topic": "Petroleum",
+    "text": "<p>It is dark oily liquid also called rock oil, mineral oil, crude oil or black gold. On fractional distillation, it gives different substances at different temperatures.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 82
+  },
+  {
+    "id": "658-biogas-gobar-gas-1",
+    "subject": "Science & Technology",
+    "chapter": "Environment and Its Pollution",
+    "topic": "Biogas or Gobar Gas",
+    "text": "<p>The gaseous mixture obtained by the degradation of animal and plant wastes by anaerobic microorganisms in the presence of water is called biogas. It is a convenient fuel for domestic use. It is used for street lighting.</p><ul><li>Constituents of biogas are methane (45-70%), carbon dioxide, hydrogen, hydrogen sulphide.</li><li>Gobar gas is produced by the fermentation of cow dung. It contains CH<sub>4</sub> (main component), CO<sub>2</sub> and H<sub>2</sub>.</li><li>Note Bagasse is the fibrous matter remains after sugarcane stacks are crushed to extract their juice. It is used as a biofuel and as a substitute for wood in many tropical and subtropical countries for the production of pulp, paper, board, etc.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 82
+  },
+  {
+    "id": "658-flame-1",
+    "subject": "Science & Technology",
+    "chapter": "Environment and Its Pollution",
+    "topic": "Flame",
+    "text": "<p>A flame is a region where combustion of gaseous substances take place. Innermost region of flame is black because of the presence of unburned carbon particles. Middle region is yellow luminous due to partial combustion. Outermost region is blue due to complete combustion of fuel which is the hottest part of the flame.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 82
+  },
+  {
+    "id": "658-paint-1",
+    "subject": "Science & Technology",
+    "chapter": "Environment and Its Pollution",
+    "topic": "Paint",
+    "text": "<p>It is a mixture of four ingredients, viz, binder, solvent, pigment and additives (like driers, plasticisers, emulsifiers, corrosion inhibitors, etc).</p><ul><li>Binders are polymers (resins) forming a continuous film on the surface of the substrate. These are responsible for good adhesion. Resins, chlorinated rubber, latex (PVA) are the examples of binders.</li><li>Solvent (water or organic solvents like toluene, ketone, alcohol, etc.,) is a medium where all other ingredients of paint are dispersed in molecular form (true solutions) or as colloidal dispersion (emulsions).</li><li>Pigments are responsible for imparting colour to the paint. It may also protect the substrate from UV light.</li><li>Ultramarine blue is the natural pigment made up of semiprecious mineral lapis lazuli. It is resistant towards fading.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Pigment added | Colour of paint |\n|---|---|\n| Chromium oxide | Green |\n| Vermillion or cuprous oxide | Red |\n| Cobalt oxide | Blue |\n| Titanium dioxide | White |\n| Benzidine yellow | Yellow to red |\n| Iron (II) oxide | Black |"
+    ],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 82
+  },
+  {
+    "id": "658-air-1",
+    "subject": "Science & Technology",
+    "chapter": "Environment and Its Pollution",
+    "topic": "Air",
+    "text": "<p>Composition of air is nitrogen (78.084%), oxygen (20.946%), argon (0.934%), carbon dioxide (0.033%) and small amount of other gases. Region of air present around the earth is called atmosphere.</p><ul><li>Main layers from the surface of earth towards upward</li><ul><li>(a) Troposphere (b) Stratosphere</li><li>(c) Mesosphere (d) Thermosphere</li></ul><li>Most of the atmospheric air is present in troposphere.</li><li>Ozone layer present in the stratospheric region (at a height of about 20 to 40 km) protects the living beings from the harmful UV radiations coming from the sun. Due to high concentration of ozone, this region is also known as ozonosphere.</li><li>In 1775, French scientist Lavoisier performed experiments on composition of air.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 82
+  },
+  {
+    "id": "658-air-pollution-1",
+    "subject": "Science & Technology",
+    "chapter": "Environment and Its Pollution",
+    "topic": "Air Pollution",
+    "text": "<p>It is due to the presence of foreign undesirable substances in air. The substance which causes pollution is known as pollutant. Main air pollutants are SO<sub>2</sub>, CO, nitrogen oxides, particulates, etc.</p><p>Carbon monoxide CO combines with the haemoglobin of the blood about 300 times more readily as compared to oxygen and forms a stable carboxyhaemoglobin complex due to which supply of oxygen is restricted which results in headache, nervousness, asphyxia and even death in some cases.</p><p>Major gaseous air pollutants:</p><ul><li>(a) Oxides of carbon</li><li>(b) Oxides of nitrogen</li><li>(c) Oxides of sulphur</li><li>(d) Hydrocarbon (esp CH<sub>4</sub>)</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 82
+  },
+  {
+    "id": "659-001",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Air Pollution",
+    "text": "<p>Methyl isocyanate (CH<sub>3</sub>NC) is responsible for the Bhopal gas tragedy (in 1984). In which thousands of people were killed. It was a case of serious air pollution in which MIC (Methyl Iso-cyanate) gas released from a pesticide manufacturing plant of union carbide.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 83
+  },
+  {
+    "id": "659-002",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Smog",
+    "text": "<p>The word smog is derived from smoke and fog. It is of two types:</p><p>1. <strong>Classical Smog</strong> It is also called London smog. It is formed in cool humid climate and is reducing in nature.</p><p>2. <strong>Photochemical Smog</strong> It is also called Los Angeles smog. It is formed in warm, dry and sunny climate and is oxidising in nature.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 83
+  },
+  {
+    "id": "659-003",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Particulates",
+    "text": "<p>These are minute solid particles and liquid droplets dispersed in air such as mists, dusts, smoke, etc.</p>",
+    "formulas": [],
+    "tables": [
+      "| Disease | Cause |\n|---|---|\n| Pneumoconiosis | Coal dust |\n| Silicosis | Silica (from ceramics, glass and pottery industry) |\n| Black lung disease | Coal mines |\n| White lung disease | Textile industries |\n| Asbestosis | Asbestos |\n| Byssinosis | Cotton fibre dust |\n| Melanosis | Hyperpigmentation due to increased concentration of melanin |"
+    ],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 83
+  },
+  {
+    "id": "659-004",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Consequences of Air Pollution",
+    "text": "<p><strong>Greenhouse effect</strong> It is the heating up of earth and its objects due to trapping of infrared radiations (IR) by greenhouse gases present in atmosphere like CO<sub>2</sub>, CH<sub>4</sub>, NO, O<sub>3</sub>, chlorofluorocarbon and water vapours.</p><p><strong>Global Warming</strong> It is due to increased concentration of greenhouse gases. It may lead to melting of ice caps and glaciers, spreading of several infectious diseases like malaria, sleeping sickness, etc.</p><p>Since, the late 19th century, the temperature of atmosphere increases due to the increase in CO<sub>2</sub> concentration which is responsible for the expansion of water in the ocean.</p><p><strong>Acid Rain</strong> The pH of normal rain water is 5.6-6.5 due to the dissolution of carbon dioxide from the atmosphere. When the pH of rain water is below 5, it is called acid rain (by Robert Augus).</p><p>The main cause of acid rain is oxides of sulphur and nitrogen (H<sub>2</sub>SO<sub>4</sub> and HNO<sub>3</sub>).</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 83
+  },
+  {
+    "id": "659-005",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Acid Rain",
+    "text": "<p>Burning of sulphur alongwith coal results in the formation of oxides of sulphur as</p><p>S + O<sub>2</sub> → SO<sub>2</sub></p><p>SO<sub>2</sub> + ½ O<sub>2</sub> → SO<sub>3</sub></p><p>when sulphur trioxide (SO<sub>3</sub>) reacts with water of douds it forms acid, hence causes acid rain</p><p>SO<sub>3</sub> + H<sub>2</sub>O → H<sub>2</sub>SO<sub>4</sub></p><p>Acid rain damages the marble buildings (Taj Mahal) and monuments, corrodes metal pipes and results in several diseases.</p><p>Acid rain reacts which buildings made from limestone and causes its decomposition</p><p>CaCO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub> → CaSO<sub>4</sub> + CO<sub>2</sub> + H<sub>2</sub>O</p>",
+    "formulas": [
+      "S + O_2 \\rightarrow SO_2",
+      "SO_2 + \\frac{1}{2} O_2 \\rightarrow SO_3",
+      "SO_3 + H_2O \\rightarrow H_2SO_4",
+      "CaCO_3 + H_2SO_4 \\rightarrow CaSO_4 + CO_2 + H_2O"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 83
+  },
+  {
+    "id": "659-006",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Ozone Layer Depletion",
+    "text": "<p>Thinning of ozone layer because of its reaction with chlorine free radicals usually generated by chlorofluorocarbons is called <strong>ozone layer depletion</strong>.</p><p>Hypochlorous acid and chlorine on photochemical decomposition also produce nascent chlorine (Cl• or chlorine free radical) which causes ozone depletion in the following manner:</p><p>HOCl(g) $\\xrightarrow{hv}$ OH(g) + Cl•(g)</p><p>Cl<sub>2</sub>(g) $\\xrightarrow{hv}$ 2Cl•(g)</p><p>CF<sub>2</sub>Cl<sub>2</sub> $\\rightarrow$ CF<sub>2</sub>Cl• + Cl•</p><p>The released chlorine free radical reacts with ozone breaking it into molecular oxygen.</p><p>Cl• + O<sub>3</sub> → ClO• + O<sub>2</sub></p><p>2ClO• + O<sub>2</sub> → 2Cl• + 2O<sub>2</sub></p>",
+    "formulas": [
+      "HOCl(g) \\xrightarrow{hv} OH(g) + Cl\\cdot(g)",
+      "Cl_2(g) \\xrightarrow{hv} 2Cl\\cdot(g)",
+      "CF_2Cl_2 \\rightarrow CF_2Cl\\cdot + Cl\\cdot",
+      "Cl\\cdot + O_3 \\rightarrow ClO\\cdot + O_2",
+      "2ClO\\cdot + O_2 \\rightarrow 2Cl\\cdot + 2O_2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 83
+  },
+  {
+    "id": "659-007",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Water Pollution",
+    "text": "<p>Water pollution is due to the presence of foreign substances, i.e water pollutants in water.</p><p>Cholera, dysentery, typhoid, etc., are water-borne diseases caused by bacteria.</p><p>Mercury causes minimata disease, chromium and arsenic causes cancer and cadmium causes <em>itai-itai</em> disease.</p><p>Presence of excessive fluoride leads to dental fluorosis, i.e. developmental disturbance of dental enamel.</p><p>The usual effect of agricultural run off due to the excessive increase of nutrients such as nitrogen, phosphorus etc., in an ecosystem like ponds or results in excessive algal growth in affected water bodies. It is called <strong>eutrophication</strong>.</p><p>For clean water, DO (Dissolved Oxygen) is 5-6 ppm and BOD (Biochemical Oxygen Demand) is less than 5 ppm.</p><p>Recycling, sewage treatment, incineration are some strategy to control water pollution.</p><p>Presbycusis is gradual hearing loss in both ears that commonly occurs in aged people but noise pollution also lead to it.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder_science.pdf",
+    "source_page": 83
   }
 ]
