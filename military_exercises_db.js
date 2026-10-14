@@ -389,5 +389,393 @@ let MILITARY_EXERCISES_LIVE = {
       "tier": 2,
       "exercise_name": "International Fleet Review (IFR)"
     }
+  ],
+  "July 2026": [
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "Nomadic Elephant",
+      "edition": "16th Edition",
+      "type": "Bilateral Army Exercise",
+      "participant_nations": [
+        "India",
+        "Mongolia"
+      ],
+      "exercise_domain": [
+        "Army"
+      ],
+      "location": "Umroi, Meghalaya",
+      "strategic_significance": "Focuses on counter-terrorism and counter-insurgency operations in semi-urban and mountainous terrain under United Nations mandate.",
+      "exam_importance": "Regularly tested in NDA and CDS. Indian contingent represented by 1st Battalion of the Sikkim Scouts.",
+      "units_and_hardware": {
+        "India": [
+          "Sikkim Scouts",
+          "Special Forces detachments"
+        ],
+        "Mongolia": [
+          "Unit 150 of the Mongolian Armed Forces"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "MAITREE",
+      "edition": "13th Edition",
+      "type": "Bilateral Army Exercise",
+      "participant_nations": [
+        "India",
+        "Thailand"
+      ],
+      "exercise_domain": [
+        "Army"
+      ],
+      "location": "Tak Province, Thailand",
+      "strategic_significance": "Enhances tactical interoperability and counter-insurgency tactics in jungle and urban terrain, vital for ASEAN maritime-hinterland security.",
+      "exam_importance": "Core military GK question for CDS and AFCAT.",
+      "units_and_hardware": {
+        "India": [
+          "Ladakh Scouts",
+          "Infantry"
+        ],
+        "Thailand": [
+          "Royal Thai Army 1st Infantry Division"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "RIMPAC (Rim of the Pacific)",
+      "edition": "29th Edition",
+      "type": "Multilateral Naval Exercise",
+      "participant_nations": [
+        "India",
+        "USA",
+        "Japan",
+        "Australia",
+        "UK",
+        "29 Nations"
+      ],
+      "exercise_domain": [
+        "Navy"
+      ],
+      "location": "Hawaii & Southern California, USA",
+      "strategic_significance": "World's largest international maritime exercise, fostering cooperation and ensuring the safety of sea lanes in the Pacific and Indo-Pacific.",
+      "exam_importance": "High-yield UPSC topic. Indian indigenous stealth frigate INS Shivalik and P-8I long-range maritime patrol aircraft deployed.",
+      "units_and_hardware": {
+        "India": [
+          "INS Shivalik (Project 17 frigate)",
+          "P-8I Neptune ASW Aircraft"
+        ],
+        "USA": [
+          "Nimitz-class Aircraft Carrier",
+          "Arleigh Burke Destroyers"
+        ]
+      }
+    }
+  ],
+  "August 2026": [
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "Udara Shakti",
+      "edition": "2026",
+      "type": "Bilateral Air Combat Exercise",
+      "participant_nations": [
+        "India",
+        "Malaysia"
+      ],
+      "exercise_domain": [
+        "Air"
+      ],
+      "location": "Kuantan Air Base, Malaysia",
+      "strategic_significance": "Deepens aerial combat tactics between Indian Air Force Su-30MKI and Royal Malaysian Air Force (RMAF) Su-30MKM fighter jets.",
+      "exam_importance": "Important for AFCAT aviation GK. Both nations fly variants of the Sukhoi Flanker platform.",
+      "units_and_hardware": {
+        "India": [
+          "Su-30 MKI",
+          "C-17 Globemaster III",
+          "Il-78 Mid-Air Refueller"
+        ],
+        "Malaysia": [
+          "Su-30 MKM",
+          "F/A-18D Hornet"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "Mitra Shakti",
+      "edition": "10th Edition",
+      "type": "Bilateral Military Exercise",
+      "participant_nations": [
+        "India",
+        "Sri Lanka"
+      ],
+      "exercise_domain": [
+        "Army"
+      ],
+      "location": "Army Training School, Maduru Oya, Sri Lanka",
+      "strategic_significance": "Promotes sub-conventional tactical operations, counter-insurgency responses, and HADR (Humanitarian Assistance and Disaster Relief) operations.",
+      "exam_importance": "Crucial India-Neighbourhood defence topic for CDS/NDA.",
+      "units_and_hardware": {
+        "India": [
+          "Rajputana Rifles Battalion"
+        ],
+        "Sri Lanka": [
+          "Gajaba Regiment"
+        ]
+      }
+    }
+  ],
+  "September 2026": [
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "Tarang Shakti",
+      "edition": "Phase 2 (Jodhpur)",
+      "type": "Mega Multilateral Air Exercise",
+      "participant_nations": [
+        "India",
+        "USA",
+        "Australia",
+        "Singapore",
+        "Greece",
+        "UAE",
+        "Japan"
+      ],
+      "exercise_domain": [
+        "Air"
+      ],
+      "location": "Air Force Station Jodhpur, Rajasthan",
+      "strategic_significance": "India's largest ever hosted multilateral air combat drill, demonstrating complex beyond-visual-range (BVR) engagements and network-centric warfare.",
+      "exam_importance": "Top tier AFCAT / CDS current affair. Showcase of Tejas Mk1, Rafale, Su-30MKI, along with foreign F-15, F-16, and F/A-18 jets.",
+      "units_and_hardware": {
+        "India": [
+          "Rafale",
+          "Tejas LCA",
+          "Su-30 MKI",
+          "Mirage 2000",
+          "Netra AEW&C",
+          "Prachand LCH"
+        ],
+        "USA": [
+          "F-15C Eagle",
+          "C-130J"
+        ],
+        "Australia": [
+          "F/A-18F Super Hornet"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "Yudh Abhyas",
+      "edition": "22nd Edition",
+      "type": "Bilateral Army Exercise",
+      "participant_nations": [
+        "India",
+        "USA"
+      ],
+      "exercise_domain": [
+        "Army"
+      ],
+      "location": "Mahajan Field Firing Range, Rajasthan",
+      "strategic_significance": "Joint tactical drills in desert and semi-arid terrain focusing on integrated combined-arms battle groups, loitering munitions, and electronic warfare countermeasures.",
+      "exam_importance": "Always recurring in CDS and NDA exams. Features Stryker armored combat vehicles and Indian indigenous BMP-2 Sarath.",
+      "units_and_hardware": {
+        "India": [
+          "Mechanised Infantry Regiment",
+          "SkyStriker Loitering Munitions"
+        ],
+        "USA": [
+          "11th Airborne Division (Arctic Angels)",
+          "Stryker Combat Vehicles"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "SLINEX",
+      "edition": "11th Edition",
+      "type": "Bilateral Maritime Exercise",
+      "participant_nations": [
+        "India",
+        "Sri Lanka"
+      ],
+      "exercise_domain": [
+        "Navy"
+      ],
+      "location": "Colombo, Sri Lanka",
+      "strategic_significance": "Strengthens mutual maritime surveillance, anti-piracy operations, and interoperability in the Gulf of Mannar.",
+      "exam_importance": "Regular naval exercise asked in CDS/NDA.",
+      "units_and_hardware": {
+        "India": [
+          "INS Kamorta (ASW Corvette)",
+          "Chetak Helicopters",
+          "Dornier Maritime Patrol"
+        ],
+        "Sri Lanka": [
+          "SLNS Sayurala",
+          "SLNS Gajabahu"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "Varuna",
+      "edition": "22nd Edition",
+      "type": "Bilateral Naval Exercise",
+      "participant_nations": [
+        "India",
+        "France"
+      ],
+      "exercise_domain": [
+        "Navy"
+      ],
+      "location": "Mediterranean Sea",
+      "strategic_significance": "Carrier strike group operations, coordinated anti-submarine tracking, and live surface firing drills validating blue-water naval power projection.",
+      "exam_importance": "High yield India-France strategic naval partnership.",
+      "units_and_hardware": {
+        "India": [
+          "INS Tabar (Stealth Frigate)",
+          "P-8I Neptune"
+        ],
+        "France": [
+          "FS Chevalier Paul (Horizon-class Destroyer)",
+          "Nuclear Submarines (SSN)"
+        ]
+      }
+    }
+  ],
+  "October 2026": [
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "MALABAR",
+      "edition": "28th Edition",
+      "type": "Multilateral Naval Exercise (QUAD)",
+      "participant_nations": [
+        "India",
+        "USA",
+        "Japan",
+        "Australia"
+      ],
+      "exercise_domain": [
+        "Navy"
+      ],
+      "location": "Visakhapatnam, Bay of Bengal",
+      "strategic_significance": "The premier QUAD naval exercise featuring surface, sub-surface, and air combat disciplines, designed to maintain a free, open, and rules-based Indo-Pacific order.",
+      "exam_importance": "Top 3 highest probability defence question for CDS 1 2027 and NDA 1 2027.",
+      "units_and_hardware": {
+        "India": [
+          "INS Delhi (Guided Missile Destroyer)",
+          "INS Satpura (Stealth Frigate)",
+          "INS Kamorta",
+          "P-8I ASW",
+          "Submarines"
+        ],
+        "USA": [
+          "USS Dewey (Arleigh Burke Destroyer)",
+          "P-8A Poseidon"
+        ],
+        "Japan": [
+          "JS Ariake (Murasame-class Destroyer)"
+        ],
+        "Australia": [
+          "HMAS Stuart (Anzac-class Frigate)"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "KAZIND",
+      "edition": "8th Edition",
+      "type": "Bilateral Military Exercise",
+      "participant_nations": [
+        "India",
+        "Kazakhstan"
+      ],
+      "exercise_domain": [
+        "Army",
+        "Air"
+      ],
+      "location": "Atyrau, Kazakhstan",
+      "strategic_significance": "Enhances counter-insurgency and counter-terror operations in semi-urban and mountainous terrain under Chapter VII of the UN Charter.",
+      "exam_importance": "Important Central Asia security partnership (formerly Exercise Prabal Dostyk).",
+      "units_and_hardware": {
+        "India": [
+          "Kumaon Regiment Battalion",
+          "IAF Detachment"
+        ],
+        "Kazakhstan": [
+          "Regional Command South Military Forces"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "Al Najah",
+      "edition": "5th Edition",
+      "type": "Bilateral Army Exercise",
+      "participant_nations": [
+        "India",
+        "Oman"
+      ],
+      "exercise_domain": [
+        "Army"
+      ],
+      "location": "Rabkoot Training Area, Oman",
+      "strategic_significance": "Tactical interoperability, weapon handling, and joint counter-terror cordoning in desert conditions.",
+      "exam_importance": "Oman is India's closest defence ally in West Asia. Tri-service: Al Najah (Army), Naseem Al Bahr (Navy), Eastern Bridge (Air Force).",
+      "units_and_hardware": {
+        "India": [
+          "Mechanised Infantry Regiment"
+        ],
+        "Oman": [
+          "Royal Army of Oman (Frontier Force)"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "exercise_name": "Sagar Kavach 02/26",
+      "edition": "2026 Bi-annual",
+      "type": "Coastal Security Drill",
+      "participant_nations": [
+        "India"
+      ],
+      "exercise_domain": [
+        "Navy",
+        "Coast Guard",
+        "Marine Police"
+      ],
+      "location": "Coastline of Andhra Pradesh, Odisha & West Bengal",
+      "strategic_significance": "Multi-agency validation of the 3-tier coastal security architecture to prevent sea-borne infiltrations and protect off-shore energy assets.",
+      "exam_importance": "Core UPSC internal security topic: Marine Police (0-5 NM), Coast Guard (5-12 NM), Indian Navy (beyond 12 NM to 200 NM EEZ).",
+      "units_and_hardware": {
+        "India": [
+          "Indian Navy Fast Attack Craft",
+          "ICG Interceptor Boats",
+          "Marine Police Patrol Craft",
+          "Dornier Do-228 Aircraft"
+        ]
+      }
+    }
   ]
 };
+
+if (typeof window !== 'undefined') {
+  window.MILITARY_EXERCISES_LIVE = MILITARY_EXERCISES_LIVE;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = MILITARY_EXERCISES_LIVE;
+}
