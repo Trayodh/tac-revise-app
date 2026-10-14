@@ -177558,5 +177558,165 @@
     "question_type": "MCQ",
     "source_pdf": "pathfinder_studies.pdf",
     "source_page": 253
+  },
+  {
+    "question_text": "Which article of the Constitution deals with the name and territory of the Union?",
+    "options": {
+      "A": "Article 1",
+      "B": "Article 2",
+      "C": "Article 3",
+      "D": "Article 4"
+    },
+    "correct_answer": "A",
+    "explanation": "Article 1 defines India as a Union of States and describes its territory, including states, union territories, and any territories acquired by the Government.",
+    "subject": "Indian Constitution",
+    "chapter": "Union and its Territories",
+    "topic": "Union and Territory",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 202
+  },
+  {
+    "question_text": "The 42nd Constitutional Amendment Act, 1976 added which words to the Preamble?",
+    "options": {
+      "A": "Democratic, Sovereign, Social",
+      "B": "Socialist, Secular, Integrity",
+      "C": "Republic, Democratic, Secular",
+      "D": "Sovereign, Socialist, Integrity"
+    },
+    "correct_answer": "B",
+    "explanation": "The amendment added the words Socialist, Secular and Integrity to the Preamble, and was upheld as valid.",
+    "subject": "Indian Constitution",
+    "chapter": "Amendability of the Preamble",
+    "topic": "Preamble Amendment",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 202
+  },
+  {
+    "question_text": "In which year was the State Reorganisation Act passed?",
+    "options": {
+      "A": "1953",
+      "B": "1955",
+      "C": "1956",
+      "D": "1958"
+    },
+    "correct_answer": "C",
+    "explanation": "The State Reorganisation Act was passed in 1956, leading to the creation of 14 states and 6 union territories on 1 November 1956.",
+    "subject": "Indian Constitution",
+    "chapter": "Reorganisation of States",
+    "topic": "State Reorganisation",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 202
+  },
+  {
+    "question_text": "Article 6 of the Constitution deals with the rights of citizenship of migrants from which country?",
+    "options": {
+      "A": "Bangladesh",
+      "B": "Pakistan",
+      "C": "Sri Lanka",
+      "D": "Bhutan"
+    },
+    "correct_answer": "B",
+    "explanation": "Article 6 provides rights of citizenship for certain persons who have migrated to India from Pakistan.",
+    "subject": "Indian Constitution",
+    "chapter": "Citizenship",
+    "topic": "Citizenship Rights",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 202
+  },
+  {
+    "question_text": "Under which mode can a person born outside India become a citizen by descent?",
+    "options": {
+      "A": "By Birth",
+      "B": "By Descent",
+      "C": "By Registration",
+      "D": "By Naturalisation"
+    },
+    "correct_answer": "B",
+    "explanation": "A person born outside India on or after 26 January 1950 is a citizen by descent if either parent is an Indian citizen at the time of birth.",
+    "subject": "Indian Constitution",
+    "chapter": "Citizenship",
+    "topic": "Acquisition of Citizenship",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 202
+  },
+  {
+    "question_text": "Which article allows Parliament to regulate the right of citizenship by law?",
+    "options": {
+      "A": "Article 10",
+      "B": "Article 11",
+      "C": "Article 12",
+      "D": "Article 13"
+    },
+    "correct_answer": "B",
+    "explanation": "Article 11 empowers Parliament to regulate the right of citizenship by law.",
+    "subject": "Indian Constitution",
+    "chapter": "Citizenship",
+    "topic": "Regulation of Citizenship",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 202
+  },
+  {
+    "question_text": "In which year did Telangana become a separate state?",
+    "options": {
+      "A": "2000",
+      "B": "2010",
+      "C": "2014",
+      "D": "2018"
+    },
+    "correct_answer": "C",
+    "explanation": "Telangana was formed as a separate state in 2014.",
+    "subject": "Indian Constitution",
+    "chapter": "Reorganisation of States",
+    "topic": "State Formation",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 202
+  },
+  {
+    "question_text": "Article 5 of the Constitution deals with which of the following?",
+    "options": {
+      "A": "Citizenship at the commencement of the Constitution",
+      "B": "Rights of citizenship of migrants from Pakistan",
+      "C": "Continuance of the rights of citizenship",
+      "D": "Parliament to regulate citizenship"
+    },
+    "correct_answer": "A",
+    "explanation": "Article 5 deals with citizenship at the commencement of the Constitution.",
+    "subject": "Indian Constitution",
+    "chapter": "Citizenship",
+    "topic": "Citizenship at Commencement",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 202
+  },
+  {
+    "question_text": "Which article deals with persons voluntarily acquiring citizenship of a foreign state?",
+    "options": {
+      "A": "Article 9",
+      "B": "Article 10",
+      "C": "Article 11",
+      "D": "Article 12"
+    },
+    "correct_answer": "A",
+    "explanation": "Article 9 states that persons who voluntarily acquire citizenship of a foreign state shall not be citizens of India.",
+    "subject": "Indian Constitution",
+    "chapter": "Citizenship",
+    "topic": "Voluntary Acquisition of Foreign Citizenship",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 202
+  },
+  {
+    "question_text": "Article 8 of the Constitution provides rights of citizenship to which group?",
+    "options": {
+      "A": "Persons domiciled in India",
+      "B": "Refugees from Pakistan",
+      "C": "Indians living abroad",
+      "D": "Persons of Indian origin residing outside India"
+    },
+    "correct_answer": "D",
+    "explanation": "Article 8 deals with rights of citizenship of persons of Indian origin residing outside India.",
+    "subject": "Indian Constitution",
+    "chapter": "Citizenship",
+    "topic": "Citizenship Rights",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 202
   }
 ]

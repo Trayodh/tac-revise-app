@@ -194,9 +194,19 @@ def extract_content(b64_img, page_text, prompt):
     groq_key = os.environ.get("GROQ_API_KEY")
     if groq_key and page_text and len(page_text.strip()) > 30:
         groq_models = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
-        safe_page_text = page_text[:8000]
+        safe_page_text = page_text[:4000]
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"}
+        
+        fallback_prompt = (
+            "You are an expert exam content extractor for NDA/CDS/AFCAT.\n"
+            "Extract all educational facts and practice questions from the following page text.\n"
+            "Output valid JSON format with keys:\n"
+            "1. 'notes_database': list of objects with keys: 'subject', 'chapter', 'subchapter', 'topic', 'content' (detailed markdown notes, facts, definitions, formulas).\n"
+            "2. 'question_database': list of MCQ objects with keys: 'question_text', 'options' (dict A,B,C,D), 'correct_answer', 'explanation', 'subject', 'chapter', 'topic'.\n"
+            "Return valid JSON only.\n\n"
+            "PAGE CONTENT:\n" + safe_page_text
+        )
         
         for g_model in groq_models:
             print(f"Attempting Groq model: {g_model}...")
@@ -204,9 +214,9 @@ def extract_content(b64_img, page_text, prompt):
                 try:
                     data = {
                         "model": g_model,
-                        "messages": [{"role": "user", "content": prompt + "\n\nTEXT CONTENT OF PAGE:\n" + safe_page_text}],
+                        "messages": [{"role": "user", "content": fallback_prompt}],
                         "temperature": 0.1,
-                        "max_tokens": 3500,
+                        "max_tokens": 2500,
                         "response_format": {"type": "json_object"}
                     }
                     response = requests.post(url, headers=headers, json=data, timeout=60)
