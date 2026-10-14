@@ -4067,5 +4067,65 @@ const AI_GENERATED_NOTES = [
     "title": "Public Finance",
     "subject": "Polity",
     "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PUBLIC FINANCE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "citizenship",
+    "title": "Citizenship",
+    "subject": "Polity / Indian Constitution",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CITIZENSHIP</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "supreme-court-jurisdiction",
+    "title": "Supreme Court Jurisdiction",
+    "subject": "Constitutional Law",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">SUPREME COURT JURISDICTION</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "institutions",
+    "title": "Institutions",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">INSTITUTIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "constitutional-amendments",
+    "title": "Constitutional Amendments",
+    "subject": "Indian Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONSTITUTIONAL AMENDMENTS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "planning-commission",
+    "title": "Planning Commission",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PLANNING COMMISSION</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "budget-&-finance",
+    "title": "Budget & Finance",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">BUDGET & FINANCE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "international-organisations",
+    "title": "International Organisations",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">INTERNATIONAL ORGANISATIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "presidential-elections",
+    "title": "Presidential Elections",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PRESIDENTIAL ELECTIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "supreme-court-jurisdiction",
+    "title": "Supreme Court Jurisdiction",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">SUPREME COURT JURISDICTION</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "inter\u2011state-relations",
+    "title": "Inter\u2011State Relations",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">INTER\u2011STATE RELATIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
   }
 ];
