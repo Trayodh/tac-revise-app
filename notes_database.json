@@ -33482,5 +33482,1192 @@
     },
     "source_pdf": "pathfinder_mathematics.pdf",
     "source_page": 167
+  },
+  {
+    "id": "cds-pathfinder-174-theory-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Hints and Solutions for Quadratic Equations",
+    "text": "<p>This section provides detailed solutions for quadratic equation problems, covering concepts such as:</p><ul><li><strong>Roots of equations:</strong> An equation of degree n has n roots.</li><li><strong>Sum and Product of roots:</strong> For ax^2 + bx + c = 0, sum of roots = -b/a and product of roots = c/a.</li><li><strong>Discriminant:</strong> D = B^2 - 4AC.</li><li><strong>Forming equations:</strong> Using the formula x^2 - (sum of roots)x + (product of roots) = 0.</li><li><strong>Symmetric functions of roots:</strong> Calculating values like alpha^2 + beta^2 and alpha - beta using algebraic identities.</li></ul>",
+    "formulas": [
+      "x^2 - Sx + P = 0",
+      "alpha + beta = -b/a",
+      "alpha * beta = c/a",
+      "D = B^2 - 4AC",
+      "alpha^2 + beta^2 = (alpha + beta)^2 - 2*alpha*beta",
+      "(alpha - beta)^2 = (alpha + beta)^2 - 4*alpha*beta"
+    ],
+    "tables": [
+      "| Question | Answer | Question | Answer | Question | Answer | Question | Answer | Question | Answer | Question | Answer | Question | Answer | Question | Answer | Question | Answer | Question | Answer |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 1 | b | 2 | c | 3 | a | 4 | b | 5 | c | 6 | a | 7 | c | 8 | d | 9 | d | 10 | b |\n| 11 | b | 12 | a | 13 | b | 14 | b | 15 | c | 16 | b | 17 | c | 18 | b | 19 | d | 20 | c |\n| 21 | d | 22 | b | 23 | a | 24 | b | 25 | a | 26 | a | 27 | c | 28 | d | 29 | d | 30 | c |\n| 31 | c | 32 | b | 33 | b | 34 | a | 35 | c | 36 | b | 37 | c | 38 | b | 39 | b | 40 | b |\n| 41 | b | 42 | d | 43 | d | 44 | d | 45 | a | 46 | c | 47 | b | 48 | a | 49 | c | 50 | a |\n| 51 | c | 52 | d | 53 | c | 54 | c | 55 | b | 56 | d | 57 | d | 58 | c | 59 | a | 60 | a |\n| 61 | c | 62 | a | 63 | b | 64 | c | 65 | a | 66 | b | 67 | b | 68 | c | 69 | b | 70 | c |\n| 71 | b | 72 | a | 73 | b | 74 | d | 75 | a | 76 | b | 77 | c | 78 | d | 79 | c | 80 | d |\n| 81 | c | 82 | c | 83 | b | 84 | b | 85 | c | 86 | a | 87 | a | 88 | a | 89 | b | 90 | a |\n| 91 | a | 92 | b | 93 | a | 94 | b | 95 | c | 96 | b | 97 | d | 98 | d | 99 | d | 100 | d |\n| 101 | a | 102 | c | 103 | c | 104 | a | 105 | b | 106 | a | 107 | c | 108 | c | 109 | c | 110 | c |\n| 111 | a | 112 | d | 113 | c | 114 | a | 115 | b | 116 | c | 117 | a | 118 | a | 119 | a | 120 | d |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This page contains the answer key for 120 questions and detailed step-by-step solutions for questions 1 through 10 related to quadratic equations."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 174
+  },
+  {
+    "id": "math-quad-101",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Roots of Quadratic Equations",
+    "text": "<p>Derivation for the expression of roots m and n for equation ax^2 + bx + c = 0. Given sum of roots m+n = -b/a and product of roots mn = c/a.</p><p>The expression (m^2+1)/m + (n^2+1)/n simplifies to (c^2 + b^2 - 2ac + a^2)/ac.</p>",
+    "formulas": [
+      "ax^2 + bx + c = 0",
+      "m+n = -b/a",
+      "mn = c/a",
+      "(m^2+1)/m + (n^2+1)/n = (c^2 + b^2 - 2ac + a^2)/ac"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Mathematical derivation of algebraic expressions involving roots of quadratic equations."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "math-quad-102",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Forming Equations from Roots",
+    "text": "<p>If a mistake is made in the first degree term, the roots are -9 and -1. The equation is (x+1)(x+9) = x^2 + 10x + 9.</p><p>If a mistake is made in the constant term, the roots are 8 and 2. The equation is (x-2)(x-8) = x^2 - 10x + 16.</p>",
+    "formulas": [
+      "(x+1)(x+9) = x^2 + 10x + 9",
+      "(x-2)(x-8) = x^2 - 10x + 16"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Method to reconstruct a quadratic equation when a coefficient is incorrectly identified."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "set_theory_001",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Definition of Set",
+    "text": "<p>A <strong>set</strong> is a well-defined collection of objects. The objects in a set are called its members or elements.</p><ul><li>Sets are usually denoted by capital letters <em>A, B, C, X, Y, Z</em> etc.</li><li>Elements are denoted by small letters <em>a, b, c</em> etc.</li><li>If <em>x</em> is an element of set <em>A</em>, we write <em>x ∈ A</em> (x belongs to A).</li><li>If <em>x</em> is not an element of set <em>A</em>, we write <em>x ∉ A</em>.</li></ul><p><strong>Examples:</strong></p><ul><li>The collection of vowels in the English alphabet is a set <em>A</em> containing five elements: <em>a, e, i, o, u</em>, where <em>a ∈ A</em> but <em>b ∉ A</em>.</li><li>The collection of the first four prime numbers is a set <em>A</em> containing the elements <em>2, 3, 5, 7</em>, where <em>3 ∈ A</em> but <em>1 ∉ A</em>.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and basic notation of sets."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 183
+  },
+  {
+    "id": "set_theory_002",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Representation of Sets",
+    "text": "<p>Sets are generally represented in two ways:</p><p><strong>1. Roster or Tabular form or listing method:</strong> In this method, all elements are listed within curly braces { } separated by commas.</p><ul><li>If <em>A</em> is a set of first eight prime numbers, then <em>A = {2, 3, 5, 7, 11, 13, 17, 19}</em></li><li>If <em>B</em> is a set of squares of first five natural numbers, then <em>B = {1, 4, 9, 16, 25}</em></li><li>If <em>A</em> is a set of vowels of English alphabets, then <em>A = {a, e, i, o, u}</em></li></ul><p><em>Note: The order in which elements are written makes no difference, and repeated elements are taken only once.</em></p><p><strong>2. Set Builder form or Rule method:</strong> In this method, we write the set by some special property or properties satisfied by all its elements.</p><ul><li>The set <em>B</em> of all even natural numbers can be written as <em>B = {x : x is a natural number and x = 2n for n ∈ N}</em> or <em>B = {x : x ∈ N, x = 2n, n ∈ N}</em>. The symbol ':' or '|' stands for 'such that'.</li><li>The set <em>A = {3, 5, 7, 9, 11}</em> is represented as <em>A = {x : x = 2n + 1 where n ∈ N, n < 6}</em></li></ul>",
+    "formulas": [
+      "B = {x : x is a natural number and x = 2n for n ∈ N}",
+      "A = {x : x = 2n + 1 where n ∈ N, n < 6}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Methods of representing sets: Roster form and Set Builder form."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 183
+  },
+  {
+    "id": "set-theory-types-001",
+    "subject": "Mathematics",
+    "chapter": "Sets",
+    "topic": "Types of Sets and Subsets",
+    "text": "<h3>Types of Sets</h3><ul><li><strong>Empty set:</strong> A set which does not contain any element is called an empty set or null set or void set. It is denoted by φ or { }. e.g., A = set of all odd numbers divisible by 2 and B = {x: x ∈ N and 5 < x < 6}. The sets which have atleast one element are called non void or non-empty set.</li><li><strong>Singleton set:</strong> A set consisting of a single element is called a singleton set. e.g., (i) The set {5} is a singleton set. (ii) {x | x ∈ W and x + 6 = 6} = {0} which is a singleton set.</li><li><strong>Finite set:</strong> A set which consists of a definite number of elements, is called a finite set. Empty set is also a finite set. e.g., (i) The set {1, 2, 3, 4} is a finite set. (ii) B = Set of vowels in English Alphabets = {a, e, i, o, u}. (iii) A = Set of even prime natural numbers => A = {2}. <strong>Note:</strong> The number of distinct elements contained in a set A is called the cardinal number of A and is denoted as n(A). If A = {a, e, i, o, u}, then n(A) = 5.</li><li><strong>Infinite set:</strong> A set which consists of infinite number of elements is called an infinite set. e.g., (i) Set of square of natural numbers. (ii) Set of all points in a plane.</li><li><strong>Equal sets:</strong> Two sets A and B are said to be equal, if they have exactly the same elements and we write A = B. Otherwise, they are said to be unequal and we write A ≠ B.</li><li><strong>Equivalent sets:</strong> Two sets A and B are equivalent, if their cardinal numbers are same i.e. n(A) = n(B) and we write A ↔ B or A ~ B.</li></ul><h3>Subsets and Power Sets</h3><ul><li><strong>Subsets:</strong> Let A and B be two sets. If every element of A is an element of B, then A is called a subset of B. If A is subset of B, then we write A ⊆ B. (i) Every set is a subset of itself i.e., A ⊆ A, B ⊆ B. (ii) Empty set is a subset of every set i.e., φ ⊆ A. <strong>Note:</strong> The total number of subsets of a finite set containing n elements is 2^n.</li><li><strong>Super set:</strong> If A is a subset of B, then we say that B is superset of A and we write B ⊇ A.</li><li><strong>Comparability of sets:</strong> Two sets A and B are said to be comparable, if either A ⊂ B or B ⊂ A or A = B, otherwise A and B are said to be incomparable.</li><li><strong>Proper subset:</strong> If A ⊆ B and A ≠ B, then A is called a proper subset of B and we write A ⊂ B. <strong>Note:</strong> The total number of proper subset of a finite set containing n elements is (2^n - 1).</li><li><strong>Universal set:</strong> If there are some sets under consideration, then there happens to be a set which is a superset of each one of the given sets. Such a set is known as the universal set and it is denoted by U.</li><li><strong>Power set:</strong> The collection of all subsets of a set A, is called power set of A and it is denoted by P(A). In P(A), every element is a set. e.g., Let A = {1, 2, 3}, Then P(A) = {φ, {1}, {2}, {3}, {1,2}, {2,3}, {3,1}, {1,2,3}}.</li></ul>",
+    "formulas": [
+      "A = {x: x = n^2, n ∈ Z}",
+      "n(A) = 5",
+      "A ⊆ B",
+      "B ⊇ A",
+      "A ⊂ B",
+      "2^n",
+      "(2^n - 1)",
+      "n(A) = n(B)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This section covers fundamental definitions in Set Theory including types of sets (Empty, Singleton, Finite, Infinite, Equal, Equivalent), subset relations, and power sets."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 184
+  },
+  {
+    "id": "set-theory-001",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Properties of Power Sets",
+    "text": "<p><strong>Properties of Power Sets:</strong></p><ul><li>Each element of a power set is a set.</li><li>If set A has n elements, then P(A) has 2^n elements.</li><li>If A is an empty set phi or {}, then P(A) has just one element i.e. P(A) = {phi}.</li><li>If A is a subset of B, then P(A) is a subset of P(B).</li></ul>",
+    "formulas": [
+      "P(A) = 2^n",
+      "A is subset of B => P(A) is subset of P(B)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers fundamental properties of power sets."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 185
+  },
+  {
+    "id": "set-theory-002",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Operations on Sets",
+    "text": "<p><strong>1. Union of Sets:</strong> Let A and B be any two sets. The union of A and B is the set of all the elements of A and all the elements of B, the common elements being taken only once. It is denoted by A U B and read as 'A union B'. Thus, A U B = {x : x is in A or x is in B}.</p><p><strong>2. Intersection of sets:</strong> Let A and B be any two sets. The intersection of A and B is the set of all those elements which belongs to both A and B. It is denoted by A intersection B. Thus, A intersection B = {x : x is in A and x is in B}.</p><p><strong>3. Disjoint sets:</strong> Two sets A and B are said to be disjoint, if they have no common element i.e. A intersection B = phi.</p><p><strong>4. Difference of sets:</strong> Let A and B be two sets. The difference of two sets is the set of all those elements of A which do not belong to B. It is denoted by A - B and read as A minus B. A - B = {x : x is in A and x is not in B}.</p>",
+    "formulas": [
+      "A U B = {x : x is in A or x is in B}",
+      "A intersection B = {x : x is in A and x is in B}",
+      "A - B = {x : x is in A and x is not in B}"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Venn diagram showing Union of sets A and B with both circles shaded.",
+      "Venn diagram showing Intersection of sets A and B with the overlapping region shaded.",
+      "Venn diagram showing Disjoint sets A and B as two separate circles.",
+      "Venn diagram showing Difference A - B with the part of A not overlapping with B shaded.",
+      "Venn diagram showing Difference B - A with the part of B not overlapping with A shaded."
+    ],
+    "details": {
+      "summary": "Definitions and Venn diagram representations of set operations: Union, Intersection, Disjoint sets, and Difference."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 185
+  },
+  {
+    "id": "cds_pathfinder_sets_001",
+    "subject": "Mathematics",
+    "chapter": "Sets",
+    "topic": "Symmetric Difference, Complement, and Laws of Algebra of Sets",
+    "text": "<p><strong>Symmetric Difference of Two Sets:</strong> Let A and B be two sets. The symmetric difference of sets A and B is the set (A - B) U (B - A) and is denoted by A Δ B. It is a set consisting of all those members of A which are not in B or all those which are in B but not in A. Thus, A Δ B = {x : x ∈ A but x ∉ B} U {x : x ∈ B but x ∉ A}. A Δ B = (A - B) U (B - A).</p><p><strong>Complement of a Set:</strong> Let U be the universal set and A be any set such that A ⊂ U. The complement of A with respect to U is the set of all those elements of U which are not in A. It is denoted by A' or A^c or U - A. Thus, A' = {x : x ∈ U and x ∉ A}.</p><p><strong>Laws of Algebra of Sets:</strong></p><ul><li><strong>Idempotent laws:</strong> (i) A U A = A, (ii) A ∩ A = A</li><li><strong>Identity laws:</strong> (i) A U φ = A, (ii) A ∩ U = A</li><li><strong>Commutative laws:</strong> (i) A U B = B U A, (ii) A ∩ B = B ∩ A</li><li><strong>Associative laws:</strong> (i) (A U B) U C = A U (B U C), (ii) (A ∩ B) ∩ C = A ∩ (B ∩ C)</li><li><strong>Distributive laws:</strong> (i) A U (B ∩ C) = (A U B) ∩ (A U C), (ii) A ∩ (B U C) = (A ∩ B) U (A ∩ C)</li><li><strong>De-Morgan's laws:</strong> (i) (A U B)' = A' ∩ B', (ii) (A ∩ B)' = A' U B'</li></ul><p><strong>More Results on Operations on Sets:</strong></p><ul><li>A - (B ∩ C) = (A - B) U (A - C)</li><li>A - (B U C) = (A - B) ∩ (A - C)</li><li>A ∩ (B - C) = (A ∩ B) - (A ∩ C)</li><li>A ∩ (B Δ C) = (A ∩ B) Δ (A ∩ C)</li><li>(A - B) U (B - A) = (A U B) - (A ∩ B)</li></ul><p><strong>Cardinality Results:</strong></p><ul><li>n(A U B) = n(A) + n(B) - n(A ∩ B)</li><li>n(A U B) = n(A) + n(B) if A, B are disjoint sets.</li><li>n(A - B) = n(A) - n(A ∩ B)</li><li>n(A Δ B) = n(A) + n(B) - 2n(A ∩ B)</li><li>n(A U B U C) = n(A) + n(B) + n(C) - n(A ∩ B) - n(B ∩ C) - n(A ∩ C) + n(A ∩ B ∩ C)</li></ul>",
+    "formulas": [
+      "A Δ B = (A - B) U (B - A)",
+      "A' = U - A",
+      "n(A U B) = n(A) + n(B) - n(A ∩ B)",
+      "n(A Δ B) = n(A) + n(B) - 2n(A ∩ B)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Venn diagram showing Symmetric Difference: Two overlapping circles A and B, with the non-overlapping parts shaded.",
+      "Venn diagram showing Complement of a Set: A rectangle U containing a circle A, with the area inside the rectangle but outside the circle shaded."
+    ],
+    "details": {
+      "summary": "Covers fundamental set operations including symmetric difference, complement, algebraic laws (Idempotent, Identity, Commutative, Associative, Distributive, De-Morgan's), and cardinality formulas for finite sets."
+    },
+    "mcq": {
+      "question": "If A = {0, 1, 2, 3, 4}, B = {1, 2, 3}, C = {3, 5, 7, 9}, then (A - B) ∩ (B - C) is",
+      "options": [
+        "{1, 2}",
+        "{0, 4}",
+        "{0, 1, 2, 4}",
+        "φ"
+      ],
+      "correct": 3,
+      "explanation": "Given A = {0, 1, 2, 3, 4}, B = {1, 2, 3}, C = {3, 5, 7, 9}. A - B = {0, 4} and B - C = {1, 2}. Therefore, (A - B) ∩ (B - C) = {0, 4} ∩ {1, 2} = φ."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 186
+  },
+  {
+    "id": "set-theory-ordered-pairs",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Ordered Pairs",
+    "text": "<p>An <strong>ordered pair</strong> consists of two objects or elements in a given fixed order.</p><p>If <em>A</em> and <em>B</em> are two sets and <em>a</em> ∈ <em>A</em>, <em>b</em> ∈ <em>B</em>, then the ordered pair of elements <em>a</em> and <em>b</em> is denoted by (<em>a</em>, <em>b</em>).</p><p>The natural numbers and their squares can be represented by ordered pair in the following way: (1, 1), (2, 4), (3, 9), (4, 16), ....</p><p>Two ordered pairs (<em>a</em>, <em>b</em>) and (<em>c</em>, <em>d</em>) will be equal, if and only if <em>a</em> = <em>c</em> and <em>b</em> = <em>d</em>.</p><p><strong>Note:</strong> {<em>a</em>, <em>b</em>} = {<em>b</em>, <em>a</em>} but (<em>a</em>, <em>b</em>) ≠ (<em>b</em>, <em>a</em>).</p>",
+    "formulas": [
+      "(a, b) = (c, d) iff a = c and b = d"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and properties of ordered pairs in set theory."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 187
+  },
+  {
+    "id": "set-theory-solutions-191",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Hints and Solutions",
+    "text": "<p>This page provides the answer key and detailed solutions for a set of problems related to Set Theory.</p><ul><li><strong>Set Operations:</strong> Includes union, intersection, difference, and complement of sets.</li><li><strong>Venn Diagrams:</strong> Visual representation of set relationships (e.g., P subset Q, intersection of B and C).</li><li><strong>Properties:</strong> Includes power sets, empty sets, and subset calculations.</li><li><strong>Formulae:</strong> Cardinality of sets and subset counting.</li></ul>",
+    "formulas": [
+      "A U B",
+      "A intersection B",
+      "B - A",
+      "P subset Q",
+      "P intersection Q = P",
+      "n(A U B) = n(A) + n(B) - n(A intersection B)",
+      "2^n - 2 (for proper subsets)",
+      "P(phi) = {phi}"
+    ],
+    "tables": [
+      "| Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 1 | a | 2 | b | 3 | c | 4 | b | 5 | c | 6 | a | 7 | c | 8 | c | 9 | a | 10 | a |\n| 11 | a | 12 | a | 13 | d | 14 | c | 15 | c | 16 | a | 17 | b | 18 | c | 19 | a | 20 | d |\n| 21 | c | 22 | a | 23 | a | 24 | c | 25 | c | 26 | c | 27 | a | 28 | c | 29 | c | 30 | c |\n| 31 | c | 32 | b | 33 | d | 34 | a | 35 | a | 36 | d | 37 | d | 38 | b | 39 | a | 40 | a |\n| 41 | d | 42 | c | 43 | c | 44 | c | 45 | c | 46 | c | 47 | a | 48 | a | 49 | d | 50 | c |\n| 51 | a | 52 | b | 53 | a | 54 | a | 55 | d | 56 | d | 57 | c | 58 | b | 59 | b | 60 | c |\n| 61 | c | 62 | c | 63 | d | 64 | a | | | | | | | | | | | | | |"
+    ],
+    "image_descriptions": [
+      "Venn diagram showing set P inside set Q, with the intersection P intersection Q shaded.",
+      "Venn diagram showing three overlapping circles A, B, and C, with the region B intersection C shaded.",
+      "Venn diagram showing three overlapping circles A, B, and C, with the region A U (B intersection C) shaded."
+    ],
+    "details": {
+      "summary": "This page contains the answer key for 64 questions and detailed step-by-step solutions for questions 1 through 27 of a Set Theory practice set."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 191
+  },
+  {
+    "id": "CDS-PATH-192-SET-THEORY-01",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Venn Diagrams and Set Operations",
+    "text": "<p><strong>Venn Diagram Analysis:</strong></p><ul><li>The shaded portion of the Venn diagram for <em>A - (B ∪ C)</em> is equivalent to <em>(A - B) ∩ (A - C)</em>.</li><li>For three sets, the number of elements in the union is given by <em>n(A ∪ B ∪ C) = n(A) + n(B) + n(C) - n(A ∩ B) - n(B ∩ C) - n(A ∩ C) + n(A ∩ B ∩ C)</em>.</li><li><strong>Distributive Law:</strong> <em>A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)</em>.</li><li><strong>Cardinality of Sets:</strong> Equivalent sets have the same cardinal numbers.</li></ul>",
+    "formulas": [
+      "n(P ∪ Q) = n(P) + n(Q) - n(P ∩ Q)",
+      "n(A ∪ B) = n(A) + n(B) - n(A ∩ B)",
+      "A - (B ∪ C) = (A - B) ∩ (A - C)",
+      "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+      "n(E ∪ M) = n(E) + n(M) - n(E ∩ M)"
+    ],
+    "image_descriptions": [
+      "Venn diagram showing three intersecting circles A, B, and C. The first diagram highlights the region A excluding the union of B and C. The second diagram highlights the intersection of (A-B) and (A-C).",
+      "Venn diagram with three circles M(14), C(20), and E(24) showing intersections with values 3, 0, and 2.",
+      "Venn diagram with three circles C(150), B(100), and F(120) with a central intersection labeled x."
+    ],
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 192
+  },
+  {
+    "id": "math-trig-20-001",
+    "subject": "Mathematics",
+    "chapter": "Measurements of Angles and Trigonometric Ratios",
+    "topic": "Introduction to Trigonometry",
+    "text": "<p><strong>Trigonometry</strong> is the branch of Mathematics which deals with the measurements of sides and angles of triangles and the problems based on these angles.</p><h3>Angle</h3><p>An angle is considered as the figure obtained by rotating a given ray about its endpoint. The original ray is called the <strong>initial side</strong> and the ray into which the initial side rotates is called <strong>terminal side</strong>. In figure, <em>OA</em> is initial side and <em>OB</em> is the terminal side of ∠AOB. The point <em>O</em> is called its vertex.</p><h3>Quadrants</h3><p>Let <em>XOX'</em> and <em>YOY'</em> be two lines at right angles in the plane of paper. These two perpendicular lines divide the plane of the paper into four equal parts, these four parts are known as four quadrants and lines <em>XOX'</em> and <em>YOY'</em> are known as <em>X</em>-axis and <em>Y</em>-axis, respectively. The parts <em>XOY</em>, <em>YOX'</em>, <em>X'OY'</em> and <em>Y'OX</em> are known as 1st, 2nd, 3rd and 4th quadrant, respectively.</p><h3>Relation between Angles, Radius and Arc Length</h3><p>If <em>l</em> is the length of a circle of radius <em>r</em>. And this arc subtends an angle <em>θ</em> radians at the centre of the circle, then <em>l = rθ</em> ⇒ <em>θ = l/r</em>.</p>",
+    "formulas": [
+      "l = r * theta",
+      "theta = l / r"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "The document mentions a figure showing OA as the initial side and OB as the terminal side of angle AOB with O as the vertex."
+    ],
+    "details": {
+      "summary": "Introduction to trigonometry, definition of an angle, explanation of quadrants in a Cartesian plane, and the mathematical relationship between arc length, radius, and angle in radians."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 194
+  },
+  {
+    "id": "math-trig-001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Relation between Degree and Radian",
+    "text": "<p>A circle subtends an angle at the centre whose radian measure is 2π and its degree measure is 360°. It follows that:</p><ul><li>2π radian = 360°</li><li>π radian = 180°</li><li>1 radian = 180/π degree = 57° 16' 22'' (approx)</li><li>1 degree = π/180 radian = 0.01746 rad (approx)</li></ul><p>Note: 1 radian is written as 1^c.</p>",
+    "formulas": [
+      "2π radian = 360°",
+      "π radian = 180°",
+      "1 radian = 180/π degree",
+      "1 degree = π/180 radian"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Conversion factors between degrees and radians."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 195
+  },
+  {
+    "id": "math-trig-002",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios",
+    "text": "<p>The ratio of the sides of a right-angled triangle with respect to its angle are called trigonometric ratios. The side opposite to the right angle is called the hypotenuse. Relative to the angle θ, the side opposite to θ is called the perpendicular side and the remaining side is called base.</p><p>For angle θ in right-angled triangle ABC:</p><ul><li>sin θ = Perpendicular/Hypotenuse = BC/AC = P/H</li><li>cos θ = Base/Hypotenuse = AB/AC = B/H</li><li>tan θ = Perpendicular/Base = BC/AB = P/B</li><li>sec θ = Hypotenuse/Base = AC/AB = H/B</li><li>cot θ = Base/Perpendicular = AB/BC = B/P</li><li>cosec θ = Hypotenuse/Perpendicular = AC/BC = H/P</li></ul>",
+    "formulas": [
+      "sin θ = P/H",
+      "cos θ = B/H",
+      "tan θ = P/B",
+      "sec θ = H/B",
+      "cot θ = B/P",
+      "cosec θ = H/P"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of trigonometric ratios based on sides of a right-angled triangle."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 195
+  },
+  {
+    "id": "trig_identities_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Identities and Ratios",
+    "text": "<p><strong>Relation Between T-ratios:</strong></p><ul><li>sin θ = 1/cosec θ</li><li>cos θ = 1/sec θ</li><li>tan θ = 1/cot θ</li><li>tan θ = sin θ / cos θ</li><li>cot θ = cos θ / sin θ</li></ul><p><strong>Trigonometric Identities:</strong> A statement of equality involving trigonometric ratios of an angle is called a trigonometric identity. It is valid for all values of the angles. The three important identities are:</p><ol><li>sin² θ + cos² θ = 1</li><li>1 + tan² θ = sec² θ</li><li>1 + cot² θ = cosec² θ</li></ol><p><em>Note: sin² A + cos² B cannot be equal to 1 because the angles are different.</em></p>",
+    "formulas": [
+      "sin θ = 1/cosec θ",
+      "cos θ = 1/sec θ",
+      "tan θ = 1/cot θ",
+      "tan θ = sin θ / cos θ",
+      "cot θ = cos θ / sin θ",
+      "sin² θ + cos² θ = 1",
+      "1 + tan² θ = sec² θ",
+      "1 + cot² θ = cosec² θ"
+    ],
+    "tables": [
+      "| Angles | 0° | 30° | 45° | 60° | 90° |\n|---|---|---|---|---|---|\n| sin θ | 0 | 1/2 | 1/√2 | √3/2 | 1 |\n| cos θ | 1 | √3/2 | 1/√2 | 1/2 | 0 |\n| tan θ | 0 | 1/√3 | 1 | √3 | ∞ |\n| cot θ | ∞ | √3 | 1 | 1/√3 | 0 |\n| sec θ | 1 | 2/√3 | √2 | 2 | ∞ |\n| cosec θ | ∞ | 2 | √2 | 2/√3 | 1 |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers fundamental trigonometric relations, identities, and a table of values for specific angles."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 196
+  },
+  {
+    "id": "trig_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Sign of trigonometric ratios in different quadrants",
+    "text": "<p>The sign of trigonometric ratios depends on the quadrant in which the angle lies:</p><ul><li><strong>I Quadrant (0 < θ < 90°):</strong> All trigonometric ratios are positive.</li><li><strong>II Quadrant (90° < θ < 180°):</strong> sin θ and cosec θ are positive. All other trigonometric ratios are negative.</li><li><strong>III Quadrant (180° < θ < 270°):</strong> tan θ and cot θ are positive. All other trigonometric ratios are negative.</li><li><strong>IV Quadrant (270° < θ < 360°):</strong> cos θ and sec θ are positive. All other trigonometric ratios are negative.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Trigonometric Ratio | Domain | Range |\n|---|---|---|\n| sin θ | R | [-1, 1] |\n| cos θ | R | [-1, 1] |\n| tan θ | R - {(2n + 1)π/2, n ∈ I} | (-∞, ∞) = R |\n| cot θ | R - {nπ, n ∈ I} | (-∞, ∞) = R |\n| sec θ | R - {(2n + 1)π/2, n ∈ I} | (-∞, -1] ∪ [1, ∞) |\n| cosec θ | R - {nπ, n ∈ I} | (-∞, -1] ∪ [1, ∞) |"
+    ],
+    "image_descriptions": [
+      "A Cartesian coordinate system showing the four quadrants with the signs of trigonometric ratios indicated for each."
+    ],
+    "details": {
+      "summary": "Overview of trigonometric signs in quadrants and domain/range of functions."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 197
+  },
+  {
+    "id": "trig_002",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Behaviour of trigonometric functions",
+    "text": "<p>The behaviour of trigonometric functions across different quadrants is summarized below:</p>",
+    "formulas": [],
+    "tables": [
+      "| Trigonometric Ratio | Ist Quadrant (0 to π/2) | IInd Quadrant (π/2 to π) | IIIrd Quadrant (π to 3π/2) | IVth Quadrant (3π/2 to 2π) |\n|---|---|---|---|---|\n| sin θ | Increases from 0 to 1 | Decreases from 1 to 0 | Decreases from 0 to -1 | Increases from -1 to 0 |\n| cos θ | Decreases from 1 to 0 | Decreases from 0 to -1 | Increases from -1 to 0 | Increases from 0 to 1 |\n| tan θ | Increases from 0 to ∞ | Increases from -∞ to 0 | Increases from 0 to ∞ | Increases from -∞ to 0 |\n| cot θ | Decreases from ∞ to 0 | Decreases from 0 to -∞ | Decreases from ∞ to 0 | Decreases from 0 to -∞ |\n| sec θ | Increases from 1 to ∞ | Increases from -∞ to -1 | Decreases from -1 to -∞ | Increases from ∞ to 1 |\n| cosec θ | Decreases from ∞ to 1 | Increases from 1 to ∞ | Increases from -∞ to -1 | Decreases from -1 to -∞ |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Table showing the increasing/decreasing nature of trigonometric functions in each quadrant."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 197
+  },
+  {
+    "id": "trig_003",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios of Allied Angles",
+    "text": "<p>Two angles are said to be allied when their sum or difference is either zero or a multiple of 90°. Angles like -θ, 90° ± θ, 180° ± θ, 360° ± θ, etc., are allied to θ.</p>",
+    "formulas": [],
+    "tables": [
+      "| Angle | sin θ | cos θ | tan θ | cot θ | sec θ | cosec θ |\n|---|---|---|---|---|---|---|\n| -θ | -sinθ | cosθ | -tanθ | -cotθ | secθ | -cosecθ |\n| 90°-θ | cosθ | sinθ | cotθ | tanθ | cosecθ | secθ |\n| 90°+θ | cosθ | -sinθ | -cotθ | -tanθ | -cosecθ | secθ |\n| 180°-θ | sinθ | -cosθ | -tanθ | -cotθ | -secθ | cosecθ |\n| 180°+θ | -sinθ | -cosθ | tanθ | cotθ | -secθ | -cosecθ |\n| 270°-θ | -cosθ | -sinθ | cotθ | tanθ | -cosecθ | -secθ |\n| 270°+θ | -cosθ | sinθ | -cotθ | -tanθ | cosecθ | -secθ |\n| 360°-θ | -sinθ | cosθ | -tanθ | -cotθ | secθ | -cosecθ |\n| 360°+θ | sinθ | cosθ | tanθ | cotθ | secθ | cosecθ |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Table of trigonometric ratios for allied angles."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 197
+  },
+  {
+    "id": "trig_004",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Important Points",
+    "text": "<ul><li>| sin θ | ≤ 1</li><li>| cos θ | ≤ 1</li><li>sec θ ≥ 1</li><li>sec θ ≤ -1</li><li>cosec θ ≥ 1</li><li>cosec θ ≤ -1</li><li>tan θ and cot θ can take any value.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Key constraints on trigonometric function values."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 197
+  },
+  {
+    "id": "trig-sum-diff-001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Sum, Difference and Product Formulae",
+    "text": "<p>The following trigonometric identities are essential for solving sum, difference, and product problems:</p><ul><li>sin(A + B) = sin A cos B + cos A sin B</li><li>sin(A - B) = sin A cos B - cos A sin B</li><li>cos(A + B) = cos A cos B - sin A sin B</li><li>cos(A - B) = cos A cos B + sin A sin B</li><li>tan(A + B) = (tan A + tan B) / (1 - tan A tan B)</li><li>tan(A - B) = (tan A - tan B) / (1 + tan A tan B)</li><li>cot(A + B) = (cot A cot B - 1) / (cot A + cot B)</li><li>cot(A - B) = (cot A cot B + 1) / (cot B - cot A)</li><li>sin(A + B)sin(A - B) = sin^2 A - sin^2 B = cos^2 B - cos^2 A</li><li>cos(A + B)cos(A - B) = cos^2 A - sin^2 B = cos^2 B - sin^2 A</li><li>2 sin A cos B = sin(A + B) + sin(A - B)</li><li>2 cos A sin B = sin(A + B) - sin(A - B)</li><li>2 cos A cos B = cos(A + B) + cos(A - B)</li><li>2 sin A sin B = cos(A - B) - cos(A + B)</li><li>sin A + sin B = 2 sin((A + B)/2) cos((A - B)/2)</li><li>sin A - sin B = 2 sin((A - B)/2) cos((A + B)/2)</li><li>cos A + cos B = 2 cos((A + B)/2) cos((A - B)/2)</li><li>cos A - cos B = -2 sin((A + B)/2) sin((A - B)/2) = 2 sin((A + B)/2) sin((B - A)/2)</li><li>tan A + tan B = sin(A + B) / (cos A cos B)</li><li>tan A - tan B = sin(A - B) / (cos A cos B)</li><li>cot A + cot B = sin(A + B) / (sin A sin B)</li><li>cot A - cot B = sin(B - A) / (sin A sin B)</li></ul>",
+    "formulas": [
+      "sin(A + B) = sin A cos B + cos A sin B",
+      "sin(A - B) = sin A cos B - cos A sin B",
+      "cos(A + B) = cos A cos B - sin A sin B",
+      "cos(A - B) = cos A cos B + sin A sin B",
+      "tan(A + B) = (tan A + tan B) / (1 - tan A tan B)",
+      "tan(A - B) = (tan A - tan B) / (1 + tan A tan B)",
+      "cot(A + B) = (cot A cot B - 1) / (cot A + cot B)",
+      "cot(A - B) = (cot A cot B + 1) / (cot B - cot A)",
+      "sin(A + B)sin(A - B) = sin^2 A - sin^2 B",
+      "cos(A + B)cos(A - B) = cos^2 A - sin^2 B",
+      "2 sin A cos B = sin(A + B) + sin(A - B)",
+      "2 cos A sin B = sin(A + B) - sin(A - B)",
+      "2 cos A cos B = cos(A + B) + cos(A - B)",
+      "2 sin A sin B = cos(A - B) - cos(A + B)",
+      "sin A + sin B = 2 sin((A + B)/2) cos((A - B)/2)",
+      "sin A - sin B = 2 sin((A - B)/2) cos((A + B)/2)",
+      "cos A + cos B = 2 cos((A + B)/2) cos((A - B)/2)",
+      "cos A - cos B = -2 sin((A + B)/2) sin((A - B)/2)",
+      "tan A + tan B = sin(A + B) / (cos A cos B)",
+      "tan A - tan B = sin(A - B) / (cos A cos B)",
+      "cot A + cot B = sin(A + B) / (sin A sin B)",
+      "cot A - cot B = sin(B - A) / (sin A sin B)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Comprehensive list of trigonometric sum, difference, and product identities."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 198
+  },
+  {
+    "id": "trig_submultiple_angles_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios of Submultiple Angles",
+    "text": "<p>Formulas for trigonometric ratios of submultiple angles:</p><ul><li>sin θ = 2 sin(θ/2) cos(θ/2)</li><li>cos θ = cos²(θ/2) - sin²(θ/2) = 2 cos²(θ/2) - 1 = 1 - 2 sin²(θ/2)</li><li>(1 - cos θ) / sin θ = tan(θ/2)</li><li>(1 + cos θ) / sin θ = cot(θ/2)</li><li>(1 - cos θ) / (1 + cos θ) = tan²(θ/2)</li><li>(1 + cos θ) / (1 - cos θ) = cot²(θ/2)</li><li>sin θ = (2 tan(θ/2)) / (1 + tan²(θ/2))</li><li>cos θ = (1 - tan²(θ/2)) / (1 + tan²(θ/2))</li></ul>",
+    "formulas": [
+      "sin θ = 2 sin(θ/2) cos(θ/2)",
+      "cos θ = cos²(θ/2) - sin²(θ/2) = 2 cos²(θ/2) - 1 = 1 - 2 sin²(θ/2)",
+      "(1 - cos θ) / sin θ = tan(θ/2)",
+      "(1 + cos θ) / sin θ = cot(θ/2)",
+      "(1 - cos θ) / (1 + cos θ) = tan²(θ/2)",
+      "(1 + cos θ) / (1 - cos θ) = cot²(θ/2)",
+      "sin θ = (2 tan(θ/2)) / (1 + tan²(θ/2))",
+      "cos θ = (1 - tan²(θ/2)) / (1 + tan²(θ/2))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of trigonometric identities for submultiple angles."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 199
+  },
+  {
+    "id": "trig_max_min_values_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Maximum and Minimum Values of Trigonometrical Functions",
+    "text": "<p>For a trigonometric function of the form a sin θ ± b cos θ, the maximum and minimum values are √a² + b² and -√a² + b², respectively.</p>",
+    "formulas": [
+      "Maximum = √(a² + b²)",
+      "Minimum = -√(a² + b²)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rule for finding max/min values of a sin θ ± b cos θ."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 199
+  },
+  {
+    "id": "trig_multiple_angles_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios of Multiple Angles",
+    "text": "<p>Formulas for trigonometric ratios of multiple angles:</p><ul><li>sin 2θ = (2 tan θ) / (1 + tan² θ)</li><li>cos 2θ = cos² θ - sin² θ = 2 cos² θ - 1 = 1 - 2 sin² θ = (1 - tan² θ) / (1 + tan² θ)</li><li>(1 + cos 2θ) / 2 = cos² θ</li><li>(1 - cos 2θ) / 2 = sin² θ</li><li>tan 2θ = (2 tan θ) / (1 - tan² θ)</li><li>sin 3θ = 3 sin θ - 4 sin³ θ</li><li>cos 3θ = 4 cos³ θ - 3 cos θ</li><li>tan 3θ = (3 tan θ - tan³ θ) / (1 - 3 tan² θ)</li></ul>",
+    "formulas": [
+      "sin 2θ = (2 tan θ) / (1 + tan² θ)",
+      "cos 2θ = cos² θ - sin² θ = 2 cos² θ - 1 = 1 - 2 sin² θ = (1 - tan² θ) / (1 + tan² θ)",
+      "(1 + cos 2θ) / 2 = cos² θ",
+      "(1 - cos 2θ) / 2 = sin² θ",
+      "tan 2θ = (2 tan θ) / (1 - tan² θ)",
+      "sin 3θ = 3 sin θ - 4 sin³ θ",
+      "cos 3θ = 4 cos³ θ - 3 cos θ",
+      "tan 3θ = (3 tan θ - tan³ θ) / (1 - 3 tan² θ)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of trigonometric identities for multiple angles."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 199
+  },
+  {
+    "id": "note_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Properties of Triangle",
+    "text": "<p><strong>Properties of Triangle</strong></p><ul><li><strong>Circumcircle of a triangle:</strong> The circle passing through the vertices of a triangle ABC is called circumcircle. Its radius R is called the circumradius and its centre is known as circumcentre. Formula: R = a/(2sin A) = b/(2sin B) = c/(2sin C).</li><li><strong>Sine rule:</strong> In a triangle ABC, if a, b, c be the sides opposite to the angles A, B, C respectively, then a/sin A = b/sin B = c/sin C.</li><li><strong>Cosine rule:</strong> In a triangle ABC, if a, b, c be the sides opposite to the angles A, B, C respectively, then:<ul><li>cos A = (b^2 + c^2 - a^2) / 2bc</li><li>cos B = (c^2 + a^2 - b^2) / 2ac</li><li>cos C = (a^2 + b^2 - c^2) / 2ab</li></ul></li></ul>",
+    "formulas": [
+      "R = a/(2sin A) = b/(2sin B) = c/(2sin C)",
+      "a/sin A = b/sin B = c/sin C",
+      "cos A = (b^2 + c^2 - a^2) / 2bc",
+      "cos B = (c^2 + a^2 - b^2) / 2ac",
+      "cos C = (a^2 + b^2 - c^2) / 2ab"
+    ],
+    "image_descriptions": [
+      "Diagram 1: A triangle ABC inscribed in a circle (circumcircle) with radius R marked from the center to vertex A.",
+      "Diagram 2: A triangle ABC with sides labeled a, b, c opposite to vertices A, B, C respectively."
+    ],
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 200
+  },
+  {
+    "id": "HD-21-001",
+    "subject": "Mathematics",
+    "chapter": "Height and Distance",
+    "topic": "Introduction and Definitions",
+    "text": "<p>Height and Distance is an important application of trigonometry which helps us to find the height of any object and distance of that object from any point which are not directly measurable. If the angle of elevation/depression from a point is known.</p><h3>Line of sight</h3><p>A line of sight is the line drawn from the eye of an observer to the point, where the object is viewed by the observer.</p><h3>Horizontal Line</h3><p>The line of sight which is parallel to ground level is known as horizontal line.</p><h3>ANGLE OF ELEVATION</h3><p>Angle of elevation is defined as an angle formed by the line of sight with the horizontal line when an object is viewed in the upward direction. Let <em>P</em> be the position of the object above the horizontal line <em>OA</em> and <em>O</em> be the eye of the observer, then ∠<em>AOP</em> is called angle of elevation.</p>",
+    "formulas": [
+      "tan(phi) = Height / Distance"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a person at point A looking at the top of a tower at point D. A horizontal line AE is drawn from the person's eye level. The line AD is labeled 'Line of sight'.",
+      "Diagram showing an observer at point 'Eye' looking at an object at point P. A horizontal line OA is drawn. The angle between the horizontal line and the line of sight OP is labeled 'Angle of elevation' (theta)."
+    ],
+    "details": {
+      "summary": "Introduction to Height and Distance using trigonometric principles."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 225
+  },
+  {
+    "id": "HD-21-002",
+    "subject": "Mathematics",
+    "chapter": "Height and Distance",
+    "topic": "Important Points",
+    "text": "<ul><li>If the observer moves towards the perpendicular line (tower/building), then angle of elevation increases and if the observer moves away from the perpendicular line (tower/building), then the angle of elevation decreases.</li><li>If the angle of elevation of Sun above a tower decreases, then the length of shadow of a tower increases.</li><li>If height of tower is doubled and the distance between the observer and foot of the tower is also doubled, then the angle of elevation remains same.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Key conceptual rules for Height and Distance problems."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 225
+  },
+  {
+    "id": "pathfinder-cds-226-001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Angle of Depression",
+    "text": "<p><strong>Angle of depression</strong> is defined as an angle formed by the line of sight with the horizontal line when an object is viewed in the downward direction.</p><p>Let <em>P</em> be the position of the object below the horizontal line <em>OA</em> and <em>O</em> be the eye of the observer, then ∠AOP is called angle of depression.</p><h3>IMPORTANT POINTS</h3><ul><li>The angle of depression of a point <em>P</em> as seen from a point <em>O</em> is numerically equal to the angle of elevation of <em>O</em> as seen from <em>P</em>.</li><li>Angle of elevation and angle of depression are always acute angle.</li><li>Unless mentioned, the height of the observer is not considered.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A geometric diagram showing an observer at point O looking down at point P. A horizontal line OA extends from O. The angle between the horizontal line OA and the line of sight OP is labeled as the angle of depression."
+    ],
+    "details": {
+      "summary": "Definition and key properties of the angle of depression in trigonometry."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 226
+  },
+  {
+    "id": "math-height-distance-001",
+    "subject": "Mathematics",
+    "chapter": "Height and Distance",
+    "topic": "Application of Trigonometry",
+    "text": "<p>Example solution for finding the height of a tower using trigonometry.</p><p>Given: Height of tower AB = 60m, distance BD = y.</p><p>In right-angled triangle ABD: tan(60) = AB/BD = 60/y => y = 60/sqrt(3).</p><p>In right-angled triangle AEC: tan(30) = AE/EC = AE/BD = 1/sqrt(3).</p><p>Substituting y: AE = (60/sqrt(3)) * (1/sqrt(3)) = 20m.</p><p>Height of tower x = AB - AE = 60 - 20 = 40m.</p>",
+    "formulas": [
+      "tan(60) = 60/y",
+      "y = 60/sqrt(3)",
+      "tan(30) = AE/BD",
+      "AE = 20m",
+      "x = AB - AE"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A geometric diagram showing a vertical tower AB of height 60m. A point D is on the ground. A horizontal line from C meets AB at E. Triangle ABD has an angle of 60 degrees at D. Triangle ACE has an angle of 30 degrees at D. The height x is the segment CD."
+    ],
+    "details": {
+      "summary": "Step-by-step calculation of a tower's height using trigonometric ratios of elevation angles."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 227
+  },
+  {
+    "id": "math-hd-001",
+    "subject": "Mathematics",
+    "chapter": "Height and Distance",
+    "topic": "Application of Trigonometry",
+    "text": "<p>This section covers various problems related to height and distance using trigonometric ratios.</p><ul><li><strong>Problem 5:</strong> Calculating the height of a shadow given sun's altitude.</li><li><strong>Problem 6:</strong> Calculating the angle of elevation of the moon.</li><li><strong>Problem 7:</strong> Calculating the speed of an aeroplane given two angles of elevation at different time intervals.</li><li><strong>Problem 8:</strong> Calculating the angle of elevation of a pole.</li><li><strong>Problem 9:</strong> Deriving a formula for the height of a tower with a flagstaff.</li><li><strong>Problem 10:</strong> Calculating the height of a house on the opposite side of a street using window observation.</li></ul>",
+    "formulas": [
+      "tan 45 = h/x",
+      "tan 60 = (100+h)/x",
+      "tan 30 = 1/sqrt(3)",
+      "Speed = Distance/Time",
+      "tan theta = SR/TR",
+      "tan alpha = BC/AB",
+      "tan phi = PB/OP"
+    ],
+    "image_descriptions": [
+      "Diagram for Problem 5: A right-angled triangle ABC with height h and base x, and a larger triangle ACD with base 15m.",
+      "Diagram for Problem 6: A right-angled triangle PQR representing a pole of height h and base h, with angle theta.",
+      "Diagram for Problem 7: A trapezoid-like figure showing an aeroplane moving from point B to C at an altitude of 1km.",
+      "Diagram for Problem 8: A rectangle PQRT with a pole SR on top, forming a right-angled triangle STR.",
+      "Diagram for Problem 9: A right-angled triangle ABD with a flagstaff CD of height h on top of tower BC.",
+      "Diagram for Problem 10: Two right-angled triangles AOP and BOP sharing a common base OP, representing a window O and house AB."
+    ],
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 231
+  },
+  {
+    "id": "cds_pathfinder_trig_232_01",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Heights and Distances",
+    "text": "<p>This page contains detailed step-by-step solutions for problems related to heights and distances using trigonometric ratios.</p><ul><li><strong>Problem 11:</strong> Calculation of height of a post using two angles of elevation (alpha and beta) from two points on the ground.</li><li><strong>Problem 12:</strong> Calculation involving two posts of different heights where one is double the other, using complementary angles.</li><li><strong>Problem 13:</strong> Calculation of distance of an observer from a flagstaff given the observer's height and angles of elevation.</li><li><strong>Problem 14:</strong> Calculation of height of a tower given two angles of depression from the top to two points on the ground.</li><li><strong>Problem 15:</strong> Calculation of height of a tree given two angles of elevation from two points on the ground.</li><li><strong>Problem 16:</strong> Calculation involving height of a post using angles of elevation.</li></ul>",
+    "formulas": [
+      "tan alpha = BC/AC = s/p",
+      "tan beta = BC/DC = s/q",
+      "p - q = s(tan 3alpha - tan alpha) / (tan alpha * tan 3alpha)",
+      "tan 2alpha = 2tan alpha / (1 - tan^2 alpha)",
+      "Speed = Distance / Time",
+      "tan 30 = 1/sqrt(3)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram for Problem 11: A right-angled triangle ABC with a vertical post BC of height s, and points A and D on the base line.",
+      "Diagram for Problem 12: Two vertical posts RS (height h) and PQ (height 2h) with a point M on the ground between them.",
+      "Diagram for Problem 13: An observer at height 30m looking at a flagstaff of height 5m.",
+      "Diagram for Problem 14: A tower of height h with angles of depression 30 and 45 degrees to points C and D.",
+      "Diagram for Problem 15: A tree of height h with angles of elevation 30 and 60 degrees from points F and E.",
+      "Diagram for Problem 16: A post of height h with angles of elevation 30 degrees from points C and B."
+    ],
+    "details": {
+      "summary": "This page provides worked-out examples for advanced trigonometry problems involving heights and distances, specifically focusing on triangles and angles of elevation/depression."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 232
+  },
+  {
+    "id": "cds_pathfinder_236_theory_01",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Height and Distance",
+    "text": "<p>This page contains solutions to problems involving heights and distances using trigonometric ratios in right-angled triangles.</p><ul><li><strong>Problem 39:</strong> Involves a post of height 'h' and a string of length '2h'. Using cos(theta) = AB/AC = h/2h = 1/2, theta = pi/3.</li><li><strong>Problem 40:</strong> Involves a cloud at height H and its reflection in water. Uses properties of similar triangles and tan ratios to find H = 400m.</li><li><strong>Problem 41:</strong> Involves a tower of height 'h' and two points P and Q. Uses tan ratios to solve for height.</li><li><strong>Problem 43:</strong> Involves a pole of height 'h' and a rope of length sqrt(12)m at an angle of 30 degrees.</li><li><strong>Problem 44:</strong> Involves two planes at different heights.</li><li><strong>Problem 45:</strong> Involves a triangle ADC and BCA to find ratios of segments.</li></ul>",
+    "formulas": [
+      "cos^2(theta) + sin^2(theta) = 1",
+      "tan(theta) = perpendicular / base",
+      "cos(theta) = base / hypotenuse",
+      "sin(theta) = perpendicular / hypotenuse"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram for Q39: Right-angled triangle ABC with angle theta at A, height h, and hypotenuse 2h.",
+      "Diagram for Q40: Cloud at height H, reflection at depth H, points P, Q, M, B, A forming geometric relations.",
+      "Diagram for Q41: Tower of height h, points P, Q, B on ground with angles 45 and 60 degrees.",
+      "Diagram for Q43: Right-angled triangle with rope length sqrt(12), pole height h, and angle 30 degrees.",
+      "Diagram for Q44: Two planes at heights, triangle ADC with angles 45 and 60 degrees.",
+      "Diagram for Q45: Triangle ADC and BCA with angles 30 and 45 degrees."
+    ],
+    "details": {
+      "summary": "Step-by-step trigonometric solutions for height and distance problems."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 236
+  },
+  {
+    "id": "geo-la-001",
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "topic": "Basic Terms and Definitions",
+    "text": "<p><strong>Point:</strong> The figure of which length, breadth and height cannot be measured is called a point. It is infinitesind.</p><p><strong>Line Segment:</strong> The straight path between two points P and Q is called a line segment. This can be represented as PQ (with a bar over it).<ul><li>P and Q are called the end points of the line segment.</li><li>The line segment has a definite length.</li><li>Distance between P and Q is called the length of the line segment PQ.</li></ul></p><p><strong>Line:</strong> A line segment extended endlessly on both sides, is called a line. It is denoted by PQ (with a double-headed arrow over it) or QP (with a double-headed arrow over it).<ul><li>A line is a set of infinite number of points.</li><li>A line have no end points and no definite length.</li></ul></p><p><strong>Ray:</strong> A ray extends indefinitely in one direction. This is exhibited by an arrow i.e. PQ (with a right-pointing arrow over it).<ul><li>P is called the initial point of the ray. The ray has no definite length.</li></ul></p><p><strong>Collinear Points:</strong> Three or more points are said to be collinear if a single straight line passes through them. Here, A, B and C are collinear.</p><p><strong>Non-collinear Points:</strong> Three or more points not lying on a single straight line are called non-collinear points. Here, A, B and C are non-collinear.</p><p><strong>Intersecting Lines:</strong> Two lines having a common point are called intersecting lines. This common point is the point of intersection i.e. O.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to fundamental geometric concepts including points, line segments, lines, rays, collinearity, and intersecting lines."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 237
+  },
+  {
+    "id": "cds_pathfinder_geom_001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Lines and Angles",
+    "text": "<p><strong>Concurrent Lines:</strong> Three or more lines intersecting at the same point are said to be concurrent. This common point is the point of concurrence i.e. O.</p><p><strong>Non Intersecting lines/Parallel Lines:</strong> If two lines lie in the same plane and do not intersect when produced on either side, then such lines are said to be parallel to each other. If l and m are two parallel lines, we write l || m and read it as l is parallel to m.</p><p><strong>ANGLES:</strong> An angle is formed by two rays with a common initial point. Let 'O' is the initial point, then O is called the vertex. P is a point in the interior of angle AOB and R is a point in the exterior of angle AOB.</p><p><strong>Types of Angle:</strong><ul><li><strong>Acute angle:</strong> 0° < angle < 90°</li><li><strong>Right angle:</strong> angle = 90°</li><li><strong>Obtuse angle:</strong> 90° < angle < 180°</li><li><strong>Straight angle:</strong> angle = 180°</li><li><strong>Reflex angle:</strong> 180° < angle < 360°</li><li><strong>Complete angle:</strong> angle = 360°</li></ul></p><p><strong>Pairs of Angle:</strong><ul><li><strong>Complementary Angles:</strong> Two angles are said to be complementary, if the sum of their measure is 90°. Complement of x is (90° - x).</li><li><strong>Supplementary Angles:</strong> Two angles are said to be supplementary, if the sum of their measures is 180°. Supplement of x is (180° - x).</li></ul></p>",
+    "formulas": [
+      "l || m",
+      "0° < angle < 90° (Acute)",
+      "angle = 90° (Right)",
+      "90° < angle < 180° (Obtuse)",
+      "angle = 180° (Straight)",
+      "180° < angle < 360° (Reflex)",
+      "angle = 360° (Complete)",
+      "angle1 + angle2 = 90° (Complementary)",
+      "angle1 + angle2 = 180° (Supplementary)"
+    ],
+    "image_descriptions": [
+      "Diagram showing three lines intersecting at a single point O, labeled as concurrent lines.",
+      "Diagram showing two parallel lines l and m.",
+      "Diagram of an angle AOB with vertex O, showing interior point P and exterior point R.",
+      "Series of diagrams illustrating acute, right, obtuse, straight, reflex, and complete angles.",
+      "Diagram showing two adjacent angles theta1 and theta2 forming a complementary pair.",
+      "Diagram showing two adjacent angles theta1 and theta2 forming a supplementary pair."
+    ],
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 238
+  },
+  {
+    "id": "math-la-001",
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "topic": "Bisector of an Angle",
+    "text": "<p>A ray which divides the angle into two equal parts, is called the <strong>bisector of an angle</strong>.</p><p>If a ray OS is the bisector of ∠POQ, then ∠POS = ∠QOS.</p><ul><li>∠POS = ∠QOS = 1/2 ∠POQ</li></ul>",
+    "formulas": [
+      "∠POS = ∠QOS = 1/2 ∠POQ"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram showing an angle ∠POQ with a ray OS bisecting it into two equal angles."
+    ],
+    "details": {
+      "summary": "Definition and property of an angle bisector."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 239
+  },
+  {
+    "id": "math-la-002",
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "topic": "Adjacent Angles",
+    "text": "<p>Two angles are said to be adjacent, if:</p><ul><li>(i) they have a common vertex.</li><li>(ii) they have a common arm.</li><li>(iii) their non-common arms are on either side of the common arm.</li></ul><p>Here, ∠POQ and ∠ROQ are adjacent angles.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram showing two adjacent angles ∠POQ and ∠ROQ sharing a common vertex O and a common arm OQ."
+    ],
+    "details": {
+      "summary": "Conditions for two angles to be adjacent."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 239
+  },
+  {
+    "id": "math-la-003",
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "topic": "Linear Pairs of Angles",
+    "text": "<p>If the non-common arms of two adjacent angles form a line, then these angles are called <strong>linear pair of angles</strong>.</p><p>∠ROP and ∠ROQ form a linear pair of angles.</p><p>∴ ∠POQ = ∠ROP + ∠ROQ = 180°</p>",
+    "formulas": [
+      "∠POQ = ∠ROP + ∠ROQ = 180°"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram showing a straight line PQ with a ray OR originating from point O on the line, forming two adjacent angles."
+    ],
+    "details": {
+      "summary": "Definition of linear pair of angles."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 239
+  },
+  {
+    "id": "math-la-004",
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "topic": "Vertically Opposite Angles",
+    "text": "<p>Two angles are called a pair of vertically opposite angles, if their arms form two pairs of opposite rays.</p><p>If two lines PQ and RS intersect at a point O, then the pair of ∠POR and ∠QOS or pair of ∠POS and ∠ROQ is said to be a pair of vertically opposite angles.</p><ul><li>Vertically opposite angles are always equal i.e. ∠POS = ∠ROQ and ∠POR = ∠SOQ.</li><li>Sum of the angles around a point is 360°.</li></ul>",
+    "formulas": [
+      "∠POS = ∠ROQ",
+      "∠POR = ∠SOQ"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram showing two intersecting lines PQ and RS at point O, creating two pairs of vertically opposite angles."
+    ],
+    "details": {
+      "summary": "Definition and properties of vertically opposite angles."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 239
+  },
+  {
+    "id": "geo-angles-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Lines and Angles",
+    "text": "<p><strong>1. Corresponding angles:</strong> Corresponding angle pairs are ∠1 and ∠5, ∠2 and ∠6, ∠4 and ∠8, ∠3 and ∠7 and all the corresponding pair are equal. i.e., ∠1 = ∠5, ∠2 = ∠6, ∠4 = ∠8 and ∠3 = ∠7.</p><p><strong>2. Vertically opposite angles:</strong> Vertically opposite angles pairs are ∠1 and ∠3, ∠4 and ∠2, ∠8 and ∠6, ∠5 and ∠7 and all vertically opposite angles are equal. i.e., ∠1 = ∠3, ∠4 = ∠2, ∠8 = ∠6 and ∠5 = ∠7.</p><p><strong>3. Alternate angles:</strong> Alternate angles pairs are ∠3 and ∠5, ∠4 and ∠6 and they are equal. i.e., ∠3 = ∠5 and ∠4 = ∠6.</p><ul><li>The sum of interior angles on the same side of transversal is equal to 180°. i.e., ∠3 + ∠6 = 180° and ∠4 + ∠5 = 180°.</li><li>The sum of exterior angles on the same side of transversal is equal to 180°. i.e., ∠2 + ∠7 = 180° and ∠1 + ∠8 = 180°.</li></ul>",
+    "formulas": [
+      "∠1 = ∠5, ∠2 = ∠6, ∠4 = ∠8, ∠3 = ∠7",
+      "∠1 = ∠3, ∠4 = ∠2, ∠8 = ∠6, ∠5 = ∠7",
+      "∠3 = ∠5, ∠4 = ∠6",
+      "∠3 + ∠6 = 180°, ∠4 + ∠5 = 180°",
+      "∠2 + ∠7 = 180°, ∠1 + ∠8 = 180°"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a transversal line intersecting two parallel lines PQ and RS, with a triangle formed by an additional line segment, illustrating alternate angles and straight line properties.",
+      "Diagram showing two parallel lines m and n intersected by a transversal, labeled with angles 1 through 8.",
+      "Diagram showing a straight line PQ with a ray OR originating from point O, forming angles a and b."
+    ],
+    "details": {
+      "summary": "Definitions and properties of corresponding, vertically opposite, and alternate angles, including interior and exterior angle sums for transversals."
+    },
+    "mcq": {
+      "question": "In the given figure, PQ || RS. The value of x is",
+      "options": [
+        "50°",
+        "80°",
+        "75°",
+        "65°"
+      ],
+      "correct": 0,
+      "explanation": "Draw AB || PQ. ∠ATP = ∠TPQ = 50° (alternate angles). ∠BTR + ∠TRS = 180° (angles on same side of transversal). ∠BTR = 80°. ∠ATP + x + ∠BTR = 180° (ATB is a straight line). x = 180° - (50° + 80°) = 50°."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 240
+  },
+  {
+    "id": "math-la-001",
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "topic": "Parallel Lines and Angles",
+    "text": "<p><strong>Case II:</strong> When both pairs of arms are parallel in opposite sense. Here, ∠ABC = ∠DEF.</p><p><strong>Case III:</strong> When one pair of arms is parallel in same direction and other pairs are parallel in opposite direction. Here, ∠ABC + ∠DEF = 180°. So, the two angles are not equal but supplementary.</p>",
+    "formulas": [
+      "∠ABC = ∠DEF",
+      "∠ABC + ∠DEF = 180°"
+    ],
+    "image_descriptions": [
+      "Diagram for Case II showing two parallel lines intersected by a transversal where arms are parallel in opposite sense.",
+      "Diagram for Case III showing two parallel lines intersected by a transversal where arms are parallel in opposite direction."
+    ],
+    "details": {
+      "summary": "Properties of angles formed by parallel lines and transversals."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 247
+  },
+  {
+    "id": "triangles-001",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Definition and Properties of a Triangle",
+    "text": "<p>A plane (closed) figure bounded by three line segments is called a triangle. It is denoted by Δ.</p><p>ΔABC has:</p><ul><li>three vertices, namely A, B and C.</li><li>three sides, namely AB, BC and CA.</li><li>three angles, namely ∠A, ∠B and ∠C.</li><li>Sum of three angles of a triangle is 180°. i.e., ∠A + ∠B + ∠C = 180°</li><li>Area of a triangle = 1/2 × base × height = 1/2 × BC × AD</li></ul>",
+    "formulas": [
+      "∠A + ∠B + ∠C = 180°",
+      "Area = 1/2 * base * height"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A triangle ABC with a line segment AD perpendicular to the base BC, where D lies on BC."
+    ],
+    "details": {
+      "summary": "Basic definition, components, angle sum property, and area formula for a triangle."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 248
+  },
+  {
+    "id": "triangles-002",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Classification of Triangle on the Basis of Angles",
+    "text": "<p><strong>1. On the Basis of Angles</strong></p><ul><li><strong>(i) Right Angled Triangle:</strong> A triangle in which one of the angle measures 90° is called a right angled triangle. The side opposite to the right angle is called its hypotenuse and the remaining two sides are called as perpendicular and base depending upon conditions. Here, ΔABC is a right angled triangle in which ∠B = 90° and AC is hypotenuse.</li><li><strong>(ii) Acute Angled Triangle:</strong> A triangle in which every angle measure more than 0° but less than 90° is called an acute angled triangle. Here, ΔABC is an acute angled triangle.</li><li><strong>(iii) Obtuse Angled Triangle:</strong> A triangle in which one of the angle measures more than 90° but less than 180° is called an obtuse angled triangle. Here, ΔABC is an obtuse angled triangle and ∠ABC is the obtuse angle.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram 1: A right-angled triangle ABC with ∠B=90°, showing sides labeled Perpendicular, Base, and Hypotenuse.",
+      "Diagram 2: An acute-angled triangle ABC where all angles are less than 90°.",
+      "Diagram 3: An obtuse-angled triangle ABC where ∠ABC is greater than 90°."
+    ],
+    "details": {
+      "summary": "Classification of triangles based on their internal angles into Right, Acute, and Obtuse categories."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 248
+  },
+  {
+    "id": "math-triangles-001",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Classification of Triangles on the Basis of Sides",
+    "text": "<p>Triangles are classified based on their sides:</p><ul><li><strong>Equilateral Triangle:</strong> A triangle having all sides equal. In triangle ABC, AB = BC = AC. All angles are equal and measure 60 degrees.</li><li><strong>Isosceles Triangle:</strong> A triangle in which two sides are equal. In triangle ABC, AB = AC. The angles opposite to equal sides are equal, i.e., angle B = angle C.</li><li><strong>Scalene Triangle:</strong> A triangle in which all sides are of different lengths. In triangle ABC, AB != BC != AC.</li></ul><p><strong>Note:</strong> The sum of the lengths of three sides of a triangle is called its perimeter. Perimeter of triangle ABC = AB + BC + AC.</p>",
+    "formulas": [
+      "Perimeter = AB + BC + AC"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of an equilateral triangle with tick marks on all three sides indicating equality.",
+      "Diagram of an isosceles triangle with tick marks on two sides indicating equality.",
+      "Diagram of a scalene triangle with no markings, indicating unequal sides."
+    ],
+    "details": {
+      "summary": "Classification of triangles based on side lengths: Equilateral, Isosceles, and Scalene."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 249
+  },
+  {
+    "id": "math-triangles-002",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Centroid, Incentre, and Circumcentre",
+    "text": "<p><strong>Centroid:</strong> A line segment joining the mid-point of a side to the opposite vertex is called a median. Medians are concurrent. The point of intersection is the centroid (G). Centroid divides the median in the ratio 2:1. A median bisects the area of the triangle, i.e., Ar(ABD) = Ar(ADC) = 1/2 Ar(ABC).</p><p><strong>Incentre:</strong> The point of intersection of all three angle bisectors is the incentre (I). The circle with centre I touching all sides is the incircle. Inradius (r) = 1/3 * Height = Side / (2 * sqrt(3)).</p><p><strong>Circumcentre:</strong> The point of intersection of perpendicular bisectors of the sides is the circumcentre (C). The circle passing through vertices A, B, and C is the circumcircle. Circumradius (R) = 2/3 * Height = Side / sqrt(3).</p>",
+    "formulas": [
+      "Ar(ABD) = Ar(ADC) = 1/2 Ar(ABC)",
+      "Inradius = 1/3 * Height = Side / (2 * sqrt(3))",
+      "Circumradius = 2/3 * Height = Side / sqrt(3)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing medians intersecting at centroid G.",
+      "Diagram showing angle bisectors intersecting at incentre I with an inscribed circle.",
+      "Diagram showing perpendicular bisectors intersecting at circumcentre C with a circumscribed circle."
+    ],
+    "details": {
+      "summary": "Definitions and properties of triangle centers: Centroid, Incentre, and Circumcentre."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 249
+  },
+  {
+    "id": "math-triangles-003",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Altitudes and Orthocentre",
+    "text": "<p>The altitude of a triangle is a line segment perpendicular drawn from a vertex to the side opposite to it. The side on which the perpendicular is drawn is the base. Altitudes are concurrent. The point of intersection of all three altitudes is the orthocentre (H).</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing altitudes AD, BE, and CF intersecting at orthocentre H."
+    ],
+    "details": {
+      "summary": "Definition of altitudes and the orthocentre of a triangle."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 249
+  },
+  {
+    "id": "CDS_PATH_250_TRIANGLE_PROPS",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Properties of Triangles",
+    "text": "<p><strong>Some Important Results of a Triangle:</strong></p><ul><li>If two angles of a triangle are equal, then the sides opposite to them are also equal.</li><li>In a triangle, the side opposite to a greater angle is the longest side.</li><li>The sum of all the three interior angles of a triangle is 180°.</li><li>If a side of a triangle is produced, then the exterior angle so formed is equal to the sum of the two interior opposite angles.</li><li>An exterior angle of a triangle is greater than either of the interior opposite angles.</li><li>A triangle must have atleast two acute angles.</li><li>If a perpendicular is drawn from the vertex of a right angled triangle to the hypotenuse, then the triangles on both sides of the perpendicular are similar to the original triangle and also to each other.</li><li>In a right angle triangle ABC, angle B = 90° and AC is hypotenuse. The perpendicular BD is dropped on hypotenuse AC from right angle vertex B, then: (i) BD = (AB * BC) / AC, (ii) AD = AB^2 / AC, (iii) CD = BC^2 / AC, (iv) 1/BD^2 = 1/AB^2 + 1/BC^2.</li><li>The area of the equilateral triangle described on the side of a square is half the area of the equilateral triangle described on its diagonal.</li><li>In triangle ABC, if angle B > 90° and AD is perpendicular dropped on BC, then AC^2 = AB^2 + BC^2 + 2BC * BD.</li><li>In triangle ABC, if angle B < 90° and AD is perpendicular to BC, then AC^2 = AB^2 + BC^2 - 2BC * BD.</li><li>In any triangle, the sum of the squares of any two sides is equal to twice the square of half of the third side together with twice the square of the median which bisect the third side. Here, AD is median, so AB^2 + AC^2 = 2AD^2 + 2(1/2 BC)^2.</li><li>In a triangle ABC, three times the sum of the squares of the sides of a triangle is equal to four times the sum of the squares of the medians of the triangle. So, in triangle, if AD, BE, FC are the medians, then 3(AB^2 + BC^2 + AC^2) = 4(AD^2 + BE^2 + CF^2).</li><li>In an equilateral triangle ABC, the side BC is trisected at D. Then, 9 AD^2 = 7 AC^2.</li><li>When the bisector of one internal base angle and the bisector of external angle meet at a point then the formed angle is equal to one half of the vertical angle. Here, angle BEC = 1/2 angle BAC.</li></ul>",
+    "formulas": [
+      "BD = (AB * BC) / AC",
+      "AD = AB^2 / AC",
+      "CD = BC^2 / AC",
+      "1/BD^2 = 1/AB^2 + 1/BC^2",
+      "AC^2 = AB^2 + BC^2 + 2BC * BD",
+      "AC^2 = AB^2 + BC^2 - 2BC * BD",
+      "AB^2 + AC^2 = 2AD^2 + 2(1/2 BC)^2",
+      "3(AB^2 + BC^2 + AC^2) = 4(AD^2 + BE^2 + CF^2)",
+      "9 AD^2 = 7 AC^2",
+      "angle BEC = 1/2 angle BAC"
+    ],
+    "image_descriptions": [
+      "Diagram showing a triangle ABC with an external line segment AX and a line segment HK intersecting the triangle, used to calculate angles.",
+      "Diagram showing a right-angled triangle ABC with a perpendicular BD dropped from B to hypotenuse AC.",
+      "Diagram showing an obtuse-angled triangle ABC with a perpendicular AD dropped to the extension of BC.",
+      "Diagram showing an acute-angled triangle ABC with a perpendicular AD dropped to BC.",
+      "Diagram showing a triangle ABC with a median AD.",
+      "Diagram showing a triangle ABC with three medians AD, BE, and CF intersecting at a centroid.",
+      "Diagram showing an equilateral triangle ABC with a bisector of an internal angle and an external angle meeting at point E."
+    ],
+    "details": {
+      "summary": "Collection of geometric properties and theorems related to triangles, including right-angled triangle relations, median properties, and angle bisector theorems."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 250
+  },
+  {
+    "id": "math-triangles-251-001",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Properties of Triangles",
+    "text": "<ul><li>The side BC of triangle ABC is produced to D. The bisector of angle A meets BC in L. Then angle ABC + angle ACD = 2 angle ALC.</li><li>In a triangle ABC, the bisector of angle B and angle C intersect each other at a point O. Then, angle BOC = 90 degrees + 1/2 angle A.</li><li>In a triangle ABC, the side AB and AC are produced to P and Q, respectively. The bisectors of angle PBC and angle QCB intersect at a point O. Then, angle BOC = 90 degrees - 1/2 angle A.</li><li>In a triangle ABC, angle B > angle C. If AN is the bisector of angle BAC and AM is perpendicular to BC, then angle MAN = 1/2 (angle B - angle C).</li><li>The bisectors of the base angles of a triangle can never enclose a right angle.</li><li>A triangle is an isosceles if and only if any two altitudes are equal.</li><li>If the three sides of a triangle be produced in order, then the sum of all the exterior angles so formed is 360 degrees. So, angle DAB + angle EBC + angle ACF = 360 degrees.</li><li>Sum of any two sides of a triangle is greater than its third side. Here, in triangle ABC, AB + AC > BC; similarly, AB + BC > AC, BC + AC > AB.</li><li>The difference between any two sides of a triangle is less than its third side. Here, in triangle ABC, AC - AB < BC. Similarly, BC - AC < AB, BC - AB < AC.</li><li>If the bisector of the vertical angle of a triangle bisects the base, then that triangle is an isosceles.</li><li>If the altitude from one vertex of a triangle bisects the opposite side, then the triangle is an isosceles.</li><li>The perpendiculars drawn from the vertices of equal angles of an isosceles triangle to the opposite sides are equal.</li><li>Medians of equilateral triangle are equal.</li><li>If D is the mid-point of the hypotenuse AC of a right angled triangle ABC. Then, BD = 1/2 AC.</li><li>The sum of any two sides of a triangle is greater than twice the median drawn to the third side.</li><li>Perimeter of a triangle is greater than the sum of its three medians. So, AB + BC + AC > AD + BE + CF.</li></ul>",
+    "formulas": [
+      "angle ABC + angle ACD = 2 angle ALC",
+      "angle BOC = 90 + 1/2 angle A",
+      "angle BOC = 90 - 1/2 angle A",
+      "angle MAN = 1/2 (angle B - angle C)",
+      "angle DAB + angle EBC + angle ACF = 360",
+      "AB + AC > BC",
+      "AC - AB < BC",
+      "BD = 1/2 AC",
+      "AB + BC + AC > AD + BE + CF"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing triangle ABC with side BC extended to D, and angle bisector AL.",
+      "Diagram showing triangle ABC with angle bisectors of B and C meeting at O inside the triangle.",
+      "Diagram showing triangle ABC with sides AB and AC extended to P and Q, and external angle bisectors meeting at O.",
+      "Diagram showing triangle ABC with altitude AM and angle bisector AN.",
+      "Diagram showing triangle ABC with all three sides extended to form exterior angles DAB, EBC, and ACF.",
+      "Diagram showing triangle ABC with side BC extended to D to illustrate triangle inequality.",
+      "Diagram showing triangle ABC with side BC extended to D to illustrate triangle difference inequality.",
+      "Diagram showing a right-angled triangle ABC with D as the midpoint of hypotenuse AC.",
+      "Diagram showing triangle ABC with medians AD, BE, and CF intersecting at a point."
+    ],
+    "details": {
+      "summary": "This page covers various geometric properties, theorems, and inequalities related to triangles, including angle bisectors, medians, altitudes, and side relationships."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 251
+  },
+  {
+    "id": "CDS_PATH_252_001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Congruence of Triangles",
+    "text": "<p><strong>Congruent Figures:</strong> The geometrical figures having the same shape and size are known as congruent figures. e.g. Two circles of the same radii and two squares of the same sides are congruent.</p><p><strong>Congruent Triangles:</strong> Two triangles are said to be congruent, if both are exactly of same size i.e. all angles and sides are equal to corresponding angles and sides of other.</p><ul><li>Every triangle is congruent to itself: ΔABC ≅ ΔABC</li><li>If ΔABC ≅ ΔDEF, then ΔDEF ≅ ΔABC</li><li>If ΔABC ≅ ΔDEF and ΔDEF ≅ ΔPQR, then ΔABC ≅ ΔPQR</li></ul><p>In congruent triangles, corresponding parts are equal and we write in short ‘CPCT’, i.e. corresponding part of congruent triangles.</p><p><strong>Criteria for Congruence of Triangles:</strong></p><ul><li><strong>Theorem 1 (SAS criteria):</strong> Two triangles are congruent if two sides and the included angle of one triangle are equal to the corresponding sides and the included angle of other triangle.</li><li><strong>Theorem 2 (ASA criteria):</strong> Two triangles are congruent if two angles and the included side of one triangle are equal to the corresponding two angles and the included side of the other triangles.</li><li><strong>Theorem 3 (SSS criteria):</strong> Two triangles are congruent if three sides of one triangle are equal to the corresponding three sides of the other triangle.</li><li><strong>Theorem 4 (RHS criteria):</strong> Two triangles are congruent if the hypotenuse and other side of one triangle are equal to the hypotenuse and the corresponding side of the other triangle.</li><li><strong>Theorem 5 (AAS criteria):</strong> Two triangles are congruent if two angles and a side other than the included side of one triangle are equal to the corresponding two angles and a side other than the included side of other triangle.</li></ul>",
+    "formulas": [
+      "∠BIC = 90° + 1/2 ∠A",
+      "AB = sqrt(AD^2 + BD^2)",
+      "BD = AB^2 / BC",
+      "AB^2 = BD * BC"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of triangle ABC with incentre I, showing angle BIC = 108 degrees.",
+      "Right-angled triangle ABC with altitude AD drawn to hypotenuse BC, with lengths AD=6 and BD=4.",
+      "Triangle ABC with altitudes BD and CE intersecting at a point, showing angles.",
+      "Triangle ABC with midpoint D on BC, and perpendiculars DE to AB and DF to AC."
+    ],
+    "details": {
+      "summary": "Covers definitions of congruent figures and triangles, properties of congruence, and the five main criteria (SAS, ASA, SSS, RHS, AAS) for triangle congruence."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 252
+  },
+  {
+    "id": "math-triangles-001",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Similar Figures and Triangles",
+    "text": "<p><strong>Similar Figures:</strong> The geometrical figures having the same shape, but different sizes are known as similar figures. The congruent figures are always similar, but two similar figures need not be congruent. e.g., Any two circles are similar. Any two rectangles are similar.</p><p><strong>Similar Triangles:</strong> Two triangles are said to be similar to each other, if (i) their corresponding sides are proportional, (ii) their corresponding angles are equal. If triangle ABC ~ triangle PQR, then angle A = angle P, angle B = angle Q, angle C = angle R and AB/PQ = BC/QR = AC/PR.</p>",
+    "formulas": [
+      "AB/PQ = BC/QR = AC/PR"
+    ],
+    "image_descriptions": [
+      "Diagram showing two triangles ABC and PQR with corresponding angles marked equal."
+    ],
+    "details": {
+      "summary": "Definitions and conditions for similarity in geometric figures and triangles."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 253
+  },
+  {
+    "id": "math-triangles-002",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Results on Similar Triangles",
+    "text": "<p><strong>Theorem 1 (Basic Proportionality Theorem):</strong> If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then it divides these sides in the same ratio. If DE || BC, then AD/DB = AE/EC.</p><p><strong>Theorem 2:</strong> The internal bisector of an angle of a triangle divides the opposite sides internally in the ratio of the sides containing the angle. If AD is internal bisector of angle A, then AB/AC = BD/DC.</p><p><strong>Theorem 3:</strong> The line joining the mid-points of any two sides of a triangle is parallel to the third side and is half of the third side. PQ = 1/2 BC.</p><p><strong>Theorem 4:</strong> If two triangles are equiangular, then the ratio of their corresponding sides is the same as the ratio of the corresponding altitudes. BC/QR = AD/PS.</p><p><strong>Theorem 5:</strong> If two triangles are equiangular, then the ratio of their corresponding sides is the same as the ratio of the corresponding angle bisector segments. BC/ST = AD/RP.</p><p><strong>Theorem 6:</strong> If two triangles are equiangular, then the ratio of their corresponding sides is the same as the ratio of the corresponding medians. BC/QR = AD/PS.</p><p><strong>Note:</strong> If two triangles are similar, then ratio of their corresponding sides is same as ratio of their perimeters.</p>",
+    "formulas": [
+      "AD/DB = AE/EC",
+      "AB/AC = BD/DC",
+      "PQ = 1/2 BC",
+      "BC/QR = AD/PS",
+      "BC/ST = AD/RP"
+    ],
+    "image_descriptions": [
+      "Diagrams for Theorem 1 (triangle with parallel line DE), Theorem 2 (angle bisector AD), Theorem 3 (mid-points P and Q), Theorem 4 (altitudes AD and PS), Theorem 5 (angle bisectors AD and RP), and Theorem 6 (medians AD and PS)."
+    ],
+    "details": {
+      "summary": "Collection of fundamental theorems regarding similar triangles and proportionality."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 253
+  },
+  {
+    "id": "CDS-PATH-254-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Criteria for Similarity of Two Triangles",
+    "text": "<p><strong>Criteria for Similarity of Two Triangles:</strong></p><ul><li><strong>AAA similarity:</strong> If the corresponding angles of two triangles are equal then their corresponding sides are proportional and hence the two triangles are similar.</li><li><strong>Corollary AA similarity:</strong> If two angles of one triangle are equal to the corresponding two angles of another triangle, then the two triangles are similar.</li><li><strong>SSS similarity:</strong> If the corresponding sides of two triangles are proportional, then their corresponding angles are equal, and hence the two triangles are similar.</li><li><strong>SAS similarity:</strong> If one angle of a triangle is equal to the corresponding angle of the other triangle and the sides including these angles are proportional, then the two triangles are similar.</li><li><strong>RHS similarity:</strong> If hypotenuse and one side of a right triangle are proportional to the hypotenuse and corresponding side of other right triangle then the two triangles are similar.</li></ul>",
+    "formulas": [
+      "AAA similarity",
+      "AA similarity",
+      "SSS similarity",
+      "SAS similarity",
+      "RHS similarity"
+    ],
+    "image_descriptions": [
+      "Diagram showing a triangle ABC with a line segment PQ inside, where AB || PQ. The segments are labeled with lengths x, a, c, b."
+    ],
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 254
+  },
+  {
+    "id": "CDS-PATH-254-002",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Areas of Similar Triangles",
+    "text": "<p><strong>Theorem 1:</strong> The ratio of areas of two similar triangles is equal to the square of the ratio of their corresponding sides. If triangle ABC ~ triangle PQR, then Area(ABC)/Area(PQR) = AB^2/PQ^2 = BC^2/QR^2 = AC^2/PR^2.</p><p><strong>Theorem 2:</strong> The areas of two similar triangles is equal to the ratio of the squares of corresponding altitudes. If triangle ABC ~ triangle PQR, then Area(ABC)/Area(PQR) = AD^2/PS^2.</p><p><strong>Theorem 3:</strong> The areas of two similar triangles is equal to the ratio of the squares of the corresponding medians. If triangle ABC ~ triangle PQR, then Area(ABC)/Area(PQR) = AD^2/PS^2.</p>",
+    "formulas": [
+      "Area(ABC)/Area(PQR) = AB^2/PQ^2 = BC^2/QR^2 = AC^2/PR^2",
+      "Area(ABC)/Area(PQR) = AD^2/PS^2"
+    ],
+    "image_descriptions": [
+      "Diagram showing two similar triangles ABC and PQR.",
+      "Diagram showing two similar triangles ABC and PQR with altitudes AD and PS.",
+      "Diagram showing two similar triangles ABC and PQR with medians AD and PS."
+    ],
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 254
+  },
+  {
+    "id": "math-triangles-001",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Theorems on Similar Triangles",
+    "text": "<p><strong>Theorem 4:</strong> The areas of two similar triangles is equal to the ratio of squares of the corresponding angle bisector segments.</p><p><strong>Theorem 5:</strong> If the areas of two similar triangles are equal, then the triangles are congruent. Equal and similar triangles are congruent.</p><p><strong>Theorem 6:</strong> The line segments joining the mid-points of the sides of a triangle form four triangles, each of which is similar to the original triangle. If D, E, and F are mid-points of BC, AC, and AB respectively, then triangle AFE, FBD, EDC, and DEF are similar to triangle ABC.</p>",
+    "formulas": [
+      "Area(ABC) / Area(PQR) = AX^2 / PY^2",
+      "Area(DEF) / Area(ABC) = DE^2 / AB^2 = (1/2 * AB)^2 / AB^2 = 1/4"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing two similar triangles ABC and PQR with angle bisectors AX and PY respectively.",
+      "Diagram of triangle ABC with mid-points D, E, F on sides BC, AC, AB respectively, forming four smaller triangles inside."
+    ],
+    "details": {
+      "summary": "Covers theorems regarding the area ratios of similar triangles and properties of mid-point triangles."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 255
+  },
+  {
+    "id": "math-triangles-002",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Pythagoras Theorem",
+    "text": "<p>In a right angled triangle, the square of the hypotenuse is equal to the sum of the square of the other two sides.</p>",
+    "formulas": [
+      "AB^2 + BC^2 = AC^2 (where angle B = 90 degrees)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Right-angled triangle ABC with the right angle at B."
+    ],
+    "details": {
+      "summary": "Definition and formula for the Pythagoras Theorem."
+    },
+    "source_pdf": "pathfinder_mathematics.pdf",
+    "source_page": 255
   }
 ]
