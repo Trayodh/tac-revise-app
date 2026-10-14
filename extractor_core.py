@@ -193,58 +193,63 @@ def extract_content(b64_img, page_text, prompt):
     print("Gemini models exhausted. Trying Groq fallback with text...")
     groq_key = os.environ.get("GROQ_API_KEY")
     if groq_key and page_text and len(page_text.strip()) > 30:
-        groq_models = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"]
-        safe_page_text = page_text[:12000]
+        groq_models = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
+        safe_page_text = page_text[:8000]
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"}
         
         for g_model in groq_models:
             print(f"Attempting Groq model: {g_model}...")
-            try:
-                data = {
-                    "model": g_model,
-                    "messages": [{"role": "user", "content": prompt + "\n\nTEXT CONTENT OF PAGE:\n" + safe_page_text}],
-                    "temperature": 0.1,
-                    "max_tokens": 8000,
-                    "response_format": {"type": "json_object"}
-                }
-                response = requests.post(url, headers=headers, json=data, timeout=60)
-                if response.status_code == 200:
-                    res_json = response.json()
-                    raw_text = res_json["choices"][0]["message"]["content"].strip()
-                    
-                    if raw_text.startswith('```json'):
-                        raw_text = raw_text[7:]
-                    if raw_text.startswith('```'):
-                        raw_text = raw_text[3:]
-                    if raw_text.endswith('```'):
-                        raw_text = raw_text[:-3]
-                    raw_text = raw_text.strip()
-                    
-                    try:
-                        return json.loads(raw_text)
-                    except Exception:
-                        for fix in ['"}', ']}', '}', ']']:
-                            try:
-                                return json.loads(raw_text + fix)
-                            except Exception:
-                                pass
-                        # Try truncation to last complete object
-                        last_brace = raw_text.rfind('}')
-                        if last_brace > 0:
-                            try:
-                                return json.loads(raw_text[:last_brace+1] + ']}')
-                            except Exception:
+            for attempt in range(2):
+                try:
+                    data = {
+                        "model": g_model,
+                        "messages": [{"role": "user", "content": prompt + "\n\nTEXT CONTENT OF PAGE:\n" + safe_page_text}],
+                        "temperature": 0.1,
+                        "max_tokens": 3500,
+                        "response_format": {"type": "json_object"}
+                    }
+                    response = requests.post(url, headers=headers, json=data, timeout=60)
+                    if response.status_code == 200:
+                        res_json = response.json()
+                        raw_text = res_json["choices"][0]["message"]["content"].strip()
+                        
+                        if raw_text.startswith('```json'):
+                            raw_text = raw_text[7:]
+                        if raw_text.startswith('```'):
+                            raw_text = raw_text[3:]
+                        if raw_text.endswith('```'):
+                            raw_text = raw_text[:-3]
+                        raw_text = raw_text.strip()
+                        
+                        try:
+                            return json.loads(raw_text)
+                        except Exception:
+                            for fix in ['"}', ']}', '}', ']']:
                                 try:
-                                    return json.loads(raw_text[:last_brace+1])
+                                    return json.loads(raw_text + fix)
                                 except Exception:
                                     pass
-                        raise
-                else:
-                    print(f"Groq {g_model} failed with code {response.status_code}: {response.text[:120]}")
-            except Exception as e:
-                print(f"Groq {g_model} error: {e}")
-                continue
+                            last_brace = raw_text.rfind('}')
+                            if last_brace > 0:
+                                try:
+                                    return json.loads(raw_text[:last_brace+1] + ']}')
+                                except Exception:
+                                    try:
+                                        return json.loads(raw_text[:last_brace+1])
+                                    except Exception:
+                                        pass
+                            raise
+                    elif response.status_code == 429 and attempt == 0:
+                        print(f"Groq {g_model} hit rate limit. Waiting 10s before retry...")
+                        time.sleep(10)
+                        continue
+                    else:
+                        print(f"Groq {g_model} failed with code {response.status_code}: {response.text[:120]}")
+                        break
+                except Exception as e:
+                    print(f"Groq {g_model} error: {e}")
+                    break
 
     print("Groq exhausted. Trying OpenRouter fallback with text...")
     or_key = os.environ.get("OPENROUTER_API_KEY")
