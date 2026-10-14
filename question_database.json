@@ -177718,5 +177718,80 @@
     "topic": "Citizenship Rights",
     "source_pdf": "pathfinder_studies.pdf",
     "source_page": 202
+  },
+  {
+    "question_text": "Cases where a person or institution approaches the court for the basic needs of life, exploitation, environment, child labour, exploitation of women, etc., are known as:",
+    "options": {
+      "A": "Public Interest Litigation",
+      "B": "Private Petition",
+      "C": "Criminal Appeal",
+      "D": "Civil Suit"
+    },
+    "correct_answer": "A",
+    "explanation": "Such cases fall under Public Interest Litigation (PIL), a mechanism that allows any public‑spirited individual or organization to seek judicial intervention for matters affecting the public at large, as explained in the text and the *S.P. Gupta vs. Union of India* case.",
+    "subject": "Polity",
+    "chapter": "Judiciary",
+    "topic": "Public Interest Litigation",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 218
+  },
+  {
+    "question_text": "Which list contains subjects like defence, foreign affairs, and atomic energy?",
+    "options": {
+      "A": "Union List",
+      "B": "State List",
+      "C": "Concurrent List",
+      "D": "Residual Powers"
+    },
+    "correct_answer": "A",
+    "explanation": "The Union List contains 100 subjects such as defence, foreign affairs, and atomic energy, and Parliament has exclusive power to legislate on them.",
+    "subject": "CDS Pathfinder",
+    "chapter": "Legislative Relations",
+    "topic": "Union List",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 224
+  },
+  {
+    "question_text": "Under which Articles can the Union Government issue directives to states?",
+    "options": {
+      "A": "Article 246",
+      "B": "Article 256 & 257",
+      "C": "Article 262",
+      "D": "Article 300"
+    },
+    "correct_answer": "B",
+    "explanation": "Articles 256 and 257 empower the Union to issue directives to states and prevent them from impeding Union executive powers.",
+    "subject": "CDS Pathfinder",
+    "chapter": "Administrative Relations",
+    "topic": "Compliance with Parliament Laws",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 224
+  },
+  {
+    "question_text": "Which of the following authorities recommends the principles governing the grant-in-aid of revenues to states out of the Consolidated Fund of India?",
+    "options": {
+      "A": "Finance Commission",
+      "B": "Planning Commission",
+      "C": "Union Ministry of Finance",
+      "D": "Inter-State Council"
+    },
+    "correct_answer": "A",
+    "explanation": "The Finance Commission, a constitutional body, advises the President on the distribution of taxes between the Centre and the States and recommends principles for grant‑in‑aid.",
+    "subject": "Polity",
+    "chapter": "Finance",
+    "topic": "Grant‑in‑aid",
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 230
+  },
+  {
+    "question_text": "The Parliament can legislate on any subject in the State List.\n1. If, the Rajya Sabha declares by a 2/3rd majority resolution that it is expedient to do so in national interest.\n2. For the implementation of international treaties.\n3. If, two or more states make a request to Parliament to do so.\n4. When Article 356 is imposed in the state.\nWhich of the statements given above are correct?",
+    "options": {
+      "A": "1, 2 and 3",
+      "B": "1, 3 and 4",
+      "C": "1, 2 and 4",
+      "D": "All of these"
+    },
+    "source_pdf": "pathfinder_studies.pdf",
+    "source_page": 230
   }
 ]

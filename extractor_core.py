@@ -216,20 +216,22 @@ def extract_content(b64_img, page_text, prompt):
                         "model": g_model,
                         "messages": [{"role": "user", "content": fallback_prompt}],
                         "temperature": 0.1,
-                        "max_tokens": 2500,
-                        "response_format": {"type": "json_object"}
+                        "max_tokens": 2500
                     }
                     response = requests.post(url, headers=headers, json=data, timeout=60)
                     if response.status_code == 200:
                         res_json = response.json()
                         raw_text = res_json["choices"][0]["message"]["content"].strip()
                         
-                        if raw_text.startswith('```json'):
-                            raw_text = raw_text[7:]
-                        if raw_text.startswith('```'):
-                            raw_text = raw_text[3:]
-                        if raw_text.endswith('```'):
-                            raw_text = raw_text[:-3]
+                        if '```json' in raw_text:
+                            raw_text = raw_text.split('```json')[1].split('```')[0].strip()
+                        elif '```' in raw_text:
+                            raw_text = raw_text.split('```')[1].split('```')[0].strip()
+                        elif '{' in raw_text:
+                            s_idx = raw_text.find('{')
+                            e_idx = raw_text.rfind('}')
+                            if e_idx > s_idx:
+                                raw_text = raw_text[s_idx:e_idx+1]
                         raw_text = raw_text.strip()
                         
                         try:
