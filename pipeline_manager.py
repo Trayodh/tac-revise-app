@@ -1,6 +1,13 @@
 import os
+import sys
 import json
 import time
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
 from extractor_core import extract_page
 import generate_frontend_notes
 
@@ -180,7 +187,7 @@ def run_pipeline():
                 
             if len(state[pdf_name]['extracted_pages']) >= state[pdf_name]['total_pages']:
                 state[pdf_name]['status'] = 'completed'
-                print(f"\n🎉 [BOOK COMPLETED] 100% finished extracting {pdf_name}!")
+                print(f"\n*** [BOOK COMPLETED] 100% finished extracting {pdf_name}! ***")
                 
             save_state(state)
             print(f"Successfully processed {pdf_name} page {page_num}. Added {len(notes)} notes and {len(questions)} questions.")
