@@ -6115,7 +6115,7 @@ window.CURRENT_AFFAIRS_DB = {
     }
   ],
   "September 2026": [
-{
+    {
       "id": "ca-september-2026-001",
       "topic": "🔴 MUST KNOW | International Relations | Bilateral Visits",
       "text": "Defence Minister Rajnath Singh's Visit to Sri Lanka in September 2026 to review and enhance existing defence cooperation.",
@@ -6151,7 +6151,7 @@ window.CURRENT_AFFAIRS_DB = {
       }
     },
     {
-      "id": "sept-2026-001-update",
+      "id": "sept-2026-001",
       "topic": "National Affairs",
       "text": "The **Make in India** initiative celebrated its 12th Anniversary on September 25, 2026, marking significant growth in electronics, automobiles, and defence manufacturing sectors.",
       "details": {
@@ -6429,290 +6429,10 @@ window.CURRENT_AFFAIRS_DB = {
         "Indigenous Dilution Refrigerator"
       ],
       "strategicImportance": "Crucial step toward achieving self-reliance in cutting-edge quantum technologies."
-    },
-{
-    "id": "sept-2026-001",
-    "topic": "National Affairs",
-    "text": "The **Make in India** initiative celebrated its 12th Anniversary on September 25, 2026, marking significant growth in electronics, automobiles, and defence manufacturing sectors.",
-    "details": {
-      "winner": "Government of India",
-      "award": "12th Anniversary of Make in India",
-      "nationality": "India",
-      "summary": "Make in India initiative completes 12 years since its launch on Sept 25, 2014 by DPIIT."
-    },
-    "mcq": {
-      "question": "Which Ministry's department (DPIIT) is the nodal agency for the 'Make in India' initiative that celebrated its 12th anniversary in Sept 2026?",
-      "options": [
-        "Ministry of Finance",
-        "Ministry of Commerce & Industry",
-        "Ministry of Defence",
-        "Ministry of Home Affairs"
-      ],
-      "correct": 1,
-      "explanation": "DPIIT falls under the Ministry of Commerce & Industry."
-    },
-    "upscHighlights": [
-      "Launched Sept 25, 2014",
-      "Nodal Agency: DPIIT",
-      "Focus on manufacturing"
-    ],
-    "strategicImportance": "Crucial scheme for reducing import dependence."
-  },
-  {
-    "id": "sept-2026-002",
-    "topic": "Defence Procurements",
-    "text": "The Ministry of Defence (MoD) signed a ₹810.79 crore contract with **Bharat Dynamics Limited (BDL)** for the procurement of 160 **Satellite Smart Anti-Airfield Weapons (SAT-SAAW)** for the Indian Air Force.",
-    "details": {
-      "winner": "Bharat Dynamics Limited (BDL)",
-      "award": "SAT-SAAW Contract",
-      "nationality": "India",
-      "summary": "MoD procures 160 SAT-SAAW from BDL to enhance IAF capabilities against enemy airfields."
-    },
-    "mcq": {
-      "question": "Which aerospace company was awarded the ₹810.79 crore contract by the MoD in September 2026 to supply SAT-SAAW?",
-      "options": [
-        "HAL",
-        "BEL",
-        "BDL",
-        "DRDO"
-      ],
-      "correct": 2,
-      "explanation": "The MoD signed the contract with BDL for 160 Satellite Smart Anti-Airfield Weapons."
-    },
-    "upscHighlights": [
-      "SAT-SAAW are precision-guided glide bombs",
-      "Neutralize enemy airfields from stand-off ranges",
-      "Contract with BDL"
-    ],
-    "strategicImportance": "Boosts IAF's precision strike capabilities without crossing borders."
-  },
-  {
-    "id": "sept-2026-003",
-    "topic": "Military Exercises",
-    "text": "The 22nd edition of the India-US joint military exercise **Yudh Abhyas 2026** commenced at the Mahajan Field Firing Range, Rajasthan, featuring a successful demonstration of indigenously assembled **SkyStriker** loitering munitions.",
-    "details": {
-      "winner": "India & USA",
-      "award": "Exercise Yudh Abhyas 2026",
-      "nationality": "India & USA",
-      "summary": "Annual India-US bilateral army exercise held in Rajasthan."
-    },
-    "mcq": {
-      "question": "The bilateral military exercise 'Yudh Abhyas 2026' was conducted between India and which country?",
-      "options": [
-        "UK",
-        "France",
-        "USA",
-        "Japan"
-      ],
-      "correct": 2,
-      "explanation": "The 22nd edition of Yudh Abhyas was held between India and the USA at the Mahajan Field Firing Range."
-    },
-    "upscHighlights": [
-      "22nd Edition",
-      "India & USA",
-      "Location: Mahajan Field Firing Range, Rajasthan"
-    ],
-    "strategicImportance": "Enhances interoperability and counter-terrorism tactical skills."
-  },
-  {
-    "id": "sept-2026-004",
-    "topic": "Military Exercises",
-    "text": "The Indian Air Force hosted **Tarang Shakti 2026**, a massive multinational combat air exercise in Jodhpur, Rajasthan, with participation from around 40 nations.",
-    "details": {
-      "winner": "Indian Air Force (IAF)",
-      "award": "Exercise Tarang Shakti 2026",
-      "nationality": "Multinational",
-      "summary": "IAF hosted the largest multilateral air exercise in Jodhpur to showcase indigenous defence capabilities."
-    },
-    "mcq": {
-      "question": "The multinational combat air exercise 'Tarang Shakti 2026' was hosted at which location in India?",
-      "options": [
-        "Kalaikunda",
-        "Jodhpur",
-        "Gwalior",
-        "Hindon"
-      ],
-      "correct": 1,
-      "explanation": "Tarang Shakti 2026 was conducted by the IAF in Jodhpur, Rajasthan."
-    },
-    "upscHighlights": [
-      "Multilateral Air Exercise",
-      "Hosted by IAF",
-      "Location: Jodhpur, Rajasthan"
-    ],
-    "strategicImportance": "Demonstrates India's diplomatic reach and indigenous platforms like LCA Tejas."
-  },
-  {
-    "id": "sept-2026-005",
-    "topic": "Space Missions",
-    "text": "ISRO successfully launched the **EOS-05** Earth Observation Satellite on September 3, 2026, using the **GSLV Mark II** rocket. It is India's first imaging satellite positioned in a geosynchronous orbit.",
-    "details": {
-      "winner": "ISRO",
-      "award": "Launch of EOS-05",
-      "nationality": "India",
-      "summary": "ISRO launched its first geosynchronous imaging satellite, EOS-05, via GSLV Mk II."
-    },
-    "mcq": {
-      "question": "ISRO launched the EOS-05 satellite in Sept 2026. What launch vehicle was used?",
-      "options": [
-        "PSLV-C56",
-        "GSLV Mark II",
-        "LVM3",
-        "SSLV-D3"
-      ],
-      "correct": 1,
-      "explanation": "EOS-05 was launched using the GSLV Mark II."
-    },
-    "upscHighlights": [
-      "EOS-05",
-      "GSLV Mark II",
-      "Geosynchronous orbit imaging"
-    ],
-    "strategicImportance": "Enhances real-time imaging and disaster management capabilities."
-  },
-  {
-    "id": "sept-2026-006",
-    "topic": "Military Exercises",
-    "text": "Annual bilateral naval exercise **SLINEX-26** between India and Sri Lanka commenced in September 2026, aimed at enhancing interoperability in the Indian Ocean Region.",
-    "details": {
-      "winner": "India & Sri Lanka",
-      "award": "SLINEX-26",
-      "nationality": "India & Sri Lanka",
-      "summary": "Bilateral naval exercise between India and Sri Lanka to secure the IOR."
-    },
-    "mcq": {
-      "question": "SLINEX-26 is a bilateral naval exercise between India and which country?",
-      "options": [
-        "Singapore",
-        "Sri Lanka",
-        "Seychelles",
-        "Saudi Arabia"
-      ],
-      "correct": 1,
-      "explanation": "SLINEX stands for Sri Lanka India Naval Exercise."
-    },
-    "upscHighlights": [
-      "Naval Exercise",
-      "India & Sri Lanka",
-      "Indian Ocean Region focus"
-    ],
-    "strategicImportance": "Ensures maritime security in the strategic Indian Ocean Region."
-  },
-  {
-    "id": "sept-2026-007",
-    "topic": "Space Collaborations",
-    "text": "The **TRISHNA** (Thermal infraRed Imaging Satellite for High-resolution Natural resource Assessment) mission is progressing as a joint Earth observation project between ISRO (India) and CNES (France).",
-    "details": {
-      "winner": "ISRO & CNES",
-      "award": "TRISHNA Mission progress",
-      "nationality": "India & France",
-      "summary": "Indo-French thermal imaging satellite project."
-    },
-    "mcq": {
-      "question": "The TRISHNA mission is a joint Earth observation satellite project between ISRO and the space agency of which country?",
-      "options": [
-        "Russia (Roscosmos)",
-        "Japan (JAXA)",
-        "USA (NASA)",
-        "France (CNES)"
-      ],
-      "correct": 3,
-      "explanation": "TRISHNA is jointly developed with France's CNES."
-    },
-    "upscHighlights": [
-      "Indo-French Mission",
-      "Thermal Infrared Imaging",
-      "Climate monitoring"
-    ],
-    "strategicImportance": "Key for climate change and water resource management."
-  },
-  {
-    "id": "sept-2026-008",
-    "topic": "Economy & Reports",
-    "text": "The **OECD** (Organisation for Economic Co-operation and Development) raised India's GDP growth forecast to **7.1%** for the fiscal year 2026-27.",
-    "details": {
-      "winner": "India's Economy",
-      "award": "7.1% Growth Forecast",
-      "nationality": "OECD",
-      "summary": "OECD upgrades India's FY27 growth to 7.1%."
-    },
-    "mcq": {
-      "question": "Which international organisation raised India's GDP growth forecast for FY 2026-27 to 7.1% in September 2026?",
-      "options": [
-        "IMF",
-        "World Bank",
-        "OECD",
-        "ADB"
-      ],
-      "correct": 2,
-      "explanation": "The OECD raised India's forecast to 7.1%."
-    },
-    "upscHighlights": [
-      "7.1% GDP growth forecast",
-      "FY 2026-27",
-      "By OECD"
-    ],
-    "strategicImportance": "Indicates resilience of the Indian economy amidst global headwinds."
-  },
-  {
-    "id": "sept-2026-009",
-    "topic": "Sports",
-    "text": "At the 20th Asian Games 2026 held in **Aichi-Nagoya, Japan**, the Indian Men's and Women's **Kabaddi** teams both secured Gold medals.",
-    "details": {
-      "winner": "Indian Kabaddi Teams",
-      "award": "Gold Medals at Asian Games 2026",
-      "nationality": "India",
-      "summary": "India dominates Kabaddi at the Aichi-Nagoya Asian Games."
-    },
-    "mcq": {
-      "question": "The 20th Asian Games in 2026, where Indian Kabaddi teams won Gold, were hosted in which city?",
-      "options": [
-        "Hangzhou",
-        "Aichi-Nagoya",
-        "Doha",
-        "Jakarta"
-      ],
-      "correct": 1,
-      "explanation": "The 2026 Asian Games were hosted in Aichi-Nagoya, Japan."
-    },
-    "upscHighlights": [
-      "Asian Games 2026",
-      "Aichi-Nagoya, Japan",
-      "Kabaddi Gold (Men & Women)"
-    ],
-    "strategicImportance": "Boosts India's soft power and sporting profile globally."
-  },
-  {
-    "id": "sept-2026-010",
-    "topic": "Defence Tech",
-    "text": "DRDO signed its first high-value deep-tech project under the Technology Development Fund (TDF) with **Zero mK India Pvt Ltd** to indigenously develop a **20 mK Dilution Refrigerator**, crucial for quantum computing.",
-    "details": {
-      "winner": "Zero mK India Pvt Ltd",
-      "award": "TDF contract for 20 mK Dilution Refrigerator",
-      "nationality": "India",
-      "summary": "DRDO funds indigenous quantum computing hardware development."
-    },
-    "mcq": {
-      "question": "DRDO partnered with Zero mK India to develop a '20 mK Dilution Refrigerator'. This technology is essential for which field?",
-      "options": [
-        "Nuclear Submarines",
-        "Quantum Computing",
-        "Hypersonic Missiles",
-        "Satellite Imaging"
-      ],
-      "correct": 1,
-      "explanation": "A Dilution Refrigerator is a critical component for maintaining the ultra-low temperatures needed for quantum computing."
-    },
-    "upscHighlights": [
-      "DRDO TDF Scheme",
-      "Quantum Computing",
-      "Indigenous Dilution Refrigerator"
-    ],
-    "strategicImportance": "Crucial step toward achieving self-reliance in cutting-edge quantum technologies."
-  }
-],
+    }
+  ],
   "October 2026": [
-{
+    {
       "id": "oct-26-1",
       "topic": "Defence & Security",
       "text": "General Dhiraj Seth Assumes Charge as Chief of Army Staff; Lt Gen Shamsher Singh Virk Appointed Deputy Chief of Army Staff",
@@ -8092,1601 +7812,851 @@ window.CURRENT_AFFAIRS_DB = {
         }
       ]
     },
-{
-    "id": "sept-2026-001-update",
-    "topic": "National Affairs",
-    "text": "The **Make in India** initiative celebrated its 12th Anniversary on September 25, 2026, marking significant growth in electronics, automobiles, and defence manufacturing sectors.",
-    "details": {
-      "winner": "Government of India",
-      "award": "12th Anniversary of Make in India",
-      "nationality": "India",
-      "summary": "Make in India initiative completes 12 years since its launch on Sept 25, 2014 by DPIIT."
-    },
-    "mcq": {
-      "question": "Which Ministry's department (DPIIT) is the nodal agency for the 'Make in India' initiative that celebrated its 12th anniversary in Sept 2026?",
-      "options": [
-        "Ministry of Finance",
-        "Ministry of Commerce & Industry",
-        "Ministry of Defence",
-        "Ministry of Home Affairs"
+    {
+      "id": "oct-2026-001",
+      "topic": "International Relations & Defence",
+      "text": "Admiral Paparo, Commander of the US Indo-Pacific Command, visited India in October 2026 to enhance bilateral defence cooperation and operational interoperability.",
+      "details": {
+        "winner": "India & USA",
+        "award": "High-level Defence Visit",
+        "nationality": "USA",
+        "summary": "Admiral Paparo visited India to strengthen strategic ties and maritime security in the Indo-Pacific."
+      },
+      "mcq": {
+        "question": "Who visited India in October 2026 representing the US Indo-Pacific Command to enhance defence interoperability?",
+        "options": [
+          "General Lloyd Austin",
+          "Admiral Paparo",
+          "Admiral John Aquilino",
+          "General Mark Milley"
+        ],
+        "correct": 1,
+        "explanation": "Admiral Paparo is the Commander of the US Indo-Pacific Command and visited India in October 2026."
+      },
+      "upscHighlights": [
+        "US Indo-Pacific Command (INDOPACOM)",
+        "Focus on maritime interoperability",
+        "Strategic partnership"
       ],
-      "correct": 1,
-      "explanation": "DPIIT falls under the Ministry of Commerce & Industry."
+      "strategicImportance": "Crucial for regional security dynamics and fostering a free and open Indo-Pacific."
     },
-    "upscHighlights": [
-      "Launched Sept 25, 2014",
-      "Nodal Agency: DPIIT",
-      "Focus on manufacturing"
-    ],
-    "strategicImportance": "Crucial scheme for reducing import dependence."
-  },
-  {
-    "id": "sept-2026-002",
-    "topic": "Defence Procurements",
-    "text": "The Ministry of Defence (MoD) signed a ₹810.79 crore contract with **Bharat Dynamics Limited (BDL)** for the procurement of 160 **Satellite Smart Anti-Airfield Weapons (SAT-SAAW)** for the Indian Air Force.",
-    "details": {
-      "winner": "Bharat Dynamics Limited (BDL)",
-      "award": "SAT-SAAW Contract",
-      "nationality": "India",
-      "summary": "MoD procures 160 SAT-SAAW from BDL to enhance IAF capabilities against enemy airfields."
-    },
-    "mcq": {
-      "question": "Which aerospace company was awarded the ₹810.79 crore contract by the MoD in September 2026 to supply SAT-SAAW?",
-      "options": [
-        "HAL",
-        "BEL",
-        "BDL",
-        "DRDO"
+    {
+      "id": "oct-2026-002",
+      "topic": "International Relations",
+      "text": "The Polish Prime Minister visited India in October 2026 to elevate bilateral relations, focusing strongly on defence procurement, joint ventures, and technology transfer.",
+      "details": {
+        "winner": "India & Poland",
+        "award": "Bilateral Strategic Partnership",
+        "nationality": "Poland",
+        "summary": "Polish PM visited India to explore new avenues for defence joint ventures and strategic cooperation."
+      },
+      "mcq": {
+        "question": "The Prime Minister of which European nation visited India in October 2026 to elevate bilateral relations and focus on defence joint ventures?",
+        "options": [
+          "France",
+          "Germany",
+          "Poland",
+          "Italy"
+        ],
+        "correct": 2,
+        "explanation": "The Polish PM visited India focusing on defence cooperation and tech transfer."
+      },
+      "upscHighlights": [
+        "India-Poland relations",
+        "Defence procurement diversification",
+        "Central European outreach"
       ],
-      "correct": 2,
-      "explanation": "The MoD signed the contract with BDL for 160 Satellite Smart Anti-Airfield Weapons."
+      "strategicImportance": "Underscores India's expanding diplomatic outreach beyond traditional partners and diversifying its defence sourcing."
     },
-    "upscHighlights": [
-      "SAT-SAAW are precision-guided glide bombs",
-      "Neutralize enemy airfields from stand-off ranges",
-      "Contract with BDL"
-    ],
-    "strategicImportance": "Boosts IAF's precision strike capabilities without crossing borders."
-  },
-  {
-    "id": "sept-2026-003",
-    "topic": "Military Exercises",
-    "text": "The 22nd edition of the India-US joint military exercise **Yudh Abhyas 2026** commenced at the Mahajan Field Firing Range, Rajasthan, featuring a successful demonstration of indigenously assembled **SkyStriker** loitering munitions.",
-    "details": {
-      "winner": "India & USA",
-      "award": "Exercise Yudh Abhyas 2026",
-      "nationality": "India & USA",
-      "summary": "Annual India-US bilateral army exercise held in Rajasthan."
-    },
-    "mcq": {
-      "question": "The bilateral military exercise 'Yudh Abhyas 2026' was conducted between India and which country?",
-      "options": [
-        "UK",
-        "France",
-        "USA",
-        "Japan"
+    {
+      "id": "oct-2026-003",
+      "topic": "Military Exercises",
+      "text": "The multinational maritime exercise **MALABAR 2026** was conducted in October, featuring navies from India, the USA, Japan, and Australia, focusing on advanced anti-submarine warfare.",
+      "details": {
+        "winner": "QUAD Nations",
+        "award": "Exercise Malabar 2026",
+        "nationality": "Multinational",
+        "summary": "Annual QUAD naval exercise held in October 2026."
+      },
+      "mcq": {
+        "question": "Which of the following nations is NOT a regular participant in the multilateral naval exercise MALABAR?",
+        "options": [
+          "India",
+          "Japan",
+          "South Korea",
+          "Australia"
+        ],
+        "correct": 2,
+        "explanation": "MALABAR involves the QUAD nations: India, USA, Japan, and Australia."
+      },
+      "upscHighlights": [
+        "QUAD navies",
+        "Advanced Anti-Submarine Warfare (ASW)",
+        "Interoperability"
       ],
-      "correct": 2,
-      "explanation": "The 22nd edition of Yudh Abhyas was held between India and the USA at the Mahajan Field Firing Range."
+      "strategicImportance": "Projects a united front by QUAD nations to ensure a free, open, and inclusive Indo-Pacific region."
     },
-    "upscHighlights": [
-      "22nd Edition",
-      "India & USA",
-      "Location: Mahajan Field Firing Range, Rajasthan"
-    ],
-    "strategicImportance": "Enhances interoperability and counter-terrorism tactical skills."
-  },
-  {
-    "id": "sept-2026-004",
-    "topic": "Military Exercises",
-    "text": "The Indian Air Force hosted **Tarang Shakti 2026**, a massive multinational combat air exercise in Jodhpur, Rajasthan, with participation from around 40 nations.",
-    "details": {
-      "winner": "Indian Air Force (IAF)",
-      "award": "Exercise Tarang Shakti 2026",
-      "nationality": "Multinational",
-      "summary": "IAF hosted the largest multilateral air exercise in Jodhpur to showcase indigenous defence capabilities."
-    },
-    "mcq": {
-      "question": "The multinational combat air exercise 'Tarang Shakti 2026' was hosted at which location in India?",
-      "options": [
-        "Kalaikunda",
-        "Jodhpur",
-        "Gwalior",
-        "Hindon"
-      ],
-      "correct": 1,
-      "explanation": "Tarang Shakti 2026 was conducted by the IAF in Jodhpur, Rajasthan."
-    },
-    "upscHighlights": [
-      "Multilateral Air Exercise",
-      "Hosted by IAF",
-      "Location: Jodhpur, Rajasthan"
-    ],
-    "strategicImportance": "Demonstrates India's diplomatic reach and indigenous platforms like LCA Tejas."
-  },
-  {
-    "id": "sept-2026-005",
-    "topic": "Space Missions",
-    "text": "ISRO successfully launched the **EOS-05** Earth Observation Satellite on September 3, 2026, using the **GSLV Mark II** rocket. It is India's first imaging satellite positioned in a geosynchronous orbit.",
-    "details": {
-      "winner": "ISRO",
-      "award": "Launch of EOS-05",
-      "nationality": "India",
-      "summary": "ISRO launched its first geosynchronous imaging satellite, EOS-05, via GSLV Mk II."
-    },
-    "mcq": {
-      "question": "ISRO launched the EOS-05 satellite in Sept 2026. What launch vehicle was used?",
-      "options": [
-        "PSLV-C56",
-        "GSLV Mark II",
-        "LVM3",
-        "SSLV-D3"
-      ],
-      "correct": 1,
-      "explanation": "EOS-05 was launched using the GSLV Mark II."
-    },
-    "upscHighlights": [
-      "EOS-05",
-      "GSLV Mark II",
-      "Geosynchronous orbit imaging"
-    ],
-    "strategicImportance": "Enhances real-time imaging and disaster management capabilities."
-  },
-  {
-    "id": "sept-2026-006",
-    "topic": "Military Exercises",
-    "text": "Annual bilateral naval exercise **SLINEX-26** between India and Sri Lanka commenced in September 2026, aimed at enhancing interoperability in the Indian Ocean Region.",
-    "details": {
-      "winner": "India & Sri Lanka",
-      "award": "SLINEX-26",
-      "nationality": "India & Sri Lanka",
-      "summary": "Bilateral naval exercise between India and Sri Lanka to secure the IOR."
-    },
-    "mcq": {
-      "question": "SLINEX-26 is a bilateral naval exercise between India and which country?",
-      "options": [
-        "Singapore",
-        "Sri Lanka",
-        "Seychelles",
-        "Saudi Arabia"
-      ],
-      "correct": 1,
-      "explanation": "SLINEX stands for Sri Lanka India Naval Exercise."
-    },
-    "upscHighlights": [
-      "Naval Exercise",
-      "India & Sri Lanka",
-      "Indian Ocean Region focus"
-    ],
-    "strategicImportance": "Ensures maritime security in the strategic Indian Ocean Region."
-  },
-  {
-    "id": "sept-2026-007",
-    "topic": "Space Collaborations",
-    "text": "The **TRISHNA** (Thermal infraRed Imaging Satellite for High-resolution Natural resource Assessment) mission is progressing as a joint Earth observation project between ISRO (India) and CNES (France).",
-    "details": {
-      "winner": "ISRO & CNES",
-      "award": "TRISHNA Mission progress",
-      "nationality": "India & France",
-      "summary": "Indo-French thermal imaging satellite project."
-    },
-    "mcq": {
-      "question": "The TRISHNA mission is a joint Earth observation satellite project between ISRO and the space agency of which country?",
-      "options": [
-        "Russia (Roscosmos)",
-        "Japan (JAXA)",
-        "USA (NASA)",
-        "France (CNES)"
-      ],
-      "correct": 3,
-      "explanation": "TRISHNA is jointly developed with France's CNES."
-    },
-    "upscHighlights": [
-      "Indo-French Mission",
-      "Thermal Infrared Imaging",
-      "Climate monitoring"
-    ],
-    "strategicImportance": "Key for climate change and water resource management."
-  },
-  {
-    "id": "sept-2026-008",
-    "topic": "Economy & Reports",
-    "text": "The **OECD** (Organisation for Economic Co-operation and Development) raised India's GDP growth forecast to **7.1%** for the fiscal year 2026-27.",
-    "details": {
-      "winner": "India's Economy",
-      "award": "7.1% Growth Forecast",
-      "nationality": "OECD",
-      "summary": "OECD upgrades India's FY27 growth to 7.1%."
-    },
-    "mcq": {
-      "question": "Which international organisation raised India's GDP growth forecast for FY 2026-27 to 7.1% in September 2026?",
-      "options": [
-        "IMF",
-        "World Bank",
-        "OECD",
-        "ADB"
-      ],
-      "correct": 2,
-      "explanation": "The OECD raised India's forecast to 7.1%."
-    },
-    "upscHighlights": [
-      "7.1% GDP growth forecast",
-      "FY 2026-27",
-      "By OECD"
-    ],
-    "strategicImportance": "Indicates resilience of the Indian economy amidst global headwinds."
-  },
-  {
-    "id": "sept-2026-009",
-    "topic": "Sports",
-    "text": "At the 20th Asian Games 2026 held in **Aichi-Nagoya, Japan**, the Indian Men's and Women's **Kabaddi** teams both secured Gold medals.",
-    "details": {
-      "winner": "Indian Kabaddi Teams",
-      "award": "Gold Medals at Asian Games 2026",
-      "nationality": "India",
-      "summary": "India dominates Kabaddi at the Aichi-Nagoya Asian Games."
-    },
-    "mcq": {
-      "question": "The 20th Asian Games in 2026, where Indian Kabaddi teams won Gold, were hosted in which city?",
-      "options": [
-        "Hangzhou",
-        "Aichi-Nagoya",
-        "Doha",
-        "Jakarta"
-      ],
-      "correct": 1,
-      "explanation": "The 2026 Asian Games were hosted in Aichi-Nagoya, Japan."
-    },
-    "upscHighlights": [
-      "Asian Games 2026",
-      "Aichi-Nagoya, Japan",
-      "Kabaddi Gold (Men & Women)"
-    ],
-    "strategicImportance": "Boosts India's soft power and sporting profile globally."
-  },
-  {
-    "id": "sept-2026-010",
-    "topic": "Defence Tech",
-    "text": "DRDO signed its first high-value deep-tech project under the Technology Development Fund (TDF) with **Zero mK India Pvt Ltd** to indigenously develop a **20 mK Dilution Refrigerator**, crucial for quantum computing.",
-    "details": {
-      "winner": "Zero mK India Pvt Ltd",
-      "award": "TDF contract for 20 mK Dilution Refrigerator",
-      "nationality": "India",
-      "summary": "DRDO funds indigenous quantum computing hardware development."
-    },
-    "mcq": {
-      "question": "DRDO partnered with Zero mK India to develop a '20 mK Dilution Refrigerator'. This technology is essential for which field?",
-      "options": [
-        "Nuclear Submarines",
-        "Quantum Computing",
-        "Hypersonic Missiles",
-        "Satellite Imaging"
-      ],
-      "correct": 1,
-      "explanation": "A Dilution Refrigerator is a critical component for maintaining the ultra-low temperatures needed for quantum computing."
-    },
-    "upscHighlights": [
-      "DRDO TDF Scheme",
-      "Quantum Computing",
-      "Indigenous Dilution Refrigerator"
-    ],
-    "strategicImportance": "Crucial step toward achieving self-reliance in cutting-edge quantum technologies."
-  },
-{
-    "id": "oct-2026-001",
-    "topic": "International Relations & Defence",
-    "text": "Admiral Paparo, Commander of the US Indo-Pacific Command, visited India in October 2026 to enhance bilateral defence cooperation and operational interoperability.",
-    "details": {
-      "winner": "India & USA",
-      "award": "High-level Defence Visit",
-      "nationality": "USA",
-      "summary": "Admiral Paparo visited India to strengthen strategic ties and maritime security in the Indo-Pacific."
-    },
-    "mcq": {
-      "question": "Who visited India in October 2026 representing the US Indo-Pacific Command to enhance defence interoperability?",
-      "options": [
-        "General Lloyd Austin",
-        "Admiral Paparo",
-        "Admiral John Aquilino",
-        "General Mark Milley"
-      ],
-      "correct": 1,
-      "explanation": "Admiral Paparo is the Commander of the US Indo-Pacific Command and visited India in October 2026."
-    },
-    "upscHighlights": [
-      "US Indo-Pacific Command (INDOPACOM)",
-      "Focus on maritime interoperability",
-      "Strategic partnership"
-    ],
-    "strategicImportance": "Crucial for regional security dynamics and fostering a free and open Indo-Pacific."
-  },
-  {
-    "id": "oct-2026-002",
-    "topic": "International Relations",
-    "text": "The Polish Prime Minister visited India in October 2026 to elevate bilateral relations, focusing strongly on defence procurement, joint ventures, and technology transfer.",
-    "details": {
-      "winner": "India & Poland",
-      "award": "Bilateral Strategic Partnership",
-      "nationality": "Poland",
-      "summary": "Polish PM visited India to explore new avenues for defence joint ventures and strategic cooperation."
-    },
-    "mcq": {
-      "question": "The Prime Minister of which European nation visited India in October 2026 to elevate bilateral relations and focus on defence joint ventures?",
-      "options": [
-        "France",
-        "Germany",
-        "Poland",
-        "Italy"
-      ],
-      "correct": 2,
-      "explanation": "The Polish PM visited India focusing on defence cooperation and tech transfer."
-    },
-    "upscHighlights": [
-      "India-Poland relations",
-      "Defence procurement diversification",
-      "Central European outreach"
-    ],
-    "strategicImportance": "Underscores India's expanding diplomatic outreach beyond traditional partners and diversifying its defence sourcing."
-  },
-  {
-    "id": "oct-2026-003",
-    "topic": "Military Exercises",
-    "text": "The multinational maritime exercise **MALABAR 2026** was conducted in October, featuring navies from India, the USA, Japan, and Australia, focusing on advanced anti-submarine warfare.",
-    "details": {
-      "winner": "QUAD Nations",
-      "award": "Exercise Malabar 2026",
-      "nationality": "Multinational",
-      "summary": "Annual QUAD naval exercise held in October 2026."
-    },
-    "mcq": {
-      "question": "Which of the following nations is NOT a regular participant in the multilateral naval exercise MALABAR?",
-      "options": [
-        "India",
-        "Japan",
-        "South Korea",
-        "Australia"
-      ],
-      "correct": 2,
-      "explanation": "MALABAR involves the QUAD nations: India, USA, Japan, and Australia."
-    },
-    "upscHighlights": [
-      "QUAD navies",
-      "Advanced Anti-Submarine Warfare (ASW)",
-      "Interoperability"
-    ],
-    "strategicImportance": "Projects a united front by QUAD nations to ensure a free, open, and inclusive Indo-Pacific region."
-  },
-  {
-    "id": "oct-2026-004",
-    "topic": "Defence Tech & DRDO",
-    "text": "DRDO successfully test-fired a new variant of the **Pralay** tactical ballistic missile in October 2026, demonstrating enhanced accuracy and range.",
-    "details": {
-      "winner": "DRDO",
-      "award": "Successful Missile Test",
-      "nationality": "India",
-      "summary": "DRDO tested the Pralay quasi-ballistic surface-to-surface missile."
-    },
-    "mcq": {
-      "question": "What type of missile is 'Pralay', which was successfully tested by DRDO in October 2026?",
-      "options": [
-        "Air-to-Air Missile",
-        "Surface-to-Air Missile",
+    {
+      "id": "oct-2026-004",
+      "topic": "Defence Tech & DRDO",
+      "text": "DRDO successfully test-fired a new variant of the **Pralay** tactical ballistic missile in October 2026, demonstrating enhanced accuracy and range.",
+      "details": {
+        "winner": "DRDO",
+        "award": "Successful Missile Test",
+        "nationality": "India",
+        "summary": "DRDO tested the Pralay quasi-ballistic surface-to-surface missile."
+      },
+      "mcq": {
+        "question": "What type of missile is 'Pralay', which was successfully tested by DRDO in October 2026?",
+        "options": [
+          "Air-to-Air Missile",
+          "Surface-to-Air Missile",
+          "Tactical Surface-to-Surface Missile",
+          "Anti-Tank Guided Missile"
+        ],
+        "correct": 2,
+        "explanation": "Pralay is a tactical, surface-to-surface, quasi-ballistic missile."
+      },
+      "upscHighlights": [
         "Tactical Surface-to-Surface Missile",
-        "Anti-Tank Guided Missile"
+        "Quasi-ballistic trajectory",
+        "Developed by DRDO"
       ],
-      "correct": 2,
-      "explanation": "Pralay is a tactical, surface-to-surface, quasi-ballistic missile."
+      "strategicImportance": "Significantly bolsters India's rocket force and tactical strike capabilities along the borders."
     },
-    "upscHighlights": [
-      "Tactical Surface-to-Surface Missile",
-      "Quasi-ballistic trajectory",
-      "Developed by DRDO"
-    ],
-    "strategicImportance": "Significantly bolsters India's rocket force and tactical strike capabilities along the borders."
-  },
-  {
-    "id": "oct-2026-005",
-    "topic": "Space Missions",
-    "text": "ISRO marked a major milestone in the **Gaganyaan** program in October 2026 by completing the crucial uncrewed orbital test flight (G1).",
-    "details": {
-      "winner": "ISRO",
-      "award": "Gaganyaan G1 Test Flight",
-      "nationality": "India",
-      "summary": "ISRO successfully completed the first uncrewed orbital test flight for the Gaganyaan mission."
-    },
-    "mcq": {
-      "question": "In October 2026, ISRO completed the G1 uncrewed orbital test flight for which flagship space mission?",
-      "options": [
-        "Chandrayaan-4",
-        "Mangalyaan-2",
-        "Gaganyaan",
-        "Shukrayaan-1"
+    {
+      "id": "oct-2026-005",
+      "topic": "Space Missions",
+      "text": "ISRO marked a major milestone in the **Gaganyaan** program in October 2026 by completing the crucial uncrewed orbital test flight (G1).",
+      "details": {
+        "winner": "ISRO",
+        "award": "Gaganyaan G1 Test Flight",
+        "nationality": "India",
+        "summary": "ISRO successfully completed the first uncrewed orbital test flight for the Gaganyaan mission."
+      },
+      "mcq": {
+        "question": "In October 2026, ISRO completed the G1 uncrewed orbital test flight for which flagship space mission?",
+        "options": [
+          "Chandrayaan-4",
+          "Mangalyaan-2",
+          "Gaganyaan",
+          "Shukrayaan-1"
+        ],
+        "correct": 2,
+        "explanation": "The G1 flight is a critical precursor to the crewed Gaganyaan mission."
+      },
+      "upscHighlights": [
+        "Gaganyaan Mission",
+        "Uncrewed Test Flight (G1)",
+        "Human Spaceflight Programme"
       ],
-      "correct": 2,
-      "explanation": "The G1 flight is a critical precursor to the crewed Gaganyaan mission."
+      "strategicImportance": "Paves the way for India to become the fourth nation to launch human spaceflight independently."
     },
-    "upscHighlights": [
-      "Gaganyaan Mission",
-      "Uncrewed Test Flight (G1)",
-      "Human Spaceflight Programme"
-    ],
-    "strategicImportance": "Paves the way for India to become the fourth nation to launch human spaceflight independently."
-  },
-  {
-    "id": "oct-2026-006",
-    "topic": "Air Force Modernisation",
-    "text": "The Indian Air Force officially inducted the first squadron of upgraded **Tejas Mk1A** fighter jets in October 2026, significantly boosting its combat fleet.",
-    "details": {
-      "winner": "Indian Air Force",
-      "award": "Induction of Tejas Mk1A",
-      "nationality": "India",
-      "summary": "IAF inducted upgraded indigenous LCA Tejas Mk1A."
-    },
-    "mcq": {
-      "question": "Which upgraded indigenous fighter aircraft was formally inducted into a new squadron by the IAF in October 2026?",
-      "options": [
-        "Sukhoi Su-30MKI",
+    {
+      "id": "oct-2026-006",
+      "topic": "Air Force Modernisation",
+      "text": "The Indian Air Force officially inducted the first squadron of upgraded **Tejas Mk1A** fighter jets in October 2026, significantly boosting its combat fleet.",
+      "details": {
+        "winner": "Indian Air Force",
+        "award": "Induction of Tejas Mk1A",
+        "nationality": "India",
+        "summary": "IAF inducted upgraded indigenous LCA Tejas Mk1A."
+      },
+      "mcq": {
+        "question": "Which upgraded indigenous fighter aircraft was formally inducted into a new squadron by the IAF in October 2026?",
+        "options": [
+          "Sukhoi Su-30MKI",
+          "LCA Tejas Mk1A",
+          "AMCA",
+          "Mirage 2000"
+        ],
+        "correct": 1,
+        "explanation": "The IAF inducted the upgraded LCA Tejas Mk1A to strengthen its fighter squadrons."
+      },
+      "upscHighlights": [
         "LCA Tejas Mk1A",
-        "AMCA",
-        "Mirage 2000"
+        "AESA Radar & BVR capabilities",
+        "Manufactured by HAL"
       ],
-      "correct": 1,
-      "explanation": "The IAF inducted the upgraded LCA Tejas Mk1A to strengthen its fighter squadrons."
+      "strategicImportance": "Crucial step in replacing aging MiG-21 fleets and advancing the 'Make in India' defence initiative."
     },
-    "upscHighlights": [
-      "LCA Tejas Mk1A",
-      "AESA Radar & BVR capabilities",
-      "Manufactured by HAL"
-    ],
-    "strategicImportance": "Crucial step in replacing aging MiG-21 fleets and advancing the 'Make in India' defence initiative."
-  },
-  {
-    "id": "oct-2026-007",
-    "topic": "Internal Security",
-    "text": "The Ministry of Home Affairs inaugurated the advanced **National Cyber Security Operations Centre** in New Delhi in October 2026 to counter rising sophisticated state-sponsored cyber threats.",
-    "details": {
-      "winner": "Ministry of Home Affairs",
-      "award": "Cyber Security Infra",
-      "nationality": "India",
-      "summary": "New central cyber operations centre launched to protect critical infrastructure."
-    },
-    "mcq": {
-      "question": "Which ministry is primarily responsible for the National Cyber Security Operations Centre inaugurated in October 2026?",
-      "options": [
-        "Ministry of Defence",
-        "Ministry of Home Affairs",
-        "Ministry of Electronics and IT (MeitY)",
-        "Ministry of Science and Technology"
+    {
+      "id": "oct-2026-007",
+      "topic": "Internal Security",
+      "text": "The Ministry of Home Affairs inaugurated the advanced **National Cyber Security Operations Centre** in New Delhi in October 2026 to counter rising sophisticated state-sponsored cyber threats.",
+      "details": {
+        "winner": "Ministry of Home Affairs",
+        "award": "Cyber Security Infra",
+        "nationality": "India",
+        "summary": "New central cyber operations centre launched to protect critical infrastructure."
+      },
+      "mcq": {
+        "question": "Which ministry is primarily responsible for the National Cyber Security Operations Centre inaugurated in October 2026?",
+        "options": [
+          "Ministry of Defence",
+          "Ministry of Home Affairs",
+          "Ministry of Electronics and IT (MeitY)",
+          "Ministry of Science and Technology"
+        ],
+        "correct": 1,
+        "explanation": "The Ministry of Home Affairs is responsible for internal security, including this new cyber centre."
+      },
+      "upscHighlights": [
+        "Critical Information Infrastructure protection",
+        "Counter-state sponsored cyber attacks",
+        "NCIIPC coordination"
       ],
-      "correct": 1,
-      "explanation": "The Ministry of Home Affairs is responsible for internal security, including this new cyber centre."
+      "strategicImportance": "Enhances national resilience against cyber warfare and protects critical civilian and defence networks."
     },
-    "upscHighlights": [
-      "Critical Information Infrastructure protection",
-      "Counter-state sponsored cyber attacks",
-      "NCIIPC coordination"
-    ],
-    "strategicImportance": "Enhances national resilience against cyber warfare and protects critical civilian and defence networks."
-  },
-  {
-    "id": "oct-2026-008",
-    "topic": "Economy",
-    "text": "In October 2026, the RBI's Monetary Policy Committee maintained the repo rate, citing the need to balance robust economic growth against volatile global energy prices.",
-    "details": {
-      "winner": "RBI",
-      "award": "Monetary Policy Review",
-      "nationality": "India",
-      "summary": "RBI maintained status quo on the repo rate amidst global energy volatility."
-    },
-    "mcq": {
-      "question": "The Monetary Policy Committee (MPC) of the RBI determines the policy repo rate. How many members are in the MPC?",
-      "options": [
-        "4",
-        "5",
-        "6",
-        "7"
+    {
+      "id": "oct-2026-008",
+      "topic": "Economy",
+      "text": "In October 2026, the RBI's Monetary Policy Committee maintained the repo rate, citing the need to balance robust economic growth against volatile global energy prices.",
+      "details": {
+        "winner": "RBI",
+        "award": "Monetary Policy Review",
+        "nationality": "India",
+        "summary": "RBI maintained status quo on the repo rate amidst global energy volatility."
+      },
+      "mcq": {
+        "question": "The Monetary Policy Committee (MPC) of the RBI determines the policy repo rate. How many members are in the MPC?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct": 2,
+        "explanation": "The MPC has 6 members: 3 from the RBI and 3 external members appointed by the Government."
+      },
+      "upscHighlights": [
+        "Monetary Policy Committee",
+        "Repo Rate status quo",
+        "Inflation targeting mechanism"
       ],
-      "correct": 2,
-      "explanation": "The MPC has 6 members: 3 from the RBI and 3 external members appointed by the Government."
+      "strategicImportance": "Ensures macroeconomic stability which is foundational for sustained defence spending and national security."
     },
-    "upscHighlights": [
-      "Monetary Policy Committee",
-      "Repo Rate status quo",
-      "Inflation targeting mechanism"
-    ],
-    "strategicImportance": "Ensures macroeconomic stability which is foundational for sustained defence spending and national security."
-  },
-  {
-    "id": "oct-2026-009",
-    "topic": "Environment & Ecology",
-    "text": "India added two new high-altitude wetlands in Ladakh to the list of **Ramsar Sites** in October 2026, emphasizing the conservation of fragile Himalayan ecosystems.",
-    "details": {
-      "winner": "Ministry of Environment",
-      "award": "New Ramsar Sites in Ladakh",
-      "nationality": "India",
-      "summary": "Two new wetlands in Ladakh recognised as wetlands of international importance."
-    },
-    "mcq": {
-      "question": "The Ramsar Convention, under which wetlands of international importance are recognised, was signed in which country?",
-      "options": [
-        "Switzerland",
-        "Iran",
-        "France",
-        "Canada"
+    {
+      "id": "oct-2026-009",
+      "topic": "Environment & Ecology",
+      "text": "India added two new high-altitude wetlands in Ladakh to the list of **Ramsar Sites** in October 2026, emphasizing the conservation of fragile Himalayan ecosystems.",
+      "details": {
+        "winner": "Ministry of Environment",
+        "award": "New Ramsar Sites in Ladakh",
+        "nationality": "India",
+        "summary": "Two new wetlands in Ladakh recognised as wetlands of international importance."
+      },
+      "mcq": {
+        "question": "The Ramsar Convention, under which wetlands of international importance are recognised, was signed in which country?",
+        "options": [
+          "Switzerland",
+          "Iran",
+          "France",
+          "Canada"
+        ],
+        "correct": 1,
+        "explanation": "The convention was signed in 1971 in the Iranian city of Ramsar."
+      },
+      "upscHighlights": [
+        "Ramsar Convention 1971",
+        "High-altitude wetlands",
+        "Ladakh ecosystem"
       ],
-      "correct": 1,
-      "explanation": "The convention was signed in 1971 in the Iranian city of Ramsar."
+      "strategicImportance": "Demonstrates India's commitment to international environmental treaties and border region ecology conservation."
     },
-    "upscHighlights": [
-      "Ramsar Convention 1971",
-      "High-altitude wetlands",
-      "Ladakh ecosystem"
-    ],
-    "strategicImportance": "Demonstrates India's commitment to international environmental treaties and border region ecology conservation."
-  },
-  {
-    "id": "oct-2026-010",
-    "topic": "Naval Operations",
-    "text": "The Indian Navy commissioned **INS Vagir**, the fifth Kalvari-class submarine, highlighting its growing underwater combat capabilities.",
-    "details": {
-      "winner": "Indian Navy",
-      "award": "Commissioning of INS Vagir",
-      "nationality": "India",
-      "summary": "Fifth Scorpene-class submarine inducted into the Indian Navy."
-    },
-    "mcq": {
-      "question": "INS Vagir, commissioned into the Indian Navy, belongs to which class of submarines?",
-      "options": [
-        "Arihant-class",
-        "Shishumar-class",
-        "Kalvari-class (Scorpene)",
-        "Sindhughosh-class"
+    {
+      "id": "oct-2026-010",
+      "topic": "Naval Operations",
+      "text": "The Indian Navy commissioned **INS Vagir**, the fifth Kalvari-class submarine, highlighting its growing underwater combat capabilities.",
+      "details": {
+        "winner": "Indian Navy",
+        "award": "Commissioning of INS Vagir",
+        "nationality": "India",
+        "summary": "Fifth Scorpene-class submarine inducted into the Indian Navy."
+      },
+      "mcq": {
+        "question": "INS Vagir, commissioned into the Indian Navy, belongs to which class of submarines?",
+        "options": [
+          "Arihant-class",
+          "Shishumar-class",
+          "Kalvari-class (Scorpene)",
+          "Sindhughosh-class"
+        ],
+        "correct": 2,
+        "explanation": "INS Vagir is the fifth of the six Kalvari-class (Scorpene) submarines built under Project 75."
+      },
+      "upscHighlights": [
+        "Project 75",
+        "Kalvari-class / Scorpene-class",
+        "Built by Mazagon Dock Shipbuilders Limited (MDL)"
       ],
-      "correct": 2,
-      "explanation": "INS Vagir is the fifth of the six Kalvari-class (Scorpene) submarines built under Project 75."
+      "strategicImportance": "Critical for sea denial operations and protecting India's vast maritime interests in the Indian Ocean."
     },
-    "upscHighlights": [
-      "Project 75",
-      "Kalvari-class / Scorpene-class",
-      "Built by Mazagon Dock Shipbuilders Limited (MDL)"
-    ],
-    "strategicImportance": "Critical for sea denial operations and protecting India's vast maritime interests in the Indian Ocean."
-  },
-{
-    "id": "oct-2026-001",
-    "topic": "International Relations & Defence",
-    "text": "Admiral Paparo, Commander of the US Indo-Pacific Command, visited India in October 2026 to enhance bilateral defence cooperation and operational interoperability.",
-    "details": {
-      "winner": "India & USA",
-      "award": "High-level Defence Visit",
-      "nationality": "USA",
-      "summary": "Admiral Paparo visited India to strengthen strategic ties and maritime security in the Indo-Pacific."
-    },
-    "mcq": {
-      "question": "Who visited India in October 2026 representing the US Indo-Pacific Command to enhance defence interoperability?",
-      "options": [
-        "General Lloyd Austin",
-        "Admiral Paparo",
-        "Admiral John Aquilino",
-        "General Mark Milley"
+    {
+      "id": "oct-2026-011",
+      "topic": "Appointments",
+      "text": "Air Marshal Ashutosh Dixit was appointed as the new Chief of the Air Staff (CAS) of the Indian Air Force, taking over the command of the world's fourth-largest air force.",
+      "details": {
+        "winner": "Air Marshal Ashutosh Dixit",
+        "award": "Appointed as Chief of the Air Staff",
+        "nationality": "India",
+        "summary": "Air Marshal Ashutosh Dixit assumed command as the new Chief of the Air Staff, succeeding the previous chief."
+      },
+      "mcq": {
+        "question": "Who was appointed as the new Chief of the Air Staff of the Indian Air Force in late 2026?",
+        "options": [
+          "Air Chief Marshal VR Chaudhari",
+          "Air Marshal Ashutosh Dixit",
+          "Air Marshal Amar Preet Singh",
+          "Air Marshal Sandeep Singh"
+        ],
+        "correct": 1,
+        "explanation": "Air Marshal Ashutosh Dixit was appointed as the new Chief of the Air Staff."
+      },
+      "upscHighlights": [
+        "Chief of the Air Staff (CAS)",
+        "Indian Air Force Leadership",
+        "Defence Appointments"
       ],
-      "correct": 1,
-      "explanation": "Admiral Paparo is the Commander of the US Indo-Pacific Command and visited India in October 2026."
+      "strategicImportance": "The CAS is responsible for the operational readiness and modernization of the IAF amidst evolving regional security challenges."
     },
-    "upscHighlights": [
-      "US Indo-Pacific Command (INDOPACOM)",
-      "Focus on maritime interoperability",
-      "Strategic partnership"
-    ],
-    "strategicImportance": "Crucial for regional security dynamics and fostering a free and open Indo-Pacific."
-  },
-  {
-    "id": "oct-2026-002",
-    "topic": "International Relations",
-    "text": "The Polish Prime Minister visited India in October 2026 to elevate bilateral relations, focusing strongly on defence procurement, joint ventures, and technology transfer.",
-    "details": {
-      "winner": "India & Poland",
-      "award": "Bilateral Strategic Partnership",
-      "nationality": "Poland",
-      "summary": "Polish PM visited India to explore new avenues for defence joint ventures and strategic cooperation."
-    },
-    "mcq": {
-      "question": "The Prime Minister of which European nation visited India in October 2026 to elevate bilateral relations and focus on defence joint ventures?",
-      "options": [
-        "France",
-        "Germany",
-        "Poland",
-        "Italy"
+    {
+      "id": "oct-2026-012",
+      "topic": "International Summits",
+      "text": "The BRICS Summit 2026 was hosted in Kazan, Russia, focusing on multipolarity, financial alternative systems, and the inclusion of newly admitted member states in the bloc's security framework.",
+      "details": {
+        "winner": "BRICS Nations",
+        "award": "BRICS Summit 2026",
+        "nationality": "Multinational",
+        "summary": "18th BRICS Summit hosted by Russia in Kazan."
+      },
+      "mcq": {
+        "question": "The BRICS Summit 2026 was hosted in which city?",
+        "options": [
+          "Pretoria, South Africa",
+          "Kazan, Russia",
+          "Beijing, China",
+          "Brasília, Brazil"
+        ],
+        "correct": 1,
+        "explanation": "Russia held the BRICS Summit 2026 in the city of Kazan."
+      },
+      "upscHighlights": [
+        "BRICS Summit",
+        "Kazan, Russia",
+        "Multipolarity & Economic integration"
       ],
-      "correct": 2,
-      "explanation": "The Polish PM visited India focusing on defence cooperation and tech transfer."
+      "strategicImportance": "Significant for shifting global economic balance and strengthening non-Western institutional frameworks."
     },
-    "upscHighlights": [
-      "India-Poland relations",
-      "Defence procurement diversification",
-      "Central European outreach"
-    ],
-    "strategicImportance": "Underscores India's expanding diplomatic outreach beyond traditional partners and diversifying its defence sourcing."
-  },
-  {
-    "id": "oct-2026-003",
-    "topic": "Military Exercises",
-    "text": "The multinational maritime exercise **MALABAR 2026** was conducted in October, featuring navies from India, the USA, Japan, and Australia, focusing on advanced anti-submarine warfare.",
-    "details": {
-      "winner": "QUAD Nations",
-      "award": "Exercise Malabar 2026",
-      "nationality": "Multinational",
-      "summary": "Annual QUAD naval exercise held in October 2026."
-    },
-    "mcq": {
-      "question": "Which of the following nations is NOT a regular participant in the multilateral naval exercise MALABAR?",
-      "options": [
-        "India",
-        "Japan",
-        "South Korea",
-        "Australia"
+    {
+      "id": "oct-2026-013",
+      "topic": "Defence Acquisitions",
+      "text": "The Defence Acquisition Council (DAC) approved the procurement of 31 MQ-9B SeaGuardian high-altitude long-endurance (HALE) armed drones from the United States to boost ISR capabilities.",
+      "details": {
+        "winner": "Indian Armed Forces",
+        "award": "MQ-9B Drones Approval",
+        "nationality": "India & USA",
+        "summary": "DAC clears acquisition of 31 armed drones from the US."
+      },
+      "mcq": {
+        "question": "India's Defence Acquisition Council recently approved the procurement of 31 MQ-9B SeaGuardian drones from which country?",
+        "options": [
+          "Israel",
+          "France",
+          "United States",
+          "Russia"
+        ],
+        "correct": 2,
+        "explanation": "The MQ-9B SeaGuardian drones are procured from the USA."
+      },
+      "upscHighlights": [
+        "MQ-9B SeaGuardian",
+        "HALE Drones",
+        "India-US Defence Trade"
       ],
-      "correct": 2,
-      "explanation": "MALABAR involves the QUAD nations: India, USA, Japan, and Australia."
+      "strategicImportance": "Enhances Intelligence, Surveillance, and Reconnaissance (ISR) along the LAC and the Indian Ocean."
     },
-    "upscHighlights": [
-      "QUAD navies",
-      "Advanced Anti-Submarine Warfare (ASW)",
-      "Interoperability"
-    ],
-    "strategicImportance": "Projects a united front by QUAD nations to ensure a free, open, and inclusive Indo-Pacific region."
-  },
-  {
-    "id": "oct-2026-004",
-    "topic": "Defence Tech & DRDO",
-    "text": "DRDO successfully test-fired a new variant of the **Pralay** tactical ballistic missile in October 2026, demonstrating enhanced accuracy and range.",
-    "details": {
-      "winner": "DRDO",
-      "award": "Successful Missile Test",
-      "nationality": "India",
-      "summary": "DRDO tested the Pralay quasi-ballistic surface-to-surface missile."
-    },
-    "mcq": {
-      "question": "What type of missile is 'Pralay', which was successfully tested by DRDO in October 2026?",
-      "options": [
-        "Air-to-Air Missile",
-        "Surface-to-Air Missile",
-        "Tactical Surface-to-Surface Missile",
-        "Anti-Tank Guided Missile"
+    {
+      "id": "oct-2026-014",
+      "topic": "International Relations",
+      "text": "India participated in the SCO (Shanghai Cooperation Organisation) Council of Heads of Government meeting held in Islamabad in October 2026, represented by the External Affairs Minister.",
+      "details": {
+        "winner": "SCO",
+        "award": "SCO CHG Meeting",
+        "nationality": "Multinational",
+        "summary": "India's EAM attended the SCO meeting in Islamabad."
+      },
+      "mcq": {
+        "question": "Where was the Shanghai Cooperation Organisation (SCO) Council of Heads of Government meeting held in October 2026?",
+        "options": [
+          "Tashkent",
+          "Astana",
+          "Islamabad",
+          "New Delhi"
+        ],
+        "correct": 2,
+        "explanation": "The meeting was hosted in Islamabad, Pakistan."
+      },
+      "upscHighlights": [
+        "SCO CHG Meeting",
+        "Islamabad, Pakistan",
+        "Regional Security"
       ],
-      "correct": 2,
-      "explanation": "Pralay is a tactical, surface-to-surface, quasi-ballistic missile."
+      "strategicImportance": "Highlights India's commitment to Eurasian security architectures despite bilateral tensions."
     },
-    "upscHighlights": [
-      "Tactical Surface-to-Surface Missile",
-      "Quasi-ballistic trajectory",
-      "Developed by DRDO"
-    ],
-    "strategicImportance": "Significantly bolsters India's rocket force and tactical strike capabilities along the borders."
-  },
-  {
-    "id": "oct-2026-005",
-    "topic": "Space Missions",
-    "text": "ISRO marked a major milestone in the **Gaganyaan** program in October 2026 by completing the crucial uncrewed orbital test flight (G1).",
-    "details": {
-      "winner": "ISRO",
-      "award": "Gaganyaan G1 Test Flight",
-      "nationality": "India",
-      "summary": "ISRO successfully completed the first uncrewed orbital test flight for the Gaganyaan mission."
-    },
-    "mcq": {
-      "question": "In October 2026, ISRO completed the G1 uncrewed orbital test flight for which flagship space mission?",
-      "options": [
-        "Chandrayaan-4",
-        "Mangalyaan-2",
-        "Gaganyaan",
-        "Shukrayaan-1"
+    {
+      "id": "oct-2026-015",
+      "topic": "Naval Operations",
+      "text": "The Indian Navy is set to commission INS Mangrol, the third Anti-Submarine Warfare Shallow Water Craft (ASW-SWC), built by Cochin Shipyard Limited, enhancing coastal surveillance and anti-submarine operations.",
+      "details": {
+        "winner": "Indian Navy",
+        "award": "Commissioning of INS Mangrol",
+        "nationality": "India",
+        "summary": "INS Mangrol, an ASW-SWC with over 80% indigenous content, strengthens underwater surveillance."
+      },
+      "mcq": {
+        "question": "Which Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) was recently scheduled for commissioning by the Indian Navy in October 2026?",
+        "options": [
+          "INS Vagir",
+          "INS Mangrol",
+          "INS Vikrant",
+          "INS Mormugao"
+        ],
+        "correct": 1,
+        "explanation": "INS Mangrol is the third ASW-SWC built by Cochin Shipyard Limited."
+      },
+      "upscHighlights": [
+        "INS Mangrol",
+        "ASW-SWC",
+        "Built by Cochin Shipyard Limited"
       ],
-      "correct": 2,
-      "explanation": "The G1 flight is a critical precursor to the crewed Gaganyaan mission."
+      "strategicImportance": "Crucial for coastal defence and detecting adversarial submarines in shallow waters."
     },
-    "upscHighlights": [
-      "Gaganyaan Mission",
-      "Uncrewed Test Flight (G1)",
-      "Human Spaceflight Programme"
-    ],
-    "strategicImportance": "Paves the way for India to become the fourth nation to launch human spaceflight independently."
-  },
-  {
-    "id": "oct-2026-006",
-    "topic": "Air Force Modernisation",
-    "text": "The Indian Air Force officially inducted the first squadron of upgraded **Tejas Mk1A** fighter jets in October 2026, significantly boosting its combat fleet.",
-    "details": {
-      "winner": "Indian Air Force",
-      "award": "Induction of Tejas Mk1A",
-      "nationality": "India",
-      "summary": "IAF inducted upgraded indigenous LCA Tejas Mk1A."
-    },
-    "mcq": {
-      "question": "Which upgraded indigenous fighter aircraft was formally inducted into a new squadron by the IAF in October 2026?",
-      "options": [
-        "Sukhoi Su-30MKI",
-        "LCA Tejas Mk1A",
-        "AMCA",
-        "Mirage 2000"
+    {
+      "id": "oct-2026-016",
+      "topic": "Defence Economics",
+      "text": "India's defence exports reached a record ₹38,424 crore in the 2025-26 financial year, marking a massive 60% increase over the previous year, driven strongly by both public and private sector contributions.",
+      "details": {
+        "winner": "Indian Defence Industry",
+        "award": "Record Defence Exports",
+        "nationality": "India",
+        "summary": "Defence exports hit an all-time high of ₹38,424 crore in FY26."
+      },
+      "mcq": {
+        "question": "In the financial year 2025-26, India's defence exports reached a record high of approximately:",
+        "options": [
+          "₹16,000 crore",
+          "₹25,000 crore",
+          "₹38,400 crore",
+          "₹50,000 crore"
+        ],
+        "correct": 2,
+        "explanation": "Defence exports reached a record ₹38,424 crore in FY 2025-26."
+      },
+      "upscHighlights": [
+        "Record Exports: ₹38,424 Cr",
+        "60% YoY increase",
+        "Atmanirbhar Bharat success"
       ],
-      "correct": 1,
-      "explanation": "The IAF inducted the upgraded LCA Tejas Mk1A to strengthen its fighter squadrons."
+      "strategicImportance": "Demonstrates India's transition from a major defence importer to a significant global arms exporter."
     },
-    "upscHighlights": [
-      "LCA Tejas Mk1A",
-      "AESA Radar & BVR capabilities",
-      "Manufactured by HAL"
-    ],
-    "strategicImportance": "Crucial step in replacing aging MiG-21 fleets and advancing the 'Make in India' defence initiative."
-  },
-  {
-    "id": "oct-2026-007",
-    "topic": "Internal Security",
-    "text": "The Ministry of Home Affairs inaugurated the advanced **National Cyber Security Operations Centre** in New Delhi in October 2026 to counter rising sophisticated state-sponsored cyber threats.",
-    "details": {
-      "winner": "Ministry of Home Affairs",
-      "award": "Cyber Security Infra",
-      "nationality": "India",
-      "summary": "New central cyber operations centre launched to protect critical infrastructure."
-    },
-    "mcq": {
-      "question": "Which ministry is primarily responsible for the National Cyber Security Operations Centre inaugurated in October 2026?",
-      "options": [
-        "Ministry of Defence",
-        "Ministry of Home Affairs",
-        "Ministry of Electronics and IT (MeitY)",
-        "Ministry of Science and Technology"
+    {
+      "id": "oct-2026-017",
+      "topic": "International Relations & Defence",
+      "text": "A delegation from the Japanese Ground Self-Defense Force (JGSDF) visited India to engage with the Indian Army and DRDO, seeking to strengthen military ties and explore joint emerging defence technologies.",
+      "details": {
+        "winner": "India & Japan",
+        "award": "JGSDF Visit to India",
+        "nationality": "Japan",
+        "summary": "Japanese military delegation explores deep tech collaboration with Indian defence establishments."
+      },
+      "mcq": {
+        "question": "A military delegation from which country visited India in October 2026 to engage with the Indian Army and DRDO on emerging defence technologies?",
+        "options": [
+          "United States",
+          "France",
+          "Japan",
+          "South Korea"
+        ],
+        "correct": 2,
+        "explanation": "A delegation from the Japanese Ground Self-Defense Force (JGSDF) visited India for tech collaboration."
+      },
+      "upscHighlights": [
+        "India-Japan Defence Ties",
+        "JGSDF Visit",
+        "Emerging Tech Collaboration"
       ],
-      "correct": 1,
-      "explanation": "The Ministry of Home Affairs is responsible for internal security, including this new cyber centre."
+      "strategicImportance": "Key step in solidifying the 'Special Strategic and Global Partnership' between India and Japan."
     },
-    "upscHighlights": [
-      "Critical Information Infrastructure protection",
-      "Counter-state sponsored cyber attacks",
-      "NCIIPC coordination"
-    ],
-    "strategicImportance": "Enhances national resilience against cyber warfare and protects critical civilian and defence networks."
-  },
-  {
-    "id": "oct-2026-008",
-    "topic": "Economy",
-    "text": "In October 2026, the RBI's Monetary Policy Committee maintained the repo rate, citing the need to balance robust economic growth against volatile global energy prices.",
-    "details": {
-      "winner": "RBI",
-      "award": "Monetary Policy Review",
-      "nationality": "India",
-      "summary": "RBI maintained status quo on the repo rate amidst global energy volatility."
-    },
-    "mcq": {
-      "question": "The Monetary Policy Committee (MPC) of the RBI determines the policy repo rate. How many members are in the MPC?",
-      "options": [
-        "4",
-        "5",
-        "6",
-        "7"
+    {
+      "id": "oct-2026-018",
+      "topic": "Defence Observance & Heritage",
+      "text": "The Indian Air Force celebrated its **92nd Anniversary (Air Force Day)** on October 8, 2026, with a spectacular aerial display over Marina Beach, Chennai, and a ceremonial parade at Air Force Station Tambaram under the theme *'Bharatiya Vayu Sena: Saksham, Sashakt, Atmanirbhar'*.",
+      "details": {
+        "winner": "Indian Air Force",
+        "award": "92nd Air Force Day",
+        "nationality": "India",
+        "summary": "IAF marks 92 years of stellar service with a mega airshow at Marina Beach, Chennai, displaying combat readiness and indigenous aerospace prowess."
+      },
+      "mcq": {
+        "question": "On which date is the Indian Air Force Day officially celebrated annually across India, marking the founding of the force in 1932?",
+        "options": [
+          "15 January",
+          "8 October",
+          "4 December",
+          "1 February"
+        ],
+        "correct": 1,
+        "explanation": "Air Force Day is celebrated annually on October 8, commemorating the establishment of the Royal Indian Air Force on 8 October 1932. (Army Day is Jan 15, Navy Day is Dec 4, Coast Guard Day is Feb 1)."
+      },
+      "upscHighlights": [
+        "92nd Anniversary celebrated on 8 October 2026",
+        "Airshow held over Marina Beach, Chennai; Parade at AFS Tambaram",
+        "Theme: 'Bharatiya Vayu Sena: Saksham, Sashakt, Atmanirbhar'",
+        "IAF Motto: 'Nabhah Sprisham Deeptam' (Touch the Sky with Glory) from Chapter 11, Bhagavad Gita"
       ],
-      "correct": 2,
-      "explanation": "The MPC has 6 members: 3 from the RBI and 3 external members appointed by the Government."
+      "strategicImportance": "Reiterates the transformation of the IAF into an agile, technologically dominant aerospace power with deep domestic manufacturing roots."
     },
-    "upscHighlights": [
-      "Monetary Policy Committee",
-      "Repo Rate status quo",
-      "Inflation targeting mechanism"
-    ],
-    "strategicImportance": "Ensures macroeconomic stability which is foundational for sustained defence spending and national security."
-  },
-  {
-    "id": "oct-2026-009",
-    "topic": "Environment & Ecology",
-    "text": "India added two new high-altitude wetlands in Ladakh to the list of **Ramsar Sites** in October 2026, emphasizing the conservation of fragile Himalayan ecosystems.",
-    "details": {
-      "winner": "Ministry of Environment",
-      "award": "New Ramsar Sites in Ladakh",
-      "nationality": "India",
-      "summary": "Two new wetlands in Ladakh recognised as wetlands of international importance."
-    },
-    "mcq": {
-      "question": "The Ramsar Convention, under which wetlands of international importance are recognised, was signed in which country?",
-      "options": [
-        "Switzerland",
-        "Iran",
-        "France",
-        "Canada"
+    {
+      "id": "oct-2026-019",
+      "topic": "Military Exercises",
+      "text": "The 8th edition of the joint military exercise **KAZIND-2026** between the Indian Army and the Kazakhstan Armed Forces was conducted at Atyrau, Kazakhstan, focusing on counter-terrorism operations under Chapter VII of the UN Charter.",
+      "details": {
+        "winner": "India & Kazakhstan",
+        "award": "Exercise KAZIND-2026 (8th Edition)",
+        "nationality": "India & Kazakhstan",
+        "summary": "Annual bilateral army and air force exercise enhancing tactical interoperability in semi-urban and counter-insurgency settings."
+      },
+      "mcq": {
+        "question": "The joint military exercise 'KAZIND-2026' is conducted annually between India and which Central Asian nation?",
+        "options": [
+          "Uzbekistan",
+          "Kazakhstan",
+          "Kyrgyzstan",
+          "Tajikistan"
+        ],
+        "correct": 1,
+        "explanation": "Exercise KAZIND is the bilateral military exercise between India and Kazakhstan (formerly known as Exercise Prabal Dostyk)."
+      },
+      "upscHighlights": [
+        "8th Edition held at Atyrau, Kazakhstan",
+        "Mandated under Chapter VII of the United Nations Charter",
+        "Indian contingent represented by troops of the Kumaon Regiment"
       ],
-      "correct": 1,
-      "explanation": "The convention was signed in 1971 in the Iranian city of Ramsar."
+      "strategicImportance": "Vital for strengthening India's strategic footprint in Central Asia and enhancing security cooperation against cross-border terrorism."
     },
-    "upscHighlights": [
-      "Ramsar Convention 1971",
-      "High-altitude wetlands",
-      "Ladakh ecosystem"
-    ],
-    "strategicImportance": "Demonstrates India's commitment to international environmental treaties and border region ecology conservation."
-  },
-  {
-    "id": "oct-2026-010",
-    "topic": "Naval Operations",
-    "text": "The Indian Navy commissioned **INS Vagir**, the fifth Kalvari-class submarine, highlighting its growing underwater combat capabilities.",
-    "details": {
-      "winner": "Indian Navy",
-      "award": "Commissioning of INS Vagir",
-      "nationality": "India",
-      "summary": "Fifth Scorpene-class submarine inducted into the Indian Navy."
-    },
-    "mcq": {
-      "question": "INS Vagir, commissioned into the Indian Navy, belongs to which class of submarines?",
-      "options": [
-        "Arihant-class",
-        "Shishumar-class",
-        "Kalvari-class (Scorpene)",
-        "Sindhughosh-class"
+    {
+      "id": "oct-2026-020",
+      "topic": "Military Exercises",
+      "text": "The 5th edition of the India-Oman joint military exercise **Al Najah V** commenced at the Rabkoot Training Area in Oman, aiming to boost interoperability, tactical coordination, and joint counter-terror operations in desert environments.",
+      "details": {
+        "winner": "India & Oman",
+        "award": "Exercise Al Najah V",
+        "nationality": "India & Oman",
+        "summary": "Bilateral military exercise between Indian Army Mechanised Infantry and Royal Army of Oman."
+      },
+      "mcq": {
+        "question": "Which of the following is the bilateral Army exercise conducted between India and the Sultanate of Oman?",
+        "options": [
+          "Al Najah",
+          "Eastern Bridge",
+          "Naseem Al Bahr",
+          "Nomadic Elephant"
+        ],
+        "correct": 0,
+        "explanation": "Al Najah is the Army exercise. Eastern Bridge is the Air Force exercise and Naseem Al Bahr is the Naval exercise conducted between India and Oman."
+      },
+      "upscHighlights": [
+        "5th Edition conducted at Rabkoot, Oman",
+        "Tri-service engagement with Oman: Al Najah (Army), Naseem Al Bahr (Navy), Eastern Bridge (Air Force)",
+        "Oman is India's closest defence partner in the Gulf region"
       ],
-      "correct": 2,
-      "explanation": "INS Vagir is the fifth of the six Kalvari-class (Scorpene) submarines built under Project 75."
+      "strategicImportance": "Anchors India's strategic access to the Arabian Sea, Gulf of Oman, and Western Indian Ocean maritime chokepoints (Strait of Hormuz)."
     },
-    "upscHighlights": [
-      "Project 75",
-      "Kalvari-class / Scorpene-class",
-      "Built by Mazagon Dock Shipbuilders Limited (MDL)"
-    ],
-    "strategicImportance": "Critical for sea denial operations and protecting India's vast maritime interests in the Indian Ocean."
-  },
-{
-    "id": "oct-2026-001",
-    "topic": "International Relations & Defence",
-    "text": "Admiral Paparo, Commander of the US Indo-Pacific Command, visited India in October 2026 to enhance bilateral defence cooperation and operational interoperability.",
-    "details": {
-      "winner": "India & USA",
-      "award": "High-level Defence Visit",
-      "nationality": "USA",
-      "summary": "Admiral Paparo visited India to strengthen strategic ties and maritime security in the Indo-Pacific."
-    },
-    "mcq": {
-      "question": "Who visited India in October 2026 representing the US Indo-Pacific Command to enhance defence interoperability?",
-      "options": [
-        "General Lloyd Austin",
-        "Admiral Paparo",
-        "Admiral John Aquilino",
-        "General Mark Milley"
+    {
+      "id": "oct-2026-021",
+      "topic": "Polity & Indian Culture",
+      "text": "The Union Cabinet chaired by Prime Minister Narendra Modi conferred **Classical Language** status to five languages: **Marathi, Pali, Prakrit, Assamese, and Bengali**, increasing the total count of recognized Classical Languages of India from 6 to 11.",
+      "details": {
+        "winner": "Ministry of Culture, GoI",
+        "award": "5 New Classical Languages Approved",
+        "nationality": "India",
+        "summary": "Historic Cabinet decision recognizes Marathi, Pali, Prakrit, Assamese, and Bengali as Classical Languages alongside Tamil, Sanskrit, Telugu, Kannada, Malayalam, and Odia."
+      },
+      "mcq": {
+        "question": "Following the Union Cabinet decision in October 2026, which of the following languages was newly conferred the status of 'Classical Language'?",
+        "options": [
+          "Bhojpuri",
+          "Pali",
+          "Maithili",
+          "Dogri"
+        ],
+        "correct": 1,
+        "explanation": "In October 2026, 5 languages were declared Classical Languages: Marathi, Pali, Prakrit, Assamese, and Bengali, bringing the total to 11."
+      },
+      "upscHighlights": [
+        "5 new languages: Marathi, Pali, Prakrit, Assamese, Bengali",
+        "Total Classical Languages now 11 (Previously: Tamil 2004, Sanskrit 2005, Telugu 2008, Kannada 2008, Malayalam 2013, Odia 2014)",
+        "Criteria: High antiquity of early texts over 1500-2000 years, valuable heritage, original literary tradition",
+        "Benefits: Two major annual international awards for scholars, Centres of Excellence, and dedicated university chairs"
       ],
-      "correct": 1,
-      "explanation": "Admiral Paparo is the Commander of the US Indo-Pacific Command and visited India in October 2026."
+      "strategicImportance": "Massive cultural preservation policy celebrating linguistic heritage and ancient scholarly texts of ancient India."
     },
-    "upscHighlights": [
-      "US Indo-Pacific Command (INDOPACOM)",
-      "Focus on maritime interoperability",
-      "Strategic partnership"
-    ],
-    "strategicImportance": "Crucial for regional security dynamics and fostering a free and open Indo-Pacific."
-  },
-  {
-    "id": "oct-2026-002",
-    "topic": "International Relations",
-    "text": "The Polish Prime Minister visited India in October 2026 to elevate bilateral relations, focusing strongly on defence procurement, joint ventures, and technology transfer.",
-    "details": {
-      "winner": "India & Poland",
-      "award": "Bilateral Strategic Partnership",
-      "nationality": "Poland",
-      "summary": "Polish PM visited India to explore new avenues for defence joint ventures and strategic cooperation."
-    },
-    "mcq": {
-      "question": "The Prime Minister of which European nation visited India in October 2026 to elevate bilateral relations and focus on defence joint ventures?",
-      "options": [
-        "France",
-        "Germany",
-        "Poland",
-        "Italy"
+    {
+      "id": "oct-2026-022",
+      "topic": "Science & Awards",
+      "text": "The 2026 **Nobel Prize in Physiology or Medicine** was awarded jointly to American scientists **Victor Ambros** and **Gary Ruvkun** for the revolutionary discovery of **microRNA** and its fundamental role in post-transcriptional gene regulation.",
+      "details": {
+        "winner": "Victor Ambros & Gary Ruvkun",
+        "award": "Nobel Prize in Physiology or Medicine 2026",
+        "nationality": "United States",
+        "summary": "Discovered microRNA, tiny RNA molecules that control gene activity, revealing an entirely new dimension of gene regulation essential for complex organisms."
+      },
+      "mcq": {
+        "question": "The 2026 Nobel Prize in Physiology or Medicine was awarded to Victor Ambros and Gary Ruvkun for the discovery of:",
+        "options": [
+          "CRISPR-Cas9 gene editing",
+          "microRNA and post-transcriptional gene regulation",
+          "mRNA vaccines for COVID-19",
+          "Human genome sequencing"
+        ],
+        "correct": 1,
+        "explanation": "Victor Ambros and Gary Ruvkun won the Nobel Prize for their discovery of microRNA and its role in post-transcriptional gene regulation."
+      },
+      "upscHighlights": [
+        "Awarded by the Nobel Assembly at Karolinska Institute, Stockholm",
+        "Discovered microRNA using the model organism C. elegans (roundworm)",
+        "Crucial for cell differentiation, tissue development, and preventing diseases such as cancer"
       ],
-      "correct": 2,
-      "explanation": "The Polish PM visited India focusing on defence cooperation and tech transfer."
+      "strategicImportance": "Core biomedical breakthrough opening pathways for novel molecular therapeutics and genetic medicine."
     },
-    "upscHighlights": [
-      "India-Poland relations",
-      "Defence procurement diversification",
-      "Central European outreach"
-    ],
-    "strategicImportance": "Underscores India's expanding diplomatic outreach beyond traditional partners and diversifying its defence sourcing."
-  },
-  {
-    "id": "oct-2026-003",
-    "topic": "Military Exercises",
-    "text": "The multinational maritime exercise **MALABAR 2026** was conducted in October, featuring navies from India, the USA, Japan, and Australia, focusing on advanced anti-submarine warfare.",
-    "details": {
-      "winner": "QUAD Nations",
-      "award": "Exercise Malabar 2026",
-      "nationality": "Multinational",
-      "summary": "Annual QUAD naval exercise held in October 2026."
-    },
-    "mcq": {
-      "question": "Which of the following nations is NOT a regular participant in the multilateral naval exercise MALABAR?",
-      "options": [
-        "India",
-        "Japan",
-        "South Korea",
-        "Australia"
+    {
+      "id": "oct-2026-023",
+      "topic": "Science & Awards",
+      "text": "The 2026 **Nobel Prize in Physics** was awarded jointly to **John J. Hopfield** (Princeton University) and **Geoffrey E. Hinton** (University of Toronto) for foundational discoveries and inventions that enable **machine learning with artificial neural networks**.",
+      "details": {
+        "winner": "John J. Hopfield & Geoffrey E. Hinton",
+        "award": "Nobel Prize in Physics 2026",
+        "nationality": "USA / Canada-UK",
+        "summary": "Pioneered physical methods such as the Hopfield network and the Boltzmann machine, which form the bedrock of modern artificial intelligence and deep neural networks."
+      },
+      "mcq": {
+        "question": "John J. Hopfield and Geoffrey E. Hinton were awarded the 2026 Nobel Prize in Physics for their foundational work in which domain?",
+        "options": [
+          "Quantum entanglement and cryptography",
+          "Artificial neural networks and machine learning",
+          "High-temperature superconductivity",
+          "Gravitational waves detection"
+        ],
+        "correct": 1,
+        "explanation": "They won the Physics Nobel for discoveries utilizing statistical physics to develop artificial neural networks that power modern machine learning."
+      },
+      "upscHighlights": [
+        "Awarded by the Royal Swedish Academy of Sciences",
+        "Hopfield network utilizes physics principles of atomic spin systems for associative memory",
+        "Hinton developed the Boltzmann machine using statistical mechanics for pattern recognition"
       ],
-      "correct": 2,
-      "explanation": "MALABAR involves the QUAD nations: India, USA, Japan, and Australia."
+      "strategicImportance": "Historic recognition of the convergence of physical sciences and computational AI technologies shaping modern defence autonomy."
     },
-    "upscHighlights": [
-      "QUAD navies",
-      "Advanced Anti-Submarine Warfare (ASW)",
-      "Interoperability"
-    ],
-    "strategicImportance": "Projects a united front by QUAD nations to ensure a free, open, and inclusive Indo-Pacific region."
-  },
-  {
-    "id": "oct-2026-004",
-    "topic": "Defence Tech & DRDO",
-    "text": "DRDO successfully test-fired a new variant of the **Pralay** tactical ballistic missile in October 2026, demonstrating enhanced accuracy and range.",
-    "details": {
-      "winner": "DRDO",
-      "award": "Successful Missile Test",
-      "nationality": "India",
-      "summary": "DRDO tested the Pralay quasi-ballistic surface-to-surface missile."
-    },
-    "mcq": {
-      "question": "What type of missile is 'Pralay', which was successfully tested by DRDO in October 2026?",
-      "options": [
-        "Air-to-Air Missile",
-        "Surface-to-Air Missile",
-        "Tactical Surface-to-Surface Missile",
-        "Anti-Tank Guided Missile"
+    {
+      "id": "oct-2026-024",
+      "topic": "Science & Awards",
+      "text": "The 2026 **Nobel Prize in Chemistry** was awarded with one half to **David Baker** (University of Washington) for *computational protein design*, and the other half jointly to **Demis Hassabis** and **John M. Jumper** (Google DeepMind) for *protein structure prediction* via the AlphaFold AI model.",
+      "details": {
+        "winner": "David Baker, Demis Hassabis & John M. Jumper",
+        "award": "Nobel Prize in Chemistry 2026",
+        "nationality": "USA & UK",
+        "summary": "Solved a 50-year-old biological challenge by predicting 3D structures of virtually all 200 million known proteins and designing completely new synthetic proteins."
+      },
+      "mcq": {
+        "question": "Which artificial intelligence system, developed by Demis Hassabis and John Jumper (co-recipients of the Chemistry Nobel 2026), solved the 50-year-old protein folding problem?",
+        "options": [
+          "AlphaGo",
+          "AlphaFold",
+          "Watson Bio",
+          "DeepProtein"
+        ],
+        "correct": 1,
+        "explanation": "AlphaFold2, developed by DeepMind's Demis Hassabis and John Jumper, enabled accurate prediction of 3D protein structures from amino acid sequences."
+      },
+      "upscHighlights": [
+        "Royal Swedish Academy of Sciences awarded the prize",
+        "Baker developed Rosetta software to create entirely new proteins from scratch",
+        "DeepMind team created AlphaFold2, making over 200 million protein structures open-source"
       ],
-      "correct": 2,
-      "explanation": "Pralay is a tactical, surface-to-surface, quasi-ballistic missile."
+      "strategicImportance": "Revolutionizes drug discovery, antidote synthesis for chemical/biological warfare agents, and green enzyme engineering."
     },
-    "upscHighlights": [
-      "Tactical Surface-to-Surface Missile",
-      "Quasi-ballistic trajectory",
-      "Developed by DRDO"
-    ],
-    "strategicImportance": "Significantly bolsters India's rocket force and tactical strike capabilities along the borders."
-  },
-  {
-    "id": "oct-2026-005",
-    "topic": "Space Missions",
-    "text": "ISRO marked a major milestone in the **Gaganyaan** program in October 2026 by completing the crucial uncrewed orbital test flight (G1).",
-    "details": {
-      "winner": "ISRO",
-      "award": "Gaganyaan G1 Test Flight",
-      "nationality": "India",
-      "summary": "ISRO successfully completed the first uncrewed orbital test flight for the Gaganyaan mission."
-    },
-    "mcq": {
-      "question": "In October 2026, ISRO completed the G1 uncrewed orbital test flight for which flagship space mission?",
-      "options": [
-        "Chandrayaan-4",
-        "Mangalyaan-2",
-        "Gaganyaan",
-        "Shukrayaan-1"
+    {
+      "id": "oct-2026-025",
+      "topic": "Awards & Literature",
+      "text": "The 2026 **Nobel Prize in Literature** was awarded to South Korean author **Han Kang** *'for her intense poetic prose that confronts historical traumas and exposes the fragility of human life'*, making her the first South Korean writer and the first Asian woman to receive the prize.",
+      "details": {
+        "winner": "Han Kang",
+        "award": "Nobel Prize in Literature 2026",
+        "nationality": "South Korea",
+        "summary": "Acclaimed author of 'The Vegetarian' (International Booker Prize 2016) and 'Human Acts' honored by the Swedish Academy."
+      },
+      "mcq": {
+        "question": "Who became the first South Korean author and first Asian female writer to win the Nobel Prize in Literature in October 2026?",
+        "options": [
+          "Haruki Murakami",
+          "Han Kang",
+          "Yoko Ogawa",
+          "Can Xue"
+        ],
+        "correct": 1,
+        "explanation": "Han Kang won the 2026 Nobel Prize in Literature for her powerful prose addressing historical trauma and human vulnerability."
+      },
+      "upscHighlights": [
+        "First South Korean writer and first Asian woman to win Nobel Prize in Literature",
+        "Notable works: 'The Vegetarian', 'Human Acts', 'We Do Not Part'",
+        "Awarded by the Swedish Academy, Stockholm"
       ],
-      "correct": 2,
-      "explanation": "The G1 flight is a critical precursor to the crewed Gaganyaan mission."
+      "strategicImportance": "Historic cultural milestone highlighting contemporary Asian literature on the premier global stage."
     },
-    "upscHighlights": [
-      "Gaganyaan Mission",
-      "Uncrewed Test Flight (G1)",
-      "Human Spaceflight Programme"
-    ],
-    "strategicImportance": "Paves the way for India to become the fourth nation to launch human spaceflight independently."
-  },
-  {
-    "id": "oct-2026-006",
-    "topic": "Air Force Modernisation",
-    "text": "The Indian Air Force officially inducted the first squadron of upgraded **Tejas Mk1A** fighter jets in October 2026, significantly boosting its combat fleet.",
-    "details": {
-      "winner": "Indian Air Force",
-      "award": "Induction of Tejas Mk1A",
-      "nationality": "India",
-      "summary": "IAF inducted upgraded indigenous LCA Tejas Mk1A."
-    },
-    "mcq": {
-      "question": "Which upgraded indigenous fighter aircraft was formally inducted into a new squadron by the IAF in October 2026?",
-      "options": [
-        "Sukhoi Su-30MKI",
-        "LCA Tejas Mk1A",
-        "AMCA",
-        "Mirage 2000"
+    {
+      "id": "oct-2026-026",
+      "topic": "International Peace & Disarmament",
+      "text": "The 2026 **Nobel Peace Prize** was awarded to the Japanese organisation **Nihon Hidankyo** (grassroots movement of atomic bomb survivors from Hiroshima and Nagasaki, known as *Hibakusha*) for its decades-long crusade to achieve a world free of nuclear weapons.",
+      "details": {
+        "winner": "Nihon Hidankyo",
+        "award": "Nobel Peace Prize 2026",
+        "nationality": "Japan",
+        "summary": "Grassroots organisation of atomic bomb survivors honored by the Norwegian Nobel Committee for establishing the global nuclear taboo."
+      },
+      "mcq": {
+        "question": "The 2026 Nobel Peace Prize was conferred upon 'Nihon Hidankyo', a grassroots peace movement formed by survivors of atomic bombings in which country?",
+        "options": [
+          "South Korea",
+          "Japan",
+          "Vietnam",
+          "Marshall Islands"
+        ],
+        "correct": 1,
+        "explanation": "Nihon Hidankyo was formed in 1956 by survivors of the atomic bombings of Hiroshima and Nagasaki (known as Hibakusha) in Japan."
+      },
+      "upscHighlights": [
+        "Awarded by the Norwegian Nobel Committee in Oslo",
+        "Survivors known as 'Hibakusha'",
+        "Honored for demonstrating through witness testimony that nuclear weapons must never be used again",
+        "Comes amid rising geopolitical nuclear tensions in Europe and the Indo-Pacific"
       ],
-      "correct": 1,
-      "explanation": "The IAF inducted the upgraded LCA Tejas Mk1A to strengthen its fighter squadrons."
+      "strategicImportance": "Underscores international nuclear non-proliferation norms and the enduring significance of deterrence stability."
     },
-    "upscHighlights": [
-      "LCA Tejas Mk1A",
-      "AESA Radar & BVR capabilities",
-      "Manufactured by HAL"
-    ],
-    "strategicImportance": "Crucial step in replacing aging MiG-21 fleets and advancing the 'Make in India' defence initiative."
-  },
-  {
-    "id": "oct-2026-007",
-    "topic": "Internal Security",
-    "text": "The Ministry of Home Affairs inaugurated the advanced **National Cyber Security Operations Centre** in New Delhi in October 2026 to counter rising sophisticated state-sponsored cyber threats.",
-    "details": {
-      "winner": "Ministry of Home Affairs",
-      "award": "Cyber Security Infra",
-      "nationality": "India",
-      "summary": "New central cyber operations centre launched to protect critical infrastructure."
-    },
-    "mcq": {
-      "question": "Which ministry is primarily responsible for the National Cyber Security Operations Centre inaugurated in October 2026?",
-      "options": [
-        "Ministry of Defence",
-        "Ministry of Home Affairs",
-        "Ministry of Electronics and IT (MeitY)",
-        "Ministry of Science and Technology"
+    {
+      "id": "oct-2026-027",
+      "topic": "Economy & Governance",
+      "text": "The 2026 **Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel** was awarded to **Daron Acemoglu, Simon Johnson, and James A. Robinson** for their ground-breaking comparative research into *how societal institutions are formed and affect national prosperity*.",
+      "details": {
+        "winner": "Daron Acemoglu, Simon Johnson & James A. Robinson",
+        "award": "Nobel Prize in Economic Sciences 2026",
+        "nationality": "USA (MIT and University of Chicago)",
+        "summary": "Demonstrated that inclusive political and economic institutions foster long-term growth and rule of law, while extractive institutions perpetuate poverty."
+      },
+      "mcq": {
+        "question": "Economists Daron Acemoglu, Simon Johnson, and James A. Robinson won the 2026 Nobel Prize in Economic Sciences for demonstrating that:",
+        "options": [
+          "Cryptocurrencies destabilize central bank interest rates",
+          "Inclusive institutions promote long-term prosperity while extractive ones perpetuate poverty",
+          "Tariffs and protectionism permanently boost manufacturing wages",
+          "Carbon credits cause hyperinflation in developing markets"
+        ],
+        "correct": 1,
+        "explanation": "Their landmark work (including the book 'Why Nations Fail') proves that differences in countries' prosperity are rooted in whether their societal institutions are inclusive or extractive."
+      },
+      "upscHighlights": [
+        "Awarded by Royal Swedish Academy of Sciences",
+        "Authors of seminal book 'Why Nations Fail: The Origins of Power, Prosperity, and Poverty'",
+        "Core thesis: Rule of law, property rights, and political accountability are the ultimate drivers of economic prosperity"
       ],
-      "correct": 1,
-      "explanation": "The Ministry of Home Affairs is responsible for internal security, including this new cyber centre."
+      "strategicImportance": "Directly relevant for UPSC GS Paper 2 (Governance & Institutions) and Paper 3 (Economic Development & Growth Models)."
     },
-    "upscHighlights": [
-      "Critical Information Infrastructure protection",
-      "Counter-state sponsored cyber attacks",
-      "NCIIPC coordination"
-    ],
-    "strategicImportance": "Enhances national resilience against cyber warfare and protects critical civilian and defence networks."
-  },
-  {
-    "id": "oct-2026-008",
-    "topic": "Economy",
-    "text": "In October 2026, the RBI's Monetary Policy Committee maintained the repo rate, citing the need to balance robust economic growth against volatile global energy prices.",
-    "details": {
-      "winner": "RBI",
-      "award": "Monetary Policy Review",
-      "nationality": "India",
-      "summary": "RBI maintained status quo on the repo rate amidst global energy volatility."
-    },
-    "mcq": {
-      "question": "The Monetary Policy Committee (MPC) of the RBI determines the policy repo rate. How many members are in the MPC?",
-      "options": [
-        "4",
-        "5",
-        "6",
-        "7"
+    {
+      "id": "oct-2026-028",
+      "topic": "National Infrastructure & Culture",
+      "text": "The Union Cabinet approved the comprehensive master plan for the **National Maritime Heritage Complex (NMHC)** at **Lothal, Gujarat**, under the Sagarmala Programme, establishing a world-class heritage destination celebrating India's 5,000-year-old seafaring history.",
+      "details": {
+        "winner": "Ministry of Ports, Shipping and Waterways",
+        "award": "Master Plan Approval for NMHC Lothal",
+        "nationality": "India",
+        "summary": "Project features the world's tallest lighthouse museum (77m), a maritime museum with 14 galleries, and a recreation of the ancient Harappan city and tidal dockyard."
+      },
+      "mcq": {
+        "question": "The National Maritime Heritage Complex (NMHC) is being developed at which ancient Indus Valley Civilisation port site?",
+        "options": [
+          "Dholavira",
+          "Lothal",
+          "Kalibangan",
+          "Rakhigarhi"
+        ],
+        "correct": 1,
+        "explanation": "NMHC is being developed at Lothal, Gujarat, which housed the world's earliest known tidal dockyard dating back to ~2400 BCE."
+      },
+      "upscHighlights": [
+        "Location: Lothal, Saragwala village, Ahmedabad district, Gujarat",
+        "Site of ancient Indus Valley Civilisation (IVC) tidal dockyard on the Bhogava river (tributary of Sabarmati)",
+        "Features world's tallest lighthouse museum, underwater marine museum, and 14 thematic galleries",
+        "Developed under the Ministry of Ports, Shipping and Waterways (MoPSW) Sagarmala initiative"
       ],
-      "correct": 2,
-      "explanation": "The MPC has 6 members: 3 from the RBI and 3 external members appointed by the Government."
+      "strategicImportance": "Projecting India's historical maritime legacy as a pre-eminent seafaring civilisation in the Indian Ocean."
     },
-    "upscHighlights": [
-      "Monetary Policy Committee",
-      "Repo Rate status quo",
-      "Inflation targeting mechanism"
-    ],
-    "strategicImportance": "Ensures macroeconomic stability which is foundational for sustained defence spending and national security."
-  },
-  {
-    "id": "oct-2026-009",
-    "topic": "Environment & Ecology",
-    "text": "India added two new high-altitude wetlands in Ladakh to the list of **Ramsar Sites** in October 2026, emphasizing the conservation of fragile Himalayan ecosystems.",
-    "details": {
-      "winner": "Ministry of Environment",
-      "award": "New Ramsar Sites in Ladakh",
-      "nationality": "India",
-      "summary": "Two new wetlands in Ladakh recognised as wetlands of international importance."
-    },
-    "mcq": {
-      "question": "The Ramsar Convention, under which wetlands of international importance are recognised, was signed in which country?",
-      "options": [
-        "Switzerland",
-        "Iran",
-        "France",
-        "Canada"
+    {
+      "id": "oct-2026-029",
+      "topic": "Space Technology & Aeronautics",
+      "text": "SpaceX achieved a historic aerospace milestone during **Starship Flight 5** by successfully catching the 71-meter **Super Heavy booster** mid-air at the launch mount using giant mechanical 'chopstick' arms (*Mechazilla*) at Starbase, Texas.",
+      "details": {
+        "winner": "SpaceX",
+        "award": "Starship Flight 5 Super Heavy Booster Catch",
+        "nationality": "USA",
+        "summary": "First-ever successful mechanical retrieval of an orbital-class rocket booster at the launch pad, marking a leap toward rapid, low-cost spaceflight reusability."
+      },
+      "mcq": {
+        "question": "In October 2026, which rocket system achieved the world's first mid-air mechanical tower catch of its primary booster using 'chopstick' launch tower arms?",
+        "options": [
+          "SLS Artemis",
+          "Starship Super Heavy",
+          "Falcon Heavy",
+          "New Glenn"
+        ],
+        "correct": 1,
+        "explanation": "SpaceX's Starship Flight 5 achieved the first-ever catch of the Super Heavy booster by the Mechazilla launch tower arms."
+      },
+      "upscHighlights": [
+        "Super Heavy booster caught at the launch tower after 7 minutes of flight",
+        "Starship upper stage executed controlled splashdown in the Indian Ocean",
+        "Uses liquid methane and liquid oxygen (Methalox) propellant with Raptor engines",
+        "Foundation for NASA's Artemis III lunar landing and future Mars human exploration missions"
       ],
-      "correct": 1,
-      "explanation": "The convention was signed in 1971 in the Iranian city of Ramsar."
+      "strategicImportance": "Transforms orbital payload economics and advances global heavy-lift launch capability."
     },
-    "upscHighlights": [
-      "Ramsar Convention 1971",
-      "High-altitude wetlands",
-      "Ladakh ecosystem"
-    ],
-    "strategicImportance": "Demonstrates India's commitment to international environmental treaties and border region ecology conservation."
-  },
-  {
-    "id": "oct-2026-010",
-    "topic": "Naval Operations",
-    "text": "The Indian Navy commissioned **INS Vagir**, the fifth Kalvari-class submarine, highlighting its growing underwater combat capabilities.",
-    "details": {
-      "winner": "Indian Navy",
-      "award": "Commissioning of INS Vagir",
-      "nationality": "India",
-      "summary": "Fifth Scorpene-class submarine inducted into the Indian Navy."
-    },
-    "mcq": {
-      "question": "INS Vagir, commissioned into the Indian Navy, belongs to which class of submarines?",
-      "options": [
-        "Arihant-class",
-        "Shishumar-class",
-        "Kalvari-class (Scorpene)",
-        "Sindhughosh-class"
+    {
+      "id": "oct-2026-030",
+      "topic": "Defence & Coastal Security",
+      "text": "The Indian Navy, in close coordination with the Indian Coast Guard (ICG), Marine Police, and State Administration, successfully conducted the bi-annual coastal security drill **Exercise Sagar Kavach 02/26** along the coastlines of Andhra Pradesh, Odisha, and West Bengal.",
+      "details": {
+        "winner": "Indian Navy & Indian Coast Guard",
+        "award": "Exercise Sagar Kavach 02/26",
+        "nationality": "India",
+        "summary": "Comprehensive coastal security validation drill testing response mechanisms, inter-agency communication, and anti-infiltration drills along the eastern seaboard."
+      },
+      "mcq": {
+        "question": "Which tri-tier coastal security framework is validated during the 'Sagar Kavach' coastal security exercises in India?",
+        "options": [
+          "BSF (0-5 NM), Army (5-12 NM), Navy (12-200 NM)",
+          "Marine Police (0-5 NM), Coast Guard (5-12 NM), Indian Navy (beyond 12 NM to 200 NM EEZ)",
+          "Customs (0-10 NM), CISF (10-50 NM), Navy (50-200 NM)",
+          "State Police (0-12 NM), ITBP (12-50 NM), Coast Guard (50-200 NM)"
+        ],
+        "correct": 1,
+        "explanation": "India's coastal security structure operates in three concentric tiers: Marine Coastal Police up to 5 Nautical Miles, Indian Coast Guard from 5 to 12 NM, and Indian Navy from 12 NM out to the 200 NM Exclusive Economic Zone (EEZ)."
+      },
+      "upscHighlights": [
+        "Conducted along Andhra Pradesh, Odisha, and West Bengal coastlines",
+        "Involves Indian Navy, ICG, Marine Police, CISF, Customs, Fisheries Dept",
+        "Tests National Automatic Identification System (NAIS) and coastal radar chain",
+        "Post-26/11 architecture designated Indian Navy as overall in-charge of maritime & coastal security"
       ],
-      "correct": 2,
-      "explanation": "INS Vagir is the fifth of the six Kalvari-class (Scorpene) submarines built under Project 75."
-    },
-    "upscHighlights": [
-      "Project 75",
-      "Kalvari-class / Scorpene-class",
-      "Built by Mazagon Dock Shipbuilders Limited (MDL)"
-    ],
-    "strategicImportance": "Critical for sea denial operations and protecting India's vast maritime interests in the Indian Ocean."
-  },
-{
-    "id": "sept-2026-001-update",
-    "topic": "National Affairs",
-    "text": "The **Make in India** initiative celebrated its 12th Anniversary on September 25, 2026, marking significant growth in electronics, automobiles, and defence manufacturing sectors.",
-    "details": {
-      "winner": "Government of India",
-      "award": "12th Anniversary of Make in India",
-      "nationality": "India",
-      "summary": "Make in India initiative completes 12 years since its launch on Sept 25, 2014 by DPIIT."
-    },
-    "mcq": {
-      "question": "Which Ministry's department (DPIIT) is the nodal agency for the 'Make in India' initiative that celebrated its 12th anniversary in Sept 2026?",
-      "options": [
-        "Ministry of Finance",
-        "Ministry of Commerce & Industry",
-        "Ministry of Defence",
-        "Ministry of Home Affairs"
-      ],
-      "correct": 1,
-      "explanation": "DPIIT falls under the Ministry of Commerce & Industry."
-    },
-    "upscHighlights": [
-      "Launched Sept 25, 2014",
-      "Nodal Agency: DPIIT",
-      "Focus on manufacturing"
-    ],
-    "strategicImportance": "Crucial scheme for reducing import dependence."
-  },
-  {
-    "id": "sept-2026-002",
-    "topic": "Defence Procurements",
-    "text": "The Ministry of Defence (MoD) signed a ₹810.79 crore contract with **Bharat Dynamics Limited (BDL)** for the procurement of 160 **Satellite Smart Anti-Airfield Weapons (SAT-SAAW)** for the Indian Air Force.",
-    "details": {
-      "winner": "Bharat Dynamics Limited (BDL)",
-      "award": "SAT-SAAW Contract",
-      "nationality": "India",
-      "summary": "MoD procures 160 SAT-SAAW from BDL to enhance IAF capabilities against enemy airfields."
-    },
-    "mcq": {
-      "question": "Which aerospace company was awarded the ₹810.79 crore contract by the MoD in September 2026 to supply SAT-SAAW?",
-      "options": [
-        "HAL",
-        "BEL",
-        "BDL",
-        "DRDO"
-      ],
-      "correct": 2,
-      "explanation": "The MoD signed the contract with BDL for 160 Satellite Smart Anti-Airfield Weapons."
-    },
-    "upscHighlights": [
-      "SAT-SAAW are precision-guided glide bombs",
-      "Neutralize enemy airfields from stand-off ranges",
-      "Contract with BDL"
-    ],
-    "strategicImportance": "Boosts IAF's precision strike capabilities without crossing borders."
-  },
-  {
-    "id": "sept-2026-003",
-    "topic": "Military Exercises",
-    "text": "The 22nd edition of the India-US joint military exercise **Yudh Abhyas 2026** commenced at the Mahajan Field Firing Range, Rajasthan, featuring a successful demonstration of indigenously assembled **SkyStriker** loitering munitions.",
-    "details": {
-      "winner": "India & USA",
-      "award": "Exercise Yudh Abhyas 2026",
-      "nationality": "India & USA",
-      "summary": "Annual India-US bilateral army exercise held in Rajasthan."
-    },
-    "mcq": {
-      "question": "The bilateral military exercise 'Yudh Abhyas 2026' was conducted between India and which country?",
-      "options": [
-        "UK",
-        "France",
-        "USA",
-        "Japan"
-      ],
-      "correct": 2,
-      "explanation": "The 22nd edition of Yudh Abhyas was held between India and the USA at the Mahajan Field Firing Range."
-    },
-    "upscHighlights": [
-      "22nd Edition",
-      "India & USA",
-      "Location: Mahajan Field Firing Range, Rajasthan"
-    ],
-    "strategicImportance": "Enhances interoperability and counter-terrorism tactical skills."
-  },
-  {
-    "id": "sept-2026-004",
-    "topic": "Military Exercises",
-    "text": "The Indian Air Force hosted **Tarang Shakti 2026**, a massive multinational combat air exercise in Jodhpur, Rajasthan, with participation from around 40 nations.",
-    "details": {
-      "winner": "Indian Air Force (IAF)",
-      "award": "Exercise Tarang Shakti 2026",
-      "nationality": "Multinational",
-      "summary": "IAF hosted the largest multilateral air exercise in Jodhpur to showcase indigenous defence capabilities."
-    },
-    "mcq": {
-      "question": "The multinational combat air exercise 'Tarang Shakti 2026' was hosted at which location in India?",
-      "options": [
-        "Kalaikunda",
-        "Jodhpur",
-        "Gwalior",
-        "Hindon"
-      ],
-      "correct": 1,
-      "explanation": "Tarang Shakti 2026 was conducted by the IAF in Jodhpur, Rajasthan."
-    },
-    "upscHighlights": [
-      "Multilateral Air Exercise",
-      "Hosted by IAF",
-      "Location: Jodhpur, Rajasthan"
-    ],
-    "strategicImportance": "Demonstrates India's diplomatic reach and indigenous platforms like LCA Tejas."
-  },
-  {
-    "id": "sept-2026-005",
-    "topic": "Space Missions",
-    "text": "ISRO successfully launched the **EOS-05** Earth Observation Satellite on September 3, 2026, using the **GSLV Mark II** rocket. It is India's first imaging satellite positioned in a geosynchronous orbit.",
-    "details": {
-      "winner": "ISRO",
-      "award": "Launch of EOS-05",
-      "nationality": "India",
-      "summary": "ISRO launched its first geosynchronous imaging satellite, EOS-05, via GSLV Mk II."
-    },
-    "mcq": {
-      "question": "ISRO launched the EOS-05 satellite in Sept 2026. What launch vehicle was used?",
-      "options": [
-        "PSLV-C56",
-        "GSLV Mark II",
-        "LVM3",
-        "SSLV-D3"
-      ],
-      "correct": 1,
-      "explanation": "EOS-05 was launched using the GSLV Mark II."
-    },
-    "upscHighlights": [
-      "EOS-05",
-      "GSLV Mark II",
-      "Geosynchronous orbit imaging"
-    ],
-    "strategicImportance": "Enhances real-time imaging and disaster management capabilities."
-  },
-  {
-    "id": "sept-2026-006",
-    "topic": "Military Exercises",
-    "text": "Annual bilateral naval exercise **SLINEX-26** between India and Sri Lanka commenced in September 2026, aimed at enhancing interoperability in the Indian Ocean Region.",
-    "details": {
-      "winner": "India & Sri Lanka",
-      "award": "SLINEX-26",
-      "nationality": "India & Sri Lanka",
-      "summary": "Bilateral naval exercise between India and Sri Lanka to secure the IOR."
-    },
-    "mcq": {
-      "question": "SLINEX-26 is a bilateral naval exercise between India and which country?",
-      "options": [
-        "Singapore",
-        "Sri Lanka",
-        "Seychelles",
-        "Saudi Arabia"
-      ],
-      "correct": 1,
-      "explanation": "SLINEX stands for Sri Lanka India Naval Exercise."
-    },
-    "upscHighlights": [
-      "Naval Exercise",
-      "India & Sri Lanka",
-      "Indian Ocean Region focus"
-    ],
-    "strategicImportance": "Ensures maritime security in the strategic Indian Ocean Region."
-  },
-  {
-    "id": "sept-2026-007",
-    "topic": "Space Collaborations",
-    "text": "The **TRISHNA** (Thermal infraRed Imaging Satellite for High-resolution Natural resource Assessment) mission is progressing as a joint Earth observation project between ISRO (India) and CNES (France).",
-    "details": {
-      "winner": "ISRO & CNES",
-      "award": "TRISHNA Mission progress",
-      "nationality": "India & France",
-      "summary": "Indo-French thermal imaging satellite project."
-    },
-    "mcq": {
-      "question": "The TRISHNA mission is a joint Earth observation satellite project between ISRO and the space agency of which country?",
-      "options": [
-        "Russia (Roscosmos)",
-        "Japan (JAXA)",
-        "USA (NASA)",
-        "France (CNES)"
-      ],
-      "correct": 3,
-      "explanation": "TRISHNA is jointly developed with France's CNES."
-    },
-    "upscHighlights": [
-      "Indo-French Mission",
-      "Thermal Infrared Imaging",
-      "Climate monitoring"
-    ],
-    "strategicImportance": "Key for climate change and water resource management."
-  },
-  {
-    "id": "sept-2026-008",
-    "topic": "Economy & Reports",
-    "text": "The **OECD** (Organisation for Economic Co-operation and Development) raised India's GDP growth forecast to **7.1%** for the fiscal year 2026-27.",
-    "details": {
-      "winner": "India's Economy",
-      "award": "7.1% Growth Forecast",
-      "nationality": "OECD",
-      "summary": "OECD upgrades India's FY27 growth to 7.1%."
-    },
-    "mcq": {
-      "question": "Which international organisation raised India's GDP growth forecast for FY 2026-27 to 7.1% in September 2026?",
-      "options": [
-        "IMF",
-        "World Bank",
-        "OECD",
-        "ADB"
-      ],
-      "correct": 2,
-      "explanation": "The OECD raised India's forecast to 7.1%."
-    },
-    "upscHighlights": [
-      "7.1% GDP growth forecast",
-      "FY 2026-27",
-      "By OECD"
-    ],
-    "strategicImportance": "Indicates resilience of the Indian economy amidst global headwinds."
-  },
-  {
-    "id": "sept-2026-009",
-    "topic": "Sports",
-    "text": "At the 20th Asian Games 2026 held in **Aichi-Nagoya, Japan**, the Indian Men's and Women's **Kabaddi** teams both secured Gold medals.",
-    "details": {
-      "winner": "Indian Kabaddi Teams",
-      "award": "Gold Medals at Asian Games 2026",
-      "nationality": "India",
-      "summary": "India dominates Kabaddi at the Aichi-Nagoya Asian Games."
-    },
-    "mcq": {
-      "question": "The 20th Asian Games in 2026, where Indian Kabaddi teams won Gold, were hosted in which city?",
-      "options": [
-        "Hangzhou",
-        "Aichi-Nagoya",
-        "Doha",
-        "Jakarta"
-      ],
-      "correct": 1,
-      "explanation": "The 2026 Asian Games were hosted in Aichi-Nagoya, Japan."
-    },
-    "upscHighlights": [
-      "Asian Games 2026",
-      "Aichi-Nagoya, Japan",
-      "Kabaddi Gold (Men & Women)"
-    ],
-    "strategicImportance": "Boosts India's soft power and sporting profile globally."
-  },
-  {
-    "id": "sept-2026-010",
-    "topic": "Defence Tech",
-    "text": "DRDO signed its first high-value deep-tech project under the Technology Development Fund (TDF) with **Zero mK India Pvt Ltd** to indigenously develop a **20 mK Dilution Refrigerator**, crucial for quantum computing.",
-    "details": {
-      "winner": "Zero mK India Pvt Ltd",
-      "award": "TDF contract for 20 mK Dilution Refrigerator",
-      "nationality": "India",
-      "summary": "DRDO funds indigenous quantum computing hardware development."
-    },
-    "mcq": {
-      "question": "DRDO partnered with Zero mK India to develop a '20 mK Dilution Refrigerator'. This technology is essential for which field?",
-      "options": [
-        "Nuclear Submarines",
-        "Quantum Computing",
-        "Hypersonic Missiles",
-        "Satellite Imaging"
-      ],
-      "correct": 1,
-      "explanation": "A Dilution Refrigerator is a critical component for maintaining the ultra-low temperatures needed for quantum computing."
-    },
-    "upscHighlights": [
-      "DRDO TDF Scheme",
-      "Quantum Computing",
-      "Indigenous Dilution Refrigerator"
-    ],
-    "strategicImportance": "Crucial step toward achieving self-reliance in cutting-edge quantum technologies."
-  },
-{
-  "id": "oct-2026-011",
-  "topic": "Appointments",
-  "text": "Air Marshal Ashutosh Dixit was appointed as the new Chief of the Air Staff (CAS) of the Indian Air Force, taking over the command of the world's fourth-largest air force.",
-  "details": {
-    "winner": "Air Marshal Ashutosh Dixit",
-    "award": "Appointed as Chief of the Air Staff",
-    "nationality": "India",
-    "summary": "Air Marshal Ashutosh Dixit assumed command as the new Chief of the Air Staff, succeeding the previous chief."
-  },
-  "mcq": {
-    "question": "Who was appointed as the new Chief of the Air Staff of the Indian Air Force in late 2026?",
-    "options": [
-      "Air Chief Marshal VR Chaudhari",
-      "Air Marshal Ashutosh Dixit",
-      "Air Marshal Amar Preet Singh",
-      "Air Marshal Sandeep Singh"
-    ],
-    "correct": 1,
-    "explanation": "Air Marshal Ashutosh Dixit was appointed as the new Chief of the Air Staff."
-  },
-  "upscHighlights": [
-    "Chief of the Air Staff (CAS)",
-    "Indian Air Force Leadership",
-    "Defence Appointments"
-  ],
-  "strategicImportance": "The CAS is responsible for the operational readiness and modernization of the IAF amidst evolving regional security challenges."
-},
-{
-  "id": "oct-2026-012",
-  "topic": "International Summits",
-  "text": "The BRICS Summit 2026 was hosted in Kazan, Russia, focusing on multipolarity, financial alternative systems, and the inclusion of newly admitted member states in the bloc's security framework.",
-  "details": {
-    "winner": "BRICS Nations",
-    "award": "BRICS Summit 2026",
-    "nationality": "Multinational",
-    "summary": "18th BRICS Summit hosted by Russia in Kazan."
-  },
-  "mcq": {
-    "question": "The BRICS Summit 2026 was hosted in which city?",
-    "options": [
-      "Pretoria, South Africa",
-      "Kazan, Russia",
-      "Beijing, China",
-      "Brasília, Brazil"
-    ],
-    "correct": 1,
-    "explanation": "Russia held the BRICS Summit 2026 in the city of Kazan."
-  },
-  "upscHighlights": [
-    "BRICS Summit",
-    "Kazan, Russia",
-    "Multipolarity & Economic integration"
-  ],
-  "strategicImportance": "Significant for shifting global economic balance and strengthening non-Western institutional frameworks."
-},
-{
-  "id": "oct-2026-013",
-  "topic": "Defence Acquisitions",
-  "text": "The Defence Acquisition Council (DAC) approved the procurement of 31 MQ-9B SeaGuardian high-altitude long-endurance (HALE) armed drones from the United States to boost ISR capabilities.",
-  "details": {
-    "winner": "Indian Armed Forces",
-    "award": "MQ-9B Drones Approval",
-    "nationality": "India & USA",
-    "summary": "DAC clears acquisition of 31 armed drones from the US."
-  },
-  "mcq": {
-    "question": "India's Defence Acquisition Council recently approved the procurement of 31 MQ-9B SeaGuardian drones from which country?",
-    "options": [
-      "Israel",
-      "France",
-      "United States",
-      "Russia"
-    ],
-    "correct": 2,
-    "explanation": "The MQ-9B SeaGuardian drones are procured from the USA."
-  },
-  "upscHighlights": [
-    "MQ-9B SeaGuardian",
-    "HALE Drones",
-    "India-US Defence Trade"
-  ],
-  "strategicImportance": "Enhances Intelligence, Surveillance, and Reconnaissance (ISR) along the LAC and the Indian Ocean."
-},
-{
-  "id": "oct-2026-014",
-  "topic": "International Relations",
-  "text": "India participated in the SCO (Shanghai Cooperation Organisation) Council of Heads of Government meeting held in Islamabad in October 2026, represented by the External Affairs Minister.",
-  "details": {
-    "winner": "SCO",
-    "award": "SCO CHG Meeting",
-    "nationality": "Multinational",
-    "summary": "India's EAM attended the SCO meeting in Islamabad."
-  },
-  "mcq": {
-    "question": "Where was the Shanghai Cooperation Organisation (SCO) Council of Heads of Government meeting held in October 2026?",
-    "options": [
-      "Tashkent",
-      "Astana",
-      "Islamabad",
-      "New Delhi"
-    ],
-    "correct": 2,
-    "explanation": "The meeting was hosted in Islamabad, Pakistan."
-  },
-  "upscHighlights": [
-    "SCO CHG Meeting",
-    "Islamabad, Pakistan",
-    "Regional Security"
-  ],
-  "strategicImportance": "Highlights India's commitment to Eurasian security architectures despite bilateral tensions."
-},
-{
-  "id": "oct-2026-015",
-  "topic": "Naval Operations",
-  "text": "The Indian Navy is set to commission INS Mangrol, the third Anti-Submarine Warfare Shallow Water Craft (ASW-SWC), built by Cochin Shipyard Limited, enhancing coastal surveillance and anti-submarine operations.",
-  "details": {
-    "winner": "Indian Navy",
-    "award": "Commissioning of INS Mangrol",
-    "nationality": "India",
-    "summary": "INS Mangrol, an ASW-SWC with over 80% indigenous content, strengthens underwater surveillance."
-  },
-  "mcq": {
-    "question": "Which Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) was recently scheduled for commissioning by the Indian Navy in October 2026?",
-    "options": [
-      "INS Vagir",
-      "INS Mangrol",
-      "INS Vikrant",
-      "INS Mormugao"
-    ],
-    "correct": 1,
-    "explanation": "INS Mangrol is the third ASW-SWC built by Cochin Shipyard Limited."
-  },
-  "upscHighlights": [
-    "INS Mangrol",
-    "ASW-SWC",
-    "Built by Cochin Shipyard Limited"
-  ],
-  "strategicImportance": "Crucial for coastal defence and detecting adversarial submarines in shallow waters."
-},
-{
-  "id": "oct-2026-016",
-  "topic": "Defence Economics",
-  "text": "India's defence exports reached a record ₹38,424 crore in the 2025-26 financial year, marking a massive 60% increase over the previous year, driven strongly by both public and private sector contributions.",
-  "details": {
-    "winner": "Indian Defence Industry",
-    "award": "Record Defence Exports",
-    "nationality": "India",
-    "summary": "Defence exports hit an all-time high of ₹38,424 crore in FY26."
-  },
-  "mcq": {
-    "question": "In the financial year 2025-26, India's defence exports reached a record high of approximately:",
-    "options": [
-      "₹16,000 crore",
-      "₹25,000 crore",
-      "₹38,400 crore",
-      "₹50,000 crore"
-    ],
-    "correct": 2,
-    "explanation": "Defence exports reached a record ₹38,424 crore in FY 2025-26."
-  },
-  "upscHighlights": [
-    "Record Exports: ₹38,424 Cr",
-    "60% YoY increase",
-    "Atmanirbhar Bharat success"
-  ],
-  "strategicImportance": "Demonstrates India's transition from a major defence importer to a significant global arms exporter."
-},
-{
-  "id": "oct-2026-017",
-  "topic": "International Relations & Defence",
-  "text": "A delegation from the Japanese Ground Self-Defense Force (JGSDF) visited India to engage with the Indian Army and DRDO, seeking to strengthen military ties and explore joint emerging defence technologies.",
-  "details": {
-    "winner": "India & Japan",
-    "award": "JGSDF Visit to India",
-    "nationality": "Japan",
-    "summary": "Japanese military delegation explores deep tech collaboration with Indian defence establishments."
-  },
-  "mcq": {
-    "question": "A military delegation from which country visited India in October 2026 to engage with the Indian Army and DRDO on emerging defence technologies?",
-    "options": [
-      "United States",
-      "France",
-      "Japan",
-      "South Korea"
-    ],
-    "correct": 2,
-    "explanation": "A delegation from the Japanese Ground Self-Defense Force (JGSDF) visited India for tech collaboration."
-  },
-  "upscHighlights": [
-    "India-Japan Defence Ties",
-    "JGSDF Visit",
-    "Emerging Tech Collaboration"
-  ],
-  "strategicImportance": "Key step in solidifying the 'Special Strategic and Global Partnership' between India and Japan."
-}
-]
+      "strategicImportance": "Validates asymmetrical threat deterrence along vital maritime infrastructure, nuclear installations, and naval bases."
+    }
+  ]
 };
