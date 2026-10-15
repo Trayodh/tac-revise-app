@@ -163,13 +163,23 @@ def extract_content(b64_img, page_text, prompt):
                 if raw_text.endswith('```'):
                     raw_text = raw_text[:-3]
                     
-                return json.loads(raw_text.strip())
+                clean_text = raw_text.strip()
+                try:
+                    return json.loads(clean_text, strict=False)
+                except Exception:
+                    import re
+                    fixed_text = re.sub(r'\\(?![/\\\"bfnrtu]|u[0-9a-fA-F]{4})', r'\\\\', clean_text)
+                    try:
+                        return json.loads(fixed_text, strict=False)
+                    except Exception:
+                        pass
+                    raise
                 
             except Exception as e:
                 error_msg = str(e).lower()
                 print(f"API Error ({model_name}): {e}")
                 
-                if "quota exceeded" in error_msg or ("retry in" in error_msg and "h" in error_msg):
+                if any(k in error_msg for k in ["quota", "resource_exhausted", "retry in", "rate-limit"]):
                     print(f"Hard quota hit on {model_name}. Failing over to next model...")
                     break
                     
