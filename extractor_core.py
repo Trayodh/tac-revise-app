@@ -154,7 +154,9 @@ def extract_content(b64_img, page_text, prompt):
                 )
                 
                 raw_text = response.text
-                
+                if not raw_text:
+                    raise ValueError(f"Empty response text from {model_name}")
+                    
                 # Clean markdown JSON formatting if present
                 if raw_text.startswith('```json'):
                     raw_text = raw_text[7:]
