@@ -4127,5 +4127,671 @@ const AI_GENERATED_NOTES = [
     "title": "Inter\u2011State Relations",
     "subject": "Polity",
     "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">INTER\u2011STATE RELATIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "administrative-law",
+    "title": "Administrative Law",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">ADMINISTRATIVE LAW</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "parliamentary-committees",
+    "title": "Parliamentary Committees",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PARLIAMENTARY COMMITTEES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "election-commission",
+    "title": "Election Commission",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">ELECTION COMMISSION</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "writ-jurisprudence",
+    "title": "Writ Jurisprudence",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">WRIT JURISPRUDENCE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "union-executive",
+    "title": "Union Executive",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">UNION EXECUTIVE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "president-of-india",
+    "title": "President Of India",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PRESIDENT OF INDIA</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "president's-powers",
+    "title": "President'S Powers",
+    "subject": "Indian Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PRESIDENT'S POWERS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "presidential-history",
+    "title": "Presidential History",
+    "subject": "Indian Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PRESIDENTIAL HISTORY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "vice-president",
+    "title": "Vice-President",
+    "subject": "Indian Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">VICE-PRESIDENT</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "judiciary",
+    "title": "Judiciary",
+    "subject": "Indian Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">JUDICIARY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "alternative-dispute-resolution",
+    "title": "Alternative Dispute Resolution",
+    "subject": "Indian Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">ALTERNATIVE DISPUTE RESOLUTION</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "local-self-government",
+    "title": "Local Self Government",
+    "subject": "Indian Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">LOCAL SELF GOVERNMENT</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "e\u2011governance",
+    "title": "E\u2011Governance",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">E\u2011GOVERNANCE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "constitution-\u2013-official-languages",
+    "title": "Constitution \u2013 Official Languages",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONSTITUTION \u2013 OFFICIAL LANGUAGES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "constitution-\u2013-amendments",
+    "title": "Constitution \u2013 Amendments",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONSTITUTION \u2013 AMENDMENTS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "constitution-\u2013-important-amendments",
+    "title": "Constitution \u2013 Important Amendments",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONSTITUTION \u2013 IMPORTANT AMENDMENTS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "parliament",
+    "title": "Parliament",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PARLIAMENT</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "finance-commission",
+    "title": "Finance Commission",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">FINANCE COMMISSION</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "fundamental-rights",
+    "title": "Fundamental Rights",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">FUNDAMENTAL RIGHTS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "local-self\u2011government",
+    "title": "Local Self\u2011Government",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">LOCAL SELF\u2011GOVERNMENT</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "minorities",
+    "title": "Minorities",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">MINORITIES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "indian-constitution",
+    "title": "Indian Constitution",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">INDIAN CONSTITUTION</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "articles-and-parts",
+    "title": "Articles And Parts",
+    "subject": "Constitution Of India",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">ARTICLES AND PARTS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "parts-of-constitution",
+    "title": "Parts Of Constitution",
+    "subject": "Constitution Of India",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PARTS OF CONSTITUTION</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "finance",
+    "title": "Finance",
+    "subject": "Constitution Of India",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">FINANCE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "money-bills",
+    "title": "Money Bills",
+    "subject": "Constitution Of India",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">MONEY BILLS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "fundamental-duties",
+    "title": "Fundamental Duties",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">FUNDAMENTAL DUTIES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "democracy-and-women\u2019s-rights",
+    "title": "Democracy And Women\u2019S Rights",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">DEMOCRACY AND WOMEN\u2019S RIGHTS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "republicanism",
+    "title": "Republicanism",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">REPUBLICANISM</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "writs",
+    "title": "Writs",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">WRITS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "supreme-court",
+    "title": "Supreme Court",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">SUPREME COURT</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "personal-laws-\u2013-hindu-law",
+    "title": "Personal Laws \u2013 Hindu Law",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PERSONAL LAWS \u2013 HINDU LAW</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "preamble-&-socialism",
+    "title": "Preamble & Socialism",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PREAMBLE & SOCIALISM</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "ninth-schedule",
+    "title": "Ninth Schedule",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">NINTH SCHEDULE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "political-organisations",
+    "title": "Political Organisations",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">POLITICAL ORGANISATIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "constitution-\u2013-directive-principles-of-state-policy",
+    "title": "Constitution \u2013 Directive Principles Of State Policy",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONSTITUTION \u2013 DIRECTIVE PRINCIPLES OF STATE POLICY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "union-territories-and-legislative-assemblies",
+    "title": "Union Territories And Legislative Assemblies",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">UNION TERRITORIES AND LEGISLATIVE ASSEMBLIES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "lok-sabha-\u2013-representation-of-states",
+    "title": "Lok Sabha \u2013 Representation Of States",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">LOK SABHA \u2013 REPRESENTATION OF STATES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "right-to-information-(rti)",
+    "title": "Right To Information (Rti)",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">RIGHT TO INFORMATION (RTI)</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "historical-legislative-acts",
+    "title": "Historical Legislative Acts",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">HISTORICAL LEGISLATIVE ACTS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "constitution-\u2013-instrument-of-instructions",
+    "title": "Constitution \u2013 Instrument Of Instructions",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONSTITUTION \u2013 INSTRUMENT OF INSTRUCTIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "constitution-\u2013-written-vs-unwritten",
+    "title": "Constitution \u2013 Written Vs Unwritten",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONSTITUTION \u2013 WRITTEN VS UNWRITTEN</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "constitution",
+    "title": "Constitution",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONSTITUTION</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "constitutional-offices",
+    "title": "Constitutional Offices",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONSTITUTIONAL OFFICES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "constitutional-authorities",
+    "title": "Constitutional Authorities",
+    "subject": "Indian Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONSTITUTIONAL AUTHORITIES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "parliamentary-procedure",
+    "title": "Parliamentary Procedure",
+    "subject": "Indian Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PARLIAMENTARY PROCEDURE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "elections",
+    "title": "Elections",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">ELECTIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "parliamentary-democracy",
+    "title": "Parliamentary Democracy",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PARLIAMENTARY DEMOCRACY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "martial-law",
+    "title": "Martial Law",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">MARTIAL LAW</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "federalism",
+    "title": "Federalism",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">FEDERALISM</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "constitutional-law",
+    "title": "Constitutional Law",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONSTITUTIONAL LAW</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "international-conventions",
+    "title": "International Conventions",
+    "subject": "International Relations",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">INTERNATIONAL CONVENTIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "supreme-court-guidelines",
+    "title": "Supreme Court Guidelines",
+    "subject": "Polity / Law",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">SUPREME COURT GUIDELINES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "defence-structure",
+    "title": "Defence Structure",
+    "subject": "Defence Studies",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">DEFENCE STRUCTURE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "exempted-bodies",
+    "title": "Exempted Bodies",
+    "subject": "Rti (Right To Information)",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">EXEMPTED BODIES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "citizenship",
+    "title": "Citizenship",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CITIZENSHIP</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "constitutional-schedules",
+    "title": "Constitutional Schedules",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONSTITUTIONAL SCHEDULES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "comptroller-and-auditor-general-(cag)",
+    "title": "Comptroller And Auditor General (Cag)",
+    "subject": "Polity",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">COMPTROLLER AND AUDITOR GENERAL (CAG)</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "planning-in-india",
+    "title": "Planning In India",
+    "subject": "Indian Economy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PLANNING IN INDIA</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "economic-planning",
+    "title": "Economic Planning",
+    "subject": "Economics",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">ECONOMIC PLANNING</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "poverty",
+    "title": "Poverty",
+    "subject": "Economics",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">POVERTY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "unemployment",
+    "title": "Unemployment",
+    "subject": "Economics",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">UNEMPLOYMENT</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "unemployment",
+    "title": "Unemployment",
+    "subject": "Indian Economy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">UNEMPLOYMENT</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  <div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 261)</div><h5>Involuntary Unemployment</h5>\n2. Involuntary Unemployment\nIt refers to a situation in which the persons\nare interested to work, but the jobs are not\navailable. Under this, there are various\ncategories of unemployment\n\u2022 Structural Unemployment It refers to a\nmismatch of job vacancies with the\nsupply of labour available, caused by\nshifts in the structure of the economy.\n\u2022 Disguised Unemployment This is a\nsituation in which more people are\navailable for work than shown in the\nunemployment statistics.\n\u2022 Open Unemployment\nIt is a condition\nin which people have no work to do.\nThey are able to work and are also willing\nto work, but there is no work for them.\n\u2022 Seasonal Unemployment It is on\naccount of the seasonal nature of the\nproductive activities i.e. some productive\nactivities are carried out only for certain\nduration of a year.\n\u2022 Cyclical Unemployment This type of\nunemployment is due to the recession in\nthe economy. This type of\nunemployment is prevalent in the\ndeveloped countries. This is also known\nas Keynesian Unemployment.\n\u2022 Frictional Unemployment It occur when\na worker is shifting from one job to the\nother. It is temporary phenomenon.<h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Notes on Involuntary Unemployment and its types.</li></ul>\n</div>\n"
+  },
+  {
+    "id": "welfare-programmes-and-schemes",
+    "title": "Welfare Programmes And Schemes",
+    "subject": "Indian Economy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">WELFARE PROGRAMMES AND SCHEMES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  <div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 261)</div><h5>Rural Development Schemes</h5>\nWELFARE\nPROGRAMMES\nAND SCHEMES\nIndian state is a welfare state, which takes\nsteps to do away the human sufferings and\nprovides an infrastructure that is condusive\nto development. The Indian Government,\nsince Independence, has been launching\nvarious multi-dimensional social welfare\nprogrammes.\nRural development schemes are as follows\nPradhan Mantri Gramin Digital\nSaksharta Abhiyan (PMGDISHA)\nPMGDISHA was launched on 8th October,\n2017. It aims at imparting digital literacy to\ncitizens in rural areas free of cost. It aims\nto provide access to information,\nknowledge, education and\nhealthcare. It will create avenues\nfor livelihood generation and\nfinancial inclusion through digital\npayments and help bridge the\ndigital divide.\nDeendayal Upadhyay Gram\nJyoti Yojana\nThis scheme is designed to provide\ncontinuous power supply to the\nentire rural India. It is one of the\nflagship scheme of power ministry\nand will facilitate 24\u00d77 supply of\nelectricity. This scheme will replace\nRajiv Gandhi Grameen Vidyutikaran\nYojana (RGGVY) but features of\nRGGVY have been subsumed in\nthis scheme. Major component of\nthis scheme includes separation of\nagriculture and non-agriculture\nfeeder facilitating judicious supply\nof electricity to consumers in rural\nareas.\nSansad Adarsh Gram\nYojana\nIt is a rural development and\ncleanliness programme broadly\nfocusing upon the development in\nthe villages, which includes social\ndevelopment, cultural development\nand spread motivation among the\npeople on social mobilisation of the\nvillage community.\nThe goal is to develop three Adarsh\nGrams by March 2019, of which\none would be achieved by 2016.\nThereafter, five such Adarsh Grams\n(one per year) will be selected and\ndeveloped by 2024.\nMGNREGA\nThe National Rural Employment\nGuarantee Act (NREGA) was\nenacted in 2005. It was\nimplemented in three phases,\nstarting with 200 districts on 2nd\nFebruary, 2006 to cover the whole\ncountry by 2008.\nOn 2nd October, 2009, it was\nrenamed as Mahatma Gandhi\nNational Rural Employment\nGuarantee Act (MGNREGA).\nIndia\u2019s rural employment guarantee\nprogramme MGNREGA has been\nranked as the world\u2019s largest public\nwork programme.\nThe features of MGNREGA are as\nfollows\n\u2022 It seeks to provide at least 100 days\n(150 days for tribals) of guaranteed\nwage employment in one financial\nyear to at least one adult member of\nevery rural household who\nvolunteers to do unskilled manual\nwork.\n\u2022 At least 33% of the beneficiaries are\nto be women.\n\u2022 Originally, it promised a wage rate\nof ` 100 per day. From January,\n2011, wages have been linked to\nincrease with Consumer Price Index\nfor Agricultural Labour (CPI-AL)\nfor each state.\n\u2022 It provides time bound employment\nguarantee and wage payment within\n15 days.<h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Notes on Rural Development Schemes including PMGDISHA, Deendayal Upadhyay Gram Jyoti Yojana, Sansad Adarsh Gram Yojana, and MGNREGA.</li></ul><hr style=\"border: 0; border-top: 1px dashed var(--border); margin: 24px 0;\"><div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 261)</div><h5>Urban Development Schemes</h5>\nThe urban development schemes are as\nfollows\nHeritage City Development and\nAugmentation Yojana (HRIDAY)\nUnion Government has launched a\nHeritage City Development and\nAugmentation Yojana (HRIDAY)\nscheme to preserve and rejuvenate the\nrich cultural heritage of the country.\nThe scheme aims to preserve and\nrevitalise soul of the heritage city to\nreflect the city\u2019s unique character by\nencouraging aesthetically appealing,\naccessible, informative and secured\nenvironment.\nAMRUT\nUnder Atal Mission for Rejuvenation\nand Urban Transformation (AMRUT),\nthe government is targeting 500 cities.\nIt aims to transform cities and towns\ninto efficient urban living spaces with\nspecial focus on a healthy and green\nenvironment for children.\n500 cities and towns will be selected on\nthe basis of population i.e. one lakh and\nabove, while the other criteria of\nselection will apply for certain locations\nlike tourist popularity, certain popular\nhill towns and some selected islands.<h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Notes on Urban Development Schemes including HRIDAY and AMRUT.</li></ul>\n</div>\n"
+  },
+  {
+    "id": "social-security-&-welfare-schemes",
+    "title": "Social Security & Welfare Schemes",
+    "subject": "General Studies",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">SOCIAL SECURITY & WELFARE SCHEMES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "health-&-child-development-schemes",
+    "title": "Health & Child Development Schemes",
+    "subject": "General Studies",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">HEALTH & CHILD DEVELOPMENT SCHEMES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "human-capital-development",
+    "title": "Human Capital Development",
+    "subject": "General Studies",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">HUMAN CAPITAL DEVELOPMENT</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "health-&-family-welfare",
+    "title": "Health & Family Welfare",
+    "subject": "General Studies",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">HEALTH & FAMILY WELFARE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "women-empowerment-&-social-issues",
+    "title": "Women Empowerment & Social Issues",
+    "subject": "General Studies",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">WOMEN EMPOWERMENT & SOCIAL ISSUES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "science-&-technology-education",
+    "title": "Science & Technology Education",
+    "subject": "General Studies",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">SCIENCE & TECHNOLOGY EDUCATION</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "skill-development-&-minority-welfare",
+    "title": "Skill Development & Minority Welfare",
+    "subject": "General Studies",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">SKILL DEVELOPMENT & MINORITY WELFARE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "government-schemes",
+    "title": "Government Schemes",
+    "subject": "General Studies",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">GOVERNMENT SCHEMES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "demography",
+    "title": "Demography",
+    "subject": "General Studies",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">DEMOGRAPHY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "agriculture-\u2013-overview",
+    "title": "Agriculture \u2013 Overview",
+    "subject": "Economics",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">AGRICULTURE \u2013 OVERVIEW</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "agriculture-\u2013-contribution-to-national-income",
+    "title": "Agriculture \u2013 Contribution To National Income",
+    "subject": "Economics",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">AGRICULTURE \u2013 CONTRIBUTION TO NATIONAL INCOME</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "agriculture-\u2013-employment",
+    "title": "Agriculture \u2013 Employment",
+    "subject": "Economics",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">AGRICULTURE \u2013 EMPLOYMENT</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "green-revolution",
+    "title": "Green Revolution",
+    "subject": "Agriculture",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">GREEN REVOLUTION</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "agricultural-revolutions-\u2013-thematic",
+    "title": "Agricultural Revolutions \u2013 Thematic",
+    "subject": "Agriculture",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">AGRICULTURAL REVOLUTIONS \u2013 THEMATIC</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "national-food-security-act,-2013-(nfsa)",
+    "title": "National Food Security Act, 2013 (Nfsa)",
+    "subject": "Agriculture",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">NATIONAL FOOD SECURITY ACT, 2013 (NFSA)</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "major-schemes-of-agriculture",
+    "title": "Major Schemes Of Agriculture",
+    "subject": "Agriculture",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">MAJOR SCHEMES OF AGRICULTURE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "public-sector-steel-plants",
+    "title": "Public Sector Steel Plants",
+    "subject": "General Studies \u2013 Indian Economy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PUBLIC SECTOR STEEL PLANTS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "cotton-and-textile-industry",
+    "title": "Cotton And Textile Industry",
+    "subject": "General Studies \u2013 Indian Economy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">COTTON AND TEXTILE INDUSTRY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "navratnas",
+    "title": "Navratnas",
+    "subject": "Public Sector Enterprises",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">NAVRATNAS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "mini-ratnas",
+    "title": "Mini-Ratnas",
+    "subject": "Public Sector Enterprises",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">MINI-RATNAS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "key-provisions",
+    "title": "Key Provisions",
+    "subject": "Companies Act 2013",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">KEY PROVISIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "competition-commission-of-india-(cci)",
+    "title": "Competition Commission Of India (Cci)",
+    "subject": "Competition Law",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">COMPETITION COMMISSION OF INDIA (CCI)</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "industrial-policy",
+    "title": "Industrial Policy",
+    "subject": "Indian Economy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">INDUSTRIAL POLICY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  <div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 269)</div><h5>Industrial Policy Resolution 1956</h5>\n<p>Accordingly, the industries were divided into four broad categories</p><ul><li>i. Exclusive Government Monopoly This includes manufacture of arms and ammunition, production and control of atomic energy and the ownership and management of railway transport. These industries were the exclusive monopoly of the Central Government.</li><li>ii. Government Monopoly for New Units This category included coal, iron and steel, aircraft manufacture, ship building, manufacture of telephone, telegraphs and wireless apparatus (excluding radio receiving sets) and mineral oils. New undertakings in this category was to be undertaken only by the State.</li><li>iii. Regulation This category included industries of such basic importance like machine tools, chemicals, fertilizers, non-ferrous metals, rubber manufactures, cement, paper, newsprint, automobiles, electric engineering etc which the Central Government would feel necessary to plan and regulate.</li><li>iv. Unregulated Private Enterprise The industries in this category were left open to the private sector, individual as well as cooperative.</li></ul><p>Industrial Policy Resolution, 1956</p><p>The Industrial Policy Resolution of 1956 classified the entire industrial sector in three schedules, which are as follows</p><ul><li>Schedule A: In the first category, those industries were included whose future development was the exclusive responsibility of the State. 17 industries, were included in this category.</li><li>Schedule B: In this category, those industries were included which were progressively State-owned and in which the private enterprises would be expected only to supplement the efforts of the State. In this category, 12 industries were included.</li><li>Schedule C: All industries not listed in Schedule A or B were included in the third category. These industries were left open to the private sector.</li></ul><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Details the classification of industries under the Industrial Policy Resolution 1956 into four categories and the three schedules (A, B, C).</li></ul><hr style=\"border: 0; border-top: 1px dashed var(--border); margin: 24px 0;\"><div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 269)</div><h5>New Industrial Policy 1991</h5>\n<p>The New Industrial Policy of 1991 was at the center of economic reforms that was launched during the early 1990s. This policy brought comprehensive changes in economic regulation in the country.</p><ul><li>New industrial policy abolished all industrial licensing, irrespective of the level of investment, except for a short list of selected industries.</li><li>Government announced its intention to offer a part of government shareholding in the public sector enterprises to mutual funds, financial institutions, general public and the workers.</li><li>The 1956 Resolution had reserved 17 industries for the public sector. The 1991 industrial policy reduced this number to 8. As of now only 3 industries are reserved for government.</li></ul><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Describes the New Industrial Policy of 1991, its reforms, abolition of licensing, and reduction of reserved industries for the public sector.</li></ul>\n</div>\n"
+  },
+  {
+    "id": "industry-schemes",
+    "title": "Industry Schemes",
+    "subject": "Indian Economy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">INDUSTRY SCHEMES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  <div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 269)</div><h5>Major Schemes For Industry</h5>\n<p>Major Schemes for Industry</p><ul><li>Make in India: Make in India campaign aims at reviving the job creating manufacturing sector, which is being seen as the key to taking the Indian economy on a sustainable high growth path. It aims to attract foreign companies to set-up factories in India and invest in the country's infrastructure and transform the economy from the services-driven growth model to labour-intensive manufacturing-drive growth. This is expected to create over 10 million new jobs annually.</li><li>Digital India: Digital India aimed at transforming the country into digitally empowered social and knowledge economy, as well as to revive the State of Governance in the country. It is an \"umbrella programme\" weaving together many existing schemes under multiple ministries and departments to ensure that its services are available to citizens electronically.</li><ul><li>Digital Locker System aims to minimise the usage of physical documents and enable sharing of e-documents across agencies.</li><li>Swachh Bharat Mission (SBM) mobile app would be used by people and government organisations for achieving the goals of Swachh Bharat Mission.</li><li>e-Sign framework would allow citizens to digitally sign a document online using Aadhaar authentication.</li><li>The Online Registration System (ORS) under the e-Hospital application has been introduced.</li></ul><li>Startup India - Standup India: The Startup India - Standup India initiative unveil the government's actions plans to support early stage startups. Startup India - Standup India celebrates the entrepreneurship spirit of country's youth and those that are using technology to change the way we solve problems in India across industries, from medicine and sports to education and the environment.</li></ul><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Outlines major government schemes including Make in India, Digital India (with sub-components), and Startup India-Standup India.</li></ul>\n</div>\n"
+  },
+  {
+    "id": "banking",
+    "title": "Banking",
+    "subject": "Indian Economy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">BANKING</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  <div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 269)</div><h5>Indian Banking System</h5>\n<p>Banking system is the pillar of an economic system. India's banking system is a stable one, under the supervision and regulatory framework of the Reserve Bank of India (RBI). In more than six decades of India's independence, the Indian banking sector has expanded and developed in multifarious dimensions.</p><p>Types of Banking</p><ul><li>There are three types of banking, which are as follows</li><li>Core Banking: Core banking is often associated with retail banking and many banks treat the retail customers as their core banking customers. Business is usually managed via the Corporate banking division of the institution. Core banking covers basic deposit and lending of money.</li></ul><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Provides an overview of the Indian banking system, its stability under RBI, and types of banking with focus on core banking.</li></ul>\n</div>\n"
+  },
+  {
+    "id": "banking",
+    "title": "Banking",
+    "subject": "Economics",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">BANKING</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "money",
+    "title": "Money",
+    "subject": "Economics",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">MONEY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "monetary-policy",
+    "title": "Monetary Policy",
+    "subject": "Economics",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">MONETARY POLICY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "currency",
+    "title": "Currency",
+    "subject": "Economics",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CURRENCY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "reserve-bank-of-india-overview",
+    "title": "Reserve Bank Of India Overview",
+    "subject": "Banking & Finance",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">RESERVE BANK OF INDIA OVERVIEW</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "reserve-bank-of-india-functions",
+    "title": "Reserve Bank Of India Functions",
+    "subject": "Banking & Finance",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">RESERVE BANK OF INDIA FUNCTIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "monetary-policy-committee-(mpc)",
+    "title": "Monetary Policy Committee (Mpc)",
+    "subject": "Monetary Policy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">MONETARY POLICY COMMITTEE (MPC)</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "credit-control-methods",
+    "title": "Credit Control Methods",
+    "subject": "Credit Control",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CREDIT CONTROL METHODS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "printing-presses",
+    "title": "Printing Presses",
+    "subject": "Currency Production",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PRINTING PRESSES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "banking-system",
+    "title": "Banking System",
+    "subject": "Economics",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">BANKING SYSTEM</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  <div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 272)</div><h5>Banking Ombudsman Scheme</h5>\n<ul><li>The scheme is in operation since 1995 and works under the control and supervision of the RBI.</li><li>The scheme is applicable to all Commercial Banks, RRBs and Scheduled Primary Co-operative Banks.</li><li>The Banking Ombudsman currently have their offices at 15 centres.</li><li>It is RBI\u2019s Quasi Judicial Authority for resolving disputes between Commercial Banks, primary co-operative and RRB\u2019s and their customers.</li></ul><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> The Banking Ombudsman Scheme, operational since 1995 under RBI supervision, applies to Commercial Banks, RRBs and Scheduled Primary Co-operative Banks, with offices at 15 centres, serving as RBI\u2019s quasi\u2011judicial authority for dispute resolution.</li></ul><hr style=\"border: 0; border-top: 1px dashed var(--border); margin: 24px 0;\"><div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 272)</div><h5>Basel Norms</h5>\n<p>It was in 1988 that the central banking bodies of the developed economies agreed upon the provision of Capital Adequacy Ratio (CAR), also known as the Basel Accord. The accord was agreed upon at Basel, Switzerland. It provides recommendations on banking, regulations with regard to capital risk, market risk and operational risk.</p><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> The Basel Accord of 1988 introduced Capital Adequacy Ratio (CAR) guidelines for capital, market and operational risk, agreed upon at Basel, Switzerland.</li></ul><hr style=\"border: 0; border-top: 1px dashed var(--border); margin: 24px 0;\"><div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 272)</div><h5>Basel Iii Guidelines, 2015</h5>\n<ul><li>The Reserve Bank of India (RBI) released on 28th May, 2015, the draft guidelines on the Net Stable Funding Ratio (NSFR) under Basel III framework on liquidity standards of banks.</li><li>The NSFR is defined as the amount of available stable funding relative to the amount of required stable funding.</li><li>In draft guidelines released, the Central Bank said that banks will have to maintain Net Stable Funding Ratio (NSFR) from January, 2018.</li><li>Basel III norms define the capital of the banks in different ways. It consider common equity and retained earnings as the predominant component of capital, but restrict the inclusion of items such as\u2011deferred tax assets, mortgage service rights and investments in financial institutions to not more than 15% of the common equity component.</li></ul><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> RBI\u2019s 2015 draft Basel III guidelines introduced NSFR liquidity standards, defined NSFR as available stable funding over required stable funding, to be maintained from Jan 2018, and limited certain capital components to 15% of common equity.</li></ul><hr style=\"border: 0; border-top: 1px dashed var(--border); margin: 24px 0;\"><div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 272)</div><h5>Scheduled And Non-Scheduled Banks</h5>\n<ul><li>The scheduled banks are those which are enshrined in the second schedule of the RBI Act, 1934. These banks have a paid up capital and reserves of an aggregate value of not less than ` 5 lakhs.</li><li>Non-scheduled banks are those which are not included in the second schedule of the RBI Act, 1934. They are also subject to the statutory cash reserve requirement. But they are not required to keep them with the RBI; they may keep these balances with themselves.</li></ul><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Scheduled banks appear in the RBI Act 1934 second schedule with minimum paid\u2011up capital of \u20b95 lakhs; non\u2011scheduled banks are excluded from that schedule but still face cash reserve requirements, though they need not hold balances with RBI.</li></ul><hr style=\"border: 0; border-top: 1px dashed var(--border); margin: 24px 0;\"><div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 272)</div><h5>Classification Of Scheduled Banks</h5>\n<ul><li>Scheduled Commercial Banks</li><li>Scheduled Co-operative Banks</li></ul><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Scheduled banks are divided into Scheduled Commercial Banks and Scheduled Co-operative Banks.</li></ul><hr style=\"border: 0; border-top: 1px dashed var(--border); margin: 24px 0;\"><div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 272)</div><h5>Scheduled Commercial Banks</h5>\n<p>Commercial bank is an institution that accepts deposit, makes business loans and offer related services. They cater to the financial requirements of industries and various sectors like agriculture, rural development etc. It includes public sector banks, private sector banks, foreign banks and regional rural banks.</p><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Scheduled Commercial Banks accept deposits, make business loans, serve industry and sectors such as agriculture and rural development, and comprise public, private, foreign and regional rural banks.</li></ul><hr style=\"border: 0; border-top: 1px dashed var(--border); margin: 24px 0;\"><div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 272)</div><h5>Public Sector Banks</h5>\n<p>Public sector banks are those where a majority stake is held by the government. It includes Nationalised banks, State Bank of India, IDBI and Bharatiya Mahila Bank.</p><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Public sector banks have government majority stake and include Nationalised banks, SBI, IDBI and Bharatiya Mahila Bank.</li></ul><hr style=\"border: 0; border-top: 1px dashed var(--border); margin: 24px 0;\"><div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 272)</div><h5>Nationalised Banks</h5>\n<ul><li>From 1st February, 1969, the government imposed social control on banks by introducing certain provisions in the Banking Regulation Act, 1949. It imposed severe restrictions on the composition of the Board of Directors and internal management and administration of banking companies.</li><li>It also introduced restrictions on advances by banking companies. These were intended to ensure that the bank advances were not confined to large-scale industries and big business houses, but were also directed, in due proportion to other important sectors like agriculture, small-scale industries and exports.</li></ul><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> From 1 Feb 1969, social control via Banking Regulation Act 1949 restricted bank board composition and advances, directing credit to agriculture, small-scale industries and exports besides large industries.</li></ul><hr style=\"border: 0; border-top: 1px dashed var(--border); margin: 24px 0;\"><div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 272)</div><h5>Nationalised Banks In India</h5>\n<ol><li>Allahabad Bank</li><li>Andhra Bank</li><li>Bank of Baroda</li><li>Bank of India</li><li>Bank of Maharashtra</li><li>Canara Bank</li><li>Central Bank of India</li><li>Corporation Bank</li><li>Dena Bank</li><li>Indian Bank</li><li>Indian Overseas Bank</li><li>Oriental Bank of Commerce</li><li>Punjab and Sind Bank</li><li>Punjab National Bank</li><li>Syndicate Bank</li><li>UCO Bank</li><li>Union Bank of India</li><li>United Bank of India</li><li>Vijaya Bank</li></ol><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> List of 19 nationalised banks in India: Allahabad Bank, Andhra Bank, Bank of Baroda, Bank of India, Bank of Maharashtra, Canara Bank, Central Bank of India, Corporation Bank, Dena Bank, Indian Bank, Indian Overseas Bank, Oriental Bank of Commerce, Punjab and Sind Bank, Punjab National Bank, Syndicate Bank, UCO Bank, Union Bank of India, United Bank of India, Vijaya Bank.</li></ul><hr style=\"border: 0; border-top: 1px dashed var(--border); margin: 24px 0;\"><div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 272)</div><h5>State Bank Of India</h5>\n<p>State Bank of India (SBI) was previously called Imperial Bank of India in 1921, which was created by amalgamation of 3 Presidency Banks viz, Bank of Bengal, Bank of Bombay and Bank of Madras. It was nationalised in 1955.</p><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> SBI, formerly Imperial Bank of India (1921) formed from Bengal, Bombay and Madras Presidency Banks, was nationalised in 1955.</li></ul><hr style=\"border: 0; border-top: 1px dashed var(--border); margin: 24px 0;\"><div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 272)</div><h5>State Bank\u2019S Group</h5>\n<ul><li>State Bank of Bikaner and Jaipur</li><li>State Bank of Hyderabad</li><li>State Bank of Mysore</li><li>State Bank of Patiala</li><li>State Bank of Travancore</li></ul><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> State Bank\u2019s Group comprises State Bank of Bikaner and Jaipur, State Bank of Hyderabad, State Bank of Mysore, State Bank of Patiala and State Bank of Travancore.</li></ul>\n</div>\n"
+  },
+  {
+    "id": "types-of-banks",
+    "title": "Types Of Banks",
+    "subject": "Banking",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">TYPES OF BANKS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "financial-institutions",
+    "title": "Financial Institutions",
+    "subject": "Financial Institutions",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">FINANCIAL INSTITUTIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "financial-market",
+    "title": "Financial Market",
+    "subject": "Financial Market",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">FINANCIAL MARKET</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "stock-market",
+    "title": "Stock Market",
+    "subject": "Stock Market",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">STOCK MARKET</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "commodity-exchange",
+    "title": "Commodity Exchange",
+    "subject": "Commodity Exchange",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">COMMODITY EXCHANGE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "stock-indices",
+    "title": "Stock Indices",
+    "subject": "Indian Economy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">STOCK INDICES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  <div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 275)</div><h5>Prominent Stock Indices Of Famous Markets</h5>\n<p>Some Prominent Stock Indices of Famous Markets</p><ul><li>Index: Dollex, SENSEX. S&P CNX. NIFTY-FIFTY BANKEX \u2013 Country: India</li><li>Index: Dow Jones \u2013 Country: United States (New York)</li><li>Index: Nikkei \u2013 Country: Japan</li><li>Index: MID-DAX \u2013 Country: Germany</li><li>Index: HANG SENG \u2013 Country: Hong Kong</li><li>Index: STRAITS TIMES. SIHEX \u2013 Country: Singapore</li><li>Index: KOSPI \u2013 Country: Korea</li><li>Index: SET \u2013 Country: Thailand</li><li>Index: TAIEN \u2013 Country: Taiwan</li><li>Index: SHANGHAI COM \u2013 Country: China</li><li>Index: NASDAQ \u2013 Country: USA</li></ul><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> List of major stock indices across various countries.</li></ul>\n</div>\n"
+  },
+  {
+    "id": "insurance",
+    "title": "Insurance",
+    "subject": "Indian Economy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">INSURANCE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  <div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 275)</div><h5>Insurance Sector In India</h5>\n<p>Insurance has been an important part of the Indian financial system. Until recently, insurance services were provided by the public sector i.e. life insurance by the Life Insurance Corporation of India and general insurance by the General Insurance Corporation and its four subsidiaries.</p><p><strong>(i) General Insurance Corporation (GIC)</strong></p><p>Established on 1st January, 1973, It has four subsidiary companies, which are as follows</p><ul><li>i. National Insurance Company Limited, Kolkata.</li><li>ii. The New India Assurance Company Limited, Mumbai.</li><li>iii. The Oriental and Insurance Company Limited, New Delhi.</li><li>iv. United India Fire and General Insurance Company Limited, Chennai.</li></ul><p><strong>(ii) Life Insurance Corporation (LIC)</strong></p><ul><li>\u2022 Established on 1st September, 1956.</li><li>\u2022 Head office Mumbai, Zonal offices 7 (Mumbai, Kolkata, Delhi, Chennai, Kanpur, Hyderabad and Bhopal).</li></ul><p><strong>Reforms in Insurance Sector</strong></p><p>The reforms in the insurance sector started with the enactment of Insurance Regulatory and Development Authority Act, 1999. The Act paved the way for the entry of private insurance companies into the insurance market and also Constitution of Insurance Regulatory and Development Authority. In 1993, Malhotra Committee was set-up to recommend reforms in insurance sector.</p><p><strong>Insurance Regulatory and Development Authority of India (IRDAI)</strong></p><ul><li>\u2022 IRDAI was constituted on 19th April, 2000 to protect the interest of the holders of insurance policies and to regulate, promote and ensure orderly growth of the insurance industry. The authority consists of a Chairperson, three whole-time members and four part-time members.</li><li>\u2022 It provides for regulating the insurance sector, the authority has been issuing regulations covering almost the entire segment of insurance industry, namely; regulation on insurance agents, solvency margin, re-insurance, registration of insurers, obligation of insurers to rural and social sector, accounting procedure etc.</li></ul><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Overview of insurance sector in India, covering GIC, LIC, reforms, and IRDAI.</li></ul>\n</div>\n"
+  },
+  {
+    "id": "tax-structure",
+    "title": "Tax Structure",
+    "subject": "Indian Economy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">TAX STRUCTURE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  <div style=\"font-size: 0.8em; color: var(--text-secondary); margin-bottom: 8px; font-style: italic;\">Source: pathfinder_studies.pdf (Page 275)</div><h5>Direct And Indirect Taxes</h5>\n<p>TAX STRUCTURE</p><p>Tax is a compulsory payment by the citizens to the government to meet the public expenditure. It is legally imposed by the government on the taxpayer and in no case taxpayer can deny to pay taxes to the government. Tax can be direct or indirect, which are as follows</p><p><strong>Direct Tax</strong></p><p>A direct tax is that tax, which is borne by the person on whom it is levied. A direct tax cannot be shifted to other person.</p><p>Some of the direct taxes are as follows</p><ul><li>i. Income Tax It is the tax levied directly on the income of the people by the Central Government.</li><li>ii. Corporate Tax It is levied on the profit of the companies or corporations. It is the largest source of revenue of the Central Government, covering about 18% of the total revenue.</li><li>iii. Wealth Tax This tax is levied on the net wealth of the individuals, Hindu undivided family and joint stock companies. It is a minor source of revenue of the government, primarily imposed to reduce concentration of wealth in the society.</li><li>iv. Gift Tax This tax is imposed by the Central Government on all donations and gifts over and above the prescribed limits to the family members. However, donation given by the charitable institutions and companies is not covered under gift tax. This tax is basically imposed to check the evasion of estate duty and wealth tax.</li><li>v. Interest Tax This tax is imposed on the interest income of the commercial banks on their gross loans and advances. Presently, it is not in force in India.</li></ul><p><strong>Indirect Tax</strong></p><p>Indirect taxes are those taxes which have their primary burden or impact on one person, but that person succeeds in shifting his burden on to others.</p><p>Direct Tax</p><p>Indirect Tax</p><p>Personal Income Tax</p><p>Excise Duty</p><p>Corporation Tax</p><p>Custom Duty</p><p>Wealth Tax</p><p>Sales Tax</p><p>Gift Tax</p><p>Service Tax</p><p>Land Revenue</p><p>Value Added Tax</p><p>Profession Tax</p><p>Passenger Tax</p><p>Stamp Duty and Registration Charges</p><p>Entertainment Tax</p><p>Securities Transaction Tax</p><p>Electricity Duty</p><p>Banking Cash Transaction Tax</p><p>Motor Vehicles Tax</p><h4 style=\"border-left: 3px solid var(--warning); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">KEY DETAILS</h4><ul><li><strong>Summary:</strong> Explanation of direct and indirect taxes in India, with examples.</li></ul>\n</div>\n"
+  },
+  {
+    "id": "goods-and-services-tax",
+    "title": "Goods And Services Tax",
+    "subject": "Gst",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">GOODS AND SERVICES TAX</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "financial-relations-between-centre-and-states",
+    "title": "Financial Relations Between Centre And States",
+    "subject": "Public Finance",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">FINANCIAL RELATIONS BETWEEN CENTRE AND STATES</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "role-and-recommendations",
+    "title": "Role And Recommendations",
+    "subject": "Finance Commission",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">ROLE AND RECOMMENDATIONS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "union-budget",
+    "title": "Union Budget",
+    "subject": "Union Budget",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">UNION BUDGET</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
   }
 ];
