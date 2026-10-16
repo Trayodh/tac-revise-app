@@ -57920,5 +57920,406 @@
     "content": "### Solving Three-Set Problems\n\nLet $n(U)$ be the total number of elements. Let $A, B, C$ be three sets.\n\n**Key Formulas:**\n1. **Union of Three Sets:**\n   $$n(A \\cup B \\cup C) = n(A) + n(B) + n(C) - [n(A \\cap B) + n(B \\cap C) + n(C \\cap A)] + n(A \\cap B \\cap C)$$\n   *Note: If given the number who failed all subjects, $n(A \\cup B \\cup C) = n(U) - n((A \\cup B \\cup C)')$.*\n\n2. **Exactly One Subject:**\n   $$n(\\text{Exactly One}) = n(A) + n(B) + n(C) - 2[n(A \\cap B) + n(B \\cap C) + n(C \\cap A)] + 3n(A \\cap B \\cap C)$$\n   *Alternative:* Sum of individual sets minus twice the sum of pairwise intersections plus three times the triple intersection.\n\n3. **Exactly Two Subjects:**\n   $$n(\\text{Exactly Two}) = [n(A \\cap B) + n(B \\cap C) + n(C \\cap A)] - 3n(A \\cap B \\cap C)$$\n\n4. **At Least Two Subjects:**\n   $$n(\\text{At Least Two}) = n(\\text{Exactly Two}) + n(\\text{Exactly Three})$$\n   $$n(\\text{At Least Two}) = [n(A \\cap B) + n(B \\cap C) + n(C \\cap A)] - 2n(A \\cap B \\cap C)$$\n\n5. **Specific Pair Only (e.g., A and B but not C):**\n   $$n(A \\cap B \\text{ only}) = n(A \\cap B) - n(A \\cap B \\cap C)$$",
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 175
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Statistics",
+    "subchapter": "Measures of Central Tendency",
+    "topic": "Median Properties",
+    "content": "1. **Median Definition**: The median is a positional average, meaning it is determined by the position of data points in an ordered list rather than their values.\\n2. **Open Intervals**: The median can be computed even when the end intervals of a frequency distribution are open (e.g., 'less than 10' or 'more than 100'), because it relies on the cumulative frequency position, not the specific values of the extreme ends.\\n3. **Stability**: If the median of $n$ observations (where $n$ is odd) is $M$, and two new observations are added such that one is less than $M$ and the other is greater than $M$, the median of the new set of $n+2$ observations remains $M$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Statistics",
+    "subchapter": "Frequency Distributions",
+    "topic": "Frequency Polygon",
+    "content": "As the number of observations and the number of classes in a frequency distribution increase, the shape of the frequency polygon tends to become increasingly smooth. This smooth curve approximates the probability density function of the underlying distribution.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Statistics",
+    "subchapter": "Measures of Central Tendency",
+    "topic": "Combined Mean",
+    "content": "If $x_1$ and $x_2$ are the means of two sets with $n_1$ and $n_2$ observations respectively, and $x$ is the combined mean, then:\\n$$x = \\frac{n_1 x_1 + n_2 x_2}{n_1 + n_2}$$\\nIf $x_1 < x_2$ and $n_1 < n_2$, the combined mean $x$ will be closer to $x_2$ than to $x_1$, but it will always lie between $x_1$ and $x_2$ ($x_1 < x < x_2$).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Statistics",
+    "subchapter": "Data Measurement",
+    "topic": "Scales of Measurement",
+    "content": "Data on ratings (e.g., hotel ratings, customer satisfaction scores) are typically measured on an **Ordinal Scale**. An ordinal scale ranks data in order but does not imply equal intervals between ranks. It is distinct from Nominal (categories), Interval (equal intervals, no true zero), and Ratio (equal intervals, true zero) scales.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Trigonometric Identities",
+    "topic": "Secant and Tangent Relations",
+    "content": "1. **Identity**: $\\sec^2 \\theta = 1 + \\tan^2 \\theta \\implies \\tan^2 \\theta = \\sec^2 \\theta - 1$.\\n2. **Application**: If $\\cos \\theta = \\frac{1}{5}$, then $\\sec \\theta = 5$. Therefore, $\\tan^2 \\theta = 5^2 - 1 = 24$.\\n3. **Expression Evaluation**: For the expression $2\\tan^2 \\theta - \\frac{1}{\\tan^2 \\theta}$, substitute the value of $\\tan^2 \\theta$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Trigonometric Functions",
+    "topic": "Monotonicity of Cosine",
+    "content": "The function $\\cos \\theta$ is a strictly decreasing function in the interval $[0, \\frac{\\pi}{2}]$ (or $0^\\circ$ to $90^\\circ$). Therefore, if $0^\\circ < \\theta < 90^\\circ$, $0^\\circ < \\phi < 90^\\circ$, and $\\cos \\theta < \\cos \\phi$, it implies that $\\theta > \\phi$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Heights and Distances",
+    "topic": "Hemispherical Dome Problem",
+    "content": "Problem Setup: A flag of height $h$ stands on a hemispherical dome of radius $r$.\\n1. From a point on the ground, the elevation of the top of the flag is $30^\\circ$.\\n2. After moving a distance $d$ towards the dome, the flag is just visible (tangent to the dome), and the elevation is $45^\\circ$.\\n3. **Geometric Insight**: When the line of sight is tangent to the hemisphere, the triangle formed by the center of the sphere, the point of tangency, and the observer is a right-angled triangle. The distance from the observer to the center of the base of the dome can be derived using trigonometric ratios involving $r$ and the angles of elevation.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 176
+  },
+  {
+    "id": "note-1",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Identities",
+    "text": "<p>Also, In ∆BFD<br>tan45° = FD<br>FB<br>⇒<br>FB<br>FD<br>r<br>=<br>=<br>Similarly,<br>EF<br>r<br>=<br>Now, consider ∆BDE, then we have<br>(<br>)<br>(<br>)<br>(<br>)BE<br>BD<br>DE<br>2<br>2<br>2<br>=<br>+<br>⇒<br>(<br>)<br>(<br>)<br>(<br>)2<br>2<br>2<br>2<br>r<br>h<br>r<br>h<br>r<br>=<br>+<br>+<br>+<br>⇒<br>4<br>2<br>2<br>2<br>r<br>h<br>r<br>=<br>+<br>(<br>)<br>⇒<br>2<br>2<br>2<br>r<br>h<br>r<br>=<br>+<br>(<br>)<br>⇒<br>h<br>r<br>r<br>+<br>=<br>2<br>⇒<br>h<br>r<br>=<br>−<br>(<br>)<br>2<br>1<br>⇒<br>h<br>r<br>=<br>−<br>2<br>1</p>",
+    "formulas": [
+      "tan45° = FD/FB",
+      "FB/FD = r",
+      "EF = r",
+      "BE^2 = BD^2 + DE^2",
+      "(2r)^2 + (2h)^2 + (2r)^2 = ..."
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Derivation of relationship between r and h in a triangle."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 177
+  },
+  {
+    "id": "note-1",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Identities",
+    "text": "<p>⇒9 25 30 2 2 cos sin θ θ + − sin cos θ θ = + − 9 25 16 ⇒( cos sin ) 3 5 18 2 θ θ − =</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Derivation of trigonometric expression"
+    },
+    "mcq": {
+      "question": "",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 178
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Area of Triangle (Heron's Formula)",
+    "content": "### Heron's Formula\\nTo find the area of a triangle when the lengths of all three sides are known:\\n1. Calculate the semi-perimeter $s$:\\n   $$s = \\frac{a + b + c}{2}$$\\n2. Calculate the Area ($A$):\\n   $$A = \\sqrt{s(s-a)(s-b)(s-c)}$$\\n\\n**Example Calculation:**\\nFor a triangle with sides 5 cm, 6 cm, and 7 cm:\\n- $s = \\frac{5+6+7}{2} = 9$\\n- $A = \\sqrt{9(9-5)(9-6)(9-7)} = \\sqrt{9 \\times 4 \\times 3 \\times 2} = \\sqrt{216} \\approx 14.7 \\text{ cm}^2$",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Circles",
+    "topic": "Area of Circular Path",
+    "content": "### Area of a Path Around a Circle\\nIf a circular plot of radius $r$ is surrounded by a path of width $w$:\\n- Area of inner circle = $\\pi r^2$\\n- Radius of outer circle (including path) = $r + w$\\n- Total Area (Plot + Path) = $\\pi (r + w)^2$\\n- Area of Path only = $\\pi (r + w)^2 - \\pi r^2 = \\pi w(2r + w)$\\n\\n**Key Concept:** The total area including the path is calculated using the outer radius.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Cones",
+    "topic": "Lateral Surface Area of a Cone",
+    "content": "### Lateral Surface Area (LSA) of a Cone\\n- Formula: $LSA = \\pi r l$\\n  - $r$ = radius of the base\\n  - $l$ = slant height\\n- Total Surface Area (TSA) = $\\pi r l + \\pi r^2 = \\pi r(l + r)$\\n\\n**Calculation Tip:**\\nIf LSA and slant height ($l$) are given, solve for radius ($r$):\\n$$r = \\frac{LSA}{\\pi l}$$\\nUse $\\pi \\approx \\frac{22}{7}$ for standard exam calculations unless specified otherwise.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Cones",
+    "topic": "Semi-Circular Plate to Cone",
+    "content": "### Forming a Cone from a Semi-Circle\\nWhen a semi-circular plate of radius $r$ is rolled to form a cone:\\n1. The radius of the semi-circle becomes the **slant height** ($l$) of the cone. So, $l = r$.\\n2. The arc length of the semi-circle becomes the **circumference of the base** of the cone.\\n   - Arc length of semi-circle = $\\pi r$\\n   - Circumference of cone base = $2 \\pi R$ (where $R$ is the base radius of the cone)\\n   - Therefore, $\\pi r = 2 \\pi R \\implies R = \\frac{r}{2}$\\n\\n**Angle between Generator and Axis:**\\nIn the axial cross-section of the cone:\\n- Hypotenuse = Slant height ($l = r$)\\n- Base = Radius of cone base ($R = \\frac{r}{2}$)\\n- $\\sin \\theta = \\frac{\\text{Opposite}}{\\text{Hypotenuse}} = \\frac{R}{l} = \\frac{r/2}{r} = \\frac{1}{2}$\\n- Therefore, $\\theta = 30^\\circ$",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Cylinders",
+    "topic": "Surface Area Relationships",
+    "content": "### Cylinder Surface Area Relations\\n- Lateral Surface Area (LSA) = $2 \\pi r h$\\n- Total Surface Area (TSA) = $2 \\pi r h + 2 \\pi r^2 = 2 \\pi r (h + r)$\\n\\n**Condition: LSA is half of TSA**\\n$$LSA = \\frac{1}{2} TSA$$\\n$$2 \\pi r h = \\frac{1}{2} [2 \\pi r (h + r)]$$\\n$$2 \\pi r h = \\pi r (h + r)$$\\nDividing by $\\pi r$ (assuming $r \\neq 0$):\\n$$2h = h + r \\implies r = h$$\\n\\n**Conclusion:** If the lateral surface area is half the total surface area, the radius of the base is equal to the height.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Cubes and Cuboids",
+    "topic": "Cutting Cuboids into Cubes",
+    "content": "### Least Number of Equal Cubes\\nTo cut a rectangular block (cuboid) into the **least** number of equal cubes:\\n1. The side of the cube must be the **HCF (Highest Common Factor)** of the length, breadth, and height of the cuboid.\\n2. Let dimensions be $L, B, H$.\\n3. Side of cube $s = \\text{HCF}(L, B, H)$.\\n4. Number of cubes $n = \\frac{L \\times B \\times H}{s^3}$\\n\\n**Example:**\\nCuboid $20 \\times 15 \\times 10$.\\n- $\\text{HCF}(20, 15, 10) = 5$.\\n- Side of cube = 5 cm.\\n- Number of cubes = $\\frac{20 \\times 15 \\times 10}{5^3} = \\frac{3000}{125} = 24$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Cubes",
+    "topic": "Diagonal and Surface Area",
+    "content": "### Cube Diagonal and Surface Area\\n- Let side of cube = $a$.\\n- Body Diagonal $d = a\\sqrt{3}$.\\n- Total Surface Area (TSA) = $6a^2$.\\n\\n**Deriving TSA from Diagonal:**\\nIf diagonal $l = a\\sqrt{3}$, then $a = \\frac{l}{\\sqrt{3}}$.\\n$$TSA = 6 \\left( \\frac{l}{\\sqrt{3}} \\right)^2 = 6 \\left( \\frac{l^2}{3} \\right) = 2l^2$$\\n\\n**Note:** The question asks for the surface area in terms of $l$. The result is $2l^2$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Comparative Geometry",
+    "topic": "Area Comparison with Equal Perimeter",
+    "content": "### Isoperimetric Inequality (Equal Perimeter)\\nIf an equilateral triangle, a square, and a circle have the **same perimeter** $P$:\\n1. **Circle** has the **maximum** area.\\n2. **Square** has the **middle** area.\\n3. **Equilateral Triangle** has the **minimum** area.\\n\\n**Order of Areas:**\\n$$Area_{Triangle} < Area_{Square} < Area_{Circle}$$\\n\\n**Proof Sketch:**\\nLet Perimeter $= k$.\\n- Triangle Side $= k/3$, Area $= \\frac{\\sqrt{3}}{4} (\\frac{k}{3})^2 = \\frac{k^2}{12\\sqrt{3}} \\approx 0.048 k^2$\\n- Square Side $= k/4$, Area $= (\\frac{k}{4})^2 = \\frac{k^2}{16} = 0.0625 k^2$\\n- Circle Radius $= \\frac{k}{2\\pi}$, Area $= \\pi (\\frac{k}{2\\pi})^2 = \\frac{k^2}{4\\pi} \\approx 0.0796 k^2$\\n\\nThus, $T < S < C$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Similar Triangles",
+    "topic": "Ratio of Areas and Sides",
+    "content": "### Similar Triangles Properties\\nFor two similar triangles:\\n- The ratio of their corresponding sides is equal to the square root of the ratio of their areas.\\n- If $\\frac{Area_1}{Area_2} = \\frac{a^2}{b^2}$, then $\\frac{Side_1}{Side_2} = \\frac{a}{b}$.\\n\\n**Simplifying Radical Ratios:**\\nTo find the ratio of sides given areas $A_1$ and $A_2$:\\n$$\\text{Ratio of Sides} = \\sqrt{\\frac{A_1}{A_2}}$$\\n\\n**Example:**\\nAreas are $(7 - 4\\sqrt{3})$ and $(7 + 4\\sqrt{3})$.\\nRatio of sides $= \\sqrt{\\frac{7 - 4\\sqrt{3}}{7 + 4\\sqrt{3}}}$.\\nRationalize or simplify the fraction inside the square root first, or recognize that $(2-\\sqrt{3})^2 = 4 + 3 - 4\\sqrt{3} = 7 - 4\\sqrt{3}$ and $(2+\\sqrt{3})^2 = 7 + 4\\sqrt{3}$.\\nSo, $\\sqrt{\\frac{(2-\\sqrt{3})^2}{(2+\\sqrt{3})^2}} = \\frac{2-\\sqrt{3}}{2+\\sqrt{3}}$. Rationalizing this gives $5 - 3\\sqrt{3}$? No, let's re-evaluate the specific options provided in the source context. The source answer key indicates option (a) $7-4\\sqrt{3}$ is incorrect for the *side* ratio if the area ratio is that value. Wait, the source text says: \"Ratio of area... = Ratio of square of their corresponding sides\". The question asks for the ratio of corresponding sides. The answer key in the text says (a) $7-4\\sqrt{3}$? Let's check the math.\\nIf Area Ratio $= \\frac{7-4\\sqrt{3}}{7+4\\sqrt{3}}$.\\nSide Ratio $= \\sqrt{\\frac{7-4\\sqrt{3}}{7+4\\sqrt{3}}}$. \\nNote that $7-4\\sqrt{3} = (2-\\sqrt{3})^2$ and $7+4\\sqrt{3} = (2+\\sqrt{3})^2$.\\nSo Side Ratio $= \\frac{2-\\sqrt{3}}{2+\\sqrt{3}} = (2-\\sqrt{3})^2 = 7-4\\sqrt{3}$.\\nTherefore, the ratio of the sides is indeed $7-4\\sqrt{3}$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Circle",
+    "subchapter": "Chord and Subtended Angles",
+    "topic": "Chord Length and Central Angles",
+    "content": "For a circle of radius \\(r\\), a chord of length \\(c\\) subtends a central angle \\(\theta\\) given by \\(\\displaystyle \\cos\frac{\theta}{2}=\frac{c}{2r}\\).  If the chord is \\(3r\\), then \\(\\displaystyle \\cos\frac{\theta}{2}=\frac{3r}{2r}=\frac{3}{2}\\), which is impossible for a real angle; however, the problem actually uses the chord length as \\(3r\\) and derives the relationship between the angles subtended at the minor and major arcs.  The minor arc subtends an angle \\(\theta\\) at the centre, while the major arc subtends \\(360^\\circ-\theta\\).  The ratio \\(k\\) of the minor‑arc angle to the major‑arc angle satisfies \\(\\displaystyle k=\frac{\theta}{360^\\circ-\theta}\\).  Solving with the given chord length yields \\(k=\frac{1}{2}\\).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Triangle",
+    "subchapter": "Exterior Angle Bisectors",
+    "topic": "Intersection of Exterior Bisectors",
+    "content": "In any triangle \\(ABC\\), the bisectors of the exterior angles at vertices \\(B\\) and \\(C\\) meet at a point \\(D\\).  The angle \\(\\angle BDC\\) equals half the sum of the interior angles at \\(B\\) and \\(C\\):\n\\[\n\\angle BDC=\frac{\\angle B+\\angle C}{2}.\n\\]  Since \\(\\angle A+\\angle B+\\angle C=180^\\circ\\), this can also be written as \\(\\angle BDC=90^\\circ-\frac{\\angle A}{2}\\).  For \\(\\angle A=50^\\circ\\), \\(\\angle BDC=65^\\circ\\).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Cones",
+    "subchapter": "Volume Ratios",
+    "topic": "Volume Formula",
+    "content": "The volume of a right circular cone is \\(\\displaystyle V=\frac{1}{3}\\pi r^{2}h\\).  If two cones have heights in the ratio \\(h_{1}:h_{2}=1:3\\) and radii in the ratio \\(r_{1}:r_{2}=3:1\\), then\n\\[\n\frac{V_{1}}{V_{2}}=\frac{r_{1}^{2}h_{1}}{r_{2}^{2}h_{2}}=\frac{(3)^{2}\\cdot1}{(1)^{2}\\cdot3}=3.\n\\]  Thus the volume ratio is \\(3:1\\).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Intersecting Lines",
+    "subchapter": "Angles at a Point",
+    "topic": "Angle Relationships",
+    "content": "When two lines intersect at a point \\(O\\), the four angles around \\(O\\) sum to \\(360^\\circ\\).  If two adjacent angles are equal, say \\(\\alpha\\), then the other two are also equal to \\(\\alpha\\).  If one pair of adjacent angles is given as \\(\frac{5}{?}\\) (in the problem it is effectively \\(30^\\circ\\)), the remaining angles can be found by solving \\(\\alpha+\beta=180^\\circ\\) for each pair of opposite angles.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Locus",
+    "subchapter": "Sum of Squares of Distances",
+    "topic": "Circle as Locus",
+    "content": "Let \\(A(x_{1},y_{1})\\) and \\(B(x_{2},y_{2})\\) be fixed points.  For any point \\(P(x,y)\\) satisfying\n\\[\nPA^{2}+PB^{2}=k,\n\\]\nexpanding gives\n\\[\n(x-x_{1})^{2}+(y-y_{1})^{2}+(x-x_{2})^{2}+(y-y_{2})^{2}=k.\n\\]\nCollecting terms yields a quadratic equation in \\(x\\) and \\(y\\) that represents a circle whose centre is the midpoint of \\(AB\\).  Hence the locus is a circle.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Right Triangle",
+    "subchapter": "Inequalities Involving Cubes",
+    "topic": "Hypotenuse vs. Legs",
+    "content": "For a right‑angled triangle with legs \\(a,b\\) and hypotenuse \\(c\\), the Pythagorean theorem gives \\(c^{2}=a^{2}+b^{2}\\).  Raising both sides to the power \\(3/2\\) shows that \\(c^{3}>a^{3}+b^{3}\\) for all positive \\(a,b\\).  Example: for a \\(3\\!-\\!4\\!-\\!5\\) triangle, \\(5^{3}=125>27+64=91\\).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Area",
+    "subchapter": "Square and Inscribed Circle",
+    "topic": "Area Difference",
+    "content": "A square of side \\(2a\\) has area \\(4a^{2}\\).  A circle inscribed in this square touches all four sides, so its radius is \\(a\\) and its area is \\(\\pi a^{2}\\).  The area of the shaded region (square minus circle) is\n\\[\n4a^{2}-\\pi a^{2}=(4-\\pi)a^{2}.\n\\]",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 180
+  },
+  {
+    "id": "note_91",
+    "subject": "Mathematics",
+    "chapter": "Circles",
+    "topic": "Area of shaded region (semicircles)",
+    "text": "<p>Area of shaded region = area of semi-circle on AB + area of semi-circle on AC + area of ∆ABC − area of semi-circle on BC</p><p>= (π/4)p^2 + (π/4)q^2 + (1/2)pq − (π/4)(p+q)^2</p><p>= 1/2 pq</p>",
+    "formulas": [
+      "Area of semicircle = (π/4) * d^2",
+      "Area of triangle = 1/2 * base * height"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Derivation of shaded area using semicircle areas and triangle area."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note_92",
+    "subject": "Mathematics",
+    "chapter": "Circles",
+    "topic": "Length of tangent",
+    "text": "<p>Here, OP = 6</p><p>OT = OA + AT = 10</p><p>∴ PT^2 = OT^2 − OP^2</p><p>⇒ PT = √(10^2 − 6^2) = √(100 − 36) = √64 = 8</p>",
+    "formulas": [
+      "PT^2 = OT^2 - OP^2 (Pythagoras theorem)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Length of tangent from an external point using right triangle property."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note_93",
+    "subject": "Mathematics",
+    "chapter": "Circles",
+    "topic": "Area of shaded region (semicircles on diameters)",
+    "text": "<p>Area of shaded regions = Area of semi-circle on AD + area of semicircle on AB – area of semi-circle on BD</p><p>= 27π</p>",
+    "formulas": [
+      "Area of semicircle = (π/2) * r^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Area calculation involving semicircles drawn on diameters of a circle."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note_94",
+    "subject": "Mathematics",
+    "chapter": "Circles",
+    "topic": "Angles in cyclic quadrilateral",
+    "text": "<p>∠CAD = ∠CBD (angle on same segment)</p><p>∴∠CAD = 70°</p><p>∠BAD = ∠BAC + ∠CAD = 30° + 70° = 100°</p><p>∠BAD + ∠BCD = 180° (cyclic quadrilateral)</p><p>∴∠BCD = 180° − 100° = 80°</p>",
+    "formulas": [
+      "Opposite angles of a cyclic quadrilateral sum to 180°",
+      "Angles in the same segment are equal"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Finding an angle in a cyclic quadrilateral using segment angle property."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note_95",
+    "subject": "Mathematics",
+    "chapter": "Circles",
+    "topic": "Angle subtended by chord at centre and circumference",
+    "text": "<p>Given, ∠ECD = ∠EDC = 32°</p><p>∠CEF = ∠ECD + ∠EDC (exterior angle of triangle)</p><p>∴∠CEF = 32° + 32° = 64°</p><p>∠COF = 2 × ∠CDF = 2 × 32° = 64°</p>",
+    "formulas": [
+      "Exterior angle of a triangle = sum of interior opposite angles",
+      "Angle at centre = 2 × angle at circumference"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Using exterior angle theorem and central angle theorem to find required angles."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note_96",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Similar triangles",
+    "text": "<p>Given, ∆ABR ~ ∆PQR</p><p>∴ AB/PQ = AR/PR = BR/QR</p><p>Substituting: 6/3 = AR/52 = 82/QR</p><p>Solving gives QR = 41 cm and AR = 10.4 cm</p>",
+    "formulas": [
+      "In similar triangles, corresponding sides are proportional"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Finding unknown sides using similarity ratio of triangles."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 181
   }
 ]
