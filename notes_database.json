@@ -58321,5 +58321,743 @@
     },
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 181
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Right-Angled Triangle Properties",
+    "content": "### Geometric Mean Theorem (Altitude Rule)\\nIn a right-angled triangle, the altitude drawn from the right angle to the hypotenuse divides the triangle into two smaller triangles that are similar to the original triangle and to each other.\\n\\n**Key Formula:**\\nIf $\\triangle ABC$ is right-angled at $B$ and $BD \\perp AC$, then:\\n$$BD^2 = AD \\times DC$$\\n\\n**Derivation using Pythagoras Theorem:**\\n1. In $\\triangle ABD$: $BD^2 = AB^2 - AD^2$\\n2. In $\\triangle BCD$: $BD^2 = BC^2 - CD^2$\\n3. Adding these equations:\\n   $$2BD^2 = (AB^2 - AD^2) + (BC^2 - CD^2)$$\\n   Since $AB^2 + BC^2 = AC^2$ (Pythagoras in $\\triangle ABC$) and $AC = AD + DC$:\\n   $$2BD^2 = AC^2 - (AD^2 + CD^2)$$\\n   $$2BD^2 = (AD+DC)^2 - AD^2 - CD^2$$\\n   $$2BD^2 = AD^2 + 2AD\\cdot DC + DC^2 - AD^2 - CD^2$$\\n   $$2BD^2 = 2AD \\cdot DC \\implies BD^2 = AD \\cdot DC$$\\n\\n**Example Calculation:**\\nIf $AD = 9$ cm and $DC = 4$ cm:\\n$$BD = \\sqrt{9 \\times 4} = \\sqrt{36} = 6 \\text{ cm}$$",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 182
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Circles and Areas",
+    "topic": "Area of Shaded Regions",
+    "content": "### Area Calculation for Composite Figures\\nTo find the area of a shaded region in composite figures, use the subtraction method:\\n$$\\text{Area}_{\\text{shaded}} = \\text{Area}_{\\text{Total}} - \\sum \\text{Area}_{\\text{Removed Parts}}$$\\n\\n**Common Shapes and Formulas:**\\n1. **Semi-circle Area:** $\\frac{1}{2} \\pi r^2$\\n2. **Quadrant Area:** $\\frac{1}{4} \\pi r^2$\\n3. **Circle Area:** $\\pi r^2$\\n\\n**Example 1: Semi-circles and Inner Circle**\\n- Given: Diameter of bigger semi-circle = 108 cm ($R = 54$ cm).\\n- Two smaller semi-circles with diameter 54 cm ($r = 27$ cm) are removed.\\n- A central circle is inscribed. Let its radius be $r_c$.\\n- Using geometry of the figure (often involving Pythagoras in the triangle formed by centers), if the central circle touches the diameters and arcs, specific geometric relations apply. In the provided example, the radius of the smallest circle was found to be 18 cm.\\n- Calculation:\\n  $$\\text{Area} = \\frac{1}{2}\\pi(54)^2 - 2\\left[\\frac{1}{2}\\pi(27)^2\\right] - \\pi(18)^2$$\\n  $$= \\frac{1}{2}\\pi(2916) - \\pi(729) - \\pi(324)$$\\n  $$= 1458\\pi - 729\\pi - 324\\pi = 405\\pi \\text{ cm}^2$$\\n\\n**Example 2: Square with Quadrants and Circle Removed**\\n- Given: Square side = 4 cm. Four quadrants of diameter 2 cm (radius 1 cm) removed from corners. One circle of diameter 2 cm (radius 1 cm) removed from center.\\n- Calculation:\\n  $$\\text{Area} = \\text{Area}_{\\text{Square}} - 4(\\text{Area}_{\\text{Quadrant}}) - \\text{Area}_{\\text{Circle}}$$\\n  $$= 4^2 - 4\\left(\\frac{1}{4}\\pi(1)^2\\right) - \\pi(1)^2$$\\n  $$= 16 - \\pi - \\pi = 16 - 2\\pi$$\\n  Using $\\pi = \\frac{22}{7}$:\\n  $$= 16 - \\frac{44}{7} = \\frac{112 - 44}{7} = \\frac{68}{7} = 9 \\frac{5}{7} \\text{ cm}^2$$",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 182
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Equilateral Triangles and Parallel Lines",
+    "content": "### Properties of Equilateral Triangles with Parallel Lines\\nIf lines are drawn parallel to the sides of an equilateral triangle, they form smaller equilateral triangles.\\n\\n**Key Property:**\\nIn an equilateral triangle $ABC$, if $XY \\parallel BC$, $XP \\parallel AC$, and $YQ \\parallel AB$:\\n1. $\\triangle AXY$ is equilateral $\\implies AX = AY = XY$.\\n2. $\\triangle XBP$ is equilateral $\\implies XB = BP = XP$.\\n3. $\\triangle YQC$ is equilateral $\\implies YC = CQ = YQ$.\\n\\n**Relationship between segments:**\\n- $AB = AX + XB = XY + XP$\\n- $BC = BP + PQ + QC = XP + PQ + YQ$\\n- $AC = AY + YC = XY + YQ$\\n\\n**Solving for internal segment PQ:**\\nGiven $XY + XP + YQ = S$ and side length $a$.\\nFrom $BC = XP + PQ + YQ = a$, we have $PQ = a - (XP + YQ)$.\\nAlso, $XY + XP + YQ = S \\implies YQ = S - XY - XP$.\\nSubstituting into the $BC$ equation:\\n$XP + PQ + (S - XY - XP) = a$\\n$PQ + S - XY = a$\\n$PQ = a + XY - S$.\\n\\nAlternatively, using the specific relation derived in the example:\\n$AB + CQ = XY + XP + YQ$ is not directly true, but:\\n$AX + BX + CY = XY + XP + YQ = 40$.\\nSince $AX + BX = AB = 30$, then $30 + CY = 40 \\implies CY = 10$.\\nSince $\\triangle YQC$ is equilateral, $CQ = CY = 10$.\\nSimilarly, $BP = XP$.\\n$BC = BP + PQ + QC \\implies 30 = XP + PQ + 10$.\\nWe need $XP$. From $XY + XP + YQ = 40$ and $XY=AX, YQ=CY=10$.\\n$AX + XP + 10 = 40 \\implies AX + XP = 30$. Since $AX+XP = AB = 30$, this is consistent.\\nWait, the example logic: $AB + CQ = 40$? No.\\nLet's re-evaluate the example logic:\\n$XY + XP + YQ = 40$.\\n$AX + BX + CY = 40$.\\n$AB + CY = 40 \\implies 30 + CY = 40 \\implies CY = 10$.\\nSo $YQ = 10$ and $CQ = 10$.\\n$BC = BP + PQ + QC \\implies 30 = BP + PQ + 10 \\implies BP + PQ = 20$.\\nSince $BP = XP$, $XP + PQ = 20$.\\nAlso $XY + XP + 10 = 40 \\implies XY + XP = 30$.\\nSince $XY = AX$ and $AX + XP = AB = 30$, this is always true for any position.\\nHowever, the problem states $XY+XP+YQ=40$. This fixes the position.\\n$CQ = 10$. $BP = XP$.\\n$PQ = BC - BP - CQ = 30 - XP - 10 = 20 - XP$.\\nWe need another relation. Actually, in such symmetric problems, if the sum of the three parallel segments is given, the middle segment $PQ$ can be found by:\\n$PQ = (XY + XP + YQ) - AB$? No.\\nLet's look at the provided solution: $CQ = 40 - 30 = 10$. Then $PQ = 30 - 20 = 10$.\\nThis implies $BP + CQ = 20$. Since $BP=XP$ and $CQ=YQ$, $XP+YQ=20$.\\nThen $XY = 40 - 20 = 20$.\\n$PQ = BC - BP - CQ = 30 - (XP + YQ) = 30 - 20 = 10$.\\nSo, $PQ = \\text{Side} - (\\text{Sum of other two parallel segments})$? No.\\n$PQ = \\text{Side} - (XP + YQ)$. And $XP+YQ = \\text{Total Sum} - XY$.\\nActually, a simpler property: $XY + PQ = AB$? No.\\n$XY + XP + YQ = 40$. $AB=30$.\\n$PQ = 10$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 182
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Prepositions and Phrasal Verbs",
+    "topic": "Usage of 'Annoyed', 'Shout', 'Complain', and 'Insist'",
+    "content": "1. **Annoyed with**: Used when expressing anger or irritation towards a person. Example: 'My teacher was annoyed with us.'\n2. **Shout at vs. Shout to**: 'Shout at' implies anger or aggression towards someone. 'Shout to' implies an attempt to be heard by someone (e.g., across a distance). Example: 'Sandhya shouted at me.'\n3. **Complain of**: Used specifically when speaking about illnesses or physical ailments. Example: 'Ravi has the habit of complaining of a headache.'\n4. **Insist**: A transitive verb meaning to say firmly or demand forcefully. It does not require a preposition when followed by a noun or gerund in this context (e.g., 'insists going' is grammatically awkward in standard usage, but 'insists' alone fits the blank if the object is implied or if the structure is 'insists on [noun]', however, in the specific question context, 'insists' was the correct choice over prepositional phrases). Note: Standard grammar often uses 'insist on', but in the specific exam context provided, 'insists' was the key verb form required.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 183
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Phrasal Verbs",
+    "topic": "Usage of 'Get along' and 'Call on'",
+    "content": "1. **Get along**: Means to have a friendly relationship with others or to manage well. Example: 'The new student found it difficult to get along with his classmates.'\n2. **Call on**: Means to come to see or visit someone, especially formally. Example: 'The visiting Diplomat called on the Prime Minister.'\n   - *Distinction*: 'Call at' is used for places (e.g., call at the office). 'Call in' means to visit briefly or summon. 'Call upon' is similar to 'call on' but often implies a formal request or duty.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 183
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Conditionals and Subject-Verb Agreement",
+    "topic": "Inverted Conditionals, Tense Agreement, and Singular Plural Nouns",
+    "content": "1. **Inverted Conditionals (Third Conditional)**: In formal English, 'If he had been' can be inverted to 'Had he been' to emphasize the condition. This is used for past unreal situations. Example: 'Had he been sincere, he would have got the prize.'\n2. **Subject-Verb Agreement with Time Periods**: Periods of time (e.g., 'Ten years', 'Five days') are treated as a single unit and take a singular verb. Example: 'Ten years is a long time.'\n3. **Second Conditional (Hypothetical Present/Future)**: Used for unreal or unlikely situations in the present/future. Structure: If + Subject + Past Simple (were), Subject + would + Verb. Example: 'If I were you, I would love to accept the offer.' Note: 'Were' is used for all persons in formal/hypothetical contexts.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 183
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Reported Speech and Conjunctions",
+    "topic": "Usage of 'If' and 'Whether' in Indirect Questions",
+    "content": "1. **Indirect Questions with 'If'**: When reporting a yes/no question, 'if' or 'whether' can be used. However, in hypothetical or formal contexts, 'if' is often preferred. Example: 'My sister asked me if I were willing to go abroad.'\n2. **Tense Backshifting**: In reported speech, present tense often shifts to past tense. 'Are you willing?' becomes 'if I were willing' (using 'were' for hypothetical/formal tone or backshift from 'was' in some dialects, but 'were' is standard for subjunctive/hypothetical).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 183
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Synonyms",
+    "topic": "Meaning of 'Engaging'",
+    "content": "- **Word**: Engaging\n- **Meaning**: Delightful, pleasing, or attractive.\n- **Closest Synonym**: Appealing.\n- **Context**: An engaging environment is one that holds the interest of learners through its appeal and delightfulness.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 184
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Synonyms",
+    "topic": "Meaning of 'Previously'",
+    "content": "- **Word**: Previously\n- **Meaning**: Earlier, in the time gone by, before.\n- **Context**: Used to refer to actions or states that existed before the current time frame discussed in the text.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 184
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Contextual Usage",
+    "topic": "Meaning of 'Prevalence'",
+    "content": "- **Word**: Prevalence\n- **Meaning**: Widespread presence, common occurrence, or the extent to which something is found in a particular population or area at a given time.\n- **Context**: Often used in medical or statistical contexts to describe how common a disease or condition is.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 184
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Health & Nutrition",
+    "subchapter": "Nutritional Supplements",
+    "topic": "Curcumin and Cognitive Health",
+    "content": "- **Source**: Curcumin is found in turmeric.\n- **Properties**: It has anti-inflammatory and antioxidant properties.\n- **Benefits**: \n  1. Improves memory and mood in people with mild, age-related memory loss.\n  2. May help reduce the prevalence of Alzheimer's disease.\n  3. Enhances cognitive performance.\n- **Observation**: Senior citizens in India, where turmeric is a dietary staple, have a lower prevalence of Alzheimer's disease and better cognitive performance compared to other regions.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 184
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Interpretation of Statements",
+    "topic": "Fear and Aggression",
+    "content": "# Fear and Aggression\n\n- **Key Idea**: Fear can trigger aggressive behavior in both animals and humans.\n- **Example from Text**: The statement *\"A dog will bark more loudly and bite more easily when people are afraid of him, than when they treat him with contempt\"* illustrates how fear can provoke a defensive or hostile response.\n- **Psychological Basis**:\n  - *Fight-or-flight response*: When an organism perceives a threat, the sympathetic nervous system is activated, leading to increased heart rate, adrenaline release, and heightened alertness.\n  - *Learned behavior*: Repeated exposure to fear-inducing stimuli can reinforce aggressive responses.\n- **Human Parallel**: The MCQ 33 compares men with dogs, noting that both tend to attack when they feel weak or threatened.\n- **Practical Takeaway**: In conflict resolution, addressing underlying fears can reduce aggression and promote cooperation.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 185
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Interpretation of Statements",
+    "topic": "Vulnerability",
+    "content": "# Vulnerability\n\n- **Definition**: A state of being exposed to the possibility of being harmed or attacked, either physically or emotionally.\n- **Textual Example**: The phrase *\"You give promise of good hunting\"* is interpreted as indicating vulnerability, meaning the speaker is open to potential harm.\n- **Related Concepts**:\n  - *Exposure*: The degree to which an individual or group is susceptible to external threats.\n  - *Resilience*: The ability to recover from vulnerability or adversity.\n- **Application**: Recognizing vulnerability in negotiations or negotiations can help parties adopt protective strategies or build trust.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 185
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Modern Age Analysis",
+    "topic": "Contradictions in Modern Age",
+    "content": "# Contradictions in Modern Age\n\n- **Core Observation**: The author describes the contemporary era as *\"an age of contradictions consisting of constructive and destructive activities\"*.\n- **Constructive Activities**:\n  - Scientific advancements, global cooperation, humanitarian initiatives.\n- **Destructive Activities**:\n  - Political violence, environmental degradation, social unrest.\n- **Philosophical Lens**:\n  - *Dialectical Materialism*: Contradictions drive historical change.\n  - *Modernist Critique*: The tension between progress and regression.\n- **Implication for Readers**: Understanding these contradictions helps contextualize current events and anticipate future challenges.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 185
+  },
+  {
+    "subject": "English",
+    "chapter": "Idioms and Phrases",
+    "subchapter": "Common Idioms",
+    "topic": "Meaning of 'On the fly'",
+    "content": "**Idiom:** On the fly\n**Meaning:** To do something quickly without planning or thinking about it in advance.\n**Example:** The new rules have been created ‘on the fly’.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "English",
+    "chapter": "Idioms and Phrases",
+    "subchapter": "Common Idioms",
+    "topic": "Meaning of 'Follow suit'",
+    "content": "**Idiom:** Follow suit\n**Meaning:** Doing the same as someone else has just done.\n**Example:** When one airline reduces ticket prices, the others usually follow suit.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "English",
+    "chapter": "Idioms and Phrases",
+    "subchapter": "Common Idioms",
+    "topic": "Meaning of 'Close shave'",
+    "content": "**Idiom:** Close shave\n**Meaning:** A miraculous escape; a situation where one avoids something dangerous.\n**Example:** The car almost hit the child who ran out in front of it. It was a ‘close shave’.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "English",
+    "chapter": "Idioms and Phrases",
+    "subchapter": "Common Idioms",
+    "topic": "Meaning of 'At the crossroads'",
+    "content": "**Idiom:** At the crossroads\n**Meaning:** At an important point of a decision; when a choice must be made.\n**Example:** He is at the cross roads in his career—either he stays in his current job and waits for promotion or accepts a new post abroad.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "English",
+    "chapter": "Idioms and Phrases",
+    "subchapter": "Common Idioms",
+    "topic": "Meaning of 'A pearl of wisdom'",
+    "content": "**Idiom:** A pearl of wisdom\n**Meaning:** An important or valuable piece of advice.\n**Example:** The old woman shared her ‘pearls of wisdom’ with the youngsters.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "English",
+    "chapter": "Sentence Rearrangement",
+    "subchapter": "Jumbled Sentences",
+    "topic": "Logical Ordering Principles",
+    "content": "**Strategy for Jumbled Sentences:**\n1. Identify the main subject and verb to find the starting segment.\n2. Look for connecting words (conjunctions, prepositions) that link segments.\n3. Ensure the final sentence is grammatically complete and logically coherent.\n4. Check for pronoun references (e.g., 'it', 'they') that must refer to a previously mentioned noun.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "English",
+    "chapter": "Sentence Rearrangement",
+    "subchapter": "Jumbled Sentences",
+    "topic": "Logical Flow and Grammar",
+    "content": "### Sentence Rearrangement Strategy\n\n1.  **Identify the Subject and Verb**: Look for the main subject of the sentence. The first part (P, Q, R, or S) usually contains the subject or a strong introductory phrase.\n2.  **Check for Prepositional Phrases**: Phrases like \"in red\", \"of a warm home\", or \"besides conducting\" often attach to specific nouns or verbs. Ensure they follow the correct noun/verb.\n3.  **Look for Connectors**: Words like \"and\", \"but\", \"thereby\", \"thus\" indicate continuation or result. The clause following a connector must logically follow the previous clause.\n4.  **Subject-Verb Agreement**: Ensure the verb agrees with the subject. For example, \"The man... has been elected\" (singular) vs \"The government and job markets... must offer\" (plural).\n5.  **Logical Sequence**: \n    -   **Cause and Effect**: \"...that are causing social ferment\" explains the result of the crisis.\n    -   **Time/Sequence**: \"the day after tomorrow\" usually comes at the end or after the main action.\n    -   **Definition/Explanation**: \"is that we want to transform...\" explains the difficulty mentioned earlier.\n\n### Key Grammatical Patterns Observed:\n-   **Relative Clauses**: \"who stood first\", \"that towers over\", \"that grow into\". These usually follow the noun they modify.\n-   **Parallel Structure**: \"collects, tabulates and disseminates\" (verbs in a list).\n-   **Idiomatic Expressions**: \"votary of truth\", \"social ferment\", \"literary flourishes\".",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 188
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian Hill Stations",
+    "subchapter": "Himachal Pradesh",
+    "topic": "Dhauladhar Range",
+    "content": "## Dhauladhar Range\n- **Location**: Lies in the Kangra district of Himachal Pradesh, India.\n- **Nearby Hill Stations**: Dharamshala and McLeodganj.\n- **Significance**: A popular trekking destination because of its rugged terrain, snow‑capped peaks, and scenic valleys.\n- **Key Features**:\n  - Part of the Lesser Himalayas.\n  - Elevation ranges from about 1,500 m to 5,170 m (the highest peak, Hanuman Tibba).\n  - Offers trekking routes such as the Triund trek, Kareri Lake trek, and the Dhauladhar ridge trek.\n- **Tourist Tips**:\n  - Best visited between March and June and September to November.\n  - Carry warm clothing, proper trekking gear, and obtain local permits where required.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 189
+  },
+  {
+    "subject": "History",
+    "chapter": "Gandhi’s Experiments",
+    "subchapter": "Tolstoy Farm",
+    "topic": "Founding and Significance",
+    "content": "## Tolstoy Farm (1910)\n- **Founder**: Mahatma Gandhi, with financial support from his friend **Mahatma Kallenbach**, a Jewish architect.\n- **Purpose**: A communal settlement to experiment with **social, moral and religious** principles of Gandhi’s philosophy.\n- **Key Activities**:\n  - Practised *self‑sufficiency*, *non‑violence*, and *simple living*.\n  - Served as a model for cooperative communities worldwide.\n- **Historical Importance**:\n  - Considered one of Gandhi’s happiest periods; he often referred to the time spent there as formative for his later movements in India.\n  - Influenced later ashrams such as **Sabarmati** and **Swaraj Ashram**.\n- **Legacy**: Studied in research on cooperative societies and communal living; symbolizes the practical application of **Satyagraha** and **Sarvodaya**.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 189
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Development Planning",
+    "subchapter": "Decentralised Planning",
+    "topic": "Definition and Features",
+    "content": "## Decentralised Planning\n- **Definition**: A planning process that **starts at the grassroots level**, involving all beneficiaries directly in decision‑making.\n- **Direction of Flow**: Operates **bottom‑up** (from local communities to higher authorities) rather than top‑down.\n- **Key Characteristics**:\n  1. **Participatory** – local people, NGOs, and community groups actively contribute.\n  2. **Empowerment** – individuals and small groups gain authority to design and implement projects.\n  3. **Flexibility** – plans can be adapted to local conditions and needs.\n  4. **Accountability** – clear responsibility at the local level improves transparency.\n- **Contrast with Centralised Planning**: Centralised planning is top‑down, often less responsive to local nuances.\n- **Relevance**: Frequently linked with **socialist** or **mixed‑economy** models, but also adopted in **capitalist** contexts to improve efficiency and inclusiveness.\n- **Examples**: Panchayati Raj institutions in India, community‑driven development projects in Brazil (e.g., *Bolsa Família*), and participatory budgeting in Porto Alegre.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 189
+  },
+  {
+    "subject": "Education",
+    "chapter": "Discipline in Schools",
+    "subchapter": "Teacher‑Student Dynamics",
+    "topic": "Impact of Class Size on Discipline",
+    "content": "## Discipline and Class Size\n- **Core Idea**: Discipline becomes essential when a **single teacher** is responsible for a **large number of students**.\n- **Scenarios**:\n  - **Small Class (5‑6 students)**: A caring, intelligent teacher can manage without strict disciplinary measures; personal attention reduces misbehaviour.\n  - **Large Class (≈100 students)**: Without discipline, chaos ensues; structured rules are required to maintain order.\n- **Implications**:\n  - Over‑crowded schools often prioritize **mass education** over **creative intelligence**.\n  - Large institutions may compromise on individualized learning, leading to a reliance on **authoritative discipline** rather than **intrinsic motivation**.\n- **Educational Recommendation**: Balance between **school size** and **quality of teaching** to foster both discipline and creativity.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 189
+  },
+  {
+    "subject": "Philosophy / Education",
+    "chapter": "Self‑Knowledge and Teaching",
+    "subchapter": "Teacher‑Pupil Relationship",
+    "topic": "Truth, Self‑Knowledge and the Role of the Teacher",
+    "content": "## Truth, Self‑Knowledge and Teaching\n- **Premise**: *Truth* is more important than the teacher; however, **self‑knowledge** is the foundation for both.\n- **Key Points**:\n  1. **Self‑knowledge** transforms knowledge from a destructive instrument into a helpful tool.\n  2. **Wisdom** begins with self‑knowledge; without it, mere information can cause destruction.\n  3. To create a **perfect teacher**, one must first understand oneself.\n  4. The **seeker of truth** must act as both **pupil and teacher** – learning and imparting simultaneously.\n  5. A true teacher is **free from societal clutches**, avoids power politics, and does not seek authority.\n- **Educational Insight**: Emphasises **inner development** of educators before they can effectively guide students, aligning with Gandhian ideals of *self‑realisation* and *service*.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 189
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Antonyms",
+    "topic": "Meaning of 'Obscure'",
+    "content": "**Word:** Obscure\n**Meaning:** Something uncertain, doubtful, or not clearly expressed or understood.\n**Antonym:** Clear (easy to understand or transparent).\n**Example Context:** 'His ideas are obscure.' implies the ideas are hard to comprehend.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 190
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Antonyms",
+    "topic": "Meaning of 'Sanguine'",
+    "content": "**Word:** Sanguine\n**Meaning:** Optimistic or positive, especially in a bad or difficult situation.\n**Antonym:** Pessimistic (gloomy or believing that the worst will happen).\n**Example Context:** 'He makes the environment sanguine.' implies he creates a positive atmosphere.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 190
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Antonyms",
+    "topic": "Meaning of 'Woebegone'",
+    "content": "**Word:** Woebegone\n**Meaning:** Someone who is sad, miserable, or distressed in appearance.\n**Antonym:** Cheerful (noticeably happy and optimistic).\n**Example Context:** 'There prevailed a woebegone feeling in the room.' implies a sad or miserable atmosphere.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 190
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Antonyms",
+    "topic": "Meaning of 'Mutinous'",
+    "content": "**Word:** Mutinous\n**Meaning:** Refusing to obey authority; rebellious (often used in military contexts).\n**Antonym:** Obedient (willing to follow orders or rules).\n**Example Context:** 'The whole group is mutinous.' implies the group is refusing to obey.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 190
+  },
+  {
+    "subject": "History",
+    "chapter": "Modern Indian History",
+    "subchapter": "1857 Revolt",
+    "topic": "Role of Rumours and Prophecies",
+    "content": "**Key Concept:** The power of rumours and prophecies in history cannot be understood by checking their factual correctness alone. Instead, they must be analyzed in the context of the deeper fears, suspicions, faiths, and convictions of the people who believed them.\n**Context of 1857:** Rumours during the 1857 revolt began to make sense when viewed against the backdrop of British policies pursued from the late 1820s.\n**British Policies:** Under Governor General Lord William Bentinck, the British introduced Western education, ideas, and institutions. With the cooperation of sections of Indian society, they established English-medium schools, colleges, and universities teaching Western sciences and liberal arts.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 190
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Constitution of India",
+    "subchapter": "Making of the Constitution",
+    "topic": "Debate and Consensus",
+    "content": "**Process:** The Constitution of India emerged through a process of intense debate and discussion.\n**Consensus:** There was substantial agreement on one central feature: the granting of the vote to every adult Indian.\n**Significance:** This was an unprecedented act of faith. In other democracies like the United States and the United Kingdom, the vote had been granted slowly and in stages, often restricted to men with education.\n**Methodology:** Many provisions were arrived at through a process of 'give and take,' finding a middle ground between opposed positions.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 190
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Mechanics",
+    "subchapter": "Fluid Mechanics",
+    "topic": "Density of Mixture",
+    "content": "### Density of Mixture Formula\\nWhen two liquids with densities $\\rho_1$ and $\\rho_2$ are mixed in equal masses ($m$), the density of the mixture ($\\rho_{mix}$) is given by:\\n$$ \\rho_{mix} = \\frac{2 \\rho_1 \\rho_2}{\\rho_1 + \\rho_2} $$\\n\\n**Derivation:**\\n1. Mass of liquid A = $m$, Density = $\\rho_1$ \\( \\Rightarrow \\) Volume $V_1 = m/\\rho_1$\\n2. Mass of liquid B = $m$, Density = $\\rho_2$ \\( \\Rightarrow \\) Volume $V_2 = m/\\rho_2$\\n3. Total Mass = $2m$\\n4. Total Volume = $V_1 + V_2 = m/\\rho_1 + m/\\rho_2 = m(\\frac{\\rho_1 + \\rho_2}{\\rho_1 \\rho_2})$\\n5. Density of Mixture = $\\frac{\\text{Total Mass}}{\\text{Total Volume}} = \\frac{2m}{m(\\frac{\\rho_1 + \\rho_2}{\\rho_1 \\rho_2})} = \\frac{2 \\rho_1 \\rho_2}{\\rho_1 + \\rho_2}$",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Mechanics",
+    "subchapter": "Kinematics",
+    "topic": "Position, Velocity, and Acceleration Vectors",
+    "content": "### Vector Analysis of Motion\\nGiven a position vector $\\vec{r}(t)$, velocity and acceleration are derived as follows:\\n1. **Velocity ($\\vec{v}$):** First derivative of position with respect to time.\\n   $$ \\vec{v} = \\frac{d\\vec{r}}{dt} $$\\n2. **Acceleration ($\\vec{a}$):** First derivative of velocity (or second derivative of position) with respect to time.\\n   $$ \\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2} $$\\n\\n**Example Analysis:**\\nIf $\\vec{r} = t^2 \\hat{x} + 3t \\hat{y} + 4 \\hat{z}$:\\n- $\\vec{v} = \\frac{d}{dt}(t^2 \\hat{x} + 3t \\hat{y} + 4 \\hat{z}) = 2t \\hat{x} + 3 \\hat{y}$\\n  - Since the z-component is 0, velocity lies on the **xy-plane**.\\n- $\\vec{a} = \\frac{d}{dt}(2t \\hat{x} + 3 \\hat{y}) = 2 \\hat{x}$\\n  - Since only the x-component is non-zero, acceleration lies along the **x-direction**.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Mechanics",
+    "subchapter": "Laws of Motion",
+    "topic": "Tension in a Rope",
+    "content": "### Tension Required to Straighten a Rope\\nWhen a mass $m$ is suspended from the midpoint of a horizontal rope, the rope sags. To completely straighten the rope (make the angle with the horizontal zero), the vertical component of tension must balance the weight of the mass.\\n\\nAs the rope approaches the horizontal position, the angle $\\theta$ with the vertical approaches $90^\\circ$ (or angle with horizontal approaches $0^\\circ$). The tension $T$ required is given by:\\n$$ 2T \\sin(\\theta_{horizontal}) = mg $$\\nAs $\\theta_{horizontal} \\to 0$, $\\sin(\\theta_{horizontal}) \\to 0$. Therefore, $T \\to \\infty$.\\n\\n**Note:** In many simplified exam contexts, if the question asks for the force required to *hold* the mass stationary in a specific configuration or simply equates the force to the weight for a vertical lift, $F = mg$ is used. However, strictly speaking, straightening a sagging rope horizontally requires infinite tension. \\n\\n*Correction based on provided text logic:* The provided text calculates $F = ma = 20 \\times 10 = 200$ N. This implies the question context might be interpreted as the force required to support the weight directly or a specific simplified model where the tension equals the weight. Standard physics dictates infinite tension for perfect horizontal straightening of a sagging rope, but for exam purposes, if options include $mg$, it is often the intended answer for 'force to support' or specific static equilibrium interpretations in lower-level exams. However, option (d) 'infinitely large' is the rigorous physical answer for 'completely straighten'. The text selects (a) 200N. We will record the text's logic: $F = mg$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Modern Physics / Electronics",
+    "subchapter": "Energy Conversion",
+    "topic": "Electrical to Light Energy Conversion",
+    "content": "### Devices Converting Electrical to Light Energy\\n- **Light-Emitting Diode (LED):** Converts electrical energy directly into light energy via electroluminescence.\\n- **Laser:** Converts electrical energy into coherent light energy.\\n- **Television Set:** Converts electrical energy into light (and sound) energy.\\n- **Candle:** Converts **chemical energy** (from wax) into heat and light energy through combustion. It does **not** convert electrical energy.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "subchapter": "Absorption and Transport",
+    "topic": "Absorbing Organs in Plants",
+    "content": "### Main Absorbing Organs\\n- **Roots:** The primary absorbing organ in plants. They absorb water and soluble mineral salts from the soil.\\n- **Leaves:** Absorb gases (CO2, O2) and some water (hygroscopic), but are not the *main* organ for water/mineral absorption from soil.\\n- **Bark:** Not a primary absorbing organ.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "subchapter": "Functions of Leaves",
+    "topic": "Primary Functions of Green Leaves",
+    "content": "### Primary Functions of Green Leaves\\n1. **Manufacture of Food:** Photosynthesis occurs in the chloroplasts of leaf cells.\\n2. **Interchange of Gases:** Exchange of $CO_2$ and $O_2$ occurs through stomata.\\n3. **Evaporation of Water:** Transpiration occurs primarily through stomata.\\n\\n**Non-Primary Function:**\\n- **Conduction of Food and Water:** This is the function of vascular tissues (Xylem for water, Phloem for food), not the primary function of the leaf itself, although leaves contain these tissues.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Population Growth",
+    "subchapter": "",
+    "topic": "Decadal Growth Rate (2001‑2011 vs 1991‑2001)",
+    "content": "# Decadal Growth Rate (2001‑2011 vs 1991‑2001)\n\n| State | Growth 2001‑2011 (%) | Growth 1991‑2001 (%) |\n|-------|----------------------|----------------------|\n| Tamil Nadu | **15.60** | 11.19 |\n| Kerala | 4.90 | 9.42 |\n| Goa | 8.20 | 14.89 |\n| Andhra Pradesh | 11.00 | 14.59 |\n\n**Key Observation**: Tamil Nadu’s decadal growth rate increased from 11.19 % in 1991‑2001 to 15.60 % in 2001‑2011, indicating a higher population growth in the latter decade.\n\n---\n\n## Coral Reefs\n\n### Growth Conditions\nCoral reefs thrive under very specific environmental conditions:\n\n- **Saltwater only** – Freshwater environments do not support coral growth.\n- **Temperature** – Optimal range is **23 °C to 25 °C**.\n- **Depth** – Must be **shallow** (not deeper than 50 m) to allow sufficient sunlight.\n- **Sunlight** – Essential for photosynthesis of the symbiotic algae living in coral tissues.\n\nThese constraints explain why coral reefs are predominantly found in tropical and subtropical marine zones.\n\n---\n\n## Scheduled Castes\n\n### SC Population Percentage (Census 2011)\n\n| State | SC Population % of Total State Population |\n|-------|------------------------------------------|\n| Punjab | **31.9 %** |\n| Himachal Pradesh | 25.2 % |\n| West Bengal | 23.5 % |\n| Uttar Pradesh | 20.7 % |\n\nPunjab has the highest share of Scheduled Caste population among the listed states.\n\n---\n\n## Ports\n\n### Major Ports by State\n\n- **Tamil Nadu** – Chennai Port, Tuticorin Port, Ennore Port (more than two major ports).\n- **Maharashtra** – Jawaharlal Nehru Port Trust (Kandla), Mumbai Port (two major ports).\n- **West Bengal** – Only one major port.\n- **Odisha** – Only one major port.\n\nTamil Nadu is the only state among the options that has more than two major ports.\n\n---\n\n## Chemistry\n\n### Equivalent Weight Calculation\n\n**Formula**: \n\\[\n\text{Equivalent Weight} = \frac{\text{Molar Mass}}{\text{Valence (number of equivalents)}}\n\\]\n\n**Example – Ba(OH)₂**\n\n- Molar mass of Ba(OH)₂ = 137.3 (Ba) + 2 × (16 + 1) = 171.3 g mol⁻¹.\n- Ba(OH)₂ releases 2 OH⁻ ions → 2 equivalents.\n- Equivalent weight = 171.3 / 2 = **85.7 g eq⁻¹**.\n\n### Oxidation State of Nitrogen in Nitrogen Oxides\n\n| Compound | Oxidation State of N | Explanation |\n|----------|----------------------|-------------|\n| NO | +2 | O = –2, so N = +2 |\n| NO₂ | +4 | 2 × (–2) + N = 0 → N = +4 |\n| NO₂⁻ | +1 | 2 × (–2) + N = –1 → N = +1 |\n| NO₂⁵ | +5 | 5 × (–2) + N = 0 → N = +5 |\n\nThe highest oxidation state of nitrogen among these oxides is **+5** in NO₂⁵.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 194
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Lenses",
+    "topic": "Minimum Distance Between Object and Image",
+    "content": "### Minimum Distance Between Object and Image for a Convex Lens\\n\\n**Concept:**\\nFor a real image formed by a convex lens, the minimum distance between the object and the image is **four times the focal length** ($4f$).\\n\\n**Derivation:**\\n1. Let $u$ be the object distance and $v$ be the image distance.\\n2. Let $s$ be the total distance between the object and the image: $s = u + v$.\\n3. Using the lens formula: $\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$ (using sign convention where $u$ is negative, or magnitude form $\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}$ for real images).\\n   Using magnitudes: $\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} \\Rightarrow \\frac{u+v}{uv} = \\frac{1}{f} \\Rightarrow uv = f(u+v) = fs$.\\n4. Since $v = s - u$, substitute into the product equation:\\n   $u(s-u) = fs$\\n   $su - u^2 = fs$\\n   $u^2 - su + fs = 0$\\n5. For $u$ to be real, the discriminant of this quadratic equation must be non-negative:\\n   $D = (-s)^2 - 4(1)(fs) \\ge 0$\\n   $s^2 - 4fs \\ge 0$\\n   $s(s - 4f) \\ge 0$\\n6. Since $s > 0$, we must have $s \\ge 4f$.\\n\\n**Conclusion:**\\nThe minimum distance $s_{min} = 4f$. This occurs when the object is placed at $2f$ and the image is formed at $2f$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 195
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Magnetism",
+    "subchapter": "Earth's Magnetic Field",
+    "topic": "Components of Earth's Magnetic Field",
+    "content": "### Earth's Magnetic Field Components\\n\\n**1. Horizontal Component ($B_H$):**\\n- Defined as the component of the Earth's magnetic field along the horizontal plane in the magnetic meridian.\\n- The direction of the magnetic field at any location on Earth's surface is commonly specified in terms of this component relative to the vertical.\\n- Its value varies from place to place.\\n\\n**2. Magnetic Declination:**\\n- The acute angle between the **magnetic meridian** (direction of the magnetic needle) and the **geographical meridian** (true North-South line) at a given place.\\n\\n**3. Magnetic Inclination (Dip Angle):**\\n- The angle which the resultant Earth's magnetic field vector makes with the **horizontal surface** at a given place.\\n- It indicates how steeply the magnetic field lines dive into the Earth.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 195
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "subchapter": "Power and Safety",
+    "topic": "Calculating Maximum Load in Parallel Circuits",
+    "content": "### Maximum Number of Appliances in Parallel\\n\\n**Problem Context:**\\nDetermining the maximum number of identical appliances (e.g., bulbs) that can be connected in parallel without exceeding the fuse rating.\\n\\n**Key Formulas:**\\n- Power: $P = VI$\\n- Current per appliance: $I_{appliance} = \\frac{P}{V}$\\n- Total Current: $I_{total} = n \\times I_{appliance}$ (where $n$ is the number of appliances)\\n\\n**Calculation Logic:**\\n1. Identify the fuse rating (maximum safe current, $I_{max}$).\\n2. Calculate the current drawn by one appliance: $I_1 = \\frac{P}{V}$.\\n3. The maximum number of appliances $n$ is given by:\\n   $n = \\frac{I_{max}}{I_1} = \\frac{I_{max} \\times V}{P}$\\n4. The result must be an integer (round down if necessary to stay within safety limits).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 195
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "subchapter": "Heat Transfer",
+    "topic": "Fire Extinguishing Efficiency",
+    "content": "### Efficiency of Fire Extinguishing Agents\\n\\n**Principle:**\\nFire extinguishing involves the absorption of heat from the burning material to lower its temperature below the ignition point.\\n\\n**Comparison of Agents:**\\n- **Boiling Water:** Most effective among common liquids. When boiling water hits fire, it immediately converts to steam. The **latent heat of vaporization** required for this phase change is significantly higher than the sensible heat required to heat cold water to boiling point.\\n- **Cold Water:** Absorbs heat to raise its temperature to boiling, then vaporizes. Less efficient than boiling water because it spends energy on heating up first.\\n- **Ice:** Absorbs heat to melt (latent heat of fusion) and then heat up. Generally less efficient than boiling water for rapid extinguishing due to lower total heat absorption capacity per unit mass compared to the vaporization process of water at high temps.\\n\\n**Conclusion:**\\nBoiling water extinguishes fire more quickly than cold water, hot water, or ice because the heat absorbed during the conversion of hot water to steam is greater than the heat absorbed in heating cold water to the boiling temperature.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 195
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "subchapter": "Heat Transfer",
+    "topic": "Modes of Heat Transfer: Convection vs Radiation",
+    "content": "### Modes of Heat Transfer\\n\\n**1. Convection:**\\n- Transfer of heat by the **bulk movement of molecules** within fluids (liquids and gases).\\n- Requires a material medium.\\n- **Examples:**\\n  - Boiling water (circulation of hot and cold water).\\n  - Land and sea breezes (air circulation due to temperature differences).\\n  - Circulation of air around a blast furnace.\\n\\n**2. Radiation:**\\n- Transfer of heat in the form of electromagnetic waves.\\n- Does **not** require a material medium.\\n- **Example:**\\n  - Heating of the glass surface of a bulb due to the current in the filament. The filament emits infrared radiation which heats the glass. This is not convection because the heat transfer from the filament to the glass is primarily radiative, not due to bulk air movement inside the bulb (which is often evacuated or filled with inert gas to prevent convection).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 195
+  },
+  {
+    "subject": "General Studies - Economics",
+    "chapter": "World Bank Doing Business",
+    "subchapter": "India Ranking 2018",
+    "topic": "Improvement in Rankings (2017‑2018)",
+    "content": "### World Bank – Doing Business Report 2018 (India)\n- **Ranking improvement**: 100th (2017) → **77th (2018)** among 190 countries (jump of **23 positions**).\n- **Long‑term trend**: \n  - **53‑position rise** in the last **2 years** (2016‑2018).\n  - **65‑position rise** in the last **4 years** (2014‑2018).\n- **Parameters used for ranking** (10 total):\n  1. Starting a business\n  2. Construction permits\n  3. Getting electricity\n  4. Getting credit\n  5. Paying taxes\n  6. Trading across borders\n  7. Enforcing contracts\n  8. Resolving insolvency\n  9. (Other two parameters as per the World Bank – not listed in the source)\n- **Areas where India improved** (as per the MCQ): Paying taxes, Resolving insolvency, Starting a business, Getting electricity.\n\n---",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 197
+  },
+  {
+    "subject": "General Studies - Economics",
+    "chapter": "World Bank Doing Business",
+    "subchapter": "Parameters",
+    "topic": "Ease of Doing Business – 10 Parameters",
+    "content": "### The 10 Parameters of the Ease of Doing Business Index\n| # | Parameter |\n|---|-----------|\n| 1 | Starting a business |\n| 2 | Construction permits |\n| 3 | Getting electricity |\n| 4 | Getting credit |\n| 5 | Paying taxes |\n| 6 | Trading across borders |\n| 7 | Enforcing contracts |\n| 8 | Resolving insolvency |\n| 9 | (Not specified in the excerpt) |\n|10 | (Not specified in the excerpt) |\n\nThese parameters are used to rank 190 economies on how conducive the regulatory environment is for business operations.\n---",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 197
+  },
+  {
+    "subject": "General Studies - Economics",
+    "chapter": "Finance Commission",
+    "subchapter": "Fourteenth Finance Commission (2015‑2020)",
+    "topic": "Weights for Horizontal Distribution of Tax Revenues",
+    "content": "### 14th Finance Commission – Criteria & Weights\n| Criterion | Weight (%) |\n|-----------|------------|\n| 1. Income Distance | **50** |\n| 2. Population (1971) | **17.5** |\n| 3. Area | **15** |\n| 4. Demographic Change (2011) | **10** |\n| 5. Forest Cover | **7.5** |\n\n- The commission recommended a **record 10 % increase** in the states’ share of Union taxes, raising it to **42 %** (up from the 13th Commission).\n- Total devolution to states for the five‑year period (2015‑2020) is **₹ 39.48 lakh crore**.\n---",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 197
+  },
+  {
+    "subject": "General Studies - Economics",
+    "chapter": "Unemployment Theories",
+    "subchapter": "Natural Rate of Unemployment",
+    "topic": "Concept by Milton Friedman",
+    "content": "### Natural Rate of Unemployment\n- **Proponent**: **Milton Friedman** (1970s).\n- **Definition**: The rate of unemployment that exists when the labor market is in equilibrium – i.e., the number of workers willing to work at the prevailing wage equals the number of jobs available.\n- **Interpretation**: It reflects the **difference between those who would accept a job at the current wage rate and those who are able and willing to work**. It is considered the *non‑accelerating inflation rate of unemployment* (NAIRU).\n---",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 197
+  },
+  {
+    "subject": "General Studies - History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Harappan Sites",
+    "topic": "Kot Diji’s Proximity to Major Sites",
+    "content": "### Kot Diji (Harappan Site)\n- **Location**: In present‑day **Sindh, Pakistan**.\n- **Proximity**: Lies **east of Mohenjo‑daro**, one of the two principal urban centres of the Indus Valley Civilization.\n- **Significance**: Kot Diji is an early Harappan settlement that provides insight into the developmental phases preceding the mature Harappan phase seen at Mohenjo‑daro and Harappa.\n---",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 197
+  },
+  {
+    "subject": "General Studies - Literature",
+    "chapter": "Jataka Tales",
+    "subchapter": "Languages of the Jatakas",
+    "topic": "Language of *Gandatindu Jataka*",
+    "content": "### *Gandatindu Jataka*\n- **Language**: **Pāli**.\n- The Jataka stories, which recount the previous lives of the Buddha, were traditionally composed in **Pāli**, the liturgical language of Theravāda Buddhism.\n---",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 197
+  },
+  {
+    "subject": "Indian Polity",
+    "chapter": "Constitutional Developments",
+    "subchapter": "Indian Councils Act, 1861",
+    "topic": "Provisions and Powers",
+    "content": "- **Enactment**: Passed by the British Parliament on 1st August 1861.\n- **Objective**: To make substantial changes in the composition of the Governor-General's council.\n- **Executive Council**: A fifth finance member was added to the Executive Council of the Governor-General.\n- **Legislative Council Expansion**: The Governor-General’s Council was enlarged for legislative purposes.\n  - **Composition**: Between 6 and 12 additional members were to be nominated by the Governor-General.\n  - **Tenure**: Appointed for a period of 2 years.\n  - **Non-officials**: At least half of the additional members were to be non-official (British or Indian).\n- **Functions**: Confined exclusively to legislative measures.\n- **Restrictions**: Any bill related to public revenue or debt, military, religion, or foreign affairs could not be passed without the Governor-General’s assent.\n- **Powers of Governor-General/Viceroy**:\n  - Power to overrule the council if necessary.\n  - Power to promulgate ordinances without the council’s concurrence during emergencies.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 198
+  },
+  {
+    "subject": "Indian Polity",
+    "chapter": "Constitutional Developments",
+    "subchapter": "Objectives Resolution",
+    "topic": "Significance and Adoption",
+    "content": "- **Mover**: Jawaharlal Nehru.\n- **Date Moved**: 13th December 1946, in the 1st Session of India’s Constituent Assembly.\n- **Date Adopted**: Unanimously adopted on 22nd January 1947.\n- **Nature**: It was not just a resolution, but a declaration, a firm resolve, and a pledge.\n- **Significance**:\n  - Inspired the shaping of the Constitution through all its subsequent stages.\n  - Provided the underlying philosophy of the Indian Constitution.\n  - Laid down the fundamentals and philosophy of the constitutional structure.\n- **Key Declaration**: The Constituent Assembly declared its firm resolve to proclaim India an Independent Sovereign Republic and draw up a Constitution for her governance.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 198
+  },
+  {
+    "subject": "Current Affairs",
+    "chapter": "International Relations & Defense",
+    "subchapter": "Sanctions and Legislation",
+    "topic": "CAATSA",
+    "content": "**CAATSA (Countering America's Adversaries Through Sanctions Act)**\n- **Nature**: Specifically enacted legislation.\n- **Target Countries**: Iran, North Korea, and Russia.\n- **Ultimate Goal**: To prevent revenue from flowing to the Russian Government (as stated by a senior State Department official).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 199
+  },
+  {
+    "subject": "Current Affairs",
+    "chapter": "Indian Economy & Governance",
+    "subchapter": "Taxation",
+    "topic": "Direct Tax Law Task Force",
+    "content": "**Task Force for New Direct Tax Law (Nov 2017)**\n- **Objective**: To review the Income-tax Act and draft a new direct tax law.\n- **Goals**: Better serve economic needs by widening the tax base, improving compliance, and enhancing ease of doing business.\n- **Convener**: Arbind Modi (Member, Central Board of Direct Taxes).\n- **Background**: Arbind Modi was a key contributor to the direct taxes code proposed by the previous United Progressive Alliance (UPA) Government.\n- **Composition**: Six-member panel set up by the Finance Ministry.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 199
+  },
+  {
+    "subject": "Current Affairs",
+    "chapter": "Indian Economy & Agriculture",
+    "subchapter": "Agricultural Policy",
+    "topic": "Minimum Support Price (MSP) 2018-19",
+    "content": "**MSP Hike for Kharif Crops 2018-19**\n- **Decision**: Approved by the Cabinet Committee on Economic Affairs (CCEA) chaired by PM Narendra Modi in July 2018.\n- **Maximum Increase**: Jowar (Hybrid).\n- **Price Change**: MSP for Jowar increased from ₹1700 to ₹2430.\n- **Context**: The hike was intended to give a major boost to farmers' income.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 199
+  },
+  {
+    "subject": "Current Affairs",
+    "chapter": "Indian Economy & Governance",
+    "subchapter": "Fiscal Policy",
+    "topic": "State Fiscal Deficit 2017-18",
+    "content": "**State Fiscal Deficit Trends (2017-18)**\n- **Overall Trend**: State governments in aggregate reverted to well below the 3% fiscal deficit threshold in FY 2017-18.\n- **Special Category States**: Recorded higher levels of fiscal deficit in 2017-18 compared to 2016-17.\n- **Comparison**: Deficit indicators worsened for Special Category States compared to Non-Special Category States.\n- **Threshold**: Most Special Category States recorded Gross Fiscal Deficits (GFDs) above the 3% mark.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 199
+  },
+  {
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "subchapter": "Decline of Mughal Empire",
+    "topic": "Aurangzeb's Later Years and Regional Conflicts",
+    "content": "- **Aurangzeb's Military Campaigns (1687):** In 1687, Aurangzeb ordered Mu’azzam (later Shah Alam) to march against the Sultanate of Golconda.\n- **Political Alliances:** During this period, Aurangzeb came close to Muqarrab Khan.\n- **Context:** These events occurred amidst internal conflicts, including the death of Shambhaji.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 200
+  },
+  {
+    "subject": "History",
+    "chapter": "Awadh Dynasty",
+    "subchapter": "Establishment of Awadh",
+    "topic": "First Nawab Wazir of Awadh",
+    "content": "- **First Nawab Wazir:** Saadat Khan Burhanul Mulk, also known as Saadat Ali Khan, was the first Nawab Wazir of Awadh in the 18th Century.\n- **Appointment:** He was appointed as Nawab in 1722.\n- **Capital/Court:** He established his court in Faizabad, near Lucknow.\n- **Foundation of Dynasty:** He took advantage of the weakening Mughal Empire in Delhi to lay the foundation of the Awadh dynasty.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 200
+  },
+  {
+    "subject": "History",
+    "chapter": "Mughal Architecture and Society",
+    "subchapter": "Travelers' Accounts",
+    "topic": "Jean Baptiste Tavernier's Observations on Varanasi",
+    "content": "- **Traveler:** Jean Baptiste Tavernier, a French traveler.\n- **Observation Date:** 1665.\n- **Architectural Description:** Tavernier described the architectural beauty of the Vindu Madhava temple on the side of the Ganges.\n- **Housing Material:** According to Tavernier, the majority of houses in Varanasi during the 17th century were made of **brick and mud**.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 200
+  },
+  {
+    "subject": "Polity",
+    "chapter": "State Government",
+    "subchapter": "Governor",
+    "topic": "Duties and Parliamentary Scrutiny of the Governor",
+    "content": "- **Appointment:** The Governor is appointed by the President or the Union Government.\n- **Parliamentary Questions:** The duties of the Governor as the Constitutional Head of the State **can** become the subject matter of questions or debate in the Parliament.\n- **Scrutiny:** When the Governor takes a decision independently of his Council of Ministers or acts as the Chief Executive of the State under President’s Rule, his actions are subject to scrutiny by the Parliament.\n- **Clarification:** Statement 1 (that duties do not become subject matter of debate) is incorrect. Statement 2 (that actions are subject to scrutiny) is correct.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 200
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Special Provisions for Certain States",
+    "subchapter": "Articles 371A-371J",
+    "topic": "Special Provisions for Assam",
+    "content": "- **Article:** Article 371B of the Constitution of India.\n- **State:** Assam.\n- **Key Features:** This article contains special provisions with respect to the State of Assam. It is mostly related to the Sixth Schedule and the functioning of the Legislative Assembly and the Sixth Schedule.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 200
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Special Provisions for Certain States",
+    "subchapter": "Jammu and Kashmir",
+    "topic": "Article 370",
+    "content": "- **Article:** Article 370 of the Constitution of India.\n- **State:** Jammu and Kashmir.\n- **Provision:** This article granted special autonomous status to the State of Jammu and Kashmir.\n- **Location in Constitution:** Drafted in Part XXI of the Constitution, which relates to Temporary and Transitional Provisions.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 200
+  },
+  {
+    "subject": "Indian Constitution",
+    "chapter": "Autonomous Districts",
+    "subchapter": "Powers of Governor",
+    "topic": "Autonomous Districts and Councils",
+    "content": "# Autonomous Districts and Councils\n\n- The Constitution allows the declaration of tribal‑dominated districts/areas as autonomous districts or regions by order.\n- No separate legislation is required for their creation.\n- The Governor has the following powers over autonomous districts:\n  - **Include or exclude** any area.\n  - **Increase, decrease, or diminish** the area.\n  - **Unite** two districts/regions.\n  - **Alter names and boundaries** of autonomous district councils.\n  - **Annul or suspend** Acts and Resolutions of the Autonomous District and Regional Council.\n\n## Key Points\n- Autonomous districts are established to protect the interests of tribal communities.\n- The Governor’s powers are exercised by order and are subject to constitutional limits.\n- These powers are administrative and do not require separate statutes.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 202
+  },
+  {
+    "subject": "Indian Constitution",
+    "chapter": "Audit Reports",
+    "subchapter": "Comptroller and Auditor General",
+    "topic": "Audit Reports of Union Accounts",
+    "content": "# Audit Reports of the Comptroller and Auditor General (CAG)\n\n- **Article 151** of the Constitution mandates that the audit reports of the CAG relating to the accounts of the Union are submitted to the **President**.\n- The President then causes the reports to be laid before each House of Parliament.\n- This process ensures transparency and accountability of the Union’s finances.\n\n## Key Points\n- The President acts as the custodian of the audit reports.\n- The reports are made available to both Houses for scrutiny.\n- This mechanism is part of the financial oversight system of the Indian government.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 202
+  },
+  {
+    "subject": "Indian Constitution",
+    "chapter": "Parliamentary Procedure",
+    "subchapter": "Procedure and Conduct of Business",
+    "topic": "Parliament's Legislative Competence",
+    "content": "# Procedure and Conduct of Business in Parliament\n\n- Parliament can legislate on matters listed in the **Union List** and the **Concurrent List** (Schedule VII).\n- It **cannot** discuss state matters that are exclusive to state legislatures.\n- Issues such as:\n  - Use of police force against Scheduled Castes and Tribes,\n  - Dealing with violent disturbances under Union control,\n  - Industrial labour demands\n  fall under the Union or Concurrent Lists and can be discussed.\n\n## Key Points\n- **Article 246** defines the legislative competence of Parliament.\n- State matters are generally outside Parliament’s purview unless they fall under the Concurrent List.\n- Parliament’s debates and discussions are guided by procedural rules and the Constitution.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 202
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Basic Concepts",
+    "topic": "Digits and Numerals",
+    "content": "## Digits and Numerals\n- **Digits**: The basic symbols used to represent numbers. In the decimal system the ten digits are **0, 1, 2, 3, 4, 5, 6, 7, 8, 9**.\n- **Numeral**: Any finite sequence of digits that represents a number. Example: `237` is a numeral representing the number two hundred thirty‑seven.\n- The decimal (base‑10) system is the most widely used positional number system.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 208
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Types of Numbers",
+    "topic": "Natural Numbers",
+    "content": "## Natural Numbers (ℕ)\n- Definition: Numbers used for counting – **1, 2, 3, …**.\n- Notation: \\(\\mathbb{N}\\).\n- **Smallest natural number**: 1.\n- **No greatest natural number** – for any \\(n \\in \\mathbb{N}\\) the successor \\(n+1\\) is also a natural number.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 208
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Types of Numbers",
+    "topic": "Whole Numbers",
+    "content": "## Whole Numbers (W)\n- Definition: Natural numbers **including zero** – **0, 1, 2, 3, …**.\n- Notation: \\(\\mathbb{W}\\) (sometimes written as \\(\\mathbb{N}_0\\)).\n- Properties:\n  - Every natural number is a whole number.\n  - Zero is the **only** whole number that is **not** a natural number.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 208
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Types of Numbers",
+    "topic": "Even Numbers",
+    "content": "## Even Numbers\n- Definition: Numbers divisible by 2.\n- General form: \\(2m\\) where \\(m \\in \\mathbb{N}\\).\n- First few even numbers: 2, 4, 6, 8, 10, …\n- Property: If \\(n\\) is even, then \\(n = 2k\\) for some integer \\(k\\).\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 208
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Types of Numbers",
+    "topic": "Odd Numbers",
+    "content": "## Odd Numbers\n- Definition: Numbers **not** divisible by 2.\n- General form: \\(2m-1\\) (or \\(2m+1\\)) where \\(m \\in \\mathbb{N}\\).\n- First few odd numbers: 1, 3, 5, 7, 9, …\n- Property: If \\(n\\) is odd, then \\(n = 2k+1\\) for some integer \\(k\\).\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 208
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Types of Numbers",
+    "topic": "Prime Numbers",
+    "content": "## Prime Numbers\n- Definition: Numbers greater than 1 that have **exactly two distinct positive divisors** – 1 and the number itself.\n- First few primes: 2, 3, 5, 7, 11, 13, …\n- **Key properties**:\n  1. **2 is the only even prime**.\n  2. A composite number \\(n\\) must have a prime divisor \\(p\\) such that \\(p \\le \\sqrt{n}\\). Hence, to test primality it suffices to check divisibility by primes up to \\(\\sqrt{n}\\).\n- **Prime numbers up to 100** (25 in total):\n  `2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97`.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 208
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Exam Pattern",
+    "topic": "Typical Questions",
+    "content": "## Typical NDA/CDS/AFCAT Questions from Number System\n- The chapter usually contributes **10‑12 marks** in the mathematics paper.\n- Questions often test:\n  - Basic definitions and properties of natural, whole, even, odd, and prime numbers.\n  - Simple statements (True/False) based on the above properties.\n  - Quick calculations involving divisibility, e.g., “The smallest natural number divisible by 2 and 3 is …”.\n- No complex problem‑solving is required; the focus is on **conceptual clarity** and **speed**.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 208
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Coprime and Twin Primes",
+    "topic": "Coprime Numbers",
+    "content": "### Coprime Numbers\n- **Definition**: Two natural numbers $x$ and $y$ are said to be coprime if they do not have any common divisor other than 1.\n- **Alternative Name**: Relatively prime numbers.\n- **Examples**: (9, 2), (5, 6), (11, 15).\n- **Divisibility Rule**: If $x$ and $y$ are coprime, and a number $p$ is divisible by both $x$ and $y$, then $p$ is also divisible by the product $xy$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 209
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Coprime and Twin Primes",
+    "topic": "Twin Primes",
+    "content": "### Twin Primes\n- **Definition**: A pair of prime numbers that differ by 2.\n- **Examples**: (3, 5), (11, 13).\n- **Note**: The text lists (7, 9) as an example, but 9 is not a prime number. Correct twin primes include (3,5), (5,7), (11,13), (17,19), etc.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 209
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Composite Numbers",
+    "topic": "Composite Numbers",
+    "content": "### Composite Numbers\n- **Definition**: Any number greater than one that is not a prime number.\n- **Examples**: 4, 6, 8, 9, etc.\n- **Special Case**: The number '1' is neither prime nor composite.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 209
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Integers",
+    "topic": "Definition and Types of Integers",
+    "content": "### Integers\n- **Definition**: The collection of positive numbers, negative numbers, and zero.\n- **Notation**: Denoted by $\\mathbb{Z}$ or $I$.\n- **Set Representation**: $\\mathbb{Z} = \\{\\dots, -3, -2, -1, 0, 1, 2, 3, \\dots\\}$.\n- **Relationship with other sets**: Every natural number and whole number is an integer. Thus, $\\mathbb{N} \\subset \\mathbb{W} \\subset \\mathbb{Z}$.\n\n### Types of Integers\n1. **Positive Integers ($I^+$)**: Set of all positive numbers. $I^+ = \\{1, 2, 3, 4, \\dots\\}$.\n2. **Negative Integers ($I^-$)**: Set of all negative numbers. $I^- = \\{\\dots, -3, -2, -1\\}$.\n3. **Non-negative Integers**: Integers that are either 0 or positive. Set: $\\{0, 1, 2, 3, \\dots\\}$.\n\n**Note**: '0' is neither positive nor negative.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 209
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Rational Numbers",
+    "topic": "Definition and Properties of Rational Numbers",
+    "content": "### Rational Numbers\n- **Definition**: Numbers expressed in the form $\\frac{p}{q}$, where $p$ and $q$ are integers, $q \\neq 0$, and $p, q$ are coprime.\n- **Notation**: Set represented by $\\mathbb{Q}$.\n- **Examples**: $\\frac{3}{5}, \\frac{3}{7}, -\\frac{7}{6}$.\n- **Decimal Expansion**: Every rational number has a decimal expansion that is either **terminating** or **non-terminating repeating**.\n  - Example (Terminating): $\\frac{1}{5} = 0.2$\n  - Example (Repeating): $\\frac{1}{3} = 0.333\\dots = 0.\\dot{3}$\n  - Example (Repeating): $\\frac{8}{44} = 0.181818\\dots = 0.\\overline{18}$\n- **Key Facts**:\n  - Zero is a rational number ($0 = \\frac{0}{1}$).\n  - Every natural number, whole number, and integer is a rational number.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 209
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Irrational Numbers",
+    "topic": "Definition and Properties of Irrational Numbers",
+    "content": "### Irrational Numbers\n- **Definition**: Numbers that cannot be expressed in the form $\\frac{p}{q}$ where $p$ and $q$ are integers and $q \\neq 0$.\n- **Decimal Form**: Non-terminating and non-repeating.\n- **Examples**: $\\sqrt{2}, \\sqrt{5}, \\sqrt{7}, \\pi, 0.101005001\\dots$\n- **Important Note**: The exact value of $\\pi$ is not $\\frac{22}{7}$ or $3.14$. $\\frac{22}{7}$ is a rational number (approximation), while $\\pi$ is irrational.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 209
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Real Numbers",
+    "subchapter": "Definition and Properties",
+    "topic": "Set of Real Numbers",
+    "content": "The set of real numbers, denoted by 'R', is the collection of all rational and all irrational numbers. This includes natural numbers, whole numbers, integers, rational numbers, and irrational numbers.\n\n**General Properties of R:**\n1. **Trichotomy Property:** If $x$ and $y$ are two real numbers, then either $x > y$, $y > x$, or $x = y$.\n2. **Inequality Properties:** If $x$ and $y$ are real numbers:\n   - If $x > y$, then $\\frac{1}{x} < \\frac{1}{y}$ (assuming $x,y \\neq 0$).\n   - If $x > y$, then $-x < -y$.\n   - If $x > y$, then $x + a > y + a$ for any real $a$.\n   - If $x > y$ and $a > 0$, then $xa > ya$.\n3. **Zero Product Property:** If $xy = 0$, then $x = 0$ or $y = 0$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 210
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Real Numbers",
+    "subchapter": "Algebraic Properties",
+    "topic": "Operations on Real Numbers",
+    "content": "Let '$*$' be any operation defined on $R$. The following properties hold for addition and multiplication on $R$:\n\n1. **Closure Property:** If $a \\in R$ and $b \\in R$, then $a * b \\in R$.\n2. **Associative Property:** If $a, b, c \\in R$, then $a * (b * c) = (a * b) * c$.\n3. **Commutative Property:** If $a, b \\in R$, then $a * b = b * a$.\n4. **Identity Element:** Let '$I$' be the identity, then $I * a = a * I = a$ for all $a \\in R$.\n   - Additive Identity: $0$ (since $0 + a = a + 0 = a$).\n   - Multiplicative Identity: $1$ (since $1 \\times a = a \\times 1 = a$).\n5. **Inverse Element:** Let $a'$ be the inverse of $a$, then $a * a' = a' * a = I$ for all $a \\in R$.\n   - Additive Inverse of $a$ is $-a$ (since $a + (-a) = 0$).\n   - Multiplicative Inverse of $a$ is $1/a$ (since $a \\times (1/a) = 1$).\n\n**Additional Properties:**\n- $R$ is closed under subtraction: If $a, b \\in R$, then $a - b \\in R$.\n- **Distributive Property:** If $a, b, c \\in R$, then $a \\times (b + c) = (a \\times b) + (a \\times c)$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 210
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Real Numbers",
+    "subchapter": "Absolute Value",
+    "topic": "Definition and Properties of Absolute Value",
+    "content": "The absolute value of a real number $x$ is denoted by $|x|$.\n\n**Definition:**\n$$|x| = \\begin{cases} x & \\text{if } x > 0 \\\\ 0 & \\text{if } x = 0 \\\\ -x & \\text{if } x < 0 \\end{cases}$$\n\n**Examples:**\n- $|5| = 5$\n- $|0| = 0$\n- $|-5| = -(-5) = 5$\n\n**Key Properties:**\n1. $|x| \\ge 0$ for all real $x$.\n2. $|x| = a$ implies $x = a$ or $x = -a$.\n3. $|x| > a$ implies $x > a$ or $x < -a$.\n4. $\\sqrt{x^2} = |x|$.\n   - If $x > 0$, $\\sqrt{x^2} = x$.\n   - If $x < 0$, $\\sqrt{x^2} = -x$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 210
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Integers",
+    "subchapter": "Factors and Multiples",
+    "topic": "Definition and Properties of Factors",
+    "content": "Let $a, b \\in I$ (Integers). We say that $a$ is a factor of $b$ if there exists an integer $p$ such that $b = ap$. This is written as $a | b$ (read as 'a divides b').\n\nIf $a$ is a factor of $b$, then $b$ is called a multiple of $a$.\n\n**Properties of Factors and Multiples:**\nFor real numbers $a$ and $b$, if $b = ac$, then '$a$' is a factor of '$b$' and we write $a | b$.\n1. **Transitivity:** If $a | b$ and $b | c$, then $a | c$.\n2. **Reflexivity:** $a | a$ for all $a \\in R$ (specifically integers in this context).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 210
   }
 ]

@@ -159,20 +159,21 @@ def robust_json_loads(raw_text):
     unescaped_quotes = len(re.findall(r'(?<!\\)"', clean))
     quote_fix = '"' if unescaped_quotes % 2 != 0 else ''
     
-    for fix in [quote_fix + '}', quote_fix + ']}', quote_fix + ']', '}', ']}', ']']:
+    for fix in [quote_fix + '}]}', quote_fix + '"}', quote_fix + ']}', quote_fix + '}', quote_fix + ']', '}]}', '"}', ']}', '}', ']']:
         for base in [fixed, fixed_all, clean]:
             try:
                 return json.loads(base + fix, strict=False)
             except Exception:
                 pass
             
-    last_brace = fixed.rfind('}')
-    if last_brace > 0:
-        for suffix in ['', ']}', ']', '}']:
-            try:
-                return json.loads(fixed[:last_brace+1] + suffix, strict=False)
-            except Exception:
-                pass
+    for base in [fixed, fixed_all, clean]:
+        last_brace = base.rfind('}')
+        if last_brace > 0:
+            for suffix in ['', ']}', ']', '}}', '}]}', '}]']:
+                try:
+                    return json.loads(base[:last_brace+1] + suffix, strict=False)
+                except Exception:
+                    pass
                 
     return json.loads(clean, strict=False)
 
@@ -246,7 +247,7 @@ def extract_content(b64_img, page_text, prompt):
     groq_key = os.environ.get("GROQ_API_KEY")
     if groq_key and page_text and len(page_text.strip()) > 30:
         groq_models = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"]
-        safe_page_text = page_text[:4000]
+        safe_page_text = page_text[:2800]
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"}
         
@@ -268,7 +269,7 @@ def extract_content(b64_img, page_text, prompt):
                         "model": g_model,
                         "messages": [{"role": "user", "content": fallback_prompt}],
                         "temperature": 0.1,
-                        "max_tokens": 4096
+                        "max_tokens": 2500
                     }
                     response = requests.post(url, headers=headers, json=data, timeout=60)
                     if response.status_code == 200:
