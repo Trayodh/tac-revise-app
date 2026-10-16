@@ -181,8 +181,8 @@ def extract_content(b64_img, page_text, prompt):
                 error_msg = str(e).lower()
                 print(f"API Error ({model_name}): {e}")
                 
-                if any(k in error_msg for k in ["quota", "resource_exhausted", "retry in", "rate-limit"]):
-                    print(f"Hard quota hit on {model_name}. Failing over to next model...")
+                if any(k in error_msg for k in ["quota", "resource_exhausted", "retry in", "rate-limit", "empty response"]):
+                    print(f"Failover trigger on {model_name}: {e}. Switching...")
                     break
                     
                 if "429" in error_msg or "too many requests" in error_msg or "exhausted" in error_msg:
