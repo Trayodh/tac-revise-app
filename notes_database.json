@@ -56393,5 +56393,1532 @@
     "content": "### Chord Length in a Circle using Heron's Formula\n\n**Problem Context:**\n- Circle radius $R = 8$ cm.\n- Chords $AB = AC = 12$ cm.\n- Find length of chord $BC$.\n\n**Method:**\n1. **Triangle $\\triangle ABO$:**\n   - Sides: $AB = 12$, $AO = 8$ (radius), $BO = 8$ (radius).\n   - This is an isosceles triangle.\n   - Semi-perimeter $s = \\frac{12 + 8 + 8}{2} = 14$ cm.\n\n2. **Area of $\\triangle ABO$ using Heron's Formula:**\n   - $\\text{Area} = \\sqrt{s(s-a)(s-b)(s-c)}$\n   - $\\text{Area} = \\sqrt{14(14-12)(14-8)(14-8)} = \\sqrt{14 \\cdot 2 \\cdot 6 \\cdot 6} = \\sqrt{1008} = 12\\sqrt{7}$ cm$^2$.\n\n3. **Height Calculation:**\n   - Let $BE$ be the height from $B$ to $AO$.\n   - $\\text{Area} = \\frac{1}{2} \\times \\text{Base} \\times \\text{Height} = \\frac{1}{2} \\times AO \\times BE$.\n   - $12\\sqrt{7} = \\frac{1}{2} \\times 8 \\times BE \\Rightarrow BE = 3\\sqrt{7}$ cm.\n\n4. **Chord $BC$ Length:**\n   - Since $AB = AC$, $\\triangle ABC$ is isosceles.\n   - The line $AO$ (radius to vertex $A$) bisects the chord $BC$ perpendicularly if extended, or more simply, the distance from center to chord $BC$ can be found, but the text uses a specific geometric property.\n   - *Correction based on text logic:* The text calculates $BE$ as the height of $\\triangle ABO$ with respect to base $AO$. However, to find $BC$, one typically uses the symmetry. In $\\triangle ABC$, if we drop a perpendicular from $A$ to $BC$, it bisects $BC$. Alternatively, using coordinates or the property that the perpendicular from the center to a chord bisects it.\n   - The text concludes $BC = 2 \\times BE$? No, the text states \"Length of $BC = 2 \\times BE$\" which implies a specific geometric configuration where $BE$ is half of $BC$ or related. Actually, in the standard solution for this specific problem type: The distance from the center $O$ to chord $BC$ is not $BE$. \n   - *Re-evaluating Text Logic:* The text calculates Area of $\\triangle ABO = 12\\sqrt{7}$. It finds height $BE$ corresponding to base $AO$ is $3\\sqrt{7}$. Then it states $BC = 2 \\times BE$. This implies that in the specific geometry, the segment $BE$ calculated is actually half the length of chord $BC$ or there is a symmetry argument. \n   - *Standard Geometric Approach:* Let $M$ be midpoint of $BC$. $OM \\perp BC$. In $\\triangle OMB$, $OB=8$. We need $OM$. In $\\triangle ABO$, area is $12\\sqrt{7}$. Also Area $= \\frac{1}{2} AB \\cdot AO \\sin(\\angle BAO)$. This path is complex. \n   - *Text's Specific Path:* The text asserts $BC = 2 \\times 3\\sqrt{7} = 6\\sqrt{7}$. This result is correct for the problem. The geometric justification is that the height of the triangle formed by the center and the chord endpoints relates to the chord length via the radius and the specific chord lengths given. Specifically, if we consider the triangle formed by the center and the two chord endpoints $B$ and $C$, and use the fact that $AB=AC$, the symmetry allows deriving the chord length. The value $6\\sqrt{7}$ is the correct answer.",
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 139
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Cyclic Quadrilaterals",
+    "topic": "Properties of Isosceles Trapezium and Cyclic Parallelogram",
+    "content": "1. **Isosceles Trapezium**: An isosceles trapezium is always a cyclic quadrilateral. This can be proven by showing that the sum of opposite angles is 180°.\n2. **Cyclic Parallelogram**: Any parallelogram that is cyclic must be a rectangle. \n   - *Proof*: In a parallelogram, opposite angles are equal ($\\angle B = \\angle D$). In a cyclic quadrilateral, the sum of opposite angles is 180° ($\\angle B + \\angle D = 180^\\circ$). Therefore, $2\\angle B = 180^\\circ \\implies \\angle B = 90^\\circ$. Since all angles are 90°, it is a rectangle.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 140
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Pythagoras Theorem Applications",
+    "topic": "Ladder Slipping Problem",
+    "content": "When a ladder slips down a vertical wall:\n1. The length of the ladder remains constant ($AC = DE$).\n2. Let the initial distance of the foot from the wall be $x_1$ and the initial height be $y_1$. Then $L^2 = x_1^2 + y_1^2$.\n3. Let the final distance be $x_2$ and final height be $y_2$. Then $L^2 = x_2^2 + y_2^2$.\n4. By equating the two expressions for $L^2$, one can solve for the unknown height or length.\n   - *Example Logic*: If bottom moves from 2.5m to 3.9m (2.5+1.4) and top slips 0.8m, let initial height be $x$. \n   - $L^2 = 2.5^2 + x^2$\n   - $L^2 = (2.5+1.4)^2 + (x-0.8)^2$\n   - Solving these simultaneous equations yields the length of the ladder.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 140
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Circle Properties",
+    "topic": "Intersecting Equal Circles",
+    "content": "1. **Configuration**: Two equal circles intersect such that each passes through the center of the other.\n2. **Common Chord Length**: The length of the common chord is given by $\\sqrt{3}r$, where $r$ is the radius of the circles.\n   - *Derivation*: The triangle formed by the two centers and one intersection point is equilateral with side $r$. The common chord is perpendicular to the line joining centers and bisects it. Using Pythagoras in the right-angled triangle formed by the radius, half the chord, and half the distance between centers ($r/2$):\n     $(\\text{Half Chord})^2 + (r/2)^2 = r^2 \\implies (\\text{Half Chord})^2 = \\frac{3r^2}{4} \\implies \\text{Half Chord} = \\frac{\\sqrt{3}r}{2}$.\n     Total Chord = $\\sqrt{3}r$.\n3. **Diameter Calculation**: If common chord is $10\\sqrt{3}$ cm, then $\\sqrt{3}r = 10\\sqrt{3} \\implies r = 10$ cm. Diameter $= 2r = 20$ cm.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 140
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Circle Properties",
+    "topic": "Circles through Points and Segment Angles",
+    "content": "1. **Uniqueness of Circle**: Exactly **one** circle can be drawn through three non-collinear points. It is not infinite.\n2. **Angles in Segments**:\n   - The angle subtended by an arc in the **major segment** is **acute** (less than 90°).\n   - The angle subtended by an arc in the **minor segment** is **obtuse** (greater than 90°).\n   - *Note*: An angle in a semicircle is exactly 90°.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 140
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangle Inequalities",
+    "topic": "Triangle Side Properties",
+    "content": "For any triangle with sides $a, b, c$:\n1. The sum of any two sides is greater than the third side ($a+b>c$).\n2. The difference of any two sides is less than the third side ($|a-b|<c$).\n   - Specifically: $AC - AB < BC$, $BC - AC < AB$, and $AB - BC < AC$ are all valid inequalities for any triangle ABC.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 140
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Properties of Triangles",
+    "content": "### Key Properties of Triangles\n1. **Triangle Inequality Theorem**: The difference between any two sides of a triangle is less than the third side. Also, the sum of any two sides is greater than the third side.\n2. **Perimeter vs. Medians**: The perimeter of a triangle is always greater than the sum of its three medians.\n   - Let $AD, BE, CF$ be the medians. $AB + BC + CA > AD + BE + CF$.\n3. **Point on Side Property**: In any triangle $ABC$, if $D$ is any point on side $BC$, then:\n   $$AB + AC + BC > 2AD$$\n   **Proof**: \n   - In $\\triangle ABD$: $AB + BD > AD$ (i)\n   - In $\\triangle ADC$: $AC + DC > AD$ (ii)\n   - Adding (i) and (ii): $AB + AC + (BD + DC) > 2AD \\Rightarrow AB + AC + BC > 2AD$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "3D Geometry",
+    "topic": "Inscribed Solids (Sphere, Cube, Cylinder, Cone)",
+    "content": "### Configuration: Cube inscribed in Sphere; Cylinder inscribed in Cube; Cone inscribed in Cylinder\n**Given Relationships:**\n- Let $R$ be the radius of the sphere.\n- Let $a$ be the side of the cube.\n- Let $r$ be the radius of the cylinder/cone.\n- Let $h$ be the height of the cylinder/cone.\n\n**Derivations:**\n1. **Sphere and Cube**:\n   - The diagonal of the cube equals the diameter of the sphere.\n   - $\\sqrt{3}a = 2R \\Rightarrow a = \\frac{2R}{\\sqrt{3}}$.\n2. **Cube and Cylinder**:\n   - The cylinder touches all vertical faces of the cube.\n   - Height of cylinder $h = a = \\frac{2R}{\\sqrt{3}}$.\n   - Diameter of cylinder = Side of cube $\\Rightarrow 2r = a \\Rightarrow r = \\frac{a}{2} = \\frac{R}{\\sqrt{3}}$.\n3. **Cylinder and Cone**:\n   - Cone is inside the cylinder with same height and diameter.\n   - Height of cone $h = \\frac{2R}{\\sqrt{3}}$.\n   - Radius of cone $r = \\frac{R}{\\sqrt{3}}$.\n\n**Formulas:**\n- Volume of Sphere: $V_s = \\frac{4}{3}\\pi R^3$\n- Volume of Cone: $V_c = \\frac{1}{3}\\pi r^2 h$\n- Volume of Cube: $V_{cube} = a^3$\n- Volume of Cylinder: $V_{cyl} = \\pi r^2 h$\n- Surface Area of Sphere: $SA_s = 4\\pi R^2$\n- Curved Surface Area of Cone: $CSA_c = \\pi r l$, where $l = \\sqrt{r^2 + h^2}$\n- Surface Area of Cube: $SA_{cube} = 6a^2$\n- Curved Surface Area of Cylinder: $CSA_{cyl} = 2\\pi r h$",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Quadrilaterals",
+    "topic": "Area of Quadrilaterals",
+    "content": "### Area of General Quadrilateral\nFor a quadrilateral $ABCD$ with a right angle at $B$:\n1. **Split into Triangles**: Draw diagonal $AC$ to split the quadrilateral into $\\triangle ABC$ and $\\triangle ADC$.\n2. **Calculate Diagonal**: Use Pythagoras theorem in the right-angled triangle.\n   - If $\\angle B = 90^\\circ$, then $AC^2 = AB^2 + BC^2$.\n3. **Area Calculation**:\n   - Area($\\triangle ABC$) = $\\frac{1}{2} \\times AB \\times BC$.\n   - Area($\\triangle ADC$) can be found using Heron's Formula if all three sides ($AD, DC, AC$) are known.\n   - Total Area = Area($\\triangle ABC$) + Area($\\triangle ADC$).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Triangles",
+    "subchapter": "Perimeter & Area",
+    "topic": "Difference of Perimeters of Two Triangles Sharing a Side",
+    "content": "When two triangles share a common side, the difference in their perimeters equals the difference in the lengths of their remaining sides. For triangles ABC and ADC sharing side AC, \n\n\\[\\text{Perimeter}(ABC) = AB + BC + AC\\]\n\\[\\text{Perimeter}(ADC) = AD + DC + AC\\]\n\nThe common side AC cancels out when subtracting the two perimeters:\n\n\\[\\text{Perimeter}(ABC) - \\text{Perimeter}(ADC) = (AB + BC) - (AD + DC).\\]\n\nIn the given problem, AB = 40 cm, BC = 9 cm, AD = 28 cm, DC = 15 cm, so the difference is 6 cm.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Circles",
+    "subchapter": "Equilateral Triangle",
+    "topic": "Circumradius and Side Length Relationship",
+    "content": "For an equilateral triangle of side \\(a\\), the circumradius \\(R\\) is given by\n\n\\[R = \\frac{a}{\\sqrt{3}}\\] \n\nor equivalently \\(a = R\\sqrt{3}\\).  If a triangle is inscribed in a circle of radius \\(20\\sqrt{3}\\) cm, then its side length is\n\n\\[a = 20\\sqrt{3} \\times \\sqrt{3} = 20 \\times 3 = 60\\text{ cm}.\\]\n\nThis formula is useful for any equilateral triangle inscribed in a circle.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Triangle Centers",
+    "subchapter": "Centroid",
+    "topic": "Distance from Vertex to Centroid in an Equilateral Triangle",
+    "content": "In an equilateral triangle, all classical centers (centroid, circumcenter, incenter, orthocenter) coincide at the same point.  Therefore, the distance from any vertex to the centroid equals the circumradius.  For a triangle inscribed in a circle of radius \\(20\\sqrt{3}\\) cm, the centroid is \\(20\\sqrt{3}\\) cm from each vertex.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Cuboids",
+    "subchapter": "Dimensions & Derived Quantities",
+    "topic": "Diagonal, Surface Area, Volume, and Sum of Cubes",
+    "content": "Let a cuboid have length \\(l\\), breadth \\(b\\), and height \\(h\\).\n\n* **Diagonal**: \\(d = \\sqrt{l^2 + b^2 + h^2}\\).\n* **Surface Area**: \\(SA = 2(lb + bh + hl)\\).\n* **Volume**: \\(V = lbh\\).\n* **Sum of Cubes of Dimensions**: \\(S = l^3 + b^3 + h^3\\).\n\nGiven the sum of dimensions \\(l + b + h = 22\\) cm and diagonal \\(d = 14\\) cm, one can solve for \\(l, b, h\\) using the equations above.  The derived surface area is 288 cm².  Additionally, the expression \\((S/V) - 3\\) simplifies to 1144 when the dimensions satisfy the given constraints.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Idiomatic Expressions",
+    "topic": "Common Idioms and Phrases",
+    "content": "# Common Idioms and Phrases\n\n| Idiom | Meaning | Example |\n|-------|---------|---------|\n| **turn out** | to happen in a particular way | *Nobody believed Ram at first but he turned out to be right.* |\n| **got away with** | to escape blame or punishment | *I parked my car in a no‑parking zone, but I got away with it.* |\n| **put you off** | to cause someone to lose interest | *You were going to apply for the job and then you decided not to, so what put you off?* |\n| **called off** | to cancel or abandon | *The football match had to be called off because of the weather.* |\n| **getting on** | to have a good relationship or progress well | *How are you getting on in your new job?* |\n| **in** (preposition) | used for enclosed spaces | *We live in a tower block.* |\n\nThese idioms are frequently tested in exams like NDA, CDS, and AFCAT to assess a candidate’s understanding of everyday English usage.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Synonyms",
+    "topic": "Synonym Usage",
+    "content": "# Synonym Usage\n\n| Word | Synonym | Context |\n|------|---------|---------|\n| **provocative** | *inflamatory* | *A provocative message had been doing rounds on social media.* |\n| **precipitation** | *rainfall* | *The differences include increase in mean temperature and heavy precipitation.* |\n| **anonymously** | *incognito* | *The portal will help victims to anonymously report cyber crime.* |\n| **terminal** | *incurable* | *He is suffering from a terminal disease.* |\n\nUnderstanding synonyms helps in selecting the correct answer when the question asks for a word with the same meaning.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Prepositions",
+    "topic": "Preposition Usage",
+    "content": "# Preposition Usage\n\n| Preposition | Typical Use | Example |\n|-------------|-------------|---------|\n| **in** | enclosed space | *We live in a tower block.* |\n| **at** | specific location or event | *We met at the station.* |\n| **over** | above but not touching | *The picture hangs over the sofa.* |\n| **above** | higher than | *The building is above the river.* |\n\nChoosing the correct preposition is crucial for accurate sentence construction and is a common focus in competitive exams.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "English Language",
+    "chapter": "Vocabulary",
+    "subchapter": "Synonyms and Antonyms",
+    "topic": "Advantage",
+    "content": "# Advantage\n\n**Definition**: A benefit or favorable circumstance that increases the likelihood of success.\n\n**Synonyms**: Asset, Benefit, Gain, Edge, Upper hand.\n\n**Antonyms**: Disadvantage, Drawback, Loss, Hindrance.\n\n**Example**: *Having a strong network is a significant advantage in the job market.*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "English Language",
+    "chapter": "Vocabulary",
+    "subchapter": "Synonyms and Antonyms",
+    "topic": "Asset",
+    "content": "# Asset\n\n**Definition**: Something valuable or useful that contributes to a person's or organization's success.\n\n**Synonyms**: Advantage, Resource, Strength, Benefit.\n\n**Antonyms**: Liability, Burden, Weakness.\n\n**Example**: *Her fluency in three languages is a valuable asset for the multinational company.*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "English Language",
+    "chapter": "Vocabulary",
+    "subchapter": "Synonyms and Antonyms",
+    "topic": "Obligation",
+    "content": "# Obligation\n\n**Definition**: A duty or responsibility that one is bound to fulfill.\n\n**Synonyms**: Duty, Responsibility, Commitment, Requirement.\n\n**Antonyms**: Freedom, Option, Discretion.\n\n**Example**: *He felt an obligation to help his neighbors during the storm.*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "English Language",
+    "chapter": "Vocabulary",
+    "subchapter": "Synonyms and Antonyms",
+    "topic": "Attribute",
+    "content": "# Attribute\n\n**Definition**: A quality or characteristic that is inherent to a person or thing.\n\n**Synonyms**: Quality, Feature, Trait, Characteristic.\n\n**Antonyms**: Defect, Flaw, Shortcoming.\n\n**Example**: *Her patience is a key attribute that makes her an excellent teacher.*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "English Language",
+    "chapter": "Vocabulary",
+    "subchapter": "Synonyms and Antonyms",
+    "topic": "Reinforcement",
+    "content": "# Reinforcement\n\n**Definition**: The act of strengthening or supporting something, often used in learning or behavior contexts.\n\n**Synonyms**: Strengthening, Support, Validation, Encouragement.\n\n**Antonyms**: Weakening, Undermining, Detriment.\n\n**Example**: *Positive feedback serves as reinforcement for good performance.*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "English Language",
+    "chapter": "Vocabulary",
+    "subchapter": "Synonyms and Antonyms",
+    "topic": "Hysterical",
+    "content": "# Hysterical\n\n**Definition**: Extremely emotional or irrational, often to the point of losing control.\n\n**Synonyms**: Berserk, Crazy, Out of control, Maniacal.\n\n**Antonyms**: Calm, Composed, Reasonable.\n\n**Example**: *The crowd became hysterical when the band finally started playing.*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "English Language",
+    "chapter": "Vocabulary",
+    "subchapter": "Synonyms and Antonyms",
+    "topic": "Berserk",
+    "content": "# Berserk\n\n**Definition**: Out of control with anger or excitement; wild.\n\n**Synonyms**: Hysterical, Crazy, Frenzied, Maniacal.\n\n**Antonyms**: Calm, Controlled, Composed.\n\n**Example**: *The dog went berserk when it saw the squirrel.*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "English Language",
+    "chapter": "Vocabulary",
+    "subchapter": "Synonyms and Antonyms",
+    "topic": "Prejudiced",
+    "content": "# Prejudiced\n\n**Definition**: Having or showing a bias or preconceived opinion, especially against a particular group.\n\n**Synonyms**: Biased, Jaundiced, Discriminatory, Partial.\n\n**Antonyms**: Unbiased, Objective, Fair.\n\n**Example**: *His prejudiced remarks offended many in the audience.*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "English Language",
+    "chapter": "Vocabulary",
+    "subchapter": "Synonyms and Antonyms",
+    "topic": "Jaundiced",
+    "content": "# Jaundiced\n\n**Definition**: Biased or prejudiced, especially in a negative way.\n\n**Synonyms**: Prejudiced, Biased, Discriminatory, Partial.\n\n**Antonyms**: Unbiased, Objective, Fair.\n\n**Example**: *The judge’s jaundiced view of the defendant’s background influenced the verdict.*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Environment & Energy",
+    "subchapter": "Renewable Energy",
+    "topic": "India's Renewable Energy Policy (Target 2022)",
+    "content": "### Policy Overview\n- **Goal:** Generate **175 GW** of power from renewable (green) sources by **2022**.\n- **Key Components:**\n  1. **Rooftop Solar Expansion** – aggressive push for solar PV installations on residential, commercial and industrial rooftops.\n  2. **Net‑Metering** – legal framework to allow all consumer categories (domestic, commercial, industrial, agricultural) to feed surplus solar electricity back to the grid and receive credit.\n  3. **Financial Incentives** – capital subsidies, reduced GST, and low‑interest loans for solar projects.\n  4. **Regulatory Support** – streamlined clearances, state‑level renewable purchase obligations (RPOs), and creation of a **Transport Decarbonisation Alliance** at the Bonn conference to promote clean mobility.\n- **Impact:** Expected to reduce carbon emissions, lower dependence on fossil fuels, and create a large domestic solar manufacturing ecosystem.\n- **Challenges:** Grid integration, land acquisition for large‑scale solar farms, and ensuring consistent policy implementation across states.\n\n---\n**Key Definitions**\n- **Net‑Metering:** A billing mechanism that credits solar energy system owners for the electricity they add to the grid.\n- **RPO (Renewable Purchase Obligation):** Mandatory target for distribution companies and large consumers to procure a certain percentage of power from renewable sources.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Technology & Cyber Security",
+    "subchapter": "Data Protection",
+    "topic": "Big Data, Privacy Concerns & Legislative Responses",
+    "content": "### Core Issues\n- **Big Data Era:** Massive volumes (zettabytes) of personal and commercial data are collected, stored, and processed using AI‑driven analytics.\n- **Privacy Fears:** Individuals worry about loss of autonomy, surveillance, and misuse of personal information.\n- **Cyber‑Crimes:** Unauthorized leaks, hacking, ransomware, and other cyber‑offences make databases vulnerable.\n\n### Legislative Landscape\n- **White Paper Initiative:** A public consultation document released to gather stakeholder views on a comprehensive data‑protection law.\n- **Key Provisions Proposed:**\n  1. **Consent‑Based Collection** – explicit user consent before data is gathered.\n  2. **Purpose Limitation** – data can be used only for the purpose declared at collection.\n  3. **Right to Erasure** – individuals can request deletion of their data.\n  4. **Data Localization** – critical personal data must be stored on servers within the country.\n  5. **Penalties** – heavy fines for non‑compliance and for cyber‑crimes.\n\n### Balancing Act\n- **Progress vs. Privacy:** The debate centers on leveraging data‑driven innovation while safeguarding individual liberties.\n- **International Comparisons:** GDPR (EU), CCPA (California) serve as benchmarks for robust privacy regimes.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Economics & Trade",
+    "subchapter": "International Trade",
+    "topic": "US‑China Trade War and Tariff Implications",
+    "content": "### Background\n- **Trade War Trigger:** Both the United States and China imposed reciprocal tariffs on each other's goods, citing unfair trade practices.\n- **Globalised Economy:** In a tightly linked world, unilateral tariffs affect not only the two countries but also third‑party economies.\n\n### Economic Consequences\n- **Higher Consumer Prices:** Tariffs raise the cost of imported goods, which is passed on to consumers.\n- **Supply‑Chain Disruption:** Manufacturers relying on imported components face delays and increased costs.\n- **Investment Uncertainty:** The US Federal Reserve’s June policy minutes highlighted that trade‑war‑induced uncertainty is curbing private investment.\n- **Impact on China:** Already grappling with an economic slowdown, China’s export‑oriented sectors are hit hard.\n\n### Strategic Insights\n- **Tariff Retaliation Cycle:** \"Tit‑for‑tat\" measures rarely benefit the imposing country; they tend to erode domestic economic fortunes.\n- **Policy Recommendations:** Pursue multilateral negotiations, reduce protectionist measures, and strengthen rules‑based trade institutions (WTO).\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "History",
+    "chapter": "Colonial History",
+    "subchapter": "East India Company",
+    "topic": "Role of the East India Company in India (1600‑1757)",
+    "content": "### Operational Model\n- **Trading Corporation:** The Company imported precious metals and other goods into India and exchanged them for Indian textiles, spices, and other commodities.\n- **Profit Source:** Primary earnings came from selling Indian goods abroad, especially textiles.\n- **Market Expansion:** Actively sought new markets for Indian products in Britain and elsewhere, boosting Indian exports.\n\n### Interaction with Indian Rulers\n- **Factory Establishments:** Indian princes tolerated and sometimes encouraged Company factories because they facilitated export‑driven growth.\n- **British Manufacturer Reaction:** British producers felt threatened by the popularity of Indian textiles, leading to a shift in British fashion from coarse woolens to light cotton fabrics.\n\n### Cultural Impact\n- **Literary Reference:** Daniel Defoe, author of *Robinson Crusoe*, lamented that Indian cloth had \"crept into houses, our closets and beds,\" indicating the deep penetration of Indian textiles into British daily life.\n\n### Long‑Term Consequences\n- **Economic Shift:** The Company’s activities laid the groundwork for later colonial economic policies that transformed Indian production patterns and integrated India into the global trade network.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "History",
+    "chapter": "British Empire and Indian Textile Industry",
+    "subchapter": "Indian Textile in 18th Century England",
+    "topic": "Reasons for British use of Indian cloths",
+    "content": "# Reasons for British use of Indian cloths\n- **Light cotton & breathable fabric**: The primary reason cited for the popularity of Indian cloths in England was their lightness and breathability, making them comfortable in the English climate.\n- **Affordability**: Indian textiles were cheaper than locally produced fabrics, offering a cost‑effective alternative for the English market.\n- **Ease of transport**: The lightweight nature of cotton made shipping from India to England more economical and efficient.\n- **Cultural preference**: The British had a growing fascination with foreign and imported goods, which further encouraged the adoption of Indian textiles.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "History",
+    "chapter": "British Empire and Indian Textile Industry",
+    "subchapter": "Indian Textile in 18th Century England",
+    "topic": "British manufacturers' response to Indian textile",
+    "content": "# British manufacturers' response\n- **Jealousy & competition**: British textile manufacturers felt threatened by the quality and popularity of Indian cloths.\n- **Political pressure**: They lobbied the British government to impose **heavy import duties** on Indian textiles, aiming to protect domestic producers.\n- **Economic strategy**: By raising import costs, British manufacturers hoped to reduce competition and maintain market share.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "History",
+    "chapter": "British Empire and Indian Textile Industry",
+    "subchapter": "Indian Textile in 18th Century England",
+    "topic": "Sources of evidence for Indian textile demand",
+    "content": "# Sources of evidence\n- **Literary source**: The novel *Robinson Crusoe* is cited as evidence of the high demand for Indian textiles in 18th‑century England.\n- **Other potential sources** (not mentioned in the passage but relevant): archival records, scientific studies, and journalistic accounts could also provide insights into trade patterns and consumer preferences.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "History",
+    "chapter": "British Empire and Indian Textile Industry",
+    "subchapter": "Industrial Revolution",
+    "topic": "Industrial Revolution and textile technology",
+    "content": "# Industrial Revolution\n- **Definition**: A period of rapid industrialization (late 18th to early 19th century) marked by mechanization and the rise of factories.\n- **Impact on textiles**: Introduction of power looms, spinning jennies, and water frames dramatically increased production speed and output.\n- **Relevance to the passage**: The phrase “new and advanced technology” refers to the Industrial Revolution, which transformed textile manufacturing in Britain.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "History",
+    "chapter": "Zimbabwe Political Crisis",
+    "subchapter": "Mugabe's Downfall",
+    "topic": "Key political figures",
+    "content": "# Key political figures\n- **Robert Mugabe**: 93‑year‑old president, former liberation hero, ruling since 1980.\n- **Emmerson Mnangagwa**: Vice‑president, freedom fighter, part of the “Generation 40” youth movement, seen as Mugabe’s successor.\n- **Constantino Chiwenga**: Army chief leading the military’s plan to force Mugabe’s resignation.\n- **Grace Mugabe**: President’s wife, known for extravagant lifestyle and political ambitions.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "History",
+    "chapter": "Zimbabwe Political Crisis",
+    "subchapter": "Mugabe's Downfall",
+    "topic": "Supporters of Mrs Mugabe",
+    "content": "# Supporters of Mrs Mugabe\n- **Generation 40**: A group of younger leaders who back Grace Mugabe’s political ambitions.\n- **ZANU‑PF**: The ruling party, which includes both older and younger factions, but the passage specifically highlights Generation 40 as the main supporters of Mrs Mugabe.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "History",
+    "chapter": "Zimbabwe Political Crisis",
+    "subchapter": "Mugabe's Downfall",
+    "topic": "Political weakness of Mugabe",
+    "content": "# Political weakness of Mugabe\n- **Age & health**: At 93, Mugabe’s health problems weakened his grip on power.\n- **Underestimation of Mnangagwa**: Mugabe misjudged Mnangagwa’s deep connections within the establishment.\n- **Dismissal of Mnangagwa**: The act of removing the vice‑president exposed Mugabe’s political vulnerability and triggered military action.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Health and Nutrition",
+    "topic": "Dietary Habits and Digestion",
+    "content": "### Key Facts on Dietary Habits\n- **Digestion Time**: It takes approximately **3 to 5 hours** to digest food.\n- **Evening Meal Timing**: The evening meal should be taken **3 or 4 hours before retiring** (sleeping).\n- **Consequences of Late Eating**: Eating shortly before retiring is unnecessary. Since the body does not require energy for work while sleeping, undigested food is often converted into **excess fat**, leading to **over-weight**.\n- **Benefits of Light Evening Meals**:\n  1. Prevents over-eating.\n  2. Conserves energy.\n  3. Reduces the cost of food.\n- **Prevalence of Over-eating**: Over-eating is more prevalent among **the rich** (those who can afford food) rather than the poor.\n- **Health Impact**: Over-eating is considered **bad for health** and a waste of food.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 149
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Religion and Philosophy",
+    "topic": "Religious Unity and Assimilation",
+    "content": "### Key Concepts on Religious Unity\n- **Core Argument**: Religious unity does not come from the triumph of one religion and the destruction of others. This is described as an \"impossible hope.\"\n- **The Seed Analogy**:\n  - A seed placed in earth, air, and water does not become the earth, air, or water.\n  - It becomes a **plant** by assimilating the elements and growing according to its **own law of growth**.\n  - **Application to Religion**: Individuals should not change their religion (e.g., a Christian becoming a Hindu). Instead, each person must **assimilate the spirit** of other religions while **preserving their individuality** and growing according to their own faith's laws.\n- **Universal Values**: Holiness, purity, and charity are **not the exclusive possessions** of any single church or religion. Every religious system has produced men and women of exalted character.\n- **Desired Outcome**: The banner of every religion should reflect:\n  - 'Help and not fight'\n  - 'Assimilation and not Destruction'\n  - 'Harmony and Peace and not Dissension'",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 149
+  },
+  {
+    "subject": "English",
+    "chapter": "Error Spotting",
+    "subchapter": "Prepositions and Phrasal Verbs",
+    "topic": "Fixed Prepositions",
+    "content": "1. **Apprise**: The verb 'apprised' is followed by the preposition **'of'**, not 'with'. Example: 'Being apprised **of** our approach.'\n2. **Contemporary**: The phrase is 'contemporary **of**', not 'contemporary to'. Example: 'Patanjali was a contemporary **of** Pushyamitra Sunga.'\n3. **Met with**: The phrase 'met with' is used when referring to receiving a response or reaction. Example: 'His appeal met **with** a poor response.'\n4. **Escape from**: The verb 'escape' when used as a noun or in this context requires the preposition **'from'**. Example: 'Freedom from desires will lead to escape **from** suffering.'\n5. **Trickle to**: The phrasal verb 'trickle' is followed by **'to'** when indicating direction or recipient. Example: 'Effects... trickling **to** the next generation.'\n6. **In vs Since**: Use **'in'** for a duration of time (e.g., 'in the 15 minutes that she drives'). Use 'since' for a point in time in the past.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "English",
+    "chapter": "Error Spotting",
+    "subchapter": "Articles and Superlatives",
+    "topic": "Usage of 'The' and 'A'",
+    "content": "1. **Superlative Degree**: The definite article **'the'** is mandatory before superlative adjectives. Example: 'India is **the** second most popular country.'\n2. **Indefinite vs Definite Article**: Use **'a'** before a singular countable noun when referring to one of many or a non-specific instance, especially before adjectives starting with a consonant sound. Example: 'He is **a** foundational director' (not 'the foundational director' unless he is the only one or previously mentioned).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "English",
+    "chapter": "Error Spotting",
+    "subchapter": "Subject-Verb Agreement",
+    "topic": "Singular and Plural Subjects",
+    "content": "1. **Plural Nouns**: If the subject is plural (e.g., 'effects'), the verb must be plural (e.g., 'are'). Example: 'The beneficial effects... **are** most clearly manifest.'\n2. **Singular Subjects with 'Of' Phrases**: When the subject is singular (e.g., 'Each one'), the verb must be singular, regardless of the plural noun in the following 'of' phrase. Example: '**Each one** of these chairs **is** broken.'\n3. **Collective/Plural Nouns**: Ensure the noun matches the verb. 'Few creature' is incorrect; it should be 'Few **creatures**' to match the plural verb 'outwit'.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "English",
+    "chapter": "Error Spotting",
+    "subchapter": "Adverbs and Relative Pronouns",
+    "topic": "Word Choice and Clauses",
+    "content": "1. **Hardly vs Hard**: 'Hardly' means 'barely' or 'almost not'. 'Hard' means 'with difficulty' or 'with effort'. In the context of winning liberty, **'hard'** is appropriate ('This hard won liberty'), whereas 'hardly' would imply it was barely won.\n2. **Where vs When**: Use **'where'** for places and **'when'** for times. If the clause refers to a location ('Anywhere in the world'), use 'where'. Example: 'Anywhere in the world **where** there is conflict...'",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "Philosophy",
+    "chapter": "Ethics of War",
+    "subchapter": "",
+    "topic": "Moral Status of War",
+    "content": "# Moral Status of War\n\n- **War as a crime**: In contemporary moral philosophy, war is often considered a *crime* rather than a duty, obligation, or responsibility. This view emphasizes that war typically violates fundamental human rights and international law.\n- **Tolstoyan view**: Leo Tolstoy famously argued that war is inherently immoral and should be rejected under all circumstances. The text contrasts this extreme stance with a more nuanced position that acknowledges the complexity of war without fully endorsing it.\n- **Emotional vs. rational foundations**: Opinions about war are largely shaped by *feelings* rather than pure reason. Emotional temperament, convictions, and personal experiences heavily influence how individuals perceive the legitimacy of war.\n- **Ethical questions**: The core of war ethics involves *ethical questions*—dilemmas that require balancing conflicting moral values, such as the right to self‑defence versus the duty to avoid unnecessary harm.\n- **Clarifying feelings**: Thought serves to *clarify* and *systematise* emotions. By articulating feelings, individuals can better evaluate the moral implications of war and decide whether to *consider* or *opine* on specific conflicts.\n\n> **Key takeaway**: War is generally viewed as a crime in modern ethics, and moral judgments about war are rooted in emotional responses that are then clarified through rational analysis.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Science",
+    "chapter": "Biochemistry",
+    "subchapter": "",
+    "topic": "Directed Evolution",
+    "content": "# Directed Evolution\n\n- **Definition**: Directed evolution is a laboratory technique that mimics natural selection to evolve proteins or nucleic acids toward a user‑defined goal. It involves iterative rounds of *mutation* and *selection*.\n- **Frances H. Arnold**: Awarded one‑half of the 2018 Nobel Prize in Chemistry for pioneering directed evolution. She used the method to create enzymes with improved properties for industrial and pharmaceutical applications.\n- **Applications**:\n  - *Enzyme synthesis*: Directed evolution enables the synthesis of enzymes that can catalyse reactions not found in nature.\n  - *Biofuels & pharmaceuticals*: Engineered enzymes can *manufacture* biofuels and produce pharmaceutical compounds more efficiently.\n- **Process**: 1) Generate a library of variants. 2) Screen for desired activity. 3) Amplify successful variants. 4) Repeat.\n\n> **Key takeaway**: Directed evolution is a powerful tool for creating tailor‑made enzymes, exemplified by Frances Arnold’s Nobel‑winning work.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Science",
+    "chapter": "Molecular Biology",
+    "subchapter": "",
+    "topic": "Phage Display",
+    "content": "# Phage Display\n\n- **Definition**: Phage display is a technique that presents peptides or proteins on the surface of bacteriophages, allowing researchers to screen vast libraries for binding to specific targets.\n- **George P. Smith & Sir Gregory P. Winter**: Co‑awarded the 2018 Nobel Prize in Chemistry for developing phage display to evolve antibodies.\n- **Medical impact**: The method has been used to develop antibodies that *combat* autoimmune diseases and metastatic cancers.\n- **Workflow**:\n  1. Insert gene encoding the protein of interest into phage genome.\n  2. Express protein on phage surface.\n  3. Expose phage library to target antigen.\n  4. Isolate phages that bind; amplify and repeat.\n\n> **Key takeaway**: Phage display revolutionised antibody engineering, enabling the creation of therapeutic antibodies that fight disease.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Science",
+    "chapter": "Evolutionary Biology",
+    "subchapter": "",
+    "topic": "Evolution in Chemistry",
+    "content": "# Evolution in Chemistry\n\n- **Evolutionary principles**: The Nobel Prize for Chemistry highlighted the *evolution* of biological molecules as a powerful tool for scientific discovery.\n- **Directed evolution**: A practical application of evolutionary theory in the laboratory, allowing scientists to *evolve* enzymes and antibodies with desired traits.\n- **Impact**: Evolutionary approaches have accelerated the development of new catalysts, biofuels, and therapeutic agents.\n\n> **Key takeaway**: Evolutionary concepts are central to modern chemistry, enabling the design of novel molecules through iterative selection.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "History",
+    "chapter": "Modern Indian History",
+    "subchapter": "British Administration and Social Reform",
+    "topic": "Henry Thomas Colebrooke",
+    "content": "- **Identity**: Henry Thomas Colebrooke was a Sanskrit scholar and orientalist.\n- **Appointment**: Appointed to a writership in India, where he learned Sanskrit.\n- **Academic Role**: Served as Professor of Sanskrit at Fort William College in 1805.\n- **Leadership**: Elected as President of the Asiatic Society of Calcutta.\n- **Contributions**: Translated two major legal treatises into English: *Mitacshara* by Vijnaneshwara and *Dayabhaga* by Jimutavahana.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "History",
+    "chapter": "Modern Indian History",
+    "subchapter": "Peasant Movements and Legislation",
+    "topic": "Deccan Agriculturalists’ Relief Act of 1879",
+    "content": "- **Objective**: Enacted to provide legal aid to insolvent peasants.\n- **Context**: In the Deccan region of Maharashtra, money lenders from Gujarat exploited peasants and usurped their land.\n- **Consequence**: This exploitation led to large-scale riots in 1875, prompting the legislation.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "History",
+    "chapter": "Modern Indian History",
+    "subchapter": "Tribal Uprisings",
+    "topic": "Damin-i-Koh and Santhal Rebellion",
+    "content": "- **Location**: Damin-i-Koh refers to the forested hilly areas of the Rajmahal hills (present-day Jharkhand).\n- **Inhabitants**: Originally inhabited by the Santhal tribe.\n- **British Interference**: The British intruded into these areas, interfering with socio-economic life and restricting movement in forests.\n- **Rebellion**: Atrocities against the Santhals led to a large-scale rebellion in 1855.\n- **Administrative Change**: Following the rebellion, the Santhal Pargana was constituted by the Britishers.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "History",
+    "chapter": "Modern Indian History",
+    "subchapter": "Legal Reforms",
+    "topic": "Limitation Law of 1859",
+    "content": "- **Provision**: The law stated that loan bonds signed between moneylenders and ryots (peasants) would have validity for only three years.\n- **Evolution**: This provision took its final shape when the Government of India enacted the Limitation Act in 1963.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "History",
+    "chapter": "Modern Indian History",
+    "subchapter": "Revolt of 1857",
+    "topic": "Maulvi Ahmadullah Shah",
+    "content": "- **Title**: Known as 'Danka Shah' during the Revolt of 1857.\n- **Role**: One of the leading figures of the revolt.\n- **Actions**: Fought tough battles against the British in the Awadh region of Uttar Pradesh and liberated Faizabad from British rule.\n- **Symbolism**: Represented Hindu-Muslim unity.\n- **Death**: Fought until his death in 1858 at the hands of a British agent.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "History",
+    "chapter": "Modern Indian History",
+    "subchapter": "Land Revenue Systems",
+    "topic": "Summary Settlement of 1856",
+    "content": "- **Context**: Introduced under the guidance of Lord Dalhousie in the Awadh region.\n- **Assumption/Impact**: The settlement was not in favor of Talukdars; it gave priority to village Zamindars.\n- **Result**: Talukdars were left as interlopers with no permanent stake in the land.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Union and State Relations",
+    "subchapter": "Inter-State Council",
+    "topic": "Establishment of Inter-State Council",
+    "content": "- **Constitutional Provision**: Article 263 in Part XI of the Constitution provides for the establishment of an Inter-State Council.\n- **Purpose**: To facilitate better coordination among states and between the Centre and States.\n- **Establishment**: Set up in 1990 on the recommendation of the Sarkaria Commission (1983-87).\n- **Composition**: \n  1. Prime Minister as the Chairman.\n  2. (Note: The source text cuts off here, but standard knowledge includes Chief Ministers of all States and Chief Ministers of Union Territories with Legislative Assemblies as members).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Constitutional Law",
+    "chapter": "Quo Warranto",
+    "subchapter": "",
+    "topic": "Definition and Purpose",
+    "content": "# Quo Warranto\n\n- **Definition**: A *quo warranto* is a writ issued by a court to inquire into the legality of a person’s claim to a public office or a public position.\n- **Purpose**: It is used to challenge the authority of a public office holder and to ensure that the holder has the legal right to occupy the office.\n- **Key Points**:\n  - The court examines whether the office holder has a legitimate claim.\n  - It is a procedural tool to prevent unlawful occupation of public offices.\n  - Often invoked in cases of alleged corruption or misuse of power.\n\n> *Example*: If a mayor is suspected of holding office without proper election, a *quo warranto* can be filed to question the validity of the claim.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "Constitutional Law",
+    "chapter": "Habeas Corpus",
+    "subchapter": "",
+    "topic": "Definition and Use",
+    "content": "# Habeas Corpus\n\n- **Definition**: A legal action or writ by which a person can seek relief from unlawful detention.\n- **Purpose**: To protect personal liberty and prevent arbitrary imprisonment.\n- **Key Points**:\n  - Courts examine whether the detention is lawful.\n  - If unlawful, the detainee is ordered to be released.\n  - It is a fundamental safeguard against abuse of power.\n\n> *Practical Use*: If a person is detained without charge, a *habeas corpus* petition can be filed to challenge the detention.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "Constitutional Law",
+    "chapter": "Basic Structure Doctrine",
+    "subchapter": "",
+    "topic": "Origin, Scope, and Judicial Interpretation",
+    "content": "# Basic Structure Doctrine\n\n- **Origin**: Established by the Supreme Court in *Kesavananda Bharati v. State of Kerala* (1973).\n- **Definition**: The Constitution of India contains certain *basic features* that cannot be altered or destroyed by Parliament through amendments.\n- **Key Features**:\n  - Separation of powers\n  - Federal structure\n  - Fundamental rights\n  - Rule of law\n  - Judicial review\n- **Article 368**: Provides the procedure for amending the Constitution but does **not** grant absolute power to Parliament.\n- **Judicial Interpretation**:\n  - The Court has held that while Parliament can amend many provisions, it cannot alter the *basic structure*.\n  - This doctrine acts as a *constitutional safeguard* against radical changes.\n\n> *Implication*: Any amendment that tries to destroy or alter the basic structure will be struck down as unconstitutional.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "Constitutional Law",
+    "chapter": "Emergency Provisions",
+    "subchapter": "",
+    "topic": "Article 352 and Suspension of Fundamental Rights",
+    "content": "# Emergency Provisions\n\n- **Article 352**: Grants the President the power to proclaim a national emergency when the security of the nation is threatened by war, external aggression, or armed rebellion.\n- **Effect on Fundamental Rights**:\n  - Most Fundamental Rights can be suspended during an emergency.\n  - **Exception**: Rights under **Article‑20** (protection against arbitrary arrest and detention) and **Article‑21** (right to life and personal liberty) **cannot** be suspended.\n- **Key Points**:\n  - The emergency can be declared for a maximum of 12 months and can be extended.\n  - Parliament must approve the emergency within 60 days.\n  - The Supreme Court has the power to review the validity of the emergency.\n\n> *Practical Example*: During the 1975 Emergency, many rights were suspended, but the right to life (Article‑21) remained inviolable.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "Constitutional Law",
+    "chapter": "Article 15",
+    "subchapter": "",
+    "topic": "Prohibition of Discrimination and Public Facilities",
+    "content": "# Article 15\n\n- **Text**: \"No citizen shall be denied the use of wells, tanks, and bathing ghats maintained out of state funds.\"\n- **Purpose**: To prohibit discrimination on grounds of religion, race, caste, sex, or place of birth.\n- **Key Points**:\n  - It abolishes untouchability and forbids its practice.\n  - Ensures equal access to public facilities.\n  - Forms part of the broader framework of equality and non‑discrimination.\n\n> *Practical Impact*: Citizens from all backgrounds can use state‑maintained wells and bathing ghats without fear of discrimination.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "Social Movements & History",
+    "chapter": "All India Scheduled Castes Federation",
+    "subchapter": "",
+    "topic": "Founding and Objectives",
+    "content": "# All India Scheduled Castes Federation (AISCF)\n\n- **Founder**: Dr. B. R. Ambedkar (1942).\n- **Purpose**: To organize Scheduled Caste people against Brahmanical ideology and to fight for their rights and social justice.\n- **Key Activities**:\n  - Established the *Bahishkrit Hitkarni Sabha*.\n  - Founded the *Independent Labour Party*.\n  - Published the weekly paper *Mooknayak*.\n- **Legacy**: Played a pivotal role in the drafting of the Constitution and in advocating for the rights of Dalits.\n\n> *Historical Note*: Ambedkar’s leadership in AISCF laid the groundwork for the eventual abolition of untouchability.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "Technology & Governance",
+    "chapter": "eVIGIL App",
+    "subchapter": "",
+    "topic": "Purpose and Functionality",
+    "content": "# eVIGIL App\n\n- **Purpose**: A mobile application designed to fight corruption in public services.\n- **Key Features**:\n  - Allows citizens to report irregularities and corrupt practices.\n  - Provides a platform for transparency and accountability.\n  - Facilitates monitoring of public office holders and government processes.\n- **Impact**: Empowers citizens to participate in governance and reduces the scope for corruption.\n\n> *Use Case*: A citizen can report a bribery incident in a municipal office through eVIGIL, which then triggers an investigation by the relevant authorities.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "Technology & Business",
+    "chapter": "Microsoft Co‑Founder",
+    "subchapter": "",
+    "topic": "Paul Allen",
+    "content": "# Paul Allen\n\n- **Role**: Co‑founder of Microsoft (alongside Bill Gates).\n- **Contribution**: Played a key role in the development of early software and the growth of Microsoft into a global tech giant.\n- **Legacy**: Known for his philanthropic efforts and investments in technology and science.\n- **Death**: Passed away in October 2018.\n\n> *Business Insight*: Allen’s vision helped shape the personal computing revolution.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Awards and Honors",
+    "subchapter": "Rajiv Gandhi Khel Ratna",
+    "topic": "Recipients 2019",
+    "content": "# Rajiv Gandhi Khel Ratna 2019\n\n- **Award**: Rajiv Gandhi Khel Ratna – India’s highest sporting honour.\n- **Recipients**:\n  - **Deepa Malik** – Awarded for her achievements in **Paralympic** events.\n  - **Bajrang Punia** – Awarded for his performance in **Freestyle Wrestling**.\n- **Significance**: Recognises outstanding performance in national and international competitions.\n- **Key Facts**:\n  - The award is presented by the President of India.\n  - It includes a medal, a certificate, and a cash prize.\n  - Recipients are chosen by a committee of sports experts.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Geography",
+    "subchapter": "Airports",
+    "topic": "Pakyong Airport",
+    "content": "# Pakyong Airport\n\n- **Location**: **Sikkim**, India.\n- **Inauguration**: Opened by the Prime Minister of India.\n- **Significance**: First airport in Sikkim, built by the Airport Authority of India.\n- **Coordinates**: 27° 30′ 0″ N, 88° 12′ 0″ E.\n- **Runway**: 1,200 meters long, suitable for small aircraft.\n- **Impact**: Improves connectivity for the state and boosts tourism.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "International Observances",
+    "subchapter": "UN Days",
+    "topic": "International Day of Rural Women",
+    "content": "# International Day of Rural Women\n\n- **Date**: **15 October**.\n- **First Observed**: 15 October 2008.\n- **Purpose**: Celebrate the crucial role of women and girls in sustaining rural households and communities.\n- **Themes**: Rural livelihoods, gender equality, empowerment, and sustainable development.\n- **UN Involvement**: Adopted by the United Nations General Assembly.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Literature",
+    "subchapter": "Awards",
+    "topic": "Pulitzer Prize",
+    "content": "# Pulitzer Prize\n\n- **Established**: 1917 by Joseph Pulitzer.\n- **Categories**: Journalism, literature, musical composition.\n- **First Indian Winner**: **Govind Bihari Lal** (1937) for his literary work.\n- **Other Indian Winners**:\n  - **Jhumpa Lahiri** – 2006 (Literature).\n  - **Vijay Seshadri** – 2014 (Literature).\n- **Significance**: Recognises excellence in American journalism and literature.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "Sports",
+    "chapter": "Olympic Sports",
+    "subchapter": "Shooting",
+    "topic": "Saurabh Chaudhary",
+    "content": "# Saurabh Chaudhary\n\n- **Sport**: Shooting – 10m Air Pistol.\n- **Major Achievement**: Gold medal at the 2018 Asian Games.\n- **Historical Note**: Became the youngest Indian to win a gold medal at the Asian Games.\n- **Training**: Hails from Haryana, India.\n- **Impact**: Inspired many young shooters in India.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Demand",
+    "subchapter": "Law of Demand",
+    "topic": "Assumptions",
+    "content": "# Law of Demand – Key Assumptions\n\n1. **No change in consumer tastes and preferences** – Preferences remain constant.\n2. **Income of consumers remains constant** – No income effect.\n3. **No change in price of substitute goods** – Substitutes’ prices stay stable.\n4. **No demonstration effect** – Consumer behaviour is not influenced by social demonstration.\n\n> **Note**: The demonstration effect is *not* an assumption of the law of demand.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Utility",
+    "subchapter": "Total Utility",
+    "topic": "Relationship with Marginal Utility",
+    "content": "# Total Utility and Marginal Utility\n\n- **Total Utility (TU)**: Total benefit obtained from consuming a quantity of a good.\n- **Marginal Utility (MU)**: Additional utility from consuming one more unit.\n- **Key Relationships**:\n  1. **TU maximum** → **MU = 0**.\n  2. **TU increasing** → **MU > 0**.\n  3. **TU decreasing** → **MU < 0**.\n- **Average Utility (AU)**: TU divided by quantity. AU is not equal to MU at TU maximum.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Utility",
+    "subchapter": "Indifference Curves",
+    "topic": "Properties",
+    "content": "# Indifference Curves – Core Properties\n\n1. **Convex to the origin** – Reflects diminishing marginal rate of substitution.\n2. **Higher curves represent higher satisfaction** – More of at least one good.\n3. **Curves cannot cross** – Violates transitivity of preferences.\n\n> **Common Misconception**: Two indifference curves can intersect – this is incorrect.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Utility",
+    "subchapter": "Utility Concepts",
+    "topic": "Average Utility",
+    "content": "# Average Utility (AU)\n\n- **Definition**: \\( AU = \frac{TU}{Q} \\) where \\( Q \\) is quantity.\n- **Interpretation**: Utility per unit consumed.\n- **Relationship with MU**: AU equals MU only when MU is constant across units.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Utility",
+    "subchapter": "Utility Concepts",
+    "topic": "Marginal Utility",
+    "content": "# Marginal Utility (MU)\n\n- **Definition**: \\( MU = \frac{\\Delta TU}{\\Delta Q} \\).\n- **Law of Diminishing Marginal Utility**: MU decreases as more units are consumed.\n- **Significance**: Determines consumer choice and demand.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Supply and Demand",
+    "subchapter": "",
+    "topic": "Supply Curve",
+    "content": "# Supply Curve\n\n- **Definition**: A supply curve is a graphic representation of the relationship between the price of a good or service and the quantity that producers are willing to supply over a given period.\n- **Shape**: Typically upward‑sloping, indicating that higher prices incentivize producers to increase output because higher prices can make additional production profitable.\n- **Key Points**:\n  - The curve shows *cost* (price) on the vertical axis and *quantity supplied* on the horizontal axis.\n  - An upward slope reflects the law of supply: as price rises, quantity supplied rises, all else equal.\n  - Shifts in the supply curve (to the right or left) occur due to changes in production costs, technology, taxes, subsidies, or expectations, not due to price changes itself.\n- **Formulaic Representation**: While not a single formula, supply can be expressed as \\(Q_s = f(P, C, T, \\dots)\\) where \\(Q_s\\) is quantity supplied, \\(P\\) is price, \\(C\\) is cost, \\(T\\) is technology, etc.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "History",
+    "chapter": "Indian Architecture",
+    "subchapter": "",
+    "topic": "Bombay Secretariat",
+    "content": "# Bombay Secretariat\n\n- **Completion**: 1874\n- **Designer**: Captain **Henry St Clair Wilkins**\n- **Architectural Style**: Venetian Gothic\n- **Key Features**:\n  - Arcaded verandahs\n  - Huge gable over the west façade\n  - Monument to the civic pride of Bombay’s British rulers\n- **Historical Significance**: Represents colonial administrative architecture and the blending of European styles with local Indian context.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "History",
+    "chapter": "Women in India",
+    "subchapter": "",
+    "topic": "Mahakali Pathshala",
+    "content": "# Mahakali Pathshala\n\n- **Founded**: 1893\n- **Founder**: **Mataji Maharani Tapaswini** (Her Holiness)\n- **Purpose**: To foster women’s education in Calcutta\n- **Impact**: Played a pivotal role in advancing female literacy and empowerment during the late 19th century.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "History",
+    "chapter": "European Imperialism",
+    "subchapter": "",
+    "topic": "Peter the Great",
+    "content": "# Peter the Great (1672‑1725)\n\n- **Role**: Russian Czar (Emperor) in the late 17th and early 18th centuries\n- **Reforms**: Modernized Russia’s military, government, and economy\n- **Observation**: \"Bear in mind that the commerce of India is the commerce of the world… he who can exclusively command it is the dictator of Europe.\"\n- **Context**: Recognized India’s centrality in global trade and the strategic importance of controlling Indian commerce for European powers.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "History",
+    "chapter": "Women in India",
+    "subchapter": "",
+    "topic": "Abbe Jean Antoine Dubois",
+    "content": "# Abbe Jean Antoine Dubois (1698‑1768)\n\n- **Profession**: French Catholic missionary and Indologist\n- **Work**: Authored *Hindu Manners, Customs and Ceremonies*\n- **Observation**: \"A Hindu woman can go anywhere alone, even in the most crowded places, and she need never fear the impertinent looks and jokes of idle loungers.\"\n- **Legacy**: Provided early Western insights into the relative autonomy of women in Indian society.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "History",
+    "chapter": "Epidemiology",
+    "subchapter": "",
+    "topic": "Plagues and Peoples",
+    "content": "# Plagues and Peoples\n\n- **Author**: **William Hardy McNeil** (born 1929)\n- **Publication Year**: 1976\n- **Focus**: Epidemiological history; examines how infectious diseases have shaped cultures, economies, and societies.\n- **Key Themes**:\n  - Impact of smallpox in Mexico\n  - Bubonic plague in China\n  - Typhoid epidemic in Europe\n- **Significance**: Offers a new interpretation of disease as a form of cultural and political influence.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "History",
+    "chapter": "Postcolonial Theory",
+    "subchapter": "",
+    "topic": "Ashis Nandy",
+    "content": "# Ashis Nandy\n\n- **Profession**: Indian political psychologist, social theorist, and critic\n- **Key Argument**: The idea of a homogenised Hinduism was constructed through the *cultural arrogance of post‑enlightenment Europe*.\n- **Contributions**: Critiques colonialism, development, modernity, and secularism; emphasizes the psychological impact of colonial rule on Indian society.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Global Financial Crisis",
+    "subchapter": "",
+    "topic": "Sub‑prime Crisis",
+    "content": "# Sub‑prime Crisis\n\n- **Period**: 2007‑2010 in the United States\n- **Nature**: Economic recession triggered by the collapse of the housing bubble and widespread defaults on sub‑prime mortgages.\n- **Consequences**:\n  - Significant contraction in economic activity\n  - Reduced job growth, savings, and investment\n  - Global ripple effects leading to a worldwide financial downturn.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "Political Science / Constitutional Law",
+    "chapter": "Legislative Bodies",
+    "subchapter": "Legislative Council",
+    "topic": "Composition and Election",
+    "content": "# Legislative Council (Upper House)\n- **Indirect Election**: Members are not directly elected by the public.\n- **Composition** (as per the Constitution and 73rd Amendment):\n  - **One‑third** of the members are elected by local bodies and authorities.\n  - **One‑third** are elected by the Legislative Assembly of the state.\n  - **One‑twelfth** are elected by graduates residing in the state.\n  - **One‑twelfth** are elected by teachers residing in the state.\n  - **One‑sixth** are nominated by the Governor.\n- **Strength Limits**: The maximum strength of the council is **one‑third** of the total strength of the Legislative Assembly, while the minimum strength is **40** members.\n- **Key Point**: The statement “One‑twelfth of all members shall be elected by graduates residing in the state” is **incorrect** because the correct proportion is one‑twelfth of the total members, not all members.\n\n---\n\n## Panchayati Raj Institutions\n\n### Chapter: Panchayati Raj\n#### Subchapter: Part IX of the Constitution\n##### Topic: Features and Functions\n- **Part IX** was inserted through the **73rd Amendment Act**.\n- **Chairperson Election**: The Chairman of a Panchayat is elected **by the State Legislature** in a manner it determines; it is **not** directly elected by the people.\n- **Reservation**: One‑third of seats are reserved for women in State Finance Commission, State Election Commission, etc.\n- **Term**: A Panchayat continues for a period of **five years** unless dissolved earlier.\n- **Audit**: The State Legislature may, by law, provide for audit of accounts of the Panchayats.\n- **Key Misconception**: Statement (a) in the MCQ “The Chairperson of a Panchayat needs to be directly elected by people” is **incorrect**.\n\n---\n\n## Administrative Tribunals\n\n### Chapter: Administrative Law\n#### Subchapter: Tribunals\n##### Topic: Constitutional Provisions and Functions\n- **42nd Constitutional Amendment Act (1976)** introduced **Part XIV‑A** titled *Tribunals*.\n- **Article‑323A** empowers Parliament to establish Administrative Tribunals; the **Administrative Tribunal Act, 1985** established the Central Administrative Tribunal.\n- **Article‑323B** gives both Parliament and State Legislatures power to establish tribunals for various disputes.\n- **Jurisdiction**: Tribunals **cannot** exclude the jurisdiction of all courts to allow for special leave to appeal.\n- **Procedures**: The law establishing a tribunal may provide for procedures, including rules of evidence.\n\n---\n\n## Market Structures\n\n### Chapter: Microeconomics\n#### Subchapter: Market Forms\n##### Topic: Monopolistic Competition\n- **Definition**: A market structure where **many firms** sell **similar but not identical** products.\n- **Characteristics**:\n  - Product differentiation.\n  - Freedom of entry and exit.\n  - Some degree of market power for each firm.\n- **Comparison**:\n  - *Perfect competition*: No product differentiation; price takers.\n  - *Imperfect competition*: Includes monopolistic competition and oligopoly.\n  - *Oligopoly*: Dominated by a few large firms.\n\n---\n\n## Inflation Trends (2017‑18)\n\n### Chapter: Macroeconomics\n#### Subchapter: Inflation Analysis\n##### Topic: 2017‑18 Inflation Overview\n- **Overall Inflation**: Remained **moderate** during 2017‑18.\n- **Food Inflation**: Significant **reduction**, especially in pulses and vegetables.\n- **Implication**: Indicates effective price stabilization measures for essential commodities.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Macroeconomics",
+    "subchapter": "Employment and Demand",
+    "topic": "Effective Demand and Job Growth",
+    "content": "- **Effective Demand**: Employment levels depend on effective demand.\n- **Mechanism**: An increase in demand for goods and services requires more personnel for manufacturing and service provision.\n- **Outcome**: This leads to job growth.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Public Finance",
+    "subchapter": "Taxation",
+    "topic": "Adam Smith's Canons of Taxation",
+    "content": "- **Originator**: Adam Smith, author of *The Wealth of Nations*.\n- **Four Canons**:\n  1. **Canon of Equality**: Tax should be levied equally.\n  2. **Canon of Certainty**: The tax amount and time of payment should be certain.\n  3. **Canon of Convenience**: The time and mode of payment should be convenient for the taxpayer.\n  4. **Canon of Economy**: The cost of collecting tax should be minimal relative to the revenue collected.\n- **Note**: 'Canon of Fiscal Adequacy' is **not** one of Adam Smith's original four canons.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "General Science",
+    "chapter": "History of Science",
+    "subchapter": "Mathematics",
+    "topic": "Origin of Algorithms",
+    "content": "- **Key Figure**: Muhammad Ibn Musa Al-Khwarizmi.\n- **Contribution**: Credited with christening the mathematical discipline of 'algorithm' (derived from his name).\n- **Background**: Persian scholar who produced works in mathematics, astronomy, and geography.\n- **Appointment**: In 820 AD, appointed as astronomer and head of the library of the House of Wisdom in Baghdad.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "History",
+    "chapter": "Modern History",
+    "subchapter": "US History",
+    "topic": "Kansas-Nebraska Act of 1854",
+    "content": "- **Legislation**: Passed by the US Congress in 1854.\n- **Key Provision**: Allowed people in the territories of Kansas and Nebraska to decide for themselves whether to allow slavery (Popular Sovereignty).\n- **Impact**: Repealed the Missouri Compromise of 1820, which had previously prohibited slavery in those territories.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "Polity",
+    "chapter": "International Relations",
+    "subchapter": "Indo-US Relations",
+    "topic": "Indo-US Nuclear Agreement (2007)",
+    "content": "- **Alias**: Also known as the 123 Agreement.\n- **Significance**: A watershed moment in Indo-US relations.\n- **Implications**: Indirectly brought India under the purview of the Nuclear Suppliers Group (NSG) and US laws.\n- **Nuclear Testing**: The agreement implied restrictions that would not allow India to conduct nuclear tests in the future. However, it was clarified that India's moratorium on nuclear tests was unilateral and voluntary, with no external pressure.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Constitution of India",
+    "subchapter": "Drafting Committee",
+    "topic": "Alladi Krishnaswami Ayyar",
+    "content": "- **Role**: Drafting member of the Constitution of India; eminent lawyer from Chennai.\n- **Views on Judiciary**:\n  1. Favoured the role of the Supreme Court in taking important decisions related to the interpretation of the Constitution.\n  2. Believed the Supreme Court had to draw the line between liberty and social control.\n- **Incorrect Views**: He did **not** believe in the dominance of the executive over the judiciary, nor did he favour a dictatorial form of governance.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "Polity",
+    "chapter": "International Organizations",
+    "subchapter": "United Nations",
+    "topic": "UN Peacekeeping Operations",
+    "content": "- **Core Functions of Multidimensional Peacekeeping**:\n  1. Stabilisation\n  2. Peace consolidation\n- **Exclusion**: Extending support to a losing state in a war is **not** a core function of UN peacekeeping.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "International Relations & Treaties",
+    "subchapter": "Climate Change Agreements",
+    "topic": "Kyoto Protocol",
+    "content": "- **Definition**: The Kyoto Protocol is an international treaty that extends the 1992 United Nations Framework Convention on Climate Change (UNFCCC).\n- **Objective**: Commits State parties to reduce greenhouse gas emissions responsible for Global Warming and Climate Change.\n- **Adoption**: Adopted in Kyoto, Japan on December 11, 1997.\n- **Entry into Force**: February 16, 2005.\n- **Parties**: Currently 192 parties have signed the protocol.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "International Relations & Treaties",
+    "subchapter": "Human Rights Declarations",
+    "topic": "Beijing Declaration",
+    "content": "- **Focus**: Concerned with the 'Rights of Women'.\n- **Origin**: Outcome of the Fourth World Conference on Women held in 1995.\n- **Goals**: Advances the goals of equality, development, and peace for all women.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Indian Foreign Policy",
+    "subchapter": "Neighborhood Policy",
+    "topic": "Gujral Doctrine",
+    "content": "- **Objective**: To build trust between India and its neighbors.\n- **Initiator**: Initiated in 1996 by I.K. Gujral, who was the then Finance Minister (Note: He later became PM, but the doctrine is named after him; the text specifies he was Finance Minister at initiation, though historically he was Finance Minister before becoming PM, the doctrine is associated with his tenure as PM. The text states 'initiated in 1996 by IK Gujaral, the then Finance Minister').",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Molecular Geometry",
+    "topic": "Shapes of Molecules",
+    "content": "- **CH3F (Methyl Fluoride)**: Tetrahedral shape.\n- **HCHO (Formaldehyde)**: Trigonal planar shape.\n- **HCN (Hydrogen Cyanide)**: Linear shape.\n- **NH3 (Ammonia)**: Trigonal pyramidal shape.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Physical Chemistry / Separation Techniques",
+    "subchapter": "Separation Methods",
+    "topic": "Decantation",
+    "content": "- **Application**: Used to separate very small insoluble solid particles suspended in a liquid.\n- **Principle**: Insoluble solid particles settle down and can be poured off (decanted) from the liquid.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Qualitative Analysis",
+    "topic": "Lassaigne's Test",
+    "content": "- **Limitation**: Cannot detect Fluorine (F).\n- **Reason**: Silver fluoride (AgF) is soluble in water and does not form a precipitate, unlike other halides (AgCl, AgBr, AgI) which are insoluble.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Isomerism",
+    "topic": "Functional Group Isomerism",
+    "content": "- **Alkyl Halides**: Functional group isomerism is **not** possible.\n- **Other Classes**: Alcohols, Aldehydes, and Cyanides can exhibit functional group isomerism.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Conformational Analysis",
+    "topic": "Projection Formulas",
+    "content": "- **Fischer Projection**: Represents the molecule in an **eclipsed** conformation. It is **not** the most stable conformation (staggered is more stable).\n- **Newman Projection**: Can represent eclipsed, staggered, and skew conformations.\n- **Sawhorse Projection**: Lines are inclined at an angle of 120° to each other.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "subchapter": "Synthetic Fibers",
+    "topic": "Nylon 6",
+    "content": "- **Monomer**: Caprolactam.\n- **Type**: Nylon 6 is made from a single monomer (caprolactam), unlike Nylon 6,6 which uses hexamethylenediamine and adipic acid.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "Science",
+    "chapter": "Astronomy",
+    "subchapter": "Stars and Planets",
+    "topic": "Nearest Star and Planet Mass",
+    "content": "- **Nearest Star**: The Sun is the nearest star to Earth. The next nearest star is **Proxima Centauri**, which is part of the Alpha Centauri star system.\n- **Least Mass Planet**: **Mercury** is the smallest and closest planet to the Sun, having the least mass in the solar system.\n- **Highest Mass Planet**: Jupiter has the highest mass in the solar system.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "Environmental Science",
+    "chapter": "International Environmental Treaties",
+    "subchapter": "Biosafety Protocols",
+    "topic": "Cartagena Protocol on Biosafety",
+    "content": "# Cartagena Protocol on Biosafety\n\n- **Purpose**: Protect biodiversity from potential risks posed by Genetically Modified Organisms (GMO).\n- **Signing**: 15 May 2000 in Cartagena, Colombia.\n- **Key Provisions**:\n  - **Biosafety Measures**: Guidelines for the safe handling, transport, and use of living modified organisms.\n  - **Risk Assessment**: Mandatory assessment of potential environmental and health impacts.\n  - **Information Sharing**: Parties must share information on GMOs and their potential risks.\n  - **Public Participation**: Encourages public involvement in decision‑making processes.\n- **Significance**: First global treaty specifically addressing the safety of GMOs, complementing the Cartagena Protocol on Trade‑Related Aspects of Intellectual Property Rights (TRIPS).",
+    "notes_database_id": 1,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "Indian Geography",
+    "chapter": "Demography",
+    "subchapter": "Census 2011",
+    "topic": "Population of Indian States",
+    "content": "# Census 2011 Population of Indian States\n\n- **Top 3 Most Populated States**:\n  1. **Uttar Pradesh** – 1st rank\n  2. **Maharashtra** – 2nd rank\n  3. **Bihar** – 3rd rank\n- **Most Populated State among the Options**:\n  - **Meghalaya** (Option c) – Highest population among Goa, Mizoram, Meghalaya, and Sikkim.\n- **Least Populated State among the Options**:\n  - **Sikkim** (Option d).\n- **Key Takeaway**: Population distribution is highly uneven; northern and western states dominate the top ranks.",
+    "notes_database_id": 2,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "Physical Geography",
+    "chapter": "Latitude Lines",
+    "subchapter": "Tropic of Capricorn",
+    "topic": "Tropic of Capricorn",
+    "content": "# Tropic of Capricorn\n\n- **Definition**: An imaginary line of latitude at **23.5° South** of the equator.\n- **Countries it Passes Through**:\n  - Namibia, Botswana, South Africa, Mozambique, Madagascar, Australia, Chile, Argentina, Paraguay, Brazil.\n- **Not Passed Through**:\n  - **Bolivia** – The Tropic of Capricorn does **not** cross Bolivia.\n- **Geographical Significance**: Marks the southernmost latitude where the sun can appear directly overhead at noon during the December solstice.",
+    "notes_database_id": 3,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "Oceanography",
+    "chapter": "Atlantic Ocean Features",
+    "subchapter": "Sargasso Sea",
+    "topic": "Sargasso Sea",
+    "content": "# Sargasso Sea\n\n- **Location**: Central North Atlantic Ocean, bounded by the Gulf Stream (east), Canary Current (west), and North Atlantic Drift.\n- **Characteristics**:\n  - **Calm, Motionless Waters**: Confined within an anti‑cyclonic gyre.\n  - **Warm Temperature**: Approximately 18 °C.\n  - **High Salinity**: Among the highest in the Atlantic.\n  - **Floating Seaweed**: Abundant Sargassum (brown seaweed) forms a distinctive ecosystem.\n- **Common Misconception**: It is **not** characterized by anti‑cyclonic circulation of ocean currents (the gyre itself is anti‑cyclonic, but the sea is calm).",
+    "notes_database_id": 4,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "Economic Geography",
+    "chapter": "City‑Product Relationships",
+    "subchapter": "Industrial Specialization",
+    "topic": "City‑Product Matching",
+    "content": "# City‑Product Relationships\n\n| City (Country) | Primary Product |\n|----------------|-----------------|\n| Detroit (USA) | Motorcar |\n| Antwerp (Belgium) | Diamond Cutting |\n| Tokyo (Japan) | Ship Building |\n| Harbin (China) | Steel |\n\n- **Key Insight**: Cities often specialize in products that align with local resources, historical development, and global trade networks.",
+    "notes_database_id": 5,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "Indian Geography",
+    "chapter": "National Highways",
+    "subchapter": "NH‑44",
+    "topic": "Varanasi‑Kanyakumari National Highway",
+    "content": "# Varanasi‑Kanyakumari National Highway (NH‑44)\n\n- **Route**: Runs from Varanasi in the north to Kanyakumari in the south, covering the entire length of India.\n- **Major Cities on NH‑44**: Rewa, Katni, Jabalpur, Hyderabad, Bengaluru, etc.\n- **City Not on NH‑44**: **Satna** – lies outside the NH‑44 corridor.",
+    "notes_database_id": 6,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "Environmental Engineering",
+    "chapter": "Urban Water Management",
+    "subchapter": "Rainwater Harvesting",
+    "topic": "Urban Rainwater Harvesting Methods",
+    "content": "# Urban Rainwater Harvesting Methods\n\n| Method | Suitability for Urban Settings |\n|--------|------------------------------|\n| Rooftop Recharge Pit | **Suitable** – collects runoff from roofs and recharges groundwater.\n| Recharge Wells | **Suitable** – vertical infiltration structures.\n| Recharge Trench | **Suitable** – horizontal infiltration trenches.\n| Gully Plug | **Not Suitable** – primarily for erosion control, not for harvesting.\n\n- **Explanation**: Gully plugs or check dams are designed to prevent erosion and settle sediments, not to capture and store rainwater for reuse.",
+    "notes_database_id": 7,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "Indian Agriculture",
+    "chapter": "Irrigation Systems",
+    "subchapter": "Tank vs Well Irrigation",
+    "topic": "Tank Irrigation and Well Irrigation",
+    "content": "# Tank Irrigation vs Well Irrigation\n\n- **Tank Irrigation**:\n  - Predominant in **rocky plateau** regions (e.g., Eastern Madhya Pradesh, Chhattisgarh, Odisha, Tamil Nadu, Andhra Pradesh).\n  - Relies on **impervious surfaces** and seasonal rainfall.\n- **Well Irrigation**:\n  - Common in **alluvial plains** where groundwater reserves are abundant.\n- **Negative Relationship**: Areas with extensive tank irrigation tend to have less well irrigation because groundwater is scarce and rainfall is highly seasonal.",
+    "notes_database_id": 8,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "subchapter": "State Functions",
+    "topic": "State Functions vs Path‑Dependent Quantities",
+    "content": "## State Functions\n- **Definition**: A property that depends only on the initial and final states of a system, not on the path taken.\n- **Examples**: Gibbs free energy (G), Enthalpy (H), Internal energy (U), Entropy (S).\n- **Non‑examples**: Heat (q) and Work (W) – they are *path‑dependent* quantities.\n\n## Gibbs Free Energy\n- **Formula**: \\( G = H - TS \\)\n- **Spontaneity Criterion**: A process is spontaneous at constant temperature and pressure if \\( \\Delta G < 0 \\).\n- **Temperature for Spontaneity**: Setting \\( \\Delta G = 0 \\) gives the threshold temperature \\( T_{spont} = \\frac{\\Delta H}{\\Delta S} \\) (provided \\(\\Delta H\\) and \\(\\Delta S\\) are temperature‑independent).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "subchapter": "Hybridisation",
+    "topic": "Hybridisation of Phosphorus in PCl₅",
+    "content": "### Geometry of PCl₅\n- **Molecular shape**: Trigonal bipyramidal.\n- **Hybridisation**: To accommodate five electron domains, phosphorus uses one s, three p, and one d orbital → **sp³d** (often written as **sp³d** or **dsp³**).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Vector Calculus",
+    "subchapter": "Spherical Polar Coordinates",
+    "topic": "Components of a Vector in Spherical Coordinates",
+    "content": "In spherical polar coordinates \\((r, \\theta, \\phi)\\):\n- \\(\\theta\\) – polar angle measured from the **z‑axis**.\n- \\(\\phi\\) – azimuthal angle measured from the **x‑axis** in the xy‑plane.\n- For a vector \\(\\mathbf{P}\\) of magnitude \\(P\\), the **y‑component** is:\n  \\[ P_y = P \\sin\\theta \\sin\\phi \\]\n  (Option **(a)** in the MCQ).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "subchapter": "Ideal Gas Assumptions",
+    "topic": "Common Misconceptions about Ideal Gases",
+    "content": "### Ideal Gas Postulates\n1. **Large number of molecules** moving randomly.\n2. **Negligible volume** of individual molecules compared to container volume.\n3. **No intermolecular forces** (potential energy = 0).\n4. **Elastic collisions** with walls.\n\n**Incorrect statement**: *All molecules have the same speed* – speeds follow the Maxwell‑Boltzmann distribution; therefore statement (a) is false.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "Astronomy",
+    "chapter": "Celestial Objects",
+    "subchapter": "Constellations",
+    "topic": "Definition of a Constellation",
+    "content": "A **constellation** is a recognized pattern of stars (not necessarily equidistant from Earth) that forms a recognizable shape in the sky. The International Astronomical Union (IAU) officially defined **88 constellations** in 1922.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Mechanics of Materials",
+    "subchapter": "Elastic Behaviour",
+    "topic": "Hooke’s Law",
+    "content": "Hooke’s law states that **stress is proportional to strain** (\\(\\sigma = E\\epsilon\\)) **only within the proportional (linear) region** of the stress‑strain curve. It does **not** apply to the entire elastic region, nor to plastic deformation.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Molecular Biology",
+    "subchapter": "Nuclear Proteins",
+    "topic": "Histone Proteins",
+    "content": "Histones are **basic proteins** located in the **nucleus**. They bind to DNA, forming nucleosomes, and play a crucial role in DNA packaging and regulation of gene expression.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Physiology",
+    "subchapter": "Blood Components",
+    "topic": "Hemoglobin Function",
+    "content": "Hemoglobin, present in red blood cells (RBCs), **carries both oxygen (O₂) and carbon dioxide (CO₂)**. It is **not** involved in blood clotting.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Microscopy",
+    "topic": "Light Path in a Compound Microscope",
+    "content": "The correct sequence of light passage in a **compound microscope** is:\n1. **Condenser** – focuses light onto the specimen.\n2. **Objective lens** – forms a real, enlarged image.\n3. **Body tube** – transmits the image.\n4. **Eyepiece (ocular) lens** – magnifies the image for the eye.\n*(The MCQ options were truncated; the full correct sequence is as above.)*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian Physical Geography",
+    "subchapter": "Rivers and Erosion",
+    "topic": "Chambal River and Gully Erosion",
+    "content": "- **Chambal River Origin**: Rises from Mhow district in the Vindhya Ranges.\n- **Tributary Status**: It is a chief tributary of the Yamuna river.\n- **Gully Erosion**: The Chambal river valley is under the influence of intensive gully erosion.\n- **Badlands/Ravines**: Due to intensive gully erosion, the Chambal forms ravines or badlands.\n- **Mechanism**: Gully erosion occurs when water is channeled across unprotected land and washes away the soil along drainage lines.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 163
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "subchapter": "Cyclones",
+    "topic": "Temperate vs Tropical Cyclones",
+    "content": "- **Temperate Cyclones**:\n  - Occur in mid-latitudes.\n  - Move from West to East under the influence of Westerlies.\n  - Average velocity: 32 km/h in summers, 48 km/h in winters.\n- **Tropical Cyclones**:\n  - Occur in tropical latitudes.\n  - Move from East to West under the influence of Trade Winds.\n  - Velocity varies: Weak cyclones move at ~32 km/h; Hurricanes can attain 180 km/h or more.\n- **Terminology**: The 'eye' is the calm center, not the front side. Cyclones are low-pressure systems (surrounded by closed isobars), not high-pressure. Hurricanes are tropical cyclones, not mid-latitude phenomena.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 163
+  },
+  {
+    "subject": "Geography",
+    "chapter": "International Organizations",
+    "subchapter": "Environmental Bodies",
+    "topic": "International Tropical Timber Organisation (ITTO)",
+    "content": "- **Establishment**: 1986.\n- **Objective**: To conserve and manage tropical forest resources.\n- **Headquarters**: Yokohama, Japan.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 163
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "subchapter": "Atmospheric Moisture",
+    "topic": "Humidity, Fog, and Clouds",
+    "content": "- **Humidity Definition**: The moisture content of the atmosphere at a particular time and place.\n- **Measurement**: Measured in relative terms (Relative Humidity) or absolute terms (Absolute Humidity).\n- **Relative Humidity**: Indicates the likelihood of precipitation.\n- **Fog**: A form of suspended water droplets caused by condensation. It is a type of cloud at very low altitude that reduces visibility.\n- **Cloud Formation**: Begins with almost microscopically small drops of water condensed from and suspended in air. When these droplets combine, clouds are formed.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 163
+  },
+  {
+    "subject": "Society",
+    "chapter": "Indian Tribes",
+    "subchapter": "Tribal Distribution",
+    "topic": "Shompen Tribe",
+    "content": "- **Location**: Andaman and Nicobar Islands.\n- **Status**: Vulnerable tribal group.\n- **Other Tribes in Andaman and Nicobar Islands**: Great Andamanes, Onge, Jarawa, and Sentinelese.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 163
+  },
+  {
+    "subject": "Current Affairs",
+    "chapter": "Government Schemes",
+    "subchapter": "Smart City Mission",
+    "topic": "Smart Cities List",
+    "content": "- **Mission**: Launched by the Government of India to develop smart cities.\n- **Included Cities**: Silvassa, Kavaratti, Itanagar (added as a special case in August 2017), Shillong (100th city).\n- **Excluded City**: Jorhat (Assam) is not included in the Smart City Mission list.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 163
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Urban Geography",
+    "subchapter": "Demographics",
+    "topic": "Urban Agglomerations (Census 2011)",
+    "content": "- **Ranking by Population (Descending)**:\n  1. Mumbai\n  2. Delhi\n  3. Kolkata\n  4. Chennai\n- **Note**: Mumbai is the most populated urban agglomeration according to Census 2011.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 163
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Rivers and Reservoirs",
+    "subchapter": "Daman Ganga Project",
+    "topic": "Daman Ganga Reservoir Project Location",
+    "content": "- **Daman Ganga Reservoir Project**: Located in Dadra and Nagar Haveli.\n- **Daman Ganga River**: Also known as the Daman river.\n- **Flow Path**: The river flows through Maharashtra, Gujarat, Daman and Diu, and Dadra and Nagar Haveli.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 164
+  },
+  {
+    "subject": "Economy",
+    "chapter": "Public Sector Undertakings",
+    "subchapter": "Coal India Limited",
+    "topic": "Status and Headquarters of Coal India Limited",
+    "content": "- **Coal India Limited (CIL)**: A public sector company under the Ministry of Coal.\n- **Status**: Designated as a ‘Maha Ratna’ company.\n- **Global Standing**: It is the single largest coal-producing company in the world.\n- **Headquarters**: Located in **Kolkata, West Bengal** (Note: Not Ranchi, Jharkhand).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 164
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Foreign Policy",
+    "subchapter": "Historical Initiatives",
+    "topic": "Afro-Asian Solidarity",
+    "content": "- **Initiator**: Afro-Asian solidarity as a central element of India’s foreign policy was initiated by Prime Minister **Jawaharlal Nehru**.\n- **Philosophy**: J.L. Nehru believed that Asia had a certain responsibility toward the people of Africa, leading to the adoption of Afro-Asian solidarity in foreign policy.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 164
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Institutions and Funds",
+    "subchapter": "Prime Minister’s National Relief Fund",
+    "topic": "PMNRF Operation and Purpose",
+    "content": "- **Establishment**: The Prime Minister’s National Relief Fund (PMNRF) was established in **1948**.\n- **Original Purpose**: To assist displaced persons from Pakistan.\n- **Current Purpose**: Resources are utilized to render relief to families of those killed in natural calamities and man-made disasters.\n- **Operated By**: The fund is operated by the **Prime Minister’s Office (PMO)**.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 164
+  },
+  {
+    "subject": "Current Affairs",
+    "chapter": "Defense and Security",
+    "subchapter": "Military Operations",
+    "topic": "Surgical Strikes (2016) vs Balakot (2019)",
+    "content": "- **2016 Surgical Strikes**:\n  - **Date**: Announced on 29th September, 2016.\n  - **Target**: Launch pads of militants across the Line of Control (LoC) in Pakistan Occupied Kashmir (PoK).\n  - **Naming**: The operation was **not given any name**.\n- **2019 Balakot Strike**:\n  - **Conducted By**: Indian Air Force.\n  - **Context**: Conducted in response to the Pulwama attack.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 164
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Judicial and Quasi-Judicial Bodies",
+    "subchapter": "National Green Tribunal",
+    "topic": "NGT Act 2010 Provisions",
+    "content": "- **Establishment**: Set up in **2010** under the National Green Tribunal Act, 2010.\n- **Mandate**: Effective and expeditious disposal of cases relating to environmental protection and conservation of forests and other natural resources.\n- **Powers**: May consider giving relief and compensation for damages to persons and property.\n- **Procedure**: The Tribunal is **NOT bound** by the procedures laid down under the Code of Civil Procedure, 1908. Instead, it is guided by the **principles of natural justice**.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 164
+  },
+  {
+    "subject": "History",
+    "chapter": "Modern India",
+    "subchapter": "British Rule & Political Movements",
+    "topic": "Simla and Anglo-Nepalese War",
+    "content": "- **Simla**: Founded as a hill station by the Britishers during the Anglo-Gurkha (Anglo-Nepalese) War (1814-1816).\n- **Treaty of Sugauli**: Signed in 1816, ending the Anglo-Nepalese War.\n- **Strategic Importance**: The strategic location of Simla determined its significance for many times.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 165
+  },
+  {
+    "subject": "History",
+    "chapter": "Modern India",
+    "subchapter": "Independence Movement",
+    "topic": "Opposition to Pakistan",
+    "content": "- **Sir Sikandar Hayat Khan**: Premier of Punjab who opposed the creation of Pakistan.\n- **Quote**: On 11th March 1941, he told the Punjab Legislative Assembly: \"We do not ask for freedom that there may be Muslim Raj here and Hindu Raj elsewhere. If that is what Pakistan means I will have nothing to do with it.\"",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 165
+  },
+  {
+    "subject": "History",
+    "chapter": "Modern India",
+    "subchapter": "Historiography",
+    "topic": "Authors and Books",
+    "content": "- **Sekhar Bandyopadhyay**: *From Plassey to Partition: A History of Modern India*\n- **Sarvepalli Gopal**: *Jawaharlal Nehru: A Biography, Vol-I, 1889-1947*\n- **David Hardiman**: *Gandhi in His Time and Ours*\n- **Gyanendra Pandey**: *The Ascendancy of the Congress in Uttar Pradesh, 1926-1934*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 165
+  },
+  {
+    "subject": "Current Affairs",
+    "chapter": "Government Schemes",
+    "subchapter": "Energy Sector",
+    "topic": "Saubhagya Scheme",
+    "content": "- **Pradhan Mantri Sahaj Bijli Har Ghar Yojna (Saubhagya)**: Launched to ensure electrification of all willing households in the country.\n- **Pre-Scheme Status**: Eight states had achieved more than 99% household electrification prior to the launch of the scheme.\n- **The 8 States**: Andhra Pradesh, Gujarat, Goa, Haryana, Himachal Pradesh, Kerala, Punjab, and Tamil Nadu.\n- **Note**: Madhya Pradesh was NOT among these eight states.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 165
+  },
+  {
+    "subject": "Current Affairs",
+    "chapter": "International Relations",
+    "subchapter": "United Nations",
+    "topic": "UN Human Rights Council (UNHRC)",
+    "content": "- **Election**: In October 2018, India was elected as a member of the UN Human Rights Council.\n- **Term**: Three years (till October 2021).\n- **Votes**: India received 188 votes, the highest among the 18 countries elected.\n- **Frequency**: This was the 5th time India was elected to the Geneva-based Council.\n- **Context**: The UNHRC is the main body of the UN charged with promoting and monitoring human rights. Other countries elected in previous years include China, Nepal, and Pakistan.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 165
+  },
+  {
+    "subject": "Current Affairs",
+    "chapter": "Government Schemes",
+    "subchapter": "Health & Pharma",
+    "topic": "Bureau of Pharma PSUs of India (BPPI)",
+    "content": "- **Role**: BPPI is the implementing agency of the Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP).\n- **Legal Status**: Registered as an independent society under the Societies Registration Act, 1860.\n- **PMBJP Objective**: Launched in 2015 to make quality medicines available at affordable prices for all, particularly the poor and disadvantaged.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 165
+  },
+  {
+    "subject": "General Knowledge / Sports",
+    "chapter": "International Sports Rankings",
+    "subchapter": "",
+    "topic": "India's Ranking in 2018 Commonwealth Games",
+    "content": "# India’s Ranking in 2018 Commonwealth Games\n\n- **Rank:** 17th\n- **Total Medals:** 13\n  - Gold: 3\n  - Silver: 9\n  - Bronze: 1\n\nThis ranking reflects India’s performance across various sports disciplines during the 2018 Commonwealth Games held in Gold Coast, Australia.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 166
+  },
+  {
+    "subject": "Science",
+    "chapter": "Taxonomy",
+    "subchapter": "",
+    "topic": "EK Janaki Ammal National Award",
+    "content": "# EK Janaki Ammal National Award\n\n- **Administered by:** Ministry of Environment, Forest and Climate Change\n- **Categories:**\n  - Plants\n  - Animals\n  - Microbial Taxonomy\n- **Namesake:** EK Janaki Ammal – a legendary botanist from Kerala\n- **Purpose:** To recognize and promote excellence in the field of taxonomy.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 166
+  },
+  {
+    "subject": "Defence",
+    "chapter": "Military Training Institutes",
+    "subchapter": "",
+    "topic": "Locations of Indian Military Training Institutes",
+    "content": "# Indian Military Training Institutes and Their Locations\n\n| Institute | Location | State | Year Established |\n|-----------|----------|-------|-----------------|\n| Army War College | Mhow | Madhya Pradesh | 1971 |\n| High Altitude Warfare School | Gulmarg | Jammu & Kashmir | 1948 |\n| Army Air Defence College | Gopalpur | Odisha | 1940 |\n| Rashtriya Indian Military College | Dehradun | Uttarakhand | 1922 |\n\nThese institutions provide specialized training and research for the Indian Army.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 166
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Viruses",
+    "subchapter": "",
+    "topic": "Canine Distemper Virus",
+    "content": "# Canine Distemper Virus\n\n- **Family:** Paramyxoviridae\n- **Hosts:** Dogs, cats, and other mammals\n- **Transmission:** Highly contagious via inhalation\n- **Affected Systems:** Gastrointestinal, respiratory, and occasionally nervous system\n- **Common Symptoms:**\n  - High fever\n  - Eye inflammation\n  - Coughing\n  - Diarrhea\n  - Loss of appetite\n  - Hardening of nose\n\nThe virus was identified as the main cause of recent lion deaths in Gir National Park.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 166
+  },
+  {
+    "subject": "Social Sciences",
+    "chapter": "Drugs & Legislation",
+    "subchapter": "",
+    "topic": "Recreational Cannabis Legalization",
+    "content": "# Recreational Cannabis Legalization (as of 2018)\n\n- **Countries with Legal Recreational Use:**\n  - **Canada** – second country after Uruguay to legalise possession and use\n  - **Uruguay** – first country to legalise recreational cannabis\n- **United States:** Federal law still prohibits cannabis, but several states allow recreational use\n- **Nigeria:** No legal recreational cannabis use\n\nThese developments reflect changing attitudes toward cannabis worldwide.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 166
+  },
+  {
+    "subject": "Health & Medicine",
+    "chapter": "Health Schemes",
+    "subchapter": "",
+    "topic": "Pradhan Mantri Jan Arogya Yojana (PMJAY)",
+    "content": "# Pradhan Mantri Jan Arogya Yojana (PMJAY)\n\n- **Coverage:** Up to ₹5 lakh per family per year for secondary and tertiary care hospitalisation\n- **Access:** Cashless and paperless at all empanelled public and private hospitals\n- **Scope:** Provides free treatment for all beneficiaries in times of need\n- **Limitations:** Pre‑existing diseases are not covered under the scheme\n\nPMJAY is part of the Ayushman Bharat initiative aimed at universal health coverage.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 166
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "LCM and Divisibility",
+    "topic": "Least Common Multiple (LCM) of Integers",
+    "content": "The **Least Common Multiple (LCM)** of a set of integers is the smallest positive integer that is divisible by each of them.\\n\\n**Formula**: For two numbers \\(a\\) and \\(b\\), \\n\\[\n\\text{LCM}(a,b) = \\frac{|a\\cdot b|}{\\gcd(a,b)}\n\\]\\nFor more than two numbers, compute pairwise or use prime factorisation.\\n\\n**Example**: LCM of 16, 36, 45 and 48.\\n- Prime factors:\\n  - 16 = \\(2^4\\)\\n  - 36 = \\(2^2\\cdot3^2\\)\\n  - 45 = \\(3^2\\cdot5\\)\\n  - 48 = \\(2^4\\cdot3\\)\\n- Take the highest power of each prime: \\(2^4, 3^2, 5\\)\\n- LCM = \\(2^4\\cdot3^2\\cdot5 = 16\\cdot9\\cdot5 = 720\\).\\n\\n**Finding the largest 4‑digit multiple of 720**: \\n\\[\n\\text{Largest } n = \\left\\lfloor\\frac{9999}{720}\\right\\rfloor \\times 720 = 13 \\times 720 = 9360\n\\]\\nThus, 9360 is the highest four‑digit number divisible by all four numbers.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 168
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "Divisibility Rules",
+    "topic": "Divisibility by 3 and 11",
+    "content": "A number is divisible by:\\n\\n- **3** if the sum of its digits is divisible by 3.\\n- **11** if the alternating sum of its digits (sum of digits in odd positions minus sum of digits in even positions) is 0 or a multiple of 11.\\n\\n**Example**: For a 5‑digit number of the form **XXYXX**:\\n- Sum of digits = \\(4X + Y\\). For divisibility by 3, \\(4X + Y \\equiv 0 \\pmod{3}\\).\\n- Alternating sum = \\(X + Y + X - (X + X) = Y\\). For divisibility by 11, \\(Y \\equiv 0 \\pmod{11}\\). Since \\(Y\\) is a single digit, \\(Y = 0\\).\\n- With \\(Y = 0\\), the condition for 3 becomes \\(4X \\equiv 0 \\pmod{3}\\) → \\(X = 3, 6, 9\\). Hence the numbers are 33033, 66066, 99099.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 168
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Exponential Equations",
+    "topic": "Product of Exponential Equations",
+    "content": "When given equations of the form:\\n\\[\nx^y = a,\\quad y^z = b,\\quad z^x = c\n\\]\\nMultiplying all three equations yields:\\n\\[\n(x^y)(y^z)(z^x) = abc\n\\]\\nThe left side can be rearranged as \\((xyz)^{x+y+z}\\) or simply recognized as a product of powers that equals 1 when the exponents and bases are consistent. In the specific problem, the manipulation leads to \\(abc = 1\\). This technique is useful for eliminating variables and finding relationships between constants.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 168
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Radical Expressions",
+    "topic": "Rationalising Denominators with Surds",
+    "content": "To simplify expressions like \\(\\displaystyle \\frac{\\sqrt{2}+\\sqrt{3}}{\\sqrt{2}-\\sqrt{3}}\\), multiply numerator and denominator by the conjugate of the denominator:\\n\\[\n\\frac{\\sqrt{2}+\\sqrt{3}}{\\sqrt{2}-\\sqrt{3}} \\times \\frac{\\sqrt{2}+\\sqrt{3}}{\\sqrt{2}+\\sqrt{3}}\n= \\frac{(\\sqrt{2}+\\sqrt{3})^2}{(\\sqrt{2})^2-(\\sqrt{3})^2}\n= \\frac{2+3+2\\sqrt{6}}{2-3}\n= -5-2\\sqrt{6}\n\\]\\nOnce simplified, such expressions can be substituted into polynomial expressions to evaluate them.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 168
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Inequalities",
+    "topic": "Solving Quadratic Inequalities",
+    "content": "A quadratic inequality of the form \\(x^2 + bx + c > 0\\) can be solved by factoring or completing the square.\\n\\n**Example**: Solve \\(x^2 - 6x + 27 > 0\\).\\n- Complete the square: \\((x-3)^2 + 18 > 0\\). Since \\((x-3)^2 \\ge 0\\) and \\(18 > 0\\), the inequality holds for all real \\(x\\).\\n\\nIf the inequality were \\(x^2 - 6x - 27 > 0\\), factor as \\((x-9)(x+3) > 0\\). The solution set is \\(x < -3\\) or \\(x > 9\\). Always check the sign of the quadratic expression at test points to determine the correct intervals.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 168
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "",
+    "topic": "Divisors of an Integer",
+    "content": "# Divisors of an Integer\n\n**Prime Factorisation**\n- Any positive integer \\(n\\) can be expressed uniquely (up to order) as a product of prime powers:\n  \n  \\[\n  n = p_1^{\\,a_1}\\,p_2^{\\,a_2}\\,\\dots\\,p_k^{\\,a_k}\n  \\]\n\n**Number of Divisors**\n- The total number of positive divisors of \\(n\\) is\n  \\[\n  d(n) = (a_1+1)(a_2+1)\\dots(a_k+1)\n  \\]\n- If you need the count *excluding* 1 and \\(n\\) itself, subtract 2:\n  \\[\n  d_{\text{excl}}(n) = d(n)-2\n  \\]\n\n**Example** – 38808\n- Factorise: \\(38808 = 2^3 \times 3^2 \times 7^2 \times 11^1\\)\n- Total divisors: \\((3+1)(2+1)(2+1)(1+1)=4\times3\times3\times2=72\\)\n- Excluding 1 and 38808: \\(72-2=70\\)\n\n**Key Formula**\n- \\[\n  d(n) = \\prod_{i=1}^{k} (a_i+1)\n  \\]\n\n**Practice**\n- Find the number of divisors of \\(2^4\\cdot3^3\\cdot5^2\\). (Answer: 5×4×3 = 60)\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "",
+    "topic": "HCF and LCM of Polynomials",
+    "content": "# HCF and LCM of Polynomials\n\n**Definitions**\n- **HCF (Highest Common Factor)** of two polynomials is the greatest polynomial that divides both.\n- **LCM (Least Common Multiple)** is the smallest polynomial that is a multiple of both.\n\n**Fundamental Relation**\n- For any two polynomials \\(P(x)\\) and \\(Q(x)\\):\n  \\[\n  \text{HCF}(P,Q)\times\text{LCM}(P,Q)=P(x)\times Q(x)\n  \\]\n\n**Finding a Missing Polynomial**\n- If HCF and LCM are known and one polynomial is given, the other can be found by\n  \\[\n  Q(x)=\frac{P(x)\times Q(x)}{\text{HCF}(P,Q)}=\frac{\text{LCM}(P,Q)}{\text{HCF}(P,Q)}\times P(x)\n  \\]\n\n**Example** – Given HCF \\(=x^3+3x^2+2x+9\\) and LCM \\(=x^3-9x^2+105x-21\\), and one polynomial \\(P(x)=x^2-4x+21\\):\n- Compute \\(Q(x)=\frac{\text{LCM}}{\text{HCF}}\times P(x)\\). Simplify to obtain the missing polynomial.\n\n**Practice**\n- HCF of \\(x^2-4\\) and \\(x^2-9\\) is \\(x-1\\). If LCM is \\(x^3-8\\), find the other polynomial.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Inequalities",
+    "subchapter": "",
+    "topic": "Comparing Fractions with Variables",
+    "content": "# Comparing Fractions with Variables\n\n**General Rule**\n- For positive denominators, to compare \\(\frac{A}{B}\\) and \\(\frac{C}{D}\\), cross‑multiply: compare \\(A\times D\\) with \\(C\times B\\).\n- If all variables are positive, the sign of the difference is preserved.\n\n**Example** – Given \\(\\alpha,\beta>0\\) and\n  \\[\n  \frac{\\alpha}{\beta}+\frac{1}{\beta}=-\frac{q}{p},\\quad \\alpha\beta=\frac{r}{p}\n  \\]\n- The greatest among \\(\frac{1}{\\alpha\beta+1}\\), \\(\frac{1}{1+\\alpha\beta}\\), \\(-\frac{1}{\\alpha\beta}\\), \\(\frac{\\alpha\beta}{\\alpha\beta+1}\\) can be found by substituting the expressions and simplifying.\n\n**Key Insight**\n- When comparing expressions that are all negative, the one with the *least negative* (i.e., largest) value is the greatest.\n\n**Practice**\n- Compare \\(\frac{2}{3}\\) and \\(\frac{5}{8}\\) using cross‑multiplication.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Work and Time",
+    "subchapter": "",
+    "topic": "Work‑Time Problems",
+    "content": "# Work‑Time Problems\n\n**Basic Principle**\n- Work done \\(W = \text{Rate} \times \text{Time}\\).\n- If a worker’s efficiency doubles, his rate doubles.\n- If a worker’s efficiency is reduced to one‑third, his rate becomes one‑third.\n\n**Ratio of Efficiencies**\n- Let \\(a\\) and \\(b\\) be the efficiencies (rates) of workers A and B.\n- If A works twice as efficiently: new rate \\(=2a\\).\n- If B works one‑third as efficiently: new rate \\(= \frac{b}{3}\\).\n- Given combined time changes, set up equations using \\(W = a+b\\) and solve for \\(a/b\\).\n\n**Finding Individual Times**\n- Once the ratio \\(a:b\\) is known, the time taken by each worker alone is inversely proportional to their rates.\n- If \\(a:b = 1:4\\), then time for A : time for B = 4:1.\n\n**Example** – Two workers finish a job in 5 days together. With altered efficiencies, they finish in 3 days. Find time for A alone.\n- Solve to get \\(a:b = 1:4\\). Then \\(T_A = 6\frac{1}{4}\\) days.\n\n**Practice**\n- Two workers finish a task in 8 days together. If one works twice as fast and the other half as fast, they finish in 4 days. Find time for the slower worker alone.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "",
+    "topic": "Algebraic Simplification of Rational Expressions",
+    "content": "# Algebraic Simplification of Rational Expressions\n\n**Common Technique**\n- When simplifying expressions like \\(\frac{x^k + x^m}{x^n + x^p}\\), factor common powers of \\(x\\) from numerator and denominator.\n- Use identities such as \\((a+b)(a-b)=a^2-b^2\\) or \\((a-b)(a^2+ab+b^2)=a^3-b^3\\).\n\n**Example** – Given\n  \\[\n  \frac{x^k + x^m}{x^n + x^p} = \frac{x^2-1}{x^4-1}\n  \\]\n- Factor numerator: \\(x^2-1=(x-1)(x+1)\\).\n- Factor denominator: \\(x^4-1=(x^2-1)(x^2+1)=(x-1)(x+1)(x^2+1)\\).\n- Simplify to \\(\frac{1}{x^2+1}\\). Thus \\(k=2\\). \n\n**Practice**\n- Simplify \\(\frac{x^5-1}{x^3-1}\\) and identify the exponent \\(k\\) if the result is \\(\frac{x^2+1}{x^2-1}\\).\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "subchapter": "",
+    "topic": "Sum of Squares and Cubes of Consecutive Numbers",
+    "content": "# Sum of Squares and Cubes of Consecutive Numbers\n\n**Let** the three consecutive natural numbers be \\(n-1,\\,n,\\,n+1\\).\n\n**Sum of Squares**\n- \\[\n  (n-1)^2 + n^2 + (n+1)^2 = 3n^2 + 2\n  \\]\n- Set equal to given sum and solve for \\(n\\).\n\n**Sum of Cubes**\n- \\[\n  (n-1)^3 + n^3 + (n+1)^3 = 3n^3 + 3n\n  \\]\n- Once \\(n\\) is known, compute the sum.\n\n**Example** – Sum of squares = 110.\n- \\(3n^2+2=110 \\Rightarrow n^2=36 \\Rightarrow n=6\\).\n- Numbers: 5, 6, 7.\n- Sum of cubes: \\(125+216+343=684\\).\n\n**Practice**\n- If the sum of squares of three consecutive numbers is 200, find the sum of their cubes.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "HCF and LCM",
+    "topic": "Highest Common Factor (HCF)",
+    "content": "# Highest Common Factor (HCF)\n\n- **Definition**: The HCF (also called GCD) of two integers is the largest integer that divides both numbers without leaving a remainder.\n- **Properties**:\n  - If `HCF(a, b) = d`, then `a = d·m` and `b = d·n` where `m` and `n` are coprime.\n  - The product of two numbers can be expressed as `a·b = HCF(a, b) · LCM(a, b)`.\n- **Finding HCF**: Use the Euclidean algorithm or prime factorisation.\n- **Example**: For `p·q = 7168` and `HCF(p, q) = 16`, both `p` and `q` must be multiples of 16. Dividing 7168 by 16 gives 448, so `p = 16·m`, `q = 16·n` with `m·n = 448`. Checking multiples of 16 that satisfy the product leads to `p = 64` and `q = 112`.\n\n> **Key takeaway**: Knowing the HCF allows you to factor the numbers into multiples of the HCF, simplifying the search for integer pairs with a given product.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 170
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "Product and Sum of Integers",
+    "topic": "Determining Integers from Product and HCF",
+    "content": "# Determining Integers from Product and HCF\n\nWhen two integers `p` and `q` satisfy:\n- `p·q = P` (known product)\n- `HCF(p, q) = d` (known HCF)\n\n1. Express `p = d·m` and `q = d·n` where `m` and `n` are coprime.\n2. Substitute into the product: `d²·m·n = P` → `m·n = P / d²`.\n3. Find factor pairs `(m, n)` of `P / d²` that are coprime.\n4. Compute `p` and `q` and verify any additional conditions (e.g., `p, q > 60`).\n\n**Example**: `P = 7168`, `d = 16` → `P / d² = 7168 / 256 = 28`. Factor pairs of 28 are `(1,28)`, `(2,14)`, `(4,7)`. Only `(4,7)` are coprime, giving `p = 16·4 = 64`, `q = 16·7 = 112`.\n\n> **Result**: Sum `p + q = 176`.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 170
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Logarithm Properties",
+    "topic": "Solving for Unknown Logarithms",
+    "content": "# Solving for Unknown Logarithms\n\n**Key identities**:\n- `log_b(x·y) = log_b x + log_b y`\n- `log_b(x/y) = log_b x - log_b y`\n- `log_b(x^k) = k·log_b x`\n\n**Procedure**:\n1. Express the unknown log in terms of known logs using the identities.\n2. Substitute the given numerical values.\n3. Perform arithmetic to obtain the result.\n\n**Example**: Find `log_10 0.72` given `log_10 2 = 0.3010` and `log_10 3 = 0.4771`.\n- `0.72 = 72/100 = (8·9)/(10²) = (2³·3²)/(10²)`.\n- `log_10 0.72 = 3·log_10 2 + 2·log_10 3 - 2·log_10 10`.\n- Substitute: `= 3(0.3010) + 2(0.4771) - 2(1) = 0.9030 + 0.9542 - 2 = -0.1428`.\n- Since the problem statement lists a positive answer, the correct interpretation in the source was `log_10 0.72 = 1.9286` (likely a misprint). The method above demonstrates the standard approach.\n\n> **Tip**: Always check the base of the logarithm and use `log_10 10 = 1`.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 170
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Exponents and Powers",
+    "topic": "Manipulating Exponential Expressions",
+    "content": "# Manipulating Exponential Expressions\n\nWhen dealing with expressions like `a^b^c` or `a^b·c`, clarity of order of operations is crucial:\n- Exponentiation is right‑to‑left associative: `a^b^c = a^(b^c)`.\n- Multiplication and division have lower precedence than exponentiation.\n\n**Common technique**: If you know a product of variables equals 1 (e.g., `abc = 1`), you can replace one variable with the reciprocal of the product of the others.\n\n**Example**: Given `a·b·c = 1`, we can write `a = 1/(b·c)`. This substitution often simplifies expressions involving reciprocals or powers.\n\n> **Application**: In the problem where `1/(x) + 1/(y) + 1/(z)` is required, substituting `a = 1/(b·c)` leads to a simplification that yields the answer `0`.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 170
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "subchapter": "Roots and Coefficients",
+    "topic": "Sum and Product of Roots",
+    "content": "# Sum and Product of Roots\n\nFor a quadratic equation `ax² + bx + c = 0` with roots `α` and `β`:\n- Sum of roots: `α + β = -b/a`.\n- Product of roots: `α·β = c/a`.\n\n**Useful identities**:\n- `1/α + 1/β = (α + β)/(α·β) = (-b/a) / (c/a) = -b/c`.\n- `1/a + 1/b + 1/α + 1/β` can be expressed in terms of `a`, `b`, `c` by substituting the above relations.\n\n**Example**: Compute `1/a + 1/b + 1/α + 1/β`.\n- `1/a + 1/b = (a + b)/(ab)`.\n- `1/α + 1/β = -b/c`.\n- Combine and simplify to obtain `b/(a·c)`.\n\n> **Result**: The expression simplifies to `b/(a·c)`.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 170
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "Permutations of Digits",
+    "topic": "Properties of 3‑Digit Numbers XYZ, YZX, ZXY",
+    "content": "# Properties of 3‑Digit Numbers XYZ, YZX, ZXY\n\nLet `XYZ` denote the 3‑digit number with digits `X`, `Y`, `Z`.\n- `XYZ = 100X + 10Y + Z`.\n- `YZX = 100Y + 10Z + X`.\n- `ZXY = 100Z + 10X + Y`.\n\n**Sum of the three numbers**:\n```\nXYZ + YZX + ZXY = 111(X + Y + Z)\n```\n- Thus the sum is always a multiple of 111.\n- Since `111 = 3·37`, the sum is divisible by 3 and 37.\n- The sum is **not** necessarily divisible by `X + Y + Z` unless `X + Y + Z` divides 111.\n\n**Key statements**:\n1. The sum is not divisible by `X + Y + Z` (generally true).\n2. The sum is divisible by 111 (always true).\n\n> **Conclusion**: Statement 2 is correct; statement 1 is generally false.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 170
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Diophantine Equations",
+    "subchapter": "Reciprocal Equations",
+    "topic": "Solving 1/m + 1/n = 1/5",
+    "content": "# Solving 1/m + 1/n = 1/5\n\nRewrite the equation:\n```\n1/m + 1/n = 1/5\n=> (m + n) / (m·n) = 1/5\n=> 5(m + n) = m·n\n=> m·n - 5m - 5n = 0\n=> (m - 5)(n - 5) = 25\n```\n- Factor pairs of 25: `(1,25)`, `(5,5)`, `(25,1)`.\n- Translate back: `(m-5, n-5)` → `(1,25)` gives `(m,n) = (6,30)`? Wait check: Actually `(m-5)=1` → `m=6`, `(n-5)=25` → `n=30`. But the solution list shows `(3,10)`, `(4,5)`, `(5,4)`, `(10,3)`. Let's recompute correctly:\n- Starting from `5(m + n) = m·n` → `m·n - 5m - 5n = 0` → add 25 both sides: `m·n - 5m - 5n + 25 = 25` → `(m-5)(n-5) = 25`.\n- Factor pairs of 25: `(1,25)`, `(5,5)`, `(25,1)`.\n- Solutions: `(m,n) = (6,30)`, `(10,10)`, `(30,6)`. However the provided answer list `(3,10)`, `(4,5)`, `(5,4)`, `(10,3)` corresponds to equation `1/m + 1/n = 1/5`? Let's verify: `1/3 + 1/10 = 13/30 ≠ 1/5`. So there may be a misprint. The standard solution yields 3 solutions: `(6,30)`, `(10,10)`, `(30,6)`. The answer key says 4 solutions, likely from a different equation `1/m + 1/n = 1/5`? The method remains the same.\n\n> **Takeaway**: Transform the reciprocal equation into a factored form to find integer solutions.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 170
+  },
+  {
+    "id": "note-1",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Polygons",
+    "subchapter": "Interior and Exterior Angles",
+    "text": "<p>∴Interior angles are 5 2 5 180 x x − × º and 4 2 4 180 x x − × º respectively According to the question, 5 2 5 180 4 2 4 180 9 x x x x − × − − × = º º º ⇒ 180 5 2 5 4 2 4 9 º º x x x x − − −    = ⇒180 20 8 20 10 20 9 º º x x x − − +    = ⇒ x = 2 ∴Number of sides of polygons are 10 and 8 respectively ∴One of them decagon and other is octagon We know that, sum of exterior angle of regular polygon is 360º ∴Sum of exteriors angles of polygons are 360 360 720 º º º + =</p>",
+    "formulas": [
+      "(n-2)*180/n",
+      "Sum of exterior angles = 360°"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Solution to find number of sides of two polygons given interior angle relation and sum of exterior angles."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Speed, Time and Distance",
+    "subchapter": "Train Problems",
+    "topic": "Speed of a train passing a platform",
+    "content": "### Formula for Train Passing a Platform\nWhen a train passes a platform (or any object with length), the total distance covered is the sum of the length of the train and the length of the platform.\n\n**Formula:**\n$$ \\text{Speed} = \\frac{\\text{Length of Train} + \\text{Length of Platform}}{\\text{Time Taken}} $$\n\n**Unit Conversion:**\nTo convert speed from m/s to km/h, multiply by $\\frac{18}{5}$ or $\\frac{3600}{1000}$.\n$$ \\text{Speed (km/h)} = \\text{Speed (m/s)} \\times \\frac{3600}{1000} $$\n\n**Key Facts:**\n- 1 km = 1000 m\n- 1 hour = 3600 seconds",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 172
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Speed, Time and Distance",
+    "subchapter": "Average Speed",
+    "topic": "Calculating Average Speed for multiple segments",
+    "content": "### Average Speed Calculation\nAverage speed is defined as the total distance traveled divided by the total time taken. It is **not** the arithmetic mean of the speeds.\n\n**Formula:**\n$$ \\text{Average Speed} = \\frac{\\text{Total Distance}}{\\text{Total Time}} $$\n\n**Method:**\n1. Calculate the time taken for each segment: $ t_i = \\frac{d_i}{s_i} $.\n2. Sum all distances: $ D_{total} = \\sum d_i $.\n3. Sum all times: $ T_{total} = \\sum t_i $.\n4. Compute: $ S_{avg} = \\frac{D_{total}}{T_{total}} $.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 172
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Speed, Time and Distance",
+    "subchapter": "Races",
+    "topic": "Comparing speeds and distances in races",
+    "content": "### Race Problems Logic\nIn race problems involving uniform speeds:\n1. **Ratio of Speeds:** If A beats B by $x$ meters in a race of distance $D$, then when A covers $D$, B covers $D-x$.\n   $$ \\frac{\\text{Speed of A}}{\\text{Speed of B}} = \\frac{D}{D-x} $$\n2. **Time Comparison:** Since $ \\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}} $, for the same distance, time is inversely proportional to speed.\n3. **Linking Different Races:** If the speed of one runner in Race 1 is equal to the speed of another runner in Race 2, use the time-distance relationship to equate their speeds or find the ratio of times taken for specific distances.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 172
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Age Problems",
+    "subchapter": "Family Age Sums",
+    "topic": "Determining individual ages from sum changes",
+    "content": "### Age Sum Problems\nWhen calculating the age of a specific member based on the sum of ages at two different points in time:\n\n**Key Concept:**\nThe difference in the sum of ages between two points in time is equal to the number of years elapsed multiplied by the number of people alive at the earlier time point.\n\n**Formula:**\n$$ \\text{Difference in Sum} = \\text{Number of Members} \\times \\text{Time Elapsed} $$\n\n**Application:**\nIf the sum of ages of $N$ family members is $S_1$ at time $T_1$ and $S_2$ at time $T_2$ (where $T_2 > T_1$), and no one has died or been born in between:\n$$ S_2 - S_1 = N \\times (T_2 - T_1) $$\nIf a child is born at $T_1$, the number of members increases. The age of the newborn at $T_2$ is simply $T_2 - T_1$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 172
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Work and Time",
+    "subchapter": "Efficiency and Time",
+    "topic": "Relationship between efficiency and time taken",
+    "content": "### Work, Efficiency, and Time\n1. **Efficiency vs. Time:** Efficiency is inversely proportional to the time taken to complete a task.\n   $$ \\text{Efficiency} \\propto \\frac{1}{\\text{Time}} $$\n   If Person A is $k$ times as efficient as Person B, then A takes $\\frac{1}{k}$ of the time taken by B.\n\n2. **Setting up Equations:**\n   Let efficiency of B be $b$. Then efficiency of A is $kb$.\n   Let time taken by B be $T_B$. Then time taken by A is $T_A$.\n   Since Work = Efficiency $\\times$ Time, and Work is constant:\n   $$ k b \\times T_A = b \\times T_B \\implies T_B = k T_A $$\n   If the difference in time is given ($T_B - T_A = \\Delta t$), substitute $T_B$ to solve for $T_A$ or $T_B$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 172
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Set Theory / Venn Diagrams",
+    "subcategory": "Categorical Data Analysis",
+    "topic": "Solving for subsets using percentages and totals",
+    "content": "### Venn Diagram / Set Problems Strategy\n1. **Define Variables:** Let total boys be $B$ and total girls be $G$.\n2. **Use Total Constraints:** $B + G = \\text{Total Children}$.\n3. **Use Percentage Constraints:**\n   - If Girls = $x\\%$ of Boys, then $G = \\frac{x}{100}B$.\n   - Solve for $B$ and $G$ using the total count.\n4. **Break Down Subsets:**\n   - Use given percentages to find specific groups (e.g., Boys playing only Badminton, Boys playing both).\n   - Use the principle of inclusion-exclusion or direct subtraction to find unknown subsets (e.g., Girls playing only Badminton = Total Girls - Girls playing only TT - Girls playing both).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 172
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Linear Equations and Inequalities",
+    "topic": "Solving Linear Inequalities in Two Variables",
+    "content": "### Solving Linear Inequalities Graphically\n\nTo determine the region satisfying a system of linear inequalities:\n1. **Graph the Boundary Lines**: Convert inequalities to equations (e.g., $x + y \\ge 5$ becomes $x + y = 5$) and plot the lines.\n   - For $x + y = 5$: Intercepts are $(5, 0)$ and $(0, 5)$.\n   - For $x - y = 3$: Intercepts are $(3, 0)$ and $(0, -3)$.\n2. **Determine the Shaded Region**: Test a point (usually the origin $(0,0)$) to see which side of the line satisfies the inequality.\n   - For $x + y \\ge 5$: Origin $(0,0)$ gives $0 \\ge 5$ (False), so shade the side *away* from the origin.\n   - For $x - y \\le 3$: Origin $(0,0)$ gives $0 \\le 3$ (True), so shade the side *containing* the origin.\n3. **Intersection**: The solution is the overlapping shaded region. In the case of $x + y \\ge 5$ and $x - y \\le 3$, the intersection lies primarily in the **first and second quadrants**.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 175
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Quadratic Equations",
+    "topic": "Condition for Single Solution (Tangency)",
+    "content": "### System of Linear and Quadratic Equations\n\nWhen a line intersects a parabola (or similar conic section) at exactly one point, the system has a **single solution**.\n\n**Method:**\n1. Substitute the linear equation into the quadratic equation to form a single quadratic equation in one variable.\n2. For the resulting quadratic equation $Ax^2 + Bx + C = 0$ to have a single real solution, its **Discriminant ($D$) must be zero**.\n   $$D = B^2 - 4AC = 0$$\n\n**Example Application:**\nGiven $x^2 - y^2 = 0$ and $(x-a)^2 + y^2 = 1$.\nFrom $x^2 = y^2$, substitute $y^2 = x^2$ into the second equation:\n$(x-a)^2 + x^2 = 1 \\Rightarrow 2x^2 - 2ax + a^2 - 1 = 0$.\nFor a single positive solution, set $D = 0$:\n$(-2a)^2 - 4(2)(a^2 - 1) = 0 \\Rightarrow 4a^2 - 8a^2 + 8 = 0 \\Rightarrow 4a^2 = 8 \\Rightarrow a^2 = 2 \\Rightarrow a = \\sqrt{2}$ (taking positive root for positive solution context).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 175
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Polynomials",
+    "topic": "Sum of Squares of Zeros",
+    "content": "### Sum of Squares of Roots of a Cubic Polynomial\n\nFor a cubic polynomial $f(x) = ax^3 + bx^2 + cx + d$ with zeros $\\alpha, \\beta, \\gamma$:\n\n**Vieta's Formulas:**\n1. $\\alpha + \\beta + \\gamma = -\\frac{b}{a}$\n2. $\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = \\frac{c}{a}$\n3. $\\alpha\\beta\\gamma = -\\frac{d}{a}$\n\n**Derivation of $\\alpha^2 + \\beta^2 + \\gamma^2$:**\nUsing the identity $(\\alpha + \\beta + \\gamma)^2 = \\alpha^2 + \\beta^2 + \\gamma^2 + 2(\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha)$:\n\n$$\\alpha^2 + \\beta^2 + \\gamma^2 = (\\alpha + \\beta + \\gamma)^2 - 2(\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha)$$\n\nSubstituting Vieta's values:\n$$\\alpha^2 + \\beta^2 + \\gamma^2 = \\left(-\\frac{b}{a}\\right)^2 - 2\\left(\\frac{c}{a}\\right)$$\n$$\\alpha^2 + \\beta^2 + \\gamma^2 = \\frac{b^2}{a^2} - \\frac{2c}{a} = \\frac{b^2 - 2ac}{a^2}$$",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 175
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "subchapter": "Venn Diagrams",
+    "topic": "Three-Set Problems (Inclusion-Exclusion Principle)",
+    "content": "### Solving Three-Set Problems\n\nLet $n(U)$ be the total number of elements. Let $A, B, C$ be three sets.\n\n**Key Formulas:**\n1. **Union of Three Sets:**\n   $$n(A \\cup B \\cup C) = n(A) + n(B) + n(C) - [n(A \\cap B) + n(B \\cap C) + n(C \\cap A)] + n(A \\cap B \\cap C)$$\n   *Note: If given the number who failed all subjects, $n(A \\cup B \\cup C) = n(U) - n((A \\cup B \\cup C)')$.*\n\n2. **Exactly One Subject:**\n   $$n(\\text{Exactly One}) = n(A) + n(B) + n(C) - 2[n(A \\cap B) + n(B \\cap C) + n(C \\cap A)] + 3n(A \\cap B \\cap C)$$\n   *Alternative:* Sum of individual sets minus twice the sum of pairwise intersections plus three times the triple intersection.\n\n3. **Exactly Two Subjects:**\n   $$n(\\text{Exactly Two}) = [n(A \\cap B) + n(B \\cap C) + n(C \\cap A)] - 3n(A \\cap B \\cap C)$$\n\n4. **At Least Two Subjects:**\n   $$n(\\text{At Least Two}) = n(\\text{Exactly Two}) + n(\\text{Exactly Three})$$\n   $$n(\\text{At Least Two}) = [n(A \\cap B) + n(B \\cap C) + n(C \\cap A)] - 2n(A \\cap B \\cap C)$$\n\n5. **Specific Pair Only (e.g., A and B but not C):**\n   $$n(A \\cap B \\text{ only}) = n(A \\cap B) - n(A \\cap B \\cap C)$$",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 175
   }
 ]
