@@ -118,6 +118,63 @@ Format for `question_database`:
 Do not include any other text, explanations, or conversational filler. Return ONLY the raw JSON format described above.
 """
 
+def robust_json_loads(raw_text):
+    if not raw_text:
+        raise ValueError("Empty response text")
+    clean = raw_text.strip()
+    if clean.startswith('```json'):
+        clean = clean[7:]
+    if clean.startswith('```'):
+        clean = clean[3:]
+    if clean.endswith('```'):
+        clean = clean[:-3]
+    clean = clean.strip()
+    if '{' in clean:
+        s_idx = clean.find('{')
+        e_idx = clean.rfind('}')
+        if e_idx > s_idx:
+            clean = clean[s_idx:e_idx+1]
+            
+    try:
+        return json.loads(clean, strict=False)
+    except Exception:
+        pass
+        
+    import re
+    # Fix invalid backslashes (e.g. LaTeX \alpha, \sqrt, etc.)
+    fixed = re.sub(r'\\(?![/\\\"bfnrtu]|u[0-9a-fA-F]{4})', r'\\\\', clean)
+    try:
+        return json.loads(fixed, strict=False)
+    except Exception:
+        pass
+        
+    # Double backslashes that do not escape a quote
+    fixed_all = re.sub(r'(?<!\\)\\(?!"|\\)', r'\\\\', clean)
+    try:
+        return json.loads(fixed_all, strict=False)
+    except Exception:
+        pass
+        
+    for fix in ['"}', ']}', '}', ']']:
+        try:
+            return json.loads(fixed + fix, strict=False)
+        except Exception:
+            pass
+        try:
+            return json.loads(fixed_all + fix, strict=False)
+        except Exception:
+            pass
+            
+    last_brace = fixed.rfind('}')
+    if last_brace > 0:
+        for suffix in ['', ']}', '}']:
+            try:
+                return json.loads(fixed[:last_brace+1] + suffix, strict=False)
+            except Exception:
+                pass
+                
+    return json.loads(clean, strict=False)
+
 def extract_content(b64_img, page_text, prompt):
     max_retries = 3
     base_delay = 15
@@ -157,31 +214,13 @@ def extract_content(b64_img, page_text, prompt):
                 if not raw_text:
                     raise ValueError(f"Empty response text from {model_name}")
                     
-                # Clean markdown JSON formatting if present
-                if raw_text.startswith('```json'):
-                    raw_text = raw_text[7:]
-                if raw_text.startswith('```'):
-                    raw_text = raw_text[3:]
-                if raw_text.endswith('```'):
-                    raw_text = raw_text[:-3]
-                    
-                clean_text = raw_text.strip()
-                try:
-                    return json.loads(clean_text, strict=False)
-                except Exception:
-                    import re
-                    fixed_text = re.sub(r'\\(?![/\\\"bfnrtu]|u[0-9a-fA-F]{4})', r'\\\\', clean_text)
-                    try:
-                        return json.loads(fixed_text, strict=False)
-                    except Exception:
-                        pass
-                    raise
+                return robust_json_loads(raw_text)
                 
             except Exception as e:
                 error_msg = str(e).lower()
                 print(f"API Error ({model_name}): {e}")
                 
-                if any(k in error_msg for k in ["quota", "resource_exhausted", "retry in", "rate-limit", "empty response"]):
+                if any(k in error_msg for k in ["quota", "resource_exhausted", "retry in", "rate-limit", "empty response", "503", "unavailable", "high demand"]):
                     print(f"Failover trigger on {model_name}: {e}. Switching...")
                     break
                     
@@ -234,36 +273,7 @@ def extract_content(b64_img, page_text, prompt):
                     if response.status_code == 200:
                         res_json = response.json()
                         raw_text = res_json["choices"][0]["message"]["content"].strip()
-                        
-                        if '```json' in raw_text:
-                            raw_text = raw_text.split('```json')[1].split('```')[0].strip()
-                        elif '```' in raw_text:
-                            raw_text = raw_text.split('```')[1].split('```')[0].strip()
-                        elif '{' in raw_text:
-                            s_idx = raw_text.find('{')
-                            e_idx = raw_text.rfind('}')
-                            if e_idx > s_idx:
-                                raw_text = raw_text[s_idx:e_idx+1]
-                        raw_text = raw_text.strip()
-                        
-                        try:
-                            return json.loads(raw_text)
-                        except Exception:
-                            for fix in ['"}', ']}', '}', ']']:
-                                try:
-                                    return json.loads(raw_text + fix)
-                                except Exception:
-                                    pass
-                            last_brace = raw_text.rfind('}')
-                            if last_brace > 0:
-                                try:
-                                    return json.loads(raw_text[:last_brace+1] + ']}')
-                                except Exception:
-                                    try:
-                                        return json.loads(raw_text[:last_brace+1])
-                                    except Exception:
-                                        pass
-                            raise
+                        return robust_json_loads(raw_text)
                     elif response.status_code == 429 and attempt == 0:
                         print(f"Groq {g_model} hit rate limit. Waiting 10s before retry...")
                         time.sleep(10)
@@ -300,15 +310,7 @@ def extract_content(b64_img, page_text, prompt):
                 response.raise_for_status()
                 res_json = response.json()
                 raw_text = res_json["choices"][0]["message"]["content"]
-                
-                if raw_text.startswith('```json'):
-                    raw_text = raw_text[7:]
-                if raw_text.startswith('```'):
-                    raw_text = raw_text[3:]
-                if raw_text.endswith('```'):
-                    raw_text = raw_text[:-3]
-                
-                return json.loads(raw_text.strip())
+                return robust_json_loads(raw_text)
             except Exception as e:
                 print(f"OpenRouter model {model} failed: {e}")
                 continue
