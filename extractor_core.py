@@ -247,7 +247,7 @@ def extract_content(b64_img, page_text, prompt):
     groq_key = os.environ.get("GROQ_API_KEY")
     if groq_key and page_text and len(page_text.strip()) > 30:
         groq_models = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"]
-        safe_page_text = page_text[:2800]
+        safe_page_text = page_text[:2000]
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"}
         
@@ -269,16 +269,16 @@ def extract_content(b64_img, page_text, prompt):
                         "model": g_model,
                         "messages": [{"role": "user", "content": fallback_prompt}],
                         "temperature": 0.1,
-                        "max_tokens": 2500
+                        "max_tokens": 1500
                     }
-                    response = requests.post(url, headers=headers, json=data, timeout=60)
+                    response = requests.post(url, headers=headers, json=data, timeout=45)
                     if response.status_code == 200:
                         res_json = response.json()
                         raw_text = res_json["choices"][0]["message"]["content"].strip()
                         return robust_json_loads(raw_text)
                     elif response.status_code == 429 and attempt == 0:
-                        print(f"Groq {g_model} hit rate limit. Waiting 10s before retry...")
-                        time.sleep(10)
+                        print(f"Groq {g_model} hit rate limit. Waiting 20s before retry...")
+                        time.sleep(20)
                         continue
                     else:
                         print(f"Groq {g_model} failed with code {response.status_code}: {response.text[:120]}")
@@ -305,10 +305,10 @@ def extract_content(b64_img, page_text, prompt):
             try:
                 data = {
                     "model": model,
-                    "messages": [{"role": "user", "content": prompt + "\n\nTEXT CONTENT OF PAGE:\n" + page_text}],
+                    "messages": [{"role": "user", "content": prompt + "\n\nTEXT CONTENT OF PAGE:\n" + page_text[:2000]}],
                     "temperature": 0.1
                 }
-                response = requests.post(url, headers=headers, json=data, timeout=35)
+                response = requests.post(url, headers=headers, json=data, timeout=25)
                 response.raise_for_status()
                 res_json = response.json()
                 raw_text = res_json["choices"][0]["message"]["content"]
