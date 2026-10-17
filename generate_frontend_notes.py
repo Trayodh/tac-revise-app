@@ -30,8 +30,8 @@ def run():
     
     for item in data:
         # Default to 'General Studies' and 'Miscellaneous' for legacy entries
-        subject = item.get('subject', 'General Studies').strip().title()
-        chapter = item.get('chapter', item.get('topic', 'Miscellaneous')).strip().title()
+        subject = (item.get('subject') or 'General Studies').strip().title()
+        chapter = (item.get('chapter') or item.get('topic') or 'Miscellaneous').strip().title()
         
         # We group by subject + chapter
         group_key = f"{subject} - {chapter}"
@@ -44,13 +44,57 @@ def run():
                 "content_blocks": []
             }
         
-        content_html = item.get('text', '')
-        if not content_html:
+        raw_text = item.get('text') or item.get('content') or ''
+        if not raw_text:
             continue
             
-        topic = item.get('topic', '').strip().title()
-        if topic and topic != chapter:
-            content_html = f"<h5>{topic}</h5>\n{content_html}"
+        topic = (item.get('topic') or '').strip().title()
+        subchapter = (item.get('subchapter') or '').strip().title()
+        
+        # Format markdown to clean HTML if not already HTML
+        if '<p>' not in raw_text and '<div>' not in raw_text:
+            import re
+            lines = raw_text.splitlines()
+            html_lines = []
+            in_list = False
+            for line in lines:
+                l_strip = line.strip()
+                if not l_strip:
+                    if in_list:
+                        html_lines.append("</ul>")
+                        in_list = False
+                    continue
+                # bullet points
+                if l_strip.startswith('- ') or l_strip.startswith('* '):
+                    if not in_list:
+                        html_lines.append('<ul style="margin: 8px 0; padding-left: 20px;">')
+                        in_list = True
+                    item_text = l_strip[2:]
+                    item_text = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', item_text)
+                    html_lines.append(f'<li>{item_text}</li>')
+                elif l_strip.startswith('### '):
+                    if in_list:
+                        html_lines.append("</ul>")
+                        in_list = False
+                    h_text = l_strip[4:]
+                    html_lines.append(f'<h5 style="color: var(--accent); margin-top: 14px; margin-bottom: 6px;">{h_text}</h5>')
+                else:
+                    if in_list:
+                        html_lines.append("</ul>")
+                        in_list = False
+                    p_text = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', l_strip)
+                    html_lines.append(f'<p style="margin-bottom: 8px; line-height: 1.6;">{p_text}</p>')
+            if in_list:
+                html_lines.append("</ul>")
+            content_html = "\n".join(html_lines)
+        else:
+            content_html = raw_text
+
+        # Add topic / subchapter header
+        header_parts = [p for p in [subchapter, topic] if p and p != chapter]
+        if header_parts:
+            sub_title = " &bull; ".join(dict.fromkeys(header_parts))
+            content_html = f'<h5 style="color: var(--text-primary); margin-bottom: 8px; border-bottom: 1px dashed var(--border); padding-bottom: 4px; font-weight: 600;">{sub_title}</h5>\n' + content_html
             
         details = item.get('details', {})
         if details:

@@ -376847,5 +376847,1028 @@
     "topic": "Fatty Acid Metabolism",
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 938
+  },
+  {
+    "question_text": "Microevolution can be measured by comparing observed allelic frequencies. These can be predicted by",
+    "options": {
+      "A": "chance",
+      "B": "the Hardy-Weinberg equilibrium",
+      "C": "differential mortality",
+      "D": "Mendelian ratio"
+    },
+    "correct_answer": "B",
+    "explanation": "The Hardy-Weinberg equilibrium provides a mathematical model to predict the expected allele and genotype frequencies in a population that is not evolving. Deviations from these predicted frequencies indicate that microevolution is occurring.",
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "topic": "Microevolution",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 941
+  },
+  {
+    "question_text": "The fossil of Archaeopteryx represents the evidence of origin of",
+    "options": {
+      "A": "birds from reptiles",
+      "B": "mammals from reptiles",
+      "C": "reptiles from amphibians",
+      "D": "mammals from birds"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 941
+  },
+  {
+    "question_text": "Absorption of water increased by which mineral?",
+    "options": {
+      "A": "Magnesium",
+      "B": "Zinc",
+      "C": "Calcium",
+      "D": "Manganese"
+    },
+    "correct_answer": "C",
+    "explanation": "Calcium is known to increase the absorption of water in plants.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Water Absorption",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 942
+  },
+  {
+    "question_text": "A limiting factor unique to a field planted with corn year after year is most likely",
+    "options": {
+      "A": "temperature",
+      "B": "water",
+      "C": "sunlight",
+      "D": "soil nutrient"
+    },
+    "correct_answer": "D",
+    "explanation": "Continuous monocropping depletes specific soil nutrients, making soil nutrient availability the limiting factor.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Plant Nutrition",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 942
+  },
+  {
+    "question_text": "Which of the following are carnivorous plants? 1. Waterlilly 2. Pitcher plant 3. Sundew 4. Begonia",
+    "options": {
+      "A": "1 and 4",
+      "B": "1 and 2",
+      "C": "2 and 3",
+      "D": "1, 2 and 3"
+    },
+    "correct_answer": "C",
+    "explanation": "Pitcher plant and Sundew are carnivorous plants. Waterlily and Begonia are not.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Carnivorous Plants",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 942
+  },
+  {
+    "question_text": "Which one of the following plants is preferred for mixed cropping in order to enhance the bioavailability of nitrogen?",
+    "options": {
+      "A": "Wheat",
+      "B": "Gram",
+      "C": "Maize",
+      "D": "Barley"
+    },
+    "correct_answer": "B",
+    "explanation": "Gram is a legume that fixes atmospheric nitrogen through symbiotic bacteria, enhancing soil nitrogen availability.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Nitrogen Fixation",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 942
+  },
+  {
+    "question_text": "Which pigment plays a major role in seed germination?",
+    "options": {
+      "A": "Chloroplast",
+      "B": "Chlorophyll",
+      "C": "Xanthophyll",
+      "D": "Phytochrome"
+    },
+    "correct_answer": "D",
+    "explanation": "Phytochrome is a photoreceptor pigment that regulates seed germination and other photomorphogenic responses.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Pigments",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 943
+  },
+  {
+    "question_text": "Match the following Columns.\nColumn I (Cell organelles): A. Mitochondria, B. Chloroplast, C. Stomata, D. Cell membrane\nColumn II (Physiological phenomena): 1. Photosynthesis, 2. Transpiration, 3. Respiration, 4. Osmosis",
+    "options": {
+      "A": "A-1, B-3, C-4, D-2",
+      "B": "A-3, B-1, C-2, D-4",
+      "C": "A-1, B-3, C-2, D-4",
+      "D": "A-3, B-1, C-4, D-2"
+    },
+    "correct_answer": "B",
+    "explanation": "Mitochondria are the site of Respiration (3). Chloroplasts are the site of Photosynthesis (1). Stomata are involved in Transpiration (2). The Cell membrane is involved in Osmosis (4).",
+    "subject": "Biology",
+    "chapter": "Cell Biology",
+    "topic": "Organelle Functions",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 943
+  },
+  {
+    "question_text": "In which of the following cell organelles do photo and thermochemical reactions occur at different sites?",
+    "options": {
+      "A": "Mitochondria",
+      "B": "Chloroplasts",
+      "C": "Ribosomes",
+      "D": "Lysosomes"
+    },
+    "correct_answer": "B",
+    "explanation": "In chloroplasts, photochemical reactions occur in the thylakoid membranes, while thermochemical reactions (Calvin cycle) occur in the stroma.",
+    "subject": "Biology",
+    "chapter": "Cell Biology",
+    "topic": "Chloroplast Structure",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 943
+  },
+  {
+    "question_text": "Which one of the following statements about photosynthesis is correct?",
+    "options": {
+      "A": "Carbohydrates are the source of electrons in photosynthesis",
+      "B": "CO2 is the source of electrons in photosynthesis",
+      "C": "Water is the source of electrons in photosynthesis",
+      "D": "NADH is the source of electron in photosynthesis"
+    },
+    "correct_answer": "C",
+    "explanation": "Water is split during the light reaction (photolysis) to provide electrons for the electron transport chain.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Photosynthesis",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 943
+  },
+  {
+    "question_id": "q209",
+    "question_number": "209",
+    "question_text": "Consider the following substances\n1. Ascorbic acid\n2. Folic acid\n3. Nicotinic acid\n4. Pantothenic acid\nWhich of the above are vitamins?",
+    "options": [
+      "(a) 1 and 3",
+      "(b) 1, 2, 3 and 4",
+      "(c) 2, 3 and 4",
+      "(d) 1, 2 and 4"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "General Science",
+    "chapter": "Vitamins and Nutrition",
+    "subchapter": "",
+    "topic": "Vitamins",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 945
+  },
+  {
+    "question_id": "q210",
+    "question_number": "210",
+    "question_text": "Match the following Columns.\nColumn I\nColumn II\nA. Vitamin-C\n1. Night blindness\nB. Vitamin-A\n2. Scurvy\nC. Vitamin-D\n3. Ricket\nD. Vitamin-B12 4. Anaemia\n5. Destruction of muscles\nCodes\nA B C D\nA\nB C D\n(a) 1\n2\n5\n4\n(b) 4\n3\n2\n1\n(c) 2\n1\n3\n4\n(d) 2\n1\n4\n5",
+    "options": [
+      "(a) 1\n2\n5\n4",
+      "(b) 4\n3\n2\n1",
+      "(c) 2\n1\n3\n4",
+      "(d) 2\n1\n4\n5"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "General Science",
+    "chapter": "Vitamins and Nutrition",
+    "subchapter": "",
+    "topic": "Vitamins",
+    "difficulty": "Medium",
+    "question_type": "Match the Following",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 945
+  },
+  {
+    "question_id": "q211",
+    "question_number": "211",
+    "question_text": "Match the following Columns.\nColumn I\nColumn II\nA. Enzyme\n1. Retinol\nB. Vitamin\n2. Keratin\nC. Protein\n3. Maltase\nD. Hormone\n4. Adrenalins\nCodes\nA B C D\nA\nB C D\n(a) 3\n1\n4\n2\n(b) 2\n3\n1\n5\n(c) 4\n1\n3\n2\n(d) 3\n1\n2\n4",
+    "options": [
+      "(a) 3\n1\n4\n2",
+      "(b) 2\n3\n1\n5",
+      "(c) 4\n1\n3\n2",
+      "(d) 3\n1\n2\n4"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "General Science",
+    "chapter": "Vitamins and Nutrition",
+    "subchapter": "",
+    "topic": "Enzymes, Vitamins, Proteins, Hormones",
+    "difficulty": "Medium",
+    "question_type": "Match the Following",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 945
+  },
+  {
+    "question_id": "q212",
+    "question_number": "212",
+    "question_text": "Honey has the largest percentage\nof",
+    "options": [
+      "(a) water",
+      "(b) starch",
+      "(c) glucose",
+      "(d) sucrose"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "General Science",
+    "chapter": "Vitamins and Nutrition",
+    "subchapter": "",
+    "topic": "Food Composition",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 945
+  },
+  {
+    "question_id": "q213",
+    "question_number": "213",
+    "question_text": "Which fruit can diabetic patients\neat freely?",
+    "options": [
+      "(a) Banana",
+      "(b) Guava",
+      "(c) Orange",
+      "(d) Mango"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "General Science",
+    "chapter": "Vitamins and Nutrition",
+    "subchapter": "",
+    "topic": "Diabetes and Fruits",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 945
+  },
+  {
+    "question_id": "q214",
+    "question_number": "214",
+    "question_text": "Which of the following vitamins\nand deficiency diseases is not\ncorrectly matched?",
+    "options": [
+      "(a) Vitamin-A\n–\nNight blindness",
+      "(b) Vitamin-B 1\n–\nPellagra",
+      "(c) Vitamin-D\n–\nDeformities in bones",
+      "(d) Vitamin-K\n–\nHaemorrhage"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "General Science",
+    "chapter": "Vitamins and Nutrition",
+    "subchapter": "",
+    "topic": "Vitamin Deficiency Diseases",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 945
+  },
+  {
+    "question_id": "q215",
+    "question_number": "215",
+    "question_text": "The protein content of edible\nportion of egg is",
+    "options": [
+      "(a) 15%",
+      "(b) 13.3%",
+      "(c) 10.3%",
+      "(d) 5%"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "General Science",
+    "chapter": "Vitamins and Nutrition",
+    "subchapter": "",
+    "topic": "Egg Nutrition",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 945
+  },
+  {
+    "question_id": "q216",
+    "question_number": "216",
+    "question_text": "Consider the following\nstatements. Keratin is\n1. a protein\n2. a hormone\n3. present in hair\n4. present in nail\nWhich of the above statements(s)\nis/are correct?",
+    "options": [
+      "(a) Only 1",
+      "(b) 1 and 3",
+      "(c) 2 and 3",
+      "(d) 1, 3 and 4"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "General Science",
+    "chapter": "Vitamins and Nutrition",
+    "subchapter": "",
+    "topic": "Keratin",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 945
+  },
+  {
+    "question_id": "q217",
+    "question_number": "217",
+    "question_text": "Match the following Columns.\nColumn I\n(Sources)\nColumn II\n(Rich in)\nA. Fish liver oil\n1. Vitamin-C\nB. Egg\n2. Vitamin-B complex\nC. Lettuce\n3. Vitamin-D\nD. Cow milk\n4. Vitamin-A\nCodes\nA B C D\nA\nB C D\n(a) 2\n4\n3\n1\n(b) 2\n4\n1\n3\n(c) 3\n2\n1\n4\n(d) 4\n2\n3\n1",
+    "options": [
+      "(a) 2\n4\n3\n1",
+      "(b) 2\n4\n1\n3",
+      "(c) 3\n2\n1\n4",
+      "(d) 4\n2\n3\n1"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "General Science",
+    "chapter": "Vitamins and Nutrition",
+    "subchapter": "",
+    "topic": "Vitamin Sources",
+    "difficulty": "Medium",
+    "question_type": "Match the Following",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 945
+  },
+  {
+    "question_id": "q218",
+    "question_number": "218",
+    "question_text": "Match the following Columns.\nColumn I\n(Sugar)\nColumn II\n(Source)\nA. Cellulose\n1. Honey\nB. Fructose\n2. Sugarcane\nC. Maltose\n3. Cotton wool\nD. Sucrose\n4. Starch\nCodes\nA B C D\nA\nB C D\n(a) 3\n1\n4\n2\n(b) 3\n4\n1\n2\n(c) 2\n1\n4\n3\n(d) 2\n4\n1\n3",
+    "options": [
+      "(a) 3\n1\n4\n2",
+      "(b) 3\n4\n1\n2",
+      "(c) 2\n1\n4\n3",
+      "(d) 2\n4\n1\n3"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "General Science",
+    "chapter": "Vitamins and Nutrition",
+    "subchapter": "",
+    "topic": "Carbohydrates",
+    "difficulty": "Medium",
+    "question_type": "Match the Following",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 945
+  },
+  {
+    "question_id": "q219",
+    "question_number": "219",
+    "question_text": "The vitamin(s), which is/are\ngenerally excreted in urine, is/are",
+    "options": [
+      "(a) vitamin-A",
+      "(b) vitamin-E",
+      "(c) vitamin-C",
+      "(d) vitamin-D and K"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "General Science",
+    "chapter": "Vitamins and Nutrition",
+    "subchapter": "",
+    "topic": "Vitamin Excretion",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 945
+  },
+  {
+    "question_id": "q220",
+    "question_number": "220",
+    "question_text": "",
+    "options": [],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "",
+    "chapter": "",
+    "subchapter": "",
+    "topic": "",
+    "difficulty": "",
+    "question_type": "",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 945
+  },
+  {
+    "question_text": "Consider the following respiratory pigments: 1. Haemoglobin, 2. Haemocyanin, 3. Haemoerythrin, 4. Haemocyanoglobin. Iron is contained in:",
+    "options": {
+      "A": "1, 2, 3 and 4",
+      "B": "1 and 3",
+      "C": "1 and 2",
+      "D": "1, 2 and 4"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 947
+  },
+  {
+    "question_text": "Dim-vision in the evening and night results from the deficiency of which one of the following?",
+    "options": {
+      "A": "Vitamin-A",
+      "B": "Vitamin-E",
+      "C": "Vitamin-B12",
+      "D": "Vitamin-C"
+    },
+    "correct_answer": "A",
+    "explanation": "Night blindness (nyctalopia) is caused by a deficiency of Vitamin A, which is essential for the synthesis of rhodopsin in the rod cells of the retina.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Nutrition and Vision",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 948
+  },
+  {
+    "question_text": "Human ear ossicles are",
+    "options": {
+      "A": "incus and stapes",
+      "B": "stapes",
+      "C": "incus, malleus and stapes",
+      "D": "incus and malleus"
+    },
+    "correct_answer": "C",
+    "explanation": "The three ossicles in the human middle ear are the malleus, incus, and stapes.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Ear Structure",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 948
+  },
+  {
+    "question_text": "In neurons, action potential is produced due to",
+    "options": {
+      "A": "Ca2+",
+      "B": "K +",
+      "C": "Mn +",
+      "D": "Na +"
+    },
+    "correct_answer": "D",
+    "explanation": "The depolarization phase of the action potential in neurons is primarily caused by the influx of Sodium ions (Na+) into the cell.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Neural Control",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 948
+  },
+  {
+    "question_text": "Sensitive pigment layer of eye is",
+    "options": {
+      "A": "sclerotic",
+      "B": "retina",
+      "C": "cornea",
+      "D": "None of these"
+    },
+    "correct_answer": "B",
+    "explanation": "The retina is the innermost layer of the eye that contains the light-sensitive photoreceptor cells (rods and cones).",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Eye Structure",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 948
+  },
+  {
+    "question_text": "The largest cell in the human body is",
+    "options": {
+      "A": "nerve cell",
+      "B": "muscle cell",
+      "C": "liver cell",
+      "D": "kidney cell"
+    },
+    "correct_answer": "A",
+    "explanation": "Nerve cells (neurons) are the longest and often considered the largest cells in the human body due to their extensive axons.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Cell Biology",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 948
+  },
+  {
+    "question_text": "Myopia can be corrected by",
+    "options": {
+      "A": "convex lens",
+      "B": "concave lens",
+      "C": "cylindrical lens",
+      "D": "cornea replacement"
+    },
+    "correct_answer": "B",
+    "explanation": "Myopia (short-sightedness) is corrected using a concave (diverging) lens to focus light correctly on the retina.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Vision Defects",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 948
+  },
+  {
+    "question_id": "q_325",
+    "question_number": "325",
+    "question_text": "The cavity present in the Graafian follicle is",
+    "options": [
+      "amniotic cavity",
+      "archenteron",
+      "antrum",
+      "ostium"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 0,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "",
+    "subchapter": "",
+    "topic": "",
+    "difficulty": "",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 949
+  },
+  {
+    "question_id": "q_326",
+    "question_number": "326",
+    "question_text": "Testosterone is secreted by",
+    "options": [
+      "Leydig’s cells",
+      "Sertoli cells",
+      "corpus luteum",
+      "oxyntic cells"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 0,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "",
+    "subchapter": "",
+    "topic": "",
+    "difficulty": "",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 949
+  },
+  {
+    "question_id": "q_327",
+    "question_number": "327",
+    "question_text": "Why are pregnant women recommended substantial intake of green leafy vegetables in their diet, especially in the 1st trimester?",
+    "options": [
+      "They are a rich source of chlorophyll",
+      "They are a rich source of lecithin",
+      "They are a rich source of folic acid which is required for DNA synthesis",
+      "They are a rich source of essential fatty acids required for cell anabolism"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 0,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "",
+    "subchapter": "",
+    "topic": "",
+    "difficulty": "",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 949
+  },
+  {
+    "question_id": "q_328",
+    "question_number": "328",
+    "question_text": "Which one among the following statements is correct?",
+    "options": [
+      "All proteins are enzymes",
+      "All enzymes are proteins",
+      "None of the enzymes is protein",
+      "None of the proteins is enzyme"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 0,
+    "negative_marks": 0,
+    "year": "2013",
+    "exam": "CDS",
+    "paper": "I",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "",
+    "subchapter": "",
+    "topic": "",
+    "difficulty": "",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 949
+  },
+  {
+    "question_id": "q_329",
+    "question_number": "329",
+    "question_text": "Which one among the following statements about blood transfusion is correct?",
+    "options": [
+      "Blood group B can give blood to blood group B and receive from group AB",
+      "Blood groups B and AB and receive from group B and O",
+      "Blood groups B and AB and receive from group A and O",
+      "Blood group O and receive from group B"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 0,
+    "negative_marks": 0,
+    "year": "2013",
+    "exam": "CDS",
+    "paper": "I",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "",
+    "subchapter": "",
+    "topic": "",
+    "difficulty": "",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 949
+  },
+  {
+    "question_id": "q_330",
+    "question_number": "330",
+    "question_text": "Which one among the following vitamins is necessary for blood clotting?",
+    "options": [
+      "Vitamin-A",
+      "Vitamin-D",
+      "Vitamin-K",
+      "Vitamin-C"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 0,
+    "negative_marks": 0,
+    "year": "2013,2016",
+    "exam": "CDS",
+    "paper": "I",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "",
+    "subchapter": "",
+    "topic": "",
+    "difficulty": "",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 949
+  },
+  {
+    "question_id": "q_331",
+    "question_number": "331",
+    "question_text": "The pH of human blood is normally around",
+    "options": [
+      "4.5-5.5",
+      "5.5-6.5",
+      "7.5-8.0",
+      "8.5-9.0"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 0,
+    "negative_marks": 0,
+    "year": "2013,2016",
+    "exam": "CDS",
+    "paper": "I",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "",
+    "subchapter": "",
+    "topic": "",
+    "difficulty": "",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 949
+  },
+  {
+    "question_id": "q_332",
+    "question_number": "332",
+    "question_text": "The crew and passengers of a flying aircraft suffer generally from chronic obstructive pulmonary disease due to the effect of",
+    "options": [
+      "solar radiation",
+      "ozone concentration",
+      "nitrogen oxide",
+      "particulate pollutant"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 0,
+    "negative_marks": 0,
+    "year": "2013",
+    "exam": "CDS",
+    "paper": "II",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "",
+    "subchapter": "",
+    "topic": "",
+    "difficulty": "",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 949
+  },
+  {
+    "question_id": "q_333",
+    "question_number": "333",
+    "question_text": "Which one among the following gases readily combines with the haemoglobin of the blood?",
+    "options": [
+      "Methane",
+      "Nitrogen dioxide",
+      "Carbon monoxide",
+      "Sulphur dioxide"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 0,
+    "negative_marks": 0,
+    "year": "2013",
+    "exam": "CDS",
+    "paper": "I",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "",
+    "subchapter": "",
+    "topic": "",
+    "difficulty": "",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 949
+  },
+  {
+    "question_id": "q_334",
+    "question_number": "334",
+    "question_text": "What would happen if human blood becomes acidic (low pH)?",
+    "options": [
+      "Oxygen carrying capacity of haemoglobin is increased",
+      "Oxygen carrying capacity of haemoglobin is decreased",
+      "RBC c",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 0,
+    "negative_marks": 0,
+    "year": "2013",
+    "exam": "CDS",
+    "paper": "II",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "",
+    "subchapter": "",
+    "topic": "",
+    "difficulty": "",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 949
+  },
+  {
+    "question_text": "Match the following Columns:\nColumn I (Scientist) | Column II (Work)\nA. FG Banting | 1. Vaccination for smallpox\nB. J Lister | 2. Germ theory\nC. Louis Pasteur | 3. Use of carbolic acid as an antiseptic\nD. E Jenner | 4. Discovery of insulin",
+    "options": {
+      "A": "A-4, B-3, C-2, D-1",
+      "B": "A-4, B-2, C-1, D-3",
+      "C": "A-3, B-4, C-2, D-1",
+      "D": "A-1, B-4, C-3, D-2"
+    },
+    "correct_answer": "A",
+    "explanation": "F.G. Banting discovered insulin (4). J. Lister used carbolic acid as an antiseptic (3). Louis Pasteur is associated with the Germ theory (2). E. Jenner developed the smallpox vaccine (1).",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Scientists and Their Contributions",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 951
+  },
+  {
+    "question_text": "Which of the following diseases are preventable by vaccine?\n1. Tetanus\n2. Polio\n3. Leprosy\n4. Pertussis",
+    "options": {
+      "A": "1 and 3",
+      "B": "2 and 4",
+      "C": "1, 2 and 4",
+      "D": "All of these"
+    },
+    "correct_answer": "C",
+    "explanation": "Tetanus, Polio, and Pertussis (Whooping Cough) are all preventable by vaccines (e.g., DTP vaccine covers Diphtheria, Tetanus, and Pertussis; Polio has its own vaccine). Leprosy does not have a widely available vaccine.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Vaccines and Preventable Diseases",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 951
+  },
+  {
+    "question_text": "Which one of the following causes the chikungunya disease?",
+    "options": {
+      "A": "Bacteria",
+      "B": "Helminthic worm",
+      "C": "Protozoan",
+      "D": "Virus"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 951
+  },
+  {
+    "question_text": "Which among the following statements about biofertilisers are correct?\n1. Azotobacter is one of the nitrogen-fixing bacteria used as a biofertiliser.\n2. They have to be applied to the leaves of the plant only.\n3. They alter the chemical composition of the soil.\n4. They can be used along with organic fertilisers.",
+    "options": {
+      "A": "1 and 4",
+      "B": "1, 2 and 4",
+      "C": "2 and 3",
+      "D": "All of these"
+    },
+    "correct_answer": "A",
+    "explanation": "Statement 1 is correct as Azotobacter is a nitrogen-fixing bacterium. Statement 4 is correct as biofertilisers can be used with organic fertilisers. Statement 2 is incorrect because they are applied to soil/seeds, not just leaves. Statement 3 is generally considered incorrect in this context as they enhance nutrient availability rather than fundamentally altering soil chemistry in a negative or distinct way compared to chemical fertilizers.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Biofertilisers",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 953
+  },
+  {
+    "question_text": "Which one of the following is not biodegradable?",
+    "options": {
+      "A": "Woollen mat",
+      "B": "Silver foil",
+      "C": "Leather bag",
+      "D": "Jute basket"
+    },
+    "correct_answer": "B",
+    "explanation": "Silver foil is a metal and is not biodegradable. Woollen mats, leather bags, and jute baskets are organic materials that can be decomposed by microorganisms.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Biodegradability",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 953
+  },
+  {
+    "question_text": "Which one of the following plants is used for green manuring in India?",
+    "options": {
+      "A": "Wheat",
+      "B": "Sunnhemp",
+      "C": "Cotton",
+      "D": "Rice"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 953
+  },
+  {
+    "question_text": "Which of the following gases is released from rice fields in the most prominent quantities?",
+    "options": {
+      "A": "Carbon dioxide",
+      "B": "Methane",
+      "C": "Carbon monoxide",
+      "D": "Sulphur dioxide"
+    },
+    "correct_answer": "B",
+    "explanation": "Rice fields, due to waterlogged conditions, create an anaerobic environment where organic matter decomposes to produce methane (CH4) as a major greenhouse gas emission.",
+    "subject": "Environmental Science",
+    "chapter": "Environmental Pollution and Remediation",
+    "topic": "Methane Emissions from Rice Fields",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 954
+  },
+  {
+    "question_text": "Consider the following statements about bioremediation.\n1. It may be defined as any process that uses microorganisms or their enzymes to return the environment altered by contaminants to its original condition.\n2. Bioremediation may be employed in order to attack specific contaminants, such as chlorinated pesticides that are degraded by bacteria.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "C",
+    "explanation": "Statement 1 correctly defines bioremediation. Statement 2 correctly identifies a specific application where bacteria degrade chlorinated pesticides. Therefore, both statements are correct.",
+    "subject": "Environmental Science",
+    "chapter": "Environmental Pollution and Remediation",
+    "topic": "Definition and Applications of Bioremediation",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 954
+  },
+  {
+    "question_text": "Which of the following best describes the Paleolithic Age in India?",
+    "options": {
+      "A": "A period when agriculture and pottery were first introduced.",
+      "B": "A hunter‑gatherer era characterized by unpolished stone tools.",
+      "C": "The era of copper usage alongside stone tools.",
+      "D": "The time when the first written scripts appeared."
+    },
+    "correct_answer": "B",
+    "explanation": "The Paleolithic Age, also known as the Old Stone Age, is marked by hunter‑gatherer societies that used unpolished, undressed stone tools. Agriculture, pottery, and metal usage came later in the Neolithic and Chalcolithic periods.",
+    "subject": "History",
+    "chapter": "Part I Ancient India",
+    "topic": "Paleolithic Age",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 958
+  },
+  {
+    "question_text": "The Stone Age is divided into how many main categories?",
+    "options": {
+      "A": "Three",
+      "B": "Four",
+      "C": "Five",
+      "D": "Six"
+    },
+    "correct_answer": "B",
+    "explanation": "The Stone Age is traditionally divided into four categories: Paleolithic (Old Stone Age), Mesolithic (Middle Stone Age), Neolithic (New Stone Age), and Chalcolithic (Copper‑Stone Age).",
+    "subject": "History",
+    "chapter": "Part I Ancient India",
+    "topic": "Stone Age Categories",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 958
+  },
+  {
+    "question_text": "Which of the following is NOT a typical topic asked in the History section of the NDA exam?",
+    "options": {
+      "A": "Harappan civilization",
+      "B": "French Revolution",
+      "C": "Mughal Empire",
+      "D": "American War of Independence"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 958
+  },
+  {
+    "question_text": "Who excavated the site of Harappa in 1921?",
+    "options": {
+      "A": "R.D. Banerjee",
+      "B": "Dayaram Sahni",
+      "C": "M. Gopal Majumdar",
+      "D": "A. Ghosh"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 960
   }
 ]

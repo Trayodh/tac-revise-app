@@ -74994,5 +74994,779 @@
     "content": "**Heart and Respiration Facts**:\n1. **Fishes**: Have a **two-chambered** heart (one atrium, one ventricle). Statement 'Heart is three-chambered in fishes' is **False**.\n2. **Birds**: Have a **four-chambered** heart (two atria, two ventricles) to support high metabolic rates. Statement is **True**.\n3. **Amphibia**: Most amphibians have **two pairs of limbs** (tetrapods). Statement is **True**.\n4. **Reptilia**: All reptiles breathe exclusively through **lungs**. They do not use skin or gills for respiration. Statement is **True**.\n**Correct Statements**: 2, 3, and 4.",
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 939
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Genetics",
+    "subchapter": "Down's Syndrome",
+    "topic": "Characteristics",
+    "content": "Down's syndrome is a genetic disorder caused by trisomy of chromosome 21.  It is **not** associated with early ageing (that feature belongs to Progeria).  Common features include mental retardation, characteristic facial appearance, and sometimes a furrowed tongue with an open mouth",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 940
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "subchapter": "Mechanisms of Evolution",
+    "topic": "Microevolution and Hardy-Weinberg Equilibrium",
+    "content": "Microevolution refers to small-scale changes in allele frequencies within a population over time. These changes can be measured by comparing observed allelic frequencies. The expected or predicted allelic frequencies in the absence of evolutionary forces (like mutation, selection, gene flow, or genetic drift) are calculated using the **Hardy-Weinberg equilibrium** principle.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 941
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "subchapter": "Evidence for Evolution",
+    "topic": "Fossil Evidence: Archaeopteryx",
+    "content": "**Archaeopteryx** is a famous fossil that provides evidence for the evolutionary link between reptiles and birds. It possesses features of both groups (e.g., feathers and wings like birds, but teeth, a long bony tail, and claws like reptiles), supporting the theory that **birds evolved from reptiles**.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 941
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Molecular Biology",
+    "subchapter": "Structure of DNA",
+    "topic": "DNA Double Helix Structure",
+    "content": "The two strands of the DNA double helix are held together by **hydrogen bonds** between complementary nitrogenous bases (Adenine pairs with Thymine via 2 hydrogen bonds; Guanine pairs with Cytosine via 3 hydrogen bonds). Covalent bonds hold the nucleotides together within a single strand (phosphodiester bonds).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 941
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "subchapter": "Geological Time Scale",
+    "topic": "Correlation of Geological Eras and Life Forms",
+    "content": "Key correlations between geological time scales and dominant life forms:\n- **Pleistocene**: Associated with the emergence and spread of the **Human genus** (Homo sapiens).\n- **Palaeocene**: Marked the beginning of the Cenozoic era, characterized by the diversification of **Mammals**.\n- **Permian**: Ended with a mass extinction; preceded by the dominance of amphibians and early reptiles. In the context of matching questions, it is often associated with **Frogs** (Amphibians) as a representative vertebrate group of that era compared to later eras.\n- **Cambrian**: Known for the 'Cambrian Explosion' where most major **Invertebrate** phyla appeared.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 941
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Genetics",
+    "subchapter": "Variation",
+    "topic": "Sources of Genetic Variation",
+    "content": "Variation in the genetic material of progeny is primarily caused by:\n1. **Sexual reproduction**: Through recombination (crossing over) and independent assortment of chromosomes.\n2. **Mutations**: Random changes in the DNA sequence.\n\nAsexual reproduction typically produces clones with little to no genetic variation. Epigenetic changes affect gene expression but do not alter the underlying DNA sequence (genetic material) in the same way mutations do, though they can be heritable. In standard exam contexts, sexual reproduction and mutations are the primary drivers of *genetic* variation.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 941
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Morphology",
+    "subchapter": "Root System",
+    "topic": "Root Hair Origin",
+    "content": "**Root hairs** are tubular extensions of the **epiblema** (or root epidermis) cells. They increase the surface area for absorption of water and minerals.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 941
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Morphology",
+    "subchapter": "Root System",
+    "topic": "Types of Root Systems",
+    "content": "Classification of roots based on origin and structure:\n- **Primary root**: The direct prolongation of the radicle, noticed nearly in all dicotyledonous plants.\n- **Tap root system**: Consists of the primary root and its branches.\n- **Fibrous root system**: Formed due to the repeated division of the primary root (or lateral roots), resulting in a cluster of roots of similar size (common in monocots).\n- **Adventitious root**: A root that arises from any place other than the radicle (e.g., from stems, leaves, or old roots).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 941
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Morphology",
+    "subchapter": "Stem Development",
+    "topic": "Origin of Stem",
+    "content": "The stem develops from the **plumule**, which is the embryonic shoot tip of the seed. The radicle develops into the root.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 941
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Morphology",
+    "subchapter": "Modified Organs",
+    "topic": "Modified Stems: Potato",
+    "content": "The potato tuber is a **modified stem** (specifically a stem tuber). It is not a root. It stores food and has nodes (eyes) and buds, which are characteristic features of stems.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 941
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "subchapter": "Transport in Plants",
+    "topic": "Factors Affecting Water Absorption",
+    "content": "- **Mineral Influence on Water Absorption**: Calcium is the mineral that increases the absorption of water in plants.\\n- **Limiting Factors in Monoculture**: When a field is planted with the same crop (e.g., corn) year after year, the most likely limiting factor is **soil nutrient** depletion, as specific nutrients are exhausted faster than others.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 942
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "subchapter": "Plant Nutrition",
+    "topic": "Carnivorous Plants and Nitrogen Fixation",
+    "content": "- **Carnivorous Plants**: These are plants that derive some or most of their nutrients from trapping and consuming animals or protozoans. Common examples include:\\n  - Pitcher plant\\n  - Sundew\\n  - Venus flytrap\\n  - *Note: Waterlily and Begonia are not carnivorous.*\\n- **Mixed Cropping for Nitrogen**: Leguminous plants like **Gram** (Pulses) are preferred for mixed cropping to enhance the bioavailability of nitrogen. This is because they host nitrogen-fixing bacteria (*Rhizobium*) in their root nodules, which convert atmospheric nitrogen into usable forms for the soil.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 942
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "subchapter": "Colligative Properties",
+    "topic": "Diffusion and Osmosis Principles",
+    "content": "- **Factors Affecting Diffusion Rate**: The rate of diffusion is affected by:\\n  1. Permeability of the membrane\\n  2. Temperature (higher temperature increases kinetic energy)\\n  3. Pressure\\n  - Therefore, **All of the above** factors affect diffusion.\\n- **Vapour Pressure**: The vapour pressure of a solution is always **less** than the vapour pressure of the pure solvent due to the presence of non-volatile solute particles.\\n- **Osmotic Pressure**: Osmotic pressure ($\\Pi$) is directly proportional to the molar concentration of solute particles. Thus, if the number of solute molecules increases, osmotic pressure **increases**.\\n- **Freezing Point Definition**: The temperature at which the liquid and solid states of a substance have the same vapour pressure is the **freezing point**.\\n- **Relationship between Osmotic Pressure and Boiling Point Elevation**: Osmotic pressure is **not** inversely proportional to the elevation in boiling point. Both are colligative properties dependent on solute concentration, but they do not have a simple inverse relationship with each other.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 942
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "subchapter": "Transport in Plants",
+    "topic": "Osmosis, Turgidity, and Ascent of Sap",
+    "content": "- **Osmosis**: The diffusion of water molecules through a **semipermeable membrane** from a region of lower solute concentration to a region of higher solute concentration.\\n- **Guttation**: When soil is wet and the atmosphere is humid, transpiration is reduced. Excess water is lost through the leaves in liquid form via hydathodes, a process known as **guttation**.\\n- **Cohesion Theory**: The cohesion-tension theory of the ascent of sap was proposed by **Dixon and Joly** (often referred to as Dixon in MCQs).\\n- **Turgidity**: The state of a plant cell being swollen due to the entry of water. The cause of turgidity is **water** entering the cell via osmosis.\\n- **Isotonic Medium**: If there is no net movement of water into or out of a cell, the external medium is **isotonic** to the cell sap.\\n- **Terminology**: Diffusion through a semipermeable membrane is specifically known as **osmosis**.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 942
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "subchapter": "Photosynthesis",
+    "topic": "Pigments and Light Absorption",
+    "content": "- **Phytochrome**: A pigment that plays a major role in seed germination.\n- **Chlorophyll**: The primary pigment responsible for the green color of plant leaves. It contains **Magnesium** at its center.\n- **Light Absorption**: Green plants maximally absorb **Red and Blue** wavelengths of the visible spectrum. Green and yellow light are reflected, which is why plants appear green.\n- **Electron Source**: In photosynthesis, **Water (H2O)** is the source of electrons (via photolysis), not carbohydrates, CO2, or NADH.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 943
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Cell Biology",
+    "subchapter": "Cell Organelles",
+    "topic": "Functions of Organelles",
+    "content": "- **Mitochondria**: Site of cellular respiration.\n- **Chloroplasts**: Site of photosynthesis. Photochemical reactions occur in the thylakoid membranes, while thermochemical (Calvin cycle) reactions occur in the stroma, meaning they occur at different sites within the organelle.\n- **Stomata**: Pores involved in transpiration and gas exchange.\n- **Cell Membrane**: Involved in osmosis and transport.\n- **Gas Exchange**: CO2 and O2 move across the plasma membrane via simple diffusion. The direction of movement is determined by the **concentration gradient** across the membrane.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 943
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "subchapter": "Plant Hormones",
+    "topic": "Types and Functions of Plant Growth Regulators",
+    "content": "- **Auxins (IAA)**: Derived from **Terpenes** (specifically indole acetic acid is an indole derivative, but often grouped in broader contexts; note: IAA is an indole derivative, not a terpene. However, in exam contexts, check specific classifications. *Correction*: IAA is an indole derivative. Gibberellins are terpenes. Let's look at the question 163 options. Option C says Terpenes - IAA. This is likely the 'incorrectly matched' one if IAA is indole. Let's verify standard classifications. Auxin (IAA) is Indole. Cytokinin (Kinetin) is Adenine derivative. ABA is Carotenoid derivative. Ethylene is a Gas. Gibberellins are Terpenes. So 'Terpenes - IAA' is the incorrect match.\n- **Kinetin**: An **Adenine derivative** (Cytokinin).\n- **ABA (Abscisic Acid)**: A **Carotenoid derivative**. It is the hormone that **suppresses growth** and induces dormancy.\n- **Ethylene**: A gaseous plant hormone.\n- **Gibberellins**: Terpenes.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 943
+  },
+  {
+    "subject": "Botany",
+    "chapter": "Plant Nutrition",
+    "subchapter": "Carbohydrate Sources",
+    "topic": "Major Source of Sugar",
+    "content": "### Major Source of Sugar\n\n- **Sugarcane** is the primary agricultural crop cultivated for sugar extraction. It contains high sucrose content, making it the most efficient source for commercial sugar production.\n- Other sources such as **watermelon**, **beetroot**, and **date** contain sugars but in significantly lower concentrations compared to sugarcane.\n\n> **Fact**: The global sugar industry relies heavily on sugarcane, which accounts for about 80 % of the world’s sugar supply.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 944
+  },
+  {
+    "subject": "Botany",
+    "chapter": "Plant Fibres",
+    "subchapter": "Industrial Fibres",
+    "topic": "Golden Fibre",
+    "content": "### Golden Fibre\n\n- The term **golden fibre** refers to the fibre obtained from the **hemp** plant (Cannabis sativa). Hemp fibres are long, strong, and have a golden‑brown hue when processed.\n- Hemp is valued for its versatility in textiles, paper, and composite materials.\n\n> **Note**: Hemp is distinct from cotton and jute, which are also natural fibres but have different properties and uses.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 944
+  },
+  {
+    "subject": "Botany",
+    "chapter": "Plant Mineral Nutrition",
+    "subchapter": "Essential Minerals and Dietary Sources",
+    "topic": "Major Sources of Minerals",
+    "content": "### Major Sources of Key Minerals\n\n| Mineral | Major Dietary Sources |\n|---------|-----------------------|\n| **Iron** | Spinach, lentils, red meat |\n| **Potassium** | Bananas, dates, potatoes |\n| **Iodine** | Iodised salt, seaweed |\n| **Calcium** | Milk, eggs, fortified dairy products |\n\n> **Matching**: In the provided MCQ, the correct mapping is:\n> - Iron → 2 (Palak)\n> - Potassium → 1 (Banana, date)\n> - Iodine → 3 (Iodised common salt)\n> - Calcium → 4 (Milk, egg)\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 944
+  },
+  {
+    "subject": "Botany",
+    "chapter": "Plant Pharmacognosy",
+    "subchapter": "Medicinal Plant Parts",
+    "topic": "Quinine Source",
+    "content": "### Quinine\n\n- **Quinine** is an antimalarial alkaloid extracted from the **bark** of the cinchona tree (Cinchona spp.).\n- The bark contains quinine and related compounds, which have been used historically to treat malaria.\n\n> **Fact**: Quinine was the first effective treatment for malaria and remains a key component in some antimalarial formulations.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 944
+  },
+  {
+    "subject": "Botany",
+    "chapter": "Plant Morphology",
+    "subchapter": "Tree Adaptations",
+    "topic": "Banyan Tree",
+    "content": "### Banyan Tree (Ficus benghalensis)\n\n- The banyan tree is renowned for its **propagating aerial roots** that grow downward and form new trunks, giving the appearance of multiple trees.\n- This unique growth habit allows the banyan to cover large areas and contributes to its **longevity** and cultural significance in India.\n- It is often referred to as the **\"immortal tree\"** in folklore and mythology.\n\n> **Key Feature**: The ability of its roots to develop into new trunks is a classic example of vegetative propagation.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 944
+  },
+  {
+    "subject": "Botany",
+    "chapter": "Plant Secondary Metabolites",
+    "subchapter": "Caffeine and Tea",
+    "topic": "Stimulating Effect of Tea",
+    "content": "### Tea Stimulants\n\n- The primary stimulant in tea is **caffeine**, an **alkaloid**.\n- Caffeine acts as a central nervous system stimulant, increasing alertness and reducing fatigue.\n- Other alkaloids present in tea (e.g., theobromine) also contribute to its mild stimulating properties.\n\n> **Answer**: Alkaloid\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 944
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "subchapter": "Digestive System",
+    "topic": "Absorption of Substances",
+    "content": "# Absorption of Substances\n\n- **General principle**: Absorption depends on the chemical nature of the substance, its size, polarity, and the site of absorption.\n- **Alcohol (ethanol)**: Small, lipophilic, and water‑soluble. It is absorbed rapidly in the stomach and small intestine, often within minutes.\n- **Water‑soluble toxins (e.g., DDT)**: Larger, lipophilic molecules are absorbed more slowly and may require transport proteins.\n- **Food solids (e.g., ice‑cream)**: Require digestion into smaller molecules before absorption; thus, absorption is slower.\n- **Hot beverages (e.g., black coffee)**: The temperature can affect gastric motility but does not significantly change the rate of absorption compared to alcohol.\n\n**Key takeaway**: Raw alcohol is absorbed the fastest through the wall of the digestive system.\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 946
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "subchapter": "Respiratory Pigments",
+    "topic": "Composition of Respiratory Pigments",
+    "content": "Respiratory pigments are proteins that bind oxygen for transport. \n- **Haemoglobin**: Contains Iron (Fe) in the heme group. Found in vertebrates.\n- **Haemocyanin**: Contains Copper (Cu), not Iron. Found in arthropods and molluscs.\n- **Haemoerythrin**: Contains Iron (Fe). Found in some invertebrates.\n- **Haemoglobin** and **Haemoerythrin** are iron-containing pigments.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 947
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "subchapter": "Proteins",
+    "topic": "Types of Proteins",
+    "content": "Proteins are classified based on their function:\n- **Transport proteins**: Haemoglobin (oxygen transport).\n- **Structural proteins**: Collagen (connective tissue structure).\n- **Storage proteins**: Albumin (in egg white) and Glutelin (in seeds).\n- **Contractile proteins**: Actin and Myosin (muscle contraction).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 947
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "subchapter": "Autonomic Nervous System",
+    "topic": "Innervation of the Heart",
+    "content": "The heart is innervated by the **Vagus nerve** (Cranial Nerve X). The vagus nerve provides parasympathetic innervation, which slows down the heart rate. Sympathetic nerves also innervate the heart to increase heart rate.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 947
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "subchapter": "Blood Components",
+    "topic": "Functions of Blood Cells",
+    "content": "- **White Blood Cells (WBCs)**: Act as the body's defense against infection (immunity). They perform phagocytosis and produce antibodies.\n- **Red Blood Cells (RBCs)**: Transport oxygen via haemoglobin.\n- **Platelets**: Involved in blood clotting.\n- **Haemoglobin**: Protein in RBCs that binds oxygen.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 947
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "subchapter": "Measurement of Pressure",
+    "topic": "Sphygmomanometer",
+    "content": "A **Sphygmomanometer** is a medical device used to measure **blood pressure**. It typically consists of an inflatable cuff, a gauge (manometer), and a stethoscope.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 947
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "subchapter": "Blood as a Tissue",
+    "topic": "Functions of Blood",
+    "content": "Blood is a connective tissue that performs multiple functions:\n- Transports hormones (endocrine transport).\n- Regulates body temperature (heat distribution).\n- Maintains water balance (osmoregulation).\n- Transports nutrients, gases, and waste products.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 947
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "subchapter": "Blood Pressure",
+    "topic": "Normal Blood Pressure",
+    "content": "Normal blood pressure in a healthy adult human is approximately **120/80 mm Hg** (millimeters of mercury). The systolic pressure is 120 mm Hg, and the diastolic pressure is 80 mm Hg.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 947
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Excretory Products and Their Elimination",
+    "subchapter": "Urine Composition",
+    "topic": "Pigments in Urine",
+    "content": "The characteristic yellow color of urine is due to the presence of **urochrome** (also known as urobilin), a pigment derived from the breakdown of haemoglobin.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 947
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Excretory Products and Their Elimination",
+    "subchapter": "Nitrogenous Wastes",
+    "topic": "Types of Nitrogenous Excretion",
+    "content": "- **Ammonotelism**: Excretion of ammonia. Common in aquatic animals like **cartilaginous fishes** (sharks, rays) and tadpoles, as ammonia is highly toxic and requires large amounts of water for dilution.\n- **Ureotelism**: Excretion of urea. Common in mammals and adult amphibians.\n- **Uricotelism**: Excretion of uric acid. Common in birds, reptiles, and insects.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 947
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "subchapter": "Homeostasis",
+    "topic": "Thermoregulation",
+    "content": "Sweating during exercise is a mechanism of **homeostasis**, specifically thermoregulation. The body loses heat through the evaporation of sweat to maintain a constant internal body temperature.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 947
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "subchapter": "Effects of Space Travel",
+    "topic": "Bone Density in Microgravity",
+    "content": "Astronauts lose substantial quantities of calcium through urine during space flight due to **microgravity**. In the absence of gravitational load, bones undergo resorption, leading to a loss of bone density and calcium excretion.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 947
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "subchapter": "Sensory Organs",
+    "topic": "Eye Structure and Vision Defects",
+    "content": "### Eye Structure and Vision\n- **Retina**: The sensitive pigment layer of the eye containing photoreceptor cells (rods and cones).\n- **Rods**: Contain the pigment **rhodopsin**. Responsible for vision in dim light (scotopic vision).\n- **Cones**: Contain the pigment **iodopsin** (or photopsin). Responsible for color vision and vision in bright light (photopic vision).\n- **Pupil**: Regulates the amount of light entering the eye.\n- **Sclerotic**: The outer white protective coat of the eye.\n\n### Vision Defects and Corrections\n- **Myopia (Short-sightedness)**: Inability to see distant objects clearly. Corrected using a **concave lens**.\n- **Hypermetropia (Long-sightedness)**: Inability to see near objects clearly. Corrected using a **convex lens**.\n- **Presbyopia**: Age-related loss of near vision. Corrected using convex lenses.\n- **Night Blindness (Nyctalopia)**: Dim vision in the evening/night results from a deficiency of **Vitamin A**.\n\n### Other Physiological Facts\n- **Largest Cell**: The **nerve cell** (neuron) is generally considered the largest cell in the human body (due to its long axons).\n- **Heart Pacemaker**: The **SA node** (Sinoatrial node) in the mammalian heart acts as the natural pacemaker, initiating the heartbeat.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 948
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "subchapter": "Sensory Organs",
+    "topic": "Ear Structure",
+    "content": "### Human Ear\n- **Ossicles**: The three small bones in the middle ear are the **malleus**, **incus**, and **stapes**. They transmit sound vibrations from the eardrum to the inner ear.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 948
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "subchapter": "Neural Control and Coordination",
+    "topic": "Neuron Function",
+    "content": "### Neurons and Action Potential\n- **Action Potential**: The electrical signal in neurons is primarily produced by the influx of **Sodium ions (Na+)** into the cell membrane, followed by the efflux of Potassium ions (K+). The rapid change in membrane potential is driven by the movement of these ions, with Na+ influx being the key depolarizing event.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 948
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "subchapter": "Urinary System",
+    "topic": "Pathway of urine elimination",
+    "content": "The correct sequence for the elimination of urine is:\n\n**Kidneys → Ureters → Bladder → Urethra**\n\n- **Kidneys** filter blood to form urine.\n- **Ureters** transport urine from the kidneys to the bladder.\n- **Bladder** stores urine until micturition.\n- **Urethra** conveys urine out of the body.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 950
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "subchapter": "Digestive System",
+    "topic": "Milk of magnesia in indigestion",
+    "content": "Milk of magnesia (magnesium hydroxide) is a **basic** preparation. It neutralises excess gastric acid, thereby relieving stomach pain caused by indigestion.\n\n- **Assertion (A):** During indigestion, milk of magnesia is taken to get rid of the stomach pain.  \n- **Reason (R):** Milk of magnesia is a base and it neutralises the excess acid in the stomach.\n- Both statements are true and R correctly explains A.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 950
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "subchapter": "Digestive System",
+    "topic": "Site where digestion begins",
+    "content": "The digestive process **starts in the buccal cavity (mouth)** where mechanical breakdown (chewing) and chemical breakdown (salivary amylase) of food begin.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 950
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Histology",
+    "subchapter": "Connective Tissue",
+    "topic": "Components not found in connective tissue",
+    "content": "Typical components of connective tissue include **fibres (collagen, elastic), ground substance, fibroblasts, chondrocytes (in cartilage), and immune cells (e.g., lymphocytes).**\n\n- **Axon** (nerve fibre) is **not** a component of connective tissue.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 950
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Diseases and Immunity",
+    "topic": "Scientists and Their Contributions",
+    "content": "- **F.G. Banting**: Discovered Insulin.\n- **J. Lister**: Introduced the use of carbolic acid as an antiseptic.\n- **Louis Pasteur**: Developed the Germ Theory of disease.\n- **E. Jenner**: Developed the vaccination for smallpox.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 951
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Diseases and Immunity",
+    "topic": "Vaccines and Preventable Diseases",
+    "content": "- **Vaccine-Preventable Diseases**: Tetanus, Polio, Pertussis (Whooping Cough), Measles, Mumps, Smallpox, Tuberculosis (BCG), Rabies (BPL).\n- **Non-Vaccine-Preventable (as per context)**: Leprosy, Malaria (no widely available vaccine yet in this context), AIDS.\n- **Specific Vaccines**:\n  - **BCG Vaccine**: Prevents Tuberculosis.\n  - **BPL Vaccine**: Prevents Rabies.\n  - **Chloroquine**: Antimalarial drug (treats Malaria).\n  - **Penicillin**: Antibiotic (treats bacterial infections like Sore throat/Streptococcal infections).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 951
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Diseases and Immunity",
+    "topic": "Causative Agents of Diseases",
+    "content": "- **Bacterial Diseases**: Typhoid, Tuberculosis, Tetanus, Pertussis, Sore throat (Streptococcus).\n- **Viral Diseases**: Chikungunya, AIDS (HIV), Dengue, Polio, Measles, Mumps, Smallpox.\n- **Protozoan Diseases**: Malaria (Plasmodium), Kala-azar (Leishmania).\n- **Fungal Diseases**: Ringworm.\n- **Worm (Helminthic) Diseases**: Filaria, Leprosy (Note: Leprosy is actually bacterial - Mycobacterium leprae, but often confused in older texts or specific contexts; however, standard science classifies it as bacterial. In the provided MCQ 373, Leprosy is listed as non-vaccine preventable, which is true. In MCQ 373 matching, Ringworm is Fungi, Malaria is Protozoa, Typhoid is Bacteria, AIDS is Virus).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 951
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Diseases and Immunity",
+    "topic": "Vectors and Transmission",
+    "content": "- **Vector**: An insect or other animal that transmits a disease from one host to another.\n- **Anopheles Mosquito**: Transmits Malaria.\n- **Culex Mosquito**: Transmits Filaria (and Japanese Encephalitis).\n- **Aedes Mosquito**: Transmits Dengue (and Chikungunya).\n- **Sandfly**: Transmits Kala-azar (Visceral Leishmaniasis).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 951
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Diseases and Immunity",
+    "topic": "HIV/AIDS Symptoms",
+    "content": "- **HIV/AIDS**: Caused by a Virus (Human Immunodeficiency Virus).\n- **Key Symptom for Suspection in Young Individuals**: Chronic diarrhoea is a common opportunistic symptom indicating immune system compromise. Other symptoms include weight loss, fever, and recurrent infections. Long-standing jaundice is more specific to liver diseases, severe anaemia to blood disorders, and severe persistent headache to neurological issues.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 951
+  },
+  {
+    "subject": "Health & Medicine",
+    "chapter": "Cancer",
+    "subchapter": "Cancer in older people",
+    "topic": "Age‑related increase in cancer incidence",
+    "content": "# Age‑Related Increase in Cancer\n\n- **",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 952
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Agriculture and Soil Science",
+    "topic": "Biofertilisers",
+    "content": "- **Azotobacter**: A free-living nitrogen-fixing bacterium used as a biofertiliser.\n- **Application**: Biofertilisers are typically applied to the soil or seeds, not exclusively to leaves.\n- **Function**: They do not primarily alter the chemical composition of the soil in a destructive way but enhance nutrient availability (like nitrogen).\n- **Compatibility**: Biofertilisers can be used in conjunction with organic fertilisers to improve soil health and crop yield.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 953
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Environmental Science",
+    "topic": "Biodegradability",
+    "content": "- **Biodegradable materials**: Organic materials that can be decomposed by microorganisms (e.g., woollen mats, leather bags, jute baskets).\n- **Non-biodegradable materials**: Synthetic or metallic materials that do not decompose easily (e.g., silver foil, plastics, glass).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 953
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Agriculture and Soil Science",
+    "topic": "Green Manuring",
+    "content": "- **Green Manuring**: The practice of growing specific plants and then ploughing them into the soil to improve fertility.\n- **Sunnhemp**: A leguminous crop widely used in India for green manuring due to its ability to fix nitrogen in the soil.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 953
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Industrial Chemistry",
+    "topic": "Manufacturing of Soap",
+    "content": "- **Saponification**: The chemical process of making soap.\n- **Raw Materials**: Soap is manufactured by reacting **Fats** (or vegetable oils) with a **caustic alkali** (such as sodium hydroxide or potassium hydroxide).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 953
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Animal Husbandry",
+    "topic": "Vechur Cattle Breed",
+    "content": "- **Origin**: Indigenous breed found in Kerala, India.\n- **Characteristics**: Known as the world's smallest cow.\n- **Utility**: Its milk protein is noted for having medicinal value.\n- **Usage**: Commonly used in farming.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 953
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Animal Physiology",
+    "topic": "Digestion in Ruminants",
+    "content": "- **Cellulose Digestion**: Cattle (ruminants) can digest cellulose found in grass and fodder.\n- **Mechanism**: This ability is attributed to the presence of **cellulose-degrading bacteria** (and other microorganisms) in the rumen, which produce enzymes (cellulase) to break down cellulose.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 953
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Medical Science",
+    "topic": "Diagnostic Tests",
+    "content": "- **ELISA (Enzyme-Linked Immunosorbent Assay)**: A plate-based assay technique designed to detect and quantify substances such as peptides, proteins, antibodies, and antigens.\n- **Primary Use**: Widely prescribed and used for the diagnosis of **AIDS** (HIV infection).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 953
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Genetics and Biotechnology",
+    "topic": "Restriction Enzymes",
+    "content": "- **Definition**: Restriction enzymes (restriction endonucleases) are enzymes that cut **double-stranded DNA** at specific recognition sequences.\n- **Role in Genetic Engineering**: They are often referred to as **'chemical knives' or 'molecular scissors'** because they cleave DNA molecules at specific sites, allowing for the insertion of foreign DNA.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 953
+  },
+  {
+    "subject": "Environmental Science",
+    "chapter": "Environmental Pollution and Remediation",
+    "subchapter": "Greenhouse Gases and Agriculture",
+    "topic": "Methane Emissions from Rice Fields",
+    "content": "Rice fields are a significant source of **Methane (CH4)** emissions. This occurs due to anaerobic decomposition of organic matter in the waterlogged soil conditions typical of paddy cultivation. Methane is a potent greenhouse gas, released in the most prominent quantities from these fields compared to carbon dioxide, carbon monoxide, or sulphur dioxide.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 954
+  },
+  {
+    "subject": "Environmental Science",
+    "chapter": "Environmental Pollution and Remediation",
+    "subchapter": "Bioremediation",
+    "topic": "Definition and Applications of Bioremediation",
+    "content": "**Bioremediation** is defined as any process that uses microorganisms or their enzymes to return the environment altered by contaminants to its original condition. It is employed to attack specific contaminants, such as chlorinated pesticides, which can be degraded by specific bacteria. Both the general definition and the specific application to pesticide degradation are correct aspects of bioremediation.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 954
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Microorganisms and Their Applications",
+    "subchapter": "Industrial and Environmental Uses",
+    "topic": "Microorganisms and Their Specific Uses",
+    "content": "Key microorganisms and their industrial/environmental applications include:\n1. **Aeromonas hydrophila**: Used in **Microbial fuel cells**.\n2. **Methanobacteria**: Used in **Biogas synthesis** (methanogenesis).\n3. **Agrobacterium tumefaciens**: Used as a **Cloning vector** in genetic engineering.\n4. **Lactobacillus bulgaricus**: Used in **Yogurt preparation** (lactic acid fermentation).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 954
+  },
+  {
+    "subject": "Environmental Science",
+    "chapter": "Forestry and Afforestation",
+    "subchapter": "Tree Species Selection",
+    "topic": "Eucalyptus in Planned Forestation",
+    "content": "The **Eucalyptus** tree is preferred in planned forestation processes primarily because:\n1. **Plantation grows very fast**: It has a high growth rate, making it suitable for quick timber supply.\n2. **Wood conversion**: The wood is easily converted into pulp for the **paper industry**.\n*Note: Eucalyptus is generally not preferred for making soil more fertile; in fact, it can sometimes deplete soil nutrients due to its high uptake rates.*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 954
+  },
+  {
+    "subject": "Agriculture",
+    "chapter": "Soil Fertility and Fertilizers",
+    "subchapter": "Nutrient Classification",
+    "topic": "Macronutrients in Inorganic Fertilizers",
+    "content": "The primary **macronutrients** provided by inorganic fertilizers are **Nitrogen (N), Phosphorus (P), and Potassium (K)**, often referred to as NPK. Other elements like carbon, iron, boron, magnesium, manganese, sulphur, and zinc are either not supplied in the same primary fertilizer context or are classified as micronutrients (like iron, boron, zinc, manganese) or secondary macronutrients (like magnesium, sulphur, calcium), but NPK are the major ones.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 954
+  },
+  {
+    "subject": "Environmental Science",
+    "chapter": "Waste Management",
+    "subchapter": "Biodegradability",
+    "topic": "Biodegradable vs. Non-biodegradable Items",
+    "content": "**Biodegradable items** are those that can be broken down by natural biological processes (microorganisms). Examples include **Cowdung, paddy-husk, and vegetable wastes**. Non-biodegradable items include glass, iron-scrap, and plastic. Sewage is a waste stream that can be treated biologically but is not typically classified as a 'biodegradable item' in the same context as solid organic waste in multiple-choice questions comparing material types.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 954
+  },
+  {
+    "subject": "Environmental Science",
+    "chapter": "Renewable Energy",
+    "subchapter": "Biogas",
+    "topic": "Composition of Biogas (Gobar Gas)",
+    "content": "The main constituent of **gobar gas** or **biogas** is **Methane (CH4)**. Biogas is produced by the anaerobic digestion of organic matter (such as animal dung, crop residues, and sewage). While it contains other gases like carbon dioxide, hydrogen, and trace amounts of others, methane is the primary combustible component.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 954
+  },
+  {
+    "subject": "History",
+    "chapter": "Part I Ancient India",
+    "subchapter": "The Pre-History or Stone Age",
+    "topic": "Paleolithic Age",
+    "content": "# Paleolithic Age (Old Stone Age)\n\n- **Time Period**: Pleistocene (Ice Age) – the earliest phase of human prehistory in India.\n- **Population**: Paleolithic men belonged to the Negrito race; Homo sapiens appeared in the last phase.\n- **Lifestyle**: Hunters and gatherers; no agriculture, fire, or pottery.\n- **Tools**: Unpolished, undressed rough stones (quartzite). Known as *Quartzite men*.\n- **Habitat**: Lived in cave rock shelters.\n- **Archaeological Evidence**: Uttar Bahini in the Jammu area (upper Shiwaliks) revealed early Paleolithic artifacts.\n- **Phases**: Divided into Early/Lower, Middle, and Upper Paleolithic based on stone tool types and climatic changes.\n\n> **Key Takeaway**: The Paleolithic Age marks the earliest known use of stone tools by humans in India, characterized by hunter‑gatherer societies and simple stone implements.\n    ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 958
+  },
+  {
+    "subject": "History",
+    "chapter": "Part I Ancient India",
+    "subchapter": "The Pre-History or Stone Age",
+    "topic": "Stone Age Categories",
+    "content": "# Stone Age Categories\n\n| Category | Alternative Name | Description |\n|----------|------------------|-------------|\n| Paleolithic | Old Stone Age | Earliest period; hunter‑gatherers using unpolished stone tools. |\n| Mesolithic | Middle Stone Age | Transitional phase; more refined tools, still no agriculture. |\n| Neolithic | New Stone Age | Introduction of agriculture, pottery, and settled life. |\n| Chalcolithic | Copper‑Stone Age | First use of metal (copper) alongside stone tools. |\n\n> **Note**: These categories are global but are also applicable to the Indian subcontinent, with specific archaeological evidence for each.\n    ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 958
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "History",
+    "subchapter": "Exam Pattern",
+    "topic": "NDA/CDS/AFCAT History Section",
+    "content": "# Exam Pattern for History Section\n\n- **Question Count**: Approximately 12‑15 questions from History.\n- **Ancient India Topics**: Harappan civilization, Rig Vedic age, Mauryan age, Six Indian philosophies, Gupta age, literature of the ancient era.\n- **Medieval India Topics**: Delhi Sultanate, Mughal empire, foreign travellers, Maratha empire, Vijayanagar empire, art, architecture, literature.\n- **Modern India Topics**: Indian National Movement.\n- **World History Topics**: American War of Independence, Russian Revolution, French Revolution, World Wars I & II.\n\n> **Tip**: Focus on key dates, figures, and cultural contributions for each era.\n    ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 958
+  },
+  {
+    "subject": "History",
+    "chapter": "Mesolithic Age",
+    "subchapter": "Overview",
+    "topic": "Transition Phase",
+    "content": "# Mesolithic Age\n\n- **Definition**: The Mesolithic (Middle Stone Age) is the transitional period between the Paleolithic (Old Stone Age) and the Neolithic (New Stone Age).\n- **Lifestyle**: Predominantly hunter‑gatherers who hunted, fished, and gathered wild plants. Later, they began domesticating animals.\n- **Key Features**: Introduction of microlithic technology and small, finely crafted stone tools.\n- **Cultural Aspects**: Evidence of prehistoric cave paintings (e.g., Bhimbetka, Madhya Pradesh).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 959
+  },
+  {
+    "subject": "History",
+    "chapter": "Mesolithic Age",
+    "subchapter": "Tools",
+    "topic": "Microliths and Stone Implements",
+    "content": "# Mesolithic Tools\n\n- **Microliths**: Small, sharp stone blades (often < 5 cm) used as components of composite tools.\n- **Pointed Crescent‑shaped Blades**: Used for cutting and hunting.\n- **Scrapers**: For hide processing and woodworking.\n- **Material**: Predominantly flint, chert, quartzite, and other locally available stones.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 959
+  },
+  {
+    "subject": "History",
+    "chapter": "Mesolithic Age",
+    "subchapter": "Domestication",
+    "topic": "Early Animal Domestication",
+    "content": "# Early Animal Domestication\n\n- **Key Sites**: Adamgarh (Madhya Pradesh) and Bagor (Rajasthan) provide the earliest archaeological evidence of animal domestication in the Indian subcontinent.\n- **Animals**: Early domesticated species included dogs, goats, and sheep.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 959
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Major Harappan Sites",
+    "topic": "Harappa",
+    "content": "**Site:** Harappa\n**Excavator:** Dayaram Sahni (1921)\n**Location:** Montgomery district of Punjab (Pakistan), on the left bank of the river Ravi.\n**Key Findings:**\n- Rows of six granaries.\n- Stone lingam and yoni figurines.\n- Virgin goddess seal.\n- Wheat and barley found in wooden mortar.\n- Nude dancing male and female figures made of stone.\n- Dancing Nataraja figure.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 960
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Major Harappan Sites",
+    "topic": "Mohenjodaro",
+    "content": "**Site:** Mohenjodaro\n**Excavator:** R.D. Banerjee (1922)\n**Location:** Larkana district in Sindh, on the right bank of the Indus (Pakistan).\n**Key Findings:**\n- Pashupati seal.\n- Bronze image of a dancing girl.\n- Three cylindrical seals.\n- Mother goddess figurines.\n- Seated male sculpture of the Priest King.\n- The Great Granary.\n- The Great Bath.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 960
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Major Harappan Sites",
+    "topic": "Chanhudaro",
+    "content": "**Site:** Chanhudaro\n**Excavators:** M. Gopal Majumdar, Mackey (1931)\n**Location:** Situated in Sindh on the bank of the Indus river.\n**Key Findings:**\n- Shops of shell ornament makers.\n- Bead makers.\n- Metal workers (metals discovered include gold, silver, tin, copper, etc.).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 960
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Major Harappan Sites",
+    "topic": "Kalibangan",
+    "content": "**Site:** Kalibangan\n**Excavator:** A. Ghosh (1953-60)\n**Location:** Situated in Rajasthan on the left bank of the river Ghaggar.\n**Key Findings:**\n- Seven fire altars.\n- A ploughed field (evidence of early agriculture).\n- Cylindrical seals.\n- Wheels of toy carts.\n- Houses with their own wells.\n- Black bangles.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 960
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Major Harappan Sites",
+    "topic": "Rangpur",
+    "content": "**Site:** Rangpur\n**Excavator:** Rangnath Rao (1953-54)\n**Location:** Situated on the left bank of Mahi river (Gujarat).\n**Key Findings:**\n- Evidence that rice was cultivated.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 960
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Major Harappan Sites",
+    "topic": "Ropar",
+    "content": "**Site:** Ropar\n**Excavator:** Y.D. Sharma (1953-54)\n**Location:** Situated in Punjab on the banks of the river Sutlej.\n**Key Findings:**\n- Evidence of burying a dog with a human burial.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 960
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Major Harappan Sites",
+    "topic": "Surkotada",
+    "content": "**Site:** Surkotada\n**Excavator:** J.P. Joshi (1954)\n**Location:** Situated in Kutch (Bhuj), Gujarat.\n**Key Findings:**\n- Provides the first actual remains of horse bones.\n- Bead making shops.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 960
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Major Harappan Sites",
+    "topic": "Lothal",
+    "content": "**Site:** Lothal\n**Excavator:** Rangnath Rao (1957)\n**Location:** Situated in Gujarat on the confluence of the Sabarmati and Bhargava rivers near the Gulf of Cambay.\n**Key Findings:**\n- Only site with an artificial brick dockyard.\n- Persian Gulf seal.\n- Terracotta model of Egyptian mummies.\n- Sacrificial fire altar.\n- Remains of rice husk (Note: Rangpur/Ahmedabad is the only other site with remains of rice husk).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 960
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Major Harappan Sites",
+    "topic": "Banawali",
+    "content": "**Site:** Banawali\n**Excavator:** R.S. Bisht (1973)\n**Location:** Situated on the left bank of the river Saraswati.\n**Key Findings:**\n- Terracotta model of the plough.\n- Good quality of barley.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 960
+  },
+  {
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "subchapter": "Major Harappan Sites",
+    "topic": "Dholavira",
+    "content": "**Site:** Dholavira\n**Excavators:** B.B. Lal (1959), R.S. Bisht (1990-91)\n**Location:** Situated in Gujarat in the Rann of Kutch.\n**Key Findings:**\n- (Content truncated in source, but site is identified as a major Harappan site in Rann of Kutch).",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 960
+  },
+  {
+    "id": "note-1",
+    "subject": "History",
+    "chapter": "Indus Valley Civilisation and Vedic Age",
+    "topic": "",
+    "subtopic": "",
+    "text": "<p>756</p><p>CDS Pathfinder</p><p>Script and Language</p><ul><li>Script and language is undeciphered, script is pictographic in nature. Fish symbol is most represented.</li><li>Overlapping of the letters show that it was written from right to left in the first line and then left to right in the second line. The style is called boustrophedon. A signboard inscription bearing 10 pictographs has been found from Dholavira in Gujarat.</li></ul><p>Decline of Indus Valley Civilisation</p><p>It is believed by historians many factors contributed to decline of this ancient civilisation.</p><p>Decline of Indus Civilisation : Different Views</p><p>Cause of Declines</p><p>Thinkers</p><p>External Aggression</p><p>Wheeler, Piggot, Gordan-childe</p><p>Inundation</p><p>MR Sahani</p><p>Epidemic</p><p>KVR Kennedy</p><p>Tectonic Disturbances (e.g. Dholavira)</p><p>Marshall and Raikes</p><p>Sudden Decline</p><p>Wheeler</p><p>Climatic Change</p><p>RL Stein, AN Ghosh</p><p>Deforestation, scarcity of resources, ecological imbalances</p><p>Walter Fairservis</p><p>Flood (e.g., Mohenjodaro)</p><p>Marshal, SR Rao, Maickey</p><p>The destruction due to change in course of river Ghaggar</p><p>GF Holes</p><p>Contribution of Indus Valley Civilisation</p><ul><li>The Harappan Civilisation which flourished between 2600 BC and 1900 BC had major contributions. Some of them include standardised weight and measures, planned city construction, public buildings like Great Bath. The Harappans worshipped fire, Mother goddess, tree, phallus which was carried forward by the Aryans.</li><li>The agricultural practise, use of seals for trade, ornaments and dresses were also great contribution of Harappans. Hence, the impact of Harappan civilisation could be seen on socio, economic, political and religious life of the people.</li></ul><p>THE VEDIC AGE</p><p>The history of Vedic Age is known largely through its religious texts, the vedas, which gave the period its name. The vedas recorded not only the religion of the vedic people, but also details of their lives that give us a look at their Political, Social and Economic pattern.</p><p>The Aryans</p><p>The word Aryan is derived from Arya, which mean favourably disposed towards new corner</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of Indus Valley Civilisation script, decline theories, contributions, Vedic Age, and Aryans."
+    },
+    "mcq": {
+      "question": "",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 961
+  },
+  {
+    "subject": "History",
+    "chapter": "Rig Vedic Period",
+    "subchapter": "Society",
+    "topic": "Status of Women",
+    "content": "### Status of Women in Rig Vedic Society\n- Women enjoyed a **respectable status** and participated in tribal assemblies and religious sacrifices alongside their husbands.\n- **Child marriage** was **non‑existent**; the marriageable age for girls was **16‑17 years**.\n- Both **polygamy** and **polyandry** existed, but **monogamy** was the prevailing norm.\n- There was **no Purdah system**.\n- **Widow remarriage** and the practice of **Niyoga** (marriage for procreation) were socially accepted.\n- Women were allowed to sit in the **Sabha** and **Vidhata** assemblies.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 962
+  },
+  {
+    "subject": "History",
+    "chapter": "Rig Vedic Period",
+    "subchapter": "Polity",
+    "topic": "Tribal Assemblies and Administration",
+    "content": "### Rig Vedic Polity\n- The **head of the tribe (Jana)** was the supreme authority and acted on the **collective decisions** of the tribal assemblies.\n- Main assemblies:\n  - **Vidhata** – the oldest, performed **redistributive functions**.\n  - **Sabha** – a select group of **elderly members**; women were permitted.\n  - **Samiti** – comprised the **entire clan**.\n  - **Gana** – another tribal council.\n- The chief of the tribe was called **Gopati**.\n- Women could participate in **Sabha** and **Vidhata**.\n- **Vajrapati** – officer of pasture.\n- **Kulapa** – family head, led the **Gramini** in war.\n- **Senani** – senior military officer, second only to the **Purohita**.\n- Military organization was based on **tribal units** such as **rata, gana, grama**.\n- **Tax (Bali)** was **voluntary**.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 962
+  },
+  {
+    "subject": "History",
+    "chapter": "Rig Vedic Period",
+    "subchapter": "Religion",
+    "topic": "Early Vedic Religion",
+    "content": "### Religious Beliefs and Practices\n- The early Vedic people were **nature worshippers**.\n- They **did not have temples or idols**; worship was performed through **recitation of mantras**.\n- The primary motive of worship was **material prosperity**:\n  - **Praja** – children\n  - **Pasu** – cattle\n  - **Dhana** – wealth\n- Spiritual upliftment was **not a primary goal** during this period.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 962
+  },
+  {
+    "subject": "History",
+    "chapter": "Rig Vedic Period",
+    "subchapter": "Geography",
+    "topic": "Rivers Mentioned in the Rig Veda",
+    "content": "### Rig Vedic Rivers and Their Modern Names\n| Rig Vedic Name | Modern Name |\n|----------------|-------------|\n| Sindhus        | Indus |\n| Vitasta        | Jhelum |\n| Askini         | Chenab |\n| Parushni       | Ravi |\n| Vipasa         | Beas |\n| Shatudri       | Sutlej |\n| Gomal          | Gomati |\n| Krumu          | Kurram |\n| Drishadvati    | Ghaggar |\n| Suvasthu       | Swat |\n| Kubha          | Kabul |\n| Naditarna      | Saraswati |\n| Sadanira       | Gandak |\n| (additional entries continue as per source) |\n",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 962
   }
 ]
