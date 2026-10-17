@@ -7475,5 +7475,77 @@ const AI_GENERATED_NOTES = [
     "title": "Urinary System",
     "subject": "Anatomy",
     "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">URINARY SYSTEM</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "ear",
+    "title": "Ear",
+    "subject": "Human Anatomy",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">EAR</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "endocrine-glands",
+    "title": "Endocrine Glands",
+    "subject": "Human Endocrine System",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">ENDOCRINE GLANDS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "male-reproductive-system",
+    "title": "Male Reproductive System",
+    "subject": "Human Reproductive System",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">MALE REPRODUCTIVE SYSTEM</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "contraception-methods",
+    "title": "Contraception Methods",
+    "subject": "Biology",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">CONTRACEPTION METHODS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "human-growth",
+    "title": "Human Growth",
+    "subject": "Biology",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">HUMAN GROWTH</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "diseases-caused-by-protozoans-and-worms",
+    "title": "Diseases Caused By Protozoans And Worms",
+    "subject": "Biology",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">DISEASES CAUSED BY PROTOZOANS AND WORMS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "human-health-and-disease",
+    "title": "Human Health And Disease",
+    "subject": "Biology",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">HUMAN HEALTH AND DISEASE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "biomolecules-&-plant-physiology",
+    "title": "Biomolecules & Plant Physiology",
+    "subject": "Biology",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">BIOMOLECULES & PLANT PHYSIOLOGY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "pisciculture",
+    "title": "Pisciculture",
+    "subject": "General Science",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">PISCICULTURE</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "poultry",
+    "title": "Poultry",
+    "subject": "General Science",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">POULTRY</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "high-yielding-breeds-of-animals",
+    "title": "High Yielding Breeds Of Animals",
+    "subject": "General Science",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">HIGH YIELDING BREEDS OF ANIMALS</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
+  },
+  {
+    "id": "dna-fingerprinting",
+    "title": "Dna Fingerprinting",
+    "subject": "Forensic Genetics",
+    "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <h3 style=\"color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600;\">DNA FINGERPRINTING</h3>\n  <h4 style=\"border-left: 3px solid var(--info); padding-left: 8px; margin-top: 24px; margin-bottom: 10px; color: var(--text-primary); font-weight: 600;\">DEEP CONCEPTUAL EXPLANATION</h4>\n  \n</div>\n"
   }
 ];

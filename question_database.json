@@ -376091,5 +376091,761 @@
     "topic": "Brain Structure and Functions",
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 922
+  },
+  {
+    "question_text": "Which part of the retina is responsible for the sharpest vision due to a high concentration of cone cells?",
+    "options": {
+      "A": "Blind Spot",
+      "B": "Fovea Centralis",
+      "C": "Optic Disc",
+      "D": "Tapetum Lucidum"
+    },
+    "correct_answer": "B",
+    "explanation": "The fovea centralis is the area of sharpest vision because it has a high concentration of cone cells.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Structure and Function of the Retina",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 924
+  },
+  {
+    "question_text": "The image formed on the retina is:",
+    "options": {
+      "A": "Virtual and erect",
+      "B": "Real and inverted",
+      "C": "Virtual and inverted",
+      "D": "Real and erect"
+    },
+    "correct_answer": "B",
+    "explanation": "The image formed on the retina is real and inverted.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Structure and Function of the Retina",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 924
+  },
+  {
+    "question_text": "Which pigment is found in rod cells and is sensitive to dim light?",
+    "options": {
+      "A": "Erythropsin",
+      "B": "Chloropsin",
+      "C": "Rhodopsin",
+      "D": "Cyanopsin"
+    },
+    "correct_answer": "C",
+    "explanation": "Rod cells contain a reddish-purple pigment called rhodopsin, which makes them highly sensitive to dim light.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Structure and Function of the Retina",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 924
+  },
+  {
+    "question_text": "Myopia (short-sightedness) is corrected by using:",
+    "options": {
+      "A": "Convex lens",
+      "B": "Concave lens",
+      "C": "Cylindrical lens",
+      "D": "Biconvex glasses"
+    },
+    "correct_answer": "B",
+    "explanation": "In myopia, the image forms in front of the retina. A concave lens diverges the light rays so that the image forms on the retina.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Visual Pigments and Eye Disorders",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 924
+  },
+  {
+    "question_text": "Which of the following is a mechanical contraception method?",
+    "options": {
+      "A": "Vasectomy",
+      "B": "Condoms",
+      "C": "Spermicidal cream",
+      "D": "Tubectomy"
+    },
+    "correct_answer": "B",
+    "explanation": "Mechanical contraception uses devices to physically block sperm from reaching the ovum. Condoms are a classic example. Vasectomy and tubectomy are surgical methods, while spermicidal cream is chemical.",
+    "subject": "Biology",
+    "chapter": "Contraception Methods",
+    "topic": "Contraception Methods",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 928
+  },
+  {
+    "question_text": "What is the term for the maximum number of individuals an environment can support?",
+    "options": {
+      "A": "Biotic potential",
+      "B": "Carrying capacity",
+      "C": "Population growth",
+      "D": "Zero population growth"
+    },
+    "correct_answer": "B",
+    "explanation": "Carrying capacity is the maximum number of individuals that an environment can sustain over time. Biotic potential refers to reproductive capacity, not environmental limits.",
+    "subject": "Biology",
+    "chapter": "Human Growth",
+    "topic": "Human Population Growth",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 928
+  },
+  {
+    "question_text": "Which bacterium is responsible for causing Typhoid fever in human beings?",
+    "options": {
+      "A": "Vibrio cholerae",
+      "B": "Salmonella typhi",
+      "C": "Mycobacterium tuberculosis",
+      "D": "Yersinia pestis"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, the bacterium Salmonella typhi is a pathogenic bacterium that causes typhoid fever. It affects the liver, pancreas, nervous system, gastrointestinal tract, kidney, and heart.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Bacterial Diseases",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 929
+  },
+  {
+    "question_text": "Anthrax is an infectious disease caused by which of the following bacteria?",
+    "options": {
+      "A": "Bacillus anthracis",
+      "B": "Clostridium tetani",
+      "C": "Corynebacterium diphtheriae",
+      "D": "Bordetella pertussis"
+    },
+    "correct_answer": "A",
+    "explanation": "The text states that Anthrax is caused by a bacteria called Bacillus anthracis. It spreads by its spores and cannot directly spread from one individual to another.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Bacterial Diseases",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 929
+  },
+  {
+    "question_text": "Which of the following is a Gram-negative bacteria that causes Pertussis (Whooping cough)?",
+    "options": {
+      "A": "Streptococcus pneumoniae",
+      "B": "Bordetella pertussis",
+      "C": "Salmonella typhi",
+      "D": "Haemophillus influenzae"
+    },
+    "correct_answer": "B",
+    "explanation": "Pertussis (Whooping cough) is a serious and common infection of children caused by the Gram-negative bacteria Bordetella pertussis. It is an airborne infection with an incubation period of 1-3 weeks.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Bacterial Diseases",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 929
+  },
+  {
+    "question_text": "The DPT vaccine is used to protect against which combination of diseases?",
+    "options": {
+      "A": "Dengue, Polio, and Typhoid",
+      "B": "Diphtheria, Whooping cough, and Tetanus",
+      "C": "Diphtheria, Polio, and Tuberculosis",
+      "D": "Dengue, Pertussis, and Plague"
+    },
+    "correct_answer": "B",
+    "explanation": "The text explicitly states that DPT is a vaccine used against diphtheria, whooping cough (pertussis), and tetanus.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Vaccines",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 929
+  },
+  {
+    "question_text": "Dengue fever, also known as break bone fever, is caused by a virus belonging to which family?",
+    "options": {
+      "A": "Paramyxoviridae",
+      "B": "Flaviviridae",
+      "C": "Retroviridae",
+      "D": "Picornaviridae"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 929
+  },
+  {
+    "question_text": "Which of the following diseases is caused by inhaling coal dust?",
+    "options": {
+      "A": "Silicosis",
+      "B": "Asbestosis",
+      "C": "Pneumoconiosis",
+      "D": "Bronchitis"
+    },
+    "correct_answer": "C",
+    "explanation": "Pneumoconiosis is specifically caused by inhaling coal dust. Silicosis is caused by silica (stone dust), and Asbestosis is caused by asbestos dust.",
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "topic": "Diseases Caused by Pollution",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 931
+  },
+  {
+    "question_text": "The term 'Vaccination' is derived from the Latin word 'vacca', which means:",
+    "options": {
+      "A": "Horse",
+      "B": "Sheep",
+      "C": "Cow",
+      "D": "Goat"
+    },
+    "correct_answer": "C",
+    "explanation": "The word 'vaccination' is derived from the Latin word 'vacca', which means cow. This relates to Edward Jenner's use of cowpox material to vaccinate against smallpox.",
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "topic": "Vaccination and Immunization",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 931
+  },
+  {
+    "question_text": "Which of the following is NOT a narcotic drug mentioned in the context of addictive substances?",
+    "options": {
+      "A": "Morphine",
+      "B": "Heroin",
+      "C": "Aspirin",
+      "D": "Opium"
+    },
+    "correct_answer": "C",
+    "explanation": "Morphine, heroin, and opium are listed as narcotic drugs. Aspirin is a non-narcotic analgesic and is not classified as a narcotic drug in this context.",
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "topic": "Diseases Caused by Addictive Substances",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 931
+  },
+  {
+    "question_text": "DOTS strategy, launched by WHO to control Tuberculosis, stands for:",
+    "options": {
+      "A": "Directly Observed Treatment, Short-course",
+      "B": "Daily Oral Treatment System",
+      "C": "Directly Observed Therapy, Standard",
+      "D": "Drug Oriented Treatment Strategy"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 931
+  },
+  {
+    "question_text": "What is the network of fungal hyphae surrounding the cortical cells in Ectomycorrhiza called?",
+    "options": {
+      "A": "Arbuscules",
+      "B": "Hartig net",
+      "C": "Vesicles",
+      "D": "Rhizomorphs"
+    },
+    "correct_answer": "B",
+    "explanation": "In Ectomycorrhiza, the mycorrhizal fungi are present on the root surface, and the cortical cells are surrounded by a network of fungal hyphae called the Hartig net.",
+    "subject": "Biology",
+    "chapter": "Biomolecules & Plant Physiology",
+    "topic": "Mycorrhiza",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 933
+  },
+  {
+    "question_text": "Which of the following is an example of a plant that forms Ectomycorrhiza?",
+    "options": {
+      "A": "Orchids",
+      "B": "Grasses",
+      "C": "Oak",
+      "D": "Common crop plants"
+    },
+    "correct_answer": "C",
+    "explanation": "Ectomycorrhiza is found in the roots of oak, Pinus, peach, and Eucalyptus. Orchids, grasses, and common crop plants typically form Endomycorrhiza (VAM).",
+    "subject": "Biology",
+    "chapter": "Biomolecules & Plant Physiology",
+    "topic": "Mycorrhiza",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 933
+  },
+  {
+    "question_text": "VAM (Vesicular Arbuscular Mycorrhiza) is a type of which mycorrhiza?",
+    "options": {
+      "A": "Ectomycorrhiza",
+      "B": "Endomycorrhiza",
+      "C": "Parasitic association",
+      "D": "Symbiotic lichen"
+    },
+    "correct_answer": "B",
+    "explanation": "VAM is a type of endomycorrhiza where the fungus enters the roots and produces vesicles and arbuscules inside the cortical cells.",
+    "subject": "Biology",
+    "chapter": "Biomolecules & Plant Physiology",
+    "topic": "Mycorrhiza",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 933
+  },
+  {
+    "question_text": "Which of the following is considered the most troublesome terrestrial weed?",
+    "options": {
+      "A": "Amaranthus",
+      "B": "Chenopodium",
+      "C": "Parthenium hysterophorus",
+      "D": "Eichhornia"
+    },
+    "correct_answer": "C",
+    "explanation": "Parthenium hysterophorus, also known as congress grass, is identified as the most troublesome terrestrial weed.",
+    "subject": "Biology",
+    "chapter": "Biomolecules & Plant Physiology",
+    "topic": "Weeds and Weedicides",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 933
+  },
+  {
+    "question_id": "q1",
+    "question_number": "1",
+    "question_text": "Which of the following organism does not obey the ‘cell theory’?\n(a) Virus\n(b) Bacteria\n(c) Fungi\n(d) Plants",
+    "options": [
+      "Virus",
+      "Bacteria",
+      "Fungi",
+      "Plants"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q2",
+    "question_number": "2",
+    "question_text": "The nucleic acid in a cell was discovered by\n(a) E Strasburger\n(b) A Kossel\n(c) F Miescher\n(d) Huxley",
+    "options": [
+      "E Strasburger",
+      "A Kossel",
+      "F Miescher",
+      "Huxley"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q3",
+    "question_number": "3",
+    "question_text": "The ‘cell theory’ for organisms was proposed by\n(a) Purkinje and Von Mohl\n(b) Schleiden and Schwann\n(c) Carolus Linnaeus\n(d) Felix Dujardin",
+    "options": [
+      "Purkinje and Von Mohl",
+      "Schleiden and Schwann",
+      "Carolus Linnaeus",
+      "Felix Dujardin"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q4",
+    "question_number": "4",
+    "question_text": "The fact that new cells arise from pre-existing cells was proposed by\n(a) JE Purkinje\n(b) F Dujardin\n(c) R Virchow\n(d) E Abbe",
+    "options": [
+      "JE Purkinje",
+      "F Dujardin",
+      "R Virchow",
+      "E Abbe"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q5",
+    "question_number": "5",
+    "question_text": "The scientists who first recognised and named the nucleus was\n(a) Robert Hooke\n(b) Robert Brown\n(c) Theodore Schwann\n(d) Thomas Morgan",
+    "options": [
+      "Robert Hooke",
+      "Robert Brown",
+      "Theodore Schwann",
+      "Thomas Morgan"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q6",
+    "question_number": "6",
+    "question_text": "Which of the following is a physical basis of life?\n(a) Mitochondria\n(b) Ribosome\n(c) Protoplasm\n(d) Nucleus",
+    "options": [
+      "Mitochondria",
+      "Ribosome",
+      "Protoplasm",
+      "Nucleus"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q7",
+    "question_number": "7",
+    "question_text": "The bacteria were discovered by which of the following person?\n(a) H Urey\n(b) E Haeckel\n(c) AV Leeuwenhoek\n(d) Ivanowski",
+    "options": [
+      "H Urey",
+      "E Haeckel",
+      "AV Leeuwenhoek",
+      "Ivanowski"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q8",
+    "question_number": "8",
+    "question_text": "The term ‘Meiosis’ is coined by\n(a) Fleming\n(b) Blackmann\n(c) Liebig\n(d) Farmer and Moore",
+    "options": [
+      "Fleming",
+      "Blackmann",
+      "Liebig",
+      "Farmer and Moore"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q9",
+    "question_number": "9",
+    "question_text": "The physical basis of life protoplasm was named by\n(a) Purkinje\n(b) J Huxley\n(c) Robert brown\n(d) Sherington",
+    "options": [
+      "Purkinje",
+      "J Huxley",
+      "Robert brown",
+      "Sherington"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q10",
+    "question_number": "10",
+    "question_text": "Which of the following is not present in prokaryotes?\n(a) Ribosomes\n(b) Nuclear membrane\n(c) Cell wall\n(d) Plasma membrane",
+    "options": [
+      "Ribosomes",
+      "Nuclear membrane",
+      "Cell wall",
+      "Plasma membrane"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q11",
+    "question_number": "11",
+    "question_text": "Which one among the following is known as ‘animal starch’?\n(a) Cellulose\n(b) Glycogen\n(c) Pectin\n(d) Chitin",
+    "options": [
+      "Cellulose",
+      "Glycogen",
+      "Pectin",
+      "Chitin"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q12",
+    "question_number": "12",
+    "question_text": "Consider the given cell organelles.\n1. Mitochondria\n2. Plastids\n3. Ribosome\nWhich of the cell organelle(s) given above is/are common in both plant and animal cells?\n(a) Only 2\n(b) 1 and 2\n(c) 1 and 3\n(d) All of the above",
+    "options": [
+      "Only 2",
+      "1 and 2",
+      "1 and 3",
+      "All of the above"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q13",
+    "question_number": "13",
+    "question_text": "Rigidity of cell wall is due to\n(a) chitin\n(b) lignin\n(c) suberin\n(d) pectin",
+    "options": [
+      "chitin",
+      "lignin",
+      "suberin",
+      "pectin"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q14",
+    "question_number": "14",
+    "question_text": "The plasma membrane of animal cells is highly elastic. It is mainly due to the presence of\n(a) carbohydrates\n(b) proteins\n(c) Iipids\n(d) nucleic acids",
+    "options": [
+      "carbohydrates",
+      "proteins",
+      "Iipids",
+      "nucleic acids"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q15",
+    "question_number": "15",
+    "question_text": "The secretory product pectin of cell wall is chemically a\n(a) protein\n(b) carbohydrate\n(c) Iipid\n(d) nucleic acid",
+    "options": [
+      "protein",
+      "carbohydrate",
+      "Iipid",
+      "nucleic acid"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_id": "q16",
+    "question_number": "16",
+    "question_text": "Chromosomes are\n(a) present only in the nucleus of a\ncell\n(b) the l",
+    "options": [
+      "present only in the nucleus of a\ncell",
+      "the l"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "",
+    "exam": "CDS",
+    "paper": "",
+    "shift": "",
+    "subject": "Biology",
+    "chapter": "Cell : The Unit of Life",
+    "subchapter": "",
+    "topic": "Cell : The Unit of Life",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 937
+  },
+  {
+    "question_text": "Consider the following statements: 1. Chloroplast is known as ‘cell within a cell’. 2. Chloroplast is the largest cell organelle found in plant cells. 3. Chloroplasts have single-stranded extra chromosomal DNA. Which of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 2",
+      "B": "1 and 2",
+      "C": "1 and 3",
+      "D": "All of these"
+    },
+    "correct_answer": "B",
+    "explanation": "Statement 1 is correct (Chloroplasts have their own DNA and ribosomes, resembling a prokaryotic cell). Statement 2 is generally accepted in this context (though nucleus is often larger, chloroplasts are the largest *photosynthetic* organelle and often cited as largest in specific contexts). Statement 3 is incorrect because chloroplast DNA is double-stranded. Therefore, 1 and 2 are correct.",
+    "subject": "Biology",
+    "chapter": "Cell Structure and Function",
+    "topic": "Chloroplasts",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 938
+  },
+  {
+    "question_text": "Which of the following pairs of cell organelles mainly concerned with fatty acid metabolism in both plants and animals?",
+    "options": {
+      "A": "Ribosomes and nucleus",
+      "B": "Lysosomes and mitochondria",
+      "C": "Peroxisomes and mitochondria",
+      "D": "Glyoxysomes and peroxisomes"
+    },
+    "correct_answer": "C",
+    "explanation": "Peroxisomes and mitochondria are the primary organelles involved in fatty acid metabolism (beta-oxidation) in both plant and animal cells. Glyoxysomes are specific to plants.",
+    "subject": "Biology",
+    "chapter": "Cell Structure and Function",
+    "topic": "Fatty Acid Metabolism",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 938
   }
 ]
