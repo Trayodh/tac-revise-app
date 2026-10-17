@@ -64275,5 +64275,1583 @@
     ],
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 459
+  },
+  {
+    "id": "math-triangles-001",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Theorems on Similar Triangles",
+    "text": "<p><strong>Theorem 4:</strong> The areas of two similar triangles is equal to the ratio of squares of the corresponding angle bisector segments.</p><p><strong>Theorem 5:</strong> If the areas of two similar triangles are equal, then the triangles are congruent. Equal and similar triangles are congruent.</p><p><strong>Theorem 6:</strong> The line segments joining the mid-points of the sides of a triangle form four triangles, each of which is similar to the original triangle. If D, E, and F are mid-points of BC, AC, and AB respectively, then triangle AFE, FBD, EDC, and DEF are similar to triangle ABC.</p>",
+    "formulas": [
+      "Area(ABC) / Area(PQR) = AX^2 / PY^2",
+      "Area(DEF) / Area(ABC) = DE^2 / AB^2 = (1/2 AB)^2 / AB^2 = 1/4"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing two similar triangles ABC and PQR with angle bisectors AX and PY respectively.",
+      "Diagram of a triangle ABC with mid-points D, E, F on sides BC, AC, AB respectively, forming four smaller triangles."
+    ],
+    "details": {
+      "summary": "Covers theorems regarding the area ratios of similar triangles and the properties of mid-point triangles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 460
+  },
+  {
+    "id": "math-triangles-002",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Pythagoras Theorem",
+    "text": "<p>In a right angled triangle, the square of the hypotenuse is equal to the sum of the square of the other two sides.</p>",
+    "formulas": [
+      "AB^2 + BC^2 = AC^2 (where angle B = 90 degrees)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Right-angled triangle ABC with the right angle at B."
+    ],
+    "details": {
+      "summary": "Definition and formula for the Pythagoras Theorem."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 460
+  },
+  {
+    "id": "note-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Converse of Pythagoras theorem",
+    "text": "<p><strong>Converse of Pythagoras theorem:</strong> In a triangle, if the square of one side is equal to the sum of square of the other two sides then angle opposite to the first side is a right angle i.e. In triangle ABC, if AC^2 = AB^2 + BC^2, then angle B = 90 degrees.</p><p><strong>Example 12:</strong> Two poles of heights 6m and 11m stand vertically on a plane ground at a distance of 12m from each other. The distance between their tops is:</p><ul><li>Draw DL perpendicular to AB</li><li>Then, BL = AB - AL = AB - CD = (11-6)m = 5m</li><li>and DL = AC = 12m</li><li>In right angled triangle BDL, BD^2 = DL^2 + BL^2 = 5^2 + 12^2 = 169</li><li>BD = sqrt(169) = 13m</li></ul>",
+    "formulas": [
+      "AC^2 = AB^2 + BC^2",
+      "BD^2 = DL^2 + BL^2",
+      "BD = sqrt(169) = 13m"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A geometric diagram showing two vertical poles of height 6m and 11m separated by a horizontal distance of 12m. A dashed line connects the tops of the poles, forming a right-angled triangle with a base of 12m and a height of 5m."
+    ],
+    "details": {
+      "summary": "Explanation of the converse of Pythagoras theorem with a practical application example involving two poles."
+    },
+    "mcq": {
+      "question": "Two poles of heights 6m and 11m stand vertically on a plane ground at a distance of 12m from each other. The distance between their tops is",
+      "options": [
+        "9 m",
+        "10 m",
+        "13 m",
+        "15 m"
+      ],
+      "correct": 2,
+      "explanation": "Using the Pythagorean theorem on the triangle formed by the difference in heights and the distance between poles: sqrt(5^2 + 12^2) = 13m."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 461
+  },
+  {
+    "id": "geom-tri-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Triangles and Similarity",
+    "text": "<p>This section provides hints and solutions for problems related to triangle properties, similarity, and applications of the Pythagorean theorem.</p><ul><li><strong>Triangle Bisector Property:</strong> If AD is the internal bisector of angle A and BD = DC, then AB = AC, making the triangle isosceles.</li><li><strong>Midpoint Theorem:</strong> The line segments joining the midpoints of the sides of a triangle form four triangles, each of which is similar to the original triangle.</li><li><strong>Similarity Criteria:</strong> Triangles can be proven similar using SAS (Side-Angle-Side) or AA (Angle-Angle) similarity.</li><li><strong>Applications:</strong> Similarity is used to calculate heights of objects using shadows and to find missing side lengths in similar triangles.</li></ul>",
+    "formulas": [
+      "AB/AC = BD/DC",
+      "Perimeter of ΔABC / Perimeter of ΔDEF = Ratio of corresponding sides",
+      "PT^2 = PU^2 + TU^2",
+      "AB/PQ = AC/PR = BC/QR",
+      "Area1/Area2 = (h1/h2)^2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram 1: Triangle ABC with bisector AD where BD=DC.",
+      "Diagram 2: Triangle ABC with midpoints F, E, D forming four smaller triangles.",
+      "Diagram 3: Two triangles ABC and DEF with sides labeled to demonstrate similarity.",
+      "Diagram 4: Right-angled triangle setup for shadow calculation involving a stick and a tower.",
+      "Diagram 5: A path diagram showing a route with segments of 80m, 60m, 12m, 25m."
+    ],
+    "details": {
+      "summary": "Solutions and geometric proofs for problems involving triangle similarity, bisectors, and shadow-based height calculations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 468
+  },
+  {
+    "id": "pathfinder-geo-triangles-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Triangles",
+    "text": "<p><strong>Basic Proportionality Theorem:</strong> If a line is parallel to one side of a triangle, it divides the other two sides proportionally.</p><p><strong>Trapezium Property:</strong> Diagonals of a trapezium divide each other proportionally.</p><p><strong>Exterior Angle Bisector Theorem:</strong> The exterior bisector of an angle of a triangle divides the opposite side externally in the ratio of the sides containing the angle.</p><p><strong>Mid-point Theorem:</strong> The line joining the mid-points of any two sides of a triangle is parallel to the third side and is half of the third side.</p><p><strong>Triangle Properties:</strong></p><ul><li>Sum of angles in a triangle = 180 degrees.</li><li>In an isosceles triangle (AB=AC), base angles are equal (angle ABC = angle ACB).</li><li>If angle A = 60 degrees, triangle is equilateral (a=b=c).</li><li>If angle A = 90 degrees, triangle is right-angled (a^2 = b^2 + c^2).</li></ul>",
+    "formulas": [
+      "AD/DB = AE/EC",
+      "AO/OC = BO/OD",
+      "BE/CE = AB/AC",
+      "AC^2 = AB^2 + BC^2",
+      "PQ^2 = PB^2 + BQ^2",
+      "AB^2 = AD^2 + BD^2",
+      "AC^2 = AD^2 + CD^2",
+      "AB^2 - AC^2 = BD^2 - CD^2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram 1: Triangle ABC with line DE parallel to BC, intersecting AB at D and AC at E.",
+      "Diagram 2: Triangle ABC with midpoints F, D, E on sides AB, BC, AC respectively.",
+      "Diagram 3: Triangle ABC with altitude AP to base BC.",
+      "Diagram 4: Triangle ABC with altitude AD to base BC."
+    ],
+    "details": {
+      "summary": "Covers geometric theorems related to triangles, including proportionality, mid-point theorem, exterior angle bisectors, and properties of isosceles and right-angled triangles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 469
+  },
+  {
+    "id": "CDS_PATH_268_55",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Triangle Properties",
+    "text": "<p><strong>Property:</strong> The sum of any two sides of a triangle is greater than twice the median drawn to the third side.</p><p>Example: In triangle ABC with median AD, if AB=3cm and AC=5cm, then (AB+AC) > 2AD, which implies 8 > 2AD, or AD < 4cm.</p>",
+    "formulas": [
+      "(AB + AC) > 2AD"
+    ],
+    "image_descriptions": [
+      "A triangle ABC with a median AD drawn from vertex A to side BC. Side AB is labeled 3 cm, side AC is labeled 5 cm."
+    ],
+    "details": {
+      "summary": "Property relating the sum of two sides of a triangle to the median drawn to the third side."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 473
+  },
+  {
+    "id": "CDS_PATH_268_56",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Right Angled Triangle and Median",
+    "text": "<p>In a right-angled triangle, the median to the hypotenuse is half the length of the hypotenuse.</p><p>Example: In triangle PQR, right-angled at Q, with PQ=5cm and QR=12cm. By Pythagoras theorem, PR = sqrt(5^2 + 12^2) = 13cm. The median QL = 1/2 * PR = 6.5cm.</p>",
+    "formulas": [
+      "PR^2 = PQ^2 + QR^2",
+      "QL = 1/2 * PR"
+    ],
+    "image_descriptions": [
+      "A right-angled triangle PQR with the right angle at Q. Side PQ is 5, side QR is 12. A median QL is drawn to the hypotenuse PR."
+    ],
+    "details": {
+      "summary": "Application of Pythagoras theorem and the mid-point theorem in a right-angled triangle."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 473
+  },
+  {
+    "id": "CDS_PATH_268_57",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Right Angled Triangle Altitude",
+    "text": "<p>In a right-angled triangle ABC with altitude CD to the hypotenuse AB, the relationship between the sides and the altitude is given by 1/CD^2 = 1/AC^2 + 1/BC^2.</p>",
+    "formulas": [
+      "1/CD^2 = 1/AC^2 + 1/BC^2",
+      "CD^2 = AD * DB"
+    ],
+    "image_descriptions": [
+      "A right-angled triangle ABC with altitude CD drawn to the hypotenuse AB. AD is labeled 4, DB is labeled 9."
+    ],
+    "details": {
+      "summary": "Geometric mean theorem application in right-angled triangles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 473
+  },
+  {
+    "id": "CDS_PATH_268_58",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Right Angled Triangle Ratios",
+    "text": "<p>Given a right-angled triangle with an angle of 30 degrees, specific ratios between sides can be derived using the Pythagoras theorem.</p>",
+    "formulas": [
+      "BC = 2AB",
+      "AC = sqrt(3) * AB"
+    ],
+    "image_descriptions": [
+      "A right-angled triangle ABC with angle A=90 degrees and angle C=30 degrees."
+    ],
+    "details": {
+      "summary": "Trigonometric ratios in a 30-60-90 triangle."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 473
+  },
+  {
+    "id": "CDS_PATH_268_61",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Angle Bisectors",
+    "text": "<p>Property of angle bisectors in a triangle: The exterior angle of a triangle is equal to the sum of the two interior opposite angles.</p>",
+    "formulas": [
+      "angle ABC = 2 * angle PBC",
+      "angle ACD = 2 * angle PCD",
+      "angle PCD = x + angle PBC"
+    ],
+    "image_descriptions": [
+      "A triangle ABC with angle bisectors BP and CP meeting at P. Exterior angle ACD is formed."
+    ],
+    "details": {
+      "summary": "Using angle bisector properties to solve for unknown angles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 473
+  },
+  {
+    "id": "math-triangles-001",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Properties of Triangles and Similarity",
+    "text": "<p><strong>Problem 81:</strong> Analysis of triangle properties using exterior angle property. Given <em>AD=CD</em>, <em>∠CDB=y</em>, <em>∠CAD=x</em>. Derived <em>y=64°</em>.</p><p><strong>Problem 82:</strong> In an equilateral triangle <em>ABC</em>, given <em>BX=CY=AZ</em>. Proved <em>ΔXYC</em>, <em>ΔZYA</em>, and <em>ΔXZB</em> are congruent triangles.</p><p><strong>Problem 83:</strong> Apollonius Theorem application: In any triangle, three times the sum of squares of the sides is equal to four times the sum of squares of medians: <em>3(AB^2 + BC^2 + CA^2) = 4(AD^2 + BE^2 + CF^2)</em>.</p><p><strong>Problem 84:</strong> Ratio of areas of similar triangles is equal to the square of the ratio of their corresponding sides: <em>Area(ΔABC) / Area(ΔDEF) = AB^2 / DE^2</em>.</p><p><strong>Problem 86:</strong> Median property: A median of a triangle bisects its area. <em>Area(ΔABD) = 1/2 * Area(ΔABC)</em>. Further, <em>Area(ΔBED) = 1/4 * Area(ΔABC)</em>.</p>",
+    "formulas": [
+      "y = 64°",
+      "3(AB^2 + BC^2 + CA^2) = 4(AD^2 + BE^2 + CF^2)",
+      "Area(ΔABC) / Area(ΔDEF) = AB^2 / DE^2",
+      "Area(ΔBED) = 1/4 * Area(ΔABC)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram for Problem 81: Triangle ABC with point D on BC, line AD drawn, angles marked x and y.",
+      "Diagram for Problem 82: Equilateral triangle ABC with points X, Y, Z on sides BC, AC, AB respectively forming an inner triangle.",
+      "Diagram for Problem 85: Two triangles ABC and DEF with points L and M on bases BC and EF respectively.",
+      "Diagram for Problem 86: Triangle ABC with median AD and point E on AD, line BE drawn."
+    ],
+    "details": {
+      "summary": "This page contains detailed geometric proofs and solutions for problems related to triangle similarity, medians, and area properties."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 476
+  },
+  {
+    "id": "math-quad-001",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Quadrilateral",
+    "text": "<p>A figure enclosed by four sides is called a <strong>quadrilateral</strong>. A quadrilateral has four angles and sum of these angles is equal to 360&deg;.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of a quadrilateral and the sum of its interior angles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 477
+  },
+  {
+    "id": "math-quad-002",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Parallelogram",
+    "text": "<p>A quadrilateral, in which opposite sides are parallel is called a <strong>parallelogram</strong>.</p><ul><li>Area = Base &times; Height = b &times; h</li><li>Perimeter = 2(a + b)</li></ul><p><strong>Properties of Parallelogram:</strong></p><ul><li>(i) Diagonals of a parallelogram bisect each other.</li><li>(ii) Each diagonal of a parallelogram divides it into two congruent triangles.</li><li>(iii) Sum of any two adjacent angles is 180&deg;.</li><li>(iv) A parallelogram inscribed in a circle is a rectangle.</li><li>(v) A parallelogram circumscribed about a circle is a rhombus.</li><li>(vi) Two parallelograms have equal areas if they are on the same base and between the same parallel lines.</li><li>(vii) Lines joining the midpoints of the sides of parallelogram is a parallelogram.</li><li>(viii) The opposite angles of parallelogram are equal. (&ang;A = &ang;C and &ang;B = &ang;D) (from above figure)</li><li>(ix) The sum of the squares of the four sides is equal to the sum of squares of diagonal. AC&sup2; + BD&sup2; = AB&sup2; + BC&sup2; + CD&sup2; + AD&sup2;</li></ul>",
+    "formulas": [
+      "Area = b * h",
+      "Perimeter = 2(a + b)",
+      "AC^2 + BD^2 = AB^2 + BC^2 + CD^2 + AD^2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram of a parallelogram ABCD with sides labeled 'a' and 'b', height 'h', and two intersecting diagonals."
+    ],
+    "details": {
+      "summary": "Definition, formulas, and nine key properties of a parallelogram."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 477
+  },
+  {
+    "id": "math-quad-001",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Rhombus",
+    "text": "<p>A rhombus is a parallelogram with all 4 sides equal. The opposite angles in a rhombus are equal but they are not right angle.</p><ul><li><strong>Properties of Rhombus:</strong></li><li>(i) The diagonals of a rhombus bisect each other at right angles (90°). But they are not necessarily equal.</li><li>(ii) Diagonals bisect the vertex angles.</li><li>(iii) The figure formed by joining the mid-points of the sides of rhombus is a rectangle.</li><li>(iv) All rhombus are parallelogram but reverse is not true.</li><li>(v) A rhombus may or may not be a square but all squares are rhombus.</li></ul>",
+    "formulas": [
+      "Area = 1/2 * d1 * d2",
+      "Perimeter = 4a",
+      "Side (a) = 1/2 * sqrt(d1^2 + d2^2)",
+      "4a^2 = d1^2 + d2^2"
+    ],
+    "image_descriptions": [
+      "Diagram of a rhombus with side 'a', diagonals 'd1' and 'd2'."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 478
+  },
+  {
+    "id": "math-quad-002",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Rectangle",
+    "text": "<p>A rectangle is a parallelogram with opposite sides equal and each angle is equal to 90°.</p><ul><li><strong>Properties of Rectangle:</strong></li><li>(i) The diagonals of a rectangle are of equal lengths and they bisect each other.</li><li>(ii) All rectangles are parallelograms but reverse is not true.</li><li>(iii) Diagonal of a rectangle inscribed in a circle is equal to the diameter of the circle.</li><li>(iv) The figure formed by joining the mid-points of the sides of a rectangle is a rhombus.</li><li>(v) A rectangle and a parallelogram have equal area if they are on the same base and between same parallel lines.</li></ul>",
+    "formulas": [
+      "Area = Length * Breadth = L * B",
+      "Perimeter = 2(L + B)",
+      "Diagonal (d) = sqrt(L^2 + B^2)"
+    ],
+    "image_descriptions": [
+      "Diagram of a rectangle with sides L and B, and diagonal d."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 478
+  },
+  {
+    "id": "math-quad-003",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Square",
+    "text": "<p>A square is a parallelogram with all four sides equal and each angle is equal to 90°.</p>",
+    "formulas": [
+      "Area = (side)^2 = a^2 or 1/2 * d^2",
+      "Perimeter = 4 * side = 4a",
+      "Diagonal (d) = a * sqrt(2)"
+    ],
+    "image_descriptions": [
+      "Diagram of a square with side 'a' and diagonal 'd'."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 478
+  },
+  {
+    "id": "math-geo-square-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Properties of Square",
+    "text": "<p><strong>Properties of Square:</strong></p><ul><li>Diagonal of a square are equal and bisect each other at right angles (90°).</li><li>All square are rhombus but converse is not true.</li><li>Diagonal of square is the diameter of the circumscribing circle that circumscribes the square.</li><li>Side of a circumscribed square is equal to the diameter of the inscribed circle.</li><li>The figure formed by joining the mid-points of the sides of square is a square.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties of a square including diagonal, side, and mid-point relationships."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 479
+  },
+  {
+    "id": "math-geo-trapezium-002",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Trapezium",
+    "text": "<p><strong>Trapezium:</strong> It is a quadrilateral with any one pair of opposite sides parallel.</p><p><strong>Properties:</strong></p><ul><li>If the non-parallel sides are equal then the diagonals will also be equal to each other.</li><li>Diagonals intersect each other proportionally in the ratio of lengths of parallel sides.</li><li>If a trapezium is inscribed in a circle, then it is an isosceles trapezium with equal oblique sides.</li><li>The line joining the mid-points of non-parallel sides is half the sum of parallel side and is called median.</li></ul>",
+    "formulas": [
+      "Area = 1/2 * (Sum of the parallel sides * Height) = 1/2 * (a + b)h",
+      "Perimeter = AB + BC + CD + AD",
+      "Median = 1/2 * sum of parallel sides"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of a trapezium ABCD with parallel sides a and b, height h, and non-parallel sides c and d."
+    ],
+    "details": {
+      "summary": "Definition and properties of a trapezium."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 479
+  },
+  {
+    "id": "math-geo-polygon-003",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Polygon",
+    "text": "<p><strong>Polygon:</strong> A polygon is a closed, plane figure bounded by 'n' straight lines (n >= 3). Each of the line segment forming the polygon is called its sides.</p>",
+    "formulas": [],
+    "tables": [
+      "| Number of sides | Name |\n|---|---|\n| 3 | Triangle |\n| 4 | Quadrilateral |\n| 5 | Pentagon |\n| 6 | Hexagon |\n| 7 | Heptagon |\n| 8 | Octagon |\n| 9 | Nonagon |\n| 10 | Decagon |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and classification of polygons based on number of sides."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 479
+  },
+  {
+    "id": "math-geo-reg-polygon-004",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Regular Polygon",
+    "text": "<p><strong>Regular Polygon:</strong> In regular polygons, all sides and all interior angles are equal. If each side of a regular polygon of n sides = a, then:</p>",
+    "formulas": [
+      "Area of regular pentagon = 5a^2 * sqrt(3) / 4",
+      "Area of regular hexagon = 6a^2 * sqrt(3) / 4",
+      "Area of regular octagon = 2(sqrt(2) + 1)a^2",
+      "Each exterior angle = 360° / n"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of a regular hexagon with vertices A, B, C, D, E, F."
+    ],
+    "details": {
+      "summary": "Formulas for area and exterior angles of regular polygons."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 479
+  },
+  {
+    "id": "math-poly-001",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Polygon Properties",
+    "text": "<p>Properties of polygons:</p><ul><li><strong>Each interior angle</strong> = 180° - Exterior angle = ((n-2) * 180) / n</li><li><strong>Number of diagonals</strong> = (n(n-1)/2) - n</li><li><strong>Sum of all interior angles</strong> = (n-2) * 180°</li></ul>",
+    "formulas": [
+      "Each interior angle = 180° - Exterior angle = ((n-2) * 180) / n",
+      "Number of diagonals = (n(n-1)/2) - n",
+      "Sum of all interior angles = (n-2) * 180°"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas for interior angles, diagonals, and sum of interior angles of a polygon."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 480
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "subchapter": "Properties of Quadrilaterals",
+    "topic": "Rhombus Diagonals",
+    "content": "In a rhombus, the diagonals bisect each other at right angles (90 degrees). Therefore, if ABCD is a rhombus with diagonals AC and BD, AC and BD bisect each other and are perpendicular to each other.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 484
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "subchapter": "Properties of Quadrilaterals",
+    "topic": "Locus in Rhombus",
+    "content": "The locus of a point in a rhombus ABCD which is equidistant from vertices A and C is the diagonal BD. This is because the diagonal BD is the perpendicular bisector of the diagonal AC in a rhombus.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 484
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "subchapter": "Properties of Quadrilaterals",
+    "topic": "Parallelogram Diagonals",
+    "content": "For a parallelogram with sides $a$ and $b$ and diagonals $d_1$ and $d_2$, the relationship is given by $d_1^2 + d_2^2 = 2(a^2 + b^2)$. Additionally, the length of a diagonal must satisfy the triangle inequality with the sides. If sides are 12 cm and 8 cm, and one diagonal is 10 cm, the other diagonal $d$ can be calculated or bounded. Using the formula: $10^2 + d^2 = 2(12^2 + 8^2) \\Rightarrow 100 + d^2 = 2(144 + 64) = 416 \\Rightarrow d^2 = 316 \\Rightarrow d \\approx 17.77$ cm. Thus, $d > 12$ cm.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 484
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "subchapter": "Properties of Quadrilaterals",
+    "topic": "Angle Bisectors in Parallelogram",
+    "content": "In a parallelogram ABCD, if the bisectors of angles A and C meet the diagonal BD at points P and Q respectively, then AP = AQ. This is due to the symmetry and properties of alternate interior angles formed by the diagonal and the parallel sides, making triangle APQ isosceles.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 484
+  },
+  {
+    "id": "pathfinder-math-282-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Polygons and Quadrilaterals",
+    "text": "<p><strong>18.</strong> Calculation for a regular polygon where the ratio of interior angle to exterior angle is 5:1. Using the formula (n-2)180/n = 5 * (360/n), we find n=12.</p><p><strong>19.</strong> Sum of interior angles of a hexagon is (6-2)*180 = 720 degrees. Each angle is 720/6 = 120 degrees.</p><p><strong>20.</strong> Finding the number of sides of a regular polygon given each interior angle is 150 degrees. Using (n-2)180/n = 150, we find n=12.</p><p><strong>21.</strong> Area of parallelogram LMNP. Given base PR = 6 cm, using properties of triangles and parallel lines, we find PL=3PR and RL=2PR=12 cm.</p><p><strong>22.</strong> In trapezium ABCD with M, N as mid-points of AD and BC, MN || AB and MN || DC. Using mid-point theorem, ON = 6 cm and MO = 8 cm, leading to CD = 16 cm.</p><p><strong>23.</strong> Similarity of triangles ΔADM ~ ΔDCL. Using ratios of sides, AD = 12.8 units.</p><p><strong>24.</strong> Calculation of lengths in triangles ΔBPC and ΔAPD. BC = 12 cm, AP = 13 cm.</p><p><strong>25.</strong> Properties of angles in a triangle where AB=BC. ∠BAC = ∠BCA = 62 degrees.</p><p><strong>26.</strong> Interior angles of a pentagon. Given one angle is 140 degrees and others are in ratio 1:2:3:4. Sum of angles = 540 degrees. Largest angle = 160 degrees.</p><p><strong>27.</strong> In ΔABE, given AB || DC and AD || BC, with angles 60 degrees, ΔABE is equilateral.</p><p><strong>28.</strong> Geometry of square ABCD and rhombus ABEF. Area of square = a^2, Area of rhombus = (a^2)/2.</p><p><strong>29.</strong> Mid-point theorem application in ΔARB. D is mid-point of AR, Q is mid-point of RB.</p><p><strong>30.</strong> Mid-point theorem in ΔBDC. QR || BC and QR = 1/2 BC.</p>",
+    "formulas": [
+      "(n-2) * 180 / n",
+      "360 / n",
+      "Area of parallelogram = base * height",
+      "Area of square = a^2",
+      "Area of rhombus = (a * a) / 2"
+    ],
+    "image_descriptions": [
+      "Diagram for Q21: Parallelogram LMNP with diagonal PR.",
+      "Diagram for Q23: Trapezoid ABCD with diagonal AC and line segment DM.",
+      "Diagram for Q27: Triangle ABE inside a larger geometric structure.",
+      "Diagram for Q28: Square ABCD with rhombus ABEF attached."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 487
+  },
+  {
+    "id": "math-quad-51",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Properties of Quadrilaterals",
+    "text": "<p><strong>Problem 51:</strong> Given line segments AP and CQ bisecting angle A and angle C respectively. In triangle APQ and triangle CQP, AP || CQ. By alternate angles, angle APQ = angle PQA. Since PQ is common, triangle APQ is similar to triangle CQP by ASA congruence.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A quadrilateral ABCD with diagonals AC and BD intersecting at a point. Line segments AP and CQ are drawn from vertices A and C to points P and Q on the opposite sides."
+    ],
+    "details": {
+      "summary": "Proof of similarity between triangles APQ and CQP in a quadrilateral."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 490
+  },
+  {
+    "id": "math-quad-52",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Rhombus Properties",
+    "text": "<p><strong>Problem 52:</strong> In a rhombus ABCD, diagonals bisect each other at point O at 90 degrees. Any point on the diagonal BD is equidistant from vertices A and C.</p>",
+    "formulas": [
+      "OD = BD / 2",
+      "OC = AC / 2",
+      "CD^2 = OD^2 + OC^2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A rhombus ABCD with diagonals AC and BD intersecting at O at a 90-degree angle."
+    ],
+    "details": {
+      "summary": "Property of a rhombus where diagonals bisect at 90 degrees and points on a diagonal are equidistant from opposite vertices."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 490
+  },
+  {
+    "id": "math-quad-53",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Parallelogram and Rectangle",
+    "text": "<p><strong>Problem 53:</strong> In a parallelogram PQRS, if the sum of adjacent angles is 180 degrees, then the bisectors of these angles meet at 90 degrees, proving the resulting shape is a rectangle.</p>",
+    "formulas": [
+      "angle P + angle S = 180",
+      "angle DPS + angle DSP = 90",
+      "angle ADC = angle SDP = 90"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A parallelogram PQRS with internal angle bisectors forming a smaller rectangle inside."
+    ],
+    "details": {
+      "summary": "Proof that the intersection of angle bisectors in a parallelogram forms a rectangle."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 490
+  },
+  {
+    "id": "math-quad-54",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Trapezium Properties",
+    "text": "<p><strong>Problem 54:</strong> In triangle ADC, EG || DC where E and G are midpoints. The ratio of areas of trapeziums is calculated using parallel sides.</p>",
+    "formulas": [
+      "EG = 1/2 * DC = 3/2",
+      "GF = 1/2 * AB = 1",
+      "Area = 1/2 * (sum of parallel sides) * h"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A trapezoid ABCD with a line segment EG parallel to DC."
+    ],
+    "details": {
+      "summary": "Calculation of area ratios in a trapezoid using midpoints."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 490
+  },
+  {
+    "id": "math-quad-57",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Triangle Congruence and Similarity",
+    "text": "<p><strong>Problem 57:</strong> In triangle APS and triangle DSR, since P and R are midpoints, the triangles are congruent by SSS. In triangle ABC and triangle PBQ, similarity is established by common angles and parallel lines.</p>",
+    "formulas": [
+      "ar(ABC) = 4 * ar(BPQ)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A triangle ABC with a smaller triangle PBQ inside, sharing vertex B."
+    ],
+    "details": {
+      "summary": "Application of SSS congruence and similarity ratios in triangles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 490
+  },
+  {
+    "id": "math-quad-58",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Pythagoras Theorem in Geometry",
+    "text": "<p><strong>Problem 58:</strong> Using the Pythagorean theorem in triangle BCF to find lengths of sides in a trapezoid.</p>",
+    "formulas": [
+      "5^2 = 3^2 + BF^2",
+      "BF = 4 cm",
+      "AB = 2 + 4 + 4 = 10 cm"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A trapezoid with height 3 and slanted sides of length 5."
+    ],
+    "details": {
+      "summary": "Using Pythagoras theorem to solve for side lengths in a trapezoid."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 490
+  },
+  {
+    "id": "math-quad-59",
+    "subject": "Mathematics",
+    "chapter": "Quadrilateral and Polygon",
+    "topic": "Geometry on Horizontal Plane",
+    "text": "<p><strong>Problem 59:</strong> Symmetrical figures on a horizontal plane. Using algebraic substitution to find unknown lengths.</p>",
+    "formulas": [
+      "AC = BD",
+      "AE = BF = x",
+      "a + b = a - b + 2x",
+      "2b = 2x",
+      "x = b"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A geometric figure representing a symmetrical trapezoid-like structure on a horizontal plane."
+    ],
+    "details": {
+      "summary": "Solving for variables in a symmetrical geometric figure."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 490
+  },
+  {
+    "id": "circle-001",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Definitions and Basic Terminology",
+    "text": "<p>A <strong>circle</strong> is a curved figure consisting of all points in a plane that are at a fixed distance from a fixed point. The fixed point is called <strong>centre</strong> and the fixed distance is called <strong>radius</strong> of the circle.</p><ul><li>Circles are simple closed curves which divide the plane into two regions: an interior and an exterior.</li><li>In the given figure, <em>O</em> is the centre of circle, <em>OA</em> is the radius of the circle and <em>AB</em> is the diameter of the circle.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A circle with centre O, radius OA, and diameter AB."
+    ],
+    "details": {
+      "summary": "Introduction to the definition of a circle, its centre, and radius."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 492
+  },
+  {
+    "id": "circle-002",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Radius",
+    "text": "<p><strong>Radius</strong> is the fixed distance between the centre of the circle and the points lying on the circle.</p><p>Here, in the given figure <em>OA</em>, <em>OB</em> and <em>OC</em> all are having fixed distance, so they are known as radius of the circle. It is denoted by <em>r</em>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A circle with centre O and three radii OA, OB, and OC."
+    ],
+    "details": {
+      "summary": "Definition of radius and its notation."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 492
+  },
+  {
+    "id": "circle-003",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Diameter",
+    "text": "<p><strong>Diameter</strong> is any line segment that passes through the centre of the circle and whose end points lie on the circle. The diameter of a circle is twice the radius. Here, <em>AB</em> and <em>CD</em> are the diameters of the circle.</p><p>A circle can have an infinite number of diameters.</p>",
+    "formulas": [
+      "AB = CD = 2(OA) = 2(OB) = 2(OC) = 2(OD)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A circle with centre O and two diameters AB and CD intersecting at O."
+    ],
+    "details": {
+      "summary": "Definition of diameter and its relationship with the radius."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 492
+  },
+  {
+    "id": "circle-004",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Chord",
+    "text": "<p>A <strong>chord</strong> is a line segment whose end points lie on the circle. A diameter is the longest chord in a circle.</p><p>Here, in the given figure <em>PQ</em> is a chord and <em>AB</em> is the diameter of the circle which is the longest chord of that circle.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A circle with centre O, a chord PQ, and a diameter AB."
+    ],
+    "details": {
+      "summary": "Definition of a chord and its relation to the diameter."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 492
+  },
+  {
+    "id": "circle-005",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Secant",
+    "text": "<p>A line which intersect the circle at two points is called <strong>secant</strong> of the circle.</p><p>Here, in the figure <em>AB</em> is a secant cutting the circle at two distinct points as <em>C</em> and <em>D</em>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A circle with centre O and a line AB intersecting the circle at points C and D."
+    ],
+    "details": {
+      "summary": "Definition of a secant line."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 492
+  },
+  {
+    "id": "circle-006",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Arc",
+    "text": "<p>Any part of a circle between two points is called an <strong>arc</strong> of the circle. Any two points, say <em>A</em> and <em>B</em> of a circle divide it into two parts called arcs. The smaller arc <em>APB</em> is called <strong>minor arc</strong> and larger arc <em>AQB</em> is called <strong>major arc</strong>.</p><p>It is usually denoted by <em>APB</em> (with arc symbol) and <em>AQB</em> (with arc symbol).</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A circle with centre O, points A, B, P, Q, R, S on the circumference, illustrating minor arc APB and major arc AQB."
+    ],
+    "details": {
+      "summary": "Definition of minor and major arcs."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 492
+  },
+  {
+    "id": "geo-circle-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Circles",
+    "text": "<p><strong>Semi Circle:</strong> A diameter divides the circle into two equal parts. Each of the two is called a semi-circle.</p><p><strong>Segment:</strong> The area enclosed by an arc and its corresponding chord is called a segment of the circle. The segment containing the minor arc is called minor segment. The segment containing the major arc is called major segment.</p><p><strong>Sector:</strong> The area enclosed by any two radii and the arc determined by the end points of the radii is called a sector of the circle.</p><p><strong>Circumference:</strong> The length of the complete circle is called its circumference.</p><p><strong>Concentric Circles:</strong> Two or more circles having the same centre are called concentric circles.</p><p><strong>Tangent:</strong> A tangent to a circle is a straight line that touches the circle at a single point. The distance between external point P from which tangent is drawn and the point of contact of the tangent is called length of tangent.</p><p><strong>Properties of Tangent To a Circle:</strong><ul><li>Only two tangents can be drawn from a point outside the circle.</li><li>Only one tangent can be drawn through a point lying on the circle.</li><li>No tangent can be drawn from a point lying inside the circle.</li><li>A tangent at any point of a circle is perpendicular to the radius through the point of contact.</li></ul></p><p><strong>Relative Position of two Circles:</strong> Two circles will:<ul><li>(i) be disjoint, when OO' > r1 + r2.</li><li>(ii) be touching externally, when OO' = r1 + r2.</li><li>(iii) be intersecting when OO' < r1 + r2.</li><li>(iv) be touching internally, when OO' = |r2 - r1|.</li><li>(v) one of the circle will lie inside the other, when OO' < |r2 - r1|.</li></ul></p>",
+    "formulas": [
+      "Circumference = 2 * pi * Radius",
+      "Circumference = pi * Diameter",
+      "OO' > r1 + r2 (disjoint)",
+      "OO' = r1 + r2 (touching externally)",
+      "OO' < r1 + r2 (intersecting)",
+      "OO' = |r2 - r1| (touching internally)",
+      "OO' < |r2 - r1| (one inside other)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of a semi-circle with diameter RS and center O.",
+      "Diagram of a circle showing minor and major segments divided by chord AB.",
+      "Diagram of a sector formed by two radii and an arc.",
+      "Diagram of concentric circles C1, C2, C3, C4 with common center O.",
+      "Diagram of a tangent line GH touching circle at point B.",
+      "Diagram showing a tangent line AB perpendicular to radius at point C.",
+      "Five diagrams (i) to (v) showing relative positions of two circles with centers O and O' and radii r1 and r2."
+    ],
+    "details": {
+      "summary": "Definitions and properties related to circles, including segments, sectors, circumference, concentric circles, tangents, and relative positions of two circles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 493
+  },
+  {
+    "id": "circle-theorems-001",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Important Theorems of Circles",
+    "text": "<p><strong>Theorem 1:</strong> If two arcs of a circle are congruent, then the corresponding chords are equal.</p><p><strong>Theorem 2:</strong> Equal arcs (or chords) subtend equal angle at the centre. Here, if AB = PQ, then ∠AOB = ∠POQ.</p><p><strong>Theorem 3:</strong> The perpendicular from the centre of a circle to a chord bisects the chord. Here, if OD ⊥ AB, then AD = DB.</p><p><strong>Theorem 4:</strong> The line joining the centre to the mid-point of a chord is perpendicular to the chord. Here, if AD = DB, then ∠ADO = ∠ODB = 90°.</p><p><strong>Theorem 5:</strong> The perpendicular bisectors of two chords of a circle intersect at its centre. Here, AB, CD are the chords and l, m are perpendicular bisector of AB and CD. So, l and m meet at centre ‘O’.</p><p><strong>Theorem 6:</strong> There is one and only one circle passing through three non-collinear points. <ul><li>An infinite number of circles can be drawn to pass through a single point.</li><li>An infinite number of circles can be drawn to pass through two given points.</li><li>A unique circle can be drawn to pass through three given non-collinear points.</li></ul></p><p><strong>Theorem 7:</strong> Equal chords of congruent circles are equidistant from the corresponding centres. Here, if AB = CD, then OP = O’Q. Conversely if OP = O’Q, then AB = CD.</p><p><strong>Theorem 8:</strong> Equal chords of a circle are equidistant from the centre. Here, if AB and CD are equal chords of circle, then OP = OQ. Conversely, if OP = OQ, then also AB = CD i.e. chords at equal distance from the centre are equal.</p>",
+    "formulas": [
+      "(PA)^2 = (OA)^2 + (OP)^2",
+      "PQ = 2OP = 2 * 2√6 = 4√6 units",
+      "∠AOB = ∠POQ",
+      "OD ⊥ AB",
+      "AD = DB",
+      "∠ADO = ∠ODB = 90°",
+      "OP = O'Q",
+      "OP = OQ"
+    ],
+    "image_descriptions": [
+      "Diagram showing a circle with chord AB and perpendicular bisector PQ passing through centre O.",
+      "Diagram showing two congruent circles with chords AB and CD, and distances OP and O'Q from centres.",
+      "Diagram showing a circle with chord AB and perpendicular OD from centre O.",
+      "Diagram showing a circle with chord AB and perpendicular line from centre O to midpoint D.",
+      "Diagram showing a circle with two chords AB and CD and their perpendicular bisectors l and m intersecting at centre O.",
+      "Diagram showing a circle with two parallel chords AB and CD on opposite sides of centre O, with perpendiculars OL and OM."
+    ],
+    "details": {
+      "summary": "This section covers fundamental geometric theorems related to circles, including properties of chords, arcs, perpendicular bisectors, and the uniqueness of circles passing through non-collinear points."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 494
+  },
+  {
+    "id": "CDS-PATH-290-TH9",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Circle Theorems",
+    "text": "<p><strong>Theorem 9:</strong> The angle subtended by an arc of a circle at the centre is double the angle subtended by it at any point on the circumference of circle. In all the three cases: <strong>∠AOB = 2∠ACB</strong>.</p>",
+    "formulas": [
+      "∠AOB = 2∠ACB"
+    ],
+    "image_descriptions": [
+      "Three circles showing different positions of points A, B, and C on the circumference relative to center O, illustrating the relationship between central angle and circumference angle."
+    ],
+    "details": {
+      "summary": "Relationship between central angle and circumference angle."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 495
+  },
+  {
+    "id": "CDS-PATH-290-TH10-11",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Circle Theorems",
+    "text": "<p><strong>Theorem 10:</strong> The angle in a semi-circle is a right angle.</p><p><strong>Theorem 11:</strong> Angles in the same segment of a circle are equal. Here, <strong>∠ACB = ∠ADB</strong>.</p>",
+    "formulas": [
+      "∠ACB = ∠ADB"
+    ],
+    "image_descriptions": [
+      "A circle with points A, B, C, D on the circumference, showing two angles subtended by the same arc AB at points C and D."
+    ],
+    "details": {
+      "summary": "Properties of angles in semi-circles and same segments."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 495
+  },
+  {
+    "id": "CDS-PATH-290-TH12",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Circle Theorems",
+    "text": "<p><strong>Theorem 12:</strong> If two chords AB and CD of a circle intersect inside or outside the circle when produced at a point P then, <strong>AP × PB = DP × PC</strong>.</p>",
+    "formulas": [
+      "AP × PB = DP × PC"
+    ],
+    "image_descriptions": [
+      "Two diagrams showing chords AB and CD intersecting at point P inside a circle and outside a circle."
+    ],
+    "details": {
+      "summary": "Intersecting chords theorem."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 495
+  },
+  {
+    "id": "CDS-PATH-290-TH13",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Circle Theorems",
+    "text": "<p><strong>Theorem 13:</strong> Let PT be a line tangent to the circle at point T. From external point P, draw a secant which intersect the circle at two point A and B, then <strong>PA × PB = PT^2</strong>.</p>",
+    "formulas": [
+      "PA × PB = PT^2"
+    ],
+    "image_descriptions": [
+      "A circle with a tangent line PT and a secant line PAB intersecting the circle at A and B."
+    ],
+    "details": {
+      "summary": "Tangent-secant theorem."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 495
+  },
+  {
+    "id": "circle-theorems-001",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Tangents and Cyclic Quadrilaterals",
+    "text": "<p><strong>Theorem 14: Alternate Segment Theorem</strong>: In the given figure, if BAC is a tangent to a circle at point A and if AD is any chord, then ∠DAC = ∠APD and ∠PAB = ∠PDA.</p><p><strong>Theorem 15</strong>: If two tangents are drawn to a circle from an external point, they subtend equal angles at the centre. These two tangents are equally inclined to the line segment joining the centre to that point. In the given figure, ∠AOP = ∠BOP and ∠APO = ∠BPO.</p><p><strong>Theorem 16</strong>: Line joining centre and external point is perpendicular bisector of line joining of contacts of tangents to the circle. In the above figure, OP ⊥ AB and AC = BC.</p><p><strong>Theorem 17</strong>: The length of two tangents drawn from an external point to a circle are equal. Here, PA = PB.</p><p><strong>Theorem 18</strong>: Tangents drawn at the end points of a diameter of a circle are always parallel.</p><p><strong>Cyclic Quadrilateral</strong>: A quadrilateral whose all vertices lie on a circle is called a cyclic quadrilateral.</p><p><strong>Properties of Cyclic Quadrilateral</strong>:</p><ul><li>The sum of either pair of opposite angles of a cyclic quadrilateral is 180°, i.e., the opposite angles of a cyclic quadrilateral are supplementary.</li><li>If the sum of a pair of opposite angles of a quadrilateral is 180°, then quadrilateral is cyclic.</li><li>The exterior angle, formed by producing a side of a cyclic quadrilateral is equal to the interior opposite angle. Here, ∠BAD = ∠BCE.</li></ul>",
+    "formulas": [
+      "AB * AP = AD^2 = (AC/2)^2 = 1/4(AC)^2",
+      "TT' = sqrt((OO')^2 - (r1 - r2)^2)",
+      "MN = sqrt((OO')^2 - (r1 + r2)^2)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a circle with a tangent BAC and chord AD, illustrating the Alternate Segment Theorem.",
+      "Diagram showing two tangents from an external point P to a circle with center O, illustrating Theorem 15 and 16.",
+      "Diagram showing two tangents from an external point P to a circle with center O, illustrating Theorem 17 (PA=PB).",
+      "Diagram showing two parallel tangents at the ends of a diameter of a circle.",
+      "Diagram showing a cyclic quadrilateral ABCD with side DC extended to E, illustrating the exterior angle property ∠BAD = ∠BCE."
+    ],
+    "details": {
+      "summary": "Covers theorems related to tangents of a circle and properties of cyclic quadrilaterals."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "pathfinder-cds-292-locus-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Locus",
+    "text": "<p><strong>Locus:</strong> The path traced by a point moving under a given condition is called locus. e.g., The locus of points (in a plane) equidistant from a fixed point (in a plane) is a circle with the fixed point as centre. The plural of locus is loci.</p><ul><li>The locus may be a line segment or lines, straight or curved.</li><li>Every point which satisfies the given geometrical condition(s) lies on the locus and vice-versa.</li></ul><p><strong>Basic Locus Theorem:</strong></p><ol><li>The locus of points at a fixed distance <em>d</em> from point <em>p</em> is a circle with the given point <em>p</em> as its centre and <em>d</em> as its radius.</li><li>The locus of points at a fixed distance <em>d</em> from a line <em>m</em> is a pair of parallel lines at a distance of <em>d</em> from line <em>m</em> and located on either side of <em>m</em>.</li><li>The locus of points equidistant from two points <em>A</em> and <em>B</em> is the perpendicular bisector of the line segment joining the two points.</li><li>The locus of points equidistant from two parallel lines <em>m1</em> and <em>m2</em>, is a line parallel to both <em>m1</em> and <em>m2</em> and midway between them.</li><li>The locus of points in the interior of an angle equidistant from the sides of an angle is the bisector of the angle.</li><li>The locus of points equidistant from two intersecting lines <em>l1</em> and <em>l2</em>, is a pair of bisectors that bisect the angles formed by <em>l1</em> and <em>l2</em>.</li></ol><p><strong>Locus in Some Standard Cases:</strong></p><ol><li>The loci of all points <em>d</em> units from a circle having a radius <em>r</em> units are two concentric circles with radii of <em>r-d</em> and <em>r+d</em> units respectively.</li><li>The locus of all points equidistant from two concentric circles is a third circle whose radius is the average of the radii of the given circles.</li><li>The locus of the mid-points of all parallel chords of a circle is the diameter of the circle, which is perpendicular to the given chords.</li></ol>",
+    "formulas": [
+      "radius = (a + b) / 2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a circle with center p and radius d.",
+      "Diagram showing two parallel lines at distance d from line m.",
+      "Diagram showing a perpendicular bisector between points A and B.",
+      "Diagram showing a line midway between two parallel lines m1 and m2.",
+      "Diagram showing an angle bisector.",
+      "Diagram showing two intersecting lines l1 and l2 with their angle bisectors.",
+      "Diagram showing two concentric circles with radii r-d and r+d.",
+      "Diagram showing a circle with radius (a+b)/2 between two concentric circles of radii a and b.",
+      "Diagram showing a circle with a diameter acting as the locus of mid-points of parallel chords."
+    ],
+    "details": {
+      "summary": "Definitions and standard theorems regarding the locus of points in geometry."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 497
+  },
+  {
+    "id": "math-circle-locus-001",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Locus",
+    "text": "<p><strong>Properties of Locus in Circles:</strong></p><ul><li>The locus of the mid-points of equal chords is a circle with the same centre as the given circle and radius equal to the distance from the centre of the given circle to the given chord.</li><li>The locus of the centre of a circle touching a given line at a given point is a line perpendicular to the given line through the given point.</li><li>The locus of the centre of all circles passing through two given points is the perpendicular bisector of the line segment joining the two points.</li><li>If A and B are fixed points, then the locus of a point P such that angle APB = 90 degrees is the circle with AB as diameter.</li></ul>",
+    "formulas": [
+      "angle APB = 90 degrees"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a circle with a chord and a dashed inner circle representing the locus of mid-points.",
+      "Diagram showing a line AB with a perpendicular line passing through point P, representing the locus of the centre of a circle touching the line at P.",
+      "Diagram showing two points A and B with a perpendicular bisector line, representing the locus of the centre of circles passing through A and B.",
+      "Diagram showing a circle with diameter AB and a point P on the circumference such that angle APB = 90 degrees."
+    ],
+    "details": {
+      "summary": "Fundamental geometric properties regarding the locus of points related to circles and lines."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 498
+  },
+  {
+    "id": "CDS_PATH_304_35",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Circle Properties",
+    "text": "<p><strong>Property:</strong> Angle subtended by an arc at the centre is double the angle subtended by it at any point on the circle.</p><p>Given: OA = 3 cm, AC = 3 cm, OA = OC = 3 cm (radius). Since all sides are equal, triangle AOC is an equilateral triangle. Therefore, angle AOC = 60 degrees. Hence, angle ABC = 1/2 * angle AOC = 30 degrees.</p>",
+    "formulas": [
+      "angle ABC = 1/2 * angle AOC"
+    ],
+    "image_descriptions": [
+      "A circle with center O, points A, B, C on the circumference. Triangle AOC is formed inside."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 509
+  },
+  {
+    "id": "CDS_PATH_304_36",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Tangents to Circles",
+    "text": "<p><strong>Formula for length of transverse common tangent:</strong></p><p>Length = sqrt((distance between centres)^2 - (sum of radii)^2)</p><p>Example: distance = 10 cm, radii = 3.5 cm and 4.5 cm. Length = sqrt(10^2 - (3.5 + 4.5)^2) = sqrt(100 - 64) = sqrt(36) = 6 cm.</p>",
+    "formulas": [
+      "Length = sqrt(d^2 - (r1 + r2)^2)"
+    ],
+    "image_descriptions": [
+      "Two circles with centers O and O' connected by a transverse common tangent line."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 509
+  },
+  {
+    "id": "CDS_PATH_304_38",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Common Tangents",
+    "text": "<p>For two circles with a common tangent line 'l': angle 1 = angle 4 and angle 5 = angle 8 (angles in alternate segment). Since angle 4 = angle 5 (opposite angles), then angle 1 = angle 8. Similarly, angle 2 = angle 7. This implies AD || BC, making ACBD a trapezium.</p>",
+    "image_descriptions": [
+      "Two intersecting circles with a common tangent line passing through the intersection points."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 509
+  },
+  {
+    "id": "CDS_PATH_304_39",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Tangents from External Point",
+    "text": "<p>Tangents drawn from an external point to a circle are equal in length. AP = AS, BP = BQ, CR = CQ, DR = DS. Adding these gives AB + CD = AD + BC.</p>",
+    "image_descriptions": [
+      "A circle inscribed in a quadrilateral ABCD with points of tangency P, Q, R, S."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 509
+  },
+  {
+    "id": "CDS_PATH_304_40",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Secant-Tangent Theorem",
+    "text": "<p>If a secant to a circle intersects the circle at points A and B and PC is a tangent to the circle, then PC^2 = PA * PB.</p>",
+    "formulas": [
+      "PC^2 = PA * PB"
+    ],
+    "image_descriptions": [
+      "A circle with a secant line passing through A and B, and a tangent line touching at C."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 509
+  },
+  {
+    "id": "CDS_PATH_304_41",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Cyclic Quadrilateral",
+    "text": "<p>In a cyclic quadrilateral ABCD, opposite angles sum to 180 degrees. Given angle BAD = 60 degrees and angle ADC = 105 degrees, then angle DCP = angle BAD = 60 degrees and angle ADC + angle CDP = 180 degrees.</p>",
+    "image_descriptions": [
+      "A cyclic quadrilateral ABCD inscribed in a circle."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 509
+  },
+  {
+    "id": "CDS_PATH_304_42",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Circle Theorems",
+    "text": "<p>Angle PRQ = 90 degrees as it is an angle in a semi-circle. Using properties of triangles and cyclic quadrilaterals, various angles can be derived.</p>",
+    "image_descriptions": [
+      "A circle with points P, R, S, Q on the circumference and a tangent line at T."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 509
+  },
+  {
+    "id": "CDS-PATH-306-01",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Circle Theorems and Properties",
+    "text": "<p>This page contains solutions to geometry problems involving circles, chords, and triangles.</p><ul><li><strong>Angles in the same segment:</strong> Angles subtended by the same arc at the circumference are equal.</li><li><strong>Angle at the centre:</strong> The angle subtended by an arc at the centre is double the angle subtended by it at any point on the remaining part of the circle.</li><li><strong>Intersecting Chords Theorem:</strong> If two chords AB and CD intersect at P, then AP * PB = CP * PD.</li><li><strong>Pythagoras Theorem:</strong> Used extensively in right-angled triangles formed by chords and radii.</li><li><strong>Cyclic Quadrilateral:</strong> Properties used to solve for angles in inscribed triangles.</li><li><strong>In-radius of equilateral triangle:</strong> r = a / (2 * sqrt(3)).</li></ul>",
+    "formulas": [
+      "OB^2 = OP^2 + BP^2",
+      "(OA)^2 = (OP)^2 + (AP)^2",
+      "AP * PB = CP * PD",
+      "r = a / (2 * sqrt(3))"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram for Q54: A circle with center O, chords AB and CD intersecting at P, forming right-angled triangles.",
+      "Diagram for Q55: A cyclic quadrilateral with intersecting chords and labeled segments 4k, 3k, 5k.",
+      "Diagram for Q57: Two intersecting chords in a circle with segments labeled.",
+      "Diagram for Q58: Two chords AB and CD intersecting at P, with perpendiculars dropped from center O.",
+      "Diagram for Q59: A circle with intersecting chords and angles labeled x and y.",
+      "Diagram for Q60: A large circle containing smaller circles C1, C2, C3, C4.",
+      "Diagram for Q61: An equilateral triangle with an inscribed circle."
+    ],
+    "details": {
+      "summary": "Solutions to geometry problems involving circle properties, chord intersections, and triangle geometry."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 511
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "subchapter": "Cyclic Quadrilateral",
+    "topic": "Opposite Angles",
+    "content": "### Theorem\n*In a cyclic quadrilateral (a quadrilateral whose vertices lie on a single circle), the sum of each pair of opposite angles is **180°** (supplementary).*  \nMathematically, if the quadrilateral is ABCD, then:\n```\n∠A + ∠C = 180°\n∠B + ∠D = 180°\n```",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 512
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "subchapter": "Arc Theorems",
+    "topic": "Central Angle vs. Inscribed Angle",
+    "content": "### Central‑Angle Theorem\n*The angle subtended by an arc at the centre of the circle is twice the angle subtended by the same arc at any point on the remaining part of the circle.*  \nIf an arc **AB** subtends **∠AOB** at the centre **O** and **∠APB** at a point **P** on the circle (but not on the arc), then:\n```\n∠AOB = 2 × ∠APB\n```",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 512
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "subchapter": "Tangents",
+    "topic": "Equal Tangents from an External Point",
+    "content": "### Tangent‑From‑External‑Point Property\n*From a point outside a circle, the two tangents drawn to the circle are equal in length.*  \nIf **P** is an external point and **PA** and **PB** are tangents touching the circle at **A** and **B** respectively, then:\n```\nPA = PB\n```",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 512
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "subchapter": "Area & Radius Relations",
+    "topic": "Ratio of Radii and Areas of Concentric Circles",
+    "content": "### Example (derived from the given figure)\n*Let the radius of the larger circle be **R** and the radius of the smaller circle be **r**. From the problem data:*  \n- The ratio of the radii is **r : R = 1 : 3**.  \n- Hence, **r = R/3**.\n- Area of a circle: **A = π r²**.\n- Area of the smaller circle: **A₁ = π (R/3)² = πR²/9**.\n- Area of the larger circle: **A₂ = πR²**.\n- Ratio of the areas: **A₁ : A₂ = 1 : 9**.\n\nThese relations are often used in problems where a smaller circle is inscribed inside a larger one and a linear dimension (e.g., a chord, a tangent segment) is given in terms of the radii.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 512
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Angle sum in a triangle",
+    "content": "In any triangle, the sum of the three interior angles is 180°.\\n\\n\\[ \\angle A + \\angle B + \\angle C = 180^{\\circ} \\]\\n\\nThis property is used repeatedly to relate unknown angles to known ones.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 513
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Right‑angled triangles",
+    "topic": "Pythagoras theorem",
+    "content": "For a right‑angled triangle with legs *a* and *b* and hypotenuse *c*:\\n\\n\\[ a^{2}+b^{2}=c^{2} \\]\\n\\nIt is applied in the solutions of problems 70(b), 75(d) and 69(a) to compute unknown sides.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 513
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Circles",
+    "topic": "Intersecting secant theorem",
+    "content": "If two secants **LA** and **BN** intersect at an exterior point **M**, then:\\n\\n\\[ LM \\times AM = BM \\times NM \\]\\n\\nThis relationship is used in problem 73(d) to compare the products of the segments.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 513
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Circles",
+    "topic": "Perpendicular bisector of a chord",
+    "content": "The perpendicular bisector of any chord of a circle passes through the centre of the circle.\\n\\nConsequences:\\n- Any point on this line is equidistant from the two endpoints of the chord.\\n- This fact is used in problem 74(b) to evaluate the truth of a given statement.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 513
+  },
+  {
+    "id": "math-26-001",
+    "subject": "Mathematics",
+    "chapter": "Area and Perimeter of Plane Figures",
+    "topic": "Square",
+    "text": "<p><strong>Definition:</strong> Area of a plane figure is the amount of surface enclosed by its boundary. It is measured in square units. The perimeter of a plane figure is the total length of the sides enclosing the figure. The unit of perimeter is the same as the unit of sides of a given figure.</p><p><strong>Square Properties:</strong> Let each side of a square be <em>a</em> unit.</p><ul><li>Perimeter of square = 4(Side) = 4a units</li><li>Diagonal of square = sqrt(2) * (Side) = a*sqrt(2) units</li><li>Area of square = Side * Side = (a)^2 sq units = 1/2 * (Diagonal)^2 = 1/2 * d^2 sq units</li></ul>",
+    "formulas": [
+      "Perimeter = 4a",
+      "Diagonal = a*sqrt(2)",
+      "Area = a^2",
+      "Area = 1/2 * d^2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A square labeled ABCD with sides of length 'a'. The bottom side is labeled 'Side (a)'."
+    ],
+    "details": {
+      "summary": "Basic definitions and formulas for the area and perimeter of a square."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 516
+  },
+  {
+    "id": "rect-001",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Rectangle",
+    "text": "<p>Let <em>l</em> and <em>b</em> be the length and breadth of a rectangle respectively, then:</p><ul><li><strong>Area of rectangle</strong> = Length × Breadth = <em>l</em> × <em>b</em></li><li><strong>Perimeter of rectangle</strong> = 2 (Length + Breadth) = 2(<em>l</em> + <em>b</em>) units</li><li><strong>Diagonal of rectangle</strong> = sqrt(Length^2 + Breadth^2) = sqrt(<em>l</em>^2 + <em>b</em>^2) units</li><li><strong>Area of track (Shaded region)</strong> = (<em>l</em>_1<em>b</em>_1 - <em>l</em>_2<em>b</em>_2) sq units</li></ul>",
+    "formulas": [
+      "Area = l * b",
+      "Perimeter = 2(l + b)",
+      "Diagonal = sqrt(l^2 + b^2)",
+      "Area of track = (l1*b1 - l2*b2)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of a rectangle with vertices A, B, C, D, labeled length (l) and breadth (b).",
+      "Diagram of a rectangular track showing an outer rectangle (l1, b1) and an inner rectangle (l2, b2) with width w."
+    ],
+    "details": {
+      "summary": "Basic properties and formulas for calculating area, perimeter, and diagonal of a rectangle."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 517
+  },
+  {
+    "id": "quad-001",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Quadrilateral",
+    "text": "<p><strong>(i)</strong> Let <em>ABCD</em> be a quadrilateral in which <em>DM</em> = <em>b</em>_1 and <em>BN</em> = <em>b</em>_2 are perpendiculars on diagonal <em>AC</em> from other two vertices <em>B</em> and <em>D</em>, then <strong>Area of the quadrilateral</strong> = 1/2 × Diagonal × (<em>b</em>_1 + <em>b</em>_2) = 1/2 × <em>AC</em> × (<em>DM</em> + <em>BN</em>) sq units.</p><p><strong>(ii)</strong> Let <em>d</em>_1 and <em>d</em>_2 are two diagonals and <em>θ</em> is angle between them, then <strong>area of quadrilateral</strong> = 1/2 * <em>d</em>_1 * <em>d</em>_2 * sin(<em>θ</em>).</p>",
+    "formulas": [
+      "Area = 1/2 * Diagonal * (b1 + b2)",
+      "Area = 1/2 * d1 * d2 * sin(theta)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of a quadrilateral ABCD with diagonal AC and perpendiculars DM and BN.",
+      "Diagram of a quadrilateral ABCD with diagonals d1 and d2 intersecting at angle theta."
+    ],
+    "details": {
+      "summary": "Formulas for calculating the area of a quadrilateral using diagonals and perpendicular offsets or the angle between diagonals."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 517
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Quadrilaterals",
+    "subchapter": "Area",
+    "topic": "Area using a diagonal and perpendicular heights",
+    "content": "For any quadrilateral ABCD with a diagonal \\(AC\\) of length \\(d\\) and the perpendicular distances from the opposite vertices \\(B\\) and \\(D\\) to the diagonal equal to \\(h_1\\) and \\(h_2\\) respectively, the total area is the sum of the areas of the two triangles formed by the diagonal:\\n\\n$$\\text{Area}=\\frac{1}{2} d h_1 + \\frac{1}{2} d h_2 = \\frac{d}{2}(h_1+h_2)$$\\n\\nThis method works because each triangle’s area is \\(\\frac{1}{2}\\times\\) base \\(\\times\\) height.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 518
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Parallelogram",
+    "subchapter": "Area & Perimeter",
+    "topic": "Formulas",
+    "content": "Let the adjacent sides of a parallelogram be \\(a\\) and \\(b\\) and let the altitude (height) corresponding to side \\(a\\) be \\(h\\).\\n\\n- **Area**: \\(\\text{Area}=\\text{base}\\times\\text{height}=a\\times h\\) (square units)\\n- **Perimeter**: \\(\\text{Perimeter}=2(a+b)\\) (units)\\n- **Property**: Each diagonal divides the parallelogram into two triangles of equal area.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 518
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Rhombus",
+    "subchapter": "Area, Side & Perimeter",
+    "topic": "Formulas & Properties",
+    "content": "For a rhombus with side length \\(a\\) and diagonals \\(d_1\\) and \\(d_2\\):\\n\\n- **Area**: \\(\\text{Area}=\\frac{1}{2}d_1 d_2\\) (square units)\\n- **Side in terms of diagonals**: Using the right‑angled triangle formed by half‑diagonals,\\n  \\[a = \\sqrt{\\left(\\frac{d_1}{2}\\right)^2 + \\left(\\frac{d_2}{2}\\right)^2}\\]\\n- **Perimeter**: \\(\\text{Perimeter}=4a\\) (units)\\n- **Property**: The diagonals bisect each other at right angles.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 518
+  },
+  {
+    "id": "math-geom-trapezium-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Trapezium",
+    "text": "<p>Let the length of parallel sides of a trapezium be <strong>a</strong> and <strong>b</strong> and distance between them is <strong>h</strong>, then</p><p>Area of trapezium = 1/2 * (Sum of parallel sides) * (Distance between them)</p><p>Area = 1/2 * (AB + CD) * h = 1/2 * (a + b) * h sq units</p>",
+    "formulas": [
+      "Area = 1/2 * (a + b) * h"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram of a trapezium with parallel sides labeled 'a' and 'b', and height 'h' indicated by perpendicular lines from the top side to the base."
+    ],
+    "details": {
+      "summary": "Definition and area formula for a trapezium."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 519
+  },
+  {
+    "id": "math-geom-scalene-002",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Scalene Triangle",
+    "text": "<p>Let the sides of a triangle be <strong>a</strong>, <strong>b</strong>, <strong>c</strong> and <strong>h</strong> be the corresponding altitude to side <strong>a</strong>, then</p><ul><li>(i) Perimeter of scalene triangle, 2s = (a + b + c) units</li><li>(ii) Semi-perimeter of scalene triangle, s = (a + b + c) / 2 units</li><li>(iii) Area of triangle = sqrt(s(s-a)(s-b)(s-c)) sq units, where s = (a+b+c)/2 [Heron's formula]</li><li>or area of triangle = 1/2 * a * h sq units</li><li>(iv) The radius of incircle = (2 * Area) / Perimeter</li><li>(v) The radius of circumcircle = (abc) / (4 * Area)</li></ul>",
+    "formulas": [
+      "2s = a + b + c",
+      "s = (a + b + c) / 2",
+      "Area = sqrt(s(s-a)(s-b)(s-c))",
+      "Area = 1/2 * a * h",
+      "Inradius = (2 * Area) / Perimeter",
+      "Circumradius = (abc) / (4 * Area)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A triangle with sides a, b, c and altitude h drawn to side a."
+    ],
+    "details": {
+      "summary": "Properties and formulas for a scalene triangle including Heron's formula and radii of incircle/circumcircle."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 519
+  },
+  {
+    "id": "math-geom-right-triangle-003",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Right Angled Triangle",
+    "text": "<p>A figure bounded by three straight lines is called a triangle. Let perpendicular, base and hypotenuse of a right angled triangle (ABC) be p, b and h, respectively, then</p><ul><li>(i) Perimeter of right angled triangle = AB + BC + CA = (b + p + h) units</li><li>(ii) Area of right angled triangle = 1/2 * Base * Altitude = 1/2 * b * p sq units</li></ul>",
+    "formulas": [
+      "Perimeter = b + p + h",
+      "Area = 1/2 * b * p"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A right-angled triangle with base b, perpendicular p, and hypotenuse h."
+    ],
+    "details": {
+      "summary": "Properties and formulas for a right-angled triangle."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 519
+  },
+  {
+    "id": "math-area-perimeter-001",
+    "subject": "Mathematics",
+    "chapter": "Area and Perimeter of Plane Figures",
+    "topic": "Isosceles Triangle",
+    "text": "<p><strong>Isosceles Triangle:</strong> Let sides of an isosceles triangle be a, b, and b.</p><ul><li>(i) Perimeter of isosceles triangle = a + b + b = a + 2b units</li><li>(ii) Area of isosceles triangle = (s - b) * sqrt(s - a) = 1/4 * a * sqrt(4b^2 - a^2) sq units, where a = Base and b = Equal sides and s = semi-perimeter</li><li>(iii) Area of a right isosceles triangle, in which equal sides from a right angle is given by Area = 1/2 * a^2 sq units</li><li>(iv) If theta is the angle between two equal sides of isosceles triangle, then Area of triangle = 1/2 * a^2 * sin(theta)</li></ul>",
+    "formulas": [
+      "Perimeter = a + 2b",
+      "Area = 1/4 * a * sqrt(4b^2 - a^2)",
+      "Area (right isosceles) = 1/2 * a^2",
+      "Area (with angle) = 1/2 * a^2 * sin(theta)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of an isosceles triangle with base 'a' and equal sides 'b'.",
+      "Diagram of a right isosceles triangle with equal sides 'a' and 'b' forming a right angle.",
+      "Diagram of an isosceles triangle with equal sides 'a' and angle 'theta' between them."
+    ],
+    "details": {
+      "summary": "Formulas and properties for calculating the perimeter and area of isosceles triangles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 520
+  },
+  {
+    "id": "math-area-perimeter-002",
+    "subject": "Mathematics",
+    "chapter": "Area and Perimeter of Plane Figures",
+    "topic": "Equilateral Triangle",
+    "text": "<p><strong>Equilateral Triangle:</strong> Let a be the side of an equilateral triangle, then:</p><ul><li>(i) Height (altitude) of an equilateral triangle = (sqrt(3) / 2) * a</li><li>(ii) Area of an equilateral triangle = (sqrt(3) / 4) * a^2</li><li>(iii) Perimeter of an equilateral triangle = 3 * Side = 3a</li><li>(iv) The radius of incircle = a / (2 * sqrt(3))</li></ul>",
+    "formulas": [
+      "Height = (sqrt(3) / 2) * a",
+      "Area = (sqrt(3) / 4) * a^2",
+      "Perimeter = 3a",
+      "Radius of incircle = a / (2 * sqrt(3))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas for height, area, perimeter, and incircle radius of an equilateral triangle."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 520
+  },
+  {
+    "id": "cds-pathfinder-316-001",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Equilateral Triangle and Circle",
+    "text": "<p><strong>Equilateral Triangle:</strong> The radius of the circumcircle is given by r = a / sqrt(3).</p><p><strong>Circle:</strong> Let the radius of a circle be r.</p><ul><li>Circumference of circle = 2 * pi * r = pi * D units (where D is diameter, D = 2r)</li><li>Area of circle = pi * r^2 sq units</li><li>Distance covered by a wheel in one revolution = Circumference of the wheel</li></ul>",
+    "formulas": [
+      "r = a / sqrt(3)",
+      "Circumference = 2 * pi * r",
+      "Area = pi * r^2"
+    ],
+    "image_descriptions": [
+      "Diagram of an equilateral triangle with sides labeled 'a' and a circumcircle.",
+      "Diagram of a circle with center 'O' and radius 'r'."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 521
+  },
+  {
+    "id": "cds-pathfinder-316-002",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Circular Ring",
+    "text": "<p><strong>Circular Ring:</strong> If 'R' and 'r' are outer and inner radii of a ring, then the area of the ring = pi * (R^2 - r^2) sq units.</p>",
+    "formulas": [
+      "Area of ring = pi * (R^2 - r^2)"
+    ],
+    "image_descriptions": [
+      "Diagram of a circular ring showing outer radius R and inner radius r."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 521
+  },
+  {
+    "id": "cds-pathfinder-316-003",
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "topic": "Semi-circle",
+    "text": "<p><strong>Semi-circle:</strong> A diameter divides a circle into two equal parts. Each of these two arcs is called a semi-circle. If r is the radius of a circle, then:</p><ul><li>Area of semi-circle = (1/2) * pi * r^2 sq units</li><li>Perimeter of semi-circle = (pi * r + 2r) = (pi + 2) * r = (pi * r + D) units</li></ul>",
+    "formulas": [
+      "Area = (1/2) * pi * r^2",
+      "Perimeter = (pi + 2) * r"
+    ],
+    "image_descriptions": [
+      "Diagram of a semi-circle with radius r and diameter AB."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 521
+  },
+  {
+    "id": "math-geom-001",
+    "subject": "Mathematics",
+    "chapter": "Area and Perimeter of Plane Figures",
+    "topic": "Quadrant of a Circle",
+    "text": "<p>If <strong>r</strong> is the radius of a circle, then:</p><ul><li><strong>(i) The perimeter of the quadrant</strong> = 1/4 (Circumference of a circle) + 2r = (1/4 * 2πr) + 2r = (π/2 + 2)r units</li><li><strong>(ii) Area of the quadrant</strong> = 1/4 (Area of circle) = πr^2 / 4 sq units</li></ul><p>If two diameters are perpendicular to each other, then they divides the circle into four quadrants.</p>",
+    "formulas": [
+      "Perimeter = (π/2 + 2)r",
+      "Area = πr^2 / 4"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and formulas for the perimeter and area of a circle quadrant."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 522
+  },
+  {
+    "id": "math-geom-002",
+    "subject": "Mathematics",
+    "chapter": "Area and Perimeter of Plane Figures",
+    "topic": "Area of Sector",
+    "text": "<p>If <strong>θ</strong> be the angle at the centre of a circle of radius <strong>r</strong>, then:</p><ul><li><strong>(i) Length of the arc PQ</strong> = (2πr * θ) / 360° = (πrθ) / 180°</li><li><strong>(ii) Area of sector OPRQO</strong> = (πr^2 * θ) / 360°</li><li><strong>(iii) Area of segment PRQP</strong> = (Area of sector OPRQO) - Area of ΔOPQ = (πr^2 * θ) / 360° - 1/2 * r^2 * sin θ</li><li><strong>(iv) Area of major segment QPSQ</strong> = (Area of circle) - (Area of minor segment PRQP)</li></ul>",
+    "formulas": [
+      "Arc length = (πrθ) / 180°",
+      "Area of sector = (πr^2 * θ) / 360°",
+      "Area of segment = (πr^2 * θ) / 360° - 1/2 * r^2 * sin θ"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A circle with center O, radius r, and a sector OPRQO defined by angle θ at the center, with arc PQ."
+    ],
+    "details": {
+      "summary": "Formulas for arc length, sector area, and segment area of a circle."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 522
+  },
+  {
+    "id": "math-geom-003",
+    "subject": "Mathematics",
+    "chapter": "Area and Perimeter of Plane Figures",
+    "topic": "Regular Polygon",
+    "text": "<p>A polygon that has all sides equal and all interior angles equal are regular polygon. Let <strong>n</strong> = number of sides, <strong>a</strong> = length of side, <strong>r</strong> = radius of inscribed circle (or inradius), <strong>R</strong> = radius of circumcircle.</p><ul><li>Area of polygon = 1/4 * n * a^2 * cot(180°/n) = nr^2 * tan(180°/n) = 1/2 * nR^2 * sin(360°/n)</li><li>Perimeter of polygon = n * a = 2nr * sin(180°/n)</li><li>Inradius of polygon, r = 1/2 * a * cot(180°/n)</li><li>Circumradius of polygon, R = 1/2 * a * cosec(180°/n)</li><li>(i) Area of regular pentagon = 1/4 * sqrt(5(5+2sqrt(5))) * a^2 sq units</li><li>(ii) Area of regular hexagon = (3 * sqrt(3) * a^2) / 2 sq units</li><li>(iii) Area of regular octagon = 2(sqrt(2)+1) * a^2 sq units</li></ul>",
+    "formulas": [
+      "Area = 1/4 * n * a^2 * cot(180°/n)",
+      "Perimeter = n * a",
+      "Inradius r = 1/2 * a * cot(180°/n)",
+      "Circumradius R = 1/2 * a * cosec(180°/n)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Geometric properties and area/perimeter formulas for regular polygons."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 522
+  },
+  {
+    "id": "math-geom-004",
+    "subject": "Mathematics",
+    "chapter": "Area and Perimeter of Plane Figures",
+    "topic": "Some Useful Results",
+    "text": "<ul><li>Angle inscribed by minute hand in 60 min = 360°</li><li>Angle inscribed by hour hand in 12 h = 360°</li><li>Angle inscribed by minute hand in 1 min = 6°</li><li>If the length of a square/rectangle is increased/decreased by x% and the breadth is increased/decreased by y%, the net effect on the area is given by: Net effect = [±x ± y + (±x)(±y)/100]%</li><li>Note: (+) Increase, (-) Decrease</li><li>If the side of a square/rectangle/triangle is doubled the area is increased by 300%, i.e. the area becomes four times of itself.</li><li>If the radius of a circle is decreased by x%, then, area is decreased by (-2x + x^2/100)%. And, if radius is increased by x%, then area is increased by (2x + x^2/100)%.</li></ul>",
+    "formulas": [
+      "Net effect = [±x ± y + (±x)(±y)/100]%",
+      "Area decrease = (-2x + x^2/100)%",
+      "Area increase = (2x + x^2/100)%"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Useful shortcuts for clock angles and percentage changes in area."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 522
+  },
+  {
+    "id": "note_001",
+    "subject": "Mathematics",
+    "chapter": "Geometry and Mensuration",
+    "topic": "Properties of Squares, Circles, and Triangles",
+    "text": "<p><strong>Important Geometric Properties:</strong></p><ul><li>If a room of dimensions (l x b) m is to be paved with square tiles: <ul><li>The side of the largest square tile = HCF of l and b.</li><li>The least number of tiles required = (l x b) / (HCF of l and b)^2.</li></ul></li><li>Area of a square inscribed in a circle of radius r is 2r^2.</li><li>Side of a square inscribed in a circle of radius r is sqrt(2)r.</li><li>The area of the largest triangle inscribed in a semi-circle of radius r is r^2.</li></ul>",
+    "formulas": [
+      "Side of largest square tile = HCF(l, b)",
+      "Least number of tiles = (l * b) / (HCF(l, b))^2",
+      "Area of square inscribed in circle = 2r^2",
+      "Side of square inscribed in circle = sqrt(2)r",
+      "Area of largest triangle in semi-circle = r^2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram for Example 22: A square ABCD with a circle inscribed inside it, touching all four sides.",
+      "Diagram for Example 23: A circular clock face with a shaded sector representing 180 degrees swept by the minute hand.",
+      "Diagram for Example 24: Two circles touching internally with centers O and O' marked."
+    ],
+    "details": {
+      "summary": "Geometric properties related to tiling, inscribed squares in circles, and triangles in semi-circles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 523
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "subchapter": "Area of Triangles and Circles",
+    "topic": "Heron's Formula and Circle Area",
+    "content": "1. **Heron's Formula**: The area of a triangle with sides $a, b, c$ is given by $\\sqrt{s(s-a)(s-b)(s-c)}$, where $s = \\frac{a+b+c}{2}$.\\n2. **Right-Angled Triangle Check**: A triangle with sides 7, 24, 25 is a right-angled triangle because $7^2 + 24^2 = 49 + 576 = 625 = 25^2$. The area can also be calculated as $\\frac{1}{2} \\times 7 \\times 24 = 84 \\text{ cm}^2$.\\n3. **Area of Circle**: $A = \\pi r^2$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 528
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "subchapter": "Geometric Properties",
+    "topic": "Perpendicular Diameters and Triangle Area",
+    "content": "1. **Perpendicular Diameters**: If two diameters of a circle are mutually perpendicular, they form four right-angled isosceles triangles with the center as the vertex.\\n2. **Area of Triangle formed by Radii**: For a triangle formed by two radii and a chord (where the angle between radii is $90^\\circ$), the area is $\\frac{1}{2} \\times r \\times r = \\frac{r^2}{2}$.\\n3. **Ratio Calculation**: The ratio of the area of the circle ($\\pi r^2$) to the area of such a triangle ($\\frac{r^2}{2}$) is $\\frac{\\pi r^2}{r^2/2} = 2\\pi$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 528
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "subchapter": "Optimization",
+    "topic": "Maximum Area Rectangle in a Circle",
+    "content": "1. **Inscribed Rectangle**: The rectangle of maximum area inscribed in a circle is a square.\\n2. **Diagonal Relationship**: The diagonal of the inscribed square is equal to the diameter of the circle ($d$).\\n3. **Area Calculation**: If the diameter is $d$, the side of the square $s$ satisfies $s^2 + s^2 = d^2 \\Rightarrow 2s^2 = d^2 \\Rightarrow s^2 = \\frac{d^2}{2}$. Thus, the maximum area is $\\frac{d^2}{2}$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 528
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "subchapter": "Segments of a Circle",
+    "topic": "Area of Major Segment",
+    "content": "1. **Segment Area**: The area of a segment is the area of the corresponding sector minus the area of the triangle formed by the radii and the chord.\\n2. **Major Segment**: Area = Total Area of Circle - Area of Minor Segment.\\n3. **90 Degree Chord**: For a chord subtending $90^\\circ$ at the center, the minor sector area is $\\frac{90}{360}\\pi r^2 = \\frac{\\pi r^2}{4}$. The triangle area is $\\frac{1}{2}r^2$. The minor segment area is $\\frac{\\pi r^2}{4} - \\frac{r^2}{2}$. The major segment area is $\\pi r^2 - (\\frac{\\pi r^2}{4} - \\frac{r^2}{2}) = \\frac{3\\pi r^2}{4} + \\frac{r^2}{2}$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 528
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "subchapter": "Series and Geometry",
+    "topic": "Midpoint Triangles and Perimeter Series",
+    "content": "1. **Midpoint Triangle**: Joining the midpoints of the sides of a triangle forms a new triangle whose sides are half the length of the original triangle's sides.\\n2. **Perimeter Ratio**: The perimeter of the new triangle is half the perimeter of the previous triangle.\\n3. **Infinite Series**: The sum of the perimeters of all such triangles formed is a geometric series: $P + \\frac{P}{2} + \\frac{P}{4} + \\dots = \\frac{P}{1 - 1/2} = 2P$, where $P$ is the perimeter of the first triangle.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 528
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "subchapter": "Semicircles on Triangle Sides",
+    "topic": "Pythagorean Theorem and Semicircle Areas",
+    "content": "1. **Semicircle Area**: Area of a semicircle with diameter $d$ is $\\frac{1}{2}\\pi (\\frac{d}{2})^2 = \\frac{\\pi d^2}{8}$.\\n2. **Right Triangle Property**: In a right-angled triangle with legs $a, b$ and hypotenuse $c$, $a^2 + b^2 = c^2$.\\n3. **Area Relationship**: Let $x, y, z$ be the areas of semicircles on sides $a, b, c$ respectively. $x = \\frac{\\pi a^2}{8}$, $y = \\frac{\\pi b^2}{8}$, $z = \\frac{\\pi c^2}{8}$. Since $a^2 + b^2 = c^2$, it follows that $x + y = z$, or $x + y - z = 0$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 528
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "subchapter": "Inscribed and Circumscribed Squares",
+    "topic": "Area Difference of Squares",
+    "content": "1. **Inscribed Square**: A square inscribed in a circle of diameter $2a$ (radius $a$) has a diagonal equal to $2a$. Its area is $\\frac{d^2}{2} = \\frac{(2a)^2}{2}",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 528
+  },
+  {
+    "id": "math-area-perimeter-001",
+    "subject": "Mathematics",
+    "chapter": "Area and Perimeter of Plane Figures",
+    "topic": "Geometry Problems",
+    "text": "<p>This section provides solutions to various geometry problems involving rectangles, squares, circles, and triangles.</p><ul><li><strong>Rectangle:</strong> Area = l x b, Perimeter = 2(l + b).</li><li><strong>Square and Semi-circle:</strong> Area between square and semi-circles is calculated by subtracting the area of the semi-circles from the area of the square.</li><li><strong>Triangle:</strong> Area = 1/2 x base x height. For an equilateral triangle, Area = (sqrt(3)/4) * a^2.</li><li><strong>Circle:</strong> Area of a sector = (theta/360) * pi * r^2. Area of a segment = Area of sector - Area of triangle.</li><li><strong>Inscribed Rectangle:</strong> Area of a rectangle inscribed in a circle is maximum when the diameter of the circle is equal to the diagonal of the rectangle.</li></ul>",
+    "formulas": [
+      "Area = l x b",
+      "Perimeter = 2(l + b)",
+      "Area of equilateral triangle = (sqrt(3)/4) * a^2",
+      "Area of sector = (theta/360) * pi * r^2",
+      "Area of segment = Area of sector - Area of triangle"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram for Q68: A square with side 10cm containing two semi-circles overlapping in the center.",
+      "Diagram for Q70: An isosceles triangle with base b and height h=3cm, split into two right-angled triangles.",
+      "Diagram for Q73: A circle with two intersecting diameters forming four quadrants.",
+      "Diagram for Q74: A rectangle inscribed inside a circle.",
+      "Diagram for Q75: A circle with a sector ACBOA and a minor segment ACBA.",
+      "Diagram for Q76: A large triangle containing smaller triangles formed by connecting midpoints."
+    ],
+    "details": {
+      "summary": "Solutions for geometry problems involving area and perimeter calculations for various plane figures."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 536
   }
 ]
