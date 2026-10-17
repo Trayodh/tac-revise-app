@@ -385082,5 +385082,144 @@
     "topic": "Trans-Himalayas",
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 1127
+  },
+  {
+    "question_text": "Which of the following is an example of a primary pollutant?",
+    "options": {
+      "A": "Ground-level ozone",
+      "B": "Peroxacyl Nitrate (PAN)",
+      "C": "Sulphur dioxide",
+      "D": "Photochemical smog"
+    },
+    "correct_answer": "C",
+    "explanation": "Sulphur dioxide is emitted directly from sources and is classified as a primary pollutant. Ground-level ozone, PAN, and photochemical smog are secondary pollutants formed by reactions in the atmosphere.",
+    "subject": "General Studies",
+    "chapter": "Environment",
+    "topic": "Primary Pollutants",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1136
+  },
+  {
+    "question_text": "Ground-level ozone ($O_3$) is formed from the reaction of which of the following?",
+    "options": {
+      "A": "Carbon monoxide and Water vapor",
+      "B": "NO and Volatile Organic Compounds (VOCs)",
+      "C": "Sulphur dioxide and Nitrogen",
+      "D": "CFCs and Carbon dioxide"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, ground-level ozone is a secondary pollutant formed from NO and Volatile Organic Compounds (VOCs).",
+    "subject": "General Studies",
+    "chapter": "Environment",
+    "topic": "Secondary Pollutants",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1136
+  },
+  {
+    "question_text": "Ecological succession is best defined as:",
+    "options": {
+      "A": "The role a species plays in its environment",
+      "B": "The introduction of contaminants into the environment",
+      "C": "A natural process where communities colonize an area in a definite sequence to reach a climax state",
+      "D": "The direct emission of pollutants from a source"
+    },
+    "correct_answer": "C",
+    "explanation": "Ecological succession is the natural process by which different groups or communities colonize the same area over time in a definite sequence, reaching a final stable state or climax.",
+    "subject": "General Studies",
+    "chapter": "Geography",
+    "topic": "Ecological Succession",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1136
+  },
+  {
+    "question_text": "Which of the following is NOT a primary pollutant?",
+    "options": {
+      "A": "Carbon monoxide",
+      "B": "Nitrogen oxides",
+      "C": "Peroxacyl Nitrate (PAN)",
+      "D": "Suspended Particulate Matter (SPM)"
+    },
+    "correct_answer": "C",
+    "explanation": "Peroxacyl Nitrate (PAN) is a secondary pollutant formed from $NO_2$ and VOCs. Carbon monoxide, Nitrogen oxides, and SPM are listed as primary pollutants.",
+    "subject": "General Studies",
+    "chapter": "Environment",
+    "topic": "Pollution Types",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1136
+  },
+  {
+    "question_text": "Which of the following is NOT a goal of the Convention on Biological Diversity (CBD)?",
+    "options": {
+      "A": "Conservation of biodiversity",
+      "B": "Sustainable use of its components",
+      "C": "Fair and equitable sharing of benefits arising from genetic resources",
+      "D": "Complete ban on the use of all genetic resources"
+    },
+    "correct_answer": "D",
+    "explanation": "The three main goals of the CBD are conservation of biodiversity, sustainable use of its components, and fair and equitable sharing of benefits arising from genetic resources. A complete ban is not a goal.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Convention on Biological Diversity (CBD)",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1139
+  },
+  {
+    "question_text": "The Cartagena Protocol on Biosafety was adopted on which date?",
+    "options": {
+      "A": "29th January, 2000",
+      "B": "29th January, 2005",
+      "C": "10th December, 1992",
+      "D": "5th June, 1994"
+    },
+    "correct_answer": "A",
+    "explanation": "The Cartagena Protocol on Biosafety was adopted by the Conference of the Parties (CoP) to the CBD on 29th January, 2000.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Cartagena Protocol on Biosafety",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1139
+  },
+  {
+    "question_text": "Which of the following is an example of Ex-situ conservation?",
+    "options": {
+      "A": "National Parks",
+      "B": "Wildlife Sanctuaries",
+      "C": "Botanical Gardens",
+      "D": "Biosphere Reserves"
+    },
+    "correct_answer": "C",
+    "explanation": "Ex-situ conservation involves protecting species outside their natural habitat. Botanical gardens, gene banks, tissue culture, and cryopreservation are examples of ex-situ conservation. National Parks, Wildlife Sanctuaries, and Biosphere Reserves are examples of In-situ conservation.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Conservation Strategies",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1139
+  },
+  {
+    "question_text": "The Critical Ecosystem Partnership Fund (CEPF) primarily focuses on protecting which of the following?",
+    "options": {
+      "A": "Urban green spaces",
+      "B": "Biodiversity hot-spots",
+      "C": "Agricultural lands",
+      "D": "Industrial zones"
+    },
+    "correct_answer": "B",
+    "explanation": "CEPF is a global programme that provides funding and technical assistance to protect critical ecosystems, with a specific focus on biodiversity hot-spots.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Critical Ecosystem Partnership Fund (CEPF)",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1139
+  },
+  {
+    "question_text": "The Cartagena Protocol on Biosafety seeks to protect biological diversity from risks posed by:",
+    "options": {
+      "A": "Natural disasters",
+      "B": "Living Modified Organisms (LMOs) from modern biotechnology",
+      "C": "Invasive alien species from natural migration",
+      "D": "Climate change effects"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1139
   }
 ]
