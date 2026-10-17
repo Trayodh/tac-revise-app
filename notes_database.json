@@ -59197,5 +59197,3157 @@
     "content": "The sum of an arithmetic progression is given by $S_n = \\frac{n}{2}(a + l)$, where $n$ is the number of terms, $a$ is the first term, and $l$ is the last term.",
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 214
+  },
+  {
+    "id": "seq-series-001",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Definitions",
+    "text": "<p><strong>Sequence:</strong> A set of numbers arranged in a definite order according to some definite rule is called a sequence. e.g., 2, 4, 6, 8, ... is a sequence.</p><p><strong>Series:</strong> If a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ..., a<sub>n</sub> is a sequence, then the expression a<sub>1</sub> + a<sub>2</sub> + a<sub>3</sub> + ... + a<sub>n</sub> is called the series. The series is said to be finite or infinite depending upon the last term is given or not.</p><ul><li>(i) a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ..., a<sub>n</sub> is a finite sequence and is denoted by {a<sub>k</sub>}<sub>k=1</sub><sup>n</sup>.</li><li>(ii) a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, a<sub>4</sub>, ... is an infinite sequence and is denoted by {a<sub>n</sub>}<sub>n=1</sub><sup>∞</sup> or simply {a<sub>n</sub>}.</li></ul><p>Here, a<sub>1</sub> is called the first term and in case of finite sequence a<sub>n</sub> is called the last term. e.g., 2, 4, 6, 8, ..., 100 is a finite sequence. 1, 2, 3, 4, ... is an infinite sequence.</p><p><strong>Progression:</strong> Sequence following certain patterns are called progressions. e.g., 2, 3, 4, 5, ... is a progression, here each term is increasing by 1.</p><p><strong>Arithmetical Progression (AP):</strong> An arithmetic progression is a sequence in which the difference between any term and its preceding term is constant throughout. The constant 'd' is called the common difference. The first term of an AP is represented by 'a'.</p>",
+    "formulas": [
+      "a_1 + a_2 + a_3 + ... + a_n",
+      "{a_k}_{k=1}^n",
+      "{a_n}_{n=1}^∞"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to fundamental concepts of sequences, series, and progressions including definitions of finite/infinite sequences and Arithmetical Progression."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 225
+  },
+  {
+    "id": "math-seq-series-001",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Arithmetic Progression (AP)",
+    "text": "<p>If an AP has first term <strong>a</strong> and common difference <strong>d</strong>, then the general form of an AP is <strong>a, a+d, a+2d, a+3d, ..., a+(n-1)d</strong>.</p><ul><li><em>nth</em> term of an AP is T_n = a+(n-1)d.</li><li>Sum of the first <em>n</em> terms of an AP is S_n = n/2 [2a+(n-1)d] or S_n = n/2 [a+l], where <em>l</em> = last term.</li></ul>",
+    "formulas": [
+      "T_n = a+(n-1)d",
+      "S_n = n/2 [2a+(n-1)d]",
+      "S_n = n/2 [a+l]"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and formulas for Arithmetic Progression."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 226
+  },
+  {
+    "id": "math-seq-series-002",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Arithmetic Mean (AM)",
+    "text": "<p>When three terms are in AP, then the middle term is called arithmetic mean of the other two. If <em>a, b</em> and <em>c</em> are in AP, then <em>b</em> is AM of <em>a</em> and <em>c</em>. Let <em>a</em> and <em>b</em> be two numbers and <em>M</em> be the AM between them. Then, <em>a, M, b</em> are in AP, M = (a+b)/2.</p>",
+    "formulas": [
+      "M = (a+b)/2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and formula for Arithmetic Mean."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 226
+  },
+  {
+    "id": "math-seq-series-003",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Geometric Progression (GP)",
+    "text": "<p>A geometric progression is a progression of numbers, whose first term is non-zero and each of the term is obtained by multiplying its preceding term by a constant quantity. This constant quantity is called the common ratio of the GP. Thus, if t_1, t_2 and t_3 are in GP, then common ratio r = Second term / First term = t_2 / t_1. If 'a' is the first term and 'r' is the common ratio, then GP can be written as a, ar, ar^2, ar^3, ..., ar^(n-1) = l.</p><ul><li><em>n</em>th term of a GP is T_n = ar^(n-1) = l.</li><li>Sum of the <em>n</em> terms of a GP is S_n = a(r^n - 1) / (r - 1), if r > 1 and S_n = a(1 - r^n) / (1 - r), if r < 1.</li><li>Sum of infinite terms of a GP is S_n = a / (1 - r).</li></ul>",
+    "formulas": [
+      "r = t_2 / t_1",
+      "T_n = ar^(n-1)",
+      "S_n = a(r^n - 1) / (r - 1)",
+      "S_n = a(1 - r^n) / (1 - r)",
+      "S_n = a / (1 - r)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and formulas for Geometric Progression."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 226
+  },
+  {
+    "id": "math-seq-series-004",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Geometric Mean (GM)",
+    "text": "<p>If three terms are in GP, then the middle term is called the geometric mean of the other two. If <em>a, b</em> and <em>c</em> are in GP, then <em>b</em> is the GM of <em>a</em> and <em>c</em>. Let <em>a</em> and <em>b</em> be two numbers and <em>G</em> be the GM between them. Then, <em>a, G, b</em> are in GP, G = sqrt(ab), a > 0, b > 0.</p>",
+    "formulas": [
+      "G = sqrt(ab)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and formula for Geometric Mean."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 226
+  },
+  {
+    "id": "math-seq-series-005",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Harmonic Progression (HP) and Harmonic Mean (HM)",
+    "text": "<p>A sequence is said to be harmonic progression (HP). If the reciprocals of its terms are in arithmetic progression (AP). e.g. The sequence 1, 1/3, 1/5, 1/7... is an HP because the sequence 1, 3, 5, 7... is an AP. If a_1, a_2, a_3, ..., a_n are in HP, then 1/a_1, 1/a_2, 1/a_3, ..., 1/a_n are in AP. <em>n</em>th term of an HP is T_n = 1 / [1/a_1 + (n-1)(1/a_2 - 1/a_1)]. If three terms are in HP, then the middle term is called the harmonic mean of the other two. If <em>a, b</em> and <em>c</em> are in HM, then <em>b</em> is the HM of <em>a</em> and <em>c</em>.</p>",
+    "formulas": [
+      "T_n = 1 / [1/a_1 + (n-1)(1/a_2 - 1/a_1)]"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and formulas for Harmonic Progression and Harmonic Mean."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 226
+  },
+  {
+    "id": "CDS_PATH_22_001",
+    "subject": "Mathematics",
+    "chapter": "Progressions",
+    "topic": "Harmonic Mean and Relation between Means",
+    "text": "<p>Let <em>a</em> and <em>b</em> be two numbers and <em>H</em> be the HM between them. Then, <em>a</em>, <em>b</em> and <em>c</em> are in HP, then <em>H = 2ab / (a + b)</em>.</p><p><strong>Relation between Arithmetic, Geometric and Harmonic Mean:</strong> Let <em>A</em>, <em>G</em> and <em>H</em> be the arithmetic, geometric and harmonic means between <em>a</em> and <em>b</em>, then:</p><ul><li>(i) <em>A ≥ G ≥ H</em></li><li>(ii) <em>G^2 = AH</em></li></ul>",
+    "formulas": [
+      "H = 2ab / (a + b)",
+      "A ≥ G ≥ H",
+      "G^2 = AH"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of Harmonic Mean and the fundamental inequalities and relations between Arithmetic, Geometric, and Harmonic means."
+    },
+    "mcq": {
+      "question": "If a,b,c are in AP, p,q,r are in HP and ap,bq,cr are in GP, then p/r + r/p is equal to",
+      "options": [
+        "a/c - c/a",
+        "a/c + c/a",
+        "b/q - q/b",
+        "b/q + q/b"
+      ],
+      "correct": 1,
+      "explanation": "Since a,b,c are in AP => b = (a+c)/2. p,q,r are in HP => q = 2pr/(p+r). Since ap, bq, cr are in GP, b^2q^2 = apcr. Substituting values leads to the result."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 227
+  },
+  {
+    "id": "CDS_PATH_22_002",
+    "subject": "Mathematics",
+    "chapter": "Progressions",
+    "topic": "Sum to n Terms of Special Series",
+    "text": "<p>The sum of first <em>n</em> terms of some special series is given below:</p><ul><li>1. The sum of first <em>n</em> natural numbers: <strong>Σn = 1 + 2 + 3 + ... + n = n(n+1)/2</strong></li><li>2. The sum of square of the first <em>n</em> natural numbers: <strong>Σn^2 = 1^2 + 2^2 + ... + n^2 = n(n+1)(2n+1)/6</strong></li><li>3. The sum of cubes of the first <em>n</em> natural numbers: <strong>Σn^3 = 1^3 + 2^3 + ... + n^3 = [n(n+1)/2]^2</strong></li></ul>",
+    "formulas": [
+      "Σn = n(n+1)/2",
+      "Σn^2 = n(n+1)(2n+1)/6",
+      "Σn^3 = [n(n+1)/2]^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Standard summation formulas for natural numbers, squares, and cubes."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 227
+  },
+  {
+    "id": "cds_pathfinder_seq_series_001",
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "topic": "Arithmetic, Geometric, and Harmonic Progressions",
+    "text": "<p>This page contains solutions and derivations for problems related to sequences and series, including Arithmetic Progressions (AP), Geometric Progressions (GP), and Harmonic Progressions (HP).</p><ul><li><strong>Middle term of an AP:</strong> T_{(n+1)/2} = a + ((n+1)/2 - 1)d</li><li><strong>Sum of infinite geometric series:</strong> S_infinity = a / (1-r)</li><li><strong>Harmonic Progression property:</strong> If a, b, c are in HP, then b = 2ac / (a+c).</li><li><strong>Relationship between AM, GM, and HM:</strong> For two numbers a and b, A = (a+b)/2, G = sqrt(ab), H = 2ab/(a+b). The relationship is AH = G^2.</li></ul>",
+    "formulas": [
+      "T_{(n+1)/2} = a + ((n+1)/2 - 1)d",
+      "S_infinity = a / (1-r) + dr / (1-r)^2",
+      "b = 2ac / (a+c)",
+      "A = (a+b)/2",
+      "G = sqrt(ab)",
+      "H = 2ab/(a+b)",
+      "AH = G^2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Mathematical derivations and step-by-step solutions for problems 5 through 16 involving sequences and series."
+    ],
+    "details": {
+      "summary": "The page provides detailed mathematical solutions for various problems involving AP, GP, and HP, including properties of means and summation formulas."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 229
+  },
+  {
+    "id": "math-hcf-lcm-001",
+    "subject": "Mathematics",
+    "chapter": "HCF AND LCM OF NUMBERS",
+    "topic": "Factors and Prime Factors",
+    "text": "<p><strong>Factors:</strong> If number 'a' divides the number 'b' without leaving a remainder, then 'a' is said to be the factor of 'b'.</p><p>Examples:</p><ul><li>4 is a factor of 16 as 16 = 4 x 4</li><li>9 is a factor of 729 as 729 = 9 x 9 x 9</li></ul><p><strong>Prime Factors:</strong> The factors that cannot be again factorized i.e. the factors which are prime numbers are called prime factors.</p><p>Examples:</p><ul><li>9 is a factor of 729, but 3 is a prime factor of 729.</li><li>8 and 9 are factors of 72, but 2 and 3 are prime factors of 72.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to factors and prime factors with examples."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 230
+  },
+  {
+    "id": "math-hcf-lcm-002",
+    "subject": "Mathematics",
+    "chapter": "HCF AND LCM OF NUMBERS",
+    "topic": "Least Common Multiple (LCM)",
+    "text": "<p><strong>1. Common Multiple:</strong> A common multiple of two or more numbers is a number which is exactly divisible (without leaving remainder) by each of them.</p><p>Examples:</p><ul><li>30 is a common multiple of 2, 3, 5, 6, 10 and 15 because 30 is exactly divisible by each number.</li><li>72 is a common multiple of 2, 3, 4, 6, 9, 12 and 18.</li></ul><p><strong>2. Least Common Multiple (LCM):</strong> The least common multiple of two or more given numbers is the least number which is exactly divisible by all the given numbers.</p><p>Example: 84, 162, 252 are the common multiples of 2, 3, 4, 7. But, 84 is the LCM of 2, 3, 4, 7.</p><p><strong>Methods of Finding LCM:</strong></p><p><strong>1. Prime Factorization Method:</strong> Write down the given numbers as the product of prime factors. Then, the LCM is the product of the highest powers of all the prime factors.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of Common Multiple, LCM, and the Prime Factorization method for finding LCM."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 230
+  },
+  {
+    "id": "cds-pathfinder-math-lcm-hcf-001",
+    "subject": "Mathematics",
+    "chapter": "LCM and HCF",
+    "topic": "Methods of Finding LCM and HCF",
+    "text": "<p><strong>Division Method for LCM:</strong> Write the given numbers in a row and divide them with the common prime divisor. Write the quotient in each case below the number. If any number is not divisible by the respective divisor, then write it as such in the next row. Keep on dividing the quotients until you get 1. Multiply all the divisors to get the required LCM.</p><p><strong>Important Points:</strong></p><ul><li>The least number which when divided by x, y and z leaving the remainders a, b and c, respectively is given by [LCM of (x, y, z) - p], where p = (x - a) = (y - b) = (z - c).</li><li>The least number which when divided by x, y and z leaving the same remainder R in each case is given by [LCM of (x, y, z) + R].</li></ul><p><strong>Highest Common Factor (HCF):</strong></p><ul><li><strong>Common Factor:</strong> A common factor of two or more numbers is a number which divides each of them exactly. e.g., 2 is a common factor of 2, 10, 20.</li><li><strong>Highest Common Factor:</strong> The HCF of two or more numbers is the largest number that divides all the given numbers exactly. It is also known as Greatest Common Divisor (GCD). HCF is always a factor of LCM. e.g., HCF of 18 and 24 is 6.</li></ul><p><strong>Methods of Finding HCF:</strong></p><ul><li><strong>HCF by Prime Factorization:</strong> Write the given number as product of prime factors and then find the product of least powers of common prime factors. This product is the required HCF of given numbers.</li><li><strong>HCF by Division Method:</strong> Suppose we have to find the HCF of two given numbers, divide the large number by the smaller one. Now, you will get the remainder. Divide the divisor by the remainder. Repeat this process until no remainder is left, the last divisor used in this process is the desired greatest common divisor i.e., HCF. In order to find the HCF of three numbers, then, HCF of [(HCF of any two) and (third number)] gives the HCF of given three numbers.</li></ul>",
+    "formulas": [
+      "LCM of (x, y, z) - p",
+      "p = (x - a) = (y - b) = (z - c)",
+      "LCM of (x, y, z) + R"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A division method table showing the calculation of LCM for 120, 144, 160, and 180, resulting in 1440.",
+      "A division method calculation showing the HCF of 1190 and 1445, resulting in 85."
+    ],
+    "details": {
+      "summary": "Covers methods for calculating LCM and HCF, including division and prime factorization methods, along with formulas for finding numbers based on remainders."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 231
+  },
+  {
+    "id": "math-hcf-lcm-001",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Numbers",
+    "topic": "Important Points and Properties",
+    "text": "<p><strong>IMPORTANT POINTS</strong></p><ul><li>For integers x, y and z, if HCF (x, y) = 1 and HCF (x, z) = 1, then HCF of (x, y, z) is always 1.</li><li>The greatest number that will divide x, y and z leaving remainders a, b and c, respectively is given by HCF of (x - a), (y - b), (z - c).</li><li>The greatest number that will divide x, y and z leaving the same remainder in each case is given by [HCF of |x - y|, |y - z|, |z - x|].</li></ul>",
+    "formulas": [
+      "HCF of (x - a), (y - b), (z - c)",
+      "HCF of |x - y|, |y - z|, |z - x|"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties regarding HCF of multiple integers and finding greatest common divisors with remainders."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 232
+  },
+  {
+    "id": "math-hcf-lcm-002",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Numbers",
+    "topic": "How to Calculate LCM and HCF of Fractions",
+    "text": "<p>The LCM and HCF of fractions can be obtained from the following formula:</p><ul><li>HCF of fractions = (HCF of numerators) / (LCM of denominators)</li><li>LCM of fractions = (LCM of numerators) / (HCF of denominators)</li></ul>",
+    "formulas": [
+      "HCF of fractions = HCF of numerators / LCM of denominators",
+      "LCM of fractions = LCM of numerators / HCF of denominators"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas for calculating HCF and LCM of fractional numbers."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 232
+  },
+  {
+    "id": "math-hcf-lcm-003",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Numbers",
+    "topic": "Relation between LCM and HCF of Two Numbers",
+    "text": "<p>Product of two numbers = (Their HCF) * (Their LCM)</p>",
+    "formulas": [
+      "Product of two numbers = HCF * LCM"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Fundamental relationship between the product of two numbers and their HCF and LCM."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 232
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "HCF and LCM",
+    "topic": "Properties of HCF",
+    "content": "### Properties of HCF (Greatest Common Factor)\\n\\n1. **Distributive Property with Addition/Subtraction**:\\n   - $\\text{HCF}(a, b) = \\text{HCF}(a, b + a)$\\n   - $\\text{HCF}(a, b) = \\text{HCF}(a, b - a)$ for $b > a$\\n   - Generally, $\\text{HCF}(a, b) = \\text{HCF}(a, b \\pm ka)$ for any integer $k$.\\n\\n2. **Associative Property**:\\n   - $\\text{HCF}(a, \\text{HCF}(b, c)) = \\text{HCF}(\\text{HCF}(a, b), c) = \\text{HCF}(a, b, c)$\\n   - Note: The statement $\\text{HCF}(a, b) \\times \\text{HCF}(b, c) = \\text{HCF}(a, c)$ is **incorrect**.\\n\\n3. **Coprime Numbers**:\\n   - If $\\text{HCF}(a, b) = 1$ and $\\text{HCF}(a, c) = 1$, then $\\text{HCF}(a, bc) = 1$.\\n   - This implies that if a number is coprime to two individual numbers, it is coprime to their product.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 234
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "HCF and LCM",
+    "topic": "Relationship between HCF and LCM",
+    "content": "### Fundamental Relationship\\n\\nFor any two natural numbers $a$ and $b$:\\n$$\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b$$\\n\\n**Applications:**\\n1. If HCF and LCM are known, and one number is given, the other number can be found using:\\n   $$b = \\frac{\\text{HCF} \\times \\text{LCM}}{a}$$\\n2. The product of HCF and LCM of two numbers is equal to the product of the numbers themselves.\\n\\n### LCM for Multiple Numbers\\n- To find when multiple events coincide (e.g., planets revolving), calculate the **LCM** of their respective periods.\\n- Example: If periods are $T_1, T_2, T_3$, they coincide after $\\text{LCM}(T_1, T_2, T_3)$ days.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 234
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "HCF and LCM",
+    "topic": "Solving Problems with Sum and HCF",
+    "content": "### Finding Pairs of Numbers Given Sum and HCF\\n\\nIf the sum of two numbers is $S$ and their HCF is $H$:\\n1. Let the numbers be $Hx$ and $Hy$, where $\\text{HCF}(x, y) = 1$ (i.e., $x$ and $y$ are coprime).\\n2. The equation becomes: $Hx + Hy = S \\implies H(x + y) = S \\implies x + y = \\frac{S}{H}$.\\n3. Count the number of pairs $(x, y)$ such that $x + y = \\frac{S}{H}$ and $\\text{HCF}(x, y) = 1$.\\n\\n**Note:** The order of numbers matters if the question asks for ordered pairs, but usually, in such contexts, distinct sets are considered unless specified. However, standard NDA/CDS questions often ask for the number of such pairs of numbers.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 234
+  },
+  {
+    "id": "math-decimal-fractions-001",
+    "subject": "Mathematics",
+    "chapter": "Decimal Fractions",
+    "topic": "Introduction to Fractions and Decimals",
+    "text": "<p><strong>Fraction:</strong> If any unit is divided into some parts, then each of these parts is called fraction of that unit. A fraction is represented as p/q, where q ≠ 0 and here q is called denominator and p is called numerator. e.g. 1/2, 3/4, 6/7 etc. are fractions.</p><p><strong>Simple fraction:</strong> The fraction which has denominator other than power of 10, is called simple fraction. e.g. 6/5, 2/9 etc. <em>Note: Simple fraction is also known as vulgar fraction.</em></p><p><strong>Decimal Fraction:</strong> Fraction that has powers of 10 in the denominator are called decimal fraction. e.g. (i) 1/10 is the tenth part of 1 is written as 0.1. (ii) 1/100 is the hundredth part of 1 is written as 0.01.</p><p><strong>Types of Decimals:</strong> 1. <strong>Recurring Decimals:</strong> A decimal number in which a digit or set of digits repeats regularly is called non-terminating repeating decimals or recurring decimals. To represent these fractions, a line is drawn on repeating digits.</p>",
+    "formulas": [
+      "p/q (q ≠ 0)",
+      "1/7 = 0.1428571428571... = 0.142857",
+      "2/3 = 0.66666... = 0.6",
+      "4/3 = 1.33333... = 1.3"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to basic definitions of fractions, simple (vulgar) fractions, decimal fractions, and recurring decimals."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 237
+  },
+  {
+    "id": "math-dec-frac-001",
+    "subject": "Mathematics",
+    "chapter": "Decimal Fractions",
+    "topic": "Recurring Decimals",
+    "text": "<p><strong>Pure recurring decimal:</strong> A decimal fraction in which all the digits after the decimal points are repeated, is called a pure recurring decimal. e.g., 0.786786786... = 0.786 (bar over 786), 0.77777... = 0.7 (bar over 7).</p><p><strong>Mixed recurring decimal:</strong> A decimal fraction in which some digits after the decimal point are not repeated while some are repeated, is called a mixed recurring decimal. e.g., 0.179999... = 0.179 (bar over 9), 0.053939... = 0.0539 (bar over 39).</p><p><strong>Note:</strong> The decimal expansion of a rational number is either terminating or non-terminating recurring. In other words, a number whose decimal expansion is terminating or non-terminating recurring is a rational number.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of pure and mixed recurring decimals with examples."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 238
+  },
+  {
+    "id": "math-dec-frac-002",
+    "subject": "Mathematics",
+    "chapter": "Decimal Fractions",
+    "topic": "Operations on Decimal Fractions",
+    "text": "<p><strong>Addition and Subtraction:</strong> While making addition or subtraction of decimal fractions the numbers are placed in such a way that the decimal point lie in one column. Then, the numbers can be added or subtracted as usual.</p><p><strong>Note:</strong> Adding/Annexing zeroes to the extreme right of a decimal fraction does not change its value.</p><p><strong>Multiplication:</strong> While multiplying two or more decimal fractions, consider them without decimal point and multiply them as usual. In the product so obtained the decimal point is marked off as many places from the right as in the sum of the decimal places in the given numbers.</p><p><strong>Division:</strong> While dividing the given decimal fraction by a natural number, divide it without the decimal point to get quotient. Here, in the quotient so obtained, place the decimal point after as many places from the right as are there in the dividend. For dividing a decimal fraction by a decimal fraction, multiply the dividend and the divisor by a suitable power of 10 to make the divisor a whole number and then proceed as in the previous rule.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for addition, subtraction, multiplication, and division of decimal fractions."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 238
+  },
+  {
+    "id": "note_001",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Conversion of Recurring Decimals to Fractions",
+    "text": "<p><strong>To Convert a Pure Recurring Decimal into a Simple Fraction:</strong> In order to convert a pure recurring decimal fraction into simple (vulgar) fraction, we write the repeated figures only once in the numerator without decimal point and write as many nines in the denominator as the number of repeating figure.</p><p>Example: 0.5 bar = 5/9 or 0.45 bar = 45/99</p><p><strong>To Convert Mixed Recurring Decimal into a Simple Fraction:</strong> The numerator is obtained by taking the difference between the number formed by all the digits after decimal point (repeated digits taken only once) and the number formed by non-repeating digits. The denominator is obtained by placing as many nines as in repeating digits followed by as many zeroes as the number of non-repeating digits.</p>",
+    "formulas": [
+      "0.5_bar = 5/9",
+      "0.45_bar = 45/99"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Methods for converting pure and mixed recurring decimals into vulgar fractions."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 239
+  },
+  {
+    "id": "note_002",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Comparison of Fractions",
+    "text": "<p><strong>Comparison of Fractions By Converting in Decimal Form:</strong> To compare the fraction using decimal, convert each one of the given fractions in decimal form and now arrange them in ascending or descending order as per the requirement.</p><p><strong>By Equating Denominators:</strong> For comparison of fractions, take LCM of the denominator of all fractions. So, that their denominators are same. Now, the fractions having largest numerator is the largest fraction.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Techniques for comparing fractions using decimal conversion and denominator equating."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 239
+  },
+  {
+    "id": "note_003",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "HCF and LCM of Decimal Fractions",
+    "text": "<p>For finding the HCF or LCM of decimal fractions, first make the given fractions to have same number of decimal places by annexing zeroes, if needed. Now, find the HCF or LCM of the numbers without considering decimal. Finally, in the result mark as many decimal places as there are in each of the given numbers.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Procedure for calculating HCF and LCM of decimal numbers."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 239
+  },
+  {
+    "id": "math-sq-001",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Square",
+    "text": "<p>The <strong>square</strong> of a number is obtained by multiplying the number by itself.</p><p>e.g., Square of 5 = 5 × 5 = 25, square of 6 = 6 × 6 = 36</p><p><strong>Perfect square:</strong> A natural number <em>n</em> is called a perfect square or a square number, if there exists a natural number <em>m</em> such that <em>n = m^2</em>.</p><p>e.g., The numbers 1, 4, 9, 16, 25, ... are perfect square.</p>",
+    "formulas": [
+      "n = m^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of square and perfect square."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 243
+  },
+  {
+    "id": "math-sq-002",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Properties of Perfect Square",
+    "text": "<p>The properties of perfect squares are discussed below:</p><ul><li>(i) A number having 2, 3, 7 or 8 at unit's place is never a perfect square. e.g., 172, 2783</li><li>(ii) The squares of odd numbers are odd and the squares of even numbers are even.</li><li>(iii) The difference of squares of two consecutive natural numbers is equal to their sum. e.g., 7^2 - 6^2 = 7 + 6 = 13</li><li>(iv) The product of four consecutive natural numbers plus one is a always square.</li><li>(v) A number ending in an odd number of zeroes is never a perfect square.</li></ul>",
+    "formulas": [
+      "7^2 - 6^2 = 7 + 6 = 13"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of five properties defining perfect squares."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 243
+  },
+  {
+    "id": "math-sq-003",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Square Root",
+    "text": "<p>The <strong>square root</strong> of a number <em>x</em> is that number which when multiplied by itself gives <em>x</em> as the product. It is denoted by √.</p><p>In general, y^2 = x => y = √x</p><p>Here, <em>y</em> is the square root of <em>x</em>, if and only if <em>x</em> is the square of <em>y</em>.</p><p>e.g., √4 = √2 × 2 = 2</p><p>Thus, 2 is the square root of 4.</p>",
+    "formulas": [
+      "y^2 = x",
+      "y = √x"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and notation of square root."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 243
+  },
+  {
+    "id": "math-sq-001",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Methods to Find Square Root",
+    "text": "<p>The square root of a given number can be determined by using any of the following two methods:</p><ul><li><strong>Prime Factorization Method</strong></li><li><strong>General Method/Division Method</strong></li></ul><p><strong>Prime Factorization:</strong> In this method, we express the given number as the product of prime factors. Now, for finding square root, we take the product of these prime factors choosing one out of every pair of same prime factors.</p><p><strong>Division Method:</strong> To find the square root of a given number using this method, the following steps are to be followed:</p><ul><li><strong>Step I:</strong> In the given number, place bars over every pair of digits starting with the unit's digit. Each pair and the remaining one digit (if any) on the extreme left is called a period.</li><li><strong>Step II:</strong> Think of the largest number whose square is less than or equal to the first period.</li><li><strong>Step III:</strong> Put the quotient above the period and write the product of divisor and quotient just below the first period.</li><li><strong>Step IV:</strong> Subtract the product of divisor and quotient from the first period and bring down the next period to the right of the remainder. This becomes the new dividend.</li><li><strong>Step V:</strong> Double the quotient and enter it with a blank on its right.</li><li><strong>Step VI:</strong> Guess a largest possible digit to fill the blank which will also become the next digit in the quotient, such that when the new divisor is multiplied to the new quotient the product is less than or equal to the dividend.</li><li><strong>Step VII:</strong> Repeat the above steps till all the periods have been taken up. Now, the quotient so obtained is the required square root of the given number.</li></ul>",
+    "formulas": [
+      "sqrt(x) = y => y^2 = x"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Division method calculation table for square root of 1522756 resulting in 1234.",
+      "Division method calculation table for finding the largest three-digit perfect square (961)."
+    ],
+    "details": {
+      "summary": "Covers Prime Factorization and Division methods for calculating square roots."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 244
+  },
+  {
+    "id": "cube-001",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Cube and Cube Root",
+    "text": "<p><strong>Cube:</strong> If a number is multiplied three times with itself, then the result of this multiplication is called the cube of that number. e.g., 8 = 2 x 2 x 2 = 2^3.</p><p><strong>Properties of Cube:</strong></p><ul><li>Cubes of all even natural numbers are even and all odd natural numbers are odd.</li><li>Cubes of the numbers ending in digit 0, 1, 4, 5, 6 and 9 are the numbers ending in the same digit.</li><li>Cubes of negative integers are negative.</li><li>Cubes of numbers ending in digits 3 and 7 ends in digit 7 and 3, respectively.</li></ul><p><strong>Cube Root:</strong> The cube root of a given number is the number whose cube is the given number. In general, we can say that a^3 = b, then cube root of 'b' is 'a'. Cube root of a number 'a' is denoted as cube_root(a). e.g., cube_root(64) = cube_root(4 x 4 x 4) = 4. Thus, 4 is the cube root of 64.</p><p><strong>Method to Find Cube Root:</strong> Prime Factorization Method. In this method, we express the given number as the product of prime factors. Now, for finding cube root, we take the product of these prime factors choosing one out of every three, from the factors.</p>",
+    "formulas": [
+      "a^3 = b",
+      "cube_root(a)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties of cubes, cube roots, and the prime factorization method for finding cube roots."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 245
+  },
+  {
+    "id": "exp-001",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Powers, Exponents, and Surds",
+    "text": "<p><strong>Powers or Exponents:</strong> An expression that represents repeated multiplication of the same factor is called a power. It is written as 'x^n' and is read as 'x' raised to the power n. Here, x is called the 'base' and n is called the 'exponent'. e.g., 6^5 = 6 x 6 x 6 x 6 x 6 = 7776.</p><p><strong>Laws of Exponents:</strong> Let (x/y) be any rational number and m, n be any integers. Then: (i) (x/y)^m * (x/y)^n = (x/y)^(m+n), (ii) (x/y)^m / (x/y)^n = (x/y)^(m-n), (iii) [(x/y)^m]^n = (x/y)^(mn), (iv) (x/y)^(-n) = (y/x)^n, (v) (x/y)^0 = 1.</p><p><strong>Surds or Radicals:</strong> Let x be a rational number and n be a positive integer, such that n-th root of x is irrational, then n-th root of x is called a radical or surd of order n and here x is called the radicand.</p><ul><li>A surd of order 2 is called a quadratic surd i.e., sqrt(2), sqrt(3).</li><li>A surd of order 3 is called a cubic surd. i.e., cube_root(2), cube_root(3).</li><li>A surd of order 4 is called a biquadratic surd i.e., 4th_root(5), 4th_root(7).</li></ul><p><strong>Laws of Radicals:</strong> (i) (n-th root of x)^n = x, (ii) n-th root of (xy) = (n-th root of x) * (n-th root of y), (iii) n-th root of (x/y) = (n-th root of x) / (n-th root of y), (iv) (n-th root of x)^m = n-th root of (x^m), (v) m-th root of (n-th root of x) = (mn)-th root of x = n-th root of (m-th root of x).</p>",
+    "formulas": [
+      "(x/y)^m * (x/y)^n = (x/y)^(m+n)",
+      "(x/y)^m / (x/y)^n = (x/y)^(m-n)",
+      "[(x/y)^m]^n = (x/y)^(mn)",
+      "(x/y)^(-n) = (y/x)^n",
+      "(x/y)^0 = 1"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Laws of exponents and radicals (surds) with definitions of base, exponent, and radicand."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 245
+  },
+  {
+    "id": "math-surds-001",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Types of Surds",
+    "text": "<p><strong>Types of Surds:</strong></p><ul><li><strong>Pure surds:</strong> A surd which has only 1 as a rational factor is called a pure surd. e.g., sqrt(2), cube_root(2), fourth_root(3) are all pure surds.</li><li><strong>Mixed surds:</strong> A surd which is not a pure surd or has factor other than unity is called a mixed surd. e.g., 2*sqrt(3), 5*cube_root(12), fourth_root(35/3) are mixed surds.</li><li><strong>Like and Unlike surds:</strong> When the radicands of two surds are same, then those are known as like surds. e.g., 6*sqrt(3) and 2^2*sqrt(3). When radicands of two surds are different, then they are called unlike surds. e.g., 4*sqrt(7) and 6*sqrt(5).</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and classification of pure, mixed, like, and unlike surds."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 246
+  },
+  {
+    "id": "math-surds-002",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Comparison of Two Surds",
+    "text": "<p><strong>Comparison of Two Surds:</strong></p><ul><li>If two surds are of the same order, then the one whose radicand is larger, is the larger of the two. e.g., sqrt(17) > sqrt(13), cube_root(21) > cube_root(16).</li><li>If any two surds have different orders to be compared, then we will first reduce them to the same but smallest order and then compare them.</li></ul><p>Note: Let n_root(x) be a surd of order n. Then, n_root(x) = x^(1/n) i.e., (x^(m/n))^(1/m) is a surd of order m.</p>",
+    "formulas": [
+      "n_root(x) = x^(1/n)",
+      "(x^(m/n))^(1/m)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for comparing surds of same and different orders."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 246
+  },
+  {
+    "id": "math-surds-003",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Operations on Surds",
+    "text": "<p><strong>Addition and Subtraction of Surds:</strong> Addition or subtraction takes place only between like surds, using laws of numbers. e.g., (i) 2*sqrt(3) + 4*sqrt(3) + sqrt(5) = 6*sqrt(3) + sqrt(5); (ii) 6*sqrt(5) - 3*sqrt(2) + 7*sqrt(5) + 4*sqrt(2) = (6*sqrt(5) + 7*sqrt(5)) + (4*sqrt(2) - 3*sqrt(2)) = 13*sqrt(5) + sqrt(2).</p><p><strong>Multiplication and Division of Surds:</strong> Suppose given surds are n_root(a), n_root(b) and n_root(c), then first find the LCM of p, q and r to make the radial powers of the surds same and then their multiplication and division can be done using following rules: (i) n_root(x) * n_root(y) = n_root(xy); (ii) n_root(x) / n_root(y) = n_root(x/y).</p>",
+    "formulas": [
+      "n_root(x) * n_root(y) = n_root(xy)",
+      "n_root(x) / n_root(y) = n_root(x/y)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for addition, subtraction, multiplication, and division of surds."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 246
+  },
+  {
+    "id": "math-surds-004",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Rationalisation of Surds",
+    "text": "<p><strong>Rationalisation of Surds:</strong> Process of converting surd into rational number is called as rationalisation of surds. When the product of two surds is a rational number, then each surd is called a rationalising factor of each other. e.g., cube_root(25) * cube_root(5) = cube_root(125) = 5. So, cube_root(25) and cube_root(5) are rationalising factor of each other.</p><p><strong>Rationalising factors of a given surd:</strong></p><ul><li>Rationalising factor of 1/sqrt(a) = sqrt(a)</li><li>Rationalising factor of 1/(sqrt(a) + sqrt(b)) = sqrt(a) - sqrt(b)</li></ul>",
+    "formulas": [
+      "cube_root(25) * cube_root(5) = 5",
+      "Rationalising factor of 1/sqrt(a) = sqrt(a)",
+      "Rationalising factor of 1/(sqrt(a) + sqrt(b)) = sqrt(a) - sqrt(b)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and methods for rationalising surds."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 246
+  },
+  {
+    "id": "cds-pathfinder-44-hints-solutions",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Hints and Solutions",
+    "text": "<p>This page contains the <strong>Hints and Solutions</strong> for a set of practice questions related to square roots, exponents, and algebraic manipulation of surds.</p><ul><li><strong>Properties of Perfect Squares:</strong> The digits 2, 3, 7, and 8 cannot be at the unit place of a perfect square number.</li><li><strong>Rationalization:</strong> Used for simplifying expressions like 1/(sqrt(9)-sqrt(8)).</li><li><strong>Algebraic Identities:</strong> Utilizes (a+b)^2 = a^2 + b^2 + 2ab and exponent rules like (a^m)^n = a^(mn).</li></ul>",
+    "formulas": [
+      "sqrt(x)/sqrt(y) = sqrt(x/y)",
+      "(a+b)^2 = a^2 + b^2 + 2ab",
+      "a^x = b^y = c^z = k => a=k^(1/x), b=k^(1/y), c=k^(1/z)",
+      "sqrt(a-b) = sqrt((sqrt(a)-sqrt(b))^2) = sqrt(a)-sqrt(b)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "The page contains a table of answer keys for questions 1 through 48, followed by detailed mathematical step-by-step solutions for questions 1 through 18."
+    ],
+    "details": {
+      "summary": "Detailed mathematical solutions for 18 problems involving square roots, indices, and algebraic simplification."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 249
+  },
+  {
+    "id": "pathfinder-math-46-01",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Algebraic Identities and Properties",
+    "text": "<p><strong>Properties of Numbers:</strong></p><ul><li><strong>Consecutive Numbers:</strong> The product of four consecutive numbers plus one is always a square. <em>Example:</em> 3x4x5x6 + 1 = 361 = (19)^2.</li><li><strong>Consecutive Cubes:</strong> The difference of two consecutive cubes is never divisible by 2. <em>Example:</em> (5)^3 - (4)^3 = 125 - 64 = 61.</li></ul>",
+    "formulas": [
+      "n(n+1)(n+2)(n+3) + 1 = (n^2 + 3n + 1)^2",
+      "a^3 - b^3 = (a-b)(a^2 + ab + b^2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Contains mathematical proofs and properties related to consecutive numbers and cubes."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 251
+  },
+  {
+    "id": "TD-001",
+    "subject": "Mathematics",
+    "chapter": "Time and Distance",
+    "topic": "Basic Definitions",
+    "text": "<p><strong>Distance:</strong> The length of the path travelled by any object or a person between two places is known as distance. The unit of distance is m or km.</p><p><strong>Time:</strong> The duration in hours, minutes or seconds spent to cover a certain distance is called time.</p><p><strong>Speed:</strong> The distance travelled by any object or a person per unit time is known as speed of that object or a person. The unit of speed is m/s or km/h.</p>",
+    "formulas": [
+      "speed = distance / time"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Basic definitions of distance, time, and speed."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 252
+  },
+  {
+    "id": "TD-002",
+    "subject": "Mathematics",
+    "chapter": "Time and Distance",
+    "topic": "Conversion of Unit",
+    "text": "<p>To convert speed of an object from km/h to m/s, multiply it by 5/18.</p><p>e.g. 36 km/h = 36 * (5/18) m/s = 10 m/s</p>",
+    "formulas": [
+      "speed(m/s) = speed(km/h) * (5/18)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Unit conversion rule for speed."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 252
+  },
+  {
+    "id": "CDS_PATH_48_001",
+    "subject": "Mathematics",
+    "chapter": "Time, Speed and Distance",
+    "topic": "Average Speed and Relative Speed",
+    "text": "<p><strong>Conversion:</strong> To convert speed of an object from m/s to km/h, multiply it by 18/5. e.g., 5 m/s = 5 * 18/5 km/h = 18 km/h.</p><p><strong>Average Speed:</strong> Defined as total distance travelled divided by total time taken.</p><p><strong>Relative Speed:</strong> The speed of an object with respect to other. If two bodies move with speeds x km/h and y km/h:</p><ul><li>If moving in opposite directions: (x + y) km/h</li><li>If moving in same direction: (x - y) km/h</li></ul><p><strong>Important Rules:</strong></p><ul><li><strong>Rule 1:</strong> If A travels with speed x km/h for t1 h and with speed y km/h for t2 h, then average speed = (x*t1 + y*t2) / (t1 + t2).</li><li><strong>Rule 2:</strong> If a man/vehicle covers two equal distances with speed x km/h and y km/h respectively, average speed = 2xy / (x + y).</li><li><strong>Rule 3:</strong> If a man changes his speed to (x/y) of his usual speed and gets late by t min, usual time = (t * x) / (y - x). If he reaches early by t min, usual time = (t * x) / (y - x).</li></ul>",
+    "formulas": [
+      "Average speed = Total distance / Total time",
+      "Average speed = (x*t1 + y*t2) / (t1 + t2)",
+      "Average speed = 2xy / (x + y)",
+      "Usual time = (t * x) / (y - x)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers fundamental concepts of average speed, relative speed for same/opposite directions, and specific rules for calculating average speed and time variations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 253
+  },
+  {
+    "id": "math-td-001",
+    "subject": "Mathematics",
+    "chapter": "Time and Distance",
+    "topic": "Distance between two points with varying speeds",
+    "text": "<p><strong>Rule 4:</strong> When a man travels from A to B with a speed x km/h and reaches t1 h later after the fixed time and when he travels with a speed y km/h from A to B, he reaches his destination t2 h before the fixed time, then distance between A and B = (xy(t1 + t2)) / (y - x) km.</p>",
+    "formulas": [
+      "Distance = (xy(t1 + t2)) / (y - x)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for calculating distance when arrival times relative to a fixed time are given for two different speeds."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 254
+  },
+  {
+    "id": "math-td-002",
+    "subject": "Mathematics",
+    "chapter": "Time and Distance",
+    "topic": "Distance with speed increase",
+    "text": "<p><strong>Rule 5:</strong> A person travels from A to B with a speed x km/h and reaches t1 h late. Later he increases his speed by y km/h to cover the same distance and he still gets late by t2 h, then the distance between A and B = (t1 - t2)(x + y) * (x / y).</p>",
+    "formulas": [
+      "Distance = (t1 - t2)(x + y) * (x / y)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for calculating distance when a person is late in both scenarios but increases speed."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 254
+  },
+  {
+    "id": "math-td-003",
+    "subject": "Mathematics",
+    "chapter": "Time and Distance",
+    "topic": "Problems Based on Trains",
+    "text": "<p>Problems based on trains are same as the problems related to speed, Time and Distance. The only difference is that the length of the moving object (train) is taken into consideration in these types of problems.</p><p><strong>Rule 6:</strong> (i) Time taken by a train x m long in passing a single post or pole or standing man = Time taken by the train to cover x m. (ii) Time taken by a train x m long in passing an object of length y m = Time taken by the train to cover (x + y) m.</p><p><strong>Rule 7:</strong> Time taken by a train of length l1 metre moving at a speed of s1 m/s to cross another train of length l2 moving at a speed of s2 m/s in same/opposite direction is (l1 + l2) / (s1 ± s2). Use '+' for opposite direction. Use '-' for same direction.</p><p><strong>Rule 8:</strong> If two trains start at the same time from points A and B towards each other and after crossing each other, they take t1 and t2 time in reaching points B and A respectively, then ratio of their speed = sqrt(t2 / t1) or S1 / S2 = sqrt(t2 / t1).</p>",
+    "formulas": [
+      "Time = (l1 + l2) / (s1 ± s2)",
+      "S1 / S2 = sqrt(t2 / t1)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for train-related problems including passing objects, crossing trains, and relative speeds."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 254
+  },
+  {
+    "id": "pathfinder-cds-50-001",
+    "subject": "Mathematics",
+    "chapter": "Speed, Time and Distance",
+    "topic": "Problems Based on Boat and Stream",
+    "text": "<p><strong>Definitions:</strong></p><ul><li><strong>Still water:</strong> If the speed of water is zero, then water is considered to be still water.</li><li><strong>Stream water:</strong> If the water of a river is moving at a certain speed, then it is called stream water.</li><li><strong>Downstream motion:</strong> In water, the direction along the stream is called downstream.</li><li><strong>Upstream motion:</strong> In water, the direction against the stream is called upstream.</li></ul><p><strong>Rules:</strong></p><ul><li><strong>Rule 9:</strong> If the speed of a boat in still water = x km/h and speed of stream = y km/h, then: <ul><li>(i) Speed of boat downstream = (x + y) km/h</li><li>(ii) Speed of boat upstream = (x - y) km/h</li></ul></li><li><strong>Rule 10:</strong> Let the speed of boat in downstream = u km/h and speed of boat in upstream = v km/h, then: <ul><li>(i) Speed of boat in still water = 1/2(u + v) km/h</li><li>(ii) Speed of stream (current) = 1/2(u - v) km/h</li></ul></li></ul>",
+    "formulas": [
+      "Speed of boat downstream = x + y",
+      "Speed of boat upstream = x - y",
+      "Speed of boat in still water = 1/2(u + v)",
+      "Speed of stream = 1/2(u - v)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers fundamental concepts and formulas for solving boat and stream problems."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 255
+  },
+  {
+    "id": "pathfinder-cds-50-002",
+    "subject": "Mathematics",
+    "chapter": "Speed, Time and Distance",
+    "topic": "Races",
+    "text": "<p>A contest of speed in running, driving, riding, sailing or rowing over a specified distance is called a race.</p><p>Suppose A and B are two contestants in a race. If A beats B by x m and length of the track is dm. Then, Distance travelled by B when A finishes the race = d - x and Speed of A / Speed of B = d / (d - x)</p><p><strong>Notes:</strong></p><ul><li>(i) A gives B a start of x m means when A starts at starting point, B starts x m ahead from starting point.</li><li>(ii) A gives B a start of t s means A starts t s after B starts from the same point.</li></ul>",
+    "formulas": [
+      "Speed of A / Speed of B = d / (d - x)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and ratios for calculating race outcomes between two contestants."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 255
+  },
+  {
+    "id": "CDS_PATH_58_44",
+    "subject": "Mathematics",
+    "chapter": "Time, Speed and Distance",
+    "topic": "Relative Speed and Distance Problems",
+    "text": "<p><strong>Problem 44:</strong> Calculation of meeting point and distance ratio between two points A and B separated by 110 km with speeds 60 km/h and 40 km/h.</p>",
+    "formulas": [
+      "Time = Total distance / Relative speed",
+      "Distance = Speed * Time"
+    ],
+    "image_descriptions": [
+      "A line segment AB representing 110 km with a point C in between."
+    ],
+    "details": {
+      "summary": "Step-by-step solution for finding the meeting time and distance ratio of two objects moving towards each other."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 263
+  },
+  {
+    "id": "CDS_PATH_58_45",
+    "subject": "Mathematics",
+    "chapter": "Time, Speed and Distance",
+    "topic": "Average Speed and Fractional Distance",
+    "text": "<p><strong>Problem 45:</strong> Solving for time taken to cover distances divided into fractions with different speeds.</p>",
+    "formulas": [
+      "t = d/v",
+      "1/x + 1/y = 1/z"
+    ],
+    "details": {
+      "summary": "Application of time-speed-distance relations to fractional segments of a total journey."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 263
+  },
+  {
+    "id": "CDS_PATH_58_46",
+    "subject": "Mathematics",
+    "chapter": "Time, Speed and Distance",
+    "topic": "Speed Reduction Problems",
+    "text": "<p><strong>Problem 46:</strong> Calculating original speed of an aircraft given a reduction in speed and the resulting increase in time taken to cover 600 km.</p>",
+    "formulas": [
+      "600/(x-200) - 600/x = 1/2"
+    ],
+    "details": {
+      "summary": "Quadratic equation application for speed reduction scenarios."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 263
+  },
+  {
+    "id": "CDS_PATH_58_47",
+    "subject": "Mathematics",
+    "chapter": "Time, Speed and Distance",
+    "topic": "Variable Speed Scenarios",
+    "text": "<p><strong>Problem 47:</strong> Determining distance between two points given two different speed scenarios for the same journey.</p>",
+    "formulas": [
+      "Speed = Distance / Time",
+      "V = x/8",
+      "V + 4 = x / (15/2)"
+    ],
+    "image_descriptions": [
+      "Line segment AB of length x km."
+    ],
+    "details": {
+      "summary": "System of equations to solve for distance and speed."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 263
+  },
+  {
+    "id": "CDS_PATH_58_48",
+    "subject": "Mathematics",
+    "chapter": "Time, Speed and Distance",
+    "topic": "Average Speed over Segments",
+    "text": "<p><strong>Problem 48:</strong> Calculating average speed when a total distance is divided into three equal segments covered at different speeds.</p>",
+    "formulas": [
+      "Average speed = Total distance / Total time",
+      "Average speed = x / (x/30 + x/60 + x/180)"
+    ],
+    "image_descriptions": [
+      "Line segment AB divided into three parts AC, CD, DB each of length x/3."
+    ],
+    "details": {
+      "summary": "Calculation of average speed for multiple segments."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 263
+  },
+  {
+    "id": "CDS_PATH_58_49",
+    "subject": "Mathematics",
+    "chapter": "Time, Speed and Distance",
+    "topic": "Boats and Streams",
+    "text": "<p><strong>Problem 49:</strong> Calculating downstream and upstream speeds given boat speed x and stream speed y.</p>",
+    "formulas": [
+      "Downstream speed = x + y",
+      "Upstream speed = x - y"
+    ],
+    "details": {
+      "summary": "Fundamental boat and stream speed relations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 263
+  },
+  {
+    "id": "CDS_PATH_58_50",
+    "subject": "Mathematics",
+    "chapter": "Time, Speed and Distance",
+    "topic": "Race Problems",
+    "text": "<p><strong>Problem 50:</strong> Calculating speed ratios and distance gains in a race.</p>",
+    "formulas": [
+      "Speed = Distance / Time"
+    ],
+    "details": {
+      "summary": "Application of speed ratios in race scenarios."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 263
+  },
+  {
+    "id": "CDS_PATH_58_51",
+    "subject": "Mathematics",
+    "chapter": "Time, Speed and Distance",
+    "topic": "Chasing Problems",
+    "text": "<p><strong>Problem 51:</strong> Calculating distance between a thief and a policeman after a specific time interval.</p>",
+    "formulas": [
+      "Distance = Speed * Time",
+      "Conversion: km/h to m/min = (km * 1000) / 60"
+    ],
+    "details": {
+      "summary": "Relative distance calculation in a chase scenario."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 263
+  },
+  {
+    "id": "CDS_PATH_58_52",
+    "subject": "Mathematics",
+    "chapter": "Time, Speed and Distance",
+    "topic": "Meeting Point Problems",
+    "text": "<p><strong>Problem 52:</strong> Calculating meeting point E for two objects A and B.</p>",
+    "formulas": [
+      "pt = qt + c",
+      "t = c / (p - q)"
+    ],
+    "image_descriptions": [
+      "Line segment A-B-E."
+    ],
+    "details": {
+      "summary": "Algebraic derivation of meeting time."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 263
+  },
+  {
+    "id": "time-and-work-001",
+    "subject": "Mathematics",
+    "chapter": "Time and Work",
+    "topic": "Basic Rules and Formulae",
+    "text": "<p>Usually (2-4) questions have been asked from this chapter. Generally questions are asked on Man-hours formulae, total wages paid for a work, number of days to complete a certain work and pipes and cisterns.</p><p>In this chapter, we will study the relationship among the quantity of work given, wages given, stipulated time, number of persons etc.</p><h3>IMPORTANT RULES AND FORMULAE</h3><ul><li><strong>Rule 1:</strong> If a person can do a piece of work in 'n' days, then he will do 1/n of the work in one day and if a person can do 1/n th of work in one day, then he will complete the work in n days. e.g. If Raj can do a piece of work in 20 days, then he will do 1/20th of the work in one day.</li><li><strong>Note:</strong> In the problems related to time and work it is always considered that a man/woman works at uniform rate.</li><li><strong>Rule 2:</strong> A and B can do a piece of work in x days and y days, respectively. Then, time taken by (A + B) to complete the work is equal to reciprocal of (A + B)'s one day's work, i.e. xy / (x + y).</li><li><strong>Rule 3:</strong> If A and B can complete a work in x days and A alone can finish that work in y days, then number of days required to complete the work by B = xy / (y - x) days.</li><li><strong>Rule 4:</strong> If A and B can do a piece of work in x days, B and C can do same work in y days, C and A can do same work in z days. Then, they will complete the same work in 2xyz / (xy + yz + zx) days by working together.</li></ul>",
+    "formulas": [
+      "1/n",
+      "xy / (x + y)",
+      "xy / (y - x)",
+      "2xyz / (xy + yz + zx)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to Time and Work chapter covering basic definitions, uniform rate assumption, and four fundamental rules for calculating work completion time for individuals and groups."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 265
+  },
+  {
+    "id": "math-time-work-rules-001",
+    "subject": "Mathematics",
+    "chapter": "Time and Work",
+    "topic": "Work Efficiency and Wages",
+    "text": "<p><strong>Rule 5:</strong> If two groups, M1 persons of the first group can do W1 work, in D1 days working T1 hours in a day earning a sum of R1, and M2 persons of the second group can do W2 work in D2 days working T2 hours in a day earning a sum of R2. If each person of both groups has the same efficiency of work, then:</p><p>(M1 * D1 * T1) / (W1 * R1) = (M2 * D2 * T2) / (W2 * R2)</p><p><strong>Rule 6:</strong> If 'm' men or 'n' women can do a piece of work in 'a' days, then x men and y women can do the same work in 1 / (x/(m*a) + y/(n*a)) days.</p><p><strong>Rule 7:</strong> If A can do a work in x days and B can do y% faster than A, then B will complete the work in (100 * x) / (100 + y) days.</p><p><strong>Rule 8:</strong> If A, B and C can do a piece of work in x, y and z days, respectively and they received ₹ k as wages by working together, then:</p><ul><li>Share of A = (yz / (xy + yz + zx)) * k</li><li>Share of B = (xz / (xy + yz + zx)) * k</li><li>Share of C = (xy / (xy + yz + zx)) * k</li></ul>",
+    "formulas": [
+      "(M1 * D1 * T1) / (W1 * R1) = (M2 * D2 * T2) / (W2 * R2)",
+      "Required days = 1 / (x/(m*a) + y/(n*a))",
+      "Required days = (100 * x) / (100 + y)",
+      "Share of A = (yz / (xy + yz + zx)) * k",
+      "Share of B = (xz / (xy + yz + zx)) * k",
+      "Share of C = (xy / (xy + yz + zx)) * k"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas and rules for solving complex time, work, and wage distribution problems."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 266
+  },
+  {
+    "id": "math-time-work-001",
+    "subject": "Mathematics",
+    "chapter": "Time and Work",
+    "topic": "Wages and Work Distribution",
+    "text": "<p>If A and B can do a piece of work in x days and y days, respectively and they received k as wages by working together, then share of A = (yk / (x+y)) and share of B = (xk / (x+y)). Wages are directly proportional to the work done and indirectly proportional to the time taken by the individual.</p><h3>Some Other Formulae</h3><ul><li>If A and B can do a piece of work in x and y days, respectively. A and B started working together but A left the work t days before completing the work, then time taken to complete the work will be ((x+t)y / (x+y)) days.</li><li>If A and B do a piece of work in x and y days, respectively. Both begin together but after some days, A leaves the work and the remaining work is completed by B in x days. Then, the time after which A left is given by T = ((b-x)a / a+b).</li><li>If A and B can do a piece of work in x and y days, respectively. They start working together and after t days B leaves the work, then time taken to finish the whole work will be (x(y-t) / y) days.</li></ul>",
+    "formulas": [
+      "Share of A = (yk / (x+y))",
+      "Share of B = (xk / (x+y))",
+      "Time taken = ((x+t)y / (x+y))",
+      "T = ((b-x)a / (a+b))",
+      "Time taken = (x(y-t) / y)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas for calculating wages based on work distribution and time-based work completion scenarios."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 267
+  },
+  {
+    "id": "math-pipes-cisterns-001",
+    "subject": "Mathematics",
+    "chapter": "Pipes and Cisterns",
+    "topic": "Important Rules and Formulae",
+    "text": "<p>Problems on pipes and cisterns are based on the basic concept of time and work. Pipes are connected to a tank or cistern and are used to fill or empty the tank or cistern.</p><h3>Rule 9</h3><p>If there are two pipes A and B takes 'a' and 'b' h respectively to fill a tanker, then the two pipes together fill (1/a + 1/b) part of the tank in 1h and time taken to fill the tank will be (ab / a+b) h. If a pipe fills a tank in 'a' h, then in 1 h only 1/a of the tank is filled.</p><h3>Rule 10</h3><p>(i) If a pipe can fill a tank in 'a' h and another can fill the tank in 'b' h but a third pipe empties the filled tank in 'c' h, then in one hour (1/a + 1/b - 1/c) part of the tank will be filled (when all the three pipes are open) and time taken to fill the tank will be (abc / bc + ac - ab) h.</p><p>(ii) If a pipe can fill a tank in a1 h and another pipe can empty the filled tank in a2 h, then in one hour (1/a1 - 1/a2) part of the tank will be filled. (when both pipes are open) and time taken to fill the tank will be (a1 a2 / a2 - a1) h.</p>",
+    "formulas": [
+      "Time taken = (ab / (a+b))",
+      "Part filled in 1h = (1/a + 1/b - 1/c)",
+      "Time taken = (abc / (bc + ac - ab))",
+      "Part filled in 1h = (1/a1 - 1/a2)",
+      "Time taken = (a1 a2 / (a2 - a1))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules and formulas for calculating time taken to fill or empty tanks using multiple pipes."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 267
+  },
+  {
+    "id": "pathfinder-math-work-time-001",
+    "subject": "Mathematics",
+    "chapter": "Time and Work",
+    "topic": "Work and Wages Formulae",
+    "text": "<p><strong>Directions for Work Problems:</strong> If a<sub>1</sub> men and b<sub>1</sub> boys can complete a work in x days, while a<sub>2</sub> men and b<sub>2</sub> boys can complete the same work in y days, then:</p><ul><li>One day work of 1 man = (y*b<sub>2</sub> - x*b<sub>1</sub>) / (x*a<sub>1</sub> - y*a<sub>2</sub>)</li><li>One day work of 1 boy = (x*a<sub>1</sub> - y*a<sub>2</sub>) / (y*b<sub>2</sub> - x*b<sub>1</sub>)</li></ul>",
+    "formulas": [
+      "One day work of 1 man = (y*b2 - x*b1) / (x*a1 - y*a2)",
+      "One day work of 1 boy = (x*a1 - y*a2) / (y*b2 - x*b1)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulae for calculating individual work capacity of men and boys based on two different work scenarios."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 269
+  },
+  {
+    "id": "percentage-001",
+    "subject": "Mathematics",
+    "chapter": "Percentage",
+    "topic": "Fundamentals of Percentage",
+    "text": "<p><strong>Per Cent:</strong> Per cent is a fraction whose denominator is 100 and numerator of the fraction is called the rate per cent. Per cent is denoted by the symbol '%'.</p><p><strong>Important Rules and Formulae:</strong></p><ul><li><strong>Rule 1:</strong> For expressing a% as a fraction, we can write a% = a/100, i.e. divide 'a' by 100 and reduce it to the lowest form, e.g. 25% = 25/100 = 1/4.</li><li><strong>Rule 2:</strong> For expressing a fraction a/b as a per cent, we can write a/b = (a/b * 100)%, e.g. 2/3 = (2/3 * 100)% = 200/3%.</li><li><strong>Rule 3:</strong> To find how much per cent one quantity is of another quantity, we can write: Required percentage = (The quantity to be expressed in per cent / 2nd quantity (in respect of which the per cent has to be obtained)) * 100%.</li><li><strong>Rule 4:</strong> Percentage increase or decrease in a quantity when it increases or decreases by some value: Percentage = (Increase or decrease in the value / Initial value) * 100%.</li></ul>",
+    "formulas": [
+      "a% = a/100",
+      "a/b = (a/b * 100)%",
+      "Required percentage = (The quantity to be expressed in per cent / 2nd quantity) * 100%",
+      "Percentage = (Increase or decrease in the value / Initial value) * 100%"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to percentage definitions, conversion rules between fractions and percentages, and formulas for calculating percentage of a quantity and percentage change."
+    },
+    "mcq": {
+      "question": "20g is what per cent of 1000g?",
+      "options": [
+        "2%",
+        "5%",
+        "7%",
+        "9%"
+      ],
+      "correct": 0,
+      "explanation": "Required percentage = (20 / 1000) * 100% = 2%"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 274
+  },
+  {
+    "id": "cds-pathfinder-math-001",
+    "subject": "Mathematics",
+    "chapter": "Percentage",
+    "topic": "Percentage Change and Population Growth",
+    "text": "<p><strong>Rule 5:</strong> If A is x% more than B, then B would be [x / (100 + x)] * 100 % less than A.</p><p><strong>Rule 6:</strong> If A is x% less than B, then B would be [x / (100 - x)] * 100 % more than A.</p><p><strong>Rule 7:</strong> If the price of a commodity is increased (or decreased) by x%, then the decrease (or increase) in consumption, so as not to increase or (decrease) the expenditure is [x / (100 ± x)] * 100 %.</p><p><strong>Rule 8:</strong> If the value of an object is first changed (increased or decreased) by x% and then changed (increased or decreased) by y%, then Net effect = (± x ± y + (± x)(± y) / 100) %. Here, + sign is used in case of increment and - sign is used in case of decrement.</p><p><strong>Rule 9:</strong> If the population of a town is P and it increases (or decreases) at the rate of R% per annum, then: (i) Population after n yr = P(1 ± R/100)^n; (ii) Population, n yr ago = P / (1 ± R/100)^n.</p>",
+    "formulas": [
+      "B = [x / (100 + x)] * 100",
+      "B = [x / (100 - x)] * 100",
+      "Consumption change = [x / (100 ± x)] * 100",
+      "Net effect = (± x ± y + (± x)(± y) / 100) %",
+      "Population after n yr = P(1 ± R/100)^n",
+      "Population n yr ago = P / (1 ± R/100)^n"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers rules for percentage comparison, consumption adjustment based on price changes, net percentage change for successive changes, and population growth/decay formulas."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 275
+  },
+  {
+    "id": "math-perc-rule-10",
+    "subject": "Mathematics",
+    "chapter": "Percentage",
+    "topic": "Population Growth/Decline",
+    "text": "<p><strong>Rule 10:</strong> If the present population of a city is <em>P</em> and there is an increment or decrement of <em>R<sub>1</sub>%</em>, <em>R<sub>2</sub>%</em> and <em>R<sub>3</sub>%</em> in first, second and third year respectively, then:</p><p>Population of city after 3 yr = P(1 ± R<sub>1</sub>/100)(1 ± R<sub>2</sub>/100)(1 ± R<sub>3</sub>/100)</p><p><strong>Note:</strong> Use '+' sign for increases and '-' sign for decreases.</p>",
+    "formulas": [
+      "Population = P(1 ± R1/100)(1 ± R2/100)(1 ± R3/100)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for calculating population change over three years with varying annual rates."
+    },
+    "mcq": {
+      "question": "Population of a city in 2004 was 1000000. If in 2005 there is an increment of 15%, in 2006 there is a decrement of 35% and in 2007 there is an increment of 45%, then find the population of city at the end of year 2007.",
+      "options": [
+        "1083875",
+        "1083000",
+        "1089000",
+        "1135000"
+      ],
+      "correct": 0,
+      "explanation": "Given P = 1000000, R1 = 15%, R2 = 35% (decrease), R3 = 45%. Population = 1000000 * (1 + 15/100) * (1 - 35/100) * (1 + 45/100) = 1000000 * (115/100) * (65/100) * (145/100) = 1083875."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 276
+  },
+  {
+    "id": "si-001",
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "topic": "Basic Definitions and Formulas",
+    "text": "<p><strong>Interest:</strong> When money is borrowed by a person, then customarily the money lender used to charge some extra money in lieu of the money lent by him. This extra money earned by the money lender is called interest.</p><p><strong>Terms related to interest:</strong></p><ul><li><strong>Principal (P):</strong> The money which is borrowed from a money lender.</li><li><strong>Amount (A):</strong> The sum of the principal and the interest. <em>Amount (A) = Principal (P) + Interest (I)</em>.</li><li><strong>Rate (R):</strong> The rate at which the interest is charged on Principal.</li><li><strong>Time (T):</strong> The time period for which the money is lent or deposited or borrowed.</li></ul><p><strong>Simple Interest:</strong> If the interest is calculated on the original Principal for any length of time, then it is called simple interest.</p>",
+    "formulas": [
+      "Simple Interest (SI) = (Principal * Rate * Time) / 100",
+      "SI = (P * R * T) / 100",
+      "Amount (A) = Principal (P) + Interest (I)",
+      "P = (100 * A) / (100 + RT)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to Simple Interest concepts, definitions of key terms (Principal, Amount, Rate, Time), and fundamental formulas."
+    },
+    "mcq": {
+      "question": "The sum required to earn a monthly interest of ₹400 at 10% per annum at simple interest is",
+      "options": [
+        "₹ 2000",
+        "₹ 12000",
+        "₹ 24000",
+        "₹ 48000"
+      ],
+      "correct": 1,
+      "explanation": "Monthly interest = 400, so annual interest = 400 * 12 = 4800. SI = (P * R * T) / 100 => 4800 = (P * 10 * 1) / 100 => P = 48000."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 282
+  },
+  {
+    "id": "CDS_PATHFINDER_SI_001",
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "topic": "Important Rules and Formulae",
+    "text": "<p><strong>Rule 1:</strong> If a sum of money becomes n times in 'T' yr at simple interest, then rate of interest will be, R = (100(n-1))/T %.</p><p><strong>Rule 2:</strong> If a certain Principal Amounts to A1 in t1 yr and to A2 in t2 yr, then the sum (P) is given by P = (A2*t1 - A1*t2)/(t1 - t2) and the rate per cent (R) per annum is given by ((100(A2 - A1))/(A1*t2 - A2*t1))%.</p><p><strong>Rule 3:</strong> At the same rate of simple interest, if a sum of money becomes n1 times of itself in t1 yr and n2 times in t2 years, then t2 = ((n2 - 1)/(n1 - 1)) * t1 yr.</p>",
+    "formulas": [
+      "R = (100(n-1))/T %",
+      "P = (A2*t1 - A1*t2)/(t1 - t2)",
+      "R = ((100(A2 - A1))/(A1*t2 - A2*t1))%",
+      "t2 = ((n2 - 1)/(n1 - 1)) * t1"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Contains key formulas for calculating Simple Interest, Principal, and Time when sums become multiples of themselves or reach specific amounts over time."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 283
+  },
+  {
+    "id": "CI-001",
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "topic": "Definitions and Basic Formulae",
+    "text": "<p>When the interest is calculated on the amount of previous year, then it is known as <strong>compound interest</strong>. It will make a deposit or loan grow at a faster rate than simple interest.</p><p><strong>Important Rules and Formulae:</strong></p><ul><li>Consider <em>P</em> = Principal (amount borrowed)</li><li><em>A</em> = Amount (Principal + Interest)</li><li><em>R</em> = Rate of interest per annum</li><li><em>n</em> = Number of years</li></ul><p><strong>Rule 1:</strong> When interest is compounded annually, then:</p><ul><li>(i) Amount = P(1 + R/100)^n</li><li>(ii) CI = A - P = P[(1 + R/100)^n - 1]</li></ul><p><strong>Rule 2:</strong> When interest is compounded half-yearly (every 6 months), then:</p><ul><li>(i) Amount = P(1 + r/(100*2))^(2n)</li><li>(ii) CI = [(1 + R/(100*2))^(2n) - 1]</li></ul>",
+    "formulas": [
+      "Amount = P(1 + R/100)^n",
+      "CI = A - P = P[(1 + R/100)^n - 1]",
+      "Amount = P(1 + r/(100*2))^(2n)",
+      "CI = [(1 + R/(100*2))^(2n) - 1]"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to Compound Interest, definitions of variables, and formulas for annual and half-yearly compounding."
+    },
+    "mcq": {
+      "question": "The amount and the compound interest on ₹ 24000 compounded annually for 2 yr at the rate of 10% per annum is",
+      "options": [
+        "₹ 39040 and 4040",
+        "₹ 29040 and 5040",
+        "₹ 19040 and 3040",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "Here, P = ₹ 24000, R = 10% per annum and n = 2 yr. A = P(1 + R/100)^n = 24000(1 + 10/100)^2 = 24000(110/100)^2 = 24000 * 110/100 * 110/100 = ₹ 29040. Compound interest = Amount - Principal = ₹ 29040 - 24000 = ₹ 5040."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 288
+  },
+  {
+    "id": "cds-pathfinder-math-ci-001",
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "topic": "Compound Interest Rules",
+    "text": "<p><strong>Rule 3:</strong> When interest is compounded quarterly (every 3 months), then:</p><ul><li>(i) Amount = P(1 + R/(100 * 4))^(4n)</li><li>(ii) CI = P[(1 + R/(100 * 4))^(4n) - 1]</li></ul><p><strong>Rule 4:</strong> When interest is compounded annually but time is given in fraction (say, t + a/b yr), then:</p><p>Amount = P(1 + R/100)^t * (1 + (a/b)R/100)</p><p><strong>Rule 5:</strong> When rate of interest for n1, n2 and n3 yr are R1, R2 and R3 respectively, then:</p><p>Amount = P(1 + R1/100)^n1 * (1 + R2/100)^n2 * (1 + R3/100)^n3</p>",
+    "formulas": [
+      "Amount = P(1 + R/(100 * 4))^(4n)",
+      "CI = P[(1 + R/(100 * 4))^(4n) - 1]",
+      "Amount = P(1 + R/100)^t * (1 + (a/b)R/100)",
+      "Amount = P(1 + R1/100)^n1 * (1 + R2/100)^n2 * (1 + R3/100)^n3"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for calculating compound interest under quarterly compounding, fractional time periods, and varying annual rates."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "CI-RULE-6",
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "topic": "Difference between Simple and Compound Interest",
+    "text": "<p><strong>Rule 6:</strong> The difference <em>D</em> between simple and compound interest accrued on <em>P</em> at the rate of interest of <em>R%</em> is given by:</p><ul><li>For 2 yr, <em>D = (PR^2) / (100)^2</em></li><li>For 3 yr, <em>D = (PR^2 * (300 + r)) / (100)^3</em></li></ul>",
+    "formulas": [
+      "D = (PR^2) / (100)^2",
+      "D = (PR^2 * (300 + r)) / (100)^3"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas for calculating the difference between simple and compound interest for 2 and 3 years."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 290
+  },
+  {
+    "id": "CI-RULE-7",
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "topic": "Rate and Sum Calculation",
+    "text": "<p><strong>Rule 7:</strong> If a certain sum at compound interest becomes <em>A1</em> in <em>n</em> yr and <em>A2</em> in <em>(n+1)</em> yr, then:</p><ul><li>Rate of compound interest = <em>((A2 - A1) / A1) * 100%</em></li><li>Sum = <em>A1 * (A1 / A2)^n</em></li></ul>",
+    "formulas": [
+      "Rate = ((A2 - A1) / A1) * 100%",
+      "Sum = A1 * (A1 / A2)^n"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas to find rate and principal sum when amounts for consecutive years are given."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 290
+  },
+  {
+    "id": "DEPRECIATION-CONCEPT",
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "topic": "Depreciation",
+    "text": "<p>The value of certain things like machines, vehicles etc., decreases over a period of time. The decrement in the value is called depreciation. The depreciation per unit time is called the rate of depreciation.</p><p><strong>Rule 8:</strong> If the present value of an article is <em>P</em> and it depreciates at the rate of <em>R%</em> per annum, then:</p><ul><li>Value of article after <em>n</em> yr = <em>P * (1 - R/100)^n</em></li><li>Value of article <em>n</em> yr ago = <em>P / (1 - R/100)^n</em></li></ul>",
+    "formulas": [
+      "Value after n yr = P * (1 - R/100)^n",
+      "Value n yr ago = P / (1 - R/100)^n"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and formulas for calculating depreciation of assets over time."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 290
+  },
+  {
+    "id": "INSTALMENTS-CONCEPT",
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "topic": "Instalments",
+    "text": "<p>When a borrower pays the sum in parts, we say that he/she is paying in instalments.</p><p>Formula: <em>P = x / (1 + R/100) + x / (1 + R/100)^2 + ... + x / (1 + R/100)^n</em></p>",
+    "formulas": [
+      "P = x / (1 + R/100) + x / (1 + R/100)^2 + ... + x / (1 + R/100)^n"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for calculating the principal based on equal instalment payments."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 290
+  },
+  {
+    "id": "CDS-MATH-CI-001",
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "topic": "Instalments and Important Results",
+    "text": "<p><strong>Instalment Formula:</strong></p><ul><li>x = value of each instalment</li><li>Total amount paid in instalments, A = P(1 + R/100)^n</li><li>n = number of instalments</li><li>Principal (P) for instalments: P = x / (1 + R/100)^1 + x / (1 + R/100)^2 + ... + x / (1 + R/100)^n</li></ul><p><strong>Some Important Results:</strong></p><ol><li>Simple interest and compound interest are equal for the first year period on the same sum and at the same rate.</li><li>If A and B are the amounts of a certain sum for two consecutive years, then simple interest for 1 yr = B - A.</li><li>If a certain sum at compound interest becomes x times in n1 yr and y times in n2 yr, then x^(1/n1) = y^(1/n2).</li></ol>",
+    "formulas": [
+      "A = P(1 + R/100)^n",
+      "P = x / (1 + R/100)^1 + x / (1 + R/100)^2 + ... + x / (1 + R/100)^n",
+      "x^(1/n1) = y^(1/n2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers the mathematical formula for calculating principal based on equal annual instalments under compound interest and provides three key theoretical results for compound interest problems."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 291
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Doubling and Multiplying Amounts",
+    "topic": "Time to Multiply Principal",
+    "content": "### Rule for Doubling/Multiplying at Compound Interest\nIf a sum doubles in $t$ years at a certain compound interest rate, it will become $2^n$ times the original sum in $n \\times t$ years.\n\n**Example Logic:**\n- If amount doubles in 15 years ($2^1$), it becomes $2^3 = 8$ times in $3 \\times 15 = 45$ years.\n- If amount doubles in 5 years, it becomes $2^4 = 16$ times in $4 \\times 5 = 20$ years.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 293
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Partial Payments",
+    "topic": "Outstanding Balance Calculation",
+    "content": "### Calculating Outstanding Balance with Annual Payments\nWhen a borrower makes annual payments against a compound interest loan:\n1. Calculate the interest accrued on the outstanding principal for the year.\n2. Add the interest to the principal to get the total amount due.\n3. Subtract the annual payment from the total amount due to get the new outstanding principal for the next year.\n4. Repeat for each year.\n\n**Formula:**\n$P_{new} = (P_{old} \\times (1 + \\frac{r}{100})) - \\text{Payment}$",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 293
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Comparison with Simple Interest",
+    "topic": "CI vs SI",
+    "content": "### Comparison of Compound Interest (CI) and Simple Interest (SI)\nFor any principal $P$, rate $r$, and time $t > 1$ year:\n- **CI > SI**: Compound interest is always greater than simple interest for the same principal, rate, and time period (greater than 1 year).\n- **Reason**: CI is calculated on the principal plus accumulated interest, whereas SI is calculated only on the original principal.\n- **Exception**: For $t=1$ year, CI = SI.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 293
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Finding Rate and Principal",
+    "topic": "Using Amounts at Different Years",
+    "content": "### Finding Rate and Principal from Amounts\nIf the amount after year 1 is $A_1$ and after year 3 is $A_3$:\n1. The growth factor for 2 years is $\\frac{A_3}{A_1} = (1 + \\frac{r}{100})^2$.\n2. Solve for $r$.\n3. Calculate Principal $P = \\frac{A_1}{(1 + \\frac{r}{100})}$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 293
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Present Worth",
+    "topic": "Present Value Calculation",
+    "content": "### Present Worth (PW) Formula\nThe present worth of a future sum $A$ due in $n$ years at compound interest rate $r$ is:\n$$PW = \\frac{A}{(1 + \\frac{r}{100})^n}$$\n\n**Example:**\nPW of ₹169 due in 2 years at 4% p.a.:\n$PW = \\frac{169}{(1.04)^2} = \\frac{169}{1.0816} = 156.25$",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 293
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Difference between CI and SI",
+    "topic": "Rate Calculation from Difference",
+    "content": "### Finding Rate from Difference between CI and SI\nFor 2 years, the difference between CI and SI is given by:\n$$CI - SI = P \\times (\\frac{r}{100})^2$$\n\n**Derivation:**\n- $SI = P \\times \\frac{r}{100} \\times 2 = \\frac{2Pr}{100}$\n- $CI = P(1 + \\frac{r}{100})^2 - P = P(1 + \\frac{2r}{100} + \\frac{r^2}{10000}) - P = \\frac{2Pr}{100} + \\frac{Pr^2}{10000}$\n- Difference $= \\frac{Pr^2}{10000}$\n\nIf $SI$ and $CI$ are known, $P$ can be found from $SI$, and then $r$ can be calculated using the difference formula.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 293
+  },
+  {
+    "id": "math-ci-91-001",
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "topic": "Compound Interest Calculations",
+    "text": "<p><strong>Shortcut Method for Doubling/Multiplication:</strong> If a sum of money at compound interest doubles itself in <em>n</em> years, it becomes 2<sup>k</sup> times in <em>n</em> × <em>k</em> years.</p><p><strong>Difference for 2 years:</strong> The difference (D) between Compound Interest and Simple Interest for 2 years is given by the formula: D = (P × R^2) / (100^2).</p>",
+    "formulas": [
+      "A = P(1 + R/100)^n",
+      "CI = P[(1 + R/100)^n - 1]",
+      "D = (P * R^2) / (100^2)",
+      "SI = (P * R * T) / 100"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This page provides solutions to various compound interest problems, including calculations for amounts after specific years, finding rates, and using shortcut methods for time-based growth."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 296
+  },
+  {
+    "id": "profit_loss_001",
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "topic": "Basic Definitions and Formulae",
+    "text": "<p><strong>Cost Price (CP):</strong> The price, at which an article is bought is called its cost price. All the overhead expenses in the transaction like freight, damage etc., are added to the cost price.</p><p><strong>Selling Price (SP):</strong> The price at which an article sold is called its selling price.</p><ul><li><strong>Profit (SP > CP):</strong> When an article is sold at a price more than its cost price, then profit is earned.</li><li><strong>Loss (CP > SP):</strong> When an article is sold at a price lower than its cost price, then loss is incurred.</li></ul><p><strong>Note:</strong> Profit and loss percentage is always calculated as the percentage of CP unless otherwise specified.</p><p><strong>List Price/Marked Price:</strong> The price of an article which is displayed on the price tag is known as marked price. It is the normal price of the thing/products without a discount. Sometimes the shopkeeper increases or decreases the cost price, then this price is taken as the list price of the article.</p>",
+    "formulas": [
+      "Profit = Selling price - Cost price",
+      "Loss = Cost price - Selling price",
+      "Profit % = (Profit / CP) * 100% = ((SP - CP) / CP) * 100%",
+      "Loss % = (Loss / CP) * 100% = ((CP - SP) / CP) * 100%"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to fundamental concepts of Profit and Loss including definitions of Cost Price, Selling Price, Marked Price, and calculation formulas for profit and loss percentages."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 297
+  },
+  {
+    "id": "math-pl-001",
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "topic": "Important Rules and Formulae",
+    "text": "<p><strong>Rule 1:</strong> If there is a profit of r%, then (i) SP = (100 + r) * CP / 100 (ii) CP = 100 * SP / (100 + r)</p><p><strong>Rule 2:</strong> If there is a loss of r%, then (i) SP = (100 - r) * CP / 100 (ii) CP = 100 * SP / (100 - r)</p><p><strong>Rule 3:</strong> When there are two successive profits or losses of x% and y%, then the resultant profit or loss percent is given by (±x ± y + (±x)(±y)/100)%.</p><ul><li>Take positive for profit and negative for loss.</li><li>If the sign of result is positive, there is a total gain.</li><li>If the sign of result is negative, there is a total loss.</li></ul><p><strong>Rule 4:</strong> When two different articles are sold at the same selling price, getting gain/loss of x% on the first and gain/loss of y% on the second, then the overall % gain or % loss in the transaction is given by [100(x + y) + 2xy / (100 + x) + (100 + x)]%. The above expression represent overall gain or loss accordingly as its sign is positive or negative.</p><p>When two different articles are sold at the same selling price getting a gain of x% on the first and loss of x% on the second, then the overall % loss in the transaction is given by (x/10)^2 %.</p><p><em>Note: That in such questions there is always a loss.</em></p>",
+    "formulas": [
+      "SP = (100 + r) * CP / 100",
+      "CP = 100 * SP / (100 + r)",
+      "SP = (100 - r) * CP / 100",
+      "CP = 100 * SP / (100 - r)",
+      "Resultant % = (±x ± y + (±x)(±y)/100)%",
+      "Overall % = [100(x + y) + 2xy / (100 + x) + (100 + x)]%",
+      "Overall % loss = (x/10)^2 %"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers fundamental profit and loss formulas including successive percentage changes and selling two articles at the same price."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 298
+  },
+  {
+    "id": "CDS-PF-94-001",
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "topic": "Selling two items at same price with equal percentage gain/loss",
+    "text": "<p><strong>Rule 5:</strong> A person buys two items for ₹ S. One is sold at a loss of r% and the other at a gain of R%, if each item was sold at the same price, then:</p><ul><li>Cost price of item sold at loss = (S * (100 + R)) / ((100 - r) + (100 + R))</li><li>Cost price of item sold at gain = (S * (100 - r)) / ((100 - r) + (100 + R))</li></ul>",
+    "formulas": [
+      "Cost price of item sold at loss = (S * (100 + R)) / ((100 - r) + (100 + R))",
+      "Cost price of item sold at gain = (S * (100 - r)) / ((100 - r) + (100 + R))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulae for calculating individual cost prices when two items are sold at the same price with different gain/loss percentages."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 299
+  },
+  {
+    "id": "CDS-PF-94-002",
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "topic": "Dishonest Dealer",
+    "text": "<p><strong>Rule 6:</strong> If a trader professes to sell his goods at cost price, but uses false weights, then gain % = ((true weight - false weight) / false weight) * 100</p>",
+    "formulas": [
+      "Gain % = ((true weight - false weight) / false weight) * 100"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for calculating profit percentage when a trader uses false weights."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 299
+  },
+  {
+    "id": "CDS-PF-94-003",
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "topic": "Cost price of 'n' articles equal to selling price of 'm' articles",
+    "text": "<p><strong>Rule 7:</strong> If cost price of 'n' articles is equal to the selling price of 'm' articles, then:</p><ul><li>Profit percentage = ((n - m) / m) * 100 (if n > m)</li><li>Loss percentage = ((m - n) / m) * 100 (if m > n)</li></ul>",
+    "formulas": [
+      "Profit percentage = ((n - m) / m) * 100",
+      "Loss percentage = ((m - n) / m) * 100"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulae for profit or loss percentage based on the relationship between the number of articles whose cost price equals the selling price of another number of articles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 299
+  },
+  {
+    "id": "CDS-PF-94-004",
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "topic": "Discount",
+    "text": "<p>The reduction allowed on the marked price of an article is called as discount. Discount is always reckoned on the marked price.</p><p>Selling price = Marked price - Discount</p><p><strong>Rule 8:</strong> If discount allowed is r%, then Selling price = ((100 - r) / 100) * Marked price</p><p><strong>Rule 9:</strong> If a shopkeeper marks his items at x% above the cost price and allows customers a discount of y% then there is (x - y - (xy / 100))% profit or loss according to positive or negative sign, respectively.</p>",
+    "formulas": [
+      "Selling price = Marked price - Discount",
+      "Selling price = ((100 - r) / 100) * Marked price",
+      "Profit/Loss % = (x - y - (xy / 100))%"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and formulae related to discount, marked price, and successive percentage changes."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 299
+  },
+  {
+    "id": "math-pl-95-001",
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "topic": "Successive Discounts",
+    "text": "<p><strong>Rule 10:</strong> Single discount equivalent to three successive discounts r1%, r2% and r3% is = [1 - (1 - r1/100)(1 - r2/100)(1 - r3/100)] * 100%. Note: This formula can also be applied for more than three successive discounts.</p><p><strong>Rule 11:</strong> If marked price of an item is ₹ x and the successive discount rates are r1%, r2%, r3% and so on, then selling price of the item is SP = x * (1 - r1/100)(1 - r2/100)(1 - r3/100).</p>",
+    "formulas": [
+      "Single Discount = [1 - (1 - r1/100)(1 - r2/100)(1 - r3/100)] * 100%",
+      "SP = x * (1 - r1/100)(1 - r2/100)(1 - r3/100)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers formulas for calculating equivalent single discounts and selling prices under successive discount schemes."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 300
+  },
+  {
+    "id": "ratio-proportion-001",
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "topic": "Ratio",
+    "text": "<p>A <strong>ratio</strong> is the comparison of two or more quantities of the same type (or kind) by division. If <em>a</em> and <em>b</em> are two quantities of the same kind (or same unit), then the fraction <em>a/b</em> is called the ratio <em>a</em> to <em>b</em> and we write it as <em>a : b</em>.</p><ul><li><strong>Antecedent:</strong> <em>a</em></li><li><strong>Consequent:</strong> <em>b</em></li></ul><p><strong>Example:</strong> If a fruit box contains 8 oranges and 7 lemons then the ratio of oranges to lemons is 8 to 7 or 8:7.</p><p><strong>Note:</strong> If both terms <em>a</em> and <em>b</em> of a ratio are multiplied or divided by the same quantity, then ratio remains unchanged.</p><p>i.e., <em>a : b</em> is same as <em>na : nb</em> => <em>a/b = na/nb</em> and <em>a : b</em> is same as <em>a/n : b/n</em> => <em>(a/n) / (b/n) = a/b</em>.</p>",
+    "formulas": [
+      "a : b = a/b",
+      "a : b = na : nb",
+      "a : b = (a/n) : (b/n)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to the definition of ratio, its components (antecedent and consequent), and the property of equivalent ratios."
+    },
+    "mcq": {
+      "question": "If the ratio of 90 cm to 1.5 m is same as 3 : x, then x is",
+      "options": [
+        "4",
+        "5",
+        "2",
+        "1"
+      ],
+      "correct": 1,
+      "explanation": "1.5 m = 150 cm (units must be same). Ratio of 90 cm to 1.5 m = 90/150 = (90/30) / (150/30) = 3/5. As this ratio is same as 3 : x, then 3/x = 3/5 => 3x = 5 * 3 => x = 5."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 306
+  },
+  {
+    "id": "ratio-proportion-001",
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "topic": "Types of Ratios",
+    "text": "<p><strong>1. Compound Ratio:</strong> When two or more ratios are multiplied together, they are said to be compound ratio. If a/b, c/d and e/f are all ratios, then their compound ratio is ace/bdf.</p><p><strong>2. Duplicate Ratio:</strong> When a ratio is compounded with itself, the resulting ratio is called the duplicate ratio. So, a^2 : b^2 is duplicate ratio of a : b.</p><p><strong>3. Triplicate Ratio:</strong> If a ratio is compounded three times with itself, then resulting ratio is called triplicate ratio. So, a^3 : b^3 is the triplicate ratio of a : b.</p><p><strong>4. Subduplicate Ratio:</strong> If two numbers are in ratio, then the ratio of their square roots is called subduplicate ratio. If a : b is ratio, then the subduplicate ratio is sqrt(a) : sqrt(b).</p><p><strong>5. Subtriplicate Ratio:</strong> If two numbers are in ratio, then the ratio of their cube roots is called subtriplicate ratio. If a : b is ratio, then the subtriplicate ratio is cbrt(a) : cbrt(b).</p><p><strong>6. Reciprocal Ratio:</strong> If a : b is a ratio, then 1/a : 1/b is its reciprocal ratio, i.e., b : a.</p><p><strong>Important Points:</strong><ul><li>Usually, the ratio is expressed in its lowest terms.</li><li>Ratio exists only between quantities of the same kind.</li><li>Ratio is a fraction, so it has no units.</li><li>Ratio is taken only between positive quantities.</li></ul></p>",
+    "formulas": [
+      "Compound Ratio = (a/b) * (c/d) * (e/f) = ace/bdf",
+      "Duplicate Ratio of a:b = a^2 : b^2",
+      "Triplicate Ratio of a:b = a^3 : b^3",
+      "Subduplicate Ratio of a:b = sqrt(a) : sqrt(b)",
+      "Subtriplicate Ratio of a:b = cbrt(a) : cbrt(b)",
+      "Reciprocal Ratio of a:b = b:a"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties of various types of ratios including compound, duplicate, triplicate, subduplicate, subtriplicate, and reciprocal ratios."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 307
+  },
+  {
+    "id": "ratio-proportion-002",
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "topic": "Proportion",
+    "text": "<p>The equality of two ratios is called proportion. '::' is the sign of proportion. So, if a : b = c : d, we write it as a : b :: c : d and say that a, b, c and d are in proportion. The quantities a, b, c and d are called the first, second, third and fourth terms of proportion respectively. First and fourth terms are called <strong>extreme terms</strong> and second and third terms are called <strong>means or middle terms</strong>.</p><p>If quantities a, b, c and d are in proportion, then a/b = c/d => ad = bc, i.e., product of extreme terms = product of middle terms. This is also called cross-product rule.</p><p><strong>Types of Proportion:</strong> 1. Continued Proportion: The non-zero quantities of same kind, a, b, c, d, e, f, ... are said to be continued proportion, if a/b = b/c = c/d = e/f = ...</p>",
+    "formulas": [
+      "a/b = c/d => ad = bc",
+      "Continued Proportion: a/b = b/c = c/d = e/f"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of proportion, identification of extreme and middle terms, the cross-product rule, and definition of continued proportion."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 307
+  },
+  {
+    "id": "math-ratio-prop-001",
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "topic": "Continued Proportion and Mean Proportional",
+    "text": "<p>If <em>a, b, c, d</em> and <em>e</em> are in continued proportion, then <strong>a/b = b/c = c/d = d/e</strong>. This implies <strong>a/e = a/b * b/c * c/d * d/e = b^4/a^4</strong>.</p><p><strong>Mean Proportional:</strong> If <em>a, b</em> and <em>c</em> are in continued proportion, then <em>b</em> is called the mean proportional of <em>a</em> and <em>c</em>. i.e., <strong>a/b = b/c => b^2 = ac => b = sqrt(ac)</strong>.</p>",
+    "formulas": [
+      "a/b = b/c = c/d = d/e",
+      "b = sqrt(ac)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties of continued and mean proportionals."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 308
+  },
+  {
+    "id": "math-ratio-prop-002",
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "topic": "Third Proportional",
+    "text": "<p>If <em>a : b :: b : c</em>, then <em>c</em> is called the 3rd proportional to <em>a</em> and <em>b</em>. It is calculated as <strong>c = b^2 / a</strong>.</p>",
+    "formulas": [
+      "c = b^2 / a"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of third proportional."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 308
+  },
+  {
+    "id": "math-ratio-prop-003",
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "topic": "Properties of Proportion",
+    "text": "<p>For four non-zero quantities <em>a, b, c</em> and <em>d</em> in proportion (<em>a : b :: c : d</em>), the following properties apply:</p><ul><li><strong>Invertendo:</strong> If <em>a:b::c:d</em>, then <em>b:a::d:c</em> (a/b = c/d => b/a = d/c)</li><li><strong>Alternendo:</strong> If <em>a:b::c:d</em>, then <em>a:c::b:d</em> (a/b = c/d => a/c = b/d)</li><li><strong>Componendo:</strong> If <em>a:b::c:d</em>, then <em>(a+b):b :: (c+d):d</em></li><li><strong>Dividendo:</strong> If <em>a:b::c:d</em>, then <em>(a-b):b :: (c-d):d</em></li><li><strong>Componendo and Dividendo:</strong> If <em>a:b::c:d</em>, then <em>(a+b):(a-b) :: (c+d):(c-d)</em></li></ul>",
+    "formulas": [
+      "a/b = c/d => b/a = d/c",
+      "a/b = c/d => a/c = b/d",
+      "(a+b)/b = (c+d)/d",
+      "(a-b)/b = (c-d)/d",
+      "(a+b)/(a-b) = (c+d)/(c-d)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Fundamental algebraic properties of proportions."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 308
+  },
+  {
+    "id": "CDS-PATH-104-MIXTURE-01",
+    "subject": "Mathematics",
+    "chapter": "Mixture or Alligation",
+    "topic": "Mixture or Alligation",
+    "text": "<p><strong>Mixture or Alligation:</strong> If two or more quantities are mixed together in a certain ratio, then the product is called mixture.</p><p><strong>Mean Price:</strong> Cost price of a unit quantity of the mixture is called the mean price.</p><p><strong>Rule of Mixture or Alligation:</strong> It is the rule to find the ratio in which two or more ingredients are mixed or to be mixed. If two quantities are mixed in the ratio n1:n2, then n1/n2 = (P2 - Pm) / (Pm - P1), where P1, P2 and Pm are cheaper price, dearer price and mean price respectively.</p><p>Note: P1 < Pm < P2</p>",
+    "formulas": [
+      "n1/n2 = (P2 - Pm) / (Pm - P1)",
+      "P1 < Pm < P2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Alligation diagram showing Cheaper price (P1) and Dearer price (P2) connected to Mean price (Pm) in the center, with (P2 - Pm) under P1 and (Pm - P1) under P2."
+    ],
+    "details": {
+      "summary": "Definition and rule for calculating mixture ratios using mean price."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 309
+  },
+  {
+    "id": "CDS-PATH-104-VARIATIONS-01",
+    "subject": "Mathematics",
+    "chapter": "Variations",
+    "topic": "Variations",
+    "text": "<p><strong>Variations:</strong> When a change in a certain quantity leads to a certain change in another quantity then it is called variations.</p><p><strong>Direct Variation:</strong> If x varies directly with y, then as x increases (decreases) y also increases (decreases). i.e., x ∝ y => x = ky, where k is the constant of variation.</p><p><strong>Inverse Variation:</strong> If x varies inversely with y, then an increase in the value of x causes a decrease in the value of y. i.e., x ∝ 1/y => x = k'/y, where k' is the constant of variation.</p>",
+    "formulas": [
+      "x ∝ y",
+      "x = ky",
+      "x ∝ 1/y",
+      "x = k'/y"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and mathematical representations of direct and inverse variations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 309
+  },
+  {
+    "id": "log-001",
+    "subject": "Mathematics",
+    "chapter": "Logarithm",
+    "topic": "Definition of Logarithm",
+    "text": "<p>If 'a' is a positive real number, other than 1 and 'b' is a rational number such that a^b = N, then we say that logarithm of N to base 'a' is b or 'b' is the logarithm of N to base 'a', written as log_a N = b.</p><p>So, a^b = N <=> log_a N = b</p><p>Examples: 7^0 = 1 <=> log_7 1 = 0, 81^(1/4) = 3 <=> log_81 3 = 1/4</p>",
+    "formulas": [
+      "a^b = N <=> log_a N = b"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to the definition of logarithms and their relationship with exponents."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 318
+  },
+  {
+    "id": "log-002",
+    "subject": "Mathematics",
+    "chapter": "Logarithm",
+    "topic": "Fundamental Rules of Logarithms",
+    "text": "<p><strong>Rule 1:</strong> If m and n are positive rational numbers, then log_a (mn) = log_a m + log_a n</p><p>If m_1, m_2, ..., m_n are positive rational numbers, then log_a (m_1 m_2 ... m_n) = log_a m_1 + log_a m_2 + ... + log_a m_n</p>",
+    "formulas": [
+      "log_a (mn) = log_a m + log_a n",
+      "log_a (m_1 m_2 ... m_n) = log_a m_1 + log_a m_2 + ... + log_a m_n"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "First fundamental rule of logarithms regarding the product of numbers."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 318
+  },
+  {
+    "id": "logarithm_rules_001",
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "topic": "Logarithm Rules and Properties",
+    "text": "<ul><li><strong>Rule 2:</strong> If m and n are positive rational numbers, then log_a(m/n) = log_a(m) - log_a(n)</li><li><strong>Rule 3:</strong> If m and n are positive rational numbers, then log_a(m^n) = n log_a(m)</li><li><strong>Rule 4:</strong> If m is a positive rational number and a, b are positive real numbers i.e. a != 1 and b != 1, then log_a(m) = log_b(m) / log_b(a)</li></ul><p><strong>SOME USEFUL RESULTS:</strong></p><ul><li>logarithm of 1 with any base is always zero i.e. log_a(1) = 0</li><li>logarithm of base to itself is always 1 i.e. log_a(a) = 1</li><li>x > y => log_a(x) > log_a(y) for a > 1</li><li>x > y => log_a(x) < log_a(y) for 0 < a < 1</li><li>for x > 0, 1 != a > 0, log_a(n^x) = (x/n) log_a(x)</li><li>for 1 != a, b > 0, x > 0, log_b(x) = x log_b(a)</li><li>If 'a' is a positive real number and n is a positive rational number, then (i) log_a(n^x) = (x/y) log_a(n), (ii) a^(log_a(n)) = n, (iii) log_a(n) = log_a^2(n^2) = log_a^3(n^3) = log_a^m(n^m)</li></ul>",
+    "formulas": [
+      "log_a(m/n) = log_a(m) - log_a(n)",
+      "log_a(m^n) = n log_a(m)",
+      "log_a(m) = log_b(m) / log_b(a)",
+      "log_a(1) = 0",
+      "log_a(a) = 1",
+      "a^(log_a(n)) = n"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers logarithmic rules, properties, and useful identities for solving logarithmic equations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 319
+  },
+  {
+    "id": "common_natural_log_002",
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "topic": "Common and Natural Logarithms",
+    "text": "<h3>Common Logarithm and Natural Logarithm</h3><p>Logarithm can have any positive base other than 0. But there are two most important base which are generally used.</p><ol><li><strong>Common Logarithm:</strong> Logarithm to the base '10' is called common logarithm. It is also called Brigg's logarithm. e.g. log 100 = log_10 100 = 2; log 1000 = log_10 1000 = 3</li><li><strong>Natural Logarithm:</strong> Logarithm to the base e is called natural logarithm. It is also called Napier logarithm. log_e(x) is usually denoted by ln x. e is irrational number between 2 and 3. ln x = y => e^y = x</li></ol><h3>ANTILOGARITHM</h3><p>The positive number 'a' is called the antilogarithm of a number b, if log a = b. If 'a' is antilogarithm of b, it is written as a = antilog b. So, a = antilog b <=> log a = b</p>",
+    "formulas": [
+      "log_10(100) = 2",
+      "log_10(1000) = 3",
+      "ln x = y => e^y = x",
+      "a = antilog b <=> log a = b"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of common (base 10) and natural (base e) logarithms, and the definition of antilogarithm."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 319
+  },
+  {
+    "id": "log-001",
+    "subject": "Mathematics",
+    "chapter": "Logarithm",
+    "topic": "Characteristic and Mantissa of a Logarithm",
+    "text": "<p>The logarithm of a positive real number 'n' consists of two parts:</p><ul><li><strong>The integral part</strong> is known as the characteristic. It is always an integer (positive, negative or zero).</li><li><strong>The decimal part</strong> is called the mantissa. The mantissa is never negative and is always less than one.</li></ul><p><strong>To Find the Characteristic:</strong></p><ul><li><strong>Case I:</strong> The characteristic of the log of a number greater than 1 is positive and numerically one less than the number of digits to the left of the decimal part.</li><li><strong>Case II:</strong> The characteristic of log of a number less than 1 is negative and numerically one more than the number of zeroes immediately after the decimal point. It is represented by a bar over the digit.</li></ul><p><strong>Rules for Inserting Decimal Point:</strong></p><ul><li><strong>Rule 5:</strong> When the characteristic of the logarithm is positive, we insert the decimal point after the (n + 1)th digit, where n is the characteristic.</li><li><strong>Rule 6:</strong> When the characteristic of the logarithm is negative, we insert the decimal point such that the first significant figures is at nth place, where n is the characteristic.</li></ul><p><strong>Some Important Points:</strong></p><ul><li>The base of a logarithm is never taken as zero and negative.</li><li>Log of negative integers are not defined and also log_e 0 is not defined.</li><li>Logarithmic function is positive as well as negative but exponential function is always positive.</li></ul>",
+    "formulas": [
+      "log 3.257 = 1 - 1 = 0",
+      "log 32.57 = 2 - 1 = 1",
+      "log 325.7 = 3 - 1 = 2",
+      "log 0.3257 = -(0 + 1) = -1 i.e. 1_bar",
+      "log 0.03257 = -(1 + 1) = -2 i.e. 2_bar",
+      "log 0.003257 = -(2 + 1) = -3 i.e. 3_bar"
+    ],
+    "tables": [
+      "| Value | Characteristic |\n|---|---|\n| log 3.257 | 1 - 1 = 0 |\n| log 32.57 | 2 - 1 = 1 |\n| log 325.7 | 3 - 1 = 2 |",
+      "| Value | Characteristic |\n|---|---|\n| log 0.3257 | -(0 + 1) = -1 i.e. 1_bar |\n| log 0.03257 | -(1 + 1) = -2 i.e. 2_bar |\n| log 0.003257 | -(2 + 1) = -3 i.e. 3_bar |"
+    ],
+    "image_descriptions": [],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 320
+  },
+  {
+    "id": "65a7b1f3-4d5e-4f6a-8b7c-9d0e1f2a3b4c",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Algebraic Expressions",
+    "text": "<p>A combination of constants and variables connected by the four fundamental operations +, -, × and ÷ is called an algebraic expression.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 325
+  },
+  {
+    "id": "76b8c4d4-5e6f-4a7b-9c8d-0e1f2a3b4c5d",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Polynomials",
+    "text": "<p>A polynomial is an algebraic expression consisting of variables and coefficients, having non-negative integral powers. e.g. <em>x</em><sup>3</sup> + 5<em>x</em><sup>2</sup> – 1, 3<em>x</em><sup>3</sup> + 4<em>x</em><sup>2</sup><em>y</em> + 17 etc.</p><p>(i) 3<em>x</em><sup>2</sup> + 9<em>x</em> – 1 + 7 / <em>x</em> is not a polynomial as it contains a term, namely 7 / <em>x</em>, having negative integral power of variable <em>x</em>.</p><p>(ii) 5<em>x</em><sup>2</sup> – 7<em>x</em><sup>7/2</sup> + <em>x</em> – 1 is not a polynomial as the term –7<em>x</em><sup>7/2</sup> contains rational power of variable <em>x</em>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 325
+  },
+  {
+    "id": "87c9d5e5-6f7a-4b8c-0d9e-1f2a3b4c5d6e",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Degree of a Polynomial",
+    "text": "<p>The exponent of the highest degree term in a polynomial, is known as degree of polynomial. e.g. (i) 4<em>x</em><sup>3</sup> – 9<em>x</em><sup>2</sup> + 7<em>x</em> + 9 is a polynomial with variable <em>x</em> of degree 3.</p><p>(ii) 4<em>x</em><sup>3</sup><em>y</em> – 3<em>x</em><sup>2</sup> + 2<em>xy</em> + 1 is a polynomial of degree 4.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 325
+  },
+  {
+    "id": "98d0e6f6-7a8b-4c9d-1e0f-2a3b4c5d6e7f",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Various Types of Polynomials",
+    "text": "<p>Polynomials are classified on the basis of degree of polynomial and number of terms which are given below.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 325
+  },
+  {
+    "id": "a9e1f7g7-8b9c-4d0e-2f1a-3b4c5d6e7f8a",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Based on Degree of Polynomial",
+    "text": "<p>(i) Constant polynomial A polynomial of degree zero, is called constant polynomial. e.g. <em>f</em>(<em>x</em>) = 8.</p><p>Note The polynomial <em>f</em>(<em>x</em>) = 0 is called the zero polynomial. The degree of zero polynomial is not defined.</p>",
+    "formulas": [
+      "f(x) = 8",
+      "f(x) = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 325
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Polynomials",
+    "text": "<p><strong>Linear polynomial:</strong> A polynomial of degree 1.</p><p>e.g., $9x+7$, $x-9$, $x+2$ etc.</p><p><strong>Quadratic polynomial:</strong> A polynomial of degree 2.</p><p>The general form of quadratic polynomial in $x$ is $ax^2 + bx + c$, where $a$, $b$ and $c$ are real and $a \\neq 0$.</p><p>e.g., $x^2 - 7x + 12$, $5y^2 - 2z^2 - 4$ etc., are all quadratic polynomials.</p><p><strong>Cubic polynomial:</strong> A polynomial of degree 3.</p><p>The general form of a cubic polynomial in $x$ is $ax^3 + bx^2 + cx + d$, where $a$, $b$, $c$ and $d$ are real and $a \\neq 0$.</p><p>e.g., $3x^3 + 2x^2 + 7x - 1$, $8y^3 + 5y + 2$, $x^3 - 8$ etc., are all cubic polynomials.</p><p><strong>Biquadratic polynomial:</strong> A polynomial of degree 4.</p><p>The general form of a biquadratic polynomial in $x$ is $ax^4 + bx^3 + cx^2 + dx + e$, where $a$, $b$, $c$, $d$ and $e$ are real numbers and $a \\neq 0$.</p><p>e.g., $6x^4 + 3x^3 + 2x^2 + x + 2$, $x^4 - 8$ etc., are all biquadratic polynomials.</p><p><strong>Based on Number of Terms:</strong></p><p><strong>(i) Monomial:</strong> A polynomial containing only one term is called a monomial. e.g. $6x^2$</p><p><strong>(ii) Binomial:</strong> A polynomial containing two terms is called a binomial. e.g. $5x^3 + 7xy$</p><p><strong>(iii) Trinomial:</strong> A polynomial containing three terms is called a trinomial. e.g. $7x^2 y + 5x + 6$</p><p><strong>FACTORISATION</strong></p><p>To express a polynomial as the product of other polynomials of degree less than that of the given polynomial is called factorisation.</p><p>e.g. $x^2 - 49 = x^2 - 7^2 = (x-7)(x+7)$</p>",
+    "formulas": [
+      "(a^3 - b^3) = (a-b)(a^2 + b^2 + ab)",
+      "(a+b+c)^2 = a^2 + b^2 + c^2 + 2(ab+bc+ac)",
+      "a^3 + b^3 + c^3 - 3abc = (a+b+c)(a^2 + b^2 + c^2 - ab - bc - ac)",
+      "If a + b + c = 0, then a^3 + b^3 + c^3 = 3abc",
+      "a^4 + a^2 b^2 + b^4 = (a^2 + ab + b^2)(a^2 - ab + b^2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This section defines different types of polynomials based on their degree (linear, quadratic, cubic, biquadratic) and the number of terms (monomial, binomial, trinomial). It also introduces the concept of factorisation and provides some important identities."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 326
+  },
+  {
+    "id": "f1e2d3c4-b5a6-7890-1234-567890abcdef",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Factorisation Methods",
+    "text": "<p><strong>Methods of Factorisation</strong></p><p>These methods are given below</p><p><strong>Factorisation by Taking Out the Common Factor</strong></p><p>If each term of an expression has a common factor, take out the common factors.</p><p><strong>Factorisation by Grouping</strong></p><p>Sometimes in a given polynomial, it is not possible to take out a common factor directly. However, on rearranging the terms of the polynomial and grouping them such that all the terms have a common factor, the polynomial can be easily factorised.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This section describes two methods of factorisation: taking out the common factor and factorisation by grouping."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 326
+  },
+  {
+    "id": "g1h2i3j4-k5l6-7890-1234-567890abcdef",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Important Identities",
+    "text": "<p><strong>Important Identities</strong></p>",
+    "formulas": [
+      "(a^2 - b^2) = (a+b)(a-b)",
+      "(a+b)^2 = a^2 + b^2 + 2ab and (a-b)^2 = a^2 + b^2 - 2ab",
+      "(a+b)^2 - (a-b)^2 = 4ab",
+      "(a+b)^2 + (a-b)^2 = 2(a^2 + b^2)",
+      "(a+b)^3 = a^3 + b^3 + 3ab(a+b)",
+      "(a-b)^3 = a^3 - b^3 - 3ab(a-b)",
+      "(a^3 + b^3) = (a+b)(a^2 + b^2 - ab)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This section lists important algebraic identities used in factorisation."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 326
+  },
+  {
+    "id": "f1234567-890a-1234-5678-90abcdef1234",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Factorisation of Perfect Square Polynomials",
+    "text": "<p>If the polynomial is given as the perfect square quadratic polynomial, then use the following Identities to factorise it.</p><ul><li>$a^2 + 2ab + b^2 = (a + b)^2$</li><li>$a^2 - 2ab + b^2 = (a - b)^2$</li></ul>",
+    "formulas": [
+      "a^2 + 2ab + b^2 = (a + b)^2",
+      "a^2 - 2ab + b^2 = (a - b)^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 327
+  },
+  {
+    "id": "f1234567-890a-1234-5678-90abcdef1235",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Factorisation of Sum and Difference of Cubes",
+    "text": "<p>In case, the polynomial is given in the form of $a^3 + b^3$ or $a^3 - b^3$. To factorise it, following identities can be applied.</p><ul><li>$a^3 + b^3 = (a + b)(a^2 - ab + b^2)$</li><li>$a^3 - b^3 = (a - b)(a^2 + ab + b^2)$</li></ul>",
+    "formulas": [
+      "a^3 + b^3 = (a + b)(a^2 - ab + b^2)",
+      "a^3 - b^3 = (a - b)(a^2 + ab + b^2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 327
+  },
+  {
+    "id": "f1234567-890a-1234-5678-90abcdef1236",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Factorising the Difference of Two Squares",
+    "text": "<p>In case, the polynomial is given in the form of $a^2 - b^2$, to evaluate it, following identity is applied.</p><ul><li>$a^2 - b^2 = (a - b)(a + b)$</li></ul>",
+    "formulas": [
+      "a^2 - b^2 = (a - b)(a + b)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 327
+  },
+  {
+    "id": "f1234567-890a-1234-5678-90abcdef1237",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Factorisation of Quadratic Polynomials",
+    "text": "<p>Quadratic polynomials of the type $ax^2 + bx + c$, where $a \\neq 0$, $a$ and $b$ are coefficients of $x^2$ and $x$ respectively and $c$ is constant, can be factorised by splitting the middle term. We find two numbers $p$ and $q$ such that $p + q = b$ and $pq = ac$, then</p><p>$ax^2 + bx + c = ax^2 + (p + q)x + c = ax^2 + px + qx + c$</p>",
+    "formulas": [
+      "ax^2 + bx + c = ax^2 + (p + q)x + c = ax^2 + px + qx + c"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 327
+  },
+  {
+    "id": "f1234567-890a-1234-5678-90abcdef1238",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Factorisation of Polynomial of form a³ + b³ + c³ - 3abc",
+    "text": "<p>Here, it is easy to use.</p><ul><li>$a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ac)$</li><li>If $a + b + c = 0$, then $a^3 + b^3 + c^3 = 3abc$</li></ul>",
+    "formulas": [
+      "a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ac)",
+      "If a + b + c = 0, then a^3 + b^3 + c^3 = 3abc"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 327
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Remainder Theorem",
+    "text": "<p>Let $p(x)$ be a polynomial of degree $n$ greater than or equal to 1 (i.e. $n \\ge 1$) and $a$ be any real number. If $p(x)$ is divided by the linear polynomial $(x-a)$, then the remainder is $p(a)$. Remainder can be evaluated by substituting $x=a$, i.e. $x=a$ in $p(x)$.</p>",
+    "formulas": [
+      "Remainder = p(a)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "The Remainder Theorem states that when a polynomial $p(x)$ is divided by a linear polynomial $(x-a)$, the remainder is $p(a)$."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 328
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef1",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Factor Theorem",
+    "text": "<p>Let $p(x)$ be a polynomial, if degree $n \\ge 1$ and $a$ be any real number. Then,</p><p>(i) If $p(a)=0$, then $(x-a)$ is a factor of $p(x)$.</p><p>(ii) If $(x-a)$ is a factor of $p(x)$, then $p(a)=0$.</p>",
+    "formulas": [
+      "If p(a)=0, then (x-a) is a factor of p(x)",
+      "If (x-a) is a factor of p(x), then p(a)=0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "The Factor Theorem is a special case of the Remainder Theorem. It states that $(x-a)$ is a factor of a polynomial $p(x)$ if and only if $p(a)=0$."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 328
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9012-3456-7890abcdef12",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Factorisation of Polynomials Using Factor Theorem",
+    "text": "<p>To factorise the polynomial, follow the following steps</p><p>(i) Let $p(x)$ be a given polynomial.</p><p>(ii) Find all the possible factors of constant term in $p(x)$.</p><p>(iii) Take any one of the factors, say $(\\alpha)$ and find $p(\\alpha)$. If $p(\\alpha)=0$ the $(x-\\alpha)$ is a factor of $p(x)$.</p><p>(iv) Divide the polynomial $p(x)$ by $(x-\\alpha)$ to find its all other factors.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This section outlines a step-by-step process for factorising polynomials using the Factor Theorem."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 328
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0123-4567-890abcdef123",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Division Synthetic Algorithm",
+    "text": "<p>If $p(x)$ and $g(x)$ any two polynomials with $g(x) \\ne 0$, then we can find polynomials $q(x)$ and $r(x)$ such that</p><p>$p(x) = g(x) \\times q(x) + r(x)$</p><p>i.e. Dividend = (Divisor $\\times$ Quotient) + Remainder</p><p>where, $r(x)=0$ or degree of $r(x)$ < degree of $g(x)$, then we say that $p(x)$ divided by $g(x)$, gives $q(x)$ as quotient and $r(x)$ as remainder.</p><p>If the remainder $r(x)$ is zero, we say that divisor $g(x)$ is a factor of $p(x)$.</p>",
+    "formulas": [
+      "p(x) = g(x) * q(x) + r(x)",
+      "Dividend = (Divisor * Quotient) + Remainder"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "The Division Synthetic Algorithm describes the process of polynomial division, defining the relationship between the dividend, divisor, quotient, and remainder."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 328
+  },
+  {
+    "id": "math-alg-sol-1",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Algebraic Identities and Factoring",
+    "text": "<p><strong>Solution 1:</strong></p><p>The expression x² + y² + z² – 2xy + 2yz – 2zx can be factored using the identity (x – y – z)².</p><p>Given x = 5, y = 3, and z = 2, substitute these values into the identity:</p><p>(x – y – z)² = (5 – 3 – 2)² = (0)² = 0</p>",
+    "formulas": [
+      "x^2 + y^2 + z^2 - 2xy + 2yz - 2zx = (x - y - z)^2",
+      "(5 - 3 - 2)^2 = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Demonstrates the application of the (x-y-z)^2 identity."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 332
+  },
+  {
+    "id": "math-alg-sol-2",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Factoring Quadratic Expressions",
+    "text": "<p><strong>Solution 2:</strong></p><p>To factor the quadratic expression x² – 2√3 x + 3:</p><ul><li>Rewrite the middle term: x² – √3 x – √3 x + 3</li><li>Factor by grouping: x(x – √3) – √3 (x – √3)</li><li>Combine terms: (x – √3) (x – √3)</li><li>Simplify: (x – √3)²</li></ul>",
+    "formulas": [
+      "x^2 - 2sqrt(3)x + 3 = (x - sqrt(3))^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Illustrates factoring a perfect square trinomial involving a radical."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 332
+  },
+  {
+    "id": "math-alg-sol-3",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Difference of Squares Factorization",
+    "text": "<p><strong>Solution 3:</strong></p><p>To factor (a⁴b⁴ – 16c⁴):</p><ul><li>Recognize as a difference of squares: [(a²b²)² – (4c²)²]</li><li>Apply the difference of squares formula (A² – B² = (A – B)(A + B)): [a²b² + 4c²] [a²b² – 4c²]</li><li>Apply the formula again to the second term: [a²b² + 4c²] [(ab)² – (2c)²]</li><li>Final factorization: [a²b² + 4c²] [(ab – 2c) (ab + 2c)]</li></ul>",
+    "formulas": [
+      "a^4b^4 - 16c^4 = (a^2b^2)^2 - (4c^2)^2",
+      "A^2 - B^2 = (A - B)(A + B)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Demonstrates repeated application of the difference of squares identity."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 332
+  },
+  {
+    "id": "math-alg-sol-4",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Difference of Squares Factorization",
+    "text": "<p><strong>Solution 4:</strong></p><p>To factor x⁸ – y⁸:</p><ul><li>Recognize as a difference of squares: [(x⁴)² – (y⁴)²]</li><li>Apply the difference of squares formula: [x⁴ + y⁴] [x⁴ – y⁴]</li><li>Apply the formula again to the second term: [x⁴ + y⁴] [(x²)² – (y²)²]</li><li>Apply the formula again: [x⁴ + y⁴] (x² + y²) (x² – y²)</li><li>Final factorization: (x⁴ + y⁴) (x² + y²) (x + y) (x – y)</li></ul>",
+    "formulas": [
+      "x^8 - y^8 = (x^4 + y^4)(x^2 + y^2)(x + y)(x - y)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Illustrates factoring a high-degree polynomial using repeated difference of squares."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 332
+  },
+  {
+    "id": "math-alg-sol-5",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Factoring Quadratic Expressions",
+    "text": "<p><strong>Solution 5:</strong></p><p>To factor (a² + a + 1/4):</p><ul><li>Rewrite the middle term: a² + 1/2 a + 1/2 a + 1/4</li><li>Factor by grouping: a(a + 1/2) + 1/2 (a + 1/2)</li><li>Combine terms: (a + 1/2) (a + 1/2)</li><li>Simplify: (a + 1/2)²</li></ul>",
+    "formulas": [
+      "a^2 + a + 1/4 = (a + 1/2)^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Demonstrates factoring a perfect square trinomial with fractional coefficients."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 332
+  },
+  {
+    "id": "math-alg-sol-6",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Factoring by Grouping",
+    "text": "<p><strong>Solution 6:</strong></p><p>To factor 8 – 4x – 2x² + x⁴:</p><ul><li>Group terms and factor out common factors: 4(2 – x) – x²(2 – x)</li><li>Factor out the common binomial: (2 – x) (4 – x²)</li></ul>",
+    "formulas": [
+      "8 - 4x - 2x^2 + x^4 = (2 - x)(4 - x^2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Illustrates factoring a polynomial by grouping terms."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 332
+  },
+  {
+    "id": "math-alg-sol-7",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Factoring by Grouping and Difference of Squares",
+    "text": "<p><strong>Solution 7:</strong></p><p>To factor (a² – b² – 4ac + 4c²):</p><ul><li>Rearrange and group terms to form a perfect square trinomial: [(a² – 4ac + 4c²) – b²]</li><li>Factor the perfect square trinomial: [(a – 2c)² – b²]</li><li>Apply the difference of squares formula: (a – 2c – b) (a – 2c + b)</li></ul>",
+    "formulas": [
+      "a^2 - b^2 - 4ac + 4c^2 = (a - 2c - b)(a - 2c + b)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Demonstrates factoring by grouping, recognizing a perfect square, and then applying difference of squares."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 332
+  },
+  {
+    "id": "math-alg-sol-8",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Factoring Quadratic Expressions with Substitution",
+    "text": "<p><strong>Solution 8:</strong></p><p>The solution provided is for the expression z² – 2z – 8, where z = x – 2y.</p><ul><li>Factor the quadratic: z² – 2z – 8 = z² – 4z + 2z – 8</li><li>Factor by grouping: z(z – 4) + 2(z – 4)</li><li>Combine terms: (z + 2)(z – 4)</li><li>Substitute back z = x – 2y: (x – 2y + 2) and (x – 2y – 4) are the required factors.</li></ul><p><em>Note: The original problem statement (x² + y² + 4xy – 4x – 8) does not directly lead to the provided solution steps. The solution appears to be for a different expression, likely (x-2y)^2 - 2(x-2y) - 8.</em></p>",
+    "formulas": [
+      "z^2 - 2z - 8 = (z + 2)(z - 4)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Illustrates factoring a quadratic expression using substitution. Notes a discrepancy between the problem statement and the solution provided."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 332
+  },
+  {
+    "id": "math-alg-sol-9",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Factoring Algebraic Expressions",
+    "text": "<p><strong>Solution 9:</strong></p><p>To factor a³ – 1/a³ – 2a + 2/a:</p><ul><li>Group terms: (a³ – 1/a³) – 2(a – 1/a)</li><li>Apply the difference of cubes formula (A³ – B³ = (A – B)(A² + AB + B²)): (a – 1/a) (a² + 1 + 1/a²) – 2(a – 1/a)</li><li>Factor out the common term (a – 1/a): (a – 1/a) (a² + 1/a² + 1 – 2)</li><li>Simplify: (a – 1/a) (a² + 1/a² – 1)</li></ul>",
+    "formulas": [
+      "a^3 - 1/a^3 - 2a + 2/a = (a - 1/a)(a^2 + 1/a^2 - 1)",
+      "A^3 - B^3 = (A - B)(A^2 + AB + B^2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Demonstrates factoring an expression involving difference of cubes and common factors."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 332
+  },
+  {
+    "id": "math-alg-sol-10",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Factoring Quadratic Expressions",
+    "text": "<p><strong>Solution 10:</strong></p><p>To factor 1/3 (x² – 2x – 9):</p><ul><li>Multiply by 3 to clear the fraction for factoring the quadratic: (x² – 6x – 27)/3</li><li>Factor the quadratic expression x² – 6x – 27: x² – 9x + 3x – 27</li><li>Factor by grouping: x(x – 9) + 3(x – 9)</li><li>Combine terms: (x + 3) (x – 9)</li><li>Reintroduce the 1/3 factor: 1/3 (x + 3) (x – 9)</li></ul>",
+    "formulas": [
+      "1/3 (x^2 - 2x - 9) = 1/3 (x + 3)(x - 9)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Illustrates factoring a quadratic expression with a fractional coefficient."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 332
+  },
+  {
+    "id": "math-algebra-identity-001",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Algebraic Identities",
+    "text": "<p><strong>Identity:</strong> x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = (x + y + z)(x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> - xy - yz - zx)</p><p><strong>Important Note:</strong> If x + y + z = 0, then x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = 0, which implies x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> = 3xyz.</p>",
+    "formulas": [
+      "x^3 + y^3 + z^3 - 3xyz = (x + y + z)(x^2 + y^2 + z^2 - xy - yz - zx)",
+      "If x + y + z = 0, then x^3 + y^3 + z^3 = 3xyz"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This note explains a fundamental algebraic identity and a special case where if the sum of three variables is zero, their cubes sum to three times their product."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 336
+  },
+  {
+    "id": "math-algebra-factortheorem-001",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "topic": "Factor Theorem",
+    "text": "<p><strong>Factor Theorem Example:</strong> To check if (x - 2) is a factor of a polynomial, substitute x = 2 into the polynomial. If the result is 0, then (x - 2) is a factor.</p><p><strong>Example Calculation:</strong> For a polynomial (e.g., x<sup>4</sup> - 6x<sup>3</sup> + 12x<sup>2</sup> - 24x + 32), substituting x = 2 gives:</p><ul><li>2<sup>4</sup> - 6(2)<sup>3</sup> + 12(2)<sup>2</sup> - 24(2) + 32</li><li>= 16 - 6(8) + 12(4) - 48 + 32</li><li>= 16 - 48 + 48 - 48 + 32</li><li>= 0</li></ul><p>Since the result is 0, (x - 2) is a factor of the polynomial x<sup>4</sup> - 6x<sup>3</sup> + 12x<sup>2</sup> - 24x + 32.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This note illustrates the application of the Factor Theorem by demonstrating how to check if (x-2) is a factor of a given polynomial."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 336
+  },
+  {
+    "id": "hcf-lcm-poly-intro-001",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Introduction",
+    "text": "<p>Regularly (1-2) questions have been asked from this chapter. Generally questions are based on your prior knowledge of GCD and LCM of numbers and expressions.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to the chapter on HCF and LCM of Polynomials, highlighting exam relevance and prerequisite knowledge."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 337
+  },
+  {
+    "id": "hcf-lcm-poly-divisor-001",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Divisor",
+    "text": "<p>A polynomial d(x) is said to be a divisor of polynomial p(x) if d(x) is a factor of p(x) i.e., p(x) can be written as p(x)=d(x)·q(x), where q(x) is a quotient polynomial e.g. (x-3) is a divisor of (x-3)<sup>2</sup>(x+1).</p>",
+    "formulas": [
+      "p(x)=d(x)·q(x)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of a polynomial divisor with an example."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 337
+  },
+  {
+    "id": "hcf-lcm-poly-hcf-def-001",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "HCF (GCD) of Polynomials",
+    "text": "<p>A polynomial h(x) is called the HCF or GCD of two or more given polynomials, if h(x) is a polynomial of highest degree dividing each one of the given polynomial without leaving any remainder.</p><p><strong>Note</strong> The coefficient of highest degree term is always taken as positive.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of HCF (Highest Common Factor) or GCD (Greatest Common Divisor) for polynomials, including a note on coefficient positivity."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 337
+  },
+  {
+    "id": "hcf-lcm-poly-example-001",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "HCF (GCD) of Polynomials - Example",
+    "text": "",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "An example demonstrating how to find the HCF of two polynomials."
+    },
+    "mcq": {
+      "question": "The HCF of polynomials (x+2)<sup>2</sup> (x-3)<sup>2</sup> and (x+1)(x+2)<sup>2</sup> (x-3) is",
+      "options": [
+        "a. (x+2)(x-3)",
+        "b. (x+2)<sup>2</sup> (x-3)",
+        "c. (x+1)(x+2)(x-3)",
+        "d. (x+2)<sup>2</sup> (x-3)<sup>2</sup>"
+      ],
+      "correct": 1,
+      "explanation": "Sol. Let p(x) = (x+2)<sup>2</sup> (x-3)<sup>2</sup> and q(x) = (x+1)(x+2)<sup>2</sup> (x-3). The common factor between two polynomials is (x+2)<sup>2</sup> (x-3), ∴ HCF = (x+2)<sup>2</sup> (x-3)"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 337
+  },
+  {
+    "id": "hcf-lcm-poly-factorisation-001",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "HCF by Factorisation Method",
+    "text": "<p>Following are the steps for calculating HCF through factorisation method</p><ul><li><strong>Step I</strong> Resolve the given polynomials in the complete factored form.</li><li><strong>Step II</strong> Find the HCF of the numerical factors (if any) of given polynomial.</li><li><strong>Step III</strong> Find the factors of highest degree which is common to all given polynomials.</li><li><strong>Step IV</strong> The product of all such common factors and HCF of the numerical factors is the HCF of given polynomials.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Steps to calculate HCF of polynomials using the factorisation method."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 337
+  },
+  {
+    "id": "math-hcf-lcm-poly-hcf-division",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "HCF by Division Method",
+    "text": "<p>To find the HCF of polynomials which cannot be factorised easily, we use successive division method.</p><ul><li><strong>Step I</strong> Arrange the given polynomials in descending order of powers of its variables.</li><li><strong>Step II</strong> If any common factor is present in the terms of each polynomial, it should be taken out.</li><li><strong>Step III</strong> Divide the polynomial of highest degree by the polynomial of lowest degree. Or If both the polynomials are of the same degree then any one of them can be taken as divisor or dividend.</li><li><strong>Step IV</strong> After the first division take the remainder as the new divisor and first divisor as new dividend.</li><li><strong>Step V</strong> Continue this process of dividing the last divisor by the last remainder until the remainder becomes zero.</li><li><strong>Step VI</strong> The product of common factors obtained from step II and last divisor is the HCF of given polynomials.</li></ul><p><strong>Note</strong></p><ul><li>If the first term of a remainder is negative at any stage, the sign of all of its term must be changed.</li><li>If at any stage, the remainder contains common factor it should be taken out.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explains the step-by-step process of finding the Highest Common Factor (HCF) of polynomials using the successive division method, particularly useful when factorization is difficult. Includes important notes regarding handling negative remainders and common factors in remainders."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 338
+  },
+  {
+    "id": "math-hcf-lcm-poly-lcm-definition",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "LCM of Polynomials",
+    "text": "<p>A polynomial <em>l(x)</em> is called the LCM of two or more polynomials, if it is a polynomial of smallest degree which is divided by each one of the given polynomials without leaving any remainder.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Defines the Least Common Multiple (LCM) of polynomials as the polynomial of the smallest degree that is divisible by all given polynomials without any remainder."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 338
+  },
+  {
+    "id": "math-hcf-lcm-poly-lcm-factorisation",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "LCM by Factorisation Method",
+    "text": "<p>Following are the steps for calculating LCM through factorisation method</p><ul><li><strong>Step I</strong> Resolve the given polynomials in the complete factored form</li><li><strong>Step II</strong> Find the LCM of the numerical factors (if any) of given polynomials</li><li><strong>Step III</strong> The required LCM is the product of LCM of numerical factors and each factor raised to the highest power.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Outlines the three steps for calculating the Least Common Multiple (LCM) of polynomials using the factorisation method, involving resolving polynomials into factored form, finding LCM of numerical factors, and combining factors with the highest powers."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 338
+  },
+  {
+    "id": "math-algebra-lcm-example5",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "LCM of Polynomials",
+    "text": "<p><strong>EXAMPLE 5.</strong> The LCM of <em>x</em>³ - 2<em>x</em>² - <em>x</em> + 2 and <em>x</em>³ - <em>x</em>² - 4<em>x</em> + 4 is</p><ul><li>a. (<em>x</em>² - 1)(<em>x</em>² - 4)</li><li>b. (<em>x</em>² + 2)(<em>x</em>² - 4)</li><li>c. (<em>x</em>² + 1)(<em>x</em>² + 2)</li><li>d. None of these</li></ul><p><strong>Sol. a.</strong> Here, <em>x</em>³ - 2<em>x</em>² - <em>x</em> + 2 = <em>x</em>²(<em>x</em> - 2) - 1(<em>x</em> - 2)</p><p>⇒ (<em>x</em> - 2)(<em>x</em>² - 1) = (<em>x</em> - 2)(<em>x</em> - 1)(<em>x</em> + 1)</p><p>and <em>x</em>³ - <em>x</em>² - 4<em>x</em> + 4 = <em>x</em>²(<em>x</em> - 1) - 4(<em>x</em> - 1)</p><p>⇒ (<em>x</em> - 1)(<em>x</em>² - 4) = (<em>x</em> - 1)(<em>x</em> - 2)(<em>x</em> + 2)</p><p>∴ Required LCM = (<em>x</em> - 1)(<em>x</em> + 1)(<em>x</em> - 2)(<em>x</em> + 2)</p><p>= (<em>x</em>² - 1)(<em>x</em>² - 2²)</p><p>[: (<em>a</em> - <em>b</em>)(<em>a</em> + <em>b</em>) = <em>a</em>² - <em>b</em>²]</p><p>= (<em>x</em>² - 1)(<em>x</em>² - 4)</p>",
+    "formulas": [
+      "x^3 - 2x^2 - x + 2",
+      "x^3 - x^2 - 4x + 4",
+      "(x - 2)(x^2 - 1)",
+      "(x - 2)(x - 1)(x + 1)",
+      "(x - 1)(x^2 - 4)",
+      "(x - 1)(x - 2)(x + 2)",
+      "(x^2 - 1)(x^2 - 2^2)",
+      "(a - b)(a + b) = a^2 - b^2",
+      "(x^2 - 1)(x^2 - 4)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 339
+  },
+  {
+    "id": "math-algebra-hcf-lcm-example6",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "HCF and LCM of Polynomials",
+    "text": "<p><strong>EXAMPLE 6.</strong> The HCF of two polynomials is <em>x</em> + 3 and their LCM is <em>x</em>³ - 7<em>x</em> + 6. If one of the polynomials is <em>x</em>² + 2<em>x</em> - 3. Then, the other is</p><ul><li>a. <em>x</em>² - <em>x</em> - 6</li><li>b. <em>x</em>² - <em>x</em> + 6</li><li>c. <em>x</em>² + <em>x</em> + 6</li><li>d. None of these</li></ul><p><strong>Sol. d.</strong> Here, HCF = <em>x</em> + 3 and LCM = <em>x</em>³ - 7<em>x</em> + 6</p><p>Also, one polynomial = <em>x</em>² + 2<em>x</em> - 3</p><p>As, LCM × HCF = Product of two polynomials</p><p>Other polynomial = <sup>LCM × HCF</sup>⁄<sub>One polynomial</sub></p><p>= <sup>(<em>x</em> + 3)(<em>x</em>³ - 7<em>x</em> + 6)</sup>⁄<sub><em>x</em>² + 2<em>x</em> - 3</sub></p><p>= <sup>(<em>x</em> + 3)(<em>x</em> - 1)(<em>x</em>² + <em>x</em> - 6)</sup>⁄<sub>(<em>x</em> + 3)(<em>x</em> - 1)</sub></p><p>= <em>x</em>² + <em>x</em> - 6</p><p>So, other polynomial is <em>x</em>² + <em>x</em> - 6.</p>",
+    "formulas": [
+      "HCF = x + 3",
+      "LCM = x^3 - 7x + 6",
+      "One polynomial = x^2 + 2x - 3",
+      "LCM * HCF = Product of two polynomials",
+      "Other polynomial = (LCM * HCF) / One polynomial",
+      "(x + 3)(x^3 - 7x + 6) / (x^2 + 2x - 3)",
+      "(x + 3)(x - 1)(x^2 + x - 6) / ((x + 3)(x - 1))",
+      "x^2 + x - 6"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 339
+  },
+  {
+    "id": "math-algebra-hcf-lcm-property",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Properties of HCF and LCM",
+    "text": "<p>For any two polynomials <em>p(x)</em> and <em>q(x)</em></p><p><em>p(x)</em> × <em>q(x)</em> = (Their HCF) × (Their LCM)</p><p>i.e. Product of two polynomials</p><p>= Product of their HCF and LCM</p>",
+    "formulas": [
+      "p(x) * q(x) = HCF * LCM"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": ""
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 339
+  },
+  {
+    "id": "N_Math_Alg_LCM_Ex1",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "LCM of Polynomials",
+    "text": "<p>1. (c) LCM = product of the largest power of each factor</p><p>= x²(x - 1)(x - 2)(x + 3)</p>",
+    "formulas": [
+      "LCM = product of the largest power of each factor",
+      "x²(x - 1)(x - 2)(x + 3)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example of finding LCM by factoring polynomials."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 341
+  },
+  {
+    "id": "N_Math_Alg_LCM_HCF_Ex2",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "HCF and LCM of Polynomials",
+    "text": "<p>2. (b) Here, 2(a² - b²) = 2(a + b)(a - b)</p><p>3(a³ - b³) = 3(a - b)(a² + ab + b²)</p><p>and 4(a⁴ - b⁴) = 4(a + b)(a - b)(a² + b²)</p><p>LCM of numerical coefficients = 12</p><p>and LCM of algebraic expressions</p><p>= (a - b)(a + b)(a² + b²)(a² + ab + b²)</p><p>= (a⁴ - b⁴)(a² + ab + b²)</p><p>∴ LCM of polynomials</p><p>= 12(a⁴ - b⁴)(a² + ab + b²)</p>",
+    "formulas": [
+      "2(a² - b²) = 2(a + b)(a - b)",
+      "3(a³ - b³) = 3(a - b)(a² + ab + b²)",
+      "4(a⁴ - b⁴) = 4(a + b)(a - b)(a² + b²)",
+      "LCM of numerical coefficients = 12",
+      "LCM of algebraic expressions = (a - b)(a + b)(a² + b²)(a² + ab + b²)",
+      "LCM of polynomials = 12(a⁴ - b⁴)(a² + ab + b²)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example of finding LCM for multiple expressions involving numerical coefficients and algebraic factors."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 341
+  },
+  {
+    "id": "N_Math_Alg_LCM_HCF_Ex3",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "HCF and LCM of Polynomials",
+    "text": "<p>3. (c) LCM = <span style=\"text-decoration: overline;\">Product of expressions</span></p><p>HCF</p><p>= <span style=\"text-decoration: overline;\">a × b</span></p><p>1</p><p>= ab</p>",
+    "formulas": [
+      "LCM = (Product of expressions) / HCF",
+      "LCM = (a × b) / 1 = ab"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for calculating LCM given the product of expressions and HCF."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 341
+  },
+  {
+    "id": "N_Math_Alg_LCM_Ex4",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "LCM of Polynomials",
+    "text": "<p>4. (a) Given, (x + 3)²(x - 2)(x + 1)²</p><p>and (x + 1)³(x + 3)(x + 4)</p><p>LCM</p><p>= (x - 2)(x + 1)³(x + 3)²(x + 4)</p>",
+    "formulas": [
+      "LCM = (x - 2)(x + 1)³(x + 3)²(x + 4)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example of finding LCM of two given polynomial expressions."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 341
+  },
+  {
+    "id": "N_Math_Alg_HCF_Ex5",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "HCF of Polynomials",
+    "text": "<p>5. (b) 4y⁴x - 9y²x³ = y²x(2y - 3x)(2y + 3x)</p><p>4y²x² + 6y³x³ = 2y²x²(2y + 3x)</p><p>∴ Required HCF = xy(2y + 3x)</p>",
+    "formulas": [
+      "4y⁴x - 9y²x³ = y²x(2y - 3x)(2y + 3x)",
+      "4y²x² + 6y³x³ = 2y²x²(2y + 3x)",
+      "Required HCF = xy(2y + 3x)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example of finding HCF of two polynomial expressions by factoring."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 341
+  },
+  {
+    "id": "N_Math_Alg_HCF_Ex6",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "HCF of Polynomials",
+    "text": "<p>6. (a) Let p(x) = x⁴ - x² - 6</p><p>= x⁴ - 3x² + 2x² - 6</p><p>= x²(x² - 3) + 2(x² - 3)</p><p>= (x² + 2)(x² - 3)</p><p>q(x) = x⁴ - 4x² + 3</p><p>= x⁴ - 3x² - x² + 3</p><p>= x²(x² - 3) - 1(x² - 3)</p><p>= (x² - 1)(x² - 3)</p><p>HCF of p(x), q(x) = x² - 3</p>",
+    "formulas": [
+      "p(x) = x⁴ - x² - 6 = (x² + 2)(x² - 3)",
+      "q(x) = x⁴ - 4x² + 3 = (x² - 1)(x² - 3)",
+      "HCF of p(x), q(x) = x² - 3"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example of finding HCF of two quadratic polynomials by factoring."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 341
+  },
+  {
+    "id": "N_Math_Alg_HCF_Ex7",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "HCF of Polynomials",
+    "text": "<p>7. (a) A = (x + 3)²(x - 2)(x + 1)² and</p><p>B = (x + 1)³(x + 3)(x + 4)</p><p>∴ HCF of polynomials</p><p>= (x + 3)(x + 1)²</p>",
+    "formulas": [
+      "HCF of polynomials = (x + 3)(x + 1)²"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example of finding HCF of two polynomial expressions."
+    },
+    "mcq": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 341
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-008",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding HCF of Polynomials",
+    "text": "<p>Here, HCF of 22 and 36 is 2.</p><p>Now, x (x + 1)² = x (x + 1) (x + 1)</p><p>x² (2x² + 3x + 1) = x² (2x + 1) (x + 1)</p><p>Common factors of x (x + 1)² and x² (2x² + 3x + 1) are x (x + 1).</p><p>Hence, required HCF = 2x (x + 1)</p>",
+    "formulas": [
+      "x (x + 1)² = x (x + 1) (x + 1)",
+      "x² (2x² + 3x + 1) = x² (2x + 1) (x + 1)",
+      "HCF = 2x (x + 1)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find the HCF of two polynomial expressions by factorization."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-009",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding LCM of Polynomials",
+    "text": "<p>a² – b² – c² – 2bc = a² – (b² + c² + 2bc) = a² – (b + c)² = (a + b + c) (a – b – c)</p><p>b² – c² – a² – 2ac = b² – (c² + a² + 2ac) = b² – (c + a)² = (b – c – a) (b + c + a) = (a + b + c) (b – c – a)</p><p>and c² – a² – b² – 2ab = c² – (a² + b² + 2ab) = c² – (a + b)² = (c – a – b) (c + a + b) = (a + b + c) (c – a – b)</p><p>∴ Required LCM = (a + b + c) (a – b – c) (b – c – a) (c – a – b)</p>",
+    "formulas": [
+      "a² – b² – c² – 2bc = (a + b + c) (a – b – c)",
+      "b² – c² – a² – 2ac = (a + b + c) (b – c – a)",
+      "c² – a² – b² – 2ab = (a + b + c) (c – a – b)",
+      "LCM = (a + b + c) (a – b – c) (b – c – a) (c – a – b)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find the LCM of three polynomial expressions by factorization."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-010",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding LCM from given factors",
+    "text": "<p>Given, [(x + 3) (x – 2)] and [(x – 2) (x – 6)]</p><p>∴ LCM = (x + 3) (x – 2) (x – 6)</p>",
+    "formulas": [
+      "LCM = (x + 3) (x – 2) (x – 6)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find the LCM of two expressions given their factored forms."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-011",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding unknown coefficient using HCF property",
+    "text": "<p>Since, (z – 1) is the HCF, so it will divide each one of the given polynomials.</p><p>So, z = 1 will make each one zero.</p><p>∴ p(1)² – q(1 + 1) = 0 ⇒ p = 2q</p>",
+    "formulas": [
+      "p(1)² – q(1 + 1) = 0",
+      "p = 2q"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find a relationship between unknown coefficients when the HCF of two polynomials is given."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-012",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding an expression using HCF and LCM properties",
+    "text": "<p>Let p(x) and q(x) be two polynomials and p(x) ÷ HCF = a and q(x) ÷ HCF = b</p><p>∴ p(x) × q(x) = LCM × HCF</p><p>⇒ a × HCF × b × HCF = LCM × HCF</p><p>⇒ a × b × HCF = LCM</p><p>ab = LCM / HCF</p><p>3x⁴ + 4x³ – 7x² – 4x + 4 / 3x² + 4x – 4</p><p>= (x + 1) (x – 1)</p><p>Let a = (x + 1) and b = (x – 1), then the required expression are (x + 1) (3x² + 4x – 4) and (x – 1) (3x² + 4x – 4).</p>",
+    "formulas": [
+      "p(x) × q(x) = LCM × HCF",
+      "a × b × HCF = LCM",
+      "ab = LCM / HCF",
+      "(3x⁴ + 4x³ – 7x² – 4x + 4) / (3x² + 4x – 4) = (x + 1) (x – 1)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find two polynomial expressions given their HCF and LCM, and the quotient of their product by HCF."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-013",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding a polynomial given LCM and HCF",
+    "text": "<p>Here, LCM = 36x³ (x + a) (x³ – a³)</p><p>and HCF = x² (x – a)</p><p>p(x) = 4x² (x² – a²)</p><p>But p(x) × q(x) = HCF × LCM</p><p>q(x) = HCF × LCM / p(x)</p><p>= x² (x – a) 36x³ (x + a) (x³ – a³) / 4x² (x² – a²)</p><p>= 9x³ (x³ – a³)</p>",
+    "formulas": [
+      "LCM = 36x³ (x + a) (x³ – a³)",
+      "HCF = x² (x – a)",
+      "p(x) = 4x² (x² – a²)",
+      "p(x) × q(x) = HCF × LCM",
+      "q(x) = HCF × LCM / p(x)",
+      "q(x) = 9x³ (x³ – a³)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find an unknown polynomial q(x) given p(x), HCF, and LCM."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-014",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding HCF of polynomials",
+    "text": "<p>Given,</p><p>p(x) = x³ + 2x – 3 = (x + 3) (x – 1)</p><p>q(x) = x² + x – 6 = (x + 3) (x – 2)</p><p>and LCM</p><p>= x³ – 7x + 6 = (x – 1) (x² – 6x + 6)</p><p>= (x – 1) (x – 3) (x – 2)</p><p>∴ HCF = p(x) × q(x) / LCM</p><p>= (x – 1) (x + 3) (x – 2) (x + 3) / (x – 1) (x – 3) (x – 2)</p><p>= (x + 3)</p>",
+    "formulas": [
+      "p(x) = x³ + 2x – 3 = (x + 3) (x – 1)",
+      "q(x) = x² + x – 6 = (x + 3) (x – 2)",
+      "LCM = x³ – 7x + 6 = (x – 1) (x – 3) (x – 2)",
+      "HCF = p(x) × q(x) / LCM",
+      "HCF = (x + 3)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find the HCF of two polynomials given their factored forms and their LCM."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-015",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding unknown coefficient using HCF property",
+    "text": "<p>Since, (x + k) is the HCF, it will divide both the polynomials without leaving any remainder, thus x = – k will make both of them zero.</p><p>∴ k² – pk + q = k² – ak + b</p><p>or – ak + b = – pk + q</p><p>⇒ ak – pk = b – q</p><p>∴ k = (b – q) / (a – p)</p>",
+    "formulas": [
+      "k² – pk + q = k² – ak + b",
+      "ak – pk = b – q",
+      "k = (b – q) / (a – p)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find an unknown coefficient 'k' when (x+k) is the HCF of two polynomials."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-016",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding unknown coefficient using HCF property",
+    "text": "<p>Since, (x + 4) is HCF, so it will divide both the expressions i.e. x = – 4 will make each one zero.</p><p>∴ 2(–4)² + k(–4) – 12 = 0</p><p>32 – 12 = 4k</p><p>⇒ 20 = 4k</p><p>⇒ k = 5</p>",
+    "formulas": [
+      "2(–4)² + k(–4) – 12 = 0",
+      "20 = 4k",
+      "k = 5"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find an unknown coefficient 'k' when (x+4) is the HCF of a polynomial."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-017",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding unknown coefficient using HCF property",
+    "text": "<p>Since, HCF of x² + x – 12 and – kx – 9 is (x – k), then (x – k) will be the factor of 2x² – kx – 9.</p><p>∴ 2k² – k² – 9 = 0</p><p>⇒ k² – 9 = 0</p><p>⇒ k = ± 3</p><p>and factor of x² + x – 12 are (x + 4) (x – 3).</p><p>Hence, value of k is 3.</p>",
+    "formulas": [
+      "2k² – k² – 9 = 0",
+      "k² – 9 = 0",
+      "k = ± 3",
+      "x² + x – 12 = (x + 4) (x – 3)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find the value of 'k' when (x-k) is the HCF of two polynomials."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-018",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding unknown coefficients using GCD property",
+    "text": "<p>Here, (x – 3) is GCD, so is a factor of both of them.</p><p>∴ Putting x = 3, in both makes each polynomial zero.</p><p>3³ – 2(3)² + p(3) + 6 = 0 ⇒ p = – 5</p><p>3² – 5(3) + q = 0 ⇒ q = 6</p><p>5q + 6p = 5(6) + 6(–5) = 30 – 30 = 0</p>",
+    "formulas": [
+      "3³ – 2(3)² + p(3) + 6 = 0",
+      "p = – 5",
+      "3² – 5(3) + q = 0",
+      "q = 6",
+      "5q + 6p = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find unknown coefficients 'p' and 'q' when (x-3) is the GCD of two polynomials."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-019",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding a polynomial from sum and difference",
+    "text": "<p>Let the expressions be p(x) and q(x), then</p><p>p(x) + q(x) = 5x² – x – 4 ... (i)</p><p>p(x) – q(x) = x² + 9x – 10 ... (ii)</p><p>On adding Eqs. (i) and (ii), we have</p><p>2p(x) = 6x² + 8x – 14</p><p>⇒ p(x) = 3x² + 4x – 7</p><p>= x(3x + 7) – 1(3x + 7)</p><p>∴ p(x) = (3x + 7) (x – 1)</p>",
+    "formulas": [
+      "p(x) + q(x) = 5x² – x – 4",
+      "p(x) – q(x) = x² + 9x – 10",
+      "2p(x) = 6x² + 8x – 14",
+      "p(x) = 3x² + 4x – 7",
+      "p(x) = (3x + 7) (x – 1)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find a polynomial p(x) given the sum and difference of two polynomials p(x) and q(x)."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-020",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding unknown coefficients using HCF property",
+    "text": "<p>Subtracting Eqs. (i) and (ii), we have</p><p>⇒ q(x) = 2x² – 5x + 3</p><p>= 2x² – 3x – 2x + 3</p><p>= x(2x – 3) – 1(2x – 3)</p><p>= (x – 1) (2x – 3)</p><p>∴ LCM of p(x) and q(x)</p><p>= (x – 1) (2x – 3) (3x + 7)</p><p>As HCF is (x + 1) (x + 3), then both (x + 1) and (x + 3) must be factors of p(x) and q(x).</p><p>For p(x), (x + 1) is already a factor, so (x + 3) must be a factor of x² + 2x + a.</p><p>So, (–3)² + 2(–3) + a = 0</p><p>⇒ 9 – 6 + a = 0</p><p>⇒ a = – 3</p><p>For q(x), (x + 3) is already factor.</p><p>∴ (x + 1) must be a factor of x² + 7x + b.</p><p>∴ (–1)² + 7(–1) + b = 0</p><p>⇒ 1 – 7 + b = 0</p><p>⇒ b = 6</p><p>So, a = – 3 and b = 6 is solution.</p>",
+    "formulas": [
+      "q(x) = 2x² – 5x + 3 = (x – 1) (2x – 3)",
+      "LCM of p(x) and q(x) = (x – 1) (2x – 3) (3x + 7)",
+      "(-3)² + 2(-3) + a = 0",
+      "a = -3",
+      "(-1)² + 7(-1) + b = 0",
+      "b = 6"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find unknown coefficients 'a' and 'b' in polynomials p(x) and q(x) given their HCF."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-021",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding HCF when polynomials vanish at a point",
+    "text": "<p>Given, f(x) and g(x) vanish at x = 1/2</p><p>So, (2x – 1) is a factor of f(x) and g(x) both.</p><p>Hence, HCF of f(x) and g(x) = 2x – 1.</p>",
+    "formulas": [
+      "HCF of f(x) and g(x) = 2x – 1"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find the HCF of two polynomials if they both vanish at a specific value of x."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-022",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Reference to another problem",
+    "text": "<p>Refer to question 13.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Instruction to refer to problem 13."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-023",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding unknown coefficients using HCF property",
+    "text": "<p>As (x – 2) is the HCF of (ax² + bx + c) and (bx² + ax + c)</p><p>So, it will divide both the expressions,</p><p>∴ a (2)² + b(2) + c = 0</p><p>⇒ 4a + 2b + c = 0 ... (i)</p><p>and b (2)² + a (2) + c = 0</p><p>⇒ 4b + 2a + c = 0 ... (ii)</p><p>adding Eqs. (i) and (ii), we get</p><p>⇒ 6a + 6b + 2c = 0</p><p>⇒ 2c = – 6a – 6b</p><p>⇒ c = – 3 (a + b)</p>",
+    "formulas": [
+      "a(2)² + b(2) + c = 0",
+      "4a + 2b + c = 0",
+      "b(2)² + a(2) + c = 0",
+      "4b + 2a + c = 0",
+      "6a + 6b + 2c = 0",
+      "2c = – 6a – 6b",
+      "c = – 3 (a + b)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find a relationship between unknown coefficients 'a', 'b', and 'c' when (x-2) is the HCF of two polynomials."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "math-hcf-lcm-poly-ex-024",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Polynomials",
+    "topic": "Finding HCF and LCM of polynomials",
+    "text": "<p>A = p² + 8p + 12 = (p + 2) (p + 6)</p><p>B = p² + 2p – 24 = (p – 4) (p + 6)</p><p>C = p² + 15p + 54 = (p + 9) (p + 6)</p><p>I. LCM of A, B</p><p>and C = (p + 2) (p + 6) (p – 4) (p + 9)</p><p>Thus, I is correct.</p><p>II. HCF of A, B and C = (p + 6)</p><p>Hence, II is incorrect.</p>",
+    "formulas": [
+      "A = p² + 8p + 12 = (p + 2) (p + 6)",
+      "B = p² + 2p – 24 = (p – 4) (p + 6)",
+      "C = p² + 15p + 54 = (p + 9) (p + 6)",
+      "LCM of A, B and C = (p + 2) (p + 6) (p – 4) (p + 9)",
+      "HCF of A, B and C = (p + 6)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example demonstrating how to find the LCM and HCF of three polynomials and evaluate given statements."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 342
+  },
+  {
+    "id": "6f2a1b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Rational Expressions",
+    "text": "<p>An expression in the form of <strong>p(x)/q(x)</strong>, where p(x) and q(x) are polynomials and q(x)≠0 is called a rational expression.</p><p>In the rational expression <strong>p(x)/q(x)</strong>, p(x) is called the numerator and q(x) is called the denominator of the rational expression.</p><p>Every polynomial is a rational expression. Since, p(x) can always be written as <strong>p(x)/1</strong> and a constant function 1 is a polynomial of degree 0.</p><p>Every rational expression need not be a polynomial.</p>",
+    "formulas": [
+      "p(x)/q(x)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and properties of rational expressions."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 344
+  },
+  {
+    "id": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Rational Expressions",
+    "text": "<h2>Working Rule to Reduce the Given Rational Expression in its Lowest Term</h2><ol><li>Firstly, factorize both the polynomials p(x) and q(x).</li><li>Find the HCF of p(x) and q(x). If HCF of p(x) and q(x) is one, then rational expression <strong>p(x)/q(x)</strong> is in its lowest terms.</li><li>If HCF is not equal to 1. Then, divide both p(x) and q(x) by their HCF and the rational expression is obtained in the lowest terms.</li></ol>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Steps to reduce a rational expression to its lowest term."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 344
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Operations on Rational Expressions",
+    "text": "<p><strong>1. Addition or Subtraction of Rational Expressions with like denominators</strong></p><p>It $\\frac{P(x)}{q(x)}$ and $\\frac{b(x)}{q(x)}$ are two rational expressions then</p><p>$\\frac{p(x)}{q(x)} + \\frac{b(x)}{q(x)} = \\frac{p(x) \\pm b(x)}{q(x)}$</p><p><strong>2. Addition or subtraction of Rational Expressions with unlike denominators</strong></p><p>To add or subtract rational expressions with unlike denominators, follow the steps given below</p><p>Step I Write each denominator in the factor form</p><p>Step II Find the LCM of the denominators</p><p>Step III Rewrite each rational expression with LCM as the denominator</p><p>Step IV Add or subtract the numerators.</p>",
+    "formulas": [
+      "\\frac{p(x)}{q(x)} + \\frac{b(x)}{q(x)} = \\frac{p(x) \\pm b(x)}{q(x)}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 345
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef1",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Operations on Rational Expressions",
+    "text": "<p><strong>3. Multiplication of Rational Expressions</strong> If $\\frac{P(x)}{q(x)}$ and $\\frac{g(x)}{b(x)}$ are two rational expressions, then their product is given by</p><p>$\\frac{p(x)}{q(x)} \\times \\frac{g(x)}{b(x)} = \\frac{p(x) \\cdot g(x)}{q(x) \\cdot b(x)}$</p><ul><li>Multiplicative inverse of $\\frac{p(x)}{q(x)}$ is $\\frac{q(x)}{p(x)}$.</li><li>1 is the multiplicative identity.</li></ul>",
+    "formulas": [
+      "\\frac{p(x)}{q(x)} \\times \\frac{g(x)}{b(x)} = \\frac{p(x) \\cdot g(x)}{q(x) \\cdot b(x)}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 345
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9012-3456-7890abcdef12",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Operations on Rational Expressions",
+    "text": "<p><strong>4. Division of Rational Expressions</strong> If $\\frac{P(x)}{q(x)}$ and $\\frac{g(x)}{b(x)}$ are two rational expressions, then their division is given by</p><p>$\\frac{p(x)}{q(x)} \\div \\frac{g(x)}{b(x)} = \\frac{p(x)}{q(x)} \\times \\frac{b(x)}{g(x)}$</p><p>i.e. $\\frac{b(x)}{g(x)}$ = Product of $\\frac{p(x)}{q(x)}$ and the reciprocal of $\\frac{g(x)}{b(x)}$.</p>",
+    "formulas": [
+      "\\frac{p(x)}{q(x)} \\div \\frac{g(x)}{b(x)} = \\frac{p(x)}{q(x)} \\times \\frac{b(x)}{g(x)}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 345
   }
 ]
