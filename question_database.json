@@ -225058,5 +225058,59 @@
     "question_type": "Statement Based",
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 218
+  },
+  {
+    "question_id": "Q119",
+    "question_number": "119",
+    "question_text": "If a and b are negative real numbers and c is a positive real number, then which of the following is/are correct? I. a - b < a - c II. If a < b, then a/c < b/c III. 1/b < 1/c",
+    "options": [
+      "Only I",
+      "Only II",
+      "Only III",
+      "II and III"
+    ],
+    "correct_answer": "Not provided",
+    "explanation": "Not provided",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "2016",
+    "exam": "CDS",
+    "paper": "I",
+    "shift": "Not specified",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Real Numbers",
+    "topic": "Inequalities",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 219
+  },
+  {
+    "question_id": "Q120",
+    "question_number": "120",
+    "question_text": "If m and n are distinct natural numbers, then which of the following is/are integer/integers? I. m/n + n/m II. mn(m/n + n/m)(m^2 + n^2)^-1 III. mn/(m^2 + n^2)",
+    "options": [
+      "I and II",
+      "Only II",
+      "II and III",
+      "Only III"
+    ],
+    "correct_answer": "Not provided",
+    "explanation": "Not provided",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "2016",
+    "exam": "CDS",
+    "paper": "I",
+    "shift": "Not specified",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Natural Numbers",
+    "topic": "Integers",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 219
   }
 ]
