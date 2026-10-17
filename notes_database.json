@@ -59080,5 +59080,122 @@
     },
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 211
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Divisibility Rules and Theorems",
+    "topic": "Theorem of Divisibility",
+    "content": "### Theorem of Divisibility\n\n1. **Number of Divisors:**\n   If $N$ is a composite number of the form $N = p^a \\cdot q^b \\cdot r^c \\dots$, where $p, q, r$ are prime numbers, then the number of divisors of $N$, represented by $m$, is given by:\n   $$m = (a+1)(b+1)(c+1)\\dots$$\n\n2. **Sum of Divisors:**\n   The sum of the divisors of $N$, represented by $S$, is given by:\n   $$S = \\left(\\frac{p^{a+1}-1}{p-1}\\right) \\left(\\frac{q^{b+1}-1}{q-1}\\right) \\left(\\frac{r^{c+1}-1}{r-1}\\right) \\dots$$\n   *(Note: The text representation in the source was fragmented, but this is the standard mathematical formula for the sum of divisors based on the prime factorization context provided.)*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 212
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Divisibility Rules and Theorems",
+    "topic": "Important Results on Division",
+    "content": "### Important Results on Division\n\n1. If $p$ divides $q$ and $r$, then $p$ also divides their sum ($q+r$) and difference ($q-r$).\n2. For any natural number $n$, $(n^3 - n)$ is divisible by 6.\n3. The product of three consecutive natural numbers is always divisible by 6.\n4. $(x^m - a^m)$ is divisible by $(x + a)$ for **even** values of $m$.\n5. $(x^m + a^m)$ is divisible by $(x + a)$ for **odd** values of $m$.\n6. $(x^m - a^m)$ is divisible by $(x - a)$ for **all** values of $m$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 212
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Arithmetic",
+    "subchapter": "Shortcut Methods",
+    "topic": "Multiplication by 9, 99, etc.",
+    "content": "### Shortcut: Multiplication by 9, 99, 999, etc.\n\n**Method:**\n1. Place as many zeros at the right of the multiplicand as there are nines in the multiplier.\n2. Subtract the original multiplicand from the number formed in step 1.\n\n**Examples:**\n*   $8886 \\times 9999 = 88860000 - 8886 = 88851114$\n*   $56985 \\times 999 = 56985000 - 56985 = 56928015$",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 212
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Arithmetic",
+    "subchapter": "Shortcut Methods",
+    "topic": "Multiplication by Powers of 5",
+    "content": "### Shortcut: Multiplication by a Power of 5\n\n**Method:**\n1. Put as many zeros to the right of the multiplicand as is the power of 5 in the multiplier.\n2. Divide the number so formed by $2$ raised to the same power as the power of 5 in the multiplier.\n\n*(Note: The text cuts off, but this is the standard algorithm for multiplying by $5^n$.)*",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 212
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simplification of Expressions",
+    "subchapter": "Order of Operations",
+    "topic": "VBODMAS Rule",
+    "content": "The **VBODMAS** rule is a mnemonic for the order in which arithmetic operations should be performed:\n\n- **V** – *Under line portion* (also called *bar* or *overline*), e.g., \n  \n- **B** – *Brackets*: parentheses `()`, braces `{}",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 213
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Divisibility Rules",
+    "topic": "Divisibility by 25",
+    "content": "A number is divisible by 25 if and only if the number formed by its last two digits is divisible by 25. This means the last two digits must be 00, 25, 50, or 75.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 214
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Divisibility Rules",
+    "topic": "Divisibility by 11",
+    "content": "A number is divisible by 11 if the difference between the sum of the digits in the odd positions and the sum of the digits in the even positions is either 0 or a multiple of 11.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 214
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Modular Arithmetic",
+    "topic": "Remainder Properties",
+    "content": "If $a \\equiv r_1 \\pmod m$ and $b \\equiv r_2 \\pmod m$, then $ab \\equiv r_1 r_2 \\pmod m$. The remainder of the product is the remainder of the product of the remainders.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 214
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Modular Arithmetic",
+    "topic": "Scaling Remainders",
+    "content": "If $n \\equiv r \\pmod m$, then $kn \\equiv kr \\pmod m$. To find the remainder of $kn$ divided by $m$, calculate $kr$ and find its remainder modulo $m$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 214
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Absolute Value",
+    "topic": "Properties of Absolute Value",
+    "content": "For any real number $x$, $|x| = x$ if $x \\ge 0$ and $|x| = -x$ if $x < 0$. Therefore, if $x$ is a negative real number, $|x| = -x$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 214
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Inequalities",
+    "topic": "Solving Linear Inequalities",
+    "content": "To solve an inequality like $ax < b$ where $a > 0$, divide both sides by $a$ without changing the inequality sign. If $a < 0$, reverse the inequality sign.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 214
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Last Digit Problems",
+    "topic": "Cyclicity of Last Digits",
+    "content": "The last digit of a power $a^n$ depends on the last digit of $a$ and the exponent $n$. The last digits of powers repeat in cycles. For example, the last digit of $7^n$ cycles as 7, 9, 3, 1. To find the last digit of $7^{754}$, find $754 \\pmod 4$.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 214
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Arithmetic Progressions",
+    "topic": "Sum of AP",
+    "content": "The sum of an arithmetic progression is given by $S_n = \\frac{n}{2}(a + l)$, where $n$ is the number of terms, $a$ is the first term, and $l$ is the last term.",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 214
   }
 ]

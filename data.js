@@ -1073,29 +1073,6 @@ let CURRENT_AFFAIRS_LIVE = {
         "correct": 2,
         "explanation": "The amendment raises the turnover ceiling for medium enterprises from ₹250 crore to ₹500 crore to broaden the MSME definition and improve access to credit."
       }
-    },
-    {
-      "id": "ca_live_20261012_002",
-      "topic": "Political",
-      "topicColor": "#FF4500",
-      "summary": "Indian opposition protests amid lockdown – Al Jazeera Report",
-      "text": "<p><strong>What happened:</strong> On 12 October 2026, opposition parties in India organised mass marches across major cities demanding the removal of the Election Commission chief, defying a nationwide lockdown imposed by the central government.</p><p><strong>Why it matters:</strong> The protest highlights escalating political tension ahead of the upcoming general elections and raises questions about the balance between public‑health directives and democratic dissent.</p><p><strong>Background:</strong> The lockdown, announced on 1 October 2026, was intended to curb a resurgence of the respiratory virus <em>H7N9</em>. Critics argue that the restrictions are being used to suppress political mobilisation.</p><p><strong>Key facts:</strong> <ul><li>Thousands of activists gathered in Delhi, Mumbai, Kolkata and Chennai.</li><li>Police reported over 150 arrests.</li><li>International media, including Al Jazeera, covered the events extensively.</li></ul></p>",
-      "quickSummary": "On 12 Oct 2026, Indian opposition parties staged nationwide protests demanding the Election Commission chief’s removal, challenging a lockdown imposed to curb a virus surge.",
-      "detailedAnalysis": "- Date: 12 Oct 2026<br>- Locations: Delhi, Mumbai, Kolkata, Chennai<br>- Issue: Removal of Election Commission chief<br>- Government response: Lockdown enforcement, arrests<br>- International coverage: Al Jazeera",
-      "backgroundContext": "For UPSC and defence exams, such events test candidates’ understanding of civil‑military relations, internal security, and the impact of political unrest on national stability.",
-      "stakeholders": [
-        "Opposition parties",
-        "Election Commission of India",
-        "Central Government",
-        "Public health authorities"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Medium",
-        "CAPF": "High",
-        "UPSC": "High"
-      }
     }
   ]
 };
