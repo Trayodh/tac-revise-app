@@ -62349,5 +62349,1931 @@
     "details": {},
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 345
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Introduction",
+    "text": "<p>Generally (3-5) questions have been definitely asked from this chapter in CDS examination. Beside this, the linear equations are also applicable in solving various word problems related to number system, mensuration, time and work, etc.</p><p>A linear equation is an equation for a straight line. So, the equation which has degree 1, i.e., which has linear power of the variables, is called a linear equation.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 349
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef1",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Linear Equations in One Variable",
+    "text": "<p>A linear equation in one variable is an equation which can be written in the form of <em>ax + b = 0</em>, or <em>ax = c</em>, where <em>a, b, c</em> are real numbers with <em>a ≠ 0</em>.</p><p>e.g. <em>5x + 8 = 9 - x</em>, <em>\frac{2}{3}y + 7 = \frac{y}{2}</em> and <em>3t + 9 = 9 - t</em> are linear equations in one variable.</p>",
+    "formulas": [
+      "ax + b = 0",
+      "ax = c"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 349
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9012-3456-7890abcdef12",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Solving a linear Equation in One Variable",
+    "text": "<p>1. Simplify both sides of the equation.</p><p>2. Use the addition and subtraction properities to get all variables of terms on the LHS and all constant terms on the RHS.</p><p>3. Simplify and divide both sides of the equation by the coefficient of the variable.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 349
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0123-4567-890abcdef123",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Linear Equation in Two Variables",
+    "text": "<p>An equation which can be put in the form <em>ax + by + c = 0</em>, where <em>a, b</em> and <em>c</em> are real numbers and <em>a, b</em> both are not zero, is called a linear equation in two variables.</p><p>e.g. <em>2x + 3y = 5</em>, <em>\\sqrt{2}x + \\sqrt{3}y = 0</em> and <em>2a + 3b = 0</em> are linear equations in two variables.</p>",
+    "formulas": [
+      "ax + by + c = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 349
+  },
+  {
+    "id": "f2b1c3a4-d5e6-f7a8-b9c0-d1e2f3a4b5c6",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Pair of Linear Equations",
+    "text": "<p>Two linear equations in the two same variables are called pair of linear equations in two variables. The general form of pair of linear equations in two variables x and y is $ax + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$ where, $a_1, a_2, b_1, b_2$ and $c_1, c_2$ are all real numbers and $a_1^2 + b_1^2 \neq 0, a_2^2 + b_2^2 \neq 0$.</p>",
+    "formulas": [
+      "ax + b_1y + c_1 = 0",
+      "a_2x + b_2y + c_2 = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 350
+  },
+  {
+    "id": "a1b2c3d4-e5f6-a7b8-c9d0-e1f2a3b4c5d6",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Consistency Pair of Linear Equations",
+    "text": "<p>A pair of linear equations which has no solution is called an <strong>inconsistent pair</strong> of linear equations. A pair of linear equations which has atleast one solution is called a <strong>consistent pair</strong> of linear equations. Let us consider two linear equations as $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$. Pair of linear equations in two variables will represent two straight lines, both to be considered together. The table given below repersents the three possibilities.</p>",
+    "formulas": [
+      "a_1x + b_1y + c_1 = 0",
+      "a_2x + b_2y + c_2 = 0"
+    ],
+    "tables": [
+      "| Ratios | Consistency | Graphical Representation | Algebraic interpretation |\n|---|---|---|---|\n| $\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}$ | Consistent | Intersecting lines. | Exactly one solution (unique). |\n| $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$ | Dependent (consistent) | Coincident lines. | Infinitely many solutions. |\n| $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$ | Inconsistent | Parallel lines. | No solution. |"
+    ],
+    "image_descriptions": [
+      "Diagram showing three lines. The first line is labeled 'Intersecting lines.' The second line is labeled 'Coincident lines.' The third line is labeled 'Parallel lines.'"
+    ],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 350
+  },
+  {
+    "id": "e7f8a9b0-c1d2-e3f4-a5b6-c7d8e9f0a1b2",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Homogeneous Pair of Linear Equations",
+    "text": "<p>The pair of linear equations $a_1x + b_1y = 0, a_2x + b_2y = 0$ has</p><ol><li>A unique solution, if $\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}$ and the solution is $x=0, y=0$.</li><li>An infinite number of solutions, if $\\frac{a_1}{a_2} = \\frac{b_1}{b_2}$.</li></ol><p>This pair of linear equations is always consistent.</p>",
+    "formulas": [
+      "a_1x + b_1y = 0",
+      "a_2x + b_2y = 0",
+      "x=0, y=0",
+      "\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}",
+      "\\frac{a_1}{a_2} = \\frac{b_1}{b_2}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 350
+  },
+  {
+    "id": "c3d4e5f6-a7b8-c9d0-e1f2-a3b4c5d6e7f8",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Algebraic Methods of Solutions",
+    "text": "<p>Different algebraic methods for solving pair of linear equations are discussed below in detail.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 350
+  },
+  {
+    "id": "d9e0f1a2-b3c4-d5e6-f7a8-b9c0d1e2f3a4",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Substitution Method",
+    "text": "<p>In this method, we substitute the value of one variable in terms of other variable to solve the pair of linear equations, so this method is called substitution method. Steps used in this method are given below.</p><p><strong>Step I</strong> Find the value of one variable x (or y) in terms of other variable i.e. y (or x) from an equation.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 350
+  },
+  {
+    "id": "a5b6c7d8-e9f0-a1b2-c3d4-e5f6a7b8c9d0",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Pair of Linear Equations",
+    "text": "<p>Given equations are, $kx + 2y - 5 = 0$ and $3x + y - 1 = 0$.</p><p>On comparing the given equations, with standard form of equations</p><p>$a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$</p><p>We have, $a_1 = k, b_1 = 2, c_1 = -5$</p><p>and $a_2 = 3, b_2 = 1, c_2 = -1$</p><p>(i) Here, the equations have a unique solution, if</p><p>$\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}$</p><p>i.e. if $\\frac{k}{3} \\neq \\frac{2}{1} \\implies k \\neq 6$</p><p>(ii) The equations have no solution, if</p><p>$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$</p><p>$\\implies \\frac{k}{3} = \\frac{2}{1} \\implies k = 6$</p>",
+    "formulas": [
+      "kx + 2y - 5 = 0",
+      "3x + y - 1 = 0",
+      "a_1x + b_1y + c_1 = 0",
+      "a_2x + b_2y + c_2 = 0",
+      "a_1 = k, b_1 = 2, c_1 = -5",
+      "a_2 = 3, b_2 = 1, c_2 = -1",
+      "\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}",
+      "\\frac{k}{3} \\neq \\frac{2}{1}",
+      "k \\neq 6",
+      "\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}",
+      "\\frac{k}{3} = \\frac{2}{1}",
+      "k = 6"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 350
+  },
+  {
+    "id": "b1c2d3e4-f5a6-b7c8-d9e0-f1a2b3c4d5e6",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Pair of Linear Equations",
+    "text": "<p>The value of k for which the system of equations $kx - y = 2, 6x - 2y = 3$ has infinitely many solutions is</p>",
+    "formulas": [
+      "kx - y = 2",
+      "6x - 2y = 3"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 350
+  },
+  {
+    "id": "f7a8b9c0-d1e2-f3a4-b5c6-d7e8f9a0b1c2",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Pair of Linear Equations",
+    "text": "<p>Given equations are, $kx - y = 2$ and $6x - 2y = 3$.</p><p>On comparing the given equations, with standard form of equations</p><p>$a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$</p><p>We have, $a_1 = k, b_1 = -1, c_1 = -2$</p><p>and $a_2 = 6, b_2 = -2, c_2 = -3$</p><p>Here, the equations have infinite number of solutions, if</p><p>$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$</p><p>But, $\\frac{a_1}{a_2} = \\frac{k}{6}, \\frac{b_1}{b_2} = \\frac{-1}{-2} = \\frac{1}{2}$ and $\\frac{c_1}{c_2} = \\frac{-2}{-3} = \\frac{2}{3}$</p><p>So, $\\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$.</p><p>Thus, the system has no such value of k, for which the given system has infinitely many solutions.</p>",
+    "formulas": [
+      "kx - y = 2",
+      "6x - 2y = 3",
+      "a_1x + b_1y + c_1 = 0",
+      "a_2x + b_2y + c_2 = 0",
+      "a_1 = k, b_1 = -1, c_1 = -2",
+      "a_2 = 6, b_2 = -2, c_2 = -3",
+      "\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}",
+      "\\frac{k}{6}",
+      "\\frac{-1}{-2} = \\frac{1}{2}",
+      "\\frac{-2}{-3} = \\frac{2}{3}",
+      "\\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 350
+  },
+  {
+    "id": "f2a3b1c4-d5e6-f7a8-b9c0-d1e2f3a4b5c6",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Linear Equations in Two Variables",
+    "text": "<p><strong>2. Elimination Method</strong></p><p>In this method, one variable is eliminated from both equations to have an equation in one variable, so it is called elimination method.</p><p>Steps used in this method are given below.</p><p><strong>Step I</strong> Make the coefficient of one variable (x or y) numerically equal by multiplying both equations by some suitable non zero constant.</p><p><strong>Step II</strong> Now, add or subtract both equations, so that one variable is eliminated and the remaining equation is in one variable only.</p><p><strong>Step III</strong> Solve the equation in one variable to get the value of this variable (x or y).</p><p><strong>Step IV</strong> Substitute this value (x or y) in either of the given equations to get the value of other variable.</p><p><strong>EXAMPLE 5.</strong> The solution of the given system of equations 2x + 5y = 11 and 3x + 4y = 13 is</p><p><strong>Sol. b.</strong> Given equations are, 2x + 5y = 11 ...(i) and 3x + 4y = 13 ...(ii)</p><p>On multiplying Eq. (i) by 3 and Eq. (ii) by 2, we get</p><p>6x + 15y = 33 ...(iii)</p><p>6x + 8y = 26 ...(iv)</p><p>On subtracting Eq. (iv) from Eq. (iii), we get</p><p>(6 x + 15y) – (6x + 8y) = 33 – 26 => 7y = 7 => y = 1</p><p>Put y = 1 in Eq. (i), 2x + 5 × 1 = 11</p><p>=> 2x = 11 – 5 => 2x = 6 => x = 3</p><p>Hence, solution of system of equations is (3, 1).</p><p><strong>3. Cross-multiplication Method</strong></p><p>Let us consider a general system of two simultaneous linear equations</p><p>a<sub>1</sub>x + b<sub>1</sub>y + c<sub>1</sub> = 0 ...(i)</p><p>a<sub>2</sub>x + b<sub>2</sub>y + c<sub>2</sub> = 0 ...(ii)</p><p>where, $\frac{a_1}{a_2} \neq \frac{b_1}{b_2}$ then the solution of the system is given by,</p><p>$x = \frac{b_1c_2 - b_2c_1}{a_1b_2 - a_2b_1}$ and $y = \frac{c_1a_2 - c_2a_1}{a_1b_2 - a_2b_1}$</p><p>$\therefore \frac{x}{b_1c_2 - b_2c_1} = \frac{y}{c_1a_2 - c_2a_1} = \frac{1}{a_1b_2 - a_2b_1}$</p><p>This method is called cross multiplication method.</p><p><strong>Remembering Technique (Cross-multiplication)</strong></p><p>The following diagram helps in remembering the above solution.</p><p>The arrows between the two numbers indicate that they are to be multiplied. The downward arrows indicate first product while upward arrows indicate the second product. The second product is to be subtracted from the first.</p><p><strong>EXAMPLE 6.</strong> The system of equations ax - by = a<sup>2</sup> - b<sup>2</sup> and x + y = a + b has the solution.</p><p><strong>Sol. a.</strong> Given, pairs of linear equations are</p><p>ax - by - (a<sup>2</sup> - b<sup>2</sup>) = 0 ...(i)</p><p>x + y - (a + b) = 0 ...(ii)</p><p>On comparing Eqs. (i) and (ii) with a<sub>1</sub>x + b<sub>1</sub>y + c<sub>1</sub> = 0 and a<sub>2</sub>x + b<sub>2</sub>y + c<sub>2</sub> = 0, we get</p><p>a<sub>1</sub> = a, b<sub>1</sub> = -b, c<sub>1</sub> = -(a<sup>2</sup> - b<sup>2</sup>)</p><p>a<sub>2</sub> = 1, b<sub>2</sub> = 1, c<sub>2</sub> = -(a + b)</p><p>By cross multiplication, we have</p><p>$\\Rightarrow \frac{x}{b(a+b) - (-b)(-(a^2-b^2))} = \frac{y}{-(a^2-b^2)(1) - (-b)(-(a+b))} = \frac{1}{a(1) - (-b)(1)}$</p><p>$\\Rightarrow \frac{x}{b(a+b) - b(a^2-b^2)} = \frac{y}{-(a^2-b^2) - b(a+b)} = \frac{1}{a+b}$</p><p>$\\Rightarrow \frac{x}{b(a+b) - b(a-b)(a+b)} = \frac{y}{-(a-b)(a+b) - b(a+b)} = \frac{1}{a+b}$</p><p>$\\Rightarrow \frac{x}{b(a+b)[1 - (a-b)]} = \frac{y}{(a+b)[-(a-b) - b]} = \frac{1}{a+b}$</p><p>$\\Rightarrow \frac{x}{b(a+b)(1-a+b)} = \frac{y}{(a+b)(-a+b-b)} = \frac{1}{a+b}$</p><p>$\\Rightarrow \frac{x}{b(a+b)(1-a+b)} = \frac{y}{(a+b)(-a)} = \frac{1}{a+b}$</p><p>So, $x = \frac{b(a+b)(1-a+b)}{a+b} = b(1-a+b)$ and $y = \frac{(a+b)(-a)}{a+b} = -a$. This is not matching the options. Let's recheck the calculation.</p><p>Let's re-evaluate the cross multiplication step:</p><p>$\frac{x}{(-b)(-(a+b)) - (1)(-(a^2-b^2))} = \frac{y}{(-(a^2-b^2))(1) - (a)(-(a+b))} = \frac{1}{(a)(1) - (1)(-b)}$</p><p>$\\Rightarrow \frac{x}{b(a+b) + (a^2-b^2)} = \frac{y}{-(a^2-b^2) + a(a+b)} = \frac{1}{a+b}$</p><p>$\\Rightarrow \frac{x}{ab+b^2 + a^2-b^2} = \frac{y}{-a^2+b^2 + a^2+ab} = \frac{1}{a+b}$</p><p>$\\Rightarrow \frac{x}{a^2+ab} = \frac{y}{b^2+ab} = \frac{1}{a+b}$</p><p>$\\Rightarrow \frac{x}{a(a+b)} = \frac{y}{b(b+a)} = \frac{1}{a+b}$</p><p>$\\Rightarrow x = \frac{a(a+b)}{a+b} = a$ and $y = \frac{b(a+b)}{a+b} = b$. So, x = a and y = b is the required solution.</p>",
+    "formulas": [
+      "x = (b1c2 - b2c1) / (a1b2 - a2b1)",
+      "y = (c1a2 - c2a1) / (a1b2 - a2b1)",
+      "a1x + b1y + c1 = 0",
+      "a2x + b2y + c2 = 0",
+      "2x + 5y = 11",
+      "3x + 4y = 13",
+      "6x + 15y = 33",
+      "6x + 8y = 26",
+      "7y = 7",
+      "y = 1",
+      "2x + 5(1) = 11",
+      "2x = 6",
+      "x = 3",
+      "ax - by = a^2 - b^2",
+      "x + y = a + b",
+      "ax - by - (a^2 - b^2) = 0",
+      "x + y - (a + b) = 0",
+      "a1 = a, b1 = -b, c1 = -(a^2 - b^2)",
+      "a2 = 1, b2 = 1, c2 = -(a + b)",
+      "x / (b(a+b) + (a^2-b^2)) = y / (-(a^2-b^2) + a(a+b)) = 1 / (a+b)",
+      "x / (a^2+ab) = y / (b^2+ab) = 1 / (a+b)",
+      "x / (a(a+b)) = y / (b(a+b)) = 1 / (a+b)",
+      "x = a",
+      "y = b"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram illustrating the cross-multiplication method for solving simultaneous linear equations. It shows two sets of coefficients (a1, b1, c1 and a2, b2, c2) arranged in a specific order. Arrows connect the coefficients to indicate multiplication pairs. The top row shows x, y, and 1. The second row shows b1, c1, a1, b1. The third row shows b2, c2, a2, b2. Arrows go from b1 to c2, c1 to b2, c1 to a2, a1 to c2, a1 to b2, b1 to a2. The diagram visually represents the formula for solving the equations using cross-multiplication."
+    ],
+    "details": {
+      "summary": "This section details the Elimination Method and the Cross-Multiplication Method for solving systems of linear equations in two variables. The Elimination Method involves making coefficients equal and then adding/subtracting equations to solve for one variable, followed by substitution. The Cross-Multiplication Method provides a direct formula derived from a general system of linear equations, with a visual mnemonic diagram to aid in remembering the formula."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 351
+  },
+  {
+    "id": "g7h8i9j0-k1l2-m3n4-o5p6-q7r8s9t0u1v2",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Linear Equations in Two Variables",
+    "text": "<p><strong>Step II</strong> Substitute this value of x (or y) in other equation, and reduce it to a linear equation in one variable i.e. in terms of y (or x) which can be solved easily.</p><p><strong>Step III</strong> Substitute the value of y (or x) obtained in Step II in the equation which is used to obtain the value of the other variable in Step I.</p><p><strong>EXAMPLE 4.</strong> The solutions of the system of equations x + y = 14 and x - y = 4, is</p><p><strong>Sol. b.</strong> Given equations are, x + y = 14 ...(i) and x - y = 4 ...(ii)</p><p>from eq. (ii), y = x - 4 ...(iii)</p><p>On substituting the value of y from Eq. (iii) in Eq. (i), we get</p><p>x + x - 4 = 14 => 2x = 18 => x = 9</p><p>On substituting x = 9 in Eq. (iii), we get</p><p>y = 9 - 4 => y = 5</p><p>Hence, x = 9 and y = 5</p>",
+    "formulas": [
+      "x + y = 14",
+      "x - y = 4",
+      "y = x - 4",
+      "x + (x - 4) = 14",
+      "2x - 4 = 14",
+      "2x = 18",
+      "x = 9",
+      "y = 9 - 4",
+      "y = 5"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This section explains the steps for solving a system of linear equations using substitution. It provides an example (Example 4) demonstrating how to find the solution for the system x + y = 14 and x - y = 4 by substituting the expression for one variable from one equation into the other."
+    },
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 351
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Equations Reducible to a Pair of Linear Equations",
+    "text": "<p>We have several situations when there are two equations that are not linear, but can be reduced to a pair of linear equations. By making suitable substitutions.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 352
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef1",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Equations Reducible to a Pair of Linear Equations",
+    "text": "<p>An equation in the form of ax+by+cz=r, where a, b, c and r are real numbers and a, b and c are not all zeros is called a linear equation in three variables.</p><p>e.g. 3x+4y-7z = 2, -2x+y-z = 6 and x+y+z = 2 are all linear equation in three variables.</p><p>Use substitution and elimination method to solve the system of three equations in three variables.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 352
+  },
+  {
+    "id": "6f2a1b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Linear Equations",
+    "text": "<p>The application of linear equations are discussed below.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 353
+  },
+  {
+    "id": "7g3b2c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Linear Equations",
+    "subchapter": "Problem Based on Ages",
+    "text": "<p>If the problem involves finding out the ages of two persons, then take the present age of one person as <em>x</em> and that of the other as <em>y</em>.</p><p>Then, '<em>a</em>' years ago, age of 1st person was (<em>x</em> - <em>a</em>) years and that of 2nd person was (<em>y</em> - <em>a</em>) years.</p><p>After <em>b</em> years, age of 1st person will be (<em>x</em> + <em>b</em>) years and that of 2nd person will be (<em>y</em> + <em>b</em>) years.</p><p>Formulate the equations and then solve them.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 353
+  },
+  {
+    "id": "8h4c3d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Linear Equations",
+    "subchapter": "Problem Based on Numbers",
+    "text": "<p>Let the digit in unit's place be <em>x</em> and that in ten's place be <em>y</em>. Then, the two-digits number is given by 10<em>y</em> + <em>x</em>.</p><p>On interchanging the positions of the digits, the digit in unit place becomes <em>y</em> and that in ten's place becomes <em>x</em>, and the number becomes 10<em>x</em> + <em>y</em>. Formulate the equations and then solve them.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 353
+  },
+  {
+    "id": "9i5d4e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Linear Equations",
+    "subchapter": "Problem Based on Fractions",
+    "text": "<p>Let the numerator of the fraction be <em>x</em> and denominator be <em>y</em>, then the fraction is <em>x</em> / <em>y</em>.</p><p>Formulate the linear equations on the basis of conditions given and solve them.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 353
+  },
+  {
+    "id": "f1234567-890a-1234-5678-90abcdef1234",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Problem Based on Distance, Speed and Time",
+    "text": "<p>Speed is the distance covered by an object per unit time.</p><p>i.e. <code>Speed = Distance / Time</code></p><p>If the speed of boat in still water be x km/h and speed of stream be y km/h. Then, the speed of boat downstream = (x + y) km/h and speed of boat upstream = (x - y) km/h</p>",
+    "formulas": [
+      "Speed = Distance / Time"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 354
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Problem Based on Fixed and running Charges",
+    "text": "<p>Let the fixed charge of any commodity be ₹ x and rate of running charges be ₹ y, then total cost = x + total running charges.</p><p>Formulate the equations and then solve them.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 354
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef1",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations",
+    "topic": "Problems Based on Mensuration",
+    "text": "<p>Make use of given formulae to formulate the equation</p><ol><li>Area of rectangle = length × breadth</li><li>Perimeter of rectangle = 2 (length + breadth)</li><li>The sum of angles of a triangle is 180°</li><li>The sum of opposite angles of cyclic quadrilateral is 180°</li><li>In parallelogram, opposite angles are equal.</li></ol>",
+    "formulas": [
+      "Area of rectangle = length × breadth",
+      "Perimeter of rectangle = 2 (length + breadth)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {},
+    "mcq": null,
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 354
+  },
+  {
+    "id": "CDS-PATH-150-EX17",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Linear Equations",
+    "text": "<p><strong>Example 17:</strong> The area of a rectangle is decreased by 28 m², if the length is increased by 2 m and the breadth is decreased by 2 m. The area of a rectangle is increased by 33 m², if the length is decreased by 1m and the breadth is increased by 2 m, then the area of rectangle is:</p><p><strong>Solution:</strong> Let the length and breadth of a rectangle be x and y respectively. Original area = xy. Based on the conditions, we form two equations and solve for x and y.</p>",
+    "formulas": [
+      "xy - 2x + 2y - 4 = xy - 28",
+      "2x - 2y = 24 => x - y = 12",
+      "(x - 1)(y + 2) = xy + 33",
+      "2x - y = 35"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Example problem solving for dimensions of a rectangle using simultaneous linear equations."
+    },
+    "mcq": {
+      "question": "The area of a rectangle is decreased by 28 m², if the length is increased by 2 m and the breadth is decreased by 2 m. The area of a rectangle is increased by 33 m², if the length is decreased by 1m and the breadth is increased by 2 m, then the area of rectangle is",
+      "options": [
+        "253 m²",
+        "235 m²",
+        "532 m²",
+        "352 m²"
+      ],
+      "correct": 0,
+      "explanation": "Solving the system of equations yields x=23 and y=11. Original area = 23 * 11 = 253 m²."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 355
+  },
+  {
+    "id": "math-quad-18-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Quadratic Equation",
+    "text": "<p>A <strong>quadratic equation</strong> is an equation whose degree is 2, meaning that the highest exponent of variable is 2.</p><p>The general form of a quadratic equation is <strong>ax^2 + bx + c = 0</strong>, where a, b and c are real numbers and a ≠ 0.</p><p>Examples: 2x^2 + 3x + 5 = 0, x^2 + x + 1 = 0 and 5x^2 + 6x + 8 = 0 are all quadratic equations.</p>",
+    "formulas": [
+      "ax^2 + bx + c = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and general form of quadratic equations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 365
+  },
+  {
+    "id": "math-quad-18-002",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Roots of a Quadratic Equation",
+    "text": "<p>A real number α is said to be a root of the quadratic equation ax^2 + bx + c = 0 (a ≠ 0), if it satisfies the equation i.e. aα^2 + bα + c = 0. We can also say that x = α is a solution of the quadratic equation.</p><p>Example: 2 is the root of the quadratic equation, x^2 - 6x + 8 = 0 since (2)^2 - 6(2) + 8 = 0.</p><p><strong>Note:</strong></p><ul><li>A quadratic equation has exactly two roots.</li><li>If α be the root of the quadratic equation ax^2 + bx + c = 0, then (x - α) is the factor of ax^2 + bx + c.</li></ul>",
+    "formulas": [
+      "ax^2 + bx + c = 0",
+      "aα^2 + bα + c = 0",
+      "x^2 - 6x + 8 = 0",
+      "(2)^2 - 6(2) + 8 = 0",
+      "(x - α)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of roots and the factor theorem for quadratic equations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 365
+  },
+  {
+    "id": "math-quad-18-003",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Solutions of Quadratic Equations - By Factorisation",
+    "text": "<p>Solutions of quadratic equations can be determined by using any of the following two methods:</p><p><strong>1. By Factorisation</strong></p><p>In this method, the middle term of the quadratic equation is splitted and the given quadratic equation is converted into a product of two linear factors. Then, the roots of the equation are obtained by equating each factor equal to zero.</p><p>Let the quadratic equation be ax^2 + bx + c = 0 and its linear factors are (px + q) and (rx + s), then ax^2 + bx + c = (px + q)(rx + s).</p><p>Now, ax^2 + bx + c = 0 => (px + q)(rx + s) = 0 => px + q = 0 or rx + s = 0 => x = -q/p or x = -s/r.</p><p>Thus, -q/p and -s/r are the roots of the equation, ax^2 + bx + c = 0.</p>",
+    "formulas": [
+      "ax^2 + bx + c = 0",
+      "ax^2 + bx + c = (px + q)(rx + s)",
+      "px + q = 0",
+      "rx + s = 0",
+      "x = -q/p",
+      "x = -s/r"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of the factorisation method for solving quadratic equations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 365
+  },
+  {
+    "id": "math-quad-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Nature of Roots of Quadratic Equation",
+    "text": "<p>Let <strong>D = b<sup>2</sup> - 4ac</strong> be the discriminant of the quadratic equation, <strong>ax<sup>2</sup> + bx + c = 0</strong>, where a ≠ 0. Then, the following cases arise:</p><ul><li>(i) If D > 0, then the two roots are real and distinct.</li><li>(ii) If D = 0, then the two roots are real and equal and are given by α = β = -b / 2a.</li><li>(iii) If D < 0, then there are no real roots, i.e., given equation has imaginary roots.</li></ul><p><strong>IMPORTANT POINTS:</strong></p><ul><li>1. If a, b, c ∈ Q and D is a perfect square, then equation has rational roots.</li><li>2. If one root of quadratic equation is p + √q, then other root will be p - √q.</li></ul>",
+    "formulas": [
+      "D = b^2 - 4ac",
+      "ax^2 + bx + c = 0",
+      "α = β = -b / 2a"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of the discriminant D and its role in determining the nature of roots for a quadratic equation."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 366
+  },
+  {
+    "id": "math-quad-002",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Roots Under Particular Conditions",
+    "text": "<p>Consider the quadratic equation <strong>ax<sup>2</sup> + bx + c = 0</strong>.</p><ul><li>(i) Both roots are positive, if a and b are opposite in sign and a and c are same in sign, i.e., -b/a > 0 and c/a > 0.</li><li>(ii) Both roots are negative, if a, b and c are of same sign, i.e., -b/a > 0 and c/a > 0.</li><li>(iii) Roots are of opposite signs, if a and c are of opposite sign, i.e., -a/c > 0.</li><li>(iv) Roots are equal but opposite in signs, if b = 0.</li><li>(v) Roots are reciprocal to each other, if a = c.</li></ul>",
+    "formulas": [
+      "ax^2 + bx + c = 0",
+      "-b/a > 0",
+      "c/a > 0",
+      "-a/c > 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Conditions for roots of a quadratic equation based on coefficients a, b, and c."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 366
+  },
+  {
+    "id": "CDS_PATH_162_001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Relation between Roots and Coefficients",
+    "text": "<p><strong>1. Quadratic Equation</strong></p><p>Let &alpha; and &beta; be the roots of the equation ax<sup>2</sup> + bx + c = 0 (a &ne; 0), then:</p><ul><li>Sum of the roots = &alpha; + &beta; = -b/a = -(Coefficient of x) / (Coefficient of x<sup>2</sup>)</li><li>Product of the roots = &alpha;&beta; = c/a = (Constant term) / (Coefficient of x<sup>2</sup>)</li></ul><p><strong>2. Cubic Equation</strong></p><p>If &alpha;, &beta;, &gamma; are the roots of the cubic equation ax<sup>3</sup> + bx<sup>2</sup> + cx + d = 0, a &ne; 0, then:</p><ul><li>Sum of the roots = &alpha; + &beta; + &gamma; = -b/a</li><li>Product of roots two at a time = &alpha;&beta; + &beta;&gamma; + &gamma;&alpha; = c/a</li><li>Product of three roots = &alpha;&beta;&gamma; = -d/a</li></ul>",
+    "formulas": [
+      "alpha + beta = -b/a",
+      "alpha * beta = c/a",
+      "alpha + beta + gamma = -b/a",
+      "alpha*beta + beta*gamma + gamma*alpha = c/a",
+      "alpha*beta*gamma = -d/a"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of relationships between roots and coefficients for quadratic and cubic equations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 367
+  },
+  {
+    "id": "CDS_PATH_162_002",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Symmetric Functions of the Roots",
+    "text": "<p>An expression in &alpha; and &beta; which remains same when &alpha; and &beta; are interchanged is known as a symmetric function in &alpha; and &beta;. To evaluate the value of symmetric function of the roots, express the given function in terms of (&alpha; + &beta;) and &alpha;&beta;.</p><p>You can use the following results:</p><ul><li>(&alpha;<sup>2</sup> + &beta;<sup>2</sup>) = [(&alpha; + &beta;)<sup>2</sup> - 2&alpha;&beta;]</li><li>(&alpha;<sup>3</sup> + &beta;<sup>3</sup>) = [(&alpha; + &beta;)<sup>3</sup> - 3&alpha;&beta;(&alpha; + &beta;)]</li><li>(&alpha; - &beta;)<sup>2</sup> = [(&alpha; + &beta;)<sup>2</sup> - 4&alpha;&beta;]</li><li>(&alpha;<sup>3</sup> - &beta;<sup>3</sup>) = [(&alpha; - &beta;)<sup>3</sup> + 3&alpha;&beta;(&alpha; - &beta;)]</li></ul>",
+    "formulas": [
+      "alpha^2 + beta^2 = (alpha + beta)^2 - 2*alpha*beta",
+      "alpha^3 + beta^3 = (alpha + beta)^3 - 3*alpha*beta*(alpha + beta)",
+      "(alpha - beta)^2 = (alpha + beta)^2 - 4*alpha*beta",
+      "alpha^3 - beta^3 = (alpha - beta)^3 + 3*alpha*beta*(alpha - beta)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Identities for evaluating symmetric functions of roots."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 367
+  },
+  {
+    "id": "math-quad-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Formation of a Quadratic Equation",
+    "text": "<p>If &alpha;, &beta; are the roots of a quadratic equation, then the equation is (x - &alpha;)(x - &beta;) = 0 &rArr; x^2 - (&alpha; + &beta;)x + &alpha;&beta; = 0 i.e., x^2 - (sum of the roots)x + product of the roots = 0</p>",
+    "formulas": [
+      "x^2 - (&alpha; + &beta;)x + &alpha;&beta; = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explains the formation of a quadratic equation given its roots."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 368
+  },
+  {
+    "id": "math-quad-002",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Equations Reducible to Quadratic Equations",
+    "text": "<p>The equations which at the outset are not quadratic equations, but can be reduced to quadratic equations by suitable substitutions or simplifications are called equations reducible to quadratic equations.</p><ul><li><strong>Rule 1:</strong> ax^(2n) + bx^n + c = 0, where n &ge; 2. Use substitution x^n = y &rArr; x^(2n) = y^2 and equation reduces to ay^2 + by + c = 0.</li><li><strong>Rule 2:</strong> Px + Q/x = R. Reduce the given equation to a quadratic equation by multiplying both sides by 'x'. So, Px^2 + Q = Rx or Px^2 - Rx + Q = 0.</li><li><strong>Rule 3:</strong> sqrt(x + b) + x = c or sqrt(a - x^2) = bx + c. Square both sides to get a quadratic equation without the radical. Solve the equation by factorisation or by quadratic formula.</li><li><strong>Rule 4:</strong> sqrt(ax + b) &plusmn; sqrt(cx + d) = e or sqrt(ax + b) &plusmn; sqrt(cx + d) &plusmn; sqrt(ex + f) = 0. To solve such type of equations, follow the steps: Square both sides once, so that only one term containing radical is obtained. Keep the term containing radical on one side and all other terms on the other side. Square again to get, the quadratic equation and solve it.</li></ul>",
+    "formulas": [
+      "ax^(2n) + bx^n + c = 0",
+      "Px + Q/x = R",
+      "sqrt(x + b) + x = c",
+      "sqrt(a - x^2) = bx + c"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers rules for solving equations that can be reduced to quadratic form."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 368
+  },
+  {
+    "id": "CDS_PATH_164_RULE_5",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Special Forms of Equations",
+    "text": "<p><strong>Rule 5:</strong> For equations of the form (x + a)(x + b)(x + c)(x + d) + k = 0, where a + b = c + d and k may or may not be zero, substitute x^2 + (a + b)x = T to simplify the equation.</p>",
+    "formulas": [
+      "(x + a)(x + b)(x + c)(x + d) + k = 0",
+      "x^2 + (a + b)x = T"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Method for solving quartic equations of a specific symmetric form by substitution."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 369
+  },
+  {
+    "id": "CDS_PATH_164_RULE_6",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Reciprocal Equations",
+    "text": "<p><strong>Rule 6:</strong> To solve equations of the form:</p><ul><li>(i) a(x^2 + 1/x^2) + b(x + 1/x) + c = 0, put (x + 1/x) = y</li><li>(ii) a(x^2 + 1/x^2) + b(x - 1/x) + c = 0, put (x - 1/x) = y</li></ul>",
+    "formulas": [
+      "a(x^2 + 1/x^2) + b(x + 1/x) + c = 0",
+      "a(x^2 + 1/x^2) + b(x - 1/x) + c = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Substitution techniques for solving reciprocal-type quadratic equations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 369
+  },
+  {
+    "id": "math-quad-165-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Reciprocal Equations",
+    "text": "<p><strong>Rule 7:</strong> For equations of the form ax^4 + bx^3 + cx^2 + bx + a = 0, we divide the equation by x^2 to obtain a(x^2 + 1/x^2) + b(x + 1/x) + c = 0, and then substitute y = x + 1/x.</p><p><strong>Note:</strong> An equation of degree n has n roots.</p>",
+    "formulas": [
+      "ax^4 + bx^3 + cx^2 + bx + a = 0",
+      "a(x^2 + 1/x^2) + b(x + 1/x) + c = 0",
+      "y = x + 1/x"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Method for solving reciprocal equations of degree 4."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 370
+  },
+  {
+    "id": "math-quad-165-002",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Word Problems Involving Quadratic Equation",
+    "text": "<p>To solve word problems:</p><ul><li>Formulate a quadratic equation in variable x based on given conditions.</li><li>Solve the quadratic equation to find the answer.</li><li>Sometimes, only one root satisfies the problem condition; the other is rejected.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "General approach to solving word problems using quadratic equations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 370
+  },
+  {
+    "id": "math-quad-165-003",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Inequalities",
+    "text": "<p>Two real numbers or algebraic expressions related by symbols &lt;, &gt;, &le;, or &ge; form an inequality.</p><p><strong>Linear Inequalities:</strong> An inequality involving a linear function where each variable occurs in the first degree only and there is no product of variables.</p><p>Examples: 5 &lt; 7, x &le; 2, x + y &ge; 11, ax + b &le; 0, ax + by + c &gt; 0, ax &le; 4.</p>",
+    "formulas": [
+      "ax + b <= 0",
+      "ax + by + c > 0",
+      "ax <= 4"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of inequalities and linear inequalities."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 370
+  },
+  {
+    "id": "cds_pathfinder_166_001",
+    "subject": "Mathematics",
+    "chapter": "Linear and Quadratic Inequalities",
+    "topic": "Linear Inequalities",
+    "text": "<p><strong>Linear inequality in one variable:</strong> A linear inequality which has only one variable is called linear inequality in one variable. e.g., ax + b < 0, where a != (-b/a), 4x + 7 >= 0.</p><p><strong>Linear inequality in two variables:</strong> A linear inequality which has two variables, is called linear inequality in two variables. e.g., 3x + 11y <= 0, 4t + 3y > 0.</p><p><strong>General Rules to Solve Linear Inequalities:</strong></p><ul><li>Equal numbers may be added or subtracted from both sides of an inequality without changing the sign of inequality. e.g., If a > b, then for any number c, a + c > b + c or a - c > b - c.</li><li>If both sides of an inequality are multiplied or divided by the same positive number, then the sign of inequality remains the same. e.g., If a > b and c > 0, then a/c > b/c and ac > bc.</li><li>If both sides of an inequality are multiplied or divided by the same negative number, then the sign of inequality is reversed. e.g., If a > b and c < 0, then a/c < b/c and ac < bc.</li></ul><p><strong>Graphical Solution of Linear Inequalities in Two Variables:</strong></p><p>Let the inequality be ax + by + c >= 0.</p><ul><li><strong>Step I:</strong> Consider it as ax + by + c = 0 by changing the inequality sign to equality sign. Draw the graph of this equation.</li><li><strong>Step II:</strong> Choose any point not on the line, (usually (0, 0)). Find whether this point satisfy the inequality or not. If it does, then shade the half-plane containing that point. Otherwise shade the other half-plane.</li></ul><p><strong>Note:</strong></p><ul><li>(i) If the inequality is strict (> or <), graph a dashed line. If the inequality is not strict (>= or <=), graph a solid line.</li><li>(ii) In order to solve a system of two or more linear inequalities with the same variables, graph each inequality on the same set of axes. The intersection of the region of all the inequalities is the required solution set.</li></ul>",
+    "formulas": [
+      "ax + b < 0",
+      "4x + 7 >= 0",
+      "3x + 11y <= 0",
+      "4t + 3y > 0",
+      "a + c > b + c",
+      "a - c > b - c",
+      "a/c > b/c",
+      "ac > bc",
+      "a/c < b/c",
+      "ac < bc",
+      "ax + by + c >= 0",
+      "ax + by + c = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A Cartesian coordinate system graph showing a shaded region in the first quadrant bounded by a line passing through (0, 2) and (3, 0). The region is defined by x >= 0 and y >= 0."
+    ],
+    "details": {
+      "summary": "Covers definitions, rules, and graphical methods for solving linear inequalities in one and two variables."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 371
+  },
+  {
+    "id": "cds_pathfinder_166_002",
+    "subject": "Mathematics",
+    "chapter": "Linear and Quadratic Inequalities",
+    "topic": "Quadratic Inequalities",
+    "text": "<p><strong>Quadratic Inequalities:</strong> An equation of the form ax^2 + bx + c >= 0 or ax^2 + bx + c <= 0 or ax^2 + bx + c > 0 or ax^2 + bx + c < 0, where a != 0 is called a quadratic inequality in one variable. It is same as quadratic equations except for the inequality sign.</p><p><strong>Solution of Quadratic Inequalities:</strong> Solving the inequality means finding the values of x that make the inequality true. Solution sets of quadratic inequalities are expressed in the form of intervals. Here are the steps:</p><ul><li>Replace the inequality symbol with an equal sign.</li><li>Solve the quadratic equation by factorisation or by quadratic formula and find the real roots of the equation.</li><li>Plot the two real roots on the numbers line. They divide the line into three sections or three intervals.</li></ul>",
+    "formulas": [
+      "ax^2 + bx + c >= 0",
+      "ax^2 + bx + c <= 0",
+      "ax^2 + bx + c > 0",
+      "ax^2 + bx + c < 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Defines quadratic inequalities and outlines the step-by-step procedure for solving them using roots and intervals."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 371
+  },
+  {
+    "id": "math-quad-ineq-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Solving Quadratic Inequalities",
+    "text": "<p>To solve quadratic inequalities:</p><ul><li>Pick a number from each interval and test it in the original inequality.</li><li>If the inequality holds true for the chosen point, then that interval is the solution of the given quadratic inequality.</li></ul><p><strong>Note:</strong></p><ul><li>(i) If the quadratic equation does not have real roots, then the quadratic expression is always positive (or always negative) depending on the sign, meaning the solution set will either be empty or the entire real number line.</li><li>(ii) When the inequality has an additional '=' sign (≥ or ≤), use closed intervals like [a, b] to indicate that the two end points are also included in the solution set. If the inequality is strict (> or <), use open intervals like (a, b) as end points are not included.</li></ul>",
+    "formulas": [
+      "D = b^2 - 4ac",
+      "x^2 + 4x + 3 = 0",
+      "x^2 - 4x + 3 = 0",
+      "x^2 - 3x - 4 = 0"
+    ],
+    "image_descriptions": [
+      "Number line diagram showing intervals for x^2 + 4x + 3 > 0 with roots at -3 and -1, indicating positive regions on the outer sides.",
+      "Number line diagram showing intervals for x^2 - 4x + 3 = 0 with roots at 1 and 3.",
+      "Number line diagram showing intervals for x^2 - 3x - 4 = 0 with roots at -1 and 4."
+    ],
+    "details": {
+      "summary": "Methods for solving quadratic inequalities using interval testing and handling of real/non-real roots."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 372
+  },
+  {
+    "id": "cds-pathfinder-174-theory-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Hints and Solutions for Quadratic Equations",
+    "text": "<p>This section provides detailed solutions for quadratic equation problems, covering concepts such as:</p><ul><li><strong>Roots of an equation:</strong> An equation of degree n has n roots.</li><li><strong>Quadratic Formulae:</strong> Sum of roots (alpha + beta = -b/a) and Product of roots (alpha * beta = c/a).</li><li><strong>Discriminant:</strong> D = B^2 - 4AC.</li><li><strong>Formation of Quadratic Equations:</strong> x^2 - (Sum of roots)x + (Product of roots) = 0.</li><li><strong>Algebraic Identities:</strong> alpha^2 + beta^2 = (alpha + beta)^2 - 2*alpha*beta.</li></ul>",
+    "formulas": [
+      "D = B^2 - 4AC",
+      "alpha + beta = -b/a",
+      "alpha * beta = c/a",
+      "x^2 - Sx + P = 0",
+      "alpha^2 + beta^2 = (alpha + beta)^2 - 2*alpha*beta"
+    ],
+    "tables": [
+      "| Question | Answer | Question | Answer | Question | Answer | Question | Answer | Question | Answer |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | b | 2 | c | 3 | a | 4 | b | 5 | c |\n| 6 | a | 7 | c | 8 | d | 9 | d | 10 | b |\n| 11 | b | 12 | a | 13 | b | 14 | b | 15 | c |\n| 16 | b | 17 | c | 18 | b | 19 | d | 20 | c |\n| 21 | d | 22 | b | 23 | a | 24 | b | 25 | a |\n| 26 | a | 27 | c | 28 | d | 29 | d | 30 | c |\n| 31 | c | 32 | b | 33 | b | 34 | a | 35 | c |\n| 36 | b | 37 | c | 38 | b | 39 | b | 40 | b |\n| 41 | b | 42 | d | 43 | d | 44 | d | 45 | a |\n| 46 | c | 47 | b | 48 | a | 49 | c | 50 | a |\n| 51 | c | 52 | d | 53 | c | 54 | c | 55 | b |\n| 56 | d | 57 | d | 58 | c | 59 | a | 60 | a |\n| 61 | c | 62 | a | 63 | b | 64 | c | 65 | a |\n| 66 | b | 67 | b | 68 | c | 69 | b | 70 | c |\n| 71 | b | 72 | a | 73 | b | 74 | d | 75 | a |\n| 76 | b | 77 | c | 78 | d | 79 | c | 80 | d |\n| 81 | c | 82 | c | 83 | b | 84 | b | 85 | c |\n| 86 | a | 87 | a | 88 | a | 89 | b | 90 | a |\n| 91 | a | 92 | b | 93 | a | 94 | b | 95 | c |\n| 96 | b | 97 | d | 98 | d | 99 | d | 100 | d |\n| 101 | a | 102 | c | 103 | c | 104 | a | 105 | b |\n| 106 | a | 107 | c | 108 | c | 109 | c | 110 | c |\n| 111 | a | 112 | d | 113 | c | 114 | a | 115 | b |\n| 116 | c | 117 | a | 118 | a | 119 | a | 120 | d |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This page contains the answer key for 120 questions and detailed step-by-step solutions for the first 10 questions of a Mathematics practice set on Quadratic Equations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 379
+  },
+  {
+    "id": "math-quad-101",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Roots of Quadratic Equations",
+    "text": "<p>Derivation for the expression of (m^2+1)/m + (n^2+1)/n given roots m and n for ax^2 + bx + c = 0.</p><ul><li>Sum of roots: m + n = -b/a</li><li>Product of roots: mn = c/a</li><li>Resulting expression: (c^2 + b^2 - 2ac + a^2) / ac</li></ul>",
+    "formulas": [
+      "ax^2 + bx + c = 0",
+      "m + n = -b/a",
+      "mn = c/a",
+      "x^2 - (Sum of roots)x + Product of roots = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Mathematical derivation of algebraic expressions involving roots of quadratic equations."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 386
+  },
+  {
+    "id": "math-quad-105",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Properties of Roots",
+    "text": "<p>Analysis of quadratic equation x^2 + ax + b = 0 with roots m and n. Given m^2 and n^2 are roots of x^2 - cx + d = 0.</p><ul><li>m + n = -a</li><li>mn = b</li><li>m^2 + n^2 = c</li><li>m^2n^2 = d</li><li>Relationship: c + 2b = a^2 or c = a^2 - 2b</li></ul>",
+    "formulas": [
+      "m^2 + n^2 = (m+n)^2 - 2mn",
+      "c = a^2 - 2b"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Relationship between coefficients of quadratic equations and their squared roots."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 386
+  },
+  {
+    "id": "set-theory-001",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Definition of Set",
+    "text": "<p>A <strong>well defined collection of objects</strong> is called a set. The objects in a set are called its members or elements.</p><ul><li>Sets are usually denoted by capital letters <em>A, B, C, X, Y</em> and <em>Z</em> etc.</li><li>Elements of a set are denoted by small letters <em>a, b, c</em> etc.</li><li>If <em>x</em> is an element of set <em>A</em>, we write <em>x ∈ A</em> (x belongs to A).</li><li>If <em>x</em> is not an element of set <em>A</em>, we write <em>x ∉ A</em>.</li></ul><p><strong>Examples:</strong></p><ul><li>The collection of vowels in English alphabet is a set <em>A</em> containing five elements namely <em>a, e, i, o</em> and <em>u</em>, where <em>a ∈ A</em> but <em>b ∉ A</em>.</li><li>The collection of first four prime numbers is a set <em>A</em> containing the elements <em>2, 3, 5</em> and <em>7</em>, where <em>3 ∈ A</em> but <em>1 ∉ A</em>.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and notation of sets with examples."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 388
+  },
+  {
+    "id": "set-theory-002",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Representation of Sets",
+    "text": "<p>Sets are generally represented by two ways:</p><p><strong>1. Roster or Tabular form or listing method:</strong> In this method, all the elements of a set are listed, within curly braces { } being separated by commas.</p><ul><li>If <em>A</em> is a set of first eight prime numbers, then <em>A = {2, 3, 5, 7, 11, 13, 17, 19}</em></li><li>If <em>B</em> is a set of squares of first five natural numbers, then <em>B = {1, 4, 9, 16, 25}</em></li><li>If <em>A</em> is a set of vowels of English alphabets, then <em>A = {a, e, i, o, u}</em></li></ul><p><strong>Note:</strong> The order in which the elements are written in a set makes no difference and also the repeated elements are taken only once each.</p><p><strong>2. Set Builder form or Rule method:</strong> In this method, instead of listing all the elements of a set, we write the set by some special property or properties satisfied by all its elements and write it as.</p><ul><li>The set <em>B</em> of all even natural numbers can be written as <em>B = {x : x is a natural number and x = 2n for n ∈ N}</em> or <em>B = {x : x ∈ N, x = 2n, n ∈ N}</em> and reads it as 'B' is the set consisting of all elements <em>x</em> such that <em>x</em> has the property of even natural number. The symbol ':' or '|' stands or such that.</li><li>The set <em>A = {3, 5, 7, 9, 11}</em>, then it is represented as <em>A = {x : x = 2n + 1 where n ∈ N, n < 6}</em></li></ul>",
+    "formulas": [
+      "B = {x : x is a natural number and x = 2n for n ∈ N}",
+      "A = {x : x = 2n + 1 where n ∈ N, n < 6}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Methods of representing sets: Roster form and Set Builder form."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 388
+  },
+  {
+    "id": "set_theory_types_001",
+    "subject": "Mathematics",
+    "chapter": "Sets",
+    "topic": "Types of Sets",
+    "text": "<p><strong>Types of Sets:</strong></p><ul><li><strong>1. Empty set:</strong> A set which does not contain any element is called an empty set or null set or void set. It is denoted by φ or { }. e.g., A = set of all odd numbers divisible by 2 and B = {x : x ∈ N and 5 < x < 6}. The sets which have atleast one element are called non void or non-empty set.</li><li><strong>2. Singleton set:</strong> A set consisting of a single element is called a singleton set. e.g., (i) The set {5} is a singleton set. (ii) {x | x ∈ W and x + 6 = 6} = {0} which is a singleton set.</li><li><strong>3. Finite set:</strong> A set which consists of a definite number of elements, is called a finite set. Empty set is also a finite set. e.g., (i) The set {1, 2, 3, 4} is a finite set, because it contains a definite number of elements i.e. only 4 elements. (ii) B = Set of vowels in English Alphabets = {a, e, i, o, u}. (iii) A = Set of even prime natural numbers => A = {2}. <strong>Note:</strong> The number of distinct elements contained in a set A is called the cardinal number of A and is denoted as n(A). If A = {a, e, i, o, u}, then n(A) = 5.</li><li><strong>4. Infinite set:</strong> A set which consists of infinite number of elements is called an infinite set. It is represented by writing a few elements of the set followed by e.g., (i) Set of square of natural numbers is an infinite set, because natural numbers are infinite and it can be represented as {1, 4, 9, 16, 25, ...}. (ii) Set of all points in a plane.</li><li><strong>5. Equal sets:</strong> Two sets A and B are said to be equal, if they have exactly the same elements and we write A = B. Otherwise, two sets are said to be unequal and we write A ≠ B. e.g., Let A = {1, 2, 3, 4} and B = {4, 3, 1, 2}, then A = B because each element of A is in B and vice-versa.</li><li><strong>6. Equivalent sets:</strong> Two sets A and B are equivalent, if their cardinal numbers are same i.e. n(A) = n(B) and we write A ↔ B or A ~ B. e.g., Let A = {1, 2, 3} and B = {4, 5, 6}, then n(A) = n(B), A ↔ B or A ~ B.</li></ul>",
+    "formulas": [
+      "A = {x : x = n^2, n ∈ Z}",
+      "n(A) = cardinal number",
+      "n(A) = n(B) for equivalent sets"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and examples of various types of sets including empty, singleton, finite, infinite, equal, and equivalent sets."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 389
+  },
+  {
+    "id": "set_theory_subsets_002",
+    "subject": "Mathematics",
+    "chapter": "Sets",
+    "topic": "Subsets, Super sets, and Power sets",
+    "text": "<ul><li><strong>7. Subsets:</strong> Let A and B be two sets. If every element of A is an element of B, then A is called a subset of B. If A is subset of B, then we can write A ⊆ B which is read as 'A is a subset of B' or 'A is contained in B'. (i) Every set is a subset of itself i.e. A ⊆ A, B ⊆ B. (ii) Empty set is a subset of every set i.e. φ ⊆ A. e.g., Let A = {2, 4, 6} and B = {6, 4, 2, 8}. Then, A ⊆ B but B ⊄ A i.e. A is a subset of B but B is not a subset of A. <strong>Note:</strong> The total number of subsets of a finite set containing n elements is 2^n.</li><li><strong>8. Super set:</strong> If A is a subset of B, then we say that B is superset of A and we write B ⊇ A. e.g., If A = {1, 2, 3, 4} and B = {1, 2, 3, 4, 5, 6}, then, B ⊇ A.</li><li><strong>9. Comparability of sets:</strong> Two sets A and B are said to be comparable, if either A ⊂ B or B ⊂ A or A = B, otherwise A and B are said to be incomparable. e.g., Let A = {1, 2, 3}, B = {1, 2, 4, 6} and C = {1, 2, 4}. Since, A ⊄ B and B ⊄ A. So, A and B are incomparable but C ⊂ B and so B and C are comparable sets.</li><li><strong>10. Proper subset:</strong> If A ⊆ B and A ≠ B, then A is called a proper subset of B and we write A ⊂ B. e.g., If A = {1, 2, 3, 4, ...} and B = {..., -3, -2, -1, 0, 1, 2, 3, ....}, then A ⊂ B. <strong>Note:</strong> The total number of proper subset of a finite set containing n elements is (2^n - 1).</li><li><strong>11. Universal set:</strong> If there are some sets under consideration, then there happens to be a set which is a superset of each one of the given sets. Such a set is known as the universal set and it is denoted by U. e.g., If A = {1, 2, 3}, B = {2, 3, 4, 5, 7} and C = {2, 4, 6, 8}, then U = {1, 2, 3, 4, 5, 6, 7, 8} is a universal set for A, B and C. For the set of all integers, the universal set can be the set of rational numbers or the set of real numbers.</li><li><strong>12. Power set:</strong> The collection of all subsets of a set A, is called power set of A and it is denoted by P(A). In P(A), every element is a set. e.g., Let A = {1, 2, 3}. Then, P(A) = {φ, {1}, {2}, {3}, {1,2}, {2,3}, {3,1}, {1,2,3}}.</li></ul>",
+    "formulas": [
+      "Total number of subsets = 2^n",
+      "Total number of proper subsets = 2^n - 1",
+      "A ⊆ B",
+      "B ⊇ A",
+      "A ⊂ B"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties of subsets, supersets, comparability, proper subsets, universal sets, and power sets."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 389
+  },
+  {
+    "id": "set-theory-001",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Properties of Power Sets",
+    "text": "<p><strong>Properties of Power Sets:</strong></p><ul><li>Each element of a power set is a set.</li><li>If set A has n elements, then P(A) has 2^n elements.</li><li>If A is an empty set phi or {}, then P(A) has just one element i.e. P(A) = {phi}.</li><li>If A is a subset of B, then P(A) is a subset of P(B).</li></ul>",
+    "formulas": [
+      "P(A) has 2^n elements",
+      "A is subset of B => P(A) is subset of P(B)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers fundamental properties of power sets."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 390
+  },
+  {
+    "id": "set-theory-002",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Operations on Sets",
+    "text": "<p><strong>1. Union of Sets:</strong> Let A and B be any two sets. The union of A and B is the set of all the elements of A and all the elements of B, the common elements being taken only once. It is denoted by A U B and read as 'A union B'. Thus, A U B = {x : x is in A or x is in B}.</p><p><strong>2. Intersection of sets:</strong> Let A and B be any two sets. The intersection of A and B is the set of all those elements which belongs to both A and B. It is denoted by A intersection B and read as 'A intersection B'. Thus, A intersection B = {x : x is in A and x is in B}.</p><p><strong>3. Disjoint sets:</strong> Two sets A and B are said to be disjoint, if they have no common element i.e. A intersection B = phi.</p><p><strong>4. Difference of sets:</strong> Let A and B be two sets. The difference of two sets is the set of all those elements of A which do not belong to B. It is denoted by A - B and read as A minus B. Thus, A - B = {x : x is in A and x is not in B}.</p>",
+    "formulas": [
+      "A U B = {x : x is in A or x is in B}",
+      "A intersection B = {x : x is in A and x is in B}",
+      "A - B = {x : x is in A and x is not in B}"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Venn diagram showing Union of sets A and B with both circles shaded.",
+      "Venn diagram showing Intersection of sets A and B with the overlapping region shaded.",
+      "Venn diagram showing Disjoint sets A and B with no overlap.",
+      "Venn diagram showing Difference A - B with the part of A not overlapping B shaded.",
+      "Venn diagram showing Difference B - A with the part of B not overlapping A shaded."
+    ],
+    "details": {
+      "summary": "Definitions and operations for Union, Intersection, Disjoint, and Difference of sets."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 390
+  },
+  {
+    "id": "set-theory-003",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Venn Diagram",
+    "text": "<p>'Venn diagram' is the diagrammatic representation of various types of sets and operations on sets. The universal set is usually represented by a rectangular region and other subsets of the universal set are represented by circles inscribed in it. Each inscribed circle represents a set (subset of universal set).</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Venn diagram showing a rectangular box representing the Universal set U and a circle inside representing set A."
+    ],
+    "details": {
+      "summary": "Introduction to Venn diagrams."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 390
+  },
+  {
+    "id": "cds_pathfinder_sets_001",
+    "subject": "Mathematics",
+    "chapter": "Sets",
+    "topic": "Symmetric Difference, Complement, and Laws of Algebra of Sets",
+    "text": "<p><strong>Symmetric Difference of Two Sets:</strong> Let A and B be two sets. The symmetric difference of sets A and B is the set (A - B) U (B - A) and is denoted by A Δ B. It is a set consisting of all those members of A which are not in B or all those which are in B but not in A. Thus, A Δ B = {x : x ∈ A but x ∉ B} U {x : x ∈ B but x ∉ A}. A Δ B = (A - B) U (B - A).</p><p><strong>Complement of a Set:</strong> Let U be the universal set and A be any set such that A ⊂ U. The complement of A with respect to U is the set of all those elements of U which are not in A. It is denoted by A' or A^c or U - A. Thus, A' = {x : x ∈ U and x ∉ A}.</p><p><strong>Laws of Algebra of Sets:</strong></p><ul><li><strong>Idempotent laws:</strong> (i) A U A = A, (ii) A ∩ A = A</li><li><strong>Identity laws:</strong> (i) A U φ = A, (ii) A ∩ U = A</li><li><strong>Commutative laws:</strong> (i) A U B = B U A, (ii) A ∩ B = B ∩ A</li><li><strong>Associative laws:</strong> (i) (A U B) U C = A U (B U C), (ii) (A ∩ B) ∩ C = A ∩ (B ∩ C)</li><li><strong>Distributive laws:</strong> (i) A U (B ∩ C) = (A U B) ∩ (A U C), (ii) A ∩ (B U C) = (A ∩ B) U (A ∩ C)</li><li><strong>De-Morgan's laws:</strong> (i) (A U B)' = A' ∩ B', (ii) (A ∩ B)' = A' U B'</li></ul><p><strong>More Results on Operations on Sets:</strong></p><ul><li>A - (B ∩ C) = (A - B) U (A - C)</li><li>A - (B U C) = (A - B) ∩ (A - C)</li><li>A ∩ (B - C) = (A ∩ B) - (A ∩ C)</li><li>A ∩ (B Δ C) = (A ∩ B) Δ (A ∩ C)</li><li>(A - B) U (B - A) = (A U B) - (A ∩ B)</li></ul><p><strong>Cardinality Results:</strong></p><ul><li>n(A U B) = n(A) + n(B) - n(A ∩ B)</li><li>n(A U B) = n(A) + n(B) if A, B are disjoint sets.</li><li>n(A - B) = n(A) - n(A ∩ B)</li><li>n(A Δ B) = n(A) + n(B) - 2n(A ∩ B)</li><li>n(A U B U C) = n(A) + n(B) + n(C) - n(A ∩ B) - n(B ∩ C) - n(A ∩ C) + n(A ∩ B ∩ C)</li></ul>",
+    "formulas": [
+      "A Δ B = (A - B) U (B - A)",
+      "A' = U - A",
+      "n(A U B) = n(A) + n(B) - n(A ∩ B)",
+      "n(A Δ B) = n(A) + n(B) - 2n(A ∩ B)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Venn diagram showing Symmetric Difference: Two overlapping circles A and B, with the crescent parts (A-B) and (B-A) shaded.",
+      "Venn diagram showing Complement of a Set: A rectangle U containing a circle A, with the region inside U but outside A shaded."
+    ],
+    "details": {
+      "summary": "Covers fundamental set operations including symmetric difference, complement, algebraic laws (Idempotent, Identity, Commutative, Associative, Distributive, De-Morgan's), and cardinality formulas for sets."
+    },
+    "mcq": {
+      "question": "If A = {0, 1, 2, 3, 4}, B = {1, 2, 3}, C = {3, 5, 7, 9}, then (A - B) ∩ (B - C) is",
+      "options": [
+        "{1, 2}",
+        "{0, 4}",
+        "{0, 1, 2, 4}",
+        "φ"
+      ],
+      "correct": 3,
+      "explanation": "Given A = {0, 1, 2, 3, 4}, B = {1, 2, 3}, C = {3, 5, 7, 9}. A - B = {0, 4} and B - C = {1, 2}. Therefore, (A - B) ∩ (B - C) = {0, 4} ∩ {1, 2} = φ."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 391
+  },
+  {
+    "id": "set-theory-ordered-pairs",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Ordered Pairs",
+    "text": "<p>An <strong>ordered pair</strong> consists of two objects or elements in a given fixed order.</p><p>If <em>A</em> and <em>B</em> are two sets and <em>a</em> ∈ <em>A</em>, <em>b</em> ∈ <em>B</em>, then the ordered pair of elements <em>a</em> and <em>b</em> is denoted by (<em>a</em>, <em>b</em>).</p><p>The natural numbers and their squares can be represented by ordered pair in the following way: (1, 1), (2, 4), (3, 9), (4, 16), ....</p><p>Two ordered pairs (<em>a</em>, <em>b</em>) and (<em>c</em>, <em>d</em>) will be equal, if and only if <em>a</em> = <em>c</em> and <em>b</em> = <em>d</em>.</p><p><strong>Note:</strong> {<em>a</em>, <em>b</em>} = {<em>b</em>, <em>a</em>} but (<em>a</em>, <em>b</em>) ≠ (<em>b</em>, <em>a</em>).</p>",
+    "formulas": [
+      "(a, b) = (c, d) iff a = c and b = d"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and properties of ordered pairs in set theory."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 392
+  },
+  {
+    "id": "set-theory-solutions-191",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Hints and Solutions",
+    "text": "<p>This page provides the answer key and detailed solutions for a set of problems related to Set Theory.</p><ul><li><strong>Set Operations:</strong> Includes union, intersection, difference, and complement of sets.</li><li><strong>Venn Diagrams:</strong> Visual representation of set relationships (e.g., P subset Q, A intersection (B union C)).</li><li><strong>Set Properties:</strong> Includes power sets, empty sets, and subset calculations.</li><li><strong>Algebraic Set Theory:</strong> Solving for sets using algebraic equations (e.g., x^2 - 3x + 2 = 0).</li></ul>",
+    "formulas": [
+      "A union B = {x | x in A or x in B}",
+      "A intersection B = {x | x in A and x in B}",
+      "A - B = {x | x in A and x not in B}",
+      "n(A union B) = n(A) + n(B) - n(A intersection B)",
+      "Number of non-empty proper subsets = 2^n - 2"
+    ],
+    "tables": [
+      "| Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 1 | a | 2 | b | 3 | c | 4 | b | 5 | c | 6 | a | 7 | c | 8 | c | 9 | a | 10 | a |\n| 11 | a | 12 | a | 13 | d | 14 | c | 15 | c | 16 | a | 17 | b | 18 | c | 19 | a | 20 | d |\n| 21 | c | 22 | a | 23 | a | 24 | c | 25 | c | 26 | c | 27 | a | 28 | c | 29 | c | 30 | c |\n| 31 | c | 32 | b | 33 | d | 34 | a | 35 | a | 36 | d | 37 | d | 38 | b | 39 | a | 40 | a |\n| 41 | d | 42 | c | 43 | c | 44 | c | 45 | c | 46 | c | 47 | a | 48 | a | 49 | d | 50 | c |\n| 51 | a | 52 | b | 53 | a | 54 | a | 55 | d | 56 | d | 57 | c | 58 | b | 59 | b | 60 | c |\n| 61 | c | 62 | c | 63 | d | 64 | a | | | | | | | | | | | | | |"
+    ],
+    "image_descriptions": [
+      "Venn diagram for Q5: A rectangle U containing a circle P inside a larger circle Q, with the region P shaded.",
+      "Venn diagram for Q16: Three overlapping circles A, B, and C. Left diagram shows (B intersection C) shaded. Right diagram shows A union (B intersection C) shaded.",
+      "Venn diagram for Q17: Three overlapping circles A, B, and C. The region of A that does not overlap with B or C is shaded."
+    ],
+    "details": {
+      "summary": "This page contains the answer key for 64 questions and detailed step-by-step solutions for the first 27 questions of a Set Theory practice set."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 396
+  },
+  {
+    "id": "CDS_PATHFINDER_SET_THEORY_001",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Venn Diagrams and Set Operations",
+    "text": "<p><strong>Venn Diagram Properties:</strong></p><ul><li>The shaded portion of the Venn diagram representing <em>A - (B ∪ C)</em> is equivalent to <em>(A - B) ∩ (A - C)</em>.</li><li>For two sets M and E, the number of students who study Mathematics but not Commerce is calculated using the Venn diagram by subtracting the intersection from the total set.</li></ul>",
+    "formulas": [
+      "n(P ∪ Q) = n(P) + n(Q) - n(P ∩ Q)",
+      "n(A ∪ B) = n(A) + n(B) - n(A ∩ B)",
+      "n(E ∪ M) = n(E) + n(M) - n(E ∩ M)"
+    ],
+    "image_descriptions": [
+      "Venn diagram showing three intersecting circles A, B, and C. The shaded region represents A - (B ∪ C) which is equal to (A - B) ∩ (A - C).",
+      "Venn diagram showing three intersecting circles M, C, and E with values 14, 20, 24, 3, 0, 2. Used to calculate students studying Mathematics but not Commerce.",
+      "Venn diagram showing three intersecting circles C, B, and F with values 150, 100, 120, 50, 60, and x representing the intersection of all three."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 397
+  },
+  {
+    "id": "math-trig-001",
+    "subject": "Mathematics",
+    "chapter": "Measurements of Angles and Trigonometric Ratios",
+    "topic": "Introduction to Trigonometry",
+    "text": "<p><strong>Trigonometry</strong> is the branch of Mathematics which deals with the measurements of sides and angles of triangles and the problems based on these angles.</p><h3>Angle</h3><p>An angle is considered as the figure obtained by rotating a given ray about its endpoint. The original ray is called the <strong>initial side</strong> and the ray into which the initial side rotates is called <strong>terminal side</strong>. In figure, <em>OA</em> is initial side and <em>OB</em> is the terminal side of ∠AOB. The point <em>O</em> is called its vertex.</p><h3>Quadrants</h3><p>Let <em>XOX'</em> and <em>YOY'</em> be two lines at right angles in the plane of paper. These two perpendicular lines divide the plane of the paper into four equal parts, these four parts are known as four quadrants and lines <em>XOX'</em> and <em>YOY'</em> are known as <em>X</em>-axis and <em>Y</em>-axis, respectively.</p><p>The parts <em>XOY</em>, <em>YOX'</em>, <em>X'OY'</em> and <em>Y'OX</em> are known as 1st, 2nd, 3rd and 4th quadrant, respectively.</p><h3>Relation between Angles, Radius and Arc Length</h3><p>If <em>l</em> is the length of a circle of radius <em>r</em>. And this arc subtends an angle <em>θ</em> radians at the centre of the circle, then <em>l = rθ</em> ⇒ <em>θ = l/r</em>.</p>",
+    "formulas": [
+      "l = r * theta",
+      "theta = l / r"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "The document mentions a figure where OA is the initial side and OB is the terminal side of angle AOB, with O as the vertex."
+    ],
+    "details": {
+      "summary": "This section introduces the basic definitions of trigonometry, angles, quadrants in a Cartesian plane, and the mathematical relationship between arc length, radius, and angle in radians."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 399
+  },
+  {
+    "id": "math-trig-001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Relation between Degree and Radian",
+    "text": "<p>A circle subtends an angle, at the centre whose radian measure is 2π and its degree measure is 360°. It follows that:</p><ul><li>2π radian = 360°</li><li>π radian = 180°</li><li>1 radian = 180/π degree = 57° 16' 22'' (approx)</li><li>1 degree = π/180 radian = 0.01746 rad (approx)</li></ul><p>Note: 1 radian is written as 1^c.</p>",
+    "formulas": [
+      "2π radian = 360°",
+      "π radian = 180°",
+      "1 radian = 180/π degree",
+      "1 degree = π/180 radian"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Conversion factors between degrees and radians."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 400
+  },
+  {
+    "id": "math-trig-002",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios",
+    "text": "<p>The ratio of the sides of a right angled triangle with respect to its angle are called trigonometric ratios. The side opposite to the right angle is called the hypotenuse. Relative to the angle θ, the side opposite to angle θ is called the perpendicular side and the remaining side is called base.</p><p>(i) For angle θ, perpendicular = BC, base = AB and hypotenuse = AC</p><p>(ii) For angle α, perpendicular = AB, base = BC and hypotenuse = AC</p><p>Trigonometric ratios of θ in right angled ΔABC are defined below:</p><ul><li>sin θ = Perpendicular/Hypotenuse = BC/AC = P/H</li><li>cos θ = Base/Hypotenuse = AB/AC = B/H</li><li>tan θ = Perpendicular/Base = BC/AB = P/B</li><li>sec θ = Hypotenuse/Base = AC/AB = H/B</li><li>cot θ = Base/Perpendicular = AB/BC = B/P</li><li>cosec θ = Hypotenuse/Perpendicular = AC/BC = H/P</li></ul>",
+    "formulas": [
+      "sin θ = P/H",
+      "cos θ = B/H",
+      "tan θ = P/B",
+      "sec θ = H/B",
+      "cot θ = B/P",
+      "cosec θ = H/P"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of trigonometric ratios based on right-angled triangle sides."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 400
+  },
+  {
+    "id": "trig-001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Identities and Ratios",
+    "text": "<p><strong>Relation Between T-ratios:</strong></p><ul><li>sin θ = 1/cosec θ</li><li>cos θ = 1/sec θ</li><li>tan θ = 1/cot θ</li><li>tan θ = sin θ / cos θ</li><li>cot θ = cos θ / sin θ</li></ul><p><strong>Trigonometric Identities:</strong> A statement of equality involving trigonometric ratios of an angle is called a trigonometric identity. It is valid for all values of the angles. The three important identities are:</p><ol><li>sin² θ + cos² θ = 1</li><li>1 + tan² θ = sec² θ</li><li>1 + cot² θ = cosec² θ</li></ol><p><em>Note:</em> sin² A + cos² B cannot be equal to 1 because the angles are different.</p>",
+    "formulas": [
+      "sin θ = 1/cosec θ",
+      "cos θ = 1/sec θ",
+      "tan θ = 1/cot θ",
+      "tan θ = sin θ / cos θ",
+      "cot θ = cos θ / sin θ",
+      "sin² θ + cos² θ = 1",
+      "1 + tan² θ = sec² θ",
+      "1 + cot² θ = cosec² θ"
+    ],
+    "tables": [
+      "| Angles | 0° | 30° | 45° | 60° | 90° |\n|---|---|---|---|---|---|\n| sin θ | 0 | 1/2 | 1/√2 | √3/2 | 1 |\n| cos θ | 1 | √3/2 | 1/√2 | 1/2 | 0 |\n| tan θ | 0 | 1/√3 | 1 | √3 | ∞ |\n| cot θ | ∞ | √3 | 1 | 1/√3 | 0 |\n| sec θ | 1 | 2/√3 | √2 | 2 | ∞ |\n| cosec θ | ∞ | 2 | √2 | 2/√3 | 1 |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers fundamental trigonometric ratios, identities, and a table of values for specific angles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 401
+  },
+  {
+    "id": "trig_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Sign of trigonometric ratio in different quadrants",
+    "text": "<p>The sign of trigonometric ratios depends on the quadrant in which the angle theta lies:</p><ul><li><strong>I Quadrant (0 < theta < 90°):</strong> All trigonometric ratios are positive.</li><li><strong>II Quadrant (90° < theta < 180°):</strong> sin theta and cosec theta are positive. All other trigonometric ratios are negative.</li><li><strong>III Quadrant (180° < theta < 270°):</strong> tan theta and cot theta are positive. All other trigonometric ratios are negative.</li><li><strong>IV Quadrant (270° < theta < 360°):</strong> cos theta and sec theta are positive. All other trigonometric ratios are negative.</li></ul>",
+    "formulas": [
+      "sqrt(sin^2 theta + cos^2 theta - 2 sin theta cos theta) = sqrt((cos theta - sin theta)^2) = cos theta - sin theta"
+    ],
+    "tables": [
+      "| Trigonometric Ratio | Domain | Range |\n|---|---|---|\n| sin theta | R | [-1, 1] |\n| cos theta | R | [-1, 1] |\n| tan theta | R - {(2n + 1)pi/2, n in I} | (-infinity, infinity) = R |\n| cot theta | R - {n pi, n in I} | (-infinity, infinity) = R |\n| sec theta | R - {(2n + 1)pi/2, n in I} | (-infinity, -1] U [1, infinity) |\n| cosec theta | R - {n pi, n in I} | (-infinity, -1] U [1, infinity) |"
+    ],
+    "image_descriptions": [
+      "A Cartesian coordinate system showing the four quadrants with the signs of trigonometric ratios indicated for each."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 402
+  },
+  {
+    "id": "trig_002",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Behaviour of trigonometric functions",
+    "text": "<p>The behaviour of trigonometric functions across different quadrants is summarized below:</p>",
+    "tables": [
+      "| Trigonometric Ratio | Ist Quadrant (0 to pi/2) | IInd Quadrant (pi/2 to pi) | IIIrd Quadrant (pi to 3pi/2) | IVth Quadrant (3pi/2 to 2pi) |\n|---|---|---|---|---|\n| sin theta | Increases from 0 to 1 | Decreases from 1 to 0 | Decreases from 0 to -1 | Increases from -1 to 0 |\n| cos theta | Decreases from 1 to 0 | Decreases from 0 to -1 | Increases from -1 to 0 | Increases from 0 to 1 |\n| tan theta | Increases from 0 to infinity | Increases from -infinity to 0 | Increases from 0 to infinity | Increases from -infinity to 0 |\n| cot theta | Decreases from infinity to 0 | Decreases from 0 to -infinity | Decreases from infinity to 0 | Decreases from 0 to -infinity |\n| sec theta | Increases from 1 to infinity | Increases from -infinity to -1 | Decreases from -1 to -infinity | Decreases from infinity to 1 |\n| cosec theta | Decreases from infinity to 1 | Increases from 1 to infinity | Increases from -infinity to -1 | Decreases from -1 to -infinity |"
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 402
+  },
+  {
+    "id": "trig_003",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios of Allied Angles",
+    "text": "<p>Two angles are said to be allied when their sum or difference is either zero or a multiple of 90°. Angles like -theta, 90° ± theta, 180° ± theta, 360° ± theta are allied to theta.</p>",
+    "tables": [
+      "| Angle | sin theta | cos theta | tan theta | cot theta | sec theta | cosec theta |\n|---|---|---|---|---|---|---|\n| -theta | -sin theta | cos theta | -tan theta | -cot theta | sec theta | -cosec theta |\n| 90°-theta | cos theta | sin theta | cot theta | tan theta | cosec theta | sec theta |\n| 90°+theta | cos theta | -sin theta | -cot theta | -tan theta | -cosec theta | sec theta |\n| 180°-theta | sin theta | -cos theta | -tan theta | -cot theta | -sec theta | cosec theta |\n| 180°+theta | -sin theta | -cos theta | tan theta | cot theta | -sec theta | -cosec theta |\n| 270°-theta | -cos theta | -sin theta | cot theta | tan theta | -cosec theta | -sec theta |\n| 270°+theta | -cos theta | sin theta | -cot theta | -tan theta | cosec theta | -sec theta |\n| 360°-theta | -sin theta | cos theta | -tan theta | -cot theta | sec theta | -cosec theta |\n| 360°+theta | sin theta | cos theta | tan theta | cot theta | sec theta | cosec theta |"
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 402
+  },
+  {
+    "id": "trig_004",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Important Points",
+    "text": "<ul><li>| sin theta | <= 1</li><li>| cos theta | <= 1</li><li>sec theta >= 1</li><li>sec theta <= -1</li><li>cosec theta >= 1</li><li>cosec theta <= -1</li><li>tan theta and cot theta can take any value.</li></ul>",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 402
+  },
+  {
+    "id": "trig-sum-diff-001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Sum, Difference and Product Formulae",
+    "text": "<p>The following trigonometric identities are essential for solving sum, difference, and product problems:</p><ul><li>sin(A + B) = sin A cos B + cos A sin B</li><li>sin(A - B) = sin A cos B - cos A sin B</li><li>cos(A + B) = cos A cos B - sin A sin B</li><li>cos(A - B) = cos A cos B + sin A sin B</li><li>tan(A + B) = (tan A + tan B) / (1 - tan A tan B)</li><li>tan(A - B) = (tan A - tan B) / (1 + tan A tan B)</li><li>cot(A + B) = (cot A cot B - 1) / (cot A + cot B)</li><li>cot(A - B) = (cot A cot B + 1) / (cot B - cot A)</li><li>sin(A + B)sin(A - B) = sin^2 A - sin^2 B = cos^2 B - cos^2 A</li><li>cos(A + B)cos(A - B) = cos^2 A - sin^2 B = cos^2 B - sin^2 A</li><li>2 sin A cos B = sin(A + B) + sin(A - B)</li><li>2 cos A sin B = sin(A + B) - sin(A - B)</li><li>2 cos A cos B = cos(A + B) + cos(A - B)</li><li>2 sin A sin B = cos(A - B) - cos(A + B)</li><li>sin A + sin B = 2 sin((A + B)/2) cos((A - B)/2)</li><li>sin A - sin B = 2 sin((A - B)/2) cos((A + B)/2)</li><li>cos A + cos B = 2 cos((A + B)/2) cos((A - B)/2)</li><li>cos A - cos B = -2 sin((A + B)/2) sin((A - B)/2) = 2 sin((A + B)/2) sin((B - A)/2)</li><li>tan A + tan B = sin(A + B) / (cos A cos B)</li><li>tan A - tan B = sin(A - B) / (cos A cos B)</li><li>cot A + cot B = sin(A + B) / (sin A sin B)</li><li>cot A - cot B = sin(B - A) / (sin A sin B)</li></ul>",
+    "formulas": [
+      "sin(A + B) = sin A cos B + cos A sin B",
+      "sin(A - B) = sin A cos B - cos A sin B",
+      "cos(A + B) = cos A cos B - sin A sin B",
+      "cos(A - B) = cos A cos B + sin A sin B",
+      "tan(A + B) = (tan A + tan B) / (1 - tan A tan B)",
+      "tan(A - B) = (tan A - tan B) / (1 + tan A tan B)",
+      "cot(A + B) = (cot A cot B - 1) / (cot A + cot B)",
+      "cot(A - B) = (cot A cot B + 1) / (cot B - cot A)",
+      "sin(A + B)sin(A - B) = sin^2 A - sin^2 B",
+      "cos(A + B)cos(A - B) = cos^2 A - sin^2 B",
+      "2 sin A cos B = sin(A + B) + sin(A - B)",
+      "2 cos A sin B = sin(A + B) - sin(A - B)",
+      "2 cos A cos B = cos(A + B) + cos(A - B)",
+      "2 sin A sin B = cos(A - B) - cos(A + B)",
+      "sin A + sin B = 2 sin((A + B)/2) cos((A - B)/2)",
+      "sin A - sin B = 2 sin((A - B)/2) cos((A + B)/2)",
+      "cos A + cos B = 2 cos((A + B)/2) cos((A - B)/2)",
+      "cos A - cos B = -2 sin((A + B)/2) sin((A - B)/2)",
+      "tan A + tan B = sin(A + B) / (cos A cos B)",
+      "tan A - tan B = sin(A - B) / (cos A cos B)",
+      "cot A + cot B = sin(A + B) / (sin A sin B)",
+      "cot A - cot B = sin(B - A) / (sin A sin B)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Comprehensive list of trigonometric sum, difference, and product identities."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 403
+  },
+  {
+    "id": "trig_submultiple_angles_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios of Submultiple Angles",
+    "text": "<p>Formulas for trigonometric ratios of submultiple angles:</p><ul><li>sin θ = 2 sin(θ/2) cos(θ/2)</li><li>cos θ = cos²(θ/2) - sin²(θ/2) = 2 cos²(θ/2) - 1 = 1 - 2 sin²(θ/2)</li><li>(1 - cos θ) / sin θ = tan(θ/2)</li><li>(1 + cos θ) / sin θ = cot(θ/2)</li><li>(1 - cos θ) / (1 + cos θ) = tan²(θ/2)</li><li>(1 + cos θ) / (1 - cos θ) = cot²(θ/2)</li><li>sin θ = (2 tan(θ/2)) / (1 + tan²(θ/2))</li><li>cos θ = (1 - tan²(θ/2)) / (1 + tan²(θ/2))</li></ul>",
+    "formulas": [
+      "sin θ = 2 sin(θ/2) cos(θ/2)",
+      "cos θ = cos²(θ/2) - sin²(θ/2) = 2 cos²(θ/2) - 1 = 1 - 2 sin²(θ/2)",
+      "(1 - cos θ) / sin θ = tan(θ/2)",
+      "(1 + cos θ) / sin θ = cot(θ/2)",
+      "(1 - cos θ) / (1 + cos θ) = tan²(θ/2)",
+      "(1 + cos θ) / (1 - cos θ) = cot²(θ/2)",
+      "sin θ = (2 tan(θ/2)) / (1 + tan²(θ/2))",
+      "cos θ = (1 - tan²(θ/2)) / (1 + tan²(θ/2))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of trigonometric identities for submultiple angles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 404
+  },
+  {
+    "id": "trig_max_min_values_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Maximum and Minimum Values of Trigonometrical Functions",
+    "text": "<p>For a trigonometric function of the form a sin θ ± b cos θ, the maximum and minimum values are √a² + b² and -√a² + b², respectively.</p>",
+    "formulas": [
+      "Maximum = √(a² + b²)",
+      "Minimum = -√(a² + b²)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rule for finding max/min values of a sin θ ± b cos θ."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 404
+  },
+  {
+    "id": "trig_multiple_angles_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios of Multiple Angles",
+    "text": "<p>Formulas for trigonometric ratios of multiple angles:</p><ul><li>sin 2θ = (2 tan θ) / (1 + tan² θ)</li><li>cos 2θ = cos² θ - sin² θ = 2 cos² θ - 1 = 1 - 2 sin² θ = (1 - tan² θ) / (1 + tan² θ)</li><li>(1 + cos 2θ) / 2 = cos² θ</li><li>(1 - cos 2θ) / 2 = sin² θ</li><li>tan 2θ = (2 tan θ) / (1 - tan² θ)</li><li>sin 3θ = 3 sin θ - 4 sin³ θ</li><li>cos 3θ = 4 cos³ θ - 3 cos θ</li><li>tan 3θ = (3 tan θ - tan³ θ) / (1 - 3 tan² θ)</li></ul>",
+    "formulas": [
+      "sin 2θ = (2 tan θ) / (1 + tan² θ)",
+      "cos 2θ = cos² θ - sin² θ = 2 cos² θ - 1 = 1 - 2 sin² θ = (1 - tan² θ) / (1 + tan² θ)",
+      "(1 + cos 2θ) / 2 = cos² θ",
+      "(1 - cos 2θ) / 2 = sin² θ",
+      "tan 2θ = (2 tan θ) / (1 - tan² θ)",
+      "sin 3θ = 3 sin θ - 4 sin³ θ",
+      "cos 3θ = 4 cos³ θ - 3 cos θ",
+      "tan 3θ = (3 tan θ - tan³ θ) / (1 - 3 tan² θ)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of trigonometric identities for multiple angles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 404
+  },
+  {
+    "id": "CDS-MATH-TRIG-001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Properties of Triangle",
+    "text": "<p><strong>Cosine rule:</strong> In a triangle ABC, if a, b, c are the sides opposite to angles A, B and C respectively, then:</p><ul><li>cos A = (b^2 + c^2 - a^2) / 2bc</li><li>cos B = (c^2 + a^2 - b^2) / 2ac</li><li>cos C = (a^2 + b^2 - c^2) / 2ab</li></ul><p><strong>Circumcircle of a triangle:</strong> The circle passing through the vertices of a triangle ABC is called circumcircle. Its radius R is called the circumradius and its centre is known as circumcentre. Here, R = a / (2sin A) = b / (2sin B) = c / (2sin C).</p><p><strong>Sine rule:</strong> In a triangle ABC, if a, b, c are the three sides opposite to the angles A, B, C respectively, then: a / sin A = b / sin B = c / sin C.</p>",
+    "formulas": [
+      "cos A = (b^2 + c^2 - a^2) / 2bc",
+      "cos B = (c^2 + a^2 - b^2) / 2ac",
+      "cos C = (a^2 + b^2 - c^2) / 2ab",
+      "R = a / (2sin A) = b / (2sin B) = c / (2sin C)",
+      "a / sin A = b / sin B = c / sin C"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram 1: A triangle ABC inscribed in a circle with circumradius R connecting the center to vertex A.",
+      "Diagram 2: A triangle ABC with sides labeled a, b, c opposite to vertices A, B, C respectively."
+    ],
+    "details": {
+      "summary": "Covers Cosine rule, Sine rule, and properties of the circumcircle of a triangle."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 405
+  },
+  {
+    "id": "CDS-PATH-216-TRIG-01",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Identities and Equations",
+    "text": "<p>This page contains solutions and derivations for various trigonometric problems involving identities, compound angles, and algebraic manipulation of trigonometric functions.</p><ul><li><strong>Problem 77:</strong> Derivation involving cot(θ + φ).</li><li><strong>Problem 78:</strong> Calculation of tan 75°.</li><li><strong>Problem 79:</strong> Application of sin²A - sin²B = sin(A+B)sin(A-B).</li><li><strong>Problem 80-82:</strong> Simplification of trigonometric expressions using sum-to-product and double angle formulas.</li><li><strong>Problem 83:</strong> Derivation of 2sinAcos³A - 2sin³AcosA.</li><li><strong>Problem 84:</strong> Algebraic manipulation of a cos θ - b sin θ = c.</li><li><strong>Problem 85:</strong> Identity involving cos x + cos² x = 1.</li><li><strong>Problem 86:</strong> Solving for tan x given a ratio of sec and cosec.</li><li><strong>Problem 87:</strong> Solving 2 cos θ = x + 1/x using cubic expansion.</li><li><strong>Problem 88:</strong> Inequality property of cos θ in the interval 0 ≤ θ ≤ π/2.</li><li><strong>Problem 89:</strong> Calculation of tan(A-B) given sin A and cos B.</li><li><strong>Problem 90:</strong> Trigonometric identity for B+C=60°.</li><li><strong>Problem 91:</strong> Solving for x in a trigonometric equation.</li><li><strong>Problem 92:</strong> Identity for sin x / (1 + cos x).</li></ul>",
+    "formulas": [
+      "cot(θ + φ) = (1 - tan θ tan φ) / (tan θ + tan φ)",
+      "sin² A - sin² B = sin(A + B) sin(A - B)",
+      "2 sin A cos³ A - 2 sin³ A cos A = sin 2A cos 2A",
+      "cos x + cos² x = 1 => sin⁸ x + 2 sin⁶ x + sin⁴ x = 1",
+      "2 cos θ = x + 1/x => 2 cos 3θ = x³ + 1/x³",
+      "sin x / (1 + cos x) = (1 - cos x) / sin x"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A collection of solved trigonometric problems and identities from the CDS Pathfinder book, focusing on algebraic manipulation of trigonometric functions."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 421
+  },
+  {
+    "id": "math-height-distance-001",
+    "subject": "Mathematics",
+    "chapter": "Height and Distance",
+    "topic": "Basic Concepts and Angle of Elevation",
+    "text": "<p><strong>Height and Distance</strong> is an important application of trigonometry which helps us to find the height of any object and distance of that object from any point which are not directly measurable, provided the angle of elevation/depression from a point is known.</p><ul><li><strong>Line of sight:</strong> A line of sight is the line drawn from the eye of an observer to the point, where the object is viewed by the observer.</li><li><strong>Horizontal Line:</strong> The line of sight which is parallel to ground level is known as horizontal line.</li><li><strong>Angle of Elevation:</strong> Angle of elevation is defined as an angle formed by the line of sight with the horizontal line when an object is viewed in the upward direction. Let <em>P</em> be the position of the object above the horizontal line <em>OA</em> and <em>O</em> be the eye of the observer, then &ang;<em>AOP</em> is called angle of elevation.</li></ul><p><strong>IMPORTANT POINTS:</strong></p><ul><li>If the observer moves towards the perpendicular line (tower/building), then angle of elevation increases and if the observer moves away from the perpendicular line (tower/building), then the angle of elevation decreases.</li><li>If the angle of elevation of Sun above a tower decreases, then the length of shadow of a tower increases.</li><li>If height of tower is doubled and the distance between the observer and foot of the tower is also doubled, then the angle of elevation remains same.</li></ul>",
+    "formulas": [
+      "\\tan \\theta = \\frac{\\text{Perpendicular}}{\\text{Base}}"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Line of Sight Diagram: Depicts an observer of height AB standing at distance BC from a vertical tower CD. A horizontal dashed line AE is drawn from the observer's eye A to the tower at E, parallel to ground BC. A straight slanted line labeled 'Line of sight' connects eye A to the top of the tower D.",
+      "Angle of Elevation Diagram: Depicts an observer's eye at point O looking up at an object at point P. The horizontal line OA extends to the right from point O. The line of sight OP forms an acute angle theta (labeled 'Angle of elevation') with the horizontal baseline OA."
+    ],
+    "details": {
+      "summary": "Covers foundational definitions of line of sight, horizontal line, and angle of elevation, along with core directional properties regarding observer movement, solar angle variation, and proportional scaling."
+    },
+    "mcq": {
+      "question": "What happens to the angle of elevation of the top of a tower if both the height of the tower and the distance of the observer from its foot are doubled?",
+      "options": [
+        "It gets doubled",
+        "It gets halved",
+        "It remains the same",
+        "It becomes four times"
+      ],
+      "correct": 2,
+      "explanation": "Since tan(theta) = Height / Distance, doubling both numerator and denominator keeps the ratio (2H)/(2D) = H/D unchanged, hence the angle of elevation remains constant."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 430
+  },
+  {
+    "id": "pathfinder-cds-226-001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Angle of Depression",
+    "text": "<p><strong>Angle of depression</strong> is defined as an angle formed by the line of sight with the horizontal line when an object is viewed in the downward direction.</p><p><strong>Important Points:</strong></p><ul><li>The angle of depression of a point P as seen from a point O is numerically equal to the angle of elevation of O as seen from P.</li><li>Angle of elevation and angle of depression are always acute angle.</li><li>Unless mentioned, the height of the observer is not considered.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing an observer at point O looking down at point P. A horizontal line OA is drawn from O. The angle between OA and the line of sight OP is the angle of depression."
+    ],
+    "details": {
+      "summary": "Definition and properties of the angle of depression."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 431
+  },
+  {
+    "id": "math-height-distance-001",
+    "subject": "Mathematics",
+    "chapter": "Height and Distance",
+    "topic": "Application of Trigonometry",
+    "text": "<p>Example solution for a height and distance problem involving a tower and a building.</p><ul><li><strong>Given:</strong> Height of building AB = 60m, distance between building and tower = y.</li><li><strong>Geometry:</strong> Two right-angled triangles are formed, triangle ABD and triangle AEC.</li><li><strong>Trigonometric relations used:</strong> tan(60°) = AB/BD and tan(30°) = AE/EC.</li><li><strong>Result:</strong> The height of the tower is calculated as 40m.</li></ul>",
+    "formulas": [
+      "AB/BD = tan(60°)",
+      "AE/EC = tan(30°)",
+      "x = AB - AE"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A geometric diagram showing a vertical building AB of height 60m and a tower CD of height x. A line connects the top of the building to the top of the tower. Angles of elevation are marked as 60 degrees from the base of the tower to the top of the building, and 30 degrees from the top of the tower to the top of the building. The horizontal distance between them is y."
+    ],
+    "details": {
+      "summary": "Step-by-step derivation of the height of a tower using trigonometric ratios in right-angled triangles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 432
+  },
+  {
+    "id": "math-hd-001",
+    "subject": "Mathematics",
+    "chapter": "Height and Distance",
+    "topic": "Application of Trigonometry",
+    "text": "<p>This section covers various problems related to height and distance using trigonometric ratios.</p><ul><li><strong>Problem 5:</strong> Calculating the height of a shadow given the sun's altitude.</li><li><strong>Problem 6:</strong> Finding the angle of elevation of the moon.</li><li><strong>Problem 7:</strong> Calculating the speed of an aeroplane given two angles of elevation at different time intervals.</li><li><strong>Problem 8:</strong> Finding the angle of elevation of a pole.</li><li><strong>Problem 9:</strong> Deriving a formula for the height of a tower with a flagstaff.</li><li><strong>Problem 10:</strong> Calculating the height of a house on the opposite side of a street using window observation.</li></ul>",
+    "formulas": [
+      "tan 45 = BC/AB",
+      "tan 60 = DC/AC",
+      "tan theta = RQ/PQ",
+      "Speed = Distance/Time",
+      "tan alpha = BC/AB",
+      "tan theta = AP/OP"
+    ],
+    "image_descriptions": [
+      "Diagram for Problem 5: Right-angled triangle ABC with height h and base x, shadow length 15m.",
+      "Diagram for Problem 6: Right-angled triangle PQR representing a pole of height h and base h, angle theta.",
+      "Diagram for Problem 7: Aeroplane at points B and C, altitude 1km, angles 60 and 30 degrees.",
+      "Diagram for Problem 8: Pole of height 10/3m, man of height 2m, distance 4/sqrt(3)m.",
+      "Diagram for Problem 9: Tower of height h and flagstaff, angles alpha and beta.",
+      "Diagram for Problem 10: Window O, house AB, height h and h', angles theta and phi."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 436
+  },
+  {
+    "id": "cds_pathfinder_trig_232_01",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Applications of Trigonometry (Heights and Distances)",
+    "text": "<p>This page contains solutions to problems involving heights and distances using trigonometric ratios. Key concepts include:</p><ul><li><strong>Right-angled triangles:</strong> Using tan(theta) = perpendicular/base to relate heights and distances.</li><li><strong>Angle of elevation/depression:</strong> Applying trigonometric identities to solve for unknown heights (h) or distances (x, p, q).</li><li><strong>Algebraic manipulation:</strong> Solving systems of equations derived from trigonometric ratios to isolate variables.</li><li><strong>Conversion:</strong> Converting units and applying speed = distance/time formulas.</li></ul>",
+    "formulas": [
+      "tan(alpha) = s/p",
+      "tan(beta) = s/q",
+      "p - q = s(tan(3alpha) - tan(alpha)) / (tan(alpha) * tan(3alpha))",
+      "tan(90 - theta) = cot(theta) = 2b/k",
+      "tan(2alpha) = 2tan(alpha) / (1 - tan^2(alpha))",
+      "Speed = Distance / Time"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram for problem 11: A right-angled triangle ABC with a vertical height 's' and base 'p' and 'q'.",
+      "Diagram for problem 12: Two posts PQ and RS with heights 2h and h respectively, separated by distance K, with angles theta and 90-theta.",
+      "Diagram for problem 13: An observer at height 30m looking at a flagstaff of height 5m at distance x.",
+      "Diagram for problem 14: A tower of height h with angles of elevation 45 and 30 degrees from points C and D.",
+      "Diagram for problem 15: A tree of height h with angles of elevation 30 and 60 degrees from points F and E.",
+      "Diagram for problem 16: A post of height h with a triangle showing height h-x and x."
+    ],
+    "details": {
+      "summary": "Step-by-step mathematical solutions for trigonometry problems involving heights and distances, specifically focusing on towers, flagstaffs, and trees."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 437
+  },
+  {
+    "id": "cds_pathfinder_236_theory_01",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Height and Distance",
+    "text": "<p>This page contains solutions to problems involving heights and distances using trigonometric ratios in right-angled triangles.</p><ul><li><strong>Problem 39:</strong> Calculation of angle theta for a post of height h and string of length 2h.</li><li><strong>Problem 40:</strong> Calculation of cloud height using reflection in water. Key principle: The distance of the object from the surface equals the distance of the image from the surface.</li><li><strong>Problem 41:</strong> Calculation of tower height using two observation points P and Q with angles 45 and 60 degrees.</li><li><strong>Problem 43:</strong> Calculation of pole height using a rope of length 12m at a 30-degree angle.</li><li><strong>Problem 44:</strong> Calculation of distance between two planes.</li><li><strong>Problem 45:</strong> Calculation involving two angles of elevation to a point.</li></ul>",
+    "formulas": [
+      "cos^2(theta) + sin^2(theta) = 1",
+      "tan(theta) = Perpendicular / Base",
+      "sin(theta) = Perpendicular / Hypotenuse",
+      "cos(theta) = Base / Hypotenuse"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram for Q39: Right-angled triangle ABC with height h, hypotenuse 2h, and angle theta at vertex A.",
+      "Diagram for Q40: Geometry showing a cloud at height H, its reflection at depth H, and observation points P and Q.",
+      "Diagram for Q41: Right-angled triangle showing a tower of height h and observation points P and Q on the ground.",
+      "Diagram for Q43: Right-angled triangle with a pole of height h, rope of length 12m, and angle 30 degrees.",
+      "Diagram for Q44: Geometry showing two planes at different heights and a point D on the ground.",
+      "Diagram for Q45: Geometry showing a triangle ADC and point B on the base line."
+    ],
+    "details": {
+      "summary": "Solutions for height and distance problems involving trigonometric ratios."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 441
+  },
+  {
+    "id": "geo-22-001",
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "topic": "Basic Terms and Definitions",
+    "text": "<p><strong>Point:</strong> The figure of which length, breadth and height cannot be measured is called a point. It is infinitesind.</p><p><strong>Line Segment:</strong> The straight path between two points P and Q is called a line segment. This can be represented as PQ (with bar over it).</p><ul><li>P and Q are called the end points of the line segment.</li><li>The line segment has a definite length.</li><li>Distance between P and Q is called the length of the line segment PQ.</li></ul><p><strong>Line:</strong> A line segment extended endlessly on both sides, is called a line. It is denoted by PQ (with double arrow over it) or QP (with double arrow over it).</p><ul><li>A line is a set of infinite number of points.</li><li>A line have no end points and no definite length.</li></ul><p><strong>Ray:</strong> A ray extends indefinitely in one direction. This is exhibited by an arrow i.e. PQ (with arrow over it).</p><ul><li>P is called the initial point of the ray. The ray has no definite length.</li></ul><p><strong>Collinear Points:</strong> Three or more points are said to be collinear if a single straight line passes through them. Here, A, B and C are collinear.</p><p><strong>Non-collinear Points:</strong> Three or more points not lying on a single straight line are called non-collinear points. Here, A, B and C are non-collinear.</p><p><strong>Intersecting Lines:</strong> Two lines having a common point are called intersecting lines. This common point is the point of intersection i.e. O.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to fundamental geometric concepts including points, line segments, lines, rays, collinearity, and intersecting lines."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 442
+  },
+  {
+    "id": "cds_pathfinder_geom_001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Lines and Angles",
+    "text": "<p><strong>Concurrent Lines:</strong> Three or more lines intersecting at the same point are said to be concurrent. This common point is the point of concurrence i.e. O.</p><p><strong>Non Intersecting lines/Parallel Lines:</strong> If two lines lie in the same plane and do not intersect when produced on either side, then such lines are said to be parallel to each other. If l and m are two parallel lines, we write l || m and read it as l is parallel to m.</p><p><strong>ANGLES:</strong> An angle is formed by two rays with a common initial point. Let 'O' is the initial point, then O is called the vertex. P is a point in the interior of angle AOB and R is a point in the exterior of angle AOB.</p><p><strong>Types of Angle:</strong><ul><li><strong>Acute angle:</strong> 0° < angle < 90°</li><li><strong>Right angle:</strong> angle = 90°</li><li><strong>Obtuse angle:</strong> 90° < angle < 180°</li><li><strong>Straight angle:</strong> angle = 180°</li><li><strong>Reflex angle:</strong> 180° < angle < 360°</li><li><strong>Complete angle:</strong> angle = 360°</li></ul></p><p><strong>Pairs of Angle:</strong><ul><li><strong>Complementary Angles:</strong> Two angles are said to be complementary, if the sum of their measure is 90°. Complement of x is (90° - x).</li><li><strong>Supplementary Angles:</strong> Two angles are said to be supplementary, if the sum of their measures is 180°. Supplement of x is (180° - x).</li></ul></p>",
+    "formulas": [
+      "l || m",
+      "0° < angle < 90° (Acute)",
+      "angle = 90° (Right)",
+      "90° < angle < 180° (Obtuse)",
+      "angle = 180° (Straight)",
+      "180° < angle < 360° (Reflex)",
+      "angle = 360° (Complete)",
+      "angle1 + angle2 = 90° (Complementary)",
+      "angle1 + angle2 = 180° (Supplementary)"
+    ],
+    "image_descriptions": [
+      "Diagram showing three lines intersecting at a single point O, labeled as concurrent lines.",
+      "Diagram showing two parallel lines l and m.",
+      "Diagram of an angle AOB with vertex O, showing interior point P and exterior point R.",
+      "Series of diagrams illustrating acute, right, obtuse, straight, reflex, and complete angles.",
+      "Diagram showing two adjacent angles theta1 and theta2 forming a complementary pair.",
+      "Diagram showing two adjacent angles theta1 and theta2 forming a supplementary pair."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 443
+  },
+  {
+    "id": "math-la-001",
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "topic": "Bisector of an Angle",
+    "text": "<p>A ray which divides the angle into two equal parts, is called the <strong>bisector of an angle</strong>.</p><p>If a ray OS is the bisector of ∠POQ, then ∠POS = ∠QOS.</p><ul><li>∠POS = ∠QOS = 1/2 ∠POQ</li></ul>",
+    "formulas": [
+      "∠POS = ∠QOS = 1/2 ∠POQ"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram showing an angle ∠POQ with a ray OS bisecting it into two equal angles."
+    ],
+    "details": {
+      "summary": "Definition and property of an angle bisector."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 444
+  },
+  {
+    "id": "math-la-002",
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "topic": "Adjacent Angles",
+    "text": "<p>Two angles are said to be adjacent, if:</p><ul><li>(i) they have a common vertex.</li><li>(ii) they have a common arm.</li><li>(iii) their non-common arms are on either side of the common arm.</li></ul><p>Here, ∠POQ and ∠ROQ are adjacent angles.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram showing two adjacent angles ∠POQ and ∠ROQ sharing a common vertex O and a common arm OQ."
+    ],
+    "details": {
+      "summary": "Conditions for two angles to be adjacent."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 444
+  },
+  {
+    "id": "math-la-003",
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "topic": "Linear Pairs of Angles",
+    "text": "<p>If the non-common arms of two adjacent angles form a line, then these angles are called <strong>linear pair of angles</strong>.</p><p>∠ROP and ∠ROQ form a linear pair of angles.</p><p>∴ ∠POQ = ∠ROP + ∠ROQ = 180°</p>",
+    "formulas": [
+      "∠POQ = ∠ROP + ∠ROQ = 180°"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram showing a straight line PQ with a ray OR originating from point O on the line, forming two adjacent angles that sum to 180 degrees."
+    ],
+    "details": {
+      "summary": "Definition of linear pairs of angles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 444
+  },
+  {
+    "id": "math-la-004",
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "topic": "Vertically Opposite Angles",
+    "text": "<p>Two angles are called a pair of vertically opposite angles, if their arms form two pairs of opposite rays.</p><p>If two lines PQ and RS intersect at a point O, then the pair of ∠POR and ∠QOS or pair of ∠POS and ∠ROQ is said to be a pair of vertically opposite angles.</p><ul><li>Vertically opposite angles are always equal i.e. ∠POS = ∠ROQ and ∠POR = ∠SOQ.</li><li>Sum of the angles around a point is 360°.</li></ul>",
+    "formulas": [
+      "∠POS = ∠ROQ",
+      "∠POR = ∠SOQ"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram showing two intersecting lines PQ and RS at point O, creating two pairs of vertically opposite angles."
+    ],
+    "details": {
+      "summary": "Definition and properties of vertically opposite angles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 444
+  },
+  {
+    "id": "geo-angles-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Lines and Angles",
+    "text": "<p><strong>1. Corresponding angles:</strong> Corresponding angle pairs are ∠1 and ∠5, ∠2 and ∠6, ∠4 and ∠8, ∠3 and ∠7 and all the corresponding pair are equal. i.e., ∠1 = ∠5, ∠2 = ∠6, ∠4 = ∠8 and ∠3 = ∠7.</p><p><strong>2. Vertically opposite angles:</strong> Vertically opposite angles pairs are ∠1 and ∠3, ∠4 and ∠2, ∠8 and ∠6, ∠5 and ∠7 and all vertically opposite angles are equal. i.e., ∠1 = ∠3, ∠4 = ∠2, ∠8 = ∠6 and ∠5 = ∠7.</p><p><strong>3. Alternate angles:</strong> Alternate angles pairs are ∠3 and ∠5, ∠4 and ∠6 and they are equal. i.e., ∠3 = ∠5 and ∠4 = ∠6.</p><ul><li>The sum of interior angles on the same side of transversal is equal to 180°. i.e., ∠3 + ∠6 = 180° and ∠4 + ∠5 = 180°.</li><li>The sum of exterior angles on the same side of transversal is equal to 180°. i.e., ∠2 + ∠7 = 180° and ∠1 + ∠8 = 180°.</li></ul>",
+    "formulas": [
+      "∠1 = ∠5, ∠2 = ∠6, ∠4 = ∠8, ∠3 = ∠7",
+      "∠1 = ∠3, ∠4 = ∠2, ∠8 = ∠6, ∠5 = ∠7",
+      "∠3 = ∠5, ∠4 = ∠6",
+      "∠3 + ∠6 = 180°, ∠4 + ∠5 = 180°",
+      "∠2 + ∠7 = 180°, ∠1 + ∠8 = 180°"
+    ],
+    "image_descriptions": [
+      "Diagram showing a transversal line intersecting two parallel lines PQ and RS. A line segment connects the lines forming a triangle with a transversal. Angles are marked as 50 degrees and 100 degrees.",
+      "Diagram showing a transversal line intersecting two parallel lines labeled A and B, with a transversal line forming a triangle with a line segment connecting them."
+    ],
+    "details": {
+      "summary": "Definitions and properties of corresponding, vertically opposite, and alternate angles, including interior and exterior angle sums for transversals."
+    },
+    "mcq": {
+      "question": "In the given figure, PQ || RS. The value of x is",
+      "options": [
+        "50°",
+        "80°",
+        "75°",
+        "65°"
+      ],
+      "correct": 0,
+      "explanation": "Draw AB || PQ. ∠ATP = ∠TPQ = 50° (alternate angles). ∠BTR + ∠TRS = 180° (angles on the same side of transversal). ∠BTR = 80°. ∠ATP + x + ∠BTR = 180° (ATB is a straight line). x = 180° - (50° + 80°) = 50°."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 445
+  },
+  {
+    "id": "math-la-001",
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "topic": "Parallel Lines and Angles",
+    "text": "<p><strong>Case II:</strong> When both pairs of arms are parallel in opposite sense. Here, ∠ABC = ∠DEF.</p><p><strong>Case III:</strong> When one pair of arms is parallel in same direction and other pairs are parallel in opposite direction. Here, ∠ABC + ∠DEF = 180°. So, the two angles are not equal but supplementary.</p>",
+    "formulas": [
+      "∠ABC = ∠DEF",
+      "∠ABC + ∠DEF = 180°"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing Case II: Two parallel lines intersected by a transversal where arms are parallel in opposite sense.",
+      "Diagram showing Case III: Two parallel lines intersected by a transversal where arms are parallel in opposite directions."
+    ],
+    "details": {
+      "summary": "Properties of angles formed by parallel lines and transversals."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 452
+  },
+  {
+    "id": "triangles-001",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Definition and Properties of a Triangle",
+    "text": "<p>A plane (closed) figure bounded by three line segments is called a triangle. It is denoted by Δ.</p><p>ΔABC has:</p><ul><li>three vertices, namely A, B and C.</li><li>three sides, namely AB, BC and CA.</li><li>three angles, namely ∠A, ∠B and ∠C.</li><li>Sum of three angles of a triangle is 180°. i.e., ∠A + ∠B + ∠C = 180°</li><li>Area of a triangle = 1/2 × base × height = 1/2 × BC × AD</li></ul>",
+    "formulas": [
+      "∠A + ∠B + ∠C = 180°",
+      "Area = 1/2 * base * height"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A triangle ABC with a line segment AD perpendicular to the base BC, where D lies on BC."
+    ],
+    "details": {
+      "summary": "Basic definition, properties, and area formula of a triangle."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 453
+  },
+  {
+    "id": "triangles-002",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Classification of Triangle on the Basis of Angles",
+    "text": "<p><strong>1. On the Basis of Angles</strong></p><ul><li><strong>(i) Right Angled Triangle:</strong> A triangle in which one of the angle measures 90° is called a right angled triangle. The side opposite to the right angle is called its hypotenuse and the remaining two sides are called as perpendicular and base depending upon conditions. Here, ΔABC is a right angled triangle in which ∠B = 90° and AC is hypotenuse.</li><li><strong>(ii) Acute Angled Triangle:</strong> A triangle in which every angle measure more than 0° but less than 90° is called an acute angled triangle. Here, ΔABC is an acute angled triangle.</li><li><strong>(iii) Obtuse Angled Triangle:</strong> A triangle in which one of the angle measures more than 90° but less than 180° is called an obtuse angled triangle. Here, ΔABC is an obtuse angled triangle and ∠ABC is the obtuse angle.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Three diagrams showing: 1. A right-angled triangle with sides labeled Perpendicular, Base, and Hypotenuse, and angle θ. 2. An acute-angled triangle. 3. An obtuse-angled triangle with an obtuse angle at vertex B."
+    ],
+    "details": {
+      "summary": "Classification of triangles based on their internal angles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 453
+  },
+  {
+    "id": "math-triangles-001",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Classification of Triangles on the Basis of Sides",
+    "text": "<p>Triangles are classified based on their sides:</p><ul><li><strong>Equilateral Triangle:</strong> A triangle having all sides equal. In triangle ABC, AB = BC = AC. All angles are equal and measure 60 degrees.</li><li><strong>Isosceles Triangle:</strong> A triangle in which two sides are equal. In triangle ABC, AB = AC. The angles opposite to equal sides are equal, i.e., angle B = angle C.</li><li><strong>Scalene Triangle:</strong> A triangle in which all sides are of different lengths. In triangle ABC, AB is not equal to BC is not equal to AC.</li></ul><p><strong>Note:</strong> The sum of the lengths of three sides of a triangle is called its perimeter. Perimeter of triangle ABC = AB + BC + AC.</p>",
+    "formulas": [
+      "Perimeter = AB + BC + AC"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of an equilateral triangle with tick marks on all three sides indicating equality.",
+      "Diagram of an isosceles triangle with tick marks on two sides indicating equality.",
+      "Diagram of a scalene triangle with no markings indicating unequal sides."
+    ],
+    "details": {
+      "summary": "Classification of triangles based on side lengths: Equilateral, Isosceles, and Scalene."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 454
+  },
+  {
+    "id": "math-triangles-002",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Incentre, Circumcentre, and Medians",
+    "text": "<p><strong>Incentre and Angle Bisector:</strong> The point of intersection of all three angle bisectors of a triangle is called its incentre (denoted by I). The circle with centre I touching all sides is the incircle. Inradius (r) = 1/3 * Height = Side / (2 * sqrt(3)).</p><p><strong>Perpendicular Bisector and Circumcentre:</strong> The point of intersection of perpendicular bisectors of the sides is the circumcentre (denoted by C). The circle passing through vertices A, B, and C is the circumcircle. Circumradius (R) = 2/3 * Height = Side / sqrt(3).</p><p><strong>Altitudes and Orthocentre:</strong> The altitude is a line segment perpendicular from a vertex to the opposite side. The point of intersection of all three altitudes is the orthocentre (H).</p><p><strong>Medians and Centroid:</strong> A line segment joining the mid-point of a side to the opposite vertex is a median. The point of intersection of all three medians is the centroid (G). Centroid divides the median in the ratio 2:1. A median bisects the area of the triangle.</p>",
+    "formulas": [
+      "Inradius = 1/3 * Height = Side / (2 * sqrt(3))",
+      "Circumradius = 2/3 * Height = Side / sqrt(3)",
+      "Ar(ABD) = Ar(ADC) = 1/2 * Ar(ABC)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing incentre I, incircle, and angle bisectors.",
+      "Diagram showing circumcentre C, circumcircle, and perpendicular bisectors.",
+      "Diagram showing orthocentre H and altitudes.",
+      "Diagram showing centroid G and medians."
+    ],
+    "details": {
+      "summary": "Definitions and properties of triangle centers: Incentre, Circumcentre, Orthocentre, and Centroid."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 454
+  },
+  {
+    "id": "CDS_PATH_250_TRIANGLE_RESULTS",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Some Important Results of a Triangle",
+    "text": "<p><strong>Some Important Results of a Triangle:</strong></p><ul><li>If two angles of a triangle are equal, then the sides opposite to them are also equal.</li><li>In a triangle, the side opposite to a greater angle is the longest side.</li><li>The sum of all the three interior angles of a triangle is 180°.</li><li>If a side of a triangle is produced, then the exterior angle so formed is equal to the sum of the two interior opposite angles.</li><li>An exterior angle of a triangle is greater than either of the interior opposite angles.</li><li>A triangle must have atleast two acute angles.</li><li>If a perpendicular is drawn from the vertex of a right angled triangle to the hypotenuse, then the triangles on both sides of the perpendicular are similar to the original triangle and also to each other.</li><li>In a right angle triangle ABC, angle B = 90° and AC is hypotenuse. The perpendicular BD is dropped on hypotenuse AC from right angle vertex B, then: (i) BD = (AB * BC) / AC, (ii) AD = AB^2 / AC, (iii) CD = BC^2 / AC, (iv) 1/BD^2 = 1/AB^2 + 1/BC^2.</li><li>The area of the equilateral triangle described on the side of a square is half the area of the equilateral triangle described on its diagonal.</li><li>In triangle ABC, if angle B > 90° and AD is perpendicular dropped on BC, then AC^2 = AB^2 + BC^2 + 2BC * BD.</li><li>In triangle ABC, if angle B < 90° and AD perpendicular to BC, then AC^2 = AB^2 + BC^2 - 2BC * BD.</li><li>In any triangle, the sum of the square of any two sides is equal to twice the square of half of the third side together with twice the square of the median which bisect the third side. Here, AD is median, so AB^2 + AC^2 = 2AD^2 + 2(1/2 BC)^2.</li><li>In a triangle ABC, three times the sum of the squares of the sides of a triangle is equal to four times the sum of the squares of the medians of the triangle. So, in triangle, if AD, BE, FC are the medians, then 3(AB^2 + BC^2 + AC^2) = 4(AD^2 + BE^2 + CF^2).</li><li>In an equilateral triangle ABC, the side BC is trisected at D. Then, 9 AD^2 = 7 AC^2.</li><li>When the bisector of one internal base angle and the bisector of external angle meet at a point then the formed angle is equal to one half of the vertical angle. Here, angle BEC = 1/2 angle BAC.</li></ul>",
+    "formulas": [
+      "BD = (AB * BC) / AC",
+      "AD = AB^2 / AC",
+      "CD = BC^2 / AC",
+      "1/BD^2 = 1/AB^2 + 1/BC^2",
+      "AC^2 = AB^2 + BC^2 + 2BC * BD",
+      "AC^2 = AB^2 + BC^2 - 2BC * BD",
+      "AB^2 + AC^2 = 2AD^2 + 2(1/2 BC)^2",
+      "3(AB^2 + BC^2 + AC^2) = 4(AD^2 + BE^2 + CF^2)",
+      "9 AD^2 = 7 AC^2",
+      "angle BEC = 1/2 angle BAC"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a triangle ABC with a line segment AX and a transversal line HK intersecting AB and AC.",
+      "Diagram showing a right-angled triangle ABC with a perpendicular BD dropped from B to hypotenuse AC.",
+      "Diagram showing an obtuse-angled triangle ABC with a perpendicular AD dropped from A to the extension of BC.",
+      "Diagram showing an acute-angled triangle ABC with a perpendicular AD dropped from A to BC.",
+      "Diagram showing a triangle ABC with a median AD.",
+      "Diagram showing a triangle ABC with three medians AD, BE, and CF intersecting at a centroid.",
+      "Diagram showing a triangle ABC with an internal angle bisector of B and an external angle bisector of C meeting at point E."
+    ],
+    "details": {
+      "summary": "This section covers fundamental geometric properties and theorems related to triangles, including right-angled triangle relations, median theorems, and angle bisector properties."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 455
+  },
+  {
+    "id": "math-triangles-251-001",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Properties of Triangles",
+    "text": "<ul><li>The side BC of triangle ABC is produced to D. The bisector of angle A meets BC in L. Then angle ABC + angle ACD = 2 angle ALC.</li><li>In a triangle ABC, the bisector of angle B and angle C intersect each other at a point O. Then, angle BOC = 90 degrees + 1/2 angle A.</li><li>In a triangle ABC, the side AB and AC are produced to P and Q, respectively. The bisectors of angle PBC and angle QCB intersect at a point O. Then, angle BOC = 90 degrees - 1/2 angle A.</li><li>In a triangle ABC, angle B > angle C. If AN is the bisector of angle BAC and AM perpendicular to BC, then angle MAN = 1/2 (angle B - angle C).</li><li>The bisectors of the base angles of a triangle can never enclose a right angle.</li><li>A triangle is an isosceles if and only if any two altitudes are equal.</li><li>If the three sides of a triangle be produced in order, then the sum of all the exterior angles so formed is 360 degrees. So, angle DAB + angle EBC + angle ACF = 360 degrees.</li><li>Sum of any two sides of a triangle is greater than its third side. Here, in triangle ABC, AB + AC > BC; similarly, AB + BC > AC, BC + AC > AB.</li><li>The difference between any two sides of a triangle is less than its third side. Here, in triangle ABC, AC - AB < BC. Similarly, BC - AC < AB, BC - AB < AC.</li><li>If the bisector of the vertical angle of a triangle bisects the base, then that triangle is an isosceles.</li><li>If the altitude from one vertex of a triangle bisects the opposite side, then the triangle is an isosceles.</li><li>The perpendiculars drawn from the vertices of equal angles of an isosceles triangle to the opposite sides are equal.</li><li>Medians of equilateral triangle are equal.</li><li>If D is the mid-point of the hypotenuse AC of a right angled triangle ABC. Then, BD = 1/2 AC.</li><li>The sum of any two sides of a triangle is greater than twice the median drawn to the third side.</li><li>Perimeter of a triangle is greater than the sum of its three medians. So, AB + BC + AC > AD + BE + CF.</li></ul>",
+    "formulas": [
+      "angle ABC + angle ACD = 2 angle ALC",
+      "angle BOC = 90 + A/2",
+      "angle BOC = 90 - A/2",
+      "angle MAN = 1/2(angle B - angle C)",
+      "angle DAB + angle EBC + angle ACF = 360",
+      "AB + AC > BC",
+      "AC - AB < BC",
+      "BD = 1/2 AC",
+      "AB + BC + AC > AD + BE + CF"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing triangle ABC with side BC extended to D, and angle bisector AL.",
+      "Diagram showing triangle ABC with angle bisectors of B and C meeting at O.",
+      "Diagram showing triangle ABC with sides AB and AC extended to P and Q, and bisectors of exterior angles meeting at O.",
+      "Diagram showing triangle ABC with altitude AM and angle bisector AN.",
+      "Diagram showing triangle ABC with sides extended to form exterior angles DAB, EBC, and ACF.",
+      "Diagram showing triangle ABC with side BC extended to D to illustrate triangle inequality.",
+      "Diagram showing triangle ABC with side BC extended to D to illustrate difference of sides.",
+      "Diagram showing right-angled triangle ABC with D as midpoint of hypotenuse AC.",
+      "Diagram showing triangle ABC with medians AD, BE, and CF intersecting at a point."
+    ],
+    "details": {
+      "summary": "This page covers various geometric properties, theorems, and inequalities related to triangles, including angle bisectors, medians, altitudes, and side relationships."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 456
+  },
+  {
+    "id": "CDS_PATH_252_001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Congruence of Triangles",
+    "text": "<p><strong>Congruent Figures:</strong> The geometrical figures having the same shape and size are known as congruent figures. e.g. Two circles of the same radii and two squares of the same sides are congruent.</p><p><strong>Congruent Triangles:</strong> Two triangles are said to be congruent, if both are exactly of same size i.e. all angles and sides are equal to corresponding angles and sides of other.</p><ul><li>Every triangle is congruent to itself: ΔABC ≅ ΔABC</li><li>If ΔABC ≅ ΔDEF, then ΔDEF ≅ ΔABC</li><li>If ΔABC ≅ ΔDEF and ΔDEF ≅ ΔPQR, then ΔABC ≅ ΔPQR</li></ul><p>In congruent triangles, corresponding parts are equal and we write in short ‘CPCT’, i.e. corresponding part of congruent triangles.</p><p><strong>Criteria for Congruence of Triangles:</strong></p><ul><li><strong>Theorem 1 (SAS criteria):</strong> Two triangles are congruent if two sides and the included angle of one triangle are equal to the corresponding sides and the included angle of other triangle.</li><li><strong>Theorem 2 (ASA criteria):</strong> Two triangles are congruent if two angles and the included side of one triangle are equal to the corresponding two angles and the included side of the other triangles.</li><li><strong>Theorem 3 (SSS criteria):</strong> Two triangles are congruent if three sides of one triangle are equal to the corresponding three sides of the other triangle.</li><li><strong>Theorem 4 (RHS criteria):</strong> Two triangles are congruent if the hypotenuse and other side of one triangle are equal to the hypotenuse and the corresponding side of the other triangle.</li><li><strong>Theorem 5 (AAS criteria):</strong> Two triangles are congruent if two angles and a side other than the included side of one triangle are equal to the corresponding two angles and a side other than the included side of other triangle.</li></ul>",
+    "formulas": [
+      "∠BIC = 90° + 1/2 ∠A",
+      "AB = sqrt(AD^2 + BD^2)",
+      "BD = AB^2 / BC",
+      "AB^2 = BD * BC"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram for Example 3: Triangle ABC with incentre I, angle BIC = 108 degrees.",
+      "Diagram for Example 4: Right-angled triangle ABC with altitude AD to hypotenuse BC. AD=6, BD=4.",
+      "Diagram for Example 5: Triangle ABC with altitudes BD and CE intersecting at a point.",
+      "Diagram for Example 6: Triangle ABC with midpoint D on BC, DE perpendicular to AB, DF perpendicular to AC, DE=DF."
+    ],
+    "details": {
+      "summary": "Covers definitions of congruent figures and triangles, properties of congruence, and the five standard criteria (SAS, ASA, SSS, RHS, AAS) for triangle congruence."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 457
+  },
+  {
+    "id": "math-triangles-001",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Similar Figures and Triangles",
+    "text": "<p><strong>Similar Figures:</strong> The geometrical figures having the same shape, but different sizes are known as similar figures. The congruent figures are always similar, but two similar figures need not be congruent. e.g., Any two circles are similar. Any two rectangles are similar.</p><p><strong>Similar Triangles:</strong> Two triangles are said to be similar to each other, if (i) their corresponding sides are proportional, (ii) their corresponding angles are equal. If triangle ABC ~ triangle PQR, then angle A = angle P, angle B = angle Q, angle C = angle R and AB/PQ = BC/QR = AC/PR.</p>",
+    "formulas": [
+      "AB/PQ = BC/QR = AC/PR"
+    ],
+    "image_descriptions": [
+      "Diagram showing two triangles ABC and PQR with corresponding angles marked equal."
+    ],
+    "details": {
+      "summary": "Definitions and conditions for similarity in geometric figures and triangles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 458
+  },
+  {
+    "id": "math-triangles-002",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "topic": "Results on Similar Triangles",
+    "text": "<p><strong>Theorem 1 (Basic Proportionality Theorem):</strong> If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then it divides these sides in the same ratio. If DE || BC, then AD/DB = AE/EC.</p><p><strong>Theorem 2:</strong> The internal bisector of an angle of a triangle divides the opposite sides internally in the ratio of the sides containing the angle. If AD is internal bisector of angle A, then AB/AC = BD/DC.</p><p><strong>Theorem 3:</strong> The line joining the mid-points of any two sides of a triangle is parallel to the third side and is half of the third side. PQ = 1/2 BC.</p><p><strong>Theorem 4:</strong> If two triangles are equiangular, then the ratio of their corresponding sides is the same as the ratio of the corresponding altitudes. BC/QR = AD/PS.</p><p><strong>Theorem 5:</strong> If two triangles are equiangular, then the ratio of their corresponding sides is the same as the ratio of the corresponding angle bisector segments. BC/ST = AD/RP.</p><p><strong>Theorem 6:</strong> If two triangles are equiangular, then the ratio of their corresponding sides is the same as the ratio of the corresponding medians. BC/QR = AD/PS.</p><p><strong>Note:</strong> If two triangles are similar, then ratio of their corresponding sides is same as ratio of their perimeters.</p>",
+    "formulas": [
+      "AD/DB = AE/EC",
+      "AB/AC = BD/DC",
+      "PQ = 1/2 BC",
+      "BC/QR = AD/PS",
+      "BC/ST = AD/RP"
+    ],
+    "image_descriptions": [
+      "Diagrams for Theorem 1 (triangle with parallel line), Theorem 2 (angle bisector), Theorem 3 (mid-point line), Theorem 4 (altitudes), Theorem 5 (angle bisectors), and Theorem 6 (medians)."
+    ],
+    "details": {
+      "summary": "Key theorems regarding proportionality, angle bisectors, mid-points, altitudes, and medians in similar triangles."
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 458
+  },
+  {
+    "id": "CDS-PATH-254-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Criteria for Similarity of Two Triangles",
+    "text": "<p><strong>Criteria for Similarity of Two Triangles:</strong></p><ul><li><strong>AAA similarity:</strong> If the corresponding angles of two triangles are equal then their corresponding sides are proportional and hence the two triangles are similar.</li><li><strong>Corollary AA similarity:</strong> If two angles of one triangle are equal to the corresponding two angles of another triangle, then the two triangles are similar.</li><li><strong>SSS similarity:</strong> If the corresponding sides of two triangles are proportional, then their corresponding angles are equal, and hence the two triangles are similar.</li><li><strong>SAS similarity:</strong> If one angle of a triangle is equal to the corresponding angle of the other triangle and the sides including these angles are proportional, then the two triangles are similar.</li><li><strong>RHS similarity:</strong> If hypotenuse and one side of a right triangle are proportional to the hypotenuse and corresponding side of other right triangle then the two triangles are similar.</li></ul>",
+    "formulas": [
+      "AAA similarity",
+      "AA similarity",
+      "SSS similarity",
+      "SAS similarity",
+      "RHS similarity"
+    ],
+    "image_descriptions": [
+      "Diagram showing a triangle ABC with a line segment PQ inside it, where AB is parallel to PQ. The segments are labeled with variables x, a, c, b."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 459
+  },
+  {
+    "id": "CDS-PATH-254-002",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Areas of Similar Triangles",
+    "text": "<p><strong>Theorem 1:</strong> The ratio of areas of two similar triangles is equal to the square of the ratio of their corresponding sides.</p><p><strong>Theorem 2:</strong> The areas of two similar triangles is equal to the ratio of the squares of corresponding altitudes.</p><p><strong>Theorem 3:</strong> The areas of two similar triangles is equal to the ratio of the squares of the corresponding medians.</p>",
+    "formulas": [
+      "Area(ABC) / Area(PQR) = AB^2 / PQ^2 = BC^2 / QR^2 = AC^2 / PR^2",
+      "Area(ABC) / Area(PQR) = AD^2 / PS^2"
+    ],
+    "image_descriptions": [
+      "Three sets of diagrams showing two similar triangles (ABC and PQR). The first set shows sides, the second set shows altitudes AD and PS, and the third set shows medians AD and PS."
+    ],
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 459
   }
 ]
