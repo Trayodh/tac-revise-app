@@ -89760,5 +89760,2835 @@
     },
     "source_pdf": "nda_material.pdf",
     "source_page": 119
+  },
+  {
+    "id": "note-nda-2019-2-wellesley",
+    "subject": "History",
+    "chapter": "Modern Indian History",
+    "topic": "Wellesley's Administration and Military Expenditure",
+    "text": "<p>During <strong>Lord Wellesley's</strong> administration (1798–1805), the army functioned as an extremely expensive machinery of the British East India Company. Key aspects include:</p><ul><li><strong>Military Expenditure:</strong> In the six years of his administration, the army accounted for approximately <strong>42.5%</strong> of the Company's total expenditure due to frequent wars waged against major princely states such as Mysore, the Marathas, and the Nizam of Hyderabad.</li><li><strong>Subsidiary Alliance System:</strong> Wellesley devised the Subsidiary Alliance system, which compelled Indian rulers to maintain British troops within their territories and accept a British Resident at their courts, thereby giving the Company significant leverage to intervene in the internal, commercial, and foreign affairs of Indian rulers.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Lord Wellesley's administration saw heavy military expenditures (42.5% of total budget) and widespread political expansion through the Subsidiary Alliance System."
+    },
+    "mcq": {
+      "question": "What percentage of the East India Company's total expenditure was accounted for by the army during Wellesley's administration?",
+      "options": [
+        "25%",
+        "33.5%",
+        "42.5%",
+        "50%"
+      ],
+      "correct": 2,
+      "explanation": "During the six years of Lord Wellesley's administration, military expenses escalated to about 42.5% of the Company's total expenditure."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 120
+  },
+  {
+    "id": "note-nda-2019-2-russian-rev",
+    "subject": "History",
+    "chapter": "World History",
+    "topic": "Factions of the Russian Social Democratic Labour Party: Bolsheviks vs Mensheviks",
+    "text": "<p>The Russian Social Democratic Labour Party split into two principal factions:</p><ul><li><strong>Bolsheviks:</strong> Led by <em>Vladimir Lenin</em>. They argued that in an autocratic and repressive society like Tsarist Russia, the party needed to be disciplined, tightly knit, and exercise strict control over the quality and number of its members (a vanguard party of professional revolutionaries).</li><li><strong>Mensheviks:</strong> Led by <em>Julius Martov</em>. They believed that the party should be open to all members of the working class and follow the broad democratic model found in Western European parties, such as in Germany.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "The Bolsheviks favored a disciplined, restricted party of professional revolutionaries, whereas the Mensheviks advocated for open, mass membership."
+    },
+    "mcq": {
+      "question": "Which faction of the Russian Social Democratic Labour Party advocated for an open party structure accessible to the general masses?",
+      "options": [
+        "Bolsheviks",
+        "Mensheviks",
+        "Decembrists",
+        "Cadets"
+      ],
+      "correct": 1,
+      "explanation": "The Mensheviks, led by Julius Martov, believed that the party should be open to all, similar to the socialist parties in Germany."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 120
+  },
+  {
+    "id": "note-nda-2019-2-continental-congress",
+    "subject": "History",
+    "chapter": "World History",
+    "topic": "The First Continental Congress (1774)",
+    "text": "<p>The <strong>First Continental Congress</strong> met at Carpenter's Hall in Philadelphia in September 1774 in response to the Coercive Acts following the <em>Boston Tea Party</em> (December 1773). Key details include:</p><ul><li>Delegates represented <strong>12 of the 13 British colonies</strong> in North America (Georgia did not send delegates).</li><li>It rejected Joseph Galloway's plan for a colonial union under British authority.</li><li>It drafted a formal declaration of rights and statement of grievances addressed to King George III.</li><li>It established the <em>Continental Association</em>, agreeing to a boycott of British goods and the cessation of all trade with England.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Meeting of 12 American colonies in September 1774 that organized trade boycotts against Britain and rejected colonial union under British authority."
+    },
+    "mcq": {
+      "question": "Where was the First Continental Congress held in September 1774?",
+      "options": [
+        "Boston",
+        "New York",
+        "Philadelphia",
+        "Charleston"
+      ],
+      "correct": 2,
+      "explanation": "The First Continental Congress was convened at Carpenter's Hall in Philadelphia in September 1774."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 120
+  },
+  {
+    "id": "note-nda-2019-2-sedimentary-rocks",
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "topic": "Classification of Sedimentary Rocks",
+    "text": "<p>Sedimentary rocks are categorized into three major groups based on their mode of formation:</p><ul><li><strong>Organically Formed:</strong> Derived from the accumulation of organic debris.<ul><li><em>Calcareous:</em> Formed from remains of shells, corals, and skeletal material (e.g., <strong>chalk</strong>, <strong>limestone</strong>).</li><li><em>Carbonaceous:</em> Formed from compacted vegetative matter in swamps and forests (e.g., <strong>peat</strong>, <strong>lignite</strong>, <strong>coal</strong>).</li></ul></li><li><strong>Mechanically Formed:</strong> Formed by physical deposition of rock fragments (e.g., <strong>shale</strong>, sandstone, conglomerate).</li><li><strong>Chemically Formed:</strong> Precipitated from mineral-rich solutions (e.g., <strong>halite</strong>, <strong>chert</strong>, gypsum).</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Rock Type | Mode of Formation | Examples |\n|---|---|---|\n| Organically Formed | Living organisms / vegetative remains | Chalk, Limestone, Peat, Coal |\n| Mechanically Formed | Physical disintegration and deposition | Shale, Sandstone, Conglomerate |\n| Chemically Formed | Chemical precipitation from solutions | Halite, Chert, Gypsum |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Sedimentary rocks are grouped as organically formed (chalk, coal), mechanically formed (shale), or chemically formed (halite, chert)."
+    },
+    "mcq": {
+      "question": "Which of the following sedimentary rocks is formed organically?",
+      "options": [
+        "Shale",
+        "Halite",
+        "Chert",
+        "Chalk"
+      ],
+      "correct": 3,
+      "explanation": "Chalk is an organically formed calcareous sedimentary rock composed of microscopic marine organisms."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 120
+  },
+  {
+    "id": "note-nda-2019-2-koppen-cfa",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Köppen Climate Classification System",
+    "text": "<p>Wladimir Köppen's classification system relies on monthly and annual values of temperature and precipitation:</p><ul><li><strong>Cfa:</strong> Denotes a <em>Humid subtropical climate</em> characterized by mild winters, hot and humid summers, and no distinct dry season.</li><li><strong>Af:</strong> Denotes a <em>Tropical wet climate</em> (equatorial rainforest).</li><li><strong>Aw:</strong> Denotes a <em>Tropical wet and dry climate</em> (savanna).</li><li><strong>ET:</strong> Denotes a <em>Tundra climate</em>.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "In Köppen's scheme, Cfa stands for humid subtropical climate with warm summers and year-round precipitation."
+    },
+    "mcq": {
+      "question": "In the Köppen climate classification, what does the letter code Cfa represent?",
+      "options": [
+        "Tropical wet climate",
+        "Humid subtropical climate",
+        "Tundra climate",
+        "Tropical dry climate"
+      ],
+      "correct": 1,
+      "explanation": "Cfa represents a humid subtropical climate with hot summers and precipitation distributed across all seasons."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 120
+  },
+  {
+    "id": "note-nda-2019-2-folds",
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "topic": "Types of Geological Folds",
+    "text": "<p>Folds in rock strata develop due to compressional tectonic forces:</p><ul><li><strong>Recumbent Fold:</strong> A fold where the axial plane is overturned to such an extent that it is virtually <strong>horizontal</strong>.</li><li><strong>Isoclinal Fold:</strong> A fold where the limbs and the axial surface dip in the same direction at roughly equal angles.</li><li><strong>Anticlinal Fold:</strong> An arch-like upfold that is convex upwards, with older rock layers at the core.</li><li><strong>Monoclinal Fold:</strong> A step-like bend or flexure consisting of a zone of steeper dip within horizontal or gently dipping strata.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Recumbent folds are characterized by a nearly horizontal axial plane resulting from extreme lateral compression."
+    },
+    "mcq": {
+      "question": "In which fold type is the axial plane found to be virtually horizontal?",
+      "options": [
+        "Isoclinal",
+        "Anticlinal",
+        "Recumbent",
+        "Monoclinal"
+      ],
+      "correct": 2,
+      "explanation": "A recumbent fold has an axial plane overturned so significantly that it lies in a nearly horizontal orientation."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 120
+  },
+  {
+    "id": "note-nda-2019-2-ramsar-convention",
+    "subject": "Environment",
+    "chapter": "Ecology and Biodiversity",
+    "topic": "The Ramsar Convention on Wetlands",
+    "text": "<p>The <strong>Ramsar Convention on Wetlands</strong> is an intergovernmental environmental treaty:</p><ul><li><strong>Origin:</strong> Adopted in the Iranian city of Ramsar in <strong>1971</strong> and came into force in 1975.</li><li><strong>Objective:</strong> Conservation and wise use of wetlands and their resources.</li><li><strong>India's Association:</strong> India signed the convention on February 1, 1982. <em>Chilika Lake</em> (Odisha) and <em>Keoladeo National Park</em> (Rajasthan) were the first Indian sites designated under the convention.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "International convention signed in Ramsar, Iran (1971) for wetland conservation; Chilika Lake was among India's first designated sites."
+    },
+    "mcq": {
+      "question": "Which was the first wetland site in India to be designated under the Ramsar Convention?",
+      "options": [
+        "Dal Lake",
+        "Chilika Lake",
+        "Harike Wetland",
+        "Pong Dam Lake"
+      ],
+      "correct": 1,
+      "explanation": "Chilika Lake in Odisha (along with Keoladeo National Park) was the first Ramsar site recognized in India."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 120
+  },
+  {
+    "id": "note-001",
+    "subject": "Geography",
+    "chapter": "World Geography",
+    "topic": "Suez Canal",
+    "text": "<p>The <strong>Suez Canal</strong> in Egypt connects the Red Sea with the Mediterranean Sea. It was constructed between 1859 and 1869 and officially opened in 1869. It provides Europe a new gateway to the Indian Ocean, allowing huge trade and cargo movement between Europe and Asian countries. It does <strong>not</strong> have a lock system as the water level in the Mediterranean Sea and the Red Sea is nearly the same.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Key facts about the Suez Canal construction and function."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 121
+  },
+  {
+    "id": "note-002",
+    "subject": "History",
+    "chapter": "World History",
+    "topic": "Reign of Terror",
+    "text": "<p>The <strong>Reign of Terror</strong> was a period in the French Revolution (1793-1794) marked by widespread violence and executions by the <strong>Jacobins</strong> in association with the <strong>Sans-Culottes</strong>. The Jacobins were in league with the French clergy. The period ended on 27th July 1794 with the execution of Robespierre by guillotine.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of the French Revolution's Reign of Terror."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 121
+  },
+  {
+    "id": "note-003",
+    "subject": "History",
+    "chapter": "Modern Indian History",
+    "topic": "Important Personalities",
+    "text": "<ul><li><strong>Satyendranath Tagore:</strong> First Indian to qualify for the Indian Civil Service (selected in 1863, posted in Bombay Presidency).</li><li><strong>Maulana Abul Kalam Azad:</strong> Education Minister in the first Cabinet of Independent India. National Education Day is celebrated on 11th November to commemorate his birth anniversary.</li><li><strong>Bahadur Shah Zafar:</strong> Died in Rangoon in 1862.</li><li><strong>Rani Laxmibai:</strong> Died on the battlefield in Gwalior on 18th June 1858.</li><li><strong>Tantia Tope:</strong> Executed by Britishers in 1859 at Shivpuri.</li><li><strong>Nana Saheb:</strong> Escaped to Nepal and is thought to have died in 1859.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Biographical notes on key Indian historical figures."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 121
+  },
+  {
+    "id": "note-004",
+    "subject": "Indian Polity",
+    "chapter": "Constitution of India",
+    "topic": "Article 46",
+    "text": "<p><strong>Article 46</strong> in Part IV of the Constitution of India is related to the promotion of educational and economic interests of the <strong>Scheduled Castes, Scheduled Tribes</strong>, and other weaker sections. It provides that the state shall protect the weaker sections of society from social injustice and all forms of exploitation.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of Article 46 of the Indian Constitution."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 121
+  },
+  {
+    "id": "note-005",
+    "subject": "Geography",
+    "chapter": "Atmosphere",
+    "topic": "Lapse Rate",
+    "text": "<p>The normal lapse rate of temperature of Earth's atmosphere is the rate at which temperature changes with altitude. The temperature drops to 0°C at the <strong>upper boundary of the tropopause</strong>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of normal lapse rate."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 121
+  },
+  {
+    "id": "note-006",
+    "subject": "Miscellaneous",
+    "chapter": "Organizations",
+    "topic": "National Research Laboratory for Conservation of Cultural Property",
+    "text": "<p>The <strong>National Research Laboratory for Conservation of Cultural Property (NRLC)</strong> is a scientific institution of the Ministry of Culture, Government of India. It was established in 1976 and its headquarters is located in <strong>Lucknow</strong>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Details regarding the NRLC."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 121
+  },
+  {
+    "id": "chem-001",
+    "subject": "Chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "topic": "Types of Chemical Reactions",
+    "text": "<p><strong>Combination Reaction:</strong> A reaction in which a single product is formed from two or more reactants.</p><p><strong>Decomposition Reaction:</strong> A reaction in which a single reactant breaks down to give simpler products. These are of three types:</p><ul><li><strong>Thermal Decomposition:</strong> Carried out by heating.</li><li><strong>Electrolytic Decomposition:</strong> Carried out by passing electricity.</li><li><strong>Photolytic Decomposition:</strong> Carried out in the presence of sunlight.</li></ul><p><strong>Displacement Reaction:</strong> A more reactive element displaces a less reactive element from its salt solution.</p><p><strong>Double Displacement Reaction:</strong> Two different atoms or groups of atoms are displaced by each other, usually involving the exchange of ions between reactants.</p>",
+    "formulas": [
+      "A + B -> AB (Combination)",
+      "AB -> A + B (Decomposition)",
+      "A + BC -> AC + B (Displacement)",
+      "AB + CD -> AD + CB (Double Displacement)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing the setup for the electrolysis of water, featuring a plastic mug with two holes at the base, graphite rods acting as electrodes, test tubes filled with water inverted over the electrodes, and a 6V battery connection."
+    ],
+    "details": {
+      "summary": "Overview of the four primary types of chemical reactions: Combination, Decomposition, Displacement, and Double Displacement."
+    },
+    "mcq": null,
+    "source_pdf": "nda_material.pdf",
+    "source_page": 124
+  },
+  {
+    "id": "chem-001",
+    "subject": "Chemistry",
+    "chapter": "Metals and Non-metals",
+    "topic": "Reactivity of Metals",
+    "text": "<p>Magnesium (Mg) does not react with cold water, but reacts with hot water.</p><p>Calcium (Ca) and Sodium (Na) react with cold water.</p>",
+    "formulas": [
+      "Mg + 2H2O -> Mg(OH)2 + H2",
+      "Mg + H2O -> MgO + H2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Reactivity of specific metals with water."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 143
+  },
+  {
+    "id": "chem-002",
+    "subject": "Chemistry",
+    "chapter": "Atomic Structure",
+    "topic": "Isoelectronic Ions",
+    "text": "<p>Isoelectronic species are atoms or ions that contain the same number of electrons.</p>",
+    "formulas": [],
+    "tables": [
+      "| Ion | Atomic Number | Number of Electrons |\n|---|---|---|\n| Mg2+ | 12 | 10 |\n| Ar | 18 | 18 |\n| Na+ | 11 | 10 |\n| O2- | 8 | 10 |\n| Al3+ | 13 | 10 |\n| Cl- | 17 | 18 |\n| K+ | 19 | 18 |\n| Ne | 10 | 10 |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and examples of isoelectronic ions."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 143
+  },
+  {
+    "id": "chem-003",
+    "subject": "Chemistry",
+    "chapter": "Materials",
+    "topic": "Binders in Paints",
+    "text": "<p>Binders are substances that hold the particles of pigment together in paints. Silicones are synthetic organo-silicon polymers containing repeated R2SiO units used as binders.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Function of binders in paints."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 143
+  },
+  {
+    "id": "geo-001",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Air Masses",
+    "text": "<p>Air masses are defined by temperature and water vapour content. They cover hundreds or thousands of miles and adapt to the surface below. They are classified according to latitude and their continental or maritime source regions. There are four types of air masses: Polar, Tropical, Continental, and Maritime.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Characteristics and classification of air masses."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 143
+  },
+  {
+    "id": "geo-002",
+    "subject": "Geography",
+    "chapter": "Institutions",
+    "topic": "National Water Academy",
+    "text": "<p>The National Water Academy (NWA) is a centre of excellence in training and capacity building in water resources, located in Pune (Maharashtra). It was set-up under the Central Water Commission in 1988 to function as a 'Centre of Excellence' for in-service training of water resources engineering personnel.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of the National Water Academy."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 143
+  },
+  {
+    "id": "geo-003",
+    "subject": "Geography",
+    "chapter": "Biomes",
+    "topic": "Tropical Savanna Grasslands",
+    "text": "<p>'Campos' and 'Llanos' are tropical savanna grasslands found in South America. Campos is located in Brazilian Highlands and Llanos in Orinoco basin. They are located near the Equator, between the tropic of Cancer and the tropic of Capricorn, serving as a transitional zone between equatorial rainforests and hot deserts.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Geographical distribution of Campos and Llanos."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 143
+  },
+  {
+    "id": "geo-004",
+    "subject": "Geography",
+    "chapter": "Economic Geography",
+    "topic": "Viticulture",
+    "text": "<p>Viticulture is the cultivation and harvesting of grapes. The Adelaide Hills wine region is a famous economic region in Australia for the production of wine.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and significance of viticulture."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 143
+  },
+  {
+    "id": "geo-005",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Local Winds",
+    "text": "<p>'Shamal' is a hot, dusty and dry wind which blows from the North or North-West in Mesopotamia (Iraq, Iran, and the Arabian Peninsula). Other local winds include: Foehn (Alps), Khamsin (Egypt), Sirocco (North Africa), and Harmattan (West Africa).</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of important local winds."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 143
+  },
+  {
+    "id": "geo-006",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Inversion of Rainfall",
+    "text": "<p>'Inversion of Rainfall' is associated with orographic rainfall. It occurs due to the ascent of air forced by a mountain barrier. The rainfall increases with increasing height of the barrier up to a certain limit, after which there is a decrease due to lesser moisture content.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of the phenomenon of Inversion of Rainfall."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 143
+  },
+  {
+    "id": "hist-001",
+    "subject": "History",
+    "chapter": "Modern Indian History",
+    "topic": "Literature and Proclamations",
+    "text": "<p><strong>History of British India:</strong> Authored by James Mill (1773-1836).<br><strong>Azamgarh Proclamation:</strong> Issued on 25th August, 1857, during the Sepoy Mutiny. It stressed on Hindu-Muslim divide and was published in the Delhi Gazette. The author was likely Firoz Shah.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Key historical texts and proclamations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs 2020",
+    "subchapter": "International Organizations",
+    "topic": "UNESCO",
+    "content": "### UNESCO World Capital of Architecture 2020\n- **City:** Rio de Janeiro (spelled *Rio‑de‑Janerio* in the source)\n- **Designation:** Named by UNESCO as the **World Capital of Architecture** for the year 2020.\n- **Event:** Hosted the **World Congress of the International Union of Architects** in July 2020.\n- **Significance:** Highlights the city’s architectural heritage and promotes global dialogue on sustainable urban design.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Sports",
+    "chapter": "Cricket",
+    "subchapter": "Awards",
+    "topic": "ICC Emerging Player of the Year 2018",
+    "content": "### ICC Emerging Player of the Year – 2018\n- **Winner:** **Rishabh Pant** (India)\n- **Age at award:** 21 years\n- **Reason:** Recognised for his breakthrough performances in Test cricket during 2018, especially his aggressive batting and wicket‑keeping skills.\n- **Awarding Body:** International Cricket Council (ICC) – selected by the ICC’s voting academy.\n- **Impact:** Marked Pant as one of the world’s most promising young cricketers and boosted his profile internationally.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Defence",
+    "chapter": "Indigenous Defence Production",
+    "subchapter": "Private‑Sector Initiatives",
+    "topic": "Howitzer Manufacturing Unit",
+    "content": "### India’s First Private‑Sector Howitzer Gun‑Making Unit\n- **Location:** **Hazira**, Surat, Gujarat (option *c* in the MCQ).\n- **Inauguration Date:** 19 January 2019, by Prime Minister Narendra Modi.\n- **Complex Name:** **Armoured System Complex (ASC)**.\n- **Builder:** **Larsen & Toubro (L&T)** – the first private company to set up a Howitzer manufacturing facility in India.\n- **Significance:** Enhances self‑reliance in artillery production and reduces dependence on imports.\n- **Products:** Primarily the **155 mm / 52 calibre howitzer** for the Indian Army.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 151
+  },
+  {
+    "id": "chem-001",
+    "subject": "Chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "topic": "Types of Chemical Reactions",
+    "text": "<p><strong>Combination Reaction:</strong> A reaction in which a single product is formed from two or more reactants.</p><p><strong>Decomposition Reaction:</strong> A reaction in which a single reactant breaks down to give simpler products. These are of three types:</p><ul><li><strong>Thermal Decomposition:</strong> Carried out by heating.</li><li><strong>Electrolytic Decomposition:</strong> Carried out by passing electricity.</li><li><strong>Photolytic Decomposition:</strong> Carried out in the presence of sunlight.</li></ul><p><strong>Displacement Reaction:</strong> A more reactive element displaces a less reactive element from its salt solution.</p><p><strong>Double Displacement Reaction:</strong> Two different atoms or groups of atoms are displaced by each other, usually involving the exchange of ions between reactants.</p>",
+    "formulas": [
+      "A + B -> AB (Combination)",
+      "AB -> A + B (Decomposition)",
+      "A + BC -> AC + B (Displacement)",
+      "AB + CD -> AD + CB (Double Displacement)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing the setup for the electrolysis of water, featuring a plastic mug with two holes at the base, graphite rods acting as electrodes, test tubes filled with water inverted over the rods, and a 6V battery connection."
+    ],
+    "details": {
+      "summary": "Overview of the four primary types of chemical reactions: Combination, Decomposition, Displacement, and Double Displacement."
+    },
+    "mcq": null,
+    "source_pdf": "nda_material.pdf",
+    "source_page": 152
+  },
+  {
+    "id": "nda_2018_ii_trig_01",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Height and Distance",
+    "text": "<p>Problem solving involving a hill of height H and a building of height h.</p><ul><li>In triangle ACD: tan 60 = H/x, so x = H/sqrt(3)</li><li>In triangle BDE: tan 30 = (H-h)/x, so x = sqrt(3)(H-h)</li><li>Equating x: H/sqrt(3) = sqrt(3)(H-h) => H = 3(H-h) => H = 3H - 3h => 2H = 3h => H = 3/2 h</li></ul>",
+    "formulas": [
+      "tan 60 = H/x",
+      "tan 30 = (H-h)/x",
+      "H = 3/2 h"
+    ],
+    "image_descriptions": [
+      "A geometric diagram showing a hill of height H and a building of height h. A line connects the top of the building to the top of the hill at a 30-degree angle of elevation. The base of the building is at a 60-degree angle of elevation from the base of the hill."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 159
+  },
+  {
+    "id": "note_001",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Geometric Progression",
+    "text": "<p>If a, b, c are in AP, then a - b / b - c = 1. If a, b, c are in GP, then a/b = b/c = a-b/b-c. If a, b, c are in HP, then b = 2ac / a+c, which leads to ab + bc = 2ac, ab - ac = ac - bc, a(b-c) = c(a-b), therefore a-b / b-c = a/c.</p>",
+    "formulas": [
+      "a-b / b-c = 1 (for AP)",
+      "a/b = b/c = a-b/b-c (for GP)",
+      "b = 2ac / a+c (for HP)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties of AP, GP, and HP sequences."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 160
+  },
+  {
+    "id": "note_002",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Quadratic Equations",
+    "text": "<p>For quadratic equations ax^2 + bx + c = 0 and px^2 + qx + r = 0, if roots are equal, the ratio of discriminants D1/D2 = b^2/q^2.</p>",
+    "formulas": [
+      "D1/D2 = b^2/q^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Ratio of discriminants for quadratic equations with equal roots."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 160
+  },
+  {
+    "id": "note_003",
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Circle",
+    "text": "<p>The equation of a circle whose end points of a diameter are (x1, y1) and (x2, y2) is (x - x1)(x - x2) + (y - y1)(y - y2) = 0.</p>",
+    "formulas": [
+      "(x - x1)(x - x2) + (y - y1)(y - y2) = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a circle with diameter endpoints (x1, y1) and (x2, y2)."
+    ],
+    "details": {
+      "summary": "Equation of a circle given diameter endpoints."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 160
+  },
+  {
+    "id": "math-geom-001",
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Straight Lines",
+    "text": "<p><strong>Distance between parallel lines:</strong></p><ul><li>For lines <em>y = mx + c1</em> and <em>y = mx + c2</em>, distance = |c1 - c2| / sqrt(1 + m^2)</li><li>For lines <em>ax + by + c1 = 0</em> and <em>ax + by + c2 = 0</em>, distance = |c1 - c2| / sqrt(a^2 + b^2)</li><li>For lines <em>x = c1</em> and <em>x = c2</em>, distance = |c1 - c2|</li></ul><p><strong>Distance of a point from a plane:</strong></p><ul><li>Distance of point (x1, y1, z1) from plane ax + by + cz + d = 0 is d = |ax1 + by1 + cz1 + d| / sqrt(a^2 + b^2 + c^2)</li></ul>",
+    "formulas": [
+      "D = |c1 - c2| / sqrt(a^2 + b^2)",
+      "d = |ax1 + by1 + cz1 + d| / sqrt(a^2 + b^2 + c^2)",
+      "tan(theta) = |(m1 - m2) / (1 + m1*m2)|"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing two parallel lines with a perpendicular distance PQ between them.",
+      "Cartesian coordinate system showing two vertical lines x=c1 and x=c2.",
+      "Diagram showing a point P(2, 3, 4) and a plane 3x - 6y + 2z + 11 = 0 with a perpendicular distance PM.",
+      "Diagram showing two intersecting lines l1=0 and l2=0 with a third line passing through the intersection point.",
+      "Diagram of a parallelogram LMNK with vertices O(0,0,0), R(2,4,6), Q(2,0,3n), P(4,6,2m) and midpoints L, M, N, K."
+    ],
+    "details": {
+      "summary": "Formulas for distance between parallel lines and distance of a point from a plane, along with properties of intersecting lines and midpoints in a parallelogram."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 161
+  },
+  {
+    "id": "math-3d-geom-001",
+    "subject": "Mathematics",
+    "chapter": "3D Geometry",
+    "topic": "Distance between planes and angle between planes",
+    "text": "<p><strong>Angle between two planes:</strong> The angle &theta; between two planes <em>a<sub>1</sub>x + b<sub>1</sub>y + c<sub>1</sub>z + d<sub>1</sub> = 0</em> and <em>a<sub>2</sub>x + b<sub>2</sub>y + c<sub>2</sub>z + d<sub>2</sub> = 0</em> is given by cos &theta; = |(a<sub>1</sub>a<sub>2</sub> + b<sub>1</sub>b<sub>2</sub> + c<sub>1</sub>c<sub>2</sub>) / (sqrt(a<sub>1</sub><sup>2</sup> + b<sub>1</sub><sup>2</sup> + c<sub>1</sub><sup>2</sup>) * sqrt(a<sub>2</sub><sup>2</sup> + b<sub>2</sub><sup>2</sup> + c<sub>2</sub><sup>2</sup>))|.</p><p><strong>Distance between two parallel planes:</strong> The distance <em>S</em> between planes <em>ax + by + cz + d<sub>1</sub> = 0</em> and <em>ax + by + cz + d<sub>2</sub> = 0</em> is given by <em>S = |d<sub>1</sub> - d<sub>2</sub>| / sqrt(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>)</em>.</p><p><strong>Law of Cosines:</strong> In any triangle <em>ABC</em>, <em>a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup> - 2bc cos A</em>.</p>",
+    "formulas": [
+      "cos theta = |(a1a2 + b1b2 + c1c2) / (sqrt(a1^2 + b1^2 + c1^2) * sqrt(a2^2 + b2^2 + c2^2))|",
+      "S = |d1 - d2| / sqrt(a^2 + b^2 + c^2)",
+      "a^2 = b^2 + c^2 - 2bc cos A"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Notes on calculating the angle between planes, distance between parallel planes, and the law of cosines in triangles."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 162
+  },
+  {
+    "id": "math-vec-001",
+    "subject": "Mathematics",
+    "chapter": "Vectors",
+    "topic": "Vector Operations and Properties",
+    "text": "<p><strong>Properties of Vectors:</strong></p><ul><li>If |a| != 0, |b| != 0, then (a + b) . (a + b) = |a|^2 + |b|^2 holds if and only if a and b are perpendicular (a . b = 0).</li><li>For vectors r = xi + yj + zk, the dot product r . (i + j + k) = x + y + z.</li><li>For three mutually perpendicular unit vectors A = a + b + c, B = a - b + c, and C = a - b - c, it follows that |A| = |B| = |C|.</li><li>The cross product of vectors a and b is given by the determinant of the matrix with unit vectors i, j, k in the first row and the components of a and b in the second and third rows.</li></ul>",
+    "formulas": [
+      "(a + b) . (a + b) = |a|^2 + |b|^2 + 2a . b",
+      "r . (i + j + k) = x + y + z",
+      "n = (a x b) / |a x b|",
+      "Moment = r x F",
+      "|A| = |B| = |C| = sqrt(1^2 + 1^2 + 1^2) = sqrt(3)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A coordinate geometry diagram showing a circle in the Cartesian plane. The circle is tangent to the Y-axis at point A(0, -f/2) and passes through the origin O. The center is at (-g/2, -f/2).",
+      "A small box showing cross product relations: i x k = -j, j x k = i, k x k = 0."
+    ],
+    "details": {
+      "summary": "Notes on vector operations, dot products, cross products, and their application in calculating moments and geometric properties."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 163
+  },
+  {
+    "id": "note-001",
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "topic": "Limits and Derivatives",
+    "text": "<p><strong>Limit of trigonometric functions:</strong> To evaluate lim(θ→0) (sqrt(1 - cos θ) / θ), use the identity 1 - cos θ = 2 sin^2(θ/2). The limit simplifies to 1/sqrt(2).</p>",
+    "formulas": [
+      "lim(θ→0) (sqrt(1 - cos θ) / θ) = 1/sqrt(2)",
+      "1 - cos θ = 2 sin^2(θ/2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Evaluation of trigonometric limits using half-angle identities."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 165
+  },
+  {
+    "id": "note-002",
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "topic": "Functions and Range",
+    "text": "<p>For a function f(x) = x^2 - 4x + 5 defined on interval A = (1, 4), the range is determined by finding the vertex and evaluating the function at the boundaries. The vertex occurs at x = 2, where f(2) = 1. The range is [1, 5).</p>",
+    "formulas": [
+      "f(x) = x^2 - 4x + 5",
+      "f'(x) = 2x - 4"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A graph showing a parabola opening upwards with vertex at (2, 1) and an open circle at (4, 5)."
+    ],
+    "details": {
+      "summary": "Finding the range of a quadratic function over a given interval."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 165
+  },
+  {
+    "id": "note-003",
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "topic": "Definite Integrals",
+    "text": "<p><strong>Properties of Greatest Integer Function:</strong> The integral of [x] + [-x] over [a, b] is equal to -(b - a) if x is not an integer.</p><p><strong>Definite Integral of Absolute Value:</strong> To evaluate integral from 2 to 8 of |x - 5| dx, split the integral at the point where the expression inside the absolute value changes sign (x = 5).</p>",
+    "formulas": [
+      "integral_a^b ([x] + [-x]) dx = -(b - a)",
+      "integral_2^8 |x - 5| dx = 9"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Techniques for integrating absolute value functions and greatest integer functions."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 165
+  },
+  {
+    "id": "note-004",
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "topic": "Indefinite Integration",
+    "text": "<p><strong>Substitution Method:</strong> For integral of sin^3(x) cos(x) dx, use substitution u = sin(x), du = cos(x) dx.</p><p><strong>Exponential and Logarithmic Integrals:</strong> Integral of e^(ln(tan x)) dx simplifies to integral of tan(x) dx, which is ln|sec x| + C.</p>",
+    "formulas": [
+      "integral sin^3(x) cos(x) dx = (sin^4(x))/4 + C",
+      "integral e^(ln(tan x)) dx = ln|sec x| + C"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Integration techniques using substitution and logarithmic properties."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 165
+  },
+  {
+    "id": "note_001",
+    "subject": "General Studies",
+    "chapter": "Indian History",
+    "topic": "Mughal Painting",
+    "text": "<p>During the reign of <strong>Jahangir (1605–1627)</strong>, Mughal painting reached its zenith. He favoured paintings of events from his own life rather than illustrated fiction. He encouraged portraiture and scientific studies of birds, flowers, and animals, which were collected in albums. <em>Mansur</em> and <em>Manohar</em> were among his famous painters.</p><p>During the reign of <strong>Aurangzeb (1659–1707)</strong>, the Mughal painting started to decline, although his ornate <em>Pearl Mosque (1662)</em> at Delhi is worthy of mention. Many artists then joined Rajput courts, where their influence on Hindu painting is clearly evident.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of Mughal painting evolution from Jahangir's peak to Aurangzeb's decline."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 174
+  },
+  {
+    "id": "note_002",
+    "subject": "General Studies",
+    "chapter": "Indian Polity",
+    "topic": "Government of India Act 1935",
+    "text": "<p>The <strong>Government of India Act of 1935</strong> marked a milestone towards a completely responsible government in India. It was a lengthy and detailed document having 321 Sections and 10 Schedules.</p><p>The Act provided for the adoption of dyarchy at the Centre. Consequently, the federal subjects were divided into reserved subjects and transferred subjects. It abolished dyarchy in the provinces and introduced 'provincial autonomy' in its place.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Key features of the Government of India Act 1935 including provincial autonomy and dyarchy."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 174
+  },
+  {
+    "id": "note_003",
+    "subject": "General Studies",
+    "chapter": "Science",
+    "topic": "Sound Waves",
+    "text": "<p><strong>Pitch and Frequency:</strong> The pitch of a sound wave depends upon its frequency. Pitch is a property of sound that allows us to differentiate between a shrill and grave sound.</p><p><strong>Loudness and Amplitude:</strong> The loudness of a sound wave depends upon its amplitude.</p><p><strong>Propagation:</strong> Sound waves are elastic waves because their propagation depends on the material media, which possesses elasticity and inertia. Therefore, sound waves cannot propagate in a vacuum.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Fundamental properties of sound waves including pitch, loudness, and propagation requirements."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 174
+  },
+  {
+    "id": "note_004",
+    "subject": "General Studies",
+    "chapter": "Biology",
+    "topic": "Marine Biology",
+    "text": "<p><strong>Phytoplanktons:</strong> These organisms produce most of the organic carbon in the ocean.</p><p><strong>Algae:</strong> Algae are produced in the cold water biome. They are a diverse group of aquatic organisms that have the ability to conduct photosynthesis, for example, seaweeds.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Role of phytoplanktons and algae in marine ecosystems."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 174
+  },
+  {
+    "id": "note-118",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Steppe Climate",
+    "text": "<p><strong>Steppe (temperate continental) climate:</strong> Mid-latitude steppe grasslands are located in the interiors of the continents. They come in the westerly wind belt, but because of their more interior locations, they do not get sufficient rainfall and hence the grasslands are practically treeless.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Characteristics of temperate continental steppe climate."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note-119",
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "topic": "Weathering",
+    "text": "<p><strong>Chemical Weathering:</strong> Caused by rainwater reacting with the mineral grains in rock to form new minerals and soluble salts. These reactions occur particularly when the water is slightly acidic. Different types of chemical weathering are <strong>solution</strong>, <strong>oxidation</strong>, and <strong>carbonation</strong>. These chemical processes occur more rapidly at higher temperature.</p><p><strong>Weathering:</strong> The breakdown of rocks at the Earth's surface, by the action of rainwater, extremes of temperature and biological activity. It does not involve the removal of rock material.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and types of chemical weathering."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note-120",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Plane Mirror",
+    "text": "<p>In a plane mirror, the image formed is <strong>virtual, erect</strong> and at the same distance behind the mirror as the object is in front of the mirror. The focal length of a plane mirror is <strong>infinite</strong> and power is <strong>zero</strong>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties of images formed by plane mirrors."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note-121",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Convex Mirror",
+    "text": "<p>A convex mirror will never form an inverted image.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Property of convex mirror image formation."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note-122",
+    "subject": "Physics",
+    "chapter": "Electromagnetism",
+    "topic": "Magnetic Field of a Coil",
+    "text": "<p>The magnetic field at the center of a circular coil is given by the formula: B = (mu_0 * N * I) / (2 * r).</p>",
+    "formulas": [
+      "B = (mu_0 * N * I) / (2 * r)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Calculation of magnetic induction in a circular coil."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note-123",
+    "subject": "Indian Polity",
+    "chapter": "Fundamental Rights",
+    "topic": "Constitutional Rights",
+    "text": "<p>Fundamental Rights are the basic rights of the common people and inalienable rights of the people who enjoy it under the charter of rights contained in Part III (Article 12 to 35) of the Constitution of India. Right to citizenship is not a fundamental right.</p><p><strong>Fundamental Rights categories:</strong></p><ul><li>Right to Equality (Article 14-18)</li><li>Right to Freedom (Article 19-22)</li><li>Right against Exploitation (Article 23-24)</li><li>Right to Freedom of Religion (Article 25-28)</li><li>Cultural and Educational Rights (Article 29-30)</li><li>Right to Constitutional Remedies (Article 32)</li></ul><p>The Right to Property is no longer a Fundamental Right.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of Fundamental Rights in the Indian Constitution."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note-124",
+    "subject": "History",
+    "chapter": "Modern History",
+    "topic": "Colonial Era",
+    "text": "<p>Chili is reported to be an inhabitant of South America and is widely scattered in all tropical and sub-tropical countries including India. It was first introduced in India by the Portuguese towards the end of the 15th Century.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction of Chili to India."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note-125",
+    "subject": "History",
+    "chapter": "Medieval History",
+    "topic": "Merchant Guilds",
+    "text": "<p>Southern Indian trade guilds were formed by merchants in order to organise and expand their trading activities. The two most important merchant guilds of South India were known as the <strong>Ayyavole</strong> and the <strong>Manigraman</strong>. Ayyavole was a merchant guild from Aihole that provided trade links between trading communities in Tamil Nadu, Karnataka and Andhra Pradesh. Manigraman guild flourished in the Pallava and Chola periods and was active in South-East Asia. The Manigramam merchants enjoyed a special position as compared to the other merchants. Anjuvannam was another body of merchants in South India, which almost certainly represented an association of foreign merchants who traded across the Arabian sea.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of South Indian merchant guilds."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 181
+  },
+  {
+    "id": "note-126",
+    "subject": "History",
+    "chapter": "Medieval History",
+    "topic": "Bhakti Movement",
+    "text": "<p><strong>Kevaladvaita</strong> is another name for the philosophy of advaita which was expounded by Adi Shankara. The meaning of Advaita is non-dualism or belief in one reality.</p><p>Philosophy of <strong>Vishishtadvaita</strong> was pioneered by Ramanujacharya during the 11th century. It literally means the Unique Advaita, i.e., Advaita with some amendments.</p><p><strong>Avadhuta</strong> is a Sanskrit term used to refer to a person who has reached a stage in their spiritual development in which they are beyond worldly concerns.</p>",
+    "formulas": [],
+    "tables": [
+      "| Bhakti Saint | Philosophy |\n|---|---|\n| Shankara | Advaita |\n| Ramananda | Kevaladvaita |\n| Ramanuja | Vishishtadvaita |\n| Chaitanya | Achintya Bhedabheda |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Philosophies of Bhakti saints."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 181
+  },
+  {
+    "subject": "Geography",
+    "chapter": "International Trade Routes",
+    "subchapter": "Belt and Road Initiative (BRI)",
+    "topic": "OBOR in South Asia",
+    "content": "### One Belt One Road (OBOR) – South Asian Perspective\n- **Silk Road Economic Belt** – over‑land corridors linking China with Europe and Central Asia.\n- **Maritime Silk Road** – sea routes connecting Chinese ports with Southeast Asia, South Asia, Africa and Europe.\n- **South Asian participation**:\n  - All South Asian nations except **Bhutan** have signed up for OBOR.\n  - **India** has **not** signed; its main objection is the **China‑Pakistan Economic Corridor (CPEC)**, a flagship OBOR project that traverses Pakistan‑occupied Kashmir.\n- **India’s stance (2018)**: any mega‑project must respect the **sovereignty and territorial integrity** of the participating countries.\n- **Strategic implication**: India's refusal underscores concerns over geopolitical influence, security of its borders, and the potential for economic dependency on China.\n\n---\n\n**Key Terms**\n- **OBOR / BRI** – China’s global infrastructure and connectivity strategy launched in 2013.\n- **CPEC** – A $62 billion corridor linking Gwadar Port (Pakistan) to China’s Xinjiang region.\n- **Sovereignty** – The supreme authority of a state over its territory and affairs.\n",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 183
+  },
+  {
+    "subject": "International Relations / Polity",
+    "chapter": "Global Economic Groupings",
+    "subchapter": "Group of Seven (G‑7)",
+    "topic": "Composition, Summits and Recent Developments",
+    "content": "### Group of Seven (G‑7)\n- **Definition**: An informal forum of the seven largest advanced economies.\n- **Current members**:\n  1. Canada\n  2. France\n  3. Germany\n  4. Italy\n  5. Japan\n  6. United Kingdom\n  7. United States\n- **Countries not in G‑7**: Russia (member of G‑20, formerly part of G‑8 until 2014).\n\n#### Recent Summits\n- **44th G‑7 Summit (2018)**\n  - Hosted by **Canada** – Prime Minister **Justin Trudeau**.\n  - Location: **Quebec**, 8–9 June 2018.\n  - Dubbed **G‑6+1** by French commentators because of the United States’ withdrawal from the Iran nuclear deal and the Paris Climate Agreement, plus rising US protectionism.\n- **45th G‑7 Summit (2019)**\n  - Scheduled to be held in **France**.\n\n#### Significance\n- Coordination on **global economic policy**, **security**, **climate change**, and **trade**.\n- The G‑7 often issues joint statements that shape international norms.\n",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 183
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Environment & Ecology",
+    "subchapter": "Water Resources Management",
+    "topic": "Composite Water Management Index (CWMI)",
+    "content": "### Composite Water Management Index (CWMI)\n- **Launched by:** NITI Aayog (National Institution for Transforming India) in June 2018.\n- **Purpose:** To assess and improve the performance of Indian States/UTs in the efficient management of water resources, encouraging optimal utilisation and recycling of water with a sense of urgency.\n- **Structure:** \n  - **Parameters:** 9\n  - **Indicators:** 28\n- **Categorisation of States:**\n  1. **General (Other) States** – all states except Himalayan and North‑Eastern states.\n  2. **North‑Eastern & Himalayan States** – to account for differing hydrological conditions.\n- **Ranking (General States):**\n  1. **Gujarat** (rank 1)  \n  2. Madhya Pradesh  \n  3. Andhra Pradesh  \n  4. Karnataka  \n  5. Maharashtra  \n  *(and others not listed)*\n- **Ranking (North‑Eastern & Himalayan States):**\n  1. Tripura  \n  2. Himachal Pradesh  \n  3. Sikkim  \n  4. Assam  \n  *(and others not listed)*\n- **Key Take‑away:** Gujarat was the top‑ranked state among the non‑Himalayan, non‑North‑Eastern states in the first CWMI report.\n\n---\n\n### North‑Eastern Council (NEC)\n- **Constitution:** Established in 1971 by an Act of Parliament.\n- **Member States (8):** Arunachal Pradesh, Assam, Manipur, Meghalaya, Mizoram, Nagaland, Sikkur, Tripura.\n- **Purpose:** Nodal agency for the economic and social development of the North‑Eastern Region.\n- **Ex‑officio Chairman:** **Union Home Minister** (the Union Home Minister automatically holds the chairmanship).\n- **Secretariat (Headquarters):** Shillong, Meghalaya.\n- **Appointment of Chairman:** The President of India nominates the Chairman of the Council (the Union Home Minister acts as ex‑officio Chairman).\n- **Key Take‑away:** The Union Home Minister is the ex‑officio Chairman of the North‑Eastern Council, which coordinates development initiatives across the eight North‑Eastern states.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 184
+  },
+  {
+    "id": "math-nda-2018-1-p34-set-theory",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Venn Diagram Representation",
+    "text": "<p>Representation of set operations using a Venn diagram showing two overlapping circles A and B within a universal set U. The region (A-B) is highlighted, and the intersection is defined as (A ∩ B).</p>",
+    "formulas": [
+      "C = (A ∩ B') ∪ (A' ∩ B) = (A - B) ∪ (B - A)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A Venn diagram showing two overlapping circles A and B inside a rectangle U. The region (A-B) is the part of circle A not overlapping with B, and (B-A) is the part of circle B not overlapping with A."
+    ],
+    "details": {
+      "summary": "Visual representation of symmetric difference of two sets."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 186
+  },
+  {
+    "id": "math-nda-2018-1-p34-algebra-logarithms",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Logarithms",
+    "text": "<p>Solving logarithmic equations using properties of logarithms.</p>",
+    "formulas": [
+      "log_a(a) = 1",
+      "log_a(b) + log_a(c) = log_a(bc)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Application of log properties to solve for x."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 186
+  },
+  {
+    "id": "math-nda-2018-1-p34-set-theory-application",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Venn Diagram Application",
+    "text": "<p>Application of Venn diagrams to solve problems involving three sets: Hindi (H), Mathematics (M), and English (E).</p>",
+    "formulas": [
+      "n(H ∪ M ∪ E') = 54 + 8 + 63 = 125",
+      "n(H ∩ M ∩ E') = 18 - 10 = 8"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A Venn diagram with three overlapping circles labeled H, M, and E. The intersection of H and M is 8, the intersection of all three is 10, and individual regions are labeled with values 54, 63, and 41."
+    ],
+    "details": {
+      "summary": "Using Venn diagrams to calculate set intersections and unions for three categories."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 186
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "subchapter": "Arithmetic Progression",
+    "topic": "Sum of an AP",
+    "content": "### Arithmetic Progression (AP)\\n- An AP is a sequence in which the difference between consecutive terms is constant (common difference **d**).\\n- **General term**: \\(a_n = a_1 + (n-1)d\\)\\n- **Sum of first n terms**: \\[S_n = \\frac{n}{2}\\bigl(2a_1 + (n-1)d\\bigr) = \\frac{n}{2}(a_1 + a_n)\\]\\n- **Application** – *Two‑digit numbers that leave remainder 2 when divided by 3*:\\n  - Such numbers form the AP: 11, 14, 17, … , 98.\\n  - First term \\(a_1 = 11\\), common difference \\(d = 3\\).\\n  - Number of terms: \\(n = \\frac{98-11}{3}+1 = 30\\).\\n  - Sum: \\(S_{30}=\\frac{30}{2}(11+98)=15\\times109 = 1635\\).\\n- This method is frequently used in quantitative‑aptitude problems that ask for the sum of numbers satisfying a modular condition.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 189
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Properties of Logarithms",
+    "topic": "Sign of \\(\\log_{10} a\\) when \\(0<a<1\\)",
+    "content": "### Logarithm Basics\\n- For a base \\(b>1\\), the logarithmic function \\(y=\\log_b x\\) is **increasing**.\\n- If \\(0 < x < 1\\), then \\(\\log_b x < 0\\) because the exponent needed to raise \\(b\\) to a number between 0 and 1 must be negative.\\n- **Proof for base 10**:\\n  1. Let \\(\\log_{10} a = x\\). By definition, \\(10^{x}=a\\).\\n  2. Given \\(0<a<1\\) ⇒ \\(0<10^{x}<1\\).\\n  3. The only real exponent that makes \\(10^{x}",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 189
+  },
+  {
+    "id": "nda_2018_i_trig_01",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Identities and Equations",
+    "text": "<p><strong>Geometric derivation of trigonometric relations:</strong></p><p>Given a circle with center O and radius r, with a point P outside the circle. Tangents are drawn from P to the circle touching at A and B. The angle <em>&ang;APO = &ang;BPO = &alpha;/2</em>.</p><ul><li>In &Delta;OAP: sin(&alpha;/2) = OA/OP &rArr; sin(&alpha;/2) = r/OP &rArr; OP = r cosec(&alpha;/2) ... (i)</li><li>In &Delta;OPL: sin&beta; = OL/OP &rArr; OL = OP sin&beta; &rArr; OL = r cosec(&alpha;/2) sin&beta;</li></ul>",
+    "formulas": [
+      "sin(alpha/2) = r/OP",
+      "OP = r cosec(alpha/2)",
+      "OL = r cosec(alpha/2) sin(beta)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A geometric diagram showing a circle with center O, radius r, and an external point P. Two tangents from P touch the circle at points A and B. A line segment connects O to P, and a perpendicular line segment OL is drawn from O to the line segment PX."
+    ],
+    "details": {
+      "summary": "Geometric representation of trigonometric ratios involving tangents to a circle."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 191
+  },
+  {
+    "id": "nda_2018_i_math_001",
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Straight Lines",
+    "text": "<p><strong>Angle between two lines:</strong> If the equations of lines are (m^2 - mn)y = (mn + n^2)x + n^3 and (mn + m^2)y = (mn - n^2)x + m^3, the slopes are m1 = (mn + n^2)/(m^2 - mn) and m2 = (mn - n^2)/(mn + m^2). The angle theta between them is given by tan(theta) = |(m1 - m2) / (1 + m1m2)|.</p><p><strong>Perpendicular distance from origin:</strong> For a line ax + by = c, the perpendicular distance p from the origin satisfies p^2 = c^2 / (a^2 + b^2). For a line x/a + y/b = 1, it satisfies 1/p^2 = 1/a^2 + 1/b^2. For a line y = mx + c, it satisfies 1/p^2 = (1 + m^2) / c^2.</p>",
+    "formulas": [
+      "tan(theta) = |(m1 - m2) / (1 + m1m2)|",
+      "p^2 = c^2 / (a^2 + b^2)",
+      "1/p^2 = 1/a^2 + 1/b^2",
+      "1/p^2 = (1 + m^2) / c^2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a straight line cutting the Y-axis at -2 and making a 30-degree angle with the positive X-axis.",
+      "Three diagrams showing the perpendicular distance p from the origin (0,0) to lines with equations ax+by-c=0, x/a + y/b - 1 = 0, and y-mx-c=0 respectively."
+    ],
+    "details": {
+      "summary": "Notes on calculating the angle between two lines and the perpendicular distance from the origin to various forms of straight lines."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 192
+  },
+  {
+    "id": "math_prob_001",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Selection Probability",
+    "text": "<p>Calculation for selecting two men from a group of 4 men and 5 women:</p><ul><li>Favourable numbers of selecting two members as men = <sup>4</sup>C<sub>2</sub> × <sup>5</sup>C<sub>1</sub></li><li>Total ways of selecting three members = <sup>9</sup>C<sub>3</sub></li><li>Required probability = (<sup>4</sup>C<sub>2</sub> × <sup>5</sup>C<sub>1</sub>) / <sup>9</sup>C<sub>3</sub> = 5/14</li></ul>",
+    "formulas": [
+      "P(A alone or B alone) = P(A) - P(A ∩ B) + P(B) - P(A ∩ B) = P(A) + P(B) - 2 P(A ∩ B)",
+      "P(A ∪ B) = P(A) + P(B) (if mutually exclusive)",
+      "Required probability = (4C2 * 5C1) / 9C3 = 5/14"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Probability calculation for committee selection."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 201
+  },
+  {
+    "id": "math_stat_001",
+    "subject": "Mathematics",
+    "chapter": "Statistics",
+    "topic": "Standard Deviation",
+    "text": "<p>The standard deviation σ of the first N natural numbers is derived as follows:</p><ul><li>σ = sqrt((N^2 - 1) / 12)</li><li>σ^2 = (1/N) * Σx_i^2 - (X_bar)^2</li></ul>",
+    "formulas": [
+      "σ = sqrt((N^2 - 1) / 12)",
+      "σ^2 = (1/N) * Σx_i^2 - (X_bar)^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Derivation of standard deviation for first N natural numbers."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 201
+  },
+  {
+    "id": "note_001",
+    "subject": "Physics",
+    "chapter": "Properties of Matter",
+    "topic": "Floating and Sinking",
+    "text": "<p>Whether an object will float or sink in a liquid depends on the difference in the densities of the object and liquid.</p><p>In case of sinking, if the buoyant force or upthrust exerted by the liquid is less than the weight of the object, the object will sink in liquid.</p>",
+    "formulas": [
+      "Volume of sinking part of the body / Total volume of the body = Density of the object / Density of the liquid",
+      "Volume of sinking part of the body = (Mass of object / Density of liquid)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of Archimedes' principle application regarding floating and sinking based on density."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 206
+  },
+  {
+    "id": "note_002",
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "topic": "Ohm's Law and Devices",
+    "text": "<p><strong>Ohmic device:</strong> A device which follows Ohm's law, where electric current flowing through a conductor is directly proportional to the potential difference applied across it, provided physical conditions remain unchanged. Examples: copper coil, electric heating coil, wire rheostat.</p><p><strong>Non-ohmic device:</strong> A device that does not follow Ohm's law. Example: semi conductor diode.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Distinction between ohmic and non-ohmic devices."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 206
+  },
+  {
+    "id": "note_003",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Periscope",
+    "text": "<p>A periscope is an optical instrument based on the phenomenon of reflection of light. Light is reflected from the first mirror into the second one at 45 degree angle which is then reflected to the eye of the viewer.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Working principle of a simple periscope."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 206
+  },
+  {
+    "id": "note_004",
+    "subject": "Chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "topic": "pH and Hydrogen Ions",
+    "text": "<p>The amount of H+ ions produced depends on the strength of an acid. The order of pH values for given substances: Gastric Juice (1.3 - 3.0) < Lemon Juice (2.2 - 2.4) < Milk of Magnesia (10.5) < Sodium hydroxide (= 14). Gastric juice gives the highest amount of H+ ions.</p>",
+    "formulas": [
+      "pH = -log [H+] = log (1 / [H+])"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Relationship between pH, acidity, and hydrogen ion concentration."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 206
+  },
+  {
+    "id": "note_005",
+    "subject": "Chemistry",
+    "chapter": "Industrial Chemistry",
+    "topic": "Chlor-alkali Industry",
+    "text": "<p>Brine is an aqueous solution of sodium chloride (NaCl). Electrolysis of brine produces Sodium Hydroxide (NaOH), Chlorine (Cl2) and Hydrogen (H2). This forms the basis of the chlor-alkali industry.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of the chlor-alkali process."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 206
+  },
+  {
+    "id": "note_006",
+    "subject": "Chemistry",
+    "chapter": "Compounds",
+    "topic": "Washing Soda and Bleaching Powder",
+    "text": "<p><strong>Washing Soda:</strong> Chemical formula is Na2CO3 . 10H2O. It is sodium carbonate decahydrate.</p><p><strong>Bleaching Powder:</strong> Chemical formula is CaOCl2. It is produced by the action of chlorine on dry slaked lime [Ca(OH)2]. It is used for bleaching in textile/paper industries, as a disinfectant, and as an oxidising agent.</p>",
+    "formulas": [
+      "2 NaCl(aq) + 2H2O -> 2NaOH(aq) + Cl2(g) + H2(g)",
+      "Na2CO3 + 10H2O -> Na2CO3 . 10H2O (Washing Soda)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Chemical properties and uses of washing soda and bleaching powder."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 206
+  },
+  {
+    "id": "note_007",
+    "subject": "Biology",
+    "chapter": "Diseases",
+    "topic": "AIDS",
+    "text": "<p>AIDS is caused by Human Immunodeficiency Virus (HIV). It belongs to family retroviridae and genus lentivirus. HIV genome consists of two identical copies of the SSRNA genome.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Causative agent and genetic material of AIDS."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 206
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Cell Biology",
+    "subchapter": "Prokaryotic vs Eukaryotic Cells",
+    "topic": "Cellular Organelles",
+    "content": "### Prokaryotic Cells\n- Simple, primitive cells (e.g., bacteria, methanogens, blue‑green algae).\n- **No membrane‑bound nucleus**.\n- **Lack most membrane‑bound organelles** such as mitochondria, chloroplasts, Golgi apparatus, endoplasmic reticulum, etc.\n- Contain **ribosomes** (70S) and a **plasma membrane**; many have a **cell wall** (peptidoglycan in bacteria, pseudo‑peptidoglycan in archaea).\n\n### Eukaryotic Cells\n- Possess a true nucleus enclosed by a nuclear envelope.\n- Contain numerous **membrane‑bound organelles**:\n  - **Mitochondria** – double‑membraned, site of oxidative phosphorylation and ATP production; **absent in prokaryotes**.\n  - Chloroplasts, Golgi bodies, endoplasmic reticulum, lysosomes, etc.\n- Have **ribosomes** (80S) and a **plasma membrane**; many also have a cell wall (plants, fungi).\n\n**Key Fact:** *Mitochondria are exclusive to eukaryotic cells; their presence is a definitive marker distinguishing eukaryotes from prokaryotes.*",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 207
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "subchapter": "Respiratory System",
+    "topic": "Organs Involved in Breathing",
+    "content": "### Main Structures of the Respiratory System\n- **Nose & Nasal Cavity** – entry and filtration of air.\n- **Larynx** – voice box, passageway for air.\n- **Trachea** – windpipe; conducts air to the lungs.\n- **Bronchi & Bronchioles** – branches of the trachea within the lungs.\n- **Alveoli** – tiny air sacs where gas exchange occurs.\n- **Lungs** – paired organs containing the above structures.\n- **Diaphragm** – dome‑shaped muscle separating thoracic and abdominal cavities; contracts to increase thoracic volume, creating negative pressure that draws air into the lungs.\n\n### Structures NOT Part of the Respiratory System\n- **Bowman's capsule** – component of the **excretory (urinary) system**; forms the initial filtering part of the nephron in the kidney. It has no role in ventilation.\n\n**Key Fact:** *All listed respiratory structures (bronchi, trachea, diaphragm) are essential for breathing, whereas Bowman's capsule belongs to the urinary system.*",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 207
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Biology",
+    "subchapter": "Classification of Plants",
+    "topic": "Major Plant Groups & Their Characteristics",
+    "content": "### Overview of Major Plant Groups\n| Group | Vascular Tissue | Body Differentiation | Reproductive Traits |\n|-------|----------------|----------------------|----------------------|\n| **Thallophytes** (e.g., algae) | Absent | Thalloid – not differentiated into true roots, stems, leaves | Mostly aquatic, simple life cycles |\n| **Bryophytes** (mosses, liverworts, hornworts) | **Absent** (non‑vascular) | Small, simple, often leafy but lack true vascular system | Dominant gametophyte; sporophyte dependent |\n| **Pteridophytes** (ferns, horsetails) | Present (xylem & phloem) | True roots, stems, leaves (fronds) | Seedless, reproduce via spores; cryptogams |\n| **Gymnosperms** (conifers) | Present | Well‑differentiated organs | Seeds naked (not enclosed in ovary) – phanerogams |\n| **Angiosperms** (flowering plants) | Present | Well‑differentiated organs | Seeds enclosed in fruit – phanerogams |\n\n### Specific Points from the Question\n- **Bryophytes are non‑vascular** – they lack true xylem and phloem; water and nutrients are absorbed directly across surfaces.\n- **Thallophyta** refers to thalloid plants whose bodies are not differentiated into roots, stems, and leaves (e.g., many algae).\n- **Funaria** is a **moss** (Bryophyta), not a fungus. It belongs to the class *Bryopsida*.\n- **Pteridophytes** are **cryptogams** (spore‑bearing) and **not** phanerogams. All phanerogams are gymnosperms or angiosperms.\n\n**Key Fact:** *Only vascular plants (pteridophytes, gymnosperms, angiosperms) possess a true vascular system; bryophytes and thallophytes do not.*",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 207
+  },
+  {
+    "id": "note_001",
+    "subject": "Geography",
+    "chapter": "Miscellaneous",
+    "topic": "Deodar Tree",
+    "text": "<p>Deodar grows to a height of 40-60 meters (131-164 feet) with a trunk diameter of 3 meters (10 feet). The timber of Deodar tree is used as construction material for its durability.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Characteristics and utility of the Deodar tree."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 211
+  },
+  {
+    "id": "note_002",
+    "subject": "Geography",
+    "chapter": "Rivers of India",
+    "topic": "Kaveri River",
+    "text": "<p>The tributaries of Kaveri include Amaravati, Arkavathy, Bhavani, Chinnar, Hemavati, Honnuhole, Kabini, Kannika, Kollidam, Lakshmana Tirtha, Lokapavani, Noyyal, Pambar, Shimsha, Sujyothi. Indravati River is a stream of the river Godavari and is its tributary.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of tributaries of the Kaveri river and clarification on the Indravati river."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 211
+  },
+  {
+    "id": "note_003",
+    "subject": "Geography",
+    "chapter": "Agriculture",
+    "topic": "Tea Cultivation",
+    "text": "<p>Tea is an evergreen plant. It grows both in tropical and subtropical regions. The tea plant grows well in hot and humid climate. There is an intimate relationship between climate, yield per hectare and the quality of tea.</p><ul><li>The ideal temperature for growing tea is between 20 °C and 30 °C.</li><li>It needs heavy rainfall between 150 cm and 250 cm. It should be well-distributed throughout the year and should be in the form of frequent showers.</li><li>It does not require soils with lime for its cultivation.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Climatic and soil requirements for tea cultivation."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 211
+  },
+  {
+    "id": "note_004",
+    "subject": "Economics",
+    "chapter": "Infrastructure",
+    "topic": "Bharatmala Project",
+    "text": "<p>Bharatmala project is the second largest highways construction project in the country. It aims to build 50,000 km of highways targeted across the country. Bharatmala will look to improve connectivity particularly on economic corridors, border areas and far flung areas with an aim of quicker movement of cargo and boosting exports.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of the Bharatmala Project."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 211
+  },
+  {
+    "id": "note_005",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Local Winds",
+    "text": "<p>Blizzards are the local winds of Siberia which blows out from the Siberian region to parts of south Asia. Blizzards are dangerous winter storms that are a combination of blowing snow and wind resulting in very low visibilities.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and characteristics of Blizzards."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 211
+  },
+  {
+    "id": "note_006",
+    "subject": "Geography",
+    "chapter": "Industries",
+    "topic": "Iron and Steel Industry",
+    "text": "<p>Mysore Iron and Steel Company (MISCO) is located at Bhadravati on the banks of river Bhadravati in Shimoga district of Karnataka. Salem steel plant is located in the Salem district of Tamil Nadu. The plant has the advantage of rich iron ore and limestone, which is readily available in the adjoining areas. It also enjoys the facilities of cheap power, charcoal and vast market. Hindalco's plant is located in Renukoot which is involved in the smelting of Aluminium.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Locations and advantages of specific iron, steel, and aluminium plants."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 211
+  },
+  {
+    "id": "note_007",
+    "subject": "Geography",
+    "chapter": "Energy Resources",
+    "topic": "Thermal Power Station",
+    "text": "<p>The essential prerequisites of a thermal power plant include that it must be in proximity to the fossil fuel and proximity to a water source like river, lake or sea. It should also have a good transport network for the transportation of raw materials and the finished products. However proximity to an urban centre is not one of the essential conditions for establishment of a power plant.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Prerequisites for establishing a thermal power station."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 211
+  },
+  {
+    "id": "note_008",
+    "subject": "Current Affairs",
+    "chapter": "Events",
+    "topic": "Aadi Mahotsav",
+    "text": "<p>The Aadi Mahotsav, a celebration of the spirit of Tribal Culture, Craft, Cuisine and Commerce was held at Dilli Haat, New Delhi, on the 30th November, 2017. The theme of this festival was 'A Celebration of the Spirit of Tribal Culture, Cuisine and Commerce'. It was organised by the Tribal secretary and not ministry of tourism.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Details regarding the Aadi Mahotsav 2017."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 211
+  },
+  {
+    "id": "note_009",
+    "subject": "Physics",
+    "chapter": "Units and Measurements",
+    "topic": "Light Year",
+    "text": "<p>Light year is a unit of measure of distance travelled by light in one year. It is used for measuring very large distance.</p>",
+    "formulas": [
+      "1 light year = 9.46 x 10^15 m"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of a light year."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 211
+  },
+  {
+    "id": "note_010",
+    "subject": "Physics",
+    "chapter": "Waves",
+    "topic": "Electromagnetic, Sound, and Water Waves",
+    "text": "<p>Electromagnetic waves, sound waves and water waves exhibit reflection, carry energy (EM waves), exert pressure (water waves), but sound waves cannot travel in vaccum.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties of different types of waves."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 211
+  },
+  {
+    "id": "note_011",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Thermal Capacity",
+    "text": "<p>Thermal capacity of a body can be defined as the amount of heat required to change the temperature of an object by a certain degree. It depends upon the mass, shape and temperature of the body.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and dependencies of thermal capacity."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 211
+  },
+  {
+    "id": "note_012",
+    "subject": "History",
+    "chapter": "Modern History",
+    "topic": "Industrial Revolution",
+    "text": "<p>The term Industrial Revolution was first popularised by the English economic historian Arnold Toynbee to describe Britain's economic development from 1760 to 1820.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Origin of the term 'Industrial Revolution'."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 211
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Matrices and Determinants",
+    "subchapter": "Properties of Adjoint and Inverse",
+    "topic": "Adjoint of Transpose",
+    "content": "For any square matrix $A$, the adjoint of the transpose is equal to the transpose of the adjoint: $\\text{adj}(A^T) = (\\text{adj} A)^T$. Consequently, $\\text{adj}(A^T) - (\\text{adj} A)^T = \\mathbf{0}$, which is the null matrix of the same order as $A$.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 216
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "subchapter": "Infinite Products",
+    "topic": "Euler's Product Formula",
+    "content": "The infinite product $\\prod_{k=1}^{\\infty} \\left(1 + \\frac{1}{2^k}\\right) = \\left(1 + \\frac{1}{2}\\right)\\left(1 + \\frac{1}{4}\\right)\\left(1 + \\frac{1}{8}\\right)\\dots$ converges to a specific value. Note: The standard identity is $\\prod_{k=1}^{\\infty} (1 - x^{2^k}) = \\frac{1}{1-x}$ for $|x|<1$. For the specific product in Q15, the value is approximately 2.384, but in the context of the provided options (6, 36, 216, 512), there may be a specific context or typo in the source question regarding the base or terms. However, generally, infinite products of the form $(1+x)(1+x^2)(1+x^4)... = \\frac{1}{1-x}$.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 216
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Matrices and Determinants",
+    "subchapter": "Determinants",
+    "topic": "Trigonometric Determinants",
+    "content": "The determinant $\\begin{vmatrix} \\cos^2\\theta & \\sin^2\\theta \\\\ \\sin^2\\theta & \\cos^2\\theta \\end{vmatrix}$ evaluates to $\\cos^4\\theta - \\sin^4\\theta = (\\cos^2\\theta - \\sin^2\\theta)(\\cos^2\\theta + \\sin^2\\theta) = \\cos 2\\theta$.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 216
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Binomial Theorem",
+    "subchapter": "Expansion and Coefficients",
+    "topic": "Number of Terms in Simplified Expansion",
+    "content": "In the expansion of $(x+a)^{100}(x-a)^{100}$, we can rewrite it as $[(x+a)(x-a)]^{100} = (x^2 - a^2)^{100}$. The expansion of $(x^2 - a^2)^{100}$ has $100 + 1 = 101$ terms.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 216
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Binomial Theorem",
+    "subchapter": "Expansion and Coefficients",
+    "topic": "Sum of Coefficients of Odd Powers",
+    "content": "For a polynomial $P(x) = (1+x)^n$, the sum of coefficients of odd powers of $x$ is given by $\\frac{P(1) - P(-1)}{2}$. For $(1+x)^{50}$, $P(1) = 2^{50}$ and $P(-1) = 0$. Thus, the sum is $\\frac{2^{50} - 0}{2} = 2^{49}$.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 216
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Matrices and Determinants",
+    "subchapter": "Inverse of Matrices",
+    "topic": "Inverse of Diagonal Matrix",
+    "content": "If $A$ is a diagonal matrix with non-zero diagonal entries $a, b, c$, i.e., $A = \\begin{pmatrix} a & 0 & 0 \\\\ 0 & b & 0 \\\\ 0 & 0 & c \\end{pmatrix}$, then $A^{-1} = \\begin{pmatrix} 1/a & 0 & 0 \\\\ 0 & 1/b & 0 \\\\ 0 & 0 & 1/c \\end{pmatrix}$.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 216
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "subchapter": "Arithmetic Progression",
+    "topic": "Sum of AP Terms",
+    "content": "If a sequence starts with constant terms and then follows an AP, the total sum is the sum of the constant part plus the sum of the AP part. The sum of the first $n$ terms of an AP is $S_n = \\frac{n}{2}[2a + (n-1)d]$.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 216
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "subchapter": "Powers of Imaginary Unit",
+    "topic": "Cyclic Nature of i",
+    "content": "The powers of $i$ are cyclic with period 4: $i^1=i, i^2=-1, i^3=-i, i^4=1$. The expression $\\left(\\frac{1+i}{1-i}\\right)^n$ simplifies to $i^n$. For this to equal 1, $n$ must be a multiple of 4. The smallest positive integer is 4.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 216
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "subchapter": "Properties of Relations",
+    "topic": "Equivalence Relations",
+    "content": "A relation $R$ on a set is an equivalence relation if it is reflexive, symmetric, and transitive. For $R$ on $\\mathbb{N} \\times \\mathbb{N}$ defined by $(a,b) R (c,d) \\iff a+d = b+c$, it can be shown to be reflexive ($a+b=b+a$), symmetric ($a+d=b+c \\implies c+b=d+a$), and transitive.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 216
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "subchapter": "Limits and Continuity",
+    "topic": "Greatest Integer Function",
+    "content": "The greatest integer function, denoted as $[x]$ or $\\lfloor x \\rfloor$, returns the largest integer less than or equal to $x$. The function $f(x) = [x^2] - [x]^2$ is discontinuous at all integers except $x=1$. At $x=1$, the left-hand limit and right-hand limit equal the function value, making it continuous. At other integers $n \\neq 1$, the function exhibits jump discontinuities.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 220
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "subchapter": "Integration",
+    "topic": "Definite Integrals and Symmetry",
+    "content": "For definite integrals involving trigonometric functions over symmetric intervals like $[0, \\pi/4]$, properties such as $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$ can be used. Specifically, $\\int_0^{\\pi/4} \\tan x dx + \\int_0^{\\pi/4} \\cot x dx$ can be simplified by combining the integrands or using substitution $x \\to \\pi/4 - x$. Note that $\\tan x + \\cot x = \\frac{1}{\\sin x \\cos x} = \\frac{2}{\\sin 2x}$.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 220
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "subchapter": "Applications of Derivatives",
+    "topic": "Maxima and Minima",
+    "content": "To maximize the volume of a cylindrical jar without a lid given a fixed surface area $S$, let radius be $r$ and height be $h$. Surface Area $S = \\pi r^2 + 2\\pi rh$. Volume $V = \\pi r^2 h$. Expressing $h$ in terms of $r$ from the surface area equation and substituting into the volume equation, then differentiating with respect to $r$ and setting to zero yields the optimal ratio. The result is that the diameter ($2r$) is equal to the height ($h$), so $k=1$ if the question asks for diameter = k * height. However, standard optimization for an open cylinder often yields $h = 2r$ (height is twice the radius, or equal to diameter). Let's re-verify: $S = \\pi r^2 + 2\\pi rh \\implies h = \\frac{S - \\pi r^2}{2\\pi r} = \\frac{S}{2\\pi r} - \\frac{r}{2}$. $V = \\pi r^2 (\\frac{S}{2\\pi r} - \\frac{r}{2}) = \\frac{Sr}{2} - \\frac{\\pi r^3}{2}$. $V' = \\frac{S}{2} - \\frac{3\\pi r^2}{2} = 0 \\implies S = 3\\pi r^2$. Substitute back into $S = \\pi r^2 + 2\\pi rh \\implies 3\\pi r^2 = \\pi r^2 + 2\\pi rh \\implies 2\\pi r^2 = 2\\pi rh \\implies r = h$. Thus, diameter $2r = 2h$. So diameter is 2 times the height. Wait, let's check the options. If $r=h$, then diameter $d=2r=2h$. So $k=2$.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 220
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "subchapter": "Differential Equations",
+    "topic": "Elimination of Arbitrary Constants",
+    "content": "To find the differential equation of minimum order for a family of curves with $n$ arbitrary constants, differentiate the equation $n$ times and eliminate the constants. For $y = A \\sin(x+C) + C \\cos(x+C)$, differentiating twice and eliminating $A$ and $C$ leads to a second-order linear differential equation. The general form often results in $y'' + y = 0$ or similar homogeneous equations depending on the specific structure of the constants.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 220
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "subchapter": "Differential Equations",
+    "topic": "Solving First Order DEs",
+    "content": "The differential equation $\\frac{dy}{dx} = \\frac{y f'(x) - f(x)}{y - x}$ can be rearranged. Let $y = x + u$. Then $\\frac{dy}{dx} = 1 + \\frac{du}{dx}$. Substituting and simplifying often leads to a separable equation. Alternatively, recognize the structure related to the derivative of a quotient or specific integrating factors. The solution typically involves $y = x + f(x) + C$ or similar forms depending on the exact algebraic manipulation.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 220
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "subchapter": "Limits and Continuity",
+    "topic": "Inequalities and Monotonicity",
+    "content": "Statement I: $x > \\sin x$ for all $x > 0$ is a standard inequality. Statement II: $f(x) = x - \\sin x$ is an increasing function for $x > 0$ because $f'(x) = 1 - \\cos x \\ge 0$, and it is strictly increasing except at isolated points. Since $f(0)=0$ and $f(x)$ is increasing, $f(x) > 0$ for $x > 0$, which implies $x > \\sin x$. Thus, Statement II is the correct explanation for Statement I.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 220
+  },
+  {
+    "id": "math-cover-001",
+    "subject": "Mathematics",
+    "chapter": "Cover Page",
+    "topic": "Mathematics",
+    "text": "<p>This is the cover page for the Mathematics section of the study material.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A minimalist cover page with the word 'MATHEMATICS' centered in the upper half, featuring a grey geometric triangular design element on the left side."
+    ],
+    "details": {
+      "summary": "Cover page for Mathematics subject."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 229
+  },
+  {
+    "id": "trend-analysis-2014-2016",
+    "subject": "Mathematics",
+    "chapter": "Trend Analysis",
+    "topic": "NDA Mathematics Exam Trend Analysis (2014-2016)",
+    "text": "<p>This table provides a detailed <strong>Trend Analysis</strong> of the NDA Mathematics examination for the years 2014 to 2016. It lists the number of questions asked from each chapter across different exam sessions: 2016 (I), 2015 (II), 2015 (I), and 2014 (II).</p>",
+    "formulas": [],
+    "tables": [
+      "| S.No. | Chapter Name | 2016 (I) | 2015 (II) | 2015 (I) | 2014 (II) |\n|---|---|---|---|---|---|\n| 1 | Set Theory | 1 | 2 | 3 | 8 |\n| 2 | Relations and Functions | 8 | 6 | 6 | 1 |\n| 3 | Complex Numbers | 7 | 3 | 6 | 3 |\n| 4 | Binary Numbers | 1 | 1 | 2 | 1 |\n| 5 | Sequences and Series | 2 | 4 | 2 | 4 |\n| 6 | Quadratic Equations and Inequalities | 6 | 3 | 4 | 3 |\n| 7 | Permutations and Combinations | 3 | 5 | 2 | 2 |\n| 8 | Binomial Theorem | 0 | 5 | 0 | 5 |\n| 9 | Logarithm | 1 | 1 | 0 | 1 |\n| 10 | Matrices | 1 | 2 | 5 | 5 |\n| 11 | Determinants | 5 | 6 | 3 | 4 |\n| 12 | Measurement of Angles and Trigonometric Ratios | 6 | 4 | 5 | 10 |\n| 13 | Inverse Trigonometric Functions | 2 | 2 | 4 | 1 |\n| 14 | Height and Distance | 0 | 2 | 2 | 1 |\n| 15 | Properties of Triangles | 0 | 3 | 1 | 2 |\n| 16 | Coordinate System and Straight Lines | 10 | 6 | 8 | 3 |\n| 17 | Circle | 5 | 2 | 0 | 2 |\n| 18 | Conic Section | 0 | 2 | 2 | 2 |\n| 19 | Three Dimensional Geometry | 3 | 7 | 8 | 11 |\n| 20 | Limits, Continuity and Differentiability | 8 | 7 | 8 | 7 |\n| 21 | Differentiation | 7 | 3 | 6 | 5 |\n| 22 | Application of Derivatives | 8 | 7 | 5 | 1 |\n| 23 | Indefinite Integrals | 1 | 3 | 4 | 4 |\n| 24 | Definite Integrals | 7 | 6 | 4 | 6 |\n| 25 | Areas Bounded by Regions | 6 | 1 | 4 | 3 |\n| 26 | Differential Equations | 1 | 4 | 4 | 2 |\n| 27 | Vector Algebra | 5 | 9 | 7 | 10 |\n| 28 | Statistics | 6 | 3 | 7 | 5 |\n| 29 | Probability | 10 | 11 | 8 | 6 |\n| 30 | Miscellaneous | 0 | 0 | 0 | 2 |\n| | Total | 120 | 120 | 120 | 120 |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A statistical breakdown of question distribution across 30 mathematical topics for NDA exams held between 2014 and 2016."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 230
+  },
+  {
+    "id": "set-theory-001",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Introduction and Representation of Sets",
+    "text": "<p>A set is a collection of well defined distinct objects. By 'well defined' we mean that from any object given we can find whether it is an element of the set or not. Sets are usually denoted by capital letters A, B, C, etc. The members of a set are called its elements and are usually denoted by small letters, a, b, c, etc. If 'a' is an element of a set A, then we write a ∈ A i.e. 'a' belongs to set A and if 'a' does not belong to set A, then we write a ∉ A.</p><h3>Representation of Sets</h3><ol><li><strong>Tabular or Roster method:</strong> In this method, a set is described by writing elements, separated by commas, within the braces {}. <ul><li>e.g. N = {1, 2, 3, 4, ...} is a set of natural numbers.</li><li>A = {2, 3, 5, 7, 11, 13} is a set of first six prime numbers.</li><li>W = {0, 1, 2, 3, 4, ...} is a set of whole numbers.</li></ul></li><li><strong>Set-builder or Rule method:</strong> In this method, a rule or a formula is written in the braces that defines the sets. <ul><li>e.g. A = {x : x = 2n + 1, n ≥ 1, n ∈ N}, B = {x : 6 ≤ x ≤ 12, x ∈ N}, C = {x : x = 2n, n < 8, n ∈ N}</li></ul></li></ol>",
+    "formulas": [
+      "a ∈ A",
+      "a ∉ A",
+      "A = {x : x = 2n + 1, n ≥ 1, n ∈ N}",
+      "B = {x : 6 ≤ x ≤ 12, x ∈ N}",
+      "C = {x : x = 2n, n < 8, n ∈ N}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to set theory, definition of elements, and methods of representing sets (Tabular/Roster and Set-builder/Rule)."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 231
+  },
+  {
+    "id": "set-theory-002",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Different Types of Sets",
+    "text": "<h3>Different Types of Sets</h3><ol><li><strong>Null set:</strong> A set which does not contain any element is called a null set. It is denoted by φ. A null set is also called an empty set or a void set. Therefore, φ = {} <ul><li>e.g. A = {x : x is a prime number between 90 and 96} = φ</li></ul></li><li><strong>Singleton set:</strong> A set which contains only one element is called a singleton set. <ul><li>e.g. A = {0}, B = {x : x + 10 = 0, x ∈ Z}</li></ul></li><li><strong>Finite set:</strong> A set is called a finite set, if it is either void set or its elements can be counted or labelled by natural numbers 1, 2, 3, .... and the process of counting stops at a certain natural number (say 'n'). <ul><li>e.g. A = {a, e, i, o, u} = Set of all vowels</li></ul></li></ol><p>The number of distinct elements of a finite set A is called the <strong>cardinal number</strong> of the set A and it is denoted by n(A).</p>",
+    "formulas": [
+      "φ = {}",
+      "n(A)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of Null set, Singleton set, Finite set, and Cardinal number."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 231
+  },
+  {
+    "id": "set_theory_001",
+    "subject": "Mathematics",
+    "chapter": "Sets",
+    "topic": "Types of Sets and Properties",
+    "text": "<p><strong>4. Infinite set:</strong> A set which has unlimited number of elements is called infinite set. e.g. N = set of all natural numbers = {1, 2, 3, ...}, Z = set of all integers = {..., -2, -1, 0, 1, 2, ...} are infinite sets.</p><p><strong>5. Equivalent sets:</strong> Two finite sets A and B are equivalent, if their cardinal numbers are same, i.e. n(A) = n(B). e.g. A = {a, b, c, d, e}; B = {1, 3, 5, 7, 9}. Here, n(A) = n(B). So, these sets are equivalent sets.</p><p><strong>6. Equal sets:</strong> Two sets A and B are said to be equal, if every element of A is a member of B and every element of B is a member of A. If sets A and B are equal, we write A = B and A ≠ B, when A and B are not equal. e.g. (i) A = {1, 3, 4} and B = {3, 1, 4} are equal sets. (ii) A = Letters of the word MASS = {M, A, S}, B = Letters of the word SAM = {S, A, M}. Here, A = B. Since, {M, A, S} = {M, A, S} = {S, A, M}. <em>Note: Equal sets are equivalent but equivalent sets may or may not be equal. e.g. Set A = {4, 5, 3, 2} and B = {1, 6, 8, 9} are equivalent but are not equal.</em></p><p><strong>7. Subset:</strong> Let A and B be two sets. If every element of A is an element of B, then A is called a subset of B and it is denoted by A ⊆ B. ∴ A ⊆ B, if x ∈ A ⇒ x ∈ B. e.g. If A = {1, 2, 3} and B = {1, 2, 3, 4, 5, 6}, then A ⊆ B. The total number of subsets of a finite set containing n elements is 2^n.</p><p><strong>8. Superset:</strong> Let A and B be two sets. If B contains all elements of A, then B is called superset of A and it is denoted by B ⊇ A. e.g. If B = {a, b, c, d, ..., x, y, z} and A = {a, e, i, o, u} Then, B ⊇ A.</p><p><strong>9. Proper subset:</strong> A set A is said to be a proper subset of set B, if A is a subset of B and A is not equal to B. It is written as A ⊂ B. The total number of proper subsets of a finite set containing n elements is (2^n - 1). e.g. If A = {1, 2, 3}, then proper subsets of A are ∅, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}.</p><p><strong>10. Universal set:</strong> All the sets under consideration are likely to be subsets of a set which is called the universal set and is denoted by U. e.g. Let A = {1, 2, 3}; B = {2, 4, 6, 8}; C = {1, 3, 5, 7, 9} and U = set of natural numbers. Here, A, B and C are the subsets of U. Therefore, U is an universal set.</p><p><strong>11. Power set:</strong> Let A be a set, then the set of all the possible subsets of A is called the power set of A and is denoted by P(A). i.e. P(A) = {S | S ⊆ A}. e.g. Let A = {1, 2, 3}. Then, subsets of A are ∅, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3} and {1, 2, 3}. ∴ P(A) = {∅, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}. <em>Note: Since, the empty set and the set A itself are subsets of A and also the elements of P(A). Thus, the power set of a given set is always non-empty. If a set A has n elements, then its power set will contain 2^n elements.</em></p><p><strong>Some Important Properties:</strong> (i) A ⊆ A, ∀A (ii) ∅ ⊆ A, ∀A (iii) A ⊆ U, ∀A in U (iv) A = B ⇔ A ⊆ B, B ⊆ A</p>",
+    "formulas": [
+      "n(A) = n(B)",
+      "A ⊆ B, if x ∈ A ⇒ x ∈ B",
+      "Total number of subsets = 2^n",
+      "Total number of proper subsets = 2^n - 1",
+      "P(A) = {S | S ⊆ A}",
+      "A = B ⇔ A ⊆ B, B ⊆ A"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties of various types of sets including infinite, equivalent, equal, subset, superset, proper subset, universal, and power sets."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 232
+  },
+  {
+    "id": "set-theory-001",
+    "subject": "Mathematics",
+    "chapter": "Set Theory",
+    "topic": "Venn Diagram and Operations on Sets",
+    "text": "<p><strong>Venn Diagram:</strong> Used to express relationships among sets. The universal set U is represented by a rectangle, and its subsets are represented by closed curves (usually circles) within the rectangle.</p><p><strong>Operations on Sets:</strong></p><ul><li><strong>Union of two sets:</strong> A U B = {x : x ∈ A or x ∈ B}.</li><li><strong>Intersection of two sets:</strong> A ∩ B = {x : x ∈ A and x ∈ B}.</li><li><strong>Disjoint sets:</strong> Two sets A and B are disjoint if A ∩ B = φ (no common elements).</li><li><strong>Difference of two sets:</strong> A - B = {x : x ∈ A, x ∉ B}.</li><li><strong>Symmetric difference of two sets:</strong> A Δ B = (A - B) U (B - A) = {x : x ∉ A ∩ B}.</li><li><strong>Complement of a set:</strong> A' or A^c = U - A = {x : x ∈ U, x ∉ A}.</li></ul>",
+    "formulas": [
+      "A U B = {x : x ∈ A or x ∈ B}",
+      "A ∩ B = {x : x ∈ A and x ∈ B}",
+      "A - B = {x : x ∈ A, x ∉ B}",
+      "A Δ B = (A - B) U (B - A) = {x : x ∉ A ∩ B}",
+      "A' = U - A = {x : x ∈ U, x ∉ A}"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Venn diagram showing a rectangle U with a circle inside.",
+      "Venn diagram showing Union of A and B with both circles shaded.",
+      "Venn diagram showing Intersection of A and B with the overlapping region shaded.",
+      "Venn diagram showing Disjoint sets with two separate circles.",
+      "Venn diagram showing Difference A - B with only the part of A not in B shaded.",
+      "Venn diagram showing Symmetric difference A Δ B with both non-overlapping parts shaded.",
+      "Venn diagram showing Complement of A with the region outside circle A but inside rectangle U shaded."
+    ],
+    "details": {
+      "summary": "Covers fundamental set operations including Union, Intersection, Disjoint sets, Difference, Symmetric Difference, and Complement with corresponding Venn diagram representations."
+    },
+    "mcq": {
+      "question": "The shaded region in the given figure represents which value of sets A = {9, 18, 27, 36}, B = {18, 36, 54, 72}?",
+      "options": [
+        "{18, 36}",
+        "{9, 18, 36, 72}",
+        "A U B",
+        "{9, 27, 54, 72}"
+      ],
+      "correct": 3,
+      "explanation": "The diagram represents the symmetric difference (A - B) U (B - A). (A - B) = {9, 27} and (B - A) = {54, 72}. The union is {9, 27, 54, 72}."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 233
+  },
+  {
+    "id": "set_theory_laws_001",
+    "subject": "Mathematics",
+    "chapter": "Sets",
+    "topic": "Laws of Algebra of Sets",
+    "text": "<h3>Laws of Algebra of Sets</h3><ul><li><strong>Idempotent laws:</strong> For any set A, A ∪ A = A; A ∩ A = A</li><li><strong>Identity laws:</strong> For any set A, A ∪ φ = A; A ∩ φ = φ; A ∪ U = A; A ∩ U = A</li><li><strong>Commutative laws:</strong> For any two sets A and B, A ∪ B = B ∪ A; A ∩ B = B ∩ A</li><li><strong>Associative laws:</strong> For any three sets A, B, and C, (A ∪ B) ∪ C = A ∪ (B ∪ C); A ∩ (B ∩ C) = (A ∩ B) ∩ C</li><li><strong>Distributive laws:</strong> A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C); A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)</li><li><strong>De-Morgan's laws:</strong> (A ∪ B)' = A' ∩ B'; (A ∩ B)' = A' ∪ B'</li><li><strong>Set Difference and Complement properties:</strong> A - (B ∪ C) = (A - B) ∩ (A - C); A - (B ∩ C) = (A - B) ∪ (A - C); A - B = B' - A'; A - (A - B) = A ∩ B; A ∪ B = A ∩ B ⇔ A = B; A ∪ B = A ∩ B ⇔ A = B; A ∪ A' = U; A ∩ A' = φ</li></ul>",
+    "formulas": [
+      "A ∪ A = A",
+      "A ∩ A = A",
+      "A ∪ φ = A",
+      "A ∩ φ = φ",
+      "A ∪ U = A",
+      "A ∩ U = A",
+      "A ∪ B = B ∪ A",
+      "A ∩ B = B ∩ A",
+      "(A ∪ B) ∪ C = A ∪ (B ∪ C)",
+      "A ∩ (B ∩ C) = (A ∩ B) ∩ C",
+      "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)",
+      "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+      "(A ∪ B)' = A' ∩ B'",
+      "(A ∩ B)' = A' ∪ B'"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Comprehensive list of fundamental algebraic laws governing set operations including Idempotent, Identity, Commutative, Associative, Distributive, and De-Morgan's laws."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 234
+  },
+  {
+    "id": "set_theory_results_002",
+    "subject": "Mathematics",
+    "chapter": "Sets",
+    "topic": "Important Results",
+    "text": "<h3>Important Results for Finite Sets</h3><p>If A, B, and C are finite sets and U is the finite universal set, then:</p><ul><li>n(A ∪ B) = n(A) + n(B) - n(A ∩ B)</li><li>n(A ∪ B) = n(A) + n(B) ⇔ A, B are disjoint non-void sets.</li><li>n(A - B) = n(A) - n(A ∩ B)</li><li>n(A ∪ B ∪ C) = n(A) + n(B) + n(C) - n(A ∩ B) - n(B ∩ C) - n(C ∩ A) + n(A ∩ B ∩ C)</li><li>Number of elements in exactly two of the sets A, B, C = n(A ∩ B) + n(B ∩ C) + n(C ∩ A) - 3n(A ∩ B ∩ C)</li><li>Number of elements in exactly one of the sets A, B, C = n(A) + n(B) + n(C) - 2n(A ∩ B) - 2n(B ∩ C) - 2n(A ∩ C) + 3n(A ∩ B ∩ C)</li><li>n(A' ∪ B') = n(A ∩ B)' = n(U) - n(A ∩ B)</li><li>n(A' ∩ B') = n(A ∪ B)' = n(U) - n(A ∪ B)</li><li>n(A Δ B) = n(A) + n(B) - 2n(A ∩ B)</li><li>n(A') = n(U) - n(A)</li><li>n(A ∩ B') = n(A) - n(A ∩ B)</li></ul>",
+    "formulas": [
+      "n(A ∪ B) = n(A) + n(B) - n(A ∩ B)",
+      "n(A ∪ B ∪ C) = n(A) + n(B) + n(C) - n(A ∩ B) - n(B ∩ C) - n(C ∩ A) + n(A ∩ B ∩ C)",
+      "n(A Δ B) = n(A) + n(B) - 2n(A ∩ B)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Key cardinality formulas for finite sets, including union, intersection, difference, symmetric difference, and inclusion-exclusion principles for two and three sets."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 234
+  },
+  {
+    "id": "math-rel-func-001",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Ordered Pair and Cartesian Product",
+    "text": "<p><strong>Ordered Pair:</strong> Two elements <em>a</em> and <em>b</em> listed in a particular order, is called ordered pair and it is denoted by (<em>a</em>, <em>b</em>), where '<em>a</em>' is the first element and '<em>b</em>' is the second element.</p><p>It is evident from the definition that (<em>a</em>, <em>b</em>) ≠ (<em>b</em>, <em>a</em>) ⇔ <em>a</em> ≠ <em>b</em>. Also, if (<em>a</em>, <em>b</em>) = (<em>c</em>, <em>d</em>), then <em>a</em> = <em>c</em> and <em>b</em> = <em>d</em>.</p><p><strong>Cartesian Product of Two Sets:</strong> Let <em>A</em> and <em>B</em> be any two non-empty sets. The set of all ordered pairs (<em>a</em>, <em>b</em>) such that <em>a</em> ∈ <em>A</em> and <em>b</em> ∈ <em>B</em> is called the Cartesian product of the sets <em>A</em> and <em>B</em> and is denoted by <em>A</em> × <em>B</em>. Thus, <em>A</em> × <em>B</em> = {(<em>a</em>, <em>b</em>) : <em>a</em> ∈ <em>A</em> and <em>b</em> ∈ <em>B</em>}.</p><p><strong>Note:</strong></p><ul><li><em>A</em> = φ or <em>B</em> = φ, then we define <em>A</em> × <em>B</em> = φ.</li><li>If <em>A</em> has <em>n</em> elements and <em>B</em> has <em>m</em> elements, then <em>A</em> × <em>B</em> has <em>mn</em> elements.</li><li>If <em>A</em> ≠ <em>B</em>, then <em>A</em> × <em>B</em> ≠ <em>B</em> × <em>A</em>.</li></ul>",
+    "formulas": [
+      "(a, b) ≠ (b, a) ⇔ a ≠ b",
+      "if (a, b) = (c, d), then a = c and b = d",
+      "A × B = {(a, b) : a ∈ A and b ∈ B}",
+      "A × B = φ (if A = φ or B = φ)",
+      "n(A × B) = n(A) × n(B) = mn"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to ordered pairs and the definition of the Cartesian product of two sets, including properties related to set cardinality and equality."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 241
+  },
+  {
+    "id": "math-rel-func-002",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Properties of Cartesian Product",
+    "text": "<p><strong>Properties of Cartesian Product:</strong></p><p>For any three sets <em>A</em>, <em>B</em> and <em>C</em>, we have:</p><ul><li>(i) (a) <em>A</em> × (<em>B</em> ∪ <em>C</em>) = (<em>A</em> × <em>B</em>) ∪ (<em>A</em> × <em>C</em>); (b) <em>A</em> × (<em>B</em> ∩ <em>C</em>) = (<em>A</em> × <em>B</em>) ∩ (<em>A</em> × <em>C</em>); (c) <em>A</em> × (<em>B</em> - <em>C</em>) = (<em>A</em> × <em>B</em>) - (<em>A</em> × <em>C</em>)</li><li>(ii) If <em>A</em> and <em>B</em> are two non-empty sets, then <em>A</em> × <em>B</em> = <em>B</em> × <em>A</em> ⇔ <em>A</em> = <em>B</em></li><li>(iii) If <em>A</em> ⊆ <em>B</em>, then <em>A</em> × <em>A</em> ⊆ (<em>A</em> × <em>B</em>) ∩ (<em>B</em> × <em>A</em>)</li><li>(iv) If <em>A</em> ⊆ <em>B</em>, then <em>A</em> × <em>C</em> ⊆ <em>B</em> × <em>C</em>, for any set <em>C</em></li><li>(v) If <em>A</em> ⊆ <em>B</em> and <em>C</em> ⊆ <em>D</em>, then <em>A</em> × <em>C</em> ⊆ <em>B</em> × <em>D</em></li><li>(vi) For any sets <em>A</em>, <em>B</em>, <em>C</em> and <em>D</em>, (<em>A</em> × <em>B</em>) ∩ (<em>C</em> × <em>D</em>) = (<em>A</em> ∩ <em>C</em>) × (<em>B</em> ∩ <em>D</em>)</li><li>(vii) For any sets <em>A</em> and <em>B</em>, (<em>A</em> × <em>B</em>) ∩ (<em>B</em> × <em>A</em>) = (<em>A</em> ∩ <em>B</em>) × (<em>B</em> ∩ <em>A</em>)</li><li>(viii) For any three sets <em>A</em>, <em>B</em> and <em>C</em>, (a) <em>A</em> × (<em>B</em>' ∪ <em>C</em>') = (<em>A</em> × <em>B</em>) ∩ (<em>A</em> × <em>C</em>)'; (b) <em>A</em> × (<em>B</em>' ∩ <em>C</em>') = (<em>A</em> × <em>B</em>) ∪ (<em>A</em> × <em>C</em>)'</li><li>(ix) Let <em>A</em> and <em>B</em> be two non-empty sets having <em>n</em> elements in common, then <em>A</em> × <em>B</em> and <em>B</em> × <em>A</em> have <em>n</em><sup>2</sup> elements in common.</li></ul>",
+    "formulas": [
+      "A × (B ∪ C) = (A × B) ∪ (A × C)",
+      "A × (B ∩ C) = (A × B) ∩ (A × C)",
+      "A × (B - C) = (A × B) - (A × C)",
+      "A × B = B × A ⇔ A = B",
+      "(A × B) ∩ (C × D) = (A ∩ C) × (B ∩ D)",
+      "(A × B) ∩ (B × A) = (A ∩ B) × (B ∩ A)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of nine fundamental properties governing the Cartesian product of sets, including distributive laws, subset relations, and intersection properties."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 241
+  },
+  {
+    "id": "math-rel-001",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Relation",
+    "text": "<p><strong>Relation</strong> is a definite manner or pattern which show how a set belongs to another one. Let A and B be two non-empty sets, then a relation R from A to B is a subset of A x B. Thus, R is a relation from A to B &hArr; R &sube; A x B. If R is a relation from a non-void set A to a non-void set B and (a, b) &isin; R, then we write aRb which is read as 'a is related to b' by the relation R. If (a, b) &notin; R, then we write aRb and say that 'a is not related to b' by the relation R.</p><p><strong>Note:</strong> If A and B are two non-empty sets consisting of p and q elements respectively, then total number of relations from A to B is 2^(pq).</p>",
+    "formulas": [
+      "R &sube; A x B",
+      "Total number of relations = 2^(pq)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of a mathematical relation between two sets."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 242
+  },
+  {
+    "id": "math-rel-002",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Domain and Range of a Relation",
+    "text": "<p><strong>Domain of a Relation:</strong> Let R be a relation from a set A to a set B. Then, the set of all first components of the ordered pair belonging to R is called the domain of R. Thus, Domain (R) = {a : (a, b) &isin; R}.</p><p><strong>Range of a Relation:</strong> If R is a relation from a set A to a set B, then the set of all second components of the ordered pair of R is called the range of R. Thus, Range (R) = {b : (a, b) &isin; R} the range of R from A to B is a subset of B.</p><p><strong>Codomain of a Relation:</strong> If R is a relation from set A to the set B, then the set B is called the codomain of the relation R. The range of relation is always a subset of its codomain.</p>",
+    "formulas": [
+      "Domain (R) = {a : (a, b) &isin; R}",
+      "Range (R) = {b : (a, b) &isin; R}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions for Domain, Range, and Codomain of a relation."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 242
+  },
+  {
+    "id": "math-rel-003",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Inverse Relation",
+    "text": "<p>Let A and B be non-void sets and R be the relation from a set A to a set B. Then, the inverse of R, denoted by R^-1, is a relation from B to A and is defined by R^-1 = {(b, a) : (a, b) &isin; R}. Clearly, (a, b) &isin; R &hArr; (b, a) &isin; R^-1. Also, Domain (R^-1) = Range (R) and Range (R^-1) = Domain (R).</p>",
+    "formulas": [
+      "R^-1 = {(b, a) : (a, b) &isin; R}",
+      "Domain (R^-1) = Range (R)",
+      "Range (R^-1) = Domain (R)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and properties of the inverse of a relation."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 242
+  },
+  {
+    "id": "math-rel-004",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Types of Relations",
+    "text": "<p><strong>1. Void relation:</strong> Let A be a set. Then, &phi; &sube; A x A and &phi; is a null set, so it is a relation on A. This relation is called the void or empty relation on set A.</p><p><strong>2. Universal relation:</strong> Let A be a set. Then, A x A &sube; A x A, so it is a relation on A. This relation is called the universal relation on A.</p><p><strong>Note:</strong> The void and the universal relations on a set A are respectively the smallest and the largest relations on set A.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of Void and Universal relations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 242
+  },
+  {
+    "id": "math-rel-func-001",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Types of Relations",
+    "text": "<ul><li><strong>Identity relation:</strong> Let A be a set. Then, the relation I_A = {(a, a) : a ∈ A} on A is called the identity relation on A. e.g. If A = {1, 4, 5}, then identity relation, I_A = {(1, 1), (4, 4), (5, 5)}. In other words, a relation I_A on A is called the identity relation, if every element of A is related to itself only.</li><li><strong>Reflexive relation:</strong> A relation R on a set A is said to be reflexive, if every element of A is related to itself. Thus, R is reflexive ⇔ (a, a) ∈ R, ∀ a ∈ A. A relation R on a set A is not reflexive if there exists an element a ∈ R, such that (a, a) ∉ R.</li><li><strong>Symmetric relation:</strong> A relation R on a set A is said to be symmetric relation, iff (a, b) ∈ R ⇒ (b, a) ∈ R, ∀ a, b ∈ A. i.e., aRb ⇒ bRa, ∀ a, b ∈ A.</li><li><strong>Transitive relation:</strong> Let A be any set. A relation R on A is said to be a transitive relation, iff (a, b) ∈ R and (b, c) ∈ R ⇒ (a, c) ∈ R, ∀ a, b, c ∈ A. i.e., aRb and bRc ⇒ aRc, ∀ a, b, c ∈ A.</li><li><strong>Anti-symmetric relation:</strong> Let A be any set. A relation R on set A is said to be an anti-symmetric relation, iff (a, b) ∈ R and (b, a) ∈ R ⇒ a = b, ∀ a, b ∈ A.</li><li><strong>Equivalence relation and equivalence classes:</strong> A relation R on a set A is said to be an equivalence relation on A, iff (i) It is reflexive, i.e., (a, a) ∈ R, ∀ a ∈ A (ii) It is symmetric, i.e., (a, b) ∈ R ⇒ (b, a) ∈ R, ∀ a, b ∈ A (iii) It is transitive, i.e., (a, b) ∈ R and (b, c) ∈ R ⇒ (a, c) ∈ R, ∀ a, b, c ∈ A. Let R be an equivalence relation on the set A. For each a ∈ A, the equivalence class of a ‘denoted by [a]’ is defined as the set of all those points of A which are related to a under the relation R. Thus, [a] = {x ∈ A : xRa}. Any two equivalence classes are either equal or disjoint and hence equivalence relation partitions the set A.</li></ul>",
+    "formulas": [
+      "I_A = {(a, a) : a ∈ A}",
+      "R is reflexive ⇔ (a, a) ∈ R, ∀ a ∈ A",
+      "(a, b) ∈ R ⇒ (b, a) ∈ R, ∀ a, b ∈ A",
+      "(a, b) ∈ R and (b, c) ∈ R ⇒ (a, c) ∈ R, ∀ a, b, c ∈ A",
+      "(a, b) ∈ R and (b, a) ∈ R ⇒ a = b, ∀ a, b ∈ A",
+      "[a] = {x ∈ A : xRa}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of various types of relations including identity, reflexive, symmetric, transitive, anti-symmetric, and equivalence relations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 243
+  },
+  {
+    "id": "math-rel-func-002",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Properties of Relation",
+    "text": "<ul><li>(i) If any set has n elements, then total number of reflexive relation is 2^(n^2 - n).</li><li>(ii) The universal relation on a non-empty set is always reflexive, symmetric and transitive.</li><li>(iii) The identity relation on a non-empty set is always reflexive, symmetric and transitive.</li><li>(iv) The identity relation on a non-empty set is always anti-symmetric.</li><li>(v) If R and S are two equivalence relations on set A, then R ∩ S is also an equivalence relation on A.</li><li>(vi) The inverse of an equivalence relation is an equivalence relation.</li></ul>",
+    "formulas": [
+      "2^(n^2 - n)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Key properties of relations including counting reflexive relations and behavior of equivalence relations under intersection and inversion."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 243
+  },
+  {
+    "id": "math-rel-func-003",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Composition of Relations",
+    "text": "<p>If R ⊆ A × B and S ⊆ B × C are two relations. Then, compositions of the relations R and S denoted by SoR ⊆ A × C and is defined by (a, c) ∈ SoR if and only if there is an element b ∈ B such that (a, b) ∈ R and (b, c) ∈ S. e.g. Let A = {1, 2, 3}, B = {a, b, c, d}, C = {α, β, γ}. R ⊆ A × B = {(1, a), (1, c), (2, d)}, S ⊆ B × C = {(a, α), (a, γ), (a, β)}. Then, SoR ⊆ A × C = {(1, α), (1, γ), (1, β)}.</p><p><strong>Note:</strong> Remember that SoR ≠ RoS. Also, (SoR)^-1 = R^-1 o S^-1 is the reversal rule.</p>",
+    "formulas": [
+      "(a, c) ∈ SoR ⇔ ∃ b ∈ B such that (a, b) ∈ R and (b, c) ∈ S",
+      "SoR ≠ RoS",
+      "(SoR)^-1 = R^-1 o S^-1"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and example of the composition of two relations, including the reversal rule for inverse composition."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 243
+  },
+  {
+    "id": "math-func-001",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Definition of Function",
+    "text": "<p>A <strong>function 'f'</strong> from a set to another set is a rule or method which associates every element of first set to a unique element of second set.</p><p>OR</p><p>If A and B are two non-empty sets, then function f is a relation such that for every element x ∈ A there exist a unique element y ∈ B, written as y = f(x) = B. A function is also termed as 'map' or 'mapping'. If an element x ∈ A is associated to an element y ∈ B, then y is called 'image of x' or the value of function f at x. If for any value of x, there are more than one value of f(x), then f(x) is not a function but a relation. It is denoted by f: A → B or f: A ⟶ B which is read as 'f is a function of A to B'.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of a function as a mapping between two sets."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 244
+  },
+  {
+    "id": "math-func-002",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Domain and Range",
+    "text": "<p><strong>Domain of a Function:</strong> If f: A → B is a function, then the set A is called the domain of the function f and B is called the co-domain of f. Thus, domain is the all possible values of x for which f(x) exists.</p><p><strong>Range of a Function:</strong> Let f be a mapping from A to B, i.e. f: A → B. Each element of A has a unique image and each element of B need not appear as the image of an element in A. We define the range of f to consist of those elements in B which appear as the image of atleast one element in A. Hence, range of a function of f: A → B, denoted by f(A). Thus, f(A) = {f(x): x ∈ A} ⇒ f(A) ⊆ B.</p><p>e.g. Let A = {a, b, c, d} and B = {α, β, γ}. Domain = {a, b, c, d} = A; Codomain = {α, β, γ} = B; Range = {β, γ}.</p>",
+    "formulas": [
+      "f(A) = {f(x): x ∈ A} ⇒ f(A) ⊆ B"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Venn diagram showing mapping from set A={a,b,c,d} to set B={α,β,γ}. Elements a,b map to β; c,d map to γ."
+    ],
+    "details": {
+      "summary": "Definitions and examples of domain, codomain, and range."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 244
+  },
+  {
+    "id": "math-func-003",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Types of Functions",
+    "text": "<p><strong>1. One-one function (Injection):</strong> A mapping f: A → B is said to be one-one or one-to-one, if different elements in A have different f-images in B. i.e. f(x1) = f(x2) ⇒ x1 = x2, ∀ x1, x2 ∈ A.</p><p><strong>2. Many-one function:</strong> A mapping f: A → B is said to be many-one, if two (or more than two) distinct elements in A have the same f-image in B. i.e. f(x1) = f(x2) ⇒ x1 ≠ x2, ∀ x1, x2 ∈ A.</p>",
+    "formulas": [
+      "f(x1) = f(x2) ⇒ x1 = x2",
+      "f(x1) = f(x2) ⇒ x1 ≠ x2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Venn diagram for one-one function: a maps to α, b maps to β, c maps to γ.",
+      "Venn diagram for many-one function: a, b map to α; c, d map to β."
+    ],
+    "details": {
+      "summary": "Definitions of one-one and many-one functions."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 244
+  },
+  {
+    "id": "math-rel-func-001",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Types of Functions",
+    "text": "<p><strong>3. Into function:</strong> If the mapping f: A -> B is such that there is atleast one element in B which is not the f-image of any element in A, then f is a mapping of A 'into' B.</p><p><strong>4. Onto function (Surjection):</strong> If the mapping f: A -> B is such that each element in B is the f-image of atleast one element in A, then f is a mapping of A 'onto' B.</p><p><strong>5. One-one-onto function (Bijective):</strong> If the mapping f: A -> B is such that each element in the co-domain B is mapped to by exactly one element of the domain A i.e. the function is both one-one and onto function well as onto function, then it is called bijective functions.</p><p><strong>6. One-one-into function:</strong> If the mapping f: A -> B is such that different elements in A have different f-images in B and one or more than one element in the codomain B is not an image of any element in the domain A, then it is called one-one-into function.</p><p><strong>7. Many-one-into function:</strong> If the mapping f: A -> B is such that two or more than two elements in A have the same image in B and B has the less element to A, then it is called many one into function.</p><p><strong>8. Many-one-into function:</strong> If the mapping f: A -> B is such that there is at least one element in B which is not the image of any element in A and B has more element to A, then it is called many one into function.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagrams showing mapping between set A and set B for Into, Onto, Bijective, One-one-into, and Many-one-into functions using arrows.",
+      "Diagram showing mapping for Many-one-into function."
+    ],
+    "details": {
+      "summary": "Definitions of various types of functions based on mapping between sets A and B."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 245
+  },
+  {
+    "id": "math-rel-func-002",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Some Important Functions",
+    "text": "<p><strong>1. Constant function:</strong> A function f: R -> R defined by f(x) = c, for all x in R that assigns the same value to every member of its domain, where c is a constant, is called a constant function. The domain and range of this function are R and {c}, respectively.</p><p><strong>2. Identity function:</strong> A function f: R -> R defined by f(x) = x, for all x in R is called identity function. Here, domain and range both are equal to R.</p><p><strong>3. Reciprocal function:</strong> The function defined by f(x) = 1/x, for all x in R, x != 0 is called reciprocal function. The domain and range of this function are equal to R - {0}.</p><p><strong>4. Rational function:</strong> When any function is written as the ratio of two algebraic expressions, it is called a rational function. Example: f(x) = (x^2 - 3x + 5) / (x^3 - 2x^2 + x - 1)</p><p><strong>5. Absolute or modulus function:</strong> A function defined by f(x) = |x| = {x, if x >= 0; -x, if x < 0}</p>",
+    "formulas": [
+      "f(x) = c",
+      "f(x) = x",
+      "f(x) = 1/x",
+      "f(x) = (x^2 - 3x + 5) / (x^3 - 2x^2 + x - 1)",
+      "f(x) = |x| = {x, if x >= 0; -x, if x < 0}"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Graph of the absolute or modulus function showing a V-shape passing through the origin with lines f(x)=x and f(x)=-x."
+    ],
+    "details": {
+      "summary": "Definitions and properties of constant, identity, reciprocal, rational, and modulus functions."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 245
+  },
+  {
+    "id": "math-func-001",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Modulus, Greatest Integer, and Smallest Integer Functions",
+    "text": "<p><strong>Absolute or Modulus Function:</strong> Domain is R, range is [0, ∞).</p><p><strong>Properties of modulus function:</strong></p><ul><li>(i) |x| ≤ a ⇔ -a ≤ x ≤ a</li><li>(ii) |x| ≥ a ⇔ x ≤ -a or x ≥ a</li><li>(iii) |x ± y| ≤ |x| + |y|</li><li>(iv) |x ± y| ≥ ||x| - |y||</li></ul><p><strong>Greatest integer function (Floor function):</strong> The function f(x) = [x] is the greatest integer function, meaning the greatest integer less than or equal to x. e.g., [3.12] = 3, [-3.12] = -4, [-3] = -3, [3] = 3. Domain is R, range is I.</p><p><strong>Properties of greatest integer function:</strong></p><ul><li>(i) [x + n] = [x] + n, where x ∈ R and n ∈ I</li><li>(ii) [-x] = -[x] if x ∈ I, and -[x] - 1 if x ∉ I</li><li>(iii) [x] + [-x] = 0 if x ∈ I, and -1 if x ∉ I</li><li>(iv) n1 ≤ [x] ≤ n2 ⇒ n1 ≤ x < n2 + 1</li></ul><p><strong>Smallest integer function (Ceiling function):</strong> Denoted by [x], it is the smallest integer greater than or equal to x. e.g., [9.7] = 10, [-5.78] = -5.</p>",
+    "formulas": [
+      "|x| ≤ a ⇔ -a ≤ x ≤ a",
+      "|x| ≥ a ⇔ x ≤ -a or x ≥ a",
+      "|x ± y| ≤ |x| + |y|",
+      "|x ± y| ≥ ||x| - |y||",
+      "[x + n] = [x] + n",
+      "[-x] = -[x] (x ∈ I), -[x] - 1 (x ∉ I)",
+      "[x] + [-x] = 0 (x ∈ I), -1 (x ∉ I)"
+    ],
+    "image_descriptions": [
+      "Graph of the greatest integer function showing a step-like pattern on the Cartesian plane with open and closed circles indicating intervals."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 246
+  },
+  {
+    "id": "math-func-002",
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "topic": "Exponential, Logarithmic, Trigonometric, and Signum Functions",
+    "text": "<p><strong>Exponential function:</strong> f(x) = a^x (a ≠ 1, a > 0). Domain = R, Range = (0, ∞).</p><p><strong>Logarithmic function:</strong> f(x) = log_a x (a ≠ 1, a > 0). Domain = (0, ∞), Range = R.</p><p><strong>Periodic function:</strong> f(x + T) = f(x). T is the period. e.g., sin x has period 2π.</p><p><strong>Signum function:</strong> f(x) = |x|/x = -1 (x < 0), 0 (x = 0), 1 (x > 0). Domain = R, Range = {-1, 0, 1}.</p>",
+    "formulas": [
+      "f(x) = a^x",
+      "f(x) = log_a x",
+      "f(x + T) = f(x)",
+      "f(x) = |x|/x"
+    ],
+    "tables": [
+      "| Function | Domain | Range |\n|---|---|---|\n| sin x | R | [-1, 1] |\n| cos x | R | [-1, 1] |\n| tan x | R - {(2n + 1)π/2 : n ∈ I} | R |\n| cot x | R - {nπ : n ∈ I} | R |\n| sec x | R - {(2n + 1)π/2 : n ∈ I} | (-∞, -1] ∪ [1, ∞) |\n| cosec x | R - {nπ : n ∈ I} | (-∞, -1] ∪ [1, ∞) |",
+      "| Function | Domain | Range |\n|---|---|---|\n| sin⁻¹ x | [-1, 1] | [-π/2, π/2] |\n| cos⁻¹ x | [-1, 1] | [0, π] |\n| tan⁻¹ x | R | (-π/2, π/2) |\n| cot⁻¹ x | R | (0, π) |\n| sec⁻¹ x | (-∞, -1] ∪ [1, ∞) | [0, π] - {π/2} |\n| cosec⁻¹ x | (-∞, -1] ∪ [1, ∞) | [-π/2, π/2] - {0} |"
+    ],
+    "image_descriptions": [
+      "Graph of the signum function showing a horizontal line at y=1 for x>0, a point at (0,0), and a horizontal line at y=-1 for x<0."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 246
+  },
+  {
+    "id": "math-rel-func-001",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Properties of Function",
+    "text": "<p><strong>Properties of Function:</strong></p><ul><li>(i) If A and B have n and m distinct elements respectively, then the number of mappings from A to B is equal to m^n.</li><li>(ii) If A and B have n equal number of distinct elements, then the number of bijective functions from A to B is equal to n!. But if A and B don't have equal number of elements, then number of bijective functions from A to B is 0.</li><li>(iii) The number of one-one functions that can be defined from a finite set A into a finite set B is n(B) P n(A), if n(B) >= n(A) and 0 otherwise.</li><li>(iv) If A and B have n equal number of distinct elements, then number of onto functions from A to B is equal to 2^n - 2.</li></ul>",
+    "formulas": [
+      "m^n",
+      "n!",
+      "n(B) P n(A)",
+      "2^n - 2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties regarding the number of mappings, bijective functions, one-one functions, and onto functions between sets A and B."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 247
+  },
+  {
+    "id": "math-rel-func-002",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Inverse Function",
+    "text": "<p><strong>Inverse Function:</strong> Let f: A -> B be a one-one onto (bijection) mapping. Then, the mapping, f^-1: B -> A, which associates to each element b in B the element a in A, such that f(a) = b, is called the inverse mapping of the mapping f: A -> B.</p><p><strong>Method to Find Inverse of Function:</strong> Let f: A -> B be a bijective function. (1) Put f(x) = y. (2) Solve the equation y = f(x) to obtain x in terms of y. Interchange x and y to obtain the inverse of f.</p>",
+    "formulas": [
+      "f: A -> B",
+      "f^-1: B -> A",
+      "f(a) = b",
+      "f(x) = y"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Venn diagram showing two sets A and B with elements a and b, where f maps a to b and f^-1 maps b back to a."
+    ],
+    "details": {
+      "summary": "Definition of inverse function and the step-by-step method to calculate it."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 247
+  },
+  {
+    "id": "math-rel-func-003",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Composition of Functions",
+    "text": "<p><strong>Composition of Functions:</strong> Let A, B and C be three non-empty sets. Let f: A -> B and g: B -> C be two mappings or functions. Then, the composite of the functions f and g denoted by (gof), is a mapping of A -> C, given by (gof): A -> C such that (gof)(x) = g{f(x)}, for all x in A. gof exists iff the range of f is a subset of domain of g. Similarly, fog exists iff range of g is a subset of domain of y.</p>",
+    "formulas": [
+      "(gof)(x) = g{f(x)}"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Venn diagram showing three sets A, B, and C. Function f maps x in A to f(x) in B, and function g maps f(x) to g{f(x)} in C."
+    ],
+    "details": {
+      "summary": "Definition and conditions for the existence of composite functions gof and fog."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 247
+  },
+  {
+    "id": "pathfinder-nda-26-theory-01",
+    "subject": "Mathematics",
+    "chapter": "Functions and Relations",
+    "topic": "Properties of Functions and Relations",
+    "text": "<p><strong>Properties of Functions:</strong></p><ul><li>For <em>f(x) = 3^-x</em>, since <em>f(x)</em> is positive for every value of <em>x</em>, it is an <em>into</em> function.</li><li>The derivative <em>dy/dx = -3^-x log 3 < 0</em> for every value of <em>x</em>, therefore it is a <em>decreasing function</em>.</li><li>For <em>f(x) = x^3</em> and <em>g(y) = y^3</em>, both functions are identical. The identity function <em>f(x) = x</em> is always one-one and onto (bijective).</li></ul><p><strong>Relations:</strong></p><ul><li><strong>Reflexive:</strong> A relation <em>R</em> on set <em>P</em> is reflexive if <em>aRa</em> for all <em>a</em> in <em>P</em>.</li><li><strong>Symmetric:</strong> A relation <em>R</em> is symmetric if <em>aRb</em> implies <em>bRa</em>.</li><li><strong>Transitive:</strong> A relation <em>R</em> is transitive if <em>aRb</em> and <em>bRc</em> implies <em>aRc</em>.</li><li>An <strong>equivalence relation</strong> must satisfy all three properties: reflexive, symmetric, and transitive.</li></ul>",
+    "formulas": [
+      "f(x) = 3^-x",
+      "dy/dx = -3^-x log 3",
+      "f(x) = x^3",
+      "f(x) = x",
+      "f^-1(x) = (x+5)/3",
+      "f(x) = sqrt(x)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Graph of f(x) = x^2 showing a parabola opening upwards with vertex at the origin (0,0).",
+      "Graph of f(x) = x showing a straight line passing through the origin at a 45-degree angle."
+    ],
+    "details": {
+      "summary": "Covers properties of functions (one-one, onto, decreasing, identity) and definitions of reflexive, symmetric, and transitive relations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 254
+  },
+  {
+    "id": "math-rel-func-001",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "topic": "Functions and Mappings",
+    "text": "<p><strong>Function Definitions and Mappings:</strong></p><ul><li>(I) Mapping from set {u, v, w, x} to {p, q, r, s} where each element in the domain has a unique image in the codomain (Function).</li><li>(II) Mapping where one element in the domain maps to two elements in the codomain (Not a function).</li><li>(III) Mapping where one element in the codomain has no pre-image in the domain (Not a function).</li><li>(IV) Mapping where multiple elements in the domain map to the same element in the codomain (Function).</li></ul><p><strong>Modulus Function:</strong></p><p>For <em>f(x) = |x|</em>, the graph is a V-shape symmetric about the Y-axis. It is not one-one as a horizontal line cuts the graph at more than one point. It is onto as the range is the set of non-negative integers.</p>",
+    "formulas": [
+      "f(x) = |x|",
+      "f(x) = ax + b",
+      "g(x) = cx + d",
+      "f[g(x)] = a(cx + d) + b = acx + ad + b",
+      "g[f(x)] = c(ax + b) + d = acx + bc + d"
+    ],
+    "image_descriptions": [
+      "Four mapping diagrams labeled (I), (II), (III), and (IV) showing relations between two sets. (I) and (IV) are functions, (II) and (III) are not.",
+      "Cartesian graph of f(x) = |x| showing a V-shape passing through the origin (0,0) with rays extending into the first and second quadrants."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 255
+  },
+  {
+    "id": "complex-numbers-001",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Definition of Complex Numbers",
+    "text": "<p>If <em>a</em> and <em>b</em> are two real numbers, then any number of the form <em>a + ib</em> is called a complex number, where <em>i = sqrt(-1)</em>. In other words, a number consisting of a real number and an imaginary number is called a complex number. It is usually denoted by <em>z</em>, i.e., <em>z = a + ib</em>.</p>",
+    "formulas": [
+      "z = a + ib",
+      "i = sqrt(-1)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of complex numbers as a combination of real and imaginary parts."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 258
+  },
+  {
+    "id": "complex-numbers-002",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Iota and Imaginary Quantities",
+    "text": "<p>There is no real number whose square is a negative real number. Euler was the first mathematician to introduce the symbol <em>i</em> (iota) for the square root of -1 with the property that <em>i^2 = -1</em>. He called this symbol the imaginary unit. The square root of a negative real number is called an imaginary quantity or an imaginary number. e.g., sqrt(-3), sqrt(-4), sqrt(-9/4) etc., are imaginary quantities.</p>",
+    "formulas": [
+      "i^2 = -1"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to the imaginary unit i and imaginary quantities."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 258
+  },
+  {
+    "id": "complex-numbers-003",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Integral Powers of i",
+    "text": "<p>We have, <em>i = sqrt(-1)</em>, <em>i^2 = -1</em>. Therefore, <em>i^3 = i^2 * i = (-1) * i = -i</em>, <em>i^4 = i^2 * i^2 = (-1) * (-1) = 1</em>. Thus, <em>i + i^2 + i^3 + i^4 = 0</em>. In general, <em>i^r + i^(r+1) + i^(r+2) + i^(r+3) = 0</em> i.e., the sum of four consecutive powers of <em>i</em> is equal to zero.</p>",
+    "formulas": [
+      "i^2 = -1",
+      "i^3 = -i",
+      "i^4 = 1",
+      "i + i^2 + i^3 + i^4 = 0",
+      "i^r + i^(r+1) + i^(r+2) + i^(r+3) = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties of the powers of the imaginary unit i."
+    },
+    "mcq": {
+      "question": "The value of [i^19 + (1/i)^25]^2 is",
+      "options": [
+        "2",
+        "-2",
+        "4",
+        "-4"
+      ],
+      "correct": 3,
+      "explanation": "We have, [i^19 + (1/i)^25]^2 = [i^19 + (1/i^25)]^2 = [i^3 + 1/i]^2 = [-i + 1/i]^2 = [-i - i]^2 = (-2i)^2 = 4i^2 = -4"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 258
+  },
+  {
+    "id": "complex-numbers-004",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Set of Complex Numbers",
+    "text": "<p>The product set <em>R x R</em> consisting of the ordered pairs of real numbers is called the set of complex numbers. The set of all complex numbers is denoted by <em>C</em>, i.e., <em>C = {a + ib | a, b in R}</em>. Since, a real number <em>a</em> can be written as <em>a + 0i</em>, therefore every real number is a complex number. Hence, <em>R subset C</em>, where <em>R</em> is the set of all real numbers.</p>",
+    "formulas": [
+      "C = {a + ib | a, b in R}",
+      "R subset C"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of the set of complex numbers and its relation to real numbers."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 258
+  },
+  {
+    "id": "math-complex-001",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Real and Imaginary Parts of a Complex Number",
+    "text": "<p>If z = a + ib is a complex number, then 'a' is called the real part of z and 'b' is known as the imaginary part of z. The real part of z is denoted by Re(z) and the imaginary part is denoted by Im(z).</p><p><strong>Example:</strong> If z = 7 + 5i, then Re(z) = 7 and Im(z) = 5.</p><p>A complex number z is purely real, if its imaginary part is zero, i.e. Im(z) = 0 and is said to be purely imaginary, if its real part is zero, i.e. Re(z) = 0. The complex number 0 = 0 + i0 is both purely real and purely imaginary.</p>",
+    "formulas": [
+      "z = a + ib",
+      "Re(z) = a",
+      "Im(z) = b"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of real and imaginary parts of complex numbers and conditions for being purely real or purely imaginary."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 259
+  },
+  {
+    "id": "math-complex-002",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Equality of Complex Numbers",
+    "text": "<p>Two complex numbers z1 = a1 + ib1 and z2 = a2 + ib2 are equal, if a1 = a2 and b1 = b2, i.e. Re(z1) = Re(z2) and Im(z1) = Im(z2).</p><p><strong>Example:</strong> If z1 = 2 - iy and z2 = x + 3i are equal, then 2 - iy = x + 3i => x = 2 and y = -3.</p><p><strong>Note:</strong> Two complex numbers cannot be compared, i.e. no greater complex number can be found in two given complex numbers.</p>",
+    "formulas": [
+      "z1 = z2 iff Re(z1) = Re(z2) and Im(z1) = Im(z2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Condition for equality of two complex numbers and note on non-comparability."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 259
+  },
+  {
+    "id": "math-complex-003",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Addition of Complex Numbers",
+    "text": "<p>Let z1 = a1 + ib1 and z2 = a2 + ib2 be any two complex numbers. Then, z1 + z2 = (a1 + a2) + i(b1 + b2). Thus, Re(z1 + z2) = Re(z1) + Re(z2) and Im(z1 + z2) = Im(z1) + Im(z2).</p><h3>Properties of Addition</h3><ul><li>z1 + z2 = z2 + z1 (Commutative law)</li><li>(z1 + z2) + z3 = z1 + (z2 + z3) (Associative law)</li><li>z + 0 = z = 0 + z, where 0 = 0 + i0 is the identity element.</li><li>z + (-z) = 0 = (-z) + z, where z and -z are additive inverse of each other.</li></ul>",
+    "formulas": [
+      "z1 + z2 = (a1 + a2) + i(b1 + b2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of addition of complex numbers and its algebraic properties."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 259
+  },
+  {
+    "id": "math-complex-004",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Subtraction and Multiplication of Complex Numbers",
+    "text": "<h3>Subtraction</h3><p>Let z1 = a1 + ib1 and z2 = a2 + ib2. Then, z1 - z2 = z1 + (-z2) = (a1 + ib1) + (-a2 - ib2) = (a1 - a2) + i(b1 - b2).</p><h3>Multiplication</h3><p>Let z1 = a1 + ib1 and z2 = a2 + ib2. Then, z1z2 = (a1 + ib1)(a2 + ib2) = (a1a2 - b1b2) + i(a1b2 + a2b1). Thus, z1z2 = [Re(z1)Re(z2) - Im(z1)Im(z2)] + i[Re(z1)Im(z2) + Re(z2)Im(z1)].</p><h3>Properties of Multiplication</h3><ul><li>z1z2 = z2z1 (Commutative law)</li><li>(z1z2)z3 = z1(z2z3) (Associative law)</li><li>z * 1 = z = 1 * z, where 1 is multiplicative identity.</li><li>z * z1 = 1 = z1 * z, where z1 is multiplicative inverse or reciprocal of z.</li><li>(i) z1(z2 + z3) = z1z2 + z1z3 (Distributive law); (ii) (z2 + z3)z1 = z2z1 + z3z1 (Distributive law)</li></ul>",
+    "formulas": [
+      "z1 - z2 = (a1 - a2) + i(b1 - b2)",
+      "z1z2 = (a1a2 - b1b2) + i(a1b2 + a2b1)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties for subtraction and multiplication of complex numbers."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 259
+  },
+  {
+    "id": "math-complex-005",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Division of Complex Numbers",
+    "text": "<p>The division of a complex number z1 by a non-zero complex number z2 is defined as the multiplication of z1 by the multiplicative inverse of z2 and is denoted by z1/z2.</p><p>Let z1 = a1 + ib1 and z2 = a2 + ib2. Then, z1/z2 = (a1 + ib1) * (a2/(a2^2 + b2^2) + i(-b2/(a2^2 + b2^2))) = ((a1a2 + b1b2)/(a2^2 + b2^2)) + i((a2b1 - a1b2)/(a2^2 + b2^2)).</p>",
+    "formulas": [
+      "z1/z2 = ((a1a2 + b1b2)/(a2^2 + b2^2)) + i((a2b1 - a1b2)/(a2^2 + b2^2))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and formula for the division of complex numbers."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 259
+  },
+  {
+    "id": "nda_math_complex_001",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Modulus of a Complex Number",
+    "text": "<p>The modulus of a complex number z = a + ib is denoted by mod(z) or |z| and is defined as |z| = sqrt(a^2 + b^2) = sqrt({Re(z)}^2 + {Im(z)}^2). Clearly, |z| >= 0, for all z in C. Example: If z = 4 + 3i, then |z| = sqrt(4^2 + 3^2) = sqrt(16 + 9) = sqrt(25) = 5.</p><h3>Properties of Modulus</h3><ul><li>(i) |z| >= 0 => |z| = 0, iff z = 0, i.e., Re(z) = Im(z) = 0 and |z| > 0, iff z != 0</li><li>(ii) |z| = |z_bar| = |-z| = |-z_bar|</li><li>(iii) -|z| <= Re(z) <= |z|, -|z| <= Im(z) <= |z|</li><li>(iv) |z|^2 = z * z_bar</li><li>(v) |z^n| = |z|^n</li><li>(vi) |z1 * z2| = |z1| * |z2|</li><li>(vii) |z1 / z2| = |z1| / |z2|, z2 != 0</li><li>(viii) |z1 + z2|^2 = |z1|^2 + |z2|^2 + 2 * Re(z1 * z2_bar)</li><li>(ix) |z1 - z2|^2 = |z1|^2 + |z2|^2 - 2 * Re(z1 * z2_bar)</li><li>(x) |z1 + z2|^2 + |z1 - z2|^2 = 2(|z1|^2 + |z2|^2)</li><li>(xi) |az1 - bz2|^2 + |bz1 + az2|^2 = (a^2 + b^2)(|z1|^2 + |z2|^2), where a, b in R</li><li>(xii) |z1 +/- z2| <= |z1| + |z2|</li><li>(xiii) |z1 +/- z2| >= |z1| - |z2|</li><li>(xiv) |z1 + z2|^2 = |z1|^2 + |z2|^2 <=> z1/z2 is purely imaginary</li></ul>",
+    "formulas": [
+      "|z| = sqrt(a^2 + b^2)",
+      "|z|^2 = z * z_bar",
+      "|z1 * z2| = |z1| * |z2|",
+      "|z1 / z2| = |z1| / |z2|"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A Cartesian coordinate system graph showing a point P(x, y) in the first quadrant. The distance from the origin O to P is labeled r (modulus), and the angle with the positive x-axis is labeled theta (argument). The projection on the x-axis is r cos(theta) and on the y-axis is r sin(theta)."
+    ],
+    "details": {
+      "summary": "Covers the definition and properties of the modulus of a complex number, including triangle inequalities and relationships with conjugates."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 260
+  },
+  {
+    "id": "nda_math_complex_002",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Conjugate of a Complex Number",
+    "text": "<p>A pair of complex numbers z1 and z2 are said to be conjugate of each other, if the sum and product of two z1 and z2 both are real. Let z = a + ib be a complex number. Then, the conjugate of z is denoted by z_bar or z' and is equal to a - ib. Thus, z = a + ib => z_bar = a - ib. <strong>Note:</strong> The conjugate of a complex number is obtained by replacing i by -i.</p><h3>Properties of Conjugate</h3><ul><li>(i) (z_bar)_bar = z</li><li>(ii) z + z_bar = 2 * Re(z)</li><li>(iii) z - z_bar = 2i * Im(z)</li><li>(iv) z = z_bar <=> z is purely real</li><li>(v) z = -z_bar <=> z is purely imaginary</li><li>(vi) z * z_bar = {Re(z)}^2 + {Im(z)}^2</li><li>(vii) z1 + z2_bar = z1_bar + z2_bar</li><li>(viii) z1 - z2_bar = z1_bar - z2_bar</li><li>(ix) z1 * z2_bar = z1_bar * z2_bar</li><li>(x) (z1 / z2)_bar = z1_bar / z2_bar, z2 != 0</li><li>(xi) (z_bar)^n = (z^n)_bar</li><li>(xii) z1 * z2_bar + z1_bar * z2 = 2 * Re(z1 * z2_bar) = 2 * Re(z1_bar * z2)</li></ul>",
+    "formulas": [
+      "z_bar = a - ib",
+      "z + z_bar = 2 * Re(z)",
+      "z - z_bar = 2i * Im(z)",
+      "z * z_bar = {Re(z)}^2 + {Im(z)}^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 260
+  },
+  {
+    "id": "nda_math_complex_003",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Argument/Amplitude of Complex Numbers",
+    "text": "<p>Let z = x + iy be a non-zero complex number and can be represented in the form z = r(cos(theta) + i sin(theta)) where, r is the modulus and theta is the argument of z. Then, tan(theta) = y / x => theta = tan^-1(y / x) or arg(z) = tan^-1(y / x).</p>",
+    "formulas": [
+      "z = r(cos(theta) + i sin(theta))",
+      "tan(theta) = y / x",
+      "theta = tan^-1(y / x)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A geometric representation of a complex number z = x + iy in the complex plane, showing the modulus r as the hypotenuse and theta as the angle with the real axis."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 260
+  },
+  {
+    "id": "math-complex-001",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Principal Value of Argument",
+    "text": "<p>The value of &theta; of the argument which satisfies the inequality -&pi; &lt; &theta; &le; &pi; is called the <strong>principal value</strong> of the argument. Principal values of the argument are &theta;, &pi; - &theta;, - &pi; + &theta;, - &theta; according as the complex number lies on the Ist, IInd, IIIrd, or IVth quadrant respectively.</p>",
+    "formulas": [
+      "-&pi; < &theta; <= &pi;"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and quadrant-based determination of the principal value of the argument of a complex number."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 261
+  },
+  {
+    "id": "math-complex-002",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Properties of Argument",
+    "text": "<p>If z, z1 and z2 are complex numbers, then:</p><ul><li>arg(z_bar) = -arg(z)</li><li>arg(z1z2) = arg(z1) + arg(z2)</li><li>arg(z1/z2) = arg(z1) - arg(z2)</li><li>arg(z^n) = n arg(z)</li><li>arg(z1/z2) = arg(z1) - arg(z2)</li><li>arg(z/z_bar) = 2arg(z)</li><li>|z1 + z2|^2 = |z1|^2 + |z2|^2 + 2|z1||z2|cos(&theta;1 - &theta;2)</li><li>|z1 - z2|^2 = |z1|^2 + |z2|^2 - 2|z1||z2|cos(&theta;1 - &theta;2)</li><li>|z1 + z2| = |z1 - z2| &harr; arg(z1) - arg(z2) = &pi;/2</li><li>|z1 + z2| = |z1| + |z2| &harr; arg(z1) = arg(z2)</li><li>The argument of zero is not defined.</li><li>If arg(z) = 0 &rArr; z is real.</li></ul>",
+    "formulas": [
+      "arg(z_bar) = -arg(z)",
+      "arg(z1z2) = arg(z1) + arg(z2)",
+      "arg(z1/z2) = arg(z1) - arg(z2)",
+      "arg(z^n) = n arg(z)",
+      "|z1 + z2|^2 = |z1|^2 + |z2|^2 + 2|z1||z2|cos(&theta;1 - &theta;2)",
+      "|z1 - z2|^2 = |z1|^2 + |z2|^2 - 2|z1||z2|cos(&theta;1 - &theta;2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of fundamental properties governing the arguments of complex numbers."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 261
+  },
+  {
+    "id": "math-complex-003",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Square Root of a Complex Number",
+    "text": "<p>Let (a + ib) be any complex number such that sqrt(a + ib) = x + iy, where x and y are real numbers.</p><p>If b is positive, then sqrt(a + ib) = &plusmn; [sqrt(1/2(sqrt(a^2 + b^2) + a)) + i sqrt(1/2(sqrt(a^2 + b^2) - a))]</p><p>If b is negative, then sqrt(a - ib) = &plusmn; [sqrt(1/2(sqrt(a^2 + b^2) + a)) - i sqrt(1/2(sqrt(a^2 + b^2) - a))]</p><p><strong>Note:</strong> If x, y &isin; R, then:</p><ul><li>sqrt(x + iy) + sqrt(x - iy) = sqrt(2(sqrt(x^2 + y^2) + x))</li><li>sqrt(x + iy) - sqrt(x - iy) = i sqrt(2(sqrt(x^2 + y^2) - x))</li></ul>",
+    "formulas": [
+      "sqrt(a + ib) = &plusmn; [sqrt(1/2(sqrt(a^2 + b^2) + a)) + i sqrt(1/2(sqrt(a^2 + b^2) - a))]",
+      "sqrt(a - ib) = &plusmn; [sqrt(1/2(sqrt(a^2 + b^2) + a)) - i sqrt(1/2(sqrt(a^2 + b^2) - a))]"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulae for calculating the square root of a complex number based on the sign of the imaginary part."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 261
+  },
+  {
+    "id": "math-complex-004",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Cube Roots of Unity",
+    "text": "<p>Let z = 1^(1/3), then z^3 = 1. Solving this leads to z^3 - 1 = 0, which factors to (z - 1)(z^2 + z + 1) = 0. The roots are z = 1, z = (-1 &plusmn; i sqrt(3))/2.</p><p>The cube roots of unity are 1, (-1 + i sqrt(3))/2, and (-1 - i sqrt(3))/2. Here, (-1 + i sqrt(3))/2 = &omega; and (-1 - i sqrt(3))/2 = &omega;^2.</p>",
+    "formulas": [
+      "z^3 = 1",
+      "z^3 - 1 = 0",
+      "(z - 1)(z^2 + z + 1) = 0",
+      "&omega; = (-1 + i sqrt(3))/2",
+      "&omega;^2 = (-1 - i sqrt(3))/2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Derivation and definition of the cube roots of unity and the properties of omega."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 261
+  },
+  {
+    "id": "math-complex-001",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Properties of Cube Root of Unity",
+    "text": "<p><strong>Properties of Cube Root of Unity:</strong></p><ul><li>(i) 1 + ω^r + ω^2r = 0 if r is not a multiple of 3; 3 if r is a multiple of 3</li><li>(ii) ω^3 = 1 or ω^3r = 1 and 1 + ω + ω^2 = 0</li><li>(iii) ω^3r+1 = ω, ω^3r+2 = ω^2</li><li>(iv) ω and ω^2 are the roots of the equation z^2 + z + 1 = 0</li><li>(v) arg(ω) = 2π/3, arg(ω^2) = 4π/3</li><li>(vi) Cube roots of -1 are -1, -ω, -ω^2</li><li>(vii) Cube roots of unity lie on the unit circle |z| = 1 and divides its circumference into three equal parts</li></ul><p><strong>Important Relations:</strong></p><ul><li>(i) x^2 + xy + y^2 = (x - yω)(x - yω^2)</li><li>(ii) x^2 - xy + y^2 = (x + yω)(x + yω^2)</li><li>(iii) x^3 + y^3 = (x + y)(x + yω)(x + yω^2)</li><li>(iv) x^3 - y^3 = (x - y)(x - yω)(x - yω^2)</li></ul>",
+    "formulas": [
+      "1 + ω^r + ω^2r",
+      "ω^3 = 1",
+      "z^2 + z + 1 = 0",
+      "x^2 + xy + y^2 = (x - yω)(x - yω^2)",
+      "x^3 + y^3 = (x + y)(x + yω)(x + yω^2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties and algebraic relations involving the cube roots of unity (ω)."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 262
+  },
+  {
+    "id": "math-complex-002",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Euler or Eulerian Form of Complex Number",
+    "text": "<p>We have, e^iθ = cos θ + i sin θ and e^-iθ = cos θ - i sin θ. These two are called Euler's notations. Let z be any complex number such that |z| = r and arg(z) = θ. Then, z = x + iy = r(cos θ + i sin θ) = re^iθ, where r is modulus. This form of z is known as Euler form.</p>",
+    "formulas": [
+      "e^iθ = cos θ + i sin θ",
+      "e^-iθ = cos θ - i sin θ",
+      "z = re^iθ"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of Euler's form for complex numbers."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 262
+  },
+  {
+    "id": "math-complex-003",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "Trigonometrical or Polar Form of a Complex Number",
+    "text": "<p>Let z = x + iy be a complex number represented by a point P(x, y) in the argand plane. Then, z = r(cos θ + i sin θ) where r = |z| = sqrt(x^2 + y^2) and θ = arg(z) = tan^-1(y/x). This form of z is called the polar form of z. In general, polar form is z = r[cos(2nπ + θ) + i sin(2nπ + θ)] where r = |z|, θ = arg(z) and n ∈ N.</p>",
+    "formulas": [
+      "z = r(cos θ + i sin θ)",
+      "r = |z| = sqrt(x^2 + y^2)",
+      "θ = arg(z) = tan^-1(y/x)",
+      "z = r[cos(2nπ + θ) + i sin(2nπ + θ)]"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Argand plane diagram showing point P(x, y) with modulus r and argument θ relative to the x-axis (real axis) and y-axis (imaginary axis)."
+    ],
+    "details": {
+      "summary": "Representation of complex numbers in polar coordinates on the Argand plane."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 262
+  },
+  {
+    "id": "math-complex-004",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "De-Moivre's Theorem",
+    "text": "<p>A simple formula for calculating powers of complex numbers in the form of cos θ and sin θ is known as De-Moivre's theorem. If n ∈ Z (the set of integers), then:</p><ul><li>(i) (cos θ + i sin θ)^n = cos nθ + i sin nθ</li><li>(ii) (cos θ - i sin θ)^n = cos nθ - i sin nθ</li><li>(iii) 1 / (cos θ + i sin θ) = (cos θ + i sin θ)^-1 = cos θ - i sin θ</li><li>(iv) (sin θ ± i cos θ)^n ≠ sin nθ ± i cos nθ</li><li>(v) (sin θ + i cos θ)^n = [cos(π/2 - θ) + i sin(π/2 - θ)]^n = cos(nπ/2 - nθ) + i sin(nπ/2 - nθ)</li><li>(vi) (cos θ + i sin φ)^n ≠ cos nθ + i sin nφ</li></ul>",
+    "formulas": [
+      "(cos θ + i sin θ)^n = cos nθ + i sin nθ",
+      "(cos θ - i sin θ)^n = cos nθ - i sin nθ",
+      "(sin θ + i cos θ)^n = cos(nπ/2 - nθ) + i sin(nπ/2 - nθ)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "De-Moivre's theorem for powers of complex numbers."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 262
+  },
+  {
+    "id": "math-complex-001",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "nth ROOTS OF UNITY",
+    "text": "<p>Let z = 1^(1/n). Then, z = (cos 0° + i sin 0°)^(1/n) = (cos 2rπ + i sin 2rπ)^(1/n), where r ∈ Z. Using De-Moivre's theorem, z = cos(2rπ/n) + i sin(2rπ/n) = α^r, where r = 0, 1, 2, ..., n-1 and α = cos(2π/n) + i sin(2π/n) = e^(i 2π/n).</p><p><strong>Properties:</strong></p><ul><li>1 + α + α^2 + ... + α^(n-1) = 0</li><li>sum(α^k) from k=0 to n-1 = sum(cos(2kπ/n)) + i sum(sin(2kπ/n)) = 0</li></ul>",
+    "formulas": [
+      "z = cos(2rπ/n) + i sin(2rπ/n)",
+      "α = e^(i 2π/n)",
+      "sum(α^k) = 0 for k=0 to n-1"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers the definition and properties of nth roots of unity, including the sum of roots property."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 263
+  },
+  {
+    "id": "math-complex-002",
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "topic": "GEOMETRICAL APPLICATIONS OF COMPLEX NUMBERS",
+    "text": "<p><strong>Key Geometrical Properties:</strong></p><ul><li>Distance between A(z1) and B(z2) is given by AB = |z2 - z1|</li><li>Distance of point P(z) from origin = |z|</li><li>Mid-point of A(z1) and B(z2) is (z1 + z2) / 2</li><li>Centroid of ΔABC with vertices z1, z2, z3 is (z1 + z2 + z3) / 3</li><li>Area of triangle = 1/2 * |z1 z1_bar 1; z2 z2_bar 1; z3 z3_bar 1| (Determinant form)</li><li>General equation of straight line: a*z_bar + a_bar*z + b = 0 (where a is complex, b is real)</li><li>General equation of circle with centre at z0 and radius r: |z - z0| = r or z*z_bar - z0*z_bar - z0_bar*z + z0*z0_bar - r^2 = 0</li></ul>",
+    "formulas": [
+      "AB = |z2 - z1|",
+      "Centroid = (z1 + z2 + z3) / 3",
+      "|z - z0| = r"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Lists standard geometric formulas for complex numbers including distance, mid-point, centroid, area, and equations for lines and circles."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 263
+  },
+  {
+    "id": "binary-numbers-001",
+    "subject": "Mathematics",
+    "chapter": "Binary Numbers",
+    "topic": "Introduction to Binary and Decimal Systems",
+    "text": "<p>In the binary system, only two symbols <strong>0</strong> and <strong>1</strong> are used as digits, called binary digits or bits. Since only two numbers are used, its base or radix is <strong>2</strong>.</p><p>In the decimal system, we use 10 digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Since 10 basic symbols are used, its base or radix is <strong>10</strong>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to binary (base 2) and decimal (base 10) number systems."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 274
+  },
+  {
+    "id": "binary-numbers-002",
+    "subject": "Mathematics",
+    "chapter": "Binary Numbers",
+    "topic": "Decimal to Binary Conversion",
+    "text": "<p><strong>Conversion of Integral Decimal Numbers:</strong></p><ul><li><strong>Step 1:</strong> Take the LCM of the given decimal number taking only 2 as divisor (as the base or radix of binary number is 2).</li><li><strong>Step 2:</strong> Write the remainder at each step in bracket.</li><li><strong>Step 3:</strong> Repeat this process until we obtain quotient less than the divisor.</li><li><strong>Step 4:</strong> When we obtain 1 as quotient, start writing the number from there to upward direction.</li></ul><p>Example: (21)<sub>10</sub> = (10101)<sub>2</sub></p>",
+    "formulas": [
+      "(21)10 = (10101)2"
+    ],
+    "tables": [
+      "| Divisor | Dividend | Remainder |\n|---|---|---|\n| 2 | 21 | 1 |\n| 2 | 10 | 0 |\n| 2 | 5 | 1 |\n| 2 | 2 | 0 |\n| - | 1 | - |"
+    ],
+    "image_descriptions": [
+      "A vertical division table showing the conversion of decimal 21 to binary. The number 21 is divided by 2 repeatedly, with remainders 1, 0, 1, 0, and the final quotient 1 recorded to the right, read from bottom to top."
+    ],
+    "details": {
+      "summary": "Methodology for converting decimal integers to binary using successive division by 2."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 274
+  },
+  {
+    "id": "math_binary_001",
+    "subject": "Mathematics",
+    "chapter": "Binary Numbers",
+    "topic": "Conversion of Fractional Decimal Numbers",
+    "text": "<p>Fractional numbers can be converted to binary form by successive multiplication by 2. In each step, the digit before the decimal point is being transfered to the binary record and the process is repeated with the remaining fractional number.</p><p>The last step is reached, if the fractional part is zero or it is terminated, when the desired accuracy is attained. The first bit obtained is the most significant and the last is the least significant.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A calculation table showing the conversion of 0.638 to binary form through successive multiplication by 2, resulting in 0.1010001101."
+    ],
+    "details": {
+      "summary": "Method for converting decimal fractions to binary using successive multiplication by 2."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 275
+  },
+  {
+    "id": "math_binary_002",
+    "subject": "Mathematics",
+    "chapter": "Binary Numbers",
+    "topic": "Binary to Decimal Conversion",
+    "text": "<p><strong>1. Conversion of Integral Binary Numbers:</strong> For converting binary number to decimal number, we start from the least significant bit, i.e. from right, by multiplying them with the powers of 2 in increasing order, i.e. with 2^0, 2^1, 2^2 and so on. This process is repeated until the most significant bit, i.e. left bit has been processed. Adding all of them, we get the required decimal number.</p><p><strong>2. Conversion of Fractional Binary Numbers:</strong> In order to convert the binary fractions to decimal numbers, we use negative powers of 2 to the right of the binary point.</p>",
+    "formulas": [
+      "(10010)_2 = 1 * 2^4 + 0 * 2^3 + 0 * 2^2 + 1 * 2^1 + 0 * 2^0 = 16 + 0 + 0 + 2 + 0 = 18",
+      "(0.1101)_2 = 1 * 2^-1 + 1 * 2^-2 + 0 * 2^-3 + 1 * 2^-4 = 0.5 + 0.25 + 0 + 0.0625 = 0.8125"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Table showing the place values for fractional binary conversion (2^-1, 2^-2, 2^-3, 2^-4)."
+    ],
+    "details": {
+      "summary": "Rules for converting binary integers and fractions to decimal."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 275
+  },
+  {
+    "id": "math_binary_003",
+    "subject": "Mathematics",
+    "chapter": "Binary Numbers",
+    "topic": "Arithmetic Operations of Binary Numbers",
+    "text": "<p>The arithmetic operations of binary numbers namely addition, subtraction, multiplication and division are almost similar to those of decimal.</p><p><strong>Binary Addition:</strong> The rules of binary addition are:</p><ul><li>(i) 0 + 0 = 0</li><li>(ii) 0 + 1 = 1</li><li>(iii) 1 + 0 = 1</li><li>(iv) 1 + 1 = 10 (one-zero, not ten)</li></ul><p><strong>Note:</strong> The last rule is often written as 1 + 1 = 0 with a carry of 1.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Basic rules for binary addition."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 275
+  },
+  {
+    "id": "bin-sub-001",
+    "subject": "Mathematics",
+    "chapter": "Binary Systems",
+    "topic": "Binary Subtraction",
+    "text": "<p>The rules of binary subtraction are:</p><ul><li>(i) 0 - 0 = 0</li><li>(ii) 1 - 0 = 1</li><li>(iii) 1 - 1 = 0</li><li>(iv) 0 - 1 = 1</li></ul>",
+    "formulas": [
+      "0 - 0 = 0",
+      "1 - 0 = 1",
+      "1 - 1 = 0",
+      "0 - 1 = 1"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for performing subtraction in binary number system."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 276
+  },
+  {
+    "id": "bin-mul-001",
+    "subject": "Mathematics",
+    "chapter": "Binary Systems",
+    "topic": "Binary Multiplication",
+    "text": "<p>The rules of binary multiplication are:</p><ul><li>(i) 0 x 0 = 0</li><li>(ii) 0 x 1 = 0</li><li>(iii) 1 x 0 = 0</li><li>(iv) 1 x 1 = 1</li></ul>",
+    "formulas": [
+      "0 x 0 = 0",
+      "0 x 1 = 0",
+      "1 x 0 = 0",
+      "1 x 1 = 1"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for performing multiplication in binary number system."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 276
+  },
+  {
+    "id": "bin-div-001",
+    "subject": "Mathematics",
+    "chapter": "Binary Systems",
+    "topic": "Binary Division",
+    "text": "<p>The rules of binary division are:</p><ul><li>(i) 1 / 1 = 1</li><li>(ii) 0 / 1 = 0</li><li>(iii) 0 / 0 = Not defined</li><li>(iv) 1 / 0 = Not defined</li></ul>",
+    "formulas": [
+      "1 / 1 = 1",
+      "0 / 1 = 0",
+      "0 / 0 = Not defined",
+      "1 / 0 = Not defined"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for performing division in binary number system."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 276
+  },
+  {
+    "id": "math-binary-conversion-001",
+    "subject": "Mathematics",
+    "chapter": "Number Systems",
+    "topic": "Binary Conversions and Arithmetic",
+    "text": "<p>This section provides step-by-step solutions for binary conversions and arithmetic operations.</p><ul><li><strong>Decimal to Binary Conversion:</strong> Performed using successive division by 2 for integer parts and multiplication by 2 for fractional parts.</li><li><strong>Binary Arithmetic:</strong> Involves expansion of binary numbers into powers of 2 to solve for variables or perform calculations.</li></ul>",
+    "formulas": [
+      "(182)_10 = (10110110)_2",
+      "(0.0011)_2 = 0*2^-1 + 0*2^-2 + 1*2^-3 + 1*2^-4 = 1/8 + 1/16 = 3/16",
+      "(13.0625)_10 = (1101.0001)_2",
+      "(1111)_2 = 1*2^3 + 1*2^2 + 1*2^1 + 1*2^0 = 15",
+      "(111000.0101)_2 = 1*2^5 + 1*2^4 + 1*2^3 + 0*2^2 + 0*2^1 + 0*2^0 + 0*2^-1 + 1*2^-2 + 0*2^-3 + 1*2^-4",
+      "(18.5625)_10 = (10010.10010)_2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Multiple division tables showing the conversion of decimal numbers 182, 13, 14, and 133 into binary by repeatedly dividing by 2 and recording remainders.",
+      "Multiplication tables showing the conversion of fractional decimal parts 0.0625 and 0.5625 into binary by repeatedly multiplying by 2."
+    ],
+    "details": {
+      "summary": "Detailed solutions for binary number system problems including decimal-to-binary conversion, binary addition, and algebraic manipulation of binary expressions."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 278
+  },
+  {
+    "id": "seq-series-001",
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "topic": "Introduction to Sequences and Series",
+    "text": "<p>A succession of numbers <em>a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ..., a<sub>n</sub></em> formed according to some definite rule is called a <strong>sequence</strong>.</p><p>The different terms of a sequence are usually denoted by <em>a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ...</em> or by <em>t<sub>1</sub>, t<sub>2</sub>, t<sub>3</sub>, ...</em>. The term at the <em>n</em>th place of a sequence, i.e., <em>t<sub>n</sub></em> is called the <strong>general term</strong> of sequence.</p><p>A <strong>series</strong> is obtained by adding or subtracting the terms of a sequence. If <em>a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, a<sub>4</sub>, ..., a<sub>n</sub>, ...</em> is a sequence, then the expression <em>a<sub>1</sub> + a<sub>2</sub> + a<sub>3</sub> + a<sub>4</sub> + a<sub>5</sub> + ... + a<sub>n</sub> + ...</em> is a series. A series can be finite or infinite depending on the number of terms in the corresponding sequence.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of sequences and series and their notation."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 280
+  },
+  {
+    "id": "seq-series-002",
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "topic": "Progressions and Arithmetic Progression (AP)",
+    "text": "<p>The sequences whose terms follow certain patterns are called <strong>progressions</strong>, but it is not necessary that the terms of every sequence always follows a certain pattern or they are described by some explicit formula.</p><p><strong>Arithmetic Progression (AP)</strong>: A sequence is called an arithmetic progression if the difference of a term and the previous term is always same, i.e., <em>a<sub>n+1</sub> - a<sub>n</sub> = constant (= d)</em>, for all <em>n</em> in <em>N</em>. The constant difference, generally denoted by <em>d</em> is called the <strong>common difference</strong>.</p><p>In other words, if <em>a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ..., a<sub>n</sub></em> are in AP, then <em>a<sub>2</sub> - a<sub>1</sub> = a<sub>3</sub> - a<sub>2</sub> = ... = a<sub>n</sub> - a<sub>n-1</sub> = d</em>.</p><p>If <em>a</em> is the first term and <em>d</em> is the common difference, then AP can be written as: <em>a, a+d, a+2d, ..., {a+(n-1)d}</em>.</p><p><strong>Examples:</strong></p><ul><li>(i) 1, 4, 7, 10, ... is an AP whose first term is 1 and the common difference is 4 - 1 = 7 - 4 = 3.</li><li>(ii) 11, 7, 3, 1, ... is an AP whose first term is 11 and the common difference is 7 - 11 = 3 - 7 = -4.</li></ul>",
+    "formulas": [
+      "a_{n+1} - a_n = d",
+      "a_2 - a_1 = a_3 - a_2 = ... = a_n - a_{n-1} = d",
+      "a, a+d, a+2d, ..., {a+(n-1)d}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and examples of Arithmetic Progression."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 280
+  },
+  {
+    "id": "ap_theory_001",
+    "subject": "Mathematics",
+    "chapter": "Arithmetic Progression",
+    "topic": "General Term and nth Term from the End",
+    "text": "<p><strong>General Term of an AP:</strong> Let <em>a</em> be the first term and <em>d</em> be the common difference. The <em>n</em>th term is <em>T_n = a + (n - 1)d</em>, where <em>d = T_n - T_{n-1}</em>. If <em>l</em> is the last term, then <em>l = T_n = a + (n - 1)d</em>.</p><p><strong>nth Term from the End:</strong> The <em>n</em>th term from the end of an AP consisting of <em>m</em> terms is the <em>(m - n + 1)</em>th term from the beginning. Formula: <em>T_{m-n+1} = a + (m - n)d</em> or <em>l - (n - 1)d</em>.</p>",
+    "formulas": [
+      "T_n = a + (n - 1)d",
+      "l = a + (n - 1)d",
+      "T_{m-n+1} = a + (m - n)d",
+      "l - (n - 1)d"
+    ],
+    "tables": [
+      "| Number of terms | Terms | Common difference |\n|---|---|---|\n| 3 | a - d, a, a + d | d |\n| 4 | a - 3d, a - d, a + d, a + 3d | 2d |\n| 5 | a - 2d, a - d, a, a + d, a + 2d | d |\n| 6 | a - 5d, a - 3d, a - d, a + d, a + 3d, a + 5d | 2d |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers general term formulas and selection of terms for AP."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 281
+  },
+  {
+    "id": "ap_theory_002",
+    "subject": "Mathematics",
+    "chapter": "Arithmetic Progression",
+    "topic": "Sum of n terms",
+    "text": "<p><strong>Sum of n terms of an AP:</strong> The sum of <em>n</em> terms <em>S_n</em> of an AP with first term <em>a</em> and common difference <em>d</em> is <em>S_n = n/2 [2a + (n - 1)d]</em> or <em>S_n = n/2 [a + l]</em>, where <em>l = a + (n - 1)d</em> and <em>T_n = S_n - S_{n-1}</em>.</p><p><strong>Properties:</strong> If a constant is added or subtracted from each term of an AP, the resulting sequence is also an AP with the same common difference.</p>",
+    "formulas": [
+      "S_n = n/2 [2a + (n - 1)d]",
+      "S_n = n/2 [a + l]",
+      "T_n = S_n - S_{n-1}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers sum of n terms formula and properties of AP."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 281
   }
 ]
