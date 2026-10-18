@@ -92590,5 +92590,2438 @@
     },
     "source_pdf": "nda_material.pdf",
     "source_page": 281
+  },
+  {
+    "id": "nda-math-ap-001",
+    "subject": "Mathematics",
+    "chapter": "Arithmetic Progression",
+    "topic": "Properties of AP and Arithmetic Means",
+    "text": "<p><strong>Properties of Arithmetic Progression (AP):</strong></p><ul><li>If each term of a given AP is multiplied or divided by a non-zero constant <em>k</em>, then the resulting sequence is also an AP with common difference <em>kd</em> or <em>d/k</em>, where <em>d</em> is the common difference of the given AP.</li><li>A sequence is an AP if its <em>n</em>th term is of the form <em>An + B</em>, i.e., a linear expression in <em>n</em>.</li><li>In a finite AP, the sum of the terms equidistant from the beginning and end is always same, i.e., <em>a_1 + a_n = a_2 + a_{n-1} = a_3 + a_{n-2} = ...</em></li></ul><p><strong>n Arithmetic Means between Two Numbers:</strong></p><p>If <em>a, A_1, A_2, ..., A_n, b</em> are in AP, then <em>A_1, A_2, ..., A_n</em> are the <em>n</em> arithmetic means (AM) between two numbers <em>a</em> and <em>b</em>. The common difference (<em>d</em>) of this AP is <em>(b-a)/(n+1)</em> and <em>m</em>th arithmetic mean is given by <em>A_m = a + m(b-a)/(n+1)</em>.</p><p>The sum of <em>n</em> arithmetic means between two given numbers is <em>n</em> times the single AM between them, i.e., <em>A_1 + A_2 + ... + A_n = n * ((a+b)/2)</em>. If there is only one arithmetic mean <em>A</em> between <em>a</em> and <em>b</em>, then <em>A = (a+b)/2</em>.</p>",
+    "formulas": [
+      "d = (b-a)/(n+1)",
+      "A_m = a + m(b-a)/(n+1)",
+      "A = (a+b)/2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties of AP and calculation of n arithmetic means between two numbers."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 282
+  },
+  {
+    "id": "nda-math-gp-001",
+    "subject": "Mathematics",
+    "chapter": "Geometric Progression",
+    "topic": "Definitions and General Terms",
+    "text": "<p><strong>Geometric Progression (GP):</strong> A sequence of non-zero numbers is called a geometric progression, if the ratio of a term and the term preceding it is always constant. The constant ratio, generally denoted by <em>r</em> is called the common ratio of the GP. In other words, if <em>a_1, a_2, ..., a_n</em> are in GP, then <em>a_2/a_1 = a_3/a_2 = ... = a_n/a_{n-1} = r</em>.</p><p><strong>General Term of a GP:</strong> The <em>n</em>th term of a GP with first term <em>a</em> and common ratio <em>r</em> is given by <em>T_n = ar^{n-1}</em> or <em>l = ar^{n-1}</em>, where <em>l</em> is the last term.</p><p><strong>nth Term from the End of a Finite GP:</strong> The <em>n</em>th term from the end of a finite GP consisting of <em>m</em> terms is <em>ar^{m-n}</em>, where <em>a</em> is the first term and <em>r</em> is the common ratio of the GP.</p>",
+    "formulas": [
+      "a_2/a_1 = a_3/a_2 = r",
+      "T_n = ar^{n-1}",
+      "T_n(end) = ar^{m-n}"
+    ],
+    "tables": [
+      "| Number of terms | Terms | Common ratio |\n|---|---|---|\n| 3 | a/r, a, ar | r |\n| 4 | a/r^3, a/r, ar, ar^3 | r^2 |\n| 5 | a/r^2, a/r, a, ar, ar^2 | r |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of GP, general term formula, and selection of terms in GP."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 282
+  },
+  {
+    "id": "gp_properties_001",
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "topic": "Properties of Geometric Progression",
+    "text": "<p><strong>Properties of Geometric Progression:</strong></p><ul><li>(i) If all the terms of a GP be multiplied or divided by the same non-zero constant, then it remains a GP with same common ratio.</li><li>(ii) The reciprocals of the terms of a given GP forms a GP.</li><li>(iii) If each term of a GP be raised to the same power, then the resulting sequence also forms a GP.</li><li>(iv) In a finite GP the product of the terms equidistant from the beginning and the end is always same and is equal to the product of the first and the last term.</li><li>(v) Three non-zero numbers a, b, c are in GP, iff b^2 = ac.</li><li>(vi) If the terms of a given GP are chosen at regular intervals, then the new sequence, so formed also forms a GP.</li><li>(vii) If a1, a2, a3, ..., an is a GP of non-zero, non-negative terms, then log a1, log a2, ..., log an is an AP and vice-versa.</li></ul>",
+    "formulas": [
+      "b^2 = ac",
+      "log a_n is an AP"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties governing the behavior of terms in a Geometric Progression."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 283
+  },
+  {
+    "id": "gp_sum_002",
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "topic": "Sum of n Terms of a GP",
+    "text": "<p>The sum of n terms of a GP with first terms 'a' and common ratio 'r' is given by:</p><p>S_n = a(1 - r^n) / (1 - r), for |r| < 1</p><p>and S_n = a(r^n - 1) / (r - 1), for |r| > 1</p><p>If number of terms is infinite, then sum of the terms is S = a / (1 - r), |r| < 1.</p>",
+    "formulas": [
+      "S_n = a(1 - r^n) / (1 - r)",
+      "S_n = a(r^n - 1) / (r - 1)",
+      "S = a / (1 - r)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas for calculating the sum of finite and infinite geometric series."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 283
+  },
+  {
+    "id": "gp_means_003",
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "topic": "n Geometric Means between Two Numbers",
+    "text": "<p>If a, G1, G2, G3, ..., Gn, b are in GP, then G1, G2, ..., Gn are called n geometric means between two numbers a and b. The common ratio (r) of this GP is (b/a)^(1/(n+1)) and mth geometric mean is given by Gm = a(b/a)^(m/(n+1)).</p><p>The product of n geometric means is equal to the nth power of single geometric mean between the two quantities, i.e., G1 * G2 * G3 * ... * Gn = (sqrt(ab))^n.</p><p>If there is only one geometric mean 'G' between a and b, then G = sqrt(ab).</p><p><strong>Note:</strong></p><ul><li>If A and G are the AM and GM between two positive numbers, then the numbers are A ± sqrt(A^2 - G^2).</li><li>If A and G are respectively AM and GM between two positive numbers a and b, then the quadratic equation having a, b as its roots is x^2 - 2Ax + G^2 = 0.</li></ul>",
+    "formulas": [
+      "r = (b/a)^(1/(n+1))",
+      "G_m = a(b/a)^(m/(n+1))",
+      "G_1 * G_2 * ... * G_n = (sqrt(ab))^n",
+      "G = sqrt(ab)",
+      "x^2 - 2Ax + G^2 = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and formulas for n geometric means between two numbers."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 283
+  },
+  {
+    "id": "nda_pathfinder_seq_series_001",
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "topic": "Harmonic Progression and Special Series",
+    "text": "<p><strong>Harmonic Progression (HP):</strong> A sequence a1, a2, ..., an of non-zero numbers is called a harmonic progression, if the sequence of reciprocal of these numbers, i.e., 1/a1, 1/a2, ..., 1/an is an AP. e.g., The sequence 1/3, 1/5, 1/7, ... is a HP because the sequence 3, 5, 7, ... is an AP. There is no formula for finding the sum of HP sequence.</p><p><strong>General Term of a HP:</strong> If the sequence a1, a2, a3, ... is a HP, then its nth term will be Tn = 1 / (1/a1 + (n-1)(1/a2 - 1/a1)) = (a1*a2) / (a2 + (n-1)(a1 - a2)). The nth term from end is T'n = (a1*an) / (a1*an - (n-1)(a1 - a2)).</p><p><strong>n Harmonic Means between Two Numbers:</strong> If a, H1, H2, ..., Hn, b are in GP, then H1, H2, ..., Hn are called n harmonic means between two numbers a and b. The common difference of the corresponding AP is (b-a)/(n+1)ab and mth harmonic mean is given by Hm = ((n+1)ab) / (ma + [n-(m-1)]b), m=1, 2, ..., n. If there is only one harmonic mean H between a and b, then a, H, b are in HP. Then, H = 2ab / (a+b).</p><p><strong>Relation Among Arithmetic, Geometric and Harmonic Means:</strong> Let A, G and H be the arithmetic, geometric and harmonic means between a and b, then (i) A >= G >= H (ii) G^2 = AH.</p><p><strong>Sum to n Terms of Special Series:</strong> The sum of first n terms of special series is given below: <ul><li>Sum n = n(n+1)/2</li><li>Sum n^2 = n(n+1)(2n+1)/6</li><li>Sum n^3 = [n(n+1)/2]^2 = (Sum n)^2</li></ul> If nth term of the sequence is Tn = an^3 + bn^2 + cn + d, then sum of n terms is given by Sn = Sum Tn = a*Sum n^3 + b*Sum n^2 + c*Sum n + Sum d.</p><p><strong>Arithmetico-Geometric Progression (AGP):</strong> A sequence of the form a, (a+d)r, (a+2d)r^2, ..., {a+(n-1)d}r^(n-1), ... is called an arithmetico-geometric sequence, where {a+(n-1)d}r^(n-1) is the nth term of the sequence. Sum of its n terms is Sn = a/(1-r) + (dr(1-r^(n-1)))/(1-r)^2 - ({a+(n-1)d}r^n)/(1-r) for r != 1, and Sn = n/2 * (2a + (n-1)d) for r = 1. If this series has infinite terms, then S_infinity = a/(1-r) + (dr)/(1-r)^2, |r| < 1.</p>",
+    "formulas": [
+      "Tn = (a1*a2) / (a2 + (n-1)(a1 - a2))",
+      "H = 2ab / (a+b)",
+      "A >= G >= H",
+      "G^2 = AH",
+      "Sum n = n(n+1)/2",
+      "Sum n^2 = n(n+1)(2n+1)/6",
+      "Sum n^3 = [n(n+1)/2]^2",
+      "Sn = a/(1-r) + (dr(1-r^(n-1)))/(1-r)^2 - ({a+(n-1)d}r^n)/(1-r)",
+      "S_infinity = a/(1-r) + (dr)/(1-r)^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers definitions and formulas for Harmonic Progression, n Harmonic Means, relations between A, G, H, sum of special series, and Arithmetico-Geometric Progression."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 284
+  },
+  {
+    "id": "math-seq-series-001",
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "topic": "Difference Method for Finding Sum of AGP Series",
+    "text": "<p><strong>Difference Method for Finding Sum of AGP Series</strong></p><p>Suppose a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ... is a sequence such that the sequence a<sub>2</sub> - a<sub>1</sub>, a<sub>3</sub> - a<sub>2</sub>, ... is either an AP or a GP.</p><p>The <em>nth</em> term 'a<sub>n</sub>' of this sequence is obtained as follows:</p><p>S = a<sub>1</sub> + a<sub>2</sub> + a<sub>3</sub> + ... + a<sub>n-1</sub> + a<sub>n</sub></p><p>S = a<sub>1</sub> + a<sub>2</sub> + ... + a<sub>n-1</sub> + a<sub>n</sub></p><p>a<sub>n</sub> = a<sub>1</sub> + [(a<sub>2</sub> - a<sub>1</sub>) + (a<sub>3</sub> - a<sub>2</sub>) + ... + (a<sub>n</sub> - a<sub>n-1</sub>)]</p><p>Since the terms within the brackets are either in AP or in GP, in either case we can find the value of a<sub>n</sub>, the <em>nth</em> term, we can now find the sum of the <em>n</em> terms of the sequence as S = sum(a<sub>k</sub>) from k=1 to n.</p>",
+    "formulas": [
+      "a_n = a_1 + sum_{i=1}^{n-1} (a_{i+1} - a_i)",
+      "S = sum_{k=1}^{n} a_k"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of the difference method to find the nth term and sum of an Arithmetico-Geometric Progression (AGP) series."
+    },
+    "mcq": {
+      "question": "EXAMPLE 11. Find the sum to n terms of the series 2 + 5 + 10 + 17 + ...",
+      "options": [
+        "n/5 (2n^2 + 3n + 7)",
+        "n/6 (2n^2 + 3n + 7)",
+        "n(n+1)(2n+1)/6",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "The difference in consecutive terms are 3, 5, 7, ... which are in AP. Using the difference method, the nth term is t_n = n^2 + 1. Summing this from 1 to n gives n/6(2n^2 + 3n + 7)."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 285
+  },
+  {
+    "id": "note-001",
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "topic": "Arithmetic, Geometric, and Harmonic Means",
+    "text": "<p>If A, G and H are respectively arithmetic, geometric and harmonic means between a and b both being unequal and positive, then:</p><ul><li>A = (a + b) / 2</li><li>G = sqrt(ab)</li><li>H = (2ab) / (a + b)</li></ul><p>The equation having a and b as its roots is: x^2 - 2Ax + G^2 = 0.</p>",
+    "formulas": [
+      "A = (a + b) / 2",
+      "G = sqrt(ab)",
+      "H = (2ab) / (a + b)",
+      "x^2 - 2Ax + G^2 = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and quadratic equation relation for Arithmetic, Geometric, and Harmonic means."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 288
+  },
+  {
+    "id": "math-seq-series-063",
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "topic": "Arithmetic Progression, Geometric Progression, and Harmonic Progression Problems",
+    "text": "<p>This page contains solutions to various problems involving Arithmetic Progressions (AP), Geometric Progressions (GP), and Harmonic Progressions (HP).</p><ul><li><strong>Problem 18:</strong> Derivation of the mth term of an HP given the mth and nth terms.</li><li><strong>Problem 19:</strong> Properties of Arithmetic Means (AM) and Geometric Means (GM).</li><li><strong>Problem 20:</strong> Finding the first negative term of an AP series.</li><li><strong>Problem 21:</strong> Relationship between terms in AP.</li><li><strong>Problem 22:</strong> Solving for variables in a GP.</li><li><strong>Problem 24:</strong> Application of AM ≥ GM inequality.</li><li><strong>Problem 25:</strong> Arithmetic and Geometric means between two numbers.</li><li><strong>Problem 27:</strong> Proving terms are in AP.</li><li><strong>Problem 28:</strong> Algebraic manipulation to determine the nature of a sequence.</li></ul>",
+    "formulas": [
+      "t_n = a + (n - 1)d",
+      "A = (a + b) / 2",
+      "AM >= GM",
+      "H_1^-1 + H_2^-1 = (A_1 + A_2) / (G_1 G_2)",
+      "a^2 + b^2 = c^2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A geometric diagram showing a large rectangle ABCD with nested rectangles and triangles (L, K, F, E, I, J) used to calculate a sum of areas."
+    ],
+    "details": {
+      "summary": "A collection of solved mathematical problems focusing on sequences and series, including proofs and calculations for AP, GP, and HP."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 291
+  },
+  {
+    "id": "math-quad-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Introduction and Definitions",
+    "text": "<p>In NDA exam, generally 4-6 questions are asked from this chapter which are based on nature of roots, finding roots in different conditions, find equation when roots are given and solving in equations etc.</p><p>When we equate quadratic polynomial of the form (ax^2 + bx + c) equal to zero we get a quadratic equation, where a, b and c are real numbers and a != 0.</p><h3>POLYNOMIAL AND POLYNOMIAL EQUATION</h3><p>An expression of the form a_0x^n + a_1x^(n-1) + ... + a_(n-1)x + a_n where a_0, a_1, a_2 ... a_n are constant (a != 0) and n is a positive integer is called a polynomial in x of degree n.</p><p>If f(x) is a real or complex polynomial, then f(x)=0 is known as a polynomial equation. e.g. If x^2 + 3x + 2 is a real polynomial, then x^2 + 3x + 2 = 0 is a polynomial equation.</p><h3>QUADRATIC EQUATION</h3><p>If f(x) is a polynomial of degree 2, then f(x)=0 is called a quadratic equation. The general form of a quadratic equation is ax^2 + bx + c = 0, where a, b and c are real numbers and a != 0. Here, x is the variable and a, b, c are the real coefficients.</p><h3>Roots of a Quadratic Equation</h3><p>The values of the variable satisfying the given quadratic equation are called roots of that equation. In other words, x = alpha is a root of the equation, f(alpha) = 0, if f(alpha) = 0.</p><p>The set of all roots of an equation, in a given domain, is called the solution set of the equation. The quadratic equation ax^2 + bx + c = 0, where a, b, c belongs to R and a != 0 has two roots, namely alpha = (-b + sqrt(D)) / 2a and beta = (-b - sqrt(D)) / 2a where D = b^2 - 4ac is called the discriminant.</p><p><strong>Note:</strong> If one of the root of the quadratic equation is a + ib or a + sqrt(b), then the other root will be a - ib or a - sqrt(b).</p>",
+    "formulas": [
+      "ax^2 + bx + c = 0",
+      "a_0x^n + a_1x^(n-1) + ... + a_(n-1)x + a_n",
+      "alpha = (-b + sqrt(D)) / 2a",
+      "beta = (-b - sqrt(D)) / 2a",
+      "D = b^2 - 4ac"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to quadratic equations, definitions of polynomials, and the quadratic formula for finding roots."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 295
+  },
+  {
+    "id": "math-quad-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Nature of the Roots of a Quadratic Equation",
+    "text": "<p>Let the quadratic equation be <strong>ax^2 + bx + c = 0</strong>, a, b, c ∈ R and a ≠ 0. The nature of the roots of a quadratic equation is decided by discriminant (i.e. <strong>D = b^2 - 4ac</strong>)</p><ul><li>If <strong>b^2 - 4ac > 0</strong>, then the quadratic equation has two real and distinct roots.</li><li>If <strong>b^2 - 4ac = 0</strong>, then the quadratic equation has two equal roots i.e. α = β = -b/2a.</li><li>If <strong>b^2 - 4ac < 0</strong>, then the quadratic equation has two distinct complex roots, namely α = (-b + i√4ac - b^2)/2a and β = (-b - i√4ac - b^2)/2a.</li><li>If a, b, c ∈ Q and D is a perfect square, then equation has rational roots.</li><li>The roots are of the form p + √q (p, q ∈ Q) iff a, b, c are rational and D is not a perfect square.</li></ul>",
+    "formulas": [
+      "D = b^2 - 4ac",
+      "α = β = -b/2a",
+      "α = (-b + i√4ac - b^2)/2a",
+      "β = (-b - i√4ac - b^2)/2a"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers the discriminant-based classification of roots for quadratic equations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 296
+  },
+  {
+    "id": "math-quad-002",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Relation between Roots and Coefficients",
+    "text": "<p><strong>1. Quadratic equation:</strong> Consider the quadratic equation ax^2 + bx + c = 0, where a, b, c ∈ R and a ≠ 0. If α and β are the roots of the equation, then Sum of roots, α + β = -b/a = -(Coefficient of x)/(Coefficient of x^2) and product of roots, αβ = c/a = (Constant term)/(Coefficient of x^2)</p><p><strong>2. Cubic equation:</strong> If α, β, γ are the roots of the cubic equation ax^3 + bx^2 + cx + d = 0, a ≠ 0, then Sum of roots, α + β + γ = -b/a; Sum of product of two roots, αβ + βγ + γα = c/a; and Product of three roots, αβγ = -d/a</p>",
+    "formulas": [
+      "α + β = -b/a",
+      "αβ = c/a",
+      "α + β + γ = -b/a",
+      "αβ + βγ + γα = c/a",
+      "αβγ = -d/a"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Relationships between roots and coefficients for quadratic and cubic equations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 296
+  },
+  {
+    "id": "math-quad-003",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Some Important Points",
+    "text": "<ul><li>If the roots of ax^2 + bx + c = 0 are both positive, then the signs of a and c should be a like and opposite to the sign as b.</li><li>If the roots of ax^2 + bx + c = 0 are of opposite signs, then the sign of a is opposite to the sign of c.</li><li>If the roots of ax^2 + bx + c = 0 are equal in magnitude, but opposite in sign, then b = 0.</li><li>If the roots of ax^2 + bx + c = 0 are reciprocal of each other, then c = a.</li><li>If roots are negative, then a, b, c are of same sign.</li><li>The condition that the roots of the equation ax^2 + bx + c = 0 may be in the ratio m:n is mnb^2 = ac(m + n).</li></ul>",
+    "formulas": [
+      "mnb^2 = ac(m + n)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Special conditions for roots of quadratic equations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 296
+  },
+  {
+    "id": "math-quad-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Formation of a Quadratic Equation from Given Roots",
+    "text": "<p>If <strong>&alpha;</strong>, <strong>&beta;</strong> are the roots of a quadratic equation, then the equation is:</p><p>x<sup>2</sup> - (sum of the roots) x + (product of roots) = 0</p><p>i.e., x<sup>2</sup> - (&alpha; + &beta;)x + &alpha;&beta; = 0</p><p><strong>Note:</strong> If &alpha;, &beta;, &gamma; are the roots of a cubic equation, then the equation is x<sup>3</sup> - (&alpha; + &beta; + &gamma;)x<sup>2</sup> + (&alpha;&beta; + &beta;&gamma; + &gamma;&alpha;)x - &alpha;&beta;&gamma; = 0.</p>",
+    "formulas": [
+      "x^2 - (alpha + beta)x + alpha*beta = 0",
+      "x^3 - (alpha + beta + gamma)x^2 + (alpha*beta + beta*gamma + gamma*alpha)x - alpha*beta*gamma = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explains how to construct a quadratic equation given its roots and extends the concept to cubic equations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 297
+  },
+  {
+    "id": "math-quad-002",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Equations in Terms of the Roots of Another Equation",
+    "text": "<p>If &alpha;, &beta; are the roots of the equation ax<sup>2</sup> + bx + c = 0, then:</p><ul><li>(i) &alpha; &plusmn; h, &beta; &plusmn; h are the roots of a(x &mp; h)<sup>2</sup> + b(x &mp; h) + c = 0</li><li>(ii) &alpha;h, &beta;h are the roots of ax<sup>2</sup> + bhx + h<sup>2</sup>c = 0</li><li>(iii) &alpha;/h and &beta;/h are the roots of abhx<sup>2</sup> + bhx + c = 0</li><li>(iv) -&alpha;, -&beta; are the roots of ax<sup>2</sup> - bx + c = 0</li><li>(v) 1/&alpha;, 1/&beta; are the roots of cx<sup>2</sup> + bx + a = 0</li></ul>",
+    "formulas": [
+      "ax^2 + bx + c = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Provides transformations of quadratic equations based on modifications to their roots."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 297
+  },
+  {
+    "id": "math-quad-003",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Condition for Common Roots",
+    "text": "<p><strong>When only one root is common:</strong> If &alpha; is common root of a<sub>1</sub>x<sup>2</sup> + b<sub>1</sub>x + c<sub>1</sub> = 0 and a<sub>2</sub>x<sup>2</sup> + b<sub>2</sub>x + c<sub>2</sub> = 0, then the condition is (a<sub>1</sub>b<sub>2</sub> - a<sub>2</sub>b<sub>1</sub>)(b<sub>1</sub>c<sub>2</sub> - b<sub>2</sub>c<sub>1</sub>) = (c<sub>1</sub>a<sub>2</sub> - c<sub>2</sub>a<sub>1</sub>)<sup>2</sup>.</p><p><strong>When both roots are common:</strong> The equations are identical, and the condition is a<sub>1</sub>/a<sub>2</sub> = b<sub>1</sub>/b<sub>2</sub> = c<sub>1</sub>/c<sub>2</sub>.</p><p><strong>Note:</strong> If two quadratic equations with real coefficients have an imaginary common root, then both roots will be common.</p>",
+    "formulas": [
+      "(a1*b2 - a2*b1)*(b1*c2 - b2*c1) = (c1*a2 - c2*a1)^2",
+      "a1/a2 = b1/b2 = c1/c2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Conditions for one or both roots to be common between two quadratic equations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 297
+  },
+  {
+    "id": "nda-pathfinder-70-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Roots and Coefficients",
+    "text": "<p><strong>Algebraic Identities for Roots:</strong></p><ul><li>(i) α² + β² = (α + β)² - 2αβ</li><li>(ii) (α - β)² = (α + β)² - 4αβ</li><li>(iii) α² - β² = (α - β)(α + β) = (α + β)√(α + β)² - 4αβ</li><li>(iv) α³ + β³ = (α + β)³ - 3αβ(α + β)</li><li>(v) α³ - β³ = (α - β)³ + 3αβ(α - β) = (α - β)(α² + αβ + β²)</li><li>(vi) α⁴ + β⁴ = (α² + β²)² - 2α²β²</li><li>(vii) α⁴ - β⁴ = (α + β)(α - β)(α² + β²) = (α + β)(α - β)[(α + β)² - 2αβ]</li></ul>",
+    "formulas": [
+      "α² + β² = (α + β)² - 2αβ",
+      "(α - β)² = (α + β)² - 4αβ",
+      "α² - β² = (α + β)sqrt((α + β)² - 4αβ)",
+      "α³ + β³ = (α + β)³ - 3αβ(α + β)",
+      "α³ - β³ = (α - β)(α² + αβ + β²)",
+      "α⁴ + β⁴ = (α² + β²)² - 2α²β²",
+      "α⁴ - β⁴ = (α + β)(α - β)((α + β)² - 2αβ)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Algebraic identities relating roots of quadratic equations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 298
+  },
+  {
+    "id": "nda-pathfinder-70-002",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Maximum and Minimum Value of ax² + bx + c",
+    "text": "<p>The expression can be written as: ax² + bx + c = a(x + b/2a)² + (4ac - b²)/4a</p><p><strong>Case I: If a > 0</strong></p><p>Minimum value is (4ac - b²)/4a, occurring at x = -b/2a. No maximum value.</p><p><strong>Case II: If a < 0</strong></p><p>Maximum value is (4ac - b²)/4a, occurring at x = -b/2a. No minimum value.</p>",
+    "formulas": [
+      "ax² + bx + c = a(x + b/2a)² + (4ac - b²)/4a",
+      "min/max = (4ac - b²)/4a",
+      "x = -b/2a"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Method to determine the extrema of a quadratic expression."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 298
+  },
+  {
+    "id": "nda-pathfinder-70-003",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Fractional Quadratic Polynomials",
+    "text": "<p><strong>Method to Solve:</strong></p><ul><li>Step I: Equate the given expression to y.</li><li>Step II: Obtain quadratic equation in x by simplifying the expression in step I.</li><li>Step III: Put discriminant ≥ 0 of the equation obtained in step II.</li><li>Step IV: The values of y obtained by D ≥ 0 is the solution set for the given rational expression.</li></ul>",
+    "formulas": [
+      "y = (a1x² + b1x + c1) / (a2x² + b2x + c2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Steps to find the range of a rational function involving quadratic polynomials."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 298
+  },
+  {
+    "id": "nda-pathfinder-70-004",
+    "subject": "Mathematics",
+    "chapter": "Inequations",
+    "topic": "Basic Definitions and Properties",
+    "text": "<p>A statement involving one or more variables and sign of inequality >, <, ≥, or ≤ is called an inequation.</p><p><strong>Note for any real number a:</strong></p><ul><li>|x| ≤ a ⇔ -a ≤ x ≤ a</li><li>|x| ≥ a ⇔ -x ≤ a or x ≥ a</li></ul><p><strong>Solution of Quadratic Inequations:</strong></p><p>Let f(x) = ax² + bx + c, where a, b, c ∈ R and a ≠ 0. Then, f(x)≥0, f(x)>0, f(x)≤0, f(x)<0 are called quadratic inequations. The set of real values of x, which satisfy the inequation, is called the solution set.</p><p><strong>Solution of Linear Inequations in Two Variables:</strong></p><p>Step I: Convert the given inequation say ax + by ≤ c into the equation ax + by = c and draw the graph.</p>",
+    "formulas": [
+      "|x| <= a iff -a <= x <= a",
+      "|x| >= a iff -x <= a or x >= a",
+      "f(x) = ax² + bx + c"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to inequations and their solution sets."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 298
+  },
+  {
+    "id": "math-quad-ineq-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations and Inequalities",
+    "topic": "Solving Linear Inequalities in Two Variables",
+    "text": "<p><strong>Step II:</strong> Choose a point not lying on this line <em>ax + by = c</em>, substitute its coordinates in the inequation. If the inequation is satisfied, then shade the portion of the plane which contains the chosen point, otherwise shade the portion which does not contain the chosen point.</p><p><strong>Step III:</strong> The shaded region obtained in step II represent the desired solution set.</p><p><strong>Example 8:</strong> The number of positive integral solutions satisfying the inequation 2x + 3y ≤ 6 is:</p><ul><li>a. 2</li><li>b. 4</li><li>c. 6</li><li>d. 5</li></ul><p><strong>Solution:</strong> To represent the solution set of the inequation 2x + 3y ≤ 6, we first draw the line 2x + 3y = 6. Let us take a point (0, 0). Clearly, (0, 0) satisfy the given inequation, so the region containing the origin is represented in the figure. Now, (1, 1), (2, 0), (3, 0), (0, 1), (0, 2) are positive integral solutions of 2x + 3y ≤ 6. Therefore, the number of positive integral solutions = 6.</p>",
+    "formulas": [
+      "ax + by = c",
+      "2x + 3y <= 6"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A Cartesian coordinate system graph showing a line passing through points (3, 0) on the X-axis and (0, 2) on the Y-axis. The region below the line towards the origin (0, 0) is shaded with diagonal lines."
+    ],
+    "details": {
+      "summary": "Explanation of the graphical method for solving linear inequalities in two variables with an illustrative example."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 299
+  },
+  {
+    "id": "nda-pathfinder-quad-eq-001",
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equations",
+    "topic": "Roots and Coefficients",
+    "text": "<p>This section provides solutions and derivations for problems involving quadratic equations, roots, and their relationships.</p><ul><li><strong>Properties of roots:</strong> For an equation ax^2 + bx + c = 0, the sum of roots is -b/a and the product of roots is c/a.</li><li><strong>Transformation of roots:</strong> If roots are transformed, the new equation can be derived by substituting the relationship between old and new roots.</li><li><strong>Complex roots:</strong> For x^2 + x + 1 = 0, the roots are omega (w) and omega squared (w^2).</li></ul>",
+    "formulas": [
+      "ax^2 + bx + c = 0",
+      "alpha + beta = -b/a",
+      "alpha * beta = c/a",
+      "x^2 + x + 1 = 0 => roots are w, w^2",
+      "tan^-1(alpha) + tan^-1(beta) = tan^-1((alpha + beta) / (1 - alpha*beta))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Solutions to various problems related to quadratic equations, including properties of roots, complex roots, and algebraic manipulations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 308
+  },
+  {
+    "id": "perm-comb-001",
+    "subject": "Mathematics",
+    "chapter": "Permutations and Combinations",
+    "topic": "Factorial Notation",
+    "text": "<p>The continued product of first <em>n</em> natural numbers is denoted by <strong>n!</strong> or it is read as 'n factorial'.</p><p>Thus, <strong>n! = n(n-1)(n-2)...3 x 2 x 1</strong>, e.g., <strong>5! = 5 x 4 x 3 x 2 x 1 = 120</strong> and <strong>4! = 4 x 3 x 2 x 1 = 24</strong>.</p><p><strong>Properties of Factorial Notation:</strong></p><ul><li>(i) 0! = 1</li><li>(ii) Factorials of negative integers and fractions are not defined.</li><li>(iii) n! / r! = n(n-1)(n-2)...(r+1)</li><li>(iv) n! / (n-r)! = n(n-1)(n-2)...(n-r+1)</li><li>(v) (m+n)! != m! + n!</li><li>(vi) (mn)! != m! n!</li><li>(vii) n! = n(n-1)! = n(n-1)(n-2)!</li></ul>",
+    "formulas": [
+      "n! = n(n-1)(n-2)...3 * 2 * 1",
+      "0! = 1",
+      "n! / r! = n(n-1)(n-2)...(r+1)",
+      "n! / (n-r)! = n(n-1)(n-2)...(n-r+1)",
+      "n! = n(n-1)! = n(n-1)(n-2)!"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to Permutations and Combinations, focusing on Factorial Notation definitions and properties."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 311
+  },
+  {
+    "id": "perm-comb-002",
+    "subject": "Mathematics",
+    "chapter": "Permutations and Combinations",
+    "topic": "Fundamental Principles of Counting",
+    "text": "<p><strong>Fundamental principle of multiplication:</strong> If there are two jobs such that one of them can be completed in <em>m</em> different ways following which a second job can be completed in <em>n</em> different ways, then the two jobs in succession can be completed in <strong>m x n</strong> ways. This can be extended to any finite number of operations.</p>",
+    "formulas": [
+      "Total ways = m * n"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of the fundamental principle of multiplication in counting."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 311
+  },
+  {
+    "id": "pathfinder-math-perm-001",
+    "subject": "Mathematics",
+    "chapter": "Permutations and Combinations",
+    "topic": "Permutations",
+    "text": "<p>Each of the arrangements which can be made by taking some or all of a number of things is called a <strong>permutation</strong>. In permutation, the order of arrangement is important. When the order is changed, a different permutation is obtained.</p><p><strong>Some Important Results on Permutation:</strong></p><ul><li>Let <em>r</em> and <em>n</em> be positive integers such that 0 &le; r &le; n. The number of all permutations of <em>n</em> distinct things taken <em>r</em> at a time is given by <sup>n</sup>P<sub>r</sub> or P(n, r).</li><li>The number of all permutations of <em>n</em> distinct things, taken all at a time is <sup>n</sup>P<sub>n</sub> = n!.</li><li>The number of permutations of <em>n</em> different things taken <em>r</em> at a time, when each thing may be repeated any number of times is n<sup>r</sup>.</li><li><sup>n</sup>P<sub>0</sub> = 1, <sup>n</sup>P<sub>1</sub> = n, <sup>n</sup>P<sub>n</sub> = n!, <sup>n</sup>P<sub>n-1</sub> = n!</li></ul>",
+    "formulas": [
+      "nPr = n! / (n - r)! = n(n - 1)(n - 2)...(n - r + 1)",
+      "nPn = n!",
+      "n^r",
+      "nP0 = 1",
+      "nP1 = n",
+      "nPn = n!",
+      "nPn-1 = n!"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and fundamental results of permutations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 312
+  },
+  {
+    "id": "pathfinder-math-perm-002",
+    "subject": "Mathematics",
+    "chapter": "Permutations and Combinations",
+    "topic": "Permutation Under Certain Condition",
+    "text": "<p><strong>Permutation Under Certain Condition:</strong></p><ol><li>The number of all permutations of <em>n</em> different objects taking <em>r</em> at a time:<ul><li>(i) when a particular object is always included is r * <sup>n-1</sup>P<sub>r-1</sub>.</li><li>(ii) when a particular object is never included is <sup>n-1</sup>P<sub>r</sub>.</li></ul></li><li>Number of permutations of <em>n</em> different things, taken <em>r</em> at a time, when <em>s</em> particular things are to be always included in each arrangement, is s! * (r - (s - 1)) * <sup>n-s</sup>P<sub>r-s</sub>.</li><li>Number of permutations of <em>n</em> different things, taken all at a time, when <em>m</em> specified things always come together, is m! * (n - m + 1)!.</li><li>Number of permutations of <em>n</em> different things, taken all at a time, when <em>m</em> specified things never come together, is n! - m! * (n - m + 1)!.</li><li>The number of permutations of <em>n</em> things, of which p<sub>1</sub> are alike of one kind; p<sub>2</sub> are alike of second kind; p<sub>3</sub> are alike of third kind; ...; p<sub>r</sub> are alike of rth kind such that p<sub>1</sub> + p<sub>2</sub> + ... + p<sub>r</sub> = n, is n! / (p<sub>1</sub>! * p<sub>2</sub>! * p<sub>3</sub>! * ... * p<sub>r</sub>!).</li></ol>",
+    "formulas": [
+      "r * n-1Pr-1",
+      "n-1Pr",
+      "s! * (r - (s - 1)) * n-sPr-s",
+      "m! * (n - m + 1)!",
+      "n! - m! * (n - m + 1)!",
+      "n! / (p1! * p2! * ... * pr!)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Advanced permutation formulas under specific constraints."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 312
+  },
+  {
+    "id": "math-perm-comb-001",
+    "subject": "Mathematics",
+    "chapter": "Permutations and Combinations",
+    "topic": "Circular Permutation",
+    "text": "<p><strong>Circular Permutation:</strong></p><ul><li>The number of circular permutations of <em>n</em> distinct objects is (<em>n</em> - 1)!. Here, anti-clockwise and clockwise order of arrangements are considered as distinct permutations.</li><li>If anti-clockwise and clockwise order of arrangements are not distinct, e.g., arrangement of beads in a necklace, arrangement of flowers in a garland etc., then number of circular permutations of <em>n</em> distinct items is (<em>n</em> - 1)! / 2.</li></ul>",
+    "formulas": [
+      "(n - 1)!",
+      "(n - 1)! / 2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers the definition and formulas for circular permutations of distinct objects and cases where clockwise/anti-clockwise order is not distinct."
+    },
+    "mcq": {
+      "question": "There are 20 persons among whom two are brothers. Find the number of ways in which we can arrange them around a circle, so that there is exactly one person between the two brothers.",
+      "options": [
+        "18!",
+        "2 x 18!",
+        "17!",
+        "18 x 17!"
+      ],
+      "correct": 1,
+      "explanation": "Let B1 and B2 be two brothers among 20 persons and let M be the person. Clearly, M can be chosen from 18 persons (excluding B1 and B2) in 18 ways. Considering the two brothers B1 and B2 and the person M as one person, we have 18 persons in all. These 18 persons can be arranged around a circle in (18 - 1)! = 17! ways. But B1 and B2 can be arranged among them solve in 2! ways. Hence, total number of required ways = 18 x 17! x 2! = 2 x 18!"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 313
+  },
+  {
+    "id": "math-perm-comb-002",
+    "subject": "Mathematics",
+    "chapter": "Permutations and Combinations",
+    "topic": "Properties of nCr",
+    "text": "<p><strong>Properties of <sup>n</sup>C<sub>r</sub>:</strong></p><ul><li><sup>n</sup>C<sub>r</sub> is a natural number.</li><li><sup>n</sup>C<sub>r</sub> = <sup>n</sup>C<sub>n-r</sub>, for 0 ≤ r ≤ n</li><li><sup>n</sup>C<sub>0</sub> = <sup>n</sup>C<sub>n</sub> = 1, <sup>n</sup>C<sub>1</sub> = n</li><li>Let n and r be non-negative integers such that r ≤ n. Then, <sup>n</sup>C<sub>r</sub> + <sup>n</sup>C<sub>r-1</sub> = <sup>n+1</sup>C<sub>r</sub> [Pascal's law] and <sup>n</sup>C<sub>r</sub> = (n/r) * <sup>n-1</sup>C<sub>r-1</sub> [1 ≤ r ≤ n]</li><li>If 1 ≤ r ≤ n, then n * <sup>n-1</sup>C<sub>r-1</sub> = (n - r + 1) * <sup>n</sup>C<sub>r-1</sub></li><li><sup>n</sup>C<sub>x</sub> = <sup>n</sup>C<sub>y</sub> ⇒ x = y or x + y = n</li><li><sup>n</sup>C<sub>r</sub> / <sup>n</sup>C<sub>r-1</sub> = (n - r + 1) / r</li><li><sup>n</sup>C<sub>0</sub> + <sup>n</sup>C<sub>1</sub> + <sup>n</sup>C<sub>2</sub> + ... + <sup>n</sup>C<sub>n</sub> = 2<sup>n</sup></li><li><sup>n</sup>C<sub>0</sub> + <sup>n</sup>C<sub>2</sub> + <sup>n</sup>C<sub>4</sub> + ... = <sup>n</sup>C<sub>1</sub> + <sup>n</sup>C<sub>3</sub> + <sup>n</sup>C<sub>5</sub> + ... = 2<sup>n-1</sup></li><li><sup>2n+1</sup>C<sub>0</sub> + <sup>2n+1</sup>C<sub>1</sub> + <sup>2n+1</sup>C<sub>2</sub> + ... + <sup>2n+1</sup>C<sub>n</sub> = 2<sup>2n</sup></li></ul>",
+    "formulas": [
+      "nCr = nCn-r",
+      "nCr + nCr-1 = n+1Cr",
+      "nCr = (n/r) * n-1Cr-1",
+      "n * n-1Cr-1 = (n - r + 1) * nCr-1",
+      "nCx = nCy => x = y or x + y = n",
+      "nCr / nCr-1 = (n - r + 1) / r",
+      "sum(nCr) = 2^n",
+      "sum(even nCr) = sum(odd nCr) = 2^(n-1)",
+      "sum(2n+1Cr) = 2^(2n)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of fundamental properties and identities related to combinations (nCr)."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 313
+  },
+  {
+    "id": "math-perm-comb-003",
+    "subject": "Mathematics",
+    "chapter": "Permutations and Combinations",
+    "topic": "Combinations",
+    "text": "<p><strong>Combinations:</strong> Each of the different selections made by taking some or all of a number of objects, (irrespective of their arrangements) is called a <em>combinations</em>. e.g. The different combinations formed of two out of three letters A, B, C are AB, AC, BC.</p><p><strong>Meaning of <sup>n</sup>C<sub>r</sub>:</strong> The number of combinations of n different things taken r at a time is denoted by <sup>n</sup>C<sub>r</sub> or C(n, r) or (n r). Then, <sup>n</sup>C<sub>r</sub> = n! / (r!(n-r)!) = <sup>n</sup>P<sub>r</sub> / r! = [n(n-1)(n-2)...(n-r+1)] / [r(r-1)(r-2)...2*1]. If r > n, then <sup>n</sup>C<sub>r</sub> = 0.</p>",
+    "formulas": [
+      "nCr = n! / (r!(n-r)!)",
+      "nCr = nPr / r!",
+      "nCr = [n(n-1)...(n-r+1)] / [r!]"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of combinations and the mathematical formula for calculating nCr."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 313
+  },
+  {
+    "id": "math-perm-comb-004",
+    "subject": "Mathematics",
+    "chapter": "Permutations and Combinations",
+    "topic": "Important Results on Combinations",
+    "text": "<p><strong>Some Important Results on Combinations:</strong></p><ul><li>Number of combinations of n different things taken r at a time: (a) When p particular things are always included = <sup>n-p</sup>C<sub>r-p</sub>. (b) When p particular things are never included = <sup>n-p</sup>C<sub>r</sub>. (c) When p particular things are not together in any selection = <sup>n</sup>C<sub>r</sub> - <sup>n-p</sup>C<sub>r-p</sub>.</li><li>If there are n person in a room and they shake their hand with others only once, then total number of shake hands = <sup>n</sup>C<sub>2</sub>.</li><li>The total number of combinations of n different things taken one or more at a time or the number of ways of n different things selecting atleast one of them is <sup>n</sup>C<sub>1</sub> + <sup>n</sup>C<sub>2</sub> + ... + <sup>n</sup>C<sub>n</sub> = 2<sup>n</sup> - 1.</li><li>The number of combinations of n identical things taking r(r ≤ n) at a time is 1.</li><li>The number of ways of selecting r things out of n alike things is (n + 1), (where r = 0, 1, 2, 3, ..., n).</li><li>If out of (p + q + r) things, p are alike of one kind, q are alike of second kind and rest are alike of third kind, then the total number of combinations is [(p + 1)(q + 1)(r + 1)] - 1.</li></ul>",
+    "formulas": [
+      "n-pCr-p",
+      "n-pCr",
+      "nCr - n-pCr-p",
+      "nC2",
+      "sum(nCr) = 2^n - 1",
+      "[(p + 1)(q + 1)(r + 1)] - 1"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Special cases and results for combinations involving identical items, selection constraints, and handshakes."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 313
+  },
+  {
+    "id": "pathfinder-math-comb-001",
+    "subject": "Mathematics",
+    "chapter": "Permutations and Combinations",
+    "topic": "Geometrical Applications of Combinations",
+    "text": "<p><strong>Geometrical Applications of Combinations</strong></p><p>Some basic geometrical applications of <sup>n</sup>C<sub>r</sub> are as follows:</p><ul><li>Out of <em>n</em> non-concurrent and non-parallel straight lines, points of intersection are <sup>n</sup>C<sub>2</sub>.</li><li>Out of <em>n</em> points, the number of straight lines are <sup>n</sup>C<sub>2</sub> (when no three are collinear).</li><li>If out of <em>n</em> points <em>m</em> are collinear, then number of straight lines = <sup>n</sup>C<sub>2</sub> - <sup>m</sup>C<sub>2</sub> + 1, where <em>m</em> ≥ 3.</li><li>In a polygon, total number of diagonals out of <em>n</em> points (no three are collinear) = <sup>n</sup>C<sub>2</sub> - <em>n</em> = n(n-3)/2.</li><li>Number of triangles formed from <em>n</em> points is <sup>n</sup>C<sub>3</sub> (when no three points are collinear).</li><li>Number of triangles out of <em>n</em> points in which <em>m</em> are collinear are <sup>n</sup>C<sub>3</sub> - <sup>m</sup>C<sub>3</sub>, where <em>m</em> ≥ 3.</li><li>Number of parallelogram in two system of parallel lines (when 1st set contains <em>m</em> parallel lines and 2nd set contains <em>n</em> parallel lines) = <sup>m</sup>C<sub>2</sub> × <sup>n</sup>C<sub>2</sub>.</li></ul>",
+    "formulas": [
+      "nC2",
+      "nC2 - mC2 + 1",
+      "n(n-3)/2",
+      "nC3",
+      "nC3 - mC3",
+      "mC2 * nC2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers geometrical applications of combinations including intersection points, straight lines, diagonals, triangles, and parallelograms."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 314
+  },
+  {
+    "id": "bin-thm-001",
+    "subject": "Mathematics",
+    "chapter": "Binomial Theorem",
+    "topic": "Introduction and Definition",
+    "text": "<p>In NDA exam, generally 1-2 questions are asked from this chapter which are based on general term, term independent of x, number/sum of terms, middle terms and combinational identities.</p><p>An algebraic expression consisting of two dissimilar terms with positive or negative sign between them is called a binomial expression, e.g. (x + a), x^2 + y^2, a/x^2 - b/x^4 and x - 3/y etc., are called binomial expressions.</p>",
+    "formulas": [
+      "(a + b)^n = C(n, 0)a^n + C(n, 1)a^{n-1}b + C(n, 2)a^{n-2}b^2 + ... + C(n, n-1)ab^{n-1} + C(n, n)b^n",
+      "(a + b)^n = ^nC_0 a^n b^0 + ^nC_1 a^{n-1} b + ^nC_2 a^{n-2} b^2 + ... + ^nC_{n-1} a b^{n-1} + ^nC_n a^0 b^n",
+      "(a + b)^n = sum_{r=0}^{n} ^nC_r (a)^{n-r} (b)^r",
+      "C(n, r) = n! / (r!(n-r)!), 0 < r < n; n, r in N"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to Binomial Theorem, definition of binomial expressions, and the general expansion formula for positive integer n."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 321
+  },
+  {
+    "id": "bin-thm-002",
+    "subject": "Mathematics",
+    "chapter": "Binomial Theorem",
+    "topic": "Special Cases, General Term, and Middle Term",
+    "text": "<h3>Special Cases</h3><ul><li>Putting a = 1 and b = x, we get (1+x)^n = ^nC_0 + ^nC_1 x + ^nC_2 x^2 + ... + ^nC_n x^n = sum_{r=0}^{n} ^nC_r x^r</li><li>Putting a = 1 and b = -x, we get (1-x)^n = ^nC_0 - ^nC_1 x + ^nC_2 x^2 + ... + (-1)^n ^nC_n x^n = sum_{r=0}^{n} (-1)^n ^nC_r x^r</li></ul><h3>General Term</h3><p>In the expansion of (a + b)^n the general term is T_{r+1} = ^nC_r a^{n-r} b^r.</p><p>In the binomial expansion of (a + b)^n, the rth term from the end is {(n+1)-r+1} = (n-r+2)th term from the beginning.</p><h3>Middle Term</h3><p>In the expansion of (a + b)^n, the middle term is (n/2 + 1)th term if n is even. If n is odd, the two middle terms are ((n+1)/2)th and ((n+1)/2 + 1)th terms.</p>",
+    "formulas": [
+      "(1+x)^n = sum_{r=0}^{n} ^nC_r x^r",
+      "(1-x)^n = sum_{r=0}^{n} (-1)^n ^nC_r x^r",
+      "T_{r+1} = ^nC_r a^{n-r} b^r",
+      "rth term from end = (n-r+2)th term from beginning",
+      "Middle term (n even) = (n/2 + 1)th term",
+      "Middle terms (n odd) = ((n+1)/2)th and ((n+1)/2 + 1)th terms"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers special expansions for (1+x)^n and (1-x)^n, the formula for the general term T_{r+1}, finding terms from the end, and identifying middle terms based on parity of n."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 321
+  },
+  {
+    "id": "nda_pathfinder_binom_001",
+    "subject": "Mathematics",
+    "chapter": "Binomial Theorem",
+    "topic": "Greatest Coefficient",
+    "text": "<p>If <strong>n</strong> is even, the greatest coefficient is <sup>n</sup>C<sub>n/2</sub>. If <strong>n</strong> is odd, the greatest coefficient is <sup>n</sup>C<sub>(n-1)/2</sub> or <sup>n</sup>C<sub>(n+1)/2</sub>, both being equal.</p><p><strong>Properties of Binomial Theorem:</strong></p><ul><li>(i) The number of terms in the Binomial expansion is n + 1, that is one more than the index n.</li><li>(ii) In any term, the sum of the indices of a and b is equal to n.</li><li>(iii) T<sub>r+1</sub> in the expansion of (1 + x)<sup>n</sup> is equal to [n(n-1)(n-2)...(n-r+1) / r!] x<sup>r</sup>.</li><li>(iv) Sum of the binomial coefficients in the expansion of (a + b)<sup>n</sup> is 2<sup>n</sup> (Put a = b = 1).</li><li>(v) If n is odd, then number of terms in (x+a)<sup>n</sup> + (x-a)<sup>n</sup> and (x+a)<sup>n</sup> - (x-a)<sup>n</sup> are equal to (n+1)/2.</li><li>(vi) If n is even, then number of terms in the expansion of (x+a)<sup>n</sup> + (x-a)<sup>n</sup> are (n+2)/2 and that in the expansion (x+a)<sup>n</sup> - (x-a)<sup>n</sup> are (n/2).</li></ul>",
+    "formulas": [
+      "nC_{n/2}",
+      "nC_{(n-1)/2}",
+      "nC_{(n+1)/2}",
+      "T_{r+1} = [n(n-1)...(n-r+1)/r!]x^r",
+      "(a+b)^n = 2^n",
+      "(x+a)^n + (x-a)^n",
+      "(x+a)^n - (x-a)^n"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers properties of binomial coefficients, greatest coefficient conditions for even/odd n, and expansion properties."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 322
+  },
+  {
+    "id": "nda_pathfinder_binom_002",
+    "subject": "Mathematics",
+    "chapter": "Binomial Theorem",
+    "topic": "Method for Finding the Independent Term or Constant Term",
+    "text": "<p>In the expansion of (a+b)<sup>n</sup>, the term which is free from x, i.e., which have x<sup>0</sup> is known as independent term. To find independent term put the index of x obtained in general term equal to zero and find the value of r to calculate the required term.</p>",
+    "formulas": [
+      "x^0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Methodology to identify the constant term in a binomial expansion by setting the exponent of x to zero."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 322
+  },
+  {
+    "id": "BT-95-001",
+    "subject": "Mathematics",
+    "chapter": "Binomial Theorem",
+    "topic": "Method to Find Greatest Term (Numerically) in the Expansion of (a + x)^n",
+    "text": "<p><strong>Method 1:</strong></p><ul><li>Write T<sub>r+1</sub> and T<sub>r</sub> from the given expansion.</li><li>Find T<sub>r+1</sub> / T<sub>r</sub>.</li><li>Put T<sub>r+1</sub> / T<sub>r</sub> > 1.</li><li>Solve the inequality in step III for r to get an inequality of the form r < m or r > m.</li><li>If m is an integer, then mth and (m+1)th terms are equal in magnitude and these two are the greatest terms.</li><li>If m is not an integer, then obtain the integral part of m, say k. In this case, (k+1)th term is the greatest term.</li></ul><p><strong>Method 2:</strong></p><ul><li>Find the value of m = ((n+1)|x|) / (a+|x|).</li><li>If m is an integer, then mth and (m+1)th terms are equal and both are greatest terms.</li><li>If m is not an integer, then obtain the integral part of m, say k. Thus, (k+1)th term is the greatest term.</li></ul>",
+    "formulas": [
+      "m = ((n+1)|x|) / (a+|x|)",
+      "T_{r+1} / T_r > 1"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Methods for finding the numerically greatest term in a binomial expansion."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 323
+  },
+  {
+    "id": "BT-95-002",
+    "subject": "Mathematics",
+    "chapter": "Binomial Theorem",
+    "topic": "Combinatorial Identities",
+    "text": "<p>List of important combinatorial identities:</p><ul><li><sup>n</sup>C<sub>r</sub> + <sup>n</sup>C<sub>r-1</sub> = <sup>n+1</sup>C<sub>r</sub></li><li><sup>n+1</sup>C<sub>r+1</sub> = ((n+1)/(r+1)) * <sup>n</sup>C<sub>r</sub></li><li><sup>n</sup>C<sub>0</sub> + <sup>n</sup>C<sub>1</sub> + <sup>n</sup>C<sub>2</sub> + ... + <sup>n</sup>C<sub>n</sub> = 2<sup>n</sup></li><li><sup>n</sup>C<sub>0</sub> - <sup>n</sup>C<sub>1</sub> + <sup>n</sup>C<sub>2</sub> - ... + (-1)<sup>n</sup> <sup>n</sup>C<sub>n</sub> = 0</li><li><sup>n</sup>C<sub>0</sub> + <sup>n</sup>C<sub>2</sub> + ... = 2<sup>n-1</sup></li><li><sup>n</sup>C<sub>1</sub> + <sup>n</sup>C<sub>3</sub> + <sup>n</sup>C<sub>5</sub> + ... = 2<sup>n-1</sup></li><li>(<sup>n</sup>C<sub>0</sub>)<sup>2</sup> + (<sup>n</sup>C<sub>1</sub>)<sup>2</sup> + (<sup>n</sup>C<sub>2</sub>)<sup>2</sup> + ... + (<sup>n</sup>C<sub>n</sub>)<sup>2</sup> = (2n)! / (n!)^2 = <sup>2n</sup>C<sub>n</sub></li><li><sup>n</sup>C<sub>r</sub> / <sup>n</sup>C<sub>r-1</sub> = (n-r+1) / r</li><li><sup>n</sup>C<sub>1</sub> + 2 <sup>n</sup>C<sub>2</sub> + 3 <sup>n</sup>C<sub>3</sub> + ... + n <sup>n</sup>C<sub>n</sub> = n * 2<sup>n-1</sup></li><li><sup>n</sup>C<sub>1</sub> - 2 <sup>n</sup>C<sub>2</sub> + 3 <sup>n</sup>C<sub>3</sub> - ... = 0</li><li><sup>n</sup>C<sub>0</sub> + 2 <sup>n</sup>C<sub>1</sub> + 3 <sup>n</sup>C<sub>2</sub> + ... + (n+1) <sup>n</sup>C<sub>n</sub> = (n+2) * 2<sup>n-1</sup></li></ul>",
+    "formulas": [
+      "^{n}C_{r} + ^{n}C_{r-1} = ^{n+1}C_{r}",
+      "^{n}C_{0} + ^{n}C_{1} + ... + ^{n}C_{n} = 2^{n}",
+      "^{n}C_{1} + 2^{n}C_{2} + ... + n^{n}C_{n} = n * 2^{n-1}"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Standard identities involving binomial coefficients."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 323
+  },
+  {
+    "id": "BT-95-003",
+    "subject": "Mathematics",
+    "chapter": "Binomial Theorem",
+    "topic": "Binomial Theorem for Any Index",
+    "text": "<p>For any rational number n, (1+x)<sup>n</sup> = 1 + nx + (n(n-1)/1*2)x<sup>2</sup> + (n(n-1)(n-2)/1*2*3)x<sup>3</sup> + ... + (n(n-1)(n-2)...(n-r+1)/r!)x<sup>r</sup> + ... holds, whenever |x| < 1.</p><p><strong>Notes:</strong></p><ul><li>For (1+x)<sup>-n</sup> replace n by -n.</li><li>For (1-x)<sup>-n</sup> replace n by -n and x by -x.</li><li>For (1-x)<sup>n</sup> replace x by -x.</li></ul><p><strong>General Term in the Expansion of (1+x)<sup>n</sup>:</strong></p><p>T<sub>r+1</sub> = (n(n-1)(n-2)...{n-(r-1)}) / r! * x<sup>r</sup></p>",
+    "formulas": [
+      "(1+x)^n = 1 + nx + (n(n-1)/2)x^2 + ...",
+      "T_{r+1} = (n(n-1)...(n-r+1))/r! * x^r"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Expansion formula for binomial theorem when the index is not a positive integer."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 323
+  },
+  {
+    "id": "math-binom-001",
+    "subject": "Mathematics",
+    "chapter": "Binomial Theorem",
+    "topic": "Binomial Expansion Problems",
+    "text": "<p>This page contains a series of solved problems related to the Binomial Theorem, covering coefficients, independent terms, and expansion properties.</p><ul><li><strong>Problem 4:</strong> Expansion of (1+x)^n(1+1/x)^n.</li><li><strong>Problem 5:</strong> Expansion of (1-x)^2(1+x)^-2.</li><li><strong>Problem 7:</strong> Summation of binomial coefficients C_0 + C_1/2 + C_2/3 + ... + C_n/(n+1).</li><li><strong>Problem 9:</strong> Finding the term independent of x in the expansion of (3x^-2/2 - 1/3x)^9.</li><li><strong>Problem 10:</strong> Condition for binomial coefficients being in Arithmetic Progression (AP).</li><li><strong>Problem 11:</strong> Finding the greatest term in the expansion of (3-5x)^11.</li><li><strong>Problem 12:</strong> Solving for variables m and n using coefficients of x and x^2.</li><li><strong>Problem 14-16:</strong> Problems involving expansion coefficients, middle terms, and independent terms.</li></ul>",
+    "formulas": [
+      "(1+x)^n(1+1/x)^n = (2+x+1/x)^n",
+      "C_0 + C_1/2 + C_2/3 + ... + C_n/(n+1) = (2^(n+1) - 1)/(n+1)",
+      "T_{r+1} = ^nC_r * a^(n-r) * b^r",
+      "m + n = 21"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Mathematical text containing solved binomial theorem problems numbered 4 through 16."
+    ],
+    "details": {
+      "summary": "A collection of 13 solved mathematical problems focusing on advanced applications of the Binomial Theorem."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 327
+  },
+  {
+    "id": "pathfinder-nda-100-01",
+    "subject": "Mathematics",
+    "chapter": "Binomial Theorem",
+    "topic": "Binomial Expansion Problems",
+    "text": "<p>This page contains solutions to various problems related to the Binomial Theorem, including finding specific terms, coefficients, and sums of coefficients.</p><ul><li><strong>Problem 17:</strong> Finding the last term of a binomial expression.</li><li><strong>Problem 18:</strong> Finding the 7th term from the end.</li><li><strong>Problem 19-20:</strong> Calculating the number of terms in binomial expansions.</li><li><strong>Problem 21:</strong> Expansion and simplification of binomial expressions.</li><li><strong>Problem 22-25:</strong> Problems involving coefficients of x^n in expansions.</li><li><strong>Problem 26:</strong> Expansion of (1 + x + x^2)^2n.</li><li><strong>Problem 27-28:</strong> Sum of coefficients and finding specific terms.</li><li><strong>Problem 29-32:</strong> Finding specific terms, independent terms, and terms from the beginning/end.</li><li><strong>Problem 34-35:</strong> Sum of coefficients and total number of terms.</li></ul>",
+    "formulas": [
+      "T_{r+1} = ^nC_r x^{n-r} a^r",
+      "(x+a)^n + (x-a)^n = 2[^nC_0 x^n + ^nC_2 x^{n-2} a^2 + ...]",
+      "(x+a)^n - (x-a)^n = 2[^nC_1 x^{n-1} a + ^nC_3 x^{n-3} a^3 + ...]",
+      "Sum of coefficients = (1+1)^n = 2^n"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A collection of solved problems covering binomial expansion, coefficient identification, and term calculation."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 328
+  },
+  {
+    "id": "logarithm-001",
+    "subject": "Mathematics",
+    "chapter": "Logarithm",
+    "topic": "Definition and Properties of Logarithm",
+    "text": "<p>If <strong>a</strong> is a positive real number other than 1 and <strong>x</strong> is a rational number such that <strong>a^x = N</strong>, then we say that logarithm of <strong>N</strong> to base <strong>a</strong> is <strong>x</strong>, written as <strong>log_a N = x</strong>. Thus, <strong>a^x = N <=> log_a N = x</strong>, where <strong>a > 0, a != 1</strong> and <strong>N > 0</strong>.</p><p><strong>Key Definitions:</strong></p><ul><li><strong>Natural Logarithm (Napier logarithm):</strong> When base is 'e', denoted as log_e x.</li><li><strong>Common Logarithm:</strong> When base is 10.</li><li><strong>Logarithmic function:</strong> Can be positive or negative, whereas exponential function is always positive.</li><li><strong>Base constraints:</strong> The base of a logarithm is never 0, a negative number, or 1.</li></ul><p><strong>Properties of Logarithm (for a, b, c > 0 and a, b, c != 1):</strong></p><ul><li>(i) log_a a = 1</li><li>(ii) log_a 1 = 0</li><li>(iii) log_c a = log_b a * log_c b</li><li>(iv) log_c a = (log_b a) / (log_b c)</li><li>(v) log_b a * log_a b = 1</li><li>(vi) log_a (m * n) = log_a m + log_a n</li><li>(vii) log_a (m / n) = log_a m - log_a n</li><li>(viii) log_a m^n = n * log_a m</li><li>(ix) log_{a^q} (m^p) = (p/q) * log_a m</li><li>(x) a^(log_a n) = n</li><li>(xi) a^(log_e x) = x^(log_e a), x > 0, e > 0</li><li>(xii) log_a b = -log_{1/a} b</li></ul>",
+    "formulas": [
+      "a^x = N <=> log_a N = x",
+      "log_a a = 1",
+      "log_a 1 = 0",
+      "log_c a = log_b a * log_c b",
+      "log_c a = (log_b a) / (log_b c)",
+      "log_b a * log_a b = 1",
+      "log_a (m * n) = log_a m + log_a n",
+      "log_a (m / n) = log_a m - log_a n",
+      "log_a m^n = n * log_a m",
+      "log_{a^q} (m^p) = (p/q) * log_a m",
+      "a^(log_a n) = n",
+      "a^(log_e x) = x^(log_e a)",
+      "log_a b = -log_{1/a} b"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to logarithms, fundamental identities, and properties for NDA examination preparation."
+    },
+    "mcq": {
+      "question": "What is the value of (log_13 625) / (log_169 25) ?",
+      "options": [
+        "1/4",
+        "1",
+        "2",
+        "4"
+      ],
+      "correct": 3,
+      "explanation": "The expression simplifies as: (log_13 625) / (log_169 25) = (log_13 625) / (log_13 25 / log_13 169) = (log_13 625 * log_13 169) / log_13 25 = (4 log_13 5 * 2 log_13 13) / (2 log_13 5) = 4."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 330
+  },
+  {
+    "id": "math-log-001",
+    "subject": "Mathematics",
+    "chapter": "Logarithm",
+    "topic": "Characteristic and Mantissa",
+    "text": "<p>In <strong>log<sub>10</sub> N</strong>, the integral part of <em>N</em> is called the <strong>characteristic</strong> and the decimal part of <em>N</em> is called the <strong>mantissa</strong>.</p><p><strong>Rules for Characteristic:</strong></p><ul><li>If <em>N &gt; 1</em>, then the characteristic of log<sub>10</sub> <em>N</em> is <strong>one less than the number of digits</strong> in the integral part of <em>N</em>.</li><li>If <em>0 &lt; N &lt; 1</em>, then the characteristic of log<sub>10</sub> <em>N</em> is <strong>one greater than the number of zeros</strong> immediately after the decimal point and before the first significant digit, and is a negative integer.</li></ul><p><strong>Insert decimal point in antilog of a number:</strong></p><ul><li>When characteristic is <em>n</em>, then insert the decimal point after <em>(n + 1)</em><sup>th</sup> digit.</li><li>When characteristic is <em>n̄</em> (negative), then insert the decimal point such that the first significant digit is at the <em>n</em><sup>th</sup> place.</li></ul>",
+    "formulas": [
+      "log_10(N) = Characteristic + Mantissa",
+      "Characteristic (for N > 1) = (Number of digits in integral part of N) - 1",
+      "Characteristic (for 0 < N < 1) = -[(Number of zeros immediately after decimal) + 1]"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Characteristic is the integer part of common logarithm while mantissa is the fractional/decimal part. Characteristics help determine the number of digits or leading zeros of a number."
+    },
+    "mcq": {
+      "question": "What is the characteristic of log10 N if N has 5 digits in its integral part?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 0,
+      "explanation": "If N > 1, the characteristic of log10 N is one less than the number of digits in the integral part of N. Therefore, 5 - 1 = 4."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 331
+  },
+  {
+    "id": "math-log-002",
+    "subject": "Mathematics",
+    "chapter": "Logarithm",
+    "topic": "Logarithmic Inequalities",
+    "text": "<p>Properties and rules governing logarithmic inequalities depending on the base value:</p><ul><li>If <em>a &gt; 1, p &gt; 1</em> &rArr; <strong>log<sub>a</sub> p &gt; 0</strong></li><li>If <em>0 &lt; a &lt; 1, p &gt; 1</em> &rArr; <strong>log<sub>a</sub> p &lt; 0</strong></li><li>If <em>a &gt; 1, 0 &lt; p &lt; 1</em> &rArr; <strong>log<sub>a</sub> p &lt; 0</strong></li><li>If <em>p &gt; a &gt; 1</em> &rArr; <strong>log<sub>a</sub> p &gt; 1</strong></li><li>If <em>a &gt; p &gt; 1</em> &rArr; <strong>0 &lt; log<sub>a</sub> p &lt; 1</strong></li><li>If <em>0 &lt; a &lt; p &lt; 1</em> &rArr; <strong>0 &lt; log<sub>a</sub> p &lt; 1</strong></li><li>If <em>0 &lt; p &lt; a &lt; 1</em> &rArr; <strong>log<sub>a</sub> p &gt; 1</strong></li><li>If <strong>log<sub>m</sub> a &gt; b</strong> &rArr; <em>a &gt; m<sup>b</sup></em> (if <em>m &gt; 1</em>) and <em>a &lt; m<sup>b</sup></em> (if <em>0 &lt; m &lt; 1</em>)</li><li>If <strong>log<sub>m</sub> a &lt; b</strong> &rArr; <em>a &lt; m<sup>b</sup></em> (if <em>m &gt; 1</em>) and <em>a &gt; m<sup>b</sup></em> (if <em>0 &lt; m &lt; 1</em>)</li><li><strong>Base Rule:</strong> log<sub>p</sub> a &gt; log<sub>p</sub> b &rArr; <em>a &ge; b</em> if base <em>p</em> is positive and &gt; 1, or <em>a &le; b</em> if base <em>p</em> is positive and &lt; 1 (0 &lt; p &lt; 1). In other words, if the base is greater than 1, the inequality sign remains the same; if the base is positive but less than 1, the sign of inequality is reversed.</li><li>For &phi;(x) &gt; 1, <strong>log<sub>&phi;(x)</sub> f(x) &ge; log<sub>&phi;(x)</sub> g(x) &hArr; f(x) &ge; g(x) &gt; 0</strong></li><li>For 0 &lt; &phi;(x) &lt; 1, <strong>log<sub>&phi;(x)</sub> f(x) &ge; log<sub>&phi;(x)</sub> g(x) &hArr; 0 &lt; f(x) &le; g(x)</strong></li><li>For &phi;(x) &gt; 1, <strong>log<sub>&phi;(x)</sub> f(x) &ge; a &hArr; f(x) &ge; a<sup>&phi;(x)</sup></strong></li><li>For 0 &lt; &phi;(x) &lt; 1, <strong>log<sub>&phi;(x)</sub> f(x) &ge; a &hArr; 0 &lt; f(x) &le; a<sup>&phi;(x)</sup></strong></li></ul>",
+    "formulas": [
+      "log_m(a) > b => a > m^b (m > 1)",
+      "log_m(a) > b => a < m^b (0 < m < 1)",
+      "log_p(a) > log_p(b) => a > b (p > 1)",
+      "log_p(a) > log_p(b) => a < b (0 < p < 1)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules and conditions for solving inequalities involving logarithms with bases greater than 1 or bases between 0 and 1."
+    },
+    "mcq": {
+      "question": "If 0 < m < 1 and log_m(a) > b, then which relation holds true?",
+      "options": [
+        "a > m^b",
+        "a < m^b",
+        "a = m^b",
+        "a >= m^b"
+      ],
+      "correct": 1,
+      "explanation": "When the base of a logarithm is between 0 and 1 (0 < m < 1), removing the logarithm reverses the inequality sign: log_m(a) > b becomes a < m^b."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 331
+  },
+  {
+    "id": "MAT-10-001",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "topic": "Definition of Matrix",
+    "text": "<p>A rectangular array of <em>mn</em> numbers (real or complex) in the form of <em>m</em> horizontal lines (called rows) and <em>n</em> vertical lines (called columns), is called an <em>m x n</em> matrix (to be read as <em>m</em> by <em>n</em> matrix) or matrix of order <em>m x n</em>.</p><p>A matrix may be represented by the symbols [a<sub>ij</sub>], (a<sub>ij</sub>) or by a capital letter A, i.e., A = [a<sub>ij</sub>]<sub>m x n</sub> or (a<sub>ij</sub>)<sub>m x n</sub>.</p><p>The numbers a<sub>11</sub>, a<sub>12</sub>... etc. are known as elements of the matrix A, a<sub>ij</sub> belongs to the ith row and jth column and is called the (i, j)th element of matrix A = [a<sub>ij</sub>].</p><p><strong>Note:</strong> A matrix is not a number and it has no numerical value.</p>",
+    "formulas": [
+      "A = [a_ij]_(m x n)",
+      "a_ij = (i + 2j)^2 / 2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "General representation of an m x n matrix with elements a_11 to a_mn."
+    ],
+    "details": {
+      "summary": "Introduction to matrices, definition, order, and notation."
+    },
+    "mcq": {
+      "question": "Construct a 2 x 2 matrix A = (a_ij), whose general element is given by a_ij = (i + 2j)^2 / 2.",
+      "options": [
+        "[9 25 / 4 9]",
+        "[9/2 25/2 / 8 18]",
+        "[9 5 / 4 18]",
+        "[9/2 25 / 8 9]"
+      ],
+      "correct": 1,
+      "explanation": "a_11 = (1 + 2)^2 / 2 = 9/2, a_12 = (1 + 4)^2 / 2 = 25/2, a_21 = (2 + 2)^2 / 2 = 8, a_22 = (2 + 4)^2 / 2 = 18. Resulting matrix is [9/2 25/2 / 8 18]."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 335
+  },
+  {
+    "id": "MAT-10-002",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "topic": "Types of Matrices",
+    "text": "<p><strong>1. Row matrix:</strong> A matrix having one row and <em>n</em> columns is called row matrix. It is of the form A = [a<sub>11</sub> a<sub>12</sub> ... a<sub>1n</sub>]<sub>1 x n</sub> or A = [a<sub>1</sub> a<sub>2</sub> ... a<sub>n</sub>]<sub>1 x n</sub>.</p><p><strong>2. Column matrix:</strong> A matrix having <em>m</em> rows and one column is called column matrix. It is of the form A = [a<sub>11</sub> / a<sub>21</sub> / ... / a<sub>m1</sub>]<sub>m x 1</sub> or A = [a<sub>1</sub> / a<sub>2</sub> / ... / a<sub>m</sub>]<sub>m x 1</sub>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Visual representation of row matrix and column matrix structures."
+    ],
+    "details": {
+      "summary": "Definitions of Row and Column matrices."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 335
+  },
+  {
+    "id": "mat-matrix-001",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "topic": "Types of Matrices",
+    "text": "<ul><li><strong>Zero matrix:</strong> A matrix in which all the elements are equal to zero is called zero matrix. It is also called a null matrix and is denoted by O.</li><li><strong>Singleton matrix:</strong> A matrix in which there is only one element is called singleton matrix. Thus, A = [a_ij]_(m x n) is singleton matrix, if m = n = 1.</li><li><strong>Square matrix:</strong> A matrix in which the number of rows is equal to the number of columns, say n, is called a square matrix of order n.</li><li><strong>Diagonal matrix:</strong> A square matrix in which all its elements are zero except those in the leading diagonal is called a diagonal matrix, i.e., a_ij = 0 for i != j.</li><li><strong>Identity or unit matrix:</strong> A diagonal matrix in which all the diagonal elements are equal to 1 is called an identity matrix. It is also called a unit matrix. An identity matrix of order n is denoted by I or I_n.</li><li><strong>Scalar matrix:</strong> A diagonal matrix in which all the diagonal elements are equal is called a scalar matrix.</li><li><strong>Submatrix:</strong> Any matrix obtained by omitting some rows or columns or both from a given m x n matrix A is called a submatrix of A.</li><li><strong>Upper triangular matrix:</strong> A square matrix A = [a_ij] is called upper triangular matrix, if a_ij = 0 for all i > j.</li><li><strong>Lower triangular matrix:</strong> A square matrix A = [a_ij] is called a lower triangular matrix, if a_ij = 0 for all i < j.</li><li><strong>Equal Matrices:</strong> Two matrices A = (a_ij)_(m x n) and B = (b_ij)_(p x q) are said to be equal, if (i) m = p and n = q (ii) a_ij = b_ij, for all i and j.</li></ul>",
+    "formulas": [
+      "A = [a_ij]_(m x n)",
+      "a_ij = 0 for i != j",
+      "C = diag(d_1, d_2)",
+      "a_ij = 0 for i > j",
+      "a_ij = 0 for i < j"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of various types of matrices including Zero, Singleton, Square, Diagonal, Identity, Scalar, Submatrix, Upper/Lower Triangular, and Equal matrices."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 336
+  },
+  {
+    "id": "mat-matrix-002",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "topic": "Algebra of Matrices",
+    "text": "<p><strong>Addition of Matrices:</strong> If A and B be any two matrices of the same order (m x n), then their sum A + B = [a_ij + b_ij]_(m x n).<br><strong>Properties of Addition:</strong><br>1. Matrix addition is commutative: A + B = B + A.<br>2. Matrix addition is associative: (A + B) + C = A + (B + C).<br>3. A + O = A = O + A (O is additive identity).<br>4. A + (-A) = O = (-A) + A ((-A) is additive inverse).<br>5. Matrix addition follows cancellation law: A + B = A + C => B = C (left) and B + A = C + A => B = C (right).<br><strong>Subtraction of Matrices:</strong> If A and B are any two matrices of the same order (m x n), then their difference A - B = [a_ij - b_ij]_(m x n).</p>",
+    "formulas": [
+      "A + B = [a_ij + b_ij]_(m x n)",
+      "A - B = [a_ij - b_ij]_(m x n)",
+      "A + B = B + A",
+      "(A + B) + C = A + (B + C)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers the algebraic operations of addition and subtraction of matrices along with the properties of matrix addition."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 336
+  },
+  {
+    "id": "mat-mat-109-001",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "topic": "Scalar Multiplication of Matrices",
+    "text": "<p>If a matrix is multiplied by the scalar <em>k</em>, then each element is multiplied by <em>k</em>. Thus, if A = [a<sub>ij</sub>]<sub>m x n</sub> then kA = [ka<sub>ij</sub>]<sub>m x n</sub>.</p><h3>Properties of Scalar Multiplication of Matrices</h3><p>Let the matrices A and B be of the same order and λ, μ be scalars. Then,</p><ul><li>(i) λ(A + B) = λA + λB</li><li>(ii) (λ + μ)A = λA + μA</li><li>(iii) λ(μA) = μ(λA) = (λμ)A</li><li>(iv) (-λ)A = -(λA) = λ(-A)</li></ul>",
+    "formulas": [
+      "kA = [ka_{ij}]_{m x n}",
+      "λ(A + B) = λA + λB",
+      "(λ + μ)A = λA + μA",
+      "λ(μA) = μ(λA) = (λμ)A",
+      "(-λ)A = -(λA) = λ(-A)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers the definition and algebraic properties of scalar multiplication of matrices."
+    },
+    "mcq": {
+      "question": "Find the value or values of x such that x^2 [2, 1] + x [-3, 1] = [-1, 2]",
+      "options": [
+        "0",
+        "1",
+        "1/2",
+        "Both (b) and (c)"
+      ],
+      "correct": 3,
+      "explanation": "Solving the resulting equations 2x^2 - 3x = -1 and x^2 + x = 2 leads to x = 1 and x = 1/2."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 337
+  },
+  {
+    "id": "mat-mat-109-002",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "topic": "Multiplication of Matrices",
+    "text": "<p>If A and B are two matrices such that the number of columns of A is equal to the number of rows in B, i.e. if A = [a<sub>ij</sub>] is a m x n matrix and B = [b<sub>kj</sub>] be a n x p matrix, then the product AB of these matrices is m x p matrix and is defined as (AB)<sub>ij</sub> = sum(a<sub>ik</sub>b<sub>kj</sub>) = a<sub>i1</sub>b<sub>1j</sub> + a<sub>i2</sub>b<sub>2j</sub> + ... + a<sub>in</sub>b<sub>nj</sub>.</p><p><strong>Note:</strong> In the matrix product AB, the matrix A is called pre multiplier or pre factor and B is called post multiplier or post factor.</p><h3>Properties of Multiplication of Matrices</h3><ul><li>(i) Matrix multiplication is not commutative in general i.e. AB ≠ BA</li><li>(ii) Multiplication is distributive, i.e. if A, B and C are the matrices of order m x n, n x p and n x p respectively, then A(B + C) = AB + AC</li><li>(iii) Multiplication is associative, i.e. if A, B and C are the matrices of order m x n, n x p and p x r respectively, then (AB)C = A(BC).</li><li>(iv) If A is a m x n matrix and I<sub>n</sub>, I<sub>m</sub> are the identity matrices of order m x m and n x n, then I<sub>m</sub>A = A = AI<sub>n</sub>. Here, I is the multiplicative identity.</li><li>(v) If AB = O, then it is not necessary that either A or B is O or both are O.</li></ul>",
+    "formulas": [
+      "(AB)_{ij} = sum_{k=1}^{n} a_{ik}b_{kj}",
+      "AB ≠ BA",
+      "A(B + C) = AB + AC",
+      "(AB)C = A(BC)",
+      "I_m A = A = A I_n"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Defines matrix multiplication, its properties, and the concept of identity matrices."
+    },
+    "mcq": {
+      "question": "Let A = [[1, 0], [0, -1]] and B = [[1, x], [0, 1]]. If AB = BA, then what is the value of x?",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "Any real number"
+      ],
+      "correct": 1,
+      "explanation": "Calculating AB and BA and equating them leads to x = -x, which implies 2x = 0, so x = 0."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 337
+  },
+  {
+    "id": "mat-mat-109-003",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "topic": "Transpose and Symmetric Matrices",
+    "text": "<h3>Transpose of a Matrix</h3><p>Let A be a m x n matrix. Then, the n x m matrix obtained by interchanging the rows and columns of A is called the transpose of A and is denoted by A' or A<sup>T</sup>.</p><h4>Properties of the Transpose Matrix</h4><ul><li>(i) (A')' = A</li><li>(ii) (A ± B)' = A' ± B'</li><li>(iii) (kA)' = kA'</li><li>(iv) (AB)' = B'A'</li></ul><h3>Symmetric and Skew-symmetric Matrices</h3><p>A real square matrix A = [a<sub>ij</sub>] is said to be symmetric, if a<sub>ij</sub> = a<sub>ji</sub>, ∀ i and j or A = A<sup>T</sup>.</p><p>A real square matrix A = [a<sub>ij</sub>] is said to be skew-symmetric (anti-symmetric), if a<sub>ij</sub> = -a<sub>ji</sub>, ∀ i and j or A = -A<sup>T</sup>.</p>",
+    "formulas": [
+      "(A')' = A",
+      "(A ± B)' = A' ± B'",
+      "(kA)' = kA'",
+      "(AB)' = B'A'",
+      "a_{ij} = a_{ji} (Symmetric)",
+      "a_{ij} = -a_{ji} (Skew-symmetric)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers transpose properties and definitions of symmetric and skew-symmetric matrices."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 337
+  },
+  {
+    "id": "mat-matrix-001",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "topic": "Properties of Symmetric and Skew-symmetric Matrices",
+    "text": "<p><strong>Properties of Symmetric and Skew-symmetric Matrices:</strong></p><ul><li>(i) In a skew-symmetric matrix A, all its diagonal elements are zero, i.e. a_ii = 0, for all i.</li><li>(ii) The matrix which is both symmetric and skew-symmetric is a null matrix.</li><li>(iii) For any real square matrix A; A + A^T and AA^T or A^T A is a symmetric matrix and A - A^T is a skew-symmetric matrix.</li><li>(iv) A real square matrix A can be expressed as the sum of a symmetric matrix and a skew-symmetric matrix. i.e. A = 1/2(A + A^T) + 1/2(A - A^T)</li></ul>",
+    "formulas": [
+      "a_ii = 0",
+      "A = 1/2(A + A^T) + 1/2(A - A^T)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties of symmetric and skew-symmetric matrices."
+    },
+    "mcq": {
+      "question": "If A = [[cos alpha, -sin alpha], [sin alpha, cos alpha]], then find the value of A^T A.",
+      "options": [
+        "O",
+        "I",
+        "A",
+        "A^T"
+      ],
+      "correct": 1,
+      "explanation": "We have, A^T = [[cos alpha, sin alpha], [-sin alpha, cos alpha]]. Therefore, A^T A = [[cos alpha, sin alpha], [-sin alpha, cos alpha]] * [[cos alpha, -sin alpha], [sin alpha, cos alpha]] = [[cos^2 alpha + sin^2 alpha, 0], [0, sin^2 alpha + cos^2 alpha]] = [[1, 0], [0, 1]] = I"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 338
+  },
+  {
+    "id": "mat-matrix-002",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "topic": "Special Type of Matrix",
+    "text": "<p><strong>Special Type of Matrix:</strong></p><ul><li>1. <strong>Orthogonal matrix:</strong> A square matrix A is called an orthogonal matrix if the product of matrix A and its transpose A' (or A^T) is an identity matrix, i.e. AA' = I. Note: If A and B are orthogonal, then AB is also orthogonal.</li><li>2. <strong>Conjugate of a matrix:</strong> The matrix obtained from any given matrix A containing complex numbers as its elements, on replacing its elements by the corresponding conjugate complex numbers is called conjugate of A and is denoted by A_bar.</li><li>3. <strong>Hermitian matrix:</strong> A square matrix such that (A')_bar = A, then A is known as hermitian matrix.</li><li>4. <strong>Skew-hermitian matrix:</strong> A square matrix such that (A')_bar = -A, then A is known as skew-hermitian matrix.</li><li>5. <strong>Elementary matrix:</strong> A square matrix is called an elementary matrix if it can be obtained from identity matrix I by performing single elementary row or column operation.</li></ul>",
+    "formulas": [
+      "AA' = I",
+      "(A')_bar = A",
+      "(A')_bar = -A"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of various special types of matrices including orthogonal, conjugate, hermitian, skew-hermitian, and elementary matrices."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 338
+  },
+  {
+    "id": "det-001",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "topic": "Introduction to Determinants",
+    "text": "<p>Every square matrix is associated with a particular expression which is called the <strong>determinant</strong>. The determinant of a square matrix A is denoted by det A or |A|. In determinant, horizontal lines and vertical lines are called rows and columns respectively.</p><p><strong>Note:</strong> A matrix is an arrangement of numbers and it has no fixed value but a determinant is a number and it has a fixed value.</p>",
+    "formulas": [
+      "|A| = a11*a22 - a12*a21 (for order 2)",
+      "|A| = a11(a22*a33 - a23*a32) - a12(a21*a33 - a23*a31) + a13(a21*a32 - a22*a31) (for order 3)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "General representation of a determinant of order n x n using a square array of elements a_ij enclosed in vertical bars.",
+      "Mathematical definition of a determinant of order 1, 2, and 3."
+    ],
+    "details": {
+      "summary": "Introduction to the concept of determinants for square matrices, including definitions for orders 1, 2, and 3."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 343
+  },
+  {
+    "id": "det-002",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "topic": "Determinant of Square Matrix Order 1, 2, and 3",
+    "text": "<ul><li><strong>Order 1:</strong> If A = [a11], then |A| = a11</li><li><strong>Order 2:</strong> If A = [[a11, a12], [a21, a22]], then |A| = a11*a22 - a12*a21</li><li><strong>Order 3:</strong> Expansion along the first row: |A| = a11|a22 a23; a32 a33| - a12|a21 a23; a31 a33| + a13|a21 a22; a31 a32|</li></ul>",
+    "formulas": [
+      "|A| = a11",
+      "|A| = a11*a22 - a12*a21",
+      "|A| = a11(a22*a33 - a23*a32) - a12(a21*a33 - a23*a31) + a13(a21*a32 - a22*a31)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas for calculating determinants of matrices of order 1, 2, and 3."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 343
+  },
+  {
+    "id": "nda-math-det-001",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "topic": "Properties of Determinants",
+    "text": "<p><strong>Properties of Determinants:</strong></p><ul><li>(i) If each entry in any row or column of a determinant is 0, then the value of the determinant is zero.</li><li>(ii) If rows be changed into columns and columns into rows, then the value of the determinant remains unchanged.</li><li>(iii) If any two adjacent rows (columns) of a determinant are interchanged, then the determinant remains its absolute value but changed in sign.</li><li>(iv) If a determinant have any two rows or columns identical, then its value is zero.</li><li>(v) If all the constituents (elements) of one row or of one column, multiplied by the same quantity, then the value of new determinant is k times the value of original determinant.</li><li>(vi) If each constituent of any row or of any column be the sum of the two quantities, then the determinant can be expressed as the sum of the two determinants of the same order.</li><li>(vii) If each element of a row or column of a determinant is multiplied by a constant k and then added to the corresponding elements of some other row or column, then value of determinant remains same.</li><li>(viii) Number of elements in nth order determinant = n^2</li><li>(ix) If A and B are two determinants of order n, then |AB| = |A||B|</li><li>(x) det(kA) = k^n det(A), if A is of order n x n.</li><li>(xi) If AB = AC, then B = C is true only, when |A| != 0.</li></ul>",
+    "formulas": [
+      "|AB| = |A||B|",
+      "det(kA) = k^n det(A)",
+      "Number of elements = n^2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Mathematical representation of determinant properties (i) through (vii) showing matrix transformations."
+    ],
+    "details": {
+      "summary": "Comprehensive list of 11 fundamental properties of determinants used in matrix algebra."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 344
+  },
+  {
+    "id": "nda-math-det-002",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "topic": "Minors and Cofactors",
+    "text": "<p><strong>Minors and Cofactors:</strong></p><p><strong>Minor of an Element of a Determinant:</strong> If we delete the row and column passing through the element a_ij, the determinant, thus obtained is called the minor of a_ij and is usually denoted by M_ij.</p><p><strong>Cofactor of an Element of a Determinant:</strong> The cofactor of an element a_ij is (-1)^(i+j) M_ij and it is denoted by C_ij. Thus, C_ij = M_ij when i+j is even, and -M_ij when i+j is odd.</p>",
+    "formulas": [
+      "C_ij = (-1)^(i+j) M_ij"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Matrix notation for 3x3 determinant and definition of minor M_11."
+    ],
+    "details": {
+      "summary": "Definitions and formulas for calculating minors and cofactors of determinant elements."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 344
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Determinants and Matrices",
+    "subchapter": "Cofactors and Determinant of Cofactors",
+    "topic": "Relation between a determinant and its cofactor determinant",
+    "content": "### Cofactor Determinant Relation\\n\\n- Let \\(\\Delta\\) be the determinant of an \\(n\\times n\\) matrix \\(A\\).\\n- Let \\(\\Delta_c\\) denote the determinant of the **cofactor matrix** of \\(A\\).\\n- **Result:**\\n  1. If \\(\\Delta \\neq 0\\), then\\n     $$\\frac{\\Delta}{\\Delta_c}=(-1)^{n}$$\\n  2. If \\(\\Delta = 0\\), then \\(\\Delta_c = 0\\).\\n- **Zero‑sum property:** The sum of the products of the elements of any row (or column) with the cofactors of the elements of any *other* row (or column) is zero, i.e.\\n  $$\\sum_{j=1}^{n} a_{ij}C_{kj}=0 \\quad (i\\neq k)$$\\n  where \\(C_{kj}\\) is the cofactor of element \\(a_{kj}\\).\\n\\n---\\n\\n### Example\\nFor the matrix\\n$$A=\\begin{bmatrix} a & b \\\\ b & a \\end{bmatrix}$$\\nits determinant is \\(\\Delta = a^{2}-b^{2}\\).\\nThe cofactor matrix is\\n$$C = \\begin{bmatrix} a & -b \\\\ -b & a \\end{bmatrix}$$\\nand \\(\\Delta_c = \\det(C)= a^{2}-b^{2}=\\Delta\\).  Hence \\(\\frac{\\Delta}{\\Delta_c}=1 = (-1)^{2}\\).\\n",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 345
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Determinants and Matrices",
+    "subchapter": "Adjoint (Adjugate) Matrix",
+    "topic": "Definition and Computation",
+    "content": "### Adjoint (Adjugate) Matrix\\n\\n- For a square matrix \\(A = [a_{ij}]\\) of order \\(n\\), let \\(C = [C_{ij}]\\) be its **cofactor matrix**, where \\(C_{ij}=(-1)^{i+j}M_{ij}\\) and \\(M_{ij}\\) is the minor of \\(a_{ij}\\).\\n- The **adjoint** (also called **adjugate**) of \\(A\\) is the transpose of the cofactor matrix:\\n  $$\\operatorname{adj}(A)=C^{T}$$\\n- **Computation example**\\n  $$A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 1 & 0 & 1 \\\\ 4 & 3 & 2 \\end{bmatrix}$$\\n  The cofactors are:\\n  \\[\\begin{aligned}\\n  C_{11}= -3,\\; &C_{12}= 6,\\; &C_{13}= -3,\\\\\n  C_{21}= 5,\\; &C_{22}= -10,\\; &C_{23}= 5,\\\\\n  C_{31}= 2,\\; &C_{32}= -4,\\; &C_{33}= 2.\\n  \\end{aligned}\\]\\n  Hence\\n  $$C = \\begin{bmatrix} -3 & 6 & -3 \\\\ 5 & -10 & 5 \\\\ 2 & -4 & 2 \\end{bmatrix},\\qquad\\n  \\operatorname{adj}",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 345
+  },
+  {
+    "id": "pathfinder-math-matrix-001",
+    "subject": "Mathematics",
+    "chapter": "Matrices and Determinants",
+    "topic": "Properties of Inverse Matrices",
+    "text": "<p>If A and B are invertible matrices of the same order, then:</p><ul><li>(i) (A^-1)^-1 = A</li><li>(ii) (AB)^-1 = B^-1 A^-1</li><li>(iii) (A^k)^-1 = (A^-1)^k, k ∈ N</li><li>(iv) adj(A^-1) = (adj A)^-1</li><li>(v) |A^-1| = 1/|A| = |A|^-1</li></ul><p><strong>Note:</strong> If A is an invertible matrix, then:</p><ul><li>If A is symmetric matrix, then A^-1 is also symmetric matrix.</li><li>If A is skew-symmetric matrix, then A^-1 is also skew symmetric matrix.</li></ul>",
+    "formulas": [
+      "(A^-1)^-1 = A",
+      "(AB)^-1 = B^-1 A^-1",
+      "(A^k)^-1 = (A^-1)^k",
+      "adj(A^-1) = (adj A)^-1",
+      "|A^-1| = 1/|A|"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties of inverse matrices and notes on symmetric/skew-symmetric inverse properties."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 346
+  },
+  {
+    "id": "pathfinder-math-matrix-002",
+    "subject": "Mathematics",
+    "chapter": "Matrices and Determinants",
+    "topic": "Solution of System of Linear Equations",
+    "text": "<p>Consider the system of linear equations:</p><p>a11x1 + a12x2 + a13x3 = b1</p><p>a21x1 + a22x2 + a23x3 = b2</p><p>a31x1 + a32x2 + a33x3 = b3</p><p>We can write these equations in matrix form as AX = B. Where A is the coefficient matrix, X is the variable matrix, and B is the constant matrix. Then, X = A^-1 B. This method is known as the matrix method.</p><p><strong>Criterion of Consistency:</strong></p><ul><li>(i) If |A| ≠ 0 (non-singular), the system is consistent and has a unique solution X = A^-1 B.</li><li>(ii) If |A| = 0 (singular) and [adj(A)]B = 0, the system is consistent and has infinitely many solutions.</li><li>(iii) If |A| = 0 and [adj(A)]B ≠ 0, the system is inconsistent and has no solution.</li></ul><p><strong>Homogeneous Equations (AX = 0):</strong></p><ul><li>(i) If |A| ≠ 0, only trivial solution X = 0.</li><li>(ii) If |A| = 0, non-trivial solution exists (infinitely many).</li></ul>",
+    "formulas": [
+      "AX = B",
+      "X = A^-1 B",
+      "|A| ≠ 0",
+      "|A| = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Methods for solving linear equations using matrices and criteria for consistency."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 346
+  },
+  {
+    "id": "pathfinder-math-matrix-003",
+    "subject": "Mathematics",
+    "chapter": "Matrices and Determinants",
+    "topic": "Cramer's Rule",
+    "text": "<p>For a system of equations in two variables:</p><p>a1x + b1y = c1</p><p>a2x + b2y = c2</p><p>Then, Δ = |a1 b1; a2 b2|, Δ1 = |c1 b1; c2 b2|, and Δ2 = |a1 c1; a2 c2|. The solution is x = Δ1/Δ, y = Δ2/Δ, provided Δ ≠ 0.</p>",
+    "formulas": [
+      "x = Δ1/Δ",
+      "y = Δ2/Δ"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Cramer's rule for solving a system of two linear equations."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 346
+  },
+  {
+    "id": "math-det-119-001",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "topic": "Cramer's Rule and System of Equations",
+    "text": "<p><strong>Cramer's Rule for three variables:</strong></p><p>For a system of equations:</p><ul><li>a1x + b1y + c1z = d1</li><li>a2x + b2y + c2z = d2</li><li>a3x + b3y + c3z = d3</li></ul><p>The solution is given by x = Δ1/Δ, y = Δ2/Δ, and z = Δ3/Δ.</p><p><strong>Consistency Conditions:</strong></p><ul><li>If Δ ≠ 0, the system is consistent and has a unique solution.</li><li>If Δ = 0 and at least one of Δ1, Δ2, Δ3 is non-zero, the system is inconsistent.</li><li>If Δ = 0 and Δ1 = Δ2 = Δ3 = 0, the system is consistent and dependent with infinitely many solutions.</li></ul>",
+    "formulas": [
+      "x = Δ1/Δ, y = Δ2/Δ, z = Δ3/Δ",
+      "Δ = |a1 b1 c1; a2 b2 c2; a3 b3 c3|",
+      "Δ1 = |d1 b1 c1; d2 b2 c2; d3 b3 c3|",
+      "Δ2 = |a1 d1 c1; a2 d2 c2; a3 d3 c3|",
+      "Δ3 = |a1 b1 d1; a2 b2 d2; a3 b3 d3|"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of Cramer's rule for solving a system of three linear equations and conditions for consistency."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 347
+  },
+  {
+    "id": "math-det-119-002",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "topic": "Differentiation of Determinants",
+    "text": "<p>To differentiate a determinant, differentiate one row (or column) at a time, keeping others unchanged.</p><p>If Δ(x) = |f1(x) g1(x); f2(x) g2(x)|, then Δ'(x) = |f1'(x) g1'(x); f2(x) g2(x)| + |f1(x) g1(x); f2'(x) g2'(x)|.</p>",
+    "formulas": [
+      "Δ'(x) = |f1'(x) g1'(x); f2(x) g2(x)| + |f1(x) g1(x); f2'(x) g2'(x)|"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rule for differentiating determinants."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 347
+  },
+  {
+    "id": "math-det-119-003",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "topic": "Integration of Determinants",
+    "text": "<p>If Δ(x) = |f(x) g(x); λ1 λ2|, where λ1 and λ2 are constants, then integral(Δ(x) dx) = |integral(f(x) dx) integral(g(x) dx); λ1 λ2|.</p><p>Note: If elements of more than one column or row are functions of x, integration can only be done after expansion.</p>",
+    "formulas": [
+      "integral(Δ(x) dx) = |integral(f(x) dx) integral(g(x) dx); λ1 λ2|"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rule for integrating determinants with constant rows/columns."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 347
+  },
+  {
+    "id": "pathfinder-nda-120-001",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "topic": "Applications of Determinant in Geometry",
+    "text": "<h3>Applications of Determinant in Geometry</h3><ul><li><strong>Area of triangle:</strong> If (x1, y1), (x2, y2) and (x3, y3) are the vertices of a triangle, then Area of triangle = 1/2 |[x1, y1, 1; x2, y2, 1; x3, y3, 1]| = 1/2 |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|</li><li><strong>Condition of collinearity of three points:</strong> Let three points be A(x1, y1), B(x2, y2) and C(x3, y3), then these points will be collinear, if Area of ΔABC = 0</li><li><strong>Equation of straight line passing through two points:</strong> Let two points be A(x1, y1) and B(x2, y2) and P(x, y) be a point on the line joining points A and B, then the equation of line is given by |[x, y, 1; x1, y1, 1; x2, y2, 1]| = 0</li></ul>",
+    "formulas": [
+      "Area = 1/2 * det([[x1, y1, 1], [x2, y2, 1], [x3, y3, 1]])",
+      "Collinearity condition: det([[x1, y1, 1], [x2, y2, 1], [x3, y3, 1]]) = 0",
+      "Line equation: det([[x, y, 1], [x1, y1, 1], [x2, y2, 1]]) = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers geometric applications of determinants including area of a triangle, collinearity condition, and equation of a line."
+    },
+    "mcq": {
+      "question": "The equation of straight line passing through the points A(3, 1) and B(9, 3) is",
+      "options": [
+        "x - 2 = 0",
+        "x - 3y = 0",
+        "y + 2 = 0",
+        "y - 2 = 0"
+      ],
+      "correct": 1,
+      "explanation": "Using the determinant formula for a line passing through (3,1) and (9,3), the determinant of [[x, y, 1], [3, 1, 1], [9, 3, 1]] = 0 leads to x - 3y = 0."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 348
+  },
+  {
+    "id": "math-det-127-001",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "topic": "Properties and Applications of Determinants",
+    "text": "<p>This page provides step-by-step solutions for various determinant problems, demonstrating properties such as row/column operations, expansion methods, and the application of trigonometric and algebraic identities.</p><ul><li><strong>Problem 6:</strong> Evaluation of a determinant with factorial elements.</li><li><strong>Problem 7:</strong> Application of trigonometric identities in determinants.</li><li><strong>Problem 8:</strong> Solving equations involving determinants using row operations.</li><li><strong>Problem 9:</strong> Solving for roots of a polynomial equation derived from a determinant.</li><li><strong>Problem 11:</strong> Simplifying a determinant using row and column operations to prove it equals zero.</li><li><strong>Problem 12:</strong> Factorization of a determinant.</li><li><strong>Problem 13:</strong> Application of Arithmetic Progression (AP) properties within a determinant.</li><li><strong>Problem 14:</strong> Property of the product of a determinant and its transpose.</li><li><strong>Problem 15:</strong> Evaluation of trigonometric determinants.</li><li><strong>Problem 16:</strong> Property of skew-symmetric determinants of odd order.</li><li><strong>Problem 17:</strong> Solving systems of linear equations using determinants (Cramer's Rule concept).</li></ul>",
+    "formulas": [
+      "Delta = (2!)(3!)[(60 - 48) - (40 - 24) + (24 - 18)] = 4!",
+      "cos(A + B) = cos(pi - C) = -cos C",
+      "T_p = a + (p - 1)d",
+      "Delta * Delta' = Delta^3",
+      "x = 5, 7, -12"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Mathematical expressions and determinant matrices showing step-by-step algebraic and trigonometric manipulations."
+    ],
+    "details": {
+      "summary": "A collection of solved examples demonstrating advanced techniques for evaluating and simplifying determinants, including row/column operations, trigonometric identities, and algebraic factorization."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 355
+  },
+  {
+    "id": "math-matrix-det-001",
+    "subject": "Mathematics",
+    "chapter": "Matrices and Determinants",
+    "topic": "Properties and Operations of Determinants",
+    "text": "<p>This section covers various solved examples involving matrix operations, inverse properties, and determinant calculations.</p><ul><li><strong>Matrix Inversion:</strong> Every matrix possesses a unique inverse.</li><li><strong>Idempotent Matrix Property:</strong> If A^2 = I, then A^-1 = A.</li><li><strong>Determinant of Orthogonal Matrix:</strong> For an orthogonal matrix A, |A| = ±1.</li><li><strong>Determinant of Cofactor Matrix:</strong> |D'| = |D|^(n-1), where D' is the determinant of the cofactor matrix of D of order n.</li><li><strong>Determinant Properties:</strong> Determinants can be simplified using row and column operations (e.g., C1 -> C1 + C2 + C3).</li><li><strong>Minor and Cofactor:</strong> The minor of an element is calculated by deleting the row and column containing the element. The cofactor includes the sign factor (-1)^(i+j).</li></ul>",
+    "formulas": [
+      "A^-1 * A^2 = A^-1 * I => A = A^-1",
+      "|A * A^T| = |I| => |A|^2 = 1",
+      "|D'| = |D|^(n-1)",
+      "Minor of element a_ij = determinant of submatrix",
+      "Cofactor = (-1)^(i+j) * Minor"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Mathematical derivations showing determinant expansions and row/column operations on 3x3 matrices."
+    ],
+    "details": {
+      "summary": "Collection of solved problems and properties related to matrix algebra and determinants."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 358
+  },
+  {
+    "id": "math-trig-001",
+    "subject": "Mathematics",
+    "chapter": "Measurement of Angles and Trigonometric Ratios",
+    "topic": "Angle and Systems of Measurement",
+    "text": "<p><strong>Angle:</strong> Let a revolving line starting from OA revolves about its end point 'O' on a plane in clockwise or anti-clockwise direction and occupy the position 'OB'. It is said to trace out ∠AOB. Here, OB is called the terminal side and OA is called initial side. The fixed point 'O' is called the vertex.</p><p><strong>Measurement of Angles:</strong> The amount of rotation from the initial side to the terminal side is called the measure of the angle.</p><p><strong>Note:</strong> If the rotation is in anti-clockwise sense, the angle measured is positive and if the rotation is in clockwise sense, the angle measured is negative.</p><p><strong>Systems of Measurement of Angles:</strong> There are three major types of systems of measurement of angles which are as follows:</p><ul><li><strong>Sexagesimal system (Degree measure):</strong> In this system a right angle is divided into 90 equal parts, called degrees. Each degree is divided into 60 equal parts, called minutes and each minute is further divided into 60 equal parts, called seconds.</li><li><strong>Centesimal system:</strong> In this system a right angle is divided into 100 equal parts, called grades. Each grade is subdivided into 100 centesimal minutes and each minute is further divided into 100 centesimal seconds.</li></ul>",
+    "formulas": [
+      "1 right angle = 90 degrees = (90°)",
+      "1° = 60 min = (60')",
+      "1' = 60 s = (60'')"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A geometric diagram showing an angle formed by two rays OA and OB originating from a vertex O. OA is labeled as the 'Initial side', OB is labeled as the 'Terminal side', and the arc between them is labeled as theta (θ)."
+    ],
+    "details": {
+      "summary": "Introduction to the definition of an angle, its components (initial side, terminal side, vertex), sign convention for rotation, and the first two systems of measurement (Sexagesimal and Centesimal)."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 361
+  },
+  {
+    "id": "TRIG_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Measurement of Angles",
+    "text": "<p><strong>Circular system:</strong> In this system the unit of measurement is radian.</p><ul><li>One radian, written as 1<sup>c</sup>, is the measure of an angle subtended at the centre of a circle by an arc of length equal to the radius of the circle.</li><li>The number of radians in an angle subtended by an arc of a circle at the centre is equal to arc/radius.</li></ul><p><strong>Relation between Degrees, Grades and Radians:</strong></p><p>Degree/90 = Grade/100 = 2 Radian/pi</p><ul><li>To convert radians into degrees multiply by (180/pi).</li><li>To convert degrees into radians multiply by (pi/180).</li></ul>",
+    "formulas": [
+      "Degree/90 = Grade/100 = 2 Radian/pi",
+      "Radians to Degrees = Radians * (180/pi)",
+      "Degrees to Radians = Degrees * (pi/180)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers circular system of angle measurement and conversion formulas between degrees, grades, and radians."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 362
+  },
+  {
+    "id": "TRIG_002",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios",
+    "text": "<p>The ratios between different sides of a right angled triangle with respect to its acute angles are called trigonometric ratios.</p><p>Let PMR be a right angled triangle at M.</p><ul><li>sin theta = Perpendicular/Hypotenuse = q/r</li><li>cos theta = Base/Hypotenuse = p/r</li><li>tan theta = Perpendicular/Base = q/p</li><li>cosec theta = Hypotenuse/Perpendicular = r/q</li><li>sec theta = Hypotenuse/Base = r/p</li><li>cot theta = Base/Perpendicular = p/q</li></ul><p><strong>Relation between Trigonometric Ratios:</strong></p><ul><li>sin theta = 1/cosec theta or cosec theta = 1/sin theta</li><li>cos theta = 1/sec theta or sec theta = 1/cos theta</li><li>cot theta = 1/tan theta or tan theta = 1/cot theta</li><li>tan theta = sin theta/cos theta</li><li>cot theta = cos theta/sin theta</li></ul><p><strong>Fundamental Trigonometric Identities:</strong></p><ul><li>sin^2 theta + cos^2 theta = 1</li><li>1 + tan^2 theta = sec^2 theta</li><li>1 + cot^2 theta = cosec^2 theta</li></ul>",
+    "formulas": [
+      "sin theta = q/r",
+      "cos theta = p/r",
+      "tan theta = q/p",
+      "cosec theta = r/q",
+      "sec theta = r/p",
+      "cot theta = p/q",
+      "sin^2 theta + cos^2 theta = 1",
+      "1 + tan^2 theta = sec^2 theta",
+      "1 + cot^2 theta = cosec^2 theta"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A right-angled triangle PMR with the right angle at M. The side opposite to angle theta is q (Perpendicular), the side adjacent to angle theta is p (Base), and the hypotenuse is r."
+    ],
+    "details": {
+      "summary": "Definitions of trigonometric ratios in a right-angled triangle, their reciprocal relations, and fundamental identities."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 362
+  },
+  {
+    "id": "trig-001",
+    "subject": "Mathematics",
+    "chapter": "Measurement of Angles and Trigonometric Ratios",
+    "topic": "Trigonometric Ratios and Identities",
+    "text": "<p>This section covers the fundamental properties of trigonometric functions, including domain and range, standard angle values, signs in different quadrants, allied angles, sum and difference identities, and transformation formulae.</p><ul><li><strong>Note:</strong> |sinθ| ≤ 1, |cosθ| ≤ 1, |secθ| ≥ 1, |cosecθ| ≥ 1 for all values of θ for which the functions are defined.</li><li><strong>Allied Angles:</strong> Two angles are said to be allied when their sum or difference is either zero or a multiple of 90°, i.e., the angles -θ, 90° ± θ, 180° ± θ, 270° ± θ and 360° ± θ are called allied angles.</li></ul>",
+    "formulas": [
+      "sin(A ± B) = sin A cos B ± cos A sin B",
+      "cos(A ± B) = cos A cos B ∓ sin A sin B",
+      "tan(A ± B) = (tan A ± tan B) / (1 ∓ tan A tan B)",
+      "cot(A ± B) = (cot A cot B ∓ 1) / (cot B ± cot A)",
+      "sin(A + B)sin(A - B) = sin^2 A - sin^2 B = cos^2 B - cos^2 A",
+      "cos(A + B)cos(A - B) = cos^2 A - sin^2 B = cos^2 B - sin^2 A",
+      "2 sin A cos B = sin(A + B) + sin(A - B)",
+      "2 cos A sin B = sin(A + B) - sin(A - B)",
+      "2 cos A cos B = cos(A + B) + cos(A - B)",
+      "2 sin A sin B = cos(A - B) - cos(A + B)",
+      "sin C + sin D = 2 sin((C+D)/2) cos((C-D)/2)",
+      "sin C - sin D = 2 sin((C-D)/2) cos((C+D)/2)",
+      "cos C + cos D = 2 cos((C+D)/2) cos((C-D)/2)",
+      "cos C - cos D = 2 sin((C+D)/2) sin((D-C)/2)"
+    ],
+    "tables": [
+      "| Trigonometric Ratios | Domain | Range |\n|---|---|---|\n| sinθ | R | [-1, 1] |\n| cosθ | R | [-1, 1] |\n| tanθ | R - {(2n + 1)π/2 : n ∈ I} | R |\n| cosecθ | R - {nπ : n ∈ I} | R - (-1, 1) |\n| secθ | R - {(2n + 1)π/2 : n ∈ I} | R - (-1, 1) |\n| cotθ | R - {nπ : n ∈ I} | R |",
+      "| θ | 0 | π/6 | π/4 | π/3 | π/2 |\n|---|---|---|---|---|---|\n| sin | 0 | 1/2 | 1/√2 | √3/2 | 1 |\n| cos | 1 | √3/2 | 1/√2 | 1/2 | 0 |\n| tan | 0 | 1/√3 | 1 | √3 | Undefined |\n| cot | Undefined | √3 | 1 | 1/√3 | 0 |\n| sec | 1 | 2/√3 | √2 | 2 | Undefined |\n| cosec | Undefined | 2 | √2 | 2/√3 | 1 |",
+      "| Quadrant | sinθ | cosθ | tanθ | cotθ | secθ | cosecθ |\n|---|---|---|---|---|---|---|\n| I | + | + | + | + | + | + |\n| II | + | - | - | - | - | + |\n| III | - | - | + | + | - | - |\n| IV | - | + | - | - | + | - |"
+    ],
+    "image_descriptions": [
+      "Table showing trigonometric ratios for allied angles (θ, -θ, 90°±θ, 180°±θ, 270°±θ, 360°±θ)."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 363
+  },
+  {
+    "id": "trig_submultiples_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios of Submultiples Angles",
+    "text": "<p>Formulas for trigonometric ratios of submultiple angles:</p><ul><li>sin A = 2sin(A/2)cos(A/2) = (2tan(A/2)) / (1 + tan^2(A/2))</li><li>cos A = cos^2(A/2) - sin^2(A/2) = 2cos^2(A/2) - 1 = 1 - 2sin^2(A/2) = (1 - tan^2(A/2)) / (1 + tan^2(A/2))</li><li>tan A = (2tan(A/2)) / (1 - tan^2(A/2))</li><li>cot A = (cot^2(A/2) - 1) / (2cot(A/2))</li></ul>",
+    "formulas": [
+      "sin A = 2sin(A/2)cos(A/2) = (2tan(A/2)) / (1 + tan^2(A/2))",
+      "cos A = cos^2(A/2) - sin^2(A/2) = 2cos^2(A/2) - 1 = 1 - 2sin^2(A/2) = (1 - tan^2(A/2)) / (1 + tan^2(A/2))",
+      "tan A = (2tan(A/2)) / (1 - tan^2(A/2))",
+      "cot A = (cot^2(A/2) - 1) / (2cot(A/2))"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Trigonometric ratios expressed in terms of half-angles."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 364
+  },
+  {
+    "id": "trig_multiples_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios of Multiple of an Angle",
+    "text": "<p>Formulas for trigonometric ratios of multiple angles:</p><ul><li>sin 2A = 2sin A cos A = (2tan A) / (1 + tan^2 A)</li><li>cos 2A = cos^2 A - sin^2 A = 2cos^2 A - 1 = 1 - 2sin^2 A = (1 - tan^2 A) / (1 + tan^2 A)</li><li>tan 2A = (2tan A) / (1 - tan^2 A)</li><li>cot 2A = (cot^2 A - 1) / (2cot A)</li><li>sin 3A = 3sin A - 4sin^3 A</li><li>cos 3A = 4cos^3 A - 3cos A</li><li>tan 3A = (3tan A - tan^3 A) / (1 - 3tan^2 A)</li><li>cot 3A = (3cot A - cot^3 A) / (1 - 3cot^2 A)</li></ul>",
+    "formulas": [
+      "sin 2A = 2sin A cos A = (2tan A) / (1 + tan^2 A)",
+      "cos 2A = cos^2 A - sin^2 A = 2cos^2 A - 1 = 1 - 2sin^2 A = (1 - tan^2 A) / (1 + tan^2 A)",
+      "tan 2A = (2tan A) / (1 - tan^2 A)",
+      "cot 2A = (cot^2 A - 1) / (2cot A)",
+      "sin 3A = 3sin A - 4sin^3 A",
+      "cos 3A = 4cos^3 A - 3cos A",
+      "tan 3A = (3tan A - tan^3 A) / (1 - 3tan^2 A)",
+      "cot 3A = (3cot A - cot^3 A) / (1 - 3cot^2 A)"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Trigonometric ratios for double and triple angles."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 364
+  },
+  {
+    "id": "trig_specific_angles_001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Values of Trigonometric Ratios of Some Specific Angles",
+    "text": "<ul><li>sin 15° = (sqrt(3) - 1) / (2sqrt(2))</li><li>cos 15° = (sqrt(3) + 1) / (2sqrt(2))</li><li>tan 15° = cot 75° = 2 - sqrt(3)</li><li>cot 15° = tan 75° = 2 + sqrt(3)</li></ul>",
+    "formulas": [
+      "sin 15° = (sqrt(3) - 1) / (2sqrt(2))",
+      "cos 15° = (sqrt(3) + 1) / (2sqrt(2))",
+      "tan 15° = cot 75° = 2 - sqrt(3)",
+      "cot 15° = tan 75° = 2 + sqrt(3)"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Specific trigonometric values for 15 and 75 degrees."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 364
+  },
+  {
+    "id": "math-trig-137-001",
+    "subject": "Mathematics",
+    "chapter": "Measurement of Angles and Trigonometric Ratios",
+    "topic": "Trigonometric Values and Equations",
+    "text": "<p><strong>Trigonometric Values:</strong></p><ul><li>sin 18° = cos 72° = (sqrt(5)-1)/4</li><li>cos 36° = sin 54° = (sqrt(5)+1)/4</li><li>cos 18° = sin 72° = sqrt(10+2sqrt(5))/4</li><li>sin 36° = cos 54° = sqrt(10-2sqrt(5))/4</li><li>sin 22.5° = sqrt(2-sqrt(2))/2</li><li>cos 22.5° = sqrt(2+sqrt(2))/2</li><li>tan 22.5° = sqrt(2)-1</li><li>cot 22.5° = sqrt(2)+1</li></ul><p><strong>Solutions or Roots of a Trigonometric Equation:</strong></p><p>A value of the unknown angle which satisfies the given equation is called a solution or root of the equation.</p><ul><li><strong>Principal solution:</strong> The least value of unknown angle which satisfies the given equation.</li><li><strong>General solution:</strong> The solution consisting of all possible solutions of a trigonometric equation.</li></ul><p><strong>Note:</strong> A function f(x) is said to be a periodic function, if a least positive real number T is such that f(x + T) = f(x), then T is known as period of function f(x).</p><p><strong>Maximum and Minimum Values of (a sin θ ± b cos θ):</strong></p><p>The maximum and minimum values are respectively, sqrt(a^2 + b^2) and -sqrt(a^2 + b^2).</p><p><strong>Trigonometric Equation:</strong></p><p>An equation involving one or more trigonometric ratios of unknown angles is called a trigonometric equation. e.g., 2cos θ + 3cos 2θ = 0, cos^2 θ + sin θ = 1/3 etc.</p>",
+    "formulas": [
+      "sin 18° = (sqrt(5)-1)/4",
+      "cos 36° = (sqrt(5)+1)/4",
+      "cos 18° = sqrt(10+2sqrt(5))/4",
+      "sin 36° = sqrt(10-2sqrt(5))/4",
+      "sin 22.5° = sqrt(2-sqrt(2))/2",
+      "cos 22.5° = sqrt(2+sqrt(2))/2",
+      "tan 22.5° = sqrt(2)-1",
+      "cot 22.5° = sqrt(2)+1",
+      "sqrt(a^2 + b^2)",
+      "-sqrt(a^2 + b^2)",
+      "2cos θ + 3cos 2θ = 0",
+      "cos^2 θ + sin θ = 1/3"
+    ],
+    "tables": [
+      "| Trigonometrical equation | General solution |\n|---|---|\n| sin θ = 0 | θ = nπ, n ∈ I |\n| cos θ = 0 | θ = (2n + 1)π/2, n ∈ I |\n| tan θ = 0 | θ = nπ, n ∈ I |\n| sin θ = 1 | θ = 2nπ + π/2, n ∈ I |\n| cos θ = 1 | θ = 2nπ, n ∈ I |\n| sin θ = sin α | θ = nπ + (-1)^nα, α ∈ [-π/2, π/2], n ∈ I |\n| cos θ = cos α | θ = 2nπ ± α, α ∈ [0, π], n ∈ I |\n| tan θ = tan α | θ = nπ + α, α ∈ (-π/2, π/2), n ∈ I |\n| sin^2 θ = sin^2 α, tan^2 θ = tan^2 α, cos^2 θ = cos^2 α | θ = nπ ± α, n ∈ I |\n| sin θ = sin α and cos θ = cos α | θ = 2nπ + α, n ∈ I |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers specific trigonometric values for standard angles, definitions of principal and general solutions for trigonometric equations, and general solution formulas for various trigonometric forms."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 365
+  },
+  {
+    "id": "math-trig-150-001",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Identities and Equations",
+    "text": "<p>This page contains solutions to various trigonometric problems involving identities, equations, and properties of triangles.</p><ul><li><strong>Problem 107:</strong> Derivation of tan^2((x+y)/2) + tan^2((x-y)/2) in terms of a and b.</li><li><strong>Problem 108:</strong> Evaluation of trigonometric functions with large angles and determining if p, q, r form a GP.</li><li><strong>Problem 109:</strong> Simplification of the expression (sin^3 A + sin 3A) / sin A + (cos^3 A - cos 3A) / cos A.</li><li><strong>Problem 110:</strong> Evaluation of A/B where A = cos 12 - cos 36 and B = sin 60 - sin 12.</li><li><strong>Problem 113:</strong> Properties of an equilateral triangle and evaluation of tan(A/2 + C).</li><li><strong>Problem 114:</strong> Given cos A + cos B + cos C = sqrt(3) * pi/3, derivation of the product of sin(A/2)sin(B/2)sin(C/2).</li><li><strong>Problem 115:</strong> Evaluation of cos((A+B)/2)cos((B+C)/2)cos((C+A)/2) in a triangle.</li></ul>",
+    "formulas": [
+      "tan^2((x+y)/2) + tan^2((x-y)/2) = (a^4 - b^4 + 4b^2) / (a^2b^2 + b^4)",
+      "sin^3 A + sin 3A = sin A(3 - 3sin^2 A + 3 - 4sin^2 A) = sin A(6 - 7sin^2 A)",
+      "cos A + cos B + cos C = 1 + 4 sin(A/2)sin(B/2)sin(C/2)",
+      "cos((A+B)/2)cos((B+C)/2)cos((C+A)/2) = sin(C/2)sin(A/2)sin(B/2) = 1/8"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Solutions to trigonometric problems 107 through 115, covering identities, triangle properties, and equation solving."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 378
+  },
+  {
+    "id": "itf-001",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Introduction and Definitions",
+    "text": "<p><strong>Inverse Function:</strong> If <em>f: X → Y</em> is a function which is both one-one and onto, then its inverse function <em>f<sup>-1</sup>: Y → X</em> is defined as <em>y = f(x) ⇔ f<sup>-1</sup>(y) = x</em>, ∀ x ∈ X, ∀ y ∈ Y.</p><p><strong>Inverse Trigonometric Functions:</strong> Trigonometric functions are not one-one and onto on their natural domains and ranges, so in order to make them one-one and onto, we restrict their domain and codomain. And thus we obtain inverses of trigonometric functions. Inverse of <em>f</em> is denoted by <em>f<sup>-1</sup></em>. Let <em>y = f(x) = sin x</em> be a function. Then, its inverse is <em>x = sin<sup>-1</sup> y</em>.</p>",
+    "formulas": [
+      "y = f(x) <=> f^-1(y) = x",
+      "y = f(x) = sin x => x = sin^-1 y"
+    ],
+    "tables": [
+      "| y | Domain x | Range y (Principal Value) |\n|---|---|---|\n| sin^-1 x | -1 ≤ x ≤ 1 | -π/2 ≤ y ≤ π/2 |\n| cosec^-1 x | x ≤ -1 or x ≥ 1 | -π/2 ≤ y ≤ π/2, y ≠ 0 |\n| cos^-1 x | -1 ≤ x ≤ 1 | 0 ≤ y ≤ π |\n| sec^-1 x | x ≤ -1 or x ≥ 1 | 0 ≤ y ≤ π, y ≠ π/2 |\n| tan^-1 x | -∞ < x < ∞ | -π/2 < y < π/2 |\n| cot^-1 x | -∞ < x < ∞ | 0 < y < π |"
+    ],
+    "image_descriptions": [
+      "A simple flow diagram showing the transformation: sin x --(Inverse)--> sin^-1 x."
+    ],
+    "details": {
+      "summary": "This section introduces the concept of inverse functions and specifically defines inverse trigonometric functions by restricting the domain and codomain of standard trigonometric functions. It includes a table of domains and principal value ranges for all six inverse trigonometric functions."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 379
+  },
+  {
+    "id": "pathfinder-math-inv-trig-001",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Properties of Inverse Trigonometric Functions",
+    "text": "<p><strong>Properties of Inverse Trigonometric Functions:</strong></p><ul><li>(i) (a) sin<sup>-1</sup>(sin θ) = θ and sin(sin<sup>-1</sup> x) = x, -π/2 ≤ θ ≤ π/2, -1 ≤ x ≤ 1</li><li>(b) cos<sup>-1</sup>(cos θ) = θ and cos(cos<sup>-1</sup> x) = x, 0 ≤ θ ≤ π, -1 ≤ x ≤ 1</li><li>(c) tan<sup>-1</sup>(tan θ) = θ and tan(tan<sup>-1</sup> x) = x, -π/2 < θ < π/2, x ∈ R</li><li>(d) cot<sup>-1</sup>(cot θ) = θ and cot(cot<sup>-1</sup> x) = x, 0 < θ < π, x ∈ R</li><li>(e) sec<sup>-1</sup>(sec θ) = θ and sec(sec<sup>-1</sup> x) = x</li><li>(f) cosec<sup>-1</sup>(cosec θ) = θ and cosec(cosec<sup>-1</sup> x) = x</li><li>(ii) (a) sin<sup>-1</sup> x = cosec<sup>-1</sup>(1/x) or cosec<sup>-1</sup> x = sin<sup>-1</sup>(1/x)</li><li>(b) cos<sup>-1</sup> x = sec<sup>-1</sup>(1/x) or sec<sup>-1</sup> x = cos<sup>-1</sup>(1/x)</li><li>(c) tan<sup>-1</sup> x = cot<sup>-1</sup>(1/x) or cot<sup>-1</sup> x = tan<sup>-1</sup>(1/x), if x > 0</li><li>(d) tan<sup>-1</sup> x = cot<sup>-1</sup>(1/x) - π or cot<sup>-1</sup> x = tan<sup>-1</sup>(1/x) - π, if x < 0</li><li>(iii) (a) sin<sup>-1</sup>(-x) = -sin<sup>-1</sup>(x)</li><li>(b) cos<sup>-1</sup>(-x) = π - cos<sup>-1</sup>(x)</li><li>(c) tan<sup>-1</sup>(-x) = -tan<sup>-1</sup>(x)</li><li>(d) cot<sup>-1</sup>(-x) = π - cot<sup>-1</sup>(x)</li><li>(e) sec<sup>-1</sup>(-x) = π - sec<sup>-1</sup>(x)</li><li>(f) cosec<sup>-1</sup>(-x) = -cosec<sup>-1</sup>(x)</li><li>(iv) (a) 2sin<sup>-1</sup> x = sin<sup>-1</sup> 2x√(1-x<sup>2</sup>) = cos<sup>-1</sup>(1-2x<sup>2</sup>)</li><li>(b) 2cos<sup>-1</sup> x = cos<sup>-1</sup>(2x<sup>2</sup>-1) = sin<sup>-1</sup>(2x√(1-x<sup>2</sup>))</li><li>(c) 2tan<sup>-1</sup> x = tan<sup>-1</sup>(2x/(1-x<sup>2</sup>)) = sin<sup>-1</sup>(2x/(1+x<sup>2</sup>)) = cos<sup>-1</sup>((1-x<sup>2</sup>)/(1+x<sup>2</sup>))</li><li>(d) 3sin<sup>-1</sup> x = sin<sup>-1</sup>(3x - 4x<sup>3</sup>)</li><li>(e) 3cos<sup>-1</sup> x = cos<sup>-1</sup>(4x<sup>3</sup> - 3x)</li><li>(f) 3tan<sup>-1</sup> x = tan<sup>-1</sup>((3x - x<sup>3</sup>)/(1 - 3x<sup>2</sup>))</li><li>(v) (a) sin<sup>-1</sup> x + cos<sup>-1</sup> x = π/2, (-1 ≤ x ≤ 1)</li><li>(b) tan<sup>-1</sup> x + cot<sup>-1</sup> x = π/2, x ∈ R</li><li>(c) sec<sup>-1</sup> x + cosec<sup>-1</sup> x = π/2, x ≤ -1 or x ≥ 1</li><li>(vi) (a) tan<sup>-1</sup> x + tan<sup>-1</sup> y = tan<sup>-1</sup>((x+y)/(1-xy)), if xy < 1</li><li>(b) tan<sup>-1</sup> x + tan<sup>-1</sup> y = π + tan<sup>-1</sup>((x+y)/(1-xy)), if xy > 1</li><li>(c) tan<sup>-1</sup> x - tan<sup>-1</sup> y = tan<sup>-1</sup>((x-y)/(1+xy)), if x > 0, y > 0</li><li>(vii) (a) sin<sup>-1</sup> x ± sin<sup>-1</sup> y = sin<sup>-1</sup>{x√(1-y<sup>2</sup>) ± y√(1-x<sup>2</sup>)}</li><li>(b) cos<sup>-1</sup> x ± cos<sup>-1</sup> y = cos<sup>-1</sup>{xy ∓ √(1-x<sup>2</sup>)√(1-y<sup>2</sup>)}</li><li>(viii) (a) sin<sup>-1</sup> x = cos<sup>-1</sup>(√(1-x<sup>2</sup>)) = tan<sup>-1</sup>(x/√(1-x<sup>2</sup>)) = cot<sup>-1</sup>(√(1-x<sup>2</sup>)/x) = sec<sup>-1</sup>(1/√(1-x<sup>2</sup>)) = cosec<sup>-1</sup>(1/x)</li></ul>",
+    "formulas": [
+      "sin^-1(sin θ) = θ",
+      "2tan^-1 x = tan^-1(2x/(1-x^2))",
+      "sin^-1 x + cos^-1 x = π/2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Comprehensive list of properties and identities for inverse trigonometric functions."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 380
+  },
+  {
+    "id": "math-itf-001",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "topic": "Conversion Formulas",
+    "text": "<p>The following conversion identities for inverse trigonometric functions are provided:</p><ul><li><strong>cos<sup>-1</sup> x</strong> = sin<sup>-1</sup>(sqrt(1-x<sup>2</sup>)) = tan<sup>-1</sup>(sqrt(1-x<sup>2</sup>)/x) = cot<sup>-1</sup>(x/sqrt(1-x<sup>2</sup>)) = sec<sup>-1</sup>(1/x) = cosec<sup>-1</sup>(1/sqrt(1-x<sup>2</sup>))</li><li><strong>tan<sup>-1</sup> x</strong> = sin<sup>-1</sup>(x/sqrt(1+x<sup>2</sup>)) = cos<sup>-1</sup>(1/sqrt(1+x<sup>2</sup>)) = cot<sup>-1</sup>(1/x) = sec<sup>-1</sup>(sqrt(1+x<sup>2</sup>)) = cosec<sup>-1</sup>(sqrt(1+x<sup>2</sup>)/x)</li></ul>",
+    "formulas": [
+      "cos^-1 x = sin^-1(sqrt(1-x^2)) = tan^-1(sqrt(1-x^2)/x)",
+      "tan^-1 x = sin^-1(x/sqrt(1+x^2)) = cos^-1(1/sqrt(1+x^2))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Conversion identities for inverse trigonometric functions."
+    },
+    "mcq": {
+      "question": "The principal value of sin^-1(1/sqrt(17)) + cos^-1(5/sqrt(34)) is",
+      "options": [
+        "pi/4",
+        "pi/2",
+        "sin^-1(23/17sqrt(2))",
+        "cos^-1(23/17sqrt(2))"
+      ],
+      "correct": 0,
+      "explanation": "sin^-1(1/sqrt(17)) + cos^-1(5/sqrt(34)) = tan^-1(1/4) + tan^-1(3/5) = tan^-1((1/4 + 3/5) / (1 - 1/4 * 3/5)) = tan^-1(1) = pi/4"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 381
+  },
+  {
+    "id": "HD-001",
+    "subject": "Mathematics",
+    "chapter": "Height and Distance",
+    "topic": "Introduction to Height and Distance",
+    "text": "<p>Height and distance is one of the most important applications of trigonometry which helps us to find the height of any object and distance of objects between points which are not directly measurable.</p><h3>Line of Sight</h3><p>When the eye of a person at a point O looks at an object P, then the line OP is called the line of sight.</p><h3>Angle of Elevation</h3><p>Let P be an object and OX be a horizontal line, an observer at O to perceive the object P has to elevate his eye from direction OX to the direction OP. As such, we define angle XOP as the angle at elevation of P at O.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A geometric diagram showing a right-angled triangle formed by an observer at point O, an object at point P, and a horizontal line OX. The line OP represents the 'Line of sight', and the angle between OP and OX is labeled 'Angle of elevation'. A vertical dashed line drops from P to the horizontal line at point Q.",
+      "A right-angled triangle ABC where angle C is 60 degrees, AC is the base (4.6 m), and AB is the vertical wall."
+    ],
+    "details": {
+      "summary": "Introduction to trigonometric applications for measuring heights and distances, defining line of sight and angle of elevation."
+    },
+    "mcq": {
+      "question": "The angle of elevation of a ladder leaning against a wall is 60° and the foot of the ladder is 4.6 m away from the wall. The length of the ladder is",
+      "options": [
+        "2.3 m",
+        "9.2 m",
+        "4.6 m",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "Let AB be the wall and BC be the ladder. Then, angle ACB = 60° and AC = 4.6 m. In triangle ACB, cos 60° = AC/BC => 1/2 = 4.6/BC => BC = (4.6 * 2) m = 9.2 m."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 387
+  },
+  {
+    "id": "pathfinder-trig-160-01",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Angle of Depression",
+    "text": "<p>Let <em>P</em> be an object and <em>OX</em> be a horizontal line, an observer at <em>O</em> to perceive the object <em>P</em> has to depress his eye from the direction <em>OX</em> to direction <em>OP</em>. As such, we define ∠<em>XOP</em> as the angle of depression of <em>P</em> at <em>O</em>.</p><ul><li>Any perpendicular line to a plane is perpendicular to all lines lying in the plane.</li><li>Angle of elevation and depression are always acute angles.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing an observer at point O, a horizontal line OX, and an object P below the horizontal line. The angle between OX and the line of sight OP is labeled 'Angle of depression'."
+    ],
+    "details": {
+      "summary": "Definition and properties of the angle of depression."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 388
+  },
+  {
+    "id": "pathfinder-trig-160-02",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "m-n Theorem",
+    "text": "<p>If <em>D</em> divides <em>AB</em> in the ratio <em>m : n</em>, then:</p><ul><li>(i) (m + n)cot θ = n cot A - m cot B</li><li>(ii) (m + n)cot θ = m cot α - n cot β</li></ul>",
+    "formulas": [
+      "(m + n)cot θ = n cot A - m cot B",
+      "(m + n)cot θ = m cot α - n cot β"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Triangle ABC with a line segment CD dividing the base AB at point D. The segments AD and DB are labeled m and n respectively. The angle at D is θ, and angles at A and B are A and B. Angles at C are α and β."
+    ],
+    "details": {
+      "summary": "The m-n theorem for triangles."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 388
+  },
+  {
+    "id": "math-height-distance-001",
+    "subject": "Mathematics",
+    "chapter": "Height and Distance",
+    "topic": "Hints and Solutions",
+    "text": "<p>This section provides step-by-step solutions for trigonometry-based height and distance problems.</p><ul><li><strong>Problem 1:</strong> Uses the sine ratio in a right-angled triangle where sin(theta) = AB/BC.</li><li><strong>Problem 2:</strong> Uses the tangent ratio where tan(theta) = BC/AB.</li><li><strong>Problem 3:</strong> Involves calculating the height of a flag post using the tangent of 75 degrees, derived from tan(45+30).</li><li><strong>Problem 4:</strong> Demonstrates the relationship between heights of two towers using tan(60).</li></ul>",
+    "formulas": [
+      "sin(theta) = AB/BC",
+      "tan(theta) = BC/AB",
+      "tan(45 + 30) = (tan 45 + tan 30) / (1 - tan 45 * tan 30)",
+      "h = 5 * (3 + 1 + 2*sqrt(3)) / (3 - 1)"
+    ],
+    "tables": [
+      "| Question | Answer | Question | Answer | Question | Answer | Question | Answer | Question | Answer |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | a | 2 | a | 3 | c | 4 | d | 5 | c |\n| 6 | b | 7 | a | 8 | c | 9 | c | 10 | a |\n| 11 | a | 12 | c | 13 | c | 14 | b | 15 | c |\n| 16 | a | 17 | c | 18 | d | 19 | c | 20 | c |\n| 21 | b | 22 | b | 23 | b | 24 | b | 25 | b |\n| 26 | b | 27 | c | 28 | d | 29 | a | 30 | c |\n| 31 | b | 32 | b | 33 | b | 34 | b | 35 | c |"
+    ],
+    "image_descriptions": [
+      "Diagram 1: A right-angled triangle ABC with a ladder of length 30m as the hypotenuse, height AB=15m, and base BC=30m.",
+      "Diagram 2: A right-angled triangle ABC representing a pole of height 1m, with base distance 1km and angle theta at point A.",
+      "Diagram 3: A right-angled triangle ABC representing a flag post of height h, with base 5m and angle 75 degrees at point C."
+    ],
+    "details": {
+      "summary": "Solutions for height and distance problems involving trigonometric ratios and geometric properties."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 391
+  },
+  {
+    "id": "pathfinder-trig-heights-dist-001",
+    "subject": "Mathematics",
+    "chapter": "Heights and Distances",
+    "topic": "Applications of Trigonometry in Heights and Distances",
+    "text": "<p>This page contains solved examples demonstrating the application of trigonometric ratios (tan, cot) to solve problems involving heights and distances, specifically involving angles of elevation and depression.</p><ul><li><strong>Example 5:</strong> Calculation of height 'h' of a point P given two triangles with different angles of elevation.</li><li><strong>Example 6:</strong> Calculation of height 'h' of a mount using two angles of elevation (45° and 75°).</li><li><strong>Example 7:</strong> Calculation of height 'H' of a chimney using angles of elevation to the top and bottom of a building.</li><li><strong>Example 8:</strong> Calculation of height 'x' of a plane using angles of elevation.</li><li><strong>Example 9:</strong> Calculation of height 'h' of a tree.</li><li><strong>Example 10:</strong> Calculation of height 'h' of two poles of equal height given angles of elevation from a point between them.</li></ul>",
+    "formulas": [
+      "tan(theta) = height / base",
+      "cot(theta) = base / height",
+      "tan(A + B) = (tan A + tan B) / (1 - tan A tan B)",
+      "tan(A - B) = (tan A - tan B) / (1 + tan A tan B)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram for Example 5: Two right-angled triangles sharing a common height 'h' with angles 30 and 60 degrees.",
+      "Diagram for Example 6: A vertical line with height 'h' and an additional 100m segment, with angles 45 and 75 degrees.",
+      "Diagram for Example 7: A building of 20m and a chimney of height H, with angles alpha and beta.",
+      "Diagram for Example 8: A plane at 300m height with angles 45 and 60 degrees.",
+      "Diagram for Example 9: A tree of height 'h' with angles 30 and 60 degrees.",
+      "Diagram for Example 10: Two poles of height 'h' with a point O between them, angles 30 and 60 degrees."
+    ],
+    "details": {
+      "summary": "Solved mathematical problems related to heights and distances using trigonometric ratios."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 392
+  },
+  {
+    "id": "math-height-distance-165",
+    "subject": "Mathematics",
+    "chapter": "Height and Distance",
+    "topic": "Applications of Trigonometry in Height and Distance",
+    "text": "<p>This page provides detailed solutions and geometric derivations for various height and distance problems involving towers, boats, balloons, and reflections.</p><ul><li><strong>Problem 11:</strong> Derivation for two positions of a boat relative to a tower of height <em>h</em>.</li><li><strong>Problem 12:</strong> Geometric relationship where <em>h^2 = ab</em> given two points of observation at distances <em>a</em> and <em>b</em>.</li><li><strong>Problem 13:</strong> Calculation involving a pole of length <em>h</em> and sun elevation angles.</li><li><strong>Problem 14:</strong> General derivation for distance <em>d</em> between two points of observation given angles of elevation <em>alpha</em> and <em>beta</em>.</li><li><strong>Problem 15:</strong> Trigonometric derivation involving ratios and angles.</li><li><strong>Problem 16:</strong> Exponential height calculation.</li><li><strong>Problem 17:</strong> Geometry of a balloon with radius <em>r</em> and tangent points.</li><li><strong>Problem 18-19:</strong> Reflection of a cloud in a lake.</li></ul>",
+    "formulas": [
+      "y/h = cot 60 = 1/sqrt(3)",
+      "x + y = sqrt(3)h",
+      "h = a tan theta",
+      "h^2 = ab",
+      "cot(alpha + beta) = (cot alpha cot beta - 1) / (cot beta + cot alpha)",
+      "tan(theta + alpha) = (tan theta + tan alpha) / (1 - tan theta tan alpha)",
+      "tan 2theta = (2 tan theta) / (1 - tan^2 theta)"
+    ],
+    "image_descriptions": [
+      "Diagram 11: Right-angled triangle showing a tower of height h and a boat at two positions with angles of elevation 30 and 60 degrees.",
+      "Diagram 12: Right-angled triangle showing a tower of height h and two points of observation at distances a and b with angles theta and 90-theta.",
+      "Diagram 13: Right-angled triangle showing a pole of height h and sun rays creating angles alpha and beta.",
+      "Diagram 14: Triangle showing a tower of height h and two observation points separated by distance d with angles alpha and beta.",
+      "Diagram 15: Triangle showing angles alpha and theta.",
+      "Diagram 17: Circle representing a balloon with radius r, tangent lines from point O, and angles alpha and beta.",
+      "Diagram 18-19: Reflection of a cloud in a lake showing the object and its image at equal distances from the water surface."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 393
+  },
+  {
+    "id": "pathfinder-nda-166-theory-01",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Heights and Distances",
+    "text": "<p>This page contains solutions to problems involving heights and distances using trigonometric ratios. Key concepts include:</p><ul><li><strong>Angle of Elevation and Depression:</strong> Used to calculate heights of towers, buildings, and distances of objects like boats or aeroplanes.</li><li><strong>Trigonometric Identities:</strong> Application of tan(A-B) = (tan A - tan B) / (1 + tan A tan B).</li><li><strong>Geometric Relationships:</strong> Using properties of right-angled triangles to relate horizontal distances and vertical heights.</li></ul>",
+    "formulas": [
+      "tan(A - B) = (tan A - tan B) / (1 + tan A tan B)",
+      "tan theta = Height / Base",
+      "Speed = Distance / Time",
+      "x = (h cot beta) / (cot alpha - cot beta)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram for Q22: A right-angled triangle showing a tower of height 5*sqrt(3) m, with angles of elevation 30 degrees and theta from points A and B respectively.",
+      "Diagram for Q23: A lighthouse of height 70 m, with a boat at distance x, showing an angle of depression of 15 degrees.",
+      "Diagram for Q24: A building of height h and a hill of height x+h, with angles of elevation alpha and beta.",
+      "Diagram for Q25: A sun casting a shadow, showing two triangles with angles 60 degrees and 30 degrees, with a base difference of 50 m.",
+      "Diagram for Q26: A hill of height h, with two observation points A and B, with angles of elevation 30 degrees and 45 degrees respectively."
+    ],
+    "details": {
+      "summary": "Solutions for problems related to heights and distances involving towers, lighthouses, buildings, and moving objects like aeroplanes."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 394
+  },
+  {
+    "id": "POT-001",
+    "subject": "Mathematics",
+    "chapter": "Properties of Triangles",
+    "topic": "Basic Definitions and Sine Rule",
+    "text": "<p>A triangle has six components: three sides and three angles. The angles of a triangle ABC are denoted by A, B, and C, and the sides opposite to these angles are denoted by a, b, and c respectively (a = BC, b = CA, c = AB).</p><ul><li><strong>Semi-perimeter (s):</strong> s = (a + b + c) / 2</li><li><strong>Area:</strong> Denoted by Δ</li><li><strong>Sum of angles:</strong> A + B + C = 180°</li></ul><p><strong>Sine Rule:</strong> In any triangle ABC, sin A / a = sin B / b = sin C / c. The sines of the angles are proportional to the lengths of the opposite sides.</p><p>Let a / sin A = b / sin B = c / sin C = K. Then, a = K sin A, b = K sin B, c = K sin C, or sin A = a/K, sin B = b/K, sin C = c/K.</p>",
+    "formulas": [
+      "s = (a + b + c) / 2",
+      "A + B + C = 180°",
+      "sin A / a = sin B / b = sin C / c",
+      "a / sin A = b / sin B = c / sin C = K",
+      "a = K sin A, b = K sin B, c = K sin C"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A triangle labeled ABC with vertices A, B, C. The side opposite to A is 'a', opposite to B is 'b', and opposite to C is 'c'. The internal angles at vertices A, B, and C are marked."
+    ],
+    "details": {
+      "summary": "Introduction to triangle properties including semi-perimeter, angle sum property, and the Sine Rule."
+    },
+    "mcq": {
+      "question": "The angles of a triangle are in the ratio 1 : 5 : 6. The ratio of its sides is",
+      "options": [
+        "(√3 - 1) : (√3 + 1) : 2√2",
+        "(√3 - 1) : 2√2 : (√3 + 1)",
+        "(√3 - 1) : (√3 + 1) : 2√2",
+        "None of these"
+      ],
+      "correct": 0,
+      "explanation": "Let the angles be x, 5x, 6x. Then x + 5x + 6x = 180 => x = 15. Angles are 15°, 75°, 90°. Ratio of sides = sin 15° : sin 75° : sin 90° = (√3 - 1)/2√2 : (√3 + 1)/2√2 : 1 = (√3 - 1) : (√3 + 1) : 2√2."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 396
+  },
+  {
+    "id": "POT-002",
+    "subject": "Mathematics",
+    "chapter": "Properties of Triangles",
+    "topic": "Cosine Rule",
+    "text": "<p>In any triangle ABC, the Cosine Rule is defined as:</p><ul><li>(i) a² = b² + c² - 2bc cos A or cos A = (b² + c² - a²) / 2bc</li><li>(ii) b² = c² + a² - 2ac cos B or cos B = (a² + c² - b²) / 2ac</li><li>(iii) c² = a² + b² - 2ab cos C or cos C = (a² + b² - c²) / 2ab</li></ul>",
+    "formulas": [
+      "a² = b² + c² - 2bc cos A",
+      "cos A = (b² + c² - a²) / 2bc",
+      "b² = c² + a² - 2ac cos B",
+      "cos B = (a² + c² - b²) / 2ac",
+      "c² = a² + b² - 2ab cos C",
+      "cos C = (a² + b² - c²) / 2ab"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas for the Cosine Rule in a triangle."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 396
+  },
+  {
+    "id": "math-triangles-001",
+    "subject": "Mathematics",
+    "chapter": "Properties of Triangles",
+    "topic": "Projection Formulae",
+    "text": "<p>In any triangle ABC:</p><ul><li>a = b cos C + c cos B</li><li>b = c cos A + a cos C</li><li>c = a cos B + b cos A</li></ul><p><strong>Note:</strong> Any side of a triangle is equal to the sum of the projections of other two sides on it.</p>",
+    "formulas": [
+      "a = b cos C + c cos B",
+      "b = c cos A + a cos C",
+      "c = a cos B + b cos A"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Projection formulae for sides of a triangle in terms of other sides and cosines of angles."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 397
+  },
+  {
+    "id": "math-triangles-002",
+    "subject": "Mathematics",
+    "chapter": "Properties of Triangles",
+    "topic": "Trigonometrical Ratios of Half Angles of a Triangle",
+    "text": "<p>In any triangle ABC, let s = (a + b + c)/2, then:</p><ul><li>sin(A/2) = sqrt((s-b)(s-c)/bc)</li><li>sin(B/2) = sqrt((s-a)(s-c)/ac)</li><li>sin(C/2) = sqrt((s-a)(s-b)/ab)</li><li>cos(A/2) = sqrt(s(s-a)/bc)</li><li>cos(B/2) = sqrt(s(s-b)/ac)</li><li>cos(C/2) = sqrt(s(s-c)/ab)</li><li>tan(A/2) = sqrt((s-b)(s-c)/s(s-a))</li><li>tan(B/2) = sqrt((s-a)(s-c)/s(s-b))</li><li>tan(C/2) = sqrt((s-a)(s-b)/s(s-c))</li></ul>",
+    "formulas": [
+      "sin(A/2) = sqrt((s-b)(s-c)/bc)",
+      "cos(A/2) = sqrt(s(s-a)/bc)",
+      "tan(A/2) = sqrt((s-b)(s-c)/s(s-a))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Half-angle trigonometric ratios expressed in terms of sides and semi-perimeter s."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 397
+  },
+  {
+    "id": "math-triangles-003",
+    "subject": "Mathematics",
+    "chapter": "Properties of Triangles",
+    "topic": "Area of Triangle",
+    "text": "<p>In any triangle ABC, if the sides are a, b, c and corresponding angles are A, B, C respectively, then area of triangle (Delta) is:</p><ul><li>Delta = 1/2 ab sin C = 1/2 bc sin A = 1/2 ca sin B</li><li>Delta = c^2 sin A sin B / 2 sin C = a^2 sin B sin C / 2 sin A = b^2 sin C sin A / 2 sin B</li><li>Delta = sqrt(s(s-a)(s-b)(s-c))</li></ul>",
+    "formulas": [
+      "Delta = 1/2 ab sin C",
+      "Delta = sqrt(s(s-a)(s-b)(s-c))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Various formulas to calculate the area of a triangle."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 397
+  },
+  {
+    "id": "math-triangles-004",
+    "subject": "Mathematics",
+    "chapter": "Properties of Triangles",
+    "topic": "Tangent Formulae or Napier's Analogy",
+    "text": "<p>In any triangle ABC:</p><ul><li>tan((B-C)/2) = ((b-c)/(b+c)) cot(A/2)</li><li>tan((C-A)/2) = ((c-a)/(c+a)) cot(B/2)</li><li>tan((A-B)/2) = ((a-b)/(a+b)) cot(C/2)</li></ul>",
+    "formulas": [
+      "tan((B-C)/2) = ((b-c)/(b+c)) cot(A/2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Napier's Analogy relating sides and angles of a triangle."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 397
+  },
+  {
+    "id": "math-tri-001",
+    "subject": "Mathematics",
+    "chapter": "Properties of Triangles",
+    "topic": "Circumcircle of a Triangle",
+    "text": "<p>A circle passing through the vertices of a triangle ABC is called <strong>circumcircle</strong> and its radius is called <strong>circumradius (R)</strong> and its centre is known as <strong>circumcentre</strong>.</p><p>Circumradius of triangle is given by:</p>",
+    "formulas": [
+      "R = a / (2 sin A) = b / (2 sin B) = c / (2 sin C) = abc / (4 * delta)"
+    ],
+    "image_descriptions": [
+      "A triangle ABC with a circumcircle passing through all three vertices. The circumcentre O is marked inside, and the sides are labeled a, b, c."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 398
+  },
+  {
+    "id": "math-tri-002",
+    "subject": "Mathematics",
+    "chapter": "Properties of Triangles",
+    "topic": "Incircle of a Triangle",
+    "text": "<p>The circle which can be inscribed within the triangle so as to touch each of its sides is called its <strong>inscribed circle</strong> or <strong>incircle</strong> and its centre is called <strong>incentre</strong> and its radius is called <strong>inradius (r)</strong>.</p><p>In any triangle ABC:</p><ul><li>r = delta / s</li><li>r = (s - a) tan(A/2) = (s - b) tan(B/2) = (s - c) tan(C/2)</li><li>r = 4R sin(A/2) sin(B/2) sin(C/2)</li><li>r = (a sin(B/2) sin(C/2)) / cos(A/2) = (b sin(A/2) sin(C/2)) / cos(B/2) = (c sin(B/2) sin(A/2)) / cos(C/2)</li></ul>",
+    "formulas": [
+      "r = delta / s",
+      "r = (s - a) tan(A/2)",
+      "r = 4R sin(A/2) sin(B/2) sin(C/2)"
+    ],
+    "image_descriptions": [
+      "A triangle ABC with an incircle inside touching all three sides. The incentre O and inradius r are marked."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 398
+  },
+  {
+    "id": "math-tri-003",
+    "subject": "Mathematics",
+    "chapter": "Properties of Triangles",
+    "topic": "Escribed Circles of a Triangle",
+    "text": "<p>The circle which touches the sides BC and two sides AB and AC produced of a triangle ABC, is called the <strong>escribed circle</strong> opposite to the angle A. Its radius is denoted by r1. Similarly, r2 and r3 denote the radii of the escribed circles opposite to the angles B and C, respectively. The centres of the escribed circles are called <strong>excentres</strong>.</p><p>In any triangle ABC:</p><ul><li>r1 = delta / (s - a) = s tan(A/2) = 4R sin(A/2) cos(B/2) cos(C/2)</li><li>r2 = delta / (s - b) = s tan(B/2) = 4R sin(B/2) cos(C/2) cos(A/2)</li><li>r3 = delta / (s - c) = s tan(C/2) = 4R sin(C/2) cos(A/2) cos(B/2)</li><li>r1 + r2 + r3 = 4R + r</li><li>r1*r2 + r2*r3 + r3*r1 = s^2 = (r1*r2*r3) / r</li><li>r1 = (a cos(B/2) cos(C/2)) / cos(A/2)</li><li>r2 = (b cos(C/2) cos(A/2)) / cos(B/2)</li><li>r3 = (c cos(A/2) cos(B/2)) / cos(C/2)</li><li>1/r1 + 1/r2 + 1/r3 = 1/r = s / delta</li><li>r1*r2*r3 = r^2 * (cot(A/2) cot(B/2) cot(C/2))^2</li></ul>",
+    "formulas": [
+      "r1 = delta / (s - a)",
+      "r1 + r2 + r3 = 4R + r",
+      "r1*r2*r3 = r^2 * (cot(A/2) cot(B/2) cot(C/2))^2"
+    ],
+    "image_descriptions": [
+      "A triangle ABC with three excircles touching the sides externally. Excentres are marked as I1, I2, I3."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 398
+  },
+  {
+    "id": "coord-sys-001",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Coordinate System",
+    "text": "<p>A system in which points are defined as the ordered pair (x, y) is called the <strong>coordinate system</strong>. Here, x and y are called <strong>abscissa</strong> and <strong>ordinate</strong>, respectively.</p><h3>Cartesian Coordinates</h3><p>In coordinate system, there are two mutually perpendicular straight lines XOX' and YOY', called X and Y-axes, respectively. These axes divide the coordinate plane into four parts called <strong>quadrants</strong>. OX and OX' are called positive and negative directions, respectively of X-axis and similarly OY and OY' are called positive and negative directions, respectively of Y-axis.</p>",
+    "formulas": [
+      "x = abscissa",
+      "y = ordinate"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to the Cartesian coordinate system, defining axes, quadrants, and the terms abscissa and ordinate."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 406
+  },
+  {
+    "id": "dist-formula-001",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Distance Formula",
+    "text": "<p>The distance between any two points in the plane is the length of the line segment joining them.</p><p>Let P(x1, y1) and Q(x2, y2) be any two points in the XY-plane, then:</p><ul><li>|PQ| = sqrt((x2 - x1)^2 + (y2 - y1)^2)</li><li>or |PQ| = sqrt((Difference of abscissas)^2 + (Difference of ordinates)^2)</li></ul><p><strong>Note:</strong> Distance between the origin O(0, 0) and the point P(x, y) is OP = sqrt(x^2 + y^2).</p>",
+    "formulas": [
+      "|PQ| = sqrt((x2 - x1)^2 + (y2 - y1)^2)",
+      "OP = sqrt(x^2 + y^2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and formula for calculating the distance between two points in a 2D plane, including the specific case of distance from the origin."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 406
+  },
+  {
+    "id": "math-coord-001",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Applications of Distance Formula",
+    "text": "<p><strong>Collinear Points:</strong> Three points in alpha-y plane will be collinear, if sum of distances between two pairs of points is equal to third pair of points.</p><p><strong>Three Points In A Plane:</strong> Any three non-collinear points always form a triangle. Given three points would form:</p><ul><li><strong>Isosceles triangle:</strong> If lengths of any two sides are equal.</li><li><strong>Equilateral triangle:</strong> If lengths of all three sides are equal.</li><li><strong>Right angled triangle:</strong> If sum of squares of lengths of two sides is equal to length of third side.</li></ul><p><strong>Four points in a plane:</strong> Any four non-collinear points form a quadrilateral. Given four points would form:</p><ul><li><strong>Square:</strong> If all four sides are equal and diagonals are also equal.</li><li><strong>Rhombus:</strong> If all four sides are equal.</li><li><strong>Rectangle:</strong> If opposite sides are equal and diagonals are equal.</li><li><strong>Parallelogram:</strong> If opposite sides are equal.</li></ul><p><strong>Important Notes:</strong></p><ul><li>In a parallelogram, diagonals cut each other at mid-point.</li><li>In a rhombus, diagonals bisect each other at right angles.</li></ul>",
+    "formulas": [
+      "(x, y) = ((mx_2 + nx_1)/(m + n), (my_2 + ny_1)/(m + n))",
+      "(x, y) = ((mx_2 - nx_1)/(m - n), (my_2 - ny_1)/(m - n))",
+      "P(x, y) = ((x_1 + x_2)/2, (y_1 + y_2)/2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers geometric properties of points in a plane and section formulae for internal and external division."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 407
+  },
+  {
+    "id": "geo-tri-001",
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Area of a Triangle",
+    "text": "<p>Let A(x1, y1), B(x2, y2) and C(x3, y3) be the vertices of a triangle ABC, then:</p><p>Area of triangle ABC = 1/2 |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|</p><p><strong>Note:</strong> The three points A(x1, y1), B(x2, y2) and C(x3, y3) are collinear, if the area of triangle ABC is zero.</p>",
+    "formulas": [
+      "Area = 1/2 |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for calculating the area of a triangle using coordinates and the condition for collinearity."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 408
+  },
+  {
+    "id": "geo-tri-002",
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Incentre, Circumcentre, Orthocentre, and Excentre of a Triangle",
+    "text": "<h3>Incentre of a Triangle</h3><p>If (x, y) is the incentre of the triangle ABC, where A(x1, y1), B(x2, y2), C(x3, y3) are coordinates and a, b, c are the sides of the triangle, then incentre = ((ax1 + bx2 + cx3)/(a + b + c), (ay1 + by2 + cy3)/(a + b + c))</p><h3>Circumcentre of a Triangle</h3><p>If P(x, y) is the circumcentre of triangle ABC, then PA = PB = PC. <strong>Note:</strong> The circumcentre of a right angled triangle is the mid-point of its hypotenuse.</p><h3>Orthocentre of a Triangle</h3><p>The coordinates of the orthocentre are given by ((x1 tan A + x2 tan B + x3 tan C)/(tan A + tan B + tan C), (y1 tan A + y2 tan B + y3 tan C)/(tan A + tan B + tan C))</p><h3>Some Important Points</h3><ul><li>(i) Orthocentre of the right angled triangle ABC, right angled at A, is A.</li><li>(ii) Orthocentre of a triangle will lie inside, if triangle is acute and in case of obtuse triangle, orthocentre will lie outside.</li><li>(iii) In a triangle ABC, the circumcentre S, centroid G and orthocentre O are collinear and SG : GO = 1 : 2.</li><li>(iv) In equilateral triangle, orthocentre, centroid, circumcentre and incentre coincide.</li></ul><h3>Excentre of a Triangle</h3><p>There are three excentres in a triangle. The coordinates of I1 are given by ((-ax1 + bx2 + cx3)/(-a + b + c), (-ay1 + by2 + cy3)/(-a + b + c))</p>",
+    "formulas": [
+      "Incentre = ((ax1 + bx2 + cx3)/(a + b + c), (ay1 + by2 + cy3)/(a + b + c))",
+      "PA = PB = PC",
+      "SG : GO = 1 : 2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties of various triangle centers including Incentre, Circumcentre, Orthocentre, and Excentre."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 408
+  },
+  {
+    "id": "geo-quad-001",
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Area of Quadrilateral",
+    "text": "<p>Area of quadrilateral ABCD with vertices A(x1, y1), B(x2, y2), C(x3, y3) and D(x4, y4) taken in order is:</p><p>Area = 1/2 |(x1 - x3)(y1 - y3) - (x2 - x4)(y2 - y4)| (Note: Formula as per image representation)</p>",
+    "formulas": [
+      "Area = 1/2 |(x1 - x3)(y1 - y3) - (x2 - x4)(y2 - y4)|"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for the area of a quadrilateral given its vertices."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 408
+  },
+  {
+    "id": "geo-cent-001",
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Centroid of a Triangle",
+    "text": "<p>The coordinates of the centroid G of a triangle, whose vertices are A(x1, y1), B(x2, y2) and C(x3, y3) is given by ((x1 + x2 + x3)/3, (y1 + y2 + y3)/3).</p><p><strong>Note:</strong> If D, E and F are the mid-points of sides BC, CA and AB of a triangle ABC, then centroid of triangle ABC = centroid of triangle DEF.</p>",
+    "formulas": [
+      "G = ((x1 + x2 + x3)/3, (y1 + y2 + y3)/3)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and formula for the centroid of a triangle."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 408
+  },
+  {
+    "id": "math-coord-001",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Locus of a Point",
+    "text": "<p>The curve described by a point which moves under given condition or conditions is called its <strong>locus</strong>. The equation of the locus of a point is the relation which is satisfied by the coordinates of every point on the locus of the point.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of the locus of a point."
+    },
+    "mcq": {
+      "question": "The sum of the squares of the distances of a moving point from two fixed points (p, 0) and (-p, 0) is equal to a constant quantity 2λ^2, find the equation of the locus.",
+      "options": [
+        "x^2 + y^2 = λ^2 - p^2",
+        "x^2 + y^2 = λ^2 + p^2",
+        "x^2 - y^2 = λ^2 - p^2",
+        "x^2 - y^2 = λ^2 + p^2"
+      ],
+      "correct": 0,
+      "explanation": "Let P(h, k) be any position of the moving point and A(p, 0), B(-p, 0) be the given points. Then, PA^2 + PB^2 = 2λ^2. Substituting coordinates: (h - p)^2 + (k - 0)^2 + (h + p)^2 + (k - 0)^2 = 2λ^2. Simplifying gives 2h^2 + 2k^2 + 2p^2 = 2λ^2, which leads to h^2 + k^2 = λ^2 - p^2. Hence, the locus is x^2 + y^2 = λ^2 - p^2."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 409
+  },
+  {
+    "id": "math-coord-002",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Straight Lines",
+    "text": "<p>A straight line is the locus of all those points which are collinear with two given points. The equation of a straight line <em>l</em> is a linear relationship in <em>x</em> and <em>y</em>, i.e. it is a first degree polynomial equation in <em>x</em> and <em>y</em>. An equation of the form <em>ax + by + c = 0</em>, where <em>a, b</em> and <em>c</em> are constants, represents a straight line in general form.</p>",
+    "formulas": [
+      "ax + by + c = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and general form of a straight line."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 409
+  },
+  {
+    "id": "math-coord-003",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Slope or Gradient of a Line",
+    "text": "<p>The trigonometrical tangent of the angle α (α ≠ π/2) which a given line makes with the positive direction of X-axis, is called the slope or gradient of the line. It is generally denoted by <em>m</em>, i.e. <em>m = tan α</em>.</p><h3>Slopes in Different Conditions</h3><ul><li>Slope of X-axis or a line parallel to X-axis is <em>m = tan 0° = 0</em></li><li>Slope of Y-axis or a line parallel to Y-axis is <em>m = tan(π/2) = ∞</em></li><li>The slope of the line joining the points (x1, y1) and (x2, y2) is obtained as <em>m = (y2 - y1) / (x2 - x1) = Difference of ordinates / Difference of abscissas</em></li></ul>",
+    "formulas": [
+      "m = tan α",
+      "m = tan 0° = 0",
+      "m = tan(π/2) = ∞",
+      "m = (y2 - y1) / (x2 - x1)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and formulas for calculating the slope of a line."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 409
+  },
+  {
+    "id": "math-coord-004",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Angle between Two Lines",
+    "text": "<p>Let θ be the angle between two lines of slopes m1 and m2, then <em>tan θ = ± (m2 - m1) / (1 + m1m2)</em>.</p><ul><li>Above lines are parallel, if <em>m1 = m2</em></li><li>Above lines are perpendicular, if <em>m1m2 = -1</em></li></ul><h3>Some Facts about General Equation of Line ax + by + c = 0</h3><ul><li>The slope of the line ax + by + c = 0 is <em>m = -a/b = -(Coefficient of x) / (Coefficient of y)</em></li><li>Let two straight lines be given by a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0. Then, the lines are:<ul><li>(a) coincident or identical, if <em>a1/a2 = b1/b2 = c1/c2</em></li><li>(b) parallel, if their slopes are equal, i.e. <em>m1 = m2</em> or <em>-a1/b1 = -a2/b2</em> or <em>a1/b1 = a2/b2</em></li><li>(c) perpendicular, if the product of their slopes is -1, i.e. <em>m1m2 = -1</em> or <em>(-a1/b1)(-a2/b2) = -1</em> or <em>a1a2 + b1b2 = 0</em></li><li>(d) intersecting, if <em>a1/a2 ≠ b1/b2</em></li></ul></li><li>The equation of a line which is:<ul><li>(a) parallel to ax + by + c = 0 can be written as <em>ax + by + k = 0</em> [∵ m1 = m2]</li><li>(b) perpendicular to ax + by + c = 0 can be written as <em>bx - ay + k = 0</em> [∵ m1m2 = -1]</li></ul>where, <em>k</em> is an arbitrary constant to be determined using given condition.</li></ul>",
+    "formulas": [
+      "tan θ = ± (m2 - m1) / (1 + m1m2)",
+      "m1 = m2",
+      "m1m2 = -1",
+      "m = -a/b",
+      "a1/a2 = b1/b2 = c1/c2",
+      "a1a2 + b1b2 = 0",
+      "ax + by + k = 0",
+      "bx - ay + k = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas for angle between lines, conditions for parallel/perpendicular lines, and properties of the general equation of a line."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 409
+  },
+  {
+    "id": "math-nda-182-001",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Equations of Line in Different Forms",
+    "text": "<p><strong>1. Slope-intercept form:</strong> y = mx + c, is called the slope form or slope intercept form or the tangent form of the equation of the line, the constant c is called the intercept made by the line on the Y-axis. To find the slope and the intercept on the Y-axis of a line given in the form ax + by + c = 0, we write it in the form y = (-a/b)x - (c/b). Therefore, the slope of the line is m = -a/b and the intercept of the line on the Y-axis is -c/b.</p><p><strong>2. Slope-point form:</strong> The equation of a line passing through the point (x1, y1) and having the slope 'm' is y - y1 = m(x - x1).</p><p><strong>3. Two points form:</strong> The equation of a line passing through the points (x1, y1) and (x2, y2) is (y - y1) = [(y2 - y1) / (x2 - x1)] * (x - x1).</p><p><strong>4. Intercept form:</strong> If a line cuts the intercepts a and b on the axes, then the equation of line is x/a + y/b = 1.</p><p><strong>5. Normal or perpendicular form:</strong> If p is the normal from the origin to the line AB and if the normal makes an angle alpha with X-axis, then the equation of the line in the form, x cos alpha + y sin alpha = p is called the normal form of the line. <em>Note: In the normal form of a straight line the sum of the squares of the coefficient of x and y is equal to one.</em></p>",
+    "formulas": [
+      "y = mx + c",
+      "y = (-a/b)x - (c/b)",
+      "m = -a/b",
+      "intercept = -c/b",
+      "y - y1 = m(x - x1)",
+      "y - y1 = [(y2 - y1) / (x2 - x1)] * (x - x1)",
+      "x/a + y/b = 1",
+      "x cos alpha + y sin alpha = p"
+    ],
+    "image_descriptions": [
+      "Diagram showing intercept form: A line intersecting the X-axis at point 'a' and Y-axis at point 'b', forming a triangle with the origin.",
+      "Diagram showing normal form: A line AB with a perpendicular line segment 'p' from the origin to the line, where the segment 'p' makes an angle alpha with the X-axis."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 410
+  },
+  {
+    "id": "math-nda-182-002",
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "topic": "Family of Lines",
+    "text": "<p>Let L1 = a1x + b1y + c1 = 0 and L2 = a2x + b2y + c2 = 0 be two given lines. Then, the equation, L1 + lambda*L2 = 0 i.e., a1x + b1y + c1 + lambda(a2x + b2y + c2) = 0 represents the equation of a line, passing through the point of intersection of the given lines, where lambda belongs to R.</p>",
+    "formulas": [
+      "L1 + lambda*L2 = 0",
+      "a1x + b1y + c1 + lambda(a2x + b2y + c2) = 0"
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 410
+  },
+  {
+    "id": "math-coord-183-001",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Perpendicular Distance of a Point from a Line",
+    "text": "<p>The perpendicular distance <strong>d</strong> from a point <strong>P(x1, y1)</strong> to the line <strong>ax + by + c = 0</strong> is given by the formula:</p><p>d = |(ax1 + by1 + c) / sqrt(a^2 + b^2)|</p><p>The perpendicular distance from the origin (0,0) to the line <strong>ax + by + c = 0</strong> is:</p><p>d = |c / sqrt(a^2 + b^2)|</p>",
+    "formulas": [
+      "d = |(ax1 + by1 + c) / sqrt(a^2 + b^2)|",
+      "d = |c / sqrt(a^2 + b^2)|"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulae for calculating the perpendicular distance from a point to a line and from the origin to a line."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 411
+  },
+  {
+    "id": "math-coord-183-002",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Distance between Two Parallel Lines",
+    "text": "<p>The distance between two parallel lines <strong>ax + by + c1 = 0</strong> and <strong>ax + by + c2 = 0</strong> is given by:</p><p>d = |(c1 - c2) / sqrt(a^2 + b^2)|</p>",
+    "formulas": [
+      "d = |(c1 - c2) / sqrt(a^2 + b^2)|"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for the distance between two parallel lines."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 411
+  },
+  {
+    "id": "math-coord-183-003",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Concurrency of Three Lines",
+    "text": "<p>To find whether three lines are concurrent, find the point of intersection of any two lines. If this point lies on the third line, the lines are concurrent.</p><p>The condition that the three lines <strong>a1x + b1y + c1 = 0</strong>, <strong>a2x + b2y + c2 = 0</strong>, and <strong>a3x + b3y + c3 = 0</strong> are concurrent is given by the determinant:</p><p>| a1 b1 c1 |<br>| a2 b2 c2 | = 0<br>| a3 b3 c3 |</p><p><strong>Note:</strong> Three or more straight lines are said to be concurrent if they meet at a point.</p>",
+    "formulas": [
+      "a1x + b1y + c1 = 0",
+      "a2x + b2y + c2 = 0",
+      "a3x + b3y + c3 = 0",
+      "det([[a1, b1, c1], [a2, b2, c2], [a3, b3, c3]]) = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Condition for concurrency of three straight lines using determinants."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 411
+  },
+  {
+    "id": "math-coord-183-004",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Image of a Point about a Straight Line or Mirror",
+    "text": "<p>Let <strong>AB</strong> be a line and <strong>P(x1, y1)</strong> be a point. The image <strong>Q(h, k)</strong> of point <strong>P</strong> about the line <strong>ax + by + c = 0</strong> is given by:</p><p>(h - x1) / a = (k - y1) / b = -2(ax1 + by1 + c) / (a^2 + b^2)</p>",
+    "formulas": [
+      "(h - x1) / a = (k - y1) / b = -2(ax1 + by1 + c) / (a^2 + b^2)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A geometric diagram showing a line AB, a point P(x1, y1) above the line, a perpendicular line segment PM meeting AB at M, and extending to point Q, where PM = MQ."
+    ],
+    "details": {
+      "summary": "Formula for finding the coordinates of the reflection of a point across a straight line."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 411
+  },
+  {
+    "id": "math-coord-geom-184-01",
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Foot of Perpendicular and Angle Bisectors",
+    "text": "<p><strong>Foot of the perpendicular:</strong> The foot of the perpendicular (h, k) from (x1, y1) to the line ax + by + c = 0 is given by (h - x1)/a = (k - y1)/b = -(ax1 + by1 + c)/(a^2 + b^2).</p><p><strong>Equations of the Bisectors of Angles between Two Lines:</strong> Let AB and CD be two given lines represented by a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0. The equation of the bisector of the angle between them is (a1x + b1y + c1) / sqrt(a1^2 + b1^2) = ± (a2x + b2y + c2) / sqrt(a2^2 + b2^2).</p><p>A line which is equally inclined to given two lines is parallel to the angle bisectors of the given lines.</p>",
+    "formulas": [
+      "(h - x1)/a = (k - y1)/b = -(ax1 + by1 + c)/(a^2 + b^2)",
+      "(a1x + b1y + c1) / sqrt(a1^2 + b1^2) = ± (a2x + b2y + c2) / sqrt(a2^2 + b2^2)"
+    ],
+    "tables": [
+      "| Conditions | Acute angle bisector | Obtuse angle bisector |\n|---|---|---|\n| a1a2 + b1b2 > 0 | - | + |\n| a1a2 + b1b2 < 0 | + | - |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers formulas for finding the foot of a perpendicular from a point to a line, and the equations for angle bisectors between two lines, including a table for determining acute vs obtuse bisectors."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 412
+  },
+  {
+    "id": "math-coord-191-001",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Geometry of Rectangles and Triangles",
+    "text": "<p>Properties of rectangles and triangles in coordinate geometry:</p><ul><li><strong>Rectangle:</strong> For a rectangle with sides x=a, x=a', y=b, y=b', the vertices are A(a, b'), B(a, b), C(a', b), and D(a', b'). Diagonals bisect each other at ((a+a')/2, (b+b')/2).</li><li><strong>Area of Triangle:</strong> Calculated using the determinant method: Area = 1/2 * |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|.</li><li><strong>Angle Bisector:</strong> The bisector of an angle divides the opposite side in the ratio of the other two sides.</li></ul>",
+    "formulas": [
+      "Area = 1/2 * |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|",
+      "sec^2(theta) - tan^2(theta) = 1",
+      "cos(2*theta) = 2*cos^2(theta) - 1"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of a rectangle ABCD with sides x=a, x=a', y=b, y=b'.",
+      "Diagram of two equilateral triangles ABC and A'BC sharing a common base BC.",
+      "Coordinate plane showing a triangle with vertices A(-2,0), B(0,4), and M(0,0) with a point P on AB."
+    ],
+    "details": {
+      "summary": "This page covers coordinate geometry problems involving rectangles, equilateral triangles, and angle bisectors."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 419
   }
 ]
