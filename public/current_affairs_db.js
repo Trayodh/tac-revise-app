@@ -8657,6 +8657,296 @@ window.CURRENT_AFFAIRS_DB = {
         "Post-26/11 architecture designated Indian Navy as overall in-charge of maritime & coastal security"
       ],
       "strategicImportance": "Validates asymmetrical threat deterrence along vital maritime infrastructure, nuclear installations, and naval bases."
+    },
+    {
+      "id": "oct-2026-031",
+      "topic": "Defence Procurement & Strategic UAVs",
+      "text": "The Cabinet Committee on Security (CCS), chaired by Prime Minister Narendra Modi, formally cleared the landmark government-to-government acquisition of 31 MQ-9B Predator High-Altitude Long-Endurance (HALE) Remotely Piloted Aircraft Systems from the United States (General Atomics) under the Foreign Military Sales (FMS) route, valued at approximately $3.99 billion.",
+      "details": {
+        "winner": "Indian Armed Forces (Tri-Services)",
+        "award": "31 MQ-9B SkyGuardian & SeaGuardian HALE UAV Deal",
+        "nationality": "India - USA",
+        "summary": "Tri-service induction of 16 SeaGuardians for Indian Navy and 8 SkyGuardians each for Army and Air Force, equipped with Hellfire precision missiles and an indigenous MRO hub."
+      },
+      "mcq": {
+        "question": "Under the 31 MQ-9B Predator drone procurement deal cleared by the Cabinet Committee on Security (CCS), what is the service-wise allocation among the Indian Armed Forces?",
+        "options": [
+          "Navy: 16 (SeaGuardian), Army: 8 (SkyGuardian), Air Force: 8 (SkyGuardian)",
+          "Navy: 10, Army: 11, Air Force: 10",
+          "Navy: 15, Army: 16, Air Force: 0",
+          "Navy: 20 (SeaGuardian), Air Force: 11 (SkyGuardian), Army: 0"
+        ],
+        "correct": 0,
+        "explanation": "The tri-service allocation distributes 16 MQ-9B SeaGuardians to the Indian Navy for maritime surveillance and 8 MQ-9B SkyGuardians each to the Indian Army and Indian Air Force for high-altitude border surveillance."
+      },
+      "upscHighlights": [
+        "Endurance of over 35 to 40 hours with operating altitude exceeding 40,000 feet",
+        "Equipped with Hellfire air-to-ground precision-guided missiles and GBU-39B precision bombs",
+        "Includes establishment of a Comprehensive Global Maintenance, Repair, and Overhaul (MRO) facility in India by General Atomics",
+        "Drastically upgrades Intelligence, Surveillance, Target Acquisition and Reconnaissance (ISTAR) along the LAC and Indian Ocean Region"
+      ],
+      "strategicImportance": "Provides persistent 24/7 high-altitude surveillance deterrence against border incursions and deep maritime sea lane monitoring."
+    },
+    {
+      "id": "oct-2026-032",
+      "topic": "Naval Nuclear Strategy & Submarines",
+      "text": "The Cabinet Committee on Security (CCS) approved Project 77 for the indigenous design and construction of two Nuclear-Powered Attack Submarines (SSNs) at the Ship Building Centre (SBC) in Visakhapatnam at an estimated investment exceeding ₹40,000 crore.",
+      "details": {
+        "winner": "Indian Navy / DRDO / BARC",
+        "award": "Project 77 (Indigenous SSN Construction)",
+        "nationality": "India",
+        "summary": "Approval for construction of two 6,000-tonne nuclear-powered attack submarines equipped with torpedoes, anti-ship missiles, and land-attack cruise missiles, providing unmatched underwater escort and sea-denial capabilities."
+      },
+      "mcq": {
+        "question": "What is the primary operational distinction between an SSN (Nuclear Attack Submarine) and an SSBN (Nuclear Ballistic Missile Submarine) in naval doctrine?",
+        "options": [
+          "SSNs carry long-range nuclear ballistic missiles for second-strike deterrence; SSBNs only carry torpedoes",
+          "SSNs are hunter-killer submarines armed with torpedoes and cruise missiles to hunt enemy subs and escort fleets; SSBNs carry strategic nuclear ballistic missiles (SLBMs) for nuclear deterrence",
+          "SSNs are diesel-electric submarines; SSBNs are purely nuclear-powered",
+          "SSNs are designed exclusively for coastal littoral patrol; SSBNs operate in deep polar ice"
+        ],
+        "correct": 1,
+        "explanation": "SSNs (Nuclear Attack Submarines) are fast hunter-killer submarines designed to seek and destroy enemy combatants, submarines, and escort carrier strike groups using conventional torpedoes/cruise missiles. SSBNs carry strategic submarine-launched ballistic missiles (SLBMs) providing a nation's secure sea-based second-strike nuclear deterrence (Nuclear Triad)."
+      },
+      "upscHighlights": [
+        "Project 77 aims to construct two indigenous SSNs with indigenous pressurized water reactors (PWRs) developed by BARC",
+        "Constructed at the Ship Building Centre (SBC) in Visakhapatnam with extensive Indian private and public sector integration",
+        "Complements the ongoing SSBN Arihant-class program under the Advanced Technology Vessel (ATV) project",
+        "Enables unlimited underwater endurance constrained only by crew food supplies and physical stamina"
+      ],
+      "strategicImportance": "Counterbalances expanding foreign nuclear submarine deployments across the critical choke points of the Indian Ocean Region."
+    },
+    {
+      "id": "oct-2026-033",
+      "topic": "Nuclear Triad & Strategic Deterrence",
+      "text": "India achieved a momentous milestone in fortifying its continuous at-sea deterrence with the launch of its fourth Nuclear-Powered Ballistic Missile Submarine (SSBN), codenamed S4*, at the Ship Building Centre (SBC) in Visakhapatnam.",
+      "details": {
+        "winner": "Indian Navy / Strategic Forces Command",
+        "award": "Launch of 4th SSBN (S4*)",
+        "nationality": "India",
+        "summary": "Launch of the fourth nuclear ballistic missile submarine with near 75% indigenous content, capable of carrying K-4 Submarine Launched Ballistic Missiles (SLBMs) with a range of 3,500 km."
+      },
+      "mcq": {
+        "question": "Which of the following represents the correct sequence of India's indigenous Arihant-class and follow-on SSBN submarines built under the Advanced Technology Vessel (ATV) program?",
+        "options": [
+          "INS Arihant (S2) → INS Arighaat (S3) → S4 (Aridhaman) → S4*",
+          "INS Kalvari → INS Khanderi → INS Karanj → INS Vela",
+          "INS Chakra → INS Arihant → INS Shishumar → INS Shankush",
+          "INS Vikrant → INS Vikramaditya → INS Vishal → INS Viraat"
+        ],
+        "correct": 0,
+        "explanation": "Under the ATV strategic submarine program, India's SSBN line consists of INS Arihant (S2, commissioned 2016), INS Arighaat (S3, commissioned August 2024), S4 (Aridhaman), and S4* launched in October 2026."
+      },
+      "upscHighlights": [
+        "Displaces significantly higher tonnage than INS Arihant with larger vertical launch system (VLS) tubes",
+        "Armed with indigenously developed K-4 SLBMs possessing a strike range of approximately 3,500 kilometres",
+        "Achieved over 75% indigenisation with indigenous high-strength DMR-249A steel developed by SAIL",
+        "Guarantees a credible, survivable second-strike nuclear retaliatory capability adhering to India's 'No First Use' (NFU) nuclear doctrine"
+      ],
+      "strategicImportance": "Consolidates the maritime leg of India's Nuclear Triad as the most survivable leg against pre-emptive counter-force strikes."
+    },
+    {
+      "id": "oct-2026-034",
+      "topic": "Defence Leadership & Maritime Security",
+      "text": "Director General Paramesh Sivamani formally assumed charge as the 26th Director General of the Indian Coast Guard (ICG) at Coast Guard Headquarters in New Delhi, succeeding late DG Rakesh Pal.",
+      "details": {
+        "winner": "DG Paramesh Sivamani",
+        "award": "26th Director General of Indian Coast Guard",
+        "nationality": "India",
+        "summary": "Appointment of seasoned Navigation & Direction specialist to helm India's principal maritime law enforcement and search-and-rescue force protecting the 2.01 million sq km EEZ."
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the Indian Coast Guard (ICG):\n1. It was formally constituted by the Coast Guard Act, 1978 as an armed force of the Union.\n2. It functions under the administrative control of the Ministry of Home Affairs.\n3. Its official motto is 'Vayam Rakshamah' (We Protect).\nWhich of the statements given above is/are correct?",
+        "options": [
+          "1 and 2 only",
+          "1 and 3 only",
+          "2 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 1,
+        "explanation": "Statement 2 is incorrect because the Indian Coast Guard operates under the Ministry of Defence (not Ministry of Home Affairs). Statements 1 and 3 are correct: it was established under the Coast Guard Act, 1978 and its motto is 'Vayam Rakshamah' (We Protect)."
+      },
+      "upscHighlights": [
+        "ICG operates under the Ministry of Defence, unlike CAPFs which operate under the Ministry of Home Affairs",
+        "Responsible for maritime search and rescue (SAR), marine pollution control, coastal security, and anti-smuggling in the EEZ",
+        "Indian Coast Guard operates a fleet of over 150 offshore patrol vessels, interceptor boats, and over 75 aircraft (Do-228 & ALH Mk-III)",
+        "Chairs the Lead Intelligence Agency (LIA) for maritime coastal borders"
+      ],
+      "strategicImportance": "Ensures robust operational coordination between the Indian Navy, state police forces, and customs across India's 7,516 km coastline."
+    },
+    {
+      "id": "oct-2026-035",
+      "topic": "International Relations & Multilateral Diplomacy",
+      "text": "External Affairs Minister Dr. S. Jaishankar led the Indian delegation to the 23rd Meeting of the SCO Council of Heads of Government (CHG) in Islamabad, Pakistan, marking the first official visit of an Indian External Affairs Minister to Pakistan in nearly nine years.",
+      "details": {
+        "winner": "SCO Council of Heads of Government",
+        "award": "23rd SCO CHG Summit, Islamabad",
+        "nationality": "Multilateral / India - Pakistan",
+        "summary": "India emphasized adherence to the SCO Charter principles of mutual trust, sovereign equality, territorial integrity, and joint action against cross-border terrorism via RATS."
+      },
+      "mcq": {
+        "question": "Where is the permanent headquarters of the SCO Regional Anti-Terrorist Structure (RATS) located?",
+        "options": [
+          "Beijing, China",
+          "Tashkent, Uzbekistan",
+          "Astana, Kazakhstan",
+          "Bishkek, Kyrgyzstan"
+        ],
+        "correct": 1,
+        "explanation": "The Shanghai Cooperation Organisation (SCO) has two permanent bodies: the SCO Secretariat in Beijing, China, and the Executive Committee of the Regional Anti-Terrorist Structure (RATS) in Tashkent, Uzbekistan."
+      },
+      "upscHighlights": [
+        "First visit by an Indian Foreign Minister to Pakistan since Sushma Swaraj attended the 'Heart of Asia' conference in Dec 2015",
+        "SCO Council of Heads of Government focuses primarily on trade, economic cooperation, transit connectivity, and budget",
+        "India reiterated that trade and connectivity initiatives must respect the sovereignty and territorial integrity of member states (implicit reference to CPEC)",
+        "Belarus participated as the newest 10th full member of the SCO"
+      ],
+      "strategicImportance": "Reinforces India's proactive Eurasian multilateral diplomacy while maintaining firm strategic redlines on counter-terrorism and sovereignty."
+    },
+    {
+      "id": "oct-2026-036",
+      "topic": "Trilateral Naval Exercises",
+      "text": "The Indian Navy's frontline guided-missile stealth frigate INS Talwar participated in the 8th edition of the trilateral naval exercise IBSAMAR VIII alongside the Brazilian Navy (BNS Defensora) and South African Navy (SAS Amatola) at Simon’s Town, South Africa.",
+      "details": {
+        "winner": "India, Brazil, South Africa (IBSA)",
+        "award": "Exercise IBSAMAR VIII",
+        "nationality": "Trilateral (India-Brazil-South Africa)",
+        "summary": "Trilateral maritime exercise in the South Atlantic to boost interoperability, joint anti-submarine warfare, search and rescue, and sea-lane protection across the Global South."
+      },
+      "mcq": {
+        "question": "Which Indian Navy warship represented the nation in the 8th edition of Exercise IBSAMAR VIII held at Simon's Town, South Africa?",
+        "options": [
+          "INS Vikramaditya",
+          "INS Talwar",
+          "INS Kolkata",
+          "INS Mormugao"
+        ],
+        "correct": 1,
+        "explanation": "INS Talwar, the lead ship of the Talwar-class stealth guided missile frigates, represented the Indian Navy at Exercise IBSAMAR VIII in South Africa."
+      },
+      "upscHighlights": [
+        "IBSAMAR is the joint multinational maritime exercise of the IBSA (India, Brazil, South Africa) Dialogue Forum established in 2003",
+        "Conducted biennially; Simon's Town is the primary naval base of the South African Navy near Cape Town",
+        "Featured complex sea-phase drills: surface firing, air defence, Visit Board Search and Seizure (VBSS), and tactical maneuvers",
+        "Highlights India's blue-water operational reach across the South Atlantic Ocean and Southern Indian Ocean"
+      ],
+      "strategicImportance": "Deepens South-South maritime defence cooperation and secures vital shipping lanes rounding the Cape of Good Hope."
+    },
+    {
+      "id": "oct-2026-037",
+      "topic": "Bilateral Maritime Exercises",
+      "text": "The Indian Navy hosted the 31st edition of the Singapore-India Maritime Bilateral Exercise (SIMBEX 2026) at Visakhapatnam under the aegis of Eastern Naval Command, featuring intense sea maneuvers in the Bay of Bengal with the Republic of Singapore Navy (RSN).",
+      "details": {
+        "winner": "Indian Navy & Republic of Singapore Navy",
+        "award": "Exercise SIMBEX 2026 (31st Edition)",
+        "nationality": "India - Singapore",
+        "summary": "The longest continuous bilateral maritime exercise of the Indian Navy, validating advanced anti-submarine warfare (ASW), surface live-firing, and tactical communications."
+      },
+      "mcq": {
+        "question": "Originally christened as 'Exercise Lion King' upon its inception in 1994, which bilateral naval exercise holds the distinction of being the Indian Navy's longest uninterrupted bilateral exercise with any foreign navy?",
+        "options": [
+          "Exercise VARUNA",
+          "Exercise SIMBEX",
+          "Exercise SLINEX",
+          "Exercise INDRA"
+        ],
+        "correct": 1,
+        "explanation": "Exercise SIMBEX (Singapore-India Maritime Bilateral Exercise) began in 1994 under the code name 'Exercise Lion King' and has been conducted uninterrupted for over three decades."
+      },
+      "upscHighlights": [
+        "Participating assets: Indian Navy deployed stealth frigate INS Shivalik, Sindhughosh-class submarine, P-8I aircraft, and MiG-29K fighters",
+        "Republic of Singapore Navy participated with Formidable-class stealth frigate RSS Tenacious",
+        "Incorporated realistic Anti-Submarine Warfare (ASW) tracking, air defence, and coordinated tactical gunnery drills",
+        "Anchors India's Act East Policy and Indo-Pacific maritime security vision (SAGAR)"
+      ],
+      "strategicImportance": "Solidifies interoperability in the eastern approaches of the Malacca Strait, one of the world's most critical maritime transit choke points."
+    },
+    {
+      "id": "oct-2026-038",
+      "topic": "Constitutional Appointments & Judiciary",
+      "text": "President of India approved the appointment of Justice Sanjiv Khanna as the 51st Chief Justice of India (CJI), succeeding Justice Dhananjaya Yeshwant Chandrachud, following constitutional conventions under Article 124(2).",
+      "details": {
+        "winner": "Justice Sanjiv Khanna",
+        "award": "51st Chief Justice of India (CJI)",
+        "nationality": "India",
+        "summary": "Appointment of senior-most Supreme Court judge as head of the Indian judiciary, governed by the Memorandum of Procedure (MoP) and Second/Third Judges cases."
+      },
+      "mcq": {
+        "question": "Under which Article of the Constitution of India is the Chief Justice of India appointed by the President of India?",
+        "options": [
+          "Article 76",
+          "Article 124(2)",
+          "Article 143",
+          "Article 217"
+        ],
+        "correct": 1,
+        "explanation": "Under Article 124(2) of the Indian Constitution, every Judge of the Supreme Court, including the Chief Justice of India, is appointed by the President by warrant under his hand and seal."
+      },
+      "upscHighlights": [
+        "Governed by the Memorandum of Procedure (MoP) where the outgoing CJI initiates the recommendation for the senior-most judge",
+        "Justice Khanna served as Executive Chairman of the National Legal Services Authority (NALSA)",
+        "Author of landmark verdicts on electronic voting machine (EVM-VVPAT) verifiability, striking down Electoral Bonds, and RTI applicability to the CJI office",
+        "Nephew of legendary jurist Justice H.R. Khanna, famed for his lone courageous dissent in the ADM Jabalpur (Habeas Corpus) case (1976)"
+      ],
+      "strategicImportance": "Upholds the independence of the higher judiciary and the rule of law as a foundational pillar of India's constitutional democracy."
+    },
+    {
+      "id": "oct-2026-039",
+      "topic": "Social Indices & Food Security",
+      "text": "The Global Hunger Index (GHI) 2026 was released by European humanitarian organizations Concern Worldwide and Welthungerhilfe, evaluating hunger and malnutrition levels across developing and transitional nations using four multi-dimensional indicators.",
+      "details": {
+        "winner": "Concern Worldwide & Welthungerhilfe",
+        "award": "Global Hunger Index (GHI) 2026",
+        "nationality": "International",
+        "summary": "Index measuring multi-dimensional hunger through undernourishment, child stunting, child wasting, and child mortality."
+      },
+      "mcq": {
+        "question": "Which of the following are the four indicators utilized to compute the Global Hunger Index (GHI)?\\n1. Undernourishment\\n2. Child Stunting\\n3. Child Wasting\\n4. Child Mortality\\n5. Maternal Mortality Rate\\nSelect the correct answer using the code below:",
+        "options": [
+          "1, 2, 3 and 5 only",
+          "1, 2, 3 and 4 only",
+          "2, 3, 4 and 5 only",
+          "1, 3, 4 and 5 only"
+        ],
+        "correct": 1,
+        "explanation": "The Global Hunger Index is calculated based on four indicators: Undernourishment (inadequate calorie intake of the population), Child Stunting (low height for age, reflecting chronic undernutrition), Child Wasting (low weight for height, reflecting acute undernutrition), and Child Mortality (mortality rate of children under five)."
+      },
+      "upscHighlights": [
+        "Child Wasting measures acute undernutrition (weight for height), while Child Stunting measures chronic undernutrition (height for age)",
+        "Child Mortality measures the death rate of children under the age of five",
+        "Indian Government has launched POSHAN Abhiyaan (National Nutrition Mission 2.0) and Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY) to combat nutritional deficiencies",
+        "NFHS-5 (National Family Health Survey) data serves as the domestic benchmark for tracking child nutrition outcomes"
+      ],
+      "strategicImportance": "Highlights human capital resilience, public distribution reforms, and sustainable developmental goals (SDG 2: Zero Hunger)."
+    },
+    {
+      "id": "oct-2026-040",
+      "topic": "Important Days & Global Frameworks",
+      "text": "October 2026 observances highlighted World Food Day (October 16) themed 'Right to foods for a better life and a better future', alongside the International Day for Disaster Risk Reduction (October 13) focusing on youth empowerment under the Sendai Framework.",
+      "details": {
+        "winner": "UN FAO & UN Office for Disaster Risk Reduction (UNDRR)",
+        "award": "World Food Day & Disaster Reduction Day 2026",
+        "nationality": "International",
+        "summary": "Commemoration of the founding of FAO (1945) and global commitment to disaster risk governance under the Sendai Framework (2015-2030)."
+      },
+      "mcq": {
+        "question": "The Sendai Framework (2015–2030), highlighted during the International Day for Disaster Risk Reduction, is an international treaty dedicated to which domain?",
+        "options": [
+          "Phasing out Hydrofluorocarbons (HFCs)",
+          "Disaster Risk Reduction and Climate Resilience",
+          "Protection of Wetlands of International Importance",
+          "Non-Proliferation of Nuclear Weapons"
+        ],
+        "correct": 1,
+        "explanation": "The Sendai Framework for Disaster Risk Reduction 2015–2030 was adopted at the Third UN World Conference in Sendai, Japan, succeeding the Hyogo Framework for Action."
+      },
+      "upscHighlights": [
+        "World Food Day marks the 1945 founding of the Food and Agriculture Organization (FAO) in Rome, Italy",
+        "Sendai Framework established 7 global targets and 4 priorities for action to reduce disaster losses by 2030",
+        "National Disaster Management Authority (NDMA) in India is headed ex-officio by the Prime Minister under the Disaster Management Act, 2005",
+        "National Disaster Response Force (NDRF) plays a frontline role in humanitarian assistance and disaster relief (HADR)"
+      ],
+      "strategicImportance": "Reinforces civilian-military HADR doctrine and institutional disaster resilience across climate-vulnerable coastal and Himalayan regions."
     }
   ]
 };

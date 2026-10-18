@@ -52,6 +52,12 @@ window.EXPANDED_NOTES_DATA["ca-upsc-master-framework"] = `
         <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">WPI</td>
         <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Wholesale price basket (primary articles, fuel, manufactured goods)</td>
         <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Early inflation signals, industrial price trends</td>
+      <tr style="background:rgba(255,255,255,0.02);">
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Core Inflation</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">CPI headline basket excluding volatile food and fuel components</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Assessing underlying structural and non-seasonal monetary price pressures</td>
       </tr>
-      <tr style="background:rgba
+    </tbody>
+  </table>
+</div>
 `;

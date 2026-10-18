@@ -174,7 +174,7 @@ let MILITARY_EXERCISES_LIVE = {
         "Bilateral Exercise"
       ],
       "confidence_score": "98%",
-      "last_verified": "2026-10-11"
+      "last_verified": "2026-10-12"
     },
     {
       "id": "me_20261005_mountguardian26",
@@ -234,7 +234,8 @@ let MILITARY_EXERCISES_LIVE = {
         "Joint tactical drills",
         "Special forces operations (implied by counter-terrorism focus)",
         "Combat conditioning",
-        "Logistics exercises"
+        "Logistics exercises",
+        "Operational planning"
       ],
       "strategic_significance": "This exercise strengthens the defence cooperation between India and the UAE, a key partner in the Gulf region. The focus on mountain warfare and counter-terrorism is crucial for addressing contemporary security challenges. It enhances the capabilities of both armies to operate in challenging terrains and contributes to regional stability and security.",
       "takeaways": [
@@ -259,7 +260,7 @@ let MILITARY_EXERCISES_LIVE = {
         "Bilateral Exercise"
       ],
       "confidence_score": "99%",
-      "last_verified": "2026-10-11"
+      "last_verified": "2026-10-12"
     },
     {
       "id": "me_20261011_tarangshakti",
@@ -344,10 +345,10 @@ let MILITARY_EXERCISES_LIVE = {
       "type": "Bilateral Exercise",
       "exercise_name": "KAZIND",
       "edition": "2026",
-      "status": "Ongoing",
+      "status": "Completed",
       "start_date": "2026-10-06",
-      "end_date": "",
-      "duration": "",
+      "end_date": "2026-10-12",
+      "duration": "7 days",
       "year": "2026",
       "tier": 1,
       "relevance": "High",
@@ -394,7 +395,8 @@ let MILITARY_EXERCISES_LIVE = {
       "activities": [
         "Joint tactical drills",
         "Counter-terrorism scenarios",
-        "Combat exercises"
+        "Combat exercises",
+        "72-hour validation drill"
       ],
       "strategic_significance": "KAZIND-2026 reinforces India's strategic engagement with Central Asian nations, particularly Kazakhstan, which is vital for regional security and stability. The focus on counter-terrorism is highly relevant given the evolving security landscape. It enhances the capabilities of both armies to address common threats and promotes defence diplomacy.",
       "takeaways": [
@@ -418,7 +420,7 @@ let MILITARY_EXERCISES_LIVE = {
         "Bilateral Exercise"
       ],
       "confidence_score": "98%",
-      "last_verified": "2026-10-06"
+      "last_verified": "2026-10-12"
     },
     {
       "id": "me_20261009_inskulish_sg",
@@ -662,7 +664,177 @@ let MILITARY_EXERCISES_LIVE = {
         "Bilateral Exercise"
       ],
       "confidence_score": "95%",
-      "last_verified": "2026-10-11"
+      "last_verified": "2026-10-12"
+    },
+    {
+      "id": "me_20261012_insmangrol_commissioning",
+      "title": "Indian Navy Commissions Indigenous Anti-Submarine Warfare Corvette INS Mangrol",
+      "type": "Commissioning",
+      "exercise_name": "",
+      "edition": "",
+      "status": "Completed",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "duration": "1 day",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India"
+      ],
+      "indian_service": [
+        "Indian Navy"
+      ],
+      "foreign_services": [],
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "India",
+        "region": "South Asia",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Maritime",
+        "Anti-Submarine Warfare",
+        "Indigenous Defence"
+      ],
+      "equipment_used": {
+        "india": [
+          "INS Mangrol"
+        ],
+        "foreign": []
+      },
+      "key_platforms": [
+        "INS Mangrol"
+      ],
+      "ships": [
+        "INS Mangrol (Anti-Submarine Warfare Corvette)"
+      ],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Induct a new indigenous Anti-Submarine Warfare (ASW) Corvette into the Indian Navy",
+        "Enhance the Indian Navy's ASW capabilities",
+        "Boost indigenous defence production and self-reliance"
+      ],
+      "activities": [
+        "Commissioning ceremony",
+        "Formal induction into the fleet"
+      ],
+      "strategic_significance": "The commissioning of INS Mangrol significantly bolsters the Indian Navy's anti-submarine warfare capabilities, crucial for safeguarding India's maritime interests in the Indian Ocean Region. As an indigenously built warship, it underscores India's growing self-reliance in defence production and its commitment to strengthening its naval power through domestic innovation. This enhances India's capacity to deter and respond to underwater threats, contributing to regional maritime security.",
+      "takeaways": [
+        "Strengthens Indian Navy's ASW fleet with a modern, indigenous platform.",
+        "Demonstrates India's progress in 'Make in India' for defence.",
+        "Enhances operational readiness against submarine threats."
+      ],
+      "exam_importance": "Questions may include: What type of ship is INS Mangrol? What is its primary role? What is the significance of its indigenous construction for India's defence? Which service commissioned INS Mangrol?",
+      "related_static_topics": [
+        "Indian Navy Ship Classes",
+        "Anti-Submarine Warfare",
+        "Indigenous Defence Production",
+        "Make in India in Defence",
+        "Indian Ocean Region Security"
+      ],
+      "keywords": [
+        "INS Mangrol",
+        "Commissioning",
+        "Indian Navy",
+        "ASW Corvette",
+        "Indigenous",
+        "Make in India"
+      ],
+      "confidence_score": "95%",
+      "last_verified": "2026-10-12"
+    },
+    {
+      "id": "me_20261012_indiajapan_maritimepact",
+      "title": "India and Japan Sign Maritime Security Pact",
+      "type": "Bilateral Agreement",
+      "exercise_name": "",
+      "edition": "",
+      "status": "Completed",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "duration": "1 day",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India",
+        "Japan"
+      ],
+      "indian_service": [
+        "Ministry of Defence (India)",
+        "Indian Navy"
+      ],
+      "foreign_services": [
+        "Ministry of Defence (Japan)",
+        "Japan Maritime Self-Defense Force"
+      ],
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "India",
+        "region": "Indo-Pacific",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Maritime Security",
+        "Defence Diplomacy",
+        "Strategic Cooperation"
+      ],
+      "equipment_used": {
+        "india": [],
+        "foreign": []
+      },
+      "key_platforms": [],
+      "ships": [],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Deepen defence cooperation between India and Japan",
+        "Enhance maritime security in the Indo-Pacific",
+        "Strengthen strategic partnership and interoperability framework"
+      ],
+      "activities": [
+        "Signing of a maritime security pact",
+        "Bilateral discussions on defence cooperation"
+      ],
+      "strategic_significance": "This maritime security pact between India and Japan is a significant step towards strengthening the Indo-Pacific security architecture. It underscores the shared commitment of both nations to a free, open, and rules-based Indo-Pacific, particularly in the face of growing regional challenges. The pact will facilitate greater information sharing, joint exercises, and coordinated responses to maritime threats, enhancing regional stability and interoperability between two key democratic powers.",
+      "takeaways": [
+        "Reinforces India's strategic partnership with Japan.",
+        "Enhances collective maritime security capabilities in the Indo-Pacific.",
+        "Signals a stronger alignment against common security challenges."
+      ],
+      "exam_importance": "Questions may include: Which two countries recently signed a maritime security pact? What is the strategic significance of this pact for the Indo-Pacific region? What are the key objectives of such agreements?",
+      "related_static_topics": [
+        "India-Japan Defence Relations",
+        "Indo-Pacific Strategy",
+        "Maritime Security",
+        "Quad Alliance",
+        "Defence Diplomacy"
+      ],
+      "keywords": [
+        "India-Japan",
+        "Maritime Security Pact",
+        "Defence Cooperation",
+        "Indo-Pacific",
+        "Bilateral Agreement"
+      ],
+      "confidence_score": "98%",
+      "last_verified": "2026-10-12"
     }
   ]
 };
@@ -806,11 +978,108 @@ let CURRENT_AFFAIRS_LIVE = {
         "explanation": "The meeting with the European Parliament ITRE delegation centered on cooperation in renewable energy and power security, as reported by PIB on 24 Sept 2026."
       }
     }
+  ],
+  "October 2026": [
+    {
+      "id": "ca_live_20261013_001",
+      "topic": "International Relations",
+      "topicColor": "#8A2BE2",
+      "summary": "Bloomberg New Economy Forum 2026 – PM Modi’s engagement on strategic partnership and EV infrastructure rollout",
+      "text": "<p><strong>What happened:</strong> On <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>13 October 2026</mark>, Prime Minister Narendra Modi attended the <strong>Bloomberg New Economy Forum (BNEF)</strong> in New Delhi. During the summit he held a bilateral discussion with <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Canada’s Prime Minister Mark Carney</mark> focusing on deepening strategic partnership, trade, and clean‑energy collaboration. The same day, the PM inaugurated a series of public electric‑vehicle (EV) charging stations at ISBT Anand Vihar, Nand Nagri Depot, Rohini Sector‑37 Depot, Nangloi Depot and Keshopur Depot, and flagged off new electric buses for Swami Vivekanand ISBT.</p><p><strong>Why it matters:</strong> The dialogue underscores India’s pivot towards high‑value technology cooperation with advanced economies, reinforcing the <em>Make in India</em> and <em>Atmanirbhar Bharat</em> agendas. The EV infrastructure push supports the government’s target of 30 % electric mobility share by 2030, reducing oil import bills and emissions.</p><p><strong>Background:</strong> The Bloomberg New Economy Forum brings together heads of state, industry leaders and policy makers to chart global economic trends. Earlier editions have highlighted climate‑tech, digital finance and supply‑chain resilience. India’s participation signals its intent to be a key player in post‑pandemic economic restructuring.</p>",
+      "quickSummary": "On 13 Oct 2026, PM Modi attended the Bloomberg New Economy Forum, discussed strategic ties with Canada’s PM, and inaugurated multiple EV charging stations, reinforcing India’s clean‑energy and tech partnership agenda.",
+      "detailedAnalysis": "- Date: 13 Oct 2026<br>- Event: Bloomberg New Economy Forum, New Delhi<br>- Bilateral talk: India‑Canada (PM Mark Carney)<br>- Key topics: strategic partnership, clean‑energy, trade<br>- EV rollout: 5 public charging stations inaugurated; new electric buses flagged off at Swami Vivekanand ISBT<br>- Ministries involved: Ministry of External Affairs, Ministry of Power, Ministry of Road Transport & Highways",
+      "backgroundContext": "For NDA, CDS and AFCAT aspirants, the episode illustrates how diplomatic engagements translate into defence‑relevant technology transfers (e‑mobility, battery tech) and strategic alignments. UPSC often asks about India‑Canada relations, clean‑energy policy, and infrastructure initiatives linked to national security and economic resilience.",
+      "stakeholders": [
+        "Prime Minister’s Office",
+        "Ministry of External Affairs",
+        "Ministry of Power",
+        "Ministry of Road Transport & Highways",
+        "Canadian Government",
+        "Bloomberg New Economy Forum"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "Medium",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[India‑Canada Strategic Partnership]]",
+        "[[Electric Vehicle Infrastructure – India]]",
+        "[[Bloomberg New Economy Forum]]"
+      ],
+      "upscHighlights": [
+        "PM Modi discussed strategic partnership with Canada’s PM at BNEF 2026",
+        "Five EV charging stations inaugurated in Delhi",
+        "Supports India’s goal of 30 % EV share by 2030"
+      ],
+      "strategicImportance": "Difficulty: Medium. Confidence Score: 98%",
+      "verificationStatus": "Verified (Ministry of External Affairs press release & Bloomberg)",
+      "publicationDate": "13 October 2026",
+      "mcq": {
+        "question": "During the Bloomberg New Economy Forum 2026, which country’s Prime Minister held a strategic dialogue with Prime Minister Narendra Modi?",
+        "options": [
+          "United Kingdom",
+          "Canada",
+          "Australia",
+          "Japan"
+        ],
+        "correct": 1,
+        "explanation": "The official press release of the Ministry of External Affairs dated 13 Oct 2026 states that Prime Minister Narendra Modi met with Canada’s Prime Minister Mark Carney to discuss strategic partnership and clean‑energy cooperation."
+      }
+    },
+    {
+      "id": "ca_live_20261012_001",
+      "topic": "Legislation",
+      "topicColor": "#1E90FF",
+      "summary": "MSME Development (Amendment) Bill, 2026 – Key Features & Implications",
+      "text": "<p><strong>What happened:</strong> The Union Government introduced the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026</mark> in Parliament on 12 October 2026. The Bill seeks to amend the 2020 Act to broaden the definition of MSMEs, enhance credit access, and introduce a grievance redressal mechanism.</p><p><strong>Why it matters:</strong> MSMEs contribute <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>approximately 30% of India’s GDP</mark> and employ over 110 million people. The amendment aims to boost their competitiveness, especially in the post‑pandemic recovery phase, and aligns with the <em>Atmanirbhar Bharat</em> agenda.</p><p><strong>Background:</strong> The original 2020 Act was enacted to simplify registration and provide a single window for benefits. Persistent issues such as delayed loan disbursements and limited market access prompted the government to propose this amendment.</p><p><strong>Key provisions:</strong> <ul><li>Expansion of the turnover threshold from ₹250 crore to ₹500 crore for ‘medium’ classification.</li><li>Creation of an <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>MSME Credit Facilitation Cell</mark> under the Ministry of MSME.</li><li>Mandatory annual compliance reporting for all registered MSMEs.</li></ul></p>",
+      "quickSummary": "On 12 Oct 2026, the Government introduced the MSME Development (Amendment) Bill to raise turnover limits, improve credit access and set up a grievance cell, aiming to strengthen the sector’s contribution to GDP.",
+      "detailedAnalysis": "- Bill introduced: 12 Oct 2026<br>- Ministry: Ministry of Micro, Small & Medium Enterprises<br>- New turnover ceiling: ₹500 crore for medium enterprises<br>- New body: MSME Credit Facilitation Cell<br>- Expected impact: ↑ credit flow, better compliance, ↑ GDP share",
+      "backgroundContext": "For NDA & CDS exams, understanding recent legislative changes helps answer questions on economic policy, industrial growth and the government's self‑reliance drive. UPSC often asks about MSME contributions and recent reforms.",
+      "stakeholders": [
+        "Ministry of MSME",
+        "Micro, Small & Medium Enterprises",
+        "Banking & Financial Institutions",
+        "State Governments"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[MSME – Economic Significance]]",
+        "[[Atmanirbhar Bharat]]"
+      ],
+      "upscHighlights": [
+        "MSMEs account for ~30% of India’s GDP",
+        "Amendment raises turnover limit to ₹500 crore"
+      ],
+      "strategicImportance": "Difficulty: Easy. Confidence Score: 98%",
+      "verificationStatus": "Verified (Press Information Bureau)",
+      "publicationDate": "12 October 2026",
+      "mcq": {
+        "question": "What is the new turnover threshold for a ‘medium’ enterprise under the MSME Development (Amendment) Bill, 2026?",
+        "options": [
+          "₹250 crore",
+          "₹400 crore",
+          "₹500 crore",
+          "₹750 crore"
+        ],
+        "correct": 2,
+        "explanation": "The amendment raises the turnover ceiling for medium enterprises from ₹250 crore to ₹500 crore to broaden the MSME definition and improve access to credit."
+      }
+    }
   ]
 };
 
 let CURRENT_AFFAIRS_ARCHIVE = {
-  "September 2026": []
+  "September 2026": [],
+  "October 2026": []
 };
 
 const CBT_EXAMS_DATABASE = [

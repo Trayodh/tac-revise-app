@@ -11,7 +11,7 @@
 
 window.CA_META = {
   examCycle: "CDS 1/NDA 1 2027 & AFCAT 1 2027",
-  lastRefreshed: "October 14, 2026",
+  lastRefreshed: "October 18, 2026",
   coverageFrom: "August 2026",
   coverageTo: "April 2027",
   cycleNote: "CDS/NDA Cycle: Sep 2026 — Apr 2027 | AFCAT Cycle: Aug 2026 — Jan 2027",
@@ -28,7 +28,7 @@ window.CA_VISITS_DATA = [
     deals: "First visit by an Indian Foreign Minister to Pakistan in nearly nine years. Focused strictly on multilateral SCO mandate, regional connectivity, counter-terrorism under RATS (Regional Anti-Terrorist Structure), and trade frameworks while preserving strategic redlines."
   },
   {
-    visit: "Prime Minister Modi's Visit to Kazan, Russia (18th BRICS Summit)",
+    visit: "Prime Minister Modi's Visit to Kazan, Russia (16th BRICS Summit)",
     period: "October 2026",
     purpose: "Participating in the BRICS Leaders' Summit under the theme of strengthening multipolarity and equitable global development.",
     deals: "First summit following the expansion of BRICS. High-level discussions covered local currency settlements, cross-border payment alternatives (BRICS Pay), global supply chain resilience, and bilateral peace diplomacy on the sidelines with global leaders."

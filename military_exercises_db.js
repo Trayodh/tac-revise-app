@@ -769,13 +769,77 @@ let MILITARY_EXERCISES_LIVE = {
           "Dornier Do-228 Aircraft"
         ]
       }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "October 2026",
+      "exercise_name": "IBSAMAR VIII",
+      "edition": "8th Edition",
+      "type": "Trilateral Maritime Exercise",
+      "participant_nations": [
+        "India",
+        "Brazil",
+        "South Africa"
+      ],
+      "exercise_domain": [
+        "Maritime",
+        "Air"
+      ],
+      "location": "Simon's Town, South Africa (South Atlantic Ocean)",
+      "strategic_significance": "Trilateral maritime cooperation between IBSA navies in the South Atlantic to boost joint anti-submarine warfare, surface live firing, and sea lane protection across the Global South.",
+      "exam_importance": "High-yield UPSC/CDS question: IBSA Dialogue Forum, INS Talwar deployment to Simon's Town, South Africa.",
+      "units_and_hardware": {
+        "India": [
+          "INS Talwar (F40 Stealth Frigate)",
+          "Ship-borne Chetak/Helicopter"
+        ],
+        "Brazil": [
+          "BNS Defensora (Niteroi-class Frigate)"
+        ],
+        "South Africa": [
+          "SAS Amatola (Valour-class Frigate)"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "October 2026",
+      "exercise_name": "SIMBEX 2026",
+      "edition": "31st Edition",
+      "type": "Bilateral Maritime Exercise",
+      "participant_nations": [
+        "India",
+        "Singapore"
+      ],
+      "exercise_domain": [
+        "Maritime",
+        "Anti-Submarine",
+        "Air"
+      ],
+      "location": "Visakhapatnam & Bay of Bengal",
+      "strategic_significance": "The longest continuous bilateral maritime exercise of the Indian Navy, validating advanced ASW tracking, live weapon firing, and interoperability near the Malacca Strait.",
+      "exam_importance": "Core CDS/NDA question: Inception year 1994 as 'Exercise Lion King'; longest uninterrupted bilateral exercise; held at Eastern Naval Command.",
+      "units_and_hardware": {
+        "India": [
+          "INS Shivalik (Stealth Frigate)",
+          "Sindhughosh-class Submarine",
+          "P-8I Maritime Patrol Aircraft",
+          "MiG-29K Fighters"
+        ],
+        "Singapore": [
+          "RSS Tenacious (Formidable-class Stealth Frigate)",
+          "S-70B Seahawk Naval Helicopter"
+        ]
+      }
     }
   ]
 };
 
-if (typeof window !== 'undefined') {
+if (typeof window !== "undefined") {
   window.MILITARY_EXERCISES_LIVE = MILITARY_EXERCISES_LIVE;
 }
-if (typeof module !== 'undefined' && module.exports) {
+if (typeof module !== "undefined" && module.exports) {
   module.exports = MILITARY_EXERCISES_LIVE;
 }

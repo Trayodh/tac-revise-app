@@ -388989,5 +388989,2306 @@
     "question_type": "MCQ",
     "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
     "source_page": 1198
+  },
+  {
+    "question_id": "q24",
+    "question_number": "24",
+    "question_text": "According to the Administrative Tribunal Act, 1985, the Central Administrative Tribunal adjudicates disputes and complaints with respect to the service of persons who are",
+    "options": [
+      "appointed to public services and posts in connection with the affairs of the Union except members of the Defence services",
+      "official and servants of the Supreme Court or any High Courts",
+      "members of the Secretarial staff of the Parliament or any state legislatures",
+      "members of the Defence services"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "2012",
+    "exam": "CDS",
+    "paper": "II",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Indian Polity",
+    "subchapter": "Central Administrative Tribunal",
+    "topic": "Central Administrative Tribunal",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1199
+  },
+  {
+    "question_id": "q25",
+    "question_number": "25",
+    "question_text": "Which of the following statement(s) with respect to the judiciary in India is/are correct?\n1. Unlike in the United States, India has not provided for a double system of courts.\n2. Under the Constitution of India, there is a single integrated system of courts for the Union as well as the states.\n3. The organisation of the subordinate judiciary varies slightly from state to state.\nSelect the correct answer using the codes given below.",
+    "options": [
+      "Only 1",
+      "1 and 2",
+      "2 and 3",
+      "All of these"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "2012",
+    "exam": "CDS",
+    "paper": "II",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Indian Polity",
+    "subchapter": "Judiciary",
+    "topic": "Judiciary in India",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1199
+  },
+  {
+    "question_id": "q26",
+    "question_number": "26",
+    "question_text": "Which of the following Committees are the Committees of Parliament?\n1. Public Accounts Committee.\n2. Estimates Committee.\n3. Committee on Public Undertakings.\nSelect the correct answer using the codes given below.",
+    "options": [
+      "1 and 2",
+      "1 and 3",
+      "2 and 3",
+      "All of these"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "2012",
+    "exam": "CDS",
+    "paper": "II",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Indian Polity",
+    "subchapter": "Parliamentary Committees",
+    "topic": "Parliamentary Committees",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1199
+  },
+  {
+    "question_id": "q27",
+    "question_number": "27",
+    "question_text": "The Chief Election Commissioner of India holds office for a period of",
+    "options": [
+      "6 years",
+      "during the pleasure of the President",
+      "for 6 years or till the age of 65 years, whichever is earlier",
+      "for 5 years or till the age of 60 years, whichever is earlier"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "2012",
+    "exam": "CDS",
+    "paper": "II",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Indian Polity",
+    "subchapter": "Election Commission",
+    "topic": "Chief Election Commissioner",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1199
+  },
+  {
+    "question_id": "q28",
+    "question_number": "28",
+    "question_text": "The writ of Prohibition is issued by a superior court",
+    "options": [
+      "to prevent an inferior court or tribunal from exceeding its jurisdiction or acting contrary to the rules of natural justice",
+      "to an inferior court or body exercising judicial or quasi-judicial functions to transfer the record to proceedings in a case for its review",
+      "where it can call upon a person to show under what authority he/she is holding the office",
+      "to an authority to produce an illega"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "2012",
+    "exam": "CDS",
+    "paper": "II",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Indian Polity",
+    "subchapter": "Writs",
+    "topic": "Writ of Prohibition",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1199
+  },
+  {
+    "question_text": "Which one among the following is a Fundamental Duty of citizens under the Constitution of India?",
+    "options": {
+      "A": "To provide friendly cooperation to the people of the neighbouring countries",
+      "B": "To visit the monuments of national importance",
+      "C": "To defend the country and render national service when called upon to do so",
+      "D": "To know more and more about the religions of India"
+    },
+    "correct_answer": "C",
+    "explanation": "Article 51A(e) of the Constitution of India states that it shall be the duty of every citizen of India to defend the country and render national service when called upon to do so. The other options are not listed as Fundamental Duties.",
+    "subject": "Polity",
+    "chapter": "Fundamental Duties",
+    "topic": "Fundamental Duties of Citizens",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1201
+  },
+  {
+    "question_text": "India’s Look East Policy was conceived in the early 1990s. Consider the following statements:\n1. It reflects both historical imperatives and contemporary compulsion of the post-cold war new world order.\n2. It seeks to optimise India’s synergies in the extended Asia-Pacific neighbourhood.\n3. It has led to India’s participation in Asia-Pacific forums like ASEAN, East Asia Summit, BIMSTEC and other institutions.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "1 and 3",
+      "B": "2 and 3",
+      "C": "Only 2",
+      "D": "All of these"
+    },
+    "correct_answer": "D",
+    "explanation": "All three statements are correct. The Look East Policy was designed to address historical ties and contemporary strategic needs, optimize synergies in the Asia-Pacific region, and resulted in India's active participation in regional forums like ASEAN and BIMSTEC.",
+    "subject": "International Relations",
+    "chapter": "Foreign Policy",
+    "topic": "Look East Policy",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1201
+  },
+  {
+    "question_text": "Which one among the following committees of the Parliament of India has no members of the Rajya Sabha?",
+    "options": {
+      "A": "Public Accounts Committee",
+      "B": "Estimates Committee",
+      "C": "Public Undertakings Committee",
+      "D": "Departmentally Related Standing Committee on Finance"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1201
+  },
+  {
+    "question_text": "The Judge of the High Courts in India is administered oath of office by",
+    "options": {
+      "A": "the Chief Justice of the High Court",
+      "B": "the Governor of the State",
+      "C": "the President of India",
+      "D": "the Chief Justice of India"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the Constitution of India, the oath of office for a High Court Judge is administered by the Governor of the State.",
+    "subject": "Polity",
+    "chapter": "Judiciary",
+    "topic": "High Courts",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1202
+  },
+  {
+    "question_text": "Among the following ideals and philosophy, identify those enshrined in the Preamble to the Constitution of India.\n1. Sovereign democratic republic.\n2. Socialism and secularism.\n3. Capitalism and free trade.\nWhich of the statements given above are correct?",
+    "options": {
+      "A": "1 and 2",
+      "B": "1 and 3",
+      "C": "2 and 3",
+      "D": "All of these"
+    },
+    "correct_answer": "A",
+    "explanation": "The Preamble declares India to be a Sovereign, Socialist, Secular, Democratic Republic. 'Capitalism and free trade' are not explicitly enshrined in the Preamble.",
+    "subject": "Polity",
+    "chapter": "Constitution of India",
+    "topic": "Preamble",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1202
+  },
+  {
+    "question_text": "Which of the following pair(s) of constitutional authority and procedure of appointment is/are correctly matched?\n1. President : Elected by an electoral college consisting of elected MLAs and MPs\n2. Vice-President : Elected by an electoral college consisting of MLAs and MPs\n3. Speaker : The House of People chooses after its first sitting",
+    "options": {
+      "A": "1 and 2",
+      "B": "Only 1",
+      "C": "1 and 3",
+      "D": "All of these"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1202
+  },
+  {
+    "question_text": "Consider the following statement(s):\n1. Forming a cooperative society is a Fundamental Right in India.\n2. Cooperative societies do not fall within the ambit of the Right to Information Act, 2005.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "A",
+    "explanation": "Statement 1 is correct because the 97th Constitutional Amendment Act, 2015, made the right to form cooperative societies a Fundamental Right under Article 19(1)(c). Statement 2 is incorrect because cooperative societies are covered under the Right to Information Act, 2005, as they are often substantially funded by the government or provide public services.",
+    "subject": "Polity",
+    "chapter": "Fundamental Rights",
+    "topic": "Cooperative Societies and RTI",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1203
+  },
+  {
+    "question_text": "The legislative power of the Parliament includes making laws:\n1. on matters not enumerated in the Concurrent List and State List.\n2. in respect of entries in the State List if two or more State Legislatures consider it desirable.\n3. for implementing any treaty agreement or convention with any country even if it falls in the State List.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 2",
+      "B": "1 and 2",
+      "C": "1 and 3",
+      "D": "All of these"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1203
+  },
+  {
+    "question_id": "q1",
+    "question_number": "3",
+    "question_text": "The provisions in part-IX and IX A of Indian Constitution are more or less parallel and analogous. The 73rd Constitution Amendment is applicable to all states irrespective of size of population. Which of the statements given above are correct?",
+    "options": [
+      "1 and 2",
+      "1, 2 and 3",
+      "3 and 4",
+      "All of these"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "2015",
+    "exam": "CDS",
+    "paper": "I",
+    "shift": "I",
+    "subject": "Indian Polity",
+    "chapter": "Local Government",
+    "subchapter": "Panchayati Raj",
+    "topic": "73rd Constitutional Amendment",
+    "subtopic": "",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1205
+  },
+  {
+    "question_id": "q2",
+    "question_number": "100",
+    "question_text": "Consider the following statement(s) about State Election Commission.\n1. The State Election Commissioner shall be appointed by the Governer of State.\n2. The State Election Commission shall have power of even preparing the electoral rolls besides the power of superintendence, direction and control of election to the Panchayat.\n3. The State Election Commissioner (SEC) can be removed in any manner from the office. Until he demits himself or complete his tenure.\nWhich of the statement(s) given above is/are correct?",
+    "options": [
+      "Only 1",
+      "1 and 2",
+      "2 and 3",
+      "All of these"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "2015",
+    "exam": "CDS",
+    "paper": "I",
+    "shift": "I",
+    "subject": "Indian Polity",
+    "chapter": "State Election Commission",
+    "subchapter": "",
+    "topic": "Appointment, Powers and Removal of SEC",
+    "subtopic": "",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1205
+  },
+  {
+    "question_id": "q3",
+    "question_number": "101",
+    "question_text": "Which of the following statement(s) about Indian Judiciary is not correct?\n(a) The Constitution of India has not provide for double system of courts as in the United States\n(b) The organisation of the subordinate Judiciary in India varies slightly from state-to-state\n(c) Every state in India has separate High Court\n(d) The Supreme Court has issued direction to constitute an all India Judicial service to bring about uniformity in designation of officers in criminal and civil side",
+    "options": [
+      "The Constitution of India has not provide for double system of courts as in the United States",
+      "The organisation of the subordinate Judiciary in India varies slightly from state-to-state",
+      "Every state in India has separate High Court",
+      "The Supreme Court has issued direction to constitute an all India Judicial service to bring about uniformity in designation of officers in criminal and civil side"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "2015",
+    "exam": "CDS",
+    "paper": "I",
+    "shift": "I",
+    "subject": "Indian Polity",
+    "chapter": "Judiciary",
+    "subchapter": "",
+    "topic": "Organization of Judiciary",
+    "subtopic": "",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1205
+  },
+  {
+    "question_id": "q4",
+    "question_number": "102",
+    "question_text": "Which of the following statement(s) is/are not correct for the Ninth Schedule of the Constitution of India?\n1. It was inserted by the First Amendment in 1951.\n2. It includes those laws which are beyond the purview of judicial review.\n3. It was inserted by the 42nd Amendment.\n4. The laws in the Ninth Schedule are primarily those which pertain to the matters of national security.\nSelect the correct answer using the code given below.\n(a) 1 and 2\n(b) 2 and 3\n(c) 3 and 4\n(d) Only 3",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "3 and 4",
+      "Only 3"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "2015",
+    "exam": "CDS",
+    "paper": "I",
+    "shift": "I",
+    "subject": "Indian Polity",
+    "chapter": "Constitutional Amendments",
+    "subchapter": "",
+    "topic": "Ninth Schedule",
+    "subtopic": "",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1205
+  },
+  {
+    "question_id": "q_111_polity_elections",
+    "question_number": "111",
+    "question_text": "The power to decide the date of an election to a State Legislative Assembly rests with the",
+    "options": [
+      "President of India",
+      "Chief Minister and his/her Cabinet",
+      "Election Commission of India",
+      "Parliament"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Elections",
+    "subchapter": "State Legislative Assembly Elections",
+    "topic": "Election Commission of India Powers",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q_112_polity_parliamentary_democracy",
+    "question_number": "112",
+    "question_text": "A Parliamentary Democracy is one where\n1. a balance of popular participation and elite rule takes place.\n2. the government is responsible not to the public but to the elected representatives.\n3. the parliamentarians are delegated the responsibility of thinking and acting on behalf of their constituents.\nSelect the correct answer using the code given below.",
+    "options": [
+      "1, 2 and 3",
+      "2 and 3",
+      "1 and 3",
+      "Only 2"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Forms of Government",
+    "subchapter": "Parliamentary System",
+    "topic": "Characteristics of Parliamentary Democracy",
+    "difficulty": "Medium",
+    "question_type": "Statement Based",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q_113_polity_martial_law",
+    "question_number": "113",
+    "question_text": "When martial law is imposed, Parliament cannot make law in respect of which one of the following matters?",
+    "options": [
+      "Indemnify any person in respect of any act done by him in connection with the maintenance of order in the area where martial law in force",
+      "Parliament can by law validate any sentence passed when martial law was in force in the area",
+      "A law of Parliament can validate forfeiture ordered when martial law was in force in the area",
+      "Any act done under martial law can be validated by Parliament by law"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Emergency Provisions",
+    "subchapter": "Martial Law",
+    "topic": "Parliamentary Powers during Martial Law",
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q_114_polity_federal_system",
+    "question_number": "114",
+    "question_text": "Which among the following features of a federal system is not found in the Indian Political System?",
+    "options": [
+      "Dual citizenship",
+      "Distribution of powers between the Federal and the State Governments",
+      "Supremacy of the Constitution",
+      "Authority of the Courts to interpret the Constitution"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Federalism",
+    "subchapter": "Features of Indian Federalism",
+    "topic": "Comparison of Federal Systems",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q_115_polity_article_32",
+    "question_number": "115",
+    "question_text": "Which of the following is not true of Article 32 of the Indian Constitution?",
+    "options": [
+      "It gives the Supreme Court and the High Courts the power to issue writs for the enforcement of Fundamental Rights",
+      "It is included in Part III of the Indian Constitution and is therefore, itself a Fundamental Right",
+      "Dr Ambedkar called it the 'very soul of the Indian Constitution'",
+      "An aggrieved person has no right to complain under Article 32 where a Fundamental Right has not been violated"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Fundamental Rights",
+    "subchapter": "Right to Constitutional Remedies",
+    "topic": "Article 32 and Writs",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q_116_polity_supreme_court_cases",
+    "question_number": "116",
+    "question_text": "In which of the following cases did the Supreme Court rule that Constitutional Amendments were also laws under Article-13 of the Constitution of India, which could be declared void for being inconsistent with Fundamental Rights?",
+    "options": [
+      "Keshavanand Bharati Case",
+      "Golaknath Case",
+      "Minerva Mills Case",
+      "Maneka Gandhi Case"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Judiciary",
+    "subchapter": "Supreme Court Landmark Judgments",
+    "topic": "Constitutional Amendments and Fundamental Rights",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q_117_polity_cedaw",
+    "question_number": "117",
+    "question_text": "Which of the following is not true about the Convention on the Elimination of all forms of Discrimination Against Women (CEDAW)?",
+    "options": [
+      "It defines what constitutes discrimination against women and sets-up an agenda for national action",
+      "It was adopted in 1979 by the United Nations",
+      "It commits states to undertake measures to end discrimination in their legal system",
+      "India is not a ratifying country and is therefore not legally bound to put its provisions into practice"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "International Relations",
+    "subchapter": "International Conventions",
+    "topic": "CEDAW and Women's Rights",
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q_118_polity_vishaka_case",
+    "question_number": "118",
+    "question_text": "The Supreme Court guidelines issued in the Vishaka case pertain to",
+    "options": [
+      "domestic violence",
+      "rape and sexual violence",
+      "if sexual harassment at the work place",
+      "trafficking in women"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Judiciary",
+    "subchapter": "Supreme Court Landmark Judgments",
+    "topic": "Vishaka Guidelines",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q_119_polity_defence_staff",
+    "question_number": "119",
+    "question_text": "Which one of the following statements is incorrect?",
+    "options": [
+      "India does not have a Chief of Defence Staff",
+      "India does not have a Permanent Chairman, Chiefs of Staff Committee",
+      "India has a Chairman, Chiefs of Staff Committee who functions as Chief of the Defence Staff",
+      "India has a Chairman, Chiefs of Staff Committee who does not function as Chief of the Defence Staff"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "Defence",
+    "chapter": "Defence Organization",
+    "subchapter": "Chiefs of Staff Committee",
+    "topic": "Chief of Defence Staff (CDS)",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q_120_polity_rti_act",
+    "question_number": "120",
+    "question_text": "Information under the RTI Act, 2005 can be provided in respect of",
+    "options": [
+      "National Security Council Secretariat",
+      "Assam Rifles",
+      "Border Road Development Board",
+      "Border Road Organisation"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Governance",
+    "subchapter": "Right to Information",
+    "topic": "RTI Act and Public Authorities",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q_121_polity_oci",
+    "question_number": "121",
+    "question_text": "Which of the following statement(s) is/are not true for the category of the Overseas Citizens of India (OCI) inserted by the amendment the Citizenship Act of India in 2003?\n1. It gives dual citizenship to Persons on India Origin (PIO), who are citizens another country.\n2. It gives Persons of Indian origin (PIO), who are citizens of another country, are OCI card without citizenship.\n3. It permits the OCI to vote in general elections in India.\n4. It allows the OCI to travel to Indian without visa.\nSelect the correct answer using the codes given below.",
+    "options": [
+      "1 and 2",
+      "1 and 3",
+      "Only 3",
+      "2 and 4"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Citizenship",
+    "subchapter": "Overseas Citizens of India",
+    "topic": "Features of OCI",
+    "difficulty": "Medium",
+    "question_type": "Statement Based",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q_122_polity_afspa",
+    "question_number": "122",
+    "question_text": "Which of the following statement(s) with regard to the Armed Forces (Special Powers) Act, 1958 is/are correct?\n1. The Act is applicable only to the States of Manipur, Tripura and Nagaland.\n2. A person taken into custody under the above Act must be handed over to the officer-in-charge of the nearest police station with least possible delay.\n3. An area can be declared as a disturbed area under the above Act only when the State Government is of the opinion that the use of the armed forces in aid of civil power is necessary to contain a dangerous condition in the concerned area.\nSelect the correct answer using the codes given below.",
+    "options": [
+      "Only 2",
+      "1 and 2",
+      "Only 3",
+      "All of these"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Emergency Provisions",
+    "subchapter": "Special Powers Acts",
+    "topic": "Armed Forces (Special Powers) Act (AFSPA)",
+    "difficulty": "Hard",
+    "question_type": "Statement Based",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q_123_polity_panchsheel",
+    "question_number": "123",
+    "question_text": "Which of the following is not a laid down principle of the Panchsheel?",
+    "options": [
+      "Mutual respect for each other's territorial integrity",
+      "Mutual non-aggression",
+      "Mutual support tor each other in world forum",
+      "Mutual non-interference in each other's internal affairs"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "",
+    "exam": "Unknown",
+    "paper": "",
+    "shift": "",
+    "subject": "International Relations",
+    "chapter": "India's Foreign Policy",
+    "subchapter": "Historical Principles",
+    "topic": "Panchsheel Principles",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1206
+  },
+  {
+    "question_id": "q124",
+    "question_number": "124",
+    "question_text": "Which of the following laws have been repealed by the Constitution of India?",
+    "options": [
+      "The Government of India Act, 1935.",
+      "The Indian Independence Act, 1947.",
+      "The Abolition of Privi Council Juridisction Act, 1949.",
+      "The Preventive Detention Act, 1950."
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "2015",
+    "exam": "CDS",
+    "paper": "2015 (II)",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Constitution of India",
+    "subchapter": "Repeal of Laws",
+    "topic": "Laws repealed by Constitution",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1207
+  },
+  {
+    "question_id": "q125",
+    "question_number": "125",
+    "question_text": "Which of the following is/are not central feature(s) of Article 343 of the Constitution of India?",
+    "options": [
+      "Hindi in Devanagari script shall be the national language of the Union.",
+      "The official language of the Union shall be Hindi in Devanagari script.",
+      "English language shall continue to be used for official purposes within states.",
+      "If two or more states agree, Hindi language should be the official language of communication between the states."
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "2015",
+    "exam": "CDS",
+    "paper": "2015 (II)",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Constitution of India",
+    "subchapter": "Official Language",
+    "topic": "Article 343",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1207
+  },
+  {
+    "question_id": "q126",
+    "question_number": "126",
+    "question_text": "After the general elections, the Protem Speaker is",
+    "options": [
+      "elected by the Lok Sabha",
+      "appointed by the President of India",
+      "appointed by the Chief Justice of the Supreme Court",
+      "the seniormost member of the Lok Sabha"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "2015",
+    "exam": "CDS",
+    "paper": "2015 (II)",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Parliament",
+    "subchapter": "Speaker",
+    "topic": "Protem Speaker",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1207
+  },
+  {
+    "question_id": "q127",
+    "question_number": "127",
+    "question_text": "Match the following List I (Leaders) List II (Parties) A. Shyama Prasad Mukherjee B. Minoo Masani C. SA Dange D. Ashok Mehta 1. Communist Party of India 2. Bharatiya Jana Sangh 3. Swatantra Party 4. Praja Socialist Party Codes A B C D",
+    "options": [
+      "2 3 1 4",
+      "4 1 3 2",
+      "2 1 3 4",
+      "4 3 1 2"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "2015",
+    "exam": "CDS",
+    "paper": "2015 (II)",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Political Parties",
+    "subchapter": "Leaders and Parties",
+    "topic": "Match Leaders with Parties",
+    "difficulty": "Medium",
+    "question_type": "Match the Following",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1207
+  },
+  {
+    "question_id": "q128",
+    "question_number": "128",
+    "question_text": "Which of the following is/are not central tenet(s) of the Constitution of India?",
+    "options": [
+      "Prohibits discrimination on grounds of religion.",
+      "Gives official status to certain religions.",
+      "Provides freedom to profess any religion.",
+      "Ensures equality of all citizens within religious communities."
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "2015",
+    "exam": "CDS",
+    "paper": "2015 (II)",
+    "shift": "",
+    "subject": "Indian Polity",
+    "chapter": "Fundamental Rights",
+    "subchapter": "Right to Equality and Religious Freedom",
+    "topic": "Central tenets of Constitution",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1207
+  },
+  {
+    "question_id": "q129",
+    "question_number": "129",
+    "question_text": "Who is the current Vice-Chairperson of NITI Aayog?",
+    "options": [
+      "Raghuram Rajan",
+      "Arvind Panagariya",
+      "Bibek Debroy",
+      "VK Sara"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "marks": 1,
+    "negative_marks": 0,
+    "year": "2015",
+    "exam": "CDS",
+    "paper": "2015 (II)",
+    "shift": "",
+    "subject": "Current Affairs",
+    "chapter": "NITI Aayog",
+    "subchapter": "Vice-Chairperson",
+    "topic": "Current Vice-Chairperson of NITI Aayog",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1207
+  },
+  {
+    "question_text": "Which of the following statement(s) regarding Rajya Sabha is/are correct?\n1. The maximum permissible strength of Rajya Sabha is 250.\n2. In Rajya Sabha, 238 members are elected indirectly from the States and Union Territories.\n3. It shares legislative powers equally with Lok Sabha in matters such as creation of All India Services.",
+    "options": {
+      "A": "1 and 2",
+      "B": "1, 2 and 3",
+      "C": "2 and 3",
+      "D": "Only 1"
+    },
+    "correct_answer": "A",
+    "explanation": "Statement 1 is correct: The maximum strength of Rajya Sabha is 250. Statement 2 is correct: 238 members are elected from States and UTs. Statement 3 is incorrect: The Rajya Sabha does not share powers 'equally' in all matters; for the creation of All India Services, it has a specific role requiring a special majority, but the phrasing 'equally' is often considered misleading in this context compared to the clear factual correctness of 1 and 2. However, in many standard interpretations, 1 and 2 are the definitively correct factual statements regarding composition.",
+    "subject": "Polity",
+    "chapter": "Parliament",
+    "topic": "Rajya Sabha",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1209
+  },
+  {
+    "question_text": "Which of the following statements relating to the office of the President of India are correct?\n1. The President has the power to grant pardon to a criminal in special cases.\n2. The President can promulgate ordinances even when the Parliament is in session.\n3. The President can dissolve the Rajya Sabha during emergency.\n4. The President has the power to nominate two members in the Lok Sabha from the Anglo Indian community.",
+    "options": {
+      "A": "1 and 2",
+      "B": "1 and 4",
+      "C": "3 and 4",
+      "D": "1, 3 and 4"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1209
+  },
+  {
+    "question_text": "What is the rank of the Indian economy in the world measured by Nominal GDP?",
+    "options": {
+      "A": "5th",
+      "B": "6th",
+      "C": "7th",
+      "D": "8th"
+    },
+    "correct_answer": "C",
+    "explanation": "According to the text, the Indian economy is the 7th largest economy in the world measured by nominal GDP.",
+    "subject": "Economics",
+    "chapter": "Introduction of Indian Economy",
+    "topic": "General Overview",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1211
+  },
+  {
+    "question_text": "Who coined the term 'Mixed Economy'?",
+    "options": {
+      "A": "Adam Smith",
+      "B": "David Ricardo",
+      "C": "JM Keynes",
+      "D": "John Stuart Mill"
+    },
+    "correct_answer": "C",
+    "explanation": "The text states that the term 'Mixed Economy' was coined by JM Keynes.",
+    "subject": "Economics",
+    "chapter": "Introduction of Indian Economy",
+    "topic": "Mixed Economy",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1211
+  },
+  {
+    "question_text": "In which year did India opt for a 'Mixed Economy' in its industrial policy?",
+    "options": {
+      "A": "1947",
+      "B": "1948",
+      "C": "1950",
+      "D": "1956"
+    },
+    "correct_answer": "B",
+    "explanation": "India opted for a 'Mixed Economy' in the industrial policy of 1948.",
+    "subject": "Economics",
+    "chapter": "Introduction of Indian Economy",
+    "topic": "Mixed Economy",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1211
+  },
+  {
+    "question_text": "Which of the following is NOT a feature of a developing economy as described in the text?",
+    "options": {
+      "A": "Low per capita income",
+      "B": "High capital per head",
+      "C": "Chronic unemployment",
+      "D": "Unequal distribution of wealth"
+    },
+    "correct_answer": "B",
+    "explanation": "The text lists 'Low capital per head' as a feature of a developing economy, not high capital per head.",
+    "subject": "Economics",
+    "chapter": "Introduction of Indian Economy",
+    "topic": "Developing Economy",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1211
+  },
+  {
+    "question_text": "Which sector is directly related to the extraction or utilisation of natural resources?",
+    "options": {
+      "A": "Secondary Sector",
+      "B": "Tertiary Sector",
+      "C": "Primary Sector",
+      "D": "Quaternary Sector"
+    },
+    "correct_answer": "C",
+    "explanation": "The Primary Sector is defined as being directly related to the extraction or utilisation of natural resources.",
+    "subject": "Economics",
+    "chapter": "Introduction of Indian Economy",
+    "topic": "Primary Sector",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1211
+  },
+  {
+    "question_text": "Which of the following sectors includes research and development, information technology, and consulting?",
+    "options": {
+      "A": "Primary Sector",
+      "B": "Secondary Sector",
+      "C": "Quaternary Sector",
+      "D": "Quinary Sector"
+    },
+    "correct_answer": "C",
+    "explanation": "The Quaternary Sector consists of intellectual and knowledge-based abilities, including R&D, IT, consulting, and education.",
+    "subject": "Indian Economy",
+    "chapter": "Other Sector of Economy",
+    "topic": "Quaternary Sector",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1212
+  },
+  {
+    "question_text": "The Quinary Sector of the economy is characterized by:",
+    "options": {
+      "A": "Agricultural activities",
+      "B": "Manufacturing processes",
+      "C": "Highest level of decision-making",
+      "D": "Basic service provision"
+    },
+    "correct_answer": "C",
+    "explanation": "The Quinary Sector includes the highest level of decision-making, involving top government officials, media, and universities.",
+    "subject": "Indian Economy",
+    "chapter": "Other Sector of Economy",
+    "topic": "Quinary Sector",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1212
+  },
+  {
+    "question_text": "Who was the steward under whom the first Human Development Report (HDR) was prepared in 1990?",
+    "options": {
+      "A": "Amartya Sen",
+      "B": "Mahbub-ul-Haq",
+      "C": "Karl Marx",
+      "D": "Adam Smith"
+    },
+    "correct_answer": "B",
+    "explanation": "The first HDR was introduced by UNDP in 1990 under the stewardship of Mahbub-ul-Haq.",
+    "subject": "Indian Economy",
+    "chapter": "Social and Economic Development Index",
+    "topic": "History of HDI",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1212
+  },
+  {
+    "question_text": "In the Human Development Index (HDI), the Life Expectancy Index (LEI) refers to life expectancy at:",
+    "options": {
+      "A": "Age one",
+      "B": "Age five",
+      "C": "Birth",
+      "D": "Age 25"
+    },
+    "correct_answer": "C",
+    "explanation": "Life expectancy in HDI refers to life expectancy at birth, not at age one. Infant mortality is not a separate indicator.",
+    "subject": "Indian Economy",
+    "chapter": "Social and Economic Development Index",
+    "topic": "Indicators of HDI",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1212
+  },
+  {
+    "question_text": "How many high focus districts have been identified for the first phase of the immunization mission, which contain nearly 50% of all unvaccinated or partially vaccinated children?",
+    "options": {
+      "A": "100",
+      "B": "150",
+      "C": "201",
+      "D": "250"
+    },
+    "correct_answer": "C",
+    "explanation": "According to the text, 201 high focus districts having nearly 50% of all unvaccinated or partially vaccinated children have been identified and will be covered in the first phase of the mission.",
+    "subject": "Current Affairs",
+    "chapter": "Health & Immunization",
+    "topic": "High Focus Districts",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1218
+  },
+  {
+    "question_text": "Which of the following is NOT a primary objective of the National Ayush Mission?",
+    "options": {
+      "A": "Promoting AYUSH medical systems through cost-effective services",
+      "B": "Enforcement of quality control of Ayurveda, Siddha, Unani, and Homeopathy drugs",
+      "C": "Ensuring sustainable availability of raw materials for drugs",
+      "D": "Providing free healthcare to all citizens regardless of system"
+    },
+    "correct_answer": "D",
+    "explanation": "The National Ayush Mission aims to promote AYUSH systems, strengthen education, enforce quality control, and ensure raw material availability. It does not explicitly state providing free healthcare to all citizens as a primary objective in the provided text.",
+    "subject": "Current Affairs",
+    "chapter": "Health & Wellness",
+    "topic": "National Ayush Mission",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1218
+  },
+  {
+    "question_text": "The 'Beti Bachao Beti Padhao' (BBBP) scheme was introduced in how many gender-critical districts?",
+    "options": {
+      "A": "50",
+      "B": "100",
+      "C": "201",
+      "D": "500"
+    },
+    "correct_answer": "B",
+    "explanation": "The government introduced the Beti Bachao, Beti Padhao (BBBP) programme in 100 gender-critical districts.",
+    "subject": "Current Affairs",
+    "chapter": "Social Schemes",
+    "topic": "Beti Bachao Beti Padhao (BBBP) Scheme",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1218
+  },
+  {
+    "question_text": "What are the two major components of the Beti Bachao Beti Padhao initiative?",
+    "options": {
+      "A": "Financial aid and job training",
+      "B": "Mass communication campaign and multi-sectoral action",
+      "C": "Legal reform and police training",
+      "D": "Healthcare access and nutrition programs"
+    },
+    "correct_answer": "B",
+    "explanation": "The text states that the Beti Bachao Beti Padhao initiative has two major components: mass communication campaign and multi-sectoral action in 100 selected districts.",
+    "subject": "Current Affairs",
+    "chapter": "Social Schemes",
+    "topic": "Beti Bachao Beti Padhao (BBBP) Scheme",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1218
+  },
+  {
+    "question_text": "What was the total population of India as per the Census 2011?",
+    "options": {
+      "A": "1,100.5 million",
+      "B": "1,210.19 million",
+      "C": "1,300.75 million",
+      "D": "1,050.3 million"
+    },
+    "correct_answer": "B",
+    "explanation": "The Census 2011 recorded a total population of 1,210.19 million, making it the 15th national census.",
+    "subject": "Demography",
+    "chapter": "Census of India",
+    "topic": "Key Statistics",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1220
+  },
+  {
+    "question_text": "Which of the following best describes the share of agriculture in India’s national income in 2012‑13?",
+    "options": {
+      "A": "56 %",
+      "B": "35 %",
+      "C": "13.7 %",
+      "D": "5 %"
+    },
+    "correct_answer": "C",
+    "explanation": "Agriculture’s contribution to national income fell from 56 % in the 1950s to 13.7 % in 2012‑13.",
+    "subject": "Agriculture",
+    "chapter": "Agriculture in India",
+    "topic": "Economic Role",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1220
+  },
+  {
+    "question_text": "Under the National Food Security Act, 2013, what is the entitlement for Priority Households regarding foodgrains?",
+    "options": {
+      "A": "5 kgs per person per month",
+      "B": "35 kgs per household per month",
+      "C": "10 kgs per person per month",
+      "D": "25 kgs per household per month"
+    },
+    "correct_answer": "A",
+    "explanation": "According to the NFSA, Priority Households are entitled to 5 kgs of foodgrains per person per month, while Antyodaya Households are entitled to 35 kgs per household per month.",
+    "subject": "General Studies",
+    "chapter": "Indian Polity & Governance",
+    "topic": "National Food Security Act, 2013 (NFSA)",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1221
+  },
+  {
+    "question_text": "What is the combined coverage of priority and Antyodaya households under the NFSA for the rural population?",
+    "options": {
+      "A": "50%",
+      "B": "60%",
+      "C": "75%",
+      "D": "80%"
+    },
+    "correct_answer": "C",
+    "explanation": "The NFSA states that the combined coverage of priority and Antyodaya households will extend to 75% of the rural population and 50% of the urban population.",
+    "subject": "General Studies",
+    "chapter": "Indian Polity & Governance",
+    "topic": "National Food Security Act, 2013 (NFSA)",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1221
+  },
+  {
+    "question_text": "What are the PDS issue prices for rice, wheat, and millets under the NFSA?",
+    "options": {
+      "A": "₹2/₹1/₹0.50 per kg",
+      "B": "₹3/₹2/₹1 per kg",
+      "C": "₹5/₹4/₹3 per kg",
+      "D": "₹4/₹3/₹2 per kg"
+    },
+    "correct_answer": "B",
+    "explanation": "The NFSA specifies PDS issue prices of ₹3 per kg for rice, ₹2 per kg for wheat, and ₹1 per kg for millets.",
+    "subject": "General Studies",
+    "chapter": "Indian Polity & Governance",
+    "topic": "National Food Security Act, 2013 (NFSA)",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1221
+  },
+  {
+    "question_text": "Which scheme was replaced by the Pradhan Mantri Fasal Bima Yojana (PMFBY)?",
+    "options": {
+      "A": "PM-KISAN",
+      "B": "NAIS and Modified NAIS",
+      "C": "Mega Food Park Scheme",
+      "D": "National Food Security Act"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1221
+  },
+  {
+    "question_text": "Which public sector steel plant in India was established with assistance from Germany?",
+    "options": {
+      "A": "Bhilai",
+      "B": "Rourkela",
+      "C": "Durgapur",
+      "D": "Bokaro"
+    },
+    "correct_answer": "B",
+    "explanation": "Rourkela Steel Plant was established in 1955 with assistance from Germany, making it the first public sector steel plant in India.",
+    "subject": "Indian Economy",
+    "chapter": "Public Sector Steel Plants",
+    "topic": "Steel Plant Locations and Assistance",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1222
+  },
+  {
+    "question_text": "Which of the following industries falls under the *Exclusive Government Monopoly* category?",
+    "options": {
+      "A": "Coal mining",
+      "B": "Manufacture of arms and ammunition",
+      "C": "Automobile manufacturing",
+      "D": "Telegraph apparatus production"
+    },
+    "correct_answer": "B",
+    "explanation": "The Exclusive Government Monopoly category includes industries that are entirely under Central Government control, such as the manufacture of arms and ammunition. Coal mining and telegraph apparatus production are under the Government Monopoly for New Units, while automobile manufacturing falls under the Regulation category.",
+    "subject": "Indian Economy",
+    "chapter": "Industrial Policy",
+    "topic": "Categories of Industries",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1224
+  },
+  {
+    "question_text": "In the Industrial Policy Resolution of 1956, which schedule was designated for industries that were *progressively State‑owned*?",
+    "options": {
+      "A": "Schedule A",
+      "B": "Schedule B",
+      "C": "Schedule C",
+      "D": "Schedule D"
+    },
+    "correct_answer": "B",
+    "explanation": "Schedule B of the 1956 resolution covered industries that were progressively State‑owned, with private enterprises expected to supplement state efforts. Schedule A was for exclusive State responsibility, and Schedule C was for industries open to the private sector.",
+    "subject": "Indian Economy",
+    "chapter": "Industrial Policy",
+    "topic": "Industrial Policy Resolution 1956",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1224
+  },
+  {
+    "question_text": "Which of the following is *not* an example of an industry regulated under the *Regulation* category?",
+    "options": {
+      "A": "Machine tools",
+      "B": "Fertilizers",
+      "C": "Railway transport",
+      "D": "Cement"
+    },
+    "correct_answer": "C",
+    "explanation": "Railway transport is part of the Exclusive Government Monopoly category. Machine tools, fertilizers, and cement fall under the Regulation category, where the Central Government plans and regulates these industries.",
+    "subject": "Indian Economy",
+    "chapter": "Industrial Policy",
+    "topic": "Categories of Industries",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1224
+  },
+  {
+    "question_text": "The New Industrial Policy of 1991 primarily aimed to:",
+    "options": {
+      "A": "Increase state ownership of all industries",
+      "B": "Reduce licensing requirements and promote private investment",
+      "C": "Nationalize the banking sector",
+      "D": "Eliminate foreign direct investment"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1224
+  },
+  {
+    "question_text": "Which of the following is NOT a normal core banking function?",
+    "options": {
+      "A": "Transaction accounts",
+      "B": "Loans",
+      "C": "Mortgages",
+      "D": "Stock market trading"
+    },
+    "correct_answer": "D",
+    "explanation": "Normal core banking functions include transaction accounts, loans, mortgages, and payments. Stock market trading is not a core banking function.",
+    "subject": "Economics",
+    "chapter": "Banking and Money",
+    "topic": "Core Banking Functions",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1225
+  },
+  {
+    "question_text": "When a bank executes transactions directly with consumers rather than corporations or other banks, it is called:",
+    "options": {
+      "A": "Wholesale Banking",
+      "B": "Retail Banking",
+      "C": "Narrow Banking",
+      "D": "Investment Banking"
+    },
+    "correct_answer": "B",
+    "explanation": "Retail Banking is defined as the execution of transactions directly with consumers, rather than with corporations or other banks.",
+    "subject": "Economics",
+    "chapter": "Banking and Money",
+    "topic": "Retail Banking",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1225
+  },
+  {
+    "question_text": "Narrow banking involves mobilizing a large part of deposits in:",
+    "options": {
+      "A": "Equity shares",
+      "B": "Private sector bonds",
+      "C": "Risk-free assets such as government securities",
+      "D": "Real estate"
+    },
+    "correct_answer": "C",
+    "explanation": "Narrow banking involves mobilizing a large part of deposits in risk-free assets such as government securities to take calculated risks.",
+    "subject": "Economics",
+    "chapter": "Banking and Money",
+    "topic": "Narrow Banking",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1225
+  },
+  {
+    "question_text": "Who is authorized to issue currency notes in India on behalf of the Government of India?",
+    "options": {
+      "A": "Ministry of Finance",
+      "B": "Reserve Bank of India (RBI)",
+      "C": "State Bank of India",
+      "D": "Securities and Exchange Board of India (SEBI)"
+    },
+    "correct_answer": "B",
+    "explanation": "The Reserve Bank of India (RBI) is authorized to issue currency notes on behalf of the Government of India.",
+    "subject": "Economics",
+    "chapter": "Banking and Money",
+    "topic": "Definition and Issuance of Money",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1225
+  },
+  {
+    "question_text": "Which of the following is an example of Credit Money?",
+    "options": {
+      "A": "Paper notes",
+      "B": "Coins",
+      "C": "Cheque",
+      "D": "Gold coins"
+    },
+    "correct_answer": "C",
+    "explanation": "Credit Money refers to payment done through cheques. Legal Money includes paper notes and coins issued under legislation.",
+    "subject": "Economics",
+    "chapter": "Banking and Money",
+    "topic": "Types of Money",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1225
+  },
+  {
+    "question_text": "The Banking Ombudsman Scheme is in operation since which year?",
+    "options": {
+      "A": "1990",
+      "B": "1995",
+      "C": "2000",
+      "D": "1988"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, the Banking Ombudsman Scheme has been in operation since 1995.",
+    "subject": "Economics",
+    "chapter": "Banking and Financial Institutions",
+    "topic": "Banking Ombudsman Scheme",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1227
+  },
+  {
+    "question_text": "Which of the following is NOT applicable under the Banking Ombudsman Scheme?",
+    "options": {
+      "A": "Commercial Banks",
+      "B": "Regional Rural Banks (RRBs)",
+      "C": "Scheduled Primary Co-operative Banks",
+      "D": "Non-scheduled Banks"
+    },
+    "correct_answer": "D",
+    "explanation": "The scheme is applicable to all Commercial Banks, RRBs, and Scheduled Primary Co-operative Banks. Non-scheduled banks are not explicitly listed as applicable in the provided text.",
+    "subject": "Economics",
+    "chapter": "Banking and Financial Institutions",
+    "topic": "Banking Ombudsman Scheme",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1227
+  },
+  {
+    "question_text": "The Basel Accord, which introduced the Capital Adequacy Ratio (CAR), was agreed upon in which year?",
+    "options": {
+      "A": "1974",
+      "B": "1988",
+      "C": "1995",
+      "D": "2015"
+    },
+    "correct_answer": "B",
+    "explanation": "The text states that in 1988, central banking bodies agreed upon the provision of Capital Adequacy Ratio (CAR), also known as the Basel Accord.",
+    "subject": "Economics",
+    "chapter": "Banking and Financial Institutions",
+    "topic": "Basel Norms",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1227
+  },
+  {
+    "question_text": "Under Basel III guidelines released by RBI in 2015, banks were required to maintain the Net Stable Funding Ratio (NSFR) from which date?",
+    "options": {
+      "A": "January 2015",
+      "B": "January 2016",
+      "C": "January 2018",
+      "D": "January 2020"
+    },
+    "correct_answer": "C",
+    "explanation": "The draft guidelines released by the Central Bank stated that banks will have to maintain the Net Stable Funding Ratio (NSFR) from January, 2018.",
+    "subject": "Economics",
+    "chapter": "Banking and Financial Institutions",
+    "topic": "Basel III Guidelines",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1227
+  },
+  {
+    "question_text": "Which of the following indices is based in Japan?",
+    "options": {
+      "A": "Dow Jones",
+      "B": "Nikkei",
+      "C": "DAX",
+      "D": "Hang Seng"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1230
+  },
+  {
+    "question_text": "Which of the following is NOT a Central Tax replaced by GST?",
+    "options": {
+      "A": "Central Excise Duty",
+      "B": "Service Tax",
+      "C": "VAT (Value Added Tax)",
+      "D": "Special Additional Duty of Customs (SAD)"
+    },
+    "correct_answer": "C",
+    "explanation": "VAT (Value Added Tax) is a State Tax that was subsumed by GST. Central Excise Duty, Service Tax, and SAD are Central Taxes that were replaced by GST.",
+    "subject": "Economics",
+    "chapter": "Indian Economy",
+    "topic": "Goods and Services Tax (GST)",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1231
+  },
+  {
+    "question_text": "Under which Article of the Constitution is the Finance Commission constituted?",
+    "options": {
+      "A": "Article 264",
+      "B": "Article 293",
+      "C": "Article 280",
+      "D": "Article 300"
+    },
+    "correct_answer": "C",
+    "explanation": "Article 280 of the Constitution provides for the appointment of a Finance Commission by the President to define financial relations between the Centre and the States.",
+    "subject": "Polity",
+    "chapter": "Indian Constitution",
+    "topic": "Finance Commission",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1231
+  },
+  {
+    "question_text": "Which List of the 7th Schedule of the Constitution enlists Union Taxes?",
+    "options": {
+      "A": "List I",
+      "B": "List II",
+      "C": "List III",
+      "D": "Concurrent List"
+    },
+    "correct_answer": "A",
+    "explanation": "List I of the 7th Schedule enlists Union Taxes, while List II enlists taxes within the jurisdiction of the states.",
+    "subject": "Polity",
+    "chapter": "Indian Constitution",
+    "topic": "Financial Relations Between Centre and States",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1231
+  },
+  {
+    "question_text": "GST is levied and collected at each stage of sale or purchase based on which method?",
+    "options": {
+      "A": "Output tax credit method",
+      "B": "Input tax credit method",
+      "C": "Direct tax method",
+      "D": "Slab rate method"
+    },
+    "correct_answer": "B",
+    "explanation": "Goods and Services Tax is levied and collected at each stage of sale or purchase of goods or services based on the input tax credit method.",
+    "subject": "Economics",
+    "chapter": "Indian Economy",
+    "topic": "Goods and Services Tax (GST)",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1231
+  },
+  {
+    "question_text": "Which of the following taxes is subsumed in GST from the State level?",
+    "options": {
+      "A": "Customs Duty",
+      "B": "Luxury Tax",
+      "C": "Central Sales Tax",
+      "D": "Service Tax"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1231
+  },
+  {
+    "question_text": "Which type of inflation is characterized by a simultaneous rise in the general price level and a fall in output and employment?",
+    "options": {
+      "A": "Cost Push Inflation",
+      "B": "Demand Pull Inflation",
+      "C": "Stagflation",
+      "D": "Hyper Inflation"
+    },
+    "correct_answer": "C",
+    "explanation": "Stagflation is defined as a situation where there is a rise in the general price level alongside a fall in output and employment levels.",
+    "subject": "Indian Economy",
+    "chapter": "Inflation",
+    "topic": "Types of Inflation",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1232
+  },
+  {
+    "question_text": "What is the base year for the calculation of the Consumer Price Index (CPI) after the 2015 revision?",
+    "options": {
+      "A": "2010",
+      "B": "2011",
+      "C": "2012",
+      "D": "2015"
+    },
+    "correct_answer": "C",
+    "explanation": "According to the text, the base year for the calculation of CPI after the 2015 revision was changed to 2012.",
+    "subject": "Indian Economy",
+    "chapter": "Inflation",
+    "topic": "Consumer Price Index (CPI)",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1232
+  },
+  {
+    "question_text": "If the General Price Index of the current year is below 100, it indicates:",
+    "options": {
+      "A": "Inflation",
+      "B": "Deflation",
+      "C": "Stagflation",
+      "D": "Hyper Inflation"
+    },
+    "correct_answer": "B",
+    "explanation": "The text states that if the index of the current year is below 100, it indicates the state of deflation.",
+    "subject": "Indian Economy",
+    "chapter": "Inflation",
+    "topic": "Measurement of Inflation",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1232
+  },
+  {
+    "question_text": "Which index measures the change in wholesale prices on a weekly basis?",
+    "options": {
+      "A": "Consumer Price Index (CPI)",
+      "B": "General Price Index",
+      "C": "Wholesale Price Index (WPI)",
+      "D": "GDP Deflator"
+    },
+    "correct_answer": "C",
+    "explanation": "The Wholesale Price Index (WPI) measures the change in wholesale prices on a weekly basis.",
+    "subject": "Indian Economy",
+    "chapter": "Inflation",
+    "topic": "Wholesale Price Index (WPI)",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1232
+  },
+  {
+    "question_text": "Hyper Inflation is also known as:",
+    "options": {
+      "A": "Creeping Inflation",
+      "B": "Galloping Inflation",
+      "C": "Cost Push Inflation",
+      "D": "Stagflation"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1232
+  },
+  {
+    "question_text": "Who serves as the ex-officio Governor of India on the Board of Governors of the IMF?",
+    "options": {
+      "A": "RBI Governor",
+      "B": "Finance Minister of India",
+      "C": "Prime Minister of India",
+      "D": "Secretary, Department of Economic Affairs"
+    },
+    "correct_answer": "B",
+    "explanation": "The Finance Minister of India is the ex-officio Governor on the Board of Governors of the IMF. The RBI Governor serves as the alternate Governor.",
+    "subject": "Economics",
+    "chapter": "International Economic Organizations",
+    "topic": "IMF Structure and India's Role",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1234
+  },
+  {
+    "question_text": "The World Trade Organisation (WTO) commenced under which agreement in 1995?",
+    "options": {
+      "A": "Geneva Agreement",
+      "B": "Marrakesh Agreement",
+      "C": "Uruguay Round Agreement",
+      "D": "Doha Agreement"
+    },
+    "correct_answer": "B",
+    "explanation": "The WTO commenced under the Marrakesh Agreement in 1995 and replaced GATT.",
+    "subject": "Economics",
+    "chapter": "International Economic Organizations",
+    "topic": "WTO Formation and Functions",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1234
+  },
+  {
+    "question_text": "Which organization replaced the General Agreement on Tariffs and Trade (GATT)?",
+    "options": {
+      "A": "IMF",
+      "B": "World Bank",
+      "C": "WTO",
+      "D": "APEC"
+    },
+    "correct_answer": "C",
+    "explanation": "The WTO replaced GATT when it commenced under the Marrakesh Agreement in 1995.",
+    "subject": "Economics",
+    "chapter": "International Economic Organizations",
+    "topic": "WTO Formation and Functions",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1234
+  },
+  {
+    "question_text": "The TRIPS agreement was negotiated during which round of negotiations?",
+    "options": {
+      "A": "Tokyo Round",
+      "B": "Kennedy Round",
+      "C": "Uruguay Round (1986-94)",
+      "D": "Doha Round"
+    },
+    "correct_answer": "C",
+    "explanation": "The WTO’s agreement on Trade Related Aspects of Intellectual Property Right (TRIPS) was negotiated in the 1986-94 Uruguay Round.",
+    "subject": "Economics",
+    "chapter": "International Economic Organizations",
+    "topic": "WTO Formation and Functions",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1234
+  },
+  {
+    "question_text": "Under the TRIPS Agreement, how many years were developing countries given to enact laws to protect intellectual property?",
+    "options": {
+      "A": "5 years",
+      "B": "10 years",
+      "C": "15 years",
+      "D": "20 years"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1234
+  },
+  {
+    "question_text": "Where is the SAARC Secretariat based?",
+    "options": {
+      "A": "New Delhi, India",
+      "B": "Kathmandu, Nepal",
+      "C": "Islamabad, Pakistan",
+      "D": "Dhaka, Bangladesh"
+    },
+    "correct_answer": "B",
+    "explanation": "The SAARC Secretariat is based in Kathmandu, Nepal. It coordinates and monitors the implementation of activities and serves as a communication channel.",
+    "subject": "Current Affairs",
+    "chapter": "International Organizations",
+    "topic": "SAARC",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1235
+  },
+  {
+    "question_text": "When was the South Asian Free Trade Area (SAFTA) agreement reached?",
+    "options": {
+      "A": "8th August, 1967",
+      "B": "6th January, 2004",
+      "C": "1st July, 2013",
+      "D": "2003"
+    },
+    "correct_answer": "B",
+    "explanation": "SAFTA was an agreement reached on 6th January, 2004, at the 12th SAARC Summit in Islamabad, Pakistan.",
+    "subject": "Current Affairs",
+    "chapter": "International Organizations",
+    "topic": "SAFTA",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1235
+  },
+  {
+    "question_text": "Which of the following was NOT a founding member of ASEAN?",
+    "options": {
+      "A": "Indonesia",
+      "B": "Malaysia",
+      "C": "Vietnam",
+      "D": "Thailand"
+    },
+    "correct_answer": "C",
+    "explanation": "The founding members of ASEAN (established in 1967) were Indonesia, Malaysia, Philippines, Singapore, and Thailand. Vietnam joined later.",
+    "subject": "Current Affairs",
+    "chapter": "International Organizations",
+    "topic": "ASEAN",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1235
+  },
+  {
+    "question_text": "Which organization received the 2012 Nobel Peace Prize?",
+    "options": {
+      "A": "SAARC",
+      "B": "ASEAN",
+      "C": "European Union",
+      "D": "IBSA"
+    },
+    "correct_answer": "C",
+    "explanation": "The European Union received the 2012 Nobel Peace Prize for having contributed to the advancement of peace and reconciliation, democracy, and human rights in Europe.",
+    "subject": "Current Affairs",
+    "chapter": "International Organizations",
+    "topic": "European Union",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1235
+  },
+  {
+    "question_text": "With reference to BRIC countries, consider the following statement(s):\n1. At present China’s GDP is more than the combined GDP of all the three other countries.\n2. China’s population is more than the combined population of any two other countries.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "C",
+    "explanation": "China is the largest economy in BRICS. Its GDP is substantial enough to exceed the combined GDP of the other members in many recent assessments. Additionally, China's population is the largest in the group and exceeds the combined population of any two other BRICS nations (e.g., China > India + Russia).",
+    "subject": "General Studies",
+    "chapter": "International Relations",
+    "topic": "BRICS",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1237
+  },
+  {
+    "question_text": "Which one of the following statements is not correct?",
+    "options": {
+      "A": "Commercial Bank reserves held by RBI are an asset of Commercial Banks",
+      "B": "Commercial Banks decrease the supply of money, when they purchase government bonds from households or businesses",
+      "C": "Actual reserves don’t necessarily exceed required reserves",
+      "D": "The supply of money increases, when the RBI buys government securities from households or businesses"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1237
+  },
+  {
+    "question_text": "The main function of the Exim Bank is",
+    "options": {
+      "A": "to help RBI in the regulation of foreign exchange",
+      "B": "to prevent unlicensed transaction",
+      "C": "to promote exports and curtail imports",
+      "D": "to conserve foreign exchange"
+    },
+    "correct_answer": "C",
+    "explanation": "The Export-Import Bank of India (Exim Bank) was established to promote and finance exports and imports, thereby helping to promote exports and manage import levels.",
+    "subject": "Economics",
+    "chapter": "Indian Economy",
+    "topic": "Banking and Financial Institutions",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1240
+  },
+  {
+    "question_text": "Which of the following are the functions of the Central Bank of India?\n1. Regulation of currency and flow of credit system.\n2. Maintaining exchange value of rupee.\n3. Formulating monetary policy of India.\n4. Supervisory powers over the indigenous bankers and leasing companies.",
+    "options": {
+      "A": "1 and 3",
+      "B": "1, 2 and 3",
+      "C": "1, 2 and 4",
+      "D": "All of these"
+    },
+    "correct_answer": "D",
+    "explanation": "All the listed statements are correct functions of the Reserve Bank of India (RBI), the Central Bank of India. It regulates currency, maintains the rupee's value, formulates monetary policy, and supervises banks and financial institutions.",
+    "subject": "Economics",
+    "chapter": "Indian Economy",
+    "topic": "Banking and Financial Institutions",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1240
+  },
+  {
+    "question_text": "Consider the following statement(s)\n1. Pump-priming refers to deficit financing and spending by a government on public works in an attempt to revive economy during recession counter cyclical measures.\n2. The example of demerit goods include tobacco, alcohol etc.\n3. Thirteenth Finance Commission called the demerit goods as sin goods and wants them to be harshly taxed.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 3",
+      "B": "2 and 3",
+      "C": "All of these",
+      "D": "None of these"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1240
+  },
+  {
+    "question_text": "Consider the following statement(s):\n1. The five permanent members of the Security Council are the only countries recognised as nuclear-weapon states under the Nuclear Non-Proliferation Treaty.\n2. The term of non-permanent members of the council is 5 years.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "A",
+    "explanation": "Statement 1 is correct: The P5 (USA, Russia, China, France, UK) are the only recognized nuclear-weapon states under the NPT. Statement 2 is incorrect: The term for non-permanent members of the UNSC is 2 years, not 5 years.",
+    "subject": "Current Affairs / International Relations",
+    "chapter": "United Nations",
+    "topic": "Security Council Composition",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1242
+  },
+  {
+    "question_text": "Match the following:\nList I (Phases of Industrial Revolution)\nA. First Phase\nB. Second Phase\nC. Third Phase\nD. Fourth Phase\n\nList II (Features)\n1. Rise of steel, chemicals, electricity industries\n2. Rise of cotton mill\n3. Rise of steam engine\n4. Rise of petrochemicals, jet aircraft, computers",
+    "options": {
+      "A": "A-2, B-3, C-1, D-4",
+      "B": "A-2, B-1, C-3, D-4",
+      "C": "A-4, B-1, C-3, D-2",
+      "D": "A-4, B-3, C-1, D-2"
+    },
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1242
+  },
+  {
+    "question_id": "q_109_epz_asia",
+    "question_number": "109",
+    "question_text": "Which one of the following places was Asia's first Export Processing Zone (EPZ) set-up?",
+    "options": [
+      "(a) Santa Cruz",
+      "(b) Kandla",
+      "(c) Cochin",
+      "(d) Surat"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "Economics",
+    "chapter": "International Trade",
+    "subchapter": "Export Processing Zones",
+    "topic": "Asia's First EPZ",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_110_gender_disparity",
+    "question_number": "110",
+    "question_text": "Which one among the following states has the highest gender disparity?",
+    "options": [
+      "(a) Odisha",
+      "(b) Uttar Pradesh",
+      "(c) Haryana",
+      "(d) Maharashtra"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "Geography",
+    "chapter": "Human Geography",
+    "subchapter": "Demographics",
+    "topic": "Gender Disparity in Indian States",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_111_gatt_wto",
+    "question_number": "111",
+    "question_text": "In which of the following years was General Agreement on Tariffs and Trade (GATT) absorbed into the World Trade Organisation (WTO)?",
+    "options": [
+      "(a) 1991",
+      "(b) 1995",
+      "(c) 2000",
+      "(d) 2005"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "International Relations",
+    "chapter": "International Organizations",
+    "subchapter": "Trade Organizations",
+    "topic": "GATT and WTO Formation",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_112_iaea_statements",
+    "question_number": "112",
+    "question_text": "Consider the following statement(s) about IAEA\n1. It was set-up as the World's Atoms for Peace organisation in 1957.\n2. The IAEA Secretariat is headquartered at the Vienna international centre, Vienna, Austria.\n3. In terms of its statute, the IAEA reports annually to the UN General Assembly.\nWhich of the statement(s) given above is/are correct?",
+    "options": [
+      "(a) Only 3",
+      "(b) Only 1",
+      "(c) 2 and 3",
+      "(d) All of these"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "International Relations",
+    "chapter": "International Organizations",
+    "subchapter": "UN and its Agencies",
+    "topic": "International Atomic Energy Agency (IAEA)",
+    "difficulty": "Medium",
+    "question_type": "Statement Based",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_113_ibrd_alias",
+    "question_number": "113",
+    "question_text": "International Bank for Reconstruction and Development is also known as",
+    "options": [
+      "(a) Credit Bank",
+      "(b) Exim Bank",
+      "(c) World Bank",
+      "(d) Asian Bank"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "Economics",
+    "chapter": "International Organizations",
+    "subchapter": "Financial Institutions",
+    "topic": "International Bank for Reconstruction and Development (IBRD)",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_114_org_hq_mismatch",
+    "question_number": "114",
+    "question_text": "Which one of the following pairs is not correctly matched?\nOrganisation : Headquarter\n(a) International Labour Organisation : Geneva\n(b) International Maritime Organisation : London\n(c) International Monetary Fund : Washington DC\n(d) International Atomic Energy Agency : New York",
+    "options": [
+      "(a) International Labour Organisation : Geneva",
+      "(b) International Maritime Organisation : London",
+      "(c) International Monetary Fund : Washington DC",
+      "(d) International Atomic Energy Agency : New York"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "International Relations",
+    "chapter": "International Organizations",
+    "subchapter": "Headquarters",
+    "topic": "International Organizations and their Headquarters",
+    "difficulty": "Medium",
+    "question_type": "Match the Following",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_115_person_org_match",
+    "question_number": "115",
+    "question_text": "Match the following\nList I (Persons) : List II (Organisations)\nA. Juan Somavia : 1. IAEA\nB. Margaret Chan : 2. ILO\nC. Kemal Dervis : 3. WHO\nD. Mohamed ElBaradei : 4. UNDP\nCodes\nA B C D\n(a) 1 2 3 4\n(b) 2 3 4 1\n(c) 2 4 3 1\n(d) 1 3 2 4",
+    "options": [
+      "(a) 1 2 3 4",
+      "(b) 2 3 4 1",
+      "(c) 2 4 3 1",
+      "(d) 1 3 2 4"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "International Relations",
+    "chapter": "International Organizations",
+    "subchapter": "Leadership",
+    "topic": "Important Persons and International Organizations",
+    "difficulty": "Hard",
+    "question_type": "Match the Following",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_116_11th_plan_agri",
+    "question_number": "116",
+    "question_text": "The Eleventh Five Year Plan strategy to raise agricultural output envisages which of the following?\n1. Greater attention to land reforms.\n2. Double the rate of growth of irrigated area.\n3. Promote animal husbandry and fishery.\n4. Interest free credit to the farmers.\nSelect the correct answer using the codes given below.",
+    "options": [
+      "(a) 1 and 3",
+      "(b) 2 and 3",
+      "(c) 1, 2 and 3",
+      "(d) 2 and 4"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "2007-2012",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "Economics",
+    "chapter": "Indian Economy",
+    "subchapter": "Five Year Plans",
+    "topic": "Eleventh Five Year Plan - Agriculture Strategy",
+    "difficulty": "Medium",
+    "question_type": "Statement Based",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_117_11th_plan_teledensity",
+    "question_number": "117",
+    "question_text": "By which one of the following years does the Eleventh Five Year Plan aim at achieving 10% rural tele-density in India from the present 1.9%?",
+    "options": [
+      "(a) 2009",
+      "(b) 2010",
+      "(c) 2011",
+      "(d) 2012"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "2007-2012",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "Economics",
+    "chapter": "Indian Economy",
+    "subchapter": "Five Year Plans",
+    "topic": "Eleventh Five Year Plan - Rural Tele-density Target",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_118_11th_plan_env_target_incorrect",
+    "question_number": "118",
+    "question_text": "Which one of the following statements regarding Monitorable Socio-Economic target of the Eleventh Five Year Plan, under the head environment, is not correct?\n(a) Treat all urban waste water by 2011-2012 to clear river waters\n(b) Increase energy efficiency by 20 percentage points by 2016-1017\n(c) Attain WHO standards of air quality in all major cities by 2011-2012\n(d) Increase forest and tree cover by 15 percentage points",
+    "options": [
+      "(a) Treat all urban waste water by 2011-2012 to clear river waters",
+      "(b) Increase energy efficiency by 20 percentage points by 2016-1017",
+      "(c) Attain WHO standards of air quality in all major cities by 2011-2012",
+      "(d) Increase forest and tree cover by 15 percentage points"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "2007-2012",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "Environment",
+    "chapter": "Environmental Policies",
+    "subchapter": "Five Year Plans",
+    "topic": "Eleventh Five Year Plan - Environmental Targets",
+    "difficulty": "Hard",
+    "question_type": "Statement Based",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_119_food_work_planning_comm",
+    "question_number": "119",
+    "question_text": "Consider the following statement(s)\n1. Food for Work Programme was launched in India during the Tenth Five Year Plan.\n2. The Planning commission in India is a constitutional body.\nWhich of the statement(s) given above is/are correct?",
+    "options": [
+      "(a) Only 1",
+      "(b) Only 2",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "Indian Polity",
+    "chapter": "Constitutional Bodies",
+    "subchapter": "Planning Commission",
+    "topic": "Food for Work Programme and Planning Commission",
+    "difficulty": "Medium",
+    "question_type": "Statement Based",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_120_sro_acronym",
+    "question_number": "120",
+    "question_text": "The acronym SRO, being used in the capital market for various market participants, stands for which one of the following?",
+    "options": [
+      "(a) Self Regulatory Organisations",
+      "(b) Small Revenue Operators",
+      "(c) Securities Roll-back Operators",
+      "(d) Securities Regulatory Organisations"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "Economics",
+    "chapter": "Financial Markets",
+    "subchapter": "Capital Market",
+    "topic": "SRO in Capital Market",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_121_first_planning_comm_chairman",
+    "question_number": "121",
+    "question_text": "Who among the following was the first Chairman of the Planning Commission?",
+    "options": [
+      "(a) Dr Rajendra Prasad",
+      "(b) Pt Jawaharlal Nehru",
+      "(c) Sardar Vallabhbhai Patel",
+      "(d) JB Kripalani"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "Indian Polity",
+    "chapter": "Constitutional Bodies",
+    "subchapter": "Planning Commission",
+    "topic": "First Chairman of Planning Commission",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_122_not_asean_member",
+    "question_number": "122",
+    "question_text": "Which one of the following countries is not a member of ASEAN?",
+    "options": [
+      "(a) Brunei Darussalam",
+      "(b) Cambodia",
+      "(c) Vietnam",
+      "(d) India"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "International Relations",
+    "chapter": "International Organizations",
+    "subchapter": "Regional Groupings",
+    "topic": "ASEAN Membership",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_123_india_org_membership",
+    "question_number": "123",
+    "question_text": "In which of the following International Organisations is India a member?\n1. Indian Ocean Rim Association for Regional Cooperation.\n2. Organisation for Economic Cooperation and Development.\nSelect the correct answer using the codes given below.",
+    "options": [
+      "(a) Only 1",
+      "(b) Only 2",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "International Relations",
+    "chapter": "International Organizations",
+    "subchapter": "India's Role",
+    "topic": "India's Membership in International Organizations",
+    "difficulty": "Medium",
+    "question_type": "Statement Based",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_124_steel_plants_assistance",
+    "question_number": "124",
+    "question_text": "Consider the following statement(s)\n1. The USSR assisted in the building of the Bhilai Steel Plant.\n2. The British assisted in the building of the Bokaro Steel Plant.\nWhich of the statement(s) given above is/are correct?",
+    "options": [
+      "(a) Only 1",
+      "(b) Only 2",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "History",
+    "chapter": "Post-Independence India",
+    "subchapter": "Industrial Development",
+    "topic": "Major Steel Plants and Foreign Collaboration",
+    "difficulty": "Medium",
+    "question_type": "Statement Based",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_125_wef_india_summit_city",
+    "question_number": "125",
+    "question_text": "The World Economic Forum (WEF) India Economic Summit will be hosted by which city of India?",
+    "options": [
+      "(a) New Delhi",
+      "(b) Chennai",
+      "(c) Kolkata",
+      "(d) Mumbai"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "Current Affairs",
+    "chapter": "International Events",
+    "subchapter": "Economic Summits",
+    "topic": "World Economic Forum India Summit",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
+  },
+  {
+    "question_id": "q_126_rbi_money_pooling_portal",
+    "question_number": "126",
+    "question_text": "Which portal has been launched by the Reserve Bank of India (RBI) to curb illegal money pooling by firms?",
+    "options": [
+      "(a) Tez",
+      "(b) Savdhan",
+      "(c) Chetavani",
+      "(d) Sachet"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": null,
+    "negative_marks": null,
+    "year": "Unknown",
+    "exam": "CDS",
+    "paper": null,
+    "shift": null,
+    "subject": "Current Affairs",
+    "chapter": "Banking and Finance",
+    "subchapter": "RBI Initiatives",
+    "topic": "RBI Portal for Illegal Money Pooling",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "pathfinder-cds-combined-defence-expertsarihant-90f15b25.pdf",
+    "source_page": 1243
   }
 ]

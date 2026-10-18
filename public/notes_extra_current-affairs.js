@@ -1,6 +1,6 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
 
-window.EXPANDED_NOTES_DATA["physics-work"] = `
+window.EXPANDED_NOTES_DATA["ca-upsc-master-framework"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">UPSC Core Current Affairs Syllabus Map</h3>
 
@@ -52,6 +52,12 @@ window.EXPANDED_NOTES_DATA["physics-work"] = `
         <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">WPI</td>
         <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Wholesale price basket (primary articles, fuel, manufactured goods)</td>
         <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Early inflation signals, industrial price trends</td>
+      <tr style="background:rgba(255,255,255,0.02);">
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Core Inflation</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">CPI headline basket excluding volatile food and fuel components</td>
+        <td style="padding:10px; border:1px solid rgba(255,255,255,0.1); color:#e2e8f0;">Assessing underlying structural and non-seasonal monetary price pressures</td>
       </tr>
-      <tr style="background:rgba
+    </tbody>
+  </table>
+</div>
 `;
