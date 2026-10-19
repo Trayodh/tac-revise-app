@@ -140,6 +140,14 @@ def robust_json_loads(raw_text):
     except Exception:
         pass
         
+    import ast
+    try:
+        parsed = ast.literal_eval(clean)
+        if isinstance(parsed, (dict, list)):
+            return parsed
+    except Exception:
+        pass
+        
     import re
     # Fix invalid backslashes (e.g. LaTeX \alpha, \sqrt, etc.)
     fixed = re.sub(r'\\(?![/\\\"bfnrtu]|u[0-9a-fA-F]{4})', r'\\\\', clean)
