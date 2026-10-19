@@ -619011,5 +619011,882 @@
     },
     "source_pdf": "nda_material.pdf",
     "source_page": 1205
+  },
+  {
+    "question_text": "Who was elected as the permanent President of the Constituent Assembly on 11th December, 1946?",
+    "options": {
+      "A": "Dr. B.R. Ambedkar",
+      "B": "Jawaharlal Nehru",
+      "C": "Dr. Rajendra Prasad",
+      "D": "Sardar Patel"
+    },
+    "correct_answer": "C",
+    "explanation": "Dr. Rajendra Prasad was elected as the permanent President of the Constituent Assembly on 11th December, 1946.",
+    "subject": "Polity",
+    "chapter": "Making of the Constitution",
+    "topic": "Constituent Assembly Timeline",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1216
+  },
+  {
+    "question_text": "Who was the Chairman of the Drafting Committee of the Constituent Assembly?",
+    "options": {
+      "A": "Jawaharlal Nehru",
+      "B": "Dr. Rajendra Prasad",
+      "C": "Dr. B.R. Ambedkar",
+      "D": "Sardar Patel"
+    },
+    "correct_answer": "C",
+    "explanation": "The Drafting Committee was set up on 29th August, 1947, under the Chairmanship of Dr. B.R. Ambedkar.",
+    "subject": "Polity",
+    "chapter": "Making of the Constitution",
+    "topic": "Constitution Committees",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1216
+  },
+  {
+    "question_text": "On which date was the Constitution of India adopted by the Constituent Assembly?",
+    "options": {
+      "A": "26th January, 1950",
+      "B": "15th August, 1947",
+      "C": "26th November, 1949",
+      "D": "29th August, 1947"
+    },
+    "correct_answer": "C",
+    "explanation": "The Constitution was adopted on 26th November, 1949, and 284 members signed it on that day.",
+    "subject": "Polity",
+    "chapter": "Making of the Constitution",
+    "topic": "Enactment and Enforcement",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1216
+  },
+  {
+    "question_text": "Why was 26th January chosen as the date for the commencement of the Constitution?",
+    "options": {
+      "A": "It was the day of India's independence",
+      "B": "It was the day the Constituent Assembly was formed",
+      "C": "It was the day Poorna Swaraj was celebrated in 1930",
+      "D": "It was the birthday of Dr. B.R. Ambedkar"
+    },
+    "correct_answer": "C",
+    "explanation": "26th January, 1950, was chosen because on this day in 1930, the Poorna Swaraj (Complete Independence) day was celebrated.",
+    "subject": "Polity",
+    "chapter": "Making of the Constitution",
+    "topic": "Enactment and Enforcement",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1216
+  },
+  {
+    "question_text": "Which of the following is NOT a mode of acquiring Indian citizenship as per the Citizenship Act, 1955?",
+    "options": {
+      "A": "By Birth",
+      "B": "By Registration",
+      "C": "By Naturalisation",
+      "D": "By Election"
+    },
+    "correct_answer": "D",
+    "explanation": "The five modes of acquiring Indian citizenship are By Birth, By Registration, By Acquisition of Territory, By Naturalisation, and By Descent (Mnemonic: BRAND). 'By Election' is not a mode of acquiring citizenship.",
+    "subject": "Polity",
+    "chapter": "Citizenship",
+    "topic": "Modes of Acquiring Indian Citizenship",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1219
+  },
+  {
+    "question_text": "Under which Article of the Indian Constitution does Parliament have the power to regulate the Right of Citizenship by Law?",
+    "options": {
+      "A": "Article 5",
+      "B": "Article 9",
+      "C": "Article 11",
+      "D": "Article 10"
+    },
+    "correct_answer": "C",
+    "explanation": "Article 11 of the Indian Constitution grants Parliament the power to enact laws regarding citizenship and regulate the right of citizenship in India.",
+    "subject": "Polity",
+    "chapter": "Citizenship",
+    "topic": "Constitutional Provisions",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1219
+  },
+  {
+    "question_text": "In which of the following scenarios can the Central Government deprive a naturalised citizen of their Indian citizenship?",
+    "options": {
+      "A": "If the citizen resides outside India for more than 5 years",
+      "B": "If the citizen acquires citizenship of another country",
+      "C": "If the citizen was sentenced to imprisonment for 2 years or more within 5 years of registration",
+      "D": "If the citizen voluntarily renounces citizenship"
+    },
+    "correct_answer": "C",
+    "explanation": "The Central Government can deprive a naturalised citizen if they have been sentenced to imprisonment for a period of 2 years or more within 5 years of registration. Option B leads to automatic termination, not deprivation by the government. Option D is voluntary renunciation. Option A requires continuous residence outside India for more than 7 years for deprivation.",
+    "subject": "Polity",
+    "chapter": "Citizenship",
+    "topic": "Modes of Terminating Indian Citizenship",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1219
+  },
+  {
+    "question_text": "What is the mnemonic used to remember the five ways of acquiring Indian citizenship?",
+    "options": {
+      "A": "BRAIN",
+      "B": "BRAND",
+      "C": "BREAD",
+      "D": "BRAIN"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1219
+  },
+  {
+    "question_text": "Which Amendment Act added the Fundamental Duties to the Indian Constitution?",
+    "options": {
+      "A": "42nd Amendment Act, 1976",
+      "B": "44th Amendment Act, 1978",
+      "C": "86th Amendment Act, 2002",
+      "D": "43rd Amendment Act, 1977"
+    },
+    "correct_answer": "A",
+    "explanation": "The Fundamental Duties were added to the Constitution by the 42nd Amendment Act, 1976.",
+    "subject": "Polity",
+    "chapter": "Fundamental Duties",
+    "topic": "Origin of Fundamental Duties",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1222
+  },
+  {
+    "question_text": "The 11th Fundamental Duty, which mandates parents to provide education to children aged 6-14, was added by which Amendment?",
+    "options": {
+      "A": "42nd Amendment",
+      "B": "86th Amendment",
+      "C": "93rd Amendment",
+      "D": "103rd Amendment"
+    },
+    "correct_answer": "B",
+    "explanation": "The 11th Fundamental Duty was added by the 86th Constitution Amendment in 2002.",
+    "subject": "Polity",
+    "chapter": "Fundamental Duties",
+    "topic": "Amendments to Fundamental Duties",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1222
+  },
+  {
+    "question_text": "Which Article of the Indian Constitution provides for the office of the President of India?",
+    "options": {
+      "A": "Article 51",
+      "B": "Article 52",
+      "C": "Article 53",
+      "D": "Article 54"
+    },
+    "correct_answer": "B",
+    "explanation": "Article 52 provides for the office of the President of India. Articles 52-78 deal with the President.",
+    "subject": "Polity",
+    "chapter": "The Union",
+    "topic": "President",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1222
+  },
+  {
+    "question_text": "Which of the following is NOT a Fundamental Duty under Article 51A?",
+    "options": {
+      "A": "To defend the country and render national service",
+      "B": "To vote in public elections",
+      "C": "To safeguard public property and abjure violence",
+      "D": "To develop scientific temper and humanism"
+    },
+    "correct_answer": "B",
+    "explanation": "Voting is a right, not a Fundamental Duty. The listed duties in options A, C, and D are explicitly mentioned in Article 51A.",
+    "subject": "Polity",
+    "chapter": "Fundamental Duties",
+    "topic": "List of Fundamental Duties",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1222
+  },
+  {
+    "question_text": "Who are considered the real policy makers in the Indian Council of Ministers?",
+    "options": {
+      "A": "Ministers of State",
+      "B": "Deputy Ministers",
+      "C": "Cabinet Ministers",
+      "D": "All Ministers"
+    },
+    "correct_answer": "C",
+    "explanation": "Cabinet Ministers are in charge of important portfolios and are considered the real policy makers. Only they attend Cabinet meetings.",
+    "subject": "Polity",
+    "chapter": "Executive",
+    "topic": "Types of Ministers",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1225
+  },
+  {
+    "question_text": "What is the maximum period for which a person can remain a minister without being a member of either house of Parliament?",
+    "options": {
+      "A": "3 months",
+      "B": "6 months",
+      "C": "1 year",
+      "D": "2 years"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the Constitution, a person can remain a minister without being a member of either house for a maximum of 6 months.",
+    "subject": "Polity",
+    "chapter": "Executive",
+    "topic": "Collective Responsibility and Membership",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1225
+  },
+  {
+    "question_text": "Who is the ex-officio chairperson of NITI Aayog?",
+    "options": {
+      "A": "President of India",
+      "B": "Vice President of India",
+      "C": "Prime Minister of India",
+      "D": "Finance Minister"
+    },
+    "correct_answer": "C",
+    "explanation": "The Prime Minister is the ex-officio chairperson of NITI Aayog. Previously, the PM was the chairperson of the Planning Commission.",
+    "subject": "Polity",
+    "chapter": "Executive",
+    "topic": "Role and Powers of the Prime Minister",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1225
+  },
+  {
+    "question_text": "If the Prime Minister is not a member of Parliament, within how many months must they acquire membership?",
+    "options": {
+      "A": "3 months",
+      "B": "6 months",
+      "C": "12 months",
+      "D": "18 months"
+    },
+    "correct_answer": "B",
+    "explanation": "The Prime Minister, if not a member of Parliament, has to acquire its membership within 6 months of their appointment.",
+    "subject": "Polity",
+    "chapter": "Executive",
+    "topic": "Role and Powers of the Prime Minister",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1225
+  },
+  {
+    "question_text": "Who has the final authority to decide whether a bill is a Money Bill or an Ordinary Bill?",
+    "options": {
+      "A": "The Prime Minister",
+      "B": "The President of India",
+      "C": "The Speaker of Lok Sabha",
+      "D": "The Chief Justice of India"
+    },
+    "correct_answer": "C",
+    "explanation": "According to Article 110, the Speaker of Lok Sabha certifies a bill to be a Money Bill, and his decision is final in this regard.",
+    "subject": "Polity",
+    "chapter": "Parliament",
+    "topic": "Money Bill",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1228
+  },
+  {
+    "question_text": "A Money Bill can be introduced in which of the following houses of Parliament?",
+    "options": {
+      "A": "Only in Rajya Sabha",
+      "B": "Only in Lok Sabha",
+      "C": "In either House",
+      "D": "In both Houses simultaneously"
+    },
+    "correct_answer": "B",
+    "explanation": "A Money Bill can be introduced only in the Lok Sabha. It requires the prior consent of the President.",
+    "subject": "Polity",
+    "chapter": "Parliament",
+    "topic": "Money Bill",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1228
+  },
+  {
+    "question_text": "What is the maximum period for which the Rajya Sabha can delay a Money Bill passed by the Lok Sabha?",
+    "options": {
+      "A": "7 days",
+      "B": "14 days",
+      "C": "30 days",
+      "D": "60 days"
+    },
+    "correct_answer": "B",
+    "explanation": "The Rajya Sabha can only make recommendations on a Money Bill and can delay it for a maximum of 14 days. The final approval lies with the Lok Sabha.",
+    "subject": "Polity",
+    "chapter": "Parliament",
+    "topic": "Money Bill",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1228
+  },
+  {
+    "question_text": "Which of the following statements about a Financial Bill is correct?",
+    "options": {
+      "A": "It can be introduced by any member of Parliament without recommendation.",
+      "B": "It is certified as a Money Bill by the Speaker.",
+      "C": "It can be introduced only on the recommendation of the President.",
+      "D": "It can be introduced only in Rajya Sabha."
+    },
+    "correct_answer": "C",
+    "explanation": "A Financial Bill deals with revenues or expenditure but is not certified as a Money Bill. It can be introduced only on the recommendation of the President.",
+    "subject": "Polity",
+    "chapter": "Parliament",
+    "topic": "Financial Bill",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1228
+  },
+  {
+    "question_text": "Under which Article of the Constitution can a Constitutional Amendment Bill be introduced?",
+    "options": {
+      "A": "Article 110",
+      "B": "Article 123",
+      "C": "Article 368",
+      "D": "Article 312"
+    },
+    "correct_answer": "C",
+    "explanation": "Article 368 grants the power to Parliament to amend the Constitution. Such bills can be introduced in either House without the recommendation of the President.",
+    "subject": "Polity",
+    "chapter": "Parliament",
+    "topic": "Constitutional Amendment Bills",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1228
+  },
+  {
+    "question_text": "Members of the Rajya Sabha are associated with all Parliamentary Committees except:",
+    "options": {
+      "A": "Public Accounts Committee",
+      "B": "Estimates Committee",
+      "C": "Joint Committee",
+      "D": "Committee on Public Undertakings"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1228
+  },
+  {
+    "question_text": "Under Article 143, the opinion given by the Supreme Court to the President on a question of law or fact is:",
+    "options": {
+      "A": "Binding on the President",
+      "B": "Not binding on the President",
+      "C": "Binding only if the President agrees",
+      "D": "Binding on all High Courts"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, the Supreme Court gives its opinion to the President, but such an opinion is not binding on the President.",
+    "subject": "Polity",
+    "chapter": "Supreme Court",
+    "topic": "Advisory Jurisdiction",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1231
+  },
+  {
+    "question_text": "In which of the following cases can an appeal be made to the Supreme Court against a decision of a High Court in a civil matter?",
+    "options": {
+      "A": "If the High Court certifies that it involves a question of interpretation of the Constitution",
+      "B": "If the High Court certifies that the case involves a substantial question of law",
+      "C": "If the accused is sentenced to death",
+      "D": "If the case involves a dispute regarding the election of the President"
+    },
+    "correct_answer": "B",
+    "explanation": "The text states that for civil cases, an appeal can be made if the High Court gives a certificate that the case involves a substantial question of law. Option A applies to general constitutional interpretation appeals, while Option C applies to specific criminal death penalty cases.",
+    "subject": "Polity",
+    "chapter": "Supreme Court",
+    "topic": "Appellate Jurisdiction",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1231
+  },
+  {
+    "question_text": "Which of the following statements regarding the Revisory Jurisdiction of the Supreme Court is correct?",
+    "options": {
+      "A": "It can only review judgments given by High Courts",
+      "B": "It can review any judgment given by itself",
+      "C": "It cannot transfer cases from lower courts",
+      "D": "Parliament cannot confer additional powers on the Supreme Court"
+    },
+    "correct_answer": "B",
+    "explanation": "Under Article 137, the Supreme Court can review any judgment given by itself. It also has the power to transfer cases, and Parliament can confer more powers by law.",
+    "subject": "Polity",
+    "chapter": "Supreme Court",
+    "topic": "Revisory Jurisdiction",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1231
+  },
+  {
+    "question_text": "The Supreme Court has the obligation to decide disputes regarding the election of:",
+    "options": {
+      "A": "The Prime Minister and Chief Ministers",
+      "B": "The President and Vice-President",
+      "C": "Members of Parliament and State Legislatures",
+      "D": "The Chief Justice of India"
+    },
+    "correct_answer": "B",
+    "explanation": "The text explicitly states that the Supreme Court has the obligation to decide on disputes regarding the election of the President and the Vice-President.",
+    "subject": "Polity",
+    "chapter": "Supreme Court",
+    "topic": "Election Jurisdiction",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1231
+  },
+  {
+    "question_text": "What is the maximum strength of a State Legislative Assembly as per the Constitution?",
+    "options": {
+      "A": "400",
+      "B": "500",
+      "C": "600",
+      "D": "700"
+    },
+    "correct_answer": "B",
+    "explanation": "The strength of legislative assemblies cannot be more than 500 and not less than 60.",
+    "subject": "Polity",
+    "chapter": "State Legislature",
+    "topic": "Strength of Legislative Assemblies",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1233
+  },
+  {
+    "question_text": "What is the minimum strength of the Legislative Assembly in Arunachal Pradesh, Sikkim, and Goa?",
+    "options": {
+      "A": "30",
+      "B": "40",
+      "C": "46",
+      "D": "60"
+    },
+    "correct_answer": "A",
+    "explanation": "In the case of Arunachal Pradesh, Sikkim, and Goa, the minimum number is fixed at 30.",
+    "subject": "Polity",
+    "chapter": "State Legislature",
+    "topic": "Strength of Legislative Assemblies",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1233
+  },
+  {
+    "question_text": "What is the minimum age requirement for a member of the State Legislative Assembly?",
+    "options": {
+      "A": "21 years",
+      "B": "25 years",
+      "C": "30 years",
+      "D": "35 years"
+    },
+    "correct_answer": "B",
+    "explanation": "A citizen of India must be not less than 25 years of age to be a member of the Legislative Assembly.",
+    "subject": "Polity",
+    "chapter": "State Legislature",
+    "topic": "Qualifications for Members",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1233
+  },
+  {
+    "question_text": "How many High Courts are presently in India according to the provided text?",
+    "options": {
+      "A": "21",
+      "B": "22",
+      "C": "24",
+      "D": "25"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1233
+  },
+  {
+    "question_text": "The Constitution of India borrowed the concept of the Directive Principle of State Policy from the Constitution of",
+    "options": {
+      "A": "USA",
+      "B": "Ireland",
+      "C": "Canada",
+      "D": "UK"
+    },
+    "correct_answer": "B",
+    "explanation": "The Directive Principles of State Policy were borrowed from the Constitution of Ireland.",
+    "subject": "Indian Polity",
+    "chapter": "The Constitution of India",
+    "topic": "Borrowed Features",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1237
+  },
+  {
+    "question_text": "The Constitution of India was enacted by Constituent Assembly set-up",
+    "options": {
+      "A": "under the Cabinet Mission Plan, 1946",
+      "B": "promulgation of the Rowlatt Act, 1919",
+      "C": "the Indian Council Act, 1892",
+      "D": "Indian Independence Act, 1947"
+    },
+    "correct_answer": "A",
+    "explanation": "The Constituent Assembly was formed under the Cabinet Mission Plan of 1946.",
+    "subject": "Indian Polity",
+    "chapter": "The Constitution of India",
+    "topic": "Constituent Assembly Formation",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1237
+  },
+  {
+    "question_text": "The High Court at Bombay, Calcutta and Madras were established under the",
+    "options": {
+      "A": "Indian High Court Act, 1861",
+      "B": "Indian High Court Act, 1865",
+      "C": "Indian High Court Act, 1911",
+      "D": "None of the above"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1237
+  },
+  {
+    "question_text": "Mandamus can be issued against:\n1. the official administrative officials.\n2. the private individuals.\n3. the foreigners.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "1 and 2",
+      "C": "Only 2",
+      "D": "1 and 3"
+    },
+    "correct_answer": "A",
+    "explanation": "Mandamus is a public law writ issued against public authorities or officials to perform their duty. It is not issued against private individuals or foreigners.",
+    "subject": "Polity",
+    "chapter": "Judiciary",
+    "topic": "Writs",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1240
+  },
+  {
+    "question_text": "To appoint the Judges of High Court (except Chief Justice of the High Court) the President consults with:\n1. Chief Justice of India\n2. The Chief Justice of the concerned High Court\n3. Governor of the state concerned\n4. Chief Minister of the state concerned\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 3",
+      "B": "1, 2 and 3",
+      "C": "1 and 3",
+      "D": "All of these"
+    },
+    "correct_answer": "B",
+    "explanation": "Under Article 233, the President appoints High Court Judges after consultation with the CJI, the Chief Justice of the concerned High Court, and the Governor of the state. The Chief Minister is not included in this constitutional consultation.",
+    "subject": "Polity",
+    "chapter": "Judiciary",
+    "topic": "Appointment of Judges",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1240
+  },
+  {
+    "question_text": "Consider the following statement(s):\n1. There is an explicit Constitutional provision which allows parliamentary legislation for the implementation of international treaties.\n2. The words socialist and secular were added to the Preamble by the 44th Constitutional Amendment Act, 1978.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "D",
+    "explanation": "Statement 1 is incorrect because there is no explicit constitutional provision for implementing international treaties; it is done through ordinary legislation. Statement 2 is incorrect because 'Socialist' and 'Secular' were added by the 42nd Amendment in 1976, not the 44th Amendment in 1978.",
+    "subject": "Polity",
+    "chapter": "Constitutional Amendments",
+    "topic": "Preamble",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1240
+  },
+  {
+    "question_text": "Match the following:\nList I (Writs) with List II (Function)\nA. Mandamus\nB. Habeas Corpus\nC. Certiorari\nD. Quo Warranto\n\n1. Direction to an official for the performance of duty\n2. Release of an illegal detained person\n3. Transferring of a case from an inferior court to a court of higher jurisdiction\n4. Calling upon one to show by what authority he holds or claims a franchise or office",
+    "options": {
+      "A": "A-1, B-2, C-3, D-4",
+      "B": "A-4, B-3, C-2, D-1",
+      "C": "A-2, B-1, C-3, D-4",
+      "D": "A-4, B-1, C-2, D-3"
+    },
+    "correct_answer": "A",
+    "explanation": "Mandamus is for performance of duty (1). Habeas Corpus is for release of illegal detention (2). Certiorari is for transferring cases from inferior to higher courts (3). Quo Warranto is for showing authority to hold office (4).",
+    "subject": "Polity",
+    "chapter": "Constitutional Bodies and Writs",
+    "topic": "Types of Writs",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1242
+  },
+  {
+    "question_text": "Match the following:\nList I (Constitutional Provisions) with List II (Schedules)\nA. Form of oath/affirmation\nB. Provision for Scheduled Tribes and Areas\nC. List of States and Union Territories\nD. Allocation of seats in Rajya Sabha\n\n1. 1st Schedule\n2. 3rd Schedule\n3. 4th Schedule\n4. 5th Schedule",
+    "options": {
+      "A": "A-2, B-4, C-1, D-3",
+      "B": "A-1, B-2, C-3, D-4",
+      "C": "A-2, B-3, C-1, D-4",
+      "D": "A-4, B-2, C-3, D-1"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1242
+  },
+  {
+    "question_text": "Which of the statement(s) given below is/are correct?\n1. The Speaker immediately vacates his/her office whenever the State Legislative Assembly is dissolved.\n2. No member of a State Legislative Assembly shall be liable to any proceeding in any court in respect of anything said or any vote given by him/her in the legislature.",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "B",
+    "explanation": "Statement 1 is incorrect because the Speaker's office does not automatically vacate upon dissolution; they continue until a new Speaker is elected. Statement 2 is correct as per Article 195 of the Constitution, which grants freedom of speech in the legislature.",
+    "subject": "Indian Polity",
+    "chapter": "State Legislature",
+    "topic": "Speaker and Privileges",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1245
+  },
+  {
+    "question_text": "During the discussion on the demands for grants, motions can be moved to reduce the amount of a demand. Such a motion is called a ‘cut-motion’. Which of the following categories is/are classified as ‘cut-motion’?\n1. Disapproval of policy cut\n2. Economy cut\n3. Token cut",
+    "options": {
+      "A": "1 and 2",
+      "B": "Only 2",
+      "C": "1 and 3",
+      "D": "All of these"
+    },
+    "correct_answer": "D",
+    "explanation": "All three listed options (Disapproval of policy cut, Economy cut, and Token cut) are valid categories of cut motions in the Indian parliamentary system.",
+    "subject": "Indian Polity",
+    "chapter": "Parliamentary Procedures",
+    "topic": "Cut Motions",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1245
+  },
+  {
+    "question_text": "The first Prime Minister of India in 1947 was appointed by",
+    "options": {
+      "A": "the Governor-General",
+      "B": "the President of India",
+      "C": "Mahatma Gandhi",
+      "D": "a committee headed by Dr Rajendra Prasad"
+    },
+    "correct_answer": "A",
+    "explanation": "In 1947, the office of the President of India did not exist. The Prime Minister was appointed by the Governor-General (Lord Mountbatten) based on the advice of the Constituent Assembly and political majority.",
+    "subject": "Indian Polity",
+    "chapter": "Executive",
+    "topic": "Appointment of Prime Minister",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1245
+  },
+  {
+    "question_text": "Which one among the following statement(s) is correct? The press in democracy must",
+    "options": {
+      "A": "be free and impartial",
+      "B": "be committed to the policies of the government",
+      "C": "highlight the achievement of the government without criticising its policies",
+      "D": "criticise the policies of the government"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1245
+  },
+  {
+    "question_text": "Which of the following statement(s) relating to election as the President of India is/are correct?\n1. A person above the age of 35 years is eligible for election as the President of India.\n2. The President of India is eligible for re-election for more than one term.\n3. A person is not eligible for election as the President of India if the person holds an office of profit.",
+    "options": {
+      "A": "1 and 2",
+      "B": "Only 2",
+      "C": "1, 2 and 3",
+      "D": "Only 3"
+    },
+    "correct_answer": "A",
+    "explanation": "Statement 1 is correct (minimum age is 35). Statement 2 is correct (no limit on terms). Statement 3 is incorrect because holding an office of profit does not disqualify a person from being elected President, though they must resign from it upon election.",
+    "subject": "Polity",
+    "chapter": "The President of India",
+    "topic": "Eligibility Criteria",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1248
+  },
+  {
+    "question_text": "Consider the following statement(s):\n1. The Constitution of India empowers the Parliament to form new states and to alter the areas, boundaries or names of existing states by passing a resolution in simple majority.\n2. Jammu and Kashmir has been given special status under Article 370 of the Constitution of India.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "B",
+    "explanation": "Statement 1 is incorrect because Parliament passes a **Bill** (not a resolution) to form new states or alter boundaries. Statement 2 is historically correct in the context of the question's source material (pre-2019), as Article 370 did grant special status to J&K. Note: Article 370 was abrogated in 2019, but based on the static nature of such exam questions from older sources, B is the intended answer.",
+    "subject": "Polity",
+    "chapter": "Union and its Reorganisation",
+    "topic": "Article 3 and Article 370",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1248
+  },
+  {
+    "question_text": "Which sector contributes the largest share to India's GDP?",
+    "options": {
+      "A": "Primary sector",
+      "B": "Secondary sector",
+      "C": "Tertiary sector",
+      "D": "Agriculture sector"
+    },
+    "correct_answer": "C",
+    "explanation": "The service sector (tertiary) is the largest contributor to India's GDP, followed by manufacturing (secondary) and agriculture (primary).",
+    "subject": "General Studies",
+    "chapter": "Economy",
+    "topic": "Sectors of Indian Economy",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1249
+  },
+  {
+    "question_text": "What percentage of the Indian population is engaged in agriculture and related activities?",
+    "options": {
+      "A": "Less than 30%",
+      "B": "Between 30% and 40%",
+      "C": "More than 50%",
+      "D": "Around 70%"
+    },
+    "correct_answer": "C",
+    "explanation": "More than 50% of the Indian population is engaged in agriculture and related activities, making it a key characteristic of the Indian economy.",
+    "subject": "General Studies",
+    "chapter": "Economy",
+    "topic": "Characteristics of Indian Economy",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1249
+  },
+  {
+    "question_text": "India adopted which type of economic system in its 1948 Industrial Policy?",
+    "options": {
+      "A": "Command economy",
+      "B": "Capitalist economy",
+      "C": "Mixed economy",
+      "D": "Socialist economy"
+    },
+    "correct_answer": "C",
+    "explanation": "India opted for a mixed economy, allowing both private and public sectors to coexist, as per the 1948 Industrial Policy.",
+    "subject": "General Studies",
+    "chapter": "Economy",
+    "topic": "Characteristics of Indian Economy",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1249
+  },
+  {
+    "question_text": "Which of the following is NOT a characteristic of the Indian economy?",
+    "options": {
+      "A": "High per capita income",
+      "B": "Mixed economy",
+      "C": "Large primary sector employment",
+      "D": "Prevalence of under‑employment"
+    },
+    "correct_answer": "A",
+    "explanation": "India has a low per capita income, not high. The other options are true characteristics of the Indian economy.",
+    "subject": "General Studies",
+    "chapter": "Economy",
+    "topic": "Characteristics of Indian Economy",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1249
+  },
+  {
+    "question_text": "When was the Planning Commission of India set up?",
+    "options": {
+      "A": "15th March, 1950",
+      "B": "6th August, 1952",
+      "C": "26th January, 1950",
+      "D": "15th August, 1947"
+    },
+    "correct_answer": "A",
+    "explanation": "The Planning Commission was set up on 15th March, 1950, under the chairmanship of Jawaharlal Nehru, by a resolution of the Union Cabinet.",
+    "subject": "Economy",
+    "chapter": "Planning Commission",
+    "topic": "Establishment",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1251
+  },
+  {
+    "question_text": "Who was the last Deputy Chairman of the Planning Commission?",
+    "options": {
+      "A": "P. Chidambaram",
+      "B": "Arvind Panagariya",
+      "C": "Montek Singh Ahluwalia",
+      "D": "Manmohan Singh"
+    },
+    "correct_answer": "C",
+    "explanation": "Montek Singh Ahluwalia was the last Deputy Chairman of the Planning Commission before it was abolished.",
+    "subject": "Economy",
+    "chapter": "Planning Commission",
+    "topic": "Composition",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1251
+  },
+  {
+    "question_text": "What is the nature of the National Development Council (NDC)?",
+    "options": {
+      "A": "Constitutional and Statutory",
+      "B": "Extra-constitutional and Extra-legal",
+      "C": "Statutory and Legal",
+      "D": "Constitutional and Extra-legal"
+    },
+    "correct_answer": "B",
+    "explanation": "The NDC was an extra-constitutional and extra-legal body constituted to build cooperation between the States and the Planning Commission.",
+    "subject": "Economy",
+    "chapter": "Planning Commission",
+    "topic": "NDC",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1251
+  },
+  {
+    "question_text": "Who serves as the ex-officio Chairman of the National Development Council (NDC)?",
+    "options": {
+      "A": "Finance Minister",
+      "B": "Deputy Prime Minister",
+      "C": "Prime Minister",
+      "D": "Union Home Minister"
+    },
+    "correct_answer": "C",
+    "explanation": "The Prime Minister is the ex-officio chairman of the NDC.",
+    "subject": "Economy",
+    "chapter": "Planning Commission",
+    "topic": "NDC",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1251
+  },
+  {
+    "question_text": "In which year was NITI Aayog established?",
+    "options": {
+      "A": "2014",
+      "B": "2015",
+      "C": "2016",
+      "D": "2017"
+    },
+    "correct_answer": "B",
+    "explanation": "NITI Aayog came into existence in 2015, taking the place of the Planning Commission which was abolished in 2014.",
+    "subject": "Economy",
+    "chapter": "Planning Commission",
+    "topic": "NITI Aayog",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1251
+  },
+  {
+    "question_text": "Which of the following is NOT one of the seven elements of Mission Indradhanush?",
+    "options": {
+      "A": "Capitalisation",
+      "B": "De-stressing",
+      "C": "Housing Reforms",
+      "D": "Governance Reforms"
+    },
+    "correct_answer": "C",
+    "explanation": "The seven elements of Mission Indradhanush are appointments, board of bureau, capitalisation, de-stressing, empowerment, framework of accountability, and governance reforms. Housing Reforms is not part of this plan.",
+    "subject": "General Studies",
+    "chapter": "Government Schemes",
+    "topic": "Mission Indradhanush",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1253
+  },
+  {
+    "question_text": "Under Pradhan Mantri Mudra Yojana (PMMY), what is the maximum loan amount for the 'Kishore' category?",
+    "options": {
+      "A": "₹50,000",
+      "B": "₹5 lakh",
+      "C": "₹10 lakh",
+      "D": "₹1 lakh"
+    },
+    "correct_answer": "B",
+    "explanation": "PMMY has three categories: Shishu (up to ₹50,000), Kishore (up to ₹5 lakh), and Tarun (up to ₹10 lakh).",
+    "subject": "General Studies",
+    "chapter": "Government Schemes",
+    "topic": "Pradhan Mantri Mudra Yojana",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1253
+  },
+  {
+    "question_text": "PAHAL Yojana, launched in January 2015, is primarily associated with which sector?",
+    "options": {
+      "A": "Agriculture",
+      "B": "LPG Subsidy",
+      "C": "Education",
+      "D": "Healthcare"
+    },
+    "correct_answer": "B",
+    "explanation": "PAHAL (Pratyaksh Hanstantarit Labh) concerns LPG customers and facilitates the direct transfer of LPG subsidies.",
+    "subject": "General Studies",
+    "chapter": "Government Schemes",
+    "topic": "PAHAL Yojana",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1253
+  },
+  {
+    "question_text": "On which date was Pradhan Mantri Jan-Dhan Yojana (PMJDY) launched?",
+    "options": {
+      "A": "28th August 2014",
+      "B": "15th August 2015",
+      "C": "26th January 2014",
+      "D": "5th June 2016"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1253
   }
 ]

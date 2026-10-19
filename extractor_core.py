@@ -269,24 +269,24 @@ def extract_content(b64_img, page_text, prompt):
                     continue
                 break
 
-    # Fallback: Groq with text (since vision models are rate limited or unavailable)
+    # Fallback: Groq or OpenRouter with text
+    safe_page_text = (page_text or "")[:1800]
+    fallback_prompt = (
+        "You are an expert exam content extractor for NDA/CDS/AFCAT.\n"
+        "Extract all educational facts and practice questions from the following page text.\n"
+        "Output valid JSON format with keys:\n"
+        "1. 'notes_database': list of objects with keys: 'subject', 'chapter', 'subchapter', 'topic', 'content' (detailed markdown notes, facts, definitions, formulas).\n"
+        "2. 'question_database': list of MCQ objects with keys: 'question_text', 'options' (dict A,B,C,D), 'correct_answer', 'explanation', 'subject', 'chapter', 'topic'.\n"
+        "Return valid JSON only.\n\n"
+        "PAGE CONTENT:\n" + safe_page_text
+    )
+
     print("Gemini models exhausted. Trying Groq fallback with text...")
     groq_key = os.environ.get("GROQ_API_KEY")
     if groq_key and page_text and len(page_text.strip()) > 30:
-        groq_models = ["qwen/qwen3.8-27b", "openai/gpt-oss-20b", "openai/gpt-oss-120b"]
-        safe_page_text = page_text[:2000]
+        groq_models = ["openai/gpt-oss-20b", "openai/gpt-oss-120b"]
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"}
-        
-        fallback_prompt = (
-            "You are an expert exam content extractor for NDA/CDS/AFCAT.\n"
-            "Extract all educational facts and practice questions from the following page text.\n"
-            "Output valid JSON format with keys:\n"
-            "1. 'notes_database': list of objects with keys: 'subject', 'chapter', 'subchapter', 'topic', 'content' (detailed markdown notes, facts, definitions, formulas).\n"
-            "2. 'question_database': list of MCQ objects with keys: 'question_text', 'options' (dict A,B,C,D), 'correct_answer', 'explanation', 'subject', 'chapter', 'topic'.\n"
-            "Return valid JSON only.\n\n"
-            "PAGE CONTENT:\n" + safe_page_text
-        )
         
         for g_model in groq_models:
             print(f"Attempting Groq model: {g_model}...")
@@ -296,7 +296,7 @@ def extract_content(b64_img, page_text, prompt):
                         "model": g_model,
                         "messages": [{"role": "user", "content": fallback_prompt}],
                         "temperature": 0.1,
-                        "max_tokens": 1500
+                        "max_tokens": 1200
                     }
                     response = requests.post(url, headers=headers, json=data, timeout=45)
                     if response.status_code == 200:
@@ -306,8 +306,16 @@ def extract_content(b64_img, page_text, prompt):
                         if raw_text:
                             return robust_json_loads(raw_text)
                     elif response.status_code == 429 and attempt == 0:
-                        print(f"Groq {g_model} hit rate limit. Waiting 20s before retry...")
-                        time.sleep(20)
+                        wait_sec = 25
+                        try:
+                            import re
+                            m_wait = re.search(r'try again in (\d+(?:\.\d+)?)s', response.text)
+                            if m_wait:
+                                wait_sec = min(int(float(m_wait.group(1)) + 2), 65)
+                        except Exception:
+                            pass
+                        print(f"Groq {g_model} hit rate limit. Waiting {wait_sec}s before retry...")
+                        time.sleep(wait_sec)
                         continue
                     else:
                         print(f"Groq {g_model} failed with code {response.status_code}: {response.text[:120]}")
@@ -318,12 +326,13 @@ def extract_content(b64_img, page_text, prompt):
 
     print("Groq exhausted. Trying OpenRouter fallback with text...")
     or_key = os.environ.get("OPENROUTER_API_KEY")
-    if or_key:
+    if or_key and page_text and len(page_text.strip()) > 30:
         or_models = [
+            "minimax/minimax-m3.1-flash:free",
+            "google/gemma-4-26b-a4b-it:free",
             "nvidia/nemotron-3.5-super-vl:free",
             "nvidia/nemotron-3.5-lightning:free",
-            "liquid/lfm-2.5-2.6b:free",
-            "nvidia/nemotron-3-super-120b-a12b:free"
+            "liquid/lfm-2.5-2.6b:free"
         ]
         url = "https://openrouter.ai/api/v1/chat/completions"
         headers = {"Authorization": f"Bearer {or_key}", "Content-Type": "application/json"}
@@ -333,9 +342,9 @@ def extract_content(b64_img, page_text, prompt):
             try:
                 data = {
                     "model": model,
-                    "messages": [{"role": "user", "content": prompt + "\n\nTEXT CONTENT OF PAGE:\n" + page_text[:2000]}],
+                    "messages": [{"role": "user", "content": fallback_prompt}],
                     "temperature": 0.1,
-                    "max_tokens": 1500
+                    "max_tokens": 1200
                 }
                 response = requests.post(url, headers=headers, json=data, timeout=(10, 30))
                 if response.status_code == 200:
