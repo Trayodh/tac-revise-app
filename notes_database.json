@@ -121879,5 +121879,1816 @@
     "content": "- **Location**: At the poles.\n- **Cause**: High pressure persists throughout the year due to the prevalence of **very low temperatures**.",
     "source_pdf": "nda_material.pdf",
     "source_page": 1155
+  },
+  {
+    "id": "geo-local-winds-001",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Local Winds",
+    "text": "<p>Local winds are winds that blow over a small area and are influenced by local geography.</p>",
+    "formulas": [],
+    "tables": [
+      "| Winds | Nature | Region |\n|---|---|---|\n| Land Breeze | Warm | Experienced along coastal areas. Land breeze blows from land to sea. |\n| Sea Breeze | Cold | Experienced along coastal areas. Sea breeze blows from sea to land. |\n| Chinook (snow eater) | Warm | Rockies (USA and Canada) |\n| Sirocco | Hot | North Africa |\n| Fohn | Warm | Alps/Europe |\n| Khamsin | Hot | Egypt |\n| Blizzard | Cold | Siberian, Canada, USA |\n| Bora | Cold | Yugoslavia |\n| Southerly Burster | Cold | Australia |\n| Purga | Cold | Russian, Tundra |\n| Bire | Cold | France |\n| Cape Doctor | Cold | South Africans's coast |\n| Harmattan (The Doctor) | Hot | Sahara to Guinea Coast (Ghana, Nigeria etc) |\n| Zonda | Warm | Argentina, Chile/Andes |\n| Brick Fielder | Hot | Australia |\n| Samun | Hot | Iran |\n| Levanter | Cold Wind | Spain |\n| Norwester | Hot Wind | New Zealand |\n| Leveche | Hot | Algeria, Morocco |\n| Santa Ana | Warm | USA (California) |\n| Berg | Warm | South Africa |\n| Yoma | Warm | Japan |\n| Karaburan | Hot | Tarim Basin |\n| Black Roller | Hot/Dusty | North America |\n| Kalbaisakhi | Hot | North India |\n| Mistral | Cold | France to Mediterranean (Rhine valley) |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A comprehensive table listing various local winds, their thermal nature, and the regions where they occur."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1156
+  },
+  {
+    "id": "geo-jet-stream-002",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Jet Stream",
+    "text": "<p>The strong and rapidly moving circumpolar westerly air circulation in a narrow belt of a few 100 km width in the upper limit of troposphere is called <strong>jet stream</strong>. Their circulation path is wavy and meandering.</p><p>The extent of the jet streams narrows down during the summer season because of their Northward shifting while these extend upto 20° North latitude during winter season.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and seasonal behavior of jet streams."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1156
+  },
+  {
+    "id": "geo-cyclone-003",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Cyclone and Anti-Cyclone",
+    "text": "<h3>Cyclone</h3><p>Cyclones are the centres of low pressure surrounded by closed isobars having increasing pressure outward and closed air circulation from outside towards the central low pressure in such a way that air blows inward in anticlockwise direction in the Northern hemisphere. Air blows inward in clockwise direction in the Southern hemisphere.</p><h3>Anti-cyclone</h3><p>They are the wind system, which has the highest air pressure at the centre and lowest at the outer margins surrounded by circular isobars where wind blows from centre to outward in clockwise direction in Northern hemisphere from centre to outward in anticlockwise direction in Southern hemisphere.</p><p>They are high pressure system and common in sub-tropical belts and practically absent in the equator region. They are generally associated with rainless fair weather and that's why they are called as <em>weatherless phenomena</em>.</p><h3>Thunderstorms</h3><p>Thunderstorms are local storms characterised by swift upward movement of air and heavy rainfall with cloud thunder and lighting. Structurally, thunderstorms consist of several convective cells, which are characterised by strong updraft of air.</p><h3>Tornado</h3><p>Tornadoes are very strong tropical cyclones of smaller size. In the Mississippi valley (US), they are called <em>twisters</em>. They are more destructive than cyclones as the speed of winds is very high, exceeding 320 km per hour.</p>",
+    "formulas": [],
+    "tables": [
+      "| Cyclone | Region |\n|---|---|\n| Typhoons | China Sea |\n| Tropical Cyclones | Indian Ocean |\n| Hurricanes | Caribbean Sea |\n| Tornadoes | USA |\n| Willy Willies | Northern Australia |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and characteristics of cyclones, anti-cyclones, thunderstorms, and tornadoes, including a table of regional cyclone names."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1156
+  },
+  {
+    "id": "geo-humidity-004",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Humidity and Related Aspects",
+    "text": "<p>Humidity of air refers to the content of the water vapour present in the air at a particular time and place. Humidity is measured by an instrument called <em>hygrometer</em>. Another instrument used for the same purpose is <strong>sling psychrometer</strong>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of humidity and the instruments used to measure it."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1156
+  },
+  {
+    "id": "GEO-929-001",
+    "subject": "Geography",
+    "chapter": "Atmospheric Phenomena",
+    "topic": "Humidity and Precipitation",
+    "text": "<p>The atmospheric humidity is expressed in a number of ways:</p><ul><li><strong>Humidity Capacity:</strong> The capacity of air of certain volume at certain temperature to retain maximum amount of moisture content.</li><li><strong>Absolute Humidity:</strong> The total weight of moisture content per volume of air at definite temperature.</li><li><strong>Specific Humidity:</strong> The mass of the water vapour in grams contained in a kilogram of air.</li><li><strong>Relative Humidity:</strong> The ratio of the amount of water vapour actually present in the air having definite volume and temperature to the maximum amount the air can hold.</li><li><strong>Condensation:</strong> The change of physical state of matter from gaseous phase into liquid phase.</li><li><strong>Dew Point:</strong> The temperature at which relative humidity reaches 100% and air is completely saturated.</li><li><strong>Smog:</strong> Smoke + Fog, occurs in areas where air contains a large amount of smoke.</li><li><strong>Fog:</strong> Droplets of water suspended in the lower layer of the atmosphere. Visibility less than 1 km.</li><li><strong>Haze:</strong> Formed by water particles that have condensed in the atmosphere with visibility between 1 km to 2 km.</li><li><strong>Frost:</strong> Moisture on the ground surface that condenses directly into ice when condensation occurs below freezing point.</li></ul><p><strong>Precipitation Types:</strong></p><ul><li><strong>Convectional Precipitation:</strong> Occurs daily in the afternoon in equatorial regions. Short duration, heavy rainfall, thick cumulonimbus clouds, thunder and lightening.</li><li><strong>Orographic Precipitation:</strong> Windward slope receives maximum rainfall, leeward slope receives less.</li><li><strong>Cyclonic Precipitation:</strong> Associated with temperate cyclones when two extensive air masses of different physical properties converge. In tropical regions, air masses of similar properties converge to form tropical cyclones.</li></ul>",
+    "formulas": [
+      "Relative Humidity = (Absolute Humidity / Humidity Capacity) * 100"
+    ],
+    "tables": [
+      "| High Clouds | Middle clouds | Low Clouds | Clouds with Great Vertical Extent |\n|---|---|---|---|\n| Cirrus: Composed of small ice crystal, white, wispy and fibrous in appearance. | Alto cumulus: Composed of water droplets in layers and patches. | Strato cumulus: Large globular masses, bumpy looking, soft and grey in appearance forming a pronounced regular and sometimes wavy pattern. | Cumulus: Round topped and flat based forming a whitish grey globular mass, consists of individual cloud units. |\n| Cirro cumulus: Composed of ice crystals, but globular or rippled in appearance. | Alto stratus: Composed of water droplets, forming sheets of grey or watery looking clouds. | Nimbo stratus: Dark grey and rainy looking, dense and shapeless, often gives continuous rains. | Cumulo nimbus: They have a great vertical extent, white or black globular masses, whose rounded tops often spread out in the form of anvil. It is characterised by convectional rain, lightning and thunder. |\n| Cirro stratus: Looks like a thin white almost transparent sheet, which causes the Sun and Moon to have halos. | - | Stratus: These are low, grey and layered, almost fog like in appearance, bringing dull weather and often accompanied by drizzle. | - |"
+    ],
+    "image_descriptions": [
+      "Table detailing various cloud types categorized by altitude and vertical extent, including descriptions of their physical appearance and associated weather conditions."
+    ],
+    "details": {
+      "summary": "Overview of atmospheric humidity, condensation processes, types of precipitation, and a comprehensive classification of cloud types."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1157
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Biomes",
+    "subchapter": "Grasslands",
+    "topic": "Definition",
+    "content": "### Grassland\n- **Definition**: A grassland is a region where the average annual precipitation is sufficient to support grasses, and in some areas a few trees.\n- **Characteristics**: Large, rolling terrains dominated by grasses, flowers, and herbs.\n- **Determinants**: Latitude, soil type, and local climate largely decide the plant composition of a grassland.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1158
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Biomes",
+    "subchapter": "Grasslands",
+    "topic": "Famous Grasslands of the World",
+    "content": "### Famous Grasslands\n| Grassland Type | Region / Country |\n|----------------|-----------------|\n| **Steppe** | Eurasia |\n| **Pustaz** | Hungary |\n| **Prairie** | United States |\n| **Pampas** | Argentina |\n| **Veld** | South Africa |\n| **Downs** | Australia |\n| **Canterbury** | New Zealand |\n\nThese grasslands illustrate the global distribution of the biome, ranging from the Eurasian steppes to the South American pampas.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1158
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Cartography",
+    "subchapter": "Isopleths",
+    "topic": "Definition and Types",
+    "content": "### Isopleth\n- **Definition**: A line drawn on a map through all points that have the same value of a measurable quantity.\n\n### Common Types of Isopleths\n| Isopleth | Quantity Represented |\n|----------|----------------------|\n| **Isohyets** | Rainfall |\n| **Isotherms** | Temperature |\n| **Isobars** | Atmospheric pressure |\n| **Isobaths** | Depth in the sea |\n| **Isohaline** | Salinity |\n| **Isohypse (contour lines)** | Elevation above sea level |\n| **Isodapane** | Transportation cost |\n| **Isocline** | Slope |\n| **Isorain** (often written *Isohels*) | Sunshine |\n| **Isoneph** | Snow |\n| **Isobran** | Thunderstorm occurrence at the same time |\n\nThese lines help visualise spatial patterns of climatic, oceanographic, and topographic variables.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1158
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "subchapter": "Weather vs Climate",
+    "topic": "Definitions",
+    "content": "### Weather\n- **Definition**: The sum total of atmospheric conditions (temperature, pressure, wind, moisture, cloudiness, precipitation, visibility) at a specific place and time.\n\n### Climate\n- **Definition**: The long‑term average of weather conditions over a period of at least 30 years for a given region.\n\nUnderstanding the distinction is essential for interpreting climatic zones and their vegetation patterns.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1158
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "subchapter": "World Climatic Types",
+    "topic": "Climatic Zones and Their Vegetation",
+    "content": "### Climatic Zones (Latitude Bands)\n| Zone | Latitude Range | Typical Climate | Representative Vegetation |\n|------|----------------|----------------|---------------------------|\n| **Equatorial Zone** | 10° N – 10° S | Hot, wet year‑round; rainfall throughout the year | Equatorial rain forest (e.g., selva) – ebony, mahogany, dye woods |\n| **Hot Zone** | 30° N – 30° S | Generally warm; precipitation varies with sub‑type | (i) **Tropical Monsoon** – heavy summer rain; monsoonal forest (teak, sal, sisam, eucalyptus, acacia)\\n(ii) **Tropical Marine** – summer rain; similar forest types\\n(iii) **Sudan type** – savanna (tropical grassland) – grasses\\n(iv) **Desert** – rain mainly in summer, little overall; desert vegetation & scrub (cacti) |\n| **Warm Temperate Zone** | 30° N – 45° S | Moderate temperatures; precipitation pattern varies | (i) **Western Margin (Mediterranean type)** – winter rain; Mediterranean forests (oak, pine, fir, eucalyptus, giant sequoia, cedar)\\n(ii) **Central Continental (Steppe type)** – light summer rain; steppe, temperate grasslands\\n(iii) **Eastern Margin** – heavier summer rain; mixed forest‑grassland mosaics |\n\nThese zones illustrate how latitude, rainfall distribution, and temperature together dictate natural vegetation types.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1158
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Hydrosphere",
+    "subchapter": "Introduction",
+    "topic": "Definition and Coverage",
+    "content": "- **Definition**: The water component of the Earth is called the **hydrosphere**.\n- **Components**: Includes oceans, seas, lakes, ponds, rivers, and streams.\n- **Coverage**: The hydrosphere covers approximately **70%** of the Earth's surface.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1159
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Hydrosphere",
+    "subchapter": "Composition",
+    "topic": "Storage Components and Percentages",
+    "content": "- **Oceans**: 97.6% of total water.\n- **Ice caps and glaciers**: 1.9%.\n- **Ground water**: 0.5%.\n- **Soil moisture**: 0.01%.\n- **Lakes**: 0.009%.\n- **Atmosphere**: 0.0009%.\n- **Saline lakes and inland seas**: 0.008%.\n- **Freshwater rivers**: 0.0001%.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1159
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Hydrosphere",
+    "subchapter": "Oceans",
+    "topic": "General Facts about Oceans",
+    "content": "- An ocean is a body of saline water comprising **72%** of Earth’s hydrosphere.\n- Oceans contain **97%** of Earth’s total water.\n- Less than **5%** of the world ocean has been explored.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1159
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Hydrosphere",
+    "subchapter": "Oceans",
+    "topic": "Pacific Ocean",
+    "content": "- **Rank**: Largest ocean in the world.\n- **Extent**: Extends from the Arctic Ocean to the Antarctic Ocean.\n- **Boundaries**: Bounded by Asia and Australia in the West/South, and South and North America in the East.\n- **Subdivision**: The equator sub-divides it into North and South Pacific Ocean.\n- **Deepest Point**: The **Mariana Trench** (spelled 'Marina' in source) in the Western-North Pacific is the deepest point in the world at **10,911 metres**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1159
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Hydrosphere",
+    "subchapter": "Oceans",
+    "topic": "Atlantic Ocean",
+    "content": "- **Rank**: Second largest ocean.\n- **Size**: Slightly more than half the size of the Pacific Ocean.\n- **Shape**: Occupies an elongated, S-shaped basin.\n- **Boundaries**: Extends longitudinally between Eurasia and Africa (East) and South and North America (West).\n- **Subdivision**: The equatorial counter current sub-divides it into North and South Atlantic Ocean at about **8° North**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1159
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Hydrosphere",
+    "subchapter": "Oceans",
+    "topic": "Indian Ocean",
+    "content": "- **Rank**: Third largest ocean in the world.\n- **Boundaries**: Bounded by Asia (North), Africa (West), Australia (East), and Antarctica (South).\n- **Water Volume**: Contains approximately **20%** of the water on the Earth’s surface.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1159
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Hydrosphere",
+    "subchapter": "Oceans",
+    "topic": "Antarctic Ocean",
+    "content": "- **Rank**: Fourth largest ocean in the world.\n- **Alternative Names**: Southern Ocean, South Pole Ocean.\n- **Location**: A large body of water encircling the continent of Antarctica.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1159
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "subchapter": "Ocean Floor Topography",
+    "topic": "Continental Rise",
+    "content": "- **Definition**: An area at the foot of the continental slope.\n- **Formation**: Slightly rising due to the accumulation of debris transported over the slope.\n- **Slope**: Average slope of 0.5° to 1°.\n- **Resources**: Oil deposits are found in this region.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1160
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "subchapter": "Ocean Floor Topography",
+    "topic": "Abyssal or Deep Sea Plains",
+    "content": "- **Characteristics**: The deepest and most extensive part of the oceanic floor.\n- **Depth**: Average depth ranges from 3000 m to 6000 m.\n- **Coverage**: Covers about 75.9% of the total oceanic area.\n- **Features**: Parts are occupied by raised ridges, submarine mountains, and very deep trenches or canyons.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1160
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "subchapter": "Ocean Floor Topography",
+    "topic": "Deeps/Trenches",
+    "content": "- **Definition**: Narrow depressions with steep sides.\n- **Formation**: Formed when two plates of the Earth’s crust move together and one is pushed down below the other (subduction).\n- **Deepest Trench**: Mariana Trench (Challenger Deep).\n- **Location**: NW Pacific Ocean, near the Philippines.\n- **Depth**: More than 11 km deep.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1160
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "subchapter": "Ocean Floor Topography",
+    "topic": "Oceanic Ridges",
+    "content": "- **Formation**: Formed by volcanic activity along the spreading boundary of tectonic plates.\n- **Dimensions**: Thousands of km long and hundreds of km wide mountain ranges on the oceanic floor.\n- **Surface Features**: Summits may rise above sea level in the form of islands (e.g., Iceland, Azores Island).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1160
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "subchapter": "Marine Ecosystems",
+    "topic": "Coral Reefs",
+    "content": "- **Formation**: Accumulation and compaction of skeletons of lime-secreting organisms known as coral polyps.\n- **Habitat**: Mainly found in tropical oceans and seas.\n- **Temperature Requirement**: High mean annual temperature ranging between 20°C to 25°C.\n- **Depth Limitation**: Do not live in deeper waters due to lack of sufficient sunlight and oxygen.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1160
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "subchapter": "Marine Ecosystems",
+    "topic": "Coral Bleaching",
+    "content": "- **Definition**: A phenomenon where corals turn completely white.\n- **Cause**: Stress from changes in conditions such as temperature, light, or nutrients.\n- **Mechanism**: Corals expel the symbiotic algae living in their tissues.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1160
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "subchapter": "Marine Ecosystems",
+    "topic": "Classification of Coral Reefs",
+    "content": "- **Basis**: Nature, shape, and mode of occurrence.\n- **Types**: Classified into three types (one detailed below).\n- **Fringing Reefs**:\n  - Develop along continental margins or along islands.\n  - Seaward slope is steep and vertical.\n  - Landward slope is gentle (implied by context of fringing structure).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1160
+  },
+  {
+    "subject": "Geography",
+    "chapter": "World Top Saline Water Bodies",
+    "subchapter": "Salinity Data",
+    "topic": "Top Saline Water Bodies",
+    "content": "### Top Saline Water Bodies\n\n| Water Body | Salinity (%) | Location |\n| :--- | :--- | :--- |\n| Don Juan Pond | 44 | Antarctica |\n| Lake Van | 33.8 | Turkey |\n| Dead Sea | 33.7 | Jordan, Israel, Palestine |\n| Great Salt Lake | 27 | USA |\n\n### Distribution of Salinity\n- **General Trend:** Salinity generally decreases from the equator towards the poles.\n- **Highest Salinity Zone:** Sub-tropical high-pressure belt.\n- **Reasons for High Salinity in Sub-tropics:**\n  - High temperature.\n  - High evaporation.\n  - Low rainfall.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1161
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Waves",
+    "subchapter": "Definition and Types",
+    "topic": "Ocean Waves",
+    "content": "### Definition\nWaves are oscillatory movements in water, mainly produced by winds, manifested by an alternate rise and fall of the sea surface.\n\n### Role in Erosion\n- Waves are important agents of erosion in coastal regions.\n- They carve out landforms such as:\n  - Caves\n  - Bays\n  - Gulfs\n  - Capes\n  - Cliffs\n\n### Seismic Waves (Tsunamis)\n- **Cause:** Earthquakes or volcanic eruptions in the sea bottom.\n- **Historical Event:** The tsunami that hit the coast of South-East Asia on **26th December, 2004**, caused significant havoc in the region.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1161
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Ocean Currents",
+    "subchapter": "General Characteristics",
+    "topic": "Definition, Causes, and Direction",
+    "content": "### Definition\nAn ocean current is a continuous, directed movement of ocean water.\n\n### Generating Forces\n- Breaking waves\n- Wind\n- Coriolis effect\n- Temperature and salinity differences\n- Tides (caused by gravitational pull of the Moon and Sun)\n\n### Direction of Circulation\n- **Northern Hemisphere:** Clockwise direction.\n- **Southern Hemisphere:** Anti-clockwise direction.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1161
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Ocean Currents",
+    "subchapter": "Classification",
+    "topic": "Warm and Cold Currents",
+    "content": "### Types of Ocean Currents\n\n1. **Warm Currents**\n   - Flow from **lower latitude** to **higher latitude**.\n\n2. **Cold Currents**\n   - Flow from **higher latitude** to **lower latitude**.\n\n### Fishing Grounds\n- Fishing is very favorable where cold and warm currents meet.\n- **Example:** Newfoundland is favorable for fishing due to the meeting of the **Labrador Current** (Cold) and the **North Atlantic Drift** (Warm).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1161
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Ocean Currents",
+    "subchapter": "Currents of North Pacific Ocean",
+    "topic": "Warm Currents in North Pacific",
+    "content": "### Warm Currents of North Pacific Ocean\n\n1. **North Equatorial Current**\n   - **Direction:** Flows Westwards.\n   - **Path:** From the Western coast of Mexico to the Philippines.\n\n2. **Kuroshio Current**\n   - **Nature:** An extension of the North Equatorial Current.\n   - **Location:** Near the Japan Coast.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1161
+  },
+  {
+    "subject": "Physical Geography",
+    "chapter": "Ocean Currents",
+    "subchapter": "Cold Currents",
+    "topic": "Labrador Current",
+    "content": "# Labrador Current\n\n- **Origin**: Begins in Baffin Bay and Davis Strait.\n- **Path**: Flows southward along the coast of Labrador and merges with the Gulf Stream near Newfoundland.\n- **Significance**: Newfoundland’s Grand Bank fishing zone is a major commercial fishing area due to the nutrient‑rich waters brought by the current.\n- **Key Features**: Brings cold, low‑salinity water from the Arctic into the North Atlantic, influencing local climate and marine ecosystems.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1162
+  },
+  {
+    "subject": "Physical Geography",
+    "chapter": "Ocean Currents",
+    "subchapter": "Cold Currents",
+    "topic": "Irminger (Greenland) Current",
+    "content": "# Irminger / Greenland Current\n\n- **Flow**: Moves between Greenland and Iceland.\n- **Merging**: Joins the North Atlantic Drift.\n- **Role**: Transports cold, nutrient‑rich water into the North Atlantic, affecting sea‑ice distribution and marine life.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1162
+  },
+  {
+    "subject": "Physical Geography",
+    "chapter": "Ocean Currents",
+    "subchapter": "Cold Currents",
+    "topic": "Canary Current",
+    "content": "# Canary Current\n\n- **Course**: Flows along the western coast of North Africa, between Madeira and Cape Verde.\n- **Connection**: Joins the North Equatorial Current.\n- **Impact**: Brings cooler waters to the African coast, moderating temperatures and supporting rich fisheries.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1162
+  },
+  {
+    "id": "geo-ocean-001",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Types of Tides",
+    "text": "<p>On the basis of tidal range and other characteristics, tides are classified as follows:</p><ul><li><strong>Spring Tide:</strong> The spring tides are of an unusually large magnitude. They occur twice every month at the new Moon and full Moon. On these two days, the Sun, Moon and the Earth are in a straight line. At this time, the Moon is said to be in <strong>SYZYGY</strong>.</li><li><strong>Neap Tide:</strong> The neap tides are of a lower magnitude and they are produced in the first and third quarters of the lunar month when the lines joining the centres of the Earth, Sun and the Moon are almost at right angles to each other. In this position, the Moon is said to be in <strong>quadrature</strong>.</li><li><strong>Apogean and Perigean Tide:</strong> Due to the elliptical orbit of the Moon, the distance between the Moon and Earth keeps changing. When the Moon is in apogee, meaning maximum distance, it produces tides of relatively lower magnitude. On the other hand, when the distance between the Moon and Earth is minimum, meaning in perigee position, it produces tides of higher magnitude.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Tides are classified into Spring Tides (syzygy, occurring during new/full Moon with maximum range), Neap Tides (quadrature, first/third quarters with lower magnitude), and Apogean/Perigean tides based on the Moon's orbital distance from Earth."
+    },
+    "mcq": {
+      "question": "When the Sun, Moon, and Earth are aligned in a straight line during new Moon and full Moon, this position is known as:",
+      "options": [
+        "Quadrature",
+        "Syzygy",
+        "Apogee",
+        "Perigee"
+      ],
+      "correct": 1,
+      "explanation": "When the Sun, Moon, and the Earth are aligned in a straight line at the time of new Moon and full Moon, the position is known as syzygy, resulting in spring tides of unusually large magnitude."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1163
+  },
+  {
+    "id": "geo-trans-001",
+    "subject": "Geography",
+    "chapter": "Transportation and Communication",
+    "topic": "Roadways",
+    "text": "<p><strong>Transportation</strong> is considered to be the lifeline of economy. It helps to link the remotest parts of the country to one another and gives an impetus to resource development.</p><p><strong>Roadways:</strong> They are the most universal and varied form of communication. The first country to establish a nationwide highway network of this kind was <strong>Germany</strong>.</p>",
+    "formulas": [],
+    "tables": [
+      "| Highways | Characteristics |\n|---|---|\n| Trans-Canadian Highway | It links Vancouver with St. John City |\n| Alaskan Highways | It connects Anchorage city of Alaska with Edmonton city of Canada |\n| Pan American Highway | It links cities of South America, Central America and the USA |\n| Stuart Highway | Largest highway in Australia. It connects Darwin to Port Augusta |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of global roadways and major trans-continental highways including the Trans-Canadian Highway, Alaskan Highway, Pan American Highway, and Australia's Stuart Highway."
+    },
+    "mcq": {
+      "question": "Which country was the first to establish a nationwide highway network?",
+      "options": [
+        "USA",
+        "Germany",
+        "United Kingdom",
+        "Canada"
+      ],
+      "correct": 1,
+      "explanation": "Germany was the first country to establish a nationwide highway network (the Autobahn)."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1163
+  },
+  {
+    "id": "geo-trans-002",
+    "subject": "Geography",
+    "chapter": "Transportation and Communication",
+    "topic": "Railways",
+    "text": "<p><strong>Railways</strong> are a mode of land transport for bulky goods and passengers over long distances.</p><p>Major trans-continental railways serve as crucial international and continental transit corridors connecting distant ocean ports and interior production centers.</p>",
+    "formulas": [],
+    "tables": [
+      "| Trans-Continental Railways | Characteristic |\n|---|---|\n| Trans-Siberian Railways | It is longest rail track of the world. It connects Moscow to Vladivostok. |\n| Trans-Canadian Pacific Railways | It connects Halifax to Vancouver. |\n| Australian Trans-Continental Railways | It connects Sydney to Perth. |\n| Trans-Asiatic Railway | It will connect 28 countries including India. According to its proposed route it will enter India through Tamu and Moreh in Manipur from Myanmar, then will enter Bangladesh through Mahisasan and again enter India through Gede, finally it will pass through Attari to Pakistan. |\n| The Union and Pacific Railway | It connects New York to San Francisco. |\n| The Orient Express | It connects Paris with Istanbul. |\n| Trans-Andean Railways | It connects Valparaiso with Buenos Aires. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed classification of world trans-continental railway systems including the Trans-Siberian, Trans-Canadian Pacific, Australian Trans-Continental, Trans-Asiatic, Union and Pacific, Orient Express, and Trans-Andean Railways."
+    },
+    "mcq": {
+      "question": "Which of the following trans-continental railways connects Paris with Istanbul?",
+      "options": [
+        "The Orient Express",
+        "Trans-Siberian Railway",
+        "Trans-Andean Railway",
+        "Union and Pacific Railway"
+      ],
+      "correct": 0,
+      "explanation": "The Orient Express runs across Europe connecting Paris to Istanbul."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1163
+  },
+  {
+    "id": "geo-trans-003",
+    "subject": "Geography",
+    "chapter": "Transportation and Communication",
+    "topic": "Waterways: Major Sea Routes and Canals of the World",
+    "text": "<p><strong>Waterways</strong> play an important role in transportation. It is the most suitable and cheapest mode for international trade.</p><p><strong>Major Canals of the World:</strong></p><ul><li><strong>Suez Canal:</strong> This is the largest canal of the world connecting the <em>Red Sea</em> and <em>Mediterranean Sea</em>, where ship navigation is possible. Completed in <strong>1869</strong>, it separates the lower part of the Nile basin and the Sinai Peninsula.</li><li><strong>Panama Canal:</strong> This canal has been constructed by cutting across the Panama isthmus, connecting the <em>Pacific Ocean</em> and the <em>Caribbean Sea</em>. On the Pacific coast lies <strong>Panama port</strong> and on the Caribbean coast lies <strong>Colon port</strong>.</li><li><strong>Volga Canal System:</strong> This is an important navigable canal system of the world, with an 11,200 km navigable waterway. The Volga river drains into the Caspian Sea. The Moscow region has been connected to this waterway through the Volga-Moscow canal. Navigation is possible up to the Black Sea through the Volga-Don canal.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Major Sea Route | Characteristic |\n|---|---|\n| North Atlantic Oceanic Route | It joins the developed regions of Western Europe with the developed region of North America. |\n| South Atlantic Oceanic Route | It joins North America and Europe with South America. |\n| North Pacific Oceanic Route | It joins East Asia and North America with each other. |\n| South Pacific Oceanic Route | It joins Australia, New Zealand, North America and Western Europe with each other. |\n| Routes of Indian Ocean | The routes are used by the countries which fall in the vicinity of Indian ocean exports tea, jute etc. |\n| Routes of Mediterranean Sea | It joins Asia and Australia continents with North Atlantic ocean routes. It joins together the maximum number of countries of the world. |\n| Cape of Good Hope Route | This sea route joins Eastern Asia and Europe to Southern parts of Africa. This oceanic route has lost its importance with the construction of Suez canal. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Summary of major oceanic routes including North Atlantic, South Atlantic, Pacific, and Indian Ocean routes, alongside strategic international ship canals: Suez Canal, Panama Canal, and the Volga Canal System."
+    },
+    "mcq": {
+      "question": "Which ports are situated at the opposite ends of the Panama Canal?",
+      "options": [
+        "Port Said and Port Suez",
+        "Panama Port and Colon Port",
+        "Halifax and Vancouver",
+        "Darwin and Port Augusta"
+      ],
+      "correct": 1,
+      "explanation": "Panama Port is situated on the Pacific coast and Colon Port is located on the Caribbean Sea coast of the Panama Canal."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1163
+  },
+  {
+    "id": "geo-canals-001",
+    "subject": "Geography",
+    "chapter": "World Geography",
+    "topic": "Important Canals",
+    "text": "<p><strong>St. Lawrence Waterway:</strong> This is connected with the Great lakes and makes possible 3760 km inland navigation for the sea-going ships in USA and Canada. It is due to this waterway that the ports of the Great Lakes region have been developed as full-fledged seaports.</p><ul><li><strong>Soo Canal:</strong> This canal joins the Lake Superior and Lake Huron.</li><li><strong>Erie Canal:</strong> In USA, this canal connects Lake Erie and Lake Huron.</li><li><strong>Welland Canal:</strong> This canal reduces the distance between Lake Erie and Lake Ontario.</li><li><strong>Kiel Canal:</strong> This canal in Germany connects the North sea with the Baltic sea.</li><li><strong>Stalin or White-Baltic Canal:</strong> This canal joins Baltic sea with the Baltic sea.</li><li><strong>Rhine-Maine-Danube Canal:</strong> This canal connects North sea with Black sea.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Tribe | Residing Area |\n|---|---|\n| Abhors | People of Mongolian blood living between Assam and Eastern tribes |\n| Afridis | Tribes residing in the North-West Frontier (Pakistan) |\n| Bantus | Negroes living in the Central and South Africa |\n| Boers | The Dutch settlers of South Africa |\n| Eskimos | Inhabitants of Greenland and of Arctic regions |\n| Flemings | A term used for the people of Belgium |\n| Hamites | Inhabitants of North-West Africa |\n| Khirgiz | People living in Central Asia |\n| Kurds | Tribes living in Kurdistan (Iraq) |\n| Magyars | Inhabitants of Hungary |\n| Maoris | Inhabitants of New Zealand |\n| Nagroes | Mostly found in Africa |\n| Pygmies | Short-sized people found in Congo basin in Africa |\n| Red Indians | Original inhabitants of North America |\n| Semites | Caucasian people of ancient times |\n| Zulus | People of South Africa living in certain part of Natal |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of major international canals and a comprehensive table of distinctive global tribes and their residing areas."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1164
+  },
+  {
+    "id": "geo-tribes-001",
+    "subject": "Geography",
+    "chapter": "World Geography",
+    "topic": "Tribes of the World",
+    "text": "<p><strong>Tribes of the World</strong></p><ul><li>A tribe is a social group of people, large or small, who are connected to one another, a leader and an idea.</li><li>There are an estimated one hundred and fifty million tribal individuals worldwide, constituting around 40% of indigenous individuals. Although nearly, all tribal people are indigenous, some are not indigenous to areas where they now live.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and demographic statistics regarding tribal populations worldwide."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1164
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Geography",
+    "subchapter": "Astronomy",
+    "topic": "Constellations and Stars",
+    "content": "- **Pole Star (Polaris)**: It is a part of the **Ursa Minor** constellation (also known as Dhurva Matsya in Indian context).\n- **Shooting Stars**: These are scientifically known as **Meteors**.\n- **Farthest Visible Object**: The **Andromeda Galaxy** is the farthest heavenly body visible to the naked eye.\n- **Scorpio Constellation**: Also known as **Vrishchika**.\n- **Pleiades Constellation**: Known as **Krittika** in Indian astronomy. It looks like a cluster of twinkling gems in the night sky.\n- **Sirius**: It is the **brightest star** in the night sky.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1165
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Geography",
+    "subchapter": "Astronomy",
+    "topic": "Planets and Solar System",
+    "content": "- **Pluto**: No longer classified as a planet; it is a dwarf planet.\n- **Jovian Twins**: **Neptune** and **Uranus** are often referred to as Jovian twins due to their similar composition and size.\n- **Asteroids**: \n  - They are minor planets made of rock.\n  - They provide significant information about the origin of the universe.\n  - **Ceres** is the largest asteroid.\n  - They primarily rotate in a belt between the orbits of **Mars** and **Jupiter** (Note: The source text incorrectly states 'Earth and Jupiter' in the options, but standard astronomical fact places the main belt between Mars and Jupiter. However, for exam purposes based on the provided text's context of 'incorrect statement', one must be careful. Standard fact: Main Asteroid Belt is between Mars and Jupiter. The option in Q9 says 'Earth and Jupiter', which is factually incorrect regarding the *main* belt location, making it a candidate for 'not correct' if the question implies standard facts, but usually, questions ask for the *correct* statement. Let's re-read Q9: 'Which is not correct...'. Option D says 'between Earth and Jupiter'. This is factually wrong (it's Mars and Jupiter). So D is the answer for 'not correct'.\n- **Moon's Rotation**: We see only one side of the Moon because the Moon rotates on its axis in exactly the same time it takes to complete one revolution around the Earth (Synchronous Rotation).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1165
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Geography",
+    "subchapter": "Astronomy",
+    "topic": "Galaxies and Stellar Evolution",
+    "content": "- **Milky Way Galaxy**: It is a **spiral** galaxy.\n- **Stellar Life Stages**:\n  - **Black Hole**: It is the last stage of the life of a massive star.\n  - **Formation**: Black holes are formed when stars explode (supernova) after crossing an upper limit of mass.\n  - **Chandrasekhar Limit**: This upper mass limit was predicted by **S. Chandrasekhar**. It is the maximum mass of a stable white dwarf star. If a star exceeds this limit, it may collapse into a neutron star or black hole.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1165
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Geography",
+    "subchapter": "Astronomy",
+    "topic": "Astronomical Units",
+    "content": "- **Parsec**: An astronomical unit of distance. 1 Parsec is approximately equal to **3.26 light years**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1165
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "subchapter": "Solar System",
+    "topic": "Planets – Relative Distances",
+    "content": "### Nearest Planet to Earth\n- **Venus** is the closest planet to Earth on average because its orbit lies between Earth and the Sun.\n- Mercury can be nearer at certain points, but standard textbook answer: **Venus**.\n\n### Nearest Planet to the Sun\n- **Mercury** is the innermost planet, orbiting at an average distance of ~0.39 AU from the Sun.\n\n### Order of Planets by Distance from the Sun (inner to outer)\n1. Mercury\n2. Venus\n3. Earth\n4. Mars\n5. Jupiter\n6. Saturn\n7. Uranus\n8. **Neptune** (eighth planet after Pluto’s re‑classification)\n\n### Largest and Second‑Largest Planets\n- **Jupiter** – the biggest planet in the Solar System (radius ≈ 71,492 km).\n- **Saturn** – second in size after Jupiter; known for its extensive ring system.\n\n### Unique Ring System\n- **Saturn** possesses a spectacular and unique set of rings composed mainly of ice particles, distinguishing it from other planets.\n\n### Planetary Colors\n- **Neptune** appears a deep **green‑blue** (often described as “greenish”) due to methane absorption of red light.\n\n### Fastest Orbital (Revolution) Period\n- **Mercury** completes an orbit in **88 Earth days**, the shortest revolution period among the planets.\n\n### “Red Planet”\n- **Mars** is called the Red Planet because of iron‑oxide (rust) on its surface giving it a reddish hue.\n\n### Asteroid Belt\n- **Asteroids** predominantly reside in the region **between Mars and Jupiter**.\n\n### Comet Structure\n- A comet consists of a **nucleus**, a surrounding **coma (head)**, and a **tail** that points away from the Sun due to solar wind.\n\n### Satellite of Pluto\n- **Charon** is the only large natural satellite of **Pluto**; it is about half the size of Pluto itself.\n",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1166
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "subchapter": "Solar System",
+    "topic": "Heat Transfer in the Atmosphere",
+    "content": "### Advection\n- **Advection** is the horizontal transport of heat (or any property) by the bulk movement of air.\n- It differs from **conduction** (direct molecular contact) and **convection** (vertical movement of fluid parcels).\n",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1166
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Earth and Solar System",
+    "topic": "Earth-Sun Distance",
+    "content": "The average distance between the Earth and the Sun is approximately **149 million km** (1 Astronomical Unit).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Internal Structure of Earth",
+    "topic": "Core Temperature",
+    "content": "The temperature at the core of the Earth is estimated to be around **6000°C**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Internal Structure of Earth",
+    "topic": "Abundant Elements",
+    "content": "The most abundant element found on the Earth (by mass in the crust) is **Oxygen**. Note: In the entire Earth, Iron is the most abundant element, but in the context of surface/crust questions, Oxygen is often the key answer. The provided options suggest Oxygen or Iron/Hydrogen depending on the specific scope (crust vs whole earth), but standard geography questions regarding the crust point to Oxygen.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Internal Structure of Earth",
+    "topic": "Composition of Internal Core",
+    "content": "The internal core of the Earth is primarily constituted by **Nickel and Iron**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Internal Structure of Earth",
+    "topic": "Sima (Silica and Magnesium)",
+    "content": "The heavier silicates named ‘Sima’ (Silica and Magnesium) are most abundant in the **crust** (specifically the continental crust, as opposed to Sial which is lighter and also in the crust, but Sima is often associated with the oceanic crust or lower crust in older classifications, however, in the context of the options provided in the source, 'crust' is the intended location for these silicate rocks).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Earth's Rotation",
+    "topic": "Axis of Rotation",
+    "content": "The Earth rotates around its axis, which points towards the **Pole Star** (North Star).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Tectonics",
+    "topic": "Tectonic Forces",
+    "content": "Tectonic forces are related to the building of various features of the **Earth’s surface** (including mountains, ocean floors, and crustal structures).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Earth's Rotation",
+    "topic": "Speed of Rotation",
+    "content": "The speed of rotation of the Earth is highest **along the Equator** due to the larger circumference at the equator compared to the poles.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Earth's Revolution",
+    "topic": "Solstices and Equinoxes",
+    "content": "- **Winter Solstice**: 22nd December (Northern Hemisphere)\n- **Autumnal Equinox**: 23rd September\n- **Summer Solstice**: 21st June (Northern Hemisphere)\n- **Vernal Equinox**: 21st March",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Earth's Revolution",
+    "topic": "Duration of Revolution",
+    "content": "The Earth completes one revolution around the Sun in **365 days 5 hours 48 minutes and 45.5 seconds** (Sidereal year is approx 365d 6h 9m, Tropical year is 365d 5h 48m 45s). The option provided in the text corresponds to the Tropical Year.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Earth's Revolution",
+    "topic": "Orbit",
+    "content": "The path along which the Earth revolves around the Sun is called the **Earth’s orbit**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Rocks and Minerals",
+    "topic": "Sedimentary Rocks",
+    "content": "**Shale** is a type of sedimentary rock. Basalt is igneous, Silica is a mineral/oxide, and Magnesium is an element.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Volcanoes",
+    "topic": "Mt Stromboli",
+    "content": "Mt Stromboli, nicknamed the 'Lighthouse of the Mediterranean', is located in **Italy**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1167
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Atmosphere and Climate",
+    "topic": "Geographical Coordinates",
+    "content": "The geographical position of 0° latitude (Equator) and 0° longitude (Prime Meridian) is located in the South Atlantic Ocean, approximately 600 km south of Ghana and 1,000 km west of Africa. This point is often referred to as 'Null Island'.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1172
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Atmosphere and Climate",
+    "topic": "Desert Climate Characteristics",
+    "content": "Nights in deserts are significantly cooler than in plains primarily because the sky remains clear most of the time. Clear skies allow for rapid radiative cooling of the surface. Additionally, sand has a low specific heat capacity, meaning it heats up and cools down quickly compared to soil or water.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1172
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Atmosphere and Climate",
+    "topic": "Atmospheric Circulation Drivers",
+    "content": "The primary force driving atmospheric circulation is the differential heating of the Earth's surface. Specifically, it is the energy content difference between high insolation tropical latitudes (which receive more solar energy) and low insolation polar latitudes (which receive less). This temperature gradient creates pressure differences that drive wind patterns.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1172
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Atmosphere and Climate",
+    "topic": "Climate of Eastern Europe",
+    "content": "The climate in the North-Eastern part of Eastern Europe is generally cooler and drier than the climate of most countries on the Balkan Peninsula. This is due to its greater distance from the moderating influence of the Atlantic Ocean and the presence of continental air masses.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1172
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Atmosphere and Climate",
+    "topic": "Structure of the Atmosphere",
+    "content": "The atmosphere has no definite upper limit. Instead, it gradually thins out as altitude increases until it becomes imperceptible and merges with outer space. There is no sharp boundary where the atmosphere ends.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1172
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Atmosphere and Climate",
+    "topic": "Weather Phenomena: Cloudburst",
+    "content": "A cloudburst is a meteorological phenomenon characterized by sudden and copious rainfall over a small area. It often lasts for only a few minutes but can result in significant flooding and landslides due to the intensity of the precipitation.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1172
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Human Geography",
+    "subchapter": "Definitions and Scope",
+    "topic": "Definition of Human Geography",
+    "content": "**Human Geography** is defined as the study of the inter-relationship between human beings and their environment. It deals with the description and explanation of human phenomena around the variable Earth surface. It covers aspects of geography that are not directly concerned with physical geography, though it may intersect with technical matters like cartography in applied contexts.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1173
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Climatology",
+    "topic": "Tropical Rainforest Climate Characteristics",
+    "content": "The **Tropical Rainforest Climate** (Equatorial Climate) is characterized by:\n- **Daily Pattern**: Each day is more or less the same.\n- **Morning**: Clear and bright with a sea breeze.\n- **Afternoon**: As the sun climbs high, heat mounts up, leading to the formation of dark clouds.\n- **Precipitation**: Rain comes with thunder and lightning (convectional rainfall) but is soon over.\n- **Temperature**: High and uniform throughout the year.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1173
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Agricultural Geography",
+    "subchapter": "Types of Agriculture",
+    "topic": "Mixed Farming",
+    "content": "**Mixed Farming** is an agricultural system where farmers engage in both:\n1. **Cultivation of crops** (food and/or cash crops).\n2. **Rearing of animals** (livestock).\nThe chief characteristic is the combination of crop cultivation and animal rearing on the same farm, allowing for mutual support (e.g., manure for crops, fodder for animals).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1173
+  },
+  {
+    "subject": "Geography",
+    "chapter": "World Geography",
+    "subchapter": "Europe",
+    "topic": "Geographical Sequence of Central European Countries",
+    "content": "The correct geographical sequence of Central European countries from **West to East** is:\n1. **Czech Republic**\n2. **Austria**\n3. **Hungary**\n4. **Slovakia**\n*(Note: While Austria is south of the Czech Republic, in a general West-East sweep across this region, the sequence often cited in competitive exams follows the longitudinal progression. However, strictly speaking, Austria is south of Czech/Slovakia. The specific exam answer key for this standard question usually identifies **Czech Republic, Austria, Hungary, Slovakia** or similar variations based on specific map interpretations, but the most common correct option in NDA/CDS contexts for this specific set is often **(d) Czech Republic, Austria, Hungary, Slovakia** or **(a)** depending on the exact map projection used in the source. Based on standard longitudinal lines: Czech (15°E), Austria (16°E), Hungary (19°E), Slovakia (19°E).)*",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1173
+  },
+  {
+    "subject": "Geography",
+    "chapter": "World Geography",
+    "subchapter": "Asia",
+    "topic": "Geographical Sequence of Indonesian Islands",
+    "content": "The correct geographical sequence of major Indonesian islands from **West to East** is:\n1. **Java**\n2. **Bali**\n3. **Sulawesi**\n4. **Irianjaya** (Western New Guinea)\n*(Note: Java is the westernmost major island in this list, followed by Bali to its east, then Sulawesi further east, and Irianjaya as the easternmost.)*",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1173
+  },
+  {
+    "subject": "Geography",
+    "chapter": "World Geography",
+    "subchapter": "Europe",
+    "topic": "River Danube Basin",
+    "content": "The **River Danube** is the second-longest river in Europe. It flows through or borders the following nations:\n- **Austria**\n- **Hungary**\n- **Serbia** (and Montenegro)\n- **Bulgaria**\n- **Croatia**\n- **Slovakia**\n- **Romania**\n- **Ukraine**\n- **Germany** (source)\n- **Slovenia**\n- **Moldova** (border)\n*(Key countries often tested: Austria, Hungary, Serbia, Bulgaria, Romania, Ukraine.)*",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1173
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Anthropology",
+    "subchapter": "Racial Groups",
+    "topic": "Mongoloid vs. Other Racial Groups",
+    "content": "**Mongoloid** racial group includes:\n- **Yakuts** (Siberia)\n- **Samoyeds** (Siberia)\n- **Red Indians** (Native Americans of North America)\n- **Inuit/Eskimos**\n- **Mongols**\n\n**Non-Mongoloid** groups include:\n- **Bantus** (Negroid/African group)\n- **Caucasoids** (White/European/Asian)\n- **Australoids** (Aboriginal Australians)",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1173
+  },
+  {
+    "subject": "Geography",
+    "chapter": "World Geography",
+    "subchapter": "Deserts",
+    "topic": "Major Deserts and Their Locations",
+    "content": "- **Kalahari Desert**: Located primarily in **Botswana** (also extends into Namibia and South Africa).\n- **Namib Desert**: Located in **Namibia** (often associated with Angola in broader regional contexts, but specifically Namibia). *Note: In the context of the provided exam question, the correct mapping for Namib is typically Namibia, but let's look at the options. Option (d) maps Namib to 1 (Angola). Let's verify standard geography. Namib is in Namibia. Kalahari is in Botswana. Nubian is in Sudan. Atacama is in Chile. Let's re-evaluate the options based on standard facts.*\n  - A. Kalahari -> Botswana (3)\n  - B. Namib -> Namibia (Not listed as 1, 2, 3, 4 directly? Wait, List II has 1. Angola, 2. Sudan, 3. Botswana, 4. Chile. Namib is in Namibia. However, sometimes questions have slight inaccuracies or specific regional groupings. Let's look at the other matches.\n  - C. Nubian -> Sudan (2)\n  - D. Atacama -> Chile (4)\n  - So, A=3, C=2, D=4. This leaves B=1 (Angola). While Namib is in Namibia, it is geographically adjacent to Angola. In the context of this specific MCQ, the intended answer is likely (d) 3 1 2 4.\n- **Nubian Desert**: Located in **Sudan** (and Egypt).\n- **Atacama Desert**: Located in **Chile** (and Peru). It is the driest non-polar desert in the world.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1174
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "subchapter": "Pressure Systems",
+    "topic": "Anticyclones",
+    "content": "- **Definition**: An anticyclone is a wind system with a **high-pressure center**.\n- **Wind Movement**: Winds move **outward** (divergent) from the center.\n  - In the **Northern Hemisphere**, winds move clockwise and outward.\n  - In the **Southern Hemisphere**, winds move counter-clockwise and outward.\n- **Weather Impact**: Anticyclones are generally associated with **clear skies** and stable weather, not significant stormy weather. Their contribution to determining *stormy* weather is low, but they do determine fair weather. The statement in Q216(c) says contribution is 'quite significant' which is ambiguous, but (a) is the definitive definition.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1174
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "subchapter": "Weathering",
+    "topic": "Types of Weathering",
+    "content": "- **Weathering**: The decay and disintegration of rock **in situ** (in place).\n- **Mechanical (Physical) Weathering**: Breaks rocks into smaller pieces without changing their chemical composition. It is mainly caused by **temperature variations** (thermal expansion and contraction), frost action, and pressure release.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1174
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "subchapter": "Climate Types",
+    "topic": "Mediterranean Climate",
+    "content": "- **Characteristics**: Hot, dry summers and **cool, moist winters**.\n- **Agriculture**: Highly suitable for **fruit production** (citrus fruits, olives, grapes) because the cool and moist winters allow for the development of buds and flowers, while the dry summers allow for ripening without excessive fungal growth.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1174
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "subchapter": "Ocean Currents",
+    "topic": "Coriolis Effect",
+    "content": "- **Coriolis Effect**: The deflection of moving objects (like air and water) due to the **rotation of the Earth**.\n- **Direction**: In the **Northern Hemisphere**, moving objects are deflected to the **right**. In the Southern Hemisphere, they are deflected to the left.\n- **Cause**: The Earth rotates from **West to East**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1174
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Atmosphere",
+    "subchapter": "Atmospheric Layers",
+    "topic": "Jet Streams",
+    "content": "- **Jet Streams**: Fast-flowing, narrow air currents found in the upper levels of the atmosphere.\n- **Location**: They are usually found near the **tropopause** (the boundary between the troposphere and the stratosphere).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1174
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Weathering",
+    "topic": "Definition and Types of Weathering",
+    "content": "### Weathering\n- **Definition**: The process of decay and disintegration of rocks **in situ** (i.e., at the place where they occur) without the material being transported.\n- **Types**:\n  1. **Mechanical (Physical) Weathering** – breakdown of rocks by physical forces such as temperature changes (thermal expansion), freeze‑thaw cycles, exfoliation, abrasion, and pressure release.\n  2. **Chemical Weathering** – alteration of the mineral composition of rocks due to chemical reactions, e.g., oxidation, hydrolysis, carbonation, and dissolution.\n- **Importance**: Initiates soil formation, influences landscape evolution, and controls the supply of sediments to rivers and oceans.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1178
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Atmospheric Circulation",
+    "topic": "Doldrums (Intertropical Convergence Zone)",
+    "content": "### Doldrums (ITCZ)\n- **Location**: A calm, low‑pressure belt roughly between **5° N and 5° S** of the equator.\n- **Characteristics**:\n  - Weak surface winds; frequent light and variable breezes.\n  - High humidity and abundant cloud formation due to intense solar heating.\n  - Convergence of the **northeasterly trade winds** from the Northern Hemisphere and **southeasterly trade winds** from the Southern Hemisphere.\n- **Solar Angle**: The Sun’s rays are **nearly vertical at the equator only during the equinoxes**; throughout the year the solar declination varies between ±23.5°, so the statement that “Sun rays strike almost vertically over the equator throughout the year” is false.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1178
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Atmospheric Phenomena",
+    "topic": "Tornado Spin Direction",
+    "content": "### Tornado Rotation\n- **Northern Hemisphere**: Most tornadoes spin **anti‑clockwise** (cyclonic) because of the Coriolis effect and prevailing wind shear.\n- **Southern Hemisphere**: Tornadoes generally spin **clockwise** (cyclonic in the Southern Hemisphere).\n- **Note**: Rare anticyclonic tornadoes can occur in either hemisphere, but the dominant pattern follows the above rule.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1178
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Atmospheric Science",
+    "subchapter": "Atmospheric Composition & Structure",
+    "topic": "Air Density Near the Earth's Surface",
+    "content": "### Air Near the Surface\n1. **Heavier Air**: Air close to the surface is denser (heavier) because atmospheric pressure is highest at sea level and decreases with altitude (hydrostatic balance).\n2. **Higher Moisture & Particulate Content**: Near‑surface air typically contains **more water vapour** (due to evaporation from oceans, lakes, and soils) and **greater concentrations of dust and aerosols** because sources are at the ground and there is less time for removal processes.\n- These factors affect temperature, humidity, and visibility.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1178
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "subchapter": "Rocks and Minerals",
+    "topic": "Formation of Igneous Rocks",
+    "content": "- **Igneous Rock Formation**: Igneous rocks are formed from the cooling and solidification of molten rock (magma or lava).\n- **Intrusive vs Extrusive**: \n  - **Intrusive (Plutonic)**: Formed when magma cools slowly deep within the Earth's crust. This slow cooling allows large crystals to form (e.g., Granite).\n  - **Extrusive (Volcanic)**: Formed when lava cools quickly on the Earth's surface. Rapid cooling results in very small crystals or glassy textures (e.g., Basalt).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1179
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "subchapter": "Soil Erosion",
+    "topic": "Role of Vegetation in Soil Conservation",
+    "content": "- **Vegetation and Erosion**: Hills with dense vegetation cover experience significantly less soil erosion compared to bare hills.\n- **Mechanism**: \n  1. **Infiltration**: Vegetation slows down surface runoff, allowing more rainwater to infiltrate into the soil.\n  2. **Binding**: Root systems bind soil particles together, increasing soil stability and resistance to erosion by wind and water.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1179
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "subchapter": "Atmospheric Structure",
+    "topic": "Temperature Gradient in Troposphere",
+    "content": "- **Vertical Temperature Gradient**: The rate at which air temperature changes with altitude is known as the vertical temperature gradient (or lapse rate).\n- **Troposphere Characteristics**: In the Troposphere (the lowest layer of the atmosphere), temperature generally decreases with increasing altitude.\n- **Cause**: The primary source of heat for the lower atmosphere is the Earth's surface, which absorbs solar radiation and re-emits it as long-wave radiation (terrestrial radiation). As altitude increases, the distance from this heat source increases, leading to lower temperatures.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1179
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "subchapter": "Weathering",
+    "topic": "Chemical Weathering",
+    "content": "- **Chemical Weathering**: The decomposition of rocks through chemical reactions.\n- **Environmental Factors**: Chemical weathering is most active in **hot and humid** environments.\n- **Reason**: High temperatures accelerate chemical reaction rates, and abundant rainfall provides the water necessary for hydrolysis, oxidation, and dissolution processes. These conditions facilitate the rapid decomposition of rock minerals.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1179
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Human Geography",
+    "subchapter": "Population and Settlement",
+    "topic": "Nomadic Groups",
+    "content": "- **Tuareg People**: A Berber ethnic group known for their pastoral nomadic lifestyle.\n- **Habitat**: They primarily inhabit the **Sahara Desert** in North Africa (spanning parts of Mali, Niger, Libya, Algeria, and Nigeria).\n- **Other Nomads**: \n  - Kalahari: San/Bushmen\n  - Arabia: Bedouins\n  - Patagonia: Gauchos (historically)",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1179
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Biogeography",
+    "subchapter": "Natural Vegetation",
+    "topic": "Vegetation Types and Regions",
+    "content": "- **Selvas (Tropical Rainforests)**: Characterized by **Epiphytes** (plants growing on other plants), dense canopy, and high biodiversity.\n- **Savanna**: Characterized by **Grasses and scattered trees** (Tropophytes are also common, but the defining feature is the grassland with trees). *Note: In matching questions, Savanna is often linked to Grasses/Trees.*\n- **Tundra**: Characterized by **Mosses and lichens** due to permafrost and short growing seasons.\n- **Monsoon Land**: Characterized by **Tropophytes** (plants that grow in response to seasonal rains) or distinct seasonal vegetation changes.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1179
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "subchapter": "Weathering",
+    "topic": "Hydrolysis in Humid Tropics",
+    "content": "- **Hydrolysis**: A chemical weathering process where water reacts with rock minerals to form new compounds.\n- **Effectiveness in Humid Tropics**: Hydrolysis is highly effective in humid tropics primarily due to **high temperature and humidity**.\n- **Diurnal Range**: While diurnal temperature range exists, it is not the primary driver for the chemical effectiveness of hydrolysis compared to the constant high moisture and heat.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1179
+  },
+  {
+    "subject": "Geography",
+    "chapter": "World Geography",
+    "subchapter": "Economic Geography",
+    "topic": "Industrial Cities",
+    "content": "**Rotterdam (Netherlands):**\n- Rotterdam is largely famous for its **shipbuilding** industry.\n- It is one of the largest ports in the world, facilitating significant trade and industrial activity related to maritime engineering.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1180
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Climate and Weather",
+    "topic": "Rainfall Mechanisms",
+    "content": "**Sequence for Heavy Rainfall (Convectional/Orographic):**\n- The correct sequence for heavy downpour involves **Rapid ascent of air**.\n- As air rises rapidly, it cools adiabatically, leading to condensation.\n- This results in the formation of **Large raindrops**.\n- The accumulation and coalescence of these drops lead to a **Heavy downpour**.\n- *Incorrect sequences:* Slow ascent leads to light rain; descent of air warms the air and inhibits rainfall (subsidence); compression of air generally warms it, preventing condensation.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1180
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Earth's Motion",
+    "topic": "Axial Tilt and Seasons",
+    "content": "**Earth's Axial Tilt (Obliquity of Ecliptic):**\n- The Earth's axis of rotation makes an angle of **23.5°** (23° 1/2°) with the perpendicular to the plane of the ecliptic.\n- **Hypothetical Scenario (0° Tilt):**\n  - If the angle were zero, the Sun would always be directly overhead at the equator.\n  - **Seasons:** There would be **no seasons** (no variation in solar angle throughout the year).\n  - **Day/Night Length:** The length of day and night would be **12 hours each** throughout the year for all locations.\n  - **Global Uniformity:** The length of day and night would be the same **all over the Earth** (everywhere would have 12h day/12h night).\n  - Therefore, all the stated consequences (no seasons, equal day/night length globally and annually) would result.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1180
+  },
+  {
+    "subject": "Geography",
+    "chapter": "World Geography",
+    "subchapter": "Human Geography",
+    "topic": "Nomadic Herders",
+    "content": "**Yakutsk Nomadic Herders:**\n- **Yakutsk** (or Yakuts) are nomadic herders found in the **Tundra** region.\n- They are primarily located in Siberia (Russia) and practice reindeer herding.\n- *Other regions:* Gobi (Mongolia/China), Sahara (North Africa), Kalahari (Southern Africa) have different nomadic groups.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1180
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Biogeography",
+    "topic": "Tropical Rainforest Vegetation",
+    "content": "**Factors for Luxuriant Growth in Tropical Rainforests:**\n- **Hot and wet climate throughout the year:** Provides constant moisture and heat, essential for rapid plant growth.\n- **Intense sunlight for photosynthesis:** High solar radiation drives high rates of photosynthesis.\n- **Note on Soil:** Tropical rainforest soils are often **leached and infertile** (laterite soils) due to heavy leaching from high rainfall. The luxuriant growth is primarily due to climate (heat/rain) and sunlight, not fertile soil.\n- **Note on Seasonality:** Tropical rainforests have **no distinct dry season** (or very short one), so seasonal change is not a primary driver of nutrient absorption in the same way as in savannas. The key factors are the constant hot/wet conditions and sunlight.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1180
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Biogeography",
+    "topic": "Vegetation Types and Regions",
+    "content": "**Matching Vegetation Types to Regions:**\n- **Selvas (Tropical Rainforests):** Characterized by **Epiphytes** (plants growing on other plants), tall trees, and high biodiversity.\n- **Savannas:** Characterized by **Grasses and trees** (scattered trees in a grassland matrix).\n- **Taiga (Boreal Forests):** Characterized by **Conifers** (evergreen needle-leaf trees like pine, spruce, fir).\n- **Tundra:** Characterized by **Mosses and lichens** (low-growing plants, no trees, permafrost).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1180
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Climate and Weather",
+    "topic": "Rainfall Types",
+    "content": "**Rain Shadow Effect:**\n- The rain shadow effect is associated with **orographic rainfall**.\n- When moist air is forced to rise over a mountain range, it cools and precipitates on the windward side.\n- The leeward side (downwind) receives little rainfall because the air descends and warms, inhibiting condensation. This dry area is called the rain shadow.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1180
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Climate and Weather",
+    "topic": "Barometric Pressure and Weather",
+    "content": "**Barometer Readings and Weather Conditions:**\n- A **sudden fall in barometer reading** indicates a drop in atmospheric pressure.\n- Low pressure systems are associated with rising air, cloud formation, and precipitation.\n- Therefore, a sudden fall in barometer reading indicates **Stormy weather**.\n- *High pressure* is associated with calm, clear, and dry weather.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1180
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "subchapter": "Rock Structures",
+    "topic": "Folds and Faults",
+    "content": "### Rock Folds\n- **Anticline**: An upfold in rock strata where the oldest rocks are in the center.\n- **Syncline**: A downfold in rock strata where the youngest rocks are in the center.\n- **Graben**: A down-dropped block of crust between two parallel normal faults.\n- **Horst**: An uplifted block of crust between two parallel normal faults.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1181
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Atmosphere",
+    "subchapter": "Layers of Atmosphere",
+    "topic": "Exosphere Composition",
+    "content": "### Exosphere\n- The outermost layer of the Earth's atmosphere.\n- **Composition**: Primarily composed of **Hydrogen** and Helium. Hydrogen is found in the highest quantity in this layer due to its low atomic weight allowing it to escape more easily or reach higher altitudes.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1181
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "subchapter": "Karst Landforms",
+    "topic": "Cave Deposits",
+    "content": "### Stalactites and Stalagmites\n- **Stalactites**: Form when water containing dissolved calcium carbonate drips from the ceiling of a cave. They **hang down** from the ceiling, resembling icicles.\n- **Stalagmites**: Form when the dripping water hits the cave floor and deposits minerals. They **rise up** from the floor of the cave.\n- **Key Distinction**: Stalactites hang from the ceiling; Stalagmites rise from the floor.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1181
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Earth's Interior",
+    "subchapter": "Structure of the Earth",
+    "topic": "Lithosphere",
+    "content": "### Lithosphere\n- The rigid outer part of the Earth.\n- **Composition**: Consists of the **Crust** and the **uppermost part of the Mantle** (specifically the rigid upper mantle).\n- It is broken into tectonic plates.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1181
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Natural Vegetation",
+    "subchapter": "Forest Types",
+    "topic": "Temperate Coniferous Forests",
+    "content": "### Temperate Coniferous Forests\n- Also known as Taiga or Boreal Forests.\n- **Dominant Trees**: Spruce, Cedar, Pine, and Fir.\n- **Characteristics**: Evergreen, needle-leaved trees adapted to cold climates.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1181
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Natural Vegetation",
+    "subchapter": "Tropical Forests",
+    "topic": "Deciduous Forests",
+    "content": "### Sal Tree (Shorea robusta)\n- **Classification**: **Dry Deciduous** tree.\n- **Habitat**: Found in tropical regions with distinct wet and dry seasons.\n- **Characteristics**: Loses leaves during the dry season to conserve water.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1181
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Astronomy",
+    "subchapter": "Earth's Motion",
+    "topic": "Equinoxes and Solstices",
+    "content": "### Key Astronomical Events (Northern Hemisphere)\n- **Vernal Equinox**: Occurs on **21st March**. Day and night are of equal length.\n- **Summer Solstice**: Occurs on **21st or 22nd June**. Longest day of the year in the Northern Hemisphere.\n- **Autumnal Equinox**: Occurs on **23rd September**. Day and night are of equal length.\n- **Winter Solstice**: Occurs on **21st or 22nd December**. Shortest day of the year in the Northern Hemisphere.\n\n*Note: Statement 2 in Q90 (Summer solstice on 22nd Dec) is incorrect; it is Winter Solstice. Statement 4 (Winter solstice on 21st June) is incorrect; it is Summer Solstice.*",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1181
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Astronomy",
+    "subchapter": "Eclipses",
+    "topic": "Solar Eclipse",
+    "content": "### Solar Eclipse\n- Occurs when the **Moon** comes exactly between the **Sun** and the **Earth**.\n- The Moon casts a shadow on the Earth.\n- This can only happen during the New Moon phase.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1181
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian Geography",
+    "subchapter": "Geographic Profile",
+    "topic": "Location",
+    "content": "India occupies a South‑Central position in the Asian continent, looking across the Arabian Sea to Arabia and Africa on the West and across the Bay of Bengal to Myanmar, Malaysia and the Indonesian Archipelago on the East. The Himalayan ranges keep India apart from the rest of Asia. India derives its name from the river Indus.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1183
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian Geography",
+    "subchapter": "Geographic Profile",
+    "topic": "Area and Extent",
+    "content": "India ranks seventh in the world in terms of area after Russia, Canada, USA, China, Brazil and Australia. It has a total land area of about 3,287,263 sq km, which is 2.42% of the world’s area. India is the second largest country in Asia both in terms of area and population, after China. It is the second largest in terms of population and holds 17.4% of the total world population.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1183
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian Geography",
+    "subchapter": "Borders",
+    "topic": "Common Frontiers with Neighbouring Countries",
+    "content": "States sharing borders with neighbouring countries:\n- Pakistan: Jammu & Kashmir, Punjab, Rajasthan, Gujarat\n- Afghanistan: Jammu & Kashmir\n- China: Jammu & Kashmir, Himachal Pradesh, Uttarakhand, Sikkim, Arunachal Pradesh\n- Nepal: Uttarakhand, Uttar Pradesh, Bihar, West Bengal, Sikkim\n- Bhutan: Sikkim, West Bengal, Assam, Arunachal Pradesh\n- Myanmar: Arunachal Pradesh, Nagaland, Manipur, Mizoram\n- Bangladesh: West Bengal, Meghalaya, Assam, Tripura, Mizoram",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1183
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian Geography",
+    "subchapter": "Physical Features",
+    "topic": "Tropic of Cancer",
+    "content": "The Tropic of Cancer (23.5°N latitude) passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1183
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian Geography",
+    "subchapter": "Physical Features",
+    "topic": "Coastline",
+    "content": "The state with the longest coastline is Gujarat.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1183
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Transport and Urbanisation",
+    "subchapter": "Urbanisation Statistics",
+    "topic": "Urbanisation in Indian States",
+    "content": "- **Most Urbanised State:** Uttar Pradesh.\n- **Least Urbanised State:** Meghalaya.\n- **Maximum Urban Population:** Maharashtra.\n- **Least Urban Population:** Sikkim.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1184
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Transport and Urbanisation",
+    "subchapter": "National Highways",
+    "topic": "Longest National Highway",
+    "content": "- **Longest National Highway in India:** NH-44.\n- **Route:** Connects Srinagar to Kanyakumari.\n- **Length:** 3745 km.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1184
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Transport and Urbanisation",
+    "subchapter": "Railways",
+    "topic": "Railway Network Length",
+    "content": "- **Total length of railway in India:** 63,273 km.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1184
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Geological Formation",
+    "subchapter": "Archean System (Pre-Cambrian Rocks)",
+    "topic": "Characteristics and Composition",
+    "content": "- **Age:** More than 3 billion years old (Gneiss and Schist series) and 2-3 billion years old (Dharwar rocks).\n- **Nature:** Oldest rocks on Earth's crust; Azoic or unfossiliferous (devoid of sediment and life).\n- **Mineral Wealth:** Rich in metallic minerals like iron, manganese, and gold.\n- **Location:** Aravalli mountains, 2/3rd of Deccan Peninsula, and parts of North-East India.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1184
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Geological Formation",
+    "subchapter": "Archean System (Pre-Cambrian Rocks)",
+    "topic": "Gneisses and Schist System",
+    "content": "- **Significance:** Contains the first formed rocks on Earth.\n- **Location in Peninsula:** Primarily found in Tamil Nadu, Andhra Pradesh, Karnataka, Odisha, Meghalaya, Madhya Pradesh, and Chhattisgarh.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1184
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Geological Formation",
+    "subchapter": "Archean System (Pre-Cambrian Rocks)",
+    "topic": "Dharwar System",
+    "content": "- **Age:** About 2.3 billion years old (later than the initial Archean formation).\n- **Nature:** First metamorphic sedimentary rocks in India.\n- **Mineral Wealth:** Rich in iron ore, manganese, lead, zinc, and gold.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1184
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Geological Formation",
+    "subchapter": "Purana Rock System (Proterozoic)",
+    "topic": "Cuddapah System",
+    "content": "- **Age:** Around 1-1.5 billion years old.\n- **Nature:** Predominantly sedimentary characteristics.\n- **Composition:** Consists of sandstones and limestones.\n- **Location:** Found in Southern Chhattisgarh and Odisha.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1184
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Geological Formation",
+    "subchapter": "Purana Rock System (Proterozoic)",
+    "topic": "Vindhyan System",
+    "content": "- **Age:** 0.5-1 billion years old.\n- **Association:** Associated with the Central region (text cuts off, but generally associated with Central India).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1184
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "The Himalayan Mountain System",
+    "topic": "Longitudinal Series of the Himalayas",
+    "content": "The Himalayas are classified into five longitudinal series of mountains:\n\n1. **Trans-Himalayas (Tibet Himalayas)**:\n   - Located North of the Greater Himalayas.\n   - Older than the main Himalayas.\n   - Acts as a watershed between rivers flowing South and North.\n   - Width: ~40 km.\n   - Height: Up to 5000 m.\n   - Includes: Karakoram, Zaskar, and Ladakh ranges.\n\n2. **Greater Himalayas (Himadri)**:\n   - The Northernmost important range.\n   - Also known as Inner Himalayas.\n\n3. **Himachal Himalaya (Middle Himalayas)**:\n   - Lies to the South of the Himadri.\n   - Forms the most rugged mountain system.\n\n4. **Shiwaliks (Outer Himalayas)**:\n   - The outermost range of the Himalayas.\n   - Width: 10-50 km.\n   - Altitude: 900 to 1100 m.\n   - Composition: Unconsolidated sediments brought down by rivers from the main Himalayan ranges in the North.\n\n5. **Purvanchal (Eastern Hills)**:\n   - Formed after the Himalayas cross the Dihang gorge and take a sudden Southward turn.\n   - Shape: Crescent with the convex side pointing towards the West.\n   - Character: Comparatively low hills.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1185
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "The Himalayan Mountain System",
+    "topic": "Important Peaks in the Himalayas",
+    "content": "Key peaks in the Himalayan range with their locations and heights:\n\n- **Mt. Everest**: Nepal-Tibet, 8848 m.\n- **K2 (Godwin Austin)**: India (Illegally occupied Kashmir/Pakistan occupied Kashmir), 8611 m.\n- **Kanchanjunga**: Nepal-India, 8586 m.\n- **Dhaulagiri**: Nepal, 8187 m.\n- **Nanga Parvat**: India, 8126 m.\n- **Annapurna**: Nepal, 8091 m.\n- **Nanda Devi**: India, 7817 m.\n- **Mt. Kamet**: India, 7756 m.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1185
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Mountain Ranges of India",
+    "topic": "Highest Peaks in Various Ranges",
+    "content": "Highest peaks in specific Indian mountain ranges:\n\n- **Highest mountain peak in India**: K2 or Godwin Austin (located in illegally occupied Kashmir/Pakistan occupied Kashmir).\n- **Highest peak of India in Himalaya**: Kanchenjunga.\n- **Highest peak in Eastern Ghats**: Jindhagada Peak (Andhra Pradesh).\n- **Highest peak in Western Ghats**: Anamudi (Tamil Nadu).\n- **Highest peak of Satpura range**: Dhupgarh.\n- **Highest peak of Nilgiris**: Doda Betta.\n- **Highest peak in Andaman and Nicobar Islands**: Saddle Peak.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1185
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Plains",
+    "topic": "Great Indian Plain",
+    "content": "### Great Indian Plain (Indus‑Ganga‑Brahmaputra Plain)\n- Extends for about **3,200 km**.\n- Width varies from **150 km to 300 km**.\n- Largely **featureless** with a maximum elevation of **204 m**.\n- The land around **Ambala** acts as the **water divide** for the plain.\n- Based on geomorphological characteristics, the plain is divided into four distinct regions:\n  1. **Bhabar Region**\n  2. **Terai Region**\n  3. **Khadar Region**\n  4. **Bhangar Region**",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1186
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Plains",
+    "topic": "Bhabar Region",
+    "content": "### Bhabar Region\n- Location: Along the foothills of the **Shiwalik range**, stretching from **Indus to Tista** without interruption.\n- Width: **8–16 km**.\n- Lithology: Composed of **stones and pebbles**, making it **highly porous**.\n- Hydrology: Rivers **disappear underground** in this zone because of the porous substrate.\n- Significance: Acts as a transition zone between the mountains and the lower plains.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1186
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Plains",
+    "topic": "Terai Region",
+    "content": "### Terai Region\n- Lies **south of the Bhabar** region.\n- Hydrology: Underground streams from Bhabar **re‑emerge** at the surface, forming **marshy lands**.\n- Vegetation: Characterised by **dense forests** and **high biodiversity**.\n- Importance: Supports rich flora and fauna; many wildlife sanctuaries are located here.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1186
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Plains",
+    "topic": "Khadar Region",
+    "content": "### Khadar Region\n- Consists of **new alluvium** (recent river‑deposited sediments).\n- Typically found in **deltaic areas**, e.g., the **Ganga‑Brahmaputra delta**.\n- Soil: Very **fertile**, supporting intensive agriculture.\n- Flooding: Frequently **flood‑prone** because it lies at the lowest elevation of the plain.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1186
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Plains",
+    "topic": "Bhangar Region",
+    "content": "### Bhangar Region\n- Represents the **higher part** of the plains where floodwaters **cannot reach**.\n- Composed of **old alluvium** (older river deposits).\n- Often appears as **terraced** landforms.\n- Soil: Generally **less fertile** than Khadar but better drained.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1186
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Plateaus",
+    "topic": "Peninsular Plateau Overview",
+    "content": "### Peninsular Plateau\n- Shape: Roughly **triangular**.\n- Rock type: Dominated by **old crystalline, igneous, and metamorphic rocks**.\n- Origin: Formed from the **break‑up and drift of Gondwanaland**, making it part of the **oldest landmass** on Earth.\n- Geography: Bordered by water on **three sides**, hence the term **peninsular**.\n- Topography: Contains **broad, shallow valleys** and **rounded hills**.\n- Major river: The **Narmada River** cuts a **rift valley**, dividing the plateau into two major physiographic units:\n  1. **Central Highlands** (north of Narmada)\n  2. **Deccan Plateau** (south of Narmada)",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1186
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Plateaus",
+    "topic": "Divisions of Peninsular Plateau",
+    "content": "### Divisions of the Peninsular Plateau\n1. **Central Highland**\n   - Location: North of the **Narmada River**.\n   - Extent: Covers a major part of the **Malwa Plateau**.\n   - Features: Higher elevation, rugged terrain, and several **plateau complexes** (e.g., Bundelkhand, Chota Nagpur).\n2. **Deccan Plateau**\n   - Location: South of the **Narmada River**.\n   - Extent: Spreads over a large part of central and southern India.\n   - Features: Generally **lower elevation** than the Central Highlands, with extensive **basaltic lava flows** (Deccan Traps) and numerous **river valleys**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1186
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Plateaus",
+    "topic": "Central Highland",
+    "content": "### Central Highland\n- Lies **north of the Narmada River**.\n- Includes the **Malwa Plateau** and other uplifted blocks.\n- Characterised by **granite‑gneiss** terrain, moderate elevation, and a mix of **plateau and hill** landforms.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1186
+  },
+  {
+    "subject": "Geography",
+    "chapter": "The Coastal Plains",
+    "subchapter": "Overview",
+    "topic": "Location and Extent",
+    "content": "- The Peninsular plateau is flanked by narrow coastal strips along the Arabian Sea (West) and the Bay of Bengal (East).\n- Extends from Kachchh and Kathiawar regions of Gujarat to Konkan plains of Maharashtra-Goa, Karnataka plains, and Southern Malabar plains along the Kerala coast.\n- Divided into two main parts based on location: Eastern Coastal Plains and Western Coastal Plains.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1187
+  },
+  {
+    "subject": "Geography",
+    "chapter": "The Coastal Plains",
+    "subchapter": "Eastern Coastal Plains",
+    "topic": "Characteristics and Divisions",
+    "content": "- **Extent**: Runs from river Suvarnrekha to Kanyakumari.\n- **Width**: Wider than the Western Coastal Plains due to sediment deposition forming deltas by rivers Mahanadi, Godavari, Krishna, and Cauvery.\n- **Divisions**:\n  1. **Utkal Plain**: From Ganga plain to Mahanadi river.\n  2. **Andhra Plain**: From Utkal plain to Pulicat lake.\n  3. **Tamil Nadu Plain**: Also known as the 'Granary of South'.\n- **Coast Names**:\n  - Coastal plains of Andhra Pradesh and Odisha are known as **Utkal Coast**.\n  - Coastal plains from Krishna-Godavari Delta to Kanyakumari are known as **Coromandel Coast**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1187
+  },
+  {
+    "subject": "Geography",
+    "chapter": "The Coastal Plains",
+    "subchapter": "Western Coastal Plains",
+    "topic": "Characteristics and Divisions",
+    "content": "- **Extent**: Runs from Kanyakumari to Rann of Kutchh.\n- **Width**: Average width is 64 km; wider at the mouths of Narmada and Tapti rivers.\n- **Divisions**:\n  1. **Kathiawar Plain**: Rann of Kutch to Daman.\n  2. **Malabar/Kerala Coast**: Manglore to Kanyakumari.\n  3. **Konkan Coast**: Daman to Goa.\n  4. **Karnataka/Kanara Coast**: Goa to Manglore.\n  5. **Gujarat Plains**: East to Kutch and Kathiawar.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1187
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Rajasthan Desert",
+    "subchapter": "Thar Desert",
+    "topic": "Features and Terminology",
+    "content": "- **Also Known As**: Thar or Great Indian Desert.\n- **Location**: Covers Western Rajasthan and adjoining parts of Pakistan.\n- **Terminology**:\n  - The desert proper is called **Marusthali**.\n  - The Eastern part of Marusthali is rocky.\n  - The Western part is covered by shifting sand dunes locally known as **Dharian**.\n  - The semi-arid plain in the Eastern part of Thar desert up to the Aravalli range is known as **Rajasthan Bagar**.\n- **Hydrology**: Drained by seasonal streams creating fertile tracts.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1187
+  },
+  {
+    "subject": "Geography",
+    "chapter": "River Projects",
+    "subchapter": "Important River Projects and Beneficiary States",
+    "topic": "Major Multipurpose River Projects in India",
+    "content": "## Key River Projects, Rivers, Purposes, and Beneficiary States\n\n1. **Bhakra Nangal Project**\n   - **River:** Sutlej\n   - **Purpose:** Power and irrigation\n   - **Beneficiary States:** Punjab, Himachal Pradesh, Haryana, Rajasthan\n\n2. **Damodar Valley Project**\n   - **River:** Damodar\n   - **Purpose:** Power, irrigation, and flood control\n   - **Beneficiary States:** Jharkhand, West Bengal\n\n3. **Hirakud Project**\n   - **River:** Mahanadi\n   - **Purpose:** Power and irrigation\n   - **Beneficiary States:** Odisha\n\n4. **Tungabhadra Project**\n   - **River:** Tungabhadra\n   - **Purpose:** Power and irrigation\n   - **Beneficiary States:** Andhra Pradesh, Karnataka\n\n5. **Nagarjunasagar Project**\n   - **River:** Krishna\n   - **Purpose:** Power and irrigation\n   - **Beneficiary States:** Andhra Pradesh, Telangana\n\n6. **Gandak River Project**\n   - **River:** Gandak\n   - **Purpose:** Power and irrigation\n   - **Beneficiary States:** Bihar, Uttar Pradesh, Nepal (Joint venture of India and Nepal)\n\n7. **Kosi Project**\n   - **River:** Kosi\n   - **Purpose:** Flood control, Power, and irrigation\n   - **Beneficiary States:** Bihar, Nepal\n\n8. **Farakka Project**\n   - **River:** Ganga, Bhagirathi\n   - **Purpose:** Power, irrigation, avoid accumulation of silt to improve navigation\n   - **Beneficiary States:** West Bengal\n\n9. **Beas Project**\n   - **River:** Beas\n   - **Purpose:** Irrigation and power\n   - **Beneficiary States:** Rajasthan, Haryana, Punjab, Himachal Pradesh\n\n10. **Indira Gandhi Canal Project (Rajasthan Canal Project)**\n    - **River:** Sutlej, Beas, and Ravi\n    - **Purpose:** Irrigation\n    - **Beneficiary States:** Rajasthan, Punjab, Haryana\n\n11. **Chambal Project**\n    - **River:** Chambal\n    - **Purpose:** Power and irrigation\n    - **Beneficiary States:** Madhya Pradesh, Rajasthan\n\n12. **Kakrapara Project**\n    - **River:** Tapi\n    - **Purpose:** Irrigation\n    - **Beneficiary States:** Gujarat\n\n13. **Ukai Project**\n    - **River:** Tapi\n    - **Purpose:** Power and irrigation\n    - **Beneficiary States:** Gujarat\n\n14. **Tawa Project**\n    - **River:** Tawa (Tributary of Narmada)\n    - **Purpose:** Irrigation\n    - **Beneficiary States:** Madhya Pradesh\n\n15. **Poochampad Project**\n    - **River:** Godavari\n    - **Purpose:** Irrigation\n    - **Beneficiary States:** Telangana\n\n16. **Malaprabha Project**\n    - **River:** Malaprabha\n    - **Purpose:** Irrigation\n    - **Beneficiary States:** Karnataka\n\n17. **Durgapur Barrage**\n    - **River:** Damodar\n    - **Purpose:** Irrigation and navigation\n    - **Beneficiary States:** Karnataka, West Bengal, Jharkhand\n\n18. **Mahanadi Delta Project**\n    - **River:** Mahanadi\n    - **Purpose:** Irrigation\n    - **Beneficiary States:** Odisha\n\n19. **Iddukki Project**\n    - **River:** Periyar\n    - **Purpose:** Hydroelectricity\n    - **Beneficiary States:** Kerala\n\n20. **Ramganga Multipurpose Project**\n    - **River:** Chuisot stream near Kalagarh\n    - **Purpose:** Power and irrigation\n    - **Beneficiary States:** Uttarakhand\n\n21. **Matatilla Project**\n    - **River:** Betwa\n    - **Purpose:** Multipurpose power and irrigation\n    - **Beneficiary States:** Uttar Pradesh, Madhya Pradesh\n\n22. **Tehri Dam Project**\n    - **River:** Bhilangana, Bhagirathi\n    - **Purpose:** Hydroelectricity\n    - **Beneficiary States:** Uttarakhand\n\n23. **Rihand Scheme**\n    - **River:** Rihand\n    - **Purpose:** Hydroelectricity\n    - **Beneficiary States:** Uttar Pradesh\n\n24. **Kundah Project**\n    - **River:** Kundah\n    - **Purpose:** Hydroelectricity and irrigation\n    - **Beneficiary States:** Tamil Nadu\n\n25. **Mandi Project**\n    - **River:** Beas\n    - **Purpose:** Irrigation\n    - **Beneficiary States:** Himachal Pradesh\n\n26. **Shivasamudram Project**\n    - **River:** Cauveri\n    - **Purpose:** Irrigation\n    - **Beneficiary States:** Karnataka",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1189
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Waterfalls of India",
+    "subchapter": "Important Waterfalls",
+    "topic": "List of Major Waterfalls",
+    "content": "# Major Waterfalls in India\n\n| Waterfall | Height (km) | River | State |\n|-----------|-------------|-------|-------|\n| **Kunchikal** | 4.55 | Varani | Karnataka |\n| **Jog/Gersoppa** | 2.60 | Sharavati | Karnataka |\n| **Rakim Kund** | 1.68 | Gaighat | Bihar |\n| **Chachai** | 1.27 | Bihad | Madhya Pradesh |\n| **Keoti** | 0.98 | Mahanadi | Madhya Pradesh |\n| **Sivasamudram** | 0.90 | Cauveri | Karnataka |\n\n> **Definition**: A *waterfall* is a vertical or near‑vertical drop in the course of a stream or river.\n\n> **Height Measurement**: Height is measured from the top of the waterfall to the lowest point of the plunge pool or the point where the water re‑enters the stream.\n\n---\n\n## Climate of India\n\nIndia experiences a **tropical monsoon** climate, heavily influenced by the Himalayas. The mountains act as a barrier, blocking cold Central Asian air masses and allowing the monsoon winds to deposit moisture over the subcontinent.\n\n### Climatic Zones\n\n- **Northern Zone** (north of the Tropic of Cancer, 23.5° N):\n  - Sub‑tropical climate with cold winters and hot summers.\n  - Mid‑day sun never reaches the zenith.\n- **Southern Zone** (south of the Tropic of Cancer):\n  - Tropical climate, warmer year‑round.\n  - Mid‑day sun is almost vertically overhead at least twice a year.\n\n---\n\n## Climatic Regions of India\n\n| Climate Type | Areas | Characteristics |\n|--------------|-------|-----------------|\n| **Tropical Rain Forest** | Western Ghats, West Coastal Plains, parts of Assam & Tripura | High temperature year‑round, heavy seasonal rainfall (200 cm annually, May‑Nov) |\n| **Tropical Savanna** | Most of Peninsular region (except leeward side of Western Ghats) | Dry winters, annual rainfall 76‑150 cm |\n| **Tropical Semi‑Arid Steppe** | Rainshadow belt from Central Maharashtra to Tamil Nadu | Low rainfall 38‑80 cm, temperatures 20‑30 °C |\n| **Tropical & Sub‑tropical Steppes** | Punjab, Haryana, Kutch | Temperature 12‑35 °C |\n| **Tropical Desert** | Western parts of Barmer, Jaisalmer, Bikaner (Rajasthan) & parts of Kutch | Scanty rainfall (mostly cloud bursts), high temperatures |\n\n> **Key Takeaway**: The climatic diversity of India is largely dictated by its topography and latitude, leading to distinct ecological zones from lush rainforests to arid deserts.\n",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1190
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climate of India",
+    "subchapter": "Southern Oscillation",
+    "topic": "Definition and Mechanism",
+    "content": "**Southern Oscillation** refers to the inter-relation of high and low pressure over the Pacific and Indian Oceans.\n- **Condition 1**: High surface level pressure over the Indian Ocean and low pressure over the Pacific Ocean.\n- **Condition 2**: Low surface level pressure over the Indian Ocean and high pressure over the Pacific Ocean (vice-versa).\n- This oscillation is a key factor in the variability of the Indian Monsoon.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1191
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climate of India",
+    "subchapter": "Seasons in India",
+    "topic": "Winter Season",
+    "content": "**Winter Season**\n- **Timing**: Starts by late November.\n- **Characteristics**: Clear skies, fine weather, light northerly winds, low humidity, low temperatures, and large day-time variations in temperature.\n- **Rainfall**: Generally occurs over the Western Himalayas, extreme North-Eastern parts of Tamil Nadu, and Kerala.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1191
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climate of India",
+    "subchapter": "Seasons in India",
+    "topic": "Summer Season",
+    "content": "**Summer Season**\n- **Timing**: Begins all over the country in March.\n- **Temperature**: By April, average daily temperature reaches 30-35°C. Central Indian land becomes very hot and humid, with temperatures reaching 40°C at many locations.\n- **Rainfall**: Only 1% of total Indian rainfall is received during this season, mostly by storms caused by convective currents.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1191
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climate of India",
+    "subchapter": "Seasons in India",
+    "topic": "Rainy Season (Monsoon)",
+    "content": "**Rainy Season**\n- **Timing**: Starts from June and stays until late September.\n- **Characteristics**: High heat, high humidity, and extensive cloud cover.\n- **Rainfall**: Several spells of moderate to heavy rainfall occur throughout the country. Most of the rainfall is brought by the **South-West Monsoon**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1191
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climate of India",
+    "subchapter": "Seasons in India",
+    "topic": "Autumn Season (Retreating Monsoon)",
+    "content": "**Autumn Season**\n- **Timing**: Starts from mid-September and stays until November.\n- **Characteristics**: Generally no cloud, but severe and devastating tropical cyclones may hit coastal regions.\n- **Rainfall**: Occurs due to the **retreating monsoon**. It causes rainfall in Tamil Nadu, some parts of Andhra Pradesh, and Kerala.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1191
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Soil",
+    "subchapter": "Soil Formation",
+    "topic": "Weathering and Soil Layers",
+    "content": "**Soil Formation**\n- **Process**: Soil is formed when rocks are broken down by the action of wind, water, and climate. This process is called **weathering**.\n- **Dependency**: The characteristic features of a soil depend upon the rocks from which it has been formed.\n- **Structure**: Soil forms different layers (horizons) of particles of different sizes.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1191
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Soils",
+    "subchapter": "Desert Soils",
+    "topic": "Desert Soils – Distribution and Characteristics",
+    "content": "### Desert Soils\n- **Geographic distribution**: North‑Western India – major parts of Rajasthan, south of Haryana and Punjab, and northern Gujarat.\n- **Landscape**: Predominantly sand dunes and undulating sandy plains.\n- **Origin**: Mostly derived from alluvium.\n- **Colour & texture**: Pale brown to yellow‑brown; fine sandy to loamy fine sand; generally **structureless**.\n- **Clay content**: Low.\n- **Chemical feature**: Presence of alkaline earth carbonates.\n- **Soil improvement**: Adding organic matter and clay increases water‑holding capacity, thereby enhancing productivity.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1192
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Soils",
+    "subchapter": "Swampy/Peaty Soils",
+    "topic": "Swampy/Peaty Soils – Formation and Occurrence",
+    "content": "### Swampy/Peaty Soils\n- **Formation**: Develop in areas of heavy rainfall with inadequate drainage.\n- **Typical locations**: Foothills of the Himalayas – Jammu & Kashmir, Uttarakhand, Uttar Pradesh, Bihar, West Bengal.\n- **Local name**: *Karewa* soil, especially noted in Jammu & Kashmir.\n- **Agricultural use**: Cultivation of *zaffran* (saffron) is practiced on Karewa soils.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1192
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Soils",
+    "subchapter": "Saline Soils",
+    "topic": "Saline Soils – Extent and Formation",
+    "content": "### Saline Soils\n- **Extent in India**: Approximately **7 million hectares** are salt‑affected, spread across several states.\n- **Reclamation requirement**: Productive use is possible only after appropriate reclamation measures.\n- **Formation mechanism**: Accumulation of soluble salts, primarily **chlorides** and **sulphates** of calcium and magnesium.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1192
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Soils",
+    "subchapter": "Forest Soils",
+    "topic": "Forest Soils – Characteristics",
+    "content": "### Forest Soils\n- **Formation environment**: Forested areas with sufficient rainfall.\n- **Variability**: Structure and texture vary according to the mountain environment in which they develop.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1192
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Soils",
+    "subchapter": "Soil Erosion and Degradation",
+    "topic": "Definitions and Agents",
+    "content": "### Soil Erosion and Degradation\n- **Soil erosion**: Destruction/removal of the soil cover.\n- **Soil degradation**: Decline in soil fertility.\n- **Primary agents**: **Wind** and **water** – both can detach soil particles and transport them elsewhere.\n- **Wind erosion**: Most significant in arid and semi‑arid regions.\n- **Water erosion**: Dominant in areas with heavy rainfall and steep slopes, where running water removes soil.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1192
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Soils",
+    "subchapter": "Types of Soil Erosion",
+    "topic": "Classification of Soil Erosion",
+    "content": "### Types of Soil Erosion\n- **Wind erosion** – prevalent in dry, sparsely vegetated landscapes.\n- **Water erosion** – includes sheet erosion, rill erosion, gully erosion, and streambank erosion; most important where rainfall intensity is high and slopes are steep.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1192
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Vegetation",
+    "subchapter": "Tropical Moist Deciduous Forests",
+    "topic": "Characteristics and Distribution",
+    "content": "### Tropical Moist Deciduous Forests\n\n**Climatic Conditions:**\n*   **Rainfall:** 100 to 200 cm per annum.\n*   **Mean Annual Temperature:** About 27°C.\n*   **Average Relative Humidity:** 60 to 70%.\n\n**Distribution in India:**\n*   Along the Western Ghats, surrounding the belt of evergreen forests.\n*   A strip along the Shivalik range including Terai and Bhabar (from 77°E to 88°E).\n*   Hills of Eastern Madhya Pradesh.\n*   Chhattisgarh.\n*   Chhotanagpur.\n*   Parts of Odisha and West Bengal.\n\n**Major Tree Species:**\n*   Teak\n*   Sal\n*   Laurel\n*   White Chuglam\n*   Badam\n*   Mahua\n*   Bamboo",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1193
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Vegetation",
+    "subchapter": "Littoral and Swamp Forests",
+    "topic": "Characteristics and Species",
+    "content": "### Littoral and Swamp Forests (Mangroves)\n\n**Location:**\n*   Occur in and around deltas, estuaries, and creeks.\n\n**Characteristics:**\n*   Can survive and grow in both fresh and brackish water.\n*   Account for **7%** of the world’s total mangrove area.\n\n**Major Tree Species:**\n*   Sundari\n*   Rhizophora\n*   Screw Pines\n*   Sonneratia",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1193
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Vegetation",
+    "subchapter": "Dry Forests",
+    "topic": "Tropical Dry Evergreen Forests",
+    "content": "### Tropical Dry Evergreen Forests\n\n**Distribution:**\n*   Found along the coasts of Tamil Nadu.\n\n**Characteristics:**\n*   Trees occur in short stature.\n*   **Annual Rainfall:** About 100 cm.\n*   **Mean Annual Temperature:** About 28°C.\n*   **Mean Humidity:** About 15%.\n\n**Major Tree Species:**\n*   Khirni\n*   Jamun\n*   Tamarind\n*   Neem",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1193
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Vegetation",
+    "subchapter": "Dry Forests",
+    "topic": "Tropical Dry Deciduous Forests",
+    "content": "### Tropical Dry Deciduous Forests\n\n**Characteristics:**\n*   Similar to moist deciduous forests but shed leaves in the dry season.\n*   **Most dominant natural vegetation in India.**\n*   Can grow in areas with less rainfall of **100-150 cm** per annum.\n\n**Major Tree Species:**\n*   Teak\n*   Axlewood\n*   Tendu\n*   Palas\n*   Bel",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1193
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Vegetation",
+    "subchapter": "Dry Forests",
+    "topic": "Tropical Thorn Forests",
+    "content": "### Tropical Thorn Forests\n\n**Climatic Conditions:**\n*   Occur in areas of low rainfall and high temperature.\n\n**Distribution in India:**\n*   North-Western parts of the country.\n*   Rajasthan.\n*   South-Western Punjab.\n*   Western Haryana.\n*   Kutch.\n\n**Major Tree Species:**\n*   Khair\n*   Neem\n*   Babul\n*   Cacti\n*   Palas",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1193
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Mangroves",
+    "subchapter": "General",
+    "topic": "Mangroves",
+    "content": "# Mangroves\n\n- **Definition**: Mangroves are highly specialized forest ecosystems found in tropical and subtropical regions along sheltered sea‑coasts.\n- **Habitats**: They thrive in estuaries, tidal creeks, backwaters, salt marshes, and mudflats.\n- **Plant Community**: Dominated by salt‑tolerant halophytic plants with diverse structural forms.\n- **Ecological Role**:\n  - Serve as invaluable marine nurseries for a wide variety of fish and other marine fauna.\n  - Support diverse bird, amphibian, arboreal, benthic, and aquatic species.\n- **Root System**: Dense network of aerial roots that aerate the root system and anchor the tree against tidal forces.\n- **Common Species**:\n  - *Sundari* (Avicennia officinalis) – widespread in the Sundarbans.\n  - Screw pines, canes, and palms – common in deltaic regions.\n  - *Nipa* (Nypa fruticans) – often found lining cracks in mangrove forests.\n\n> **Key Takeaway**: Mangroves are critical coastal ecosystems that provide habitat, protect shorelines, and support local livelihoods.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1194
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Mangroves",
+    "subchapter": "Mangroves in India",
+    "topic": "Mangroves in India",
+    "content": "# Mangroves in India\n\n| Region | State/UT |\n|--------|----------|\n| Sunderbans | West Bengal |\n| Godavari and Krishna | Andhra Pradesh |\n| Ratnagiri | Maharashtra |\n| Gulf of Kutch | Gujarat |\n| Condapur | Karnataka |\n| Vembanad | Kerala |\n| Kaveri delta | Tamil Nadu |\n| Mahanadi delta | Odisha |\n| Bhitarkanika | Andaman and Nicobar |\n| Andaman and Nicobar | Andaman and Nicobar |\n\n> **Observation**: India hosts a diverse array of mangrove ecosystems across its extensive coastline, each associated with specific river deltas and coastal regions.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1194
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Resources",
+    "subchapter": "Introduction to Resources",
+    "topic": "Definition and Classification",
+    "content": "### Definition of Resource\n- A resource is a source or supply from which benefit is produced.\n- It is an economic or productive factor required to accomplish an activity or as a means to undertake an enterprise and achieve desired outcomes.\n- Broadly, resources are categorized into two main types (though the text lists Mineral Resources specifically in this section).\n\n### Mineral Resources\n- **Definition**: A mineral is an aggregate of two or more elements.\n- **Characteristics**:\n  - Definite chemical composition.\n  - Definite atomic structure.\n  - Formed by inorganic processes.\n- **Economic Geography Context**: The term 'mineral' refers to any naturally occurring material that is mined and has economic value.\n- **Occurrence**: Minerals generally occur in the Earth’s crust in the form of ore.\n- **Economic Indicator**: The availability and per capita consumption of minerals are important indicators to assess the economic development of a country.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1195
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Resources",
+    "subchapter": "Metallic Mineral Mines",
+    "topic": "Distribution of Metallic Minerals in India",
+    "content": "### Metallic Mineral Mines in India\n\n1. **Iron**\n   - Karnataka: Kemmangundi, Sandur, Hospet\n   - Odisha: Barbil-Koira\n   - Chhattisgarh: Bailadila, Delhi-Rajhara\n   - North Goa\n\n2. **Manganese**\n   - Found in: Karnataka, Odisha, Madhya Pradesh, Maharashtra\n\n3. **Chromite**\n   - Found in: Odisha, Bihar, Karnataka, Maharashtra, Andhra Pradesh\n\n4. **Copper**\n   - Malanjkhand Belt (Balaghat, Madhya Pradesh)\n   - Khetri-Singhana Belt (Jhunjhun, Rajasthan)\n   - Singhbhum (Jharkhand)\n\n5. **Bauxite**\n   - Found in: Odisha, Gujarat, Jharkhand, Maharashtra, Chhattisgarh\n\n6. **Gold**\n   - Karnataka: Kolar, Hutti\n   - Andhra Pradesh: Ramgiri (Anantapur)",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1195
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Resources",
+    "subchapter": "Non-Metallic Mineral Mines",
+    "topic": "Distribution of Non-Metallic Minerals in India",
+    "content": "### Non-Metallic Mineral Mines in India\n\n1. **Limestone**\n   - Found in: Andhra Pradesh, Rajasthan, Madhya Pradesh, Gujarat, Chhattisgarh\n\n2. **Dolomite**\n   - About 90% of India's dolomite is found in: Madhya Pradesh, Chhattisgarh, Odisha, Gujarat, Karnataka, West Bengal\n\n3. **Asbestos**\n   - Found in: Rajasthan, Andhra Pradesh, Karnataka\n\n4. **Gypsum**\n   - Found in: Rajasthan, Jammu & Kashmir\n\n5. **Graphite**\n   - Occurs in: Kalahandi, Bolangir (Odisha) and Bhagalpur (Bihar)",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1195
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Resources",
+    "subchapter": "Energy Resources",
+    "topic": "Overview",
+    "content": "### Energy Resources\n- India is a fast-growing country, leading to continuously growing demand for energy.\n- India has exploited almost all sources of energy, including hydroelectric power (text cuts off here).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1195
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Energy Sources",
+    "subchapter": "Conventional Sources of Energy",
+    "topic": "Definition and Types",
+    "content": "### Conventional Sources of Energy\n- Generally referred to as **non‑renewable** sources.\n- Historically the main contributors to India's energy mix.\n- **Major conventional sources**:\n  - Coal\n  - Petroleum (crude oil & its derivatives)\n  - Natural gas\n  - Cattle‑dung cake (biomass used in rural areas)\n  - Hydel power (hydroelectricity) – often listed with conventional sources because of its early development in India.\n- These sources have been exploited for a long time and are finite in nature.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1196
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Energy Sources",
+    "subchapter": "Thermal Energy",
+    "topic": "Thermal Electricity Overview",
+    "content": "### Thermal Energy in Power Generation\n- **Thermal electricity** is generated by converting the heat released from the combustion of **coal, petroleum, and natural gas** into electrical energy.\n- **Contribution to national grid**:\n  - Approximately **65 % of total electricity** produced in India is thermal in character.\n- **Strategic importance**:\n  - Provides power in regions where **hydro‑electric potential is limited** due to unfavorable geography.\n  - Accounts for **more than half of the installed capacity in 14 Indian states**.\n- **Key advantage**: Ability to locate plants close to load centres, reducing transmission losses.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1196
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Energy Sources",
+    "subchapter": "Ultra Mega Power Plants (UMPPs)",
+    "topic": "UMPP Initiative",
+    "content": "### Ultra Mega Power Plants (UMPPs)\n- **Government initiative** to rapidly augment India's power generation capacity.\n- **Target capacity per plant**: **4,000 MW** (≈ 4 GW).\n- **Objectives**:\n  1. Supply electricity at a **responsible (affordable) rate** to consumers.\n  2. Ensure **fast‑track capacity addition** through **tariff‑based international competitive bidding**.\n- **Impact**: Designed to bridge the supply‑demand gap and reduce dependence on smaller, less efficient plants.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1196
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Energy Sources",
+    "subchapter": "Hydel Electricity",
+    "topic": "Historical Development",
+    "content": "### Hydroelectric Power in India\n- Plays a **significant role** in addressing the country's energy crisis.\n- **Early milestones**:\n  - **1897** – First electricity supply in **Darjeeling** (marking the humble start of hydro‑electricity in India).\n  - **1902** – Commissioning of the **Sivasamudram Hydropower Station** in Karnataka.\n- Since these early projects, hydro‑electricity has grown to become a major component of the renewable energy mix.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1196
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Transport",
+    "subchapter": "Railways",
+    "topic": "Overview and Statistics",
+    "content": "- **Definition**: Transport is a mean for movement of people, animals, and goods from one location to another.\n- **Importance**: Enables trade between different regions, essential for societal development.\n- **Global Ranking**: India has the second largest railway network in Asia and the third largest in the world (after USA and China).\n- **Management**: It is the largest public sector undertaking of the country and the world’s second largest railway network under single management.\n- **Zones**: India has 16 railway zones.\n- **Electrification**: Indian railways has the second biggest electrified system in the world after Russia.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1198
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Transport",
+    "subchapter": "Railways",
+    "topic": "Gauges",
+    "content": "Indian railways operate in three different gauges:\n1. **Broad Gauges**: 1.676 m (55,000 km routes)\n2. **Meter Gauges**: 1.000 m (6,809 km routes)\n3. **Narrow Gauges**: 0.761 m and 0.610 m (2,463 km routes)",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1198
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Transport",
+    "subchapter": "Railways",
+    "topic": "Historical Milestones",
+    "content": "- **First Railway Line**: Operated for public traffic in 1853 between Mumbai and Thane (34 km distance).\n- **Second Train**: Ran between Howrah and Hooghly in 1854.\n- **First Electric Train**: 'Deccan Queen', introduced in 1929 between Bombay and Poona.\n- **First Metro Rail**: Introduced in Kolkata on 24th October, 1984, connecting Dumdum and Belgachia.\n- **Oldest Steam Engine**: 'Fairy Queen' still runs on rail.\n- **Electrification Start**: Introduced in early 1920s. First sections electrified were Victoria Terminus to Kurla and Victoria Terminus to Bandra.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1198
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Transport",
+    "subchapter": "Railways",
+    "topic": "Key Facts and Records",
+    "content": "- **Headquarters**: New Delhi.\n- **Fastest Train**: Agra-Delhi Gatimaan Express (Maximum speed: 160 km/hr).\n- **Largest Network State**: Uttar Pradesh.\n- **Busiest Junction**: Howrah Junction.\n- **Metro Operations**: Besides Kolkata, metro rail is in operation in Chennai, Delhi, Bengaluru, Gurgaon, and Mumbai.\n- **Safety Committee**: Anil Kakadhar Committee was constituted for Rail Safety in 2011.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1198
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "National Highways",
+    "subchapter": "Highway Numbers and Routes",
+    "topic": "List of Major National Highways (NH)",
+    "content": "### Major National Highways (NH) and Their Routes\n\n| NH No. | Route (Key Cities) |\n|--------|--------------------|\n| **NH 1** | New Delhi – Ambala – Jalandhar – Amritsar |\n| **NH 2** | Delhi – Mathura – Agra – Kanpur – Allahabad – Varanasi – Kolkata |\n| **NH 3** | Agra – Gwalior – Nashik – Mumbai |\n| **NH 4** | Thane – Pune – Belgaum – Chennai |\n| **NH 5** | Kolkata – Chennai |\n| **NH 6** | Kolkata – Dhule |\n| **NH 7** | Varansi – Kanyakumari |\n| **NH 8** | Delhi – Jaipur – Baroda – Ahmedabad – Mumbai |\n| **NH 9** | Mumbai – Vijayawada |\n| **NH 10** | Delhi – Fazilka |\n| **NH 11** | Jaipur – Bikaner |\n| **NH 12** | Jabalpur – Jaipur |\n| **NH 24** | Delhi – Lucknow |\n| **NH 27** | Allahabad – Varanasi |\n| **NH 28** | Barauni – Lucknow |\n| **NH 29** | Gorakhpur – Varanasi |\n| **NH 44** | Srinagar – Kanyakumari (Longest NH) |\n| **NH 47A** | Kundanoor – Willington Island (Kochi) – Shortest NH |\n| **NH 76** | Part of Delhi‑Mumbai corridor (Golden Quadrilateral) |\n| **NH 79** | Part of Delhi‑Mumbai corridor (Golden Quadrilateral) |\n| **NH 60** | Part of Chennai‑Kolkata corridor (Golden Quadrilateral) |\n\n*The above list captures the most frequently cited highways in Indian General Knowledge exams.*",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1199
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "National Highways",
+    "subchapter": "Important Facts",
+    "topic": "Key Highlights of Selected National Highways",
+    "content": "### Important Facts about Selected NHs\n\n- **NH 5** and **NH 17** run along the **Eastern** and **Western** coasts of India respectively.\n- **NH 15** is known as the **border road** in the Rajasthan desert.\n- **NH 47A** holds the record for being the **shortest** highway in the Indian network.\n- **NH 44** is the **longest** highway in India, covering **3,745 km**, linking **Srinagar** (Jammu & Kashmir) to **Kanyakumari** (Tamil Nadu).\n- The **maximum length of highway** lies within the state of **Uttar Pradesh**.\n\nThese facts are frequently asked in **NDA, CDS, AFCAT** and other defence‑related examinations.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1199
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "National Highway Development Programme (NHDP)",
+    "subchapter": "Projects",
+    "topic": "Golden Quadrilateral, North‑South & East‑West Corridors",
+    "content": "### National Highway Development Programme (NHDP)\n\nThe NHDP comprises three flagship projects:\n\n1. **Golden Quadrilateral (GQ)** – Connects the four metros of **Delhi, Kolkata, Mumbai, Chennai**.\n   - **Delhi‑Kolkata**: Utilises **NH 2**.\n   - **Delhi‑Mumbai**: Utilises **NH 8, NH 76, NH 79**.\n   - **Mumbai‑Chennai**: Utilises **NH 4, NH 7, NH 46**.\n   - **Chennai‑Kolkata**: Utilises **NH 5, NH 6, NH 60**.\n\n2. **North‑South Corridor** – Links **Srinagar** (J&K) to **Kanyakumari** (TN).\n3. **East‑West Corridor** – Links **Porbandar** (Gujarat) to **Silchar** (Assam).\n\n- The **North‑South** and **East‑West** corridors intersect at **Jhansi, Uttar Pradesh**.\n- **Uttar Pradesh** hosts the **maximum length** of national highways in the country.\n\nThese corridors are crucial for strategic mobility, economic development, and defence logistics.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1199
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian Ports",
+    "subchapter": "Eastern Coast Ports",
+    "topic": "Key Eastern Ports and Characteristics",
+    "content": "- **Kolkata**: Oldest port in India; India's riverine port; has two dock systems.\n- **Paradip**: Handles iron ore, coal, and dry cargo.\n- **Chennai**: All-weather port; features deep-drafted berths, oil jetties, and iron ore terminals.\n- **Visakhapatnam**: Seaport known for outstanding performance; serves Bhilai and Rourkela steel plants; largest natural port in India.\n- **Tuticorin**: Artificial deep-sea harbour; all-weather port; offers direct weekly container service to the USA.\n- **Ennore**: First corporatised major port in India.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1200
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian Ports",
+    "subchapter": "Western Coast Ports",
+    "topic": "Key Western Ports and Characteristics",
+    "content": "- **Mumbai**: Handles maximum traffic; natural harbour; mostly handles petroleum and dry cargo; busiest port in India.\n- **Kandla**: Tidal port; handles crude oil, petroleum, edible oil, and foodgrains; located in Gujarat; made into a free trade zone.\n- **Marmagao**: Handles iron ore; has a naval base.\n- **New Mangaluru**: All-weather port; also called the 'Gateway of Karnataka'.\n- **Cochin**: Major natural port located in Willingdon Island.\n- **Jawaharlal Nehru Port (Nhava Sheva)**: Largest port in India; located in Mumbai.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1200
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian Ports",
+    "subchapter": "General Port Facts",
+    "topic": "Superlatives and Key Port Facts",
+    "content": "- **Largest Port**: Jawaharlal Nehru Port (Nhava Sheva) in Mumbai.\n- **Largest Natural Port**: Visakhapatnam.\n- **Busiest Port**: Mumbai Port.\n- **Largest Private Port**: Mundra Port.\n- **Tidal Port**: Kandla (Gujarat).",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1200
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Demography",
+    "subchapter": "Population Geography",
+    "topic": "Basic Concepts and Factors",
+    "content": "- **Population Geography**: Closely related to demography; studies demographic processes and their consequences in an environmental context.\n- **Population Density**: Number of persons living in a particular area; indicates population pressure on land resources.\n- **Factors Affecting Distribution/Density**:\n  1. Physical factors: Landforms, vegetation, soils, water supply.\n  2. Climatic factors: Temperature, rainfall.\n  3. Availability of natural resources.\n  4. Means of transport and communication.\n- **Population Growth**: Refers to the change in population over time.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1200
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Demographics",
+    "subchapter": "Sex Ratio",
+    "topic": "Top Five Sex Ratio States/UTs (2011 Census)",
+    "content": "### Top Five Sex Ratio States/UTs (2011 Census)\n\n| Rank | State/UT | Sex Ratio (females per 1000 males) |\n|------|----------|-------------------------------------|\n| 1 | Kerala | **1084** |\n| 2 | Puducherry | **1037** |\n| 3 | Tamil Nadu | **996** |\n| 4 | Andhra Pradesh | **993** |\n| 5 | Chhattisgarh | **991** |\n\n> **Key Takeaway:** Kerala leads the country with a sex ratio of 1084, indicating a higher number of females per 1000 males compared to other states and union territories.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1201
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Demographics",
+    "subchapter": "Literacy",
+    "topic": "Top Five Literacy Rate States/UTs (2011 Census)",
+    "content": "### Top Five Literacy Rate States/UTs (2011 Census)\n\n| Rank | State/UT | Literacy Rate |\n|------|----------|----------------|\n| 1 | Kerala | **94 %** |\n| 2 | Lakshadweep | **91.85 %** |\n| 3 | Mizoram | **91.33 %** |\n| 4 | Goa | **88.70 %** |\n| 5 | Tripura | **87.10 %** |\n\n> **National Context:** The overall literacy rate in India is **74.04 %**. Rural literacy stands at **68.9 %** while urban literacy is **84.9 %**. Kerala has the highest literacy rate among all states.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1201
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Environmental Pollution",
+    "subchapter": "Pollution",
+    "topic": "Definition of Pollution",
+    "content": "**Pollution** is the effect of undesirable changes in our surroundings that have harmful effects on plants, animals, and human beings. It can occur in air, water, soil, and noise, impacting ecosystems and public health.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1201
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Environmental Issues",
+    "subchapter": "Climate Change",
+    "topic": "Global Warming",
+    "content": "### Global Warming\n- **Definition**: Global warming is the increase of Earth’s average surface temperature due to the effect of greenhouse gases.\n- **Primary Causes**:\n  - Carbon dioxide emissions from burning fossil fuels.\n  - Deforestation, which reduces the planet’s capacity to absorb CO₂.\n- **Mechanism**: Greenhouse gases trap infrared radiation, leading to a rise in temperature – a phenomenon known as the **greenhouse effect**.\n- **Impacts**: Sea‑level rise, extreme weather events, melting glaciers, and disruption of ecosystems.\n- **Key Formula** (simplified energy balance):\n  \\[ \\Delta T = \\frac{F}{4\\sigma}\\] where \\(F\\) is the radiative forcing and \\(\\sigma\\) is the Stefan‑Boltzmann constant.\n",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1202
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Environmental Issues",
+    "subchapter": "Atmospheric Chemistry",
+    "topic": "Ozone Layer Depletion",
+    "content": "### Ozone Layer Depletion\n- **Location**: Stratosphere, about 24 km above Earth’s surface.\n- **Composition**: Ozone (O₃) molecules formed when sunlight reacts with molecular oxygen (O₂).\n- **Importance**: Filters the Sun’s harmful ultraviolet (UV‑B and UV‑C) radiation, protecting living organisms.\n- **Threats**:\n  - Chlorofluorocarbons (CFCs) and other halogenated compounds released from industrial processes and aerosol propellants.\n  - These chemicals catalyze the breakdown of ozone molecules, thinning the protective layer.\n- **Consequences**:\n  - Increased incidence of skin cancer, cataracts, and other health problems.\n  - Damage to agricultural crops and aquatic ecosystems.\n- **Mitigation**: International agreements such as the Montreal Protocol (1987) aim to phase out CFC production.\n",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1202
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Biodiversity Conservation",
+    "subchapter": "Protected Areas",
+    "topic": "National Parks and Wildlife Sanctuaries – Overview",
+    "content": "### National Parks and Wildlife Sanctuaries – Overview\n- **Total Protected Areas in India**: 700\n  - **National Parks**: 103\n  - **Wildlife Sanctuaries**: 528\n  - **Conservation Reserves**: 65\n  - **Community Reserves**: 4\n- **States with Maximum National Parks**:\n  - Madhya Pradesh – 9\n  - Andaman & Nicobar Islands – 9\n- **States with Maximum Wildlife Sanctuaries**:\n  - Andaman & Nicobar Islands – 96 (highest in India)\n  - Maharashtra – 41\n- **Purpose**: Preserve biodiversity, protect endangered species, maintain ecological balance, and promote eco‑tourism.\n",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1202
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Biodiversity Conservation",
+    "subchapter": "Protected Areas",
+    "topic": "Important Sanctuaries and National Parks – Selected List",
+    "content": "### Selected Sanctuaries & National Parks\n| Name | Location | Reserve For |\n|------|----------|--------------|\n| **Achanakmar Sanctuary** | Chhattisgarh | Tiger, boar, cheetal, sambhar, bison |\n| **Bandhavgarh National Park** | Madhya Pradesh | Tiger, panther, cheetal, nilgai, wild boar |\n| **Bandipur Sanctuary** | Karnataka & Tamil Nadu | Elephant, tiger, panther, sambhar, deer, birds |\n| **Bannerghatta National Park** | Karnataka | Elephant, cheetal, deer, grey partridge, green pigeon |\n| **Bhadra Sanctuary** | Karnataka | Elephant, cheetal, panther, sambhar, wild boar |\n| **Chandraprabha Sanctuary** | Uttar Pradesh | Blackbuck, nilgai, cheetal, sambhar |\n| **Corbett National Park** | Uttarakhand | Tiger, leopard, elephant, sambhar (named after Jim Corbett) |\n| **Dachigam Sanctuary** | Jammu & Kashmir | Kashmiri stag |\n| **Dandeli Sanctuary** | Karnataka | Tiger, panther, elephant, cheetal, sambhar, wild boar |\n\n**Key Takeaway**: These protected areas host a variety of flagship species (tigers, elephants, cheetals, etc.) and are critical for conserving India’s rich wildlife heritage.\n",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1202
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Biosphere Reserves of India",
+    "subchapter": "List of Biosphere Reserves",
+    "topic": "Details of Indian Biosphere Reserves",
+    "content": "### Biosphere Reserves of India\n\n| Name | States | Type | Area (km²) | UNESCO Status |\n| :--- | :--- | :--- | :--- | :--- |\n| Great Rann of Kutch | Gujarat | Desert | 12454 | No |\n| Gulf of Mannar | Tamil Nadu | Coasts | 10500 | Yes |\n| Sunderbans | West Bengal | Gangetic Delta | 9630 | Yes |\n| Cold Desert | Himachal Pradesh | Western Himalayas | 7770 | No |\n| Nanda Devi | Uttarakhand | West Himalayas | 5860 | Yes |\n| Nilgiri | Tamil Nadu, Kerala, Karnataka | Western Ghats | 5520 | Yes |\n| Dihang-Dibang | Arunachal Pradesh | East Himalayas | 5112 | No |\n| Pachmarhi | Madhya Pradesh | Semi-Arid | 4926 | Yes |\n| Panna | Madhya Pradesh | Cultivated area of Ken river | 2998 | No |\n| Seshachalam Hills | Andhra Pradesh | Eastern Ghats | 4755.997 | No |\n| Simlipal | Odisha | Deccan Peninsula | 4374 | Yes |\n| Achanakamar-Amarkantak | Madhya Pradesh, Chhattisgarh | Maikala Range | 3835 | Yes |\n| Manas | Assam | East Himalayas | 2837 | No |\n| Kangchenjunga | Sikkim | East Himalayas | 2620 | No |\n| Agasthyamalai | Kerala, Tamil Nadu | Western Ghats | 1828 | Yes |\n| Great Nicobar | Andaman and Nicobar Islands | Islands | 885 | Yes |\n| Dibru-Saikhowa | Assam | East Himalayas | 765 | No |\n| Nokrek | Meghalaya | East Himalayas | 47.48 | Yes |\n\n**Key Facts:**\n- **Largest Biosphere Reserve:** Great Rann of Kutch (12,454 km²).\n- **Smallest Biosphere Reserve:** Nokrek (47.48 km²).\n- **UNESCO Biosphere Reserves:** Gulf of Mannar, Sunderbans, Nanda Devi, Nilgiri, Pachmarhi, Simlipal, Achanakamar-Amarkantak, Agasthyamalai, Great Nicobar, Nokrek.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1203
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Biosphere Reserves of India",
+    "subchapter": "Protected Areas",
+    "topic": "Difference between National Park, Sanctuary, and Biosphere Reserve",
+    "content": "### Comparison of Protected Areas\n\n| Feature | National Park | Sanctuary | Biosphere Reserve |\n| :--- | :--- | :--- | :--- |\n| **Primary Purpose** | Preservation of natural vegetation, wildlife, and natural beauty. | Preservation of endangered species. | Multi-purpose protected area to preserve genetic diversity in representative ecosystems. |\n| **Boundaries** | Fixed by legislation. | Not sacrosanct (can be modified). | Fixed by legislation. |\n\n**Key Distinctions:**\n- **National Parks** focus on the overall ecosystem and natural beauty, with strict legal boundaries.\n- **Sanctuaries** are primarily for the protection of specific endangered species, and their boundaries are more flexible.\n- **Biosphere Reserves** are multi-purpose zones aimed at preserving genetic diversity and often include core, buffer, and transition zones.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1203
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Vegetation and Forests",
+    "topic": "State-wise Tree Distribution",
+    "content": "- **Assam**: Known for **Bamboo**.\n- **Himachal Pradesh**: Known for **Deodar**.\n- **Karnataka**: Known for **Sandalwood**.\n- **Kerala**: Known for **Rosewood**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1205
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Soils of India",
+    "topic": "Region-wise Soil Distribution",
+    "content": "- **Malwa Plateau**: Predominantly **Red** soil.\n- **Dharwar Plateau**: Predominantly **Regur** (Black) soil.\n- **Punjab Plains**: Predominantly **Alluvial** soil.\n- **Western Ghats**: Predominantly **Laterite** soil.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1205
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Demography",
+    "subchapter": "Population Characteristics",
+    "topic": "State-wise Demographic Features",
+    "content": "- **Kerala**: Has a **Reverse sex-ratio** (more females than males).\n- **Maharashtra**: Has the **Highest percentage of urban population**.\n- **Uttar Pradesh**: Has the **Largest population size**.\n- **West Bengal**: Has the **Highest population density**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1205
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Climatic Regions",
+    "topic": "Cold Desert Location",
+    "content": "- The **Cold Desert** of India (Ladakh) is located **To the North-East of the Karakoram range**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1205
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Geology and Minerals",
+    "topic": "Soil Genesis and Geological Features",
+    "content": "- **Black Soil**: Its genesis in India is related to the **Deccan Trap** (volcanic origin).\n- **Dhoopgarh**: It is the **highest peak of the Indian Peninsula** (Satpura Range).\n- **Kudremukh**: This peak is associated with rich **iron-ore reserves**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1205
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography of India",
+    "subchapter": "Himalayas and Climate",
+    "topic": "Impact of Himalayas on Indian Geography",
+    "content": "- If the Himalayan ranges did not exist:\n  1. Much of the country would experience **cold waves from Siberia**.\n  2. The **Indo-Gangetic plain** would be devoid of extensive **Alluvial soils** (as the Himalayas trap sediments).\n  3. The **pattern of monsoon** would be significantly different from the present.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1205
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Rivers",
+    "subchapter": "Hydro‑Power Projects",
+    "topic": "Dul Hasti Power Station",
+    "content": "### Dul Hasti Power Station\n- **Location:** Kinnaur district, Himachal Pradesh, India.\n- **River:** Built on the **Sutlej River**, a major tributary of the Indus.\n- **Capacity:** 390 MW (3 × 130 MW) run‑of‑the‑river project.\n- **Significance:** One of the first hydro‑electric projects in the upper Sutlej basin; contributes to the northern grid and aids in flood control.\n- **Key Fact for Exams:** When asked *\"The Dul Hasti Power Station is based on which river?\"* the answer is **Sutlej**.",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1206
   }
 ]
