@@ -614273,5 +614273,299 @@
     "topic": "Planetary Facts",
     "source_pdf": "nda_material.pdf",
     "source_page": 1145
+  },
+  {
+    "question_text": "Which meridian has been accepted by the Indian Government for Standard Time?",
+    "options": {
+      "A": "80° East",
+      "B": "82.5° East",
+      "C": "85° East",
+      "D": "87.5° East"
+    },
+    "correct_answer": "B",
+    "explanation": "The Indian Government has accepted the meridian of 82.5° East for standard time, which is 5 hours 30 minutes ahead of GMT.",
+    "subject": "General Studies",
+    "chapter": "Geography",
+    "topic": "Universal Time and Time Zones",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1148
+  },
+  {
+    "question_text": "How many longitudinal zones is the Earth divided into?",
+    "options": {
+      "A": "12",
+      "B": "24",
+      "C": "36",
+      "D": "48"
+    },
+    "correct_answer": "B",
+    "explanation": "The Earth is divided into 24 longitudinal zones, each being 15° apart in longitude.",
+    "subject": "General Studies",
+    "chapter": "Geography",
+    "topic": "Universal Time and Time Zones",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1148
+  },
+  {
+    "question_text": "What is the time difference for every 1° of longitude?",
+    "options": {
+      "A": "2 minutes",
+      "B": "4 minutes",
+      "C": "6 minutes",
+      "D": "15 minutes"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1148
+  },
+  {
+    "question_text": "What is the density of the Earth's core?",
+    "options": {
+      "A": "5.53 gm/cm³",
+      "B": "17.2 gm/cm³",
+      "C": "10.5 gm/cm³",
+      "D": "3.2 gm/cm³"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, the density of this part of the Earth (the core) is 17.2 gm/cm³, which is many times greater than the average density of the Earth (5.53 gm/cm³).",
+    "subject": "Geography",
+    "chapter": "Earth's Interior",
+    "topic": "Earth's Density",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1149
+  },
+  {
+    "question_text": "Which discontinuity separates the crust and the mantle?",
+    "options": {
+      "A": "Conrad Discontinuity",
+      "B": "Gutenberg Discontinuity",
+      "C": "Mohorovicic Discontinuity",
+      "D": "Lehman Discontinuity"
+    },
+    "correct_answer": "C",
+    "explanation": "The Mohorovicic discontinuity (also known as the Moho) separates the crust and the mantle.",
+    "subject": "Geography",
+    "chapter": "Earth's Interior",
+    "topic": "Discontinuities",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1149
+  },
+  {
+    "question_text": "The Conrad discontinuity lies between which two layers of the Earth?",
+    "options": {
+      "A": "Upper mantle and lower mantle",
+      "B": "Upper crust and lower crust",
+      "C": "Crust and mantle",
+      "D": "Upper core and lower core"
+    },
+    "correct_answer": "B",
+    "explanation": "The Conrad discontinuity is the transition zone that lies between the upper crust and the lower crust.",
+    "subject": "Geography",
+    "chapter": "Earth's Interior",
+    "topic": "Discontinuities",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1149
+  },
+  {
+    "question_text": "Which element constitutes the largest percentage of the Earth's composition?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Silicon",
+      "C": "Iron",
+      "D": "Magnesium"
+    },
+    "correct_answer": "C",
+    "explanation": "Iron constitutes 32.1% of the Earth's composition, making it the most abundant element listed, followed by Oxygen (30.1%).",
+    "subject": "Geography",
+    "chapter": "Earth's Interior",
+    "topic": "Composition of the Earth",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1149
+  },
+  {
+    "question_text": "Which of the following is an example of an Intrusive Igneous Rock?",
+    "options": {
+      "A": "Basalt",
+      "B": "Andesite",
+      "C": "Granite",
+      "D": "Obsidian"
+    },
+    "correct_answer": "C",
+    "explanation": "Intrusive rocks form from magma solidifying below the Earth's surface. Granite is explicitly listed as an example of an intrusive rock in the text. Basalt and Andesite are extrusive.",
+    "subject": "Geography",
+    "chapter": "Rocks and Minerals",
+    "topic": "Classification of Igneous Rocks",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1150
+  },
+  {
+    "question_text": "Rocks with a higher silica content are classified as:",
+    "options": {
+      "A": "Basic",
+      "B": "Acidic",
+      "C": "Neutral",
+      "D": "Ultrabasic"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, rocks with more silica content are classified as Acidic (e.g., Granite), while those with less silica are Basic (e.g., Gabbro).",
+    "subject": "Geography",
+    "chapter": "Rocks and Minerals",
+    "topic": "Classification of Igneous Rocks",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1150
+  },
+  {
+    "question_text": "Which of the following is NOT an agent of metamorphism?",
+    "options": {
+      "A": "Heat",
+      "B": "Compression pressure",
+      "C": "Solution",
+      "D": "Erosion"
+    },
+    "correct_answer": "D",
+    "explanation": "The text states that the agents of metamorphism are heat, compression pressure, and solution. Erosion is a process of weathering/transport, not metamorphism.",
+    "subject": "Geography",
+    "chapter": "Rocks and Minerals",
+    "topic": "Metamorphic Rocks",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1150
+  },
+  {
+    "question_text": "What is the metamorphic rock formed from Limestone?",
+    "options": {
+      "A": "Quartzite",
+      "B": "Slate",
+      "C": "Marble",
+      "D": "Gneiss"
+    },
+    "correct_answer": "C",
+    "explanation": "The text provides a table of transformations where Limestone is listed as the original rock and Marble as the resulting metamorphic rock.",
+    "subject": "Geography",
+    "chapter": "Rocks and Minerals",
+    "topic": "Metamorphic Rocks",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1150
+  },
+  {
+    "question_text": "Which of the following is a landform created by Fluvial Erosion?",
+    "options": {
+      "A": "Alluvial Fan",
+      "B": "V-Shaped Valley",
+      "C": "Sand Dune",
+      "D": "Drumlin"
+    },
+    "correct_answer": "B",
+    "explanation": "V-Shaped Valleys are formed by the erosional action of rivers (fluvial erosion). Alluvial Fans are depositional, Sand Dunes are aeolian, and Drumlins are glacial.",
+    "subject": "Geography",
+    "chapter": "Agents of Erosion and Various Landforms",
+    "topic": "Fluvial Action",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1153
+  },
+  {
+    "question_text": "Yardangs and Zeugen are landforms associated with which agent of erosion?",
+    "options": {
+      "A": "Glacial Action",
+      "B": "Fluvial Action",
+      "C": "Aeolian Action",
+      "D": "Marine Action"
+    },
+    "correct_answer": "C",
+    "explanation": "Yardangs and Zeugen are wind-eroded landforms, hence they are associated with Aeolian Action.",
+    "subject": "Geography",
+    "chapter": "Agents of Erosion and Various Landforms",
+    "topic": "Aeolian Action",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1153
+  },
+  {
+    "question_text": "Which of the following is a depositional landform of Glacial Action?",
+    "options": {
+      "A": "Cirque",
+      "B": "Fiord",
+      "C": "Esker",
+      "D": "Horn"
+    },
+    "correct_answer": "C",
+    "explanation": "Eskers are ridges of stratified drift deposited by glacial meltwater. Cirque, Fiord, and Horn are erosional landforms.",
+    "subject": "Geography",
+    "chapter": "Agents of Erosion and Various Landforms",
+    "topic": "Glacial Action",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1153
+  },
+  {
+    "question_text": "Which layer of the Earth's atmosphere contains most of the water vapour and where all weather phenomena occur?",
+    "options": {
+      "A": "Troposphere",
+      "B": "Stratosphere",
+      "C": "Mesosphere",
+      "D": "Thermosphere"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1154
+  },
+  {
+    "question_text": "The Equatorial Low Pressure Belt is also known as:",
+    "options": {
+      "A": "Horse Latitude",
+      "B": "Belt of Calm or Doldrums",
+      "C": "Sub-Polar Low",
+      "D": "Polar High"
+    },
+    "correct_answer": "B",
+    "explanation": "The Equatorial Low Pressure Belt is characterized by light, feeble winds and frequent calm conditions due to the convergence of trade winds, hence it is called the Belt of Calm or Doldrums.",
+    "subject": "Geography",
+    "chapter": "Atmosphere",
+    "topic": "Equatorial Low Pressure Belt",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1155
+  },
+  {
+    "question_text": "Which pressure belt is dynamically induced due to the rotation of the Earth and the sinking of winds?",
+    "options": {
+      "A": "Equatorial Low Pressure Belt",
+      "B": "Sub-Tropical High Pressure Belt",
+      "C": "Polar High Pressure Belt",
+      "D": "Equatorial High Pressure Belt"
+    },
+    "correct_answer": "B",
+    "explanation": "The Sub-Tropical High Pressure Belt (30°-35°) is dynamically induced. It is caused by the convergence of winds at higher altitudes leading to subsidence (sinking) of air, which concentrates volume and creates high pressure.",
+    "subject": "Geography",
+    "chapter": "Atmosphere",
+    "topic": "Sub-Tropical High Pressure Belt",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1155
+  },
+  {
+    "question_text": "The Sub-Polar Low Pressure Belt is more developed and regular in the Southern Hemisphere because of:",
+    "options": {
+      "A": "Higher temperatures",
+      "B": "Over-dominance of water (ocean)",
+      "C": "Stronger trade winds",
+      "D": "Proximity to the equator"
+    },
+    "correct_answer": "B",
+    "explanation": "The Sub-Polar Low Pressure Belt is more regular in the Southern Hemisphere due to the over-dominance of water (ocean) compared to the Northern Hemisphere, which has more landmasses causing irregularities.",
+    "subject": "Geography",
+    "chapter": "Atmosphere",
+    "topic": "Sub-Polar Low Pressure Belt",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1155
+  },
+  {
+    "question_text": "What is the primary cause of the Equatorial Low Pressure Belt?",
+    "options": {
+      "A": "Dynamic subsidence of air",
+      "B": "Thermal heating by vertical Sun rays",
+      "C": "Rotation of the Earth",
+      "D": "Convergence of polar easterlies"
+    },
+    "correct_answer": "B",
+    "explanation": "The Equatorial Low Pressure Belt is thermally induced because of the intense heating of the ground surface by the almost vertical Sun rays, causing air to rise and create low pressure.",
+    "subject": "Geography",
+    "chapter": "Atmosphere",
+    "topic": "Equatorial Low Pressure Belt",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1155
   }
 ]

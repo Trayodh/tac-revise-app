@@ -4046,7 +4046,15 @@
       1144,
       1145,
       1146,
-      1147
+      1147,
+      1148,
+      1149,
+      1150,
+      1151,
+      1152,
+      1153,
+      1154,
+      1155
     ],
     "status": "in_progress"
   },
@@ -4086,7 +4094,18 @@
       1,
       2,
       3,
-      4
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
     ],
     "status": "in_progress"
   },
@@ -4095,7 +4114,23 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
     ],
     "status": "in_progress"
   },
@@ -4374,18 +4409,25 @@
   },
   "NDA Papers\\QP-NDA-I-22-MATHEMATICS-120422.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1,
+      2
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-NDA-I-23-MATHEMATICS-170423.pdf": {
     "total_pages": 48,
-    "extracted_pages": [],
+    "extracted_pages": [
+      1,
+      2
+    ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-NDA-II-MATHEMATICS-050922.pdf": {
     "total_pages": 48,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -4415,21 +4457,26 @@
   "NDA Papers\\QP-NDA-NA-II-24-MATHEMATICS-020924.pdf": {
     "total_pages": 48,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-NDANA-II-2023-Maths-04092023.pdf": {
     "total_pages": 44,
     "extracted_pages": [
-      1
+      1,
+      2,
+      3,
+      4
     ],
     "status": "in_progress"
   },
   "NDA Papers\\QP-NDANA-II-25-MATHEMATICS-150925.pdf": {
     "total_pages": 48,
     "extracted_pages": [
-      1
+      1,
+      2
     ],
     "status": "in_progress"
   },
@@ -4469,7 +4516,8 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "status": "in_progress"
   },
@@ -4487,7 +4535,19 @@
       1,
       2,
       3,
-      4
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
     ],
     "status": "in_progress"
   },
@@ -4507,7 +4567,21 @@
       1,
       2,
       3,
-      4
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
     ],
     "status": "in_progress"
   },

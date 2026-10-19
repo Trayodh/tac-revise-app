@@ -10,6 +10,7 @@ if hasattr(sys.stderr, 'reconfigure'):
 
 from extractor_core import extract_page
 import generate_frontend_notes
+import alias_duplicate_pdfs
 
 STATE_FILE = "pipeline_state.json"
 NOTES_DB = "notes_database.json"
@@ -69,21 +70,19 @@ def get_book_priority(pdf_name):
     if 'pathfinder' in lower:
         return (1, 50)
         
-    # TIER 2: MASTER REVISION BOOKS (NDA & CDS)
+    # TIER 2: MASTER REVISION & HIGH-YIELD CAPSULES (User Prioritized)
     if 'nda_material.pdf' in lower:
         return (2, 10)
-    if 'cds_material.pdf' in lower:
-        return (2, 20)
-        
-    # TIER 3: HIGH-YIELD CLASS NOTES & CAPSULES (Nearly complete)
     if 'physics class notes' in lower:
-        return (3, 10)
+        return (2, 20)
     if 'physical geography class notes' in lower:
-        return (3, 20)
+        return (2, 30)
     if any(f'doc{i}.pdf' in lower for i in range(1, 10)):
-        return (3, 30)
+        return (2, 40)
     if 'capsule' in lower or 'class notes' in lower:
-        return (3, 40)
+        return (2, 50)
+    if 'cds_material.pdf' in lower:
+        return (2, 60)
         
     # TIER 4: DEFENCE & SPECIALS
     if 'defence_pdf.pdf' in lower:
@@ -192,6 +191,10 @@ def run_pipeline():
             if len(state[pdf_name]['extracted_pages']) >= state[pdf_name]['total_pages']:
                 state[pdf_name]['status'] = 'completed'
                 print(f"\n*** [BOOK COMPLETED] 100% finished extracting {pdf_name}! ***")
+                try:
+                    alias_duplicate_pdfs.sync_duplicate_aliases()
+                except Exception as alias_err:
+                    print(f"[ALIAS SYNC ERROR] {alias_err}")
                 
             save_state(state)
             print(f"Successfully processed {pdf_name} page {page_num}. Added {len(notes)} notes and {len(questions)} questions.")
