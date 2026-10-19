@@ -142,9 +142,28 @@ def robust_json_loads(raw_text):
         
     import ast
     try:
-        parsed = ast.literal_eval(clean)
+        import re
+        clean_py = re.sub(r'\bnull\b', 'None', clean)
+        clean_py = re.sub(r'\btrue\b', 'True', clean_py)
+        clean_py = re.sub(r'\bfalse\b', 'False', clean_py)
+        parsed = ast.literal_eval(clean_py)
         if isinstance(parsed, (dict, list)):
             return parsed
+    except Exception:
+        pass
+        
+    import re
+    # Fix single-quoted keys: {'key': ...} -> {"key": ...}
+    try:
+        clean_dq = re.sub(r"([{,]\s*)'([^']+)'(\s*:)", r'\1"\2"\3', clean)
+        return json.loads(clean_dq, strict=False)
+    except Exception:
+        pass
+
+    # Fix unquoted keys: {key: ...} -> {"key": ...}
+    try:
+        clean_uq = re.sub(r'([{,]\s*)([a-zA-Z_][a-zA-Z0-9_]*)(\s*:)', r'\1"\2"\3', clean)
+        return json.loads(clean_uq, strict=False)
     except Exception:
         pass
         
