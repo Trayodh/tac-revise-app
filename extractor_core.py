@@ -1,10 +1,16 @@
 import os
+import sys
 import json
 import base64
 import time
 import requests
 import fitz  # PyMuPDF
 from dotenv import load_dotenv
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
 load_dotenv()
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
