@@ -95023,5 +95023,536 @@
     },
     "source_pdf": "nda_material.pdf",
     "source_page": 419
+  },
+  {
+    "id": "math-coord-geom-194-01",
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Straight Lines and Triangles",
+    "text": "<p><strong>Perpendicular distance from point (sqrt(a^2 - b^2), 0) is d1:</strong></p><p>d1 = |(b cos alpha * sqrt(a^2 - b^2) + 0 - ab) / sqrt(b^2 cos^2 alpha + a^2 sin^2 alpha)|</p><p><strong>Similarly, perpendicular distance from point (-sqrt(a^2 - b^2), 0) is d2:</strong></p><p>d2 = |(-b cos alpha * sqrt(a^2 - b^2) + 0 - ab) / sqrt(b^2 cos^2 alpha + a^2 sin^2 alpha)|</p><p><strong>Product d1 * d2:</strong></p><p>d1 * d2 = |(b^2 cos^2 alpha(a^2 - b^2) - a^2 b^2) / (b^2 cos^2 alpha + a^2 sin^2 alpha)| = |-b^2| = b^2</p>",
+    "formulas": [
+      "d1 = |(b cos alpha * sqrt(a^2 - b^2) - ab) / sqrt(b^2 cos^2 alpha + a^2 sin^2 alpha)|",
+      "d2 = |(-b cos alpha * sqrt(a^2 - b^2) - ab) / sqrt(b^2 cos^2 alpha + a^2 sin^2 alpha)|",
+      "d1 * d2 = b^2"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Derivation of the product of perpendicular distances from foci to a tangent of an ellipse."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 422
+  },
+  {
+    "id": "coord-sys-195-01",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Perpendicular distance and intersection of lines",
+    "text": "<p>Calculation of perpendicular distances from a point to lines involving trigonometric functions. Given 3x cos φ + 5y sin φ = 15, the lengths of perpendiculars p1 and p2 are derived using the standard formula for distance from a point to a line.</p>",
+    "formulas": [
+      "p1 = (12 cos φ - 15) / sqrt(9 cos^2 φ + 25 sin^2 φ)",
+      "p2 = (-12 cos φ - 15) / sqrt(9 cos^2 φ + 25 sin^2 φ)",
+      "p1 * p2 = |(144 cos^2 φ - 225) / (9 cos^2 φ + 25 sin^2 φ)| = 9"
+    ],
+    "image_descriptions": [
+      "Cartesian plane showing a line passing through (0, 10) and (3, 0) forming a triangle with axes, vertices at (0,0), (3,0), and (0,10)."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 423
+  },
+  {
+    "id": "coord-sys-195-02",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Centroid of a triangle",
+    "text": "<p>The centroid of a triangle with vertices (x1, y1), (x2, y2), and (x3, y3) is given by ((x1+x2+x3)/3, (y1+y2+y3)/3).</p>",
+    "formulas": [
+      "Centroid = ((x1+x2+x3)/3, (y1+y2+y3)/3)"
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 423
+  },
+  {
+    "id": "coord-sys-195-03",
+    "subject": "Mathematics",
+    "chapter": "Coordinate System and Straight Lines",
+    "topic": "Properties of Parallelogram",
+    "text": "<p>Diagonals of a parallelogram bisect each other. This property is used to find the intersection point of diagonals by calculating the mid-point of either diagonal.</p>",
+    "image_descriptions": [
+      "A parallelogram ABCD with vertices A(1,2), B(4,y), C(x,6), D(3,5) and intersection of diagonals at O."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 423
+  },
+  {
+    "id": "circle-17-001",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Definition and Standard Equation",
+    "text": "<p>A circle is defined as the locus of a point which moves in a plane such that its distance from a fixed point in that plane is always constant. The fixed point is called the <strong>centre</strong> and the constant distance is called the <strong>radius</strong> of the circle.</p><p><strong>Equation of a Circle in Standard Form:</strong> Let C(h, k) be the centre of the circle and the radius of the circle be r, then the equation of the circle in standard form is (x - h)^2 + (y - k)^2 = r^2.</p><p><strong>Note:</strong> The above equation is known as the central form of the equation of a circle.</p>",
+    "formulas": [
+      "(x - h)^2 + (y - k)^2 = r^2",
+      "x^2 + y^2 - 2hx - 2ky + h^2 = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram showing a circle with centre C(h, k) and a point P(x, y) on the circumference, with a line segment of length r connecting them."
+    ],
+    "details": {
+      "summary": "Definition of a circle and its standard equation based on centre (h, k) and radius r."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 424
+  },
+  {
+    "id": "circle-17-002",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Particular Cases of Circle Equations",
+    "text": "<p><strong>1. Circle touching the X-axis:</strong> Let the circle touch the X-axis and have its centre C(h, k). Then, the equation of the circle is (x - h)^2 + (y - k)^2 = k^2 or x^2 + y^2 - 2hx - 2ky + h^2 = 0.</p><p><strong>2. Circle touching the Y-axis:</strong> Let the circle touch the Y-axis and have its centre C(h, k). Then, the equation of the circle is (x - h)^2 + (y - k)^2 = h^2 or x^2 + y^2 - 2hx - 2ky + k^2 = 0.</p><p><strong>3. Circle touching both the axes:</strong> Let the circle touch both the axes. Then, the equation of the circle is (x - r)^2 + (y - r)^2 = r^2 or x^2 + y^2 - 2rx - 2ry + r^2 = 0.</p>",
+    "formulas": [
+      "(x - h)^2 + (y - k)^2 = k^2",
+      "x^2 + y^2 - 2hx - 2ky + h^2 = 0",
+      "(x - h)^2 + (y - k)^2 = h^2",
+      "x^2 + y^2 - 2hx - 2ky + k^2 = 0",
+      "(x - r)^2 + (y - r)^2 = r^2",
+      "x^2 + y^2 - 2rx - 2ry + r^2 = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram 1: Circle touching the X-axis at a point, with centre C(h, k) and radius r=k.",
+      "Diagram 2: Circle touching the Y-axis at a point, with centre C(h, k) and radius r=h.",
+      "Diagram 3: Circle in the first quadrant touching both X and Y axes, with centre C(h, k) and radius r=h=k."
+    ],
+    "details": {
+      "summary": "Equations for circles touching the X-axis, Y-axis, or both axes."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 424
+  },
+  {
+    "id": "circle-theory-001",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Circle Equations and Properties",
+    "text": "<p><strong>Circle centre at origin:</strong> If the centre of the circle is at origin and radius is 'r', then the equation of the circle is (x-0)^2 + (y-0)^2 = k^2 => x^2 + y^2 = k^2.</p><p><strong>General Equation of a Circle:</strong> The general second degree equation in x and y is ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0, represents a circle whose centre is (-g, -f) and radius = sqrt(g^2 + f^2 - c), when a = b and h = 0.</p><p><strong>Intercepts on the Axes:</strong> The lengths of intercepts made by the circle x^2 + y^2 + 2gx + 2fy + c = 0 with X-axis = 2*sqrt(g^2 - c) and Y-axis = 2*sqrt(f^2 - c). Note: Intercepts are always positive.</p><p><strong>Concentric Circle:</strong> Two circles having the same centre C(h, k) but different radii r1 and r2 are called concentric circles. Equation of concentric circle with x^2 + y^2 + 2gx + 2fy + c = 0 is x^2 + y^2 + 2gx + 2fy + c1 = 0.</p><p><strong>Equation of Circle if Coordinates of End Points of Diameter are Known:</strong> If (x1, y1) and (x2, y2) are the end points of the diameter of a circle, then equation of circle is (x - x1)(x - x2) + (y - y1)(y - y2) = 0.</p><p><strong>Nature of Circle:</strong> <ul><li>If g^2 + f^2 - c > 0, then the radius of the circle is real and circle is also real.</li><li>If g^2 + f^2 - c = 0, then radius of circle is zero and circle is known as a point circle.</li><li>If g^2 + f^2 - c < 0, then radius is imaginary but the centre is real and such circle is called imaginary circle, not possible to draw such a circle.</li></ul></p><p><strong>Position of a Point with Respect to the Circle:</strong> Let S = x^2 + y^2 + 2gx + 2fy + c = 0 be the equation of a circle, then a point P(x1, y1) in the XY-plane lies: <ul><li>(i) on the circle, if S1 = 0</li><li>(ii) outside the circle, if S1 > 0</li><li>(iii) inside the circle, if S1 < 0</li></ul> where S1 = x1^2 + y1^2 + 2gx1 + 2fy1 + c.</p><p><strong>Equation of Tangent:</strong> <ul><li>1. Equation of tangent at the point P(x1, y1) to a circle x^2 + y^2 + 2gx + 2fy + c = 0 is xx1 + yy1 + g(x + x1) + f(y + y1) + c = 0</li><li>2. Equation of tangent to circle x^2 + y^2 = a^2 at (x1, y1) is given by xx1 + yy1 = a^2.</li></ul></p>",
+    "formulas": [
+      "x^2 + y^2 = k^2",
+      "ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0",
+      "radius = sqrt(g^2 + f^2 - c)",
+      "X-axis intercept = 2*sqrt(g^2 - c)",
+      "Y-axis intercept = 2*sqrt(f^2 - c)",
+      "(x - x1)(x - x2) + (y - y1)(y - y2) = 0",
+      "S1 = x1^2 + y1^2 + 2gx1 + 2fy1 + c",
+      "xx1 + yy1 + g(x + x1) + f(y + y1) + c = 0",
+      "xx1 + yy1 = a^2"
+    ],
+    "image_descriptions": [
+      "Diagram showing a circle centered at origin (0,0) with radius k on a Cartesian plane.",
+      "Diagram showing a circle intersecting both X and Y axes, labeling intercepts A1A2 and B1B2.",
+      "Diagram showing a circle with diameter endpoints (x1, y1) and (x2, y2) and center C."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 425
+  },
+  {
+    "id": "pathfinder-math-198-001",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Length of Tangent",
+    "text": "<p><strong>Length of Tangent:</strong></p><ul><li>The length of tangent from an external point (x1, y1) to the circle x^2 + y^2 + 2gx + 2fy + c = 0, is sqrt(x1^2 + y1^2 + 2gx1 + 2fy1 + c).</li><li>The length of the tangent from an external point (x1, y1) to the circle x^2 + y^2 = a^2 is sqrt(x1^2 + y1^2 - a^2).</li></ul>",
+    "formulas": [
+      "sqrt(x1^2 + y1^2 + 2gx1 + 2fy1 + c)",
+      "sqrt(x1^2 + y1^2 - a^2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas for calculating the length of a tangent to a circle from an external point."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 426
+  },
+  {
+    "id": "pathfinder-math-198-002",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Contact of Two Circles",
+    "text": "<p><strong>Contact of Two Circles:</strong></p><p>Given two circles with equations (x - h1)^2 + (y - k1)^2 = a1^2 and (x - h2)^2 + (y - k2)^2 = a2^2, with centres C1(h1, k1) and C2(h2, k2) and radii a1 and a2, the following cases of intersection may arise:</p><ul><li>(i) C1C2 > a1 + a2: two circles do not touch each other. Number of common tangents = 4</li><li>(ii) C1C2 = a1 + a2: two circles touch each other externally. Number of common tangents = 3</li><li>(iii) C1C2 < a1 + a2: two circles intersect each other. Number of common tangents = 2</li><li>(iv) C1C2 = |a1 - a2|: two circles touch each other internally. Number of common tangents = 1</li></ul>",
+    "formulas": [
+      "C1C2 > a1 + a2",
+      "C1C2 = a1 + a2",
+      "C1C2 < a1 + a2",
+      "C1C2 = |a1 - a2|"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Conditions for intersection of two circles and the number of common tangents."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 426
+  },
+  {
+    "id": "pathfinder-math-198-003",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Common Chord of Two Circles",
+    "text": "<p><strong>Common Chord of Two Circles:</strong></p><p>Let the two circles be S1 = x^2 + y^2 + 2g1x + 2f1y + c1 = 0 and S2 = x^2 + y^2 + 2g2x + 2f2y + c2 = 0. The equation of the common chord is S1 - S2 = 0, or 2(g1 - g2)x + 2(f1 - f2)y + 2(c1 - c2) = 0.</p>",
+    "formulas": [
+      "S1 - S2 = 0",
+      "2(g1 - g2)x + 2(f1 - f2)y + 2(c1 - c2) = 0"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for the equation of the common chord of two circles."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 426
+  },
+  {
+    "id": "pathfinder-math-198-004",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Angle of Intersection of Two Circles",
+    "text": "<p><strong>Angle of Intersection of Two Circles:</strong></p><p>The angle of intersection θ of the two circles with centres at C1 and C2 and the respective radii r1 and r2 is given by cos θ = (r1^2 + r2^2 - (C1C2)^2) / (2r1r2) = (r1^2 + r2^2 - d^2) / (2r1r2), where C1C2 = d. Two circles intersect orthogonally if the angle of intersection is 90 degrees.</p>",
+    "formulas": [
+      "cos θ = (r1^2 + r2^2 - (C1C2)^2) / (2r1r2)",
+      "cos θ = (r1^2 + r2^2 - d^2) / (2r1r2)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for the angle of intersection between two circles and the condition for orthogonality."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 426
+  },
+  {
+    "id": "math-circle-199-001",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Orthogonality and Parametric Form",
+    "text": "<p>The condition for two circles to be orthogonal is derived from the triangle formed by their centers and intersection point, leading to the condition <strong>(C1C2)^2 = r1^2 + r2^2</strong>.</p><p><strong>Equation of a Circle in Parametric Form:</strong> Let P(x, y) be any point on the circle with centre at C(h, k) and radius r, then <strong>x = h + r cos α</strong> and <strong>y = k + r sin α</strong>. Here, α is called the parameter.</p>",
+    "formulas": [
+      "(C1C2)^2 = r1^2 + r2^2",
+      "x = h + r cos α",
+      "y = k + r sin α"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram showing two intersecting circles with centers C1 and C2, radii r1 and r2, and an angle θ at the intersection point."
+    ],
+    "details": {
+      "summary": "Covers the condition for orthogonal circles and the parametric representation of a circle."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 427
+  },
+  {
+    "id": "pathfinder-nda-204-01",
+    "subject": "Mathematics",
+    "chapter": "Circle",
+    "topic": "Properties and Equations of Circles",
+    "text": "<p><strong>37.</strong> Equations of circles are x^2 + y^2 + 2ax + c = 0 and x^2 + y^2 + 2by + c = 0. Centres are (-a, 0) and (0, -b). Distance between two centres = sqrt(a^2 + b^2).</p><p><strong>38.</strong> Two circles touch each other if distance between centres = sum of radii. This leads to the condition c = sqrt((a^2 - c)(b^2 - c)).</p><p><strong>39.</strong> For a line y = mx + c touching circle x^2 + y^2 = r^2, the condition is r = c / sqrt(1 + m^2).</p><p><strong>40.</strong> Equation of circle with centre (h, k) and radius a is (x - h)^2 + (y - k)^2 = a^2.</p><p><strong>41.</strong> For a circle with radius b and centre (0, b) touching line y = x - sqrt(2), the perpendicular distance from centre to line equals radius.</p><p><strong>42.</strong> Distance between centres of two circles (x - 1)^2 + (y - 3)^2 = r^2 and x^2 + y^2 - 8x + 2y + 8 = 0 is calculated using the distance formula.</p><p><strong>43.</strong> Condition for two circles to intersect at two distinct points is: distance between centres &lt; sum of radii.</p><p><strong>44-45.</strong> Derivations for circle passing through (0, 0), (a, b), and (-b, -a).</p>",
+    "formulas": [
+      "x^2 + y^2 + 2ax + c = 0",
+      "x^2 + y^2 + 2by + c = 0",
+      "Distance = sqrt(a^2 + b^2)",
+      "r = c / sqrt(1 + m^2)",
+      "(x - h)^2 + (y - k)^2 = a^2",
+      "b = |(0 - b - sqrt(2)) / sqrt(1^2 + (-1)^2)|"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A geometric diagram showing a circle with centre (0, b) and a tangent line represented by the equation y = x - sqrt(2), with the point of tangency labeled A."
+    ],
+    "details": {
+      "summary": "This page covers advanced properties of circles, including tangency conditions, distance between centres, and equations of circles passing through specific coordinate points."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 432
+  },
+  {
+    "id": "conic-section-001",
+    "subject": "Mathematics",
+    "chapter": "Conic Section",
+    "topic": "Introduction and Definitions",
+    "text": "<p>A conic section or conic is the locus of a point which moves in such a way that its distance from a fixed point always bears a constant ratio to its perpendicular distance from a fixed line, all being in the same plane. Shape of the conic section obtained depends on the position of cutting plane. This section deals with parabola, hyperbola and ellipse etc.</p><h3>Various Terms Related to Conic Section</h3><ul><li><strong>Focus:</strong> The fixed points is called the focus of the conic section.</li><li><strong>Directrix:</strong> The fixed straight line is called the directrix of the conic section.</li><li><strong>Eccentricity:</strong> The constant ratio of distance of point lying on conic, from focus to its perpendicular distance from directrix is called the eccentricity of the conic section and is denoted by e.<ul><li>(i) For an ellipse, e < 1</li><li>(ii) For a parabola, e = 1</li><li>(iii) For a hyperbola, e > 1</li><li>(iv) For a circle, e = 0</li><li>(v) Pair of straight lines, e = infinity</li></ul></li><li><strong>Axis:</strong> The straight line passing through the focus and perpendicular to the directrix, is called the axis of the conic section.</li><li><strong>Vertex:</strong> The point of intersection of the conic section and its axis, is called vertex of the conic section.</li><li><strong>Centre:</strong> The point which bisects every possible chord of the conic passing through it, is called the centre of conic.</li><li><strong>Latusrectum:</strong> The latusrectum of a conic is the chord passing through the focus and perpendicular to the axis.</li><li><strong>Focal chord:</strong> Any chord passing through the focus of a conic is called the focal chord of the conic.</li><li><strong>Double ordinate:</strong> Any chord perpendicular to the axis of a conic is called the double ordinate of that conic.</li><li><strong>Focal distance or focal length:</strong> The distance between the focus and a point lying on the conic, is known as focal distance or focal length of the given point.</li></ul>",
+    "formulas": [
+      "ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0",
+      "Delta = abc + 2fgh - af^2 - bg^2 - ch^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to conic sections, defining key geometric terms (focus, directrix, eccentricity, axis, vertex, centre, latusrectum, focal chord, double ordinate, focal distance) and the general second-degree equation."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 433
+  },
+  {
+    "id": "conic-section-002",
+    "subject": "Mathematics",
+    "chapter": "Conic Section",
+    "topic": "General Equation of Conics of Second Degree",
+    "text": "<p>General equation of conics of second degree viz. ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0 where, discriminant Delta = abc + 2fgh - af^2 - bg^2 - ch^2</p>",
+    "formulas": [
+      "ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0",
+      "Delta = abc + 2fgh - af^2 - bg^2 - ch^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "General second-degree equation for conic sections and its discriminant formula."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 433
+  },
+  {
+    "id": "conic_section_nature",
+    "subject": "Mathematics",
+    "chapter": "Conic Sections",
+    "topic": "Nature of Conic Sections",
+    "text": "<p>The general equation of a non-degenerate conic section is classified based on specific conditions:</p><ul><li>If Δ ≠ 0, h = 0, a = b, e = 0, it is a <strong>Circle</strong>.</li><li>If Δ ≠ 0, ab - h^2 = 0, e = 1, it is a <strong>Parabola</strong>.</li><li>If Δ ≠ 0, ab - h^2 > 0, e < 1, it is an <strong>Ellipse</strong>.</li><li>If Δ ≠ 0, ab - h^2 < 0, e > 1, it is a <strong>Hyperbola</strong>.</li><li>If Δ ≠ 0, ab - h^2 < 0, a + b = 0, e = 1/sqrt(2), it is a <strong>Rectangular hyperbola</strong>.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| S.No. | Condition | Nature of conic |\n|---|---|---|\n| 1 | Δ ≠ 0, h = 0, a = b, e = 0 | A circle |\n| 2 | Δ ≠ 0, ab - h^2 = 0, e = 1 | A parabola |\n| 3 | Δ ≠ 0, ab - h^2 > 0, e < 1 | An ellipse |\n| 4 | Δ ≠ 0, ab - h^2 < 0, e > 1 | A hyperbola |\n| 5 | Δ ≠ 0, ab - h^2 < 0, a + b = 0, e = 1/sqrt(2) | A rectangular hyperbola |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification of conic sections based on discriminant and eccentricity."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 434
+  },
+  {
+    "id": "parabola_definition",
+    "subject": "Mathematics",
+    "chapter": "Conic Sections",
+    "topic": "Parabola",
+    "text": "<p>A parabola is the locus of a point which is equidistant from a fixed point called <strong>focus</strong> and from a fixed straight line called <strong>directrix</strong>.</p><p>Since point P(x, y) lies on the parabola, PS/PM = e = 1 (where e = 1). This leads to the derivation: PS^2 = PM^2 => (x - a)^2 + (y - 0)^2 = (x + a)^2 => y^2 = 4ax (standard form).</p><p><strong>Note:</strong> The distance between vertex of parabola and focus is equal to perpendicular distance of vertex from directrix. Vertex is the mid-point of line joining focus and point of intersection of directrix and axis.</p>",
+    "formulas": [
+      "PS/PM = e = 1",
+      "PS^2 = PM^2",
+      "(x - a)^2 + (y - 0)^2 = (x + a)^2",
+      "y^2 = 4ax"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a parabola opening to the right with vertex at origin (0,0), focus at S(a,0), directrix at x = -a, and latus rectum passing through focus."
+    ],
+    "details": {
+      "summary": "Definition and derivation of the standard parabola equation."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 434
+  },
+  {
+    "id": "parabola_forms",
+    "subject": "Mathematics",
+    "chapter": "Conic Sections",
+    "topic": "Standard Forms of Parabola",
+    "text": "<p>Other standard forms include:</p><ul><li><strong>y^2 = -4ax:</strong> Focus lies on the negative side of X-axis.</li><li><strong>x^2 = 4ay:</strong> Focus lies on the positive side of Y-axis.</li><li><strong>x^2 = -4ay:</strong> Focus lies on the negative side of Y-axis.</li></ul>",
+    "formulas": [
+      "y^2 = -4ax",
+      "x^2 = 4ay",
+      "x^2 = -4ay"
+    ],
+    "tables": [
+      "| Feature | y^2 = 4ax | y^2 = -4ax | x^2 = 4ay | x^2 = -4ay |\n|---|---|---|---|---|\n| Eccentricity | e = 1 | e = 1 | e = 1 | e = 1 |\n| Coordinates of vertex | (0, 0) | (0, 0) | (0, 0) | (0, 0) |\n| Coordinates of focus | (a, 0) | (-a, 0) | (0, a) | (0, -a) |\n| Equation of directrix | x = -a | x = a | y = -a | y = a |\n| Equation of the axis | y = 0 | y = 0 | x = 0 | x = 0 |\n| Length of the latusrectum | 4a | 4a | 4a | 4a |\n| Focal distance of a point P(x, y) | x + a | a - x | y + a | a - y |\n| Extremities of latusrectum | (a, 2a) | (-a, 2a) | (2a, a) | (2a, -a) |\n| Parametric coordinates | (at^2, 2at) | (-at^2, 2at) | (2at, at^2) | (2at, -at^2) |\n| Parametric equation | x = at^2, y = 2at | x = -at^2, y = 2at | x = 2at, y = at^2 | x = 2at, y = -at^2 |"
+    ],
+    "image_descriptions": [
+      "Three diagrams showing parabolas: y^2 = -4ax opening left, x^2 = 4ay opening up, and x^2 = -4ay opening down."
+    ],
+    "details": {
+      "summary": "Comparison table and visual representation of four standard forms of parabolas."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 434
+  },
+  {
+    "id": "conic_section_parabola_001",
+    "subject": "Mathematics",
+    "chapter": "Conic Section",
+    "topic": "Parabolas with Vertex Other than (0, 0)",
+    "text": "<p>If the vertex of the parabola is at the point A(h, k) and its latusrectum is of length 4a, then its equation is:</p><ul><li>(y - k)^2 = 4a(x - h), if its axis is parallel to OX, i.e. parabola opens rightward.</li><li>(y - k)^2 = -4a(x - h), if its axis is parallel to OX, i.e. parabola opens leftward.</li><li>(x - h)^2 = 4a(y - k), if its axis is parallel to OY, i.e. parabola opens upward.</li><li>(x - h)^2 = -4a(y - k), if its axis is parallel to OY, i.e. parabola opens downward.</li></ul>",
+    "formulas": [
+      "(y - k)^2 = 4a(x - h)",
+      "(y - k)^2 = -4a(x - h)",
+      "(x - h)^2 = 4a(y - k)",
+      "(x - h)^2 = -4a(y - k)"
+    ],
+    "image_descriptions": [
+      "A Cartesian coordinate system showing a parabola with vertex at (3, 4). The original axes are X and Y, and new axes are X' and Y' shifted to the vertex. The focus is marked at (13/4, 4)."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 435
+  },
+  {
+    "id": "conic_section_parabola_002",
+    "subject": "Mathematics",
+    "chapter": "Conic Section",
+    "topic": "Position of a Point with Respect to a Parabola",
+    "text": "<p>Let S = y^2 - 4ax = 0 be the equation of a parabola, then a point P(x1, y1) in the XY-plane lies:</p><ul><li>on the parabola, if S1 = 0</li><li>outside the parabola, if S1 > 0</li><li>inside the parabola, if S1 < 0</li></ul><p>where, S1 = y1^2 - 4ax1</p>",
+    "formulas": [
+      "S = y^2 - 4ax = 0",
+      "S1 = y1^2 - 4ax1"
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 435
+  },
+  {
+    "id": "math-parabola-001",
+    "subject": "Mathematics",
+    "chapter": "Conic Sections",
+    "topic": "Parabola",
+    "text": "<p><strong>Equation of Chord:</strong> The equation of chord joining the points (x1, y1) and (x2, y2) on the parabola y^2 = 4ax is y(y1 + y2) = 4ax + y1y2.</p><p><strong>Condition for the Chord to be a Focal Chord:</strong> The chord joining the points (at1^2, 2at1) and (at2^2, 2at2) passes through focus provided t1t2 = -1.</p><p><strong>Tangents and Normals to the Parabola:</strong></p><ul><li><strong>Equation of tangent to the parabola y^2 = 4ax:</strong><ul><li>(i) at (x1, y1) is yy1 = 2a(x + x1)</li><li>(ii) at (at^2, 2at) is ty = x + at^2</li><li>(iii) If m is the slope of tangent to the parabola y^2 = 4ax, then its equation is y = mx + a/m. Point of contact is (a/m^2, 2a/m).</li></ul></li><li><strong>Equation of normal to the parabola y^2 = 4ax:</strong><ul><li>(i) at (x1, y1) is y - y1 = -y1/2a * (x - x1)</li><li>(ii) at (at^2, 2at) is y + tx = 2at + at^3</li><li>(iii) If m is the slope of normal to the parabola y^2 = 4ax, then its equation is given as y = mx - 2am - am^3.</li></ul></li></ul>",
+    "formulas": [
+      "y(y1 + y2) = 4ax + y1y2",
+      "t1t2 = -1",
+      "yy1 = 2a(x + x1)",
+      "ty = x + at^2",
+      "y = mx + a/m",
+      "y - y1 = -y1/2a * (x - x1)",
+      "y + tx = 2at + at^3",
+      "y = mx - 2am - am^3"
+    ],
+    "image_descriptions": [
+      "Diagram showing a parabola opening to the right with vertex at A(0,0), a point P(2,2) on the curve, and a point Q(x1, y1) on the curve, with a chord PQ perpendicular to AP."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 436
+  },
+  {
+    "id": "math-ellipse-001",
+    "subject": "Mathematics",
+    "chapter": "Conic Sections",
+    "topic": "Ellipse",
+    "text": "<p><strong>Definition:</strong> An ellipse is the locus of that point which moves in a plane such that the ratio of its distance from a fixed point (focus) to a fixed straight line (directrix) is constant and less than unity. This constant ratio is called eccentricity and denoted by e. Or, the locus of a point whose sum of distance from two fixed points remains constant is called an ellipse.</p><p><strong>Standard Form:</strong> x^2/a^2 + y^2/b^2 = 1, where b^2 = a^2(1 - e^2), b < a. AA' = 2a and BB' = 2b are called major and minor axes, respectively.</p><p><strong>Another Form of Ellipse:</strong> x^2/b^2 + y^2/a^2 = 1 [where, b > a]. Here, AA' = 2a and BB' = 2b are minor and major axes, respectively.</p>",
+    "formulas": [
+      "x^2/a^2 + y^2/b^2 = 1",
+      "b^2 = a^2(1 - e^2)",
+      "x^2/b^2 + y^2/a^2 = 1"
+    ],
+    "image_descriptions": [
+      "Diagram of a horizontal ellipse centered at origin O(0,0) with foci S(ae, 0) and S'(-ae, 0), vertices A(a,0) and A'(-a,0), and minor axis endpoints B(0,b) and B'(0,-b). Directrices are lines x = a/e and x = -a/e.",
+      "Diagram of a vertical ellipse centered at origin O(0,0) with foci S(0, be) and S'(0, -be), vertices A(a,0) and A'(-a,0), and major axis endpoints B(0,b) and B'(0,-b). Directrices are lines y = b/e and y = -b/e."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 436
+  },
+  {
+    "id": "math-conic-ellipse-001",
+    "subject": "Mathematics",
+    "chapter": "Conic Section",
+    "topic": "Ellipse",
+    "text": "<p><strong>Some Important Results Related to Ellipse</strong></p><p>The table below summarizes key properties for ellipses with centers at (0,0).</p><p><strong>Note:</strong> If the centre of ellipse is at (h, k) and its axis are parallel to the coordinate axes, then the equation of ellipse is given as (x-h)^2/a^2 + (y-k)^2/b^2 = 1</p><p><strong>Position of a Point with Respect to an Ellipse</strong></p><p>If S = x^2/a^2 + y^2/b^2 - 1 = 0, is the equation of an ellipse, then a point P(x1, y1) in the XY-plane lies:</p><ul><li>(i) on the ellipse, if S1 = 0</li><li>(ii) outside the ellipse, if S1 > 0</li><li>(iii) inside the ellipse, if S1 < 0 where, S1 = x1^2/a^2 + y1^2/b^2 - 1</li></ul><p><strong>Equation of Ellipse in Parametric Form</strong></p><p>Parametric equation of ellipse x^2/a^2 + y^2/b^2 = 1 is x = a cos θ, y = b sin θ and parametric coordinates of point lying on it is given by (a cos θ, b sin θ). The angle θ is called the eccentric angle of the point (a cos θ, b sin θ) on the ellipse.</p><p><strong>Equation of Chord</strong></p><p>The equation of the chord of the ellipse x^2/a^2 + y^2/b^2 = 1, whose mid-point be (x1, y1) is T = S1, where T = xx1/a^2 + yy1/b^2 - 1, S1 = x1^2/a^2 + y1^2/b^2 - 1.</p><p>The equation of the chord joining the points P(a cos θ1, b sin θ1) and Q(a cos θ2, b sin θ2) is (x/a) cos((θ1+θ2)/2) + (y/b) sin((θ1+θ2)/2) = cos((θ1-θ2)/2).</p><p><strong>Tangents and Normals to the Ellipse</strong></p><p>Equation of tangent to the ellipse x^2/a^2 + y^2/b^2 = 1:</p><ul><li>(i) at the point (x1, y1) is xx1/a^2 + yy1/b^2 = 1.</li><li>(ii) having slope m is y = mx ± sqrt(a^2 m^2 + b^2) and coordinates of point of contacts are (± a^2 m / sqrt(a^2 m^2 + b^2), ± b^2 / sqrt(a^2 m^2 + b^2)).</li></ul><p>Equation of normal to the ellipse x^2/a^2 + y^2/b^2 = 1:</p><ul><li>(i) at the point (x1, y1) is a^2 x / x1 - b^2 y / y1 = a^2 - b^2.</li><li>(ii) having slope m is y = mx ± m(a^2 - b^2) / sqrt(a^2 + b^2 m^2).</li></ul>",
+    "formulas": [
+      "x^2/a^2 + y^2/b^2 = 1",
+      "(x-h)^2/a^2 + (y-k)^2/b^2 = 1",
+      "x = a cos θ, y = b sin θ",
+      "T = S1",
+      "y = mx ± sqrt(a^2 m^2 + b^2)",
+      "a^2 x / x1 - b^2 y / y1 = a^2 - b^2"
+    ],
+    "tables": [
+      "| Property | x^2/a^2 + y^2/b^2 = 1, a > b | x^2/a^2 + y^2/b^2 = 1, a < b |\n|---|---|---|\n| Coordinates of the centre | (0, 0) | (0, 0) |\n| Coordinates of the vertices | (a, 0) and (-a, 0) | (0, b) and (0, -b) |\n| Coordinates of foci | (ae, 0) and (-ae, 0) | (0, be) and (0, -be) |\n| Length of major axis | 2a | 2b |\n| Length of minor axis | 2b | 2a |\n| Equation of the major axis | y = 0 | x = 0 |\n| Equation of the minor axis | x = 0 | y = 0 |\n| Equation of the directrices | x = a/e and x = -a/e | y = b/e and y = -b/e |\n| Eccentricity | e = sqrt(1 - b^2/a^2) | e = sqrt(1 - a^2/b^2) |\n| Length of latusrectum | 2b^2/a | 2a^2/b |\n| Focal distances of a point (x,y) | a ± ex | b ± ey |\n| Extremities of latusrectum | (±ae, ±b^2/a) | (±a^2/b, ±be) |"
+    ],
+    "image_descriptions": [
+      "A diagram showing an ellipse with a chord connecting two points P(x1, y1) and Q(x2, y2) on the curve, with a third point R(x3, y3) indicated on the arc."
+    ],
+    "mcq": {
+      "question": "The equation of the ellipse, whose centre is at origin (0, 0), foci (±1, 0) and eccentricity 1/2, is",
+      "options": [
+        "x^2/3 + y^2/4 = 1",
+        "x^2/4 + y^2/3 = 1",
+        "x^2/3 + y^2/4 = 12",
+        "x^2 + y^2 = 12"
+      ],
+      "correct": 1,
+      "explanation": "Here, foci = (±1, 0) and eccentricity, e = 1/2. ae = 1 and e = 1/2 => a = 2. b^2 = a^2(1 - e^2) => b^2 = 4(1 - 1/4) = 4(3/4) = 3. So, the equation of required ellipse is x^2/4 + y^2/3 = 1."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 437
+  },
+  {
+    "id": "hyperbola-001",
+    "subject": "Mathematics",
+    "chapter": "Hyperbola",
+    "topic": "Definition and Standard Equation",
+    "text": "<p>A <strong>hyperbola</strong> is the locus of that point which moves in a plane such that the ratio of its distance from a fixed point (focus) to a fixed straight line (directrix) is constant and greater than unity. This constant ratio is called <strong>eccentricity</strong> and denoted by <em>e</em>.</p><p>Alternatively, the locus of points whose difference of distance from two fixed points remains constant.</p><p>The standard equation is derived from <em>PS/PM = e</em>, leading to <em>x^2/a^2 - y^2/b^2 = 1</em>, where <em>b^2 = a^2(e^2 - 1)</em>.</p>",
+    "formulas": [
+      "PS/PM = e",
+      "PS^2 = e^2 PM^2",
+      "x^2/a^2 - y^2/b^2 = 1",
+      "b^2 = a^2(e^2 - 1)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A coordinate plane showing a hyperbola opening left and right. The center is at O(0,0). Foci are at S(ae, 0) and S'(-ae, 0). Vertices are at A(a, 0) and A'(-a, 0). Directrices are vertical lines at x = a/e and x = -a/e."
+    ],
+    "details": {
+      "summary": "Definition of hyperbola and derivation of its standard equation."
+    },
+    "mcq": {
+      "question": "Find the equation of the hyperbola, the length of whose latusrectum is 8 and eccentricity is 3/sqrt(5).",
+      "options": [
+        "x^2/25 - y^2/15 = 1",
+        "x^2/25 - y^2/20 = 1",
+        "x^2/20 - y^2/15 = 1",
+        "None of these"
+      ],
+      "correct": 1,
+      "explanation": "Given length of latusrectum = 2b^2/a = 8 => b^2 = 4a. Also b^2 = a^2(e^2 - 1). Substituting e = 3/sqrt(5), we get b^2 = a^2(9/5 - 1) = a^2(4/5). Equating 4a = 4a^2/5 => a = 5. Then b^2 = 4(5) = 20. Equation is x^2/25 - y^2/20 = 1."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 438
+  },
+  {
+    "id": "hyperbola-002",
+    "subject": "Mathematics",
+    "chapter": "Hyperbola",
+    "topic": "Conjugate and Rectangular Hyperbola",
+    "text": "<p><strong>Conjugate Hyperbola:</strong> The hyperbola whose transverse and conjugate axes are respectively the conjugate and transverse axes of the given hyperbola. The equation of the conjugate hyperbola of x^2/a^2 - y^2/b^2 = 1 is x^2/a^2 - y^2/b^2 = -1 (or y^2/b^2 - x^2/a^2 = 1).</p><p><strong>Rectangular Hyperbola:</strong> A particular kind of hyperbola which has its transverse and conjugate axis of equal length. It is also known as equilateral hyperbola. The eccentricity of rectangular hyperbola is sqrt(2).</p>",
+    "formulas": [
+      "x^2/a^2 - y^2/b^2 = -1",
+      "e = sqrt(2)"
+    ],
+    "tables": [
+      "| Property | Hyperbola (x^2/a^2 - y^2/b^2 = 1) | Conjugate hyperbola (x^2/a^2 - y^2/b^2 = -1) |\n|---|---|---|\n| Coordinates of the centre | (0, 0) | (0, 0) |\n| Coordinates of the vertices | (a, 0) and (-a, 0) | (0, b) and (0, -b) |\n| Coordinates of foci | (+-ae, 0) | (0, +-be) |\n| Length of the transverse axis | 2a | 2b |\n| Length of the conjugate axis | 2b | 2a |\n| Equations of the directrices | x = +-a/e | y = +-b/e |\n| Eccentricity | e = sqrt(a^2+b^2)/a | e = sqrt(b^2+a^2)/b |\n| Length of the latusrectum | 2b^2/a | 2a^2/b |\n| Equation of the transverse axis | y = 0 | x = 0 |\n| Equation of the conjugate axis | x = 0 | y = 0 |\n| Focal distance | ex = +-a | ey = +-b |"
+    ],
+    "image_descriptions": [
+      "A coordinate plane showing a conjugate hyperbola opening upwards and downwards. The center is at O(0,0). Foci are at S(0, be) and S'(0, -be). Vertices are at B(0, b) and B'(0, -b)."
+    ],
+    "details": {
+      "summary": "Comparison table and definitions for conjugate and rectangular hyperbolas."
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 438
+  },
+  {
+    "id": "conic-hyperbola-001",
+    "subject": "Mathematics",
+    "chapter": "Conic Section",
+    "topic": "Hyperbola",
+    "text": "<p><strong>Equation of Hyperbola with centre (h,k):</strong> If the centre of the hyperbola is at point (h,k) and its axes are parallel to the coordinate axes, then the equation is given as (x-h)^2/a^2 - (y-k)^2/b^2 = 1.</p><p><strong>Equation of Hyperbola in Parametric Form:</strong> The parametric equation of the hyperbola x^2/a^2 - y^2/b^2 = 1 is x = a sec θ, y = b tan θ. The parametric coordinates of a point lying on it are (a sec θ, b tan θ).</p><p><strong>Position of a Point with Respect to a Hyperbola:</strong> Let S = x^2/a^2 - y^2/b^2 - 1 = 0. Then, the point P(x1, y1) lies: <ul><li>On the hyperbola, if S1 = 0</li><li>Outside the hyperbola, if S1 > 0</li><li>Inside the hyperbola, if S1 < 0</li></ul> where S1 = x1^2/a^2 - y1^2/b^2 - 1.</p><p><strong>Intersection of a Line and a Hyperbola:</strong> The straight line y = mx + c will cut the hyperbola x^2/a^2 - y^2/b^2 = 1 in two points which may be real, coincident or imaginary, as c^2 > = < a^2m^2 - b^2.</p><p><strong>Auxiliary Circle of Hyperbola:</strong> If x^2/a^2 - y^2/b^2 = 1 is the hyperbola, then the equation of the auxiliary circle is x^2 + y^2 = a^2.</p><p><strong>Equation of Chord:</strong> The equation of chord joining the points P(a sec θ1, b tan θ1) and Q(a sec θ2, b tan θ2) is (x/a) cos((θ1-θ2)/2) - (y/b) sin((θ1+θ2)/2) = cos((θ1+θ2)/2).</p><p><strong>Tangents and Normals to the hyperbola x^2/a^2 - y^2/b^2 = 1:</strong> <ul><li><strong>Tangent:</strong> <ul><li>At point (x1, y1): (x*x1)/a^2 - (y*y1)/b^2 = 1</li><li>Having slope m: y = mx ± sqrt(a^2m^2 - b^2)</li></ul></li><li><strong>Normal:</strong> <ul><li>At point (x1, y1): (a^2*x)/x1 + (b^2*y)/y1 = a^2 + b^2</li><li>Having slope m: y = mx ± (m(a^2 + b^2)) / sqrt(a^2 - b^2m^2)</li></ul></li></ul></p>",
+    "formulas": [
+      "(x-h)^2/a^2 - (y-k)^2/b^2 = 1",
+      "x = a sec θ, y = b tan θ",
+      "S1 = x1^2/a^2 - y1^2/b^2 - 1",
+      "c^2 > = < a^2m^2 - b^2",
+      "x^2 + y^2 = a^2",
+      "(x/a) cos((θ1-θ2)/2) - (y/b) sin((θ1+θ2)/2) = cos((θ1+θ2)/2)",
+      "(x*x1)/a^2 - (y*y1)/b^2 = 1",
+      "y = mx ± sqrt(a^2m^2 - b^2)",
+      "(a^2*x)/x1 + (b^2*y)/y1 = a^2 + b^2",
+      "y = mx ± (m(a^2 + b^2)) / sqrt(a^2 - b^2m^2)"
+    ],
+    "image_descriptions": [
+      "A diagram showing a hyperbola centered at (0,0) with vertices at A(a,0) and A'(-a,0). An auxiliary circle x^2 + y^2 = a^2 is drawn centered at the origin. A point P(x,y) is on the hyperbola, and a point Q is on the auxiliary circle such that the angle between the x-axis and the line segment OQ is θ."
+    ],
+    "source_pdf": "nda_material.pdf",
+    "source_page": 439
   }
 ]
