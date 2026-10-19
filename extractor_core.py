@@ -246,7 +246,7 @@ def extract_content(b64_img, page_text, prompt):
     print("Gemini models exhausted. Trying Groq fallback with text...")
     groq_key = os.environ.get("GROQ_API_KEY")
     if groq_key and page_text and len(page_text.strip()) > 30:
-        groq_models = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"]
+        groq_models = ["qwen/qwen3.8-27b", "openai/gpt-oss-20b", "openai/gpt-oss-120b"]
         safe_page_text = page_text[:2000]
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"}
@@ -274,8 +274,10 @@ def extract_content(b64_img, page_text, prompt):
                     response = requests.post(url, headers=headers, json=data, timeout=45)
                     if response.status_code == 200:
                         res_json = response.json()
-                        raw_text = res_json["choices"][0]["message"]["content"].strip()
-                        return robust_json_loads(raw_text)
+                        msg = res_json.get("choices", [{}])[0].get("message", {})
+                        raw_text = (msg.get("content") or msg.get("reasoning") or "").strip()
+                        if raw_text:
+                            return robust_json_loads(raw_text)
                     elif response.status_code == 429 and attempt == 0:
                         print(f"Groq {g_model} hit rate limit. Waiting 20s before retry...")
                         time.sleep(20)
@@ -291,11 +293,10 @@ def extract_content(b64_img, page_text, prompt):
     or_key = os.environ.get("OPENROUTER_API_KEY")
     if or_key:
         or_models = [
-            "nvidia/nemotron-3-super-120b-a12b:free",
-            "google/gemma-4-31b-it:free",
-            "qwen/qwen3.8-27b:free",
-            "thinkingmachines/inkling:free",
-            "liquid/lfm-2.5-2.6b:free"
+            "nvidia/nemotron-3.5-super-vl:free",
+            "nvidia/nemotron-3.5-lightning:free",
+            "liquid/lfm-2.5-2.6b:free",
+            "nvidia/nemotron-3-super-120b-a12b:free"
         ]
         url = "https://openrouter.ai/api/v1/chat/completions"
         headers = {"Authorization": f"Bearer {or_key}", "Content-Type": "application/json"}
@@ -306,13 +307,18 @@ def extract_content(b64_img, page_text, prompt):
                 data = {
                     "model": model,
                     "messages": [{"role": "user", "content": prompt + "\n\nTEXT CONTENT OF PAGE:\n" + page_text[:2000]}],
-                    "temperature": 0.1
+                    "temperature": 0.1,
+                    "max_tokens": 1500
                 }
-                response = requests.post(url, headers=headers, json=data, timeout=25)
-                response.raise_for_status()
-                res_json = response.json()
-                raw_text = res_json["choices"][0]["message"]["content"]
-                return robust_json_loads(raw_text)
+                response = requests.post(url, headers=headers, json=data, timeout=(10, 30))
+                if response.status_code == 200:
+                    res_json = response.json()
+                    msg = res_json.get("choices", [{}])[0].get("message", {})
+                    raw_text = (msg.get("content") or msg.get("reasoning") or "").strip()
+                    if raw_text:
+                        return robust_json_loads(raw_text)
+                else:
+                    print(f"OpenRouter {model} status {response.status_code}: {response.text[:80]}")
             except Exception as e:
                 print(f"OpenRouter model {model} failed: {e}")
                 continue
