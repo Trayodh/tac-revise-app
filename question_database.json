@@ -621427,5 +621427,641 @@
     "question_type": "MCQ",
     "source_pdf": "nda_material.pdf",
     "source_page": 1270
+  },
+  {
+    "question_text": "61. Which of the following pairs are correct?\n(a) Sugamya Bharat : For disabled persons\n(b) SWAYAM : Online portal for Labour Ministry\n(c) Diamond quadrilateral : Ministry of Transport\n(d) Mission Indradhanush : Insurance sector",
+    "options": {
+      "A": "Sugamya Bharat : For disabled persons",
+      "B": "SWAYAM : Online portal for Labour Ministry",
+      "C": "Diamond quadrilateral : Ministry of Transport",
+      "D": "Mission Indradhanush : Insurance sector"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1272
+  },
+  {
+    "question_text": "The UNESCO declared which of the following islands as a World Biosphere Reserve under its Man and the Biosphere Programme in India?",
+    "options": {
+      "A": "Lakshadweep",
+      "B": "Miconi Islands",
+      "C": "Nicobar Islands",
+      "D": "Andaman and Nicobar Islands"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1306
+  },
+  {
+    "question_text": "97. Consider the following statement(s)\n1. The Paralympic games are where athletes with a physical disability compete.\n2. All Paralympic Games are governed by the International Paralympic Committee (IPC).\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "C",
+    "explanation": "Both statements are true. The Paralympic Games involve athletes with physical disabilities and are administered by the IPC.",
+    "subject": "General Knowledge",
+    "chapter": "Sports",
+    "topic": "Paralympic Games",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1307
+  },
+  {
+    "question_text": "Indian Army’s counter‑insurgency school is situated in",
+    "options": {
+      "A": "Kanker",
+      "B": "Srinager",
+      "C": "Tezpur",
+      "D": "Vairengte"
+    },
+    "correct_answer": "D",
+    "explanation": "The Counter‑Insurgency and Jungle Warfare School (CIJWS) of the Indian Army is located at Vairengte in the state of Mizoram.",
+    "subject": "Defence",
+    "chapter": "Training Institutes",
+    "topic": "Counter‑Insurgency School",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1308
+  },
+  {
+    "question_text": "Which among the following is not correct about Borlaug Award?",
+    "options": {
+      "A": "It is given for outstanding performance in the field of agriculture and environment",
+      "B": "It was created in 1974",
+      "C": "It carries a cash prize of `5 lakhs",
+      "D": "It was named in honour of Nobel Laureate Norman E Borlaug"
+    },
+    "correct_answer": "B",
+    "explanation": "The Borlaug Award was instituted in 1972, not 1974. All other statements are correct.",
+    "subject": "Defence",
+    "chapter": "Awards and Honors",
+    "topic": "Borlaug Award",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1308
+  },
+  {
+    "question_text": "In which state is the Rajiv Gandhi National Institute of Youth Development located?",
+    "options": {
+      "A": "Tamil Nadu",
+      "B": "Karnataka",
+      "C": "Himachal Pradesh",
+      "D": "Uttarakhand"
+    },
+    "correct_answer": "A",
+    "explanation": "The Rajiv Gandhi National Institute of Youth Development (RGNIYD) is situated in Chennai, Tamil Nadu.",
+    "subject": "General Knowledge",
+    "chapter": "Institutes",
+    "topic": "Youth Development Institute",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1308
+  },
+  {
+    "question_text": "Match the following:\nList I (Ships) – List II (Types)\nA. INS Arihant – 1. Aircraft carrier – 2. Landing platform dock – 3. Nuclear submarine – 4. Stealth frigate\nB. INS Vikrant – ...\nC. INS Shivalik – ...\nD. INS Airavat – ...\nSelect the correct code.",
+    "options": {
+      "A": "3 4 1 2",
+      "B": "3 1 4 2",
+      "C": "2 1 4 3",
+      "D": "2 4 1 3"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1308
+  },
+  {
+    "question_text": "Which one of the following countries had hosted the first winter Paralympic Games?",
+    "options": {
+      "A": "United States",
+      "B": "Russia",
+      "C": "Sweden",
+      "D": "Germany"
+    },
+    "correct_answer": "C",
+    "explanation": "The inaugural Winter Paralympic Games were held in 1976 at Örnsköldsvik, Sweden.",
+    "subject": "Sports",
+    "chapter": "Paralympic Games",
+    "topic": "First Winter Paralympic Games",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1309
+  },
+  {
+    "question_text": "Consider the following statement(s) regarding Pro Kabaddi League (PKL):\n1. PKL is a professional Kabaddi (indigenous sport) league based on the format of the Indian Premier League (IPL) T‑20 cricket tournament.\n2. The first edition of the tournament was played in 2014.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "C",
+    "explanation": "Both statements are true. PKL follows the IPL franchise model and its inaugural season was in 2014.",
+    "subject": "Sports",
+    "chapter": "Kabaddi",
+    "topic": "Pro Kabaddi League Overview",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1309
+  },
+  {
+    "question_text": "The five permanent members of the United Nations Security Council are:",
+    "options": {
+      "A": "Canada, China, France, USA, UK",
+      "B": "China, France, Russia, USA, UK",
+      "C": "Japan, Germany, Russia, USA, UK",
+      "D": "Germany, China, Russia, USA, UK"
+    },
+    "correct_answer": "B",
+    "explanation": "The permanent members (P5) are China, France, Russia, the United States, and the United Kingdom.",
+    "subject": "International Relations",
+    "chapter": "United Nations",
+    "topic": "Security Council Permanent Members",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1309
+  },
+  {
+    "question_text": "Which of the following committees is not constituted for poverty estimation?\n1. Lakdawala\n2. S.D. Tendulkar\n3. N.C. Saxena",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "2 and 3",
+      "D": "None of these"
+    },
+    "correct_answer": "D",
+    "explanation": "All three committees – Lakdawala, Tendulkar, and Saxena – were set up to estimate poverty in India; therefore, none of them is unrelated to poverty estimation.",
+    "subject": "Economics",
+    "chapter": "Poverty Estimation",
+    "topic": "Committees on Poverty Measurement",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1309
+  },
+  {
+    "question_text": "Consider the following statements about the historic Paris Climate Agreement on Earth Day.\n1. All the countries agreed to work to limit global temperature rise to well below 2 °C.\n2. It takes into account the principle of equity and common but differentiated responsibilities.\n3. Developed countries will provide 100 billion dollars annually to the developing counterparts beginning in 2010.\nWhich of the statements given above are correct?",
+    "options": {
+      "A": "1 and 2",
+      "B": "2 and 3",
+      "C": "1 and 3",
+      "D": "All of these"
+    },
+    "correct_answer": "A",
+    "explanation": "Statements 1 and 2 correctly describe the Paris Agreement. Statement 3 is inaccurate; the $100 bn pledge was agreed to be mobilised by 2020, not starting in 2010.",
+    "subject": "Environment",
+    "chapter": "Climate Agreements",
+    "topic": "Paris Agreement Provisions",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1309
+  },
+  {
+    "question_text": "Which among the following islands in the South China Sea are the source of conflict between several countries?",
+    "options": {
+      "A": "Marshall Islands",
+      "B": "Solomon Islands",
+      "C": "Kuril Islands",
+      "D": "Spratly Islands"
+    },
+    "correct_answer": "D",
+    "explanation": "The Spratly Islands are contested by multiple nations due to overlapping sovereignty claims and strategic importance.",
+    "subject": "Geography",
+    "chapter": "International Disputes",
+    "topic": "Territorial Conflicts",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1310
+  },
+  {
+    "question_text": "Who among the following led India to their first overseas test victory in cricket?",
+    "options": {
+      "A": "CK Nayudu",
+      "B": "MAK Pataudi",
+      "C": "Sunil Gavaskar",
+      "D": "Bishen Singh Bedi"
+    },
+    "correct_answer": "B",
+    "explanation": "Mansoor Ali Khan Pataudi captained India to its first overseas Test win in 1971 against the West Indies in Port of Spain.",
+    "subject": "History / Sports",
+    "chapter": "Cricket Milestones",
+    "topic": "Leadership",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1310
+  },
+  {
+    "question_text": "Dhanush, a missile inducted into the Indian Navy:",
+    "options": {
+      "A": "is a customised and naval variant of Prithvi missile",
+      "B": "has a range of 700 km",
+      "C": "can be launched from an aircraft",
+      "D": "cannot carry nuclear warheads"
+    },
+    "correct_answer": "A",
+    "explanation": "Dhanush is indeed a naval variant of the Prithvi missile. Its range is about 350 km, it is ship‑launched (not aircraft‑borne), and it can carry nuclear warheads.",
+    "subject": "Defense Studies",
+    "chapter": "Missile Systems",
+    "topic": "Dhanush Missile",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1310
+  },
+  {
+    "question_text": "Which of the following statement(s) is/are correct?\n1. The Indian Army is organised into five Regional Commands.\n2. The headquarters of Northern Command is located at Lucknow.",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "D",
+    "explanation": "The Indian Army has seven operational commands, not five, and the Northern Command HQ is at Udhampur, not Lucknow.",
+    "subject": "Defense Studies",
+    "chapter": "Indian Army Organization",
+    "topic": "Command Structure",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1310
+  },
+  {
+    "question_text": "Dhanush, a missile inducted into the Indian Navy:",
+    "options": {
+      "A": "is a customised and naval variant of Prithvi missile",
+      "B": "has a range of 700 km",
+      "C": "can be launched from an aircraft",
+      "D": "cannot carry nuclear warheads"
+    },
+    "correct_answer": "A",
+    "explanation": "Same as question 3 – Dhanush is the naval version of the Prithvi missile.",
+    "subject": "Defense Studies",
+    "chapter": "Missile Systems",
+    "topic": "Dhanush Missile",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1310
+  },
+  {
+    "question_text": "Who among the following led India to their first overseas test victory in cricket?",
+    "options": {
+      "A": "CK Nayudu",
+      "B": "MAK Pataudi",
+      "C": "Sunil Gavaskar",
+      "D": "Bishen Singh Bedi"
+    },
+    "correct_answer": "B",
+    "explanation": "Same as question 2 – MAK Pataudi captained the historic win.",
+    "subject": "History / Sports",
+    "chapter": "Cricket Milestones",
+    "topic": "Leadership",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1310
+  },
+  {
+    "question_text": "The only operational Naval Base exclusively controlled by the Indian Navy is located at:",
+    "options": {
+      "A": "Puducherry",
+      "B": "Okha",
+      "C": "Karwar",
+      "D": "Kakinada"
+    },
+    "correct_answer": "C",
+    "explanation": "INS Kadamba at Karwar is the sole naval base under exclusive Indian Navy control.",
+    "subject": "Defense Studies",
+    "chapter": "Naval Infrastructure",
+    "topic": "Naval Bases",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1310
+  },
+  {
+    "question_text": "Match the following:\nList I – List II\nA. Jabalpur\nB. Bengaluru\nC. Modinagar\nD. Ballarpur\n1. Petro‑Chemical\n2. Information Technology\n3. Paper\n4. Automobile",
+    "options": {
+      "A": "4 1 2 3",
+      "B": "3 1 2 4",
+      "C": "3 2 1 4",
+      "D": "4 2 1 3"
+    },
+    "correct_answer": "C",
+    "explanation": "Typical industry‑city mapping: Jabalpur – Automobile, Bengaluru – IT, Modinagar – Paper, Ballarpur – Petro‑Chemical.",
+    "subject": "General Knowledge",
+    "chapter": "Industrial Hubs",
+    "topic": "City‑Industry Mapping",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1310
+  },
+  {
+    "question_text": "‘Operation Cactus’ is the name given to Indian military intervention in:",
+    "options": {
+      "A": "Maldives",
+      "B": "Sri Lanka",
+      "C": "Bangladesh",
+      "D": "Bhutan"
+    },
+    "correct_answer": "A",
+    "explanation": "Operation Cactus (1991) restored the elected government of the Maldives after a coup attempt.",
+    "subject": "Defense Studies",
+    "chapter": "Military Operations",
+    "topic": "Operation Cactus",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1310
+  },
+  {
+    "question_text": "‘Navroze’ is a festival celebrated in India by the:",
+    "options": {
+      "A": "Hindus",
+      "B": "Sikhs",
+      "C": "Parsis",
+      "D": "Christians"
+    },
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1310
+  },
+  {
+    "question_text": "Which of the following statement(s) about ‘chit fund’ in India is/are correct?\n1. It is a kind of savings scheme.\n2. There are no acts regulating the activities relating to chit funds in India.\nSelect the correct answer using the codes given below.",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "A",
+    "explanation": "Chit funds are a form of rotating savings and credit association, thus statement 1 is true. Their operations are regulated by the Chit Funds Act, 1982, making statement 2 false. Hence only statement 1 is correct.",
+    "subject": "General Knowledge",
+    "chapter": "Economy",
+    "topic": "Chit Funds",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1311
+  },
+  {
+    "question_text": "Which one among the following about Professor CNR Rao is not correct?\n(A) He worked mainly in solid-state and structural chemistry\n(B) He is the head of the Scientific Advisory Council to the President of India\n(C) He was conferred with China’s top science award for the year 2013 for his contributions in boosting Sino-Indian scientific co-operation\n(D) He is a member of the US National Academy of Sciences",
+    "options": {
+      "A": "He worked mainly in solid-state and structural chemistry",
+      "B": "He is the head of the Scientific Advisory Council to the President of India",
+      "C": "He was conferred with China’s top science award for the year 2013 for his contributions in boosting Sino-Indian scientific co-operation",
+      "D": "He is a member of the US National Academy of Sciences"
+    },
+    "correct_answer": "C",
+    "explanation": "Prof. C.N.R. Rao has never received China’s top science award; the other statements are accurate. Therefore option C is the incorrect statement.",
+    "subject": "Science & Technology",
+    "chapter": "Notable Scientists",
+    "topic": "Prof. C.N.R. Rao",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1311
+  },
+  {
+    "question_text": "Identify the person from the information given below.\nHe was a popular Urdu poet and Hindi lyricist, who worked extensively in Hindi films. He was a Padma Shri and won two Filmfare awards. The President of India recently released a commemorative postage stamp on his birth anniversary at Rashtrapati Bhavan.",
+    "options": {
+      "A": "Khayyam",
+      "B": "Sahir Ludhianvi",
+      "C": "Ali Sardar Jafri",
+      "D": "Salik Lucknawi"
+    },
+    "correct_answer": "B",
+    "explanation": "Sahir Ludhianvi fits all the clues: celebrated Urdu poet‑lyricist, Padma Shri awardee, two Filmfare Best Lyricist awards, and honoured with a postage stamp released by the President.",
+    "subject": "Arts & Culture",
+    "chapter": "Literature & Film",
+    "topic": "Sahir Ludhianvi",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1311
+  },
+  {
+    "question_text": "Which one among the following is an indigenously built Weapon System Integrated helicopter handed over to the Indian Army in February, 2013 by Hindustan Aeronautics Limited?",
+    "options": {
+      "A": "Varun",
+      "B": "Indra",
+      "C": "Rudra",
+      "D": "Shiva"
+    },
+    "correct_answer": "C",
+    "explanation": "The HAL **Rudra**, an armed version of the Dhruv helicopter, was delivered to the Indian Army in February 2013, marking an indigenous weapon‑system‑integrated helicopter.",
+    "subject": "Defence",
+    "chapter": "Indigenous Weapon Systems",
+    "topic": "HAL Rudra",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1311
+  },
+  {
+    "question_text": "Which of the following statement(s) about Dr Aparajita Datta is/are correct?\n1. She is a wildlife biologist.\n2. She has been working for the conservation of hornbills in the dense tropical forests of Arunachal Pradesh.\n3. She was honoured with the Whitley Award, also known as Green Oscar, in the year 2013 in London.\nSelect the correct answer using the codes given below.",
+    "options": {
+      "A": "Only 3",
+      "B": "2 and 3",
+      "C": "1 and 2",
+      "D": "All of these"
+    },
+    "correct_answer": "D",
+    "explanation": "All three statements are true: Dr. Aparajita Datta is a wildlife biologist, works on hornbill conservation in Arunachal Pradesh, and received the Whitley (Green Oscar) Award in 2013.",
+    "subject": "Environment & Wildlife",
+    "chapter": "Conservationists",
+    "topic": "Dr. Aparajita Datta",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1311
+  },
+  {
+    "question_text": "Which one among the following is not true about Bal Gangadhar Tilak?",
+    "options": {
+      "A": "He started the New English School in Poona",
+      "B": "He founded the Shri Shivaji Fund Committee for celebration of Shiv Jayanti",
+      "C": "He preached the cult of self‑reliance",
+      "D": "He transformed the household worshipping of Ganesha into a public event"
+    },
+    "correct_answer": "B",
+    "explanation": "While Tilak was instrumental in popularising Shivaji Jayanti, the specific \"Shri Shivaji Fund Committee\" was not founded by him; it was later formed by other organisations. The other three statements are historically accurate.",
+    "subject": "History",
+    "chapter": "Freedom Fighters",
+    "topic": "Bal Gangadhar Tilak",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1312
+  },
+  {
+    "question_text": "In the term GIS, ‘G’ stands for",
+    "options": {
+      "A": "Global",
+      "B": "Geographic",
+      "C": "Goodness",
+      "D": "Geological"
+    },
+    "correct_answer": "B",
+    "explanation": "GIS stands for **Geographic Information System**, where the ‘G’ denotes Geographic.",
+    "subject": "Geography / Technology",
+    "chapter": "GIS",
+    "topic": "Terminology",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1312
+  },
+  {
+    "question_text": "Consider the following statement(s) about Indian Regional Navigation Satellite System (IRNSS). 1. IRNSS is a constellation of five satellites, which were launched by PSLV. 2. It is an independent regional navigation satellite system designed to provide position information in the Indian region. Which of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "B",
+    "explanation": "IRNSS actually consists of **seven** satellites (not five). However, it is indeed an independent regional navigation system for India, making only statement 2 correct.",
+    "subject": "Space Technology",
+    "chapter": "Navigation Satellites",
+    "topic": "IRNSS",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1312
+  },
+  {
+    "question_text": "The National Defence Academy has foreign cadets from which of the following countries? 1. Bhutan 2. Bangladesh 3. Nepal 4. Afghanistan. Select the correct answer using the codes given below.",
+    "options": {
+      "A": "1 and 2",
+      "B": "1, 3 and 4",
+      "C": "3 and 4",
+      "D": "All of these"
+    },
+    "correct_answer": "D",
+    "explanation": "NDA admits cadets from **Bhutan, Bangladesh, Nepal, and Afghanistan**, so all four countries are represented.",
+    "subject": "Defence",
+    "chapter": "National Defence Academy",
+    "topic": "Foreign Cadets",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1312
+  },
+  {
+    "question_text": "Who among the following cricket players has not died while playing a match?",
+    "options": {
+      "A": "Wasim Raja",
+      "B": "Phillip Hughes",
+      "C": "Vijay Hazare",
+      "D": "Raman Lamba"
+    },
+    "correct_answer": "C",
+    "explanation": "Vijay Hazare died of natural causes in 2004, not during a cricket match. The other three cricketers died as a result of injuries sustained while playing.",
+    "subject": "Sports",
+    "chapter": "Cricket",
+    "topic": "Player Trivia",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1313
+  },
+  {
+    "question_text": "Which one among the following films was conferred the ‘Golden Peacock’ Award at the 45th International Film Festival of India 2014?",
+    "options": {
+      "A": "Ek Hazarachi Note",
+      "B": "A Short Story",
+      "C": "Leviathan",
+      "D": "Ajeyo"
+    },
+    "correct_answer": "C",
+    "explanation": "The Golden Peacock (Best Film) at IFFI 2014 was awarded to the Russian film **\"Leviathan\"**, directed by Andrey Zvyagintsev.",
+    "subject": "General Knowledge",
+    "chapter": "International Film Festivals",
+    "topic": "Golden Peacock Award",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1313
+  },
+  {
+    "question_text": "Which one of the following books won the Man Booker Prize, 2014?",
+    "options": {
+      "A": "History of the Rain",
+      "B": "The Lives of Others",
+      "C": "The Narrow Road to the Deep North",
+      "D": "How to be Both"
+    },
+    "correct_answer": "C",
+    "explanation": "The Man Booker Prize 2014 was awarded to **\"The Narrow Road to the Deep North\"** by Richard Flanagan.",
+    "subject": "Literature",
+    "chapter": "Literary Awards",
+    "topic": "Man Booker Prize 2014",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1313
+  },
+  {
+    "question_text": "East zone won the prestigious Deodhar Trophy cricket tournament 2014-15 by defeating",
+    "options": {
+      "A": "South zone",
+      "B": "Central zone",
+      "C": "West zone",
+      "D": "North zone"
+    },
+    "correct_answer": "C",
+    "explanation": "In the 2014‑15 Deodhar Trophy final, **East Zone** defeated **West Zone** to clinch the title.",
+    "subject": "Sports",
+    "chapter": "Cricket",
+    "topic": "Deodhar Trophy 2014‑15",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1313
+  },
+  {
+    "question_text": "The first Indian satellite, Aryabhatta, was launched in the year",
+    "options": {
+      "A": "1972",
+      "B": "1975",
+      "C": "1976",
+      "D": "1979"
+    },
+    "correct_answer": "B",
+    "explanation": "Aryabhatta, India's first satellite, was launched on **12 April 1975** by ISRO.",
+    "subject": "Science",
+    "chapter": "Space",
+    "topic": "First Indian Satellite",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1313
+  },
+  {
+    "question_text": "Which one of the following sea routes is the shortest from point to point?",
+    "options": {
+      "A": "Kolkata to Yangoon",
+      "B": "Kolkata to Chennai",
+      "C": "Chennai to Port Blair",
+      "D": "Mumbai to Columbo"
+    },
+    "correct_answer": "A",
+    "explanation": "The sea distance between **Kolkata and Yangon** (~800 km) is shorter than the other listed routes.",
+    "subject": "General Knowledge",
+    "chapter": "Maritime Geography",
+    "topic": "Shortest Sea Route",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1313
+  },
+  {
+    "question_text": "The SAARC Secretariat is located at",
+    "options": {
+      "A": "New Delhi",
+      "B": "Columbo",
+      "C": "Kathmandu",
+      "D": "Karachi"
+    },
+    "correct_answer": "C",
+    "explanation": "The Secretariat of the South Asian Association for Regional Cooperation (SAARC) is based in **Kathmandu, Nepal**.",
+    "subject": "General Knowledge",
+    "chapter": "International Organizations",
+    "topic": "SAARC Secretariat",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1313
+  },
+  {
+    "question_text": "Who among the following is the author of the book ‘Pakistan Paradox : Instability and Resilience’?",
+    "options": {
+      "A": "Christopher Jaffrelot",
+      "B": "G Parthasarathy",
+      "C": "Imran Khan",
+      "D": "Mamnoon Hussain"
+    },
+    "correct_answer": "B",
+    "explanation": "The book **\"Pakistan Paradox: Instability and Resilience\"** was written by **G. Parthasarathy**, a political scientist.",
+    "subject": "Political Science",
+    "chapter": "Books",
+    "topic": "Pakistan Studies",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1313
+  },
+  {
+    "question_text": "Which one of the following was the theme of the ‘International Day of United Nations Peacekeepers’ for the year 2015?",
+    "options": {
+      "A": "Peacekeeping is a Global Partnership",
+      "B": "UN70 and UN Peacekeeping : Past, Present and Future",
+      "C": "Women in Peacekeeping",
+      "D": "A Force for the Future"
+    },
+    "correct_answer": "C",
+    "explanation": "The 2015 theme for the International Day of UN Peacekeepers was **\"Women in Peacekeeping\"**.",
+    "subject": "International Relations",
+    "chapter": "United Nations",
+    "topic": "Peacekeeping Day 2015",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1313
+  },
+  {
+    "question_text": "Indian athlete Vikas Gowda is associated with",
+    "options": {
+      "A": "wrestling",
+      "B": "sprint",
+      "C": "discus throw",
+      "D": "archery"
+    },
+    "correct_answer": "C",
+    "explanation": "Vikas Gowda is a prominent Indian **discus thrower**, having represented India in multiple international events.",
+    "subject": "Sports",
+    "chapter": "Athletics",
+    "topic": "Athlete Profile",
+    "source_pdf": "nda_material.pdf",
+    "source_page": 1313
   }
 ]

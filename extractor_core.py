@@ -280,6 +280,7 @@ def extract_content(b64_img, page_text, prompt):
     fallback_prompt = (
         "You are an expert exam content extractor for NDA/CDS/AFCAT.\n"
         "Extract all educational facts and practice questions from the following page text.\n"
+        "Directly output the final valid JSON format without reasoning or commentary.\n"
         "Output valid JSON format with keys:\n"
         "1. 'notes_database': list of objects with keys: 'subject', 'chapter', 'subchapter', 'topic', 'content' (detailed markdown notes, facts, definitions, formulas).\n"
         "2. 'question_database': list of MCQ objects with keys: 'question_text', 'options' (dict A,B,C,D), 'correct_answer', 'explanation', 'subject', 'chapter', 'topic'.\n"
@@ -290,7 +291,7 @@ def extract_content(b64_img, page_text, prompt):
     print("Gemini models exhausted. Trying Groq fallback with text...")
     groq_key = os.environ.get("GROQ_API_KEY")
     if groq_key and page_text and len(page_text.strip()) > 30:
-        groq_models = ["openai/gpt-oss-20b", "openai/gpt-oss-120b"]
+        groq_models = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"}
         
@@ -302,7 +303,7 @@ def extract_content(b64_img, page_text, prompt):
                         "model": g_model,
                         "messages": [{"role": "user", "content": fallback_prompt}],
                         "temperature": 0.1,
-                        "max_tokens": 1200
+                        "max_tokens": 3000
                     }
                     response = requests.post(url, headers=headers, json=data, timeout=45)
                     if response.status_code == 200:
