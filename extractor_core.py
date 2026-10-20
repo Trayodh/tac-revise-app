@@ -128,18 +128,31 @@ def robust_json_loads(raw_text):
     if not raw_text:
         raise ValueError("Empty response text")
     clean = raw_text.strip()
-    if clean.startswith('```json'):
-        clean = clean[7:]
-    if clean.startswith('```'):
-        clean = clean[3:]
-    if clean.endswith('```'):
-        clean = clean[:-3]
-    clean = clean.strip()
-    if '{' in clean:
-        s_idx = clean.find('{')
-        e_idx = clean.rfind('}')
-        if e_idx > s_idx:
-            clean = clean[s_idx:e_idx+1]
+    
+    import re
+    code_match = re.search(r'```(?:json)?\s*(\{[\s\S]*?\})\s*```', clean)
+    if code_match:
+        clean = code_match.group(1).strip()
+    else:
+        if clean.startswith('```json'):
+            clean = clean[7:]
+        if clean.startswith('```'):
+            clean = clean[3:]
+        if clean.endswith('```'):
+            clean = clean[:-3]
+        clean = clean.strip()
+        
+        target_idx = clean.find('"notes_database"')
+        if target_idx != -1:
+            s_idx = clean.rfind('{', 0, target_idx)
+            e_idx = clean.rfind('}')
+            if s_idx != -1 and e_idx > s_idx:
+                clean = clean[s_idx:e_idx+1]
+        elif '{' in clean:
+            s_idx = clean.find('{')
+            e_idx = clean.rfind('}')
+            if e_idx > s_idx:
+                clean = clean[s_idx:e_idx+1]
             
     try:
         return json.loads(clean, strict=False)
@@ -297,7 +310,7 @@ def extract_content(b64_img, page_text, prompt):
     print("Gemini models exhausted. Trying Groq fallback with text...")
     groq_key = os.environ.get("GROQ_API_KEY")
     if groq_key and page_text and len(page_text.strip()) > 30:
-        groq_models = ["qwen/qwen3.8-27b", "openai/gpt-oss-120b", "openai/gpt-oss-20b"]
+        groq_models = ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3.8-27b"]
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"}
         

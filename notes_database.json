@@ -141903,5 +141903,242 @@
     "content": "Factorisation is the process of expressing a polynomial as the product of other polynomials of lower degree.\n\n**Example**:\n```\n49x^2 - 7x = 7x(7x - 1)\n```\n\n**Important Identities**:\n- `(a + b)(a - b) = a^2 - b^2`\n- `(a + b)^2 = a^2 + 2ab + b^2`\n- `(a - b)^2 = a^2 - 2ab + b^2`\n- `(a + b)(a + c) = a^2 + a(b + c) + bc`\n- `(a + b)(a - b) = a^2 - b^2`\n- `(a + b)(a + b + c) = a^2 + a(b + c) + b(b + c)`\n- `(a - b)(a - b - c) = a^2 - a(b + c) + b(b + c)`",
     "source_pdf": "cds_material.pdf",
     "source_page": 406
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Compound and Special Ratios",
+    "topic": "Compounded Ratio",
+    "content": "### Compounded Ratio\\nThe compounded ratio of two or more simple ratios is obtained by multiplying the antecedents together to form the new antecedent and the consequents together to form the new consequent.\\n\\n**Formula:**\\nIf $a:b$ and $c:d$ are two ratios, their compounded ratio is $(a \\times c) : (b \\times d)$.\\n\\n**Example:**\\nIf $a:b = 2:3$ and $b:c = 4:5$, the compounded ratio of $a:b$ and $b:c$ is not directly defined in standard simple terms without a common term, but if we have $a:b$ and $c:d$, the compound ratio is $ac:bd$.\\n\\nIn the context of the provided solution for Question 1 (implied from hints):\\nIf ratios are given as $a:b$ and $b:c$, to find a combined ratio involving powers or specific combinations, one must align the common terms.\\n\\n**Subduplicate Ratio:**\\nThe subduplicate ratio of $a:b$ is $\\sqrt{a} : \\sqrt{b}$.\\n**Duplicate Ratio:**\\nThe duplicate ratio of $a:b$ is $a^2 : b^2$.\\n**Triplicate Ratio:**\\nThe triplicate ratio of $a:b$ is $a^3 : b^3$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 393
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Inverse Ratios",
+    "topic": "Speed, Time, and Distance Relationships",
+    "content": "### Inverse Ratios in Motion\\nWhen distance is constant, Speed and Time are inversely proportional.\\n\\n**Formula:**\\n$S \\times T = D$ (Constant)\\nTherefore, $S_1 \\times T_1 = S_2 \\times T_2 = S_3 \\times T_3$\\n\\nIf the ratio of speeds is $S_1 : S_2 : S_3$, then the ratio of times taken to cover the same distance is the inverse of the speed ratio.\\n\\n**Example:**\\nIf speeds are in the ratio $2 : 3 : 4$, the time ratio is $\\frac{1}{2} : \\frac{1}{3} : \\frac{1}{4}$.\\nTo simplify, multiply by the LCM of denominators (12):\\n$6 : 4 : 3$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 393
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Mixture Problems",
+    "topic": "Adding Components to Change Ratio",
+    "content": "### Mixture Problems: Adding a Component\\nWhen a component is added to a mixture, the quantity of the other component remains unchanged.\\n\\n**Method:**\\n1. Calculate the initial quantities of each component based on the given total volume and ratio.\\n2. Identify the component that remains constant (the one not being added).\\n3. Use the constant quantity to find the new total or the quantity of the added component based on the new ratio.\\n\\n**Example Logic:**\\nInitial Ratio Milk:Water = $7:3$.\\nTotal Volume = $30$ L.\\nMilk = $\\frac{7}{10} \\times 30 = 21$ L.\\nWater = $\\frac{3}{10} \\times 30 = 9$ L.\\n\\nNew Ratio Milk:Water = $1:2$.\\nMilk remains $21$ L.\\nIn the new ratio, Milk corresponds to 1 part.\\nSo, 1 part = $21$ L.\\nWater corresponds to 2 parts = $2 \\times 21 = 42$ L.\\nWater to be added = New Water - Old Water = $42 - 9 = 33$ L.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 393
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Income and Expenditure",
+    "topic": "Savings and Income Ratios",
+    "content": "### Income, Expenditure, and Savings\\n**Formula:**\\n$Income = Expenditure + Savings$\\n\\n**Method for Ratio Problems:**\\n1. Let the incomes be $9x$ and $7x$ (based on ratio $9:7$).\\n2. Let the expenditures be $4y$ and $3y$ (based on ratio $4:3$).\\n3. Set up equations based on savings:\\n   $9x - 4y = S_1$\\n   $7x - 3y = S_2$\\n4. If savings are equal ($S_1 = S_2$), equate the expressions to find the relationship between $x$ and $y$.\\n5. Solve for $x$ and $y$ using the given savings amount.\\n6. Calculate the difference in incomes: $|9x - 7x| = 2x$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 393
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Properties of Proportions",
+    "topic": "Equality of Ratios",
+    "content": "### Properties of Equal Ratios\\nIf $\\frac{a}{b} = \\frac{b}{c} = \\frac{c}{d} = k$, then:\\n\\n1. **Sum of Antecedents/Consequents:**\\n   $\\frac{a+b+c}{b+c+d} = k$ (Provided $b+c+d \\neq 0$)\\n   This validates statements like $\\frac{a+b+c}{b+c+d} = \\frac{a}{b}$.\\n\\n2. **Powers of Terms:**\\n   If $\\frac{a}{b} = \\frac{b}{c} = \\frac{c}{d}$, then $\\frac{a^3+b^3+c^3}{b^3+c^3+d^3} = \\frac{a}{b}$ is generally **not** true unless specific conditions are met (e.g., geometric progression properties). However, standard proportionality rules apply to linear sums.\\n\\n**Note on Question 65:**\\nStatement I: $\\frac{a+b+c}{b+c+d} = \\frac{a}{b}$ is correct by the property of equal ratios.\\nStatement II: $\\frac{a^2+b^2+c^2}{b^2+c^2+d^2} = \\frac{a}{b}$ is generally incorrect for arbitrary equal ratios unless the sequence is a specific geometric progression where the ratio of sums of squares holds, which is not a standard general property. Usually, only the linear sum property is universally accepted in basic ratio problems.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 393
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Solving Equations",
+    "topic": "Componendo and Dividendo Rule",
+    "content": "The **componendo** and **dividendo** rule is a technique used to solve equations of the form \\(\\frac{a}{b} = \\frac{c}{d}\\). It states that if \\(\\frac{a}{b} = \\frac{c}{d}\\), then \\(\\frac{a+c}{b+d} = \\frac{a}{b}\\) and \\(\\frac{a}{b} = \\frac{a-c}{b-d}\\). This rule is particularly useful when the equation can be transformed into a proportion where the sum or difference of the numerators and denominators simplifies the problem. \\n\\n**Example**: Solve \\(\\frac{x+3}{x-2} = \\frac{5}{7}\\). Using componendo: \\(\\frac{(x+3)+5}{(x-2)+7} = \\frac{x+3}{x-2}\\) leading to a simpler linear equation.\\n\\n**Key Formula**: If \\(\\frac{a}{b} = \\frac{c}{d}\\), then \\(\\frac{a+c}{b+d} = \\frac{a}{b}\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 394
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "Least Common Multiple (LCM)",
+    "topic": "LCM of Multiple Numbers",
+    "content": "The **Least Common Multiple (LCM)** of a set of integers is the smallest positive integer that is a multiple of each number in the set. \\n\\n**Procedure**:\\n1. Factor each number into primes.\\n2. For each distinct prime, take the highest power that appears in any factorization.\\n3. Multiply these primes together.\\n\\n**Example**: LCM of 20, 25, 30, and 15.\\n- 20 = 2²·5\\n- 25 = 5²\\n- 30 = 2·3·5\\n- 15 = 3·5\\n\\nHighest powers: 2², 3¹, 5² → LCM = 2²·3·5² = 300.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 394
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratios and Proportions",
+    "subchapter": "Finding Ratios from Conditions",
+    "topic": "Ratio Determination",
+    "content": "When given a condition that relates parts of a whole, the ratio can often be found by setting up equations based on the given relationships.\\n\\n**Example**: If the ratio of two numbers is \\(7:20\\) and the ratio of the same two numbers is also \\(13:25\\) when multiplied by a common factor, the smallest ratio that satisfies both conditions is \\(7:20\\).\\n\\n**Key Insight**: The smallest ratio that satisfies multiple proportional conditions is the one with the smallest common multiple of the denominators.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 394
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Parts of a Number",
+    "topic": "Splitting a Number into Parts with Given Ratios",
+    "content": "When a number is divided into parts such that the reciprocals of the parts are in a given ratio, the parts themselves are in the inverse ratio.\\n\\n**Example**: If \\(\\frac{1}{A}:\\frac{1}{B}:\\frac{1}{C} = 1/2:1/3:1/6\\), then \\(A:B:C = 2:3:6\\). If the sum of the parts is 1870, then solving \\(2x+3x+6x=1870\\) gives \\(x=170\\), so the parts are 340, 510, and 1020.\\n\\n**Formula**: If \\(\\frac{1}{A}:\\frac{1}{B}:\\frac{1}{C} = p:q:r\\), then \\(A:B:C = 1/p:1/q:1/r\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 394
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "Cube Roots",
+    "topic": "Solving Equations Involving Cube Roots",
+    "content": "Equations that involve cube roots can often be simplified by isolating the cube root term and then cubing both sides to eliminate the root.\\n\\n**Example**: Solve \\(\\sqrt[3]{x+3} - \\sqrt[3]{x-2} = 1\\). Let \\(a = \\sqrt[3]{x+3}\\) and \\(b = \\sqrt[3]{x-2}\\). Then \\(a - b = 1\\) and \\(a^3 - b^3 = 5\\). Using the identity \\(a^3 - b^3 = (a-b)(a^2+ab+b^2)\\), we find \\(a^2+ab+b^2 = 5\\). Substituting \\(a = b+1\\) and solving yields \\(x = 11\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 394
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Simplifying Fractions",
+    "topic": "Dividing Numerator and Denominator by Common Factors",
+    "content": "To simplify a fraction, divide both the numerator and the denominator by their greatest common divisor (GCD). \\n\\n**Example**: Simplify \\(\\frac{12x^2 - 8x}{4x}\\). The GCD of the coefficients is 4 and the common factor of \\(x\\) is 1, so dividing gives \\(\\frac{3x - 2}{1}\\) or simply \\(3x - 2\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 394
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratios and Proportions",
+    "subchapter": "Finding Ratios from Sum Conditions",
+    "topic": "Ratio from Sum of Parts",
+    "content": "When two numbers add up to a known total and their ratio is given, the individual numbers can be found by solving a system of equations.\\n\\n**Example**: If the ratio of two numbers is \\(x: (x+40)\\) and their sum is 56, then \\(x + (x+40) = 56\\) leads to \\(x = 16\\). Thus the ratio is \\(16:56\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 394
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratios and Proportions",
+    "subchapter": "Compound Ratios",
+    "topic": "Finding a Three-Part Ratio",
+    "content": "When given two consecutive ratios, the third ratio can be found by multiplying the two ratios.\\n\\n**Example**: If \\(P:Q = 3:5\\) and \\(Q:R = 3:4\\), then \\(P:R = (3/5) \\times (3/4) = 9/20\\). The combined ratio \\(P:Q:R\\) is \\(9:20:15\\) after clearing denominators.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 394
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Direct and Inverse Proportion",
+    "topic": "Direct Proportion",
+    "content": "In a direct proportion relationship, the two quantities \\(x\\) and \\(y\\) are related by the equation **\\(y = kx\\)** where **\\(k\\)** is the constant of proportionality. The constant can be found as **\\(k = \\frac{y}{x}\\)**. Example from the text: If age = 9 yr and height = 4 ft, then \\(k = \\frac{4}{9}\\). The solution in the page incorrectly simplifies to \\(\\frac{4}{3}\\); the correct method is shown here.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 397
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Mixture Problems",
+    "topic": "Mixture in a Given Ratio",
+    "content": "When two substances are mixed in a known ratio \\(a:b\\) and the total quantity of the mixture is known, the individual quantities can be expressed as:\n- Let the common multiplier be \\(x\\).\n- Quantity of first substance = \\(a\\times x\\).\n- Quantity of second substance = \\(b\\times x\\).\n- Total mixture = \\((a+b)\\times x\\).\n\n**Example (from the page):**\n- Milk : Water = 7 : 3.\n- Total mixture = 30 L.\n- Hence, \\(7x + 3x = 30 \\Rightarrow 10x = 30 \\Rightarrow x = 3\\).\n- Milk = \\(7x = 21\\) L, Water = \\(3x = 9\\) L.\n\nIf additional water \\(y\\) litres is added to change the ratio to 1:2 (Milk : Water), then:\n\\(\\frac{21}{9+y} = \\frac{1}{2} \\Rightarrow 42 = 9 + y \\Rightarrow y = 33\\) L.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 397
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Time, Speed and Distance",
+    "topic": "Time Ratio for Same Distance",
+    "content": "For a given distance, the time taken by a vehicle is inversely proportional to its speed:\n\\[\\text{Time} \\propto \\frac{1}{\\text{Speed}}\\]\nIf three buses travel the same distance with speeds \\(2\\,\\text{km/h}, 3\\,\\text{km/h}, 4\\,\\text{km/h}\\) respectively, the ratio of times taken is the reciprocal of the speed ratio:\n\\[\\frac{1}{2} : \\frac{1}{3} : \\frac{1}{4} = 6 : 4 : 3\\].",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 397
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Compound Ratios",
+    "topic": "Finding Combined Ratio",
+    "content": "When two ratios are given, e.g., \\(a:b = 3:5\\) and \\(b:c = 7:8\\), the combined ratio \\(a:b:c\\) can be obtained by equating the common term (here \\(b\\)).\n- Write \\(a:b = 3:5\\) → \\(a = 3k,\\; b = 5k\\).\n- Write \\(b:c = 7:8\\) → \\(b = 7m,\\; c = 8m\\).\n- Equate the two expressions for \\(b\\): \\(5k = 7m\\).\n- Choose the least common multiple of 5 and 7 (35) to find \\(k = 7\\) and \\(m = 5\\).\n- Substitute back: \\(a = 3k = 21\\), \\(b = 5k = 35\\), \\(c = 8m = 40\\).\n- Simplify the ratio: \\(a:b:c = 21:35:40 = 6:15:40\\).\nThe page shows the final ratio as **6 : 15 : 40**.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 397
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Properties and Rules",
+    "topic": "Fundamental Logarithm Rules",
+    "content": "### Key Logarithm Rules\\n1. **Product Rule**: $\\log_b(xy) = \\log_b x + \\log_b y$\\n2. **Quotient Rule**: $\\log_b(\\frac{x}{y}) = \\log_b x - \\log_b y$\\n3. **Power Rule**: $\\log_b(x^n) = n \\log_b x$\\n4. **Change of Base**: $\\log_a b = \\frac{\\log_c b}{\\log_c a}$\\n5. **Reciprocal Property**: $\\log_a b = \\frac{1}{\\log_b a}$\\n6. **Identity**: $\\log_b b = 1$ and $\\log_b 1 = 0$\\n7. **Exponentiation**: $b^{\\log_b x} = x$\\n\\n### Application Notes\\n- When simplifying expressions like $\\log_{10} 1000$, note that $1000 = 10^3$, so $\\log_{10} 1000 = 3$.\\n- For nested logs like $\\log_{10}(5 \\log_{10} 100)$, simplify the inner log first: $\\log_{10} 100 = 2$, then $\\log_{10}(5 \\times 2) = \\log_{10} 10 = 1$.\\n- In series like $\\log_{10}(\\frac{3}{2}) + \\log_{10}(\\frac{4}{3}) + \\dots$, the terms telescope. The $n$-th term is $\\log_{10}(\\frac{n+1}{n})$. The sum up to the 8th term is $\\log_{10}(\\frac{9}{2})$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 403
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Factorisation of Polynomials",
+    "subchapter": "Perfect Square Quadratics",
+    "topic": "Perfect Square Identities",
+    "content": "# Perfect Square Quadratic Identities\n\nA quadratic expression that can be written as the square of a binomial is called a **perfect square quadratic**. The two fundamental identities are:\n\n1. **Square of a Sum**\n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \\",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 407
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "subchapter": "Polynomials",
+    "topic": "Remainder Theorem",
+    "content": "### Remainder Theorem\nLet \\(p(x)\\) be a polynomial of degree \\(n \\ge 1\\) and let \\(a\\) be any real number. When \\(p(x)\\) is divided by the linear polynomial \\((x-a)\\), the remainder is the constant \\(p(a)\\).\n\n**How to use:**\n1. Substitute \\(x = a\\) in the polynomial \\(p(x)\\).\n2. The obtained value is the remainder.\n\n**Formula:**\n\\[ \\text{If } p(x) = (x-a)q(x) + r, \\text{ then } r = p(a). \\]\n\n**Example:**\nFind the remainder when \\(12x^{13} - 5x^{9} + 3x^{2}\\) is divided by \\(\\frac{3}{2}x + 1\\).\n- Set the divisor to zero: \\(\\frac{3}{2}x + 1 = 0 \\Rightarrow x = -\\frac{2}{3}\\).\n- Evaluate \\(p\\bigl(-\\frac{2}{3}\\bigr) = 3\\).\nThus the remainder is **3**.",
+    "type": "note",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 408
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "subchapter": "Polynomials",
+    "topic": "Factor Theorem",
+    "content": "### Factor Theorem\nLet \\(p(x)\\) be a polynomial of degree \\(n \\ge 1\\) and \\(a\\) be any real number.\n\n1. **If** \\(p(a) = 0\\), **then** \\((x-a)\\) is a factor of \\(p(x)\\).\n2. **Conversely**, **if** \\((x-a)\\) is a factor of \\(p(x)\\), **then** \\(p(a) = 0\\).\n\nThis theorem is a direct consequence of the Remainder Theorem, because a zero remainder means the divisor \\((x-a)\\) divides the polynomial exactly.\n\n**Example:**\nDetermine the value(s) of \\(k\\) for which the polynomial\n\\[ P(x) = 4x^{9} - 7x^{5} + 4x^{3} + 5x^{4} - 3x^{2} + 2 + kx + k \\]\nhas \\((x-1)\\) as a factor.\n- Set \\(x = 1\\) and require \\(P(1) = 0\\).\n- Solving gives \\(k = \\frac{1}{3}\\).\nHence \\(k = \\frac{1}{3}\\) makes \\((x-1)\\) a factor of \\(P(x)\\).",
+    "type": "note",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 408
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "subchapter": "Polynomials",
+    "topic": "Synthetic Division (Division Synthetic Algorithm)",
+    "content": "### Synthetic Division (Division Synthetic Algorithm)\nIf \\(p(x)\\) and \\(g(x)\\) are two polynomials with \\(g(x) \\neq 0\\), we can find polynomials \\(q(x)\\) (quotient) and \\(r(x)\\) (remainder) such that\n\\[ p(x) = g(x)\\,q(x) + r(x). \\]\nWhen \\(g(x)\\) is a linear factor of the form \\((x-a)\\), synthetic division provides a quick way to compute \\(q(x)\\) and the remainder \\(r = p(a)\\).\n\n**Steps:**\n1. Write down the coefficients of \\(p(x)\\) in descending powers of \\(x\\).\n2. Bring down the leading coefficient.\n3. Multiply it by \\(a\\) (the root of the divisor) and add to the next coefficient.\n4. Repeat the multiplication‑addition process until the last coefficient.\n5. The final number obtained is the remainder; the other numbers give the coefficients of \\(q(x)\\).\n\n**Advantages:**\n- Faster than long division for linear divisors.\n- Directly yields the remainder, which is useful for applying the Remainder and Factor Theorems.",
+    "type": "note",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 408
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Polynomials and Factorization",
+    "topic": "Factorization of Expressions",
+    "content": "### Factorization Techniques\\n1. **Difference of Squares**: $a^2 - b^2 = (a-b)(a+b)$.\\n2. **Sum/Difference of Cubes**: \\n   - $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$\\n   - $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$\\n3. **General Factorization**: For expressions like $x^4 + x^2 + 1$, add and subtract $x^2$ to form a difference of squares: $(x^2+1)^2 - x^2 = (x^2+1-x)(x^2+1+x)$.\\n4. **Symmetric Polynomials**: For expressions involving $a^2, b^2, c^2, d^2$ and products like $abcd$, look for groupings that form differences of squares or common factors.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 410
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Polynomials and Factorization",
+    "topic": "Remainder and Factor Theorems",
+    "content": "### Remainder Theorem\\nIf a polynomial $f(x)$ is divided by a linear divisor $(x - c)$, the remainder is $f(c)$.\\n- If divided by $(ax - b)$, the remainder is $f(b/a)$.\\n\\n### Factor Theorem\\n- $(x - c)$ is a factor of $f(x)$ if and only if $f(c) = 0$.\\n- $(ax - b)$ is a factor of $f(x)$ if and only if $f(b/a) = 0$.\\n\\n### Application\\nTo find coefficients $p$ and $q$ in $px^3 + x^2 - x - q$ divisible by $(x-1)$ and $(x+1)$:\\n1. Set $f(1) = 0 \\Rightarrow p + 1 - 1 - q = 0 \\Rightarrow p = q$.\\n2. Set $f(-1) = 0 \\Rightarrow -p + 1 + 1 - q = 0 \\Rightarrow p + q = 2$.\\n3. Solving gives $p=1, q=1$ (Note: Specific values depend on the exact polynomial structure in the question).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 410
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Algebraic Identities",
+    "topic": "Identity: $x^3 + y^3 + z^3 - 3xyz$",
+    "content": "### Key Identity\\n$$x^3 + y^3 + z^3 - 3xyz = (x+y+z)(x^2 + y^2 + z^2 - xy - yz - zx)$$\\n\\n### Special Case\\nIf $x + y + z = 0$, then:\\n$$x^3 + y^3 + z^3 = 3xyz$$\\n\\n### Application\\nGiven $x = (b-c)(a-d)$, $y = (c-a)(b-d)$, $z = (a-b)(c-d)$:\\nCheck if $x+y+z = 0$. If yes, then $x^3 + y^3 + z^3 = 3xyz$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 410
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Algebraic Expressions",
+    "topic": "Solving for Variables using Symmetry",
+    "content": "### System of Equations with Symmetry\\nGiven:\\n1. $x(x+y+z) = A$\\n2. $y(x+y+z) = B$\\n3. $z(x+y+z) = C$\\n\\nLet $S = x+y+z$. Then:\\n$x = A/S, y = B/S, z = C/S$.\\nSubstitute into $S = x+y+z$:\\n$S = (A+B+C)/S \\Rightarrow S^2 = A+B+C \\Rightarrow S = \\sqrt{A+B+C}$.\\nThen $x = A/\\sqrt{A+B+C}$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 410
   }
 ]
