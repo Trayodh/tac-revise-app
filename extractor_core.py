@@ -255,15 +255,21 @@ def extract_content(b64_img, page_text, prompt):
                 error_msg = str(e).lower()
                 print(f"API Error ({model_name}): {e}")
                 
-                if any(k in error_msg for k in ["quota", "resource_exhausted", "retry in", "rate-limit", "empty response", "503", "unavailable", "high demand"]):
-                    print(f"Failover trigger on {model_name}: {e}. Switching...")
+                # Daily quota exhaustion - switch model
+                if "quota exceeded" in error_msg or "resource_exhausted" in error_msg or "generatecontentfree" in error_msg.replace("_", ""):
+                    print(f"Daily quota reached on {model_name}. Switching to next model...")
                     break
                     
-                if "429" in error_msg or "too many requests" in error_msg or "exhausted" in error_msg:
-                    delay = base_delay * (2 ** attempt)
-                    print(f"Rate limited on {model_name}. Retrying in {delay} seconds...")
-                    time.sleep(delay)
-                    continue
+                # Transient 503 high demand or temporary rate limit - retry with delay
+                if any(k in error_msg for k in ["503", "unavailable", "high demand", "rate", "429"]):
+                    if attempt < max_retries - 1:
+                        delay = 6 * (attempt + 1)
+                        print(f"Transient spike ({e}) on {model_name}. Retrying in {delay}s (attempt {attempt+1}/{max_retries})...")
+                        time.sleep(delay)
+                        continue
+                    else:
+                        print(f"Spike persists on {model_name} after {max_retries} attempts. Switching...")
+                        break
                 
                 if "404" in error_msg or "not found" in error_msg:
                     print(f"Model {model_name} not available, switching...")

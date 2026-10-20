@@ -134991,5 +134991,1090 @@
     "content": "### Article 3: Formation of New States and Alteration of Boundaries\n- **Parliament's Power**: Parliament has the exclusive power to enact legislation for the formation of new states.\n- **State's Role**: A state has **no say** over the formation of new states beyond communicating its views to Parliament.\n- **Ways Parliament can create new states**:\n  1. Separating territory from any state.\n  2. Uniting two or more states.\n  3. Uniting part of states.\n  4. Uniting any territory to a part of any state.\n- **Alterations**: Parliament may increase or diminish the area of any state, alter boundaries, and alter the name of any state.",
     "source_pdf": "cds_material.pdf",
     "source_page": 198
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Fundamental Rights & DPSP",
+    "subchapter": "Constitutional Provisions",
+    "topic": "Fundamental Rights vs Directive Principles",
+    "content": "- **Participation of workers in management**: This is **not** a Fundamental Right. It is a **Directive Principle of State Policy (DPSP)**.\n- **Fundamental Rights Location**: Enshrined in **Part III** of the Constitution of India, covering **Articles 12 to 35**.\n- **Article 23**: Prohibition of traffic in human beings and forced labour.\n- **Article 24**: Prohibition of employment of children in factories.\n- **Article 19(1)(g)**: Right to practice any profession, or to carry on any occupation, trade or business.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 200
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Agriculture",
+    "subchapter": "Cotton Cultivation",
+    "topic": "Geographical Requirements for Cotton",
+    "content": "- **Growing Period**: Requires at least **200 frost-free days** (not 100).\n- **Temperature**: Must reach **25°C or more** in summer.\n- **Rainfall**: Moderate to light rainfall, specifically **55-100 cm**. Rainfall during the harvesting season is harmful to production.\n- **Soil**: Medium loam soil with good drainage and high water retention capacity.\n- **Global Status**: India is the **largest producer** of cotton in the world.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 200
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Biomes",
+    "subchapter": "Temperate Coniferous Forests",
+    "topic": "Characteristics of Temperate Coniferous Forests",
+    "content": "- **Climate**: Found in areas with cool winters, warm summers, and abundant rainfall.\n- **Vegetation**: Dominated by trees like **spruce, pine, and cedar**.\n- **Undergrowth**: Characterized by **very little undergrowth**.\n- **Temperature Variation**: There is **high variation** in annual temperature (contrary to the statement that there is low variation).\n- **Precipitation**: High range in spatial distribution of annual precipitation.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 200
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Zoology",
+    "topic": "Fish Classification and Distribution",
+    "content": "### Cichlids\n- **Family**: Cichlidae.\n- **Order**: Cichliformes.\n- **Significance**: They are the largest vertebrate family in the world.\n- **Global Distribution**: Mostly found in Africa and South America.\n- **Habitat**: Found less frequently in brackish and saltwater habitats.\n- **Indian Distribution**: The largest quantity of cichlids in the Indian subcontinent is found in the **Godavari River**.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 201
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "History",
+    "subchapter": "Ancient History",
+    "topic": "Origin of Geography",
+    "content": "### Etymology and History of Geography\n- **Term Origin**: The word 'Geography' derives from the Greek word *geographia*, meaning 'to describe or write about the earth'.\n- **Coiner**: **Eratosthenes** (3rd century BCE) was the first person to use the term 'Geography'.\n- **Definition**: Geography is a field of science devoted to the study of lands, features, inhabitants, and governance.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 201
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "History",
+    "subchapter": "Medieval History",
+    "topic": "Literature and Culture",
+    "content": "### Vraja Bhakti Vilasa\n- **Author**: **Narayana Bhatta Goswami**.\n- **Language**: Sanskrit.\n- **Period**: 16th Century.\n- **Subject Matter**: Focuses on the Braj region in North India.\n- **Author Background**: Narayana Bhatta Goswami was a Brahmin born in South India. He later moved to Vraja and took initiation from Krishna Das Brahmachari.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 201
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "States of Matter",
+    "topic": "Bose-Einstein Condensate",
+    "content": "### Bose-Einstein Condensate (BEC)\n- **Classification**: BEC is considered the **fifth state of matter**.\n- **Formation**: Formed by cooling a gas of extremely low density (about one-hundredth the density of normal air) to super-low temperatures.\n- **Other States of Matter**: Solid, Liquid, Gas, and Plasma.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 201
+  },
+  {
+    "id": "bio-001",
+    "subject": "Biology",
+    "chapter": "Cell Biology",
+    "topic": "Cell Organelles",
+    "text": "<p><strong>Lysosomes</strong> are known as the <em>'suicidal bags'</em> of a cell. They contain powerful hydrolytic enzymes capable of breaking down all organic material present inside the cell. During cellular disturbance, such as when a cell gets damaged, lysosomes may burst and the enzymes digest their own cell.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of why lysosomes are called suicidal bags."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 202
+  },
+  {
+    "id": "econ-001",
+    "subject": "Economics",
+    "chapter": "Economic Models",
+    "topic": "Economic Models",
+    "text": "<p>An <strong>economic model</strong> is a theoretical construct representing economic processes by a set of variables and a set of logical relationships between them. They involve simplification of complex processes and help in gaining an insight into cause and effect. They can be expressed through equations, models, etc.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and purpose of economic models."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 202
+  },
+  {
+    "id": "econ-002",
+    "subject": "Economics",
+    "chapter": "Demand and Supply",
+    "topic": "Demand Curve",
+    "text": "<p>In a market equilibrium, whenever the price of a commodity rises, the demand of the commodity declines; in the same way, when prices fall, demand increases. Because demand and price have a negative relationship, the <strong>value of the slope of a normal demand curve is negative</strong>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Relationship between price and demand and the resulting slope of the demand curve."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 202
+  },
+  {
+    "id": "econ-003",
+    "subject": "Economics",
+    "chapter": "Market Regulations",
+    "topic": "Price Floor",
+    "text": "<p>A <strong>price floor</strong> is a minimum price set by a regulatory body. It is defined as an intervention to raise market prices if the government feels that the price is too low. Examples include MSP for Jowar or minimum wages.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and examples of a price floor."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 202
+  },
+  {
+    "id": "econ-004",
+    "subject": "Economics",
+    "chapter": "Development Economics",
+    "topic": "Human Development Index",
+    "text": "<p>The <strong>Human Development Index (HDI)</strong> is an index of life expectancy, education, and per capita income indicators. It consists of three dimensions: long and healthy life, knowledge, and a decent standard of living.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Dimensions of the Human Development Index."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 202
+  },
+  {
+    "id": "econ-005",
+    "subject": "Economics",
+    "chapter": "Income Distribution",
+    "topic": "Gini Coefficient",
+    "text": "<p>The <strong>Gini Coefficient</strong> or <strong>Gini Ratio</strong> represents the income or wealth distribution of a nation's residents and is most commonly used to measure <strong>income inequality</strong>. It was developed by the Italian statistician and sociologist Corrado Gini and published in his 1912 paper 'Variability and Mutability'.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and origin of the Gini Coefficient."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 202
+  },
+  {
+    "id": "note-001",
+    "subject": "Geography",
+    "chapter": "Soil Science",
+    "topic": "Soil Impoverishment",
+    "text": "<p><strong>Soil Impoverishment</strong> relates to soil getting very deficient in plant nutrients. It occurs due to reasons like over-grazing, mono-cropping, leaching, erosion, and land use change.</p><p>An impoverished soil leads to an increase in input cost of crop cultivation in the form of fertilizers, pesticides, etc. Soil erosion refers to the removal of top fertile layers of the soil, caused by natural reasons (river erosion, glacial erosion) or anthropogenic factors (mining, urbanisation). Soil erosion leads to soil impoverishment.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and causes of soil impoverishment and soil erosion."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 204
+  },
+  {
+    "id": "note-002",
+    "subject": "Geography",
+    "chapter": "Ecology",
+    "topic": "Successional Development of Vegetation",
+    "text": "<p>The successional development of a vegetation community in a habitat follows a specific sequence:</p><ul><li><strong>Nudation:</strong> The beginning of an area being bare.</li><li><strong>Migration:</strong> Arrival of people/species to that area.</li><li><strong>Reaction:</strong> People reacting to changing environmental conditions.</li><li><strong>Stabilisation:</strong> The community tries to stabilise in a given area with a certain set of climatic conditions.</li></ul><p>Therefore, the correct sequence is: <strong>Nudation -> Migration -> Reaction -> Stabilisation</strong>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Sequential phases of vegetation community development."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 204
+  },
+  {
+    "id": "note-003",
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "topic": "Soil Types",
+    "text": "<p>Characteristics of various soil types:</p><ul><li><strong>Oxisols:</strong> Very old soil and highly weathered.</li><li><strong>Vertisols:</strong> Very rich in organic matter.</li><li><strong>Histosols:</strong> Rich in clay content and highly basic.</li><li><strong>Entisols:</strong> Soils which lack horizons.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| List I (Soil Type) | List II (Major Characteristic) |\n|---|---|\n| A. Oxisols | 1. Very rich in organic matter |\n| B. Vertisols | 2. Soil lacking horizons |\n| C. Histosols | 3. Very old and highly weathered |\n| D. Entisols | 4. Rich in clay content and highly basic |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification of soil types based on characteristics."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 204
+  },
+  {
+    "id": "note-004",
+    "subject": "Geography",
+    "chapter": "World Geography",
+    "topic": "Mountain Ranges",
+    "text": "<p>The <strong>Caucasus mountains</strong> are a mountain system at the intersection of Europe and Asia, stretching between the Black Sea and the Caspian Sea. It is home to Mount Elbrus, the highest peak in Europe. It includes the Greater Caucasus in the North and the Lesser Caucasus in the South.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Geographical location and features of the Caucasus mountains."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 204
+  },
+  {
+    "id": "note-005",
+    "subject": "Geography",
+    "chapter": "Indian Geography",
+    "topic": "Climate and Rainfall",
+    "text": "<p><strong>Mango Showers:</strong> These are pre-monsoon rains that occur during the hot weather season (mid-March to mid-June). They are common in the states of Kerala, Karnataka, Maharashtra, and some parts of Tamil Nadu. They are generally difficult to predict.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and occurrence of Mango Showers in India."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 204
+  },
+  {
+    "id": "note-006",
+    "subject": "Geography",
+    "chapter": "Indian Geography",
+    "topic": "Water Bodies",
+    "text": "<p><strong>Wular Lake:</strong> It is the largest fresh water lake in India. It is situated in the Bandipura district of Jammu and Kashmir. The lake basin was formed as a result of tectonic activity and is fed by the Jhelum River. The area of this lake is seasonally between 30 to 260 sq. km.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Key facts about Wular Lake."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 204
+  },
+  {
+    "id": "mil-equip-001",
+    "subject": "Defence",
+    "chapter": "Military Equipment",
+    "topic": "Transport Aircraft and Helicopters",
+    "text": "<p><strong>Transport Aircraft:</strong></p><ul><li><strong>C 17 Globemaster:</strong> Origin: US, Role: Transport Aircraft</li><li><strong>C130 J Hercules:</strong> Origin: USA, Role: Transport</li><li><strong>IL 78:</strong> Origin: USSR, Role: Air to Air Refueller</li><li><strong>IL 76:</strong> Origin: USSR, Role: Strategic Airlifter</li></ul><p><strong>Helicopters:</strong></p><ul><li><strong>Dhruv:</strong> Origin: India, Role: Utility Helicopter</li><li><strong>Chetak:</strong> Origin: France, Role: Utility and Transport Helicopter</li><li><strong>Cheetah:</strong> Origin: France, Role: Utility and Transport Helicopter</li><li><strong>HAL Prachand:</strong> Origin: India, Role: Attack Helicopter</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Aircraft/Helicopter | Origin | Role |\n|---|---|---|\n| C 17 Globemaster | US | Transport Aircraft |\n| C130 J Hercules | USA | Transport |\n| IL 78 | USSR | Air to Air Refueller |\n| IL 76 | USSR | Strategic Airlifter |\n| Dhruv | India | Utility Helicopter |\n| Chetak | France | Utility and Transport Helicopter |\n| Cheetah | France | Utility and Transport Helicopter |\n| HAL Prachand | India | Attack Helicopter |"
+    ],
+    "image_descriptions": [
+      "Image of C 17 Globemaster transport aircraft on a runway.",
+      "Image of C130 J Hercules transport aircraft.",
+      "Image of IL 78 air-to-air refueller in flight.",
+      "Image of IL 76 strategic airlifter in flight.",
+      "Image of Dhruv utility helicopter with peacock livery.",
+      "Image of Chetak utility and transport helicopter.",
+      "Image of Cheetah utility and transport helicopter flying over water.",
+      "Image of HAL Prachand attack helicopter in flight."
+    ],
+    "details": {
+      "summary": "A list of military transport aircraft and helicopters with their country of origin and primary roles."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 21
+  },
+  {
+    "id": "TRAINER_AIRCRAFT_001",
+    "subject": "Defence",
+    "chapter": "Air Force Equipment",
+    "topic": "Trainer Aircraft",
+    "text": "<p>The following aircraft are utilized as trainers by the Indian Air Force:</p><ul><li><strong>BAE Hawk:</strong> Originating from the UK, used as a trainer aircraft.</li><li><strong>HTT 40:</strong> Originating from India, used as a Basic Trainer Aircraft.</li><li><strong>Pilatus:</strong> Originating from Switzerland, used as a trainer aircraft.</li><li><strong>HAL Kiran:</strong> Originating from India, used as a trainer aircraft.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Name | Details |\n|---|---|\n| 1. BAE HAWK | UK origin; Trainer aircraft |\n| 2. HTT 40 | INDIA origin; Basic Trainer Aircraft |\n| 3. PILATUS | SWITZERLAND origin; Trainer aircraft |\n| 4. HAL KIRAN | INDIAN origin; Trainer aircraft |"
+    ],
+    "image_descriptions": [
+      "Photograph of a BAE Hawk trainer aircraft on a runway.",
+      "Photograph of an HTT 40 trainer aircraft in flight.",
+      "Photograph of a Pilatus trainer aircraft on a runway.",
+      "Photograph of a HAL Kiran trainer aircraft on a runway."
+    ],
+    "details": {
+      "summary": "Overview of primary trainer aircraft used by the Indian Air Force including their origin and classification."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "AIRCRAFT_ADDITIONS_002",
+    "subject": "Defence",
+    "chapter": "Air Force Equipment",
+    "topic": "Aircraft Additions",
+    "text": "<p>Recent additions and inductions into the Indian Air Force and Navy:</p><ul><li><strong>C-295 Transport:</strong> Spanish-Indian origin (Airbus-Tata). First induction planned for FY26 (post-Aug 2025 trials). 56 units for IAF, replaces Avro-748. Contract value ₹21,935 Cr. Enhances tactical airlift.</li><li><strong>MH-60R Seahawk:</strong> US origin. Second squadron commissioned Dec 17, 2025. Used for anti-submarine warfare and integrated with INS Vikrant.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Name | Details |\n|---|---|\n| C-295 TRANSPORT | Spanish-Indian origin (Airbus-Tata); First induction planned FY26 (post-Aug 2025 trials); 56 units for IAF; replaces Avro-748; ₹21,935 Cr contract; enhances tactical airlift. |\n| MH-60R SEAHAWK | US origin; Second squadron commissioned Dec 17, 2025; Anti-submarine warfare; integrated with INS Vikrant. |"
+    ],
+    "image_descriptions": [
+      "Illustration of a military helicopter.",
+      "Photograph of a C-295 transport aircraft."
+    ],
+    "details": {
+      "summary": "Details regarding the induction of C-295 transport aircraft and MH-60R Seahawk helicopters."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "UAV-001",
+    "subject": "Defence",
+    "chapter": "Unmanned Aerial Vehicles",
+    "topic": "Indigenous UAVs",
+    "text": "<h3>Indigenous Unmanned Aerial Vehicles</h3><ul><li><strong>IAI Heron:</strong> Developed by Israel Aerospace Industries. Payload: 270-470 kg. Range: 1000-3000 km. Role: Reconnaissance and surveillance.</li><li><strong>Rustom:</strong> Developed by DRDO. Payload: 350 kg (electro-optical sensors/synthetic aperture radar). Range: 180-200 km. Role: ISR (Intelligence, Surveillance, and Reconnaissance).</li><li><strong>Searcher:</strong> Developed by Israel Aerospace Industries. Payload: 68-100 kg. Range: ~300 km. Role: Border surveillance.</li><li><strong>Nagastra:</strong> Developed by Solar Industries. Role: Precision Strike Loitering Munition. Range: 15-30 km.</li><li><strong>Trinetra:</strong> Developed by Bharat Electronics Limited. Payload: Electro-optical sensors, laser designators. Range: Up to 150 km. Role: Tactical reconnaissance and intelligent missions.</li><li><strong>DRDO AURA:</strong> Autonomous Unmanned Research Aircraft. Payload: 1000-2000 kg. Range: 2000-3000 km. Role: Deep-penetration strike missions in hostile territories.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Infographic showing a timeline of six indigenous UAVs: IAI Heron, Rustom, Searcher, Nagastra, Trinetra, and DRDO AURA with their respective specifications."
+    ],
+    "details": {
+      "summary": "Overview of indigenous Indian UAVs and their technical specifications."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "UAV-002",
+    "subject": "Defence",
+    "chapter": "Unmanned Aerial Vehicles",
+    "topic": "Drones Classification",
+    "text": "<h3>Classification of Drones</h3><h4>Bought from Other Countries</h4><ul><li><strong>MQ-9 Reaper (USA):</strong> High-altitude, long-endurance; used for surveillance and strike missions.</li><li><strong>Predator XP (USA):</strong> Unarmed reconnaissance; used for maritime surveillance.</li><li><strong>Heron (Israel):</strong> Medium-altitude long-endurance; used for border and battlefield surveillance.</li><li><strong>Searcher Mk-II (Israel):</strong> Tactical UAV; used for reconnaissance & intelligence gathering.</li><li><strong>Harop (Israel):</strong> Loitering munition (suicide drone); used to detect and destroy enemy radars.</li></ul><h4>Indigenously Developed</h4><ul><li><strong>Rustom-II (TAPAS-BH-201):</strong> MALE UAV for surveillance & reconnaissance.</li><li><strong>Nishant:</strong> Tactical UAV for battlefield surveillance.</li><li><strong>Lakshya:</strong> Target drone for weapon testing & pilot training.</li><li><strong>Netra:</strong> Mini UAV for urban surveillance & counter-terror ops.</li><li><strong>WITCH UAV:</strong> VTOL UAV for ISR missions.</li><li><strong>Ghatak (AURA):</strong> Stealth UCAV for deep-strike combat missions.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Visual categorization of drones into 'Bought from Other Countries' and 'Indigenously Developed' with representative images of MQ-9 Reaper, Predator XP, Heron, Searcher Mk-II, Harop, Netra, and Ghatak."
+    ],
+    "details": {
+      "summary": "Categorization of drones used by India based on origin (Imported vs Indigenous) and their specific operational roles."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "missiles-india-001",
+    "subject": "Defence",
+    "chapter": "Missiles of Indian Armed Forces",
+    "topic": "Ballistic Missiles",
+    "text": "<p><strong>Ballistic Missiles</strong> are rocket-propelled, self-guided weapons designed to deliver warheads (nuclear, conventional, etc.) to a predetermined target using a ballistic trajectory.</p><p>They are categorized by their range, from short-range (SRBMs) to intercontinental (ICBMs).</p><h3>Types of Ballistic Missile on the basis of Range</h3><ul><li><strong>Short Range Ballistic Missile:</strong> Range up to 1000 km</li><li><strong>Medium Range Ballistic Missile:</strong> Range 1000 to 3000 km</li><li><strong>Intermediate Range Ballistic Missile:</strong> Range 3000 to 5500 km</li><li><strong>Intercontinental Ballistic Missile:</strong> Range exceeding 5500 km</li></ul><h3>Types of Ballistic Missile on the basis of Launch</h3><ul><li><strong>Air Launched Ballistic Missile:</strong> Launched from Aircraft</li><li><strong>Submarine Launched Ballistic Missile:</strong> Launched from submarine</li></ul><h3>Examples of Ballistic Missiles of India</h3><h4>Agni Series:</h4><ul><li><strong>Agni I:</strong> Short range, 700 Km.</li><li><strong>Agni II:</strong> Intermediate range, 2000 Km.</li><li><strong>Agni III:</strong> Intermediate range, 3000 Km.</li><li><strong>Agni IV:</strong> Intermediate range, 4000 Km.</li><li><strong>Agni V:</strong> Intercontinental, over 5000 Km.</li></ul><h4>Prithvi Series:</h4><ul><li><strong>Prithvi I:</strong> Short range, 150 Km.</li><li><strong>Prithvi II:</strong> Short range, 250 to 300 Km.</li><li><strong>Prithvi III (Dhanush):</strong> Short range, 350 to 600 Km.</li></ul><h4>Other Notable Missiles:</h4><ul><li><strong>Shaurya:</strong> Surface to surface, 750 to 1900 Km.</li><li><strong>Prahaar:</strong> Surface to surface, 150 Km.</li><li><strong>Pralay:</strong> Tactical ballistic missile.</li><li><strong>K 15 Sagarika:</strong> Submarine launched ballistic missile.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing phases of ballistic missile flight: Boost, Midcourse, and Terminal phases.",
+      "Map of India with concentric circles indicating range coverage (1000km, 2000km, 3000km, 4000km, 5000km) and a comparative scale of various Indian missiles including Brahmos, Nirbhay, Prahaar, Prithvi, and Agni series.",
+      "Photograph of a Prithvi missile on a mobile launcher.",
+      "Photograph of an Agni missile on a mobile launcher."
+    ],
+    "details": {
+      "summary": "Overview of Indian ballistic missile classifications, ranges, launch types, and specific examples including the Agni and Prithvi series."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "DEF-MISSILE-001",
+    "subject": "Defence",
+    "chapter": "Missile Technology",
+    "topic": "Cruise Missiles",
+    "text": "<p>A <strong>cruise missile</strong> follows a relatively low, sustained flight path using jet propulsion, while a <strong>ballistic missile</strong> follows a high, arcing trajectory powered by rockets, primarily during the initial launch phase, before falling under gravity.</p><ul><li>Cruise missiles fly within the Earth's atmosphere, often at low altitudes to avoid radar detection.</li><li>Cruise missiles are guided throughout their flight, using a combination of navigation systems like GPS, inertial guidance, and terrain mapping.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing the flight path comparison between a cruise missile (low, flat trajectory) and a ballistic missile (high, arcing trajectory). The cruise missile is shown flying towards a target while avoiding hostile air defenses."
+    ],
+    "details": {
+      "summary": "Comparison between cruise and ballistic missile flight characteristics."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "DEF-MISSILE-002",
+    "subject": "Defence",
+    "chapter": "Missile Technology",
+    "topic": "Examples of Cruise Missiles",
+    "text": "<p><strong>BRAHMOS:</strong> A supersonic cruise missile with a range of 290 km (original) and 300 km (BrahMos II). It can be launched from various platforms, including land, sea, air, and submarines.</p><p><strong>NIRBHAY:</strong> A subsonic long-range cruise missile with a range of 1,000-1,500 km. It is designed for precision strikes and can be launched from land-based mobile launchers.</p><p><strong>BrahMos-A:</strong> The air-launched version of BrahMos. Will arm Su-30MKI of IAF as a standoff weapon. 25 June 2016: Successful demonstration flight carried out at HAL Nashik. 22 November 2017: Specially modified Su-30 MKI of IAF test fired the BrahMos A missile on a ship stationed 280 km away in the Bay of Bengal. India became a part of elite group of nations who have capability to launch air launched cruise missile.</p>",
+    "formulas": [],
+    "tables": [
+      "| Specification | Value |\n|---|---|\n| Missiles per aircraft | One |\n| Length | 8550 mm |\n| Diameter | 648 mm |\n| Weight | 2550 kg |\n| Range | up to 290 km |\n| Velocity | up to 2.8 Mach |\n| Ground Clearance | -1000 mm |\n| Release Height | 500 m-9000 m |\n| Release Speed | 0.55-0.8 Mach |\n| Free fall | 100-150 m |\n| Altitude-cruise phase | up to 14000 m |"
+    ],
+    "image_descriptions": [
+      "Image of BrahMos-A missile and a Su-30MKI fighter jet."
+    ],
+    "details": {
+      "summary": "Specifications and operational history of BrahMos and Nirbhay cruise missiles."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "DEF-MISSILE-003",
+    "subject": "Defence",
+    "chapter": "Missile Technology",
+    "topic": "Types of Missiles on the Basis of Speed",
+    "text": "<ul><li><strong>SUBSONIC MISSILE:</strong> Missiles that travel slower than sound is known as \"subsonic\" e.g. Prithvi.</li><li><strong>SUPERSONIC MISSILE:</strong> Missiles that travel faster than the speed of sound (Mach 1) but less than Mach 5 are called \"supersonic\" e.g. Brahmos.</li><li><strong>HYPERSONIC MISSILE:</strong> The term \"hypersonic\" means that the speed of missiles should be at least five times faster than the speed of sound (over Mach 5) e.g. Shaurya and Sagarika.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification of missiles based on speed relative to Mach numbers."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "DEF-MISSILE-004",
+    "subject": "Defence",
+    "chapter": "Missile Technology",
+    "topic": "Surface-to-Surface and Surface-to-Air Missiles",
+    "text": "<p><strong>SURFACE-TO-SURFACE MISSILES:</strong></p><ul><li><strong>PRITHVI:</strong> Short-range ballistic missile, First indigenously developed missile.</li><li><strong>AGNI-I to AGNI-V:</strong> Medium to Intercontinental range, Nuclear-capable ballistic missiles.</li><li><strong>BRAHMOS:</strong> Supersonic cruise missile, Used against land & naval targets.</li><li><strong>PRAHAR:</strong> Tactical ballistic missile, Battlefield precision strike.</li></ul><p><strong>SURFACE-TO-AIR MISSILES:</strong></p><ul><li><strong>AKASH:</strong> Medium-range SAM, Defends against aircraft & drones.</li><li><strong>AKASH-NG:</strong> Advanced version of Akash, Faster and longer range.</li><li><strong>TRISHUL:</strong> Short-range SAM, Point air defence (limited induction).</li></ul><p><strong>AIR-TO-AIR MISSILES:</strong></p><ul><li><strong>ASTRA:</strong> Beyond Visual Range (BVR) missile, Used by IAF fighter aircraft.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagrams of various missile types including a generic ballistic missile silhouette and an image of the ASTRA missile."
+    ],
+    "details": {
+      "summary": "Categorization of Indian missiles by launch platform and mission type."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "defence-missiles-001",
+    "subject": "Defence",
+    "chapter": "Indian Defence Systems",
+    "topic": "Anti-Tank Guided Missiles (India)",
+    "text": "<h3>Anti-Tank Guided Missiles (ATGM)</h3><ul><li><strong>Dhanush:</strong> Third-generation ATGM, Man-portable, Used for close-range anti-tank warfare.</li><li><strong>Nag:</strong> Third-generation ATGM, Fire-and-Forget, Used by Indian Army against enemy tanks.</li><li><strong>MPATGM (Man-Portable ATGM):</strong> Lightweight, shoulder-fired missile, Fire-and-Forget, Designed to replace older imported systems.</li><li><strong>Helina (Helicopter-launched NAG):</strong> Air-launched ATGM, Fired from Rudra / LCH helicopters, Top-attack capability.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Image of a soldier carrying a Dhanush ATGM launcher.",
+      "Image of a NAG missile.",
+      "Image of a helicopter (Rudra/LCH) firing a Helina missile."
+    ],
+    "details": {
+      "summary": "Overview of key Indian Anti-Tank Guided Missiles including Dhanush, Nag, MPATGM, and Helina."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "defence-missiles-002",
+    "subject": "Defence",
+    "chapter": "Indian Defence Systems",
+    "topic": "Types of Missiles on the Basis of Launch Mode",
+    "text": "<p>Missiles are classified based on their launch platform and target engagement.</p>",
+    "formulas": [],
+    "tables": [
+      "| LAUNCH MODE | DESCRIPTION | EXAMPLES |\n|---|---|---|\n| Surface To Surface | Launched from land-based platforms to strike ground targets. | Prithvi, Agni, Brahmos |\n| Surface To Air | Launched from land to intercept aerial threats like aircraft, helicopters, and drones. | Akash, Mrsam |\n| Air To Surface | Air launched to attack ground-based targets | Helina |\n| Air To Air | Launched from aircraft against hostile aerial targets. | Astra |\n| Ship To Ship | Naval anti-ship missiles launched from warships/submarines. | Brahmos |\n| Ship To Air | Naval surface-to-air missiles for fleet air defence | Barak 8 |\n| Submarine Launched | Fired from submerged submarines | K 15 |\n| Shoulder Fired | Man-portable missiles fired from launchers carried by infantry. | Fim 92 Stinger And Igla Shoulder Fired Sams |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification table of missiles based on launch mode and target type."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "defence-navy-001",
+    "subject": "Defence",
+    "chapter": "Indian Navy",
+    "topic": "Projects of Indian Navy",
+    "text": "<h3>Naval Projects</h3><ul><li><strong>Project 15 B:</strong> Class of guided missile destroyers. Built by Mazagaon Dock Limited. Ships: INS Vishakhapatnam, INS Maramugao, INS Imphal, INS Surat.</li><li><strong>Project 75:</strong> Diesel electric attack submarines. Built by Mazagaon Dock Limited. Submarines: INS Kalvari, INS Khanderi, INS Karanj, INS Vela, INS Vagir, INS Vagsheer.</li><li><strong>Project 17 A:</strong> Guided missile Frigates. Built by Mazagaon Dock Limited and GRSE. Ships: INS Nilgiri, INS Udaygiri, INS Taragiri, INS Mahendragiri, INS Himgiri, INS Dunagiri, INS Vindhyagiri.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Icon of a naval warship.",
+      "Icon of a ship's steering wheel.",
+      "Icon of a naval ship at sea."
+    ],
+    "details": {
+      "summary": "Details of major Indian Navy shipbuilding projects including Project 15B, 75, and 17A."
+    },
+    "source_pdf": "doc5.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "polity-001",
+    "subject": "Indian Polity",
+    "chapter": "Constitutional Bodies",
+    "topic": "National Commission for SC/ST/OBC",
+    "text": "<ul><li>Mentioned in Article 338.</li><li>According to 89th CAA, NCSC is under article 338 and NCST is under 338 A.</li><li>Appointed by President.</li><li>Consists of chairperson, vice chairperson and three other members.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of the National Commission for SC/ST/OBC composition and constitutional basis."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "polity-002",
+    "subject": "Indian Polity",
+    "chapter": "Constitutional Bodies",
+    "topic": "Functions of Election Commission",
+    "text": "<ul><li>To determine the territorial areas of the electoral constituencies throughout the country.</li><li>To prepare and periodically revise electoral rolls and to register all eligible voters.</li><li>To notify dates and schedules of elections.</li><li>To grant recognition to political parties and allot symbols to them.</li><li>To appoint officers for inquiring into disputes relating to electoral arrangements.</li><li>To determine code of conduct to be observed by the parties.</li><li>To advice the President on matters relating to the disqualifications of the MP.</li><li>To cancel polls in the event of rigging, booth capturing, violence and other irregularities.</li><li>To supervise the machinery of elections throughout the country to ensure free and fair elections.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Icon of a ballot box with a checkmark and the word VOTE."
+    ],
+    "details": {
+      "summary": "Functions and responsibilities of the Election Commission of India."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "polity-003",
+    "subject": "Indian Polity",
+    "chapter": "Constitutional Bodies",
+    "topic": "Functions of UPSC",
+    "text": "<ul><li>Conducts examinations for appointments to the all-India services, Central services and public services of the centrally administered territories.</li><li>It assists the states in framing and operating in framing and operating schemes of joint recruitment for any services for which candidates possessing special qualifications are required.</li></ul><p><strong>Important Note:</strong> The chairman of UPSC is not eligible for further employment in the GOI or a state. A member of UPSC is eligible for appointment as chairman of UPSC or SPSC, but not for any other employment in the GOI or state.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Functions of UPSC and eligibility criteria for its chairman and members."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "polity-004",
+    "subject": "Indian Polity",
+    "chapter": "Constitutional Bodies",
+    "topic": "Functions of Finance Commission",
+    "text": "<ul><li>Makes reports on distribution of net proceeds of taxes to be shared between Centre and the states.</li><li>The principles that should govern the grants-in-aid to the states by the Center.</li><li>The measures needed to augment the consolidated fund of the state to supplement the resources of panchayat and municipalities on the basis of report of state finance commission.</li><li>Any other matter referred to it by the president in the interest of sound finance.</li></ul><p>The chairman of Finance commission should be a person having experience in public affairs. The other members should be selected from a judge of high court or one qualified to be appointed as one, a person who has specialized knowledge of finance and accounts of government, a person who has wide experience in financial matters and in administration, a person who has special knowledge of economics.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of gold coins and money bags representing financial resources."
+    ],
+    "details": {
+      "summary": "Functions and membership criteria for the Finance Commission."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "polity-005",
+    "subject": "Indian Polity",
+    "chapter": "Constitutional Bodies",
+    "topic": "Functions of CAG and Attorney General",
+    "text": "<h3>Functions of CAG</h3><ul><li>He audits the accounts related to all expenditure from the Consolidated Fund of India.</li><li>Audits all trading, manufacturing, profit and loss accounts, balance sheets by any department of central government and state governments.</li><li>He acts as guide, friend and philosopher of the Public Accounts Committee of the Parliament.</li></ul><h3>Functions of Attorney General</h3><ul><li>To give advice to the Government of india upon legal matters, which are referred to him by the president.</li><li>To appear on behalf of government of india in all the cases in the supreme court in which the GOI is concerned.</li><li>He should not advice against the government of india.</li><li>Should not defend accused person in criminal prosecutions without the permission of GOI.</li><li>Should not accept appointment as a director in any company or corporation without the permission of the GOI.</li></ul><p><strong>Attention:</strong> Advocate General is mentioned in Article 165.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Attention sign box mentioning Advocate General article."
+    ],
+    "details": {
+      "summary": "Functions of the Comptroller and Auditor General (CAG) and the Attorney General of India."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "note-001",
+    "subject": "Indian Polity",
+    "chapter": "Constitutional and Non-Constitutional Bodies",
+    "topic": "National Commission for ST/SC",
+    "text": "<p><strong>Functions of National Commission for ST/SC:</strong></p><ul><li>To investigate and monitor matters relating to constitutional and other legal safeguards for SCs and to evaluate their working.</li><li>To inquire into specific complaints with respect to the deprivation of rights and safeguards of SCs.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Icon representing a group of people with raised hands."
+    ],
+    "details": {
+      "summary": "Functions of the National Commission for SC/ST regarding constitutional safeguards."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "note-002",
+    "subject": "Indian Polity",
+    "chapter": "Constitutional and Non-Constitutional Bodies",
+    "topic": "GST Council",
+    "text": "<p><strong>GST Council:</strong></p><ul><li>Mentioned in Article 279 A.</li><li>The secretariat is located at New Delhi.</li><li><strong>Members:</strong> Union finance minister as Chairperson, the union minister of state in charge of revenue or finance and the minister in charge of finance or taxation or any other minister nominated by each state government.</li></ul><p><strong>Functions of the Council:</strong></p><ul><li>The taxes, cesses and surcharges levied by the center, the states and the local bodies that would get merged in GST.</li><li>The goods or services that may be subjected or exempted from GST.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Graphic showing a hand holding a document with 'GST' written on it and a rising bar graph with currency symbols."
+    ],
+    "details": {
+      "summary": "Overview of the GST Council, its composition, and functions."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "note-003",
+    "subject": "Indian Polity",
+    "chapter": "Non-Constitutional Bodies",
+    "topic": "National Human Rights Commission",
+    "text": "<p><strong>National Human Rights Commission:</strong></p><ul><li>It is a watchdog of human rights in the country.</li><li>Multimember body consisting of chairperson and five members.</li><li>The chairperson should be a retired chief justice or judge of SC.</li><li>Members should be serving or retired judges of SC, a serving or retired chief justice of a high court and three persons of which at least one should be woman having knowledge or practical experience with respect to human rights.</li></ul><p><strong>Functions:</strong></p><ul><li>To inquire into any violation of human rights.</li><li>To visit jails and detention places to study the living conditions of inmates and make recommendation thereon.</li><li>To undertake and promote research in the field of human rights.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Icon of a group of people."
+    ],
+    "details": {
+      "summary": "Composition and functions of the National Human Rights Commission."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "note-004",
+    "subject": "Indian Polity",
+    "chapter": "Non-Constitutional Bodies",
+    "topic": "Central Information Commission",
+    "text": "<p><strong>Central Information Commission:</strong></p><ul><li>Consists of Chief Information Commissioner and not more than 10 Information Commissioners.</li><li>Appointed by President.</li><li>Members should be persons of eminence in public life with wide knowledge and experience in law, science and technology, social service, management, journalism, mass media or administration and governance.</li><li>Not eligible for reappointment.</li></ul><p><strong>Functions:</strong></p><ul><li>It is the duty of commission to receive and inquire into a complaint from any person who has not been able to submit an information request because of non-appointment of Public Information Officer.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Bell icon."
+    ],
+    "details": {
+      "summary": "Composition and functions of the Central Information Commission."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "note-005",
+    "subject": "Indian Polity",
+    "chapter": "Non-Constitutional Bodies",
+    "topic": "Central Vigilance Commission",
+    "text": "<p><strong>Central Vigilance Commission:</strong></p><ul><li>Main agency for preventing corruption.</li><li>Recommended by Santhanam Committee.</li><li>It is the agency to receive and act on complaints or disclosure on any allegation of corruption or misuse of office from whistle blowers.</li><li>Consists of Central Vigilance Commissioner and two vigilance commissioners.</li><li>Appointed by president and not eligible for further employment.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Magnifying glass over an eye icon and a lightbulb icon."
+    ],
+    "details": {
+      "summary": "Overview of the Central Vigilance Commission."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "note-006",
+    "subject": "Indian Polity",
+    "chapter": "Non-Constitutional Bodies",
+    "topic": "Central Bureau of Investigation",
+    "text": "<p><strong>Central Bureau of Investigation:</strong></p><ul><li>Set up in 1963 by Ministry of Home Affairs.</li><li>Recommended by Santhanam Committee.</li><li>Not a statutory body, derives its power from the Delhi special police establishment act 1946.</li><li>Plays important role in prevention of corruption and maintaining integrity in administration. It also provides assistance to the Central Vigilance Commission and Lokpal.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Silhouette of a detective with a magnifying glass."
+    ],
+    "details": {
+      "summary": "Establishment and role of the Central Bureau of Investigation."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "NIA_001",
+    "subject": "Indian Polity",
+    "chapter": "National Investigation Agency",
+    "topic": "Overview",
+    "text": "<ul><li>Constituted in 2009</li><li>It is the central counter terrorism law enforcement agency in the country.</li><li>Established in the backdrop of 2008 Mumbai terror attacks</li><li>HQ are situated at New Delhi.</li><li>Headed by Director General and is appointed by Central Government.</li><li>Work under the Ministry of Home Affairs.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Icon of a magnifying glass over a fingerprint representing investigation."
+    ],
+    "details": {
+      "summary": "Overview of the National Investigation Agency (NIA) including its establishment, purpose, and administrative structure."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "NDMA_001",
+    "subject": "Indian Polity",
+    "chapter": "National Disaster Management Authority",
+    "topic": "Overview",
+    "text": "<ul><li>It is created to spearhead and implement a holistic and integrated approach to disaster management in the country.</li><li>Consists of chairperson and other members, not exceeding nine.</li><li>PM is the ex officio chairperson of the NDMA</li><li>Works under the Union of Ministry of Home Affairs.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Icon of a person holding a clipboard representing management."
+    ],
+    "details": {
+      "summary": "Overview of the National Disaster Management Authority (NDMA) including its mandate and composition."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "PR_001",
+    "subject": "Indian Polity",
+    "chapter": "Panchayati Raj",
+    "topic": "Overview and Committees",
+    "text": "<ul><li>Added through 73rd CAA 1992</li><li>It signifies the system of rural local self-government.</li><li>Rajasthan was the first state to establish Panchayati raj.</li><li>21 years is the minimum age for contesting elections</li><li>Reservation of seats for SCs and STs.</li><li>Reservation of one-third seats for women.</li><li>Fix tenure of five years for panchayat.</li></ul><p><strong>Committees related to Panchayati Raj:</strong></p><ol><li>Balwant Rai Mehta Committee - Three tier Panchayati raj system</li><li>Ashok Mehta Committee</li><li>G.V.K Rao Committee</li><li>L M Singhvi Committee</li><li>Gadgil Committee</li><li>Thungon Committee</li></ol><p><strong>Important Articles:</strong></p><ul><li>243 A - Gram Sabha</li><li>243 D - Reservation of seats</li><li>243 F - Disqualifications for membership</li><li>243 K - Elections to the panchayats</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Icon of a person wearing a mask holding a shopping bag."
+    ],
+    "details": {
+      "summary": "Key facts, committees, and important articles related to the Panchayati Raj system in India."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "MUN_001",
+    "subject": "Indian Polity",
+    "chapter": "Municipalities",
+    "topic": "Overview",
+    "text": "<ul><li>Constitutionalized through the 74th CAA of 1992.</li><li>There are eight types of urban local governments in India - municipal corporation, municipality, notified area committee, town area committee, cantonment board, township, port trust and special purpose agency.</li><li>In 1688, first Municipal corporation in India was set up at Madras.</li><li>Mentioned in Article 243-P to 243-ZG.</li></ul><p><strong>Important Articles:</strong></p><ul><li>243 Q - Constitution of Municipalities</li><li>243 T - Reservation of seats</li><li>243 V - Disqualifications for membership</li><li>243 Y - Finance Commission</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of urban local government structures and constitutional provisions for municipalities."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "PARL_001",
+    "subject": "Indian Polity",
+    "chapter": "Parliament",
+    "topic": "Composition and Functions",
+    "text": "<ul><li>Parliament consists of President, the Council of states and the House of the People.</li><li>Composition of Rajya Sabha - maximum strength is fixed at 250</li><li>Composition of Lok Sabha - maximum strength is 552.</li><li>The system of proportional representation is regulated in case of Rajya Sabha.</li><li>The system of First past the post for the election of members of Lok Sabha.</li><li>Duration of Rajya Sabha - one third members retire every second year; total duration is six years.</li><li>Duration of Lok Sabha - 5 years</li><li>Qualification for Rajya Sabha - should not be less than 30 years of age.</li><li>Qualification for Lok Sabha - should not be less than 25 years of age.</li><li>Oath is administered by President.</li></ul><p><strong>Speaker:</strong> Presides the sitting of the house, decides if a bill is money bill or not, presides joint sitting, decides on defection.</p><p><strong>Note:</strong> Vice president is ex-officio chairman of Rajya Sabha.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of a speaker at a podium addressing a house.",
+      "Illustration of a group of people sitting in a legislative assembly."
+    ],
+    "details": {
+      "summary": "Composition, tenure, qualifications, and key roles within the Indian Parliament."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "parliamentary-proceedings-001",
+    "subject": "Indian Polity",
+    "chapter": "Parliament",
+    "topic": "Devices of Parliamentary Proceedings",
+    "text": "<h3>Devices of Parliamentary Proceedings</h3><ul><li><strong>Question Hour:</strong> The first hour of every parliamentary sitting. Members ask questions and ministers provide answers. Types: Starred, Unstarred, and Short Notice.</li><li><strong>Zero Hour:</strong> Informal device not mentioned in Rules of Procedure. Used to raise matters of urgent public importance.</li><li><strong>No Confidence Motion:</strong> Lok Sabha can remove the ministry. Requires support of 50 members to be admitted.</li><li><strong>Adjournment Motion:</strong> Introduced to draw attention of the House to a definite matter of urgent public importance.</li><li><strong>Calling Attention Motion:</strong> Introduced by a member to call the attention of a minister to a matter of urgent public importance and seek an authoritative statement.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Flowchart showing five parliamentary devices: Question Hour, Zero Hour, No Confidence Motion, Adjournment Motion, and Calling Attention Motion with brief descriptions for each."
+    ],
+    "details": {
+      "summary": "Overview of various parliamentary devices used for proceedings and accountability."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 21
+  },
+  {
+    "id": "voting-systems-002",
+    "subject": "Indian Polity",
+    "chapter": "Elections",
+    "topic": "Types of Voting Systems",
+    "text": "<h3>Types of Voting Systems</h3><h4>1. First Past the Post (FPTP)</h4><ul><li>Also called Simple Majority System.</li><li>Candidate with the highest number of votes wins, even if less than 50%.</li><li>No need for absolute majority.</li><li>Used for: Lok Sabha and State Legislative Assembly elections.</li></ul><h4>2. Proportional Representation (PR)</h4><ul><li>Seats allocated in proportion to votes received.</li><li>Used in India for: Rajya Sabha, President, and Vice-President elections.</li><li>Uses Single Transferable Vote (STV).</li></ul><h5>Types of PR:</h5><ul><li><strong>List System:</strong> Parties present a list; seats allotted based on vote percentage.</li><li><strong>Single Transferable Vote (STV):</strong> Voters rank candidates in order of preference.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Infographic explaining FPTP and PR voting systems, including icons for voting and bar charts for STV representation."
+    ],
+    "details": {
+      "summary": "Comparison of First Past the Post and Proportional Representation voting systems."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 21
+  },
+  {
+    "id": "money-bills-budget-003",
+    "subject": "Indian Polity",
+    "chapter": "Parliament",
+    "topic": "Money Bills and Budget",
+    "text": "<h3>Money Bills</h3><p>Article 110 defines money bills. A bill is a money bill if it contains:</p><ul><li>Imposition, abolition, remission, alteration or regulation of any tax.</li><li>Regulation of borrowing of money by the Union government.</li><li>Custody of Consolidated Fund or Contingency fund, payment or withdrawal of money.</li><li>Appropriation of money out of the Consolidated Fund of India.</li></ul><h3>Budget</h3><p>Mentioned in Article 112 as 'Annual Financial Statement'. The word 'budget' is not in the Constitution.</p><h4>Stages in Enactment:</h4><ol><li>Presentation of budget</li><li>General discussion</li><li>Scrutiny by departmental committees</li><li>Voting on demands for grants</li><li>Passing of appropriation bill</li><li>Passing of finance bill</li></ol>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing the definition of Money Bills and the six-stage process for the enactment of the Budget."
+    ],
+    "details": {
+      "summary": "Constitutional provisions for Money Bills (Article 110) and the Budget (Article 112) enactment process."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 21
+  },
+  {
+    "id": "polity-001",
+    "subject": "Indian Polity",
+    "chapter": "Parliament",
+    "topic": "Joint Sitting",
+    "text": "<p><strong>Joint Sitting:</strong> Mentioned in <strong>Article 108</strong>, it is an extraordinary machinery provided by the Constitution to resolve a deadlock between the two houses over the passage of a bill. It is headed by the Speaker of Lok Sabha.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustration of people sitting at a table discussing, representing a joint sitting of Parliament."
+    ],
+    "details": {
+      "summary": "Definition and constitutional basis of Joint Sitting of Parliament."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "polity-002",
+    "subject": "Indian Polity",
+    "chapter": "Parliament",
+    "topic": "Special Privileges of Parliament Members",
+    "text": "<p><strong>Under Article 105:</strong></p><ul><li><strong>1. Freedom of Speech in Parliament:</strong> MPs can speak freely in Parliament. No court can question what they say inside the House. Subject to rules of the House.</li><li><strong>2. Immunity from Court Proceedings:</strong> No legal action for anything said in Parliament or any vote given.</li><li><strong>3. Immunity from Arrest (Civil Cases):</strong> Cannot be arrested in civil cases: 40 days before session, during session, and 40 days after session. Does NOT apply to criminal cases.</li><li><strong>4. Right to Exclude Strangers:</strong> Parliament can hold secret sittings and remove outsiders.</li><li><strong>5. Right to Punish for Contempt:</strong> Can punish members or outsiders for breach of privilege. Includes reprimand, suspension, imprisonment.</li><li><strong>6. Freedom from Jury Service:</strong> MPs are exempt from jury duty.</li></ul><p><strong>Classification:</strong></p><ul><li><strong>Individual Privileges:</strong> Freedom of speech, Immunity from arrest (civil cases).</li><li><strong>Collective Privileges:</strong> Control over internal proceedings, Power to punish for contempt, Right to regulate business.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Icons representing parliamentary members, a building, and handcuffs representing immunity from arrest."
+    ],
+    "details": {
+      "summary": "Detailed breakdown of individual and collective parliamentary privileges under Article 105."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "polity-003",
+    "subject": "Indian Polity",
+    "chapter": "Constitution",
+    "topic": "Languages in 8th Schedule",
+    "text": "<p>The 8th Schedule of the Indian Constitution lists the officially recognized languages.</p>",
+    "formulas": [],
+    "tables": [
+      "| LANGUAGE | RECOGNISED IN | LANGUAGE | RECOGNISED IN |\n|---|---|---|---|\n| 1. ASSAMESE | 1950 | 12. MARATHI | 1950 |\n| 2. BENGALI | 1950 | 13. MAITHILI | 2003 |\n| 3. BODO | 2003 | 14. NEPALI | 1992 |\n| 4. DOGRI | 2003 | 15. ODIA | 1950 |\n| 5. GUJARATI | 1950 | 16. PUNJABI | 1950 |\n| 6. HINDI | 1950 | 17. SANSKRIT | 1950 |\n| 7. KASHMIRI | 1950 | 18. SINDHI | 1967 |\n| 8. KANNADA | 1950 | 19. SANTHALI | 2003 |\n| 9. KONKANI | 1992 | 20. TAMIL | 1950 |\n| 10. MALAYALAM | 1950 | 21. TELUGU | 1950 |\n| 11. MANIPURI | 1992 | 22. URDU | 1950 |"
+    ],
+    "image_descriptions": [
+      "Icons representing global languages and scripts."
+    ],
+    "details": {
+      "summary": "List of 22 languages recognized in the 8th Schedule of the Indian Constitution with their recognition years."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "polity-004",
+    "subject": "Indian Polity",
+    "chapter": "Constitution",
+    "topic": "Important Points to Remember",
+    "text": "<ul><li><strong>CLASSICAL LANGUAGES:</strong> TAMIL, SANSKRIT, TELUGU, KANNADA, MALAYALAM, ODIA, MARATHI, BENGALI, ASSAMESE, PALI AND PRAKRIT.</li><li><strong>'SINDHI'</strong> WAS ADDED THROUGH 21ST CAA.</li><li><strong>KONKANI, MANIPURI, NEPALI</strong> WERE INSERTED THROUGH 71ST CAA.</li><li><strong>MAITHILI, DOGRI, BODO AND SANTHALI</strong> WERE INSERTED BY 92ND CAA.</li><li>LANGUAGES ARE MENTIONED IN <strong>“8TH SCHEDULE”</strong>.</li><li>OFFICIAL LANGUAGE OF UNION IS <strong>“HINDI”</strong> IN <strong>‘DEVANAGARI SCRIPT’</strong>.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Tree illustration with various language scripts on its branches."
+    ],
+    "details": {
+      "summary": "Key facts regarding classical languages, Constitutional Amendment Acts (CAA) for language inclusion, and official language status."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "polity-7th-schedule-001",
+    "subject": "Indian Polity",
+    "chapter": "Seventh Schedule of the Indian Constitution",
+    "topic": "The Three Lists: Union, State, and Concurrent",
+    "text": "<p>The Seventh Schedule of the Indian Constitution divides legislative powers between the Union and the States through three lists:</p><ul><li><strong>Union List (List I):</strong> Parliament has exclusive power to make laws. Currently contains around 100 subjects of national importance. Key items include Defence, Armed Forces, War & Peace, Foreign Affairs, Citizenship, Railways, Airways, Banking, Currency & Coinage, RBI, Atomic Energy, Interstate trade & commerce, Insurance, Supreme Court, CAG, and All India Services.</li><li><strong>State List (List II):</strong> State Legislature has exclusive power. Currently contains around 61 subjects (reduced after 42nd Amendment) of local or regional importance. Key items include Police, Public Order, Public Health & Hospitals, Agriculture, Irrigation, Land, Local Government, Fisheries, Markets & Fairs, State Public Services, and State Judiciary (except High Court structure).</li><li><strong>Concurrent List (List III):</strong> Both Parliament and State Legislatures can make laws. Currently contains around 52 subjects. If there is a conflict, the Union law prevails (Article 254). Key items include Education, Forests, Trade Unions, Marriage & Divorce, Adoption & Succession, Criminal Law, Civil Procedure, Electricity, and Economic & Social Planning.</li></ul><p><strong>Important Provisions:</strong></p><ul><li>Residuary Powers lie with the Parliament (Article 248).</li><li>During National Emergency, Parliament can legislate on State List subjects.</li><li>Rajya Sabha (Article 249) can allow Parliament to legislate on State List subjects in the national interest.</li><li>State List subjects can shift to the Concurrent List (e.g., Education via 42nd Amendment).</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Union List | State List | Concurrent List |\n|---|---|---|\n| 1. Defence | Police | Education |\n| 2. Banking | Trade | Forest |\n| 3. Currency | Agriculture | Trade |\n| 4. Foreign Affairs | Fisheries | Marriage |\n| 5. Communication | Irrigation | Adoption |\n| 6. Foreign Jurisdiction | | Criminal Law |",
+      "| Amendment | Year | Importance |\n|---|---|---|\n| 1. 7th CAA | 1956 | Reorganisation of states on linguistic basis and abolition of Class A, B, C and D states and introduction of Union Territories. Two or more state can have same governor & high court. |\n| 2. 10th CAA | 1961 | Dadra, Nagar and Haveli included in Indian Union as a Union Territory on acquisition from Portugal. |\n| 3. 12th CAA | 1961 | Goa, Daman and Diu included in Indian Union as a Union Territory on acquisition from Portugal. |\n| 4. 14th CAA | 1962 | Pondicherry incorporated into Indian Union after transfer by France |"
+    ],
+    "image_descriptions": [
+      "Diagram of a military helicopter representing Defence in the Union List.",
+      "Illustration of a police officer representing the State List.",
+      "Illustration of a forest representing the Concurrent List.",
+      "Illustration of wheat stalks representing Agriculture in the State List.",
+      "Illustration of a lightning bolt representing the conflict resolution in the Concurrent List."
+    ],
+    "details": {
+      "summary": "Overview of the Seventh Schedule of the Indian Constitution, detailing the distribution of powers between Union, State, and Concurrent lists, along with key constitutional amendments related to state reorganization."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "polity-caa-001",
+    "subject": "Indian Polity",
+    "chapter": "Constitutional Amendments and Special Provisions",
+    "topic": "Constitutional Amendment Acts (CAA)",
+    "text": "<p>List of significant Constitutional Amendment Acts:</p><ul><li><strong>21st CAA (1967):</strong> Sindhi added as language in the 8th schedule.</li><li><strong>36th CAA (1975):</strong> Sikkim included as an Indian state.</li><li><strong>42nd CAA (1976):</strong> Fundamental Duties prescribed; India became Socialist Secular Republic.</li><li><strong>44th CAA (1978):</strong> Right to Property deleted from the list of fundamental rights.</li><li><strong>52nd CAA (1985):</strong> Defection to another party after election made illegal.</li><li><strong>61st CAA (1989):</strong> Voting age reduced from 21 to 18.</li><li><strong>71st CAA (1992):</strong> Konkani, Manipuri and Nepali added as languages in the Eighth Schedule.</li><li><strong>73rd CAA (1993):</strong> Introduction of Panchayati Raj, addition of Part IX to the Constitution.</li><li><strong>74th CAA (1993):</strong> Introduction of Municipalities.</li><li><strong>86th CAA (2002):</strong> Free and compulsory education to children between 6 and 14 years.</li><li><strong>92nd CAA (2003):</strong> Bodo, Dogri, Santhali and Maithli added to the list of recognised languages.</li><li><strong>97th CAA (2012):</strong> Introduction of Part IXB in the Constitution pertaining to Co-operative Societies.</li><li><strong>101st CAA (2016):</strong> Introduction of Goods and Services Tax (GST).</li><li><strong>102nd CAA (2018):</strong> Establishment of National Commission for Backward Classes.</li><li><strong>103rd CAA (2019):</strong> Reservation for economically weaker sections of the society.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Amendment | Year | Provision |\n|---|---|---|\n| 21st CAA | 1967 | Sindhi added as language in the 8th schedule. |\n| 36th CAA | 1975 | Sikkim included as an Indian state. |\n| 42nd CAA | 1976 | Fundamental Duties prescribed; India became Socialist Secular Republic |\n| 44th CAA | 1978 | Right to Property deleted from the list of fundamental rights |\n| 52nd CAA | 1985 | Defection to another party after election made illegal |\n| 61st CAA | 1989 | Voting age reduced from 21 to 18. |\n| 71st CAA | 1992 | Konkani, Manipuri and Nepali added as languages in the Eighth Schedule. |\n| 73rd CAA | 1993 | Introduction of Panchayati Raj, addition of Part IX to the Constitution |\n| 74th CAA | 1993 | Introduction of Municipalities |\n| 86th CAA | 2002 | Free and compulsory education to children between 6 and 14 years. |\n| 92nd CAA | 2003 | Bodo, Dogri, Santhali and Maithli added to the list of recognised languages. |\n| 97th CAA | 2012 | Introduction of Part IXB in the Constitution pertaining to Co-operative Societies |\n| 101st CAA | 2016 | Introduction of Goods and Services Tax (GST) |\n| 102nd CAA | 2018 | Establishment of National Commission for Backward Classes |\n| 103rd CAA | 2019 | Reservation for economically weaker sections of the society |"
+    ],
+    "image_descriptions": [
+      "Map of India silhouette in the top right corner."
+    ],
+    "details": {
+      "summary": "Chronological list of key Constitutional Amendment Acts from 1967 to 2019."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "polity-special-provisions-001",
+    "subject": "Indian Polity",
+    "chapter": "Constitutional Amendments and Special Provisions",
+    "topic": "Special Provisions for States",
+    "text": "<p>Special provisions under the Constitution for various states:</p><ul><li><strong>Article 370:</strong> Special status to Kashmir.</li><li><strong>Article 371:</strong> Special provision with respect to the States of Maharashtra and Gujarat.</li><li><strong>Article 371A:</strong> Special provision with respect to the State of Nagaland.</li><li><strong>Article 371B:</strong> Special provision with respect to the State of Assam.</li><li><strong>Article 371C:</strong> Special provision with respect to the State of Manipur.</li><li><strong>Article 371D:</strong> Special provisions with respect to the State of Andhra Pradesh or the State of Telangana.</li><li><strong>Article 371E:</strong> Universities of Andhra Pradesh & Telangana.</li><li><strong>Article 371F:</strong> Special provisions with respect to the State of Sikkim.</li><li><strong>Article 371G:</strong> Special provisions with respect to the State of Mizoram.</li><li><strong>Article 371H:</strong> Special provisions with respect to the State of Arunachal Pradesh.</li><li><strong>Article 371I:</strong> Special provisions with respect to the State of Goa.</li><li><strong>Article 371J:</strong> Special provisions with respect to the State of Karnataka.</li></ul><p><strong>Focus: Article 371 - Maharashtra & Gujarat</strong></p><p>The Governor has special responsibility for:</p><ul><li>Separate development boards</li><li>Equitable allocation of funds</li><li>Regional balance (Vidarbha, Marathwada, Saurashtra, etc.)</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Provision | Subject |\n|---|---|\n| Article 370 | Special status to Kashmir |\n| Article 371 | Special provision with respect to the States of Maharashtra and Gujarat |\n| Article 371A | Special provision with respect to the State of Nagaland |\n| Article 371B | Special provision with respect to the State of Assam |\n| Article 371C | Special provision with respect to the State of Manipur |\n| Article 371D | Special provisions with respect to the State of Andhra Pradesh or the State of Telangana |\n| Article 371E | Universities of Andhra Pradesh & Telangana |\n| Article 371F | Special provisions with respect to the State of Sikkim |\n| Article 371G | Special provisions with respect to the State of Mizoram |\n| Article 371H | Special provisions with respect to the State of Arunachal Pradesh |\n| Article 371I | Special provisions with respect to the State of Goa |\n| Article 371J | Special provisions with respect to the State of Karnataka |"
+    ],
+    "image_descriptions": [
+      "Map of India with the national emblem (Ashoka Chakra) superimposed on the bottom left.",
+      "Graphic icons of historical monuments at the bottom right."
+    ],
+    "details": {
+      "summary": "Overview of Articles 370-371J providing special status or provisions to specific Indian states."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "polity-371-series-001",
+    "subject": "Indian Polity",
+    "chapter": "Special Provisions for Certain States",
+    "topic": "Articles 371A to 371J",
+    "text": "<strong>Article 371A - Nagaland:</strong> Act of Parliament applies to: <ul><li>Religious or social practices of Nagas</li><li>Naga customary law</li><li>Administration of civil & criminal justice involving customary law</li><li>Ownership & transfer of land and resources</li></ul> Unless the State Assembly agrees.<br><br><strong>Article 371B - Assam:</strong> <ul><li>Special committee of Legislative Assembly for tribal areas.</li></ul><br><strong>Article 371C - Manipur:</strong> <ul><li>Hill Areas Committee in Legislative Assembly</li><li>President receives annual report regarding hill administration</li></ul><br><strong>Article 371D & 371E - Andhra Pradesh:</strong> <strong>371D:</strong> <ul><li>Equal opportunities in public employment & education</li><li>Local cadre system</li></ul> <strong>371E:</strong> <ul><li>Establishment of Central University</li></ul><br><strong>Article 371F - Sikkim:</strong> <ul><li>Protection of old laws</li><li>Special representation in Assembly</li><li>Governor special responsibility for peace</li></ul><br><strong>Article 371G - Mizoram:</strong> <ul><li>Same as Nagaland</li></ul><br><strong>Article 371H - Arunachal Pradesh:</strong> <ul><li>Governor has special responsibility for law & order.</li></ul><br><strong>Article 371I - Goa:</strong> <ul><li>Minimum 30 members in Legislative Assembly.</li></ul><br><strong>Article 371J - Karnataka (Hyderabad-Karnataka Region):</strong> <ul><li>Special development board</li><li>Reservation in education & jobs for local people</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A cartoon illustration of a person in traditional tribal attire holding a spear, representing the cultural diversity of the states mentioned in the special provisions."
+    ],
+    "details": {
+      "summary": "Overview of special constitutional provisions for various Indian states under Articles 371A through 371J."
+    },
+    "mcq": null,
+    "source_pdf": "doc1.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "insight-ssb-promo-001",
+    "subject": "Miscellaneous",
+    "chapter": "Exam Preparation Strategy",
+    "topic": "Insight SSB Resources",
+    "text": "<p><strong>Academy Ka Rasta</strong> provides structured preparation resources for <strong>NDA, CDS, and AFCAT</strong> examinations. The platform emphasizes <em>Smart Work</em> and offers a <strong>Toppers Revision Meter</strong>, which is a 30-day plan for achieving an All India Rank (AIR). Key features include:</p><ul><li>Timetable management</li><li>Daily DIYs and Notes</li><li>Daily Quizzes</li><li>Access via Telegram channel: <strong>@INSIGHTSSB</strong></li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Feature | Description |\n|---|---|\n| Founder | Vaishalli Maam |\n| Exam Focus | NDA, CDS, AFCAT |\n| Resource Type | Toppers Revision Meter (30 Days) |\n| Platform | Telegram (@INSIGHTSSB) |"
+    ],
+    "image_descriptions": [
+      "A promotional graphic for Insight SSB featuring the founder, Vaishalli Maam, and a 'Toppers Revision Meter' document cover. The image highlights achievements such as 200+ recommendations, 15,000+ selections, and AIR 26 in CDS 2-2018.",
+      "A screenshot of a 'Toppers Revision Meter' table showing a 30-day study plan covering subjects like Physical Geography, Indian Polity, and Biology with columns for confidence levels."
+    ],
+    "details": {
+      "summary": "Promotional material for Insight SSB's exam preparation resources, including the Toppers Revision Meter and Telegram-based study support for defence aspirants."
+    },
+    "source_pdf": "doc1.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "physics-laws-of-motion-momentum-second-law",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Momentum and Second Law of Motion",
+    "text": "<p><strong>Momentum has both direction and magnitude.</strong></p><ul><li>Its direction is the same as that of velocity, v.</li><li>Direction is the same as that of velocity, v.</li><li>The SI unit of momentum is kilogram-metre per second (kg m s-1).</li><li>Since the application of an unbalanced force brings a change in the velocity of the object, it is therefore clear that a force also produces a change of momentum.</li><li>The second law of motion states that the rate of change of momentum of an object is proportional to the applied unbalanced force in the direction of force.</li><li>The initial and final momentum of the object will be, p1 = mu and p2 = mv respectively.</li></ul><ul><li>While catching a fast moving cricket ball, a fielder in the ground gradually pulls his hand backwards with the moving ball.</li><li>The fielder increases the time during which the high velocity of the moving ball decreases to zero.</li><li>Thus, the acceleration of the ball is decreased and therefore the impact of catching the fast moving ball is also reduced.</li><li>That is, when F = 0, v = u for whatever time, t is taken. This means that the object will continue moving with uniform velocity, u throughout the time, t. If u is zero then v will also be zero. That is, the object will remain at rest.</li></ul>",
+    "formulas": [
+      "Change in momentum: p2 - p1",
+      "Change in momentum: mv - mu",
+      "Change in momentum: m(v - u)",
+      "Rate of change of momentum: m(v - u) / t",
+      "Applied force: F = m(v - u) / t",
+      "F = ma",
+      "F = m(v - u) / t",
+      "Ft = mv - mu"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram illustrating the concept of force and momentum transfer on a carrom board, showing a hand holding a cue stick, a striker, and carrom coins. A pencil with a cap is also depicted, pointing towards the formulas related to momentum and force."
+    ],
+    "details": {
+      "summary": "This section defines momentum, its direction, and SI unit. It explains Newton's Second Law of Motion, stating that force is proportional to the rate of change of momentum. An example of catching a cricket ball illustrates the concept of increasing time to reduce impact. It also describes the state of an object when no net force acts on it."
+    },
+    "mcq": null,
+    "source_pdf": "doc2.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "physics-laws-of-motion-third-law",
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "topic": "Third Law of Motion",
+    "text": "<p><strong>THIRD LAW OF MOTION</strong></p><ul><li>The third law of motion states that when one object exerts a force on another object, the second object instantaneously exerts a force back on the first. These two forces are always equal in magnitude but opposite in direction.</li><li>Even though the action and reaction forces are always equal in magnitude, these forces may not produce accelerations of equal magnitudes. This is because each force acts on a different object that may have a different mass.</li><li>When a gun is fired, it exerts a forward force on the bullet. The bullet exerts an equal and opposite force on the gun. This results in the recoil of the gun. Since the gun has a much greater mass than the bullet, the acceleration of the gun is much less than the acceleration of the bullet.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A stick figure drawing of a person reading a book, accompanied by question marks and an exclamation mark, possibly symbolizing the process of understanding or questioning a concept."
+    ],
+    "details": {
+      "summary": "This section explains Newton's Third Law of Motion, which describes action-reaction pairs. It clarifies that while forces are equal and opposite, accelerations may differ due to varying masses of the interacting objects, using the example of a gun recoiling after firing a bullet."
+    },
+    "mcq": null,
+    "source_pdf": "doc2.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "physics-gravitation-universal-law",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Universal Law of Gravitation",
+    "text": "<p><strong>UNIVERSAL LAW OF GRAVITATION</strong></p><ul><li>Every object in the universe attracts every other object with a force which is proportional to the product of their masses and inversely proportional to the square of the distance between them. The force is along the line joining the centres of two objects.</li><li><strong>G is the constant of proportionality and is called the universal gravitation constant</strong></li><li><strong>The SI unit of G is N m2 kg-2.</strong></li><li><strong>Value of G is 6.673 × 10-11 N m2 kg-2.</strong></li></ul>",
+    "formulas": [
+      "F = G * (Mm / d^2)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram illustrating the Universal Law of Gravitation, showing two spherical objects, A and B, with masses M and m respectively, separated by a distance d. An arrow indicates the attractive force F between them, and the formula F = G * (Mm / d^2) is displayed. An icon of an open book with a magnifying glass is also present."
+    ],
+    "details": {
+      "summary": "This section defines the Universal Law of Gravitation, stating that every object attracts every other object with a force proportional to their masses and inversely proportional to the square of the distance between them. It also specifies the universal gravitational constant (G), its SI unit, and its numerical value."
+    },
+    "mcq": null,
+    "source_pdf": "doc2.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "physics-gravitation-importance-universal-law",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Importance of the Universal Law of Gravitation",
+    "text": "<p><strong>IMPORTANCE OF THE UNIVERSAL LAW OF GRAVITATION</strong></p><p>The universal law of gravitation successfully explained several phenomena which were believed to be unconnected:</p><ol><li>the force that binds us to the earth;</li><li>the motion of the moon around the earth;</li><li>the motion of planets around the Sun</li><li>the tides due to the moon and the Sun.</li></ol>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This section highlights the significance of the Universal Law of Gravitation by listing the phenomena it successfully explained, including the force binding us to Earth, the motion of celestial bodies like the Moon and planets, and the occurrence of tides."
+    },
+    "mcq": null,
+    "source_pdf": "doc2.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "physics-gravitation-001",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Weight and Free Fall",
+    "text": "<h3>Weight</h3><ul><li>The law is universal; applicable to all bodies, whether big or small, celestial or terrestrial.</li><li><strong>Inverse-square:</strong> If <em>F</em> is inversely proportional to the square of <em>d</em>, if <em>d</em> increases by a factor of 6, <em>F</em> becomes 1/36 times smaller.</li><li>Weight depends on mass (m) and acceleration due to gravity (g).</li><li>Weight is the force with which an object is attracted towards the earth.</li><li><strong>Formula:</strong> W = m x g.</li><li>SI unit is Newton (N). It has both magnitude and direction.</li></ul><h3>Free Fall</h3><ul><li>Objects falling towards the earth under this force alone are in 'free fall'.</li><li>No change in direction of motion, but magnitude of velocity changes.</li><li>Acceleration due to gravity is denoted by <em>g</em>.</li><li>Unit of <em>g</em> is m s^-2.</li><li><em>g</em> = 9.8 ms^-2.</li><li><strong>Formula:</strong> F = mg; mg = G(M x m)/d^2; g = G(M/d^2).</li></ul><h3>Mass</h3><ul><li>Greater mass = greater inertia.</li><li>Mass is constant regardless of location (earth, moon, space).</li></ul><h3>Weight of Body in Lift</h3><ul><li>Stationary/Uniform speed: Apparent weight = True weight.</li><li>Going up with acceleration: Apparent weight > True weight.</li><li>Going down with acceleration: Apparent weight < True weight.</li><li>Free fall: Weight = 0 (Weightlessness).</li><li>Going down with acceleration > g: Body raises towards the ceiling.</li></ul>",
+    "formulas": [
+      "W = m x g",
+      "F = m x a",
+      "F = mg",
+      "g = G(M/d^2)"
+    ],
+    "tables": [
+      "| Condition | Figure | velocity | Acceleration | Reaction | Conclusion |\n|---|---|---|---|---|---|\n| Lift is at rest | [Diagram of lift with spring balance] | v = 0 | a = 0 | R - mg = 0; R = mg | Apparent weight = Actual weight |"
+    ],
+    "image_descriptions": [
+      "Diagram showing a stack of books representing the formula derivation for gravitational force.",
+      "Illustration of a person inside a lift with a spring balance, showing the condition where the lift is at rest."
+    ],
+    "details": {
+      "summary": "Overview of gravitational concepts including weight, free fall, mass properties, and the effect of lift acceleration on apparent weight."
+    },
+    "source_pdf": "doc2.pdf",
+    "source_page": 21
   }
 ]

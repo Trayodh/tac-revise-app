@@ -73,6 +73,10 @@ def get_book_priority(pdf_name):
     # TIER 2: MASTER REVISION & HIGH-YIELD CAPSULES (User Prioritized)
     if any(f'doc{i}.pdf' in lower for i in range(1, 10)):
         return (2, 5)
+    if 'physics class notes' in lower:
+        return (2, 6)
+    if 'physical geography class notes' in lower:
+        return (2, 7)
     if 'nda_material.pdf' in lower:
         return (2, 10)
     if 'cds_material.pdf' in lower:
@@ -102,7 +106,7 @@ def get_next_task_priority(state):
     Picks the highest priority incomplete book and extracts its pages
     consecutively until that book is 100% complete.
     """
-    incomplete = [name for name in state if state[name]['status'] != 'completed']
+    incomplete = [name for name in state if len(state[name].get('extracted_pages', [])) < state[name].get('total_pages', 0)]
     if not incomplete:
         return None, None
         
@@ -125,9 +129,10 @@ def get_next_task_priority(state):
                     continue
                 return pdf_name, page
                 
-        # All available pages extracted
-        info['status'] = 'completed'
-        save_state(state)
+        # Only mark completed if 100% of pages are truly in extracted_pages
+        if len(info['extracted_pages']) >= total:
+            info['status'] = 'completed'
+            save_state(state)
         
     return None, None
 
