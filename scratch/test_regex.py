@@ -1,9 +1,15 @@
-import re
-with open('notes_extra_history.js', 'r', encoding='utf-8') as f:
-    content = f.read()
-m = re.search(r'EXPANDED_NOTES_DATA\["what-is-history"\]\s*=\s*`(.*?)`;', content, re.DOTALL)
-if m:
-    text = m.group(1)
-    text = re.sub(r'<[^>]+>', ' ', text)
-    print('Length:', len(text.split()))
-    print(text[:500])
+import re, time
+
+s = r'\frac{1}{2}\alpha\beta\sum_{i=1}^n \sqrt{x}' * 500
+
+t0 = time.time()
+fixed = re.sub(r'\\(?![/\\\"bfnrtu]|u[0-9a-fA-F]{4})', r'\\\\', s)
+print('re1:', time.time() - t0)
+
+t1 = time.time()
+fixed2 = re.sub(r'(?<!\\)\\(?!"|\\)', r'\\\\', s)
+print('re2:', time.time() - t1)
+
+t2 = time.time()
+unescaped_quotes = len(re.findall(r'(?<!\\)"', s))
+print('re3:', time.time() - t2)
