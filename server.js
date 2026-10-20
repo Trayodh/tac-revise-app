@@ -1175,8 +1175,8 @@ server.keepAliveTimeout = 600000;
 server.headersTimeout = 601000;
 
 if (require.main === module) {
-  server.listen(PORT, () => {
-    console.log(`Tac-Revise Server running at http://localhost:${PORT}`);
+  server.listen(PORT, '0.0.0.0', () => {
+    console.log(`Tac-Revise Server running at http://0.0.0.0:${PORT}`);
     
     // Trigger automated daily current affairs updates
     console.log("[AUTO-UPDATE] Scheduling first update in 10 seconds...");

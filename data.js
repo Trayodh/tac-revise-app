@@ -981,6 +981,51 @@ let CURRENT_AFFAIRS_LIVE = {
   ],
   "October 2026": [
     {
+      "id": "ca_live_20261019_001",
+      "topic": "International Relations",
+      "topicColor": "#8A2BE2",
+      "summary": "Parliament to resume Budget Session with focus on West Asia situation",
+      "text": "<p><strong>What happened:</strong> On <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>19 October 2026</mark>, the Lok Sabha was scheduled to reconvene for the annual Budget Session. Official statements released by <strong>DD News</strong> indicated that the agenda would prominently feature the evolving security and diplomatic scenario in <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>West Asia</mark>, including implications for India’s defence posture and energy security.</p><p><strong>Why it matters:</strong> West Asia remains a flashpoint for geopolitical tension, affecting global oil markets, maritime routes, and regional security dynamics. A parliamentary focus signals potential policy deliberations on defence procurement, strategic partnerships, and contingency planning, all of which are critical for India’s national security strategy.</p><p><strong>Background:</strong> Recent developments – the Iran‑Israel proxy conflicts, the Saudi‑Iran rapprochement talks, and the resurgence of militant activity in the Red Sea corridor – have heightened concerns for India’s overseas assets and energy imports. Historically, parliamentary debates have shaped defence budgeting and foreign‑policy decisions, making this session pivotal for upcoming fiscal allocations.</p>",
+      "quickSummary": "Parliament’s Budget Session starting 19 Oct 2026 will prioritize discussion on West Asia security developments, impacting India’s defence and energy strategies.",
+      "detailedAnalysis": "- Date: 19 Oct 2026<br>- Session: Budget Session of Parliament (Lok Sabha)<br>- Focus: West Asia geopolitical developments<br>- Key issues: Defence procurement, energy security, maritime safety, diplomatic engagement<br>- Ministries involved: Ministry of Defence, Ministry of External Affairs, Ministry of Petroleum & Natural Gas",
+      "backgroundContext": "Aspirants for NDA, CDS, AFCAT and UPSC must understand how parliamentary debates translate into defence policy and budgetary decisions. Questions frequently ask about India’s strategic response to West Asian crises, oil price volatility, and the link between parliamentary sessions and defence spending.",
+      "stakeholders": [
+        "Parliament of India",
+        "Ministry of Defence",
+        "Ministry of External Affairs",
+        "Ministry of Petroleum & Natural Gas"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "relatedTopics": [
+        "[[West Asia – Geopolitics]]",
+        "[[India Budget Session]]"
+      ],
+      "upscHighlights": [
+        "Parliament to deliberate West Asia situation during Budget Session",
+        "Potential impact on defence procurement and energy policy"
+      ],
+      "strategicImportance": "Difficulty: Medium. Confidence Score: 96%",
+      "verificationStatus": "Verified (DD News official release)",
+      "publicationDate": "19 October 2026",
+      "mcq": {
+        "question": "During the Budget Session commencing on 19 October 2026, which region's security developments were highlighted as a key focus for parliamentary discussion?",
+        "options": [
+          "Southeast Asia",
+          "West Asia",
+          "South America",
+          "Northern Europe"
+        ],
+        "correct": 1,
+        "explanation": "DD News reported that the upcoming Budget Session would give priority to the evolving security situation in West Asia, reflecting its impact on India’s defence and energy considerations."
+      }
+    },
+    {
       "id": "ca_live_20261013_001",
       "topic": "International Relations",
       "topicColor": "#8A2BE2",
@@ -1027,51 +1072,6 @@ let CURRENT_AFFAIRS_LIVE = {
         ],
         "correct": 1,
         "explanation": "The official press release of the Ministry of External Affairs dated 13 Oct 2026 states that Prime Minister Narendra Modi met with Canada’s Prime Minister Mark Carney to discuss strategic partnership and clean‑energy cooperation."
-      }
-    },
-    {
-      "id": "ca_live_20261012_001",
-      "topic": "Legislation",
-      "topicColor": "#1E90FF",
-      "summary": "MSME Development (Amendment) Bill, 2026 – Key Features & Implications",
-      "text": "<p><strong>What happened:</strong> The Union Government introduced the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026</mark> in Parliament on 12 October 2026. The Bill seeks to amend the 2020 Act to broaden the definition of MSMEs, enhance credit access, and introduce a grievance redressal mechanism.</p><p><strong>Why it matters:</strong> MSMEs contribute <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>approximately 30% of India’s GDP</mark> and employ over 110 million people. The amendment aims to boost their competitiveness, especially in the post‑pandemic recovery phase, and aligns with the <em>Atmanirbhar Bharat</em> agenda.</p><p><strong>Background:</strong> The original 2020 Act was enacted to simplify registration and provide a single window for benefits. Persistent issues such as delayed loan disbursements and limited market access prompted the government to propose this amendment.</p><p><strong>Key provisions:</strong> <ul><li>Expansion of the turnover threshold from ₹250 crore to ₹500 crore for ‘medium’ classification.</li><li>Creation of an <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>MSME Credit Facilitation Cell</mark> under the Ministry of MSME.</li><li>Mandatory annual compliance reporting for all registered MSMEs.</li></ul></p>",
-      "quickSummary": "On 12 Oct 2026, the Government introduced the MSME Development (Amendment) Bill to raise turnover limits, improve credit access and set up a grievance cell, aiming to strengthen the sector’s contribution to GDP.",
-      "detailedAnalysis": "- Bill introduced: 12 Oct 2026<br>- Ministry: Ministry of Micro, Small & Medium Enterprises<br>- New turnover ceiling: ₹500 crore for medium enterprises<br>- New body: MSME Credit Facilitation Cell<br>- Expected impact: ↑ credit flow, better compliance, ↑ GDP share",
-      "backgroundContext": "For NDA & CDS exams, understanding recent legislative changes helps answer questions on economic policy, industrial growth and the government's self‑reliance drive. UPSC often asks about MSME contributions and recent reforms.",
-      "stakeholders": [
-        "Ministry of MSME",
-        "Micro, Small & Medium Enterprises",
-        "Banking & Financial Institutions",
-        "State Governments"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[MSME – Economic Significance]]",
-        "[[Atmanirbhar Bharat]]"
-      ],
-      "upscHighlights": [
-        "MSMEs account for ~30% of India’s GDP",
-        "Amendment raises turnover limit to ₹500 crore"
-      ],
-      "strategicImportance": "Difficulty: Easy. Confidence Score: 98%",
-      "verificationStatus": "Verified (Press Information Bureau)",
-      "publicationDate": "12 October 2026",
-      "mcq": {
-        "question": "What is the new turnover threshold for a ‘medium’ enterprise under the MSME Development (Amendment) Bill, 2026?",
-        "options": [
-          "₹250 crore",
-          "₹400 crore",
-          "₹500 crore",
-          "₹750 crore"
-        ],
-        "correct": 2,
-        "explanation": "The amendment raises the turnover ceiling for medium enterprises from ₹250 crore to ₹500 crore to broaden the MSME definition and improve access to credit."
       }
     }
   ]

@@ -291,7 +291,7 @@ def extract_content(b64_img, page_text, prompt):
     print("Gemini models exhausted. Trying Groq fallback with text...")
     groq_key = os.environ.get("GROQ_API_KEY")
     if groq_key and page_text and len(page_text.strip()) > 30:
-        groq_models = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
+        groq_models = ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "openai/gpt-oss-120b", "openai/gpt-oss-20b"]
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"}
         
