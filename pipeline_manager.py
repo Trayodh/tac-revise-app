@@ -22,11 +22,20 @@ def load_state():
             return json.load(f)
     return {}
 
+def robust_replace(src, dst, retries=8, delay=0.3):
+    for i in range(retries):
+        try:
+            os.replace(src, dst)
+            return
+        except PermissionError:
+            time.sleep(delay)
+    os.replace(src, dst)
+
 def save_state(state):
     temp_file = f"{STATE_FILE}.tmp"
     with open(temp_file, 'w', encoding='utf-8') as f:
         json.dump(state, f, indent=2)
-    os.replace(temp_file, STATE_FILE)
+    robust_replace(temp_file, STATE_FILE)
 
 def append_to_db(filename, new_data):
     if not new_data:
@@ -45,7 +54,7 @@ def append_to_db(filename, new_data):
     temp_file = f"{filename}.tmp"
     with open(temp_file, 'w', encoding='utf-8') as f:
         json.dump(db_data, f, indent=2, ensure_ascii=False)
-    os.replace(temp_file, filename)
+    robust_replace(temp_file, filename)
 
 def get_book_priority(pdf_name):
     """
