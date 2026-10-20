@@ -71,16 +71,12 @@ def get_book_priority(pdf_name):
         return (1, 50)
         
     # TIER 2: MASTER REVISION & HIGH-YIELD CAPSULES (User Prioritized)
+    if any(f'doc{i}.pdf' in lower for i in range(1, 10)):
+        return (2, 5)
     if 'nda_material.pdf' in lower:
         return (2, 10)
     if 'cds_material.pdf' in lower:
         return (2, 15)
-    if 'physics class notes' in lower:
-        return (2, 20)
-    if 'physical geography class notes' in lower:
-        return (2, 30)
-    if any(f'doc{i}.pdf' in lower for i in range(1, 10)):
-        return (2, 40)
     if 'capsule' in lower or 'class notes' in lower:
         return (2, 50)
         
