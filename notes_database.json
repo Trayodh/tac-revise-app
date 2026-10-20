@@ -127075,5 +127075,86 @@
     "content": "The book **\"Pakistan Paradox: Instability and Resilience\"** was authored by **G. Parthasarathy**.",
     "source_pdf": "nda_material.pdf",
     "source_page": 1313
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "subchapter": "Solids and Segments",
+    "topic": "Surface Area of Composite Solids",
+    "content": "### Total Surface Area of a Solid (Cone + Hemisphere)\n\nFor a solid composed of a cone and a hemisphere joined at their bases:\n1. **Total Surface Area (TSA)** = Curved Surface Area (CSA) of Cone + CSA of Hemisphere.\n2. **Formulas**:\n   - CSA of Cone = $\\pi r l$\n   - CSA of Hemisphere = $2\\pi r^2$\n   - Total Surface Area = $\\pi r l + 2\\pi r^2$\n\n**Example Calculation Context**:\n- If the radius of the hemisphere is $x$ and the radius of the cone is $x/2$ (based on typical problem structures where dimensions are proportional):\n- In a right-angled triangle formed by the cone's height, radius, and slant height:\n  - $AB^2 = OA^2 + OB^2$\n  - If $OA = x/2$ and $OB = x/2$ (hypotenuse calculation context), $AB = \\sqrt{(x/2)^2 + (x/2)^2} = \\sqrt{2x^2/4} = x/\\sqrt{2}$.\n  - *Note: The provided text calculates $AB = x\\sqrt{5}$ based on specific dimensions $OA=x/2$ and $OB=x$ or similar variations. Specifically, if $OA = x/2$ and $OB = x$, then $AB = \\sqrt{x^2/4 + x^2} = \\sqrt{5x^2/4} = \\frac{x\\sqrt{5}}{2}$. The text simplifies to $AB = x\\sqrt{5}$ implying specific scaling.*\n- Approximate TSA calculation involves substituting $\\pi \\approx 3.14$ and simplifying terms like $\\pi x^2(\\frac{\\sqrt{5}}{2} + 2)$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 15
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "subchapter": "Volume Displacement",
+    "topic": "Volume of Water Left in a Cylinder",
+    "content": "### Volume of Water Left After Immersion\n\nWhen a solid is placed upright in a right circular cylinder full of water such that it touches the bottom:\n1. **Principle**: The volume of water displaced is equal to the volume of the submerged solid.\n2. **Formula**:\n   - Volume of Water Left = Volume of Cylinder - Volume of Solid\n   - Volume of Cylinder = $\\pi R^2 H$\n   - Volume of Solid = Volume of Cone + Volume of Hemisphere\n     - Volume of Cone = $\\frac{1}{3}\\pi r^2 h$\n     - Volume of Hemisphere = $\\frac{2}{3}\\pi r^3$\n\n**Example Calculation Context**:\n- Given: Cylinder radius $R = x$, Height $H = 3x$.\n- Solid dimensions: Cone radius $r_1 = x/2$, height $h_1 = x/2$; Hemisphere radius $r_2 = x/2$.\n- Volume of Cylinder = $\\pi (x)^2 (3x) = 3\\pi x^3$.\n- Volume of Solid = $\\frac{1}{3}\\pi (x/2)^2 (x/2) + \\frac{2}{3}\\pi (x/2)^3 = \\frac{\\pi x^3}{24} + \\frac{2\\pi x^3}{24} = \\frac{3\\pi x^3}{24} = \\frac{\\pi x^3}{8}$.\n- *Note: The text solution implies a different solid volume or cylinder dimension interpretation leading to $5.24x^3$. Specifically, if the solid volume is calculated as $\\frac{4}{3}\\pi x^3$ (which is the volume of a sphere of radius x, or specific composite), the subtraction yields the result. The text shows: $3\\pi x^3 - \\frac{4}{3}\\pi x^3 = \\frac{5}{3}\\pi x^3 \\approx 5.24 x^3$.*",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 15
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mensuration",
+    "subchapter": "Circle Properties",
+    "topic": "Area of a Minor Segment",
+    "content": "### Area of a Minor Segment of a Circle\n\n1. **Definition**: A segment is the region bounded by a chord and the arc subtended by the chord.\n2. **Formula**:\n   - Area of Minor Segment = Area of Minor Sector - Area of Triangle formed by the radii and chord.\n   - Area of Sector = $\\frac{\\theta}{360^\\circ} \\times \\pi r^2$ (where $\\theta$ is the central angle in degrees).\n   - Area of Triangle = $\\frac{1}{2} r^2 \\sin(\\theta)$ (where $\\theta$ is in radians or degrees converted appropriately).\n\n**Key Values**:\n- $\\pi = \\frac{22}{7}$\n- $\\sqrt{3} \\approx 1.732$\n- For $\\theta = 120^\\circ$:\n  - Sector Area = $\\frac{120}{360} \\pi r^2 = \\frac{1}{3} \\pi r^2$\n  - Triangle Area = $\\frac{1}{2} r^2 \\sin(120^\\circ) = \\frac{1}{2} r^2 \\frac{\\sqrt{3}}{2} = \\frac{\\sqrt{3}}{4} r^2$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 15
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Area of Triangle using Heron's Formula",
+    "content": "### Heron's Formula for Area of a Triangle\n\n**Definition:**\nThe area of a triangle can be calculated using the lengths of its three sides without knowing the height.\n\n**Formula:**\nLet the sides of the triangle be $a$, $b$, and $c$.\n1. Calculate the semi-perimeter $s$:\n   $$s = \\frac{a + b + c}{2}$$\n2. Calculate the Area ($A$):\n   $$A = \\sqrt{s(s-a)(s-b)(s-c)}$$\n\n**Application to Altitude:**\nIf the area is known, the altitude ($h$) corresponding to a base ($b$) can be found using:\n$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$\n$$h = \\frac{2 \\times \\text{Area}}{\\text{base}}$$\n\n**Example Calculation:**\nFor a triangle with sides $AB=6$ cm, $BC=10$ cm, and $CA=8$ cm:\n1. $s = \\frac{6+10+8}{2} = 12$ cm.\n2. Area $= \\sqrt{12(12-10)(12-8)(12-6)} = \\sqrt{12 \\times 2 \\times 4 \\times 6} = \\sqrt{576} = 24$ cm$^2$.\n3. Altitude from A to BC ($AM$):\n   $$24 = \\frac{1}{2} \\times 10 \\times AM \\implies AM = \\frac{48}{10} = 4.8 \\text{ cm}$$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 16
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Circles and Triangles",
+    "topic": "Incircle and Sector Areas",
+    "content": "### Incircle Radius and Sector Areas\n\n**Incircle Radius ($r$):**\nThe radius of the circle inscribed in a triangle (incircle) can be found using the area and semi-perimeter:\n$$r = \\frac{\\text{Area}}{s}$$\nAlternatively, for a triangle with sides $a, b, c$:\n$$r = \\sqrt{\\frac{(s-a)(s-b)(s-c)}{s}}$$\n\n**Area of a Sector:**\nThe area of a sector of a circle with radius $r$ and central angle $\\theta$ (in degrees) is:\n$$\\text{Area} = \\frac{\\theta}{360^\\circ} \\times \\pi r^2$$\n\n**Sectors within a Triangle:**\nIf circles are drawn with centers at the vertices of a triangle and radii equal to the inradius $r$, the sum of the areas of the sectors inside the triangle is related to the sum of the angles of the triangle ($180^\\circ$).\n\n**Example:**\nIn a triangle with inradius $r=2$ cm:\n- Area of sector at vertex A (angle $\\theta_A$) $= \\frac{\\theta_A}{360} \\pi (2)^2$.\n- Sum of angles $\\theta_A + \\theta_B + \\theta_C = 180^\\circ$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 16
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Properties of Isosceles Triangles",
+    "content": "### Isosceles Triangle Properties\n\n**Definition:**\nA triangle with at least two equal sides is an isosceles triangle. Let $\\triangle ABC$ be isosceles with $AB = AC$.\n\n**Key Theorem (Apollonius' Theorem / Median Property):**\nIf $D$ is any point on the base $BC$ of an isosceles triangle $ABC$ where $AB = AC$, then:\n$$AB^2 - AD^2 = BD \\times CD$$\n\n**Proof Outline:**\n1. Draw altitude $AM \\perp BC$. Since $AB=AC$, $M$ is the midpoint of $BC$, so $BM = CM$.\n2. In right $\\triangle ABM$, $AB^2 = AM^2 + BM^2$.\n3. In right $\\triangle ADM$, $AD^2 = AM^2 + DM^2$.\n4. Subtracting the two equations: $AB^2 - AD^2 = BM^2 - DM^2$.\n5. Using difference of squares: $BM^2 - DM^2 = (BM - DM)(BM + DM)$.\n6. From the figure, $BM - DM = BD$ and $BM + DM = BC$ (if D is between B and M) or similar geometric relations lead to $BD \\times CD$ depending on the position of D. Specifically, if D is on BC, $BD \\cdot CD = (BM - DM)(CM + DM)$ is not directly the standard form, but the standard result for any point D on the base of an isosceles triangle is $AB^2 - AD^2 = BD \\cdot CD$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 16
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Circle Theorems",
+    "topic": "Angle Subtended by a Chord",
+    "content": "### Angle Subtended by a Chord\n- **Theorem**: The angle subtended by a chord at any point on the circumference of the circle is half the angle subtended by the same chord at the centre.\n- **Formula**\n  ```\n  ∠(chord at circumference) = ½ × ∠(chord at centre)\n  ```\n- **Application**: In the given figure, chord **PB** subtends a right angle (90°) at the centre **O** because **OP ⟂ AB** and **AB** is a diameter. Therefore the angle subtended by **PB** at point **A** on the circumference is:\n  ```\n  ∠BAP = ½ × 90° = 45°\n  ```\n- The same reasoning holds for chord **AP** at point **Q**, giving **∠AQP = 45°**.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 17
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Circle Theorems",
+    "topic": "Perpendicular Radius to a Diameter",
+    "content": "### Perpendicular Radius to a Diameter\n- If a radius **OP** is drawn to a point **P** on a diameter **AB**, and **OP ⟂ AB**, then **OP** is also a line of symmetry of the circle.\n- The central angle **∠BOP** formed by the two radii **OB** and **OP** is a right angle (90°).\n- Consequently, any angle subtended by the chord **PB** at the circumference (e.g., **∠BAP**) is half of 90°, i.e., **45°**.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 17
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Area Relations in a Circle",
+    "topic": "Using Product of Segments to Find Areas",
+    "content": "### Area Relations Using Segment Products\n- For a triangle formed by a side of the circle and a chord, the area can be expressed as:\n  ```\n  Area(Δ) = (side × corresponding altitude) / 2\n  ```\n- In the problem, several equalities were derived using the given lengths:\n  - From **AB = 16 cm** and the derived segment **PB = 8 cm**, the area of Δ**ABQ** was computed as:\n    ```\n    Area(ΔABQ) = (AB × BQ) / 2 = 12.48 cm²   (≈ 12 48/25 cm²)\n    ```\n  - From **BC = 6.3 cm** and **CP = 0.8 cm**, the area of Δ**BCP** was:\n    ```\n    Area(ΔBCP) = (BC × CP) / 2 = 40.33 cm²\n    ```\n- The required expression **4·(CP² – AQ²)** was obtained by subtracting the two triangle areas and multiplying by 4, giving **111.39 cm²**.\n- These calculations illustrate how segment lengths derived from chord‑diameter relationships can be used to evaluate composite area expressions.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 17
   }
 ]

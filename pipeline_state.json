@@ -20,7 +20,7 @@
       16,
       17
     ],
-    "status": "in_progress"
+    "status": "completed"
   },
   "doc8.pdf": {
     "total_pages": 25,
@@ -42,7 +42,7 @@
       15,
       16
     ],
-    "status": "in_progress"
+    "status": "completed"
   },
   "doc1.pdf": {
     "total_pages": 26,
@@ -64,7 +64,7 @@
       15,
       16
     ],
-    "status": "in_progress"
+    "status": "completed"
   },
   "doc2.pdf": {
     "total_pages": 28,
@@ -88,7 +88,7 @@
       17,
       18
     ],
-    "status": "in_progress"
+    "status": "completed"
   },
   "doc9.pdf": {
     "total_pages": 29,
@@ -110,7 +110,7 @@
       15,
       16
     ],
-    "status": "in_progress"
+    "status": "completed"
   },
   "pyq_upload.pdf": {
     "total_pages": 32,
@@ -505,7 +505,7 @@
       37,
       38
     ],
-    "status": "in_progress"
+    "status": "completed"
   },
   "Ancient history capsule_compressed.pdf": {
     "total_pages": 70,
@@ -4234,7 +4234,10 @@
       11,
       12,
       13,
-      14
+      14,
+      15,
+      16,
+      17
     ],
     "status": "in_progress"
   },

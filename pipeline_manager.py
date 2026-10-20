@@ -73,6 +73,8 @@ def get_book_priority(pdf_name):
     # TIER 2: MASTER REVISION & HIGH-YIELD CAPSULES (User Prioritized)
     if 'nda_material.pdf' in lower:
         return (2, 10)
+    if 'cds_material.pdf' in lower:
+        return (2, 15)
     if 'physics class notes' in lower:
         return (2, 20)
     if 'physical geography class notes' in lower:
@@ -81,8 +83,6 @@ def get_book_priority(pdf_name):
         return (2, 40)
     if 'capsule' in lower or 'class notes' in lower:
         return (2, 50)
-    if 'cds_material.pdf' in lower:
-        return (2, 60)
         
     # TIER 4: DEFENCE & SPECIALS
     if 'defence_pdf.pdf' in lower:
