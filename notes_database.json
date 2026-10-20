@@ -140359,5 +140359,1549 @@
     },
     "source_pdf": "cds_material.pdf",
     "source_page": 335
+  },
+  {
+    "id": "cds-pathfinder-math-boat-stream-001",
+    "subject": "Mathematics",
+    "chapter": "Speed, Time and Distance",
+    "topic": "Problems Based on Boat and Stream",
+    "text": "<p><strong>Boat and Stream</strong> is an application of speed, time and distance.</p><ul><li><strong>Still water:</strong> If the speed of water is zero, then water is considered to be still water.</li><li><strong>Stream water:</strong> If the water of a river is moving at a certain speed, then it is called stream water.</li><li><strong>Downstream motion:</strong> In water, the direction along the stream is called downstream.</li><li><strong>Upstream motion:</strong> In water, the direction against the stream is called upstream.</li></ul><p><strong>Rules:</strong></p><ul><li><strong>Rule 9:</strong> If the speed of a boat in still water be x km/h and speed of stream be y km/h, then: <ul><li>Speed of boat downstream = (x + y) km/h</li><li>Speed of boat upstream = (x - y) km/h</li></ul></li><li><strong>Rule 10:</strong> Let the speed of boat in downstream = u km/h and speed of boat in upstream = v km/h, then: <ul><li>Speed of boat in still water = 1/2(u + v) km/h</li><li>Speed of stream (current) = 1/2(u - v) km/h</li></ul></li></ul>",
+    "formulas": [
+      "Speed of boat downstream = x + y",
+      "Speed of boat upstream = x - y",
+      "Speed of boat in still water = 1/2(u + v)",
+      "Speed of stream = 1/2(u - v)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and fundamental formulas for calculating boat and stream speeds."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 335
+  },
+  {
+    "id": "cds-pathfinder-math-races-001",
+    "subject": "Mathematics",
+    "chapter": "Speed, Time and Distance",
+    "topic": "Races",
+    "text": "<p>A contest of speed in running, driving, riding, sailing or rowing over a specified distance is called a race.</p><p>Suppose A and B are two contestants in a race. If A beats B by x m and length of the track is dm. Then, Distance travelled by B when A finishes the race = d - x and Speed of A / Speed of B = d / (d - x)</p><p><strong>Notes:</strong></p><ul><li>(i) A gives B a start of x m means when A starts at starting point, B starts x m ahead from starting point.</li><li>(ii) A gives B a start of t s means A starts t s after B starts from the same point.</li></ul>",
+    "formulas": [
+      "Speed of A / Speed of B = d / (d - x)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Concepts related to race mechanics, including head starts and relative speeds."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 335
+  },
+  {
+    "id": "TW-001",
+    "subject": "Mathematics",
+    "chapter": "Time and Work",
+    "topic": "Important Rules and Formulae",
+    "text": "<p>Usually (2-4) questions have been asked from this chapter. Generally questions are asked on Man-hours formulae, total wages paid for a work, number of days to complete a certain work and pipes and cisterns.</p><p>In this chapter, we will study the relationship among the quantity of work given, wages given, stipulated time, number of persons etc., and after it, we will be able to calculate the work in stipulated time by arranging some persons according to the work but before that lets discuss some basic rules.</p><h3>IMPORTANT RULES AND FORMULAE</h3><ul><li><strong>Rule 1:</strong> If a person can do a piece of work in 'n' days, then he will do 1/n of the work in one day and if a person can do 1/n th of work in one day, then he will complete the work in n days. e.g. If Raj can do a piece of work in 20 days, then he will do 1/20th of the work in one day.</li><li><strong>Note:</strong> In the problems related to time and work it is always considered that a man/woman works at uniform rate.</li><li><strong>Rule 2:</strong> A and B can do a piece of work in x days and y days, respectively. Then, time taken by (A + B) to complete the work is equal to reciprocal of (A + B)'s one day's work, i.e. xy / (x + y).</li><li><strong>Rule 3:</strong> If A and B can complete a work in x days and A alone can finish that work in y days, then number of days required to complete the work by B = xy / (y - x) days.</li><li><strong>Rule 4:</strong> If A and B can do a piece of work in x days, B and C can do same work in y days, C and A can do same work in z days. Then, they will complete the same work in 2xyz / (xy + yz + zx) days by working together.</li></ul>",
+    "formulas": [
+      "1/n",
+      "xy / (x + y)",
+      "xy / (y - x)",
+      "2xyz / (xy + yz + zx)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to Time and Work chapter covering basic rules for calculating work completion time for individuals and groups."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 345
+  },
+  {
+    "id": "math-time-work-rules-001",
+    "subject": "Mathematics",
+    "chapter": "Time and Work",
+    "topic": "Work Efficiency and Wages",
+    "text": "<p><strong>Rule 5:</strong> If two groups, M1 persons of the first group can do W1 work in D1 days working T1 hours in a day earning a sum of R1 and M2 persons of the second group can do W2 work in D2 days working T2 hours in a day earning a sum of R2. If each person of both groups has the same efficiency of work, then: (M1*D1*T1)/(W1*R1) = (M2*D2*T2)/(W2*R2)</p><p><strong>Rule 6:</strong> If 'm' men or 'n' women can do a piece of work in 'a' days, then x men and y women can do the same work in 1 / (x/(m*a) + y/(n*a)) days.</p><p><strong>Rule 7:</strong> If A can do a work in x days and B can do y% faster than A, then B will complete the work in (100*x)/(100+y) days.</p><p><strong>Rule 8:</strong> If A, B and C can do a piece of work in x, y and z days, respectively and they received ₹ k as wages by working together, then: <ul><li>Share of A = (yz / (xy + yz + zx)) * k</li><li>Share of B = (xz / (xy + yz + zx)) * k</li><li>Share of C = (xy / (xy + yz + zx)) * k</li></ul></p>",
+    "formulas": [
+      "(M1*D1*T1)/(W1*R1) = (M2*D2*T2)/(W2*R2)",
+      "Required days = 1 / (x/(m*a) + y/(n*a))",
+      "Required days = (100*x)/(100+y)",
+      "Share of A = (yz / (xy + yz + zx)) * k",
+      "Share of B = (xz / (xy + yz + zx)) * k",
+      "Share of C = (xy / (xy + yz + zx)) * k"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for calculating work completion time based on group efficiency, relative speed, and wage distribution."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 346
+  },
+  {
+    "id": "pathfinder-cds-62-001",
+    "subject": "Mathematics",
+    "chapter": "Time and Work",
+    "topic": "Wages and Work Distribution",
+    "text": "<p>If A and B can do a piece of work in x days and y days, respectively and they received ₹ k as wages by working together, then share of A = (yk / (x+y)) and share of B = (xk / (x+y)).</p><p>Wages are directly proportional to the work done and indirectly proportional to the time taken by the individual.</p>",
+    "formulas": [
+      "Share of A = (yk / (x+y))",
+      "Share of B = (xk / (x+y))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Relationship between wages, work done, and time taken."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 347
+  },
+  {
+    "id": "pathfinder-cds-62-002",
+    "subject": "Mathematics",
+    "chapter": "Time and Work",
+    "topic": "Other Work Formulas",
+    "text": "<ul><li>If A and B can do a piece of work in x and y days, respectively. A and B started working together but A left the work t days before completing the work, then time taken to complete the work will be ((x+t)y / (x+y)) days.</li><li>If A and B can do a piece of work in x and y days, respectively. Both begin together but after some days, A leaves the work and the remaining work is completed by B in x days. Then, the time after which A left is given by T = ((b-x)a / (a+b)).</li><li>If A and B can do a piece of work in x and y days, respectively. They start working together and after t days B leaves the work, then time taken to finish the whole work will be (x(y-t) / y) days.</li></ul>",
+    "formulas": [
+      "Time = ((x+t)y / (x+y))",
+      "T = ((b-x)a / (a+b))",
+      "Time = (x(y-t) / y)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas for work completion when individuals leave at different stages."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 347
+  },
+  {
+    "id": "pathfinder-cds-62-003",
+    "subject": "Mathematics",
+    "chapter": "Pipes and Cisterns",
+    "topic": "Basic Concepts and Rules",
+    "text": "<p>Problems on pipes and cisterns are based on the basic concept of time and work. Pipes are connected to a tank or cistern and are used to fill or empty the tank or cistern.</p><p><strong>Rule 9:</strong> If there are two pipes A and B takes 'a' and 'b' h respectively to fill a tanker, then the two pipes together fill (1/a + 1/b) part of the tank in 1h and time taken to fill the tank will be (ab / (a+b)) h. If a pipe fills a tank in 'a' h, then in 1 h only 1/a of the tank is filled.</p><p><strong>Rule 10:</strong> (i) If a pipe can fill a tank in 'a' h and another can fill the tank in 'b' h but a third pipe empties the filled tank in 'c' h, then in one hour (1/a + 1/b - 1/c) part of the tank will be filled (when all the three pipes are open) and time taken to fill the tank will be (abc / (bc + ac - ab)) h. (ii) If a pipe can fill a tank in a1 h and another pipe can empty the filled tank in a2 h, then in one hour (1/a1 - 1/a2) part of the tank will be filled. (when both pipes are open) and time taken to fill the tank will be (a1 a2 / (a2 - a1)) h.</p>",
+    "formulas": [
+      "Part filled in 1h = (1/a + 1/b)",
+      "Time to fill = (ab / (a+b))",
+      "Part filled in 1h (3 pipes) = (1/a + 1/b - 1/c)",
+      "Time to fill (3 pipes) = (abc / (bc + ac - ab))",
+      "Part filled in 1h (2 pipes) = (1/a1 - 1/a2)",
+      "Time to fill (2 pipes) = (a1 a2 / (a2 - a1))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for calculating time taken to fill or empty tanks with multiple pipes."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 347
+  },
+  {
+    "id": "pathfinder-cds-math-work-time-001",
+    "subject": "Mathematics",
+    "chapter": "Work and Time",
+    "topic": "Work and Time Formulae",
+    "text": "<p>For a scenario where <strong>a<sub>1</sub> men</strong> and <strong>b<sub>1</sub> boys</strong> can complete a work in <strong>x days</strong>, and <strong>a<sub>2</sub> men</strong> and <strong>b<sub>2</sub> boys</strong> can complete the same work in <strong>y days</strong>, the work capacity can be derived as follows:</p><ul><li>One day work of 1 man = (y*b<sub>2</sub> - x*b<sub>1</sub>) / (x*a<sub>1</sub> - y*a<sub>2</sub>)</li><li>One day work of 1 boy = (x*a<sub>1</sub> - y*a<sub>2</sub>) / (y*b<sub>2</sub> - x*b<sub>1</sub>)</li></ul>",
+    "formulas": [
+      "One day work of 1 man = (y*b_2 - x*b_1) / (x*a_1 - y*a_2)",
+      "One day work of 1 boy = (x*a_1 - y*a_2) / (y*b_2 - x*b_1)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulae for calculating individual work capacity of men and boys based on two different group combinations."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 349
+  },
+  {
+    "id": "math-time-work-067",
+    "subject": "Mathematics",
+    "chapter": "Time and Work",
+    "topic": "Work and Wages Problems",
+    "text": "<p>This page contains detailed solutions for various problems related to Time and Work, including:</p><ul><li><strong>Man-Days formula:</strong> M1D1 = M2D2</li><li><strong>Work efficiency:</strong> Calculating individual work rates and combined work rates.</li><li><strong>Tap and Cistern problems:</strong> Calculating time taken to fill tanks with multiple pipes.</li><li><strong>Wages:</strong> Calculating earnings based on man-days.</li></ul>",
+    "formulas": [
+      "M1 * D1 = M2 * D2",
+      "Time = 1 / (Work rate)",
+      "Required days = (x * y) / (x + y)",
+      "Time taken by (A + B + C) = (2 * x * y * z) / (xy + yz + zx)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Solutions to problems 17 through 31 covering work, time, and efficiency calculations."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 352
+  },
+  {
+    "id": "perc-001",
+    "subject": "Mathematics",
+    "chapter": "Percentage",
+    "topic": "Introduction to Percentage",
+    "text": "<p>Per cent is a fraction whose denominator is 100 and numerator of the fraction is called the rate per cent. Per cent is denoted by the symbol '%'.</p><h3>Important Rules and Formulae</h3><ul><li><strong>Rule 1:</strong> For expressing a% as a fraction, we can write a% = a/100, i.e. divide 'a' by 100 and reduce it to the lowest form, e.g. 25% = 25/100 = 1/4</li><li><strong>Rule 2:</strong> For expressing a fraction a/b as a per cent, we can write a/b = (a/b * 100)%, e.g. 2/3 = (2/3 * 100)% = 200/3%</li><li><strong>Rule 3:</strong> To find how much per cent one quantity is of another quantity, we can write: Required percentage = (The quantity to be expressed in per cent / 2nd quantity (in respect of which the per cent has to be obtained)) * 100%</li><li><strong>Rule 4:</strong> Percentage increase or decrease in a quantity when it increases or decreases by some value: Percentage = (Increase or decrease in the value / Initial value) * 100%</li></ul>",
+    "formulas": [
+      "a% = a/100",
+      "a/b = (a/b * 100)%",
+      "Required percentage = (The quantity to be expressed in per cent / 2nd quantity) * 100%",
+      "Percentage = (Increase or decrease in the value / Initial value) * 100%"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to the concept of percentage, including definitions and four fundamental rules for conversion and calculation."
+    },
+    "mcq": {
+      "question": "20g is what per cent of 1000g?",
+      "options": [
+        "2%",
+        "5%",
+        "7%",
+        "9%"
+      ],
+      "correct": 0,
+      "explanation": "Required percentage = (20 / 1000) * 100% = 2%"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 354
+  },
+  {
+    "id": "pathfinder-cds-math-001",
+    "subject": "Mathematics",
+    "chapter": "Percentage",
+    "topic": "Percentage Change and Population Growth",
+    "text": "<p><strong>Rule 5:</strong> If A is x% more than B, then B would be [x / (100 + x)] * 100% less than A.</p><p><strong>Rule 6:</strong> If A is x% less than B, then B would be [x / (100 - x)] * 100% more than A.</p><p><strong>Rule 7:</strong> If the price of a commodity is increased (or decreased) by x%, then the decrease (or increase) in consumption, so as not to increase or (decrease) the expenditure is [x / (100 ± x)] * 100%.</p><p><strong>Rule 8:</strong> If the value of an object is first changed (increased or decreased) by x% and then changed (increased or decreased) by y%, then Net effect = (± x ± y + (± x)(± y) / 100)%. Here, + sign is used in case of increment and - sign is used in case of decrement.</p><p><strong>Rule 9:</strong> If the population of a town is P and it increases (or decreases) at the rate of R% per annum, then: (i) Population after n yr = P(1 ± R/100)^n; (ii) Population, n yr ago = P / (1 ± R/100)^n</p>",
+    "formulas": [
+      "x / (100 + x) * 100",
+      "x / (100 - x) * 100",
+      "x / (100 ± x) * 100",
+      "± x ± y + (± x)(± y) / 100",
+      "P(1 ± R/100)^n",
+      "P / (1 ± R/100)^n"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers rules for percentage comparison, consumption expenditure adjustment, net percentage change, and population growth/decay calculations."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 355
+  },
+  {
+    "id": "math-perc-001",
+    "subject": "Mathematics",
+    "chapter": "Percentage",
+    "topic": "Population Growth/Decline",
+    "text": "<p><strong>Rule 10:</strong> If the present population of a city is <em>P</em> and there is an increment or decrement of <em>R1%</em>, <em>R2%</em> and <em>R3%</em> in first, second and third year respectively, then:</p><p>Population of city after 3 yr = P(1 ± R1/100)(1 ± R2/100)(1 ± R3/100)</p><p><strong>Note:</strong> Use '+' sign for increases and '-' sign for decreases.</p>",
+    "formulas": [
+      "Population = P(1 ± R1/100)(1 ± R2/100)(1 ± R3/100)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formula for calculating population change over three years with varying annual rates."
+    },
+    "mcq": {
+      "question": "Population of a city in 2004 was 1000000. If in 2005 there is an increment of 15%, in 2006 there is a decrement of 35% and in 2007 there is an increment of 45%, then find the population of city at the end of year 2007.",
+      "options": [
+        "1083875",
+        "1083000",
+        "1089000",
+        "1135000"
+      ],
+      "correct": 0,
+      "explanation": "Given P = 1000000, R1 = 15%, R2 = 35% (decrease), R3 = 45%. Population = 1000000 * (1 + 15/100) * (1 - 35/100) * (1 + 45/100) = 1000000 * (115/100) * (65/100) * (145/100) = 1083875."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 356
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Interest",
+    "subchapter": "Basic Definitions",
+    "topic": "Terms Related to Interest",
+    "content": "## Interest\nWhen money is borrowed, the lender charges extra money for the use of the funds. This extra money is called **Interest**.\n\n### Key Terms:\n1. **Principal (P)**: The money borrowed from the lender.\n2. **Amount (A)**: The sum of the Principal and the Interest.\n   - Formula: $A = P + I$\n3. **Rate (R)**: The rate at which interest is charged on the Principal (usually per annum).\n4. **Time (T)**: The time period for which the money is lent, deposited, or borrowed.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 362
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Interest",
+    "subchapter": "Simple Interest",
+    "topic": "Formulas for Simple Interest",
+    "content": "## Simple Interest (SI)\nIf interest is calculated on the original Principal for any length of time, it is called Simple Interest.\n\n### Formulas:\n1. **Simple Interest (SI)**:\n   $$SI = \\frac{P \\times R \\times T}{100}$$\n   Where:\n   - $P$ = Principal\n   - $R$ = Rate of Interest\n   - $T$ = Time\n\n2. **Amount (A)**:\n   $$A = P + I$$\n   Substituting $I = \\frac{P \\times R \\times T}{100}$:\n   $$A = P + \\frac{P \\times R \\times T}{100} = P \\left(1 + \\frac{R \\times T}{100}\\right)$$\n\n### Exam Insight:\n- Regularly 1-2 questions are asked from this chapter in NDA/CDS/AFCAT.\n- Questions are generally direct formula-based, making it an easy scoring area.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 362
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Basic Formula",
+    "topic": "Simple Interest Calculation",
+    "content": "# Simple Interest (SI)\n\nThe simple interest earned on a principal amount **P** for a period of **T** years at an annual rate of **R** percent is given by:\n\n\\[\nSI = \frac{P \times R \times T}{100}\n\\]\n\n**Key Points**\n- **P**: Principal (initial amount)\n- **R**: Annual rate of interest (in %)\n- **T**: Time period (in years)\n- SI is expressed in the same currency as P.\n\n**Example**\nIf ₹400 is invested at 10% per annum for 1 month (1/12 year), the SI is:\n\\[\nSI = \frac{400 \times 10 \times \frac{1}{12}}{100} = ₹3.33\n\\] (rounded to two decimal places).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 363
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Rules for Simple Interest",
+    "topic": "Rule 1 – Doubling Time",
+    "content": "# Rule 1: Doubling Time\n\nIf a sum of money becomes **n** times its original amount in **T** years at simple interest, the annual rate of interest **R** is:\n\n\\[\nR = \frac{(n-1) \times 100}{T}\n\\]\n\n**Derivation**\n- Final amount \\(A = nP\\)\n- \\(A = P + SI = P + \frac{PRT}{100}\\)\n- Solving for R gives the formula above.\n\n**Example**\nTo double a sum in 8 years:\n\\[\nR = \frac{(2-1)\times100}{8} = 12.5\\%\n\\]",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 363
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Rules for Simple Interest",
+    "topic": "Rule 2 – Two Amounts at Different Times",
+    "content": "# Rule 2: Two Amounts at Different Times\n\nIf a principal **P** amounts to **A₁** in **t₁** years and to **A₂** in **t₂** years at simple interest, then:\n\n**Principal**\n\\[\nP = \frac{A₁ \times t₂ - A₂ \times t₁}{t₂ - t₁}\n\\]\n\n**Rate**\n\\[\nR = \frac{100 \times (A₂ - A₁)}{P \times (t₂ - t₁)}\n\\]\n\nThese formulas are derived from the basic SI formula applied to both time periods and solving the resulting system of equations.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 363
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Basic Formulas and Applications",
+    "topic": "Simple Interest Formulas",
+    "content": "### Simple Interest (SI) Formulas\\n\\n1. **Basic Formula**:\\n   $$SI = \\frac{P \\times R \\times T}{100}$$\\n   Where:\\n   - $P$ = Principal (Sum)\\n   - $R$ = Rate of interest per annum\\n   - $T$ = Time in years\\n\\n2. **Amount (A)**:\\n   $$A = P + SI = P \\left(1 + \\frac{R \\times T}{100}\\right)$$\\n\\n3. **Finding Principal (P)**:\\n   $$P = \\frac{A \\times 100}{100 + R \\times T}$$\\n\\n4. **Difference in Interest for Different Rates**:\\n   If the difference in interest for $T$ years at rates $R_1$ and $R_2$ is $D$:\\n   $$D = \\frac{P \\times T \\times (R_1 - R_2)}{100} \\implies P = \\frac{D \\times 100}{T \\times (R_1 - R_2)}$$\\n\\n5. **Finding Rate (R)**:\\n   $$R = \\frac{SI \\times 100}{P \\times T}$$\\n\\n6. **Finding Time (T)**:\\n   $$T = \\frac{SI \\times 100}{P \\times R}$$\\n\\n### Key Concepts:\\n- **Tripling the Sum**: If a sum triples, $A = 3P$, so $SI = 2P$. Thus, $2P = \\frac{P \\times R \\times T}{100} \\implies R \\times T = 200$.\\n- **Doubling the Sum**: If a sum doubles, $A = 2P$, so $SI = P$. Thus, $P = \\frac{P \\times R \\times T}{100} \\implies R \\times T = 100$.\\n- **Partial Payments**: When a loan is paid in installments, calculate the interest on the outstanding principal for the remaining period.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 364
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Fundamental Formula",
+    "topic": "Simple Interest Calculation",
+    "content": "# Simple Interest (SI)\n\nSimple interest is the interest calculated only on the principal amount, not on accumulated interest. The formula is:\n\n\\[\\text{SI} = \\frac{P \\times R \\times T}{100}\\]\n\nwhere:\n- **P** = Principal amount (initial sum of money)\n- **R** = Rate of interest per annum (in %)\n- **T** = Time period (in years)\n\nThe total amount after time **T** is:\n\n\\[\\text{Amount} = P + \\text{SI}\\]\n\n**Example**: If \\(P = 1500\\), \\(R = 5\\%\\), and \\(T = 4\\) years, then\n\\[\\text{SI} = \\frac{1500 \\times 5 \\times 4}{100} = 300\\].\n\n---\n\n## Key Points\n- SI is linear with respect to time and rate.\n- It is used for short-term loans and simple savings calculations.\n- The formula assumes interest is not compounded.\n\n---\n\n## Common Mistakes\n- Forgetting to divide by 100 when using percentage rates.\n- Using months directly in the formula without converting to years.\n\n---\n\n## Practice\n1. Calculate the SI on \\(P = 2000\\) at \\(R = 3\\%\\) for \\(T = 6\\) months.\n2. If the SI on \\(P = 500\\) for \\(T = 2\\) years is \\(\\$50\\), find the rate \\(R\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 365
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Difference of Simple Interest",
+    "topic": "Comparing Two Simple Interest Scenarios",
+    "content": "# Difference of Simple Interest\n\nWhen two different sums accrue simple interest under different rates and times, the difference in their simple interests can be expressed as:\n\n\\[\\text{Difference} = \\frac{P_1 R_1 T_1 - P_2 R_2 T_2}{100}\\]\n\nor, equivalently,\n\n\\[\\text{Difference} = \\frac{P_1 R_1 T_1}{100} - \\frac{P_2 R_2 T_2}{100}\\]\n\nThis formula is useful for solving problems where two scenarios are compared, such as:\n- Finding the rate difference when the same principal yields different interests.\n- Determining the time difference for equal interests on different principals.\n\n---\n\n## Example\nIf \\(P_1 = 1500\\), \\(R_1 = 5\\%\\), \\(T_1 = 4\\) years and \\(P_2 = 1500\\), \\(R_2 = 5\\%\\), \\(T_2 = 8\\) years, then\n\\[\\text{Difference} = \\frac{1500 \\times 5 \\times 4 - 1500 \\times 5 \\times 8}{100} = -\\frac{1500 \\times 5 \\times 4}{100} = -300\\].\n\n---\n\n## Tips\n- Keep the units consistent (years for time, percent for rate).\n- Always divide by 100 to convert the percentage rate.\n- The sign of the difference indicates which scenario has higher interest.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 365
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Time for Doubling and Tripling",
+    "topic": "Time to Double or Triple Principal",
+    "content": "# Time to Double or Triple Principal\n\nFor simple interest, the time required for a principal to double or triple can be found using:\n\n- **Doubling**: \\(\\text{SI} = P\\) (interest equals principal)\n  \n  \\[\\frac{P R T}{100} = P \\Rightarrow T = \\frac{100}{R}\\]\n\n- **Tripling**: \\(\\text{SI} = 2P\\) (interest equals twice the principal)\n  \n  \\[\\frac{P R T}{100} = 2P \\Rightarrow T = \\frac{200}{R}\\]\n\nThese formulas assume the rate **R** is constant and expressed in percent per annum.\n\n---\n\n## Example\nIf a sum doubles in 5 years, the rate is:\n\\[\\frac{100}{5} = 20\\%\\] per annum.\n\nIf the same sum triples in 12 years, the rate is:\n\\[\\frac{200}{12} \\approx 16.67\\%\\] per annum.\n\nThe difference in rates is \\(20\\% - 16.67\\% = 3.33\\%\\).\n\n---\n\n## Practice\n1. Find the time required for a principal to triple at a rate of 8\\% per annum.\n2. If a sum triples in 9 years, what is the rate of simple interest?",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 365
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Advanced Problems and Shortcuts",
+    "topic": "Finding Principal from Interest Difference",
+    "content": "### Problem Type: Finding Principal when Interest Rates or Time Periods Differ\\n\\n**Scenario:**\\nGiven two different interest rates ($r_1, r_2$) for the same time period ($t$), or two different time periods ($t_1, t_2$) for the same rate, find the Principal ($P$).\\n\\n**Standard Method:**\\nLet the principal be $x$.\\n1. Calculate interest for the first condition: $I_1 = \\frac{x \\cdot r_1 \\cdot t_1}{100}$\\n2. Calculate interest for the second condition: $I_2 = \\frac{x \\cdot r_2 \\cdot t_2}{100}$\\n3. Use the given difference or sum of interests to solve for $x$.\\n\\n**Shortcut Method (Rate Difference):**\\nIf the time period is the same ($t$) and the difference in interest ($\\Delta I$) is known due to different rates ($r_1$ and $r_2$):\\n$$ P = \\frac{\\Delta I \\times 100}{t \\times |r_1 - r_2|} $$\\n\\n*Example from text:* If $\\Delta I = 110$, $r_1 = 13\\%$, $r_2 = 12\\%$, and $t = 1$ year:\\n$$ P = \\frac{110 \\times 100}{1 \\times (13 - 12)} = 11000 $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 366
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Advanced Problems and Shortcuts",
+    "topic": "Validity of Interest Conditions",
+    "content": "### Checking for Possible Cases\\n\\nWhen a problem states that the Simple Interest (SI) is a certain fraction of the Principal (e.g., SI = $\\frac{1}{2} P$), verify if the given Rate ($R$) and Time ($T$) satisfy the condition.\\n\\n**Formula:**\\n$$ SI = \\frac{P \\cdot R \\cdot T}{100} $$\\n\\n**Verification Step:**\\nSubstitute the given $R$ and $T$ into the formula and check if the resulting fraction of $P$ matches the problem statement.\\n\\n*Example from text:*\\nGiven: $SI = \\frac{x}{2}$, $T = 6$ yr, $R = 10\\%$.\\nCalculation: $SI = \\frac{x \\cdot 10 \\cdot 6}{100} = \\frac{60x}{100} = \\frac{3x}{5}$.\\nSince $\\frac{3x}{5} \\neq \\frac{x}{2}$, the case is **not possible**.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 366
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Advanced Problems and Shortcuts",
+    "topic": "Finding Principal from Amount",
+    "content": "### Finding Principal from Given Amount\\n\\n**Standard Method:**\\n1. Assume Principal $P = 100$.\\n2. Calculate Simple Interest: $SI = \\frac{100 \\cdot R \\cdot T}{100} = R \\cdot T$.\\n3. Calculate Amount: $A = P + SI = 100 + R \\cdot T$.\\n4. Use proportion to find actual Principal for a given Amount $A_{actual}$:\\n$$ P_{actual} = \\frac{100 \\times A_{actual}}{100 + R \\cdot T} $$\\n\\n*Example from text:*\\nGiven: $R = 8\\%$, $T = 5$ yr, Amount = `840.\\n1. Assume $P=100$. $SI = \\frac{100 \\cdot 8 \\cdot 5}{100} = 40$.\\n2. Amount for `100 principal = $100 + 40 = 140$.\\n3. Actual Principal = $\\frac{100 \\times 840}{140} = 600$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 366
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Advanced Problems and Shortcuts",
+    "topic": "Finding Principal from Two Amounts",
+    "content": "### Finding Principal from Two Different Amounts\\n\\n**Scenario:**\\nAmount $A_1$ is obtained after time $t_1$, and Amount $A_2$ is obtained after time $t_2$ (where $t_2 > t_1$) at the same rate of interest.\\n\\n**Shortcut Formula (Rule 2):**\\n$$ P = \\frac{A_2 t_1 - A_1 t_2}{t_1 - t_2} $$\\n*Note: The denominator is often written as $t_2 - t_1$ with the numerator adjusted to $A_1 t_2 - A_2 t_1$ to keep values positive.*\\n\\n**Standard Method:**\\n1. Calculate SI for the difference in time: $SI_{diff} = A_2 - A_1$.\\n2. Time difference: $\\Delta t = t_2 - t_1$.\\n3. SI for 1 year = $\\frac{A_2 - A_1}{t_2 - t_1}$.\\n4. SI for $t_1$ years = $\\frac{A_2 - A_1}{t_2 - t_1} \\times t_1$.\\n5. Principal $P = A_1 - SI_{t_1}$.\\n\\n*Example from text:*\\n$A_1 = 1040$ at $t_1 = 3$ yr.\\n$A_2 = 1360$ at $t_2 = 7$ yr.\\n1. $SI_{diff} = 1360 - 1040 = 320$.\\n2. $\\Delta t = 7 - 3 = 4$ yr.\\n3. $SI_{1yr} = 320 / 4 = 80$.\\n4. $SI_{3yr} = 80 \\times 3 = 240$.\\n5. $P = 1040 - 240 = 800$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 366
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Advanced Problems and Shortcuts",
+    "topic": "Finding Rate from Principal Multiplier",
+    "content": "### Finding Rate of Interest from Principal Growth\\n\\n**Scenario:**\\nFind the rate $R$ such that the principal $P$ becomes $n$ times itself in time $T$.\\n\\n**Formula:**\\n$$ R = \\frac{(n - 1) \\times 100}{T} $$\\n\\n**Shortcut Method (Rule 3):**\\nIf a sum becomes $n_1$ times in $T_1$ years at rate $R_1$, and we need to find $R_2$ for it to become $n_2$ times in the same time $T_1$:\\n$$ R_2 = \\frac{n_2 - 1}{n_1 - 1} \\times R_1 $$\\n\\n*Example from text:*\\n1. Find $T$ for $P$ to become 6 times at 5%:\\n   $5 = \\frac{(6-1) \\times 100}{T} \\Rightarrow T = 100$ yr.\\n2. Find $R$ for $P$ to become 12 times in 100 yr:\\n   Using shortcut: $R_2 = \\frac{12 - 1}{6 - 1} \\times 5 = \\frac{11}{5} \\times 5 = 11\\%$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 366
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Advanced Problems and Shortcuts",
+    "topic": "Partial Repayment of Loans",
+    "content": "### Simple Interest with Partial Repayment\\n\\n**Scenario:**\\nA borrower takes a loan and pays a portion of it after a certain period. Interest is calculated on the outstanding balance for the remaining period.\\n\\n**Steps:**\\n1. Calculate interest for the first period on the full principal.\\n2. Determine the outstanding balance after the first payment.\\n   $Balance = (Principal + Interest_{period1}) - Payment$.\\n3. Calculate interest for the second period on the outstanding balance.\\n4. Total Amount Paid = Payment + (Outstanding Balance + Interest_{period2}).\\n\\n*Example from text:*\\nLoan = `40,000, Rate = 8%.\\n1. Interest for 2 yrs = $\\frac{40000 \\cdot 8 \\cdot 2}{100} = 6400$.\\n2. Let payment at end of 2 yrs be $x$.\\n3. Outstanding Balance = $40000 + 6400 - x = 46400 - x$.\\n4. Interest for next 3 yrs on balance = $\\frac{(46400 - x) \\cdot 8 \\cdot 3}{100} = \\frac{24}{100}(46400 - x)$.\\n5. Solve for $x$ based on total repayment conditions.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 366
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Advanced Problems and Shortcuts",
+    "topic": "Splitting Principal at Different Rates",
+    "content": "### Splitting Principal into Two Parts at Different Rates\\n\\n**Scenario:**\\nA sum is divided into two parts. One part is lent at rate $R_1$ and the other at rate $R_2$ for the same time $T$. The total interest is known.\\n\\n**Method:**\\n1. Let the first part be $x$.\\n2. The second part is $(Total Sum - x)$.\\n3. Total Interest $I = \\frac{x \\cdot R_1 \\cdot T}{100} + \\frac{(Total Sum - x) \\cdot R_2 \\cdot T}{100}$.\\n4. Solve the linear equation for $x$.\\n\\n*Example from text:*\\nTotal Sum = `1550. Rates: 5% and 8%. Time = 3 yrs.\\nLet sum at 5% be $x$.\\nSum at 8% = $1550 - x$.\\n$SI_1 = \\frac{x \\cdot 5 \\cdot 3}{100}$.\\n$SI_2 = \\frac{(1550 - x) \\cdot 8 \\cdot 3}{100}$.\\nSet $SI_1 + SI_2 = Total Interest$ and solve for $x$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 366
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Ratio and Proportion in SI",
+    "topic": "Finding Ratio of Principal Amounts",
+    "content": "### Concept: Ratio of Principal Amounts based on Simple Interest\\n\\nWhen Simple Interest (SI) is calculated for different principals ($a, b, c$) at the same rate ($R$) but different times ($T_1, T_2, T_3$), the ratio of the principals is inversely proportional to the product of Rate and Time if the SI amounts are equal, or directly proportional to the SI amounts if Rate and Time are fixed.\\n\\n**Formula:**\\n$$ SI = \\frac{P \\times R \\times T}{100} $$\\n\\nIf $SI_A = SI_B = SI_C$, then:\\n$$ \\frac{a \\times R \\times T_A}{100} = \\frac{b \\times R \\times T_B}{100} = \\frac{c \\times R \\times T_C}{100} $$\\n$$ a \\times T_A = b \\times T_B = c \\times T_C $$\\n$$ a : b : c = \\frac{1}{T_A} : \\frac{1}{T_B} : \\frac{1}{T_C} $$\\n\\n**Example from Text:**\\n- Amount A: Time = 2 yr, Rate = 5%. $SI_A = \\frac{a \\times 5 \\times 2}{100} = \\frac{10a}{100}$\\n- Amount B: Time = 3 yr, Rate = 5%. $SI_B = \\frac{b \\times 5 \\times 3}{100} = \\frac{15b}{100}$\\n- Amount C: Time = 4 yr, Rate = 5%. $SI_C = \\frac{c \\times 5 \\times 4}{100} = \\frac{20c}{100}$\\n\\nGiven $SI_A = SI_B = SI_C$:\\n$$ \\frac{10a}{100} = \\frac{15b}{100} = \\frac{20c}{100} $$\\n$$ 10a = 15b = 20c $$\\nLet this common value be $k$.\\n$$ a = \\frac{k}{10}, \\quad b = \\frac{k}{15}, \\quad c = \\frac{k}{20} $$\\n$$ a : b : c = \\frac{1}{10} : \\frac{1}{15} : \\frac{1}{20} $$\\nTo simplify, multiply by LCM of 10, 15, 20 (which is 60):\\n$$ a : b : c = 6 : 4 : 3 $$\\n*(Note: The text shows the intermediate step $1/10 : 1/15 : 1/20$)*",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 367
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Change in Rate of Interest",
+    "topic": "Finding Principal from Change in SI",
+    "content": "### Concept: Finding Principal when Rate Changes\\n\\nIf the rate of interest is increased by $\\Delta R$% for the same time period $T$, the increase in Simple Interest ($\\Delta SI$) is given by:\\n$$ \\Delta SI = \\frac{P \\times \\Delta R \\times T}{100} $$\\n\\n**Derivation:**\\nOriginal $SI_1 = \\frac{P \\times R \\times T}{100}$\\nNew $SI_2 = \\frac{P \\times (R + \\Delta R) \\times T}{100}$\\nDifference $\\Delta SI = SI_2 - SI_1 = \\frac{P \\times T}{100} (R + \\Delta R - R) = \\frac{P \\times \\Delta R \\times T}{100}$\\n\\n**Example from Text:**\\n- Let Sum = $x$, Original Rate = $r$%, Time = 2 yr.\\n- Rate increased by 3% ($\\Delta R = 3$).\\n- Increase in SI = 72.\\n$$ 72 = \\frac{x \\times 3 \\times 2}{100} $$\\n$$ 72 = \\frac{6x}{100} $$\\n$$ x = \\frac{72 \\times 100}{6} = 1200 $$\\nPrincipal = `1200",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 367
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Half-Yearly Interest Calculation",
+    "topic": "SI with Half-Yearly Compounding Frequency (for SI context)",
+    "content": "### Concept: Simple Interest with Half-Yearly Periods\\n\\nWhen interest is calculated half-yearly, the time and rate must be adjusted to half-year units.\\n\\n**Adjustments:**\\n1. **Rate:** If annual rate is $R$%, half-yearly rate is $\\frac{R}{2}$%.\\n2. **Time:** If time is $T$ years, number of half-years is $2T$.\\n\\n**Formula:**\\n$$ SI = \\frac{P \\times (\\frac{R}{2}) \\times (2T)}{100} = \\frac{P \\times R \\times T}{100} $$\\n*(Note: For Simple Interest, the total SI remains the same regardless of whether it's calculated annually or half-yearly, provided the rate is proportional. However, in exam contexts, this often appears in Compound Interest questions. In the provided text, it is treated as a direct SI calculation with adjusted parameters.)*\\n\\n**Example from Text:**\\n- Principal ($P$) = 20,000\\n- Annual Rate = 13% (Text says 'rate = 13/2 % half yearly', implying annual rate 13% or directly given half-yearly rate. Let's assume the text implies the effective half-yearly rate is used in the formula).\\n- Time = 3.5 years (42 months). Number of half-years = $3.5 \\times 2 = 7$.\\n- Half-yearly Rate = $\\frac{13}{2}$% = 6.5%.\\n\\n$$ SI = \\frac{20000 \\times 6.5 \\times 7}{100} $$\\n$$ SI = 200 \\times 6.5 \\times 7 = 1300 \\times 7 = 9100 $$\\n$$ Amount = P + SI = 20000 + 9100 = 29100 $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 367
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Finding Rate and Time",
+    "topic": "Rate from Amount and Time; Time for Doubling",
+    "content": "### Concept 1: Finding Rate of Interest\\n\\nGiven Principal ($P$), Amount ($A$), and Time ($T$):\\n$$ SI = A - P $$\\n$$ R = \\frac{SI \\times 100}{P \\times T} $$\\n\\n**Example from Text:**\\n- $A = 3P$ (Amount is 3 times principal).\\n- $T = 15$ years 6 months = $15.5 = \\frac{31}{2}$ years.\\n- $SI = A - P = 3P - P = 2P$.\\n$$ R = \\frac{2P \\times 100}{P \\times \\frac{31}{2}} = \\frac{200}{\\frac{31}{2}} = \\frac{400}{31} \\% $$\\n\\n### Concept 2: Time for Amount to Double\\n\\nFor Simple Interest, the time ($t$) required for an amount to double is independent of the principal and depends only on the rate.\\n$$ 2P = P + \\frac{P \\times R \\times t}{100} $$\\n$$ P = \\frac{P \\times R \\times t}{100} $$\\n$$ t = \\frac{100}{R} $$\\n\\n**Example from Text:**\\n- Using $R = \\frac{400}{31}$%.\\n$$ t = \\frac{100}{\\frac{400}{31}} = \\frac{100 \\times 31}{400} = \\frac{31}{4} = 7.75 \\text{ years} $$\\n- 0.75 years = $0.75 \\times 12$ months = 9 months.\\n- Time = 7 years and 9 months.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 367
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "Successive Interest Calculations",
+    "topic": "SI on Amount (Reinvestment)",
+    "content": "### Concept: Simple Interest on the Maturity Amount\\n\\nIn some problems, the amount obtained after a certain period is used as the principal for the next period.\\n\\n**Steps:**\\n1. Calculate $SI_1$ on initial Principal $P_1$ for time $T_1$ at rate $R_1$.\\n2. Calculate Amount $A_1 = P_1 + SI_1$.\\n3. Use $A_1$ as the new Principal $P_2$.\\n4. Calculate $SI_2$ on $P_2$ for time $T_2$ at rate $R_2$.\\n\\n**Example from Text:**\\n- **Case I:**\\n  - $P_1 = 24200$, $R_1 = 4\\%$, $T_1 = 6$ years.\\n  - $SI_1 = \\frac{24200 \\times 4 \\times 6}{100} = 242 \\times 24 = 5808$.\\n  - $A_1 = 24200 + 5808 = 30008$.\\n- **Case II:**\\n  - $P_2 = A_1 = 30008$, $R_2 = 4\\%$, $T_2 = 4$ years.\\n  - $SI_2 = \\frac{30008 \\times 4 \\times 4}{100} = 300.08 \\times 16 = 4801.28$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 367
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Simple Interest",
+    "subchapter": "System of Equations in SI",
+    "topic": "Splitting Investment into Two Parts",
+    "content": "### Concept: Two Investments with Swapped Rates\\n\\nA person invests two amounts $x$ and $y$ at two different rates $R_1$ and $R_2$ for the same time $T$.\\n\\n**Scenario 1:**\\n- $x$ at $R_1$, $y$ at $R_2$. Total SI = $I_1$.\\n$$ \\frac{x R_1 T}{100} + \\frac{y R_2 T}{100} = I_1 $$\\n\\n**Scenario 2:**\\n- $x$ at $R_2$, $y$ at $R_1$. Total SI = $I_2$.\\n$$ \\frac{x R_2 T}{100} + \\frac{y R_1 T}{100} = I_2 $$\\n\\n**Solution Method:**\\nSolve the system of linear equations for $x$ and $y$.\\n\\n**Example from Text:**\\n- Rates: 12% and 10%. Time: 1 year.\\n- Eq (i): $\\frac{12x}{100} + \\frac{10y}{100} = 130 \\Rightarrow 12x + 10y = 13000$\\n- Eq (ii): $\\frac{10x}{100} + \\frac{12y}{100}",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 367
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "subchapter": "",
+    "topic": "Definition, Rules & Formulae",
+    "content": "### Compound Interest\n\n- **Definition**: When the interest for a period is calculated on the amount (principal + accumulated interest) of the previous period, it is called *compound interest*. It makes a deposit or loan grow faster than simple interest.\n\n- **Symbols**\n  - `P` = Principal (initial amount borrowed or deposited)\n  - `A` = Amount (Principal + Interest) after *n* years\n  - `R` = Rate of interest per annum (in %)\n  - `n` = Number of years\n\n---\n#### Rule 1 – Interest Compounded Annually\n- **Amount**: \n  $$A = P \\left(1 + \\frac{R}{100}\\right)^{n}$$\n- **Compound Interest (CI)**: \n  $$CI = A - P = P\\left[\\left(1 + \\frac{R}{100}\\right)^{n} - 1\\right]$$\n\n---\n#### Rule 2 – Interest Compounded Half‑Yearly (every 6 months)\n- **Amount**: \n  $$A = P \\left(1 + \\frac{R}{2 \\times 100}\\right)^{2n}$$\n- **Compound Interest (CI)**: \n  $$CI = P\\left[\\left(1 + \\frac{R}{2 \\times 100}\\right)^{2n} - 1\\right]$$\n\n---\n#### Remarks\n- Most exam questions (1‑2 per chapter) ask for direct application of the above formulas.\n- Remember to adjust the rate `R` and the exponent `n` according to the compounding frequency (annual, half‑yearly, quarterly, etc.).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 368
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Compounded Semi-Annually",
+    "topic": "Amount and Compound Interest Formula",
+    "content": "# Compounded Semi-Annually\n\n**Formula for Amount (A)**\n\n\\[ A = P \\left(1 + \\frac{R}{100 \\times n}\\right)^{n \\times t} \\]\n\n- **P** = Principal amount\n- **R** = Annual rate of interest (in %)\n- **n** = Number of compounding periods per year (for semi‑annual, n = 2)\n- **t** = Time in years\n\n**Formula for Compound Interest (CI)**\n\n\\[ CI = A - P \\]\n\n**Example**\n\n> *The compound interest on ₹24000 compounded semi‑annually for 1 ½ yr at 10% per annum is*\n> \n> 1. Compute the semi‑annual rate: \\( R_{half} = \\frac{10}{2} = 5\\% \\)\n> 2. Compute the number of periods: \\( n \\times t = 2 \\times 1.5 = 3 \\)\n> 3. Amount: \\( A = 24000 \\left(1 + \\frac{5}{100}\\right)^3 = 24000 \\times 1.05^3 = 27783 \\)\n> 4. Compound Interest: \\( CI = 27783 - 24000 = 3783 \\)\n> \n> **Answer:** ₹3783\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 369
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Compounded Quarterly",
+    "topic": "Amount and Compound Interest Formula",
+    "content": "# Compounded Quarterly\n\n**Formula for Amount (A)**\n\n\\[ A = P \\left(1 + \\frac{R}{100 \\times 4}\\right)^{4 \\times t} \\]\n\n- **P** = Principal amount\n- **R** = Annual rate of interest (in %)\n- **t** = Time in years (e.g., 9 months = 0.75 years)\n\n**Formula for Compound Interest (CI)**\n\n\\[ CI = A - P \\]\n\n**Example**\n\n> *The amount and the compound interest on ₹100000 compounded quarterly for 9 months at 4% per annum is*\n> \n> 1. Quarterly rate: \\( R_{quarter} = \\frac{4}{4} = 1\\% \\)\n> 2. Time in years: \\( t = \\frac{9}{12} = 0.75 \\)\n> 3. Amount: \\( A = 100000 \\left(1 + \\frac{1}{100}\\right)^{4 \\times 0.75} = 100000 \\times 1.01^{3} = 103030.10 \\)\n> 4. Compound Interest: \\( CI = 103030.10 - 100000 = 3030.10 \\)\n> \n> **Answer:** Amount ₹103030.10, CI ₹3030.10\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 369
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Compounded Annually",
+    "topic": "Amount and Compound Interest Formula",
+    "content": "# Compounded Annually\n\n**Formula for Amount (A)**\n\n\\[ A = P \\left(1 + \\frac{R}{100}\\right)^{t} \\]\n\n- **P** = Principal amount\n- **R** = Annual rate of interest (in %)\n- **t** = Time in years (can be fractional, e.g., 2 ½ yr = 2.5)\n\n**Formula for Compound Interest (CI)**\n\n\\[ CI = A - P \\]\n\n**Example**\n\n> *The amount and compound interest on ₹5000 compounded annually for 2 ½ yr at 10% per annum is*\n> \n> 1. Time in years: \\( t = 2.5 \\)\n> 2. Amount: \\( A = 5000 \\left(1 + \\frac{10}{100}\\right)^{2.5} = 5000 \\times 1.10^{2.5} = 6252.5 \\)\n> 3. Compound Interest: \\( CI = 6252.5 - 5000 = 1252.5 \\)\n> \n> **Answer:** Amount ₹6252.5, CI ₹1252.5\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 369
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Rules",
+    "topic": "Rules for Compounding",
+    "content": "# Rules for Compounding\n\n1. **Rule 3 – Quarterly Compounding**\n   - Amount: \\( A = P \\left(1 + \\frac{R}{100 \\times 4}\\right)^{4 \\times t} \\)\n   - Compound Interest: \\( CI = A - P \\)\n\n2. **Rule 4 – Annual Compounding with Fractional Time**\n   - If time is given as a fraction \\( \\frac{a}{b}\\) years, use:\n   \\[ A = P \\left(1 + \\frac{R}{100}\\right)^{\\frac{a}{b}} \\]\n   - Compound Interest: \\( CI = A - P \\)\n\nThese rules help in quickly computing the amount and interest for different compounding frequencies and time periods.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 369
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Rule 6",
+    "topic": "Difference between Simple Interest and Compound Interest",
+    "content": "### Rule 6\nThe difference \\(D\\) between simple interest (SI) and compound interest (CI) on a principal \\(P\\) at an annual rate \\(R\\%\\) for a given number of years can be expressed as:\n\n- **For 2 years**\n  \n  \\[\n  D = \frac{P R^2}{100^2} \times 2\n  \\]\n\n- **For 3 years**\n  \n  \\[\n  D = \frac{P R^2}{100^2} \times 3\n  \\]\n\nThese formulas are derived from the general expressions for SI and CI:\n\n- SI for \\(n\\) years: \\(SI = \frac{P R n}{100}\\)\n- CI for \\(n\\) years: \\(CI = P\\left(1 + \frac{R}{100}\right)^n - P\\)\n\nSubtracting SI from CI and simplifying for \\(n=2\\) or \\(n=3\\) yields the above results.\n\n**Key Points**\n- The difference grows quadratically with the rate \\(R\\) and linearly with the number of years.\n- For small rates and short periods, the difference is often small but can be significant for larger values.\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 370
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Equal Annual Instalments",
+    "topic": "Formula for Principal with Equal Instalments",
+    "content": "### Formula for Principal (P) when repaid in Equal Annual Instalments\n\nWhen a sum is borrowed on compound interest and repaid in $n$ equal annual instalments of amount $x$:\n\n$$ P = x \\left[ \\frac{1}{(1 + \\frac{R}{100})} + \\frac{1}{(1 + \\frac{R}{100})^2} + \\dots + \\frac{1}{(1 + \\frac{R}{100})^n} \\right] $$\n\nWhere:\n- $P$ = Principal (Sum Borrowed)\n- $x$ = Value of each instalment\n- $R$ = Rate of interest per annum\n- $n$ = Number of instalments\n\n### Important Results in Interest Calculations\n1. **SI vs CI in First Year**: Simple Interest (SI) and Compound Interest (CI) are equal for the first year period on the same sum and at the same rate.\n2. **SI from Consecutive Amounts**: If $A$ and $B$ are the amounts of a certain sum for two consecutive years, then the Simple Interest for 1 year is $B - A$.\n3. **Ratio of Time Periods**: If a certain sum at compound interest becomes $x$ times in $n_1$ years and $y$ times in $n_2$ years, then:\n   $$ \\frac{n_1}{n_2} = \\frac{\\log x}{\\log y} $$\n   *(Note: The source text implies a relationship between growth factors and time, often expressed as $\\frac{n_1}{n_2} = \\frac{\\ln x}{\\ln y}$ or derived from $(1+r)^{n_1} = x$ and $(1+r)^{n_2} = y$)*",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 371
+  },
+  {
+    "subject": "Mathematics – Finance",
+    "chapter": "Interest Calculations",
+    "subchapter": "Depreciation",
+    "topic": "Depreciation of Assets",
+    "content": "# Depreciation\n\n- **Definition**: Depreciation is the reduction in the value of an asset over time due to wear, tear, or obsolescence.\n- **Straight‑line Depreciation**: \n  \n  \n  \n  \n- **Percentage Depreciation**: When an asset depreciates at a fixed percentage \\(p\\%\\) per annum, its value after \\(n\\) years is:\n  \n  \n  \n  \n  where \\(V_0\\) is the initial value.\n- **Example**: A scooter worth ₹24,000 depreciating at 5% per annum for 3 years:\n  \n  \n  \n  \n  \n  Result ≈ ₹20,577.\n\n---\n\n## Compound Interest\n\n- **Formula (annual compounding)**:\n  \n  \n  \n  where \\(P\\) is principal, \\(r\\) is annual rate (%), and \\(t\\) is time in years.\n- **General Formula (k compounding periods per year)**:\n  \n  \n  \n  \n  where \\(k\\) is the number of compounding periods per year.\n- **Effective Annual Rate (EAR)**: \n  \n  \n  \n  \n- **Doubling Time**: If a sum doubles in \\(n\\) years, it becomes fourfold in \\(2n\\) years because \\((1+r)^n = 2\\) implies \\((1+r)^{2n} = 4\\).\n- **Comparison with Simple Interest**: The difference between simple and compound interest over the same period can be calculated as:\n  \n  \n  \n  \n  where \\(SI = P \times r \times t / 100\\) and \\(CI = P \times ((1+r/100)^t - 1)\\).\n\n---\n\n## Simple Interest\n\n- **Formula**: \n  \n  \n  \n  where \\(P\\) is principal, \\(r\\) is annual rate (%), and \\(t\\) is time in years.\n- **Relationship with Compound Interest**: For small rates and short periods, SI ≈ CI, but as rate or time increases, CI grows faster.\n- **Example**: SI on ₹1,250 for 2 years at 8%: \n  \n  \n  \n  \n  \n  Result = ₹200.\n\n---\n\n## Practical Tips\n\n1. **Always convert percentages to decimals** when plugging into formulas.\n2. **Use logarithms** to solve for time or rate when given compound growth.\n3. **Check units**: Ensure time is in years and rate is per annum.\n4. **Round appropriately**: Financial calculations often require rounding to the nearest rupee or cent.\n\n---\n\n## Key Formulas Summary\n\n| Concept | Formula |\n|---------|---------|\n| Depreciation (percentage) | \\(V = V_0 (1 - p/100)^n\\) |\n| Compound Interest (annual) | \\(A = P (1 + r/100)^t\\) |\n| Compound Interest (k times) | \\(A = P (1 + r/(100k))^{kt}",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 372
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Doubling and Multiplying Amounts",
+    "topic": "Time to Multiply Principal",
+    "content": "If a sum doubles in $t$ years at compound interest, it will become $2^n$ times the principal in $n \\times t$ years.\\n\\n**Example:**\\nIf a sum doubles in 15 years:\\n- To become 4 times ($2^2$), it takes $2 \\times 15 = 30$ years.\\n- To become 8 times ($2^3$), it takes $3 \\times 15 = 45$ years.\\n- To become 16 times ($2^4$), it takes $4 \\times 15 = 60$ years.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 373
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Partial Payments",
+    "topic": "Loan Repayment with Annual Installments",
+    "content": "When a loan is repaid with partial payments at the end of each year:\\n1. Calculate the amount due at the end of the first year: $P(1+r) - \\text{Payment}_1$.\\n2. Treat the remaining balance as the new principal for the next year.\\n3. Repeat the process for subsequent years.\\n\\n**Formula for Balance after $n$ years:**\\n$B_n = (B_{n-1} \\times (1 + \\frac{r}{100})) - \\text{Payment}_n$\\nWhere $B_0 = P$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 373
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Doubling and Multiplying Amounts",
+    "topic": "Long-term Growth",
+    "content": "If a sum doubles in $t$ years, the amount after $n \\times t$ years will be $2^n$ times the principal.\\n\\n**Example:**\\nIf ₹10,000 doubles in 5 years:\\n- After 10 years: $2^2 = 4$ times = ₹40,000.\\n- After 15 years: $2^3 = 8$ times = ₹80,000.\\n- After 20 years: $2^4 = 16$ times = ₹160,000.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 373
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Comparison with Simple Interest",
+    "topic": "CI vs SI for Same Rate and Time",
+    "content": "For the same principal, rate, and time period (greater than 1 year):\\n- Compound Interest (CI) is always greater than Simple Interest (SI).\\n- $CI > SI$ for $t > 1$ year.\\n- The difference $CI - SI$ increases with time and rate.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 373
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Finding Rate and Principal",
+    "topic": "Using Amounts at Different Years",
+    "content": "If the amount after year 1 is $A_1$ and after year 3 is $A_3$:\\n1. The ratio $\\frac{A_3}{A_1} = (1 + \\frac{r}{100})^2$.\\n2. Solve for $r$.\\n3. Principal $P = \\frac{A_1}{1 + \\frac{r}{100}}$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 373
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Present Worth",
+    "topic": "Present Value Calculation",
+    "content": "Present Worth (PW) of a future sum $A$ due in $n$ years at compound interest rate $r\\%$ is:\\n$$PW = \\frac{A}{(1 + \\frac{r}{100})^n}$$\\n\\n**Example:**\\nPW of ₹169 due in 2 years at 4% p.a.:\\n$PW = \\frac{169}{(1.04)^2} = \\frac{169}{1.0816} = 156.25$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 373
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Finding Rate from SI and CI",
+    "topic": "Difference between CI and SI",
+    "content": "For 2 years, the difference between CI and SI is given by:\\n$CI - SI = P \\times (\\frac{r}{100})^2$\\n\\nGiven $SI$ for 2 years, $P$ can be found using $SI = \\frac{P \\times r \\times 2}{100}$.\\nThen substitute $P$ into the difference formula to find $r$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 373
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Formulas and Rules",
+    "topic": "Basic CI Formulas",
+    "content": "### Key Formulas for Compound Interest (CI)\\n\\n1. **Amount (A) Formula**:\\n   $$ A = P \\left(1 + \\frac{R}{100}\\right)^n $$\\n   Where:\\n   - $P$ = Principal\\n   - $R$ = Rate of interest per annum\\n   - $n$ = Time in years\\n\\n2. **Compound Interest (CI) Formula**:\\n   $$ CI = A - P = P \\left[ \\left(1 + \\frac{R}{100}\\right)^n - 1 \\right] $$\\n\\n3. **Simple Interest (SI) Formula**:\\n   $$ SI = \\frac{P \\times R \\times T}{100} $$\\n\\n### Important Relationships\\n- If the principal doubles in $n$ years, it will quadruple in $2n$ years (assuming constant rate).\\n- Relationship between SI and CI for 2 years: $CI - SI = \\frac{P \\times R^2}{10000}$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 374
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Problem Solving Techniques",
+    "topic": "Finding Principal from Amount",
+    "content": "### Finding Principal when Amount is Known\\n\\nTo find the principal $P$ when the final amount $A$, rate $R$, and time $n$ are given, rearrange the amount formula:\\n$$ P = \\frac{A}{\\left(1 + \\frac{R}{100}\\right)^n} $$\\n\\n**Example Logic**:\\nIf $A = 4410$, $R = 5\\%$, and $n = 2$:\\n$$ 4410 = P \\left(1 + \\frac{5}{100}\\right)^2 $$\\n$$ 4410 = P \\left(\\frac{105}{100}\\right)^2 = P \\left(\\frac{21}{20}\\right)^2 $$\\n$$ P = 4410 \\times \\left(\\frac{20}{21}\\right)^2 = 4410 \\times \\frac{400}{441} = 10 \\times 400 = 4000 $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 374
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Problem Solving Techniques",
+    "topic": "Time to Double or Multiply Principal",
+    "content": "### Time to Double or Multiply Principal\\n\\nIf a sum doubles in $n$ years, the relationship is:\\n$$ 2 = \\left(1 + \\frac{R}{100}\\right)^n $$\\n\\nIf the sum becomes four times (quadruples), the time required is $2n$ years because:\\n$$ 4 = 2^2 = \\left[\\left(1 + \\frac{R}{100}\\right)^n\\right]^2 = \\left(1 + \\frac{R}{100}\\right)^{2n} $$\\n\\n**General Rule**: If a principal becomes $k$ times in $n$ years, it becomes $k^m$ times in $m \\times n$ years.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 374
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Problem Solving Techniques",
+    "topic": "Comparing SI and CI",
+    "content": "### Comparing Simple Interest and Compound Interest\\n\\nWhen given a relationship between SI and CI (e.g., $SI = \\frac{1}{2} CI$), use the specific formulas:\\n- $SI = \\frac{P \\times R \\times T}{100}$\\n- $CI = P \\left[ \\left(1 + \\frac{R}{100}\\right)^T - 1 \\right]$\\n\\n**Example Logic**:\\nIf $SI = \\frac{1}{2} CI$ for $T=2$ years and $R=10\\%$:\\n$$ \\frac{P \\times 10 \\times 2}{100} = \\frac{1}{2} \\left[ P \\left( \\left(1 + \\frac{10}{100}\\right)^2 - 1 \\right) \\right] $$\\n$$ \\frac{20P}{100} = \\frac{1}{2} P \\left( \\frac{121}{100} - 1 \\right) $$\\n$$ 0.2P = \\frac{1}{2} P \\left( \\frac{21}{100} \\right) = \\frac{21P}{200} $$\\n*(Note: In the provided text, specific values were used to solve for P based on a specific condition involving 4000, leading to P=1750).*\\n\\n**Key Insight**: For the same P, R, and T, $CI > SI$ for $T > 1$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 374
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Fundamental Formula",
+    "topic": "Basic Compound Interest Formula",
+    "content": "# Compound Interest Formula\n\nThe amount \\(A\\) after \\(n\\) compounding periods for a principal \\(P\\) at an annual rate \\(R\\%\\) is given by:\n\n\\[\nA = P\\left(1 + \frac{R}{100}\right)^{n}\n\\]\n\n- **\\(P\\)** – Principal (initial amount)\n- **\\(R\\)** – Annual rate of interest (in percent)\n- **\\(n\\)** – Number of compounding periods (years if compounding annually, half‑years if semi‑annual, etc.)\n- **\\(A\\)** – Amount after \\(n\\) periods\n\n**Solving for unknowns**\n- To find the rate \\(R\\) when \\(P\\), \\(A\\), and \\(n\\) are known, rearrange:\n  \\[\n  \\left(1 + \frac{R}{100}\right) = \\left(\frac{A}{P}\right)^{1/n}\n  \\]\n  Then \\(R = 100\\left[\\left(\frac{A}{P}\right)^{1/n} - 1\right]\\).\n- To find the time \\(t\\) when \\(P\\), \\(A\\), and \\(R\\) are known, use logarithms:\n  \\[\n  n = \frac{\\log(A/P)}{\\log(1+R/100)}\\quad\text{and}\\quad t = \frac{n}{\text{compounding frequency per year}}\n  \\]\n\n**Example** – If \\(P = 100\\), \\(A = 121\\) after \\(n = 2\\) years, then:\n\\[\nR = 100\\left[\\left(\frac{121}{100}\right)^{1/2} - 1\right] = 10\\%\n\\]",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 375
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Varying Rates",
+    "topic": "Compound Interest with Different Rates Each Year",
+    "content": "# Compound Interest with Varying Rates\n\nWhen the rate of interest changes each year, the amount after \\(n\\) years is the product of the growth factors for each year:\n\n\\[\nA = P \\prod_{i=1}^{n}\\left(1 + \frac{R_i}{100}\right)\n\\]\n\n- **\\(R_i\\)** – Rate for the \\(i^{th}\\) year.\n- The principal \\(P\\) is multiplied successively by each yearly growth factor.\n\n**Example** – Principal \\(P = 5000\\) with rates 8%, 10%, and 12% for years 1, 2, and 3 respectively:\n\\[\nA = 5000 \times 1.08 \times 1.10 \times 1.12 = 6652.80\n\\]\n\nThe compound interest earned is \\(A - P = 1652.80\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 375
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Semi‑Annual Compounding",
+    "topic": "Interest Compounded Semi‑Annually",
+    "content": "# Semi‑Annual Compounding\n\nWhen interest is compounded semi‑annually, the annual rate \\(R\\%\\) is halved for each half‑year, and the number of periods \\(n\\) is twice the number of years.\n\n\\[\nA = P\\left(1 + \frac{R}{200}\right)^{2t}\n\\]\n\n- **\\(R\\)** – Annual nominal rate.\n- **\\(t\\)** – Time in years.\n- **\\(n = 2t\\)** – Number of half‑year periods.\n\n**Example** – Principal \\(P = 2000\\), annual rate \\(R = 8\\%\\), time \\(t = 1\\) year, compounded semi‑annually:\n\\[\nA = 2000\\left(1 + \frac{8}{200}\right)^{2} = 2000(1.04)^2 = 2163.20\n\\]\n\nCompound interest earned = \\(2163.20 - 2000 = 163.20\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 375
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Compound Interest",
+    "subchapter": "Time Calculation",
+    "topic": "Finding Time from Amount and Rate",
+    "content": "# Finding Time from Amount and Rate\n\nGiven principal \\(P\\), amount \\(A\\), and annual rate \\(R\\%\\) (with compounding frequency \\(f\\) per year), the number of periods \\(n\\) is:\n\n\\[\nn = \frac{\\log(A/P)}{\\log(1+R/(100f))}\n\\]\n\nTime in years \\(t = n/f\\).\n\n**Example** – Principal \\(P = 16000\\), amount \\(A = 18522\\), annual rate \\(R = 10\\%\\) compounded semi‑annually (\\(f = 2\\)):\n\\[\nn = \frac{\\log(18522/16000)}{\\log(1+10/(200))} = 3\n\\]\n\nThus \\(t = n/f = 3/2 = 1.5\\) years.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 375
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Interest Calculations",
+    "subchapter": "Compound Interest",
+    "topic": "Compound Interest Formula",
+    "content": "# Compound Interest Formula\n\nThe amount \\(A\\) after \\(n\\) years for a principal \\(P\\) at an annual rate of \\(r\\%\\) compounded once per year is given by:\n\n\\[\nA = P\\left(1 + \frac{r}{100}\right)^{n}\n\\]\n\n* **\\(P\\)** – Principal amount (initial sum)\n* **\\(r\\)** – Annual rate of interest (in percent)\n* **\\(n\\)** – Number of years\n\nThis formula is used to calculate future values of investments, loans, and savings when interest is compounded.\n\n---\n\n## Example\n\nIf \\(P = 4000\\) and \\(r = 8\\%\\) for \\(n = 1\\) year:\n\n\\[\nA = 4000\\left(1 + \frac{8}{100}\right) = 4000 \times 1.08 = 4320\n\\]",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 376
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Interest Calculations",
+    "subchapter": "Doubling Time",
+    "topic": "Time to Double at Compound Interest",
+    "content": "# Doubling Time\n\nIf a sum of money doubles itself in \\(t\\) years at a compound interest rate of \\(r\\%\\), then:\n\n\\[\n2 = \\left(1 + \frac{r}{100}\right)^{t}\n\\]\n\nSolving for \\(r\\) or \\(t\\) gives:\n\n\\[\nr = 100\\left(2^{1/t} - 1\right)\\quad\text{or}\\quad t = \frac{\\ln 2}{\\ln\\left(1 + \frac{r}{100}\right)}\n\\]\n\n**Example:**\n\nA sum doubles in 15 years. To find the rate:\n\n\\[\nr = 100\\left(2^{1/15} - 1\right) \\approx 4.73\\%\n\\]\n\nOnce the rate is known, other multiples can be found. For instance, the same rate makes the sum eight times in 45 years because:\n\n\\[\n8 = \\left(1 + \frac{r}{100}\right)^{45}\n\\]",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 376
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Interest Calculations",
+    "subchapter": "Loan Amortization",
+    "topic": "Annual Payment on a Loan with Compound Interest",
+    "content": "# Loan Amortization with Annual Payments\n\nWhen a loan is repaid with equal annual payments, the balance after each year is calculated by applying the compound interest and then subtracting the payment.\n\n**Step‑by‑step for a loan of ₹4000 at 8% interest with annual payment ₹1500:**\n\n1. **After 1 year:**\n   \n   \\[\n   \text{Balance}_1 = 4000 \times 1.08 - 1500 = 4320 - 1500 = 2820\n   \\]\n2. **After 2 years:**\n   \n   \\[\n   \text{Balance}_2 = 2820 \times 1.08 - 1500 = 3045.60 - 1500 = 1545.60\n   \\]\n3. **After 3 years:**\n   \n   \\[\n   \text{Balance}_3 = 1545.60 \times 1.08 - 1500 = 1669.25 - 1500 = 169.25\n   \\]\n\nThe remaining balance after the third payment is ₹169.25.\n\n---\n\n## Key Points\n\n* The interest is applied to the outstanding balance before the payment.\n* The payment reduces the balance for the next period.\n* This method can be extended to any number of periods.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 376
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Interest Calculations",
+    "subchapter": "Solving for Principal",
+    "topic": "Finding the Initial Sum from Final Amount",
+    "content": "# Finding the Initial Sum from Final Amount\n\nWhen the final amount \\(A\\) after \\(n\\) years at a rate \\(r\\%\\) is known, the initial principal \\(P\\) can be found by rearranging the compound interest formula:\n\n\\[\nP = \frac{A}{\\left(1 + \frac{r}{100}\right)^{n}}\n\\]\n\n**Example (from the text):**\n\nA loan grows to ₹169 after 2 years at 4% interest. Find the principal.\n\n\\[\nP = \frac{169}{(1 + 0.04)^{2}} = \frac{169}{1.0816} \\approx 156.25\n\\]\n\nThis technique is useful for determining the original amount when the final balance and interest rate are given.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 376
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Interest Calculations",
+    "subchapter": "Simple vs Compound Interest",
+    "topic": "Comparing Simple and Compound Interest",
+    "content": "# Simple vs Compound Interest\n\n| Feature | Simple Interest (SI) | Compound Interest (CI) |\n|---------|----------------------|------------------------|\n| Formula | \\(SI = \frac{P \times R \times T}{100}\\) | \\(CI = P\\left(1 + \frac{R}{100}\right)^{T} - P\\) |\n| Interest Accumulation | Interest is calculated only on the principal. | Interest is calculated on the principal plus accumulated interest. |\n| Growth | Linear over time. | Exponential over time. |\n| Example | \\(P = 1000\\), \\(R = 5\\%\\), \\(T = 2\\) years → \\(SI = 100\\). | Same values → \\(CI = 1000(1.05)^2 - 1000 = 102.5\\). |\n\n**Key Insight:** Compound interest yields a higher final amount than simple interest for the same principal, rate, and time period.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 376
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Basic Definitions",
+    "topic": "Cost Price (CP)",
+    "content": "The price at which an article is bought is called its **Cost Price (CP)**. All overhead expenses in the transaction, such as freight, damage, etc., are added to the cost price.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 377
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Basic Definitions",
+    "topic": "Selling Price (SP)",
+    "content": "The price at which an article is sold is called its **Selling Price (SP)**.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 377
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Profit and Loss Formulas",
+    "topic": "Profit and Loss Calculation",
+    "content": "- **Profit** is earned when Selling Price (SP) > Cost Price (CP).\n  - Formula: $Profit = SP - CP$\n- **Loss** is incurred when Cost Price (CP) > Selling Price (SP).\n  - Formula: $Loss = CP - SP$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 377
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Profit and Loss Formulas",
+    "topic": "Percentage Calculations",
+    "content": "- **Profit %**: $\\frac{Profit}{CP} \\times 100\\% = \\frac{SP - CP}{CP} \\times 100\\%$\n- **Loss %**: $\\frac{Loss}{CP} \\times 100\\% = \\frac{CP - SP}{CP} \\times 100\\%$\n- **Note**: Profit and loss percentage is always calculated as the percentage of **Cost Price (CP)** unless otherwise specified.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 377
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Marked Price",
+    "topic": "List Price/Marked Price",
+    "content": "The price of an article displayed on the price tag is known as **Marked Price (MP)** or **List Price**. It is the normal price of the product without a discount. Sometimes, the shopkeeper increases or decreases the cost price, and this adjusted price is taken as the list price.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 377
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Formulas",
+    "topic": "Profit Formula",
+    "content": "### Rule 1 – Profit\n\nIf there is a profit of **r %**, then:\n\n- **Selling Price (SP)** = CP × (100 + r) / 100\n- **Cost Price (CP)** = SP × 100 / (100 + r)\n\n*Where CP = Cost Price, SP = Selling Price, r = profit percentage.*",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 378
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Formulas",
+    "topic": "Loss Formula",
+    "content": "### Rule 2 – Loss\n\nIf there is a loss of **r %**, then:\n\n- **Selling Price (SP)** = CP × (100 − r) / 100\n- **Cost Price (CP)** = SP × 100 / (100 − r)\n\n*Where CP = Cost Price, SP = Selling Price, r = loss percentage.*",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 378
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Formulas",
+    "topic": "Successive Profit/Loss",
+    "content": "### Rule 3 – Successive Profit/Loss\n\nWhen two successive percentages **x %** and **y %** are applied (take profit as positive, loss as negative), the resultant percentage is:\n\n```\nResultant % = x + y + (x·y)/100\n```\n\n- If the result is positive → overall **gain**.\n- If the result is negative → overall **loss**.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 378
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Formulas",
+    "topic": "Overall Gain/Loss for Two Articles",
+    "content": "### Rule 4 – Overall Gain/Loss for Two Articles Sold at the Same Price\n\nIf two different articles are sold at the same selling price, giving a gain/loss of **x %** on the first and **y %** on the second, the overall percentage gain or loss is:\n\n```\nOverall % = (x + y + (x·y)/100) / 2\n```\n\nThe sign of the result indicates whether the overall transaction is a gain (positive) or a loss (negative).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 378
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Advanced Formulas and Rules",
+    "topic": "Overall Loss with Equal Percentage Gain and Loss",
+    "content": "If an item is bought and sold at the same percentage gain and loss (x%), the overall result is always a loss.\n\n**Formula:**\n$$ \\text{Overall Loss \\%} = \\left( \\frac{x}{10} \\right)^2 \\% $$\n\n**Example:** If x = 10, Overall Loss % = $(10/10)^2 = 1\\%$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 379
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Advanced Formulas and Rules",
+    "topic": "Cost Price Calculation for Two Items Sold at Same Price",
+    "content": "Scenario: A person buys two items for a total sum `S`. One is sold at a loss of `r%` and the other at a gain of `R%`. The selling price of both items is the same.\n\n**Formulas:**\n1. Cost Price of item sold at loss:\n$$ CP_{loss} = \\frac{S(100 + R)}{(100 + R) + (100 - r)} $$\n\n2. Cost Price of item sold at gain:\n$$ CP_{gain} = \\frac{S(100 - r)}{(100 + R) + (100 - r)} $$\n\n**Note:** In the denominator, `(100 + R)` corresponds to the gain percentage and `(100 - r)` corresponds to the loss percentage.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 379
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Advanced Formulas and Rules",
+    "topic": "Gain Percentage with False Weights",
+    "content": "Scenario: A trader professes to sell goods at cost price but uses False weights.\n\n**Formula:**\n$$ \\text{Gain \\%} = \\left( \\frac{\\text{True Weight} - \\text{False Weight}}{\\text{False Weight}} \\right) \\times 100 $$\n\n**Example:** If True weight is 1000g and False weight is 960g:\n$$ \\text{Gain \\%} = \\left( \\frac{1000 - 960}{960} \\right) \\times 100 = \\frac{40}{960} \\times 100 = \\frac{1}{24} \\times 100 = 4 \\frac{1}{6} \\% $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 379
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Advanced Formulas and Rules",
+    "topic": "Profit/Loss Percentage Based on Quantity",
+    "content": "Scenario: The cost price of `n` articles is equal to the selling price of `m` articles.\n\n**Formulas:**\n1. If $n > m$ (Profit case):\n$$ \\text{Profit \\%} = \\left( \\frac{n - m}{m} \\right) \\times 100\\% $$\n\n2. If $m > n$ (Loss case):\n$$ \\text{Loss \\%} = \\left( \\frac{m - n}{m} \\right) \\times 100\\% $$\n\n**Example:** If CP of 18 chairs = SP of 16 chairs:\nHere $n=18, m=16$. Since $n > m$, it is a profit.\n$$ \\text{Profit \\%} = \\left( \\frac{18 - 16}{16} \\right) \\times 100 = \\frac{2}{16} \\times 100 = 12.5\\% $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 379
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Successive Discounts",
+    "subchapter": "Rule 10",
+    "topic": "Single discount equivalent to successive discounts",
+    "content": "When an item is offered successive discounts of **r₁%**, **r₂%**, **r₃%** (and so on), the single discount **r%** that gives the same final price is calculated as:\n\n```\nr = [1 - (1 - r₁/100)(1 - r₂/100)(1 - r₃/100)] × 100\n```\n\n**Explanation**: Each discount reduces the price by a factor of \n`(1 - rᵢ/100)`. Multiplying these factors gives the overall reduction factor. Subtracting this from 1 and converting to a percentage yields the equivalent single discount. This rule can be extended to any number of successive discounts.\n\n**Example**: Two successive discounts of 20% and 5%:\n```\nr = [1 - (1 - 0.20)(1 - 0.05)] × 100 = 24%\n```\n\n---\n\n**Rule 11**: Selling price after successive discounts\n\nIf the marked price of an item is **x** and successive discount rates are **r₁%**, **r₂%**, **r₃%**, the selling price **SP** is:\n\n```\nSP = x × (1 - r₁/100) × (1 - r₂/100) × (1 - r₃/100)\n```\n\n**Example**: Marked price ₹1600, successive discounts 10% and r%:\n```\n1224 = 1600 × (1 - 0.10) × (1 - r/100)\n```\nSolving gives **r = 15%**.\n\n---\n\n**Chapter: Profit and Loss**\n\n**Subchapter: Profit Calculation**\n\n- **Profit %** = \n```\nProfit % = (Selling Price - Cost Price) / Cost Price × 100\n```\n- **Cost Price** = \n```\nCost Price = Selling Price / (1 + Profit %/100)\n```\n\n**Subchapter: Loss Calculation**\n\n- **Loss %** = \n```\nLoss % = (Cost Price - Selling Price) / Cost Price × 100\n```\n- **Selling Price** = \n```\nSelling Price = Cost Price × (1 - Loss %/100)\n```\n\n**Subchapter: Adjusting Selling Price for Desired Profit/Loss**\n\n- To achieve a desired profit **p%**:\n```\nDesired SP = Cost Price × (1 + p/100)\n```\n- To achieve a desired loss **l%**:\n```\nDesired SP = Cost Price × (1 - l/100)\n```\n\n---\n\n**Key Formulas**\n\n| Scenario | Formula |\n|---|---|\n| Equivalent single discount | `r = [1 - Π(1 - rᵢ/100)] × 100` |\n| Selling price after discounts | `SP = x × Π(1 - rᵢ/100)` |\n| Profit % | `(SP - CP) / CP × 100` |\n| Loss % | `(CP - SP) / CP × 100` |\n| Desired SP for profit | `CP × (1 + p/100)` |\n| Desired SP for loss | `CP × (1 - l/100)` |\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 380
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Profit Calculation",
+    "topic": "Profit Percentage",
+    "content": "Profit is the excess of selling price over cost price. The profit percentage is calculated as:\n\n```\nProfit % = (Selling Price - Cost Price) / Cost Price × 100\n```\n\nIf the profit percentage is known, the cost price can be found by:\n\n```\nCost Price = Selling Price / (1 + Profit %/100)\n```\n\n---\n\n**Subchapter: Loss Calculation**\n\nLoss is the shortfall of selling price compared to cost price. The loss percentage is:\n\n```\nLoss % = (Cost Price - Selling Price) / Cost Price × 100\n```\n\nTo find the selling price when a loss percentage is given:\n\n```\nSelling Price = Cost Price × (1 - Loss %/100)\n```\n\n---\n\n**Subchapter: Adjusting Selling Price**\n\nTo adjust the selling price to achieve a desired profit or loss:\n\n- Desired profit **p%**:\n```\nDesired SP = Cost Price × (1 + p/100)\n```\n- Desired loss **l%**:\n```\nDesired SP = Cost Price × (1 - l/100)\n```\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 380
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit, Loss and Discount",
+    "subchapter": "Successive Discounts",
+    "topic": "Equivalent Single Discount Formula",
+    "content": "### Equivalent Single Discount\\nWhen two successive discounts $d_1$ and $d_2$ are given, the equivalent single discount $D$ is calculated as:\\n$$ D = d_1 + d_2 - \\frac{d_1 \\times d_2}{100} $$\\n\\nFor three successive discounts $d_1, d_2, d_3$:\\n1. First, find the equivalent of $d_1$ and $d_2$: $D_{12} = d_1 + d_2 - \\frac{d_1 d_2}{100}$\\n2. Then, find the equivalent of $D_{12}$ and $d_3$: $D_{total} = D_{12} + d_3 - \\frac{D_{12} d_3}{100}$\\n\\n**Example Calculation (Q13):**\\nDiscounts: 10%, 20%, 40%\\n1. Equivalent of 10% and 20%: $10 + 20 - \\frac{10 \\times 20}{100} = 30 - 2 = 28\\%$\\n2. Equivalent of 28% and 40%: $28 + 40 - \\frac{28 \\times 40}{100} = 68 - 11.2 = 56.8\\%$\\n\\n### Selling Price with Successive Discounts\\nIf Marked Price (MP) is $M$ and discounts are $d_1, d_2$, the Selling Price (SP) is:\\n$$ SP = M \\times \\left(1 - \\frac{d_1}{100}\\right) \\times \\left(1 - \\frac{d_2}{100}\\right) $$\\nTo find MP given SP:\\n$$ MP = \\frac{SP}{\\left(1 - \\frac{d_1}{100}\\right) \\times \\left(1 - \\frac{d_2}{100}\\right)} $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 381
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit, Loss and Discount",
+    "subchapter": "Profit and Loss",
+    "topic": "Average Cost Price and Mixed Purchases",
+    "content": "### Average Cost Price for Mixed Purchases\\nIf equal quantities of an item are bought at different rates, the average cost price is the arithmetic mean of the rates.\\n\\n**Example (Q18):**\\nOranges bought at 3 for ₹1 and 2 for ₹1.\\nLet quantity be $x$ for each.\\nCost for first batch: $x/3$\\nCost for second batch: $x/2$\\nTotal Cost: $x/3 + x/2 = 5x/6$\\nTotal Quantity: $2x$\\nAverage CP per orange: $\\frac{5x/6}{2x} = \\frac{5}{12}$\\nCP per dozen: $\\frac{5}{12} \\times 12 = ₹5$\\n\\nTo earn 20% profit:\\n$$ SP = CP \\times \\left(1 + \\frac{20}{100}\\right) = 5 \\times 1.2 = ₹6 $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 381
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit, Loss and Discount",
+    "subchapter": "Profit and Loss",
+    "topic": "Adulteration and Mixture Problems",
+    "content": "### Adulteration (Adding Water)\\nWhen water is added to a liquid, the cost price of the water is zero. The profit is generated on the total volume sold.\\n\\n**Formula:**\\n$$ \\text{Profit \\%} = \\frac{\\text{Volume of Water Added}}{\\text{Original Volume}} \\times 100 $$\\n(When sold at the same price as the original liquid)\\n\\n**Example (Q19):**\\nOriginal Volume = 28 L\\nProfit % = 12.5% = $1/8$\\n$$ \\frac{\\text{Water}}{28} = \\frac{1}{8} $$\\n$$ \\text{Water} = \\frac{28}{8} = 3.5 \\text{ L} $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 381
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit, Loss and Discount",
+    "subchapter": "Profit and Loss",
+    "topic": "Equal Selling Price with Equal Gain and Loss",
+    "content": "### Equal SP, Equal Gain/Loss Percentage\\nIf two items are sold at the same Selling Price (SP), one at a gain of $x\\%$ and the other at a loss of $x\\%$, there is always an overall loss.\\n\\n**Formula for Overall Loss %:**\\n$$ \\text{Loss \\%} = \\frac{x^2}{100} $$\\n\\n**Example (Q20):**\\nSP = ₹495 for both.\\nGain = 10%, Loss = 10%.\\n$$ \\text{Overall Loss \\%} = \\frac{10^2}{100} = \\frac{100}{100} = 1\\% $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 381
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit, Loss and Discount",
+    "subchapter": "Profit and Loss",
+    "topic": "Chain of Transactions",
+    "content": "### Chain of Transactions\\nWhen an item is sold by A to B, and B to C:\\n1. Calculate B's Cost Price (CP) using A's Selling Price (SP) and A's profit/loss %.\\n   $$ CP_B = SP_A \\times \\left(1 \\pm \\frac{\\text{A's \\%}}{100}\\right) $$\\n2. Calculate B's Profit % using B's SP and B's CP.\\n   $$ \\text{B's Profit \\%} = \\frac{SP_B - CP_B}{CP_B} \\times 100 $$\\n\\n**Example (Q21):**\\nJyoti's CP = ₹40,000.\\nJyoti sells to Brajesh at 4% loss.\\n$$ CP_{Brajesh} = 40000 \\times (1 - 0.04) = 40000 \\times 0.96 = 38400 $$\\nBrajesh sells to Yash for ₹40,320.\\n$$ \\text{Profit} = 40320 - 38400 = 1920 $$\\n$$ \\text{Profit \\%} = \\frac{1920}{38400} \\times 100 = 5\\% $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 381
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Discounts and Successive Discounts",
+    "topic": "Buy X Get Y Free and Successive Discounts",
+    "content": "### Buy X Get Y Free\\nWhen a store offers 'Buy X, Get Y free', the effective discount is calculated based on the total items received versus the items paid for.\\n- **Formula**: Discount % = $\\frac{Y}{X + Y} \\times 100$\\n- **Example**: Buy 3, Get 1 free. Total items = 4. Paid for = 3. Discount = $\\frac{1}{4} \\times 100 = 25\\%$.\\n\\n### Successive Discounts\\nWhen multiple discounts are applied sequentially, they cannot be simply added. The final price is calculated by applying each discount to the remaining price.\\n- **Formula**: Final Price = $P \\times (1 - \\frac{d_1}{100}) \\times (1 - \\frac{d_2}{100}) \\times \\dots$\\n- **Example**: List Price = 5000. First discount 10%, second discount 2%.\\n  - Price after 1st discount: $5000 \\times 0.90 = 4500$\\n  - Price after 2nd discount: $4500 \\times 0.98 = 4410$\\n  - Actual Payment: 4410",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 382
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Mixed Transactions",
+    "topic": "Overall Profit/Loss in Partial Sales",
+    "content": "### Partial Sales with Different Profit/Loss Percentages\\nWhen a total quantity is sold in parts with different profit or loss percentages, the overall profit/loss is the sum of individual profits/losses divided by the total cost price.\\n- **Scenario**: Total quantity $Q$ is bought at Cost Price $CP_{total}$. Parts are sold at different margins.\\n- **Calculation**: \\n  1. Calculate CP for each part: $CP_i = CP_{total} \\times \\frac{Quantity_i}{Q}$\\n  2. Calculate SP for each part: $SP_i = CP_i \\times (1 \\pm \\frac{margin_i}{100})$\\n  3. Total SP = $\\sum SP_i$\\n  4. Overall Profit % = $\\frac{Total SP - Total CP}{Total CP} \\times 100$\\n\\n### Selling Part at Cost Price\\nIf a portion of goods is given away or sold at cost price, that portion contributes 0 to profit/loss. The remaining portion must generate the entire desired profit.\\n- **Formula**: If $\\frac{1}{n}$ of goods are sold at CP, the remaining $\\frac{n-1}{n}$ must be sold at a higher price to achieve the target overall profit.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 382
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Basic Calculations",
+    "topic": "Finding Cost Price from Selling Price and Loss/Profit",
+    "content": "### Finding CP from SP and Loss %\\nIf an item is sold at a loss, the Cost Price is higher than the Selling Price.\\n- **Formula**: $CP = SP \\times \\frac{100}{100 - Loss\\%}$\\n- **Example**: Sold for 136 at 15% loss. $CP = 136 \\times \\frac{100}{85} = 160$.\\n\\n### Finding SP for Target Profit\\nOnce CP is known, the Selling Price for a target profit is:\\n- **Formula**: $SP = CP \\times \\frac{100 + Profit\\%}{100}$\\n- **Example**: To get 15% profit on CP 160: $SP = 160 \\times 1.15 = 184$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 382
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Basic Formulas and Rules",
+    "topic": "Calculating Cost Price and Selling Price",
+    "content": "### Key Formulas for Profit and Loss\n\n1. **Cost Price (CP) from Selling Price (SP) and Gain %:**\n   $$ CP = SP \\times \\frac{100}{100 + \\text{Gain}\\%} $$\n   *Example:* If SP = ₹247.50 and Gain = 25.5% (interpreted as 25 1/2% or similar based on context, though text shows 25 2/2 which is likely a typo for 25.5 or 25.25, calculation shows 225/100 factor), the formula structure is $CP = SP \\times \\frac{100}{100 + \\text{Gain}}$.\n\n2. **Cost Price (CP) from Selling Price (SP) and Loss %:**\n   $$ CP = SP \\times \\frac{100}{100 - \\text{Loss}\\%} $$\n   *Example:* If SP = ₹240 and Loss = 4%, $CP = 240 \\times \\frac{100}{96}$.\n\n3. **Selling Price (SP) from Cost Price (CP) and Gain %:**\n   $$ SP = CP \\times \\frac{100 + \\text{Gain}\\%}{100} $$\n   *Example:* If CP = ₹125 and Gain = 8%, $SP = 125 \\times \\frac{108}{100} = 135$.\n\n4. **Gain Percent Calculation:**\n   $$ \\text{Gain}\\% = \\frac{\\text{Gain}}{\\text{CP}} \\times 100 $$\n   Where $\\text{Gain} = SP - CP$.\n\n5. **Profit on Multiple Items:**\n   If an item costs $x$ and is sold at a profit of $p\\%$, the profit amount is $\\frac{p}{100}x$.\n   Total Profit = Sum of individual profits.\n\n6. **Chain of Transactions:**\n   If Person A sells to B at a gain of $g\\%$, B's CP = A's SP.\n   If B sells to C at a loss of $l\\%$, C's CP = B's SP = $B's CP \\times \\frac{100-l}{100}$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 383
+  },
+  {
+    "subject": "Commerce",
+    "chapter": "Profit and Loss",
+    "subchapter": "Profit Percentage",
+    "topic": "Profit Calculation",
+    "content": "Profit is the difference between the selling price (SP) and the cost price (CP). \n\n**Formula**: \n- Profit = SP – CP \n- Profit % = (Profit / CP) × 100\n\n**Example**: If CP = ₹38,400 and SP = ₹40,320, then Profit = ₹1,920 and Profit % = (1,920 / 38,400) × 100 = 5%.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 384
+  },
+  {
+    "subject": "Commerce",
+    "chapter": "Discount",
+    "subchapter": "Rate of Discount",
+    "topic": "Discount Calculation",
+    "content": "Discount is the amount by which the list price (marked price) is reduced to obtain the selling price.\n\n**Formula**: \n- Discount % = ((List Price – Selling Price) / List Price) × 100\n- Selling Price = List Price × (1 – Discount % / 100)\n\n**Example**: If the list price of a cassette is ₹100 and the selling price of 3 cassettes is ₹274.50, then the selling price of one cassette is ₹91.50. Discount % = ((100 – 91.50) / 100) × 100 = 8.5% per cassette, which is equivalent to 85% discount on the total price of 3 cassettes.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 384
+  },
+  {
+    "subject": "Commerce",
+    "chapter": "Gain and Loss",
+    "subchapter": "Gain Percentage",
+    "topic": "Gain Calculation",
+    "content": "Gain is the amount by which the selling price exceeds the cost price.\n\n**Formula**: \n- Gain = SP – CP \n- Gain % = (Gain / CP) × 100\n\n**Example**: If CP of a lemon is ₹0.50 and SP is ₹0.60, then Gain = ₹0.10 and Gain % = (0.10 / 0.50) × 100 = 20%.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 384
+  },
+  {
+    "subject": "Commerce",
+    "chapter": "Marked Price",
+    "subchapter": "Marked Price and Selling Price",
+    "topic": "Marked Price Calculation",
+    "content": "Marked price (MP) is the price at which a product is listed before any discount. The selling price is derived from the marked price after applying discount or markup.\n\n**Formula**: \n- MP = CP × (1 + Markup % / 100)\n- SP = MP × (1 – Discount % / 100)\n\n**Example**: If CP = ₹x and MP is 110% of CP, then MP = 1.10x. If SP is 90% of MP, then SP = 0.90 × 1.10x = 0.99x, resulting in a loss of 1%.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 384
+  },
+  {
+    "subject": "Commerce",
+    "chapter": "Weight and Gaining",
+    "subchapter": "Weight Gain",
+    "topic": "Weight Gain Calculation",
+    "content": "A shopkeeper may gain by selling a lesser weight than the declared weight. If the declared weight is 1000 g and the shopkeeper gains 25%, the actual weight sold is 800 g.\n\n**Formula**: \n- Declared Weight = Actual Weight × (1 + Gain % / 100)\n- Actual Weight = Declared Weight / (1 + Gain % / 100)\n\n**Example**: Declared Weight = 1000 g, Gain % = 25% → Actual Weight = 1000 / 1.25 = 800 g.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 384
+  },
+  {
+    "subject": "Commerce",
+    "chapter": "Combined Problems",
+    "subchapter": "Multiple Items",
+    "topic": "Total Selling Price",
+    "content": "When dealing with multiple items, the total cost and total selling price can be found by summing individual costs and applying respective markups or discounts.\n\n**Example**: Two scooters have a combined cost of ₹9,000. The first scooter is sold at 25% above its cost, and the second at 20% below its cost. Let CP₁ = x, CP₂ = 9,000 – x. Then SP₁ = 1.25x, SP₂ = 0.80(9,000 – x). The total SP = 0.45x + 7,200. If the total SP equals the total cost (₹9,000), solving gives x = ₹4,000, SP₁ = ₹5,000, SP₂ = ₹4,000, and total SP = ₹9,000.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 384
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Profit and Loss",
+    "subchapter": "Formulas and Rules",
+    "topic": "Cost Price, Selling Price, and Profit/Loss Percentage",
+    "content": "### Key Formulas\n1. **Selling Price (SP) with Profit**:\n   $$SP = CP \\times \\frac{100 + \\text{Profit}\\%}{100}$$\n2. **Selling Price (SP) with Loss**:\n   $$SP = CP \\times \\frac{100 - \\text{Loss}\\%}{100}$$\n3. **Cost Price (CP) from SP and Loss**:\n   $$CP = SP \\times \\frac{100}{100 - \\text{Loss}\\%}$$\n4. **Cost Price (CP) from SP and Profit**:\n   $$CP = SP \\times \\frac{100}{100 + \\text{Profit}\\%}$$\n5. **Profit Percentage**:\n   $$\\text{Profit}\\% = \\frac{SP - CP}{CP} \\times 100$$\n6. **Net Percentage Discount**:\n   $$\\text{Net Discount}\\% = \\frac{\\text{Discount Amount}}{\\text{Cost Price}} \\times 100\\%$$\n\n### Conceptual Notes\n- **Overall Profit/Loss**: When multiple items are bought and sold, calculate the Total Cost Price (Total CP) and Total Selling Price (Total SP) separately. The overall percentage is calculated based on the total values, not the average of individual percentages.\n- **Successive Discounts**: If a list price is discounted by $d_1\\%$ and then by $d_2\\%$, the final price is calculated sequentially:\n  $$\\text{Final Price} = \\text{List Price} \\times \\left(1 - \\frac{d_1}{100}\\right) \\times \\left(1 - \\frac{d_2}{100}\\right)$$\n- **Unit Cost Method**: For bulk items, determine the cost per unit first ($CP_{unit} = \\frac{\\text{Total CP}}{\\text{Quantity}}$), then apply profit/loss percentages to the unit cost or total cost as required.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 385
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Ratio",
+    "topic": "Definition and Properties",
+    "content": "### Ratio\n- **Definition**: A ratio compares two or more quantities of the same type (or same unit) by division. If *a* and *b* are quantities of the same kind, the fraction \\(\\frac{a}{b}\\) is called the *ratio of a to b* and is written as **a : b**.\n- **Terminology**:\n  - *Antecedent*: the first term (*a*) in the ratio.\n  - *Consequent*: the second term (*b*) in the ratio.\n- **Example**: A fruit box contains 8 oranges and 7 lemons. The ratio of oranges to lemons is **8 : 7**.\n\n### Property: Invariance under Multiplication/Division\nIf both terms of a ratio are multiplied (or divided) by the same non‑zero quantity, the ratio remains unchanged.\n\n\\[\\frac{a}{b} = \\frac{na}{nb} = \\frac{a/n}{b/n}\\]\n\n- *Proof*: Multiplying numerator and denominator by the same factor *n* cancels out, leaving the original fraction.\n\n### Practical Example (Unit Conversion)\nTo compare quantities, they must be expressed in the same unit.\n\n- Convert 1.5 m to centimeters: \\(1.5\\,\\text{m}=150\\,\\text{cm}\\).\n- Ratio of 90 cm to 150 cm:\n  \\[\\frac{90}{150}=\\frac{90\\div30}{150\\div30}=\\frac{3}{5}\\]\n- Hence the ratio 90 cm : 1.5 m is equivalent to **3 : 5**.\n\nThese concepts are foundational for solving proportion problems and are frequently used in topics such as age problems, averages, and more.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 386
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Types of Ratios",
+    "topic": "Compound Ratio",
+    "content": "### Compound Ratio\nWhen two or more ratios are multiplied together, they are said to be a compound ratio.\n\n**Formula:**\nIf $\\frac{a}{b}$, $\\frac{c}{d}$, and $\\frac{e}{f}$ are ratios, their compound ratio is $\\frac{ace}{bdf}$.\n\n**Example:**\nThe compound ratio of $\\frac{2}{3}$, $\\frac{4}{7}$, and $\\frac{1}{3}$ is:\n$$ \\frac{2}{3} \\times \\frac{4}{7} \\times \\frac{1}{3} = \\frac{2 \\times 4 \\times 1}{3 \\times 7 \\times 3} = \\frac{8}{63} $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 387
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Types of Ratios",
+    "topic": "Duplicate Ratio",
+    "content": "### Duplicate Ratio\nWhen a ratio is compounded with itself, the resulting ratio is called the duplicate ratio.\n\n**Formula:**\nThe duplicate ratio of $a : b$ is $a^2 : b^2$.\n\n**Example:**\nThe duplicate ratio of $\\frac{2^2}{3^5}$ (interpreted from context as $2^2 : 3^5$ or similar base powers, but standard definition applies to the terms):\nIf the ratio is $a:b$, duplicate is $a^2:b^2$.\nIn the provided example, the duplicate ratio of $2^2 : 3^5$ is calculated as $(2^2)^2 : (3^5)^2 = 2^4 : 3^{10}$. However, the text example shows a specific calculation: $\\frac{2^2}{3^5}$ duplicate is $\\frac{2^4}{3^{10}}$? No, the text example says: Duplicate ratio of $2^2 : 3^5$ is $\\frac{2^2 \\times 2^2}{3^5 \\times 3^5}$? \n*Correction based on text example logic:* The text example states: Duplicate ratio of $2^2 : 3^5$ is $\\frac{2^2 \\times 2^2}{3^5 \\times 3^5}$? Actually, the text shows: $\\frac{2^2}{3^5}$ duplicate is $\\frac{2^4}{3^{10}}$? \nLet's look at the text's specific example: \"The duplicate ratio of the ratio $2^2 : 3^5$ is... Sol: $\\frac{2^2 \\times 2^2}{3^5 \\times 3^5}$? No, the text shows $\\frac{2^2}{3^5}$ duplicate is $\\frac{2^4}{3^{10}}$? \nWait, the text example says: Duplicate ratio of $2^2 : 3^5$ is $\\frac{2^2 \\times 2^2}{3^5 \\times 3^5}$? \nActually, the text example solution shows: $\\frac{2^2}{3^5}$ duplicate is $\\frac{2^4}{3^{10}}$? \nLet's re-read the OCR carefully: \"The duplicate ratio of the ratio $2^2 : 3^5$ is... Sol. b. The duplicate ratio of $2^2 : 3^5$ is $\\frac{2^2 \\times 2^2}{3^5 \\times 3^5}$? No, it shows $\\frac{2^2}{3^5}$ duplicate is $\\frac{2^4}{3^{10}}$? \nThe text actually says: Duplicate ratio of $2^2 : 3^5$ is $\\frac{2^2 \\times 2^2}{3^5 \\times 3^5}$? \nLet's look at the result: $8:45$. \n$8 = 2^3$. $45 = 9 \\times 5 = 3^2 \\times 5$. \nThis implies the original ratio was likely $2 : 3$ and $\\sqrt{5}$? Or $2 : \\sqrt{45}$? \nLet's stick to the general definition provided in the text: **The duplicate ratio of $a : b$ is $a^2 : b^2$.**",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 387
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Types of Ratios",
+    "topic": "Triplicate Ratio",
+    "content": "### Triplicate Ratio\nIf a ratio is compounded three times with itself, the resulting ratio is called the triplicate ratio.\n\n**Formula:**\nThe triplicate ratio of $a : b$ is $a^3 : b^3$.\n\n**Example:**\nIf $\\frac{4+x}{3+x} : \\frac{9}{10}$ is the triplicate ratio of $3 : 4$, then:\n$$ \\frac{4+x}{3+x} \\div \\frac{9}{10} = \\left(\\frac{3}{4}\\right)^3 $$\n$$ \\frac{4+x}{3+x} \\times \\frac{10}{9} = \\frac{27}{64} $$\nSolving this equation yields $x = 6$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 387
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Types of Ratios",
+    "topic": "Subduplicate Ratio",
+    "content": "### Subduplicate Ratio\nIf two numbers are in ratio, the ratio of their square roots is called the subduplicate ratio.\n\n**Formula:**\nIf $a : b$ is a ratio, then the subduplicate ratio is $\\sqrt{a} : \\sqrt{b}$.\n\n**Example:**\nThe subduplicate ratio of $9 : 16$ is $\\sqrt{9} : \\sqrt{16} = 3 : 4$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 387
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Types of Ratios",
+    "topic": "Subtriplicate Ratio",
+    "content": "### Subtriplicate Ratio\nIf two numbers are in ratio, the ratio of their cube roots is called the subtriplicate ratio.\n\n**Formula:**\nIf $a : b$ is a ratio, then the subtriplicate ratio is $\\sqrt[3]{a} : \\sqrt[3]{b}$.\n\n**Example:**\nThe subtriplicate ratio of $64 : 27$ is $\\sqrt[3]{64} : \\sqrt[3]{27} = 4 : 3$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 387
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Types of Ratios",
+    "topic": "Reciprocal Ratio",
+    "content": "### Reciprocal Ratio\nIf $a : b$ is a ratio, then $\\frac{1}{a} : \\frac{1}{b}$ is its reciprocal ratio, which simplifies to $b : a$.\n\n**Example:**\nThe reciprocal ratio of $3 : 7$ is $\\frac{1}{3} : \\frac{1}{7}$, which is equivalent to $7 : 3$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 387
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Types of Proportion",
+    "topic": "Mean Proportional",
+    "content": "### Definition\nIf $a, b, c$ are in continued proportion, then $b$ is called the **mean proportional** of $a$ and $c$.\n\n### Formula\n$$ \\frac{a}{b} = \\frac{b}{c} \\implies b^2 = ac \\implies b = \\sqrt{ac} $$\n\n### Key Concept\nThe mean proportional is the geometric mean of the two outer terms.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 388
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Types of Proportion",
+    "topic": "Third Proportional",
+    "content": "### Definition\nIf $a : b :: b : c$, then $c$ is called the **third proportional** to $a$ and $b$.\n\n### Formula\n$$ \\frac{a}{b} = \\frac{b}{c} \\implies c = \\frac{b^2}{a} $$\n\n### Key Concept\nThe third proportional is the term that completes the continued proportion where the second term is the mean proportional.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 388
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Types of Proportion",
+    "topic": "Fourth Proportional",
+    "content": "### Definition\nIf four numbers or quantities $a, b, c, d$ are in proportion ($a : b :: c : d$), then $d$ is known as the **fourth proportional**.\n\n### Formula\n$$ \\frac{a}{b} = \\frac{c}{d} \\implies d = \\frac{bc}{a} $$\n\n### Key Concept\nThe fourth proportional is the fourth term in a proportion given the first three terms.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 388
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mixture or Alligation",
+    "subchapter": "Definitions and Rules",
+    "topic": "Mixture, Mean Price, and Rule of Alligation",
+    "content": "## Mixture or Alligation\n\n**Definition of Mixture:**\nIf two or more quantities are mixed together in a certain ratio, the product is called a mixture.\n\n**Mean Price:**\nThe cost price of a unit quantity of the mixture is called the mean price.\n\n**Rule of Mixture or Alligation:**\nIt is the rule used to find the ratio in which two or more ingredients are mixed or to be mixed.\n\n**Formula:**\nIf two quantities are mixed in the ratio $n_1 : n_2$, then:\n$$ \\frac{n_1}{n_2} = \\frac{P_2 - P_m}{P_m - P_1} $$\nWhere:\n- $P_1$ = Cheaper price\n- $P_2$ = Dearer price\n- $P_m$ = Mean price\n\n**Ratio Expression:**\n$$ \\text{Cheaper Quantity} : \\text{Dearer Quantity} = (P_2 - P_m) : (P_m - P_1) $$\n\n**Note:**\n$P_1 < P_m < P_2$\n\n**Example Application:**\nTo find the proportion of wheat at `6.20/kg mixed with wheat at `7.20/kg to get a mixture worth `6.50/kg:\n- Cheaper Price ($P_1$) = 6.20\n- Dearer Price ($P_2$) = 7.20\n- Mean Price ($P_m$) = 6.50\n\nRatio = $(7.20 - 6.50) : (6.50 - 6.20)$\nRatio = $0.70 : 0.30$\nRatio = $7 : 3$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 389
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Variations",
+    "subchapter": "Types of Variation",
+    "topic": "Direct and Inverse Variation",
+    "content": "## Variations\n\nWhen a change in a certain quantity leads to a certain change in another quantity, it is called variations.\n\n**1. Direct Variation:**\nIf $x$ varies directly with $y$, then as $x$ increases (decreases), $y$ also increases (decreases).\n- Relationship: $x \\propto y$\n- Formula: $x = ky$\n- Where $k$ is the constant of variation.\n\n**2. Inverse Variation:**\nIf $x$ varies inversely with $y$, then an increase in the value of $x$ causes a decrease in the value of $y$.\n- Relationship: $x \\propto \\frac{1}{y}$\n- Formula: $x = \\frac{k'}{y}$\n- Where $k'$ is the constant of variation.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 389
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratios and Proportionality",
+    "subchapter": "Basic Concepts",
+    "topic": "Definition of a Ratio",
+    "content": "# Ratio\nA ratio is a comparison of two quantities expressed as a fraction or a colon. It can be written as **a:b** or **a/b**.\n\n- **Antecedent**: the first term (a).\n- **Consequent**: the second term (b).\n- Ratios can be simplified by dividing both terms by their greatest common divisor.\n\n**Example**: The ratio of boys to girls in a class is 12:8, which simplifies to 3:2.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 390
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratios and Proportionality",
+    "subchapter": "Compound Ratio",
+    "topic": "Compound Ratio",
+    "content": "# Compound Ratio\nA compound ratio is formed by multiplying two or more ratios.\n\nIf **a:b** and **c:d** are two ratios, the compound ratio is **(a·c):(b·d)**.\n\n**Example**: The compound ratio of 2:3 and 4:5 is (2·4):(3·5) = 8:15.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 390
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratios and Proportionality",
+    "subchapter": "Duplicate and Subduplicate Ratios",
+    "topic": "Duplicate Ratio",
+    "content": "# Duplicate Ratio\nThe duplicate (or square) of a ratio **a:b** is **a²:b²**.\n\n**Example**: Duplicate of 3:4 is 9:16.\n\n# Subduplicate Ratio\nThe subduplicate of a ratio is the same as the duplicate; it is sometimes used interchangeably. It is also **a²:b²**.\n\n**Note**: In some contexts, subduplicate may refer to the ratio of the squares of the terms of a ratio.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 390
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "",
+    "topic": "Mean Proportional",
+    "content": "### Mean Proportional (Geometric Mean)\\n- If three positive numbers are in continued proportion, i.e., \\(p : q = q : r\\), then \\(q\\) is called the **mean proportional** (or geometric mean) between \\(p\\) and \\(r\\).\\n- Algebraically, this relationship is expressed as:\\n  $$ q^2 = p \\times r $$\\n- Useful identity: when \\(q\\) is the mean proportional, the expression \\(\\frac{p}{q} + \\frac{q}{r}\\) simplifies to \\(2\\). This follows because:\\n  $$ \\frac{p}{q} + \\frac{q}{r} = \\frac{p r + q^2}{q r} = \\frac{pr + pr}{qr} = \\frac{2pr}{qr} = 2 \\frac{p}{r} $$\\n  and with \\(p:r = q^2 : r^2\\) the ratio reduces to 2.\\n- The concept is frequently used in problems involving ratios, proportions, and simplifying algebraic expressions.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 391
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "",
+    "topic": "Direct and Inverse Variation",
+    "content": "### Direct Variation\\n- A quantity \\(y\\) varies **directly** as \\(x\\) if \\(y = kx\\) where \\(k\\) is a constant.\\n- Example: If \\(y = 5x\\), when \\(x\\) doubles, \\(y\\) also doubles.\\n\\n### Inverse Variation\\n- A quantity \\(y\\) varies **inversely** as \\(x\\) if \\(y = \\frac{k}{x}\\).\\n- Example: If \\(y = \\frac{10}{x}\\), when \\(x\\) doubles, \\(y\\) halves.\\n\\n### Combined Variation\\n- When a quantity is the sum of a directly varying part and an inversely varying part, the general form is:\\n  $$ y = a x + \\frac{b}{x} $$\\n- The constants \\(a\\) and \\(b\\) are determined from given pairs \\((x, y)\\).\\n- This form appears in many aptitude problems, such as Question 31.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 391
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "",
+    "topic": "Mixture Problems",
+    "content": "### Basic Principle\\n- When two substances are mixed, their quantities add up.\\n- If a mixture of ratio \\(a:b\\) is partially removed and replaced by a pure component, the new ratio can be found by:\\n  1. Computing the amount of each component in the removed portion (same ratio as the mixture).\\n  2. Subtracting those amounts from the original quantities.\\n  3. Adding the quantity of the pure component that replaces the removed portion.\\n- The final ratio is then the simplified ratio of the new amounts.\\n- This method is used in Question 34.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 391
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "",
+    "topic": "Age Problems",
+    "content": "### Solving Age Ratio Problems\\n- Let present ages be expressed in terms of a common multiplier, e.g., \\(A = m\\times x\\), \\(B = n\\times x\\).\\n- After a certain number of years \\(t\\), the ages become \\(A+t\\) and \\(B+t\\).\\n- Set up the ratio equation for the future ages and solve for \\(x\\).\\n- The difference between ages is \\(|A-B| = |m-n|\\times x\\).\\n- This technique solves Question 30.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 391
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "",
+    "topic": "Speed, Time and Distance",
+    "content": "### Relationship\\n- Speed \\(S\\), Time \\(T\\) and Distance \\(D\\) are related by:\\n  $$ D = S \\times T $$\\n- For a fixed distance, time is inversely proportional to speed:\\n  $$ T \\propto \\frac{1}{S} $$\\n- Hence, if speeds are in the ratio \\(S_1:S_2:S_3\\), the corresponding times are in the ratio \\(\\frac{1}{S_1}:\\frac{1}{S_2}:\\frac{1}{S_3}\\).\\n- This principle is applied in Question 29.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 391
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Applications of Ratio",
+    "topic": "Revenue Calculation from Ratios",
+    "content": "### Problem: Revenue from Two Classes\\n**Scenario:**\\n- Ratio of passengers (Class I : Class II) = $1 : 50$\\n- Ratio of fares (Class I : Class II) = $3 : 1$\\n- Total revenue collected = `1325\\n\\n**Method:**\\n1. Let the number of Class I passengers be $x$ and Class II be $50x$.\\n2. Let the fare for Class I be $3y$ and Class II be $y$.\\n3. Revenue from Class I = $x \\times 3y = 3xy$\\n4. Revenue from Class II = $50x \\times y = 50xy$\\n5. Total Revenue = $3xy + 50xy = 53xy = 1325$\\n6. Solve for $xy$: $xy = \\frac{1325}{53} = 25$\\n7. Amount collected from Class II = $50xy = 50 \\times 25 = 1250$\\n\\n**Key Concept:** Revenue is the product of the number of units (passengers) and the price per unit (fare). When both quantities are in ratio, the revenue ratio is the product of the individual ratios.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 392
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Variation",
+    "subchapter": "Inverse Variation",
+    "topic": "Inverse Square Variation",
+    "content": "### Concept: Inverse Variation\\nIf $x$ varies inversely as the square of $y$, the relationship is:\\n$$x \\propto \\frac{1}{y^2} \\implies x = \\frac{k}{y^2}$$\\nwhere $k$ is a constant.\\n\\n**Example Calculation:**\\nGiven $x=1$ when $y=6$:\\n$$1 = \\frac{k}{6^2} \\implies k = 36$$\\nSo, $x = \\frac{36}{y^2}$.\\n\\n**Verification:**\\n- If $y=3$, $x = \\frac{36}{3^2} = \\frac{36}{9} = 4$.\\n- If $y=6$, $x = \\frac{36}{6^2} = \\frac{36}{36} = 1$.\\n\\n**Key Fact:** In inverse square variation, if $y$ is halved, $x$ becomes 4 times larger.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 392
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Properties of Proportion",
+    "topic": "Componendo and Dividendo / Algebraic Properties",
+    "content": "### Property: Sum of Ratios\\nIf $\\frac{a}{b} = \\frac{c}{d} = \\frac{e}{f} = k$, then:\\n$$\\frac{a+c+e}{b+d+f} = k$$\\n\\n**Application:**\\nGiven $\\frac{a}{b} = \\frac{c}{d} = \\frac{e}{f} = \\frac{1}{2}$.\\nThen $\\frac{a+c+e}{b+d+f} = \\frac{1}{2}$.\\n\\n**Note on Squared Terms:**\\nIf $\\frac{a}{b} = \\frac{1}{2}$, then $a = \\frac{b}{2}$. It does **not** generally imply that $\\frac{a^2+c^2+e^2}{b^2+d^2+f^2} = \\frac{1}{2}$ unless specific conditions are met (e.g., all numerators and denominators are proportional in a way that preserves the ratio under squaring, which is true here since $a/b=1/2 \\implies a^2/b^2=1/4$, so the sum of squares ratio would be $1/4$, not $1/2$). \\n*Correction for Exam Context:* Often these questions test if the student knows that $\\frac{\\sum a^2}{\\sum b^2} = (\\frac{a}{b})^2$ if the ratios are equal. Here $(1/2)^2 = 1/4$. So Statement II ($\\frac{a^2+c^2+e^2}{b^2+d^2+f^2} = \\frac{1}{2}$) is **False**. Statement I is **True**.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 392
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Time, Speed and Distance",
+    "subchapter": "Relative Speed and Leaps",
+    "topic": "Ratio of Speeds based on Leaps",
+    "content": "### Problem: Cat and Dog Leaps\\n**Given:**\\n1. 5 leaps of Cat = 4 leaps of Dog (in time).\\n2. 3 leaps of Dog = 4 leaps of Cat (in distance).\\n\\n**Step 1: Find Ratio of Leap Lengths**\\nLet $L_c$ be length of cat's leap, $L_d$ be length of dog's leap.\\n$3 L_d = 4 L_c \\implies \\frac{L_c}{L_d} = \\frac{3}{4}$.\\n\\n**Step 2: Find Ratio of Speeds**\\nSpeed = (Number of Leaps per unit time) $\\times$ (Length of Leap).\\nLet time be $t$.\\n- Cat's leaps in time $t$: $5n$\\n- Dog's leaps in time $t$: $4n$\\n\\nSpeed of Cat ($S_c$) = $5n \\times L_c$\\nSpeed of Dog ($S_d$) = $4n \\times L_d$\\n\\nRatio $\\frac{S_c}{S_d} = \\frac{5n L_c}{4n L_d} = \\frac{5}{4} \\times \\frac{L_c}{L_d}$.\\nSubstitute $\\frac{L_c}{L_d} = \\frac{3}{4}$:\\n$\\frac{S_c}{S_d} = \\frac{5}{4} \\times \\frac{3}{4} = \\frac{15}{16}$.\\n\\n**Conclusion:**\\n- Ratio of speeds (Cat : Dog) = $15 : 16$.\\n- Since time is constant (30 min), Ratio of Distance = Ratio of Speeds = $15 : 16$.\\nBoth statements I and II are correct.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 392
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Set Theory / Venn Diagrams",
+    "subchapter": "Basic Set Operations",
+    "topic": "Calculating Ratios from Venn Diagram Data",
+    "content": "### Problem: Population Characteristics\\n**Given Data (Total = 100):**\\n- Having X and Y ($n(X \\cap Y)$) = 10\\n- Having X but not Y ($n(X - Y)$) = 30\\n- Having Y but not X ($n(Y - X)$) = 20\\n- Having neither = 40\\n\\n**Calculations:**\\n- Total having X ($n(X)$) = $n(X \\cap Y) + n(X - Y) = 10 + 30 = 40$.\\n- Total having Y ($n(Y)$) = $n(X \\cap Y) + n(Y - X) = 10 + 20 = 30$.\\n\\n**Ratio:**\\nRatio of people having X to people having Y = $n(X) : n(Y) = 40 : 30 = 4 : 3$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 392
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mixture and Alligation",
+    "subchapter": "Concentration Problems",
+    "topic": "Drying Process (Water Content)",
+    "content": "### Concept: Drying Grapes\\n**Principle:** The weight of the solid matter (non-water) remains constant during the drying process.\\n\\n**Formula:**\\n$$\\text{Weight}_{\\text{fresh}} \\times (1 - \\text{Water}_{\\%_{\\text{fresh}}}) = \\text{Weight}_{\\text{dry}} \\times (1 - \\text{Water}_{\\%_{\\text{dry}}})$$\\n\\n**Example:**\\n- Fresh grapes: 90% water $\\implies$ 10% solid.\\n- Dry grapes: 20% water $\\implies$ 80% solid.\\n- Fresh Weight = 20 kg.\\n\\n**Calculation:**\\nSolid in fresh = $20 \\times 0.10 = 2$ kg.\\nLet dry weight be $W$.\\nSolid in dry = $W \\times 0.80$.\\n$2 = 0.8 W \\implies W = \\frac{2}{0.8} = 2.5$ kg.\\n\\n*Note: The provided text cuts off the options, but the standard answer for 20kg fresh (90% water) to dry (20% water) is 2.5 kg.*",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 392
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Direct and Inverse Proportion",
+    "topic": "Speed and Time Relationship",
+    "content": "When speed (S) and time (T) are inversely proportional, the relationship is expressed as:\n\n```\nS ∝ 1/T   ⇔   S = k / T\n```\nwhere *k* is a constant of proportionality. Therefore, for two different scenarios, the ratio of speeds is the inverse of the ratio of times.\n\n**Example:**\nIf the times are 4 min, 3 min and 2 min, the corresponding speeds are in the ratio 1/4 : 1/3 : 1/2, which simplifies to 3 : 4 : 6.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 395
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "subchapter": "Linear Equations",
+    "topic": "Solving for Variables in Proportional Relationships",
+    "content": "For a relationship of the form:\n\n```\ny = (l·x + m) / (x + n)\n```\nwhere *l* and *m* are constants, the values of *l* and *m* can be found by substituting known pairs *(x, y)* and solving the resulting simultaneous equations.\n\n**Worked Example:**\nGiven:\n- When x = 4, y = 6 → 6 = (4l + m) / (4 + n)\n- When x = 3, y = 10/3 → 10/3 = (3l + m) / (3 + n)\nSolving the two equations yields l = 2 and m = –8, leading to the simplified expression:\n\n```\ny = (2x – 8) / x\n```",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 395
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "subchapter": "Quadratic Equations",
+    "topic": "Pythagorean Triples in Algebraic Form",
+    "content": "If three numbers are in the ratio 3x : 2x : 5x and they satisfy the Pythagorean theorem, then:\n\n```\n(3x)² + (2x)² = (5x)²\n9x² + 4x² = 25x²\n13x² = 25x²\n```\nSolving gives x = 7, and the actual numbers are 21, 14 and 35.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 395
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Income, Savings and Expenditure",
+    "topic": "Finding Income from Savings",
+    "content": "If a person's income (I) and saving (S) are related by:\n\n```\nI – S = Expenditure\n```\nand the saving amount is known, the income can be calculated by substituting the given values.\n\n**Example:**\nLet A’s income be 4x and B’s income be 3x. Both save ₹600 per month.\n\n```\n4x – 600 = Expenditure_A\n3x – 600 = Expenditure_B\n```\nEquating the two expenditures and solving gives x = 600, hence A’s income = 4x = ₹2400.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 395
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Sharing in a Given Ratio",
+    "topic": "Division of a Sum in a Given Ratio",
+    "content": "When a total amount is to be divided among persons A, B and C in the ratio a : b : c, each share is:\n\n```\nShare_A = (a / (a + b + c)) × Total\n```\n\n**Example:**\nGiven A : B : C = 1/5 : 1/6 : 1/10, the equivalent whole-number ratio is 6 : 5 : 3. If the total amount is ₹8400, then:\n\n```\nShare_A = (6 / (6+5+3)) × 8400 = (6/14) × 8400 = ₹3600\n```",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 395
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Partnership",
+    "topic": "Profit Sharing and Time of Joining",
+    "content": "### Partnership Profit Distribution\\n- **Formula**: Profit is shared in the ratio of (Capital × Time).\\n- **Scenario**: If partners join at different times, calculate the product of capital and duration for each.\\n- **Example Logic**:\\n  - Let P invest ₹25,250 for 12 months.\\n  - Let Q invest ₹12,000 for $x$ months.\\n  - Ratio of capitals = $(25250 \\times 12) : (12000 \\times x)$.\\n  - Simplify the ratio to find $x$ based on the given profit share.\\n  - If Q's profit share corresponds to a specific fraction of the total, solve for $x$ to determine when Q joined (e.g., if $x=9$, Q joined after $12-9=3$ months).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 396
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Percentage and Ratios",
+    "topic": "Change in Quantities",
+    "content": "### Percentage Increase in Ratios\\n- **Problem Type**: Finding the new ratio after individual components increase by different percentages.\\n- **Method**:\\n  1. Assume initial quantities as $ax, bx, cx$.\\n  2. Apply percentage increases: New Quantity = $Original \\times (1 + \\frac{\\%}{100})$.\\n  3. Form the new ratio and simplify.\\n- **Example**:\\n  - Initial seats: Math ($5x$), Physics ($7x$), Biology ($8x$).\\n  - Increases: 140%, 150%, 175% respectively.\\n  - New Math seats: $5x \\times \\frac{140}{100} = 7x$.\\n  - New Physics seats: $7x \\times \\frac{150}{100} = 10.5x$.\\n  - New Biology seats: $8x \\times \\frac{175}{100} = 14x$.\\n  - New Ratio: $7x : 10.5x : 14x \\Rightarrow 14 : 21 : 28 \\Rightarrow 2 : 3 : 4$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 396
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Linear Equations in Ratios",
+    "topic": "Finding Quantities from Total",
+    "content": "### Solving for Individual Quantities\\n- **Problem Type**: Given the ratio of two groups and the total sum, find the value of a specific group.\\n- **Method**:\\n  1. Let the quantities be $kx$ and $ky$.\\n  2. Set up the equation: $kx + ky = \\text{Total}$.\\n  3. Solve for $x$.\\n  4. Calculate the required quantity.\\n- **Example**:\\n  - Passengers Class I : Class II = $1 : 50$.\\n  - Fares: ₹3 for Class I, ₹50 for Class II.\\n  - Total collection: ₹1325.\\n  - Equation: $3x + 50(50x) = 1325 \\Rightarrow 3x + 2500x = 1325 \\Rightarrow 2503x = 1325$ (Note: The source text implies a simpler ratio or specific numbers, e.g., if ratio is 1:50 and fares are 3 and 50, the calculation in text yields $x=25$ for Class I passengers, implying the equation was likely $3x + 50(50x)$ is incorrect interpretation of text, text says $3x + 50x = 1325$? No, text says \"amount collected... 3*x and 50x\". Wait, text says \"50x respectively\" for passengers? No, \"x and 50x\". Then amount is \"3*x and 50x\"? This implies fare for class II is 1? Or passenger count is different. Let's stick to the text's result: $x=25$, Amount from Class II = $50 \\times 25 = 1250$. This implies the equation solved was likely $3x + 50x = 1325$ is wrong, maybe $3x + 50(50x)$? No, $53x = 1325 \\Rightarrow x=25$. This implies the coefficient sum is 53. So $3x + 50x = 53x$. This means the amount from Class II is $50x$. If passengers are $x$ and $50x$, and fares are 3 and 1? Or passengers are $x$ and $x$ and fares are 3 and 50? The text says \"passengers... x and 50x\" and \"amount... 3x and 50x\". This is contradictory unless fare for class II is 1. However, the calculation $53x=1325$ leads to $x=25$. Result: Amount from Class II = 1250.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 396
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Direct and Inverse Proportion",
+    "topic": "Proportionality Constants",
+    "content": "### Direct Proportionality\\n- **Definition**: If $x \\propto y^2$, then $x = k y^2$.\\n- **Finding Constant $k$**: Substitute known values of $x$ and $y$.\\n- **Application**:\\n  - Given $x=1, y=6 \\Rightarrow 1 = k(6^2) \\Rightarrow k = 1/36$.\\n  - Equation: $x = \\frac{y^2}{36}$.\\n  - **Verification**:\\n    - If $y=3, x = \\frac{9}{36} = \\frac{1}{4}$.\\n    - If $y=6, x = \\frac{36}{36} = 1$.\\n- **Note**: Always verify statements by substituting values into the derived equation.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 396
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Algebraic Ratios",
+    "topic": "Simplifying Complex Ratios",
+    "content": "### Algebraic Ratio Simplification\\n- **Given**: $\\frac{a}{b} = \\frac{c}{d} = \\frac{e}{f} = \\frac{1}{2}$.\\n- **Implication**: $a = \\frac{b}{2}, c = \\frac{d}{2}, e = \\frac{f}{2}$.\\n- **Expression I**: $\\frac{3a+5c+7e}{3b+5d+7f}$.\\n  - Substitute: $\\frac{3(b/2)+5(d/2)+7(f/2)}{3b+5d+7f} = \\frac{\\frac{1}{2}(3b+5d+7f)}{3b+5d+7f} = \\frac{1}{2}$.\\n  - Statement I claims it equals $\\frac{1}{2}$ (or similar). In the text, it evaluates to $\\frac{1}{2}$.\\n- **Expression II**: $\\frac{a^2+c^2+e^2}{b^2+d^2+f^2}$.\\n  - Substitute: $\\frac{(b/2)^2+(d/2)^2+(f/2)^2}{b^2+d^2+f^2} = \\frac{\\frac{1}{4}(b^2+d^2+f^2)}{b^2+d^2+f^2} = \\frac{1}{4}$.\\n  - Statement II claims it equals $\\frac{1}{4}$.\\n- **Conclusion**: Both statements are mathematically correct based on the substitution.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 396
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Ratio and Proportion",
+    "subchapter": "Speed, Distance and Time",
+    "topic": "Leaps and Ratios",
+    "content": "### Ratio of Speeds (Leaps)\\n- **Concept**: Speed is proportional to (Length of Leap × Number of Leaps per unit time).\\n- **Problem Type**: Comparing speeds of two entities based on their leap lengths and frequencies.\\n- **Method**:\\n  1. Establish the relationship between leap lengths (e.g., 4 cat leaps = 3 dog leaps \\Rightarrow 1 cat leap = $\\frac{3}{4}$ dog leap).\\n  2. Establish the frequency ratio (e.g., Cat takes 5 leaps for every 4 dog leaps).\\n  3. Calculate Speed Ratio: $\\frac{\\text{Cat Speed}}{\\text{Dog Speed}} = \\frac{\\text{Cat Leap Length} \\times \\text{Cat Frequency}}{\\text{Dog Leap Length} \\times \\text{Dog Frequency}}$.\\n  4. Substitute values: $\\frac{(3/4) \\times 5}{1 \\times 4} = \\frac{15/4}{4} = \\frac{15}{16}$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 396
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithm",
+    "subchapter": "Definition and Basic Concepts",
+    "topic": "Definition of Logarithm",
+    "content": "### Definition\nIf '$a$' is a positive real number (other than 1) and '$b$' is a rational number such that $a^b = N$, then we say that the logarithm of $N$ to base '$a$' is $b$.\n\n**Notation:**\n$$ \\log_a N = b $$\n\n**Equivalence:**\n$$ a^b = N \\iff \\log_a N = b $$\n\n**Examples:**\n1. $7^0 = 1 \\iff \\log_7 1 = 0$\n2. $81^{1/4} = 3 \\iff \\log_{81} 3 = 1/4$\n\n### Exam Relevance\n- Usually 2-3 questions are asked from this chapter in NDA/CDS/AFCAT.\n- Questions are generally based on fundamental rules of logarithms.\n- Used to solve complicated mathematical calculations.\n- Applications of square, cube, surds, and indices are frequently used.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 398
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithm",
+    "subchapter": "Fundamental Rules",
+    "topic": "Product Rule",
+    "content": "### Rule 1: Product Rule\nIf $m$ and $n$ are positive rational numbers, then:\n$$ \\log_a (mn) = \\log_a m + \\log_a n $$\n\n**Generalization:**\nIf $m_1, m_2, m_3, \\dots, m_n$ are positive rational numbers, then:\n$$ \\log_a (m_1 \\cdot m_2 \\cdot m_3 \\cdots m_n) = \\log_a m_1 + \\log_a m_2 + \\log_a m_3 + \\dots + \\log_a m_n $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 398
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Properties of Logarithms",
+    "topic": "Quotient Rule",
+    "content": "### Rule 2 (Quotient Rule)\\nIf **m** and **n** are positive rational numbers, then\\n\\n```\\nlog_a \\left( \\frac{m}{n} \\right) = log_a m - log_a n\\n```\\nThis rule allows the logarithm of a quotient to be expressed as the difference of the logarithms.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 399
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Properties of Logarithms",
+    "topic": "Reciprocal Rule",
+    "content": "### Rule 3 (Reciprocal Rule)\\nIf **m** and **n** are positive rational numbers, then\\n\\n```\\nlog_a \\left( \\frac{n}{m} \\right) = log_a n - log_a m\\n```\\nIt is essentially the same as the quotient rule, written with the numerator and denominator swapped.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 399
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Properties of Logarithms",
+    "topic": "Power Rule",
+    "content": "### Rule 4 (Power Rule)\\nIf **m** is a positive rational number and **a**, **b** are positive real numbers with \\(a \\neq 1\\) and \\(b \\neq 1\\), then\\n\\n```\\nlog_a (b^{m}) = m \\; log_a b\\n```\\nThe exponent can be brought in front of the logarithm.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 399
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Fundamental Results",
+    "topic": "Useful Results",
+    "content": "### Some Useful Results\\n\\n- **Logarithm of 1**: \\(\\log_a 1 = 0\\) for any valid base \\(a\\).\\n- **Logarithm of the base**: \\(\\log_a a = 1\\).\\n- **Monotonicity**:\\n  - If \\(a > 1\\), then \\(\\log_a x\\) is an **increasing** function of \\(x\\).\\n  - If \\(0 < a < 1\\), then \\(\\log_a x\\) is a **decreasing** function of \\(x\\).\\n- **Identity**: \\(\\log_a a^x = x\\) and \\(a^{\\log_a x} = x\\).\\n- **Change of Base** (not explicitly given but often used): \\(\\log_b x = \\dfrac{\\log_a x}{\\log_a b}\\).\\n\\nThese results are frequently employed to simplify logarithmic expressions and solve logarithmic equations.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 399
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Characteristic and Mantissa",
+    "topic": "Definition of Characteristic and Mantissa",
+    "content": "# Characteristic and Mantissa of a Logarithm\n\nA logarithm of a positive real number \\(n\\) can be written as:\n\n\\[\n\\log n = C + M\n\\]\n\nwhere:\n\n- **Characteristic (C)** – The integral part of the logarithm. It is always an integer (positive, negative or zero).\n- **Mantissa (M)** – The fractional part of the logarithm. It is always non‑negative and less than 1.\n\n## How to Find the Characteristic\n\n| Case | Condition | Formula for Characteristic | Example |\n|------|-----------|---------------------------|---------|\n| I | \\(n > 1\\) | \\(C = (\text{number of digits to the left of the decimal}) - 1\\) | \\(\\log 3.257 = 1 + 0.512\\) (Characteristic = 1) |\n| II | \\(n < 1\\) | \\(C = -(\text{number of zeros immediately after the decimal point} + 1)\\) | \\(\\log 0.0003257 = -3 + 0.512\\) (Characteristic = -3) |\n\n> **Note**: A bar over the characteristic indicates that it is negative.\n\n## Rules for Inserting the Decimal Point in the Mantissa\n\n1. **Rule 5** – If the characteristic is positive, insert the decimal point after the \\((C+1)^{\text{th}}\\) digit of the mantissa.\n2. **Rule 6** – If the characteristic is negative, insert the decimal point such that the first significant figure of the mantissa is at the \\(C^{\text{th}}\\) place.\n\n### Example 1\n\nFind the characteristic of \\(\\log 0.00000014\\).\n\n- Number of zeros after decimal before the first non‑zero digit = 6.\n- Characteristic \\(C = -(6+1) = -7\\).\n\n### Example 2\n\nFind the characteristic of \\(\\log 8.188\\).\n\n- Number of digits to the left of decimal = 1.\n- Characteristic \\(C = 1-1 = 0\\).\n\n---\n\n**Key Takeaways**\n- The characteristic tells you how many digits are to the left of the decimal in the original number (for \\(n>1\\)) or how many zeros follow the decimal before the first significant digit (for \\(n<1\\)).\n- The mantissa is always a fractional value between 0 and 1.\n- Rules 5 and 6 guide the placement of the decimal point in the mantissa based on the sign of the characteristic.\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 400
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Characteristic and Mantissa",
+    "topic": "Rules for Decimal Point Insertion",
+    "content": "# Rules for Inserting the Decimal Point in the Mantissa\n\n| Rule | Condition | Decimal Point Placement |\n|------|-----------|------------------------|\n| **Rule 5** | Characteristic \\(C > 0\\) | After the \\((C+1)^{\text{th}}\\) digit of the mantissa |\n| **Rule 6** | Characteristic \\(C < 0\\) | So that the first significant figure of the mantissa is at the \\(C^{\text{th}}\\) place |\n\n**Illustration**\n- For \\(\\log 3.257\\) (Characteristic = 1):\n  - Mantissa = 0.512.\n  - Decimal point after the 2nd digit (since \\(C+1 = 2\\)).\n- For \\(\\log 0.0003257\\) (Characteristic = -3):\n  - Mantissa = 0.512.\n  - Decimal point placed so that the first significant figure (5) is at the 3rd position after the decimal.\n\n---\n\n**Practical Tip**\n- When computing logarithms manually, first determine the characteristic using the rules above, then apply Rule 5 or Rule 6 to locate the decimal point in the mantissa.\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 400
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Properties and Applications",
+    "topic": "Change of Base and Logarithmic Equations",
+    "content": "1. **Change of Base Formula**: $\\log_b a = \\frac{\\log_c a}{\\log_c b}$. This is used to convert logarithms to a common base (usually 10 or e) for calculation.\\n2. **Logarithmic Identities**:\\n   - $\\log_b (xy) = \\log_b x + \\log_b y$\\n   - $\\log_b (x/y) = \\log_b x - \\log_b y$\\n   - $\\log_b (x^n) = n \\log_b x$\\n   - $\\log_b (b^x) = x$\\n   - $b^{\\log_b x} = x$\\n3. **Solving Logarithmic Equations**:\\n   - If $\\log_b x = c$, then $x = b^c$.\\n   - When bases are different, use the change of base formula to equate them.\\n   - For equations like $\\log_a x + \\log_b x = k$, convert to a common base or use substitution $t = \\log x$.\\n4. **Arithmetic Progression (AP) in Logarithms**:\\n   - If $\\log_a x, \\log_a y, \\log_a z$ are in AP, then $\\log_a x + \\log_a z = 2 \\log_a y$, which implies $xz = y^2$.\\n5. **Special Values**:\\n   - $\\log_{10} 10^n = n$\\n   - $\\log_{10} 10^{-n} = -n$\\n   - $\\log_b 1 = 0$\\n   - $\\log_b b = 1$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 402
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Properties and Applications",
+    "topic": "Infinite Series and Limits in Logarithms",
+    "content": "1. **Infinite Logarithmic Series**:\\n   - Series of the form $\\log_b (1 + \\frac{1}{n}) + \\log_b (1 + \\frac{1}{n+1}) + \\dots$ can often be simplified using the property $\\log_b x + \\log_b y = \\log_b (xy)$.\\n   - Example: $\\log_3 (1 + \\frac{1}{1}) + \\log_3 (1 + \\frac{1}{2}) + \\dots + \\log_3 (1 + \\frac{1}{n}) = \\log_3 ((1+1)(1+\\frac{1}{2})\\dots(1+\\frac{1}{n})) = \\log_3 (n+1)$.\\n2. **Limit Definition of e**:\\n   - $\\lim_{x \\to \\infty} (1 + \\frac{1}{x})^x = e$.\\n   - If $y = a^x (1 + \\frac{1}{x})^x$, taking logs: $\\log y = x \\log a + x \\log(1 + \\frac{1}{x})$. As $x \\to \\infty$, $x \\log(1 + \\frac{1}{x}) \\to 1$. Thus $\\log y = x \\log a + 1$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 402
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Properties and Identities",
+    "topic": "Basic Logarithm Identities",
+    "content": "### Basic Logarithm Identities\n\n- **Product Rule**: \\(\\log_b (MN) = \\log_b M + \\log_b N\\)\n- **Quotient Rule**: \\(\\log_b \\left(\\frac{M}{N}\\right) = \\log_b M - \\log_b N\\)\n- **Power Rule**: \\(\\log_b (M^k) = k\\,\\log_b M\\)\n- **Change‑of‑Base Formula**: \\(\\log_b A = \\dfrac{\\log_k A}{\\log_k b}\\) for any positive base \\(k\\neq 1\\).\n- **Reciprocal Relation**: \\(\\log_a b = \\dfrac{1}{\\log_b a}\\).\n- **Log of a Reciprocal**: \\(\\log_b \\left(\\frac{1}{M}\\right) = -\\log_b M\\).\n\nThese identities are used repeatedly to simplify logarithmic expressions and to solve equations involving logarithms.\n\n---\n\n### Solving Logarithmic Equations\n\nA typical approach:\n1. **Apply logarithm rules** to combine or separate terms.\n2. **Convert to a single logarithm** on each side if possible.\n3. **Exponentiate** to eliminate the logarithm (use the definition \\(\\log_b A = C \\iff b^C = A\\)).\n4. **Solve the resulting algebraic equation** for the unknown.\n\n**Example**: If \\(\\log_x y = \\frac{a}{b}\\) and \\(\\log_y x = \\frac{c}{d}\\), then multiplying the two equations gives \\(\\log_x y \\cdot \\log_y x = \\frac{ac}{bd}\\). Using the reciprocal relation \\(\\log_x y \\cdot \\log_y x = 1\\), we obtain \\(\\frac{ac}{bd}=1\\) → \\(ac = bd\\).\n\n---\n\n### Common Logarithmic Problems in NDA/CDS/AFCAT\n\n1. **Finding one logarithm in terms of others** using the change‑of‑base formula.\n2. **Evaluating expressions** like \\(\\log_p q\\) when \\(\\log_r p\\) and \\(\\log_r q\\) are given.\n3. **Solving systems of logarithmic equations** to obtain values of \\(\\log x\\) and \\(\\log y\\).\n4. **Summation of series involving logarithms** (e.g., \\(\\sum \\log\\) patterns).\n\nMastering these concepts and practicing the typical question patterns will greatly improve speed and accuracy in the exam.\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 404
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Logarithms",
+    "subchapter": "Applications",
+    "topic": "Change of Base and Reciprocal Relations",
+    "content": "### Change of Base\n\nGiven \\(\\log_r p = A\\) and \\(\\log_r q = B\\), the logarithm of \\(q\\) to the base \\(p\\) is:\n\n\\[\n\\log_p q = \\frac{\\log_r q}{\\log_r p} = \\frac{B}{A}\n\\]\n\n### Reciprocal Relation\n\n\\[\\log_p q = \\frac{1}{\\log_q p}\\]\n\nThese formulas are frequently used in competitive‑exam problems where two logarithms with a common base are provided and a third logarithm with a different base is required.\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 404
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Expressions",
+    "subchapter": "Basic Definitions",
+    "topic": "Algebraic Expression",
+    "content": "An **algebraic expression** is a combination of constants and variables connected by the four fundamental operations: addition (+), subtraction (-), multiplication (×), and division (÷).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 405
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Expressions",
+    "subchapter": "Polynomials",
+    "topic": "Definition of Polynomial",
+    "content": "A **polynomial** is an algebraic expression consisting of variables and coefficients, having **non-negative integral powers**.\n\n**Examples of Polynomials:**\n- $x^3 + x^2 - 5$\n- $3x^4 + 17x^3 + 2xy$\n\n**Non-Examples (Not Polynomials):**\n1. $3x^9 + \\frac{1}{x} - 7$: Not a polynomial because the term $\\frac{1}{x}$ (or $x^{-1}$) has a negative integral power.\n2. $5x^7 + \\frac{1}{2}x^{7/2} - 7$: Not a polynomial because the term $\\frac{1}{2}x^{7/2}$ contains a rational (non-integer) power of the variable.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 405
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Expressions",
+    "subchapter": "Polynomials",
+    "topic": "Degree of a Polynomial",
+    "content": "The **degree of a polynomial** is defined as the exponent of the highest degree term in the polynomial.\n\n**Examples:**\n1. $4x^9 - 7x^3 + 9x^2 + 3$: The highest power of $x$ is 9, so the degree is **9**.\n2. $4x^3y - 3x^2 + 12xy + 1$: The term $4x^3y$ has a total degree of $3+1=4$. Thus, the degree of the polynomial is **4**.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 405
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Expressions",
+    "subchapter": "Classification of Polynomials",
+    "topic": "Constant and Zero Polynomials",
+    "content": "Polynomials are classified based on their degree and number of terms.\n\n1. **Constant Polynomial**: A polynomial of degree zero. Example: $f(x) = 8$.\n2. **Zero Polynomial**: The polynomial $f(x) = 0$. Note: The degree of the zero polynomial is **not defined**.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 405
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "subchapter": "Exam Pattern",
+    "topic": "CDS Exam Trends",
+    "content": "In the CDS exam, generally 3-4 questions are asked from the chapter on Algebraic Operations. These questions are mostly based on **direct identities** and the **factor theorem**.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 405
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "subchapter": "Types of Polynomials",
+    "topic": "Linear Polynomial",
+    "content": "A **linear polynomial** is a polynomial of degree 1. Its general form is:\n\n```\nP(x) = ax + b\n```\nwhere `a` and `b` are real numbers and `a ≠ 0`. \n\n**Example**: `9x + 7` is a linear polynomial.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 406
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "subchapter": "Types of Polynomials",
+    "topic": "Quadratic Polynomial",
+    "content": "A **quadratic polynomial** is a polynomial of degree 2. Its general form is:\n\n```\nP(x) = ax^2 + bx + c\n```\nwhere `a`, `b`, and `c` are real numbers and `a ≠ 0`.\n\n**Examples**:\n- `x^2 + 2x + 7`\n- `-x^2 + 12x - 5`\n- `7x^2 - 4x + 2`",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 406
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "subchapter": "Types of Polynomials",
+    "topic": "Cubic Polynomial",
+    "content": "A **cubic polynomial** is a polynomial of degree 3. Its general form is:\n\n```\nP(x) = ax^3 + bx^2 + cx + d\n```\nwhere `a`, `b`, `c`, and `d` are real numbers and `a ≠ 0`.\n\n**Examples**:\n- `3x^3 + 2x^2 - 7x + 1`\n- `8y^3 + 5y^2 + 2y`\n- `x^3 - 8`",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 406
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "subchapter": "Types of Polynomials",
+    "topic": "Biquadratic Polynomial",
+    "content": "A **biquadratic polynomial** is a polynomial of degree 4. Its general form is:\n\n```\nP(x) = ax^4 + bx^3 + cx^2 + dx + e\n```\nwhere `a`, `b`, `c`, `d`, and `e` are real numbers and `a ≠ 0`.\n\n**Examples**:\n- `6x^4 + 3x^3 + 2x^2 + 2x + 4`\n- `x^4 - 8`",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 406
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "subchapter": "Polynomial Classification by Number of Terms",
+    "topic": "Monomial",
+    "content": "A **monomial** is a polynomial containing only one term.\n\n**Example**: `6x^2`",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 406
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "subchapter": "Polynomial Classification by Number of Terms",
+    "topic": "Binomial",
+    "content": "A **binomial** is a polynomial containing two terms.\n\n**Example**: `5x^7 + 3xy`",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 406
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "subchapter": "Polynomial Classification by Number of Terms",
+    "topic": "Trinomial",
+    "content": "A **trinomial** is a polynomial containing three terms.\n\n**Example**: `7x^5 + 6x^2 + y`",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 406
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebraic Operations",
+    "subchapter": "Factorisation",
+    "topic": "Factorisation of Polynomials",
+    "content": "Factorisation is the process of expressing a polynomial as the product of other polynomials of lower degree.\n\n**Example**:\n```\n49x^2 - 7x = 7x(7x - 1)\n```\n\n**Important Identities**:\n- `(a + b)(a - b) = a^2 - b^2`\n- `(a + b)^2 = a^2 + 2ab + b^2`\n- `(a - b)^2 = a^2 - 2ab + b^2`\n- `(a + b)(a + c) = a^2 + a(b + c) + bc`\n- `(a + b)(a - b) = a^2 - b^2`\n- `(a + b)(a + b + c) = a^2 + a(b + c) + b(b + c)`\n- `(a - b)(a - b - c) = a^2 - a(b + c) + b(b + c)`",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 406
   }
 ]
