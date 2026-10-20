@@ -139337,5 +139337,1027 @@
     },
     "source_pdf": "cds_material.pdf",
     "source_page": 277
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Constitutional Developments",
+    "subchapter": "Indian Councils Act, 1861",
+    "topic": "Provisions and Features",
+    "content": "### Indian Councils Act, 1861\n- **Enactment**: Passed by the British Parliament on 1st August 1861.\n- **Purpose**: To make substantial changes in the composition of the Governor-General's Council.\n- **Executive Council**: A fifth member, specifically a Finance Member, was added to the Executive Council of the Governor-General.\n- **Legislative Council Expansion**:\n  - The Governor-General’s Council was enlarged for legislative purposes.\n  - **Composition**: Between 6 and 12 additional members were to be nominated by the Governor-General.\n  - **Tenure**: Appointed for a period of 2 years.\n  - **Non-Official Representation**: At least half of the additional members were required to be non-officials (British or Indian).\n- **Functions**:\n  - The functions of the additional members were confined to legislative measures.\n  - The Council was exclusively for the consideration of legislative proposals placed before it by the Governor-General.\n- **Limitations on Legislative Power**:\n  - The Governor-General did not have effective legislative power in the sense that he retained veto power.\n  - **Veto Power**: Any bill related to public revenue or debt, military, religion, or foreign affairs could not be passed without the Governor-General’s assent.\n  - **Overruling Power**: The Viceroy (Governor-General) had the power to overrule the council if necessary.\n- **Ordinance Power**: The Governor-General had the power to promulgate ordinances without the council’s concurrence during emergencies.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 278
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Constitutional Developments",
+    "subchapter": "Constituent Assembly",
+    "topic": "Objectives Resolution",
+    "content": "### Objectives Resolution\n- **Significance**: The Objectives Resolution inspired the shaping of the Constitution through all its subsequent stages.\n- **Nature**: It was not just a resolution, but a declaration, a firm resolve, and a pledge.\n- **Philosophy**: It provided the underlying philosophy of the Indian Constitution.\n- **Origin**: Moved by Jawaharlal Nehru (Note: Text cuts off at 'Jawah', but historical fact confirms it was moved by Jawaharlal Nehru on 13th December 1946).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 278
+  },
+  {
+    "id": "chem-001",
+    "subject": "Chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "topic": "Chemical Equations",
+    "text": "<p>A chemical equation is the symbolic representation of a chemical reaction in the form of symbols and formulae, wherein the reactant entities are given on the left-hand side and the product entities on the right-hand side.</p><p><strong>Example:</strong> Magnesium ribbon burning in oxygen to form magnesium oxide.</p><ul><li>Magnesium + Oxygen -> Magnesium Oxide</li><li>Mg + O2 -> MgO</li></ul><p>The above equation is an <strong>unbalanced chemical equation</strong> because the number of atoms of each element is not equal on both sides.</p><p><strong>Balanced Chemical Equation:</strong> A chemical equation in which the number of atoms of each element is equal on both sides of the equation.</p><ul><li>2Mg + O2 -> 2MgO</li></ul>",
+    "formulas": [
+      "Mg + O2 -> MgO",
+      "2Mg + O2 -> 2MgO"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a magnesium ribbon being held by tongs and burning in a flame, producing a bright white light and forming a white powder (magnesium oxide) which is collected in a watch glass."
+    ],
+    "details": {
+      "summary": "Introduction to chemical equations, the difference between word equations and symbolic equations, and the necessity of balancing chemical equations based on the law of conservation of mass."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 285
+  },
+  {
+    "id": "math-cover-001",
+    "subject": "Mathematics",
+    "chapter": "Cover Page",
+    "topic": "Mathematics Section",
+    "text": "<p>This is the cover page for the Mathematics section of the study material.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A silhouette of a soldier in a kneeling firing position, holding a rifle with a scope, positioned above the word 'MATHEMATICS'."
+    ],
+    "details": {
+      "summary": "Cover page for Mathematics section."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 286
+  },
+  {
+    "id": "trend-analysis-2014-2016",
+    "subject": "Mathematics",
+    "chapter": "Trend Analysis",
+    "topic": "Exam Weightage Distribution",
+    "text": "<p>This table provides a <strong>Trend Analysis</strong> of Mathematics chapters for the years 2014 to 2016, detailing the number of questions asked per chapter in various exam sessions.</p>",
+    "formulas": [],
+    "tables": [
+      "| S.No. | Chapter Name | 2016 (I) | 2015 (II) | 2015 (I) | 2014 (II) |\n|---|---|---|---|---|---|\n| 1 | Number System | 11 | 10 | 12 | 13 |\n| 2 | HCF and LCM of Numbers | 4 | 3 | 4 | 4 |\n| 3 | Decimal Fractions | - | 1 | 1 | - |\n| 4 | Square Roots and Cube Roots | 2 | 1 | 2 | 1 |\n| 5 | Time and Distance | 7 | 10 | 7 | 5 |\n| 6 | Time and Work | 1 | 6 | 1 | 4 |\n| 7 | Percentage | 2 | 4 | 2 | 2 |\n| 8 | Simple Interest | 1 | - | 2 | 1 |\n| 9 | Compound Interest | - | 1 | 2 | 1 |\n| 10 | Profit and Loss | 1 | 1 | - | 1 |\n| 11 | Ratio and Proportion | 2 | 3 | 2 | 1 |\n| 12 | Logarithm | 1 | - | - | - |\n| 13 | Basic Operations and Factorisation | 11 | 5 | 5 | 1 |\n| 14 | HCF and LCM of Polynomials | 4 | 3 | 4 | 4 |\n| 15 | Rational Expressions | - | - | - | 1 |\n| 16 | Linear Equations | 1 | 1 | 1 | 1 |\n| 17 | Quadratic Equations and Inequations | 7 | 4 | 1 | 9 |\n| 18 | Set Theory | - | 1 | 1 | - |\n| 19 | Measurement of Angles and Trigonometric Ratio | 8 | 11 | 12 | 11 |\n| 20 | Height and Distances | 2 | 2 | 4 | 1 |\n| 21 | Lines Angles | 3 | - | 1 | - |\n| 22 | Triangles | 12 | 2 | 3 | 7 |\n| 23 | Quadrilateral and Polygon | 3 | 5 | 4 | 4 |\n| 24 | Circle | 7 | 4 | 5 | 6 |\n| 25 | Locus | - | - | - | - |\n| 26 | Area and Perimeter of Plane Figures | 4 | 6 | 11 | 4 |\n| 27 | Surface Area and Volume of Solids | - | 11 | 8 | 11 |\n| 28 | Statistics | 6 | 5 | 5 | 7 |\n| | <strong>Total</strong> | <strong>100</strong> | <strong>100</strong> | <strong>100</strong> | <strong>100</strong> |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A comprehensive breakdown of question distribution across 28 mathematical chapters for NDA/CDS/AFCAT exam preparation based on 2014-2016 data."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 287
+  },
+  {
+    "id": "NS-001",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Types of Numbers",
+    "text": "<p>Numbers are collection of certain symbols or figures called digits. The common number system in use is decimal number system. In this system, we use ten symbols each representing a digit. These are 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. A combination of these figures representing a number is called a numeral.</p><h3>Types of Numbers</h3><ul><li><strong>Natural numbers:</strong> Numbers which are used for counting i.e. 1, 2, 3, 4, ... are called natural numbers. The set of natural numbers is denoted by 'N'. Smallest natural number is 1 but we cannot find the largest natural number as successor of every natural number is again a natural number.</li><li><strong>Whole numbers:</strong> Natural numbers including zero are known as whole numbers. The set of whole numbers is denoted by W. <ul><li>Every natural number is a whole number.</li><li>Zero (0) is the only whole number which is not a natural number.</li></ul></li><li><strong>Even numbers:</strong> The numbers which are divisible by 2 are called as even numbers. e.g 2, 4, 6, 8, 10, ... . In general, these are represented by 2m, where m ∈ N.</li><li><strong>Odd numbers:</strong> The number which are not divisible by 2 are called as odd numbers. e.g. 1, 3, 5, 7, 9, ... . In general, these are represented by (2m - 1), where m ∈ N.</li><li><strong>Prime numbers:</strong> Those numbers which are divisible by 1 and the number itself are known as prime numbers. e.g. 2, 3, 5, 7,..., etc. are prime numbers. <ul><li>If a number is not divisible by any of the prime numbers upto square root of that number, then it is a prime number.</li><li>2 is the only even number which is prime.</li><li>The prime numbers upto 100 are : 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 and 97 i.e. there are 25 prime numbers upto 100.</li></ul></li></ul>",
+    "formulas": [
+      "Even numbers = 2m, where m ∈ N",
+      "Odd numbers = (2m - 1), where m ∈ N"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to the Number System, defining digits, numerals, and classifying numbers into Natural, Whole, Even, Odd, and Prime categories."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 288
+  },
+  {
+    "id": "CDS-PATH-001",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Coprime, Composite, and Integers",
+    "text": "<p><strong>6. Coprime numbers:</strong> Two natural numbers x and y are said to be coprime, if they do not have any common divisor other than 1. e.g. (9, 2), (5, 6), (11, 15) are the pairs of coprime numbers.</p><ul><li>If x and y are any two coprimes, a number p is divisible by x as well as by y, then the number is also divisible by xy.</li><li>Coprime are also called as relatively prime numbers.</li><li><strong>Twin primes:</strong> Twin primes are pair of primes which differ by 2. e.g. (3, 5), (7, 9), (11, 13) etc.</li></ul><p><strong>7. Composite numbers:</strong> A composite number is any number greater than one that is not a prime number. e.g. 4, 6, 8, 9, ... all are composite numbers. '1' is neither prime nor composite.</p><p><strong>INTEGERS:</strong> The collection of positive numbers, negative numbers and zero are called integers. The set of integers is denoted by Z or I. Thus, Z or I = {..., -4, -3, -2, -1, 0, 1, 2, 3, 4, ...} is the set of integers. Every natural number, whole number and integer is a part of integer. So, N ⊂ W ⊂ I.</p><p><strong>Types of Integers:</strong> Integers are of three types: (i) Positive Integers: It is a set of all positive numbers. It is denoted by I+, I+ = {1, 2, 3, 4, ...}. (ii) Negative Integers: It is a set of all negative numbers. It is denoted by I-, I- = {..., -3, -2, -1}. (iii) Non-negative Integers: An integer that is either 0 or positive is called non-negative integer. {0, 1, 2, 3, ...}. Note: '0' is neither positive nor negative.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties of coprime numbers, twin primes, composite numbers, and integers."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "CDS-PATH-002",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Rational and Irrational Numbers",
+    "text": "<p><strong>RATIONAL NUMBERS:</strong> The numbers which are expressed in the form p/q where p and q are coprimes, q ≠ 0 are called rational numbers. The set of rational numbers is represented by 'Q'. e.g. 3/5, -3/7, -6 are rational numbers.</p><ul><li>The decimal expansion of every rational number is either terminating or non-terminating repeating. e.g. 1/5 = 0.2, 1/3 = 0.333..., 8/44 = 0.181818... etc.</li><li>The recurring decimal have been given a short notation as 0.3333 = 0.3, 0.181818 = 0.18.</li></ul><p>Note: Zero is a rational number, since we can write 0 = 0/1. Every natural number, whole number and integer is a rational number.</p><p><strong>IRRATIONAL NUMBERS:</strong> The number which cannot be expressed in the form p/q, where p and q both are integers and q ≠ 0 are known as irrational numbers. The irrational numbers when expressed in decimal form are in non-terminating and non-repeating form. e.g. √2, √5, √7, 0.101005001, etc.</p><ul><li>Here, it is notable that exact value of π is not 22/7 or 3.14, as 22/7 is a rational number while π is irrational.</li></ul><p><strong>IMPORTANT FACTS:</strong></p><ol><li>If a + √b = x + √y, where a and x are rational and √b and √y are irrational, then a = x and b = y.</li><li>The sum or difference of a rational and an irrational number is irrational number.</li><li>The product of rational and irrational number is also an irrational number.</li><li>If we add, subtract, multiply or divide two irrational numbers, we may get an irrational number or rational number.</li></ol>",
+    "formulas": [
+      "p/q",
+      "a + √b = x + √y"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties of rational and irrational numbers, including important facts for calculations."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "math-ns-001",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Real Numbers",
+    "text": "<h3>REAL NUMBERS</h3><p>The collection of all rational and all irrational numbers together forms the set of real numbers and is denoted by 'R'. Thus, all natural numbers, whole numbers, integers, rational and irrational numbers are real numbers.</p><h4>Properties of Real Numbers</h4><p>General Properties of R:</p><ul><li>If x and y are two real numbers, then either x > y, y > x or x = y.</li><li>If x and y are two real numbers, then (i) x > y => 1/x < 1/y (ii) x > y => -x < -y (iii) x > y => x + a > y + a (iv) x > y => xa > ya, when a > 0</li><li>If xy = 0 => x = 0 or y = 0</li></ul><h4>Properties of operations on R</h4><p>Let '*' be any operation defined on R.</p><ul><li><strong>Closure Property:</strong> If a ∈ R and b ∈ R, then a * b ∈ R.</li><li><strong>Associative Property:</strong> If a, b, c ∈ R, then a * (b * c) = (a * b) * c.</li><li><strong>Commutative Property:</strong> If a, b ∈ R, then a * b = b * a.</li><li><strong>Identity:</strong> Let 'I' be the identity, then I * a = a * I = a ∀ a ∈ R.</li><li><strong>Inverse:</strong> Let a' be the inverse of a, then a' * a = a * a' = I ∀ a ∈ R.</li></ul><p>The above properties hold for addition and multiplication on R. The additive identity of R is 0 and additive inverse of a ∈ R is -a. The multiplicative identity of R is 1 and multiplicative inverse of a ∈ R is 1/a. R is closed for subtraction, if a, b ∈ R, then a - b ∈ R. If a, b, c ∈ R, then a * (b + c) = (a * b) + (a * c), is the distributive property on R.</p><h4>Absolute Value of a Real Number</h4><p>The absolute value of a real number x is denoted by |x|. Thus, |3| = 3 and |-4| = 4. If x is any real number, then |x| = x, when x > 0; 0, when x = 0; -x, when x < 0. e.g. If x = 5, |5| = 5, if x = 0, |0| = 0. If x = -5, |-5| = -(-5) = 5. |x - 2| = x - 2, if x > 2, |x - 2| = 0, if x = 2, |x - 2| = 2 - x, if x < 2.</p><h4>Some Properties of Absolute Values</h4><ul><li>|x| ≥ 0 for all real x.</li><li>|x| = a means x = a or x = -a</li><li>|x| > a means x > a or x < -a</li><li>If n = x^2; √n = √x^2 = |x| = x, if x > 0 = -x, if x < 0</li></ul>",
+    "formulas": [
+      "x > y => 1/x < 1/y",
+      "x > y => -x < -y",
+      "x > y => x + a > y + a",
+      "x > y => xa > ya, when a > 0",
+      "xy = 0 => x = 0 or y = 0",
+      "a * (b * c) = (a * b) * c",
+      "a * b = b * a",
+      "I * a = a * I = a",
+      "a' * a = a * a' = I",
+      "a * (b + c) = (a * b) + (a * c)",
+      "|x| = {x, if x > 0; 0, if x = 0; -x, if x < 0}",
+      "|x| = a => x = a or x = -a",
+      "|x| > a => x > a or x < -a",
+      "√n = √x^2 = |x|"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers definitions and properties of real numbers, operations on real numbers, and absolute value properties."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 290
+  },
+  {
+    "id": "math-ns-002",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Factors in Set of Integers",
+    "text": "<h3>FACTORS IN SET OF INTEGERS</h3><p>Let a, b ∈ I, we say that a is a factor of b, if there exists an integer p such that b = ap; in short we write a | b read it 'a' divides 'b'. If a is factor of b, then b is called a multiple of a.</p><h4>Properties of factor and multiples</h4><p>For real numbers a and b, if b = ac then 'a' is a factor of 'b' and we write a | b.</p><ul><li>(i) a | b, b | c => a | c (This law is known as transitivity)</li><li>(ii) a | a, ∀ a ∈ R (This law is known as reflexivity)</li><li>(iii) a | b and a | c => a | b + c and a | b - c</li><li>(iv) If p is prime number and p divides ab where a, b are integers, then p divides 'a' or p divides 'b'. Thus p | ab => p | a or p | b.</li></ul>",
+    "formulas": [
+      "b = ap",
+      "a | b",
+      "b = ac",
+      "a | b, b | c => a | c",
+      "a | a",
+      "a | b and a | c => a | b + c and a | b - c",
+      "p | ab => p | a or p | b"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Defines factors, multiples, and their properties in the set of integers."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 290
+  },
+  {
+    "id": "math-num-sys-001",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Unit's Place Digit",
+    "text": "<p><strong>To find the Unit's Place Digit of a given Expression</strong></p><p><strong>When Number is in the form of Product:</strong> To find the unit digit in the product of two or more numbers, take the unit digit of every number and then multiply them. The unit digit of the resultant product is the unit digit of the original numbers.</p><p><strong>When Number is in the form of Index:</strong> Let the exponential number be of the form a^n where n is an integer.</p><ul><li>If a is any of (0, 1, 5, 6), the unit's place digit is 0, 1, 5, and 6 respectively.</li><li>If a is any of (4 and 9):<ul><li>If power is odd, unit's place digit is 4 and 9 respectively.</li><li>If power is even, unit's place digit is 6 and 1 respectively.</li></ul></li><li>If a is any of (2, 3, 7, 8):<ul><li>Step I: Divide the exponent of a by 4.</li><li>Step II: If a remainder comes, put it as the power of a and get the result.</li><li>Step III: If no remainder comes, put 4 as the power of a and get the result.</li></ul></li></ul>",
+    "formulas": [
+      "a^n",
+      "7^402 + 3^402"
+    ],
+    "tables": [
+      "| Divisor | Condition with Example |\n|---|---|\n| 2 | If the unit place of a number is '0' or divisible by 2 i.e. unit place is even. e.g. 17980, 314782, 6148, 316 etc. |\n| 3 | If the sum of the digits of the given number is divisible by 3. e.g. 24375, here 2 + 4 + 3 + 7 + 5 = 21 / 3 = 7. Hence, 24375 is divisible by 3. |\n| 4 | If last two digits of number is divisible by 4. e.g. 589372, 72 is divisible by 4. Hence, 589372 is also divisible by 4. |\n| 5 | If digit at unit place is 5 or 0. e.g. 895, 700 etc. |\n| 6 | If given number is divisible by both 2 and 3. e.g. 759312. Here the last digit is divisible by 2. And (7 + 5 + 9 + 3 + 1 + 2) = 27, is divisible by 3. Hence, 759312 is divisible by 6. |\n| 7 | If twice the number at units place is subtracted from rest of the digits and the remainder is divisible by 7. e.g. (a) 875 = 87 - 2(3) = 87 - 6 = 77 / 7 = 11. Hence, 875 is divisible by 7. (b) 5103 = 510 - 2(3) = 510 - 6 = 504 / 7 = 72. Hence, 5103 is divisible by 7. Note: Trick is applicable for number greater than 99. |\n| 8 | If last three digits are divisible by 8. e.g. (a) 96432 -> 432 / 8 = 54 (b) 16000 -> 000 / 8 = 0 |\n| 9 | If sum of all the digits are divisible by 9. e.g. 317349 -> (3 + 1 + 7 + 3 + 4 + 9) = 27 / 9 = 3. Hence, 317349 is divisible by 9. |\n| 10 | If last digit of a number is '0'. e.g. 130, 36980, etc. |\n| 11 | If the difference between sum of digits at even places and sum of digits at odd places is divisible by 11. e.g. 10615. Sum of digits at odd place = 1 + 6 + 5 = 12. Sum of digits at even place = 0 + 1 = 1. Difference = 12 - 1 = 11 / 11 = 1. So, 10615 is divisible by 11. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers rules for finding unit digits of products and powers, and provides a comprehensive divisibility test table for divisors 2 through 11."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 291
+  },
+  {
+    "id": "math-num-sys-002",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Division Algorithm",
+    "text": "<p><strong>DIVISION ON NUMBERS (DIVISION ALGORITHM)</strong></p><p>Let 'a' and 'b' be two integers such that b != 0. On dividing 'a' by 'b', 'q' will be the quotient and 'r' will be the remainder, then the relationship between a, b, q and r is a = bq + r, where 0 <= r < b. In general, we have: Dividend = Divisor * Quotient + Remainder</p>",
+    "formulas": [
+      "a = bq + r",
+      "Dividend = Divisor * Quotient + Remainder"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Defines the fundamental division algorithm relationship between dividend, divisor, quotient, and remainder."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 291
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "Divisibility Rules",
+    "topic": "Important Results on Division",
+    "content": "### Some Important Results on Division\n\n1. If $p$ divides $q$ and $r$, then $p$ also divides their sum ($q+r$) and difference ($q-r$).\n2. For any natural number $n$, $(n^3 - n)$ is divisible by 6.\n3. The product of three consecutive natural numbers is always divisible by 6.\n4. $(x^m - a^m)$ is divisible by $(x + a)$ for **even** values of $m$.\n5. $(x^m + a^m)$ is divisible by $(x + a)$ for **odd** values of $m$.\n6. $(x^m - a^m)$ is divisible by $(x - a)$ for **all** values of $m$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 292
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Arithmetic",
+    "subchapter": "Shortcut Methods",
+    "topic": "Multiplication by 9, 99, etc.",
+    "content": "### Shortcut Method: Multiplication by 9, 99, 999, etc.\n\n**Method:**\n1. Place as many zeros at the right of the multiplicand as there are nines in the multiplier.\n2. Subtract the original multiplicand from the number formed in step 1.\n\n**Examples:**\n1. Multiply 8886 by 9999:\n   $$8886 \\times 9999 = 88860000 - 8886 = 88851114$$\n\n2. Multiply 56985 by 999:\n   $$56985 \\times 999 = 56985000 - 56985 = 56928015$$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 292
+  },
+  {
+    "id": "CDS_PATH_SIMP_001",
+    "subject": "Mathematics",
+    "chapter": "Simplification",
+    "topic": "VBODMAS Rule",
+    "text": "<p>The word simplification refers to a procedure of converting a complex arithmetical expression into a simple expression.</p><p>For simplifying an expression, follow the rule <strong>'VBODMAS'</strong>. The letter of word means:</p><ul><li><strong>V</strong> — Under line portion i.e. bar</li><li><strong>B</strong> — Brackets</li><li><strong>O</strong> — Orders or powers</li><li><strong>D</strong> — Division</li><li><strong>M</strong> — Multiplication</li><li><strong>A</strong> — Addition</li><li><strong>S</strong> — Subtraction</li></ul><p>The operations have to be carried out in the order, in which they appear in the word VBODMAS. The order of brackets to be simplified is (), {}, [ ].</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of the VBODMAS rule for mathematical simplification."
+    },
+    "mcq": {
+      "question": "Simply the following expression 52 - 4 of (17 - 12) + 4 x 7",
+      "options": [
+        "38",
+        "85",
+        "60",
+        "72"
+      ],
+      "correct": 2,
+      "explanation": "52 - 4 of (17 - 12) + 4 x 7 = 52 - 4 of 5 + 4 x 7 = 52 - 20 + 4 x 7 = 52 - 20 + 28 = 32 + 28 = 60"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 293
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "Composite Numbers",
+    "topic": "Product of Composite Numbers",
+    "content": "### Product of Composite Numbers\\n- A **composite number** is an integer greater than 1 that has at least one divisor other than 1 and itself.\\n- If \\(x\\) and \\(y\\) are composite, then their product \\(xy\\) is also composite because \\(x = a\\cdot b\\) and \\(y = c\\cdot d\\) with \\(a,b,c,d > 1\\). Hence \\(xy = (a\\cdot c)(b\\cdot d)\\) has a non‑trivial factorisation.\\n- **Important:** Adding or subtracting 1 from \\(xy\\) does **not** guarantee compositeness. For example, \\(4\\times 9 = 36\\) (composite) but \\(36+1 = 37\\) is prime.\\n\\n**Key takeaway:** Only the direct product of two composite integers is guaranteed to be composite.\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 296
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "Divisibility Rules",
+    "topic": "Divisibility by 6 for Three Consecutive Integers",
+    "content": "### Product of Three Consecutive Integers\\n- Let the three consecutive integers be \\(n, n+1, n+2\\).\\n- Among any three consecutive numbers, one is divisible by 2 (even) and one is divisible by 3.\\n- Therefore, \\(n(n+1)(n+2)\\) is always divisible by \\(2\\times 3 = 6\\).\\n\\n**Proof Sketch:**\\n1. If \\(n\\) is even, then \\(2\\mid n\\). Otherwise, either \\(n+1\\) or \\(n+2\\) is even.\\n2. Exactly one of \\(n, n+1, n+2\\) is a multiple of 3.\\n3. Hence the product contains factors 2 and 3, making it a multiple of 6.\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 296
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "Modular Arithmetic",
+    "topic": "Representation of Integers Modulo 3",
+    "content": "### Integer Forms Modulo 3\\n- Every integer \\(m\\) can be expressed uniquely as one of:\\n  - \\(3k\\)   (remainder 0)\\n  - \\(3k+1\\) (remainder 1)\\n  - \\(3k+2\\) (remainder 2)\\n- Here \\(k\\) is an integer (possibly negative).\\n- This follows from the Division Algorithm: for any integer \\(m\\) and positive divisor \\(3\\), there exist unique integers \\(q\\) and \\(r\\) such that \\(m = 3q + r\\) with \\(0 \\le r < 3\\).\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 296
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "Divisibility Rules",
+    "topic": "Divisibility by 2 Using the Last Digit",
+    "content": "### Divisibility by 2\\n- A natural number is divisible by 2 **iff** its last (units) digit is even.\\n- Even digits: **0, 2, 4, 6, 8**.\\n- Therefore:\\n  - Statement I (\"last digit is divisible by 2\") is true because a digit divisible by 2 is exactly an even digit.\\n  - Statement II (\"last digit is either zero or 2\") is **false** – it omits 4, 6, 8.\\n  - Statement III (\"last digit is even\") is true.\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 296
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "Divisibility Properties",
+    "topic": "Transitive Property of Divisibility",
+    "content": "### Transitive Property\\n- If \\(a\\) divides \\(b\\) (written \\(a\\mid b\\)) and \\(b\\) divides \\(c\\), then \\(a\\) divides \\(c\\).\\n- Reason: \\(b = a\\cdot k\\) and \\(c = b\\cdot l = a\\cdot(k\\cdot l)\\); thus \\(a\\mid c\\).\\n\\n### Factor of Sum and Difference\\n- If \\(a\\mid b\\) and \\(a\\mid c\\), then \\(a\\mid (b + c)\\) and \\(a\\mid (b - c)\\).\\n- Proof: Write \\(b = a\\cdot m\\) and \\(c = a\\cdot n\\). Then\\n  - \\(b + c = a(m + n)\\)\\n  - \\(b - c = a(m - n)\\)\\n- Hence \\(a\\) is a common factor of both the sum and the difference.\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 296
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Theory",
+    "subchapter": "Set Theory & Closure",
+    "topic": "Closure Under Multiplication",
+    "content": "### Closure Property\\n- A set \\(S\\) is **closed under multiplication** if for any \\(a, b \\in S\\), the product \\(ab\\) is also in \\(S\\).\\n- **Positive powers of 2:** \\(\\{2, 2^2, 2^3, \\dots\\}\\). The product of any two powers, \\(2^m \\cdot 2^n = 2^{m+n}\\), is again a positive power of 2 ⇒ the set is closed.\\n- **Set \\(\\{1, 0, -1\\}\\):** Multiplying any two elements yields another element of the set (e.g., \\(1\\cdot -1 = -1\\), \\(0\\cdot 1 = 0\\)). Hence it is also closed under multiplication.\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 296
+  },
+  {
+    "id": "seq_series_001",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Definitions of Sequence, Series, and Progression",
+    "text": "<p><strong>Sequence:</strong> A set of numbers arranged in a definite order according to some definite rule is called a sequence. e.g., 2, 4, 6, 8, ... is a sequence.</p><p><strong>Series:</strong> If a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ..., a<sub>n</sub> is a sequence, then the expression a<sub>1</sub> + a<sub>2</sub> + a<sub>3</sub> + ... + a<sub>n</sub> is called the series. The series is said to be finite or infinite depending upon the last term is given or not.</p><ul><li>(i) a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ..., a<sub>n</sub> is a finite sequence and is denoted by {a<sub>k</sub>}<sub>k=1</sub><sup>n</sup>.</li><li>(ii) a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, a<sub>4</sub>, ... is an infinite sequence and is denoted by {a<sub>n</sub>}<sub>n=1</sub><sup>∞</sup> or simply {a<sub>n</sub>}.</li></ul><p>Here, a<sub>1</sub> is called the first term and in case of finite sequence a<sub>n</sub> is called the last term. e.g., 2, 4, 6, 8, ..., 100 is a finite sequence. 1, 2, 3, 4, ... is an infinite sequence.</p><p><strong>Progression:</strong> Sequence following certain patterns are called progressions. e.g., 2, 3, 4, 5, ... is a progression, here each term is increasing by 1.</p><p><strong>Arithmetical Progression (AP):</strong> An arithmetic progression is a sequence in which the difference between any term and its preceding term is constant throughout. The constant 'd' is called the common difference. The first term of an AP is represented by 'a'.</p>",
+    "formulas": [
+      "{a_k}_{k=1}^n",
+      "{a_n}_{n=1}^∞"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to basic definitions of sequences, series, finite/infinite series, progressions, and the definition of Arithmetical Progression (AP)."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 305
+  },
+  {
+    "id": "math-seq-series-001",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Arithmetic Progression (AP)",
+    "text": "<p>If an AP has first term <strong>a</strong> and common difference <strong>d</strong>, then the general form of an AP is <strong>a, a+d, a+2d, a+3d, ..., a+(n-1)d</strong>.</p><ul><li><em>nth</em> term of an AP is <strong>T_n = a+(n-1)d</strong>.</li><li>Sum of the first <em>n</em> terms of an AP is <strong>S_n = n/2 [2a+(n-1)d]</strong> or <strong>S_n = n/2 [a+l]</strong>, where <strong>l</strong> = last term.</li></ul>",
+    "formulas": [
+      "T_n = a+(n-1)d",
+      "S_n = n/2 [2a+(n-1)d]",
+      "S_n = n/2 [a+l]"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and formulas for Arithmetic Progression."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 306
+  },
+  {
+    "id": "math-seq-series-002",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Arithmetic Mean (AM)",
+    "text": "<p>When three terms are in AP, then the middle term is called arithmetic mean of the other two. If <strong>a, b</strong> and <strong>c</strong> are in AP, then <strong>b</strong> is AM of <strong>a</strong> and <strong>c</strong>. Let <strong>a</strong> and <strong>b</strong> be two numbers and <strong>M</strong> be the AM between them. Then, <strong>a, M, b</strong> are in AP, <strong>M = (a+b)/2</strong>.</p>",
+    "formulas": [
+      "M = (a+b)/2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and formula for Arithmetic Mean."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 306
+  },
+  {
+    "id": "math-seq-series-003",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Geometric Progression (GP)",
+    "text": "<p>A geometric progression is a progression of numbers, whose first term is non-zero and each of the term is obtained by multiplying its preceding term by a constant quantity. This constant quantity is called the common ratio of the GP.</p><p>Thus, if <strong>t_1, t_2</strong> and <strong>t_3</strong> are in GP, then common ratio <strong>r = Second term / First term = t_2 / t_1</strong>.</p><p>If <strong>a</strong> is the first term and <strong>r</strong> is the common ratio, then GP can be written as <strong>a, ar, ar^2, ar^3, ..., ar^(n-1) = l</strong> (where <strong>l</strong> = last term).</p><ul><li><em>nth</em> term of a GP is <strong>T_n = ar^(n-1) = l</strong>.</li><li>Sum of the <em>n</em> terms of a GP is <strong>S_n = a(r^n - 1) / (r - 1)</strong>, if <strong>r > 1</strong> and <strong>S_n = a(1 - r^n) / (1 - r)</strong>, if <strong>r < 1</strong>.</li><li>Sum of infinite terms of a GP is <strong>S_n = a / (1 - r)</strong>.</li></ul>",
+    "formulas": [
+      "r = t_2 / t_1",
+      "T_n = ar^(n-1)",
+      "S_n = a(r^n - 1) / (r - 1)",
+      "S_n = a(1 - r^n) / (1 - r)",
+      "S_n = a / (1 - r)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and formulas for Geometric Progression."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 306
+  },
+  {
+    "id": "math-seq-series-004",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Geometric Mean (GM)",
+    "text": "<p>If three terms are in GP, then the middle term is called the geometric mean of the other two. If <strong>a, b</strong> and <strong>c</strong> are in GP, then <strong>b</strong> is the GM of <strong>a</strong> and <strong>c</strong>. Let <strong>a</strong> and <strong>b</strong> be two numbers and <strong>G</strong> be the GM between them. Then, <strong>a, G, b</strong> are in GP, <strong>G = sqrt(ab)</strong>, <strong>a > 0, b > 0</strong>.</p>",
+    "formulas": [
+      "G = sqrt(ab)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and formula for Geometric Mean."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 306
+  },
+  {
+    "id": "math-seq-series-005",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Harmonic Progression (HP)",
+    "text": "<p>A sequence is said to be harmonic progression (HP). If the reciprocals of its terms are in arithmetic progression (AP). e.g. The sequence <strong>1, 1/3, 1/5, 1/7...</strong> is an HP because the sequence <strong>1, 3, 5, 7...</strong> is an AP. If <strong>a_1, a_2, a_3, ..., a_n</strong> are in HP, then <strong>1/a_1, 1/a_2, 1/a_3, ..., 1/a_n</strong> are in AP.</p><ul><li><em>nth</em> term of an HP is <strong>T_n = 1 / (1/a_1 + (n-1)(1/a_2 - 1/a_1))</strong>.</li></ul>",
+    "formulas": [
+      "T_n = 1 / (1/a_1 + (n-1)(1/a_2 - 1/a_1))"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and formula for Harmonic Progression."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 306
+  },
+  {
+    "id": "math-seq-series-006",
+    "subject": "Mathematics",
+    "chapter": "Sequence and Series",
+    "topic": "Harmonic Mean (HM)",
+    "text": "<p>If three terms are in HP, then the middle term is called the harmonic mean of the other two. If <strong>a, b</strong> and <strong>c</strong> are in HM, then <strong>b</strong> is the HM of <strong>a</strong> and <strong>c</strong>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition for Harmonic Mean."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 306
+  },
+  {
+    "id": "cds-pathfinder-math-seq-series-001",
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "topic": "Harmonic Mean and Special Series",
+    "text": "<p><strong>Harmonic Mean (HM):</strong> If <em>a</em> and <em>b</em> are two numbers, the HM is given by <em>H = 2ab / (a + b)</em>.</p><p><strong>Relation between Arithmetic, Geometric and Harmonic Mean:</strong> For A, G, and H, the following relations hold: <ul><li>A ≥ G ≥ H</li><li>G² = AH</li></ul></p><p><strong>Sum to n Terms of Special Series:</strong><ul><li>Sum of first n natural numbers: Σn = 1 + 2 + 3 + ... + n = n(n+1)/2</li><li>Sum of squares of first n natural numbers: Σn² = 1² + 2² + ... + n² = n(n+1)(2n+1)/6</li><li>Sum of cubes of first n natural numbers: Σn³ = 1³ + 2³ + ... + n³ = [n(n+1)/2]²</li></ul></p>",
+    "formulas": [
+      "H = 2ab / (a + b)",
+      "A ≥ G ≥ H",
+      "G^2 = AH",
+      "Σn = n(n+1)/2",
+      "Σn^2 = n(n+1)(2n+1)/6",
+      "Σn^3 = [n(n+1)/2]^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers Harmonic Mean definitions, relationships between A, G, and H, and standard summation formulas for natural numbers, squares, and cubes."
+    },
+    "mcq": {
+      "question": "If a, b, c are in AP, p, q, r are in HP and ap, bq, cr are in GP, then p/r + r/p is equal to",
+      "options": [
+        "a/c + c/a",
+        "a/c - c/a",
+        "b/q + q/b",
+        "b/q - q/b"
+      ],
+      "correct": 0,
+      "explanation": "Since a, b, c are in AP, b = (a+c)/2. Since p, q, r are in HP, q = 2pr/(p+r). Since ap, bq, cr are in GP, (bq)^2 = (ap)(cr) => b^2q^2 = apcr. Substituting values leads to the result."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 307
+  },
+  {
+    "id": "cds_pathfinder_math_seq_series_001",
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "topic": "Arithmetic, Geometric, and Harmonic Progressions",
+    "text": "<p>This page contains solutions and derivations for problems related to Arithmetic Progressions (AP), Geometric Progressions (GP), and Harmonic Progressions (HP).</p><ul><li><strong>Problem 5:</strong> Derivation of middle term properties in AP.</li><li><strong>Problem 6:</strong> Sum of an infinite geometric series where r = 1/5.</li><li><strong>Problem 7:</strong> Summation of series involving n-th terms.</li><li><strong>Problem 8:</strong> Sum of a GP series formula derivation.</li><li><strong>Problem 9:</strong> Trigonometric relationship involving AP/GP properties.</li><li><strong>Problem 10:</strong> Harmonic progression property derivation.</li><li><strong>Problem 11:</strong> Relationship between AP and HP for variables x, y, z.</li><li><strong>Problem 12:</strong> Finding the m-th and n-th terms of an AP.</li><li><strong>Problem 13:</strong> Solving for variables in a GP sequence.</li><li><strong>Problem 14:</strong> Summation of series with even number of terms.</li><li><strong>Problem 15:</strong> Relationship between Arithmetic Mean (A), Geometric Mean (G), and Harmonic Mean (H): AH = G^2.</li><li><strong>Problem 16:</strong> Solving quadratic equations derived from sum of series formulas.</li></ul>",
+    "formulas": [
+      "S_n = n/2 * [2a + (n-1)d]",
+      "S_infinity = a / (1-r)",
+      "AH = G^2",
+      "1/n = a + (m-1)d",
+      "1/m = a + (n-1)d",
+      "Sum = [2a^2 * n(n-1)(2n-1)] / 6"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Mathematical solutions for sequence and series problems including AP, GP, and HP properties."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 309
+  },
+  {
+    "id": "hcf_lcm_001",
+    "subject": "Mathematics",
+    "chapter": "HCF AND LCM OF NUMBERS",
+    "topic": "Factors and Prime Factors",
+    "text": "<p><strong>Factors:</strong> If number 'a' divides the number 'b' without leaving a remainder, then 'a' is said to be the factor of 'b'.</p><p>Examples:</p><ul><li>4 is a factor of 16 as 16 = 4 x 4</li><li>9 is a factor of 729 as 729 = 9 x 9 x 9</li></ul><p><strong>Prime Factors:</strong> The factors that cannot be again factorized i.e. the factors which are prime numbers are called prime factors.</p><p>Examples:</p><ul><li>9 is a factor of 729, but 3 is a prime factor of 729.</li><li>8 and 9 are factors of 72, but 2 and 3 are prime factors of 72.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to factors and prime factors with examples."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 310
+  },
+  {
+    "id": "hcf_lcm_002",
+    "subject": "Mathematics",
+    "chapter": "HCF AND LCM OF NUMBERS",
+    "topic": "Least Common Multiple (LCM)",
+    "text": "<p><strong>1. Common Multiple:</strong> A common multiple of two or more numbers is a number which is exactly divisible (without leaving remainder) by each of them.</p><p>Example: 30 is a common multiple of 2, 3, 5, 6, 10 and 15 because 30 is exactly divisible by each number. Similarly, 72 is a common multiple of 2, 3, 4, 6, 9, 12 and 18.</p><p><strong>2. Least Common Multiple (LCM):</strong> The least common multiple of two or more given numbers is the least number which is exactly divisible by all the given numbers.</p><p>Example: 84, 162, 252 are the common multiples of 2, 3, 4, 7. But, 84 is the LCM of 2, 3, 4, 7.</p><p><strong>Methods of Finding LCM:</strong></p><p><strong>1. Prime Factorization Method:</strong> Write down the given numbers as the product of prime factors. Then, the LCM is the product of the highest powers of all the prime factors.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of Common Multiple and LCM, and the Prime Factorization method for finding LCM."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 310
+  },
+  {
+    "id": "math-lcm-hcf-001",
+    "subject": "Mathematics",
+    "chapter": "LCM and HCF",
+    "topic": "LCM Methods",
+    "text": "<p><strong>Division Method for LCM:</strong> Write the given numbers in a row and divide them with the common prime divisor. Write the quotient in each case below the number. If any number is not divisible by the respective divisor, then write it as such in the next row. Keep on dividing the quotients until you get 1. Multiply all the divisors to get the required LCM.</p>",
+    "formulas": [
+      "LCM(x, y, z) = [LCM(x, y, z) - p], where p = (x - a) = (y - b) = (z - c)",
+      "Required number = [LCM(x, y, z) + R]"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A division method table showing the calculation of LCM for 120, 144, 160, and 180 using prime factors 2, 3, 5."
+    ],
+    "details": {
+      "summary": "Methods for calculating Least Common Multiple (LCM) including the division method and formulas for finding numbers based on remainders."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 311
+  },
+  {
+    "id": "math-lcm-hcf-002",
+    "subject": "Mathematics",
+    "chapter": "LCM and HCF",
+    "topic": "HCF Concepts",
+    "text": "<p><strong>Common Factor:</strong> A common factor of two or more numbers is a number which divides each of them exactly. e.g., 2 is a common factor of 2, 10, 20.</p><p><strong>Highest Common Factor (HCF):</strong> The HCF of two or more numbers is the largest number that divides all the given numbers exactly. It is also known as Greatest Common Divisor (GCD). HCF is always a factor of LCM.</p><p><strong>Methods of Finding HCF:</strong></p><ul><li><strong>HCF by Prime Factorization:</strong> Write the given number as product of prime factors and then find the product of least powers of common prime factors.</li><li><strong>HCF by Division Method:</strong> Divide the large number by the smaller one. Divide the divisor by the remainder. Repeat this process until no remainder is left, the last divisor used is the desired HCF.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A long division method calculation for finding the HCF of 1190 and 1445, resulting in 85."
+    ],
+    "details": {
+      "summary": "Definitions and methods for calculating the Highest Common Factor (HCF) including prime factorization and the division method."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 311
+  },
+  {
+    "id": "math-hcf-lcm-001",
+    "subject": "Mathematics",
+    "chapter": "HCF and LCM of Numbers",
+    "topic": "Important Points and Formulas",
+    "text": "<p><strong>Important Points:</strong></p><ul><li>For integers x, y and z, if HCF(x, y) = 1 and HCF(x, z) = 1, then HCF(x, y, z) is always 1.</li><li>The greatest number that will divide x, y and z leaving remainders a, b and c, respectively is given by HCF of (x-a), (y-b), (z-c).</li><li>The greatest number that will divide x, y and z leaving the same remainder in each case is given by HCF of |x-y|, |y-z|, |z-x|.</li></ul><p><strong>Relation between LCM and HCF of Two Numbers:</strong></p><p>Product of two numbers = (Their HCF) * (Their LCM)</p><p><strong>How to Calculate LCM and HCF of Fractions:</strong></p><ul><li>HCF of fractions = (HCF of numerators) / (LCM of denominators)</li><li>LCM of fractions = (LCM of numerators) / (HCF of denominators)</li></ul>",
+    "formulas": [
+      "Product of two numbers = (Their HCF) * (Their LCM)",
+      "HCF of fractions = (HCF of numerators) / (LCM of denominators)",
+      "LCM of fractions = (LCM of numerators) / (HCF of denominators)"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Long division method calculation for HCF of 85 and 204, resulting in 17."
+    ],
+    "details": {
+      "summary": "Covers properties of HCF, relationship between HCF and LCM, and formulas for fractions."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 312
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "HCF and LCM",
+    "topic": "Properties of HCF",
+    "content": "### Properties of HCF (Greatest Common Factor)\\n\\n1. **Distributive Property with Addition/Subtraction**:\\n   - $\\text{HCF}(a, b) = \\text{HCF}(a, b + a)$\\n   - $\\text{HCF}(a, b) = \\text{HCF}(a, b - a)$ (for $b > a$)\\n   - Generally, $\\text{HCF}(a, b) = \\text{HCF}(a, b \\pm ka)$ for any integer $k$.\\n\\n2. **Associative Property**:\\n   - $\\text{HCF}(a, b, c) = \\text{HCF}(\\text{HCF}(a, b), c) = \\text{HCF}(\\text{HCF}(a, c), b) = \\text{HCF}(\\text{HCF}(b, c), a)$\\n\\n3. **Coprime Property**:\\n   - If $\\text{HCF}(a, b) = 1$ and $\\text{HCF}(a, c) = 1$, then $\\text{HCF}(a, bc) = 1$.\\n   - This implies that if a number is coprime to two other numbers, it is also coprime to their product.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 314
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "HCF and LCM",
+    "topic": "Relationship between HCF and LCM",
+    "content": "### Fundamental Relationship\\n\\nFor any two natural numbers $a$ and $b$:\\n$$\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b$$\\n\\n**Applications:**\\n1. If HCF and LCM are known, and one number is given, the other number can be found using:\\n   $$b = \\frac{\\text{HCF} \\times \\text{LCM}}{a}$$\\n2. The product of the HCF and LCM of two numbers is equal to the product of the numbers themselves.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 314
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "subchapter": "HCF and LCM",
+    "topic": "LCM for Multiple Numbers",
+    "content": "### LCM for Multiple Numbers\\n\\nTo find when multiple events occur simultaneously (e.g., planets revolving, bells ringing), calculate the **Least Common Multiple (LCM)** of their respective periods.\\n\\n- If three planets revolve in $T_1, T_2, T_3$ days, they will meet at the same position after $\\text{LCM}(T_1, T_2, T_3)$ days.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 314
+  },
+  {
+    "id": "decimal-fractions-001",
+    "subject": "Mathematics",
+    "chapter": "Decimal Fractions",
+    "topic": "Introduction to Fractions and Decimals",
+    "text": "<p><strong>Fraction:</strong> If any unit is divided into some parts, then each of these parts is called a fraction of that unit. A fraction is represented as p/q, where q ≠ 0 and here q is called the denominator and p is called the numerator. Examples: 1/2, 3/4, 6/7 etc.</p><p><strong>Simple fraction:</strong> The fraction which has a denominator other than a power of 10 is called a simple fraction. Examples: 6/5, 2/9 etc. <em>Note: Simple fraction is also known as a vulgar fraction.</em></p><p><strong>Decimal Fraction:</strong> Fractions that have powers of 10 in the denominator are called decimal fractions. Examples: (i) 1/10 is the tenth part of 1 is written as 0.1. (ii) 1/100 is the hundredth part of 1 is written as 0.01.</p><p><strong>Types of Decimals:</strong></p><ul><li><strong>Recurring Decimals:</strong> A decimal number in which a digit or set of digits repeats regularly is called non-terminating repeating decimals or recurring decimals. To represent these fractions, a line is drawn on repeating digits.</li></ul>",
+    "formulas": [
+      "p/q (q != 0)",
+      "1/10 = 0.1",
+      "1/100 = 0.01",
+      "1/7 = 0.1428571428571... = 0.142857 (bar over 142857)",
+      "2/3 = 0.66666... = 0.6 (bar over 6)",
+      "4/3 = 1.33333... = 1.3 (bar over 3)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This section defines fractions, simple (vulgar) fractions, decimal fractions, and recurring decimals with examples."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 317
+  },
+  {
+    "id": "math-dec-frac-001",
+    "subject": "Mathematics",
+    "chapter": "Decimal Fractions",
+    "topic": "Types of Recurring Decimals",
+    "text": "<p><strong>Pure recurring decimal:</strong> A decimal fraction in which all the digits after the decimal points are repeated, is called a pure recurring decimal. Examples: 0.786786786... = 0.786; 0.77777... = 0.7</p><p><strong>Mixed recurring decimal:</strong> A decimal fraction in which some digits after the decimal point are not repeated while some are repeated, is called a mixed recurring decimal. Examples: 0.179999... = 0.179; 0.053939... = 0.0539</p><p><strong>Note:</strong> The decimal expansion of a rational number is either terminating or non-terminating recurring. In other words, a number whose decimal expansion is terminating or non-terminating recurring is a rational number.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of pure and mixed recurring decimals with examples."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 318
+  },
+  {
+    "id": "math-dec-frac-002",
+    "subject": "Mathematics",
+    "chapter": "Decimal Fractions",
+    "topic": "Operations on Decimal Fractions",
+    "text": "<p><strong>Addition and Subtraction:</strong> While making addition or subtraction of decimal fractions the numbers are placed in such a way that the decimal point lie in one column. Then, the numbers can be added or subtracted as usual.</p><p><strong>Note:</strong> Adding/Annexing zeroes to the extreme right of a decimal fraction does not change its value.</p><p><strong>Multiplication:</strong> While multiplying two or more decimal fractions, consider them without decimal point and multiply them as usual. In the product so obtained the decimal point is marked off as many places from the right as in the sum of the decimal places in the given numbers.</p><p><strong>Division:</strong> While dividing the given decimal fraction by a natural number, divide it without the decimal point to get quotient. Here, in the quotient so obtained, place the decimal point after as many places from the right as there in the dividend. For dividing a decimal fraction by a decimal fraction, multiply the dividend and the divisor by a suitable power of 10 to make the divisor a whole number and then proceed as in the previous rule.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for addition, subtraction, multiplication, and division of decimal fractions."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 318
+  },
+  {
+    "id": "math-dec-001",
+    "subject": "Mathematics",
+    "chapter": "Decimal Fractions",
+    "topic": "Conversion of Recurring Decimals",
+    "text": "<p><strong>To Convert a Pure Recurring Decimal into a Simple Fraction:</strong> Write the repeated figures once in the numerator without a decimal point and write as many nines in the denominator as the number of repeating figures. Example: 0.5 = 5/9 or 0.45 = 45/99.</p><p><strong>To Convert Mixed Recurring Decimal into a Simple Fraction:</strong> The numerator is obtained by taking the difference between the number formed by all the digits after the decimal point (repeated digits taken once) and the number formed by non-repeating digits. The denominator is obtained by placing as many nines as the number of repeating digits followed by as many zeroes as the number of non-repeating digits.</p>",
+    "formulas": [
+      "0.5 = 5/9",
+      "0.45 = 45/99"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Methods for converting pure and mixed recurring decimals into simple fractions."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 319
+  },
+  {
+    "id": "math-dec-002",
+    "subject": "Mathematics",
+    "chapter": "Decimal Fractions",
+    "topic": "Comparison of Fractions",
+    "text": "<p><strong>Comparison of Fractions By Converting in Decimal Form:</strong> Convert each fraction into decimal form and arrange in ascending or descending order.</p><p><strong>By Equating Denominators:</strong> Take the LCM of the denominator of all fractions. Make denominators same, then the fraction with the largest numerator is the largest fraction.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Techniques for comparing fractions using decimal conversion or denominator equating."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 319
+  },
+  {
+    "id": "math-dec-003",
+    "subject": "Mathematics",
+    "chapter": "Decimal Fractions",
+    "topic": "HCF and LCM of Decimal Fractions",
+    "text": "<p><strong>Method:</strong> Make the given fractions have the same number of decimal places by annexing zeroes. Find the HCF or LCM of the numbers without considering the decimal. In the result, mark as many decimal places as there are in each of the given numbers.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Procedure to calculate HCF and LCM for decimal numbers."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 319
+  },
+  {
+    "id": "sq-cube-roots-001",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Square",
+    "text": "<p>The <strong>square</strong> of a number is obtained by multiplying the number by itself.</p><p><em>Example:</em> Square of 5 = 5 × 5 = 25, square of 6 = 6 × 6 = 36</p><p><strong>Perfect square:</strong> A natural number <em>n</em> is called a perfect square or a square number, if there exists a natural number <em>m</em> such that <em>n = m^2</em>.</p><p><em>Example:</em> The numbers 1, 4, 9, 16, 25, ... are perfect squares.</p>",
+    "formulas": [
+      "n = m^2"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of square and perfect square."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 323
+  },
+  {
+    "id": "sq-cube-roots-002",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Properties of Perfect Square",
+    "text": "<p>The properties of perfect squares are:</p><ul><li>A number having 2, 3, 7 or 8 at unit's place is never a perfect square. (e.g., 172, 2783)</li><li>The squares of odd numbers are odd and the squares of even numbers are even.</li><li>The difference of squares of two consecutive natural numbers is equal to their sum. (e.g., 7^2 - 6^2 = 7 + 6 = 13)</li><li>The product of four consecutive natural numbers plus one is a always square.</li><li>A number ending in an odd number of zeroes is never a perfect square.</li></ul>",
+    "formulas": [
+      "7^2 - 6^2 = 7 + 6 = 13"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of properties defining perfect squares."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 323
+  },
+  {
+    "id": "sq-cube-roots-003",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Square Root",
+    "text": "<p>The <strong>square root</strong> of a number <em>x</em> is that number which when multiplied by itself gives <em>x</em> as the product. It is denoted by √.</p><p>In general, y^2 = x => y = √x</p><p>Here, <em>y</em> is the square root of <em>x</em>, if and only if <em>x</em> is the square of <em>y</em>.</p><p><em>Example:</em> √4 = √2 × 2 = 2. Thus, 2 is the square root of 4.</p>",
+    "formulas": [
+      "y^2 = x",
+      "y = √x"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and notation of square root."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 323
+  },
+  {
+    "id": "math-sq-001",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Methods to Find Square Root",
+    "text": "<p>The square root of a given number can be determined by using any of the following two methods:</p><ul><li><strong>Prime Factorization Method</strong></li><li><strong>General Method/Division Method</strong></li></ul><h3>Prime Factorization</h3><p>In this method, we express the given number as the product of prime factors. Now, for finding square root, we take the product of these prime factors choosing one out of every pair of same prime factors.</p><h3>Division Method</h3><p>To find the square root of a given number using this method, the following steps are to be followed:</p><ul><li><strong>Step I:</strong> In the given number, place bars over every pair of digits starting with the unit's digit. Each pair and the remaining one digit (if any) on the extreme left is called a period.</li><li><strong>Step II:</strong> Think of the largest number whose square is less than or equal to the first period.</li><li><strong>Step III:</strong> Put the quotient above the period and write the product of divisor and quotient just below the first period.</li><li><strong>Step IV:</strong> Subtract the product of divisor and quotient from the first period and bring down the next period to the right of the remainder. This becomes the new dividend.</li><li><strong>Step V:</strong> Double the quotient and enter it with a blank on its right.</li><li><strong>Step VI:</strong> Guess a largest possible digit to fill the blank which will also become the next digit in the quotient, such that when the new divisor is multiplied to the new quotient the product is less than or equal to the dividend.</li><li><strong>Step VII:</strong> Repeat the above steps till all the periods have been taken up. Now, the quotient so obtained is the required square root of the given number.</li></ul>",
+    "formulas": [
+      "sqrt(x/64) = 4/8",
+      "213444 = 2 * 2 * 3 * 3 * 7 * 7 * 11 * 11",
+      "sqrt(213444) = 2 * 3 * 7 * 11 = 462",
+      "999 - 38 = 961 = 31^2",
+      "(31 + 1)^2 = 32^2 = 1024"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Long division calculation for the square root of 1522756, resulting in 1234.",
+      "Long division calculation for finding the square root of 99, resulting in 31 with a remainder of 38."
+    ],
+    "details": {
+      "summary": "Explanation of Prime Factorization and Division methods for calculating square roots, including step-by-step procedures for the division method."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 324
+  },
+  {
+    "id": "cube-001",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Cube and Cube Root",
+    "text": "<h3>CUBE</h3><p>If a number is multiplied three times with itself, then the result of this multiplication is called the cube of that number. e.g., 8 = 2 x 2 x 2 = 2^3</p><h4>Properties of Cube</h4><ul><li>Cubes of all even natural numbers are even and all odd natural numbers are odd.</li><li>Cubes of the numbers ending in digit 0, 1, 4, 5, 6 and 9 are the numbers ending in the same digit.</li><li>Cubes of negative integers are negative.</li><li>Cubes of numbers ending in digits 3 and 7 ends in digit 7 and 3, respectively.</li></ul><h3>CUBE ROOT</h3><p>The cube root of a given number is the number whose cube is the given number. In general, we can say that a^3 = b, then cube root of 'b' is 'a'. Cube root of a number 'a' is denoted as cube_root(a). e.g., cube_root(64) = cube_root(4 x 4 x 4) = 4. Thus, 4 is the cube root of 64.</p><h3>Method to Find Cube Root</h3><p><strong>Prime Factorization Method:</strong> In this method, we express the given number as the product of prime factors. Now, for finding cube root, we take the product of these prime factors choosing one out of every three, from the factors.</p>",
+    "formulas": [
+      "a^3 = b",
+      "cube_root(a)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties of cubes and cube roots, including the prime factorization method."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 325
+  },
+  {
+    "id": "powers-001",
+    "subject": "Mathematics",
+    "chapter": "Number System",
+    "topic": "Powers, Exponents, and Surds",
+    "text": "<h3>POWERS OR EXPONENTS</h3><p>An expression that represents repeated multiplication of the same factor is called a power. It is written as x^n and is read as 'x' raised to the power n. Here, x is called the 'base' and n is called the 'exponent'. e.g., 6^5 = 6 x 6 x 6 x 6 x 6 = 7776.</p><h4>Laws of Exponents</h4><p>Let x/y be any rational number and m, n be any integers. Then:</p><ul><li>(x/y)^m * (x/y)^n = (x/y)^(m+n)</li><li>(x/y)^m / (x/y)^n = (x/y)^(m-n)</li><li>[(x/y)^m]^n = (x/y)^(mn)</li><li>(x/y)^(-n) = (y/x)^n</li><li>(x/y)^0 = 1</li></ul><h3>SURDS OR RADICALS</h3><p>Let x be a rational number and n be a positive integer, such that n_root(x) is irrational, then n_root(x) is called a radical or surd of order n and here x is called the radicand.</p><ul><li>A surd of order 2 is called a quadratic surd i.e., sqrt(2), sqrt(3).</li><li>A surd of order 3 is called a cubic surd i.e., cube_root(2), cube_root(3).</li><li>A surd of order 4 is called a biquadratic surd i.e., 4th_root(5), 4th_root(7).</li></ul><h4>Laws of Radicals</h4><ul><li>(n_root(x))^n = x</li><li>n_root(xy) = n_root(x) * n_root(y)</li><li>n_root(x/y) = n_root(x) / n_root(y)</li><li>(n_root(x))^m = (n_root(x^m))</li><li>m_root(n_root(x)) = mn_root(x)</li></ul>",
+    "formulas": [
+      "x^n",
+      "(x/y)^m * (x/y)^n = (x/y)^(m+n)",
+      "(x/y)^m / (x/y)^n = (x/y)^(m-n)",
+      "[(x/y)^m]^n = (x/y)^(mn)",
+      "(x/y)^(-n) = (y/x)^n",
+      "(x/y)^0 = 1"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Comprehensive overview of laws of exponents and laws of radicals/surds."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 325
+  },
+  {
+    "id": "math-surds-001",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Types of Surds",
+    "text": "<p><strong>Types of Surds:</strong></p><ul><li><strong>Pure surds:</strong> A surd which has only 1 as a rational factor is called a pure surd. e.g., sqrt(2), cube_root(2), fourth_root(3) are all pure surds.</li><li><strong>Mixed surds:</strong> A surd which is not a pure surd or has factor other than unity is called a mixed surd. e.g., 2sqrt(3), 5cube_root(12), fourth_root(35) are mixed surds.</li><li><strong>Like and Unlike surds:</strong> When the radicands of two surds are same, then those are known as like surds. e.g., 6sqrt(3) and 2^2sqrt(3). When radicands of two surds are different, then they are called unlike surds. e.g., 4sqrt(7) and 6sqrt(5).</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and classification of pure, mixed, like, and unlike surds."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 326
+  },
+  {
+    "id": "math-surds-002",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Comparison of Two Surds",
+    "text": "<p><strong>Comparison of Two Surds:</strong></p><ul><li>If two surds are of the same order, then the one whose radicand is larger, is the larger of the two. e.g., sqrt(17) > sqrt(13), cube_root(21) > cube_root(16).</li><li>If any two surds have different orders to be compared, then we will first reduce them to the same but smallest order and then compare them.</li></ul><p>Note: Let n_root(x) be a surd of order n. Then, n_root(x) = x^(1/n) i.e., x^(1/n) = (x^(m/n))^(1/m) is a surd of order m.</p>",
+    "formulas": [
+      "n_root(x) = x^(1/n)",
+      "x^(1/n) = (x^(m/n))^(1/m)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for comparing surds of same and different orders."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 326
+  },
+  {
+    "id": "math-surds-003",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Operations on Surds",
+    "text": "<p><strong>Addition and Subtraction of Surds:</strong> Addition or subtraction takes place only between like surds, using laws of numbers. e.g., (i) 2sqrt(3) + 4sqrt(3) + sqrt(3) = 6sqrt(3) + sqrt(3) = 7sqrt(3) (ii) 6sqrt(5) - 3sqrt(2) + 7sqrt(5) + 4sqrt(2) = (6sqrt(5) + 7sqrt(5)) + (4sqrt(2) - 3sqrt(2)) = 13sqrt(5) + sqrt(2)</p><p><strong>Multiplication and Division of Surds:</strong> Suppose given surds are n_root(a), n_root(b) and n_root(c), then first find the LCM of p, q and r to make the radial powers of the surds same and then their multiplication and division can be done using following rules: (i) n_root(x) * n_root(y) = n_root(xy) (ii) n_root(x) / n_root(y) = n_root(x/y)</p>",
+    "formulas": [
+      "n_root(x) * n_root(y) = n_root(xy)",
+      "n_root(x) / n_root(y) = n_root(x/y)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for addition, subtraction, multiplication, and division of surds."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 326
+  },
+  {
+    "id": "math-surds-004",
+    "subject": "Mathematics",
+    "chapter": "Square Roots and Cube Roots",
+    "topic": "Rationalisation of Surds",
+    "text": "<p><strong>Rationalisation of Surds:</strong> Process of converting surd into rational number is called as rationalisation of surds. When the product of two surds is a rational number, then each surd is called a rationalising factor of each other. e.g., cube_root(25) * cube_root(5) = cube_root(125) = cube_root(5^3) = 5. So, cube_root(25) and cube_root(5) are rationalising factor of each other.</p><p><strong>Rationalising factors of a given surd:</strong></p><ul><li>Rationalising factor of 1/sqrt(a) = sqrt(a)</li><li>Rationalising factor of 1/(sqrt(a) + sqrt(b)) = sqrt(a) - sqrt(b)</li></ul>",
+    "formulas": [
+      "1/sqrt(a) * sqrt(a) = 1",
+      "1/(sqrt(a) + sqrt(b)) * (sqrt(a) - sqrt(b)) = 1/(a-b)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of rationalisation and common rationalising factors."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 326
+  },
+  {
+    "id": "TD-001",
+    "subject": "Mathematics",
+    "chapter": "Time and Distance",
+    "topic": "Basic Definitions",
+    "text": "<p><strong>Distance:</strong> The length of the path travelled by any object or a person between two places is known as distance. The unit of distance is m or km.</p><p><strong>Time:</strong> The duration in hours, minutes or seconds spent to cover a certain distance is called time.</p><p><strong>Speed:</strong> The distance travelled by any object or a person per unit time is known as speed of that object or a person. The unit of speed is m/s or km/h.</p>",
+    "formulas": [
+      "speed = distance / time"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Basic definitions of distance, time, and speed."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 332
+  },
+  {
+    "id": "TD-002",
+    "subject": "Mathematics",
+    "chapter": "Time and Distance",
+    "topic": "Conversion of Unit",
+    "text": "<p><strong>Conversion of Unit:</strong></p><ul><li>To convert speed of an object from km/h to m/s, multiply it by 5/18.</li></ul><p>e.g. 36 km/h = 36 * (5/18) m/s = 10 m/s</p>",
+    "formulas": [
+      "speed(m/s) = speed(km/h) * (5/18)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Conversion factor for speed units."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 332
+  },
+  {
+    "id": "CDS_PATH_48_001",
+    "subject": "Mathematics",
+    "chapter": "Time, Speed and Distance",
+    "topic": "Average Speed and Relative Speed",
+    "text": "<p><strong>Conversion:</strong> To convert speed of an object from m/s to km/h, multiply it by 18/5. e.g., 5 m/s = 5 * 18/5 km/h = 18 km/h.</p><p><strong>Average Speed:</strong> Defined as total distance travelled divided by total time taken. Formula: Average speed = Total distance / Total time.</p><p><strong>Relative Speed:</strong> The speed of an object with respect to another. If two bodies move with speeds x km/h and y km/h: <ul><li>If moving in opposite directions: (x + y) km/h</li><li>If moving in same direction: (x - y) km/h</li></ul></p><p><strong>Important Rules and Formulae:</strong><ul><li><strong>Rule 1:</strong> If a person travels with speed x km/h for t1 h and with speed y km/h for t2 h, then average speed = (x*t1 + y*t2) / (t1 + t2).</li><li><strong>Rule 2:</strong> If a man/vehicle covers two equal distances with speed x km/h and y km/h respectively, then average speed = 2xy / (x + y).</li><li><strong>Rule 3:</strong> If a man changes his speed to (x/y) of his usual speed and gets late by t min, then the usual time taken by him = (t * x) / (y - x).</li><li><strong>Note:</strong> If a person changes his speed to (x/y) of his usual and reaches early by t min, then usual time taken by him = (t * x) / (y - x).</li></ul></p>",
+    "formulas": [
+      "Average speed = Total distance / Total time",
+      "Relative speed (opposite) = x + y",
+      "Relative speed (same) = x - y",
+      "Average speed (Rule 1) = (x*t1 + y*t2) / (t1 + t2)",
+      "Average speed (Rule 2) = 2xy / (x + y)",
+      "Usual time (Rule 3) = (t * x) / (y - x)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers conversion of units, definitions of average and relative speed, and specific rules for calculating average speed and usual time based on speed changes."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 333
+  },
+  {
+    "id": "math-td-001",
+    "subject": "Mathematics",
+    "chapter": "Time and Distance",
+    "topic": "Distance calculation with varying speeds",
+    "text": "<p><strong>Rule 4:</strong> When a man travels from A to B with a speed x km/h and reaches t1 h later after the fixed time and when he travels with a speed y km/h from A to B, he reaches his destination t2 h before the fixed time, then distance between A and B = (xy(t1 + t2)) / (y - x) km.</p><p><strong>Rule 5:</strong> A person travels from A to B with a speed x km/h and reaches t1 h late. Later he increases his speed by y km/h to cover the same distance and he still gets late by t2 h, then the distance between A and B = (t1 - t2)(x + y) * (x / y).</p>",
+    "formulas": [
+      "Distance = (xy(t1 + t2)) / (y - x)",
+      "Distance = (t1 - t2)(x + y) * (x / y)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Formulas for calculating distance when travel times are delayed or early based on varying speeds."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 334
+  },
+  {
+    "id": "math-td-002",
+    "subject": "Mathematics",
+    "chapter": "Time and Distance",
+    "topic": "Problems Based on Trains",
+    "text": "<p>Problems based on trains are same as the problems related to speed, Time and Distance. The only difference is that the length of the moving object (train) is taken into consideration in these types of problems.</p><p><strong>Rule 6:</strong> (i) Time taken by a train x m long in passing a single post or pole or standing man = Time taken by the train to cover x m. (ii) Time taken by a train x m long in passing an object of length y m = Time taken by the train to cover (x + y) m.</p><p><strong>Rule 7:</strong> Time taken by a train of length l1 metre moving at a speed of s1 m/s to cross another train of length l2 moving at a speed of s2 m/s in same/opposite direction is (l1 + l2) / (s1 ± s2). Use '+' for opposite direction. Use '-' for same direction.</p><p><strong>Rule 8:</strong> If two trains start at the same time from points A and B towards each other and after crossing each other, they take t1 and t2 time in reaching points B and A respectively, then ratio of their speed = sqrt(t2 / t1) or S1 / S2 = sqrt(t2 / t1).</p>",
+    "formulas": [
+      "Time = (x + y) / speed",
+      "Time = (l1 + l2) / (s1 ± s2)",
+      "S1 / S2 = sqrt(t2 / t1)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for calculating time and speed for trains crossing poles, objects, or other trains."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 334
+  },
+  {
+    "id": "cds-pathfinder-math-boat-stream-001",
+    "subject": "Mathematics",
+    "chapter": "Speed, Time and Distance",
+    "topic": "Problems Based on Boat and Stream",
+    "text": "<p><strong>Boat and Stream</strong> is an application of speed, time and distance.</p><ul><li><strong>Still water:</strong> If the speed of water is zero, then water is considered to be still water.</li><li><strong>Stream water:</strong> If the water of a river is moving at a certain speed, then it is called stream water.</li><li><strong>Downstream motion:</strong> In water, the direction along the stream is called downstream.</li><li><strong>Upstream motion:</strong> In water, the direction against the stream is called upstream.</li></ul><p><strong>Rule 9:</strong> If the speed of a boat in still water be x km/h and speed of stream be y km/h, then:</p><ul><li>(i) Speed of boat downstream = (x + y) km/h</li><li>(ii) Speed of boat upstream = (x - y) km/h</li></ul><p><strong>Rule 10:</strong> Let the speed of boat in downstream = u km/h and speed of boat in upstream = v km/h, then:</p><ul><li>(i) Speed of boat in still water = 1/2(u + v) km/h</li><li>(ii) Speed of stream (current) = 1/2(u - v) km/h</li></ul>",
+    "formulas": [
+      "Speed of boat downstream = (x + y) km/h",
+      "Speed of boat upstream = (x - y) km/h",
+      "Speed of boat in still water = 1/2(u + v) km/h",
+      "Speed of stream (current) = 1/2(u - v) km/h"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and rules for calculating speed of boats and streams in still, downstream, and upstream conditions."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 335
+  },
+  {
+    "id": "cds-pathfinder-math-races-001",
+    "subject": "Mathematics",
+    "chapter": "Speed, Time and Distance",
+    "topic": "Races",
+    "text": "<p>A contest of speed in running, driving, riding, sailing or rowing over a specified distance is called a race.</p><p>Suppose A and B are two contestants in a race. If A beats B by x m and length of the track is dm. Then, Distance travelled by B when A finishes the race = d - x and Speed of A / Speed of B = d / (d - x)</p><p><strong>Note:</strong></p><ul><li>(i) A gives B a start of x m means when A starts at starting point, B starts x m ahead from starting point.</li><li>(ii) A gives B a start of t s means A starts t s after B starts from the same point.</li></ul>",
+    "formulas": [
+      "Distance travelled by B = d - x",
+      "Speed of A / Speed of B = d / (d - x)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Basic concepts and formulas for race problems involving distance and speed ratios."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 335
   }
 ]
