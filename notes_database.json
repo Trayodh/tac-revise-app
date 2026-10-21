@@ -146442,5 +146442,302 @@
     "content": "### Similar Triangles and Perimeter\nIf two triangles are similar, the ratio of their corresponding sides is equal to the ratio of their perimeters.\n\n**Formula:**\n$$ \\frac{\\text{Perimeter}(\\triangle DEF)}{\\text{Perimeter}(\\triangle ABC)} = \\frac{EF}{BC} $$\n\n**Calculation Example:**\nGiven $\\triangle ABC$ with sides $AB=3, BC=2, AC=2\\sqrt{5}$.\nPerimeter($\\triangle ABC$) = $3 + 2 + 2\\sqrt{5} = 5 + 2\\sqrt{5}$.\nIf $\\triangle DEF \\sim \\triangle ABC$ and $EF = 4$ (corresponding to $BC=2$), the scale factor is $4/2 = 2$.\nPerimeter($\\triangle DEF$) = $2 \\times (5 + 2\\sqrt{5}) = 10 + 4\\sqrt{5}$.\n*(Note: The provided MCQ options in the source text appear to contain a typo or refer to a different specific integer-based problem, as the calculated value involves radicals. However, the principle of proportional perimeters remains the key concept.)*",
     "source_pdf": "cds_material.pdf",
     "source_page": 541
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Trapezium",
+    "topic": "Definition and Properties",
+    "content": "A **trapezium** (or trapezoid) is a quadrilateral with at least one pair of parallel sides. The parallel sides are called the **bases** (AB and CD in the figure). The non‑parallel sides are the **legs**. The diagonals of a trapezium intersect at a point O. In a general trapezium there is no fixed ratio between the segments of the diagonals, but the intersecting point O can be used with coordinate geometry or mass‑point geometry to relate the lengths of the segments AO, OC, BO and OD.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 542
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Angle Bisectors",
+    "topic": "Exterior Angle Bisector Theorem",
+    "content": "If a line bisects an **exterior angle** of a triangle, then it divides the opposite side (produced if necessary) into segments proportional to the adjacent sides:\\n\\n$$\\frac{CE}{EB}=\\frac{CA}{AB}$$\\n\\nwhere AE is the exterior angle bisector at vertex A, meeting the extension of side BC at E.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 542
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Mid‑Point Theorem",
+    "topic": "Segments Joining Mid‑Points",
+    "content": "In any triangle \\(\\triangle ABC\\):\\n- The segment joining the mid‑points of two sides is **parallel** to the third side.\\n- Its length is **half** the length of the third side.\\n\\nIf \\(D, E, F\\) are the mid‑points of \\(BC, CA, AB\\) respectively, then:\\n- \\(DE \\parallel AB\\) and \\(DE = \\frac{1}{2}AB\\)\\n- \\(EF \\parallel BC\\) and \\(EF = \\frac{1}{2}BC\\)\\n- \\(FD \\parallel AC\\) and \\(FD = \\frac{1}{2}AC\\)",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 542
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangle Classification",
+    "topic": "Based on Sides and Angles",
+    "content": "A triangle can be classified as:\\n- **Scalene** – all three sides (and consequently all three angles) are different.\\n- **Isosceles** – two sides are equal, and the angles opposite those sides are equal.\\n- **Equilateral** – all three sides are equal; each interior angle is \\(60^{\\circ}\\).\\n- **Right‑angled** – one interior angle is \\(90^{\\circ}\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 542
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Right Triangle Segment Ratios",
+    "topic": "Perpendiculars from a Point on the Hypotenuse",
+    "content": "Let \\(\\triangle ABC\\) be right‑angled at \\(A\\) with \\(BC\\) as the hypotenuse. If a point \\(D\\) lies on \\(BC\\) and lines \\(DM\\) and \\(DL\\) are drawn perpendicular to \\(AB\\) and \\(AC\\) respectively, then:\\n\\n$$\\frac{DM}{DL}=\\frac{BD}{DC}$$\\n\\nThis follows from similar triangles formed by the two right‑angled drops.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 542
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Right Triangle Relations",
+    "topic": "Relation Between Segments on the Legs",
+    "content": "In a right‑angled triangle \\(\\triangle ABC\\) with right angle at \\(B\\), let \\(P\\) be a point on \\(AB\\) and \\(Q\\) a point on \\(AC\\). The following identity holds (derived from the Pythagorean theorem and similar triangles):\\n\\n$$\\frac{AQ^2 + CP^2}{AC^2 + PQ^2}=1$$\\n\\nor equivalently\\n\\n$$AQ^2 + CP^2 = AC^2 + PQ^2.$$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 542
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Angle Sum and Ratios",
+    "topic": "Angles of a Triangle in Given Ratio",
+    "content": "If the interior angles of a triangle are in the ratio \\(m:n:p\\), then each angle can be found by:\\n\\n$$\\text{Angle} = \\frac{\\text{ratio part}}{m+n+p}\\times 180^{\\circ}$$\\n\\nFor example, a ratio of \\(2:3:4\\) gives angles \\(30^{\\circ}, 60^{\\circ}, 90^{\\circ}\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 542
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Parallel Lines in a Triangle",
+    "topic": "Segment Proportionality When a Line is Parallel to the Base",
+    "content": "If a line through points \\(D\\) on \\(AB\\) and \\(E\\) on \\(AC\\) is drawn parallel to the base \\(BC\\) of \\(\\triangle ABC\\), then triangles \\(\\triangle ADE\\) and \\(\\triangle ABC\\) are similar. Consequently:\\n\\n$$\\frac{AD}{AB}=\\frac{AE}{AC}=\\frac{DE}{BC}$$\\n\\nAngles at \\(A\\) remain unchanged, while the corresponding angles at \\(D\\) and \\(E\\) equal the base angles of the original triangle.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 542
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Altitude and Side Relations",
+    "content": "### Relation between Sides and Altitude in a Triangle\\nIn a triangle $\\triangle ABC$, if $AD \\perp BC$ (where $D$ lies on $BC$), the relationship between the sides and the segments of the base is given by:\\n$$AB^2 - BD^2 = AC^2 - CD^2$$\\nThis is derived from the Pythagorean theorem applied to $\\triangle ABD$ and $\\triangle ACD$:\\n1. $AB^2 = AD^2 + BD^2 \\implies AB^2 - BD^2 = AD^2$\\n2. $AC^2 = AD^2 + CD^2 \\implies AC^2 - CD^2 = AD^2$\\nTherefore, $AB^2 - BD^2 = AC^2 - CD^2$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 543
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Right-Angled Triangle Properties",
+    "content": "### Altitude to the Hypotenuse in a Right-Angled Triangle\\nIn a right-angled triangle $\\triangle ABC$ with right angle at $C$, let $BC=a$, $AC=b$, and hypotenuse $AB=c$. Let $P$ be the length of the perpendicular from $C$ to $AB$ (altitude to the hypotenuse).\\n\\nThe area of the triangle can be calculated in two ways:\\n1. Using legs: $\\text{Area} = \\frac{1}{2} \\times a \\times b$\\n2. Using hypotenuse and altitude: $\\text{Area} = \\frac{1}{2} \\times c \\times P$\\n\\nEquating the areas:\\n$$\\frac{1}{2} ab = \\frac{1}{2} cP \\implies cP = ab \\implies P = \\frac{ab}{c}$$\\n\\nThus, the product of the hypotenuse and the altitude to it equals the product of the other two sides ($pc = ab$).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 543
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Geometric Mean Theorem",
+    "content": "### Condition for Right-Angled Triangle via Altitude\\nIf in $\\triangle ABC$, the perpendicular $AD$ drawn from $A$ meets $BC$ at $D$, and it is given that $AD^2 = BD \\cdot DC$, then $\\triangle ABC$ is a right-angled triangle at $A$.\\n\\n**Proof:**\\nIn $\\triangle ABD$, $AB^2 = AD^2 + BD^2$.\\nIn $\\triangle ACD$, $AC^2 = AD^2 + DC^2$.\\nAdding these equations:\\n$AB^2 + AC^2 = 2AD^2 + BD^2 + DC^2$.\\nGiven $AD^2 = BD \\cdot DC$, substitute $AD^2$:\\n$AB^2 + AC^2 = 2(BD \\cdot DC) + BD^2 + DC^2 = BD^2 + 2BD \\cdot DC + DC^2 = (BD + DC)^2 = BC^2$.\\nSince $AB^2 + AC^2 = BC^2$, by the converse of the Pythagorean theorem, $\\angle BAC = 90^\\circ$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 543
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Altitude on Hypotenuse Formula",
+    "content": "### Altitude on Hypotenuse in Terms of Area and One Leg\\nLet $\\Delta$ be the area of a right-angled triangle, and $b$ be one of the sides containing the right angle (a leg). Let $h$ be the altitude on the hypotenuse.\\n\\nLet the other leg be $a$ and the hypotenuse be $c$.\\n1. $\\Delta = \\frac{1}{2} ab \\implies a = \\frac{2\\Delta}{b}$\\n2. $c = \\sqrt{a^2 + b^2} = \\sqrt{\\left(\\frac{2\\Delta}{b}\\right)^2 + b^2} = \\sqrt{\\frac{4\\Delta^2}{b^2} + b^2} = \\frac{\\sqrt{4\\Delta^2 + b^4}}{b}$\\n3. The altitude $h$ on the hypotenuse is given by $h = \\frac{ab}{c}$.\\n   Substituting $a$ and $c$:\\n   $$h = \\frac{\\left(\\frac{2\\Delta}{b}\\right) \\cdot b}{\\frac{\\sqrt{4\\Delta^2 + b^4}}{b}} = \\frac{2\\Delta}{\\frac{\\sqrt{4\\Delta^2 + b^4}}{b}} = \\frac{2\\Delta b}{\\sqrt{4\\Delta^2 + b^4}}$$\\n   Note: The options in the source text appear to have formatting issues, but the derived formula is $\\frac{2\\Delta b}{\\sqrt{b^4 + 4\\Delta^2}}$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 543
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Medians",
+    "topic": "Median Length Formula",
+    "content": "For a triangle with sides \\(a, b, c\\) and median \\(m_a\\) to side \\(a\\):\\n\\n$$m_a = \\frac{1}{2}\\sqrt{2b^2 + 2c^2 - a^2}$$\\n\\nIf the median length equals half the side \\(a\\) (i.e., \\(m_a = \\frac{a}{2}\\)), then:\\n\\n$$b^2 + c^2 = a^2$$\\n\\nHence the triangle is right‑angled with the right angle opposite side \\(a\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 544
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Medians",
+    "topic": "Area Division by Medians",
+    "content": "The three medians of any triangle intersect at the centroid and divide the triangle into six smaller triangles of equal area.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 544
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Medians",
+    "topic": "Perimeter vs. Sum of Medians",
+    "content": "For any triangle, the perimeter is always greater than the sum of the lengths of its three medians.\\n\\n\\[\\text{Perimeter} > m_a + m_b + m_c\\]",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 544
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Parallel Lines & Similarity",
+    "topic": "Lines Parallel to Sides of a Triangle",
+    "content": "If a line through a point inside a triangle is drawn parallel to one side, it creates a smaller triangle similar to the original. The ratios of corresponding sides are equal to the ratios of the distances between the parallel lines.\\n\\n*If a point lies on the bisector of an acute angle \\(\\angle XYZ\\) and a line through that point is drawn parallel to the opposite side \\(ZY\\), the resulting triangle \\(YPO\\) is isosceles (the two sides adjacent to the bisected angle become equal).*\\n\\n*When three lines are drawn parallel to the three sides of an equilateral triangle, they form a smaller equilateral triangle. The sum of the three parallel segments equals the side of the outer triangle plus twice the side of the inner triangle.*",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 544
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Right Triangles",
+    "topic": "Properties of 3‑4‑5 Triangle",
+    "content": "A triangle with side lengths \\(3\\,\\text{cm}, 4\\,\\text{cm}, 5\\,\\text{cm}\\) is a right‑angled triangle (Pythagoras: \\(3^2 + 4^2 = 5^2\\)). Its area is \\(\\frac{1}{2}\\times 3 \\times 4 = 6\\,\\text{cm}^2\\). Any triangle congruent to it will have the same side lengths and area.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 544
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangle Properties",
+    "topic": "Sum of Interior Angles",
+    "content": "# Sum of Interior Angles\\n\\nIn any triangle \\( \\triangle ABC \\), the sum of the three interior angles is always **\\(180^\\circ\\)**.\\n\\n\\[\n\\angle A + \\angle B + \\angle C = 180^\\circ\n\\]\\n\\nThis follows from the fact that a triangle can be divided into two right triangles by drawing an altitude, or by using the fact that a straight line subtends \\(180^\\circ\\). The property is fundamental and is used to solve many geometry problems involving unknown angles.\\n\\n**Key Formula**\\n\\n\\[\n\\angle C = 180^\\circ - (\\angle A + \\angle B)\n\\]\\n\\n**Example**\\n\\nIf \\(\\angle A = 50^\\circ\\) and \\(\\angle B = 60^\\circ\\), then\\n\\n\\[\n\\angle C = 180^\\circ - (50^\\circ + 60^\\circ) = 70^\\circ\n\\]",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 545
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangle Properties",
+    "topic": "Sum of Exterior Angles",
+    "content": "# Sum of Exterior Angles\\n\\nFor any triangle, the sum of the three exterior angles (one at each vertex, taken outside the triangle) is always **\\(360^\\circ\\)**.\\n\\n**Proof**\\n\\nEach exterior angle is supplementary to its adjacent interior angle:\\n\\n\\[\n\\text{Exterior}_A = 180^\\circ - \\angle A,\\quad\n\\text{Exterior}_B = 180^\\circ - \\angle B,\\quad\n\\text{Exterior}_C = 180^\\circ - \\angle C\n\\]\\n\\nAdding them gives:\\n\\n\\[\n\\begin{aligned}\n\\text{Exterior}_A + \\text{Exterior}_B + \\text{Exterior}_C &= (180^\\circ - \\angle A) + (180^\\circ - \\angle B) + (180^\\circ - \\angle C) \\\\\n&= 540^\\circ - (\\angle A + \\angle B + \\angle C) \\\\\n&= 540^\\circ - 180^\\circ = 360^\\circ\n\\end{aligned}\n\\]\\n\\n**Important Note**: The exterior angles are taken *outside* the triangle, one at each vertex. If you take the interior angles instead, the sum is \\(180^\\circ\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 545
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Parallel Lines",
+    "topic": "Corresponding and Alternate Interior Angles",
+    "content": "# Parallel Lines and Angles\\n\\nWhen a transversal cuts two parallel lines, several pairs of angles are equal:\\n\\n1. **Corresponding Angles** – angles that occupy the same relative position at each intersection.\\n2. **Alternate Interior Angles** – angles on opposite sides of the transversal and inside the two lines.\\n3. **Alternate Exterior Angles** – angles on opposite sides of the transversal and outside the two lines.\\n4. **Consecutive Interior Angles** – angles on the same side of the transversal and inside the two lines; they are supplementary.\\n\\n**Key Properties**\\n\\n- If any one pair of corresponding angles is equal, the lines are parallel.\\n- If any one pair of alternate interior angles is equal, the lines are parallel.\\n- If the sum of consecutive interior angles is \\(180^\\circ\\), the lines are parallel.\\n\\n**Application**\\n\\nIn many geometry problems, you are given a ratio of sides and asked to find an angle using the fact that a line is parallel to another. For example, if \\(BC \\parallel AE\\) and you know the ratio \\(BC:AC\\), you can use similar triangles to deduce the measure of \\(\\angle CAE\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 545
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Properties of Triangles",
+    "topic": "Angle Bisectors and Exterior Angles",
+    "content": "### Theorem: Angle between Internal and External Bisectors\\nIf the side BC of a triangle ABC is produced to D, and the bisectors of the internal angle ∠ABC and the external angle ∠ACD meet at P, then the angle ∠BPC is half of the angle ∠BAC.\\n\\n**Formula:**\\n$$ \\angle BPC = \\frac{1}{2} \\angle BAC $$\\n\\n**Derivation:**\\n1. Let $\\angle BAC = y$.\\n2. The exterior angle $\\angle ACD = \\angle ABC + \\angle BAC$.\\n3. Since CP bisects $\\angle ACD$, $\\angle PCD = \\frac{1}{2} \\angle ACD = \\frac{1}{2} (\\angle ABC + y)$.\\n4. In $\\triangle PBC$, the exterior angle $\\angle PCD = \\angle PBC + \\angle BPC$.\\n5. Since BP bisects $\\angle ABC$, $\\angle PBC = \\frac{1}{2} \\angle ABC$.\\n6. Therefore, $\\frac{1}{2} (\\angle ABC + y) = \\frac{1}{2} \\angle ABC + \\angle BPC$.\\n7. Simplifying gives $\\angle BPC = \\frac{y}{2}$.\\n\\n**Conclusion:** If $\\angle BPC = x$, then $x = y/2$ or $2x = y$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 546
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Properties of Triangles",
+    "topic": "Isosceles Triangles and Exterior Angles",
+    "content": "### Property: Isosceles Triangle formed by Producing a Side\\nIf the side AC of a triangle ABC is produced to D such that $BC = CD$, then $\\triangle BCD$ is an isosceles triangle.\\n\\n**Key Relationships:**\\n1. In $\\triangle BCD$, since $BC = CD$, the angles opposite to these sides are equal: $\\angle CBD = \\angle CDB$.\\n2. Let $\\angle CDB = \\theta$. Then $\\angle CBD = \\theta$.\\n3. The exterior angle of $\\triangle BCD$ at vertex C is $\\angle ACB$.\\n4. According to the Exterior Angle Theorem: $\\angle ACB = \\angle CBD + \\angle CDB = \\theta + \\theta = 2\\theta$.\\n5. Therefore, $\\theta = \\frac{1}{2} \\angle ACB$.\\n\\n**Application:**\\nIf $\\angle ACB = 70^\\circ$, then $\\angle ADB$ (which is $\\angle CDB$) $= 35^\\circ$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 546
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Applications of Pythagoras Theorem",
+    "topic": "Distance Between Tops of Trees",
+    "content": "### Problem: Distance Between Tops of Two Trees\\nGiven two trees of heights $x$ and $y$ ($x > y$) standing on level ground. The horizontal distance between their bases is $s$. The distance between their tops is $z$.\\n\\n**Geometric Setup:**\\n1. Draw a horizontal line from the top of the shorter tree (height $y$) to the taller tree.\\n2. This forms a right-angled triangle where:\\n   - The base is the horizontal distance between the trees: $s$.\\n   - The vertical side is the difference in heights: $x - y$.\\n   - The hypotenuse is the distance between the tops: $z$.\\n\\n**Formula:**\\nUsing Pythagoras Theorem:\\n$$ z^2 = s^2 + (x - y)^2 $$\\n\\n**Solving for $s^2$:**\\n$$ s^2 = z^2 - (x - y)^2 $$\\n$$ s^2 = z^2 - (x^2 - 2xy + y^2) $$\\n$$ s^2 = z^2 - x^2 + 2xy - y^2 $$\\n\\n*Note: In multiple-choice contexts, the form $z^2 - (x-y)^2$ is the standard representation.*",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 546
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Right-Angled Triangles",
+    "topic": "Ratios in 30-60-90 Triangles",
+    "content": "### Special Right Triangle: 30°-60°-90°\\nIn a right-angled triangle $\\triangle ABC$ with $\\angle B = 90^\\circ$:\\n\\n**Given Condition:**\\n$\\angle C = 2 \\angle A$.\\n\\n**Calculation:**\\n1. Sum of angles in a triangle is $180^\\circ$.\\n2. $\\angle A + \\angle B + \\angle C = 180^\\circ$.\\n3. $\\angle A + 90^\\circ + 2\\angle A = 180^\\circ$.\\n4. $3\\angle A = 90^\\circ \\implies \\angle A = 30^\\circ$.\\n5. Therefore, $\\angle C = 60^\\circ$.\\n\\n**Side Ratios:**\\nIn a 30°-60°-90° triangle, the sides are in the ratio $1 : \\sqrt{3} : 2$.\\n- Side opposite $30^\\circ$ ($BC$) $= k$.\\n- Side opposite $60^\\circ$ ($AB$) $= k\\sqrt{3}$.\\n- Hypotenuse ($AC$) $= 2k$.\\n\\n**Relationship between AB and BC:**\\n$$ AB = \\sqrt{3} BC $$\\n$$ AB^2 = 3 BC^2 $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 546
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Equilateral Triangles",
+    "topic": "Centroid and Altitude Properties",
+    "content": "### Properties of Equilateral Triangle Centroid\\nIn an equilateral triangle $\\triangle PQR$:\\n1. The altitudes, medians, angle bisectors, and perpendicular bisectors coincide.\\n2. The point of intersection $O$ is the centroid.\\n3. The centroid divides each median (or altitude) in the ratio $2:1$ from the vertex.\\n\\n**Formula:**\\nIf $PL$ is the altitude from $P$ to $QR$, and $O$ is the centroid:\\n$$ PO = \\frac{2}{3} PL $$\\n$$ OL = \\frac{1}{3} PL $$\\n\\n**Calculation Example:**\\nGiven $OP = 8$ cm.\\n$$ 8 = \\frac{2}{3} PL \\implies PL = 12 \\text{ cm} $$\\n\\n**Finding Side Length:**\\nIn an equilateral triangle, altitude $h = \\frac{\\sqrt{3}}{2} \\times \\text{side}$.\\n$$ 12 = \\frac{\\sqrt{3}}{2} \\times \\text{side} $$\\n$$ \\text{side} = \\frac{24}{\\sqrt{3}} = 8\\sqrt{3} \\text{ cm} $$\\n\\n**Perimeter:**\\n$$ \\text{Perimeter} = 3 \\times \\text{side} = 3 \\times 8\\sqrt{3} = 24\\sqrt{3} \\text{ cm} $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 546
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Midpoint Theorem",
+    "topic": "Nested Midpoint Triangles",
+    "content": "### Midpoint Theorem and Scaling\\n**Theorem:** The line segment joining the midpoints of two sides of a triangle is parallel to the third side and is half of its length.\\n\\n**Application to Nested Triangles:**\\n1. Let $\\triangle ABC$ be the original triangle.\\n2. $\\triangle DEF$ is formed by joining midpoints of $\\triangle ABC$. Thus, sides of $\\triangle DEF$ are half the sides of $\\triangle ABC$.\\n   $$ \\text{Perimeter}(DEF) = \\frac{1}{2} \\text{Perimeter}(ABC) $$\\n3. $\\triangle PQR$ is formed by joining midpoints of $\\triangle DEF$. Thus, sides of $\\triangle PQR$ are half the sides of $\\triangle DEF$.\\n   $$ \\text{Perimeter}(PQR) = \\frac{1}{2} \\text{Perimeter}(DEF) $$\\n\\n**Combined Relationship:**\\n$$ \\text{Perimeter}(PQR) = \\frac{1}{2} \\left( \\frac{1}{2} \\text{Perimeter}(ABC) \\right) = \\frac{1}{4} \\text{Perimeter}(ABC) $$\\n\\n**Calculation:**\\nIf sides of $\\triangle PQR$ are 1, 2, and 3 units:\\n$$ \\text{Perimeter}(PQR) = 1 + 2 + 3 = 6 \\text{ units} $$\\n$$ 6 = \\frac{1}{4} \\text{Perimeter}(ABC) $$\\n$$ \\text{Perimeter}(ABC) = 24 \\text{ units} $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 546
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Medians and Cevians",
+    "topic": "Intersection of Median and Line from Vertex",
+    "content": "### Median Properties and Section Formula\\n**Scenario:** In $\\triangle ABC$, $AD$ is the median to $BC$ (so $D$ is midpoint of $BC$). $E$ is the midpoint of median $AD$. The line $BE$ is produced to meet $AC$ at $F$.\\n\\n**Analysis using Mass Point Geometry or Menelaus Theorem:**\\n1. Assign masses to vertices to balance the system.\\n2. Since $D$ is midpoint of $BC$, mass at $B$ = mass at $C$. Let $m_B = m_C = 1$. Then mass at $D = 2$.\\n3. Since $E$ is midpoint of $AD$, mass at $A$ must equal mass at $D$ for $E$ to be the center of mass. So $m_A = 2$.\\n4. Now consider the line $BEF$ intersecting $AC$ at $F$. The point $F$ balances the masses at $A$ and $C$.\\n5. $m_A = 2$, $m_C = 1$.\\n6. The ratio $AF : FC = m_C : m_A = 1 : 2$.\\n7. Therefore, $AF = \\frac{1}{3} AC$ and $FC = \\frac{2}{3} AC$.\\n\\n**Conclusion:**\\n$CF = \\frac{2}{3} AC$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 546
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Angle Bisector Theorem",
+    "topic": "Internal Angle Bisector Ratio",
+    "content": "### Internal Angle Bisector Theorem\\nIn a triangle $\\triangle ABC$, if $AD$ is the internal angle bisector of $\\angle A$ meeting $BC$ at $D$, then the ratio of the segments of the opposite side is equal to the ratio of the other two sides.\\n\\n**Formula:**\\n$$ \\frac{BD}{DC} = \\frac{AB}{AC} $$\\n\\n**Application:**\\nGiven $AB = 3$ cm and $AC = 1$ cm.\\n$$ \\frac{BD}{DC} = \\frac{3}{1} $$\\n\\n**Finding Ratio BD : BC:**\\nLet $BD = 3k$ and $DC = 1k$.\\n$$ BC = BD + DC = 3k + 1k = 4k $$\\n$$ \\frac{BD}{BC} = \\frac{3k}{4k} = \\frac{3}{4} $$\\n\\n**Result:**\\n$BD : BC = 3 : 4$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 546
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Right‑angled triangle",
+    "content": "A triangle is right‑angled if one of its interior angles is exactly 90°. The side opposite the right angle is called the hypotenuse. For a right‑angled triangle with sides *a*, *b* and hypotenuse *c*, the Pythagorean theorem holds: \\(a^{2}+b^{2}=c^{2}\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 547
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Equilateral triangle",
+    "content": "An equilateral triangle has all three sides equal in length and all three interior angles equal to 60°. Any line segment joining a vertex to the midpoint of the opposite side is both a median and an altitude.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 547
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Similar triangles",
+    "content": "Two triangles are similar if their corresponding angles are equal and their corresponding sides are in proportion. If \\(\\triangle ABC \\sim \\triangle DEF\\), then \\(\\frac{AB}{DE}=\\frac{BC}{EF}=\\frac{CA}{FD}\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 547
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Mid‑point theorem",
+    "content": "In any triangle, the segment joining the mid‑points of two sides is parallel to the third side and its length is half of that third side. If *D*, *E*, *F* are mid‑points of \\(BC, CA, AB\\) respectively, then \\(DE \\parallel AB\\) and \\(DE = \\frac{1}{2}AB\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 547
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Division of sides in an equilateral triangle",
+    "content": "If points \\(X, Y, Z\\) are taken on the sides \\(BC, CA, AB\\) of an equilateral triangle \\(ABC\\) such that \\(BX = CY = AZ\\), the triangle \\(XYZ\\) is generally **not** equilateral nor similar to \\(ABC\\) unless the chosen length satisfies special conditions.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 547
   }
 ]
