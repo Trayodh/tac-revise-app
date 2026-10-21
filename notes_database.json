@@ -146298,5 +146298,149 @@
     "content": "### SAS Criteria (Theorem 1)\nTwo triangles are congruent if two sides and the included angle of one triangle are equal to the corresponding sides and the included angle of the other triangle.\n\n### ASA Criteria (Theorem 2)\nTwo triangles are congruent if two angles and the included side of one triangle are equal to the corresponding two angles and the included side of the other triangle.",
     "source_pdf": "cds_material.pdf",
     "source_page": 537
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Similar Figures",
+    "topic": "Definition and Basic Properties",
+    "content": "# Similar Figures\n\n- **Similar figures** have the same shape but may differ in size.\n- Congruent figures are always similar, but similar figures need not be congruent.\n- **Examples**:\n  - Any two circles are similar.\n  - Any two rectangles are similar.\n- **Key Point**: Similarity preserves angles and the ratios of corresponding sides.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 538
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Similar Triangles",
+    "topic": "Definition and Criteria",
+    "content": "# Similar Triangles\n\nTwo triangles are **similar** if:\n1. **Corresponding angles are equal**.\n2. **Corresponding sides are proportional**.\n\n**Notation**: If \n\\(\\triangle ABC\\) and \\(\\triangle PQR\\) are similar, we write\n\\(\\triangle ABC \\sim \\triangle PQR\\).\n\n**Example**:\n- If \\(\\angle A = \\angle P\\), \\(\\angle B = \\angle Q\\), and \\(\\angle C = \\angle R\\), then\n  \\(\\triangle ABC \\sim \\triangle PQR\\).\n- Corresponding sides satisfy\n  \\(\\frac{AB}{PQ} = \\frac{BC}{QR} = \\frac{AC}{PR}\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 538
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Theorems on Similar Triangles",
+    "topic": "Theorem 1 – Basic Proportionality Theorem",
+    "content": "# Basic Proportionality Theorem (BPT)\n\nIf a line is drawn parallel to one side of a triangle and intersects the other two sides, it divides those sides in the same ratio.\n\n**Statement**:\nFor triangle \\(ABC\\), if line \\(DE\\) is parallel to \\(BC\\) and intersects \\(AB\\) at \\(D\\) and \\(AC\\) at \\(E\\), then\n\\[\n\\frac{AD}{DB} = \\frac{AE}{EC} = \\frac{AB}{AC}\n\\]\n\n**Applications**:\n- Finding unknown segments when a line is parallel to a side.\n- Proving similarity of triangles formed by the parallel line.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 538
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Theorems on Similar Triangles",
+    "topic": "Theorem 2 – Angle Bisector Theorem",
+    "content": "# Angle Bisector Theorem\n\nThe internal bisector of an angle of a triangle divides the opposite side into segments proportional to the adjacent sides.\n\n**Statement**:\nIn triangle \\(ABC\\), if \\(AD\\) bisects \\(\\angle A\\) and meets \\(BC\\) at \\(D\\), then\n\\[\n\\frac{BD}{DC} = \\frac{AB}{AC}\n\\]\n\n**Use**: Determining ratios on the base when an angle bisector is drawn.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 538
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Theorems on Similar Triangles",
+    "topic": "Theorem 3 – Midpoint Theorem",
+    "content": "# Midpoint Theorem\n\nThe segment joining the midpoints of two sides of a triangle is parallel to the third side and is half its length.\n\n**Statement**:\nLet \\(P\\) and \\(Q\\) be midpoints of sides \\(AB\\) and \\(AC\\) of triangle \\(ABC\\). Then\n\\[\n\\overline{PQ} \\parallel \\overline{BC} \\quad \\text{and} \\quad \\frac{PQ}{BC} = \\frac{1}{2}\n\\]\n\n**Implication**: Creates a smaller, similar triangle inside the original.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 538
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Theorems on Similar Triangles",
+    "topic": "Theorem 4 – Equiangular Triangles and Altitudes",
+    "content": "# Equiangular Triangles and Altitudes\n\nIf two triangles are equiangular, the ratios of their corresponding sides equal the ratios of their corresponding altitudes.\n\n**Statement**:\nFor \\(\\triangle ABC \\sim \\triangle PQR\\), let \\(AD\\) be the altitude from \\(A\\) to \\(BC\\) and \\(PS\\) the altitude from \\(P\\) to \\(QR\\). Then\n\\[\n\\frac{BC}{QR} = \\frac{AD}{PS}\n\\]\n\n**Use**: Relating altitudes when triangles are known to be similar.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 538
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Congruent Triangles",
+    "topic": "RHS Congruency",
+    "content": "# RHS Congruency (Right angle-Hypotenuse-Side)\n\nTwo right‑angled triangles are congruent if:\n1. They have a right angle.\n2. Their hypotenuses are equal.\n3. One pair of corresponding legs are equal.\n\n**Notation**: If \\(\\triangle BED\\) and \\(\\triangle CFD\\) are right‑angled at \\(E\\) and \\(F\\) respectively, and\n- \\(DE = DF\\) (given),\n- \\(BD = CD\\) (hypotenuses),\nthen \\(\\triangle BED \\cong \\triangle CFD\\) by RHS.\n\n**Consequence**: Corresponding angles and remaining sides are equal.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 538
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Similarity of Triangles",
+    "topic": "Criteria for Similarity",
+    "content": "### Criteria for Similarity of Two Triangles\n\n1. **AAA Similarity**: If the corresponding angles of two triangles are equal, then their corresponding sides are proportional, and hence the two triangles are similar.\n   - **Corollary (AA Similarity)**: If two angles of one triangle are equal to the corresponding two angles of another triangle, then the two triangles are similar.\n\n2. **SSS Similarity**: If the corresponding sides of two triangles are proportional, then their corresponding angles are equal, and hence the two triangles are similar.\n\n3. **SAS Similarity**: If one angle of a triangle is equal to the corresponding angle of the other triangle and the sides including these angles are proportional, then the two triangles are similar.\n\n4. **RHS Similarity**: If the hypotenuse and one side of a right triangle are proportional to the hypotenuse and corresponding side of another right triangle, then the two triangles are similar.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 539
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Similarity of Triangles",
+    "topic": "Angle Bisector Theorem",
+    "content": "### Angle Bisector Theorem Application\nIf a line segment bisects an angle of a triangle, it divides the opposite side into two segments that are proportional to the other two sides of the triangle.\n\n**Formula**:\nIf $BE$ is the bisector of $\\angle ABC$ in $\\triangle ABC$, then:\n$$ \\frac{AB}{BC} = \\frac{AE}{EC} $$\n\n**Note**: Since $EC = AC - AE$, the equation can be rewritten as:\n$$ \\frac{AB}{BC} = \\frac{AE}{AC - AE} $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 539
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Similarity of Triangles",
+    "topic": "Areas of Similar Triangles",
+    "content": "### Theorems on Areas of Similar Triangles\n\n**Theorem 1**: The ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.\nIf $\\triangle ABC \\sim \\triangle PQR$, then:\n$$ \\frac{\\text{Area}(\\triangle ABC)}{\\text{Area}(\\triangle PQR)} = \\left(\\frac{AB}{PQ}\\right)^2 = \\left(\\frac{BC}{QR}\\right)^2 = \\left(\\frac{AC}{PR}\\right)^2 $$\n\n**Theorem 2**: The ratio of the areas of two similar triangles is equal to the ratio of the squares of their corresponding altitudes.\nIf $\\triangle ABC \\sim \\triangle PQR$, then:\n$$ \\frac{\\text{Area}(\\triangle ABC)}{\\text{Area}(\\triangle PQR)} = \\left(\\frac{\\text{Altitude of } \\triangle ABC}{\\text{Corresponding Altitude of } \\triangle PQR}\\right)^2 $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 539
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Similar Triangles",
+    "topic": "Theorem 4 – Area Ratio of Similar Triangles",
+    "content": "### Theorem 4\nIf two triangles are similar, the ratio of their areas is equal to the square of the ratio of any pair of corresponding sides (or corresponding angle‑bisector segments).\n\n$$\\frac{\\text{Area}(\\triangle ABC)}{\\text{Area}(\\triangle PQR)} = \\left(\\frac{AB}{PQ}\\right)^2 = \\left(\\frac{BC}{QR}\\right)^2 = \\left(\\frac{CA}{RP}\\right)^2$$\n\n**Key points**\n- The triangles must be *similar* (same shape, same angles).\n- Any pair of corresponding linear dimensions can be used; the area ratio is always the square of that linear ratio.\n- This theorem is frequently used to find unknown side lengths or areas when a scale factor is known.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 540
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Similar Triangles",
+    "topic": "Theorem 5 – Equality of Areas Implies Congruence",
+    "content": "### Theorem 5\nIf two similar triangles have equal areas, then they are congruent.\n\n**Reasoning**\n- From Theorem 4, \\(\\frac{\\text{Area}_1}{\\text{Area}_2}=\\left(\\frac{\\text{side}_1}{\\text{side}_2}\\right)^2\\).\n- If the areas are equal, the ratio on the left is 1, so the ratio of corresponding sides is also 1.\n- Hence all corresponding sides are equal and, together with equal angles (similarity), the triangles are congruent.\n\n**Corollary**: *Equal and similar triangles are congruent.*",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 540
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Mid‑segment Theorem",
+    "topic": "Theorem 6 – Mid‑point Segment Forms Four Similar Triangles",
+    "content": "### Theorem 6\nJoining the mid‑points of the three sides of a triangle creates four smaller triangles, each similar to the original triangle.\n\nLet \\(D, E, F\\) be the mid‑points of \\(BC, CA, AB\\) respectively.\n- \\(\\triangle AFE, \\triangle FBD, \\triangle EDC, \\triangle DEF\\) are all similar to \\(\\triangle ABC\\).\n- The central triangle \\(\\triangle DEF\\) has an area that is \\(\\frac{1}{4}\\) of the area of \\(\\triangle ABC\\).\n\n**Proof sketch**\n1. Because \\(D, E, F\\) are mid‑points, each segment \\(DE, EF, FD\\) is parallel to a side of \\(\\triangle ABC\\) and half its length.\n2. By the parallelism, corresponding angles are equal, giving similarity.\n3. The linear scale factor between \\(\\triangle DEF\\) and \\(\\triangle ABC\\) is \\(\\frac{1}{2}\\); therefore the area ratio is \\((\\frac{1}{2})^2 = \\frac{1}{4}\\).\n\n**Formula**\n$$\\frac{\\text{Area}(\\triangle DEF)}{\\text{Area}(\\triangle ABC)} = \\frac{1}{4}$$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 540
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Converse of Pythagoras Theorem",
+    "content": "### Converse of Pythagoras Theorem\nIn a triangle, if the square of one side is equal to the sum of the squares of the other two sides, then the angle opposite to the first side is a right angle.\n\n**Mathematical Statement:**\nIn $\\triangle ABC$, if $AC^2 = AB^2 + BC^2$, then $\\angle B = 90^\\circ$.\n\n**Key Application:**\nThis theorem is used to verify if a triangle is right-angled given the lengths of its three sides.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 541
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Properties of Triangles",
+    "content": "### Key Properties for MCQs\n1. **Angle Bisector Property**: If the bisector of an angle of a triangle bisects the opposite side, the triangle is **isosceles**.\n2. **Mid-point Theorem**: The line segments joining the mid-points of the sides of a triangle form four smaller triangles. Each of these four triangles is **similar** to the original triangle (and congruent to each other, but not congruent to the original unless the original is equilateral).\n3. **Altitude Property**: In $\\triangle ABC$, if $BD$ and $CE$ are perpendiculars on $AC$ and $AB$ respectively, and $BD = CE$, then $\\triangle ABC$ is **isosceles** (specifically $AB = AC$).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 541
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Similar Triangles",
+    "content": "### Similar Triangles and Perimeter\nIf two triangles are similar, the ratio of their corresponding sides is equal to the ratio of their perimeters.\n\n**Formula:**\n$$ \\frac{\\text{Perimeter}(\\triangle DEF)}{\\text{Perimeter}(\\triangle ABC)} = \\frac{EF}{BC} $$\n\n**Calculation Example:**\nGiven $\\triangle ABC$ with sides $AB=3, BC=2, AC=2\\sqrt{5}$.\nPerimeter($\\triangle ABC$) = $3 + 2 + 2\\sqrt{5} = 5 + 2\\sqrt{5}$.\nIf $\\triangle DEF \\sim \\triangle ABC$ and $EF = 4$ (corresponding to $BC=2$), the scale factor is $4/2 = 2$.\nPerimeter($\\triangle DEF$) = $2 \\times (5 + 2\\sqrt{5}) = 10 + 4\\sqrt{5}$.\n*(Note: The provided MCQ options in the source text appear to contain a typo or refer to a different specific integer-based problem, as the calculated value involves radicals. However, the principle of proportional perimeters remains the key concept.)*",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 541
   }
 ]
