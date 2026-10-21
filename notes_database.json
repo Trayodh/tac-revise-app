@@ -149530,5 +149530,329 @@
     },
     "source_pdf": "cds_material.pdf",
     "source_page": 686
+  },
+  {
+    "id": "adj-001",
+    "subject": "English",
+    "chapter": "Adjective",
+    "topic": "Definition and Kinds of Adjectives",
+    "text": "<p>An adjective is a word used with a noun or a pronoun to add something to its meaning.</p><h3>Kinds of Adjective</h3><p><strong>1. Proper Adjectives:</strong> Derived from proper nouns.</p><table><thead><tr><th>Proper Nouns</th><th>Proper Adjectives</th></tr></thead><tbody><tr><td>India</td><td>Indian</td></tr><tr><td>China</td><td>Chinese</td></tr><tr><td>Turkey</td><td>Turkish</td></tr><tr><td>America</td><td>American</td></tr><tr><td>Shakespeare</td><td>Shakespearian</td></tr></tbody></table><p><strong>2. Possessive Adjectives:</strong> My, our, your, his, their, her, its.</p><p><strong>3. Adjectives of Quality:</strong> Shows traits of a person or thing. e.g., <em>Fresh</em> flowers were plucked.</p><p><strong>4. Adjectives of Quantity:</strong> Shows how much of a thing is meant (Any, some, little, etc.).</p><p><strong>5. Adjectives of Number:</strong> Shows how many persons or things are meant or in what order.</p><ul><li><strong>Definite Numeral Adjective:</strong> Denotes exact number or order (e.g., The first three benches).</li><li><strong>Indefinite Numeral Adjective:</strong> Few, many, less, more, some, any, etc.</li><li><strong>Distributive Numeral Adjective:</strong> Each and Every. 'Each' is used for two or more things; 'Every' is used for more than two things.</li></ul><p><strong>6. Exclamatory Adjectives:</strong> Used to express surprise (e.g., <em>What</em> an idea!).</p><p><strong>7. Interrogative Adjectives:</strong> Used to ask questions (e.g., <em>Which</em> picture do you like the most?).</p><p><strong>8. Demonstrative Adjectives:</strong> Points out which person or thing is meant (e.g., <em>This</em> boy is intelligent). Note: The plural forms 'these' and 'those' are often wrongly used with singular nouns 'kind of' and 'sort of'.</p>",
+    "formulas": [],
+    "tables": [
+      "| Word | Meaning | Example |\n|---|---|---|\n| Verbal | It pertains to words. | His verbal words spoken orally are more dangerous than his figures on paper. |\n| Oral | It means mouth. | - |\n| Common | Shared by all concerned. | It is common to everyone that India and Pakistan do not share a very good mutual understanding. |\n| Mutual | In relation to each other. | - |",
+      "| Word | Meaning | Example |\n|---|---|---|\n| Little | 'Little' has a negative meaning and it means hardly any. | He has little hope of recovery. |\n| A Little | 'A little' has a positive meaning. It means some, though not much. | He has a little hope of recovery. |\n| The little | 'The little' means not much but all there is. | The little money Bihar had has gone to Jharkhand. |\n| Any | 'Any' is used in negative or/and interrogative sentences. | I shall not buy any material from this shop. |\n| Some | 'Some' is used in affirmative sentences. | I shall buy something from this shop. |",
+      "| Word | Meaning | Example |\n|---|---|---|\n| Other | 'Other' means second of the two. | Call the other boy who is with you. |\n| Another | 'Another' means additional one. | There is another boy also who wants to meet you. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Comprehensive overview of Adjectives including definitions, classification into 8 types, and usage notes for confusing words."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 689
+  },
+  {
+    "id": "eng-adj-001",
+    "subject": "English",
+    "chapter": "Spotting the Errors",
+    "topic": "Comparison of Adjectives",
+    "text": "<p><strong>Comparison of Adjectives</strong></p><ul><li><strong>Positive Degree:</strong> When only one case is there. e.g., Meerut is a <em>big</em> city.</li><li><strong>Comparative Degree:</strong> When two cases are there. e.g., Meerut is <em>bigger</em> than Ghaziabad; She is <em>better</em> than anybody else in the school.</li><li><strong>Superlative Degree:</strong> When more than two cases are there. e.g., Meerut is the <em>biggest</em> city of West Uttar Pradesh; He is the <em>most corrupt</em> politician of all in the country.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Word | Meaning | Example |\n|---|---|---|\n| Later/ Latter/ Latest/ Last | 'Later' and 'latest' refer to time. 'Latter' and 'last' refer to position. | Tempest was the last/latest play of Shakespeare. What is the last /latest news? He came latter /later than me. The first half of the movie was very entertaining but the latter wasn't. |\n| Elder/ Eldest | For blood relations only. | I am his elder brother. |\n| Old/ Older/ Oldest | For both persons and things. | My friend is older than me. |\n| Farther | Geographical distance (comparative degree). Its superlative is 'farthest'. | Mumbai is farther than Gwalior. (x) Mumbai is farther than Gwalior from Meerut. (v) Kanyakumari is the farthest place in the South. (v) |\n| Further | Besides (in addition to) | I would like to add further meaning to the studies. (v) |\n| Nearest | It shows distance | The nearest post-office is next to the college. |\n| Next | It shows position | The nearest post-office is next to the college. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers degrees of comparison and usage of confusing adjective pairs."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 690
+  },
+  {
+    "id": "eng-adj-002",
+    "subject": "English",
+    "chapter": "Spotting the Errors",
+    "topic": "Rules of Degrees",
+    "text": "<p><strong>Rules of Degrees</strong></p><ol><li><strong>Double comparative and double superlative are not used together.</strong> e.g., She is the <em>most prettiest</em> girl (X); She is the <em>prettiest</em> girl (v); This boy is <em>more sweeter</em> than that boy (X); This boy is <em>sweeter</em> than that boy (v).</li><li><strong>The Adjective ending in -er (e.g. wiser) should be used as 'more wise' while comparing two qualities of the same person or thing.</strong> e.g., He is <em>wiser/more wise</em> than strong; He is <em>more wise/wiser</em> than his brother.</li><li><strong>In comparative cases, 'other' is used with than.</strong> e.g., He is <em>more intelligent</em> than his classmates (X); He is <em>more intelligent</em> than his <em>other</em> classmates (v).</li><li><strong>In superlative cases, 'other' is not used.</strong> e.g., Samudragupta was the most powerful of all kings of his time.</li><li><strong>Adjectives expressing qualities, that do not have different degrees, cannot be compared.</strong> (e.g., Perfect, complete, circular, finish, square, empty, impossible, enough, full, unique, wonderful, marvelous, excellent, ultimate).</li><li><strong>Similar things should be compared when we compare two things.</strong> e.g., The climate of Dehradun is better <em>than</em> Meerut (X); The climate of Dehradun is better <em>than that</em> of Meerut (v).</li><li><strong>The comparative degree is generally followed by 'than', but the following comparative adjectives are followed by the preposition 'to'.</strong> (Superior, inferior, junior, senior, prefer, preferable, elder, younger, prior, etc.)</li><li><strong>If there is a gradual increase, it is expressed with two comparatives and not with positives.</strong> e.g., Indian fielding is getting <em>better and better</em> day-by-day.</li></ol>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules governing the correct usage of comparative and superlative degrees in English grammar."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 690
+  },
+  {
+    "id": "CDS-PATH-406-ADJ-01",
+    "subject": "English",
+    "chapter": "Adjectives",
+    "topic": "Rules of Adjectives",
+    "text": "<p><strong>Rule 9:</strong> When two adjectives qualify the same noun, both adjectives should be represented in the same degree.</p><ul><li>e.g., Taj Mahal is the <em>most beautiful</em> and the <em>most sought-after</em> place in India.</li><li>e.g., He is the <em>best</em> and <em>honest</em> minister of our time. (X)</li><li>e.g., He is the <em>best</em> and the <em>most honest</em> minister of our time. (✓)</li></ul><p><strong>Rule 10:</strong> The adjectives 'little' and 'few' are not made to qualify the nouns, 'quantity' and 'number'. Instead 'small' should be used to qualify these nouns.</p><ul><li>e.g., Would you please lend me a <em>small</em> number of books for a month?</li><li>e.g., I asked him not to waste even a <em>small</em> quantity of food.</li></ul><p><strong>Rule 11:</strong> Do not say 'two first' for 'first two'.</p><ul><li>e.g., I saw only the <em>two first</em> episodes of the serial. (X)</li><li>e.g., I saw only the <em>first two</em> episodes of the serial. (✓)</li></ul><p><strong>Rule 12:</strong> When two adjectives in different degrees of comparison are used in the same sentence, each should be complete in itself.</p><ul><li>e.g., He is <em>as good</em> if not better than his brother. (X)</li><li>e.g., He is <em>as good as</em> if not better than his brother. (✓)</li></ul><p><strong>Rule 13:</strong> <em>Worth + V1 + ing</em> is placed after the same noun it qualifies.</p><ul><li>e.g., Taj Mahal is a monument <em>worth visiting</em>.</li><li>e.g., Computer is a commodity <em>worth buying</em>.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Word | Meaning | Example |\n|---|---|---|\n| Hard | Difficult, tough | He studies hard. (i.e. works very hard in studies) |\n| Hardly | Rarely, a little | He hardly studies. (i.e. he rarely studies) |\n| Late | Delay | |\n| Lately | Now-a-days | Lately he is coming late from the office. |\n| Near | Close | Although he was near the truck, he nearly escaped. |\n| Nearly | Almost | |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Grammar rules regarding the correct usage of adjectives, including degree consistency, quantifier selection, ordinal placement, and specific idiomatic structures."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 691
+  },
+  {
+    "id": "pathfinder-eng-articles-001",
+    "subject": "English",
+    "chapter": "Articles",
+    "topic": "Introduction to Articles",
+    "text": "<p>Articles are the members of the determiners family. 'A', 'An' and 'The' are articles. Articles are used before nouns.</p><ul><li>e.g. - My brother is <em>a</em> businessman.</li><li>e.g. - An apple <em>a</em> day keeps the doctor away.</li></ul><p>Here, 'a' is an article which is used before the noun (businessman) and 'an' is an article which is used before the noun 'apple'.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and basic usage of articles A, An, and The."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 693
+  },
+  {
+    "id": "pathfinder-eng-articles-002",
+    "subject": "English",
+    "chapter": "Articles",
+    "topic": "Indefinite Articles",
+    "text": "<h3>Indefinite Articles</h3><ul><li>Indefinite article 'A' is used before the words starting with the consonants.</li><li>Indefinite article 'An' is used with the words starting with the vowel sound. (a, e, i, o, u)</li></ul><p>Examples:</p><ul><li><em>An</em> umbrella is kept there.</li><li><em>A</em> European lives in our colony.</li><li>Meerut has <em>a</em> university.</li><li><em>An</em> honest and hardworking person always succeeds in life.</li><li><em>An</em> hour is left.</li><li><em>An</em> MA, <em>An</em> SP, <em>An</em> LLB</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Rules for using Indefinite Articles 'A' and 'An'."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 693
+  },
+  {
+    "id": "pathfinder-eng-articles-003",
+    "subject": "English",
+    "chapter": "Articles",
+    "topic": "Use of Indefinite Articles",
+    "text": "<h3>Use of Indefinite Articles</h3><p>(a) Before a common noun in singular to suggest the sense of one. e.g. - Twelve inches make <em>a</em> foot. There is <em>a</em> fan in the room. <em>A</em> man is standing on the road.</p><p>(b) Before a common noun in singular to suggest the vague sense of a certain or any. e.g. - <em>A</em> book is kept there.</p><p>(c) To make a common noun of a proper noun. In this case, both definite and/or indefinite article can be used according to the case. e.g. - Ajay is <em>a</em> Sherlok Holmes of our class. Samudragupta was <em>the</em> Napoleon of India.</p><p>(d) In the sense of each, every or per. e.g. - The doctor advised the patient to take the medicine twice <em>a</em> day. He studies for two hours <em>a</em> day.</p><p>(e) In exclamations before singular countable nouns. e.g. - What <em>a</em> shot! What <em>a</em> beautiful girl!</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Specific usage rules for Indefinite Articles."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 693
+  },
+  {
+    "id": "pathfinder-eng-articles-004",
+    "subject": "English",
+    "chapter": "Articles",
+    "topic": "Definite Article",
+    "text": "<h3>Definite Article</h3><p><strong>Use of Definite Article 'The'</strong></p><p>(a) When we speak of a particular person or thing or one already referred to. e.g. - <em>The</em> book is kept there. <em>The</em> CD of that movie is available in <em>the</em> market. <em>The</em> book you mentioned is available in <em>the</em> store. <em>The</em> pleasant weather is inviting us outside.</p><p>(b) Before the names of physical features in Geography. e.g. - <em>The</em> Himalayas, <em>The</em> Gangas, <em>The</em> Indian Ocean, etc.</p><ul><li>However, if the reference is to a Single Island or a Single Mountain, 'the' is not used. e.g. - <em>The</em> Kanchenjunga is the highest peak of (X) the Himalayas in India. Kanchenjunga is the highest peak of <em>the</em> Himalayas in India. (✓) <em>The</em> North Andaman is a part of the (X) Andaman group of islands. North Andaman is a part of <em>the</em> Andaman group of islands. (✓)</li></ul><p>(c) Before common nouns which are names of things unique or of their kind. e.g. - <em>The</em> Sun, <em>The</em> Moon, <em>The</em> Earth, <em>The</em> Sky.</p><p>(d) Before the names of countries which show federation. e.g. - <em>The</em> United States of America, <em>The</em> United Kingdom, <em>The</em> Republic of Korea, <em>The</em> Republic of South Africa, etc. <strong>Exception:</strong> The Netherlands, The Hague</p><p>(e) Before the names of religious and mythological books, newspapers, magazines, journals, etc. e.g. - <em>The</em> Bible, <em>The</em> India Today, <em>The</em> Times of India, etc</p><p>(f) Before Superlatives. e.g. - I am <em>the</em> best. He is <em>the</em> cleverest.</p><p>(g) As an adverb with a comparative. e.g. - <em>The</em> more, <em>the</em> merrier. <em>The</em> sooner, <em>the</em> better. <em>The</em> higher you go, <em>the</em> colder it is.</p><p>(h) Before terms denoting Nationality, Community and Castes. e.g. - <em>The</em> Australians, <em>The</em> Indians, <em>The</em> Hindus, etc</p><p>(i) Before historic events. e.g. - <em>The</em> Ist Battle of Panipat, <em>The</em> Revolt of 1857, <em>The</em> Quit India Movement, <em>The</em> Gulf War, etc.</p><p>(j) Before musical instruments. e.g. - I can play <em>the</em> flute very well. Ustad Amjad Ali Khan plays <em>the</em> sarod.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Comprehensive rules for the usage of the Definite Article 'The'."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 693
+  },
+  {
+    "id": "eng-grammar-articles-001",
+    "subject": "English",
+    "chapter": "Spotting the Errors",
+    "topic": "Usage and Omission of Articles",
+    "text": "<p><strong>Usage of Articles:</strong></p><ul><li>(k) Before an adjective representing a class of people: <em>The rich should help the poor.</em></li><li>(l) Before a unit of measurement: <em>Cloth is sold by the metre.</em></li><li>(m) Before a common noun to give the force of superlative: <em>He is the man.</em></li><li>(n) Before adjectives 'same' and 'whole' and after 'all' and 'both': <em>He is the same person... The whole class... All the boys... Both the friends...</em></li><li>(o) Before a common noun to give the meaning of an abstract noun: <em>The moralist in Gandhi...</em></li><li>(p) Before various Cups and Trophies: <em>Sri Lanka has won the Asia Cup.</em></li><li>(q) Before comparative degree in case of a choice: <em>He is the stronger of the two friends.</em></li></ul><p><strong>Omission of Articles:</strong></p><ul><li>(a) Before proper nouns: <em>The New Delhi is the capital of India (Incorrect).</em></li><li>(b) Before material and abstract nouns used in general sense: <em>The building is made up of the brick and the stone (Incorrect).</em> Note: If specific, use article: <em>The stone of Kota is of good quality.</em></li><li>(c) Before a noun in its widest sense: <em>The science is a subject based on facts (Incorrect).</em></li><li>(d) Before noun following 'kind of': <em>What kind of a person you are (Incorrect).</em></li><li>(e) Before uncountable nouns: <em>He gave me advice.</em></li><li>(f) Before school, college, home, church, temple, sea, work, bed, table, hospital, market, prison, court when purpose is primary: <em>I go to church every Sunday.</em></li><li>(g) Before names of diseases: <em>AIDS can be prevented...</em></li><li>(h) Before regular meals except when preceded by an Adjective: <em>I usually take breakfast at 9 o'clock.</em></li><li>(i) Before modes of travel: <em>He will go by air.</em></li><li>(j) Before names of relations like uncle, mother, father: <em>Uncle will come tomorrow.</em></li><li>(k) Before adjectives used as nouns signifying language or colours: <em>He knows English.</em></li><li>(l) When two or more descriptive adjectives qualifying the same noun are connected by 'and', the Article is used before the first adjective only: <em>It is a Hindi and English Dictionary.</em></li><li>(m) When two or more adjectives qualify different nouns, the Article is used before each adjective: <em>The inner and the outer wall were both strongly defended.</em></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed rules on the correct usage and omission of definite and indefinite articles in English grammar."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 694
+  },
+  {
+    "id": "CDS-ENG-ADVERB-001",
+    "subject": "English",
+    "chapter": "Adverb",
+    "topic": "Definition and Kinds of Adverb",
+    "text": "<p>An adverb tells more about a verb, an adjective or another adverb.</p><p><strong>e.g.</strong> - He is running <em>fast</em>. Here 'fast' is the adverb which tells how he is running.</p><h3>Kinds of Adverb</h3><ul><li><strong>Adverb of Time:</strong> Answers the question when, for how long or how often a certain thing happens. e.g. - I shall meet you <em>tomorrow</em>. We were late by <em>two hours</em>. The newspaper arrives <em>daily</em>.</li><li><strong>Adverb of Place:</strong> Answers the question where. e.g. - I shall meet you <em>in the market</em>. I shall meet you <em>there</em>. We were studying <em>in the institute</em>.</li><li><strong>Adverb of Manner:</strong> Answers the question how. e.g. - He is sitting <em>quietly</em>. He is dancing <em>like Hritik Roshan</em>.</li><li><strong>Adverb of Frequency:</strong> It tells us how often an action takes place. e.g. - Delhi Police is with you, <em>always</em>.</li><li><strong>Adverb of Degree or Quantity:</strong> These tell us how much or in what degree or to what extent. e.g. - We have studied <em>enough</em>. There is <em>something</em> fishy out here. There is <em>little</em> doubt of his success.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of Adverb and classification into five types: Time, Place, Manner, Frequency, and Degree/Quantity."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 697
+  },
+  {
+    "id": "CDS-ENG-ADVERB-002",
+    "subject": "English",
+    "chapter": "Adverb",
+    "topic": "Rules of Adverbs",
+    "text": "<h3>Rules of Adverbs</h3><ul><li><strong>So and Too:</strong> They should not be used without their co-relatives 'that' and 'to'.</li><li><strong>Difference between very and much:</strong> (a) 'Very' is used in positive degree and 'much' is used in comparative degree. (b) 'Very' is used with V1 + ing. 'Much' is used with V3.</li><li><strong>Forms:</strong> Some words retain their form when they become adverbs: Fast, first, next, back, ill, better, best, etc.</li><li><strong>Comparative:</strong> Adverbs ending in -ly form the comparative by adding 'more' and superlative by adding 'most'.</li><li><strong>MPT RULE:</strong> If adverbs of manner, place and time are used in a single sentence, then the sequence followed is that of MPT.</li><li><strong>Adjective Modification:</strong> When an adverb modifies an adjective or another adverb, the adverb comes before it.</li><li><strong>Frequency:</strong> Adverbs of frequency such as always, ever, never, seldom, frequently, etc, are always placed before the verb they modify.</li><li><strong>Enough:</strong> 'Enough' is both an Adjective and an Adverb. As an adverb, it is always placed after the adjective it modifies. As an adjective it is placed before the noun.</li><li><strong>Only and Even:</strong> Should be placed immediately before the word intended to modify.</li><li><strong>Beginning of sentence:</strong> An adverb can be placed at the beginning of a sentence, when it is intended to qualify, not any word in particular, but sentence as a whole.</li><li><strong>Ever/Never usage:</strong> 'Ever' is sometimes misused for 'never'. 'Seldom or never' and 'seldom if ever' are both correct, but 'seldom or ever' is incorrect. In the same manner, 'little if anything' is correct, but 'little or anything' is wrong.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Comprehensive list of 12 grammatical rules governing the usage and placement of adverbs in English sentences."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 697
+  },
+  {
+    "id": "eng-spotting-errors-413-01",
+    "subject": "English",
+    "chapter": "Spotting the Errors",
+    "topic": "Adverb Usage Rules",
+    "text": "<ul><li><strong>Rule 13:</strong> 'Else' should be followed by 'but', and not by 'than'. e.g., 'It is nothing else but his carelessness which has led to his failure.', 'Aishwarya Rai is nothing else but a statue of beauty.'</li><li><strong>Rule 14:</strong> 'Rather' and 'Fairly' can mean moderately. 'Fairly' is used with favourable adjectives and adverbs while 'rather' is used with unfavourable adjectives and adverbs. e.g., 'She is fairly intelligent but my sister is rather stupid.', 'He did fairly well in her exams but his sister did rather badly.', 'He grew up in rather unusual circumstances.'</li><li><strong>Rule 15:</strong> 'Rather' can also be used when we are correcting something that we have just said. e.g., 'The process is not a circle but rather a spiral.'</li><li><strong>Rule 16:</strong> 'Rather' is used in case of preference—would rather, had rather, rather than are used to express preference. e.g., 'I would rather study than sleep.', 'I prefer getting up early rather than sleeping late.'</li><li><strong>Rule 17:</strong> We use 'rather' before verbs that introduce our thoughts and feelings, in order to express our opinion politely, especially when a different opinion has been expressed. e.g., 'I rather think that he was telling the truth.', 'I rather like the decorative effect.'</li><li><strong>Rule 18:</strong> Adverb 'as' should be used to introduce predicative of the verbs such as regard, describe, define, treat, view, know. e.g., 'I regard him as my elder brother.', 'The newspapers described the situation as horrible.', 'Biology is defined as the study of nature.'</li><li><strong>Rule 19:</strong> Adverb 'as' should not be used to introduce predicative of the verbs such as name, elect, think, consider, call, appoint, make, choose. e.g., 'He was considered the best dancer of his time.', 'He was appointed Governor by the President.', 'Saurav Ganguly was chosen the captain.', 'He was called dynamic by his mates.'</li><li><strong>Rule 20:</strong> Negative Adverbs should not be used with words that are already negative in sense. Two negatives in the same sentence should be avoided. Seldom, nowhere, never, nothing, hardly, scarcely, neither, barely, rarely are some of the Adverbs. Verbs like 'deny', 'forbid', and conjunctions like 'unless', 'until', 'lest', 'both' are in this category. e.g., 'No one scarcely practises all the exercises.' (X), 'Scarcely anyone practises all the exercises.' (✓). Also: 'I rarely went to meet anybody in my childhood.', 'She hardly knows anything about me.', 'He does nothing without ever consulting me.', 'He has denied that he was going there.', 'Walk steadily, lest you should fall.', 'Both of them are not coming.' (X), 'Neither of them is coming.' (✓).</li><li><strong>Rule 21:</strong> (a) 'Coward', 'miser', 'niggard', 'rogue' are Nouns. 'Cowardly', 'miserly', 'niggardly', 'roguish' are Adjectives. e.g., 'An officer is trained never to fight in a cowardly manner.', 'Although he seems brave, he is actually a coward.', 'It was a sheer cowardly act of violence.' (b) 'Fast' retains its form in both Adjective and Adverb. e.g., 'He is fast' (Adjective), 'He is running fast' (Adverb). (c) 'Direct' and 'Directly' are adverbs. Direct means straight and Directly means at once. e.g., 'Don't stop anywhere, return home direct.', 'Don't stop now, return home directly.' (d) 'Manly', 'masterly', 'slovenly', 'monthly', 'weekly', 'sickly', 'friendly' are Adjectives and should not be confused with Adverbs. e.g., 'He is earning fifty thousand rupees monthly / a month.', 'He is a friendly old man.'</li><li><strong>Rule 22:</strong> The use of 'never' for 'not' is incorrect, because 'never' means not ever. e.g., 'I never remember having met him.' (X), 'I do not remember ever having met him.' (✓), 'We met the other day, but he never referred to the matter.' (X), 'We met the other day, but he did not refer to the matter.' (✓).</li><li><strong>Rule 23:</strong> No sentence should begin with 'Due to'. It must be used after some form of the verb 'to be'. e.g., 'Due to bad weather, the match was abandoned.' (X), 'It was due to bad weather, the match was abandoned.' (✓).</li><li><strong>Rule 24:</strong> 'Cent-per cent' It should be 'hundred per cent'.</li><li><strong>Rule 25:</strong> 'Do the needful' It should be 'do what is necessary'.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Grammar rules regarding the correct usage of adverbs, negative constructions, and specific word choices in English."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 698
+  },
+  {
+    "id": "CDS-ENG-CONJ-001",
+    "subject": "English",
+    "chapter": "Conjunctions",
+    "topic": "Rules of Conjunctions",
+    "text": "<p>A conjunction is a part of speech that connects words, phrases, clauses or sentences. e.g. - and, but, while, though, although, lest etc.</p><h3>Rules of Conjunctions</h3><ul><li><strong>1.</strong> 'Scarcely' and 'Hardly' should be followed by <em>when</em> and not by <em>than</em>. e.g. - <em>Scarcely</em> had I started for the institute, <em>when</em> the rain started. <em>Hardly</em> had he arrived, <em>when</em> he had to leave again.</li><li><strong>2.</strong> 'No sooner' is followed by <em>than</em> and not by <em>when</em>. e.g. - <em>No sooner</em> had I left, <em>than</em> the rain started. <em>No sooner</em> did he arrive, <em>than</em> he had to leave.</li><li><strong>3.</strong> 'Seldom or never' and 'seldom if ever' are both correct, but 'seldom or ever' is incorrect. e.g. - He <em>seldom or never</em> goes to see movies in a theatre.</li><li><strong>4.</strong> 'Either-or', 'Neither-nor', 'not only-but also', 'both-and', 'whether-or' etc., should be followed by the same parts of speech or of the same function.</li><li><strong>5.</strong> The conjunctions 'though' (or although) and 'but' do the work of setting one statement against another by way of oppositions or contrast and therefore, the correlative of 'though' is 'yet' or a comma (,). e.g. - <em>Though</em> he worked hard <em>yet</em> he could not top the class.</li><li><strong>6.</strong> After the adjective 'other' (which is regarded as a kind of comparative), the only word that can be correctly used for contrasting one thing with another is 'than'. The prepositions <em>from</em>, <em>but</em>, <em>except</em> in such a connection are wrong. e.g. - He had no other option <em>than</em> to fight.</li><li><strong>7.</strong> Conjunction 'that' is not used in the following cases: (a) Direct narration. (b) Indirect speech, if the sentence is interrogative.</li><li><strong>8.</strong> In a 'not only......but also' sentence, the verb should agree with the noun or pronoun mentioned second, because this is the part being emphasised.</li><li><strong>9.</strong> 'Such as' is used to denote a category, whereas 'such that' emphasises the degree of something by mentioning its consequences.</li><li><strong>10.</strong> 'Both' is followed by <em>and</em> not by <em>as well as</em>. Besides, both has positive sense and cannot be used in negative sentences.</li><li><strong>11.</strong> 'Unless' means if not and therefore, it should not be used in a sentence or clause which is already negative.</li><li><strong>12.</strong> 'Lest' expresses a negative sense and therefore cannot be used with not. 'Should' is always used with 'lest'.</li><li><strong>13.</strong> When 'suppose' is used in the beginning of a sentence to denote a command or a request, it is not followed by if.</li><li><strong>14.</strong> Avoid the error of using 'than' for 'from' after the adjective <em>different</em>.</li><li><strong>15.</strong> 'Nothing else' should be followed by <em>but</em>, not by <em>than</em>.</li><li><strong>16.</strong> The use of Present tense after <em>as if</em> and <em>as though</em> should be avoided. [Subjunctive Mood].</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Comprehensive list of grammatical rules governing the usage of various conjunctions in English language for competitive exams."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 701
+  },
+  {
+    "id": "eng-conj-001",
+    "subject": "English",
+    "chapter": "Spotting the Errors",
+    "topic": "Errors of Conjunction",
+    "text": "<p><strong>Spotting the Errors Set 7: Errors of Conjunction</strong></p><p>Directions: Which part of the given sentences has an error? In case, there is no error, choose option (d).</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A set of 30 practice questions focusing on identifying errors related to conjunctions in English sentences, accompanied by explanations for the first 12 questions."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 702
+  },
+  {
+    "id": "CDS-PATH-418-PREP-001",
+    "subject": "English",
+    "chapter": "Preposition",
+    "topic": "Some Important Prepositions",
+    "text": "<p>Preposition is a word that connects a noun, pronoun to another word, especially to a verb, another noun or an adjective.</p><ul><li><strong>In:</strong> Used for bigger places (towns, cities, countries) while 'at' is used for smaller places. e.g., I live at Shastri Nagar in Meerut.</li><li><strong>In / Into:</strong> 'In' is used in speaking of things at rest. 'Into' is used in speaking of things in motion. e.g., He is shopping in the market; He jumped into the well; He is falling in love; He is in the office; The snake crawled into the hole; The cup broke-off into a hundred pieces.</li><li><strong>On / Upon:</strong> 'On' denotes position, 'upon' denotes movement. e.g., The cat is on the table; The cat pounced upon the mouse.</li><li><strong>With / By:</strong> 'With' denotes the 'instrument' and 'by' denotes the 'agent'. e.g., The letter was written by him with his pen; The music was generated by/with a guitar; The murder was committed by him with a pistol; The ball was hit by the batsman with his bat.</li><li><strong>Ago / Before:</strong> 'Ago' refers to past time while 'before' denotes precedence between two events. e.g., Long ago, there was a king named Rama; Ram existed before Mahabharata was fought; He came before me; The train arrived before the scheduled time; India achieved independence 69 years ago.</li><li><strong>Above / Below / Over / Under:</strong> 'Above' and 'below' merely denote position while 'over' and 'under' also carry a sense of covering or movement. e.g., We live below the roof; Sky is above us; Train is running under the bridge; The train is standing below the bridge; The bird is flying over the pond; A wire is passing above the building; I was wearing two sweaters under the jacket.</li><li><strong>Under:</strong> Used before a noun to indicate that a person or thing is being affected by something or is going through a particular process. e.g., I'm rarely under pressure and my co-workers are always nice to me. Can also mean junior in ranks, e.g., He is under me. If something happens 'under' a particular person or government, it happens when that person or government is in power. e.g., There will be no new taxes under his leadership.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and usage rules for common English prepositions including In, Into, On, Upon, With, By, Ago, Before, Above, Below, Over, and Under."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 703
+  },
+  {
+    "id": "eng-spotting-errors-419",
+    "subject": "English",
+    "chapter": "Spotting the Errors",
+    "topic": "Prepositional Usage and Verb Rules",
+    "text": "<p>Rules for correct usage of prepositions and verbs:</p><ul><li><strong>Under vs Beneath:</strong> 'Under' is used for a particular name. 'Beneath' is used for abstract meanings.</li><li><strong>Time Expressions:</strong> 'On time' (right time), 'In time' (not late), 'In good time' (comfortable margin).</li><li><strong>Beginning/End:</strong> 'At the beginning/end' refers to literal points. 'In the beginning' implies early stage/change. 'In the end' implies eventually.</li><li><strong>Verb Constraints:</strong> No preposition is used after verbs like: Order, request, reach, attack, resemble, emphasise, accompany, discuss, investigate, comprise, enter, flee, join, affect, board.</li><li><strong>Verbs of Communication:</strong> Omit 'to' after advise, tell, ask, beg, command, encourage, request, inform, order.</li><li><strong>Till vs Until:</strong> 'Till' is for time, 'until' for indefinite time. 'Until' is used at the start of a sentence.</li><li><strong>Prepositional Pairs:</strong> Do not use the same preposition for two words if they require different ones (e.g., 'different from' and 'inferior to').</li><li><strong>Since vs From:</strong> 'Since' is used for a point of time (perfect tense), 'from' is used for other tenses.</li><li><strong>Time Phrases:</strong> Use 'in' for morning, afternoon, evening. Use 'at' for dawn, daybreak, noon, midday, midnight. No preposition is used if qualified by 'last' or 'next'.</li><li><strong>Across vs Through:</strong> 'Across' a road, 'through' a tunnel.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Grammar rules focusing on common prepositional errors and verb usage in English."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 704
+  },
+  {
+    "id": "CDS_PATHFINDER_PREP_001",
+    "subject": "English",
+    "chapter": "Spotting the Errors",
+    "topic": "Errors of Preposition",
+    "text": "<p><strong>17. Between/Among:</strong> 'Between' is used while referring to two persons/things whereas 'Among' is used for more than two.</p><ul><li>e.g. - <em>Between</em> the two of you, who is stronger?</li><li>e.g. - The sweets are to be distributed <em>among</em> ten friends.</li></ul><p><strong>18. Beside/Besides:</strong> 'Beside' means by the side of, whereas 'Besides' means in addition to.</p><ul><li>e.g. - <em>Besides</em> eating, he is also watching T.V.</li><li>e.g. - You were sitting <em>beside</em> him.</li></ul><p><strong>19. From/Between:</strong> 'From' is normally used with to/till, whereas 'Between' is used with and.</p><ul><li>e.g. - He works <em>from</em> nine to six (or nine till six).</li><li>e.g. - The meeting was scheduled to be held <em>between</em> 2 pm and 3 pm.</li></ul><p><strong>20. Within/In:</strong> 'Within' means before the end of time, whereas 'In' means at the end of time.</p><ul><li>e.g. - He will return <em>in</em> five minutes.</li><li>e.g. - He will return <em>within</em> five minutes.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Grammar rules regarding the correct usage of prepositions: Between/Among, Beside/Besides, From/Between, and Within/In."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 705
+  },
+  {
+    "id": "eng-spotting-errors-001",
+    "subject": "English",
+    "chapter": "Spotting the Errors",
+    "topic": "Grammar Rules and Explanations",
+    "text": "<p>This section provides explanations for common errors in English grammar based on CDS exam patterns.</p><ul><li><strong>One of the:</strong> Takes a plural noun (e.g., 'bad habits').</li><li><strong>Scenery/Furniture/Luggage:</strong> These words are always used in a singular form.</li><li><strong>Mob:</strong> Refers to a group of people with one common thought of criminal consequence.</li><li><strong>Collective Nouns:</strong> 'Bouquet' is used for flowers, 'bunch' for grapes.</li><li><strong>Pluralization:</strong> 'Brother-in-law' becomes 'brothers-in-law'.</li><li><strong>Pronoun Agreement:</strong> Ensure pronouns match the number and gender of the antecedent (e.g., 'One of them' takes 'his', not 'their').</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanations for grammar errors covering collective nouns, singular/plural usage, and pronoun agreement."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 714
+  },
+  {
+    "id": "eng-spotting-errors-433",
+    "subject": "English",
+    "chapter": "Spotting the Errors",
+    "topic": "Grammar Rules and Error Corrections",
+    "text": "<p>This page provides explanations for spotting errors in English sentences. Key grammatical corrections include:</p><ul><li><strong>Tense usage:</strong> Use of past perfect for prior events (e.g., 99, 107, 116).</li><li><strong>Subject-Verb Agreement:</strong> Singular verbs for collective nouns like 'news' (109) and plural verbs after 'one of' (125).</li><li><strong>Prepositions:</strong> Correct usage of 'adhere to' (128), 'sympathise with' (132), and 'cope with' (110).</li><li><strong>Superfluous words:</strong> Removing redundant words like 'not' with 'lest' (104) and 'even' (117).</li><li><strong>Idiomatic usage:</strong> 'On foot' instead of 'by foot' (91), 'hundred rupee notes' (92).</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanations for error correction questions numbered 68 through 140."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 718
+  },
+  {
+    "id": "cds-pathfinder-434-grammar-rules",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Error Detection and Correction",
+    "text": "<p><strong>Grammar Correction Rules:</strong></p><ul><li><strong>141:</strong> 'Sceneries' is incorrect; 'scenery' is always used in the singular.</li><li><strong>142:</strong> Use 'Utmost' instead of 'primary' when referring to importance.</li><li><strong>144:</strong> Use 'we had driven for miles' instead of 'we were driving for miles'.</li><li><strong>145:</strong> Use 'but' instead of 'and' for contradictory statements.</li><li><strong>146:</strong> Use 'and' instead of 'or' when combining actions that happen together.</li><li><strong>147:</strong> Use 'for' instead of 'since' when defining a specific time period.</li><li><strong>148:</strong> Use 'besides' instead of 'beside' (beside means 'next to', besides means 'except for' or 'in addition to').</li><li><strong>149:</strong> Use 'the better' instead of 'the best' when comparing two objects.</li><li><strong>150:</strong> Use 'is' instead of 'are' when connecting two subjects with 'either or', as the verb depends on the nearer subject.</li><li><strong>151:</strong> Use 'those who accept it' instead of 'Whomever must accept it'; 'must' indicates compulsion.</li><li><strong>152:</strong> Use 'you' for being more organised; comparative degree is required.</li><li><strong>153:</strong> Use 'hard' instead of 'hardly' to convey the correct meaning.</li><li><strong>154:</strong> Use 'who' instead of 'whom'; 'who' is nominative case, 'whom' is objective.</li><li><strong>155:</strong> Use 'looked after' instead of 'looked after for'.</li><li><strong>156:</strong> Use 'would' instead of 'will' in past tense sentences.</li><li><strong>157:</strong> 'All' should precede 'their'.</li><li><strong>158:</strong> Remove 'The' before 'temper' as it is an abstract noun.</li><li><strong>159:</strong> Use 'To that of his house' (Case of Attribute) when not followed by a preposition.</li><li><strong>160:</strong> Remove 'Of' after 'despite'.</li><li><strong>161:</strong> Use 'would' instead of 'will' when the reporting verb is in past tense.</li><li><strong>162:</strong> Remove 'Shall' when the condition is in present and the result is in future.</li><li><strong>163:</strong> Use 'Supports' instead of 'support' for the subjective case (singular).</li><li><strong>164:</strong> Use article 'a' before 'school teacher' as a countable noun.</li><li><strong>165:</strong> Use 'smoking' (gerund) instead of 'to smoke' (infinitive).</li><li><strong>166:</strong> Remove 'It' from the sentence.</li><li><strong>167:</strong> Use 'agree' instead of 'Agreeing'.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A collection of grammatical error correction rules for English language examinations."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 719
+  },
+  {
+    "id": "VOCAB_001",
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "topic": "Introduction to Vocabulary Building",
+    "text": "<p>Vocabulary comprises one of the most scoring sections in the CDS exam. A sound vocabulary is essential for cracking questions based on synonyms and antonyms.</p><p><strong>Steps to enrich vocabulary:</strong></p><ul><li><strong>Step I: Identify the Word</strong> - Look up the meaning of new words encountered in textbooks, newspapers, or magazines using a dictionary. Example: 'Antique' means 'old and often valuable'.</li><li><strong>Step II: Identify the Antonyms of that Word</strong> - Consider words with opposite meanings. Example: The opposite of 'Antique' is 'modern'.</li><li><strong>Step III: Identify the Synonyms of that Word</strong> - Learn words similar or closer in meaning to enhance language proficiency. Example: 'Antique' can be replaced by 'Traditional' or 'Ancient'.</li><li><strong>Step IV: Form a Proper Sentence</strong> - Use words in sentences to stimulate memory and ensure clarity. Example: 'People love to purchase antique items.'</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "This section introduces the importance of vocabulary for the CDS examination and outlines a four-step methodology for building vocabulary skills: identifying words, finding antonyms, finding synonyms, and forming sentences."
+    },
+    "mcq": null,
+    "source_pdf": "cds_material.pdf",
+    "source_page": 720
   }
 ]
