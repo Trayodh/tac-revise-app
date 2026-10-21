@@ -145974,5 +145974,329 @@
     "content": "### Fraction of Right Angle\\nA right angle measures $90^\\circ$.\\nTo find the measure of a fraction of a right angle:\\n$$ \\text{Angle} = \\text{Fraction} \\times 90^\\circ $$\\n*Example: $\\frac{3}{5}$ of a right angle = $\\frac{3}{5} \\times 90^\\circ = 54^\\circ$.*\\n\\n### Angle Relationships in Parallel Lines and Transversals\\n1. **Vertically Opposite Angles**: Equal in measure.\\n2. **Corresponding Angles**: Equal in measure when lines are parallel.\\n3. **Linear Pair**: Two adjacent angles whose non-common sides form a straight line. Their sum is $180^\\circ$.\\n   $$ \\angle A + \\angle B = 180^\\circ $$\\n\\n### Angles on a Straight Line\\nThe sum of angles on a straight line is $180^\\circ$.\\nIf angles $\\alpha, \\beta, \\gamma$ lie on a straight line:\\n$$ \\alpha + \\beta + \\gamma = 180^\\circ $$\\n\\n### Complementary Angle Calculation (DMS)\\nTo find the complement of an angle in Degrees, Minutes, Seconds (DMS):\\n1. Convert $90^\\circ$ to $89^\\circ 59' 60''$.\\n2. Subtract the given angle from this value.\\n*Example: Complement of $12^\\circ 25' 40''$ is $77^\\circ 34' 20''$.*",
     "source_pdf": "cds_material.pdf",
     "source_page": 529
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "subchapter": "Parallel Lines and Transversals",
+    "topic": "Angle Properties and Theorems",
+    "content": "### Key Theorems and Properties\n1. **Co-interior Angles (Same-side Interior Angles):** If two parallel lines are cut by a transversal, the sum of the co-interior angles is $180^\\circ$.\n   - Formula: $\\angle A + \\angle B = 180^\\circ$.\n2. **Alternate Angles:** If two parallel lines are cut by a transversal, the alternate interior angles are equal.\n   - Formula: $\\angle A = \\angle B$.\n3. **Corresponding Angles:** If two parallel lines are cut by a transversal, the corresponding angles are equal.\n   - Formula: $\\angle A = \\angle B$.\n4. **Vertically Opposite Angles:** When two lines intersect, the angles opposite each other are equal.\n   - Formula: $\\angle A = \\angle C$.\n5. **Linear Pair:** Two adjacent angles whose non-common sides form a straight line sum to $180^\\circ$.\n   - Formula: $\\angle A + \\angle B = 180^\\circ$.\n6. **Angle Sum Property of a Triangle:** The sum of the interior angles of a triangle is $180^\\circ$.\n   - Formula: $\\angle A + \\angle B + \\angle C = 180^\\circ$.\n7. **Reflex Angle:** The angle greater than $180^\\circ$ and less than $360^\\circ$. If the interior angle is $\\theta$, the reflex angle is $360^\\circ - \\theta$.\n\n### Problem Solving Techniques\n- **Auxiliary Lines:** Draw a line parallel to given parallel lines through a point between them to split a complex angle into two parts that can be solved using alternate or co-interior angle properties.\n- **Angle Bisectors:** If a line bisects an angle, it divides it into two equal halves. If the sum of two bisected angles is known, the third angle in the triangle can be found using the angle sum property.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 530
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Lines and Angles",
+    "topic": "Parallel Lines and Transversals",
+    "content": "### Key Concepts: Parallel Lines and Angles\n\n1. **Alternate Interior Angles**: When a transversal intersects two parallel lines, the alternate interior angles are equal.\n   - Example: If $PQ \\parallel RS$, then $\\angle PLM = \\angle LMS$.\n\n2. **Corresponding Angles**: Angles in the same relative position at each intersection are equal.\n   - Example: If lines are parallel, $\\angle DGE = \\angle GCF$.\n\n3. **Linear Pair**: Two adjacent angles whose non-common sides form a straight line sum to $180^\\circ$.\n   - Formula: $\\angle AOB + \\angle BOC = 180^\\circ$ (if AOB is a straight line).\n\n4. **Angle Bisector**: A ray that divides an angle into two equal parts.\n   - If $OF$ bisects $\\angle BOC$, then $\\angle BOF = \\angle FOC = \\frac{1}{2}\\angle BOC$.\n\n5. **Supplementary Angles**: Two angles are supplementary if their sum is $180^\\circ$.\n   - Supplement of angle $z$ is $180^\\circ - z$.\n\n6. **Transitive Property of Parallel Lines**: If line $a \\parallel b$ and line $b \\parallel c$, then line $a \\parallel c$.\n   - Example: If $PQ \\parallel RS$ and $RS \\parallel LM$, then $PQ \\parallel LM$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 531
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Quadratic Equations",
+    "topic": "Solving Quadratic Equations",
+    "content": "### Solving Quadratic Equations\n\n1. **Standard Form**: $ax^2 + bx + c = 0$.\n\n2. **Quadratic Formula**: The roots of $ax^2 + bx + c = 0$ are given by:\n   $$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$\n\n3. **Discriminant**: $D = b^2 - 4ac$.\n   - If $D > 0$, there are two distinct real roots.\n   - If $D = 0$, there is one real root.\n   - If $D < 0$, there are no real roots.\n\n4. **Application Example**:\n   - Given equation: $x^2 - 2x - 4 = 0$.\n   - Here $a=1, b=-2, c=-4$.\n   - $x = \\frac{-(-2) \\pm \\sqrt{(-2)^2 - 4(1)(-4)}}{2(1)} = \\frac{2 \\pm \\sqrt{4 + 16}}{2} = \\frac{2 \\pm \\sqrt{20}}{2} = \\frac{2 \\pm 2\\sqrt{5}}{2} = 1 \\pm \\sqrt{5}$.\n   - Roots: $x = 1 + \\sqrt{5}$ or $x = 1 - \\sqrt{5}$.\n   - Note: In geometric contexts, lengths must be positive. If $BC = 2 - x$, and $x = 1 - \\sqrt{5}$, then $BC = 2 - (1 - \\sqrt{5}) = 1 + \\sqrt{5}$. If $x = 1 + \\sqrt{5}$, $BC = 2 - (1 + \\sqrt{5}) = 1 - \\sqrt{5}$ (negative, so rejected if length is required).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 531
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Lines and Angles",
+    "subchapter": "Parallel Lines",
+    "topic": "Angle Relationships with Parallel Arms",
+    "content": "### Parallel Arms and Angle Relationships\n- **Case II** – When both pairs of arms are parallel in opposite sense, the corresponding angles are equal:\n  \\[ \\angle ABC = \\angle DEF \\]\n- **Case III** – When one pair of arms is parallel in the same direction and the other pair is parallel in opposite direction, the two angles are **supplementary**:\n  \\[ \\angle ABC + \\angle DEF = 180^{\\circ} \\]\n\n### Complementary and Supplementary Angles\n- **Complementary angles** sum to \\(90^{\\circ}\\).\n- **Supplementary angles** sum to \\(180^{\\circ}\\).\n- Example: If two complementary angles are \\(10^{\\circ}\\) and \\(\\theta\\), then:\n  \\[ 10^{\\circ} + \\theta = 90^{\\circ} \\Rightarrow \\theta = 80^{\\circ} \\]\n\n### Straight Line Angle Checks\nGiven angles:\n- \\(\\angle AOB = \\angle COD = 100^{\\circ}\\)\n- \\(\\angle BOC = 82^{\\circ}\\)\n- \\(\\angle AOD = 78^{\\circ}\\)\n\nChecking possible straight lines:\n1. If \\(AOC\\) is a straight line, then \\(\\angle AOB + \\angle BOC = 180^{\\circ}\\) → \\(100^{\\circ}+82^{\\circ}=182^{\\circ}\\) (not true).\n2. If \\(BOD\\) is a straight line, then \\(\\angle BOA + \\angle AOD = 180^{\\circ}\\) → \\(100^{\\circ}+78^{\\circ}=178^{\\circ}\\) (not true).\n3. If \\(\\angle BOC\\) and \\(\\angle AOD\\) are supplementary, then \\(82^{\\circ}+78^{\\circ}=160^{\\circ}\\) (not true).\nThus, none of the statements are correct.\n\n### Angles Formed by a Transversal Cutting Parallel Lines\n- When a transversal (line **P**) cuts **four** parallel lines \\(l, m, n, o\\), it creates **16 angles** in total.\n- Because the lines are parallel, only **two distinct angle measures** appear (denoted as \\(\\angle 1\\) and \\(\\angle 2\\)).\n\n### Solving Angles with Parallel Lines (Alternate Interior Angles)\nGiven lines **p** and **q** are parallel:\n1. \\(x\\) is found using the alternate‑angle relationship:\n   \\[ x = 60^{\\circ} \\]\n2. \\(y\\) is also an alternate angle:\n   \\[ y = 20^{\\circ} \\]\n3. Using the straight‑line sum (supplementary) for \\(x, y, z\\):\n   \\[ x + y + z = 180^{\\circ} \\Rightarrow z = 120^{\\circ} \\]\n\nThese results illustrate how parallel‑line theorems simplify angle calculations.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 532
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangle",
+    "subchapter": "Definition",
+    "topic": "Basic Properties of a Triangle",
+    "content": "A triangle is a closed plane figure bounded by three line segments. It is denoted by ∆. \n\n- **Vertices**: Three points A, B, and C.\n- **Sides**: Three line segments AB, BC, and CA.\n- **Angles**: Three interior angles ∠A, ∠B, and ∠C.\n- **Angle Sum**: The sum of the three interior angles is always 180°.\n- **Notation**: ∆ABC indicates a triangle with vertices A, B, and C.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 533
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangle",
+    "subchapter": "Area",
+    "topic": "Area Formula",
+    "content": "The area of a triangle can be calculated using the base and height:\n\n\\[\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}\\]\n\nFor a triangle ∆ABC, if BC is taken as the base and AD is the perpendicular height from vertex A to side BC, then:\n\n\\[\\text{Area} = \\frac{1}{2} \\times BC \\times AD\\]",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 533
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangle",
+    "subchapter": "Classification by Angles",
+    "topic": "Right‑Angled Triangle",
+    "content": "A triangle with one angle equal to 90° is called a right‑angled triangle. The side opposite the right angle is the **hypotenuse**; the other two sides are the **perpendicular** and **base** (depending on context). Example: In ∆ABC, if ∠B = 90°, then AC is the hypotenuse.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 533
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangle",
+    "subchapter": "Classification by Angles",
+    "topic": "Acute‑Angled Triangle",
+    "content": "A triangle where all three angles are greater than 0° and less than 90° is called an acute‑angled triangle. Example: ∆ABC where each angle is < 90°.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 533
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangle",
+    "subchapter": "Classification by Angles",
+    "topic": "Obtuse‑Angled Triangle",
+    "content": "A triangle with one angle greater than 90° but less than 180° is called an obtuse‑angled triangle. Example: In ∆ABC, if ∠ABC > 90°, then ∆ABC is obtuse‑angled.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 533
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangle",
+    "subchapter": "Exam Focus",
+    "topic": "Typical Topics in Competitive Exams",
+    "content": "In competitive exams such as NDA, CDS, and AFCAT, questions on triangles often cover:\n- Pythagoras theorem\n- Similarity of triangles\n- Mid‑point theorem\n- Basic properties and classifications",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 533
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "On the Basis of Sides",
+    "topic": "Equilateral Triangle",
+    "content": "### Equilateral Triangle\nA triangle having all sides equal is called an **equilateral triangle**.\n\nIn equilateral triangle $△ABC$:\n\n- $AB = BC = AC$\n- All angles are equal.\n- Each angle measures $60°$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 534
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "On the Basis of Sides",
+    "topic": "Isosceles Triangle",
+    "content": "### Isosceles Triangle\nA triangle in which two sides are equal is called an **isosceles triangle**.\n\nIn isosceles triangle $△ABC$, if $AB = AC$, then the angles opposite the equal sides are equal:\n\n- $∠B = ∠C$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 534
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Triangles",
+    "subchapter": "Basic Properties",
+    "topic": "Angle–Side Relationships",
+    "content": "1. **Congruent Angles ↔ Congruent Opposite Sides**\n   - If two angles of a triangle are equal, the sides opposite them are also equal.\n\n2. **Greater Angle ↔ Longest Side**\n   - In a triangle, the side opposite a greater angle is the longest side.\n\n3. **Sum of Interior Angles**\n   - The sum of all three interior angles of a triangle is **180°**.\n\n4. **Exterior Angle Theorem**\n   - If a side of a triangle is produced, the exterior angle formed is equal to the sum of the two interior opposite angles.\n   - An exterior angle of a triangle is greater than either of the interior opposite angles.\n\n5. **Acute Angle Requirement**\n   - A triangle must have at least two acute angles.\n\n---\n**Formulas**\n- None specific in this section.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 535
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Triangles",
+    "subchapter": "Right Triangle Properties",
+    "topic": "Perpendicular from Right Angle Vertex to Hypotenuse",
+    "content": "In a right‑angled triangle \\( \triangle ABC \\) with \\( \u0007ngle B = 90^\\circ \\) and hypotenuse \\( AC \\), dropping a perpendicular \\( BD \\) from the right‑angle vertex \\( B \\) to the hypotenuse \\( AC \\) yields:\n\n1. **Similarity**\n   - The two smaller triangles \\( \triangle ABD \\) and \\( \triangle CBD \\) are similar to each other and to the original triangle \\( \triangle ABC \\).\n\n2. **Length Relations**\n   - \\( \\displaystyle \frac{BD}{AB} = \frac{BC}{AC} \\)  (i)\n   - \\( \\displaystyle \frac{AD}{AB} = \frac{AB}{AC} \\)  (ii)\n   - \\( \\displaystyle \frac{CD}{BC} = \frac{BC}{AC} \\)  (iii)\n   - \\( \\displaystyle BD = \frac{AB \times BC}{AC} \\)  (iv)\n\nThese relations are useful for solving problems involving right triangles and their altitudes.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 535
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Triangles",
+    "subchapter": "Right Triangle Properties",
+    "topic": "Altitude to Hypotenuse in Obtuse and Acute Cases",
+    "content": "For a triangle \\( \triangle ABC \\) with \\( \u0007ngle B > 90^\\circ \\) (obtuse) and altitude \\( AD \\) dropped from \\( A \\) to side \\( BC \\):\n\n- \\( \\displaystyle AC = \frac{AB^2 + BC^2 + BC \times BD}{2BC} \\)\n\nFor \\( \u0007ngle B < 90^\\circ \\) (acute) with altitude \\( AD \\) from \\( A \\) to \\( BC \\):\n\n- \\( \\displaystyle AC = \frac{AB^2 + BC^2 - BC \times BD}{2BC} \\)\n\nThese formulas relate the hypotenuse to the legs and the foot of the altitude.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 535
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Triangles",
+    "subchapter": "Equilateral Triangle on Square",
+    "topic": "Area Comparison",
+    "content": "The area of an equilateral triangle constructed on a side of a square is **half** the area of an equilateral triangle constructed on the diagonal of the same square.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 535
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Triangles",
+    "subchapter": "Median and Side Relationships",
+    "topic": "Median Formula",
+    "content": "In any triangle \\( \triangle ABC \\), let \\( AD \\) be the median to side \\( BC \\). Then:\n\n- \\( \\displaystyle AB^2 + AC^2 = 2\\left( AD^2 + \\left(\frac{BC}{2}\right)^2 \right) \\)\n\nThis expresses that the sum of the squares of any two sides equals twice the sum of the square of the median to the third side and the square of half the third side.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 535
+  },
+  {
+    "subject": "Geometry",
+    "chapter": "Triangles",
+    "subchapter": "Median and Side Relationships",
+    "topic": "Three Times Sum of Squares (Incomplete)",
+    "content": "The page mentions a relation involving \"three times the sum of the squares\" of sides in a triangle, but the full formula is not provided in the excerpt.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 535
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Angle Bisectors",
+    "topic": "Relation between angle A and angle BOC (internal bisectors of B and C)",
+    "content": "In a triangle \\(\\triangle ABC\\), the internal bisectors of \\(\\angle B\\) and \\(\\angle C\\) intersect at the in‑center \\(O\\). The following relation holds:\n\n> \\[\\angle A = 90^{\\circ} + \\frac{1}{2}\\angle BOC\\]\n\nThis is a well‑known property of the in‑center: the angle subtended by the two bisectors at the in‑center equals \\(90^{\\circ} - \\frac{\\angle A}{2}\\), which can be rearranged to the above form.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Angle Bisectors",
+    "topic": "Relation between angle A and angle BOC (external bisectors)",
+    "content": "If the sides \\(AB\\) and \\(AC\\) of \\(\\triangle ABC\\) are produced to points \\(P\\) and \\(Q\\) respectively, and the external bisectors of \\(\\angle PBC\\) and \\(\\angle QCB\\) meet at a point \\(O\\), then:\n\n> \\[\\angle A = 90^{\\circ} - \\frac{1}{2}\\angle BOC\\]\n\nThus the external bisectors give a complementary relationship to the internal‑bisector case.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Angle Bisectors",
+    "topic": "Base‑angle bisectors never form a right angle",
+    "content": "In any triangle, the bisectors of the two base angles cannot be perpendicular to each other. Hence they never enclose a right angle.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Isosceles Triangle Criteria",
+    "topic": "Equal altitudes imply isosceles",
+    "content": "A triangle is isosceles **if and only if** any two of its altitudes are equal in length.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Exterior Angles",
+    "topic": "Sum of exterior angles",
+    "content": "When the three sides of a triangle are produced in order, the three exterior angles thus formed sum to \\(360^{\\circ}\\).\n\n> \\[\\angle DAB + \\angle EBC + \\angle ACF = 360^{\\circ}\\]\n\nwhere \\(D, E, F\\) are points on the extensions of \\(BC, CA, AB\\) respectively.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Triangle Inequality",
+    "topic": "Sum of any two sides",
+    "content": "For any triangle \\(\\triangle ABC\\):\n\n> \\[AB + AC > BC\\]\n> \\[AB + BC > AC\\]\n> \\[AC + BC > AB\\]\n\nThe sum of any two sides is always greater than the third side.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Triangle Inequality",
+    "topic": "Difference of any two sides",
+    "content": "For any triangle \\(\\triangle ABC\\):\n\n> \\[|AB - AC| < BC\\]\n> \\[|AB - BC| < AC\\]\n> \\[|AC - BC| < AB\\]\n\nThe absolute difference of any two sides is always less than the third side.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Isosceles Triangle Criteria",
+    "topic": "Bisector of vertex angle meeting base midpoint",
+    "content": "If the bisector of the vertex (vertical) angle of a triangle also bisects the opposite side (the base), then the triangle must be isosceles.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Isosceles Triangle Criteria",
+    "topic": "Altitude bisecting opposite side",
+    "content": "If the altitude drawn from one vertex of a triangle bisects the opposite side, the triangle is isosceles.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Isosceles Triangle Properties",
+    "topic": "Perpendiculars from equal angles",
+    "content": "In an isosceles triangle, the perpendiculars dropped from the vertices of the equal angles to the opposite sides are equal in length.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Equilateral Triangle",
+    "topic": "Medians of an equilateral triangle",
+    "content": "All three medians of an equilateral triangle are equal in length (they are also altitudes, angle bisectors, and perpendicular bisectors).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Right Triangle Median",
+    "topic": "Median to hypotenuse",
+    "content": "In a right‑angled triangle \\(\\triangle ABC\\) with right angle at \\(B\\), if \\(D\\) is the midpoint of the hypotenuse \\(AC\\), then:\n\n> \\[BD = \\frac{AC}{2}\\]\n\nThus the median to the hypotenuse equals half the hypotenuse.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Medians",
+    "topic": "Relation between sides and median",
+    "content": "For any triangle, the sum of any two sides is greater than twice the median drawn to the third side. Symbolically, if \\(m_a\\) is the median to side \\(a\\):\n\n> \\[b + c > 2m_a\\]\n\n(and similarly for the other sides).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "subchapter": "Medians",
+    "topic": "Perimeter vs. sum of medians",
+    "content": "The perimeter of a triangle is always greater than the sum of its three medians:\n\n> \\[AB + BC + CA > AD + BE + CF\\]\n\nwhere \\(AD, BE, CF\\) are the medians from vertices \\(A, B, C\\) respectively.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 536
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Incentre and Angle Properties",
+    "content": "### Incentre Angle Formula\nIf $I$ is the incentre of $\\triangle ABC$, then the angle subtended by the opposite side at the incentre is given by:\n$$ \\angle BIC = 90^\\circ + \\frac{1}{2} \\angle A $$\n\n**Example Application:**\nGiven $\\angle BIC = 108^\\circ$:\n$$ 108^\\circ = 90^\\circ + \\frac{1}{2} \\angle A $$\n$$ \\frac{1}{2} \\angle A = 108^\\circ - 90^\\circ = 18^\\circ $$\n$$ \\angle A = 36^\\circ $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 537
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Triangles",
+    "topic": "Right-Angled Triangle Properties",
+    "content": "### Altitude to Hypotenuse Theorem\nIn a right-angled triangle $ABC$ with $\\angle BAC = 90^\\circ$, if $AD$ is the perpendicular drawn from the right angle vertex $A$ to the hypotenuse $BC$:\n1. **Pythagorean Theorem in $\\triangle ABD$**: $AB^2 = AD^2 + BD^2$\n2. **Geometric Mean Theorem (Leg Rule)**: $AB^2 = BD \\times BC$\n\n**Calculation Example:**\nGiven $AD = 6$ cm and $BD = 4$ cm:\n1. Calculate $AB^2$: $AB^2 = 6^2 + 4^2 = 36 + 16 = 52$.\n2. Calculate $BC$: $52 = 4 \\times BC \\Rightarrow BC = \\frac{52}{4} = 13$ cm.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 537
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Congruence",
+    "topic": "Congruent Figures and Triangles",
+    "content": "### Definition of Congruent Figures\nGeometrical figures having the same shape and size are known as congruent figures.\n- Examples: Two circles of the same radii; two squares of the same side lengths.\n\n### Congruent Triangles\nTwo triangles are congruent if they are exactly of the same size, meaning all corresponding angles and sides are equal.\n\n**Properties of Congruence:**\n1. **Reflexive**: Every triangle is congruent to itself ($\\triangle ABC \\cong \\triangle ABC$).\n2. **Symmetric**: If $\\triangle ABC \\cong \\triangle DEF$, then $\\triangle DEF \\cong \\triangle ABC$.\n3. **Transitive**: If $\\triangle ABC \\cong \\triangle DEF$ and $\\triangle DEF \\cong \\triangle PQR$, then $\\triangle ABC \\cong \\triangle PQR$.\n\n**CPCT**: Corresponding Parts of Congruent Triangles are equal.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 537
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Congruence",
+    "topic": "Criteria for Congruence of Triangles",
+    "content": "### SAS Criteria (Theorem 1)\nTwo triangles are congruent if two sides and the included angle of one triangle are equal to the corresponding sides and the included angle of the other triangle.\n\n### ASA Criteria (Theorem 2)\nTwo triangles are congruent if two angles and the included side of one triangle are equal to the corresponding two angles and the included side of the other triangle.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 537
   }
 ]
