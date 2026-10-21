@@ -692128,5 +692128,376 @@
     "topic": "Trigonometric Equations",
     "source_pdf": "cds_material.pdf",
     "source_page": 503
+  },
+  {
+    "question_text": "Simplify the expression: $\\frac{\\tan A}{1+\\tan^2 A} + \\frac{\\cot A}{1+\\cot^2 A}$",
+    "options": {
+      "A": "$\\sin 2A$",
+      "B": "$\\cos 2A$",
+      "C": "$\\sin A \\cos A$",
+      "D": "$2 \\sin A \\cos A$"
+    },
+    "correct_answer": "A",
+    "explanation": "Using identities $1+\\tan^2 A = \\sec^2 A$ and $1+\\cot^2 A = \\csc^2 A$, the expression becomes $\\frac{\\tan A}{\\sec^2 A} + \\frac{\\cot A}{\\csc^2 A} = \\sin A \\cos A + \\sin A \\cos A = 2 \\sin A \\cos A = \\sin 2A$.",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Identities",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 505
+  },
+  {
+    "question_text": "If $\\sin \\theta = \\frac{x^2 - y^2}{x^2 + y^2}$, then $\\cos \\theta$ is equal to:",
+    "options": {
+      "A": "$\\frac{2xy}{x^2 + y^2}$",
+      "B": "$\\frac{x^2 + y^2}{2xy}$",
+      "C": "$\\frac{x^2 - y^2}{x^2 + y^2}$",
+      "D": "$\\frac{2x^2}{x^2 + y^2}$"
+    },
+    "correct_answer": "A",
+    "explanation": "Using $\\cos^2 \\theta = 1 - \\sin^2 \\theta$, we get $\\cos^2 \\theta = 1 - \\left(\\frac{x^2-y^2}{x^2+y^2}\\right)^2 = \\frac{4x^2y^2}{(x^2+y^2)^2}$. Taking the square root gives $\\cos \\theta = \\frac{2xy}{x^2+y^2}$.",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Algebraic Trigonometric Expressions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 505
+  },
+  {
+    "question_text": "The maximum value of $f(\\theta) = \\cos \\theta + \\sin \\theta$ is:",
+    "options": {
+      "A": "$1$",
+      "B": "$\\sqrt{2}$",
+      "C": "$2$",
+      "D": "$\\frac{1}{\\sqrt{2}}$"
+    },
+    "correct_answer": "B",
+    "explanation": "The maximum value of $a \\cos \\theta + b \\sin \\theta$ is $\\sqrt{a^2 + b^2}$. Here $a=1, b=1$, so max value is $\\sqrt{1^2+1^2} = \\sqrt{2}$.",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Maxima and Minima",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 505
+  },
+  {
+    "question_text": "For $\\theta$ in the first quadrant, the minimum value of $\\tan \\theta + \\cot \\theta$ is:",
+    "options": {
+      "A": "$1$",
+      "B": "$2$",
+      "C": "$\\sqrt{2}$",
+      "D": "$0$"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 505
+  },
+  {
+    "question_text": "Which angle has a sine value of \\(\\sqrt{3}/2\\)?",
+    "options": {
+      "A": "30°",
+      "B": "45°",
+      "C": "60°",
+      "D": "90°"
+    },
+    "correct_answer": "C",
+    "explanation": "The sine of 60° is \\(\\sqrt{3}/2\\). The other angles have sine values ½, \\(\\sqrt{2}/2\\), and 1 respectively.",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Basic Trigonometric Ratios",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 506
+  },
+  {
+    "question_text": "If \\(\\sin\\alpha = \\sqrt{3}/2\\), \\(\\cos\\beta = \\sqrt{3}/2\\), and \\(\\tan\\gamma = 1\\), what is the value of \\(\\alpha + \\beta + \\gamma\\)?",
+    "options": {
+      "A": "90°",
+      "B": "135°",
+      "C": "180°",
+      "D": "225°"
+    },
+    "correct_answer": "B",
+    "explanation": "From the given values, \\(\\alpha = 60°\\), \\(\\beta = 30°\\), and \\(\\gamma = 45°\\). Their sum is 60° + 30° + 45° = 135°.",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Angle Sum Problems",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 506
+  },
+  {
+    "question_text": "If $\\tan A + \\cot A = 4$, then the value of $\\tan^4 A + \\cot^4 A$ is:",
+    "options": {
+      "A": "192",
+      "B": "194",
+      "C": "196",
+      "D": "198"
+    },
+    "correct_answer": "B",
+    "explanation": "Squaring $\\tan A + \\cot A = 4$ gives $\\tan^2 A + \\cot^2 A + 2 = 16 \\Rightarrow \\tan^2 A + \\cot^2 A = 14$. Squaring this gives $\\tan^4 A + \\cot^4 A + 2 = 196 \\Rightarrow \\tan^4 A + \\cot^4 A = 194$.",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Identities",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 508
+  },
+  {
+    "question_text": "In a right-angled triangle ABC, $\\angle B = 90^\\circ$ and $AB:BC = 3:4$. The value of $\\sin A + \\sin B + \\sin C$ is:",
+    "options": {
+      "A": "$\\frac{10}{5}$",
+      "B": "$\\frac{12}{5}$",
+      "C": "$\\frac{14}{5}$",
+      "D": "$\\frac{16}{5}$"
+    },
+    "correct_answer": "B",
+    "explanation": "Using Pythagoras, sides are 3, 4, 5. $\\sin A = 4/5$, $\\sin B = 1$, $\\sin C = 3/5$. Sum = $4/5 + 1 + 3/5 = 12/5$.",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Ratios",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 508
+  },
+  {
+    "question_text": "If $\\sin x + \\cos x = C$, then the value of $\\sin^3 x + \\cos^3 x$ is:",
+    "options": {
+      "A": "$\\frac{3C - C^3}{2}$",
+      "B": "$\\frac{C^3 - 3C}{2}$",
+      "C": "$\\frac{3C + C^3}{2}$",
+      "D": "$C^3 - 3C$"
+    },
+    "correct_answer": "A",
+    "explanation": "Using $a^3+b^3 = (a+b)(a^2+b^2-ab)$, we get $C(1 - \\frac{C^2-1}{2}) = C(\\frac{3-C^2}{2}",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 508
+  },
+  {
+    "question_text": "If \\(x = 5\\), \\(y = 3\\), \\(z = 2\\), then the value of the expression \\(xy + yz + zx - (\\text{unspecified})\\) is:",
+    "options": {
+      "A": "125",
+      "B": "0",
+      "C": "-25",
+      "D": "10"
+    },
+    "correct_answer": null,
+    "explanation": "The original expression is not clearly readable; therefore the correct answer cannot be determined from the given text.",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Factorisation",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 409
+  },
+  {
+    "question_text": "The factors of \\(x^2 + 2x - 3\\) are:",
+    "options": {
+      "A": "(x + 3)2",
+      "B": "(x - 3)2",
+      "C": "(x + 3)(x - 1)",
+      "D": "(x + 2)(x + 3)"
+    },
+    "correct_answer": "C",
+    "explanation": "\\(x^2 + 2x - 3 = (x + 3)(x - 1)\\) because \\(3 \\times (-1) = -3\\) and \\(3 + (-1) = 2\\).",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Quadratic Trinomial",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 409
+  },
+  {
+    "question_text": "The factors of \\(a^4 + b^4 + c^4 - 16\\) are:",
+    "options": {
+      "A": "(a^2 + b^2 + c^2)(ab + bc + ca) - 2(ab + bc + ca)",
+      "B": "(a^2 + b^2 - c^2)(ab - bc + ca) + 2(ab + bc + ca)",
+      "C": "(a^2 + b^2 + c^2)(ab + bc + ca) + 2(ab + bc + ca)",
+      "D": "(a^2 + b^2 - c^2)(ab - bc + ca) - 2(ab + bc + ca)"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 409
+  },
+  {
+    "question_text": "The HCF of p(x)= (x⁴ – 2x³ – 6x² + 24x) and q(x)= (x⁴ + 2x³ + 5x² + 20x) is:",
+    "options": {
+      "A": "4x+2 / (x+1)",
+      "B": "(x²+2)/(x+1)",
+      "C": "4x²",
+      "D": "None of these"
+    },
+    "correct_answer": "D",
+    "explanation": "Both polynomials share a numerical GCF of 2 and an algebraic factor of (x²+1). None of the listed options represent 2(x²+1), therefore the correct choice is 'None of these'.",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Highest Common Factor (HCF) of Polynomials",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 418
+  },
+  {
+    "question_text": "The HCF of 2x⁶ – 78x⁵ – 16x⁴ – 6x³ – 5x² – 2x and 2x⁶ – 78x⁵ – 44x⁴ – 5x³ – 2x is:",
+    "options": {
+      "A": "(x² – 3x – 2)",
+      "B": "2(x² – 3x – 2)",
+      "C": "22(x² – 3x – 2)",
+      "D": "None of these"
+    },
+    "correct_answer": "B",
+    "explanation": "Applying the successive division method, the last non‑zero remainder is (x² – 3x – 2). The common numerical factor extracted initially is 2, giving the HCF as 2(x² – 3x – 2). Hence option B is correct.",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Highest Common Factor (HCF) of Polynomials",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 418
+  },
+  {
+    "question_text": "What is the LCM of \\(\\frac{ab}{3} - \\frac{ab}{3}\\) , \\(\\frac{ab}{a b^{2}} + \\frac{ab}{a b^{3}}\\) and \\(\\frac{ab}{a} + \\frac{b}{b}\\) ?",
+    "options": {
+      "A": "\\(\\frac{a b}{a^{2}} - \\frac{b^{2}}{2}\\)",
+      "B": "\\(\\frac{ab}{a b^{2}} - \\frac{b^{2}}{2}\\)",
+      "C": "\\(\\frac{a b}{ab^{2}} + \\frac{b^{2}}{3}\\)",
+      "D": "\\(\\frac{a b}{a^{3}} - \\frac{b^{2}}{2}\\)"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "subject": "Mathematics",
+    "chapter": "Polynomials",
+    "topic": "LCM of Algebraic Expressions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 421
+  },
+  {
+    "question_text": "What is the HCF of \\(36x^{5} - 2x^{4} + 3x^{2} - 4\\), \\(9x^{6} - 4x^{2} + 3x^{2} - 2\\) and \\(54x^{27} - 4\\) ?",
+    "options": {
+      "A": "\\(9x + 1\\)",
+      "B": "\\(9x^{3} - 1\\)",
+      "C": "\\(18x^{3} - 1\\)",
+      "D": "\\(18x + 1\\)"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "subject": "Mathematics",
+    "chapter": "Polynomials",
+    "topic": "HCF of Polynomials",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 421
+  },
+  {
+    "question_text": "What is the HCF of the polynomials \\(x^{3} + 2x^{2} + 8x + 5\\) and \\(x^{3} + 2x^{2} + 4x + 8\\) ?",
+    "options": {
+      "A": "x + 2",
+      "B": "x + 3",
+      "C": "(x + 2)^{2}",
+      "D": "None of these"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "subject": "Mathematics",
+    "chapter": "Polynomials",
+    "topic": "HCF of Polynomials",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 421
+  },
+  {
+    "question_text": "The LCM of \\(x^{3} - 2x^{2} - x\\) and \\(x^{3} + 2x\\) is",
+    "options": {
+      "A": "x^{3} - 2x^{2} - x",
+      "B": "x^{2} + x",
+      "C": "x^{4} - 3x^{2} - 2",
+      "D": "x - 2"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "subject": "Mathematics",
+    "chapter": "Polynomials",
+    "topic": "LCM of Polynomials",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 421
+  },
+  {
+    "question_text": "The HCF of \\(x^{4} - y\\) and \\(x^{6} - y\\) is",
+    "options": {
+      "A": "x^{2} - y",
+      "B": "x - y",
+      "C": "x^{3} - y",
+      "D": "x^{4} - y"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "subject": "Mathematics",
+    "chapter": "Polynomials",
+    "topic": "HCF of Polynomials",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 421
+  },
+  {
+    "question_text": "What is the LCM of \\(x^{2} + 3x - 4\\) and \\(x^{2} + 4\\) ?",
+    "options": {
+      "A": "\\(\\frac{x^{2}(x+4)}{x^{2}-4}\\)",
+      "B": "\\(\\frac{x^{2}(x+4)}{x^{2}}\\)",
+      "C": "\\(\\frac{x^{2}(x+4)}{x^{2}+4}\\)",
+      "D": "\\(\\frac{x^{2}(x+4)}{(x^{2}+4)(x^{2}-4)}\\)"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "subject": "Mathematics",
+    "chapter": "Polynomials",
+    "topic": "LCM of Polynomials",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 421
+  },
+  {
+    "question_text": "What is the HCF of \\(a^{2}b^{2} + 4a^{2}b^{2}\\) and \\(ab^{7} - 2ab^{9}\\) ?",
+    "options": {
+      "A": "ab",
+      "B": "a b^{2}",
+      "C": "a b^{2}",
+      "D": "a b^{3}"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "subject": "Mathematics",
+    "chapter": "Polynomials",
+    "topic": "HCF of Algebraic Expressions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 421
+  },
+  {
+    "question_text": "What is the HCF of \\(8x^{5} - 3x^{3} + x\\) and \\(28x + 1\\) ?",
+    "options": {
+      "A": "\\(\\frac{4x^{2} - 1}{x}\\)",
+      "B": "\\(\\frac{2x^{2} - 1}{x}\\)",
+      "C": "\\(\\frac{x^{2} - 1}{2x}\\)",
+      "D": "None of these"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "subject": "Mathematics",
+    "chapter": "Polynomials",
+    "topic": "HCF of Polynomials",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 421
+  },
+  {
+    "question_text": "What is the highest common factor of \\(2x^{3} - 2x^{2} - x\\) and \\(3x^{2} - 3x^{2} + 2x - 1\\) ?",
+    "options": {
+      "A": "x - 1",
+      "B": "x + 1",
+      "C": "2x + 1",
+      "D": "2x - 1"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "subject": "Mathematics",
+    "chapter": "Polynomials",
+    "topic": "HCF of Polynomials",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 421
+  },
+  {
+    "question_text": "The HCF and LCM of two polynomials are \\(x + y\\) and \\(\\frac{3x^{5} + 2y^{3} - 5x^{4} + 2y^{2}}{x^{2}y^{2} - xy + y^{2}}\\) respectively. If one of the polynomials is \\(x^{2} - y^{2}\\), then the other polynomial is",
+    "options": {
+      "A": "\\(\\frac{3x^{8} + 10x^{7} - 2x^{4} + 3x^{2} - 2y^{4}}{x^{2}y^{2} - xy + y^{2}}\\)",
+      "B": "\\(\\frac{3x^{8} + 10x^{7} - 2x^{4} - 3x^{2} + 2y^{4}}{x^{2}y^{2} - xy + y^{2}}\\)",
+      "C": "\\(\\frac{3x^{8} + 10x^{7} - 2x^{4} + 3x^{2} + 2y^{4}}{x^{2}y^{2} - xy + y^{2}}\\)",
+      "D": "\\(\\frac{3x^{8} + 10x^{7} - 2x^{4} + 3x^{2} + 2y^{4}}{x^{2}y^{2} - xy + y^{2}}\\)"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "subject": "Mathematics",
+    "chapter": "Polynomials",
+    "topic": "HCF and LCM Relationship",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 421
   }
 ]

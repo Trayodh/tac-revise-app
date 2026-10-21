@@ -144246,5 +144246,176 @@
     "content": "1 degree = \\(\\frac{\\pi}{180}\\) rad ≈ **0.01745 rad** (less than 0.03 rad).\\n\\n1 radian = \\(\\frac{180}{\\pi}\\)° ≈ **57.2958°** (greater than 45°).\\nBoth conversion statements are therefore **true**.",
     "source_pdf": "cds_material.pdf",
     "source_page": 503
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Trigonometric Identities and Simplification",
+    "topic": "Simplification of Compound Angles",
+    "content": "### Identity Simplification\\nThe expression $\\frac{\\tan A}{1+\\tan^2 A} + \\frac{\\cot A}{1+\\cot^2 A}$ simplifies to $\\sin A \\cos A$.\\n\\n**Derivation:**\\n1. Recall that $1 + \\tan^2 A = \\sec^2 A$ and $1 + \\cot^2 A = \\csc^2 A$.\\n2. The expression becomes $\\frac{\\tan A}{\\sec^2 A} + \\frac{\\cot A}{\\csc^2 A}$.\\n3. Substitute $\\tan A = \\frac{\\sin A}{\\cos A}$ and $\\sec A = \\frac{1}{\\cos A}$:\\n   $$ \\frac{\\frac{\\sin A}{\\cos A}}{\\frac{1}{\\cos^2 A}} = \\sin A \\cos A $$\\n4. Similarly, $\\frac{\\cot A}{\\csc^2 A} = \\sin A \\cos A$.\\n5. Sum: $\\sin A \\cos A + \\sin A \\cos A = 2 \\sin A \\cos A = \\sin 2A$.\\n\\n*Note: The provided text solution indicates a result related to $\\sec A + \\csc A$ or similar complex fractions, but the standard identity for the sum of these specific terms is $\\sin 2A$. The text shows a derivation leading to $\\frac{2}{\\sin A \\cos A}$ or similar structures depending on the exact initial fraction layout which is garbled in OCR. Based on Q135 context, it likely involves simplifying $\\frac{1}{\\tan A + \\cot A}$ or similar.*\\n\\n**Key Formula:**\\n$$ \\tan A + \\cot A = \\frac{\\sin A}{\\cos A} + \\frac{\\cos A}{\\sin A} = \\frac{\\sin^2 A + \\cos^2 A}{\\sin A \\cos A} = \\frac{1}{\\sin A \\cos A} = 2 \\csc 2A $$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 505
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Trigonometric Identities and Simplification",
+    "topic": "Componendo and Dividendo Rule",
+    "content": "### Componendo and Dividendo Rule\\nIf $\\frac{a}{b} = \\frac{c}{d}$, then:\\n$$ \\frac{a+b}{a-b} = \\frac{c+d}{c-d} $$\\n\\n**Application in Trigonometry:**\\nUsed to simplify expressions involving sums and differences of trigonometric functions.\\n\\n**Example from Text (Q136):**\\nGiven $a^2 = \\frac{1}{\\sin \\theta \\cos \\theta} - \\frac{1}{\\sin \\theta \\cos \\theta}$ (Note: OCR is garbled, but the solution path uses componendo-dividendo).\\n\\nStandard Application:\\nIf $\\frac{\\sin \\theta + \\cos \\theta}{\\sin \\theta - \\cos \\theta} = k$, then:\\n$$ \\frac{\\sin \\theta + \\cos \\theta}{\\sin \\theta - \\cos \\theta} = \\frac{\\tan \\theta + 1}{\\tan \\theta - 1} $$\\n\\nThe text demonstrates deriving $\\tan \\theta$ from an equation involving $a$ and trigonometric sums/differences by applying the rule:\\n$$ \\frac{a+1}{a-1} = \\frac{\\sin \\theta + \\cos \\theta}{\\sin \\theta - \\cos \\theta} = \\tan \\theta $$\\n(This specific step implies a specific relationship between $a$ and the trig terms).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 505
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Trigonometric Identities and Simplification",
+    "topic": "Algebraic Trigonometric Expressions",
+    "content": "### Finding Cosine from Sine (Algebraic Form)\\nGiven $\\sin \\theta = \\frac{x^2 - y^2}{x^2 + y^2}$, find $\\cos \\theta$.\\n\\n**Method:**\\n1. Use the identity $\\cos^2 \\theta = 1 - \\sin^2 \\theta$.\\n2. Substitute the given value:\\n   $$ \\cos^2 \\theta = 1 - \\left( \\frac{x^2 - y^2}{x^2 + y^2} \\right)^2 $$\\n3. Simplify using difference of squares $a^2 - b^2 = (a-b)(a+b)$:\\n   $$ \\cos^2 \\theta = \\frac{(x^2 + y^2)^2 - (x^2 - y^2)^2}{(x^2 + y^2)^2} $$\\n   $$ \\cos^2 \\theta = \\frac{[(x^2 + y^2) - (x^2 - y^2)][(x^2 + y^2) + (x^2 - y^2)]}{(x^2 + y^2)^2} $$\\n   $$ \\cos^2 \\theta = \\frac{(2y^2)(2x^2)}{(x^2 + y^2)^2} = \\frac{4x^2 y^2}{(x^2 + y^2)^2} $$\\n4. Take the square root:\\n   $$ \\cos \\theta = \\frac{2xy}{x^2 + y^2} $$\\n\\n**Result:**\\nIf $\\sin \\theta = \\frac{x^2 - y^2}{x^2 + y^2}$, then $\\cos \\theta = \\frac{2xy}{x^2 + y^2}$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 505
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Maxima and Minima",
+    "topic": "Range of Trigonometric Functions",
+    "content": "### Maximum and Minimum Values\\n\\n**1. Function $f(\\theta) = a \\cos \\theta + b \\sin \\theta$**\\n- Maximum Value: $\\sqrt{a^2 + b^2}$\\n- Minimum Value: $-\\sqrt{a^2 + b^2}$\\n- Range: $[-\\sqrt{a^2 + b^2}, \\sqrt{a^2 + b^2}]$\\n\\n**Example:** For $f(\\theta) = \\cos \\theta + \\sin \\theta$ (where $a=1, b=1$):\\n- Max Value: $\\sqrt{1^2 + 1^2} = \\sqrt{2}$\\n- Min Value: $-\\sqrt{2}$\\n- Range: $[-\\sqrt{2}, \\sqrt{2}]$\\n\\n**2. Function $g(\\theta) = \\tan \\theta + \\cot \\theta$**\\n- Using AM-GM Inequality (for $\\theta$ in first quadrant where terms are positive):\\n  $$ \\tan \\theta + \\cot \\theta \\ge 2\\sqrt{\\tan \\theta \\cdot \\cot \\theta} = 2\\sqrt{1} = 2 $$\\n- Therefore, $\\tan \\theta + \\cot \\theta \\ge 2$.\\n- Since $2 > 1$, the statement that it is always greater than 1 is **True**.\\n- Note: The function is undefined at $\\theta = 0, \\pi/2$, etc. In the interval $(0, \\pi/2)$, the minimum value is 2.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 505
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Quadrilaterals",
+    "topic": "Sum of Interior Angles",
+    "content": "### Sum of Interior Angles of a Quadrilateral\\nThe sum of the interior angles of any quadrilateral is always $360^\\circ$.\\n\\n**Problem Solving Strategy:**\\nIf the angles of a quadrilateral are given in terms of a variable (e.g., $x, 2x, 4x, 5x$):\\n1. Set up the equation: $x + 2x + 4x + 5x = 360^\\circ$.\\n2. Solve for $x$:\\n   $$ 12x = 360^\\circ \\implies x = 30^\\circ $$\\n3. Calculate individual angles:\\n   - $\\angle A = x = 30^\\circ$\\n   - $\\angle B = 2x = 60^\\circ$\\n   - $\\angle C = 4x = 120^\\circ$\\n   - $\\angle D = 5x = 150^\\circ$\\n\\n**Verification:**\\n$30^\\circ + 60^\\circ + 120^\\circ + 150^\\circ = 360^\\circ$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 505
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Trigonometric Ratios",
+    "topic": "Definitions and Basic Identities",
+    "content": "# Trigonometric Ratios\\n\\n**Definitions**\\n- \\u03C3 (sin) of an angle in a right‑angled triangle = \\u2018opposite side\\u2019 / \\u2018hypotenuse\\u2019.\\n- \\u03C4 (cos) = \\u2018adjacent side\\u2019 / \\u2018hypotenuse\\u2019.\\n- \\u03C4 (tan) = \\u2018opposite side\\u2019 / \\u2018adjacent side\\u2019 = sin / cos.\\n- \\u03C3\\u00B2 (cosec) = 1 / sin.\\n- \\u03C3\\u00B1 (sec) = 1 / cos.\\n- \\u03C4\\u00B1 (cot) = 1 / tan = cos / sin.\\n\\n**Fundamental Identity**\\n- \\u03C3² + \\u03C4² = 1.\\n\\n**Derived Identities**\\n- \\u03C4 = \\u03C3 / \\u03C4.\\n- \\u03C3\\u00B2 = 1 – \\u03C4².\\n- \\u03C3\\u00B1 = 1 / \\u03C4.\\n- \\u03C4\\u00B1 = \\u03C4 / \\u03C3.\\n\\n**Complementary Angle Relations**\\n- sin(90° – θ) = cos θ.\\n- cos(90° – θ) = sin θ.\\n- tan(90° – θ) = cot θ.\\n- sec(90° – θ) = csc θ.\\n- csc(90° – θ) = sec θ.\\n\\n**Special Angle Values**\\n| Angle | sin | cos | tan |\\n|-------|-----|-----|-----|\\n| 30°   | ½   | √3/2| 1/√3|\\n| 45°   | √2/2| √2/2| 1   |\\n| 60°   | √3/2| ½   | √3 |\\n\\n**Key Identity**\\n- (sec θ – tan θ)(sec θ + tan θ) = 1.\\n\\n**Right‑Angled Triangle Properties**\\n- In a right‑angled triangle, the sum of the two acute angles is 90°.\\n- sin C = cos B, cos C = sin B, tan C = cot B.\\n\\n**Inequalities**\\n- For 0° < θ < 45°, cos θ > sin θ.\\n- For 45° < θ < 90°, sin θ > cos θ.\\n\\n**Trigonometric Function Behavior**\\n- tan θ increases faster than sin θ as θ increases from 0° to 90°.\\n- The expression sin θ + cos θ is always ≤ √2 and ≥ 0.\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 506
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Complementary Angles",
+    "topic": "Complementary Angle Identities",
+    "content": "# Complementary Angles\\n\\nTwo angles are complementary if their sum is 90°. For any angle θ:\\n\\n- sin(90° – θ) = cos θ\\n- cos(90° – θ) = sin θ\\n- tan(90° – θ) = cot θ\\n- sec(90° – θ) = csc θ\\n- csc(90° – θ) = sec θ\\n\\n**Applications**\\n- In a right‑angled triangle, if one acute angle is θ, the other is 90° – θ.\\n- This leads to relationships such as sin C = cos B and cos C = sin B.\\n\\n**Common Mistakes**\\n- Confusing complementary with supplementary angles (sum 180°).\\n- Forgetting that tan(90° – θ) = cot θ, not tan θ.\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 506
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Trigonometric Identities",
+    "topic": "Product-to-Sum and Reciprocal Identities",
+    "content": "# Product-to-Sum and Reciprocal Identities\\n\\n**Reciprocal Identities**\\n- sec θ = 1 / cos θ\\n- csc θ = 1 / sin θ\\n- cot θ = 1 / tan θ\\n\\n**Product Identity**\\n- (sec θ – tan θ)(sec θ + tan θ) = 1\\n  - Proof: Expand the product to get sec² θ – tan² θ = 1, using sec² θ – tan² θ = 1.\\n\\n**Useful Transformations**\\n- sec θ – tan θ = 1 / (sec θ + tan θ)\\n- sec θ + tan θ = 1 / (sec θ – tan θ)\\n\\n**Applications**\\n- Simplifying expressions involving sec and tan.\\n- Solving equations where sec θ ± tan θ appear.\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 506
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Trigonometric Identities and Equations",
+    "topic": "Solving for tan^4 A + cot^4 A",
+    "content": "### Problem: Find the value of $\\tan^4 A + \\cot^4 A$ given $\\tan A + \\cot A = 4$.\\n\\n**Step-by-Step Derivation:**\\n1. **Given:** $\\tan A + \\cot A = 4$\\n2. **Square both sides:**\\n   $$(\\tan A + \\cot A)^2 = 4^2$$\\n   $$\\tan^2 A + \\cot^2 A + 2\\tan A \\cot A = 16$$\\n   Since $\\tan A \\cot A = 1$:\\n   $$\\tan^2 A + \\cot^2 A + 2(1) = 16$$\\n   $$\\tan^2 A + \\cot^2 A = 14$$\\n3. **Square the result again:**\\n   $$(\\tan^2 A + \\cot^2 A)^2 = 14^2$$\\n   $$\\tan^4 A + \\cot^4 A + 2\\tan^2 A \\cot^2 A = 196$$\\n   Since $\\tan^2 A \\cot^2 A = (\\tan A \\cot A)^2 = 1^2 = 1$:\\n   $$\\tan^4 A + \\cot^4 A + 2(1) = 196$$\\n   $$\\tan^4 A + \\cot^4 A = 194$$\\n\\n**Key Identity Used:**\\n- $(a+b)^2 = a^2 + b^2 + 2ab$\\n- $\\tan A \\cot A = 1$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 508
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Trigonometric Ratios in Right Triangles",
+    "topic": "Sum of Sines in a Right-Angled Triangle",
+    "content": "### Problem: In right-angled $\\triangle ABC$ with $\\angle B = 90^\\circ$, if $AB:BC = 3:4$, find $\\sin A + \\sin B + \\sin C$.\\n\\n**Derivation:**\\n1. **Given Ratio:** $\\frac{AB}{BC} = \\frac{3}{4}$. Let $AB = 3x$ and $BC = 4x$.\\n2. **Pythagorean Theorem:**\\n   $$AC^2 = AB^2 + BC^2$$\\n   $$AC^2 = (3x)^2 + (4x)^2 = 9x^2 + 16x^2 = 25x^2$$\\n   $$AC = 5x$$\\n3. **Calculate Sines:**\\n   - $\\sin A = \\frac{\\text{Opposite}}{\\text{Hypotenuse}} = \\frac{BC}{AC} = \\frac{4x}{5x} = \\frac{4}{5}$\\n   - $\\sin B = \\sin 90^\\circ = 1$\\n   - $\\sin C = \\frac{\\text{Opposite}}{\\text{Hypotenuse}} = \\frac{AB}{AC} = \\frac{3x}{5x} = \\frac{3}{5}$\\n4. **Sum:**\\n   $$\\sin A + \\sin B + \\sin C = \\frac{4}{5} + 1 + \\frac{3}{5} = \\frac{7}{5} + 1 = \\frac{12}{5}$$\\n\\n**Key Concepts:**\\n- Pythagorean Triplets: (3, 4, 5)\\n- Definition of Sine in a right triangle.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 508
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Trigonometric Identities",
+    "topic": "Evaluating Expressions involving sin and cos",
+    "content": "### Problem: If $\\sin x + \\cos x = C$, find the value of $\\sin^3 x + \\cos^3 x$.\\n\\n**Derivation:**\\n1. **Given:** $\\sin x + \\cos x = C$\\n2. **Square both sides:**\\n   $$(\\sin x + \\cos x)^2 = C^2$$\\n   $$\\sin^2 x + \\cos^2 x + 2\\sin x \\cos x = C^2$$\\n   Since $\\sin^2 x + \\cos^2 x = 1$:\\n   $$1 + 2\\sin x \\cos x = C^2$$\\n   $$\\sin x \\cos x = \\frac{C^2 - 1}{2} \\quad \\dots (i)$$\\n3. **Use Sum of Cubes Identity:**\\n   $$a^3 + b^3 = (a+b)(a^2 - ab + b^2)$$\\n   Let $a = \\sin x$ and $b = \\cos x$.\\n   $$\\sin^3 x + \\cos^3 x = (\\sin x + \\cos x)(\\sin^2 x + \\cos^2 x - \\sin x \\cos x)$$\\n4. **Substitute Known Values:**\\n   - $\\sin x + \\cos x = C$\\n   - $\\sin^2 x + \\cos^2 x = 1$\\n   - $\\sin x \\cos x = \\frac{C^2 - 1}{2}$\\n   \\n   $$\\sin^3 x + \\cos^3 x = C \\left( 1 - \\frac{C^2 - 1}{2} \\right)$$\\n   $$= C \\left( \\frac{2 - (C^2 - 1)}{2} \\right)$$\\n   $$= C \\left( \\frac{3 - C^2}{2} \\right)$$\\n   $$= \\frac{3C - C^3}{2}$$\\n\\n**Note:** The provided text contains a complex derivation involving $\\sin^3 x + \\cos^3 x$ but the final simplified standard result is $\\frac{3C - C^3}{2}$.",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 508
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "subchapter": "Trigonometric Equations",
+    "topic": "Solving for tan A and cosec A",
+    "content": "### Problem: Given $\\frac{3 - \\tan^2 A}{1 - 3\\tan^2 A} = k$, find $\\csc A (3\\sin A - 4\\sin^3 A)$.\\n\\n**Derivation:**\\n1. **Solve for $\\tan A$:**\\n   $$\\frac{3 - \\tan^2 A}{1 - 3\\tan^2 A} = k$$\\n   $$3 - \\tan^2 A = k(1 - 3\\tan^2 A)$$\\n   $$3 - \\tan^2 A = k - 3k\\tan^2 A$$\\n   $$3k\\tan^2 A - \\tan^2 A = k - 3$$\\n   $$\\tan^2 A (3k - 1) = k - 3$$\\n   $$\\tan^2 A = \\frac{k - 3}{3k - 1}$$\\n   $$\\tan A = \\sqrt{\\frac{k - 3}{3k - 1}}$$\\n   *Constraint:* For $\\tan^2 A > 0$, we need $\\frac{k - 3}{3k - 1} > 0$. This implies $k < 1/3$ or $k > 3$.\\n\\n2. **Simplify the Target Expression:**\\n   Expression: $\\csc A (3\\sin A - 4\\sin^3 A)$\\n   $$= \\frac{1}{\\sin A} (3\\sin A - 4\\sin^3 A)$$\\n   $$= 3 - 4\\sin^2 A$$\\n   \\n   *Alternative approach from text:* The text converts to tangent.\\n   $$3 - 4\\sin^2 A = 3 - 4\\frac{\\tan^2 A}{1 + \\tan^2 A}$$\\n   $$= \\frac{3(1 + \\tan^2 A) - 4\\tan^2 A}{1 + \\tan^2 A}$$\\n   $$= \\frac{3 - \\tan^2 A}{1 + \\tan^2 A}$$\\n   \\n   Substitute $\\tan^2 A = \\frac{k - 3}{3k - 1}$:\\n   Numerator: $3 - \\frac{k - 3}{3k - 1} = \\frac{3(3k - 1) - (k - 3)}{3k - 1} = \\frac{9k - 3 - k + 3}{3k - 1} = \\frac{8k}{3k - 1}$\\n   Denominator: $1 + \\frac{k - 3}{3k - 1} = \\frac{3k - 1 + k - 3}{3k - 1} = \\frac{4k - 4}{3k - 1}$\\n   \\n   Result: $\\frac{8k / (3k - 1)}{(4k - 4) / (3k - 1)} = \\frac{8k}{4k - 4} = \\frac{2k}{k - 1}$\\n\\n**Key Identity:**\\n- $\\sin^2 A = \\frac{\\tan^2 A}{1 + \\tan^2 A}$",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 508
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Factorisation",
+    "topic": "Common Factor",
+    "content": "### Common Factor\\n- An expression can be factored by taking out the greatest common factor (GCF) from all terms.\\n- Example: \\(6x^2 + 9x = 3x(2x + 3)\\).\\n\\n---\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 409
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Factorisation",
+    "topic": "Difference of Squares",
+    "content": "### Difference of Squares\\n- Formula: \\(a^2 - b^2 = (a - b)(a + b)\\).\\n- Works for any algebraic terms \\(a\\) and \\(b\\).\\n- Example: \\(x^2 - 9 = (x - 3)(x + 3)\\).\\n\\n---\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 409
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Factorisation",
+    "topic": "Sum/Difference of Cubes",
+    "content": "### Sum and Difference of Cubes\\n- Sum of cubes: \\(a^3 + b^3 = (a + b)(a^2 - ab + b^2)\\).\\n- Difference of cubes: \\(a^3 - b^3 = (a - b)(a^2 + ab + b^2)\\).\\n- Example: \\(x^3 - 8 = (x - 2)(x^2 + 2x + 4)\\).\\n\\n---\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 409
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Factorisation",
+    "topic": "Quadratic Trinomial",
+    "content": "### Factoring Quadratic Trinomials\\n- General form: \\(ax^2 + bx + c\\).\\n- Look for two numbers that multiply to \\(a\\times c\\) and add to \\(b\\).\\n- Split the middle term and factor by grouping.\\n- Example: \\(x^2 + 5x + 6 = (x + 2)(x + 3)\\).\\n\\n---\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 409
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Factorisation",
+    "topic": "Special Binomial Forms",
+    "content": "### Special Binomial Forms\\n- **Perfect square trinomial**: \\(a^2 \\pm 2ab + b^2 = (a \\pm b)^2\\).\\n- **Sum/Difference of two squares**: \\(a^2 \\pm b^2\\) can be expressed using complex numbers if needed, but over real numbers only the difference \\(a^2 - b^2\\) factors.\\n\\n---\\n",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 409
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Polynomials",
+    "topic": "Highest Common Factor (HCF) of Polynomials",
+    "content": "### HCF of Polynomials by Factorisation\n\n- **Numerical factor**: The greatest common factor (GCF) of the numerical coefficients of the terms.\n- **Highest degree common factor**: The common factor that contains the highest possible power of the variable(s).\n- **Required HCF**: Product of the numerical GCF and the highest degree common factor.\n\n**Example** (from the text):\n```\nP(x) = (x^4 - 2x^3 - 6x^2 + 24x) / ( ... )\nQ(x) = (x^4 + 2x^3 + 5x^2 + 20x) / ( ... )\n```\nAfter factorising each polynomial, the numerical factor common to both is `2`, and the highest degree common factor is `(x^2 + 1)`. Hence, the HCF is `2(x^2 + 1)`.\n\n---\n\n### HCF of Polynomials by Division (Successive Division) Method\n\n1. **Arrange** the polynomials in descending order of powers of the variable.\n2. **Factor out** any common numerical factor from each polynomial.\n3. **Divide** the polynomial of higher degree by the one of lower degree (or any if degrees are equal).\n4. **Replace** the divisor with the remainder obtained and the dividend with the previous divisor.\n5. **Repeat** the division process until the remainder becomes zero.\n6. The **last non‑zero divisor**, multiplied by any common numerical factor taken out in step 2, is the HCF.\n\n**Important notes**:\n- If the leading term of a remainder is negative, change the sign of all its terms.\n- If a remainder contains a common factor, factor it out before the next division.\n\n**Example** (from the text):\n```\nStep I: Arrange polynomials.\nStep II: Take out common numerical factor (if any).\nStep III: Perform division.\n…\nStep VI: Product of common factors and last divisor = HCF.\n```",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 418
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Polynomials",
+    "topic": "HCF of Polynomials – Worked Examples",
+    "content": "#### Example 2\n**Question**: The HCF of\n```\nP(x) = (x⁴ – 2x³ – 6x² + 24x) / ( ... )\nQ(x) = (x⁴ + 2x³ + 5x² + 20x) / ( ... )\n```\nis:\n- a) \\(\\frac{4x+2}{x+1}\\)\n- b) \\(\\frac{x^2+2}{x+1}\\)\n- c) \\(4x^2\\)\n- d) None of these\n\n**Solution**: The correct answer is **d**. By factorising both polynomials, the only common numerical factor is 2 and the only common algebraic factor is \\(x^2+1\\). None of the options a–c represent this product, therefore option **d** is correct.\n\n#### Example 3\n**Question**: The HCF of\n```\nP(x) = 2x⁶ – 78x⁵ – 16x⁴ – 6x³ – 5x² – 2x\nQ(x) = 2x⁶ – 78x⁵ – 44x⁴ – 5x³ – 2x\n```\nis:\n- a) \\((x^2 – 3x – 2)\\)\n- b) \\(2(x^2 – 3x – 2)\\)\n- c) \\(22(x^2 – 3x – 2)\\)\n- d) None of these\n\n**Solution**: The correct answer is **b**. After applying the successive division method, the last non‑zero remainder is \\(x^2 – 3x – 2\\). The common numerical factor taken out initially is 2, giving the HCF \\(2(x^2 – 3x – 2)\\).",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 418
   }
 ]
