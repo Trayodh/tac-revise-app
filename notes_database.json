@@ -150456,5 +150456,67 @@
     },
     "source_pdf": "cds_material.pdf",
     "source_page": 785
+  },
+  {
+    "id": "CDS-PATHFINDER-ENG-514-001",
+    "subject": "English",
+    "chapter": "Sentence Improvement",
+    "topic": "Phrasal Verbs and Idioms",
+    "text": "<p><strong>Phrasal Verbs:</strong></p><ul><li><strong>Called up:</strong> To start</li><li><strong>Called out:</strong> To challenge / To shout</li><li><strong>Called in:</strong> To seek</li><li><strong>Called for:</strong> To be a requisite/necessity</li></ul><p><strong>Grammar Rules:</strong></p><ul><li><strong>Subject-Verb Agreement:</strong> When a plural number/amount is shown as a whole, use a singular verb.</li><li><strong>Singular Nouns:</strong> Nouns like Economics, Mathematics, Politics, News, etc., are plural in form but singular in meaning; use singular verbs.</li><li><strong>Idioms:</strong> 'Fast and loose' means to treat something without enough care or attention. 'Make both ends meet' means to earn just enough to keep life going properly.</li><li><strong>Prepositions:</strong> 'Capable' is followed by 'of'. 'Discriminate' is followed by 'against'. 'Prior' is followed by 'to'.</li><li><strong>Articles:</strong> Use 'a' before 'university'.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanations for sentence improvement questions covering phrasal verbs, subject-verb agreement, and idiomatic usage."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 799
+  },
+  {
+    "id": "eng-cds-08-001",
+    "subject": "English",
+    "chapter": "Ordering of Words and Sentences",
+    "topic": "Introduction and Strategy",
+    "text": "<p><strong>Ordering of words/sentences</strong> is a necessary and indispensable part of the CDS examination. The candidates are required to place the jumbled words or sentences in proper sequence.</p><p>In some questions, first and the last sentences of a paragraph are given and the candidate is needed to place the middle sentences in a proper sequence. The sentences should form a coherent order in a logical sequence. However, in simple questions, you have to arrange a number of jumbled up phrases to form a meaningful sentence.</p><h3>Arranging the Sentence in Correct Order</h3><p>The correct sequence is formed when all the sentences are organically linked. A sort of cause-effect relationship is also implicit in such exercises because a sentence will follow another only when the former leads to the latter. Thus, taking into consideration this aspect, sentences can be easily sequenced.</p><p>Sound knowledge of language, helping verbs and conjunctions enables a candidate to solve these questions easily.</p><h3>Tips for Attempting Questions</h3><ul><li>Frame the sentences logically to get a meaningful order.</li><li>Rearrangement of sentences should be grammatically correct.</li><li>Use simple and linear approach to frame the sentence to obtain a logical meaning.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Decorative chevron icon indicating a transition or section break."
+    ],
+    "details": {
+      "summary": "This section introduces the 'Ordering of Words and Sentences' topic for the CDS exam, explaining the types of questions asked (jumbled words/phrases or jumbled sentences within a paragraph) and providing strategic tips for solving them."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 800
+  },
+  {
+    "id": "cds-pathfinder-eng-001",
+    "subject": "English",
+    "chapter": "Types of Questions",
+    "topic": "Reordering of words to form a meaningful sentence",
+    "text": "<p><strong>TYPE 1: Reordering of words to form a meaningful sentence</strong></p><p>In this type, the initial part of the sentence is given as a hint. The rest of the sentence is divided into a number of phrases (labelled as P, Q, R, S) and given in a jumbled form. The candidate has to rearrange the jumbled parts of the sentence to form a meaningful sentence.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Methodology for solving sentence reordering questions where an initial hint is provided."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 801
+  },
+  {
+    "id": "cds-pathfinder-eng-002",
+    "subject": "English",
+    "chapter": "Types of Questions",
+    "topic": "Reordering of sentences to form a meaningful paragraph",
+    "text": "<p><strong>TYPE 2: Reordering of sentences to form a meaningful paragraph</strong></p><p>In this type, the initial and final part of the paragraph is given and labelled as S1 and S6. The rest of the paragraph is broken into 4 parts (labelled as P, Q, R, S) and given in a jumbled form. The candidate needs to arrange the jumbled parts (P, Q, R, S) in a way that the resultant paragraph is coherent and meaningful.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Methodology for solving paragraph reordering questions using S1 and S6 as anchors."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 801
   }
 ]
