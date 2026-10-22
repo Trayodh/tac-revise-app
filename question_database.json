@@ -851553,5 +851553,581 @@
     "topic": "Additional Director General (ADG) Appointment",
     "source_pdf": "defence_pdf.pdf",
     "source_page": 279
+  },
+  {
+    "question_text": "Which of the following is NOT a symptom of cancer as listed in the text?",
+    "options": {
+      "A": "Continuous bleeding and loss of body weight",
+      "B": "Persistent changes in bowel movement",
+      "C": "Sudden increase in muscle mass",
+      "D": "Bleeding in menses"
+    },
+    "correct_answer": "C",
+    "explanation": "The text lists continuous bleeding, loss of body weight, bleeding in menses, persistent indigestion, and changes in bowel movement as symptoms. Sudden increase in muscle mass is not mentioned.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Cancer",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 30
+  },
+  {
+    "question_text": "Which of the following is identified as a cause of cancer due to oncogenic transformation?",
+    "options": {
+      "A": "Excessive growth hormones",
+      "B": "Radiation and chemicals",
+      "C": "Tumour viruses",
+      "D": "Genetic mutation only"
+    },
+    "correct_answer": "B",
+    "explanation": "The text explicitly states that oncogenic transformation is caused by radiation and chemicals. Excessive growth hormones are listed under tumour promoters, and tumour viruses are a separate category.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Cancer",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 30
+  },
+  {
+    "question_text": "Which of the following is NOT a method for the detection and diagnosis of cancer?",
+    "options": {
+      "A": "Biopsy",
+      "B": "Endoscopy",
+      "C": "Nuclear medicine scans",
+      "D": "Chemotherapy"
+    },
+    "correct_answer": "D",
+    "explanation": "Biopsy, Radiography, Endoscopy, and Nuclear medicine scans are listed as detection/diagnosis methods. Chemotherapy is listed as a treatment method.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Cancer",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 30
+  },
+  {
+    "question_text": "What is the primary effect of the AIDS virus on the human body?",
+    "options": {
+      "A": "It strengthens the immune system",
+      "B": "It damages or destroys lymphocytes",
+      "C": "It causes immediate muscle paralysis",
+      "D": "It only affects the digestive system"
+    },
+    "correct_answer": "B",
+    "explanation": "The text states that the virus affects the immune system and that damages to or destruction of lymphocytes lead to cellular immune deficiency.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Sexually Transmitted Diseases (AIDS)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 30
+  },
+  {
+    "question_text": "Which of the following is NOT a mode of transmission for AIDS?",
+    "options": {
+      "A": "Sexual contact with an affected person",
+      "B": "Using the same syringe as an affected person",
+      "C": "Sharing a meal with an affected person",
+      "D": "Blood transfusion containing HIV"
+    },
+    "correct_answer": "C",
+    "explanation": "The text lists sexual contact, shared syringes, blood transfusion, organ transplantation, and artificial insemination as modes of transmission. Sharing a meal is not listed.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Sexually Transmitted Diseases (AIDS)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 30
+  },
+  {
+    "question_text": "What is the average incubation period for HIV infection?",
+    "options": {
+      "A": "15 months",
+      "B": "28 months",
+      "C": "57 months",
+      "D": "3 years"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, the average incubation period is 28 months, though it may range from 15 to 57 months.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "HIV/AIDS",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 31
+  },
+  {
+    "question_text": "Which of the following is NOT a symptom of severe AIDS cases mentioned in the text?",
+    "options": {
+      "A": "Swollen lymph nodes",
+      "B": "Fever",
+      "C": "Loss of weight",
+      "D": "Increased appetite"
+    },
+    "correct_answer": "D",
+    "explanation": "The text lists swollen lymph nodes, fever, and loss of weight as symptoms in severe cases. Increased appetite is not mentioned.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "HIV/AIDS",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 31
+  },
+  {
+    "question_text": "Which of the following is a correct method for preventing HIV transmission?",
+    "options": {
+      "A": "Using shared syringes",
+      "B": "Transfusing untested blood",
+      "C": "Using disposable syringes and needles",
+      "D": "Having sexual contact with infected individuals"
+    },
+    "correct_answer": "C",
+    "explanation": "The text explicitly states that using disposable syringes and needles is a prevention method. Sharing syringes, untested blood, and sexual contact with infected individuals are risk factors.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "HIV/AIDS",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 31
+  },
+  {
+    "question_text": "What is the primary chemical process by which plants produce food?",
+    "options": {
+      "A": "Respiration",
+      "B": "Fermentation",
+      "C": "Photosynthesis",
+      "D": "Digestion"
+    },
+    "correct_answer": "C",
+    "explanation": "The text states that food is initially produced by plants in the process of photosynthesis.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Food Sources and Photosynthesis",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 31
+  },
+  {
+    "question_text": "Which organisms, besides plants, use photosynthesis to get food?",
+    "options": {
+      "A": "Fungi and viruses",
+      "B": "Algae, protists, and bacteria",
+      "C": "Mammals and birds",
+      "D": "Insects and reptiles"
+    },
+    "correct_answer": "B",
+    "explanation": "The text mentions that as well as plants, many kinds of algae, protists, and bacteria use photosynthesis to get food.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Food Sources and Photosynthesis",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 31
+  },
+  {
+    "question_text": "Which of the following is NOT a product of the light-dependent reactions used in the light-independent reactions?",
+    "options": {
+      "A": "ATP",
+      "B": "NADPH",
+      "C": "Oxygen",
+      "D": "Carbon Dioxide"
+    },
+    "correct_answer": "D",
+    "explanation": "The light-independent reactions (Calvin Cycle) use Carbon Dioxide, ATP, and NADPH. Oxygen is a byproduct of the light-dependent reactions, not a reactant for the Calvin Cycle.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Photosynthesis",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 32
+  },
+  {
+    "question_text": "What is the primary function of translocation in plants?",
+    "options": {
+      "A": "Absorption of water from roots",
+      "B": "Transport of glucose around the plant",
+      "C": "Synthesis of proteins",
+      "D": "Breakdown of starch"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, glucose made during photosynthesis is finally transported around the plant by translocation.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Photosynthesis",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 32
+  },
+  {
+    "question_text": "Which of the following is a disaccharide?",
+    "options": {
+      "A": "Glucose",
+      "B": "Starch",
+      "C": "Sucrose",
+      "D": "Glycogen"
+    },
+    "correct_answer": "C",
+    "explanation": "Disaccharides consist of two covalently joined monosaccharide units. Examples include lactose, sucrose, and maltose. Glucose is a monosaccharide, while starch and glycogen are polysaccharides.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Constituents of Food",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 32
+  },
+  {
+    "question_text": "Monosaccharides contain how many carbon atoms?",
+    "options": {
+      "A": "1 to 2",
+      "B": "3 to 6",
+      "C": "7 to 10",
+      "D": "More than 10"
+    },
+    "correct_answer": "B",
+    "explanation": "Monosaccharides are the simplest form of carbohydrates and contain three to six carbon atoms.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Constituents of Food",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 32
+  },
+  {
+    "question_text": "What is the storage form of carbohydrate in chlorophyll-containing plants?",
+    "options": {
+      "A": "Glycogen",
+      "B": "Cellulose",
+      "C": "Starch",
+      "D": "Sucrose"
+    },
+    "correct_answer": "C",
+    "explanation": "The text states that starch is the storage form of carbohydrate in chlorophyll-containing plants.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Constituents of Food",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 32
+  },
+  {
+    "question_text": "Which of the following is NOT a benefit of eating a balanced diet?",
+    "options": {
+      "A": "Prevention of heart disease",
+      "B": "Boosting the immune system",
+      "C": "Increasing the size of the solar system",
+      "D": "Providing more energy"
+    },
+    "correct_answer": "C",
+    "explanation": "A balanced diet prevents heart disease, boosts the immune system, and provides energy. It has no effect on the size of the solar system.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Significance of Balanced Diet",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 36
+  },
+  {
+    "question_text": "What is the primary composition of the Sun by mass?",
+    "options": {
+      "A": "71% Hydrogen and 28% Helium",
+      "B": "50% Oxygen and 50% Carbon",
+      "C": "99% Iron and 1% Silicon",
+      "D": "100% Helium"
+    },
+    "correct_answer": "A",
+    "explanation": "The Sun is made up of 71% Hydrogen, 28% Helium, and 1% heavier atoms by mass.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "The Sun",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 36
+  },
+  {
+    "question_text": "Which group of planets is also known as 'Gas Giants'?",
+    "options": {
+      "A": "Mercury, Venus, Earth, Mars",
+      "B": "Jupiter, Saturn, Uranus, Neptune",
+      "C": "Earth, Mars, Jupiter, Saturn",
+      "D": "Mercury, Venus, Jupiter, Neptune"
+    },
+    "correct_answer": "B",
+    "explanation": "The outer planets (Jupiter, Saturn, Uranus, Neptune) are known as Gas Giants or Gaseous planets. The inner planets are known as Terrestrial or Rocky planets.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Planetary Classification",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 36
+  },
+  {
+    "question_text": "What is the revolution period of Mercury?",
+    "options": {
+      "A": "59 days",
+      "B": "365 days",
+      "C": "88 days",
+      "D": "12 years"
+    },
+    "correct_answer": "C",
+    "explanation": "Mercury's revolution period (time to orbit the Sun) is 88 days. Its rotation period is 59 days.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Mercury",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 36
+  },
+  {
+    "question_text": "Which planet is the hottest in the solar system?",
+    "options": {
+      "A": "Mercury",
+      "B": "Mars",
+      "C": "Venus",
+      "D": "Jupiter"
+    },
+    "correct_answer": "C",
+    "explanation": "Venus is the hottest planet in the solar system with an average temperature of 460°C, despite Mercury being closer to the Sun.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Venus",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 36
+  },
+  {
+    "question_text": "Which planet is known as the 'Red Planet'?",
+    "options": {
+      "A": "Jupiter",
+      "B": "Mars",
+      "C": "Saturn",
+      "D": "Venus"
+    },
+    "correct_answer": "B",
+    "explanation": "Mars is commonly referred to as the Red Planet due to its reddish appearance, which is caused by iron oxide (rust) on its surface.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Mars",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 37
+  },
+  {
+    "question_text": "What is the diameter of Earth?",
+    "options": {
+      "A": "143,000 km",
+      "B": "12,756 km",
+      "C": "6,800 km",
+      "D": "120,500 km"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the provided text, the diameter of Earth is 12,756 km.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Earth",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 37
+  },
+  {
+    "question_text": "Which is the largest known volcano in the solar system, located on Mars?",
+    "options": {
+      "A": "Mount Everest",
+      "B": "Mauna Loa",
+      "C": "Mons Olympus",
+      "D": "Vesuvius"
+    },
+    "correct_answer": "C",
+    "explanation": "Mons Olympus is the largest known volcano and the second tallest mountain in the solar system, located on Mars.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Mars",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 37
+  },
+  {
+    "question_text": "Which planet is the largest in the solar system?",
+    "options": {
+      "A": "Saturn",
+      "B": "Neptune",
+      "C": "Jupiter",
+      "D": "Uranus"
+    },
+    "correct_answer": "C",
+    "explanation": "Jupiter is the largest planet in the solar system with a diameter of 143,000 km.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Jupiter",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 37
+  },
+  {
+    "question_text": "What is the primary composition of Jupiter?",
+    "options": {
+      "A": "Carbon and Oxygen",
+      "B": "Hydrogen and Helium",
+      "C": "Iron and Nickel",
+      "D": "Silicon and Magnesium"
+    },
+    "correct_answer": "B",
+    "explanation": "Jupiter is a huge gaseous planet mainly composed of hydrogen and helium.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Jupiter",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 37
+  },
+  {
+    "question_text": "Which moon is the largest in the solar system?",
+    "options": {
+      "A": "Europa",
+      "B": "Callisto",
+      "C": "Ganymede",
+      "D": "Io"
+    },
+    "correct_answer": "C",
+    "explanation": "Ganymede, a moon of Jupiter, is the largest moon in the solar system.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Jupiter",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 37
+  },
+  {
+    "question_text": "What is the most famous feature of Saturn?",
+    "options": {
+      "A": "Its red color",
+      "B": "Its ring system",
+      "C": "Its large volcano",
+      "D": "Its lack of moons"
+    },
+    "correct_answer": "B",
+    "explanation": "Saturn's most famous feature is its prominent ring system.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Saturn",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 37
+  },
+  {
+    "question_text": "How many moons does Saturn have according to the provided text?",
+    "options": {
+      "A": "67",
+      "B": "2",
+      "C": "50",
+      "D": "16"
+    },
+    "correct_answer": "C",
+    "explanation": "The text states that Saturn has 50 moons.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Saturn",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 37
+  },
+  {
+    "question_text": "What is the revolution period of Mars?",
+    "options": {
+      "A": "365.25 days",
+      "B": "687 days",
+      "C": "11.9 years",
+      "D": "30 years"
+    },
+    "correct_answer": "B",
+    "explanation": "Mars takes 687 days to complete one revolution around the Sun.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Mars",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 37
+  },
+  {
+    "question_text": "Which planet is the 3rd largest in the solar system?",
+    "options": {
+      "A": "Saturn",
+      "B": "Jupiter",
+      "C": "Uranus",
+      "D": "Neptune"
+    },
+    "correct_answer": "C",
+    "explanation": "Uranus is listed as the 3rd largest planet in the solar system in the provided text.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Uranus",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 37
+  },
+  {
+    "question_text": "Which of the following cell organelles is known as the 'powerhouse of the cell'?",
+    "options": {
+      "A": "Nucleus",
+      "B": "Mitochondria",
+      "C": "Ribosome",
+      "D": "Golgi Apparatus"
+    },
+    "correct_answer": "B",
+    "explanation": "Mitochondria are the site of cellular respiration and are responsible for generating most of the cell's supply of adenosine triphosphate (ATP), hence known as the powerhouse of the cell.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Cell Structure",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 40
+  },
+  {
+    "question_text": "Which of the following structures is found ONLY in plant cells and not in animal cells?",
+    "options": {
+      "A": "Plasma Membrane",
+      "B": "Mitochondria",
+      "C": "Cell Wall",
+      "D": "Nucleus"
+    },
+    "correct_answer": "C",
+    "explanation": "Cell walls and plastids are characteristic features found only in plant cells. Plasma membranes, mitochondria, and nuclei are present in both plant and animal cells.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Cell Structure",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 40
+  },
+  {
+    "question_text": "Who won the Nobel Prize in 1930 for his work on the Raman Effect?",
+    "options": {
+      "A": "C.V. Raman",
+      "B": "Jagadish Chandra Bose",
+      "C": "Har Gobind Khorana",
+      "D": "Subrahmanyan Chandrasekhar"
+    },
+    "correct_answer": "A",
+    "explanation": "C.V. Raman was awarded the Nobel Prize in Physics in 1930 for his work on the scattering of light and the discovery of the effect named after him.",
+    "subject": "General Science",
+    "chapter": "General Knowledge",
+    "topic": "Eminent Indian Scientists",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 40
+  },
+  {
+    "question_text": "Which Indian biochemist won the Nobel Prize in 1968 for demonstrating how nucleotides in nucleic acids control the synthesis of proteins?",
+    "options": {
+      "A": "Srinivasa Ramanujan",
+      "B": "Har Gobind Khorana",
+      "C": "C.V. Raman",
+      "D": "Jagadish Chandra Bose"
+    },
+    "correct_answer": "B",
+    "explanation": "Har Gobind Khorana shared the 1968 Nobel Prize in Physiology or Medicine for his interpretation of the genetic code and its function in protein synthesis.",
+    "subject": "General Science",
+    "chapter": "General Knowledge",
+    "topic": "Eminent Indian Scientists",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 40
+  },
+  {
+    "question_text": "Prokaryotes are best described as:",
+    "options": {
+      "A": "Well-developed and complex multicellular organisms",
+      "B": "Primitive single-celled organisms",
+      "C": "Organisms with a true nucleus",
+      "D": "Organisms that only perform photosynthesis"
+    },
+    "correct_answer": "B",
+    "explanation": "Prokaryotes are primitive single-celled organisms that lack a membrane-bound nucleus, whereas Eukaryotes are well-developed, complex, and mostly multicellular.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Classification of Life",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 40
+  },
+  {
+    "question_text": "What is the primary function of the plasma membrane in a cell?",
+    "options": {
+      "A": "To store genetic material",
+      "B": "To act as a semi-permeable barrier surrounding the protoplasm",
+      "C": "To produce energy",
+      "D": "To synthesize proteins"
+    },
+    "correct_answer": "B",
+    "explanation": "The plasma membrane is a semi-permeable membrane that surrounds the protoplasm of the cell, regulating the movement of substances in and out of the cell.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Cell Structure",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 40
   }
 ]
