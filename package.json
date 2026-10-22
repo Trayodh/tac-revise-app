@@ -9,10 +9,11 @@
   "scripts": {
     "start": "node --max-old-space-size=450 server.js",
     "dev": "node server.js",
+    "build": "node tests/render.test.js",
+    "test": "node tests/render.test.js",
     "pipeline": "node run_pipeline.js",
     "lint:notes": "node validate_notes.js",
-    "test:render": "node tests/render.test.js",
-    "build:ssg": "node build_ssg.js"
+    "test:render": "node tests/render.test.js"
   },
   "keywords": [
     "nda",

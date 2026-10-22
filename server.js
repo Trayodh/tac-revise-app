@@ -222,6 +222,13 @@ const requestHandler = async (req, res) => {
     return;
   }
 
+  // Health check endpoints for Render and uptime monitoring
+  if (req.url === '/healthz' || req.url === '/api/health') {
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ status: 'ok', uptime: process.uptime(), timestamp: new Date().toISOString() }));
+    return;
+  }
+
 
   // API Route: Comprehensive Daily Current Affairs (PIB + Google News, all UPSC topics)
   if (req.url === '/api/daily-current-affairs' && req.method === 'GET') {
