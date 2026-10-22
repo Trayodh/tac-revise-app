@@ -150518,5 +150518,60 @@
     },
     "source_pdf": "cds_material.pdf",
     "source_page": 801
+  },
+  {
+    "id": "geom-hints-001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Triangles and Similarity",
+    "text": "<p><strong>1. Isosceles Triangle Property:</strong> If the bisector of an angle in a triangle is also the median (bisects the opposite side), the triangle is isosceles.</p><p><strong>2. Midpoint Theorem:</strong> The line segments joining the midpoints of the sides of a triangle form four smaller triangles, each of which is similar to the original triangle.</p><p><strong>3. Congruency:</strong> Triangles can be proven congruent using AAS (Angle-Angle-Side) or SAS (Side-Angle-Side) criteria.</p><p><strong>4. Similarity:</strong> Two triangles are similar if their corresponding sides are in the same ratio (AA similarity).</p><p><strong>5. Applications:</strong> Geometry principles are used to calculate heights of objects using shadows (similar triangles) and distances in coordinate geometry.</p>",
+    "formulas": [
+      "AB/AC = BD/DC",
+      "Perimeter(ABC)/Perimeter(DEF) = Ratio of corresponding sides",
+      "PT^2 = PU^2 + TU^2",
+      "h1^2/h2^2 = Area1/Area2"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram 1: Triangle ABC with bisector AD where BD=DC.",
+      "Diagram 2: Triangle ABC with midpoints F, E, D forming four smaller triangles.",
+      "Diagram 3: Two triangles ABC and DEF with sides 3, 2.5 and 4, 2 respectively.",
+      "Diagram 4: Two triangles BDA and AEC sharing a common angle A.",
+      "Diagram 5: A right-angled triangle with base p and height b.",
+      "Diagram 6: A right-angled triangle with sides 8, 6, and hypotenuse.",
+      "Diagram 7: Triangle ABC with a line segment DE parallel to BC.",
+      "Diagram 8: Two right-angled triangles representing a stick and a tower casting shadows.",
+      "Diagram 9: A coordinate geometry path diagram showing points Q, P, U, R, S, T, W with dimensions 80m, 60m, 12m, 25m."
+    ],
+    "details": {
+      "summary": "This page provides hints and solutions for geometry problems involving triangle properties, similarity, congruency, and practical applications like height calculation and distance measurement."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 548
+  },
+  {
+    "id": "locus_001",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Locus",
+    "text": "<p><strong>Locus:</strong> The path traced by a point moving under a given condition is called locus. The plural of locus is loci.</p><ul><li>The locus may be a line segment or lines, straight or curved.</li><li>Every point which satisfies the given geometrical condition(s) lies on the locus and vice-versa.</li></ul><p><strong>Basic Locus Theorem:</strong></p><ol><li>The locus of points at a fixed distance <em>d</em> from point <em>p</em> is a circle with the given point <em>p</em> as its centre and <em>d</em> as its radius.</li><li>The locus of points at a fixed distance <em>d</em> from a line <em>m</em> is a pair of parallel lines at a distance of <em>d</em> from line <em>m</em> and located on either side of <em>m</em>.</li><li>The locus of points equidistant from two points <em>A</em> and <em>B</em> is the perpendicular bisector of the line segment joining the two points.</li><li>The locus of points equidistant from two parallel lines <em>m1</em> and <em>m2</em>, is a line parallel to both <em>m1</em> and <em>m2</em> and midway between them.</li><li>The locus of points in the interior of an angle equidistant from the sides of an angle is the bisector of the angle.</li><li>The locus of points equidistant from two intersecting lines <em>l1</em> and <em>l2</em> is a pair of bisectors that bisect the angles formed by <em>l1</em> and <em>l2</em>.</li></ol><p><strong>Locus in Some Standard Cases:</strong></p><ol><li>The loci of all points <em>d</em> units from a circle having a radius <em>r</em> units are two concentric circles with radii of <em>r-d</em> and <em>r+d</em> units respectively.</li><li>The locus of all points equidistant from two concentric circles is a third circle whose radius is the average of the radii of the given circles.</li><li>The locus of the mid-points of all parallel chords of a circle is the diameter of the circle, which is perpendicular to the given chords.</li></ol>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a point p with a circle of radius d around it.",
+      "Diagram showing a line m with two parallel dashed lines at distance d on either side.",
+      "Diagram showing two points A and B with a perpendicular bisector line.",
+      "Diagram showing two parallel lines m1 and m2 with a dashed line midway between them.",
+      "Diagram showing an angle with a bisector line.",
+      "Diagram showing two intersecting lines l1 and l2 with two perpendicular bisector lines.",
+      "Diagram showing a circle of radius r with two concentric circles of radii r-d and r+d.",
+      "Diagram showing two concentric circles with radii a and b, and a third circle with radius (a+b)/2.",
+      "Diagram showing a circle with multiple parallel chords and a diameter line perpendicular to them."
+    ],
+    "details": {
+      "summary": "Definitions and standard geometric theorems regarding the locus of points under various conditions."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 577
   }
 ]

@@ -1073,29 +1073,6 @@ let CURRENT_AFFAIRS_LIVE = {
         "correct": 1,
         "explanation": "The official press release of the Ministry of External Affairs dated 13 Oct 2026 states that Prime Minister Narendra Modi met with Canada’s Prime Minister Mark Carney to discuss strategic partnership and clean‑energy cooperation."
       }
-    },
-    {
-      "id": "ca_live_20261021_001",
-      "topic": "Policy & Legislation",
-      "topicColor": "#1E90FF",
-      "summary": "The Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026",
-      "text": "<p><strong>What happened:</strong> On <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>21 October 2026</mark>, the Press Information Bureau (PIB) released the full text of the <strong>Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026</strong>. The Bill seeks to streamline the MSME registration process, introduce a unified portal for grievance redressal, and provide enhanced financial incentives for technology up‑gradation, including defence‑related manufacturing.</p><p><strong>Why it matters:</strong> Strengthening the MSME sector is critical for the <em>Make in India</em> vision and for expanding indigenous defence production capacity. By easing compliance and encouraging R&D investments, the amendment aims to boost participation of small and medium enterprises in defence contracts, thereby reducing reliance on imports.</p><p><strong>Background:</strong> The original MSME Development Act of 2006 laid the foundation for supporting micro, small and medium enterprises. Over the past two decades, the sector has contributed over <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>12% of India’s GDP</mark> and increasingly supplies components to the defence supply chain. The 2026 amendment aligns the legislation with the <em>National Defence Production Policy</em> and the <em>Strategic Partnership Model</em> announced in 2025.</p>",
-      "quickSummary": "PIB issued the MSME Development (Amendment) Bill, 2026 on 21 Oct 2026, aiming to simplify MSME registration, strengthen grievance mechanisms and promote defence‑related manufacturing.",
-      "detailedAnalysis": "- Date: 21 Oct 2026<br>- Bill: Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026<br>- Key changes: unified registration portal, faster grievance redressal, tax incentives for defence‑linked R&D, mandatory CSR contribution to defence innovation hubs<br>- Expected impact: increase MSME participation in defence procurement by ~8% over next 3 years<br>- Stakeholders: Ministry of MSME, Ministry of Defence, Ministry of Finance, Indian Industry bodies",
-      "backgroundContext": "For UPSC and defence‑exam aspirants, the amendment illustrates how legislative reforms can directly affect indigenous defence production, a recurring topic in questions on self‑reliance and strategic autonomy.",
-      "stakeholders": [
-        "Ministry of MSME",
-        "Ministry of Defence",
-        "Ministry of Finance",
-        "Press Information Bureau"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "Medium",
-        "CDS": "Medium",
-        "AFCAT": "Low",
-        "CAPF": "Low",
-        "UPSC": "High"
-      }
     }
   ]
 };
