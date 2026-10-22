@@ -137669,6 +137669,826 @@ const CBT_EXAMS_DATABASE = [
     }
   ]
 }
+,
+{
+  "id": "cds-ca-oct2026",
+  "exam": "CDS",
+  "subject": "Current Affairs",
+  "title": "CDS High-Yield Current Affairs (October 2026)",
+  "duration": 60,
+  "rules": {
+    "correctMarks": 0.83,
+    "incorrectMarks": -0.27
+  },
+  "questions": [
+    {
+      "question": "Consider the following statements regarding India's strategic nuclear submarine programme:\n1. India launched its fourth nuclear-powered ballistic missile submarine (SSBN), codenamed S4*, at the Ship Building Centre (SBC) in Visakhapatnam.\n2. The S4* is equipped with longer-range submarine-launched ballistic missiles (SLBMs) including the K-4 missile.\n3. The submarine programme is developed under the Advanced Technology Vessel (ATV) project.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three statements are correct. India's ATV project delivered INS Arihant (S2), INS Arighaat (S3), S4 (Aridhaman), and now S4*. S4* features enlarged vertical launch tubes capable of carrying intermediate-range nuclear SLBMs like the K-4 (range ~3,500 km), completing India's sea-based continuous second-strike deterrence.",
+      "topicId": "ca-space-nuclear",
+      "exam": "CDS"
+    },
+    {
+      "question": "What is the primary operational distinction between a Nuclear Attack Submarine (SSN) under Project 77 and a Ballistic Missile Submarine (SSBN)?",
+      "options": [
+        "SSNs carry long-range nuclear ballistic missiles for deterrence, while SSBNs are diesel-powered",
+        "SSNs are hunter-killer submarines armed with torpedoes and anti-ship cruise missiles to hunt enemy subs and escort carrier battle groups, whereas SSBNs carry strategic nuclear ballistic missiles (SLBMs) for deterrence",
+        "SSNs operate exclusively in shallow coastal waters, whereas SSBNs operate in international waters",
+        "SSNs have shorter underwater endurance compared to conventional diesel-electric submarines"
+      ],
+      "correct": 1,
+      "explanation": "SSNs (Nuclear-powered attack submarines) are fast hunter-killer submarines designed to seek out and destroy adversary warships/submarines and escort fleets, armed with conventional torpedoes/cruise missiles. SSBNs carry nuclear-tipped ballistic missiles (SLBMs) and stay concealed on deterrence patrol.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "CDS"
+    },
+    {
+      "question": "Under the $3.99 billion deal cleared by the Cabinet Committee on Security (CCS) in October 2026 for 31 MQ-9B Predator Remotely Piloted Aircraft Systems (RPAS), how are the platforms distributed among the Indian Armed Forces?",
+      "options": [
+        "Indian Navy: 31, Indian Army: 0, Indian Air Force: 0",
+        "Indian Navy: 16 (SeaGuardian), Indian Army: 8 (SkyGuardian), Indian Air Force: 8 (SkyGuardian)",
+        "Indian Navy: 10, Indian Army: 11, Indian Air Force: 10",
+        "Indian Navy: 15, Indian Army: 8, Indian Air Force: 8"
+      ],
+      "correct": 1,
+      "explanation": "Under the tri-services procurement from General Atomics (USA), the Indian Navy receives 16 MQ-9B SeaGuardians for maritime ISR and anti-submarine warfare, while the Indian Army and IAF receive 8 MQ-9B SkyGuardians each for high-altitude border surveillance.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements regarding the multinational naval exercise MALABAR 2026:\n1. It was conducted in October 2026 featuring the naval forces of the QUAD nations.\n2. The exercise placed special emphasis on complex Anti-Submarine Warfare (ASW) and air defence drills.\n3. MALABAR originated in 1992 as a bilateral naval exercise between India and Japan.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 only",
+        "1, 2 and 3"
+      ],
+      "correct": 0,
+      "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because Exercise MALABAR began in 1992 as a bilateral drill between the Indian Navy and the US Navy (not Japan). Japan became a permanent member in 2015, and Australia rejoined in 2020.",
+      "topicId": "ca-quad-indopacific",
+      "exam": "CDS"
+    },
+    {
+      "question": "Which Indian Navy stealth frigate represented India in the 8th edition of the trilateral naval exercise IBSAMAR VIII held at Simon's Town, South Africa?",
+      "options": [
+        "INS Teg",
+        "INS Talwar",
+        "INS Tarkash",
+        "INS Tabar"
+      ],
+      "correct": 1,
+      "explanation": "INS Talwar represented the Indian Navy alongside the Brazilian Navy's frigate BNS Defensora and the South African Navy's frigate SAS Amatola at Simon's Town, South Africa, strengthening maritime cooperation across the IBSA dialogue forum.",
+      "topicId": "ca-summits",
+      "exam": "CDS"
+    },
+    {
+      "question": "Originally christened 'Exercise Lion King' upon its inception in 1994, which bilateral naval exercise holds the distinction of being the Indian Navy's longest uninterrupted bilateral exercise with any foreign navy?",
+      "options": [
+        "Exercise VARUNA (France)",
+        "Exercise KONKAN (UK)",
+        "Exercise SIMBEX (Singapore)",
+        "Exercise SLINEX (Sri Lanka)"
+      ],
+      "correct": 2,
+      "explanation": "Exercise SIMBEX (Singapore-India Maritime Bilateral Exercise) began in 1994 under the code name 'Exercise Lion King' and celebrated its 31st edition in October 2026 in the Bay of Bengal / Visakhapatnam.",
+      "topicId": "ca-summits",
+      "exam": "CDS"
+    },
+    {
+      "question": "External Affairs Minister Dr. S. Jaishankar represented India at the 23rd Council of Heads of Government (CHG) of the Shanghai Cooperation Organisation (SCO) in October 2026. Where was this meeting held, and where is the permanent SCO RATS headquarters located?",
+      "options": [
+        "Meeting: Astana; RATS: Beijing",
+        "Meeting: Islamabad; RATS: Tashkent",
+        "Meeting: Tashkent; RATS: Moscow",
+        "Meeting: Bishkek; RATS: Dushanbe"
+      ],
+      "correct": 1,
+      "explanation": "The 23rd SCO CHG meeting was held in Islamabad, Pakistan (the first visit by an Indian EAM to Pakistan in 9 years). The permanent headquarters of the SCO Regional Anti-Terrorist Structure (RATS) is located in Tashkent, Uzbekistan.",
+      "topicId": "ca-summits",
+      "exam": "CDS"
+    },
+    {
+      "question": "The 18th BRICS Summit in October 2026 was hosted by Russia in which historic city?",
+      "options": [
+        "St. Petersburg",
+        "Sochi",
+        "Kazan",
+        "Yekaterinburg"
+      ],
+      "correct": 2,
+      "explanation": "The BRICS Summit 2026 was hosted in Kazan, Russia, highlighting multipolarity, alternative financial settlement systems (BRICS Pay / local currency mechanisms), and the operational integration of new member states.",
+      "topicId": "ca-summits",
+      "exam": "CDS"
+    },
+    {
+      "question": "In October 2026, the Union Cabinet conferred Classical Language status to five Indian languages. Which of the following is the complete and correct list of these newly added languages?",
+      "options": [
+        "Marathi, Pali, Prakrit, Assamese, and Bengali",
+        "Marathi, Maithili, Dogri, Santhali, and Bodo",
+        "Bhojpuri, Rajasthani, Pali, Prakrit, and Assamese",
+        "Bengali, Gujarati, Marathi, Kashmiri, and Sindhi"
+      ],
+      "correct": 0,
+      "explanation": "The Union Cabinet approved Classical Language status for Marathi, Pali, Prakrit, Assamese, and Bengali. This raised India's total number of recognized Classical Languages from 6 (Tamil, Sanskrit, Kannada, Telugu, Malayalam, Odia) to 11.",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    },
+    {
+      "question": "Under Article 124(2) of the Indian Constitution, the President of India appointed the 51st Chief Justice of India (CJI). Who succeeded Justice D.Y. Chandrachud as the 51st CJI?",
+      "options": [
+        "Justice B.R. Gavai",
+        "Justice Sanjiv Khanna",
+        "Justice Surya Kant",
+        "Justice Hrishikesh Roy"
+      ],
+      "correct": 1,
+      "explanation": "Justice Sanjiv Khanna was appointed as the 51st Chief Justice of India following the recommendation of outgoing CJI D.Y. Chandrachud as per the Memorandum of Procedure (MoP). Justice Khanna is known for landmark rulings on EVM-VVPAT verification and striking down the Electoral Bonds scheme.",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    },
+    {
+      "question": "The 2026 Nobel Peace Prize was conferred upon 'Nihon Hidankyo'. What is this organisation and for what achievement was it recognised?",
+      "options": [
+        "A Japanese environmental NGO recognized for oceanic plastic cleanup",
+        "A grassroots movement of atomic bomb survivors (Hibakusha) from Hiroshima and Nagasaki for their efforts to achieve a nuclear-weapon-free world",
+        "A humanitarian UN agency providing refugee assistance in East Asia",
+        "A medical coalition researching radiation sickness cures"
+      ],
+      "correct": 1,
+      "explanation": "The Norwegian Nobel Committee awarded the 2026 Nobel Peace Prize to Nihon Hidankyo, the Japanese confederation of Hibakusha (A-bomb survivors), for demonstrating through witness testimony that nuclear weapons must never be used again.",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    },
+    {
+      "question": "The 2026 Nobel Prize in Physics was awarded jointly to John J. Hopfield and Geoffrey E. Hinton for:",
+      "options": [
+        "Discovery of gravitational waves from binary black hole mergers",
+        "Development of blue light-emitting diodes (LEDs)",
+        "Foundational discoveries and inventions that enable machine learning with artificial neural networks",
+        "Experimental verification of quantum entanglement with photons"
+      ],
+      "correct": 2,
+      "explanation": "Hopfield (Hopfield network associative memory) and Hinton (Boltzmann machine & backpropagation deep learning) received the Nobel Prize in Physics for building the physical and algorithmic foundations of modern artificial neural networks.",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    },
+    {
+      "question": "The 2026 Nobel Prize in Chemistry was divided between David Baker (one half) and Demis Hassabis & John M. Jumper (jointly the other half). Which landmark breakthrough did Hassabis and Jumper achieve?",
+      "options": [
+        "Synthesis of quantum dots for QLED displays",
+        "Protein structure prediction using the AI model AlphaFold",
+        "Development of CRISPR-Cas9 genome editing tools",
+        "Discovery of quasicrystals in metallic alloys"
+      ],
+      "correct": 1,
+      "explanation": "Demis Hassabis and John M. Jumper (Google DeepMind) won the Nobel Prize in Chemistry for protein structure prediction via AlphaFold2, solving a 50-year-old biological grand challenge. David Baker was awarded for computational protein design.",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    },
+    {
+      "question": "Victor Ambros and Gary Ruvkun were awarded the 2026 Nobel Prize in Physiology or Medicine for the discovery of:",
+      "options": [
+        "mRNA vaccines against viral pathogens",
+        "microRNA and its crucial role in post-transcriptional gene regulation",
+        "Hepatitis C virus and antiviral therapeutic targets",
+        "Cellular sensing and adaptation to oxygen availability"
+      ],
+      "correct": 1,
+      "explanation": "American scientists Victor Ambros and Gary Ruvkun discovered microRNA (small non-coding RNA molecules) in C. elegans, revealing a fundamentally new dimension of post-transcriptional gene regulation essential for multicellular life.",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    },
+    {
+      "question": "Who became the first South Korean author and the first Asian woman to be awarded the Nobel Prize in Literature in 2026?",
+      "options": [
+        "Haruki Murakami",
+        "Han Kang",
+        "Yoko Ogawa",
+        "Shin Kyung-sook"
+      ],
+      "correct": 1,
+      "explanation": "South Korean novelist Han Kang (famed for 'The Vegetarian' and 'Human Acts') won the 2026 Nobel Prize in Literature 'for her intense poetic prose that confronts historical traumas and exposes the fragility of human life'.",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    },
+    {
+      "question": "The 2026 Nobel Memorial Prize in Economic Sciences was awarded to Daron Acemoglu, Simon Johnson, and James A. Robinson for their research demonstrating:",
+      "options": [
+        "How central bank interest rate interventions control hyperinflation",
+        "How societal institutions are formed and why inclusive institutions foster prosperity while extractive ones perpetuate poverty",
+        "Empirical methods for estimating causal relationships in labor markets",
+        "Behavioral economic nudges in consumer welfare programmes"
+      ],
+      "correct": 1,
+      "explanation": "Acemoglu, Johnson, and Robinson (authors of 'Why Nations Fail') demonstrated that European colonial institutions influenced modern economic outcomes: colonies where inclusive political/economic institutions formed prospered, while extractive institutions created persistent poverty.",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    },
+    {
+      "question": "Which upgraded indigenous fighter aircraft was formally inducted into a new squadron by the Indian Air Force in October 2026, equipped with indigenous Uttam AESA Radar and Astra BVR missile capability?",
+      "options": [
+        "Sukhoi Su-30MKI Super 30",
+        "LCA Tejas Mk1A",
+        "Mirage 2000-5",
+        "AMCA Prototype 1"
+      ],
+      "correct": 1,
+      "explanation": "The IAF inducted the upgraded indigenous LCA Tejas Mk1A manufactured by HAL, featuring active electronically scanned array (AESA) radar, advanced electronic warfare suite, air-to-air refuelling, and Astra Beyond Visual Range (BVR) missile integration.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "CDS"
+    },
+    {
+      "question": "What type of missile is 'Pralay', which was successfully test-fired by the DRDO in October 2026?",
+      "options": [
+        "Submarine-Launched Cruise Missile (SLCM)",
+        "Surface-to-Air Quick Reaction Missile (QRSAM)",
+        "Canisterised, tactical, short-range surface-to-surface quasi-ballistic missile",
+        "Air-to-Surface Anti-Radiation Missile"
+      ],
+      "correct": 2,
+      "explanation": "Pralay is India's indigenous short-range surface-to-surface tactical quasi-ballistic missile (range 350-500 km, payload 500-1000 kg). It can change its path mid-air, defeating interceptor missiles along the LAC and LoC.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "CDS"
+    },
+    {
+      "question": "Which Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) was commissioned by the Indian Navy in October 2026, built by Cochin Shipyard Limited with over 80% indigenous content?",
+      "options": [
+        "INS Arnala",
+        "INS Androth",
+        "INS Mangrol",
+        "INS Malpe"
+      ],
+      "correct": 2,
+      "explanation": "INS Mangrol is the third of the eight ASW-SWC vessels constructed by Cochin Shipyard Limited for the Indian Navy, equipped with hull-mounted sonar and lightweight torpedoes for shallow-water sub-surface surveillance.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "CDS"
+    },
+    {
+      "question": "Which of the following are the four multi-dimensional indicators utilized by Concern Worldwide and Welthungerhilfe to compute the Global Hunger Index (GHI) 2026?\n1. Undernourishment\n2. Child Stunting\n3. Child Wasting\n4. Child Mortality\n5. Maternal Mortality Rate\nSelect the correct answer using the code below:",
+      "options": [
+        "1, 2 and 3 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": 2,
+      "explanation": "The Global Hunger Index (GHI) is calculated using four indicators: Undernourishment (share of population with insufficient calorie intake), Child Stunting (low height for age, chronic undernutrition), Child Wasting (low weight for height, acute undernutrition), and Child Mortality (death rate under age 5). Maternal Mortality Rate is not an indicator.",
+      "topicId": "ca-reports",
+      "exam": "CDS"
+    }
+  ]
+},
+{
+  "id": "nda-ca-oct2026",
+  "exam": "NDA",
+  "subject": "Current Affairs",
+  "title": "NDA High-Yield Current Affairs (October 2026)",
+  "duration": 60,
+  "rules": {
+    "correctMarks": 4,
+    "incorrectMarks": -1.33
+  },
+  "questions": [
+    {
+      "question": "Who assumed office as the 31st Chief of Army Staff (COAS) of the Indian Army in October 2026, succeeding General Upendra Dwivedi?",
+      "options": [
+        "General Manoj Pande",
+        "General Dhiraj Seth",
+        "General Anil Chauhan",
+        "General M.V. Suchindra Kumar"
+      ],
+      "correct": 1,
+      "explanation": "General Dhiraj Seth assumed charge as the 31st Chief of Army Staff (COAS) of the Indian Army, succeeding General Upendra Dwivedi upon his superannuation.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "NDA"
+    },
+    {
+      "question": "Air Marshal Ashutosh Dixit was appointed to lead which branch of the Indian Armed Forces in October 2026?",
+      "options": [
+        "Chief of Naval Staff",
+        "Chief of the Air Staff",
+        "Chief of Integrated Defence Staff",
+        "Vice Chief of Army Staff"
+      ],
+      "correct": 1,
+      "explanation": "Air Marshal Ashutosh Dixit was appointed as the Chief of the Air Staff (CAS) of the Indian Air Force, commanding the world's 4th largest air force.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "NDA"
+    },
+    {
+      "question": "Who assumed charge as the 26th Director General of the Indian Coast Guard (ICG) at New Delhi in October 2026?",
+      "options": [
+        "DG Rakesh Pal",
+        "DG Paramesh Sivamani",
+        "DG Virender Singh Pathania",
+        "DG K. Natarajan"
+      ],
+      "correct": 1,
+      "explanation": "Director General Paramesh Sivamani formally assumed charge as the 26th Director General of the Indian Coast Guard, bringing vast operational experience in maritime law enforcement.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "NDA"
+    },
+    {
+      "question": "On which date is the Indian Air Force Day celebrated annually, which in 2026 featured a historic airshow at Marina Beach, Chennai under the theme 'Bharatiya Vayu Sena: Saksham, Sashakt, Atmanirbhar'?",
+      "options": [
+        "15 January",
+        "8 October",
+        "4 December",
+        "1 February"
+      ],
+      "correct": 1,
+      "explanation": "Indian Air Force Day is celebrated every year on 8 October, commemorating the formal establishment of the Royal Indian Air Force in 1932.",
+      "topicId": "ca-dates",
+      "exam": "NDA"
+    },
+    {
+      "question": "INS Vagir, commissioned into the Indian Navy, is the fifth submarine built under which indigenous submarine construction project?",
+      "options": [
+        "Project 75 (Kalvari / Scorpene-class)",
+        "Project 75(I)",
+        "Project 28 (Kamorta-class)",
+        "Project 15B (Visakhapatnam-class)"
+      ],
+      "correct": 0,
+      "explanation": "INS Vagir is the fifth Kalvari-class (Scorpene) diesel-electric attack submarine built under Project 75 by Mazagon Dock Shipbuilders Limited (MDL) in collaboration with Naval Group, France.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "NDA"
+    },
+    {
+      "question": "The 8th edition of the joint military counter-terror exercise 'KAZIND-2026' was conducted between the Indian Army and the Armed Forces of which nation?",
+      "options": [
+        "Kyrgyzstan",
+        "Uzbekistan",
+        "Kazakhstan",
+        "Tajikistan"
+      ],
+      "correct": 2,
+      "explanation": "Exercise KAZIND-2026 was held at Atyrau, Kazakhstan, focusing on joint counter-terrorism drills in semi-urban and rural terrain under the UN mandate.",
+      "topicId": "ca-summits",
+      "exam": "NDA"
+    },
+    {
+      "question": "The 5th edition of the bilateral army exercise 'Al Najah V' took place at the Rabkoot Training Area between India and which Middle Eastern nation?",
+      "options": [
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "Oman",
+        "Qatar"
+      ],
+      "correct": 2,
+      "explanation": "Exercise Al Najah V is the bilateral military exercise between the Indian Army and the Royal Army of Oman.",
+      "topicId": "ca-summits",
+      "exam": "NDA"
+    },
+    {
+      "question": "Which bi-annual coastal security exercise was conducted in October 2026 along the coastlines of Andhra Pradesh, Odisha, and West Bengal?",
+      "options": [
+        "Exercise Sea Vigil",
+        "Exercise Sagar Kavach 02/26",
+        "Exercise Paschim Lehar",
+        "Exercise TROPEX"
+      ],
+      "correct": 1,
+      "explanation": "Exercise Sagar Kavach 02/26 was conducted to validate coastal security mechanisms, involving the Indian Navy, Indian Coast Guard, Marine Police, Customs, and port authorities.",
+      "topicId": "ca-summits",
+      "exam": "NDA"
+    },
+    {
+      "question": "In October 2026, India's defence exports for the financial year 2025-26 touched a record high of approximately:",
+      "options": [
+        "₹15,000 crore",
+        "₹24,500 crore",
+        "₹38,424 crore",
+        "₹55,000 crore"
+      ],
+      "correct": 2,
+      "explanation": "India's defence exports surged to ₹38,424 crore in FY 2025-26, representing a 60% growth over previous figures, driven by equipment exports to over 85 countries.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "NDA"
+    },
+    {
+      "question": "Which Indian state approved a 10% horizontal reservation policy for former Agniveers in State Security and Police recruitments?",
+      "options": [
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Madhya Pradesh",
+        "Rajasthan"
+      ],
+      "correct": 1,
+      "explanation": "The Maharashtra State Cabinet cleared a 10% horizontal quota for Agniveers completing their 4-year tour of duty in state police and armed constabulary services.",
+      "topicId": "ca-policies",
+      "exam": "NDA"
+    },
+    {
+      "question": "The National Maritime Heritage Complex (NMHC), approved by the Union Cabinet in October 2026 under the Sagarmala Programme, is being developed at which ancient Harappan port city?",
+      "options": [
+        "Dholavira",
+        "Lothal",
+        "Kalibangan",
+        "Rakhigarhi"
+      ],
+      "correct": 1,
+      "explanation": "The NMHC is being constructed at Lothal, Gujarat—the world's oldest known port city of the Indus Valley Civilization—to showcase India's maritime heritage.",
+      "topicId": "ca-reports",
+      "exam": "NDA"
+    },
+    {
+      "question": "In October 2026, ISRO successfully executed the G1 uncrewed test flight for which flagship Indian human spaceflight mission?",
+      "options": [
+        "Chandrayaan-4",
+        "Gaganyaan",
+        "Shukrayaan-1",
+        "Aditya-L2"
+      ],
+      "correct": 1,
+      "explanation": "ISRO achieved a critical milestone in the Gaganyaan Human Spaceflight Programme with the successful G1 orbital flight validating crew module separation and splashdown recovery.",
+      "topicId": "ca-science-tech-space",
+      "exam": "NDA"
+    },
+    {
+      "question": "SpaceX achieved a historic aerospace engineering feat in October 2026 during Starship Flight 5 by:",
+      "options": [
+        "Landing a rover on the South Pole of Mars",
+        "Catching the 71-meter Super Heavy booster mid-air at the launch mount using giant mechanical chopstick arms (Mechazilla)",
+        "Refuelling Starship in low-Earth orbit",
+        "Launching 200 Starlink satellites in a single Falcon 9 flight"
+      ],
+      "correct": 1,
+      "explanation": "SpaceX Starship Flight 5 successfully caught the Super Heavy booster rocket mid-air upon return using launch-tower arms ('Mechazilla') at Starbase, Boca Chica, Texas.",
+      "topicId": "ca-science-tech-space",
+      "exam": "NDA"
+    },
+    {
+      "question": "Which Union Ministry inaugurated the National Cyber Security Operations Centre in New Delhi in October 2026 to safeguard critical national infrastructure?",
+      "options": [
+        "Ministry of Defence",
+        "Ministry of Home Affairs",
+        "Ministry of Electronics and Information Technology",
+        "Ministry of Science and Technology"
+      ],
+      "correct": 1,
+      "explanation": "The Ministry of Home Affairs (MHA) inaugurated the state-of-the-art National Cyber Security Operations Centre to monitor and counter state-sponsored cyber warfare.",
+      "topicId": "ca-policies",
+      "exam": "NDA"
+    },
+    {
+      "question": "India added two new high-altitude wetlands in which region to the list of Ramsar Sites of international importance in October 2026?",
+      "options": [
+        "Sikkim",
+        "Ladakh",
+        "Himachal Pradesh",
+        "Uttarakhand"
+      ],
+      "correct": 1,
+      "explanation": "Two high-altitude wetlands in Ladakh were declared Ramsar Sites, reflecting India's focus on conserving delicate Himalayan ecosystems and migratory waterfowl corridors.",
+      "topicId": "ca-policies",
+      "exam": "NDA"
+    },
+    {
+      "question": "How many members constitute the Monetary Policy Committee (MPC) of the Reserve Bank of India (RBI)?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correct": 2,
+      "explanation": "The MPC consists of 6 members: 3 from the RBI (including the Governor as ex-officio Chairperson) and 3 external members nominated by the Central Government.",
+      "topicId": "ca-economic-measures",
+      "exam": "NDA"
+    },
+    {
+      "question": "World Food Day is celebrated annually by the United Nations on which date?",
+      "options": [
+        "1 October",
+        "8 October",
+        "16 October",
+        "24 October"
+      ],
+      "correct": 2,
+      "explanation": "World Food Day is observed globally on 16 October, marking the 1945 creation of the Food and Agriculture Organization (FAO) of the United Nations in Rome.",
+      "topicId": "ca-dates",
+      "exam": "NDA"
+    },
+    {
+      "question": "Admiral Samuel Paparo, who visited India in October 2026 to enhance operational interoperability, heads which major US military unified combatant command?",
+      "options": [
+        "US Central Command (CENTCOM)",
+        "US Indo-Pacific Command (INDOPACOM)",
+        "US European Command (EUCOM)",
+        "US Space Command (SPACECOM)"
+      ],
+      "correct": 1,
+      "explanation": "Admiral Paparo is the Commander of the US Indo-Pacific Command (INDOPACOM), the largest and oldest unified combatant command of the US Armed Forces headquartered in Hawaii.",
+      "topicId": "ca-quad-indopacific",
+      "exam": "NDA"
+    },
+    {
+      "question": "A high-level military delegation from the Ground Self-Defense Force (JGSDF) of which country visited India in October 2026 to explore emerging technology joint development with DRDO?",
+      "options": [
+        "South Korea",
+        "Japan",
+        "Australia",
+        "Singapore"
+      ],
+      "correct": 1,
+      "explanation": "The Japanese Ground Self-Defense Force (JGSDF) delegation visited Indian Army units and DRDO facilities to expand defence tech cooperation under the Special Strategic and Global Partnership.",
+      "topicId": "ca-quad-indopacific",
+      "exam": "NDA"
+    },
+    {
+      "question": "The Sendai Framework (2015–2030), commemorated on the International Day for Disaster Risk Reduction (October 13), deals with which global issue?",
+      "options": [
+        "Chemical weapon disarmament",
+        "Disaster risk reduction and building resilience",
+        "Ozone layer protection",
+        "Marine biodiversity conservation"
+      ],
+      "correct": 1,
+      "explanation": "The Sendai Framework was adopted at the 3rd UN World Conference in Sendai, Japan, outlining seven targets to significantly reduce disaster risk and losses in lives and infrastructure by 2030.",
+      "topicId": "ca-policies",
+      "exam": "NDA"
+    }
+  ]
+},
+{
+  "id": "afcat-ca-oct2026",
+  "exam": "AFCAT",
+  "subject": "Current Affairs",
+  "title": "AFCAT High-Yield Current Affairs (October 2026)",
+  "duration": 60,
+  "rules": {
+    "correctMarks": 3,
+    "incorrectMarks": -1
+  },
+  "questions": [
+    {
+      "question": "Who took command as the Chief of the Air Staff (CAS) of the Indian Air Force in October 2026?",
+      "options": [
+        "Air Marshal Amar Preet Singh",
+        "Air Marshal Ashutosh Dixit",
+        "Air Marshal Vivek Ram Chaudhari",
+        "Air Marshal Sandeep Singh"
+      ],
+      "correct": 1,
+      "explanation": "Air Marshal Ashutosh Dixit assumed office as the Chief of the Air Staff of the IAF.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The Indian Air Force inducted its first operational squadron of which indigenous light combat aircraft variant in October 2026?",
+      "options": [
+        "Tejas Mk1",
+        "Tejas Mk1A",
+        "Tejas Mk2",
+        "AMCA"
+      ],
+      "correct": 1,
+      "explanation": "The upgraded Tejas Mk1A aircraft, featuring Uttam AESA Radar and modern BVR missiles, was inducted into squadron service.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "On which date does India celebrate Air Force Day every year?",
+      "options": [
+        "15 January",
+        "8 October",
+        "4 December",
+        "26 January"
+      ],
+      "correct": 1,
+      "explanation": "Air Force Day is celebrated annually on 8 October (celebrating its 92nd anniversary in 2026).",
+      "topicId": "ca-dates",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "In the 31 MQ-9B Predator drone procurement deal, how many SkyGuardian drones are allotted to the Indian Air Force?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "24"
+      ],
+      "correct": 1,
+      "explanation": "The deal includes 16 SeaGuardians for the Navy, 8 SkyGuardians for the Army, and 8 SkyGuardians for the Air Force.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "SpaceX successfully caught the Super Heavy booster rocket mid-air during which test flight of Starship in October 2026?",
+      "options": [
+        "Flight 3",
+        "Flight 4",
+        "Flight 5",
+        "Flight 6"
+      ],
+      "correct": 2,
+      "explanation": "Starship Flight 5 made history by successfully catching the booster back at the launch tower with mechanical arms.",
+      "topicId": "ca-science-tech-space",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "What is the name of the first uncrewed test flight of the Gaganyaan program completed in October 2026?",
+      "options": [
+        "G1",
+        "TV-D1",
+        "Chandrayaan-3",
+        "Vyommitra-1"
+      ],
+      "correct": 0,
+      "explanation": "The Gaganyaan G1 flight was the first uncrewed orbital mission testing launch, microgravity operations, and sea recovery.",
+      "topicId": "ca-science-tech-space",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "John J. Hopfield and Geoffrey E. Hinton won the 2026 Nobel Prize in Physics for foundational discoveries in:",
+      "options": [
+        "Semiconductor chips",
+        "Machine learning with artificial neural networks",
+        "Nuclear fusion reactors",
+        "Black hole singularity"
+      ],
+      "correct": 1,
+      "explanation": "They were awarded the Nobel Prize in Physics for discoveries enabling machine learning and artificial neural networks.",
+      "topicId": "ca-awards",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The Nobel Prize in Chemistry 2026 was awarded to Demis Hassabis and John M. Jumper for their AI system named:",
+      "options": [
+        "ChatGPT",
+        "AlphaFold",
+        "DeepBlue",
+        "Watson"
+      ],
+      "correct": 1,
+      "explanation": "AlphaFold revolutionized biology by predicting 3D structures for almost all known proteins.",
+      "topicId": "ca-awards",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Han Kang, winner of the 2026 Nobel Prize in Literature, hails from which country?",
+      "options": [
+        "Japan",
+        "China",
+        "South Korea",
+        "Vietnam"
+      ],
+      "correct": 2,
+      "explanation": "Han Kang is the first South Korean author to win the Nobel Prize in Literature.",
+      "topicId": "ca-awards",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The 2026 Nobel Peace Prize was awarded to Nihon Hidankyo, which represents survivors from which historical event?",
+      "options": [
+        "Fukushima tsunami",
+        "Atomic bombings of Hiroshima and Nagasaki (Hibakusha)",
+        "Chernobyl nuclear accident",
+        "World War I chemical attacks"
+      ],
+      "correct": 1,
+      "explanation": "Nihon Hidankyo represents the atomic bomb survivors (Hibakusha) advocating for the abolition of nuclear weapons.",
+      "topicId": "ca-awards",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "How many languages now hold Classical Language status in India after the addition of 5 languages in October 2026?",
+      "options": [
+        "6",
+        "8",
+        "11",
+        "15"
+      ],
+      "correct": 2,
+      "explanation": "India now has 11 Classical Languages: Tamil, Sanskrit, Kannada, Telugu, Malayalam, Odia, Marathi, Pali, Prakrit, Assamese, and Bengali.",
+      "topicId": "ca-awards",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Where was the 18th BRICS Summit held in October 2026?",
+      "options": [
+        "Beijing, China",
+        "Brasilia, Brazil",
+        "Kazan, Russia",
+        "Johannesburg, South Africa"
+      ],
+      "correct": 2,
+      "explanation": "The BRICS Summit was hosted in Kazan, Russia.",
+      "topicId": "ca-summits",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Where did External Affairs Minister Dr. S. Jaishankar attend the SCO Council of Heads of Government in October 2026?",
+      "options": [
+        "Samarkand",
+        "Islamabad",
+        "New Delhi",
+        "Dushanbe"
+      ],
+      "correct": 1,
+      "explanation": "The meeting was hosted in Islamabad, Pakistan.",
+      "topicId": "ca-summits",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The bilateral naval exercise 'SIMBEX 2026' is conducted between the Indian Navy and the navy of which country?",
+      "options": [
+        "Sri Lanka",
+        "Seychelles",
+        "Singapore",
+        "Saudi Arabia"
+      ],
+      "correct": 2,
+      "explanation": "SIMBEX is the annual bilateral naval exercise between India and Singapore.",
+      "topicId": "ca-summits",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which multinational maritime exercise involves the QUAD nations (India, USA, Japan, Australia)?",
+      "options": [
+        "MALABAR",
+        "VARUNA",
+        "MILAN",
+        "RIMPAC"
+      ],
+      "correct": 0,
+      "explanation": "Exercise MALABAR is the premier naval exercise of the QUAD nations.",
+      "topicId": "ca-quad-indopacific",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Exercise KAZIND-2026 is a joint army exercise between India and:",
+      "options": [
+        "Kuwait",
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Kenya"
+      ],
+      "correct": 1,
+      "explanation": "KAZIND is the annual army exercise between India and Kazakhstan.",
+      "topicId": "ca-summits",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Exercise Al Najah is a bilateral military exercise conducted between India and:",
+      "options": [
+        "Oman",
+        "UAE",
+        "Egypt",
+        "Iran"
+      ],
+      "correct": 0,
+      "explanation": "Exercise Al Najah is conducted between the Indian Army and the Royal Army of Oman.",
+      "topicId": "ca-summits",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "INS Mangrol, commissioned in October 2026, was built by which Indian shipyard?",
+      "options": [
+        "Mazagon Dock Shipbuilders Limited",
+        "Cochin Shipyard Limited",
+        "Garden Reach Shipbuilders & Engineers",
+        "Goa Shipyard Limited"
+      ],
+      "correct": 1,
+      "explanation": "INS Mangrol was constructed by Cochin Shipyard Limited.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Who was appointed as the 51st Chief Justice of India in October 2026?",
+      "options": [
+        "Justice U.U. Lalit",
+        "Justice N.V. Ramana",
+        "Justice Sanjiv Khanna",
+        "Justice D.Y. Chandrachud"
+      ],
+      "correct": 2,
+      "explanation": "Justice Sanjiv Khanna took the oath as the 51st CJI.",
+      "topicId": "ca-awards",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "On which date is World Food Day observed annually by the United Nations?",
+      "options": [
+        "5 October",
+        "12 October",
+        "16 October",
+        "24 October"
+      ],
+      "correct": 2,
+      "explanation": "World Food Day is celebrated on 16 October.",
+      "topicId": "ca-dates",
+      "exam": "AFCAT"
+    }
+  ]
+}
 ];
 
 

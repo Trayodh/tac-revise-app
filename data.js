@@ -980,101 +980,2523 @@ let CURRENT_AFFAIRS_LIVE = {
     }
   ],
   "October 2026": [
-    {
-      "id": "ca_live_20261013_001",
-      "topic": "International Relations",
-      "topicColor": "#8A2BE2",
-      "summary": "Bloomberg New Economy Forum 2026 – PM Modi’s engagement on strategic partnership and EV infrastructure rollout",
-      "text": "<p><strong>What happened:</strong> On <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>13 October 2026</mark>, Prime Minister Narendra Modi attended the <strong>Bloomberg New Economy Forum (BNEF)</strong> in New Delhi. During the summit he held a bilateral discussion with <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Canada’s Prime Minister Mark Carney</mark> focusing on deepening strategic partnership, trade, and clean‑energy collaboration. The same day, the PM inaugurated a series of public electric‑vehicle (EV) charging stations at ISBT Anand Vihar, Nand Nagri Depot, Rohini Sector‑37 Depot, Nangloi Depot and Keshopur Depot, and flagged off new electric buses for Swami Vivekanand ISBT.</p><p><strong>Why it matters:</strong> The dialogue underscores India’s pivot towards high‑value technology cooperation with advanced economies, reinforcing the <em>Make in India</em> and <em>Atmanirbhar Bharat</em> agendas. The EV infrastructure push supports the government’s target of 30 % electric mobility share by 2030, reducing oil import bills and emissions.</p><p><strong>Background:</strong> The Bloomberg New Economy Forum brings together heads of state, industry leaders and policy makers to chart global economic trends. Earlier editions have highlighted climate‑tech, digital finance and supply‑chain resilience. India’s participation signals its intent to be a key player in post‑pandemic economic restructuring.</p>",
-      "quickSummary": "On 13 Oct 2026, PM Modi attended the Bloomberg New Economy Forum, discussed strategic ties with Canada’s PM, and inaugurated multiple EV charging stations, reinforcing India’s clean‑energy and tech partnership agenda.",
-      "detailedAnalysis": "- Date: 13 Oct 2026<br>- Event: Bloomberg New Economy Forum, New Delhi<br>- Bilateral talk: India‑Canada (PM Mark Carney)<br>- Key topics: strategic partnership, clean‑energy, trade<br>- EV rollout: 5 public charging stations inaugurated; new electric buses flagged off at Swami Vivekanand ISBT<br>- Ministries involved: Ministry of External Affairs, Ministry of Power, Ministry of Road Transport & Highways",
-      "backgroundContext": "For NDA, CDS and AFCAT aspirants, the episode illustrates how diplomatic engagements translate into defence‑relevant technology transfers (e‑mobility, battery tech) and strategic alignments. UPSC often asks about India‑Canada relations, clean‑energy policy, and infrastructure initiatives linked to national security and economic resilience.",
-      "stakeholders": [
-        "Prime Minister’s Office",
-        "Ministry of External Affairs",
-        "Ministry of Power",
-        "Ministry of Road Transport & Highways",
-        "Canadian Government",
-        "Bloomberg New Economy Forum"
+  {
+    "id": "oct-26-1",
+    "topic": "Defence & Security",
+    "text": "General Dhiraj Seth Assumes Charge as Chief of Army Staff; Lt Gen Shamsher Singh Virk Appointed Deputy Chief of Army Staff",
+    "publicationDate": "2026-09-29",
+    "originalSource": "PIB, News On AIR, SSBCrack",
+    "relatedOfficialDocuments": "Ministry of Defence Notifications",
+    "upscHighlights": [
+      "General Dhiraj Seth takes over as the 31st Chief of Army Staff (COAS).",
+      "He succeeds General Upendra Dwivedi, who retired after four decades of service.",
+      "Lieutenant General Shamsher Singh Virk appointed as Deputy Chief of Army Staff (Capability Development & Sustenance).",
+      "The COAS is the professional head and commander of the Indian Army.",
+      "Deputy Chief of Army Staff (CD&S) plays a crucial role in modernizing and sustaining military capabilities."
+    ],
+    "quickSummary": "General Dhiraj Seth has been appointed as the new Chief of Army Staff, succeeding General Upendra Dwivedi. This significant leadership change marks a new era for the Indian Army. Concurrently, Lieutenant General Shamsher Singh Virk has assumed the critical role of Deputy Chief of Army Staff for Capability Development & Sustenance, highlighting India's focus on modernizing its military and enhancing operational readiness. These appointments are pivotal for the strategic direction and future capabilities of the Indian armed forces.",
+    "detailedAnalysis": "The transition of leadership in the Indian Army is a critical event for national security. General Dhiraj Seth, with his extensive experience, is expected to continue the modernization drive and address contemporary security challenges. His appointment comes at a time when India faces complex geopolitical dynamics and evolving threats. The role of the Chief of Army Staff involves strategic planning, operational command, and ensuring the welfare and readiness of the vast Indian Army. The appointment of Lt Gen Shamsher Singh Virk as Deputy Chief of Army Staff (Capability Development & Sustenance) underscores the emphasis on indigenous defence production, technological integration, and maintaining a cutting-edge military. This role is vital for overseeing procurement, research and development, and ensuring the long-term sustainability of the Army's equipment and systems.",
+    "backgroundContext": "The Chief of Army Staff is one of the highest military positions in India, responsible for the command, control, and administration of the Indian Army. Appointments are made by the Appointments Committee of the Cabinet (ACC) based on seniority and merit. The Deputy Chief of Army Staff (CD&S) is a relatively newer position, reflecting the increasing complexity of defence procurement and the need for dedicated leadership in capability building and maintenance. General Upendra Dwivedi's tenure saw significant advancements in border infrastructure, technological integration, and operational preparedness.",
+    "strategicImportance": "These appointments are strategically important for maintaining continuity in defence policy, enhancing military capabilities, and addressing national security challenges. The new leadership will be instrumental in guiding the Army's transformation, particularly in light of the Agnipath scheme, evolving threats along the borders, and the push for indigenization under 'Atmanirbhar Bharat'. The focus on capability development and sustenance is crucial for ensuring the Indian Army remains a formidable force capable of deterring adversaries and safeguarding national interests.",
+    "staticGkConnection": "Indian Army structure, roles of Chief of Army Staff (COAS) and Deputy Chiefs, Agnipath Scheme, Defence Acquisition Council (DAC), Integrated Battle Groups (IBGs), Military leadership and command structure.",
+    "stakeholders": [
+      "Indian Army",
+      "Ministry of Defence (MoD)",
+      "Chief of Defence Staff (CDS)",
+      "Government of India",
+      "Defence Acquisition Council (DAC)"
+    ],
+    "relatedTopics": [
+      "Indian Army Leadership",
+      "Defence Appointments",
+      "Military Modernization",
+      "National Security",
+      "Agnipath Scheme",
+      "Defence Procurement"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "High",
+      "CDS": "High",
+      "AFCAT": "High",
+      "CAPF": "High"
+    },
+    "examImportanceScore": 95,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "Who is the current Chief of Army Staff of India?",
+        "What is the significance of the Deputy Chief of Army Staff (Capability Development & Sustenance) role?",
+        "Mention one key challenge the new COAS might face.",
+        "What is the tenure of the Chief of Army Staff?"
       ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "Medium",
-        "CAPF": "Medium",
-        "UPSC": "High"
-      },
-      "relatedTopics": [
-        "[[India‑Canada Strategic Partnership]]",
-        "[[Electric Vehicle Infrastructure – India]]",
-        "[[Bloomberg New Economy Forum]]"
+      "interviewQuestions": [
+        "Discuss the strategic implications of recent high-level appointments in the Indian Army.",
+        "How do leadership changes impact the ongoing modernization efforts of the Indian armed forces?",
+        "What are the primary responsibilities of the Chief of Army Staff in India's defence architecture?",
+        "Analyze the importance of 'Capability Development & Sustenance' for a modern army like India's."
       ],
-      "upscHighlights": [
-        "PM Modi discussed strategic partnership with Canada’s PM at BNEF 2026",
-        "Five EV charging stations inaugurated in Delhi",
-        "Supports India’s goal of 30 % EV share by 2030"
-      ],
-      "strategicImportance": "Difficulty: Medium. Confidence Score: 98%",
-      "verificationStatus": "Verified (Ministry of External Affairs press release & Bloomberg)",
-      "publicationDate": "13 October 2026",
-      "mcq": {
-        "question": "During the Bloomberg New Economy Forum 2026, which country’s Prime Minister held a strategic dialogue with Prime Minister Narendra Modi?",
+      "ssbDiscussionTopics": [
+        "The role of military leadership in adapting to evolving geopolitical threats.",
+        "Challenges and opportunities for the Indian Army under its new leadership.",
+        "The impact of high-level defence appointments on national security and strategic planning."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "Who has recently taken over as the Chief of Army Staff (COAS) of the Indian Army?",
         "options": [
-          "United Kingdom",
-          "Canada",
-          "Australia",
-          "Japan"
+          "General Upendra Dwivedi",
+          "General Dhiraj Seth",
+          "General Manoj Pande",
+          "General Anil Chauhan"
         ],
         "correct": 1,
-        "explanation": "The official press release of the Ministry of External Affairs dated 13 Oct 2026 states that Prime Minister Narendra Modi met with Canada’s Prime Minister Mark Carney to discuss strategic partnership and clean‑energy cooperation."
-      }
-    },
-    {
-      "id": "ca_live_20261012_001",
-      "topic": "Legislation",
-      "topicColor": "#1E90FF",
-      "summary": "MSME Development (Amendment) Bill, 2026 – Key Features & Implications",
-      "text": "<p><strong>What happened:</strong> The Union Government introduced the <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026</mark> in Parliament on 12 October 2026. The Bill seeks to amend the 2020 Act to broaden the definition of MSMEs, enhance credit access, and introduce a grievance redressal mechanism.</p><p><strong>Why it matters:</strong> MSMEs contribute <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>approximately 30% of India’s GDP</mark> and employ over 110 million people. The amendment aims to boost their competitiveness, especially in the post‑pandemic recovery phase, and aligns with the <em>Atmanirbhar Bharat</em> agenda.</p><p><strong>Background:</strong> The original 2020 Act was enacted to simplify registration and provide a single window for benefits. Persistent issues such as delayed loan disbursements and limited market access prompted the government to propose this amendment.</p><p><strong>Key provisions:</strong> <ul><li>Expansion of the turnover threshold from ₹250 crore to ₹500 crore for ‘medium’ classification.</li><li>Creation of an <mark style='background:rgba(255,210,0,0.25);padding:1px 4px;border-radius:3px;'>MSME Credit Facilitation Cell</mark> under the Ministry of MSME.</li><li>Mandatory annual compliance reporting for all registered MSMEs.</li></ul></p>",
-      "quickSummary": "On 12 Oct 2026, the Government introduced the MSME Development (Amendment) Bill to raise turnover limits, improve credit access and set up a grievance cell, aiming to strengthen the sector’s contribution to GDP.",
-      "detailedAnalysis": "- Bill introduced: 12 Oct 2026<br>- Ministry: Ministry of Micro, Small & Medium Enterprises<br>- New turnover ceiling: ₹500 crore for medium enterprises<br>- New body: MSME Credit Facilitation Cell<br>- Expected impact: ↑ credit flow, better compliance, ↑ GDP share",
-      "backgroundContext": "For NDA & CDS exams, understanding recent legislative changes helps answer questions on economic policy, industrial growth and the government's self‑reliance drive. UPSC often asks about MSME contributions and recent reforms.",
-      "stakeholders": [
-        "Ministry of MSME",
-        "Micro, Small & Medium Enterprises",
-        "Banking & Financial Institutions",
-        "State Governments"
-      ],
-      "examRelevanceMatrix": {
-        "NDA": "High",
-        "CDS": "High",
-        "AFCAT": "High",
-        "CAPF": "High",
-        "UPSC": "High"
+        "explanation": "General Dhiraj Seth has assumed charge as the Chief of Army Staff, succeeding General Upendra Dwivedi."
       },
-      "relatedTopics": [
-        "[[MSME – Economic Significance]]",
-        "[[Atmanirbhar Bharat]]"
-      ],
-      "upscHighlights": [
-        "MSMEs account for ~30% of India’s GDP",
-        "Amendment raises turnover limit to ₹500 crore"
-      ],
-      "strategicImportance": "Difficulty: Easy. Confidence Score: 98%",
-      "verificationStatus": "Verified (Press Information Bureau)",
-      "publicationDate": "12 October 2026",
-      "mcq": {
-        "question": "What is the new turnover threshold for a ‘medium’ enterprise under the MSME Development (Amendment) Bill, 2026?",
+      {
+        "question": "Lieutenant General Shamsher Singh Virk has been appointed to which key position?",
         "options": [
-          "₹250 crore",
-          "₹400 crore",
-          "₹500 crore",
-          "₹750 crore"
+          "Vice Chief of Army Staff",
+          "Deputy Chief of Army Staff (Information Systems & Training)",
+          "Deputy Chief of Army Staff (Capability Development & Sustenance)",
+          "Commander-in-Chief, Western Command"
         ],
         "correct": 2,
-        "explanation": "The amendment raises the turnover ceiling for medium enterprises from ₹250 crore to ₹500 crore to broaden the MSME definition and improve access to credit."
+        "explanation": "Lieutenant General Shamsher Singh Virk has been appointed as the Deputy Chief of Army Staff (Capability Development & Sustenance)."
+      },
+      {
+        "question": "The Chief of Army Staff is responsible for:",
+        "options": [
+          "Only operational command of the Army",
+          "Only administrative functions of the Army",
+          "Command, control, and administration of the Indian Army",
+          "Only ceremonial duties"
+        ],
+        "correct": 2,
+        "explanation": "The Chief of Army Staff is the professional head and commander, responsible for the command, control, and administration of the Indian Army."
       }
-    }
-  ]
+    ]
+  },
+  {
+    "id": "oct-26-2",
+    "topic": "Defence & Security",
+    "text": "Defence Acquisition Council Clears Rs 52,000 Crore Acquisitions for Indian Armed Forces",
+    "publicationDate": "2026-09-29",
+    "originalSource": "DD News",
+    "relatedOfficialDocuments": "Ministry of Defence Press Release",
+    "upscHighlights": [
+      "The Defence Acquisition Council (DAC) approved proposals worth Rs 52,000 crore.",
+      "Acquisitions aim to strengthen the Indian Army, Navy, and Air Force.",
+      "Focus on procuring modern equipment and platforms to enhance combat capabilities.",
+      "Emphasis on 'Make in India' and indigenous manufacturing under 'Atmanirbhar Bharat'.",
+      "The DAC is the highest decision-making body in the Ministry of Defence for capital acquisitions."
+    ],
+    "quickSummary": "The Defence Acquisition Council (DAC), chaired by the Defence Minister, has given its nod to defence acquisition proposals totaling Rs 52,000 crore. These significant procurements are aimed at bolstering the capabilities of the Indian Army, Navy, and Air Force. The decision underscores India's commitment to modernizing its armed forces and promoting indigenous defence manufacturing, aligning with the 'Atmanirbhar Bharat' initiative. This move is crucial for enhancing national security and operational readiness against evolving threats.",
+    "detailedAnalysis": "The approval of Rs 52,000 crore worth of defence acquisitions by the DAC is a major step towards modernizing India's armed forces. This substantial investment will facilitate the procurement of advanced weaponry, platforms, and systems essential for maintaining a technological edge over potential adversaries. The focus on indigenous manufacturing is particularly noteworthy, as it not only reduces reliance on foreign suppliers but also boosts the domestic defence industrial base, creating jobs and fostering technological self-reliance. These acquisitions are expected to address critical capability gaps across the three services, ensuring they are well-equipped to handle a spectrum of security challenges, from conventional warfare to hybrid threats.",
+    "backgroundContext": "The Defence Acquisition Council (DAC) was established in 2001 as part of the post-Kargil reforms to streamline the defence procurement process. It is chaired by the Defence Minister and includes the Chief of Defence Staff, Service Chiefs, and other senior officials. Its mandate is to approve new policies and capital acquisitions for the armed forces. India has been consistently increasing its defence budget and prioritizing indigenous procurement to reduce import dependency and strengthen its strategic autonomy.",
+    "strategicImportance": "These acquisitions are of paramount strategic importance. They directly contribute to enhancing India's deterrence capabilities and its ability to project power in the region. By strengthening the Army, Navy, and Air Force, India aims to secure its borders, protect its maritime interests, and safeguard its airspace. The emphasis on 'Atmanirbhar Bharat' in defence is crucial for national security, as it ensures a reliable supply chain and fosters innovation within the country, making India a net security provider rather than a net security consumer.",
+    "staticGkConnection": "Defence Acquisition Council (DAC), Defence Procurement Procedure (DPP), 'Make in India' in Defence, Atmanirbhar Bharat Abhiyan, Indian Armed Forces structure, roles of Army, Navy, Air Force.",
+    "stakeholders": [
+      "Ministry of Defence (MoD)",
+      "Indian Army",
+      "Indian Navy",
+      "Indian Air Force",
+      "DRDO",
+      "Public Sector Undertakings (PSUs)",
+      "Private Defence Manufacturers"
+    ],
+    "relatedTopics": [
+      "Defence Modernization",
+      "Military Procurement",
+      "National Security",
+      "Defence Industry",
+      "Atmanirbhar Bharat",
+      "Strategic Autonomy"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "High",
+      "CDS": "High",
+      "AFCAT": "High",
+      "CAPF": "High"
+    },
+    "examImportanceScore": 98,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "What is the primary role of the Defence Acquisition Council (DAC)?",
+        "What is the total value of the recently cleared defence acquisitions?",
+        "Which initiative promotes indigenous defence manufacturing in India?",
+        "Name the three services that will benefit from these acquisitions."
+      ],
+      "interviewQuestions": [
+        "Discuss the significance of indigenous defence production for India's national security.",
+        "How do large-scale defence acquisitions impact India's geopolitical standing?",
+        "What are the challenges and opportunities in India's defence procurement process?",
+        "Explain the 'Atmanirbhar Bharat' initiative in the context of defence."
+      ],
+      "ssbDiscussionTopics": [
+        "The balance between acquiring advanced foreign technology and promoting indigenous defence manufacturing.",
+        "Impact of defence spending on economic growth and job creation in India.",
+        "India's strategy to counter evolving threats through military modernization."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "The Defence Acquisition Council (DAC) is chaired by the:",
+        "options": [
+          "Prime Minister",
+          "Chief of Defence Staff",
+          "Defence Minister",
+          "National Security Advisor"
+        ],
+        "correct": 2,
+        "explanation": "The Defence Acquisition Council (DAC) is chaired by the Defence Minister."
+      },
+      {
+        "question": "The recent defence acquisitions worth Rs 52,000 crore primarily aim to strengthen:",
+        "options": [
+          "Border infrastructure only",
+          "Cyber warfare capabilities only",
+          "Indian Army, Navy, and Air Force",
+          "Space research programs"
+        ],
+        "correct": 2,
+        "explanation": "The acquisitions aim to strengthen the Indian Army, Navy, and Air Force."
+      },
+      {
+        "question": "Which government initiative is strongly emphasized in India's current defence procurement strategy?",
+        "options": [
+          "Digital India",
+          "Skill India",
+          "Swachh Bharat Abhiyan",
+          "Atmanirbhar Bharat"
+        ],
+        "correct": 3,
+        "explanation": "The 'Atmanirbhar Bharat' initiative, promoting self-reliance and indigenous manufacturing, is strongly emphasized."
+      }
+    ]
+  },
+  {
+    "id": "oct-26-3",
+    "topic": "Defence & Governance",
+    "text": "Maharashtra Approves 10% Reservation for Former Agniveers in State Security and Police Services",
+    "publicationDate": "2026-09-29",
+    "originalSource": "The New Indian Express",
+    "relatedOfficialDocuments": "Maharashtra Government Resolution",
+    "upscHighlights": [
+      "Maharashtra cabinet approved 10% reservation for former Agniveers in state police and security services.",
+      "The move aims to provide employment opportunities and recognize the service of Agniveers.",
+      "This is a significant step in integrating Agniveers into civilian life post their four-year tenure.",
+      "Other states are expected to follow suit, creating a broader support system for Agniveers.",
+      "The reservation will apply to various state government security and police departments."
+    ],
+    "quickSummary": "The Maharashtra government has approved a 10% reservation for former Agniveers in its state police and security services. This decision is a crucial step towards ensuring gainful employment and a smooth transition for individuals completing their four-year service under the Agnipath scheme. It acknowledges their military training and discipline, aiming to integrate them effectively into civilian roles that benefit from their specialized skills. This initiative is expected to set a precedent for other states to implement similar support mechanisms for Agniveers.",
+    "detailedAnalysis": "The Agnipath scheme, introduced by the central government, recruits youth into the armed forces for a four-year tenure, after which a quarter are retained, and the rest are demobilized as 'Agniveers'. A key concern has been the post-service employment prospects for these demobilized Agniveers. Maharashtra's decision to provide a 10% reservation in state police and security services directly addresses this concern. This move not only offers a clear career path for many Agniveers but also leverages their military training, discipline, and physical fitness for roles critical to state security. It is a practical demonstration of support for the Agnipath scheme and could encourage other states and central government departments to offer similar preferential treatment, thereby strengthening the overall framework for Agniveer rehabilitation.",
+    "backgroundContext": "The Agnipath scheme was launched in 2022 as a transformative reform for recruitment into the Indian Armed Forces. While it aims to create a younger, fitter, and more technologically adept fighting force, it also raised questions about the future of Agniveers after their short service period. The central government had announced various measures, including priority in CAPF and Assam Rifles recruitment, but state-level initiatives like Maharashtra's add a significant layer of support. Several states had previously expressed interest in providing such reservations.",
+    "strategicImportance": "This policy has significant strategic importance. Firstly, it enhances the attractiveness of the Agnipath scheme by providing a tangible post-service career path, potentially boosting recruitment. Secondly, it ensures that the skills and discipline imparted during military service are not lost but are utilized for national benefit in other security-related roles. Thirdly, it fosters a sense of security and recognition among Agniveers, which is vital for morale and the long-term success of the Agnipath model. It also strengthens the civil-military interface by integrating former service personnel into state administration.",
+    "staticGkConnection": "Agnipath Scheme, Indian Armed Forces recruitment, State Police forces, Central Armed Police Forces (CAPF), Reservation policies in India, Military-civilian integration.",
+    "stakeholders": [
+      "Maharashtra Government",
+      "Former Agniveers",
+      "Indian Armed Forces",
+      "Ministry of Defence",
+      "Ministry of Home Affairs",
+      "State Police Departments"
+    ],
+    "relatedTopics": [
+      "Agnipath Scheme",
+      "Military Recruitment",
+      "Employment Opportunities",
+      "State Governance",
+      "National Security",
+      "Police Reforms"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "High",
+      "CDS": "High",
+      "AFCAT": "Medium",
+      "CAPF": "High"
+    },
+    "examImportanceScore": 90,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "Which state recently approved reservation for former Agniveers?",
+        "What percentage of reservation has been approved for Agniveers in Maharashtra?",
+        "In which services will Agniveers receive this reservation?",
+        "What is the primary objective of the Agnipath scheme?"
+      ],
+      "interviewQuestions": [
+        "Discuss the pros and cons of providing reservations for Agniveers in state services.",
+        "How does Maharashtra's decision impact the overall success and perception of the Agnipath scheme?",
+        "What other measures can be taken to ensure a smooth transition for Agniveers into civilian life?",
+        "Analyze the role of state governments in supporting national defence initiatives like Agnipath."
+      ],
+      "ssbDiscussionTopics": [
+        "The Agnipath scheme: A transformative reform or a challenge for military personnel?",
+        "Ensuring post-service employment for short-service military personnel: A national responsibility.",
+        "The balance between military efficiency and social welfare in defence policy."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "The Maharashtra government has approved what percentage of reservation for former Agniveers?",
+        "options": [
+          "5%",
+          "10%",
+          "15%",
+          "20%"
+        ],
+        "correct": 1,
+        "explanation": "Maharashtra has approved a 10% reservation for former Agniveers."
+      },
+      {
+        "question": "This reservation for Agniveers will be applicable in which state services?",
+        "options": [
+          "Only education department",
+          "Only health department",
+          "State police and security services",
+          "Only public sector undertakings"
+        ],
+        "correct": 2,
+        "explanation": "The reservation will be applicable in state police and security services."
+      },
+      {
+        "question": "The Agnipath scheme recruits youth into the armed forces for a tenure of:",
+        "options": [
+          "Two years",
+          "Four years",
+          "Six years",
+          "Ten years"
+        ],
+        "correct": 1,
+        "explanation": "The Agnipath scheme recruits youth for a four-year tenure."
+      }
+    ]
+  },
+  {
+    "id": "oct-26-4",
+    "topic": "Defence Technology",
+    "text": "DRDO to Unveil IRSA 2.0 and New Software-Defined Radio for Indian Air Force by Year-End",
+    "publicationDate": "2026-09-28",
+    "originalSource": "Outlook India",
+    "relatedOfficialDocuments": "DRDO Annual Report (expected)",
+    "upscHighlights": [
+      "DRDO is set to unveil IRSA 2.0, an advanced Intelligence, Reconnaissance, and Surveillance Aircraft.",
+      "A new Software-Defined Radio (SDR) for the Indian Air Force (IAF) is also expected by year-end.",
+      "IRSA 2.0 will enhance India's aerial surveillance and intelligence gathering capabilities.",
+      "The SDR will provide secure, flexible, and interoperable communication for the IAF.",
+      "These developments underscore India's push for indigenous defence technology and self-reliance."
+    ],
+    "quickSummary": "The Defence Research and Development Organisation (DRDO) is on track to introduce two significant indigenous defence technologies by the end of the year: IRSA 2.0 and a new Software-Defined Radio (SDR) for the Indian Air Force (IAF). IRSA 2.0, an advanced Intelligence, Reconnaissance, and Surveillance Aircraft, will boost India's aerial intelligence capabilities. The SDR will revolutionize IAF communications by offering secure, adaptable, and interoperable connectivity. These innovations highlight India's commitment to 'Atmanirbhar Bharat' in defence and strengthening its technological edge.",
+    "detailedAnalysis": "The upcoming unveiling of IRSA 2.0 and the new Software-Defined Radio (SDR) represents a significant leap in India's indigenous defence capabilities. IRSA 2.0 is expected to be a more advanced version of existing Intelligence, Reconnaissance, and Surveillance Aircraft, equipped with state-of-the-art sensors, communication systems, and data processing capabilities. This will provide the Indian armed forces with enhanced real-time intelligence, crucial for situational awareness and decision-making in complex operational environments. The Software-Defined Radio for the IAF is a game-changer for military communications. Unlike traditional radios, SDRs can be reprogrammed to adapt to different waveforms, frequencies, and encryption standards, ensuring secure and seamless communication across various platforms and services. This flexibility is vital for joint operations and interoperability with allied forces, while also mitigating electronic warfare threats. These projects align perfectly with the 'Atmanirbhar Bharat' vision, reducing reliance on foreign technology and fostering a robust domestic defence industrial base.",
+    "backgroundContext": "DRDO is India's premier agency for military research and development. Over the years, it has been instrumental in developing a wide range of defence technologies, from missiles to electronic warfare systems. The need for advanced ISR platforms and secure communication systems has become critical in modern warfare, especially given the evolving geopolitical landscape and border challenges. India has been actively investing in indigenous development to achieve self-reliance in critical defence technologies.",
+    "strategicImportance": "The strategic importance of IRSA 2.0 and the new SDR cannot be overstated. Enhanced ISR capabilities are fundamental for national security, enabling proactive threat assessment, border management, and counter-terrorism operations. Secure and interoperable communications are the backbone of modern military operations, ensuring effective command and control, especially in multi-domain warfare scenarios. These indigenous technologies will provide India with a strategic advantage, reduce vulnerability to external technological dependencies, and bolster its overall defence posture. They are critical for safeguarding national interests and projecting India's military strength.",
+    "staticGkConnection": "DRDO (Defence Research and Development Organisation), Indian Air Force (IAF), Intelligence, Reconnaissance, and Surveillance (ISR), Software-Defined Radio (SDR) technology, Atmanirbhar Bharat in Defence, Electronic Warfare (EW).",
+    "stakeholders": [
+      "DRDO",
+      "Indian Air Force (IAF)",
+      "Ministry of Defence (MoD)",
+      "Bharat Electronics Limited (BEL)",
+      "Private Defence Manufacturers"
+    ],
+    "relatedTopics": [
+      "Defence Indigenization",
+      "Military Communications",
+      "Aerial Surveillance",
+      "Electronic Warfare",
+      "National Security",
+      "Defence R&D"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "High",
+      "CDS": "High",
+      "AFCAT": "High",
+      "CAPF": "Medium"
+    },
+    "examImportanceScore": 92,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "What does IRSA 2.0 stand for?",
+        "What is the primary benefit of Software-Defined Radio (SDR) for the IAF?",
+        "Which organization is developing IRSA 2.0 and the new SDR?",
+        "How do these technologies contribute to 'Atmanirbhar Bharat'?"
+      ],
+      "interviewQuestions": [
+        "Discuss the role of indigenous ISR capabilities in modern warfare.",
+        "Explain the advantages of Software-Defined Radio over traditional communication systems in a military context.",
+        "How is DRDO contributing to India's self-reliance in defence technology?",
+        "What are the challenges in developing advanced defence electronics indigenously?"
+      ],
+      "ssbDiscussionTopics": [
+        "The imperative of technological self-reliance for India's national security.",
+        "The impact of advanced ISR and communication technologies on future warfare.",
+        "Balancing indigenous development with global technological collaborations in defence."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "IRSA 2.0, being developed by DRDO, is an advanced platform for:",
+        "options": [
+          "Intercontinental Ballistic Missile development",
+          "Intelligence, Reconnaissance, and Surveillance",
+          "Submarine detection and tracking",
+          "Cyber warfare operations"
+        ],
+        "correct": 1,
+        "explanation": "IRSA 2.0 stands for Intelligence, Reconnaissance, and Surveillance Aircraft."
+      },
+      {
+        "question": "The new Software-Defined Radio (SDR) is primarily intended for which branch of the Indian Armed Forces?",
+        "options": [
+          "Indian Army",
+          "Indian Navy",
+          "Indian Air Force",
+          "Indian Coast Guard"
+        ],
+        "correct": 2,
+        "explanation": "The new SDR is being developed for the Indian Air Force (IAF)."
+      },
+      {
+        "question": "A key advantage of Software-Defined Radio (SDR) in military applications is its ability to:",
+        "options": [
+          "Operate only on fixed frequencies",
+          "Be reprogrammed to adapt to different waveforms and frequencies",
+          "Transmit data at extremely low speeds only",
+          "Function without any encryption"
+        ],
+        "correct": 1,
+        "explanation": "SDRs can be reprogrammed to adapt to different waveforms, frequencies, and encryption standards, offering flexibility and interoperability."
+      }
+    ]
+  },
+  {
+    "id": "oct-26-5",
+    "topic": "Space & National Security",
+    "text": "India's Space Sector Undergoing Transformation with Private Participation and NavIC Reactivation for Security Forces",
+    "publicationDate": "2026-09-27",
+    "originalSource": "PIB, The Times of India, Livemint, The Economic Times",
+    "relatedOfficialDocuments": "Indian Space Policy 2023, IN-SPACe Guidelines",
+    "upscHighlights": [
+      "India's space sector is witnessing a major transformation with increased private sector participation.",
+      "ISRO's navigation satellite NVS-03 launch in October aims to reactivate NavIC for security forces.",
+      "Private firms are now handling rocket launches and satellite manufacturing, with ISRO focusing on R&D.",
+      "The goal is to strengthen India’s space sovereignty and achieve a significant share in the global space economy.",
+      "Nuclear power in space is being explored, raising questions about safety and responsible use.",
+      "Real-time Earth observation is crucial for environmental governance and disaster management."
+    ],
+    "quickSummary": "India's space sector is undergoing a significant transformation, marked by increasing private sector involvement and strategic advancements. The upcoming launch of ISRO's NVS-03 satellite in October is set to reactivate the NavIC navigation system, crucial for security forces. Private companies are now taking on roles in rocket and satellite manufacturing, allowing ISRO to concentrate on advanced research. This shift aims to bolster India's space sovereignty, capture a larger share of the global space market, and leverage real-time Earth observation for critical applications like environmental governance and disaster management. Discussions also include the safe and responsible use of nuclear power in space.",
+    "detailedAnalysis": "The Indian space sector is at an inflection point, moving from a predominantly government-led model to one that actively encourages private participation. This 'orbital shift' is driven by the Indian Space Policy 2023, which aims to unlock the sector's full potential. Private players are now involved in manufacturing rockets, satellites, and providing space-based services, with ambitious targets like spy satellite makers eyeing $500 million each by 2029. This allows ISRO to focus on cutting-edge research, deep space missions, and developing advanced technologies. A key development is the planned launch of ISRO's NVS-03 navigation satellite in October, which will reactivate the NavIC (Navigation with Indian Constellation) system. NavIC is India's indigenous GPS equivalent, providing accurate positioning and timing services, which are vital for national security, disaster management, and commercial applications. Its reactivation is particularly good news for security forces, ensuring reliable navigation independent of foreign systems. Furthermore, the discussion around nuclear power in space highlights India's long-term vision for advanced space exploration, while emphasizing the critical need for safety protocols and international cooperation for responsible use. Real-time Earth observation from space is also gaining prominence for its role in environmental governance, climate action, and disaster preparedness, building India's decision chain for effective policy implementation.",
+    "backgroundContext": "India's space program, spearheaded by ISRO, has achieved remarkable milestones. However, recognizing the need for accelerated growth and innovation, the government introduced reforms to open up the sector to private entities. This led to the establishment of IN-SPACe (Indian National Space Promotion and Authorization Centre) to facilitate private sector participation. NavIC, initially known as IRNSS (Indian Regional Navigation Satellite System), was developed to provide accurate position information service to users in India and the region, independent of foreign control. The concept of nuclear power in space is not new globally but is gaining traction for long-duration missions and power-intensive applications, necessitating robust safety frameworks.",
+    "strategicImportance": "Strengthening India's space sovereignty is paramount for national security and economic growth. An independent and robust space infrastructure, including navigation, communication, and earth observation satellites, is critical for military operations, intelligence gathering, and disaster response. Private sector involvement brings innovation, efficiency, and capital, accelerating the development of advanced space technologies. NavIC's reactivation ensures India's strategic autonomy in navigation, especially during times of conflict when access to foreign GPS systems might be denied. The responsible exploration of nuclear power in space could unlock new frontiers for deep space missions and energy solutions, positioning India as a leader in advanced space capabilities. Earth observation data is vital for climate action, resource management, and urban planning, directly impacting environmental governance and sustainable development.",
+    "staticGkConnection": "ISRO (Indian Space Research Organisation), NavIC (Navigation with Indian Constellation), Indian Space Policy 2023, IN-SPACe, Gaganyaan Mission, Satellite technology, Remote Sensing, GPS (Global Positioning System), Nuclear power in space, Space debris, Anti-Satellite (ASAT) weapons.",
+    "stakeholders": [
+      "ISRO",
+      "IN-SPACe",
+      "Department of Space",
+      "Private Space Companies (e.g., Skyroot Aerospace, Agnikul Cosmos)",
+      "Indian Armed Forces",
+      "Ministry of Environment, Forest and Climate Change"
+    ],
+    "relatedTopics": [
+      "Space Exploration",
+      "Satellite Navigation",
+      "National Security",
+      "Defence Space Agency",
+      "Private Space Sector",
+      "Earth Observation",
+      "Environmental Governance",
+      "Nuclear Technology"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "High",
+      "CDS": "High",
+      "AFCAT": "High",
+      "CAPF": "High"
+    },
+    "examImportanceScore": 96,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "What is NavIC and its significance for India?",
+        "Name one key reform in India's space sector.",
+        "What is the role of IN-SPACe?",
+        "Why is real-time Earth observation important for governance?"
+      ],
+      "interviewQuestions": [
+        "Discuss the implications of increased private sector participation in India's space program.",
+        "How does NavIC contribute to India's strategic autonomy and national security?",
+        "What are the challenges and opportunities associated with using nuclear power in space?",
+        "Analyze the role of space technology in environmental monitoring and disaster management in India."
+      ],
+      "ssbDiscussionTopics": [
+        "India's journey towards becoming a global space power: Challenges and Way Forward.",
+        "The ethical and safety considerations of advanced space technologies, including nuclear power.",
+        "Leveraging space assets for national development and security: A comprehensive approach."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "NavIC is India's indigenous navigation system, equivalent to which global system?",
+        "options": [
+          "Galileo",
+          "GLONASS",
+          "GPS",
+          "BeiDou"
+        ],
+        "correct": 2,
+        "explanation": "NavIC (Navigation with Indian Constellation) is India's indigenous GPS equivalent."
+      },
+      {
+        "question": "Which entity is primarily responsible for facilitating private sector participation in India's space activities?",
+        "options": [
+          "DRDO",
+          "HAL",
+          "IN-SPACe",
+          "Antrix Corporation"
+        ],
+        "correct": 2,
+        "explanation": "IN-SPACe (Indian National Space Promotion and Authorization Centre) is the nodal agency for this."
+      },
+      {
+        "question": "The 'orbital shift' in India's space sector refers to:",
+        "options": [
+          "A change in satellite orbits",
+          "Increased focus on deep space missions",
+          "Greater private sector involvement and ISRO's focus on R&D",
+          "Development of new launch vehicles only"
+        ],
+        "correct": 2,
+        "explanation": "The 'orbital shift' signifies the transformation towards greater private sector participation and ISRO's strategic shift to R&D and advanced missions."
+      }
+    ]
+  },
+  {
+    "id": "oct-26-6",
+    "topic": "Economy & Finance",
+    "text": "RBI Adopts Hawkish Stance Amidst Robust GDP Growth and Inflationary Pressures",
+    "publicationDate": "2026-10-01",
+    "originalSource": "Business Standard, The Economic Times, Reuters, The Indian Express",
+    "relatedOfficialDocuments": "RBI Monetary Policy Statements, Finance Ministry Economic Review",
+    "upscHighlights": [
+      "RBI is adopting a more hawkish policy path due to robust economic growth and inflationary pressures.",
+      "India's GDP grew by 7.8% in Q1 (April-June) and is projected to grow around 7.3% in Q2 (July-September).",
+      "Strong dollar inflows ($33 billion) and resilient domestic economy contribute to growth.",
+      "Broadening inflation and global rate hikes build a case for potential RBI policy tightening.",
+      "The Finance Ministry's growth projections are higher than RBI's, indicating strong economic momentum."
+    ],
+    "quickSummary": "The Reserve Bank of India (RBI) is signaling a more hawkish monetary policy stance, driven by India's robust economic performance and persistent inflationary concerns. The economy recorded a strong 7.8% GDP growth in Q1, with projections for Q2 also remaining high. Despite significant dollar inflows and a resilient domestic economy, broadening inflation and global tightening trends are prompting the RBI to consider further policy adjustments. This approach aims to balance growth momentum with price stability, ensuring the economy remains on a sustainable path amidst global headwinds.",
+    "detailedAnalysis": "India's economy is demonstrating remarkable resilience, with a robust GDP growth of 7.8% in the first quarter (April-June 2026) and strong projections for the second quarter (July-September 2026) at around 7.3%. This growth is supported by strengthening exports, significant dollar inflows, and a resilient domestic demand. However, this strong growth, coupled with broadening inflationary pressures and a global trend of interest rate hikes, is prompting the Reserve Bank of India (RBI) to adopt a more hawkish monetary policy stance. A hawkish stance typically implies a readiness to raise interest rates or tighten liquidity to curb inflation, even if it means slightly moderating economic growth. The RBI's challenge is to manage this delicate balance: supporting growth while ensuring price stability. The divergence in growth projections, with the Finance Ministry being more optimistic than the RBI, highlights the dynamic nature of economic forecasting and policy-making in a complex global environment. The 'cash deluge' from dollar inflows also adds to liquidity, which the RBI needs to manage to prevent overheating and further inflation.",
+    "backgroundContext": "The RBI's Monetary Policy Committee (MPC) is responsible for setting the benchmark interest rate (repo rate) to achieve the inflation target while keeping in mind the objective of growth. India has faced global headwinds, including supply chain disruptions, geopolitical conflicts, and commodity price volatility, which have contributed to inflationary pressures. The government's fiscal policies and the RBI's monetary policies work in tandem to steer the economy. A 'hawkish' stance contrasts with a 'dovish' stance, where the central bank prioritizes economic growth over inflation control.",
+    "strategicImportance": "The RBI's monetary policy decisions have far-reaching strategic importance. A stable macroeconomic environment, characterized by controlled inflation and sustained growth, is fundamental for national security and long-term development. High inflation can erode purchasing power, create social unrest, and impact defence spending. A strong economy provides the resources necessary for defence modernization, infrastructure development, and social welfare programs. The RBI's ability to manage liquidity, interest rates, and currency flows is crucial for maintaining investor confidence, attracting foreign capital, and ensuring India's financial stability in a volatile global economy. The interplay between fiscal and monetary policy is key to India's economic resilience and strategic autonomy.",
+    "staticGkConnection": "Reserve Bank of India (RBI), Monetary Policy Committee (MPC), Repo Rate, Reverse Repo Rate, Inflation, GDP (Gross Domestic Product), Fiscal Policy, Monetary Policy, Foreign Exchange Reserves, Balance of Payments.",
+    "stakeholders": [
+      "Reserve Bank of India (RBI)",
+      "Ministry of Finance",
+      "Commercial Banks",
+      "Businesses",
+      "Consumers",
+      "Foreign Investors"
+    ],
+    "relatedTopics": [
+      "Indian Economy",
+      "Monetary Policy",
+      "Inflation Control",
+      "Economic Growth",
+      "Fiscal Policy",
+      "Foreign Exchange"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "High",
+      "CDS": "High",
+      "AFCAT": "Medium",
+      "CAPF": "High"
+    },
+    "examImportanceScore": 90,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "What does a 'hawkish' monetary policy stance imply?",
+        "What was India's GDP growth rate in Q1 2026?",
+        "Name one factor contributing to RBI's hawkish stance.",
+        "What is the primary objective of the RBI's Monetary Policy Committee?"
+      ],
+      "interviewQuestions": [
+        "Discuss the challenges faced by the RBI in balancing economic growth and inflation control.",
+        "How do global economic trends influence India's monetary policy decisions?",
+        "Analyze the impact of strong dollar inflows on India's economy and RBI's policy.",
+        "Explain the difference between a hawkish and dovish monetary policy."
+      ],
+      "ssbDiscussionTopics": [
+        "The role of the central bank in ensuring national economic stability and security.",
+        "India's economic resilience amidst global uncertainties: Factors and future outlook.",
+        "The debate over prioritizing economic growth versus inflation control in developing economies."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "A 'hawkish' stance by the RBI typically indicates a readiness to:",
+        "options": [
+          "Lower interest rates to stimulate growth",
+          "Increase government spending",
+          "Raise interest rates to curb inflation",
+          "Reduce foreign exchange reserves"
+        ],
+        "correct": 2,
+        "explanation": "A hawkish stance implies a readiness to raise interest rates or tighten liquidity to curb inflation."
+      },
+      {
+        "question": "India's GDP growth rate for Q1 (April-June) 2026 was reported as approximately:",
+        "options": [
+          "5.5%",
+          "6.2%",
+          "7.8%",
+          "8.5%"
+        ],
+        "correct": 2,
+        "explanation": "India's GDP grew by 7.8% in Q1 (April-June) 2026."
+      },
+      {
+        "question": "Which of the following is NOT a factor contributing to RBI's hawkish policy path?",
+        "options": [
+          "Robust economic growth",
+          "Broadening inflation",
+          "Global interest rate hikes",
+          "Decreasing dollar inflows"
+        ],
+        "correct": 3,
+        "explanation": "Strong dollar inflows, not decreasing inflows, are a factor the RBI needs to manage, contributing to the hawkish stance."
+      }
+    ]
+  },
+  {
+    "id": "oct-26-7",
+    "topic": "Foreign Policy & Geopolitics",
+    "text": "India's Evolving Foreign Policy Navigates a Shifting Global Order and Regional Dynamics",
+    "publicationDate": "2026-10-01",
+    "originalSource": "Council on Foreign Relations (CFR), firstpost.com, aljazeera.com, The Hindu, TheWire.in, Foreign Policy, The Times of India, Moneycontrol.com",
+    "relatedOfficialDocuments": "Ministry of External Affairs Statements",
+    "upscHighlights": [
+      "India is recalibrating its foreign policy in response to a changing 'liberal order' and new geopolitical realities.",
+      "Navigating complex relations with major powers like the US and China, including potential US-China rapprochement.",
+      "Modi's India is adopting a more assertive and independent foreign policy stance on various global issues.",
+      "Analysis of Pakistan's military modernization and internal intelligence reshuffles, and their implications for India.",
+      "The BRICS summit's role in shaping India's multilateral engagements and global influence.",
+      "India's participation in bilateral exercises like 'Varuna' with France underscores strategic partnerships."
+    ],
+    "quickSummary": "India's foreign policy is actively adapting to a rapidly evolving global landscape, moving beyond traditional alignments to assert its strategic autonomy. This involves carefully managing relations with major powers, particularly in the context of US-China dynamics, and adopting a more assertive stance on international issues. Simultaneously, India is closely monitoring regional developments, including Pakistan's military modernization and internal security changes. India's engagement with multilateral forums like BRICS and its participation in bilateral military exercises, such as 'Varuna' with France, highlight its diversified approach to strengthening its global position and national security interests.",
+    "detailedAnalysis": "India's foreign policy is undergoing a significant transformation, characterized by a pragmatic and multi-aligned approach in a world moving 'after the liberal order'. This involves a delicate balancing act, particularly concerning the US and China. While India seeks closer ties with the US, it also critically assesses potential US-China rapprochement and its implications for India's strategic space. The Modi government has demonstrated a willingness to take on major powers more openly, from issues of 'terrorism' to trade tariffs, signaling a more assertive and independent foreign policy. Regionally, India remains vigilant about Pakistan's military modernization, which poses direct security implications. Recent intelligence reshuffles within the Pakistan Army, including key appointments in ISI and MI, are closely watched for their impact on regional stability. India's engagement with multilateral platforms like BRICS is also being re-evaluated for its role in shaping a new global order and enhancing India's influence. Furthermore, strengthening strategic partnerships through bilateral military exercises, such as the 24th edition of the 'Varuna' maritime exercise with France, and exploring new avenues for higher education and research cooperation, are crucial for building capabilities and fostering diplomatic ties. This comprehensive approach aims to secure India's interests in a complex and multipolar world.",
+    "backgroundContext": "Historically, India pursued a policy of non-alignment during the Cold War. In the post-Cold War era, it has embraced strategic autonomy, engaging with multiple partners based on its national interests. The rise of China, the shifting US foreign policy under different administrations, and the increasing assertiveness of regional powers have necessitated a continuous recalibration of India's diplomatic and security strategies. Multilateral forums like BRICS (Brazil, Russia, India, China, South Africa) have gained prominence as platforms for emerging economies to voice their concerns and shape global governance.",
+    "strategicImportance": "India's evolving foreign policy is strategically vital for its national security, economic prosperity, and global standing. Navigating the US-China rivalry effectively is crucial to avoid being drawn into great power competition while maximizing benefits from both. An assertive stance allows India to protect its sovereignty and interests on the global stage. Monitoring Pakistan's military and internal dynamics is a direct national security imperative, given the shared border and historical conflicts. Participation in exercises like 'Varuna' enhances interoperability, builds trust, and strengthens defence cooperation with key strategic partners like France, contributing to maritime security in the Indo-Pacific. India's role in BRICS and other multilateral forums is essential for advocating for a more equitable global order and advancing its economic and geopolitical objectives. This comprehensive foreign policy approach is fundamental to India's rise as a responsible global power.",
+    "staticGkConnection": "Non-Aligned Movement (NAM), BRICS, Quad, Indo-Pacific Strategy, Look East/Act East Policy, India-France Strategic Partnership, India-US relations, India-China relations, Pakistan's military and intelligence agencies (ISI, MI), Maritime exercises (Varuna), Geopolitics, International Relations theories.",
+    "stakeholders": [
+      "Ministry of External Affairs (MEA)",
+      "Ministry of Defence (MoD)",
+      "Indian Armed Forces",
+      "United States",
+      "China",
+      "Pakistan",
+      "France",
+      "BRICS member states",
+      "International organizations"
+    ],
+    "relatedTopics": [
+      "Geopolitics",
+      "International Relations",
+      "National Security",
+      "Defence Diplomacy",
+      "Multilateralism",
+      "Strategic Autonomy",
+      "Indo-Pacific",
+      "Military Exercises"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "High",
+      "CDS": "High",
+      "AFCAT": "High",
+      "CAPF": "High"
+    },
+    "examImportanceScore": 97,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "What is the 'Varuna' exercise?",
+        "Name one country with which India is recalibrating its foreign policy.",
+        "What does 'strategic autonomy' mean in India's foreign policy?",
+        "Which multilateral forum is India actively engaged with for a new global order?"
+      ],
+      "interviewQuestions": [
+        "Discuss how India balances its relations with the US and China in the current geopolitical scenario.",
+        "Analyze the implications of Pakistan's military modernization for India's national security.",
+        "How does India's participation in multilateral forums like BRICS contribute to its foreign policy objectives?",
+        "Explain the concept of 'India after the liberal order' and its relevance to current foreign policy."
+      ],
+      "ssbDiscussionTopics": [
+        "India's role as a rising power in a multipolar world: Challenges and opportunities.",
+        "The importance of defence diplomacy and military exercises in strengthening strategic partnerships.",
+        "Navigating great power rivalries: A test for India's strategic autonomy."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "The 'Varuna' exercise is a bilateral maritime exercise conducted between India and which country?",
+        "options": [
+          "United States",
+          "Russia",
+          "France",
+          "Japan"
+        ],
+        "correct": 2,
+        "explanation": "The 'Varuna' exercise is a bilateral maritime exercise between India and France."
+      },
+      {
+        "question": "Which of the following is NOT a characteristic of India's evolving foreign policy?",
+        "options": [
+          "Strategic autonomy",
+          "Multi-alignment",
+          "Assertive stance on global issues",
+          "Exclusive alignment with a single superpower"
+        ],
+        "correct": 3,
+        "explanation": "India's foreign policy emphasizes strategic autonomy and multi-alignment, not exclusive alignment with a single superpower."
+      },
+      {
+        "question": "The BRICS summit is a platform for:",
+        "options": [
+          "Only military cooperation",
+          "Economic and political cooperation among emerging economies",
+          "Cultural exchange programs",
+          "Bilateral trade agreements only"
+        ],
+        "correct": 1,
+        "explanation": "BRICS is a platform for economic and political cooperation among Brazil, Russia, India, China, and South Africa."
+      }
+    ]
+  },
+  {
+    "id": "oct-26-8",
+    "topic": "Governance & Health",
+    "text": "Digital Health IDs Created, But Lack of Medical Records Raises Implementation Concerns",
+    "publicationDate": "2026-10-01",
+    "originalSource": "eHealth Magazine",
+    "relatedOfficialDocuments": "Ayushman Bharat Digital Mission (ABDM) Guidelines",
+    "upscHighlights": [
+      "India has created crores of Digital Health IDs under the Ayushman Bharat Digital Mission (ABDM).",
+      "A significant challenge is that most of these IDs still lack attached medical records.",
+      "The objective of Digital Health IDs is to create a seamless online platform for health records.",
+      "Lack of record linkage hinders the full potential of the digital health ecosystem.",
+      "Requires greater awareness, infrastructure, and integration efforts from healthcare providers."
+    ],
+    "quickSummary": "Despite the creation of crores of Digital Health IDs under India's Ayushman Bharat Digital Mission (ABDM), a major hurdle persists: most of these IDs are not linked to actual medical records. This disconnect significantly impedes the mission's goal of establishing a seamless and interoperable digital health ecosystem. The challenge highlights the need for enhanced infrastructure, greater participation from healthcare providers, and increased public awareness to ensure that the Digital Health IDs fulfill their intended purpose of revolutionizing healthcare access and management.",
+    "detailedAnalysis": "The Ayushman Bharat Digital Mission (ABDM) is an ambitious initiative aimed at creating a national digital health ecosystem. A cornerstone of this mission is the Digital Health ID (now known as Ayushman Bharat Health Account or ABHA), which is intended to be a unique identifier for individuals to access and manage their health records digitally. While the government has successfully generated millions of these IDs, the core issue lies in the limited linkage of these IDs with actual medical records. This gap means that patients cannot easily access their past medical history, and healthcare providers cannot retrieve comprehensive patient data, undermining the efficiency and effectiveness that the digital system promises. The reasons for this disconnect could include a lack of digital infrastructure in many healthcare facilities, insufficient training for healthcare professionals, low awareness among patients about linking their records, and data privacy concerns. Addressing these challenges is crucial for the ABDM to move beyond mere ID creation to actual functional utility.",
+    "backgroundContext": "The Ayushman Bharat Digital Mission (ABDM) was launched in 2021, building upon the National Digital Health Blueprint. Its vision is to create a national digital health ecosystem that supports universal health coverage in an efficient, accessible, inclusive, affordable, and safe manner. The ABHA number is a 14-digit number that uniquely identifies an individual, allowing them to link their health records across various healthcare providers and access them digitally. The mission aims to bridge the information gap in healthcare and improve patient outcomes.",
+    "strategicImportance": "A fully functional digital health ecosystem has immense strategic importance for India. It can significantly improve public health outcomes by enabling better disease surveillance, facilitating telemedicine, and ensuring continuity of care. For defence personnel and their families, a robust digital health system can streamline medical services, especially for those serving in remote areas or transitioning to civilian life. During public health crises, integrated digital records can aid in rapid response and resource allocation. Furthermore, it enhances data-driven policy-making, allowing for more targeted and effective health interventions. Overcoming the current implementation challenges is vital for realizing these benefits and strengthening India's overall health security.",
+    "staticGkConnection": "Ayushman Bharat Digital Mission (ABDM), Ayushman Bharat Health Account (ABHA), Digital India, National Health Authority (NHA), Telemedicine, Public Health Infrastructure, Data Privacy (Health Data), National Digital Health Blueprint.",
+    "stakeholders": [
+      "National Health Authority (NHA)",
+      "Ministry of Health & Family Welfare",
+      "State Health Departments",
+      "Healthcare Providers (Hospitals, Clinics)",
+      "Patients/Citizens",
+      "Technology Developers"
+    ],
+    "relatedTopics": [
+      "Digital Health",
+      "Healthcare Reforms",
+      "Public Health",
+      "E-governance",
+      "Data Management",
+      "Health Security"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "Medium",
+      "CDS": "Medium",
+      "AFCAT": "Low",
+      "CAPF": "Medium"
+    },
+    "examImportanceScore": 75,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "What is the full form of ABHA?",
+        "What is the main challenge facing India's Digital Health IDs?",
+        "Which mission is responsible for Digital Health IDs?",
+        "Mention one benefit of a fully functional digital health ecosystem."
+      ],
+      "interviewQuestions": [
+        "Discuss the potential benefits and challenges of implementing a nationwide digital health ID system in India.",
+        "How can the government encourage healthcare providers and citizens to link medical records to Digital Health IDs?",
+        "Analyze the role of data privacy and security in the success of the Ayushman Bharat Digital Mission.",
+        "What lessons can India learn from other countries' experiences with digital health initiatives?"
+      ],
+      "ssbDiscussionTopics": [
+        "Digital transformation in healthcare: A boon or a bane for India?",
+        "Ensuring equitable access to digital health services across rural and urban areas.",
+        "The balance between data utility and individual privacy in national digital initiatives."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "The Digital Health ID in India is now commonly known as:",
+        "options": [
+          "Aadhaar Health Card",
+          "Ayushman Bharat Health Account (ABHA)",
+          "National Health Identifier (NHI)",
+          "Digital Medical Record (DMR)"
+        ],
+        "correct": 1,
+        "explanation": "The Digital Health ID is now known as Ayushman Bharat Health Account (ABHA)."
+      },
+      {
+        "question": "The primary challenge highlighted regarding Digital Health IDs is:",
+        "options": [
+          "Lack of unique identification numbers",
+          "High cost of creating IDs",
+          "Most IDs still have no medical records attached",
+          "Limited access to internet for ID creation"
+        ],
+        "correct": 2,
+        "explanation": "The main challenge is that most Digital Health IDs still lack attached medical records."
+      },
+      {
+        "question": "Which mission is responsible for creating a national digital health ecosystem in India?",
+        "options": [
+          "National Health Mission",
+          "Swachh Bharat Abhiyan",
+          "Ayushman Bharat Digital Mission",
+          "Janani Shishu Suraksha Karyakram"
+        ],
+        "correct": 2,
+        "explanation": "The Ayushman Bharat Digital Mission (ABDM) is responsible for this."
+      }
+    ]
+  },
+  {
+    "id": "oct-26-9",
+    "topic": "Environment & Governance",
+    "text": "India Advances Green Energy Policy and Judicial Responses to Climate Change Amidst Monsoon Deficit",
+    "publicationDate": "2026-09-30",
+    "originalSource": "Sarkaritel.com, Bar and Bench, Down To Earth",
+    "relatedOfficialDocuments": "National Green Hydrogen Mission, National Climate Change Action Plan",
+    "upscHighlights": [
+      "India's Green Energy Policy links climate action directly with economic growth.",
+      "Judicial responses are constitutionalizing the right to a clean environment and protection against climate change effects.",
+      "Monsoon 2026 reported 12% less rainfall than normal across India, with significant regional deficits.",
+      "The policy aims to accelerate renewable energy adoption and reduce carbon emissions.",
+      "Judicial activism is pushing for stronger environmental protection and climate resilience measures.",
+      "Monsoon deficit impacts agriculture, water resources, and overall economic stability."
+    ],
+    "quickSummary": "India is actively pursuing a Green Energy Policy that strategically links climate action with economic growth, emphasizing renewable energy adoption. Concurrently, the judiciary is playing a pivotal role by constitutionalizing the right to a clean environment and protection from climate change impacts. These proactive measures come as India faces environmental challenges, evidenced by the Monsoon 2026 report indicating a 12% rainfall deficit nationwide, with severe regional variations. This highlights the urgent need for integrated policy and legal frameworks to build climate resilience and ensure sustainable development.",
+    "detailedAnalysis": "India's commitment to climate action is increasingly being integrated into its economic growth strategy through its Green Energy Policy. This policy aims to accelerate the transition to renewable energy sources, promote energy efficiency, and develop green technologies, thereby fostering sustainable economic development while reducing carbon footprint. Parallel to policy initiatives, the Indian judiciary is demonstrating increasing activism in environmental matters. Courts are interpreting the right to life (Article 21) to include the right to a clean environment and protection from the adverse effects of climate change, effectively constitutionalizing these rights. This judicial oversight provides a crucial check on executive action and pushes for stronger environmental governance. These efforts are particularly pertinent given the country's vulnerability to climate change impacts, as highlighted by the Monsoon 2026 report. The report indicated a 12% deficit in rainfall across India, with regions like Meghalaya experiencing a 60% deficit and the South 24% less rain. Such monsoon variations have profound implications for agriculture, water security, and the livelihoods of millions, underscoring the urgency of both mitigation and adaptation strategies.",
+    "backgroundContext": "India is a signatory to the Paris Agreement and has set ambitious targets for renewable energy capacity and emissions reduction. The National Action Plan on Climate Change (NAPCC) outlines various missions to address climate change. The Indian judiciary has a history of environmental activism, with landmark judgments on pollution control and conservation. Monsoon rainfall is critical for India's agriculture-dependent economy, and its variability due to climate change poses significant challenges.",
+    "strategicImportance": "The integration of green energy policy with economic growth is strategically important for India's energy security, economic competitiveness, and international standing. Reducing reliance on fossil fuels enhances energy independence and mitigates price volatility. Judicial intervention strengthens environmental governance and ensures accountability, which is vital for long-term sustainability. Addressing monsoon variability and its impacts is a national security imperative, as water and food security are directly linked to social stability and economic resilience. India's proactive stance on climate action, both through policy and legal frameworks, positions it as a responsible global actor and enhances its soft power, while simultaneously safeguarding its population and economy from climate-induced disasters.",
+    "staticGkConnection": "Green Energy, Renewable Energy Sources (Solar, Wind, Hydro), Climate Change, Paris Agreement, National Action Plan on Climate Change (NAPCC), Article 21 (Right to Life), Environmental Law, Indian Monsoon, Agriculture in India, Water Security.",
+    "stakeholders": [
+      "Ministry of New and Renewable Energy",
+      "Ministry of Environment, Forest and Climate Change",
+      "Indian Judiciary",
+      "State Governments",
+      "Farmers",
+      "Energy Sector Companies",
+      "International Climate Bodies"
+    ],
+    "relatedTopics": [
+      "Climate Action",
+      "Sustainable Development",
+      "Environmental Justice",
+      "Energy Transition",
+      "Monsoon Variability",
+      "Water Scarcity",
+      "Judicial Activism"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "High",
+      "CDS": "High",
+      "AFCAT": "Medium",
+      "CAPF": "High"
+    },
+    "examImportanceScore": 88,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "How does India's Green Energy Policy link climate action with economic growth?",
+        "What was the overall rainfall deficit during Monsoon 2026?",
+        "Which constitutional article is often invoked for environmental protection in India?",
+        "Name one renewable energy source promoted by India."
+      ],
+      "interviewQuestions": [
+        "Discuss the role of the Indian judiciary in advancing environmental protection and climate justice.",
+        "Analyze the economic and social impacts of a deficient monsoon on India.",
+        "How can India balance its development aspirations with its climate change commitments?",
+        "Explain the concept of 'energy transition' and its importance for India."
+      ],
+      "ssbDiscussionTopics": [
+        "Climate change as a national security threat: India's preparedness and response.",
+        "The role of renewable energy in achieving India's energy independence and sustainability.",
+        "Judicial activism versus legislative action in environmental governance."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "Monsoon 2026 reported an overall rainfall deficit of approximately:",
+        "options": [
+          "5%",
+          "8%",
+          "12%",
+          "15%"
+        ],
+        "correct": 2,
+        "explanation": "Monsoon 2026 reported 12% less rainfall than normal across India."
+      },
+      {
+        "question": "Which constitutional article is being interpreted by the judiciary to include the right to a clean environment?",
+        "options": [
+          "Article 14",
+          "Article 19",
+          "Article 21",
+          "Article 32"
+        ],
+        "correct": 2,
+        "explanation": "The right to a clean environment is often read into Article 21 (Right to Life)."
+      },
+      {
+        "question": "India's Green Energy Policy primarily aims to link climate action with:",
+        "options": [
+          "Military expansion",
+          "Space exploration",
+          "Economic growth",
+          "Cultural preservation"
+        ],
+        "correct": 2,
+        "explanation": "India's Green Energy Policy links climate action directly with economic growth."
+      }
+    ]
+  },
+  {
+    "id": "oct-26-10",
+    "topic": "Education & Skill Development",
+    "text": "Centre Launches PM Research Chair Scheme to Attract Global Talent; Tamil Nadu Introduces '6 Skills per Degree' Program",
+    "publicationDate": "2026-09-30",
+    "originalSource": "DD News, The Indian Express, India Today, fundsforNGOs",
+    "relatedOfficialDocuments": "Ministry of Education Notifications, UGC Guidelines",
+    "upscHighlights": [
+      "Centre launches 'Prime Minister Research Chair Scheme 2026' to attract global Indian talent.",
+      "Scheme aims to boost research and innovation in Indian higher education institutions.",
+      "Tamil Nadu introduces a 'one degree, six skills' program for job-oriented undergraduate courses.",
+      "The TN scheme focuses on equipping students with practical skills alongside academic knowledge.",
+      "Government also announced a 'Science Communication and Popularization Scheme' for public engagement.",
+      "These initiatives aim to enhance India's human capital and address skill gaps."
+    ],
+    "quickSummary": "India is making significant strides in education and skill development with new initiatives from both the central and state governments. The Centre has launched the 'Prime Minister Research Chair Scheme 2026' to attract top global Indian talent and bolster research. Concurrently, Tamil Nadu has introduced an innovative 'one degree, six skills' program for undergraduate courses, focusing on job-oriented practical skills. Additionally, a 'Science Communication and Popularization Scheme' aims to engage the public with scientific advancements. These programs collectively seek to enhance India's research ecosystem, bridge skill gaps, and prepare the workforce for future demands.",
+    "detailedAnalysis": "The 'Prime Minister Research Chair Scheme 2026' is a strategic initiative by the central government to elevate India's research landscape. By offering prestigious research chairs, the scheme aims to attract eminent Indian researchers and academics from around the world back to India, fostering a culture of high-quality research and innovation in higher education institutions. This is crucial for India to become a global knowledge hub. Complementing this national effort, Tamil Nadu's 'one degree, six skills' program is a progressive state-level reform in undergraduate education. This scheme is designed to integrate practical, job-oriented skills into traditional degree courses, ensuring that graduates are not only academically proficient but also possess the competencies demanded by the industry. This addresses the long-standing issue of employability among graduates. Furthermore, the 'Science Communication and Popularization Scheme' highlights the importance of making scientific knowledge accessible to the public, fostering scientific temper, and encouraging interest in STEM fields. Together, these initiatives represent a concerted effort to strengthen India's human capital, promote innovation, and align education with national development goals.",
+    "backgroundContext": "India has a large youth population, and enhancing their employability through quality education and skill development is a national priority. Various government schemes like Skill India Mission, National Education Policy (NEP) 2020, and initiatives by the University Grants Commission (UGC) aim to reform the education sector. The brain drain phenomenon, where talented Indian researchers pursue careers abroad, has been a concern, which schemes like the Research Chair aim to reverse. State governments also play a crucial role in implementing educational reforms tailored to regional needs.",
+    "strategicImportance": "These education and skill development initiatives hold significant strategic importance. By attracting global talent, the 'PM Research Chair Scheme' strengthens India's research capabilities, which are vital for technological advancement, defence innovation, and economic competitiveness. The 'one degree, six skills' program in Tamil Nadu directly addresses the skill gap, making the workforce more adaptable and productive, which is essential for economic growth and industrial development. A skilled workforce is also a national asset, contributing to overall human capital and resilience. The 'Science Communication and Popularization Scheme' fosters a scientifically literate society, which is crucial for informed decision-making, public health, and national progress. These initiatives collectively contribute to building a knowledge-based economy and enhancing India's global standing.",
+    "staticGkConnection": "National Education Policy (NEP) 2020, University Grants Commission (UGC), Skill India Mission, Research & Development (R&D), STEM education, Brain Drain, Higher Education System in India, Science Communication.",
+    "stakeholders": [
+      "Ministry of Education",
+      "UGC",
+      "State Governments (e.g., Tamil Nadu)",
+      "Higher Education Institutions",
+      "Researchers",
+      "Students",
+      "Industry",
+      "Science & Technology Departments"
+    ],
+    "relatedTopics": [
+      "Higher Education",
+      "Skill Development",
+      "Research & Innovation",
+      "Employability",
+      "National Education Policy",
+      "Science & Technology",
+      "Human Capital"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "Medium",
+      "CDS": "High",
+      "AFCAT": "Medium",
+      "CAPF": "High"
+    },
+    "examImportanceScore": 85,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "What is the primary goal of the 'Prime Minister Research Chair Scheme'?",
+        "How many skills are integrated into Tamil Nadu's new UG program?",
+        "What is the purpose of the 'Science Communication and Popularization Scheme'?",
+        "Mention one objective of the National Education Policy (NEP) 2020."
+      ],
+      "interviewQuestions": [
+        "Discuss how the 'Prime Minister Research Chair Scheme' can help reverse the 'brain drain' phenomenon in India.",
+        "Analyze the potential impact of Tamil Nadu's 'one degree, six skills' program on youth employability.",
+        "How important is science communication for a developing country like India?",
+        "What are the key challenges in aligning India's education system with industry demands?"
+      ],
+      "ssbDiscussionTopics": [
+        "Reforming India's higher education system to meet global standards and national needs.",
+        "The role of skill development in empowering India's youth and boosting economic growth.",
+        "Fostering a culture of research and innovation in Indian universities."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "The 'Prime Minister Research Chair Scheme 2026' aims to attract:",
+        "options": [
+          "Foreign tourists",
+          "Global Indian talent in research",
+          "International investors",
+          "Sports coaches"
+        ],
+        "correct": 1,
+        "explanation": "The scheme aims to attract global Indian talent in research to boost innovation."
+      },
+      {
+        "question": "Tamil Nadu's new undergraduate program focuses on integrating how many skills per degree?",
+        "options": [
+          "Two",
+          "Four",
+          "Six",
+          "Eight"
+        ],
+        "correct": 2,
+        "explanation": "The program integrates 'six skills' per degree for job-oriented courses."
+      },
+      {
+        "question": "The 'Science Communication and Popularization Scheme' primarily focuses on:",
+        "options": [
+          "Funding scientific research projects",
+          "Making scientific knowledge accessible to the public",
+          "Developing new scientific instruments",
+          "Training scientists for international conferences"
+        ],
+        "correct": 1,
+        "explanation": "The scheme aims to make scientific knowledge accessible to the public and foster scientific temper."
+      }
+    ]
+  },
+  {
+    "id": "oct-26-11",
+    "topic": "History & Culture",
+    "text": "NCERT Textbook Links Sengol to Chola Dynasty and 1947 Transfer of Power, Igniting Historical Debate",
+    "publicationDate": "2026-10-01",
+    "originalSource": "Telegraph India, Moneycontrol.com",
+    "relatedOfficialDocuments": "NCERT Textbooks, Ministry of Education Curricular Framework",
+    "upscHighlights": [
+      "NCERT textbooks have included content linking the 'Sengol' to the Chola dynasty and India's 1947 transfer of power.",
+      "The Sengol, a ceremonial sceptre, was prominently featured during the inauguration of the new Parliament building.",
+      "The textbook's narrative suggests the Sengol symbolized the transfer of power from the British to India.",
+      "This inclusion has revived a historical debate regarding its role and significance in 1947.",
+      "The Chola dynasty's historical practice of using sceptres for royal authority is highlighted."
+    ],
+    "quickSummary": "NCERT textbooks have incorporated a narrative connecting the 'Sengol' – a ceremonial sceptre prominently displayed in the new Parliament – to the ancient Chola dynasty and its symbolic role in India's 1947 transfer of power. This inclusion has reignited a historical debate about the sceptre's actual significance during India's independence. The textbook's assertion that the Sengol symbolized the handover of authority from the British to India draws parallels with Chola traditions of royal authority, prompting discussions among historians and the public about historical interpretations and their representation in educational curricula.",
+    "detailedAnalysis": "The inclusion of the 'Sengol' in NCERT textbooks, linking it to the Chola dynasty and the 1947 transfer of power, is a significant development in India's educational curriculum and historical discourse. The Sengol, a golden sceptre, gained national prominence when it was installed in the new Parliament building. The narrative presented in the textbooks suggests that the Sengol was handed over to Jawaharlal Nehru by Lord Mountbatten as a symbol of the transfer of power from British rule to Indian hands, drawing upon a tradition of sceptre-based authority from the ancient Chola dynasty. This interpretation has been a subject of considerable debate among historians, with some questioning the historical evidence for its role in 1947 and others supporting its symbolic significance. The textbook's assertion aims to embed this interpretation into the national consciousness, emphasizing a continuity of Indian civilizational values and traditions in modern governance. The debate underscores the dynamic nature of historical interpretation and its political implications.",
+    "backgroundContext": "The Sengol was presented to Jawaharlal Nehru on August 14, 1947, by representatives of a Tamil Nadu mutt. Its historical significance as a symbol of transfer of power was largely unknown to the wider public until its re-emergence and prominent display during the inauguration of the new Parliament building in 2023. The Chola dynasty, a powerful South Indian empire (c. 9th to 13th centuries CE), was known for its elaborate administrative system and cultural achievements, where royal sceptres were indeed symbols of dharma and justice. NCERT (National Council of Educational Research and Training) is an autonomous organization that advises the central and state governments on academic matters and develops textbooks for schools.",
+    "strategicImportance": "The inclusion of the Sengol narrative in textbooks has strategic importance for shaping national identity and historical understanding. By linking a modern event (1947 independence) with ancient Indian traditions (Chola dynasty), it reinforces a sense of civilizational continuity and cultural pride. This can influence how future generations perceive India's past and its foundational moments. From a governance perspective, the symbolism of the Sengol as a 'sceptre of dharma' (righteousness) can be used to emphasize ethical governance. However, such historical interpretations, especially when contested, can also become points of political and academic contention, influencing public discourse and potentially impacting social cohesion. The debate highlights the power of educational curricula in constructing national narratives.",
+    "staticGkConnection": "Sengol, Chola Dynasty, Indian Independence, Transfer of Power 1947, Jawaharlal Nehru, Lord Mountbatten, NCERT, Indian Parliament, Ancient Indian History, Symbolism in Governance, Cultural Heritage.",
+    "stakeholders": [
+      "NCERT",
+      "Ministry of Education",
+      "Historians",
+      "Political Parties",
+      "Public/Students",
+      "Cultural Organizations"
+    ],
+    "relatedTopics": [
+      "Indian History",
+      "National Identity",
+      "Cultural Heritage",
+      "Education Policy",
+      "Political Symbolism",
+      "Chola Empire"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "Medium",
+      "CDS": "High",
+      "AFCAT": "Medium",
+      "CAPF": "High"
+    },
+    "examImportanceScore": 80,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "What is the 'Sengol'?",
+        "Which ancient Indian dynasty is linked to the tradition of sceptres in the NCERT narrative?",
+        "When was the Sengol prominently featured recently?",
+        "What historical event is the Sengol now associated with in textbooks?"
+      ],
+      "interviewQuestions": [
+        "Discuss the significance of historical narratives in shaping national identity, using the Sengol example.",
+        "Analyze the role of NCERT in curriculum development and its impact on historical understanding.",
+        "What are the challenges in presenting contested historical interpretations in educational textbooks?",
+        "Explain the symbolism of the Sengol in the context of Indian governance and cultural heritage."
+      ],
+      "ssbDiscussionTopics": [
+        "The role of historical symbols in modern political discourse and national unity.",
+        "Reinterpreting history: Necessity or political manipulation?",
+        "The importance of critical thinking and diverse perspectives in historical education."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "The NCERT textbook links the 'Sengol' to which ancient Indian dynasty?",
+        "options": [
+          "Maurya Dynasty",
+          "Gupta Dynasty",
+          "Chola Dynasty",
+          "Mughal Dynasty"
+        ],
+        "correct": 2,
+        "explanation": "The NCERT textbook links the 'Sengol' to the Chola Dynasty."
+      },
+      {
+        "question": "The Sengol was prominently featured during the inauguration of which recent structure?",
+        "options": [
+          "New Supreme Court building",
+          "New Parliament building",
+          "National War Memorial",
+          "Statue of Unity"
+        ],
+        "correct": 1,
+        "explanation": "The Sengol was prominently featured during the inauguration of the new Parliament building."
+      },
+      {
+        "question": "The historical debate surrounding the Sengol primarily concerns its role in:",
+        "options": [
+          "The Quit India Movement",
+          "The Partition of India",
+          "The transfer of power in 1947",
+          "The drafting of the Indian Constitution"
+        ],
+        "correct": 2,
+        "explanation": "The debate primarily concerns its symbolic role in the transfer of power in 1947."
+      }
+    ]
+  },
+  {
+    "id": "oct-26-12",
+    "topic": "Governance & Disaster Management",
+    "text": "Parliamentary Committee Recommends Measures to Strengthen India’s Disaster Readiness",
+    "publicationDate": "2026-10-01",
+    "originalSource": "PRSIndia",
+    "relatedOfficialDocuments": "Parliamentary Committee Report on Disaster Management, Disaster Management Act 2005",
+    "upscHighlights": [
+      "A Parliamentary Committee has submitted recommendations to enhance India’s disaster readiness.",
+      "Focus on improving early warning systems, response mechanisms, and community resilience.",
+      "Recommendations likely cover infrastructure development, capacity building, and inter-agency coordination.",
+      "Emphasizes the need for a proactive approach to disaster management, moving from relief to preparedness.",
+      "The report addresses various natural and man-made disasters facing the country.",
+      "Aims to strengthen the implementation of the Disaster Management Act, 2005."
+    ],
+    "quickSummary": "A Parliamentary Committee has put forth crucial recommendations aimed at significantly bolstering India's disaster readiness. The report emphasizes a shift towards a proactive disaster management approach, focusing on robust early warning systems, efficient response mechanisms, and enhancing community resilience. These measures are designed to improve infrastructure, build capacity across agencies, and foster better coordination to effectively tackle both natural and man-made disasters. The recommendations are expected to strengthen the implementation of the existing Disaster Management Act, 2005, ensuring a more prepared and responsive nation.",
+    "detailedAnalysis": "The recommendations by the Parliamentary Committee on Disaster Readiness are a timely and critical intervention, given India's vulnerability to a wide array of natural and man-made disasters, including floods, droughts, cyclones, earthquakes, and industrial accidents. The report likely advocates for a paradigm shift from a reactive, relief-centric approach to a proactive, preparedness-oriented strategy. Key areas of focus would include strengthening early warning systems through advanced technology and real-time data, enhancing the capabilities of first responders and disaster relief forces (like NDRF and SDRF), and building community-level resilience through awareness and training programs. The recommendations would also address the need for resilient infrastructure, climate-adaptive planning, and improved inter-agency coordination at central, state, and local levels. Effective implementation of these recommendations is crucial for minimizing loss of life and property, ensuring rapid recovery, and safeguarding economic development. The report serves as a roadmap to refine and strengthen the existing legal and institutional framework, particularly the Disaster Management Act, 2005.",
+    "backgroundContext": "India established the National Disaster Management Authority (NDMA) in 2006 under the Disaster Management Act, 2005, to formulate policies, plans, and guidelines for disaster management. State Disaster Management Authorities (SDMAs) and District Disaster Management Authorities (DDMAs) operate at state and district levels. Despite these structures, major disaster events often highlight gaps in preparedness and response, prompting parliamentary oversight and recommendations for continuous improvement. Climate change is exacerbating the frequency and intensity of many natural disasters, making robust disaster readiness even more imperative.",
+    "strategicImportance": "Disaster readiness is a critical component of national security and sustainable development. Frequent and severe disasters can destabilize economies, displace populations, strain public resources, and even impact military readiness. A robust disaster management framework ensures the protection of citizens, critical infrastructure, and economic assets. It also enhances India's capacity to respond to humanitarian crises, both domestically and internationally, thereby strengthening its soft power and regional leadership. The recommendations, if implemented effectively, will contribute to building a more resilient nation, capable of mitigating the adverse effects of disasters and ensuring rapid recovery, which is vital for long-term stability and growth.",
+    "staticGkConnection": "National Disaster Management Authority (NDMA), Disaster Management Act 2005, National Disaster Response Force (NDRF), State Disaster Response Force (SDRF), Types of Disasters (Natural, Man-made), Early Warning Systems, Climate Change Adaptation, Sendai Framework for Disaster Risk Reduction.",
+    "stakeholders": [
+      "National Disaster Management Authority (NDMA)",
+      "Ministry of Home Affairs",
+      "State Disaster Management Authorities (SDMAs)",
+      "District Disaster Management Authorities (DDMAs)",
+      "NDRF/SDRF",
+      "Local Communities",
+      "Scientific Institutions (IMD, GSI)"
+    ],
+    "relatedTopics": [
+      "Disaster Management",
+      "National Security",
+      "Climate Resilience",
+      "Public Policy",
+      "Emergency Response",
+      "Infrastructure Development"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "Medium",
+      "CDS": "High",
+      "AFCAT": "Medium",
+      "CAPF": "High"
+    },
+    "examImportanceScore": 87,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "Which Act governs disaster management in India?",
+        "What is the primary shift recommended in disaster management approach?",
+        "Name the apex body for disaster management in India.",
+        "Mention one type of disaster India is vulnerable to."
+      ],
+      "interviewQuestions": [
+        "Discuss the importance of a proactive approach to disaster management in India.",
+        "Analyze the role of technology in strengthening early warning systems for disasters.",
+        "How can community participation be enhanced in disaster preparedness and response?",
+        "What are the challenges in coordinating disaster management efforts across different levels of government?"
+      ],
+      "ssbDiscussionTopics": [
+        "India's preparedness for future climate-induced disasters: Are we doing enough?",
+        "The role of armed forces in disaster relief and management.",
+        "Building a disaster-resilient India: A multi-stakeholder approach."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "The apex body for disaster management in India is the:",
+        "options": [
+          "National Green Tribunal (NGT)",
+          "National Disaster Management Authority (NDMA)",
+          "Indian Meteorological Department (IMD)",
+          "Geological Survey of India (GSI)"
+        ],
+        "correct": 1,
+        "explanation": "The National Disaster Management Authority (NDMA) is the apex body for disaster management in India."
+      },
+      {
+        "question": "The Parliamentary Committee's recommendations emphasize a shift from a relief-centric approach to a:",
+        "options": [
+          "Reactive approach",
+          "Preparedness-oriented approach",
+          "International aid-dependent approach",
+          "Militia-led approach"
+        ],
+        "correct": 1,
+        "explanation": "The recommendations emphasize a shift to a proactive, preparedness-oriented approach."
+      },
+      {
+        "question": "The Disaster Management Act was enacted in which year?",
+        "options": [
+          "1999",
+          "2001",
+          "2005",
+          "2010"
+        ],
+        "correct": 2,
+        "explanation": "The Disaster Management Act was enacted in 2005."
+      }
+    ]
+  },
+  {
+    "id": "oct-26-13",
+    "topic": "Governance & Internal Security",
+    "text": "Home and Law Ministries Brief Joint Parliamentary Committee on FCRA Bill",
+    "publicationDate": "2026-09-29",
+    "originalSource": "The New Indian Express",
+    "relatedOfficialDocuments": "FCRA Bill 2026 (Proposed), Foreign Contribution (Regulation) Act, 2010",
+    "upscHighlights": [
+      "The Home and Law Ministries briefed a Joint Parliamentary Committee (JPC) on the proposed FCRA Bill.",
+      "The Bill aims to amend the Foreign Contribution (Regulation) Act (FCRA), 2010.",
+      "Discussions likely focused on regulating foreign funding to NGOs and other entities.",
+      "The government emphasizes transparency and accountability in foreign contributions.",
+      "Concerns about potential misuse of foreign funds for activities detrimental to national interest.",
+      "JPCs are formed to examine specific bills in detail and provide recommendations."
+    ],
+    "quickSummary": "The Ministries of Home Affairs and Law have briefed a Joint Parliamentary Committee (JPC) regarding the proposed Foreign Contribution (Regulation) Act (FCRA) Bill. This legislative initiative seeks to amend the existing FCRA, 2010, primarily to enhance transparency and accountability in the receipt and utilization of foreign funds by various organizations in India. The government's focus is on preventing the misuse of foreign contributions for activities that could undermine national interests. The JPC's detailed examination and recommendations will be crucial in shaping the final form of this significant legislation.",
+    "detailedAnalysis": "The briefing by the Home and Law Ministries to the Joint Parliamentary Committee (JPC) on the FCRA Bill signifies a crucial stage in the legislative process for a law with wide-ranging implications. The Foreign Contribution (Regulation) Act (FCRA) governs the acceptance and utilization of foreign contributions by individuals, associations, and companies in India. The proposed Bill likely seeks to introduce stricter regulations, enhance oversight mechanisms, and potentially broaden the scope of activities considered detrimental to national interest. The government's rationale often centers on national security concerns, preventing foreign interference in domestic affairs, and ensuring that foreign funds are used for their stated charitable or developmental purposes without diversion or misuse. NGOs and civil society organizations, however, often raise concerns about potential restrictions on their legitimate activities and the impact on their operational autonomy. The JPC's role is to thoroughly examine these aspects, hear from various stakeholders, and propose amendments to strike a balance between national security and the legitimate functioning of civil society.",
+    "backgroundContext": "The FCRA was first enacted in 1976 and significantly amended in 2010. Over the years, the government has tightened regulations, citing concerns about foreign funding being used for proselytization, political activities, or activities deemed against public interest. Recent amendments have included restrictions on transferring foreign contributions, mandatory Aadhaar for office bearers, and a reduction in the percentage of foreign funds that can be used for administrative expenses. Joint Parliamentary Committees are ad-hoc committees formed by both Houses of Parliament to investigate specific matters or bills, providing a detailed, bipartisan review.",
+    "strategicImportance": "The FCRA Bill has significant strategic importance for India's internal security and sovereignty. Effective regulation of foreign funding is crucial to prevent external actors from influencing India's political, social, or economic landscape through non-state channels. Misuse of foreign funds can fuel unrest, support extremist ideologies, or undermine developmental efforts. While ensuring national security, the government must also balance this with the need to foster a vibrant civil society that contributes to development and democratic discourse. The legislation's impact on international relations is also noteworthy, as it affects foreign donors and international NGOs. The JPC's recommendations will be critical in shaping a law that is robust in safeguarding national interests while being fair and transparent to legitimate organizations.",
+    "staticGkConnection": "Foreign Contribution (Regulation) Act (FCRA), 2010, Joint Parliamentary Committee (JPC), Ministry of Home Affairs, Ministry of Law and Justice, Non-Governmental Organizations (NGOs), Internal Security, Legislative Process in India, Parliamentary Committees.",
+    "stakeholders": [
+      "Ministry of Home Affairs",
+      "Ministry of Law and Justice",
+      "Joint Parliamentary Committee (JPC)",
+      "Non-Governmental Organizations (NGOs)",
+      "Civil Society Organizations",
+      "Foreign Donor Agencies",
+      "Parliament of India"
+    ],
+    "relatedTopics": [
+      "Internal Security",
+      "Governance",
+      "Legislation",
+      "NGO Regulation",
+      "Foreign Funding",
+      "Parliamentary Procedures",
+      "Civil Society"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "Medium",
+      "CDS": "High",
+      "AFCAT": "Medium",
+      "CAPF": "High"
+    },
+    "examImportanceScore": 82,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "What is the full form of FCRA?",
+        "Which ministries briefed the JPC on the FCRA Bill?",
+        "What is the primary objective of the FCRA?",
+        "What is a Joint Parliamentary Committee (JPC)?"
+      ],
+      "interviewQuestions": [
+        "Discuss the government's rationale behind tightening FCRA regulations and the concerns raised by NGOs.",
+        "Analyze the balance between national security and the freedom of civil society organizations in the context of FCRA.",
+        "How do foreign contributions impact India's internal security landscape?",
+        "Explain the legislative process for a Bill in India, highlighting the role of a JPC."
+      ],
+      "ssbDiscussionTopics": [
+        "The role of foreign funding in India's development and its potential for misuse.",
+        "Balancing state control and civil liberties in regulating NGOs.",
+        "Ensuring transparency and accountability in the functioning of non-governmental organizations."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "The FCRA Bill aims to amend the existing Foreign Contribution (Regulation) Act of which year?",
+        "options": [
+          "1976",
+          "2005",
+          "2010",
+          "2016"
+        ],
+        "correct": 2,
+        "explanation": "The FCRA Bill aims to amend the Foreign Contribution (Regulation) Act, 2010."
+      },
+      {
+        "question": "Which type of committee is a Joint Parliamentary Committee (JPC)?",
+        "options": [
+          "Standing Committee",
+          "Ad-hoc Committee",
+          "Departmental Committee",
+          "Consultative Committee"
+        ],
+        "correct": 1,
+        "explanation": "A Joint Parliamentary Committee (JPC) is an ad-hoc committee formed for specific purposes."
+      },
+      {
+        "question": "The primary concern addressed by the FCRA is:",
+        "options": [
+          "Regulation of domestic donations",
+          "Control of foreign trade",
+          "Regulation of foreign funding to entities in India",
+          "Management of foreign direct investment"
+        ],
+        "correct": 2,
+        "explanation": "The FCRA primarily regulates the acceptance and utilization of foreign contributions by individuals, associations, and companies in India."
+      }
+    ]
+  },
+  {
+    "id": "oct-26-14",
+    "topic": "Social Justice & Welfare",
+    "text": "PM-AJAY Scheme Expands Livelihoods, Education, and Infrastructure Support for SC Communities",
+    "publicationDate": "2026-09-28",
+    "originalSource": "ddindia.co.in",
+    "relatedOfficialDocuments": "Ministry of Social Justice and Empowerment Guidelines",
+    "upscHighlights": [
+      "The PM-AJAY scheme is expanding its support for Scheduled Caste (SC) communities.",
+      "Focus areas include enhancing livelihoods, improving access to education, and developing infrastructure.",
+      "Aims to uplift socio-economic conditions and reduce disparities faced by SC populations.",
+      "The scheme provides targeted interventions for holistic development.",
+      "Part of the government's broader commitment to inclusive growth and social justice.",
+      "Empowerment through skill development and entrepreneurial opportunities is a key component."
+    ],
+    "quickSummary": "The Prime Minister – Adarsh Gram Yojana (PM-AJAY) scheme is significantly expanding its scope to provide enhanced support for Scheduled Caste (SC) communities across India. The revamped scheme focuses on a multi-pronged approach, including boosting livelihoods, improving educational access, and developing essential infrastructure in SC-dominated areas. This initiative underscores the government's commitment to inclusive growth and social justice, aiming to uplift the socio-economic status of SC populations through targeted interventions, skill development, and entrepreneurial opportunities, thereby reducing existing disparities.",
+    "detailedAnalysis": "The expansion of the PM-AJAY scheme (formerly Pradhan Mantri Adarsh Gram Yojana) is a crucial step towards addressing the persistent socio-economic disparities faced by Scheduled Caste (SC) communities. The scheme adopts a holistic approach, focusing on three key pillars: livelihoods, education, and infrastructure. Under livelihoods, it likely promotes skill development, vocational training, and entrepreneurial support to enable SC individuals to secure better employment or start their own ventures. In education, it aims to improve access to quality schooling, provide scholarships, and reduce dropout rates, thereby enhancing human capital. Infrastructure development includes improving basic amenities like roads, housing, sanitation, and digital connectivity in SC-dominated villages, which are essential for overall development and quality of life. By providing targeted interventions, PM-AJAY seeks to create 'Adarsh Grams' (model villages) that are self-sufficient and integrated into the mainstream economy, fostering social inclusion and empowerment. This expansion reflects a renewed commitment to the welfare of marginalized communities.",
+    "backgroundContext": "The Pradhan Mantri Adarsh Gram Yojana (PMAGY) was launched in 2009-10 as a rural development program for the integrated development of villages with a significant Scheduled Caste population. It was later revamped and renamed PM-AJAY. The scheme operates under the Ministry of Social Justice and Empowerment. Despite constitutional provisions and various government schemes, SC communities continue to face challenges related to poverty, discrimination, and lack of access to resources. Schemes like PM-AJAY are designed to bridge these gaps and ensure equitable development.",
+    "strategicImportance": "The PM-AJAY scheme holds significant strategic importance for national development and social cohesion. Addressing the socio-economic backwardness of Scheduled Caste communities is not just a matter of social justice but also crucial for inclusive growth. When a significant segment of the population is marginalized, it hinders overall national progress and can lead to social unrest. By empowering SC communities through improved livelihoods, education, and infrastructure, the scheme contributes to reducing inequality, fostering social harmony, and strengthening the democratic fabric of the nation. A more equitable society is inherently more stable and resilient, which is vital for long-term national security and prosperity. It also aligns with India's constitutional commitment to equality and non-discrimination.",
+    "staticGkConnection": "Scheduled Castes (SC), Ministry of Social Justice and Empowerment, Pradhan Mantri Adarsh Gram Yojana (PMAGY), Inclusive Growth, Social Justice, Constitutional provisions for SCs (e.g., Articles 17, 46, 330, 332, 335), Rural Development, Skill Development Programs.",
+    "stakeholders": [
+      "Ministry of Social Justice and Empowerment",
+      "State Governments",
+      "District Administrations",
+      "Scheduled Caste Communities",
+      "Local Self-Governments (Panchayats)",
+      "NGOs"
+    ],
+    "relatedTopics": [
+      "Social Inclusion",
+      "Poverty Alleviation",
+      "Education Access",
+      "Rural Infrastructure",
+      "Skill Development",
+      "Community Empowerment",
+      "Government Schemes"
+    ],
+    "examRelevanceMatrix": {
+      "NDA": "Medium",
+      "CDS": "High",
+      "AFCAT": "Low",
+      "CAPF": "High"
+    },
+    "examImportanceScore": 78,
+    "potentialQuestions": {
+      "shortAnswers": [
+        "What does PM-AJAY stand for?",
+        "Which communities are the primary beneficiaries of the PM-AJAY scheme?",
+        "Name one key focus area of the expanded PM-AJAY scheme.",
+        "Which Union Ministry is responsible for the PM-AJAY scheme?"
+      ],
+      "interviewQuestions": [
+        "Discuss how the PM-AJAY scheme contributes to the socio-economic upliftment of Scheduled Caste communities.",
+        "Analyze the challenges in implementing rural development schemes for marginalized communities.",
+        "How important is infrastructure development for inclusive growth in rural India?",
+        "Explain the concept of 'Adarsh Gram' and its significance."
+      ],
+      "ssbDiscussionTopics": [
+        "The role of government schemes in achieving social justice and equality in India.",
+        "Addressing disparities in rural India: A multi-sectoral approach.",
+        "Empowering marginalized communities for national development."
+      ]
+    },
+    "mcqs": [
+      {
+        "question": "The PM-AJAY scheme primarily focuses on the development of which communities?",
+        "options": [
+          "Scheduled Tribes (ST)",
+          "Other Backward Classes (OBC)",
+          "Scheduled Castes (SC)",
+          "Economically Weaker Sections (EWS)"
+        ],
+        "correct": 2,
+        "explanation": "The PM-AJAY scheme primarily focuses on the development of Scheduled Caste (SC) communities."
+      },
+      {
+        "question": "Which of the following is NOT a key focus area of the expanded PM-AJAY scheme?",
+        "options": [
+          "Enhancing livelihoods",
+          "Improving access to education",
+          "Developing infrastructure",
+          "Promoting international tourism"
+        ],
+        "correct": 3,
+        "explanation": "Promoting international tourism is not a key focus area of the PM-AJAY scheme; it focuses on livelihoods, education, and infrastructure."
+      },
+      {
+        "question": "The PM-AJAY scheme operates under the aegis of which Union Ministry?",
+        "options": [
+          "Ministry of Rural Development",
+          "Ministry of Education",
+          "Ministry of Social Justice and Empowerment",
+          "Ministry of Tribal Affairs"
+        ],
+        "correct": 2,
+        "explanation": "The PM-AJAY scheme operates under the Ministry of Social Justice and Empowerment."
+      }
+    ]
+  },
+  {
+    "id": "oct-2026-001",
+    "topic": "International Relations & Defence",
+    "text": "Admiral Paparo, Commander of the US Indo-Pacific Command, visited India in October 2026 to enhance bilateral defence cooperation and operational interoperability.",
+    "details": {
+      "winner": "India & USA",
+      "award": "High-level Defence Visit",
+      "nationality": "USA",
+      "summary": "Admiral Paparo visited India to strengthen strategic ties and maritime security in the Indo-Pacific."
+    },
+    "mcq": {
+      "question": "Who visited India in October 2026 representing the US Indo-Pacific Command to enhance defence interoperability?",
+      "options": [
+        "General Lloyd Austin",
+        "Admiral Paparo",
+        "Admiral John Aquilino",
+        "General Mark Milley"
+      ],
+      "correct": 1,
+      "explanation": "Admiral Paparo is the Commander of the US Indo-Pacific Command and visited India in October 2026."
+    },
+    "upscHighlights": [
+      "US Indo-Pacific Command (INDOPACOM)",
+      "Focus on maritime interoperability",
+      "Strategic partnership"
+    ],
+    "strategicImportance": "Crucial for regional security dynamics and fostering a free and open Indo-Pacific."
+  },
+  {
+    "id": "oct-2026-002",
+    "topic": "International Relations",
+    "text": "The Polish Prime Minister visited India in October 2026 to elevate bilateral relations, focusing strongly on defence procurement, joint ventures, and technology transfer.",
+    "details": {
+      "winner": "India & Poland",
+      "award": "Bilateral Strategic Partnership",
+      "nationality": "Poland",
+      "summary": "Polish PM visited India to explore new avenues for defence joint ventures and strategic cooperation."
+    },
+    "mcq": {
+      "question": "The Prime Minister of which European nation visited India in October 2026 to elevate bilateral relations and focus on defence joint ventures?",
+      "options": [
+        "France",
+        "Germany",
+        "Poland",
+        "Italy"
+      ],
+      "correct": 2,
+      "explanation": "The Polish PM visited India focusing on defence cooperation and tech transfer."
+    },
+    "upscHighlights": [
+      "India-Poland relations",
+      "Defence procurement diversification",
+      "Central European outreach"
+    ],
+    "strategicImportance": "Underscores India's expanding diplomatic outreach beyond traditional partners and diversifying its defence sourcing."
+  },
+  {
+    "id": "oct-2026-003",
+    "topic": "Military Exercises",
+    "text": "The multinational maritime exercise **MALABAR 2026** was conducted in October, featuring navies from India, the USA, Japan, and Australia, focusing on advanced anti-submarine warfare.",
+    "details": {
+      "winner": "QUAD Nations",
+      "award": "Exercise Malabar 2026",
+      "nationality": "Multinational",
+      "summary": "Annual QUAD naval exercise held in October 2026."
+    },
+    "mcq": {
+      "question": "Which of the following nations is NOT a regular participant in the multilateral naval exercise MALABAR?",
+      "options": [
+        "India",
+        "Japan",
+        "South Korea",
+        "Australia"
+      ],
+      "correct": 2,
+      "explanation": "MALABAR involves the QUAD nations: India, USA, Japan, and Australia."
+    },
+    "upscHighlights": [
+      "QUAD navies",
+      "Advanced Anti-Submarine Warfare (ASW)",
+      "Interoperability"
+    ],
+    "strategicImportance": "Projects a united front by QUAD nations to ensure a free, open, and inclusive Indo-Pacific region."
+  },
+  {
+    "id": "oct-2026-004",
+    "topic": "Defence Tech & DRDO",
+    "text": "DRDO successfully test-fired a new variant of the **Pralay** tactical ballistic missile in October 2026, demonstrating enhanced accuracy and range.",
+    "details": {
+      "winner": "DRDO",
+      "award": "Successful Missile Test",
+      "nationality": "India",
+      "summary": "DRDO tested the Pralay quasi-ballistic surface-to-surface missile."
+    },
+    "mcq": {
+      "question": "What type of missile is 'Pralay', which was successfully tested by DRDO in October 2026?",
+      "options": [
+        "Air-to-Air Missile",
+        "Surface-to-Air Missile",
+        "Tactical Surface-to-Surface Missile",
+        "Anti-Tank Guided Missile"
+      ],
+      "correct": 2,
+      "explanation": "Pralay is a tactical, surface-to-surface, quasi-ballistic missile."
+    },
+    "upscHighlights": [
+      "Tactical Surface-to-Surface Missile",
+      "Quasi-ballistic trajectory",
+      "Developed by DRDO"
+    ],
+    "strategicImportance": "Significantly bolsters India's rocket force and tactical strike capabilities along the borders."
+  },
+  {
+    "id": "oct-2026-005",
+    "topic": "Space Missions",
+    "text": "ISRO marked a major milestone in the **Gaganyaan** program in October 2026 by completing the crucial uncrewed orbital test flight (G1).",
+    "details": {
+      "winner": "ISRO",
+      "award": "Gaganyaan G1 Test Flight",
+      "nationality": "India",
+      "summary": "ISRO successfully completed the first uncrewed orbital test flight for the Gaganyaan mission."
+    },
+    "mcq": {
+      "question": "In October 2026, ISRO completed the G1 uncrewed orbital test flight for which flagship space mission?",
+      "options": [
+        "Chandrayaan-4",
+        "Mangalyaan-2",
+        "Gaganyaan",
+        "Shukrayaan-1"
+      ],
+      "correct": 2,
+      "explanation": "The G1 flight is a critical precursor to the crewed Gaganyaan mission."
+    },
+    "upscHighlights": [
+      "Gaganyaan Mission",
+      "Uncrewed Test Flight (G1)",
+      "Human Spaceflight Programme"
+    ],
+    "strategicImportance": "Paves the way for India to become the fourth nation to launch human spaceflight independently."
+  },
+  {
+    "id": "oct-2026-006",
+    "topic": "Air Force Modernisation",
+    "text": "The Indian Air Force officially inducted the first squadron of upgraded **Tejas Mk1A** fighter jets in October 2026, significantly boosting its combat fleet.",
+    "details": {
+      "winner": "Indian Air Force",
+      "award": "Induction of Tejas Mk1A",
+      "nationality": "India",
+      "summary": "IAF inducted upgraded indigenous LCA Tejas Mk1A."
+    },
+    "mcq": {
+      "question": "Which upgraded indigenous fighter aircraft was formally inducted into a new squadron by the IAF in October 2026?",
+      "options": [
+        "Sukhoi Su-30MKI",
+        "LCA Tejas Mk1A",
+        "AMCA",
+        "Mirage 2000"
+      ],
+      "correct": 1,
+      "explanation": "The IAF inducted the upgraded LCA Tejas Mk1A to strengthen its fighter squadrons."
+    },
+    "upscHighlights": [
+      "LCA Tejas Mk1A",
+      "AESA Radar & BVR capabilities",
+      "Manufactured by HAL"
+    ],
+    "strategicImportance": "Crucial step in replacing aging MiG-21 fleets and advancing the 'Make in India' defence initiative."
+  },
+  {
+    "id": "oct-2026-007",
+    "topic": "Internal Security",
+    "text": "The Ministry of Home Affairs inaugurated the advanced **National Cyber Security Operations Centre** in New Delhi in October 2026 to counter rising sophisticated state-sponsored cyber threats.",
+    "details": {
+      "winner": "Ministry of Home Affairs",
+      "award": "Cyber Security Infra",
+      "nationality": "India",
+      "summary": "New central cyber operations centre launched to protect critical infrastructure."
+    },
+    "mcq": {
+      "question": "Which ministry is primarily responsible for the National Cyber Security Operations Centre inaugurated in October 2026?",
+      "options": [
+        "Ministry of Defence",
+        "Ministry of Home Affairs",
+        "Ministry of Electronics and IT (MeitY)",
+        "Ministry of Science and Technology"
+      ],
+      "correct": 1,
+      "explanation": "The Ministry of Home Affairs is responsible for internal security, including this new cyber centre."
+    },
+    "upscHighlights": [
+      "Critical Information Infrastructure protection",
+      "Counter-state sponsored cyber attacks",
+      "NCIIPC coordination"
+    ],
+    "strategicImportance": "Enhances national resilience against cyber warfare and protects critical civilian and defence networks."
+  },
+  {
+    "id": "oct-2026-008",
+    "topic": "Economy",
+    "text": "In October 2026, the RBI's Monetary Policy Committee maintained the repo rate, citing the need to balance robust economic growth against volatile global energy prices.",
+    "details": {
+      "winner": "RBI",
+      "award": "Monetary Policy Review",
+      "nationality": "India",
+      "summary": "RBI maintained status quo on the repo rate amidst global energy volatility."
+    },
+    "mcq": {
+      "question": "The Monetary Policy Committee (MPC) of the RBI determines the policy repo rate. How many members are in the MPC?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "explanation": "The MPC has 6 members: 3 from the RBI and 3 external members appointed by the Government."
+    },
+    "upscHighlights": [
+      "Monetary Policy Committee",
+      "Repo Rate status quo",
+      "Inflation targeting mechanism"
+    ],
+    "strategicImportance": "Ensures macroeconomic stability which is foundational for sustained defence spending and national security."
+  },
+  {
+    "id": "oct-2026-009",
+    "topic": "Environment & Ecology",
+    "text": "India added two new high-altitude wetlands in Ladakh to the list of **Ramsar Sites** in October 2026, emphasizing the conservation of fragile Himalayan ecosystems.",
+    "details": {
+      "winner": "Ministry of Environment",
+      "award": "New Ramsar Sites in Ladakh",
+      "nationality": "India",
+      "summary": "Two new wetlands in Ladakh recognised as wetlands of international importance."
+    },
+    "mcq": {
+      "question": "The Ramsar Convention, under which wetlands of international importance are recognised, was signed in which country?",
+      "options": [
+        "Switzerland",
+        "Iran",
+        "France",
+        "Canada"
+      ],
+      "correct": 1,
+      "explanation": "The convention was signed in 1971 in the Iranian city of Ramsar."
+    },
+    "upscHighlights": [
+      "Ramsar Convention 1971",
+      "High-altitude wetlands",
+      "Ladakh ecosystem"
+    ],
+    "strategicImportance": "Demonstrates India's commitment to international environmental treaties and border region ecology conservation."
+  },
+  {
+    "id": "oct-2026-010",
+    "topic": "Naval Operations",
+    "text": "The Indian Navy commissioned **INS Vagir**, the fifth Kalvari-class submarine, highlighting its growing underwater combat capabilities.",
+    "details": {
+      "winner": "Indian Navy",
+      "award": "Commissioning of INS Vagir",
+      "nationality": "India",
+      "summary": "Fifth Scorpene-class submarine inducted into the Indian Navy."
+    },
+    "mcq": {
+      "question": "INS Vagir, commissioned into the Indian Navy, belongs to which class of submarines?",
+      "options": [
+        "Arihant-class",
+        "Shishumar-class",
+        "Kalvari-class (Scorpene)",
+        "Sindhughosh-class"
+      ],
+      "correct": 2,
+      "explanation": "INS Vagir is the fifth of the six Kalvari-class (Scorpene) submarines built under Project 75."
+    },
+    "upscHighlights": [
+      "Project 75",
+      "Kalvari-class / Scorpene-class",
+      "Built by Mazagon Dock Shipbuilders Limited (MDL)"
+    ],
+    "strategicImportance": "Critical for sea denial operations and protecting India's vast maritime interests in the Indian Ocean."
+  },
+  {
+    "id": "oct-2026-011",
+    "topic": "Appointments",
+    "text": "Air Marshal Ashutosh Dixit was appointed as the new Chief of the Air Staff (CAS) of the Indian Air Force, taking over the command of the world's fourth-largest air force.",
+    "details": {
+      "winner": "Air Marshal Ashutosh Dixit",
+      "award": "Appointed as Chief of the Air Staff",
+      "nationality": "India",
+      "summary": "Air Marshal Ashutosh Dixit assumed command as the new Chief of the Air Staff, succeeding the previous chief."
+    },
+    "mcq": {
+      "question": "Who was appointed as the new Chief of the Air Staff of the Indian Air Force in late 2026?",
+      "options": [
+        "Air Chief Marshal VR Chaudhari",
+        "Air Marshal Ashutosh Dixit",
+        "Air Marshal Amar Preet Singh",
+        "Air Marshal Sandeep Singh"
+      ],
+      "correct": 1,
+      "explanation": "Air Marshal Ashutosh Dixit was appointed as the new Chief of the Air Staff."
+    },
+    "upscHighlights": [
+      "Chief of the Air Staff (CAS)",
+      "Indian Air Force Leadership",
+      "Defence Appointments"
+    ],
+    "strategicImportance": "The CAS is responsible for the operational readiness and modernization of the IAF amidst evolving regional security challenges."
+  },
+  {
+    "id": "oct-2026-012",
+    "topic": "International Summits",
+    "text": "The BRICS Summit 2026 was hosted in Kazan, Russia, focusing on multipolarity, financial alternative systems, and the inclusion of newly admitted member states in the bloc's security framework.",
+    "details": {
+      "winner": "BRICS Nations",
+      "award": "BRICS Summit 2026",
+      "nationality": "Multinational",
+      "summary": "18th BRICS Summit hosted by Russia in Kazan."
+    },
+    "mcq": {
+      "question": "The BRICS Summit 2026 was hosted in which city?",
+      "options": [
+        "Pretoria, South Africa",
+        "Kazan, Russia",
+        "Beijing, China",
+        "Brasília, Brazil"
+      ],
+      "correct": 1,
+      "explanation": "Russia held the BRICS Summit 2026 in the city of Kazan."
+    },
+    "upscHighlights": [
+      "BRICS Summit",
+      "Kazan, Russia",
+      "Multipolarity & Economic integration"
+    ],
+    "strategicImportance": "Significant for shifting global economic balance and strengthening non-Western institutional frameworks."
+  },
+  {
+    "id": "oct-2026-013",
+    "topic": "Defence Acquisitions",
+    "text": "The Defence Acquisition Council (DAC) approved the procurement of 31 MQ-9B SeaGuardian high-altitude long-endurance (HALE) armed drones from the United States to boost ISR capabilities.",
+    "details": {
+      "winner": "Indian Armed Forces",
+      "award": "MQ-9B Drones Approval",
+      "nationality": "India & USA",
+      "summary": "DAC clears acquisition of 31 armed drones from the US."
+    },
+    "mcq": {
+      "question": "India's Defence Acquisition Council recently approved the procurement of 31 MQ-9B SeaGuardian drones from which country?",
+      "options": [
+        "Israel",
+        "France",
+        "United States",
+        "Russia"
+      ],
+      "correct": 2,
+      "explanation": "The MQ-9B SeaGuardian drones are procured from the USA."
+    },
+    "upscHighlights": [
+      "MQ-9B SeaGuardian",
+      "HALE Drones",
+      "India-US Defence Trade"
+    ],
+    "strategicImportance": "Enhances Intelligence, Surveillance, and Reconnaissance (ISR) along the LAC and the Indian Ocean."
+  },
+  {
+    "id": "oct-2026-014",
+    "topic": "International Relations",
+    "text": "India participated in the SCO (Shanghai Cooperation Organisation) Council of Heads of Government meeting held in Islamabad in October 2026, represented by the External Affairs Minister.",
+    "details": {
+      "winner": "SCO",
+      "award": "SCO CHG Meeting",
+      "nationality": "Multinational",
+      "summary": "India's EAM attended the SCO meeting in Islamabad."
+    },
+    "mcq": {
+      "question": "Where was the Shanghai Cooperation Organisation (SCO) Council of Heads of Government meeting held in October 2026?",
+      "options": [
+        "Tashkent",
+        "Astana",
+        "Islamabad",
+        "New Delhi"
+      ],
+      "correct": 2,
+      "explanation": "The meeting was hosted in Islamabad, Pakistan."
+    },
+    "upscHighlights": [
+      "SCO CHG Meeting",
+      "Islamabad, Pakistan",
+      "Regional Security"
+    ],
+    "strategicImportance": "Highlights India's commitment to Eurasian security architectures despite bilateral tensions."
+  },
+  {
+    "id": "oct-2026-015",
+    "topic": "Naval Operations",
+    "text": "The Indian Navy is set to commission INS Mangrol, the third Anti-Submarine Warfare Shallow Water Craft (ASW-SWC), built by Cochin Shipyard Limited, enhancing coastal surveillance and anti-submarine operations.",
+    "details": {
+      "winner": "Indian Navy",
+      "award": "Commissioning of INS Mangrol",
+      "nationality": "India",
+      "summary": "INS Mangrol, an ASW-SWC with over 80% indigenous content, strengthens underwater surveillance."
+    },
+    "mcq": {
+      "question": "Which Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) was recently scheduled for commissioning by the Indian Navy in October 2026?",
+      "options": [
+        "INS Vagir",
+        "INS Mangrol",
+        "INS Vikrant",
+        "INS Mormugao"
+      ],
+      "correct": 1,
+      "explanation": "INS Mangrol is the third ASW-SWC built by Cochin Shipyard Limited."
+    },
+    "upscHighlights": [
+      "INS Mangrol",
+      "ASW-SWC",
+      "Built by Cochin Shipyard Limited"
+    ],
+    "strategicImportance": "Crucial for coastal defence and detecting adversarial submarines in shallow waters."
+  },
+  {
+    "id": "oct-2026-016",
+    "topic": "Defence Economics",
+    "text": "India's defence exports reached a record ₹38,424 crore in the 2025-26 financial year, marking a massive 60% increase over the previous year, driven strongly by both public and private sector contributions.",
+    "details": {
+      "winner": "Indian Defence Industry",
+      "award": "Record Defence Exports",
+      "nationality": "India",
+      "summary": "Defence exports hit an all-time high of ₹38,424 crore in FY26."
+    },
+    "mcq": {
+      "question": "In the financial year 2025-26, India's defence exports reached a record high of approximately:",
+      "options": [
+        "₹16,000 crore",
+        "₹25,000 crore",
+        "₹38,400 crore",
+        "₹50,000 crore"
+      ],
+      "correct": 2,
+      "explanation": "Defence exports reached a record ₹38,424 crore in FY 2025-26."
+    },
+    "upscHighlights": [
+      "Record Exports: ₹38,424 Cr",
+      "60% YoY increase",
+      "Atmanirbhar Bharat success"
+    ],
+    "strategicImportance": "Demonstrates India's transition from a major defence importer to a significant global arms exporter."
+  },
+  {
+    "id": "oct-2026-017",
+    "topic": "International Relations & Defence",
+    "text": "A delegation from the Japanese Ground Self-Defense Force (JGSDF) visited India to engage with the Indian Army and DRDO, seeking to strengthen military ties and explore joint emerging defence technologies.",
+    "details": {
+      "winner": "India & Japan",
+      "award": "JGSDF Visit to India",
+      "nationality": "Japan",
+      "summary": "Japanese military delegation explores deep tech collaboration with Indian defence establishments."
+    },
+    "mcq": {
+      "question": "A military delegation from which country visited India in October 2026 to engage with the Indian Army and DRDO on emerging defence technologies?",
+      "options": [
+        "United States",
+        "France",
+        "Japan",
+        "South Korea"
+      ],
+      "correct": 2,
+      "explanation": "A delegation from the Japanese Ground Self-Defense Force (JGSDF) visited India for tech collaboration."
+    },
+    "upscHighlights": [
+      "India-Japan Defence Ties",
+      "JGSDF Visit",
+      "Emerging Tech Collaboration"
+    ],
+    "strategicImportance": "Key step in solidifying the 'Special Strategic and Global Partnership' between India and Japan."
+  },
+  {
+    "id": "oct-2026-018",
+    "topic": "Defence Observance & Heritage",
+    "text": "The Indian Air Force celebrated its **92nd Anniversary (Air Force Day)** on October 8, 2026, with a spectacular aerial display over Marina Beach, Chennai, and a ceremonial parade at Air Force Station Tambaram under the theme *'Bharatiya Vayu Sena: Saksham, Sashakt, Atmanirbhar'*.",
+    "details": {
+      "winner": "Indian Air Force",
+      "award": "92nd Air Force Day",
+      "nationality": "India",
+      "summary": "IAF marks 92 years of stellar service with a mega airshow at Marina Beach, Chennai, displaying combat readiness and indigenous aerospace prowess."
+    },
+    "mcq": {
+      "question": "On which date is the Indian Air Force Day officially celebrated annually across India, marking the founding of the force in 1932?",
+      "options": [
+        "15 January",
+        "8 October",
+        "4 December",
+        "1 February"
+      ],
+      "correct": 1,
+      "explanation": "Air Force Day is celebrated annually on October 8, commemorating the establishment of the Royal Indian Air Force on 8 October 1932. (Army Day is Jan 15, Navy Day is Dec 4, Coast Guard Day is Feb 1)."
+    },
+    "upscHighlights": [
+      "92nd Anniversary celebrated on 8 October 2026",
+      "Airshow held over Marina Beach, Chennai; Parade at AFS Tambaram",
+      "Theme: 'Bharatiya Vayu Sena: Saksham, Sashakt, Atmanirbhar'",
+      "IAF Motto: 'Nabhah Sprisham Deeptam' (Touch the Sky with Glory) from Chapter 11, Bhagavad Gita"
+    ],
+    "strategicImportance": "Reiterates the transformation of the IAF into an agile, technologically dominant aerospace power with deep domestic manufacturing roots."
+  },
+  {
+    "id": "oct-2026-019",
+    "topic": "Military Exercises",
+    "text": "The 8th edition of the joint military exercise **KAZIND-2026** between the Indian Army and the Kazakhstan Armed Forces was conducted at Atyrau, Kazakhstan, focusing on counter-terrorism operations under Chapter VII of the UN Charter.",
+    "details": {
+      "winner": "India & Kazakhstan",
+      "award": "Exercise KAZIND-2026 (8th Edition)",
+      "nationality": "India & Kazakhstan",
+      "summary": "Annual bilateral army and air force exercise enhancing tactical interoperability in semi-urban and counter-insurgency settings."
+    },
+    "mcq": {
+      "question": "The joint military exercise 'KAZIND-2026' is conducted annually between India and which Central Asian nation?",
+      "options": [
+        "Uzbekistan",
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Tajikistan"
+      ],
+      "correct": 1,
+      "explanation": "Exercise KAZIND is the bilateral military exercise between India and Kazakhstan (formerly known as Exercise Prabal Dostyk)."
+    },
+    "upscHighlights": [
+      "8th Edition held at Atyrau, Kazakhstan",
+      "Mandated under Chapter VII of the United Nations Charter",
+      "Indian contingent represented by troops of the Kumaon Regiment"
+    ],
+    "strategicImportance": "Vital for strengthening India's strategic footprint in Central Asia and enhancing security cooperation against cross-border terrorism."
+  },
+  {
+    "id": "oct-2026-020",
+    "topic": "Military Exercises",
+    "text": "The 5th edition of the India-Oman joint military exercise **Al Najah V** commenced at the Rabkoot Training Area in Oman, aiming to boost interoperability, tactical coordination, and joint counter-terror operations in desert environments.",
+    "details": {
+      "winner": "India & Oman",
+      "award": "Exercise Al Najah V",
+      "nationality": "India & Oman",
+      "summary": "Bilateral military exercise between Indian Army Mechanised Infantry and Royal Army of Oman."
+    },
+    "mcq": {
+      "question": "Which of the following is the bilateral Army exercise conducted between India and the Sultanate of Oman?",
+      "options": [
+        "Al Najah",
+        "Eastern Bridge",
+        "Naseem Al Bahr",
+        "Nomadic Elephant"
+      ],
+      "correct": 0,
+      "explanation": "Al Najah is the Army exercise. Eastern Bridge is the Air Force exercise and Naseem Al Bahr is the Naval exercise conducted between India and Oman."
+    },
+    "upscHighlights": [
+      "5th Edition conducted at Rabkoot, Oman",
+      "Tri-service engagement with Oman: Al Najah (Army), Naseem Al Bahr (Navy), Eastern Bridge (Air Force)",
+      "Oman is India's closest defence partner in the Gulf region"
+    ],
+    "strategicImportance": "Anchors India's strategic access to the Arabian Sea, Gulf of Oman, and Western Indian Ocean maritime chokepoints (Strait of Hormuz)."
+  },
+  {
+    "id": "oct-2026-021",
+    "topic": "Polity & Indian Culture",
+    "text": "The Union Cabinet chaired by Prime Minister Narendra Modi conferred **Classical Language** status to five languages: **Marathi, Pali, Prakrit, Assamese, and Bengali**, increasing the total count of recognized Classical Languages of India from 6 to 11.",
+    "details": {
+      "winner": "Ministry of Culture, GoI",
+      "award": "5 New Classical Languages Approved",
+      "nationality": "India",
+      "summary": "Historic Cabinet decision recognizes Marathi, Pali, Prakrit, Assamese, and Bengali as Classical Languages alongside Tamil, Sanskrit, Telugu, Kannada, Malayalam, and Odia."
+    },
+    "mcq": {
+      "question": "Following the Union Cabinet decision in October 2026, which of the following languages was newly conferred the status of 'Classical Language'?",
+      "options": [
+        "Bhojpuri",
+        "Pali",
+        "Maithili",
+        "Dogri"
+      ],
+      "correct": 1,
+      "explanation": "In October 2026, 5 languages were declared Classical Languages: Marathi, Pali, Prakrit, Assamese, and Bengali, bringing the total to 11."
+    },
+    "upscHighlights": [
+      "5 new languages: Marathi, Pali, Prakrit, Assamese, Bengali",
+      "Total Classical Languages now 11 (Previously: Tamil 2004, Sanskrit 2005, Telugu 2008, Kannada 2008, Malayalam 2013, Odia 2014)",
+      "Criteria: High antiquity of early texts over 1500-2000 years, valuable heritage, original literary tradition",
+      "Benefits: Two major annual international awards for scholars, Centres of Excellence, and dedicated university chairs"
+    ],
+    "strategicImportance": "Massive cultural preservation policy celebrating linguistic heritage and ancient scholarly texts of ancient India."
+  },
+  {
+    "id": "oct-2026-022",
+    "topic": "Science & Awards",
+    "text": "The 2026 **Nobel Prize in Physiology or Medicine** was awarded jointly to American scientists **Victor Ambros** and **Gary Ruvkun** for the revolutionary discovery of **microRNA** and its fundamental role in post-transcriptional gene regulation.",
+    "details": {
+      "winner": "Victor Ambros & Gary Ruvkun",
+      "award": "Nobel Prize in Physiology or Medicine 2026",
+      "nationality": "United States",
+      "summary": "Discovered microRNA, tiny RNA molecules that control gene activity, revealing an entirely new dimension of gene regulation essential for complex organisms."
+    },
+    "mcq": {
+      "question": "The 2026 Nobel Prize in Physiology or Medicine was awarded to Victor Ambros and Gary Ruvkun for the discovery of:",
+      "options": [
+        "CRISPR-Cas9 gene editing",
+        "microRNA and post-transcriptional gene regulation",
+        "mRNA vaccines for COVID-19",
+        "Human genome sequencing"
+      ],
+      "correct": 1,
+      "explanation": "Victor Ambros and Gary Ruvkun won the Nobel Prize for their discovery of microRNA and its role in post-transcriptional gene regulation."
+    },
+    "upscHighlights": [
+      "Awarded by the Nobel Assembly at Karolinska Institute, Stockholm",
+      "Discovered microRNA using the model organism C. elegans (roundworm)",
+      "Crucial for cell differentiation, tissue development, and preventing diseases such as cancer"
+    ],
+    "strategicImportance": "Core biomedical breakthrough opening pathways for novel molecular therapeutics and genetic medicine."
+  },
+  {
+    "id": "oct-2026-023",
+    "topic": "Science & Awards",
+    "text": "The 2026 **Nobel Prize in Physics** was awarded jointly to **John J. Hopfield** (Princeton University) and **Geoffrey E. Hinton** (University of Toronto) for foundational discoveries and inventions that enable **machine learning with artificial neural networks**.",
+    "details": {
+      "winner": "John J. Hopfield & Geoffrey E. Hinton",
+      "award": "Nobel Prize in Physics 2026",
+      "nationality": "USA / Canada-UK",
+      "summary": "Pioneered physical methods such as the Hopfield network and the Boltzmann machine, which form the bedrock of modern artificial intelligence and deep neural networks."
+    },
+    "mcq": {
+      "question": "John J. Hopfield and Geoffrey E. Hinton were awarded the 2026 Nobel Prize in Physics for their foundational work in which domain?",
+      "options": [
+        "Quantum entanglement and cryptography",
+        "Artificial neural networks and machine learning",
+        "High-temperature superconductivity",
+        "Gravitational waves detection"
+      ],
+      "correct": 1,
+      "explanation": "They won the Physics Nobel for discoveries utilizing statistical physics to develop artificial neural networks that power modern machine learning."
+    },
+    "upscHighlights": [
+      "Awarded by the Royal Swedish Academy of Sciences",
+      "Hopfield network utilizes physics principles of atomic spin systems for associative memory",
+      "Hinton developed the Boltzmann machine using statistical mechanics for pattern recognition"
+    ],
+    "strategicImportance": "Historic recognition of the convergence of physical sciences and computational AI technologies shaping modern defence autonomy."
+  },
+  {
+    "id": "oct-2026-024",
+    "topic": "Science & Awards",
+    "text": "The 2026 **Nobel Prize in Chemistry** was awarded with one half to **David Baker** (University of Washington) for *computational protein design*, and the other half jointly to **Demis Hassabis** and **John M. Jumper** (Google DeepMind) for *protein structure prediction* via the AlphaFold AI model.",
+    "details": {
+      "winner": "David Baker, Demis Hassabis & John M. Jumper",
+      "award": "Nobel Prize in Chemistry 2026",
+      "nationality": "USA & UK",
+      "summary": "Solved a 50-year-old biological challenge by predicting 3D structures of virtually all 200 million known proteins and designing completely new synthetic proteins."
+    },
+    "mcq": {
+      "question": "Which artificial intelligence system, developed by Demis Hassabis and John Jumper (co-recipients of the Chemistry Nobel 2026), solved the 50-year-old protein folding problem?",
+      "options": [
+        "AlphaGo",
+        "AlphaFold",
+        "Watson Bio",
+        "DeepProtein"
+      ],
+      "correct": 1,
+      "explanation": "AlphaFold2, developed by DeepMind's Demis Hassabis and John Jumper, enabled accurate prediction of 3D protein structures from amino acid sequences."
+    },
+    "upscHighlights": [
+      "Royal Swedish Academy of Sciences awarded the prize",
+      "Baker developed Rosetta software to create entirely new proteins from scratch",
+      "DeepMind team created AlphaFold2, making over 200 million protein structures open-source"
+    ],
+    "strategicImportance": "Revolutionizes drug discovery, antidote synthesis for chemical/biological warfare agents, and green enzyme engineering."
+  },
+  {
+    "id": "oct-2026-025",
+    "topic": "Awards & Literature",
+    "text": "The 2026 **Nobel Prize in Literature** was awarded to South Korean author **Han Kang** *'for her intense poetic prose that confronts historical traumas and exposes the fragility of human life'*, making her the first South Korean writer and the first Asian woman to receive the prize.",
+    "details": {
+      "winner": "Han Kang",
+      "award": "Nobel Prize in Literature 2026",
+      "nationality": "South Korea",
+      "summary": "Acclaimed author of 'The Vegetarian' (International Booker Prize 2016) and 'Human Acts' honored by the Swedish Academy."
+    },
+    "mcq": {
+      "question": "Who became the first South Korean author and first Asian female writer to win the Nobel Prize in Literature in October 2026?",
+      "options": [
+        "Haruki Murakami",
+        "Han Kang",
+        "Yoko Ogawa",
+        "Can Xue"
+      ],
+      "correct": 1,
+      "explanation": "Han Kang won the 2026 Nobel Prize in Literature for her powerful prose addressing historical trauma and human vulnerability."
+    },
+    "upscHighlights": [
+      "First South Korean writer and first Asian woman to win Nobel Prize in Literature",
+      "Notable works: 'The Vegetarian', 'Human Acts', 'We Do Not Part'",
+      "Awarded by the Swedish Academy, Stockholm"
+    ],
+    "strategicImportance": "Historic cultural milestone highlighting contemporary Asian literature on the premier global stage."
+  },
+  {
+    "id": "oct-2026-026",
+    "topic": "International Peace & Disarmament",
+    "text": "The 2026 **Nobel Peace Prize** was awarded to the Japanese organisation **Nihon Hidankyo** (grassroots movement of atomic bomb survivors from Hiroshima and Nagasaki, known as *Hibakusha*) for its decades-long crusade to achieve a world free of nuclear weapons.",
+    "details": {
+      "winner": "Nihon Hidankyo",
+      "award": "Nobel Peace Prize 2026",
+      "nationality": "Japan",
+      "summary": "Grassroots organisation of atomic bomb survivors honored by the Norwegian Nobel Committee for establishing the global nuclear taboo."
+    },
+    "mcq": {
+      "question": "The 2026 Nobel Peace Prize was conferred upon 'Nihon Hidankyo', a grassroots peace movement formed by survivors of atomic bombings in which country?",
+      "options": [
+        "South Korea",
+        "Japan",
+        "Vietnam",
+        "Marshall Islands"
+      ],
+      "correct": 1,
+      "explanation": "Nihon Hidankyo was formed in 1956 by survivors of the atomic bombings of Hiroshima and Nagasaki (known as Hibakusha) in Japan."
+    },
+    "upscHighlights": [
+      "Awarded by the Norwegian Nobel Committee in Oslo",
+      "Survivors known as 'Hibakusha'",
+      "Honored for demonstrating through witness testimony that nuclear weapons must never be used again",
+      "Comes amid rising geopolitical nuclear tensions in Europe and the Indo-Pacific"
+    ],
+    "strategicImportance": "Underscores international nuclear non-proliferation norms and the enduring significance of deterrence stability."
+  },
+  {
+    "id": "oct-2026-027",
+    "topic": "Economy & Governance",
+    "text": "The 2026 **Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel** was awarded to **Daron Acemoglu, Simon Johnson, and James A. Robinson** for their ground-breaking comparative research into *how societal institutions are formed and affect national prosperity*.",
+    "details": {
+      "winner": "Daron Acemoglu, Simon Johnson & James A. Robinson",
+      "award": "Nobel Prize in Economic Sciences 2026",
+      "nationality": "USA (MIT and University of Chicago)",
+      "summary": "Demonstrated that inclusive political and economic institutions foster long-term growth and rule of law, while extractive institutions perpetuate poverty."
+    },
+    "mcq": {
+      "question": "Economists Daron Acemoglu, Simon Johnson, and James A. Robinson won the 2026 Nobel Prize in Economic Sciences for demonstrating that:",
+      "options": [
+        "Cryptocurrencies destabilize central bank interest rates",
+        "Inclusive institutions promote long-term prosperity while extractive ones perpetuate poverty",
+        "Tariffs and protectionism permanently boost manufacturing wages",
+        "Carbon credits cause hyperinflation in developing markets"
+      ],
+      "correct": 1,
+      "explanation": "Their landmark work (including the book 'Why Nations Fail') proves that differences in countries' prosperity are rooted in whether their societal institutions are inclusive or extractive."
+    },
+    "upscHighlights": [
+      "Awarded by Royal Swedish Academy of Sciences",
+      "Authors of seminal book 'Why Nations Fail: The Origins of Power, Prosperity, and Poverty'",
+      "Core thesis: Rule of law, property rights, and political accountability are the ultimate drivers of economic prosperity"
+    ],
+    "strategicImportance": "Directly relevant for UPSC GS Paper 2 (Governance & Institutions) and Paper 3 (Economic Development & Growth Models)."
+  },
+  {
+    "id": "oct-2026-028",
+    "topic": "National Infrastructure & Culture",
+    "text": "The Union Cabinet approved the comprehensive master plan for the **National Maritime Heritage Complex (NMHC)** at **Lothal, Gujarat**, under the Sagarmala Programme, establishing a world-class heritage destination celebrating India's 5,000-year-old seafaring history.",
+    "details": {
+      "winner": "Ministry of Ports, Shipping and Waterways",
+      "award": "Master Plan Approval for NMHC Lothal",
+      "nationality": "India",
+      "summary": "Project features the world's tallest lighthouse museum (77m), a maritime museum with 14 galleries, and a recreation of the ancient Harappan city and tidal dockyard."
+    },
+    "mcq": {
+      "question": "The National Maritime Heritage Complex (NMHC) is being developed at which ancient Indus Valley Civilisation port site?",
+      "options": [
+        "Dholavira",
+        "Lothal",
+        "Kalibangan",
+        "Rakhigarhi"
+      ],
+      "correct": 1,
+      "explanation": "NMHC is being developed at Lothal, Gujarat, which housed the world's earliest known tidal dockyard dating back to ~2400 BCE."
+    },
+    "upscHighlights": [
+      "Location: Lothal, Saragwala village, Ahmedabad district, Gujarat",
+      "Site of ancient Indus Valley Civilisation (IVC) tidal dockyard on the Bhogava river (tributary of Sabarmati)",
+      "Features world's tallest lighthouse museum, underwater marine museum, and 14 thematic galleries",
+      "Developed under the Ministry of Ports, Shipping and Waterways (MoPSW) Sagarmala initiative"
+    ],
+    "strategicImportance": "Projecting India's historical maritime legacy as a pre-eminent seafaring civilisation in the Indian Ocean."
+  },
+  {
+    "id": "oct-2026-029",
+    "topic": "Space Technology & Aeronautics",
+    "text": "SpaceX achieved a historic aerospace milestone during **Starship Flight 5** by successfully catching the 71-meter **Super Heavy booster** mid-air at the launch mount using giant mechanical 'chopstick' arms (*Mechazilla*) at Starbase, Texas.",
+    "details": {
+      "winner": "SpaceX",
+      "award": "Starship Flight 5 Super Heavy Booster Catch",
+      "nationality": "USA",
+      "summary": "First-ever successful mechanical retrieval of an orbital-class rocket booster at the launch pad, marking a leap toward rapid, low-cost spaceflight reusability."
+    },
+    "mcq": {
+      "question": "In October 2026, which rocket system achieved the world's first mid-air mechanical tower catch of its primary booster using 'chopstick' launch tower arms?",
+      "options": [
+        "SLS Artemis",
+        "Starship Super Heavy",
+        "Falcon Heavy",
+        "New Glenn"
+      ],
+      "correct": 1,
+      "explanation": "SpaceX's Starship Flight 5 achieved the first-ever catch of the Super Heavy booster by the Mechazilla launch tower arms."
+    },
+    "upscHighlights": [
+      "Super Heavy booster caught at the launch tower after 7 minutes of flight",
+      "Starship upper stage executed controlled splashdown in the Indian Ocean",
+      "Uses liquid methane and liquid oxygen (Methalox) propellant with Raptor engines",
+      "Foundation for NASA's Artemis III lunar landing and future Mars human exploration missions"
+    ],
+    "strategicImportance": "Transforms orbital payload economics and advances global heavy-lift launch capability."
+  },
+  {
+    "id": "oct-2026-030",
+    "topic": "Defence & Coastal Security",
+    "text": "The Indian Navy, in close coordination with the Indian Coast Guard (ICG), Marine Police, and State Administration, successfully conducted the bi-annual coastal security drill **Exercise Sagar Kavach 02/26** along the coastlines of Andhra Pradesh, Odisha, and West Bengal.",
+    "details": {
+      "winner": "Indian Navy & Indian Coast Guard",
+      "award": "Exercise Sagar Kavach 02/26",
+      "nationality": "India",
+      "summary": "Comprehensive coastal security validation drill testing response mechanisms, inter-agency communication, and anti-infiltration drills along the eastern seaboard."
+    },
+    "mcq": {
+      "question": "Which tri-tier coastal security framework is validated during the 'Sagar Kavach' coastal security exercises in India?",
+      "options": [
+        "BSF (0-5 NM), Army (5-12 NM), Navy (12-200 NM)",
+        "Marine Police (0-5 NM), Coast Guard (5-12 NM), Indian Navy (beyond 12 NM to 200 NM EEZ)",
+        "Customs (0-10 NM), CISF (10-50 NM), Navy (50-200 NM)",
+        "State Police (0-12 NM), ITBP (12-50 NM), Coast Guard (50-200 NM)"
+      ],
+      "correct": 1,
+      "explanation": "India's coastal security structure operates in three concentric tiers: Marine Coastal Police up to 5 Nautical Miles, Indian Coast Guard from 5 to 12 NM, and Indian Navy from 12 NM out to the 200 NM Exclusive Economic Zone (EEZ)."
+    },
+    "upscHighlights": [
+      "Conducted along Andhra Pradesh, Odisha, and West Bengal coastlines",
+      "Involves Indian Navy, ICG, Marine Police, CISF, Customs, Fisheries Dept",
+      "Tests National Automatic Identification System (NAIS) and coastal radar chain",
+      "Post-26/11 architecture designated Indian Navy as overall in-charge of maritime & coastal security"
+    ],
+    "strategicImportance": "Validates asymmetrical threat deterrence along vital maritime infrastructure, nuclear installations, and naval bases."
+  },
+  {
+    "id": "oct-2026-031",
+    "topic": "Defence Procurement & Strategic UAVs",
+    "text": "The Cabinet Committee on Security (CCS), chaired by Prime Minister Narendra Modi, formally cleared the landmark government-to-government acquisition of 31 MQ-9B Predator High-Altitude Long-Endurance (HALE) Remotely Piloted Aircraft Systems from the United States (General Atomics) under the Foreign Military Sales (FMS) route, valued at approximately $3.99 billion.",
+    "details": {
+      "winner": "Indian Armed Forces (Tri-Services)",
+      "award": "31 MQ-9B SkyGuardian & SeaGuardian HALE UAV Deal",
+      "nationality": "India - USA",
+      "summary": "Tri-service induction of 16 SeaGuardians for Indian Navy and 8 SkyGuardians each for Army and Air Force, equipped with Hellfire precision missiles and an indigenous MRO hub."
+    },
+    "mcq": {
+      "question": "Under the 31 MQ-9B Predator drone procurement deal cleared by the Cabinet Committee on Security (CCS), what is the service-wise allocation among the Indian Armed Forces?",
+      "options": [
+        "Navy: 16 (SeaGuardian), Army: 8 (SkyGuardian), Air Force: 8 (SkyGuardian)",
+        "Navy: 10, Army: 11, Air Force: 10",
+        "Navy: 15, Army: 16, Air Force: 0",
+        "Navy: 20 (SeaGuardian), Air Force: 11 (SkyGuardian), Army: 0"
+      ],
+      "correct": 0,
+      "explanation": "The tri-service allocation distributes 16 MQ-9B SeaGuardians to the Indian Navy for maritime surveillance and 8 MQ-9B SkyGuardians each to the Indian Army and Indian Air Force for high-altitude border surveillance."
+    },
+    "upscHighlights": [
+      "Endurance of over 35 to 40 hours with operating altitude exceeding 40,000 feet",
+      "Equipped with Hellfire air-to-ground precision-guided missiles and GBU-39B precision bombs",
+      "Includes establishment of a Comprehensive Global Maintenance, Repair, and Overhaul (MRO) facility in India by General Atomics",
+      "Drastically upgrades Intelligence, Surveillance, Target Acquisition and Reconnaissance (ISTAR) along the LAC and Indian Ocean Region"
+    ],
+    "strategicImportance": "Provides persistent 24/7 high-altitude surveillance deterrence against border incursions and deep maritime sea lane monitoring."
+  },
+  {
+    "id": "oct-2026-032",
+    "topic": "Naval Nuclear Strategy & Submarines",
+    "text": "The Cabinet Committee on Security (CCS) approved Project 77 for the indigenous design and construction of two Nuclear-Powered Attack Submarines (SSNs) at the Ship Building Centre (SBC) in Visakhapatnam at an estimated investment exceeding ₹40,000 crore.",
+    "details": {
+      "winner": "Indian Navy / DRDO / BARC",
+      "award": "Project 77 (Indigenous SSN Construction)",
+      "nationality": "India",
+      "summary": "Approval for construction of two 6,000-tonne nuclear-powered attack submarines equipped with torpedoes, anti-ship missiles, and land-attack cruise missiles, providing unmatched underwater escort and sea-denial capabilities."
+    },
+    "mcq": {
+      "question": "What is the primary operational distinction between an SSN (Nuclear Attack Submarine) and an SSBN (Nuclear Ballistic Missile Submarine) in naval doctrine?",
+      "options": [
+        "SSNs carry long-range nuclear ballistic missiles for second-strike deterrence; SSBNs only carry torpedoes",
+        "SSNs are hunter-killer submarines armed with torpedoes and cruise missiles to hunt enemy subs and escort fleets; SSBNs carry strategic nuclear ballistic missiles (SLBMs) for nuclear deterrence",
+        "SSNs are diesel-electric submarines; SSBNs are purely nuclear-powered",
+        "SSNs are designed exclusively for coastal littoral patrol; SSBNs operate in deep polar ice"
+      ],
+      "correct": 1,
+      "explanation": "SSNs (Nuclear Attack Submarines) are fast hunter-killer submarines designed to seek and destroy enemy combatants, submarines, and escort carrier strike groups using conventional torpedoes/cruise missiles. SSBNs carry strategic submarine-launched ballistic missiles (SLBMs) providing a nation's secure sea-based second-strike nuclear deterrence (Nuclear Triad)."
+    },
+    "upscHighlights": [
+      "Project 77 aims to construct two indigenous SSNs with indigenous pressurized water reactors (PWRs) developed by BARC",
+      "Constructed at the Ship Building Centre (SBC) in Visakhapatnam with extensive Indian private and public sector integration",
+      "Complements the ongoing SSBN Arihant-class program under the Advanced Technology Vessel (ATV) project",
+      "Enables unlimited underwater endurance constrained only by crew food supplies and physical stamina"
+    ],
+    "strategicImportance": "Counterbalances expanding foreign nuclear submarine deployments across the critical choke points of the Indian Ocean Region."
+  },
+  {
+    "id": "oct-2026-033",
+    "topic": "Nuclear Triad & Strategic Deterrence",
+    "text": "India achieved a momentous milestone in fortifying its continuous at-sea deterrence with the launch of its fourth Nuclear-Powered Ballistic Missile Submarine (SSBN), codenamed S4*, at the Ship Building Centre (SBC) in Visakhapatnam.",
+    "details": {
+      "winner": "Indian Navy / Strategic Forces Command",
+      "award": "Launch of 4th SSBN (S4*)",
+      "nationality": "India",
+      "summary": "Launch of the fourth nuclear ballistic missile submarine with near 75% indigenous content, capable of carrying K-4 Submarine Launched Ballistic Missiles (SLBMs) with a range of 3,500 km."
+    },
+    "mcq": {
+      "question": "Which of the following represents the correct sequence of India's indigenous Arihant-class and follow-on SSBN submarines built under the Advanced Technology Vessel (ATV) program?",
+      "options": [
+        "INS Arihant (S2) → INS Arighaat (S3) → S4 (Aridhaman) → S4*",
+        "INS Kalvari → INS Khanderi → INS Karanj → INS Vela",
+        "INS Chakra → INS Arihant → INS Shishumar → INS Shankush",
+        "INS Vikrant → INS Vikramaditya → INS Vishal → INS Viraat"
+      ],
+      "correct": 0,
+      "explanation": "Under the ATV strategic submarine program, India's SSBN line consists of INS Arihant (S2, commissioned 2016), INS Arighaat (S3, commissioned August 2024), S4 (Aridhaman), and S4* launched in October 2026."
+    },
+    "upscHighlights": [
+      "Displaces significantly higher tonnage than INS Arihant with larger vertical launch system (VLS) tubes",
+      "Armed with indigenously developed K-4 SLBMs possessing a strike range of approximately 3,500 kilometres",
+      "Achieved over 75% indigenisation with indigenous high-strength DMR-249A steel developed by SAIL",
+      "Guarantees a credible, survivable second-strike nuclear retaliatory capability adhering to India's 'No First Use' (NFU) nuclear doctrine"
+    ],
+    "strategicImportance": "Consolidates the maritime leg of India's Nuclear Triad as the most survivable leg against pre-emptive counter-force strikes."
+  },
+  {
+    "id": "oct-2026-034",
+    "topic": "Defence Leadership & Maritime Security",
+    "text": "Director General Paramesh Sivamani formally assumed charge as the 26th Director General of the Indian Coast Guard (ICG) at Coast Guard Headquarters in New Delhi, succeeding late DG Rakesh Pal.",
+    "details": {
+      "winner": "DG Paramesh Sivamani",
+      "award": "26th Director General of Indian Coast Guard",
+      "nationality": "India",
+      "summary": "Appointment of seasoned Navigation & Direction specialist to helm India's principal maritime law enforcement and search-and-rescue force protecting the 2.01 million sq km EEZ."
+    },
+    "mcq": {
+      "question": "Consider the following statements regarding the Indian Coast Guard (ICG):\n1. It was formally constituted by the Coast Guard Act, 1978 as an armed force of the Union.\n2. It functions under the administrative control of the Ministry of Home Affairs.\n3. Its official motto is 'Vayam Rakshamah' (We Protect).\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Statement 2 is incorrect because the Indian Coast Guard operates under the Ministry of Defence (not Ministry of Home Affairs). Statements 1 and 3 are correct: it was established under the Coast Guard Act, 1978 and its motto is 'Vayam Rakshamah' (We Protect)."
+    },
+    "upscHighlights": [
+      "ICG operates under the Ministry of Defence, unlike CAPFs which operate under the Ministry of Home Affairs",
+      "Responsible for maritime search and rescue (SAR), marine pollution control, coastal security, and anti-smuggling in the EEZ",
+      "Indian Coast Guard operates a fleet of over 150 offshore patrol vessels, interceptor boats, and over 75 aircraft (Do-228 & ALH Mk-III)",
+      "Chairs the Lead Intelligence Agency (LIA) for maritime coastal borders"
+    ],
+    "strategicImportance": "Ensures robust operational coordination between the Indian Navy, state police forces, and customs across India's 7,516 km coastline."
+  },
+  {
+    "id": "oct-2026-035",
+    "topic": "International Relations & Multilateral Diplomacy",
+    "text": "External Affairs Minister Dr. S. Jaishankar led the Indian delegation to the 23rd Meeting of the SCO Council of Heads of Government (CHG) in Islamabad, Pakistan, marking the first official visit of an Indian External Affairs Minister to Pakistan in nearly nine years.",
+    "details": {
+      "winner": "SCO Council of Heads of Government",
+      "award": "23rd SCO CHG Summit, Islamabad",
+      "nationality": "Multilateral / India - Pakistan",
+      "summary": "India emphasized adherence to the SCO Charter principles of mutual trust, sovereign equality, territorial integrity, and joint action against cross-border terrorism via RATS."
+    },
+    "mcq": {
+      "question": "Where is the permanent headquarters of the SCO Regional Anti-Terrorist Structure (RATS) located?",
+      "options": [
+        "Beijing, China",
+        "Tashkent, Uzbekistan",
+        "Astana, Kazakhstan",
+        "Bishkek, Kyrgyzstan"
+      ],
+      "correct": 1,
+      "explanation": "The Shanghai Cooperation Organisation (SCO) has two permanent bodies: the SCO Secretariat in Beijing, China, and the Executive Committee of the Regional Anti-Terrorist Structure (RATS) in Tashkent, Uzbekistan."
+    },
+    "upscHighlights": [
+      "First visit by an Indian Foreign Minister to Pakistan since Sushma Swaraj attended the 'Heart of Asia' conference in Dec 2015",
+      "SCO Council of Heads of Government focuses primarily on trade, economic cooperation, transit connectivity, and budget",
+      "India reiterated that trade and connectivity initiatives must respect the sovereignty and territorial integrity of member states (implicit reference to CPEC)",
+      "Belarus participated as the newest 10th full member of the SCO"
+    ],
+    "strategicImportance": "Reinforces India's proactive Eurasian multilateral diplomacy while maintaining firm strategic redlines on counter-terrorism and sovereignty."
+  },
+  {
+    "id": "oct-2026-036",
+    "topic": "Trilateral Naval Exercises",
+    "text": "The Indian Navy's frontline guided-missile stealth frigate INS Talwar participated in the 8th edition of the trilateral naval exercise IBSAMAR VIII alongside the Brazilian Navy (BNS Defensora) and South African Navy (SAS Amatola) at Simon’s Town, South Africa.",
+    "details": {
+      "winner": "India, Brazil, South Africa (IBSA)",
+      "award": "Exercise IBSAMAR VIII",
+      "nationality": "Trilateral (India-Brazil-South Africa)",
+      "summary": "Trilateral maritime exercise in the South Atlantic to boost interoperability, joint anti-submarine warfare, search and rescue, and sea-lane protection across the Global South."
+    },
+    "mcq": {
+      "question": "Which Indian Navy warship represented the nation in the 8th edition of Exercise IBSAMAR VIII held at Simon's Town, South Africa?",
+      "options": [
+        "INS Vikramaditya",
+        "INS Talwar",
+        "INS Kolkata",
+        "INS Mormugao"
+      ],
+      "correct": 1,
+      "explanation": "INS Talwar, the lead ship of the Talwar-class stealth guided missile frigates, represented the Indian Navy at Exercise IBSAMAR VIII in South Africa."
+    },
+    "upscHighlights": [
+      "IBSAMAR is the joint multinational maritime exercise of the IBSA (India, Brazil, South Africa) Dialogue Forum established in 2003",
+      "Conducted biennially; Simon's Town is the primary naval base of the South African Navy near Cape Town",
+      "Featured complex sea-phase drills: surface firing, air defence, Visit Board Search and Seizure (VBSS), and tactical maneuvers",
+      "Highlights India's blue-water operational reach across the South Atlantic Ocean and Southern Indian Ocean"
+    ],
+    "strategicImportance": "Deepens South-South maritime defence cooperation and secures vital shipping lanes rounding the Cape of Good Hope."
+  },
+  {
+    "id": "oct-2026-037",
+    "topic": "Bilateral Maritime Exercises",
+    "text": "The Indian Navy hosted the 31st edition of the Singapore-India Maritime Bilateral Exercise (SIMBEX 2026) at Visakhapatnam under the aegis of Eastern Naval Command, featuring intense sea maneuvers in the Bay of Bengal with the Republic of Singapore Navy (RSN).",
+    "details": {
+      "winner": "Indian Navy & Republic of Singapore Navy",
+      "award": "Exercise SIMBEX 2026 (31st Edition)",
+      "nationality": "India - Singapore",
+      "summary": "The longest continuous bilateral maritime exercise of the Indian Navy, validating advanced anti-submarine warfare (ASW), surface live-firing, and tactical communications."
+    },
+    "mcq": {
+      "question": "Originally christened as 'Exercise Lion King' upon its inception in 1994, which bilateral naval exercise holds the distinction of being the Indian Navy's longest uninterrupted bilateral exercise with any foreign navy?",
+      "options": [
+        "Exercise VARUNA",
+        "Exercise SIMBEX",
+        "Exercise SLINEX",
+        "Exercise INDRA"
+      ],
+      "correct": 1,
+      "explanation": "Exercise SIMBEX (Singapore-India Maritime Bilateral Exercise) began in 1994 under the code name 'Exercise Lion King' and has been conducted uninterrupted for over three decades."
+    },
+    "upscHighlights": [
+      "Participating assets: Indian Navy deployed stealth frigate INS Shivalik, Sindhughosh-class submarine, P-8I aircraft, and MiG-29K fighters",
+      "Republic of Singapore Navy participated with Formidable-class stealth frigate RSS Tenacious",
+      "Incorporated realistic Anti-Submarine Warfare (ASW) tracking, air defence, and coordinated tactical gunnery drills",
+      "Anchors India's Act East Policy and Indo-Pacific maritime security vision (SAGAR)"
+    ],
+    "strategicImportance": "Solidifies interoperability in the eastern approaches of the Malacca Strait, one of the world's most critical maritime transit choke points."
+  },
+  {
+    "id": "oct-2026-038",
+    "topic": "Constitutional Appointments & Judiciary",
+    "text": "President of India approved the appointment of Justice Sanjiv Khanna as the 51st Chief Justice of India (CJI), succeeding Justice Dhananjaya Yeshwant Chandrachud, following constitutional conventions under Article 124(2).",
+    "details": {
+      "winner": "Justice Sanjiv Khanna",
+      "award": "51st Chief Justice of India (CJI)",
+      "nationality": "India",
+      "summary": "Appointment of senior-most Supreme Court judge as head of the Indian judiciary, governed by the Memorandum of Procedure (MoP) and Second/Third Judges cases."
+    },
+    "mcq": {
+      "question": "Under which Article of the Constitution of India is the Chief Justice of India appointed by the President of India?",
+      "options": [
+        "Article 76",
+        "Article 124(2)",
+        "Article 143",
+        "Article 217"
+      ],
+      "correct": 1,
+      "explanation": "Under Article 124(2) of the Indian Constitution, every Judge of the Supreme Court, including the Chief Justice of India, is appointed by the President by warrant under his hand and seal."
+    },
+    "upscHighlights": [
+      "Governed by the Memorandum of Procedure (MoP) where the outgoing CJI initiates the recommendation for the senior-most judge",
+      "Justice Khanna served as Executive Chairman of the National Legal Services Authority (NALSA)",
+      "Author of landmark verdicts on electronic voting machine (EVM-VVPAT) verifiability, striking down Electoral Bonds, and RTI applicability to the CJI office",
+      "Nephew of legendary jurist Justice H.R. Khanna, famed for his lone courageous dissent in the ADM Jabalpur (Habeas Corpus) case (1976)"
+    ],
+    "strategicImportance": "Upholds the independence of the higher judiciary and the rule of law as a foundational pillar of India's constitutional democracy."
+  },
+  {
+    "id": "oct-2026-039",
+    "topic": "Social Indices & Food Security",
+    "text": "The Global Hunger Index (GHI) 2026 was released by European humanitarian organizations Concern Worldwide and Welthungerhilfe, evaluating hunger and malnutrition levels across developing and transitional nations using four multi-dimensional indicators.",
+    "details": {
+      "winner": "Concern Worldwide & Welthungerhilfe",
+      "award": "Global Hunger Index (GHI) 2026",
+      "nationality": "International",
+      "summary": "Index measuring multi-dimensional hunger through undernourishment, child stunting, child wasting, and child mortality."
+    },
+    "mcq": {
+      "question": "Which of the following are the four indicators utilized to compute the Global Hunger Index (GHI)?\\n1. Undernourishment\\n2. Child Stunting\\n3. Child Wasting\\n4. Child Mortality\\n5. Maternal Mortality Rate\\nSelect the correct answer using the code below:",
+      "options": [
+        "1, 2, 3 and 5 only",
+        "1, 2, 3 and 4 only",
+        "2, 3, 4 and 5 only",
+        "1, 3, 4 and 5 only"
+      ],
+      "correct": 1,
+      "explanation": "The Global Hunger Index is calculated based on four indicators: Undernourishment (inadequate calorie intake of the population), Child Stunting (low height for age, reflecting chronic undernutrition), Child Wasting (low weight for height, reflecting acute undernutrition), and Child Mortality (mortality rate of children under five)."
+    },
+    "upscHighlights": [
+      "Child Wasting measures acute undernutrition (weight for height), while Child Stunting measures chronic undernutrition (height for age)",
+      "Child Mortality measures the death rate of children under the age of five",
+      "Indian Government has launched POSHAN Abhiyaan (National Nutrition Mission 2.0) and Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY) to combat nutritional deficiencies",
+      "NFHS-5 (National Family Health Survey) data serves as the domestic benchmark for tracking child nutrition outcomes"
+    ],
+    "strategicImportance": "Highlights human capital resilience, public distribution reforms, and sustainable developmental goals (SDG 2: Zero Hunger)."
+  },
+  {
+    "id": "oct-2026-040",
+    "topic": "Important Days & Global Frameworks",
+    "text": "October 2026 observances highlighted World Food Day (October 16) themed 'Right to foods for a better life and a better future', alongside the International Day for Disaster Risk Reduction (October 13) focusing on youth empowerment under the Sendai Framework.",
+    "details": {
+      "winner": "UN FAO & UN Office for Disaster Risk Reduction (UNDRR)",
+      "award": "World Food Day & Disaster Reduction Day 2026",
+      "nationality": "International",
+      "summary": "Commemoration of the founding of FAO (1945) and global commitment to disaster risk governance under the Sendai Framework (2015-2030)."
+    },
+    "mcq": {
+      "question": "The Sendai Framework (2015–2030), highlighted during the International Day for Disaster Risk Reduction, is an international treaty dedicated to which domain?",
+      "options": [
+        "Phasing out Hydrofluorocarbons (HFCs)",
+        "Disaster Risk Reduction and Climate Resilience",
+        "Protection of Wetlands of International Importance",
+        "Non-Proliferation of Nuclear Weapons"
+      ],
+      "correct": 1,
+      "explanation": "The Sendai Framework for Disaster Risk Reduction 2015–2030 was adopted at the Third UN World Conference in Sendai, Japan, succeeding the Hyogo Framework for Action."
+    },
+    "upscHighlights": [
+      "World Food Day marks the 1945 founding of the Food and Agriculture Organization (FAO) in Rome, Italy",
+      "Sendai Framework established 7 global targets and 4 priorities for action to reduce disaster losses by 2030",
+      "National Disaster Management Authority (NDMA) in India is headed ex-officio by the Prime Minister under the Disaster Management Act, 2005",
+      "National Disaster Response Force (NDRF) plays a frontline role in humanitarian assistance and disaster relief (HADR)"
+    ],
+    "strategicImportance": "Reinforces civilian-military HADR doctrine and institutional disaster resilience across climate-vulnerable coastal and Himalayan regions."
+  }
+]
 };
 
 let CURRENT_AFFAIRS_ARCHIVE = {
