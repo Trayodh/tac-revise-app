@@ -852849,5 +852849,501 @@
     "topic": "Acoustics",
     "source_pdf": "General-Science-Book-SSBCrack.pdf",
     "source_page": 50
+  },
+  {
+    "question_text": "Which among the following is known as first electronic amplification device?",
+    "options": {
+      "A": "Diode",
+      "B": "Triode Vaccum Tubes",
+      "C": "Vacuum Tubes",
+      "D": "bipolar transistors"
+    },
+    "correct_answer": "B",
+    "explanation": "The triode vacuum tube, with its three electrodes, was the first device capable of amplifying electrical signals, preceding the development of transistors.",
+    "subject": "General Science",
+    "chapter": "Electronics",
+    "topic": "First electronic amplification device",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 51
+  },
+  {
+    "question_text": "Which among the following temperature scale is based upon absolute zero?",
+    "options": {
+      "A": "Celsius",
+      "B": "Fahrenheit",
+      "C": "Kelvin",
+      "D": "Rankine"
+    },
+    "correct_answer": "C",
+    "explanation": "The Kelvin scale starts at absolute zero (0 K), the point where molecular motion stops, making it the only temperature scale directly based on absolute zero.",
+    "subject": "General Science",
+    "chapter": "Thermodynamics",
+    "topic": "Temperature scales",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 51
+  },
+  {
+    "question_text": "Which of the following is an instrument for measuring electric charge or electrical potential difference?",
+    "options": {
+      "A": "Ammeter",
+      "B": "Voltmeter",
+      "C": "Electrometer",
+      "D": "ohmmeter"
+    },
+    "correct_answer": "C",
+    "explanation": "An electrometer is designed for extremely sensitive measurements of charge or voltage, unlike ammeters (current), voltmeters (voltage with lower sensitivity), or ohmmeters (resistance).",
+    "subject": "General Science",
+    "chapter": "Electrical Instruments",
+    "topic": "Electrometer",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 51
+  },
+  {
+    "question_text": "Edwin Howard Armstrong was an inventor of which of the following technologies?",
+    "options": {
+      "A": "Television",
+      "B": "Compact Discs",
+      "C": "FM Radio",
+      "D": "Broadband"
+    },
+    "correct_answer": "C",
+    "explanation": "Armstrong invented Frequency Modulation (FM) radio, a method that varies the carrier frequency to encode information, providing superior sound quality and noise resistance.",
+    "subject": "General Science",
+    "chapter": "Communication Technology",
+    "topic": "FM Radio invention",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 51
+  },
+  {
+    "question_text": "Parallax of one arc second‖ is a unit of which of the following?",
+    "options": {
+      "A": "Time",
+      "B": "Volume",
+      "C": "Length",
+      "D": "Speed"
+    },
+    "correct_answer": "C",
+    "explanation": "A parallax of one arc‑second defines a **parsec**, a unit of length used in astronomy (≈ 31 trillion km).",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Parsec",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 51
+  },
+  {
+    "question_text": "Which among the following comes under the study area of Psychrometrics?",
+    "options": {
+      "A": "Relative Humidity",
+      "B": "physical and thermodynamic properties of gas-vapor mixtures",
+      "C": "theory and technique of educational and psychological measurement",
+      "D": "Atmospheric Pressure at Colder Regions of the World"
+    },
+    "correct_answer": "B",
+    "explanation": "Psychrometrics focuses on the physical and thermodynamic behavior of gas‑vapor mixtures, especially moist air, encompassing concepts like relative humidity, dew point, and enthalpy.",
+    "subject": "General Science",
+    "chapter": "Psychrometrics",
+    "topic": "Study area of psychrometrics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 51
+  },
+  {
+    "question_text": "Ballistics is a branch of science that deals with which of the following?",
+    "options": {
+      "A": "Geologic study of the behavior of soil and rock",
+      "B": "Motion of multibody systems subjected to unilateral contacts and friction",
+      "C": "Flight, behavior, and effects of projectiles",
+      "D": "Kinetic energy of a system"
+    },
+    "correct_answer": "C",
+    "explanation": "Ballistics studies the flight, behavior, and effects of projectiles.",
+    "subject": "General Science",
+    "chapter": "Ballistics",
+    "topic": "Definition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 52
+  },
+  {
+    "question_text": "SOFAR is a phenomenon which plays an important role in submarine warfare & also known as deep sound channel. Which of the following is correct full form of SOFAR?",
+    "options": {
+      "A": "Sound Field Radio Ranging",
+      "B": "Sound Fixing and Altering Range",
+      "C": "Sound Fixing and Ranging channel",
+      "D": "Sound Fixing and Auto Reflection"
+    },
+    "correct_answer": "C",
+    "explanation": "SOFAR stands for Sound Fixing and Ranging channel.",
+    "subject": "General Science",
+    "chapter": "SOFAR Channel",
+    "topic": "Definition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 52
+  },
+  {
+    "question_text": "By which of the following process some stars which are of the size of Sun or smaller convert hydrogen to helium?",
+    "options": {
+      "A": "Triple-alpha process",
+      "B": "Proton Proton Chain Reaction",
+      "C": "CNO Cycle",
+      "D": "R process"
+    },
+    "correct_answer": "B",
+    "explanation": "In such stars, hydrogen to helium conversion occurs via the proton‑proton chain reaction.",
+    "subject": "General Science",
+    "chapter": "Stellar Nucleosynthesis",
+    "topic": "Proton‑Proton Chain",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 52
+  },
+  {
+    "question_text": "Fermi-Kurie plot is used for the study of which of the following?",
+    "options": {
+      "A": "Alpha Decay",
+      "B": "Beta Decay",
+      "C": "Internal Conversion",
+      "D": "Cluster Decay"
+    },
+    "correct_answer": "B",
+    "explanation": "The Fermi‑Kurie plot is used to analyze beta decay spectra.",
+    "subject": "General Science",
+    "chapter": "Beta Decay",
+    "topic": "Fermi‑Kurie Plot",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 52
+  },
+  {
+    "question_text": "Which among the following denotes the correct usage of an instrument called ―Theodolite‖?",
+    "options": {
+      "A": "Measures distances, elevations, bearings etc",
+      "B": "Measures rotational speed of a shaft",
+      "C": "Measures horizontal and vertical angles in triangular networks",
+      "D": "Measures acidity or alkalinity of solutions"
+    },
+    "correct_answer": "C",
+    "explanation": "A theodolite measures horizontal and vertical angles in triangular networks.",
+    "subject": "General Science",
+    "chapter": "Surveying Instruments",
+    "topic": "Theodolite usage",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 52
+  },
+  {
+    "question_text": "Mach number is a measure of which of the following?",
+    "options": {
+      "A": "Speed",
+      "B": "Heat Transfer",
+      "C": "Static Pressure",
+      "D": "Volume"
+    },
+    "correct_answer": "A",
+    "explanation": "Mach number is a dimensionless quantity representing the ratio of the speed of an object to the speed of sound in the surrounding medium. Therefore, it is a measure of speed.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Mach Number",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 53
+  },
+  {
+    "question_text": "Radiation hardening is used in design of artificial satellites, spacecraft, military aircraft, nuclear power stations, and nuclear weapons for which of the following purposes?",
+    "options": {
+      "A": "Protection from radiation damage",
+      "B": "Trace element analysis",
+      "C": "Use radiation energy",
+      "D": "Increase resistance"
+    },
+    "correct_answer": "A",
+    "explanation": "Radiation hardening is a design technique used to protect electronic components and materials from the damaging effects of ionizing radiation in space and nuclear environments.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Radiation Hardening",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 53
+  },
+  {
+    "question_text": "Newton-meters per second is represented as follows?",
+    "options": {
+      "A": "Ohm",
+      "B": "Volt",
+      "C": "Watt",
+      "D": "Calorie"
+    },
+    "correct_answer": "C",
+    "explanation": "Power is defined as work done per unit time. Work = Force × Distance. Therefore, Power = (Newton × Meter) / Second = Joule/Second = Watt. One watt is the rate at which work is done when an object is moved at a speed of one meter per second against a force of one Newton.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Units of Power",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 53
+  },
+  {
+    "question_text": "Most part of the Cosmic rays that impinge on earth's atmosphere are __?",
+    "options": {
+      "A": "Electrons",
+      "B": "Protons",
+      "C": "Neutrons",
+      "D": "Gamma rays"
+    },
+    "correct_answer": "B",
+    "explanation": "Almost 90% of all incoming cosmic ray particles are protons. About 10% are helium nuclei (alpha particles), and slightly under 1% are heavier elements and electrons.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Cosmic Rays",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 53
+  },
+  {
+    "question_text": "Which among the following statement is correct about Fluorescence?",
+    "options": {
+      "A": "High Energy Photon is absorbed and low energy photon is emitted",
+      "B": "Low Energy Photon is absorbed and high energy photon is emitted",
+      "C": "High Energy Photon is absorbed and electron is emitted",
+      "D": "Low Energy Photon is absorbed and electron is emitted"
+    },
+    "correct_answer": "A",
+    "explanation": "Scientifically, fluorescence is the emission of light by a substance that has absorbed light or other electromagnetic radiation. It is almost always shorter in wavelength (higher energy) than the absorbed radiation. However, the source text provided lists 'C' as the answer with an incomplete explanation. In standard physics, Option A describes fluorescence (Stokes shift), while Option C describes the Photoelectric Effect. Based on standard scientific accuracy, A is the correct description of fluorescence. *Note: The source text appears to have an error in the answer key or question phrasing regarding fluorescence vs photoelectric effect.*",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Fluorescence",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 53
+  },
+  {
+    "question_text": "The combination of a Red Glass Plate and a Blue Glass plate will transmit which of the following light?",
+    "options": {
+      "A": "Red light",
+      "B": "Blue Light",
+      "C": "Green Light",
+      "D": "No Light"
+    },
+    "correct_answer": "D",
+    "explanation": "A red glass plate transmits only red light and absorbs blue light. A blue glass plate transmits only blue light and absorbs red light. When combined, the red plate absorbs the blue light that the blue plate would transmit, and the blue plate absorbs the red light that the red plate would transmit. Therefore, no light passes through the combination.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Optics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 54
+  },
+  {
+    "question_text": "VIBGYOR (Violet Indigo Blue Green Yellow Orange Red) are the rainbow colors in which of the following order?",
+    "options": {
+      "A": "Increasing wavelength",
+      "B": "Decreasing wavelength",
+      "C": "Increasing polarization",
+      "D": "Increasing Speed"
+    },
+    "correct_answer": "A",
+    "explanation": "In the visible spectrum, Violet has the shortest wavelength and Red has the longest wavelength. Therefore, the sequence VIBGYOR represents colors arranged in order of increasing wavelength.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Optics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 54
+  },
+  {
+    "question_text": "Moon Mineralogy Mapper (M3) is an instruments providing the first high-resolution spatial and spectral map of the entire lunar surface to India’s first mission to the Moon Chandrayan -1 launched 22 October 2008. It was contributed by __?",
+    "options": {
+      "A": "National Aeronautics and Space Administration (NASA)",
+      "B": "Soviet space program",
+      "C": "Israel Space Agency",
+      "D": "National Aerospace Laboratory, US"
+    },
+    "correct_answer": "A",
+    "explanation": "The Moon Mineralogy Mapper (M3) was a NASA instrument that was part of the Chandrayaan-1 mission, which was launched by ISRO on 22 October 2008.",
+    "subject": "General Science",
+    "chapter": "Space Science",
+    "topic": "Chandrayaan-1",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 54
+  },
+  {
+    "question_text": "RLV-TD are a series of technology demonstration missions that have been conceived by ISRO as a first step towards realizing a Two Stage To Orbit (TSTO) fully re-usable launch vehicle. What is full form of RLV-TD?",
+    "options": {
+      "A": "Reusable Launch Vehicle-Technology Demonstration",
+      "B": "Remote Launch Vehicle-Technology Demonstration",
+      "C": "Return Launch Vehicle-Technology Demonstration",
+      "D": "Reusable Launch Vehicle-Technology Device"
+    },
+    "correct_answer": "A",
+    "explanation": "RLV-TD stands for Reusable Launch Vehicle-Technology Demonstration. It is an ISRO project aimed at developing a fully reusable launch vehicle.",
+    "subject": "General Science",
+    "chapter": "Space Science",
+    "topic": "ISRO Missions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 54
+  },
+  {
+    "question_text": "On which of the following Inertia of an object depends ?",
+    "options": {
+      "A": "Bulk",
+      "B": "Size",
+      "C": "Shape",
+      "D": "Mass"
+    },
+    "correct_answer": "D",
+    "explanation": "Inertia is the measure of an object's resistance to change in its state of motion. It is directly proportional to the mass of the object. Therefore, inertia depends on mass.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Mechanics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 54
+  },
+  {
+    "question_text": "In which of the following situations the force applied by the weight of a person becomes zero in a lift?",
+    "options": {
+      "A": "Lift moves up with an acceleration of 9.8 meter per sq. second",
+      "B": "Lift moves down with an acceleration of 9.8 meter per sq. second",
+      "C": "Lift moves up with an speed of 9.8 meter per second",
+      "D": "Lift moves up with down speed of 9.8 meter per second"
+    },
+    "correct_answer": "B",
+    "explanation": "When the lift accelerates downward with an acceleration equal to g (9.8 m/s²), the apparent weight becomes zero (W' = m(g‑a) = 0).",
+    "subject": "General Science",
+    "chapter": "Mechanics",
+    "topic": "Apparent Weight",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 55
+  },
+  {
+    "question_text": "On which of the following the jet Engine works?",
+    "options": {
+      "A": "Conservation of energy",
+      "B": "Conservation of Linear Momentum",
+      "C": "Conservation of Mass",
+      "D": "Conservation of Angular momentum"
+    },
+    "correct_answer": "B",
+    "explanation": "Jet engines (and rockets) operate on the law of conservation of linear momentum. If no external force acts on a system, its total linear momentum remains constant. The engine expels gases backward, giving the aircraft forward momentum.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Conservation of Linear Momentum",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 55
+  },
+  {
+    "question_text": "Which among the following is in action in the process of a liquid rising in the syringe when the piston is pulled up?",
+    "options": {
+      "A": "Capillary action",
+      "B": "surface tension",
+      "C": "atmospheric pressure",
+      "D": "cohesive forces"
+    },
+    "correct_answer": "C",
+    "explanation": "Pulling the piston reduces the pressure inside the syringe. The higher external atmospheric pressure pushes the liquid up into the barrel.",
+    "subject": "General Science",
+    "chapter": "Fluids",
+    "topic": "Atmospheric Pressure",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 55
+  },
+  {
+    "question_text": "Which among the following character of mercury makes it suitable to use in barometers instead of water?",
+    "options": {
+      "A": "Low density",
+      "B": "High density",
+      "C": "Low viscosity",
+      "D": "High volatility"
+    },
+    "correct_answer": null,
+    "explanation": "",
+    "subject": "General Science",
+    "chapter": "Properties of Materials",
+    "topic": "Mercury in Barometers",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 55
+  },
+  {
+    "question_text": "Which of the following is a property of liquids related to surface behavior?",
+    "options": {
+      "A": "Air resistance",
+      "B": "Surface tension",
+      "C": "Temperature",
+      "D": "Viscosity"
+    },
+    "correct_answer": "B",
+    "explanation": "Surface tension is the property of a liquid surface that allows it to resist an external force. Note: The source text had a formatting error where 'Surface tension' was listed as option C in the raw text but marked as Answer C, while the standard option order in the provided snippet was [B] Air resistance, [C] Surface tension. Based on the answer key 'C [Surface tension]', the correct option is Surface Tension.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Surface Tension",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 57
+  },
+  {
+    "question_text": "Kalpana-1 was the first exclusive satellite built by ISRO in which of the following satellite systems?",
+    "options": {
+      "A": "INSAT",
+      "B": "METSAT",
+      "C": "GSAT",
+      "D": "EDUSAT"
+    },
+    "correct_answer": "B",
+    "explanation": "Kalpana-1 is India's first meteorological satellite, belonging to the METSAT (Meteorological Satellite) system.",
+    "subject": "General Science",
+    "chapter": "Space Science",
+    "topic": "ISRO Satellites",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 57
+  },
+  {
+    "question_text": "First Indian Satellite Aryabhatta was launched in which year?",
+    "options": {
+      "A": "1970",
+      "B": "1972",
+      "C": "1975",
+      "D": "1980"
+    },
+    "correct_answer": "C",
+    "explanation": "Aryabhatta was launched on 19 April 1975 from a Russian space station using the Kosmos-3M launch vehicle.",
+    "subject": "General Science",
+    "chapter": "Space Science",
+    "topic": "ISRO Satellites",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 57
+  },
+  {
+    "question_text": "What is TERLS?",
+    "options": {
+      "A": "A rocket launching Station",
+      "B": "A Space Science & Technology Center",
+      "C": "A satellite launched by India",
+      "D": "A satellite launched by USA"
+    },
+    "correct_answer": "A",
+    "explanation": "TERLS stands for Thumba Equatorial Rocket Launching Station. It was established in 1962.",
+    "subject": "General Science",
+    "chapter": "Space Science",
+    "topic": "Launch Facilities",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 57
+  },
+  {
+    "question_text": "Which among the following is known for a FBTR (Fast Breeder Test Reactor)?",
+    "options": {
+      "A": "Naror",
+      "B": "Trombay",
+      "C": "Kalpakam",
+      "D": "None of the above"
+    },
+    "correct_answer": "C",
+    "explanation": "The Fast Breeder Test Reactor (FBTR) is located at Kalpakkam.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Nuclear Reactors",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 57
+  },
+  {
+    "question_text": "Which among the following is the property of Tungsten which makes it eligible to use in the bulbs?",
+    "options": {
+      "A": "Highest melting point",
+      "B": "Highest resistance",
+      "C": "Highest malleability",
+      "D": "All are correct"
+    },
+    "correct_answer": "A",
+    "explanation": "Tungsten is used in electric bulb filaments because it has the highest melting point among metals, allowing it to glow at high temperatures without melting.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Properties of Matter",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 57
   }
 ]
