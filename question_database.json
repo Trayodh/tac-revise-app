@@ -849777,5 +849777,1781 @@
     "topic": "DSC A 23 Launch",
     "source_pdf": "defence_pdf.pdf",
     "source_page": 208
+  },
+  {
+    "question_text": "What does the acronym JAI stand for in the context of the Kalam & Kavach conference?",
+    "options": {
+      "A": "Jointness, Aatmanirbharta, Innovation",
+      "B": "Jointness, Autonomy, Innovation",
+      "C": "Jointness, Aatmanirbharta, Integration",
+      "D": "Jointness, Autonomy, Integration"
+    },
+    "correct_answer": "A",
+    "explanation": "JAI is a three‑letter acronym representing the conference’s core themes: Jointness, Aatmanirbharta (self‑reliance), and Innovation.",
+    "subject": "CDS",
+    "chapter": "Conference Overview",
+    "topic": "JAI (Jointness, Aatmanirbharta, Innovation)",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 211
+  },
+  {
+    "question_text": "Who inaugurated the third edition of the Kalam & Kavach strategic defence conference?",
+    "options": {
+      "A": "President of India",
+      "B": "Raksha Rajya Mantri Shri Sanjay Seth",
+      "C": "Chief of Defence Staff",
+      "D": "Prime Minister of India"
+    },
+    "correct_answer": "B",
+    "explanation": "The conference was inaugurated at the Manekshaw Centre by the Defence Minister, Shri Sanjay Seth.",
+    "subject": "CDS",
+    "chapter": "Conference Overview",
+    "topic": "Inauguration",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 211
+  },
+  {
+    "question_text": "Which of the following was NOT highlighted as a focus of the conference?",
+    "options": {
+      "A": "Jointness",
+      "B": "Aatmanirbharta",
+      "C": "Globalization",
+      "D": "Innovation"
+    },
+    "correct_answer": "C",
+    "explanation": "The conference focused on Jointness, Aatmanirbharta, and Innovation; globalization was not mentioned as a key theme.",
+    "subject": "CDS",
+    "chapter": "Conference Overview",
+    "topic": "Key Themes",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 211
+  },
+  {
+    "question_text": "Which organization successfully completed the final development trials of the ULPGM‑V3 missile?",
+    "options": {
+      "A": "Indian Space Research Organisation (ISRO)",
+      "B": "Defence Research and Development Organisation (DRDO)",
+      "C": "Bharat Electronics Limited (BEL)",
+      "D": "National Aerospace Laboratories (NAL)"
+    },
+    "correct_answer": "B",
+    "explanation": "The Defence Research and Development Organisation (DRDO) is the Indian agency responsible for developing the ULPGM‑V3 missile and conducted its final trials.",
+    "subject": "Defense Technology",
+    "chapter": "Missile Systems",
+    "topic": "Development and Capabilities",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 213
+  },
+  {
+    "question_text": "The ULPGM‑V3 missile was tested in which of the following operational modes?",
+    "options": {
+      "A": "Air‑to‑ground only",
+      "B": "Air‑to‑air only",
+      "C": "Both air‑to‑ground and air‑to‑air",
+      "D": "Sea‑to‑air"
+    },
+    "correct_answer": "C",
+    "explanation": "The trials demonstrated the missile’s capability in both air‑to‑ground and air‑to‑air modes, showcasing its versatility.",
+    "subject": "Defense Technology",
+    "chapter": "Missile Systems",
+    "topic": "Development and Capabilities",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 213
+  },
+  {
+    "question_text": "What is the primary intended use of the ULPGM‑V3 missile?",
+    "options": {
+      "A": "Naval anti‑submarine warfare",
+      "B": "Anti‑tank warfare",
+      "C": "Long‑range strategic bombing",
+      "D": "Electronic warfare"
+    },
+    "correct_answer": "B",
+    "explanation": "The ULPGM‑V3 is specifically designed for anti‑tank warfare, providing precision strikes against armored targets.",
+    "subject": "Defense Technology",
+    "chapter": "Missile Systems",
+    "topic": "Development and Capabilities",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 213
+  },
+  {
+    "question_text": "In which city was the Nausena Shaurya Vatika naval museum inaugurated?",
+    "options": {
+      "A": "Lucknow",
+      "B": "New Delhi",
+      "C": "Mumbai",
+      "D": "Chennai"
+    },
+    "correct_answer": "A",
+    "explanation": "The Nausena Shaurya Vatika was inaugurated in Lucknow by Defence Minister Rajnath Singh and Chief Minister Yogi Adityanath.",
+    "subject": "Naval History",
+    "chapter": "Naval Museums",
+    "topic": "Overview",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 214
+  },
+  {
+    "question_text": "Which decommissioned warship's artefacts are showcased in the Nausena Shaurya Vatika museum?",
+    "options": {
+      "A": "INS Gomati",
+      "B": "INS Vikrant",
+      "C": "INS Rajput",
+      "D": "INS Shivalik"
+    },
+    "correct_answer": "A",
+    "explanation": "The museum displays artefacts and weapon systems recovered from the decommissioned warship INS Gomati.",
+    "subject": "Naval History",
+    "chapter": "Naval Museums",
+    "topic": "Artifacts and Exhibits",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 214
+  },
+  {
+    "question_text": "Who inaugurated the Nausena Shaurya Vatika naval museum?",
+    "options": {
+      "A": "Defence Minister Rajnath Singh",
+      "B": "Chief Minister Yogi Adityanath",
+      "C": "President of India",
+      "D": "Prime Minister of India"
+    },
+    "correct_answer": "A",
+    "explanation": "The museum was inaugurated by Defence Minister Rajnath Singh along with Chief Minister Yogi Adityanath.",
+    "subject": "Naval History",
+    "chapter": "Naval Museums",
+    "topic": "Overview",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 214
+  },
+  {
+    "question_text": "Which country co‑chaired the second India‑Australia Defence Ministers’ Dialogue held in New Delhi?",
+    "options": {
+      "A": "India",
+      "B": "Australia",
+      "C": "United Kingdom",
+      "D": "United States"
+    },
+    "correct_answer": "B",
+    "explanation": "Australia was the partner country that co‑chaired the second India‑Australia Defence Ministers’ Dialogue held in New Delhi.",
+    "subject": "International Relations",
+    "chapter": "India-Australia Defence Relations",
+    "topic": "Second Dialogue",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 216
+  },
+  {
+    "question_text": "Where was the second India‑Australia Defence Ministers’ Dialogue held?",
+    "options": {
+      "A": "Canberra",
+      "B": "New Delhi",
+      "C": "Sydney",
+      "D": "Mumbai"
+    },
+    "correct_answer": "B",
+    "explanation": "The second India‑Australia Defence Ministers’ Dialogue was held in New Delhi.",
+    "subject": "International Relations",
+    "chapter": "India-Australia Defence Relations",
+    "topic": "Second Dialogue",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 216
+  },
+  {
+    "question_text": "Which helicopter is used by the Sarang Display Team of the Indian Air Force?",
+    "options": {
+      "A": "Advanced Light Helicopter (ALH) Dhruv",
+      "B": "Mi-17",
+      "C": "AH-64 Apache",
+      "D": "UH-60 Black Hawk"
+    },
+    "correct_answer": "A",
+    "explanation": "The Sarang Display Team showcases the indigenously designed and manufactured Advanced Light Helicopter (ALH) Dhruv, highlighting its precision flying and operational versatility.",
+    "subject": "Aviation",
+    "chapter": "Indian Air Force",
+    "topic": "Advanced Light Helicopter (ALH) Dhruv",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 219
+  },
+  {
+    "question_text": "Which of the following is a key feature of the ALH Dhruv?",
+    "options": {
+      "A": "Heavy lift capacity",
+      "B": "Advanced avionics",
+      "C": "Long‑range fighter capability",
+      "D": "Amphibious capability"
+    },
+    "correct_answer": "B",
+    "explanation": "The ALH Dhruv is equipped with advanced avionics, including a glass cockpit and GPS‑INS navigation, which contribute to its high maneuverability and operational versatility.",
+    "subject": "Aviation",
+    "chapter": "Helicopter Technology",
+    "topic": "Advanced Light Helicopter (ALH) Dhruv",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 219
+  },
+  {
+    "question_text": "Which of the following roles is NOT typically performed by the ALH Dhruv?",
+    "options": {
+      "A": "Search and rescue",
+      "B": "Anti‑tank warfare",
+      "C": "Airborne early warning",
+      "D": "Medical evacuation"
+    },
+    "correct_answer": "C",
+    "explanation": "The ALH Dhruv is used for reconnaissance, anti‑tank warfare, search & rescue, and medical evacuation, but it is not designed for airborne early warning (AEW) missions.",
+    "subject": "Aviation",
+    "chapter": "Operational Roles",
+    "topic": "Advanced Light Helicopter (ALH) Dhruv",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 219
+  },
+  {
+    "question_text": "What is the approximate range of the Agni‑3 missile?",
+    "options": {
+      "A": "1,500 km",
+      "B": "2,500 km",
+      "C": "3,000 km",
+      "D": "3,500 km"
+    },
+    "correct_answer": "C",
+    "explanation": "Agni‑3 is classified as an Intermediate Range Ballistic Missile (IRBM) with a range of about 3,000 km, enabling it to strike targets well beyond India’s borders.",
+    "subject": "General Knowledge",
+    "chapter": "Defense & Security",
+    "topic": "Agni‑3 Intermediate Range Ballistic Missile",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 220
+  },
+  {
+    "question_text": "From which facility was the Agni‑3 missile test‑fired?",
+    "options": {
+      "A": "Satish Dhawan Space Centre",
+      "B": "Integrated Test Range, Chandipur",
+      "C": "Vandenberg Air Force Base",
+      "D": "Jodhpur Test Range"
+    },
+    "correct_answer": "B",
+    "explanation": "The Agni‑3 missile was successfully test‑fired from the Integrated Test Range (ITR) at Chandipur, Odisha, which is India's dedicated missile testing facility.",
+    "subject": "General Knowledge",
+    "chapter": "Defense & Security",
+    "topic": "Integrated Test Range (ITR), Chandipur",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 220
+  },
+  {
+    "question_text": "Agni‑3 belongs to which category of ballistic missiles?",
+    "options": {
+      "A": "Short‑Range Ballistic Missile (SRBM)",
+      "B": "Medium‑Range Ballistic Missile (MRBM)",
+      "C": "Intermediate‑Range Ballistic Missile (IRBM)",
+      "D": "Intercontinental Ballistic Missile (ICBM)"
+    },
+    "correct_answer": "C",
+    "explanation": "With a range of about 3,000 km, Agni‑3 is classified as an Intermediate‑Range Ballistic Missile (IRBM), positioned between MRBM and ICBM categories.",
+    "subject": "General Knowledge",
+    "chapter": "Defense & Security",
+    "topic": "Ballistic Missile Classification",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 220
+  },
+  {
+    "question_text": "Which mountain, the highest peak in South America, was recently summited by a joint team from NIM Uttarkashi and JIM&WS Pahalgam?",
+    "options": {
+      "A": "Mt. Everest",
+      "B": "Mt. Aconcagua",
+      "C": "Mt. Denali",
+      "D": "Mt. Kilimanjaro"
+    },
+    "correct_answer": "B",
+    "explanation": "Mt. Aconcagua is the highest peak in South America and the second-highest peak in the world outside of Asia. It was recently summited by a six-member team from NIM and JIM&WS.",
+    "subject": "Current Affairs",
+    "chapter": "Sports & Mountaineering",
+    "topic": "NIM and JIM&WS Summit of Mt. Aconcagua",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 227
+  },
+  {
+    "question_text": "The Jawahar Institute of Mountaineering & Winter Sports (JIM&WS) is located in which of the following places?",
+    "options": {
+      "A": "Uttarkashi",
+      "B": "Manali",
+      "C": "Pahalgam",
+      "D": "Darjeeling"
+    },
+    "correct_answer": "C",
+    "explanation": "JIM&WS is located in Pahalgam, while the Nehru Institute of Mountaineering (NIM) is located in Uttarkashi.",
+    "subject": "Current Affairs",
+    "chapter": "Sports & Mountaineering",
+    "topic": "NIM and JIM&WS Summit of Mt. Aconcagua",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 227
+  },
+  {
+    "question_text": "When did the fourth Joint Defence Cooperation Committee (JDCC) meeting between India and Kenya take place?",
+    "options": {
+      "A": "24-26 February 2025",
+      "B": "24-26 February 2026",
+      "C": "1-3 March 2026",
+      "D": "15-17 January 2026"
+    },
+    "correct_answer": "B",
+    "explanation": "The meeting was held in Nairobi from 24 to 26 February 2026, as stated in the official announcement.",
+    "subject": "Defense Studies",
+    "chapter": "International Defense Cooperation",
+    "topic": "India-Kenya JDCC Meeting 2026",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 228
+  },
+  {
+    "question_text": "Which of the following was NOT a key discussion area at the 2026 JDCC meeting?",
+    "options": {
+      "A": "Expanding service engagements",
+      "B": "Enhancing training opportunities",
+      "C": "Strengthening maritime security cooperation",
+      "D": "Developing nuclear weapons collaboration"
+    },
+    "correct_answer": "D",
+    "explanation": "The meeting focused on service engagements, training, maritime security, and R&D collaboration; there was no mention of nuclear weapons collaboration.",
+    "subject": "Defense Studies",
+    "chapter": "International Defense Cooperation",
+    "topic": "India-Kenya JDCC Meeting 2026",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 228
+  },
+  {
+    "question_text": "Who inaugurated the Chungthang - Lachen axis and the Taram Chu Bridge in North Sikkim?",
+    "options": {
+      "A": "Shri Nirmala Sitharaman",
+      "B": "Shri Sanjay Seth",
+      "C": "Shri Rajnath Singh",
+      "D": "Shri Amit Shah"
+    },
+    "correct_answer": "B",
+    "explanation": "Raksha Rajya Mantri Shri Sanjay Seth inaugurated the Chungthang - Lachen axis and the Taram Chu Bridge.",
+    "subject": "Current Affairs",
+    "chapter": "Infrastructure & Defense",
+    "topic": "Chungthang - Lachen Axis and Taram Chu Bridge",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 229
+  },
+  {
+    "question_text": "Which organization restored the Chungthang - Lachen axis and Taram Chu Bridge?",
+    "options": {
+      "A": "National Highways Authority of India (NHAI)",
+      "B": "Indian Army",
+      "C": "Border Roads Organisation (BRO)",
+      "D": "Public Works Department (PWD)"
+    },
+    "correct_answer": "C",
+    "explanation": "The infrastructure was restored by the Border Roads Organisation (BRO).",
+    "subject": "Current Affairs",
+    "chapter": "Infrastructure & Defense",
+    "topic": "Chungthang - Lachen Axis and Taram Chu Bridge",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 229
+  },
+  {
+    "question_text": "What is the length of the Taram Chu Bridge inaugurated in North Sikkim?",
+    "options": {
+      "A": "300 ft",
+      "B": "400 ft",
+      "C": "500 ft",
+      "D": "600 ft"
+    },
+    "correct_answer": "B",
+    "explanation": "The Taram Chu Bridge is a 400 ft Bailey Suspension Bridge.",
+    "subject": "Current Affairs",
+    "chapter": "Infrastructure & Defense",
+    "topic": "Chungthang - Lachen Axis and Taram Chu Bridge",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 229
+  },
+  {
+    "question_text": "What type of bridge is the Taram Chu Bridge in North Sikkim?",
+    "options": {
+      "A": "Cable-stayed Bridge",
+      "B": "Arch Bridge",
+      "C": "Bailey Suspension Bridge",
+      "D": "Beam Bridge"
+    },
+    "correct_answer": "C",
+    "explanation": "The Taram Chu Bridge is a Bailey Suspension Bridge.",
+    "subject": "Current Affairs",
+    "chapter": "Infrastructure & Defense",
+    "topic": "Chungthang - Lachen Axis and Taram Chu Bridge",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 229
+  },
+  {
+    "question_text": "Which department organized the National Defence Industries Conclave (NDIC) 2026?",
+    "options": {
+      "A": "Department of Defence Research & Development (DRDO)",
+      "B": "Department of Defence Production (DDP)",
+      "C": "Ministry of External Affairs",
+      "D": "Directorate General of Ordnance"
+    },
+    "correct_answer": "B",
+    "explanation": "The National Defence Industries Conclave (NDIC) 2026 was organized by the Department of Defence Production (DDP).",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "National Defence Industries Conclave (NDIC) 2026",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 231
+  },
+  {
+    "question_text": "What was the theme of the National Defence Industries Conclave (NDIC) 2026?",
+    "options": {
+      "A": "Indigenization of Defence Equipment",
+      "B": "Advanced Manufacturing Technologies",
+      "C": "Cyber Security in Defence",
+      "D": "Strategic Partnerships in Defence"
+    },
+    "correct_answer": "B",
+    "explanation": "The theme of NDIC 2026 was 'Advanced Manufacturing Technologies'.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "National Defence Industries Conclave (NDIC) 2026",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 231
+  },
+  {
+    "question_text": "Where did the National Defence Industries Conclave (NDIC) 2026 conclude?",
+    "options": {
+      "A": "Bengaluru",
+      "B": "Chennai",
+      "C": "Manekshaw Centre, New Delhi",
+      "D": "Hyderabad"
+    },
+    "correct_answer": "C",
+    "explanation": "The conclave concluded at the Manekshaw Centre, New Delhi.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "National Defence Industries Conclave (NDIC) 2026",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 231
+  },
+  {
+    "question_text": "What is the total value of the contracts signed by the Ministry of Defence for the procurement of the Tunguska Air Defence Missile System?",
+    "options": {
+      "A": "Rs 500 crore",
+      "B": "Rs 858 crore",
+      "C": "Rs 1,200 crore",
+      "D": "Rs 750 crore"
+    },
+    "correct_answer": "B",
+    "explanation": "The MoD signed contracts worth Rs 858 crore for the procurement of the Tunguska Air Defence Missile System, as stated in the official announcement.",
+    "subject": "Defense & Military Technology",
+    "chapter": "Air Defence Systems",
+    "topic": "Procurement Details",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 232
+  },
+  {
+    "question_text": "Which aircraft is scheduled for inspection at depot level as part of the contracts?",
+    "options": {
+      "A": "P8I Long‑Range Maritime Reconnaissance Aircraft",
+      "B": "Su‑30MKI",
+      "C": "MiG‑29",
+      "D": "HAL Tejas"
+    },
+    "correct_answer": "A",
+    "explanation": "The contracts include depot‑level inspection of the P8I Long‑Range Maritime Reconnaissance Aircraft to ensure its airworthiness and operational readiness.",
+    "subject": "Defense & Military Technology",
+    "chapter": "Air Defence Systems",
+    "topic": "Procurement Details",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 232
+  },
+  {
+    "question_text": "The Tunguska system is primarily designed for which type of defense?",
+    "options": {
+      "A": "Anti‑ship",
+      "B": "Anti‑air",
+      "C": "Anti‑tank",
+      "D": "Anti‑ballistic"
+    },
+    "correct_answer": "B",
+    "explanation": "The Tunguska Air Defence Missile System is a medium‑range missile platform intended to intercept aircraft and cruise missiles, making it an anti‑air defense system.",
+    "subject": "Defense & Military Technology",
+    "chapter": "Air Defence Systems",
+    "topic": "Tunguska Missile System",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 232
+  },
+  {
+    "question_text": "Which company signed a contract with the Ministry of Defence for the supply of two Mountain Radars for the Indian Air Force?",
+    "options": {
+      "A": "Hindustan Aeronautics Limited (HAL)",
+      "B": "Bharat Electronics Limited (BEL)",
+      "C": "Tata Advanced Systems Limited (TASL)",
+      "D": "Bharat Dynamics Limited (BDL)"
+    },
+    "correct_answer": "B",
+    "explanation": "The Ministry of Defence signed a significant contract with Bharat Electronics Limited (BEL) for two Mountain Radars and related infrastructure for the Indian Air Force.",
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "topic": "Defense Contracts",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 233
+  },
+  {
+    "question_text": "What is the approximate cost of the contract signed for the procurement of two Mountain Radars for the Indian Air Force?",
+    "options": {
+      "A": "Rs 1,500 crore",
+      "B": "Rs 1,750 crore",
+      "C": "Rs 1,950 crore",
+      "D": "Rs 2,200 crore"
+    },
+    "correct_answer": "C",
+    "explanation": "The contract for two Mountain Radars and related infrastructure costs approximately Rs 1,950 crore.",
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "topic": "Defense Expenditure",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 233
+  },
+  {
+    "question_text": "The acquisition of Mountain Radars by the Indian Air Force is part of which national initiative?",
+    "options": {
+      "A": "Digital India",
+      "B": "Aatmanirbhar Bharat and Make-in-India",
+      "C": "Swachh Bharat Abhiyan",
+      "D": "Skill India"
+    },
+    "correct_answer": "B",
+    "explanation": "The contract is part of the Aatmanirbhar Bharat and Make-in-India initiatives aimed at strengthening indigenous defense capabilities.",
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "topic": "National Initiatives",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 233
+  },
+  {
+    "question_text": "Where was the Fifth Joint Defence Working Group (JDWG) meeting between India and Mozambique held in April 2026?",
+    "options": {
+      "A": "New Delhi",
+      "B": "Maputo",
+      "C": "Lilongwe",
+      "D": "Dar es Salaam"
+    },
+    "correct_answer": "B",
+    "explanation": "The Fifth Joint Defence Working Group (JDWG) meeting between India and Mozambique was held in Maputo on April 1-2, 2026.",
+    "subject": "Current Affairs",
+    "chapter": "International Relations",
+    "topic": "India and Mozambique Defence Cooperation",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 234
+  },
+  {
+    "question_text": "Which of the following was NOT a primary focus of the discussions during the Fifth JDWG meeting between India and Mozambique?",
+    "options": {
+      "A": "Maritime awareness",
+      "B": "Joint training",
+      "C": "Nuclear energy cooperation",
+      "D": "Defense equipment supply"
+    },
+    "correct_answer": "C",
+    "explanation": "The discussions centered on expanding military exchanges, joint training, maritime awareness, military exercises, and collaboration in defense equipment supply. Nuclear energy cooperation was not mentioned as a focus area.",
+    "subject": "Current Affairs",
+    "chapter": "International Relations",
+    "topic": "India and Mozambique Defence Cooperation",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 234
+  },
+  {
+    "question_text": "When did the second edition of Ran Samwad begin?",
+    "options": {
+      "A": "9 April 2025",
+      "B": "9 April 2026",
+      "C": "10 April 2026",
+      "D": "1 May 2026"
+    },
+    "correct_answer": "B",
+    "explanation": "The second edition of Ran Samwad commenced on 9 April 2026 in Bengaluru, as stated in the provided text.",
+    "subject": "Strategic Studies",
+    "chapter": "Military Leadership & Seminars",
+    "topic": "Ran Samwad",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 236
+  },
+  {
+    "question_text": "Which command organized the second edition of Ran Samwad?",
+    "options": {
+      "A": "Army Training Command",
+      "B": "Navy Training Command",
+      "C": "Air Force Training Command",
+      "D": "Joint Chiefs of Staff Committee"
+    },
+    "correct_answer": "C",
+    "explanation": "The Air Force Training Command (AFTC) organized the seminar, as mentioned in the text.",
+    "subject": "Strategic Studies",
+    "chapter": "Military Leadership & Seminars",
+    "topic": "Ran Samwad",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 236
+  },
+  {
+    "question_text": "Who inaugurated the second edition of Ran Samwad?",
+    "options": {
+      "A": "President of India",
+      "B": "Prime Minister of India",
+      "C": "Chief of Defence Staff General Anil Chauhan",
+      "D": "Chief of Army Staff General Manoj Pande"
+    },
+    "correct_answer": "C",
+    "explanation": "The seminar was inaugurated by Chief of Defence Staff General Anil Chauhan, as per the provided information.",
+    "subject": "Strategic Studies",
+    "chapter": "Military Leadership & Seminars",
+    "topic": "Ran Samwad",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 236
+  },
+  {
+    "question_text": "Where was the Maintenance Command Commanders' Conclave held?",
+    "options": {
+      "A": "Vayusena Nagar, Nagpur",
+      "B": "Palam, New Delhi",
+      "C": "Hafiznagar, Bengaluru",
+      "D": "Agra"
+    },
+    "correct_answer": "A",
+    "explanation": "The Maintenance Command Commanders' Conclave took place in Vayusena Nagar, Nagpur.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Military",
+    "topic": "Maintenance Command Commanders' Conclave",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 237
+  },
+  {
+    "question_text": "Who led the Maintenance Command Commanders' Conclave?",
+    "options": {
+      "A": "Air Chief Marshal of India",
+      "B": "Air Marshal Yalla Umesh",
+      "C": "Air Vice Marshal of the Western Air Command",
+      "D": "Air Officer Commanding, Air Force Station Nagpur"
+    },
+    "correct_answer": "B",
+    "explanation": "Air Marshal Yalla Umesh, Air Officer Commanding in-Chief, led the Conclave.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Military",
+    "topic": "Maintenance Command Commanders' Conclave",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 237
+  },
+  {
+    "question_text": "What was the theme of the Maintenance Command Commanders' Conclave?",
+    "options": {
+      "A": "Modernizing Air Force Logistics",
+      "B": "Maintenance Command in Mission Mode to Support Operations",
+      "C": "Future of Aerial Warfare",
+      "D": "Strategic Air Power"
+    },
+    "correct_answer": "B",
+    "explanation": "The theme of the conclave was \"Maintenance Command in Mission Mode to Support Operations.\"",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Military",
+    "topic": "Maintenance Command Commanders' Conclave",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 237
+  },
+  {
+    "question_text": "Where was the World Border Security Congress 2026 held?",
+    "options": {
+      "A": "Geneva, Switzerland",
+      "B": "Vienna, Austria",
+      "C": "New York, USA",
+      "D": "London, UK"
+    },
+    "correct_answer": "B",
+    "explanation": "The World Border Security Congress 2026 was held in Vienna, Austria from April 14-16, 2026.",
+    "subject": "Current Affairs",
+    "chapter": "International Relations & Security",
+    "topic": "World Border Security Congress 2026",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 238
+  },
+  {
+    "question_text": "During the World Border Security Congress 2026, India showcased its leadership in which specific security domain?",
+    "options": {
+      "A": "Cyber Security",
+      "B": "Aerial Security",
+      "C": "Maritime Security",
+      "D": "Land Border Surveillance"
+    },
+    "correct_answer": "C",
+    "explanation": "India showcased its leadership in maritime security and reinforced its commitment to international cooperation during the congress.",
+    "subject": "Current Affairs",
+    "chapter": "International Relations & Security",
+    "topic": "World Border Security Congress 2026",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 238
+  },
+  {
+    "question_text": "In which district of Uttar Pradesh did the Indian Air Force activate the 'Emergency Landing Facility' (ELF) on the Purvanchal Expressway?",
+    "options": {
+      "A": "Lucknow",
+      "B": "Sultanpur",
+      "C": "Kanpur",
+      "D": "Varanasi"
+    },
+    "correct_answer": "B",
+    "explanation": "The Indian Air Force activated the Emergency Landing Facility (ELF) on the Purvanchal Expressway in Sultanpur District, Uttar Pradesh.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "Emergency Landing Facility (ELF)",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 239
+  },
+  {
+    "question_text": "On which date was the 'Emergency Landing Facility' (ELF) activated on the Purvanchal Expressway?",
+    "options": {
+      "A": "22 April 2025",
+      "B": "22 April 2026",
+      "C": "22 May 2026",
+      "D": "22 March 2026"
+    },
+    "correct_answer": "B",
+    "explanation": "The facility was activated on 22 April 2026.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "Emergency Landing Facility (ELF)",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 239
+  },
+  {
+    "question_text": "Who unveiled the Advanced Armoured Platforms (Tracked and Wheeled) on 25 April 2026?",
+    "options": {
+      "A": "Secretary, Department of Defence (R&D)",
+      "B": "Chairman, DRDO – Dr. Samir V. Kamat",
+      "C": "Both A and B",
+      "D": "None of the above"
+    },
+    "correct_answer": "C",
+    "explanation": "The unveiling ceremony was jointly conducted by the Secretary of the Department of Defence (R&D) and the Chairman of DRDO, Dr. Samir V. Kamat.",
+    "subject": "Defense Technology",
+    "chapter": "Advanced Armoured Platforms",
+    "topic": "Design and Development",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 241
+  },
+  {
+    "question_text": "Which organization is responsible for designing and developing the Advanced Armoured Platforms?",
+    "options": {
+      "A": "Indian Army",
+      "B": "Vehicles Research & Development Establishment (VRDE)",
+      "C": "Ministry of Defence",
+      "D": "DRDO"
+    },
+    "correct_answer": "B",
+    "explanation": "The Advanced Armoured Platforms were designed and developed by the Vehicles Research & Development Establishment (VRDE), a laboratory under DRDO.",
+    "subject": "Defense Technology",
+    "chapter": "Advanced Armoured Platforms",
+    "topic": "Design and Development",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 241
+  },
+  {
+    "question_text": "Where were the Advanced Armoured Platforms unveiled?",
+    "options": {
+      "A": "New Delhi",
+      "B": "Ahilyanagar, Maharashtra",
+      "C": "Bangalore",
+      "D": "Pune"
+    },
+    "correct_answer": "B",
+    "explanation": "The unveiling took place at the DRDO laboratory premises in Ahilyanagar, Maharashtra.",
+    "subject": "Defense Technology",
+    "chapter": "Advanced Armoured Platforms",
+    "topic": "Design and Development",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 241
+  },
+  {
+    "question_text": "What types of platforms are included in the Advanced Armoured Platforms?",
+    "options": {
+      "A": "Tracked only",
+      "B": "Wheeled only",
+      "C": "Both tracked and wheeled",
+      "D": "None of the above"
+    },
+    "correct_answer": "C",
+    "explanation": "The Advanced Armoured Platforms comprise both tracked and wheeled variants to meet diverse operational needs.",
+    "subject": "Defense Technology",
+    "chapter": "Advanced Armoured Platforms",
+    "topic": "Design and Development",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 241
+  },
+  {
+    "question_text": "Which Indian Navy vessel recently arrived at Changi Naval Base, Singapore, marking its fourth port call during the IOS SAGAR deployment?",
+    "options": {
+      "A": "INS Vikrant",
+      "B": "INS Sunayna",
+      "C": "INS Kolkata",
+      "D": "INS Chakra"
+    },
+    "correct_answer": "B",
+    "explanation": "INS Sunayna arrived at Changi Naval Base, Singapore, marking her fourth port call during the ongoing IOS SAGAR deployment.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "IOS SAGAR Deployment",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 242
+  },
+  {
+    "question_text": "What does the acronym 'MAHASAGAR' stand for in the context of the Indian Navy's IOS SAGAR deployment?",
+    "options": {
+      "A": "Maritime Holistic Advancement for Security and Growth Across Regions",
+      "B": "Mutual and Holistic Advancement for Security and Growth Across Regions",
+      "C": "Maritime and Holistic Action for Security and Growth Across Regions",
+      "D": "Mutual and Harmonious Advancement for Security and Growth Across Regions"
+    },
+    "correct_answer": "B",
+    "explanation": "MAHASAGAR stands for Mutual and Holistic Advancement for Security and Growth Across Regions.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "IOS SAGAR Deployment",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 242
+  },
+  {
+    "question_text": "What is the primary function of the Tactical Advanced Range Augmentation (TARA) weapon system?",
+    "options": {
+      "A": "To serve as a standalone ballistic missile",
+      "B": "To convert unguided warheads into precision-guided weapons",
+      "C": "To act as a drone for reconnaissance",
+      "D": "To provide air defense against incoming missiles"
+    },
+    "correct_answer": "B",
+    "explanation": "TARA is described as India's first indigenous glide weapon system that converts unguided warheads into precision-guided weapons.",
+    "subject": "Defence",
+    "chapter": "Indigenous Defence Systems",
+    "topic": "TARA Weapon System",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 243
+  },
+  {
+    "question_text": "Which organizations conducted the first flight trial of the TARA weapon off Odisha's coast?",
+    "options": {
+      "A": "ISRO and Navy",
+      "B": "DRDO and IAF",
+      "C": "BSF and Army",
+      "D": "CDS and Air Force"
+    },
+    "correct_answer": "B",
+    "explanation": "The text states that DRDO and IAF conducted the first flight trial of the TARA weapon.",
+    "subject": "Defence",
+    "chapter": "Indigenous Defence Systems",
+    "topic": "TARA Weapon System",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 243
+  },
+  {
+    "question_text": "When was the first flight trial of the TARA weapon conducted?",
+    "options": {
+      "A": "May 7, 2024",
+      "B": "May 7, 2025",
+      "C": "May 7, 2026",
+      "D": "June 7, 2026"
+    },
+    "correct_answer": "C",
+    "explanation": "According to the provided text, the first flight trial took place on May 7, 2026.",
+    "subject": "Defence",
+    "chapter": "Indigenous Defence Systems",
+    "topic": "TARA Weapon System",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 243
+  },
+  {
+    "question_text": "Which organization successfully finished the final configuration trials for the Unmanned Aerial Vehicle Launched Precision Guided Missile (ULPGM)-V3?",
+    "options": {
+      "A": "ISRO",
+      "B": "DRDO",
+      "C": "HAL",
+      "D": "BHEL"
+    },
+    "correct_answer": "B",
+    "explanation": "The Defence Research & Development Organisation (DRDO) is the agency responsible for the development and testing of the ULPGM-V3.",
+    "subject": "Defence",
+    "chapter": "Missile Technology",
+    "topic": "ULPGM-V3",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 245
+  },
+  {
+    "question_text": "In which modes were the final configuration trials for the ULPGM-V3 conducted?",
+    "options": {
+      "A": "Surface-to-Air and Surface-to-Surface",
+      "B": "Air-to-Ground and Air-to-Air",
+      "C": "Sea-to-Air and Sea-to-Surface",
+      "D": "Ground-to-Ground and Air-to-Surface"
+    },
+    "correct_answer": "B",
+    "explanation": "The trials for ULPGM-V3 were successfully completed in both Air-to-Ground and Air-to-Air modes.",
+    "subject": "Defence",
+    "chapter": "Missile Technology",
+    "topic": "ULPGM-V3",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 245
+  },
+  {
+    "question_text": "Where were the final configuration trials for the ULPGM-V3 conducted?",
+    "options": {
+      "A": "Chandipur, Odisha",
+      "B": "Pondicherry",
+      "C": "Kurnool, Andhra Pradesh",
+      "D": "Balasore, Odisha"
+    },
+    "correct_answer": "C",
+    "explanation": "The trials were conducted at a test range near Kurnool, Andhra Pradesh.",
+    "subject": "Defence",
+    "chapter": "Missile Technology",
+    "topic": "ULPGM-V3",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 245
+  },
+  {
+    "question_text": "Who is the Vietnamese official that met with Indian Defence Minister Shri Rajnath Singh in Hanoi to discuss defense partnership?",
+    "options": {
+      "A": "General Nguyen Chi Van",
+      "B": "General Phan Van Giang",
+      "C": "Minister Pham Binh Minh",
+      "D": "General Vo Van Tuan"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, Raksha Mantri Shri Rajnath Singh met with Vietnam's Deputy Prime Minister and Minister of National Defence, General Phan Van Giang, in Hanoi.",
+    "subject": "Current Affairs",
+    "chapter": "International Relations",
+    "topic": "India-Vietnam Defense Cooperation",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 246
+  },
+  {
+    "question_text": "Which of the following was NOT mentioned as a key area of discussion during the meeting between India and Vietnam's defense ministers?",
+    "options": {
+      "A": "Maritime security",
+      "B": "Defense industry",
+      "C": "Nuclear energy cooperation",
+      "D": "Regional stability"
+    },
+    "correct_answer": "C",
+    "explanation": "The text states that they discussed enhancing cooperation in maritime security, the defense industry, training, and regional stability. Nuclear energy cooperation was not mentioned.",
+    "subject": "Current Affairs",
+    "chapter": "International Relations",
+    "topic": "India-Vietnam Defense Cooperation",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 246
+  },
+  {
+    "question_text": "On what date was the Indian War Memorial in Imjingak Park, Seoul inaugurated?",
+    "options": {
+      "A": "21 May 2025",
+      "B": "21 May 2026",
+      "C": "21 June 2026",
+      "D": "21 July 2026"
+    },
+    "correct_answer": "B",
+    "explanation": "The memorial was inaugurated on 21 May 2026, as part of the 75th anniversary commemorations of the Korean War.",
+    "subject": "History",
+    "chapter": "Korean War",
+    "topic": "Indian War Memorial",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 247
+  },
+  {
+    "question_text": "Which Indian minister attended the inauguration of the Indian War Memorial in Seoul?",
+    "options": {
+      "A": "Minister of Finance",
+      "B": "Minister of External Affairs",
+      "C": "Minister of Defence (Raksha Mantri)",
+      "D": "Minister of Home Affairs"
+    },
+    "correct_answer": "C",
+    "explanation": "Raksha Mantri Shri Rajnath Singh, the Indian Minister of Defence, attended the inauguration.",
+    "subject": "Political Science",
+    "chapter": "India–South Korea Relations",
+    "topic": "Military Cooperation",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 247
+  },
+  {
+    "question_text": "The inauguration of the Indian War Memorial was part of the commemorative events marking which anniversary of the Korean War?",
+    "options": {
+      "A": "50th",
+      "B": "60th",
+      "C": "70th",
+      "D": "75th"
+    },
+    "correct_answer": "D",
+    "explanation": "The memorial was inaugurated as part of the 75th anniversary celebrations of the Korean War.",
+    "subject": "History",
+    "chapter": "Korean War",
+    "topic": "Commemoration",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 247
+  },
+  {
+    "question_text": "Who co-chaired the 16th India-Singapore Defence Policy Dialogue held in Singapore on May 28, 2026, on behalf of India?",
+    "options": {
+      "A": "Defence Secretary Shri Rajesh Kumar Singh",
+      "B": "Permanent Secretary (Defence) Mr. Joseph Leong",
+      "C": "Minister of Defence",
+      "D": "Chief of Defence Staff"
+    },
+    "correct_answer": "A",
+    "explanation": "Defence Secretary Shri Rajesh Kumar Singh co-chaired the 16th India-Singapore Defence Policy Dialogue on behalf of India, alongside Singapore's Permanent Secretary (Defence) Mr. Joseph Leong.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "India-Singapore Defence Policy Dialogue",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 248
+  },
+  {
+    "question_text": "On which date was the 16th India-Singapore Defence Policy Dialogue held in Singapore?",
+    "options": {
+      "A": "May 28, 2026",
+      "B": "May 28, 2025",
+      "C": "June 1, 2026",
+      "D": "April 15, 2026"
+    },
+    "correct_answer": "A",
+    "explanation": "The 16th India-Singapore Defence Policy Dialogue was held in Singapore on May 28, 2026.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "India-Singapore Defence Policy Dialogue",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 248
+  },
+  {
+    "question_text": "Who was the Minister of National Defence of the Republic of Korea who held bilateral discussions with India's Defence Minister in Seoul on May 20, 2026?",
+    "options": {
+      "A": "Mr. Ahn Gyu-back",
+      "B": "Shri Rajnath Singh",
+      "C": "Mr. Yoon Suk-yeol",
+      "D": "Mr. Lee Jae-myung"
+    },
+    "correct_answer": "A",
+    "explanation": "According to the text, the Minister of National Defence of the Republic of Korea who held discussions with India's Raksha Mantri was Mr. Ahn Gyu-back.",
+    "subject": "Current Affairs",
+    "chapter": "International Relations",
+    "topic": "India and Republic of Korea Defence Cooperation",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 249
+  },
+  {
+    "question_text": "On which date did the Defence Ministers of India and the Republic of Korea hold comprehensive bilateral discussions in Seoul?",
+    "options": {
+      "A": "May 20, 2025",
+      "B": "May 20, 2026",
+      "C": "June 20, 2026",
+      "D": "April 20, 2026"
+    },
+    "correct_answer": "B",
+    "explanation": "The text explicitly states that the discussions were held on May 20, 2026.",
+    "subject": "Current Affairs",
+    "chapter": "International Relations",
+    "topic": "India and Republic of Korea Defence Cooperation",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 249
+  },
+  {
+    "question_text": "Where was the inaugural meeting of the India-Zimbabwe Joint Defence Committee (JDC) held?",
+    "options": {
+      "A": "Harare",
+      "B": "New Delhi",
+      "C": "Mumbai",
+      "D": "Bengaluru"
+    },
+    "correct_answer": "B",
+    "explanation": "The inaugural meeting of the India-Zimbabwe Joint Defence Committee (JDC) took place in New Delhi on June 04, 2026.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "India-Zimbabwe Joint Defence Committee",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 251
+  },
+  {
+    "question_text": "Which of the following areas was NOT mentioned as a focus for expanding cooperation in the India-Zimbabwe Joint Defence Committee meeting?",
+    "options": {
+      "A": "Training",
+      "B": "Support and maintenance of common air assets",
+      "C": "Joint naval exercises",
+      "D": "Bilateral defence ties enhancement"
+    },
+    "correct_answer": "C",
+    "explanation": "The text specifies that cooperation will be expanded in areas such as training, support, and maintenance of common air assets. Joint naval exercises were not mentioned in the provided text.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "India-Zimbabwe Joint Defence Committee",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 251
+  },
+  {
+    "question_text": "What was the primary cause of the incident involving the MT Olympic Life tanker on 26 May 2026?",
+    "options": {
+      "A": "A collision with another vessel",
+      "B": "A hull explosion due to an unexploded missile warhead",
+      "C": "A piracy attack",
+      "D": "A natural disaster (tide surge)"
+    },
+    "correct_answer": "B",
+    "explanation": "The incident was caused by a hull explosion off Oman, which was linked to an unexploded missile warhead recovered by the Indian Navy.",
+    "subject": "Current Affairs",
+    "chapter": "Naval Incidents",
+    "topic": "Unexploded Missile Warhead",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 253
+  },
+  {
+    "question_text": "Which country’s flag was the MT Olympic Life tanker registered under?",
+    "options": {
+      "A": "India",
+      "B": "Marshall Islands",
+      "C": "United Arab Emirates",
+      "D": "Singapore"
+    },
+    "correct_answer": "B",
+    "explanation": "The tanker was Marshall Islands‑flagged, meaning it was registered under the Marshall Islands flag.",
+    "subject": "Current Affairs",
+    "chapter": "Naval Incidents",
+    "topic": "Unexploded Missile Warhead",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 253
+  },
+  {
+    "question_text": "Which Indian naval force was involved in the recovery of the unexploded missile warhead?",
+    "options": {
+      "A": "Indian Coast Guard",
+      "B": "Indian Navy",
+      "C": "Indian Air Force",
+      "D": "Indian Army"
+    },
+    "correct_answer": "B",
+    "explanation": "The Indian Navy successfully recovered the unexploded missile warhead from the MT Olympic Life tanker.",
+    "subject": "Current Affairs",
+    "chapter": "Naval Incidents",
+    "topic": "Unexploded Missile Warhead",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 253
+  },
+  {
+    "question_text": "Who inaugurated the Advanced Weapon System Complex at DRDO's Defence Research & Development Laboratory (DRDL) in Hyderabad?",
+    "options": {
+      "A": "Shri Nirmala Sitharaman",
+      "B": "Shri Rajnath Singh",
+      "C": "Shri Amit Shah",
+      "D": "Shri Piyush Goyal"
+    },
+    "correct_answer": "B",
+    "explanation": "Raksha Mantri Shri Rajnath Singh inaugurated the Advanced Weapon System Complex at DRDO's DRDL in Hyderabad on June 12, 2026.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "DRDO & Weapon Systems",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 254
+  },
+  {
+    "question_text": "The Advanced Weapon System Complex inaugurated in June 2026 is located at which DRDO facility?",
+    "options": {
+      "A": "Vikram Sarabhai Space Centre",
+      "B": "Defence Research & Development Laboratory (DRDL), Dr APJ Abdul Kalam Missile Complex",
+      "C": "Hindustan Aeronautics Limited (HAL) Bangalore",
+      "D": "Indian Ordnance Factories, Avadi"
+    },
+    "correct_answer": "B",
+    "explanation": "The complex is located at DRDO's Defence Research & Development Laboratory (DRDL), Dr APJ Abdul Kalam Missile Complex in Hyderabad, Telangana.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "DRDO & Weapon Systems",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 254
+  },
+  {
+    "question_text": "Which organization conducted the successful flight-test of the Long Range Land Attack Cruise Missile (LRLACM)?",
+    "options": {
+      "A": "ISRO",
+      "B": "DRDO",
+      "C": "HAL",
+      "D": "BHEL"
+    },
+    "correct_answer": "B",
+    "explanation": "The Defence Research & Development Organisation (DRDO) conducted the successful flight-test of the LRLACM.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Technology",
+    "topic": "LRLACM",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 255
+  },
+  {
+    "question_text": "From which location was the Long Range Land Attack Cruise Missile (LRLACM) flight-tested on June 15, 2026?",
+    "options": {
+      "A": "Chandipur, Odisha",
+      "B": "Balasore, Odisha",
+      "C": "Dr APJ Abdul Kalam Island, Odisha",
+      "D": "Wheeler Island, Odisha"
+    },
+    "correct_answer": "C",
+    "explanation": "The flight-test was conducted from Dr APJ Abdul Kalam Island, off the coast of Odisha.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Technology",
+    "topic": "LRLACM",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 255
+  },
+  {
+    "question_text": "Where was the 10th Thailand-India Defence Dialogue held?",
+    "options": {
+      "A": "New Delhi",
+      "B": "Bangkok",
+      "C": "Chiang Mai",
+      "D": "Jaipur"
+    },
+    "correct_answer": "B",
+    "explanation": "The 10th Thailand-India Defence Dialogue took place in Bangkok on June 16, 2026.",
+    "subject": "Current Affairs",
+    "chapter": "International Relations & Defence",
+    "topic": "Thailand-India Defence Dialogue",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 256
+  },
+  {
+    "question_text": "What was the primary objective of the 10th Thailand-India Defence Dialogue?",
+    "options": {
+      "A": "To sign a new trade agreement",
+      "B": "To review bilateral defence cooperation and discuss regional/global security",
+      "C": "To conduct joint military exercises",
+      "D": "To establish a new diplomatic embassy"
+    },
+    "correct_answer": "B",
+    "explanation": "The dialogue was held to review the full spectrum of bilateral defence cooperation and exchange views on regional & global security issues of mutual interest.",
+    "subject": "Current Affairs",
+    "chapter": "International Relations & Defence",
+    "topic": "Thailand-India Defence Dialogue",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 256
+  },
+  {
+    "question_text": "How many 1.25 MW Marine Gas Turbine Generators were acquired by the Indian Navy?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "15",
+      "D": "20"
+    },
+    "correct_answer": "B",
+    "explanation": "The contract with Bharat Forge Limited specifies the acquisition of 12 sets of 1.25 MW Marine Gas Turbine Generators for the Indian Navy.",
+    "subject": "Marine Engineering",
+    "chapter": "Marine Power Generation",
+    "topic": "1.25 MW Marine Gas Turbine Generators",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 258
+  },
+  {
+    "question_text": "What is the minimum indigenous content required for the generators?",
+    "options": {
+      "A": "50%",
+      "B": "60%",
+      "C": "70%",
+      "D": "80%"
+    },
+    "correct_answer": "B",
+    "explanation": "The contract mandates a minimum indigenous content of 60%, ensuring significant domestic participation in manufacturing and assembly.",
+    "subject": "Defence Procurement",
+    "chapter": "Defence Contracts",
+    "topic": "Minimum Indigenous Content",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 258
+  },
+  {
+    "question_text": "What is the approximate total cost of the contract for the 12 generators?",
+    "options": {
+      "A": "Rs 300 crore",
+      "B": "Rs 425 crore",
+      "C": "Rs 500 crore",
+      "D": "Rs 600 crore"
+    },
+    "correct_answer": "B",
+    "explanation": "The contract value is around Rs 425 crore for the 12 sets of 1.25 MW Marine Gas Turbine Generators.",
+    "subject": "Economics",
+    "chapter": "Defence Expenditure",
+    "topic": "Cost of Marine Gas Turbine Generators",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 258
+  },
+  {
+    "question_text": "Which organization developed the indigenous 'Netra' Airborne Early Warning and Control (AEW&C) system?",
+    "options": {
+      "A": "ISRO",
+      "B": "DRDO",
+      "C": "HAL",
+      "D": "BHEL"
+    },
+    "correct_answer": "B",
+    "explanation": "The Defence Research & Development Organisation (DRDO) developed the indigenous 'Netra' AEW&C system.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Technology",
+    "topic": "Netra AEW&C System",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 259
+  },
+  {
+    "question_text": "The 'Netra' system recently received its Final Operational Clearance (FOC) from DRDO for which branch of the Indian Armed Forces?",
+    "options": {
+      "A": "Indian Army",
+      "B": "Indian Navy",
+      "C": "Indian Air Force",
+      "D": "Coast Guard"
+    },
+    "correct_answer": "C",
+    "explanation": "The Final Operational Clearance (FOC) certificate of the 'Netra' AEW&C system was handed over to the Indian Air Force (IAF).",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Technology",
+    "topic": "Netra AEW&C System",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 259
+  },
+  {
+    "question_text": "Which organization is responsible for designing and building the Next Generation Offshore Patrol Vessels (OPVs) for the Indian Coast Guard?",
+    "options": {
+      "A": "Cochin Shipyard Limited",
+      "B": "Mazagon Dock Shipbuilders Ltd",
+      "C": "Garden Reach Shipbuilders & Engineers",
+      "D": "Hindustan Shipyard Limited"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, the vessels are designed and built by Mazagon Dock Shipbuilders Ltd (MDL).",
+    "subject": "General Science & Technology",
+    "chapter": "Defence & Security",
+    "topic": "Offshore Patrol Vessels (OPVs)",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 260
+  },
+  {
+    "question_text": "The keel-laying ceremony for the fourth of the six Next Generation Offshore Patrol Vessels (OPVs) for the Indian Coast Guard took place in which city?",
+    "options": {
+      "A": "Kochi",
+      "B": "Visakhapatnam",
+      "C": "Mumbai",
+      "D": "Mundra"
+    },
+    "correct_answer": "C",
+    "explanation": "The text states that the keel-laying ceremony for the fourth vessel took place in Mumbai.",
+    "subject": "General Science & Technology",
+    "chapter": "Defence & Security",
+    "topic": "Offshore Patrol Vessels (OPVs)",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 260
+  },
+  {
+    "question_text": "The construction of the Next Generation Offshore Patrol Vessels (OPVs) supports which national initiative?",
+    "options": {
+      "A": "Make in India",
+      "B": "Digital India",
+      "C": "Aatmanirbhar Bharat",
+      "D": "Swachh Bharat"
+    },
+    "correct_answer": "C",
+    "explanation": "The text explicitly mentions that the vessels are built in support of the Aatmanirbhar Bharat initiative.",
+    "subject": "General Science & Technology",
+    "chapter": "Defence & Security",
+    "topic": "Offshore Patrol Vessels (OPVs)",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 260
+  },
+  {
+    "question_text": "Which Indian Naval ships of the Eastern Fleet departed Sattahip, Thailand, on 29 June 2026 for further deployment in the South East Asia Region?",
+    "options": {
+      "A": "INS Vikrant, INS Viraat, and INS Viraat",
+      "B": "INS Udaygiri, INS Kavaratti, and INS Shakti",
+      "C": "INS Chakra, INS Arjun, and INS Karwar",
+      "D": "INS Talwar, INS Teg, and INS Tabar"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, Indian Naval Ships Udaygiri, Kavaratti, and Shakti of the Eastern Fleet departed Sattahip, Thailand, on 29 Jun 2026.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "Indian Navy Operations",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 261
+  },
+  {
+    "question_text": "Who was the Flag Officer Commanding the Eastern Fleet during the deployment of INS Udaygiri, INS Kavaratti, and INS Shakti in June 2026?",
+    "options": {
+      "A": "RAdm Alok Ananda",
+      "B": "RAdm Sanjay Kumar",
+      "C": "RAdm Rajesh Puri",
+      "D": "RAdm Vikram Singh"
+    },
+    "correct_answer": "A",
+    "explanation": "The text states that the ships were under the Command of RAdm Alok Ananda, Flag Officer Commanding Eastern Fleet.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "Indian Navy Operations",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 261
+  },
+  {
+    "question_text": "Who was the chairman of the Defence Acquisition Council (DAC) when it accorded Acceptance of Necessity (AoN) to various acquisition proposals on July 03, 2026?",
+    "options": {
+      "A": "Shri Nirmala Sitharaman",
+      "B": "Shri Rajnath Singh",
+      "C": "Shri Amit Shah",
+      "D": "Shri Arjun Ram Meghwal"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, the Defence Acquisition Council (DAC) was under the chairmanship of Raksha Mantri Shri Rajnath Singh on July 03, 2026.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "Defence Acquisition Council (DAC)",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 264
+  },
+  {
+    "question_text": "What is the estimated cost of the acquisition proposals for which the Defence Acquisition Council (DAC) accorded Acceptance of Necessity (AoN) on July 03, 2026?",
+    "options": {
+      "A": "Rs 25,000 crore",
+      "B": "Rs 52,000 crore",
+      "C": "Rs 1,00,000 crore",
+      "D": "Rs 75,000 crore"
+    },
+    "correct_answer": "B",
+    "explanation": "The text states that the DAC accorded AoN to various acquisition proposals at an estimated cost of about Rs 52,000 crore.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "Defence Acquisition Council (DAC)",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 264
+  },
+  {
+    "question_text": "In the context of defence procurement, what does 'AoN' stand for as mentioned in the DAC decision of July 03, 2026?",
+    "options": {
+      "A": "Approval of Negotiation",
+      "B": "Acceptance of Necessity",
+      "C": "Assessment of Need",
+      "D": "Authorization of Order"
+    },
+    "correct_answer": "B",
+    "explanation": "The text explicitly defines AoN as 'Acceptance of Necessity', which is the in-principle administrative approval for acquisition proposals.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "Defence Acquisition Council (DAC)",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 264
+  },
+  {
+    "question_text": "Where did the second Joint Defence Cooperation Committee (JDCC) meeting between India and Rwanda take place?",
+    "options": {
+      "A": "Kigali",
+      "B": "New Delhi",
+      "C": "Mumbai",
+      "D": "Bengaluru"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, the second JDCC meeting between India and Rwanda took place in New Delhi on July 06 & 07, 2026.",
+    "subject": "Current Affairs",
+    "chapter": "International Relations",
+    "topic": "India and Rwanda Defence Cooperation",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 265
+  },
+  {
+    "question_text": "Which of the following areas was NOT mentioned as a field for expanding partnership during the second JDCC meeting between India and Rwanda?",
+    "options": {
+      "A": "Military training",
+      "B": "Medical cooperation",
+      "C": "Defence industries",
+      "D": "Nuclear energy"
+    },
+    "correct_answer": "D",
+    "explanation": "The text states that the two sides decided to expand partnership in military training, military exercises, medical cooperation, and defence industries. Nuclear energy was not mentioned.",
+    "subject": "Current Affairs",
+    "chapter": "International Relations",
+    "topic": "India and Rwanda Defence Cooperation",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 265
+  },
+  {
+    "question_text": "On which date was the successful flight‑test of the Pinaka Long Range Guided Rocket (LRGR) conducted?",
+    "options": {
+      "A": "08 July 2025",
+      "B": "08 July 2026",
+      "C": "08 August 2026",
+      "D": "08 June 2026"
+    },
+    "correct_answer": "B",
+    "explanation": "The flight‑test was carried out on 08 July 2026 as stated in the official report.",
+    "subject": "Military Technology",
+    "chapter": "Guided Rockets",
+    "topic": "Flight Test Details",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 266
+  },
+  {
+    "question_text": "What is the minimum range achieved by the LRGR during its flight test?",
+    "options": {
+      "A": "50 km",
+      "B": "55 km",
+      "C": "60 km",
+      "D": "65 km"
+    },
+    "correct_answer": "C",
+    "explanation": "The test was conducted for a user‑defined minimum range of 60 kilometres.",
+    "subject": "Military Technology",
+    "chapter": "Guided Rockets",
+    "topic": "Flight Test Details",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 266
+  },
+  {
+    "question_text": "Which Indian organization conducted the flight test of the Pinaka LRGR?",
+    "options": {
+      "A": "Indian Space Research Organisation (ISRO)",
+      "B": "Defence Research & Development Organisation (DRDO)",
+      "C": "Indian Institute of Technology (IIT)",
+      "D": "National Aerospace Laboratories (NAL)"
+    },
+    "correct_answer": "B",
+    "explanation": "The Defence Research & Development Organisation (DRDO) is responsible for the development and testing of the Pinaka LRGR.",
+    "subject": "Military Technology",
+    "chapter": "Guided Rockets",
+    "topic": "Flight Test Details",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 266
+  },
+  {
+    "question_text": "Who led the Indian delegation at the 8th Defence Policy Dialogue held in Tokyo on 13 July 2026?",
+    "options": {
+      "A": "Defence Minister",
+      "B": "Defence Secretary Shri Rajesh Kumar Singh",
+      "C": "Chief of Defence Staff",
+      "D": "Foreign Secretary"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the report, the Indian delegation was led by Defence Secretary Shri Rajesh Kumar Singh.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "India-Japan Defence Cooperation",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 267
+  },
+  {
+    "question_text": "The 8th Defence Policy Dialogue between India and Japan was held in which city?",
+    "options": {
+      "A": "Delhi",
+      "B": "New Delhi",
+      "C": "Tokyo",
+      "D": "Osaka"
+    },
+    "correct_answer": "C",
+    "explanation": "The dialogue took place in Tokyo, Japan.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "India-Japan Defence Cooperation",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 267
+  },
+  {
+    "question_text": "Who was the leader of the Japanese delegation at the 8th Defence Policy Dialogue in 2026?",
+    "options": {
+      "A": "Minister of Defence",
+      "B": "Vice Minister of Defence for International Affairs Mr. Kano Koji",
+      "C": "Chief of Staff, Japan Self-Defense Forces",
+      "D": "Ambassador of Japan to India"
+    },
+    "correct_answer": "B",
+    "explanation": "The Japanese delegation was led by Vice Minister of Defence for International Affairs Mr. Kano Koji.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "India-Japan Defence Cooperation",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 267
+  },
+  {
+    "question_text": "Who was appointed as the next Chief of Defence Staff (CDS) of India, succeeding Gen Anil Chauhan?",
+    "options": {
+      "A": "Lt Gen NS Raja Subramani",
+      "B": "Gen Anil Chauhan",
+      "C": "Lt Gen Manoj Pande",
+      "D": "Gen Bipin Rawat"
+    },
+    "correct_answer": "A",
+    "explanation": "According to the provided text, Lt Gen NS Raja Subramani was appointed as the next Chief of Defence Staff (CDS) of India, succeeding Gen Anil Chauhan after his retirement in May 2026.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "Military Leadership",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 270
+  },
+  {
+    "question_text": "In which month and year is General Anil Chauhan's retirement scheduled, leading to the appointment of the next CDS?",
+    "options": {
+      "A": "May 2025",
+      "B": "June 2026",
+      "C": "May 2026",
+      "D": "January 2026"
+    },
+    "correct_answer": "C",
+    "explanation": "The text states that Lt Gen NS Raja Subramani succeeds Gen Anil Chauhan after his retirement in May 2026.",
+    "subject": "Current Affairs",
+    "chapter": "Defence & Security",
+    "topic": "Military Leadership",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 270
+  },
+  {
+    "question_text": "Who has been appointed as the next Vice Chief of the Air Staff of the Indian Air Force?",
+    "options": {
+      "A": "Air Marshal Ashutosh Dixit",
+      "B": "Air Marshal R.K.S. Bhadauria",
+      "C": "Air Marshal Vivek Ramachandran",
+      "D": "Air Marshal S.K. Sanyal"
+    },
+    "correct_answer": "A",
+    "explanation": "According to the provided text, Air Marshal Ashutosh Dixit has been appointed as the next Vice Chief of the Air Staff of the Indian Air Force.",
+    "subject": "Current Affairs",
+    "chapter": "Defence Appointments",
+    "topic": "Indian Air Force Leadership",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 272
+  },
+  {
+    "question_text": "Who was appointed as the Chief of Integrated Defence Staff (CIDS) to the Chairman Chiefs of Staff Committee (CISC) on July 1, 2026?",
+    "options": {
+      "A": "Air Marshal Tejinder Singh",
+      "B": "Air Marshal R.K.S. Bhadauria",
+      "C": "Air Marshal A.S. Malhotra",
+      "D": "Air Marshal Vivek Ramachandran"
+    },
+    "correct_answer": "A",
+    "explanation": "According to the provided text, Air Marshal Tejinder Singh became the Chief of Integrated Defence Staff to the Chairman Chiefs of Staff Committee on July 1, 2026.",
+    "subject": "Current Affairs",
+    "chapter": "Defence Appointments",
+    "topic": "Air Marshal Tejinder Singh",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 274
+  },
+  {
+    "question_text": "In which year was Air Marshal Tejinder Singh commissioned into the Indian Air Force's fighter stream?",
+    "options": {
+      "A": "1985",
+      "B": "1987",
+      "C": "1990",
+      "D": "1992"
+    },
+    "correct_answer": "B",
+    "explanation": "The text states that he was commissioned into the Indian Air Force's fighter stream on June 13, 1987.",
+    "subject": "Current Affairs",
+    "chapter": "Defence Appointments",
+    "topic": "Air Marshal Tejinder Singh",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 274
+  },
+  {
+    "question_text": "Which of the following institutions is NOT listed as an alma mater for Air Marshal Tejinder Singh in the provided text?",
+    "options": {
+      "A": "National Defence Academy",
+      "B": "Defence Service Staff College",
+      "C": "National Defence College",
+      "D": "Indian Military Academy"
+    },
+    "correct_answer": "D",
+    "explanation": "The text lists the National Defence Academy, Defence Service Staff College, and National Defence College as his alma maters. The Indian Military Academy is not mentioned.",
+    "subject": "Current Affairs",
+    "chapter": "Defence Appointments",
+    "topic": "Air Marshal Tejinder Singh",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 274
+  },
+  {
+    "question_text": "Who assumed the appointment of Air Officer Commanding-in-Chief of the Central Air Command on June 1, 2026?",
+    "options": {
+      "A": "Air Chief Marshal Arup Raha",
+      "B": "Air Marshal Tarun Chaudhry",
+      "C": "Air Vice Marshal S. K. Sharma",
+      "D": "Air Commodore R. K. Singh"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the provided information, Air Marshal Tarun Chaudhry took over as AOC-in-C of the Central Air Command on June 1, 2026.",
+    "subject": "Air Force",
+    "chapter": "Command Structure",
+    "topic": "Appointments",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 275
+  },
+  {
+    "question_text": "What is the rank of an Air Officer Commanding-in-Chief (AOC-in-C) in the Indian Air Force?",
+    "options": {
+      "A": "Air Vice Marshal (Two-star)",
+      "B": "Air Marshal (Three-star)",
+      "C": "Air Chief Marshal (Four-star)",
+      "D": "Group Captain (One-star)"
+    },
+    "correct_answer": "B",
+    "explanation": "An AOC-in-C holds the rank of Air Marshal, which is a three-star rank in the IAF.",
+    "subject": "Air Force",
+    "chapter": "Rank Structure",
+    "topic": "Command Ranks",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 275
+  },
+  {
+    "question_text": "Which of the following is NOT a primary responsibility of an AOC-in-C?",
+    "options": {
+      "A": "Strategic planning of the command",
+      "B": "Direct combat engagement in the field",
+      "C": "Resource allocation within the command",
+      "D": "Representing the command at the Defence Ministry"
+    },
+    "correct_answer": "B",
+    "explanation": "While an AOC-in-C oversees strategic and administrative functions, direct combat engagement is typically carried out by operational units, not the commander.",
+    "subject": "Air Force",
+    "chapter": "Command Structure",
+    "topic": "Roles and Responsibilities",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 275
+  },
+  {
+    "question_text": "Who was appointed as the General Officer Commanding-in-Chief (GOC-in-C) of the Jaipur-based South Western Command?",
+    "options": {
+      "A": "Lieutenant General Mohit Malhotra",
+      "B": "Chief of Staff, Eastern Command",
+      "C": "General Officer Commanding, Jaipur",
+      "D": "Chief of Army Staff"
+    },
+    "correct_answer": "A",
+    "explanation": "Lieutenant General Mohit Malhotra became the GOC-in-C of the South Western Command after serving as Chief of Staff at Headquarters Eastern Command.",
+    "subject": "Current Affairs",
+    "chapter": "Defence Updates",
+    "topic": "Army Appointments",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 278
+  },
+  {
+    "question_text": "What was the previous position of Lieutenant General Mohit Malhotra before becoming the GOC-in-C of the South Western Command?",
+    "options": {
+      "A": "Chief of Army Staff",
+      "B": "Chief of Staff at Headquarters Eastern Command",
+      "C": "GOC-in-C of Northern Command",
+      "D": "Vice Chief of Army Staff"
+    },
+    "correct_answer": "B",
+    "explanation": "The text states that Lt. Gen. Mohit Malhotra served as Chief of Staff at Headquarters Eastern Command prior to his appointment as GOC-in-C of the South Western Command.",
+    "subject": "Current Affairs",
+    "chapter": "Defence Updates",
+    "topic": "Army Appointments",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 278
+  },
+  {
+    "question_text": "Who assumed the appointment of Additional Director General (ADG) of the Military Nursing Service (MNS) on 1 June 2026?",
+    "options": {
+      "A": "Maj Gen Rachel Thomas",
+      "B": "Maj Gen John Doe",
+      "C": "Lt Gen Jane Smith",
+      "D": "Brig Gen Mark Brown"
+    },
+    "correct_answer": "A",
+    "explanation": "The official announcement states that Maj Gen Rachel Thomas was appointed as the Additional Director General of the Military Nursing Service on 1 June 2026.",
+    "subject": "Military Nursing Service",
+    "chapter": "Leadership and Administration",
+    "topic": "Additional Director General (ADG) Appointment",
+    "source_pdf": "defence_pdf.pdf",
+    "source_page": 279
   }
 ]
