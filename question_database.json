@@ -852129,5 +852129,725 @@
     "topic": "Cell Structure",
     "source_pdf": "General-Science-Book-SSBCrack.pdf",
     "source_page": 40
+  },
+  {
+    "question_text": "Which of the following measurements is not a unit of distance?",
+    "options": {
+      "A": "Ammeter",
+      "B": "Cubit",
+      "C": "Parsec",
+      "D": "Angstrom"
+    },
+    "correct_answer": "A",
+    "explanation": "An ammeter measures electric current; it is not a unit of distance. Cubit, parsec, and angstrom are all distance units.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Units of Distance",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 41
+  },
+  {
+    "question_text": "Which one of the following remains constant while throwing a ball upward?",
+    "options": {
+      "A": "Displacement",
+      "B": "Kinetic energy",
+      "C": "Acceleration",
+      "D": "Velocity"
+    },
+    "correct_answer": "C",
+    "explanation": "During vertical motion under gravity (neglecting air resistance), the acceleration due to gravity remains constant at ~9.8 m/s². Displacement, kinetic energy, and velocity all change with time.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Motion of a Thrown Ball",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 41
+  },
+  {
+    "question_text": "Pure water freezes at what temperature?",
+    "options": {
+      "A": "47 °F",
+      "B": "32 °F",
+      "C": "0 °F",
+      "D": "19 °F"
+    },
+    "correct_answer": "B",
+    "explanation": "Pure water freezes at 0 °C, which is equivalent to 32 °F under standard atmospheric pressure.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Freezing Point of Pure Water",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 41
+  },
+  {
+    "question_text": "Which vitamin is abundant in citrus fruits?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin B",
+      "C": "Vitamin C",
+      "D": "Vitamin D"
+    },
+    "correct_answer": "C",
+    "explanation": "Citrus fruits are rich in Vitamin C (ascorbic acid), which is essential for collagen synthesis and antioxidant protection.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Vitamins in Citrus Fruits",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 41
+  },
+  {
+    "question_text": "Zinc Oxide is",
+    "options": {
+      "A": "Acidic",
+      "B": "Basic",
+      "C": "Neutral",
+      "D": "Amphoteric"
+    },
+    "correct_answer": "D",
+    "explanation": "Zinc oxide exhibits amphoteric behavior: it reacts with acids as a base and with strong bases as an acid.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Zinc Oxide (ZnO)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 41
+  },
+  {
+    "question_text": "Which of the following statements is not true regarding LASER?",
+    "options": {
+      "A": "A LASER is a device that emits light through a process of optical amplification.",
+      "B": "LASER beams can be focused to very tiny spots, achieving a very high irradiance.",
+      "C": "The emitted LASER light is notable for its high degree of dispersive power unattainable using other technologies.",
+      "D": "LASER stands for Light Amplification by Stimulated Emission of Radiation."
+    },
+    "correct_answer": "C",
+    "explanation": "LASER light is highly monochromatic, meaning it has very low dispersive power. Therefore, statement C is false.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "LASER Characteristics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 41
+  },
+  {
+    "question_text": "If a moving body turns its speed to 1.5 times, what will be the impact on its kinetic energy?",
+    "options": {
+      "A": "will become 1.5 times",
+      "B": "will become 3 times",
+      "C": "will become 2.25 times",
+      "D": "will become 6 times"
+    },
+    "correct_answer": "C",
+    "explanation": "Kinetic energy is proportional to the square of velocity: KE = ½mv². Increasing velocity by a factor of 1.5 multiplies KE by (1.5)² = 2.25.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Kinetic Energy",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 42
+  },
+  {
+    "question_text": "Two flat mirrors are placed at an angle of 60° from each other. How many images will be formed of a candle placed in between them?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "C",
+    "explanation": "Number of images N = 360°/θ – 1. For θ = 60°, N = 360/60 – 1 = 5.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Images in Two Flat Mirrors",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 42
+  },
+  {
+    "question_text": "A tourist plans to visit a hill station at very high altitude and wants to bring a television set. Which of the following TVs are expected to work properly at very high altitudes?",
+    "options": {
+      "A": "Only LCD",
+      "B": "LCD & Plasma",
+      "C": "LCD & CRT",
+      "D": "Plasma & CRT"
+    },
+    "correct_answer": "C",
+    "explanation": "LCD and CRT TVs are unaffected by low atmospheric pressure, whereas plasma TVs rely on ionized gas that may not form properly at high altitude.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "TV Operation at High Altitude",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 42
+  },
+  {
+    "question_text": "If an egg with shell is placed in a microwave oven, which of the following is most likely to happen?",
+    "options": {
+      "A": "The egg will not cook",
+      "B": "The egg will cook evenly",
+      "C": "The egg will explode",
+      "D": "The egg will turn into a liquid"
+    },
+    "correct_answer": "C",
+    "explanation": "Microwave heating causes steam to build up inside the intact shell, leading to a pressure increase that can rupture the shell and cause an explosion.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Microwave Heating of Eggs",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 42
+  },
+  {
+    "question_text": "Which of the following is the SI unit of dynamic viscosity?",
+    "options": {
+      "A": "Newton-second",
+      "B": "Pascal-second",
+      "C": "Poise-second",
+      "D": "Newton-meter"
+    },
+    "correct_answer": "B",
+    "explanation": "The SI unit for dynamic viscosity is Pascal-second (Pa·s).",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Units of Viscosity",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 43
+  },
+  {
+    "question_text": "Which among the following phenomena of optics makes Endoscopy capable of examining internal organs such as the Abdomen?",
+    "options": {
+      "A": "Interference",
+      "B": "Total Internal Reflection",
+      "C": "Diffraction",
+      "D": "Scattering"
+    },
+    "correct_answer": "B",
+    "explanation": "Endoscopes use optical fibers which work on the principle of Total Internal Reflection to transmit light and images from the internal organs to the observer.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Optics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 43
+  },
+  {
+    "question_text": "An antenna in a Geostationary satellite should have a minimum beam width of which among the following values to cover the entire earth?",
+    "options": {
+      "A": "8.56°",
+      "B": "17.34°",
+      "C": "22.16°",
+      "D": "23.25°"
+    },
+    "correct_answer": "B",
+    "explanation": "A Geostationary satellite is located at 35,865 km from Earth. The beam width required for global coverage is 17.34°.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Space Technology",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 43
+  },
+  {
+    "question_text": "A piece of ice was tied with a string to a water bucket's bottom, and the water bucket was filled with water with the ice fully submerged in it. What would be the impact on the level of water when the ice melts away completely?",
+    "options": {
+      "A": "The level of water will go up",
+      "B": "The level of water will go down",
+      "C": "The level of water will remain unchanged",
+      "D": "The level of water will first increase then come to the previous one"
+    },
+    "correct_answer": "B",
+    "explanation": "When ice is submerged and tied to the bottom, it displaces water equal to its volume. Since ice is less dense than water, the volume of water formed after melting is less than the volume of the ice. Thus, the total volume of water in the bucket decreases, and the level goes down.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Fluid Mechanics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 43
+  },
+  {
+    "question_text": "An instrument called “Theodolite” is used in which among the following?",
+    "options": {
+      "A": "Measuring distances, elevations, bearings etc.",
+      "B": "Measuring rotational speed of a shaft",
+      "C": "Measuring horizontal and vertical angles in triangular networks",
+      "D": "Measuring acidity or alkalinity of solutions"
+    },
+    "correct_answer": "C",
+    "explanation": "A theodolite is specifically designed to measure horizontal and vertical angles with high precision, which is essential for creating triangular networks in surveying.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Measurement and Instruments",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 44
+  },
+  {
+    "question_text": "A person is standing in front of a wall and makes a sound. What should be the normal minimum distance between the person and the wall, so that the person hears echo?",
+    "options": {
+      "A": "6 meters",
+      "B": "13 meters",
+      "C": "20 meters",
+      "D": "17 meters"
+    },
+    "correct_answer": "D",
+    "explanation": "The human ear can distinguish between a sound and its echo if the time gap is at least 0.1 seconds. With the speed of sound at ~340 m/s, the total path length is 34 m, making the one-way distance 17 m.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Sound",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 44
+  },
+  {
+    "question_text": "A long Rail (approximately 700 meters) made up of steel is struck to produce a sound. The person standing on the other end of the rail would hear in which among the following pattern?",
+    "options": {
+      "A": "He listens the sound waves once propagated via steel",
+      "B": "He listens the sound waves once propagated via air",
+      "C": "He listens the sound waves twice, first propagated via steel and second propagated via air",
+      "D": "He listens the sound waves twice, first propagated via air and second propagated via steel"
+    },
+    "correct_answer": "C",
+    "explanation": "Sound travels much faster in steel (solid) than in air (gas). Therefore, the sound transmitted through the rail arrives first, followed by the sound traveling through the air.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Sound",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 44
+  },
+  {
+    "question_text": "Which among the following is studied under “fulminology”?",
+    "options": {
+      "A": "Sudden changes in atmosphere",
+      "B": "Lightning",
+      "C": "Cloudbursts",
+      "D": "Volcanic Eruptions"
+    },
+    "correct_answer": "B",
+    "explanation": "Fulminology is the specific scientific study of lightning.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Atmospheric Phenomena",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 44
+  },
+  {
+    "question_text": "Which among the following is the correct statement about Black Ice?",
+    "options": {
+      "A": "It is the product of the freezing of water droplets in highly polluted air",
+      "B": "It is the thin transparent layer of ice made up usually on roads and pavement",
+      "C": "It is the solid Carbon Dioxide",
+      "D": "It is the frozen water of a highly polluted river"
+    },
+    "correct_answer": "B",
+    "explanation": "Black ice is defined as a thin, transparent layer of ice that forms on roads and pavements, making it hazardous for driving.",
+    "subject": "General Science",
+    "chapter": "Physics & Chemistry",
+    "topic": "Black Ice",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 45
+  },
+  {
+    "question_text": "In many countries with cold climates, the municipalities often sprinkle salt on icy roads in winter. Which among the following is the correct reason for this?",
+    "options": {
+      "A": "The Salt inhibits the formation of Ice Crystals",
+      "B": "The Salt lowers the Freezing Point of water",
+      "C": "The Salt raises the freezing Point of water",
+      "D": "The salt provides necessary friction to the tires of the vehicles"
+    },
+    "correct_answer": "B",
+    "explanation": "Salt causes freezing point depression, meaning the mixture of salt and water freezes at a lower temperature than pure water, causing the ice to melt.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Freezing Point Depression",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 45
+  },
+  {
+    "question_text": "Consider the following: 1. Near Infrared 2. Mid Infrared 3. Far Infrared. Which among the following is the correct order of increasing wavelength of the above?",
+    "options": {
+      "A": "1, 2, 3",
+      "B": "3, 2, 1",
+      "C": "2, 1, 3",
+      "D": "3, 1, 2"
+    },
+    "correct_answer": "A",
+    "explanation": "In the infrared spectrum, Near Infrared has the shortest wavelength, followed by Mid Infrared, and Far Infrared has the longest wavelength.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Electromagnetic Spectrum",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 45
+  },
+  {
+    "question_text": "Which among the following is measured by an Odometer?",
+    "options": {
+      "A": "Pressure",
+      "B": "Height",
+      "C": "Distance",
+      "D": "Velocity"
+    },
+    "correct_answer": "C",
+    "explanation": "An odometer is a device used to measure the distance traveled by a vehicle.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Measurement Instruments",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 45
+  },
+  {
+    "question_text": "The term “Isopycnic” is most closely defined by which among the following?",
+    "options": {
+      "A": "Two places with same atmospheric pressure",
+      "B": "Two liquids with same density",
+      "C": "Two gases with same volume",
+      "D": "Two solids with same mass"
+    },
+    "correct_answer": "B",
+    "explanation": "The term 'Isopycnic' is derived from 'iso' (same) and 'pycnic' (density), referring to two liquids or substances having the same density. Note: The source text was cut off, but standard scientific definition confirms this.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Scientific Terminology",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 45
+  },
+  {
+    "question_text": "The power we use at Home has a frequency of 60Hz. What would be the period of the sine wave?",
+    "options": {
+      "A": "0.116 seconds",
+      "B": "0.0116 seconds",
+      "C": "0.00116 seconds",
+      "D": "0.0016 Microseconds"
+    },
+    "correct_answer": "B",
+    "explanation": "Period T = 1/f. For f = 60 Hz, T = 1/60 ≈ 0.0167 s. The answer key lists 0.0116 s, which is a typographical error; the closest option is B.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Frequency and Period",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 47
+  },
+  {
+    "question_text": "What do we call the part of the “DTH Satellite dish” that converts the signals from electromagnetic or radio waves to electrical signals?",
+    "options": {
+      "A": "Orthomode transducer (OMT)",
+      "B": "Low-noise block converter (LNB)",
+      "C": "Block upconverter (BUC)",
+      "D": "Parabolic Dish"
+    },
+    "correct_answer": "B",
+    "explanation": "The Low‑Noise Block downconverter (LNB) receives the high‑frequency microwave signal, amplifies it with low noise, and down‑converts it to a lower frequency for the receiver.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "DTH Satellite Dish Components",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 47
+  },
+  {
+    "question_text": "Which among the following waves are used in the gemstone industry to change white topaz into blue topaz?",
+    "options": {
+      "A": "X-Rays",
+      "B": "Gamma Rays",
+      "C": "Alpha Radiation",
+      "D": "Beta Radiation"
+    },
+    "correct_answer": "B",
+    "explanation": "Gamma rays penetrate the crystal lattice and create color centers that give topaz a blue hue. X‑rays, alpha, and beta particles are not used for this purpose.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Radiation Used to Color Topaz",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 47
+  },
+  {
+    "question_text": "Which among the following waves are most commonly used in the Night Vision Devices?",
+    "options": {
+      "A": "Microwaves",
+      "B": "Infra Red Waves",
+      "C": "Ultra Violet Waves",
+      "D": "Radio Waves"
+    },
+    "correct_answer": "B",
+    "explanation": "Night vision devices rely on infrared radiation—either ambient IR amplified by image intensifiers or thermal IR detected by sensors.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Night Vision Devices",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 47
+  },
+  {
+    "question_text": "Which among the following strictly works on the principle of dipole movement of the water molecules?",
+    "options": {
+      "A": "Refrigerator",
+      "B": "Microwave Oven",
+      "C": "Air Conditioner",
+      "D": "Electric Geyser"
+    },
+    "correct_answer": "B",
+    "explanation": "Microwave ovens emit 2.45 GHz microwaves that cause polar water molecules to rotate, generating heat through molecular friction.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Microwave Heating Principle",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 47
+  },
+  {
+    "question_text": "Which among the following is the most common cause of Sunburn?",
+    "options": {
+      "A": "Ultraviolet Radiation",
+      "B": "Visible Radiation",
+      "C": "Infrared Radiation",
+      "D": "Microwave Radiation"
+    },
+    "correct_answer": "A",
+    "explanation": "UV radiation (especially UV‑B) damages skin DNA, leading to inflammation and the characteristic redness of sunburn.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Cause of Sunburn",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 47
+  },
+  {
+    "question_text": "One Torr is equivalent to how many mm of Mercury?",
+    "options": {
+      "A": "1 mm",
+      "B": "10 mm",
+      "C": "100 mm",
+      "D": "0.1 mm"
+    },
+    "correct_answer": "A",
+    "explanation": "By definition, 1 Torr equals 1 millimeter of mercury (mm Hg).",
+    "subject": "General Science",
+    "chapter": "Units and Measurements",
+    "topic": "Torr",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 48
+  },
+  {
+    "question_text": "Svedberg Unit is a unit of ________?",
+    "options": {
+      "A": "Concentration",
+      "B": "Size",
+      "C": "Density",
+      "D": "Time"
+    },
+    "correct_answer": "D",
+    "explanation": "The Svedberg unit measures sedimentation rate, which is a time-based quantity (10⁻¹³ s).",
+    "subject": "General Science",
+    "chapter": "Units and Measurements",
+    "topic": "Svedberg Unit",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 48
+  },
+  {
+    "question_text": "A vehicle moving on a circular path experiences ________?",
+    "options": {
+      "A": "centripetal force",
+      "B": "centrifugal force",
+      "C": "gravitational force",
+      "D": "None of the above"
+    },
+    "correct_answer": "A",
+    "explanation": "The force that keeps a vehicle on a circular path is centripetal force, directed towards the center of the circle.",
+    "subject": "General Science",
+    "chapter": "Mechanics",
+    "topic": "Centripetal Force",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 48
+  },
+  {
+    "question_text": "At which of the following places water shall boil at the lowest temperature?",
+    "options": {
+      "A": "Kochi",
+      "B": "Ooty",
+      "C": "Mount Abu",
+      "D": "New Delhi"
+    },
+    "correct_answer": "B",
+    "explanation": "Boiling point decreases with altitude because atmospheric pressure is lower. Ooty (2,486 m) has the lowest boiling point among the listed locations.",
+    "subject": "General Science",
+    "chapter": "Thermodynamics",
+    "topic": "Boiling Point Variation with Altitude",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 48
+  },
+  {
+    "question_text": "In which year, Sir Chandrasekhara Venkata Raman was awarded Nobel Prize for Raman effect?",
+    "options": {
+      "A": "1927",
+      "B": "1929",
+      "C": "1930",
+      "D": "1932"
+    },
+    "correct_answer": "C",
+    "explanation": "Sir C.V. Raman received the Nobel Prize in Physics in 1930 for his discovery of the Raman effect.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Raman Effect",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 48
+  },
+  {
+    "question_text": "Which among the following are used in Computed tomography (CT) Scan?",
+    "options": {
+      "A": "X-Rays",
+      "B": "Ultrasound",
+      "C": "Infrared waves",
+      "D": "Radio Waves"
+    },
+    "correct_answer": "A",
+    "explanation": "CT scans rely on X‑ray beams to generate cross‑sectional images of the body.",
+    "subject": "General Science",
+    "chapter": "Medical Imaging",
+    "topic": "Computed Tomography (CT) Scan",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 48
+  },
+  {
+    "question_text": "Which among the following instruments used in Forensic Sciences is popular as Lie detector?",
+    "options": {
+      "A": "SmartWater",
+      "B": "Culpascope",
+      "C": "Polygraph",
+      "D": "Bio Sensor"
+    },
+    "correct_answer": "C",
+    "explanation": "The Polygraph is the instrument commonly known as a lie detector, which records physiological changes to assess truthfulness.",
+    "subject": "General Science",
+    "chapter": "Forensic Science",
+    "topic": "Lie Detector",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 49
+  },
+  {
+    "question_text": "Which among the following component of a fluorescent lamp contributes maximum in making them costly?",
+    "options": {
+      "A": "Mercury vapor",
+      "B": "Light-emitting phosphors",
+      "C": "Ballast",
+      "D": "Filament"
+    },
+    "correct_answer": "C",
+    "explanation": "The ballast is the most expensive component in a fluorescent lamp as it requires complex electronic or magnetic components to regulate current and provide starting voltage.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Fluorescent Lamps",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 49
+  },
+  {
+    "question_text": "An electrical fuse is used to interrupt excessive________?",
+    "options": {
+      "A": "Voltage",
+      "B": "Current",
+      "C": "Resistance",
+      "D": "Inductance"
+    },
+    "correct_answer": "B",
+    "explanation": "Fuses are designed to melt and break the circuit when the current exceeds a safe limit, thereby protecting the circuit from excessive current.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Electrical Fuses",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 49
+  },
+  {
+    "question_text": "In context with electromagnetism, which among the following is a correct definition of Permeability?",
+    "options": {
+      "A": "Ability of a material to repel magnetic field within itself",
+      "B": "Ability of a material to support the formation of a magnetic field within another body",
+      "C": "Ability of a material to support the formation of a magnetic field within itself",
+      "D": "Ability of a material to create magnetic dipoles"
+    },
+    "correct_answer": "C",
+    "explanation": "Permeability is a measure of how easily a material allows a magnetic field to pass through it or supports the formation of a magnetic field within itself.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Permeability",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 49
+  },
+  {
+    "question_text": "The following is measured in tonne of oil equivalent (toe) ?",
+    "options": {
+      "A": "Volume of Oil",
+      "B": "Energy released by burning of oil",
+      "C": "Demand of Crude oil at a point of time",
+      "D": "Oil production capacity of a country"
+    },
+    "correct_answer": "B",
+    "explanation": "Tonne of Oil Equivalent (TOE) is a unit of energy, specifically the amount of energy released by burning one tonne of crude oil (approx. 42 GJ).",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Energy Units",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 49
+  },
+  {
+    "question_text": "Which among the following is the most acceptable range of LEO (Low Earth orbit)?",
+    "options": {
+      "A": "350 – 2,600 kms",
+      "B": "200-2000 kms",
+      "C": "160 – 2,000 kms",
+      "D": "160-1600 kms"
+    },
+    "correct_answer": "C",
+    "explanation": "The standard acceptable range for Low Earth Orbit (LEO) is 160 – 2,000 kms.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Orbital Mechanics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 50
+  },
+  {
+    "question_text": "Which among the following is a Beyond-visual-range air-to-air missile?",
+    "options": {
+      "A": "Agni",
+      "B": "Prithvi",
+      "C": "Astra",
+      "D": "Nag"
+    },
+    "correct_answer": "C",
+    "explanation": "Astra is a Beyond-visual-range air-to-air missile. Agni is a ballistic missile, Prithvi is a short-range ballistic missile, and Nag is an anti-tank missile.",
+    "subject": "General Science",
+    "chapter": "Defense & Technology",
+    "topic": "Missile Systems",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 50
+  },
+  {
+    "question_text": "Who was the first scientist to be awarded two Nobel Prizes?",
+    "options": {
+      "A": "Linus Pauling",
+      "B": "Frederick Sanger",
+      "C": "Marie Curie",
+      "D": "John Bardeen"
+    },
+    "correct_answer": "C",
+    "explanation": "Marie Curie was the first scientist to be awarded two Nobel Prizes (Physics in 1903 and Chemistry in 1911).",
+    "subject": "General Science",
+    "chapter": "History of Science",
+    "topic": "Nobel Prizes",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 50
+  },
+  {
+    "question_text": "A small quantity of water is placed in a small cavity made in a block of Ice at 0 degree centigrade. Which of the following will happen?",
+    "options": {
+      "A": "the temperature of water will become zero and it will freeze",
+      "B": "the temperature of water will become zero but it will not freeze",
+      "C": "the temperature of the water will become zero and it will come out of the cavity",
+      "D": "the temperature of the water will become zero and ice will melt to merge with water"
+    },
+    "correct_answer": "B",
+    "explanation": "The water will reach 0°C but will not freeze immediately in this specific scenario as described in the source material.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Thermodynamics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 50
+  },
+  {
+    "question_text": "Ultrasound which is upper limit of human hearing is characterized by which of the following frequencies?",
+    "options": {
+      "A": "Above 20 KHz",
+      "B": "Above 200 KHz",
+      "C": "Above 2 KHz",
+      "D": "Below 20 KHz"
+    },
+    "correct_answer": "A",
+    "explanation": "Ultrasound refers to sound waves with frequencies above the upper limit of human hearing, which is 20 KHz.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Acoustics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 50
   }
 ]

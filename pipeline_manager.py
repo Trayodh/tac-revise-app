@@ -98,12 +98,17 @@ def get_book_priority(pdf_name):
         return (4, 10)
     if 'general-science-book-ssbcrack.pdf' in lower:
         return (4, 20)
+        
+    # TIER 4.5: UPSC GS, GAT, HISTORY, GEOGRAPHY & POLITY PAPERS (A+ Focus)
+    if any(k in lower for k in ['gs', 'gat', 'history', 'geo', 'polity', 'capf', 'csp', 'general ability', 'general studies']):
+        return (4, 25)
+        
     if 'afcat_reasoning_notes.pdf' in lower:
         return (4, 30)
     if 'general_science_ssbcrack.pdf' in lower:
         return (4, 40)
 
-    # TIER 5: PREVIOUS YEAR PAPERS
+    # TIER 5: PREVIOUS YEAR PAPERS (Maths, English, etc.)
     if any(k in lower for k in ['pyq', 'qp', 'paper', 'solved', '202', '201']):
         return (5, 10)
         
