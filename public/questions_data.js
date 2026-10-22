@@ -138489,6 +138489,826 @@ const CBT_EXAMS_DATABASE = [
     }
   ]
 }
+,
+{
+  "id": "cds-ca-sept2026",
+  "exam": "CDS",
+  "subject": "Current Affairs",
+  "title": "CDS High-Yield Current Affairs (September 2026)",
+  "duration": 60,
+  "rules": {
+    "correctMarks": 0.83,
+    "incorrectMarks": -0.27
+  },
+  "questions": [
+    {
+      "question": "Consider the following statements regarding the 'Satellite Smart Anti-Airfield Weapon' (SAT-SAAW) procured by the Ministry of Defence in September 2026:\n1. It is a long-range, precision-guided stand-off glide bomb developed by DRDO.\n2. The Ministry of Defence contracted Bharat Dynamics Limited (BDL) for 160 units.\n3. It uses satellite navigation to destroy enemy runway and bunker infrastructure from ranges up to 100 km.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three statements are correct. SAT-SAAW is an indigenously developed 125 kg class precision-guided glide weapon capable of destroying runways, reinforced concrete structures, and aircraft hangars from stand-off ranges up to 100 km using high-precision satellite guidance.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements regarding Exercise 'Tarang Shakti 2026' hosted by the Indian Air Force:\n1. It represents the largest multinational combat air exercise ever conducted on Indian soil.\n2. Phase 1 and Phase 2 of the exercise were centered in Rajasthan and Tamil Nadu.\n3. The exercise saw participation and observers from nearly 40 air forces worldwide.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All statements are correct. Tarang Shakti is the IAF's premier multilateral air exercise designed to showcase operational interoperability, coalition air tactics, and indigenous combat platforms such as LCA Tejas, LCH Prachand, and Netra AEW&C.",
+      "topicId": "ca-summits",
+      "exam": "CDS"
+    },
+    {
+      "question": "During the 22nd edition of the India-US joint military exercise 'Yudh Abhyas 2026' at Mahajan Field Firing Range, which loitering munition system was operationally demonstrated?",
+      "options": [
+        "Switchblade 300",
+        "SkyStriker",
+        "Warmate",
+        "Harop"
+      ],
+      "correct": 1,
+      "explanation": "Indigenously assembled SkyStriker loitering munitions (kamikaze drones) were field-demonstrated by troops during Exercise Yudh Abhyas 2026 in Rajasthan for precision strike against tactical ground targets.",
+      "topicId": "ca-summits",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements regarding the Earth Observation Satellite 'EOS-05' launched by ISRO in September 2026:\n1. It was launched using ISRO's GSLV Mark II launch vehicle.\n2. It represents India's first imaging satellite placed in a geosynchronous orbit.\n3. It provides near-real-time continuous monitoring of cloud cover, cyclones, and landmass borders.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "EOS-05 was successfully placed in a geosynchronous orbit by GSLV Mk II, allowing it to remain stationary relative to India and provide continuous optical and infrared tracking for disaster response and border security.",
+      "topicId": "ca-science-tech-space",
+      "exam": "CDS"
+    },
+    {
+      "question": "The TRISHNA (Thermal infraRed Imaging Satellite for High-resolution Natural resource Assessment) mission is being jointly developed by ISRO and the space agency of which country?",
+      "options": [
+        "Germany (DLR)",
+        "Japan (JAXA)",
+        "France (CNES)",
+        "United States (NASA)"
+      ],
+      "correct": 2,
+      "explanation": "TRISHNA is a collaborative Earth observation mission between ISRO (India) and CNES (France) dedicated to high-resolution thermal imaging to monitor surface temperatures, water stress, and climate variations.",
+      "topicId": "ca-science-tech-space",
+      "exam": "CDS"
+    },
+    {
+      "question": "India achieved a historic milestone at the 45th FIDE Chess Olympiad in Budapest, Hungary. Consider the following statements:\n1. India won the Gold medal in both the Open section and the Women's section.\n2. This was the first time in chess history that an Asian nation swept both team golds at the Chess Olympiad.\n3. Grandmaster D. Gukesh won individual gold on Board 1.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three statements are correct. India joined the Soviet Union, Russia, and China as nations to win double gold, with D. Gukesh and Arjun Erigaisi producing historic rating performances on the top boards.",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    },
+    {
+      "question": "Which nodal department under the Ministry of Commerce & Industry oversees the 'Make in India' initiative, which commemorated its 12th anniversary in September 2026?",
+      "options": [
+        "Department of Commerce (DoC)",
+        "Department for Promotion of Industry and Internal Trade (DPIIT)",
+        "Department of Telecommunications (DoT)",
+        "Department of Financial Services (DFS)"
+      ],
+      "correct": 1,
+      "explanation": "The Department for Promotion of Industry and Internal Trade (DPIIT) is the nodal department driving Make in India across 27 identified manufacturing and service sectors since 25 September 2014.",
+      "topicId": "ca-policies",
+      "exam": "CDS"
+    },
+    {
+      "question": "In September 2026, DRDO's Technology Development Fund (TDF) sanctioned a landmark contract with Zero mK India for developing a 20 mK Dilution Refrigerator. What is the fundamental technological application of this equipment?",
+      "options": [
+        "Cooling nuclear submarine reactors during deep-sea dives",
+        "Achieving milli-Kelvin temperatures essential for superconducting qubits in quantum computers",
+        "Cryogenic fuel management in rocket upper stages",
+        "Preserving biological samples in bio-warfare laboratories"
+      ],
+      "correct": 1,
+      "explanation": "Dilution refrigerators use a mixture of Helium-3 and Helium-4 isotopes to reach temperatures near absolute zero (20 milli-Kelvin), which is a vital prerequisite for operating superconducting quantum computers and cryogenic quantum sensors.",
+      "topicId": "ca-science-tech-space",
+      "exam": "CDS"
+    },
+    {
+      "question": "Which international economic grouping/organisation revised India's GDP growth forecast upward to 7.1% for FY 2026-27 in September 2026?",
+      "options": [
+        "International Monetary Fund (IMF)",
+        "World Bank",
+        "Organisation for Economic Co-operation and Development (OECD)",
+        "Asian Development Bank (ADB)"
+      ],
+      "correct": 2,
+      "explanation": "The Paris-headquartered OECD raised India's GDP growth projection to 7.1% in its Economic Outlook interim report, citing domestic public capital expenditure and robust service exports.",
+      "topicId": "ca-economic-measures",
+      "exam": "CDS"
+    },
+    {
+      "question": "During Defence Minister Rajnath Singh's visit to Sri Lanka in September 2026, which strategic maritime initiative was emphasized to keep Colombo aligned with India's maritime doctrine?",
+      "options": [
+        "Project 75(I)",
+        "Security and Growth for All in the Region (SAGAR)",
+        "Indo-Pacific Oceans Initiative (IPOI)",
+        "Project Mausam"
+      ],
+      "correct": 1,
+      "explanation": "India's engagements with Sri Lanka and Indian Ocean littoral states are governed by PM Modi's SAGAR doctrine (Security and Growth for All in the Region), providing spare parts, patrol vessels, and hydrographic assistance.",
+      "topicId": "ca-relations",
+      "exam": "CDS"
+    },
+    {
+      "question": "Where is the joint venture facility located in India where Indo-Russian Rifles Private Limited (IRRPL) manufactures the 7.62x39mm AK-203 assault rifles?",
+      "options": [
+        "Ordnance Factory Muradnagar",
+        "Korwa Ordnance Factory, Amethi (UP)",
+        "Gun Carriage Factory, Jabalpur",
+        "Rifle Factory Ishapore"
+      ],
+      "correct": 1,
+      "explanation": "The joint venture between India (OFB/AWEIL) and Russia (Kalashnikov/Rosoboronexport) produces AK-203 rifles at the Korwa Ordnance Factory in Amethi, Uttar Pradesh.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "CDS"
+    },
+    {
+      "question": "Exercise 'Varuna' is an annual bilateral maritime exercise conducted between the Indian Navy and the navy of which nation?",
+      "options": [
+        "United Kingdom",
+        "France",
+        "Russia",
+        "Italy"
+      ],
+      "correct": 1,
+      "explanation": "Exercise Varuna is the bilateral naval exercise between the Indian Navy and the French Navy (Marine Nationale), initiated in 1983 and formally christened Varuna in 2001.",
+      "topicId": "ca-summits",
+      "exam": "CDS"
+    },
+    {
+      "question": "World Ozone Day (September 16) commemorates the signing of which landmark international environmental treaty in 1987?",
+      "options": [
+        "Kyoto Protocol",
+        "Montreal Protocol",
+        "Paris Agreement",
+        "Basel Convention"
+      ],
+      "correct": 1,
+      "explanation": "The Montreal Protocol on Substances that Deplete the Ozone Layer was signed on 16 September 1987. It is regarded as one of the most successful multilateral environmental treaties in history.",
+      "topicId": "ca-policies",
+      "exam": "CDS"
+    },
+    {
+      "question": "At the 20th Asian Games 2026 held in Aichi-Nagoya, Japan, India secured Gold medals in which traditional contact sport across both Men's and Women's divisions?",
+      "options": [
+        "Kho-Kho",
+        "Kabaddi",
+        "Wrestling",
+        "Sepak Takraw"
+      ],
+      "correct": 1,
+      "explanation": "Both the Indian Men's and Women's Kabaddi teams defeated their respective opponents to secure Gold medals at the 20th Asian Games in Aichi-Nagoya.",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    },
+    {
+      "question": "Consider the following statements regarding the Kigali Amendment to the Montreal Protocol:\n1. It aims for a gradual reduction in the consumption and production of Hydrofluorocarbons (HFCs).\n2. Although HFCs do not deplete the ozone layer, they are potent greenhouse gases.\n3. India has ratified the Kigali Amendment.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explanation": "All three statements are correct. The Kigali Amendment (2016) adds HFCs to the Montreal Protocol phase-down schedule because HFCs have global warming potentials hundreds to thousands of times greater than carbon dioxide.",
+      "topicId": "ca-policies",
+      "exam": "CDS"
+    },
+    {
+      "question": "Who among the following was the captain of the India A cricket team that won the prestigious Duleep Trophy 2026 first-class tournament?",
+      "options": [
+        "Abhimanyu Easwaran",
+        "Mayank Agarwal",
+        "Ruturaj Gaikwad",
+        "Shubman Gill"
+      ],
+      "correct": 1,
+      "explanation": "Opening batter Mayank Agarwal captained India A to victory in the Duleep Trophy 2026 domestic red-ball competition.",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    },
+    {
+      "question": "The bilateral military exercise 'SLINEX-26' was conducted between the naval forces of India and Sri Lanka. Where was the harbour phase of SLINEX-26 hosted?",
+      "options": [
+        "Trincomalee",
+        "Colombo",
+        "Hambantota",
+        "Galle"
+      ],
+      "correct": 1,
+      "explanation": "The 2026 edition of SLINEX was conducted at Colombo, Sri Lanka, featuring harbour interactions followed by tactical sea phase drills in the Indian Ocean.",
+      "topicId": "ca-summits",
+      "exam": "CDS"
+    },
+    {
+      "question": "Bharat Electronics Limited (BEL) entered into a strategic manufacturing agreement for electronic proximity fuses. Which branch of the Indian Armed Forces will be the primary beneficiary of these 155mm fuses?",
+      "options": [
+        "Corps of Army Aviation",
+        "Regiment of Artillery",
+        "Armoured Corps",
+        "Corps of Signals"
+      ],
+      "correct": 1,
+      "explanation": "The Regiment of Artillery is the primary user of 155mm ammunition (utilized by Bofors FH77B, K9-Vajra, M777 Ultra-Light Howitzer, and indigenous Dhanush and ATAGS guns).",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "CDS"
+    },
+    {
+      "question": "National Engineers' Day in India is celebrated on September 15 to honor the birth anniversary of Bharat Ratna Sir M. Visvesvaraya. He was awarded the Bharat Ratna in which year?",
+      "options": [
+        "1950",
+        "1955",
+        "1962",
+        "1971"
+      ],
+      "correct": 1,
+      "explanation": "Sir M. Visvesvaraya received the Bharat Ratna in 1955 for his pioneering contributions to engineering, education, and public planning (including the Krishna Raja Sagara dam in Mysore).",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    },
+    {
+      "question": "In the 2026 US Open Tennis tournament held in New York, which player won the Women's Singles title?",
+      "options": [
+        "Aryna Sabalenka",
+        "Iga Świątek",
+        "Coco Gauff",
+        "Elena Rybakina"
+      ],
+      "correct": 2,
+      "explanation": "American Coco Gauff claimed the 2026 US Open Women's Singles title at Arthur Ashe Stadium, Flushing Meadows.",
+      "topicId": "ca-awards",
+      "exam": "CDS"
+    }
+  ]
+},
+{
+  "id": "nda-ca-sept2026",
+  "exam": "NDA",
+  "subject": "Current Affairs",
+  "title": "NDA High-Yield Current Affairs (September 2026)",
+  "duration": 60,
+  "rules": {
+    "correctMarks": 4,
+    "incorrectMarks": -1.33
+  },
+  "questions": [
+    {
+      "question": "The Indian Air Force hosted its largest-ever multinational air exercise 'Tarang Shakti 2026' in which city of Rajasthan?",
+      "options": [
+        "Jaipur",
+        "Jodhpur",
+        "Bikaner",
+        "Jaisalmer"
+      ],
+      "correct": 1,
+      "explanation": "Exercise Tarang Shakti 2026 was hosted by the Indian Air Force at Air Force Station Jodhpur in Rajasthan.",
+      "topicId": "ca-summits",
+      "exam": "NDA"
+    },
+    {
+      "question": "Which Indian defence enterprise signed a contract worth ₹810.79 crore with the Ministry of Defence to supply 160 SAT-SAAW weapons?",
+      "options": [
+        "Hindustan Aeronautics Limited (HAL)",
+        "Bharat Dynamics Limited (BDL)",
+        "Bharat Electronics Limited (BEL)",
+        "Munitions India Limited (MIL)"
+      ],
+      "correct": 1,
+      "explanation": "Bharat Dynamics Limited (BDL) was awarded the contract to manufacture and supply Satellite Smart Anti-Airfield Weapons (SAT-SAAW).",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "NDA"
+    },
+    {
+      "question": "Exercise Yudh Abhyas 2026 was conducted between the armies of India and which nation?",
+      "options": [
+        "United Kingdom",
+        "United States",
+        "France",
+        "Japan"
+      ],
+      "correct": 1,
+      "explanation": "Exercise Yudh Abhyas is the annual bilateral army exercise between the Indian Army and the United States Army.",
+      "topicId": "ca-summits",
+      "exam": "NDA"
+    },
+    {
+      "question": "On which rocket was India's Earth Observation Satellite EOS-05 launched in September 2026?",
+      "options": [
+        "PSLV-C58",
+        "GSLV Mark II",
+        "LVM3-M4",
+        "SSLV-D3"
+      ],
+      "correct": 1,
+      "explanation": "EOS-05 was launched using ISRO's GSLV Mark II rocket from Satish Dhawan Space Centre, Sriharikota.",
+      "topicId": "ca-science-tech-space",
+      "exam": "NDA"
+    },
+    {
+      "question": "India won historic Gold medals in both Open and Women's divisions at the 45th FIDE Chess Olympiad. In which city was the Olympiad held?",
+      "options": [
+        "Budapest, Hungary",
+        "Prague, Czech Republic",
+        "Vienna, Austria",
+        "Warsaw, Poland"
+      ],
+      "correct": 0,
+      "explanation": "The 45th Chess Olympiad was held in Budapest, Hungary.",
+      "topicId": "ca-awards",
+      "exam": "NDA"
+    },
+    {
+      "question": "The Make in India flagship programme was launched on 25 September of which year?",
+      "options": [
+        "2012",
+        "2014",
+        "2016",
+        "2018"
+      ],
+      "correct": 1,
+      "explanation": "Make in India was launched by Prime Minister Narendra Modi on 25 September 2014, completing 12 years in September 2026.",
+      "topicId": "ca-policies",
+      "exam": "NDA"
+    },
+    {
+      "question": "The bilateral naval exercise 'SLINEX-26' is conducted between India and which neighbouring island nation?",
+      "options": [
+        "Maldives",
+        "Mauritius",
+        "Sri Lanka",
+        "Seychelles"
+      ],
+      "correct": 2,
+      "explanation": "SLINEX is conducted between the Indian Navy and the Sri Lanka Navy.",
+      "topicId": "ca-summits",
+      "exam": "NDA"
+    },
+    {
+      "question": "TRISHNA is a joint space mission between ISRO and CNES focusing on which area?",
+      "options": [
+        "Lunar surface rover exploration",
+        "High-resolution thermal infrared Earth observation",
+        "Solar corona observation",
+        "Asteroid deflection"
+      ],
+      "correct": 1,
+      "explanation": "TRISHNA focuses on high-resolution thermal infrared Earth observation for agricultural water management and climate research.",
+      "topicId": "ca-science-tech-space",
+      "exam": "NDA"
+    },
+    {
+      "question": "World Ozone Day is celebrated every year across the world on which date?",
+      "options": [
+        "5 September",
+        "16 September",
+        "21 September",
+        "27 September"
+      ],
+      "correct": 1,
+      "explanation": "World Ozone Day is observed globally on 16 September.",
+      "topicId": "ca-dates",
+      "exam": "NDA"
+    },
+    {
+      "question": "Engineers' Day in India is celebrated on 15 September to mark the birth anniversary of:",
+      "options": [
+        "Dr. C.V. Raman",
+        "Sir M. Visvesvaraya",
+        "Satyendra Nath Bose",
+        "Dr. Homi Bhabha"
+      ],
+      "correct": 1,
+      "explanation": "Engineers' Day marks the birth anniversary of Bharat Ratna Sir Mokshagundam Visvesvaraya.",
+      "topicId": "ca-dates",
+      "exam": "NDA"
+    },
+    {
+      "question": "Who won the Men's Singles title at the US Open 2026 tennis tournament?",
+      "options": [
+        "Novak Djokovic",
+        "Carlos Alcaraz",
+        "Jannik Sinner",
+        "Alexander Zverev"
+      ],
+      "correct": 1,
+      "explanation": "Carlos Alcaraz of Spain won the Men's Singles title at the 2026 US Open.",
+      "topicId": "ca-awards",
+      "exam": "NDA"
+    },
+    {
+      "question": "The Indian Men's and Women's teams won Gold medals in which sport at the 20th Asian Games in Aichi-Nagoya, Japan?",
+      "options": [
+        "Badminton",
+        "Kabaddi",
+        "Hockey",
+        "Archery"
+      ],
+      "correct": 1,
+      "explanation": "Both the Indian Men's and Women's Kabaddi teams won Gold medals at the 2026 Asian Games.",
+      "topicId": "ca-awards",
+      "exam": "NDA"
+    },
+    {
+      "question": "Exercise Varuna is the bilateral naval exercise between India and which country?",
+      "options": [
+        "Russia",
+        "United Kingdom",
+        "France",
+        "Germany"
+      ],
+      "correct": 2,
+      "explanation": "Exercise Varuna is conducted between the Indian Navy and the French Navy.",
+      "topicId": "ca-summits",
+      "exam": "NDA"
+    },
+    {
+      "question": "Which team won the Duleep Trophy 2026 cricket tournament under the captaincy of Mayank Agarwal?",
+      "options": [
+        "India B",
+        "India C",
+        "India A",
+        "India D"
+      ],
+      "correct": 2,
+      "explanation": "India A won the 2026 Duleep Trophy tournament.",
+      "topicId": "ca-awards",
+      "exam": "NDA"
+    },
+    {
+      "question": "In September 2026, the OECD projected India's economic growth rate for FY 2026-27 at:",
+      "options": [
+        "6.2%",
+        "6.6%",
+        "7.1%",
+        "7.8%"
+      ],
+      "correct": 2,
+      "explanation": "The OECD raised India's GDP growth forecast to 7.1%.",
+      "topicId": "ca-economic-measures",
+      "exam": "NDA"
+    },
+    {
+      "question": "Exercise Mitra Shakti is an annual bilateral army exercise between India and:",
+      "options": [
+        "Nepal",
+        "Sri Lanka",
+        "Bangladesh",
+        "Bhutan"
+      ],
+      "correct": 1,
+      "explanation": "Exercise Mitra Shakti is conducted between the Indian Army and the Sri Lankan Army.",
+      "topicId": "ca-summits",
+      "exam": "NDA"
+    },
+    {
+      "question": "Exercise Udara Shakti is a bilateral air combat exercise between the Indian Air Force and the air force of which Southeast Asian nation?",
+      "options": [
+        "Singapore",
+        "Malaysia",
+        "Indonesia",
+        "Thailand"
+      ],
+      "correct": 1,
+      "explanation": "Exercise Udara Shakti is conducted between the Indian Air Force and the Royal Malaysian Air Force (RMAF).",
+      "topicId": "ca-summits",
+      "exam": "NDA"
+    },
+    {
+      "question": "What is the primary role of the SkyStriker loitering munitions demonstrated during Exercise Yudh Abhyas 2026?",
+      "options": [
+        "Submarine detection in blue waters",
+        "Tactical kamikaze precision strike against enemy armor and bunkers",
+        "High-altitude atmospheric weather probing",
+        "Air-to-air dogfight engagement"
+      ],
+      "correct": 1,
+      "explanation": "SkyStriker is a loitering munition (suicide drone) designed to hover over the battlefield and dive onto enemy targets with high precision.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "NDA"
+    },
+    {
+      "question": "Teachers' Day is observed across India on September 5 to commemorate the birth anniversary of which former President of India?",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Dr. Sarvepalli Radhakrishnan",
+        "Dr. Zakir Husain",
+        "Dr. A.P.J. Abdul Kalam"
+      ],
+      "correct": 1,
+      "explanation": "Teachers' Day celebrates the birth anniversary of philosopher, scholar, and India's second President, Dr. Sarvepalli Radhakrishnan.",
+      "topicId": "ca-dates",
+      "exam": "NDA"
+    },
+    {
+      "question": "The Korwa Ordnance Factory, which produces the AK-203 assault rifles in collaboration with Russia, is situated in which district of Uttar Pradesh?",
+      "options": [
+        "Varanasi",
+        "Amethi",
+        "Kanpur",
+        "Lucknow"
+      ],
+      "correct": 1,
+      "explanation": "The factory is located in Korwa, Amethi district, Uttar Pradesh.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "NDA"
+    }
+  ]
+},
+{
+  "id": "afcat-ca-sept2026",
+  "exam": "AFCAT",
+  "subject": "Current Affairs",
+  "title": "AFCAT High-Yield Current Affairs (September 2026)",
+  "duration": 60,
+  "rules": {
+    "correctMarks": 3,
+    "incorrectMarks": -1
+  },
+  "questions": [
+    {
+      "question": "Exercise 'Tarang Shakti 2026', the largest multinational combat air exercise hosted by the IAF, was held at which air base?",
+      "options": [
+        "Air Force Station Hindon",
+        "Air Force Station Jodhpur",
+        "Air Force Station Gwalior",
+        "Air Force Station Yelahanka"
+      ],
+      "correct": 1,
+      "explanation": "Tarang Shakti 2026 was held at AFS Jodhpur in Rajasthan.",
+      "topicId": "ca-summits",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "What type of weapon is the SAT-SAAW procured for the Indian Air Force?",
+      "options": [
+        "Beyond Visual Range Air-to-Air Missile",
+        "Satellite Smart Anti-Airfield Glide Bomb",
+        "Air-Launched Cruise Missile",
+        "Anti-Radiation Missile"
+      ],
+      "correct": 1,
+      "explanation": "SAT-SAAW is an indigenous precision-guided glide bomb designed to disable enemy airbases from stand-off ranges.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The bilateral air combat exercise 'Udara Shakti' is conducted between the Indian Air Force and which nation's air force?",
+      "options": [
+        "Royal Australian Air Force",
+        "Royal Malaysian Air Force",
+        "Republic of Singapore Air Force",
+        "French Air Force"
+      ],
+      "correct": 1,
+      "explanation": "Exercise Udara Shakti is conducted with the Royal Malaysian Air Force (RMAF).",
+      "topicId": "ca-summits",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which Indian Grandmaster won individual gold on Board 1 while leading India to historic team Gold at the 45th Chess Olympiad in Budapest?",
+      "options": [
+        "R. Praggnanandhaa",
+        "D. Gukesh",
+        "Arjun Erigaisi",
+        "Vidit Gujrathi"
+      ],
+      "correct": 1,
+      "explanation": "D. Gukesh led the Indian Open team with a dominant performance on Board 1 to secure individual and team gold.",
+      "topicId": "ca-awards",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which launch vehicle was used by ISRO to launch the EOS-05 Earth observation satellite in September 2026?",
+      "options": [
+        "PSLV-C58",
+        "GSLV Mk II",
+        "LVM3-M4",
+        "SSLV-D3"
+      ],
+      "correct": 1,
+      "explanation": "EOS-05 was placed into geosynchronous orbit via GSLV Mark II.",
+      "topicId": "ca-science-tech-space",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Who won the Women's Singles title at the 2026 US Open tennis championship in New York?",
+      "options": [
+        "Iga Swiatek",
+        "Aryna Sabalenka",
+        "Coco Gauff",
+        "Jessica Pegula"
+      ],
+      "correct": 2,
+      "explanation": "Coco Gauff won the 2026 US Open Women's Singles championship.",
+      "topicId": "ca-awards",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Where were the 20th Asian Games hosted in September-October 2026?",
+      "options": [
+        "Incheon, South Korea",
+        "Aichi-Nagoya, Japan",
+        "Bangkok, Thailand",
+        "Doha, Qatar"
+      ],
+      "correct": 1,
+      "explanation": "The 2026 Asian Games were held in Aichi-Nagoya, Japan.",
+      "topicId": "ca-awards",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Exercise Yudh Abhyas 2026 between India and the USA was hosted at which military training range in India?",
+      "options": [
+        "Pokhran Firing Range",
+        "Mahajan Field Firing Range",
+        "Babina Field Firing Range",
+        "Khadakwasla"
+      ],
+      "correct": 1,
+      "explanation": "Exercise Yudh Abhyas was held at the Mahajan Field Firing Range in Bikaner, Rajasthan.",
+      "topicId": "ca-summits",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The TRISHNA thermal imaging satellite mission is a joint collaboration between ISRO and which international space agency?",
+      "options": [
+        "NASA",
+        "ESA",
+        "CNES",
+        "JAXA"
+      ],
+      "correct": 2,
+      "explanation": "TRISHNA is developed jointly with CNES, the national space agency of France.",
+      "topicId": "ca-science-tech-space",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "On which date is World Ozone Day observed globally every year?",
+      "options": [
+        "5 September",
+        "16 September",
+        "21 September",
+        "29 September"
+      ],
+      "correct": 1,
+      "explanation": "World Ozone Day is observed globally on 16 September.",
+      "topicId": "ca-dates",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The Make in India initiative, which celebrated its 12th anniversary in Sept 2026, was launched on 25 September 2014 by which Ministry?",
+      "options": [
+        "Ministry of Defence",
+        "Ministry of Commerce and Industry",
+        "Ministry of Finance",
+        "Ministry of Heavy Industries"
+      ],
+      "correct": 1,
+      "explanation": "Make in India is steered by DPIIT under the Ministry of Commerce and Industry.",
+      "topicId": "ca-policies",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The bilateral naval exercise SLINEX-26 was held between India and which country?",
+      "options": [
+        "Singapore",
+        "Seychelles",
+        "Sri Lanka",
+        "Saudi Arabia"
+      ],
+      "correct": 2,
+      "explanation": "SLINEX is the bilateral naval exercise between India and Sri Lanka.",
+      "topicId": "ca-summits",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Carlos Alcaraz, who won the 2026 US Open Men's Singles championship, represents which country?",
+      "options": [
+        "Argentina",
+        "Spain",
+        "Italy",
+        "France"
+      ],
+      "correct": 1,
+      "explanation": "Carlos Alcaraz represents Spain.",
+      "topicId": "ca-awards",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Which team won the 2026 Duleep Trophy domestic cricket championship under Mayank Agarwal?",
+      "options": [
+        "India B",
+        "India A",
+        "India C",
+        "India D"
+      ],
+      "correct": 1,
+      "explanation": "India A won the 2026 Duleep Trophy title.",
+      "topicId": "ca-awards",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Engineers' Day in India is celebrated every year on which date?",
+      "options": [
+        "5 September",
+        "15 September",
+        "25 September",
+        "30 September"
+      ],
+      "correct": 1,
+      "explanation": "Engineers' Day is celebrated on 15 September.",
+      "topicId": "ca-dates",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "In September 2026, the OECD raised India's GDP growth forecast for FY 2026-27 to:",
+      "options": [
+        "6.5%",
+        "6.8%",
+        "7.1%",
+        "7.5%"
+      ],
+      "correct": 2,
+      "explanation": "The OECD raised India's growth projection to 7.1%.",
+      "topicId": "ca-economic-measures",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Exercise Varuna is the bilateral maritime exercise between the Indian Navy and:",
+      "options": [
+        "US Navy",
+        "French Navy",
+        "Royal Navy",
+        "Russian Navy"
+      ],
+      "correct": 1,
+      "explanation": "Exercise Varuna is conducted with the French Navy.",
+      "topicId": "ca-summits",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "What type of weapon is SkyStriker, demonstrated during Exercise Yudh Abhyas 2026?",
+      "options": [
+        "Heavy Torpedo",
+        "Loitering Munition / Kamikaze Drone",
+        "Surface-to-Air Missile",
+        "Underwater Glider"
+      ],
+      "correct": 1,
+      "explanation": "SkyStriker is a precision loitering munition system.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "The AK-203 assault rifle, being produced in Korwa (Amethi), is chambered in which caliber?",
+      "options": [
+        "5.56 x 45 mm",
+        "7.62 x 39 mm",
+        "7.62 x 51 mm",
+        "9 x 19 mm"
+      ],
+      "correct": 1,
+      "explanation": "The AK-203 fires standard 7.62 x 39 mm ammunition, replacing the 5.56 mm INSAS rifle in frontline Indian Army units.",
+      "topicId": "ca-defense-acquisitions",
+      "exam": "AFCAT"
+    },
+    {
+      "question": "Teachers' Day is observed across India on September 5 to honor which great Indian philosopher and statesman?",
+      "options": [
+        "Swami Vivekananda",
+        "Dr. S. Radhakrishnan",
+        "Rabindranath Tagore",
+        "Sri Aurobindo"
+      ],
+      "correct": 1,
+      "explanation": "Teachers' Day honors Dr. Sarvepalli Radhakrishnan.",
+      "topicId": "ca-dates",
+      "exam": "AFCAT"
+    }
+  ]
+}
 ];
 
 

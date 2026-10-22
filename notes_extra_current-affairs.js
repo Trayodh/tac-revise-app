@@ -253,3 +253,78 @@ window.EXPANDED_NOTES_DATA["ca-science-tech-space"] = `
   </ul>
 </div>
 `;
+
+
+// =============================================================================
+// AUGUST 2026 & SEPTEMBER 2026 STRATEGIC CURRENT AFFAIRS CAPSULES
+// =============================================================================
+
+window.EXPANDED_NOTES_DATA["ca-august-2026-capsule"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:12px; margin-bottom:16px;">
+    <h3 style="color: #4ade80; margin:0; font-weight: 700; font-size:1.3rem;">Tactical Sitrep: August 2026 Master Current Affairs Capsule</h3>
+    <span style="background:rgba(34,197,94,0.15); color:#4ade80; border:1px solid #4ade80; border-radius:4px; padding:3px 8px; font-size:0.75rem; font-weight:600;">HIGH-YIELD CYCLE 2026-27</span>
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:20px; margin-bottom:10px; font-size:1.1rem;">1. Defence Production & Force Modernization</h4>
+  <ul style="color:#e2e8f0; line-height:1.7;">
+    <li><strong>Historic Domestic Defence Production Record:</strong> Crossed <strong>₹1.78 lakh crore</strong> in FY 2025–26, marking a near 4-fold increase since 2014 driven by private &amp; public sector defence corridors.</li>
+    <li><strong>Diving Support Vessel (DSV) INS Nipun Commissioned:</strong> Second indigenously designed DSV built by Hindustan Shipyard Limited (HSL), Visakhapatnam. Equipped with Deep Submergence Rescue Vehicle (DSRV) mating capability for submarine rescue. Fifth Diving Support Craft (DSC A24) also launched at Titagarh (Kolkata).</li>
+    <li><strong>Xtreme Weather Grade (XWG) Diesel:</strong> Indian Army and IOCL launched winterized diesel engineered to operate effectively down to <strong>-42°C</strong>, ensuring uninterrupted winter mobility across Eastern Ladakh and the Siachen Glacier.</li>
+    <li><strong>Javelin ATGM &amp; SAFHAL IMRH Engine:</strong> Tata Advanced Systems (TASL) and Lockheed Martin signed an agreement to explore domestic co-production of the Javelin anti-tank missile. HAL and Safran operationalized the SAFHAL joint venture in Bengaluru for the Aravalli engine (IMRH helicopter).</li>
+    <li><strong>Global Combat Air Programme (GCAP) Engagement:</strong> India joined the 6th-generation fighter programme (UK, Japan, Italy) as a Dialogue Partner to study fifth-plus generation avionics while advancing the indigenous AMCA project.</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:20px; margin-bottom:10px; font-size:1.1rem;">2. Joint Exercises & Bilateral Strategic Dialogues</h4>
+  <ul style="color:#e2e8f0; line-height:1.7;">
+    <li><strong>Exercise Udara Shakti 2026:</strong> Bilateral combat air drill between Indian Air Force (Su-30MKI) and Royal Malaysian Air Force (Su-30MKM) at Kuantan, Malaysia.</li>
+    <li><strong>Exercise Mitra Shakti 2026 (10th Edition):</strong> India-Sri Lanka joint military counter-insurgency exercise at Maduru Oya, Sri Lanka.</li>
+    <li><strong>India-Japan High-Level Engagements:</strong> Defence Minister Rajnath Singh hosted Japanese Minister Shinjiro Koizumi in New Delhi, reaffirming QUAD coordination and Free and Open Indo-Pacific (FOIP) security.</li>
+    <li><strong>Rejection of China's Renaming in Arunachal Pradesh:</strong> India firmly rejected China's 4th list of 30 renamed places in Arunachal Pradesh, reiterating the 1914 McMahon Line boundary framework.</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:20px; margin-bottom:10px; font-size:1.1rem;">3. Space, Environment & Economy</h4>
+  <ul style="color:#e2e8f0; line-height:1.7;">
+    <li><strong>National Space Day (August 23):</strong> Celebrated nationwide commemorating the 3rd anniversary of Chandrayaan-3 landing at 'Shiv Shakti Point' on the Moon's South Pole.</li>
+    <li><strong>Arunachal Pradesh's 1st Ramsar Site:</strong> High-altitude glacial lake <em>Sangetsar Tso</em> (Madhuri Lake) in Tawang district designated as a Ramsar Wetland of International Importance.</li>
+    <li><strong>Record Forex Reserves:</strong> Surged to an all-time high of <strong>$729.33 billion</strong> in August 2026.</li>
+  </ul>
+</div>
+`;
+
+window.EXPANDED_NOTES_DATA["ca-september-2026-capsule"] = `
+<div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:12px; margin-bottom:16px;">
+    <h3 style="color: #4ade80; margin:0; font-weight: 700; font-size:1.3rem;">Tactical Sitrep: September 2026 Master Current Affairs Capsule</h3>
+    <span style="background:rgba(34,197,94,0.15); color:#4ade80; border:1px solid #4ade80; border-radius:4px; padding:3px 8px; font-size:0.75rem; font-weight:600;">HIGH-YIELD CYCLE 2026-27</span>
+  </div>
+
+  <h4 style="color:#4ade80; margin-top:20px; margin-bottom:10px; font-size:1.1rem;">1. Air Power, Missile Procurement & Stand-off Weapons</h4>
+  <ul style="color:#e2e8f0; line-height:1.7;">
+    <li><strong>Exercise Tarang Shakti 2026:</strong> IAF hosted its largest-ever multinational air exercise at Jodhpur, Rajasthan, featuring nearly 40 air forces. Validated complex composite air operations (COMAO) alongside indigenous LCA Tejas, Prachand LCH, and Netra AEW&C.</li>
+    <li><strong>160 SAT-SAAW Precision Glide Bombs:</strong> Ministry of Defence signed ₹810.79 crore contract with Bharat Dynamics Limited (BDL) for 160 Satellite Smart Anti-Airfield Weapons (SAT-SAAW), capable of precision stand-off runway cratering from up to 100 km.</li>
+    <li><strong>Exercise Yudh Abhyas 2026 (22nd Edition):</strong> India-US joint military exercise at Mahajan Field Firing Range (Rajasthan); featured field combat demonstrations of indigenously assembled <strong>SkyStriker</strong> loitering munitions.</li>
+    <li><strong>Exercise Varuna 2026:</strong> 22nd edition of Indo-French naval exercise in the Arabian Sea and Mediterranean featuring French Carrier Strike Group and Indian stealth destroyers.</li>
+    <li><strong>Exercise SLINEX-26:</strong> Bilateral naval exercise between Indian Navy and Sri Lanka Navy conducted at Colombo, validating surface gunnery, VBSS, and maritime domain awareness under SAGAR.</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:20px; margin-bottom:10px; font-size:1.1rem;">2. Strategic Space, Quantum Tech & National Manufacturing</h4>
+  <ul style="color:#e2e8f0; line-height:1.7;">
+    <li><strong>ISRO EOS-05 Earth Observation Satellite:</strong> Launched via GSLV Mark II rocket into Geosynchronous Transfer Orbit (GTO) / GEO for real-time 24/7 disaster monitoring and border surveillance.</li>
+    <li><strong>Indo-French TRISHNA Mission:</strong> Joint thermal infrared satellite project between ISRO and CNES (France) progressed towards final payload integration for microclimate and water management.</li>
+    <li><strong>DRDO TDF Quantum Breakthrough:</strong> DRDO contracted Zero mK India to indigenously develop a <strong>20 mK Dilution Refrigerator</strong>, a vital component for superconducting quantum computing and ultra-cold sensors.</li>
+    <li><strong>12th Anniversary of 'Make in India' (Sept 25):</strong> Marked by milestone domestic production numbers across defence, electronics, and automotive sectors under DPIIT.</li>
+    <li><strong>BEL Electronic Artillery Fuses:</strong> Ministry of Defence agreement with Bharat Electronics Limited to domestically produce proximity fuses for 155mm Dhanush, K9 Vajra, and ATAGS artillery systems.</li>
+  </ul>
+
+  <h4 style="color:#4ade80; margin-top:20px; margin-bottom:10px; font-size:1.1rem;">3. Global Diplomacy, Sports & Economy</h4>
+  <ul style="color:#e2e8f0; line-height:1.7;">
+    <li><strong>Historic Double Gold at 45th Chess Olympiad (Budapest):</strong> India clinched historic team Gold in both Open and Women's categories (D. Gukesh, Arjun Erigaisi, Praggnanandhaa, Divya Deshmukh).</li>
+    <li><strong>20th Asian Games (Aichi-Nagoya, Japan):</strong> Indian Men's and Women's Kabaddi teams both bagged Gold medals.</li>
+    <li><strong>COAS General Dhiraj Seth Visits Russia:</strong> High-level review in Moscow on T-90 spares, AK-203 rifle production at Korwa (Amethi), and S-400 Triumf delivery schedules.</li>
+    <li><strong>Defence Minister's Sri Lanka Visit:</strong> Signed three key defence MoUs in Colombo regarding maritime security infrastructure and patrol craft spares under the SAGAR doctrine.</li>
+    <li><strong>OECD Upgrades India's GDP Forecast to 7.1%:</strong> Upgraded for FY 2026-27 citing strong domestic manufacturing and service exports.</li>
+    <li><strong>World Ozone Day (Sept 16):</strong> Themed 'Montreal Protocol: Advancing Climate Action', commemorating the 1987 treaty and Kigali Amendment.</li>
+  </ul>
+</div>
+`;
