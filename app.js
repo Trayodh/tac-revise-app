@@ -60,9 +60,15 @@ window.fetch = async function() {
 
     // since Vercel does not inject environment variables into static JS files.
 
-    // The interceptor is NOW enabled for all platforms (GitHub Pages static mode).
+    // The interceptor is ONLY for Android/Capacitor standalone mode.
 
     const isCapacitor = window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform();
+
+    if (!isCapacitor && url.includes('/api/gemini')) {
+
+        return originalFetch.apply(this, arguments);
+
+    }
 
     
 
@@ -102,7 +108,7 @@ window.fetch = async function() {
 
     // Intercept backend AI calls
 
-    if (url.includes('/api/gemini') && isCapacitor) {
+    if (url.includes('/api/gemini')) {
 
         try {
 
@@ -246,7 +252,7 @@ window.fetch = async function() {
 
                 try {
 
-                    const res = await originalFetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM`, {
+                    const res = await originalFetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=PROCESS_ENV_GEMINI_KEY`, {
 
                         method: 'POST',
 
@@ -333,21 +339,9 @@ window.fetch = async function() {
                     callSuccessful = true;
 
                 } catch (err) {
-                    console.warn("Cerebras API Error, falling back to Pollinations (Keyless):", err);
-                    try {
-                        const isJsonRequired = (reqBody.generationConfig?.response_mime_type === 'application/json');
-                        let fallbackPrompt = promptText;
-                        if (systemInstructionText) fallbackPrompt = "System: " + systemInstructionText + "\nUser: " + promptText;
-                        if (isJsonRequired) fallbackPrompt += "\n\nIMPORTANT: Return strictly as JSON object. No markdown.";
-                        
-                        const encodedPrompt = encodeURIComponent(fallbackPrompt);
-                        const fallbackRes = await originalFetch(`https://text.pollinations.ai/${encodedPrompt}?json=false&model=llama`);
-                        if (!fallbackRes.ok) throw new Error("Pollinations fallback failed");
-                        aiText = await fallbackRes.text();
-                        callSuccessful = true;
-                    } catch (fallbackErr) {
-                        throw new Error("Cerebras Fallback Error: " + err.message);
-                    }
+
+                    throw new Error("Cerebras Fallback Error: " + err.message);
+
                 }
 
             }
@@ -2444,10 +2438,10 @@ function renderTopicView(subjectId, chapterId, topicId) {
             </div>
             <div style="display: flex; flex-direction: column; gap: 24px;">
               ${images.map(img => `
-                  <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
-                    <img src="${img.image_path}" alt="${img.reasoning ? img.reasoning.replace(/"/g, '&quot;') : 'Diagram for ' + chapter.title}" style="max-width: 100%; border-radius: 4px; display: block; margin: 0 auto;">
-                    ${img.reasoning ? `<div style="margin-top: 12px; font-size: 0.8rem; color: var(--text-secondary); line-height: 1.4;">${img.reasoning}</div>` : ''}
-                  </div>
+                <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+                  <img src="${img.image_path}" alt="Diagram" style="max-width: 100%; border-radius: 4px; display: block; margin: 0 auto;">
+                  ${img.reasoning ? `<div style="margin-top: 12px; font-size: 0.8rem; color: var(--text-secondary); line-height: 1.4;">${img.reasoning}</div>` : ''}
+                </div>
               `).join('')}
             </div>
           </div>`;
@@ -2813,7 +2807,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
 
        window.currentMapsHtml = `<div style="display: flex; gap: 10px; overflow-x: auto; margin-bottom: 20px; padding-bottom: 10px;">` + 
 
-         displayImgs.map(src => `<img src="${src}" alt="Map Preview" style="max-height: 250px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">`).join('') +
+         displayImgs.map(src => `<img src="${src}" style="max-height: 250px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">`).join('') +
 
          `</div>`;
 
@@ -3176,33 +3170,18 @@ function fetchDailyCurrentAffairs() {
 
   
 
-  const pane = document.getElementById("ca-content-pane");
+  // Non-blocking: the offline CURRENT_AFFAIRS_DB is rendered immediately by
+  // renderCurrentAffairsHub(); live AI items are merged in if/when they arrive.
+  const caAbort = (typeof AbortController !== 'undefined') ? new AbortController() : null;
+  const caTimeout = setTimeout(() => { if (caAbort) caAbort.abort(); }, 20000);
 
-  if (pane) {
+  fetch('/api/daily-current-affairs', caAbort ? { signal: caAbort.signal } : {})
 
-    pane.innerHTML = `<div style="text-align: center; margin-top: 40px; padding: 30px;">
-
-      <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 48px; height: 48px; border-width: 4px; margin: 0 auto 20px;"></div>
-
-      <p style="color: var(--accent); font-family: var(--font-mono); letter-spacing: 1px; font-weight: 700; font-size: 0.95rem;">RETRIEVING INTELLIGENCE BRIEFING</p>
-
-      <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 8px;">Scanning PIB · Google News · 10 UPSC Topic Areas</p>
-
-      <p style="color: var(--text-muted); font-size: 0.8rem; margin-top: 6px;">AI enriching with UPSC highlights — this may take 15-30 seconds...</p>
-
-    </div>`;
-
-  }
-
-
-
-  fetch('/api/daily-current-affairs')
-
-    .then(res => res.json())
+    .then(res => { clearTimeout(caTimeout); return res.json(); })
 
     .then(data => {
 
-      if (Array.isArray(data)) {
+      if (Array.isArray(data) && data.length > 0) {
 
         const monthStr = new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' });
 
@@ -3248,15 +3227,13 @@ function fetchDailyCurrentAffairs() {
 
     .catch(err => {
 
-      console.error("Failed to fetch daily news:", err);
+      clearTimeout(caTimeout);
+
+      console.warn("[CA] Live AI feed unavailable, using offline intelligence cache:", err && err.message);
 
       isFetchingDailyNews = false;
 
       hasFetchedDailyNews = true;
-
-      if (pane) pane.innerHTML = `<p style="color: var(--danger); padding: 20px;">Secure uplink failed. Could not retrieve today's intelligence.</p>`;
-
-      setTimeout(() => renderCurrentAffairsHub(), 3000);
 
     });
 
@@ -3268,9 +3245,7 @@ function renderCurrentAffairsHub() {
 
   if (!hasFetchedDailyNews && !isFetchingDailyNews) {
 
-    fetchDailyCurrentAffairs();
-
-    return;
+    fetchDailyCurrentAffairs(); // background refresh; do NOT block rendering of offline DB
 
   }
 
@@ -3281,6 +3256,8 @@ function renderCurrentAffairsHub() {
 
 
   // Filter DB keys to only those within the current exam cycle
+
+  if (!window.CURRENT_AFFAIRS_DB || typeof window.CURRENT_AFFAIRS_DB !== 'object') window.CURRENT_AFFAIRS_DB = {};
 
   const allKeys  = Object.keys(window.CURRENT_AFFAIRS_DB);
 
@@ -5621,7 +5598,7 @@ Format the output beautifully as structured HTML using subheadings, <strong> tag
 
         body: JSON.stringify({
 
-          model: 'gemini-2.0-flash',
+          model: 'gemini-2.5-flash',
 
           contents: [{ parts: [{ text: prompt }] }]
 
@@ -5997,7 +5974,7 @@ STRICT RULES:
 
     const payload = {
 
-      model: 'gemini-1.5-pro',
+      model: 'gemini-3.8-flash',
 
       contents: [{ parts: [{ text: prompt }] }],
       generationConfig: { maxOutputTokens: 8192, temperature: 0 }
@@ -6018,13 +5995,21 @@ STRICT RULES:
 
 
 
-    if (!response.ok) throw new Error("API Error");
-
-    const data = await response.json();
+    let data;
+    if (!response.ok) {
+        try {
+            data = await response.json();
+        } catch(e) {}
+        if (data && data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts) {
+            // Proceed to render the 500 fallback message (Quota exhausted)
+        } else {
+            throw new Error(`API Error: ${response.status}`);
+        }
+    } else {
+        data = await response.json();
+    }
 
     let reportHtml = (data.candidates?.[0]?.content?.parts?.[0]?.text || data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
-
-
 
     area.className = "ai-response-area fade-in";
 
@@ -6074,7 +6059,8 @@ STRICT RULES:
 
     area.className = "ai-response-area fade-in";
 
-    area.innerHTML = `<p style="color: var(--danger);">Failed to generate Graphic Cheat Sheet. Try again.</p>`;
+    let msg = err.message || "Failed to generate Graphic Cheat Sheet. Try again.";
+    area.innerHTML = `<p style="color: var(--danger);">${msg}</p>`;
 
   }
 
@@ -6218,7 +6204,7 @@ Format entirely in clean HTML.`;
 
     const payload = {
 
-      model: 'gemini-2.0-flash',
+      model: 'gemini-2.5-flash',
 
       contents: [{
 
@@ -6398,7 +6384,7 @@ Do not output any surrounding markdown formatting (no \`\`\`json, no \`\`\`), do
 
 
 
-  const modelsToTry = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+  const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
 
   let success = false;
 
@@ -6796,8 +6782,6 @@ Cover the following sections in your notes:
 
 Use bold headings, structured layout, and do NOT use any emojis, icons, or pictorial characters. Keep the content completely emoji-free and professional.${syllabusText}${pyqText}`;
 
-
-
   try {
     const ragRes = await fetch('/api/rag_search', {
       method: 'POST',
@@ -6816,6 +6800,7 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
         prompt += `Remember: Ground your entire explanation in the chunks provided above. Cite the Context Chunk numbers where relevant.\n`;
         
         // --- TELEMETRY / MEASURABILITY ---
+        // Log to console so we can measure RAG performance
         console.log(`[RAG-ANALYTICS] Retrieved ${ragData.results.length} chunks for query: "${topicName}"`);
         ragData.results.forEach(r => console.log(`  -> Score: ${r.similarity} | ID: ${r.id}`));
       }
@@ -6824,7 +6809,7 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
     console.error("RAG search failed, falling back to direct prompt:", e);
   }
 
-  const modelsToTry = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+  const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
 
   let replyText = "";
 
@@ -6890,7 +6875,15 @@ Use bold headings, structured layout, and do NOT use any emojis, icons, or picto
 
     let formattedText = replyText
 
-      ;
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+
+      .replace(/\*(.*?)\*/g, '<em>$1</em>')
+
+      .replace(/`([^`\n]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+
+      .replace(/^#{1,3} (.+)$/gm, '<h4 style="color: var(--accent); margin:16px 0 8px;">$1</h4>')
+
+      .replace(/\n/g, '<br/>');
 
 
 
@@ -7218,22 +7211,7 @@ async function sendDronaQuery() {
 
   userMsgEl.className = "drona-message user";
 
-  userMsgEl.innerHTML = `<div>${text.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</div>`;
-
-  let topicNameForContext = "";
-  if (typeof selectedTopicId !== 'undefined' && selectedTopicId) {
-    if (typeof NOTES_DATABASE !== 'undefined') {
-      const subject = NOTES_DATABASE[selectedSubjectId];
-      const chapter = subject?.chapters.find(c => c.id === selectedChapterId);
-      const topic = chapter?.topics.find(t => t.id === selectedTopicId);
-      if (topic) topicNameForContext = topic.title;
-    }
-  }
-
-  const notesScreen = document.getElementById("screen-notes");
-  if (topicNameForContext && notesScreen && notesScreen.classList.contains("active")) {
-    userMsgEl.innerHTML += `<div style="margin-top: 8px; font-size: 0.7rem; color: var(--accent); background: rgba(var(--accent-rgb), 0.1); padding: 4px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 4px; font-family: var(--font-mono); border: 1px solid rgba(var(--accent-rgb), 0.3);"><svg viewBox="0 0 24 24" width="10" height="10" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v6h6v10H6z"/></svg> READING: ${topicNameForContext.toUpperCase()}</div>`;
-  }
+  userMsgEl.textContent = text;
 
   container.appendChild(userMsgEl);
 
@@ -7292,25 +7270,9 @@ async function sendDronaQuery() {
 
   let promptText = `You are Dronacharya, the legendary ancient tutor and guide, acting as the AI tutor for cadets preparing for NDA, CDS, AFCAT, CAPF, SSC, and other competitive defence examinations. Speak with the authority, deep wisdom, and encouraging pedagogical guidance of Guru Dronacharya.
 
-Solve the user's doubt exhaustively using the following 8-step Doubt Resolution Framework. Do not give short answers:
+Your direct answer must be exactly one line, unless the user explicitly asks for an explanation. Do not give unnecessarily long answers.
 
-Step 1: Understand and state what the student is confused about.
-
-Step 2: Explain the concept in simple, beginner-friendly language.
-
-Step 3: Explain the same concept in detailed, comprehensive language.
-
-Step 4: Provide at least 3 simple examples and 3 real-world/defence applications.
-
-Step 5: Address and debunk common exam misconceptions or traps.
-
-Step 6: Outline or recommend diagrammatic elements (timelines, flowcharts, concept trees) or comparison tables.
-
-Step 7: Reference related concepts (e.g. [[Federalism]], [[Parliament]]) using Wikipedia double brackets.
-
-Step 8: Generate 3 practice MCQs/Scenario-based questions with answers and detailed reasoning to check understanding. Include at least one statement-based question (e.g. "Consider the following statements... Which is/are correct?").
-
-- SPECIAL RULE FOR STATEMENT-BASED QUESTIONS: If the user's doubt is a statement-based question (e.g. with multiple statements I, II, III), you must systematically evaluate each statement individually, explicitly state whether each is true or false with specific reasoning, and only then derive the final correct option.
+- SPECIAL RULE FOR PREVIOUS YEAR QUESTIONS (PYQs): Analyze the user's doubt and cross-reference it with the provided context and your knowledge of previous year papers. If it matches a Previous Year Question (PYQ) from a defence exam, explicitly tell the user that it is a PYQ at the beginning of your response.
 
 - SOURCE INTEGRITY: Prioritize official, primary information (PIB, MoD, Supreme Court, Gazette of India, RBI, NITI Aayog, DRDO, ISRO, UN, etc.) over secondary coaching summaries.
 
@@ -7328,11 +7290,15 @@ Doubt to solve: ${text}`;
 
   }
 
+  if (typeof selectedTopicId !== 'undefined' && selectedTopicId && window.PYQ_TRENDS_DATA && window.PYQ_TRENDS_DATA[selectedTopicId]) {
+    promptText += `\n\nPREVIOUS YEAR PAPERS (PYQ) CONTEXT:\n${window.PYQ_TRENDS_DATA[selectedTopicId]}\nUse this to identify if the user's doubt is a PYQ.`;
+  }
+
   
 
   try {
 
-    const modelsToTry = ["gemini-3.1-flash-lite", "gemini-1.5-flash", "gemini-2.0-flash", "gemini-2.0-flash", "gemini-1.5-pro"];
+    const modelsToTry = ["gemini-3.1-flash-lite", "gemini-1.5-flash", "gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-pro"];
 
     let success = false;
 
@@ -7417,7 +7383,13 @@ Doubt to solve: ${text}`;
 
       let formattedText = replyText
 
-        ;
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+
+        .replace(/`([^`\n]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+
+        .replace(/\n/g, '<br/>');
 
       replyEl.innerHTML = parseWikiLinks(formattedText);
 
@@ -7619,7 +7591,7 @@ function initAiPaperSolver() {
 
           const base64Data = reader.result.split(',')[1];
 
-          const modelsToTry = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+          const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
 
           let success = false;
 
@@ -7715,7 +7687,17 @@ function initAiPaperSolver() {
 
               .replace(/^### (.*$)/gim, '<h3 style="color:var(--accent-dark); margin-top:16px; margin-bottom:6px;">$1</h3>')
 
-              ;
+              .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+
+              .replace(/\*(.*?)\*/g, '<em>$1</em>')
+
+              .replace(/`([^`\n]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 6px; border-radius:4px; font-family:var(--font-mono); font-size:0.9rem;">$1</code>')
+
+              .replace(/^\s*-\s+(.*$)/gim, '<li style="margin-left:20px; color:var(--text-secondary); margin-bottom:6px;">$1</li>')
+
+              .replace(/^\s*\d+\.\s+(.*$)/gim, '<li style="margin-left:20px; color:var(--text-secondary); margin-bottom:6px; list-style-type: decimal;">$1</li>')
+
+              .replace(/\n/g, '<br/>');
 
               
 
@@ -8003,7 +7985,7 @@ Ensure the design is clean, readable, premium, and uses variables like var(--acc
 
         try {
 
-          const modelsToTry = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
+          const modelsToTry = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
 
           let success = false;
 
@@ -9499,15 +9481,22 @@ At the very end of the report, include exactly 3 Multiple Choice Questions based
 
   try {
 
+    const sitrepAbort = (typeof AbortController !== 'undefined') ? new AbortController() : null;
+    const sitrepTimeout = setTimeout(() => { if (sitrepAbort) sitrepAbort.abort(); }, 25000);
+
     const response = await fetch('/api/gemini', {
 
       method: 'POST',
 
       headers: { 'Content-Type': 'application/json' },
 
-      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.0-flash', contents: [{ parts: [{ text: promptText }] }] })
+      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.5-flash', contents: [{ parts: [{ text: promptText }] }] }),
+
+      signal: sitrepAbort ? sitrepAbort.signal : undefined
 
     });
+
+    clearTimeout(sitrepTimeout);
 
     if (!response.ok) throw new Error("API Error");
 
@@ -9518,6 +9507,9 @@ At the very end of the report, include exactly 3 Multiple Choice Questions based
     // Clean up if AI hallucinates markdown
 
     let reportHtml = (data.candidates?.[0]?.content?.parts?.[0]?.text || data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
+
+    // Proxy returns an empty JSON block + "_AI uplink failed_" marker when all providers are rate-limited
+    if (!reportHtml || reportHtml.includes("_AI uplink failed") || reportHtml.length < 80) throw new Error("AI providers unavailable");
 
 
 
@@ -9543,11 +9535,11 @@ At the very end of the report, include exactly 3 Multiple Choice Questions based
 
   } catch (err) {
 
-    console.error("Sitrep Error:", err);
+    console.warn("Sitrep AI unavailable, building offline brief:", err && err.message);
 
     container.className = "panel fade-in";
 
-    container.innerHTML = `<p style="color: var(--danger);">Failed to retrieve SITREP from Dronacharya AI. Verify connection.</p>`;
+    container.innerHTML = buildOfflineSitrepHtml(dateStr);
 
   } finally {
 
@@ -9559,7 +9551,47 @@ At the very end of the report, include exactly 3 Multiple Choice Questions based
 
 
 
-let currentCaMode = 'sitrep'; // default to sitrep
+function buildOfflineSitrepHtml(dateStr) {
+  const db = window.CURRENT_AFFAIRS_DB || {};
+  const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const toTime = k => { const [m, y] = k.split(' '); const mi = monthNames.indexOf(m); return mi < 0 ? -1 : (parseInt(y, 10) * 12 + mi); };
+  const latestKey = Object.keys(db).filter(k => toTime(k) >= 0 && Array.isArray(db[k]) && db[k].length).sort((a, b) => toTime(b) - toTime(a))[0];
+  const esc = s => String(s || '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  if (!latestKey) return `<p style="color: var(--warning);">Dronacharya AI is rate-limited and no offline intelligence is cached. Try again later.</p>`;
+
+  const items = [...db[latestKey]].sort((a, b) => String(b.publicationDate || '').localeCompare(String(a.publicationDate || '')));
+  const buckets = [
+    { title: '🇮🇳 Indian Armed Forces', re: /defence|military|army|navy|naval|air force|appointment|exercise|procure|acquisition|security/i, list: [] },
+    { title: '🌐 Geopolitics & International Relations', re: /foreign|international|geopolitic|summit|relations/i, list: [] },
+    { title: '🚀 Defence Technology & Space', re: /tech|drdo|space|missile|cyber/i, list: [] },
+    { title: '📰 National Affairs, Economy & Sports', re: /./, list: [] }
+  ];
+  items.forEach(it => { const b = buckets.find(bk => bk.re.test(it.topic || '')); if (b && b.list.length < 5) b.list.push(it); });
+
+  const sections = buckets.filter(b => b.list.length).map(b => `
+    <h3 style="color:var(--accent); margin-top: 18px;">${b.title}</h3>
+    <ul style="padding-left: 18px;">${b.list.map(it => `
+      <li style="margin-bottom: 10px;"><strong>${esc(it.text)}</strong>
+        ${it.publicationDate ? `<span style="color: var(--text-muted); font-size: 0.8rem;"> · ${esc(it.publicationDate)}</span>` : ''}
+        ${Array.isArray(it.upscHighlights) && it.upscHighlights[0] ? `<div style="color: var(--text-secondary); font-size: 0.88rem;">${esc(it.upscHighlights[0])}</div>` : ''}
+      </li>`).join('')}
+    </ul>`).join('');
+
+  return `
+    <div style="border-bottom: 1px dashed rgba(255,255,255,0.1); padding-bottom: 16px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;">
+      <span style="font-weight: bold; color: var(--accent); font-family: var(--font-mono); font-size: 0.85rem;">[ DAILY INTELLIGENCE BRIEFING · OFFLINE CACHE ]</span>
+      <span style="font-size: 0.85rem; color: var(--text-muted);">${dateStr}</span>
+    </div>
+    <p style="color: var(--warning); font-size: 0.82rem; margin-bottom: 8px;">Live AI uplink is rate-limited. Showing the latest verified intel from ${esc(latestKey)} (${items.length} reports). Open <a href="#" onclick="toggleCurrentAffairsMode('monthly'); return false;" style="color: var(--accent);">Monthly Feed</a> for full details &amp; MCQs.</p>
+    <div style="line-height: 1.7; font-size: 0.95rem; color: var(--text-primary);">${sections}</div>`;
+}
+
+window.buildOfflineSitrepHtml = buildOfflineSitrepHtml;
+
+
+
+let currentCaMode = 'monthly'; // default to Monthly Feed (works offline; SITREP needs AI)
+
 
 
 
@@ -10395,7 +10427,10 @@ Do not use any emojis in your response. Keep the tone professional, scholarly, a
       if (data.candidates && data.candidates[0].content && data.candidates[0].content.parts[0]) {
         let finalText = data.candidates[0].content.parts[0].text;
         let formatted = finalText
-          ;
+          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+          .replace(/\*(.*?)\*/g, '<em>$1</em>')
+          .replace(/\n\n/g, '<br/><br/>')
+          .replace(/\n/g, '<br/>');
         streamTextArea.innerHTML = parseWikiLinks(formatted);
       } else {
         streamTextArea.innerHTML = '<span style="color: var(--danger);">No response generated.</span>';
@@ -10422,7 +10457,10 @@ Do not use any emojis in your response. Keep the tone professional, scholarly, a
                 if (parsed.candidates && parsed.candidates[0].content && parsed.candidates[0].content.parts[0]) {
                   finalText += parsed.candidates[0].content.parts[0].text;
                   let formatted = finalText
-                    ;
+                    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                    .replace(/\n\n/g, '<br/><br/>')
+                    .replace(/\n/g, '<br/>');
                   streamTextArea.innerHTML = parseWikiLinks(formatted);
                 }
               }
@@ -10495,19 +10533,110 @@ function initMotivationOfTheDay() {
 
   
 
-  // Calculate daily index based on day of year
+  const CELEBRATED_DAYS = {
+    "0-2":  { name: "Pathankot Airbase Attack Remembrance", keyword: "Pathankot" },
+    "0-10": { name: "Rajputana Rifles Raising Day", keyword: "Rajputana Rifles" },
+    "0-15": { name: "Army Day", keyword: "Army" },
+    "0-26": { name: "Republic Day", keyword: "Param Vir Chakra" },
+    "1-14": { name: "Pulwama Attack Remembrance", keyword: "Pulwama" },
+    "1-26": { name: "Operation Bandar (Balakot Airstrike) Anniversary", keyword: "Balakot" },
+    "2-10": { name: "CISF Raising Day", keyword: "CISF" },
+    "4-7":  { name: "Operation Sindoor Anniversary", keyword: "Sindoor" },
+    "5-16": { name: "Assam Regiment Raising Day", keyword: "Assam Regiment" },
+    "6-1":  { name: "LCA Tejas Induction Anniversary", keyword: "Tejas" },
+    "6-26": { name: "Kargil Vijay Diwas", keyword: "Kargil" },
+    "7-1":  { name: "Pahalgam Attack Remembrance", keyword: "Pahalgam" },
+    "7-15": { name: "Independence Day", keyword: "Param Vir Chakra" },
+    "8-2":  { name: "INS Vikrant Commissioning Anniversary", keyword: "Vikrant" },
+    "8-18": { name: "Uri Attack Remembrance", keyword: "Uri" },
+    "8-21": { name: "R&AW Foundation Day", keyword: "Intelligence" }, // Includes intelligence/unknown gunmen
+    "8-29": { name: "Surgical Strike Day (Parakram Parv)", keyword: "Surgical Strike" },
+    "9-8":  { name: "Air Force Day", keyword: "Air Force" },
+    "9-16": { name: "NSG Raising Day", keyword: "NSG" },
+    "9-24": { name: "ITBP Raising Day", keyword: "ITBP" },
+    "10-26": { name: "26/11 Mumbai Attacks Remembrance", keyword: "Mumbai" },
+    "11-1": { name: "BSF Raising Day", keyword: "BSF" },
+    "11-4": { name: "Navy Day", keyword: "Navy" },
+    "11-16": { name: "Vijay Diwas", keyword: "1971" },
+    "11-23": { name: "Intelligence Bureau (IB) Foundation Day", keyword: "Intel" }
+  };
 
-  const start = new Date(today.getFullYear(), 0, 0);
-
-  const diff = today - start;
-
-  const oneDay = 1000 * 60 * 60 * 24;
-
-  const dayOfYear = Math.floor(diff / oneDay);
-
+  const todayKey = today.getMonth() + "-" + today.getDate();
+  const celebration = CELEBRATED_DAYS[todayKey];
   
+  const bannerEl = document.getElementById("armed-forces-day-banner");
+  const bannerTextEl = document.getElementById("armed-forces-day-text");
+  
+  let matchIndex = -1;
+  if (celebration) {
+    if (bannerEl && bannerTextEl) {
+      bannerTextEl.innerText = `Happy ${celebration.name}! Honoring our Armed Forces.`;
+      bannerEl.style.display = "block";
+    }
+    
+    if (window.BRAVERY_STORIES) {
+      matchIndex = window.BRAVERY_STORIES.findIndex(story => 
+        (story.unit && story.unit.includes(celebration.keyword)) || 
+        (story.year && story.year.includes(celebration.keyword)) ||
+        (story.story && story.story.includes(celebration.keyword)) ||
+        (story.award && story.award.includes(celebration.keyword))
+      );
+    }
+  } else {
+    if (bannerEl) bannerEl.style.display = "none";
+  }
 
-  currentMotivationIndex = dayOfYear % (window.BRAVERY_STORIES ? window.BRAVERY_STORIES.length : 1);
+  const todayStr = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+  let dailyDate = null;
+  let dailyIndex = null;
+  try {
+    dailyDate = localStorage.getItem('tac_daily_motivation_date');
+    dailyIndex = localStorage.getItem('tac_daily_motivation_index');
+  } catch (e) {}
+
+  if (dailyDate === todayStr && dailyIndex !== null) {
+      currentMotivationIndex = parseInt(dailyIndex, 10);
+  } else {
+      if (matchIndex !== -1) {
+        currentMotivationIndex = matchIndex;
+      } else {
+        // Get seen stories from localStorage
+        let seenStories = [];
+        try {
+          seenStories = JSON.parse(localStorage.getItem('tac_seen_stories') || '[]');
+        } catch (e) {}
+        
+        let totalStories = window.BRAVERY_STORIES ? window.BRAVERY_STORIES.length : 1;
+        if (seenStories.length >= totalStories) {
+          seenStories = []; // Reset if all seen
+        }
+        
+        // Pick next unseen story (starting with dayOfYear to keep daily consistency if possible)
+        const start = new Date(today.getFullYear(), 0, 0);
+        const diff = today - start;
+        const oneDay = 1000 * 60 * 60 * 24;
+        const dayOfYear = Math.floor(diff / oneDay);
+        
+        let nextIndex = dayOfYear % totalStories;
+        while(seenStories.includes(nextIndex) && seenStories.length < totalStories) {
+            nextIndex = (nextIndex + 1) % totalStories;
+        }
+        currentMotivationIndex = nextIndex;
+      }
+      try {
+        localStorage.setItem('tac_daily_motivation_date', todayStr);
+        localStorage.setItem('tac_daily_motivation_index', currentMotivationIndex.toString());
+      } catch (e) {}
+  }
+  
+  // Track as seen
+  try {
+    let seenStories = JSON.parse(localStorage.getItem('tac_seen_stories') || '[]');
+    if (!seenStories.includes(currentMotivationIndex)) {
+      seenStories.push(currentMotivationIndex);
+      localStorage.setItem('tac_seen_stories', JSON.stringify(seenStories));
+    }
+  } catch (e) {}
 
   renderMotivationStory();
 
@@ -10659,7 +10788,7 @@ STRICT FORMATTING RULES:
 
     const payload = {
 
-      model: 'gemini-2.0-flash',
+      model: 'gemini-2.5-flash',
 
       contents: [{ parts: [{ text: prompt }] }]
 
@@ -10704,11 +10833,28 @@ STRICT FORMATTING RULES:
 
 
 function showNextMotivation() {
+  let seenStories = [];
+  try {
+    seenStories = JSON.parse(localStorage.getItem('tac_seen_stories') || '[]');
+  } catch (e) {}
+  
+  let totalStories = window.BRAVERY_STORIES ? window.BRAVERY_STORIES.length : 1;
+  if (seenStories.length >= totalStories) {
+    seenStories = [];
+  }
 
-  currentMotivationIndex = (currentMotivationIndex + 1) % (window.BRAVERY_STORIES ? window.BRAVERY_STORIES.length : 1);
+  let nextIndex = (currentMotivationIndex + 1) % totalStories;
+  while(seenStories.includes(nextIndex) && seenStories.length < totalStories) {
+      nextIndex = (nextIndex + 1) % totalStories;
+  }
+  currentMotivationIndex = nextIndex;
+
+  seenStories.push(currentMotivationIndex);
+  try {
+    localStorage.setItem('tac_seen_stories', JSON.stringify(seenStories));
+  } catch(e) {}
 
   renderMotivationStory();
-
 }
 
 
@@ -11238,7 +11384,13 @@ function formatTextChunk(text) {
 
   return text
 
-    ;
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+
+    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+
+    .replace(/`/g, '')
+
+    .replace(/\n/g, '<br/>');
 
 }
 
@@ -11248,7 +11400,15 @@ function renderAiNotes(text, contentArea, btnCopy, btnDownload, title) {
 
   let formattedText = text
 
-    ;
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+
+    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+
+    .replace(/`([^`\n]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+
+    .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:16px 0 8px;">$1</h4>')
+
+    .replace(/\n/g, '<br/>');
 
 
 
@@ -11700,7 +11860,7 @@ Format the response cleanly with markdown headings, bullet points, and strong mi
 
       headers: { 'Content-Type': 'application/json' },
 
-      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.0-flash', contents: [{ parts: [{ text: promptText }] }] })
+      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.5-flash', contents: [{ parts: [{ text: promptText }] }] })
 
     });
 
@@ -11720,7 +11880,13 @@ Format the response cleanly with markdown headings, bullet points, and strong mi
 
     let formattedText = replyText
 
-      ;
+      .replace(/\*\*(.*?)\*\*/g, '<strong style="color:var(--info);">$1</strong>')
+
+      .replace(/\*(.*?)\*/g, '<em>$1</em>')
+
+      .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:16px 0 8px; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:4px;">$1</h4>')
+
+      .replace(/\n/g, '<br/>');
 
 
 
@@ -13771,7 +13937,7 @@ Make sure to weave their weak areas into the plan.`;
 
       headers: { 'Content-Type': 'application/json' },
 
-      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.0-flash', contents: [{ parts: [{ text: promptText }] }] })
+      body: JSON.stringify({ prompt: promptText, model: 'gemini-2.5-flash', contents: [{ parts: [{ text: promptText }] }] })
 
     });
 
@@ -14093,7 +14259,7 @@ Format with clean, bold headings and simple HTML line breaks. Do NOT use any emo
 
       body: JSON.stringify({
 
-        model: "gemini-2.0-flash",
+        model: "gemini-2.5-flash",
 
         contents: [{ parts: [{ text: prompt }] }],
 
@@ -14115,7 +14281,15 @@ Format with clean, bold headings and simple HTML line breaks. Do NOT use any emo
 
         let formattedText = text
 
-          ;
+          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+
+          .replace(/\*(.*?)\*/g, '<em>$1</em>')
+
+          .replace(/`([^`\n]+)`/g, '<code style="background-color:rgba(255,255,255,0.05); padding:2px 4px; border-radius:4px;">$1</code>')
+
+          .replace(/^#{1,3} (.+)$/gm, '<h4 style="color:var(--accent); margin:12px 0 6px;">$1</h4>')
+
+          .replace(/\n/g, '<br/>');
 
         
 
@@ -15041,7 +15215,7 @@ async function solveAdvancedMath() {
 
     const payload = {
 
-      model: "gemini-1.5-pro",
+      model: "gemini-2.5-pro",
 
       contents: [{ parts: [{ text: questionText }] }],
 
@@ -16391,11 +16565,11 @@ window.renderAdminDashboard = async function() {
 
       <td style='padding: 12px; display: flex; gap: 8px; align-items: center; white-space: nowrap;'>
 
-        <button onclick='updateUserStatus("${u.id || u.email}", "active")' style='padding: 4px 8px; background: transparent; color: var(--text-secondary); border: none; border-radius: 4px; cursor: pointer; font-size: 0.85rem; transition: color 0.2s;' onmouseover='this.style.color="#4ade80"' onmouseout='this.style.color="var(--text-secondary)"'>Approve</button>
+        <button onclick='updateUserStatus("${u.id || u.email}", "active", this)' style='padding: 6px 14px; background: #10b981; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; transition: all 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.3);' onmouseover='this.style.background="#059669"' onmouseout='this.style.background="#10b981"'>✓ Approve</button>
 
-        <button onclick='updateUserStatus("${u.id || u.email}", "locked")' style='padding: 4px 10px; background: #ef4444; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Lock</button>
+        <button onclick='updateUserStatus("${u.id || u.email}", "locked", this)' style='padding: 6px 12px; background: #ef4444; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem; font-weight: 600; transition: all 0.2s;' onmouseover='this.style.background="#dc2626"' onmouseout='this.style.background="#ef4444"'>Lock</button>
 
-        <button onclick='updateUserStatus("${u.id || u.email}", "pending_payment")' style='padding: 4px 10px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Reject</button>
+        <button onclick='updateUserStatus("${u.id || u.email}", "pending_payment", this)' style='padding: 6px 12px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem; font-weight: 600; transition: all 0.2s;' onmouseover='this.style.background="#2563eb"' onmouseout='this.style.background="#3b82f6"'>Reject</button>
 
       </td>
 
@@ -16411,90 +16585,261 @@ window.renderAdminDashboard = async function() {
 
   }
 
+  // Display diagnostic notice if running without active Supabase session
+  try {
+    let hasSupabaseSession = false;
+    if (window.supabaseClient) {
+      const { data } = await window.supabaseClient.auth.getSession();
+      hasSupabaseSession = !!(data && data.session && data.session.user);
+    }
+    const existingBanner = document.getElementById('admin-session-notice');
+    if (!hasSupabaseSession) {
+      if (!existingBanner) {
+        const banner = document.createElement('div');
+        banner.id = 'admin-session-notice';
+        banner.style.cssText = 'background: rgba(234, 179, 8, 0.1); border: 1px solid rgba(234, 179, 8, 0.3); border-radius: 8px; padding: 10px 16px; margin-bottom: 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 0.82rem; color: #fbbf24;';
+        banner.innerHTML = `
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span>⚡</span>
+            <span><strong>Local Admin Mode:</strong> Supabase requires a live session or the RPC helper to update cloud records. If buttons don't save, click to view the 1-click SQL fix.</span>
+          </div>
+          <button onclick="showSupabaseRlsHelpModal('setup', 'help')" style="padding: 4px 10px; background: #eab308; color: #000; font-weight: 600; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem; white-space: nowrap;">SQL Helper</button>
+        `;
+        const card = tbody.closest('.card');
+        if (card && card.parentNode) {
+          card.parentNode.insertBefore(banner, card);
+        }
+      }
+    } else if (existingBanner) {
+      existingBanner.remove();
+    }
+  } catch(e) {}
+
 };
 
+window.showAdminToast = function(message, type = 'info') {
+  let toast = document.getElementById('admin-toast-banner');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'admin-toast-banner';
+    toast.style.cssText = 'position: fixed; bottom: 24px; right: 24px; z-index: 99999; padding: 12px 20px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; box-shadow: 0 4px 16px rgba(0,0,0,0.4); display: flex; align-items: center; gap: 10px; transition: opacity 0.3s, transform 0.3s;';
+    document.body.appendChild(toast);
+  }
+  const bg = type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#3b82f6';
+  toast.style.background = bg;
+  toast.style.color = '#ffffff';
+  toast.innerText = message;
+  toast.style.opacity = '1';
+  toast.style.transform = 'translateY(0)';
+  clearTimeout(toast._timeout);
+  toast._timeout = setTimeout(() => {
+    toast.style.opacity = '0';
+    toast.style.transform = 'translateY(10px)';
+  }, 3500);
+};
 
+window.showSupabaseRlsHelpModal = function(userIdOrEmail, targetStatus) {
+  let modal = document.getElementById('supabase-rls-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'supabase-rls-modal';
+    modal.className = 'modal-overlay';
+    modal.style.cssText = 'display: flex; position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 100000; align-items: center; justify-content: center; padding: 20px;';
+    document.body.appendChild(modal);
+  }
 
-window.updateUserStatus = async function(userIdOrEmail, newStatus) {
+  const sqlSnippet = `-- 1-Click Fix for Admin Approvals in Supabase SQL Editor:
+CREATE OR REPLACE FUNCTION public.admin_set_user_status(target_user_id UUID, new_status TEXT)
+RETURNS JSONB AS $$
+DECLARE
+  updated_row public.user_profiles%ROWTYPE;
+BEGIN
+  UPDATE public.user_profiles
+  SET status = new_status,
+      approved_at = CASE WHEN new_status = 'active' THEN NOW() ELSE approved_at END
+  WHERE id = target_user_id
+  RETURNING * INTO updated_row;
 
-  if (window.supabaseClient && userIdOrEmail.includes('-')) {
+  IF FOUND THEN
+    RETURN jsonb_build_object('success', true, 'id', updated_row.id, 'status', updated_row.status);
+  ELSE
+    RETURN jsonb_build_object('success', false, 'error', 'User not found');
+  END IF;
+END;
+$$ LANGUAGE plpgsql SECURITY DEFINER;
 
-    // Looks like a UUID
+GRANT EXECUTE ON FUNCTION public.admin_set_user_status(UUID, TEXT) TO anon, authenticated;
 
-    let updateData = { status: newStatus };
+-- Also permit direct updates from the app
+DROP POLICY IF EXISTS "Enable admin update all" ON public.user_profiles;
+CREATE POLICY "Enable admin update all" ON public.user_profiles
+FOR UPDATE USING (true) WITH CHECK (true);`;
 
-    if (newStatus === 'active') {
+  modal.innerHTML = `
+    <div style="background: #111827; border: 1px solid rgba(255,255,255,0.15); border-radius: 12px; max-width: 650px; width: 100%; padding: 24px; color: #f3f4f6; box-shadow: 0 10px 40px rgba(0,0,0,0.8); position: relative; font-family: var(--font-main, sans-serif);">
+      <button onclick="document.getElementById('supabase-rls-modal').style.display='none'" style="position: absolute; top: 16px; right: 16px; background: none; border: none; color: #9ca3af; font-size: 1.4rem; cursor: pointer;">&times;</button>
+      
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+        <span style="font-size: 1.5rem;">⚠️</span>
+        <h3 style="margin: 0; font-size: 1.2rem; color: #fbbf24;">Supabase Database Authorization Required</h3>
+      </div>
+      
+      <p style="font-size: 0.88rem; color: #9ca3af; line-height: 1.5; margin-bottom: 16px;">
+        The status for <strong style="color: #fff;">${userIdOrEmail}</strong> could not be saved to Supabase because Row-Level Security (RLS) requires database authorization. You are currently logged in via local admin mode.
+      </p>
 
-      updateData.approved_at = new Date().toISOString();
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 14px; margin-bottom: 16px;">
+        <div style="font-weight: 600; font-size: 0.9rem; margin-bottom: 6px; color: #38bdf8;">Quick 10-Second Fix (Permanent 1-Click Approvals):</div>
+        <p style="font-size: 0.8rem; color: #9ca3af; margin: 0 0 10px 0;">
+          Run this short SQL snippet in your <a href="https://supabase.com/dashboard/project/usjzsdvsasjtsyzrvivx/sql/new" target="_blank" style="color: #60a5fa; text-decoration: underline;">Supabase SQL Editor</a>. It enables <code>SECURITY DEFINER</code> so you can approve users directly with 1 click:
+        </p>
+        <div style="position: relative;">
+          <pre id="admin-sql-copy-code" style="background: #030712; padding: 12px; border-radius: 6px; font-size: 0.72rem; overflow-x: auto; color: #a7f3d0; margin: 0; max-height: 140px; border: 1px solid rgba(255,255,255,0.06);">${sqlSnippet.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
+          <button id="copy-sql-btn" onclick="navigator.clipboard.writeText(document.getElementById('admin-sql-copy-code').innerText).then(() => { this.innerText = '✓ Copied!'; setTimeout(() => this.innerText = 'Copy SQL', 2000); })" style="position: absolute; top: 8px; right: 8px; padding: 4px 10px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; font-size: 0.75rem; cursor: pointer;">Copy SQL</button>
+        </div>
+      </div>
 
-    }
+      <div style="display: flex; gap: 10px; justify-content: flex-end;">
+        <button onclick="document.getElementById('supabase-rls-modal').style.display='none'; if(typeof toggleAuthMode === 'function'){ document.getElementById('auth-modal').style.display='flex'; }" style="padding: 8px 16px; background: rgba(255,255,255,0.1); color: #fff; border: 1px solid rgba(255,255,255,0.2); border-radius: 6px; cursor: pointer; font-size: 0.85rem;">
+          Sign In with Supabase
+        </button>
+        <button onclick="document.getElementById('supabase-rls-modal').style.display='none'" style="padding: 8px 20px; background: #10b981; color: #fff; border: none; border-radius: 6px; cursor: pointer; font-size: 0.85rem; font-weight: 600;">
+          Done (Close)
+        </button>
+      </div>
+    </div>
+  `;
+  modal.style.display = 'flex';
+};
 
-    await window.supabaseClient.from('user_profiles').update(updateData).eq('id', userIdOrEmail);
+window.updateUserStatus = async function(userIdOrEmail, newStatus, btnEl) {
+  let originalBtnText = '';
+  if (btnEl) {
+    btnEl.disabled = true;
+    originalBtnText = btnEl.innerText;
+    btnEl.innerText = newStatus === 'active' ? 'Approving...' : 'Updating...';
+    btnEl.style.opacity = '0.6';
+  }
 
-  } else {
+  try {
+    let success = false;
+    let rlsBlocked = false;
 
-    // Mock user logic
-
-    let offlineUsers = [];
-
+    // 1. Try server-side endpoint first (works seamlessly if service key is in .env or via server)
     try {
-
-      offlineUsers = JSON.parse(localStorage.getItem('offline_users')) || [];
-
-    } catch(e) {}
-
-    
-
-    let u = offlineUsers.find(u => u.email === userIdOrEmail);
-
-    if (!u) {
-
-       // Check MOCK array and clone
-
-       const mockU = window.MOCK_ADMIN_USERS.find(m => m.email === userIdOrEmail);
-
-       if (mockU) {
-
-         u = { ...mockU };
-
-         offlineUsers.push(u);
-
-       }
-
-    }
-
-    
-
-    if (u) {
-
-      u.status = newStatus;
-
-      if (newStatus === 'active') {
-
-        u.approved_at = new Date().toISOString();
-
+      const serverRes = await fetch('/api/admin/update-status', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: userIdOrEmail.includes('-') ? userIdOrEmail : null,
+          email: !userIdOrEmail.includes('-') ? userIdOrEmail : null,
+          status: newStatus
+        })
+      });
+      if (serverRes.ok) {
+        const json = await serverRes.json();
+        if (json.success) {
+          success = true;
+        } else if (json.requiresServiceKey) {
+          rlsBlocked = true;
+        }
       }
-
-      localStorage.setItem('offline_users', JSON.stringify(offlineUsers));
-
+    } catch (e) {
+      console.warn("[Admin] Server endpoint unreachable, falling back to direct client:", e);
     }
 
+    // 2. Try Supabase RPC 'admin_set_user_status' if not yet successful
+    if (!success && window.supabaseClient && userIdOrEmail.includes('-')) {
+      try {
+        const { data, error } = await window.supabaseClient.rpc('admin_set_user_status', {
+          target_user_id: userIdOrEmail,
+          new_status: newStatus
+        });
+        if (!error && data && data.success !== false) {
+          success = true;
+        }
+      } catch (e) {
+        console.warn("[Admin] RPC admin_set_user_status attempt failed:", e);
+      }
+    }
+
+    // 3. Try direct client-side Supabase update
+    if (!success && window.supabaseClient && userIdOrEmail.includes('-')) {
+      try {
+        let updateData = { status: newStatus };
+        if (newStatus === 'active') {
+          updateData.approved_at = new Date().toISOString();
+        }
+        const { data, error } = await window.supabaseClient
+          .from('user_profiles')
+          .update(updateData)
+          .eq('id', userIdOrEmail)
+          .select();
+
+        if (!error && Array.isArray(data) && data.length > 0) {
+          success = true;
+        } else if (!error && Array.isArray(data) && data.length === 0) {
+          // 0 rows updated means RLS rejected it
+          rlsBlocked = true;
+        } else if (error) {
+          console.error("[Admin] Supabase direct update error:", error);
+          rlsBlocked = true;
+        }
+      } catch (e) {
+        console.error("[Admin] Exception during Supabase update:", e);
+      }
+    }
+
+    // 4. Update offline / local users storage as well
+    let offlineUsers = [];
+    try {
+      offlineUsers = JSON.parse(localStorage.getItem('offline_users')) || [];
+    } catch(e) {}
+    
+    let u = offlineUsers.find(item => item.id === userIdOrEmail || item.email === userIdOrEmail);
+    if (!u) {
+      const mockU = (window.MOCK_ADMIN_USERS || []).find(m => m.email === userIdOrEmail || m.id === userIdOrEmail);
+      if (mockU) {
+        u = { ...mockU };
+        offlineUsers.push(u);
+      }
+    }
+    if (u) {
+      u.status = newStatus;
+      if (newStatus === 'active') u.approved_at = new Date().toISOString();
+      localStorage.setItem('offline_users', JSON.stringify(offlineUsers));
+      if (!userIdOrEmail.includes('-')) {
+        success = true; // offline mock user updated
+      }
+    }
+
+    // Update active user state if modifying self
+    if (STATE.activeProfile && (STATE.activeProfile.id === userIdOrEmail || STATE.activeProfile.email === userIdOrEmail)) {
+      STATE.activeProfile.status = newStatus;
+      if (typeof saveState === 'function') saveState();
+    }
+
+    // 5. Handle Outcome
+    if (success) {
+      showAdminToast(`✓ User status set to ${newStatus.toUpperCase()}!`, 'success');
+      await renderAdminDashboard();
+    } else if (rlsBlocked) {
+      showSupabaseRlsHelpModal(userIdOrEmail, newStatus);
+    } else {
+      alert(`Could not update user status to ${newStatus}. Please check console logs.`);
+      await renderAdminDashboard();
+    }
+
+  } catch (err) {
+    console.error("[Admin] updateUserStatus error:", err);
+    alert("Error updating user status: " + err.message);
+  } finally {
+    if (btnEl) {
+      btnEl.disabled = false;
+      btnEl.innerText = originalBtnText;
+      btnEl.style.opacity = '1';
+    }
   }
-
-  
-
-  // Update local state if modifying self
-
-  if (STATE.activeProfile && (STATE.activeProfile.id === userIdOrEmail || STATE.activeProfile.email === userIdOrEmail)) {
-
-    STATE.activeProfile.status = newStatus;
-
-    if (typeof saveState === 'function') saveState();
-
-  }
-
-  renderAdminDashboard();
-
 };
 
 // Military C2 Clocks
